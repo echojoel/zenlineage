@@ -1,0 +1,244 @@
+[
+  {
+    "name": "Dongshan Liangjie",
+    "names_cjk": "",
+    "dates": "",
+    "teachers": [],
+    "school": "Qingyuan line",
+    "source_id": "src_chan_ancestors_pdf",
+    "ingestion_run_id": "TEST_RUN",
+    "names_alt": ["Tung-shan Liang-chieh", "Tôzan Ryôkai"],
+    "grid_code": "L11"
+  },
+  {
+    "name": "Dongshan Shouchu",
+    "names_cjk": "",
+    "dates": "",
+    "teachers": [],
+    "school": "Nanyue line",
+    "source_id": "src_chan_ancestors_pdf",
+    "ingestion_run_id": "TEST_RUN",
+    "names_alt": ["Tung-shan Shou-ch'u", "Tôsan Shusho"],
+    "grid_code": "K14"
+  },
+  {
+    "name": "Puti Damo",
+    "names_cjk": "",
+    "dates": "d. 536? C.E.",
+    "teachers": [],
+    "school": "Early Chan",
+    "source_id": "src_chan_ancestors_pdf",
+    "ingestion_run_id": "TEST_RUN",
+    "names_alt": ["P'u-ti Ta-mo", "Bodai Daruma"],
+    "grid_code": "I1"
+  },
+  {
+    "name": "Dajian Huineng",
+    "names_cjk": "",
+    "dates": "638-713",
+    "teachers": [],
+    "school": "Early Chan",
+    "source_id": "src_chan_ancestors_pdf",
+    "ingestion_run_id": "TEST_RUN",
+    "names_alt": ["Ta-chien Hui-nêng", "Daikan Enô"],
+    "grid_code": "I6",
+    "nicknames": ["Caoxi"]
+  },
+  {
+    "name": "Daman Hongren",
+    "names_cjk": "",
+    "dates": "602-675",
+    "teachers": [],
+    "school": "Early Chan",
+    "source_id": "src_chan_ancestors_pdf",
+    "ingestion_run_id": "TEST_RUN",
+    "names_alt": ["Ta-man Hung-jên", "Daiman Kônin"],
+    "grid_code": "I5",
+    "nicknames": ["Huangmei"]
+  },
+  {
+    "name": "Jianzhi Sengcan",
+    "names_cjk": "",
+    "dates": "d. 606",
+    "teachers": [],
+    "school": "Early Chan",
+    "source_id": "src_chan_ancestors_pdf",
+    "ingestion_run_id": "TEST_RUN",
+    "names_alt": ["Chien-Chih Sêng-ts'an", "Kanchi Sôsan"],
+    "grid_code": "I3"
+  },
+  {
+    "name": "Dayi Daoxin",
+    "names_cjk": "",
+    "dates": "580-651",
+    "teachers": [],
+    "school": "Early Chan",
+    "source_id": "src_chan_ancestors_pdf",
+    "ingestion_run_id": "TEST_RUN",
+    "names_alt": ["Ta-i Tao-hsin", "Daii Dôshin"],
+    "grid_code": "I4"
+  },
+  {
+    "name": "Dazu Huike",
+    "names_cjk": "",
+    "dates": "487-593",
+    "teachers": [],
+    "school": "Early Chan",
+    "source_id": "src_chan_ancestors_pdf",
+    "ingestion_run_id": "TEST_RUN",
+    "names_alt": ["Ta-tsu Hui-k'o", "Taiso Eka"],
+    "grid_code": "I2"
+  },
+  {
+    "name": "Nanyue Huairang",
+    "names_cjk": "",
+    "dates": "677-744",
+    "teachers": [],
+    "school": "Linji",
+    "source_id": "src_chan_ancestors_pdf",
+    "ingestion_run_id": "TEST_RUN",
+    "names_alt": ["Nan-yüeh Huai-jang", "Nangaku Ejô"],
+    "grid_code": "A7"
+  },
+  {
+    "name": "Qingyuan Xingsi",
+    "names_cjk": "",
+    "dates": "d. 740",
+    "teachers": [],
+    "school": "Qingyuan line",
+    "source_id": "src_chan_ancestors_pdf",
+    "ingestion_run_id": "TEST_RUN",
+    "names_alt": ["Ch'ing-yüan Hsing-ssu", "Seigen Gyôshi"],
+    "grid_code": "L7"
+  },
+  {
+    "name": "Shitou Xiqian",
+    "names_cjk": "",
+    "dates": "700-790",
+    "teachers": [],
+    "school": "Qingyuan line",
+    "source_id": "src_chan_ancestors_pdf",
+    "ingestion_run_id": "TEST_RUN",
+    "names_alt": ["Shih-T'ou Hsi-ch'ien", "Sekitô Kisen"],
+    "grid_code": "L8"
+  },
+  {
+    "name": "Mazu Daoyi",
+    "names_cjk": "",
+    "dates": "709-88",
+    "teachers": [],
+    "school": "Linji",
+    "source_id": "src_chan_ancestors_pdf",
+    "ingestion_run_id": "TEST_RUN",
+    "names_alt": ["Ma-tsu Tao-i", "Baso Dôitsu"],
+    "grid_code": "A8"
+  },
+  {
+    "name": "Nanyang Huizhong",
+    "names_cjk": "",
+    "dates": "d. 775",
+    "teachers": [],
+    "school": "Qingyuan line",
+    "source_id": "src_chan_ancestors_pdf",
+    "ingestion_run_id": "TEST_RUN",
+    "names_alt": ["Nan-yang Hui-chung", "Nan'yô Echû"],
+    "grid_code": "M7"
+  },
+  {
+    "name": "Danyuan Yingzhen",
+    "names_cjk": "",
+    "dates": "n.d.",
+    "teachers": [],
+    "school": "Qingyuan line",
+    "source_id": "src_chan_ancestors_pdf",
+    "ingestion_run_id": "TEST_RUN",
+    "names_alt": ["Tan-yüan Ying-chên", "Tangen Ôshin"],
+    "grid_code": "M8"
+  },
+  {
+    "name": "Yongjia Xuanjue",
+    "names_cjk": "",
+    "dates": "d. 713",
+    "teachers": [],
+    "school": "Qingyuan line",
+    "source_id": "src_chan_ancestors_pdf",
+    "ingestion_run_id": "TEST_RUN",
+    "names_alt": ["Yung-chia Hsüan-chüeh", "Yôka Genkaku"],
+    "grid_code": "N7"
+  },
+  {
+    "name": "Linji Yixuan",
+    "names_cjk": "",
+    "dates": "",
+    "teachers": [],
+    "school": "Linji",
+    "source_id": "src_chan_ancestors_pdf",
+    "ingestion_run_id": "TEST_RUN",
+    "names_alt": ["Lin-chi I-hsüan", "Rinzai Gigen"],
+    "grid_code": "A11"
+  },
+  {
+    "name": "Guifeng Zongmi",
+    "names_cjk": "",
+    "dates": "",
+    "teachers": [
+      {
+        "name": "Suizhou Daoyuan",
+        "edge_type": "primary",
+        "locator": "Q11",
+        "notes": "Not shown on chart. Student of Suizhou Daoyuan"
+      }
+    ],
+    "school": "Other",
+    "source_id": "src_chan_ancestors_pdf",
+    "ingestion_run_id": "TEST_RUN"
+  },
+  {
+    "name": "Huoan Shiti",
+    "names_cjk": "",
+    "dates": "",
+    "teachers": [
+      {
+        "name": "Huguo Jingyuan",
+        "edge_type": "primary",
+        "locator": "B22",
+        "notes": "Not shown on chart. Student of Huguo Jingyuan"
+      }
+    ],
+    "school": "Linji",
+    "source_id": "src_chan_ancestors_pdf",
+    "ingestion_run_id": "TEST_RUN"
+  },
+  {
+    "name": "Licun",
+    "names_cjk": "",
+    "dates": "",
+    "teachers": [
+      {
+        "name": "Linji Yixuan",
+        "edge_type": "primary",
+        "locator": "A11",
+        "notes": "Not shown on chart. Student of Linji Yixuan"
+      }
+    ],
+    "school": "Linji",
+    "source_id": "src_chan_ancestors_pdf",
+    "ingestion_run_id": "TEST_RUN"
+  },
+  {
+    "name": "Tongfeng Anzhu",
+    "names_cjk": "",
+    "dates": "",
+    "teachers": [
+      {
+        "name": "Linji Yixuan",
+        "edge_type": "primary",
+        "locator": "A11",
+        "notes": "Not shown on chart. Student of Linji Yixuan"
+      }
+    ],
+    "school": "Linji",
+    "source_id": "src_chan_ancestors_pdf",
+    "ingestion_run_id": "TEST_RUN"
+  }
+]

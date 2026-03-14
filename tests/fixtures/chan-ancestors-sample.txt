@@ -1,0 +1,93 @@
+Guiyang (Igyô) School
+Huanglong Huinan
+Huang-lung Hui-nan
+Ôryû Enan
+1002-69
+Oxhead School
+Daguang Juhui
+Ta-kuang Chü-hui
+Daikô Kokai
+837-903
+Map	Map
+of the	of the
+Zen	Zen
+Ancestors	Ancestors
+Bodhidharma
+Puti Damo
+P'u-ti Ta-mo
+Bodai Daruma
+d. 536? C.E.
+Dazu Huike
+Ta-tsu Hui-k'o
+Taiso Eka
+487-593
+Jianzhi Sengcan
+Chien-chih Sêng-ts'an
+Kanchi Sôsan
+d. 606
+Dayi Daoxin
+Ta-i Tao-hsin
+Daii Dôshin
+580-651
+Daman Hongren
+"Huangmei"
+Ta-man Hung-jên
+Daiman Kônin
+602-675
+Dajian Huineng
+"Caoxi"
+Ta-chien Hui-nêng
+Daikan Enô
+638-713
+Shitou Xiqian
+Shih-t'ou Hsi-ch'ien
+Sekitô Kisen
+700-790
+Danyuan Yingzhen
+Tan-yüan Ying-chên
+Tangen Ôshin
+n.d.
+Qingyuan Xingsi
+Ch'ing-yüan Hsing-
+ssü
+Seigen Gyôshi
+d. 740
+Nanyang Huizhong
+Nan-yang Hui-chung
+Nan'yô Echû
+d. 775
+Yongjia Xuanjue
+Yung-chia Hsüan-
+chüeh
+Yôka Genkaku
+d. 713
+Nanyue Huairang
+Nan-yüeh Huai-jang
+Nangaku Ejô
+677-744
+Mazu Daoyi
+Ma-tsu Tao-i
+Baso Dôitsu
+709-88
+Dongshan Liangjie	Tung-shan Liang-chieh	Tôzan Ryôkai	L11 43	22,49,56	9,81
+89,94,98	85
+Dongshan Shouchu	Tung-shan Shou-ch'u	Tôsan Shusho	K14 12	15,18 88
+Puti Damo	P'u-ti Ta-mo	Bodai Daruma	I1 1	2	41
+Dajian Huineng	Ta-chien Hui-nêng	Daikan Enô	I6	23,29 1
+Daman Hongren	Ta-man Hung-jên	Daiman Kônin	I5
+Jianzhi Sengcan	Chien-Chih Sêng-ts'an	Kanchi Sôsan	I3
+Dayi Daoxin	Ta-i Tao-hsin	Daii Dôshin	I4
+Dazu Huike	Ta-tsu Hui-k'o	Taiso Eka	I2	41
+Nanyue Huairang	Nan-yüeh Huai-jang	Nangaku Ejô	A7
+Qingyuan Xingsi	Ch'ing-yüan Hsing-ssu	Seigen Gyôshi	L7	5	1,2
+Shitou Xiqian	Shih-T'ou Hsi-ch'ien	Sekitô Kisen	L8	2
+Mazu Daoyi	Ma-tsu Tao-i	Baso Dôitsu	A8 3,53,73	6,36	30,33 18
+Nanyang Huizhong	Nan-yang Hui-chung	Nan'yô Echû	M7 18,99	42,85	17	17,86
+Danyuan Yingzhen	Tan-yüan Ying-chên	Tangen Ôshin	M8 18	85	17
+Yongjia Xuanjue	Yung-chia Hsüan-chüeh	Yôka Genkaku	N7	7
+Guifeng Zongmi (Not shown. Student of Suizhou Daoyuan, Q11)
+Huoan Shiti (Not shown. Student of Huguo Jingyuan, B22)
+Licun (Not shown. Student of Linji Yixuan, A11)	79
+Tongfeng Anzhu (Not shown. Student of Linji Yixuan, A11)	85
+Linji Yixuan	Lin-chi I-hsüan	Rinzai Gigen	A11 20,32	13, 38, 80	64
+86, 95
