@@ -368,12 +368,6 @@ export default async function MasterDetailPage({ params }: { params: Promise<{ s
               </Link>
             )}
           </div>
-          {publishedImage?.attribution && (
-            <p className="detail-list-meta">
-              Image attribution: {publishedImage.attribution}
-              {publishedImage.license ? ` · ${publishedImage.license}` : ""}
-            </p>
-          )}
           {publishedBiography && (
             <div className="detail-summary">
               {publishedBiography.split("\n\n").map((paragraph, index) => (
@@ -555,6 +549,12 @@ export default async function MasterDetailPage({ params }: { params: Promise<{ s
                 );
               })}
             </ul>
+          )}
+          {publishedImage?.attribution && (
+            <p className="detail-list-meta" style={{ fontSize: "0.7rem", marginTop: "1rem" }}>
+              Image: {publishedImage.attribution}
+              {publishedImage.license ? ` · ${publishedImage.license}` : ""}
+            </p>
           )}
         </section>
       </div>
