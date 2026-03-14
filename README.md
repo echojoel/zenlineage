@@ -45,7 +45,7 @@ These numbers describe the local checked-in data and `zen.db` in this workspace.
 | Masters with at least one citation               | 231                                                                   |
 | Masters with biographies in `master_biographies` | 50                                                                    |
 | Biographies with item-level citations            | 50                                                                    |
-| Media assets with item-level citations           | 0                                                                     |
+| Media assets with item-level citations           | 41                                                                    |
 | Masters with image metadata                      | 41 cited rows in `media_assets`, 41 published                         |
 | Orphan masters with no lineage edges             | 153                                                                   |
 
