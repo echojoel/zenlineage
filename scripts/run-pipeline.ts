@@ -33,6 +33,11 @@ const STEPS: PipelineStep[] = [
     args: ["tsx", "scripts/seed-biographies.ts"],
   },
   {
+    label: "Seed teachings",
+    command: "npx",
+    args: ["tsx", "scripts/seed-teachings.ts"],
+  },
+  {
     label: "Run coverage audit",
     command: "npx",
     args: ["tsx", "scripts/check-exit-criteria.ts"],
