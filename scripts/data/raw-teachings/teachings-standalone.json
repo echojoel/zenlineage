@@ -2640,5 +2640,563 @@
     "master_roles": [
       { "slug": "omori-sogen", "role": "attributed_to" }
     ]
+  },
+
+  {
+    "slug": "yamada-koun-kensho-all-faiths",
+    "type": "saying",
+    "author_slug": "yamada-koun",
+    "collection": "Zen: The Authentic Gate",
+    "era": "Showa",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "On Kensho Being Available to All Faiths",
+    "content": "I have come to the conclusion that Zen is not a religion in the sense that the term is popularly understood. It has no special doctrine or philosophy, no creeds or dogmas, no ritual or liturgy, and no prescribed form of worship. Kensho—seeing into one's own nature—is available to people of all faiths. A Christian can practice Zen and deepen their Christianity. A Buddhist can practice Zen and deepen their Buddhism. Zen is the practice of coming to the experience that lies at the root of all religions.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Zen: The Authentic Gate, introduction",
+    "license_status": "fair_use",
+    "master_roles": [
+      { "slug": "yamada-koun", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "yamada-koun-gateless-barrier-mu",
+    "type": "sermon",
+    "author_slug": "yamada-koun",
+    "collection": "Gateless Gate (Yamada Commentary)",
+    "era": "Showa",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "The Gateless Barrier of Mu",
+    "content": "Mu is the gateless barrier of Zen. When you sit with Mu, you must become one with it—not thinking about Mu, not analyzing Mu, but becoming Mu itself with your entire body and mind. Mu is not a concept to be understood intellectually. It is not 'nothing' as opposed to 'something.' It is not negative and not positive. When you truly become Mu, the gate that seemed to block your way is revealed to have been open from the very beginning. The barrier was never there. This is why we call it the gateless barrier.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Gateless Gate, Yamada Koun commentary on Case 1",
+    "license_status": "fair_use",
+    "master_roles": [
+      { "slug": "yamada-koun", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "ananda-thus-have-i-heard",
+    "type": "saying",
+    "author_slug": "ananda",
+    "collection": "Traditional Buddhist Canon",
+    "era": "Tang",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "Thus Have I Heard",
+    "content": "Thus have I heard. These are the words with which every sutra begins, for it was Ananda—the Buddha's attendant for twenty-five years—who recited from memory the entirety of the Buddha's teachings at the First Council. Though Ananda had not yet attained full awakening during the Buddha's lifetime, his perfect memory preserved every word. On the night before the council, pressed by the urgency of the task, Ananda at last relinquished his striving and lay down to rest. In that moment of letting go, his mind opened completely, and he was fully awakened.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Traditional account of the First Buddhist Council",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "ananda", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "ashvaghosha-awakening-of-faith",
+    "type": "verse",
+    "author_slug": "ashvaghosha",
+    "collection": "Awakening of Faith in the Mahayana",
+    "era": "Han",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "On Original Enlightenment and the Tathagatagarbha",
+    "content": "The Mind in terms of the Absolute is the one World of Reality and the essence of all phases of existence in their totality. That which is called the essential nature of the Mind is unborn and imperishable. All things are only different aspects of this one Mind. The mind from the beginning is of a pure nature, but since there is the finite aspect of it which is sullied by finite views, there is the sullied aspect of it. Yet the original pure nature of the mind is eternally unchanged. This is the meaning of tathagatagarbha—the womb of the Thus-Come-One, the original enlightenment present in all beings.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Awakening of Faith in the Mahayana, on original enlightenment",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "ashvaghosha", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "vasubandhu-three-natures",
+    "type": "saying",
+    "author_slug": "vasubandhu",
+    "collection": "Trimsika (Thirty Verses on Consciousness Only)",
+    "era": "Han",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "On Consciousness-Only and the Three Natures",
+    "content": "All that we experience is nothing but consciousness. What appears as an external world is the transformation of consciousness itself. There are three natures to be understood: the imagined nature, which is the false construction of self and dharmas where none exist; the dependent nature, which is the arising of consciousness through causes and conditions; and the perfected nature, which is the dependent nature free from the imagined. When the imagined is removed from the dependent, what remains is the perfected—suchness itself. This is the meaning of consciousness-only: not that nothing exists, but that nothing exists in the way we imagine it to.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Trimsika (Thirty Verses), on the three natures",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "vasubandhu", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "aryadeva-emptiness-of-dharmas",
+    "type": "saying",
+    "author_slug": "aryadeva",
+    "collection": "Catuhshataka (Four Hundred Verses)",
+    "era": "Han",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "On the Emptiness of All Dharmas",
+    "content": "Just as the body is not the foot, the foot is not the body, and neither is the self—so too with all dharmas: none has an inherent nature that can be found upon investigation. If things existed inherently, what need would there be for the path? But because all phenomena are empty of self-nature, transformation is possible, liberation is possible, and the path of awakening stands open. The student of Nagarjuna sees that emptiness is not a void to be feared but the very condition that makes compassion and awakening possible.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Catuhshataka, on emptiness",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "aryadeva", "role": "attributed_to" }
+    ]
+  },
+
+  {
+    "slug": "proverb-no-snowflake-wrong-place",
+    "type": "proverb",
+    "author_slug": "shakyamuni-buddha",
+    "collection": "Traditional Zen Proverbs",
+    "era": "Tang",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "No Snowflake in the Wrong Place",
+    "content": "No snowflake ever falls in the wrong place.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Traditional Zen proverb",
+    "license_status": "public_domain",
+    "master_roles": []
+  },
+  {
+    "slug": "proverb-lamp-unto-yourself",
+    "type": "proverb",
+    "author_slug": "shakyamuni-buddha",
+    "collection": "Traditional Zen Proverbs",
+    "era": "Tang",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "Be a Lamp Unto Yourself",
+    "content": "Be a lamp unto yourself. Work out your liberation with diligence.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Traditional Zen proverb, after the Mahaparinibbana Sutta",
+    "license_status": "public_domain",
+    "master_roles": []
+  },
+  {
+    "slug": "proverb-obstacle-is-the-path",
+    "type": "proverb",
+    "author_slug": "shakyamuni-buddha",
+    "collection": "Traditional Zen Proverbs",
+    "era": "Tang",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "The Obstacle Is the Path",
+    "content": "The obstacle is the path.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Traditional Zen proverb",
+    "license_status": "public_domain",
+    "master_roles": []
+  },
+  {
+    "slug": "proverb-let-go-or-be-dragged",
+    "type": "proverb",
+    "author_slug": "shakyamuni-buddha",
+    "collection": "Traditional Zen Proverbs",
+    "era": "Tang",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "Let Go, or Be Dragged",
+    "content": "Let go, or be dragged.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Traditional Zen proverb",
+    "license_status": "public_domain",
+    "master_roles": []
+  },
+  {
+    "slug": "proverb-zen-on-mountaintops",
+    "type": "proverb",
+    "author_slug": "shakyamuni-buddha",
+    "collection": "Traditional Zen Proverbs",
+    "era": "Tang",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "Zen on the Mountaintops",
+    "content": "The only Zen you find on the tops of mountains is the Zen you bring up there.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Traditional Zen proverb",
+    "license_status": "public_domain",
+    "master_roles": []
+  },
+  {
+    "slug": "proverb-things-just-as-they-are",
+    "type": "proverb",
+    "author_slug": "shakyamuni-buddha",
+    "collection": "Traditional Zen Proverbs",
+    "era": "Tang",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "Things Are Just as They Are",
+    "content": "If you understand, things are just as they are. If you do not understand, things are just as they are.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Traditional Zen proverb",
+    "license_status": "public_domain",
+    "master_roles": []
+  },
+  {
+    "slug": "proverb-not-thinking-is-zen",
+    "type": "proverb",
+    "author_slug": "shakyamuni-buddha",
+    "collection": "Traditional Zen Proverbs",
+    "era": "Tang",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "Not Thinking About Anything Is Zen",
+    "content": "Not thinking about anything is Zen. Once you know this, walking, standing, sitting, or lying down, everything you do is Zen.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Traditional Zen proverb",
+    "license_status": "public_domain",
+    "master_roles": []
+  },
+  {
+    "slug": "proverb-place-you-need-to-be",
+    "type": "proverb",
+    "author_slug": "shakyamuni-buddha",
+    "collection": "Traditional Zen Proverbs",
+    "era": "Tang",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "The Place You Need to Be",
+    "content": "Wherever you are, it is the place you need to be.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Traditional Zen proverb",
+    "license_status": "public_domain",
+    "master_roles": []
+  },
+  {
+    "slug": "proverb-follow-the-path",
+    "type": "proverb",
+    "author_slug": "shakyamuni-buddha",
+    "collection": "Traditional Zen Proverbs",
+    "era": "Tang",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "Follow the Path, Become the Master",
+    "content": "To follow the path, look to the master, follow the master, walk with the master, see through the master, become the master.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Traditional Zen proverb",
+    "license_status": "public_domain",
+    "master_roles": []
+  },
+  {
+    "slug": "proverb-when-walking-just-walk",
+    "type": "proverb",
+    "author_slug": "shakyamuni-buddha",
+    "collection": "Traditional Zen Proverbs",
+    "era": "Tang",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "When Walking, Just Walk",
+    "content": "When walking, just walk. When eating, just eat.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Traditional Zen proverb",
+    "license_status": "public_domain",
+    "master_roles": []
+  },
+  {
+    "slug": "proverb-seek-what-they-sought",
+    "type": "proverb",
+    "author_slug": "shakyamuni-buddha",
+    "collection": "Traditional Zen Proverbs",
+    "era": "Tang",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "Seek What They Sought",
+    "content": "Do not seek to follow in the footsteps of the wise; seek what they sought.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Traditional Zen proverb, after Matsuo Basho",
+    "license_status": "public_domain",
+    "master_roles": []
+  },
+
+  {
+    "slug": "mazu-yangtze-river",
+    "type": "dialogue",
+    "author_slug": "mazu-daoyi",
+    "collection": "Transmission of the Lamp",
+    "era": "Tang",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "Drink Up the Yangtze River",
+    "content": "A monk asked Mazu, \"What is the meaning of Bodhidharma's coming from the West?\"\n\nMazu said, \"I'll tell you after you've drunk up the Yangtze River in one gulp.\"\n\nThe monk stood speechless.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Jingde Chuandeng Lu, Mazu chapter",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "mazu-daoyi", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "baizhang-wild-fox",
+    "type": "dialogue",
+    "author_slug": "baizhang-huaihai",
+    "collection": "Mumonkan",
+    "era": "Tang",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "The Wild Fox Koan",
+    "content": "Every time Baizhang gave a talk, an old man would attend and listen. One day the old man stayed behind and said, \"I am not a human being. In the time of Kashyapa Buddha I was the head monk on this mountain. A student asked me, 'Does a person of great cultivation fall under the law of cause and effect, or not?' I answered, 'Such a person does not fall under cause and effect.' For this I was reborn as a wild fox for five hundred lifetimes. I beg you, Master, give me a turning word so that I may be released.\"\n\nBaizhang said, \"Such a person does not evade cause and effect.\"\n\nAt these words the old man was greatly enlightened.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Mumonkan, Case 2",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "baizhang-huaihai", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "huangbo-one-mind-dharma",
+    "type": "dialogue",
+    "author_slug": "huangbo-xiyun",
+    "collection": "Chuanxin Fayao",
+    "era": "Tang",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "The One Mind That All Buddhas Teach",
+    "content": "Huangbo said, \"The dharma that all Buddhas teach is the same dharma—the One Mind. This Mind is without beginning, is unborn and indestructible. It is not green nor yellow, and has no form or appearance. It does not belong to the categories of things which exist or do not exist, nor is it to be considered new or old. It is neither long nor short, big nor small, for it transcends all limits, measures, names, traces, and comparisons.\"\n\nA monk asked, \"Then how should one practice?\"\n\nHuangbo said, \"There is nothing to practice. Just let things be in their own way, and there will be neither coming nor going. This is called the One Mind, and there is no other dharma besides it.\"",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Chuanxin Fayao (Essential Dharma of Mind Transmission)",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "huangbo-xiyun", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "dogen-being-time-uji",
+    "type": "sermon",
+    "author_slug": "dogen",
+    "collection": "Shobogenzo",
+    "era": "Kamakura",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "Being-Time (Uji)",
+    "content": "An ancient Buddha said, \"For the time being, I stand on the highest mountain peak. For the time being, I move along the deepest ocean floor.\" 'For the time being' here means time itself is being, and all being is time. Each moment is all being, is the entire world. Reflect now whether any being or any world is left out of the present moment. Being-time has the quality of flowing. Today flows into tomorrow, today flows into yesterday. This flowing does not mean that time moves from today to tomorrow. Today is the time of today; yesterday is the time of yesterday. They are not separate, and yet they do not merge.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Shobogenzo, Uji (Being-Time)",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "dogen", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "dogen-spring-does-not-become-summer",
+    "type": "saying",
+    "author_slug": "dogen",
+    "collection": "Shobogenzo",
+    "era": "Kamakura",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "Spring Does Not Become Summer",
+    "content": "Firewood becomes ash, and does not become firewood again. Yet do not think that the ash is after and the firewood is before. Firewood abides in its dharma-position as firewood, with its own before and after. Spring does not become summer. We do not say that spring becomes summer. There is spring, and there is summer. Each abides in its own dharma-position completely. This is being-time. Life does not become death. Death does not become life. Life is its own complete moment; death is its own complete moment. They are like winter and spring—we do not say that winter becomes spring, or that spring becomes winter.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Shobogenzo, Genjokoan",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "dogen", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "zhaozhou-dog-buddha-nature",
+    "type": "dialogue",
+    "author_slug": "zhaozhou-congshen",
+    "collection": "Recorded Sayings of Zhaozhou",
+    "era": "Tang",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "Does a Dog Have Buddha Nature?",
+    "content": "A monk asked Zhaozhou, \"Does a dog have Buddha nature, or not?\"\n\nZhaozhou said, \"Wu!\" [No!]\n\nThis single word—Mu—has become the first barrier that countless students of Zen have thrown themselves against. It is not an answer to be understood with the intellect. Zhaozhou's Mu is not the opposite of 'yes.' It cuts through the very question, through the one who asks, through all dualistic thinking. To penetrate Mu is to penetrate the gateless barrier itself.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Zhaozhou Lu (Recorded Sayings of Zhaozhou)",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "zhaozhou-congshen", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "zhaozhou-south-and-north",
+    "type": "dialogue",
+    "author_slug": "zhaozhou-congshen",
+    "collection": "Recorded Sayings of Zhaozhou",
+    "era": "Tang",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "I Have Been to the South and the North",
+    "content": "Zhaozhou went to a hermit's place and asked, \"Are you in? Are you in?\"\n\nThe hermit raised his fist.\n\nZhaozhou said, \"The water is too shallow for a ship to anchor.\" He left.\n\nHe went to another hermit's place and asked, \"Are you in? Are you in?\"\n\nThe hermit also raised his fist.\n\nZhaozhou said, \"Freely you give, freely you take away. Freely you bestow life, freely you destroy.\" He bowed deeply.\n\nWhen asked why he approved of one and not the other when both raised their fists, Zhaozhou said, \"I have been to the South and the North. I know the lay of the land.\"",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Zhaozhou Lu, the two hermits",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "zhaozhou-congshen", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "linji-be-the-master",
+    "type": "saying",
+    "author_slug": "linji-yixuan",
+    "collection": "Linji Lu",
+    "era": "Tang",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "Be the Master Wherever You Are",
+    "content": "Be the master wherever you are, and wherever you stand is the true place. No matter what circumstances come your way, they cannot pull you off center. Even if you are confronted by the evil influences of old karma, or by the five kinds of uninterrupted hell, these become for you the great ocean of emancipation. Students today cannot get anywhere because they base their understanding on the interpretations of old masters. If you want to be free, be the master right now. Do not be swayed by anything. Break through every obstacle you meet, and the place where you stand will be genuine.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Linji Lu (Record of Linji), Discourses",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "linji-yixuan", "role": "attributed_to" }
+    ]
+  },
+
+  {
+    "slug": "yamada-koun-zen-is-experience",
+    "type": "saying",
+    "author_slug": "yamada-koun",
+    "collection": "Zen: The Authentic Gate",
+    "era": "Showa",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "Zen Is Experience, Not Philosophy",
+    "content": "Zen is not a philosophy. It is not a system of thought. It is the experience of living reality, here and now. You cannot capture it in concepts, though concepts may point toward it. You cannot find it in books, though books may inspire you to look. The experience of kensho is as definite and unmistakable as the experience of tasting water—you know immediately whether it is warm or cold. No one can tell you what water tastes like; you must drink it yourself.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Zen: The Authentic Gate, on the nature of Zen",
+    "license_status": "fair_use",
+    "master_roles": [
+      { "slug": "yamada-koun", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "mazu-not-mind-not-buddha",
+    "type": "dialogue",
+    "author_slug": "mazu-daoyi",
+    "collection": "Transmission of the Lamp",
+    "era": "Tang",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "Not Mind, Not Buddha",
+    "content": "A monk asked Mazu, \"What is Buddha?\"\n\nMazu said, \"This mind is Buddha.\"\n\nLater, another monk asked, \"What is Buddha?\"\n\nMazu said, \"Not mind, not Buddha.\"\n\nWhen asked why he gave two different answers, Mazu said, \"'This mind is Buddha' is to stop a baby from crying. Once the crying has stopped, I say 'Not mind, not Buddha.' The first is medicine for the sick; the second takes away the medicine when the sickness is cured.\"",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Jingde Chuandeng Lu, Mazu chapter",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "mazu-daoyi", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "yunmen-body-exposed-golden-wind",
+    "type": "dialogue",
+    "author_slug": "yunmen-wenyan",
+    "collection": "Blue Cliff Record",
+    "era": "Tang",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "Body Exposed in the Golden Wind",
+    "content": "A monk asked Yunmen, \"When the tree withers and the leaves fall, what then?\"\n\nYunmen said, \"Body exposed in the golden wind.\"",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Blue Cliff Record, Case 27",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "yunmen-wenyan", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "dongshan-sesame-flax",
+    "type": "dialogue",
+    "author_slug": "dongshan-liangjie",
+    "collection": "Blue Cliff Record",
+    "era": "Tang",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "The Seamless Monument",
+    "content": "Dongshan was unwell. A monk asked, \"Your Reverence is ill, but is there anyone who does not get ill?\"\n\nDongshan said, \"There is.\"\n\nThe monk asked, \"Does the one who does not get ill look after Your Reverence?\"\n\nDongshan said, \"This old monk is properly looking after that one.\"\n\nThe monk asked, \"How is it when you look after that one?\"\n\nDongshan said, \"Then I do not see that there is any illness.\"",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Recorded Sayings of Dongshan, on illness",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "dongshan-liangjie", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "nanquan-flower-in-a-dream",
+    "type": "dialogue",
+    "author_slug": "nanquan-puyuan",
+    "collection": "Blue Cliff Record",
+    "era": "Tang",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "A Flower in a Dream",
+    "content": "The official Lu Geng said to Nanquan, \"The teaching of Sengzhao says, 'Heaven and earth and I share one root; the myriad things and I are of one body.' This is marvelous indeed!\"\n\nNanquan pointed to a flower in the garden and said, \"People of this age see this flower as if in a dream.\"",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Blue Cliff Record, Case 40",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "nanquan-puyuan", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "deshan-nothing-within-nothing-without",
+    "type": "dialogue",
+    "author_slug": "deshan-xuanjian",
+    "collection": "Blue Cliff Record",
+    "era": "Tang",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "Nothing Within, Nothing Without",
+    "content": "Deshan came to the dharma hall and said, \"Tonight I will not answer any questions. Anyone who asks a question gets thirty blows of the stick.\"\n\nA monk came forward and bowed.\n\nDeshan immediately struck him.\n\nThe monk said, \"I haven't even asked a question yet. Why do you hit me?\"\n\nDeshan said, \"Where are you from?\"\n\nThe monk said, \"From Silla.\"\n\nDeshan said, \"Before you even boarded the ship, you already deserved thirty blows.\"",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Blue Cliff Record, Deshan's thirty blows",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "deshan-xuanjian", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "huineng-think-neither-good-nor-evil",
+    "type": "dialogue",
+    "author_slug": "dajian-huineng",
+    "collection": "Platform Sutra",
+    "era": "Tang",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "Think Neither Good Nor Evil",
+    "content": "The monk Huiming pursued the Sixth Patriarch to seize the robe and bowl. When he caught up, Huineng placed the robe and bowl on a rock and said, \"This robe represents the dharma. It should not be fought over by force. Take it if you wish.\"\n\nHuiming tried to lift them but could not. Trembling, he said, \"I came for the dharma, not for the robe.\"\n\nHuineng said, \"Think neither good nor evil. At this very moment, what is your original face—the face you had before your mother and father were born?\"\n\nAt these words, Huiming was greatly enlightened.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Platform Sutra, encounter with Huiming",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "dajian-huineng", "role": "speaker" }
+    ]
   }
 ]
