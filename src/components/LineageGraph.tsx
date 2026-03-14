@@ -822,7 +822,7 @@ export default function LineageGraph() {
           value={timeMax}
           onChange={(e) => setTimeMax(Number(e.target.value))}
         />
-        <span className="scrubber-value">{timeMax}</span>
+        <span className="scrubber-value">{timeMax === dataMaxYear ? "Now" : timeMax}</span>
       </div>
 
       {/* Canvas */}
