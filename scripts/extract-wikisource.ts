@@ -316,34 +316,7 @@ export function parseMumonkan(
   // Build RawTeaching records from parsed headings
   for (const h of headings) {
     if (h.caseNum < 1 || h.caseNum > 48) continue;
-
-    const masterInfo = MUMONKAN_MASTER_MAP[h.caseNum];
-    const authorSlug = masterInfo?.slug ?? "unknown";
-
-    const masterRoles: RawMasterRole[] = [];
-    if (masterInfo && masterInfo.slug !== "unknown") {
-      masterRoles.push({ slug: masterInfo.slug, role: "speaker" });
-    }
-    // Wumen Huikai is always the commentator
-    masterRoles.push({ slug: "wumen-huikai", role: "commentator" });
-
-    teachings.push({
-      slug: `mumonkan-case-${String(h.caseNum).padStart(2, "0")}`,
-      type: "koan",
-      author_slug: authorSlug,
-      collection: "Mumonkan",
-      case_number: String(h.caseNum),
-      compiler: "Wumen Huikai",
-      era: "Song",
-      attribution_status: "verified",
-      locale: "en",
-      title: h.title,
-      content: h.content,
-      source_id: sourceId,
-      ingestion_run_id: ingestionRunId,
-      locator: `Case ${h.caseNum}`,
-      master_roles: masterRoles,
-    });
+    teachings.push(buildMumonkanTeaching(h.caseNum, h.title, h.content, sourceId, ingestionRunId));
   }
 
   // Sort by case number
@@ -528,8 +501,9 @@ async function main(): Promise<void> {
       console.log("  Fetching individual case pages...");
       const mumonkanTeachings: RawTeaching[] = [];
 
-      for (const entry of tocEntries) {
-        await sleep(RATE_LIMIT_MS);
+      for (let i = 0; i < tocEntries.length; i++) {
+        if (i > 0) await sleep(RATE_LIMIT_MS);
+        const entry = tocEntries[i]!;
         try {
           const caseHtml = await fetchWikisourcePage(
             decodeURIComponent(entry.subpage)
@@ -558,9 +532,10 @@ async function main(): Promise<void> {
       allTeachings.push(...mumonkanTeachings);
     }
 
+    const mumonkanCount = allTeachings.length;
     await finishIngestionRun(mumonkanRun, {
-      recordCount: allTeachings.length,
-      notes: `Extracted ${allTeachings.length} Mumonkan cases from Wikisource subpages.`,
+      recordCount: mumonkanCount,
+      notes: `Extracted ${mumonkanCount} Mumonkan cases from Wikisource subpages.`,
       snapshotHash: fingerprintContent(tocHtml),
       snapshotArchiveRef: toArchiveRef(OUTPUT_PATH),
     });

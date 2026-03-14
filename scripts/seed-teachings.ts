@@ -26,10 +26,13 @@ const RAW_TEACHINGS_DIR = path.join(
 );
 
 function loadAllTeachings(): RawTeaching[] {
-  if (!fs.existsSync(RAW_TEACHINGS_DIR)) {
+  let dirEntries: string[];
+  try {
+    dirEntries = fs.readdirSync(RAW_TEACHINGS_DIR);
+  } catch {
     return [];
   }
-  const files = fs.readdirSync(RAW_TEACHINGS_DIR)
+  const files = dirEntries
     .filter(f => f.startsWith("teachings-") && f.endsWith(".json"))
     .sort();
 
@@ -71,20 +74,14 @@ async function seedTeachings(): Promise<void> {
   // 5. Process each teaching
   for (const row of rawData) {
     // a. Resolve author_slug → masterId (null for "unknown" authors)
-    let authorId: string | null = null;
-    if (row.author_slug === "unknown") {
-      authorId = null;
-    } else {
-      const resolved = slugToMasterId.get(row.author_slug);
-      if (!resolved) {
-        console.warn(
-          `[seed-teachings] Warning: no master found for author_slug "${row.author_slug}" (teaching: ${row.slug}). Skipping.`
-        );
-        skippedCount++;
-        continue;
-      }
-      authorId = resolved;
+    if (row.author_slug !== "unknown" && !slugToMasterId.has(row.author_slug)) {
+      console.warn(
+        `[seed-teachings] Warning: no master found for author_slug "${row.author_slug}" (teaching: ${row.slug}). Skipping.`
+      );
+      skippedCount++;
+      continue;
     }
+    const authorId = row.author_slug === "unknown" ? null : slugToMasterId.get(row.author_slug)!;
 
     // b. Generate deterministic IDs
     const teachingId = deterministicId(`teaching:${row.slug}`);

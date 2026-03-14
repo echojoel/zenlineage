@@ -46,6 +46,7 @@ next-env.d.ts
 
 # data pipeline intermediates
 scripts/data/raw/*.json
+scripts/data/raw-teachings/wikisource-teachings.json
 scripts/data/enriched/
 scripts/data/i18n/
 scripts/data/review-queue.json

@@ -119,5 +119,9 @@ describe("buildMumonkanTeaching", () => {
     const teaching = buildMumonkanTeaching(48, "One Road", "Content", "src_test", "run_test");
     expect(teaching.slug).toBe("mumonkan-case-48");
     expect(teaching.author_slug).toBe("yuezhou-qianfeng");
+    expect(teaching.master_roles).toEqual([
+      { slug: "yuezhou-qianfeng", role: "speaker" },
+      { slug: "wumen-huikai", role: "commentator" },
+    ]);
   });
 });
