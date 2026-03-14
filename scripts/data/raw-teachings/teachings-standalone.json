@@ -1426,5 +1426,221 @@
     "master_roles": [
       { "slug": "roland-rech", "role": "attributed_to" }
     ]
+  },
+  {
+    "slug": "sawaki-cant-trade-a-fart",
+    "type": "saying",
+    "author_slug": "kodo-sawaki",
+    "collection": "To You (Anata ni)",
+    "era": "Showa",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "You Can't Trade a Fart",
+    "content": "You can't even trade a single fart with the next guy. Each and every one of us has to live out our own life. Don't waste time trying to be someone else.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Kodo Sawaki, To You",
+    "license_status": "fair_use",
+    "master_roles": [
+      { "slug": "kodo-sawaki", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "sawaki-gaining-is-delusion",
+    "type": "saying",
+    "author_slug": "kodo-sawaki",
+    "collection": "To You (Anata ni)",
+    "era": "Showa",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "Gaining Is Delusion",
+    "content": "Gaining is delusion. Losing is enlightenment.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Kodo Sawaki, To You",
+    "license_status": "fair_use",
+    "master_roles": [
+      { "slug": "kodo-sawaki", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "sawaki-hell-in-your-chest",
+    "type": "saying",
+    "author_slug": "kodo-sawaki",
+    "collection": "To You (Anata ni)",
+    "era": "Showa",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "Hell Is in Your Own Chest",
+    "content": "Hell is not somewhere else. The scenery of hell exists right in the middle of our own chest.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Kodo Sawaki, To You",
+    "license_status": "fair_use",
+    "master_roles": [
+      { "slug": "kodo-sawaki", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "sawaki-group-sickness",
+    "type": "saying",
+    "author_slug": "kodo-sawaki",
+    "collection": "To You (Anata ni)",
+    "era": "Showa",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "Group Sickness",
+    "content": "What is the world? It is group sickness. Everyone is crazy, so nobody notices the craziness. When everyone is deluded together, the delusion seems normal. Zazen means waking up from this group sickness and walking on your own two feet.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Kodo Sawaki, To You",
+    "license_status": "fair_use",
+    "master_roles": [
+      { "slug": "kodo-sawaki", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "sawaki-religion-your-own-life",
+    "type": "saying",
+    "author_slug": "kodo-sawaki",
+    "collection": "To You (Anata ni)",
+    "era": "Showa",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "Religion Is Living Your Own Life",
+    "content": "What is religion? It is living your own life, completely fresh and new, without being taken in by anyone.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Kodo Sawaki, To You",
+    "license_status": "fair_use",
+    "master_roles": [
+      { "slug": "kodo-sawaki", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "sawaki-dont-put-heads-together",
+    "type": "saying",
+    "author_slug": "kodo-sawaki",
+    "collection": "To You (Anata ni)",
+    "era": "Showa",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "Don't Put Your Heads Together",
+    "content": "People always put their heads together and try to figure things out. But no matter how many deluded people put their heads together, all they'll come up with is delusion. One person sitting zazen is worth more than a million people discussing Zen.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Kodo Sawaki, To You",
+    "license_status": "fair_use",
+    "master_roles": [
+      { "slug": "kodo-sawaki", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "sawaki-no-one-to-be",
+    "type": "saying",
+    "author_slug": "kodo-sawaki",
+    "collection": "To You (Anata ni)",
+    "era": "Showa",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "There Is No One to Be",
+    "content": "You're all running around trying to become something, trying to be somebody. But there's no one to become. You're already who you are. The problem is that who you are doesn't match up with who you think you should be. Sit zazen and give up trying to be somebody.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Kodo Sawaki, To You",
+    "license_status": "fair_use",
+    "master_roles": [
+      { "slug": "kodo-sawaki", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "sawaki-secretion-of-brain",
+    "type": "saying",
+    "author_slug": "kodo-sawaki",
+    "collection": "To You (Anata ni)",
+    "era": "Showa",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "Thoughts Are a Secretion",
+    "content": "Thinking is just a secretion of the brain, the same way the stomach secretes digestive juices. You don't have to take it so seriously. Let your thoughts come and go during zazen. Don't chase them, don't fight them. They're just brain secretions.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Kodo Sawaki, To You",
+    "license_status": "fair_use",
+    "master_roles": [
+      { "slug": "kodo-sawaki", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "sawaki-original-face-before-parents",
+    "type": "saying",
+    "author_slug": "kodo-sawaki",
+    "collection": "To You (Anata ni)",
+    "era": "Showa",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "The Self That Lives Your Life",
+    "content": "The self that lives your whole life is not the self that society has created. Society made you a name, a position, a reputation. But the self that sits zazen, that breathes, that dies—this self was never born and can never die. This is your original face before your parents were born.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Kodo Sawaki, To You",
+    "license_status": "fair_use",
+    "master_roles": [
+      { "slug": "kodo-sawaki", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "sawaki-zazen-just-sit",
+    "type": "saying",
+    "author_slug": "kodo-sawaki",
+    "collection": "To You (Anata ni)",
+    "era": "Showa",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "Just Sit",
+    "content": "When you sit zazen, just sit. Don't sit in order to become a Buddha. Don't sit in order to get enlightened. Don't sit in order to feel good. Don't sit for any reason at all. Just sit. That's it. That's the whole thing.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Kodo Sawaki, To You",
+    "license_status": "fair_use",
+    "master_roles": [
+      { "slug": "kodo-sawaki", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "sawaki-everyone-wants-happiness",
+    "type": "saying",
+    "author_slug": "kodo-sawaki",
+    "collection": "To You (Anata ni)",
+    "era": "Showa",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "Everyone Wants Happiness",
+    "content": "Everyone is running around trying to find happiness. But the happiness they find is only suffering in disguise. True happiness has nothing to do with pleasure. True happiness is when you stop running.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Kodo Sawaki, To You",
+    "license_status": "fair_use",
+    "master_roles": [
+      { "slug": "kodo-sawaki", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "sawaki-zazen-and-everyday-life",
+    "type": "saying",
+    "author_slug": "kodo-sawaki",
+    "collection": "To You (Anata ni)",
+    "era": "Showa",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "Zen Is Everyday Life",
+    "content": "Zen is not some kind of excitement, but concentration on our usual everyday routine. Sweeping the garden, wiping the floor, cooking the food—this is Zen practice. Don't look for it somewhere special.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Kodo Sawaki, To You",
+    "license_status": "fair_use",
+    "master_roles": [
+      { "slug": "kodo-sawaki", "role": "attributed_to" }
+    ]
   }
 ]
