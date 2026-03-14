@@ -84,6 +84,27 @@
     ]
   },
   {
+    "id": "_ftBFxCYZ3Xn3an_qdLCs",
+    "slug": "senso-esai",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Senso Esai"
+      }
+    ],
+    "birth_year": 1409,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 1475,
+    "death_precision": "exact",
+    "death_confidence": "high",
+    "school": "Soto",
+    "source_ids": [
+      "src_sotozen_founders"
+    ]
+  },
+  {
     "id": "_gqRy0igxACiZ1ZAcGt4c",
     "slug": "foyan-qingyuan",
     "names": [
@@ -930,6 +951,11 @@
         "value": "Chongshou Qichou"
       },
       {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "崇壽契稠"
+      },
+      {
         "locale": "en",
         "name_type": "alias",
         "value": "Ch'ung-shou Ch'i-ch'ou"
@@ -982,6 +1008,27 @@
     "source_ids": [
       "src_chan_ancestors_pdf",
       "src_originals_curated"
+    ]
+  },
+  {
+    "id": "3A-O2kfB0Rno8eK38cAlb",
+    "slug": "shingan-doku",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Shingan Doku"
+      }
+    ],
+    "birth_year": 1374,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 1449,
+    "death_precision": "exact",
+    "death_confidence": "high",
+    "school": "Soto",
+    "source_ids": [
+      "src_sotozen_founders"
     ]
   },
   {
@@ -1058,6 +1105,11 @@
         "value": "Zizhou Zhishen"
       },
       {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "智詵"
+      },
+      {
         "locale": "en",
         "name_type": "alias",
         "value": "Tsü-chou Chih-shên"
@@ -1068,13 +1120,13 @@
         "value": "Shishû Chisen"
       }
     ],
-    "birth_year": null,
-    "birth_precision": "unknown",
-    "birth_confidence": "low",
-    "death_year": null,
-    "death_precision": "unknown",
-    "death_confidence": "low",
-    "school": "Other",
+    "birth_year": 609,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 702,
+    "death_precision": "exact",
+    "death_confidence": "high",
+    "school": "Jingzhong",
     "source_ids": [
       "src_chan_ancestors_pdf",
       "src_originals_curated"
@@ -1151,6 +1203,27 @@
     "source_ids": [
       "src_chan_ancestors_pdf",
       "src_originals_curated"
+    ]
+  },
+  {
+    "id": "4znKB3qRf_SOcZd1xsJNi",
+    "slug": "tenrin-kanshu",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Tenrin Kanshu"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Soto",
+    "source_ids": [
+      "src_sotozen_founders"
     ]
   },
   {
@@ -1318,6 +1391,27 @@
     "source_ids": [
       "src_chan_ancestors_pdf",
       "src_originals_curated"
+    ]
+  },
+  {
+    "id": "5O77V4ooLpwNb_gAixQIC",
+    "slug": "ken-an-junsa",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Ken'an Junsa"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Soto",
+    "source_ids": [
+      "src_sotozen_founders"
     ]
   },
   {
@@ -1499,6 +1593,27 @@
     ]
   },
   {
+    "id": "7BXng_a-inuYsUgogx043",
+    "slug": "enjo-gikan",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Enjo Gikan"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Soto",
+    "source_ids": [
+      "src_sotozen_founders"
+    ]
+  },
+  {
     "id": "7HfwCdpszPy0hDSrPxZOi",
     "slug": "tianyi-yihuai",
     "names": [
@@ -1527,37 +1642,6 @@
     "school": "Yunmen",
     "source_ids": [
       "src_chan_ancestors_pdf",
-      "src_originals_curated"
-    ]
-  },
-  {
-    "id": "7HhwAUZXIj3bl8CFxi5ZM",
-    "slug": "jianyuan",
-    "names": [
-      {
-        "locale": "en",
-        "name_type": "dharma",
-        "value": "Jianyuan"
-      },
-      {
-        "locale": "zh",
-        "name_type": "alias",
-        "value": "見源"
-      },
-      {
-        "locale": "en",
-        "name_type": "alias",
-        "value": "Yuanjian"
-      }
-    ],
-    "birth_year": null,
-    "birth_precision": "unknown",
-    "birth_confidence": "low",
-    "death_year": null,
-    "death_precision": "unknown",
-    "death_confidence": "low",
-    "school": "",
-    "source_ids": [
       "src_originals_curated"
     ]
   },
@@ -1936,6 +2020,27 @@
     ]
   },
   {
+    "id": "aGl-pgbWvFhOIti65cdiL",
+    "slug": "fuden-gentotsu",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Fuden Gentotsu"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Soto",
+    "source_ids": [
+      "src_sotozen_founders"
+    ]
+  },
+  {
     "id": "aGsBwP6-XaMHAML0lESfh",
     "slug": "manorhita",
     "names": [
@@ -2127,6 +2232,48 @@
     "school": "Indian Patriarchs",
     "source_ids": [
       "src_originals_curated"
+    ]
+  },
+  {
+    "id": "AVq5lTrPokKVy2JEEPoT8",
+    "slug": "sengan-bonryu",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Sengan Bonryu"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Soto",
+    "source_ids": [
+      "src_sotozen_founders"
+    ]
+  },
+  {
+    "id": "AXXUnt4U9PGs1ZRtWZXLO",
+    "slug": "iyoku-choyu",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Iyoku Choyu"
+      }
+    ],
+    "birth_year": 1416,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 1502,
+    "death_precision": "exact",
+    "death_confidence": "high",
+    "school": "Soto",
+    "source_ids": [
+      "src_sotozen_founders"
     ]
   },
   {
@@ -2539,6 +2686,32 @@
     ]
   },
   {
+    "id": "Bxer5M2yRI6VRI_GQmHPk",
+    "slug": "rosetsu-ryuko",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Rosetsu Ryuko"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "爐雪隆光"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Soto",
+    "source_ids": [
+      "src_sotozen_founders"
+    ]
+  },
+  {
     "id": "C0r4GzBv7BEN2ZXFGLwo8",
     "slug": "wumen-huikai",
     "names": [
@@ -2603,6 +2776,27 @@
     ]
   },
   {
+    "id": "CiZGC1uF3y6dzSr1gWPHE",
+    "slug": "shoun-hozui",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Shoun Hozui"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Soto",
+    "source_ids": [
+      "src_sotozen_founders"
+    ]
+  },
+  {
     "id": "CKps4fDp0URGrbOjjfwBX",
     "slug": "buddhamitra",
     "names": [
@@ -2631,6 +2825,27 @@
     "school": "Indian Patriarchs",
     "source_ids": [
       "src_originals_curated"
+    ]
+  },
+  {
+    "id": "co3NFuQ7Dv9TSnKXILbTI",
+    "slug": "nenshitsu-yokaku",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Nenshitsu Yokaku"
+      }
+    ],
+    "birth_year": 1440,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 1516,
+    "death_precision": "exact",
+    "death_confidence": "high",
+    "school": "Soto",
+    "source_ids": [
+      "src_sotozen_founders"
     ]
   },
   {
@@ -2663,6 +2878,27 @@
     "source_ids": [
       "src_chan_ancestors_pdf",
       "src_originals_curated"
+    ]
+  },
+  {
+    "id": "cVdnpEiZngmQbBD8WdxjG",
+    "slug": "nampo-gentaku",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Nampo Gentaku"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Soto",
+    "source_ids": [
+      "src_sotozen_founders"
     ]
   },
   {
@@ -2909,6 +3145,27 @@
     "source_ids": [
       "src_chan_ancestors_pdf",
       "src_originals_curated"
+    ]
+  },
+  {
+    "id": "dlVd-Ybh6rrPiQiGWAOye",
+    "slug": "jissan-mokuin",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Jissan Mokuin"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Soto",
+    "source_ids": [
+      "src_sotozen_founders"
     ]
   },
   {
@@ -3459,6 +3716,32 @@
     ]
   },
   {
+    "id": "F-P2zG2Cj3HhhkwH_LpQq",
+    "slug": "sawada-zenko",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Sawada Zenko"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "澤田全功"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Soto",
+    "source_ids": [
+      "src_sotozen_founders"
+    ]
+  },
+  {
     "id": "Ff2AhxK3wyHS2kmJ5kR3f",
     "slug": "kanzan-egen",
     "names": [
@@ -3664,6 +3947,32 @@
     ]
   },
   {
+    "id": "FZLK_ygGtcnZ0EO6ITPbu",
+    "slug": "ungai-kozan",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Ungai Kozan"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "雲外居山"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Soto",
+    "source_ids": [
+      "src_sotozen_founders"
+    ]
+  },
+  {
     "id": "g4Bb_FEVtARNGbevC_YHt",
     "slug": "yangshan-huiji",
     "names": [
@@ -3790,6 +4099,27 @@
     ]
   },
   {
+    "id": "GdlZI4mC-BJWlrRutxBfi",
+    "slug": "daiki-kyokan",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Daiki Kyokan"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Soto",
+    "source_ids": [
+      "src_sotozen_founders"
+    ]
+  },
+  {
     "id": "Gg-fnqDteEsuMgQnPYkvp",
     "slug": "gasan-jito",
     "names": [
@@ -3816,6 +4146,27 @@
     ]
   },
   {
+    "id": "gMNmVtQLGTs4qgFvpNazT",
+    "slug": "kosen-baido",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Kosen Baido"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Soto",
+    "source_ids": [
+      "src_sotozen_founders"
+    ]
+  },
+  {
     "id": "gnKKjaZPBk0CIELCFqZJ6",
     "slug": "zhenjing-kewen",
     "names": [
@@ -3834,6 +4185,32 @@
     "school": "",
     "source_ids": [
       "src_originals_curated"
+    ]
+  },
+  {
+    "id": "gRR-gyoYz5aL160AtQZ0C",
+    "slug": "gangoku-gankei",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Gangoku Gankei"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "頑極官慶"
+      }
+    ],
+    "birth_year": 1683,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 1767,
+    "death_precision": "exact",
+    "death_confidence": "high",
+    "school": "Soto",
+    "source_ids": [
+      "src_sotozen_founders"
     ]
   },
   {
@@ -3904,6 +4281,11 @@
         "value": "Zizhou Chuji"
       },
       {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "處寂"
+      },
+      {
         "locale": "en",
         "name_type": "alias",
         "value": "Tsü-chou Ch'u-chi"
@@ -3914,13 +4296,13 @@
         "value": "Shishû Shojaku"
       }
     ],
-    "birth_year": null,
-    "birth_precision": "unknown",
-    "birth_confidence": "low",
-    "death_year": null,
-    "death_precision": "unknown",
-    "death_confidence": "low",
-    "school": "Other",
+    "birth_year": 669,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 736,
+    "death_precision": "exact",
+    "death_confidence": "high",
+    "school": "Jingzhong",
     "source_ids": [
       "src_chan_ancestors_pdf",
       "src_originals_curated"
@@ -3956,6 +4338,27 @@
     "source_ids": [
       "src_chan_ancestors_pdf",
       "src_originals_curated"
+    ]
+  },
+  {
+    "id": "h4J5ebMBX2bRmXjWUIl8p",
+    "slug": "shizan-tokuchu",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Shizan Tokuchu"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Soto",
+    "source_ids": [
+      "src_sotozen_founders"
     ]
   },
   {
@@ -4291,13 +4694,13 @@
         "value": "石屋清珙"
       }
     ],
-    "birth_year": null,
-    "birth_precision": "unknown",
-    "birth_confidence": "low",
-    "death_year": null,
-    "death_precision": "unknown",
-    "death_confidence": "low",
-    "school": "",
+    "birth_year": 1272,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 1352,
+    "death_precision": "exact",
+    "death_confidence": "high",
+    "school": "Yangqi line",
     "source_ids": [
       "src_originals_curated"
     ]
@@ -4977,6 +5380,27 @@
     ]
   },
   {
+    "id": "kNMhx0h8suu_wB8nIArpj",
+    "slug": "sesso-hoseki",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Sesso Hoseki"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Soto",
+    "source_ids": [
+      "src_sotozen_founders"
+    ]
+  },
+  {
     "id": "kP5TDAuk1-nJJoOtaXibF",
     "slug": "zhimen-guangzuo",
     "names": [
@@ -5035,6 +5459,42 @@
     ]
   },
   {
+    "id": "KTUKGjJEFU_WCukO7mNjZ",
+    "slug": "gaofeng-yuanmiao",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Gaofeng Yuanmiao"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "高峰原妙"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Kao-feng Yüan-miao"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Kōhō Genmyō"
+      }
+    ],
+    "birth_year": 1238,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 1295,
+    "death_precision": "exact",
+    "death_confidence": "high",
+    "school": "Yangqi line",
+    "source_ids": [
+      "src_originals_curated"
+    ]
+  },
+  {
     "id": "kVOPBQ_iEP7qwNlpMHYFm",
     "slug": "mingzhao-deqian",
     "names": [
@@ -5064,6 +5524,32 @@
     "source_ids": [
       "src_chan_ancestors_pdf",
       "src_originals_curated"
+    ]
+  },
+  {
+    "id": "KVwA0Zk2saF3ro8kgq8dU",
+    "slug": "butsumon-sogaku",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Butsumon Sogaku"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "仏門祖岳"
+      }
+    ],
+    "birth_year": 1858,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 1933,
+    "death_precision": "exact",
+    "death_confidence": "high",
+    "school": "Soto",
+    "source_ids": [
+      "src_sotozen_founders"
     ]
   },
   {
@@ -5127,6 +5613,27 @@
     "source_ids": [
       "src_chan_ancestors_pdf",
       "src_originals_curated"
+    ]
+  },
+  {
+    "id": "Lbw4A4bPQgno9F25SOaaQ",
+    "slug": "chokoku-koen",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Chokoku Koen"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Soto",
+    "source_ids": [
+      "src_sotozen_founders"
     ]
   },
   {
@@ -5357,6 +5864,27 @@
     ]
   },
   {
+    "id": "M5shSPzxAvlmM1oS4aFSc",
+    "slug": "taigen-soshin",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Taigen Soshin"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Soto",
+    "source_ids": [
+      "src_sotozen_founders"
+    ]
+  },
+  {
     "id": "MaT_2LUWapSpvCzLlN9of",
     "slug": "aryadeva",
     "names": [
@@ -5453,6 +5981,42 @@
     "school": "Qingyuan line",
     "source_ids": [
       "src_chan_ancestors_pdf",
+      "src_originals_curated"
+    ]
+  },
+  {
+    "id": "mtAkuRhXpdFSWiyxM5q15",
+    "slug": "xueyan-zuqin",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Xueyan Zuqin"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "雪巖祖欽"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Hsüeh-yen Tsu-ch'in"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Setsugan Sokin"
+      }
+    ],
+    "birth_year": 1216,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 1287,
+    "death_precision": "exact",
+    "death_confidence": "high",
+    "school": "Yangqi line",
+    "source_ids": [
       "src_originals_curated"
     ]
   },
@@ -5636,6 +6200,27 @@
     "source_ids": [
       "src_chan_ancestors_pdf",
       "src_originals_curated"
+    ]
+  },
+  {
+    "id": "N_9pSjDlGYPdd_rjwE7qH",
+    "slug": "senshu-donko",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Senshu Donko"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Soto",
+    "source_ids": [
+      "src_sotozen_founders"
     ]
   },
   {
@@ -5870,6 +6455,27 @@
     "school": "Soto",
     "source_ids": [
       "src_chan_ancestors_pdf",
+      "src_sotozen_founders"
+    ]
+  },
+  {
+    "id": "NmK847RayDk0rz8gPlcC4",
+    "slug": "baizan-monpon",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Baizan Monpon"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Soto",
+    "source_ids": [
       "src_sotozen_founders"
     ]
   },
@@ -6262,6 +6868,27 @@
     ]
   },
   {
+    "id": "ow7ZzgMZpGDPrcBPQBguW",
+    "slug": "jochu-tengin",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Jochu Tengin"
+      }
+    ],
+    "birth_year": 1363,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 1437,
+    "death_precision": "exact",
+    "death_confidence": "high",
+    "school": "Soto",
+    "source_ids": [
+      "src_sotozen_founders"
+    ]
+  },
+  {
     "id": "p4aJBzmNaNhr-KEdOwopR",
     "slug": "lianhua-fengxiang",
     "names": [
@@ -6291,6 +6918,27 @@
     "source_ids": [
       "src_chan_ancestors_pdf",
       "src_originals_curated"
+    ]
+  },
+  {
+    "id": "P6AU7Us1EfOzKly9_5xWq",
+    "slug": "mugai-keigon",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Mugai Keigon"
+      }
+    ],
+    "birth_year": 1436,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 1517,
+    "death_precision": "exact",
+    "death_confidence": "high",
+    "school": "Soto",
+    "source_ids": [
+      "src_sotozen_founders"
     ]
   },
   {
@@ -6970,6 +7618,27 @@
     ]
   },
   {
+    "id": "rZdzXWI-_M8_oXrpEz838",
+    "slug": "tenyu-soen",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Tenyu Soen"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Soto",
+    "source_ids": [
+      "src_sotozen_founders"
+    ]
+  },
+  {
     "id": "s_nR66_yj2tOIGe3GU9Yi",
     "slug": "ruben-habito",
     "names": [
@@ -7085,6 +7754,27 @@
     ]
   },
   {
+    "id": "sDu5QAyK-3k_LGDtI9A02",
+    "slug": "fuzan-shunki",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Fuzan Shunki"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Soto",
+    "source_ids": [
+      "src_sotozen_founders"
+    ]
+  },
+  {
     "id": "SJqI6-0JfxM5CcZmzmdA1",
     "slug": "xuefeng-yicun",
     "names": [
@@ -7129,6 +7819,32 @@
     "source_ids": [
       "src_chan_ancestors_pdf",
       "src_originals_curated"
+    ]
+  },
+  {
+    "id": "sl1jE27ugnYQ0fulVmtK5",
+    "slug": "shoryu-koho",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Shoryu Koho"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "紹隆興法"
+      }
+    ],
+    "birth_year": 1827,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 1912,
+    "death_precision": "exact",
+    "death_confidence": "high",
+    "school": "Soto",
+    "source_ids": [
+      "src_sotozen_founders"
     ]
   },
   {
@@ -7533,6 +8249,27 @@
     ]
   },
   {
+    "id": "Tgrsp0lDRQvv_YLUWHvjm",
+    "slug": "zoden-yoko",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Zoden Yoko"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Soto",
+    "source_ids": [
+      "src_sotozen_founders"
+    ]
+  },
+  {
     "id": "Tm1rbdJAF98SEEdKOXmbZ",
     "slug": "bajiao-huiqing",
     "names": [
@@ -7736,6 +8473,27 @@
     "source_ids": [
       "src_chan_ancestors_pdf",
       "src_originals_curated"
+    ]
+  },
+  {
+    "id": "tUzVyJEiZtWnDV7Vpp4Fq",
+    "slug": "taiei-zesho",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Taiei Zesho"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Soto",
+    "source_ids": [
+      "src_sotozen_founders"
     ]
   },
   {
@@ -8120,6 +8878,48 @@
     ]
   },
   {
+    "id": "uxbaQKIsmojebxkYWH8Q5",
+    "slug": "kankai-tokuon",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Kankai Tokuon"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Soto",
+    "source_ids": [
+      "src_sotozen_founders"
+    ]
+  },
+  {
+    "id": "UXIrhkzCEgAaJIGUtsghb",
+    "slug": "daishin-kan-yu",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Daishin Kan'yu"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Soto",
+    "source_ids": [
+      "src_sotozen_founders"
+    ]
+  },
+  {
     "id": "uYAX94w0QwewUKFQwpJ7a",
     "slug": "kumarata",
     "names": [
@@ -8312,6 +9112,27 @@
     ]
   },
   {
+    "id": "v8tjFFdTSpFbJ2okDbOlH",
+    "slug": "gyakushitsu-sojun",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Gyakushitsu Sojun"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Soto",
+    "source_ids": [
+      "src_sotozen_founders"
+    ]
+  },
+  {
     "id": "v9Enx95HWL-dRCYWpf3vC",
     "slug": "cizhou-faru",
     "names": [
@@ -8495,6 +9316,27 @@
     "source_ids": [
       "src_chan_ancestors_pdf",
       "src_originals_curated"
+    ]
+  },
+  {
+    "id": "VyMBh4aHqVaOzr8kApZx8",
+    "slug": "sessan-tetsuzen",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Sessan Tetsuzen"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Soto",
+    "source_ids": [
+      "src_sotozen_founders"
     ]
   },
   {
@@ -8687,6 +9529,11 @@
         "value": "Tongan Daopi"
       },
       {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "同安道丕"
+      },
+      {
         "locale": "en",
         "name_type": "alias",
         "value": "T'ung-an Tao-p'i"
@@ -8814,6 +9661,11 @@
         "value": "Jingzhong Wuxiang"
       },
       {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "無相"
+      },
+      {
         "locale": "en",
         "name_type": "alias",
         "value": "Ching-Chung Wu-Hsiang"
@@ -8824,16 +9676,42 @@
         "value": "Jôshu Musô"
       }
     ],
-    "birth_year": null,
-    "birth_precision": "unknown",
-    "birth_confidence": "low",
-    "death_year": null,
-    "death_precision": "unknown",
-    "death_confidence": "low",
-    "school": "Other",
+    "birth_year": 684,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 762,
+    "death_precision": "exact",
+    "death_confidence": "high",
+    "school": "Jingzhong",
     "source_ids": [
       "src_chan_ancestors_pdf",
       "src_originals_curated"
+    ]
+  },
+  {
+    "id": "xa9nn8Ww1mwDfrk5KUe2b",
+    "slug": "mokushi-soen",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Mokushi Soen"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "黙子素淵"
+      }
+    ],
+    "birth_year": 1673,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 1746,
+    "death_precision": "exact",
+    "death_confidence": "high",
+    "school": "Soto",
+    "source_ids": [
+      "src_sotozen_founders"
     ]
   },
   {
@@ -9359,6 +10237,27 @@
     ]
   },
   {
+    "id": "yVIubuemvfrEwA9NovmQM",
+    "slug": "nanso-shinshu",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Nanso Shinshu"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Soto",
+    "source_ids": [
+      "src_sotozen_founders"
+    ]
+  },
+  {
     "id": "yYvOl6ecI-wc9nmWKgP3f",
     "slug": "xiangyan-zhixian",
     "names": [
@@ -9412,6 +10311,68 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Rinzai",
+    "source_ids": [
+      "src_originals_curated"
+    ]
+  },
+  {
+    "id": "ZahWF3anGVyxwW8LT6yRB",
+    "slug": "kokoku-soryu",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Kokoku Soryu"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "興国素隆"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Soto",
+    "source_ids": [
+      "src_sotozen_founders"
+    ]
+  },
+  {
+    "id": "zBMITBbjaRjIMY3yt53u6",
+    "slug": "ji-an-xin",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Ji'an Xin"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "及庵信"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Chi-an"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Jianyuan"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Yangqi line",
     "source_ids": [
       "src_originals_curated"
     ]

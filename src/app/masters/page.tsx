@@ -106,6 +106,13 @@ export default async function MastersPage() {
     item.searchText = (tokenMap.get(item.id) ?? []).join(" ");
   }
 
+  // Sort by date (birth year, falling back to death year; unknown dates last)
+  items.sort((a, b) => {
+    const aYear = a.birthYear ?? a.deathYear ?? Infinity;
+    const bYear = b.birthYear ?? b.deathYear ?? Infinity;
+    return aYear - bYear;
+  });
+
   // Fetch school names
   const schoolNamesData = await db
     .select({

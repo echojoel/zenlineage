@@ -440,42 +440,67 @@ body {
   margin-top: 0.25rem;
 }
 
-.masters-list {
-  display: flex;
-  flex-direction: column;
-  gap: 0;
-  max-width: 640px;
-}
-
-.master-list-row {
-  text-decoration: none;
-  color: inherit;
-  display: grid;
-  grid-template-columns: 1fr auto auto;
-  gap: 1.5rem;
-  align-items: center;
-  padding: 0.5rem 0;
-  border-bottom: 1px solid var(--paper-warm);
+.masters-table {
+  width: 100%;
+  max-width: 720px;
+  border-collapse: collapse;
   font-family: var(--font-inter), sans-serif;
   font-size: 0.8rem;
+}
+
+.masters-table-th {
+  text-align: left;
+  padding: 0.4rem 0.75rem 0.4rem 0;
+  font-size: 0.68rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--ink-light);
+  border-bottom: 2px solid var(--paper-warm);
+}
+
+.masters-table-th-dates {
+  text-align: right;
+  padding-right: 0;
+}
+
+.masters-table-row:hover {
+  background: var(--paper-warm);
+}
+
+.masters-table-td {
+  padding: 0.45rem 0.75rem 0.45rem 0;
+  border-bottom: 1px solid var(--paper-warm);
+  vertical-align: baseline;
+}
+
+.masters-table-td:last-child {
+  padding-right: 0;
 }
 
 .master-list-name {
   font-family: var(--font-cormorant), Georgia, serif;
   font-size: 0.95rem;
   color: var(--ink);
+  text-decoration: none;
+}
+
+.master-list-name:hover {
+  text-decoration: underline;
 }
 
 .master-list-school {
   color: var(--ink-light);
   font-size: 0.72rem;
   letter-spacing: 0.06em;
+  white-space: nowrap;
 }
 
 .master-list-dates {
   color: var(--ink-light);
   font-size: 0.72rem;
   text-align: right;
+  white-space: nowrap;
 }
 
 /* ===== Schools page ===== */
@@ -598,7 +623,7 @@ body {
 
 .detail-hero-image {
   display: block;
-  max-width: 200px;
+  max-width: 400px;
   height: auto;
   border-radius: 4px;
   margin: 0 0 1.2rem;
@@ -784,9 +809,13 @@ body {
     width: min(320px, 100vw);
   }
 
-  .master-list-row {
-    grid-template-columns: 1fr;
-    gap: 0.3rem;
+  .masters-table-th,
+  .masters-table-td {
+    padding-right: 0.5rem;
+  }
+
+  .master-list-school {
+    white-space: normal;
   }
 }
 

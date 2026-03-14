@@ -95,28 +95,46 @@ export default function MastersClient({ masters, schoolNames }: Props) {
       <p className="masters-count">{filtered.length} masters</p>
 
       {/* Master list/grid */}
-      <div className={viewMode === "grid" ? "masters-grid" : "masters-list"}>
-        {filtered.map((m) => (
-          <MasterCard
-            key={m.id}
-            master={m}
-            schoolName={m.schoolId ? (schoolNames[m.schoolId] ?? m.schoolId) : undefined}
-            viewMode={viewMode}
-          />
-        ))}
-      </div>
+      {viewMode === "list" ? (
+        <table className="masters-table">
+          <thead>
+            <tr>
+              <th className="masters-table-th">Name</th>
+              <th className="masters-table-th">School</th>
+              <th className="masters-table-th masters-table-th-dates">Dates</th>
+            </tr>
+          </thead>
+          <tbody>
+            {filtered.map((m) => (
+              <MasterRow
+                key={m.id}
+                master={m}
+                schoolName={m.schoolId ? (schoolNames[m.schoolId] ?? m.schoolId) : undefined}
+              />
+            ))}
+          </tbody>
+        </table>
+      ) : (
+        <div className="masters-grid">
+          {filtered.map((m) => (
+            <MasterCard
+              key={m.id}
+              master={m}
+              schoolName={m.schoolId ? (schoolNames[m.schoolId] ?? m.schoolId) : undefined}
+            />
+          ))}
+        </div>
+      )}
     </div>
   );
 }
 
-function MasterCard({
+function MasterRow({
   master,
   schoolName,
-  viewMode,
 }: {
   master: MasterListItem;
   schoolName?: string;
-  viewMode: ViewMode;
 }) {
   const birth = formatDateWithPrecision(master.birthYear, master.birthPrecision, {
     unknown: "?",
@@ -126,19 +144,37 @@ function MasterCard({
   });
   const hasDates = master.birthYear != null || master.deathYear != null;
 
-  if (viewMode === "list") {
-    return (
-      <Link className="master-list-row" href={`/masters/${master.slug}`}>
-        <span className="master-list-name">{master.primaryName}</span>
-        {schoolName && <span className="master-list-school">{schoolName}</span>}
-        {hasDates && (
-          <span className="master-list-dates">
-            {birth} – {death}
-          </span>
-        )}
-      </Link>
-    );
-  }
+  return (
+    <tr className="masters-table-row">
+      <td className="masters-table-td">
+        <Link className="master-list-name" href={`/masters/${master.slug}`}>
+          {master.primaryName}
+        </Link>
+      </td>
+      <td className="masters-table-td master-list-school">
+        {schoolName ?? ""}
+      </td>
+      <td className="masters-table-td master-list-dates">
+        {hasDates ? `${birth} – ${death}` : ""}
+      </td>
+    </tr>
+  );
+}
+
+function MasterCard({
+  master,
+  schoolName,
+}: {
+  master: MasterListItem;
+  schoolName?: string;
+}) {
+  const birth = formatDateWithPrecision(master.birthYear, master.birthPrecision, {
+    unknown: "?",
+  });
+  const death = formatDateWithPrecision(master.deathYear, master.deathPrecision, {
+    unknown: "?",
+  });
+  const hasDates = master.birthYear != null || master.deathYear != null;
 
   return (
     <Link className="master-card" href={`/masters/${master.slug}`}>
