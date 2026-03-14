@@ -201,7 +201,7 @@ export default async function SchoolDetailPage({ params }: { params: Promise<{ s
                 className="detail-button detail-button-muted"
                 href={`/masters/${featuredMaster.slug}`}
               >
-                Featured master
+                Featured: {masterNameMap.get(featuredMaster.id) ?? featuredMaster.slug}
               </Link>
             )}
           </div>
