@@ -27,22 +27,89 @@ const PUBLIC_MASTERS_DIR = path.join(process.cwd(), "public", "masters");
  */
 const IMAGE_SEARCH_OVERRIDES: Record<string, string[]> = {
   "shakyamuni-buddha": ["Gautama Buddha", "Buddha", "Siddhartha Gautama"],
-  "mahakashyapa": ["Mahākāśyapa", "Mahakasyapa"],
+  "mahakashyapa": ["Mahākāśyapa", "Mahakasyapa", "Mahakashyapa"],
   "ananda": ["Ānanda", "Ananda (Buddhist)"],
+  "shanakavasa": ["Śāṇakavāsa", "Shanakavasa"],
+  "upagupta": ["Upagupta"],
+  "dhritaka": ["Dhṛtaka"],
+  "vasumitra": ["Vasumitra"],
+  "buddhanandi": ["Buddhanandi"],
+  "parshva": ["Pārśva", "Parshva (Buddhist)"],
+  "punyayashas": ["Puṇyayaśas"],
   "ashvaghosha": ["Aśvaghoṣa", "Ashvaghosha"],
+  "kapimala": ["Kapimala"],
   "nagarjuna": ["Nāgārjuna", "Nagarjuna"],
   "aryadeva": ["Āryadeva", "Aryadeva"],
   "vasubandhu": ["Vasubandhu"],
-  "upagupta": ["Upagupta"],
-  "parshva": ["Pārśva", "Parshva (Buddhist)"],
-  "kapimala": ["Kapimala"],
-  "simha": ["Aryasimha", "Simha (Buddhist patriarch)"],
+  "simha": ["Aryasimha", "Āryasiṃha", "Simha Bhikshu"],
   "prajnatara": ["Prajñātāra", "Prajnatara"],
   "puti-damo": ["Bodhidharma"],
+  "dazu-huike": ["Dazu Huike", "Huike"],
+  "jianzhi-sengcan": ["Sengcan", "Jianzhi Sengcan"],
   "dajian-huineng": ["Huineng"],
   "dogen": ["Dōgen", "Dogen Zenji"],
+  "keizan-jokin": ["Keizan", "Keizan Jōkin"],
   "hakuin-ekaku": ["Hakuin Ekaku", "Hakuin"],
+  "xuefeng-yicun": ["Xuefeng Yicun", "Hsueh-feng I-ts'un"],
 };
+
+/**
+ * Search Wikimedia Commons directly for an image. Fallback when Wikipedia
+ * pageimages API returns nothing.
+ */
+async function searchWikimediaCommons(
+  searchTerms: string[],
+  slug: string
+): Promise<{ imageUrl: string; fileName: string; searchName: string } | null> {
+  for (const term of searchTerms) {
+    try {
+      // Search Commons for files matching the term
+      const searchUrl = `https://commons.wikimedia.org/w/api.php?action=query&list=search&srsearch=${encodeURIComponent(term + " Buddhist")}&srnamespace=6&srlimit=5&format=json`;
+      const searchRes = await smartFetch(searchUrl);
+      if (!searchRes.ok) continue;
+
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
+      const searchData = (await searchRes.json()) as any;
+      const results = searchData.query?.search;
+      if (!results || results.length === 0) {
+        await new Promise((resolve) => setTimeout(resolve, 500));
+        continue;
+      }
+
+      // Try each result to find a usable image
+      for (const result of results) {
+        const fileTitle = result.title; // e.g. "File:Gautama_Buddha.jpg"
+        if (!fileTitle.match(/\.(jpg|jpeg|png|svg|webp)$/i)) continue;
+
+        // Get the actual image URL
+        const infoUrl = `https://commons.wikimedia.org/w/api.php?action=query&titles=${encodeURIComponent(fileTitle)}&prop=imageinfo&iiprop=url&iiurlwidth=800&format=json`;
+        const infoRes = await smartFetch(infoUrl);
+        if (!infoRes.ok) continue;
+
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
+        const infoData = (await infoRes.json()) as any;
+        const pages = infoData.query?.pages;
+        if (!pages) continue;
+
+        const pageId = Object.keys(pages)[0];
+        const imageInfo = pages[pageId]?.imageinfo?.[0];
+        if (!imageInfo) continue;
+
+        const thumbUrl = imageInfo.thumburl || imageInfo.url;
+        if (!thumbUrl) continue;
+
+        const fileName = fileTitle.replace(/^File:/, "");
+        console.log(`  -> Found on Commons via "${term}": ${fileName}`);
+        return { imageUrl: thumbUrl, fileName, searchName: term };
+      }
+
+      await new Promise((resolve) => setTimeout(resolve, 500));
+    } catch {
+      continue;
+    }
+  }
+  return null;
+}
 
 // Smart fetch with exponential backoff and rate limit handling
 async function smartFetch(url: string, retries = 5, delay = 2000): Promise<Record<string, unknown> | Response> {
@@ -186,6 +253,17 @@ async function init() {
       } catch {
         await new Promise((resolve) => setTimeout(resolve, 1000));
         continue;
+      }
+    }
+
+    // Fallback: search Wikimedia Commons directly
+    if (!imageUrl) {
+      console.log(`  -> Wikipedia pageimages failed, trying Wikimedia Commons...`);
+      const commonsResult = await searchWikimediaCommons(searchTerms, master.slug);
+      if (commonsResult) {
+        imageUrl = commonsResult.imageUrl;
+        originalImageName = commonsResult.fileName;
+        usedSearchName = commonsResult.searchName;
       }
     }
 
