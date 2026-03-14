@@ -1642,5 +1642,571 @@
     "master_roles": [
       { "slug": "kodo-sawaki", "role": "attributed_to" }
     ]
+  },
+
+  {
+    "slug": "yasutani-three-pillars-zazen",
+    "type": "sermon",
+    "author_slug": "yasutani-hakuun",
+    "collection": "The Three Pillars of Zen",
+    "era": "Showa",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "Introductory Lectures on Zazen Practice",
+    "content": "The aim of zazen is to awaken to your True-nature. What is this True-nature? It is the Buddha-nature inherent in every sentient being. Through zazen you can directly experience and validate the truth that each of you is an embodiment of Buddha. Zazen that leads to Self-realization is neither a technique of meditation nor a means of tranquilizing the mind. It is practice that brings the mind to maturity, and it is the actualization of the supreme Way. To practice zazen with the expectation of a reward, even enlightenment, is to sow a seed of delusion. Simply sit with your whole being, pouring all your energy into this sitting.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Three Pillars of Zen, Introductory Lectures on Zen Practice",
+    "license_status": "fair_use",
+    "master_roles": [
+      { "slug": "yasutani-hakuun", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "yasutani-kensho-awakening",
+    "type": "saying",
+    "author_slug": "yasutani-hakuun",
+    "collection": "The Three Pillars of Zen",
+    "era": "Showa",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "On Kensho and the Importance of Initial Awakening",
+    "content": "Without kensho, your Zen is nothing but the empty shell of a peanut. Kensho is the first opening of the mind's eye, the first glimpse into one's True-nature. It is not yet full enlightenment—it is only the beginning—but without this initial awakening, you are groping in the dark. Even a shallow kensho transforms your understanding completely. After kensho, you know for yourself that the world of emptiness is not separate from the world of form. Then real practice begins.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Three Pillars of Zen, Commentary on practice",
+    "license_status": "fair_use",
+    "master_roles": [
+      { "slug": "yasutani-hakuun", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "yasutani-three-essentials",
+    "type": "saying",
+    "author_slug": "yasutani-hakuun",
+    "collection": "The Three Pillars of Zen",
+    "era": "Showa",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "The Three Essentials of Zen Practice",
+    "content": "For the practice of Zen, three things are essential: great faith, great doubt, and great determination. Great faith is the unwavering conviction that all beings are endowed with Buddha-nature and that through zazen one can realize this truth directly. Great doubt is the burning questioning that drives you forward—not intellectual doubt, but the doubt that grips your entire being like a red-hot iron ball stuck in your throat. Great determination is the fierce resolve never to give up, no matter what obstacles arise. Without any one of these three, your practice will be incomplete.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Three Pillars of Zen, Introductory Lectures",
+    "license_status": "fair_use",
+    "master_roles": [
+      { "slug": "yasutani-hakuun", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "harada-shikantaza-koan",
+    "type": "sermon",
+    "author_slug": "harada-daiun-sogaku",
+    "collection": "Teachings of Harada Daiun Sogaku",
+    "era": "Showa",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "On Combining Shikantaza with Koan Practice",
+    "content": "In the Soto school they say 'just sitting,' and in the Rinzai school they use koans. But these are not two different things. Shikantaza, when practiced with total devotion, is itself the great koan. And koan practice, when pursued to its depths, becomes nothing other than just sitting with your whole being. The point is not the method but the sincerity. Whether you sit shikantaza or work on Mu, if your practice is wholehearted, you will penetrate to the source. I teach both because both are doorways to the same room.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Teisho of Harada Daiun Sogaku",
+    "license_status": "fair_use",
+    "master_roles": [
+      { "slug": "harada-daiun-sogaku", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "harada-sesshin-instruction",
+    "type": "saying",
+    "author_slug": "harada-daiun-sogaku",
+    "collection": "Teachings of Harada Daiun Sogaku",
+    "era": "Showa",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "Instruction on Sesshin Practice",
+    "content": "During sesshin you must throw yourself entirely into practice. Forget about the outside world. Forget about your daily concerns. Each period of zazen is a matter of life and death. When you sit, sit as though your life depends on it—because it does. When you walk in kinhin, walk with the same intensity. Eat, sleep, and breathe with this one purpose: to break through the barrier of the self. If you practice sesshin in this way, even for seven days, transformation is inevitable.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Sesshin instructions of Harada Daiun Sogaku",
+    "license_status": "fair_use",
+    "master_roles": [
+      { "slug": "harada-daiun-sogaku", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "aitken-engaged-buddhism",
+    "type": "saying",
+    "author_slug": "robert-aitken",
+    "collection": "Teachings of Robert Aitken",
+    "era": "Heisei",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "On Engaged Buddhism and the Bodhisattva Path",
+    "content": "The bodhisattva does not practice in order to escape the world but in order to serve it. Zazen is not a retreat from suffering—it is the ground from which compassionate action arises. When you truly realize that self and other are not two, then the suffering of the world becomes your own suffering, and you cannot help but respond. This is the bodhisattva path: wisdom and compassion together, not one without the other. A Zen that ignores social justice is only half alive.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Teachings of Robert Aitken Roshi",
+    "license_status": "fair_use",
+    "master_roles": [
+      { "slug": "robert-aitken", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "aitken-precepts-as-koans",
+    "type": "saying",
+    "author_slug": "robert-aitken",
+    "collection": "The Mind of Clover",
+    "era": "Heisei",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "On the Practice of Precepts as Koans",
+    "content": "Each precept is a koan, a challenge to our understanding. 'Do not kill'—what does this really mean? It does not simply mean refraining from taking life. It means cherishing all life, nurturing all life, being life itself. When you take up a precept as a koan, you find that it opens endlessly, layer after layer. The precepts are not rules imposed from outside; they are the natural expression of an awakened life. To practice them deeply is to practice Zen itself.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Robert Aitken, The Mind of Clover",
+    "license_status": "fair_use",
+    "master_roles": [
+      { "slug": "robert-aitken", "role": "attributed_to" }
+    ]
+  },
+
+  {
+    "slug": "keizan-denkoroku-flower-sermon",
+    "type": "dialogue",
+    "author_slug": "keizan-jokin",
+    "collection": "Denkoroku",
+    "era": "Kamakura",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "The Transmission to Mahakashyapa",
+    "content": "Once on Vulture Peak, the World-Honored One held up a flower before the assembly. All were silent. Only Mahakashyapa broke into a broad smile. The World-Honored One said, 'I possess the treasury of the true Dharma eye, the marvelous mind of nirvana, the true form of the formless, the subtle Dharma gate. It does not rest on words or letters but is a special transmission outside the scriptures. I entrust it to Mahakashyapa.' Thus the lamp of the Dharma was transmitted for the first time. You must understand: what was transmitted was not something that can be put into words, nor is it something separate from words. Mahakashyapa's smile was not a sign of understanding—it was the thing itself.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Denkoroku (Record of Transmitting the Light), Case 1",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "keizan-jokin", "role": "commentator" }
+    ]
+  },
+  {
+    "slug": "keizan-zazen-yojinki",
+    "type": "sermon",
+    "author_slug": "keizan-jokin",
+    "collection": "Zazen Yojinki",
+    "era": "Kamakura",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "Zazen Yojinki: Notes on What to Be Aware of in Zazen",
+    "content": "Zazen is not something you learn to do. It is simply sitting in the awareness that is already here. Do not try to become a buddha—you already are one. Do not try to get rid of delusions—they are already empty. When sitting, let body and mind fall away naturally. Do not follow thoughts, and do not push them away. Just sit, upright and alert, like a great mountain that cannot be moved. Breathe naturally. Whether thoughts come or go, whether the mind is clear or cloudy, just continue sitting. This sitting itself is the gateless gate of liberation.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Zazen Yojinki (Notes on What to Be Aware of in Zazen)",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "keizan-jokin", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "keizan-awakening-all-beings",
+    "type": "saying",
+    "author_slug": "keizan-jokin",
+    "collection": "Teachings of Keizan Jokin",
+    "era": "Kamakura",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "Awakening Is Accessible to All Beings",
+    "content": "This Way is not the possession of the learned or the gifted. It does not belong to monks alone, nor to those of high birth. Any person, whether man or woman, whether wise or simple, can realize this great matter. The Buddha-nature makes no distinctions. A farmer in the field, a woman drawing water—each one possesses the same luminous nature as the Buddha himself. This is why we must open the gate of practice wide, so that all beings may enter.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Attributed to Keizan Jokin, Denkoroku preface",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "keizan-jokin", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "koun-ejo-zuimonki-impermanence",
+    "type": "sermon",
+    "author_slug": "koun-ejo",
+    "collection": "Shobogenzo Zuimonki",
+    "era": "Kamakura",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "Dogen's Teaching on Impermanence (Recorded by Ejo)",
+    "content": "The most important thing in studying the Way is to be aware of impermanence. This is not merely an idea to be understood with the intellect. It must be felt in the very marrow of your bones. Life and death is the great matter. Time does not wait. Do not waste a single moment. Once you have genuinely felt the swiftness of impermanence, you will not spend your time on trivial things. You will not care about fame or profit. You will practice as if your hair were on fire. This urgency is itself the beginning of the Way.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Shobogenzo Zuimonki, compiled by Koun Ejo",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "koun-ejo", "role": "attributed_to" },
+      { "slug": "dogen", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "koun-ejo-wholehearted-devotion",
+    "type": "saying",
+    "author_slug": "koun-ejo",
+    "collection": "Teachings of Koun Ejo",
+    "era": "Kamakura",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "On Wholehearted Devotion to Practice",
+    "content": "In following the Way of the ancestors, the most essential thing is single-minded devotion to practice. Do not practice half-heartedly. Do not keep one foot in the world and one foot in the monastery. When you sit, sit with your entire being. When you serve your teacher, serve with your entire being. If you hold anything back, your practice becomes lukewarm and the Way remains distant. Cast away all other concerns and devote yourself wholly—this is the meaning of leaving home.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Attributed to Koun Ejo",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "koun-ejo", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "caoshan-five-ranks-dialogue",
+    "type": "dialogue",
+    "author_slug": "caoshan-benji",
+    "collection": "Record of Caoshan",
+    "era": "Tang",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "Five Ranks: Dialogue with a Student",
+    "content": "A monk asked Caoshan, 'How is it when the absolute is within the relative?' Caoshan said, 'Like a lotus flower in the midst of fire.' The monk asked, 'How is it when the relative is within the absolute?' Caoshan said, 'Nothing in the entire universe is hidden.' The monk asked, 'How is it when absolute and relative arrive together?' Caoshan said, 'No one in the whole city of Changan.' The monk asked, 'What is their mutual integration?' Caoshan said, 'Sitting alone on the great peak.'",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Record of Caoshan, Five Ranks teaching",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "caoshan-benji", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "caoshan-absolute-relative",
+    "type": "saying",
+    "author_slug": "caoshan-benji",
+    "collection": "Record of Caoshan",
+    "era": "Tang",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "On the Interpenetration of Absolute and Relative",
+    "content": "The absolute and the relative are like two mirrors facing each other—within each, the other is perfectly reflected. The absolute is not something remote, hidden behind the world of appearances. It is the very substance of every appearance. And the world of form is not an illusion to be discarded—it is the absolute expressing itself in ten thousand ways. To cling to the absolute and reject the world is to fall into emptiness. To cling to the world and ignore the absolute is to drown in form. The Way of our school is to walk freely between them, neither grasping nor rejecting.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Record of Caoshan",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "caoshan-benji", "role": "attributed_to" }
+    ]
+  },
+
+  {
+    "slug": "daito-death-verse",
+    "type": "verse",
+    "author_slug": "shuho-myocho",
+    "collection": "Writings of Daito Kokushi",
+    "era": "Kamakura",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "Death Verse of Daito Kokushi",
+    "content": "I have cut off buddhas and patriarchs;\nthe blown hair sword is always burnished.\nWhen the wheel of the free activity of truth turns,\nthe empty void gnashes its teeth.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Death verse of Shuho Myocho (Daito Kokushi)",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "shuho-myocho", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "daito-admonition-daitokuji",
+    "type": "sermon",
+    "author_slug": "shuho-myocho",
+    "collection": "Writings of Daito Kokushi",
+    "era": "Kamakura",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "Admonition to the Assembly at Daitokuji",
+    "content": "All of you who have come to this mountain monastery—you have come to practice the Way, not to concern yourselves with food and clothing. As long as you have shoulders, you will have something to wear. As long as you have a mouth, you will have something to eat. Devote yourselves wholeheartedly to the great matter of awakening. Even if you sit so long that your cushion rots beneath you, even if you sit until the incense board crumbles to dust, do not give up. Do not spend your days in vain. Impermanence is swift; life and death is the great matter. Do not idle away your time.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Admonition of Daito Kokushi to the monks of Daitokuji",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "shuho-myocho", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "daito-emperor-hanazono",
+    "type": "dialogue",
+    "author_slug": "shuho-myocho",
+    "collection": "Writings of Daito Kokushi",
+    "era": "Kamakura",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "Exchange with Emperor Hanazono",
+    "content": "Emperor Hanazono asked Daito, 'What is the fundamental principle of Buddhism?' Daito replied, 'A cloud resting on the mountaintop.' The Emperor asked, 'What is Buddha?' Daito said, 'The cat crouches, waiting for the mouse.' The Emperor said, 'What does this mean?' Daito said, 'Your Majesty will understand when you stop looking for the meaning.'",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Traditional account of Daito Kokushi and Emperor Hanazono",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "shuho-myocho", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "kanzan-practice-over-prestige",
+    "type": "saying",
+    "author_slug": "kanzan-egen",
+    "collection": "Teachings of Kanzan Egen",
+    "era": "Kamakura",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "Practice Over Institutional Prestige",
+    "content": "What use is a grand temple if the monks within it do not practice? A thatched hut where one person sits in genuine zazen is worth more than a thousand golden halls full of idle monks. Do not be impressed by titles, lineage certificates, or temple rank. The only thing that matters is whether you have seen into your own nature. If you have not, then all your robes and ceremonies are just playing dress-up.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Attributed to Kanzan Egen, founder of Myoshinji",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "kanzan-egen", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "hakuin-orategama-butter-meditation",
+    "type": "sermon",
+    "author_slug": "hakuin-ekaku",
+    "collection": "Orategama",
+    "era": "Edo",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "The Soft Butter Meditation (Orategama)",
+    "content": "Imagine that a lump of soft butter, pure in color and fragrance, the size of a duck egg, is placed on the top of your head. As it begins to melt, it slowly flows downward, moistening and saturating your head, your shoulders, your arms, your chest, your lungs, your liver, your stomach, your back, your spine. All the ailments in these areas dissolve and flow downward like water. You can hear them trickling down. The melted butter continues flowing down through your legs to the soles of your feet, where it comes to rest. Then the whole process begins again. As you continue this meditation, the ailments of the body are healed, and the obstructions of the mind are cleared. This practice never fails.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Orategama (A Chat on a Boat in the Evening), Hakuin Ekaku",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "hakuin-ekaku", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "hakuin-letter-sick-monk",
+    "type": "sermon",
+    "author_slug": "hakuin-ekaku",
+    "collection": "Orategama",
+    "era": "Edo",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "Letter to a Sick Monk on Introspective Practice",
+    "content": "You say that your practice has brought you to a state of exhaustion and illness. This is because you have been exerting yourself in the wrong way. True practice is not a matter of straining and forcing. When you sit, let the breath sink naturally to the ocean of ki below the navel. Let the strength gather in the legs and lower body while the upper body remains relaxed and open. Do not chase after enlightenment with a tense and agitated mind. The great matter is right here, in this breath, in this moment. When the mind is settled in the tanden and the breath flows naturally, the body heals itself and the Way opens of its own accord.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Orategama, letter on the practice of naikan",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "hakuin-ekaku", "role": "attributed_to" }
+    ]
+  },
+
+  {
+    "slug": "daoxin-guarding-the-one",
+    "type": "sermon",
+    "author_slug": "dayi-daoxin",
+    "collection": "Teachings of the Fourth Patriarch",
+    "era": "Tang",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "On the Method of Guarding the One",
+    "content": "Sit with the body erect. Close your eyes and guard the mind. Let all thoughts and concerns fall away. Concentrate on guarding the one—the one mind that is neither moving nor still, neither inside nor outside. This one mind is originally pure. It is not something created through practice, nor is it something that can be destroyed through neglect. By guarding this one, all thoughts settle of themselves, and the original brightness of the mind becomes apparent. This is the essential practice of all the Buddhas.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Ru Daoxin chanshi quanjue (Teaching of the Fourth Patriarch)",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "dayi-daoxin", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "daoxin-practice-daily-activity",
+    "type": "saying",
+    "author_slug": "dayi-daoxin",
+    "collection": "Teachings of the Fourth Patriarch",
+    "era": "Tang",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "On the Unity of Practice in Daily Activity",
+    "content": "The Way is not separate from your daily activities. Walking, standing, sitting, lying down—each of these is the practice ground. When you eat, eat with full awareness. When you work, work with full awareness. Do not divide your life into sacred and profane. The one who chops wood mindfully is no different from the one who sits in meditation. If you can maintain awareness in all your activities, then your entire life becomes practice, and there is no gap between zazen and daily life.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Attributed to the Fourth Patriarch Daoxin",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "dayi-daoxin", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "hongren-maintaining-awareness",
+    "type": "sermon",
+    "author_slug": "daman-hongren",
+    "collection": "Treatise on the Essentials of Cultivating the Mind",
+    "era": "Tang",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "On Maintaining Awareness of Mind",
+    "content": "The essence of cultivating the Way lies in maintaining awareness of the fundamental mind. This fundamental mind is the pure mind that has existed since before the beginning. It is bright and shining, never obscured, luminous and aware, knowing all things. It is also called the Buddha-nature, or the Tathagata-garbha. The sutras speak of it in a thousand ways, but all point to this one thing. If you can maintain continuous awareness of this mind without wavering, you will naturally arrive at the shore of awakening. There is no other method.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Xiuxin yaolun (Treatise on the Essentials of Cultivating the Mind)",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "daman-hongren", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "hongren-robe-bowl-transmission",
+    "type": "dialogue",
+    "author_slug": "daman-hongren",
+    "collection": "Platform Sutra",
+    "era": "Tang",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "The Robe and Bowl Transmission to Huineng",
+    "content": "The Fifth Patriarch came to the threshing room at midnight. He found Huineng hulling rice. He asked, 'Is the rice ready?' Huineng said, 'The rice has long been ready—it only needs to be sifted.' The Fifth Patriarch struck the mortar three times with his staff and left. Huineng understood the meaning and went to the patriarch's room at the third watch. The Fifth Patriarch used his robe to shield them from view and expounded the Diamond Sutra. When he reached the phrase 'produce a mind that abides nowhere,' Huineng was greatly awakened and exclaimed, 'Who would have thought that self-nature is originally pure! Who would have thought that self-nature is originally complete!' The Fifth Patriarch then transmitted the robe and bowl to him, saying, 'You are now the Sixth Patriarch. Guard this teaching well.'",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Platform Sutra of the Sixth Patriarch, account of transmission",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "daman-hongren", "role": "speaker" },
+      { "slug": "dajian-huineng", "role": "respondent" }
+    ]
+  },
+  {
+    "slug": "nagarjuna-middle-way-verses",
+    "type": "verse",
+    "author_slug": "nagarjuna",
+    "collection": "Mulamadhyamakakarika",
+    "era": "Han",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "Verses on the Middle Way: Emptiness",
+    "content": "Whatever is dependently co-arisen,\nthat is explained to be emptiness.\nThat, being a dependent designation,\nis itself the middle way.\n\nThere does not exist anything\nthat is not dependently arisen.\nTherefore there does not exist anything\nthat is not empty.\n\nWithout a foundation in the conventional truth,\nthe significance of the ultimate cannot be taught.\nWithout understanding the significance of the ultimate,\nliberation is not achieved.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Mulamadhyamakakarika (Fundamental Verses on the Middle Way), chapter 24",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "nagarjuna", "role": "attributed_to" }
+    ]
+  },
+
+  {
+    "slug": "yongming-chan-pure-land",
+    "type": "sermon",
+    "author_slug": "yongming-yanshou",
+    "collection": "Zongjing Lu",
+    "era": "Song",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "On the Harmony of Chan and Pure Land",
+    "content": "Chan and Pure Land are not two separate paths. Chan is the mind of the Buddha, and Pure Land is the land of the Buddha—how can these be divided? When you sit in meditation and see your own nature, the Pure Land appears right here and now. When you call the name of Amitabha with a concentrated mind, that is itself Chan practice. Those who practice Chan and dismiss Pure Land have lost half the teaching. Those who practice Pure Land and dismiss Chan have lost the other half. The complete teaching unites both: the direct pointing of Chan and the compassionate gateway of Pure Land.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Zongjing Lu (Records of the Source Mirror), Yongming Yanshou",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "yongming-yanshou", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "yongming-four-positions",
+    "type": "saying",
+    "author_slug": "yongming-yanshou",
+    "collection": "Teachings of Yongming Yanshou",
+    "era": "Song",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "The Four Positions on Chan and Pure Land",
+    "content": "With Chan and with Pure Land, one is like a tiger with horns—in this life a teacher of humankind, in the next a Buddha or patriarch. With Chan but without Pure Land, nine out of ten will stumble on the road—without a guide at the moment of death, even a master may lose the way. Without Chan but with Pure Land, if ten thousand practice, ten thousand will arrive—when Amitabha appears, one is born in the Western Land. Without Chan and without Pure Land, the iron bed and the copper pillars await—for ten thousand kalpas, no end to suffering.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Four Maxims (Siliaoce) of Yongming Yanshou",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "yongming-yanshou", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "zongmi-classification-chan",
+    "type": "sermon",
+    "author_slug": "guifeng-zongmi",
+    "collection": "Chan Preface",
+    "era": "Tang",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "Classification of Chan Schools",
+    "content": "The various Chan schools may be classified according to their depth of understanding. The lowest teaches that all dharmas are illusory and that one should cut off all entanglements—but this falls into nihilism. The next teaches that all dharmas are like dreams, neither real nor unreal—but this can lead to indifference. The next teaches that the mind-ground is originally pure and that defilements have never truly existed—but this can lead to quietism. The highest teaches that the true mind is the source of both delusion and enlightenment, that it is not empty and not existent, that it neither arises nor ceases. This is the teaching that directly reveals the nature of mind, and it encompasses all the others.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Chanyuan zhuquanji duxu (Preface to the Collected Writings on the Source of Chan)",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "guifeng-zongmi", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "rujing-drop-body-mind",
+    "type": "dialogue",
+    "author_slug": "tiantong-rujing",
+    "collection": "Traditional Zen Encounter Dialogues",
+    "era": "Song",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "Drop Off Body and Mind!",
+    "content": "During the early morning zazen, Rujing addressed the assembly: 'Studying Zen is the dropping off of body and mind.' Hearing these words, Dogen was suddenly and completely awakened. He went directly to the abbot's room and burned incense. Rujing asked, 'Why are you burning incense?' Dogen said, 'Body and mind have been dropped off.' Rujing said, 'Body and mind have been dropped off. The dropped-off body and mind.' Dogen said, 'This is only a temporary ability. Please do not give me your approval carelessly.' Rujing said, 'I am not giving you approval carelessly.' Dogen asked, 'What is this not giving approval carelessly?' Rujing said, 'Body and mind dropped off!'",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Hokyoki (Dogen's journal of study under Rujing)",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "tiantong-rujing", "role": "speaker" },
+      { "slug": "dogen", "role": "respondent" }
+    ]
+  },
+  {
+    "slug": "rujing-primacy-zazen",
+    "type": "saying",
+    "author_slug": "tiantong-rujing",
+    "collection": "Teachings of Tiantong Rujing",
+    "era": "Song",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "The Primacy of Zazen Over All Other Practices",
+    "content": "Zazen is the Dharma gate of ease and bliss. Do not burn incense, make prostrations, practice nembutsu, perform penance, or read sutras. Just sit and get the business done. Zazen is not the practice of dhyana that is one of the six paramitas. It is not a method among methods. It is the Dharma gate of all the Buddhas. Do not exchange it for anything else.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Hokyoki, recorded by Dogen",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "tiantong-rujing", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "pang-yun-how-wondrous",
+    "type": "saying",
+    "author_slug": "pang-yun",
+    "collection": "Sayings of Layman Pang",
+    "era": "Tang",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "How Wondrous, How Miraculous",
+    "content": "How wondrous, how miraculous—I chop wood, I carry water.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Attributed to Layman Pang (Pang Yun)",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "pang-yun", "role": "attributed_to" }
+    ]
   }
 ]
