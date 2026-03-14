@@ -859,12 +859,8 @@ export default function LineageGraph() {
                 alt={sidebar.node.imageAlt ?? sidebar.node.label}
                 className="sidebar-image"
               />
-              {sidebar.node.imageAttribution && (
-                <div className="sidebar-image-attribution">{sidebar.node.imageAttribution}</div>
-              )}
             </div>
           )}
-          {sidebar.node.bio && <p className="sidebar-description">{sidebar.node.bio}</p>}
           <h2 className="sidebar-name">{sidebar.node.label}</h2>
           {sidebar.schoolName && <p className="sidebar-school">{sidebar.schoolName}</p>}
           {(sidebar.node.birthYear || sidebar.node.deathYear) && (
@@ -872,6 +868,7 @@ export default function LineageGraph() {
               {formatDate(sidebar.node.birthYear)} – {formatDate(sidebar.node.deathYear)}
             </p>
           )}
+          {sidebar.node.bio && <p className="sidebar-description">{sidebar.node.bio}</p>}
           <div className="sidebar-actions">
             <Link className="sidebar-link" href={`/masters/${sidebar.node.slug}`}>
               Open profile

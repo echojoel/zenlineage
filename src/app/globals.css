@@ -574,12 +574,13 @@ body {
   padding: 1.5rem 2rem 2.5rem;
 }
 
-.detail-hero,
+.detail-hero {
+  padding: 0 0 1.2rem;
+}
+
 .detail-card {
-  background: var(--paper-warm);
-  border: 1px solid rgba(122, 106, 85, 0.12);
-  border-radius: 8px;
-  padding: 1.2rem 1.3rem;
+  padding: 1.2rem 0;
+  border-top: 1px solid rgba(122, 106, 85, 0.12);
 }
 
 .detail-eyebrow,
