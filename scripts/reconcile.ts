@@ -416,6 +416,86 @@ export function parseDates(raw: string): ParsedDates {
     };
   }
 
+  // "c. NNN-NNN BCE" — circa BCE range
+  const circaBCERange = s.match(/^c\.\s*(\d+)-(\d+)\s*BCE$/i);
+  if (circaBCERange) {
+    return {
+      birth: { year: -parseInt(circaBCERange[1], 10), precision: "circa", confidence: "medium" },
+      death: { year: -parseInt(circaBCERange[2], 10), precision: "circa", confidence: "medium" },
+    };
+  }
+
+  // "NNN-NNN BCE" — exact BCE range
+  const exactBCERange = s.match(/^(\d+)-(\d+)\s*BCE$/i);
+  if (exactBCERange) {
+    return {
+      birth: { year: -parseInt(exactBCERange[1], 10), precision: "exact", confidence: "high" },
+      death: { year: -parseInt(exactBCERange[2], 10), precision: "exact", confidence: "high" },
+    };
+  }
+
+  // "c. NNN-NNN CE" or "c. NNN-NNN" — circa CE/implicit range
+  const circaCERange = s.match(/^c\.\s*(\d+)-(\d+)(?:\s*CE)?$/i);
+  if (circaCERange) {
+    return {
+      birth: { year: parseInt(circaCERange[1], 10), precision: "circa", confidence: "medium" },
+      death: { year: parseInt(circaCERange[2], 10), precision: "circa", confidence: "medium" },
+    };
+  }
+
+  // "d. NNN BCE" — exact BCE death
+  const dBCE = s.match(/^d\.\s*(\d+)\s*BCE$/i);
+  if (dBCE) {
+    return {
+      birth: null,
+      death: { year: -parseInt(dBCE[1], 10), precision: "exact", confidence: "high" },
+    };
+  }
+
+  // "fl. Nth c. BCE" — flourished BCE century
+  const flBCECentury = s.match(/^fl\.\s*(\d+)(?:th|st|nd|rd)\s*c\.?\s*BCE$/i);
+  if (flBCECentury) {
+    const centuryNum = parseInt(flBCECentury[1], 10);
+    const midpoint = -((centuryNum - 1) * 100 + 50);
+    return {
+      birth: { year: midpoint, precision: "century", confidence: "low" },
+      death: null,
+    };
+  }
+
+  // "c. Nth c. BCE" or "trad. Nth c. BCE" — circa/traditional BCE century
+  const circaBCECentury = s.match(/^(?:c\.|trad\.)\s*(\d+)(?:th|st|nd|rd)\s*c\.?\s*BCE$/i);
+  if (circaBCECentury) {
+    const centuryNum = parseInt(circaBCECentury[1], 10);
+    const midpoint = -((centuryNum - 1) * 100 + 50);
+    return {
+      birth: { year: midpoint, precision: "century", confidence: "low" },
+      death: null,
+    };
+  }
+
+  // "c. Nth c. CE" or "trad. Nth c. CE" — circa/traditional CE century
+  const circaCECentury = s.match(/^(?:c\.|trad\.)\s*(\d+)(?:th|st|nd|rd)\s*c\.?\s*(?:CE)?$/i);
+  if (circaCECentury) {
+    const centuryNum = parseInt(circaCECentury[1], 10);
+    const midpoint = (centuryNum - 1) * 100 + 50;
+    return {
+      birth: { year: midpoint, precision: "century", confidence: "low" },
+      death: null,
+    };
+  }
+
+  // "Nth-Nth c. CE" or "Nth-Nth c." — century range
+  const centuryRange = s.match(/^(\d+)(?:th|st|nd|rd)-(\d+)(?:th|st|nd|rd)\s*c\.?(?:\s*CE)?$/i);
+  if (centuryRange) {
+    const birthCentury = parseInt(centuryRange[1], 10);
+    const deathCentury = parseInt(centuryRange[2], 10);
+    return {
+      birth: { year: (birthCentury - 1) * 100 + 50, precision: "century", confidence: "low" },
+      death: { year: (deathCentury - 1) * 100 + 50, precision: "century", confidence: "low" },
+    };
+  }
+
   // "c. NNN"
   const circa = s.match(/^c\.\s*(\d+)$/i);
   if (circa) {

@@ -132,6 +132,78 @@ describe("parseDates", () => {
     expect(result.birth?.year).toBe(885);
     expect(result.death?.year).toBe(958);
   });
+
+  it("parses 'c. 563-483 BCE' as circa BCE range", () => {
+    const result = parseDates("c. 563-483 BCE");
+    expect(result.birth).toEqual({ year: -563, precision: "circa", confidence: "medium" });
+    expect(result.death).toEqual({ year: -483, precision: "circa", confidence: "medium" });
+  });
+
+  it("parses '563-483 BCE' as exact BCE range", () => {
+    const result = parseDates("563-483 BCE");
+    expect(result.birth).toEqual({ year: -563, precision: "exact", confidence: "high" });
+    expect(result.death).toEqual({ year: -483, precision: "exact", confidence: "high" });
+  });
+
+  it("parses 'c. 150-250 CE' as circa CE range", () => {
+    const result = parseDates("c. 150-250 CE");
+    expect(result.birth).toEqual({ year: 150, precision: "circa", confidence: "medium" });
+    expect(result.death).toEqual({ year: 250, precision: "circa", confidence: "medium" });
+  });
+
+  it("parses 'c. 150-250' as circa range (CE implied)", () => {
+    const result = parseDates("c. 150-250");
+    expect(result.birth).toEqual({ year: 150, precision: "circa", confidence: "medium" });
+    expect(result.death).toEqual({ year: 250, precision: "circa", confidence: "medium" });
+  });
+
+  it("parses 'd. 569 BCE' as exact BCE death", () => {
+    const result = parseDates("d. 569 BCE");
+    expect(result.birth).toBeNull();
+    expect(result.death).toEqual({ year: -569, precision: "exact", confidence: "high" });
+  });
+
+  it("parses 'fl. 2nd c. BCE' as flourished BCE century", () => {
+    const result = parseDates("fl. 2nd c. BCE");
+    expect(result.birth).toEqual({ year: -150, precision: "century", confidence: "low" });
+    expect(result.death).toBeNull();
+  });
+
+  it("parses 'c. 3rd c. BCE' as circa BCE century", () => {
+    const result = parseDates("c. 3rd c. BCE");
+    expect(result.birth).toEqual({ year: -250, precision: "century", confidence: "low" });
+    expect(result.death).toBeNull();
+  });
+
+  it("parses '4th-5th c. CE' as century range", () => {
+    const result = parseDates("4th-5th c. CE");
+    expect(result.birth).toEqual({ year: 350, precision: "century", confidence: "low" });
+    expect(result.death).toEqual({ year: 450, precision: "century", confidence: "low" });
+  });
+
+  it("parses 'trad. 5th c. BCE' as traditional century", () => {
+    const result = parseDates("trad. 5th c. BCE");
+    expect(result.birth).toEqual({ year: -450, precision: "century", confidence: "low" });
+    expect(result.death).toBeNull();
+  });
+
+  it("parses 'c. 80-150 CE' as circa CE range", () => {
+    const result = parseDates("c. 80-150 CE");
+    expect(result.birth).toEqual({ year: 80, precision: "circa", confidence: "medium" });
+    expect(result.death).toEqual({ year: 150, precision: "circa", confidence: "medium" });
+  });
+
+  it("parses 'c. 440-536 CE' as circa CE range", () => {
+    const result = parseDates("c. 440-536 CE");
+    expect(result.birth).toEqual({ year: 440, precision: "circa", confidence: "medium" });
+    expect(result.death).toEqual({ year: 536, precision: "circa", confidence: "medium" });
+  });
+
+  it("parses 'trad. 2nd c. CE' as traditional CE century", () => {
+    const result = parseDates("trad. 2nd c. CE");
+    expect(result.birth).toEqual({ year: 150, precision: "century", confidence: "low" });
+    expect(result.death).toBeNull();
+  });
 });
 
 // ---------------------------------------------------------------------------
