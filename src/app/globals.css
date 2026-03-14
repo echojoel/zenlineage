@@ -579,11 +579,14 @@ body {
 .detail-layout {
   display: grid;
   gap: 1rem;
+  max-width: 860px;
+  margin: 0 auto;
   padding: 1.5rem 2rem 2.5rem;
 }
 
 .detail-hero {
   padding: 0 0 1.2rem;
+  text-align: center;
 }
 
 .detail-card {
@@ -594,10 +597,16 @@ body {
 .detail-eyebrow,
 .detail-subtitle,
 .detail-list-meta,
-.detail-muted,
 .detail-name-meta,
 .detail-source-heading {
   font-family: var(--font-inter), sans-serif;
+  color: var(--ink-light);
+}
+
+.detail-muted {
+  font-family: var(--font-inter), sans-serif;
+  font-size: 0.7rem;
+  letter-spacing: 0.04em;
   color: var(--ink-light);
 }
 
@@ -626,13 +635,13 @@ body {
   max-width: 400px;
   height: auto;
   border-radius: 4px;
-  margin: 0 0 1.2rem;
+  margin: 0 auto 1.2rem;
 }
 
 .detail-summary {
-  max-width: 60ch;
   margin: 1rem 0 0;
   line-height: 1.7;
+  text-align: justify;
 }
 
 .detail-actions {
@@ -640,6 +649,7 @@ body {
   gap: 0.75rem;
   flex-wrap: wrap;
   margin-top: 1rem;
+  justify-content: center;
 }
 
 .detail-button {
@@ -724,6 +734,11 @@ body {
   border-bottom: 1px solid rgba(122, 106, 85, 0.12);
 }
 
+.detail-link-list li:first-child,
+.detail-source-list li:first-child {
+  padding-top: 0;
+}
+
 .detail-link-list li:last-child,
 .detail-source-list li:last-child {
   border-bottom: none;
@@ -781,6 +796,7 @@ body {
 .detail-source-excerpt {
   margin: 0.45rem 0 0;
   line-height: 1.6;
+  text-align: justify;
 }
 
 @media (max-width: 720px) {

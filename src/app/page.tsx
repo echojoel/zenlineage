@@ -86,6 +86,7 @@ export default async function Home() {
           { label: "Masters", href: "/masters" },
           { label: "Schools", href: "/schools" },
           { label: "Timeline", href: "/timeline" },
+          { label: "About", href: "/about" },
         ].map(({ label, href }) => (
           <Link key={href} href={href} className="nav-link">
             {label}

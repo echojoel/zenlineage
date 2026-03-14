@@ -373,25 +373,23 @@ export default async function MasterDetailPage({ params }: { params: Promise<{ s
         </section>
 
         <section className="detail-card">
-          <h3 className="detail-section-title">Names</h3>
-          <div className="detail-name-list">
-            {orderedNames.map((name) => (
-              <div
-                key={`${name.locale}:${name.nameType}:${name.value}`}
-                className="detail-name-row"
-              >
-                <span className="detail-name-meta">
-                  {name.nameType} · {name.locale}
-                </span>
-                <span className="detail-name-value">{name.value}</span>
-              </div>
-            ))}
-          </div>
-        </section>
-
-        <section className="detail-card">
-          <h3 className="detail-section-title">Lineage</h3>
           <div className="detail-columns">
+            <div>
+              <h4 className="detail-subsection-title">Names</h4>
+              <div className="detail-name-list">
+                {orderedNames.map((name) => (
+                  <div
+                    key={`${name.locale}:${name.nameType}:${name.value}`}
+                    className="detail-name-row"
+                  >
+                    <span className="detail-name-meta">
+                      {name.nameType} · {name.locale}
+                    </span>
+                    <span className="detail-name-value">{name.value}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
             <div>
               <h4 className="detail-subsection-title">Teachers</h4>
               {teachers.length === 0 ? (

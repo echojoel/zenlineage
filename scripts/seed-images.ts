@@ -51,6 +51,12 @@ const IMAGE_SEARCH_OVERRIDES: Record<string, string[]> = {
   "keizan-jokin": ["Keizan", "Keizan Jōkin"],
   "hakuin-ekaku": ["Hakuin Ekaku", "Hakuin"],
   "xuefeng-yicun": ["Xuefeng Yicun", "Hsueh-feng I-ts'un"],
+  "gudo-wafu-nishijima": ["Gudō Wafu Nishijima", "Gudo Nishijima"],
+  "taizan-maezumi": ["Taizan Maezumi", "Hakuyu Taizan Maezumi"],
+  "jiyu-kennett": ["Jiyu-Kennett", "Houn Jiyu-Kennett"],
+  "dainin-katagiri": ["Dainin Katagiri"],
+  "kobun-chino-otogawa": ["Kobun Chino Otogawa", "Kobun Chino"],
+  "roland-rech": ["Roland Rech Zen"],
 };
 
 /**

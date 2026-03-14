@@ -3834,6 +3834,114 @@
     "token_type": "romanization"
   },
   {
+    "id": "p0y2HjvmK-q--zkyIi_-b",
+    "entity_type": "master",
+    "entity_id": "5jVaikrFuGWfTBTVeEq5d",
+    "token": "taizan maezumi",
+    "original": "Taizan Maezumi",
+    "locale": "en",
+    "token_type": "name"
+  },
+  {
+    "id": "hH5hUtzaRhlyF-ifRX3Dj",
+    "entity_type": "master",
+    "entity_id": "5jVaikrFuGWfTBTVeEq5d",
+    "token": "taizan",
+    "original": "Taizan Maezumi",
+    "locale": "en",
+    "token_type": "name"
+  },
+  {
+    "id": "mu-m94a2DRoVumFRRhJaO",
+    "entity_type": "master",
+    "entity_id": "5jVaikrFuGWfTBTVeEq5d",
+    "token": "maezumi",
+    "original": "Taizan Maezumi",
+    "locale": "en",
+    "token_type": "name"
+  },
+  {
+    "id": "BZH8Uggkmp8KxPE1TNyv6",
+    "entity_type": "master",
+    "entity_id": "5jVaikrFuGWfTBTVeEq5d",
+    "token": "qian jiao tai shan",
+    "original": "前角泰山",
+    "locale": "zh",
+    "token_type": "romanization"
+  },
+  {
+    "id": "NoAj4oZsx6m1zvKbQlGYI",
+    "entity_type": "master",
+    "entity_id": "5jVaikrFuGWfTBTVeEq5d",
+    "token": "qianjiaotaishan",
+    "original": "前角泰山",
+    "locale": "zh",
+    "token_type": "romanization"
+  },
+  {
+    "id": "T-xYHhVrDBwHY-8gdJGmB",
+    "entity_type": "master",
+    "entity_id": "5jVaikrFuGWfTBTVeEq5d",
+    "token": "hakuyu taizan maezumi",
+    "original": "Hakuyu Taizan Maezumi",
+    "locale": "en",
+    "token_type": "alias"
+  },
+  {
+    "id": "0bsBG5G99H1ZNkiqm_4Bn",
+    "entity_type": "master",
+    "entity_id": "5jVaikrFuGWfTBTVeEq5d",
+    "token": "hakuyu",
+    "original": "Hakuyu Taizan Maezumi",
+    "locale": "en",
+    "token_type": "alias"
+  },
+  {
+    "id": "Gd59wyPsw4tZezVJSz9Wk",
+    "entity_type": "master",
+    "entity_id": "5jVaikrFuGWfTBTVeEq5d",
+    "token": "taizan",
+    "original": "Hakuyu Taizan Maezumi",
+    "locale": "en",
+    "token_type": "alias"
+  },
+  {
+    "id": "d6DH2wNFdSPLsSyo6Yu2I",
+    "entity_type": "master",
+    "entity_id": "5jVaikrFuGWfTBTVeEq5d",
+    "token": "maezumi",
+    "original": "Hakuyu Taizan Maezumi",
+    "locale": "en",
+    "token_type": "alias"
+  },
+  {
+    "id": "mWP_aEshfXYvBFxn6hiu1",
+    "entity_type": "master",
+    "entity_id": "5jVaikrFuGWfTBTVeEq5d",
+    "token": "maezumi roshi",
+    "original": "Maezumi Roshi",
+    "locale": "en",
+    "token_type": "alias"
+  },
+  {
+    "id": "d6DH2wNFdSPLsSyo6Yu2I",
+    "entity_type": "master",
+    "entity_id": "5jVaikrFuGWfTBTVeEq5d",
+    "token": "maezumi",
+    "original": "Maezumi Roshi",
+    "locale": "en",
+    "token_type": "alias"
+  },
+  {
+    "id": "5BNXEm9Tb7-qubr-isFdJ",
+    "entity_type": "master",
+    "entity_id": "5jVaikrFuGWfTBTVeEq5d",
+    "token": "roshi",
+    "original": "Maezumi Roshi",
+    "locale": "en",
+    "token_type": "alias"
+  },
+  {
     "id": "ultMZoa2YHcdps1G8DIq-",
     "entity_type": "master",
     "entity_id": "5kAbvGLe5QduSccmn95uA",
@@ -4192,6 +4300,33 @@
     "original": "明堂雄暾",
     "locale": "zh",
     "token_type": "romanization"
+  },
+  {
+    "id": "OE1I5eskoppJKEqqsrIfm",
+    "entity_type": "master",
+    "entity_id": "6DVN4QdD6cAJWvY-o0yHS",
+    "token": "roland rech",
+    "original": "Roland Rech",
+    "locale": "en",
+    "token_type": "name"
+  },
+  {
+    "id": "ySQV14B2msg1cFPKClgtI",
+    "entity_type": "master",
+    "entity_id": "6DVN4QdD6cAJWvY-o0yHS",
+    "token": "roland",
+    "original": "Roland Rech",
+    "locale": "en",
+    "token_type": "name"
+  },
+  {
+    "id": "oo0DJo3BkS5wLs3ryByVY",
+    "entity_type": "master",
+    "entity_id": "6DVN4QdD6cAJWvY-o0yHS",
+    "token": "rech",
+    "original": "Roland Rech",
+    "locale": "en",
+    "token_type": "name"
   },
   {
     "id": "LbOwFjgVKE_FxYkcdFtGv",
@@ -5868,6 +6003,69 @@
     "token_type": "romanization"
   },
   {
+    "id": "DbBVxS62bXTD4vfpJX6zl",
+    "entity_type": "master",
+    "entity_id": "9jNP2fUH7zmQTozB_DnAO",
+    "token": "yves shoshin crettaz",
+    "original": "Yves Shoshin Crettaz",
+    "locale": "en",
+    "token_type": "name"
+  },
+  {
+    "id": "4wPOrR_CCKM-8ZTrz6wl0",
+    "entity_type": "master",
+    "entity_id": "9jNP2fUH7zmQTozB_DnAO",
+    "token": "yves",
+    "original": "Yves Shoshin Crettaz",
+    "locale": "en",
+    "token_type": "name"
+  },
+  {
+    "id": "V23hfGGxjPCAyT_mDsFGB",
+    "entity_type": "master",
+    "entity_id": "9jNP2fUH7zmQTozB_DnAO",
+    "token": "shoshin",
+    "original": "Yves Shoshin Crettaz",
+    "locale": "en",
+    "token_type": "name"
+  },
+  {
+    "id": "rvt_TOIt-oMWJ4CVsH1OG",
+    "entity_type": "master",
+    "entity_id": "9jNP2fUH7zmQTozB_DnAO",
+    "token": "crettaz",
+    "original": "Yves Shoshin Crettaz",
+    "locale": "en",
+    "token_type": "name"
+  },
+  {
+    "id": "Thfrj_msuxiN06nNdClhS",
+    "entity_type": "master",
+    "entity_id": "9jNP2fUH7zmQTozB_DnAO",
+    "token": "shoshin crettaz",
+    "original": "Shoshin Crettaz",
+    "locale": "en",
+    "token_type": "alias"
+  },
+  {
+    "id": "6pM_oJVpuDF4BMYJdvPFC",
+    "entity_type": "master",
+    "entity_id": "9jNP2fUH7zmQTozB_DnAO",
+    "token": "shoshin",
+    "original": "Shoshin Crettaz",
+    "locale": "en",
+    "token_type": "alias"
+  },
+  {
+    "id": "_OzwEBZerdoKjpIozCBmp",
+    "entity_type": "master",
+    "entity_id": "9jNP2fUH7zmQTozB_DnAO",
+    "token": "crettaz",
+    "original": "Shoshin Crettaz",
+    "locale": "en",
+    "token_type": "alias"
+  },
+  {
     "id": "L7kfg-vSHtTPUVeC9Earz",
     "entity_type": "master",
     "entity_id": "9p7AxxsAqoPi-TVU4ZnJj",
@@ -7070,6 +7268,123 @@
     "entity_id": "bjQXp6ro2IqXUbtD15GO8",
     "token": "unan",
     "original": "Un'an Kokubun",
+    "locale": "en",
+    "token_type": "alias"
+  },
+  {
+    "id": "0dcx0FHmsC6pzjyUlkpma",
+    "entity_type": "master",
+    "entity_id": "BKXR0nCDBJxkrGmBHuSDh",
+    "token": "gudo wafu nishijima",
+    "original": "Gudo Wafu Nishijima",
+    "locale": "en",
+    "token_type": "name"
+  },
+  {
+    "id": "w_-5WYlKdaPBuXU25_-3d",
+    "entity_type": "master",
+    "entity_id": "BKXR0nCDBJxkrGmBHuSDh",
+    "token": "gudo",
+    "original": "Gudo Wafu Nishijima",
+    "locale": "en",
+    "token_type": "name"
+  },
+  {
+    "id": "zZWITYstB3BDxeViygouF",
+    "entity_type": "master",
+    "entity_id": "BKXR0nCDBJxkrGmBHuSDh",
+    "token": "wafu",
+    "original": "Gudo Wafu Nishijima",
+    "locale": "en",
+    "token_type": "name"
+  },
+  {
+    "id": "3rmqAbcF3wCEI_wcsc3IQ",
+    "entity_type": "master",
+    "entity_id": "BKXR0nCDBJxkrGmBHuSDh",
+    "token": "nishijima",
+    "original": "Gudo Wafu Nishijima",
+    "locale": "en",
+    "token_type": "name"
+  },
+  {
+    "id": "3MUqWHJ7Cr2SQ_bBqPJlg",
+    "entity_type": "master",
+    "entity_id": "BKXR0nCDBJxkrGmBHuSDh",
+    "token": "xi dao yu dao he fu",
+    "original": "西嶋愚道和夫",
+    "locale": "zh",
+    "token_type": "romanization"
+  },
+  {
+    "id": "S07gletCVf0YgudMyRg_Q",
+    "entity_type": "master",
+    "entity_id": "BKXR0nCDBJxkrGmBHuSDh",
+    "token": "xidaoyudaohefu",
+    "original": "西嶋愚道和夫",
+    "locale": "zh",
+    "token_type": "romanization"
+  },
+  {
+    "id": "fErQfxCcngWgdSagzew1Q",
+    "entity_type": "master",
+    "entity_id": "BKXR0nCDBJxkrGmBHuSDh",
+    "token": "gudo wafu nishijima",
+    "original": "Gudō Wafu Nishijima",
+    "locale": "en",
+    "token_type": "alias"
+  },
+  {
+    "id": "ZtQ8Ct-Y489BQrSwH-8bz",
+    "entity_type": "master",
+    "entity_id": "BKXR0nCDBJxkrGmBHuSDh",
+    "token": "gudo",
+    "original": "Gudō Wafu Nishijima",
+    "locale": "en",
+    "token_type": "alias"
+  },
+  {
+    "id": "Xd1OlKvkgT_zi9zM0r2XL",
+    "entity_type": "master",
+    "entity_id": "BKXR0nCDBJxkrGmBHuSDh",
+    "token": "wafu",
+    "original": "Gudō Wafu Nishijima",
+    "locale": "en",
+    "token_type": "alias"
+  },
+  {
+    "id": "3716BildCCAKnL7Aq94Kb",
+    "entity_type": "master",
+    "entity_id": "BKXR0nCDBJxkrGmBHuSDh",
+    "token": "nishijima",
+    "original": "Gudō Wafu Nishijima",
+    "locale": "en",
+    "token_type": "alias"
+  },
+  {
+    "id": "_0v3sAgWEF7IlVfC6KKEd",
+    "entity_type": "master",
+    "entity_id": "BKXR0nCDBJxkrGmBHuSDh",
+    "token": "nishijima roshi",
+    "original": "Nishijima Roshi",
+    "locale": "en",
+    "token_type": "alias"
+  },
+  {
+    "id": "3716BildCCAKnL7Aq94Kb",
+    "entity_type": "master",
+    "entity_id": "BKXR0nCDBJxkrGmBHuSDh",
+    "token": "nishijima",
+    "original": "Nishijima Roshi",
+    "locale": "en",
+    "token_type": "alias"
+  },
+  {
+    "id": "p4l483uvg2yQwwUmQ0wdY",
+    "entity_type": "master",
+    "entity_id": "BKXR0nCDBJxkrGmBHuSDh",
+    "token": "roshi",
+    "original": "Nishijima Roshi",
     "locale": "en",
     "token_type": "alias"
   },
@@ -8348,6 +8663,150 @@
     "entity_id": "CTYad12WWJR8tMk_IHb0v",
     "token": "gon",
     "original": "Kyûhô Gon",
+    "locale": "en",
+    "token_type": "alias"
+  },
+  {
+    "id": "ZX0FJDriyVWU1-mAnRF61",
+    "entity_type": "master",
+    "entity_id": "CV42oRvR8Nv9kl0UIIr6V",
+    "token": "jiyu-kennett",
+    "original": "Jiyu-Kennett",
+    "locale": "en",
+    "token_type": "name"
+  },
+  {
+    "id": "VEbg0_kAeYGzQWVXais5h",
+    "entity_type": "master",
+    "entity_id": "CV42oRvR8Nv9kl0UIIr6V",
+    "token": "jiyukennett",
+    "original": "Jiyu-Kennett",
+    "locale": "en",
+    "token_type": "name"
+  },
+  {
+    "id": "UsMhwC4h-xNt5gKUz7WCx",
+    "entity_type": "master",
+    "entity_id": "CV42oRvR8Nv9kl0UIIr6V",
+    "token": "houn jiyu-kennett",
+    "original": "Houn Jiyu-Kennett",
+    "locale": "en",
+    "token_type": "alias"
+  },
+  {
+    "id": "Aicjp15IEOtxAmY87maxf",
+    "entity_type": "master",
+    "entity_id": "CV42oRvR8Nv9kl0UIIr6V",
+    "token": "houn",
+    "original": "Houn Jiyu-Kennett",
+    "locale": "en",
+    "token_type": "alias"
+  },
+  {
+    "id": "VW2FzuQGFm3OQvaosc6j6",
+    "entity_type": "master",
+    "entity_id": "CV42oRvR8Nv9kl0UIIr6V",
+    "token": "jiyu-kennett",
+    "original": "Houn Jiyu-Kennett",
+    "locale": "en",
+    "token_type": "alias"
+  },
+  {
+    "id": "eHDYVnABWWzO-Xv8nlGZD",
+    "entity_type": "master",
+    "entity_id": "CV42oRvR8Nv9kl0UIIr6V",
+    "token": "houn jiyukennett",
+    "original": "Houn Jiyu-Kennett",
+    "locale": "en",
+    "token_type": "alias"
+  },
+  {
+    "id": "8O7duivpHlCHR7PydHqr9",
+    "entity_type": "master",
+    "entity_id": "CV42oRvR8Nv9kl0UIIr6V",
+    "token": "jiyukennett",
+    "original": "Houn Jiyu-Kennett",
+    "locale": "en",
+    "token_type": "alias"
+  },
+  {
+    "id": "5ONiv5Zid7ADqEgmv3Fn0",
+    "entity_type": "master",
+    "entity_id": "CV42oRvR8Nv9kl0UIIr6V",
+    "token": "reverend master jiyu-kennett",
+    "original": "Reverend Master Jiyu-Kennett",
+    "locale": "en",
+    "token_type": "alias"
+  },
+  {
+    "id": "vbQ0McNqEjYAk_V4_8plx",
+    "entity_type": "master",
+    "entity_id": "CV42oRvR8Nv9kl0UIIr6V",
+    "token": "reverend",
+    "original": "Reverend Master Jiyu-Kennett",
+    "locale": "en",
+    "token_type": "alias"
+  },
+  {
+    "id": "CkSiyQBX2vdouRNsoyfzE",
+    "entity_type": "master",
+    "entity_id": "CV42oRvR8Nv9kl0UIIr6V",
+    "token": "master",
+    "original": "Reverend Master Jiyu-Kennett",
+    "locale": "en",
+    "token_type": "alias"
+  },
+  {
+    "id": "VW2FzuQGFm3OQvaosc6j6",
+    "entity_type": "master",
+    "entity_id": "CV42oRvR8Nv9kl0UIIr6V",
+    "token": "jiyu-kennett",
+    "original": "Reverend Master Jiyu-Kennett",
+    "locale": "en",
+    "token_type": "alias"
+  },
+  {
+    "id": "E_dblMeHlV-zGTvmFanqY",
+    "entity_type": "master",
+    "entity_id": "CV42oRvR8Nv9kl0UIIr6V",
+    "token": "reverend master jiyukennett",
+    "original": "Reverend Master Jiyu-Kennett",
+    "locale": "en",
+    "token_type": "alias"
+  },
+  {
+    "id": "8O7duivpHlCHR7PydHqr9",
+    "entity_type": "master",
+    "entity_id": "CV42oRvR8Nv9kl0UIIr6V",
+    "token": "jiyukennett",
+    "original": "Reverend Master Jiyu-Kennett",
+    "locale": "en",
+    "token_type": "alias"
+  },
+  {
+    "id": "GLg0rLvATVlekeRl3lLcE",
+    "entity_type": "master",
+    "entity_id": "CV42oRvR8Nv9kl0UIIr6V",
+    "token": "peggy kennett",
+    "original": "Peggy Kennett",
+    "locale": "en",
+    "token_type": "alias"
+  },
+  {
+    "id": "VJRJlzgSgrHhMbm0flDsF",
+    "entity_type": "master",
+    "entity_id": "CV42oRvR8Nv9kl0UIIr6V",
+    "token": "peggy",
+    "original": "Peggy Kennett",
+    "locale": "en",
+    "token_type": "alias"
+  },
+  {
+    "id": "EXoMHJYI45NVtOx-H8MGG",
+    "entity_type": "master",
+    "entity_id": "CV42oRvR8Nv9kl0UIIr6V",
+    "token": "kennett",
+    "original": "Peggy Kennett",
     "locale": "en",
     "token_type": "alias"
   },
@@ -10177,6 +10636,69 @@
     "original": "南院守柔",
     "locale": "zh",
     "token_type": "romanization"
+  },
+  {
+    "id": "bRGMtZZGZuccMjttwHCxc",
+    "entity_type": "master",
+    "entity_id": "ehRBAakSqW4gBVAGPJrYr",
+    "token": "raphael dokio triet",
+    "original": "Raphael Dokio Triet",
+    "locale": "en",
+    "token_type": "name"
+  },
+  {
+    "id": "8ntIFEITGDHIrQ8eGSMEv",
+    "entity_type": "master",
+    "entity_id": "ehRBAakSqW4gBVAGPJrYr",
+    "token": "raphael",
+    "original": "Raphael Dokio Triet",
+    "locale": "en",
+    "token_type": "name"
+  },
+  {
+    "id": "34FvxWgihpUO5ZUoGkFW3",
+    "entity_type": "master",
+    "entity_id": "ehRBAakSqW4gBVAGPJrYr",
+    "token": "dokio",
+    "original": "Raphael Dokio Triet",
+    "locale": "en",
+    "token_type": "name"
+  },
+  {
+    "id": "4uvgwIy9PYJQgBYNOK_5a",
+    "entity_type": "master",
+    "entity_id": "ehRBAakSqW4gBVAGPJrYr",
+    "token": "triet",
+    "original": "Raphael Dokio Triet",
+    "locale": "en",
+    "token_type": "name"
+  },
+  {
+    "id": "WqS4XdGRJf9mN2oL-xZzo",
+    "entity_type": "master",
+    "entity_id": "ehRBAakSqW4gBVAGPJrYr",
+    "token": "dokio triet",
+    "original": "Dokio Triet",
+    "locale": "en",
+    "token_type": "alias"
+  },
+  {
+    "id": "a_ZTrCO7hWa5Meql52GUJ",
+    "entity_type": "master",
+    "entity_id": "ehRBAakSqW4gBVAGPJrYr",
+    "token": "dokio",
+    "original": "Dokio Triet",
+    "locale": "en",
+    "token_type": "alias"
+  },
+  {
+    "id": "dm0aKdmyQ9vjoLpISbua1",
+    "entity_type": "master",
+    "entity_id": "ehRBAakSqW4gBVAGPJrYr",
+    "token": "triet",
+    "original": "Dokio Triet",
+    "locale": "en",
+    "token_type": "alias"
   },
   {
     "id": "g8yItEMvdoohrqRylYMLs",
@@ -15786,6 +16308,78 @@
     "token_type": "alias"
   },
   {
+    "id": "lVliWjerM2kqvwQChU-hG",
+    "entity_type": "master",
+    "entity_id": "kPxvekBAGHFQcneShv3GW",
+    "token": "dainin katagiri",
+    "original": "Dainin Katagiri",
+    "locale": "en",
+    "token_type": "name"
+  },
+  {
+    "id": "6TOK825hHZ2cV90rHF_1n",
+    "entity_type": "master",
+    "entity_id": "kPxvekBAGHFQcneShv3GW",
+    "token": "dainin",
+    "original": "Dainin Katagiri",
+    "locale": "en",
+    "token_type": "name"
+  },
+  {
+    "id": "chptDIquO1zMXr8B3SOzH",
+    "entity_type": "master",
+    "entity_id": "kPxvekBAGHFQcneShv3GW",
+    "token": "katagiri",
+    "original": "Dainin Katagiri",
+    "locale": "en",
+    "token_type": "name"
+  },
+  {
+    "id": "LV8e_hYXQ9f-8e89VDqta",
+    "entity_type": "master",
+    "entity_id": "kPxvekBAGHFQcneShv3GW",
+    "token": "pian tong da ren",
+    "original": "片桐大忍",
+    "locale": "zh",
+    "token_type": "romanization"
+  },
+  {
+    "id": "pH2LVE3PztSpJ7Zfnkeet",
+    "entity_type": "master",
+    "entity_id": "kPxvekBAGHFQcneShv3GW",
+    "token": "piantongdaren",
+    "original": "片桐大忍",
+    "locale": "zh",
+    "token_type": "romanization"
+  },
+  {
+    "id": "EfHhbaLGE4gLR-PiP0zOs",
+    "entity_type": "master",
+    "entity_id": "kPxvekBAGHFQcneShv3GW",
+    "token": "katagiri roshi",
+    "original": "Katagiri Roshi",
+    "locale": "en",
+    "token_type": "alias"
+  },
+  {
+    "id": "sKtgAKUMhB7O9329X2I9n",
+    "entity_type": "master",
+    "entity_id": "kPxvekBAGHFQcneShv3GW",
+    "token": "katagiri",
+    "original": "Katagiri Roshi",
+    "locale": "en",
+    "token_type": "alias"
+  },
+  {
+    "id": "xSZ0mLdFb9Ps2-l8CUptD",
+    "entity_type": "master",
+    "entity_id": "kPxvekBAGHFQcneShv3GW",
+    "token": "roshi",
+    "original": "Katagiri Roshi",
+    "locale": "en",
+    "token_type": "alias"
+  },
+  {
     "id": "UjKUbwANNEJQljv4C2S3T",
     "entity_type": "master",
     "entity_id": "kS3Ly9XnwqtVFXL7azJyn",
@@ -16844,6 +17438,123 @@
     "entity_id": "M_dUQCJ9bjmX1ckgX4YtY",
     "token": "shikei",
     "original": "Chikuan Shikei",
+    "locale": "en",
+    "token_type": "alias"
+  },
+  {
+    "id": "n2PBsmcrE0RBsYZ82EImK",
+    "entity_type": "master",
+    "entity_id": "M2g4WsoYjXgackvaKXUjn",
+    "token": "kobun chino otogawa",
+    "original": "Kobun Chino Otogawa",
+    "locale": "en",
+    "token_type": "name"
+  },
+  {
+    "id": "ONnoOhzaBX_ZI3fMzAbAB",
+    "entity_type": "master",
+    "entity_id": "M2g4WsoYjXgackvaKXUjn",
+    "token": "kobun",
+    "original": "Kobun Chino Otogawa",
+    "locale": "en",
+    "token_type": "name"
+  },
+  {
+    "id": "uLFObIDILuFh_QDFeh_XV",
+    "entity_type": "master",
+    "entity_id": "M2g4WsoYjXgackvaKXUjn",
+    "token": "chino",
+    "original": "Kobun Chino Otogawa",
+    "locale": "en",
+    "token_type": "name"
+  },
+  {
+    "id": "0EW23oEm39v4LxSIRzcCX",
+    "entity_type": "master",
+    "entity_id": "M2g4WsoYjXgackvaKXUjn",
+    "token": "otogawa",
+    "original": "Kobun Chino Otogawa",
+    "locale": "en",
+    "token_type": "name"
+  },
+  {
+    "id": "uEgEwipmpPS9O4HAZURyb",
+    "entity_type": "master",
+    "entity_id": "M2g4WsoYjXgackvaKXUjn",
+    "token": "zhi ye hong wen",
+    "original": "知野弘文",
+    "locale": "zh",
+    "token_type": "romanization"
+  },
+  {
+    "id": "2Mu2YYsaLypCNhr_kMeLU",
+    "entity_type": "master",
+    "entity_id": "M2g4WsoYjXgackvaKXUjn",
+    "token": "zhiyehongwen",
+    "original": "知野弘文",
+    "locale": "zh",
+    "token_type": "romanization"
+  },
+  {
+    "id": "8LIviCbTG11OzC_ylqq3Q",
+    "entity_type": "master",
+    "entity_id": "M2g4WsoYjXgackvaKXUjn",
+    "token": "kobun chino",
+    "original": "Kobun Chino",
+    "locale": "en",
+    "token_type": "alias"
+  },
+  {
+    "id": "72m-i4wBqtPaopkX57h5a",
+    "entity_type": "master",
+    "entity_id": "M2g4WsoYjXgackvaKXUjn",
+    "token": "kobun",
+    "original": "Kobun Chino",
+    "locale": "en",
+    "token_type": "alias"
+  },
+  {
+    "id": "YoJT-2DlBXnYzu2Xgjf4B",
+    "entity_type": "master",
+    "entity_id": "M2g4WsoYjXgackvaKXUjn",
+    "token": "chino",
+    "original": "Kobun Chino",
+    "locale": "en",
+    "token_type": "alias"
+  },
+  {
+    "id": "tWtcftya5KadATWajS8FU",
+    "entity_type": "master",
+    "entity_id": "M2g4WsoYjXgackvaKXUjn",
+    "token": "kobun chino otagawa",
+    "original": "Kobun Chino Otagawa",
+    "locale": "en",
+    "token_type": "alias"
+  },
+  {
+    "id": "72m-i4wBqtPaopkX57h5a",
+    "entity_type": "master",
+    "entity_id": "M2g4WsoYjXgackvaKXUjn",
+    "token": "kobun",
+    "original": "Kobun Chino Otagawa",
+    "locale": "en",
+    "token_type": "alias"
+  },
+  {
+    "id": "YoJT-2DlBXnYzu2Xgjf4B",
+    "entity_type": "master",
+    "entity_id": "M2g4WsoYjXgackvaKXUjn",
+    "token": "chino",
+    "original": "Kobun Chino Otagawa",
+    "locale": "en",
+    "token_type": "alias"
+  },
+  {
+    "id": "mMtuf4mOv5-33UZ3w9Vp8",
+    "entity_type": "master",
+    "entity_id": "M2g4WsoYjXgackvaKXUjn",
+    "token": "otagawa",
+    "original": "Kobun Chino Otagawa",
     "locale": "en",
     "token_type": "alias"
   },

@@ -3375,6 +3375,36 @@
     ]
   },
   {
+    "id": "lEMnyU4OHyRLDHQriOFrr",
+    "student_id": "6DVN4QdD6cAJWvY-o0yHS",
+    "teacher_id": "JUlWiDloLgDq82bu8kx_G",
+    "type": "primary",
+    "is_primary": true,
+    "source_ids": [
+      "src_sotozen_founders"
+    ]
+  },
+  {
+    "id": "NQO5giNxsg3w38ORWzLU2",
+    "student_id": "ehRBAakSqW4gBVAGPJrYr",
+    "teacher_id": "JUlWiDloLgDq82bu8kx_G",
+    "type": "primary",
+    "is_primary": true,
+    "source_ids": [
+      "src_sotozen_founders"
+    ]
+  },
+  {
+    "id": "doG_AU7WQ8m_mYu9wJbai",
+    "student_id": "9jNP2fUH7zmQTozB_DnAO",
+    "teacher_id": "ehRBAakSqW4gBVAGPJrYr",
+    "type": "primary",
+    "is_primary": true,
+    "source_ids": [
+      "src_sotozen_founders"
+    ]
+  },
+  {
     "id": "4l6sQMmBkhwbdLhrD7X5F",
     "student_id": "eeWkFL_yU8-TDINiD55bY",
     "teacher_id": "tEX5l7-qjZO_KX3utGFFf",

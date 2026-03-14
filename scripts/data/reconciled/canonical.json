@@ -1311,6 +1311,42 @@
     ]
   },
   {
+    "id": "5jVaikrFuGWfTBTVeEq5d",
+    "slug": "taizan-maezumi",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Taizan Maezumi"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "前角泰山"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Hakuyu Taizan Maezumi"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Maezumi Roshi"
+      }
+    ],
+    "birth_year": 1931,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 1995,
+    "death_precision": "exact",
+    "death_confidence": "high",
+    "school": "Soto",
+    "source_ids": [
+      "src_sotozen_founders"
+    ]
+  },
+  {
     "id": "5kAbvGLe5QduSccmn95uA",
     "slug": "kaiten-genju",
     "names": [
@@ -1438,6 +1474,27 @@
     "school": "Soto",
     "source_ids": [
       "src_originals_curated"
+    ]
+  },
+  {
+    "id": "6DVN4QdD6cAJWvY-o0yHS",
+    "slug": "roland-rech",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Roland Rech"
+      }
+    ],
+    "birth_year": 1944,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 2024,
+    "death_precision": "exact",
+    "death_confidence": "high",
+    "school": "Soto",
+    "source_ids": [
+      "src_sotozen_founders"
     ]
   },
   {
@@ -1928,6 +1985,32 @@
     "school": "Rinzai",
     "source_ids": [
       "src_originals_curated"
+    ]
+  },
+  {
+    "id": "9jNP2fUH7zmQTozB_DnAO",
+    "slug": "yves-shoshin-crettaz",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Yves Shoshin Crettaz"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Shoshin Crettaz"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Soto",
+    "source_ids": [
+      "src_sotozen_founders"
     ]
   },
   {
@@ -2436,6 +2519,42 @@
     ]
   },
   {
+    "id": "BKXR0nCDBJxkrGmBHuSDh",
+    "slug": "gudo-wafu-nishijima",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Gudo Wafu Nishijima"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "西嶋愚道和夫"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Gudō Wafu Nishijima"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Nishijima Roshi"
+      }
+    ],
+    "birth_year": 1919,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 2014,
+    "death_precision": "exact",
+    "death_confidence": "high",
+    "school": "Soto",
+    "source_ids": [
+      "src_sotozen_founders"
+    ]
+  },
+  {
     "id": "BL41yC9VsAMM0TzssIEKP",
     "slug": "yuanwu-keqin",
     "names": [
@@ -2878,6 +2997,42 @@
     "source_ids": [
       "src_chan_ancestors_pdf",
       "src_originals_curated"
+    ]
+  },
+  {
+    "id": "CV42oRvR8Nv9kl0UIIr6V",
+    "slug": "jiyu-kennett",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Jiyu-Kennett"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Houn Jiyu-Kennett"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Reverend Master Jiyu-Kennett"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Peggy Kennett"
+      }
+    ],
+    "birth_year": 1924,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 1996,
+    "death_precision": "exact",
+    "death_confidence": "high",
+    "school": "Soto",
+    "source_ids": [
+      "src_sotozen_founders"
     ]
   },
   {
@@ -3534,6 +3689,32 @@
     "school": "Rinzai",
     "source_ids": [
       "src_terebess"
+    ]
+  },
+  {
+    "id": "ehRBAakSqW4gBVAGPJrYr",
+    "slug": "raphael-dokio-triet",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Raphael Dokio Triet"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Dokio Triet"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Soto",
+    "source_ids": [
+      "src_sotozen_founders"
     ]
   },
   {
@@ -5433,6 +5614,37 @@
     ]
   },
   {
+    "id": "kPxvekBAGHFQcneShv3GW",
+    "slug": "dainin-katagiri",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Dainin Katagiri"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "片桐大忍"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Katagiri Roshi"
+      }
+    ],
+    "birth_year": 1928,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 1990,
+    "death_precision": "exact",
+    "death_confidence": "high",
+    "school": "Soto",
+    "source_ids": [
+      "src_sotozen_founders"
+    ]
+  },
+  {
     "id": "kS3Ly9XnwqtVFXL7azJyn",
     "slug": "renzan-soho",
     "names": [
@@ -5835,6 +6047,42 @@
     "source_ids": [
       "src_chan_ancestors_pdf",
       "src_originals_curated"
+    ]
+  },
+  {
+    "id": "M2g4WsoYjXgackvaKXUjn",
+    "slug": "kobun-chino-otogawa",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Kobun Chino Otogawa"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "知野弘文"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Kobun Chino"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Kobun Chino Otagawa"
+      }
+    ],
+    "birth_year": 1938,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 2002,
+    "death_precision": "exact",
+    "death_confidence": "high",
+    "school": "Soto",
+    "source_ids": [
+      "src_sotozen_founders"
     ]
   },
   {

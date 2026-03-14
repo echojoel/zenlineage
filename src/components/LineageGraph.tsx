@@ -638,7 +638,7 @@ export default function LineageGraph() {
     redraw();
 
     const pixi = pixiRef.current;
-    if (canvasRef.current && zoomRef.current && selectedSchool !== "all") {
+    if (canvasRef.current && zoomRef.current && selectedSchool !== "all" && !focusSlug) {
       // Find school member nodes (exclude bridge nodes)
       const schoolNodes = pixi.nodes.filter(
         (n) => n.schoolId === selectedSchool && !pixi.orphanSet.has(n.id)

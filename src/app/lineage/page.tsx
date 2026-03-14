@@ -1,5 +1,6 @@
 "use client";
 
+import { Suspense } from "react";
 import dynamic from "next/dynamic";
 import Link from "next/link";
 
@@ -14,7 +15,9 @@ export default function LineagePage() {
         </Link>
         <span className="lineage-nav-title">Lineage</span>
       </nav>
-      <LineageGraph />
+      <Suspense>
+        <LineageGraph />
+      </Suspense>
     </main>
   );
 }
