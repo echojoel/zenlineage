@@ -2,7 +2,15 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { and, eq, inArray } from "drizzle-orm";
 import { db } from "@/db";
-import { citations, masterNames, masters, schoolNames, schools, sources } from "@/db/schema";
+import {
+  citations,
+  masterNames,
+  masters,
+  mediaAssets,
+  schoolNames,
+  schools,
+  sources,
+} from "@/db/schema";
 import { formatDateWithPrecision } from "@/lib/date-format";
 import { getSchoolDefinition } from "@/lib/school-taxonomy";
 
@@ -119,6 +127,32 @@ export default async function SchoolDetailPage({ params }: { params: Promise<{ s
 
   const definition = getSchoolDefinition(slug);
 
+  // School image
+  const schoolImageRows = await db
+    .select({
+      id: mediaAssets.id,
+      storagePath: mediaAssets.storagePath,
+      attribution: mediaAssets.attribution,
+      license: mediaAssets.license,
+      altText: mediaAssets.altText,
+    })
+    .from(mediaAssets)
+    .where(and(eq(mediaAssets.entityType, "school"), eq(mediaAssets.entityId, school.id)));
+
+  const schoolImageCited = schoolImageRows.length > 0
+    ? (await db
+        .select({ id: citations.id })
+        .from(citations)
+        .where(
+          and(eq(citations.entityType, "media_asset"), eq(citations.entityId, schoolImageRows[0].id))
+        )).length > 0
+    : false;
+
+  const schoolImage =
+    schoolImageRows.length > 0 && schoolImageRows[0].storagePath && schoolImageCited
+      ? schoolImageRows[0]
+      : null;
+
   return (
     <main className="detail-page">
       <header className="page-header">
@@ -133,6 +167,14 @@ export default async function SchoolDetailPage({ params }: { params: Promise<{ s
 
       <div className="detail-layout">
         <section className="detail-hero">
+          {schoolImage && (
+            // eslint-disable-next-line @next/next/no-img-element
+            <img
+              src={schoolImage.storagePath!}
+              alt={schoolImage.altText ?? primaryName}
+              className="detail-hero-image"
+            />
+          )}
           <p className="detail-eyebrow">{school.tradition ?? "Zen tradition"}</p>
           <h2 className="detail-title">{primaryName}</h2>
           <p className="detail-subtitle">
@@ -224,6 +266,12 @@ export default async function SchoolDetailPage({ params }: { params: Promise<{ s
                 </li>
               ))}
             </ul>
+          )}
+          {schoolImage?.attribution && (
+            <p className="detail-list-meta" style={{ fontSize: "0.7rem", marginTop: "1rem" }}>
+              Image: {schoolImage.attribution}
+              {schoolImage.license ? ` · ${schoolImage.license}` : ""}
+            </p>
           )}
         </section>
       </div>

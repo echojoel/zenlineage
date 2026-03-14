@@ -521,6 +521,15 @@ body {
   border-color: var(--ink-light);
 }
 
+.school-card-image {
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 3px;
+  margin-bottom: 0.6rem;
+  opacity: 0.85;
+}
+
 .school-card-name {
   font-family: var(--font-cormorant), Georgia, serif;
   font-size: 1.1rem;
