@@ -49,3 +49,4 @@ scripts/data/raw/*.json
 scripts/data/enriched/
 scripts/data/i18n/
 scripts/data/review-queue.json
+.worktrees
