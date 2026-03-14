@@ -1,0 +1,31 @@
+{
+  "aliases": {
+    "Bodhidharma": ["Puti Damo", "Bodai Daruma", "P'u-ti Ta-mo", "達磨", "菩提達摩"],
+    "Dazu Huike": ["Taiso Eka", "Ta-tsu Hui-k'o", "慧可", "大祖慧可"],
+    "Jianzhi Sengcan": ["Kanchi Sôsan", "Chien-chih Sêng-ts'an", "僧璨"],
+    "Dayi Daoxin": ["Daii Dôshin", "Ta-i Tao-hsin", "道信"],
+    "Daman Hongren": ["Daiman Kônin", "Ta-man Hung-jên", "弘忍"],
+    "Dajian Huineng": ["Daikan Enô", "Ta-chien Hui-nêng", "慧能", "Caoxi"],
+    "Mazu Daoyi": ["Baso Dôitsu", "Ma-tsu Tao-i", "馬祖道一"],
+    "Linji Yixuan": ["Rinzai Gigen", "Lin-chi I-hsüan", "臨済義玄"],
+    "Dongshan Liangjie": ["Tôzan Ryôkai", "Tung-shan Liang-chieh", "洞山良价"],
+    "Dōgen": ["Eihei Dōgen", "Yongping Daoyuan", "Dogen", "道元"],
+    "Hakuin Ekaku": ["白隠慧鶴"],
+    "Yunmen Wenyan": ["Ummon Bun'en", "Yün-mên Wên-yen", "雲門文偃"],
+    "Zhaozhou Congshen": ["Jôshû Jûshin", "Chao-chou Ts'ung-shên", "趙州從諗"],
+    "Shitou Xiqian": ["Sekitô Kisen", "Shih-t'ou Hsi-ch'ien", "石頭希遷"],
+    "Nanyue Huairang": ["Nangaku Ejô", "Nan-yüeh Huai-jang", "南嶽懷讓"],
+    "Qingyuan Xingsi": ["Seigen Gyôshi", "Ch'ing-yüan Hsing-ssü", "青原行思"],
+    "Huangbo Xiyun": ["Ôbaku Kiun", "Huang-po Hsi-yün", "黃檗希運"],
+    "Baizhang Huaihai": ["Hyakujô Ekai", "Pai-chang Huai-hai", "百丈懷海"],
+    "Nanquan Puyuan": ["Nansen Fugan", "Nan-ch'üan Pu-yüan", "南泉普願"],
+    "Caoshan Benji": ["Sôzan Honjaku", "Ts'ao-shan Pen-chi", "曹山本寂"],
+    "Xuefeng Yicun": ["Seppô Gison", "Hsüeh-fêng I-ts'un", "雪峰義存"],
+    "Fayan Wenyi": ["Hôgen Bun'eki", "Fa-yen Wên-i", "法眼文益"],
+    "Guishan Lingyou": ["Isan Reiyû", "Kuei-shan Ling-yu", "潙山靈祐"],
+    "Yangshan Huiji": ["Kyôzan Ejaku", "Yang-shan Hui-chi", "仰山慧寂"],
+    "Deshan Xuanjian": ["Tokusan Senkan", "Tê-shan Hsüan-chien", "德山宣鑒"],
+    "Yasutani Hakuun": ["安谷白雲", "Yasutani Haku'un Ryōkō"],
+    "Harada Daiun Sogaku": ["原田大雲祖岳"]
+  }
+}
