@@ -200,7 +200,54 @@ const MASTER_SCHOOL_OVERRIDES: Array<{
   },
   {
     schoolSlug: "other",
-    names: ["pang yun", "layman pang", "mahasattva fu", "taigu puyu", "taigo pou"],
+    names: ["pang yun", "layman pang", "taigu puyu", "taigo pou"],
+  },
+  {
+    schoolSlug: "early-chan",
+    names: [
+      "mahasattva fu",
+      "niutou farong",
+      "guifeng zongmi",
+      "zizhou zhishen",
+      "zizhou chuji",
+      "jingzhong wuxiang",
+      "baotang wuzhu",
+    ],
+  },
+  {
+    schoolSlug: "qingyuan-line",
+    names: [
+      "jingzhong shenhui",
+      "suizhou daoyuan",
+      "longji shaoxiu",
+      "ruiyan shiyan",
+      "yantou quanhuo",
+      "nanyue daoxuan",
+      "heze shenhui",
+    ],
+  },
+  {
+    schoolSlug: "linji",
+    names: [
+      "huanglong huiji",
+      "shengshou nanyin",
+      "zhenjing kewen",
+    ],
+  },
+  {
+    schoolSlug: "yangqi-line",
+    names: [
+      "xutang zhiyu",
+      "poan zuxian",
+      "wuzhun shifan",
+    ],
+  },
+  {
+    schoolSlug: "caodong",
+    names: [
+      "kumu daocheng",
+      "changlu qingliao",
+    ],
   },
 ];
 

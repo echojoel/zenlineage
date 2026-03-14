@@ -222,7 +222,11 @@ export default async function SchoolDetailPage({ params }: { params: Promise<{ s
                   ...master,
                   name: masterNameMap.get(master.id) ?? master.slug,
                 }))
-                .sort((a, b) => a.name.localeCompare(b.name))
+                .sort((a, b) => {
+                  const aYear = a.birthYear ?? a.deathYear ?? Infinity;
+                  const bYear = b.birthYear ?? b.deathYear ?? Infinity;
+                  return aYear - bYear;
+                })
                 .map((master) => (
                   <li key={master.id}>
                     <Link href={`/masters/${master.slug}`}>{master.name}</Link>
