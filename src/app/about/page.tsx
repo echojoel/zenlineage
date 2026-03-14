@@ -21,7 +21,7 @@ export default function AboutPage() {
         <section className="detail-hero">
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
-            src="/about-enso.jpg"
+            src="/about-enso.webp"
             alt="Ensō — a circle drawn in one brushstroke, symbolizing enlightenment, the universe, and the void in Zen"
             className="detail-hero-image"
           />
