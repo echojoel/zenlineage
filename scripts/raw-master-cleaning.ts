@@ -81,10 +81,7 @@ export function sanitizeRawMaster<T extends RawMasterLike>(master: T): T | null 
 
   const normalization = MASTER_NORMALIZATIONS.get(master.name);
   const nextName = normalization?.name ?? master.name;
-  const mergedAliases = [
-    ...(master.names_alt ?? []),
-    ...(normalization?.aliases ?? []),
-  ];
+  const mergedAliases = [...(master.names_alt ?? []), ...(normalization?.aliases ?? [])];
 
   const seenAliases = new Set<string>();
   const cleanedAliases: string[] = [];

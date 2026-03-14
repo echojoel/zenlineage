@@ -20,9 +20,7 @@ describe("publishable content helpers", () => {
   });
 
   it("requires item-level citations for published biographies", () => {
-    const keys = buildCitationKeySet([
-      { entityType: "master_biography", entityId: "bio_1" },
-    ]);
+    const keys = buildCitationKeySet([{ entityType: "master_biography", entityId: "bio_1" }]);
 
     expect(isPublishedBiography("bio_1", keys)).toBe(true);
     expect(isPublishedBiography("bio_2", keys)).toBe(false);
@@ -30,9 +28,7 @@ describe("publishable content helpers", () => {
   });
 
   it("requires item-level citations for published teachings", () => {
-    const keys = buildCitationKeySet([
-      { entityType: "teaching", entityId: "teaching_1" },
-    ]);
+    const keys = buildCitationKeySet([{ entityType: "teaching", entityId: "teaching_1" }]);
 
     expect(isPublishedTeaching({ id: "teaching_1" }, keys)).toBe(true);
     expect(isPublishedTeaching({ id: "teaching_2" }, keys)).toBe(false);
@@ -48,14 +44,12 @@ describe("publishable content helpers", () => {
         altText: null,
         attribution: null,
         license: null,
-      }),
+      })
     ).toBe("/media/hakuin.jpg");
   });
 
   it("requires citations and a URL for published images", () => {
-    const keys = buildCitationKeySet([
-      { entityType: "media_asset", entityId: "asset_1" },
-    ]);
+    const keys = buildCitationKeySet([{ entityType: "media_asset", entityId: "asset_1" }]);
 
     expect(
       isPublishedImageAsset(
@@ -68,8 +62,8 @@ describe("publishable content helpers", () => {
           attribution: "Example Archive",
           license: "CC BY-SA 4.0",
         },
-        keys,
-      ),
+        keys
+      )
     ).toBe(true);
 
     expect(
@@ -83,15 +77,13 @@ describe("publishable content helpers", () => {
           attribution: null,
           license: null,
         },
-        keys,
-      ),
+        keys
+      )
     ).toBe(false);
   });
 
   it("selects the first publishable image asset", () => {
-    const keys = buildCitationKeySet([
-      { entityType: "media_asset", entityId: "asset_2" },
-    ]);
+    const keys = buildCitationKeySet([{ entityType: "media_asset", entityId: "asset_2" }]);
 
     const published = getPublishedImageAsset(
       [
@@ -114,7 +106,7 @@ describe("publishable content helpers", () => {
           license: "Public domain",
         },
       ],
-      keys,
+      keys
     );
 
     expect(published?.id).toBe("asset_2");

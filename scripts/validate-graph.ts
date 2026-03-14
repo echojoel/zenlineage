@@ -6,11 +6,7 @@
 
 import { db } from "@/db";
 import { masters, masterTransmissions } from "@/db/schema";
-import {
-  validateDAG,
-  type TransmissionEdge,
-  type MasterDates,
-} from "@/lib/dag-validation";
+import { validateDAG, type TransmissionEdge, type MasterDates } from "@/lib/dag-validation";
 
 async function main() {
   console.log("Loading masters and transmissions from database...\n");

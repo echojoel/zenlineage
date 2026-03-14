@@ -8,15 +8,15 @@ The current workspace snapshot contains 231 masters across 14 schools, from the 
 
 ## Pages
 
-| Route | Description |
-|-------|-------------|
-| `/` | Home — links to all sections |
-| `/lineage` | Interactive DAG explorer (PixiJS + d3-dag). Pan/zoom, hover tooltips, click sidebar, school filter, time scrubber, fuzzy search |
-| `/masters` | Searchable grid/list of all masters. Fuse.js search, school filter, grid↔list toggle |
-| `/masters/[slug]` | Master detail — names, dates, school, biography, teachers, students, source citations |
-| `/schools` | List of all schools with master counts |
-| `/schools/[slug]` | School detail — tradition, parent school, all members, sources |
-| `/timeline` | Placeholder (Phase 3) |
+| Route             | Description                                                                                                                     |
+| ----------------- | ------------------------------------------------------------------------------------------------------------------------------- |
+| `/`               | Home — links to all sections                                                                                                    |
+| `/lineage`        | Interactive DAG explorer (PixiJS + d3-dag). Pan/zoom, hover tooltips, click sidebar, school filter, time scrubber, fuzzy search |
+| `/masters`        | Searchable grid/list of all masters. Fuse.js search, school filter, grid↔list toggle                                            |
+| `/masters/[slug]` | Master detail — names, dates, school, biography, teachers, students, source citations                                           |
+| `/schools`        | List of all schools with master counts                                                                                          |
+| `/schools/[slug]` | School detail — tradition, parent school, all members, sources                                                                  |
+| `/timeline`       | Placeholder (Phase 3)                                                                                                           |
 
 ## Stack
 
@@ -32,22 +32,22 @@ The current workspace snapshot contains 231 masters across 14 schools, from the 
 
 These numbers describe the local checked-in data and `zen.db` in this workspace. Update them whenever the ingestion baseline materially changes.
 
-| Metric | Current |
-|-------|---------|
-| Source rows in `sources` | 9 |
-| Active cited sources | 8 |
-| Raw input datasets in `scripts/data/raw/` | 7 |
-| Recorded ingestion runs | 8 |
-| Recorded source snapshots | 7 |
-| Canonical masters | 231 |
-| Schools | 14 |
-| Transmission edges | 70 |
-| Masters with at least one citation | 231 |
-| Masters with biographies in `master_biographies` | 50 |
-| Biographies with item-level citations | 50 |
-| Media assets with item-level citations | 0 |
-| Masters with image metadata | 5 hardcoded fallbacks, 33 uncited rows in `media_assets`, 0 published |
-| Orphan masters with no lineage edges | 153 |
+| Metric                                           | Current                                                               |
+| ------------------------------------------------ | --------------------------------------------------------------------- |
+| Source rows in `sources`                         | 9                                                                     |
+| Active cited sources                             | 8                                                                     |
+| Raw input datasets in `scripts/data/raw/`        | 7                                                                     |
+| Recorded ingestion runs                          | 8                                                                     |
+| Recorded source snapshots                        | 7                                                                     |
+| Canonical masters                                | 231                                                                   |
+| Schools                                          | 14                                                                    |
+| Transmission edges                               | 70                                                                    |
+| Masters with at least one citation               | 231                                                                   |
+| Masters with biographies in `master_biographies` | 50                                                                    |
+| Biographies with item-level citations            | 50                                                                    |
+| Media assets with item-level citations           | 0                                                                     |
+| Masters with image metadata                      | 5 hardcoded fallbacks, 33 uncited rows in `media_assets`, 0 published |
+| Orphan masters with no lineage edges             | 153                                                                   |
 
 ## Data pipeline
 
@@ -79,18 +79,18 @@ One-shot validation path: `npm run pipeline`
 
 ## Database schema (key tables)
 
-| Table | Purpose |
-|-------|---------|
-| `masters` | Core records — slug, dates with precision/confidence, schoolId |
-| `master_names` | All name variants — locale (en/zh), nameType (dharma/alias/honorific/birth) |
-| `master_biographies` | Sourced historical narratives per master and locale |
-| `master_transmissions` | Teacher → student edges — type (primary/secondary/disputed), isPrimary |
-| `teachings` + `teaching_content` | Quotes, koan excerpts, teachings, and source text content |
-| `schools` + `school_names` | School hierarchy with parentId for Caodong→Soto etc. |
-| `citations` | Source attribution per field per entity |
-| `sources` | Source metadata — title, reliability, url |
-| `assertions` + `review_status` | Disputed facts and editorial review state |
-| `media_assets` | Images and other media with attribution, license, and alt text |
+| Table                            | Purpose                                                                     |
+| -------------------------------- | --------------------------------------------------------------------------- |
+| `masters`                        | Core records — slug, dates with precision/confidence, schoolId              |
+| `master_names`                   | All name variants — locale (en/zh), nameType (dharma/alias/honorific/birth) |
+| `master_biographies`             | Sourced historical narratives per master and locale                         |
+| `master_transmissions`           | Teacher → student edges — type (primary/secondary/disputed), isPrimary      |
+| `teachings` + `teaching_content` | Quotes, koan excerpts, teachings, and source text content                   |
+| `schools` + `school_names`       | School hierarchy with parentId for Caodong→Soto etc.                        |
+| `citations`                      | Source attribution per field per entity                                     |
+| `sources`                        | Source metadata — title, reliability, url                                   |
+| `assertions` + `review_status`   | Disputed facts and editorial review state                                   |
+| `media_assets`                   | Images and other media with attribution, license, and alt text              |
 
 ## Structured Population Strategy
 

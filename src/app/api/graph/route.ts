@@ -55,46 +55,68 @@ export interface GraphData {
 }
 
 export async function GET(): Promise<NextResponse<GraphData>> {
-  const [mastersData, namesData, transmissionsData, schoolsData, schoolNamesData, searchTokenRows, bioRows, mediaAssetRows] =
-    await Promise.all([
-      db.select({
+  const [
+    mastersData,
+    namesData,
+    transmissionsData,
+    schoolsData,
+    schoolNamesData,
+    searchTokenRows,
+    bioRows,
+    mediaAssetRows,
+  ] = await Promise.all([
+    db
+      .select({
         id: masters.id,
         slug: masters.slug,
         schoolId: masters.schoolId,
         birthYear: masters.birthYear,
         deathYear: masters.deathYear,
-      }).from(masters),
+      })
+      .from(masters),
 
-      db.select({
+    db
+      .select({
         masterId: masterNames.masterId,
         value: masterNames.value,
         nameType: masterNames.nameType,
-      }).from(masterNames).where(eq(masterNames.locale, "en")),
+      })
+      .from(masterNames)
+      .where(eq(masterNames.locale, "en")),
 
-      db.select({
+    db
+      .select({
         id: masterTransmissions.id,
         studentId: masterTransmissions.studentId,
         teacherId: masterTransmissions.teacherId,
         type: masterTransmissions.type,
         isPrimary: masterTransmissions.isPrimary,
-      }).from(masterTransmissions),
+      })
+      .from(masterTransmissions),
 
-      db.select({ id: schools.id, slug: schools.slug }).from(schools),
+    db.select({ id: schools.id, slug: schools.slug }).from(schools),
 
-      db.select({ schoolId: schoolNames.schoolId, value: schoolNames.value })
-        .from(schoolNames).where(eq(schoolNames.locale, "en")),
+    db
+      .select({ schoolId: schoolNames.schoolId, value: schoolNames.value })
+      .from(schoolNames)
+      .where(eq(schoolNames.locale, "en")),
 
-      db.select({ entityId: searchTokens.entityId, token: searchTokens.token })
-        .from(searchTokens).where(eq(searchTokens.entityType, "master")),
+    db
+      .select({ entityId: searchTokens.entityId, token: searchTokens.token })
+      .from(searchTokens)
+      .where(eq(searchTokens.entityType, "master")),
 
-      db.select({
+    db
+      .select({
         id: masterBiographies.id,
         masterId: masterBiographies.masterId,
         content: masterBiographies.content,
       })
-        .from(masterBiographies).where(eq(masterBiographies.locale, "en")),
-        
-      db.select({
+      .from(masterBiographies)
+      .where(eq(masterBiographies.locale, "en")),
+
+    db
+      .select({
         id: mediaAssets.id,
         entityId: mediaAssets.entityId,
         type: mediaAssets.type,
@@ -104,8 +126,9 @@ export async function GET(): Promise<NextResponse<GraphData>> {
         attribution: mediaAssets.attribution,
         license: mediaAssets.license,
       })
-        .from(mediaAssets).where(eq(mediaAssets.entityType, "master")),
-    ]);
+      .from(mediaAssets)
+      .where(eq(mediaAssets.entityType, "master")),
+  ]);
 
   const [biographyCitationRows, mediaCitationRows] = await Promise.all([
     bioRows.length > 0
@@ -120,12 +143,12 @@ export async function GET(): Promise<NextResponse<GraphData>> {
               eq(citations.entityType, "master_biography"),
               inArray(
                 citations.entityId,
-                bioRows.map((row) => row.id),
-              ),
-            ),
+                bioRows.map((row) => row.id)
+              )
+            )
           )
       : Promise.resolve([]),
-      
+
     mediaAssetRows.length > 0
       ? db
           .select({
@@ -138,9 +161,9 @@ export async function GET(): Promise<NextResponse<GraphData>> {
               eq(citations.entityType, "media_asset"),
               inArray(
                 citations.entityId,
-                mediaAssetRows.map((row) => row.id),
-              ),
-            ),
+                mediaAssetRows.map((row) => row.id)
+              )
+            )
           )
       : Promise.resolve([]),
   ]);
@@ -173,7 +196,7 @@ export async function GET(): Promise<NextResponse<GraphData>> {
         slug: school.slug,
         name: schoolNameMap.get(school.id) ?? school.slug,
       },
-    ]),
+    ])
   );
 
   const searchMap = new Map<string, string[]>();
@@ -184,13 +207,13 @@ export async function GET(): Promise<NextResponse<GraphData>> {
   }
 
   const allCitationKeys = buildCitationKeySet([...biographyCitationRows, ...mediaCitationRows]);
-  
+
   const bioMap = new Map(
     bioRows
       .filter((row) => isPublishedBiography(row.id, allCitationKeys))
-      .map((row) => [row.masterId, row.content]),
+      .map((row) => [row.masterId, row.content])
   );
-  
+
   const mediaByMasterId = new Map<string, typeof mediaAssetRows>();
   for (const asset of mediaAssetRows) {
     const existing = mediaByMasterId.get(asset.entityId) ?? [];
@@ -202,7 +225,7 @@ export async function GET(): Promise<NextResponse<GraphData>> {
     const schoolMeta = m.schoolId ? schoolMetaMap.get(m.schoolId) : null;
     const masterAssets = mediaByMasterId.get(m.id) ?? [];
     const publishedImage = getPublishedImageAsset(masterAssets, allCitationKeys);
-    
+
     return {
       id: m.id,
       slug: m.slug,

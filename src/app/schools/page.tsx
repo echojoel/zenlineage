@@ -34,9 +34,7 @@ export default async function SchoolsPage() {
     .groupBy(masters.schoolId);
 
   const countMap = new Map(
-    masterCounts
-      .filter((r) => r.schoolId != null)
-      .map((r) => [r.schoolId!, r.count]),
+    masterCounts.filter((r) => r.schoolId != null).map((r) => [r.schoolId!, r.count])
   );
 
   const schoolList = schoolsData
@@ -64,12 +62,9 @@ export default async function SchoolsPage() {
           {schoolList.map((school) => (
             <Link key={school.id} href={`/schools/${school.slug}`} className="school-card">
               <div className="school-card-name">{school.name}</div>
-              {school.tradition && (
-                <div className="school-card-tradition">{school.tradition}</div>
-              )}
+              {school.tradition && <div className="school-card-tradition">{school.tradition}</div>}
               <div className="school-card-count">
-                {school.masterCount}{" "}
-                {school.masterCount === 1 ? "master" : "masters"}
+                {school.masterCount} {school.masterCount === 1 ? "master" : "masters"}
               </div>
             </Link>
           ))}

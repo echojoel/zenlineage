@@ -83,7 +83,7 @@ export const masterBiographies = sqliteTable("master_biographies", {
   id: text("id").primaryKey(),
   masterId: text("master_id")
     .notNull()
-    .references(() => masters.id, { onDelete: 'cascade' }),
+    .references(() => masters.id, { onDelete: "cascade" }),
   locale: text("locale").notNull(),
   content: text("content").notNull(),
 });
@@ -125,7 +125,7 @@ export const masterTemples = sqliteTable(
       .references(() => temples.id),
     role: text("role").notNull(), // "founded" | "resided" | "abbot"
   },
-  (table) => [primaryKey({ columns: [table.masterId, table.templeId] })],
+  (table) => [primaryKey({ columns: [table.masterId, table.templeId] })]
 );
 
 // ============================= TEACHINGS ===================================
@@ -160,7 +160,7 @@ export const teachingRelations = sqliteTable(
       .references(() => teachings.id),
     relationType: text("relation_type").notNull(),
   },
-  (table) => [primaryKey({ columns: [table.teachingId, table.relatedId] })],
+  (table) => [primaryKey({ columns: [table.teachingId, table.relatedId] })]
 );
 
 // ============================= EVENTS ======================================
@@ -207,7 +207,7 @@ export const eventMasters = sqliteTable(
       .references(() => masters.id),
     role: text("role"),
   },
-  (table) => [primaryKey({ columns: [table.eventId, table.masterId] })],
+  (table) => [primaryKey({ columns: [table.eventId, table.masterId] })]
 );
 
 export const eventTemples = sqliteTable(
@@ -221,7 +221,7 @@ export const eventTemples = sqliteTable(
       .references(() => temples.id),
     role: text("role"),
   },
-  (table) => [primaryKey({ columns: [table.eventId, table.templeId] })],
+  (table) => [primaryKey({ columns: [table.eventId, table.templeId] })]
 );
 
 export const eventSchools = sqliteTable(
@@ -235,7 +235,7 @@ export const eventSchools = sqliteTable(
       .references(() => schools.id),
     role: text("role"),
   },
-  (table) => [primaryKey({ columns: [table.eventId, table.schoolId] })],
+  (table) => [primaryKey({ columns: [table.eventId, table.schoolId] })]
 );
 
 // ============================= PROVENANCE ==================================
@@ -306,7 +306,7 @@ export const assertionCitations = sqliteTable(
       .notNull()
       .references(() => citations.id),
   },
-  (table) => [primaryKey({ columns: [table.assertionId, table.citationId] })],
+  (table) => [primaryKey({ columns: [table.assertionId, table.citationId] })]
 );
 
 // ============================= REVIEW & AUDIT ==============================

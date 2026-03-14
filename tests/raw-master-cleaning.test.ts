@@ -29,7 +29,7 @@ describe("sanitizeRawMaster", () => {
       rawMaster({
         name: "Pangyun (Layman Pang) P'ang Yün",
         names_alt: ["Hôun", "G9 42"],
-      }),
+      })
     );
 
     expect(sanitized?.name).toBe("Pang Yun");
@@ -41,7 +41,7 @@ describe("sanitizeRawMaster", () => {
       rawMaster({
         name: "Taigu Puyu",
         names_alt: ["T’ai-ku P’u-yü", "(Korean) Taigo Pou B23"],
-      }),
+      })
     );
 
     expect(sanitized?.names_alt).toEqual(["T’ai-ku P’u-yü", "Taigo Pou"]);
@@ -52,7 +52,7 @@ describe("sanitizeRawMaster", () => {
       rawMaster({
         name: "Mahasattva Fu (Not shown)",
         names_alt: ["67", "40"],
-      }),
+      })
     );
 
     expect(sanitized?.name).toBe("Mahasattva Fu");

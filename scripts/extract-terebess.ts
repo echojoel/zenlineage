@@ -5,16 +5,16 @@
 // indicate teacher-student relationships.
 // ---------------------------------------------------------------------------
 
-import * as cheerio from 'cheerio';
-import fs from 'fs';
-import type { RawMaster, RawTeacherRef } from './scraper-types';
+import * as cheerio from "cheerio";
+import fs from "fs";
+import type { RawMaster, RawTeacherRef } from "./scraper-types";
 import {
   failIngestionRun,
   finishIngestionRun,
   fingerprintContent,
   startIngestionRun,
   toArchiveRef,
-} from './ingestion-provenance';
+} from "./ingestion-provenance";
 
 /**
  * Parse a single master line to extract name, CJK, dates, and notes.
@@ -31,11 +31,11 @@ function parseMasterLine(raw: string): {
   notes: string;
 } {
   // Strip leading arrow/bullet markers and whitespace
-  let text = raw.replace(/^[\s\u00a0]*[→•·\-–—]\s*/, '').trim();
+  let text = raw.replace(/^[\s\u00a0]*[→•·\-–—]\s*/, "").trim();
 
   // Extract trailing notes after " - "
-  let notes = '';
-  const dashIdx = text.lastIndexOf(' - ');
+  let notes = "";
+  const dashIdx = text.lastIndexOf(" - ");
   if (dashIdx > 0) {
     const afterDash = text.substring(dashIdx + 3).trim();
     // Only treat as notes if it doesn't look like a date range
@@ -48,29 +48,29 @@ function parseMasterLine(raw: string): {
   // Match "Name (CJK, dates)" or "Name (dates)"
   const parenMatch = text.match(/^([^(]+)\(([^)]+)\)\s*$/);
   if (!parenMatch) {
-    return { name: text, names_cjk: '', dates: '', notes };
+    return { name: text, names_cjk: "", dates: "", notes };
   }
 
   const name = parenMatch[1]!.trim();
   const parenContent = parenMatch[2]!.trim();
 
-  const parts = parenContent.split(',').map(p => p.trim());
+  const parts = parenContent.split(",").map((p) => p.trim());
   const cjkRegex = /[\u4e00-\u9fff\u3400-\u4dbf\u{20000}-\u{2a6df}]/u;
 
   if (parts.length >= 2 && cjkRegex.test(parts[0]!)) {
     return {
       name,
       names_cjk: parts[0]!,
-      dates: parts.slice(1).join(', ').trim(),
+      dates: parts.slice(1).join(", ").trim(),
       notes,
     };
   }
 
   if (/\d/.test(parenContent)) {
-    return { name, names_cjk: '', dates: parenContent, notes };
+    return { name, names_cjk: "", dates: parenContent, notes };
   }
 
-  return { name, names_cjk: parenContent, dates: '', notes };
+  return { name, names_cjk: parenContent, dates: "", notes };
 }
 
 /**
@@ -91,69 +91,72 @@ function indentLevel(raw: string): number {
  * Expects HTML with .content divs containing lineage information
  * organized under <h2> school headings, with indented <p> lines.
  */
-export function parseHtml(
-  html: string,
-  sourceId: string,
-  ingestionRunId: string,
-): RawMaster[] {
+export function parseHtml(html: string, sourceId: string, ingestionRunId: string): RawMaster[] {
   const $ = cheerio.load(html);
   const masters: RawMaster[] = [];
 
-  $('div.content').each((_i, contentDiv) => {
-    let currentSchool = '';
+  $("div.content").each((_i, contentDiv) => {
+    let currentSchool = "";
     // Stack of [indentLevel, name] to track parent at each depth
     const parentStack: Array<{ level: number; name: string }> = [];
 
-    $(contentDiv).children().each((_j, el) => {
-      const tagName = (el as { tagName?: string }).tagName?.toLowerCase();
+    $(contentDiv)
+      .children()
+      .each((_j, el) => {
+        const tagName = (el as { tagName?: string }).tagName?.toLowerCase();
 
-      if (tagName === 'h2' || tagName === 'h3') {
-        currentSchool = $(el).text().trim()
-          .replace(/\s+lineage$/i, '')
-          .replace(/\s+line$/i, '')
-          .trim();
-        parentStack.length = 0;
-        return;
-      }
-
-      if (tagName === 'p') {
-        const rawText = $(el).text();
-        const text = rawText.trim();
-        if (!text) return;
-
-        const level = indentLevel(rawText);
-        const hasArrow = /[→]/.test(text);
-        const effectiveLevel = hasArrow ? Math.max(1, level) : level;
-
-        const parsed = parseMasterLine(text);
-        if (!parsed.name) return;
-
-        // Pop stack entries at same or deeper level
-        while (parentStack.length > 0 && parentStack[parentStack.length - 1]!.level >= effectiveLevel) {
-          parentStack.pop();
+        if (tagName === "h2" || tagName === "h3") {
+          currentSchool = $(el)
+            .text()
+            .trim()
+            .replace(/\s+lineage$/i, "")
+            .replace(/\s+line$/i, "")
+            .trim();
+          parentStack.length = 0;
+          return;
         }
 
-        const teachers: RawTeacherRef[] = [];
-        if (parentStack.length > 0) {
-          teachers.push({
-            name: parentStack[parentStack.length - 1]!.name,
-            edge_type: 'primary',
+        if (tagName === "p") {
+          const rawText = $(el).text();
+          const text = rawText.trim();
+          if (!text) return;
+
+          const level = indentLevel(rawText);
+          const hasArrow = /[→]/.test(text);
+          const effectiveLevel = hasArrow ? Math.max(1, level) : level;
+
+          const parsed = parseMasterLine(text);
+          if (!parsed.name) return;
+
+          // Pop stack entries at same or deeper level
+          while (
+            parentStack.length > 0 &&
+            parentStack[parentStack.length - 1]!.level >= effectiveLevel
+          ) {
+            parentStack.pop();
+          }
+
+          const teachers: RawTeacherRef[] = [];
+          if (parentStack.length > 0) {
+            teachers.push({
+              name: parentStack[parentStack.length - 1]!.name,
+              edge_type: "primary",
+            });
+          }
+
+          masters.push({
+            name: parsed.name,
+            names_cjk: parsed.names_cjk,
+            dates: parsed.dates,
+            teachers,
+            school: currentSchool,
+            source_id: sourceId,
+            ingestion_run_id: ingestionRunId,
           });
+
+          parentStack.push({ level: effectiveLevel, name: parsed.name });
         }
-
-        masters.push({
-          name: parsed.name,
-          names_cjk: parsed.names_cjk,
-          dates: parsed.dates,
-          teachers,
-          school: currentSchool,
-          source_id: sourceId,
-          ingestion_run_id: ingestionRunId,
-        });
-
-        parentStack.push({ level: effectiveLevel, name: parsed.name });
-      }
-    });
+      });
   });
 
   return masters;
@@ -163,20 +166,20 @@ export function parseHtml(
 // CLI entry point
 // ---------------------------------------------------------------------------
 async function main() {
-  const inputPath = process.argv[2] || 'scripts/data/raw/terebess.html';
-  const outputPath = process.argv[3] || 'scripts/data/raw/terebess.json';
-  const sourceId = 'src_terebess';
+  const inputPath = process.argv[2] || "scripts/data/raw/terebess.html";
+  const outputPath = process.argv[3] || "scripts/data/raw/terebess.json";
+  const sourceId = "src_terebess";
 
   if (!fs.existsSync(inputPath)) {
     console.error(`Input file not found: ${inputPath}`);
-    console.error('Save the Terebess Zen lineage HTML to this path first.');
+    console.error("Save the Terebess Zen lineage HTML to this path first.");
     process.exit(1);
   }
 
-  const html = fs.readFileSync(inputPath, 'utf-8');
+  const html = fs.readFileSync(inputPath, "utf-8");
   const run = await startIngestionRun({
     sourceId,
-    scriptName: 'extract-terebess.ts',
+    scriptName: "extract-terebess.ts",
   });
 
   try {
@@ -199,11 +202,11 @@ async function main() {
 }
 
 // Only run main when executed directly (not when imported)
-const isDirectRun = process.argv[1]?.endsWith('extract-terebess.ts')
-  || process.argv[1]?.endsWith('extract-terebess');
+const isDirectRun =
+  process.argv[1]?.endsWith("extract-terebess.ts") || process.argv[1]?.endsWith("extract-terebess");
 if (isDirectRun) {
   main().catch((err) => {
-    console.error('Unexpected error:', err);
+    console.error("Unexpected error:", err);
     process.exit(1);
   });
 }

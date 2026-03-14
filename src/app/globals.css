@@ -1,32 +1,32 @@
 @import "tailwindcss";
 
 :root {
-  --ink:        #3d3530;
-  --ink-light:  #7a6a55;
-  --paper:      #faf9f7;
+  --ink: #3d3530;
+  --ink-light: #7a6a55;
+  --paper: #faf9f7;
   --paper-warm: #f3f0eb;
-  --moss:       #5a7a5a;
-  --rust:       #8b6b4a;
+  --moss: #5a7a5a;
+  --rust: #8b6b4a;
 
   /* School colour tokens */
-  --school-rinzai:  var(--moss);
-  --school-linji:   var(--moss);
+  --school-rinzai: var(--moss);
+  --school-linji: var(--moss);
   --school-caodong: var(--rust);
-  --school-soto:    var(--rust);
-  --school-obaku:   #7a8b6a;
-  --school-yunmen:  #a07040;
-  --school-fayan:   #6a7a8b;
-  --school-huayan:  #7a6a8b;
+  --school-soto: var(--rust);
+  --school-obaku: #7a8b6a;
+  --school-yunmen: #a07040;
+  --school-fayan: #6a7a8b;
+  --school-huayan: #7a6a8b;
   --school-guiyang: #8b7a5a;
 }
 
 @theme inline {
-  --color-ink:        var(--ink);
-  --color-ink-light:  var(--ink-light);
-  --color-paper:      var(--paper);
+  --color-ink: var(--ink);
+  --color-ink-light: var(--ink-light);
+  --color-paper: var(--paper);
   --color-paper-warm: var(--paper-warm);
-  --color-moss:       var(--moss);
-  --color-rust:       var(--rust);
+  --color-moss: var(--moss);
+  --color-rust: var(--rust);
   --color-background: var(--paper);
   --color-foreground: var(--ink);
 }

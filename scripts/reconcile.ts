@@ -11,22 +11,18 @@
  * independently.
  */
 
-import fs from 'fs';
-import path from 'path';
-import crypto from 'crypto';
-import { generateSearchTokens } from '@/lib/search-tokens';
-import { determineSchoolDefinition } from '@/lib/school-taxonomy';
-import type { RawMaster, RawTeacherRef } from './scraper-types';
-import { sanitizeRawMasters } from './raw-master-cleaning';
-import { normalizeRawDatasetRows } from './raw-dataset-config';
-import { isReviewedNonMerge } from './review-decisions';
-import {
-  validateDAG,
-  type TransmissionEdge,
-  type MasterDates,
-} from '@/lib/dag-validation';
+import fs from "fs";
+import path from "path";
+import crypto from "crypto";
+import { generateSearchTokens } from "@/lib/search-tokens";
+import { determineSchoolDefinition } from "@/lib/school-taxonomy";
+import type { RawMaster, RawTeacherRef } from "./scraper-types";
+import { sanitizeRawMasters } from "./raw-master-cleaning";
+import { normalizeRawDatasetRows } from "./raw-dataset-config";
+import { isReviewedNonMerge } from "./review-decisions";
+import { validateDAG, type TransmissionEdge, type MasterDates } from "@/lib/dag-validation";
 
-export type { RawMaster, RawTeacherRef } from './scraper-types';
+export type { RawMaster, RawTeacherRef } from "./scraper-types";
 
 // ---------------------------------------------------------------------------
 // Canonical output types
@@ -56,7 +52,7 @@ export interface CanonicalTransmission {
   id: string;
   student_id: string;
   teacher_id: string;
-  type: 'primary' | 'secondary' | 'disputed';
+  type: "primary" | "secondary" | "disputed";
   is_primary: boolean;
   source_ids: string[];
 }
@@ -91,8 +87,8 @@ export interface ReviewQueueItem {
 
 export interface ParsedDate {
   year: number | null;
-  precision: 'exact' | 'circa' | 'decade' | 'century' | 'unknown';
-  confidence: 'high' | 'medium' | 'low' | 'disputed';
+  precision: "exact" | "circa" | "decade" | "century" | "unknown";
+  confidence: "high" | "medium" | "low" | "disputed";
 }
 
 export interface ParsedDates {
@@ -117,7 +113,7 @@ interface AliasMap {
  * characters — matching nanoid's default length while remaining deterministic.
  */
 export function deterministicId(seed: string): string {
-  const hash = crypto.createHash('sha256').update(seed).digest('base64url');
+  const hash = crypto.createHash("sha256").update(seed).digest("base64url");
   return hash.slice(0, 21);
 }
 
@@ -125,10 +121,10 @@ export function deterministicId(seed: string): string {
 export function slugify(name: string): string {
   return name
     .toLowerCase()
-    .normalize('NFD')
-    .replace(/[\u0300-\u036f]/g, '')  // strip diacritics
-    .replace(/[^a-z0-9]+/g, '-')
-    .replace(/^-+|-+$/g, '');
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "") // strip diacritics
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "");
 }
 
 // ---------------------------------------------------------------------------
@@ -140,12 +136,12 @@ export function loadRawSources(rawDir: string): RawMaster[] {
 
   const filenames = fs
     .readdirSync(rawDir)
-    .filter((filename) => filename.endsWith('.json'))
+    .filter((filename) => filename.endsWith(".json"))
     .sort();
 
   for (const filename of filenames) {
     const filepath = path.join(rawDir, filename);
-    const raw = fs.readFileSync(filepath, 'utf-8');
+    const raw = fs.readFileSync(filepath, "utf-8");
     const parsed: RawMaster[] = JSON.parse(raw);
     all.push(...normalizeRawDatasetRows(filename, parsed));
   }
@@ -193,10 +189,7 @@ function allNamesOf(m: RawMaster): string[] {
  *   3. Alias lookup of any alt name
  *   4. Primary name as-is (lowercased)
  */
-export function resolveCanonicalKey(
-  m: RawMaster,
-  aliasLookup: Map<string, string>,
-): string {
+export function resolveCanonicalKey(m: RawMaster, aliasLookup: Map<string, string>): string {
   const allNames = allNamesOf(m);
 
   for (const name of allNames) {
@@ -212,28 +205,28 @@ export function resolveCanonicalKey(
  * Determine whether two RawMasters refer to the same person.
  * Returns the match strategy used or null if no match.
  */
-export type MatchStrategy = 'cjk' | 'name' | 'alias' | 'date_partial';
+export type MatchStrategy = "cjk" | "name" | "alias" | "date_partial";
 
 export function matchStrategy(
   a: RawMaster,
   b: RawMaster,
-  aliasLookup: Map<string, string>,
+  aliasLookup: Map<string, string>
 ): MatchStrategy | null {
   // 1. Exact CJK match
   if (a.names_cjk && b.names_cjk && a.names_cjk === b.names_cjk) {
-    return 'cjk';
+    return "cjk";
   }
 
   // 2. Exact primary name match (case-insensitive)
   if (a.name.toLowerCase() === b.name.toLowerCase()) {
-    return 'name';
+    return "name";
   }
 
   // 3. Alias lookup — both resolve to the same canonical key
   const keyA = resolveCanonicalKey(a, aliasLookup);
   const keyB = resolveCanonicalKey(b, aliasLookup);
   if (keyA === keyB) {
-    return 'alias';
+    return "alias";
   }
 
   // 4. Date + partial name match
@@ -248,11 +241,9 @@ export function matchStrategy(
     const tokensA = namesA.flatMap((n) => n.split(/\s+/));
     const tokensB = new Set(namesB.flatMap((n) => n.split(/\s+/)));
 
-    const overlap = tokensA.filter(
-      (t) => t.length > 2 && tokensB.has(t),
-    );
+    const overlap = tokensA.filter((t) => t.length > 2 && tokensB.has(t));
     if (overlap.length > 0) {
-      return 'date_partial';
+      return "date_partial";
     }
   }
 
@@ -263,10 +254,10 @@ export function matchStrategy(
 function datesOverlap(a: ParsedDates, b: ParsedDates): boolean {
   // Both must have at least one real year
   const yearsA = [a.birth?.year, a.death?.year].filter(
-    (y): y is number => y !== null && y !== undefined,
+    (y): y is number => y !== null && y !== undefined
   );
   const yearsB = [b.birth?.year, b.death?.year].filter(
-    (y): y is number => y !== null && y !== undefined,
+    (y): y is number => y !== null && y !== undefined
   );
 
   if (yearsA.length === 0 || yearsB.length === 0) return false;
@@ -303,22 +294,15 @@ export function mergeMasters(a: RawMaster, b: RawMaster): RawMaster {
   const secondary = primary === a ? b : a;
 
   // Merge alt names, deduplicating
-  const altNames = new Set([
-    ...(a.names_alt ?? []),
-    ...(b.names_alt ?? []),
-  ]);
+  const altNames = new Set([...(a.names_alt ?? []), ...(b.names_alt ?? [])]);
   // Cross-add primary names as alts
   if (secondary.name !== primary.name) altNames.add(secondary.name);
   // Remove the winner's primary name from alts
   altNames.delete(primary.name);
 
   // Merge nicknames
-  const nicknames = Array.from(
-    new Set([...(a.nicknames ?? []), ...(b.nicknames ?? [])]),
-  );
-  const koanRefs = Array.from(
-    new Set([a.koan_refs, b.koan_refs].filter(Boolean)),
-  ).join(' | ');
+  const nicknames = Array.from(new Set([...(a.nicknames ?? []), ...(b.nicknames ?? [])]));
+  const koanRefs = Array.from(new Set([a.koan_refs, b.koan_refs].filter(Boolean))).join(" | ");
 
   // Merge teachers
   const teacherMap = new Map<string, RawTeacherRef>();
@@ -337,9 +321,8 @@ export function mergeMasters(a: RawMaster, b: RawMaster): RawMaster {
       else {
         // Merge edge_type if they differ — prefer primary > secondary > disputed
         const edgePriority = { primary: 3, secondary: 2, disputed: 1 };
-        const existingPriority =
-          edgePriority[existing.edge_type ?? 'secondary'] ?? 2;
-        const newPriority = edgePriority[t.edge_type ?? 'secondary'] ?? 2;
+        const existingPriority = edgePriority[existing.edge_type ?? "secondary"] ?? 2;
+        const newPriority = edgePriority[t.edge_type ?? "secondary"] ?? 2;
         if (newPriority > existingPriority) teacherMap.set(key, t);
       }
     }
@@ -391,7 +374,7 @@ export function expandAbbreviatedYear(anchor: number, abbrev: number): number {
 export function parseDates(raw: string): ParsedDates {
   const s = raw.trim();
 
-  if (!s || s === 'n.d.' || s === 'n.d') {
+  if (!s || s === "n.d." || s === "n.d") {
     return { birth: null, death: null };
   }
 
@@ -400,7 +383,7 @@ export function parseDates(raw: string): ParsedDates {
   if (dCE) {
     return {
       birth: null,
-      death: { year: parseInt(dCE[1], 10), precision: 'circa', confidence: 'medium' },
+      death: { year: parseInt(dCE[1], 10), precision: "circa", confidence: "medium" },
     };
   }
 
@@ -411,7 +394,7 @@ export function parseDates(raw: string): ParsedDates {
     const midpoint = (centuryNum - 1) * 100 + 50;
     return {
       birth: null,
-      death: { year: midpoint, precision: 'century', confidence: 'low' },
+      death: { year: midpoint, precision: "century", confidence: "low" },
     };
   }
 
@@ -420,7 +403,7 @@ export function parseDates(raw: string): ParsedDates {
   if (dPlain) {
     return {
       birth: null,
-      death: { year: parseInt(dPlain[1], 10), precision: 'exact', confidence: 'high' },
+      death: { year: parseInt(dPlain[1], 10), precision: "exact", confidence: "high" },
     };
   }
 
@@ -428,7 +411,7 @@ export function parseDates(raw: string): ParsedDates {
   const fl = s.match(/^fl\.\s*(\d+)$/i);
   if (fl) {
     return {
-      birth: { year: parseInt(fl[1], 10), precision: 'circa', confidence: 'low' },
+      birth: { year: parseInt(fl[1], 10), precision: "circa", confidence: "low" },
       death: null,
     };
   }
@@ -437,7 +420,7 @@ export function parseDates(raw: string): ParsedDates {
   const circa = s.match(/^c\.\s*(\d+)$/i);
   if (circa) {
     return {
-      birth: { year: parseInt(circa[1], 10), precision: 'circa', confidence: 'medium' },
+      birth: { year: parseInt(circa[1], 10), precision: "circa", confidence: "medium" },
       death: null,
     };
   }
@@ -449,14 +432,11 @@ export function parseDates(raw: string): ParsedDates {
     const rawDeath = parseInt(range[2], 10);
 
     // Expand abbreviated death year (e.g. 807-69 → 869)
-    const deathYear =
-      rawDeath < 100
-        ? expandAbbreviatedYear(birthYear, rawDeath)
-        : rawDeath;
+    const deathYear = rawDeath < 100 ? expandAbbreviatedYear(birthYear, rawDeath) : rawDeath;
 
     return {
-      birth: { year: birthYear, precision: 'exact', confidence: 'high' },
-      death: { year: deathYear, precision: 'exact', confidence: 'high' },
+      birth: { year: birthYear, precision: "exact", confidence: "high" },
+      death: { year: deathYear, precision: "exact", confidence: "high" },
     };
   }
 
@@ -470,10 +450,10 @@ export function parseDates(raw: string): ParsedDates {
 
 function inferLocale(value: string): string {
   // CJK block
-  if (/[\u4e00-\u9fff]/.test(value)) return 'zh';
+  if (/[\u4e00-\u9fff]/.test(value)) return "zh";
   // Kana
-  if (/[\u3040-\u30ff]/.test(value)) return 'ja';
-  return 'en';
+  if (/[\u3040-\u30ff]/.test(value)) return "ja";
+  return "en";
 }
 
 /**
@@ -482,7 +462,7 @@ function inferLocale(value: string): string {
  */
 export function buildCanonicalNames(
   group: RawMaster[],
-  aliasLookup: Map<string, string>,
+  aliasLookup: Map<string, string>
 ): CanonicalName[] {
   const seen = new Set<string>();
   const names: CanonicalName[] = [];
@@ -494,26 +474,24 @@ export function buildCanonicalNames(
   }
 
   // Primary name from highest-reliability source first
-  const sorted = [...group].sort(
-    (a, b) => reliabilityOf(b.source_id) - reliabilityOf(a.source_id),
-  );
+  const sorted = [...group].sort((a, b) => reliabilityOf(b.source_id) - reliabilityOf(a.source_id));
 
   const primary = sorted[0];
-  addName(primary.name, 'dharma');
+  addName(primary.name, "dharma");
 
   for (const m of sorted) {
-    if (m.name !== primary.name) addName(m.name, 'alias');
-    if (m.names_cjk) addName(m.names_cjk, 'alias');
-    for (const alt of m.names_alt ?? []) addName(alt, 'alias');
-    for (const nick of m.nicknames ?? []) addName(nick, 'honorific');
+    if (m.name !== primary.name) addName(m.name, "alias");
+    if (m.names_cjk) addName(m.names_cjk, "alias");
+    for (const alt of m.names_alt ?? []) addName(alt, "alias");
+    for (const nick of m.nicknames ?? []) addName(nick, "honorific");
   }
 
   // Add alias-file variants for the canonical name
   for (const [canon, variants] of Object.entries(
-    buildCanonicalNamesFromAliasFile(aliasLookup, primary.name),
+    buildCanonicalNamesFromAliasFile(aliasLookup, primary.name)
   )) {
-    addName(canon, 'dharma');
-    for (const v of variants) addName(v, 'alias');
+    addName(canon, "dharma");
+    for (const v of variants) addName(v, "alias");
   }
 
   return names;
@@ -522,7 +500,7 @@ export function buildCanonicalNames(
 /** Pull alias-file entries that apply to this master. */
 function buildCanonicalNamesFromAliasFile(
   aliasLookup: Map<string, string>,
-  primaryName: string,
+  primaryName: string
 ): Record<string, string[]> {
   // Find the canonical name this primary resolves to
   const canon = aliasLookup.get(primaryName.toLowerCase());
@@ -547,13 +525,11 @@ function buildCanonicalNamesFromAliasFile(
  */
 export function buildCanonicalMaster(
   group: RawMaster[],
-  aliasLookup: Map<string, string>,
+  aliasLookup: Map<string, string>
 ): CanonicalMaster {
-  if (group.length === 0) throw new Error('empty group');
+  if (group.length === 0) throw new Error("empty group");
 
-  const sorted = [...group].sort(
-    (a, b) => reliabilityOf(b.source_id) - reliabilityOf(a.source_id),
-  );
+  const sorted = [...group].sort((a, b) => reliabilityOf(b.source_id) - reliabilityOf(a.source_id));
   const primary = sorted[0];
 
   // Parse dates — pick the non-null ones from most reliable source
@@ -582,11 +558,11 @@ export function buildCanonicalMaster(
     slug,
     names,
     birth_year: dates.birth?.year ?? null,
-    birth_precision: dates.birth?.precision ?? 'unknown',
-    birth_confidence: dates.birth?.confidence ?? 'low',
+    birth_precision: dates.birth?.precision ?? "unknown",
+    birth_confidence: dates.birth?.confidence ?? "low",
     death_year: dates.death?.year ?? null,
-    death_precision: dates.death?.precision ?? 'unknown',
-    death_confidence: dates.death?.confidence ?? 'low',
+    death_precision: dates.death?.precision ?? "unknown",
+    death_confidence: dates.death?.confidence ?? "low",
     school: schoolDefinition?.name ?? primary.school,
     source_ids: sourceIds,
   };
@@ -596,9 +572,7 @@ export function buildCanonicalMaster(
 // Step 4 — Search tokens
 // ---------------------------------------------------------------------------
 
-export function buildSearchTokens(
-  masters: CanonicalMaster[],
-): CanonicalSearchToken[] {
+export function buildSearchTokens(masters: CanonicalMaster[]): CanonicalSearchToken[] {
   const tokens: CanonicalSearchToken[] = [];
 
   for (const master of masters) {
@@ -612,7 +586,7 @@ export function buildSearchTokens(
       for (const tok of raw) {
         tokens.push({
           id: deterministicId(`token:${master.id}:${tok.token}:${tok.tokenType}`),
-          entity_type: 'master',
+          entity_type: "master",
           entity_id: master.id,
           token: tok.token,
           original: tok.original,
@@ -632,7 +606,7 @@ export function buildSearchTokens(
 
 export function buildCitations(
   masters: CanonicalMaster[],
-  groups: Map<string, RawMaster[]>,
+  groups: Map<string, RawMaster[]>
 ): CanonicalCitation[] {
   const citations: CanonicalCitation[] = [];
 
@@ -645,9 +619,9 @@ export function buildCitations(
         citations.push({
           id: deterministicId(`cite:${master.id}:${raw.source_id}:dates`),
           source_id: raw.source_id,
-          entity_type: 'master',
+          entity_type: "master",
           entity_id: master.id,
-          field_name: 'dates',
+          field_name: "dates",
           excerpt: raw.dates,
         });
       }
@@ -656,9 +630,9 @@ export function buildCitations(
       citations.push({
         id: deterministicId(`cite:${master.id}:${raw.source_id}:name`),
         source_id: raw.source_id,
-        entity_type: 'master',
+        entity_type: "master",
         entity_id: master.id,
-        field_name: 'name',
+        field_name: "name",
         excerpt: raw.name,
       });
 
@@ -666,9 +640,9 @@ export function buildCitations(
         citations.push({
           id: deterministicId(`cite:${master.id}:${raw.source_id}:school:${raw.school}`),
           source_id: raw.source_id,
-          entity_type: 'master',
+          entity_type: "master",
           entity_id: master.id,
-          field_name: 'school',
+          field_name: "school",
           excerpt: raw.school,
         });
       }
@@ -676,12 +650,12 @@ export function buildCitations(
       for (const teacher of raw.teachers) {
         citations.push({
           id: deterministicId(
-            `cite:${master.id}:${raw.source_id}:teacher:${teacher.name}:${teacher.locator ?? ""}`,
+            `cite:${master.id}:${raw.source_id}:teacher:${teacher.name}:${teacher.locator ?? ""}`
           ),
           source_id: raw.source_id,
-          entity_type: 'master',
+          entity_type: "master",
           entity_id: master.id,
-          field_name: 'teachers',
+          field_name: "teachers",
           excerpt: teacher.locator ? `${teacher.name} (${teacher.locator})` : teacher.name,
         });
       }
@@ -690,9 +664,9 @@ export function buildCitations(
         citations.push({
           id: deterministicId(`cite:${master.id}:${raw.source_id}:koan_refs:${raw.koan_refs}`),
           source_id: raw.source_id,
-          entity_type: 'master',
+          entity_type: "master",
           entity_id: master.id,
-          field_name: 'koan_refs',
+          field_name: "koan_refs",
           excerpt: raw.koan_refs,
         });
       }
@@ -714,7 +688,7 @@ export function resolveTeacherRef(
   teacherName: string,
   canonicalById: Map<string, CanonicalMaster>,
   slugToId: Map<string, string>,
-  aliasLookup: Map<string, string>,
+  aliasLookup: Map<string, string>
 ): string | null {
   const lowerName = teacherName.toLowerCase();
 
@@ -742,7 +716,7 @@ export function resolveTeacherRef(
 export function buildTransmissions(
   groups: Map<string, RawMaster[]>,
   canonicalById: Map<string, CanonicalMaster>,
-  aliasLookup: Map<string, string>,
+  aliasLookup: Map<string, string>
 ): CanonicalTransmission[] {
   // Build slug→id lookup
   const slugToId = new Map<string, string>();
@@ -751,25 +725,16 @@ export function buildTransmissions(
   }
 
   // Deduplicate edges by student+teacher pair
-  const edgeMap = new Map<
-    string,
-    { edge: CanonicalTransmission; sourceIds: Set<string> }
-  >();
+  const edgeMap = new Map<string, { edge: CanonicalTransmission; sourceIds: Set<string> }>();
 
   for (const [masterId, rawMasters] of groups) {
     for (const raw of rawMasters) {
       for (const ref of raw.teachers) {
-        const teacherId = resolveTeacherRef(
-          ref.name,
-          canonicalById,
-          slugToId,
-          aliasLookup,
-        );
+        const teacherId = resolveTeacherRef(ref.name, canonicalById, slugToId, aliasLookup);
 
         if (!teacherId) continue; // unresolvable — skip
 
-        const type: 'primary' | 'secondary' | 'disputed' =
-          ref.edge_type ?? 'primary';
+        const type: "primary" | "secondary" | "disputed" = ref.edge_type ?? "primary";
         const pairKey = `${masterId}:${teacherId}`;
 
         if (!edgeMap.has(pairKey)) {
@@ -779,7 +744,7 @@ export function buildTransmissions(
               student_id: masterId,
               teacher_id: teacherId,
               type,
-              is_primary: type === 'primary',
+              is_primary: type === "primary",
               source_ids: [],
             },
             sourceIds: new Set(),
@@ -837,10 +802,7 @@ export interface ReconcileResult {
   dagResult: ReturnType<typeof validateDAG>;
 }
 
-export function reconcile(
-  rawMasters: RawMaster[],
-  aliasMap: AliasMap,
-): ReconcileResult {
+export function reconcile(rawMasters: RawMaster[], aliasMap: AliasMap): ReconcileResult {
   const aliasLookup = buildAliasLookup(aliasMap);
 
   // ---- Group raw masters by canonical key ----
@@ -878,7 +840,7 @@ export function reconcile(
 
       const strategy = matchStrategy(repA, repB, aliasLookup);
 
-      if (strategy === 'date_partial') {
+      if (strategy === "date_partial") {
         if (isReviewedNonMerge(repA.name, repB.name)) {
           continue;
         }
@@ -905,16 +867,10 @@ export function reconcile(
   canonicalMasters.sort((a, b) => a.id.localeCompare(b.id));
 
   // ---- Build lookup maps ----
-  const canonicalById = new Map<string, CanonicalMaster>(
-    canonicalMasters.map((m) => [m.id, m]),
-  );
+  const canonicalById = new Map<string, CanonicalMaster>(canonicalMasters.map((m) => [m.id, m]));
 
   // ---- Build transmissions ----
-  const transmissions = buildTransmissions(
-    groupsByMasterId,
-    canonicalById,
-    aliasLookup,
-  );
+  const transmissions = buildTransmissions(groupsByMasterId, canonicalById, aliasLookup);
 
   // ---- Build citations ----
   const citations = buildCitations(canonicalMasters, groupsByMasterId);
@@ -946,39 +902,50 @@ export function writeOutputs(result: ReconcileResult, outDir: string): void {
   fs.mkdirSync(outDir, { recursive: true });
 
   const write = (filename: string, data: unknown) => {
-    fs.writeFileSync(
-      path.join(outDir, filename),
-      JSON.stringify(data, null, 2),
-      'utf-8',
-    );
+    fs.writeFileSync(path.join(outDir, filename), JSON.stringify(data, null, 2), "utf-8");
   };
 
-  write('canonical.json', result.masters);
-  write('transmissions.json', result.transmissions);
-  write('citations.json', result.citations);
-  write('search-tokens.json', result.searchTokens);
+  write("canonical.json", result.masters);
+  write("transmissions.json", result.transmissions);
+  write("citations.json", result.citations);
+  write("search-tokens.json", result.searchTokens);
 
   // Review queue goes one level up
-  const reviewPath = path.join(outDir, '..', 'review-queue.json');
-  fs.writeFileSync(reviewPath, JSON.stringify(result.reviewQueue, null, 2), 'utf-8');
+  const reviewPath = path.join(outDir, "..", "review-queue.json");
+  fs.writeFileSync(reviewPath, JSON.stringify(result.reviewQueue, null, 2), "utf-8");
 }
 
 // ---------------------------------------------------------------------------
 // Main (CLI entry point)
 // ---------------------------------------------------------------------------
 
-if (process.argv[1] && path.resolve(process.argv[1]) === path.resolve(import.meta.url?.replace('file://', '') ?? '')) {
-  const rawDir = path.join(import.meta.dirname ?? path.dirname(new URL(import.meta.url).pathname), 'data', 'raw');
-  const outDir = path.join(import.meta.dirname ?? path.dirname(new URL(import.meta.url).pathname), 'data', 'reconciled');
-  const aliasPath = path.join(import.meta.dirname ?? path.dirname(new URL(import.meta.url).pathname), 'data', 'aliases.json');
+if (
+  process.argv[1] &&
+  path.resolve(process.argv[1]) === path.resolve(import.meta.url?.replace("file://", "") ?? "")
+) {
+  const rawDir = path.join(
+    import.meta.dirname ?? path.dirname(new URL(import.meta.url).pathname),
+    "data",
+    "raw"
+  );
+  const outDir = path.join(
+    import.meta.dirname ?? path.dirname(new URL(import.meta.url).pathname),
+    "data",
+    "reconciled"
+  );
+  const aliasPath = path.join(
+    import.meta.dirname ?? path.dirname(new URL(import.meta.url).pathname),
+    "data",
+    "aliases.json"
+  );
 
-  console.log('Loading raw sources…');
+  console.log("Loading raw sources…");
   const rawMasters = loadRawSources(rawDir);
   console.log(`  Loaded ${rawMasters.length} raw masters from ${rawDir}`);
 
-  const aliasMap: AliasMap = JSON.parse(fs.readFileSync(aliasPath, 'utf-8'));
+  const aliasMap: AliasMap = JSON.parse(fs.readFileSync(aliasPath, "utf-8"));
 
-  console.log('Reconciling…');
+  console.log("Reconciling…");
   const result = reconcile(rawMasters, aliasMap);
 
   console.log(`  ${result.masters.length} canonical masters`);

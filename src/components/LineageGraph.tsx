@@ -13,14 +13,14 @@ import { getSchoolContextNodeIds } from "@/lib/lineage-visibility";
 
 const SCHOOL_COLORS: [string, number][] = [
   ["rinzai", 0x5a7a5a],
-  ["linji",  0x5a7a5a],
-  ["caodong",0x8b6b4a],
-  ["soto",   0x8b6b4a],
-  ["obaku",  0x7a8b6a],
+  ["linji", 0x5a7a5a],
+  ["caodong", 0x8b6b4a],
+  ["soto", 0x8b6b4a],
+  ["obaku", 0x7a8b6a],
   ["yunmen", 0xa07040],
-  ["fayan",  0x6a7a8b],
+  ["fayan", 0x6a7a8b],
   ["huayan", 0x7a6a8b],
-  ["guiyang",0x8b7a5a],
+  ["guiyang", 0x8b7a5a],
 ];
 
 function schoolColor(schoolSlug: string | null): number {
@@ -47,7 +47,7 @@ function formatDate(year: number | null): string {
 
 function simpleLayout(
   nodes: GraphNode[],
-  edges: GraphEdge[],
+  edges: GraphEdge[]
 ): Map<string, { x: number; y: number }> {
   const positions = new Map<string, { x: number; y: number }>();
   const nodeSet = new Set(nodes.map((n) => n.id));
@@ -67,7 +67,10 @@ function simpleLayout(
   const layers = new Map<string, number>();
   const queue: string[] = [];
   for (const [id, deg] of inDegree) {
-    if (deg === 0) { queue.push(id); layers.set(id, 0); }
+    if (deg === 0) {
+      queue.push(id);
+      layers.set(id, 0);
+    }
   }
 
   let qi = 0;
@@ -180,11 +183,7 @@ export default function LineageGraph() {
 
     const { nodeContainers, edgeGraphics, edges, positions } = pixi;
     const nodeById = new Map(pixi.nodes.map((node) => [node.id, node]));
-    const schoolContextIds = getSchoolContextNodeIds(
-      pixi.nodes,
-      pixi.edges,
-      pixi.schoolFilter,
-    );
+    const schoolContextIds = getSchoolContextNodeIds(pixi.nodes, pixi.edges, pixi.schoolFilter);
 
     const visible = new Set<string>();
     for (const [id] of nodeContainers) {
@@ -201,8 +200,7 @@ export default function LineageGraph() {
       const isVisible = visible.has(id);
       const node = nodeById.get(id);
       const isHighlighted = pixi.highlighted == null || pixi.highlighted.has(id);
-      const isBridgeNode =
-        pixi.schoolFilter !== "all" && node?.schoolId !== pixi.schoolFilter;
+      const isBridgeNode = pixi.schoolFilter !== "all" && node?.schoolId !== pixi.schoolFilter;
       container.visible = isVisible;
       const baseAlpha = isBridgeNode ? 0.45 : 1;
       container.alpha = isHighlighted ? baseAlpha : baseAlpha * 0.3;
@@ -305,9 +303,7 @@ export default function LineageGraph() {
       // ---------------------------------------------------------------------------
       const connectedNodes = nodes.filter((n) => connectedIds.has(n.id));
       const nodeSet = new Set(nodes.map((n) => n.id));
-      const validEdges = edges.filter(
-        (e) => nodeSet.has(e.source) && nodeSet.has(e.target),
-      );
+      const validEdges = edges.filter((e) => nodeSet.has(e.source) && nodeSet.has(e.target));
       // Only primary edges for sugiyama (cleaner hierarchy)
       const primaryEdges = validEdges.filter((e) => e.type === "primary");
 
@@ -331,7 +327,10 @@ export default function LineageGraph() {
         for (const node of graph.nodes()) {
           // node.data is the string ID
           const id = node.data as string;
-          connectedPositions.set(id, { x: (node as { x: number; y: number }).x, y: (node as { x: number; y: number }).y });
+          connectedPositions.set(id, {
+            x: (node as { x: number; y: number }).x,
+            y: (node as { x: number; y: number }).y,
+          });
         }
       } catch (err) {
         console.warn("d3-dag layout failed, using fallback:", err);
@@ -393,7 +392,10 @@ export default function LineageGraph() {
         resolution: window.devicePixelRatio ?? 1,
       });
 
-      if (destroyed) { app.destroy(); return; }
+      if (destroyed) {
+        app.destroy();
+        return;
+      }
 
       app.stage.eventMode = "static";
       const stage = new PIXI.Container();
@@ -472,8 +474,13 @@ export default function LineageGraph() {
       }
 
       pixiRef.current = {
-        app, stage, nodeContainers, edgeGraphics,
-        nodes, edges, positions,
+        app,
+        stage,
+        nodeContainers,
+        edgeGraphics,
+        nodes,
+        edges,
+        positions,
         highlighted: null,
         schoolFilter: "all",
         timeMax: maxYear,
@@ -515,16 +522,21 @@ export default function LineageGraph() {
 
           const focusScale = 1.6;
           initialTransform = d3.zoomIdentity
-            .translate(w / 2 - focusScale * focusedPosition.x, h / 2 - focusScale * focusedPosition.y)
+            .translate(
+              w / 2 - focusScale * focusedPosition.x,
+              h / 2 - focusScale * focusedPosition.y
+            )
             .scale(focusScale);
         }
       }
 
       if (!initialTransform) {
         // Find Shakyamuni Buddha or fallback to root nodes
-        const rootNode = nodes.find((n) => n.slug === "shakyamuni-buddha") || nodes.find(n => connectedIds.has(n.id));
+        const rootNode =
+          nodes.find((n) => n.slug === "shakyamuni-buddha") ||
+          nodes.find((n) => connectedIds.has(n.id));
         const rootPos = rootNode ? positions.get(rootNode.id) : null;
-        
+
         if (rootPos) {
           // Focus tightly on the root with a readable scale
           const focusScale = 1.2;
@@ -546,12 +558,12 @@ export default function LineageGraph() {
             const maxX = Math.max(...xs);
             const minY = Math.min(...ys);
             const maxY = Math.max(...ys);
-            const gw = (maxX - minX) + 240;
-            const gh = (maxY - minY) + 240;
+            const gw = maxX - minX + 240;
+            const gh = maxY - minY + 240;
             const k = Math.min(w / gw, h / gh, 2) * 0.85;
             const cx = (minX + maxX) / 2;
             const cy = (minY + maxY) / 2;
-            
+
             initialTransform = d3.zoomIdentity.translate(w / 2 - k * cx, h / 2 - k * cy).scale(k);
           } else {
             initialTransform = d3.zoomIdentity;
@@ -561,10 +573,7 @@ export default function LineageGraph() {
 
       if (initialTransform) {
         if (!prefersReducedMotion) {
-          d3.select(canvas)
-            .transition()
-            .duration(700)
-            .call(zoom.transform, initialTransform);
+          d3.select(canvas).transition().duration(700).call(zoom.transform, initialTransform);
         } else {
           d3.select(canvas).call(zoom.transform, initialTransform);
         }
@@ -585,18 +594,18 @@ export default function LineageGraph() {
       pixiRef.current = null;
       zoomRef.current = null;
     };
-  // eslint-disable-next-line react-hooks/exhaustive-deps
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   // Handle focusSlug changes without re-initializing the whole graph
   useEffect(() => {
     if (status !== "ready" || !pixiRef.current || !zoomRef.current || !canvasRef.current) return;
-    
+
     if (focusSlug) {
       const pixi = pixiRef.current;
       const focusedNode = pixi.nodes.find((node) => node.slug === focusSlug);
       const focusedPosition = focusedNode ? pixi.positions.get(focusedNode.id) : null;
-      
+
       if (focusedNode && focusedPosition) {
         if (pixi.orphanSet.has(focusedNode.id)) {
           setShowOrphans(true);
@@ -621,7 +630,7 @@ export default function LineageGraph() {
         } else {
           d3.select(canvas).call(
             zoomRef.current.transform,
-            d3.zoomIdentity.translate(tx, ty).scale(focusScale),
+            d3.zoomIdentity.translate(tx, ty).scale(focusScale)
           );
         }
       }
@@ -631,7 +640,7 @@ export default function LineageGraph() {
   // Handle schoolSlug changes without re-initializing the whole graph
   useEffect(() => {
     if (status !== "ready" || schoolList.length === 0) return;
-    
+
     if (schoolSlug) {
       const schoolBySlug = new Map(schoolList.map((school) => [school.slug, school]));
       const selected = schoolBySlug.get(schoolSlug);
@@ -657,11 +666,7 @@ export default function LineageGraph() {
 
     const pixi = pixiRef.current;
     if (canvasRef.current && zoomRef.current) {
-      const schoolContextIds = getSchoolContextNodeIds(
-        pixi.nodes,
-        pixi.edges,
-        selectedSchool,
-      );
+      const schoolContextIds = getSchoolContextNodeIds(pixi.nodes, pixi.edges, selectedSchool);
       const visibleNodes = pixi.nodes.filter((n) => {
         if (!schoolContextIds.has(n.id)) return false;
         if (!pixi.showOrphans && pixi.orphanSet.has(n.id)) return false;
@@ -669,7 +674,9 @@ export default function LineageGraph() {
       });
 
       if (visibleNodes.length > 0) {
-        const positions = visibleNodes.map((n) => pixi.positions.get(n.id)).filter((p): p is {x: number, y: number} => !!p);
+        const positions = visibleNodes
+          .map((n) => pixi.positions.get(n.id))
+          .filter((p): p is { x: number; y: number } => !!p);
         if (positions.length > 0) {
           const xs = positions.map((p) => p.x);
           const ys = positions.map((p) => p.y);
@@ -681,8 +688,8 @@ export default function LineageGraph() {
           const canvas = canvasRef.current;
           const w = canvas.clientWidth || window.innerWidth;
           const h = canvas.clientHeight || window.innerHeight;
-          const gw = (maxX - minX) + 240;
-          const gh = (maxY - minY) + 240;
+          const gw = maxX - minX + 240;
+          const gh = maxY - minY + 240;
           const k = Math.min(w / gw, h / gh, 2) * 0.85;
           const cx = (minX + maxX) / 2;
           const cy = (minY + maxY) / 2;
@@ -697,7 +704,7 @@ export default function LineageGraph() {
           } else {
             d3.select(canvas).call(
               zoomRef.current.transform,
-              d3.zoomIdentity.translate(tx, ty).scale(k),
+              d3.zoomIdentity.translate(tx, ty).scale(k)
             );
           }
         }
@@ -750,7 +757,7 @@ export default function LineageGraph() {
           } else {
             d3.select(canvas).call(
               zoomRef.current.transform,
-              d3.zoomIdentity.translate(tx, ty).scale(focusScale),
+              d3.zoomIdentity.translate(tx, ty).scale(focusScale)
             );
           }
         }
@@ -785,7 +792,9 @@ export default function LineageGraph() {
         >
           <option value="all">All schools</option>
           {schoolList.map((s) => (
-            <option key={s.id} value={s.id}>{s.name}</option>
+            <option key={s.id} value={s.id}>
+              {s.name}
+            </option>
           ))}
         </select>
         <label className="lineage-toggle" htmlFor="lineage-orphans">
@@ -820,39 +829,36 @@ export default function LineageGraph() {
       <canvas ref={canvasRef} className="lineage-canvas" />
 
       {/* Loading / error */}
-      {status === "loading" && (
-        <div className="lineage-loading">Loading lineage…</div>
-      )}
-      {status === "error" && (
-        <div className="lineage-loading">Failed to load graph data.</div>
-      )}
+      {status === "loading" && <div className="lineage-loading">Loading lineage…</div>}
+      {status === "error" && <div className="lineage-loading">Failed to load graph data.</div>}
 
       {/* Tooltip */}
       {tooltip && (
-        <div
-          className="tooltip"
-          style={{ left: tooltip.x + 14, top: tooltip.y - 10 }}
-        >
+        <div className="tooltip" style={{ left: tooltip.x + 14, top: tooltip.y - 10 }}>
           <div className="tooltip-name">{tooltip.node.label}</div>
           {(tooltip.node.birthYear || tooltip.node.deathYear) && (
             <div className="tooltip-dates">
               {formatDate(tooltip.node.birthYear)} – {formatDate(tooltip.node.deathYear)}
             </div>
           )}
-          {tooltip.schoolName && (
-            <div className="tooltip-school">{tooltip.schoolName}</div>
-          )}
+          {tooltip.schoolName && <div className="tooltip-school">{tooltip.schoolName}</div>}
         </div>
       )}
 
       {/* Sidebar */}
       {sidebar && (
         <aside className="sidebar">
-          <button className="sidebar-close" onClick={() => setSidebar(null)} aria-label="Close">✕</button>
+          <button className="sidebar-close" onClick={() => setSidebar(null)} aria-label="Close">
+            ✕
+          </button>
           {sidebar.node.imageSrc && (
             <div className="sidebar-image-container">
               {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src={sidebar.node.imageSrc} alt={sidebar.node.imageAlt ?? sidebar.node.label} className="sidebar-image" />
+              <img
+                src={sidebar.node.imageSrc}
+                alt={sidebar.node.imageAlt ?? sidebar.node.label}
+                className="sidebar-image"
+              />
               {sidebar.node.imageAttribution && (
                 <div className="sidebar-image-attribution">{sidebar.node.imageAttribution}</div>
               )}
@@ -860,9 +866,7 @@ export default function LineageGraph() {
           )}
           {sidebar.node.bio && <p className="sidebar-description">{sidebar.node.bio}</p>}
           <h2 className="sidebar-name">{sidebar.node.label}</h2>
-          {sidebar.schoolName && (
-            <p className="sidebar-school">{sidebar.schoolName}</p>
-          )}
+          {sidebar.schoolName && <p className="sidebar-school">{sidebar.schoolName}</p>}
           {(sidebar.node.birthYear || sidebar.node.deathYear) && (
             <p className="sidebar-dates">
               {formatDate(sidebar.node.birthYear)} – {formatDate(sidebar.node.deathYear)}

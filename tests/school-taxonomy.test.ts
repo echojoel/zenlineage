@@ -42,7 +42,7 @@ describe("school taxonomy", () => {
       determineSchoolDefinition({
         rawLabel: "Caodong",
         names: ["Yongping Daoyuan", "Dōgen"],
-      })?.slug,
+      })?.slug
     ).toBe("soto");
   });
 
@@ -60,7 +60,7 @@ describe("school taxonomy", () => {
       determineSchoolDefinition({
         rawLabel: "",
         names: ["Kapimala"],
-      })?.slug,
+      })?.slug
     ).toBe("indian-patriarchs");
   });
 
@@ -69,7 +69,7 @@ describe("school taxonomy", () => {
       determineSchoolDefinition({
         rawLabel: "",
         names: ["Pang Yun", "Layman Pang"],
-      })?.slug,
+      })?.slug
     ).toBe("other");
   });
 });
@@ -120,25 +120,23 @@ describe("Soto reconciliation", () => {
     const result = reconcile(raw, ALIAS_MAP);
 
     const dogen = result.masters.find((master) =>
-      master.names.some((name) => name.value === "Dōgen" || name.value === "Dogen"),
+      master.names.some((name) => name.value === "Dōgen" || name.value === "Dogen")
     );
     const rujing = result.masters.find((master) =>
-      master.names.some((name) => name.value === "Tiantong Rujing"),
+      master.names.some((name) => name.value === "Tiantong Rujing")
     );
 
     expect(dogen?.school).toBe("Soto");
     expect(result.masters.some((master) => master.school === "Soto")).toBe(true);
     expect(
       result.transmissions.some(
-        (edge) => edge.teacher_id === rujing?.id && edge.student_id === dogen?.id,
-      ),
+        (edge) => edge.teacher_id === rujing?.id && edge.student_id === dogen?.id
+      )
     ).toBe(true);
     expect(
       result.transmissions.some(
-        (edge) =>
-          edge.student_id !== dogen?.id &&
-          edge.source_ids.includes("src_sotozen_founders"),
-      ),
+        (edge) => edge.student_id !== dogen?.id && edge.source_ids.includes("src_sotozen_founders")
+      )
     ).toBe(true);
   });
 });

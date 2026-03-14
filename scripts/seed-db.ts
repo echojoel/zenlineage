@@ -7,9 +7,9 @@
  * Usage:  npx tsx scripts/seed-db.ts
  */
 
-import fs from 'fs';
-import path from 'path';
-import { db } from '@/db';
+import fs from "fs";
+import path from "path";
+import { db } from "@/db";
 import {
   schoolNames,
   schools,
@@ -21,16 +21,16 @@ import {
   teachingContent,
   teachingRelations,
   teachings,
-} from '@/db/schema';
-import { buildResolvedMasterSlugMap } from './master-slugs';
+} from "@/db/schema";
+import { buildResolvedMasterSlugMap } from "./master-slugs";
 import type {
   CanonicalMaster,
   CanonicalTransmission,
   CanonicalCitation,
   CanonicalSearchToken,
-} from './reconcile';
+} from "./reconcile";
 
-const RECONCILED_DIR = path.join(process.cwd(), 'scripts/data/reconciled');
+const RECONCILED_DIR = path.join(process.cwd(), "scripts/data/reconciled");
 
 // ---------------------------------------------------------------------------
 // Helpers
@@ -42,7 +42,7 @@ function readJson<T>(filename: string): T | null {
     console.warn(`⚠️  ${filename} not found — skipping`);
     return null;
   }
-  return JSON.parse(fs.readFileSync(filepath, 'utf-8')) as T;
+  return JSON.parse(fs.readFileSync(filepath, "utf-8")) as T;
 }
 
 // ---------------------------------------------------------------------------
@@ -77,7 +77,7 @@ async function seedMasters(canonicalMasters: CanonicalMaster[]): Promise<void> {
   console.log(`Seeding ${canonicalMasters.length} masters...`);
 
   const resolvedSlugs = buildResolvedMasterSlugMap(
-    canonicalMasters.map((master) => ({ id: master.id, slug: master.slug })),
+    canonicalMasters.map((master) => ({ id: master.id, slug: master.slug }))
   );
 
   for (const m of canonicalMasters) {
@@ -112,7 +112,10 @@ async function seedMasters(canonicalMasters: CanonicalMaster[]): Promise<void> {
 
     // Upsert name rows
     for (const name of m.names) {
-      const nameId = `${m.id}_${name.locale}_${name.name_type}_${name.value.slice(0, 20)}`.replace(/\s+/g, '_');
+      const nameId = `${m.id}_${name.locale}_${name.name_type}_${name.value.slice(0, 20)}`.replace(
+        /\s+/g,
+        "_"
+      );
       await db
         .insert(masterNames)
         .values({
@@ -233,45 +236,47 @@ async function seedSearchTokens(tokens: CanonicalSearchToken[]): Promise<void> {
 // ---------------------------------------------------------------------------
 
 async function main(): Promise<void> {
-  console.log('=== Zen Encyclopedia DB Seeding ===\n');
+  console.log("=== Zen Encyclopedia DB Seeding ===\n");
 
   // Initialize DB schema (create tables if not exist)
   try {
     // Run seed-sources first to ensure source rows exist
-    const { default: seedSources } = await import('./seed-sources');
-    if (typeof seedSources === 'function') await seedSources();
+    const { default: seedSources } = await import("./seed-sources");
+    if (typeof seedSources === "function") await seedSources();
   } catch {
     // seed-sources might not export a default function — that's OK
   }
 
   // Load reconciled data
-  const canonicalMasters = readJson<CanonicalMaster[]>('canonical.json');
-  const transmissions = readJson<CanonicalTransmission[]>('transmissions.json');
-  const citationList = readJson<CanonicalCitation[]>('citations.json');
-  const tokens = readJson<CanonicalSearchToken[]>('search-tokens.json');
+  const canonicalMasters = readJson<CanonicalMaster[]>("canonical.json");
+  const transmissions = readJson<CanonicalTransmission[]>("transmissions.json");
+  const citationList = readJson<CanonicalCitation[]>("citations.json");
+  const tokens = readJson<CanonicalSearchToken[]>("search-tokens.json");
 
   if (!canonicalMasters) {
-    console.error('No canonical.json found. Run scripts/reconcile.ts first.');
+    console.error("No canonical.json found. Run scripts/reconcile.ts first.");
     process.exit(1);
   }
 
   await resetDerivedTables();
   await seedMasters(canonicalMasters);
-  const { default: seedSchools } = await import('./seed-schools');
+  const { default: seedSchools } = await import("./seed-schools");
   await seedSchools();
   if (transmissions) await seedTransmissions(transmissions);
   if (citationList) await seedCitations(citationList);
   if (tokens) await seedSearchTokens(tokens);
 
-  console.log('\n=== Seeding complete ===');
+  console.log("\n=== Seeding complete ===");
   const masterCount = canonicalMasters.length;
   const txCount = transmissions?.length ?? 0;
   const citCount = citationList?.length ?? 0;
   const tokCount = tokens?.length ?? 0;
-  console.log(`Masters: ${masterCount}, Transmissions: ${txCount}, Citations: ${citCount}, Search tokens: ${tokCount}`);
+  console.log(
+    `Masters: ${masterCount}, Transmissions: ${txCount}, Citations: ${citCount}, Search tokens: ${tokCount}`
+  );
 }
 
 main().catch((err) => {
-  console.error('Seeding failed:', err);
+  console.error("Seeding failed:", err);
   process.exit(1);
 });

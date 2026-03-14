@@ -5,7 +5,7 @@ import type { RawMaster } from "../scripts/scraper-types";
 
 const ORIGINALS_CURATED_PATH = path.resolve(
   __dirname,
-  "../scripts/data/raw/originals-curated.json",
+  "../scripts/data/raw/originals-curated.json"
 );
 
 function loadOriginalsCurated(): RawMaster[] {
@@ -23,9 +23,7 @@ describe("originals-curated overlay", () => {
 
   it("contains the core Chan bridge transmissions", () => {
     const rows = loadOriginalsCurated();
-    const teacherByName = new Map(
-      rows.map((row) => [row.name, row.teachers[0]?.name ?? null]),
-    );
+    const teacherByName = new Map(rows.map((row) => [row.name, row.teachers[0]?.name ?? null]));
 
     expect(teacherByName.get("Dayi Daoxin")).toBe("Jianzhi Sengcan");
     expect(teacherByName.get("Daman Hongren")).toBe("Dayi Daoxin");

@@ -80,7 +80,7 @@ export async function startIngestionRun(input: {
 
 export async function finishIngestionRun(
   context: IngestionRunContext,
-  options: FinishIngestionRunOptions = {},
+  options: FinishIngestionRunOptions = {}
 ): Promise<void> {
   const status = options.status ?? "success";
   const recordCount = options.recordCount ?? 0;
@@ -137,11 +137,11 @@ export async function finishIngestionRun(
 
 export async function failIngestionRun(
   context: IngestionRunContext,
-  error: unknown,
+  error: unknown
 ): Promise<void> {
   const message =
     error instanceof Error
-      ? error.stack ?? error.message
+      ? (error.stack ?? error.message)
       : typeof error === "string"
         ? error
         : JSON.stringify(error);

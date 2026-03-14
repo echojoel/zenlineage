@@ -82,7 +82,7 @@ export default async function MastersPage() {
     .where(eq(schoolNames.locale, "en"));
 
   const schoolNameRecord: Record<string, string> = Object.fromEntries(
-    schoolNamesData.map((s) => [s.schoolId, s.value]),
+    schoolNamesData.map((s) => [s.schoolId, s.value])
   );
 
   return (

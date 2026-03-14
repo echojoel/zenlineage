@@ -50,8 +50,7 @@ function formatPercent(count: number, total: number): string {
 function preview(items: string[]): string {
   if (items.length === 0) return "none";
   const visible = items.slice(0, PREVIEW_LIMIT);
-  const suffix =
-    items.length > PREVIEW_LIMIT ? ` ... +${items.length - PREVIEW_LIMIT} more` : "";
+  const suffix = items.length > PREVIEW_LIMIT ? ` ... +${items.length - PREVIEW_LIMIT} more` : "";
   return `${visible.join(", ")}${suffix}`;
 }
 
@@ -79,17 +78,17 @@ function auditRawDatasets(input: {
     try {
       const rows = JSON.parse(fs.readFileSync(filepath, "utf-8")) as RawMaster[];
       const actualSourceIds = Array.from(
-        new Set(rows.map((row) => row.source_id).filter(Boolean)),
+        new Set(rows.map((row) => row.source_id).filter(Boolean))
       ).sort();
       const runIds = Array.from(
-        new Set(rows.map((row) => row.ingestion_run_id).filter(Boolean)),
+        new Set(rows.map((row) => row.ingestion_run_id).filter(Boolean))
       ).sort();
       const expectedSourceId = config.expectedSourceId ?? null;
       const expectedRunSourceId =
         expectedSourceId ?? (actualSourceIds.length === 1 ? actualSourceIds[0] : null);
       const missingRunIds = runIds.filter((runId) => !input.ingestionRunSourceIds.has(runId));
       const runsWithoutSnapshots = runIds.filter(
-        (runId) => input.ingestionRunSourceIds.has(runId) && !input.snapshotRunIds.has(runId),
+        (runId) => input.ingestionRunSourceIds.has(runId) && !input.snapshotRunIds.has(runId)
       );
       const runSourceMismatches =
         expectedRunSourceId == null
@@ -152,9 +151,7 @@ function auditRawDatasets(input: {
         runsWithoutSnapshots: [],
         runSourceMismatches: [],
         status: "error",
-        notes: [
-          error instanceof Error ? error.message : "Unable to parse raw dataset JSON",
-        ],
+        notes: [error instanceof Error ? error.message : "Unable to parse raw dataset JSON"],
       };
     }
   });
@@ -227,22 +224,20 @@ async function main() {
   const citedIds = new Set(
     allCitations
       .filter((citation) => citation.entityType === "master")
-      .map((citation) => citation.entityId),
+      .map((citation) => citation.entityId)
   );
   const citationKeys = new Set(
-    allCitations.map((citation) => `${citation.entityType}:${citation.entityId}`),
+    allCitations.map((citation) => `${citation.entityType}:${citation.entityId}`)
   );
   const tokenIds = new Set(allTokens.map((token) => token.entityId));
   const biographyIds = new Set(allBiographies.map((bio) => bio.masterId));
   const teachingAuthorIds = new Set(
     allTeachings
       .map((teaching) => teaching.authorId)
-      .filter((authorId): authorId is string => Boolean(authorId)),
+      .filter((authorId): authorId is string => Boolean(authorId))
   );
   const mediaMasterIds = new Set(
-    allMedia
-      .filter((asset) => asset.entityType === "master")
-      .map((asset) => asset.entityId),
+    allMedia.filter((asset) => asset.entityType === "master").map((asset) => asset.entityId)
   );
 
   const imageIds = new Set([...mediaMasterIds]);
@@ -260,7 +255,7 @@ async function main() {
   for (const citation of allCitations) {
     citationCountsBySource.set(
       citation.sourceId,
-      (citationCountsBySource.get(citation.sourceId) ?? 0) + 1,
+      (citationCountsBySource.get(citation.sourceId) ?? 0) + 1
     );
 
     if (citation.entityType !== "master") continue;
@@ -297,26 +292,26 @@ async function main() {
     .map((master) => master.slug)
     .sort();
   const uncitedBiographyRows = allBiographies.filter(
-    (bio) => !citationKeys.has(`master_biography:${bio.id}`),
+    (bio) => !citationKeys.has(`master_biography:${bio.id}`)
   );
   const uncitedTeachings = allTeachings.filter(
-    (teaching) => !citationKeys.has(`teaching:${teaching.id}`),
+    (teaching) => !citationKeys.has(`teaching:${teaching.id}`)
   );
   const uncitedMediaAssets = allMedia.filter(
-    (asset) => !citationKeys.has(`media_asset:${asset.id}`),
+    (asset) => !citationKeys.has(`media_asset:${asset.id}`)
   );
   const tier1BiographyCoverage = tier1Masters.filter((master) => biographyIds.has(master.id));
   const tier1TeachingCoverage = tier1Masters.filter((master) => teachingAuthorIds.has(master.id));
   const tier1ImageCoverage = tier1Masters.filter((master) => imageIds.has(master.id));
   const tier1Orphans = tier1Masters.filter(
-    (master) => !studentIds.has(master.id) && !teacherIds.has(master.id),
+    (master) => !studentIds.has(master.id) && !teacherIds.has(master.id)
   );
 
   const activeSourceIds = Array.from(
-    new Set(allCitations.map((citation) => citation.sourceId)),
+    new Set(allCitations.map((citation) => citation.sourceId))
   ).sort();
   const sourceTitleById = new Map(
-    allSources.map((source) => [source.id, source.title ?? source.id]),
+    allSources.map((source) => [source.id, source.title ?? source.id])
   );
   const sourceBreakdown = Array.from(citationCountsBySource.entries())
     .sort((left, right) => right[1] - left[1] || left[0].localeCompare(right[0]))
@@ -326,9 +321,7 @@ async function main() {
       count,
     }));
 
-  const ingestionRunSourceIds = new Map(
-    allIngestionRuns.map((run) => [run.id, run.sourceId]),
-  );
+  const ingestionRunSourceIds = new Map(allIngestionRuns.map((run) => [run.id, run.sourceId]));
   const snapshotRunIds = new Set(allSnapshots.map((snapshot) => snapshot.ingestionRunId));
   const rawDatasetAudits = auditRawDatasets({
     ingestionRunSourceIds,
@@ -360,48 +353,42 @@ async function main() {
   printMetric("Total masters", totalMasters);
   printMetric(
     "Masters with >=1 citation",
-    `${citedIds.size} / ${totalMasters} (${formatPercent(citedIds.size, totalMasters)})`,
+    `${citedIds.size} / ${totalMasters} (${formatPercent(citedIds.size, totalMasters)})`
   );
   printMetric(
     "Masters with search tokens",
-    `${tokenIds.size} / ${totalMasters} (${formatPercent(tokenIds.size, totalMasters)})`,
+    `${tokenIds.size} / ${totalMasters} (${formatPercent(tokenIds.size, totalMasters)})`
   );
   printMetric(
     "Masters with biographies",
-    `${biographyIds.size} / ${totalMasters} (${formatPercent(
-      biographyIds.size,
-      totalMasters,
-    )})`,
+    `${biographyIds.size} / ${totalMasters} (${formatPercent(biographyIds.size, totalMasters)})`
   );
   printMetric(
     "Masters with teachings",
     `${teachingAuthorIds.size} / ${totalMasters} (${formatPercent(
       teachingAuthorIds.size,
-      totalMasters,
-    )})`,
+      totalMasters
+    )})`
   );
   printMetric(
     "Masters with images",
-    `${imageIds.size} / ${totalMasters} (${formatPercent(imageIds.size, totalMasters)})`,
+    `${imageIds.size} / ${totalMasters} (${formatPercent(imageIds.size, totalMasters)})`
   );
   printMetric(
     "Images in media_assets",
-    `${mediaMasterIds.size} masters (${allMedia.length} asset rows)`,
+    `${mediaMasterIds.size} masters (${allMedia.length} asset rows)`
   );
   printMetric("Hardcoded image fallbacks", 0);
   printMetric("Orphan masters", `${orphanMasters.length} / ${totalMasters}`);
   printMetric("Suspicious short slugs", suspiciousSlugs.length);
   printMetric(
     "Biographies lacking citations",
-    `${uncitedBiographyRows.length} / ${allBiographies.length}`,
+    `${uncitedBiographyRows.length} / ${allBiographies.length}`
   );
-  printMetric(
-    "Teachings lacking citations",
-    `${uncitedTeachings.length} / ${allTeachings.length}`,
-  );
+  printMetric("Teachings lacking citations", `${uncitedTeachings.length} / ${allTeachings.length}`);
   printMetric(
     "Media assets lacking citations",
-    `${uncitedMediaAssets.length} / ${allMedia.length}`,
+    `${uncitedMediaAssets.length} / ${allMedia.length}`
   );
 
   console.log("\nTier 1 coverage");
@@ -410,29 +397,29 @@ async function main() {
     "Tier 1 biographies",
     `${tier1BiographyCoverage.length} / ${tier1Masters.length} (${formatPercent(
       tier1BiographyCoverage.length,
-      tier1Masters.length,
-    )})`,
+      tier1Masters.length
+    )})`
   );
   printMetric(
     "Tier 1 teachings",
     `${tier1TeachingCoverage.length} / ${tier1Masters.length} (${formatPercent(
       tier1TeachingCoverage.length,
-      tier1Masters.length,
-    )})`,
+      tier1Masters.length
+    )})`
   );
   printMetric(
     "Tier 1 images",
     `${tier1ImageCoverage.length} / ${tier1Masters.length} (${formatPercent(
       tier1ImageCoverage.length,
-      tier1Masters.length,
-    )})`,
+      tier1Masters.length
+    )})`
   );
   printMetric(
     "Tier 1 orphans",
     `${tier1Orphans.length} / ${tier1Masters.length} (${formatPercent(
       tier1Orphans.length,
-      tier1Masters.length,
-    )})`,
+      tier1Masters.length
+    )})`
   );
 
   console.log("\nSource diversity");
@@ -451,11 +438,10 @@ async function main() {
   } else {
     for (const audit of rawDatasetAudits) {
       const expected = audit.expectedSourceId ?? "inferred from rows";
-      const actual =
-        audit.actualSourceIds.length > 0 ? audit.actualSourceIds.join(", ") : "none";
+      const actual = audit.actualSourceIds.length > 0 ? audit.actualSourceIds.join(", ") : "none";
       const runs = audit.runIds.length > 0 ? audit.runIds.join(", ") : "none";
       console.log(
-        `[${audit.status.toUpperCase()}] ${audit.filename} | kind=${audit.kind} | rows=${audit.rowCount} | actual=${actual} | expected=${expected} | runs=${runs}`,
+        `[${audit.status.toUpperCase()}] ${audit.filename} | kind=${audit.kind} | rows=${audit.rowCount} | actual=${actual} | expected=${expected} | runs=${runs}`
       );
       for (const note of audit.notes) {
         console.log(`  note: ${note}`);
@@ -472,10 +458,7 @@ async function main() {
     .map((bio) => allMasters.find((master) => master.id === bio.masterId)?.slug)
     .filter((slug): slug is string => Boolean(slug))
     .sort();
-  printMetric(
-    "Uncited biographies",
-    preview(uncitedBiographyPreview),
-  );
+  printMetric("Uncited biographies", preview(uncitedBiographyPreview));
   const tier1OrphanPreview = tier1Orphans.map((master) => {
     const entry = getTier1Entry(master.slug);
     return entry ? `${master.slug} (${entry.reason})` : master.slug;
@@ -490,7 +473,7 @@ async function main() {
   if (provenanceWarnings.length + provenanceErrors.length > 0) {
     printMetric(
       "Provenance issues",
-      `${provenanceWarnings.length + provenanceErrors.length} raw datasets need attention`,
+      `${provenanceWarnings.length + provenanceErrors.length} raw datasets need attention`
     );
   }
 }

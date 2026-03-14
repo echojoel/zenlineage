@@ -12,16 +12,14 @@ export interface LineageVisibilityEdge {
 export function getSchoolContextNodeIds(
   nodes: LineageVisibilityNode[],
   edges: LineageVisibilityEdge[],
-  schoolFilter: string,
+  schoolFilter: string
 ): Set<string> {
   if (schoolFilter === "all") {
     return new Set(nodes.map((node) => node.id));
   }
 
   const selectedIds = new Set(
-    nodes
-      .filter((node) => node.schoolId === schoolFilter)
-      .map((node) => node.id),
+    nodes.filter((node) => node.schoolId === schoolFilter).map((node) => node.id)
   );
 
   if (selectedIds.size === 0) {

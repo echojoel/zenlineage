@@ -47,7 +47,7 @@ async function main(): Promise<void> {
       if (!row.ingestion_run_id) continue;
       recordCountByRunId.set(
         row.ingestion_run_id,
-        (recordCountByRunId.get(row.ingestion_run_id) ?? 0) + 1,
+        (recordCountByRunId.get(row.ingestion_run_id) ?? 0) + 1
       );
     }
 
@@ -59,10 +59,8 @@ async function main(): Promise<void> {
 
     for (const runId of runIds) {
       const matchingRows = rows.filter((row) => row.ingestion_run_id === runId);
-      const sourceId =
-        matchingRows[0]?.source_id ?? config.expectedSourceId ?? "src_unknown";
-      const scriptName =
-        SCRIPT_NAME_BY_DATASET[filename] ?? "backfill-ingestion-metadata.ts";
+      const sourceId = matchingRows[0]?.source_id ?? config.expectedSourceId ?? "src_unknown";
+      const scriptName = SCRIPT_NAME_BY_DATASET[filename] ?? "backfill-ingestion-metadata.ts";
       const fileStats = fs.statSync(filepath);
       const run = await startIngestionRun({
         sourceId,

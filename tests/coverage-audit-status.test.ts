@@ -20,7 +20,7 @@ describe("coverage audit status", () => {
         provenanceErrors: 0,
         hardcodedImageFallbacks: 0,
         mediaBackedImages: 0,
-      }),
+      })
     ).toEqual({
       status: "OK",
       reasons: [],
@@ -51,13 +51,9 @@ describe("coverage audit status", () => {
     expect(result.reasons).toContain("50 biographies are missing item-level citations");
     expect(result.reasons).toContain("230 masters are missing teachings");
     expect(result.reasons).toContain("225 masters are missing images");
-    expect(result.reasons).toContain(
-      "167 masters are not linked into the lineage graph",
-    );
+    expect(result.reasons).toContain("167 masters are not linked into the lineage graph");
     expect(result.reasons).toContain("1 registered sources have no citations yet");
-    expect(result.reasons).toContain(
-      "image coverage still depends on hardcoded fallbacks",
-    );
+    expect(result.reasons).toContain("image coverage still depends on hardcoded fallbacks");
   });
 
   it("returns ERROR when required core integrity checks fail", () => {

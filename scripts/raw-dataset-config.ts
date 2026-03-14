@@ -1,9 +1,6 @@
 import type { RawMaster } from "./scraper-types";
 
-export type RawDatasetKind =
-  | "external_extract"
-  | "curated_extract"
-  | "editorial_overlay";
+export type RawDatasetKind = "external_extract" | "curated_extract" | "editorial_overlay";
 
 export interface RawDatasetConfig {
   kind: RawDatasetKind;
@@ -24,8 +21,7 @@ const RAW_DATASET_CONFIG: Record<string, RawDatasetConfig> = {
     kind: "curated_extract",
     expectedSourceId: "src_sotozen_founders",
     normalizedSourceId: "src_sotozen_founders",
-    notes:
-      "Local curated extract derived from the Soto Zen founders lineage source.",
+    notes: "Local curated extract derived from the Soto Zen founders lineage source.",
   },
 };
 
@@ -37,10 +33,7 @@ export function getRawDatasetConfig(filename: string): RawDatasetConfig {
   return RAW_DATASET_CONFIG[filename] ?? DEFAULT_DATASET_CONFIG;
 }
 
-export function normalizeRawDatasetRows(
-  filename: string,
-  rows: RawMaster[],
-): RawMaster[] {
+export function normalizeRawDatasetRows(filename: string, rows: RawMaster[]): RawMaster[] {
   const config = getRawDatasetConfig(filename);
   const normalizedSourceId = config.normalizedSourceId;
 
@@ -54,6 +47,6 @@ export function normalizeRawDatasetRows(
       : {
           ...row,
           source_id: normalizedSourceId,
-        },
+        }
   );
 }

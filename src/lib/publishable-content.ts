@@ -33,14 +33,14 @@ export function buildCitationKeySet(rows: CitationPointer[]): Set<string> {
 export function hasItemCitation(
   citationKeys: Set<string>,
   entityType: string,
-  entityId: string,
+  entityId: string
 ): boolean {
   return citationKeys.has(`${entityType}:${entityId}`);
 }
 
 export function isPublishedBiography(
   biographyId: string | null | undefined,
-  citationKeys: Set<string>,
+  citationKeys: Set<string>
 ): boolean {
   if (!biographyId) return false;
   return hasItemCitation(citationKeys, "master_biography", biographyId);
@@ -48,7 +48,7 @@ export function isPublishedBiography(
 
 export function isPublishedTeaching(
   teaching: PublishableTeaching,
-  citationKeys: Set<string>,
+  citationKeys: Set<string>
 ): boolean {
   return hasItemCitation(citationKeys, "teaching", teaching.id);
 }
@@ -59,7 +59,7 @@ export function resolveMediaAssetUrl(asset: PublishableMediaAsset): string | nul
 
 export function isPublishedImageAsset(
   asset: PublishableMediaAsset,
-  citationKeys: Set<string>,
+  citationKeys: Set<string>
 ): boolean {
   if (asset.type !== "image") return false;
   if (!hasItemCitation(citationKeys, "media_asset", asset.id)) return false;
@@ -68,7 +68,7 @@ export function isPublishedImageAsset(
 
 export function getPublishedImageAsset(
   assets: PublishableMediaAsset[],
-  citationKeys: Set<string>,
+  citationKeys: Set<string>
 ): PublishedImageAsset | null {
   for (const asset of assets) {
     if (!isPublishedImageAsset(asset, citationKeys)) continue;

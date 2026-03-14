@@ -23,19 +23,11 @@ import {
 // Fixtures
 // ---------------------------------------------------------------------------
 
-const FIXTURE_PATH = path.resolve(
-  __dirname,
-  "fixtures/chan-ancestors-sample.txt",
-);
-const GOLDEN_PATH = path.resolve(
-  __dirname,
-  "golden/chan-ancestors-expected.json",
-);
+const FIXTURE_PATH = path.resolve(__dirname, "fixtures/chan-ancestors-sample.txt");
+const GOLDEN_PATH = path.resolve(__dirname, "golden/chan-ancestors-expected.json");
 
 const sampleText = fs.readFileSync(FIXTURE_PATH, "utf-8");
-const expectedMasters: RawMaster[] = JSON.parse(
-  fs.readFileSync(GOLDEN_PATH, "utf-8"),
-);
+const expectedMasters: RawMaster[] = JSON.parse(fs.readFileSync(GOLDEN_PATH, "utf-8"));
 
 // ---------------------------------------------------------------------------
 // isDateLine
@@ -264,12 +256,8 @@ describe("buildRawMasters", () => {
         expect(actual!.teachers.length).toBe(expected.teachers.length);
         for (let i = 0; i < expected.teachers.length; i++) {
           expect(actual!.teachers[i].name).toBe(expected.teachers[i].name);
-          expect(actual!.teachers[i].edge_type).toBe(
-            expected.teachers[i].edge_type,
-          );
-          expect(actual!.teachers[i].locator).toBe(
-            expected.teachers[i].locator,
-          );
+          expect(actual!.teachers[i].edge_type).toBe(expected.teachers[i].edge_type);
+          expect(actual!.teachers[i].locator).toBe(expected.teachers[i].locator);
         }
       }
     }
@@ -311,9 +299,7 @@ describe("splitSections", () => {
   });
 
   it("index section contains tab-separated entries", () => {
-    const hasTabEntries = indexLines.some(
-      (l) => l.includes("\t") && l.split("\t").length >= 3,
-    );
+    const hasTabEntries = indexLines.some((l) => l.includes("\t") && l.split("\t").length >= 3);
     expect(hasTabEntries).toBe(true);
   });
 });

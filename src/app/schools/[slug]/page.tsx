@@ -6,11 +6,7 @@ import { citations, masterNames, masters, schoolNames, schools, sources } from "
 import { formatDateWithPrecision } from "@/lib/date-format";
 import { getSchoolDefinition } from "@/lib/school-taxonomy";
 
-export default async function SchoolDetailPage({
-  params,
-}: {
-  params: Promise<{ slug: string }>;
-}) {
+export default async function SchoolDetailPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
 
   const schoolRows = await db
@@ -35,9 +31,7 @@ export default async function SchoolDetailPage({
     .where(eq(schoolNames.schoolId, school.id));
 
   const primaryName =
-    names.find((name) => name.locale === "en")?.value ??
-    names[0]?.value ??
-    school.slug;
+    names.find((name) => name.locale === "en")?.value ?? names[0]?.value ?? school.slug;
 
   const parentRow = school.parentId
     ? (
@@ -49,7 +43,7 @@ export default async function SchoolDetailPage({
           .from(schools)
           .leftJoin(
             schoolNames,
-            and(eq(schoolNames.schoolId, schools.id), eq(schoolNames.locale, "en")),
+            and(eq(schoolNames.schoolId, schools.id), eq(schoolNames.locale, "en"))
           )
           .where(eq(schools.id, school.parentId))
       )[0]
@@ -77,12 +71,7 @@ export default async function SchoolDetailPage({
             value: masterNames.value,
           })
           .from(masterNames)
-          .where(
-            and(
-              inArray(masterNames.masterId, masterIds),
-              eq(masterNames.locale, "en"),
-            ),
-          )
+          .where(and(inArray(masterNames.masterId, masterIds), eq(masterNames.locale, "en")))
       : [];
 
   const masterNameMap = new Map<string, string>();
@@ -105,12 +94,7 @@ export default async function SchoolDetailPage({
             sourceId: citations.sourceId,
           })
           .from(citations)
-          .where(
-            and(
-              eq(citations.entityType, "master"),
-              inArray(citations.entityId, masterIds),
-            ),
-          )
+          .where(and(eq(citations.entityType, "master"), inArray(citations.entityId, masterIds)))
       : [];
   const sourceIds = Array.from(new Set(citationRows.map((citation) => citation.sourceId)));
   const sourceRows =
@@ -171,7 +155,10 @@ export default async function SchoolDetailPage({
               Explore lineage
             </Link>
             {featuredMaster && (
-              <Link className="detail-button detail-button-muted" href={`/masters/${featuredMaster.slug}`}>
+              <Link
+                className="detail-button detail-button-muted"
+                href={`/masters/${featuredMaster.slug}`}
+              >
                 Featured master
               </Link>
             )}
@@ -198,9 +185,13 @@ export default async function SchoolDetailPage({
                   <li key={master.id}>
                     <Link href={`/masters/${master.slug}`}>{master.name}</Link>
                     <span className="detail-list-meta">
-                      {formatDateWithPrecision(master.birthYear, master.birthPrecision, { unknown: null }) ?? "?"}
+                      {formatDateWithPrecision(master.birthYear, master.birthPrecision, {
+                        unknown: null,
+                      }) ?? "?"}
                       {" – "}
-                      {formatDateWithPrecision(master.deathYear, master.deathPrecision, { unknown: null }) ?? "?"}
+                      {formatDateWithPrecision(master.deathYear, master.deathPrecision, {
+                        unknown: null,
+                      }) ?? "?"}
                     </span>
                   </li>
                 ))}
@@ -211,7 +202,9 @@ export default async function SchoolDetailPage({
         <section className="detail-card">
           <h3 className="detail-section-title">Sources in use</h3>
           {sourceRows.length === 0 ? (
-            <p className="detail-muted">No supporting sources are attached to the linked masters yet.</p>
+            <p className="detail-muted">
+              No supporting sources are attached to the linked masters yet.
+            </p>
           ) : (
             <ul className="detail-source-list">
               {sourceRows.map((source) => (

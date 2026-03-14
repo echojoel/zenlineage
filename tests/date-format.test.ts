@@ -20,7 +20,7 @@ describe("date formatting helpers", () => {
         birthPrecision: null,
         deathYear: null,
         deathPrecision: null,
-      }),
+      })
     ).toBe("Dates uncertain");
 
     expect(
@@ -29,7 +29,7 @@ describe("date formatting helpers", () => {
         birthPrecision: null,
         deathYear: 1253,
         deathPrecision: null,
-      }),
+      })
     ).toBe("1200 – 1253");
   });
 });

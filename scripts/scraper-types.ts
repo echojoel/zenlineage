@@ -6,20 +6,20 @@
 
 export interface RawTeacherRef {
   name: string;
-  edge_type?: 'primary' | 'secondary' | 'disputed';
+  edge_type?: "primary" | "secondary" | "disputed";
   locator?: string;
   notes?: string;
 }
 
 export interface RawMaster {
-  name: string;           // Primary name
-  names_cjk: string;      // CJK characters if available
-  dates: string;          // Raw date string
+  name: string; // Primary name
+  names_cjk: string; // CJK characters if available
+  dates: string; // Raw date string
   teachers: RawTeacherRef[];
   school: string;
   source_id: string;
   ingestion_run_id: string;
-  names_alt?: string[];   // Alternative romanizations
+  names_alt?: string[]; // Alternative romanizations
   grid_code?: string;
   nicknames?: string[];
   koan_refs?: string;

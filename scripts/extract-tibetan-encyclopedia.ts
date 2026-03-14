@@ -5,16 +5,16 @@
 // are encoded by nesting depth.
 // ---------------------------------------------------------------------------
 
-import * as cheerio from 'cheerio';
-import fs from 'fs';
-import type { RawMaster, RawTeacherRef } from './scraper-types';
+import * as cheerio from "cheerio";
+import fs from "fs";
+import type { RawMaster, RawTeacherRef } from "./scraper-types";
 import {
   failIngestionRun,
   finishIngestionRun,
   fingerprintContent,
   startIngestionRun,
   toArchiveRef,
-} from './ingestion-provenance';
+} from "./ingestion-provenance";
 
 /**
  * Parse a single <li> text node to extract name, CJK, and dates.
@@ -35,14 +35,14 @@ function parseMasterText(text: string): {
   // Match pattern: Name (parenthetical content)
   const parenMatch = trimmed.match(/^([^(]+)\(([^)]+)\)\s*$/);
   if (!parenMatch) {
-    return { name: trimmed, names_cjk: '', dates: '' };
+    return { name: trimmed, names_cjk: "", dates: "" };
   }
 
   const name = parenMatch[1]!.trim();
   const parenContent = parenMatch[2]!.trim();
 
   // Split parenthetical on comma — may contain CJK + dates, or just dates
-  const parts = parenContent.split(',').map(p => p.trim());
+  const parts = parenContent.split(",").map((p) => p.trim());
 
   // Check if first part contains CJK characters
   const cjkRegex = /[\u4e00-\u9fff\u3400-\u4dbf\u{20000}-\u{2a6df}]/u;
@@ -51,16 +51,16 @@ function parseMasterText(text: string): {
     return {
       name,
       names_cjk: parts[0]!,
-      dates: parts.slice(1).join(', ').trim(),
+      dates: parts.slice(1).join(", ").trim(),
     };
   }
 
   // No CJK — entire parenthetical is dates
   if (/\d/.test(parenContent)) {
-    return { name, names_cjk: '', dates: parenContent };
+    return { name, names_cjk: "", dates: parenContent };
   }
 
-  return { name, names_cjk: parenContent, dates: '' };
+  return { name, names_cjk: parenContent, dates: "" };
 }
 
 /**
@@ -73,62 +73,75 @@ function walkList(
   school: string,
   sourceId: string,
   ingestionRunId: string,
-  results: RawMaster[],
+  results: RawMaster[]
 ): void {
-  $(ul).children('li').each((_i, li) => {
-    // Get only the direct text of this <li>, excluding nested <ul>
-    const directText = $(li).contents().filter(function (this: { type?: string }) {
-      return this.type === 'text';
-    }).text().trim();
+  $(ul)
+    .children("li")
+    .each((_i, li) => {
+      // Get only the direct text of this <li>, excluding nested <ul>
+      const directText = $(li)
+        .contents()
+        .filter(function (this: { type?: string }) {
+          return this.type === "text";
+        })
+        .text()
+        .trim();
 
-    if (!directText) return;
+      if (!directText) return;
 
-    const parsed = parseMasterText(directText);
-    const teachers: RawTeacherRef[] = [];
+      const parsed = parseMasterText(directText);
+      const teachers: RawTeacherRef[] = [];
 
-    if (parentName) {
-      teachers.push({ name: parentName, edge_type: 'primary' });
-    }
+      if (parentName) {
+        teachers.push({ name: parentName, edge_type: "primary" });
+      }
 
-    results.push({
-      name: parsed.name,
-      names_cjk: parsed.names_cjk,
-      dates: parsed.dates,
-      teachers,
-      school,
-      source_id: sourceId,
-      ingestion_run_id: ingestionRunId,
+      results.push({
+        name: parsed.name,
+        names_cjk: parsed.names_cjk,
+        dates: parsed.dates,
+        teachers,
+        school,
+        source_id: sourceId,
+        ingestion_run_id: ingestionRunId,
+      });
+
+      // Recurse into nested <ul>
+      $(li)
+        .children("ul")
+        .each((_j, nestedUl) => {
+          walkList(
+            $,
+            nestedUl as cheerio.Element,
+            parsed.name,
+            school,
+            sourceId,
+            ingestionRunId,
+            results
+          );
+        });
     });
-
-    // Recurse into nested <ul>
-    $(li).children('ul').each((_j, nestedUl) => {
-      walkList($, nestedUl as cheerio.Element, parsed.name, school, sourceId, ingestionRunId, results);
-    });
-  });
 }
 
 /**
  * Pure parsing function — testable without network access.
  * Expects HTML with .lineage-tree containers holding nested <ul> lists.
  */
-export function parseHtml(
-  html: string,
-  sourceId: string,
-  ingestionRunId: string,
-): RawMaster[] {
+export function parseHtml(html: string, sourceId: string, ingestionRunId: string): RawMaster[] {
   const $ = cheerio.load(html);
   const masters: RawMaster[] = [];
 
-  $('div.lineage-tree').each((_i, treeDiv) => {
+  $("div.lineage-tree").each((_i, treeDiv) => {
     // Try to find a school label from a preceding heading or data attribute
-    const school = $(treeDiv).attr('data-school')
-      || $(treeDiv).prev('h2, h3').text().trim()
-      || 'Chan';
+    const school =
+      $(treeDiv).attr("data-school") || $(treeDiv).prev("h2, h3").text().trim() || "Chan";
 
     // Walk top-level <ul> elements
-    $(treeDiv).children('ul').each((_j, ul) => {
-      walkList($, ul as cheerio.Element, null, school, sourceId, ingestionRunId, masters);
-    });
+    $(treeDiv)
+      .children("ul")
+      .each((_j, ul) => {
+        walkList($, ul as cheerio.Element, null, school, sourceId, ingestionRunId, masters);
+      });
   });
 
   return masters;
@@ -138,20 +151,20 @@ export function parseHtml(
 // CLI entry point
 // ---------------------------------------------------------------------------
 async function main() {
-  const inputPath = process.argv[2] || 'scripts/data/raw/tibetan-encyclopedia.html';
-  const outputPath = process.argv[3] || 'scripts/data/raw/tibetan-encyclopedia.json';
-  const sourceId = 'src_tibetan_encyclopedia';
+  const inputPath = process.argv[2] || "scripts/data/raw/tibetan-encyclopedia.html";
+  const outputPath = process.argv[3] || "scripts/data/raw/tibetan-encyclopedia.json";
+  const sourceId = "src_tibetan_encyclopedia";
 
   if (!fs.existsSync(inputPath)) {
     console.error(`Input file not found: ${inputPath}`);
-    console.error('Save the Tibetan Buddhist Encyclopedia HTML to this path first.');
+    console.error("Save the Tibetan Buddhist Encyclopedia HTML to this path first.");
     process.exit(1);
   }
 
-  const html = fs.readFileSync(inputPath, 'utf-8');
+  const html = fs.readFileSync(inputPath, "utf-8");
   const run = await startIngestionRun({
     sourceId,
-    scriptName: 'extract-tibetan-encyclopedia.ts',
+    scriptName: "extract-tibetan-encyclopedia.ts",
   });
 
   try {
@@ -174,11 +187,12 @@ async function main() {
 }
 
 // Only run main when executed directly (not when imported)
-const isDirectRun = process.argv[1]?.endsWith('extract-tibetan-encyclopedia.ts')
-  || process.argv[1]?.endsWith('extract-tibetan-encyclopedia');
+const isDirectRun =
+  process.argv[1]?.endsWith("extract-tibetan-encyclopedia.ts") ||
+  process.argv[1]?.endsWith("extract-tibetan-encyclopedia");
 if (isDirectRun) {
   main().catch((err) => {
-    console.error('Unexpected error:', err);
+    console.error("Unexpected error:", err);
     process.exit(1);
   });
 }

@@ -1,5 +1,10 @@
 import { describe, expect, it } from "vitest";
-import { getTier1Entry, getTier1Slugs, isTier1Master, TIER_1_ENTRIES } from "../src/lib/editorial-tiers";
+import {
+  getTier1Entry,
+  getTier1Slugs,
+  isTier1Master,
+  TIER_1_ENTRIES,
+} from "../src/lib/editorial-tiers";
 
 describe("editorial tiers", () => {
   it("defines a stable Tier 1 list of 50 masters", () => {

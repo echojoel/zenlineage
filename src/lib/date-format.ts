@@ -12,7 +12,7 @@ export interface LifeRangeInput {
 export function formatDateWithPrecision(
   year: number | null,
   precision: string | null,
-  options: DateFormatOptions = {},
+  options: DateFormatOptions = {}
 ): string | null {
   const unknown = options.unknown === undefined ? "Unknown" : options.unknown;
   if (!year) return unknown;
@@ -21,10 +21,7 @@ export function formatDateWithPrecision(
   return String(year);
 }
 
-export function formatLifeRange(
-  input: LifeRangeInput,
-  options: DateFormatOptions = {},
-): string {
+export function formatLifeRange(input: LifeRangeInput, options: DateFormatOptions = {}): string {
   const unknown = options.unknown === undefined ? "Unknown" : options.unknown;
   const birth = formatDateWithPrecision(input.birthYear, input.birthPrecision, {
     unknown,

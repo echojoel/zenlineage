@@ -8,30 +8,28 @@
  * Usage:  npx tsx scripts/seed-schools.ts
  */
 
-import fs from 'fs';
-import path from 'path';
-import { db } from '@/db';
-import { schools, schoolNames, masters } from '@/db/schema';
-import { eq } from 'drizzle-orm';
-import type { CanonicalMaster } from './reconcile';
+import fs from "fs";
+import path from "path";
+import { db } from "@/db";
+import { schools, schoolNames, masters } from "@/db/schema";
+import { eq } from "drizzle-orm";
+import type { CanonicalMaster } from "./reconcile";
 import {
   determineSchoolDefinition,
   getSchoolAncestors,
   getSchoolDefinition,
-} from '@/lib/school-taxonomy';
+} from "@/lib/school-taxonomy";
 
-const RECONCILED_DIR = path.join(process.cwd(), 'scripts/data/reconciled');
+const RECONCILED_DIR = path.join(process.cwd(), "scripts/data/reconciled");
 
 export default async function seedSchools(): Promise<void> {
-  const filepath = path.join(RECONCILED_DIR, 'canonical.json');
+  const filepath = path.join(RECONCILED_DIR, "canonical.json");
   if (!fs.existsSync(filepath)) {
-    console.warn('⚠️  canonical.json not found — skipping school seeding');
+    console.warn("⚠️  canonical.json not found — skipping school seeding");
     return;
   }
 
-  const canonicalMasters: CanonicalMaster[] = JSON.parse(
-    fs.readFileSync(filepath, 'utf-8'),
-  );
+  const canonicalMasters: CanonicalMaster[] = JSON.parse(fs.readFileSync(filepath, "utf-8"));
 
   const requiredSlugs = new Set<string>();
   for (const m of canonicalMasters) {
@@ -62,7 +60,7 @@ export default async function seedSchools(): Promise<void> {
       .where(eq(schools.slug, definition.slug));
 
     const schoolId = existing[0]?.id ?? definition.slug;
-    const parentId = definition.parentSlug ? schoolIds.get(definition.parentSlug) ?? null : null;
+    const parentId = definition.parentSlug ? (schoolIds.get(definition.parentSlug) ?? null) : null;
 
     if (existing.length === 0) {
       await db
@@ -91,7 +89,7 @@ export default async function seedSchools(): Promise<void> {
       .values({
         id: `${schoolId}_en`,
         schoolId,
-        locale: 'en',
+        locale: "en",
         value: definition.name,
       })
       .onConflictDoUpdate({
@@ -102,9 +100,9 @@ export default async function seedSchools(): Promise<void> {
     schoolIds.set(definition.slug, schoolId);
   }
 
-  console.log('✓ Canonical schools upserted');
+  console.log("✓ Canonical schools upserted");
 
-  console.log('Linking masters to schools...');
+  console.log("Linking masters to schools...");
   let linked = 0;
 
   for (const m of canonicalMasters) {
@@ -118,10 +116,7 @@ export default async function seedSchools(): Promise<void> {
     const schoolId = schoolIds.get(definition.slug);
     if (!schoolId) continue;
 
-    await db
-      .update(masters)
-      .set({ schoolId })
-      .where(eq(masters.id, m.id));
+    await db.update(masters).set({ schoolId }).where(eq(masters.id, m.id));
 
     linked++;
   }
@@ -130,14 +125,14 @@ export default async function seedSchools(): Promise<void> {
 }
 
 // Run directly if invoked as a script
-if (process.argv[1] && process.argv[1].endsWith('seed-schools.ts')) {
+if (process.argv[1] && process.argv[1].endsWith("seed-schools.ts")) {
   seedSchools()
     .then(() => {
-      console.log('\n=== School seeding complete ===');
+      console.log("\n=== School seeding complete ===");
       process.exit(0);
     })
     .catch((err) => {
-      console.error('School seeding failed:', err);
+      console.error("School seeding failed:", err);
       process.exit(1);
     });
 }

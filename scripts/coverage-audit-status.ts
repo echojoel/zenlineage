@@ -21,9 +21,7 @@ export interface CoverageAuditAssessment {
   reasons: string[];
 }
 
-export function assessCoverageAudit(
-  signals: CoverageAuditSignals,
-): CoverageAuditAssessment {
+export function assessCoverageAudit(signals: CoverageAuditSignals): CoverageAuditAssessment {
   const errors: string[] = [];
   const warnings: string[] = [];
 
@@ -32,9 +30,7 @@ export function assessCoverageAudit(
   }
 
   if (signals.mastersWithoutSearchTokens > 0) {
-    errors.push(
-      `${signals.mastersWithoutSearchTokens} masters are missing search tokens`,
-    );
+    errors.push(`${signals.mastersWithoutSearchTokens} masters are missing search tokens`);
   }
 
   if (signals.provenanceErrors > 0) {

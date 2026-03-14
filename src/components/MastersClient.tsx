@@ -25,7 +25,7 @@ export default function MastersClient({ masters, schoolNames }: Props) {
         threshold: 0.35,
         distance: 100,
       }),
-    [masters],
+    [masters]
   );
 
   const filtered = useMemo(() => {
@@ -130,9 +130,7 @@ function MasterCard({
     return (
       <Link className="master-list-row" href={`/masters/${master.slug}`}>
         <span className="master-list-name">{master.primaryName}</span>
-        {schoolName && (
-          <span className="master-list-school">{schoolName}</span>
-        )}
+        {schoolName && <span className="master-list-school">{schoolName}</span>}
         {hasDates && (
           <span className="master-list-dates">
             {birth} – {death}
@@ -145,12 +143,12 @@ function MasterCard({
   return (
     <Link className="master-card" href={`/masters/${master.slug}`}>
       <div className="master-card-name">{master.primaryName}</div>
-      {schoolName && (
-        <div className="master-card-school">{schoolName}</div>
-      )}
+      {schoolName && <div className="master-card-school">{schoolName}</div>}
       {hasDates && (
         <div className="master-card-dates">
-          <span className="precision-badge">{birth} – {death}</span>
+          <span className="precision-badge">
+            {birth} – {death}
+          </span>
         </div>
       )}
     </Link>

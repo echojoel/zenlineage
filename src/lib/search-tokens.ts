@@ -1,22 +1,22 @@
-import { pinyin } from 'pinyin';
-import { toRomaji } from 'wanakana';
-import { looksWadeGiles } from '@/lib/romanization';
+import { pinyin } from "pinyin";
+import { toRomaji } from "wanakana";
+import { looksWadeGiles } from "@/lib/romanization";
 
 // ---------------------------------------------------------------------------
 // Types
 // ---------------------------------------------------------------------------
 
 export interface SearchToken {
-  token: string;       // normalized search token (lowercased, diacritics stripped)
-  original: string;    // original form before normalization
-  locale: string;      // 'en' | 'zh' | 'ja' | 'ko' | 'vi' | 'sa'
-  tokenType: string;   // 'name' | 'alias' | 'transliteration' | 'romanization'
+  token: string; // normalized search token (lowercased, diacritics stripped)
+  original: string; // original form before normalization
+  locale: string; // 'en' | 'zh' | 'ja' | 'ko' | 'vi' | 'sa'
+  tokenType: string; // 'name' | 'alias' | 'transliteration' | 'romanization'
 }
 
 export interface SearchTokenInput {
   value: string;
   locale: string;
-  nameType: string;    // 'dharma' | 'birth' | 'honorific' | 'alias'
+  nameType: string; // 'dharma' | 'birth' | 'honorific' | 'alias'
 }
 
 // ---------------------------------------------------------------------------
@@ -40,7 +40,7 @@ function containsKana(s: string): boolean {
 
 /** Strip combining diacritical marks (ō→o, ü→u, ê→e, …). */
 export function stripDiacritics(s: string): string {
-  return s.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+  return s.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
 }
 
 /** Lowercase + strip diacritics. */
@@ -53,8 +53,8 @@ function normalizeToken(s: string): string {
 // ---------------------------------------------------------------------------
 
 function tokenTypeFor(nameType: string): string {
-  if (nameType === 'alias') return 'alias';
-  return 'name';
+  if (nameType === "alias") return "alias";
+  return "name";
 }
 
 // ---------------------------------------------------------------------------
@@ -70,22 +70,22 @@ function pinyinTokens(cjkText: string, locale: string): SearchToken[] {
   const tokens: SearchToken[] = [];
 
   // Full pinyin, space-separated
-  const spaced = flat.join(' ');
+  const spaced = flat.join(" ");
   tokens.push({
     token: spaced,
     original: cjkText,
     locale,
-    tokenType: 'romanization',
+    tokenType: "romanization",
   });
 
   // Full pinyin, concatenated (no spaces)
-  const concat = flat.join('');
+  const concat = flat.join("");
   if (concat !== spaced) {
     tokens.push({
       token: concat,
       original: cjkText,
       locale,
-      tokenType: 'romanization',
+      tokenType: "romanization",
     });
   }
 
@@ -103,7 +103,7 @@ function kanaTokens(kanaText: string, locale: string): SearchToken[] {
       token: romaji,
       original: kanaText,
       locale,
-      tokenType: 'romanization',
+      tokenType: "romanization",
     },
   ];
 }
@@ -117,11 +117,9 @@ function multiWordTokens(
   normalized: string,
   original: string,
   locale: string,
-  tokenType: string,
+  tokenType: string
 ): SearchToken[] {
-  const tokens: SearchToken[] = [
-    { token: normalized, original, locale, tokenType },
-  ];
+  const tokens: SearchToken[] = [{ token: normalized, original, locale, tokenType }];
 
   const words = normalized.split(/\s+/).filter(Boolean);
   if (words.length > 1) {
@@ -150,7 +148,7 @@ function wadeGilesTokens(
   normalized: string,
   original: string,
   locale: string,
-  tokenType: string,
+  tokenType: string
 ): SearchToken[] {
   const tokens: SearchToken[] = [];
 
@@ -158,7 +156,7 @@ function wadeGilesTokens(
   tokens.push(...multiWordTokens(normalized, original, locale, tokenType));
 
   // 2. Stripped of apostrophes and hyphens
-  const stripped = normalized.replace(/['\u2019-]/g, '');
+  const stripped = normalized.replace(/['\u2019-]/g, "");
   if (stripped !== normalized) {
     tokens.push(...multiWordTokens(stripped, original, locale, tokenType));
   }
@@ -172,23 +170,23 @@ function wadeGilesTokens(
 
 interface Segment {
   text: string;
-  kind: 'cjk' | 'kana' | 'latin';
+  kind: "cjk" | "kana" | "latin";
 }
 
 function segmentString(input: string): Segment[] {
   const segments: Segment[] = [];
-  let current = '';
-  let currentKind: Segment['kind'] | null = null;
+  let current = "";
+  let currentKind: Segment["kind"] | null = null;
 
   for (const ch of input) {
-    let kind: Segment['kind'];
-    if (CJK_RE.test(ch)) kind = 'cjk';
-    else if (KANA_RE.test(ch)) kind = 'kana';
-    else kind = 'latin';
+    let kind: Segment["kind"];
+    if (CJK_RE.test(ch)) kind = "cjk";
+    else if (KANA_RE.test(ch)) kind = "kana";
+    else kind = "latin";
 
     if (kind !== currentKind && current.length > 0) {
       segments.push({ text: current, kind: currentKind! });
-      current = '';
+      current = "";
     }
     currentKind = kind;
     current += ch;
@@ -237,9 +235,9 @@ export function generateSearchTokens(input: SearchTokenInput): SearchToken[] {
 
   // Generate tokens for each segment
   for (const seg of segments) {
-    if (seg.kind === 'cjk') {
+    if (seg.kind === "cjk") {
       for (const t of pinyinTokens(seg.text.trim(), locale)) add(t);
-    } else if (seg.kind === 'kana') {
+    } else if (seg.kind === "kana") {
       for (const t of kanaTokens(seg.text.trim(), locale)) add(t);
     } else {
       const trimmed = seg.text.trim();

@@ -104,8 +104,7 @@ export interface NotShownRef {
   teacherGrid: string;
 }
 
-const NOT_SHOWN_RE =
-  /^(.+?)\s*\(Not shown\.?\s*(?:Student of\s+)?(.+?),\s*([A-Q]\d+)\)/;
+const NOT_SHOWN_RE = /^(.+?)\s*\(Not shown\.?\s*(?:Student of\s+)?(.+?),\s*([A-Q]\d+)\)/;
 
 /**
  * Parse the index section of the PDF text into structured entries.
@@ -156,10 +155,7 @@ export function parseIndex(lines: string[]): {
     if (/^[\d,\s\t]+$/.test(trimmed)) {
       if (lastEntry) {
         const overflow = trimmed.replace(/\t+/g, " ").trim();
-        lastEntry.koanRefs = [lastEntry.koanRefs, overflow]
-          .filter(Boolean)
-          .join(" ")
-          .trim();
+        lastEntry.koanRefs = [lastEntry.koanRefs, overflow].filter(Boolean).join(" ").trim();
       }
       continue;
     }
@@ -297,9 +293,7 @@ function tryBuildBlock(lines: string[]): ChartBlock | null {
   // We need at least: pinyin, wade-giles, romaji (+ optional dates = 3-4)
   if (clean.length < 3) return null;
 
-  const dates = isDateLine(clean[clean.length - 1])
-    ? clean.pop()!
-    : "";
+  const dates = isDateLine(clean[clean.length - 1]) ? clean.pop()! : "";
   const romaji = clean.length >= 3 ? clean.pop()! : "";
   const wadeGiles = clean.length >= 2 ? clean.pop()! : "";
   const pinyin = clean.length >= 1 ? clean.shift()! : "";
@@ -325,7 +319,7 @@ export function buildRawMasters(
   indexEntries: IndexEntry[],
   chartBlocks: ChartBlock[],
   notShownRefs: NotShownRef[],
-  ingestionRunId: string,
+  ingestionRunId: string
 ): RawMaster[] {
   // Build a lookup from pinyin name → chart block for date supplementation
   const chartByName = new Map<string, ChartBlock>();
@@ -475,9 +469,7 @@ export function splitSections(text: string): {
 // ---------------------------------------------------------------------------
 
 async function main() {
-  const pdfPath = path.resolve(
-    process.env.PDF_PATH ?? "Chart-of-the-Chan-Ancestors.pdf",
-  );
+  const pdfPath = path.resolve(process.env.PDF_PATH ?? "Chart-of-the-Chan-Ancestors.pdf");
 
   const run = await startIngestionRun({
     sourceId: "src_chan_ancestors_pdf",
@@ -497,25 +489,20 @@ async function main() {
     // Split into sections
     const { chartLines, indexLines } = splitSections(text);
     console.log(
-      `Chart section: ${chartLines.length} lines, Index section: ${indexLines.length} lines`,
+      `Chart section: ${chartLines.length} lines, Index section: ${indexLines.length} lines`
     );
 
     // Parse each section
     const { entries, notShown, seeRefs } = parseIndex(indexLines);
     console.log(
-      `Index: ${entries.length} entries, ${notShown.length} "not shown" refs, ${seeRefs.size} cross-refs`,
+      `Index: ${entries.length} entries, ${notShown.length} "not shown" refs, ${seeRefs.size} cross-refs`
     );
 
     const chartBlocks = parseChartBlocks(chartLines);
     console.log(`Chart: ${chartBlocks.length} master blocks`);
 
     // Build output
-    const masters = buildRawMasters(
-      entries,
-      chartBlocks,
-      notShown,
-      run.id,
-    );
+    const masters = buildRawMasters(entries, chartBlocks, notShown, run.id);
     console.log(`Built ${masters.length} RawMaster records.`);
 
     // Write output
@@ -543,8 +530,7 @@ async function main() {
 const isDirectRun =
   typeof process !== "undefined" &&
   process.argv[1] &&
-  (process.argv[1].endsWith("extract-pdf.ts") ||
-    process.argv[1].endsWith("extract-pdf.js"));
+  (process.argv[1].endsWith("extract-pdf.ts") || process.argv[1].endsWith("extract-pdf.js"));
 
 if (isDirectRun) {
   main().catch((err) => {

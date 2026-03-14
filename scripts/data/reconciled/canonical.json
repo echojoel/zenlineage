@@ -16,9 +16,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Indian Patriarchs",
-    "source_ids": [
-      "src_originals_curated"
-    ]
+    "source_ids": ["src_originals_curated"]
   },
   {
     "id": "_aaQkfq6Ay3kPKB2xV4pw",
@@ -47,9 +45,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Caodong",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "_gqRy0igxACiZ1ZAcGt4c",
@@ -78,9 +74,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Yangqi line",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "-amvWaGTGKmxQyp14n6J2",
@@ -124,10 +118,7 @@
     "death_precision": "exact",
     "death_confidence": "high",
     "school": "Yunmen",
-    "source_ids": [
-      "src_chan_ancestors_pdf",
-      "src_originals_curated"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf", "src_originals_curated"]
   },
   {
     "id": "-lkE_Q1eKm1hALEp12sD8",
@@ -156,9 +147,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Yunmen",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "-nClvaByR9P4FRYQMX4_L",
@@ -182,9 +171,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Indian Patriarchs",
-    "source_ids": [
-      "src_originals_curated"
-    ]
+    "source_ids": ["src_originals_curated"]
   },
   {
     "id": "-ODyZKNOSwVAyBA7yRVjn",
@@ -213,9 +200,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Linji",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "-x_tMuMjPp3DZQGCGA0zs",
@@ -244,9 +229,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Qingyuan line",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "0_an1VP-SgfI-rwnL591D",
@@ -265,9 +248,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Indian Patriarchs",
-    "source_ids": [
-      "src_originals_curated"
-    ]
+    "source_ids": ["src_originals_curated"]
   },
   {
     "id": "0-ND3KJXjjf5gkb1aJbM_",
@@ -311,10 +292,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Linji",
-    "source_ids": [
-      "src_chan_ancestors_pdf",
-      "src_originals_curated"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf", "src_originals_curated"]
   },
   {
     "id": "0q3Qprk3B6N7TFdNLpOUu",
@@ -343,9 +321,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Yunmen",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "0yYHIqv6h1fQlQqfk2eQy",
@@ -374,9 +350,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Linji",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "1aRVSJptwURPY9AZHpDGM",
@@ -405,9 +379,7 @@
     "death_precision": "exact",
     "death_confidence": "high",
     "school": "Other",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "1hXjfik6NhiACunrULRzu",
@@ -436,9 +408,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Linji",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "1L1RalHVjkUCvzsl46eE-",
@@ -467,9 +437,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Caodong",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "1qhC-vJBtbBQ4Cs_DcLfQ",
@@ -498,9 +466,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Qingyuan line",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "1RFyY3lzzzRYNuLT0eyeZ",
@@ -529,9 +495,7 @@
     "death_precision": "exact",
     "death_confidence": "high",
     "school": "Linji",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "1SC2EPq9Yj9sLkPHvecSM",
@@ -560,9 +524,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Linji",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "1wPtFQiIIUelXmbaA8ml1",
@@ -606,9 +568,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Soto",
-    "source_ids": [
-      "src_sotozen_founders"
-    ]
+    "source_ids": ["src_sotozen_founders"]
   },
   {
     "id": "207kUvhLH1az0H6YA57NV",
@@ -637,9 +597,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Guiyang",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "2D6CTxIOohm4bqR0bQj2U",
@@ -673,9 +631,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Indian Patriarchs",
-    "source_ids": [
-      "src_originals_curated"
-    ]
+    "source_ids": ["src_originals_curated"]
   },
   {
     "id": "2le5Q31xg5eULcmP6E7pN",
@@ -704,9 +660,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Linji",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "2ViXkfd-4_RKrlE_iGJFh",
@@ -740,9 +694,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Qingyuan line",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "38mTtjRbDQAqCxz5rdjNp",
@@ -771,9 +723,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Qingyuan line",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "3A_xRCHtopdEAqNDz96Jv",
@@ -802,9 +752,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Caodong",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "3Dd3l63_Ee1bnHLolSvML",
@@ -833,9 +781,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Other",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "3FVS2Ax3LAfRimpc4b_f-",
@@ -864,9 +810,7 @@
     "death_precision": "exact",
     "death_confidence": "high",
     "school": "Yunmen",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "4_clBXQMqLbLFR52jrufV",
@@ -895,9 +839,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Other",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "4A53pDvtL9BDJW-hUjxnR",
@@ -941,9 +883,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Caodong",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "58clK0ij7nlgm_mYVexOA",
@@ -972,9 +912,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Caodong",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "5Kv8dxTFFL0-h4GQnxz3t",
@@ -1028,10 +966,7 @@
     "death_precision": "exact",
     "death_confidence": "high",
     "school": "Early Chan",
-    "source_ids": [
-      "src_chan_ancestors_pdf",
-      "src_originals_curated"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf", "src_originals_curated"]
   },
   {
     "id": "6zL4JwcpRqL1Mw2kbnXyf",
@@ -1075,10 +1010,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Linji",
-    "source_ids": [
-      "src_chan_ancestors_pdf",
-      "src_originals_curated"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf", "src_originals_curated"]
   },
   {
     "id": "6Zx-M-9YaM2MjXyrtcbze",
@@ -1122,10 +1054,7 @@
     "death_precision": "exact",
     "death_confidence": "high",
     "school": "Qingyuan line",
-    "source_ids": [
-      "src_chan_ancestors_pdf",
-      "src_originals_curated"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf", "src_originals_curated"]
   },
   {
     "id": "7bVq77ThGkOYeAitn6YRm",
@@ -1154,9 +1083,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Linji",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "7HfwCdpszPy0hDSrPxZOi",
@@ -1185,9 +1112,7 @@
     "death_precision": "exact",
     "death_confidence": "high",
     "school": "Yunmen",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "7L-Z2ruVYWEy4KlNjMZaw",
@@ -1236,11 +1161,7 @@
     "death_precision": "exact",
     "death_confidence": "high",
     "school": "Early Chan",
-    "source_ids": [
-      "src_chan_ancestors_pdf",
-      "src_tibetan_encyclopedia",
-      "src_wikipedia"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf", "src_tibetan_encyclopedia", "src_wikipedia"]
   },
   {
     "id": "7oTDRnVmrmHfaS9TyTy5u",
@@ -1269,9 +1190,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Caodong",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "8djkv2Pw0FvL6oYEzem_q",
@@ -1300,9 +1219,7 @@
     "death_precision": "exact",
     "death_confidence": "high",
     "school": "Sanbo-Zen",
-    "source_ids": [
-      "src_mountain_moon"
-    ]
+    "source_ids": ["src_mountain_moon"]
   },
   {
     "id": "8rIBtQ2oTTybHN9lwOT-I",
@@ -1331,9 +1248,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Caodong",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "93pix4g_RyHondNvLDSs3",
@@ -1362,9 +1277,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Caodong",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "98IxDskSL6L50q85UMiTm",
@@ -1408,10 +1321,7 @@
     "death_precision": "exact",
     "death_confidence": "high",
     "school": "Qingyuan line",
-    "source_ids": [
-      "src_chan_ancestors_pdf",
-      "src_originals_curated"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf", "src_originals_curated"]
   },
   {
     "id": "9p7AxxsAqoPi-TVU4ZnJj",
@@ -1440,9 +1350,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Caodong",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "9TJpkFTJmSLKV_NWQYUuC",
@@ -1461,9 +1369,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Linji",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "aGsBwP6-XaMHAML0lESfh",
@@ -1482,9 +1388,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Indian Patriarchs",
-    "source_ids": [
-      "src_originals_curated"
-    ]
+    "source_ids": ["src_originals_curated"]
   },
   {
     "id": "aJhm8JOd_mYz8PykmCewJ",
@@ -1503,9 +1407,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Other",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "aqnL8MRDm1bxk2Lu0S5Ne",
@@ -1534,9 +1436,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Guiyang",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "ASq3jRh32oG76SQh-MPlQ",
@@ -1555,9 +1455,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Indian Patriarchs",
-    "source_ids": [
-      "src_originals_curated"
-    ]
+    "source_ids": ["src_originals_curated"]
   },
   {
     "id": "aYZO7GDyEuLqUdNkSPYdL",
@@ -1591,9 +1489,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Other",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "B1apjWpWug3oIhTasx8c5",
@@ -1622,9 +1518,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Yunmen",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "BF-2Vjqejpp-aUQU6JuKt",
@@ -1653,9 +1547,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Qingyuan line",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "bjQXp6ro2IqXUbtD15GO8",
@@ -1684,9 +1576,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Linji",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "BL41yC9VsAMM0TzssIEKP",
@@ -1715,9 +1605,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Linji",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "bNQLsTfESFgAIGvqTi82K",
@@ -1746,9 +1634,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Other",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "Bo97GCtM9BZ6e71TAMAdZ",
@@ -1777,9 +1663,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Caodong",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "BPzpMPUQxiKjZJ6mTBIPr",
@@ -1808,9 +1692,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Linji",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "buNUUo66XlXE6lnMXXY3d",
@@ -1829,9 +1711,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Qingyuan line",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "BvpqBTZAJBbk3n-mloCXt",
@@ -1865,9 +1745,7 @@
     "death_precision": "exact",
     "death_confidence": "high",
     "school": "Qingyuan line",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "BvSGSw4IC-m8D3oyzF4ow",
@@ -1896,9 +1774,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Caodong",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "bw7smzHvL-dIp7y7lBeGl",
@@ -1927,9 +1803,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Other",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "C0r4GzBv7BEN2ZXFGLwo8",
@@ -1958,9 +1832,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Linji",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "cfn2ET9nAT4CPDEmgmqKV",
@@ -1989,9 +1861,7 @@
     "death_precision": "exact",
     "death_confidence": "high",
     "school": "Qingyuan line",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "CKps4fDp0URGrbOjjfwBX",
@@ -2015,9 +1885,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Indian Patriarchs",
-    "source_ids": [
-      "src_originals_curated"
-    ]
+    "source_ids": ["src_originals_curated"]
   },
   {
     "id": "CTYad12WWJR8tMk_IHb0v",
@@ -2046,9 +1914,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Guiyang",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "cWJ5YHI20RtHiSRSlkjBm",
@@ -2077,9 +1943,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Linji",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "CZsUYLmBsyccueFDgAzpT",
@@ -2108,9 +1972,7 @@
     "death_precision": "exact",
     "death_confidence": "high",
     "school": "Nanyue line",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "d22Ow-7bdbZI8jnr-Sfdf",
@@ -2139,9 +2001,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Linji",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "d55Lyv4WH6h4WZAM32p79",
@@ -2170,9 +2030,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Linji",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "dACngaSplh7fQ97Fl0xHn",
@@ -2201,9 +2059,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Linji",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "dajjMBPqxOv2QAYg5_1da",
@@ -2232,9 +2088,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Caodong",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "DCKhB3tkUhuXVX5_AqERp",
@@ -2253,9 +2107,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Qingyuan line",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "DgxUMAIDeal0L9V5R1TWV",
@@ -2284,9 +2136,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Linji",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "dO8iOgsAFRvx7lVlydPMO",
@@ -2315,9 +2165,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Linji",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "DODjkFbOBTItIJ8egKEhK",
@@ -2336,9 +2184,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Caodong",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "dowc9tfw9nrI_KIBHaEaW",
@@ -2357,9 +2203,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Indian Patriarchs",
-    "source_ids": [
-      "src_originals_curated"
-    ]
+    "source_ids": ["src_originals_curated"]
   },
   {
     "id": "DPaqdrB7_tincwkl9PEQ1",
@@ -2388,9 +2232,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Linji",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "DQ9EQl4GbqNIHOtcWsh_4",
@@ -2434,9 +2276,7 @@
     "death_precision": "exact",
     "death_confidence": "high",
     "school": "Qingyuan line",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "Du2RzVK7ZHNqT3hHDDPwQ",
@@ -2465,9 +2305,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Indian Patriarchs",
-    "source_ids": [
-      "src_originals_curated"
-    ]
+    "source_ids": ["src_originals_curated"]
   },
   {
     "id": "DuB_NWJfY_tzIKn62UjqY",
@@ -2496,9 +2334,7 @@
     "death_precision": "exact",
     "death_confidence": "high",
     "school": "Nanyue line",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "DWofxdcfC79blHHMxK4GS",
@@ -2522,9 +2358,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Indian Patriarchs",
-    "source_ids": [
-      "src_originals_curated"
-    ]
+    "source_ids": ["src_originals_curated"]
   },
   {
     "id": "e2m1ar_J_q9_8UVAyDGOZ",
@@ -2553,9 +2387,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Nanyue line",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "EcSRcPisXVtakj6ayv0yp",
@@ -2579,9 +2411,7 @@
     "death_precision": "exact",
     "death_confidence": "high",
     "school": "Sanbo-Zen",
-    "source_ids": [
-      "src_mountain_moon"
-    ]
+    "source_ids": ["src_mountain_moon"]
   },
   {
     "id": "eeWkFL_yU8-TDINiD55bY",
@@ -2605,9 +2435,7 @@
     "death_precision": "exact",
     "death_confidence": "high",
     "school": "Rinzai",
-    "source_ids": [
-      "src_terebess"
-    ]
+    "source_ids": ["src_terebess"]
   },
   {
     "id": "EMoIlVImDttpEYdxP41FA",
@@ -2636,9 +2464,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Yangqi line",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "EpBV-rfWmuMFK1UDcQL6M",
@@ -2667,9 +2493,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Other",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "f_mN_OO-KGU_OStG0WhDX",
@@ -2698,9 +2522,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Linji",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "f-5SSXM6Hb3L0T0a5f5sF",
@@ -2729,9 +2551,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Indian Patriarchs",
-    "source_ids": [
-      "src_originals_curated"
-    ]
+    "source_ids": ["src_originals_curated"]
   },
   {
     "id": "fFFRVZW-TlYc3imPU4ZMr",
@@ -2760,9 +2580,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Linji",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "FhsJ0vhiUvvvghy9ys7Jr",
@@ -2791,9 +2609,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Caodong",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "fHWr9ohlZyE4g7K3Wo0ad",
@@ -2852,11 +2668,7 @@
     "death_precision": "circa",
     "death_confidence": "medium",
     "school": "Early Chan",
-    "source_ids": [
-      "src_chan_ancestors_pdf",
-      "src_tibetan_encyclopedia",
-      "src_wikipedia"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf", "src_tibetan_encyclopedia", "src_wikipedia"]
   },
   {
     "id": "g4Bb_FEVtARNGbevC_YHt",
@@ -2900,9 +2712,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Caodong",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "GAlcbtrsjobgkFfMIAVh_",
@@ -2931,9 +2741,7 @@
     "death_precision": "exact",
     "death_confidence": "high",
     "school": "Qingyuan line",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "gaN8ndaUaEcnJDAxSZQm1",
@@ -2952,9 +2760,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Qingyuan line",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "GsCXe4WfiV06Y4-TUjdKM",
@@ -2983,9 +2789,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Linji",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "gWtzBq9d3UMQ-wAKvfFq2",
@@ -3014,9 +2818,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Other",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "Gzki8G7Dmg5LUcyMtqlCF",
@@ -3045,9 +2847,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Guiyang",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "hEOd5fdtLUK-0Fu15szpE",
@@ -3076,9 +2876,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Caodong",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "hQn9IHHluodNnkOCB-tVP",
@@ -3122,10 +2920,7 @@
     "death_precision": "exact",
     "death_confidence": "high",
     "school": "Qingyuan line",
-    "source_ids": [
-      "src_chan_ancestors_pdf",
-      "src_originals_curated"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf", "src_originals_curated"]
   },
   {
     "id": "HWwmjVp87R6TwGIfyzzDB",
@@ -3154,9 +2949,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Yunmen",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "Hy6NRtgSBVR82vh95RIsE",
@@ -3185,9 +2978,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Caodong",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "iGOnJ8m8mWWgedkNyVb-4",
@@ -3216,9 +3007,7 @@
     "death_precision": "exact",
     "death_confidence": "high",
     "school": "Nanyue line",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "iHhoBfvtLlnWeY2l8owiE",
@@ -3247,9 +3036,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Qingyuan line",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "iJ4NrYpW85olchICykpuy",
@@ -3278,9 +3065,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Qingyuan line",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "IjImAFg07jLpkiAfvrt0X",
@@ -3309,9 +3094,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Linji",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "ilSQ1eOlSNCagZoG1W3Fv",
@@ -3340,9 +3123,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Caodong",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "iLU8eKYHP-kmxLSkg7hkW",
@@ -3371,9 +3152,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Linji",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "iO_UjXfKurStJgutHyTa-",
@@ -3402,9 +3181,7 @@
     "death_precision": "exact",
     "death_confidence": "high",
     "school": "Qingyuan line",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "j-cIc9VMB17RIb8K_GRPi",
@@ -3433,9 +3210,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Yangqi line",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "JBhPy4sLL_4OgCqT0G36B",
@@ -3464,9 +3239,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Qingyuan line",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "JFPJEb3YvLpKb-Lqi6QCA",
@@ -3495,9 +3268,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Linji",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "jSeppG7S9SGrEIWFq3DpX",
@@ -3526,9 +3297,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Yangqi line",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "Jt-vBi3SoRwXz9Ormya9w",
@@ -3572,10 +3341,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Linji",
-    "source_ids": [
-      "src_chan_ancestors_pdf",
-      "src_originals_curated"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf", "src_originals_curated"]
   },
   {
     "id": "jTmwdm8QPIAiiUAwV-zCE",
@@ -3604,9 +3370,7 @@
     "death_precision": "exact",
     "death_confidence": "high",
     "school": "Qingyuan line",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "JushPmAcOEGPdJkilG8PY",
@@ -3650,10 +3414,7 @@
     "death_precision": "exact",
     "death_confidence": "high",
     "school": "Nanyue line",
-    "source_ids": [
-      "src_chan_ancestors_pdf",
-      "src_originals_curated"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf", "src_originals_curated"]
   },
   {
     "id": "K1yydEddrbjaksg2OxUo0",
@@ -3697,10 +3458,7 @@
     "death_precision": "exact",
     "death_confidence": "high",
     "school": "Qingyuan line",
-    "source_ids": [
-      "src_chan_ancestors_pdf",
-      "src_originals_curated"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf", "src_originals_curated"]
   },
   {
     "id": "K7s1fzKNnNrs673SYBt4V",
@@ -3729,9 +3487,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Guiyang",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "Kjt0_gRyxH_Y0YEXxCJrW",
@@ -3775,10 +3531,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Linji",
-    "source_ids": [
-      "src_chan_ancestors_pdf",
-      "src_originals_curated"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf", "src_originals_curated"]
   },
   {
     "id": "Kkq_46-Hh94BLD8RXPqxR",
@@ -3807,9 +3560,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Linji",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "kP5TDAuk1-nJJoOtaXibF",
@@ -3838,9 +3589,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Guiyang",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "kVOPBQ_iEP7qwNlpMHYFm",
@@ -3869,9 +3618,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Qingyuan line",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "KWt8nDNBawWXfHKVaUhqa",
@@ -3895,9 +3642,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Indian Patriarchs",
-    "source_ids": [
-      "src_originals_curated"
-    ]
+    "source_ids": ["src_originals_curated"]
   },
   {
     "id": "la_nj_rqWAlfcj_p60Xoj",
@@ -3926,9 +3671,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Guiyang",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "LhYc5nPmBBsyVh8kscU3Q",
@@ -3957,9 +3700,7 @@
     "death_precision": "exact",
     "death_confidence": "high",
     "school": "Qingyuan line",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "LLwCimIa1-v4zit4LjIo-",
@@ -3988,9 +3729,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Caodong",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "lrQm0FV12JeahNnGpZqDX",
@@ -4009,9 +3748,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Other",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "lZ4j8pOCblnrPvSG8faoi",
@@ -4040,9 +3777,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Linji",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "M_dUQCJ9bjmX1ckgX4YtY",
@@ -4071,9 +3806,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Yangqi line",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "MaT_2LUWapSpvCzLlN9of",
@@ -4102,9 +3835,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Indian Patriarchs",
-    "source_ids": [
-      "src_originals_curated"
-    ]
+    "source_ids": ["src_originals_curated"]
   },
   {
     "id": "MRUgXjS05THSbaFxxRBWe",
@@ -4133,9 +3864,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Yunmen",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "mt7Wvlp1EHOHKUB1I3yk9",
@@ -4164,9 +3893,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Qingyuan line",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "my3n-C46G_URdJrNzWjCo",
@@ -4190,9 +3917,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Indian Patriarchs",
-    "source_ids": [
-      "src_originals_curated"
-    ]
+    "source_ids": ["src_originals_curated"]
   },
   {
     "id": "mYg9M1wh-alZRKv2NrUp_",
@@ -4236,9 +3961,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Soto",
-    "source_ids": [
-      "src_sotozen_founders"
-    ]
+    "source_ids": ["src_sotozen_founders"]
   },
   {
     "id": "MzsKL71HSAAVCzJred0Z3",
@@ -4267,9 +3990,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Yunmen",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "MZXM7aD7Xu_yqhL_cdQ0d",
@@ -4298,9 +4019,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Yunmen",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "n44pWPgKAYDunODi5gJDK",
@@ -4319,9 +4038,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Qingyuan line",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "NEAKNQoo_MlBKLBAQRXDI",
@@ -4350,9 +4067,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Qingyuan line",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "NFvAfHLeEZtDf1niYKBMN",
@@ -4406,11 +4121,7 @@
     "death_precision": "exact",
     "death_confidence": "high",
     "school": "Early Chan",
-    "source_ids": [
-      "src_chan_ancestors_pdf",
-      "src_originals_curated",
-      "src_wikipedia"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf", "src_originals_curated", "src_wikipedia"]
   },
   {
     "id": "Ng9PQYEYiH5eRh2AWeWvB",
@@ -4484,10 +4195,7 @@
     "death_precision": "exact",
     "death_confidence": "high",
     "school": "Soto",
-    "source_ids": [
-      "src_chan_ancestors_pdf",
-      "src_sotozen_founders"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf", "src_sotozen_founders"]
   },
   {
     "id": "no2kDb-qSf_4r9NjDeyq9",
@@ -4516,9 +4224,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Caodong",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "noj0soXZGkua0vO7MpOsD",
@@ -4547,9 +4253,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Caodong",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "NVstWHNNQBh7pgteVGtDn",
@@ -4578,9 +4282,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Linji",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "nVY1H3EIFPh_YpaA6eFQc",
@@ -4609,9 +4311,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Indian Patriarchs",
-    "source_ids": [
-      "src_originals_curated"
-    ]
+    "source_ids": ["src_originals_curated"]
   },
   {
     "id": "O-M3m_XGgwVNBiKpNlzJ2",
@@ -4640,9 +4340,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Yangqi line",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "oDgWuQLQG__HcsFgsuCnm",
@@ -4686,9 +4384,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Indian Patriarchs",
-    "source_ids": [
-      "src_originals_curated"
-    ]
+    "source_ids": ["src_originals_curated"]
   },
   {
     "id": "OggSJsfxAwRhE2UUVas6g",
@@ -4717,9 +4413,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Guiyang",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "Ol3Uuxkzi7rtRH2CVccHm",
@@ -4753,9 +4447,7 @@
     "death_precision": "exact",
     "death_confidence": "high",
     "school": "Qingyuan line",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "oPsupmKZ_xN51oyqQdF0z",
@@ -4784,9 +4476,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Nanyue line",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "oRKRRQKD2BF75PaR8NMk8",
@@ -4830,9 +4520,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Soto",
-    "source_ids": [
-      "src_sotozen_founders"
-    ]
+    "source_ids": ["src_sotozen_founders"]
   },
   {
     "id": "p4aJBzmNaNhr-KEdOwopR",
@@ -4861,9 +4549,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Yunmen",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "pbWBL8B0a1dmJg4hSECfw",
@@ -4897,9 +4583,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Other",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "pjmSshTkUyqFmd9mDotbM",
@@ -4923,9 +4607,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Indian Patriarchs",
-    "source_ids": [
-      "src_originals_curated"
-    ]
+    "source_ids": ["src_originals_curated"]
   },
   {
     "id": "pK1ozC28fBtfV_A-zCIvr",
@@ -4954,9 +4636,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Caodong",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "PkGHSIWJnE9AfaP0NJokD",
@@ -4985,10 +4665,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Qingyuan line",
-    "source_ids": [
-      "src_chan_ancestors_pdf",
-      "src_originals_curated"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf", "src_originals_curated"]
   },
   {
     "id": "pSb9_Qob0HVVHAJ9ofchR",
@@ -5007,9 +4684,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Indian Patriarchs",
-    "source_ids": [
-      "src_originals_curated"
-    ]
+    "source_ids": ["src_originals_curated"]
   },
   {
     "id": "pXqMnbtBWYQaVDpdzhvcX",
@@ -5028,9 +4703,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Linji",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "pxx2qaSxC_Crv8p9o8l5p",
@@ -5059,9 +4732,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Qingyuan line",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "Pyr0At6UzJVCZ5gXPqhJ6",
@@ -5139,9 +4810,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Yangqi line",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "qB1m3MboCgq1YkbCWEWY6",
@@ -5170,9 +4839,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Yunmen",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "QdAytZKtUArQPxta3X8t7",
@@ -5201,9 +4868,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Yunmen",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "qfbrxo8zivETGjePTga_s",
@@ -5232,9 +4897,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Caodong",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "QL__3DUEKp2S2_iQgrq48",
@@ -5258,9 +4921,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Indian Patriarchs",
-    "source_ids": [
-      "src_originals_curated"
-    ]
+    "source_ids": ["src_originals_curated"]
   },
   {
     "id": "QOda3cU5XErQnAadR7KXd",
@@ -5289,10 +4950,7 @@
     "death_precision": "exact",
     "death_confidence": "high",
     "school": "Qingyuan line",
-    "source_ids": [
-      "src_chan_ancestors_pdf",
-      "src_originals_curated"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf", "src_originals_curated"]
   },
   {
     "id": "RCt4jHgjnctkJQ-nUgGqm",
@@ -5321,9 +4979,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Indian Patriarchs",
-    "source_ids": [
-      "src_originals_curated"
-    ]
+    "source_ids": ["src_originals_curated"]
   },
   {
     "id": "Rwko-GTEayENS1Q0lSgRs",
@@ -5352,9 +5008,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Qingyuan line",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "RZ12rddz4Ik3VPQ0zXLHn",
@@ -5383,9 +5037,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Nanyue line",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "s_nR66_yj2tOIGe3GU9Yi",
@@ -5404,9 +5056,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Sanbo-Zen",
-    "source_ids": [
-      "src_mountain_moon"
-    ]
+    "source_ids": ["src_mountain_moon"]
   },
   {
     "id": "SBxT4ao1VkUaz3s0-VHxk",
@@ -5435,9 +5085,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Yunmen",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "SJqI6-0JfxM5CcZmzmdA1",
@@ -5481,10 +5129,7 @@
     "death_precision": "exact",
     "death_confidence": "high",
     "school": "Qingyuan line",
-    "source_ids": [
-      "src_chan_ancestors_pdf",
-      "src_originals_curated"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf", "src_originals_curated"]
   },
   {
     "id": "soBxt-uezqo1vEUlIJ74M",
@@ -5582,9 +5227,7 @@
     "death_precision": "exact",
     "death_confidence": "high",
     "school": "Qingyuan line",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "SSHyzsJj2K7xWw2Q5ZVHG",
@@ -5613,9 +5256,7 @@
     "death_precision": "exact",
     "death_confidence": "high",
     "school": "Qingyuan line",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "STErfEe56EBTfML9qvACn",
@@ -5644,9 +5285,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Other",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "sWs0_DcgLTAzOP5pMMOTZ",
@@ -5675,9 +5314,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Indian Patriarchs",
-    "source_ids": [
-      "src_originals_curated"
-    ]
+    "source_ids": ["src_originals_curated"]
   },
   {
     "id": "T_KAkYfpv5k3rOTDjvhrV",
@@ -5701,9 +5338,7 @@
     "death_precision": "exact",
     "death_confidence": "high",
     "school": "Sanbo-Zen",
-    "source_ids": [
-      "src_mountain_moon"
-    ]
+    "source_ids": ["src_mountain_moon"]
   },
   {
     "id": "T5yC-lZjdEoiTetm3Rsfx",
@@ -5732,9 +5367,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Linji",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "taa1SflJsFeSc5_-ahrX8",
@@ -5763,9 +5396,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Linji",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "TBKSEsLQZiOU_e4wO8-CU",
@@ -5794,9 +5425,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Yangqi line",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "tEX5l7-qjZO_KX3utGFFf",
@@ -5830,10 +5459,7 @@
     "death_precision": "exact",
     "death_confidence": "high",
     "school": "Linji",
-    "source_ids": [
-      "src_chan_ancestors_pdf",
-      "src_terebess"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf", "src_terebess"]
   },
   {
     "id": "Tm1rbdJAF98SEEdKOXmbZ",
@@ -5862,9 +5488,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Caodong",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "TmI49DCAHKzONqKV8a1Ys",
@@ -5893,9 +5517,7 @@
     "death_precision": "exact",
     "death_confidence": "high",
     "school": "Qingyuan line",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "TQzr9ourum7QO05WzkwVh",
@@ -5914,9 +5536,7 @@
     "death_precision": "exact",
     "death_confidence": "high",
     "school": "Sanbo-Zen",
-    "source_ids": [
-      "src_mountain_moon"
-    ]
+    "source_ids": ["src_mountain_moon"]
   },
   {
     "id": "TrVx3xDspTmjlxwCSUtfS",
@@ -5965,11 +5585,7 @@
     "death_precision": "exact",
     "death_confidence": "high",
     "school": "Linji",
-    "source_ids": [
-      "src_chan_ancestors_pdf",
-      "src_originals_curated",
-      "src_terebess"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf", "src_originals_curated", "src_terebess"]
   },
   {
     "id": "tucgspCiGHOSD5vJVeIKY",
@@ -5998,9 +5614,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Yangqi line",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "TvV4QKu4ZhHtn8WkdDL7W",
@@ -6029,9 +5643,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Indian Patriarchs",
-    "source_ids": [
-      "src_originals_curated"
-    ]
+    "source_ids": ["src_originals_curated"]
   },
   {
     "id": "tWIL3-PP9anYN53fH_WSh",
@@ -6060,9 +5672,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Qingyuan line",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "tXQduWU-py_0QzGECA7Sd",
@@ -6145,9 +5755,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Linji",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "UPNzZbMpN3aYiR1YAriYG",
@@ -6176,9 +5784,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Caodong",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "upu2QpQ9LlFN3T-gwWP01",
@@ -6207,9 +5813,7 @@
     "death_precision": "exact",
     "death_confidence": "high",
     "school": "Qingyuan line",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "uQ3HJxr98QdGcDriXHgVa",
@@ -6238,9 +5842,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Caodong",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "UrW-WoQSXfuZ_BI68riTM",
@@ -6259,9 +5861,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Indian Patriarchs",
-    "source_ids": [
-      "src_originals_curated"
-    ]
+    "source_ids": ["src_originals_curated"]
   },
   {
     "id": "uu9qH9-9wD0oJeH7zP13h",
@@ -6290,10 +5890,7 @@
     "death_precision": "exact",
     "death_confidence": "high",
     "school": "Qingyuan line",
-    "source_ids": [
-      "src_chan_ancestors_pdf",
-      "src_originals_curated"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf", "src_originals_curated"]
   },
   {
     "id": "uYAX94w0QwewUKFQwpJ7a",
@@ -6317,9 +5914,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Indian Patriarchs",
-    "source_ids": [
-      "src_originals_curated"
-    ]
+    "source_ids": ["src_originals_curated"]
   },
   {
     "id": "UySLkzr0wMbS4NOdRWgL2",
@@ -6353,11 +5948,7 @@
     "death_precision": "exact",
     "death_confidence": "high",
     "school": "Caodong",
-    "source_ids": [
-      "src_chan_ancestors_pdf",
-      "src_terebess",
-      "src_tibetan_encyclopedia"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf", "src_terebess", "src_tibetan_encyclopedia"]
   },
   {
     "id": "uZ4D53XAuRrqcqmhCBmqG",
@@ -6386,9 +5977,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Linji",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "V_8lJN6ppavunARmM0NLf",
@@ -6422,9 +6011,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Qingyuan line",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "v5EyeUSr4kkYXdxVFIuTu",
@@ -6443,9 +6030,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Other",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "v6FVLPTyfT77cJEetS1I6",
@@ -6474,9 +6059,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Caodong",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "v9Enx95HWL-dRCYWpf3vC",
@@ -6505,9 +6088,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Qingyuan line",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "VC9R6db1spX9eNyW77zXV",
@@ -6536,9 +6117,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Qingyuan line",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "vjHWgxgLJcExleMk_kKNo",
@@ -6567,9 +6146,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Other",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "VkPTR1oW6Vohii5HAIgIR",
@@ -6598,9 +6175,7 @@
     "death_precision": "exact",
     "death_confidence": "high",
     "school": "Qingyuan line",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "Vy7KG4Qzu-Xo8fQ7vz9Qs",
@@ -6629,9 +6204,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Caodong",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "w_BH28jKXdxchcv4d0gGy",
@@ -6725,9 +6298,7 @@
     "death_precision": "exact",
     "death_confidence": "high",
     "school": "Rinzai",
-    "source_ids": [
-      "src_originals_curated"
-    ]
+    "source_ids": ["src_originals_curated"]
   },
   {
     "id": "wJOC19yTM2x4sP2cdxBch",
@@ -6771,9 +6342,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Caodong",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "WRqVa4TCwjlNOkSjUCj8G",
@@ -6807,9 +6376,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Yunmen",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "wSFA1nVSaVApOsSbwXxZG",
@@ -6838,9 +6405,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Caodong",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "WTI-TCqjlDuEtaweyATXJ",
@@ -6869,9 +6434,7 @@
     "death_precision": "exact",
     "death_confidence": "high",
     "school": "Qingyuan line",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "wwCpXq760NDqCnk7mu9p_",
@@ -6895,9 +6458,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Indian Patriarchs",
-    "source_ids": [
-      "src_originals_curated"
-    ]
+    "source_ids": ["src_originals_curated"]
   },
   {
     "id": "X2ccK87D6xrnkZyp3yAtO",
@@ -6926,9 +6487,7 @@
     "death_precision": "exact",
     "death_confidence": "high",
     "school": "Qingyuan line",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "x6XSztbbcwA7zFayAkMSl",
@@ -6957,9 +6516,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Other",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "xc5IW8qvtH_72qBONcm8D",
@@ -6988,9 +6545,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Linji",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "XcZWOXq1P5YUGV8UKZXDN",
@@ -7019,9 +6574,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Caodong",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "XGgvvjlgSlpPY4huIWXjM",
@@ -7050,9 +6603,7 @@
     "death_precision": "exact",
     "death_confidence": "high",
     "school": "Qingyuan line",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "XjAKbIvgYgUOotD4gqWCV",
@@ -7086,9 +6637,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Caodong",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "XRkgYKrS2PmeZWWOPzRLj",
@@ -7117,9 +6666,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Indian Patriarchs",
-    "source_ids": [
-      "src_originals_curated"
-    ]
+    "source_ids": ["src_originals_curated"]
   },
   {
     "id": "XrxqdmN0CWreWdHqvkO67",
@@ -7143,9 +6690,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Indian Patriarchs",
-    "source_ids": [
-      "src_originals_curated"
-    ]
+    "source_ids": ["src_originals_curated"]
   },
   {
     "id": "xvNlcBK2lf_-swgDoLjZg",
@@ -7174,9 +6719,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Linji",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "XzLx8w_R3S46E186G9qep",
@@ -7205,9 +6748,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Linji",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "Y0knckXJi9kjRghDAvzgR",
@@ -7236,9 +6777,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Qingyuan line",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "YOKNETNusc7MvXG9H87_4",
@@ -7257,9 +6796,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Indian Patriarchs",
-    "source_ids": [
-      "src_originals_curated"
-    ]
+    "source_ids": ["src_originals_curated"]
   },
   {
     "id": "YPOsnZ8XDX33nnOePZ-5c",
@@ -7288,9 +6825,7 @@
     "death_precision": "exact",
     "death_confidence": "high",
     "school": "Qingyuan line",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "Ypzz3R74TdOUZEc41CRhm",
@@ -7319,10 +6854,7 @@
     "death_precision": "exact",
     "death_confidence": "high",
     "school": "Qingyuan line",
-    "source_ids": [
-      "src_chan_ancestors_pdf",
-      "src_originals_curated"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf", "src_originals_curated"]
   },
   {
     "id": "yRkGCQqk0wCVaL-wdDNzh",
@@ -7341,9 +6873,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Linji",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "YtkGkMWTv8Kv64k_KtCi7",
@@ -7372,9 +6902,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Yunmen",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "yYvOl6ecI-wc9nmWKgP3f",
@@ -7403,9 +6931,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Guiyang",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "ZfmfYNCJD9rKOo9nvYUen",
@@ -7434,9 +6960,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Linji",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "ZMXzHZ8MwtS8wtG_jQCRc",
@@ -7465,9 +6989,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Qingyuan line",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "znqwIUXYM3hGD_HsbepXD",
@@ -7496,9 +7018,7 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Yunmen",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   },
   {
     "id": "zuqTzAdXzd8ExE41-U2ol",
@@ -7527,8 +7047,6 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Yangqi line",
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
+    "source_ids": ["src_chan_ancestors_pdf"]
   }
 ]

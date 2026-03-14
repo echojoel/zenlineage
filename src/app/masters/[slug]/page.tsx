@@ -23,11 +23,7 @@ import {
 } from "@/lib/publishable-content";
 import { formatLifeRange } from "@/lib/date-format";
 
-export default async function MasterDetailPage({
-  params,
-}: {
-  params: Promise<{ slug: string }>;
-}) {
+export default async function MasterDetailPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
 
   const rows = await db
@@ -52,12 +48,7 @@ export default async function MasterDetailPage({
       content: masterBiographies.content,
     })
     .from(masterBiographies)
-    .where(
-      and(
-        eq(masterBiographies.masterId, master.id),
-        eq(masterBiographies.locale, "en")
-      )
-    )
+    .where(and(eq(masterBiographies.masterId, master.id), eq(masterBiographies.locale, "en")))
     .limit(1);
 
   const biographyRow = biographyRows[0];
@@ -72,7 +63,7 @@ export default async function MasterDetailPage({
 
   const orderedNames = names.sort((a, b) => {
     const rank = (nameType: string) =>
-      ({ dharma: 0, honorific: 1, alias: 2, birth: 3 }[nameType] ?? 9);
+      ({ dharma: 0, honorific: 1, alias: 2, birth: 3 })[nameType] ?? 9;
     return rank(a.nameType) - rank(b.nameType) || a.value.localeCompare(b.value);
   });
 
@@ -88,7 +79,7 @@ export default async function MasterDetailPage({
           .from(schools)
           .leftJoin(
             schoolNames,
-            and(eq(schoolNames.schoolId, schools.id), eq(schoolNames.locale, "en")),
+            and(eq(schoolNames.schoolId, schools.id), eq(schoolNames.locale, "en"))
           )
           .where(eq(schools.id, master.schoolId))
       )[0]
@@ -128,7 +119,7 @@ export default async function MasterDetailPage({
     new Set([
       ...teachers.map((teacher) => teacher.counterpartId),
       ...students.map((student) => student.counterpartId),
-    ]),
+    ])
   );
 
   const relatedNames =
@@ -140,12 +131,7 @@ export default async function MasterDetailPage({
             nameType: masterNames.nameType,
           })
           .from(masterNames)
-          .where(
-            and(
-              inArray(masterNames.masterId, relatedMasterIds),
-              eq(masterNames.locale, "en"),
-            ),
-          )
+          .where(and(inArray(masterNames.masterId, relatedMasterIds), eq(masterNames.locale, "en")))
       : [];
 
   const nameMap = new Map<string, string>();
@@ -169,9 +155,7 @@ export default async function MasterDetailPage({
       pageOrSection: citations.pageOrSection,
     })
     .from(citations)
-    .where(
-      and(eq(citations.entityType, "master"), eq(citations.entityId, master.id)),
-    );
+    .where(and(eq(citations.entityType, "master"), eq(citations.entityId, master.id)));
   const teachingRows = await db
     .select({
       id: teachings.id,
@@ -182,7 +166,7 @@ export default async function MasterDetailPage({
     .from(teachings)
     .leftJoin(
       teachingContent,
-      and(eq(teachingContent.teachingId, teachings.id), eq(teachingContent.locale, "en")),
+      and(eq(teachingContent.teachingId, teachings.id), eq(teachingContent.locale, "en"))
     )
     .where(eq(teachings.authorId, master.id));
   const mediaRows = await db
@@ -197,21 +181,17 @@ export default async function MasterDetailPage({
     })
     .from(mediaAssets)
     .where(and(eq(mediaAssets.entityType, "master"), eq(mediaAssets.entityId, master.id)));
-  const biographyCitationRows =
-    biographyRow
-      ? await db
-          .select({
-            entityType: citations.entityType,
-            entityId: citations.entityId,
-          })
-          .from(citations)
-          .where(
-            and(
-              eq(citations.entityType, "master_biography"),
-              eq(citations.entityId, biographyRow.id),
-            ),
-          )
-      : [];
+  const biographyCitationRows = biographyRow
+    ? await db
+        .select({
+          entityType: citations.entityType,
+          entityId: citations.entityId,
+        })
+        .from(citations)
+        .where(
+          and(eq(citations.entityType, "master_biography"), eq(citations.entityId, biographyRow.id))
+        )
+    : [];
   const teachingCitationRows =
     teachingRows.length > 0
       ? await db
@@ -225,9 +205,9 @@ export default async function MasterDetailPage({
               eq(citations.entityType, "teaching"),
               inArray(
                 citations.entityId,
-                teachingRows.map((teaching) => teaching.id),
-              ),
-            ),
+                teachingRows.map((teaching) => teaching.id)
+              )
+            )
           )
       : [];
   const mediaCitationRows =
@@ -243,9 +223,9 @@ export default async function MasterDetailPage({
               eq(citations.entityType, "media_asset"),
               inArray(
                 citations.entityId,
-                mediaRows.map((asset) => asset.id),
-              ),
-            ),
+                mediaRows.map((asset) => asset.id)
+              )
+            )
           )
       : [];
 
@@ -273,7 +253,7 @@ export default async function MasterDetailPage({
       ? biographyRow.content
       : null;
   const publishedTeachings = teachingRows.filter((teaching) =>
-    isPublishedTeaching(teaching, itemCitationKeys),
+    isPublishedTeaching(teaching, itemCitationKeys)
   );
   const withheldTeachingCount = teachingRows.length - publishedTeachings.length;
   const publishedImage = getPublishedImageAsset(mediaRows, itemCitationKeys);
@@ -301,7 +281,9 @@ export default async function MasterDetailPage({
             />
           )}
           {!publishedImage && (
-            <p className="detail-muted">No verified portrait or published image is available yet.</p>
+            <p className="detail-muted">
+              No verified portrait or published image is available yet.
+            </p>
           )}
           <p className="detail-eyebrow">
             {schoolRow ? (
@@ -322,7 +304,10 @@ export default async function MasterDetailPage({
               Show in lineage
             </Link>
             {schoolRow && (
-              <Link className="detail-button detail-button-muted" href={`/schools/${schoolRow.slug}`}>
+              <Link
+                className="detail-button detail-button-muted"
+                href={`/schools/${schoolRow.slug}`}
+              >
                 View school
               </Link>
             )}
@@ -345,7 +330,8 @@ export default async function MasterDetailPage({
           )}
           {biographyRow && !publishedBiography && (
             <p className="detail-muted">
-              A biography draft exists for this master, but it is withheld until item-level citations are attached.
+              A biography draft exists for this master, but it is withheld until item-level
+              citations are attached.
             </p>
           )}
         </section>
@@ -354,7 +340,10 @@ export default async function MasterDetailPage({
           <h3 className="detail-section-title">Names</h3>
           <div className="detail-name-list">
             {orderedNames.map((name) => (
-              <div key={`${name.locale}:${name.nameType}:${name.value}`} className="detail-name-row">
+              <div
+                key={`${name.locale}:${name.nameType}:${name.value}`}
+                className="detail-name-row"
+              >
                 <span className="detail-name-meta">
                   {name.nameType} · {name.locale}
                 </span>
@@ -427,7 +416,9 @@ export default async function MasterDetailPage({
                   {teaching.content ? (
                     <p className="detail-source-excerpt">{teaching.content}</p>
                   ) : (
-                    <p className="detail-muted">Teaching metadata exists, but no English text has been imported yet.</p>
+                    <p className="detail-muted">
+                      Teaching metadata exists, but no English text has been imported yet.
+                    </p>
                   )}
                 </li>
               ))}
@@ -447,8 +438,8 @@ export default async function MasterDetailPage({
                   <li key={citation.id}>
                     <div className="detail-source-heading">
                       <span>{citation.fieldName ?? "record"}</span>
-                      {source?.title && (
-                        source.url ? (
+                      {source?.title &&
+                        (source.url ? (
                           <a
                             href={source.url}
                             target="_blank"
@@ -459,10 +450,11 @@ export default async function MasterDetailPage({
                           </a>
                         ) : (
                           <span>{source.title}</span>
-                        )
-                      )}
+                        ))}
                     </div>
-                    {citation.excerpt && <p className="detail-source-excerpt">{citation.excerpt}</p>}
+                    {citation.excerpt && (
+                      <p className="detail-source-excerpt">{citation.excerpt}</p>
+                    )}
                     {source?.reliability && (
                       <p className="detail-list-meta">Reliability: {source.reliability}</p>
                     )}

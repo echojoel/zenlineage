@@ -21,25 +21,23 @@ describe("lineage visibility", () => {
 
   it("returns all nodes when no school filter is active", () => {
     expect(getSchoolContextNodeIds(nodes, edges, "all")).toEqual(
-      new Set(nodes.map((node) => node.id)),
+      new Set(nodes.map((node) => node.id))
     );
   });
 
   it("keeps direct bridge figures visible across school boundaries", () => {
     expect(getSchoolContextNodeIds(nodes, edges, "indian")).toEqual(
-      new Set(["buddha", "mahakashyapa", "prajnatara", "bodhidharma"]),
+      new Set(["buddha", "mahakashyapa", "prajnatara", "bodhidharma"])
     );
   });
 
   it("includes upstream context for the next school in the lineage", () => {
     expect(getSchoolContextNodeIds(nodes, edges, "early-chan")).toEqual(
-      new Set(["prajnatara", "bodhidharma", "huike"]),
+      new Set(["prajnatara", "bodhidharma", "huike"])
     );
   });
 
   it("ignores non-primary edges when building school context", () => {
-    expect(getSchoolContextNodeIds(nodes, edges, "linji")).toEqual(
-      new Set(["linji"]),
-    );
+    expect(getSchoolContextNodeIds(nodes, edges, "linji")).toEqual(new Set(["linji"]));
   });
 });

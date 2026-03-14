@@ -3,9 +3,7 @@ export interface MasterSlugRecord {
   slug: string;
 }
 
-export function buildResolvedMasterSlugMap(
-  masters: MasterSlugRecord[],
-): Map<string, string> {
+export function buildResolvedMasterSlugMap(masters: MasterSlugRecord[]): Map<string, string> {
   const usedSlugs = new Set<string>();
   const resolvedSlugs = new Map<string, string>();
 

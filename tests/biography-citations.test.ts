@@ -51,7 +51,9 @@ describe("biography item citations", () => {
     expect(citations).toHaveLength(3);
     expect(citations.some((citation) => citation.excerpt === "koan_refs: 1, 2, 3")).toBe(false);
     expect(citations.some((citation) => citation.excerpt === "dates: 1200-1253")).toBe(true);
-    expect(citations.some((citation) => citation.excerpt === "teachers: Tiantong Rujing")).toBe(true);
+    expect(citations.some((citation) => citation.excerpt === "teachers: Tiantong Rujing")).toBe(
+      true
+    );
   });
 
   it("deduplicates repeated support citations", () => {

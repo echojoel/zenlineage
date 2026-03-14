@@ -28,8 +28,7 @@ const SCHOOL_DEFINITIONS: SchoolDefinition[] = [
     name: "Chan",
     tradition: "Chan",
     aliases: ["chan", "zen"],
-    summary:
-      "The broader Chinese Chan tradition from which later Zen schools developed.",
+    summary: "The broader Chinese Chan tradition from which later Zen schools developed.",
   },
   {
     slug: "early-chan",
@@ -37,8 +36,7 @@ const SCHOOL_DEFINITIONS: SchoolDefinition[] = [
     tradition: "Chan",
     parentSlug: "chan",
     aliases: ["early chan"],
-    summary:
-      "The formative generations of Chan before the major house lineages became distinct.",
+    summary: "The formative generations of Chan before the major house lineages became distinct.",
   },
   {
     slug: "qingyuan-line",
@@ -64,8 +62,7 @@ const SCHOOL_DEFINITIONS: SchoolDefinition[] = [
     tradition: "Chan",
     parentSlug: "qingyuan-line",
     aliases: ["caodong", "tsaodong", "曹洞"],
-    summary:
-      "The Chinese Caodong house founded through Dongshan Liangjie and Caoshan Benji.",
+    summary: "The Chinese Caodong house founded through Dongshan Liangjie and Caoshan Benji.",
   },
   {
     slug: "soto",
@@ -140,7 +137,7 @@ const SCHOOL_DEFINITIONS: SchoolDefinition[] = [
 ];
 
 const SCHOOL_BY_SLUG = new Map(
-  SCHOOL_DEFINITIONS.map((definition) => [definition.slug, definition]),
+  SCHOOL_DEFINITIONS.map((definition) => [definition.slug, definition])
 );
 
 const SCHOOL_ALIAS_INDEX = new Map<string, SchoolDefinition>();
@@ -203,13 +200,7 @@ const MASTER_SCHOOL_OVERRIDES: Array<{
   },
   {
     schoolSlug: "other",
-    names: [
-      "pang yun",
-      "layman pang",
-      "mahasattva fu",
-      "taigu puyu",
-      "taigo pou",
-    ],
+    names: ["pang yun", "layman pang", "mahasattva fu", "taigu puyu", "taigo pou"],
   },
 ];
 

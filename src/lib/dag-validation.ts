@@ -47,9 +47,7 @@ export interface ValidationResult {
 /**
  * Build an adjacency list from transmission edges (teacher -> student).
  */
-function buildAdjacencyList(
-  edges: TransmissionEdge[],
-): Map<string, string[]> {
+function buildAdjacencyList(edges: TransmissionEdge[]): Map<string, string[]> {
   const adj = new Map<string, string[]>();
   for (const edge of edges) {
     if (!adj.has(edge.teacherId)) adj.set(edge.teacherId, []);
@@ -138,9 +136,7 @@ export function detectCycles(edges: TransmissionEdge[]): ValidationIssue[] {
 /**
  * Detect self-loops (student_id === teacher_id).
  */
-export function detectSelfLoops(
-  edges: TransmissionEdge[],
-): ValidationIssue[] {
+export function detectSelfLoops(edges: TransmissionEdge[]): ValidationIssue[] {
   return edges
     .filter((e) => e.studentId === e.teacherId)
     .map((e) => ({
@@ -162,7 +158,7 @@ export function detectSelfLoops(
  */
 export function checkTemporalConsistency(
   edges: TransmissionEdge[],
-  masters: MasterDates[],
+  masters: MasterDates[]
 ): ValidationIssue[] {
   const mastersById = new Map<string, MasterDates>();
   for (const m of masters) mastersById.set(m.id, m);
@@ -179,11 +175,9 @@ export function checkTemporalConsistency(
 
     // Both must have birth years with usable precision
     const teacherBirthUsable =
-      teacher.birthYear !== null &&
-      USABLE_PRECISIONS.has(teacher.birthPrecision ?? "");
+      teacher.birthYear !== null && USABLE_PRECISIONS.has(teacher.birthPrecision ?? "");
     const studentBirthUsable =
-      student.birthYear !== null &&
-      USABLE_PRECISIONS.has(student.birthPrecision ?? "");
+      student.birthYear !== null && USABLE_PRECISIONS.has(student.birthPrecision ?? "");
 
     if (!teacherBirthUsable || !studentBirthUsable) continue;
 
@@ -206,15 +200,12 @@ export function checkTemporalConsistency(
 
     // (b) Lifespan overlap check — requires teacher death year
     const teacherDeathUsable =
-      teacher.deathYear !== null &&
-      USABLE_PRECISIONS.has(teacher.deathPrecision ?? "");
+      teacher.deathYear !== null && USABLE_PRECISIONS.has(teacher.deathPrecision ?? "");
 
     if (teacherDeathUsable) {
       const overlap = teacher.deathYear! - student.birthYear!;
       if (overlap < 10) {
-        const highConf =
-          bothBirthHighConf &&
-          HIGH_CONFIDENCE.has(teacher.deathConfidence ?? "");
+        const highConf = bothBirthHighConf && HIGH_CONFIDENCE.has(teacher.deathConfidence ?? "");
         issues.push({
           type: "temporal",
           message: `Insufficient lifespan overlap (${overlap} years) between teacher ${edge.teacherId} (d. ${teacher.deathYear}) and student ${edge.studentId} (b. ${student.birthYear}); need >= 10`,
@@ -234,9 +225,7 @@ export function checkTemporalConsistency(
  * Check that no master has more than one `isPrimary = true` incoming
  * transmission.
  */
-export function checkDuplicatePrimary(
-  edges: TransmissionEdge[],
-): ValidationIssue[] {
+export function checkDuplicatePrimary(edges: TransmissionEdge[]): ValidationIssue[] {
   // Group primary edges by student
   const primaryByStudent = new Map<string, TransmissionEdge[]>();
   for (const edge of edges) {
@@ -265,10 +254,7 @@ export function checkDuplicatePrimary(
  * Detect orphan masters — masters that have no incoming or outgoing edges.
  * These are warnings, not errors.
  */
-export function detectOrphans(
-  masterIds: string[],
-  edges: TransmissionEdge[],
-): ValidationIssue[] {
+export function detectOrphans(masterIds: string[], edges: TransmissionEdge[]): ValidationIssue[] {
   const connected = new Set<string>();
   for (const edge of edges) {
     connected.add(edge.teacherId);
@@ -292,7 +278,7 @@ export function detectOrphans(
 export function validateDAG(
   edges: TransmissionEdge[],
   masters: MasterDates[],
-  masterIds: string[],
+  masterIds: string[]
 ): ValidationResult {
   const errors: ValidationIssue[] = [];
   const warnings: ValidationIssue[] = [];

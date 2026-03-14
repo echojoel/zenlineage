@@ -3,10 +3,7 @@
 import dynamic from "next/dynamic";
 import Link from "next/link";
 
-const LineageGraph = dynamic(
-  () => import("@/components/LineageGraph"),
-  { ssr: false },
-);
+const LineageGraph = dynamic(() => import("@/components/LineageGraph"), { ssr: false });
 
 export default function LineagePage() {
   return (

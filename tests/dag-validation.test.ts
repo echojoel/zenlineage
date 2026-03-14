@@ -22,7 +22,7 @@ function edge(
   opts: {
     type?: "primary" | "secondary" | "disputed";
     isPrimary?: boolean;
-  } = {},
+  } = {}
 ): TransmissionEdge {
   return {
     id,
@@ -43,7 +43,7 @@ function master(
     deathYear?: number | null;
     deathPrecision?: string | null;
     deathConfidence?: string | null;
-  } = {},
+  } = {}
 ): MasterDates {
   return {
     id,
@@ -196,9 +196,7 @@ describe("DAG Validation", () => {
       const result = validateDAG(edges, masters_, ["T", "S"]);
       expect(result.valid).toBe(false);
       expect(result.errors.some((e) => e.type === "temporal")).toBe(true);
-      expect(result.warnings.filter((w) => w.type === "temporal")).toHaveLength(
-        0,
-      );
+      expect(result.warnings.filter((w) => w.type === "temporal")).toHaveLength(0);
     });
   });
 
@@ -234,9 +232,7 @@ describe("DAG Validation", () => {
       const result = validateDAG(edges, masters_, ["T", "S"]);
       expect(result.valid).toBe(true); // warnings don't block
       expect(result.warnings.some((w) => w.type === "temporal")).toBe(true);
-      expect(result.errors.filter((e) => e.type === "temporal")).toHaveLength(
-        0,
-      );
+      expect(result.errors.filter((e) => e.type === "temporal")).toHaveLength(0);
     });
   });
 

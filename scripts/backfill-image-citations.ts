@@ -12,10 +12,7 @@ import { eq, and } from "drizzle-orm";
 
 async function run() {
   // Find all master image assets
-  const assets = await db
-    .select()
-    .from(mediaAssets)
-    .where(eq(mediaAssets.entityType, "master"));
+  const assets = await db.select().from(mediaAssets).where(eq(mediaAssets.entityType, "master"));
 
   console.log(`Found ${assets.length} master media assets total.`);
 
@@ -27,12 +24,7 @@ async function run() {
     const existing = await db
       .select()
       .from(citations)
-      .where(
-        and(
-          eq(citations.entityId, asset.id),
-          eq(citations.entityType, "media_asset")
-        )
-      );
+      .where(and(eq(citations.entityId, asset.id), eq(citations.entityType, "media_asset")));
 
     if (existing.length > 0) {
       skipped++;

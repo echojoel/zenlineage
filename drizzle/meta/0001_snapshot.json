@@ -28,12 +28,8 @@
           "name": "assertion_citations_assertion_id_assertions_id_fk",
           "tableFrom": "assertion_citations",
           "tableTo": "assertions",
-          "columnsFrom": [
-            "assertion_id"
-          ],
-          "columnsTo": [
-            "id"
-          ],
+          "columnsFrom": ["assertion_id"],
+          "columnsTo": ["id"],
           "onDelete": "no action",
           "onUpdate": "no action"
         },
@@ -41,22 +37,15 @@
           "name": "assertion_citations_citation_id_citations_id_fk",
           "tableFrom": "assertion_citations",
           "tableTo": "citations",
-          "columnsFrom": [
-            "citation_id"
-          ],
-          "columnsTo": [
-            "id"
-          ],
+          "columnsFrom": ["citation_id"],
+          "columnsTo": ["id"],
           "onDelete": "no action",
           "onUpdate": "no action"
         }
       },
       "compositePrimaryKeys": {
         "assertion_citations_assertion_id_citation_id_pk": {
-          "columns": [
-            "assertion_id",
-            "citation_id"
-          ],
+          "columns": ["assertion_id", "citation_id"],
           "name": "assertion_citations_assertion_id_citation_id_pk"
         }
       },
@@ -247,12 +236,8 @@
           "name": "citations_source_id_sources_id_fk",
           "tableFrom": "citations",
           "tableTo": "sources",
-          "columnsFrom": [
-            "source_id"
-          ],
-          "columnsTo": [
-            "id"
-          ],
+          "columnsFrom": ["source_id"],
+          "columnsTo": ["id"],
           "onDelete": "no action",
           "onUpdate": "no action"
         }
@@ -299,12 +284,8 @@
           "name": "event_descriptions_event_id_events_id_fk",
           "tableFrom": "event_descriptions",
           "tableTo": "events",
-          "columnsFrom": [
-            "event_id"
-          ],
-          "columnsTo": [
-            "id"
-          ],
+          "columnsFrom": ["event_id"],
+          "columnsTo": ["id"],
           "onDelete": "no action",
           "onUpdate": "no action"
         }
@@ -344,12 +325,8 @@
           "name": "event_masters_event_id_events_id_fk",
           "tableFrom": "event_masters",
           "tableTo": "events",
-          "columnsFrom": [
-            "event_id"
-          ],
-          "columnsTo": [
-            "id"
-          ],
+          "columnsFrom": ["event_id"],
+          "columnsTo": ["id"],
           "onDelete": "no action",
           "onUpdate": "no action"
         },
@@ -357,22 +334,15 @@
           "name": "event_masters_master_id_masters_id_fk",
           "tableFrom": "event_masters",
           "tableTo": "masters",
-          "columnsFrom": [
-            "master_id"
-          ],
-          "columnsTo": [
-            "id"
-          ],
+          "columnsFrom": ["master_id"],
+          "columnsTo": ["id"],
           "onDelete": "no action",
           "onUpdate": "no action"
         }
       },
       "compositePrimaryKeys": {
         "event_masters_event_id_master_id_pk": {
-          "columns": [
-            "event_id",
-            "master_id"
-          ],
+          "columns": ["event_id", "master_id"],
           "name": "event_masters_event_id_master_id_pk"
         }
       },
@@ -417,12 +387,8 @@
           "name": "event_names_event_id_events_id_fk",
           "tableFrom": "event_names",
           "tableTo": "events",
-          "columnsFrom": [
-            "event_id"
-          ],
-          "columnsTo": [
-            "id"
-          ],
+          "columnsFrom": ["event_id"],
+          "columnsTo": ["id"],
           "onDelete": "no action",
           "onUpdate": "no action"
         }
@@ -462,12 +428,8 @@
           "name": "event_schools_event_id_events_id_fk",
           "tableFrom": "event_schools",
           "tableTo": "events",
-          "columnsFrom": [
-            "event_id"
-          ],
-          "columnsTo": [
-            "id"
-          ],
+          "columnsFrom": ["event_id"],
+          "columnsTo": ["id"],
           "onDelete": "no action",
           "onUpdate": "no action"
         },
@@ -475,22 +437,15 @@
           "name": "event_schools_school_id_schools_id_fk",
           "tableFrom": "event_schools",
           "tableTo": "schools",
-          "columnsFrom": [
-            "school_id"
-          ],
-          "columnsTo": [
-            "id"
-          ],
+          "columnsFrom": ["school_id"],
+          "columnsTo": ["id"],
           "onDelete": "no action",
           "onUpdate": "no action"
         }
       },
       "compositePrimaryKeys": {
         "event_schools_event_id_school_id_pk": {
-          "columns": [
-            "event_id",
-            "school_id"
-          ],
+          "columns": ["event_id", "school_id"],
           "name": "event_schools_event_id_school_id_pk"
         }
       },
@@ -528,12 +483,8 @@
           "name": "event_temples_event_id_events_id_fk",
           "tableFrom": "event_temples",
           "tableTo": "events",
-          "columnsFrom": [
-            "event_id"
-          ],
-          "columnsTo": [
-            "id"
-          ],
+          "columnsFrom": ["event_id"],
+          "columnsTo": ["id"],
           "onDelete": "no action",
           "onUpdate": "no action"
         },
@@ -541,22 +492,15 @@
           "name": "event_temples_temple_id_temples_id_fk",
           "tableFrom": "event_temples",
           "tableTo": "temples",
-          "columnsFrom": [
-            "temple_id"
-          ],
-          "columnsTo": [
-            "id"
-          ],
+          "columnsFrom": ["temple_id"],
+          "columnsTo": ["id"],
           "onDelete": "no action",
           "onUpdate": "no action"
         }
       },
       "compositePrimaryKeys": {
         "event_temples_event_id_temple_id_pk": {
-          "columns": [
-            "event_id",
-            "temple_id"
-          ],
+          "columns": ["event_id", "temple_id"],
           "name": "event_temples_event_id_temple_id_pk"
         }
       },
@@ -640,9 +584,7 @@
       "indexes": {
         "events_slug_unique": {
           "name": "events_slug_unique",
-          "columns": [
-            "slug"
-          ],
+          "columns": ["slug"],
           "isUnique": true
         }
       },
@@ -710,12 +652,8 @@
           "name": "ingestion_runs_source_id_sources_id_fk",
           "tableFrom": "ingestion_runs",
           "tableTo": "sources",
-          "columnsFrom": [
-            "source_id"
-          ],
-          "columnsTo": [
-            "id"
-          ],
+          "columnsFrom": ["source_id"],
+          "columnsTo": ["id"],
           "onDelete": "no action",
           "onUpdate": "no action"
         }
@@ -762,12 +700,8 @@
           "name": "master_biographies_master_id_masters_id_fk",
           "tableFrom": "master_biographies",
           "tableTo": "masters",
-          "columnsFrom": [
-            "master_id"
-          ],
-          "columnsTo": [
-            "id"
-          ],
+          "columnsFrom": ["master_id"],
+          "columnsTo": ["id"],
           "onDelete": "cascade",
           "onUpdate": "no action"
         }
@@ -821,12 +755,8 @@
           "name": "master_names_master_id_masters_id_fk",
           "tableFrom": "master_names",
           "tableTo": "masters",
-          "columnsFrom": [
-            "master_id"
-          ],
-          "columnsTo": [
-            "id"
-          ],
+          "columnsFrom": ["master_id"],
+          "columnsTo": ["id"],
           "onDelete": "no action",
           "onUpdate": "no action"
         }
@@ -866,12 +796,8 @@
           "name": "master_temples_master_id_masters_id_fk",
           "tableFrom": "master_temples",
           "tableTo": "masters",
-          "columnsFrom": [
-            "master_id"
-          ],
-          "columnsTo": [
-            "id"
-          ],
+          "columnsFrom": ["master_id"],
+          "columnsTo": ["id"],
           "onDelete": "no action",
           "onUpdate": "no action"
         },
@@ -879,22 +805,15 @@
           "name": "master_temples_temple_id_temples_id_fk",
           "tableFrom": "master_temples",
           "tableTo": "temples",
-          "columnsFrom": [
-            "temple_id"
-          ],
-          "columnsTo": [
-            "id"
-          ],
+          "columnsFrom": ["temple_id"],
+          "columnsTo": ["id"],
           "onDelete": "no action",
           "onUpdate": "no action"
         }
       },
       "compositePrimaryKeys": {
         "master_temples_master_id_temple_id_pk": {
-          "columns": [
-            "master_id",
-            "temple_id"
-          ],
+          "columns": ["master_id", "temple_id"],
           "name": "master_temples_master_id_temple_id_pk"
         }
       },
@@ -953,12 +872,8 @@
           "name": "master_transmissions_student_id_masters_id_fk",
           "tableFrom": "master_transmissions",
           "tableTo": "masters",
-          "columnsFrom": [
-            "student_id"
-          ],
-          "columnsTo": [
-            "id"
-          ],
+          "columnsFrom": ["student_id"],
+          "columnsTo": ["id"],
           "onDelete": "no action",
           "onUpdate": "no action"
         },
@@ -966,12 +881,8 @@
           "name": "master_transmissions_teacher_id_masters_id_fk",
           "tableFrom": "master_transmissions",
           "tableTo": "masters",
-          "columnsFrom": [
-            "teacher_id"
-          ],
-          "columnsTo": [
-            "id"
-          ],
+          "columnsFrom": ["teacher_id"],
+          "columnsTo": ["id"],
           "onDelete": "no action",
           "onUpdate": "no action"
         }
@@ -1071,9 +982,7 @@
       "indexes": {
         "masters_slug_unique": {
           "name": "masters_slug_unique",
-          "columns": [
-            "slug"
-          ],
+          "columns": ["slug"],
           "isUnique": true
         }
       },
@@ -1082,12 +991,8 @@
           "name": "masters_school_id_schools_id_fk",
           "tableFrom": "masters",
           "tableTo": "schools",
-          "columnsFrom": [
-            "school_id"
-          ],
-          "columnsTo": [
-            "id"
-          ],
+          "columnsFrom": ["school_id"],
+          "columnsTo": ["id"],
           "onDelete": "no action",
           "onUpdate": "no action"
         }
@@ -1301,12 +1206,8 @@
           "name": "school_names_school_id_schools_id_fk",
           "tableFrom": "school_names",
           "tableTo": "schools",
-          "columnsFrom": [
-            "school_id"
-          ],
-          "columnsTo": [
-            "id"
-          ],
+          "columnsFrom": ["school_id"],
+          "columnsTo": ["id"],
           "onDelete": "no action",
           "onUpdate": "no action"
         }
@@ -1392,9 +1293,7 @@
       "indexes": {
         "schools_slug_unique": {
           "name": "schools_slug_unique",
-          "columns": [
-            "slug"
-          ],
+          "columns": ["slug"],
           "isUnique": true
         }
       },
@@ -1403,12 +1302,8 @@
           "name": "schools_parent_id_schools_id_fk",
           "tableFrom": "schools",
           "tableTo": "schools",
-          "columnsFrom": [
-            "parent_id"
-          ],
-          "columnsTo": [
-            "id"
-          ],
+          "columnsFrom": ["parent_id"],
+          "columnsTo": ["id"],
           "onDelete": "no action",
           "onUpdate": "no action"
         }
@@ -1528,12 +1423,8 @@
           "name": "source_snapshots_source_id_sources_id_fk",
           "tableFrom": "source_snapshots",
           "tableTo": "sources",
-          "columnsFrom": [
-            "source_id"
-          ],
-          "columnsTo": [
-            "id"
-          ],
+          "columnsFrom": ["source_id"],
+          "columnsTo": ["id"],
           "onDelete": "no action",
           "onUpdate": "no action"
         },
@@ -1541,12 +1432,8 @@
           "name": "source_snapshots_ingestion_run_id_ingestion_runs_id_fk",
           "tableFrom": "source_snapshots",
           "tableTo": "ingestion_runs",
-          "columnsFrom": [
-            "ingestion_run_id"
-          ],
-          "columnsTo": [
-            "id"
-          ],
+          "columnsFrom": ["ingestion_run_id"],
+          "columnsTo": ["id"],
           "onDelete": "no action",
           "onUpdate": "no action"
         }
@@ -1659,12 +1546,8 @@
           "name": "teaching_content_teaching_id_teachings_id_fk",
           "tableFrom": "teaching_content",
           "tableTo": "teachings",
-          "columnsFrom": [
-            "teaching_id"
-          ],
-          "columnsTo": [
-            "id"
-          ],
+          "columnsFrom": ["teaching_id"],
+          "columnsTo": ["id"],
           "onDelete": "no action",
           "onUpdate": "no action"
         }
@@ -1704,12 +1587,8 @@
           "name": "teaching_relations_teaching_id_teachings_id_fk",
           "tableFrom": "teaching_relations",
           "tableTo": "teachings",
-          "columnsFrom": [
-            "teaching_id"
-          ],
-          "columnsTo": [
-            "id"
-          ],
+          "columnsFrom": ["teaching_id"],
+          "columnsTo": ["id"],
           "onDelete": "no action",
           "onUpdate": "no action"
         },
@@ -1717,22 +1596,15 @@
           "name": "teaching_relations_related_id_teachings_id_fk",
           "tableFrom": "teaching_relations",
           "tableTo": "teachings",
-          "columnsFrom": [
-            "related_id"
-          ],
-          "columnsTo": [
-            "id"
-          ],
+          "columnsFrom": ["related_id"],
+          "columnsTo": ["id"],
           "onDelete": "no action",
           "onUpdate": "no action"
         }
       },
       "compositePrimaryKeys": {
         "teaching_relations_teaching_id_related_id_pk": {
-          "columns": [
-            "teaching_id",
-            "related_id"
-          ],
+          "columns": ["teaching_id", "related_id"],
           "name": "teaching_relations_teaching_id_related_id_pk"
         }
       },
@@ -1788,9 +1660,7 @@
       "indexes": {
         "teachings_slug_unique": {
           "name": "teachings_slug_unique",
-          "columns": [
-            "slug"
-          ],
+          "columns": ["slug"],
           "isUnique": true
         }
       },
@@ -1799,12 +1669,8 @@
           "name": "teachings_author_id_masters_id_fk",
           "tableFrom": "teachings",
           "tableTo": "masters",
-          "columnsFrom": [
-            "author_id"
-          ],
-          "columnsTo": [
-            "id"
-          ],
+          "columnsFrom": ["author_id"],
+          "columnsTo": ["id"],
           "onDelete": "no action",
           "onUpdate": "no action"
         }
@@ -1851,12 +1717,8 @@
           "name": "temple_names_temple_id_temples_id_fk",
           "tableFrom": "temple_names",
           "tableTo": "temples",
-          "columnsFrom": [
-            "temple_id"
-          ],
-          "columnsTo": [
-            "id"
-          ],
+          "columnsFrom": ["temple_id"],
+          "columnsTo": ["id"],
           "onDelete": "no action",
           "onUpdate": "no action"
         }
@@ -1956,9 +1818,7 @@
       "indexes": {
         "temples_slug_unique": {
           "name": "temples_slug_unique",
-          "columns": [
-            "slug"
-          ],
+          "columns": ["slug"],
           "isUnique": true
         }
       },
@@ -1967,12 +1827,8 @@
           "name": "temples_founder_id_masters_id_fk",
           "tableFrom": "temples",
           "tableTo": "masters",
-          "columnsFrom": [
-            "founder_id"
-          ],
-          "columnsTo": [
-            "id"
-          ],
+          "columnsFrom": ["founder_id"],
+          "columnsTo": ["id"],
           "onDelete": "no action",
           "onUpdate": "no action"
         },
@@ -1980,12 +1836,8 @@
           "name": "temples_school_id_schools_id_fk",
           "tableFrom": "temples",
           "tableTo": "schools",
-          "columnsFrom": [
-            "school_id"
-          ],
-          "columnsTo": [
-            "id"
-          ],
+          "columnsFrom": ["school_id"],
+          "columnsTo": ["id"],
           "onDelete": "no action",
           "onUpdate": "no action"
         }

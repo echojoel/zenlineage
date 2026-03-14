@@ -64,9 +64,7 @@ export const TIER_1_ENTRIES: EditorialTierEntry[] = [
   { slug: "yamada-koun", tier: "tier1", reason: "modern_transmitter" },
 ];
 
-const TIER_1_ENTRY_BY_SLUG = new Map(
-  TIER_1_ENTRIES.map((entry) => [entry.slug, entry]),
-);
+const TIER_1_ENTRY_BY_SLUG = new Map(TIER_1_ENTRIES.map((entry) => [entry.slug, entry]));
 
 export function getTier1Entry(slug: string): EditorialTierEntry | null {
   return TIER_1_ENTRY_BY_SLUG.get(slug) ?? null;

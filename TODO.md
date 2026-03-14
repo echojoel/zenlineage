@@ -23,21 +23,21 @@ npm test
 
 As of the current local workspace:
 
-| Metric | Current |
-|-------|---------|
-| Registered sources | 9 |
-| Active cited sources | 8 |
-| Canonical masters | 231 |
-| Schools | 14 |
-| Transmission edges | 70 |
-| Masters with biographies | 50 |
-| Masters with teachings | 0 |
-| Masters with images | 5 hardcoded fallbacks, 33 uncited rows in `media_assets`, 0 published |
-| Biographies with item-level citations | 50 |
-| Media assets with item-level citations | 0 |
-| Orphan masters | 153 |
-| Masters without school assignment | 0 |
-| Known missing canonical match | none |
+| Metric                                 | Current                                                               |
+| -------------------------------------- | --------------------------------------------------------------------- |
+| Registered sources                     | 9                                                                     |
+| Active cited sources                   | 8                                                                     |
+| Canonical masters                      | 231                                                                   |
+| Schools                                | 14                                                                    |
+| Transmission edges                     | 70                                                                    |
+| Masters with biographies               | 50                                                                    |
+| Masters with teachings                 | 0                                                                     |
+| Masters with images                    | 5 hardcoded fallbacks, 33 uncited rows in `media_assets`, 0 published |
+| Biographies with item-level citations  | 50                                                                    |
+| Media assets with item-level citations | 0                                                                     |
+| Orphan masters                         | 153                                                                   |
+| Masters without school assignment      | 0                                                                     |
+| Known missing canonical match          | none                                                                  |
 
 ## Phase 0: Operating discipline
 

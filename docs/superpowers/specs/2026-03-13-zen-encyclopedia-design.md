@@ -31,6 +31,7 @@ An interactive encyclopedia of Zen culture targeting **practitioners** as the pr
 The lineage graph is a **directed acyclic graph (DAG)**, not a tree. A master may have multiple teachers (e.g., Yasutani received transmission from both Soto and Rinzai lines). Edges are directed: teacher → student. Cycles are invalid — a validation rule enforces this at ingestion and on every write.
 
 **DAG properties:**
+
 - Each edge (transmission) has a `type`: primary (main dharma transmission), secondary (additional study/inka), or disputed
 - Multiple roots are valid (different Indian patriarchs, independent Chinese masters)
 - A master's "generation" is computed from **primary edges only**, within their school branch. Specifically: the length of the primary-edge-only path from the school's root ancestor to the master. If a master has no primary edge (e.g., a school founder received from another school), generation is set relative to the school they founded.
@@ -38,6 +39,7 @@ The lineage graph is a **directed acyclic graph (DAG)**, not a tree. A master ma
 ### Core Entities
 
 **Master (Person)**
+
 - `id` — unique slug
 - `names` — { dharma, birth, honorific } × { en, ja, zh, ko, vi, sa } + aliases/transliterations
 - `dates` — birth, death, ordination — each with precision (exact/circa/century/unknown) and confidence (high/medium/low/disputed)
@@ -50,21 +52,25 @@ The lineage graph is a **directed acyclic graph (DAG)**, not a tree. A master ma
 - `coordinates` — birth/death/activity locations
 
 **Temple / Monastery**
+
 - `id`, `names` (per locale), `location` (coordinates, region, country)
 - `founded` (date with precision/confidence, founder → Master), `school`, `abbots` → Master[]
 - `description` (per locale), `status` (active/historical/destroyed)
 
 **Teaching / Text**
+
 - `id`, `title` (per locale), `type` (koan, sutra, commentary, poem, talk)
 - `author` → Master, `collection` (e.g., Blue Cliff Record)
 - `content` (per locale), `era`, `related` → Teaching[], Master[]
 
 **Lineage / School**
+
 - `id`, `names` (per locale), `tradition` (Chan, Zen, Seon, Thiền)
 - `parent` → School, `founder` → Master, `founded` (date with precision/confidence)
 - `practices` (free-text in Phase 1; relational in Phase 2+), `description` (per locale), `active` (boolean)
 
 **Event (minimal, Phase 1 schema)**
+
 - `id`, `names` (per locale), `type` (founding, persecution, council, schism, migration, political)
 - `date_start`, `date_end` (with precision/confidence)
 - `location` — coordinates, region
@@ -88,27 +94,33 @@ For disputed facts (transmission claims, founding attributions, biographical det
 Every fact in the encyclopedia must be traceable to a source. This is critical for a research-first encyclopedia with AI-generated content.
 
 **Sources** — Stable bibliographic records (one per work, website, or text — not per scraper run):
+
 - `id`, `type` (scholarly_work, website, lineage_chart, primary_text, oral_tradition, ai_generated)
 - `title`, `author`, `url`, `publication_date`
 - `reliability` (authoritative, scholarly, secondary, popular, ai_generated)
 
 **Ingestion Runs** — Records each fetch/import against a source:
+
 - `id`, `source_id` FK, `run_date`, `script_name`, `status` (success, partial, failed), `record_count`, `notes`
 
 **Source Snapshots** — Immutable captures of web sources (one per ingestion run):
+
 - `id`, `source_id` FK, `ingestion_run_id` FK, `snapshot_date`, `content_hash`, `archive_url`
 
 **Citations** — Links any fact to its source(s):
+
 - `id`, `source_id` FK, `entity_type` (master, temple, school, teaching, event, transmission)
 - `entity_id`, `field_name` (e.g., 'birth_year', 'biography', 'teacher')
 - `excerpt` (the specific text/data cited), `page_or_section`
 
 **Assertions** — For disputed facts, multiple competing claims:
+
 - `id`, `entity_type`, `entity_id`, `field_name`
 - `value` (the claimed value)
 - `status` (accepted, disputed, rejected)
 
 **Assertion Citations** — Join table (an assertion may be backed by multiple sources):
+
 - `assertion_id` FK, `citation_id` FK
 
 ### Canonical vs. Assertion Write Path
@@ -116,6 +128,7 @@ Every fact in the encyclopedia must be traceable to a source. This is critical f
 The `masters`, `master_transmissions`, `schools`, `temples`, and `teachings` tables are **the canonical truth**. Assertions are **supplemental** — they record alternative/disputed claims that differ from the canonical value.
 
 **Write path:**
+
 1. During ingestion, the first source's value for a field becomes the canonical value (written to the entity table).
 2. When a subsequent source provides a **different** value for the same field, an assertion is created with `status = 'disputed'`, and the original canonical value also gets an assertion record.
 3. During curation, the reviewer can change which assertion is `accepted`, which updates the canonical table. The former canonical value's assertion moves to `disputed` or `rejected`.
@@ -281,11 +294,13 @@ School ──practices▶ Practice      (methods used)
 ## 5. Lineage Visualizer
 
 ### Visual Metaphor
+
 Lineages flow like **rivers branching through time** — organic, meditative. At low zoom, you see the full sweep of Zen history as branching streams of ink. Zoom in and individual masters appear as luminous ink dots.
 
 The graph is a **DAG, not a tree**. Secondary transmissions render as thinner, dashed ink lines connecting to a master's secondary teacher. Disputed transmissions render as very faint dotted lines. This makes the primary lineage flow visually dominant while showing the full network.
 
 ### Interaction Model
+
 - **Zoom & Pan** — Infinite canvas, map-like navigation
 - **Time Scrubber** — Timeline bar at bottom; drag through centuries; lineages animate into existence
 - **Hover** — Glow effect, name tooltip with dates (showing precision: "~500 CE" for circa, "5th c." for century)
@@ -297,6 +312,7 @@ The graph is a **DAG, not a tree**. Secondary transmissions render as thinner, d
 - **Transmission filter** — Toggle primary-only / all / disputed edges
 
 ### Technology
+
 - **D3.js** for data handling and **DAG layout** calculation (not tree layout — use `d3-dag` or Sugiyama layered layout for proper DAG positioning)
 - **PixiJS** (WebGL) for rendering — D3 computes node positions, PixiJS draws them to a WebGL canvas
 - **@pixi/react** for React integration within Next.js pages (client-side only component with `'use client'` directive)
@@ -304,15 +320,18 @@ The graph is a **DAG, not a tree**. Secondary transmissions render as thinner, d
 - **Graceful degradation:** Disable particle effects when frame rate drops below 30fps. Respect `prefers-reduced-motion` media query (disable all animation, show static graph).
 
 ### Visual Details
+
 - Stream width is a visual weight based on the number of known dharma heirs per generation (data already captured in the lineage graph)
 - Lines vary in weight and opacity like brush strokes
 - School-specific colors (see Brand section)
 - Subtle animation: streams have gentle particle flow suggesting water/ink movement (disabled when `prefers-reduced-motion` is set)
 
 ### Search
+
 Client-side fuzzy search via **Fuse.js** over a pre-built search index from `search_tokens` table (all name variants, aliases, transliterations across all languages). The index is generated at build time and served as a static JSON file.
 
 **Search behavior by context:**
+
 - **On `/lineage` page:** Results appear in a dropdown; selecting a result snaps the camera to that node and opens the sidebar.
 - **On any other page:** Results appear in a dropdown showing name, dates, and school. Selecting a result navigates to the master's profile page (`/masters/[slug]`). A "Show in Lineage" secondary action navigates to `/lineage?focus=[slug]`.
 - **Global shortcut:** `Cmd/Ctrl+K` opens the search overlay from any page.
@@ -322,49 +341,52 @@ For Phase 4, upgrade to SQLite FTS5 via API route if the dataset grows beyond cl
 ## 6. Site Structure
 
 ### Navigation
+
 Minimal top bar: `禅 ZEN` logo | Lineage | Masters | Schools | Teachings | Temples | Timeline | 🔍 | Language selector
 
 ### Pages
 
-| Route | Page | Description |
-|-------|------|-------------|
-| `/lineage` | **Lineage Explorer** | Full-screen animated DAG visualization. THE core experience. |
-| `/masters/[slug]` | **Master Profile** | Rich page: bio with citations, multilingual names, teachers/students, teachings, temples, map. Confidence indicators on uncertain data. |
-| `/masters` | **Masters Index** | Searchable/filterable directory, grid/list view |
-| `/schools/[slug]` | **School Page** | History, practices, sub-branches, embedded mini-lineage |
-| `/teachings` | **Teachings & Koans** | Browse by collection, master, or theme |
-| `/temples` | **Temple Map** | Interactive map (Leaflet + OpenStreetMap), filter by school/era/status |
-| `/timeline` | **Timeline** | Scrollytelling chronological journey (Phase 4 UI — data model defined in Phase 1) |
-| `/glossary` | **Glossary** | Multilingual Zen terms with cross-references |
-| `/about` | **About** | Project mission, methodology, sources, data provenance policy |
+| Route             | Page                  | Description                                                                                                                             |
+| ----------------- | --------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
+| `/lineage`        | **Lineage Explorer**  | Full-screen animated DAG visualization. THE core experience.                                                                            |
+| `/masters/[slug]` | **Master Profile**    | Rich page: bio with citations, multilingual names, teachers/students, teachings, temples, map. Confidence indicators on uncertain data. |
+| `/masters`        | **Masters Index**     | Searchable/filterable directory, grid/list view                                                                                         |
+| `/schools/[slug]` | **School Page**       | History, practices, sub-branches, embedded mini-lineage                                                                                 |
+| `/teachings`      | **Teachings & Koans** | Browse by collection, master, or theme                                                                                                  |
+| `/temples`        | **Temple Map**        | Interactive map (Leaflet + OpenStreetMap), filter by school/era/status                                                                  |
+| `/timeline`       | **Timeline**          | Scrollytelling chronological journey (Phase 4 UI — data model defined in Phase 1)                                                       |
+| `/glossary`       | **Glossary**          | Multilingual Zen terms with cross-references                                                                                            |
+| `/about`          | **About**             | Project mission, methodology, sources, data provenance policy                                                                           |
 
 ## 7. Data Collection Pipeline
 
 ### Step 1 — Source
+
 Parse PDF lineage charts using `pdf-parse` (text extraction) with manual structure annotation where needed. Scrape reference websites using `cheerio` for HTML parsing. All scrapers output to the same intermediate JSON format:
 
 ```typescript
 interface RawTeacherRef {
-  name: string;                     // teacher name as found in source
-  edge_type?: 'primary' | 'secondary' | 'disputed';  // if discernible from source
-  locator?: string;                 // where in the source this relationship is stated (page, section, row)
-  notes?: string;                   // any qualifying text from the source
+  name: string; // teacher name as found in source
+  edge_type?: "primary" | "secondary" | "disputed"; // if discernible from source
+  locator?: string; // where in the source this relationship is stated (page, section, row)
+  notes?: string; // any qualifying text from the source
 }
 
 interface RawMaster {
   name: string;
   names_cjk: string;
-  dates: string;                    // raw date string, parsed later
-  teachers: RawTeacherRef[];        // DAG-aware: array with edge metadata
+  dates: string; // raw date string, parsed later
+  teachers: RawTeacherRef[]; // DAG-aware: array with edge metadata
   school: string;
-  source_id: string;                // references stable bibliographic source
-  ingestion_run_id: string;         // references this specific scraper run
+  source_id: string; // references stable bibliographic source
+  ingestion_run_id: string; // references this specific scraper run
 }
 ```
 
 Each source outputs to `scripts/data/raw/[source-name].json`. Sources are stable bibliographic records (one per website/work). Each scraper run creates an `ingestion_run` record linked to its source, so the same source can be re-fetched over time without losing prior data.
 
 ### Step 2 — Reconcile
+
 Merge and deduplicate masters across sources. Same master appears with different romanizations (Dōgen / Dogen / 道元). Automated matching by: exact CJK character match, date overlap, known alias lookup table (`scripts/data/aliases.json`). Ambiguous cases flagged in `scripts/data/review-queue.json` — reviewed via a CLI prompt script (`scripts/review-matches.ts`) that shows candidates side-by-side and accepts merge/skip/manual-link commands.
 
 During reconciliation, parse raw date strings into structured dates with `date_precision` and `date_confidence`. Generate `search_tokens` for all name variants.
@@ -372,6 +394,7 @@ During reconciliation, parse raw date strings into structured dates with `date_p
 **DAG validation** runs after reconciliation: cycle detection, temporal consistency checks, orphan warnings.
 
 ### Step 3 — Enrich
+
 AI-assisted content generation using Claude API. For each master in the canonical list, generate: biography, key teachings, historical context, temple associations, connections to broader traditions. Prompts stored in `scripts/prompts/`. Output as JSON to `scripts/data/enriched/[slug].json`. Rate-limited with checkpoint/resume support (completion tracked in `scripts/data/enrichment-manifest.json`).
 
 **Grounded citation model:** The enrichment prompt receives pre-loaded source excerpts (from `sources` and `source_snapshots`) with their `source_id` and `citation_id` values. Claude must cite only from these provided excerpts using the supplied IDs — no open-ended citation. The prompt structure is:
@@ -387,9 +410,11 @@ Write a biography citing only from the above sources using [SOURCE_ID] inline re
 This prevents fabricated citations. AI-generated content is additionally tagged with a dedicated `source` record of `type = 'ai_generated'` and `reliability = 'ai_generated'`, linked to the specific enrichment run.
 
 ### Step 4 — Translate
+
 Generate translations for all content in target languages using Claude API. Buddhist terminology consistency enforced via a glossary file (`scripts/data/glossary.json`) included in translation prompts. Output to `scripts/data/i18n/[locale]/[slug].json`. Same checkpoint/resume pattern as Step 3.
 
 ### Step 5 — Curate
+
 Human review via a lightweight Next.js admin page at `/admin/review` (gated by `ADMIN_ENABLED=true` env var; not set in production deployment). Shows each entity with review status, citations, confidence indicators, and approve/edit/flag actions. Review actions recorded in `review_status` and `audit_log` tables.
 
 **Citations are visible during review** — the reviewer sees which source backs each fact and can verify, dispute, or add sources.
@@ -397,12 +422,14 @@ Human review via a lightweight Next.js admin page at `/admin/review` (gated by `
 ### Pipeline Operational Requirements
 
 **Idempotency:** Every script (seed-sources, extractors, reconciliation, seed-db) must be safe to rerun. This means:
+
 - Upserts (ON CONFLICT UPDATE) instead of bare inserts
 - Deterministic IDs derived from content (e.g., `nanoid` seeded from `source_id + entity_name`, or content-addressed hashing) so re-running produces the same IDs
 - Content hashes on source snapshots to detect actual changes vs. no-ops
 - Re-running an extractor with unchanged source data produces identical output
 
 **Testing:** Fixture-based tests with golden outputs:
+
 - Each extractor has a fixture file (`tests/fixtures/[source]-sample.html` or `.pdf`) and a golden output (`tests/golden/[source]-expected.json`)
 - Reconciliation has test cases for: exact CJK match, date-based match, alias match, ambiguous case (goes to review queue), no-match (passes through)
 - DAG validation has test cases for: valid DAG, cycle detection, self-loop, temporal violation, duplicate primary edge
@@ -411,6 +438,7 @@ Human review via a lightweight Next.js admin page at `/admin/review` (gated by `
 ## 8. Project Phases
 
 ### Phase 1: Data Foundation (START HERE)
+
 - Set up Next.js project with TypeScript
 - Define full database schema (all tables including events, provenance, review, search_tokens, media_assets)
 - Build extraction scripts (PDF + 4 web scrapers)
@@ -420,6 +448,7 @@ Human review via a lightweight Next.js admin page at `/admin/review` (gated by `
 - Target: ~200-500 well-documented masters with lineage links, provenance tracked, across Soto, Rinzai, Sanbo
 
 **Phase 1 exit criteria:**
+
 - DAG validation passes (no cycles, no self-loops, temporal consistency)
 - Every master has ≥ 1 citation for lineage placement
 - Source coverage: data from ≥ 4 of the 6 reference sources
@@ -427,6 +456,7 @@ Human review via a lightweight Next.js admin page at `/admin/review` (gated by `
 - `scripts/validate-graph.ts` exits 0
 
 ### Phase 2: Lineage Visualizer MVP
+
 - Build core interactive lineage explorer
 - Sumi-e aesthetics with D3 DAG layout + PixiJS
 - Implement zoom, pan, time scrubber, node interactions
@@ -435,6 +465,7 @@ Human review via a lightweight Next.js admin page at `/admin/review` (gated by `
 - Graceful degradation for reduced motion and low-powered devices
 
 **Phase 2 exit criteria:**
+
 - DAG renders correctly with no overlapping edges
 - 60fps on desktop with full dataset; 30fps on mobile
 - `prefers-reduced-motion` disables all animation
@@ -442,6 +473,7 @@ Human review via a lightweight Next.js admin page at `/admin/review` (gated by `
 - Lighthouse accessibility score ≥ 90
 
 ### Phase 3: Encyclopedia Content
+
 - AI-assisted profile generation for all masters (with citations)
 - Build rich profile pages, school pages, teachings browser
 - Implement i18n infrastructure and multi-language content
@@ -449,6 +481,7 @@ Human review via a lightweight Next.js admin page at `/admin/review` (gated by `
 - Admin review page with citation verification
 
 ### Phase 4: Timeline & Polish
+
 - Build immersive scrollytelling timeline (Event entity already in schema)
 - Historical events, cultural context, broader Buddhism connections
 - Global search upgrade (FTS5 if needed)
@@ -458,21 +491,21 @@ Human review via a lightweight Next.js admin page at `/admin/review` (gated by `
 
 ## 9. Technical Stack
 
-| Layer | Technology |
-|-------|-----------|
-| Framework | Next.js 15 (App Router) |
-| Language | TypeScript |
-| Styling | Tailwind CSS + custom sumi-e design tokens |
-| Visualization | D3.js + d3-dag (DAG layout) + PixiJS (WebGL rendering) |
-| Maps | Leaflet + OpenStreetMap (free, no API key required) |
-| Database | SQLite (via Drizzle ORM) for local dev; Turso for production (SQLite-compatible, same schema). Vercel serverless functions connect to Turso via `@libsql/client` in HTTP mode. |
-| IDs | nanoid (URL-safe, compact) |
-| CJK romanization | pinyin (Chinese); wanakana (kana↔romaji only); Japanese kanji readings curated manually |
-| Search | Fuse.js (client-side fuzzy search over search_tokens) |
-| i18n | next-intl (mature, App Router support, ICU message format) |
-| Content | MDX for static pages (/about); JSON/DB for structured data |
-| Deployment | Vercel |
-| Data scripts | Node.js scripts in `/scripts/` directory |
+| Layer            | Technology                                                                                                                                                                     |
+| ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Framework        | Next.js 15 (App Router)                                                                                                                                                        |
+| Language         | TypeScript                                                                                                                                                                     |
+| Styling          | Tailwind CSS + custom sumi-e design tokens                                                                                                                                     |
+| Visualization    | D3.js + d3-dag (DAG layout) + PixiJS (WebGL rendering)                                                                                                                         |
+| Maps             | Leaflet + OpenStreetMap (free, no API key required)                                                                                                                            |
+| Database         | SQLite (via Drizzle ORM) for local dev; Turso for production (SQLite-compatible, same schema). Vercel serverless functions connect to Turso via `@libsql/client` in HTTP mode. |
+| IDs              | nanoid (URL-safe, compact)                                                                                                                                                     |
+| CJK romanization | pinyin (Chinese); wanakana (kana↔romaji only); Japanese kanji readings curated manually                                                                                        |
+| Search           | Fuse.js (client-side fuzzy search over search_tokens)                                                                                                                          |
+| i18n             | next-intl (mature, App Router support, ICU message format)                                                                                                                     |
+| Content          | MDX for static pages (/about); JSON/DB for structured data                                                                                                                     |
+| Deployment       | Vercel                                                                                                                                                                         |
+| Data scripts     | Node.js scripts in `/scripts/` directory                                                                                                                                       |
 
 ## 10. Data Sources
 
@@ -487,11 +520,13 @@ Human review via a lightweight Next.js admin page at `/admin/review` (gated by `
 ## 11. Non-Functional Requirements
 
 ### Data Integrity
+
 - DAG validation on every write to `master_transmissions` (no cycles, no self-loops, temporal consistency)
 - `scripts/validate-graph.ts` — comprehensive integrity check: cycle detection, orphan detection, citation coverage, temporal consistency. Run in CI and before deployment.
 - Every fact with `source.reliability ≠ 'authoritative'` must display a confidence indicator on public pages
 
 ### Accessibility
+
 - Lineage visualizer: keyboard navigation (Tab through nodes, Enter to select, Escape to close sidebar)
 - Canvas content has ARIA labels and a text-based fallback view (`/lineage?view=list`)
 - All media assets require `alt_text` before display
@@ -500,6 +535,7 @@ Human review via a lightweight Next.js admin page at `/admin/review` (gated by `
 - Respect `prefers-color-scheme` (light mode only for v1, but don't break in dark OS settings)
 
 ### Performance
+
 - Lineage visualizer: 60fps on desktop, 30fps on mobile with full dataset
 - Search index: < 500KB gzipped
 - Initial page load (LCP): < 2.5s
