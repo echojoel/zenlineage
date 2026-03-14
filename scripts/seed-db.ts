@@ -9,6 +9,7 @@
 
 import fs from "fs";
 import path from "path";
+import { and, ne } from "drizzle-orm";
 import { db } from "@/db";
 import {
   schoolNames,
@@ -54,7 +55,15 @@ async function resetDerivedTables(): Promise<void> {
   console.log("Resetting derived tables...");
 
   await db.delete(searchTokens);
-  await db.delete(citations);
+  // Preserve media_asset and teaching citations — they are seeded by separate durable scripts.
+  // Only delete master-level citations that this script will re-create.
+  await db.delete(citations).where(
+    and(
+      ne(citations.entityType, "media_asset"),
+      ne(citations.entityType, "master_biography"),
+      ne(citations.entityType, "teaching")
+    )
+  );
   // Content tables with master FKs must be cleared before rebuilding masters.
   await db.delete(teachingRelations);
   await db.delete(teachingMasterRoles);
