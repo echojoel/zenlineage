@@ -1300,5 +1300,131 @@
     "master_roles": [
       { "slug": "fayan-wenyi", "role": "speaker" }
     ]
+  },
+  {
+    "slug": "deshimaru-mushotoku",
+    "type": "saying",
+    "author_slug": "taisen-deshimaru",
+    "collection": "Teachings of Taisen Deshimaru",
+    "era": "Showa",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "Mushotoku: Without Seeking Gain",
+    "content": "True zazen is practiced without any object, without seeking any result, without any goal—mushotoku. If you practice zazen to gain something, it is no longer zazen. Sit simply, concentrate on the posture, breathe naturally, and let thoughts pass like clouds in the sky. This is the highest form of practice. There is nothing to achieve because you already have everything from the beginning.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Kusen of Taisen Deshimaru, oral teaching during zazen",
+    "license_status": "fair_use",
+    "master_roles": [
+      { "slug": "taisen-deshimaru", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "deshimaru-hishiryo",
+    "type": "sermon",
+    "author_slug": "taisen-deshimaru",
+    "collection": "Teachings of Taisen Deshimaru",
+    "era": "Showa",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "Hishiryo: Beyond Thinking",
+    "content": "During zazen, do not try to stop your thoughts. Do not try to chase them away. And do not follow them either. Let them come, let them go. This is the secret of Zen: hishiryo, beyond thinking. It is not thinking, it is not not-thinking. It is the consciousness before thought arises, the consciousness that is the source of all thought. When you return to this consciousness, even for a single breath, you touch the essence of Buddha.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Kusen of Taisen Deshimaru, oral teaching during zazen",
+    "license_status": "fair_use",
+    "master_roles": [
+      { "slug": "taisen-deshimaru", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "deshimaru-posture",
+    "type": "sermon",
+    "author_slug": "taisen-deshimaru",
+    "collection": "Teachings of Taisen Deshimaru",
+    "era": "Showa",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "The Posture Is the Teaching",
+    "content": "Concentrate on the posture. Push the earth with the knees, push the sky with the top of the head. The chin is pulled in, the nape of the neck stretched, the nose vertical above the navel. The hands are in the cosmic mudra, left hand on right, thumbs touching horizontally. Do not lean to the left or the right, forward or backward. The posture of zazen is not the means to awakening—it is awakening itself. The body and mind are not two. When the body takes the posture of Buddha, the mind becomes the mind of Buddha.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Kusen of Taisen Deshimaru, instruction during zazen",
+    "license_status": "fair_use",
+    "master_roles": [
+      { "slug": "taisen-deshimaru", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "deshimaru-true-zen",
+    "type": "saying",
+    "author_slug": "taisen-deshimaru",
+    "collection": "Teachings of Taisen Deshimaru",
+    "era": "Showa",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "True Zen Is Useless",
+    "content": "True Zen is useless. It does not serve any purpose. It is not useful for business, for health, for success. In our civilization, people want everything to be useful—they cannot understand something that has no utility. But the highest things in life are useless: love, art, poetry, contemplation. Zazen is the most useless thing, and therefore the most precious.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Attributed to Taisen Deshimaru, informal teaching",
+    "license_status": "fair_use",
+    "master_roles": [
+      { "slug": "taisen-deshimaru", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "deshimaru-here-now-nothing-else",
+    "type": "saying",
+    "author_slug": "taisen-deshimaru",
+    "collection": "Teachings of Taisen Deshimaru",
+    "era": "Showa",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "Here, Now, Nothing Else",
+    "content": "You must concentrate on zazen. Only zazen. Here, now, nothing else. Not the zazen of yesterday, not the zazen of tomorrow. This zazen, this breath, this posture. If you can truly be here, completely, for just one moment—that is satori.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Kusen of Taisen Deshimaru",
+    "license_status": "fair_use",
+    "master_roles": [
+      { "slug": "taisen-deshimaru", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "roland-rech-body-mind-one",
+    "type": "sermon",
+    "author_slug": "roland-rech",
+    "collection": "Kusen of Roland Rech",
+    "era": "Heisei",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "Body and Mind Are One in Zazen",
+    "content": "In zazen, body and mind are not separate. When you straighten the spine, you straighten the mind. When you let the breath settle naturally, the thoughts settle naturally. This is why Dogen placed such emphasis on the posture—not as a physical exercise, but as the concrete expression of awakening. The body sitting in zazen is not the container of the mind; it is the mind itself, made visible. To sit with the correct posture, in complete presence, is to realize the unity of body and mind that we call Buddha.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Kusen of Roland Rech, oral teaching during zazen",
+    "license_status": "fair_use",
+    "master_roles": [
+      { "slug": "roland-rech", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "roland-rech-return-to-present",
+    "type": "saying",
+    "author_slug": "roland-rech",
+    "collection": "Kusen of Roland Rech",
+    "era": "Heisei",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "Always Returning to the Present Moment",
+    "content": "The practice of zazen is very simple: always returning to the present moment. When you notice that you have been carried away by your thoughts, you come back to the posture, the breathing, the present reality. This return is not a failure—it is the practice itself. Each time you return, you are practicing the fundamental gesture of awakening: letting go of illusion and coming back to what is real.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Kusen of Roland Rech",
+    "license_status": "fair_use",
+    "master_roles": [
+      { "slug": "roland-rech", "role": "attributed_to" }
+    ]
   }
 ]

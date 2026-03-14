@@ -1417,9 +1417,9 @@ Shunsho's teaching reflected the Soto school's characteristic balance of meditat
   },
   {
     slug: "taisen-deshimaru",
-    content: `Taisen Deshimaru was a student of Kodo Sawaki who brought Soto Zen to Europe, establishing the Association Zen Internationale in Paris in 1970 and founding over a hundred dojos across Europe before his death in 1982. Like his teacher Sawaki, Deshimaru emphasized the practice of shikantaza stripped to its essence—sitting without seeking anything, without purpose, without gain.
+    content: `Taisen Deshimaru was born in 1914 in Saga Prefecture, Japan, into a samurai family with strong Buddhist roots. He first encountered Kodo Sawaki's teaching as a young man in the 1930s and was profoundly struck by Sawaki's radical insistence on zazen without gain or purpose. For decades Deshimaru lived as a layman—working as a businessman, surviving the war, raising a family—while maintaining his practice and connection to Sawaki. Only near the end of Sawaki's life, in 1965, did Deshimaru receive ordination and his teacher's final instruction: "Go to the West and plant the seed of the Dharma."
 
-Deshimaru's energetic and charismatic teaching style attracted thousands of European students and established a vibrant tradition of Soto Zen practice across the continent. His emphasis on "mushotoku"—practice without profit—echoed Sawaki's insistence that zazen is "good for nothing." Through his extensive network of practice centers and his many published works, Deshimaru ensured that the Soto tradition took root in European culture, creating a legacy that continues to grow through his many dharma heirs.`,
+In 1967, Deshimaru arrived in Paris with almost nothing and began teaching zazen in the back rooms of health food stores and borrowed apartments. His fierce energy, physical presence, and absolute conviction drew students rapidly. He founded the Association Zen Internationale (AZI) in 1970, and by the time of his death in 1982 had established over a hundred dojos and practice groups across Europe, including the temple La Gendronnière in the Loire Valley. His teaching centered on three pillars: shikantaza as the sole essential practice, mushotoku (no gaining idea) as the correct attitude, and hishiryo (beyond thinking) as the quality of mind in zazen. He gave kusen—oral teachings delivered during zazen—that became his primary medium, and published prolifically in French. His books, including The Zen Way to the Martial Arts, Questions to a Zen Master, and Sit: Zen Teachings of Master Taisen Deshimaru, introduced Zen to a European audience that had no prior exposure to the tradition. He transmitted the Dharma to several successors who continue his lineage across Europe and beyond.`,
   },
   {
     slug: "tessan-shikaku",
@@ -1609,15 +1609,15 @@ Yokaku's place in the Soto lineage reflects the tradition's organic growth acros
   },
   {
     slug: "raphael-dokio-triet",
-    content: `Raphael Dokio Triet was a Soto Zen teacher who contributed to the establishment of the tradition in Europe, continuing the work begun by Taisen Deshimaru. As a dharma heir in the European Soto lineage, he helped maintain and expand the network of practice centers that Deshimaru had established across the continent.
+    content: `Raphael Dokio Triet is a French Soto Zen teacher and dharma heir of Taisen Deshimaru who has played a significant role in maintaining and deepening the European Soto Zen tradition after Deshimaru's death in 1982. He received the dharma name Dokio and has dedicated himself to preserving the authenticity of Deshimaru's transmission while adapting the practice to serve the evolving needs of European practitioners.
 
-Triet's work represents the ongoing process of Soto Zen's globalization—the tradition's movement beyond its Japanese origins to become a genuinely international practice. European Soto Zen, while maintaining fidelity to Dogen's essential teaching, has developed its own character and institutional forms, adapted to the cultural context of Western practitioners.`,
+Triet leads sesshin and teaches at dojos affiliated with the Deshimaru lineage, continuing the tradition of kusen (oral teaching during zazen) that Deshimaru brought from Japan. His teaching emphasizes the unity of zazen and daily life—the inseparability of practice on the cushion and practice in the world. As one of the senior teachers in the European Soto lineage, Triet has helped guide the tradition through the critical transition from the charismatic founding period under Deshimaru to a mature, self-sustaining practice community rooted in European soil.`,
   },
   {
     slug: "roland-rech",
-    content: `Roland Rech is a French Soto Zen teacher who studied with Taisen Deshimaru and has become one of the most prominent Soto teachers in Europe. He has led sesshin and taught at practice centers across France and Europe for decades, carrying forward Deshimaru's mission of establishing authentic Soto Zen practice in the Western world.
+    content: `Roland Yuno Rech, born in 1944, is one of the most senior and prolific Soto Zen teachers in Europe. He began practicing with Taisen Deshimaru in 1972 and became one of his closest students, receiving ordination and eventually dharma transmission. After Deshimaru's death in 1982, Rech continued his training in Japan and emerged as one of the principal teachers responsible for carrying the European Soto lineage forward. He leads the Nice Zen Dojo and teaches sesshin across France and Europe.
 
-Rech's teaching emphasizes the essential simplicity of Dogen's approach—the practice of shikantaza as the complete expression of awakening. His many published talks and commentaries on Dogen's writings have made the Soto tradition accessible to French-speaking practitioners and contributed to the deepening of European Zen practice beyond its initial period of enthusiastic growth.`,
+Rech is distinguished by his deep engagement with Dogen's Shobogenzo, which he has studied, commented on, and taught for decades. His kusen—oral teachings given during zazen in the tradition established by Deshimaru—draw extensively on Dogen's philosophy, making these dense and challenging texts accessible to contemporary practitioners. He has published numerous books in French, including commentaries on the Shobogenzo, the Sandokai, and the practice of zazen. His teaching emphasizes the inseparability of practice and awakening, the importance of the correct posture of the body as an expression of the mind of Buddha, and the practice of concentration and observation during zazen. Rech represents the maturation of European Soto Zen from its pioneering phase into a tradition with genuine philosophical depth and contemplative rigor.`,
   },
   {
     slug: "rosetsu-ryuko",
@@ -1723,9 +1723,9 @@ Kozan's place in the Soto lineage represents the tradition's ongoing adaptation 
   },
   {
     slug: "yves-shoshin-crettaz",
-    content: `Yves Shoshin Crettaz was a Swiss Soto Zen teacher who contributed to the establishment and growth of Zen practice in Europe. As a dharma heir in the European Soto lineage, he helped maintain the network of practice centers and dojos that serve European practitioners.
+    content: `Yves Shoshin Crettaz is a Swiss-born Soto Zen teacher who leads the Lisbon dojo and practices in the lineage of Taisen Deshimaru. His direct teacher is Raphael Dokio Triet, through whom he received the dharma name Shoshin—meaning "beginner's mind." He has dedicated himself to the practice and transmission of zazen in the European Soto tradition.
 
-Crettaz's work represents the continuing globalization of Soto Zen—the tradition's expansion beyond its Japanese cultural context to become a living practice in the Western world. European Soto practitioners like Crettaz have played an essential role in demonstrating that Dogen's teaching is not bound to any particular culture but speaks to the universal human condition.`,
+Leading the Lisbon dojo, Crettaz has helped extend the reach of the European Soto tradition into the Iberian Peninsula, demonstrating that the practice of zazen can take root in new cultural contexts while maintaining its essential character. His teaching continues the emphasis on shikantaza, kusen, and the spirit of mushotoku that define the Deshimaru lineage. Through his work in Lisbon, Crettaz contributes to the ongoing growth of a genuinely international Soto Zen practice, grounded in the daily discipline of sitting and the transmission of the Dharma from teacher to student.`,
   },
   {
     slug: "zoden-yoko",

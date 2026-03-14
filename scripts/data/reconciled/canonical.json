@@ -525,7 +525,7 @@
     "death_year": 794,
     "death_precision": "exact",
     "death_confidence": "high",
-    "school": "Other",
+    "school": "Qingyuan line",
     "source_ids": [
       "src_chan_ancestors_pdf",
       "src_originals_curated"
@@ -1057,7 +1057,7 @@
     "death_year": null,
     "death_precision": "unknown",
     "death_confidence": "low",
-    "school": "Other",
+    "school": "Qingyuan line",
     "source_ids": [
       "src_chan_ancestors_pdf",
       "src_originals_curated"
@@ -1126,7 +1126,7 @@
     "death_year": 702,
     "death_precision": "exact",
     "death_confidence": "high",
-    "school": "Jingzhong",
+    "school": "Early Chan",
     "source_ids": [
       "src_chan_ancestors_pdf",
       "src_originals_curated"
@@ -1489,9 +1489,9 @@
     "birth_year": 1944,
     "birth_precision": "exact",
     "birth_confidence": "high",
-    "death_year": 2024,
-    "death_precision": "exact",
-    "death_confidence": "high",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
     "school": "Soto",
     "source_ids": [
       "src_sotozen_founders"
@@ -2196,7 +2196,7 @@
     "death_year": null,
     "death_precision": "unknown",
     "death_confidence": "low",
-    "school": "Other",
+    "school": "Early Chan",
     "source_ids": [
       "src_chan_ancestors_pdf",
       "src_originals_curated"
@@ -2390,7 +2390,7 @@
     "death_year": null,
     "death_precision": "unknown",
     "death_confidence": "low",
-    "school": "Other",
+    "school": "Qingyuan line",
     "source_ids": [
       "src_chan_ancestors_pdf",
       "src_originals_curated"
@@ -2612,7 +2612,7 @@
     "death_year": null,
     "death_precision": "unknown",
     "death_confidence": "low",
-    "school": "Other",
+    "school": "Qingyuan line",
     "source_ids": [
       "src_chan_ancestors_pdf",
       "src_originals_curated"
@@ -2798,7 +2798,7 @@
     "death_year": null,
     "death_precision": "unknown",
     "death_confidence": "low",
-    "school": "Other",
+    "school": "Early Chan",
     "source_ids": [
       "src_chan_ancestors_pdf",
       "src_originals_curated"
@@ -3797,7 +3797,7 @@
     "death_year": null,
     "death_precision": "unknown",
     "death_confidence": "low",
-    "school": "",
+    "school": "Caodong",
     "source_ids": [
       "src_originals_curated"
     ]
@@ -4363,7 +4363,7 @@
     "death_year": null,
     "death_precision": "unknown",
     "death_confidence": "low",
-    "school": "",
+    "school": "Linji",
     "source_ids": [
       "src_originals_curated"
     ]
@@ -4483,7 +4483,7 @@
     "death_year": 736,
     "death_precision": "exact",
     "death_confidence": "high",
-    "school": "Jingzhong",
+    "school": "Early Chan",
     "source_ids": [
       "src_chan_ancestors_pdf",
       "src_originals_curated"
@@ -4701,7 +4701,7 @@
     "death_year": null,
     "death_precision": "unknown",
     "death_confidence": "low",
-    "school": "",
+    "school": "Yangqi line",
     "source_ids": [
       "src_originals_curated"
     ]
@@ -5444,7 +5444,7 @@
     "death_year": null,
     "death_precision": "unknown",
     "death_confidence": "low",
-    "school": "",
+    "school": "Qingyuan line",
     "source_ids": [
       "src_originals_curated"
     ]
@@ -5980,7 +5980,7 @@
     "death_year": null,
     "death_precision": "unknown",
     "death_confidence": "low",
-    "school": "Other",
+    "school": "Early Chan",
     "source_ids": [
       "src_chan_ancestors_pdf"
     ]
@@ -6534,7 +6534,7 @@
     "death_year": null,
     "death_precision": "unknown",
     "death_confidence": "low",
-    "school": "",
+    "school": "Caodong",
     "source_ids": [
       "src_originals_curated"
     ]
@@ -7650,7 +7650,7 @@
     "death_year": null,
     "death_precision": "unknown",
     "death_confidence": "low",
-    "school": "",
+    "school": "Yangqi line",
     "source_ids": [
       "src_originals_curated"
     ]
@@ -7964,7 +7964,7 @@
     "death_year": null,
     "death_precision": "unknown",
     "death_confidence": "low",
-    "school": "",
+    "school": "Yangqi line",
     "source_ids": [
       "src_originals_curated"
     ]
@@ -8254,7 +8254,7 @@
     "death_year": null,
     "death_precision": "unknown",
     "death_confidence": "low",
-    "school": "Other",
+    "school": "Qingyuan line",
     "source_ids": [
       "src_chan_ancestors_pdf",
       "src_originals_curated"
@@ -8966,7 +8966,7 @@
     "death_year": null,
     "death_precision": "unknown",
     "death_confidence": "low",
-    "school": "",
+    "school": "Early Chan",
     "source_ids": [
       "src_originals_curated"
     ]
@@ -9321,7 +9321,7 @@
     "death_year": null,
     "death_precision": "unknown",
     "death_confidence": "low",
-    "school": "Other",
+    "school": "Linji",
     "source_ids": [
       "src_chan_ancestors_pdf",
       "src_originals_curated"
@@ -9470,7 +9470,7 @@
     "death_year": null,
     "death_precision": "unknown",
     "death_confidence": "low",
-    "school": "Other",
+    "school": "Linji",
     "source_ids": [
       "src_chan_ancestors_pdf",
       "src_originals_curated"
@@ -9930,7 +9930,7 @@
     "death_year": 762,
     "death_precision": "exact",
     "death_confidence": "high",
-    "school": "Jingzhong",
+    "school": "Early Chan",
     "source_ids": [
       "src_chan_ancestors_pdf",
       "src_originals_curated"
