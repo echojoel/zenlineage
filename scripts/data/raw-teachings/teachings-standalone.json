@@ -2208,5 +2208,437 @@
     "master_roles": [
       { "slug": "pang-yun", "role": "attributed_to" }
     ]
+  },
+  {
+    "slug": "bassui-who-is-the-master",
+    "type": "saying",
+    "author_slug": "bassui-tokusho",
+    "collection": "Dharma Talk of Bassui",
+    "era": "Kamakura",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "Who Is the Master?",
+    "content": "Who is hearing that sound? Who is it that right now sees colors, hears voices, raises the hands, moves the feet? We know these are functions of the mind, but no one knows precisely where this mind is. All that can be said is that the mind is here. But when you try to see into it, there is nothing that can be called the mind. Yet when you are called, something answers. Who is the master? Pursue this question with single-minded devotion. Ask yourself ceaselessly: who is hearing?",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Dharma Talk of Bassui, self-inquiry teaching",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "bassui-tokusho", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "bassui-mud-and-water",
+    "type": "sermon",
+    "author_slug": "bassui-tokusho",
+    "collection": "Mud and Water (Wadeigassui)",
+    "era": "Kamakura",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "Mud and Water",
+    "content": "If you cling to emptiness and deny the reality of things, you are like someone who drowns in water to avoid being burned by fire. If you cling to form and deny emptiness, you are like someone who walks into fire to escape drowning. Neither emptiness nor form can be grasped. When you stop trying to grasp them, the truth reveals itself of its own accord. Do not attach to the idea that mind is void, and do not attach to the idea that mind is something. The one who does not attach to either side—that one walks freely between heaven and earth.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Mud and Water (Wadeigassui), sermon on emptiness and form",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "bassui-tokusho", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "ikkyu-crazy-cloud",
+    "type": "verse",
+    "author_slug": "ikkyu-sojun",
+    "collection": "Kyounshu (Crazy Cloud Anthology)",
+    "era": "Muromachi",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "Crazy Cloud",
+    "content": "Look at the monks in their grand temples,\nchanting sutras they do not understand,\ncounting beads while their minds wander\nto gold, to silk, to the next meal.\nCrazy Cloud has no temple, no robes of state.\nHe drinks when thirsty, sleeps when tired.\nThe wind blows through the bamboo—\nthat is the only sutra he needs.\nWho is the true monk: the one who keeps the precepts\nwith a dead heart, or the one who breaks them all\nand finds the living Buddha in a cup of wine?",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Kyounshu (Crazy Cloud Anthology)",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "ikkyu-sojun", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "ikkyu-sound-of-one-hand",
+    "type": "dialogue",
+    "author_slug": "ikkyu-sojun",
+    "collection": "Anecdotes of Ikkyu",
+    "era": "Muromachi",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "The Sound of One Hand",
+    "content": "A monk asked Ikkyu: \"Master, what is the sound of one hand clapping?\"\nIkkyu slapped him across the face.\nThe monk stood stunned, his cheek burning.\nIkkyu said: \"Now you have heard it. Why do you stand there like a dead man? The sound of one hand is not a riddle to solve with your thinking mind. It is the thing itself, striking you awake. Did you need two hands for that?\"",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Anecdotes of Ikkyu, dialogue on the one-hand koan",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "ikkyu-sojun", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "bankei-unborn-buddha-mind",
+    "type": "sermon",
+    "author_slug": "bankei-yotaku",
+    "collection": "Sermons of Bankei",
+    "era": "Edo",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "The Unborn Buddha Mind",
+    "content": "Everything is perfectly managed with the Unborn. When you abide in the Unborn, you abide at the source of all Buddhas. The Unborn is the origin of all and the beginning of all. There is no source apart from the Unborn and no beginning that is before the Unborn. When you abide in the Unborn, you are abiding in the Buddha-mind. The Buddha-mind is not something you need to seek outside yourself. Your parents did not give it to you; it was not given by your teacher. It is not something you have attained through practice. Since you have had it from the very beginning, there is no need to attain it now. Just do not exchange it for something else.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Sermons of Bankei, core teaching on fusho (the Unborn)",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "bankei-yotaku", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "bankei-dont-trade-buddha-mind",
+    "type": "saying",
+    "author_slug": "bankei-yotaku",
+    "collection": "Sermons of Bankei",
+    "era": "Edo",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "Don't Trade Your Buddha-Mind for Thoughts",
+    "content": "When thoughts arise, if you let them come and let them go without clinging to them or rejecting them, then there is no delusion. But the moment you attach to a thought, you trade the Buddha-mind for that thought. You swap what is unborn and imperishable for something that comes and goes. You become angry and turn the Buddha-mind into a fighting demon. You become greedy and turn it into a hungry ghost. All illusion arises from this one mistake: trading the Unborn for your thoughts.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Sermons of Bankei, on not exchanging the Unborn",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "bankei-yotaku", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "sengai-circle-triangle-square",
+    "type": "saying",
+    "author_slug": "sengai-gibon",
+    "collection": "Inscriptions of Sengai",
+    "era": "Edo",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "Circle, Triangle, Square",
+    "content": "The circle, the triangle, the square—these are the universe entire. The square is the earth, solid and stable, the ground beneath your feet. The triangle is the beginning of all forms, the principle by which things arise. The circle is infinite emptiness, boundless and complete, without beginning or end. From emptiness, form arises; from form, the myriad things; and the myriad things return to emptiness. These three brushstrokes contain everything. What more is there to say?",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Inscription on the painting Circle Triangle Square by Sengai Gibon",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "sengai-gibon", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "sengai-universe-in-tea",
+    "type": "saying",
+    "author_slug": "sengai-gibon",
+    "collection": "Inscriptions of Sengai",
+    "era": "Edo",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "The Universe in a Cup of Tea",
+    "content": "When you drink tea, drink tea. The whole universe is in this cup. The water came from clouds, the clouds from the sea, the sea from the rivers, the rivers from rain. The heat came from fire, the fire from wood, the wood from earth and sun. Take one sip and you swallow the entire universe. But if you are thinking about the universe while you drink, you have missed the tea entirely.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Attributed to Sengai Gibon",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "sengai-gibon", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "kosen-zen-for-laypeople",
+    "type": "sermon",
+    "author_slug": "kosen-imakita",
+    "collection": "Zenkai Ichiran (A Wave Across the Sea of Zen)",
+    "era": "Meiji",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "On Opening Zen to Laypeople",
+    "content": "The true Dharma does not belong to monks alone. From the time of the Buddha, laypeople such as Vimalakirti have demonstrated the highest understanding. In this modern age, when the world changes so rapidly, we cannot lock the gate of Zen and keep it for the few who shave their heads. The merchant at his counter, the scholar at his desk, the farmer in his field—all possess the Buddha-nature, all can awaken. If we do not bring Zen to the people, we are hoarding medicine while the world is sick. Open the zendo doors. Let whoever is sincere enter and sit.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Zenkai Ichiran (A Wave Across the Sea of Zen), on lay practice",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "kosen-imakita", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "kosen-confucian-zen-unity",
+    "type": "saying",
+    "author_slug": "kosen-imakita",
+    "collection": "Zenkai Ichiran (A Wave Across the Sea of Zen)",
+    "era": "Meiji",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "On the Unity of Confucian and Zen Wisdom",
+    "content": "Confucius said: 'Investigate things, extend knowledge, make the will sincere, rectify the heart.' This is nothing other than Zen. When you investigate a thing thoroughly, you reach the place where subject and object fall away. That is kensh\u014d. The sages of China and the patriarchs of India all drank from the same stream. Only the words differ; the water is one.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Zenkai Ichiran, on Confucianism and Zen",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "kosen-imakita", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "soyen-parliament-of-religions",
+    "type": "sermon",
+    "author_slug": "soyen-shaku",
+    "collection": "Addresses of Soyen Shaku",
+    "era": "Meiji",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "Address at the World Parliament of Religions",
+    "content": "We Buddhists believe in a universal law of causation, which governs the rise and fall of all things. This law is the foundation of the moral order. No God made it; no God can unmake it. It operates in the heavens and on the earth, in the realm of mind and the realm of matter, alike and without exception. Through understanding this law, we attain freedom. Through ignorance of it, we remain in bondage. The purpose of the Buddha's teaching is to awaken human beings to this law so that they may live in harmony with the truth and attain the highest peace.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Address at the World Parliament of Religions, Chicago, 1893",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "soyen-shaku", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "soyen-cause-and-effect",
+    "type": "saying",
+    "author_slug": "soyen-shaku",
+    "collection": "Addresses of Soyen Shaku",
+    "era": "Meiji",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "On the Law of Cause and Effect",
+    "content": "The law of cause and effect is the universal law. It governs the physical world and the moral world equally. A stone thrown in the air must come down. A deed done in darkness must come to light. This is not punishment; it is the nature of reality. When you understand that every thought, every word, every action plants a seed, you will be careful what you plant. The one who understands causation is free, because he no longer plants the seeds of suffering.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Attributed to Soyen Shaku",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "soyen-shaku", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "dt-suzuki-essence-of-zen",
+    "type": "saying",
+    "author_slug": "d-t-suzuki",
+    "collection": "Essays in Zen Buddhism",
+    "era": "Showa",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "On the Essence of Zen",
+    "content": "Zen in its essence is the art of seeing into the nature of one's own being, and it points the way from bondage to freedom. We can say that Zen liberates all the energies properly and naturally stored in each of us, which are in ordinary circumstances cramped and distorted so that they find no adequate channel for activity. It is the object of Zen, therefore, to save us from going crazy or being crippled. This is what I mean by freedom, giving free play to all the creative and benevolent impulses inherently lying in our hearts.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Essays in Zen Buddhism, First Series",
+    "license_status": "fair_use",
+    "master_roles": [
+      { "slug": "d-t-suzuki", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "dt-suzuki-satori",
+    "type": "saying",
+    "author_slug": "d-t-suzuki",
+    "collection": "Essays in Zen Buddhism",
+    "era": "Showa",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "Satori as the Raison d'\u00catre of Zen",
+    "content": "Satori is the raison d'\u00eatre of Zen, without which Zen is not Zen. All the intellectual content of Zen, if there is any, comes from satori. Without satori there is no Zen, for the life of Zen begins with the opening of satori. It is the sudden flashing into consciousness of a new truth hitherto undreamed of. It is a sort of mental catastrophe taking place all at once, after much piling up of matters intellectual and demonstrative. The piling has reached a limit and the whole edifice has come tumbling to the ground, when behold, a new heaven is open to your full survey.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Essays in Zen Buddhism, First Series, on satori",
+    "license_status": "fair_use",
+    "master_roles": [
+      { "slug": "d-t-suzuki", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "nyogen-mentorgarten",
+    "type": "saying",
+    "author_slug": "nyogen-senzaki",
+    "collection": "Like a Dream, Like a Fantasy",
+    "era": "Showa",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "The Mentorgarten",
+    "content": "I have no monastery, no zendo with golden Buddhas and incense. I call my meeting place a 'mentorgarten,' a floating zendo. Like Bodhidharma who carried nothing but the robe and bowl, I carry only the Dharma. A rented hall, a few chairs, some sincere students—that is enough. Zen does not need a grand temple. It needs only a mind willing to inquire and a heart willing to let go. In America, we must plant Zen like a seed in new soil, without forcing it into old forms. Let it grow as it will.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Like a Dream, Like a Fantasy, on the mentorgarten",
+    "license_status": "fair_use",
+    "master_roles": [
+      { "slug": "nyogen-senzaki", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "nyogen-without-a-temple",
+    "type": "saying",
+    "author_slug": "nyogen-senzaki",
+    "collection": "Like a Dream, Like a Fantasy",
+    "era": "Showa",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "On Practicing Without a Temple",
+    "content": "For many years I have practiced without a temple, without a sangha of robed monks, without any of the traditional supports. Some say this is not real Zen. But I ask: did the Buddha have a temple when he sat under the Bodhi tree? The sky was his roof, the earth was his cushion. Wherever you sit with sincerity, that place becomes a temple. Wherever two or three gather to investigate the great matter of birth and death, that is a sangha. Do not wait for perfect conditions. Sit now, just as you are.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Like a Dream, Like a Fantasy, on temple-less practice",
+    "license_status": "fair_use",
+    "master_roles": [
+      { "slug": "nyogen-senzaki", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "joshu-sasaki-plus-and-minus",
+    "type": "saying",
+    "author_slug": "joshu-sasaki",
+    "collection": "Teachings of Joshu Sasaki Roshi",
+    "era": "Showa",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "On the Activity of Plus and Minus",
+    "content": "Everything in the universe is the activity of expansion and contraction, of plus and minus. When you breathe in, the whole universe contracts. When you breathe out, the whole universe expands. This is not philosophy—this is the direct experience of zazen. Plus activity and minus activity are not two separate things. They are one activity manifesting in two directions. When you truly understand this, you understand that birth and death, self and other, are one activity. There is nothing to fear and nothing to grasp.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Teachings of Joshu Sasaki Roshi, on plus and minus",
+    "license_status": "fair_use",
+    "master_roles": [
+      { "slug": "joshu-sasaki", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "joshu-sasaki-sitting-zazen",
+    "type": "saying",
+    "author_slug": "joshu-sasaki",
+    "collection": "Teachings of Joshu Sasaki Roshi",
+    "era": "Showa",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "On Sitting Zazen",
+    "content": "When you sit zazen, do not sit as a person sitting. Sit as the whole universe sitting. Your spine is the axis of the world. Your breath is the wind moving through all of space. If you sit with the idea 'I am sitting,' you make yourself small, separate, alone. But if you let go of that 'I,' then sitting sits, breathing breathes, and the whole universe is doing zazen through you. That is true sitting.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Teachings of Joshu Sasaki Roshi, on zazen",
+    "license_status": "fair_use",
+    "master_roles": [
+      { "slug": "joshu-sasaki", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "nakagawa-soen-namu-dai-bosa",
+    "type": "saying",
+    "author_slug": "nakagawa-soen",
+    "collection": "Endless Vow: The Zen Path of Soen Nakagawa",
+    "era": "Showa",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "Namu Dai Bosa",
+    "content": "Namu Dai Bosa! I call out to the Great Bodhisattva—but who is this Great Bodhisattva? It is none other than you, reading these words. It is the pine tree outside the window. It is the stone in the garden. Namu means 'I take refuge,' but true refuge is not hiding. It is opening yourself completely to this moment. Dai Bosa is not somewhere else, not in some distant Pure Land. Dai Bosa is this very breath, this very step. Namu Dai Bosa!",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Endless Vow, on the invocation Namu Dai Bosa",
+    "license_status": "fair_use",
+    "master_roles": [
+      { "slug": "nakagawa-soen", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "nakagawa-soen-haiku-as-zen",
+    "type": "saying",
+    "author_slug": "nakagawa-soen",
+    "collection": "Endless Vow: The Zen Path of Soen Nakagawa",
+    "era": "Showa",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "On Haiku as Zen Practice",
+    "content": "Haiku is not poetry. Haiku is Zen. In seventeen syllables, you must capture this moment exactly as it is—no more, no less. If you add your opinion, it is not haiku. If you subtract the reality, it is not haiku. The frog jumps, the water sounds—Basho did not invent this. He simply opened his ears and let the universe write through his brush. When you write haiku, you practice the same thing as zazen: getting out of the way so that reality can express itself.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Endless Vow, on haiku and Zen practice",
+    "license_status": "fair_use",
+    "master_roles": [
+      { "slug": "nakagawa-soen", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "shibayama-mumonkan-case-1",
+    "type": "sermon",
+    "author_slug": "shibayama-zenkei",
+    "collection": "Zen Comments on the Mumonkan",
+    "era": "Showa",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "Commentary on Mumonkan Case 1: Joshu's Mu",
+    "content": "A monk asked Joshu: 'Has a dog the Buddha-nature or not?' Joshu answered: 'Mu!' This Mu is not the Mu of 'has not.' It is not the opposite of 'has.' Cast aside all your learning, all your logic, all your clever understanding. Become Mu from the top of your head to the soles of your feet. Become one solid mass of questioning. When you have truly become Mu, the gate that has no gate swings open of itself, and you walk freely through. But so long as you stand outside trying to understand Mu with your intellect, you will stand there for ten thousand years.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Zen Comments on the Mumonkan, Case 1",
+    "license_status": "fair_use",
+    "master_roles": [
+      { "slug": "shibayama-zenkei", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "shibayama-gateless-gate",
+    "type": "saying",
+    "author_slug": "shibayama-zenkei",
+    "collection": "Zen Comments on the Mumonkan",
+    "era": "Showa",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "On the Gateless Gate",
+    "content": "The gate is called 'gateless' because there is nothing to pass through. A gate implies a barrier, something that divides inside from outside. But in Zen there is no inside or outside. The barrier is your own making—your concepts, your discriminations, your clinging to self. When these fall away, you realize there never was a gate. You have been standing in the open field all along, imagining a wall. Mumon's great compassion is to shout at you: 'There is no gate! Walk through!'",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Zen Comments on the Mumonkan, introduction",
+    "license_status": "fair_use",
+    "master_roles": [
+      { "slug": "shibayama-zenkei", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "omori-sogen-zen-and-sword",
+    "type": "saying",
+    "author_slug": "omori-sogen",
+    "collection": "An Introduction to Zen Training",
+    "era": "Showa",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "On the Unity of Zen and the Sword",
+    "content": "Ken Zen Ichi Nyo—the sword and Zen are one. This does not mean that Zen is violent or that the sword is holy. It means that in the way of the sword, as in zazen, there is no room for the thinking mind. When you face an opponent with a sword, if you think for even an instant, you are cut down. You must act from the place before thought arises—the place of mushin, no-mind. This is the same place you reach in deep zazen. The sword cuts away the ego just as the koan does. Both demand that you die to yourself completely and act from the source.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "An Introduction to Zen Training, on Ken Zen Ichi Nyo",
+    "license_status": "fair_use",
+    "master_roles": [
+      { "slug": "omori-sogen", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "omori-sogen-zazen-foundation",
+    "type": "saying",
+    "author_slug": "omori-sogen",
+    "collection": "An Introduction to Zen Training",
+    "era": "Showa",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "On Zazen as the Foundation of All Practice",
+    "content": "Whether you practice calligraphy, the tea ceremony, archery, or the sword, zazen is the foundation. Without zazen, these arts become mere technique—skillful, perhaps, but without depth. With zazen, even the simplest act becomes a manifestation of awakened mind. You do not sit zazen in order to become good at calligraphy. You sit zazen in order to find the source from which all true action flows. Once you have found that source, everything you do—writing, pouring tea, drawing the bow—flows from it naturally, without contrivance.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "An Introduction to Zen Training, on zazen as foundation",
+    "license_status": "fair_use",
+    "master_roles": [
+      { "slug": "omori-sogen", "role": "attributed_to" }
+    ]
   }
 ]
