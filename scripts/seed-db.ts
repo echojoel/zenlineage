@@ -47,13 +47,28 @@ function readJson<T>(filename: string): T | null {
 async function seedMasters(canonicalMasters: CanonicalMaster[]): Promise<void> {
   console.log(`Seeding ${canonicalMasters.length} masters...`);
 
+  // Disambiguate slugs before inserting (two masters may share the same slug)
+  const usedSlugs = new Map<string, string>(); // slug → id that first claimed it
+  const resolvedSlugs = new Map<string, string>(); // master id → final slug
   for (const m of canonicalMasters) {
+    let slug = m.slug || 'master';
+    if (usedSlugs.has(slug)) {
+      let counter = 2;
+      while (usedSlugs.has(`${slug}-${counter}`)) counter++;
+      slug = `${slug}-${counter}`;
+    }
+    usedSlugs.set(slug, m.id);
+    resolvedSlugs.set(m.id, slug);
+  }
+
+  for (const m of canonicalMasters) {
+    const slug = resolvedSlugs.get(m.id) ?? m.slug;
     // Upsert master row
     await db
       .insert(masters)
       .values({
         id: m.id,
-        slug: m.slug,
+        slug,
         birthYear: m.birth_year,
         birthPrecision: m.birth_precision,
         birthConfidence: m.birth_confidence,
@@ -66,7 +81,7 @@ async function seedMasters(canonicalMasters: CanonicalMaster[]): Promise<void> {
       .onConflictDoUpdate({
         target: masters.id,
         set: {
-          slug: m.slug,
+          slug,
           birthYear: m.birth_year,
           birthPrecision: m.birth_precision,
           birthConfidence: m.birth_confidence,
