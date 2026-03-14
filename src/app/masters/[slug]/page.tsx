@@ -336,11 +336,6 @@ export default async function MasterDetailPage({ params }: { params: Promise<{ s
               className="detail-hero-image"
             />
           )}
-          {!publishedImage && (
-            <p className="detail-muted">
-              No verified portrait or published image is available yet.
-            </p>
-          )}
           <p className="detail-eyebrow">
             {schoolRow ? (
               <Link className="detail-inline-link" href={`/schools/${schoolRow.slug}`}>
@@ -374,15 +369,6 @@ export default async function MasterDetailPage({ params }: { params: Promise<{ s
                 <p key={index}>{paragraph}</p>
               ))}
             </div>
-          )}
-          {!biographyRow && (
-            <p className="detail-muted">No biography has been published for this master yet.</p>
-          )}
-          {biographyRow && !publishedBiography && (
-            <p className="detail-muted">
-              A biography draft exists for this master, but it is withheld until item-level
-              citations are attached.
-            </p>
           )}
         </section>
 
