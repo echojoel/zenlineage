@@ -137,6 +137,9 @@ export const teachings = sqliteTable("teachings", {
   authorId: text("author_id").references(() => masters.id),
   collection: text("collection"),
   era: text("era"),
+  caseNumber: text("case_number"),
+  compiler: text("compiler"),
+  attributionStatus: text("attribution_status"), // "verified" | "traditional" | "unresolved"
 });
 
 export const teachingContent = sqliteTable("teaching_content", {
@@ -147,7 +150,24 @@ export const teachingContent = sqliteTable("teaching_content", {
   locale: text("locale").notNull(),
   title: text("title").notNull(),
   content: text("content").notNull(),
+  translator: text("translator"),
+  edition: text("edition"),
+  licenseStatus: text("license_status"), // "public_domain" | "cc_by" | "cc_by_sa" | "fair_use" | "unknown"
 });
+
+export const teachingMasterRoles = sqliteTable(
+  "teaching_master_roles",
+  {
+    teachingId: text("teaching_id")
+      .notNull()
+      .references(() => teachings.id),
+    masterId: text("master_id")
+      .notNull()
+      .references(() => masters.id),
+    role: text("role").notNull(), // "speaker" | "questioner" | "respondent" | "compiler" | "commentator" | "attributed_to"
+  },
+  (table) => [primaryKey({ columns: [table.teachingId, table.masterId, table.role] })]
+);
 
 export const teachingRelations = sqliteTable(
   "teaching_relations",

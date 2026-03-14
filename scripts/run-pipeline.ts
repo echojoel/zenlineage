@@ -8,6 +8,11 @@ interface PipelineStep {
 
 const STEPS: PipelineStep[] = [
   {
+    label: "Apply migrations",
+    command: "npm",
+    args: ["run", "db:migrate"],
+  },
+  {
     label: "Backfill raw provenance",
     command: "npx",
     args: ["tsx", "scripts/backfill-ingestion-metadata.ts"],
