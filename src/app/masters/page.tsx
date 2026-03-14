@@ -1,6 +1,6 @@
 import { db } from "@/db";
-import { masters, masterNames, schoolNames, searchTokens } from "@/db/schema";
-import { eq, and } from "drizzle-orm";
+import { masters, masterNames, schoolNames, searchTokens, mediaAssets, citations } from "@/db/schema";
+import { eq, and, inArray } from "drizzle-orm";
 import MastersClient from "@/components/MastersClient";
 import Link from "next/link";
 import type { MasterListItem } from "@/lib/master-list";
@@ -41,6 +41,39 @@ export default async function MastersPage() {
     }
   }
 
+  // Fetch published images (media_assets with citations)
+  const masterIds = mastersData.map((m) => m.id);
+  const imageRows = await db
+    .select({
+      entityId: mediaAssets.entityId,
+      storagePath: mediaAssets.storagePath,
+      id: mediaAssets.id,
+    })
+    .from(mediaAssets)
+    .where(and(eq(mediaAssets.entityType, "master"), inArray(mediaAssets.entityId, masterIds)));
+
+  const citedImageIds = imageRows.length > 0
+    ? new Set(
+        (await db
+          .select({ entityId: citations.entityId })
+          .from(citations)
+          .where(
+            and(
+              eq(citations.entityType, "media_asset"),
+              inArray(citations.entityId, imageRows.map((r) => r.id))
+            )
+          )
+        ).map((r) => r.entityId)
+      )
+    : new Set<string>();
+
+  const imageMap = new Map<string, string>();
+  for (const row of imageRows) {
+    if (row.storagePath && citedImageIds.has(row.id)) {
+      imageMap.set(row.entityId, row.storagePath);
+    }
+  }
+
   const items: MasterListItem[] = mastersData.map((m) => ({
     id: m.id,
     slug: m.slug,
@@ -51,6 +84,7 @@ export default async function MastersPage() {
     deathYear: m.deathYear,
     deathPrecision: m.deathPrecision,
     searchText: "",
+    imagePath: imageMap.get(m.id) ?? null,
   }));
 
   const tokenRows = await db

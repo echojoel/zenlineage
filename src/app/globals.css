@@ -428,6 +428,15 @@ body {
   border-color: var(--ink-light);
 }
 
+.master-card-image {
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 3px;
+  margin-bottom: 0.5rem;
+  opacity: 0.85;
+}
+
 .master-card-name {
   font-family: var(--font-cormorant), Georgia, serif;
   font-size: 0.95rem;

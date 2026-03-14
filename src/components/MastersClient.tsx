@@ -142,6 +142,14 @@ function MasterCard({
 
   return (
     <Link className="master-card" href={`/masters/${master.slug}`}>
+      {master.imagePath && (
+        // eslint-disable-next-line @next/next/no-img-element
+        <img
+          src={master.imagePath}
+          alt={master.primaryName}
+          className="master-card-image"
+        />
+      )}
       <div className="master-card-name">{master.primaryName}</div>
       {schoolName && <div className="master-card-school">{schoolName}</div>}
       {hasDates && (

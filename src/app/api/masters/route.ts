@@ -65,6 +65,7 @@ export async function GET(): Promise<NextResponse<MasterListItem[]>> {
     deathYear: m.deathYear,
     deathPrecision: m.deathPrecision,
     searchText: (tokenMap.get(m.id) ?? []).join(" "),
+    imagePath: null,
   }));
 
   return NextResponse.json(items);

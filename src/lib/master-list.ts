@@ -8,4 +8,5 @@ export interface MasterListItem {
   deathYear: number | null;
   deathPrecision: string | null;
   searchText: string;
+  imagePath: string | null;
 }
