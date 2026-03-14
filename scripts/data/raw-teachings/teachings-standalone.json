@@ -92,5 +92,1213 @@
     "master_roles": [
       { "slug": "dongshan-liangjie", "role": "attributed_to" }
     ]
+  },
+  {
+    "slug": "platform-sutra-self-nature",
+    "type": "sermon",
+    "author_slug": "dajian-huineng",
+    "collection": "Platform Sutra",
+    "era": "Tang",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "Platform Sutra: On Self-Nature",
+    "content": "Good friends, the wisdom of bodhi and prajna is originally possessed by worldly people themselves. It is only because their minds are deluded that they cannot attain enlightenment by themselves and must seek the help of a good and learned friend to show them how to see their own nature. Good friends, if you meet enlightenment, wisdom is realized. Good friends, my teaching of the Dharma takes meditation and wisdom as its basis. Never under any circumstances say mistakenly that meditation and wisdom are different; they are a unity, not two things. Meditation itself is the substance of wisdom; wisdom itself is the function of meditation.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Platform Sutra, section on Prajna",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "dajian-huineng", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "platform-sutra-no-thought",
+    "type": "sermon",
+    "author_slug": "dajian-huineng",
+    "collection": "Platform Sutra",
+    "era": "Tang",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "Platform Sutra: No-Thought, No-Form, No-Abiding",
+    "content": "Good friends, in this teaching of mine, from ancient times up to the present, all have set up no-thought as the main doctrine, no-form as the substance, and no-abiding as the basis. No-form is to be separated from form even when associated with form. No-thought is not to think even when involved in thought. No-abiding is the original nature of humankind. Successive thoughts do not stop; prior thoughts, present thoughts, and future thoughts follow one after the other without cessation. If one instant of thought is cut off, the Dharma body separates from the physical body. In the midst of all thoughts, do not abide in any thought. If you abide in thought, it is bondage. If in regard to all things you do not abide, that is freedom.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Platform Sutra, section on No-Thought",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "dajian-huineng", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "zhengdaoge-song-of-enlightenment",
+    "type": "verse",
+    "author_slug": "yongjia-xuanjue",
+    "collection": "Zhengdaoge",
+    "era": "Tang",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "Song of Enlightenment (Zhengdaoge)",
+    "content": "Have you not seen?\nThe person of the Way who has gone beyond learning,\nwho does not strive, who does not contrive?\nNeither rejecting thought nor seeking truth,\nthe real nature of ignorance is Buddha-nature itself;\nthis empty, illusory, changeable body\nis nothing other than the Dharma body.\nIn walking, just walk. In sitting, just sit.\nAbove all, don't wobble.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Zhengdaoge, selected verses",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "yongjia-xuanjue", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "five-ranks-verses-complete",
+    "type": "verse",
+    "author_slug": "dongshan-liangjie",
+    "collection": "Five Ranks",
+    "era": "Tang",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "Five Ranks: The Verses of the Upright and the Inclined",
+    "content": "The Apparent within the Real:\nIn the third watch of the night\nbefore the moon appears,\nno wonder when we meet\nthere is no recognition.\nStill cherished in my heart\nis the beauty of earlier days.\n\nThe Real within the Apparent:\nA sleepy-eyed grandma\nencounters herself in an old mirror.\nClearly she sees a face,\nbut it doesn't resemble hers at all.\nToo bad, with lowered head,\nshe tries to recognize her reflection.\n\nComing from within the Real:\nWithin nothingness there is a path\nleading away from the dusts of the world.\nEven if you observe the taboo\non the present emperor's name,\nyou will surpass that eloquent one of yore\nwho silenced every tongue.\n\nArrival at Mutual Integration:\nWhen two blades cross points,\nthere's no need to withdraw.\nThe master swordsman\nis like the lotus blooming in the fire.\nSuch a person has in and of themselves\na heaven-soaring spirit.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Five Ranks, verses 1-4",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "dongshan-liangjie", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "yunmen-one-word-barriers",
+    "type": "dialogue",
+    "author_slug": "yunmen-wenyan",
+    "collection": "Record of Yunmen",
+    "era": "Five Dynasties",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "Yunmen's One-Word Barriers",
+    "content": "A monk asked, \"What is the teaching of the Buddha's whole lifetime?\" Yunmen said, \"An appropriate statement.\"\n\nA monk asked, \"What is it when the tree withers and the leaves fall?\" Yunmen said, \"Body exposed in the golden wind.\"\n\nA monk asked, \"What is the one road of Yunmen?\" Yunmen said, \"Personal experience!\"\n\nA monk asked, \"What is the sword that kills and the sword that gives life?\" Yunmen raised his staff.\n\nA monk asked, \"What is the Dharma body?\" Yunmen said, \"A garden of flowers with a thousand kinds of beauty.\"",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Record of Yunmen, selected exchanges",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "yunmen-wenyan", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "yaoshan-thinking-of-not-thinking",
+    "type": "dialogue",
+    "author_slug": "yaoshan-weiyan",
+    "collection": "Traditional Zen Encounter Dialogues",
+    "era": "Tang",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "Thinking of Not-Thinking",
+    "content": "Once when Yaoshan was sitting in meditation, a monk asked, \"What are you thinking, sitting there so still?\" Yaoshan said, \"I'm thinking of not-thinking.\" The monk asked, \"How do you think of not-thinking?\" Yaoshan said, \"Non-thinking.\"",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Jingde Chuandenglu, Yaoshan chapter",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "yaoshan-weiyan", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "luohan-not-knowing-most-intimate",
+    "type": "dialogue",
+    "author_slug": "luohan-guichen",
+    "collection": "Traditional Zen Encounter Dialogues",
+    "era": "Five Dynasties",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "Not Knowing Is Most Intimate",
+    "content": "Fayan was about to leave the monastery on pilgrimage. Luohan Guichen asked him, \"Where are you going?\" Fayan said, \"I'm going on pilgrimage.\" Luohan asked, \"What is the purpose of pilgrimage?\" Fayan said, \"I don't know.\" Luohan said, \"Not knowing is most intimate.\" At these words, Fayan had a great awakening.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Jingde Chuandenglu, Fayan chapter",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "luohan-guichen", "role": "speaker" },
+      { "slug": "fayan-wenyi", "role": "respondent" }
+    ]
+  },
+  {
+    "slug": "boat-monk-transmission",
+    "type": "dialogue",
+    "author_slug": "chuanzi-decheng",
+    "collection": "Traditional Zen Encounter Dialogues",
+    "era": "Tang",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "The Boat Monk's Transmission",
+    "content": "Jiashan came to the river crossing and met the Boat Monk. The Boat Monk asked, \"In what temple do you stay?\" Jiashan said, \"I don't stay in a temple. Where I stay is not like anything.\" The Boat Monk said, \"Not like anything—like what?\" Jiashan said, \"It is not the Dharma before your eyes.\" The Boat Monk said, \"Where did you learn this?\" Jiashan said, \"Neither ears nor eyes can reach it.\" The Boat Monk said, \"A single phrase and you go on and on. From now on, just shut your mouth. Quick, get out!\" And he capsized the boat. Jiashan fell into the water. When he scrambled back aboard, the Boat Monk shouted, \"Speak! Speak!\" As Jiashan was about to open his mouth, the Boat Monk struck him. At this, Jiashan was greatly awakened.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Jingde Chuandenglu, Chuanzi chapter",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "chuanzi-decheng", "role": "speaker" },
+      { "slug": "jiashan-shanhui", "role": "respondent" }
+    ]
+  },
+  {
+    "slug": "linji-true-person-of-no-rank",
+    "type": "sermon",
+    "author_slug": "linji-yixuan",
+    "collection": "Record of Linji",
+    "era": "Tang",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "The True Person of No Rank",
+    "content": "Linji ascended the hall and said: \"On this lump of red flesh there sits a True Person of No Rank, constantly going in and out through the gates of your face. Those who have not yet recognized this—look, look!\" A monk came forward and asked, \"What is the True Person of No Rank?\" Linji came down from his seat, grabbed the monk, and said, \"Speak! Speak!\" The monk hesitated. Linji pushed him away and said, \"The True Person of No Rank—what a piece of dry excrement!\" Then he returned to his quarters.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Record of Linji, Dharma Hall Discourse 1",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "linji-yixuan", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "linji-four-shouts",
+    "type": "sermon",
+    "author_slug": "linji-yixuan",
+    "collection": "Record of Linji",
+    "era": "Tang",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "Linji's Four Shouts",
+    "content": "Linji said to a monk: \"Sometimes my shout is like the jeweled sword of the Vajra King. Sometimes my shout is like a golden-haired lion crouching on the ground. Sometimes my shout is like a fishing pole with a reed shade. Sometimes my shout does not function as a shout at all. How do you understand this?\" The monk hesitated. Linji shouted.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Record of Linji, Critical Examinations",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "linji-yixuan", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "huangbo-one-mind",
+    "type": "sermon",
+    "author_slug": "huangbo-xiyun",
+    "collection": "Chuanxin Fayao",
+    "era": "Tang",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "On the Transmission of Mind: One Mind",
+    "content": "The Master said: All the Buddhas and all sentient beings are nothing but the One Mind, beside which nothing exists. This Mind, which is without beginning, is unborn and indestructible. It is not green nor yellow, and has neither form nor appearance. It does not belong to the categories of things which exist or do not exist, nor can it be thought of in terms of new or old. It is neither long nor short, big nor small, for it transcends all limits, measures, names, traces, and comparisons. It is that which you see before you. Begin to reason about it and you at once fall into error.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Chuanxin Fayao, opening passage",
+    "translator": "John Blofeld",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "huangbo-xiyun", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "mumonkan-preface",
+    "type": "sermon",
+    "author_slug": "wumen-huikai",
+    "collection": "Mumonkan",
+    "era": "Song",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "Preface to the Gateless Barrier",
+    "content": "Buddhism makes mind its foundation and no-gate its gate. Now, how do you pass through this no-gate? It is said that things coming in through the gate can never be your own treasures. What is gained from external circumstances will perish in the end. However, such a saying is already raising waves when there is no wind. It is cutting unblemished skin. As for those who try to understand through other people's words, they are striking at the moon with a stick, scratching a shoe when the foot itches. What concern have they with the truth? In the summer of the first year of Jotei, Ekai was in Ryusho Temple and as chief monk led the monks, using the cases of the ancient masters as brickbats to batter the gate, and leading them on according to their type and capacity. The collection was made in a rather unmethodical fashion. It has forty-eight cases.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Mumonkan, Preface",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "wumen-huikai", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "xiangyan-bamboo",
+    "type": "dialogue",
+    "author_slug": "xiangyan-zhixian",
+    "collection": "Traditional Zen Encounter Dialogues",
+    "era": "Tang",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "The Sound of Bamboo",
+    "content": "Xiangyan had been an extremely learned monk, but when Guishan challenged him to express his understanding beyond words and letters, he could not. He burned his books and retreated to tend the grave of National Teacher Nanyang. One day while sweeping the path, he flung away a pebble that struck a stalk of bamboo. At the sound, he was suddenly awakened. He composed a verse: \"One strike and I forgot all I knew. No more need for practice or proof. Moving along the ancient path, I am not fallen into passivity. Everywhere I leave no trace. Dignity of manner transcends sound and form. Those who have attained the Way all agree: this is the highest.\"",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Jingde Chuandenglu, Xiangyan chapter",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "xiangyan-zhixian", "role": "speaker" }
+    ]
+  },
+
+  {
+    "slug": "bodhidharma-emperor-wu",
+    "type": "dialogue",
+    "author_slug": "puti-damo",
+    "collection": "Traditional Zen Encounter Dialogues",
+    "era": "Liang",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "Vast Emptiness, Nothing Holy",
+    "content": "Emperor Wu of Liang asked Bodhidharma, \"I have built temples and ordained monks. What merit have I gained?\" Bodhidharma said, \"No merit at all.\" The emperor asked, \"What is the first principle of the holy teaching?\" Bodhidharma said, \"Vast emptiness, nothing holy.\" The emperor asked, \"Who is this standing before me?\" Bodhidharma said, \"I don't know.\" The emperor did not understand. Bodhidharma crossed the Yangtze River and went on to the kingdom of Wei.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Jingde Chuandenglu, Bodhidharma chapter; Blue Cliff Record, Case 1",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "puti-damo", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "bodhidharma-nine-years",
+    "type": "saying",
+    "author_slug": "puti-damo",
+    "collection": "Traditional Zen Sayings",
+    "era": "Liang",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "A Special Transmission Outside the Scriptures",
+    "content": "A special transmission outside the scriptures;\nNo dependence on words and letters;\nDirectly pointing to the human mind;\nSeeing one's nature and becoming Buddha.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Traditional four-line summary of Chan, attributed to Bodhidharma",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "puti-damo", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "nanquan-ordinary-mind",
+    "type": "dialogue",
+    "author_slug": "nanquan-puyuan",
+    "collection": "Traditional Zen Encounter Dialogues",
+    "era": "Tang",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "Ordinary Mind Is the Way",
+    "content": "Zhaozhou asked Nanquan, \"What is the Way?\" Nanquan said, \"Ordinary mind is the Way.\" Zhaozhou asked, \"Should I try to direct myself toward it?\" Nanquan said, \"If you try to direct yourself toward it, you turn away from it.\" Zhaozhou asked, \"If I do not try, how will I know it is the Way?\" Nanquan said, \"The Way does not belong to knowing or not-knowing. Knowing is delusion; not-knowing is blankness. If you truly reach the genuine Way, you will find it as vast and boundless as outer space. How can this be discussed at the level of right and wrong?\" At these words, Zhaozhou was suddenly awakened.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Mumonkan Case 19; Jingde Chuandenglu, Nanquan chapter",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "nanquan-puyuan", "role": "speaker" },
+      { "slug": "zhaozhou-congshen", "role": "questioner" }
+    ]
+  },
+  {
+    "slug": "nanquan-kills-the-cat",
+    "type": "dialogue",
+    "author_slug": "nanquan-puyuan",
+    "collection": "Traditional Zen Encounter Dialogues",
+    "era": "Tang",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "Nanquan Kills the Cat",
+    "content": "Nanquan saw the monks of the eastern and western halls fighting over a cat. He seized the cat and said, \"If any of you can say a word of Zen, you will save the cat. Otherwise I will kill it.\" No one could answer. Nanquan cut the cat in two.\n\nThat evening Zhaozhou returned from outside and Nanquan told him what had happened. Zhaozhou removed his sandals, placed them on his head, and walked out. Nanquan said, \"If you had been there, you could have saved the cat.\"",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Mumonkan Case 14; Jingde Chuandenglu, Nanquan chapter",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "nanquan-puyuan", "role": "speaker" },
+      { "slug": "zhaozhou-congshen", "role": "respondent" }
+    ]
+  },
+  {
+    "slug": "zhaozhou-wash-your-bowl",
+    "type": "dialogue",
+    "author_slug": "zhaozhou-congshen",
+    "collection": "Traditional Zen Encounter Dialogues",
+    "era": "Tang",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "Wash Your Bowl",
+    "content": "A monk told Zhaozhou, \"I have just entered the monastery. Please teach me.\" Zhaozhou asked, \"Have you eaten your rice porridge?\" The monk replied, \"I have eaten.\" Zhaozhou said, \"Then you had better wash your bowl.\" At that moment the monk was enlightened.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Mumonkan Case 7; Zhaozhou Yulu",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "zhaozhou-congshen", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "zhaozhou-oak-tree",
+    "type": "dialogue",
+    "author_slug": "zhaozhou-congshen",
+    "collection": "Traditional Zen Encounter Dialogues",
+    "era": "Tang",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "The Oak Tree in the Garden",
+    "content": "A monk asked Zhaozhou, \"What is the meaning of Bodhidharma's coming from the West?\" Zhaozhou said, \"The oak tree in the garden.\"",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Mumonkan Case 37; Zhaozhou Yulu",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "zhaozhou-congshen", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "zhaozhou-go-drink-tea",
+    "type": "dialogue",
+    "author_slug": "zhaozhou-congshen",
+    "collection": "Zhaozhou Yulu",
+    "era": "Tang",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "Go Drink Tea",
+    "content": "Zhaozhou asked a newly arrived monk, \"Have you been here before?\" The monk said, \"Yes, I have been here.\" Zhaozhou said, \"Go drink tea.\" He then asked another monk, \"Have you been here before?\" The monk said, \"No, I have never been here.\" Zhaozhou said, \"Go drink tea.\" The head monk asked, \"Why do you say 'Go drink tea' to someone who has been here and also to someone who has not?\" Zhaozhou called out, \"Head monk!\" The head monk answered, \"Yes?\" Zhaozhou said, \"Go drink tea.\"",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Zhaozhou Yulu; Jingde Chuandenglu, Zhaozhou chapter",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "zhaozhou-congshen", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "zhaozhou-stone-bridge",
+    "type": "dialogue",
+    "author_slug": "zhaozhou-congshen",
+    "collection": "Zhaozhou Yulu",
+    "era": "Tang",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "Zhaozhou's Stone Bridge",
+    "content": "A monk said to Zhaozhou, \"The stone bridge of Zhaozhou is famous far and wide, but coming here I find only a simple log bridge.\" Zhaozhou said, \"You see only the log bridge. You do not see the stone bridge.\" The monk asked, \"What is the stone bridge?\" Zhaozhou said, \"Horses cross, donkeys cross.\"",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Zhaozhou Yulu",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "zhaozhou-congshen", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "mazu-this-mind-is-buddha",
+    "type": "dialogue",
+    "author_slug": "mazu-daoyi",
+    "collection": "Traditional Zen Encounter Dialogues",
+    "era": "Tang",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "This Very Mind Is Buddha",
+    "content": "Damei asked Mazu, \"What is Buddha?\" Mazu said, \"This very mind is Buddha.\" At these words, Damei was deeply awakened.\n\nLater, Mazu said to the assembly, \"No mind, no Buddha.\" When someone told Damei that Mazu was now saying \"No mind, no Buddha,\" Damei replied, \"That old fellow will go on confusing people forever. Let him say 'No mind, no Buddha.' For me, this very mind is Buddha.\" When Mazu heard this, he said, \"The plum is ripe.\"",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Jingde Chuandenglu, Mazu chapter; Mumonkan Case 30 & 33",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "mazu-daoyi", "role": "speaker" },
+      { "slug": "damei-fachang", "role": "respondent" }
+    ]
+  },
+  {
+    "slug": "mazu-sun-face-buddha",
+    "type": "dialogue",
+    "author_slug": "mazu-daoyi",
+    "collection": "Traditional Zen Encounter Dialogues",
+    "era": "Tang",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "Sun-Face Buddha, Moon-Face Buddha",
+    "content": "Mazu was unwell. The temple director asked him, \"Teacher, how has your health been in recent days?\" Mazu said, \"Sun-face Buddha, Moon-face Buddha.\"",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Blue Cliff Record, Case 3",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "mazu-daoyi", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "dongshan-three-pounds-of-flax",
+    "type": "dialogue",
+    "author_slug": "dongshan-shouchu",
+    "collection": "Traditional Zen Encounter Dialogues",
+    "era": "Tang",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "Three Pounds of Flax",
+    "content": "A monk asked Dongshan, \"What is Buddha?\" Dongshan said, \"Three pounds of flax.\"",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Mumonkan Case 18; Blue Cliff Record, Case 12",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "dongshan-shouchu", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "dongshan-crossing-the-stream",
+    "type": "dialogue",
+    "author_slug": "dongshan-liangjie",
+    "collection": "Traditional Zen Encounter Dialogues",
+    "era": "Tang",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "Dongshan Crosses the Stream",
+    "content": "Dongshan took leave of Yunyan and asked, \"After you have passed away, if someone asks me to describe your teaching, what shall I say?\" Yunyan was silent for a long time, then said, \"Just this is it.\" Dongshan sank into thought. Yunyan said, \"You must be very careful, since you are carrying this great matter.\" Dongshan was still doubtful. Later, as he was crossing a stream, he saw his own reflection in the water and was greatly awakened. He composed a verse:\n\n\"Avoid seeking elsewhere,\nfor that is far from the self.\nNow I travel alone,\neverywhere I meet it.\nIt now is exactly me;\nI now am not it.\nOne must understand in this way\nto merge with suchness.\"",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Jingde Chuandenglu, Dongshan chapter",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "dongshan-liangjie", "role": "speaker" },
+      { "slug": "yunyan-tansheng", "role": "respondent" }
+    ]
+  },
+  {
+    "slug": "deshan-thirty-blows",
+    "type": "saying",
+    "author_slug": "deshan-xuanjian",
+    "collection": "Traditional Zen Sayings",
+    "era": "Tang",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "Thirty Blows",
+    "content": "Deshan said: \"Thirty blows if you can speak; thirty blows if you cannot speak.\"",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Jingde Chuandenglu, Deshan chapter; Mumonkan Case 28",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "deshan-xuanjian", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "linji-three-blows-from-huangbo",
+    "type": "dialogue",
+    "author_slug": "linji-yixuan",
+    "collection": "Record of Linji",
+    "era": "Tang",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "Linji's Three Blows from Huangbo",
+    "content": "Linji was studying under Huangbo. The head monk urged him, \"You have been here three years and have never asked the master a question. Why not ask what the fundamental principle of Buddhism is?\" Linji went to Huangbo and asked. Before he could finish, Huangbo struck him. Linji returned to the head monk and told him what happened. The head monk said, \"Go ask again.\" Linji went again and was struck again. He went a third time and was struck a third time.\n\nLinji went to Huangbo and said, \"I must leave. I have asked the master three times and been struck three times. Perhaps my karma does not allow me to understand.\" Huangbo said, \"Go see Dayu.\"\n\nLinji went to Dayu and told him everything. Dayu said, \"That old grandmotherly Huangbo—he was trying to help you! He exhausted himself for your sake, and you come here asking whether you were at fault!\" At these words Linji was greatly awakened and said, \"There isn't so much to Huangbo's Buddhism after all!\" Dayu grabbed him and said, \"You bed-wetting little devil! You just said you didn't understand, and now you say there isn't so much to it. What do you see? Speak!\" Linji punched Dayu three times in the ribs. Dayu pushed him away and said, \"Your teacher is Huangbo—it's nothing to do with me.\"",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Record of Linji, Account of Pilgrimages",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "linji-yixuan", "role": "speaker" },
+      { "slug": "huangbo-xiyun", "role": "respondent" },
+      { "slug": "dayu-shouzhi", "role": "respondent" }
+    ]
+  },
+  {
+    "slug": "linji-kill-the-buddha",
+    "type": "saying",
+    "author_slug": "linji-yixuan",
+    "collection": "Record of Linji",
+    "era": "Tang",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "If You Meet the Buddha, Kill the Buddha",
+    "content": "If you meet the Buddha, kill the Buddha. If you meet a patriarch, kill the patriarch. If you meet an arhat, kill the arhat. If you meet your parents, kill your parents. If you meet your relatives, kill your relatives. Only then will you find liberation.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Record of Linji, Dharma Hall Discourses",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "linji-yixuan", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "baizhang-water-bottle",
+    "type": "dialogue",
+    "author_slug": "baizhang-huaihai",
+    "collection": "Traditional Zen Encounter Dialogues",
+    "era": "Tang",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "Baizhang's Water Bottle",
+    "content": "Baizhang wished to choose an abbot for Mount Gui. He called together the head monk and the assembly, placed a water bottle on the floor, and said, \"Without calling this a water bottle, what do you call it?\" The head monk said, \"You can't call it a wooden peg.\" Then Baizhang asked Guishan. Guishan kicked over the water bottle and walked away. Baizhang smiled and said, \"The head monk has lost the mountain.\" Guishan was appointed abbot of Mount Gui.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Jingde Chuandenglu, Guishan chapter; Mumonkan Case 40",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "baizhang-huaihai", "role": "speaker" },
+      { "slug": "guishan-lingyou", "role": "respondent" }
+    ]
+  },
+  {
+    "slug": "baizhang-day-no-work",
+    "type": "saying",
+    "author_slug": "baizhang-huaihai",
+    "collection": "Traditional Zen Sayings",
+    "era": "Tang",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "A Day Without Work Is a Day Without Eating",
+    "content": "A day without work is a day without eating.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Baizhang Guanglu; Jingde Chuandenglu, Baizhang chapter",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "baizhang-huaihai", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "yunmen-every-day-good-day",
+    "type": "saying",
+    "author_slug": "yunmen-wenyan",
+    "collection": "Record of Yunmen",
+    "era": "Five Dynasties",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "Every Day Is a Good Day",
+    "content": "Yunmen said to the assembly: \"I'm not asking you about the days before the fifteenth of the month. Come, give me a word about after the fifteenth.\" No one answered. Yunmen answered for them: \"Every day is a good day.\"",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Blue Cliff Record, Case 6; Record of Yunmen",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "yunmen-wenyan", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "yunmen-whole-world-medicine",
+    "type": "saying",
+    "author_slug": "yunmen-wenyan",
+    "collection": "Record of Yunmen",
+    "era": "Five Dynasties",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "The Whole World Is Medicine",
+    "content": "Yunmen said: \"Medicine and disease cure each other. The whole earth is medicine. What is your self?\"",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Blue Cliff Record, Case 87",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "yunmen-wenyan", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "yunmen-dried-shit-stick",
+    "type": "dialogue",
+    "author_slug": "yunmen-wenyan",
+    "collection": "Record of Yunmen",
+    "era": "Five Dynasties",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "A Dried Shit Stick",
+    "content": "A monk asked Yunmen, \"What is Buddha?\" Yunmen said, \"A dried shit stick.\"",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Mumonkan Case 21; Record of Yunmen",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "yunmen-wenyan", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "qingyuan-mountains-rivers",
+    "type": "saying",
+    "author_slug": "qingyuan-xingsi",
+    "collection": "Traditional Zen Sayings",
+    "era": "Tang",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "Mountains Are Mountains",
+    "content": "Before I studied Zen for thirty years, I saw mountains as mountains and rivers as rivers. When I arrived at a more intimate knowledge, I came to the point where I saw that mountains are not mountains, and rivers are not rivers. But now that I have got its very substance, I am at rest. For it is just that I see mountains once again as mountains, and rivers once again as rivers.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Attributed to Qingyuan Xingsi; Jingde Chuandenglu",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "qingyuan-xingsi", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "nanyue-polishing-tile",
+    "type": "dialogue",
+    "author_slug": "nanyue-huairang",
+    "collection": "Traditional Zen Encounter Dialogues",
+    "era": "Tang",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "Polishing a Tile",
+    "content": "Mazu was practicing sitting meditation. Nanyue asked him, \"What are you doing?\" Mazu said, \"I am practicing sitting meditation to become a Buddha.\" Nanyue picked up a tile and began polishing it. Mazu asked, \"What are you doing?\" Nanyue said, \"I am polishing this tile to make a mirror.\" Mazu said, \"How can polishing a tile make a mirror?\" Nanyue said, \"How can sitting in meditation make a Buddha?\"",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Jingde Chuandenglu, Nanyue chapter",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "nanyue-huairang", "role": "speaker" },
+      { "slug": "mazu-daoyi", "role": "respondent" }
+    ]
+  },
+  {
+    "slug": "xuefeng-whole-world",
+    "type": "dialogue",
+    "author_slug": "xuefeng-yicun",
+    "collection": "Traditional Zen Encounter Dialogues",
+    "era": "Tang",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "The Whole World Is You",
+    "content": "Xuefeng held up a ball before the assembly and said, \"When this whole universe is destroyed—sun, moon, mountains, rivers—where does this go?\"",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Jingde Chuandenglu, Xuefeng chapter",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "xuefeng-yicun", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "lingyun-peach-blossoms",
+    "type": "verse",
+    "author_slug": "lingyun-zhiqin",
+    "collection": "Traditional Zen Encounter Dialogues",
+    "era": "Tang",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "Seeing Peach Blossoms",
+    "content": "For thirty years I sought a swordsman.\nHow many times leaves fell, new buds appeared.\nBut one glimpse of the peach blossoms—\nfrom that moment, no more doubts.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Jingde Chuandenglu, Lingyun chapter",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "lingyun-zhiqin", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "dogen-firewood-ash",
+    "type": "sermon",
+    "author_slug": "dogen",
+    "collection": "Shobogenzo",
+    "era": "Kamakura",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "Firewood and Ash (Genjokoan)",
+    "content": "Firewood becomes ash, and it does not become firewood again. Yet do not suppose that the ash is after and the firewood before. You should understand that firewood abides in the dharma position of firewood, which fully includes before and after, and is independent of before and after. Ash abides in the dharma position of ash, which fully includes before and after. Just as firewood does not become firewood again after it is ash, you do not return to birth after death.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Shobogenzo, Genjokoan",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "dogen", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "dogen-moon-in-water",
+    "type": "sermon",
+    "author_slug": "dogen",
+    "collection": "Shobogenzo",
+    "era": "Kamakura",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "Enlightenment Is Like the Moon Reflected in Water (Genjokoan)",
+    "content": "Enlightenment is like the moon reflected in water. The moon does not get wet, nor is the water broken. Although its light is wide and great, the moon is reflected even in a puddle an inch wide. The whole moon and the entire sky are reflected in dewdrops on the grass, or even in one drop of water. Enlightenment does not divide you, just as the moon does not break the water. You cannot hinder enlightenment, just as a drop of water does not hinder the moon in the sky.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Shobogenzo, Genjokoan",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "dogen", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "dogen-practice-is-enlightenment",
+    "type": "saying",
+    "author_slug": "dogen",
+    "collection": "Shobogenzo",
+    "era": "Kamakura",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "To Study the Self",
+    "content": "To study the Buddha Way is to study the self. To study the self is to forget the self. To forget the self is to be enlightened by the ten thousand things. To be enlightened by the ten thousand things is to free one's body and mind, and those of others. No trace of enlightenment remains, and this traceless enlightenment is continued forever.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Shobogenzo, Genjokoan",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "dogen", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "hongzhi-silent-illumination",
+    "type": "sermon",
+    "author_slug": "hongzhi-zhengjue",
+    "collection": "Hongzhi Guanglu",
+    "era": "Song",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "Silent Illumination",
+    "content": "In silence and clarity, the mind is luminous and vast.\nIn stillness and openness, awareness is bright and unobstructed.\nSilently and serenely, all words are forgotten.\nClearly and vividly, it appears before you.\nWhen you turn the light around and shine it inward,\nyou find there is nothing at all to know.\nLuminous and clear, you rest in quiet illumination.\nThe clouds disperse, the waters are still.\nThe autumn sky is brilliant.\nThe empty vessel rides the light.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Hongzhi Guanglu, Mozhao Ming (Silent Illumination Inscription)",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "hongzhi-zhengjue", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "shishuang-cease-and-desist",
+    "type": "saying",
+    "author_slug": "shishuang-qingzhu",
+    "collection": "Traditional Zen Sayings",
+    "era": "Tang",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "Cease and Desist",
+    "content": "Shishuang said: \"Cease and desist. Spend ten thousand years in one thought. Be cold ashes and a dead tree. Be a strip of white silk. Be cold and severe as the ancient censer in a ruined temple.\"",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Jingde Chuandenglu, Shishuang chapter",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "shishuang-qingzhu", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "layman-pang-daily-activity",
+    "type": "verse",
+    "author_slug": "pang-yun",
+    "collection": "Sayings of Layman Pang",
+    "era": "Tang",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "My Daily Activity",
+    "content": "My daily activity is nothing special.\nI just naturally harmonize.\nGrasping nothing, discarding nothing.\nIn every place, no hindrance, no conflict.\nWho assigns the ranks of vermilion and purple?\nThe hills and mountains—\nnot a speck of dust.\nSupernatural power and marvelous activity:\ndrawing water and chopping wood.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Sayings of Layman Pang",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "pang-yun", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "layman-pang-difficult-easy",
+    "type": "dialogue",
+    "author_slug": "pang-yun",
+    "collection": "Sayings of Layman Pang",
+    "era": "Tang",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "Difficult, Easy, Neither",
+    "content": "Layman Pang said, \"Difficult, difficult, difficult—like trying to scatter ten measures of sesame seed all over a tree.\" His wife said, \"Easy, easy, easy—just like touching your feet to the ground when you get out of bed.\" Their daughter Lingchao said, \"Neither difficult nor easy—on the tips of a hundred grass blades, the meaning of the Patriarch.\"",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Sayings of Layman Pang",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "pang-yun", "role": "speaker" },
+      { "slug": "shanglan-lingchao", "role": "respondent" }
+    ]
+  },
+  {
+    "slug": "dahui-great-doubt",
+    "type": "saying",
+    "author_slug": "dahui-zonggao",
+    "collection": "Letters of Dahui",
+    "era": "Song",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "Great Doubt, Great Awakening",
+    "content": "At the place where you cannot get a grip or a foothold, where you are totally helpless—that is where you must exert your full strength. At the place where there is no flavor at all—that is where you must taste deeply. When you reach the point where you feel like a ball of hot iron stuck in your throat that you can neither swallow nor spit out—that is the time to let go of your former knowledge, your clever understanding, your learned interpretations. Great doubt—great awakening. Small doubt—small awakening. No doubt—no awakening.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Letters of Dahui (Dahui Shumen)",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "dahui-zonggao", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "foyan-just-be-aware",
+    "type": "saying",
+    "author_slug": "foyan-qingyuan",
+    "collection": "Instant Zen",
+    "era": "Song",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "Just Be Aware",
+    "content": "People who study the Way must be genuinely focused. Don't just pretend. Don't try to figure it out through thinking. Don't try to achieve something. Don't make it into something intellectual. Just look directly at what is before your eyes and the whole thing will be clear. If you can just be aware of what is presently happening, you will be free.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Foyan Yulu (Instant Zen)",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "foyan-qingyuan", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "kodo-sawaki-zazen-good-for-nothing",
+    "type": "saying",
+    "author_slug": "kodo-sawaki",
+    "collection": "Sayings of Kodo Sawaki",
+    "era": "Showa",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "Zazen Is Good for Nothing",
+    "content": "Zazen is good for nothing. Until you understand this, zazen won't work for you. As long as you sit with some purpose, some goal, some expectation, you are not doing zazen. True zazen is sitting with no gaining idea whatsoever.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Collected sayings of Kodo Sawaki",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "kodo-sawaki", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "shunryu-suzuki-beginners-mind",
+    "type": "saying",
+    "author_slug": "shunryu-suzuki",
+    "collection": "Zen Mind, Beginner's Mind",
+    "era": "Showa",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "Beginner's Mind",
+    "content": "In the beginner's mind there are many possibilities, but in the expert's mind there are few. In the beginner's mind there is no thought 'I have attained something.' When we have no thought of achievement, no thought of self, we are true beginners. Then we can really learn something.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Zen Mind, Beginner's Mind, Prologue",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "shunryu-suzuki", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "proverb-chop-wood-carry-water",
+    "type": "proverb",
+    "author_slug": "puti-damo",
+    "collection": "Traditional Zen Proverbs",
+    "era": "Tang",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "Chop Wood, Carry Water",
+    "content": "Before enlightenment, chop wood, carry water. After enlightenment, chop wood, carry water.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Traditional Zen proverb",
+    "license_status": "public_domain",
+    "master_roles": []
+  },
+  {
+    "slug": "proverb-finger-pointing-moon",
+    "type": "proverb",
+    "author_slug": "shakyamuni-buddha",
+    "collection": "Traditional Zen Proverbs",
+    "era": "Tang",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "The Finger Pointing at the Moon",
+    "content": "The finger pointing at the moon is not the moon. All the words I speak to you are like a finger pointing at the moon. Do not mistake the finger for the moon.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Traditional Zen proverb; Lankavatara Sutra paraphrase",
+    "license_status": "public_domain",
+    "master_roles": []
+  },
+  {
+    "slug": "proverb-sitting-quietly",
+    "type": "proverb",
+    "author_slug": "shakyamuni-buddha",
+    "collection": "Traditional Zen Proverbs",
+    "era": "Tang",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "Sitting Quietly, Spring Comes",
+    "content": "Sitting quietly, doing nothing, spring comes, and the grass grows by itself.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Traditional Zen proverb; Zenrin Kushu",
+    "license_status": "public_domain",
+    "master_roles": []
+  },
+  {
+    "slug": "proverb-when-hungry-eat",
+    "type": "proverb",
+    "author_slug": "shakyamuni-buddha",
+    "collection": "Traditional Zen Proverbs",
+    "era": "Tang",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "When Hungry, Eat",
+    "content": "When hungry, eat. When tired, sleep. Fools laugh at me. But the wise understand.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Traditional Zen proverb; attributed to various masters",
+    "license_status": "public_domain",
+    "master_roles": []
+  },
+  {
+    "slug": "proverb-keep-climbing",
+    "type": "proverb",
+    "author_slug": "shakyamuni-buddha",
+    "collection": "Traditional Zen Proverbs",
+    "era": "Tang",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "When You Reach the Top, Keep Climbing",
+    "content": "When you get to the top of the mountain, keep climbing.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Zenrin Kushu (Zen Forest Anthology)",
+    "license_status": "public_domain",
+    "master_roles": []
+  },
+  {
+    "slug": "proverb-painting-rice-cake",
+    "type": "proverb",
+    "author_slug": "xiangyan-zhixian",
+    "collection": "Traditional Zen Proverbs",
+    "era": "Tang",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "A Painting of a Rice Cake Cannot Satisfy Hunger",
+    "content": "A painting of a rice cake cannot satisfy hunger.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Attributed to Xiangyan Zhixian; Jingde Chuandenglu",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "xiangyan-zhixian", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "proverb-empty-hand",
+    "type": "proverb",
+    "author_slug": "shakyamuni-buddha",
+    "collection": "Traditional Zen Proverbs",
+    "era": "Tang",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "Empty-Handed, I Hold the Hoe",
+    "content": "Empty-handed, I hold the hoe.\nWalking, I ride the water buffalo.\nCrossing the bridge—\nthe bridge flows, the water stands still.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Attributed to Mahasattva Fu; Zenrin Kushu",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "mahasattva-fu", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "proverb-ten-thousand-things",
+    "type": "proverb",
+    "author_slug": "shakyamuni-buddha",
+    "collection": "Traditional Zen Proverbs",
+    "era": "Tang",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "The Ten Thousand Things Return to the One",
+    "content": "The ten thousand things return to the one. Where does the one return to?",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Traditional Zen proverb; Zhaozhou Yulu",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "zhaozhou-congshen", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "proverb-old-pond-frog",
+    "type": "proverb",
+    "author_slug": "shakyamuni-buddha",
+    "collection": "Traditional Zen Proverbs",
+    "era": "Edo",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "The Old Pond",
+    "content": "The old pond—\na frog jumps in,\nsound of water.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Matsuo Basho, traditional Zen haiku",
+    "license_status": "public_domain",
+    "master_roles": []
+  },
+  {
+    "slug": "shido-bunan-die-while-alive",
+    "type": "saying",
+    "author_slug": "shido-bunan",
+    "collection": "Traditional Zen Sayings",
+    "era": "Edo",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "Die While Alive",
+    "content": "Die while alive, and be completely dead. Then do whatever you will, and all is good.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Attributed to Shido Bunan",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "shido-bunan", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "huangbo-beginners-mind",
+    "type": "sermon",
+    "author_slug": "huangbo-xiyun",
+    "collection": "Chuanxin Fayao",
+    "era": "Tang",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "No Distinction Between Ordinary and Holy",
+    "content": "All the Buddhas and all sentient beings are nothing but the universal mind, wherein nothing stirs. This mind, having no beginning, was never born and will never perish. Without form, without appearance, it transcends all categories. It cannot be perceived, it cannot be attained, and it is neither new nor old. It is neither long nor short, large nor small. It cannot be measured, named, traced, or compared. Is there anything you can add to it? Is there anything you can take away? Ordinary people and Buddhas—between them there is not a hair's breadth of distinction.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Chuanxin Fayao (On the Transmission of Mind)",
+    "translator": "John Blofeld",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "huangbo-xiyun", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "changsha-whole-universe-eye",
+    "type": "saying",
+    "author_slug": "changsha-jingcen",
+    "collection": "Traditional Zen Sayings",
+    "era": "Tang",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "The Whole Universe Is the Eye",
+    "content": "The entire universe in all ten directions is the eye of the monk. The entire universe in all ten directions is the everyday speech of the monk. The entire universe in all ten directions is the whole body of the monk. The entire universe in all ten directions is the light of the self. The entire universe in all ten directions exists within the light of the self. In the entire universe in all ten directions, there is no one who is not the self.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Jingde Chuandenglu, Changsha chapter",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "changsha-jingcen", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "huanglong-three-barriers",
+    "type": "dialogue",
+    "author_slug": "huanglong-huinan",
+    "collection": "Traditional Zen Encounter Dialogues",
+    "era": "Song",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "Huanglong's Three Barriers",
+    "content": "Huanglong asked every student who came to him three questions: \"Everyone has a place of birth—where is your place of birth?\" \"My hand is like the hand of Buddha—what is the hidden meaning?\" \"My foot is like the foot of a donkey—what is the secret?\" No student could answer all three. Huanglong said, \"If you cannot pass through these three barriers, your practice is like a tree without roots, your sitting is like water poured on stone.\"",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Jingde Chuandenglu, Huanglong chapter",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "huanglong-huinan", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "ruiyan-are-you-awake",
+    "type": "dialogue",
+    "author_slug": "ruiyan-shiyan",
+    "collection": "Traditional Zen Encounter Dialogues",
+    "era": "Tang",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "Master! Are You Awake?",
+    "content": "Every day Ruiyan would call out to himself, \"Master!\" and answer, \"Yes?\" Then he would say, \"Are you awake?\" and answer, \"Yes, yes!\" \"From now on, don't be fooled by others, any day, any time.\" \"No, no!\"",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Mumonkan Case 12; Jingde Chuandenglu, Ruiyan chapter",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "ruiyan-shiyan", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "danxia-burns-buddha",
+    "type": "dialogue",
+    "author_slug": "danxia-tianran",
+    "collection": "Traditional Zen Encounter Dialogues",
+    "era": "Tang",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "Danxia Burns the Wooden Buddha",
+    "content": "During a cold spell, Danxia took a wooden Buddha statue and burned it to make a fire. The temple keeper was horrified: \"How dare you burn the Buddha statue!\" Danxia poked in the ashes with a stick and said, \"I am looking for the sacred relics.\" The temple keeper said, \"How can you find relics in a wooden statue?\" Danxia said, \"If there are no relics, may I have the other two statues as well?\"",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Jingde Chuandenglu, Danxia chapter",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "danxia-tianran", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "changqing-blind-roll",
+    "type": "dialogue",
+    "author_slug": "changqing-huileng",
+    "collection": "Traditional Zen Encounter Dialogues",
+    "era": "Tang",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "Roll Up the Blind and See the World",
+    "content": "Changqing sat for many years wearing out seven meditation cushions without awakening. One day he tried to roll up the bamboo blind. In an instant his understanding opened. He composed a verse: \"How wrong, how wrong! Roll up the blind and see the world. If anyone asks what teaching I understand, I will hit them across the mouth with my whisk.\"",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Jingde Chuandenglu, Changqing chapter",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "changqing-huileng", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "xuansha-stubbed-toe",
+    "type": "dialogue",
+    "author_slug": "xuansha-shibei",
+    "collection": "Traditional Zen Encounter Dialogues",
+    "era": "Tang",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "Bodhidharma Never Came to China",
+    "content": "Xuansha was leaving the mountain when he stubbed his toe on a rock. Blood flowed and he cried out in pain. Then he said to himself, \"This body does not exist—where does the pain come from?\" At this he was deeply awakened and exclaimed, \"Bodhidharma never came to China. The Second Patriarch never went to India.\"",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Jingde Chuandenglu, Xuansha chapter",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "xuansha-shibei", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "moshan-neither-male-nor-female",
+    "type": "dialogue",
+    "author_slug": "moshan-liaoran",
+    "collection": "Traditional Zen Encounter Dialogues",
+    "era": "Tang",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "Neither Male Nor Female",
+    "content": "The monk Guanxi came to test Moshan. He asked, \"What is the mountain?\" Moshan said, \"Its peak does not reveal itself.\" Guanxi asked, \"Who is the person on the mountain?\" Moshan said, \"Neither male nor female in form.\" Guanxi shouted, \"Why doesn't it transform!\" Moshan said, \"It is not a god, it is not a demon—what would it transform into?\" At this, Guanxi submitted and became her student, serving as her garden keeper for three years.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Jingde Chuandenglu, Moshan chapter",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "moshan-liaoran", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "fayan-what-is-that",
+    "type": "dialogue",
+    "author_slug": "fayan-wenyi",
+    "collection": "Traditional Zen Encounter Dialogues",
+    "era": "Five Dynasties",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "What Is This Thing That Thus Comes?",
+    "content": "Fayan pointed to the bamboo blind. Two monks went and rolled it up in exactly the same way. Fayan said, \"One got it. One missed it.\"",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Mumonkan Case 26; Jingde Chuandenglu, Fayan chapter",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "fayan-wenyi", "role": "speaker" }
+    ]
   }
 ]
