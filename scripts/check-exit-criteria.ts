@@ -207,6 +207,9 @@ async function main() {
       .select({
         id: teachings.id,
         authorId: teachings.authorId,
+        type: teachings.type,
+        collection: teachings.collection,
+        attributionStatus: teachings.attributionStatus,
       })
       .from(teachings),
     db
@@ -438,6 +441,43 @@ async function main() {
       tier1Masters.length
     )})`
   );
+
+  const teachingTypeCounts = new Map<string, number>();
+  for (const teaching of allTeachings) {
+    const key = teaching.type ?? "other";
+    teachingTypeCounts.set(key, (teachingTypeCounts.get(key) ?? 0) + 1);
+  }
+
+  console.log("\nTeaching coverage by content class");
+  printMetric("Koan cases", teachingTypeCounts.get("koan") ?? 0);
+  printMetric("Sayings", teachingTypeCounts.get("saying") ?? 0);
+  printMetric("Dialogues", teachingTypeCounts.get("dialogue") ?? 0);
+  printMetric("Verses", teachingTypeCounts.get("verse") ?? 0);
+  printMetric("Sermons", teachingTypeCounts.get("sermon") ?? 0);
+  printMetric("Proverbs", teachingTypeCounts.get("proverb") ?? 0);
+  printMetric(
+    "Other",
+    allTeachings.length -
+      (teachingTypeCounts.get("koan") ?? 0) -
+      (teachingTypeCounts.get("saying") ?? 0) -
+      (teachingTypeCounts.get("dialogue") ?? 0) -
+      (teachingTypeCounts.get("verse") ?? 0) -
+      (teachingTypeCounts.get("sermon") ?? 0) -
+      (teachingTypeCounts.get("proverb") ?? 0)
+  );
+
+  const attributionCounts = { verified: 0, traditional: 0, unresolved: 0 };
+  for (const teaching of allTeachings) {
+    const status = teaching.attributionStatus;
+    if (status === "verified") attributionCounts.verified++;
+    else if (status === "traditional") attributionCounts.traditional++;
+    else attributionCounts.unresolved++;
+  }
+
+  console.log("\nTeaching attribution status");
+  printMetric("Verified", attributionCounts.verified);
+  printMetric("Traditional", attributionCounts.traditional);
+  printMetric("Unresolved", attributionCounts.unresolved);
 
   console.log("\nSource diversity");
   printMetric("Registered sources", allSources.length);

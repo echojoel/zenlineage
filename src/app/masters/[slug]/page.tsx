@@ -14,6 +14,7 @@ import {
   masterBiographies,
   teachingContent,
   teachings,
+  teachingMasterRoles,
 } from "@/db/schema";
 import {
   buildCitationKeySet,
@@ -162,6 +163,12 @@ export default async function MasterDetailPage({ params }: { params: Promise<{ s
       type: teachings.type,
       title: teachingContent.title,
       content: teachingContent.content,
+      caseNumber: teachings.caseNumber,
+      collection: teachings.collection,
+      attributionStatus: teachings.attributionStatus,
+      licenseStatus: teachingContent.licenseStatus,
+      translator: teachingContent.translator,
+      edition: teachingContent.edition,
     })
     .from(teachings)
     .leftJoin(
@@ -169,6 +176,55 @@ export default async function MasterDetailPage({ params }: { params: Promise<{ s
       and(eq(teachingContent.teachingId, teachings.id), eq(teachingContent.locale, "en"))
     )
     .where(eq(teachings.authorId, master.id));
+
+  const teachingIds = teachingRows.map((t) => t.id);
+  const masterRoleRows =
+    teachingIds.length > 0
+      ? await db
+          .select({
+            teachingId: teachingMasterRoles.teachingId,
+            masterId: teachingMasterRoles.masterId,
+            role: teachingMasterRoles.role,
+          })
+          .from(teachingMasterRoles)
+          .where(inArray(teachingMasterRoles.teachingId, teachingIds))
+      : [];
+
+  const roleMasterIds = Array.from(
+    new Set(masterRoleRows.map((r) => r.masterId).filter((id) => id !== master.id))
+  );
+  const roleNameRows =
+    roleMasterIds.length > 0
+      ? await db
+          .select({
+            masterId: masterNames.masterId,
+            value: masterNames.value,
+            nameType: masterNames.nameType,
+          })
+          .from(masterNames)
+          .where(and(inArray(masterNames.masterId, roleMasterIds), eq(masterNames.locale, "en")))
+      : [];
+
+  const roleNameMap = new Map<string, string>();
+  for (const row of roleNameRows) {
+    if (row.nameType === "dharma" && !roleNameMap.has(row.masterId)) {
+      roleNameMap.set(row.masterId, row.value);
+    }
+  }
+  for (const row of roleNameRows) {
+    if (!roleNameMap.has(row.masterId)) {
+      roleNameMap.set(row.masterId, row.value);
+    }
+  }
+  // Include the current master's name in the role name map
+  roleNameMap.set(master.id, primaryName);
+
+  const rolesByTeachingId = new Map<string, { masterId: string; role: string }[]>();
+  for (const row of masterRoleRows) {
+    const roles = rolesByTeachingId.get(row.teachingId) ?? [];
+    roles.push({ masterId: row.masterId, role: row.role });
+    rolesByTeachingId.set(row.teachingId, roles);
+  }
   const mediaRows = await db
     .select({
       id: mediaAssets.id,
@@ -407,21 +463,58 @@ export default async function MasterDetailPage({ params }: { params: Promise<{ s
             </p>
           ) : (
             <ul className="detail-source-list">
-              {publishedTeachings.map((teaching) => (
-                <li key={teaching.id}>
-                  <div className="detail-source-heading">
-                    <span>{teaching.type ?? "teaching"}</span>
-                    <span>{teaching.title ?? "Untitled teaching"}</span>
-                  </div>
-                  {teaching.content ? (
-                    <p className="detail-source-excerpt">{teaching.content}</p>
-                  ) : (
-                    <p className="detail-muted">
-                      Teaching metadata exists, but no English text has been imported yet.
-                    </p>
-                  )}
-                </li>
-              ))}
+              {publishedTeachings.map((teaching) => {
+                const roles = rolesByTeachingId.get(teaching.id) ?? [];
+                const collectionBadge =
+                  teaching.type === "koan" && teaching.collection && teaching.caseNumber
+                    ? `${teaching.collection} Case ${teaching.caseNumber}`
+                    : null;
+                const translatorLine =
+                  teaching.translator
+                    ? `tr. ${teaching.translator}${teaching.edition ? `, ${teaching.edition}` : ""}`
+                    : null;
+                const attributionTag =
+                  teaching.attributionStatus === "traditional"
+                    ? "(traditional attribution)"
+                    : teaching.attributionStatus === "unresolved"
+                      ? "(unresolved attribution)"
+                      : null;
+
+                return (
+                  <li key={teaching.id}>
+                    <div className="detail-source-heading">
+                      <span>{teaching.type ?? "teaching"}</span>
+                      <span>{teaching.title ?? "Untitled teaching"}</span>
+                    </div>
+                    {collectionBadge && (
+                      <p className="detail-list-meta">{collectionBadge}</p>
+                    )}
+                    {attributionTag && (
+                      <p className="detail-list-meta">{attributionTag}</p>
+                    )}
+                    {teaching.content ? (
+                      <p className="detail-source-excerpt">{teaching.content}</p>
+                    ) : (
+                      <p className="detail-muted">
+                        Teaching metadata exists, but no English text has been imported yet.
+                      </p>
+                    )}
+                    {translatorLine && (
+                      <p className="detail-list-meta">{translatorLine}</p>
+                    )}
+                    {roles.length > 0 && (
+                      <p className="detail-list-meta">
+                        {roles
+                          .map(
+                            (r) =>
+                              `${r.role.charAt(0).toUpperCase()}${r.role.slice(1)}: ${roleNameMap.get(r.masterId) ?? r.masterId}`
+                          )
+                          .join(", ")}
+                      </p>
+                    )}
+                  </li>
+                );
+              })}
             </ul>
           )}
         </section>
