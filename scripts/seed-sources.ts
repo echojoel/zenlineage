@@ -9,6 +9,7 @@
 
 import { db } from "@/db";
 import { sources } from "@/db/schema";
+import { BIOGRAPHY_EDITORIAL_SOURCE } from "./biography-citations";
 
 const SOURCES = [
   {
@@ -65,9 +66,28 @@ const SOURCES = [
     publicationDate: null,
     reliability: "popular",
   },
+  {
+    id: "src_originals_curated",
+    type: "editorial_dataset",
+    title: "Zen Editorial Overlay - Originals Curation",
+    author: "Zen project editorial",
+    url: null,
+    publicationDate: null,
+    reliability: "editorial",
+  },
+  {
+    id: "src_sotozen_founders",
+    type: "website",
+    title: "Soto Zen Buddhism - Shakyamuni Buddha and the Two Founders",
+    author: "Sotoshu / Soto Zen Buddhism",
+    url: "https://www.sotozen.com/eng/about/Buddha_founders/",
+    publicationDate: null,
+    reliability: "authoritative",
+  },
+  BIOGRAPHY_EDITORIAL_SOURCE,
 ] as const;
 
-async function main() {
+export default async function main() {
   console.log("Seeding sources…");
 
   for (const src of SOURCES) {
@@ -92,7 +112,9 @@ async function main() {
   console.log(`\nSeeded ${SOURCES.length} sources.`);
 }
 
-main().catch((err) => {
-  console.error(err);
-  process.exit(1);
-});
+if (process.argv[1] && process.argv[1].endsWith("seed-sources.ts")) {
+  main().catch((err) => {
+    console.error(err);
+    process.exit(1);
+  });
+}

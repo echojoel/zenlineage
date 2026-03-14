@@ -1,4 +1,17 @@
-export default function Home() {
+import Link from "next/link";
+import { sql } from "drizzle-orm";
+import { db } from "@/db";
+import { masters, masterTransmissions, schools } from "@/db/schema";
+
+export default async function Home() {
+  const [masterRow, schoolRow, transmissionRow] = await Promise.all([
+    db.select({ count: sql<number>`count(*)` }).from(masters),
+    db.select({ count: sql<number>`count(*)` }).from(schools),
+    db.select({ count: sql<number>`count(*)` }).from(masterTransmissions),
+  ]);
+
+  const countsLabel = `${masterRow[0]?.count ?? 0} masters · ${schoolRow[0]?.count ?? 0} schools · ${transmissionRow[0]?.count ?? 0} transmissions`;
+
   return (
     <main className="flex min-h-screen flex-col items-center justify-center px-6 text-center"
           style={{ background: "var(--paper)" }}>
@@ -62,19 +75,13 @@ export default function Home() {
           { label: "Schools", href: "/schools" },
           { label: "Timeline", href: "/timeline" },
         ].map(({ label, href }) => (
-          <a
+          <Link
             key={href}
             href={href}
-            style={{
-              textDecoration: "none",
-              color: "inherit",
-              transition: "color 0.2s",
-            }}
-            onMouseEnter={e => (e.currentTarget.style.color = "var(--ink)")}
-            onMouseLeave={e => (e.currentTarget.style.color = "var(--ink-light)")}
+            className="nav-link"
           >
             {label}
-          </a>
+          </Link>
         ))}
       </nav>
 
@@ -89,7 +96,7 @@ export default function Home() {
         color: "var(--ink-light)",
         opacity: 0.5,
       }}>
-        Phase 2 — coming soon
+        {countsLabel}
       </p>
     </main>
   );

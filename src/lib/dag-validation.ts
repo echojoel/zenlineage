@@ -32,6 +32,10 @@ export interface ValidationIssue {
   entityIds: string[];
 }
 
+interface ValidationIssueInternal extends ValidationIssue {
+  _warning?: boolean;
+}
+
 export interface ValidationResult {
   valid: boolean; // true if no errors (warnings are OK)
   errors: ValidationIssue[];
@@ -166,7 +170,7 @@ export function checkTemporalConsistency(
   const USABLE_PRECISIONS = new Set(["exact", "circa"]);
   const HIGH_CONFIDENCE = new Set(["certain", "probable"]);
 
-  const issues: ValidationIssue[] = [];
+  const issues: ValidationIssueInternal[] = [];
 
   for (const edge of edges) {
     const teacher = mastersById.get(edge.teacherId);
@@ -196,7 +200,7 @@ export function checkTemporalConsistency(
       });
       // Mark as error only when high confidence
       if (!bothBirthHighConf) {
-        (issues[issues.length - 1] as any)._warning = true;
+        issues[issues.length - 1]._warning = true;
       }
     }
 
@@ -217,7 +221,7 @@ export function checkTemporalConsistency(
           entityIds: [edge.id, edge.teacherId, edge.studentId],
         });
         if (!highConf) {
-          (issues[issues.length - 1] as any)._warning = true;
+          issues[issues.length - 1]._warning = true;
         }
       }
     }
@@ -300,12 +304,12 @@ export function validateDAG(
   errors.push(...detectCycles(edges));
 
   // Temporal — errors when high confidence, warnings otherwise
-  const temporalIssues = checkTemporalConsistency(edges, masters);
+  const temporalIssues = checkTemporalConsistency(edges, masters) as ValidationIssueInternal[];
   for (const issue of temporalIssues) {
-    if ((issue as any)._warning) {
-      // Strip internal marker before exposing
-      delete (issue as any)._warning;
-      warnings.push(issue);
+    if (issue._warning) {
+      // eslint-disable-next-line @typescript-eslint/no-unused-vars
+      const { _warning: _, ...clean } = issue;
+      warnings.push(clean);
     } else {
       errors.push(issue);
     }

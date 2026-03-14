@@ -11,13 +11,18 @@ import fs from 'fs';
 import path from 'path';
 import { db } from '@/db';
 import {
+  schoolNames,
+  schools,
   masters,
   masterNames,
   masterTransmissions,
   searchTokens,
   citations,
-  sources,
+  teachingContent,
+  teachingRelations,
+  teachings,
 } from '@/db/schema';
+import { buildResolvedMasterSlugMap } from './master-slugs';
 import type {
   CanonicalMaster,
   CanonicalTransmission,
@@ -41,25 +46,39 @@ function readJson<T>(filename: string): T | null {
 }
 
 // ---------------------------------------------------------------------------
+// Reset derived tables so reseeding reflects the current canonical dataset.
+// ---------------------------------------------------------------------------
+
+async function resetDerivedTables(): Promise<void> {
+  console.log("Resetting derived tables...");
+
+  await db.delete(searchTokens);
+  await db.delete(citations);
+  // Content tables with master FKs must be cleared before rebuilding masters.
+  await db.delete(teachingRelations);
+  await db.delete(teachingContent);
+  await db.delete(teachings);
+  // NOTE: masterBiographies is intentionally NOT cleared here.
+  // seed-biographies.ts is a durable additive script; biographies survive re-seeds.
+  await db.delete(masterTransmissions);
+  await db.delete(masterNames);
+  await db.delete(masters);
+  await db.delete(schoolNames);
+  await db.delete(schools);
+
+  console.log("✓ Derived tables cleared");
+}
+
+// ---------------------------------------------------------------------------
 // Upsert masters
 // ---------------------------------------------------------------------------
 
 async function seedMasters(canonicalMasters: CanonicalMaster[]): Promise<void> {
   console.log(`Seeding ${canonicalMasters.length} masters...`);
 
-  // Disambiguate slugs before inserting (two masters may share the same slug)
-  const usedSlugs = new Map<string, string>(); // slug → id that first claimed it
-  const resolvedSlugs = new Map<string, string>(); // master id → final slug
-  for (const m of canonicalMasters) {
-    let slug = m.slug || 'master';
-    if (usedSlugs.has(slug)) {
-      let counter = 2;
-      while (usedSlugs.has(`${slug}-${counter}`)) counter++;
-      slug = `${slug}-${counter}`;
-    }
-    usedSlugs.set(slug, m.id);
-    resolvedSlugs.set(m.id, slug);
-  }
+  const resolvedSlugs = buildResolvedMasterSlugMap(
+    canonicalMasters.map((master) => ({ id: master.id, slug: master.slug })),
+  );
 
   for (const m of canonicalMasters) {
     const slug = resolvedSlugs.get(m.id) ?? m.slug;
@@ -236,7 +255,10 @@ async function main(): Promise<void> {
     process.exit(1);
   }
 
+  await resetDerivedTables();
   await seedMasters(canonicalMasters);
+  const { default: seedSchools } = await import('./seed-schools');
+  await seedSchools();
   if (transmissions) await seedTransmissions(transmissions);
   if (citationList) await seedCitations(citationList);
   if (tokens) await seedSearchTokens(tokens);

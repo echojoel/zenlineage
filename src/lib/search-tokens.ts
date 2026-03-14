@@ -1,5 +1,6 @@
 import { pinyin } from 'pinyin';
-import { toRomaji, isKana } from 'wanakana';
+import { toRomaji } from 'wanakana';
+import { looksWadeGiles } from '@/lib/romanization';
 
 // ---------------------------------------------------------------------------
 // Types
@@ -163,10 +164,6 @@ function wadeGilesTokens(
   }
 
   return tokens;
-}
-
-function looksWadeGiles(s: string): boolean {
-  return /[''\u2019]/.test(s) || /\w-\w/.test(s);
 }
 
 // ---------------------------------------------------------------------------

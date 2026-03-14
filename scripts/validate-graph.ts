@@ -17,6 +17,7 @@ async function main() {
 
   const allMasters = await db.select().from(masters);
   const allTransmissions = await db.select().from(masterTransmissions);
+  const masterSlugById = new Map(allMasters.map((master) => [master.id, master.slug]));
 
   const masterIds = allMasters.map((m) => m.id);
 
@@ -42,12 +43,27 @@ async function main() {
   console.log(`  Transmissions: ${edges.length}\n`);
 
   const result = validateDAG(edges, masterDates, masterIds);
+  const formatEntityIds = (entityIds: string[]) =>
+    entityIds.map((entityId) => masterSlugById.get(entityId) ?? entityId).join(", ");
+  const formatMessage = (message: string, entityIds: string[]) => {
+    if (entityIds.length !== 1) {
+      return message;
+    }
+
+    const entityId = entityIds[0];
+    const slug = masterSlugById.get(entityId);
+    if (!slug) {
+      return message;
+    }
+
+    return message.replace(entityId, slug);
+  };
 
   if (result.errors.length > 0) {
     console.log(`ERRORS (${result.errors.length}):`);
     for (const err of result.errors) {
-      console.log(`  [${err.type}] ${err.message}`);
-      console.log(`    Entities: ${err.entityIds.join(", ")}`);
+      console.log(`  [${err.type}] ${formatMessage(err.message, err.entityIds)}`);
+      console.log(`    Entities: ${formatEntityIds(err.entityIds)}`);
     }
     console.log();
   }
@@ -55,8 +71,8 @@ async function main() {
   if (result.warnings.length > 0) {
     console.log(`WARNINGS (${result.warnings.length}):`);
     for (const warn of result.warnings) {
-      console.log(`  [${warn.type}] ${warn.message}`);
-      console.log(`    Entities: ${warn.entityIds.join(", ")}`);
+      console.log(`  [${warn.type}] ${formatMessage(warn.message, warn.entityIds)}`);
+      console.log(`    Entities: ${formatEntityIds(warn.entityIds)}`);
     }
     console.log();
   }

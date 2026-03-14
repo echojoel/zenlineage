@@ -4,6 +4,7 @@ import {
   integer,
   real,
   primaryKey,
+  type AnySQLiteColumn,
 } from "drizzle-orm/sqlite-core";
 
 // ---------------------------------------------------------------------------
@@ -18,7 +19,7 @@ export const schools = sqliteTable("schools", {
   id: text("id").primaryKey(),
   slug: text("slug").notNull().unique(),
   tradition: text("tradition"),
-  parentId: text("parent_id").references((): any => schools.id),
+  parentId: text("parent_id").references((): AnySQLiteColumn => schools.id),
   founderId: text("founder_id"), // FK added after masters is defined
   foundedYear: integer("founded_year"),
   foundedPrecision: text("founded_precision"),
@@ -82,7 +83,7 @@ export const masterBiographies = sqliteTable("master_biographies", {
   id: text("id").primaryKey(),
   masterId: text("master_id")
     .notNull()
-    .references(() => masters.id),
+    .references(() => masters.id, { onDelete: 'cascade' }),
   locale: text("locale").notNull(),
   content: text("content").notNull(),
 });

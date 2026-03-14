@@ -11,33 +11,17 @@
 import { PDFParse } from "pdf-parse";
 import fs from "fs";
 import path from "path";
-import { nanoid } from "nanoid";
-import { db } from "@/db";
-import { ingestionRuns } from "@/db/schema";
+import { sanitizeRawMasters } from "./raw-master-cleaning";
+import type { RawMaster, RawTeacherRef } from "./scraper-types";
+import {
+  failIngestionRun,
+  finishIngestionRun,
+  fingerprintContent,
+  startIngestionRun,
+  toArchiveRef,
+} from "./ingestion-provenance";
 
-// ---------------------------------------------------------------------------
-// Types
-// ---------------------------------------------------------------------------
-
-export interface RawTeacherRef {
-  name: string;
-  edge_type?: "primary" | "secondary" | "disputed";
-  locator?: string;
-  notes?: string;
-}
-
-export interface RawMaster {
-  name: string;
-  names_cjk: string;
-  dates: string;
-  teachers: RawTeacherRef[];
-  school: string;
-  source_id: string;
-  ingestion_run_id: string;
-  names_alt?: string[];
-  grid_code?: string;
-  nicknames?: string[];
-}
+export type { RawMaster, RawTeacherRef } from "./scraper-types";
 
 // ---------------------------------------------------------------------------
 // Date pattern — matches the various date formats found in the PDF
@@ -140,6 +124,7 @@ export function parseIndex(lines: string[]): {
   const entries: IndexEntry[] = [];
   const notShown: NotShownRef[] = [];
   const seeRefs = new Map<string, string>();
+  let lastEntry: IndexEntry | null = null;
 
   for (let i = 0; i < lines.length; i++) {
     const line = lines[i];
@@ -168,7 +153,16 @@ export function parseIndex(lines: string[]): {
 
     // Skip lines that are purely koan number overflow (continuation lines)
     // These are lines with only numbers, commas, tabs, and spaces
-    if (/^[\d,\s\t]+$/.test(trimmed)) continue;
+    if (/^[\d,\s\t]+$/.test(trimmed)) {
+      if (lastEntry) {
+        const overflow = trimmed.replace(/\t+/g, " ").trim();
+        lastEntry.koanRefs = [lastEntry.koanRefs, overflow]
+          .filter(Boolean)
+          .join(" ")
+          .trim();
+      }
+      continue;
+    }
 
     // Skip header/label lines
     if (/^Pinyin\b/i.test(trimmed)) continue;
@@ -190,7 +184,9 @@ export function parseIndex(lines: string[]): {
 
       // Validate: pinyin should look like a name (has a space, starts uppercase)
       if (pinyin && /^[A-Z]/.test(pinyin) && wadeGiles) {
-        entries.push({ pinyin, wadeGiles, romaji, gridCode, koanRefs });
+        const entry = { pinyin, wadeGiles, romaji, gridCode, koanRefs };
+        entries.push(entry);
+        lastEntry = entry;
       }
     }
   }
@@ -376,6 +372,7 @@ export function buildRawMasters(
       names_alt: namesAlt.length > 0 ? namesAlt : undefined,
       grid_code: entry.gridCode || undefined,
       nicknames: nicknames.length > 0 ? nicknames : undefined,
+      koan_refs: entry.koanRefs || undefined,
     });
   }
 
@@ -401,7 +398,7 @@ export function buildRawMasters(
     }
   }
 
-  return masters;
+  return sanitizeRawMasters(masters);
 }
 
 // ---------------------------------------------------------------------------
@@ -482,80 +479,64 @@ async function main() {
     process.env.PDF_PATH ?? "Chart-of-the-Chan-Ancestors.pdf",
   );
 
-  console.log(`Reading PDF: ${pdfPath}`);
-  const buffer = fs.readFileSync(pdfPath);
-  const uint8 = new Uint8Array(buffer);
-  const parser = new PDFParse(uint8);
-  await parser.load();
-  const result = await parser.getText();
-  const text = result.text;
-
-  console.log(`Extracted ${text.length} characters of text.`);
-
-  // Split into sections
-  const { chartLines, indexLines } = splitSections(text);
-  console.log(
-    `Chart section: ${chartLines.length} lines, Index section: ${indexLines.length} lines`,
-  );
-
-  // Parse each section
-  const { entries, notShown, seeRefs } = parseIndex(indexLines);
-  console.log(
-    `Index: ${entries.length} entries, ${notShown.length} "not shown" refs, ${seeRefs.size} cross-refs`,
-  );
-
-  const chartBlocks = parseChartBlocks(chartLines);
-  console.log(`Chart: ${chartBlocks.length} master blocks`);
-
-  // Create ingestion run
-  const ingestionRunId = `run_${nanoid()}`;
-  await db.insert(ingestionRuns).values({
-    id: ingestionRunId,
+  const run = await startIngestionRun({
     sourceId: "src_chan_ancestors_pdf",
-    runDate: new Date().toISOString(),
     scriptName: "extract-pdf.ts",
-    status: "running",
-    recordCount: 0,
   });
 
-  // Build output
-  const masters = buildRawMasters(
-    entries,
-    chartBlocks,
-    notShown,
-    ingestionRunId,
-  );
-  console.log(`Built ${masters.length} RawMaster records.`);
+  try {
+    console.log(`Reading PDF: ${pdfPath}`);
+    const buffer = fs.readFileSync(pdfPath);
+    const uint8 = new Uint8Array(buffer);
+    const parser = new PDFParse(uint8);
+    const result = await parser.getText();
+    const text = result.text;
 
-  // Write output
-  const outDir = path.resolve("scripts/data/raw");
-  fs.mkdirSync(outDir, { recursive: true });
-  const outPath = path.join(outDir, "chan-ancestors.json");
-  fs.writeFileSync(outPath, JSON.stringify(masters, null, 2));
-  console.log(`Wrote output to ${outPath}`);
+    console.log(`Extracted ${text.length} characters of text.`);
 
-  // Update ingestion run
-  await db
-    .insert(ingestionRuns)
-    .values({
-      id: ingestionRunId,
-      sourceId: "src_chan_ancestors_pdf",
-      runDate: new Date().toISOString(),
-      scriptName: "extract-pdf.ts",
-      status: "success",
+    // Split into sections
+    const { chartLines, indexLines } = splitSections(text);
+    console.log(
+      `Chart section: ${chartLines.length} lines, Index section: ${indexLines.length} lines`,
+    );
+
+    // Parse each section
+    const { entries, notShown, seeRefs } = parseIndex(indexLines);
+    console.log(
+      `Index: ${entries.length} entries, ${notShown.length} "not shown" refs, ${seeRefs.size} cross-refs`,
+    );
+
+    const chartBlocks = parseChartBlocks(chartLines);
+    console.log(`Chart: ${chartBlocks.length} master blocks`);
+
+    // Build output
+    const masters = buildRawMasters(
+      entries,
+      chartBlocks,
+      notShown,
+      run.id,
+    );
+    console.log(`Built ${masters.length} RawMaster records.`);
+
+    // Write output
+    const outDir = path.resolve("scripts/data/raw");
+    fs.mkdirSync(outDir, { recursive: true });
+    const outPath = path.join(outDir, "chan-ancestors.json");
+    fs.writeFileSync(outPath, JSON.stringify(masters, null, 2));
+    console.log(`Wrote output to ${outPath}`);
+
+    await finishIngestionRun(run, {
       recordCount: masters.length,
       notes: `Extracted ${entries.length} index entries, ${notShown.length} not-shown refs, ${chartBlocks.length} chart blocks`,
-    })
-    .onConflictDoUpdate({
-      target: ingestionRuns.id,
-      set: {
-        status: "success",
-        recordCount: masters.length,
-        notes: `Extracted ${entries.length} index entries, ${notShown.length} not-shown refs, ${chartBlocks.length} chart blocks`,
-      },
+      snapshotHash: fingerprintContent(buffer),
+      snapshotArchiveRef: toArchiveRef(pdfPath),
     });
 
-  console.log("Done.");
+    console.log("Done.");
+  } catch (err) {
+    await failIngestionRun(run, err);
+    throw err;
+  }
 }
 
 // Only run main() when executed directly (not when imported by tests)

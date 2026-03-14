@@ -7,8 +7,14 @@
 
 import * as cheerio from 'cheerio';
 import fs from 'fs';
-import { nanoid } from 'nanoid';
 import type { RawMaster, RawTeacherRef } from './scraper-types';
+import {
+  failIngestionRun,
+  finishIngestionRun,
+  fingerprintContent,
+  startIngestionRun,
+  toArchiveRef,
+} from './ingestion-provenance';
 
 /**
  * Parse a single master line to extract name, CJK, dates, and notes.
@@ -99,7 +105,7 @@ export function parseHtml(
     const parentStack: Array<{ level: number; name: string }> = [];
 
     $(contentDiv).children().each((_j, el) => {
-      const tagName = (el as cheerio.Element).tagName?.toLowerCase();
+      const tagName = (el as { tagName?: string }).tagName?.toLowerCase();
 
       if (tagName === 'h2' || tagName === 'h3') {
         currentSchool = $(el).text().trim()
@@ -159,6 +165,7 @@ export function parseHtml(
 async function main() {
   const inputPath = process.argv[2] || 'scripts/data/raw/terebess.html';
   const outputPath = process.argv[3] || 'scripts/data/raw/terebess.json';
+  const sourceId = 'src_terebess';
 
   if (!fs.existsSync(inputPath)) {
     console.error(`Input file not found: ${inputPath}`);
@@ -167,12 +174,28 @@ async function main() {
   }
 
   const html = fs.readFileSync(inputPath, 'utf-8');
-  const runId = nanoid();
-  const masters = parseHtml(html, 'src_terebess', runId);
+  const run = await startIngestionRun({
+    sourceId,
+    scriptName: 'extract-terebess.ts',
+  });
 
-  fs.writeFileSync(outputPath, JSON.stringify(masters, null, 2));
-  console.log(`Extracted ${masters.length} masters from Terebess`);
-  console.log(`Output written to ${outputPath}`);
+  try {
+    const masters = parseHtml(html, sourceId, run.id);
+
+    fs.writeFileSync(outputPath, JSON.stringify(masters, null, 2));
+    await finishIngestionRun(run, {
+      recordCount: masters.length,
+      notes: `Extracted ${masters.length} masters from Terebess HTML.`,
+      snapshotHash: fingerprintContent(html),
+      snapshotArchiveRef: toArchiveRef(inputPath),
+    });
+
+    console.log(`Extracted ${masters.length} masters from Terebess`);
+    console.log(`Output written to ${outputPath}`);
+  } catch (err) {
+    await failIngestionRun(run, err);
+    throw err;
+  }
 }
 
 // Only run main when executed directly (not when imported)

@@ -20,4 +20,7 @@ export interface RawMaster {
   source_id: string;
   ingestion_run_id: string;
   names_alt?: string[];   // Alternative romanizations
+  grid_code?: string;
+  nicknames?: string[];
+  koan_refs?: string;
 }

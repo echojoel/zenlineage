@@ -1,0 +1,7534 @@
+[
+  {
+    "id": "_1Cl22lVVw0x5tya5L6fJ",
+    "slug": "kapimala",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Kapimala"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Indian Patriarchs",
+    "source_ids": [
+      "src_originals_curated"
+    ]
+  },
+  {
+    "id": "_aaQkfq6Ay3kPKB2xV4pw",
+    "slug": "dagui-muzhe",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Dagui Muzhe"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Ta-kuei Mu-chê"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Daii Botetsu"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Caodong",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "_gqRy0igxACiZ1ZAcGt4c",
+    "slug": "foyan-qingyuan",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Foyan Qingyuan"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Fo-yen Ch'ing-yüan"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Butsugen Seion"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Yangqi line",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "-amvWaGTGKmxQyp14n6J2",
+    "slug": "yunmen-wenyan",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Yunmen Wenyan"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Yün-men Wên-yen"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Ummon Bun'en"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "ummon bun'en"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "yün-mên wên-yen"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "雲門文偃"
+      }
+    ],
+    "birth_year": 864,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 949,
+    "death_precision": "exact",
+    "death_confidence": "high",
+    "school": "Yunmen",
+    "source_ids": [
+      "src_chan_ancestors_pdf",
+      "src_originals_curated"
+    ]
+  },
+  {
+    "id": "-lkE_Q1eKm1hALEp12sD8",
+    "slug": "jinhua-juzhi",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Jinhua Juzhi"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Chin-hua Chü-chih"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Gutei Chikan"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Yunmen",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "-nClvaByR9P4FRYQMX4_L",
+    "slug": "haklena",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Haklena"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Haklenayasha"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Indian Patriarchs",
+    "source_ids": [
+      "src_originals_curated"
+    ]
+  },
+  {
+    "id": "-ODyZKNOSwVAyBA7yRVjn",
+    "slug": "juefan-huihong",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Juefan Huihong"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Chüeh-fan Hui-hung"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Kakuhan Ekô"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Linji",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "-x_tMuMjPp3DZQGCGA0zs",
+    "slug": "songshan-puji",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Songshan Puji"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Sung-shan P'u-chi"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Sûzan Fujaku"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Qingyuan line",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "0_an1VP-SgfI-rwnL591D",
+    "slug": "punyamitra",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Punyamitra"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Indian Patriarchs",
+    "source_ids": [
+      "src_originals_curated"
+    ]
+  },
+  {
+    "id": "0-ND3KJXjjf5gkb1aJbM_",
+    "slug": "mazu-daoyi",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Mazu Daoyi"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Ma-tsu Tao-i"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Baso Dôitsu"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "baso dôitsu"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "ma-tsu tao-i"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "馬祖道一"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Linji",
+    "source_ids": [
+      "src_chan_ancestors_pdf",
+      "src_originals_curated"
+    ]
+  },
+  {
+    "id": "0q3Qprk3B6N7TFdNLpOUu",
+    "slug": "gaoan-dayu",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Gaoan Dayu"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Kao-an Ta-yü"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Kôan Daigu"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Yunmen",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "0yYHIqv6h1fQlQqfk2eQy",
+    "slug": "nanpu-shaoming",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Nanpu Shaoming"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Nan-p’u Shao-ming"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Nampo Jômyô"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Linji",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "1aRVSJptwURPY9AZHpDGM",
+    "slug": "jingzhong-shenhui",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Jingzhong Shenhui"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Ching-Chung Shên-hui"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Jôshu Jinne"
+      }
+    ],
+    "birth_year": 720,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 794,
+    "death_precision": "exact",
+    "death_confidence": "high",
+    "school": "Other",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "1hXjfik6NhiACunrULRzu",
+    "slug": "langye-huijue",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Langye Huijue"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Lang-yeh Hui-chüeh"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Rôya Ekaku"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Linji",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "1L1RalHVjkUCvzsl46eE-",
+    "slug": "liangshan-yuanguan",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Liangshan Yuanguan"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Liang-shan Yüan-kuan"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Ryôzan Enkan"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Caodong",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "1qhC-vJBtbBQ4Cs_DcLfQ",
+    "slug": "cuiwei-wuxue",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Cuiwei Wuxue"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Ts'ui-wei Wu-hsüeh"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Suibi Mugaku"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Qingyuan line",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "1RFyY3lzzzRYNuLT0eyeZ",
+    "slug": "huanglong-huinan",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Huanglong Huinan"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Huang-lung Hui-nan"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Ôryû Enan"
+      }
+    ],
+    "birth_year": 1002,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 1069,
+    "death_precision": "exact",
+    "death_confidence": "high",
+    "school": "Linji",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "1SC2EPq9Yj9sLkPHvecSM",
+    "slug": "baoshou-yanzhao",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Baoshou Yanzhao"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Pao-shou Yen-chao"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Hôju Enshô"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Linji",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "1wPtFQiIIUelXmbaA8ml1",
+    "slug": "koun-ejo",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Koun Ejo"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "孤雲懐奘"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Koun Ejō"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Ejo"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "koun ejo"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "ejo"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Soto",
+    "source_ids": [
+      "src_sotozen_founders"
+    ]
+  },
+  {
+    "id": "207kUvhLH1az0H6YA57NV",
+    "slug": "huguo-shoucheng",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Huguo Shoucheng"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Hu-kuo Shou-chêng"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Gokoku Shuchô"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Guiyang",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "2D6CTxIOohm4bqR0bQj2U",
+    "slug": "mahakashyapa",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Mahakashyapa"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Mahakassapa"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Kashyapa"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Kasyapa"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Indian Patriarchs",
+    "source_ids": [
+      "src_originals_curated"
+    ]
+  },
+  {
+    "id": "2le5Q31xg5eULcmP6E7pN",
+    "slug": "baizhang-niepan",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Baizhang Niepan"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Pai-chang Nieh-p'an"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Hyakujô Nehan"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Linji",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "2ViXkfd-4_RKrlE_iGJFh",
+    "slug": "qingxi-hongjin",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Qingxi Hongjin"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Ch'ing-hsi Hung-chin"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Seikei Kôshin"
+      },
+      {
+        "locale": "en",
+        "name_type": "honorific",
+        "value": "Jinshan"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Qingyuan line",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "38mTtjRbDQAqCxz5rdjNp",
+    "slug": "chongshou-qichou",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Chongshou Qichou"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Ch'ung-shou Ch'i-ch'ou"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Sûju Keichû"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Qingyuan line",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "3A_xRCHtopdEAqNDz96Jv",
+    "slug": "tongan-guanzhi",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Tongan Guanzhi"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "T'ung-an Kuan-chih"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Dôan Kanshi"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Caodong",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "3Dd3l63_Ee1bnHLolSvML",
+    "slug": "suizhou-daoyuan",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Suizhou Daoyuan"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Sui-chou Dao-yüan"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Suishû Dôen"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Other",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "3FVS2Ax3LAfRimpc4b_f-",
+    "slug": "xuedou-chongxian",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Xuedou Chongxian"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Hsüeh-tou Ch'ung-hsien"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Setchô Jûken"
+      }
+    ],
+    "birth_year": 980,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 1052,
+    "death_precision": "exact",
+    "death_confidence": "high",
+    "school": "Yunmen",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "4_clBXQMqLbLFR52jrufV",
+    "slug": "zizhou-zhishen",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Zizhou Zhishen"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Tsü-chou Chih-shên"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Shishû Chisen"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Other",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "4A53pDvtL9BDJW-hUjxnR",
+    "slug": "guishan-lingyou",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Guishan Lingyou"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Kuei-shan Ling-yu"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Isan Reiyû"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "isan reiyû"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "kuei-shan ling-yu"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "潙山靈祐"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Caodong",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "58clK0ij7nlgm_mYVexOA",
+    "slug": "luzu-baoyun",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Luzu Baoyun"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Lu-tsu Pao-yün"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Roso Hôun"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Caodong",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "5Kv8dxTFFL0-h4GQnxz3t",
+    "slug": "dajian-huineng",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Dajian Huineng"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Ta-chien Hui-nêng"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Daikan Enô"
+      },
+      {
+        "locale": "en",
+        "name_type": "honorific",
+        "value": "Caoxi"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "daikan enô"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "ta-chien hui-nêng"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "慧能"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "caoxi"
+      }
+    ],
+    "birth_year": 638,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 713,
+    "death_precision": "exact",
+    "death_confidence": "high",
+    "school": "Early Chan",
+    "source_ids": [
+      "src_chan_ancestors_pdf",
+      "src_originals_curated"
+    ]
+  },
+  {
+    "id": "6zL4JwcpRqL1Mw2kbnXyf",
+    "slug": "nanyue-huairang",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Nanyue Huairang"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Nan-yüeh Huai-jang"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Nangaku Ejô"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "nangaku ejô"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "nan-yüeh huai-jang"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "南嶽懷讓"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Linji",
+    "source_ids": [
+      "src_chan_ancestors_pdf",
+      "src_originals_curated"
+    ]
+  },
+  {
+    "id": "6Zx-M-9YaM2MjXyrtcbze",
+    "slug": "shitou-xiqian",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Shitou Xiqian"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Shih-T'ou Hsi-ch'ien"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Sekitô Kisen"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "sekitô kisen"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "shih-t'ou hsi-ch'ien"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "石頭希遷"
+      }
+    ],
+    "birth_year": 700,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 790,
+    "death_precision": "exact",
+    "death_confidence": "high",
+    "school": "Qingyuan line",
+    "source_ids": [
+      "src_chan_ancestors_pdf",
+      "src_originals_curated"
+    ]
+  },
+  {
+    "id": "7bVq77ThGkOYeAitn6YRm",
+    "slug": "taiping-huiqin",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Taiping Huiqin"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "T'ai-p'ing Hui-ch'in"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Taihei Egon"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Linji",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "7HfwCdpszPy0hDSrPxZOi",
+    "slug": "tianyi-yihuai",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Tianyi Yihuai"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "T'ien-i I-huai"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Tenne Gikai"
+      }
+    ],
+    "birth_year": 993,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 1064,
+    "death_precision": "exact",
+    "death_confidence": "high",
+    "school": "Yunmen",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "7L-Z2ruVYWEy4KlNjMZaw",
+    "slug": "dazu-huike",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Dazu Huike"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Ta-tsu Hui-k'o"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Taiso Eka"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "大祖慧可"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "taiso eka"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "ta-tsu hui-k'o"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "慧可"
+      }
+    ],
+    "birth_year": 487,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 593,
+    "death_precision": "exact",
+    "death_confidence": "high",
+    "school": "Early Chan",
+    "source_ids": [
+      "src_chan_ancestors_pdf",
+      "src_tibetan_encyclopedia",
+      "src_wikipedia"
+    ]
+  },
+  {
+    "id": "7oTDRnVmrmHfaS9TyTy5u",
+    "slug": "fushan-fayuan",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Fushan Fayuan"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Fu-shan Fa-yüan"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Fuzan Hôen"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Caodong",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "8djkv2Pw0FvL6oYEzem_q",
+    "slug": "yasutani-hakuun",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Yasutani Hakuun"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "安谷白雲"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "yasutani haku'un ryōkō"
+      }
+    ],
+    "birth_year": 1885,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 1973,
+    "death_precision": "exact",
+    "death_confidence": "high",
+    "school": "Sanbo-Zen",
+    "source_ids": [
+      "src_mountain_moon"
+    ]
+  },
+  {
+    "id": "8rIBtQ2oTTybHN9lwOT-I",
+    "slug": "guizong-zhichang",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Guizong Zhichang"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Kuei-tsung Chih-ch'ang"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Kisu Chijô"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Caodong",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "93pix4g_RyHondNvLDSs3",
+    "slug": "jingzhao-mihu",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Jingzhao Mihu"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Ching-chao Mi-hu"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Keichô Beiyu"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Caodong",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "98IxDskSL6L50q85UMiTm",
+    "slug": "nanquan-puyuan",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Nanquan Puyuan"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Nan-ch'üan P'u-yüan"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Nansen Fugan"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "nansen fugan"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "nan-ch'üan pu-yüan"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "南泉普願"
+      }
+    ],
+    "birth_year": 748,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 835,
+    "death_precision": "exact",
+    "death_confidence": "high",
+    "school": "Qingyuan line",
+    "source_ids": [
+      "src_chan_ancestors_pdf",
+      "src_originals_curated"
+    ]
+  },
+  {
+    "id": "9p7AxxsAqoPi-TVU4ZnJj",
+    "slug": "guannan-daochang",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Guannan Daochang"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Kuan-nan Tao-ch'ang"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Kannan Dôjô"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Caodong",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "9TJpkFTJmSLKV_NWQYUuC",
+    "slug": "licun",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Licun"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Linji",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "aGsBwP6-XaMHAML0lESfh",
+    "slug": "manorhita",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Manorhita"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Indian Patriarchs",
+    "source_ids": [
+      "src_originals_curated"
+    ]
+  },
+  {
+    "id": "aJhm8JOd_mYz8PykmCewJ",
+    "slug": "mahasattva-fu",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Mahasattva Fu"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Other",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "aqnL8MRDm1bxk2Lu0S5Ne",
+    "slug": "qinshan-wensui",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Qinshan Wensui"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Ch'in-shan Wên-sui"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Kinzan Bunsui"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Guiyang",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "ASq3jRh32oG76SQh-MPlQ",
+    "slug": "gayashata",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Gayashata"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Indian Patriarchs",
+    "source_ids": [
+      "src_originals_curated"
+    ]
+  },
+  {
+    "id": "aYZO7GDyEuLqUdNkSPYdL",
+    "slug": "longji-shaoxiu",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Longji Shaoxiu"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Lung-chi Shao-hsiu"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Ryûsai Shôshû"
+      },
+      {
+        "locale": "en",
+        "name_type": "honorific",
+        "value": "Xiushan"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Other",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "B1apjWpWug3oIhTasx8c5",
+    "slug": "fengxian-daochen",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Fengxian Daochen"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Fêng-hsien Tao-ch’ên"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Hôsen Dôshin"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Yunmen",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "BF-2Vjqejpp-aUQU6JuKt",
+    "slug": "wang-yanbin",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Wang Yanbin"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Wang Yen-pin"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Ô Enhin"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Qingyuan line",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "bjQXp6ro2IqXUbtD15GO8",
+    "slug": "yunan-kewen",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Yunan Kewen"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Yün-an K’o-wên"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Un'an Kokubun"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Linji",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "BL41yC9VsAMM0TzssIEKP",
+    "slug": "yuanwu-keqin",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Yuanwu Keqin"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Yüan-wu K'ê-ch'in"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Engo Kokugon"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Linji",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "bNQLsTfESFgAIGvqTi82K",
+    "slug": "ruiyan-shiyan",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Ruiyan Shiyan"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Jui-yen Shih-yen"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Zuigan Shigen"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Other",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "Bo97GCtM9BZ6e71TAMAdZ",
+    "slug": "wenshu-yingzhen",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Wenshu Yingzhen"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Wên-shu Ying-chên"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Monju Ôshin"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Caodong",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "BPzpMPUQxiKjZJ6mTBIPr",
+    "slug": "dahui-zonggao",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Dahui Zonggao"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Ta-hui Tsung-kao"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Daie Sôkô"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Linji",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "buNUUo66XlXE6lnMXXY3d",
+    "slug": "shanglan-lingchao",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Shanglan Lingchao"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Qingyuan line",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "BvpqBTZAJBbk3n-mloCXt",
+    "slug": "guizong-cezhen",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Guizong Cezhen"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Kuei-tsung Ts'ê-Chên"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Kisô Sakushin"
+      },
+      {
+        "locale": "en",
+        "name_type": "honorific",
+        "value": "Huichao"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": 979,
+    "death_precision": "exact",
+    "death_confidence": "high",
+    "school": "Qingyuan line",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "BvSGSw4IC-m8D3oyzF4ow",
+    "slug": "xingyang-qingrang",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Xingyang Qingrang"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Hsing-yang Ch'ing-jang"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Kôyô Seijô"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Caodong",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "bw7smzHvL-dIp7y7lBeGl",
+    "slug": "niutou-farong",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Niutou Farong"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Niu-t'ou Fa-jung"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Gozu Hôyû"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Other",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "C0r4GzBv7BEN2ZXFGLwo8",
+    "slug": "wumen-huikai",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Wumen Huikai"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Wu-mên Hui-k'ai"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Mumon Ekai"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Linji",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "cfn2ET9nAT4CPDEmgmqKV",
+    "slug": "nanyang-huizhong",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Nanyang Huizhong"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Nan-yang Hui-chung"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Nan'yô Echû"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": 775,
+    "death_precision": "exact",
+    "death_confidence": "high",
+    "school": "Qingyuan line",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "CKps4fDp0URGrbOjjfwBX",
+    "slug": "buddhamitra",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Buddhamitra"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Buddha-mitra"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Indian Patriarchs",
+    "source_ids": [
+      "src_originals_curated"
+    ]
+  },
+  {
+    "id": "CTYad12WWJR8tMk_IHb0v",
+    "slug": "jiufeng-qin",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Jiufeng Qin"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Chiu-fêng Ch’in"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Kyûhô Gon"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Guiyang",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "cWJ5YHI20RtHiSRSlkjBm",
+    "slug": "fenyang-shanzhao",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Fenyang Shanzhao"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Fên-yang Shan-chao"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Fun'yô Zenshô"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Linji",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "CZsUYLmBsyccueFDgAzpT",
+    "slug": "qinglin-shiqian",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Qinglin Shiqian"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Ch'ing-lin Shih-ch'ien"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Seirin Shiken"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": 904,
+    "death_precision": "exact",
+    "death_confidence": "high",
+    "school": "Nanyue line",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "d22Ow-7bdbZI8jnr-Sfdf",
+    "slug": "baoning-renyong",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Baoning Renyong"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Pao-ning Jên-yung"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Honei Ninyû"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Linji",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "d55Lyv4WH6h4WZAM32p79",
+    "slug": "fengxue-yanzhao",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Fengxue Yanzhao"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Fêng-hsüeh Yen-chao"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Fûketsu Enshô"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Linji",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "dACngaSplh7fQ97Fl0xHn",
+    "slug": "lingyun-zhiqin",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Lingyun Zhiqin"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Ling-yün Chih-ch'in"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Reiun Shigon"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Linji",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "dajjMBPqxOv2QAYg5_1da",
+    "slug": "furong-daokai",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Furong Daokai"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Fu-jung Tao-k'ai"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Fuyô Dôkai"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Caodong",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "DCKhB3tkUhuXVX5_AqERp",
+    "slug": "changfu-zhi",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Changfu Zhi"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Qingyuan line",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "DgxUMAIDeal0L9V5R1TWV",
+    "slug": "xiyuan-siming",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Xiyuan Siming"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Hsi-yüan Ssü-ming"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Saiin Shimyô"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Linji",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "dO8iOgsAFRvx7lVlydPMO",
+    "slug": "yuean-shanguo",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Yuean Shanguo"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Yüeh-an Shan-kuo"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Gettan Zenka"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Linji",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "DODjkFbOBTItIJ8egKEhK",
+    "slug": "yangshan-yong",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Yangshan Yong"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Caodong",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "dowc9tfw9nrI_KIBHaEaW",
+    "slug": "rahulata",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Rahulata"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Indian Patriarchs",
+    "source_ids": [
+      "src_originals_curated"
+    ]
+  },
+  {
+    "id": "DPaqdrB7_tincwkl9PEQ1",
+    "slug": "kaifu-daoning",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Kaifu Daoning"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "K'ai-fu Tao-ning"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Kaifuku Dônei"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Linji",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "DQ9EQl4GbqNIHOtcWsh_4",
+    "slug": "fayan-wenyi",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Fayan Wenyi"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Fa-yen Wên-i"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Hôgen Bun’eki"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "hôgen bun'eki"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "fa-yen wên-i"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "法眼文益"
+      }
+    ],
+    "birth_year": 885,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 958,
+    "death_precision": "exact",
+    "death_confidence": "high",
+    "school": "Qingyuan line",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "Du2RzVK7ZHNqT3hHDDPwQ",
+    "slug": "upagupta",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Upagupta"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Upagutta"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Upa-gupta"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Indian Patriarchs",
+    "source_ids": [
+      "src_originals_curated"
+    ]
+  },
+  {
+    "id": "DuB_NWJfY_tzIKn62UjqY",
+    "slug": "dongshan-shouchu",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Dongshan Shouchu"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Tung-shan Shou-ch'u"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Tôsan Shusho"
+      }
+    ],
+    "birth_year": 910,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 990,
+    "death_precision": "exact",
+    "death_confidence": "high",
+    "school": "Nanyue line",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "DWofxdcfC79blHHMxK4GS",
+    "slug": "buddhanandi",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Buddhanandi"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Buddha-nandi"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Indian Patriarchs",
+    "source_ids": [
+      "src_originals_curated"
+    ]
+  },
+  {
+    "id": "e2m1ar_J_q9_8UVAyDGOZ",
+    "slug": "yanyang-shanxin",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Yanyang Shanxin"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Yen-yang Shan-hsin"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Genyô Zenshin"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Nanyue line",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "EcSRcPisXVtakj6ayv0yp",
+    "slug": "harada-daiun-sogaku",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Harada Daiun Sogaku"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "原田大雲祖岳"
+      }
+    ],
+    "birth_year": 1871,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 1961,
+    "death_precision": "exact",
+    "death_confidence": "high",
+    "school": "Sanbo-Zen",
+    "source_ids": [
+      "src_mountain_moon"
+    ]
+  },
+  {
+    "id": "eeWkFL_yU8-TDINiD55bY",
+    "slug": "nanyin-shourou",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Nanyin Shourou"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "南院守柔"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": 952,
+    "death_precision": "exact",
+    "death_confidence": "high",
+    "school": "Rinzai",
+    "source_ids": [
+      "src_terebess"
+    ]
+  },
+  {
+    "id": "EMoIlVImDttpEYdxP41FA",
+    "slug": "yangqi-fanghui",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Yangqi Fanghui"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Yang-ch'i Fang-hui"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Yôgi Hôe"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Yangqi line",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "EpBV-rfWmuMFK1UDcQL6M",
+    "slug": "taigu-puyu",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Taigu Puyu"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "T’ai-ku P’u-yü"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Taigo Pou"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Other",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "f_mN_OO-KGU_OStG0WhDX",
+    "slug": "doushuai-congyue",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Doushuai Congyue"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Tou-shuai Ts'ung-yüeh"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Tosotsu Jûetsu"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Linji",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "f-5SSXM6Hb3L0T0a5f5sF",
+    "slug": "prajnatara",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Prajnatara"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Prajñātāra"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Prajnadhara"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Indian Patriarchs",
+    "source_ids": [
+      "src_originals_curated"
+    ]
+  },
+  {
+    "id": "fFFRVZW-TlYc3imPU4ZMr",
+    "slug": "nanyuan-huiyong",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Nanyuan Huiyong"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Nan-yüan Hui-yung"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Nan'in Egyô"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Linji",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "FhsJ0vhiUvvvghy9ys7Jr",
+    "slug": "xuedou-zhijian",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Xuedou Zhijian"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Hsüeh-tou Chih-chien"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Setchô Chikan"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Caodong",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "fHWr9ohlZyE4g7K3Wo0ad",
+    "slug": "puti-damo",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Puti Damo"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "P'u-ti Ta-mo"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Bodai Daruma"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Bodhidharma"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "菩提達摩"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "puti damo"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "bodai daruma"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "p'u-ti ta-mo"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "達磨"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": 536,
+    "death_precision": "circa",
+    "death_confidence": "medium",
+    "school": "Early Chan",
+    "source_ids": [
+      "src_chan_ancestors_pdf",
+      "src_tibetan_encyclopedia",
+      "src_wikipedia"
+    ]
+  },
+  {
+    "id": "g4Bb_FEVtARNGbevC_YHt",
+    "slug": "yangshan-huiji",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Yangshan Huiji"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Yang-shan Hui-chi"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Kyôzan Ejaku"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "kyôzan ejaku"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "yang-shan hui-chi"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "仰山慧寂"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Caodong",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "GAlcbtrsjobgkFfMIAVh_",
+    "slug": "baofu-congzhan",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Baofu Congzhan"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Pao-fu Ts'ung-chan"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Hofuku Jûten"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": 928,
+    "death_precision": "exact",
+    "death_confidence": "high",
+    "school": "Qingyuan line",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "gaN8ndaUaEcnJDAxSZQm1",
+    "slug": "yungai-zhiyuan",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Yungai Zhiyuan"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Qingyuan line",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "GsCXe4WfiV06Y4-TUjdKM",
+    "slug": "dahong-zuzheng",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Dahong Zuzheng"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Ta-hung Tsu-Chêng"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Daikô Soshô"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Linji",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "gWtzBq9d3UMQ-wAKvfFq2",
+    "slug": "zizhou-chuji",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Zizhou Chuji"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Tsü-chou Ch'u-chi"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Shishû Shojaku"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Other",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "Gzki8G7Dmg5LUcyMtqlCF",
+    "slug": "hangzhou-tianlong",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Hangzhou Tianlong"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Hang-chou T'ien-lung"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Kôshû Tenryû"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Guiyang",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "hEOd5fdtLUK-0Fu15szpE",
+    "slug": "nanta-guangyong",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Nanta Guangyong"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Nan-t'a Kuang-yung"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Nantô Kôyû"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Caodong",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "hQn9IHHluodNnkOCB-tVP",
+    "slug": "qingyuan-xingsi",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Qingyuan Xingsi"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Ch'ing-yüan Hsing-ssu"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Seigen Gyôshi"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "seigen gyôshi"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "ch'ing-yüan hsing-ssü"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "青原行思"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": 740,
+    "death_precision": "exact",
+    "death_confidence": "high",
+    "school": "Qingyuan line",
+    "source_ids": [
+      "src_chan_ancestors_pdf",
+      "src_originals_curated"
+    ]
+  },
+  {
+    "id": "HWwmjVp87R6TwGIfyzzDB",
+    "slug": "chengtian-chuanzong",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Chengtian Chuanzong"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Ch'eng-t'ien Ch'uan-tsung"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Jôten Denshû"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Yunmen",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "Hy6NRtgSBVR82vh95RIsE",
+    "slug": "danxia-zichun",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Danxia Zichun"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Tan-hsia Tzu-ch'un"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Tanka Shijun"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Caodong",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "iGOnJ8m8mWWgedkNyVb-4",
+    "slug": "jingqing-daofu",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Jingqing Daofu"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Ching-ch’ing Tao-fu"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Kyôsei Dôfu"
+      }
+    ],
+    "birth_year": 868,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 937,
+    "death_precision": "exact",
+    "death_confidence": "high",
+    "school": "Nanyue line",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "iHhoBfvtLlnWeY2l8owiE",
+    "slug": "dingzhou-shizang",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Dingzhou Shizang"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Ting-chou Shih-tsang"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Jôshû Sekisô"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Qingyuan line",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "iJ4NrYpW85olchICykpuy",
+    "slug": "danyuan-yingzhen",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Danyuan Yingzhen"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Tan-yüan Ying-chên"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Tangen Ôshin"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Qingyuan line",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "IjImAFg07jLpkiAfvrt0X",
+    "slug": "muzhou-daoming",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Muzhou Daoming"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Mu-chou Tao-ming"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Bokushû Dômyô"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Linji",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "ilSQ1eOlSNCagZoG1W3Fv",
+    "slug": "touzi-yiqing",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Touzi Yiqing"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "T'ou-tzü I-ch'ing"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Tôsu Gisei"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Caodong",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "iLU8eKYHP-kmxLSkg7hkW",
+    "slug": "huguo-jingyuan",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Huguo Jingyuan"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Hu-kuo Ching-yüan"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Gokoku Keigen"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Linji",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "iO_UjXfKurStJgutHyTa-",
+    "slug": "xuansha-shibei",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Xuansha Shibei"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Hsüan-sha Shih-pei"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Gensha Shibi"
+      }
+    ],
+    "birth_year": 835,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 908,
+    "death_precision": "exact",
+    "death_confidence": "high",
+    "school": "Qingyuan line",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "j-cIc9VMB17RIb8K_GRPi",
+    "slug": "dasui-fazhen",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Dasui Fazhen"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Ta-sui Fa-chên"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Daizui Hôshin"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Yangqi line",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "JBhPy4sLL_4OgCqT0G36B",
+    "slug": "shushan-kuangren",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Shushan Kuangren"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Shu-shan K’uang-jên"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Sozan Kyônin"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Qingyuan line",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "JFPJEb3YvLpKb-Lqi6QCA",
+    "slug": "dayu-shouzhi",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Dayu Shouzhi"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Ta-yü Shou-chih"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Daigu Shushi"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Linji",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "jSeppG7S9SGrEIWFq3DpX",
+    "slug": "mingan-rongxi",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Mingan Rongxi"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Ming-an Jung-hsi"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Myôan Eisai"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Yangqi line",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "Jt-vBi3SoRwXz9Ormya9w",
+    "slug": "huangbo-xiyun",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Huangbo Xiyun"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Huang-po Hsi-yün"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Ôbaku Kiun"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "ôbaku kiun"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "huang-po hsi-yün"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "黃檗希運"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Linji",
+    "source_ids": [
+      "src_chan_ancestors_pdf",
+      "src_originals_curated"
+    ]
+  },
+  {
+    "id": "jTmwdm8QPIAiiUAwV-zCE",
+    "slug": "touzi-datong",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Touzi Datong"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "T'ou-tzü Ta-t'ung"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Tôsu Daidô"
+      }
+    ],
+    "birth_year": 819,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 914,
+    "death_precision": "exact",
+    "death_confidence": "high",
+    "school": "Qingyuan line",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "JushPmAcOEGPdJkilG8PY",
+    "slug": "zhaozhou-congshen",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Zhaozhou Congshen"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Chao-chou Ts'ung-shên"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Jôshû Jûshin"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "jôshû jûshin"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "chao-chou ts'ung-shên"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "趙州從諗"
+      }
+    ],
+    "birth_year": 778,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 897,
+    "death_precision": "exact",
+    "death_confidence": "high",
+    "school": "Nanyue line",
+    "source_ids": [
+      "src_chan_ancestors_pdf",
+      "src_originals_curated"
+    ]
+  },
+  {
+    "id": "K1yydEddrbjaksg2OxUo0",
+    "slug": "deshan-xuanjian",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Deshan Xuanjian"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Tê-shan Hsüan-chien"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Tokusan Senkan"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "tokusan senkan"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "tê-shan hsüan-chien"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "德山宣鑒"
+      }
+    ],
+    "birth_year": 782,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 865,
+    "death_precision": "exact",
+    "death_confidence": "high",
+    "school": "Qingyuan line",
+    "source_ids": [
+      "src_chan_ancestors_pdf",
+      "src_originals_curated"
+    ]
+  },
+  {
+    "id": "K7s1fzKNnNrs673SYBt4V",
+    "slug": "xingyang-qingpou",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Xingyang Qingpou"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Hsing-yang Ch'ing-p'ou"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Kôyô Seibô"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Guiyang",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "Kjt0_gRyxH_Y0YEXxCJrW",
+    "slug": "baizhang-huaihai",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Baizhang Huaihai"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Pai-chang Huai-hai"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Hyakujô Ekai"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "hyakujô ekai"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "pai-chang huai-hai"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "百丈懷海"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Linji",
+    "source_ids": [
+      "src_chan_ancestors_pdf",
+      "src_originals_curated"
+    ]
+  },
+  {
+    "id": "Kkq_46-Hh94BLD8RXPqxR",
+    "slug": "wufeng-changguan",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Wufeng Changguan"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Wu-fêng Ch'ang-kuan"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Gohô Jôkan"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Linji",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "kP5TDAuk1-nJJoOtaXibF",
+    "slug": "zhimen-guangzuo",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Zhimen Guangzuo"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Chih-mên Kuang-tso"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Chimon Kôso"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Guiyang",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "kVOPBQ_iEP7qwNlpMHYFm",
+    "slug": "mingzhao-deqian",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Mingzhao Deqian"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Ming-chao Tê-ch'ien"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Myôshô Tokken"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Qingyuan line",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "KWt8nDNBawWXfHKVaUhqa",
+    "slug": "dhritaka",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Dhritaka"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Dhrtaka"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Indian Patriarchs",
+    "source_ids": [
+      "src_originals_curated"
+    ]
+  },
+  {
+    "id": "la_nj_rqWAlfcj_p60Xoj",
+    "slug": "xianglin-chengyuan",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Xianglin Chengyuan"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Hsiang-lin Ch'êng-yüan"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Kyôrin Chôon"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Guiyang",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "LhYc5nPmBBsyVh8kscU3Q",
+    "slug": "luopu-yuanan",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Luopu Yuanan"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Luo-p'u Yüan-an"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Rakuho Gen'an"
+      }
+    ],
+    "birth_year": 834,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 898,
+    "death_precision": "exact",
+    "death_confidence": "high",
+    "school": "Qingyuan line",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "LLwCimIa1-v4zit4LjIo-",
+    "slug": "cuiyan-lingcan",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Cuiyan Lingcan"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Ts'ui-yen Ling-ts'an"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Suigan Reisan"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Caodong",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "lrQm0FV12JeahNnGpZqDX",
+    "slug": "guifeng-zongmi",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Guifeng Zongmi"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Other",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "lZ4j8pOCblnrPvSG8faoi",
+    "slug": "wuzu-fayan",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Wuzu Fayan"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Wu-tsu Fa-yen"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Goso Hôen"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Linji",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "M_dUQCJ9bjmX1ckgX4YtY",
+    "slug": "zhuan-shigui",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Zhuan Shigui"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Chu-an Shih-kuei"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Chikuan Shikei"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Yangqi line",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "MaT_2LUWapSpvCzLlN9of",
+    "slug": "aryadeva",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Aryadeva"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Arya Deva"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Kanadeva"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Indian Patriarchs",
+    "source_ids": [
+      "src_originals_curated"
+    ]
+  },
+  {
+    "id": "MRUgXjS05THSbaFxxRBWe",
+    "slug": "yuezhou-qianfeng",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Yuezhou Qianfeng"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Yuëh-chou Ch'ien-fêng"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Esshû Kempô"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Yunmen",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "mt7Wvlp1EHOHKUB1I3yk9",
+    "slug": "luoshan-daoxian",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Luoshan Daoxian"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Lo-shan Tao-hsien"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Razan Dôkan"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Qingyuan line",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "my3n-C46G_URdJrNzWjCo",
+    "slug": "nagarjuna",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Nagarjuna"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Nāgārjuna"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Indian Patriarchs",
+    "source_ids": [
+      "src_originals_curated"
+    ]
+  },
+  {
+    "id": "mYg9M1wh-alZRKv2NrUp_",
+    "slug": "keizan-jokin",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Keizan Jokin"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "瑩山紹瑾"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Keizan Jōkin"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Keizan"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "keizan jokin"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "keizan"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Soto",
+    "source_ids": [
+      "src_sotozen_founders"
+    ]
+  },
+  {
+    "id": "MzsKL71HSAAVCzJred0Z3",
+    "slug": "baling-haojian",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Baling Haojian"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Pa-ling Hao-chien"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Haryô Kôkan"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Yunmen",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "MZXM7aD7Xu_yqhL_cdQ0d",
+    "slug": "mayu-baoche",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Mayu Baoche"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Ma-yu Pao-ch'ê"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Mayoku Hôtetsu"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Yunmen",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "n44pWPgKAYDunODi5gJDK",
+    "slug": "shaoshan-huanpu",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Shaoshan Huanpu"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Qingyuan line",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "NEAKNQoo_MlBKLBAQRXDI",
+    "slug": "yuquan-shenxiu",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Yuquan Shenxiu"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Yü-Ch'uan Shên-hs'iu"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Gyokusen Jinshû"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Qingyuan line",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "NFvAfHLeEZtDf1niYKBMN",
+    "slug": "daman-hongren",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Daman Hongren"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Ta-man Hung-jên"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Daiman Kônin"
+      },
+      {
+        "locale": "en",
+        "name_type": "honorific",
+        "value": "Huangmei"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "大滿弘忍"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "daiman kônin"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "ta-man hung-jên"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "弘忍"
+      }
+    ],
+    "birth_year": 602,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 675,
+    "death_precision": "exact",
+    "death_confidence": "high",
+    "school": "Early Chan",
+    "source_ids": [
+      "src_chan_ancestors_pdf",
+      "src_originals_curated",
+      "src_wikipedia"
+    ]
+  },
+  {
+    "id": "Ng9PQYEYiH5eRh2AWeWvB",
+    "slug": "dogen",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Dogen"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "道元"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Dogen Zenji"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Dōgen"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Eihei Dogen"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Eihei Dōgen"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Yongping Daoyuan"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Yung-p'ing Tao-yüan"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Eihei Dôgen"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "eihei dōgen"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "yongping daoyuan"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "dogen"
+      }
+    ],
+    "birth_year": 1200,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 1253,
+    "death_precision": "exact",
+    "death_confidence": "high",
+    "school": "Soto",
+    "source_ids": [
+      "src_chan_ancestors_pdf",
+      "src_sotozen_founders"
+    ]
+  },
+  {
+    "id": "no2kDb-qSf_4r9NjDeyq9",
+    "slug": "zhenxie-qingliao",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Zhenxie Qingliao"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Chên-hsieh Ch'ing-liao"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Shinketsu Seiryô"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Caodong",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "noj0soXZGkua0vO7MpOsD",
+    "slug": "moshan-liaoran",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Moshan Liaoran"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Mo-shan Liao-jan"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Massan Ryônen"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Caodong",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "NVstWHNNQBh7pgteVGtDn",
+    "slug": "cuiyan-kezhen",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Cuiyan Kezhen"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Ts'ui-yen K'o-chên"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Suigan Kashin"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Linji",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "nVY1H3EIFPh_YpaA6eFQc",
+    "slug": "shanakavasa",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Shanakavasa"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Sanakavasa"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Shanavasa"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Indian Patriarchs",
+    "source_ids": [
+      "src_originals_curated"
+    ]
+  },
+  {
+    "id": "O-M3m_XGgwVNBiKpNlzJ2",
+    "slug": "baiyun-shouduan",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Baiyun Shouduan"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Pai-yün Shou-tuan"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Hakuun Shutan"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Yangqi line",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "oDgWuQLQG__HcsFgsuCnm",
+    "slug": "shakyamuni-buddha",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Shakyamuni Buddha"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Siddhartha Gautama"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Gautama Buddha"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "The Buddha"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Tathagata"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Sakyamuni"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Indian Patriarchs",
+    "source_ids": [
+      "src_originals_curated"
+    ]
+  },
+  {
+    "id": "OggSJsfxAwRhE2UUVas6g",
+    "slug": "baofeng-weizhao",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Baofeng Weizhao"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Pao-fêng Wei-chao"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Hôhô Ishô"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Guiyang",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "Ol3Uuxkzi7rtRH2CVccHm",
+    "slug": "luohan-guichen",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Luohan Guichen"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Lo-han Kuei-ch'ên"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Rakan Keichin"
+      },
+      {
+        "locale": "en",
+        "name_type": "honorific",
+        "value": "Dizang"
+      }
+    ],
+    "birth_year": 867,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 928,
+    "death_precision": "exact",
+    "death_confidence": "high",
+    "school": "Qingyuan line",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "oPsupmKZ_xN51oyqQdF0z",
+    "slug": "baoen-xuanze",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Baoen Xuanze"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Pao-ên Hsüan-tsê"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Hôon Gensoku"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Nanyue line",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "oRKRRQKD2BF75PaR8NMk8",
+    "slug": "tettsu-gikai",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Tettsu Gikai"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "徹通義介"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Tettsū Gikai"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Gikai"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "tettsu gikai"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "gikai"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Soto",
+    "source_ids": [
+      "src_sotozen_founders"
+    ]
+  },
+  {
+    "id": "p4aJBzmNaNhr-KEdOwopR",
+    "slug": "lianhua-fengxiang",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Lianhua Fengxiang"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Lien-hua Fêng-hsiang"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Renge Hôshô"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Yunmen",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "pbWBL8B0a1dmJg4hSECfw",
+    "slug": "pang-yun",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Pang Yun"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Hôun"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Layman Pang"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "P'ang Yün"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Other",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "pjmSshTkUyqFmd9mDotbM",
+    "slug": "sanghanandi",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Sanghanandi"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Sangha Nandi"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Indian Patriarchs",
+    "source_ids": [
+      "src_originals_curated"
+    ]
+  },
+  {
+    "id": "pK1ozC28fBtfV_A-zCIvr",
+    "slug": "damei-fachang",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Damei Fachang"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Ta-mei Fa-ch'ang"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Daibai Hôjô"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Caodong",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "PkGHSIWJnE9AfaP0NJokD",
+    "slug": "longtan-chongxin",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Longtan Chongxin"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Lung-t'an Ch'ung-hsin"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Ryûtan Sôshin"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Qingyuan line",
+    "source_ids": [
+      "src_chan_ancestors_pdf",
+      "src_originals_curated"
+    ]
+  },
+  {
+    "id": "pSb9_Qob0HVVHAJ9ofchR",
+    "slug": "vasasita",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Vasasita"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Indian Patriarchs",
+    "source_ids": [
+      "src_originals_curated"
+    ]
+  },
+  {
+    "id": "pXqMnbtBWYQaVDpdzhvcX",
+    "slug": "tongfeng-anzhu",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Tongfeng Anzhu"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Linji",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "pxx2qaSxC_Crv8p9o8l5p",
+    "slug": "wujiu-youxuan",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Wujiu Youxuan"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Wu-chiu Yu-hsüan"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Ukyû Yûgen"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Qingyuan line",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "Pyr0At6UzJVCZ5gXPqhJ6",
+    "slug": "caoshan-benji",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Caoshan Benji"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Ts'ao-shan Pen-chi"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Sôzan Honjaku"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "曹山本寂"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "sôzan honjaku"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "ts'ao-shan pen-chi"
+      }
+    ],
+    "birth_year": 840,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 901,
+    "death_precision": "exact",
+    "death_confidence": "high",
+    "school": "Caodong",
+    "source_ids": [
+      "src_chan_ancestors_pdf",
+      "src_terebess",
+      "src_tibetan_encyclopedia",
+      "src_wikipedia"
+    ]
+  },
+  {
+    "id": "Q7Gx9DnbP5KTZCxD8hFmu",
+    "slug": "sansheng-huiran",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Sansheng Huiran"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "San-shêng Hui-jan"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Sanshô Enen"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Yangqi line",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "qB1m3MboCgq1YkbCWEWY6",
+    "slug": "yang-wuwei",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Yang Wuwei"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Yang Wu-wei"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Yô Mui"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Yunmen",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "QdAytZKtUArQPxta3X8t7",
+    "slug": "liu-tiemo",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Liu Tiemo"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Liu T'ieh-mo"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Ryû Tetsuma"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Yunmen",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "qfbrxo8zivETGjePTga_s",
+    "slug": "changsha-jingcen",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Changsha Jingcen"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Ch'ang-sha Ching-ts'ên"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Chôsha Keishin"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Caodong",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "QL__3DUEKp2S2_iQgrq48",
+    "slug": "michaka",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Michaka"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Micchaka"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Indian Patriarchs",
+    "source_ids": [
+      "src_originals_curated"
+    ]
+  },
+  {
+    "id": "QOda3cU5XErQnAadR7KXd",
+    "slug": "yunyan-tansheng",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Yunyan Tansheng"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Yün-yen T'an-shêng"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Ungan Donjô"
+      }
+    ],
+    "birth_year": 780,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 841,
+    "death_precision": "exact",
+    "death_confidence": "high",
+    "school": "Qingyuan line",
+    "source_ids": [
+      "src_chan_ancestors_pdf",
+      "src_originals_curated"
+    ]
+  },
+  {
+    "id": "RCt4jHgjnctkJQ-nUgGqm",
+    "slug": "punyayashas",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Punyayashas"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Punyayasha"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Punayasas"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Indian Patriarchs",
+    "source_ids": [
+      "src_originals_curated"
+    ]
+  },
+  {
+    "id": "Rwko-GTEayENS1Q0lSgRs",
+    "slug": "tianping-congyi",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Tianping Congyi"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "T'ien-p'ing Ts'ung-i"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Tempyô Jûi"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Qingyuan line",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "RZ12rddz4Ik3VPQ0zXLHn",
+    "slug": "zhongyi-hongen",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Zhongyi Hongen"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Chung-i Hung-ên"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Chûyû Kôon"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Nanyue line",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "s_nR66_yj2tOIGe3GU9Yi",
+    "slug": "ruben-habito",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Ruben Habito"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Sanbo-Zen",
+    "source_ids": [
+      "src_mountain_moon"
+    ]
+  },
+  {
+    "id": "SBxT4ao1VkUaz3s0-VHxk",
+    "slug": "longya-judun",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Longya Judun"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Lung-ya Chü-tun"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Ryûge Kodon"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Yunmen",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "SJqI6-0JfxM5CcZmzmdA1",
+    "slug": "xuefeng-yicun",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Xuefeng Yicun"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Hsüeh-fêng I-ts'un"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Seppô Gison"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "seppô gison"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "hsüeh-fêng i-ts'un"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "雪峰義存"
+      }
+    ],
+    "birth_year": 822,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 908,
+    "death_precision": "exact",
+    "death_confidence": "high",
+    "school": "Qingyuan line",
+    "source_ids": [
+      "src_chan_ancestors_pdf",
+      "src_originals_curated"
+    ]
+  },
+  {
+    "id": "soBxt-uezqo1vEUlIJ74M",
+    "slug": "jianzhi-sengcan",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Jianzhi Sengcan"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Chien-Chih Sêng-ts'an"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Kanchi Sôsan"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "鑑智僧璨"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Sengcan"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Seng-ts'an"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Jianzhi Seng-ts'an"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "kanchi sôsan"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "chien-chih sêng-ts'an"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "僧璨"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": 606,
+    "death_precision": "exact",
+    "death_confidence": "high",
+    "school": "Early Chan",
+    "source_ids": [
+      "src_chan_ancestors_pdf",
+      "src_originals_curated",
+      "src_tibetan_encyclopedia",
+      "src_wikipedia"
+    ]
+  },
+  {
+    "id": "sq4kfstDl97XrJQhtHtme",
+    "slug": "yongming-yanshou",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Yongming Yanshou"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Yung-ming Yen-shou"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Yômei Enju"
+      }
+    ],
+    "birth_year": 904,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 975,
+    "death_precision": "exact",
+    "death_confidence": "high",
+    "school": "Qingyuan line",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "SSHyzsJj2K7xWw2Q5ZVHG",
+    "slug": "tiantai-deshao",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Tiantai Deshao"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "T'ien-t'ai Tê-shao"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Tendai Tokushô"
+      }
+    ],
+    "birth_year": 891,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 972,
+    "death_precision": "exact",
+    "death_confidence": "high",
+    "school": "Qingyuan line",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "STErfEe56EBTfML9qvACn",
+    "slug": "yantou-quanhuo",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Yantou Quanhuo"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Yen-t'ou Ch'üan-huo"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Gantô Zenkatsu"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Other",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "sWs0_DcgLTAzOP5pMMOTZ",
+    "slug": "parshva",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Parshva"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Parsva"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Pārśva"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Indian Patriarchs",
+    "source_ids": [
+      "src_originals_curated"
+    ]
+  },
+  {
+    "id": "T_KAkYfpv5k3rOTDjvhrV",
+    "slug": "yamada-koun",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Yamada Koun"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "山田耕雲"
+      }
+    ],
+    "birth_year": 1907,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 1989,
+    "death_precision": "exact",
+    "death_confidence": "high",
+    "school": "Sanbo-Zen",
+    "source_ids": [
+      "src_mountain_moon"
+    ]
+  },
+  {
+    "id": "T5yC-lZjdEoiTetm3Rsfx",
+    "slug": "yuelin-shiguan",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Yuelin Shiguan"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Yüeh-lin Shih-kuan"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Gatsurin Shikan"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Linji",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "taa1SflJsFeSc5_-ahrX8",
+    "slug": "shishuang-chuyuan",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Shishuang Chuyuan"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Shih-shuang Ch'u-yüan"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Sekisô Soen"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Linji",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "TBKSEsLQZiOU_e4wO8-CU",
+    "slug": "zhangjing-huaiyun",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Zhangjing Huaiyun"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Chang-ching Huai-yün"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Shôkei Eki"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Yangqi line",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "tEX5l7-qjZO_KX3utGFFf",
+    "slug": "xinghua-cunjiang",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Xinghua Cunjiang"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Hsing-hua Ts'un-chiang"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Koke Sonshô"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "興化存獎"
+      }
+    ],
+    "birth_year": 830,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 888,
+    "death_precision": "exact",
+    "death_confidence": "high",
+    "school": "Linji",
+    "source_ids": [
+      "src_chan_ancestors_pdf",
+      "src_terebess"
+    ]
+  },
+  {
+    "id": "Tm1rbdJAF98SEEdKOXmbZ",
+    "slug": "bajiao-huiqing",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Bajiao Huiqing"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Pa-chiao Hui-ch’ing"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Bashô Esei"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Caodong",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "TmI49DCAHKzONqKV8a1Ys",
+    "slug": "daguang-juhui",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Daguang Juhui"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Ta-kuang Chü-hui"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Daikô Kokai"
+      }
+    ],
+    "birth_year": 837,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 903,
+    "death_precision": "exact",
+    "death_confidence": "high",
+    "school": "Qingyuan line",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "TQzr9ourum7QO05WzkwVh",
+    "slug": "robert-aitken",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Robert Aitken"
+      }
+    ],
+    "birth_year": 1917,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 2010,
+    "death_precision": "exact",
+    "death_confidence": "high",
+    "school": "Sanbo-Zen",
+    "source_ids": [
+      "src_mountain_moon"
+    ]
+  },
+  {
+    "id": "TrVx3xDspTmjlxwCSUtfS",
+    "slug": "linji-yixuan",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Linji Yixuan"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Lin-chi I-hsüan"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Rinzai Gigen"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "臨濟義玄"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "rinzai gigen"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "lin-chi i-hsüan"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "臨済義玄"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": 866,
+    "death_precision": "exact",
+    "death_confidence": "high",
+    "school": "Linji",
+    "source_ids": [
+      "src_chan_ancestors_pdf",
+      "src_originals_curated",
+      "src_terebess"
+    ]
+  },
+  {
+    "id": "tucgspCiGHOSD5vJVeIKY",
+    "slug": "sixin-wuxin",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Sixin Wuxin"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Ssü-hsin Wu-hsin"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Shishin Goshin"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Yangqi line",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "TvV4QKu4ZhHtn8WkdDL7W",
+    "slug": "ananda",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Ananda"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Ananda Thera"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Shakyamuni's attendant"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Indian Patriarchs",
+    "source_ids": [
+      "src_originals_curated"
+    ]
+  },
+  {
+    "id": "tWIL3-PP9anYN53fH_WSh",
+    "slug": "taiyuan-fu",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Taiyuan Fu"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "T'ai-yüan Fu"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Taigen Fu"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Qingyuan line",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "tXQduWU-py_0QzGECA7Sd",
+    "slug": "dayi-daoxin",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Dayi Daoxin"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Ta-i Tao-hsin"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Daii Dôshin"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "大醫道信"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "daii dôshin"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "ta-i tao-hsin"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "道信"
+      }
+    ],
+    "birth_year": 580,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 651,
+    "death_precision": "exact",
+    "death_confidence": "high",
+    "school": "Early Chan",
+    "source_ids": [
+      "src_chan_ancestors_pdf",
+      "src_originals_curated",
+      "src_tibetan_encyclopedia",
+      "src_wikipedia"
+    ]
+  },
+  {
+    "id": "Uj8Fu23jBVYiUHHl32zzU",
+    "slug": "xita-guangmu",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Xita Guangmu"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Hsi-t'a K'uang-mu"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Saitô Kôboku"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Linji",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "UPNzZbMpN3aYiR1YAriYG",
+    "slug": "shexian-guixing",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Shexian Guixing"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Shê-hsien Kuei-hsing"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Sekken Kisei"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Caodong",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "upu2QpQ9LlFN3T-gwWP01",
+    "slug": "daowu-yuanzhi",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Daowu Yuanzhi"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Tao-wu Yüan-chih"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Dôgo Enchi"
+      }
+    ],
+    "birth_year": 769,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 835,
+    "death_precision": "exact",
+    "death_confidence": "high",
+    "school": "Qingyuan line",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "uQ3HJxr98QdGcDriXHgVa",
+    "slug": "tiantong-zongjue",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Tiantong Zongjue"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "T'ien-t'ung Tsung-chüeh"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Tendô Sôkaku"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Caodong",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "UrW-WoQSXfuZ_BI68riTM",
+    "slug": "vasubandhu",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Vasubandhu"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Indian Patriarchs",
+    "source_ids": [
+      "src_originals_curated"
+    ]
+  },
+  {
+    "id": "uu9qH9-9wD0oJeH7zP13h",
+    "slug": "yaoshan-weiyan",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Yaoshan Weiyan"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Yao-shan Wei-yen"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Yakusan Igen"
+      }
+    ],
+    "birth_year": 751,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 834,
+    "death_precision": "exact",
+    "death_confidence": "high",
+    "school": "Qingyuan line",
+    "source_ids": [
+      "src_chan_ancestors_pdf",
+      "src_originals_curated"
+    ]
+  },
+  {
+    "id": "uYAX94w0QwewUKFQwpJ7a",
+    "slug": "kumarata",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Kumarata"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Kumaralata"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Indian Patriarchs",
+    "source_ids": [
+      "src_originals_curated"
+    ]
+  },
+  {
+    "id": "UySLkzr0wMbS4NOdRWgL2",
+    "slug": "yunju-daoying",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Yunju Daoying"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Yün-chü Tao-ying"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Ungo Dôyô"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "雲居道膺"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": 902,
+    "death_precision": "exact",
+    "death_confidence": "high",
+    "school": "Caodong",
+    "source_ids": [
+      "src_chan_ancestors_pdf",
+      "src_terebess",
+      "src_tibetan_encyclopedia"
+    ]
+  },
+  {
+    "id": "uZ4D53XAuRrqcqmhCBmqG",
+    "slug": "shoushan-xingnian",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Shoushan Xingnian"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Shou-shan Hsing-nien"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Shuzan Shônen"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Linji",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "V_8lJN6ppavunARmM0NLf",
+    "slug": "chuanzi-decheng",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Chuanzi Decheng"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Ch'uan-tzü Tê-ch'êng"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Sensu Tokujô"
+      },
+      {
+        "locale": "en",
+        "name_type": "honorific",
+        "value": "The Boatmonk"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Qingyuan line",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "v5EyeUSr4kkYXdxVFIuTu",
+    "slug": "huanglong-huiji",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Huanglong Huiji"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Other",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "v6FVLPTyfT77cJEetS1I6",
+    "slug": "changshui-zixuan",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Changshui Zixuan"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Ch'ang-shui Tzu-hsuan"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Chôsui Shisen"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Caodong",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "v9Enx95HWL-dRCYWpf3vC",
+    "slug": "cizhou-faru",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Cizhou Faru"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Ts'ü-chou Fa-ju"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Jishû Hônyo"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Qingyuan line",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "VC9R6db1spX9eNyW77zXV",
+    "slug": "jiufeng-daoqian",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Jiufeng Daoqian"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Chiu-fêng Tao-ch'ien"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Kyûhô Dôken"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Qingyuan line",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "vjHWgxgLJcExleMk_kKNo",
+    "slug": "shengshou-nanyin",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Shengshou Nanyin"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Shêng-shou Nan-yin"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Seijû Nan'in"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Other",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "VkPTR1oW6Vohii5HAIgIR",
+    "slug": "danxia-tianran",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Danxia Tianran"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Tan-hsia T'ien-jan"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Tanka Tenen"
+      }
+    ],
+    "birth_year": 738,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 824,
+    "death_precision": "exact",
+    "death_confidence": "high",
+    "school": "Qingyuan line",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "Vy7KG4Qzu-Xo8fQ7vz9Qs",
+    "slug": "dayang-jingxuan",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Dayang Jingxuan"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Ta-yang Jing-hsüan"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Taiyô Kyôgên"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Caodong",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "w_BH28jKXdxchcv4d0gGy",
+    "slug": "dongshan-liangjie",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Dongshan Liangjie"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Tung-shan Liang-chieh"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Tôzan Ryôkai"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "洞山良价"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "tôzan ryôkai"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "tung-shan liang-chieh"
+      }
+    ],
+    "birth_year": 807,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 869,
+    "death_precision": "exact",
+    "death_confidence": "high",
+    "school": "Qingyuan line",
+    "source_ids": [
+      "src_chan_ancestors_pdf",
+      "src_originals_curated",
+      "src_terebess",
+      "src_tibetan_encyclopedia",
+      "src_wikipedia"
+    ]
+  },
+  {
+    "id": "WG_9w4-45bOz9VmBcjpYw",
+    "slug": "hakuin-ekaku",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Hakuin Ekaku"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "白隠慧鶴"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Hakuin"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Hakuin Zenji"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "hakuin"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "hakuin zenji"
+      }
+    ],
+    "birth_year": 1686,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 1769,
+    "death_precision": "exact",
+    "death_confidence": "high",
+    "school": "Rinzai",
+    "source_ids": [
+      "src_originals_curated"
+    ]
+  },
+  {
+    "id": "wJOC19yTM2x4sP2cdxBch",
+    "slug": "tiantong-rujing",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Tiantong Rujing"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "T'ien-t'ung Ju-ching"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Tendô Nyojô"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "tendô nyojô"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "t'ien-t'ung ju-ching"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "天童如淨"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Caodong",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "WRqVa4TCwjlNOkSjUCj8G",
+    "slug": "yuantong-fashen",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Yuantong Fashen"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Yüan-t'ung Fa-shên"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Entsû Hôshû"
+      },
+      {
+        "locale": "en",
+        "name_type": "honorific",
+        "value": "Fayun"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Yunmen",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "wSFA1nVSaVApOsSbwXxZG",
+    "slug": "tongan-daopi",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Tongan Daopi"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "T'ung-an Tao-p'i"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Dôan Dôhi"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Caodong",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "WTI-TCqjlDuEtaweyATXJ",
+    "slug": "jiashan-shanhui",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Jiashan Shanhui"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Chia-shan Shan-hui"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Kassan Zenne"
+      }
+    ],
+    "birth_year": 805,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 881,
+    "death_precision": "exact",
+    "death_confidence": "high",
+    "school": "Qingyuan line",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "wwCpXq760NDqCnk7mu9p_",
+    "slug": "simha",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Simha"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Simhabodhi"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Indian Patriarchs",
+    "source_ids": [
+      "src_originals_curated"
+    ]
+  },
+  {
+    "id": "X2ccK87D6xrnkZyp3yAtO",
+    "slug": "changqing-huileng",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Changqing Huileng"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Ch'ang-ch'ing Hui-lêng"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Chôkei Eryô"
+      }
+    ],
+    "birth_year": 854,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 932,
+    "death_precision": "exact",
+    "death_confidence": "high",
+    "school": "Qingyuan line",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "x6XSztbbcwA7zFayAkMSl",
+    "slug": "jingzhong-wuxiang",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Jingzhong Wuxiang"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Ching-Chung Wu-Hsiang"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Jôshu Musô"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Other",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "xc5IW8qvtH_72qBONcm8D",
+    "slug": "yanguan-qian",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Yanguan Qian"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Yen-kuan Ch'i-an"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Enkan Seian"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Linji",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "XcZWOXq1P5YUGV8UKZXDN",
+    "slug": "hongzhi-zhengjue",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Hongzhi Zhengjue"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Hung-chih Chêng-chüeh"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Wanshi Shôgaku"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Caodong",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "XGgvvjlgSlpPY4huIWXjM",
+    "slug": "shishuang-qingzhu",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Shishuang Qingzhu"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Shih-shuang Ch'ing-chu"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Sekisô Keisho"
+      }
+    ],
+    "birth_year": 807,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 888,
+    "death_precision": "exact",
+    "death_confidence": "high",
+    "school": "Qingyuan line",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "XjAKbIvgYgUOotD4gqWCV",
+    "slug": "deshan-yuanmi",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Deshan Yuanmi"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Tê-shan Yüan-mi"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Tokusan Emmitsu"
+      },
+      {
+        "locale": "en",
+        "name_type": "honorific",
+        "value": "Yuanming"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Caodong",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "XRkgYKrS2PmeZWWOPzRLj",
+    "slug": "ashvaghosha",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Ashvaghosha"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Asvaghosha"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Asvaghosa"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Indian Patriarchs",
+    "source_ids": [
+      "src_originals_curated"
+    ]
+  },
+  {
+    "id": "XrxqdmN0CWreWdHqvkO67",
+    "slug": "vasumitra",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Vasumitra"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Vasumittra"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Indian Patriarchs",
+    "source_ids": [
+      "src_originals_curated"
+    ]
+  },
+  {
+    "id": "xvNlcBK2lf_-swgDoLjZg",
+    "slug": "xitang-zhizang",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Xitang Zhizang"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Hsi-t'ang Chih-tsang"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Seidô Chizô"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Linji",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "XzLx8w_R3S46E186G9qep",
+    "slug": "zifu-rubao",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Zifu Rubao"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Tsü-fu Ju-pao"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Shifuku Nyohô"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Linji",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "Y0knckXJi9kjRghDAvzgR",
+    "slug": "heze-shenhui",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Heze Shenhui"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Ho-tsê Shên-hui"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Kataku Jinne"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Qingyuan line",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "YOKNETNusc7MvXG9H87_4",
+    "slug": "jayata",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Jayata"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Indian Patriarchs",
+    "source_ids": [
+      "src_originals_curated"
+    ]
+  },
+  {
+    "id": "YPOsnZ8XDX33nnOePZ-5c",
+    "slug": "yongjia-xuanjue",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Yongjia Xuanjue"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Yung-chia Hsüan-chüeh"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Yôka Genkaku"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": 713,
+    "death_precision": "exact",
+    "death_confidence": "high",
+    "school": "Qingyuan line",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "Ypzz3R74TdOUZEc41CRhm",
+    "slug": "tianhuang-daowu",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Tianhuang Daowu"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "T'ien-huang Tao-wu"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Tennô Dôgo"
+      }
+    ],
+    "birth_year": 748,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 807,
+    "death_precision": "exact",
+    "death_confidence": "high",
+    "school": "Qingyuan line",
+    "source_ids": [
+      "src_chan_ancestors_pdf",
+      "src_originals_curated"
+    ]
+  },
+  {
+    "id": "yRkGCQqk0wCVaL-wdDNzh",
+    "slug": "huoan-shiti",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Huoan Shiti"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Linji",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "YtkGkMWTv8Kv64k_KtCi7",
+    "slug": "heshan-wuyin",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Heshan Wuyin"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Ho-shan Wu-yin"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Kasan Muin"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Yunmen",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "yYvOl6ecI-wc9nmWKgP3f",
+    "slug": "xiangyan-zhixian",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Xiangyan Zhixian"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Hsiang-yen Chih-hsien"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Kyôgen Chikan"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Guiyang",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "ZfmfYNCJD9rKOo9nvYUen",
+    "slug": "huitang-zuxin",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Huitang Zuxin"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Hui-t'ang Tsu-hsin"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Kaidô Soshin"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Linji",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "ZMXzHZ8MwtS8wtG_jQCRc",
+    "slug": "baoci-xingyan",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Baoci Xingyan"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Pao-ts’u Hsing-yen"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Hôji Gyôgon"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Qingyuan line",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "znqwIUXYM3hGD_HsbepXD",
+    "slug": "panshan-baoji",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Panshan Baoji"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "P'an-shan Pao-chi"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Banzan Hôshaku"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Yunmen",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "zuqTzAdXzd8ExE41-U2ol",
+    "slug": "guishan-daan",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Guishan Daan"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Kuei-shan Ta-an"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Isan Daian"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Yangqi line",
+    "source_ids": [
+      "src_chan_ancestors_pdf"
+    ]
+  }
+]

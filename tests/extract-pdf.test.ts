@@ -17,8 +17,6 @@ import {
   buildRawMasters,
   splitSections,
   type RawMaster,
-  type IndexEntry,
-  type ChartBlock,
 } from "../scripts/extract-pdf";
 
 // ---------------------------------------------------------------------------
@@ -115,8 +113,8 @@ describe("inferSchool", () => {
 // ---------------------------------------------------------------------------
 
 describe("parseIndex", () => {
-  const { chartLines, indexLines } = splitSections(sampleText);
-  const { entries, notShown, seeRefs } = parseIndex(indexLines);
+  const { indexLines } = splitSections(sampleText);
+  const { entries, notShown } = parseIndex(indexLines);
 
   it("parses tab-separated index entries", () => {
     expect(entries.length).toBeGreaterThan(0);
@@ -134,6 +132,15 @@ describe("parseIndex", () => {
     const damo = entries.find((e) => e.pinyin === "Puti Damo");
     expect(damo).toBeDefined();
     expect(damo!.gridCode).toBe("I1");
+  });
+
+  it("preserves koan refs including continuation lines", () => {
+    const dongshan = entries.find((e) => e.pinyin === "Dongshan Liangjie");
+    expect(dongshan).toBeDefined();
+    expect(dongshan!.koanRefs).toContain("43");
+    expect(dongshan!.koanRefs).toContain("22,49,56");
+    expect(dongshan!.koanRefs).toContain("89,94,98");
+    expect(dongshan!.koanRefs).toContain("85");
   });
 
   it("parses 'Not shown' teacher references", () => {
@@ -275,6 +282,13 @@ describe("buildRawMasters", () => {
     expect(guifeng!.teachers[0].name).toBe("Suizhou Daoyuan");
     expect(guifeng!.teachers[0].edge_type).toBe("primary");
     expect(guifeng!.teachers[0].locator).toBe("Q11");
+  });
+
+  it("preserves koan refs on raw masters", () => {
+    const dongshan = masters.find((m) => m.name === "Dongshan Liangjie");
+    expect(dongshan).toBeDefined();
+    expect(dongshan!.koan_refs).toContain("43");
+    expect(dongshan!.koan_refs).toContain("89,94,98");
   });
 });
 

@@ -7,9 +7,6 @@ import {
   buildAliasLookup,
   resolveCanonicalKey,
   matchStrategy,
-  mergeMasters,
-  buildCanonicalMaster,
-  buildTransmissions,
   resolveTeacherRef,
   buildSearchTokens,
   reconcile,
@@ -295,6 +292,28 @@ describe('reconcile — ambiguous date+partial → review queue', () => {
     const item = result.reviewQueue[0];
     expect(item.candidates.some((c) => c.name === 'Huangbo Ziran')).toBe(true);
     expect(item.candidates.some((c) => c.name === 'Huangbo Qingliang')).toBe(true);
+  });
+});
+
+describe('reconcile — reviewed non-merges', () => {
+  it('suppresses review queue entries for known distinct masters', () => {
+    const rawMasters: RawMaster[] = [
+      rawMaster({
+        name: 'Daowu Yuanzhi',
+        dates: '769-835',
+        source_id: 'src_chan_ancestors_pdf',
+      }),
+      rawMaster({
+        name: 'Tianhuang Daowu',
+        dates: '748-807',
+        source_id: 'src_chan_ancestors_pdf',
+      }),
+    ];
+
+    const result = reconcile(rawMasters, { aliases: {} });
+
+    expect(result.reviewQueue).toHaveLength(0);
+    expect(result.masters).toHaveLength(2);
   });
 });
 

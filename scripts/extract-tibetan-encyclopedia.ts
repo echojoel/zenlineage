@@ -7,8 +7,14 @@
 
 import * as cheerio from 'cheerio';
 import fs from 'fs';
-import { nanoid } from 'nanoid';
 import type { RawMaster, RawTeacherRef } from './scraper-types';
+import {
+  failIngestionRun,
+  finishIngestionRun,
+  fingerprintContent,
+  startIngestionRun,
+  toArchiveRef,
+} from './ingestion-provenance';
 
 /**
  * Parse a single <li> text node to extract name, CJK, and dates.
@@ -61,7 +67,7 @@ function parseMasterText(text: string): {
  * Recursively walk a <ul> tree, tracking parent at each nesting level.
  */
 function walkList(
-  $: cheerio.CheerioAPI,
+  $: ReturnType<typeof cheerio.load>,
   ul: cheerio.Element,
   parentName: string | null,
   school: string,
@@ -71,7 +77,7 @@ function walkList(
 ): void {
   $(ul).children('li').each((_i, li) => {
     // Get only the direct text of this <li>, excluding nested <ul>
-    const directText = $(li).contents().filter(function () {
+    const directText = $(li).contents().filter(function (this: { type?: string }) {
       return this.type === 'text';
     }).text().trim();
 
@@ -134,6 +140,7 @@ export function parseHtml(
 async function main() {
   const inputPath = process.argv[2] || 'scripts/data/raw/tibetan-encyclopedia.html';
   const outputPath = process.argv[3] || 'scripts/data/raw/tibetan-encyclopedia.json';
+  const sourceId = 'src_tibetan_encyclopedia';
 
   if (!fs.existsSync(inputPath)) {
     console.error(`Input file not found: ${inputPath}`);
@@ -142,12 +149,28 @@ async function main() {
   }
 
   const html = fs.readFileSync(inputPath, 'utf-8');
-  const runId = nanoid();
-  const masters = parseHtml(html, 'src_tibetan_encyclopedia', runId);
+  const run = await startIngestionRun({
+    sourceId,
+    scriptName: 'extract-tibetan-encyclopedia.ts',
+  });
 
-  fs.writeFileSync(outputPath, JSON.stringify(masters, null, 2));
-  console.log(`Extracted ${masters.length} masters from Tibetan Buddhist Encyclopedia`);
-  console.log(`Output written to ${outputPath}`);
+  try {
+    const masters = parseHtml(html, sourceId, run.id);
+
+    fs.writeFileSync(outputPath, JSON.stringify(masters, null, 2));
+    await finishIngestionRun(run, {
+      recordCount: masters.length,
+      notes: `Extracted ${masters.length} masters from Tibetan Buddhist Encyclopedia HTML.`,
+      snapshotHash: fingerprintContent(html),
+      snapshotArchiveRef: toArchiveRef(inputPath),
+    });
+
+    console.log(`Extracted ${masters.length} masters from Tibetan Buddhist Encyclopedia`);
+    console.log(`Output written to ${outputPath}`);
+  } catch (err) {
+    await failIngestionRun(run, err);
+    throw err;
+  }
 }
 
 // Only run main when executed directly (not when imported)

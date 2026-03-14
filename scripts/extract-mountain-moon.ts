@@ -7,8 +7,14 @@
 
 import * as cheerio from 'cheerio';
 import fs from 'fs';
-import { nanoid } from 'nanoid';
 import type { RawMaster, RawTeacherRef } from './scraper-types';
+import {
+  failIngestionRun,
+  finishIngestionRun,
+  fingerprintContent,
+  startIngestionRun,
+  toArchiveRef,
+} from './ingestion-provenance';
 
 /**
  * Pure parsing function — testable without network access.
@@ -69,6 +75,7 @@ export function parseHtml(
 async function main() {
   const inputPath = process.argv[2] || 'scripts/data/raw/mountain-moon.html';
   const outputPath = process.argv[3] || 'scripts/data/raw/mountain-moon.json';
+  const sourceId = 'src_mountain_moon';
 
   if (!fs.existsSync(inputPath)) {
     console.error(`Input file not found: ${inputPath}`);
@@ -77,12 +84,28 @@ async function main() {
   }
 
   const html = fs.readFileSync(inputPath, 'utf-8');
-  const runId = nanoid();
-  const masters = parseHtml(html, 'src_mountain_moon', runId);
+  const run = await startIngestionRun({
+    sourceId,
+    scriptName: 'extract-mountain-moon.ts',
+  });
 
-  fs.writeFileSync(outputPath, JSON.stringify(masters, null, 2));
-  console.log(`Extracted ${masters.length} masters from Mountain Moon`);
-  console.log(`Output written to ${outputPath}`);
+  try {
+    const masters = parseHtml(html, sourceId, run.id);
+
+    fs.writeFileSync(outputPath, JSON.stringify(masters, null, 2));
+    await finishIngestionRun(run, {
+      recordCount: masters.length,
+      notes: `Extracted ${masters.length} masters from Mountain Moon lineage HTML.`,
+      snapshotHash: fingerprintContent(html),
+      snapshotArchiveRef: toArchiveRef(inputPath),
+    });
+
+    console.log(`Extracted ${masters.length} masters from Mountain Moon`);
+    console.log(`Output written to ${outputPath}`);
+  } catch (err) {
+    await failIngestionRun(run, err);
+    throw err;
+  }
 }
 
 // Only run main when executed directly (not when imported)

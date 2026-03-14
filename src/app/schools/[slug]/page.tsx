@@ -1,0 +1,239 @@
+import Link from "next/link";
+import { notFound } from "next/navigation";
+import { and, eq, inArray } from "drizzle-orm";
+import { db } from "@/db";
+import { citations, masterNames, masters, schoolNames, schools, sources } from "@/db/schema";
+import { formatDateWithPrecision } from "@/lib/date-format";
+import { getSchoolDefinition } from "@/lib/school-taxonomy";
+
+export default async function SchoolDetailPage({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}) {
+  const { slug } = await params;
+
+  const schoolRows = await db
+    .select({
+      id: schools.id,
+      slug: schools.slug,
+      tradition: schools.tradition,
+      parentId: schools.parentId,
+    })
+    .from(schools)
+    .where(eq(schools.slug, slug));
+
+  const school = schoolRows[0];
+  if (!school) notFound();
+
+  const names = await db
+    .select({
+      value: schoolNames.value,
+      locale: schoolNames.locale,
+    })
+    .from(schoolNames)
+    .where(eq(schoolNames.schoolId, school.id));
+
+  const primaryName =
+    names.find((name) => name.locale === "en")?.value ??
+    names[0]?.value ??
+    school.slug;
+
+  const parentRow = school.parentId
+    ? (
+        await db
+          .select({
+            slug: schools.slug,
+            name: schoolNames.value,
+          })
+          .from(schools)
+          .leftJoin(
+            schoolNames,
+            and(eq(schoolNames.schoolId, schools.id), eq(schoolNames.locale, "en")),
+          )
+          .where(eq(schools.id, school.parentId))
+      )[0]
+    : null;
+
+  const schoolMasters = await db
+    .select({
+      id: masters.id,
+      slug: masters.slug,
+      birthYear: masters.birthYear,
+      birthPrecision: masters.birthPrecision,
+      deathYear: masters.deathYear,
+      deathPrecision: masters.deathPrecision,
+    })
+    .from(masters)
+    .where(eq(masters.schoolId, school.id));
+
+  const masterIds = schoolMasters.map((master) => master.id);
+  const masterNamesRows =
+    masterIds.length > 0
+      ? await db
+          .select({
+            masterId: masterNames.masterId,
+            nameType: masterNames.nameType,
+            value: masterNames.value,
+          })
+          .from(masterNames)
+          .where(
+            and(
+              inArray(masterNames.masterId, masterIds),
+              eq(masterNames.locale, "en"),
+            ),
+          )
+      : [];
+
+  const masterNameMap = new Map<string, string>();
+  for (const row of masterNamesRows) {
+    if (row.nameType === "dharma" && !masterNameMap.has(row.masterId)) {
+      masterNameMap.set(row.masterId, row.value);
+    }
+  }
+  for (const row of masterNamesRows) {
+    if (!masterNameMap.has(row.masterId)) {
+      masterNameMap.set(row.masterId, row.value);
+    }
+  }
+
+  const citationRows =
+    masterIds.length > 0
+      ? await db
+          .select({
+            id: citations.id,
+            sourceId: citations.sourceId,
+          })
+          .from(citations)
+          .where(
+            and(
+              eq(citations.entityType, "master"),
+              inArray(citations.entityId, masterIds),
+            ),
+          )
+      : [];
+  const sourceIds = Array.from(new Set(citationRows.map((citation) => citation.sourceId)));
+  const sourceRows =
+    sourceIds.length > 0
+      ? await db
+          .select({
+            id: sources.id,
+            title: sources.title,
+            url: sources.url,
+          })
+          .from(sources)
+          .where(inArray(sources.id, sourceIds))
+      : [];
+
+  const featuredMaster =
+    schoolMasters.find((master) => {
+      const name = (masterNameMap.get(master.id) ?? master.slug).toLowerCase();
+      return name.includes("dogen") || name.includes("dōgen");
+    }) ??
+    schoolMasters[0] ??
+    null;
+
+  const definition = getSchoolDefinition(slug);
+
+  return (
+    <main className="detail-page">
+      <header className="page-header">
+        <Link href="/" className="nav-link">
+          禅
+        </Link>
+        <Link href="/schools" className="nav-link">
+          Schools
+        </Link>
+        <h1 className="page-title">{primaryName}</h1>
+      </header>
+
+      <div className="detail-layout">
+        <section className="detail-hero">
+          <p className="detail-eyebrow">{school.tradition ?? "Zen tradition"}</p>
+          <h2 className="detail-title">{primaryName}</h2>
+          <p className="detail-subtitle">
+            {parentRow ? (
+              <>
+                Branch of{" "}
+                <Link className="detail-inline-link" href={`/schools/${parentRow.slug}`}>
+                  {parentRow.name}
+                </Link>
+              </>
+            ) : (
+              "Top-level school branch"
+            )}
+          </p>
+          <div className="detail-actions">
+            <Link
+              className="detail-button"
+              href={`/lineage?school=${school.slug}${featuredMaster ? `&focus=${featuredMaster.slug}` : ""}`}
+            >
+              Explore lineage
+            </Link>
+            {featuredMaster && (
+              <Link className="detail-button detail-button-muted" href={`/masters/${featuredMaster.slug}`}>
+                Featured master
+              </Link>
+            )}
+          </div>
+          <p className="detail-summary">
+            {definition?.summary ??
+              "This school page summarizes the current lineage coverage in the encyclopedia dataset."}
+          </p>
+        </section>
+
+        <section className="detail-card">
+          <h3 className="detail-section-title">Masters in this branch</h3>
+          {schoolMasters.length === 0 ? (
+            <p className="detail-muted">No masters linked to this school yet.</p>
+          ) : (
+            <ul className="detail-link-list">
+              {schoolMasters
+                .map((master) => ({
+                  ...master,
+                  name: masterNameMap.get(master.id) ?? master.slug,
+                }))
+                .sort((a, b) => a.name.localeCompare(b.name))
+                .map((master) => (
+                  <li key={master.id}>
+                    <Link href={`/masters/${master.slug}`}>{master.name}</Link>
+                    <span className="detail-list-meta">
+                      {formatDateWithPrecision(master.birthYear, master.birthPrecision, { unknown: null }) ?? "?"}
+                      {" – "}
+                      {formatDateWithPrecision(master.deathYear, master.deathPrecision, { unknown: null }) ?? "?"}
+                    </span>
+                  </li>
+                ))}
+            </ul>
+          )}
+        </section>
+
+        <section className="detail-card">
+          <h3 className="detail-section-title">Sources in use</h3>
+          {sourceRows.length === 0 ? (
+            <p className="detail-muted">No supporting sources are attached to the linked masters yet.</p>
+          ) : (
+            <ul className="detail-source-list">
+              {sourceRows.map((source) => (
+                <li key={source.id}>
+                  {source.url ? (
+                    <a
+                      href={source.url}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="detail-inline-link"
+                    >
+                      {source.title}
+                    </a>
+                  ) : (
+                    <span>{source.title}</span>
+                  )}
+                </li>
+              ))}
+            </ul>
+          )}
+        </section>
+      </div>
+    </main>
+  );
+}

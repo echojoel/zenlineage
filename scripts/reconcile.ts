@@ -15,35 +15,18 @@ import fs from 'fs';
 import path from 'path';
 import crypto from 'crypto';
 import { generateSearchTokens } from '@/lib/search-tokens';
+import { determineSchoolDefinition } from '@/lib/school-taxonomy';
+import type { RawMaster, RawTeacherRef } from './scraper-types';
+import { sanitizeRawMasters } from './raw-master-cleaning';
+import { normalizeRawDatasetRows } from './raw-dataset-config';
+import { isReviewedNonMerge } from './review-decisions';
 import {
   validateDAG,
   type TransmissionEdge,
   type MasterDates,
 } from '@/lib/dag-validation';
 
-// ---------------------------------------------------------------------------
-// Re-export raw types (sourced from scraper-types.ts shape)
-// ---------------------------------------------------------------------------
-
-export interface RawTeacherRef {
-  name: string;
-  edge_type?: 'primary' | 'secondary' | 'disputed';
-  locator?: string;
-  notes?: string;
-}
-
-export interface RawMaster {
-  name: string;
-  names_cjk: string;
-  dates: string;
-  teachers: RawTeacherRef[];
-  school: string;
-  source_id: string;
-  ingestion_run_id: string;
-  names_alt?: string[];
-  grid_code?: string;
-  nicknames?: string[];
-}
+export type { RawMaster, RawTeacherRef } from './scraper-types';
 
 // ---------------------------------------------------------------------------
 // Canonical output types
@@ -153,26 +136,21 @@ export function slugify(name: string): string {
 // ---------------------------------------------------------------------------
 
 export function loadRawSources(rawDir: string): RawMaster[] {
-  const expected = [
-    'chan-ancestors.json',
-    'wikipedia.json',
-    'tibetan-encyclopedia.json',
-    'terebess.json',
-    'mountain-moon.json',
-  ];
-
   const all: RawMaster[] = [];
 
-  for (const filename of expected) {
-    const filepath = path.join(rawDir, filename);
-    if (!fs.existsSync(filepath)) continue;
+  const filenames = fs
+    .readdirSync(rawDir)
+    .filter((filename) => filename.endsWith('.json'))
+    .sort();
 
+  for (const filename of filenames) {
+    const filepath = path.join(rawDir, filename);
     const raw = fs.readFileSync(filepath, 'utf-8');
     const parsed: RawMaster[] = JSON.parse(raw);
-    all.push(...parsed);
+    all.push(...normalizeRawDatasetRows(filename, parsed));
   }
 
-  return all;
+  return sanitizeRawMasters(all);
 }
 
 // ---------------------------------------------------------------------------
@@ -307,10 +285,12 @@ function datesOverlap(a: ParsedDates, b: ParsedDates): boolean {
  * Source reliability order (highest first): scholarly > secondary > popular
  */
 const SOURCE_RELIABILITY: Record<string, number> = {
+  src_sotozen_founders: 5,
   src_chan_ancestors_pdf: 4,
   src_tibetan_encyclopedia: 3,
   src_terebess: 3,
   src_mountain_moon: 3,
+  src_originals_curated: 2,
   src_wikipedia: 2,
 };
 
@@ -336,6 +316,9 @@ export function mergeMasters(a: RawMaster, b: RawMaster): RawMaster {
   const nicknames = Array.from(
     new Set([...(a.nicknames ?? []), ...(b.nicknames ?? [])]),
   );
+  const koanRefs = Array.from(
+    new Set([a.koan_refs, b.koan_refs].filter(Boolean)),
+  ).join(' | ');
 
   // Merge teachers
   const teacherMap = new Map<string, RawTeacherRef>();
@@ -367,6 +350,7 @@ export function mergeMasters(a: RawMaster, b: RawMaster): RawMaster {
     names_cjk: primary.names_cjk || secondary.names_cjk,
     names_alt: Array.from(altNames),
     nicknames: nicknames.length > 0 ? nicknames : undefined,
+    koan_refs: koanRefs || undefined,
     teachers: Array.from(teacherMap.values()),
     // Keep both source IDs encoded in ingestion_run_id field is not appropriate;
     // we track source_ids at the CanonicalMaster level instead.
@@ -493,21 +477,6 @@ function inferLocale(value: string): string {
 }
 
 /**
- * Determine whether a name looks like Wade-Giles romanisation.
- * Wade-Giles uses apostrophes and/or hyphens between morphemes.
- */
-function looksWadeGiles(name: string): boolean {
-  return /[''\u2019]/.test(name) || /\w-\w/.test(name);
-}
-
-function nameTypeForVariant(value: string, isPrimary: boolean): string {
-  if (isPrimary) return 'dharma';
-  if (/[\u4e00-\u9fff\u3040-\u30ff]/.test(value)) return 'alias';
-  if (looksWadeGiles(value)) return 'alias'; // Wade-Giles → alias
-  return 'alias';
-}
-
-/**
  * Build the canonical names array for a merged group of RawMasters.
  * Deduplicates by value.
  */
@@ -540,12 +509,6 @@ export function buildCanonicalNames(
   }
 
   // Add alias-file variants for the canonical name
-  const canonicalKey = resolveCanonicalKey(primary, aliasLookup);
-  // Find the canonical entry
-  for (const [canon, variants] of Object.entries({ [canonicalKey]: [] })) {
-    void canon; void variants; // placeholder, handled via lookup below
-  }
-  // Actually look up via canonical key in reverse
   for (const [canon, variants] of Object.entries(
     buildCanonicalNamesFromAliasFile(aliasLookup, primary.name),
   )) {
@@ -609,6 +572,10 @@ export function buildCanonicalMaster(
   const slug = slugify(primary.name);
 
   const names = buildCanonicalNames(group, aliasLookup);
+  const schoolDefinition = determineSchoolDefinition({
+    rawLabel: primary.school,
+    names: names.map((name) => name.value),
+  });
 
   return {
     id,
@@ -620,7 +587,7 @@ export function buildCanonicalMaster(
     death_year: dates.death?.year ?? null,
     death_precision: dates.death?.precision ?? 'unknown',
     death_confidence: dates.death?.confidence ?? 'low',
-    school: primary.school,
+    school: schoolDefinition?.name ?? primary.school,
     source_ids: sourceIds,
   };
 }
@@ -694,6 +661,41 @@ export function buildCitations(
         field_name: 'name',
         excerpt: raw.name,
       });
+
+      if (raw.school) {
+        citations.push({
+          id: deterministicId(`cite:${master.id}:${raw.source_id}:school:${raw.school}`),
+          source_id: raw.source_id,
+          entity_type: 'master',
+          entity_id: master.id,
+          field_name: 'school',
+          excerpt: raw.school,
+        });
+      }
+
+      for (const teacher of raw.teachers) {
+        citations.push({
+          id: deterministicId(
+            `cite:${master.id}:${raw.source_id}:teacher:${teacher.name}:${teacher.locator ?? ""}`,
+          ),
+          source_id: raw.source_id,
+          entity_type: 'master',
+          entity_id: master.id,
+          field_name: 'teachers',
+          excerpt: teacher.locator ? `${teacher.name} (${teacher.locator})` : teacher.name,
+        });
+      }
+
+      if (raw.koan_refs) {
+        citations.push({
+          id: deterministicId(`cite:${master.id}:${raw.source_id}:koan_refs:${raw.koan_refs}`),
+          source_id: raw.source_id,
+          entity_type: 'master',
+          entity_id: master.id,
+          field_name: 'koan_refs',
+          excerpt: raw.koan_refs,
+        });
+      }
     }
   }
 
@@ -877,6 +879,9 @@ export function reconcile(
       const strategy = matchStrategy(repA, repB, aliasLookup);
 
       if (strategy === 'date_partial') {
+        if (isReviewedNonMerge(repA.name, repB.name)) {
+          continue;
+        }
         // Ambiguous — send to review queue
         reviewQueue.push({
           reason: `Potential match via date+partial-name between "${repA.name}" and "${repB.name}"`,
