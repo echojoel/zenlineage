@@ -256,7 +256,7 @@ export default async function SchoolDetailPage({ params }: { params: Promise<{ s
                       href={source.url}
                       target="_blank"
                       rel="noreferrer"
-                      className="detail-inline-link"
+                      className="detail-source-link"
                     >
                       {source.title}
                     </a>

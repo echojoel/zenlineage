@@ -26,7 +26,9 @@ export interface GraphNode {
   schoolSlug: string | null;
   schoolName: string | null;
   birthYear: number | null;
+  birthPrecision: string | null;
   deathYear: number | null;
+  deathPrecision: string | null;
   searchText: string;
   bio: string | null;
   imageSrc?: string | null;
@@ -71,7 +73,9 @@ export async function GET(): Promise<NextResponse<GraphData>> {
         slug: masters.slug,
         schoolId: masters.schoolId,
         birthYear: masters.birthYear,
+        birthPrecision: masters.birthPrecision,
         deathYear: masters.deathYear,
+        deathPrecision: masters.deathPrecision,
       })
       .from(masters),
 
@@ -234,7 +238,9 @@ export async function GET(): Promise<NextResponse<GraphData>> {
       schoolSlug: schoolMeta?.slug ?? null,
       schoolName: schoolMeta?.name ?? null,
       birthYear: m.birthYear,
+      birthPrecision: m.birthPrecision,
       deathYear: m.deathYear,
+      deathPrecision: m.deathPrecision,
       searchText: (searchMap.get(m.id) ?? []).join(" "),
       bio: bioMap.get(m.id) ?? null,
       imageSrc: publishedImage?.src ?? null,

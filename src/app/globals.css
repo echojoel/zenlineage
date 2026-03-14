@@ -117,14 +117,12 @@ body {
   align-items: center;
   gap: 0.5rem;
   background: rgba(250, 249, 247, 0.92);
-  border: 1px solid var(--paper-warm);
-  border-radius: 4px;
   padding: 0.5rem 0.75rem;
 }
 
 .lineage-search,
 .masters-search {
-  border: 1px solid var(--paper-warm);
+  border: none;
   background: var(--paper);
   color: var(--ink);
   font-family: var(--font-inter), sans-serif;
@@ -142,7 +140,7 @@ body {
 
 .lineage-select,
 .masters-select {
-  border: 1px solid var(--paper-warm);
+  border: none;
   background: var(--paper);
   color: var(--ink);
   font-family: var(--font-inter), sans-serif;
@@ -150,17 +148,6 @@ body {
   padding: 0.3rem 0.5rem;
   border-radius: 3px;
   cursor: pointer;
-}
-
-.lineage-toggle {
-  font-family: var(--font-inter), sans-serif;
-  font-size: 0.7rem;
-  color: var(--ink-light);
-  display: flex;
-  align-items: center;
-  gap: 0.3rem;
-  cursor: pointer;
-  user-select: none;
 }
 
 .lineage-scrubber {
@@ -173,8 +160,6 @@ body {
   align-items: center;
   gap: 0.6rem;
   background: rgba(250, 249, 247, 0.92);
-  border: 1px solid var(--paper-warm);
-  border-radius: 4px;
   padding: 0.4rem 0.9rem;
 }
 
@@ -360,9 +345,6 @@ body {
   font-size: 0.65rem;
   letter-spacing: 0.06em;
   color: var(--ink-light);
-  background: var(--paper-warm);
-  border-radius: 2px;
-  padding: 0.1rem 0.35rem;
 }
 
 /* ===== Masters page ===== */
@@ -416,16 +398,16 @@ body {
 
 .master-card {
   display: block;
-  background: var(--paper-warm);
-  border: 1px solid transparent;
-  border-radius: 4px;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid rgba(122, 106, 85, 0.12);
   padding: 0.75rem 0.9rem;
-  transition: border-color 0.15s;
+  transition: background 0.15s;
   text-decoration: none;
 }
 
 .master-card:hover {
-  border-color: var(--ink-light);
+  background: var(--paper-warm);
 }
 
 .master-card-image {
@@ -462,14 +444,15 @@ body {
   display: flex;
   flex-direction: column;
   gap: 0;
+  max-width: 640px;
 }
 
 .master-list-row {
   text-decoration: none;
   color: inherit;
   display: grid;
-  grid-template-columns: 1fr 120px 100px;
-  gap: 1rem;
+  grid-template-columns: 1fr auto auto;
+  gap: 1.5rem;
   align-items: center;
   padding: 0.5rem 0;
   border-bottom: 1px solid var(--paper-warm);
@@ -517,17 +500,17 @@ body {
 
 .school-card {
   display: block;
-  background: var(--paper-warm);
-  border: 1px solid transparent;
-  border-radius: 4px;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid rgba(122, 106, 85, 0.12);
   padding: 1rem 1.1rem;
-  transition: border-color 0.15s;
+  transition: background 0.15s;
   text-decoration: none;
   color: inherit;
 }
 
 .school-card:hover {
-  border-color: var(--ink-light);
+  background: var(--paper-warm);
 }
 
 .school-card-image {

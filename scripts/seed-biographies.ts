@@ -437,10 +437,14 @@ async function main(): Promise<void> {
   console.log(`Biography citations seeded: ${citationCount}`);
 }
 
-main().catch((err) => {
-  console.error("Biography seeding failed:", err);
-  process.exit(1);
-});
+export default main;
+
+if (process.argv[1] && process.argv[1].endsWith("seed-biographies.ts")) {
+  main().catch((err) => {
+    console.error("Biography seeding failed:", err);
+    process.exit(1);
+  });
+}
 
 function isSqliteBusyError(error: unknown): boolean {
   return error instanceof Error && error.message.includes("SQLITE_BUSY");

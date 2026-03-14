@@ -433,13 +433,12 @@ export default async function MasterDetailPage({ params }: { params: Promise<{ s
           </div>
         </section>
 
+        {(publishedTeachings.length > 0 || withheldTeachingCount > 0) && (
         <section className="detail-card">
           <h3 className="detail-section-title">Teachings</h3>
           {publishedTeachings.length === 0 ? (
             <p className="detail-muted">
-              {withheldTeachingCount > 0
-                ? "Teaching records exist for this master, but they are withheld until item-level citations are attached."
-                : "No quotes, koans, or teaching excerpts have been imported for this master yet."}
+              Teaching records exist for this master, but they are withheld until item-level citations are attached.
             </p>
           ) : (
             <ul className="detail-source-list">
@@ -498,6 +497,7 @@ export default async function MasterDetailPage({ params }: { params: Promise<{ s
             </ul>
           )}
         </section>
+        )}
 
         <section className="detail-card">
           <h3 className="detail-section-title">Master Record Sources</h3>

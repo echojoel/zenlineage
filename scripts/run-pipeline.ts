@@ -23,19 +23,9 @@ const STEPS: PipelineStep[] = [
     args: ["tsx", "scripts/reconcile.ts"],
   },
   {
-    label: "Seed database",
+    label: "Seed database (sources, masters, schools, transmissions, citations, tokens, biographies, teachings)",
     command: "npx",
     args: ["tsx", "scripts/seed-db.ts"],
-  },
-  {
-    label: "Seed biographies",
-    command: "npx",
-    args: ["tsx", "scripts/seed-biographies.ts"],
-  },
-  {
-    label: "Seed teachings",
-    command: "npx",
-    args: ["tsx", "scripts/seed-teachings.ts"],
   },
   {
     label: "Run coverage audit",

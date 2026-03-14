@@ -6,6 +6,7 @@ import Link from "next/link";
 import { useSearchParams } from "next/navigation";
 import type { GraphData, GraphNode, GraphEdge, GraphSchool } from "@/app/api/graph/route";
 import { getSchoolContextNodeIds } from "@/lib/lineage-visibility";
+import { formatDateWithPrecision } from "@/lib/date-format";
 
 // ---------------------------------------------------------------------------
 // School colour palette (keyed by partial slug match)
@@ -36,9 +37,8 @@ function schoolColor(schoolSlug: string | null): number {
 // Date display helper
 // ---------------------------------------------------------------------------
 
-function formatDate(year: number | null): string {
-  if (!year) return "?";
-  return String(year);
+function formatNodeDate(year: number | null, precision: string | null): string {
+  return formatDateWithPrecision(year, precision, { unknown: "?" }) ?? "?";
 }
 
 // ---------------------------------------------------------------------------
@@ -140,7 +140,6 @@ interface PixiState {
   highlighted: Set<string> | null;
   schoolFilter: string;
   timeMax: number;
-  showOrphans: boolean;
   orphanSet: Set<string>;
 }
 
@@ -158,7 +157,6 @@ export default function LineageGraph() {
   const [sidebar, setSidebar] = useState<SidebarState | null>(null);
   const [searchQuery, setSearchQuery] = useState("");
   const [selectedSchool, setSelectedSchool] = useState("all");
-  const [showOrphans, setShowOrphans] = useState(false);
   const [timeMax, setTimeMax] = useState(2000);
   const [dataMaxYear, setDataMaxYear] = useState(2000);
   const [schoolList, setSchoolList] = useState<GraphSchool[]>([]);
@@ -189,7 +187,7 @@ export default function LineageGraph() {
     for (const [id] of nodeContainers) {
       const node = nodeById.get(id);
       if (!node) continue;
-      if (!pixi.showOrphans && pixi.orphanSet.has(id)) continue;
+      if (pixi.orphanSet.has(id)) continue;
       if (!schoolContextIds.has(id)) continue;
       const yearOk = node.deathYear == null || node.deathYear <= pixi.timeMax;
       if (!yearOk) continue;
@@ -344,23 +342,9 @@ export default function LineageGraph() {
         scaledConnected.set(id, { x: pos.x * 1.5, y: pos.y * 1.5 });
       }
 
-      // Layout orphan nodes separately, place far below connected graph
-      const orphanNodes = nodes.filter((n) => orphanSet.has(n.id));
-      let orphanPositions = new Map<string, { x: number; y: number }>();
-      if (orphanNodes.length > 0) {
-        orphanPositions = simpleLayout(orphanNodes, []);
-        // Place orphans below the connected graph
-        const connYs = Array.from(scaledConnected.values()).map((p) => p.y);
-        const maxConnY = connYs.length > 0 ? Math.max(...connYs) : 0;
-        for (const [id, pos] of orphanPositions) {
-          orphanPositions.set(id, { x: pos.x, y: pos.y + maxConnY + 300 });
-        }
-      }
-
       // Merge all positions
       const positions = new Map<string, { x: number; y: number }>([
         ...scaledConnected,
-        ...orphanPositions,
       ]);
 
       // Ensure every node has a position
@@ -408,6 +392,9 @@ export default function LineageGraph() {
       edgeGraphics.eventMode = "none";
       stage.addChild(edgeGraphics);
 
+      // Ensure Cormorant Garamond is loaded before creating text nodes
+      await document.fonts.ready;
+
       // Node containers
       const nodeContainers = new Map<string, import("pixi.js").Container>();
 
@@ -435,9 +422,9 @@ export default function LineageGraph() {
         const label = new PIXI.Text({
           text: shortLabel,
           style: new PIXI.TextStyle({
-            fontSize: 9,
+            fontSize: 11,
             fill: 0x3d3530,
-            fontFamily: "Georgia, serif",
+            fontFamily: "'Cormorant Garamond', Georgia, serif",
           }),
         });
         label.anchor.set(0.5, -0.6);
@@ -484,7 +471,6 @@ export default function LineageGraph() {
         highlighted: null,
         schoolFilter: "all",
         timeMax: maxYear,
-        showOrphans: false,
         orphanSet,
       };
 
@@ -512,9 +498,6 @@ export default function LineageGraph() {
         const focusedNode = nodes.find((node) => node.slug === initialFocusSlug);
         const focusedPosition = focusedNode ? positions.get(focusedNode.id) : null;
         if (focusedNode && focusedPosition) {
-          if (orphanSet.has(focusedNode.id)) {
-            setShowOrphans(true);
-          }
           setSidebar({
             node: focusedNode,
             schoolName: focusedNode.schoolName ?? undefined,
@@ -607,9 +590,6 @@ export default function LineageGraph() {
       const focusedPosition = focusedNode ? pixi.positions.get(focusedNode.id) : null;
 
       if (focusedNode && focusedPosition) {
-        if (pixi.orphanSet.has(focusedNode.id)) {
-          setShowOrphans(true);
-        }
         setSidebar({
           node: focusedNode,
           schoolName: focusedNode.schoolName ?? undefined,
@@ -652,59 +632,43 @@ export default function LineageGraph() {
     }
   }, [schoolSlug, status, schoolList]);
 
-  // Sync state → pixi ref → redraw
-  useEffect(() => {
-    if (!pixiRef.current) return;
-    pixiRef.current.showOrphans = showOrphans;
-    redraw();
-  }, [showOrphans, redraw]);
-
   useEffect(() => {
     if (!pixiRef.current) return;
     pixiRef.current.schoolFilter = selectedSchool;
     redraw();
 
     const pixi = pixiRef.current;
-    if (canvasRef.current && zoomRef.current) {
-      const schoolContextIds = getSchoolContextNodeIds(pixi.nodes, pixi.edges, selectedSchool);
-      const visibleNodes = pixi.nodes.filter((n) => {
-        if (!schoolContextIds.has(n.id)) return false;
-        if (!pixi.showOrphans && pixi.orphanSet.has(n.id)) return false;
-        return true;
-      });
+    if (canvasRef.current && zoomRef.current && selectedSchool !== "all") {
+      // Find school member nodes (exclude bridge nodes)
+      const schoolNodes = pixi.nodes.filter(
+        (n) => n.schoolId === selectedSchool && !pixi.orphanSet.has(n.id)
+      );
 
-      if (visibleNodes.length > 0) {
-        const positions = visibleNodes
-          .map((n) => pixi.positions.get(n.id))
-          .filter((p): p is { x: number; y: number } => !!p);
-        if (positions.length > 0) {
-          const xs = positions.map((p) => p.x);
-          const ys = positions.map((p) => p.y);
-          const minX = Math.min(...xs);
-          const maxX = Math.max(...xs);
-          const minY = Math.min(...ys);
-          const maxY = Math.max(...ys);
+      if (schoolNodes.length > 0) {
+        // Sort by y-position ascending — topmost node is the school root/founder
+        const withPos = schoolNodes
+          .map((n) => ({ node: n, pos: pixi.positions.get(n.id) }))
+          .filter((entry): entry is { node: GraphNode; pos: { x: number; y: number } } => !!entry.pos)
+          .sort((a, b) => a.pos.y - b.pos.y);
 
+        if (withPos.length > 0) {
+          const rootPos = withPos[0].pos;
           const canvas = canvasRef.current;
           const w = canvas.clientWidth || window.innerWidth;
           const h = canvas.clientHeight || window.innerHeight;
-          const gw = maxX - minX + 240;
-          const gh = maxY - minY + 240;
-          const k = Math.min(w / gw, h / gh, 2) * 0.85;
-          const cx = (minX + maxX) / 2;
-          const cy = (minY + maxY) / 2;
-          const tx = w / 2 - k * cx;
-          const ty = h / 2 - k * cy;
+          const scale = 1.2;
+          const tx = w / 2 - scale * rootPos.x;
+          const ty = h / 4 - scale * rootPos.y;
 
           if (!prefersReducedMotion) {
             d3.select(canvas)
               .transition()
               .duration(700)
-              .call(zoomRef.current.transform, d3.zoomIdentity.translate(tx, ty).scale(k));
+              .call(zoomRef.current.transform, d3.zoomIdentity.translate(tx, ty).scale(scale));
           } else {
             d3.select(canvas).call(
               zoomRef.current.transform,
-              d3.zoomIdentity.translate(tx, ty).scale(k)
+              d3.zoomIdentity.translate(tx, ty).scale(scale)
             );
           }
         }
@@ -797,16 +761,6 @@ export default function LineageGraph() {
             </option>
           ))}
         </select>
-        <label className="lineage-toggle" htmlFor="lineage-orphans">
-          <input
-            id="lineage-orphans"
-            name="lineage-orphans"
-            type="checkbox"
-            checked={showOrphans}
-            onChange={(e) => setShowOrphans(e.target.checked)}
-          />
-          Show unconnected
-        </label>
       </div>
 
       {/* Time scrubber */}
@@ -838,7 +792,8 @@ export default function LineageGraph() {
           <div className="tooltip-name">{tooltip.node.label}</div>
           {(tooltip.node.birthYear || tooltip.node.deathYear) && (
             <div className="tooltip-dates">
-              {formatDate(tooltip.node.birthYear)} – {formatDate(tooltip.node.deathYear)}
+              {formatNodeDate(tooltip.node.birthYear, tooltip.node.birthPrecision)} –{" "}
+              {formatNodeDate(tooltip.node.deathYear, tooltip.node.deathPrecision)}
             </div>
           )}
           {tooltip.schoolName && <div className="tooltip-school">{tooltip.schoolName}</div>}
@@ -865,7 +820,8 @@ export default function LineageGraph() {
           {sidebar.schoolName && <p className="sidebar-school">{sidebar.schoolName}</p>}
           {(sidebar.node.birthYear || sidebar.node.deathYear) && (
             <p className="sidebar-dates">
-              {formatDate(sidebar.node.birthYear)} – {formatDate(sidebar.node.deathYear)}
+              {formatNodeDate(sidebar.node.birthYear, sidebar.node.birthPrecision)} –{" "}
+              {formatNodeDate(sidebar.node.deathYear, sidebar.node.deathPrecision)}
             </p>
           )}
           {sidebar.node.bio && <p className="sidebar-description">{sidebar.node.bio}</p>}

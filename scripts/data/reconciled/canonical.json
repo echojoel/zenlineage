@@ -26,6 +26,32 @@
     ]
   },
   {
+    "id": "_68yJum2BK9KQTsWmlBEt",
+    "slug": "juo-sohitsu",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Juo Sohitsu"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "授翁宗弼"
+      }
+    ],
+    "birth_year": 1296,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 1380,
+    "death_precision": "exact",
+    "death_confidence": "high",
+    "school": "Rinzai",
+    "source_ids": [
+      "src_originals_curated"
+    ]
+  },
+  {
     "id": "_aaQkfq6Ay3kPKB2xV4pw",
     "slug": "dagui-muzhe",
     "names": [
@@ -86,6 +112,32 @@
     "school": "Yangqi line",
     "source_ids": [
       "src_chan_ancestors_pdf",
+      "src_originals_curated"
+    ]
+  },
+  {
+    "id": "_OBVEmK787-8P3DQ_pW9a",
+    "slug": "toyo-eicho",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Toyo Eicho"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "東陽英朝"
+      }
+    ],
+    "birth_year": 1428,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 1504,
+    "death_precision": "exact",
+    "death_confidence": "high",
+    "school": "Rinzai",
+    "source_ids": [
       "src_originals_curated"
     ]
   },
@@ -228,6 +280,32 @@
     "school": "Linji",
     "source_ids": [
       "src_chan_ancestors_pdf",
+      "src_originals_curated"
+    ]
+  },
+  {
+    "id": "-wyuBc_juRFkhlYlMtmkr",
+    "slug": "hogen-soren",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Hogen Soren"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "芳巖祖聯"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Soto",
+    "source_ids": [
       "src_originals_curated"
     ]
   },
@@ -497,6 +575,32 @@
     ]
   },
   {
+    "id": "1NLANtAhLfU8npPW7SLbi",
+    "slug": "motsugai-shido",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Motsugai Shido"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "物外志道"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Soto",
+    "source_ids": [
+      "src_originals_curated"
+    ]
+  },
+  {
     "id": "1qhC-vJBtbBQ4Cs_DcLfQ",
     "slug": "cuiwei-wuxue",
     "names": [
@@ -627,12 +731,12 @@
         "value": "ejo"
       }
     ],
-    "birth_year": null,
-    "birth_precision": "unknown",
-    "birth_confidence": "low",
-    "death_year": null,
-    "death_precision": "unknown",
-    "death_confidence": "low",
+    "birth_year": 1198,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 1280,
+    "death_precision": "exact",
+    "death_confidence": "high",
     "school": "Soto",
     "source_ids": [
       "src_sotozen_founders"
@@ -778,6 +882,42 @@
     "source_ids": [
       "src_chan_ancestors_pdf",
       "src_originals_curated"
+    ]
+  },
+  {
+    "id": "3115SK8PQ3jKx6tTqHbl3",
+    "slug": "kosho-uchiyama",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Kosho Uchiyama"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "内山興正"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Kōshō Uchiyama"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Uchiyama Roshi"
+      }
+    ],
+    "birth_year": 1912,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 1998,
+    "death_precision": "exact",
+    "death_confidence": "high",
+    "school": "Soto",
+    "source_ids": [
+      "src_sotozen_founders"
     ]
   },
   {
@@ -941,6 +1081,32 @@
     ]
   },
   {
+    "id": "48dHXUuKO8c-tOZ5KPjJ0",
+    "slug": "tessan-shikaku",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Tessan Shikaku"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "徹山旨廓"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": 1376,
+    "death_precision": "exact",
+    "death_confidence": "high",
+    "school": "Soto",
+    "source_ids": [
+      "src_originals_curated"
+    ]
+  },
+  {
     "id": "4A53pDvtL9BDJW-hUjxnR",
     "slug": "guishan-lingyou",
     "names": [
@@ -988,6 +1154,32 @@
     ]
   },
   {
+    "id": "57pX5XjPVyhJ2_GGpkBtd",
+    "slug": "kinen-horyu",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Kinen Horyu"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "幾年豊隆"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": 1506,
+    "death_precision": "exact",
+    "death_confidence": "high",
+    "school": "Soto",
+    "source_ids": [
+      "src_originals_curated"
+    ]
+  },
+  {
     "id": "58clK0ij7nlgm_mYVexOA",
     "slug": "luzu-baoyun",
     "names": [
@@ -1016,6 +1208,58 @@
     "school": "Caodong",
     "source_ids": [
       "src_chan_ancestors_pdf",
+      "src_originals_curated"
+    ]
+  },
+  {
+    "id": "5Ap6leJvm_pgk51lWuaUU",
+    "slug": "karyo-zuika",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Karyo Zuika"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "花陵瑞華"
+      }
+    ],
+    "birth_year": 1790,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 1859,
+    "death_precision": "exact",
+    "death_confidence": "high",
+    "school": "Rinzai",
+    "source_ids": [
+      "src_originals_curated"
+    ]
+  },
+  {
+    "id": "5kAbvGLe5QduSccmn95uA",
+    "slug": "kaiten-genju",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Kaiten Genju"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "海天玄聚"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Soto",
+    "source_ids": [
       "src_originals_curated"
     ]
   },
@@ -1073,6 +1317,58 @@
     "school": "Early Chan",
     "source_ids": [
       "src_chan_ancestors_pdf",
+      "src_originals_curated"
+    ]
+  },
+  {
+    "id": "67lkbNdYrDvw0aHM-FAfr",
+    "slug": "meido-yuton",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Meido Yuton"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "明堂雄暾"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Soto",
+    "source_ids": [
+      "src_originals_curated"
+    ]
+  },
+  {
+    "id": "6Y3MJEP_a8FCYdCDcyCau",
+    "slug": "daishitsu-chisen",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Daishitsu Chisen"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "提室智闡"
+      }
+    ],
+    "birth_year": 1461,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 1536,
+    "death_precision": "exact",
+    "death_confidence": "high",
+    "school": "Soto",
+    "source_ids": [
       "src_originals_curated"
     ]
   },
@@ -1351,6 +1647,38 @@
     ]
   },
   {
+    "id": "7xj2jZxBhCcPa9I5-eR8C",
+    "slug": "meiho-sotetsu",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Meiho Sotetsu"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "明峰素哲"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Meihō Sotetsu"
+      }
+    ],
+    "birth_year": 1277,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 1350,
+    "death_precision": "exact",
+    "death_confidence": "high",
+    "school": "Soto",
+    "source_ids": [
+      "src_originals_curated",
+      "src_sotozen_founders"
+    ]
+  },
+  {
     "id": "8djkv2Pw0FvL6oYEzem_q",
     "slug": "yasutani-hakuun",
     "names": [
@@ -1493,6 +1821,32 @@
     ]
   },
   {
+    "id": "9BClHVD6cdNHNpWE3QC5v",
+    "slug": "nippo-soshun",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Nippo Soshun"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "日峰宗舜"
+      }
+    ],
+    "birth_year": 1367,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 1448,
+    "death_precision": "exact",
+    "death_confidence": "high",
+    "school": "Rinzai",
+    "source_ids": [
+      "src_originals_curated"
+    ]
+  },
+  {
     "id": "9p7AxxsAqoPi-TVU4ZnJj",
     "slug": "guannan-daochang",
     "names": [
@@ -1546,6 +1900,42 @@
     ]
   },
   {
+    "id": "AB33gqScEHLADp-UeFClW",
+    "slug": "gyokujun-so-on",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Gyokujun So-on"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "玉潤僧苑"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "So-on Suzuki"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Gyokujun Sōon"
+      }
+    ],
+    "birth_year": 1877,
+    "birth_precision": "circa",
+    "birth_confidence": "medium",
+    "death_year": 1934,
+    "death_precision": "circa",
+    "death_confidence": "medium",
+    "school": "Soto",
+    "source_ids": [
+      "src_sotozen_founders"
+    ]
+  },
+  {
     "id": "aGsBwP6-XaMHAML0lESfh",
     "slug": "manorhita",
     "names": [
@@ -1572,6 +1962,37 @@
     ]
   },
   {
+    "id": "agWpwCxVBxOujMQttK6Ek",
+    "slug": "shuho-myocho",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Shuho Myocho"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "宗峰妙超"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Daito Kokushi"
+      }
+    ],
+    "birth_year": 1282,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 1337,
+    "death_precision": "exact",
+    "death_confidence": "high",
+    "school": "Rinzai",
+    "source_ids": [
+      "src_originals_curated"
+    ]
+  },
+  {
     "id": "aJhm8JOd_mYz8PykmCewJ",
     "slug": "mahasattva-fu",
     "names": [
@@ -1590,6 +2011,37 @@
     "school": "Other",
     "source_ids": [
       "src_chan_ancestors_pdf",
+      "src_originals_curated"
+    ]
+  },
+  {
+    "id": "aLtzNco3kOyRzB_9-j71l",
+    "slug": "shido-bunan",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Shido Bunan"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "至道無難"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Shido Munan"
+      }
+    ],
+    "birth_year": 1603,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 1676,
+    "death_precision": "exact",
+    "death_confidence": "high",
+    "school": "Rinzai",
+    "source_ids": [
       "src_originals_curated"
     ]
   },
@@ -1622,6 +2074,32 @@
     "school": "Guiyang",
     "source_ids": [
       "src_chan_ancestors_pdf",
+      "src_originals_curated"
+    ]
+  },
+  {
+    "id": "AsJ-OeyCE57cYLVws6HpY",
+    "slug": "dokutan-sosan",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Dokutan Sosan"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "独湛祖珊"
+      }
+    ],
+    "birth_year": 1840,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 1917,
+    "death_precision": "exact",
+    "death_confidence": "high",
+    "school": "Rinzai",
+    "source_ids": [
       "src_originals_curated"
     ]
   },
@@ -1717,6 +2195,32 @@
     "school": "Yunmen",
     "source_ids": [
       "src_chan_ancestors_pdf",
+      "src_originals_curated"
+    ]
+  },
+  {
+    "id": "Bd2esjhJ0WZ63xoxALLF3",
+    "slug": "shugan-dochin",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Shugan Dochin"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "珠巌道珍"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": 1387,
+    "death_precision": "exact",
+    "death_confidence": "high",
+    "school": "Soto",
+    "source_ids": [
       "src_originals_curated"
     ]
   },
@@ -2719,7 +3223,34 @@
     "death_confidence": "high",
     "school": "Sanbo-Zen",
     "source_ids": [
-      "src_mountain_moon"
+      "src_mountain_moon",
+      "src_originals_curated"
+    ]
+  },
+  {
+    "id": "ED6Fb8y6L-AYg4qyzP4fp",
+    "slug": "gesshu-soko",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Gesshu Soko"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "月舟宗胡"
+      }
+    ],
+    "birth_year": 1618,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 1696,
+    "death_precision": "exact",
+    "death_confidence": "high",
+    "school": "Soto",
+    "source_ids": [
+      "src_originals_curated"
     ]
   },
   {
@@ -2834,6 +3365,32 @@
     ]
   },
   {
+    "id": "ezekz7U_31JhowMAjedDO",
+    "slug": "yozan-keiyo",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Yozan Keiyo"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "養山敬陽"
+      }
+    ],
+    "birth_year": 1559,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 1629,
+    "death_precision": "exact",
+    "death_confidence": "high",
+    "school": "Rinzai",
+    "source_ids": [
+      "src_originals_curated"
+    ]
+  },
+  {
     "id": "f_mN_OO-KGU_OStG0WhDX",
     "slug": "doushuai-congyue",
     "names": [
@@ -2897,6 +3454,32 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Indian Patriarchs",
+    "source_ids": [
+      "src_originals_curated"
+    ]
+  },
+  {
+    "id": "Ff2AhxK3wyHS2kmJ5kR3f",
+    "slug": "kanzan-egen",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Kanzan Egen"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "関山慧玄"
+      }
+    ],
+    "birth_year": 1277,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 1360,
+    "death_precision": "exact",
+    "death_confidence": "high",
+    "school": "Rinzai",
     "source_ids": [
       "src_originals_curated"
     ]
@@ -3029,6 +3612,58 @@
     ]
   },
   {
+    "id": "fkaDq5E1EAhtqPJQ0dDvS",
+    "slug": "chozan-ginetsu",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Chozan Ginetsu"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "超山誾越"
+      }
+    ],
+    "birth_year": 1581,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 1672,
+    "death_precision": "exact",
+    "death_confidence": "high",
+    "school": "Soto",
+    "source_ids": [
+      "src_originals_curated"
+    ]
+  },
+  {
+    "id": "FKL9LTqqFiv_yleYYVeGG",
+    "slug": "sesso-yuho",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Sesso Yuho"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "雪窓祐輔"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": 1576,
+    "death_precision": "exact",
+    "death_confidence": "high",
+    "school": "Soto",
+    "source_ids": [
+      "src_originals_curated"
+    ]
+  },
+  {
     "id": "g4Bb_FEVtARNGbevC_YHt",
     "slug": "yangshan-huiji",
     "names": [
@@ -3129,6 +3764,58 @@
     ]
   },
   {
+    "id": "gBqSL3lcu4rwkSk1QKHt5",
+    "slug": "myoki-soseki",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Myoki Soseki"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "妙喜宗績"
+      }
+    ],
+    "birth_year": 1774,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 1848,
+    "death_precision": "exact",
+    "death_confidence": "high",
+    "school": "Rinzai",
+    "source_ids": [
+      "src_originals_curated"
+    ]
+  },
+  {
+    "id": "Gg-fnqDteEsuMgQnPYkvp",
+    "slug": "gasan-jito",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Gasan Jito"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "峨山慈棹"
+      }
+    ],
+    "birth_year": 1727,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 1797,
+    "death_precision": "exact",
+    "death_confidence": "high",
+    "school": "Rinzai",
+    "source_ids": [
+      "src_originals_curated"
+    ]
+  },
+  {
     "id": "gnKKjaZPBk0CIELCFqZJ6",
     "slug": "zhenjing-kewen",
     "names": [
@@ -3178,6 +3865,32 @@
     "school": "Linji",
     "source_ids": [
       "src_chan_ancestors_pdf",
+      "src_originals_curated"
+    ]
+  },
+  {
+    "id": "gVbHKrMOKCmUkeuIdliSg",
+    "slug": "tozen-soshin",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Tozen Soshin"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "東漸宗震"
+      }
+    ],
+    "birth_year": 1532,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 1602,
+    "death_precision": "exact",
+    "death_confidence": "high",
+    "school": "Rinzai",
+    "source_ids": [
       "src_originals_curated"
     ]
   },
@@ -3474,6 +4187,32 @@
     ]
   },
   {
+    "id": "ihXJfHhtrJWbh0jF238Y0",
+    "slug": "gudo-toshoku",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Gudo Toshoku"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "愚堂東寔"
+      }
+    ],
+    "birth_year": 1577,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 1661,
+    "death_precision": "exact",
+    "death_confidence": "high",
+    "school": "Rinzai",
+    "source_ids": [
+      "src_originals_curated"
+    ]
+  },
+  {
     "id": "iJ4NrYpW85olchICykpuy",
     "slug": "danyuan-yingzhen",
     "names": [
@@ -3628,6 +4367,58 @@
     ]
   },
   {
+    "id": "Im0W7-NiWrap1YLcYiUI9",
+    "slug": "kokei-shojun",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Kokei Shojun"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "虎渓正淳"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": 1555,
+    "death_precision": "exact",
+    "death_confidence": "high",
+    "school": "Soto",
+    "source_ids": [
+      "src_originals_curated"
+    ]
+  },
+  {
+    "id": "ImRHDRrt04HRklic4D0R-",
+    "slug": "muin-soin",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Muin Soin"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "無隠宗因"
+      }
+    ],
+    "birth_year": 1326,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 1410,
+    "death_precision": "exact",
+    "death_confidence": "high",
+    "school": "Rinzai",
+    "source_ids": [
+      "src_originals_curated"
+    ]
+  },
+  {
     "id": "iO_UjXfKurStJgutHyTa-",
     "slug": "xuansha-shibei",
     "names": [
@@ -3756,6 +4547,37 @@
     ]
   },
   {
+    "id": "JsCJzvUlTlZiZcZxH_1Wc",
+    "slug": "harada-sodo-kakusho",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Harada Sodo Kakusho"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "嚇照祖道"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Kakusho Sodo"
+      }
+    ],
+    "birth_year": 1844,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 1931,
+    "death_precision": "exact",
+    "death_confidence": "high",
+    "school": "Soto",
+    "source_ids": [
+      "src_originals_curated"
+    ]
+  },
+  {
     "id": "jSeppG7S9SGrEIWFq3DpX",
     "slug": "mingan-rongxi",
     "names": [
@@ -3867,6 +4689,42 @@
     ]
   },
   {
+    "id": "JUlWiDloLgDq82bu8kx_G",
+    "slug": "taisen-deshimaru",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Taisen Deshimaru"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "弟子丸泰仙"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Deshimaru Roshi"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Mokudo Taisen Deshimaru"
+      }
+    ],
+    "birth_year": 1914,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 1982,
+    "death_precision": "exact",
+    "death_confidence": "high",
+    "school": "Soto",
+    "source_ids": [
+      "src_sotozen_founders"
+    ]
+  },
+  {
     "id": "JushPmAcOEGPdJkilG8PY",
     "slug": "zhaozhou-congshen",
     "names": [
@@ -3910,6 +4768,32 @@
     "school": "Nanyue line",
     "source_ids": [
       "src_chan_ancestors_pdf",
+      "src_originals_curated"
+    ]
+  },
+  {
+    "id": "k_j-QyXoINJ6gENK12_iD",
+    "slug": "shuzan-shunsho",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Shuzan Shunsho"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "州山春昌"
+      }
+    ],
+    "birth_year": 1590,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 1647,
+    "death_precision": "exact",
+    "death_confidence": "high",
+    "school": "Soto",
+    "source_ids": [
       "src_originals_curated"
     ]
   },
@@ -4125,6 +5009,32 @@
     ]
   },
   {
+    "id": "kS3Ly9XnwqtVFXL7azJyn",
+    "slug": "renzan-soho",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Renzan Soho"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "聯山祖芳"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Soto",
+    "source_ids": [
+      "src_originals_curated"
+    ]
+  },
+  {
     "id": "kVOPBQ_iEP7qwNlpMHYFm",
     "slug": "mingzhao-deqian",
     "names": [
@@ -4284,6 +5194,58 @@
     ]
   },
   {
+    "id": "LMdrraZ1zf8CYSSJ60oGW",
+    "slug": "sekiso-tesshu",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Sekiso Tesshu"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "石叟哲周"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Soto",
+    "source_ids": [
+      "src_originals_curated"
+    ]
+  },
+  {
+    "id": "LPccJw0JJrXiKZcY0yEUJ",
+    "slug": "keigan-eisho",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Keigan Eisho"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "桂巌英昌"
+      }
+    ],
+    "birth_year": 1321,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 1412,
+    "death_precision": "exact",
+    "death_confidence": "high",
+    "school": "Soto",
+    "source_ids": [
+      "src_originals_curated"
+    ]
+  },
+  {
     "id": "lrQm0FV12JeahNnGpZqDX",
     "slug": "guifeng-zongmi",
     "names": [
@@ -4365,6 +5327,32 @@
     "school": "Yangqi line",
     "source_ids": [
       "src_chan_ancestors_pdf",
+      "src_originals_curated"
+    ]
+  },
+  {
+    "id": "M4G1RnrfQCLI2Rv-t8hVD",
+    "slug": "ian-chisatsu",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Ian Chisatsu"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "以安智察"
+      }
+    ],
+    "birth_year": 1514,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 1587,
+    "death_precision": "exact",
+    "death_confidence": "high",
+    "school": "Rinzai",
+    "source_ids": [
       "src_originals_curated"
     ]
   },
@@ -4469,6 +5457,47 @@
     ]
   },
   {
+    "id": "mxKZIOoU4803z9eMVMwHa",
+    "slug": "shunryu-suzuki",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Shunryu Suzuki"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "鈴木俊隆"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Shunryū Suzuki"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Suzuki Roshi"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Shogaku Shunryu"
+      }
+    ],
+    "birth_year": 1904,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 1971,
+    "death_precision": "exact",
+    "death_confidence": "high",
+    "school": "Soto",
+    "source_ids": [
+      "src_sotozen_founders"
+    ]
+  },
+  {
     "id": "my3n-C46G_URdJrNzWjCo",
     "slug": "nagarjuna",
     "names": [
@@ -4534,12 +5563,12 @@
         "value": "keizan"
       }
     ],
-    "birth_year": null,
-    "birth_precision": "unknown",
-    "birth_confidence": "low",
-    "death_year": null,
-    "death_precision": "unknown",
-    "death_confidence": "low",
+    "birth_year": 1264,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 1325,
+    "death_precision": "exact",
+    "death_confidence": "high",
     "school": "Soto",
     "source_ids": [
       "src_sotozen_founders"
@@ -4628,6 +5657,32 @@
     "school": "Qingyuan line",
     "source_ids": [
       "src_chan_ancestors_pdf"
+    ]
+  },
+  {
+    "id": "N7CF1QNs35EL1BUHk4sDP",
+    "slug": "fukushu-kochi",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Fukushu Kochi"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "福州光智"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Soto",
+    "source_ids": [
+      "src_originals_curated"
     ]
   },
   {
@@ -4816,6 +5871,32 @@
     "source_ids": [
       "src_chan_ancestors_pdf",
       "src_sotozen_founders"
+    ]
+  },
+  {
+    "id": "NnJ6F9zr6zA1-XgYCsGMn",
+    "slug": "tokuo-ryoko",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Tokuo Ryoko"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "徳翁良高"
+      }
+    ],
+    "birth_year": 1649,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 1709,
+    "death_precision": "exact",
+    "death_confidence": "high",
+    "school": "Soto",
+    "source_ids": [
+      "src_originals_curated"
     ]
   },
   {
@@ -5169,12 +6250,12 @@
         "value": "gikai"
       }
     ],
-    "birth_year": null,
-    "birth_precision": "unknown",
-    "birth_confidence": "low",
-    "death_year": null,
-    "death_precision": "unknown",
-    "death_confidence": "low",
+    "birth_year": 1219,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 1309,
+    "death_precision": "exact",
+    "death_confidence": "high",
     "school": "Soto",
     "source_ids": [
       "src_sotozen_founders"
@@ -5473,6 +6554,32 @@
     ]
   },
   {
+    "id": "pzGD2giS5cirMZuANA1YZ",
+    "slug": "gukei-youn",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Gukei Youn"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "愚溪容雲"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Soto",
+    "source_ids": [
+      "src_originals_curated"
+    ]
+  },
+  {
     "id": "Q7Gx9DnbP5KTZCxD8hFmu",
     "slug": "sansheng-huiran",
     "names": [
@@ -5685,6 +6792,32 @@
     ]
   },
   {
+    "id": "qrbhjy9fCVfYhylAhkjZE",
+    "slug": "chuzan-ryoun",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Chuzan Ryoun"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "籌山了運"
+      }
+    ],
+    "birth_year": 1350,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 1432,
+    "death_precision": "exact",
+    "death_confidence": "high",
+    "school": "Soto",
+    "source_ids": [
+      "src_originals_curated"
+    ]
+  },
+  {
     "id": "RCt4jHgjnctkJQ-nUgGqm",
     "slug": "punyayashas",
     "names": [
@@ -5716,6 +6849,58 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Indian Patriarchs",
+    "source_ids": [
+      "src_originals_curated"
+    ]
+  },
+  {
+    "id": "Rd8vhm0HAiTRsNtcQoaQ6",
+    "slug": "hakuho-genteki",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Hakuho Genteki"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "白峰玄滴"
+      }
+    ],
+    "birth_year": 1594,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 1670,
+    "death_precision": "exact",
+    "death_confidence": "high",
+    "school": "Soto",
+    "source_ids": [
+      "src_originals_curated"
+    ]
+  },
+  {
+    "id": "rtvQ6F9xGYdBXcD13MqUC",
+    "slug": "ryuko-ryoshu",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Ryuko Ryoshu"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "隆孝楞洲"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Soto",
     "source_ids": [
       "src_originals_curated"
     ]
@@ -5803,6 +6988,47 @@
     "school": "Sanbo-Zen",
     "source_ids": [
       "src_mountain_moon"
+    ]
+  },
+  {
+    "id": "S5a_Nqjsl4ulHY-flam-3",
+    "slug": "kodo-sawaki",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Kodo Sawaki"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "澤木興道"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Kōdō Sawaki"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Sawaki Kodo"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Homeless Kodo"
+      }
+    ],
+    "birth_year": 1880,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 1965,
+    "death_precision": "exact",
+    "death_confidence": "high",
+    "school": "Soto",
+    "source_ids": [
+      "src_sotozen_founders"
     ]
   },
   {
@@ -6281,6 +7507,32 @@
     ]
   },
   {
+    "id": "TfoWB2ITW0tvfrhYq-fbL",
+    "slug": "koho-genkun",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Koho Genkun"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "古峰玄訓"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Rinzai",
+    "source_ids": [
+      "src_originals_curated"
+    ]
+  },
+  {
     "id": "Tm1rbdJAF98SEEdKOXmbZ",
     "slug": "bajiao-huiqing",
     "names": [
@@ -6609,6 +7861,32 @@
     ]
   },
   {
+    "id": "ueN7eDfS7FeBag8RaVnlH",
+    "slug": "tankai-gensho",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Tankai Gensho"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "潭海玄昌"
+      }
+    ],
+    "birth_year": 1811,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 1898,
+    "death_precision": "exact",
+    "death_confidence": "high",
+    "school": "Rinzai",
+    "source_ids": [
+      "src_originals_curated"
+    ]
+  },
+  {
     "id": "Uj8Fu23jBVYiUHHl32zzU",
     "slug": "xita-guangmu",
     "names": [
@@ -6637,6 +7915,32 @@
     "school": "Linji",
     "source_ids": [
       "src_chan_ancestors_pdf",
+      "src_originals_curated"
+    ]
+  },
+  {
+    "id": "umHeWHc-dtzBXLVyQj2pm",
+    "slug": "giten-gensho",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Giten Gensho"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "義天玄承"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Rinzai",
+    "source_ids": [
       "src_originals_curated"
     ]
   },
@@ -7132,6 +8436,32 @@
     "school": "Qingyuan line",
     "source_ids": [
       "src_chan_ancestors_pdf",
+      "src_originals_curated"
+    ]
+  },
+  {
+    "id": "voIMQ-sSZgEq4Sr_1VcfV",
+    "slug": "takuju-kosen",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Takuju Kosen"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "卓洲胡僊"
+      }
+    ],
+    "birth_year": 1760,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 1833,
+    "death_precision": "exact",
+    "death_confidence": "high",
+    "school": "Rinzai",
+    "source_ids": [
       "src_originals_curated"
     ]
   },
@@ -7771,6 +9101,32 @@
     ]
   },
   {
+    "id": "XzudIkX9hZlAeEifI0MCu",
+    "slug": "gisan-tonin",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Gisan Tonin"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "義山等仁"
+      }
+    ],
+    "birth_year": 1386,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 1462,
+    "death_precision": "exact",
+    "death_confidence": "high",
+    "school": "Soto",
+    "source_ids": [
+      "src_originals_curated"
+    ]
+  },
+  {
     "id": "Y0knckXJi9kjRghDAvzgR",
     "slug": "heze-shenhui",
     "names": [
@@ -7800,6 +9156,37 @@
     "source_ids": [
       "src_chan_ancestors_pdf",
       "src_originals_curated"
+    ]
+  },
+  {
+    "id": "yLsV2D8EGdaQn9VCwl2vC",
+    "slug": "gasan-joseki",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Gasan Joseki"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "峨山韶碩"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Gasan Jōseki"
+      }
+    ],
+    "birth_year": 1275,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 1366,
+    "death_precision": "exact",
+    "death_confidence": "high",
+    "school": "Soto",
+    "source_ids": [
+      "src_sotozen_founders"
     ]
   },
   {
@@ -7914,6 +9301,32 @@
     ]
   },
   {
+    "id": "Yrn971Z37afrGukphYeRe",
+    "slug": "sekko-soshin",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Sekko Soshin"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "雪江宗深"
+      }
+    ],
+    "birth_year": 1408,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 1486,
+    "death_precision": "exact",
+    "death_confidence": "high",
+    "school": "Rinzai",
+    "source_ids": [
+      "src_originals_curated"
+    ]
+  },
+  {
     "id": "YtkGkMWTv8Kv64k_KtCi7",
     "slug": "heshan-wuyin",
     "names": [
@@ -7974,6 +9387,32 @@
     "school": "Guiyang",
     "source_ids": [
       "src_chan_ancestors_pdf",
+      "src_originals_curated"
+    ]
+  },
+  {
+    "id": "zA6x4crlQtPEHtJ_DSTGn",
+    "slug": "taiga-tankyo",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Taiga Tankyo"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "大極曇鏡"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Rinzai",
+    "source_ids": [
       "src_originals_curated"
     ]
   },
@@ -8102,6 +9541,32 @@
     "school": "Yangqi line",
     "source_ids": [
       "src_chan_ancestors_pdf",
+      "src_originals_curated"
+    ]
+  },
+  {
+    "id": "zyEwhhjh106ylIehbNRFu",
+    "slug": "shogaku-kenryu",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Shogaku Kenryu"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "紹嶽堅隆"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": 1485,
+    "death_precision": "exact",
+    "death_confidence": "high",
+    "school": "Soto",
+    "source_ids": [
       "src_originals_curated"
     ]
   }

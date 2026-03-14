@@ -1,10 +1,14 @@
 /**
  * Database Seeding Script
  *
- * Reads the reconciled canonical data from scripts/data/reconciled/ and
- * upserts it into all database tables. Idempotent — safe to re-run.
+ * Single entry point for seeding the entire database. Seeds everything in order:
+ *   sources → masters → schools → transmissions → citations → search tokens
+ *   → biographies → teachings
+ *
+ * Idempotent — safe to re-run. Each run resets derived tables and rebuilds.
  *
  * Usage:  npx tsx scripts/seed-db.ts
+ *         npm run seed
  */
 
 import fs from "fs";
@@ -55,22 +59,13 @@ async function resetDerivedTables(): Promise<void> {
   console.log("Resetting derived tables...");
 
   await db.delete(searchTokens);
-  // Preserve media_asset and teaching citations — they are seeded by separate durable scripts.
-  // Only delete master-level citations that this script will re-create.
-  await db.delete(citations).where(
-    and(
-      ne(citations.entityType, "media_asset"),
-      ne(citations.entityType, "master_biography"),
-      ne(citations.entityType, "teaching")
-    )
-  );
+  // Preserve only media_asset citations — images are seeded by separate scripts.
+  await db.delete(citations).where(ne(citations.entityType, "media_asset"));
   // Content tables with master FKs must be cleared before rebuilding masters.
   await db.delete(teachingRelations);
   await db.delete(teachingMasterRoles);
   await db.delete(teachingContent);
   await db.delete(teachings);
-  // NOTE: masterBiographies is intentionally NOT cleared here.
-  // seed-biographies.ts is a durable additive script; biographies survive re-seeds.
   await db.delete(masterTransmissions);
   await db.delete(masterNames);
   await db.delete(masters);
@@ -276,6 +271,12 @@ async function main(): Promise<void> {
   if (transmissions) await seedTransmissions(transmissions);
   if (citationList) await seedCitations(citationList);
   if (tokens) await seedSearchTokens(tokens);
+
+  // Seed biographies and teachings (these were wiped during reset)
+  const { default: seedBiographies } = await import("./seed-biographies");
+  await seedBiographies();
+  const { default: seedTeachings } = await import("./seed-teachings");
+  await seedTeachings();
 
   console.log("\n=== Seeding complete ===");
   const masterCount = canonicalMasters.length;

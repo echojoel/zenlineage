@@ -12,8 +12,11 @@
     "format:check": "prettier --check .",
     "test": "vitest run",
     "test:watch": "vitest",
+    "seed": "tsx scripts/seed-db.ts",
+    "reconcile": "tsx scripts/reconcile.ts",
     "pipeline": "tsx scripts/run-pipeline.ts",
     "provenance:backfill": "tsx scripts/backfill-ingestion-metadata.ts",
+    "audit": "tsx scripts/check-exit-criteria.ts",
     "db:generate": "drizzle-kit generate",
     "db:migrate": "drizzle-kit migrate",
     "validate-graph": "tsx scripts/validate-graph.ts"
