@@ -1,0 +1,106 @@
+<h2>Data Model Design</h2>
+<p class="subtitle">The knowledge graph at the heart of the encyclopedia — every entity and how they relate</p>
+
+<div class="section">
+  <h3>Core Entities</h3>
+  <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem;">
+
+    <div style="padding: 1.2rem; background: rgba(255,255,255,0.04); border-radius: 10px; border: 1px solid rgba(255,255,255,0.08);">
+      <h4 style="margin-top:0; color: #7eb8da;">🧘 Master (Person)</h4>
+      <ul style="font-size: 0.9rem; line-height: 1.8;">
+        <li><strong>id</strong> — unique slug</li>
+        <li><strong>names</strong> — { dharma, birth, honorific } × { en, ja, zh, ko, vi, sa }</li>
+        <li><strong>dates</strong> — birth, death, ordination</li>
+        <li><strong>lineage</strong> — school, generation number</li>
+        <li><strong>teacher</strong> → Master (dharma transmission from)</li>
+        <li><strong>students</strong> → Master[] (dharma heirs)</li>
+        <li><strong>temples</strong> → Temple[] (founded, resided)</li>
+        <li><strong>biography</strong> — rich text, per locale</li>
+        <li><strong>teachings</strong> — key teachings, famous koans</li>
+        <li><strong>media</strong> — portraits, calligraphy, photos</li>
+        <li><strong>coordinates</strong> — birth/death/activity locations</li>
+      </ul>
+    </div>
+
+    <div style="padding: 1.2rem; background: rgba(255,255,255,0.04); border-radius: 10px; border: 1px solid rgba(255,255,255,0.08);">
+      <h4 style="margin-top:0; color: #daa77e;">🏯 Temple / Monastery</h4>
+      <ul style="font-size: 0.9rem; line-height: 1.8;">
+        <li><strong>id</strong> — unique slug</li>
+        <li><strong>names</strong> — per locale</li>
+        <li><strong>location</strong> — coordinates, region, country</li>
+        <li><strong>founded</strong> — date, founder → Master</li>
+        <li><strong>school</strong> — lineage affiliation</li>
+        <li><strong>abbots</strong> → Master[] (historical)</li>
+        <li><strong>description</strong> — per locale</li>
+        <li><strong>media</strong> — photos, maps</li>
+        <li><strong>status</strong> — active, historical, destroyed</li>
+      </ul>
+    </div>
+
+    <div style="padding: 1.2rem; background: rgba(255,255,255,0.04); border-radius: 10px; border: 1px solid rgba(255,255,255,0.08);">
+      <h4 style="margin-top:0; color: #a7da7e;">📜 Teaching / Text</h4>
+      <ul style="font-size: 0.9rem; line-height: 1.8;">
+        <li><strong>id</strong> — unique slug</li>
+        <li><strong>title</strong> — per locale</li>
+        <li><strong>type</strong> — koan, sutra, commentary, poem, talk</li>
+        <li><strong>author</strong> → Master</li>
+        <li><strong>collection</strong> — e.g., Blue Cliff Record, Mumonkan</li>
+        <li><strong>content</strong> — text, per locale</li>
+        <li><strong>era</strong> — historical period</li>
+        <li><strong>related</strong> → Teaching[], Master[]</li>
+      </ul>
+    </div>
+
+    <div style="padding: 1.2rem; background: rgba(255,255,255,0.04); border-radius: 10px; border: 1px solid rgba(255,255,255,0.08);">
+      <h4 style="margin-top:0; color: #da7e9a;">🔗 Lineage / School</h4>
+      <ul style="font-size: 0.9rem; line-height: 1.8;">
+        <li><strong>id</strong> — unique slug</li>
+        <li><strong>names</strong> — per locale (e.g., Rinzai/Linji/임제)</li>
+        <li><strong>tradition</strong> — Chan, Zen, Seon, Thiền</li>
+        <li><strong>parent</strong> → School (branched from)</li>
+        <li><strong>founder</strong> → Master</li>
+        <li><strong>founded</strong> — approximate date</li>
+        <li><strong>practices</strong> — key methods (koan, shikantaza, etc.)</li>
+        <li><strong>description</strong> — per locale</li>
+        <li><strong>active</strong> — boolean</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="section" style="margin-top: 1.5rem;">
+  <h3>Extended Entities (Phase 2+)</h3>
+  <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 1rem;">
+
+    <div style="padding: 1rem; background: rgba(255,255,255,0.03); border-radius: 8px; border: 1px solid rgba(255,255,255,0.06);">
+      <h4 style="margin-top:0; color: #b8a7da; font-size: 0.95rem;">🎨 Art / Artifact</h4>
+      <p style="font-size: 0.85rem;">Calligraphy, ensō, paintings, sculptures — linked to masters and temples</p>
+    </div>
+
+    <div style="padding: 1rem; background: rgba(255,255,255,0.03); border-radius: 8px; border: 1px solid rgba(255,255,255,0.06);">
+      <h4 style="margin-top:0; color: #dada7e; font-size: 0.95rem;">🧘‍♂️ Practice</h4>
+      <p style="font-size: 0.85rem;">Zazen, kinhin, oryoki, sesshin — methods and ceremonies per school</p>
+    </div>
+
+    <div style="padding: 1rem; background: rgba(255,255,255,0.03); border-radius: 8px; border: 1px solid rgba(255,255,255,0.06);">
+      <h4 style="margin-top:0; color: #7edada; font-size: 0.95rem;">📅 Event</h4>
+      <p style="font-size: 0.85rem;">Historical events, councils, persecutions, diaspora — for the timeline</p>
+    </div>
+  </div>
+</div>
+
+<div class="section" style="margin-top: 1.5rem;">
+  <h3>Relationship Graph</h3>
+  <div style="padding: 1.5rem; background: rgba(255,255,255,0.03); border-radius: 10px; border: 1px solid rgba(255,255,255,0.08); font-family: monospace; font-size: 0.85rem; line-height: 2;">
+    <pre style="margin: 0; color: #c8c8c8;">
+  Master ──teaches──▶ Master        (dharma transmission)
+  Master ──founded──▶ Temple        (established)
+  Master ──wrote────▶ Teaching      (authored)
+  Master ──belongs──▶ School        (lineage affiliation)
+  School ──branched─▶ School        (historical split)
+  Temple ──houses───▶ Art           (collection)
+  School ──practices▶ Practice      (methods used)
+  Event  ──involves─▶ Master,Temple (historical context)
+    </pre>
+  </div>
+</div>

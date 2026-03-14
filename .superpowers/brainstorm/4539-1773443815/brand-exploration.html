@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Zen Encyclopedia — Brand Exploration</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Inter:wght@300;400;500&family=Noto+Serif+JP:wght@200;300;400;500&display=swap');
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    color: #2a2a2a;
+    background: #faf9f7;
+  }
+
+  .page { max-width: 1100px; margin: 0 auto; padding: 3rem 2rem; }
+
+  h1 {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 300;
+    font-size: 2rem;
+    letter-spacing: 0.08em;
+    color: #3a3a3a;
+    margin-bottom: 0.5rem;
+  }
+
+  .subtitle {
+    font-size: 0.85rem;
+    color: #999;
+    letter-spacing: 0.04em;
+    margin-bottom: 3rem;
+  }
+
+  .brand-options {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+  }
+
+  .brand-card {
+    border: 1px solid #e8e6e2;
+    border-radius: 16px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background: white;
+  }
+
+  .brand-card:hover {
+    border-color: #ccc;
+    box-shadow: 0 8px 40px rgba(0,0,0,0.06);
+  }
+
+  .brand-card.selected {
+    border-color: #8b7355;
+    box-shadow: 0 8px 40px rgba(139,115,85,0.12);
+  }
+
+  .brand-header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1.5rem 2rem;
+    border-bottom: 1px solid #f0eeea;
+  }
+
+  .brand-letter {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.8rem;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+  }
+
+  .brand-title {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.3rem;
+    font-weight: 400;
+  }
+
+  .brand-preview {
+    padding: 2.5rem;
+    min-height: 340px;
+  }
+
+  .brand-desc {
+    padding: 1.5rem 2rem;
+    border-top: 1px solid #f0eeea;
+    font-size: 0.85rem;
+    color: #777;
+    line-height: 1.7;
+  }
+
+  /* Brand A: Ink Wash */
+  .ink-wash .brand-letter { background: #f5f2ed; color: #6b5b4a; }
+  .ink-wash .brand-preview { background: #fcfbf9; }
+
+  .ink-wash-demo {
+    position: relative;
+    height: 280px;
+  }
+
+  .ink-wash-demo svg {
+    width: 100%;
+    height: 100%;
+  }
+
+  /* Brand B: Stone Garden */
+  .stone-garden .brand-letter { background: #f0f2f0; color: #5a6b5a; }
+  .stone-garden .brand-preview { background: #f8f9f7; }
+
+  .stone-garden-demo {
+    position: relative;
+    height: 280px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* Brand C: Paper & Thread */
+  .paper-thread .brand-letter { background: #faf5f0; color: #8b6b4a; }
+  .paper-thread .brand-preview { background: #fdfcfa; }
+
+  .paper-thread-demo {
+    position: relative;
+    height: 280px;
+  }
+
+  .node-label {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 11px;
+    fill: #5a5a5a;
+  }
+
+  .node-label-jp {
+    font-family: 'Noto Serif JP', serif;
+    font-size: 9px;
+    fill: #aaa;
+  }
+
+  .era-label {
+    font-family: 'Inter', sans-serif;
+    font-size: 9px;
+    fill: #bbb;
+    letter-spacing: 0.08em;
+  }
+
+  .selected-indicator {
+    position: fixed;
+    bottom: 1.5rem;
+    right: 1.5rem;
+    background: #8b7355;
+    color: white;
+    padding: 0.6rem 1.2rem;
+    border-radius: 8px;
+    font-size: 0.8rem;
+    letter-spacing: 0.04em;
+    display: none;
+    z-index: 100;
+  }
+
+  .selected-indicator.show { display: block; }
+</style>
+</head>
+<body>
+<div class="page">
+  <h1>Brand Direction</h1>
+  <p class="subtitle">Three visual identities — each minimal and meditative, but with a different soul</p>
+
+  <div class="brand-options">
+
+    <!-- Brand A: Ink Wash -->
+    <div class="brand-card ink-wash" data-choice="ink-wash" onclick="selectBrand(this)">
+      <div class="brand-header">
+        <div class="brand-letter">A</div>
+        <div class="brand-title">Ink Wash — Sumi-e Inspired</div>
+      </div>
+      <div class="brand-preview">
+        <div class="ink-wash-demo">
+          <svg viewBox="0 0 700 280">
+            <!-- Subtle ink wash background texture -->
+            <defs>
+              <filter id="ink-blur">
+                <feGaussianBlur stdDeviation="2"/>
+              </filter>
+              <linearGradient id="ink-fade" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0%" stop-color="#d4cfc5" stop-opacity="0.15"/>
+                <stop offset="100%" stop-color="#d4cfc5" stop-opacity="0"/>
+              </linearGradient>
+            </defs>
+
+            <!-- Era markers -->
+            <text x="60" y="20" class="era-label">500 CE</text>
+            <line x1="95" y1="15" x2="95" y2="270" stroke="#e8e4dc" stroke-width="0.5"/>
+            <text x="220" y="20" class="era-label">800 CE</text>
+            <line x1="255" y1="15" x2="255" y2="270" stroke="#e8e4dc" stroke-width="0.5"/>
+            <text x="380" y="20" class="era-label">1100 CE</text>
+            <line x1="415" y1="15" x2="415" y2="270" stroke="#e8e4dc" stroke-width="0.5"/>
+            <text x="540" y="20" class="era-label">1400 CE</text>
+            <line x1="575" y1="15" x2="575" y2="270" stroke="#e8e4dc" stroke-width="0.5"/>
+
+            <!-- Main flow — ink brush style with varying opacity -->
+            <!-- Indian to Chinese transmission -->
+            <path d="M 50 140 Q 80 140 110 135 Q 140 130 170 130" stroke="#8b7355" stroke-width="2.5" fill="none" opacity="0.5" stroke-linecap="round"/>
+
+            <!-- Early Chan -->
+            <path d="M 170 130 Q 200 128 230 125 Q 250 120 270 115" stroke="#7a6a55" stroke-width="3" fill="none" opacity="0.45" stroke-linecap="round"/>
+
+            <!-- Huineng split -->
+            <!-- Mazu → Linji line -->
+            <path d="M 270 115 Q 310 100 350 90 Q 400 78 450 70 Q 500 62 550 55 Q 600 48 650 45" stroke="#8b6b4a" stroke-width="2" fill="none" opacity="0.4" stroke-linecap="round"/>
+
+            <!-- Shitou → Caodong line -->
+            <path d="M 270 115 Q 310 135 350 150 Q 400 168 450 180 Q 500 190 550 195 Q 600 200 650 205" stroke="#5a7a5a" stroke-width="2" fill="none" opacity="0.35" stroke-linecap="round"/>
+
+            <!-- Sanbo (late convergence) -->
+            <path d="M 580 55 Q 600 80 620 110 Q 640 130 650 140" stroke="#7a6a8a" stroke-width="1.5" fill="none" opacity="0.3" stroke-linecap="round" stroke-dasharray="3,3"/>
+            <path d="M 580 195 Q 600 175 620 155 Q 640 145 650 140" stroke="#7a6a8a" stroke-width="1.5" fill="none" opacity="0.3" stroke-linecap="round" stroke-dasharray="3,3"/>
+
+            <!-- Nodes — small ink dots -->
+            <circle cx="50" cy="140" r="3.5" fill="#8b7355" opacity="0.6"/>
+            <text x="35" y="160" class="node-label">Bodhidharma</text>
+            <text x="45" y="172" class="node-label-jp">達磨</text>
+
+            <circle cx="270" cy="115" r="4" fill="#7a6a55" opacity="0.65"/>
+            <text x="255" y="105" class="node-label">Huineng</text>
+            <text x="263" y="95" class="node-label-jp">慧能</text>
+
+            <circle cx="450" cy="70" r="3" fill="#8b6b4a" opacity="0.55"/>
+            <text x="435" y="62" class="node-label">Linji</text>
+            <text x="438" y="52" class="node-label-jp">臨済</text>
+
+            <circle cx="450" cy="180" r="3" fill="#5a7a5a" opacity="0.55"/>
+            <text x="430" y="200" class="node-label">Dōgen</text>
+            <text x="435" y="212" class="node-label-jp">道元</text>
+
+            <circle cx="650" cy="140" r="3" fill="#7a6a8a" opacity="0.5"/>
+            <text x="620" y="258" class="node-label">Yasutani</text>
+            <text x="628" y="270" class="node-label-jp">安谷</text>
+          </svg>
+        </div>
+      </div>
+      <div class="brand-desc">
+        Inspired by sumi-e ink painting. Lines vary in weight and opacity like brush strokes. Warm stone and paper tones. Masters are ink dots that bloom on hover. The feel: contemplative, hand-crafted, timeless. Colors: warm greys, aged paper, ink brown, moss green.
+      </div>
+    </div>
+
+    <!-- Brand B: Stone Garden -->
+    <div class="brand-card stone-garden" data-choice="stone-garden" onclick="selectBrand(this)">
+      <div class="brand-header">
+        <div class="brand-letter">B</div>
+        <div class="brand-title">Stone Garden — Karesansui</div>
+      </div>
+      <div class="brand-preview">
+        <div class="stone-garden-demo">
+          <svg viewBox="0 0 700 280">
+            <!-- Raked sand lines background -->
+            <defs>
+              <pattern id="sand" x="0" y="0" width="700" height="8" patternUnits="userSpaceOnUse">
+                <line x1="0" y1="4" x2="700" y2="4" stroke="#e8e5de" stroke-width="0.5"/>
+              </pattern>
+            </defs>
+            <rect width="700" height="280" fill="url(#sand)"/>
+
+            <!-- Connection lines — like raked paths between stones -->
+            <path d="M 100 140 L 230 100" stroke="#c8c2b5" stroke-width="1" fill="none"/>
+            <path d="M 230 100 L 350 70" stroke="#c8c2b5" stroke-width="1" fill="none"/>
+            <path d="M 230 100 L 350 140" stroke="#c8c2b5" stroke-width="1" fill="none"/>
+
+            <path d="M 350 70 L 480 50" stroke="#b5a58a" stroke-width="1" fill="none"/>
+            <path d="M 350 140 L 480 160" stroke="#8ba577" stroke-width="1" fill="none"/>
+            <path d="M 350 140 L 480 200" stroke="#8ba577" stroke-width="1" fill="none"/>
+
+            <path d="M 480 50 L 600 90" stroke="#a58a8a" stroke-width="1" fill="none"/>
+            <path d="M 480 160 L 600 90" stroke="#a58a8a" stroke-width="1" fill="none" stroke-dasharray="4,4"/>
+
+            <!-- Stones (masters) — varying sizes like garden rocks -->
+            <ellipse cx="100" cy="140" rx="18" ry="12" fill="#d4cfc5" stroke="#bbb5a8" stroke-width="1"/>
+            <text x="72" y="165" class="node-label" style="font-size:10px">Bodhidharma</text>
+
+            <ellipse cx="230" cy="100" rx="15" ry="10" fill="#dbd6cc" stroke="#c5bfb2" stroke-width="1"/>
+            <text x="213" y="122" class="node-label" style="font-size:10px">Huineng</text>
+
+            <ellipse cx="350" cy="70" rx="12" ry="9" fill="#ddd8cf" stroke="#c8c2b5" stroke-width="1"/>
+            <text x="340" y="55" class="node-label" style="font-size:10px">Mazu</text>
+
+            <ellipse cx="350" cy="140" rx="12" ry="9" fill="#d8ddd0" stroke="#bcc5b2" stroke-width="1"/>
+            <text x="336" y="162" class="node-label" style="font-size:10px">Shítóu</text>
+
+            <ellipse cx="480" cy="50" rx="14" ry="10" fill="#ddd5cc" stroke="#c8bfb2" stroke-width="1"/>
+            <text x="470" y="35" class="node-label" style="font-size:10px">Línjì</text>
+
+            <ellipse cx="480" cy="160" rx="13" ry="9" fill="#d5ddd0" stroke="#b8c5ad" stroke-width="1"/>
+            <text x="465" y="182" class="node-label" style="font-size:10px">Dōgen</text>
+
+            <ellipse cx="480" cy="200" rx="10" ry="7" fill="#d8ddd2" stroke="#bcc5b5" stroke-width="1"/>
+            <text x="465" y="218" class="node-label" style="font-size:9px">Keizan</text>
+
+            <ellipse cx="600" cy="90" rx="11" ry="8" fill="#ddd5dd" stroke="#c5b8c5" stroke-width="1"/>
+            <text x="585" y="110" class="node-label" style="font-size:10px">Yasutani</text>
+
+            <!-- Raked circles around key stones -->
+            <ellipse cx="100" cy="140" rx="30" ry="22" fill="none" stroke="#e2ddd5" stroke-width="0.5"/>
+            <ellipse cx="100" cy="140" rx="38" ry="28" fill="none" stroke="#e8e4dc" stroke-width="0.3"/>
+            <ellipse cx="230" cy="100" rx="28" ry="20" fill="none" stroke="#e2ddd5" stroke-width="0.5"/>
+          </svg>
+        </div>
+      </div>
+      <div class="brand-desc">
+        Inspired by karesansui (dry rock gardens). Masters are stones of varying sizes. Connections are raked paths. The space between matters as much as the elements. The feel: austere, spacious, geometric. Colors: sand, stone, moss, minimal.
+      </div>
+    </div>
+
+    <!-- Brand C: Paper & Thread -->
+    <div class="brand-card paper-thread" data-choice="paper-thread" onclick="selectBrand(this)">
+      <div class="brand-header">
+        <div class="brand-letter">C</div>
+        <div class="brand-title">Paper & Thread — Washi Inspired</div>
+      </div>
+      <div class="brand-preview">
+        <div class="paper-thread-demo">
+          <svg viewBox="0 0 700 280">
+            <!-- Subtle paper texture background -->
+            <rect width="700" height="280" fill="#faf8f4"/>
+
+            <!-- Thin thread-like connections -->
+            <path d="M 100 140 C 150 140 180 110 240 105" stroke="#c4a882" stroke-width="1" fill="none" opacity="0.6"/>
+            <path d="M 240 105 C 290 95 320 80 360 75" stroke="#c4a882" stroke-width="1" fill="none" opacity="0.5"/>
+            <path d="M 240 105 C 290 115 320 140 360 155" stroke="#8aaa78" stroke-width="1" fill="none" opacity="0.5"/>
+
+            <path d="M 360 75 C 410 65 450 55 500 50" stroke="#c4a882" stroke-width="1" fill="none" opacity="0.4"/>
+            <path d="M 360 155 C 410 165 450 175 500 180" stroke="#8aaa78" stroke-width="1" fill="none" opacity="0.4"/>
+
+            <path d="M 500 50 C 540 60 570 80 600 100" stroke="#a888a8" stroke-width="0.8" fill="none" opacity="0.35"/>
+            <path d="M 500 180 C 540 170 570 140 600 100" stroke="#a888a8" stroke-width="0.8" fill="none" opacity="0.35" stroke-dasharray="3,3"/>
+
+            <!-- Nodes — small circles with clean labels -->
+            <circle cx="100" cy="140" r="5" fill="none" stroke="#9a8a6a" stroke-width="1.5"/>
+            <circle cx="100" cy="140" r="2" fill="#9a8a6a"/>
+            <text x="68" y="160" style="font-family:'Cormorant Garamond',serif; font-size:11px; fill:#5a5a5a;">Bodhidharma</text>
+            <text x="84" y="173" style="font-family:'Noto Serif JP',serif; font-size:8px; fill:#bbb;">菩提達磨</text>
+
+            <circle cx="240" cy="105" r="5" fill="none" stroke="#8a7a5a" stroke-width="1.5"/>
+            <circle cx="240" cy="105" r="2" fill="#8a7a5a"/>
+            <text x="220" y="95" style="font-family:'Cormorant Garamond',serif; font-size:11px; fill:#5a5a5a;">Huìnéng</text>
+            <text x="230" y="83" style="font-family:'Noto Serif JP',serif; font-size:8px; fill:#bbb;">慧能</text>
+
+            <circle cx="360" cy="75" r="4" fill="none" stroke="#a88a5a" stroke-width="1.2"/>
+            <circle cx="360" cy="75" r="1.5" fill="#a88a5a"/>
+            <text x="345" y="65" style="font-family:'Cormorant Garamond',serif; font-size:11px; fill:#5a5a5a;">Línjì</text>
+            <text x="348" y="54" style="font-family:'Noto Serif JP',serif; font-size:8px; fill:#bbb;">臨済</text>
+
+            <circle cx="360" cy="155" r="4" fill="none" stroke="#6a8a5a" stroke-width="1.2"/>
+            <circle cx="360" cy="155" r="1.5" fill="#6a8a5a"/>
+            <text x="338" y="175" style="font-family:'Cormorant Garamond',serif; font-size:11px; fill:#5a5a5a;">Dōgen</text>
+            <text x="345" y="188" style="font-family:'Noto Serif JP',serif; font-size:8px; fill:#bbb;">道元</text>
+
+            <circle cx="500" cy="50" r="3.5" fill="none" stroke="#a88a5a" stroke-width="1"/>
+            <circle cx="500" cy="50" r="1.2" fill="#a88a5a"/>
+            <text x="485" y="40" style="font-family:'Cormorant Garamond',serif; font-size:10px; fill:#6a6a6a;">Hakuin</text>
+
+            <circle cx="500" cy="180" r="3.5" fill="none" stroke="#6a8a5a" stroke-width="1"/>
+            <circle cx="500" cy="180" r="1.2" fill="#6a8a5a"/>
+            <text x="485" y="200" style="font-family:'Cormorant Garamond',serif; font-size:10px; fill:#6a6a6a;">Keizan</text>
+
+            <circle cx="600" cy="100" r="3.5" fill="none" stroke="#8a6a8a" stroke-width="1"/>
+            <circle cx="600" cy="100" r="1.2" fill="#8a6a8a"/>
+            <text x="580" y="120" style="font-family:'Cormorant Garamond',serif; font-size:10px; fill:#6a6a6a;">Yasutani</text>
+
+            <!-- Time annotations — minimal -->
+            <text x="80" y="272" style="font-family:'Inter',sans-serif; font-size:8px; fill:#ccc; letter-spacing:0.1em;">500</text>
+            <text x="225" y="272" style="font-family:'Inter',sans-serif; font-size:8px; fill:#ccc; letter-spacing:0.1em;">700</text>
+            <text x="345" y="272" style="font-family:'Inter',sans-serif; font-size:8px; fill:#ccc; letter-spacing:0.1em;">1200</text>
+            <text x="485" y="272" style="font-family:'Inter',sans-serif; font-size:8px; fill:#ccc; letter-spacing:0.1em;">1400</text>
+            <text x="585" y="272" style="font-family:'Inter',sans-serif; font-size:8px; fill:#ccc; letter-spacing:0.1em;">1900</text>
+            <line x1="70" y1="265" x2="650" y2="265" stroke="#e8e4dc" stroke-width="0.5"/>
+          </svg>
+        </div>
+      </div>
+      <div class="brand-desc">
+        Inspired by washi paper and red thread (en-musubi, the thread of connection). Clean open space. Thin golden threads connect masters. Double-circle nodes suggest ensō. The feel: delicate, breathing, warm. Colors: warm white, gold thread, soft ink, paper texture.
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="selection-indicator" class="selected-indicator"></div>
+
+<script>
+  let selectedBrand = null;
+
+  function selectBrand(el) {
+    document.querySelectorAll('.brand-card').forEach(c => c.classList.remove('selected'));
+    el.classList.add('selected');
+    selectedBrand = el.dataset.choice;
+
+    const indicator = document.getElementById('selection-indicator');
+    indicator.textContent = 'Selected: ' + el.querySelector('.brand-title').textContent;
+    indicator.classList.add('show');
+
+    // Record event
+    fetch('/.events', {
+      method: 'POST',
+      headers: {'Content-Type': 'application/json'},
+      body: JSON.stringify({type: 'click', choice: selectedBrand, text: el.querySelector('.brand-title').textContent, timestamp: Date.now()})
+    }).catch(() => {});
+  }
+</script>
+</body>
+</html>

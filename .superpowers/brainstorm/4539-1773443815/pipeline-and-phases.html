@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Research Pipeline & Phases</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500&family=Inter:wght@300;400;500&display=swap');
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    color: #2a2a2a;
+    background: #faf9f7;
+    padding: 3rem 2rem;
+  }
+
+  .page { max-width: 900px; margin: 0 auto; }
+
+  h1 {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 300;
+    font-size: 1.8rem;
+    letter-spacing: 0.08em;
+    color: #3a3a3a;
+    margin-bottom: 0.5rem;
+  }
+
+  h2 {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 400;
+    font-size: 1.3rem;
+    color: #4a4a4a;
+    margin-bottom: 1rem;
+    margin-top: 2.5rem;
+  }
+
+  .subtitle {
+    font-size: 0.85rem;
+    color: #999;
+    letter-spacing: 0.04em;
+    margin-bottom: 2.5rem;
+  }
+
+  .pipeline {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .pipe-step {
+    display: flex;
+    align-items: stretch;
+    min-height: 100px;
+  }
+
+  .pipe-line {
+    width: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+  }
+
+  .pipe-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #8b7355;
+    z-index: 2;
+    margin-top: 0.3rem;
+  }
+
+  .pipe-connector {
+    flex: 1;
+    width: 1px;
+    background: #d4cfc5;
+  }
+
+  .pipe-content {
+    flex: 1;
+    background: white;
+    border: 1px solid #e8e6e2;
+    border-radius: 10px;
+    padding: 1.2rem 1.5rem;
+    margin-bottom: 1rem;
+    margin-left: 0.5rem;
+  }
+
+  .pipe-content h3 {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 400;
+    font-size: 1.05rem;
+    color: #4a4a4a;
+    margin-bottom: 0.4rem;
+  }
+
+  .pipe-content .step-num {
+    font-size: 0.65rem;
+    letter-spacing: 0.1em;
+    color: #bbb;
+    text-transform: uppercase;
+    margin-bottom: 0.3rem;
+  }
+
+  .pipe-content p {
+    font-size: 0.82rem;
+    color: #777;
+    line-height: 1.7;
+  }
+
+  .pipe-content code {
+    font-size: 0.75rem;
+    background: #f5f3ef;
+    padding: 0.15rem 0.4rem;
+    border-radius: 3px;
+    color: #8b7355;
+  }
+
+  .pipe-content ul {
+    font-size: 0.82rem;
+    color: #777;
+    line-height: 1.8;
+    padding-left: 1.2rem;
+    margin-top: 0.3rem;
+  }
+
+  /* Phase cards */
+  .phases {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    margin-top: 1rem;
+  }
+
+  .phase {
+    background: white;
+    border: 1px solid #e8e6e2;
+    border-radius: 12px;
+    padding: 1.5rem 2rem;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .phase::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 3px;
+  }
+
+  .phase-1::before { background: #8b7355; }
+  .phase-2::before { background: #7a9a6a; }
+  .phase-3::before { background: #6a7a9a; }
+  .phase-4::before { background: #9a6a7a; }
+
+  .phase-label {
+    font-size: 0.65rem;
+    letter-spacing: 0.12em;
+    color: #bbb;
+    text-transform: uppercase;
+    margin-bottom: 0.3rem;
+  }
+
+  .phase h3 {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 400;
+    font-size: 1.15rem;
+    color: #3a3a3a;
+    margin-bottom: 0.6rem;
+  }
+
+  .phase p {
+    font-size: 0.82rem;
+    color: #777;
+    line-height: 1.7;
+  }
+
+  .phase .deliverables {
+    margin-top: 0.8rem;
+    font-size: 0.78rem;
+    color: #999;
+  }
+
+  .phase .deliverables strong {
+    color: #666;
+  }
+
+  .current-marker {
+    display: inline-block;
+    font-size: 0.6rem;
+    padding: 0.15rem 0.5rem;
+    background: #8b7355;
+    color: white;
+    border-radius: 3px;
+    letter-spacing: 0.06em;
+    margin-left: 0.5rem;
+    vertical-align: middle;
+  }
+</style>
+</head>
+<body>
+<div class="page">
+  <h1>Research Pipeline & Project Phases</h1>
+  <p class="subtitle">Data first, then build — the knowledge base is the foundation</p>
+
+  <h2>Data Collection Pipeline</h2>
+  <div class="pipeline">
+
+    <div class="pipe-step">
+      <div class="pipe-line"><div class="pipe-dot"></div><div class="pipe-connector"></div></div>
+      <div class="pipe-content">
+        <div class="step-num">Step 1 — Source</div>
+        <h3>Extract Lineage Data from Existing Charts</h3>
+        <p>Parse the PDF lineage charts you've collected, plus scrape the reference websites (Tibetan Buddhist Encyclopedia, Terebess, Cosmos Chan, Mountain Moon). Extract: master names (multilingual), dates, teacher→student relationships, school affiliations.</p>
+        <p style="margin-top:0.4rem">Output: <code>raw/lineage-charts/*.json</code></p>
+      </div>
+    </div>
+
+    <div class="pipe-step">
+      <div class="pipe-line"><div class="pipe-dot"></div><div class="pipe-connector"></div></div>
+      <div class="pipe-content">
+        <div class="step-num">Step 2 — Reconcile</div>
+        <h3>Merge & Deduplicate Masters</h3>
+        <p>Same master appears with different romanizations across sources (Dōgen / Dogen / Tao-yuan / 道元). Build a reconciliation script that matches by: dates, Chinese characters, known aliases. Human review for ambiguous cases.</p>
+        <p style="margin-top:0.4rem">Output: <code>data/masters.json</code> — canonical master list with all name variants</p>
+      </div>
+    </div>
+
+    <div class="pipe-step">
+      <div class="pipe-line"><div class="pipe-dot"></div><div class="pipe-connector"></div></div>
+      <div class="pipe-content">
+        <div class="step-num">Step 3 — Enrich</div>
+        <h3>AI-Assisted Content Generation</h3>
+        <p>For each master, use Claude to generate biographical content from scholarly sources:</p>
+        <ul>
+          <li>Biography (life, training, enlightenment, teaching career)</li>
+          <li>Key teachings and their significance</li>
+          <li>Historical context (dynasty, political events, Buddhist climate)</li>
+          <li>Temple associations with locations</li>
+          <li>Connections to broader Buddhist traditions</li>
+        </ul>
+        <p style="margin-top:0.4rem">Output: <code>data/profiles/*.json</code> — rich profiles per master</p>
+      </div>
+    </div>
+
+    <div class="pipe-step">
+      <div class="pipe-line"><div class="pipe-dot"></div><div class="pipe-connector"></div></div>
+      <div class="pipe-content">
+        <div class="step-num">Step 4 — Translate</div>
+        <h3>Multi-Language Content</h3>
+        <p>Generate translations for all content in target languages (EN, JA, ZH, KO, VI). Use AI translation with terminology consistency checks — Buddhist terms must use standard translations per language.</p>
+        <p style="margin-top:0.4rem">Output: <code>data/i18n/[locale]/*.json</code></p>
+      </div>
+    </div>
+
+    <div class="pipe-step">
+      <div class="pipe-line"><div class="pipe-dot"></div><div class="pipe-connector"></div></div>
+      <div class="pipe-content">
+        <div class="step-num">Step 5 — Curate</div>
+        <h3>Human Review & Verification</h3>
+        <p>You review AI-generated content for accuracy, add personal insights, correct errors, flag uncertain claims. A curation UI or simple markdown workflow where you can approve, edit, or flag each profile.</p>
+        <p style="margin-top:0.4rem">Output: <code>data/reviewed/*.json</code> — verified content ready for production</p>
+      </div>
+    </div>
+  </div>
+
+  <h2>Project Phases</h2>
+  <div class="phases">
+
+    <div class="phase phase-1">
+      <div class="phase-label">Phase 1 <span class="current-marker">START HERE</span></div>
+      <h3>Data Foundation</h3>
+      <p>Set up the Next.js project, define TypeScript data models, build the extraction and reconciliation pipeline. Populate the database with lineage data from all source charts. Establish the canonical master list with multilingual names and teacher→student relationships.</p>
+      <div class="deliverables"><strong>Deliverables:</strong> Project scaffold, data models, extraction scripts, ~500+ masters with lineage links, all three major lineages (Soto, Rinzai, Sanbo) mapped</div>
+    </div>
+
+    <div class="phase phase-2">
+      <div class="phase-label">Phase 2</div>
+      <h3>Lineage Visualizer MVP</h3>
+      <p>Build the core interactive lineage explorer with sumi-e aesthetics. D3.js for layout + Canvas/SVG rendering. Implement zoom, pan, time scrubber, and basic node interactions. Master sidebar with essential bio on click.</p>
+      <div class="deliverables"><strong>Deliverables:</strong> Interactive lineage tree, animated flow rendering, time navigation, school color coding, sidebar details panel</div>
+    </div>
+
+    <div class="phase phase-3">
+      <div class="phase-label">Phase 3</div>
+      <h3>Encyclopedia Content</h3>
+      <p>AI-assisted profile generation for all masters. Build rich profile pages, school pages, teachings browser. Implement i18n infrastructure and generate multi-language content. Add temple map with Mapbox/Leaflet.</p>
+      <div class="deliverables"><strong>Deliverables:</strong> Full master profiles, school pages, teaching/koan browser, temple map, multi-language support</div>
+    </div>
+
+    <div class="phase phase-4">
+      <div class="phase-label">Phase 4</div>
+      <h3>Timeline & Polish</h3>
+      <p>Build the immersive scrollytelling timeline. Add historical events, cultural context, connections to broader Buddhism and Taoism. Search system, glossary, SEO optimization. Performance tuning for the visualizer with large datasets.</p>
+      <div class="deliverables"><strong>Deliverables:</strong> Timeline experience, global search, glossary, performance optimization, deployment</div>
+    </div>
+
+  </div>
+</div>
+</body>
+</html>

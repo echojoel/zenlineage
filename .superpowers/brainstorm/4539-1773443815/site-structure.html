@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Site Structure</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500&family=Inter:wght@300;400;500&family=Noto+Serif+JP:wght@200;300;400&display=swap');
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    color: #2a2a2a;
+    background: #faf9f7;
+    padding: 3rem 2rem;
+  }
+
+  .page { max-width: 900px; margin: 0 auto; }
+
+  h1 {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 300;
+    font-size: 1.8rem;
+    letter-spacing: 0.08em;
+    color: #3a3a3a;
+    margin-bottom: 0.5rem;
+  }
+
+  h2 {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 400;
+    font-size: 1.3rem;
+    color: #4a4a4a;
+    margin-bottom: 1rem;
+    margin-top: 2.5rem;
+  }
+
+  .subtitle {
+    font-size: 0.85rem;
+    color: #999;
+    letter-spacing: 0.04em;
+    margin-bottom: 2.5rem;
+  }
+
+  /* Navigation mockup */
+  .nav-mockup {
+    background: white;
+    border: 1px solid #e8e6e2;
+    border-radius: 12px;
+    overflow: hidden;
+    margin-bottom: 2rem;
+  }
+
+  .nav-bar {
+    display: flex;
+    align-items: center;
+    padding: 1rem 2rem;
+    border-bottom: 1px solid #f0eeea;
+    gap: 2rem;
+  }
+
+  .nav-logo {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    color: #5a5040;
+  }
+
+  .nav-links {
+    display: flex;
+    gap: 1.5rem;
+    font-size: 0.8rem;
+    color: #888;
+    letter-spacing: 0.04em;
+  }
+
+  .nav-links span { cursor: pointer; }
+  .nav-links span.active { color: #5a5040; border-bottom: 1px solid #8b7355; padding-bottom: 2px; }
+
+  .nav-right {
+    margin-left: auto;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    font-size: 0.75rem;
+    color: #aaa;
+  }
+
+  /* Page cards */
+  .pages-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.2rem;
+  }
+
+  .page-card {
+    background: white;
+    border: 1px solid #e8e6e2;
+    border-radius: 12px;
+    padding: 1.5rem;
+    transition: all 0.2s;
+  }
+
+  .page-card:hover {
+    border-color: #ccc;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.04);
+  }
+
+  .page-card h3 {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 400;
+    font-size: 1.1rem;
+    color: #4a4a4a;
+    margin-bottom: 0.5rem;
+  }
+
+  .page-card .route {
+    font-size: 0.7rem;
+    color: #bbb;
+    font-family: monospace;
+    margin-bottom: 0.8rem;
+  }
+
+  .page-card p {
+    font-size: 0.82rem;
+    color: #777;
+    line-height: 1.6;
+  }
+
+  .page-card .features {
+    margin-top: 0.8rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+  }
+
+  .page-card .tag {
+    font-size: 0.68rem;
+    padding: 0.2rem 0.6rem;
+    border-radius: 4px;
+    background: #f5f3ef;
+    color: #8b7355;
+    letter-spacing: 0.03em;
+  }
+
+  .highlight {
+    border-color: #d4c5a8;
+    background: #fefdfb;
+  }
+
+  .full-width {
+    grid-column: 1 / -1;
+  }
+</style>
+</head>
+<body>
+<div class="page">
+  <h1>Site Structure & Navigation</h1>
+  <p class="subtitle">How users navigate the encyclopedia — minimal, focused, no clutter</p>
+
+  <!-- Navigation bar mockup -->
+  <div class="nav-mockup">
+    <div class="nav-bar">
+      <div class="nav-logo">禅 ZEN</div>
+      <div class="nav-links">
+        <span class="active">Lineage</span>
+        <span>Masters</span>
+        <span>Schools</span>
+        <span>Teachings</span>
+        <span>Temples</span>
+        <span>Timeline</span>
+      </div>
+      <div class="nav-right">
+        <span>🔍</span>
+        <span>EN | 日本語 | 中文</span>
+      </div>
+    </div>
+  </div>
+
+  <h2>Core Pages</h2>
+  <div class="pages-grid">
+
+    <div class="page-card highlight full-width">
+      <h3>Lineage Explorer</h3>
+      <div class="route">/lineage</div>
+      <p>THE core experience. Full-screen animated flow visualization. Zoom, pan, time-scrub through 2,500 years. Click any master to open their profile in a sidebar. Filter by school, era, region.</p>
+      <div class="features">
+        <span class="tag">animated flow</span>
+        <span class="tag">zoom & pan</span>
+        <span class="tag">time scrubber</span>
+        <span class="tag">school filter</span>
+        <span class="tag">search</span>
+        <span class="tag">sidebar details</span>
+      </div>
+    </div>
+
+    <div class="page-card">
+      <h3>Master Profile</h3>
+      <div class="route">/masters/[slug]</div>
+      <p>Rich page: biography, dharma names in all languages, teacher & students, key teachings, temple affiliations, artwork, map of locations. Link back to their position in the lineage tree.</p>
+      <div class="features">
+        <span class="tag">biography</span>
+        <span class="tag">multilingual names</span>
+        <span class="tag">mini lineage</span>
+        <span class="tag">teachings</span>
+      </div>
+    </div>
+
+    <div class="page-card">
+      <h3>School Page</h3>
+      <div class="route">/schools/[slug]</div>
+      <p>History of a school (Rinzai, Soto, etc.), its founding, key practices, notable masters, sub-branches. Embedded mini-lineage showing this school's tree.</p>
+      <div class="features">
+        <span class="tag">history</span>
+        <span class="tag">practices</span>
+        <span class="tag">sub-branches</span>
+      </div>
+    </div>
+
+    <div class="page-card">
+      <h3>Teachings & Koans</h3>
+      <div class="route">/teachings</div>
+      <p>Browse by collection (Blue Cliff Record, Mumonkan, Shōbōgenzō), by master, or by theme. Each koan/teaching links to its author's profile.</p>
+      <div class="features">
+        <span class="tag">collections</span>
+        <span class="tag">search</span>
+        <span class="tag">themes</span>
+      </div>
+    </div>
+
+    <div class="page-card">
+      <h3>Temple Map</h3>
+      <div class="route">/temples</div>
+      <p>Interactive map of temples and monasteries. Filter by school, era, status (active/historical). Click for details, history, and connected masters.</p>
+      <div class="features">
+        <span class="tag">interactive map</span>
+        <span class="tag">filters</span>
+        <span class="tag">photos</span>
+      </div>
+    </div>
+
+    <div class="page-card">
+      <h3>Timeline</h3>
+      <div class="route">/timeline</div>
+      <p>Chronological journey through Zen history. Scroll through centuries with events, masters, temple foundings, and cultural context appearing as you go.</p>
+      <div class="features">
+        <span class="tag">scrollytelling</span>
+        <span class="tag">events</span>
+        <span class="tag">context</span>
+      </div>
+    </div>
+
+    <div class="page-card">
+      <h3>Masters Index</h3>
+      <div class="route">/masters</div>
+      <p>Searchable, filterable directory of all masters. Sort by era, school, region. Grid/list view with portraits.</p>
+      <div class="features">
+        <span class="tag">search</span>
+        <span class="tag">filter</span>
+        <span class="tag">sort</span>
+      </div>
+    </div>
+
+    <div class="page-card">
+      <h3>About / Glossary</h3>
+      <div class="route">/about, /glossary</div>
+      <p>Project mission, methodology, sources. Glossary of Zen terms in all supported languages with cross-references.</p>
+      <div class="features">
+        <span class="tag">methodology</span>
+        <span class="tag">multilingual glossary</span>
+      </div>
+    </div>
+
+  </div>
+</div>
+</body>
+</html>

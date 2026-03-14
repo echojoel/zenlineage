@@ -1,0 +1,102 @@
+<h2>Lineage Visualizer: Animated Flow Concept</h2>
+<p class="subtitle">An organic, meditative experience — lineages flow like rivers branching through time</p>
+
+<div class="section">
+  <h3>Visual Metaphor</h3>
+  <div style="padding: 2rem; background: linear-gradient(180deg, rgba(20,25,35,0.9) 0%, rgba(15,20,30,0.95) 100%); border-radius: 12px; border: 1px solid rgba(255,255,255,0.08); position: relative; overflow: hidden; min-height: 300px;">
+
+    <!-- Stylized river/flow visualization mockup -->
+    <div style="position: relative; height: 300px;">
+      <!-- Time axis -->
+      <div style="position: absolute; left: 0; top: 0; bottom: 0; width: 60px; display: flex; flex-direction: column; justify-content: space-between; font-size: 0.7rem; color: rgba(255,255,255,0.4); padding: 10px 0;">
+        <span>500 CE</span>
+        <span>700 CE</span>
+        <span>900 CE</span>
+        <span>1100 CE</span>
+        <span>1300 CE</span>
+      </div>
+
+      <!-- Main flow -->
+      <svg viewBox="0 0 600 300" style="position: absolute; left: 60px; top: 0; width: calc(100% - 60px); height: 100%;">
+        <!-- Indian patriarchs - single stream -->
+        <path d="M 300 0 Q 300 30 295 50" stroke="rgba(180,160,120,0.6)" stroke-width="4" fill="none"/>
+
+        <!-- Bodhidharma to China - stream continues -->
+        <path d="M 295 50 Q 290 80 285 100" stroke="rgba(180,160,120,0.6)" stroke-width="4" fill="none"/>
+
+        <!-- Early Chan - thickening -->
+        <path d="M 285 100 Q 280 120 275 140" stroke="rgba(126,184,218,0.5)" stroke-width="5" fill="none"/>
+
+        <!-- Split: Northern/Southern -->
+        <path d="M 275 140 Q 250 160 200 180" stroke="rgba(126,184,218,0.3)" stroke-width="3" fill="none" stroke-dasharray="4,4"/>
+        <path d="M 275 140 Q 290 160 310 180" stroke="rgba(126,184,218,0.6)" stroke-width="5" fill="none"/>
+
+        <!-- Mazu line → Linji/Rinzai -->
+        <path d="M 310 180 Q 340 200 380 220 Q 420 240 450 260 Q 470 280 480 300" stroke="rgba(218,126,154,0.6)" stroke-width="4" fill="none"/>
+
+        <!-- Shitou line → Caodong/Soto -->
+        <path d="M 310 180 Q 280 200 240 220 Q 200 240 170 260 Q 150 280 140 300" stroke="rgba(167,218,126,0.6)" stroke-width="4" fill="none"/>
+
+        <!-- Sanbo branch (from both) -->
+        <path d="M 450 260 Q 400 270 350 280 Q 320 290 310 300" stroke="rgba(184,167,218,0.5)" stroke-width="3" fill="none"/>
+        <path d="M 170 260 Q 220 270 280 280 Q 300 290 310 300" stroke="rgba(184,167,218,0.5)" stroke-width="3" fill="none" stroke-dasharray="2,3"/>
+
+        <!-- Master nodes -->
+        <circle cx="300" cy="10" r="4" fill="rgba(180,160,120,0.8)"/>
+        <text x="310" y="14" font-size="8" fill="rgba(255,255,255,0.6)">Bodhidharma</text>
+
+        <circle cx="275" cy="140" r="5" fill="rgba(126,184,218,0.8)"/>
+        <text x="285" y="144" font-size="8" fill="rgba(255,255,255,0.6)">Huineng</text>
+
+        <circle cx="380" cy="220" r="4" fill="rgba(218,126,154,0.8)"/>
+        <text x="390" y="224" font-size="8" fill="rgba(255,255,255,0.6)">Linji</text>
+
+        <circle cx="240" cy="220" r="4" fill="rgba(167,218,126,0.8)"/>
+        <text x="195" y="224" font-size="8" fill="rgba(255,255,255,0.6)">Dongshan</text>
+
+        <circle cx="310" cy="300" r="4" fill="rgba(184,167,218,0.8)"/>
+        <text x="320" y="298" font-size="8" fill="rgba(255,255,255,0.6)">Yasutani</text>
+      </svg>
+    </div>
+  </div>
+</div>
+
+<div class="section" style="margin-top: 1.5rem;">
+  <h3>Interaction Model</h3>
+  <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.2rem;">
+
+    <div style="padding: 1.2rem; background: rgba(255,255,255,0.04); border-radius: 10px; border: 1px solid rgba(255,255,255,0.08);">
+      <h4 style="margin-top:0; color: #7eb8da;">🔍 Zoom & Pan</h4>
+      <p style="font-size: 0.9rem;">Infinite canvas — zoom into any era or region. At high zoom, individual masters appear as glowing nodes on the flow. At low zoom, you see the full sweep of Zen history as branching rivers of light.</p>
+    </div>
+
+    <div style="padding: 1.2rem; background: rgba(255,255,255,0.04); border-radius: 10px; border: 1px solid rgba(255,255,255,0.08);">
+      <h4 style="margin-top:0; color: #a7da7e;">⏱️ Time Scrubber</h4>
+      <p style="font-size: 0.9rem;">A timeline bar at the bottom. Drag to travel through centuries. Lineages animate into existence — streams appear, branch, thicken, and sometimes fade. Historical events appear as annotations.</p>
+    </div>
+
+    <div style="padding: 1.2rem; background: rgba(255,255,255,0.04); border-radius: 10px; border: 1px solid rgba(255,255,255,0.08);">
+      <h4 style="margin-top:0; color: #daa77e;">👆 Node Interaction</h4>
+      <p style="font-size: 0.9rem;"><strong>Hover:</strong> Glow effect, name tooltip with dates.<br><strong>Click:</strong> Sidebar panel slides in with summary.<br><strong>Double-click:</strong> Navigate to full profile page.<br><strong>Right-click:</strong> "Focus lineage" — highlights just this master's upstream/downstream.</p>
+    </div>
+
+    <div style="padding: 1.2rem; background: rgba(255,255,255,0.04); border-radius: 10px; border: 1px solid rgba(255,255,255,0.08);">
+      <h4 style="margin-top:0; color: #da7e9a;">🎨 Visual Language</h4>
+      <p style="font-size: 0.9rem;">Each school has a distinct color: <span style="color:#da7e9a">Rinzai/Linji</span>, <span style="color:#a7da7e">Soto/Caodong</span>, <span style="color:#b8a7da">Sanbo</span>, <span style="color:#7eb8da">Early Chan</span>, <span style="color:#b4a078">Indian Patriarchs</span>. Stream width = number of active practitioners/temples in that era.</p>
+    </div>
+  </div>
+</div>
+
+<div class="section" style="margin-top: 1.5rem;">
+  <h3>Technology: Canvas Rendering</h3>
+  <div style="padding: 1.2rem; background: rgba(255,255,255,0.03); border-radius: 10px; border: 1px solid rgba(255,255,255,0.06);">
+    <p style="font-size: 0.9rem; margin-top: 0;">For smooth animation of hundreds of nodes and flowing paths, I recommend <strong>HTML Canvas + WebGL</strong> via a library like:</p>
+    <ul style="font-size: 0.9rem; line-height: 1.8;">
+      <li><strong>PixiJS</strong> — 2D WebGL renderer, excellent for smooth animations, particle effects for the "flowing" feel</li>
+      <li><strong>React Flow</strong> — purpose-built for node graphs, but may feel too "techy" for this organic aesthetic</li>
+      <li><strong>D3.js + Canvas</strong> — maximum control, proven for data visualization, but more manual work</li>
+      <li><strong>Three.js (2D mode)</strong> — if we later want 3D depth or parallax effects</li>
+    </ul>
+    <p style="font-size: 0.85rem; color: rgba(255,255,255,0.5);">Recommendation: <strong>D3.js for data/layout + PixiJS for rendering</strong> — best balance of data-handling power and visual quality</p>
+  </div>
+</div>

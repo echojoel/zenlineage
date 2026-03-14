@@ -1,0 +1,94 @@
+<h2>Project Architecture: 3 Approaches</h2>
+<p class="subtitle">How to structure this pan-Zen encyclopedia — each approach implies different trade-offs for data, UI, and scale</p>
+
+<div class="options">
+  <div class="option" data-choice="a" onclick="toggleSelect(this)">
+    <div class="letter">A</div>
+    <div class="content">
+      <h3>Monolith: Single Next.js App (Recommended)</h3>
+      <p>One Next.js application with everything: data pipeline scripts, API routes, lineage visualizer, encyclopedia pages, i18n — all in one repo.</p>
+      <div class="pros-cons">
+        <div class="pros">
+          <h4>Pros</h4>
+          <ul>
+            <li>Simplest to start — no infra overhead</li>
+            <li>Shared types and data models everywhere</li>
+            <li>Easy to deploy (Vercel, one command)</li>
+            <li>You can refactor into services later if needed</li>
+          </ul>
+        </div>
+        <div class="cons">
+          <h4>Cons</h4>
+          <ul>
+            <li>Data pipeline mixed with frontend code</li>
+            <li>Could get unwieldy at full scale</li>
+            <li>Build times grow with content volume</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="option" data-choice="b" onclick="toggleSelect(this)">
+    <div class="letter">B</div>
+    <div class="content">
+      <h3>Dual Repo: Data Engine + Web App</h3>
+      <p>Separate the <strong>knowledge base</strong> (data pipeline, research scripts, structured JSON/DB) from the <strong>web experience</strong> (Next.js app consuming the data via API).</p>
+      <div class="pros-cons">
+        <div class="pros">
+          <h4>Pros</h4>
+          <ul>
+            <li>Clean separation of concerns</li>
+            <li>Data pipeline can run independently</li>
+            <li>Multiple frontends possible (web, mobile, API)</li>
+            <li>Research phase naturally lives in data repo</li>
+          </ul>
+        </div>
+        <div class="cons">
+          <h4>Cons</h4>
+          <ul>
+            <li>More infrastructure to manage</li>
+            <li>Need to define API contracts early</li>
+            <li>Cross-repo type sharing adds friction</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="option" data-choice="c" onclick="toggleSelect(this)">
+    <div class="letter">C</div>
+    <div class="content">
+      <h3>Monorepo: Shared Workspace</h3>
+      <p>One repo with multiple packages: <code>packages/data</code>, <code>packages/visualizer</code>, <code>packages/web</code>, <code>packages/i18n</code> — managed with Turborepo or pnpm workspaces.</p>
+      <div class="pros-cons">
+        <div class="pros">
+          <h4>Pros</h4>
+          <ul>
+            <li>Best of both worlds — separation + shared types</li>
+            <li>Each package can be developed/tested independently</li>
+            <li>Single repo, single CI/CD pipeline</li>
+            <li>Visualizer can be extracted as a library</li>
+          </ul>
+        </div>
+        <div class="cons">
+          <h4>Cons</h4>
+          <ul>
+            <li>Monorepo tooling has a learning curve</li>
+            <li>More complex initial setup</li>
+            <li>Can feel over-engineered early on</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="section" style="margin-top: 2rem; padding: 1.5rem; background: rgba(255,255,255,0.03); border-radius: 12px; border: 1px solid rgba(255,255,255,0.08);">
+  <h3 style="margin-top:0;">My Recommendation: Option A (Monolith) to start</h3>
+  <p>Given your "research phase first" approach, starting with a single Next.js app keeps things simple. The data pipeline lives as scripts in the same repo. When the project grows, you can extract packages naturally. Premature separation adds friction without benefit at this stage.</p>
+  <p><strong>Phase 1:</strong> Data model + research scripts + seed data<br>
+  <strong>Phase 2:</strong> Lineage visualizer prototype (animated flow)<br>
+  <strong>Phase 3:</strong> Full encyclopedia pages + i18n<br>
+  <strong>Phase 4:</strong> Timeline experience + polish</p>
+</div>
