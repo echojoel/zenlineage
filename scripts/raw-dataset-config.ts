@@ -2,8 +2,11 @@ import type { RawMaster } from "./scraper-types";
 
 export type RawDatasetKind = "external_extract" | "curated_extract" | "editorial_overlay";
 
+export type RawDatasetEntityKind = "master" | "teaching";
+
 export interface RawDatasetConfig {
   kind: RawDatasetKind;
+  entityKind?: RawDatasetEntityKind;
   expectedSourceId?: string;
   normalizedSourceId?: string;
   notes?: string;
@@ -31,6 +34,24 @@ const DEFAULT_DATASET_CONFIG: RawDatasetConfig = {
 
 export function getRawDatasetConfig(filename: string): RawDatasetConfig {
   return RAW_DATASET_CONFIG[filename] ?? DEFAULT_DATASET_CONFIG;
+}
+
+const RAW_TEACHINGS_DATASET_CONFIG: Record<string, RawDatasetConfig> = {
+  "teachings-tier1.json": {
+    kind: "editorial_overlay",
+    entityKind: "teaching",
+    expectedSourceId: "src_wikisource",
+    notes: "Manually vetted Tier 1 teaching corpus",
+  },
+};
+
+const DEFAULT_TEACHINGS_DATASET_CONFIG: RawDatasetConfig = {
+  kind: "external_extract",
+  entityKind: "teaching",
+};
+
+export function getRawTeachingDatasetConfig(filename: string): RawDatasetConfig {
+  return RAW_TEACHINGS_DATASET_CONFIG[filename] ?? DEFAULT_TEACHINGS_DATASET_CONFIG;
 }
 
 export function normalizeRawDatasetRows(filename: string, rows: RawMaster[]): RawMaster[] {

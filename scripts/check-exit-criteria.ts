@@ -21,9 +21,8 @@ import {
   teachings,
 } from "@/db/schema";
 import { getTier1Entry, getTier1Slugs } from "@/lib/editorial-tiers";
-import { getRawDatasetConfig } from "./raw-dataset-config";
+import { getRawDatasetConfig, getRawTeachingDatasetConfig } from "./raw-dataset-config";
 import { assessCoverageAudit } from "./coverage-audit-status";
-import type { RawMaster } from "./scraper-types";
 
 const RAW_DIR = path.join(process.cwd(), "scripts/data/raw");
 const PREVIEW_LIMIT = 10;
@@ -58,25 +57,34 @@ function printMetric(label: string, value: string | number): void {
   console.log(`${label.padEnd(34)} ${value}`);
 }
 
-function auditRawDatasets(input: {
-  ingestionRunSourceIds: Map<string, string>;
-  snapshotRunIds: Set<string>;
-}): RawDatasetAudit[] {
-  if (!fs.existsSync(RAW_DIR)) {
+const RAW_TEACHINGS_DIR = path.join(process.cwd(), "scripts/data/raw-teachings");
+
+function auditDir(
+  dir: string,
+  getConfig: (filename: string) => ReturnType<typeof getRawDatasetConfig>,
+  input: {
+    ingestionRunSourceIds: Map<string, string>;
+    snapshotRunIds: Set<string>;
+  }
+): RawDatasetAudit[] {
+  if (!fs.existsSync(dir)) {
     return [];
   }
 
   const filenames = fs
-    .readdirSync(RAW_DIR)
+    .readdirSync(dir)
     .filter((filename) => filename.endsWith(".json"))
     .sort();
 
   return filenames.map((filename) => {
-    const filepath = path.join(RAW_DIR, filename);
-    const config = getRawDatasetConfig(filename);
+    const filepath = path.join(dir, filename);
+    const config = getConfig(filename);
 
     try {
-      const rows = JSON.parse(fs.readFileSync(filepath, "utf-8")) as RawMaster[];
+      const rows = JSON.parse(fs.readFileSync(filepath, "utf-8")) as {
+        source_id: string;
+        ingestion_run_id: string;
+      }[];
       const actualSourceIds = Array.from(
         new Set(rows.map((row) => row.source_id).filter(Boolean))
       ).sort();
@@ -155,6 +163,15 @@ function auditRawDatasets(input: {
       };
     }
   });
+}
+
+function auditRawDatasets(input: {
+  ingestionRunSourceIds: Map<string, string>;
+  snapshotRunIds: Set<string>;
+}): RawDatasetAudit[] {
+  const masterAudits = auditDir(RAW_DIR, getRawDatasetConfig, input);
+  const teachingAudits = auditDir(RAW_TEACHINGS_DIR, getRawTeachingDatasetConfig, input);
+  return [...masterAudits, ...teachingAudits];
 }
 
 async function main() {
