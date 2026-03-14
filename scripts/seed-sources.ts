@@ -85,6 +85,42 @@ const SOURCES = [
     reliability: "authoritative",
   },
   BIOGRAPHY_EDITORIAL_SOURCE,
+  {
+    id: "src_mumonkan_senzaki_1934",
+    type: "text_edition",
+    title: "Mumonkan (Gateless Barrier) — Senzaki & Reps translation, 1934",
+    author: "Nyogen Senzaki, Paul Reps (trans.)",
+    url: null,
+    publicationDate: "1934",
+    reliability: "scholarly",
+  },
+  {
+    id: "src_blue_cliff_record_shaw_1961",
+    type: "text_edition",
+    title: "The Blue Cliff Record — R.D.M. Shaw translation, 1961",
+    author: "R.D.M. Shaw (trans.)",
+    url: null,
+    publicationDate: "1961",
+    reliability: "scholarly",
+  },
+  {
+    id: "src_platform_sutra_yampolsky_1967",
+    type: "text_edition",
+    title: "The Platform Sutra of the Sixth Patriarch — Philip Yampolsky translation, 1967",
+    author: "Philip Yampolsky (trans.)",
+    url: null,
+    publicationDate: "1967",
+    reliability: "scholarly",
+  },
+  {
+    id: "src_wikisource",
+    type: "website",
+    title: "Wikisource — English-language free library",
+    author: null,
+    url: "https://en.wikisource.org",
+    publicationDate: null,
+    reliability: "secondary",
+  },
 ] as const;
 
 export default async function main() {
