@@ -1,0 +1,224 @@
+[
+  {
+    "slug": "mumonkan-case-01",
+    "type": "koan",
+    "author_slug": "zhaozhou-congshen",
+    "collection": "Mumonkan",
+    "case_number": "1",
+    "compiler": "Wumen Huikai",
+    "era": "Tang",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "Joshu's Dog",
+    "content": "A monk asked Joshu, \"Has a dog the Buddha Nature?\" Joshu answered, \"Mu.\"",
+    "source_id": "src_mumonkan_senzaki_1934",
+    "ingestion_run_id": "run_teachings_tier1_20260314",
+    "locator": "Case 1",
+    "master_roles": [
+      { "slug": "zhaozhou-congshen", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "mumonkan-case-02",
+    "type": "koan",
+    "author_slug": "baizhang-huaihai",
+    "collection": "Mumonkan",
+    "case_number": "2",
+    "compiler": "Wumen Huikai",
+    "era": "Tang",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "Hyakujo's Fox",
+    "content": "When Hyakujo delivered a certain series of sermons, an old man attended them, unseen by the monks. At the end of each talk, when the monks left, so did he. But one day he remained after they had gone, and Hyakujo asked him, \"Who are you?\" The old man replied, \"I am not a human being, but I was a human being when the Kashyapa Buddha preached in this world. I was a Zen master and lived on this mountain. At that time one of my students asked me whether or not the enlightened man is subject to the law of causation. I answered him: 'The enlightened man is not subject to the law of causation.' For this answer, evidently a mistake, I was doomed to become a fox for five hundred rebirths, and I am still a fox. Will you save me by giving the right answer?\" Hyakujo said, \"The enlightened man is not ignorant of causation.\" At the words of Hyakujo the old man was enlightened.",
+    "source_id": "src_mumonkan_senzaki_1934",
+    "ingestion_run_id": "run_teachings_tier1_20260314",
+    "locator": "Case 2",
+    "master_roles": [
+      { "slug": "baizhang-huaihai", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "mumonkan-case-03",
+    "type": "koan",
+    "author_slug": "jinhua-juzhi",
+    "collection": "Mumonkan",
+    "case_number": "3",
+    "compiler": "Wumen Huikai",
+    "era": "Tang",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "Gutei's Finger",
+    "content": "Gutei raised his finger whenever he was asked a question about Zen. A boy attendant began to imitate him in this way. When anyone asked the boy what his master had preached about, the boy would raise his finger. Gutei heard about the boy's mischief. He seized him and cut off his finger. The boy cried and ran away. Gutei called and stopped him. When the boy turned his head to Gutei, Gutei raised up his own finger. In that instant the boy was enlightened.",
+    "source_id": "src_mumonkan_senzaki_1934",
+    "ingestion_run_id": "run_teachings_tier1_20260314",
+    "locator": "Case 3",
+    "master_roles": [
+      { "slug": "jinhua-juzhi", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "mumonkan-case-07",
+    "type": "koan",
+    "author_slug": "zhaozhou-congshen",
+    "collection": "Mumonkan",
+    "case_number": "7",
+    "compiler": "Wumen Huikai",
+    "era": "Tang",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "Joshu Washes the Bowl",
+    "content": "A monk told Joshu, \"I have just entered this monastery. Please teach me.\" Joshu asked, \"Have you eaten your rice porridge?\" The monk replied, \"I have eaten.\" Joshu said, \"Then you had better wash your bowl.\" At that moment the monk was enlightened.",
+    "source_id": "src_mumonkan_senzaki_1934",
+    "ingestion_run_id": "run_teachings_tier1_20260314",
+    "locator": "Case 7",
+    "master_roles": [
+      { "slug": "zhaozhou-congshen", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "mumonkan-case-14",
+    "type": "koan",
+    "author_slug": "nanquan-puyuan",
+    "collection": "Mumonkan",
+    "case_number": "14",
+    "compiler": "Wumen Huikai",
+    "era": "Tang",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "Nansen Cuts the Cat in Two",
+    "content": "Nansen saw the monks of the eastern and western halls fighting over a cat. He seized the cat and told the monks, \"If any of you say a good word, you can save the cat.\" No one answered. So Nansen boldly cut the cat in two pieces. That evening Joshu returned and Nansen told him about this. Joshu removed his sandals and, placing them on his head, walked out. Nansen said, \"If you had been there, you could have saved the cat.\"",
+    "source_id": "src_mumonkan_senzaki_1934",
+    "ingestion_run_id": "run_teachings_tier1_20260314",
+    "locator": "Case 14",
+    "master_roles": [
+      { "slug": "nanquan-puyuan", "role": "speaker" },
+      { "slug": "zhaozhou-congshen", "role": "respondent" }
+    ]
+  },
+  {
+    "slug": "mumonkan-case-19",
+    "type": "koan",
+    "author_slug": "nanquan-puyuan",
+    "collection": "Mumonkan",
+    "case_number": "19",
+    "compiler": "Wumen Huikai",
+    "era": "Tang",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "Ordinary Mind Is the Way",
+    "content": "Joshu asked Nansen, \"What is the Way?\" Nansen said, \"Ordinary mind is the Way.\" Joshu asked, \"Shall I try to seek after it?\" Nansen said, \"If you try for it, you will become separated from it.\" Joshu asked, \"How can I know the Way unless I try for it?\" Nansen said, \"The Way is not a matter of knowing or not knowing. Knowing is delusion; not knowing is confusion. When you have really reached the true Way beyond doubt, you will find it as vast and boundless as outer space. How can it be talked about on the level of right and wrong?\" With these words, Joshu came to a sudden realization.",
+    "source_id": "src_mumonkan_senzaki_1934",
+    "ingestion_run_id": "run_teachings_tier1_20260314",
+    "locator": "Case 19",
+    "master_roles": [
+      { "slug": "nanquan-puyuan", "role": "speaker" },
+      { "slug": "zhaozhou-congshen", "role": "questioner" }
+    ]
+  },
+  {
+    "slug": "mumonkan-case-37",
+    "type": "koan",
+    "author_slug": "zhaozhou-congshen",
+    "collection": "Mumonkan",
+    "case_number": "37",
+    "compiler": "Wumen Huikai",
+    "era": "Tang",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "Joshu's Oak Tree",
+    "content": "A monk asked Joshu, \"What is the meaning of Bodhidharma's coming to China?\" Joshu said, \"The oak tree in the garden.\"",
+    "source_id": "src_mumonkan_senzaki_1934",
+    "ingestion_run_id": "run_teachings_tier1_20260314",
+    "locator": "Case 37",
+    "master_roles": [
+      { "slug": "zhaozhou-congshen", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "mumonkan-case-48",
+    "type": "koan",
+    "author_slug": "yuezhou-qianfeng",
+    "collection": "Mumonkan",
+    "case_number": "48",
+    "compiler": "Wumen Huikai",
+    "era": "Tang",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "One Road of Kempu",
+    "content": "A monk asked Kempu, \"Bhagavats in the ten directions. One straight road to Nirvana. I still wonder where the road can be.\" Kempu lifted his staff, drew a line, and said, \"Here it is.\"",
+    "source_id": "src_mumonkan_senzaki_1934",
+    "ingestion_run_id": "run_teachings_tier1_20260314",
+    "locator": "Case 48",
+    "master_roles": [
+      { "slug": "yuezhou-qianfeng", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "bodhidharma-vast-emptiness",
+    "type": "dialogue",
+    "author_slug": "puti-damo",
+    "collection": "Traditional Zen Encounter Dialogues",
+    "era": "Liang",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "Vast Emptiness, Nothing Holy",
+    "content": "Emperor Wu of Liang asked Bodhidharma, \"What is the highest meaning of the holy truths?\" Bodhidharma said, \"Vast emptiness, nothing holy.\" The Emperor asked, \"Who is facing me?\" Bodhidharma replied, \"I don't know.\"",
+    "source_id": "src_mumonkan_senzaki_1934",
+    "ingestion_run_id": "run_teachings_tier1_20260314",
+    "locator": "Case 1 commentary reference",
+    "master_roles": [
+      { "slug": "puti-damo", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "huineng-not-a-thing",
+    "type": "saying",
+    "author_slug": "dajian-huineng",
+    "collection": "Platform Sutra",
+    "era": "Tang",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "From the First, Not a Thing Is",
+    "content": "The body is the Bodhi tree, the mind is like a clear mirror. At all times we must strive to polish it, and must not let the dust collect. Huineng responded: Originally there is no tree of enlightenment, nor is there a stand with a clear mirror. From the first, not a thing is \u2014 where can the dust alight?",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_teachings_tier1_20260314",
+    "locator": "Platform Sutra, Section 8",
+    "master_roles": [
+      { "slug": "dajian-huineng", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "mazu-this-mind-buddha",
+    "type": "saying",
+    "author_slug": "mazu-daoyi",
+    "collection": "Traditional Zen Sayings",
+    "era": "Tang",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "This Very Mind Is Buddha",
+    "content": "A monk asked Mazu, \"What is Buddha?\" Mazu said, \"This very mind is Buddha.\"",
+    "source_id": "src_mumonkan_senzaki_1934",
+    "ingestion_run_id": "run_teachings_tier1_20260314",
+    "locator": "Case 30",
+    "master_roles": [
+      { "slug": "mazu-daoyi", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "linji-kill-buddha",
+    "type": "saying",
+    "author_slug": "linji-yixuan",
+    "collection": "Record of Linji",
+    "era": "Tang",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "If You Meet the Buddha, Kill the Buddha",
+    "content": "If you meet the Buddha, kill the Buddha. If you meet a patriarch, kill the patriarch. If you meet an arhat, kill the arhat. If you meet your parents, kill your parents. If you meet your kinfolk, kill your kinfolk. Then for the first time you will gain emancipation, will not be entangled with things, will pass freely anywhere you wish to go.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_teachings_tier1_20260314",
+    "locator": "Linji Lu, Discourse 18",
+    "master_roles": [
+      { "slug": "linji-yixuan", "role": "speaker" }
+    ]
+  }
+]
