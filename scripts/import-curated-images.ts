@@ -1,0 +1,139 @@
+/**
+ * Import curated images from the zazen mobile project.
+ * These replace auto-fetched images with hand-picked, higher quality ones.
+ *
+ * Usage: npx tsx scripts/import-curated-images.ts
+ */
+import sharp from "sharp";
+import fs from "fs";
+import path from "path";
+import { db } from "@/db";
+import { masters, schools, mediaAssets, citations } from "@/db/schema";
+import { eq, and } from "drizzle-orm";
+import crypto from "crypto";
+
+const MASTERS_DIR = path.join(process.cwd(), "public", "masters");
+const SCHOOLS_DIR = path.join(process.cwd(), "public", "schools");
+const ZAZEN_DIR = "/Users/basket/workspace/zazen/mobile/assets/images";
+
+interface CuratedImage {
+  source: string;
+  slug: string;
+  entityType: "master" | "school";
+  attribution: string;
+  altText: string;
+}
+
+const IMAGES: CuratedImage[] = [
+  {
+    source: path.join(ZAZEN_DIR, "shakyamuni-buddha.jpg"),
+    slug: "shakyamuni-buddha",
+    entityType: "master",
+    attribution: "Wikimedia Commons: Stone Buddha statue",
+    altText: "Stone statue of Shakyamuni Buddha in meditation",
+  },
+  {
+    source: path.join(ZAZEN_DIR, "mahakashyapa.jpg"),
+    slug: "mahakashyapa",
+    entityType: "master",
+    attribution: "Wikimedia Commons: Kizil Caves mural of Mahakashyapa, carbon dated 422-529 CE",
+    altText: "Kizil Caves mural depicting Mahakashyapa, 5th century CE",
+  },
+  {
+    source: path.join(ZAZEN_DIR, "bodhidharma.jpg"),
+    slug: "puti-damo",
+    entityType: "master",
+    attribution: "Wikimedia Commons: Bodhidharma by Yoshitoshi, 1887",
+    altText: "Woodblock print of Bodhidharma in red robe by Yoshitoshi",
+  },
+  {
+    source: path.join(ZAZEN_DIR, "huineng.jpg"),
+    slug: "dajian-huineng",
+    entityType: "master",
+    attribution: "Wikimedia Commons: Statue of the Sixth Patriarch Huineng",
+    altText: "Lacquered statue of the Sixth Patriarch Huineng",
+  },
+  {
+    source: path.join(ZAZEN_DIR, "keizan-jokin.jpg"),
+    slug: "keizan-jokin",
+    entityType: "master",
+    attribution: "Wikimedia Commons: Portrait scroll of Keizan Jōkin",
+    altText: "Traditional portrait of Keizan Jōkin, co-founder of Japanese Soto Zen",
+  },
+];
+
+async function main() {
+  for (const img of IMAGES) {
+    if (!fs.existsSync(img.source)) {
+      console.log(`skip: ${img.slug} — source file not found: ${img.source}`);
+      continue;
+    }
+
+    // Resolve entity ID
+    let entityId: string;
+    if (img.entityType === "master") {
+      const row = (await db.select().from(masters).where(eq(masters.slug, img.slug)))[0];
+      if (!row) { console.log(`skip: ${img.slug} — not in DB`); continue; }
+      entityId = row.id;
+    } else {
+      const row = (await db.select().from(schools).where(eq(schools.slug, img.slug)))[0];
+      if (!row) { console.log(`skip: ${img.slug} — not in DB`); continue; }
+      entityId = row.id;
+    }
+
+    // Delete existing image + citation
+    const existing = await db
+      .select()
+      .from(mediaAssets)
+      .where(and(eq(mediaAssets.entityId, entityId), eq(mediaAssets.entityType, img.entityType)));
+
+    for (const ma of existing) {
+      await db.delete(citations).where(
+        and(eq(citations.entityType, "media_asset"), eq(citations.entityId, ma.id))
+      );
+      await db.delete(mediaAssets).where(eq(mediaAssets.id, ma.id));
+    }
+
+    // Delete old file
+    const dir = img.entityType === "master" ? MASTERS_DIR : SCHOOLS_DIR;
+    const oldPath = path.join(dir, `${img.slug}.webp`);
+    if (fs.existsSync(oldPath)) fs.unlinkSync(oldPath);
+
+    // Convert and save
+    const outputPath = path.join(dir, `${img.slug}.webp`);
+    const info = await sharp(img.source)
+      .resize({ width: 800, withoutEnlargement: true })
+      .webp({ quality: 85 })
+      .toFile(outputPath);
+
+    const mediaId = crypto.randomUUID();
+    await db.insert(mediaAssets).values({
+      id: mediaId,
+      entityType: img.entityType,
+      entityId,
+      type: "image",
+      storagePath: `/${img.entityType === "master" ? "masters" : "schools"}/${img.slug}.webp`,
+      sourceUrl: null,
+      license: "Public Domain / CC (Wikimedia)",
+      attribution: img.attribution,
+      altText: img.altText,
+      width: info.width,
+      height: info.height,
+      createdAt: new Date().toISOString(),
+    });
+
+    await db.insert(citations).values({
+      id: crypto.randomUUID(),
+      entityType: "media_asset",
+      entityId: mediaId,
+      sourceId: "src_wikipedia",
+      fieldName: "storage_path",
+      excerpt: `Curated image: ${img.attribution}`,
+      pageOrSection: "Wikimedia Commons (curated)",
+    });
+
+    console.log(`✓ ${img.slug} — ${info.width}x${info.height} — ${img.altText}`);
+  }
+}
+
+main().catch(console.error);
