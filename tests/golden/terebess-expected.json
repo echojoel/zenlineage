@@ -1,0 +1,76 @@
+[
+  {
+    "name": "Dongshan Liangjie",
+    "names_cjk": "洞山良价",
+    "dates": "807-869",
+    "teachers": [],
+    "school": "Caodong/Soto",
+    "source_id": "src_terebess",
+    "ingestion_run_id": "test-run-id"
+  },
+  {
+    "name": "Caoshan Benji",
+    "names_cjk": "曹山本寂",
+    "dates": "840-901",
+    "teachers": [
+      {
+        "name": "Dongshan Liangjie",
+        "edge_type": "primary"
+      }
+    ],
+    "school": "Caodong/Soto",
+    "source_id": "src_terebess",
+    "ingestion_run_id": "test-run-id"
+  },
+  {
+    "name": "Yunju Daoying",
+    "names_cjk": "雲居道膺",
+    "dates": "d. 902",
+    "teachers": [
+      {
+        "name": "Dongshan Liangjie",
+        "edge_type": "primary"
+      }
+    ],
+    "school": "Caodong/Soto",
+    "source_id": "src_terebess",
+    "ingestion_run_id": "test-run-id"
+  },
+  {
+    "name": "Linji Yixuan",
+    "names_cjk": "臨濟義玄",
+    "dates": "d. 866",
+    "teachers": [],
+    "school": "Linji/Rinzai",
+    "source_id": "src_terebess",
+    "ingestion_run_id": "test-run-id"
+  },
+  {
+    "name": "Xinghua Cunjiang",
+    "names_cjk": "興化存獎",
+    "dates": "830-888",
+    "teachers": [
+      {
+        "name": "Linji Yixuan",
+        "edge_type": "primary"
+      }
+    ],
+    "school": "Linji/Rinzai",
+    "source_id": "src_terebess",
+    "ingestion_run_id": "test-run-id"
+  },
+  {
+    "name": "Nanyin Shourou",
+    "names_cjk": "南院守柔",
+    "dates": "d. 952",
+    "teachers": [
+      {
+        "name": "Xinghua Cunjiang",
+        "edge_type": "primary"
+      }
+    ],
+    "school": "Linji/Rinzai",
+    "source_id": "src_terebess",
+    "ingestion_run_id": "test-run-id"
+  }
+]

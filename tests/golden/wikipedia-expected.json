@@ -1,0 +1,100 @@
+[
+  {
+    "name": "Bodhidharma",
+    "names_cjk": "菩提達摩",
+    "dates": "d. 536?",
+    "teachers": [
+      {
+        "name": "Prajñātāra",
+        "edge_type": "primary"
+      }
+    ],
+    "school": "Chan",
+    "source_id": "src_wikipedia",
+    "ingestion_run_id": "test-run-id"
+  },
+  {
+    "name": "Dazu Huike",
+    "names_cjk": "大祖慧可",
+    "dates": "487–593",
+    "teachers": [
+      {
+        "name": "Bodhidharma",
+        "edge_type": "primary"
+      }
+    ],
+    "school": "Chan",
+    "source_id": "src_wikipedia",
+    "ingestion_run_id": "test-run-id"
+  },
+  {
+    "name": "Jianzhi Sengcan",
+    "names_cjk": "鑑智僧璨",
+    "dates": "d. 606",
+    "teachers": [
+      {
+        "name": "Dazu Huike",
+        "edge_type": "primary"
+      }
+    ],
+    "school": "Chan",
+    "source_id": "src_wikipedia",
+    "ingestion_run_id": "test-run-id"
+  },
+  {
+    "name": "Dayi Daoxin",
+    "names_cjk": "大醫道信",
+    "dates": "580–651",
+    "teachers": [
+      {
+        "name": "Jianzhi Sengcan",
+        "edge_type": "primary"
+      }
+    ],
+    "school": "Chan",
+    "source_id": "src_wikipedia",
+    "ingestion_run_id": "test-run-id"
+  },
+  {
+    "name": "Daman Hongren",
+    "names_cjk": "大滿弘忍",
+    "dates": "601–674",
+    "teachers": [
+      {
+        "name": "Dayi Daoxin",
+        "edge_type": "primary"
+      }
+    ],
+    "school": "Chan",
+    "source_id": "src_wikipedia",
+    "ingestion_run_id": "test-run-id"
+  },
+  {
+    "name": "Dongshan Liangjie",
+    "names_cjk": "洞山良价",
+    "dates": "807–869",
+    "teachers": [
+      {
+        "name": "Yunyan Tansheng",
+        "edge_type": "primary"
+      }
+    ],
+    "school": "Caodong",
+    "source_id": "src_wikipedia",
+    "ingestion_run_id": "test-run-id"
+  },
+  {
+    "name": "Caoshan Benji",
+    "names_cjk": "曹山本寂",
+    "dates": "840–901",
+    "teachers": [
+      {
+        "name": "Dongshan Liangjie",
+        "edge_type": "primary"
+      }
+    ],
+    "school": "Caodong",
+    "source_id": "src_wikipedia",
+    "ingestion_run_id": "test-run-id"
+  }
+]

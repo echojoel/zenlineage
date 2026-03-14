@@ -1,0 +1,67 @@
+[
+  {
+    "name": "Harada Daiun Sogaku",
+    "names_cjk": "原田大雲祖岳",
+    "dates": "1871-1961",
+    "teachers": [],
+    "school": "Sanbo-Zen",
+    "source_id": "src_mountain_moon",
+    "ingestion_run_id": "test-run-id"
+  },
+  {
+    "name": "Yasutani Hakuun",
+    "names_cjk": "安谷白雲",
+    "dates": "1885-1973",
+    "teachers": [
+      {
+        "name": "Harada Daiun Sogaku",
+        "edge_type": "primary"
+      }
+    ],
+    "school": "Sanbo-Zen",
+    "source_id": "src_mountain_moon",
+    "ingestion_run_id": "test-run-id"
+  },
+  {
+    "name": "Yamada Koun",
+    "names_cjk": "山田耕雲",
+    "dates": "1907-1989",
+    "teachers": [
+      {
+        "name": "Yasutani Hakuun",
+        "edge_type": "primary"
+      }
+    ],
+    "school": "Sanbo-Zen",
+    "source_id": "src_mountain_moon",
+    "ingestion_run_id": "test-run-id"
+  },
+  {
+    "name": "Robert Aitken",
+    "names_cjk": "",
+    "dates": "1917-2010",
+    "teachers": [
+      {
+        "name": "Yamada Koun",
+        "edge_type": "primary"
+      }
+    ],
+    "school": "Sanbo-Zen",
+    "source_id": "src_mountain_moon",
+    "ingestion_run_id": "test-run-id"
+  },
+  {
+    "name": "Ruben Habito",
+    "names_cjk": "",
+    "dates": "1947-",
+    "teachers": [
+      {
+        "name": "Yamada Koun",
+        "edge_type": "primary"
+      }
+    ],
+    "school": "Sanbo-Zen",
+    "source_id": "src_mountain_moon",
+    "ingestion_run_id": "test-run-id"
+  }
+]
