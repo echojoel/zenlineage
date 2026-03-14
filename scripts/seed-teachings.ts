@@ -1,7 +1,7 @@
 /**
  * Teaching Seeding Script
  *
- * Reads scripts/data/raw-teachings/teachings-tier1.json and upserts
+ * Reads all scripts/data/raw-teachings/teachings-*.json files and upserts
  * teachings, teaching_content, teaching_master_roles, and citations.
  * Idempotent — safe to re-run.
  *
@@ -19,27 +19,39 @@ import seedSources from "./seed-sources";
 import type { RawTeaching } from "./scraper-types";
 import { startIngestionRun, finishIngestionRun } from "./ingestion-provenance";
 
-const DATA_FILE = path.join(
+const RAW_TEACHINGS_DIR = path.join(
   import.meta.dirname ?? path.dirname(new URL(import.meta.url).pathname),
   "data",
-  "raw-teachings",
-  "teachings-tier1.json"
+  "raw-teachings"
 );
+
+function loadAllTeachings(): RawTeaching[] {
+  if (!fs.existsSync(RAW_TEACHINGS_DIR)) {
+    return [];
+  }
+  const files = fs.readdirSync(RAW_TEACHINGS_DIR)
+    .filter(f => f.startsWith("teachings-") && f.endsWith(".json"))
+    .sort();
+
+  const all: RawTeaching[] = [];
+  for (const file of files) {
+    const data: RawTeaching[] = JSON.parse(
+      fs.readFileSync(path.join(RAW_TEACHINGS_DIR, file), "utf-8")
+    );
+    console.log(`  Loading ${file}: ${data.length} rows`);
+    all.push(...data);
+  }
+  return all;
+}
 
 async function seedTeachings(): Promise<void> {
   // 1. Ensure sources are seeded first
   await seedSources();
 
-  // 2. Load data file; skip if missing
-  if (!fs.existsSync(DATA_FILE)) {
-    console.warn(`[seed-teachings] Warning: data file not found at ${DATA_FILE}. Skipping.`);
-    return;
-  }
-
-  const rawData: RawTeaching[] = JSON.parse(fs.readFileSync(DATA_FILE, "utf-8"));
-
+  // 2. Load all teaching files; skip if none found
+  const rawData = loadAllTeachings();
   if (rawData.length === 0) {
-    console.warn("[seed-teachings] Warning: teachings-tier1.json is empty. Skipping.");
+    console.warn("[seed-teachings] No teaching files found. Skipping.");
     return;
   }
 
@@ -58,14 +70,20 @@ async function seedTeachings(): Promise<void> {
 
   // 5. Process each teaching
   for (const row of rawData) {
-    // a. Resolve author_slug → masterId
-    const masterId = slugToMasterId.get(row.author_slug);
-    if (!masterId) {
-      console.warn(
-        `[seed-teachings] Warning: no master found for author_slug "${row.author_slug}" (teaching: ${row.slug}). Skipping.`
-      );
-      skippedCount++;
-      continue;
+    // a. Resolve author_slug → masterId (null for "unknown" authors)
+    let authorId: string | null = null;
+    if (row.author_slug === "unknown") {
+      authorId = null;
+    } else {
+      const resolved = slugToMasterId.get(row.author_slug);
+      if (!resolved) {
+        console.warn(
+          `[seed-teachings] Warning: no master found for author_slug "${row.author_slug}" (teaching: ${row.slug}). Skipping.`
+        );
+        skippedCount++;
+        continue;
+      }
+      authorId = resolved;
     }
 
     // b. Generate deterministic IDs
@@ -79,7 +97,7 @@ async function seedTeachings(): Promise<void> {
         id: teachingId,
         slug: row.slug,
         type: row.type,
-        authorId: masterId,
+        authorId,
         collection: row.collection,
         era: row.era ?? null,
         caseNumber: row.case_number ?? null,
@@ -91,7 +109,7 @@ async function seedTeachings(): Promise<void> {
         set: {
           slug: row.slug,
           type: row.type,
-          authorId: masterId,
+          authorId,
           collection: row.collection,
           era: row.era ?? null,
           caseNumber: row.case_number ?? null,
@@ -109,9 +127,9 @@ async function seedTeachings(): Promise<void> {
         locale: row.locale,
         title: row.title,
         content: row.content,
-        translator: null,
-        edition: null,
-        licenseStatus: "public_domain",
+        translator: row.translator ?? null,
+        edition: row.edition ?? null,
+        licenseStatus: row.license_status ?? "public_domain",
       })
       .onConflictDoUpdate({
         target: teachingContent.id,
@@ -120,9 +138,9 @@ async function seedTeachings(): Promise<void> {
           locale: row.locale,
           title: row.title,
           content: row.content,
-          translator: null,
-          edition: null,
-          licenseStatus: "public_domain",
+          translator: row.translator ?? null,
+          edition: row.edition ?? null,
+          licenseStatus: row.license_status ?? "public_domain",
         },
       });
 

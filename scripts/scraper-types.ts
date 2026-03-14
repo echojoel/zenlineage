@@ -46,4 +46,7 @@ export interface RawTeaching {
   ingestion_run_id: string;
   locator: string; // case number, chapter, or page for re-findability
   master_roles?: RawMasterRole[]; // supplemental participants beyond author
+  translator?: string;
+  edition?: string;
+  license_status?: string;
 }

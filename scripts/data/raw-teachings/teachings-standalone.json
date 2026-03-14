@@ -1,0 +1,96 @@
+[
+  {
+    "slug": "xinxinming-faith-in-mind",
+    "type": "verse",
+    "author_slug": "jianzhi-sengcan",
+    "collection": "Xinxinming",
+    "era": "Sui",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "Faith in Mind (Xinxinming)",
+    "content": "The Great Way is not difficult\nfor those who have no preferences.\nWhen love and hate are both absent\neverything becomes clear and undisguised.\nMake the smallest distinction, however,\nand heaven and earth are set infinitely apart.\nIf you wish to see the truth\nthen hold no opinions for or against anything.\nTo set up what you like against what you dislike\nis the disease of the mind.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Xinxinming, opening verses",
+    "translator": "Richard B. Clarke",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "jianzhi-sengcan", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "sandokai-harmony-of-difference",
+    "type": "verse",
+    "author_slug": "shitou-xiqian",
+    "collection": "Sandokai",
+    "era": "Tang",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "Sandokai (Harmony of Difference and Equality)",
+    "content": "The mind of the great sage of India\nis intimately transmitted from west to east.\nWhile human faculties are sharp or dull,\nthe Way has no northern or southern ancestors.\nThe spiritual source shines clear in the light;\nthe branching streams flow on in the dark.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Sandokai, opening verses",
+    "translator": "Thomas Cleary",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "shitou-xiqian", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "zazen-wasan-song-of-zazen",
+    "type": "verse",
+    "author_slug": "hakuin-ekaku",
+    "collection": "Zazen Wasan",
+    "era": "Edo",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "Song of Zazen (Zazen Wasan)",
+    "content": "All beings by nature are Buddha,\nas ice by nature is water.\nApart from water there is no ice;\napart from beings, no Buddha.\nHow sad that people ignore the near\nand search for truth afar:\nlike someone in the midst of water\ncrying out in thirst.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Zazen Wasan, opening verses",
+    "translator": "Norman Waddell",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "hakuin-ekaku", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "huike-mind-not-at-peace",
+    "type": "dialogue",
+    "author_slug": "dazu-huike",
+    "collection": "Traditional Zen Encounter Dialogues",
+    "era": "Liang",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "My Mind Is Not at Peace",
+    "content": "Huike said to Bodhidharma, \"My mind is not at peace. Please pacify my mind.\" Bodhidharma said, \"Bring me your mind and I will pacify it.\" Huike said, \"I have searched for my mind, and I cannot find it.\" Bodhidharma said, \"There, I have pacified your mind.\"",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Denkoroku, Case 33",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "dazu-huike", "role": "speaker" },
+      { "slug": "puti-damo", "role": "respondent" }
+    ]
+  },
+  {
+    "slug": "five-ranks-verse",
+    "type": "verse",
+    "author_slug": "dongshan-liangjie",
+    "collection": "Five Ranks",
+    "era": "Tang",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "Verses of the Five Ranks",
+    "content": "In the third watch of the night\nbefore the moon appears,\nno wonder when we meet\nthere is no recognition.\nStill cherished in my heart\nis the beauty of earlier days.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Five Ranks, verse 1",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "dongshan-liangjie", "role": "attributed_to" }
+    ]
+  }
+]

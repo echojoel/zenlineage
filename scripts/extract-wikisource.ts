@@ -39,14 +39,14 @@ const BLUE_CLIFF_SOURCE_ID = "src_blue_cliff_record_shaw_1961";
 export const MUMONKAN_MASTER_MAP: Record<number, { slug: string; name: string }> = {
   1: { slug: "zhaozhou-congshen", name: "Zhaozhou" },
   2: { slug: "baizhang-huaihai", name: "Baizhang" },
-  3: { slug: "juzhi", name: "Juzhi" },
-  4: { slug: "huineng", name: "Huineng" },
+  3: { slug: "jinhua-juzhi", name: "Juzhi" },
+  4: { slug: "dajian-huineng", name: "Huineng" },
   5: { slug: "xiangyan-zhixian", name: "Xiangyan" },
-  6: { slug: "shakyamuni", name: "Buddha" },
+  6: { slug: "shakyamuni-buddha", name: "Buddha" },
   7: { slug: "zhaozhou-congshen", name: "Zhaozhou" },
   8: { slug: "xitang-zhizang", name: "Xitang" },
   9: { slug: "xingyang-qingrang", name: "Xingyang" },
-  10: { slug: "qingshui", name: "Qingshui" },
+  10: { slug: "unknown", name: "Qingshui" },
   11: { slug: "zhaozhou-congshen", name: "Zhaozhou" },
   12: { slug: "ruiyan-shiyan", name: "Ruiyan" },
   13: { slug: "deshan-xuanjian", name: "Deshan" },
@@ -56,16 +56,16 @@ export const MUMONKAN_MASTER_MAP: Record<number, { slug: string; name: string }>
   17: { slug: "unknown", name: "National Teacher" },
   18: { slug: "dongshan-shouchu", name: "Dongshan" },
   19: { slug: "zhaozhou-congshen", name: "Zhaozhou" },
-  20: { slug: "shogen", name: "Shogen" },
+  20: { slug: "unknown", name: "Shogen" },
   21: { slug: "yunmen-wenyan", name: "Yunmen" },
   22: { slug: "mahakashyapa", name: "Kashyapa" },
-  23: { slug: "huineng", name: "Huineng" },
-  24: { slug: "fuketsu-ensho", name: "Fuketsu" },
+  23: { slug: "dajian-huineng", name: "Huineng" },
+  24: { slug: "fengxue-yanzhao", name: "Fuketsu" },
   25: { slug: "yangshan-huiji", name: "Yangshan" },
   26: { slug: "unknown", name: "Two Monks" },
   27: { slug: "nanquan-puyuan", name: "Nanquan" },
   28: { slug: "deshan-xuanjian", name: "Deshan" },
-  29: { slug: "huineng", name: "Huineng" },
+  29: { slug: "dajian-huineng", name: "Huineng" },
   30: { slug: "mazu-daoyi", name: "Mazu" },
   31: { slug: "zhaozhou-congshen", name: "Zhaozhou" },
   32: { slug: "unknown", name: "Outsider" },
@@ -77,14 +77,14 @@ export const MUMONKAN_MASTER_MAP: Record<number, { slug: string; name: string }>
   38: { slug: "wuzu-fayan", name: "Wuzu" },
   39: { slug: "yunmen-wenyan", name: "Yunmen" },
   40: { slug: "guishan-lingyou", name: "Guishan" },
-  41: { slug: "bodhidharma", name: "Bodhidharma" },
-  42: { slug: "shakyamuni", name: "Buddha" },
+  41: { slug: "puti-damo", name: "Bodhidharma" },
+  42: { slug: "shakyamuni-buddha", name: "Buddha" },
   43: { slug: "shoushan-xingnian", name: "Shoushan" },
   44: { slug: "bajiao-huiqing", name: "Bajiao" },
   45: { slug: "dongshan-shouchu", name: "Dongshan" },
   46: { slug: "xiangyan-zhixian", name: "Xiangyan" },
   47: { slug: "doushuai-congyue", name: "Doushuai" },
-  48: { slug: "qianfeng", name: "Qianfeng" },
+  48: { slug: "yuezhou-qianfeng", name: "Qianfeng" },
 };
 
 // ---------------------------------------------------------------------------
@@ -117,18 +117,106 @@ export async function fetchWikisourcePage(title: string): Promise<string> {
 }
 
 // ---------------------------------------------------------------------------
-// Mumonkan (The Gateless Gate) parser
+// Mumonkan (The Gateless Gate) — subpage-based parser
+// ---------------------------------------------------------------------------
+
+export interface MumonkanTOCEntry {
+  caseNum: number;
+  title: string;
+  subpage: string; // e.g. "The_Gateless_Gate/Joshu%27s_Dog"
+}
+
+/**
+ * Parse the Gateless Gate TOC page to extract links to individual case subpages.
+ * The Wikisource page uses an `<ol>` inside `<div class="ws-summary">` to list all
+ * 48 cases (plus "Amban's Addition" at position 49, which is excluded).
+ */
+export function parseMumonkanTOC(html: string): MumonkanTOCEntry[] {
+  const $ = cheerio.load(html);
+  const entries: MumonkanTOCEntry[] = [];
+
+  $("div.ws-summary ol li").each((i, el) => {
+    const caseNum = i + 1;
+    if (caseNum > 48) return; // Skip "Amban's Addition" and beyond
+    const link = $(el).find("a").first();
+    const href = link.attr("href") ?? "";
+    const title = link.text().trim();
+    // href is like "/wiki/The_Gateless_Gate/Joshu%27s_Dog"
+    const subpage = href.replace(/^\/wiki\//, "");
+    if (title && subpage) {
+      entries.push({ caseNum, title, subpage });
+    }
+  });
+
+  return entries;
+}
+
+/**
+ * Parse a single Mumonkan case subpage to extract clean text content.
+ * Removes Wikisource navigation chrome, styles, and metadata.
+ */
+export function parseMumonkanCasePage(html: string): string {
+  const $ = cheerio.load(html);
+  // Remove Wikisource chrome
+  $(".ws-noexport, .ws-header, .noprint, [class^='wst-header'], style, .mw-editsection").remove();
+  const root = $(".mw-parser-output");
+  if (root.length === 0) return "";
+  // Get text, normalize whitespace
+  const raw = root.text();
+  return raw
+    .split("\n")
+    .map((line) => line.trim())
+    .filter(Boolean)
+    .join("\n\n")
+    .replace(/\n{3,}/g, "\n\n")
+    .trim();
+}
+
+/**
+ * Build RawTeaching records from extracted Mumonkan case data.
+ */
+export function buildMumonkanTeaching(
+  caseNum: number,
+  title: string,
+  content: string,
+  sourceId: string,
+  ingestionRunId: string
+): RawTeaching {
+  const masterInfo = MUMONKAN_MASTER_MAP[caseNum];
+  const authorSlug = masterInfo?.slug ?? "unknown";
+
+  const masterRoles: RawMasterRole[] = [];
+  if (masterInfo && masterInfo.slug !== "unknown") {
+    masterRoles.push({ slug: masterInfo.slug, role: "speaker" });
+  }
+  masterRoles.push({ slug: "wumen-huikai", role: "commentator" });
+
+  return {
+    slug: `mumonkan-case-${String(caseNum).padStart(2, "0")}`,
+    type: "koan",
+    author_slug: authorSlug,
+    collection: "Mumonkan",
+    case_number: String(caseNum),
+    compiler: "Wumen Huikai",
+    era: "Song",
+    attribution_status: "verified",
+    locale: "en",
+    title,
+    content,
+    source_id: sourceId,
+    ingestion_run_id: ingestionRunId,
+    locator: `Case ${caseNum}`,
+    master_roles: masterRoles,
+  };
+}
+
+// ---------------------------------------------------------------------------
+// Mumonkan (legacy single-page parser — kept for backwards compat / fixtures)
 // ---------------------------------------------------------------------------
 
 /**
- * Parse the Gateless Gate HTML from Wikisource into individual case teachings.
- *
- * The Senzaki/Reps translation on Wikisource structures each case with headings
- * like "1. Joshu's Dog", "2. Hyakujo's Fox", etc. Each heading is followed by
- * the case text, Mumon's comment, and verse.
- *
- * We treat the entire content of each case (main case + comment + verse) as
- * the `content` field, since they form a cohesive teaching unit.
+ * @deprecated Use parseMumonkanTOC + parseMumonkanCasePage for live extraction.
+ * This function parses a single-page HTML layout that Wikisource no longer uses.
  */
 export function parseMumonkan(
   html: string,
@@ -427,30 +515,53 @@ async function main(): Promise<void> {
   });
 
   try {
-    console.log(`Fetching Mumonkan from Wikisource page: ${MUMONKAN_PAGE}...`);
-    const mumonkanHtml = await fetchWikisourcePage(MUMONKAN_PAGE);
-    rawHtmlParts.push(mumonkanHtml);
+    console.log(`Fetching Mumonkan TOC from Wikisource page: ${MUMONKAN_PAGE}...`);
+    const tocHtml = await fetchWikisourcePage(MUMONKAN_PAGE);
+    rawHtmlParts.push(tocHtml);
 
-    console.log("Parsing Mumonkan cases...");
-    const mumonkanTeachings = parseMumonkan(
-      mumonkanHtml,
-      MUMONKAN_SOURCE_ID,
-      mumonkanRun.id
-    );
+    const tocEntries = parseMumonkanTOC(tocHtml);
+    console.log(`  Found ${tocEntries.length} case links in TOC`);
 
-    console.log(`  Extracted ${mumonkanTeachings.length} Mumonkan cases`);
-    if (mumonkanTeachings.length === 0) {
-      console.warn(
-        "  WARNING: No Mumonkan cases extracted. Page structure may have changed."
-      );
+    if (tocEntries.length === 0) {
+      console.warn("  WARNING: No case links found. TOC structure may have changed.");
+    } else {
+      console.log("  Fetching individual case pages...");
+      const mumonkanTeachings: RawTeaching[] = [];
+
+      for (const entry of tocEntries) {
+        await sleep(RATE_LIMIT_MS);
+        try {
+          const caseHtml = await fetchWikisourcePage(
+            decodeURIComponent(entry.subpage)
+          );
+          const content = parseMumonkanCasePage(caseHtml);
+          if (!content) {
+            console.warn(`    WARNING: Empty content for case ${entry.caseNum}: ${entry.title}`);
+            continue;
+          }
+          mumonkanTeachings.push(
+            buildMumonkanTeaching(
+              entry.caseNum,
+              entry.title,
+              content,
+              MUMONKAN_SOURCE_ID,
+              mumonkanRun.id
+            )
+          );
+          console.log(`    ✓ Case ${entry.caseNum}: ${entry.title}`);
+        } catch (caseErr) {
+          console.warn(`    WARNING: Failed to fetch case ${entry.caseNum}: ${caseErr}`);
+        }
+      }
+
+      console.log(`  Extracted ${mumonkanTeachings.length} Mumonkan cases`);
+      allTeachings.push(...mumonkanTeachings);
     }
 
-    allTeachings.push(...mumonkanTeachings);
-
     await finishIngestionRun(mumonkanRun, {
-      recordCount: mumonkanTeachings.length,
-      notes: `Extracted ${mumonkanTeachings.length} Mumonkan cases from Wikisource.`,
-      snapshotHash: fingerprintContent(mumonkanHtml),
+      recordCount: allTeachings.length,
+      notes: `Extracted ${allTeachings.length} Mumonkan cases from Wikisource subpages.`,
+      snapshotHash: fingerprintContent(tocHtml),
       snapshotArchiveRef: toArchiveRef(OUTPUT_PATH),
     });
   } catch (err) {

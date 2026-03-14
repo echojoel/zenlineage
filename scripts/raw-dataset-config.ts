@@ -37,11 +37,16 @@ export function getRawDatasetConfig(filename: string): RawDatasetConfig {
 }
 
 const RAW_TEACHINGS_DATASET_CONFIG: Record<string, RawDatasetConfig> = {
-  "teachings-tier1.json": {
+  "teachings-mumonkan.json": {
+    kind: "external_extract",
+    entityKind: "teaching",
+    expectedSourceId: "src_mumonkan_senzaki_1934",
+    notes: "48 Mumonkan cases from Senzaki/Reps 1934 translation via Wikisource",
+  },
+  "teachings-standalone.json": {
     kind: "editorial_overlay",
     entityKind: "teaching",
-    expectedSourceId: "src_wikisource",
-    notes: "Manually vetted Tier 1 teaching corpus",
+    notes: "Standalone verses and dialogues — each row carries its own source_id",
   },
 };
 
