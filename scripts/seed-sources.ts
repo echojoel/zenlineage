@@ -10,6 +10,7 @@
 import { db } from "@/db";
 import { sources } from "@/db/schema";
 import { BIOGRAPHY_EDITORIAL_SOURCE } from "./biography-citations";
+import { TEACHING_EDITORIAL_SOURCE } from "./teaching-citations";
 
 const SOURCES = [
   {
@@ -85,6 +86,7 @@ const SOURCES = [
     reliability: "authoritative",
   },
   BIOGRAPHY_EDITORIAL_SOURCE,
+  TEACHING_EDITORIAL_SOURCE,
   {
     id: "src_mumonkan_senzaki_1934",
     type: "text_edition",
