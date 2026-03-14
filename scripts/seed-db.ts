@@ -19,6 +19,7 @@ import {
   searchTokens,
   citations,
   teachingContent,
+  teachingMasterRoles,
   teachingRelations,
   teachings,
 } from "@/db/schema";
@@ -56,6 +57,7 @@ async function resetDerivedTables(): Promise<void> {
   await db.delete(citations);
   // Content tables with master FKs must be cleared before rebuilding masters.
   await db.delete(teachingRelations);
+  await db.delete(teachingMasterRoles);
   await db.delete(teachingContent);
   await db.delete(teachings);
   // NOTE: masterBiographies is intentionally NOT cleared here.
