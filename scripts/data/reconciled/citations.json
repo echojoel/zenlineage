@@ -1,11 +1,27 @@
 [
   {
+    "id": "l8PetL-tCTT59mFiGYDs6",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "_1Cl22lVVw0x5tya5L6fJ",
+    "field_name": "dates",
+    "excerpt": "trad. 2nd c. CE"
+  },
+  {
     "id": "JVCqBn-7kTOKFExOq_Ui-",
     "source_id": "src_originals_curated",
     "entity_type": "master",
     "entity_id": "_1Cl22lVVw0x5tya5L6fJ",
     "field_name": "name",
     "excerpt": "Kapimala"
+  },
+  {
+    "id": "1KWjPQwTucT7smKdR6QDE",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "_1Cl22lVVw0x5tya5L6fJ",
+    "field_name": "school",
+    "excerpt": "Indian Patriarchs"
   },
   {
     "id": "mL4uDcf8NGKGm-azQLKAZ",
@@ -32,6 +48,22 @@
     "excerpt": "Caodong"
   },
   {
+    "id": "sOubz8aWyvhi9-AhUW9jN",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "_aaQkfq6Ay3kPKB2xV4pw",
+    "field_name": "name",
+    "excerpt": "Dagui Muzhe"
+  },
+  {
+    "id": "KqUvT9fSWtgrcd0pvmW60",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "_aaQkfq6Ay3kPKB2xV4pw",
+    "field_name": "teachers",
+    "excerpt": "Furong Daokai"
+  },
+  {
     "id": "AbRjffbp-qgK_8bMZdea2",
     "source_id": "src_chan_ancestors_pdf",
     "entity_type": "master",
@@ -46,6 +78,22 @@
     "entity_id": "_gqRy0igxACiZ1ZAcGt4c",
     "field_name": "school",
     "excerpt": "Linji/Yangqi"
+  },
+  {
+    "id": "St182GZhCrqwPxrBOyvut",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "_gqRy0igxACiZ1ZAcGt4c",
+    "field_name": "name",
+    "excerpt": "Foyan Qingyuan"
+  },
+  {
+    "id": "HWxfEqfWzVpiH4-wFv-M_",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "_gqRy0igxACiZ1ZAcGt4c",
+    "field_name": "teachers",
+    "excerpt": "Wuzu Fayan"
   },
   {
     "id": "x7aq8MQ4hEY4e0yRQ8H56",
@@ -128,12 +176,44 @@
     "excerpt": "19 84 3"
   },
   {
+    "id": "oUNH9H0OmpkwRRZpA4oHT",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "-lkE_Q1eKm1hALEp12sD8",
+    "field_name": "name",
+    "excerpt": "Jinhua Juzhi"
+  },
+  {
+    "id": "1kN8h6NWIa3m-7dJNohMi",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "-lkE_Q1eKm1hALEp12sD8",
+    "field_name": "teachers",
+    "excerpt": "Hangzhou Tianlong"
+  },
+  {
+    "id": "jKRiIK1nf7MSn8BBVlYDT",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "-nClvaByR9P4FRYQMX4_L",
+    "field_name": "dates",
+    "excerpt": "trad. 4th c. CE"
+  },
+  {
     "id": "3gIrDpcZ06kEUKmV4gT8V",
     "source_id": "src_originals_curated",
     "entity_type": "master",
     "entity_id": "-nClvaByR9P4FRYQMX4_L",
     "field_name": "name",
     "excerpt": "Haklena"
+  },
+  {
+    "id": "fFygShjtX9EdkSROGJdyn",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "-nClvaByR9P4FRYQMX4_L",
+    "field_name": "school",
+    "excerpt": "Indian Patriarchs"
   },
   {
     "id": "WETjieVvyKchPEVIGJt5g",
@@ -160,6 +240,22 @@
     "excerpt": "Linji"
   },
   {
+    "id": "woBJki3aXI_ROxkXsXDwR",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "-ODyZKNOSwVAyBA7yRVjn",
+    "field_name": "name",
+    "excerpt": "Juefan Huihong"
+  },
+  {
+    "id": "UFU3hUaFCWUokjiAzo_lN",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "-ODyZKNOSwVAyBA7yRVjn",
+    "field_name": "teachers",
+    "excerpt": "Zhenjing Kewen"
+  },
+  {
     "id": "ryyaL4_MPjVEi7x8kWMxT",
     "source_id": "src_chan_ancestors_pdf",
     "entity_type": "master",
@@ -176,12 +272,44 @@
     "excerpt": "Qingyuan line"
   },
   {
+    "id": "kaO1SnfUOlcN5xPgdhHtD",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "-x_tMuMjPp3DZQGCGA0zs",
+    "field_name": "name",
+    "excerpt": "Songshan Puji"
+  },
+  {
+    "id": "7SLeHDz2TBz8Svj1xtikn",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "-x_tMuMjPp3DZQGCGA0zs",
+    "field_name": "teachers",
+    "excerpt": "Yuquan Shenxiu"
+  },
+  {
+    "id": "Xnm_y5jwjc49WhhV8rBDl",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "0_an1VP-SgfI-rwnL591D",
+    "field_name": "dates",
+    "excerpt": "trad. 5th c. CE"
+  },
+  {
     "id": "YuMoDaauAdKKssVVf8kl3",
     "source_id": "src_originals_curated",
     "entity_type": "master",
     "entity_id": "0_an1VP-SgfI-rwnL591D",
     "field_name": "name",
     "excerpt": "Punyamitra"
+  },
+  {
+    "id": "cCVi6HZGxFteRbTM_VSkU",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "0_an1VP-SgfI-rwnL591D",
+    "field_name": "school",
+    "excerpt": "Indian Patriarchs"
   },
   {
     "id": "W6L7_jbSClMZL1-BxQZc-",
@@ -256,6 +384,22 @@
     "excerpt": "86"
   },
   {
+    "id": "M7xbRjDbtQ76aTFNnR3wD",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "0q3Qprk3B6N7TFdNLpOUu",
+    "field_name": "name",
+    "excerpt": "Gaoan Dayu"
+  },
+  {
+    "id": "tfgDRewidDNvwGHb9C5_O",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "0q3Qprk3B6N7TFdNLpOUu",
+    "field_name": "teachers",
+    "excerpt": "Deshan Xuanjian"
+  },
+  {
     "id": "t9N-zoOtN1-_XlBJEGFtt",
     "source_id": "src_chan_ancestors_pdf",
     "entity_type": "master",
@@ -270,6 +414,22 @@
     "entity_id": "0yYHIqv6h1fQlQqfk2eQy",
     "field_name": "school",
     "excerpt": "Linji"
+  },
+  {
+    "id": "f8Va82gE5uRYw2XI2iDmp",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "0yYHIqv6h1fQlQqfk2eQy",
+    "field_name": "name",
+    "excerpt": "Nanpu Shaoming"
+  },
+  {
+    "id": "5qo3jixSnPuYkTi91WNOV",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "0yYHIqv6h1fQlQqfk2eQy",
+    "field_name": "teachers",
+    "excerpt": "Xutang Zhiyu"
   },
   {
     "id": "xkOLvZ-2nMy_YI0B7JWAd",
@@ -296,6 +456,22 @@
     "excerpt": "Other"
   },
   {
+    "id": "biJoNcz9Yy2Y90wHr3WxL",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "1aRVSJptwURPY9AZHpDGM",
+    "field_name": "name",
+    "excerpt": "Jingzhong Shenhui"
+  },
+  {
+    "id": "lgSGuFenZktX0T_jK1jmC",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "1aRVSJptwURPY9AZHpDGM",
+    "field_name": "teachers",
+    "excerpt": "Jingzhong Wuxiang"
+  },
+  {
     "id": "ShOVQ0j6j3ivDJz3VGsK_",
     "source_id": "src_chan_ancestors_pdf",
     "entity_type": "master",
@@ -320,6 +496,22 @@
     "excerpt": "100"
   },
   {
+    "id": "71PBNoii0hqVrcoHHZGcl",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "1hXjfik6NhiACunrULRzu",
+    "field_name": "name",
+    "excerpt": "Langye Huijue"
+  },
+  {
+    "id": "sXzE8Tc4Ojs5X8k9bYu48",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "1hXjfik6NhiACunrULRzu",
+    "field_name": "teachers",
+    "excerpt": "Shishuang Chuyuan"
+  },
+  {
     "id": "OQwpINLgPxg3BUitum_WL",
     "source_id": "src_chan_ancestors_pdf",
     "entity_type": "master",
@@ -342,6 +534,22 @@
     "entity_id": "1L1RalHVjkUCvzsl46eE-",
     "field_name": "koan_refs",
     "excerpt": "14,77"
+  },
+  {
+    "id": "TyF6MWmrDOAbVFyUcZuaN",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "1L1RalHVjkUCvzsl46eE-",
+    "field_name": "name",
+    "excerpt": "Liangshan Yuanguan"
+  },
+  {
+    "id": "xBSrw_ujHC-WVYe7s9nMw",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "1L1RalHVjkUCvzsl46eE-",
+    "field_name": "teachers",
+    "excerpt": "Tongan Guanzhi"
   },
   {
     "id": "qaTKfP0SliNOPVlIJ89kw",
@@ -376,6 +584,22 @@
     "excerpt": "20 80"
   },
   {
+    "id": "G6fJFtnLHGqjcaVe6J58X",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "1qhC-vJBtbBQ4Cs_DcLfQ",
+    "field_name": "name",
+    "excerpt": "Cuiwei Wuxue"
+  },
+  {
+    "id": "PideXPLrNcs8_7e3eGsf3",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "1qhC-vJBtbBQ4Cs_DcLfQ",
+    "field_name": "teachers",
+    "excerpt": "Danxia Tianran"
+  },
+  {
     "id": "27jpJeA8MY7vLPy0mPoeX",
     "source_id": "src_chan_ancestors_pdf",
     "entity_type": "master",
@@ -400,6 +624,22 @@
     "excerpt": "Linji"
   },
   {
+    "id": "-Q4YBivnGzsWDQoNLTOXM",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "1RFyY3lzzzRYNuLT0eyeZ",
+    "field_name": "name",
+    "excerpt": "Huanglong Huinan"
+  },
+  {
+    "id": "hT6YGdZXuyh9o0BTaompI",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "1RFyY3lzzzRYNuLT0eyeZ",
+    "field_name": "teachers",
+    "excerpt": "Shishuang Chuyuan"
+  },
+  {
     "id": "la9ll8cNa8TjI6RdS74Jw",
     "source_id": "src_chan_ancestors_pdf",
     "entity_type": "master",
@@ -414,6 +654,22 @@
     "entity_id": "1SC2EPq9Yj9sLkPHvecSM",
     "field_name": "school",
     "excerpt": "Linji"
+  },
+  {
+    "id": "3McYhRMrbFu8GyLVnCqq5",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "1SC2EPq9Yj9sLkPHvecSM",
+    "field_name": "name",
+    "excerpt": "Baoshou Yanzhao"
+  },
+  {
+    "id": "GOQerVsUZNEomTOTsqJEI",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "1SC2EPq9Yj9sLkPHvecSM",
+    "field_name": "teachers",
+    "excerpt": "Linji Yixuan"
   },
   {
     "id": "8VLdFRHMwYXtbEPV1fakC",
@@ -464,12 +720,44 @@
     "excerpt": "28"
   },
   {
+    "id": "C-epy5yN5QoJ9gQUbZTVV",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "207kUvhLH1az0H6YA57NV",
+    "field_name": "name",
+    "excerpt": "Huguo Shoucheng"
+  },
+  {
+    "id": "cLHFcTzelXpTY_DPQ_edP",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "207kUvhLH1az0H6YA57NV",
+    "field_name": "teachers",
+    "excerpt": "Xiangyan Zhixian"
+  },
+  {
+    "id": "Nlpr618LyAlp4cilR_ZzA",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "2D6CTxIOohm4bqR0bQj2U",
+    "field_name": "dates",
+    "excerpt": "trad. 5th c. BCE"
+  },
+  {
     "id": "5G9eLgK5agCDu4TcjTCwX",
     "source_id": "src_originals_curated",
     "entity_type": "master",
     "entity_id": "2D6CTxIOohm4bqR0bQj2U",
     "field_name": "name",
     "excerpt": "Mahakashyapa"
+  },
+  {
+    "id": "L88nVIpNCMAh6rP1aMfB7",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "2D6CTxIOohm4bqR0bQj2U",
+    "field_name": "school",
+    "excerpt": "Indian Patriarchs"
   },
   {
     "id": "MCgJr4oi2dSMz1iraPyB0",
@@ -494,6 +782,22 @@
     "entity_id": "2le5Q31xg5eULcmP6E7pN",
     "field_name": "school",
     "excerpt": "Linji"
+  },
+  {
+    "id": "rHtEqp9FVelYoIU6VXtcw",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "2le5Q31xg5eULcmP6E7pN",
+    "field_name": "name",
+    "excerpt": "Baizhang Niepan"
+  },
+  {
+    "id": "kHu6IPqV5S9eX5JQ2xyi2",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "2le5Q31xg5eULcmP6E7pN",
+    "field_name": "teachers",
+    "excerpt": "Linji Yixuan"
   },
   {
     "id": "7D3hs4TIFCX6koVrOOETK",
@@ -528,6 +832,22 @@
     "excerpt": "70"
   },
   {
+    "id": "1ZoY10ur_3irkl9BF8POl",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "2ViXkfd-4_RKrlE_iGJFh",
+    "field_name": "name",
+    "excerpt": "Qingxi Hongjin"
+  },
+  {
+    "id": "IrSxwIl8ypkQUAuZu0QNS",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "2ViXkfd-4_RKrlE_iGJFh",
+    "field_name": "teachers",
+    "excerpt": "Xuefeng Yicun"
+  },
+  {
     "id": "9H7L780VbXA0s000vLtKM",
     "source_id": "src_chan_ancestors_pdf",
     "entity_type": "master",
@@ -542,6 +862,22 @@
     "entity_id": "38mTtjRbDQAqCxz5rdjNp",
     "field_name": "school",
     "excerpt": "Qingyuan line"
+  },
+  {
+    "id": "ok1G4_OYgKhA6VchFddmk",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "38mTtjRbDQAqCxz5rdjNp",
+    "field_name": "name",
+    "excerpt": "Chongshou Qichou"
+  },
+  {
+    "id": "WYdXj1EUJ0YT5vnU0SfYn",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "38mTtjRbDQAqCxz5rdjNp",
+    "field_name": "teachers",
+    "excerpt": "Chuanzi Decheng"
   },
   {
     "id": "tk7f8tGP_paNvDuiYrf7p",
@@ -560,6 +896,22 @@
     "excerpt": "Caodong"
   },
   {
+    "id": "O__qoRYC-s9dp0kGudH6S",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "3A_xRCHtopdEAqNDz96Jv",
+    "field_name": "name",
+    "excerpt": "Tongan Guanzhi"
+  },
+  {
+    "id": "3rvV5oWpk9kyPgOn_zGQs",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "3A_xRCHtopdEAqNDz96Jv",
+    "field_name": "teachers",
+    "excerpt": "Yunju Daoying"
+  },
+  {
     "id": "DaU3yhGFPRT7EuWA_Ym7F",
     "source_id": "src_chan_ancestors_pdf",
     "entity_type": "master",
@@ -574,6 +926,22 @@
     "entity_id": "3Dd3l63_Ee1bnHLolSvML",
     "field_name": "school",
     "excerpt": "Other"
+  },
+  {
+    "id": "y4tmlVCIXONa-2Z6DA6PU",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "3Dd3l63_Ee1bnHLolSvML",
+    "field_name": "name",
+    "excerpt": "Suizhou Daoyuan"
+  },
+  {
+    "id": "H7blaG2dOfY6_mWHzrw2B",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "3Dd3l63_Ee1bnHLolSvML",
+    "field_name": "teachers",
+    "excerpt": "Shengshou Nanyin"
   },
   {
     "id": "oDvBQII-mALhbaNJDO7Dn",
@@ -608,6 +976,22 @@
     "excerpt": "4, 23,33,36 26, 34 42,48,55,61 74,81,84,85"
   },
   {
+    "id": "CBZNS2-O0a8g1toUwo5zT",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "3FVS2Ax3LAfRimpc4b_f-",
+    "field_name": "name",
+    "excerpt": "Xuedou Chongxian"
+  },
+  {
+    "id": "nIUbt-sabhB_86PJh2G2a",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "3FVS2Ax3LAfRimpc4b_f-",
+    "field_name": "teachers",
+    "excerpt": "Zhimen Guangzuo"
+  },
+  {
     "id": "lf84NhL4CjrBGaOz9l6Xi",
     "source_id": "src_chan_ancestors_pdf",
     "entity_type": "master",
@@ -622,6 +1006,22 @@
     "entity_id": "4_clBXQMqLbLFR52jrufV",
     "field_name": "school",
     "excerpt": "Other"
+  },
+  {
+    "id": "PmCHTok40ACHeF9ImCKaJ",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "4_clBXQMqLbLFR52jrufV",
+    "field_name": "name",
+    "excerpt": "Zizhou Zhishen"
+  },
+  {
+    "id": "HnJtsYVKxn9YrJokgBbSS",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "4_clBXQMqLbLFR52jrufV",
+    "field_name": "teachers",
+    "excerpt": "Baotang Wuzhu"
   },
   {
     "id": "fEQTM8ABXW20czYpqvYv2",
@@ -648,6 +1048,22 @@
     "excerpt": "4, 24, 70 15,37,60,83 40 47"
   },
   {
+    "id": "Fc8Qiy6o3jfUOh0eYigpB",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "4A53pDvtL9BDJW-hUjxnR",
+    "field_name": "name",
+    "excerpt": "Guishan Lingyou"
+  },
+  {
+    "id": "aj3QOg7a2sjQGhW3ecf_n",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "4A53pDvtL9BDJW-hUjxnR",
+    "field_name": "teachers",
+    "excerpt": "Baizhang Huaihai"
+  },
+  {
     "id": "K1uudf-5gk4hjCkTd-lrG",
     "source_id": "src_chan_ancestors_pdf",
     "entity_type": "master",
@@ -670,6 +1086,22 @@
     "entity_id": "58clK0ij7nlgm_mYVexOA",
     "field_name": "koan_refs",
     "excerpt": "23,93"
+  },
+  {
+    "id": "vDN6iKAz9tTiAIH_IT4To",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "58clK0ij7nlgm_mYVexOA",
+    "field_name": "name",
+    "excerpt": "Luzu Baoyun"
+  },
+  {
+    "id": "OosxmntKThpb_sykFKsyd",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "58clK0ij7nlgm_mYVexOA",
+    "field_name": "teachers",
+    "excerpt": "Mazu Daoyi"
   },
   {
     "id": "p8ZUDvOgtz3HLIUjubaiV",
@@ -816,6 +1248,22 @@
     "excerpt": "Linji"
   },
   {
+    "id": "Htx9QR-sIQhsq-m3Ghj1q",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "7bVq77ThGkOYeAitn6YRm",
+    "field_name": "name",
+    "excerpt": "Taiping Huiqin"
+  },
+  {
+    "id": "qSflLWR9kEoXegtyJmevE",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "7bVq77ThGkOYeAitn6YRm",
+    "field_name": "teachers",
+    "excerpt": "Doushuai Congyue"
+  },
+  {
     "id": "orVotf6zt96W6lvPUEOq4",
     "source_id": "src_chan_ancestors_pdf",
     "entity_type": "master",
@@ -838,6 +1286,38 @@
     "entity_id": "7HfwCdpszPy0hDSrPxZOi",
     "field_name": "school",
     "excerpt": "Yunmen"
+  },
+  {
+    "id": "tyHIKTyuyVXZ_hMRk5Mud",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "7HfwCdpszPy0hDSrPxZOi",
+    "field_name": "name",
+    "excerpt": "Tianyi Yihuai"
+  },
+  {
+    "id": "h9AshN_MWS7FP0ATaSLe2",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "7HfwCdpszPy0hDSrPxZOi",
+    "field_name": "teachers",
+    "excerpt": "Xuedou Chongxian"
+  },
+  {
+    "id": "eq7HnuZAGSERmU4wj3hYN",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "7HhwAUZXIj3bl8CFxi5ZM",
+    "field_name": "name",
+    "excerpt": "Jianyuan"
+  },
+  {
+    "id": "TVEeFpGl_UsrE_clnJjpa",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "7HhwAUZXIj3bl8CFxi5ZM",
+    "field_name": "teachers",
+    "excerpt": "Xutang Zhiyu"
   },
   {
     "id": "DVmJUsbuzqDOASrcfnCkK",
@@ -960,6 +1440,22 @@
     "excerpt": "99,100"
   },
   {
+    "id": "BfWiZpu9S09cf6z77XHum",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "7oTDRnVmrmHfaS9TyTy5u",
+    "field_name": "name",
+    "excerpt": "Fushan Fayuan"
+  },
+  {
+    "id": "IGUJMRhAhnYLXnmHwqKqq",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "7oTDRnVmrmHfaS9TyTy5u",
+    "field_name": "teachers",
+    "excerpt": "Dayang Jingxuan"
+  },
+  {
     "id": "t_WPhYAFHVuN_KDjXo150",
     "source_id": "src_mountain_moon",
     "entity_type": "master",
@@ -1016,6 +1512,22 @@
     "excerpt": "69"
   },
   {
+    "id": "MtCz9e2CHG2nqD1-dCsUG",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "8rIBtQ2oTTybHN9lwOT-I",
+    "field_name": "name",
+    "excerpt": "Guizong Zhichang"
+  },
+  {
+    "id": "8xtypGYz0Nhe8o59oovhd",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "8rIBtQ2oTTybHN9lwOT-I",
+    "field_name": "teachers",
+    "excerpt": "Mazu Daoyi"
+  },
+  {
     "id": "zb0ZyaD-uhSbJQC_IZf9Z",
     "source_id": "src_chan_ancestors_pdf",
     "entity_type": "master",
@@ -1038,6 +1550,22 @@
     "entity_id": "93pix4g_RyHondNvLDSs3",
     "field_name": "koan_refs",
     "excerpt": "62 34"
+  },
+  {
+    "id": "TQNHdDhqgAstkgekvnVSi",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "93pix4g_RyHondNvLDSs3",
+    "field_name": "name",
+    "excerpt": "Jingzhao Mihu"
+  },
+  {
+    "id": "-q8SECjlD-1efbD7o4ZBK",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "93pix4g_RyHondNvLDSs3",
+    "field_name": "teachers",
+    "excerpt": "Yangshan Huiji"
   },
   {
     "id": "oqUYAvzQbdAqiDgQ2Iry5",
@@ -1104,6 +1632,22 @@
     "excerpt": "Caodong"
   },
   {
+    "id": "SilYdsCUD3gnSCjLe41OC",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "9p7AxxsAqoPi-TVU4ZnJj",
+    "field_name": "name",
+    "excerpt": "Guannan Daochang"
+  },
+  {
+    "id": "lyf6wDFIPrGrnU1RGDtmY",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "9p7AxxsAqoPi-TVU4ZnJj",
+    "field_name": "teachers",
+    "excerpt": "Shitou Xiqian"
+  },
+  {
     "id": "MRmngVjOnLsuol-A39V4D",
     "source_id": "src_chan_ancestors_pdf",
     "entity_type": "master",
@@ -1128,12 +1672,28 @@
     "excerpt": "Linji Yixuan (A11)"
   },
   {
+    "id": "N8aIrCRafGW-KmD-iCav9",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "aGsBwP6-XaMHAML0lESfh",
+    "field_name": "dates",
+    "excerpt": "trad. 4th c. CE"
+  },
+  {
     "id": "-xP2SO6QE0cV8YnwXsEDX",
     "source_id": "src_originals_curated",
     "entity_type": "master",
     "entity_id": "aGsBwP6-XaMHAML0lESfh",
     "field_name": "name",
     "excerpt": "Manorhita"
+  },
+  {
+    "id": "Dgn3WJ0PlCNvDp783ArSs",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "aGsBwP6-XaMHAML0lESfh",
+    "field_name": "school",
+    "excerpt": "Indian Patriarchs"
   },
   {
     "id": "YNbm-85R9o4ewCYh7YQJi",
@@ -1150,6 +1710,22 @@
     "entity_id": "aJhm8JOd_mYz8PykmCewJ",
     "field_name": "name",
     "excerpt": "Mahasattva Fu"
+  },
+  {
+    "id": "t-G92zfoD5_AUS1xJ1qhl",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "aJhm8JOd_mYz8PykmCewJ",
+    "field_name": "name",
+    "excerpt": "Mahasattva Fu"
+  },
+  {
+    "id": "66DPdFnD9WMECUqPWeX52",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "aJhm8JOd_mYz8PykmCewJ",
+    "field_name": "teachers",
+    "excerpt": "Dongshan Liangjie"
   },
   {
     "id": "AsKAyWxYLe42GOds2M3oM",
@@ -1176,12 +1752,44 @@
     "excerpt": "56"
   },
   {
+    "id": "xjZDqTxUXc2JTjBcIE7aF",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "aqnL8MRDm1bxk2Lu0S5Ne",
+    "field_name": "name",
+    "excerpt": "Qinshan Wensui"
+  },
+  {
+    "id": "MBx0uPkHkCEjQ6ZE8eJrp",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "aqnL8MRDm1bxk2Lu0S5Ne",
+    "field_name": "teachers",
+    "excerpt": "Dongshan Liangjie"
+  },
+  {
+    "id": "1n4xmWK2tWZn-eAd-Lab3",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "ASq3jRh32oG76SQh-MPlQ",
+    "field_name": "dates",
+    "excerpt": "trad. 3rd c. CE"
+  },
+  {
     "id": "JoRekrjm5sJOEVG8Pt96e",
     "source_id": "src_originals_curated",
     "entity_type": "master",
     "entity_id": "ASq3jRh32oG76SQh-MPlQ",
     "field_name": "name",
     "excerpt": "Gayashata"
+  },
+  {
+    "id": "QpVj8ZL87KMLKOGJ_Jh4B",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "ASq3jRh32oG76SQh-MPlQ",
+    "field_name": "school",
+    "excerpt": "Indian Patriarchs"
   },
   {
     "id": "CceSplklDSJrZKLJdP2V_",
@@ -1224,6 +1832,22 @@
     "excerpt": "12,17,30,70"
   },
   {
+    "id": "8YD-a7Ym9Id1qF8EhTZ1E",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "aYZO7GDyEuLqUdNkSPYdL",
+    "field_name": "name",
+    "excerpt": "Longji Shaoxiu"
+  },
+  {
+    "id": "3m2SlThEXdrMIX1DxgUqr",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "aYZO7GDyEuLqUdNkSPYdL",
+    "field_name": "teachers",
+    "excerpt": "Cuiwei Wuxue"
+  },
+  {
     "id": "CS2qVDDEhI8cfiWQKR_P1",
     "source_id": "src_chan_ancestors_pdf",
     "entity_type": "master",
@@ -1238,6 +1862,22 @@
     "entity_id": "B1apjWpWug3oIhTasx8c5",
     "field_name": "school",
     "excerpt": "Yunmen"
+  },
+  {
+    "id": "YTgRjct6Wm2QZGD4PdLWg",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "B1apjWpWug3oIhTasx8c5",
+    "field_name": "name",
+    "excerpt": "Fengxian Daochen"
+  },
+  {
+    "id": "b7ZqsbvpRWp5s64zXCRwr",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "B1apjWpWug3oIhTasx8c5",
+    "field_name": "teachers",
+    "excerpt": "Yunmen Wenyan"
   },
   {
     "id": "S2PDOuZdYz8H3zsNZHzm8",
@@ -1272,6 +1912,22 @@
     "excerpt": "48"
   },
   {
+    "id": "Q0EXiDHQCe12zg51EaHwa",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "BF-2Vjqejpp-aUQU6JuKt",
+    "field_name": "name",
+    "excerpt": "Wang Yanbin"
+  },
+  {
+    "id": "RQgDoE3-Hm9tPZCyT1_eg",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "BF-2Vjqejpp-aUQU6JuKt",
+    "field_name": "teachers",
+    "excerpt": "Changqing Huileng"
+  },
+  {
     "id": "5I05EcIlqB74m3CrPAfnV",
     "source_id": "src_chan_ancestors_pdf",
     "entity_type": "master",
@@ -1286,6 +1942,22 @@
     "entity_id": "bjQXp6ro2IqXUbtD15GO8",
     "field_name": "school",
     "excerpt": "Linji"
+  },
+  {
+    "id": "5IAaGjGaF1a2fyzoe2-5q",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "bjQXp6ro2IqXUbtD15GO8",
+    "field_name": "name",
+    "excerpt": "Yunan Kewen"
+  },
+  {
+    "id": "RTTnUPRngnq8YDqkSJ9VD",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "bjQXp6ro2IqXUbtD15GO8",
+    "field_name": "teachers",
+    "excerpt": "Huanglong Huinan"
   },
   {
     "id": "eCFtwmbVJpGyyHemf7OmI",
@@ -1310,6 +1982,22 @@
     "entity_id": "BL41yC9VsAMM0TzssIEKP",
     "field_name": "koan_refs",
     "excerpt": "See Note 2"
+  },
+  {
+    "id": "wWVoc2Fd4mjMNSbG4zwpU",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "BL41yC9VsAMM0TzssIEKP",
+    "field_name": "name",
+    "excerpt": "Yuanwu Keqin"
+  },
+  {
+    "id": "3JLPdz6-KbX8EXVdryOri",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "BL41yC9VsAMM0TzssIEKP",
+    "field_name": "teachers",
+    "excerpt": "Wuzu Fayan"
   },
   {
     "id": "VZVzzoeJ6ya462YHSMc_j",
@@ -1344,6 +2032,22 @@
     "excerpt": "75 12 66"
   },
   {
+    "id": "w3ROI0roONRfOsnM_k_03",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "bNQLsTfESFgAIGvqTi82K",
+    "field_name": "name",
+    "excerpt": "Ruiyan Shiyan"
+  },
+  {
+    "id": "xO_CrdS81yjakYmculwTF",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "bNQLsTfESFgAIGvqTi82K",
+    "field_name": "teachers",
+    "excerpt": "Yantou Quanhuo"
+  },
+  {
     "id": "DKPT0vj7117IyfV1DKsvl",
     "source_id": "src_chan_ancestors_pdf",
     "entity_type": "master",
@@ -1368,6 +2072,22 @@
     "excerpt": "67,80"
   },
   {
+    "id": "kmIcBF7_qQcRI0aQrQVXs",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "Bo97GCtM9BZ6e71TAMAdZ",
+    "field_name": "name",
+    "excerpt": "Wenshu Yingzhen"
+  },
+  {
+    "id": "LUPK7l2rH3zxyErjTh5Ab",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "Bo97GCtM9BZ6e71TAMAdZ",
+    "field_name": "teachers",
+    "excerpt": "Dongshan Liangjie"
+  },
+  {
     "id": "7Y8ELcQZMk4PpdbucR1O3",
     "source_id": "src_chan_ancestors_pdf",
     "entity_type": "master",
@@ -1382,6 +2102,22 @@
     "entity_id": "BPzpMPUQxiKjZJ6mTBIPr",
     "field_name": "school",
     "excerpt": "Linji"
+  },
+  {
+    "id": "a81XNAiv3JFm8SuJ62fY2",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "BPzpMPUQxiKjZJ6mTBIPr",
+    "field_name": "name",
+    "excerpt": "Dahui Zonggao"
+  },
+  {
+    "id": "Gk4YtOnixaalYTJ7QAyz2",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "BPzpMPUQxiKjZJ6mTBIPr",
+    "field_name": "teachers",
+    "excerpt": "Yuanwu Keqin"
   },
   {
     "id": "_73B_jCHQyYvvzC3YSAa2",
@@ -1440,6 +2176,22 @@
     "excerpt": "7"
   },
   {
+    "id": "X00HVBotfMKKYZF7K6wr9",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "BvpqBTZAJBbk3n-mloCXt",
+    "field_name": "name",
+    "excerpt": "Guizong Cezhen"
+  },
+  {
+    "id": "jVcMubEuRwAI5BaF2aBmL",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "BvpqBTZAJBbk3n-mloCXt",
+    "field_name": "teachers",
+    "excerpt": "Fayan Wenyi"
+  },
+  {
     "id": "22rK5-qFNDGd0evByzcfY",
     "source_id": "src_chan_ancestors_pdf",
     "entity_type": "master",
@@ -1464,6 +2216,22 @@
     "excerpt": "9"
   },
   {
+    "id": "ZautFYv_ifuPMlkGmXkqc",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "BvSGSw4IC-m8D3oyzF4ow",
+    "field_name": "name",
+    "excerpt": "Xingyang Qingrang"
+  },
+  {
+    "id": "r_V2uVovjWXnUf1DpBi-9",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "BvSGSw4IC-m8D3oyzF4ow",
+    "field_name": "teachers",
+    "excerpt": "Guishan Lingyou"
+  },
+  {
     "id": "tNG3oDo6Q-2Q-foZBYakr",
     "source_id": "src_chan_ancestors_pdf",
     "entity_type": "master",
@@ -1478,6 +2246,22 @@
     "entity_id": "bw7smzHvL-dIp7y7lBeGl",
     "field_name": "school",
     "excerpt": "Other"
+  },
+  {
+    "id": "kgo0l6dGRgxQzD4MjTt8D",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "bw7smzHvL-dIp7y7lBeGl",
+    "field_name": "name",
+    "excerpt": "Niutou Farong"
+  },
+  {
+    "id": "h7FFC0YJB9yWQW4VkCwxc",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "bw7smzHvL-dIp7y7lBeGl",
+    "field_name": "teachers",
+    "excerpt": "Dayi Daoxin"
   },
   {
     "id": "v0vl99_Um_WnvgG3QpQTi",
@@ -1502,6 +2286,22 @@
     "entity_id": "C0r4GzBv7BEN2ZXFGLwo8",
     "field_name": "koan_refs",
     "excerpt": "See Note 3"
+  },
+  {
+    "id": "eZFdj8BFQ92DuBolJ7Irc",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "C0r4GzBv7BEN2ZXFGLwo8",
+    "field_name": "name",
+    "excerpt": "Wumen Huikai"
+  },
+  {
+    "id": "9ct23tTvDFZJ1n3loT7-9",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "C0r4GzBv7BEN2ZXFGLwo8",
+    "field_name": "teachers",
+    "excerpt": "Yuelin Shiguan"
   },
   {
     "id": "yX3hdYzNHuFqeB_koTNCQ",
@@ -1536,12 +2336,44 @@
     "excerpt": "18,99 42,85 17 17,86"
   },
   {
+    "id": "-FcYKXYETYV9dPXhV3u_8",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "cfn2ET9nAT4CPDEmgmqKV",
+    "field_name": "name",
+    "excerpt": "Nanyang Huizhong"
+  },
+  {
+    "id": "JfNyb7M3whBGGN5s6euBE",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "cfn2ET9nAT4CPDEmgmqKV",
+    "field_name": "teachers",
+    "excerpt": "Dajian Huineng"
+  },
+  {
+    "id": "Ksynnd0wlvVDZAzFEZVDO",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "CKps4fDp0URGrbOjjfwBX",
+    "field_name": "dates",
+    "excerpt": "trad. 2nd c. BCE"
+  },
+  {
     "id": "VoyqePHVJZH0hwpgwOYXe",
     "source_id": "src_originals_curated",
     "entity_type": "master",
     "entity_id": "CKps4fDp0URGrbOjjfwBX",
     "field_name": "name",
     "excerpt": "Buddhamitra"
+  },
+  {
+    "id": "_hJ3nKegKGTfq711REpbH",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "CKps4fDp0URGrbOjjfwBX",
+    "field_name": "school",
+    "excerpt": "Indian Patriarchs"
   },
   {
     "id": "HsFq_BLwf13w6YmwM9y-E",
@@ -1576,6 +2408,22 @@
     "excerpt": "63"
   },
   {
+    "id": "4Pz6eNJXg3ZSXAVUlX1a5",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "CTYad12WWJR8tMk_IHb0v",
+    "field_name": "name",
+    "excerpt": "Jiufeng Qin"
+  },
+  {
+    "id": "2Ij8mXKDjfqAD2ZRFrapn",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "CTYad12WWJR8tMk_IHb0v",
+    "field_name": "teachers",
+    "excerpt": "Yunmen Wenyan"
+  },
+  {
     "id": "NeXm05LeqaU8_tvu8SWMT",
     "source_id": "src_chan_ancestors_pdf",
     "entity_type": "master",
@@ -1590,6 +2438,22 @@
     "entity_id": "cWJ5YHI20RtHiSRSlkjBm",
     "field_name": "school",
     "excerpt": "Linji"
+  },
+  {
+    "id": "ZkWiRXh3OwHl6leG2Lili",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "cWJ5YHI20RtHiSRSlkjBm",
+    "field_name": "name",
+    "excerpt": "Fenyang Shanzhao"
+  },
+  {
+    "id": "DLUZzD-DmE8NhROD8_ART",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "cWJ5YHI20RtHiSRSlkjBm",
+    "field_name": "teachers",
+    "excerpt": "Shoushan Xingnian"
   },
   {
     "id": "Fu5Qd4_iVJjseIP2JD5X3",
@@ -1624,6 +2488,22 @@
     "excerpt": "59"
   },
   {
+    "id": "UjQE1G79kfV1vgKktFMdl",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "CZsUYLmBsyccueFDgAzpT",
+    "field_name": "name",
+    "excerpt": "Qinglin Shiqian"
+  },
+  {
+    "id": "g3nK0gbn9bsaNbgU9onD2",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "CZsUYLmBsyccueFDgAzpT",
+    "field_name": "teachers",
+    "excerpt": "Zhaozhou Congshen"
+  },
+  {
     "id": "bIcbD8vwfPqdWrTkdKTYS",
     "source_id": "src_chan_ancestors_pdf",
     "entity_type": "master",
@@ -1638,6 +2518,22 @@
     "entity_id": "d22Ow-7bdbZI8jnr-Sfdf",
     "field_name": "school",
     "excerpt": "Linji"
+  },
+  {
+    "id": "Qco7Lls0r1QGom9kGkL_a",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "d22Ow-7bdbZI8jnr-Sfdf",
+    "field_name": "name",
+    "excerpt": "Baoning Renyong"
+  },
+  {
+    "id": "ED3-FD7HLHS8pr8Ekl7Wd",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "d22Ow-7bdbZI8jnr-Sfdf",
+    "field_name": "teachers",
+    "excerpt": "Cuiyan Kezhen"
   },
   {
     "id": "CirP2mpKDZTndgxYWVYN-",
@@ -1664,6 +2560,22 @@
     "excerpt": "38, 61 29,34 24 32,38 54,59"
   },
   {
+    "id": "bOiScRTxt1J-5OucmECUv",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "d55Lyv4WH6h4WZAM32p79",
+    "field_name": "name",
+    "excerpt": "Fengxue Yanzhao"
+  },
+  {
+    "id": "tWM-ao5kKHULMqAYZuiKl",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "d55Lyv4WH6h4WZAM32p79",
+    "field_name": "teachers",
+    "excerpt": "Nanyuan Huiyong"
+  },
+  {
     "id": "Gm4hYnS68lPBV_B2FUrbF",
     "source_id": "src_chan_ancestors_pdf",
     "entity_type": "master",
@@ -1688,6 +2600,22 @@
     "excerpt": "16"
   },
   {
+    "id": "JxrW7GHsx6DOLSQHBzgey",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "dACngaSplh7fQ97Fl0xHn",
+    "field_name": "name",
+    "excerpt": "Lingyun Zhiqin"
+  },
+  {
+    "id": "85_WMJ7s6Y4p8ZsSv1LCM",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "dACngaSplh7fQ97Fl0xHn",
+    "field_name": "teachers",
+    "excerpt": "Guishan Lingyou"
+  },
+  {
     "id": "W9mEKqaoTkISP7bmopQRf",
     "source_id": "src_chan_ancestors_pdf",
     "entity_type": "master",
@@ -1702,6 +2630,22 @@
     "entity_id": "dajjMBPqxOv2QAYg5_1da",
     "field_name": "school",
     "excerpt": "Caodong"
+  },
+  {
+    "id": "9bwicliiz4QNMV8QsXzhV",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "dajjMBPqxOv2QAYg5_1da",
+    "field_name": "name",
+    "excerpt": "Furong Daokai"
+  },
+  {
+    "id": "WcQmUtDVXM1MfK95kq50h",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "dajjMBPqxOv2QAYg5_1da",
+    "field_name": "teachers",
+    "excerpt": "Touzi Yiqing"
   },
   {
     "id": "Jjb8MMvXy9yOxzsDAzzeV",
@@ -1728,6 +2672,22 @@
     "excerpt": "7th generation of Qingyuan line through Jiashan Shanhui (M11)"
   },
   {
+    "id": "QFjyAECL-s29ewIrptfWD",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "DCKhB3tkUhuXVX5_AqERp",
+    "field_name": "name",
+    "excerpt": "Changfu Zhi"
+  },
+  {
+    "id": "_C1LUvxV5sIjZ0m78gYmh",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "DCKhB3tkUhuXVX5_AqERp",
+    "field_name": "teachers",
+    "excerpt": "Xuefeng Yicun"
+  },
+  {
     "id": "nubIYD1anEpvGYpMNhHrq",
     "source_id": "src_chan_ancestors_pdf",
     "entity_type": "master",
@@ -1750,6 +2710,22 @@
     "entity_id": "DgxUMAIDeal0L9V5R1TWV",
     "field_name": "koan_refs",
     "excerpt": "98"
+  },
+  {
+    "id": "Sxa5sBONbmU50e3ezmZ-4",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "DgxUMAIDeal0L9V5R1TWV",
+    "field_name": "name",
+    "excerpt": "Xiyuan Siming"
+  },
+  {
+    "id": "brwALLN-X2jcbd8ofiAJz",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "DgxUMAIDeal0L9V5R1TWV",
+    "field_name": "teachers",
+    "excerpt": "Baoshou Yanzhao"
   },
   {
     "id": "BSYtUD4n6vDuHBdPEZeAX",
@@ -1776,6 +2752,22 @@
     "excerpt": "8"
   },
   {
+    "id": "bxzz1f3zTfIbV40xUkw7f",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "dO8iOgsAFRvx7lVlydPMO",
+    "field_name": "name",
+    "excerpt": "Yuean Shanguo"
+  },
+  {
+    "id": "30Wdq9e_XL403d-UnxaId",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "dO8iOgsAFRvx7lVlydPMO",
+    "field_name": "teachers",
+    "excerpt": "Yuanwu Keqin"
+  },
+  {
     "id": "r_QfS5deqe8ueaTmewuN9",
     "source_id": "src_chan_ancestors_pdf",
     "entity_type": "master",
@@ -1800,12 +2792,28 @@
     "excerpt": "Tongan Daopi (F13)"
   },
   {
+    "id": "oAMuOJjoINwC1YWjx8LEp",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "dowc9tfw9nrI_KIBHaEaW",
+    "field_name": "dates",
+    "excerpt": "trad. 3rd c. CE"
+  },
+  {
     "id": "uWeLWQVRb4iyQRroKt-4V",
     "source_id": "src_originals_curated",
     "entity_type": "master",
     "entity_id": "dowc9tfw9nrI_KIBHaEaW",
     "field_name": "name",
     "excerpt": "Rahulata"
+  },
+  {
+    "id": "sFu-MBfYqWOPIB9Ou_S0T",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "dowc9tfw9nrI_KIBHaEaW",
+    "field_name": "school",
+    "excerpt": "Indian Patriarchs"
   },
   {
     "id": "tTLZL8YUKDGLbCBnDJ1ak",
@@ -1830,6 +2838,22 @@
     "entity_id": "DPaqdrB7_tincwkl9PEQ1",
     "field_name": "school",
     "excerpt": "Linji"
+  },
+  {
+    "id": "oDClLZ8EszJxwZyWBk8xT",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "DPaqdrB7_tincwkl9PEQ1",
+    "field_name": "name",
+    "excerpt": "Kaifu Daoning"
+  },
+  {
+    "id": "8l-0fhfB1hCQQlgsAk7KS",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "DPaqdrB7_tincwkl9PEQ1",
+    "field_name": "teachers",
+    "excerpt": "Wuzu Fayan"
   },
   {
     "id": "h0_9M9huoQ0BGmtDuyFAW",
@@ -1864,12 +2888,44 @@
     "excerpt": "7 17, 20, 27 26 92 51,64,74"
   },
   {
+    "id": "xOjJ3h3i3ZNy1W4n-3A7N",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "DQ9EQl4GbqNIHOtcWsh_4",
+    "field_name": "name",
+    "excerpt": "Fayan Wenyi"
+  },
+  {
+    "id": "GxMaMezFI5ZNUrAw-Woqw",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "DQ9EQl4GbqNIHOtcWsh_4",
+    "field_name": "teachers",
+    "excerpt": "Luohan Guichen"
+  },
+  {
+    "id": "ImTKjlCckgK0UdTV1qG5J",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "Du2RzVK7ZHNqT3hHDDPwQ",
+    "field_name": "dates",
+    "excerpt": "trad. 3rd c. BCE"
+  },
+  {
     "id": "Z7Nt6fvAahBPS3Z4lzmks",
     "source_id": "src_originals_curated",
     "entity_type": "master",
     "entity_id": "Du2RzVK7ZHNqT3hHDDPwQ",
     "field_name": "name",
     "excerpt": "Upagupta"
+  },
+  {
+    "id": "7QpH6JBAX8nL8ni8aUwl7",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "Du2RzVK7ZHNqT3hHDDPwQ",
+    "field_name": "school",
+    "excerpt": "Indian Patriarchs"
   },
   {
     "id": "dix5vUcHf8GqVZPqCyiwv",
@@ -1912,12 +2968,44 @@
     "excerpt": "12 15,18 88"
   },
   {
+    "id": "OIrqcx9Wpab9q0ghNiphR",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "DuB_NWJfY_tzIKn62UjqY",
+    "field_name": "name",
+    "excerpt": "Dongshan Shouchu"
+  },
+  {
+    "id": "7QiLcbPIOMUHqurVGUC61",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "DuB_NWJfY_tzIKn62UjqY",
+    "field_name": "teachers",
+    "excerpt": "Yunmen Wenyan"
+  },
+  {
+    "id": "cs7OhZEYIG8tQVL3JiL4t",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "DWofxdcfC79blHHMxK4GS",
+    "field_name": "dates",
+    "excerpt": "trad. 2nd c. BCE"
+  },
+  {
     "id": "tKHhBnq4WbH1vEUCOrwQy",
     "source_id": "src_originals_curated",
     "entity_type": "master",
     "entity_id": "DWofxdcfC79blHHMxK4GS",
     "field_name": "name",
     "excerpt": "Buddhanandi"
+  },
+  {
+    "id": "G3-ifsETTqOSxuKiAfeR9",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "DWofxdcfC79blHHMxK4GS",
+    "field_name": "school",
+    "excerpt": "Indian Patriarchs"
   },
   {
     "id": "ucEqkiIx0_S0BvdsgS9ku",
@@ -1950,6 +3038,22 @@
     "entity_id": "e2m1ar_J_q9_8UVAyDGOZ",
     "field_name": "koan_refs",
     "excerpt": "57"
+  },
+  {
+    "id": "FxJ7lLBGzxnLCir_guVbD",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "e2m1ar_J_q9_8UVAyDGOZ",
+    "field_name": "name",
+    "excerpt": "Yanyang Shanxin"
+  },
+  {
+    "id": "dy7qzZvuAiygNxC6okLN3",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "e2m1ar_J_q9_8UVAyDGOZ",
+    "field_name": "teachers",
+    "excerpt": "Zhaozhou Congshen"
   },
   {
     "id": "Skmkyvs2XpwspC8GgnYqz",
@@ -2024,12 +3128,60 @@
     "excerpt": "Linji/Yangqi"
   },
   {
+    "id": "GpNi28IA3Pg_htn5e-YBi",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "EMoIlVImDttpEYdxP41FA",
+    "field_name": "name",
+    "excerpt": "Yangqi Fanghui"
+  },
+  {
+    "id": "M3XFDuRSWy4XwlEVAIdbS",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "EMoIlVImDttpEYdxP41FA",
+    "field_name": "teachers",
+    "excerpt": "Shishuang Chuyuan"
+  },
+  {
     "id": "KKVuYCggzgVFd9NQQeb4W",
     "source_id": "src_chan_ancestors_pdf",
     "entity_type": "master",
     "entity_id": "EpBV-rfWmuMFK1UDcQL6M",
     "field_name": "name",
     "excerpt": "Taigu Puyu"
+  },
+  {
+    "id": "_y4WVAyCsI0L1RLtZ2NpW",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "EpBV-rfWmuMFK1UDcQL6M",
+    "field_name": "name",
+    "excerpt": "Taigu Puyu"
+  },
+  {
+    "id": "0DOP7h0AKD1XvGE7_7gh1",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "EpBV-rfWmuMFK1UDcQL6M",
+    "field_name": "teachers",
+    "excerpt": "Shiwu Qinggong"
+  },
+  {
+    "id": "EjM0M6O1r7UOUNMnItOp7",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "ErnBMjdG2GndqNBDNPQpP",
+    "field_name": "name",
+    "excerpt": "Kumu Daocheng"
+  },
+  {
+    "id": "0ZGDXEKFAUoRT7VlxoI-5",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "ErnBMjdG2GndqNBDNPQpP",
+    "field_name": "teachers",
+    "excerpt": "Zhenxie Qingliao"
   },
   {
     "id": "KbBiDUx_nUtmhKwCttV3r",
@@ -2056,12 +3208,44 @@
     "excerpt": "47"
   },
   {
+    "id": "ykF3Ssb4BZd5sPqlYY1NI",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "f_mN_OO-KGU_OStG0WhDX",
+    "field_name": "name",
+    "excerpt": "Doushuai Congyue"
+  },
+  {
+    "id": "fPp_OBRcX7B33LMsKejyO",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "f_mN_OO-KGU_OStG0WhDX",
+    "field_name": "teachers",
+    "excerpt": "Huitang Zuxin"
+  },
+  {
+    "id": "4t5KKEwVzh-xfnkoOULxu",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "f-5SSXM6Hb3L0T0a5f5sF",
+    "field_name": "dates",
+    "excerpt": "trad. 5th c. CE"
+  },
+  {
     "id": "puBmwMpOktE9HF8jVXcIb",
     "source_id": "src_originals_curated",
     "entity_type": "master",
     "entity_id": "f-5SSXM6Hb3L0T0a5f5sF",
     "field_name": "name",
     "excerpt": "Prajnatara"
+  },
+  {
+    "id": "6XDqOUR4QMcGGnBtkK8kN",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "f-5SSXM6Hb3L0T0a5f5sF",
+    "field_name": "school",
+    "excerpt": "Indian Patriarchs"
   },
   {
     "id": "WrSu186unMwpzKzouDZXg",
@@ -2088,6 +3272,22 @@
     "excerpt": "Linji"
   },
   {
+    "id": "-5kJAIgDYuN6bQFS86Eg9",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "fFFRVZW-TlYc3imPU4ZMr",
+    "field_name": "name",
+    "excerpt": "Nanyuan Huiyong"
+  },
+  {
+    "id": "1NZm2j508n_FHnDi798E1",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "fFFRVZW-TlYc3imPU4ZMr",
+    "field_name": "teachers",
+    "excerpt": "Xinghua Cunjiang"
+  },
+  {
     "id": "OczEZ6FvFLoEwTMmwJgtY",
     "source_id": "src_chan_ancestors_pdf",
     "entity_type": "master",
@@ -2102,6 +3302,22 @@
     "entity_id": "FhsJ0vhiUvvvghy9ys7Jr",
     "field_name": "school",
     "excerpt": "Caodong"
+  },
+  {
+    "id": "mgjxzm9xwXa-04fI7Bx40",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "FhsJ0vhiUvvvghy9ys7Jr",
+    "field_name": "name",
+    "excerpt": "Xuedou Zhijian"
+  },
+  {
+    "id": "8OMFRXNwo0-OQCRFYCzN7",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "FhsJ0vhiUvvvghy9ys7Jr",
+    "field_name": "teachers",
+    "excerpt": "Tiantong Zongjue"
   },
   {
     "id": "Mda652b6qyTK0HG56NS3p",
@@ -2216,6 +3432,22 @@
     "excerpt": "34,68 15,26,32,37 25 34,91 62,72,77,90"
   },
   {
+    "id": "VO90xuF1RHmD8hhrR-fH8",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "g4Bb_FEVtARNGbevC_YHt",
+    "field_name": "name",
+    "excerpt": "Yangshan Huiji"
+  },
+  {
+    "id": "n_fcqrXdhvPyJTq2NIkgy",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "g4Bb_FEVtARNGbevC_YHt",
+    "field_name": "teachers",
+    "excerpt": "Guishan Lingyou"
+  },
+  {
     "id": "PxdWRAzGRQWszaU5nhsco",
     "source_id": "src_chan_ancestors_pdf",
     "entity_type": "master",
@@ -2248,6 +3480,22 @@
     "excerpt": "8,22,23,95 71,"
   },
   {
+    "id": "NJ2r_mYdK0ewcoTSRFxk8",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "GAlcbtrsjobgkFfMIAVh_",
+    "field_name": "name",
+    "excerpt": "Baofu Congzhan"
+  },
+  {
+    "id": "NR4_jpCwrZkE9y_3986G9",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "GAlcbtrsjobgkFfMIAVh_",
+    "field_name": "teachers",
+    "excerpt": "Xuefeng Yicun"
+  },
+  {
     "id": "cSaou_diOEPFP4DtmVqMr",
     "source_id": "src_chan_ancestors_pdf",
     "entity_type": "master",
@@ -2272,6 +3520,22 @@
     "excerpt": "Shishuang Qingzhu (N11)"
   },
   {
+    "id": "GTG7mOz_d4BXLBrVC77D3",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "gnKKjaZPBk0CIELCFqZJ6",
+    "field_name": "name",
+    "excerpt": "Zhenjing Kewen"
+  },
+  {
+    "id": "RnNuhZcVDPUGy7iOVwsR7",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "gnKKjaZPBk0CIELCFqZJ6",
+    "field_name": "teachers",
+    "excerpt": "Huanglong Huinan"
+  },
+  {
     "id": "BV51KWO2m611iY1GLvmGI",
     "source_id": "src_chan_ancestors_pdf",
     "entity_type": "master",
@@ -2286,6 +3550,22 @@
     "entity_id": "GsCXe4WfiV06Y4-TUjdKM",
     "field_name": "school",
     "excerpt": "Linji"
+  },
+  {
+    "id": "TPjdiyHpoIu6z6zQwdidO",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "GsCXe4WfiV06Y4-TUjdKM",
+    "field_name": "name",
+    "excerpt": "Dahong Zuzheng"
+  },
+  {
+    "id": "2bXE8IYC6otXnm768ft3V",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "GsCXe4WfiV06Y4-TUjdKM",
+    "field_name": "teachers",
+    "excerpt": "Huanglong Huinan"
   },
   {
     "id": "Zws_Gsi6Ab_1LeMx6uX7k",
@@ -2304,6 +3584,22 @@
     "excerpt": "Other"
   },
   {
+    "id": "8ND8CZyQPcyR8l2YbG1UK",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "gWtzBq9d3UMQ-wAKvfFq2",
+    "field_name": "name",
+    "excerpt": "Zizhou Chuji"
+  },
+  {
+    "id": "xZ1aDVdU0r0IAOQBNIduu",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "gWtzBq9d3UMQ-wAKvfFq2",
+    "field_name": "teachers",
+    "excerpt": "Xuefeng Yicun"
+  },
+  {
     "id": "S_PSCfdLUKwJgVmokhTAp",
     "source_id": "src_chan_ancestors_pdf",
     "entity_type": "master",
@@ -2320,6 +3616,22 @@
     "excerpt": "Guiyang"
   },
   {
+    "id": "NIWdUz8a8hu1h5-66zt4r",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "Gzki8G7Dmg5LUcyMtqlCF",
+    "field_name": "name",
+    "excerpt": "Hangzhou Tianlong"
+  },
+  {
+    "id": "jlS4N_jhLVcTVJOt7hPAJ",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "Gzki8G7Dmg5LUcyMtqlCF",
+    "field_name": "teachers",
+    "excerpt": "Damei Fachang"
+  },
+  {
     "id": "0aWFGnuyad-d_cZVJMf-n",
     "source_id": "src_chan_ancestors_pdf",
     "entity_type": "master",
@@ -2334,6 +3646,22 @@
     "entity_id": "hEOd5fdtLUK-0Fu15szpE",
     "field_name": "school",
     "excerpt": "Caodong"
+  },
+  {
+    "id": "8qwjN3PZOewf4R9TGWmh_",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "hEOd5fdtLUK-0Fu15szpE",
+    "field_name": "name",
+    "excerpt": "Nanta Guangyong"
+  },
+  {
+    "id": "I4enmxMq9DRciQYYEutat",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "hEOd5fdtLUK-0Fu15szpE",
+    "field_name": "teachers",
+    "excerpt": "Shishuang Qingzhu"
   },
   {
     "id": "unnGPCOqg6nW60vBj9qd7",
@@ -2400,6 +3728,22 @@
     "excerpt": "Yunmen"
   },
   {
+    "id": "0jS_KxcM5ikmWVsmHfRw_",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "HWwmjVp87R6TwGIfyzzDB",
+    "field_name": "name",
+    "excerpt": "Chengtian Chuanzong"
+  },
+  {
+    "id": "0FEoW5gvkXyGU_X9MIHsp",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "HWwmjVp87R6TwGIfyzzDB",
+    "field_name": "teachers",
+    "excerpt": "Yunmen Wenyan"
+  },
+  {
     "id": "UZ1143PEYr4pQJWNCaXVa",
     "source_id": "src_chan_ancestors_pdf",
     "entity_type": "master",
@@ -2414,6 +3758,38 @@
     "entity_id": "Hy6NRtgSBVR82vh95RIsE",
     "field_name": "school",
     "excerpt": "Caodong"
+  },
+  {
+    "id": "7Tn4PpYGlOvKaGtHzWzlX",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "Hy6NRtgSBVR82vh95RIsE",
+    "field_name": "name",
+    "excerpt": "Danxia Zichun"
+  },
+  {
+    "id": "XDUy1wj3iY76GnNthLnZj",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "Hy6NRtgSBVR82vh95RIsE",
+    "field_name": "teachers",
+    "excerpt": "Furong Daokai"
+  },
+  {
+    "id": "4qC46RU0j6qKRdDMRoIPv",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "IgLEF6ibrtovkxxzFqR_l",
+    "field_name": "name",
+    "excerpt": "Xutang Zhiyu"
+  },
+  {
+    "id": "fA7AHPCBhlrMqXPY_K6EZ",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "IgLEF6ibrtovkxxzFqR_l",
+    "field_name": "teachers",
+    "excerpt": "Wuzhun Shifan"
   },
   {
     "id": "wucnGcZaZlr_TYquGKUhS",
@@ -2448,6 +3824,22 @@
     "excerpt": "16, 23, 46 35"
   },
   {
+    "id": "DKyh1V5f5tLxHjs9zKwVv",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "iGOnJ8m8mWWgedkNyVb-4",
+    "field_name": "name",
+    "excerpt": "Jingqing Daofu"
+  },
+  {
+    "id": "VzoFYCFqNXq5AjsNxX49s",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "iGOnJ8m8mWWgedkNyVb-4",
+    "field_name": "teachers",
+    "excerpt": "Xuefeng Yicun"
+  },
+  {
     "id": "KKQpHLh263wPtR7loOel0",
     "source_id": "src_chan_ancestors_pdf",
     "entity_type": "master",
@@ -2470,6 +3862,22 @@
     "entity_id": "iHhoBfvtLlnWeY2l8owiE",
     "field_name": "koan_refs",
     "excerpt": "75"
+  },
+  {
+    "id": "tXGk3fgw5e8WTK0NB_x5d",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "iHhoBfvtLlnWeY2l8owiE",
+    "field_name": "name",
+    "excerpt": "Dingzhou Shizang"
+  },
+  {
+    "id": "zrg1WTDlSICj21ikUlDik",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "iHhoBfvtLlnWeY2l8owiE",
+    "field_name": "teachers",
+    "excerpt": "Shishuang Qingzhu"
   },
   {
     "id": "Guaj5Aq6HFv0hqDYtrS4y",
@@ -2504,6 +3912,22 @@
     "excerpt": "18 85 17"
   },
   {
+    "id": "lk9rylSc4kCsIl-dbePzH",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "iJ4NrYpW85olchICykpuy",
+    "field_name": "name",
+    "excerpt": "Danyuan Yingzhen"
+  },
+  {
+    "id": "yAJXrzbsaur5Jw76gWnao",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "iJ4NrYpW85olchICykpuy",
+    "field_name": "teachers",
+    "excerpt": "Nanyue Daoxuan"
+  },
+  {
     "id": "0vp2Mt51mo9INkQI3DMP9",
     "source_id": "src_chan_ancestors_pdf",
     "entity_type": "master",
@@ -2526,6 +3950,38 @@
     "entity_id": "IjImAFg07jLpkiAfvrt0X",
     "field_name": "koan_refs",
     "excerpt": "10"
+  },
+  {
+    "id": "Vww34_XNDcixp2mCrHNqz",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "IjImAFg07jLpkiAfvrt0X",
+    "field_name": "name",
+    "excerpt": "Muzhou Daoming"
+  },
+  {
+    "id": "x2H-PRjm-bHhimn0xlnwM",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "IjImAFg07jLpkiAfvrt0X",
+    "field_name": "teachers",
+    "excerpt": "Huangbo Xiyun"
+  },
+  {
+    "id": "KbqNogEsL4YTh1uF4HfD_",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "IkjI2809ce5BMJFQC2-Au",
+    "field_name": "name",
+    "excerpt": "Shiwu Qinggong"
+  },
+  {
+    "id": "KVirlprL1cjcFsxDRxFmG",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "IkjI2809ce5BMJFQC2-Au",
+    "field_name": "teachers",
+    "excerpt": "Jianyuan"
   },
   {
     "id": "S-L5NEuiY0jaDmjEf7bQb",
@@ -2552,6 +4008,22 @@
     "excerpt": "See Note 4"
   },
   {
+    "id": "XDKq-7yvVb91QBcmTf4xN",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "ilSQ1eOlSNCagZoG1W3Fv",
+    "field_name": "name",
+    "excerpt": "Touzi Yiqing"
+  },
+  {
+    "id": "FcFJZaTQiTEU95ctYcu_f",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "ilSQ1eOlSNCagZoG1W3Fv",
+    "field_name": "teachers",
+    "excerpt": "Fushan Fayuan"
+  },
+  {
     "id": "535Axh-MJqtgy4ALvc07p",
     "source_id": "src_chan_ancestors_pdf",
     "entity_type": "master",
@@ -2566,6 +4038,22 @@
     "entity_id": "iLU8eKYHP-kmxLSkg7hkW",
     "field_name": "school",
     "excerpt": "Linji"
+  },
+  {
+    "id": "ZG3a_XuGTjjgBhxIN2Any",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "iLU8eKYHP-kmxLSkg7hkW",
+    "field_name": "name",
+    "excerpt": "Huguo Jingyuan"
+  },
+  {
+    "id": "51QkQv82y7YOdvx9Citjm",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "iLU8eKYHP-kmxLSkg7hkW",
+    "field_name": "teachers",
+    "excerpt": "Taiping Huiqin"
   },
   {
     "id": "l3t4VaWXVZZFYW_-uuVzU",
@@ -2600,6 +4088,22 @@
     "excerpt": "22,88 24, 81 43"
   },
   {
+    "id": "bbYSIYsqawcaoTj7vICJb",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "iO_UjXfKurStJgutHyTa-",
+    "field_name": "name",
+    "excerpt": "Xuansha Shibei"
+  },
+  {
+    "id": "xIH23idKM0DFszvOqCrpH",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "iO_UjXfKurStJgutHyTa-",
+    "field_name": "teachers",
+    "excerpt": "Xuefeng Yicun"
+  },
+  {
     "id": "GZpClYvuuFqlRvnGZ7iDK",
     "source_id": "src_chan_ancestors_pdf",
     "entity_type": "master",
@@ -2622,6 +4126,22 @@
     "entity_id": "j-cIc9VMB17RIb8K_GRPi",
     "field_name": "koan_refs",
     "excerpt": "29 30 22,65"
+  },
+  {
+    "id": "x9T6omv2aeOL4bopkk-fj",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "j-cIc9VMB17RIb8K_GRPi",
+    "field_name": "name",
+    "excerpt": "Dasui Fazhen"
+  },
+  {
+    "id": "xQggE8_yAW5w-EvJgOyoI",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "j-cIc9VMB17RIb8K_GRPi",
+    "field_name": "teachers",
+    "excerpt": "Fenyang Shanzhao"
   },
   {
     "id": "MIa55WQkh2xNtZfa61zjD",
@@ -2656,6 +4176,22 @@
     "excerpt": "87 27"
   },
   {
+    "id": "pdt8Eu4OcUGhdh2cSuuB4",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "JBhPy4sLL_4OgCqT0G36B",
+    "field_name": "name",
+    "excerpt": "Shushan Kuangren"
+  },
+  {
+    "id": "2Cu4npH-MD0XHSc7N5GJW",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "JBhPy4sLL_4OgCqT0G36B",
+    "field_name": "teachers",
+    "excerpt": "Dongshan Liangjie"
+  },
+  {
     "id": "voOCwdFB24BJTn_OZHfiw",
     "source_id": "src_chan_ancestors_pdf",
     "entity_type": "master",
@@ -2672,6 +4208,22 @@
     "excerpt": "Linji"
   },
   {
+    "id": "nSXn0MBJzntO3PqWTjg75",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "JFPJEb3YvLpKb-Lqi6QCA",
+    "field_name": "name",
+    "excerpt": "Dayu Shouzhi"
+  },
+  {
+    "id": "n3GP9ZP55TDYnV0-Kd4wk",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "JFPJEb3YvLpKb-Lqi6QCA",
+    "field_name": "teachers",
+    "excerpt": "Guishan Lingyou"
+  },
+  {
     "id": "-e0whu5UI2LzZBsYR6aNI",
     "source_id": "src_chan_ancestors_pdf",
     "entity_type": "master",
@@ -2686,6 +4238,22 @@
     "entity_id": "jSeppG7S9SGrEIWFq3DpX",
     "field_name": "school",
     "excerpt": "Linji/Yangqi"
+  },
+  {
+    "id": "5YDiwpZHrrMg7TfE-9Wal",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "jSeppG7S9SGrEIWFq3DpX",
+    "field_name": "name",
+    "excerpt": "Mingan Rongxi"
+  },
+  {
+    "id": "Px2ZIQJ8r4BpmuqEeKnCu",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "jSeppG7S9SGrEIWFq3DpX",
+    "field_name": "teachers",
+    "excerpt": "Xuedou Chongxian"
   },
   {
     "id": "BDTcu0mvfSnDWpNiCcKtV",
@@ -2758,6 +4326,22 @@
     "entity_id": "jTmwdm8QPIAiiUAwV-zCE",
     "field_name": "koan_refs",
     "excerpt": "41,79,80 63 33,49 91  55,97"
+  },
+  {
+    "id": "TERMGo19U5sx3CifECBtB",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "jTmwdm8QPIAiiUAwV-zCE",
+    "field_name": "name",
+    "excerpt": "Touzi Datong"
+  },
+  {
+    "id": "5EBD_PZK0auIr0rY0owEX",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "jTmwdm8QPIAiiUAwV-zCE",
+    "field_name": "teachers",
+    "excerpt": "Cuiwei Wuxue"
   },
   {
     "id": "KhhIxIucX0Mo5LjDt1ECg",
@@ -2856,6 +4440,22 @@
     "excerpt": "Longtan Chongxin"
   },
   {
+    "id": "GdNNA1o08xNwLeijL2jyc",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "K3tGdAxPeoVWOCN3DnRq9",
+    "field_name": "name",
+    "excerpt": "Nanyue Daoxuan"
+  },
+  {
+    "id": "hJwQrY8ROrieVabgRmnqi",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "K3tGdAxPeoVWOCN3DnRq9",
+    "field_name": "teachers",
+    "excerpt": "Shitou Xiqian"
+  },
+  {
     "id": "yELBgHZfeixmDdBr-er7y",
     "source_id": "src_chan_ancestors_pdf",
     "entity_type": "master",
@@ -2878,6 +4478,22 @@
     "entity_id": "K7s1fzKNnNrs673SYBt4V",
     "field_name": "koan_refs",
     "excerpt": "44"
+  },
+  {
+    "id": "_52ez6h5WfVTVzPjqZUku",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "K7s1fzKNnNrs673SYBt4V",
+    "field_name": "name",
+    "excerpt": "Xingyang Qingpou"
+  },
+  {
+    "id": "oSIvXAcd9ACXV0_LhYo40",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "K7s1fzKNnNrs673SYBt4V",
+    "field_name": "teachers",
+    "excerpt": "Xianglin Chengyuan"
   },
   {
     "id": "SFyycIzglSVth8wSD3U9Y",
@@ -2944,6 +4560,22 @@
     "excerpt": "71"
   },
   {
+    "id": "P8tXDhKC21RHsaO0s8Fis",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "Kkq_46-Hh94BLD8RXPqxR",
+    "field_name": "name",
+    "excerpt": "Wufeng Changguan"
+  },
+  {
+    "id": "s_FiGO5jvgsLHRDjN2bdT",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "Kkq_46-Hh94BLD8RXPqxR",
+    "field_name": "teachers",
+    "excerpt": "Xitang Zhizang"
+  },
+  {
     "id": "yTNIv0c7Y0XFjLD2Iaw3h",
     "source_id": "src_chan_ancestors_pdf",
     "entity_type": "master",
@@ -2974,6 +4606,22 @@
     "entity_id": "kP5TDAuk1-nJJoOtaXibF",
     "field_name": "koan_refs",
     "excerpt": "21,90"
+  },
+  {
+    "id": "TyHX17ZM_QDOh4pWknjmt",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "kP5TDAuk1-nJJoOtaXibF",
+    "field_name": "name",
+    "excerpt": "Zhimen Guangzuo"
+  },
+  {
+    "id": "Ip8nEoaCEO5e-_D7yzh2I",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "kP5TDAuk1-nJJoOtaXibF",
+    "field_name": "teachers",
+    "excerpt": "Xianglin Chengyuan"
   },
   {
     "id": "H_--sDkWJDVpu8SXkINFj",
@@ -3008,12 +4656,44 @@
     "excerpt": "48 87"
   },
   {
+    "id": "ZStZV6YhM2HgmMlSZA5_Q",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "kVOPBQ_iEP7qwNlpMHYFm",
+    "field_name": "name",
+    "excerpt": "Mingzhao Deqian"
+  },
+  {
+    "id": "KchyAuwAJloUNXf_9gaMS",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "kVOPBQ_iEP7qwNlpMHYFm",
+    "field_name": "teachers",
+    "excerpt": "Xuefeng Yicun"
+  },
+  {
+    "id": "B8OyvQQ-cZjYmANewp0WQ",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "KWt8nDNBawWXfHKVaUhqa",
+    "field_name": "dates",
+    "excerpt": "trad. 3rd c. BCE"
+  },
+  {
     "id": "wQkRxbmKcqN3K8hKRkvBn",
     "source_id": "src_originals_curated",
     "entity_type": "master",
     "entity_id": "KWt8nDNBawWXfHKVaUhqa",
     "field_name": "name",
     "excerpt": "Dhritaka"
+  },
+  {
+    "id": "hl2vAYfz1_uKeECIl3dci",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "KWt8nDNBawWXfHKVaUhqa",
+    "field_name": "school",
+    "excerpt": "Indian Patriarchs"
   },
   {
     "id": "L5Vy6gNcwpsVslzq4WU5Y",
@@ -3048,6 +4728,22 @@
     "excerpt": "17"
   },
   {
+    "id": "vEkJC4IIK4UFyWYkjtyC6",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "la_nj_rqWAlfcj_p60Xoj",
+    "field_name": "name",
+    "excerpt": "Xianglin Chengyuan"
+  },
+  {
+    "id": "PGQGecwaw3GLiT4okLk-5",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "la_nj_rqWAlfcj_p60Xoj",
+    "field_name": "teachers",
+    "excerpt": "Yunmen Wenyan"
+  },
+  {
     "id": "OZ_dE_s5P80ZnzXSMZ7KY",
     "source_id": "src_chan_ancestors_pdf",
     "entity_type": "master",
@@ -3080,6 +4776,22 @@
     "excerpt": "35,41 26,69"
   },
   {
+    "id": "BrenqDowfERh-zqnolaWV",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "LhYc5nPmBBsyVh8kscU3Q",
+    "field_name": "name",
+    "excerpt": "Luopu Yuanan"
+  },
+  {
+    "id": "lilTlluL0Gz3fV_dMQ_OW",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "LhYc5nPmBBsyVh8kscU3Q",
+    "field_name": "teachers",
+    "excerpt": "Jiashan Shanhui"
+  },
+  {
     "id": "Fl13-bfocSXVfLMBmt_-i",
     "source_id": "src_chan_ancestors_pdf",
     "entity_type": "master",
@@ -3110,6 +4822,22 @@
     "entity_id": "LLwCimIa1-v4zit4LjIo-",
     "field_name": "koan_refs",
     "excerpt": "8 71"
+  },
+  {
+    "id": "IxOcFjofI99hplePb7k4l",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "LLwCimIa1-v4zit4LjIo-",
+    "field_name": "name",
+    "excerpt": "Cuiyan Lingcan"
+  },
+  {
+    "id": "u0NMZefa8W8BrWWtgT0yg",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "LLwCimIa1-v4zit4LjIo-",
+    "field_name": "teachers",
+    "excerpt": "Xuefeng Yicun"
   },
   {
     "id": "-bh5BzMKThUj2EsgXazIh",
@@ -3160,6 +4888,22 @@
     "excerpt": "35,36 38,45"
   },
   {
+    "id": "T8mdoT-btkm123YLQc0-4",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "lZ4j8pOCblnrPvSG8faoi",
+    "field_name": "name",
+    "excerpt": "Wuzu Fayan"
+  },
+  {
+    "id": "ZkT2MgjgYu7w2-rdoufeA",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "lZ4j8pOCblnrPvSG8faoi",
+    "field_name": "teachers",
+    "excerpt": "Baiyun Shouduan"
+  },
+  {
     "id": "eIxv4I_xLv3JPGx0dyl1b",
     "source_id": "src_chan_ancestors_pdf",
     "entity_type": "master",
@@ -3176,12 +4920,44 @@
     "excerpt": "Linji/Yangqi"
   },
   {
+    "id": "vxaTqyt0cA5A_yIqf_6ol",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "M_dUQCJ9bjmX1ckgX4YtY",
+    "field_name": "name",
+    "excerpt": "Zhuan Shigui"
+  },
+  {
+    "id": "aS6ju6OG4logqJdIhFx6H",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "M_dUQCJ9bjmX1ckgX4YtY",
+    "field_name": "teachers",
+    "excerpt": "Dahui Zonggao"
+  },
+  {
+    "id": "DXQKEmo_7XY2aM0oKZfWW",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "MaT_2LUWapSpvCzLlN9of",
+    "field_name": "dates",
+    "excerpt": "c. 170-270 CE"
+  },
+  {
     "id": "pCsBXOtuG5MC2S7vfjthu",
     "source_id": "src_originals_curated",
     "entity_type": "master",
     "entity_id": "MaT_2LUWapSpvCzLlN9of",
     "field_name": "name",
     "excerpt": "Aryadeva"
+  },
+  {
+    "id": "_CRs8RpRF2ong8cRH7S4J",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "MaT_2LUWapSpvCzLlN9of",
+    "field_name": "school",
+    "excerpt": "Indian Patriarchs"
   },
   {
     "id": "2d-P16s5tCbm7MRa9WjVx",
@@ -3224,6 +5000,22 @@
     "excerpt": "61 40,48"
   },
   {
+    "id": "qIgm43iSJqFHgNiTJhoD6",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "MRUgXjS05THSbaFxxRBWe",
+    "field_name": "name",
+    "excerpt": "Yuezhou Qianfeng"
+  },
+  {
+    "id": "a_CpIL8i1Q7fEm8e8yIic",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "MRUgXjS05THSbaFxxRBWe",
+    "field_name": "teachers",
+    "excerpt": "Dongshan Liangjie"
+  },
+  {
     "id": "fM6i6fYX-VQr_y4B_mtmR",
     "source_id": "src_chan_ancestors_pdf",
     "entity_type": "master",
@@ -3256,12 +5048,44 @@
     "excerpt": "43"
   },
   {
+    "id": "ILuIDFzruLbC-bwXsnTSS",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "mt7Wvlp1EHOHKUB1I3yk9",
+    "field_name": "name",
+    "excerpt": "Luoshan Daoxian"
+  },
+  {
+    "id": "Y2NfrjLS7MwlTgNQLXb2A",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "mt7Wvlp1EHOHKUB1I3yk9",
+    "field_name": "teachers",
+    "excerpt": "Xuefeng Yicun"
+  },
+  {
+    "id": "hL-2nE5BtMLc95h3dUK7R",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "my3n-C46G_URdJrNzWjCo",
+    "field_name": "dates",
+    "excerpt": "c. 150-250 CE"
+  },
+  {
     "id": "W8G1APePYFWtzIaodBVF2",
     "source_id": "src_originals_curated",
     "entity_type": "master",
     "entity_id": "my3n-C46G_URdJrNzWjCo",
     "field_name": "name",
     "excerpt": "Nagarjuna"
+  },
+  {
+    "id": "1dCDAl1ttUPjNs_klUNrd",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "my3n-C46G_URdJrNzWjCo",
+    "field_name": "school",
+    "excerpt": "Indian Patriarchs"
   },
   {
     "id": "g5KYNAufgaFVlTIDswaLw",
@@ -3328,6 +5152,22 @@
     "excerpt": "13,100 48"
   },
   {
+    "id": "JVQVFJTE06m4gylpEjxGK",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "MzsKL71HSAAVCzJred0Z3",
+    "field_name": "name",
+    "excerpt": "Baling Haojian"
+  },
+  {
+    "id": "dOgFYSxP7ZV_vznqDWwaY",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "MzsKL71HSAAVCzJred0Z3",
+    "field_name": "teachers",
+    "excerpt": "Dongshan Shouchu"
+  },
+  {
     "id": "KhLfZ4bcxVMY1aNGXUowj",
     "source_id": "src_chan_ancestors_pdf",
     "entity_type": "master",
@@ -3350,6 +5190,22 @@
     "entity_id": "MZXM7aD7Xu_yqhL_cdQ0d",
     "field_name": "koan_refs",
     "excerpt": "31,69 16"
+  },
+  {
+    "id": "PxqobzxlRqH3zF6MElrE6",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "MZXM7aD7Xu_yqhL_cdQ0d",
+    "field_name": "name",
+    "excerpt": "Mayu Baoche"
+  },
+  {
+    "id": "AzKyiDz3KCGif3FtzG2Jv",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "MZXM7aD7Xu_yqhL_cdQ0d",
+    "field_name": "teachers",
+    "excerpt": "Mazu Daoyi"
   },
   {
     "id": "RdeDz4HAmkYtIBpCtUsqv",
@@ -3376,6 +5232,22 @@
     "excerpt": "Jiashan Shanhui (M11)"
   },
   {
+    "id": "Qdk9oClfj7GfYUeJY6YlT",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "NDmJFm_-4hx3eBqReWXWS",
+    "field_name": "name",
+    "excerpt": "Changlu Qingliao"
+  },
+  {
+    "id": "DNprb4tMN-vKelHVPdJ8r",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "NDmJFm_-4hx3eBqReWXWS",
+    "field_name": "teachers",
+    "excerpt": "Danxia Zichun"
+  },
+  {
     "id": "Nr_yY5HaJKxkIuMSQHvId",
     "source_id": "src_chan_ancestors_pdf",
     "entity_type": "master",
@@ -3390,6 +5262,22 @@
     "entity_id": "NEAKNQoo_MlBKLBAQRXDI",
     "field_name": "school",
     "excerpt": "Qingyuan line"
+  },
+  {
+    "id": "l16gE0dUQri_T9ZQbyvvY",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "NEAKNQoo_MlBKLBAQRXDI",
+    "field_name": "name",
+    "excerpt": "Yuquan Shenxiu"
+  },
+  {
+    "id": "l807m_T4G4W2k2-KaQTFF",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "NEAKNQoo_MlBKLBAQRXDI",
+    "field_name": "teachers",
+    "excerpt": "Daman Hongren"
   },
   {
     "id": "2QBTJMjEs7XlZNi1sObYs",
@@ -3528,6 +5416,22 @@
     "excerpt": "Caodong"
   },
   {
+    "id": "VrhbwuNHD9qbMr0xpM0EJ",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "no2kDb-qSf_4r9NjDeyq9",
+    "field_name": "name",
+    "excerpt": "Zhenxie Qingliao"
+  },
+  {
+    "id": "si1c5nS4iEYwFPMKBB4vT",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "no2kDb-qSf_4r9NjDeyq9",
+    "field_name": "teachers",
+    "excerpt": "Danxia Zichun"
+  },
+  {
     "id": "k_LZedVAVhHdEbYDIQ9W_",
     "source_id": "src_chan_ancestors_pdf",
     "entity_type": "master",
@@ -3542,6 +5446,22 @@
     "entity_id": "noj0soXZGkua0vO7MpOsD",
     "field_name": "school",
     "excerpt": "Caodong"
+  },
+  {
+    "id": "bG4ThbvcVjEKWSz4zjXbh",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "noj0soXZGkua0vO7MpOsD",
+    "field_name": "name",
+    "excerpt": "Moshan Liaoran"
+  },
+  {
+    "id": "HrO9iS4BBoOFJdZ0nHxLy",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "noj0soXZGkua0vO7MpOsD",
+    "field_name": "teachers",
+    "excerpt": "Gaoan Dayu"
   },
   {
     "id": "IevpLC8ZPmHkFRoT5fzYq",
@@ -3560,12 +5480,44 @@
     "excerpt": "Linji"
   },
   {
+    "id": "U12jefjSotxJS_1-l1Xbl",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "NVstWHNNQBh7pgteVGtDn",
+    "field_name": "name",
+    "excerpt": "Cuiyan Kezhen"
+  },
+  {
+    "id": "5cZ4aiwBAAUyYKGWvgP6C",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "NVstWHNNQBh7pgteVGtDn",
+    "field_name": "teachers",
+    "excerpt": "Shishuang Chuyuan"
+  },
+  {
+    "id": "PigbQP7cuJMbRuAvkHyYW",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "nVY1H3EIFPh_YpaA6eFQc",
+    "field_name": "dates",
+    "excerpt": "trad. 5th c. BCE"
+  },
+  {
     "id": "_D3LnKywvQ-PakjaLd-u9",
     "source_id": "src_originals_curated",
     "entity_type": "master",
     "entity_id": "nVY1H3EIFPh_YpaA6eFQc",
     "field_name": "name",
     "excerpt": "Shanakavasa"
+  },
+  {
+    "id": "PWOLDLVaDzodClHR4-sEb",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "nVY1H3EIFPh_YpaA6eFQc",
+    "field_name": "school",
+    "excerpt": "Indian Patriarchs"
   },
   {
     "id": "vK-5pPZFQC18yywGl1eX9",
@@ -3592,12 +5544,44 @@
     "excerpt": "Linji/Yangqi"
   },
   {
+    "id": "OKaykUcvyds305VaYAEHP",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "O-M3m_XGgwVNBiKpNlzJ2",
+    "field_name": "name",
+    "excerpt": "Baiyun Shouduan"
+  },
+  {
+    "id": "HEysYhdyKlt5CrSQLFMcT",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "O-M3m_XGgwVNBiKpNlzJ2",
+    "field_name": "teachers",
+    "excerpt": "Yangqi Fanghui"
+  },
+  {
+    "id": "ZWpqCax00bAiDNw_gDzO7",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "oDgWuQLQG__HcsFgsuCnm",
+    "field_name": "dates",
+    "excerpt": "c. 563-483 BCE"
+  },
+  {
     "id": "tcONWF3xVQ2iFL8RH2xL4",
     "source_id": "src_originals_curated",
     "entity_type": "master",
     "entity_id": "oDgWuQLQG__HcsFgsuCnm",
     "field_name": "name",
     "excerpt": "Shakyamuni Buddha"
+  },
+  {
+    "id": "o-q0q_fsIsgO52S9doIF7",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "oDgWuQLQG__HcsFgsuCnm",
+    "field_name": "school",
+    "excerpt": "Indian Patriarchs"
   },
   {
     "id": "eh6mHZeJyMAbYeFTSSM_A",
@@ -3614,6 +5598,22 @@
     "entity_id": "OggSJsfxAwRhE2UUVas6g",
     "field_name": "school",
     "excerpt": "Guiyang"
+  },
+  {
+    "id": "XP35oCK6paYfS0asU7hy8",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "OggSJsfxAwRhE2UUVas6g",
+    "field_name": "name",
+    "excerpt": "Baofeng Weizhao"
+  },
+  {
+    "id": "eLuK0ridLHEikM-VLbaoB",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "OggSJsfxAwRhE2UUVas6g",
+    "field_name": "teachers",
+    "excerpt": "Xiangyan Zhixian"
   },
   {
     "id": "jqdizKaHFjHn08EP9Zy2j",
@@ -3648,6 +5648,22 @@
     "excerpt": "12,20"
   },
   {
+    "id": "hGM_dvYOJQH95L3XKo0FT",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "Ol3Uuxkzi7rtRH2CVccHm",
+    "field_name": "name",
+    "excerpt": "Luohan Guichen"
+  },
+  {
+    "id": "O_4ioOEJyXPlLojQeORBy",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "Ol3Uuxkzi7rtRH2CVccHm",
+    "field_name": "teachers",
+    "excerpt": "Xuansha Shibei"
+  },
+  {
     "id": "_8q6LAIb0ys_Y7OdtaseV",
     "source_id": "src_chan_ancestors_pdf",
     "entity_type": "master",
@@ -3670,6 +5686,22 @@
     "entity_id": "oPsupmKZ_xN51oyqQdF0z",
     "field_name": "school",
     "excerpt": "Nanyue line"
+  },
+  {
+    "id": "vKMWALvfgVZ46IreF19XR",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "oPsupmKZ_xN51oyqQdF0z",
+    "field_name": "name",
+    "excerpt": "Baoen Xuanze"
+  },
+  {
+    "id": "19m2ik5qw8Sy5WBVzEwld",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "oPsupmKZ_xN51oyqQdF0z",
+    "field_name": "teachers",
+    "excerpt": "Yunmen Wenyan"
   },
   {
     "id": "6mWYy4FgSiURK9SlRxiIO",
@@ -3728,6 +5760,22 @@
     "excerpt": "25"
   },
   {
+    "id": "yromaUf5wKlGF0JIJ1CxM",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "p4aJBzmNaNhr-KEdOwopR",
+    "field_name": "name",
+    "excerpt": "Lianhua Fengxiang"
+  },
+  {
+    "id": "_zLRON_9i4Y0pK3GCwaG9",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "p4aJBzmNaNhr-KEdOwopR",
+    "field_name": "teachers",
+    "excerpt": "Xuefeng Yicun"
+  },
+  {
     "id": "ZVtR0jS3uHH7_jFEiUy7v",
     "source_id": "src_chan_ancestors_pdf",
     "entity_type": "master",
@@ -3744,12 +5792,44 @@
     "excerpt": "18"
   },
   {
+    "id": "1fv0TAk0LqW9yXTeP8NrY",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "pbWBL8B0a1dmJg4hSECfw",
+    "field_name": "name",
+    "excerpt": "Pang Yun"
+  },
+  {
+    "id": "S8nEXu0IqukXGa_1Ltyyk",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "pbWBL8B0a1dmJg4hSECfw",
+    "field_name": "teachers",
+    "excerpt": "Mazu Daoyi"
+  },
+  {
+    "id": "VUpq_LlUfcKMZ9jF2vyVs",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "pjmSshTkUyqFmd9mDotbM",
+    "field_name": "dates",
+    "excerpt": "trad. 3rd c. CE"
+  },
+  {
     "id": "BQXjCw9l_jDHRagnR2J86",
     "source_id": "src_originals_curated",
     "entity_type": "master",
     "entity_id": "pjmSshTkUyqFmd9mDotbM",
     "field_name": "name",
     "excerpt": "Sanghanandi"
+  },
+  {
+    "id": "xREkbFDZKFLA41o6eAPZE",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "pjmSshTkUyqFmd9mDotbM",
+    "field_name": "school",
+    "excerpt": "Indian Patriarchs"
   },
   {
     "id": "RVwfFx1oCcaAkT-ivyXrc",
@@ -3782,6 +5862,22 @@
     "entity_id": "pK1ozC28fBtfV_A-zCIvr",
     "field_name": "koan_refs",
     "excerpt": "30"
+  },
+  {
+    "id": "X8rU1LvlBDcA1o3BUi1DD",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "pK1ozC28fBtfV_A-zCIvr",
+    "field_name": "name",
+    "excerpt": "Damei Fachang"
+  },
+  {
+    "id": "xPAvXHaPMguO7_8_R8QF3",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "pK1ozC28fBtfV_A-zCIvr",
+    "field_name": "teachers",
+    "excerpt": "Mazu Daoyi"
   },
   {
     "id": "P6nHSOJkMV8ZfV0uPFpzK",
@@ -3832,12 +5928,28 @@
     "excerpt": "Tianhuang Daowu"
   },
   {
+    "id": "M0_76XNV8gmky_jKv0Bij",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "pSb9_Qob0HVVHAJ9ofchR",
+    "field_name": "dates",
+    "excerpt": "trad. 5th c. CE"
+  },
+  {
     "id": "Os3JvyIx7gwSuljKEPXbc",
     "source_id": "src_originals_curated",
     "entity_type": "master",
     "entity_id": "pSb9_Qob0HVVHAJ9ofchR",
     "field_name": "name",
     "excerpt": "Vasasita"
+  },
+  {
+    "id": "-4X1Y5hjKYGNLpmYdqk2n",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "pSb9_Qob0HVVHAJ9ofchR",
+    "field_name": "school",
+    "excerpt": "Indian Patriarchs"
   },
   {
     "id": "upBx97DBfctQN7Mqkp7_z",
@@ -3894,6 +6006,22 @@
     "entity_id": "pxx2qaSxC_Crv8p9o8l5p",
     "field_name": "koan_refs",
     "excerpt": "75"
+  },
+  {
+    "id": "mDF6KZTT_XRdF4QSjim4Q",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "pxx2qaSxC_Crv8p9o8l5p",
+    "field_name": "name",
+    "excerpt": "Wujiu Youxuan"
+  },
+  {
+    "id": "58amFpIQtVO8w7DOWXnPF",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "pxx2qaSxC_Crv8p9o8l5p",
+    "field_name": "teachers",
+    "excerpt": "Mazu Daoyi"
   },
   {
     "id": "l_bLlJTyvQ_v3aDaqVyEx",
@@ -4048,6 +6176,22 @@
     "excerpt": "49,68 13,33"
   },
   {
+    "id": "WTQuvJ_6JbenY99SpGVHl",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "Q7Gx9DnbP5KTZCxD8hFmu",
+    "field_name": "name",
+    "excerpt": "Sansheng Huiran"
+  },
+  {
+    "id": "eD-T4YGTY1JT1_ujM4yk-",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "Q7Gx9DnbP5KTZCxD8hFmu",
+    "field_name": "teachers",
+    "excerpt": "Xinghua Cunjiang"
+  },
+  {
     "id": "uIH34pf6u1ZXDIpZMWD9V",
     "source_id": "src_chan_ancestors_pdf",
     "entity_type": "master",
@@ -4062,6 +6206,22 @@
     "entity_id": "qB1m3MboCgq1YkbCWEWY6",
     "field_name": "school",
     "excerpt": "Yunmen"
+  },
+  {
+    "id": "NXMH5W701HtuQzm0uzksx",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "qB1m3MboCgq1YkbCWEWY6",
+    "field_name": "name",
+    "excerpt": "Yang Wuwei"
+  },
+  {
+    "id": "JzmDVpl3LgcGeCcrkC1QF",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "qB1m3MboCgq1YkbCWEWY6",
+    "field_name": "teachers",
+    "excerpt": "Furong Daokai"
   },
   {
     "id": "vrkNId25xIXG4EQj53F2Q",
@@ -4096,6 +6256,22 @@
     "excerpt": "24 60"
   },
   {
+    "id": "zXTGqvkszTJ06_aRJM6ZH",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "QdAytZKtUArQPxta3X8t7",
+    "field_name": "name",
+    "excerpt": "Liu Tiemo"
+  },
+  {
+    "id": "o4EMccXOoqg4KgB3mPRaG",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "QdAytZKtUArQPxta3X8t7",
+    "field_name": "teachers",
+    "excerpt": "Guishan Lingyou"
+  },
+  {
     "id": "VZK7DcBUgHur17J-XOweT",
     "source_id": "src_chan_ancestors_pdf",
     "entity_type": "master",
@@ -4120,6 +6296,30 @@
     "excerpt": "36 79 19"
   },
   {
+    "id": "ys773TQV4I1mDhWJZlTdE",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "qfbrxo8zivETGjePTga_s",
+    "field_name": "name",
+    "excerpt": "Changsha Jingcen"
+  },
+  {
+    "id": "NOcm5D7Ku1I9oE5YEmcWJ",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "qfbrxo8zivETGjePTga_s",
+    "field_name": "teachers",
+    "excerpt": "Nanquan Puyuan"
+  },
+  {
+    "id": "XPflrODzRpj6-xPZ4Jwt3",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "QL__3DUEKp2S2_iQgrq48",
+    "field_name": "dates",
+    "excerpt": "trad. 3rd c. BCE"
+  },
+  {
     "id": "I_WpYsv2JIjlmefRHlTVy",
     "source_id": "src_originals_curated",
     "entity_type": "master",
@@ -4128,12 +6328,36 @@
     "excerpt": "Michaka"
   },
   {
+    "id": "0d17M4gAoCMioDFhVgQEX",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "QL__3DUEKp2S2_iQgrq48",
+    "field_name": "school",
+    "excerpt": "Indian Patriarchs"
+  },
+  {
     "id": "5nxpXZIMT--H46YSd11nN",
     "source_id": "src_originals_curated",
     "entity_type": "master",
     "entity_id": "QL__3DUEKp2S2_iQgrq48",
     "field_name": "teachers",
     "excerpt": "Dhritaka"
+  },
+  {
+    "id": "_GM-Xihr1gvAQmauFGo62",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "QNihLq7F6lFvXyy0FEUCI",
+    "field_name": "name",
+    "excerpt": "Poan Zuxian"
+  },
+  {
+    "id": "LSv410dgiOHPV5AgiE8XT",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "QNihLq7F6lFvXyy0FEUCI",
+    "field_name": "teachers",
+    "excerpt": "Zhuan Shigui"
   },
   {
     "id": "zXolWQU84QvlRVIEKvpoc",
@@ -4184,12 +6408,28 @@
     "excerpt": "Yaoshan Weiyan"
   },
   {
+    "id": "xV1Nk7NtW1mJl20mGlbX0",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "RCt4jHgjnctkJQ-nUgGqm",
+    "field_name": "dates",
+    "excerpt": "trad. 1st c. BCE"
+  },
+  {
     "id": "kuTNCLnvU8sk30Wk6-hIw",
     "source_id": "src_originals_curated",
     "entity_type": "master",
     "entity_id": "RCt4jHgjnctkJQ-nUgGqm",
     "field_name": "name",
     "excerpt": "Punyayashas"
+  },
+  {
+    "id": "FyS2XhNimiWPHvzPGHQJR",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "RCt4jHgjnctkJQ-nUgGqm",
+    "field_name": "school",
+    "excerpt": "Indian Patriarchs"
   },
   {
     "id": "PCSju_YLtXlY0dsscdKmk",
@@ -4224,6 +6464,22 @@
     "excerpt": "98"
   },
   {
+    "id": "673T0_k_78V5XBJDecZ2l",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "Rwko-GTEayENS1Q0lSgRs",
+    "field_name": "name",
+    "excerpt": "Tianping Congyi"
+  },
+  {
+    "id": "UFra50INtvNa-LXWuYdsv",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "Rwko-GTEayENS1Q0lSgRs",
+    "field_name": "teachers",
+    "excerpt": "Luoshan Daoxian"
+  },
+  {
     "id": "hbtAL8u3fW7dvTfp62r4m",
     "source_id": "src_chan_ancestors_pdf",
     "entity_type": "master",
@@ -4254,6 +6510,22 @@
     "entity_id": "RZ12rddz4Ik3VPQ0zXLHn",
     "field_name": "koan_refs",
     "excerpt": "72"
+  },
+  {
+    "id": "wW4kTouP_63ynp_GAu6uu",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "RZ12rddz4Ik3VPQ0zXLHn",
+    "field_name": "name",
+    "excerpt": "Zhongyi Hongen"
+  },
+  {
+    "id": "lJvrBjWDqIBcwctxagVTe",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "RZ12rddz4Ik3VPQ0zXLHn",
+    "field_name": "teachers",
+    "excerpt": "Mazu Daoyi"
   },
   {
     "id": "af7IF9eFW22rrH7aPEk_8",
@@ -4288,6 +6560,22 @@
     "excerpt": "Yamada Koun"
   },
   {
+    "id": "QFnb2yOKL41t0CRqux4Ix",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "s6fg-VgmQx67L-78F45cW",
+    "field_name": "name",
+    "excerpt": "Wuzhun Shifan"
+  },
+  {
+    "id": "h0okC7ISnEB5O9g1XZwx8",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "s6fg-VgmQx67L-78F45cW",
+    "field_name": "teachers",
+    "excerpt": "Poan Zuxian"
+  },
+  {
     "id": "RETdrPIVtQJzNeOopDRi4",
     "source_id": "src_chan_ancestors_pdf",
     "entity_type": "master",
@@ -4310,6 +6598,22 @@
     "entity_id": "SBxT4ao1VkUaz3s0-VHxk",
     "field_name": "koan_refs",
     "excerpt": "20 80 15"
+  },
+  {
+    "id": "2Dziv-D--GWscqSmhhpjV",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "SBxT4ao1VkUaz3s0-VHxk",
+    "field_name": "name",
+    "excerpt": "Longya Judun"
+  },
+  {
+    "id": "K5QoQPSbnOGBuO6VLYU7G",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "SBxT4ao1VkUaz3s0-VHxk",
+    "field_name": "teachers",
+    "excerpt": "Dongshan Liangjie"
   },
   {
     "id": "8xvTF9GtSXwiO3nxjcpWW",
@@ -4504,6 +6808,22 @@
     "excerpt": "Qingyuan line"
   },
   {
+    "id": "P-JYTIncoqA4zRSkNdZGZ",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "sq4kfstDl97XrJQhtHtme",
+    "field_name": "name",
+    "excerpt": "Yongming Yanshou"
+  },
+  {
+    "id": "9qQmRTONc7zq_AqApanU-",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "sq4kfstDl97XrJQhtHtme",
+    "field_name": "teachers",
+    "excerpt": "Tiantai Deshao"
+  },
+  {
     "id": "M3-d0T6BQAj_DbjTZfA3V",
     "source_id": "src_chan_ancestors_pdf",
     "entity_type": "master",
@@ -4526,6 +6846,22 @@
     "entity_id": "SSHyzsJj2K7xWw2Q5ZVHG",
     "field_name": "school",
     "excerpt": "Qingyuan line"
+  },
+  {
+    "id": "KZA-6EsKhOE9Ygf4x54Dp",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "SSHyzsJj2K7xWw2Q5ZVHG",
+    "field_name": "name",
+    "excerpt": "Tiantai Deshao"
+  },
+  {
+    "id": "rHx97yNWh6ssQHt5buSny",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "SSHyzsJj2K7xWw2Q5ZVHG",
+    "field_name": "teachers",
+    "excerpt": "Fayan Wenyi"
   },
   {
     "id": "fg78azxZrvvX4wtRi8Pg0",
@@ -4552,12 +6888,44 @@
     "excerpt": "51,66 22,43,50 13 53 55 ,75"
   },
   {
+    "id": "UzY2dqjqPoJsewTGO_O3o",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "STErfEe56EBTfML9qvACn",
+    "field_name": "name",
+    "excerpt": "Yantou Quanhuo"
+  },
+  {
+    "id": "Zhwu6KtU39E1jueZiN90R",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "STErfEe56EBTfML9qvACn",
+    "field_name": "teachers",
+    "excerpt": "Deshan Xuanjian"
+  },
+  {
+    "id": "NZdISEZ6XpVnR7fPhpXk6",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "sWs0_DcgLTAzOP5pMMOTZ",
+    "field_name": "dates",
+    "excerpt": "trad. 1st c. BCE"
+  },
+  {
     "id": "b9Py3vBgduHsgO7kgvjjQ",
     "source_id": "src_originals_curated",
     "entity_type": "master",
     "entity_id": "sWs0_DcgLTAzOP5pMMOTZ",
     "field_name": "name",
     "excerpt": "Parshva"
+  },
+  {
+    "id": "e5DHOXasSr6BTX-5lN4CV",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "sWs0_DcgLTAzOP5pMMOTZ",
+    "field_name": "school",
+    "excerpt": "Indian Patriarchs"
   },
   {
     "id": "-AZmn4ssxNKfxJFFv1-xc",
@@ -4616,6 +6984,22 @@
     "excerpt": "Linji"
   },
   {
+    "id": "ERZ5F0ltrRJpOQ_cWehxh",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "T5yC-lZjdEoiTetm3Rsfx",
+    "field_name": "name",
+    "excerpt": "Yuelin Shiguan"
+  },
+  {
+    "id": "Eg_tCWG1ppl_UYbQJIagN",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "T5yC-lZjdEoiTetm3Rsfx",
+    "field_name": "teachers",
+    "excerpt": "Wuzhun Shifan"
+  },
+  {
     "id": "7giYPA_14rusERP9x4Hs5",
     "source_id": "src_chan_ancestors_pdf",
     "entity_type": "master",
@@ -4630,6 +7014,22 @@
     "entity_id": "taa1SflJsFeSc5_-ahrX8",
     "field_name": "school",
     "excerpt": "Linji"
+  },
+  {
+    "id": "kP3og3fj-D9KTqfvqUsp2",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "taa1SflJsFeSc5_-ahrX8",
+    "field_name": "name",
+    "excerpt": "Shishuang Chuyuan"
+  },
+  {
+    "id": "off4Twa8T6UJrx12rdm5F",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "taa1SflJsFeSc5_-ahrX8",
+    "field_name": "teachers",
+    "excerpt": "Fenyang Shanzhao"
   },
   {
     "id": "J9tR6yIhqnljGsmGo2J2m",
@@ -4654,6 +7054,22 @@
     "entity_id": "TBKSEsLQZiOU_e4wO8-CU",
     "field_name": "koan_refs",
     "excerpt": "31 16"
+  },
+  {
+    "id": "oxble0B69TNoVi8_Af3fr",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "TBKSEsLQZiOU_e4wO8-CU",
+    "field_name": "name",
+    "excerpt": "Zhangjing Huaiyun"
+  },
+  {
+    "id": "vQO0uxEbp3l5SDgAvBZjs",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "TBKSEsLQZiOU_e4wO8-CU",
+    "field_name": "teachers",
+    "excerpt": "Mazu Daoyi"
   },
   {
     "id": "zvxenm1ml8BNDpIDI5PYj",
@@ -4736,6 +7152,22 @@
     "excerpt": "44 70,98"
   },
   {
+    "id": "WICUV_HGCcArRIRStyPE0",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "Tm1rbdJAF98SEEdKOXmbZ",
+    "field_name": "name",
+    "excerpt": "Bajiao Huiqing"
+  },
+  {
+    "id": "AVm5stsgjn5TNBj_2k19m",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "Tm1rbdJAF98SEEdKOXmbZ",
+    "field_name": "teachers",
+    "excerpt": "Nanta Guangyong"
+  },
+  {
     "id": "P2AKH2UyAxYYKNWugWS0I",
     "source_id": "src_chan_ancestors_pdf",
     "entity_type": "master",
@@ -4766,6 +7198,22 @@
     "entity_id": "TmI49DCAHKzONqKV8a1Ys",
     "field_name": "koan_refs",
     "excerpt": "93"
+  },
+  {
+    "id": "1fXgRGIxhJevXDXbG7v2Z",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "TmI49DCAHKzONqKV8a1Ys",
+    "field_name": "name",
+    "excerpt": "Daguang Juhui"
+  },
+  {
+    "id": "1sLmPQHtz8p1P_XvqABzw",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "TmI49DCAHKzONqKV8a1Ys",
+    "field_name": "teachers",
+    "excerpt": "Touzi Datong"
   },
   {
     "id": "k-VmUhTS1jX0aqb8FJYbR",
@@ -4864,6 +7312,30 @@
     "excerpt": "Linji/Rinzai"
   },
   {
+    "id": "LVHumwT8gCViYSD4hM8q_",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "TsYO265GIyAiEWl-Gee2I",
+    "field_name": "dates",
+    "excerpt": "1642-1721"
+  },
+  {
+    "id": "f5PmbgU11dJlBoLXBlZRE",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "TsYO265GIyAiEWl-Gee2I",
+    "field_name": "name",
+    "excerpt": "Shoju Rojin"
+  },
+  {
+    "id": "OYR_5bh385_e5KPhWsMXZ",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "TsYO265GIyAiEWl-Gee2I",
+    "field_name": "school",
+    "excerpt": "Rinzai"
+  },
+  {
     "id": "72FqLxApT-OhURFuYASRZ",
     "source_id": "src_chan_ancestors_pdf",
     "entity_type": "master",
@@ -4888,12 +7360,44 @@
     "excerpt": "39"
   },
   {
+    "id": "W9HOfGVy1vQn7UUhS1wcV",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "tucgspCiGHOSD5vJVeIKY",
+    "field_name": "name",
+    "excerpt": "Sixin Wuxin"
+  },
+  {
+    "id": "cCSOjYucOeebXZ4P6YaDu",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "tucgspCiGHOSD5vJVeIKY",
+    "field_name": "teachers",
+    "excerpt": "Baiyun Shouduan"
+  },
+  {
+    "id": "gv_wY-ArEnOcVvfimTjFw",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "TvV4QKu4ZhHtn8WkdDL7W",
+    "field_name": "dates",
+    "excerpt": "trad. 5th c. BCE"
+  },
+  {
     "id": "p9HceO1abXFtS-20Xnr1e",
     "source_id": "src_originals_curated",
     "entity_type": "master",
     "entity_id": "TvV4QKu4ZhHtn8WkdDL7W",
     "field_name": "name",
     "excerpt": "Ananda"
+  },
+  {
+    "id": "uOeTRiK06h2rcjZ5Rb445",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "TvV4QKu4ZhHtn8WkdDL7W",
+    "field_name": "school",
+    "excerpt": "Indian Patriarchs"
   },
   {
     "id": "rCU8h7vDE9HK5Avy2kt4q",
@@ -4926,6 +7430,22 @@
     "entity_id": "tWIL3-PP9anYN53fH_WSh",
     "field_name": "school",
     "excerpt": "Qingyuan line"
+  },
+  {
+    "id": "1crlJ1WWAt8bvMB64jwAY",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "tWIL3-PP9anYN53fH_WSh",
+    "field_name": "name",
+    "excerpt": "Taiyuan Fu"
+  },
+  {
+    "id": "DiTsdjTDrz9LRB2Fkhupg",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "tWIL3-PP9anYN53fH_WSh",
+    "field_name": "teachers",
+    "excerpt": "Shushan Kuangren"
   },
   {
     "id": "TVFBLyYQHYacEfKlVQ9oD",
@@ -5048,6 +7568,38 @@
     "excerpt": "Linji"
   },
   {
+    "id": "90RI4JA-7FjyvbCxjFZvD",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "Uj8Fu23jBVYiUHHl32zzU",
+    "field_name": "name",
+    "excerpt": "Xita Guangmu"
+  },
+  {
+    "id": "mnmSRCk77yApD3H0Y2fWQ",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "Uj8Fu23jBVYiUHHl32zzU",
+    "field_name": "teachers",
+    "excerpt": "Linji Yixuan"
+  },
+  {
+    "id": "2njeppT-IUof03CNq8sO4",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "UohqYd8v_T7T_hsfoUDav",
+    "field_name": "name",
+    "excerpt": "Baotang Wuzhu"
+  },
+  {
+    "id": "AUMsAnc_1E4GIeKTqkrAp",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "UohqYd8v_T7T_hsfoUDav",
+    "field_name": "teachers",
+    "excerpt": "Jingzhong Wuxiang"
+  },
+  {
     "id": "epR8W3IksV4lO47wKRYGb",
     "source_id": "src_chan_ancestors_pdf",
     "entity_type": "master",
@@ -5062,6 +7614,22 @@
     "entity_id": "UPNzZbMpN3aYiR1YAriYG",
     "field_name": "school",
     "excerpt": "Caodong"
+  },
+  {
+    "id": "j6nmUo01Jbh_62ZXx1x4D",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "UPNzZbMpN3aYiR1YAriYG",
+    "field_name": "name",
+    "excerpt": "Shexian Guixing"
+  },
+  {
+    "id": "3RxzggmdST4Rk5ZKAXAOm",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "UPNzZbMpN3aYiR1YAriYG",
+    "field_name": "teachers",
+    "excerpt": "Fushan Fayuan"
   },
   {
     "id": "YFxBvwTOdrBiYJeeXfhsx",
@@ -5096,6 +7664,22 @@
     "excerpt": "55,89 21,54, 83 4,20"
   },
   {
+    "id": "PiEbeA9dIe5VhwK05osMz",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "upu2QpQ9LlFN3T-gwWP01",
+    "field_name": "name",
+    "excerpt": "Daowu Yuanzhi"
+  },
+  {
+    "id": "Z5o-xvwulDnEhG_z7PSHG",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "upu2QpQ9LlFN3T-gwWP01",
+    "field_name": "teachers",
+    "excerpt": "Yaoshan Weiyan"
+  },
+  {
     "id": "Js8EhxamKgjIauIJ2KWd5",
     "source_id": "src_chan_ancestors_pdf",
     "entity_type": "master",
@@ -5112,12 +7696,44 @@
     "excerpt": "Caodong"
   },
   {
+    "id": "dO6PPy1RbV6Pllx6uRFrw",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "uQ3HJxr98QdGcDriXHgVa",
+    "field_name": "name",
+    "excerpt": "Tiantong Zongjue"
+  },
+  {
+    "id": "28JON1sDbHPem-RdeZhjS",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "uQ3HJxr98QdGcDriXHgVa",
+    "field_name": "teachers",
+    "excerpt": "Changlu Qingliao"
+  },
+  {
+    "id": "3xrUNB-zL1-vONkY9CZSD",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "UrW-WoQSXfuZ_BI68riTM",
+    "field_name": "dates",
+    "excerpt": "c. 316-396 CE"
+  },
+  {
     "id": "qa4fmuaQ_SDAHt_AZXrcU",
     "source_id": "src_originals_curated",
     "entity_type": "master",
     "entity_id": "UrW-WoQSXfuZ_BI68riTM",
     "field_name": "name",
     "excerpt": "Vasubandhu"
+  },
+  {
+    "id": "AnpDl_k8FVoaaxHdJzC2s",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "UrW-WoQSXfuZ_BI68riTM",
+    "field_name": "school",
+    "excerpt": "Indian Patriarchs"
   },
   {
     "id": "dkQkBG86rRNTGNFav-6y-",
@@ -5176,12 +7792,28 @@
     "excerpt": "Shitou Xiqian"
   },
   {
+    "id": "i-rXlXLOsok_bzF_HwoNm",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "uYAX94w0QwewUKFQwpJ7a",
+    "field_name": "dates",
+    "excerpt": "trad. 4th c. CE"
+  },
+  {
     "id": "WmGhoNcgmcO4hSxncJRfe",
     "source_id": "src_originals_curated",
     "entity_type": "master",
     "entity_id": "uYAX94w0QwewUKFQwpJ7a",
     "field_name": "name",
     "excerpt": "Kumarata"
+  },
+  {
+    "id": "H3IKJKevj6NNykqfHDiSH",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "uYAX94w0QwewUKFQwpJ7a",
+    "field_name": "school",
+    "excerpt": "Indian Patriarchs"
   },
   {
     "id": "Ic0XuK9nAQiH1YhKJBDHY",
@@ -5304,6 +7936,22 @@
     "excerpt": "65,76 43 41,52 60,61"
   },
   {
+    "id": "heSRJxy3iim2BnJ1nHWDa",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "uZ4D53XAuRrqcqmhCBmqG",
+    "field_name": "name",
+    "excerpt": "Shoushan Xingnian"
+  },
+  {
+    "id": "_PwGVYRjw7tprB5ai2fXt",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "uZ4D53XAuRrqcqmhCBmqG",
+    "field_name": "teachers",
+    "excerpt": "Fengxue Yanzhao"
+  },
+  {
     "id": "4wPjpP56DN2GhZ9SgZeLa",
     "source_id": "src_chan_ancestors_pdf",
     "entity_type": "master",
@@ -5336,6 +7984,22 @@
     "excerpt": "6"
   },
   {
+    "id": "vXcQiCDanBgEeb-gxycka",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "V_8lJN6ppavunARmM0NLf",
+    "field_name": "name",
+    "excerpt": "Chuanzi Decheng"
+  },
+  {
+    "id": "uq4ktHt3AI7-xZeUbV7sT",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "V_8lJN6ppavunARmM0NLf",
+    "field_name": "teachers",
+    "excerpt": "Yaoshan Weiyan"
+  },
+  {
     "id": "kKIFPbd2hgpzrV5CREdZs",
     "source_id": "src_chan_ancestors_pdf",
     "entity_type": "master",
@@ -5358,6 +8022,22 @@
     "entity_id": "v5EyeUSr4kkYXdxVFIuTu",
     "field_name": "teachers",
     "excerpt": "Qingyuan line 8th generation through Yantou Quanhuo (Q12)"
+  },
+  {
+    "id": "_ThozM2_ZFwmMpMN7uU1-",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "v5EyeUSr4kkYXdxVFIuTu",
+    "field_name": "name",
+    "excerpt": "Huanglong Huiji"
+  },
+  {
+    "id": "PUxaquECqB8otq3fkexI2",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "v5EyeUSr4kkYXdxVFIuTu",
+    "field_name": "teachers",
+    "excerpt": "Huanglong Huinan"
   },
   {
     "id": "AujctDJiVfVydHY9RePzX",
@@ -5384,6 +8064,22 @@
     "excerpt": "100"
   },
   {
+    "id": "WpF1MJP2ydExymYcHNxuP",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "v6FVLPTyfT77cJEetS1I6",
+    "field_name": "name",
+    "excerpt": "Changshui Zixuan"
+  },
+  {
+    "id": "xex3VQyMLMkLR_wHmNQds",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "v6FVLPTyfT77cJEetS1I6",
+    "field_name": "teachers",
+    "excerpt": "Fushan Fayuan"
+  },
+  {
     "id": "UDtuWOOZCOPXfWDTVip2H",
     "source_id": "src_chan_ancestors_pdf",
     "entity_type": "master",
@@ -5398,6 +8094,22 @@
     "entity_id": "v9Enx95HWL-dRCYWpf3vC",
     "field_name": "school",
     "excerpt": "Qingyuan line"
+  },
+  {
+    "id": "NjSQ8QAUpVwJ5-XZDuSs8",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "v9Enx95HWL-dRCYWpf3vC",
+    "field_name": "name",
+    "excerpt": "Cizhou Faru"
+  },
+  {
+    "id": "R1Y30qKbxx2M5PCgcjPF0",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "v9Enx95HWL-dRCYWpf3vC",
+    "field_name": "teachers",
+    "excerpt": "Heze Shenhui"
   },
   {
     "id": "N5OfHvYQLBPW8w5ICA5od",
@@ -5432,6 +8144,22 @@
     "excerpt": "66, 96 12"
   },
   {
+    "id": "ppCfvMKfzO2Li7RkvybTm",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "VC9R6db1spX9eNyW77zXV",
+    "field_name": "name",
+    "excerpt": "Jiufeng Daoqian"
+  },
+  {
+    "id": "9dc5mJiIGg0Y3Bc6rmJGD",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "VC9R6db1spX9eNyW77zXV",
+    "field_name": "teachers",
+    "excerpt": "Shishuang Qingzhu"
+  },
+  {
     "id": "lc7OoAlc5250TK1uPifbc",
     "source_id": "src_chan_ancestors_pdf",
     "entity_type": "master",
@@ -5446,6 +8174,22 @@
     "entity_id": "vjHWgxgLJcExleMk_kKNo",
     "field_name": "school",
     "excerpt": "Other"
+  },
+  {
+    "id": "hhYmMIiKjYE4bMsrqI2bK",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "vjHWgxgLJcExleMk_kKNo",
+    "field_name": "name",
+    "excerpt": "Shengshou Nanyin"
+  },
+  {
+    "id": "fyxQJtepGI92fAIaf18DI",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "vjHWgxgLJcExleMk_kKNo",
+    "field_name": "teachers",
+    "excerpt": "Jingzhong Shenhui"
   },
   {
     "id": "o1nRdE1ItYMLootNkqeZ4",
@@ -5480,6 +8224,22 @@
     "excerpt": "76 25"
   },
   {
+    "id": "rlwpbl_FjZKVmqrvmT9Vp",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "VkPTR1oW6Vohii5HAIgIR",
+    "field_name": "name",
+    "excerpt": "Danxia Tianran"
+  },
+  {
+    "id": "JBVjB-TXjglWJ8W3ABWmN",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "VkPTR1oW6Vohii5HAIgIR",
+    "field_name": "teachers",
+    "excerpt": "Shitou Xiqian"
+  },
+  {
     "id": "O-ZudUiil_D9dOOL7Uy6S",
     "source_id": "src_chan_ancestors_pdf",
     "entity_type": "master",
@@ -5502,6 +8262,22 @@
     "entity_id": "Vy7KG4Qzu-Xo8fQ7vz9Qs",
     "field_name": "koan_refs",
     "excerpt": "89"
+  },
+  {
+    "id": "AtQxj6Cl5K0B1UPSCPnPF",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "Vy7KG4Qzu-Xo8fQ7vz9Qs",
+    "field_name": "name",
+    "excerpt": "Dayang Jingxuan"
+  },
+  {
+    "id": "1xi5BljfuR_C1eKx7oNUC",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "Vy7KG4Qzu-Xo8fQ7vz9Qs",
+    "field_name": "teachers",
+    "excerpt": "Liangshan Yuanguan"
   },
   {
     "id": "fOL1KDlSxsaTcncF7l7pU",
@@ -5656,6 +8432,14 @@
     "excerpt": "Rinzai"
   },
   {
+    "id": "s_Y4Am9ra6ko7Im0vHsbc",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "WG_9w4-45bOz9VmBcjpYw",
+    "field_name": "teachers",
+    "excerpt": "Shoju Rojin"
+  },
+  {
     "id": "lvqRPorKSh8gqhrVpzB4F",
     "source_id": "src_chan_ancestors_pdf",
     "entity_type": "master",
@@ -5670,6 +8454,22 @@
     "entity_id": "wJOC19yTM2x4sP2cdxBch",
     "field_name": "school",
     "excerpt": "Caodong"
+  },
+  {
+    "id": "3gnjnvLzjszeKaYmiRmni",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "wJOC19yTM2x4sP2cdxBch",
+    "field_name": "name",
+    "excerpt": "Tiantong Rujing"
+  },
+  {
+    "id": "Sw025qtEsIkCYVBzFxUDD",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "wJOC19yTM2x4sP2cdxBch",
+    "field_name": "teachers",
+    "excerpt": "Xuedou Zhijian"
   },
   {
     "id": "uYodHrSiv_9C1sYaEfH_F",
@@ -5696,6 +8496,22 @@
     "excerpt": "Yunmen"
   },
   {
+    "id": "_GezOTu8gPrgGd6btdhCV",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "WRqVa4TCwjlNOkSjUCj8G",
+    "field_name": "name",
+    "excerpt": "Yuantong Fashen"
+  },
+  {
+    "id": "mLBD6HCB4SJv45IHgbxWY",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "WRqVa4TCwjlNOkSjUCj8G",
+    "field_name": "teachers",
+    "excerpt": "Fushan Fayuan"
+  },
+  {
     "id": "k3GWohrW70U9xqTgSpi7Q",
     "source_id": "src_chan_ancestors_pdf",
     "entity_type": "master",
@@ -5710,6 +8526,22 @@
     "entity_id": "wSFA1nVSaVApOsSbwXxZG",
     "field_name": "school",
     "excerpt": "Caodong"
+  },
+  {
+    "id": "dg7MvhO55J6fN1piPD2gL",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "wSFA1nVSaVApOsSbwXxZG",
+    "field_name": "name",
+    "excerpt": "Tongan Daopi"
+  },
+  {
+    "id": "xKdGION1R2OoLl2ae8hTC",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "wSFA1nVSaVApOsSbwXxZG",
+    "field_name": "teachers",
+    "excerpt": "Yunju Daoying"
   },
   {
     "id": "Z15qYUcNGY9hQAn4vAWLb",
@@ -5744,12 +8576,44 @@
     "excerpt": "35, 68 6,10 26,29 47"
   },
   {
+    "id": "TMzTBHRSos3M1vayZ2yfw",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "WTI-TCqjlDuEtaweyATXJ",
+    "field_name": "name",
+    "excerpt": "Jiashan Shanhui"
+  },
+  {
+    "id": "bSOBW6ag5FDTmye6WPyzk",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "WTI-TCqjlDuEtaweyATXJ",
+    "field_name": "teachers",
+    "excerpt": "Chuanzi Decheng"
+  },
+  {
+    "id": "dRc5ykPhYxTFd9Ow8a_Vi",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "wwCpXq760NDqCnk7mu9p_",
+    "field_name": "dates",
+    "excerpt": "trad. 5th c. CE"
+  },
+  {
     "id": "GXKV1zJ9T-CqhFvEnUrfa",
     "source_id": "src_originals_curated",
     "entity_type": "master",
     "entity_id": "wwCpXq760NDqCnk7mu9p_",
     "field_name": "name",
     "excerpt": "Simha"
+  },
+  {
+    "id": "YFWUTaJFpozscpVTtdg8v",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "wwCpXq760NDqCnk7mu9p_",
+    "field_name": "school",
+    "excerpt": "Indian Patriarchs"
   },
   {
     "id": "F5SKg1z5q0LhMeyIznZ3d",
@@ -5792,6 +8656,22 @@
     "excerpt": "8,22,23,74 24,64,71 84 76,93,95"
   },
   {
+    "id": "b3IxHXukrd_RAFPZpQxII",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "X2ccK87D6xrnkZyp3yAtO",
+    "field_name": "name",
+    "excerpt": "Changqing Huileng"
+  },
+  {
+    "id": "YmU2H7gEEhv43XSn-9TOa",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "X2ccK87D6xrnkZyp3yAtO",
+    "field_name": "teachers",
+    "excerpt": "Xuefeng Yicun"
+  },
+  {
     "id": "349Akny8BBLiZJbJNP6lu",
     "source_id": "src_chan_ancestors_pdf",
     "entity_type": "master",
@@ -5806,6 +8686,22 @@
     "entity_id": "x6XSztbbcwA7zFayAkMSl",
     "field_name": "school",
     "excerpt": "Other"
+  },
+  {
+    "id": "Fma5AzQKM9M22vzWgLh4Z",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "x6XSztbbcwA7zFayAkMSl",
+    "field_name": "name",
+    "excerpt": "Jingzhong Wuxiang"
+  },
+  {
+    "id": "7mkt32sPlPki6s0jGPzVB",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "x6XSztbbcwA7zFayAkMSl",
+    "field_name": "teachers",
+    "excerpt": "Yuquan Shenxiu"
   },
   {
     "id": "Y06_H2tIt0aFyej3DPI6A",
@@ -5832,6 +8728,22 @@
     "excerpt": "91 25"
   },
   {
+    "id": "3PWkWf4rmZTuFic8jZW2I",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "xc5IW8qvtH_72qBONcm8D",
+    "field_name": "name",
+    "excerpt": "Yanguan Qian"
+  },
+  {
+    "id": "M3iVrJAMo1fbw0y2M6s84",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "xc5IW8qvtH_72qBONcm8D",
+    "field_name": "teachers",
+    "excerpt": "Mazu Daoyi"
+  },
+  {
     "id": "Fbstz_5nhpj8H5jnVVjyg",
     "source_id": "src_chan_ancestors_pdf",
     "entity_type": "master",
@@ -5854,6 +8766,22 @@
     "entity_id": "XcZWOXq1P5YUGV8UKZXDN",
     "field_name": "koan_refs",
     "excerpt": "See Note 1"
+  },
+  {
+    "id": "wpRNM7GkoZVWeHVmBTKaC",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "XcZWOXq1P5YUGV8UKZXDN",
+    "field_name": "name",
+    "excerpt": "Hongzhi Zhengjue"
+  },
+  {
+    "id": "nTZPtf9rCHRx6Vx6m06na",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "XcZWOXq1P5YUGV8UKZXDN",
+    "field_name": "teachers",
+    "excerpt": "Kumu Daocheng"
   },
   {
     "id": "HVaRdO7zM49xSb2IdnWza",
@@ -5888,6 +8816,22 @@
     "excerpt": "55,91 68,89,96 46 8,11"
   },
   {
+    "id": "cQV-6TdwS8zTS27Hx_eau",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "XGgvvjlgSlpPY4huIWXjM",
+    "field_name": "name",
+    "excerpt": "Shishuang Qingzhu"
+  },
+  {
+    "id": "ZmnB7alAEHnsKlhJlXdLx",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "XGgvvjlgSlpPY4huIWXjM",
+    "field_name": "teachers",
+    "excerpt": "Daowu Yuanzhi"
+  },
+  {
     "id": "PsSwZsNt6nrcL53ZBAaXJ",
     "source_id": "src_chan_ancestors_pdf",
     "entity_type": "master",
@@ -5920,12 +8864,44 @@
     "excerpt": "46 96"
   },
   {
+    "id": "Co9PFR3D2uLtgr5Xy72cd",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "XjAKbIvgYgUOotD4gqWCV",
+    "field_name": "name",
+    "excerpt": "Deshan Yuanmi"
+  },
+  {
+    "id": "Hy0D65n2wnsjhyz16hAOv",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "XjAKbIvgYgUOotD4gqWCV",
+    "field_name": "teachers",
+    "excerpt": "Dongshan Shouchu"
+  },
+  {
+    "id": "JWCpy4apSv6I7QaXMFbDa",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "XRkgYKrS2PmeZWWOPzRLj",
+    "field_name": "dates",
+    "excerpt": "c. 80-150 CE"
+  },
+  {
     "id": "-kcNtysJd3ePv5t3iIe2E",
     "source_id": "src_originals_curated",
     "entity_type": "master",
     "entity_id": "XRkgYKrS2PmeZWWOPzRLj",
     "field_name": "name",
     "excerpt": "Ashvaghosha"
+  },
+  {
+    "id": "AlsuSFHXMsoV59BYOpm1c",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "XRkgYKrS2PmeZWWOPzRLj",
+    "field_name": "school",
+    "excerpt": "Indian Patriarchs"
   },
   {
     "id": "jOYCOtyBisydrUpVvbTNq",
@@ -5936,12 +8912,28 @@
     "excerpt": "Punyayashas"
   },
   {
+    "id": "wxzfKVP0aIO74Ntl1-2EW",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "XrxqdmN0CWreWdHqvkO67",
+    "field_name": "dates",
+    "excerpt": "trad. 2nd c. BCE"
+  },
+  {
     "id": "TfDGqXfvw6KFvvdb3AWYH",
     "source_id": "src_originals_curated",
     "entity_type": "master",
     "entity_id": "XrxqdmN0CWreWdHqvkO67",
     "field_name": "name",
     "excerpt": "Vasumitra"
+  },
+  {
+    "id": "aZoe8lXBG2uIfvfCE47iI",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "XrxqdmN0CWreWdHqvkO67",
+    "field_name": "school",
+    "excerpt": "Indian Patriarchs"
   },
   {
     "id": "Ksi8oF_Np5CwgBjLh8IbS",
@@ -5976,6 +8968,22 @@
     "excerpt": "73 6"
   },
   {
+    "id": "335gQK-krAZDqIVS5yZ63",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "xvNlcBK2lf_-swgDoLjZg",
+    "field_name": "name",
+    "excerpt": "Xitang Zhizang"
+  },
+  {
+    "id": "3FvUKChVh6GviVx2ntriC",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "xvNlcBK2lf_-swgDoLjZg",
+    "field_name": "teachers",
+    "excerpt": "Mazu Daoyi"
+  },
+  {
     "id": "ff1F8gpq0ynbI-OIwvHez",
     "source_id": "src_chan_ancestors_pdf",
     "entity_type": "master",
@@ -6000,6 +9008,22 @@
     "excerpt": "33,91 25 75"
   },
   {
+    "id": "kZAe8EGnGzFYZCiu8nBqR",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "XzLx8w_R3S46E186G9qep",
+    "field_name": "name",
+    "excerpt": "Zifu Rubao"
+  },
+  {
+    "id": "5xem-sXweM0Hh2njw8Dky",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "XzLx8w_R3S46E186G9qep",
+    "field_name": "teachers",
+    "excerpt": "Xita Guangmu"
+  },
+  {
     "id": "VC0NfTehRlXY1oGXrqkL4",
     "source_id": "src_chan_ancestors_pdf",
     "entity_type": "master",
@@ -6016,12 +9040,44 @@
     "excerpt": "Qingyuan line"
   },
   {
+    "id": "648xjtLdStzniAgBb7As4",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "Y0knckXJi9kjRghDAvzgR",
+    "field_name": "name",
+    "excerpt": "Heze Shenhui"
+  },
+  {
+    "id": "_TpFrLJCfCQREIQFuXoE3",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "Y0knckXJi9kjRghDAvzgR",
+    "field_name": "teachers",
+    "excerpt": "Dajian Huineng"
+  },
+  {
+    "id": "4Adx_2vtC3wKRuRVfj2l6",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "YOKNETNusc7MvXG9H87_4",
+    "field_name": "dates",
+    "excerpt": "trad. 4th c. CE"
+  },
+  {
     "id": "ozlcAl5X4VaeuAokrTqCw",
     "source_id": "src_originals_curated",
     "entity_type": "master",
     "entity_id": "YOKNETNusc7MvXG9H87_4",
     "field_name": "name",
     "excerpt": "Jayata"
+  },
+  {
+    "id": "JnqHlQtC5Fj1rWWqNoIoX",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "YOKNETNusc7MvXG9H87_4",
+    "field_name": "school",
+    "excerpt": "Indian Patriarchs"
   },
   {
     "id": "kB7Q0YXC7yA8TLLWS74dY",
@@ -6062,6 +9118,22 @@
     "entity_id": "YPOsnZ8XDX33nnOePZ-5c",
     "field_name": "koan_refs",
     "excerpt": "7"
+  },
+  {
+    "id": "vY6_hiIjBZF8xI6nMEHJX",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "YPOsnZ8XDX33nnOePZ-5c",
+    "field_name": "name",
+    "excerpt": "Yongjia Xuanjue"
+  },
+  {
+    "id": "LdCe9vsT_ZCVaR_dJfgjW",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "YPOsnZ8XDX33nnOePZ-5c",
+    "field_name": "teachers",
+    "excerpt": "Dajian Huineng"
   },
   {
     "id": "45_8N8FxXCZF3Xb2TZuoL",
@@ -6152,6 +9224,22 @@
     "excerpt": "44"
   },
   {
+    "id": "zv07HFedYpql3bGv8c20l",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "YtkGkMWTv8Kv64k_KtCi7",
+    "field_name": "name",
+    "excerpt": "Heshan Wuyin"
+  },
+  {
+    "id": "l8_9RwkJN0Ndq80DjDtCw",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "YtkGkMWTv8Kv64k_KtCi7",
+    "field_name": "teachers",
+    "excerpt": "Jiufeng Daoqian"
+  },
+  {
     "id": "Y6pki7lLHFPkYNkmM4nN6",
     "source_id": "src_chan_ancestors_pdf",
     "entity_type": "master",
@@ -6176,6 +9264,22 @@
     "excerpt": "5"
   },
   {
+    "id": "0noAJZE-MjR98lpNO7mcm",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "yYvOl6ecI-wc9nmWKgP3f",
+    "field_name": "name",
+    "excerpt": "Xiangyan Zhixian"
+  },
+  {
+    "id": "2n98OasPCeoVI7LvwQQw8",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "yYvOl6ecI-wc9nmWKgP3f",
+    "field_name": "teachers",
+    "excerpt": "Guishan Lingyou"
+  },
+  {
     "id": "JzCVfLhKC4e_IYppNp3xc",
     "source_id": "src_chan_ancestors_pdf",
     "entity_type": "master",
@@ -6190,6 +9294,22 @@
     "entity_id": "ZfmfYNCJD9rKOo9nvYUen",
     "field_name": "school",
     "excerpt": "Linji"
+  },
+  {
+    "id": "94aZpNloA8BJKQv-rTxJk",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "ZfmfYNCJD9rKOo9nvYUen",
+    "field_name": "name",
+    "excerpt": "Huitang Zuxin"
+  },
+  {
+    "id": "6FrniDdLPX-jqgX1mqIRh",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "ZfmfYNCJD9rKOo9nvYUen",
+    "field_name": "teachers",
+    "excerpt": "Huanglong Huinan"
   },
   {
     "id": "Hs1ewtaDFyFDXSOCPr7yy",
@@ -6216,6 +9336,22 @@
     "excerpt": "Qingyuan line"
   },
   {
+    "id": "OIhDMqoz5aBF9VIAmmn1K",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "ZMXzHZ8MwtS8wtG_jQCRc",
+    "field_name": "name",
+    "excerpt": "Baoci Xingyan"
+  },
+  {
+    "id": "N3HXwwqQcENYoFMb4vgYr",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "ZMXzHZ8MwtS8wtG_jQCRc",
+    "field_name": "teachers",
+    "excerpt": "Fayan Wenyi"
+  },
+  {
     "id": "caZnm6opR39jiTHun9MJN",
     "source_id": "src_chan_ancestors_pdf",
     "entity_type": "master",
@@ -6240,6 +9376,22 @@
     "excerpt": "37"
   },
   {
+    "id": "_aWz3TefxO1yiWt91y2rb",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "znqwIUXYM3hGD_HsbepXD",
+    "field_name": "name",
+    "excerpt": "Panshan Baoji"
+  },
+  {
+    "id": "JzYHGBh1Z_geQHQyNR_be",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "znqwIUXYM3hGD_HsbepXD",
+    "field_name": "teachers",
+    "excerpt": "Mazu Daoyi"
+  },
+  {
     "id": "kXvkhPBGsYXknR5e3YN2y",
     "source_id": "src_chan_ancestors_pdf",
     "entity_type": "master",
@@ -6262,5 +9414,21 @@
     "entity_id": "zuqTzAdXzd8ExE41-U2ol",
     "field_name": "koan_refs",
     "excerpt": "87"
+  },
+  {
+    "id": "FpmMwoJaxT_ARtZTWpWiE",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "zuqTzAdXzd8ExE41-U2ol",
+    "field_name": "name",
+    "excerpt": "Guishan Daan"
+  },
+  {
+    "id": "1H-IV_9iu57b-nEbcrxDM",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "zuqTzAdXzd8ExE41-U2ol",
+    "field_name": "teachers",
+    "excerpt": "Baiyun Shouduan"
   }
 ]

@@ -9,6 +9,24 @@
     "token_type": "name"
   },
   {
+    "id": "OeVGObB6_xnK3OI0akIca",
+    "entity_type": "master",
+    "entity_id": "_1Cl22lVVw0x5tya5L6fJ",
+    "token": "jia pi mo luo",
+    "original": "迦毘摩羅",
+    "locale": "zh",
+    "token_type": "romanization"
+  },
+  {
+    "id": "fKJd6z_4tdtB_K7QXN-MD",
+    "entity_type": "master",
+    "entity_id": "_1Cl22lVVw0x5tya5L6fJ",
+    "token": "jiapimoluo",
+    "original": "迦毘摩羅",
+    "locale": "zh",
+    "token_type": "romanization"
+  },
+  {
     "id": "XVymkDLjosecntbfQfBFJ",
     "entity_type": "master",
     "entity_id": "_aaQkfq6Ay3kPKB2xV4pw",
@@ -585,6 +603,24 @@
     "token_type": "name"
   },
   {
+    "id": "e-sA_Kd6BZar1mpYbbASz",
+    "entity_type": "master",
+    "entity_id": "-nClvaByR9P4FRYQMX4_L",
+    "token": "he le na",
+    "original": "鶴勒那",
+    "locale": "zh",
+    "token_type": "romanization"
+  },
+  {
+    "id": "lxxaNSmTIelQmW3hzZYBJ",
+    "entity_type": "master",
+    "entity_id": "-nClvaByR9P4FRYQMX4_L",
+    "token": "helena",
+    "original": "鶴勒那",
+    "locale": "zh",
+    "token_type": "romanization"
+  },
+  {
     "id": "WwhgskZ75hMeCqBMUHcgr",
     "entity_type": "master",
     "entity_id": "-nClvaByR9P4FRYQMX4_L",
@@ -817,6 +853,24 @@
     "original": "Punyamitra",
     "locale": "en",
     "token_type": "name"
+  },
+  {
+    "id": "6HaTK3_STGBYfO88ZdYvz",
+    "entity_type": "master",
+    "entity_id": "0_an1VP-SgfI-rwnL591D",
+    "token": "bu ru mi duo",
+    "original": "不如蜜多",
+    "locale": "zh",
+    "token_type": "romanization"
+  },
+  {
+    "id": "6sxqcD8UmMoMPTLcMCstT",
+    "entity_type": "master",
+    "entity_id": "0_an1VP-SgfI-rwnL591D",
+    "token": "burumiduo",
+    "original": "不如蜜多",
+    "locale": "zh",
+    "token_type": "romanization"
   },
   {
     "id": "F_E-I80xNdIqdPJNerg1Q",
@@ -2122,6 +2176,24 @@
     "original": "Mahakashyapa",
     "locale": "en",
     "token_type": "name"
+  },
+  {
+    "id": "4-CLP9qXEeUq3yPeHm0Na",
+    "entity_type": "master",
+    "entity_id": "2D6CTxIOohm4bqR0bQj2U",
+    "token": "mo he jia ye",
+    "original": "摩訶迦葉",
+    "locale": "zh",
+    "token_type": "romanization"
+  },
+  {
+    "id": "D1r9ac5I7BK13spTkGhvW",
+    "entity_type": "master",
+    "entity_id": "2D6CTxIOohm4bqR0bQj2U",
+    "token": "mohejiaye",
+    "original": "摩訶迦葉",
+    "locale": "zh",
+    "token_type": "romanization"
   },
   {
     "id": "dXjVdOc4v8VZ4sXX9sfYJ",
@@ -4086,6 +4158,42 @@
     "token_type": "alias"
   },
   {
+    "id": "PJ_k1SCdB5PMMi30oYhQT",
+    "entity_type": "master",
+    "entity_id": "7HhwAUZXIj3bl8CFxi5ZM",
+    "token": "jianyuan",
+    "original": "Jianyuan",
+    "locale": "en",
+    "token_type": "name"
+  },
+  {
+    "id": "C1VcJ5yGxS-sDKUjCiXhE",
+    "entity_type": "master",
+    "entity_id": "7HhwAUZXIj3bl8CFxi5ZM",
+    "token": "jian yuan",
+    "original": "見源",
+    "locale": "zh",
+    "token_type": "romanization"
+  },
+  {
+    "id": "3lHvJK28IJvY2fu35DL6Q",
+    "entity_type": "master",
+    "entity_id": "7HhwAUZXIj3bl8CFxi5ZM",
+    "token": "jianyuan",
+    "original": "見源",
+    "locale": "zh",
+    "token_type": "romanization"
+  },
+  {
+    "id": "KOBBKRVN0oukYbrP79W9f",
+    "entity_type": "master",
+    "entity_id": "7HhwAUZXIj3bl8CFxi5ZM",
+    "token": "yuanjian",
+    "original": "Yuanjian",
+    "locale": "en",
+    "token_type": "alias"
+  },
+  {
     "id": "eIC4cKj7tHyCrSr-bfOLU",
     "entity_type": "master",
     "entity_id": "7L-Z2ruVYWEy4KlNjMZaw",
@@ -5067,6 +5175,24 @@
     "token_type": "name"
   },
   {
+    "id": "3x7NJeEMb_RUCO-u5SwzM",
+    "entity_type": "master",
+    "entity_id": "aGsBwP6-XaMHAML0lESfh",
+    "token": "mo na luo",
+    "original": "摩拏羅",
+    "locale": "zh",
+    "token_type": "romanization"
+  },
+  {
+    "id": "9UTr98buWqIa4fSVa155u",
+    "entity_type": "master",
+    "entity_id": "aGsBwP6-XaMHAML0lESfh",
+    "token": "monaluo",
+    "original": "摩拏羅",
+    "locale": "zh",
+    "token_type": "romanization"
+  },
+  {
     "id": "14gTlXi0aRJtZMLr2Ay57",
     "entity_type": "master",
     "entity_id": "aJhm8JOd_mYz8PykmCewJ",
@@ -5209,6 +5335,24 @@
     "original": "Gayashata",
     "locale": "en",
     "token_type": "name"
+  },
+  {
+    "id": "8AyEZyeAaP1CHHpdck0Bt",
+    "entity_type": "master",
+    "entity_id": "ASq3jRh32oG76SQh-MPlQ",
+    "token": "qie ye she duo",
+    "original": "伽耶舍多",
+    "locale": "zh",
+    "token_type": "romanization"
+  },
+  {
+    "id": "FhoQMraguF52HR__neA6L",
+    "entity_type": "master",
+    "entity_id": "ASq3jRh32oG76SQh-MPlQ",
+    "token": "qieyesheduo",
+    "original": "伽耶舍多",
+    "locale": "zh",
+    "token_type": "romanization"
   },
   {
     "id": "lESTRjWvm9leZ6uas6WqG",
@@ -6696,6 +6840,24 @@
     "token_type": "name"
   },
   {
+    "id": "LdrH_KwecBnf_ksCDahSA",
+    "entity_type": "master",
+    "entity_id": "CKps4fDp0URGrbOjjfwBX",
+    "token": "fu tuo mi duo",
+    "original": "伏馱蜜多",
+    "locale": "zh",
+    "token_type": "romanization"
+  },
+  {
+    "id": "oNceaRo7wZCd8jQZC-B7r",
+    "entity_type": "master",
+    "entity_id": "CKps4fDp0URGrbOjjfwBX",
+    "token": "futuomiduo",
+    "original": "伏馱蜜多",
+    "locale": "zh",
+    "token_type": "romanization"
+  },
+  {
     "id": "y_k6w4eMMIYGJ9ZKCh6Pt",
     "entity_type": "master",
     "entity_id": "CKps4fDp0URGrbOjjfwBX",
@@ -7767,6 +7929,24 @@
     "token_type": "name"
   },
   {
+    "id": "wqvtW-cl2DqnpKnSo5dce",
+    "entity_type": "master",
+    "entity_id": "dowc9tfw9nrI_KIBHaEaW",
+    "token": "luo hou luo duo",
+    "original": "羅睺羅多",
+    "locale": "zh",
+    "token_type": "romanization"
+  },
+  {
+    "id": "3W6wRYhDsbljStdBjkadx",
+    "entity_type": "master",
+    "entity_id": "dowc9tfw9nrI_KIBHaEaW",
+    "token": "luohouluoduo",
+    "original": "羅睺羅多",
+    "locale": "zh",
+    "token_type": "romanization"
+  },
+  {
     "id": "RG0vqWFtsVXI1Jj8I1pBG",
     "entity_type": "master",
     "entity_id": "DPaqdrB7_tincwkl9PEQ1",
@@ -8127,6 +8307,24 @@
     "token_type": "name"
   },
   {
+    "id": "Dw4lLeBNgrife_ZvVldM_",
+    "entity_type": "master",
+    "entity_id": "Du2RzVK7ZHNqT3hHDDPwQ",
+    "token": "you po ju duo",
+    "original": "優婆掬多",
+    "locale": "zh",
+    "token_type": "romanization"
+  },
+  {
+    "id": "lvjuBqOma-lLpAb27gR9Q",
+    "entity_type": "master",
+    "entity_id": "Du2RzVK7ZHNqT3hHDDPwQ",
+    "token": "youpojuduo",
+    "original": "優婆掬多",
+    "locale": "zh",
+    "token_type": "romanization"
+  },
+  {
     "id": "N0F3DCL-Z1JmshxbJrQcU",
     "entity_type": "master",
     "entity_id": "Du2RzVK7ZHNqT3hHDDPwQ",
@@ -8269,6 +8467,24 @@
     "original": "Buddhanandi",
     "locale": "en",
     "token_type": "name"
+  },
+  {
+    "id": "azaauncCObFzbxCyPmoVL",
+    "entity_type": "master",
+    "entity_id": "DWofxdcfC79blHHMxK4GS",
+    "token": "fo tuo nan ti",
+    "original": "佛陀難提",
+    "locale": "zh",
+    "token_type": "romanization"
+  },
+  {
+    "id": "T4dMC9QFWUsPl-_E0-8vO",
+    "entity_type": "master",
+    "entity_id": "DWofxdcfC79blHHMxK4GS",
+    "token": "fotuonanti",
+    "original": "佛陀難提",
+    "locale": "zh",
+    "token_type": "romanization"
   },
   {
     "id": "vBnq_uPPJrmTM97MDWWo7",
@@ -8712,6 +8928,33 @@
     "token_type": "alias"
   },
   {
+    "id": "rYKaeFOJBotedqqLXlhVU",
+    "entity_type": "master",
+    "entity_id": "ErnBMjdG2GndqNBDNPQpP",
+    "token": "kumu daocheng",
+    "original": "Kumu Daocheng",
+    "locale": "en",
+    "token_type": "name"
+  },
+  {
+    "id": "7Tb1Dp-E2VoGBob9ESYLs",
+    "entity_type": "master",
+    "entity_id": "ErnBMjdG2GndqNBDNPQpP",
+    "token": "kumu",
+    "original": "Kumu Daocheng",
+    "locale": "en",
+    "token_type": "name"
+  },
+  {
+    "id": "47jR3R6KvLUnn7_qefGWz",
+    "entity_type": "master",
+    "entity_id": "ErnBMjdG2GndqNBDNPQpP",
+    "token": "daocheng",
+    "original": "Kumu Daocheng",
+    "locale": "en",
+    "token_type": "name"
+  },
+  {
     "id": "UdgDQCcAiaa4Re9XqJlIS",
     "entity_type": "master",
     "entity_id": "f_mN_OO-KGU_OStG0WhDX",
@@ -8827,6 +9070,24 @@
     "original": "Prajnatara",
     "locale": "en",
     "token_type": "name"
+  },
+  {
+    "id": "owdm40YnZVJxixdRrdUOL",
+    "entity_type": "master",
+    "entity_id": "f-5SSXM6Hb3L0T0a5f5sF",
+    "token": "ban ruo duo luo",
+    "original": "般若多羅",
+    "locale": "zh",
+    "token_type": "romanization"
+  },
+  {
+    "id": "7E8J9Iyk-o2CbJPtqasf6",
+    "entity_type": "master",
+    "entity_id": "f-5SSXM6Hb3L0T0a5f5sF",
+    "token": "banruoduoluo",
+    "original": "般若多羅",
+    "locale": "zh",
+    "token_type": "romanization"
   },
   {
     "id": "lQiiMU7drYc1w9ATYR_Gp",
@@ -9680,6 +9941,33 @@
     "entity_id": "gaN8ndaUaEcnJDAxSZQm1",
     "token": "zhiyuan",
     "original": "Yungai Zhiyuan",
+    "locale": "en",
+    "token_type": "name"
+  },
+  {
+    "id": "brP9P82ktYEHgTWqEQCTD",
+    "entity_type": "master",
+    "entity_id": "gnKKjaZPBk0CIELCFqZJ6",
+    "token": "zhenjing kewen",
+    "original": "Zhenjing Kewen",
+    "locale": "en",
+    "token_type": "name"
+  },
+  {
+    "id": "EBWVCOfXu__EsPPz7Kefy",
+    "entity_type": "master",
+    "entity_id": "gnKKjaZPBk0CIELCFqZJ6",
+    "token": "zhenjing",
+    "original": "Zhenjing Kewen",
+    "locale": "en",
+    "token_type": "name"
+  },
+  {
+    "id": "oXHDck3eZ1st3Dt-j1UnY",
+    "entity_type": "master",
+    "entity_id": "gnKKjaZPBk0CIELCFqZJ6",
+    "token": "kewen",
+    "original": "Zhenjing Kewen",
     "locale": "en",
     "token_type": "name"
   },
@@ -10539,6 +10827,33 @@
     "token_type": "alias"
   },
   {
+    "id": "l2Rgma-u_jTcvFeIoDwMs",
+    "entity_type": "master",
+    "entity_id": "IgLEF6ibrtovkxxzFqR_l",
+    "token": "xutang zhiyu",
+    "original": "Xutang Zhiyu",
+    "locale": "en",
+    "token_type": "name"
+  },
+  {
+    "id": "PXDlbCaYOuKj-gm2DjugJ",
+    "entity_type": "master",
+    "entity_id": "IgLEF6ibrtovkxxzFqR_l",
+    "token": "xutang",
+    "original": "Xutang Zhiyu",
+    "locale": "en",
+    "token_type": "name"
+  },
+  {
+    "id": "4b9Mc_dMzJsxC9-UmVyET",
+    "entity_type": "master",
+    "entity_id": "IgLEF6ibrtovkxxzFqR_l",
+    "token": "zhiyu",
+    "original": "Xutang Zhiyu",
+    "locale": "en",
+    "token_type": "name"
+  },
+  {
     "id": "N1PMBNi2vrzi-ZY18XRaz",
     "entity_type": "master",
     "entity_id": "iGOnJ8m8mWWgedkNyVb-4",
@@ -10969,6 +11284,51 @@
     "original": "Bokushû Dômyô",
     "locale": "en",
     "token_type": "alias"
+  },
+  {
+    "id": "3S8ds03T3eRyX_MtY-2Wr",
+    "entity_type": "master",
+    "entity_id": "IkjI2809ce5BMJFQC2-Au",
+    "token": "shiwu qinggong",
+    "original": "Shiwu Qinggong",
+    "locale": "en",
+    "token_type": "name"
+  },
+  {
+    "id": "vQMgHFrKkEoYhRDW86ESh",
+    "entity_type": "master",
+    "entity_id": "IkjI2809ce5BMJFQC2-Au",
+    "token": "shiwu",
+    "original": "Shiwu Qinggong",
+    "locale": "en",
+    "token_type": "name"
+  },
+  {
+    "id": "UsKm-RbNKEBeMdOkY82z5",
+    "entity_type": "master",
+    "entity_id": "IkjI2809ce5BMJFQC2-Au",
+    "token": "qinggong",
+    "original": "Shiwu Qinggong",
+    "locale": "en",
+    "token_type": "name"
+  },
+  {
+    "id": "Zj-MbFfcLFojhgwkEWd_q",
+    "entity_type": "master",
+    "entity_id": "IkjI2809ce5BMJFQC2-Au",
+    "token": "shi wu qing gong",
+    "original": "石屋清珙",
+    "locale": "zh",
+    "token_type": "romanization"
+  },
+  {
+    "id": "qnWVwC0WM6Csn2uvUDpu4",
+    "entity_type": "master",
+    "entity_id": "IkjI2809ce5BMJFQC2-Au",
+    "token": "shiwuqinggong",
+    "original": "石屋清珙",
+    "locale": "zh",
+    "token_type": "romanization"
   },
   {
     "id": "56GlsuhvEx1FQj5TZPfxT",
@@ -12456,6 +12816,33 @@
     "token_type": "romanization"
   },
   {
+    "id": "FfXCcvf6iCUkpcKWJwyhQ",
+    "entity_type": "master",
+    "entity_id": "K3tGdAxPeoVWOCN3DnRq9",
+    "token": "nanyue daoxuan",
+    "original": "Nanyue Daoxuan",
+    "locale": "en",
+    "token_type": "name"
+  },
+  {
+    "id": "uuncnaX3lOKnK_JaUIKfY",
+    "entity_type": "master",
+    "entity_id": "K3tGdAxPeoVWOCN3DnRq9",
+    "token": "nanyue",
+    "original": "Nanyue Daoxuan",
+    "locale": "en",
+    "token_type": "name"
+  },
+  {
+    "id": "GkIQwUk_caB5yxWbhe3wc",
+    "entity_type": "master",
+    "entity_id": "K3tGdAxPeoVWOCN3DnRq9",
+    "token": "daoxuan",
+    "original": "Nanyue Daoxuan",
+    "locale": "en",
+    "token_type": "name"
+  },
+  {
     "id": "GP5S7MWfCaCs5a0kO2kPT",
     "entity_type": "master",
     "entity_id": "K7s1fzKNnNrs673SYBt4V",
@@ -13104,6 +13491,24 @@
     "token_type": "name"
   },
   {
+    "id": "9sbQrLoTXFd5TtmRvtZih",
+    "entity_type": "master",
+    "entity_id": "KWt8nDNBawWXfHKVaUhqa",
+    "token": "ti duo jia",
+    "original": "提多迦",
+    "locale": "zh",
+    "token_type": "romanization"
+  },
+  {
+    "id": "zkpzVFxbM2FyzzIQq_pd1",
+    "entity_type": "master",
+    "entity_id": "KWt8nDNBawWXfHKVaUhqa",
+    "token": "tiduojia",
+    "original": "提多迦",
+    "locale": "zh",
+    "token_type": "romanization"
+  },
+  {
     "id": "Ox5MrKdUvki4JDNJoJ9o2",
     "entity_type": "master",
     "entity_id": "KWt8nDNBawWXfHKVaUhqa",
@@ -13707,6 +14112,24 @@
     "token_type": "name"
   },
   {
+    "id": "T4GSxK6U-HvX4Y1yGitkE",
+    "entity_type": "master",
+    "entity_id": "MaT_2LUWapSpvCzLlN9of",
+    "token": "ti po",
+    "original": "提婆",
+    "locale": "zh",
+    "token_type": "romanization"
+  },
+  {
+    "id": "rusev_E4H06HdX9G7SzS9",
+    "entity_type": "master",
+    "entity_id": "MaT_2LUWapSpvCzLlN9of",
+    "token": "tipo",
+    "original": "提婆",
+    "locale": "zh",
+    "token_type": "romanization"
+  },
+  {
     "id": "OD4O22RGQgf4b1BTlp_aA",
     "entity_type": "master",
     "entity_id": "MaT_2LUWapSpvCzLlN9of",
@@ -13966,6 +14389,24 @@
     "original": "Nagarjuna",
     "locale": "en",
     "token_type": "name"
+  },
+  {
+    "id": "FNBVJYDDGYKzV7V-ze1uL",
+    "entity_type": "master",
+    "entity_id": "my3n-C46G_URdJrNzWjCo",
+    "token": "long shu",
+    "original": "龍樹",
+    "locale": "zh",
+    "token_type": "romanization"
+  },
+  {
+    "id": "t9x5tYn2UZWPxpNhdeeIe",
+    "entity_type": "master",
+    "entity_id": "my3n-C46G_URdJrNzWjCo",
+    "token": "longshu",
+    "original": "龍樹",
+    "locale": "zh",
+    "token_type": "romanization"
   },
   {
     "id": "pKHTPbaV69Wc11z-cOBOE",
@@ -14333,6 +14774,33 @@
     "entity_id": "n44pWPgKAYDunODi5gJDK",
     "token": "huanpu",
     "original": "Shaoshan Huanpu",
+    "locale": "en",
+    "token_type": "name"
+  },
+  {
+    "id": "zfKydogmsk64GR-WBDNZm",
+    "entity_type": "master",
+    "entity_id": "NDmJFm_-4hx3eBqReWXWS",
+    "token": "changlu qingliao",
+    "original": "Changlu Qingliao",
+    "locale": "en",
+    "token_type": "name"
+  },
+  {
+    "id": "C-4xL4ml3PG47vhQzICU5",
+    "entity_type": "master",
+    "entity_id": "NDmJFm_-4hx3eBqReWXWS",
+    "token": "changlu",
+    "original": "Changlu Qingliao",
+    "locale": "en",
+    "token_type": "name"
+  },
+  {
+    "id": "ZYw-NjrWykTaa07cCFA3Q",
+    "entity_type": "master",
+    "entity_id": "NDmJFm_-4hx3eBqReWXWS",
+    "token": "qingliao",
+    "original": "Changlu Qingliao",
     "locale": "en",
     "token_type": "name"
   },
@@ -15300,6 +15768,24 @@
     "token_type": "name"
   },
   {
+    "id": "Yu_epuDCOFjYd9St9Q00W",
+    "entity_type": "master",
+    "entity_id": "nVY1H3EIFPh_YpaA6eFQc",
+    "token": "shang na he xiu",
+    "original": "商那和修",
+    "locale": "zh",
+    "token_type": "romanization"
+  },
+  {
+    "id": "6bGWR173HBxGWMIucDREg",
+    "entity_type": "master",
+    "entity_id": "nVY1H3EIFPh_YpaA6eFQc",
+    "token": "shangnahexiu",
+    "original": "商那和修",
+    "locale": "zh",
+    "token_type": "romanization"
+  },
+  {
     "id": "B1Locf1e6kuKqwHImIjbA",
     "entity_type": "master",
     "entity_id": "nVY1H3EIFPh_YpaA6eFQc",
@@ -15451,6 +15937,24 @@
     "original": "Shakyamuni Buddha",
     "locale": "en",
     "token_type": "name"
+  },
+  {
+    "id": "A6v8K_mR_LwYBEMxTpGSG",
+    "entity_type": "master",
+    "entity_id": "oDgWuQLQG__HcsFgsuCnm",
+    "token": "shi jia mou ni fo",
+    "original": "釋迦牟尼佛",
+    "locale": "zh",
+    "token_type": "romanization"
+  },
+  {
+    "id": "tbMEPMnGcZkM777DpZvzK",
+    "entity_type": "master",
+    "entity_id": "oDgWuQLQG__HcsFgsuCnm",
+    "token": "shijiamounifo",
+    "original": "釋迦牟尼佛",
+    "locale": "zh",
+    "token_type": "romanization"
   },
   {
     "id": "cB_lVBOL94HWBUOLjwpl3",
@@ -16227,6 +16731,24 @@
     "token_type": "name"
   },
   {
+    "id": "-PU2aOBej4_SrRMYi7sBm",
+    "entity_type": "master",
+    "entity_id": "pjmSshTkUyqFmd9mDotbM",
+    "token": "seng qie nan ti",
+    "original": "僧伽難提",
+    "locale": "zh",
+    "token_type": "romanization"
+  },
+  {
+    "id": "39JYAitXnLfemD1VUNpls",
+    "entity_type": "master",
+    "entity_id": "pjmSshTkUyqFmd9mDotbM",
+    "token": "sengqienanti",
+    "original": "僧伽難提",
+    "locale": "zh",
+    "token_type": "romanization"
+  },
+  {
     "id": "pwZHEFoscFDQdIAWE8fRV",
     "entity_type": "master",
     "entity_id": "pjmSshTkUyqFmd9mDotbM",
@@ -16477,6 +16999,24 @@
     "original": "Vasasita",
     "locale": "en",
     "token_type": "name"
+  },
+  {
+    "id": "Loll44uIxdqO8gHsHPrLP",
+    "entity_type": "master",
+    "entity_id": "pSb9_Qob0HVVHAJ9ofchR",
+    "token": "po she si duo",
+    "original": "婆舍斯多",
+    "locale": "zh",
+    "token_type": "romanization"
+  },
+  {
+    "id": "K-eoLzaq3H-mhowt86UPB",
+    "entity_type": "master",
+    "entity_id": "pSb9_Qob0HVVHAJ9ofchR",
+    "token": "poshesiduo",
+    "original": "婆舍斯多",
+    "locale": "zh",
+    "token_type": "romanization"
   },
   {
     "id": "CK7wYhh0IuKXy8pDpdVHc",
@@ -17244,6 +17784,24 @@
     "token_type": "name"
   },
   {
+    "id": "eqVcgUlgn84ODdFJ9VJtq",
+    "entity_type": "master",
+    "entity_id": "QL__3DUEKp2S2_iQgrq48",
+    "token": "mi zhe jia",
+    "original": "彌遮迦",
+    "locale": "zh",
+    "token_type": "romanization"
+  },
+  {
+    "id": "k4riC-C6lvkl4eguIoSXw",
+    "entity_type": "master",
+    "entity_id": "QL__3DUEKp2S2_iQgrq48",
+    "token": "mizhejia",
+    "original": "彌遮迦",
+    "locale": "zh",
+    "token_type": "romanization"
+  },
+  {
     "id": "Qi7mk6j_fVnbUGZrgUQel",
     "entity_type": "master",
     "entity_id": "QL__3DUEKp2S2_iQgrq48",
@@ -17251,6 +17809,33 @@
     "original": "Micchaka",
     "locale": "en",
     "token_type": "alias"
+  },
+  {
+    "id": "sy6zA4PLEPVfPld5m-PCN",
+    "entity_type": "master",
+    "entity_id": "QNihLq7F6lFvXyy0FEUCI",
+    "token": "poan zuxian",
+    "original": "Poan Zuxian",
+    "locale": "en",
+    "token_type": "name"
+  },
+  {
+    "id": "GFejYI599tfFuV12CKgBk",
+    "entity_type": "master",
+    "entity_id": "QNihLq7F6lFvXyy0FEUCI",
+    "token": "poan",
+    "original": "Poan Zuxian",
+    "locale": "en",
+    "token_type": "name"
+  },
+  {
+    "id": "hAYPeAteht_spXBtWuFFA",
+    "entity_type": "master",
+    "entity_id": "QNihLq7F6lFvXyy0FEUCI",
+    "token": "zuxian",
+    "original": "Poan Zuxian",
+    "locale": "en",
+    "token_type": "name"
   },
   {
     "id": "3IXJLMlV8Hj35hkUAvDNs",
@@ -17368,6 +17953,24 @@
     "original": "Punyayashas",
     "locale": "en",
     "token_type": "name"
+  },
+  {
+    "id": "-B0ZpMahzS1T3zvAeRsOZ",
+    "entity_type": "master",
+    "entity_id": "RCt4jHgjnctkJQ-nUgGqm",
+    "token": "fu na ye she",
+    "original": "富那夜奢",
+    "locale": "zh",
+    "token_type": "romanization"
+  },
+  {
+    "id": "I6M76oVGGbqccyJFXzG26",
+    "entity_type": "master",
+    "entity_id": "RCt4jHgjnctkJQ-nUgGqm",
+    "token": "funayeshe",
+    "original": "富那夜奢",
+    "locale": "zh",
+    "token_type": "romanization"
   },
   {
     "id": "BnAUJIzwF7-XM0NxL8a6b",
@@ -17627,6 +18230,33 @@
     "entity_id": "s_nR66_yj2tOIGe3GU9Yi",
     "token": "habito",
     "original": "Ruben Habito",
+    "locale": "en",
+    "token_type": "name"
+  },
+  {
+    "id": "mc4WV56aRqrCHCqyPNB7c",
+    "entity_type": "master",
+    "entity_id": "s6fg-VgmQx67L-78F45cW",
+    "token": "wuzhun shifan",
+    "original": "Wuzhun Shifan",
+    "locale": "en",
+    "token_type": "name"
+  },
+  {
+    "id": "eUJqmVLJe0QMASDaXlDyf",
+    "entity_type": "master",
+    "entity_id": "s6fg-VgmQx67L-78F45cW",
+    "token": "wuzhun",
+    "original": "Wuzhun Shifan",
+    "locale": "en",
+    "token_type": "name"
+  },
+  {
+    "id": "fkJbAiKCjPA4m5kA8IrY6",
+    "entity_type": "master",
+    "entity_id": "s6fg-VgmQx67L-78F45cW",
+    "token": "shifan",
+    "original": "Wuzhun Shifan",
     "locale": "en",
     "token_type": "name"
   },
@@ -18576,6 +19206,24 @@
     "token_type": "name"
   },
   {
+    "id": "c1llM1Cm25STV13mspG8y",
+    "entity_type": "master",
+    "entity_id": "sWs0_DcgLTAzOP5pMMOTZ",
+    "token": "xie zun zhe",
+    "original": "脇尊者",
+    "locale": "zh",
+    "token_type": "romanization"
+  },
+  {
+    "id": "iRdQb1E5a1N9eyDxEQWZo",
+    "entity_type": "master",
+    "entity_id": "sWs0_DcgLTAzOP5pMMOTZ",
+    "token": "xiezunzhe",
+    "original": "脇尊者",
+    "locale": "zh",
+    "token_type": "romanization"
+  },
+  {
     "id": "joKQ8aR50_r61Imm9JI7T",
     "entity_type": "master",
     "entity_id": "sWs0_DcgLTAzOP5pMMOTZ",
@@ -18853,6 +19501,105 @@
     "original": "Sekisô Soen",
     "locale": "en",
     "token_type": "alias"
+  },
+  {
+    "id": "qTV2o_m4XR1sR7MseQqQf",
+    "entity_type": "master",
+    "entity_id": "taa1SflJsFeSc5_-ahrX8",
+    "token": "ciming chuyuan",
+    "original": "ciming chuyuan",
+    "locale": "en",
+    "token_type": "alias"
+  },
+  {
+    "id": "9PkH3zZ7pAkth8nOWhzRl",
+    "entity_type": "master",
+    "entity_id": "taa1SflJsFeSc5_-ahrX8",
+    "token": "ciming",
+    "original": "ciming chuyuan",
+    "locale": "en",
+    "token_type": "alias"
+  },
+  {
+    "id": "_RYOB1oOP3_GO3zUAzl8X",
+    "entity_type": "master",
+    "entity_id": "taa1SflJsFeSc5_-ahrX8",
+    "token": "chuyuan",
+    "original": "ciming chuyuan",
+    "locale": "en",
+    "token_type": "alias"
+  },
+  {
+    "id": "4-o-97Y2GQZla-2asmRHF",
+    "entity_type": "master",
+    "entity_id": "taa1SflJsFeSc5_-ahrX8",
+    "token": "shih-shuang ch'u-yuan",
+    "original": "shih-shuang ch'u-yüan",
+    "locale": "en",
+    "token_type": "alias"
+  },
+  {
+    "id": "QpWqJ_Tz791_M0EltoJkD",
+    "entity_type": "master",
+    "entity_id": "taa1SflJsFeSc5_-ahrX8",
+    "token": "shih-shuang",
+    "original": "shih-shuang ch'u-yüan",
+    "locale": "en",
+    "token_type": "alias"
+  },
+  {
+    "id": "cqRjvR1SEbo7139WLFglv",
+    "entity_type": "master",
+    "entity_id": "taa1SflJsFeSc5_-ahrX8",
+    "token": "ch'u-yuan",
+    "original": "shih-shuang ch'u-yüan",
+    "locale": "en",
+    "token_type": "alias"
+  },
+  {
+    "id": "MUFVR4Pp5y6rNts3IutUe",
+    "entity_type": "master",
+    "entity_id": "taa1SflJsFeSc5_-ahrX8",
+    "token": "shihshuang chuyuan",
+    "original": "shih-shuang ch'u-yüan",
+    "locale": "en",
+    "token_type": "alias"
+  },
+  {
+    "id": "MFkjh6HNCWAaLpHw8W3Ay",
+    "entity_type": "master",
+    "entity_id": "taa1SflJsFeSc5_-ahrX8",
+    "token": "shihshuang",
+    "original": "shih-shuang ch'u-yüan",
+    "locale": "en",
+    "token_type": "alias"
+  },
+  {
+    "id": "_RYOB1oOP3_GO3zUAzl8X",
+    "entity_type": "master",
+    "entity_id": "taa1SflJsFeSc5_-ahrX8",
+    "token": "chuyuan",
+    "original": "shih-shuang ch'u-yüan",
+    "locale": "en",
+    "token_type": "alias"
+  },
+  {
+    "id": "zhESyTWAB8HOauYr0yd8k",
+    "entity_type": "master",
+    "entity_id": "taa1SflJsFeSc5_-ahrX8",
+    "token": "ci ming chu yuan",
+    "original": "慈明楚圓",
+    "locale": "zh",
+    "token_type": "romanization"
+  },
+  {
+    "id": "PAanhT1XS5FySCaUyiRTX",
+    "entity_type": "master",
+    "entity_id": "taa1SflJsFeSc5_-ahrX8",
+    "token": "cimingchuyuan",
+    "original": "慈明楚圓",
+    "locale": "zh",
+    "token_type": "romanization"
   },
   {
     "id": "VIHxI7SLeq0B3wT62juDh",
@@ -19557,6 +20304,105 @@
     "token_type": "romanization"
   },
   {
+    "id": "idSQSrk-fklm8CD97b4ER",
+    "entity_type": "master",
+    "entity_id": "TsYO265GIyAiEWl-Gee2I",
+    "token": "shoju rojin",
+    "original": "Shoju Rojin",
+    "locale": "en",
+    "token_type": "name"
+  },
+  {
+    "id": "ZMwsdGyoR8c1Dak6VP7-f",
+    "entity_type": "master",
+    "entity_id": "TsYO265GIyAiEWl-Gee2I",
+    "token": "shoju",
+    "original": "Shoju Rojin",
+    "locale": "en",
+    "token_type": "name"
+  },
+  {
+    "id": "yPWeck0FoP3uFxjB2rPG6",
+    "entity_type": "master",
+    "entity_id": "TsYO265GIyAiEWl-Gee2I",
+    "token": "rojin",
+    "original": "Shoju Rojin",
+    "locale": "en",
+    "token_type": "name"
+  },
+  {
+    "id": "hqopEo_wiO0zRkbvjOhRi",
+    "entity_type": "master",
+    "entity_id": "TsYO265GIyAiEWl-Gee2I",
+    "token": "zheng shou lao ren",
+    "original": "正受老人",
+    "locale": "zh",
+    "token_type": "romanization"
+  },
+  {
+    "id": "jLTXgdi6s52Ebt6bNXMKq",
+    "entity_type": "master",
+    "entity_id": "TsYO265GIyAiEWl-Gee2I",
+    "token": "zhengshoulaoren",
+    "original": "正受老人",
+    "locale": "zh",
+    "token_type": "romanization"
+  },
+  {
+    "id": "-xTmCCrCX-1yk4yyasYyD",
+    "entity_type": "master",
+    "entity_id": "TsYO265GIyAiEWl-Gee2I",
+    "token": "dokyo etan",
+    "original": "Dokyo Etan",
+    "locale": "en",
+    "token_type": "alias"
+  },
+  {
+    "id": "X_cVG7LYGw3V0cOef38R2",
+    "entity_type": "master",
+    "entity_id": "TsYO265GIyAiEWl-Gee2I",
+    "token": "dokyo",
+    "original": "Dokyo Etan",
+    "locale": "en",
+    "token_type": "alias"
+  },
+  {
+    "id": "DPcsqZPxkWYG6IY4f0cuc",
+    "entity_type": "master",
+    "entity_id": "TsYO265GIyAiEWl-Gee2I",
+    "token": "etan",
+    "original": "Dokyo Etan",
+    "locale": "en",
+    "token_type": "alias"
+  },
+  {
+    "id": "9tJ_46di-GgdlO27stN6H",
+    "entity_type": "master",
+    "entity_id": "TsYO265GIyAiEWl-Gee2I",
+    "token": "shoju ronin",
+    "original": "Shoju Ronin",
+    "locale": "en",
+    "token_type": "alias"
+  },
+  {
+    "id": "CPI3bKiCwJgG-Oi4KiUGe",
+    "entity_type": "master",
+    "entity_id": "TsYO265GIyAiEWl-Gee2I",
+    "token": "shoju",
+    "original": "Shoju Ronin",
+    "locale": "en",
+    "token_type": "alias"
+  },
+  {
+    "id": "NJ6atB1bxt30ikKjayfoI",
+    "entity_type": "master",
+    "entity_id": "TsYO265GIyAiEWl-Gee2I",
+    "token": "ronin",
+    "original": "Shoju Ronin",
+    "locale": "en",
+    "token_type": "alias"
+  },
+  {
     "id": "EACAVdO8YOC1r1I3mvYT8",
     "entity_type": "master",
     "entity_id": "tucgspCiGHOSD5vJVeIKY",
@@ -19672,6 +20518,24 @@
     "original": "Ananda",
     "locale": "en",
     "token_type": "name"
+  },
+  {
+    "id": "PQ0xrVm45IJP3fil55Tw8",
+    "entity_type": "master",
+    "entity_id": "TvV4QKu4ZhHtn8WkdDL7W",
+    "token": "a nan",
+    "original": "阿難",
+    "locale": "zh",
+    "token_type": "romanization"
+  },
+  {
+    "id": "K4vy63crPhvT8KRvlt1sr",
+    "entity_type": "master",
+    "entity_id": "TvV4QKu4ZhHtn8WkdDL7W",
+    "token": "anan",
+    "original": "阿難",
+    "locale": "zh",
+    "token_type": "romanization"
   },
   {
     "id": "uur3_XL6qHaWsdmNp5gxA",
@@ -20178,6 +21042,33 @@
     "token_type": "alias"
   },
   {
+    "id": "19W3j0BP_5EX-2dAYn7Wo",
+    "entity_type": "master",
+    "entity_id": "UohqYd8v_T7T_hsfoUDav",
+    "token": "baotang wuzhu",
+    "original": "Baotang Wuzhu",
+    "locale": "en",
+    "token_type": "name"
+  },
+  {
+    "id": "iH3bOYDCl_SqbWG4erHCu",
+    "entity_type": "master",
+    "entity_id": "UohqYd8v_T7T_hsfoUDav",
+    "token": "baotang",
+    "original": "Baotang Wuzhu",
+    "locale": "en",
+    "token_type": "name"
+  },
+  {
+    "id": "zrurglsJzpjhPjTaQn814",
+    "entity_type": "master",
+    "entity_id": "UohqYd8v_T7T_hsfoUDav",
+    "token": "wuzhu",
+    "original": "Baotang Wuzhu",
+    "locale": "en",
+    "token_type": "name"
+  },
+  {
     "id": "9gMBHlze4bQuWp8ME_p96",
     "entity_type": "master",
     "entity_id": "UPNzZbMpN3aYiR1YAriYG",
@@ -20511,6 +21402,24 @@
     "token_type": "name"
   },
   {
+    "id": "38y1ggwQgFoDm5qj3hC65",
+    "entity_type": "master",
+    "entity_id": "UrW-WoQSXfuZ_BI68riTM",
+    "token": "shi qin",
+    "original": "世親",
+    "locale": "zh",
+    "token_type": "romanization"
+  },
+  {
+    "id": "rIYNS-UnIvkhTSq1f7ta4",
+    "entity_type": "master",
+    "entity_id": "UrW-WoQSXfuZ_BI68riTM",
+    "token": "shiqin",
+    "original": "世親",
+    "locale": "zh",
+    "token_type": "romanization"
+  },
+  {
     "id": "oj2jF4575djl-IiaxwPom",
     "entity_type": "master",
     "entity_id": "uu9qH9-9wD0oJeH7zP13h",
@@ -20626,6 +21535,24 @@
     "original": "Kumarata",
     "locale": "en",
     "token_type": "name"
+  },
+  {
+    "id": "zt4iQdvxEuc9IHk1EW7hn",
+    "entity_type": "master",
+    "entity_id": "uYAX94w0QwewUKFQwpJ7a",
+    "token": "jiu mo luo duo",
+    "original": "鳩摩羅多",
+    "locale": "zh",
+    "token_type": "romanization"
+  },
+  {
+    "id": "e3JYXvI9hkvk607odmDl-",
+    "entity_type": "master",
+    "entity_id": "uYAX94w0QwewUKFQwpJ7a",
+    "token": "jiumoluoduo",
+    "original": "鳩摩羅多",
+    "locale": "zh",
+    "token_type": "romanization"
   },
   {
     "id": "teAPCGOOrAKfr4XSHP08F",
@@ -22572,6 +23499,24 @@
     "token_type": "name"
   },
   {
+    "id": "B_hfoN4ulrkZasHYfFUh1",
+    "entity_type": "master",
+    "entity_id": "wwCpXq760NDqCnk7mu9p_",
+    "token": "shi zi zun zhe",
+    "original": "師子尊者",
+    "locale": "zh",
+    "token_type": "romanization"
+  },
+  {
+    "id": "3mQGLSnHeV_jRw2nhLcza",
+    "entity_type": "master",
+    "entity_id": "wwCpXq760NDqCnk7mu9p_",
+    "token": "shizizunzhe",
+    "original": "師子尊者",
+    "locale": "zh",
+    "token_type": "romanization"
+  },
+  {
     "id": "z6HCQndNgeBVPNeEetgAT",
     "entity_type": "master",
     "entity_id": "wwCpXq760NDqCnk7mu9p_",
@@ -23247,6 +24192,24 @@
     "token_type": "name"
   },
   {
+    "id": "AHOCK195H0n7LMYNVAK2A",
+    "entity_type": "master",
+    "entity_id": "XRkgYKrS2PmeZWWOPzRLj",
+    "token": "ma ming",
+    "original": "馬鳴",
+    "locale": "zh",
+    "token_type": "romanization"
+  },
+  {
+    "id": "sizpRMoYsTggn904FjlDl",
+    "entity_type": "master",
+    "entity_id": "XRkgYKrS2PmeZWWOPzRLj",
+    "token": "maming",
+    "original": "馬鳴",
+    "locale": "zh",
+    "token_type": "romanization"
+  },
+  {
     "id": "HzoYialWF7wtFTemoo1qa",
     "entity_type": "master",
     "entity_id": "XRkgYKrS2PmeZWWOPzRLj",
@@ -23272,6 +24235,24 @@
     "original": "Vasumitra",
     "locale": "en",
     "token_type": "name"
+  },
+  {
+    "id": "e5WjXGt7qwKhTqXNQ-cj3",
+    "entity_type": "master",
+    "entity_id": "XrxqdmN0CWreWdHqvkO67",
+    "token": "po xu mi",
+    "original": "婆須蜜",
+    "locale": "zh",
+    "token_type": "romanization"
+  },
+  {
+    "id": "UDgqCPSQ5fSj6BGCle7Ec",
+    "entity_type": "master",
+    "entity_id": "XrxqdmN0CWreWdHqvkO67",
+    "token": "poxumi",
+    "original": "婆須蜜",
+    "locale": "zh",
+    "token_type": "romanization"
   },
   {
     "id": "-HHMsomaBxFtWNtbEcKk_",
@@ -23614,6 +24595,24 @@
     "original": "Jayata",
     "locale": "en",
     "token_type": "name"
+  },
+  {
+    "id": "ZG7F6yDISiU4CL_PrMp25",
+    "entity_type": "master",
+    "entity_id": "YOKNETNusc7MvXG9H87_4",
+    "token": "du ye duo",
+    "original": "闍夜多",
+    "locale": "zh",
+    "token_type": "romanization"
+  },
+  {
+    "id": "RxyLmYys5YKOMjynGRAS2",
+    "entity_type": "master",
+    "entity_id": "YOKNETNusc7MvXG9H87_4",
+    "token": "duyeduo",
+    "original": "闍夜多",
+    "locale": "zh",
+    "token_type": "romanization"
   },
   {
     "id": "8KI48H51PvZGLOZi9wgLg",
