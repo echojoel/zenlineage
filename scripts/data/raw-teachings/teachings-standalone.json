@@ -3198,5 +3198,640 @@
     "master_roles": [
       { "slug": "dajian-huineng", "role": "speaker" }
     ]
+  },
+
+  {
+    "slug": "yangqi-meaning-of-teaching",
+    "type": "dialogue",
+    "author_slug": "yangqi-fanghui",
+    "collection": "Traditional Zen Encounter Dialogues",
+    "era": "Song",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "The Meaning of Yangqi's Teaching",
+    "content": "A monk asked Yangqi, \"What is the meaning of the patriarch's coming from the West?\"\n\nYangqi said, \"A donkey peers into a well.\"\n\nThe monk said, \"I do not understand.\"\n\nYangqi said, \"The well peers at the donkey.\"",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Wudeng Huiyuan, Yangqi Fanghui chapter",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "yangqi-fanghui", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "yangqi-directness-of-realization",
+    "type": "saying",
+    "author_slug": "yangqi-fanghui",
+    "collection": "Traditional Zen Sayings",
+    "era": "Song",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "The Directness of Realization",
+    "content": "Yangqi addressed the assembly: \"If you want to understand this matter, you must cut off all entanglements at a single stroke. Do not spend your days counting other people's treasures. Right here, right now—what is lacking?\"",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Wudeng Huiyuan, Yangqi Fanghui dharma hall discourse",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "yangqi-fanghui", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "xutang-essence-of-chan",
+    "type": "dialogue",
+    "author_slug": "xutang-zhiyu",
+    "collection": "Traditional Zen Encounter Dialogues",
+    "era": "Song",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "The Essence of Chan",
+    "content": "A student asked Xutang, \"What is the essence of Chan?\"\n\nXutang said, \"The cypress tree withers, the stone bridge flows.\"\n\nThe student said, \"I don't grasp your meaning.\"\n\nXutang said, \"The autumn wind has no fixed direction.\"",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Xutang Heshang Yulu, encounter dialogues",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "xutang-zhiyu", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "xutang-barrier-of-words",
+    "type": "saying",
+    "author_slug": "xutang-zhiyu",
+    "collection": "Traditional Zen Sayings",
+    "era": "Song",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "The Barrier of Words",
+    "content": "Xutang said: \"Words are a painted cake that cannot satisfy hunger, yet without words there is no way to point to the moon. The one who clings to words is lost; the one who abandons words is equally lost. Tell me—where do you stand?\"",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Xutang Heshang Yulu, dharma hall discourse",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "xutang-zhiyu", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "gaofeng-great-doubt-block",
+    "type": "saying",
+    "author_slug": "gaofeng-yuanmiao",
+    "collection": "Traditional Zen Sayings",
+    "era": "Song",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "The Great Doubt Block",
+    "content": "Gaofeng said: \"Beneath the great doubt there is great awakening. If you can raise the doubt mass to fill your entire body so that it becomes like a solid block—no gap, no crack, no place for thinking to enter—then suddenly it will shatter of itself. When this happens, you will be like a person who has been dead and comes back to life, or like a person who snatches back what has been stolen. Only then will you know that you yourself have always had it.\"",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Gaofeng Yuanmiao Chanshi Yulu, instruction on doubt",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "gaofeng-yuanmiao", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "xueyan-testing-the-student",
+    "type": "dialogue",
+    "author_slug": "xueyan-zuqin",
+    "collection": "Traditional Zen Encounter Dialogues",
+    "era": "Song",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "Xueyan Tests a Student",
+    "content": "A monk came to Xueyan and said, \"I have come from a distant province specifically to receive your teaching.\"\n\nXueyan said, \"Why did you leave where you were?\"\n\nThe monk said, \"To seek the Dharma.\"\n\nXueyan said, \"The Dharma in your home province—was it deficient somehow?\"\n\nThe monk was speechless.\n\nXueyan said, \"You have traveled a thousand miles carrying a load that was never yours to begin with. Put it down.\"",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Wudeng Huiyuan, Xueyan Zuqin chapter",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "xueyan-zuqin", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "baiyun-not-deceived-by-words",
+    "type": "saying",
+    "author_slug": "baiyun-shouduan",
+    "collection": "Traditional Zen Sayings",
+    "era": "Song",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "Not Deceived by Words",
+    "content": "Baiyun said: \"The ancients used words to dispel delusion, the way a physician prescribes medicine according to the illness. If you take the words of the ancients to be the truth itself, you are like a man who swallows the prescription instead of taking the medicine. Once the illness is cured, throw away the remedy. Do not let the teachings become a new disease.\"",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Wudeng Huiyuan, Baiyun Shouduan chapter",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "baiyun-shouduan", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "wuzhun-meaning-of-practice",
+    "type": "dialogue",
+    "author_slug": "wuzhun-shifan",
+    "collection": "Traditional Zen Encounter Dialogues",
+    "era": "Song",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "The Meaning of Practice",
+    "content": "A monk asked Wuzhun, \"What is the meaning of a lifetime of practice?\"\n\nWuzhun said, \"Walking, standing, sitting, lying down.\"\n\nThe monk said, \"Everyone walks, stands, sits, and lies down. How is that practice?\"\n\nWuzhun said, \"When I walk, I only walk. When I sit, I only sit. You walk and think of sitting. You sit and think of walking. That is the difference.\"",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Wuzhun Shifan Chanshi Yulu, encounter dialogues",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "wuzhun-shifan", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "sansheng-blind-ass",
+    "type": "dialogue",
+    "author_slug": "sansheng-huiran",
+    "collection": "Traditional Zen Encounter Dialogues",
+    "era": "Tang",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "The Blind Ass",
+    "content": "Sansheng asked Linji, \"What is the meaning of the First Patriarch's coming from the West?\"\n\nLinji said, \"If he had any meaning, he could not even save himself.\"\n\nSansheng said, \"If he had no meaning, how did the Second Patriarch attain the Dharma?\"\n\nLinji said, \"Attaining is not attaining.\"\n\nSansheng said, \"If that is so, what is the meaning of your teaching for the past thirty years?\"\n\nLinji said, \"This blind ass!\"",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Linji Lu, Sansheng exchange on the blind ass",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "sansheng-huiran", "role": "speaker" },
+      { "slug": "linji-yixuan", "role": "respondent" }
+    ]
+  },
+  {
+    "slug": "sansheng-golden-fish-through-net",
+    "type": "dialogue",
+    "author_slug": "sansheng-huiran",
+    "collection": "Traditional Zen Encounter Dialogues",
+    "era": "Tang",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "The Golden Fish Through the Net",
+    "content": "When Linji was about to pass away, he said, \"After I am gone, do not destroy my treasury of the true Dharma eye.\"\n\nSansheng stepped forward and said, \"How could I dare to destroy the master's treasury of the true Dharma eye?\"\n\nLinji said, \"If someone asks you about it in the future, what will you say?\"\n\nSansheng gave a great shout.\n\nLinji said, \"Who would have thought that my treasury of the true Dharma eye would perish at the hands of this blind ass?\"\n\nSansheng said, \"The golden-scaled fish has already passed through the net.\"",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Linji Lu, deathbed exchange with Sansheng",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "sansheng-huiran", "role": "speaker" },
+      { "slug": "linji-yixuan", "role": "respondent" }
+    ]
+  },
+  {
+    "slug": "shiwu-mountain-hermitage",
+    "type": "verse",
+    "author_slug": "shiwu-qinggong",
+    "collection": "Mountain Poems of Stonehouse",
+    "era": "Song",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "Mountain Hermitage",
+    "content": "My hut sits among a thousand peaks,\nthe path overgrown with moss.\nClouds come and go as they please,\nand the moon keeps me company at night.\nNo bell marks the hours,\nno visitor breaks the silence.\nI sit until the incense burns to ash\nand the mountain stream speaks the Dharma.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Shiwu Shanfang Ji, mountain hermitage verses",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "shiwu-qinggong", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "dasui-kalpa-fire",
+    "type": "dialogue",
+    "author_slug": "dasui-fazhen",
+    "collection": "Traditional Zen Encounter Dialogues",
+    "era": "Tang",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "The Great Kalpa Fire",
+    "content": "A monk asked Dasui, \"When the great kalpa fire blazes and the whole universe is destroyed, is this destroyed or not?\"\n\nDasui said, \"Destroyed.\"\n\nThe monk said, \"Then it goes along with the other?\"\n\nDasui said, \"It goes along with the other.\"",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Blue Cliff Record, Case 29",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "dasui-fazhen", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "poan-seeing-through",
+    "type": "saying",
+    "author_slug": "poan-zuxian",
+    "collection": "Traditional Zen Sayings",
+    "era": "Song",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "Seeing Through",
+    "content": "Poan said: \"If you can see through just one phrase completely, you see through a thousand phrases, ten thousand phrases, all at once. If you cannot see through one phrase, how will more words help you? Do not seek extensively—turn the light around and look at what is looking.\"",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Wudeng Huiyuan, Poan Zuxian chapter",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "poan-zuxian", "role": "attributed_to" }
+    ]
+  },
+
+  {
+    "slug": "tianlong-one-finger",
+    "type": "dialogue",
+    "author_slug": "hangzhou-tianlong",
+    "collection": "Traditional Zen Encounter Dialogues",
+    "era": "Tang",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "Tianlong Raises One Finger",
+    "content": "A monk asked Tianlong, \"What is the Buddha?\"\n\nTianlong simply raised one finger.\n\nThe monk asked, \"What is the Dharma?\"\n\nTianlong raised one finger.\n\nThe monk asked, \"What is the meaning of the patriarch's coming from the West?\"\n\nTianlong raised one finger.\n\nWhatever he was asked, Tianlong only raised one finger. His student Juzhi saw this and was greatly enlightened, and thereafter he too answered every question by raising one finger.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Wumenguan, Case 3, Tianlong's one-finger teaching",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "hangzhou-tianlong", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "xianglin-bodhidharma-coming-west",
+    "type": "dialogue",
+    "author_slug": "xianglin-chengyuan",
+    "collection": "Traditional Zen Encounter Dialogues",
+    "era": "Five Dynasties",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "The Meaning of Bodhidharma's Coming from the West",
+    "content": "A monk asked Xianglin, \"What is the meaning of the patriarch's coming from the West?\"\n\nXianglin said, \"Sitting for a long time becomes toilsome.\"",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Blue Cliff Record, Case 17",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "xianglin-chengyuan", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "zhimen-lotus-flower",
+    "type": "dialogue",
+    "author_slug": "zhimen-guangzuo",
+    "collection": "Traditional Zen Encounter Dialogues",
+    "era": "Song",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "The Lotus Flower",
+    "content": "A monk asked Zhimen, \"What is the lotus flower before it has emerged from the water?\"\n\nZhimen said, \"A lotus flower.\"\n\nThe monk asked, \"What about after it has emerged from the water?\"\n\nZhimen said, \"Lotus leaves.\"",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Blue Cliff Record, Case 21",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "zhimen-guangzuo", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "qinshan-original-nature",
+    "type": "saying",
+    "author_slug": "qinshan-wensui",
+    "collection": "Traditional Zen Sayings",
+    "era": "Tang",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "Original Nature",
+    "content": "Qinshan said: \"Your original nature is like a clear mirror. It does not come into being when you polish it, nor does it cease to be when dust covers it. The mirror has never changed—why do you keep trying to improve it?\"",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Jingde Chuandeng Lu, Qinshan Wensui chapter",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "qinshan-wensui", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "jiufeng-silent-sitting",
+    "type": "dialogue",
+    "author_slug": "jiufeng-qin",
+    "collection": "Traditional Zen Encounter Dialogues",
+    "era": "Tang",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "Silent Sitting",
+    "content": "A monk asked Jiufeng, \"What is the meaning of the master's silent sitting?\"\n\nJiufeng said, \"When have I ever sat silently?\"\n\nThe monk said, \"You have been sitting here without speaking all morning.\"\n\nJiufeng said, \"Not speaking is not the same as silence. The whole universe is speaking right now. Can't you hear it?\"",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Jingde Chuandeng Lu, Jiufeng Qin chapter",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "jiufeng-qin", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "baofeng-nowhere-to-stand",
+    "type": "saying",
+    "author_slug": "baofeng-weizhao",
+    "collection": "Traditional Zen Sayings",
+    "era": "Song",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "Nowhere to Stand",
+    "content": "Baofeng said: \"If you take a single step forward, you stumble over your own feet. If you take a single step back, you fall into the pit of concepts. If you stand still, you are a dead stump. Tell me—where will you plant your feet?\"",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Wudeng Huiyuan, Baofeng Weizhao chapter",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "baofeng-weizhao", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "huguo-no-outside-dharma",
+    "type": "saying",
+    "author_slug": "huguo-shoucheng",
+    "collection": "Traditional Zen Sayings",
+    "era": "Song",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "No Outside Dharma",
+    "content": "Huguo said: \"There is no Dharma outside the mind, and there is no mind outside the Dharma. When you look for the mind, you cannot find it. When you stop looking, it is everywhere. This is not something that can be given or received—each person must verify it for themselves.\"",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Jingde Chuandeng Lu, Huguo Shoucheng chapter",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "huguo-shoucheng", "role": "attributed_to" }
+    ]
+  },
+
+  {
+    "slug": "xuedou-bcr-verse-case-1",
+    "type": "verse",
+    "author_slug": "xuedou-chongxian",
+    "collection": "Blue Cliff Record",
+    "era": "Song",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "Verse on Case 1: Bodhidharma's Vast Emptiness",
+    "content": "Vast emptiness, nothing holy—\nthe approach is far too lofty.\nHad he known what would come after,\nhe would have shut his mouth for good.\nBut the old barbarian sailed across the sea in vain,\nand to this day there are those who vainly search for him.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Blue Cliff Record, Xuedou's verse on Case 1",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "xuedou-chongxian", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "xuedou-poetry-in-zen",
+    "type": "saying",
+    "author_slug": "xuedou-chongxian",
+    "collection": "Traditional Zen Sayings",
+    "era": "Song",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "Poetry and Zen",
+    "content": "Xuedou said: \"If you want to express the inexpressible, you must use the sword that kills and the sword that gives life. A verse that merely describes is dead words. A verse that cuts through all description and makes you gasp—that is the living phrase. My hundred verses are not literature. Each one is a trap for a dragon.\"",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Xuedou Songgu Ji, preface on versifying koans",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "xuedou-chongxian", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "xuedou-bcr-verse-case-6",
+    "type": "verse",
+    "author_slug": "xuedou-chongxian",
+    "collection": "Blue Cliff Record",
+    "era": "Song",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "Verse on Case 6: Yunmen's Every Day Is a Good Day",
+    "content": "He throws away one, picks up seven,\nabove, below, and in the four directions, nothing compares.\nWalking slowly, treading the dawn moon,\ngazing far into the clouds beyond the blue sky.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Blue Cliff Record, Xuedou's verse on Case 6",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "xuedou-chongxian", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "baling-blown-hair-sword",
+    "type": "dialogue",
+    "author_slug": "baling-haojian",
+    "collection": "Traditional Zen Encounter Dialogues",
+    "era": "Five Dynasties",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "The Blown Hair Sword",
+    "content": "A monk asked Baling, \"What is the blown hair sword?\"\n\nBaling said, \"Each branch of coral holds up the moon.\"",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Blue Cliff Record, Case 100",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "baling-haojian", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "longya-meaning-of-coming-west",
+    "type": "dialogue",
+    "author_slug": "longya-judun",
+    "collection": "Traditional Zen Encounter Dialogues",
+    "era": "Tang",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "Longya Visits Two Masters",
+    "content": "Longya asked Cuiwei, \"What is the meaning of the patriarch's coming from the West?\"\n\nCuiwei said, \"Pass me that meditation cushion.\"\n\nAs Longya handed it over, Cuiwei took it and hit him with it.\n\nLongya said, \"You may hit me as you wish. In the end, there is no meaning of the patriarch's coming from the West.\"\n\nLater Longya asked Linji the same question.\n\nLinji said, \"Pass me that meditation cushion.\"\n\nAs Longya handed it over, Linji took it and hit him.\n\nLongya said, \"You may hit me as you wish. In the end, there is no meaning of the patriarch's coming from the West.\"\n\nLinji said, \"That is so.\"",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Jingde Chuandeng Lu, Longya Judun chapter",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "longya-judun", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "liu-tiemo-dharma-combat",
+    "type": "dialogue",
+    "author_slug": "liu-tiemo",
+    "collection": "Traditional Zen Encounter Dialogues",
+    "era": "Tang",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "Iron Grinder Liu",
+    "content": "Liu Tiemo came to see Guishan. Guishan said, \"So the old cow has come!\"\n\nLiu Tiemo said, \"Tomorrow there is a great feast on Mount Tai. Will the master be going?\"\n\nGuishan lay down and stretched out.\n\nLiu Tiemo turned and walked out.\n\nA monk later asked Guishan about this exchange. Guishan said, \"That old woman—she ground me right down.\"",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Jingde Chuandeng Lu, Liu Tiemo chapter",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "liu-tiemo", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "panshan-moon-of-the-mind",
+    "type": "saying",
+    "author_slug": "panshan-baoji",
+    "collection": "Traditional Zen Sayings",
+    "era": "Tang",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "The Moon of the Mind",
+    "content": "Panshan said: \"The moon of the mind is solitary and round; its light swallows the ten thousand forms. The light does not illuminate objects, nor do objects exist. Light and objects both forgotten—then what is this?\"",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Jingde Chuandeng Lu, Panshan Baoji chapter",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "panshan-baoji", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "mayu-fan-exchange",
+    "type": "dialogue",
+    "author_slug": "mayu-baoche",
+    "collection": "Traditional Zen Encounter Dialogues",
+    "era": "Tang",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "Mayu's Fan",
+    "content": "Mayu was fanning himself. A monk came and said, \"The nature of wind is constant and all-pervading. There is no place it does not reach. Why then do you fan yourself?\"\n\nMayu said, \"You understand that the nature of wind is constant, but you do not yet understand the meaning of reaching every place.\"\n\nThe monk said, \"What is the meaning of reaching every place?\"\n\nMayu just kept fanning himself.\n\nThe monk bowed deeply.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Jingde Chuandeng Lu, Mayu Baoche chapter",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "mayu-baoche", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "heshan-beating-the-drum",
+    "type": "dialogue",
+    "author_slug": "heshan-wuyin",
+    "collection": "Traditional Zen Encounter Dialogues",
+    "era": "Five Dynasties",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "Beating the Drum",
+    "content": "A monk asked Heshan, \"How can one hear the soundless teaching?\"\n\nHeshan said, \"When the wooden man beats the drum at midnight, the stone woman gets up and dances.\"",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Wudeng Huiyuan, Heshan Wuyin chapter",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "heshan-wuyin", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "gaoan-meeting-the-self",
+    "type": "saying",
+    "author_slug": "gaoan-dayu",
+    "collection": "Traditional Zen Sayings",
+    "era": "Tang",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "Meeting the Self",
+    "content": "Gaoan said: \"You have been running around seeking the Buddha outside yourself for countless kalpas. Have you found him? Stop running, sit down, and for the first time you will meet the one who has been searching all along. That one is already complete.\"",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Jingde Chuandeng Lu, Gaoan Dayu chapter",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "gaoan-dayu", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "xingyang-before-thinking",
+    "type": "saying",
+    "author_slug": "xingyang-qingpou",
+    "collection": "Traditional Zen Sayings",
+    "era": "Tang",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "Before Thinking Arises",
+    "content": "Xingyang said: \"Before a single thought arises, where is the distinction between sacred and profane? In that gap, the whole great earth is the gate of liberation. But the moment you try to dwell there, you have already missed it.\"",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Jingde Chuandeng Lu, Xingyang Qingpou chapter",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "xingyang-qingpou", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "xuedou-bcr-verse-case-14",
+    "type": "verse",
+    "author_slug": "xuedou-chongxian",
+    "collection": "Blue Cliff Record",
+    "era": "Song",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "Verse on Case 14: Yunmen's Appropriate Statement",
+    "content": "On the highest peak, a road goes beyond;\nthe boundless ocean, the bottom exposed.\nFour gates, eight openings, all face the central post—\none phrase transcends all regulations.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Blue Cliff Record, Xuedou's verse on Case 14",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "xuedou-chongxian", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "longya-tending-the-fire",
+    "type": "saying",
+    "author_slug": "longya-judun",
+    "collection": "Traditional Zen Sayings",
+    "era": "Tang",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "Tending the Fire",
+    "content": "Longya said to the assembly: \"Those who study the Way must first learn to tend the fire. What fire? The fire of delusion that burns day and night. If you try to extinguish it, you only fan the flames. If you let it burn freely, it consumes itself. When the fuel is spent, what remains?\"",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Jingde Chuandeng Lu, Longya Judun chapter",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "longya-judun", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "panshan-three-realms-no-dharma",
+    "type": "dialogue",
+    "author_slug": "panshan-baoji",
+    "collection": "Traditional Zen Encounter Dialogues",
+    "era": "Tang",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "The Three Realms Have No Dharma",
+    "content": "Panshan addressed the assembly: \"The three realms have no dharma. Where will you seek the mind? The four elements are originally empty. Where does the Buddha dwell? The heavenly truth does not move, perfectly still. Approach and I will reveal it to you.\"\n\nA monk stepped forward and bowed.\n\nPanshan said, \"Too late.\"",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Jingde Chuandeng Lu, Panshan Baoji dharma hall discourse",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "panshan-baoji", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "baling-silver-bowl-snow",
+    "type": "dialogue",
+    "author_slug": "baling-haojian",
+    "collection": "Traditional Zen Encounter Dialogues",
+    "era": "Five Dynasties",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "A Silver Bowl Filled with Snow",
+    "content": "A monk asked Baling, \"What is the school of Yunmen?\"\n\nBaling said, \"A silver bowl filled with snow.\"",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Wudeng Huiyuan, Baling Haojian chapter",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "baling-haojian", "role": "speaker" }
+    ]
   }
 ]
