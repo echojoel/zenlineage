@@ -49,4 +49,5 @@ export interface RawTeaching {
   translator?: string;
   edition?: string;
   license_status?: string;
+  themes?: string[];
 }

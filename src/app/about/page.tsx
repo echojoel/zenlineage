@@ -99,6 +99,13 @@ export default function AboutPage() {
           </div>
         </section>
 
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img
+          src="/masters/puti-damo.webp"
+          alt="Bodhidharma (Puti Damo), the First Patriarch of Chan Buddhism"
+          className="about-section-image"
+        />
+
         <section className="detail-card">
           <h3 className="detail-section-title">Core Practice: Zazen</h3>
           <div className="detail-summary">
@@ -131,6 +138,13 @@ export default function AboutPage() {
             </p>
           </div>
         </section>
+
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img
+          src="/masters/dogen.webp"
+          alt="Dogen Zenji, founder of Soto Zen in Japan"
+          className="about-section-image"
+        />
 
         <section className="detail-card">
           <h3 className="detail-section-title">Key Concepts</h3>
@@ -182,6 +196,13 @@ export default function AboutPage() {
             </p>
           </div>
         </section>
+
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img
+          src="/masters/dajian-huineng.webp"
+          alt="Huineng, the Sixth Patriarch of Chan Buddhism"
+          className="about-section-image"
+        />
 
         <section className="detail-card">
           <h3 className="detail-section-title">Historical Development</h3>
@@ -271,6 +292,13 @@ export default function AboutPage() {
           </div>
         </section>
 
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img
+          src="/masters/hakuin-ekaku.webp"
+          alt="Hakuin Ekaku, reviver of the Rinzai school"
+          className="about-section-image"
+        />
+
         <section className="detail-card">
           <h3 className="detail-section-title">The Major Schools</h3>
           <div className="detail-summary">
@@ -317,6 +345,13 @@ export default function AboutPage() {
             </p>
           </div>
         </section>
+
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img
+          src="/masters/shunryu-suzuki.webp"
+          alt="Shunryu Suzuki, who brought Soto Zen to America"
+          className="about-section-image"
+        />
 
         <section className="detail-card">
           <h3 className="detail-section-title">The Ensō</h3>
@@ -550,6 +585,17 @@ export default function AboutPage() {
             </li>
           </ul>
         </section>
+        <footer className="about-credit">
+          Made by{" "}
+          <a
+            href="https://joelpestana.com"
+            className="detail-inline-link"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Joel Pestana
+          </a>
+        </footer>
       </div>
     </main>
   );

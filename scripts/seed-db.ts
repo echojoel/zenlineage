@@ -26,7 +26,10 @@ import {
   teachingContent,
   teachingMasterRoles,
   teachingRelations,
+  teachingThemes,
   teachings,
+  themes,
+  themeNames,
 } from "@/db/schema";
 import { buildResolvedMasterSlugMap } from "./master-slugs";
 import type {
@@ -62,10 +65,13 @@ async function resetDerivedTables(): Promise<void> {
   // Preserve only media_asset citations — images are seeded by separate scripts.
   await db.delete(citations).where(ne(citations.entityType, "media_asset"));
   // Content tables with master FKs must be cleared before rebuilding masters.
+  await db.delete(teachingThemes);
   await db.delete(teachingRelations);
   await db.delete(teachingMasterRoles);
   await db.delete(teachingContent);
   await db.delete(teachings);
+  await db.delete(themeNames);
+  await db.delete(themes);
   await db.delete(masterTransmissions);
   await db.delete(masterNames);
   await db.delete(masters);
@@ -271,6 +277,10 @@ async function main(): Promise<void> {
   if (transmissions) await seedTransmissions(transmissions);
   if (citationList) await seedCitations(citationList);
   if (tokens) await seedSearchTokens(tokens);
+
+  // Seed themes (must come before teachings so teachingThemes FKs resolve)
+  const { default: seedThemes } = await import("./seed-themes");
+  await seedThemes();
 
   // Seed biographies and teachings (these were wiped during reset)
   const { default: seedBiographies } = await import("./seed-biographies");

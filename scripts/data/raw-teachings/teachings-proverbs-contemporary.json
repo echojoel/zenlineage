@@ -1,0 +1,572 @@
+[
+  {
+    "slug": "proverb-suzuki-no-gaining",
+    "type": "proverb",
+    "author_slug": "shunryu-suzuki",
+    "collection": "Zen Mind, Beginner's Mind",
+    "era": "Contemporary",
+    "attribution_status": "verified",
+    "themes": ["practice", "letting-go"],
+    "locale": "en",
+    "title": "No Gaining Idea",
+    "content": "As long as you have some gaining idea in what you do, it is not true practice.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Zen Mind, Beginner's Mind",
+    "license_status": "fair_use",
+    "master_roles": [
+      { "slug": "shunryu-suzuki", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "proverb-suzuki-moment-to-moment",
+    "type": "proverb",
+    "author_slug": "shunryu-suzuki",
+    "collection": "Zen Mind, Beginner's Mind",
+    "era": "Contemporary",
+    "attribution_status": "verified",
+    "themes": ["practice", "impermanence", "daily-life"],
+    "locale": "en",
+    "title": "Moment After Moment",
+    "content": "The true purpose of Zen is to see things as they are, to observe things as they are, and to let everything go as it goes.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Zen Mind, Beginner's Mind",
+    "license_status": "fair_use",
+    "master_roles": [
+      { "slug": "shunryu-suzuki", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "proverb-suzuki-nothing-special",
+    "type": "proverb",
+    "author_slug": "shunryu-suzuki",
+    "collection": "Zen Mind, Beginner's Mind",
+    "era": "Contemporary",
+    "attribution_status": "verified",
+    "themes": ["practice", "daily-life", "mind"],
+    "locale": "en",
+    "title": "Nothing Special",
+    "content": "Nothing we see or hear is perfect. But right there in the imperfection is perfect reality.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Zen Mind, Beginner's Mind",
+    "license_status": "fair_use",
+    "master_roles": [
+      { "slug": "shunryu-suzuki", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "proverb-suzuki-weeds-in-mind",
+    "type": "proverb",
+    "author_slug": "shunryu-suzuki",
+    "collection": "Zen Mind, Beginner's Mind",
+    "era": "Contemporary",
+    "attribution_status": "verified",
+    "themes": ["mind", "letting-go", "practice"],
+    "locale": "en",
+    "title": "Pulling Weeds",
+    "content": "We pull out the weeds and bury them near the plant to give it nourishment. You should rather be grateful for the weeds, because eventually they will enrich your practice.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Zen Mind, Beginner's Mind",
+    "license_status": "fair_use",
+    "master_roles": [
+      { "slug": "shunryu-suzuki", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "proverb-suzuki-control",
+    "type": "proverb",
+    "author_slug": "shunryu-suzuki",
+    "collection": "Zen Mind, Beginner's Mind",
+    "era": "Contemporary",
+    "attribution_status": "verified",
+    "themes": ["mind", "letting-go"],
+    "locale": "en",
+    "title": "Give Your Sheep a Large Meadow",
+    "content": "To give your sheep or cow a large, spacious meadow is the way to control him. So it is with people: first let them do what they want, and watch them. To watch them is the best policy.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Zen Mind, Beginner's Mind",
+    "license_status": "fair_use",
+    "master_roles": [
+      { "slug": "shunryu-suzuki", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "proverb-sawaki-lost-in-thought",
+    "type": "proverb",
+    "author_slug": "kodo-sawaki",
+    "collection": "To You (Anata ni)",
+    "era": "Contemporary",
+    "attribution_status": "verified",
+    "themes": ["mind", "practice"],
+    "locale": "en",
+    "title": "Lost in Thought",
+    "content": "You are all lost in thought, twenty-four hours a day. Zazen means waking up from that dream.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Kodo Sawaki, To You",
+    "license_status": "fair_use",
+    "master_roles": [
+      { "slug": "kodo-sawaki", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "proverb-sawaki-satori-not-commodity",
+    "type": "proverb",
+    "author_slug": "kodo-sawaki",
+    "collection": "To You (Anata ni)",
+    "era": "Contemporary",
+    "attribution_status": "verified",
+    "themes": ["enlightenment", "practice", "letting-go"],
+    "locale": "en",
+    "title": "Satori Is Not a Commodity",
+    "content": "Satori is not a commodity you can acquire. Zazen that doesn't aim at satori—that is the real thing.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Kodo Sawaki, To You",
+    "license_status": "fair_use",
+    "master_roles": [
+      { "slug": "kodo-sawaki", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "proverb-sawaki-sit-down-shut-up",
+    "type": "proverb",
+    "author_slug": "kodo-sawaki",
+    "collection": "To You (Anata ni)",
+    "era": "Contemporary",
+    "attribution_status": "verified",
+    "themes": ["practice", "mind", "letting-go"],
+    "locale": "en",
+    "title": "Sit Down and Shut Up",
+    "content": "Sit down and shut up. That is zazen. Everything else is just your imagination running wild.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Kodo Sawaki, To You",
+    "license_status": "fair_use",
+    "master_roles": [
+      { "slug": "kodo-sawaki", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "proverb-deshimaru-just-sit",
+    "type": "proverb",
+    "author_slug": "taisen-deshimaru",
+    "collection": "Teachings of Taisen Deshimaru",
+    "era": "Contemporary",
+    "attribution_status": "verified",
+    "themes": ["practice", "letting-go"],
+    "locale": "en",
+    "title": "Just Sit",
+    "content": "You must simply sit. Do not think. Do not try to become Buddha. Just sit. Only sit.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Kusen of Taisen Deshimaru",
+    "license_status": "fair_use",
+    "master_roles": [
+      { "slug": "taisen-deshimaru", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "proverb-deshimaru-cosmos-in-posture",
+    "type": "proverb",
+    "author_slug": "taisen-deshimaru",
+    "collection": "Teachings of Taisen Deshimaru",
+    "era": "Contemporary",
+    "attribution_status": "verified",
+    "themes": ["practice", "non-duality"],
+    "locale": "en",
+    "title": "The Cosmos in the Posture",
+    "content": "When you sit in zazen, you are the whole cosmos sitting. There is nothing outside of this posture.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Kusen of Taisen Deshimaru",
+    "license_status": "fair_use",
+    "master_roles": [
+      { "slug": "taisen-deshimaru", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "proverb-deshimaru-automatic-thinking",
+    "type": "proverb",
+    "author_slug": "taisen-deshimaru",
+    "collection": "Teachings of Taisen Deshimaru",
+    "era": "Contemporary",
+    "attribution_status": "verified",
+    "themes": ["mind", "letting-go", "practice"],
+    "locale": "en",
+    "title": "Automatic Thinking",
+    "content": "During zazen, thoughts come automatically. Let them come, let them go. Do not run after them. Do not run away from them. This is the secret.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Kusen of Taisen Deshimaru",
+    "license_status": "fair_use",
+    "master_roles": [
+      { "slug": "taisen-deshimaru", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "proverb-roland-rech-letting-go",
+    "type": "proverb",
+    "author_slug": "roland-rech",
+    "collection": "Kusen of Roland Rech",
+    "era": "Contemporary",
+    "attribution_status": "verified",
+    "themes": ["letting-go", "practice", "mind"],
+    "locale": "en",
+    "title": "Letting Go Is Not Giving Up",
+    "content": "Letting go is not giving up. It is opening your hands and letting life be what it is.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Kusen of Roland Rech",
+    "license_status": "fair_use",
+    "master_roles": [
+      { "slug": "roland-rech", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "proverb-roland-rech-zazen-mirror",
+    "type": "proverb",
+    "author_slug": "roland-rech",
+    "collection": "Kusen of Roland Rech",
+    "era": "Contemporary",
+    "attribution_status": "verified",
+    "themes": ["practice", "mind"],
+    "locale": "en",
+    "title": "Zazen Is a Mirror",
+    "content": "Zazen is like a mirror that reflects everything without judgment. In this mirror, you can see yourself as you truly are.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Kusen of Roland Rech",
+    "license_status": "fair_use",
+    "master_roles": [
+      { "slug": "roland-rech", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "proverb-dt-suzuki-before-zen",
+    "type": "proverb",
+    "author_slug": "d-t-suzuki",
+    "collection": "Essays in Zen Buddhism",
+    "era": "Contemporary",
+    "attribution_status": "verified",
+    "themes": ["practice", "enlightenment", "daily-life"],
+    "locale": "en",
+    "title": "Before and After Zen",
+    "content": "Before studying Zen, men are men and mountains are mountains. After a first glimpse into the truth of Zen, mountains are no longer mountains. After enlightenment, mountains are once again mountains.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Essays in Zen Buddhism, First Series",
+    "license_status": "fair_use",
+    "master_roles": [
+      { "slug": "d-t-suzuki", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "proverb-dt-suzuki-god-of-zen",
+    "type": "proverb",
+    "author_slug": "d-t-suzuki",
+    "collection": "An Introduction to Zen Buddhism",
+    "era": "Contemporary",
+    "attribution_status": "verified",
+    "themes": ["daily-life", "practice"],
+    "locale": "en",
+    "title": "God of Zen",
+    "content": "The God of Zen lives in the kitchen, in the garden, in the workshop—wherever work is done with the whole heart.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "An Introduction to Zen Buddhism",
+    "license_status": "fair_use",
+    "master_roles": [
+      { "slug": "d-t-suzuki", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "proverb-dt-suzuki-unless-it-grows",
+    "type": "proverb",
+    "author_slug": "d-t-suzuki",
+    "collection": "Essays in Zen Buddhism",
+    "era": "Contemporary",
+    "attribution_status": "verified",
+    "themes": ["practice", "mind", "enlightenment"],
+    "locale": "en",
+    "title": "Unless It Grows Out of Yourself",
+    "content": "Unless it grows out of yourself, no knowledge is really yours. It is only borrowed plumage.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Essays in Zen Buddhism",
+    "license_status": "fair_use",
+    "master_roles": [
+      { "slug": "d-t-suzuki", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "proverb-yamada-koun-experience",
+    "type": "proverb",
+    "author_slug": "yamada-koun",
+    "collection": "Gateless Gate Commentary",
+    "era": "Contemporary",
+    "attribution_status": "verified",
+    "themes": ["practice", "enlightenment"],
+    "locale": "en",
+    "title": "The Fact of Experience",
+    "content": "Zen is not a philosophy. It is not a religion in the usual sense. Zen is the practice of coming to the fact of experience, before thought divides it.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Yamada Koun, Gateless Gate Commentary",
+    "license_status": "fair_use",
+    "master_roles": [
+      { "slug": "yamada-koun", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "proverb-yamada-koun-mu-everything",
+    "type": "proverb",
+    "author_slug": "yamada-koun",
+    "collection": "Gateless Gate Commentary",
+    "era": "Contemporary",
+    "attribution_status": "verified",
+    "themes": ["emptiness", "non-duality", "practice"],
+    "locale": "en",
+    "title": "Mu Is Everything",
+    "content": "When you become Mu, you swallow the whole universe. The whole universe becomes you.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Yamada Koun, Gateless Gate Commentary",
+    "license_status": "fair_use",
+    "master_roles": [
+      { "slug": "yamada-koun", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "proverb-yasutani-no-shortcuts",
+    "type": "proverb",
+    "author_slug": "yasutani-hakuun",
+    "collection": "Three Pillars of Zen",
+    "era": "Contemporary",
+    "attribution_status": "verified",
+    "themes": ["practice", "enlightenment"],
+    "locale": "en",
+    "title": "No Shortcuts",
+    "content": "There are no shortcuts in Zen. If you want to walk, you must take every step yourself. No one can walk for you.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Three Pillars of Zen, Yasutani's introductory lectures",
+    "license_status": "fair_use",
+    "master_roles": [
+      { "slug": "yasutani-hakuun", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "proverb-yasutani-whole-body-and-mind",
+    "type": "proverb",
+    "author_slug": "yasutani-hakuun",
+    "collection": "Three Pillars of Zen",
+    "era": "Contemporary",
+    "attribution_status": "verified",
+    "themes": ["practice", "non-duality"],
+    "locale": "en",
+    "title": "Throw Yourself Into It",
+    "content": "You must throw yourself into practice with your whole body and mind. Half-hearted practice produces half-hearted results.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Three Pillars of Zen, Yasutani's introductory lectures",
+    "license_status": "fair_use",
+    "master_roles": [
+      { "slug": "yasutani-hakuun", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "proverb-aitken-precepts-alive",
+    "type": "proverb",
+    "author_slug": "robert-aitken",
+    "collection": "The Mind of Clover",
+    "era": "Contemporary",
+    "attribution_status": "verified",
+    "themes": ["practice", "daily-life"],
+    "locale": "en",
+    "title": "The Precepts Are Alive",
+    "content": "The precepts are not a set of rules imposed from outside. They are descriptions of how a person of true nature naturally behaves.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Robert Aitken, The Mind of Clover",
+    "license_status": "fair_use",
+    "master_roles": [
+      { "slug": "robert-aitken", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "proverb-aitken-intimate-with-all-things",
+    "type": "proverb",
+    "author_slug": "robert-aitken",
+    "collection": "Taking the Path of Zen",
+    "era": "Contemporary",
+    "attribution_status": "verified",
+    "themes": ["non-duality", "nature", "practice"],
+    "locale": "en",
+    "title": "Intimate with All Things",
+    "content": "Realization is not something you acquire. It is the intimate awareness that you were never separate from all things to begin with.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Robert Aitken, Taking the Path of Zen",
+    "license_status": "fair_use",
+    "master_roles": [
+      { "slug": "robert-aitken", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "proverb-nyogen-no-temple",
+    "type": "proverb",
+    "author_slug": "nyogen-senzaki",
+    "collection": "Like a Dream, Like a Fantasy",
+    "era": "Contemporary",
+    "attribution_status": "verified",
+    "themes": ["practice", "letting-go", "daily-life"],
+    "locale": "en",
+    "title": "No Temple Needed",
+    "content": "I have no temple. The city street is my temple. The taxi horn is my evening bell.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Nyogen Senzaki, Like a Dream, Like a Fantasy",
+    "license_status": "fair_use",
+    "master_roles": [
+      { "slug": "nyogen-senzaki", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "proverb-nyogen-no-followers",
+    "type": "proverb",
+    "author_slug": "nyogen-senzaki",
+    "collection": "Like a Dream, Like a Fantasy",
+    "era": "Contemporary",
+    "attribution_status": "verified",
+    "themes": ["practice", "mind"],
+    "locale": "en",
+    "title": "No Followers",
+    "content": "I have no followers. I do not want followers. I want people who walk on their own two feet.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Nyogen Senzaki, Like a Dream, Like a Fantasy",
+    "license_status": "fair_use",
+    "master_roles": [
+      { "slug": "nyogen-senzaki", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "proverb-nakagawa-soen-endless",
+    "type": "proverb",
+    "author_slug": "nakagawa-soen",
+    "collection": "Endless Vow",
+    "era": "Contemporary",
+    "attribution_status": "verified",
+    "themes": ["impermanence", "nature", "daily-life"],
+    "locale": "en",
+    "title": "This One Moment",
+    "content": "This one moment—this present moment—is infinitely large, and it contains all of time.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Nakagawa Soen, Endless Vow",
+    "license_status": "fair_use",
+    "master_roles": [
+      { "slug": "nakagawa-soen", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "proverb-shibayama-open-eye",
+    "type": "proverb",
+    "author_slug": "shibayama-zenkei",
+    "collection": "A Flower Does Not Talk",
+    "era": "Contemporary",
+    "attribution_status": "verified",
+    "themes": ["mind", "enlightenment"],
+    "locale": "en",
+    "title": "Open Your Zen Eye",
+    "content": "Open your Zen eye and you will see that there is nothing in the world that is not a flower, nothing that is not a spring wind.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Shibayama Zenkei, A Flower Does Not Talk",
+    "license_status": "fair_use",
+    "master_roles": [
+      { "slug": "shibayama-zenkei", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "proverb-omori-sogen-one-breath",
+    "type": "proverb",
+    "author_slug": "omori-sogen",
+    "collection": "An Introduction to Zen Training",
+    "era": "Contemporary",
+    "attribution_status": "verified",
+    "themes": ["practice", "daily-life"],
+    "locale": "en",
+    "title": "One Breath at a Time",
+    "content": "Zen practice is one breath at a time. If you can be truly present for one breath, you can be present for your whole life.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Omori Sogen, An Introduction to Zen Training",
+    "license_status": "fair_use",
+    "master_roles": [
+      { "slug": "omori-sogen", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "proverb-harada-drop-everything",
+    "type": "proverb",
+    "author_slug": "harada-daiun-sogaku",
+    "collection": "Teachings of Harada Roshi",
+    "era": "Contemporary",
+    "attribution_status": "verified",
+    "themes": ["practice", "letting-go", "enlightenment"],
+    "locale": "en",
+    "title": "Drop Everything",
+    "content": "Drop everything—your body, your mind, your opinions, your understanding. When there is nothing left to drop, that is it.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Harada Daiun Sogaku, sesshin instruction",
+    "license_status": "fair_use",
+    "master_roles": [
+      { "slug": "harada-daiun-sogaku", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "proverb-soyen-shaku-cup-of-tea",
+    "type": "proverb",
+    "author_slug": "soyen-shaku",
+    "collection": "Zen for Americans",
+    "era": "Contemporary",
+    "attribution_status": "verified",
+    "themes": ["daily-life", "practice", "mind"],
+    "locale": "en",
+    "title": "A Cup of Tea Is a Cup of Tea",
+    "content": "A cup of tea is a cup of tea. But if you drink it with full attention, it becomes the whole universe in a cup.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Soyen Shaku, Zen for Americans",
+    "license_status": "fair_use",
+    "master_roles": [
+      { "slug": "soyen-shaku", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "proverb-joshu-sasaki-plus-minus",
+    "type": "proverb",
+    "author_slug": "joshu-sasaki",
+    "collection": "Teachings of Joshu Sasaki",
+    "era": "Contemporary",
+    "attribution_status": "verified",
+    "themes": ["non-duality", "emptiness"],
+    "locale": "en",
+    "title": "Plus and Minus",
+    "content": "Plus and minus—they are one activity. When you truly understand this, you are free.",
+    "source_id": "src_wikisource",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Joshu Sasaki Roshi, oral teaching",
+    "license_status": "fair_use",
+    "master_roles": [
+      { "slug": "joshu-sasaki", "role": "attributed_to" }
+    ]
+  }
+]

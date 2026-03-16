@@ -11,7 +11,7 @@
 import fs from "fs";
 import path from "path";
 import { db } from "@/db";
-import { citations, teachings, teachingContent, teachingMasterRoles } from "@/db/schema";
+import { citations, teachings, teachingContent, teachingMasterRoles, teachingThemes } from "@/db/schema";
 import { deterministicId } from "./reconcile";
 import { buildTeachingItemCitations } from "./teaching-citations";
 import { masters } from "@/db/schema";
@@ -205,6 +205,19 @@ async function seedTeachings(): Promise<void> {
               role: roleEntry.role,
             },
           });
+      }
+    }
+
+    // h. Upsert teachingThemes if present
+    if (row.themes && row.themes.length > 0) {
+      for (const themeSlug of row.themes) {
+        await db
+          .insert(teachingThemes)
+          .values({
+            teachingId,
+            themeId: themeSlug,
+          })
+          .onConflictDoNothing();
       }
     }
 

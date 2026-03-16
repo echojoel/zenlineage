@@ -801,6 +801,30 @@ body {
   text-align: justify;
 }
 
+/* ===== About page ===== */
+.about-section-image {
+  display: block;
+  width: 100%;
+  max-width: 320px;
+  height: auto;
+  margin: 1.5rem auto;
+  border-radius: 4px;
+  opacity: 0.85;
+}
+
+.about-credit {
+  text-align: center;
+  padding: 2.5rem 0 1rem;
+  font-family: var(--font-inter), sans-serif;
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
+  color: var(--ink-light);
+}
+
+.about-credit a {
+  color: var(--ink);
+}
+
 @media (max-width: 720px) {
   .page-header,
   .masters-page,
@@ -848,6 +872,180 @@ body {
     max-height: 60vh;
     border-left: none;
     border-top: 1px solid var(--paper-warm);
+  }
+}
+
+/* ===== Proverbs page ===== */
+.proverbs-page {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 1.5rem 2rem;
+}
+
+.proverbs-controls {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+}
+
+.proverbs-theme-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-bottom: 1rem;
+}
+
+.proverbs-theme-pill {
+  font-family: var(--font-inter), sans-serif;
+  font-size: 0.68rem;
+  letter-spacing: 0.06em;
+  padding: 0.25rem 0.7rem;
+  border-radius: 999px;
+  border: 1px solid rgba(122, 106, 85, 0.2);
+  background: transparent;
+  color: var(--ink-light);
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s;
+}
+
+.proverbs-theme-pill:hover {
+  background: var(--paper-warm);
+  color: var(--ink);
+}
+
+.proverbs-theme-pill.active {
+  background: var(--ink);
+  color: var(--paper);
+  border-color: var(--ink);
+}
+
+.proverbs-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.proverb-entry {
+  padding: 2rem 0;
+  border-bottom: 1px solid rgba(122, 106, 85, 0.12);
+  text-align: center;
+}
+
+.proverb-entry:first-child {
+  padding-top: 1rem;
+}
+
+.proverb-entry:last-child {
+  border-bottom: none;
+}
+
+.proverb-content {
+  font-family: Georgia, "Times New Roman", serif;
+  font-style: italic;
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: var(--ink);
+  white-space: pre-line;
+  margin-bottom: 1rem;
+}
+
+.proverb-attribution {
+  font-family: var(--font-inter), sans-serif;
+  font-size: 0.72rem;
+  letter-spacing: 0.06em;
+  font-variant: small-caps;
+  color: var(--ink-light);
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  gap: 0.6rem;
+}
+
+.proverb-era {
+  opacity: 0.7;
+}
+
+.proverb-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  justify-content: center;
+  margin-top: 0.6rem;
+}
+
+.proverb-theme-tag {
+  font-family: var(--font-inter), sans-serif;
+  font-size: 0.62rem;
+  letter-spacing: 0.04em;
+  padding: 0.15rem 0.5rem;
+  border-radius: 999px;
+  background: var(--paper-warm);
+  color: var(--ink-light);
+}
+
+.proverbs-meta {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 0.25rem;
+}
+
+.proverbs-meta .masters-count {
+  margin-bottom: 0;
+}
+
+.proverbs-list {
+  margin-top: 1rem;
+}
+
+.proverbs-shuffle-btn {
+  font-family: var(--font-inter), sans-serif;
+  font-size: 0.65rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink-light);
+  background: transparent;
+  border: 1px solid rgba(122, 106, 85, 0.2);
+  padding: 0.2rem 0.6rem;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s;
+}
+
+.proverbs-shuffle-btn:hover {
+  background: var(--paper-warm);
+  color: var(--ink);
+}
+
+.proverbs-load-more {
+  text-align: center;
+  padding: 2rem 0 1rem;
+}
+
+.proverbs-load-more-btn {
+  font-family: var(--font-inter), sans-serif;
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink-light);
+  background: transparent;
+  border: 1px solid rgba(122, 106, 85, 0.25);
+  padding: 0.6rem 1.5rem;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s;
+}
+
+.proverbs-load-more-btn:hover {
+  background: var(--paper-warm);
+  color: var(--ink);
+}
+
+@media (max-width: 720px) {
+  .proverbs-page {
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 }
 

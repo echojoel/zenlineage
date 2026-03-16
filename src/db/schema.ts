@@ -183,6 +183,36 @@ export const teachingRelations = sqliteTable(
   (table) => [primaryKey({ columns: [table.teachingId, table.relatedId] })]
 );
 
+// ============================= THEMES ======================================
+
+export const themes = sqliteTable("themes", {
+  id: text("id").primaryKey(),
+  slug: text("slug").notNull().unique(),
+  sortOrder: integer("sort_order"),
+});
+
+export const themeNames = sqliteTable("theme_names", {
+  id: text("id").primaryKey(),
+  themeId: text("theme_id")
+    .notNull()
+    .references(() => themes.id),
+  locale: text("locale").notNull(),
+  value: text("value").notNull(),
+});
+
+export const teachingThemes = sqliteTable(
+  "teaching_themes",
+  {
+    teachingId: text("teaching_id")
+      .notNull()
+      .references(() => teachings.id),
+    themeId: text("theme_id")
+      .notNull()
+      .references(() => themes.id),
+  },
+  (table) => [primaryKey({ columns: [table.teachingId, table.themeId] })]
+);
+
 // ============================= EVENTS ======================================
 
 export const events = sqliteTable("events", {
