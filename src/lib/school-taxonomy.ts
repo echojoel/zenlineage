@@ -130,6 +130,87 @@ const SCHOOL_DEFINITIONS: SchoolDefinition[] = [
       "Sanbo-Zen (三宝禅, formerly Sanbo Kyodan, 'Three Treasures Association') is a modern Zen school founded by Yasutani Hakuun (1885–1973) that integrates Soto Zen's emphasis on shikantaza with the Rinzai tradition's systematic koan curriculum. Yasutani's teacher, Harada Daiun Sogaku, had pioneered this synthesis by combining his Soto training with extensive Rinzai koan study under several masters. The Sanbo-Zen approach offers practitioners both objectless sitting and a structured koan path, beginning with the Mu koan and progressing through the traditional Rinzai curriculum. Under the leadership of Yamada Koun (1907–1989), the school became one of the most important vehicles for transmitting Zen to the West. Yamada's radical openness—he trained Catholic priests and nuns, Protestant ministers, and practitioners of other faiths alongside traditional Buddhist students—transformed Zen from a Japanese cultural phenomenon into a genuinely international contemplative practice. Robert Aitken (Diamond Sangha, Hawaii) and Ruben Habito (Maria Kannon Zen Center, Dallas) are among the school's notable Western-based teachers. The school is headquartered in Kamakura, Japan.",
   },
   {
+    slug: "thien",
+    name: "Thiền",
+    tradition: "Thiền",
+    parentSlug: "chan",
+    aliases: ["thien", "thiền", "vietnamese zen", "vietnamese chan"],
+    summary:
+      "Thiền (禪) is the Vietnamese tradition of Chan Buddhism, brought to Vietnam through multiple transmissions from China beginning as early as the sixth century. The first Thiền school was founded by Vinitaruci (d. 594), an Indian monk who had studied with the Third Patriarch Sengcan before traveling to Vietnam. The second school was established by Vô Ngôn Thông (d. 826), a Chinese disciple of Baizhang Huaihai. Vietnamese Thiền developed a distinctive character, readily combining meditation practice with Pure Land devotion, Confucian ethics, and indigenous Vietnamese spirituality. The tradition produced several uniquely Vietnamese developments, including the Trúc Lâm (Bamboo Forest) school founded by Emperor Trần Nhân Tông in 1299, and the Liễu Quán dharma line of the Lâm Tế school, which became the dominant lineage in central and southern Vietnam.",
+  },
+  {
+    slug: "lam-te",
+    name: "Lâm Tế",
+    tradition: "Thiền",
+    parentSlug: "linji",
+    aliases: ["lam te", "lâm tế", "vietnamese linji", "linji vietnam"],
+    summary:
+      "The Lâm Tế school is the Vietnamese form of the Chinese Linji tradition, formally established in Vietnam during the seventeenth century by Chinese monks carrying the late-Ming Linji revival lineage of Miyun Yuanwu. The most important transmission was through Nguyên Thiều (1648–1728), a Chinese monk from Guangdong who arrived in Vietnam around 1665–1677 and established the Linji lineage in the central and southern regions. His dharma grandson Liễu Quán (1670–1742) became the first native Vietnamese to receive Linji dharma transmission, founding the Liễu Quán dharma line that 'Vietnamized' the tradition and remains the dominant Buddhist lineage in central Vietnam to this day. Thích Nhất Hạnh (1926–2022), the globally influential Zen teacher and peace activist, was the 42nd generation of the Lâm Tế school and 8th generation of the Liễu Quán line.",
+  },
+  {
+    slug: "truc-lam",
+    name: "Trúc Lâm",
+    tradition: "Thiền",
+    parentSlug: "thien",
+    aliases: ["truc lam", "trúc lâm", "bamboo forest", "竹林"],
+    summary:
+      "The Trúc Lâm (竹林, Bamboo Forest) school is the only indigenous Vietnamese Zen tradition, founded in 1299 by Trần Nhân Tông (1258–1308), the third emperor of the Trần dynasty who abdicated the throne to become a monk. After leading Vietnam to victory against two Mongol invasions, Trần Nhân Tông retired to Yên Tử Mountain and unified the three existing Vietnamese Thiền schools—the Vinitaruci, Vô Ngôn Thông, and Thảo Đường lineages—into a single school. The Trúc Lâm tradition was continued by two more patriarchs, Pháp Loa (1284–1330) and Huyền Quang (1254–1334), before gradually declining as a distinct school. It was revived in the twentieth century by Thích Thanh Từ as a modern Vietnamese contemplative movement with monasteries across the country.",
+  },
+  {
+    slug: "plum-village",
+    name: "Plum Village",
+    tradition: "Thiền",
+    parentSlug: "lam-te",
+    aliases: ["plum village", "lang mai", "làng mai", "order of interbeing"],
+    summary:
+      "The Plum Village tradition is a modern school of engaged Buddhism founded by Thích Nhất Hạnh (1926–2022) in the Lâm Tế (Vietnamese Linji) lineage. Named after Plum Village, the practice center established in the Dordogne region of France in 1982, the tradition emphasizes mindfulness in daily life, engaged social action, and the integration of meditation practice with ethical living. Thích Nhất Hạnh developed the practice of the Fourteen Mindfulness Trainings as the foundation of the Order of Interbeing (Tiếp Hiện), established in 1966 during the Vietnam War. The tradition's teaching methods—walking meditation, mindful eating, dharma sharing circles, and the practice of Beginning Anew—have made Zen practice accessible to millions worldwide. With monasteries and practice centers on five continents and hundreds of local sanghas, Plum Village is one of the largest Buddhist communities in the Western world.",
+  },
+  {
+    slug: "seon",
+    name: "Seon",
+    tradition: "Seon",
+    parentSlug: "chan",
+    aliases: ["seon", "선", "korean zen", "korean chan"],
+    summary:
+      "Seon (禪, 선) is the Korean tradition of Chan Buddhism, introduced to the Korean peninsula beginning in the seventh century by monks who had studied in Tang dynasty China. The earliest transmissions came through figures like Toui, who received dharma transmission from Baizhang Huaihai's lineage and established the first Seon school upon returning to Korea. During the Goryeo dynasty, Bojo Jinul (1158–1210) became the tradition's most influential reformer, synthesizing Seon meditation with Hwaeom (Huayan) doctrinal study and establishing the Jogye Order, which remains the dominant Buddhist institution in Korea today. Korean Seon developed a distinctive character: it preserved the intensity of Tang dynasty Chan practice—particularly the hwadu (huatou) method of koan investigation—while integrating it with a broader Buddhist framework. The tradition also maintained a strong emphasis on extended silent retreat, culminating in the modern Korean practice of three-month intensive meditation seasons (kyolche). Major modern figures include Gyeongheo, who revived the dying Seon tradition in the late nineteenth century, and Seongcheol, who insisted on sudden awakening as the only authentic path.",
+  },
+  {
+    slug: "jogye",
+    name: "Jogye",
+    tradition: "Seon",
+    parentSlug: "seon",
+    aliases: ["jogye", "jogye order", "조계종", "chogye"],
+    summary:
+      "The Jogye Order (조계종, 曹溪宗) is the largest and most influential Buddhist order in Korea, tracing its spiritual lineage to the Sixth Patriarch Huineng's mountain, Caoxi (Jogye in Korean). Founded in its original form by Bojo Jinul in the twelfth century and reconstituted in the twentieth century after Japanese colonial suppression, the Jogye Order represents the mainstream of Korean Seon practice. The order's distinctive approach combines rigorous hwadu (huatou) meditation with monastic discipline, seasonal intensive retreats (kyolche), and the integration of doctrinal study. The Jogye Order maintains over two thousand temples across South Korea and operates the country's major monastic training centers, including Haeinsa, Songgwangsa, and Tongdosa. In the modern era, the order has produced towering figures including Gyeongheo Seongu, who single-handedly revived Korean Seon practice; Mangong, Hyobong, and Gobong, who maintained rigorous meditation standards; and Seongcheol, whose uncompromising insistence on sudden awakening sparked nationwide debate about the nature of enlightenment.",
+  },
+  {
+    slug: "kwan-um",
+    name: "Kwan Um",
+    tradition: "Seon",
+    parentSlug: "jogye",
+    aliases: ["kwan um", "kwan um school", "kwan um school of zen"],
+    summary:
+      "The Kwan Um School of Zen is an international Seon organization founded in 1983 by the Korean master Seung Sahn (1927–2004), who was among the first Korean Zen teachers to establish a major presence in the West. The school's name refers to Gwaneum (Avalokiteshvara), the bodhisattva of compassion. Seung Sahn's teaching style combined the rigor of traditional Korean hwadu practice with a direct, humorous, and accessible approach adapted for Western students. His famous kong-an (koan) interviews, often beginning with 'What is this?', became the school's hallmark. The Kwan Um School maintains over a hundred Zen centers and groups across North America, Europe, Asia, and Africa, making it one of the most geographically widespread Zen organizations in the world.",
+  },
+  {
+    slug: "taego-order",
+    name: "Taego Order",
+    tradition: "Seon",
+    parentSlug: "seon",
+    aliases: ["taego", "taego order", "태고종"],
+    summary:
+      "The Taego Order (太古宗, 태고종) is the second largest Buddhist order in Korea, tracing its lineage to Taego Bou (1301–1382), a Goryeo dynasty master who received dharma transmission in the Linji lineage from the Chinese master Shiwu Qinggong (Stonehouse). Unlike the celibate Jogye Order, the Taego Order permits married clergy, a practice that became widespread during the Japanese colonial period (1910–1945) when Japanese Buddhist customs were imposed on Korean monastics. After Korean independence, the Buddhist community split over the issue of married clergy, with the celibate monks reconstituting as the Jogye Order and the married clergy organizing as the Taego Order. Despite this institutional distinction, both orders maintain the same fundamental Seon practice tradition rooted in hwadu meditation.",
+  },
+  {
+    slug: "obaku",
+    name: "Ōbaku",
+    tradition: "Zen",
+    parentSlug: "linji",
+    aliases: ["obaku", "ōbaku", "obaku zen", "黄檗宗"],
+    summary:
+      "The Ōbaku school (黄檗宗) is the third major school of Japanese Zen, founded in 1661 by the Chinese Chan master Ingen Ryūki (Yinyuan Longqi, 1592–1673), who brought late-Ming Chinese Linji Chan to Japan. Named after Huangbo (Ōbaku) Mountain—the monastery of the great Tang dynasty master Huangbo Xiyun—the school established its headquarters at Manpuku-ji in Uji, near Kyoto. The Ōbaku school is distinctive for preserving Chinese liturgical forms, including the recitation of the nembutsu (nianfo) alongside Zen meditation, reflecting the syncretic Chan-Pure Land practice that had become standard in late-Ming China. The school also introduced Ming dynasty architectural styles, calligraphy, painting, and the sencha tea ceremony to Japan, profoundly influencing Japanese culture. Tetsugen Dōkō, Ingen's prominent disciple, is celebrated for his monumental project of carving the entire Chinese Buddhist canon (Ōbaku edition of the Tripitaka) in woodblock, a feat of devotion that took over a decade.",
+  },
+  {
     slug: "other",
     name: "Other",
     tradition: "Zen",
@@ -250,6 +331,86 @@ const MASTER_SCHOOL_OVERRIDES: Array<{
     names: [
       "kumu daocheng",
       "changlu qingliao",
+    ],
+  },
+  {
+    schoolSlug: "seon",
+    names: [
+      "toui",
+      "wonhyo",
+      "naong hyegeun",
+    ],
+  },
+  {
+    schoolSlug: "jogye",
+    names: [
+      "bojo jinul",
+      "chinak hyesim",
+      "chinul hyesim",
+      "chin'gak hyesim",
+      "gihwa",
+      "seosan hyujeong",
+      "samyeongdang yujeong",
+      "samyeongdang",
+      "gyeongheo seongu",
+      "gyeongheo",
+      "mangong wolmyeon",
+      "mangong",
+      "hanam jungwon",
+      "hanam",
+      "hyobong yeonghak",
+      "hyobong",
+      "gobong gyeonguk",
+      "gobong",
+      "seongcheol",
+      "kusan sunim",
+      "daehaeng",
+      "beopjeong",
+      "jinje",
+    ],
+  },
+  {
+    schoolSlug: "kwan-um",
+    names: [
+      "seung sahn",
+    ],
+  },
+  {
+    schoolSlug: "taego-order",
+    names: [
+      "taego bou",
+    ],
+  },
+  {
+    schoolSlug: "obaku",
+    names: [
+      "ingen ryuki",
+      "ingen ryūki",
+      "tetsugen doko",
+      "tetsugen dōkō",
+    ],
+  },
+  {
+    schoolSlug: "thien",
+    names: [
+      "vinitaruci",
+      "vo ngon thong",
+      "van hanh",
+    ],
+  },
+  {
+    schoolSlug: "truc-lam",
+    names: [
+      "tran nhan tong",
+      "phap loa",
+      "huyen quang",
+    ],
+  },
+  {
+    schoolSlug: "plum-village",
+    names: [
+      "thich nhat hanh",
+      "chan khong",
     ],
   },
 ];

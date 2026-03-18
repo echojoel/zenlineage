@@ -189,7 +189,8 @@ export default function LineageGraph() {
       if (!node) continue;
       if (pixi.orphanSet.has(id)) continue;
       if (!schoolContextIds.has(id)) continue;
-      const yearOk = node.deathYear == null || node.deathYear <= pixi.timeMax;
+      const effectiveYear = node.deathYear ?? node.birthYear;
+      const yearOk = effectiveYear == null || effectiveYear <= pixi.timeMax;
       if (!yearOk) continue;
       visible.add(id);
     }
@@ -283,7 +284,7 @@ export default function LineageGraph() {
       const orphanSet = new Set(nodes.filter((n) => !connectedIds.has(n.id)).map((n) => n.id));
 
       // Time range from data
-      const years = nodes.map((n) => n.deathYear).filter((y): y is number => y != null);
+      const years = nodes.map((n) => n.deathYear ?? n.birthYear).filter((y): y is number => y != null);
       const maxYear = years.length > 0 ? Math.max(...years) : 2000;
       setDataMaxYear(maxYear);
       setTimeMax(maxYear);
