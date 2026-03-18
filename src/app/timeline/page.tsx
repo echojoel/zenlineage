@@ -16,7 +16,7 @@ import type { ResolvedMaster, ResolvedSchool } from "@/components/TimelineClient
 import { TIMELINE_ERAS, BIBLIOGRAPHY } from "@/lib/timeline-editorial";
 
 export const metadata: Metadata = {
-  title: "Timeline — 禅 Zen Encyclopedia",
+  title: "Timeline — Zen Lineage",
   description:
     "A chronological journey through 2,500 years of Chan and Zen Buddhist history.",
 };

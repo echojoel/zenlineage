@@ -135,21 +135,8 @@ export default async function Home() {
           marginBottom: "0.5rem",
         }}
       >
-        ZEN
+        ZEN LINEAGE
       </h1>
-
-      <p
-        style={{
-          fontFamily: "var(--font-inter), sans-serif",
-          fontSize: "0.75rem",
-          letterSpacing: "0.2em",
-          textTransform: "uppercase",
-          color: "var(--ink-light)",
-          marginBottom: "2.5rem",
-        }}
-      >
-        Lineage &amp; Encyclopedia
-      </p>
 
       {/* Divider */}
       <div

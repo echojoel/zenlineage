@@ -14,7 +14,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "禅 Zen — Lineage & Encyclopedia",
+  title: "Zen Lineage",
   description:
     "An interactive encyclopedia of Zen Buddhism — lineage explorer, masters, schools, temples, and teachings across 2,500 years of Chan/Zen history.",
 };

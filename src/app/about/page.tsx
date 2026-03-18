@@ -2,7 +2,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "About Zen — 禅 Zen Encyclopedia",
+  title: "About Zen — Zen Lineage",
   description:
     "What is Zen Buddhism? A precise introduction to the history, practice, and philosophy of Chan/Zen, with scholarly citations.",
 };
@@ -586,14 +586,14 @@ export default function AboutPage() {
           </ul>
         </section>
         <footer className="about-credit">
-          Made by{" "}
+          Open source on{" "}
           <a
-            href="https://joelpestana.com"
+            href="https://github.com/echojoel/zenlineage"
             className="detail-inline-link"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Joel Pestana
+            GitHub
           </a>
         </footer>
       </div>
