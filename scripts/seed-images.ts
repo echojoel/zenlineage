@@ -26,6 +26,7 @@ const PUBLIC_MASTERS_DIR = path.join(process.cwd(), "public", "masters");
  * Each entry is an array of search terms to try in order.
  */
 const IMAGE_SEARCH_OVERRIDES: Record<string, string[]> = {
+  // Indian patriarchs
   "shakyamuni-buddha": ["Gautama Buddha", "Buddha", "Siddhartha Gautama"],
   "mahakashyapa": ["Mahākāśyapa", "Mahakasyapa", "Mahakashyapa"],
   "ananda": ["Ānanda", "Ananda (Buddhist)"],
@@ -43,20 +44,97 @@ const IMAGE_SEARCH_OVERRIDES: Record<string, string[]> = {
   "vasubandhu": ["Vasubandhu"],
   "simha": ["Aryasimha", "Āryasiṃha", "Simha Bhikshu"],
   "prajnatara": ["Prajñātāra", "Prajnatara"],
+
+  // Chinese — early
   "puti-damo": ["Bodhidharma"],
   "dazu-huike": ["Dazu Huike", "Huike"],
   "jianzhi-sengcan": ["Sengcan", "Jianzhi Sengcan"],
   "dajian-huineng": ["Huineng"],
+  "xuefeng-yicun": ["Xuefeng Yicun", "Hsueh-feng I-ts'un"],
+
+  // Chinese — pre-existing notable missing
+  "wumen-huikai": ["Wumen Huikai", "Mumon Ekai", "無門慧開"],
+  "fengxue-yanzhao": ["Fengxue Yanzhao", "風穴延沼"],
+  "shishuang-qingzhu": ["Shishuang Qingzhu", "石霜慶諸"],
+  "xiangyan-zhixian": ["Xiangyan Zhixian", "香巖智閑"],
+  "damei-fachang": ["Damei Fachang", "大梅法常"],
+  "changsha-jingcen": ["Changsha Jingcen", "長沙景岑"],
+  "longya-judun": ["Longya Judun", "龍牙居遁"],
+  "panshan-baoji": ["Panshan Baoji", "盤山寶積"],
+  "yanguan-qian": ["Yanguan Qi'an", "鹽官齊安"],
+  "xitang-zhizang": ["Xitang Zhizang", "西堂智藏"],
+  "fushan-fayuan": ["Fushan Fayuan", "浮山法遠"],
+  "changlu-qingliao": ["Changlu Qingliao", "真歇清了"],
+  "juefan-huihong": ["Juefan Huihong", "覺範惠洪"],
+  "doushuai-congyue": ["Doushuai Congyue", "兜率從悅"],
+  "zhenjing-kewen": ["Zhenjing Kewen", "真淨克文"],
+  "huitang-zuxin": ["Huitang Zuxin", "晦堂祖心"],
+  "baiyun-shouduan": ["Baiyun Shouduan", "白雲守端"],
+  "lingyun-zhiqin": ["Lingyun Zhiqin", "靈雲志勤"],
+
+  // Chinese — modern
+  "xuyun": ["Xuyun", "Hsu Yun", "Empty Cloud", "虛雲"],
+  "sheng-yen": ["Sheng Yen", "聖嚴法師"],
+  "hsuan-hua": ["Hsuan Hua", "宣化上人"],
+
+  // Japanese
   "dogen": ["Dōgen", "Dogen Zenji"],
   "keizan-jokin": ["Keizan", "Keizan Jōkin"],
   "hakuin-ekaku": ["Hakuin Ekaku", "Hakuin"],
-  "xuefeng-yicun": ["Xuefeng Yicun", "Hsueh-feng I-ts'un"],
+  "myoan-eisai": ["Eisai", "Myōan Eisai", "栄西"],
+  "enni-benen": ["Enni Ben'en", "Shōichi Kokushi", "円爾"],
+  "muso-soseki": ["Musō Soseki", "夢窓疎石"],
+  "takuan-soho": ["Takuan Sōhō", "沢庵宗彭"],
+  "torei-enji": ["Torei Enji", "東嶺圓慈"],
+  "ingen-ryuki": ["Ingen", "Yinyuan Longqi", "隠元隆琦"],
+  "tetsugen-doko": ["Tetsugen Dōkō", "鉄眼道光"],
+  "menzan-zuiho": ["Menzan Zuihō", "面山瑞方"],
+  "koho-kakumyo": ["Kōhō Kakumyō", "高峰覚明"],
+  "sekko-soshin": ["Sekkō Sōshin", "雪江宗深"],
+  "gyokujun-so-on": ["Gyokujun So-on"],
+  "tokuo-ryoko": ["Tōkuō Ryōkō"],
+  "butsumon-sogaku": ["Butsumon Sogaku"],
+  "karyo-zuika": ["Karyō Zuika"],
+  "bokuo-soun": ["Bokuo Soun"],
+
+  // Japanese — Western teachers
   "gudo-wafu-nishijima": ["Gudō Wafu Nishijima", "Gudo Nishijima"],
   "taizan-maezumi": ["Taizan Maezumi", "Hakuyu Taizan Maezumi"],
   "jiyu-kennett": ["Jiyu-Kennett", "Houn Jiyu-Kennett"],
   "dainin-katagiri": ["Dainin Katagiri"],
   "kobun-chino-otogawa": ["Kobun Chino Otogawa", "Kobun Chino"],
   "roland-rech": ["Roland Rech Zen"],
+
+  // Korean Seon
+  "wonhyo": ["Wonhyo", "원효"],
+  "toui": ["Toui (monk)", "道義"],
+  "bojo-jinul": ["Jinul", "Chinul", "보조지눌"],
+  "chinul-hyesim": ["Hyesim", "Chin'gak Hyesim", "혜심"],
+  "taego-bou": ["Taego Bou", "태고보우"],
+  "naong-hyegeun": ["Naong Hyegeun", "나옹혜근"],
+  "gihwa": ["Gihwa", "Hamheo Deuktong", "기화"],
+  "seosan-hyujeong": ["Hyujeong", "Seosan Daesa", "서산대사"],
+  "samyeongdang-yujeong": ["Samyeongdang", "Yujeong", "사명당"],
+  "gyeongheo": ["Gyeongheo", "경허"],
+  "mangong": ["Mangong", "만공"],
+  "hanam-jungwon": ["Hanam Jungwon", "한암"],
+  "hyobong": ["Hyobong", "효봉"],
+  "gobong": ["Ko Bong", "Gobong", "고봉"],
+  "kusan-sunim": ["Kusan Sunim", "구산"],
+  "seongcheol": ["Seongcheol", "Song Chol", "성철"],
+  "seung-sahn": ["Seung Sahn", "숭산"],
+  "daehaeng": ["Daehaeng Kun Sunim", "대행"],
+  "beopjeong": ["Beopjeong", "법정"],
+
+  // Vietnamese
+  "thich-thanh-tu": ["Thích Thanh Từ"],
+
+  // Western Zen
+  "philip-kapleau": ["Philip Kapleau"],
+  "charlotte-joko-beck": ["Charlotte Joko Beck", "Joko Beck"],
+  "bernie-glassman": ["Bernie Glassman", "Tetsugen Bernard Glassman"],
+  "john-daido-loori": ["John Daido Loori"],
+  "joan-halifax": ["Joan Halifax", "Roshi Joan Halifax"],
 };
 
 /**
@@ -123,7 +201,7 @@ async function smartFetch(url: string, retries = 5, delay = 2000): Promise<Recor
     const res = await fetch(url, {
       headers: {
         "User-Agent":
-          "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+          "ZenEncyclopediaBot/1.0 (https://github.com/zen-encyclopedia; educational project)",
       },
     });
 
@@ -161,11 +239,18 @@ async function init() {
   console.log("Fetching masters from database...");
   const allMasters = await db.select().from(masters);
 
+  // Sort so masters with overrides are processed first (they're most likely to have images)
+  const sortedMasters = [...allMasters].sort((a, b) => {
+    const aHasOverride = IMAGE_SEARCH_OVERRIDES[a.slug] ? 0 : 1;
+    const bHasOverride = IMAGE_SEARCH_OVERRIDES[b.slug] ? 0 : 1;
+    return aHasOverride - bHasOverride;
+  });
+
   let successCount = 0;
   let skipCount = 0;
   let alreadyExistsCount = 0;
 
-  for (const master of allMasters) {
+  for (const master of sortedMasters) {
     // 0. Check if existing record
     const existingMedia = await db
       .select()
@@ -262,16 +347,11 @@ async function init() {
       }
     }
 
-    // Fallback: search Wikimedia Commons directly
-    if (!imageUrl) {
-      console.log(`  -> Wikipedia pageimages failed, trying Wikimedia Commons...`);
-      const commonsResult = await searchWikimediaCommons(searchTerms, master.slug);
-      if (commonsResult) {
-        imageUrl = commonsResult.imageUrl;
-        originalImageName = commonsResult.fileName;
-        usedSearchName = commonsResult.searchName;
-      }
-    }
+    // NOTE: Commons search fallback is disabled. It returns false positives
+    // (wrong person, unrelated photos like cafes/statues) that would be
+    // disrespectful to display for masters. Only Wikipedia pageimages (which
+    // are editorially curated) are trustworthy enough for automatic use.
+    // To add Commons images, use seed-images-targeted.ts with manual review.
 
     if (!imageUrl) {
       console.log(`  -> No image found for ${master.slug} (tried: ${searchTerms.join(", ")})`);
