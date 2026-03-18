@@ -1,4 +1,4 @@
-import { db } from "@/db";
+import { getDb } from "@/db";
 import {
   teachings,
   teachingContent,
@@ -47,6 +47,7 @@ export default async function ProverbsPage({
 }: {
   searchParams: Promise<{ highlight?: string }>;
 }) {
+  const db = await getDb();
   const { highlight } = await searchParams;
   // 1. Fetch all proverb teachings with content
   const proverbRows = await db

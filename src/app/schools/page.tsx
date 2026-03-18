@@ -1,9 +1,12 @@
-import { db } from "@/db";
+export const dynamic = "force-dynamic";
+
+import { getDb } from "@/db";
 import { schools, schoolNames, masters, mediaAssets, citations } from "@/db/schema";
 import { eq, and, count, inArray } from "drizzle-orm";
 import Link from "next/link";
 
 export default async function SchoolsPage() {
+  const db = await getDb();
   // Fetch schools with English names
   const schoolsData = await db
     .select({

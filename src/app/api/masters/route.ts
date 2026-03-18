@@ -1,10 +1,11 @@
 import { NextResponse } from "next/server";
-import { db } from "@/db";
+import { getDb } from "@/db";
 import { masters, masterNames, searchTokens } from "@/db/schema";
 import type { MasterListItem } from "@/lib/master-list";
 import { eq, and } from "drizzle-orm";
 
 export async function GET(): Promise<NextResponse<MasterListItem[]>> {
+  const db = await getDb();
   const mastersData = await db
     .select({
       id: masters.id,

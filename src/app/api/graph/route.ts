@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
 import { and, eq, inArray } from "drizzle-orm";
-import { db } from "@/db";
+import { getDb } from "@/db";
 import {
   citations,
   masters,
@@ -57,6 +57,7 @@ export interface GraphData {
 }
 
 export async function GET(): Promise<NextResponse<GraphData>> {
+  const db = await getDb();
   const [
     mastersData,
     namesData,

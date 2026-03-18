@@ -1,4 +1,6 @@
-import { db } from "@/db";
+export const dynamic = "force-dynamic";
+
+import { getDb } from "@/db";
 import {
   masters,
   masterNames,
@@ -21,6 +23,7 @@ export const metadata: Metadata = {
 };
 
 export default async function TimelinePage() {
+  const db = await getDb();
   // ── Collect all unique slugs from editorial mentions ───────────────
   const masterSlugs = new Set<string>();
   const schoolSlugs = new Set<string>();

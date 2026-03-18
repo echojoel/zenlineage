@@ -1,7 +1,9 @@
+export const dynamic = "force-dynamic";
+
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { and, eq, inArray } from "drizzle-orm";
-import { db } from "@/db";
+import { getDb } from "@/db";
 import {
   citations,
   masterNames,
@@ -15,6 +17,7 @@ import { formatDateWithPrecision } from "@/lib/date-format";
 import { getSchoolDefinition } from "@/lib/school-taxonomy";
 
 export default async function SchoolDetailPage({ params }: { params: Promise<{ slug: string }> }) {
+  const db = await getDb();
   const { slug } = await params;
 
   const schoolRows = await db
