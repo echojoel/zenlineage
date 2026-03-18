@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "prebuild": "tsx scripts/generate-static-data.ts",
     "build": "next build",
     "start": "next start",
     "lint": "eslint .",
@@ -20,9 +21,7 @@
     "db:generate": "drizzle-kit generate",
     "db:migrate": "drizzle-kit migrate",
     "validate-graph": "tsx scripts/validate-graph.ts",
-    "cf:build": "npx @opennextjs/cloudflare build",
-    "cf:dev": "npx @opennextjs/cloudflare dev",
-    "cf:deploy": "npx @opennextjs/cloudflare build && wrangler deploy"
+    "deploy": "npm run build && wrangler pages deploy out --project-name=zenlineage"
   },
   "dependencies": {
     "@libsql/client": "^0.17.0",

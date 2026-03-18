@@ -2,14 +2,4 @@
 
 name = "zenlineage"
 compatibility_date = "2025-03-14"
-compatibility_flags = ["nodejs_compat"]
-main = ".open-next/worker.js"
-
-# Static assets (images, CSS, JS bundles)
-assets = { directory = ".open-next/assets", binding = "ASSETS" }
-
-# D1 SQLite database
-[[d1_databases]]
-binding = "DB"
-database_name = "zenlineage-db"
-database_id = "" # Will be filled after `wrangler d1 create zenlineage-db`
+pages_build_output_dir = "out"

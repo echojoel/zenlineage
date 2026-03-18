@@ -1,6 +1,5 @@
-export const dynamic = "force-dynamic";
 
-import { getDb } from "@/db";
+import { db } from "@/db";
 import { masters, masterNames, schoolNames, searchTokens, mediaAssets, citations } from "@/db/schema";
 import { eq, and, inArray } from "drizzle-orm";
 import MastersClient from "@/components/MastersClient";
@@ -8,7 +7,6 @@ import Link from "next/link";
 import type { MasterListItem } from "@/lib/master-list";
 
 export default async function MastersPage() {
-  const db = await getDb();
   // Fetch all masters
   const mastersData = await db
     .select({

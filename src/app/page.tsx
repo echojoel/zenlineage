@@ -1,8 +1,7 @@
-export const dynamic = "force-dynamic";
 
 import Link from "next/link";
 import { sql, eq, and } from "drizzle-orm";
-import { getDb } from "@/db";
+import { db } from "@/db";
 import {
   masters,
   masterNames,
@@ -19,7 +18,6 @@ import {
 } from "@/lib/publishable-content";
 
 export default async function Home() {
-  const db = await getDb();
   // Counts
   const [masterRow, schoolRow, transmissionRow] = await Promise.all([
     db.select({ count: sql<number>`count(*)` }).from(masters),

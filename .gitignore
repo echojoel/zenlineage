@@ -40,6 +40,12 @@ yarn-error.log*
 .open-next/
 .wrangler/
 
+# generated static data
+public/data/
+
+# static export output
+/out/
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts
@@ -55,3 +61,4 @@ scripts/data/enriched/
 scripts/data/i18n/
 scripts/data/review-queue.json
 .worktrees
+d1-export*.sql

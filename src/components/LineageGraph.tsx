@@ -4,7 +4,7 @@ import { useEffect, useRef, useState, useCallback } from "react";
 import * as d3 from "d3";
 import Link from "next/link";
 import { useSearchParams } from "next/navigation";
-import type { GraphData, GraphNode, GraphEdge, GraphSchool } from "@/app/api/graph/route";
+import type { GraphData, GraphNode, GraphEdge, GraphSchool } from "@/lib/graph-types";
 import { getSchoolContextNodeIds } from "@/lib/lineage-visibility";
 import { formatDateWithPrecision } from "@/lib/date-format";
 
@@ -254,7 +254,7 @@ export default function LineageGraph() {
       // Fetch graph data
       let data: GraphData;
       try {
-        const res = await fetch("/api/graph");
+        const res = await fetch("/data/graph.json");
         if (!res.ok) throw new Error(`HTTP ${res.status}`);
         data = await res.json();
       } catch (e) {

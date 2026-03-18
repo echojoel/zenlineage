@@ -1,9 +1,8 @@
-export const dynamic = "force-dynamic";
 
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { and, eq, inArray } from "drizzle-orm";
-import { getDb } from "@/db";
+import { db } from "@/db";
 import {
   citations,
   masterNames,
@@ -26,8 +25,12 @@ import {
 } from "@/lib/publishable-content";
 import { formatLifeRange } from "@/lib/date-format";
 
+export async function generateStaticParams() {
+  const allMasters = await db.select({ slug: masters.slug }).from(masters);
+  return allMasters.map((m) => ({ slug: m.slug }));
+}
+
 export default async function MasterDetailPage({ params }: { params: Promise<{ slug: string }> }) {
-  const db = await getDb();
   const { slug } = await params;
 
   const rows = await db

@@ -1,4 +1,4 @@
-import { getDb } from "@/db";
+import { db } from "@/db";
 import {
   teachings,
   teachingContent,
@@ -19,7 +19,6 @@ import {
   isPublishedTeaching,
 } from "@/lib/publishable-content";
 
-export const dynamic = "force-dynamic";
 
 export interface ProverbListItem {
   id: string;
@@ -42,13 +41,7 @@ function shuffle<T>(array: T[]): T[] {
   return arr;
 }
 
-export default async function ProverbsPage({
-  searchParams,
-}: {
-  searchParams: Promise<{ highlight?: string }>;
-}) {
-  const db = await getDb();
-  const { highlight } = await searchParams;
+export default async function ProverbsPage() {
   // 1. Fetch all proverb teachings with content
   const proverbRows = await db
     .select({
@@ -231,15 +224,8 @@ export default async function ProverbsPage({
     };
   });
 
-  // 10. Shuffle, but put highlighted proverb first if specified
-  let shuffled = shuffle(items);
-  if (highlight) {
-    const idx = shuffled.findIndex((p) => p.slug === highlight);
-    if (idx > 0) {
-      const [item] = shuffled.splice(idx, 1);
-      shuffled = [item, ...shuffled];
-    }
-  }
+  // 10. Shuffle the proverbs
+  const shuffled = shuffle(items);
 
   return (
     <div style={{ background: "var(--paper)", minHeight: "100vh" }}>
