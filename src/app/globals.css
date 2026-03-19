@@ -988,7 +988,9 @@ body {
   display: flex;
   align-items: center;
   gap: 0.75rem;
+  padding-bottom: 1rem;
   margin-bottom: 0.25rem;
+  border-bottom: 1px solid var(--color-border, #e0d8ce);
 }
 
 .proverbs-meta .masters-count {

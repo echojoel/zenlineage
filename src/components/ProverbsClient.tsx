@@ -86,11 +86,28 @@ export default function ProverbsClient({
   }, [proverbs, schoolNames]);
 
   const uniqueEras = useMemo(() => {
+    const ERA_ORDER: Record<string, { rank: number; dates: string }> = {
+      "Han": { rank: 1, dates: "206 BCE–220 CE" },
+      "Liang": { rank: 2, dates: "502–557" },
+      "Sui": { rank: 3, dates: "581–618" },
+      "Tang": { rank: 4, dates: "618–907" },
+      "Five Dynasties": { rank: 5, dates: "907–979" },
+      "Song": { rank: 6, dates: "960–1279" },
+      "Kamakura": { rank: 7, dates: "1185–1333" },
+      "Muromachi": { rank: 8, dates: "1336–1573" },
+      "Edo": { rank: 9, dates: "1603–1868" },
+      "Meiji": { rank: 10, dates: "1868–1912" },
+      "Showa": { rank: 11, dates: "1926–1989" },
+      "Heisei": { rank: 12, dates: "1989–2019" },
+      "Contemporary": { rank: 13, dates: "present" },
+    };
     const seen = new Set<string>();
     for (const p of proverbs) {
       if (p.era) seen.add(p.era);
     }
-    return Array.from(seen).sort();
+    return Array.from(seen)
+      .sort((a, b) => (ERA_ORDER[a]?.rank ?? 99) - (ERA_ORDER[b]?.rank ?? 99))
+      .map((era) => ({ name: era, dates: ERA_ORDER[era]?.dates ?? "" }));
   }, [proverbs]);
 
   return (
@@ -137,8 +154,8 @@ export default function ProverbsClient({
           >
             <option value="all">All eras</option>
             {uniqueEras.map((era) => (
-              <option key={era} value={era}>
-                {era}
+              <option key={era.name} value={era.name}>
+                {era.name} ({era.dates})
               </option>
             ))}
           </select>
