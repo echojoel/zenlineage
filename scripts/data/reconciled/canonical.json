@@ -1558,9 +1558,9 @@
     "birth_year": 1944,
     "birth_precision": "exact",
     "birth_confidence": "high",
-    "death_year": 2024,
-    "death_precision": "exact",
-    "death_confidence": "high",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
     "school": "Soto",
     "source_ids": [
       "src_sotozen_founders"
@@ -14594,6 +14594,234 @@
     "death_precision": "exact",
     "death_confidence": "high",
     "school": "Nanyue line",
+    "source_ids": [
+      "src_agent_review"
+    ]
+  },
+  {
+    "id": "PAm2mMketX6PIpIrAx3kh",
+    "slug": "miaolian",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Miaolian"
+      },
+      {
+        "locale": "zh",
+        "name_type": "dharma",
+        "value": "妙蓮"
+      }
+    ],
+    "birth_year": 1824,
+    "birth_precision": "exact",
+    "birth_confidence": "medium",
+    "death_year": 1907,
+    "death_precision": "exact",
+    "death_confidence": "medium",
+    "school": "Linji",
+    "source_ids": [
+      "src_agent_review"
+    ]
+  },
+  {
+    "id": "Ar30nW1zm9n4PGu7VYRpG",
+    "slug": "koei-chino",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Koei Chino"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Hozan Koei Chino"
+      },
+      {
+        "locale": "ja",
+        "name_type": "dharma",
+        "value": "知野弘英"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Soto",
+    "source_ids": [
+      "src_agent_review"
+    ]
+  },
+  {
+    "id": "qS5RVeQJUu8e5Tti2cX0C",
+    "slug": "daicho-hayashi",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Daicho Hayashi"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Kaigai Daicho"
+      },
+      {
+        "locale": "ja",
+        "name_type": "dharma",
+        "value": "林大潮"
+      }
+    ],
+    "birth_year": 1887,
+    "birth_precision": "exact",
+    "birth_confidence": "medium",
+    "death_year": 1966,
+    "death_precision": "exact",
+    "death_confidence": "medium",
+    "school": "Soto",
+    "source_ids": [
+      "src_agent_review"
+    ]
+  },
+  {
+    "id": "LMHCAy50CB9Wo0R2Gov5h",
+    "slug": "keido-chisan-koho",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Keidō Chisan Kōhō"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Koho Zenji"
+      },
+      {
+        "locale": "ja",
+        "name_type": "dharma",
+        "value": "孤峰智璨"
+      }
+    ],
+    "birth_year": 1879,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 1967,
+    "death_precision": "exact",
+    "death_confidence": "high",
+    "school": "Soto",
+    "source_ids": [
+      "src_agent_review"
+    ]
+  },
+  {
+    "id": "QqpsDL63YoprMBo0c0Ng0",
+    "slug": "sonno-shueki",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Sonno Shueki"
+      },
+      {
+        "locale": "ja",
+        "name_type": "dharma",
+        "value": "損翁宗益"
+      }
+    ],
+    "birth_year": 1649,
+    "birth_precision": "circa",
+    "birth_confidence": "medium",
+    "death_year": 1705,
+    "death_precision": "exact",
+    "death_confidence": "medium",
+    "school": "Soto",
+    "source_ids": [
+      "src_agent_review"
+    ]
+  },
+  {
+    "id": "ZG5oir_yPhu1BEJmDh5Ls",
+    "slug": "itto-shoteki",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Ittō Shōteki"
+      },
+      {
+        "locale": "ja",
+        "name_type": "dharma",
+        "value": "一凍紹滴"
+      }
+    ],
+    "birth_year": 1539,
+    "birth_precision": "exact",
+    "birth_confidence": "medium",
+    "death_year": 1612,
+    "death_precision": "exact",
+    "death_confidence": "medium",
+    "school": "Rinzai",
+    "source_ids": [
+      "src_agent_review"
+    ]
+  },
+  {
+    "id": "DQB0jIi6M3iY7GAMxwZMc",
+    "slug": "xiaoyan-debao",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Xiaoyan Debao"
+      },
+      {
+        "locale": "zh",
+        "name_type": "dharma",
+        "value": "笑巖德寶"
+      }
+    ],
+    "birth_year": 1512,
+    "birth_precision": "exact",
+    "birth_confidence": "medium",
+    "death_year": 1581,
+    "death_precision": "exact",
+    "death_confidence": "medium",
+    "school": "Linji",
+    "source_ids": [
+      "src_agent_review"
+    ]
+  },
+  {
+    "id": "Ea6yFevdqD2kR2QMK8NHH",
+    "slug": "hyanggok-hyerim",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Hyanggok Hyerim"
+      },
+      {
+        "locale": "ko",
+        "name_type": "dharma",
+        "value": "향곡혜림"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "香谷蕙林"
+      }
+    ],
+    "birth_year": 1912,
+    "birth_precision": "exact",
+    "birth_confidence": "medium",
+    "death_year": 1978,
+    "death_precision": "exact",
+    "death_confidence": "medium",
+    "school": "Seon",
     "source_ids": [
       "src_agent_review"
     ]
