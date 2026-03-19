@@ -26,7 +26,7 @@ export default function AboutPage() {
             className="detail-hero-image"
           />
           <p className="detail-eyebrow">Introduction</p>
-          <h2 className="detail-title">What is Zen?</h2>
+          <h2 className="detail-title">What is Zen Lineage?</h2>
           <p className="detail-subtitle">
             A tradition of awakening through direct experience
           </p>
@@ -36,9 +36,9 @@ export default function AboutPage() {
           <div className="detail-summary">
             <p>
               My name is Joel. I practice zazen. I wanted to understand how
-              the schools and lineages connect, so I built this. It is open
-              source, sourced, and open to correction. If something is wrong,
-              please open an issue.
+              the schools and lineages connect, so I built this. It
+              is <a href="https://github.com/echojoel/zenlineage" className="detail-inline-link" target="_blank" rel="noopener noreferrer">open source</a>, sourced, and open to correction. If
+              something is wrong, please open an issue.
             </p>
           </div>
         </section>
