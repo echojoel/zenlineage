@@ -33,6 +33,34 @@ export default function AboutPage() {
         </section>
 
         <section className="detail-card">
+          <div className="detail-summary">
+            <p>
+              My name is Joel, and I&rsquo;m a student of Soto Zen. For years
+              I sat on the cushion following the breath, trusting shikantaza, and
+              yet I kept running into names and lineage charts I couldn&rsquo;t
+              place &mdash; who was Shitou, and how did his teaching reach
+              Dogen? Why does Korean Seon feel so different from Japanese
+              Rinzai when they share the same Linji root? What happened in
+              Vietnam, and why didn&rsquo;t I know about it?
+            </p>
+            <p>
+              I built Zen Lineage to answer those questions for myself and for
+              anyone else who has ever wondered how all the branches of this
+              vast tradition connect. It is not a scholarly authority &mdash;
+              it is a quiet place to explore, the way you might walk slowly
+              through an old temple and read the names on the ancestor tablets.
+              Every master, every transmission, every school page is sourced
+              and open to correction. If you find an error, please open an
+              issue &mdash; accuracy is a form of respect, and this project
+              is a labor of that respect.
+            </p>
+            <p style={{ marginBottom: 0 }}>
+              May it be useful to your practice.
+            </p>
+          </div>
+        </section>
+
+        <section className="detail-card">
           <h3 className="detail-section-title">Etymology</h3>
           <div className="detail-summary">
             <p>
