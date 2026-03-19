@@ -36,9 +36,26 @@ export default function AboutPage() {
           <div className="detail-summary">
             <p>
               My name is Joel. I practice zazen. I wanted to understand how
-              the schools and lineages connect, so I built this. It
-              is <a href="https://github.com/echojoel/zenlineage" className="detail-inline-link" target="_blank" rel="noopener noreferrer">open source</a>, sourced, and open to correction. If
-              something is wrong, please open an issue.
+              the schools and lineages connect, so I built this.
+              The project is <a href="https://github.com/echojoel/zenlineage" className="detail-inline-link" target="_blank" rel="noopener noreferrer">open source</a> and
+              open to correction &mdash; if something is wrong, please open
+              an issue.
+            </p>
+          </div>
+        </section>
+
+        <section className="detail-card">
+          <h3 className="detail-section-title">What is Zen?</h3>
+          <div className="detail-summary">
+            <p>
+              Zen is the practice of sitting down and looking directly at
+              what you are. No scripture can do it for you, no concept can
+              replace it. You sit, you breathe, and sooner or later the
+              distance between you and your life closes. That is all.
+            </p>
+            <p>
+              What follows on this page is the history, the philosophy, the
+              scholarship. It matters. But it comes second.
             </p>
           </div>
         </section>
