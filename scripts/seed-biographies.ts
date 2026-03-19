@@ -850,10 +850,10 @@ As part of the broad network of Linji teachers active during the Song dynasty, X
 Siming's teaching, like that of many Song dynasty Linji masters, reflected the school's integration of literary culture with direct experiential practice. The Song period saw Chan become deeply embedded in Chinese intellectual life, and masters like Siming navigated this cultural environment while preserving the radical simplicity at the heart of the Linji teaching.`,
   },
   {
-    slug: "nanpu-shaoming",
-    content: `Nanpu Shaoming, known in Japan as Nanpo Jomyo or Daio Kokushi, was a pivotal figure in the transmission of Chinese Linji Chan to Japan. He traveled to China during the Song dynasty and studied with Xutang Zhiyu, receiving dharma transmission and returning to Japan to establish a lineage that would become central to the Rinzai tradition. His Japanese dharma name, Daio Kokushi (National Teacher), reflects the high honor he received.
+    slug: "nanpo-jomyo",
+    content: `Nanpo Jomyo (1235–1308), known posthumously as Daio Kokushi (National Teacher), was the founder of the Otokan lineage that became the sole surviving branch of Rinzai Zen. Born in Suruga Province, he began Zen training under Lanxi Daolong at Kenchoji in Kamakura before traveling to Song dynasty China in 1259, where he studied under Xutang Zhiyu and received dharma transmission in 1265.
 
-Nanpu's transmission created one of the most important bridges between Chinese Chan and Japanese Zen. Through his student Shuho Myocho (Daito Kokushi), his lineage produced the Daitokuji and Myoshinji branches of Rinzai Zen, which remain the largest and most influential Rinzai lineages in Japan to this day. The lineage of Daio-Daito-Kanzan forms the backbone of modern Rinzai Zen practice.`,
+Returning to Japan, Nanpo established himself as one of the most important figures in the transmission of Chinese Linji Chan to Japan. Through his student Shuho Myocho (Daito Kokushi), his lineage produced the Daitokuji and Myoshinji branches of Rinzai Zen, which remain the largest and most influential Rinzai lineages in Japan to this day. The lineage of Daio-Daito-Kanzan (from the honorifics of these three masters) forms the backbone of all modern Rinzai Zen practice, and through the eighteenth-century reformer Hakuin Ekaku, includes every Rinzai Zen master alive today.`,
   },
   {
     slug: "huoan-shiti",

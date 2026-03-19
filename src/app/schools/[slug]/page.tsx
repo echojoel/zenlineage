@@ -217,6 +217,13 @@ export default async function SchoolDetailPage({ params }: { params: Promise<{ s
           </p>
         </section>
 
+        {definition?.practice && (
+          <section className="detail-card">
+            <h3 className="detail-section-title">Meditation practice</h3>
+            <p className="detail-summary">{definition.practice}</p>
+          </section>
+        )}
+
         <section className="detail-card">
           <h3 className="detail-section-title">Masters in this branch</h3>
           {schoolMasters.length === 0 ? (

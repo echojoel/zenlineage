@@ -235,7 +235,7 @@
     "death_year": 900,
     "death_precision": "circa",
     "death_confidence": "high",
-    "school": "Yunmen",
+    "school": "Nanyue line",
     "source_ids": [
       "src_chan_ancestors_pdf",
       "src_originals_curated"
@@ -350,16 +350,17 @@
         "value": "Sûzan Fujaku"
       }
     ],
-    "birth_year": null,
-    "birth_precision": "unknown",
-    "birth_confidence": "low",
-    "death_year": null,
-    "death_precision": "unknown",
-    "death_confidence": "low",
-    "school": "Qingyuan line",
+    "birth_year": 651,
+    "birth_precision": "circa",
+    "birth_confidence": "medium",
+    "death_year": 739,
+    "death_precision": "exact",
+    "death_confidence": "high",
+    "school": "Early Chan",
     "source_ids": [
       "src_chan_ancestors_pdf",
-      "src_originals_curated"
+      "src_originals_curated",
+      "src_agent_review"
     ]
   },
   {
@@ -424,12 +425,12 @@
       }
     ],
     "birth_year": 709,
-    "birth_precision": "circa",
+    "birth_precision": "exact",
     "birth_confidence": "high",
     "death_year": 788,
-    "death_precision": "circa",
+    "death_precision": "exact",
     "death_confidence": "high",
-    "school": "Linji",
+    "school": "Nanyue line",
     "source_ids": [
       "src_chan_ancestors_pdf",
       "src_originals_curated"
@@ -461,7 +462,7 @@
     "death_year": 883,
     "death_precision": "circa",
     "death_confidence": "high",
-    "school": "Yunmen",
+    "school": "Nanyue line",
     "source_ids": [
       "src_chan_ancestors_pdf",
       "src_originals_curated"
@@ -469,31 +470,41 @@
   },
   {
     "id": "0yYHIqv6h1fQlQqfk2eQy",
-    "slug": "nanpu-shaoming",
+    "slug": "nanpo-jomyo",
     "names": [
       {
         "locale": "en",
         "name_type": "dharma",
+        "value": "Nanpo Jomyo"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Nampo Jōmyō"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Daio Kokushi"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
         "value": "Nanpu Shaoming"
       },
       {
-        "locale": "en",
+        "locale": "zh",
         "name_type": "alias",
-        "value": "Nan-p’u Shao-ming"
-      },
-      {
-        "locale": "en",
-        "name_type": "alias",
-        "value": "Nampo Jômyô"
+        "value": "南浦紹明"
       }
     ],
-    "birth_year": null,
-    "birth_precision": "unknown",
-    "birth_confidence": "low",
-    "death_year": null,
-    "death_precision": "unknown",
-    "death_confidence": "low",
-    "school": "Linji",
+    "birth_year": 1235,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 1308,
+    "death_precision": "exact",
+    "death_confidence": "high",
+    "school": "Rinzai",
     "source_ids": [
       "src_chan_ancestors_pdf",
       "src_originals_curated"
@@ -525,7 +536,7 @@
     "death_year": 794,
     "death_precision": "exact",
     "death_confidence": "high",
-    "school": "Qingyuan line",
+    "school": "Early Chan",
     "source_ids": [
       "src_chan_ancestors_pdf",
       "src_originals_curated"
@@ -998,7 +1009,7 @@
     "death_year": null,
     "death_precision": "unknown",
     "death_confidence": "low",
-    "school": "Qingyuan line",
+    "school": "Fayan",
     "source_ids": [
       "src_chan_ancestors_pdf",
       "src_originals_curated"
@@ -1080,13 +1091,14 @@
     "birth_year": null,
     "birth_precision": "unknown",
     "birth_confidence": "low",
-    "death_year": 942,
+    "death_year": 820,
     "death_precision": "circa",
-    "death_confidence": "high",
-    "school": "Qingyuan line",
+    "death_confidence": "low",
+    "school": "Early Chan",
     "source_ids": [
       "src_chan_ancestors_pdf",
-      "src_originals_curated"
+      "src_originals_curated",
+      "src_agent_review"
     ]
   },
   {
@@ -1107,6 +1119,11 @@
         "locale": "en",
         "name_type": "alias",
         "value": "Setchô Jûken"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "雪竇重顯"
       }
     ],
     "birth_year": 980,
@@ -1251,7 +1268,7 @@
     "death_year": 853,
     "death_precision": "circa",
     "death_confidence": "high",
-    "school": "Caodong",
+    "school": "Guiyang",
     "source_ids": [
       "src_chan_ancestors_pdf",
       "src_originals_curated"
@@ -1330,7 +1347,7 @@
     "death_year": null,
     "death_precision": "unknown",
     "death_confidence": "low",
-    "school": "Caodong",
+    "school": "Nanyue line",
     "source_ids": [
       "src_chan_ancestors_pdf",
       "src_originals_curated"
@@ -1637,7 +1654,7 @@
     "death_year": 744,
     "death_precision": "circa",
     "death_confidence": "high",
-    "school": "Linji",
+    "school": "Nanyue line",
     "source_ids": [
       "src_chan_ancestors_pdf",
       "src_originals_curated"
@@ -2001,7 +2018,7 @@
     "death_year": 820,
     "death_precision": "circa",
     "death_confidence": "high",
-    "school": "Caodong",
+    "school": "Nanyue line",
     "source_ids": [
       "src_chan_ancestors_pdf",
       "src_originals_curated"
@@ -2080,7 +2097,7 @@
     "death_year": 835,
     "death_precision": "exact",
     "death_confidence": "high",
-    "school": "Qingyuan line",
+    "school": "Nanyue line",
     "source_ids": [
       "src_chan_ancestors_pdf",
       "src_originals_curated"
@@ -2415,7 +2432,7 @@
     "death_year": 895,
     "death_precision": "circa",
     "death_confidence": "high",
-    "school": "Guiyang",
+    "school": "Caodong",
     "source_ids": [
       "src_chan_ancestors_pdf",
       "src_originals_curated"
@@ -2596,6 +2613,11 @@
         "locale": "en",
         "name_type": "alias",
         "value": "Hôsen Dôshin"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "奉先道琛"
       }
     ],
     "birth_year": null,
@@ -2986,6 +3008,11 @@
         "locale": "en",
         "name_type": "honorific",
         "value": "Huichao"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "歸宗策真"
       }
     ],
     "birth_year": null,
@@ -2994,7 +3021,7 @@
     "death_year": 979,
     "death_precision": "exact",
     "death_confidence": "high",
-    "school": "Qingyuan line",
+    "school": "Fayan",
     "source_ids": [
       "src_chan_ancestors_pdf",
       "src_originals_curated"
@@ -3026,7 +3053,7 @@
     "death_year": null,
     "death_precision": "unknown",
     "death_confidence": "low",
-    "school": "Caodong",
+    "school": "Guiyang",
     "source_ids": [
       "src_chan_ancestors_pdf",
       "src_originals_curated"
@@ -3142,13 +3169,13 @@
         "value": "Nan'yô Echû"
       }
     ],
-    "birth_year": null,
-    "birth_precision": "unknown",
-    "birth_confidence": "low",
+    "birth_year": 675,
+    "birth_precision": "circa",
+    "birth_confidence": "medium",
     "death_year": 775,
     "death_precision": "exact",
     "death_confidence": "high",
-    "school": "Qingyuan line",
+    "school": "Early Chan",
     "source_ids": [
       "src_chan_ancestors_pdf",
       "src_originals_curated"
@@ -3253,7 +3280,7 @@
     "death_year": null,
     "death_precision": "unknown",
     "death_confidence": "low",
-    "school": "Guiyang",
+    "school": "Yunmen",
     "source_ids": [
       "src_chan_ancestors_pdf",
       "src_originals_curated"
@@ -3470,7 +3497,7 @@
     "death_year": 869,
     "death_precision": "circa",
     "death_confidence": "high",
-    "school": "Linji",
+    "school": "Guiyang",
     "source_ids": [
       "src_chan_ancestors_pdf",
       "src_originals_curated"
@@ -3735,7 +3762,7 @@
     "death_year": 958,
     "death_precision": "exact",
     "death_confidence": "high",
-    "school": "Qingyuan line",
+    "school": "Fayan",
     "source_ids": [
       "src_chan_ancestors_pdf",
       "src_originals_curated"
@@ -3795,6 +3822,11 @@
         "locale": "en",
         "name_type": "alias",
         "value": "Tôsan Shusho"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "洞山守初"
       }
     ],
     "birth_year": 910,
@@ -3803,7 +3835,7 @@
     "death_year": 990,
     "death_precision": "exact",
     "death_confidence": "high",
-    "school": "Nanyue line",
+    "school": "Yunmen",
     "source_ids": [
       "src_chan_ancestors_pdf",
       "src_originals_curated"
@@ -4348,11 +4380,11 @@
         "value": "Setchô Chikan"
       }
     ],
-    "birth_year": null,
-    "birth_precision": "unknown",
-    "birth_confidence": "low",
-    "death_year": 972,
-    "death_precision": "circa",
+    "birth_year": 1105,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 1192,
+    "death_precision": "exact",
     "death_confidence": "high",
     "school": "Caodong",
     "source_ids": [
@@ -4568,7 +4600,7 @@
     "death_year": 883,
     "death_precision": "circa",
     "death_confidence": "high",
-    "school": "Caodong",
+    "school": "Guiyang",
     "source_ids": [
       "src_chan_ancestors_pdf",
       "src_originals_curated"
@@ -4889,7 +4921,7 @@
     "death_year": null,
     "death_precision": "unknown",
     "death_confidence": "low",
-    "school": "Guiyang",
+    "school": "Nanyue line",
     "source_ids": [
       "src_chan_ancestors_pdf",
       "src_originals_curated"
@@ -5132,7 +5164,7 @@
     "death_year": 937,
     "death_precision": "exact",
     "death_confidence": "high",
-    "school": "Nanyue line",
+    "school": "Qingyuan line",
     "source_ids": [
       "src_chan_ancestors_pdf",
       "src_originals_curated"
@@ -5516,13 +5548,13 @@
         "value": "Daizui Hôshin"
       }
     ],
-    "birth_year": null,
-    "birth_precision": "unknown",
-    "birth_confidence": "low",
-    "death_year": null,
-    "death_precision": "unknown",
-    "death_confidence": "low",
-    "school": "Yangqi line",
+    "birth_year": 878,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 963,
+    "death_precision": "exact",
+    "death_confidence": "high",
+    "school": "Nanyue line",
     "source_ids": [
       "src_chan_ancestors_pdf",
       "src_originals_curated"
@@ -5706,7 +5738,7 @@
     "death_year": 1215,
     "death_precision": "circa",
     "death_confidence": "high",
-    "school": "Yangqi line",
+    "school": "Rinzai",
     "source_ids": [
       "src_chan_ancestors_pdf",
       "src_originals_curated"
@@ -5994,7 +6026,7 @@
     "death_year": null,
     "death_precision": "unknown",
     "death_confidence": "low",
-    "school": "Guiyang",
+    "school": "Yunmen",
     "source_ids": [
       "src_chan_ancestors_pdf",
       "src_originals_curated"
@@ -6041,7 +6073,7 @@
     "death_year": 814,
     "death_precision": "circa",
     "death_confidence": "high",
-    "school": "Linji",
+    "school": "Nanyue line",
     "source_ids": [
       "src_chan_ancestors_pdf",
       "src_originals_curated"
@@ -6073,7 +6105,7 @@
     "death_year": 860,
     "death_precision": "circa",
     "death_confidence": "high",
-    "school": "Linji",
+    "school": "Nanyue line",
     "source_ids": [
       "src_chan_ancestors_pdf",
       "src_originals_curated"
@@ -6118,6 +6150,11 @@
         "locale": "en",
         "name_type": "alias",
         "value": "Chimon Kôso"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "智門光祚"
       }
     ],
     "birth_year": null,
@@ -6126,7 +6163,7 @@
     "death_year": 1031,
     "death_precision": "circa",
     "death_confidence": "high",
-    "school": "Guiyang",
+    "school": "Yunmen",
     "source_ids": [
       "src_chan_ancestors_pdf",
       "src_originals_curated"
@@ -6332,6 +6369,11 @@
         "locale": "en",
         "name_type": "alias",
         "value": "Kyôrin Chôon"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "香林澄遠"
       }
     ],
     "birth_year": null,
@@ -6340,7 +6382,7 @@
     "death_year": 987,
     "death_precision": "circa",
     "death_confidence": "high",
-    "school": "Guiyang",
+    "school": "Yunmen",
     "source_ids": [
       "src_chan_ancestors_pdf",
       "src_originals_curated"
@@ -6425,7 +6467,7 @@
     "death_year": 940,
     "death_precision": "circa",
     "death_confidence": "high",
-    "school": "Caodong",
+    "school": "Qingyuan line",
     "source_ids": [
       "src_chan_ancestors_pdf",
       "src_originals_curated"
@@ -6760,7 +6802,7 @@
     "death_year": 897,
     "death_precision": "circa",
     "death_confidence": "high",
-    "school": "Yunmen",
+    "school": "Caodong",
     "source_ids": [
       "src_chan_ancestors_pdf",
       "src_originals_curated"
@@ -6996,6 +7038,11 @@
         "locale": "en",
         "name_type": "alias",
         "value": "Haryô Kôkan"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "巴陵顥鑑"
       }
     ],
     "birth_year": null,
@@ -7036,7 +7083,7 @@
     "death_year": 823,
     "death_precision": "circa",
     "death_confidence": "high",
-    "school": "Yunmen",
+    "school": "Nanyue line",
     "source_ids": [
       "src_chan_ancestors_pdf",
       "src_originals_curated"
@@ -7157,7 +7204,7 @@
     "death_year": 706,
     "death_precision": "circa",
     "death_confidence": "high",
-    "school": "Qingyuan line",
+    "school": "Early Chan",
     "source_ids": [
       "src_chan_ancestors_pdf",
       "src_originals_curated"
@@ -7208,10 +7255,10 @@
         "value": "弘忍"
       }
     ],
-    "birth_year": 602,
+    "birth_year": 601,
     "birth_precision": "exact",
     "birth_confidence": "high",
-    "death_year": 675,
+    "death_year": 674,
     "death_precision": "exact",
     "death_confidence": "high",
     "school": "Early Chan",
@@ -7403,7 +7450,7 @@
     "death_year": 895,
     "death_precision": "circa",
     "death_confidence": "high",
-    "school": "Caodong",
+    "school": "Nanyue line",
     "source_ids": [
       "src_chan_ancestors_pdf",
       "src_originals_curated"
@@ -7601,13 +7648,13 @@
         "value": "Hôhô Ishô"
       }
     ],
-    "birth_year": null,
-    "birth_precision": "unknown",
-    "birth_confidence": "low",
-    "death_year": 1129,
+    "birth_year": 1084,
+    "birth_precision": "exact",
+    "birth_confidence": "medium",
+    "death_year": 1128,
     "death_precision": "circa",
-    "death_confidence": "high",
-    "school": "Guiyang",
+    "death_confidence": "medium",
+    "school": "Caodong",
     "source_ids": [
       "src_chan_ancestors_pdf",
       "src_originals_curated"
@@ -7668,6 +7715,11 @@
         "locale": "en",
         "name_type": "alias",
         "value": "Hôon Gensoku"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "報恩玄則"
       }
     ],
     "birth_year": null,
@@ -7676,7 +7728,7 @@
     "death_year": 960,
     "death_precision": "circa",
     "death_confidence": "high",
-    "school": "Nanyue line",
+    "school": "Yunmen",
     "source_ids": [
       "src_chan_ancestors_pdf",
       "src_originals_curated"
@@ -7822,7 +7874,7 @@
     "death_year": 927,
     "death_precision": "circa",
     "death_confidence": "high",
-    "school": "Yunmen",
+    "school": "Qingyuan line",
     "source_ids": [
       "src_chan_ancestors_pdf",
       "src_originals_curated"
@@ -7974,7 +8026,7 @@
     "death_year": 839,
     "death_precision": "circa",
     "death_confidence": "high",
-    "school": "Caodong",
+    "school": "Nanyue line",
     "source_ids": [
       "src_chan_ancestors_pdf",
       "src_originals_curated"
@@ -8085,7 +8137,7 @@
     "death_year": 853,
     "death_precision": "circa",
     "death_confidence": "high",
-    "school": "Qingyuan line",
+    "school": "Nanyue line",
     "source_ids": [
       "src_chan_ancestors_pdf",
       "src_originals_curated"
@@ -8192,7 +8244,7 @@
     "death_year": 900,
     "death_precision": "circa",
     "death_confidence": "high",
-    "school": "Yangqi line",
+    "school": "Linji",
     "source_ids": [
       "src_chan_ancestors_pdf",
       "src_originals_curated"
@@ -8224,7 +8276,7 @@
     "death_year": null,
     "death_precision": "unknown",
     "death_confidence": "low",
-    "school": "Yunmen",
+    "school": "Caodong",
     "source_ids": [
       "src_chan_ancestors_pdf",
       "src_originals_curated"
@@ -8256,7 +8308,7 @@
     "death_year": null,
     "death_precision": "unknown",
     "death_confidence": "low",
-    "school": "Yunmen",
+    "school": "Guiyang",
     "source_ids": [
       "src_chan_ancestors_pdf",
       "src_originals_curated"
@@ -8288,7 +8340,7 @@
     "death_year": 868,
     "death_precision": "circa",
     "death_confidence": "high",
-    "school": "Caodong",
+    "school": "Nanyue line",
     "source_ids": [
       "src_chan_ancestors_pdf",
       "src_originals_curated"
@@ -8743,7 +8795,7 @@
     "death_year": 923,
     "death_precision": "circa",
     "death_confidence": "high",
-    "school": "Yunmen",
+    "school": "Caodong",
     "source_ids": [
       "src_chan_ancestors_pdf",
       "src_originals_curated"
@@ -8930,6 +8982,11 @@
         "locale": "en",
         "name_type": "alias",
         "value": "Yômei Enju"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "永明延壽"
       }
     ],
     "birth_year": 904,
@@ -8938,7 +8995,7 @@
     "death_year": 975,
     "death_precision": "exact",
     "death_confidence": "high",
-    "school": "Qingyuan line",
+    "school": "Fayan",
     "source_ids": [
       "src_chan_ancestors_pdf",
       "src_originals_curated"
@@ -8962,6 +9019,11 @@
         "locale": "en",
         "name_type": "alias",
         "value": "Tendai Tokushô"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "天台德韶"
       }
     ],
     "birth_year": 891,
@@ -8970,7 +9032,7 @@
     "death_year": 972,
     "death_precision": "exact",
     "death_confidence": "high",
-    "school": "Qingyuan line",
+    "school": "Fayan",
     "source_ids": [
       "src_chan_ancestors_pdf",
       "src_originals_curated"
@@ -9201,7 +9263,7 @@
     "death_year": 880,
     "death_precision": "circa",
     "death_confidence": "high",
-    "school": "Yangqi line",
+    "school": "Nanyue line",
     "source_ids": [
       "src_chan_ancestors_pdf",
       "src_originals_curated"
@@ -10153,7 +10215,7 @@
     "death_year": 1038,
     "death_precision": "circa",
     "death_confidence": "high",
-    "school": "Caodong",
+    "school": "Linji",
     "source_ids": [
       "src_chan_ancestors_pdf",
       "src_originals_curated"
@@ -10206,7 +10268,7 @@
     "death_year": 689,
     "death_precision": "circa",
     "death_confidence": "high",
-    "school": "Qingyuan line",
+    "school": "Early Chan",
     "source_ids": [
       "src_chan_ancestors_pdf",
       "src_originals_curated"
@@ -10270,7 +10332,7 @@
     "death_year": null,
     "death_precision": "unknown",
     "death_confidence": "low",
-    "school": "Linji",
+    "school": "Early Chan",
     "source_ids": [
       "src_chan_ancestors_pdf",
       "src_originals_curated"
@@ -10561,7 +10623,7 @@
     "death_year": 1024,
     "death_precision": "circa",
     "death_confidence": "high",
-    "school": "Yunmen",
+    "school": "Linji",
     "source_ids": [
       "src_chan_ancestors_pdf",
       "src_originals_curated"
@@ -10840,7 +10902,7 @@
     "death_year": 842,
     "death_precision": "circa",
     "death_confidence": "high",
-    "school": "Linji",
+    "school": "Nanyue line",
     "source_ids": [
       "src_chan_ancestors_pdf",
       "src_originals_curated"
@@ -10941,7 +11003,7 @@
     "death_year": 904,
     "death_precision": "circa",
     "death_confidence": "high",
-    "school": "Caodong",
+    "school": "Yunmen",
     "source_ids": [
       "src_chan_ancestors_pdf",
       "src_originals_curated"
@@ -11040,7 +11102,7 @@
     "death_year": 814,
     "death_precision": "circa",
     "death_confidence": "high",
-    "school": "Linji",
+    "school": "Nanyue line",
     "source_ids": [
       "src_chan_ancestors_pdf",
       "src_originals_curated"
@@ -11130,7 +11192,7 @@
     "death_year": 758,
     "death_precision": "circa",
     "death_confidence": "high",
-    "school": "Qingyuan line",
+    "school": "Early Chan",
     "source_ids": [
       "src_chan_ancestors_pdf",
       "src_originals_curated"
@@ -11219,7 +11281,7 @@
     "death_year": 713,
     "death_precision": "exact",
     "death_confidence": "high",
-    "school": "Qingyuan line",
+    "school": "Early Chan",
     "source_ids": [
       "src_chan_ancestors_pdf",
       "src_originals_curated"
@@ -11330,7 +11392,7 @@
     "death_year": 960,
     "death_precision": "circa",
     "death_confidence": "high",
-    "school": "Yunmen",
+    "school": "Qingyuan line",
     "source_ids": [
       "src_chan_ancestors_pdf",
       "src_originals_curated"
@@ -11532,10 +11594,10 @@
     "birth_year": null,
     "birth_precision": "unknown",
     "birth_confidence": "low",
-    "death_year": 892,
-    "death_precision": "circa",
-    "death_confidence": "high",
-    "school": "Qingyuan line",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Fayan",
     "source_ids": [
       "src_chan_ancestors_pdf",
       "src_originals_curated"
@@ -11567,7 +11629,7 @@
     "death_year": 814,
     "death_precision": "circa",
     "death_confidence": "high",
-    "school": "Yunmen",
+    "school": "Nanyue line",
     "source_ids": [
       "src_chan_ancestors_pdf",
       "src_originals_curated"
@@ -11619,13 +11681,13 @@
         "value": "Isan Daian"
       }
     ],
-    "birth_year": null,
-    "birth_precision": "unknown",
-    "birth_confidence": "low",
+    "birth_year": 793,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
     "death_year": 883,
     "death_precision": "circa",
     "death_confidence": "high",
-    "school": "Yangqi line",
+    "school": "Nanyue line",
     "source_ids": [
       "src_chan_ancestors_pdf",
       "src_originals_curated"
@@ -11780,7 +11842,7 @@
     "slug": "nguyen-thieu",
     "names": [
       {
-        "locale": "en",
+        "locale": "vi",
         "name_type": "dharma",
         "value": "Nguyên Thiều"
       },
@@ -11795,7 +11857,7 @@
         "value": "Shouzun Yuanzhao"
       },
       {
-        "locale": "en",
+        "locale": "vi",
         "name_type": "alias",
         "value": "Siêu Bạch"
       }
@@ -11817,7 +11879,7 @@
     "slug": "minh-hoang-tu-dung",
     "names": [
       {
-        "locale": "en",
+        "locale": "vi",
         "name_type": "dharma",
         "value": "Minh Hoằng Tử Dung"
       },
@@ -11844,7 +11906,7 @@
     "slug": "lieu-quan",
     "names": [
       {
-        "locale": "en",
+        "locale": "vi",
         "name_type": "dharma",
         "value": "Liễu Quán"
       },
@@ -11854,7 +11916,7 @@
         "value": "了觀"
       },
       {
-        "locale": "en",
+        "locale": "vi",
         "name_type": "alias",
         "value": "Thiệt Diệu Liễu Quán"
       }
@@ -11876,7 +11938,7 @@
     "slug": "te-an-luu-quang",
     "names": [
       {
-        "locale": "en",
+        "locale": "vi",
         "name_type": "dharma",
         "value": "Tế An Lưu Quang"
       }
@@ -11898,7 +11960,7 @@
     "slug": "dai-tue-chieu-nhien",
     "names": [
       {
-        "locale": "en",
+        "locale": "vi",
         "name_type": "dharma",
         "value": "Đại Tuệ Chiếu Nhiên"
       }
@@ -11920,7 +11982,7 @@
     "slug": "dao-minh-pho-tinh",
     "names": [
       {
-        "locale": "en",
+        "locale": "vi",
         "name_type": "dharma",
         "value": "Đạo Minh Phổ Tịnh"
       }
@@ -11942,12 +12004,12 @@
     "slug": "nhat-dinh",
     "names": [
       {
-        "locale": "en",
+        "locale": "vi",
         "name_type": "dharma",
         "value": "Nhất Định"
       },
       {
-        "locale": "en",
+        "locale": "vi",
         "name_type": "alias",
         "value": "Tánh Thiên Nhất Định"
       }
@@ -11969,7 +12031,7 @@
     "slug": "hai-thieu-cuong-ky",
     "names": [
       {
-        "locale": "en",
+        "locale": "vi",
         "name_type": "dharma",
         "value": "Hải Thiệu Cương Kỷ"
       }
@@ -11991,12 +12053,12 @@
     "slug": "thich-tue-minh",
     "names": [
       {
-        "locale": "en",
+        "locale": "vi",
         "name_type": "dharma",
         "value": "Thích Tuệ Minh"
       },
       {
-        "locale": "en",
+        "locale": "vi",
         "name_type": "alias",
         "value": "Thanh Thái"
       }
@@ -12018,7 +12080,7 @@
     "slug": "thich-chan-that",
     "names": [
       {
-        "locale": "en",
+        "locale": "vi",
         "name_type": "dharma",
         "value": "Thích Chân Thật"
       },
@@ -12028,7 +12090,7 @@
         "value": "真寔"
       },
       {
-        "locale": "en",
+        "locale": "vi",
         "name_type": "alias",
         "value": "Thanh Quý"
       }
@@ -12050,7 +12112,7 @@
     "slug": "thich-nhat-hanh",
     "names": [
       {
-        "locale": "en",
+        "locale": "vi",
         "name_type": "dharma",
         "value": "Thích Nhất Hạnh"
       },
@@ -12060,7 +12122,7 @@
         "value": "一行"
       },
       {
-        "locale": "en",
+        "locale": "vi",
         "name_type": "birth",
         "value": "Nguyễn Xuân Bảo"
       },
@@ -12092,7 +12154,7 @@
         "value": "Vinitaruci"
       },
       {
-        "locale": "en",
+        "locale": "vi",
         "name_type": "alias",
         "value": "Tỳ Ni Đa Lưu Chi"
       },
@@ -12119,7 +12181,7 @@
     "slug": "vo-ngon-thong",
     "names": [
       {
-        "locale": "en",
+        "locale": "vi",
         "name_type": "dharma",
         "value": "Vô Ngôn Thông"
       },
@@ -12134,9 +12196,9 @@
         "value": "Wu Yantong"
       }
     ],
-    "birth_year": null,
-    "birth_precision": "unknown",
-    "birth_confidence": "low",
+    "birth_year": 759,
+    "birth_precision": "circa",
+    "birth_confidence": "medium",
     "death_year": 826,
     "death_precision": "exact",
     "death_confidence": "high",
@@ -12151,7 +12213,7 @@
     "slug": "van-hanh",
     "names": [
       {
-        "locale": "en",
+        "locale": "vi",
         "name_type": "dharma",
         "value": "Vạn Hạnh"
       },
@@ -12178,7 +12240,7 @@
     "slug": "tran-nhan-tong",
     "names": [
       {
-        "locale": "en",
+        "locale": "vi",
         "name_type": "dharma",
         "value": "Trần Nhân Tông"
       },
@@ -12188,12 +12250,12 @@
         "value": "陳仁宗"
       },
       {
-        "locale": "en",
+        "locale": "vi",
         "name_type": "birth",
         "value": "Trần Khâm"
       },
       {
-        "locale": "en",
+        "locale": "vi",
         "name_type": "honorific",
         "value": "Điều Ngự Giác Hoàng"
       }
@@ -12215,7 +12277,7 @@
     "slug": "phap-loa",
     "names": [
       {
-        "locale": "en",
+        "locale": "vi",
         "name_type": "dharma",
         "value": "Pháp Loa"
       },
@@ -12225,7 +12287,7 @@
         "value": "法螺"
       },
       {
-        "locale": "en",
+        "locale": "vi",
         "name_type": "birth",
         "value": "Đồng Kiên Cương"
       }
@@ -12247,7 +12309,7 @@
     "slug": "huyen-quang",
     "names": [
       {
-        "locale": "en",
+        "locale": "vi",
         "name_type": "dharma",
         "value": "Huyền Quang"
       },
@@ -12257,7 +12319,7 @@
         "value": "玄光"
       },
       {
-        "locale": "en",
+        "locale": "vi",
         "name_type": "birth",
         "value": "Lý Đạo Tái"
       }
@@ -12279,17 +12341,17 @@
     "slug": "chan-khong",
     "names": [
       {
-        "locale": "en",
+        "locale": "vi",
         "name_type": "dharma",
         "value": "Chân Không"
       },
       {
-        "locale": "en",
+        "locale": "vi",
         "name_type": "birth",
         "value": "Cao Ngọc Phượng"
       },
       {
-        "locale": "en",
+        "locale": "vi",
         "name_type": "alias",
         "value": "Sister Chân Không"
       },
@@ -12592,7 +12654,7 @@
     ],
     "birth_year": 1846,
     "birth_precision": "exact",
-    "birth_confidence": "high",
+    "birth_confidence": "medium",
     "death_year": 1912,
     "death_precision": "exact",
     "death_confidence": "high",
@@ -12670,7 +12732,7 @@
       {
         "locale": "en",
         "name_type": "dharma",
-        "value": "Hyobong Yeonghak"
+        "value": "Hyobong Haknul"
       },
       {
         "locale": "en",
@@ -12680,7 +12742,12 @@
       {
         "locale": "ko",
         "name_type": "alias",
-        "value": "효봉영학"
+        "value": "효봉학눌"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "曉峰學訥"
       }
     ],
     "birth_year": 1888,
@@ -13206,7 +13273,7 @@
     "death_year": 1995,
     "death_precision": "exact",
     "death_confidence": "high",
-    "school": "Chan",
+    "school": "Guiyang",
     "source_ids": [
       "src_originals_curated"
     ]
@@ -13331,7 +13398,7 @@
     "slug": "thich-thanh-tu",
     "names": [
       {
-        "locale": "en",
+        "locale": "vi",
         "name_type": "dharma",
         "value": "Thích Thanh Từ"
       },
@@ -13339,6 +13406,11 @@
         "locale": "vi",
         "name_type": "alias",
         "value": "Thích Thanh Từ"
+      },
+      {
+        "locale": "vi",
+        "name_type": "birth",
+        "value": "Trần Hữu Phước"
       }
     ],
     "birth_year": 1924,
@@ -13350,6 +13422,1065 @@
     "school": "Trúc Lâm",
     "source_ids": [
       "src_originals_curated"
+    ]
+  },
+  {
+    "id": "e3UYLRqagiOiewgpOxF7H",
+    "slug": "phap-hien",
+    "names": [
+      {
+        "locale": "vi",
+        "name_type": "dharma",
+        "value": "Pháp Hiền"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "法賢"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": 626,
+    "death_precision": "circa",
+    "death_confidence": "low",
+    "school": "Thiền",
+    "source_ids": [
+      "src_agent_review"
+    ]
+  },
+  {
+    "id": "RTBARhH0Xlvny4w97eFva",
+    "slug": "thao-duong",
+    "names": [
+      {
+        "locale": "vi",
+        "name_type": "dharma",
+        "value": "Thảo Đường"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "草堂"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Thiền",
+    "source_ids": [
+      "src_agent_review"
+    ]
+  },
+  {
+    "id": "SClw-VzlP2BT8RhelJAZf",
+    "slug": "khuong-viet",
+    "names": [
+      {
+        "locale": "vi",
+        "name_type": "dharma",
+        "value": "Khuông Việt"
+      },
+      {
+        "locale": "vi",
+        "name_type": "birth",
+        "value": "Ngô Chân Lưu"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "匡越"
+      }
+    ],
+    "birth_year": 933,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 1011,
+    "death_precision": "exact",
+    "death_confidence": "high",
+    "school": "Thiền",
+    "source_ids": [
+      "src_agent_review"
+    ]
+  },
+  {
+    "id": "rcf4tYiBHQbvNOVpWrxPX",
+    "slug": "tue-trung-thuong-si",
+    "names": [
+      {
+        "locale": "vi",
+        "name_type": "dharma",
+        "value": "Tuệ Trung Thượng Sĩ"
+      },
+      {
+        "locale": "vi",
+        "name_type": "birth",
+        "value": "Trần Tung"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "慧忠上士"
+      },
+      {
+        "locale": "vi",
+        "name_type": "honorific",
+        "value": "Hưng Ninh Vương"
+      }
+    ],
+    "birth_year": 1230,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 1291,
+    "death_precision": "exact",
+    "death_confidence": "high",
+    "school": "Thiền",
+    "source_ids": [
+      "src_agent_review"
+    ]
+  },
+  {
+    "id": "ddOF2agwYznlYXgh350Ds",
+    "slug": "minh-hai-phap-bao",
+    "names": [
+      {
+        "locale": "vi",
+        "name_type": "dharma",
+        "value": "Minh Hải Pháp Bảo"
+      },
+      {
+        "locale": "vi",
+        "name_type": "alias",
+        "value": "Minh Hải Đắc Trí Pháp Bảo"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "明海法寶"
+      }
+    ],
+    "birth_year": 1670,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 1746,
+    "death_precision": "exact",
+    "death_confidence": "high",
+    "school": "Lâm Tế",
+    "source_ids": [
+      "src_agent_review"
+    ]
+  },
+  {
+    "id": "Rj7kV2mNpQ3xW8sYtL4nF",
+    "slug": "suio-genro",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Suio Genro"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Suiō Genro"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "遂翁元盧"
+      }
+    ],
+    "birth_year": 1717,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 1789,
+    "death_precision": "exact",
+    "death_confidence": "high",
+    "school": "Rinzai",
+    "source_ids": [
+      "src_agent_review"
+    ]
+  },
+  {
+    "id": "Xk9mT3vNqR5yW7sZtL2pG",
+    "slug": "manzan-dohaku",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Manzan Dohaku"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Manzan Dōhaku"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "卍山道白"
+      }
+    ],
+    "birth_year": 1636,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 1715,
+    "death_precision": "exact",
+    "death_confidence": "high",
+    "school": "Soto",
+    "source_ids": [
+      "src_agent_review"
+    ]
+  },
+  {
+    "id": "Bv4nK8wMqS6xT3rYpL5jH",
+    "slug": "muan-xingtao",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Muan Xingtao"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Mokuan Shōtō"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Mu'an Xingtao"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "木菴性瑫"
+      }
+    ],
+    "birth_year": 1611,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 1684,
+    "death_precision": "exact",
+    "death_confidence": "high",
+    "school": "Ōbaku",
+    "source_ids": [
+      "src_agent_review"
+    ]
+  },
+  {
+    "id": "Dw5nL9xMrT7yU4sZqK6pH",
+    "slug": "jifei-ruyi",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Jifei Ruyi"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Sokuhi Nyoitsu"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "即非如一"
+      }
+    ],
+    "birth_year": 1616,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 1671,
+    "death_precision": "exact",
+    "death_confidence": "high",
+    "school": "Ōbaku",
+    "source_ids": [
+      "src_agent_review"
+    ]
+  },
+  {
+    "id": "Fw6nM0yNsU8zV5tAqL7rJ",
+    "slug": "kubota-jiun",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Kubota Jiun"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Kubota Ji'un"
+      }
+    ],
+    "birth_year": 1932,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Sanbo-Zen",
+    "source_ids": [
+      "src_agent_review"
+    ]
+  },
+  {
+    "id": "Gx7nN1zOtV9aW6uBrM8sK",
+    "slug": "yamada-ryoun",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Yamada Ryoun"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Yamada Ryōun"
+      }
+    ],
+    "birth_year": 1940,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Sanbo-Zen",
+    "source_ids": [
+      "src_agent_review"
+    ]
+  },
+  {
+    "id": "Hy8nO2aPuW0bX7vCsN9tL",
+    "slug": "koryu-osaka",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Koryu Osaka"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Koryū Osaka"
+      }
+    ],
+    "birth_year": 1901,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 1985,
+    "death_precision": "exact",
+    "death_confidence": "high",
+    "school": "Rinzai",
+    "source_ids": [
+      "src_agent_review"
+    ]
+  },
+  {
+    "id": "Jz9nP3bQvX1cY8wDtO0uM",
+    "slug": "gento-sokuchu",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Gento Sokuchu"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Gentō Sokuchū"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "玄透即中"
+      }
+    ],
+    "birth_year": 1729,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 1807,
+    "death_precision": "exact",
+    "death_confidence": "high",
+    "school": "Soto",
+    "source_ids": [
+      "src_agent_review"
+    ]
+  },
+  {
+    "id": "tJkcm6ZiuzHF-RManKjMF",
+    "slug": "songshan-huian",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Songshan Huian"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Laoan"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "嵩山慧安"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "老安"
+      }
+    ],
+    "birth_year": 582,
+    "birth_precision": "circa",
+    "birth_confidence": "medium",
+    "death_year": 709,
+    "death_precision": "exact",
+    "death_confidence": "high",
+    "school": "Early Chan",
+    "source_ids": [
+      "src_agent_review"
+    ]
+  },
+  {
+    "id": "4oD9lJ_E6NlPXPr2pkmIR",
+    "slug": "niutou-zhiyan",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Niutou Zhiyan"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "牛頭智巖"
+      }
+    ],
+    "birth_year": 600,
+    "birth_precision": "circa",
+    "birth_confidence": "low",
+    "death_year": 677,
+    "death_precision": "circa",
+    "death_confidence": "low",
+    "school": "Early Chan",
+    "source_ids": [
+      "src_agent_review"
+    ]
+  },
+  {
+    "id": "9jG0wYQixcbAC9UVBFT8e",
+    "slug": "hongcheok",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Hongcheok"
+      },
+      {
+        "locale": "ko",
+        "name_type": "alias",
+        "value": "홍척"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "洪陟"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Seon",
+    "source_ids": [
+      "src_agent_review"
+    ]
+  },
+  {
+    "id": "1P0rF3vdDmKj7aBsfX7tv",
+    "slug": "hyecheol",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Hyecheol"
+      },
+      {
+        "locale": "ko",
+        "name_type": "alias",
+        "value": "혜철"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "惠哲"
+      }
+    ],
+    "birth_year": 785,
+    "birth_precision": "exact",
+    "birth_confidence": "medium",
+    "death_year": 861,
+    "death_precision": "exact",
+    "death_confidence": "medium",
+    "school": "Seon",
+    "source_ids": [
+      "src_agent_review"
+    ]
+  },
+  {
+    "id": "qItZVnImdyoiu3Ym9dE2S",
+    "slug": "beomil",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Beomil"
+      },
+      {
+        "locale": "ko",
+        "name_type": "alias",
+        "value": "범일"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "梵日"
+      }
+    ],
+    "birth_year": 810,
+    "birth_precision": "exact",
+    "birth_confidence": "medium",
+    "death_year": 889,
+    "death_precision": "exact",
+    "death_confidence": "medium",
+    "school": "Seon",
+    "source_ids": [
+      "src_agent_review"
+    ]
+  },
+  {
+    "id": "tStLHaAbCWKIlo3aIwgTX",
+    "slug": "hyeonuk",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Hyeonuk"
+      },
+      {
+        "locale": "ko",
+        "name_type": "alias",
+        "value": "현욱"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "玄昱"
+      }
+    ],
+    "birth_year": 787,
+    "birth_precision": "exact",
+    "birth_confidence": "medium",
+    "death_year": 869,
+    "death_precision": "exact",
+    "death_confidence": "medium",
+    "school": "Seon",
+    "source_ids": [
+      "src_agent_review"
+    ]
+  },
+  {
+    "id": "01cnUtLmr2wPDTpHpbCNN",
+    "slug": "toyun",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Toyun"
+      },
+      {
+        "locale": "ko",
+        "name_type": "alias",
+        "value": "도윤"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "道允"
+      }
+    ],
+    "birth_year": 797,
+    "birth_precision": "exact",
+    "birth_confidence": "medium",
+    "death_year": 868,
+    "death_precision": "exact",
+    "death_confidence": "medium",
+    "school": "Seon",
+    "source_ids": [
+      "src_agent_review"
+    ]
+  },
+  {
+    "id": "IA_uP1QhDoIAwxL9OQ4iS",
+    "slug": "muyeom",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Muyeom"
+      },
+      {
+        "locale": "ko",
+        "name_type": "alias",
+        "value": "무염"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "無染"
+      }
+    ],
+    "birth_year": 800,
+    "birth_precision": "circa",
+    "birth_confidence": "medium",
+    "death_year": 888,
+    "death_precision": "exact",
+    "death_confidence": "medium",
+    "school": "Seon",
+    "source_ids": [
+      "src_agent_review"
+    ]
+  },
+  {
+    "id": "Jo8GDR_-U6QQ8L4AtDCv3",
+    "slug": "chiseon-doheon",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Chiseon Doheon"
+      },
+      {
+        "locale": "ko",
+        "name_type": "alias",
+        "value": "지선도헌"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "智詵道憲"
+      }
+    ],
+    "birth_year": 824,
+    "birth_precision": "exact",
+    "birth_confidence": "medium",
+    "death_year": 882,
+    "death_precision": "exact",
+    "death_confidence": "medium",
+    "school": "Seon",
+    "source_ids": [
+      "src_agent_review"
+    ]
+  },
+  {
+    "id": "2LGn7SXQJfrIdW8_8-jAt",
+    "slug": "ieom",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Ieom"
+      },
+      {
+        "locale": "ko",
+        "name_type": "alias",
+        "value": "이엄"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "利嚴"
+      }
+    ],
+    "birth_year": 869,
+    "birth_precision": "exact",
+    "birth_confidence": "medium",
+    "death_year": 936,
+    "death_precision": "exact",
+    "death_confidence": "medium",
+    "school": "Seon",
+    "source_ids": [
+      "src_agent_review"
+    ]
+  },
+  {
+    "id": "l3V9-hwbEeIP9yKSZ3Qb2",
+    "slug": "baegun-gyeonghan",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Baegun Gyeonghan"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Baegun"
+      },
+      {
+        "locale": "ko",
+        "name_type": "alias",
+        "value": "백운경한"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "白雲景閑"
+      }
+    ],
+    "birth_year": 1298,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 1374,
+    "death_precision": "exact",
+    "death_confidence": "high",
+    "school": "Seon",
+    "source_ids": [
+      "src_agent_review"
+    ]
+  },
+  {
+    "id": "A3p1LRzyf8F7NIji9B3Ye",
+    "slug": "muhak-jacho",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Muhak Jacho"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Muhak"
+      },
+      {
+        "locale": "ko",
+        "name_type": "alias",
+        "value": "무학자초"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "無學自超"
+      }
+    ],
+    "birth_year": 1327,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 1405,
+    "death_precision": "exact",
+    "death_confidence": "high",
+    "school": "Seon",
+    "source_ids": [
+      "src_agent_review"
+    ]
+  },
+  {
+    "id": "Ce0irL2ECCaPY4ajPbIRp",
+    "slug": "suwol",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Suwol"
+      },
+      {
+        "locale": "ko",
+        "name_type": "alias",
+        "value": "수월"
+      }
+    ],
+    "birth_year": 1855,
+    "birth_precision": "exact",
+    "birth_confidence": "medium",
+    "death_year": 1928,
+    "death_precision": "exact",
+    "death_confidence": "medium",
+    "school": "Jogye",
+    "source_ids": [
+      "src_agent_review"
+    ]
+  },
+  {
+    "id": "LZi9mKgN1glOiUkovW3JG",
+    "slug": "hyewol-hyemyeong",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Hyewol Hyemyeong"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Hyewol"
+      },
+      {
+        "locale": "ko",
+        "name_type": "alias",
+        "value": "혜월혜명"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "慧月慧明"
+      }
+    ],
+    "birth_year": 1861,
+    "birth_precision": "exact",
+    "birth_confidence": "medium",
+    "death_year": 1937,
+    "death_precision": "exact",
+    "death_confidence": "medium",
+    "school": "Jogye",
+    "source_ids": [
+      "src_agent_review"
+    ]
+  },
+  {
+    "id": "QqeCrw1uV63YiZclYhga-",
+    "slug": "jinje",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Jinje"
+      },
+      {
+        "locale": "ko",
+        "name_type": "alias",
+        "value": "진제"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "眞際"
+      }
+    ],
+    "birth_year": 1934,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Jogye",
+    "source_ids": [
+      "src_agent_review"
+    ]
+  },
+  {
+    "id": "x0Sw14OZ8e3-QOehEtE6H",
+    "slug": "dongsan-hyeil",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Dongsan Hyeil"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Dongsan"
+      },
+      {
+        "locale": "ko",
+        "name_type": "alias",
+        "value": "동산혜일"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "東山慧日"
+      }
+    ],
+    "birth_year": 1890,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 1965,
+    "death_precision": "exact",
+    "death_confidence": "high",
+    "school": "Jogye",
+    "source_ids": [
+      "src_agent_review"
+    ]
+  },
+  {
+    "id": "nBfXtvCLdEicKF2o4f9ZX",
+    "slug": "yongseong-chinjong",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Yongseong Chinjong"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Yongseong"
+      },
+      {
+        "locale": "ko",
+        "name_type": "alias",
+        "value": "용성진종"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "龍城震鍾"
+      }
+    ],
+    "birth_year": 1864,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 1940,
+    "death_precision": "exact",
+    "death_confidence": "high",
+    "school": "Jogye",
+    "source_ids": [
+      "src_agent_review"
+    ]
+  },
+  {
+    "id": "PFsWsIIpQg6C9UWT71AOo",
+    "slug": "hwanam-honsu",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Hwanam Honsu"
+      },
+      {
+        "locale": "ko",
+        "name_type": "alias",
+        "value": "환암혼수"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "幻庵混修"
+      }
+    ],
+    "birth_year": 1320,
+    "birth_precision": "exact",
+    "birth_confidence": "medium",
+    "death_year": 1392,
+    "death_precision": "exact",
+    "death_confidence": "medium",
+    "school": "Jogye",
+    "source_ids": [
+      "src_agent_review"
+    ]
+  },
+  {
+    "id": "n2_p-EjsDgqswb7eB7Vm7",
+    "slug": "pingshan-chulin",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Pingshan Chulin"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "平山處林"
+      }
+    ],
+    "birth_year": 1279,
+    "birth_precision": "exact",
+    "birth_confidence": "medium",
+    "death_year": 1361,
+    "death_precision": "exact",
+    "death_confidence": "medium",
+    "school": "Yangqi line",
+    "source_ids": [
+      "src_agent_review"
+    ]
+  },
+  {
+    "id": "odJFCrnl2edlBDdz1C5Ja",
+    "slug": "xuan-huaichang",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Xuan Huaichang"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "虛庵懷敞"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Koan Esho"
+      }
+    ],
+    "birth_year": 1125,
+    "birth_precision": "circa",
+    "birth_confidence": "medium",
+    "death_year": 1195,
+    "death_precision": "circa",
+    "death_confidence": "medium",
+    "school": "Linji",
+    "source_ids": [
+      "src_agent_review"
+    ]
+  },
+  {
+    "id": "yifDLkDmWJ6UuVTAIjvFu",
+    "slug": "fenzhou-wuye",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Fenzhou Wuye"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "汾州無業"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Fen-chou Wu-yeh"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Funshū Mugō"
+      }
+    ],
+    "birth_year": 760,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 821,
+    "death_precision": "exact",
+    "death_confidence": "high",
+    "school": "Nanyue line",
+    "source_ids": [
+      "src_agent_review"
     ]
   }
 ]
