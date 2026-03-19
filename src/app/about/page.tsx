@@ -35,10 +35,10 @@ export default function AboutPage() {
         <section className="detail-card">
           <div className="detail-summary">
             <p>
-              My name is Joel, and I&rsquo;m a student of Soto Zen. For years
-              I sat on the cushion following the breath, trusting shikantaza, and
-              yet I kept running into names and lineage charts I couldn&rsquo;t
-              place &mdash; who was Shitou, and how did his teaching reach
+              My name is Joel. Since I discovered zazen, I have been a
+              student of Zen. For years I sat on the cushion following the
+              breath, and yet I kept running into names and lineage charts
+              I couldn&rsquo;t place &mdash; who was Shitou, and how did his teaching reach
               Dogen? Why does Korean Seon feel so different from Japanese
               Rinzai when they share the same Linji root? What happened in
               Vietnam, and why didn&rsquo;t I know about it?
