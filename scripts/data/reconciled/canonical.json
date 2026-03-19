@@ -11842,6 +11842,11 @@
     "slug": "nguyen-thieu",
     "names": [
       {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Nguyên Thiều"
+      },
+      {
         "locale": "vi",
         "name_type": "dharma",
         "value": "Nguyên Thiều"
@@ -11879,6 +11884,11 @@
     "slug": "minh-hoang-tu-dung",
     "names": [
       {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Minh Hoằng Tử Dung"
+      },
+      {
         "locale": "vi",
         "name_type": "dharma",
         "value": "Minh Hoằng Tử Dung"
@@ -11905,6 +11915,11 @@
     "id": "08fcyrCtaNYJwOfkDmoYK",
     "slug": "lieu-quan",
     "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Liễu Quán"
+      },
       {
         "locale": "vi",
         "name_type": "dharma",
@@ -11938,6 +11953,11 @@
     "slug": "te-an-luu-quang",
     "names": [
       {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Tế An Lưu Quang"
+      },
+      {
         "locale": "vi",
         "name_type": "dharma",
         "value": "Tế An Lưu Quang"
@@ -11959,6 +11979,11 @@
     "id": "zOPPHrDjbqq7m7tyCU_be",
     "slug": "dai-tue-chieu-nhien",
     "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Đại Tuệ Chiếu Nhiên"
+      },
       {
         "locale": "vi",
         "name_type": "dharma",
@@ -11982,6 +12007,11 @@
     "slug": "dao-minh-pho-tinh",
     "names": [
       {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Đạo Minh Phổ Tịnh"
+      },
+      {
         "locale": "vi",
         "name_type": "dharma",
         "value": "Đạo Minh Phổ Tịnh"
@@ -12003,6 +12033,11 @@
     "id": "8eIFqBEwcDn-7U9iZQ1wZ",
     "slug": "nhat-dinh",
     "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Nhất Định"
+      },
       {
         "locale": "vi",
         "name_type": "dharma",
@@ -12031,6 +12066,11 @@
     "slug": "hai-thieu-cuong-ky",
     "names": [
       {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Hải Thiệu Cương Kỷ"
+      },
+      {
         "locale": "vi",
         "name_type": "dharma",
         "value": "Hải Thiệu Cương Kỷ"
@@ -12052,6 +12092,11 @@
     "id": "RQU41sa4Njr0YazALokJQ",
     "slug": "thich-tue-minh",
     "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Thích Tuệ Minh"
+      },
       {
         "locale": "vi",
         "name_type": "dharma",
@@ -12079,6 +12124,11 @@
     "id": "raDaTFiNiKcPYpNE3yBXp",
     "slug": "thich-chan-that",
     "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Thích Chân Thật"
+      },
       {
         "locale": "vi",
         "name_type": "dharma",
@@ -12111,6 +12161,11 @@
     "id": "nqbhFLm9YRsV526dpaABb",
     "slug": "thich-nhat-hanh",
     "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Thích Nhất Hạnh"
+      },
       {
         "locale": "vi",
         "name_type": "dharma",
@@ -12181,6 +12236,11 @@
     "slug": "vo-ngon-thong",
     "names": [
       {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Vô Ngôn Thông"
+      },
+      {
         "locale": "vi",
         "name_type": "dharma",
         "value": "Vô Ngôn Thông"
@@ -12213,6 +12273,11 @@
     "slug": "van-hanh",
     "names": [
       {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Vạn Hạnh"
+      },
+      {
         "locale": "vi",
         "name_type": "dharma",
         "value": "Vạn Hạnh"
@@ -12239,6 +12304,11 @@
     "id": "taHbo37tJnnt-In_eFZNu",
     "slug": "tran-nhan-tong",
     "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Trần Nhân Tông"
+      },
       {
         "locale": "vi",
         "name_type": "dharma",
@@ -12277,6 +12347,11 @@
     "slug": "phap-loa",
     "names": [
       {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Pháp Loa"
+      },
+      {
         "locale": "vi",
         "name_type": "dharma",
         "value": "Pháp Loa"
@@ -12309,6 +12384,11 @@
     "slug": "huyen-quang",
     "names": [
       {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Huyền Quang"
+      },
+      {
         "locale": "vi",
         "name_type": "dharma",
         "value": "Huyền Quang"
@@ -12340,6 +12420,11 @@
     "id": "U5Zu62ZeSqjkb2qmkkHuf",
     "slug": "chan-khong",
     "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Sister Chan Khong"
+      },
       {
         "locale": "vi",
         "name_type": "dharma",
@@ -13398,6 +13483,11 @@
     "slug": "thich-thanh-tu",
     "names": [
       {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Thích Thanh Từ"
+      },
+      {
         "locale": "vi",
         "name_type": "dharma",
         "value": "Thích Thanh Từ"
@@ -13429,6 +13519,11 @@
     "slug": "phap-hien",
     "names": [
       {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Pháp Hiền"
+      },
+      {
         "locale": "vi",
         "name_type": "dharma",
         "value": "Pháp Hiền"
@@ -13455,6 +13550,11 @@
     "slug": "thao-duong",
     "names": [
       {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Thảo Đường"
+      },
+      {
         "locale": "vi",
         "name_type": "dharma",
         "value": "Thảo Đường"
@@ -13480,6 +13580,11 @@
     "id": "SClw-VzlP2BT8RhelJAZf",
     "slug": "khuong-viet",
     "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Khuông Việt"
+      },
       {
         "locale": "vi",
         "name_type": "dharma",
@@ -13511,6 +13616,11 @@
     "id": "rcf4tYiBHQbvNOVpWrxPX",
     "slug": "tue-trung-thuong-si",
     "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Tuệ Trung Thượng Sĩ"
+      },
       {
         "locale": "vi",
         "name_type": "dharma",
@@ -13547,6 +13657,11 @@
     "id": "ddOF2agwYznlYXgh350Ds",
     "slug": "minh-hai-phap-bao",
     "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Minh Hải Pháp Bảo"
+      },
       {
         "locale": "vi",
         "name_type": "dharma",
