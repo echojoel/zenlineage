@@ -12,8 +12,7 @@ This encyclopedia draws on publicly available sources, historical paintings, and
 
 **If you are depicted in this project and would like your image removed, or if you find any error in how a master, teacher, or tradition is represented, please:**
 
-- Open an issue on this repository, or
-- Contact us directly at **echotrails10@gmail.com**
+- Open an issue on this repository
 
 We will promptly honor any removal or correction request. We sincerely apologize for any errors or misrepresentations — this is a labor of respect for the tradition, and we welcome guidance from practitioners and scholars.
 
