@@ -84,9 +84,18 @@ async function generateGraphData() {
   });
 
   const edges = transmissionsData.map((t) => ({ id: t.id, source: t.teacherId, target: t.studentId, type: t.type, isPrimary: t.isPrimary ?? false }));
+
+  // Exclude orphan masters (no edges at all) from the lineage graph —
+  // they still have detail pages but cannot be placed in the lineage layout
+  const connectedIds = new Set<string>();
+  for (const e of edges) { connectedIds.add(e.source); connectedIds.add(e.target); }
+  const connectedNodes = nodes.filter((n) => connectedIds.has(n.id));
+  const orphanCount = nodes.length - connectedNodes.length;
+  if (orphanCount > 0) console.log(`  -> Excluded ${orphanCount} orphan masters (no lineage edges) from graph`);
+
   const schoolList = schoolsData.map((s) => ({ id: s.id, slug: s.slug, name: schoolNameMap.get(s.id) ?? s.slug }));
 
-  return { nodes, edges, schools: schoolList };
+  return { nodes: connectedNodes, edges, schools: schoolList };
 }
 
 async function main() {
