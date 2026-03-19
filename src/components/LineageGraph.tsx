@@ -13,15 +13,31 @@ import { formatDateWithPrecision } from "@/lib/date-format";
 // ---------------------------------------------------------------------------
 
 const SCHOOL_COLORS: [string, number][] = [
-  ["rinzai", 0x5a7a5a],
-  ["linji", 0x5a7a5a],
-  ["caodong", 0x8b6b4a],
-  ["soto", 0x8b6b4a],
-  ["obaku", 0x7a8b6a],
-  ["yunmen", 0xa07040],
-  ["fayan", 0x6a7a8b],
-  ["huayan", 0x7a6a8b],
-  ["guiyang", 0x8b7a5a],
+  // Specific prefixes before general ones (schoolColor uses includes())
+  ["earlychan", 0x7a8a70],   // sage green
+  ["indianpatriarchs", 0x8b7a55], // antique gold
+  ["qingyuan", 0x5a7a7a],    // teal
+  ["nanyue", 0x6a7a5a],      // dark moss
+  ["yangqi", 0x5a8a5a],      // brighter moss
+  ["rinzai", 0x5a7a5a],      // moss green
+  ["linji", 0x5a7a5a],       // moss green
+  ["caodong", 0x8b6b4a],     // rust brown
+  ["soto", 0x8b6b4a],        // rust brown
+  ["obaku", 0x7a8b6a],       // olive
+  ["yunmen", 0xa07040],       // burnt orange
+  ["fayan", 0x6a7a8b],       // slate blue
+  ["huayan", 0x7a6a8b],      // mauve
+  ["guiyang", 0x8b7a5a],     // tan
+  ["chan", 0x7a8a70],         // sage green (after earlychan)
+  ["lamte", 0x7a6a6a],       // dusty rose-brown
+  ["truclam", 0x7a7a6a],     // warm khaki
+  ["plumvillage", 0x8a6a7a],  // muted plum
+  ["thien", 0x7a7060],       // warm stone
+  ["jogye", 0x607a80],       // steel blue
+  ["kwanum", 0x5a7080],      // dark steel
+  ["taego", 0x6a7a70],       // grey-sage
+  ["seon", 0x6a7080],        // cool grey-blue
+  ["sanbozen", 0x7a6a8b],    // mauve
 ];
 
 function schoolColor(schoolSlug: string | null): number {
@@ -31,6 +47,24 @@ function schoolColor(schoolSlug: string | null): number {
     if (key.includes(prefix)) return color;
   }
   return 0x9a8a75;
+}
+
+function drawDashedLine(
+  g: import("pixi.js").Graphics,
+  x1: number, y1: number, x2: number, y2: number,
+  dash = 6, gap = 4,
+): void {
+  const dx = x2 - x1, dy = y2 - y1;
+  const len = Math.sqrt(dx * dx + dy * dy);
+  if (len === 0) return;
+  const nx = dx / len, ny = dy / len;
+  let d = 0;
+  while (d < len) {
+    const segEnd = Math.min(d + dash, len);
+    g.moveTo(x1 + nx * d, y1 + ny * d);
+    g.lineTo(x1 + nx * segEnd, y1 + ny * segEnd);
+    d += dash + gap;
+  }
 }
 
 // ---------------------------------------------------------------------------
@@ -222,17 +256,17 @@ export default function LineageGraph() {
       const baseAlpha = edgeTouchesBridge ? 0.35 : 0.7;
       const alpha = highlighted ? baseAlpha : baseAlpha * 0.2;
 
-      if (edge.type === "primary") {
-        edgeGraphics.setStrokeStyle({ width: 1.5, color: 0x7a6a55, alpha });
-      } else if (edge.type === "secondary") {
-        edgeGraphics.setStrokeStyle({ width: 0.8, color: 0x9a8a75, alpha });
-      } else {
-        // disputed
-        edgeGraphics.setStrokeStyle({ width: 0.8, color: 0xb09070, alpha });
-      }
+      const srcNode = nodeById.get(edge.source);
+      const edgeColor = schoolColor(srcNode?.schoolSlug ?? srcNode?.schoolName ?? null);
+      const edgeWidth = edge.type === "primary" ? 1.5 : 0.8;
+      edgeGraphics.setStrokeStyle({ width: edgeWidth, color: edgeColor, alpha });
 
-      edgeGraphics.moveTo(src.x, src.y);
-      edgeGraphics.lineTo(tgt.x, tgt.y);
+      if (edge.type === "primary") {
+        edgeGraphics.moveTo(src.x, src.y);
+        edgeGraphics.lineTo(tgt.x, tgt.y);
+      } else {
+        drawDashedLine(edgeGraphics, src.x, src.y, tgt.x, tgt.y);
+      }
       edgeGraphics.stroke();
     }
   }, []);
