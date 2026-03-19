@@ -337,8 +337,8 @@ export default function LineageGraph() {
       const connectedNodes = nodes.filter((n) => connectedIds.has(n.id));
       const nodeSet = new Set(nodes.map((n) => n.id));
       const validEdges = edges.filter((e) => nodeSet.has(e.source) && nodeSet.has(e.target));
-      // Primary and dharma edges for layout (both represent legitimate lineage)
-      const primaryEdges = validEdges.filter((e) => e.type === "primary" || e.type === "dharma");
+      // All edge types contribute to hierarchical layout positioning
+      const primaryEdges = validEdges;
 
       let connectedPositions: Map<string, { x: number; y: number }>;
 
