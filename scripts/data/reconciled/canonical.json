@@ -14825,5 +14825,161 @@
     "source_ids": [
       "src_agent_review"
     ]
+  },
+  {
+    "id": "OgAneA2-fn8HG4QCCwsq-",
+    "slug": "shorei-sokin",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Shorei Sokin"
+      },
+      {
+        "locale": "ja",
+        "name_type": "dharma",
+        "value": "笑嶺宗訢"
+      }
+    ],
+    "birth_year": 1490,
+    "birth_precision": "exact",
+    "birth_confidence": "medium",
+    "death_year": 1568,
+    "death_precision": "exact",
+    "death_confidence": "medium",
+    "school": "Rinzai",
+    "source_ids": [
+      "src_agent_review"
+    ]
+  },
+  {
+    "id": "HHQFIhBDJKcJcyYtLZRYY",
+    "slug": "kasan-toetsu",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Kasan Toetsu"
+      },
+      {
+        "locale": "ja",
+        "name_type": "dharma",
+        "value": "可山洞悅"
+      }
+    ],
+    "birth_year": 1637,
+    "birth_precision": "exact",
+    "birth_confidence": "medium",
+    "death_year": 1707,
+    "death_precision": "exact",
+    "death_confidence": "medium",
+    "school": "Soto",
+    "source_ids": [
+      "src_agent_review"
+    ]
+  },
+  {
+    "id": "pZMvFOiUXMxus2ZbGzWaX",
+    "slug": "koho-hakugan",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Kōhō Hakugan"
+      },
+      {
+        "locale": "ja",
+        "name_type": "dharma",
+        "value": "孤峰白岩"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Soto",
+    "source_ids": [
+      "src_agent_review"
+    ]
+  },
+  {
+    "id": "BiQVEF5488Cu6_MvBS2Uf",
+    "slug": "yozan-genki",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Yozan Genki"
+      },
+      {
+        "locale": "ja",
+        "name_type": "dharma",
+        "value": "養山"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Soto",
+    "source_ids": [
+      "src_agent_review"
+    ]
+  },
+  {
+    "id": "DNlMQ1UoIV4IcUMZbmqlg",
+    "slug": "wuwen-mingcong",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Wuwen Mingcong"
+      },
+      {
+        "locale": "zh",
+        "name_type": "dharma",
+        "value": "無聞明聰"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": 1543,
+    "death_precision": "circa",
+    "death_confidence": "medium",
+    "school": "Linji",
+    "source_ids": [
+      "src_agent_review"
+    ]
+  },
+  {
+    "id": "2Q11MEWHnWJO58w5PsnFU",
+    "slug": "laona-zudeng",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Laona Zudeng"
+      },
+      {
+        "locale": "zh",
+        "name_type": "dharma",
+        "value": "老衲祖登"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Linji",
+    "source_ids": [
+      "src_agent_review"
+    ]
   }
 ]

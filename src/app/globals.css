@@ -576,6 +576,7 @@ body {
 .detail-page {
   min-height: 100vh;
   background: var(--paper);
+  overflow-x: hidden;
 }
 
 .detail-layout {
@@ -644,6 +645,13 @@ body {
   margin: 1rem 0 0;
   line-height: 1.7;
   text-align: justify;
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+
+.detail-summary blockquote {
+  max-width: 100%;
+  box-sizing: border-box;
 }
 
 .detail-actions {
@@ -799,6 +807,8 @@ body {
   margin: 0.45rem 0 0;
   line-height: 1.6;
   text-align: justify;
+  overflow-wrap: break-word;
+  word-break: break-word;
 }
 
 /* ===== About page ===== */

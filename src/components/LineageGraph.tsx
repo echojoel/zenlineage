@@ -371,6 +371,36 @@ export default function LineageGraph() {
         connectedPositions = simpleLayout(connectedNodes, primaryEdges);
       }
 
+      // Reposition false roots: nodes at the same y-level as the true root
+      // (Shakyamuni) that aren't Shakyamuni — place them just above their
+      // first student so they don't crowd the top of the graph.
+      const shakyamuniNode = nodes.find((n) => n.slug === "shakyamuni-buddha");
+      const shakyamuniPos = shakyamuniNode ? connectedPositions.get(shakyamuniNode.id) : null;
+      if (shakyamuniPos) {
+        const rootY = shakyamuniPos.y;
+        // Build child map: parent → first child position
+        const childMap = new Map<string, { x: number; y: number }>();
+        for (const e of primaryEdges) {
+          if (!childMap.has(e.source)) {
+            const childPos = connectedPositions.get(e.target);
+            if (childPos) childMap.set(e.source, childPos);
+          }
+        }
+        for (const [id, pos] of connectedPositions) {
+          if (id === shakyamuniNode!.id) continue;
+          if (Math.abs(pos.y - rootY) < 1) {
+            // This is a false root — reposition above its first student
+            const childPos = childMap.get(id);
+            if (childPos) {
+              connectedPositions.set(id, {
+                x: childPos.x,
+                y: childPos.y - 70, // one layer above student
+              });
+            }
+          }
+        }
+      }
+
       // Scale up connected positions for readability
       const scaledConnected = new Map<string, { x: number; y: number }>();
       for (const [id, pos] of connectedPositions) {
@@ -473,7 +503,7 @@ export default function LineageGraph() {
 
         // Hover
         c.on("pointerover", (e: import("pixi.js").FederatedPointerEvent) => {
-          const rect = canvas.getBoundingClientRect();
+          const rect = containerRef.current?.getBoundingClientRect() ?? canvas.getBoundingClientRect();
           setTooltip({
             x: e.clientX - rect.left,
             y: e.clientY - rect.top,
@@ -709,7 +739,7 @@ export default function LineageGraph() {
         }
       }
     }
-  }, [selectedSchool, redraw, prefersReducedMotion]);
+  }, [selectedSchool, redraw, prefersReducedMotion, focusSlug]);
 
   useEffect(() => {
     if (!pixiRef.current) return;
@@ -779,6 +809,7 @@ export default function LineageGraph() {
           name="lineage-search"
           className="lineage-search"
           placeholder="Search masters…"
+          aria-label="Search masters in lineage"
           value={searchQuery}
           onChange={(e) => setSearchQuery(e.target.value)}
         />
@@ -786,6 +817,7 @@ export default function LineageGraph() {
           id="lineage-school"
           name="lineage-school"
           className="lineage-select"
+          aria-label="Filter by school"
           value={selectedSchool}
           onChange={(e) => setSelectedSchool(e.target.value)}
         >
@@ -805,6 +837,7 @@ export default function LineageGraph() {
           type="range"
           id="lineage-time"
           name="lineage-time"
+          aria-label="Filter by time period"
           min={0}
           max={dataMaxYear}
           step={10}

@@ -57,12 +57,14 @@ export default function MastersClient({ masters, schoolNames }: Props) {
           type="text"
           className="masters-search"
           placeholder="Search masters…"
+          aria-label="Search masters"
           value={query}
           onChange={(e) => setQuery(e.target.value)}
         />
 
         <select
           className="masters-select"
+          aria-label="Filter by school"
           value={selectedSchool}
           onChange={(e) => setSelectedSchool(e.target.value)}
         >

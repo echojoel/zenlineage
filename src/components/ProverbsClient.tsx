@@ -67,7 +67,7 @@ export default function ProverbsClient({
       base = base.filter((p) => p.era === selectedEra);
     }
     return base;
-  }, [proverbs, query, selectedTheme, selectedSchool, selectedEra, fuse]);
+  }, [order, query, selectedTheme, selectedSchool, selectedEra, fuse]);
 
   // Reset visible count when filters change
   const visible = filtered.slice(0, visibleCount);
@@ -118,6 +118,7 @@ export default function ProverbsClient({
           type="text"
           className="masters-search"
           placeholder="Search proverbs…"
+          aria-label="Search proverbs"
           value={query}
           onChange={(e) => {
             setQuery(e.target.value);
@@ -128,6 +129,7 @@ export default function ProverbsClient({
         {uniqueSchools.length > 0 && (
           <select
             className="masters-select"
+            aria-label="Filter by school"
             value={selectedSchool}
             onChange={(e) => {
               setSelectedSchool(e.target.value);
@@ -146,6 +148,7 @@ export default function ProverbsClient({
         {uniqueEras.length > 1 && (
           <select
             className="masters-select"
+            aria-label="Filter by era"
             value={selectedEra}
             onChange={(e) => {
               setSelectedEra(e.target.value);
