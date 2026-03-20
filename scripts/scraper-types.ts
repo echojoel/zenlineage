@@ -6,7 +6,7 @@
 
 export interface RawTeacherRef {
   name: string;
-  edge_type?: "primary" | "secondary" | "disputed";
+  edge_type?: "primary" | "secondary" | "disputed" | "dharma";
   locator?: string;
   notes?: string;
 }

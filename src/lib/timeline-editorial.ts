@@ -531,7 +531,7 @@ export const TIMELINE_ERAS: TimelineEra[] = [
         title: "Eisai Brings Rinzai to Japan",
         description:
           "After studying under Linji-lineage masters in China, Eisai returned to Japan and established Zen as an independent school for the first time on Japanese soil. He cultivated relationships with the Kamakura shogunate, linking Zen to warrior culture and political power. He also introduced tea cultivation, beginning the intimate connection between Zen and the Way of Tea.",
-        masters: [{ label: "Eisai", slug: "senso-esai" }],
+        masters: [{ label: "Eisai", slug: "myoan-eisai" }],
         schools: [{ label: "Rinzai", slug: "rinzai" }],
         citations: [{ key: "dumoulin-japan", pages: "pp. 9–30" }],
       },

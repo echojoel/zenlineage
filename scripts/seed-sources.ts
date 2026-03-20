@@ -123,6 +123,15 @@ const SOURCES = [
     publicationDate: null,
     reliability: "secondary",
   },
+  {
+    id: "src_agent_review",
+    type: "review",
+    title: "Agent-assisted data review and lineage correction",
+    author: null,
+    url: null,
+    publicationDate: null,
+    reliability: "secondary",
+  },
 ] as const;
 
 export default async function main() {

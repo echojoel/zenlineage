@@ -62,7 +62,7 @@ export const masterTransmissions = sqliteTable("master_transmissions", {
   teacherId: text("teacher_id")
     .notNull()
     .references(() => masters.id),
-  type: text("type").notNull(), // "primary" | "secondary" | "disputed"
+  type: text("type").notNull(), // "primary" | "secondary" | "disputed" | "dharma"
   isPrimary: integer("is_primary", { mode: "boolean" }),
   notes: text("notes"),
 });

@@ -52,7 +52,7 @@ export interface CanonicalTransmission {
   id: string;
   student_id: string;
   teacher_id: string;
-  type: "primary" | "secondary" | "disputed";
+  type: "primary" | "secondary" | "disputed" | "dharma";
   is_primary: boolean;
   source_ids: string[];
 }
@@ -320,7 +320,7 @@ export function mergeMasters(a: RawMaster, b: RawMaster): RawMaster {
       if (preferNew) teacherMap.set(key, t);
       else {
         // Merge edge_type if they differ — prefer primary > secondary > disputed
-        const edgePriority = { primary: 3, secondary: 2, disputed: 1 };
+        const edgePriority: Record<string, number> = { primary: 3, dharma: 2, secondary: 2, disputed: 1 };
         const existingPriority = edgePriority[existing.edge_type ?? "secondary"] ?? 2;
         const newPriority = edgePriority[t.edge_type ?? "secondary"] ?? 2;
         if (newPriority > existingPriority) teacherMap.set(key, t);
@@ -814,7 +814,7 @@ export function buildTransmissions(
 
         if (!teacherId) continue; // unresolvable — skip
 
-        const type: "primary" | "secondary" | "disputed" = ref.edge_type ?? "primary";
+        const type: "primary" | "secondary" | "disputed" | "dharma" = ref.edge_type ?? "primary";
         const pairKey = `${masterId}:${teacherId}`;
 
         if (!edgeMap.has(pairKey)) {

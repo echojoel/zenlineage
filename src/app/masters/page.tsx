@@ -51,7 +51,7 @@ export default async function MastersPage() {
       id: mediaAssets.id,
     })
     .from(mediaAssets)
-    .where(and(eq(mediaAssets.entityType, "master"), inArray(mediaAssets.entityId, masterIds)));
+    .where(and(eq(mediaAssets.entityType, "master"), inArray(mediaAssets.entityId, masterIds.length > 0 ? masterIds : ["__none__"])));
 
   const citedImageIds = imageRows.length > 0
     ? new Set(

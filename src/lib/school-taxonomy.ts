@@ -609,9 +609,11 @@ export function determineSchoolDefinition(input: {
 
 export function getSchoolAncestors(slug: string): SchoolDefinition[] {
   const chain: SchoolDefinition[] = [];
+  const visited = new Set<string>();
   let current = getSchoolDefinition(slug);
 
-  while (current) {
+  while (current && !visited.has(current.slug)) {
+    visited.add(current.slug);
     chain.unshift(current);
     current = current.parentSlug ? getSchoolDefinition(current.parentSlug) : null;
   }

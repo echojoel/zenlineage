@@ -12,7 +12,7 @@ export interface TransmissionEdge {
   id: string;
   studentId: string;
   teacherId: string;
-  type: "primary" | "secondary" | "disputed";
+  type: "primary" | "secondary" | "disputed" | "dharma";
   isPrimary: boolean;
 }
 
@@ -110,10 +110,10 @@ export function detectCycles(edges: TransmissionEdge[]): ValidationIssue[] {
           } else if (nc === GRAY) {
             // back-edge => cycle.  Reconstruct cycle path.
             const cyclePath: string[] = [neighbour, node];
-            let cur = node;
+            let cur: string | null | undefined = node;
             while (cur !== neighbour) {
-              cur = parent.get(cur)!;
-              if (cur === null) break;
+              cur = parent.get(cur) ?? null;
+              if (cur == null) break;
               cyclePath.push(cur);
             }
             issues.push({
@@ -164,7 +164,7 @@ export function checkTemporalConsistency(
   for (const m of masters) mastersById.set(m.id, m);
 
   const USABLE_PRECISIONS = new Set(["exact", "circa"]);
-  const HIGH_CONFIDENCE = new Set(["certain", "probable"]);
+  const HIGH_CONFIDENCE = new Set(["high"]);
 
   const issues: ValidationIssueInternal[] = [];
 
