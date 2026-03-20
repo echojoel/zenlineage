@@ -1,10 +1,30 @@
 
+import type { Metadata } from "next";
 import { db } from "@/db";
 import { masters, masterNames, schoolNames, searchTokens, mediaAssets, citations } from "@/db/schema";
 import { eq, and, inArray } from "drizzle-orm";
 import MastersClient from "@/components/MastersClient";
 import Link from "next/link";
 import type { MasterListItem } from "@/lib/master-list";
+
+export const metadata: Metadata = {
+  title: "Masters",
+  description:
+    "Browse 435+ Zen Buddhist masters chronologically — from the Indian patriarchs through Tang-dynasty Chan to modern teachers. Search by name, school, or era.",
+  alternates: { canonical: "https://zenlineage.org/masters" },
+  openGraph: {
+    title: "Zen Buddhist Masters — Zen Lineage",
+    description:
+      "Browse 435+ Zen Buddhist masters chronologically — from Bodhidharma to modern teachers.",
+    url: "https://zenlineage.org/masters",
+    type: "website",
+  },
+  twitter: {
+    card: "summary",
+    title: "Zen Buddhist Masters — Zen Lineage",
+    description: "Browse 435+ Zen Buddhist masters from 2,500 years of Chan/Zen history.",
+  },
+};
 
 export default async function MastersPage() {
   // Fetch all masters
@@ -127,8 +147,39 @@ export default async function MastersPage() {
     schoolNamesData.map((s) => [s.schoolId, s.value])
   );
 
+  const breadcrumbJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://zenlineage.org" },
+      { "@type": "ListItem", position: 2, name: "Masters", item: "https://zenlineage.org/masters" },
+    ],
+  };
+
+  const itemListJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    name: "Zen Buddhist Masters",
+    description: "A chronological index of Zen Buddhist masters in the Zen Lineage encyclopedia.",
+    numberOfItems: items.length,
+    itemListElement: items.slice(0, 50).map((item, i) => ({
+      "@type": "ListItem",
+      position: i + 1,
+      url: `https://zenlineage.org/masters/${item.slug}`,
+      name: item.primaryName,
+    })),
+  };
+
   return (
     <div style={{ background: "var(--paper)", minHeight: "100vh" }}>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd).replace(/</g, "\\u003c") }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListJsonLd).replace(/</g, "\\u003c") }}
+      />
       <header className="page-header">
         <Link href="/" className="nav-link">
           禅

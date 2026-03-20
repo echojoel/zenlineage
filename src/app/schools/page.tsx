@@ -1,8 +1,28 @@
 
+import type { Metadata } from "next";
 import { db } from "@/db";
 import { schools, schoolNames, masters, mediaAssets, citations } from "@/db/schema";
 import { eq, and, count, inArray } from "drizzle-orm";
 import Link from "next/link";
+
+export const metadata: Metadata = {
+  title: "Schools",
+  description:
+    "Explore 23 Chan and Zen Buddhist schools — from the Five Houses of Tang-dynasty China to the Rinzai, Soto, and Obaku schools of Japan, and Korean Seon.",
+  alternates: { canonical: "https://zenlineage.org/schools" },
+  openGraph: {
+    title: "Zen Buddhist Schools — Zen Lineage",
+    description:
+      "Explore 23 Chan and Zen Buddhist schools from Bodhidharma's lineage to modern traditions.",
+    url: "https://zenlineage.org/schools",
+    type: "website",
+  },
+  twitter: {
+    card: "summary",
+    title: "Zen Buddhist Schools — Zen Lineage",
+    description: "Explore 23 Chan and Zen Buddhist school branches across 2,500 years of history.",
+  },
+};
 
 export default async function SchoolsPage() {
   // Fetch schools with English names
@@ -88,8 +108,39 @@ export default async function SchoolsPage() {
     }))
     .sort((a, b) => b.masterCount - a.masterCount);
 
+  const breadcrumbJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://zenlineage.org" },
+      { "@type": "ListItem", position: 2, name: "Schools", item: "https://zenlineage.org/schools" },
+    ],
+  };
+
+  const itemListJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    name: "Chan and Zen Buddhist Schools",
+    description: "A complete index of Chan and Zen Buddhist school branches in the Zen Lineage encyclopedia.",
+    numberOfItems: schoolList.length,
+    itemListElement: schoolList.map((school, i) => ({
+      "@type": "ListItem",
+      position: i + 1,
+      url: `https://zenlineage.org/schools/${school.slug}`,
+      name: school.name,
+    })),
+  };
+
   return (
     <div style={{ background: "var(--paper)", minHeight: "100vh" }}>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd).replace(/</g, "\\u003c") }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListJsonLd).replace(/</g, "\\u003c") }}
+      />
       <header className="page-header">
         <Link href="/" className="nav-link">
           禅

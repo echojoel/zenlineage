@@ -1,4 +1,5 @@
 
+import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { and, eq, inArray } from "drizzle-orm";
@@ -24,6 +25,149 @@ import {
   isPublishedTeaching,
 } from "@/lib/publishable-content";
 import { formatLifeRange } from "@/lib/date-format";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}): Promise<Metadata> {
+  const { slug } = await params;
+
+  const rows = await db
+    .select({
+      id: masters.id,
+      schoolId: masters.schoolId,
+      birthYear: masters.birthYear,
+      deathYear: masters.deathYear,
+    })
+    .from(masters)
+    .where(eq(masters.slug, slug))
+    .limit(1);
+
+  const master = rows[0];
+  if (!master) return {};
+
+  const names = await db
+    .select({ value: masterNames.value, nameType: masterNames.nameType })
+    .from(masterNames)
+    .where(and(eq(masterNames.masterId, master.id), eq(masterNames.locale, "en")));
+
+  const primaryName =
+    names.find((n) => n.nameType === "dharma")?.value ?? slug;
+
+  const allNames = names.map((n) => n.value);
+
+  const schoolRow = master.schoolId
+    ? (
+        await db
+          .select({ name: schoolNames.value, slug: schools.slug })
+          .from(schools)
+          .leftJoin(
+            schoolNames,
+            and(eq(schoolNames.schoolId, schools.id), eq(schoolNames.locale, "en"))
+          )
+          .where(eq(schools.id, master.schoolId))
+          .limit(1)
+      )[0]
+    : null;
+
+  const bioRows = await db
+    .select({ id: masterBiographies.id, content: masterBiographies.content })
+    .from(masterBiographies)
+    .where(and(eq(masterBiographies.masterId, master.id), eq(masterBiographies.locale, "en")))
+    .limit(1);
+
+  const bioRow = bioRows[0];
+  let bioPublished = false;
+  if (bioRow) {
+    const bioCites = await db
+      .select({ entityId: citations.entityId })
+      .from(citations)
+      .where(
+        and(eq(citations.entityType, "master_biography"), eq(citations.entityId, bioRow.id))
+      )
+      .limit(1);
+    bioPublished = bioCites.length > 0;
+  }
+
+  const imageRows = await db
+    .select({
+      id: mediaAssets.id,
+      storagePath: mediaAssets.storagePath,
+      sourceUrl: mediaAssets.sourceUrl,
+      type: mediaAssets.type,
+    })
+    .from(mediaAssets)
+    .where(and(eq(mediaAssets.entityType, "master"), eq(mediaAssets.entityId, master.id)));
+
+  let ogImage: string | undefined;
+  if (imageRows.length > 0) {
+    const citedImages = await db
+      .select({ entityId: citations.entityId })
+      .from(citations)
+      .where(
+        and(
+          eq(citations.entityType, "media_asset"),
+          inArray(
+            citations.entityId,
+            imageRows.map((r) => r.id)
+          )
+        )
+      );
+    const citedSet = new Set(citedImages.map((c) => c.entityId));
+    const pubImage = imageRows.find(
+      (r) => r.type === "image" && citedSet.has(r.id) && (r.storagePath || r.sourceUrl)
+    );
+    if (pubImage) {
+      const src = pubImage.storagePath?.trim() || pubImage.sourceUrl?.trim() || undefined;
+      if (src) ogImage = src;
+    }
+  }
+
+  const datesStr =
+    master.birthYear && master.deathYear
+      ? ` (${master.birthYear}–${master.deathYear})`
+      : master.deathYear
+        ? ` (d. ${master.deathYear})`
+        : "";
+
+  const schoolStr = schoolRow?.name ? `, ${schoolRow.name} school` : "";
+  const defaultDesc = `${primaryName}${datesStr} — Zen Buddhist master${schoolStr}.`;
+
+  let description = defaultDesc;
+  if (bioPublished && bioRow?.content) {
+    const firstParagraph = bioRow.content.split("\n\n")[0] ?? bioRow.content;
+    description = firstParagraph.length > 160
+      ? firstParagraph.slice(0, 157) + "..."
+      : firstParagraph;
+  }
+
+  const canonicalUrl = `https://zenlineage.org/masters/${slug}`;
+  const ogImages = ogImage ? [{ url: ogImage }] : [];
+
+  return {
+    title: primaryName,
+    description,
+    alternates: { canonical: canonicalUrl },
+    openGraph: {
+      title: `${primaryName} — Zen Buddhist Master`,
+      description,
+      url: canonicalUrl,
+      type: "profile",
+      images: ogImages,
+    },
+    twitter: {
+      card: ogImages.length > 0 ? "summary_large_image" : "summary",
+      title: `${primaryName} — Zen Lineage`,
+      description,
+      images: ogImages.map((img) => img.url),
+    },
+    other: {
+      // Store alternate names for JSON-LD use (not a real meta tag, just a hint)
+      ...(allNames.length > 1 ? {} : {}),
+    },
+  };
+}
 
 export async function generateStaticParams() {
   const allMasters = await db.select({ slug: masters.slug }).from(masters);
@@ -320,8 +464,72 @@ export default async function MasterDetailPage({ params }: { params: Promise<{ s
   const withheldTeachingCount = teachingRows.length - publishedTeachings.length;
   const publishedImage = getPublishedImageAsset(mediaRows, itemCitationKeys);
 
+  const canonicalUrl = `https://zenlineage.org/masters/${master.slug}`;
+
+  const personJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    name: primaryName,
+    alternateName: orderedNames
+      .filter((n) => n.value !== primaryName)
+      .map((n) => n.value),
+    url: canonicalUrl,
+    ...(publishedImage
+      ? {
+          image: publishedImage.src.startsWith("http")
+            ? publishedImage.src
+            : `https://zenlineage.org${publishedImage.src}`,
+        }
+      : {}),
+    ...(master.birthYear ? { birthDate: String(master.birthYear) } : {}),
+    ...(master.deathYear ? { deathDate: String(master.deathYear) } : {}),
+    description:
+      publishedBiography
+        ? (publishedBiography.split("\n\n")[0] ?? publishedBiography).slice(0, 200)
+        : `${primaryName}, a Zen Buddhist master.`,
+    ...(schoolRow
+      ? {
+          memberOf: {
+            "@type": "Organization",
+            name: schoolRow.name,
+            url: `https://zenlineage.org/schools/${schoolRow.slug}`,
+          },
+        }
+      : {}),
+    knows: [
+      ...teachers.map((t) => ({
+        "@type": "Person",
+        name: nameMap.get(t.counterpartId) ?? t.counterpartSlug,
+        url: `https://zenlineage.org/masters/${t.counterpartSlug}`,
+      })),
+      ...students.map((s) => ({
+        "@type": "Person",
+        name: nameMap.get(s.counterpartId) ?? s.counterpartSlug,
+        url: `https://zenlineage.org/masters/${s.counterpartSlug}`,
+      })),
+    ],
+  };
+
+  const breadcrumbJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://zenlineage.org" },
+      { "@type": "ListItem", position: 2, name: "Masters", item: "https://zenlineage.org/masters" },
+      { "@type": "ListItem", position: 3, name: primaryName, item: canonicalUrl },
+    ],
+  };
+
   return (
     <main className="detail-page">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(personJsonLd).replace(/</g, "\\u003c") }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd).replace(/</g, "\\u003c") }}
+      />
       <header className="page-header">
         <Link href="/" className="nav-link">
           禅

@@ -13,10 +13,34 @@ const inter = Inter({
   subsets: ["latin"],
 });
 
+const SITE_URL = "https://zenlineage.org";
+const SITE_DESCRIPTION =
+  "An interactive encyclopedia of Zen Buddhism — lineage explorer, masters, schools, and teachings across 2,500 years of Chan/Zen history.";
+
 export const metadata: Metadata = {
-  title: "Zen Lineage",
-  description:
-    "An interactive encyclopedia of Zen Buddhism — lineage explorer, masters, schools, temples, and teachings across 2,500 years of Chan/Zen history.",
+  metadataBase: new URL(SITE_URL),
+  title: {
+    default: "Zen Lineage",
+    template: "%s — Zen Lineage",
+  },
+  description: SITE_DESCRIPTION,
+  openGraph: {
+    type: "website",
+    locale: "en_US",
+    url: SITE_URL,
+    siteName: "Zen Lineage",
+    title: "Zen Lineage",
+    description: SITE_DESCRIPTION,
+  },
+  twitter: {
+    card: "summary",
+    title: "Zen Lineage",
+    description: "An interactive encyclopedia of Zen Buddhism.",
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
 };
 
 export default function RootLayout({

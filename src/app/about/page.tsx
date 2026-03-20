@@ -2,14 +2,64 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "About Zen — Zen Lineage",
+  title: "About Zen",
   description:
-    "What is Zen Buddhism? A precise introduction to the history, practice, and philosophy of Chan/Zen, with scholarly citations.",
+    "What is Zen Buddhism? A precise introduction to the history, practice, and philosophy of Chan/Zen, with scholarly citations from Dumoulin, McRae, Faure, and others.",
+  alternates: { canonical: "https://zenlineage.org/about" },
+  openGraph: {
+    title: "About Zen Buddhism — Zen Lineage",
+    description:
+      "What is Zen Buddhism? A precise introduction to Chan/Zen history, practice, and philosophy with scholarly citations.",
+    url: "https://zenlineage.org/about",
+    type: "article",
+    images: [{ url: "/about-enso.webp" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "About Zen Buddhism — Zen Lineage",
+    description: "What is Zen? History, practice, and philosophy with scholarly citations.",
+    images: ["/about-enso.webp"],
+  },
+};
+
+const articleJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  headline: "What is Zen Buddhism?",
+  description:
+    "A precise introduction to the history, practice, and philosophy of Chan/Zen Buddhism, with scholarly citations.",
+  url: "https://zenlineage.org/about",
+  image: "https://zenlineage.org/about-enso.webp",
+  author: { "@type": "Person", name: "Joel" },
+  publisher: {
+    "@type": "Organization",
+    name: "Zen Lineage",
+    url: "https://zenlineage.org",
+  },
+  datePublished: "2025-01-01",
+  inLanguage: "en",
+};
+
+const breadcrumbJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://zenlineage.org" },
+    { "@type": "ListItem", position: 2, name: "About Zen", item: "https://zenlineage.org/about" },
+  ],
 };
 
 export default function AboutPage() {
   return (
     <main className="detail-page">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd).replace(/</g, "\\u003c") }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd).replace(/</g, "\\u003c") }}
+      />
       <header className="page-header">
         <Link href="/" className="nav-link">
           禅

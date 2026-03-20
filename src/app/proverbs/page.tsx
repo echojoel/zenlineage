@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import { db } from "@/db";
 import {
   teachings,
@@ -40,6 +41,25 @@ function shuffle<T>(array: T[]): T[] {
   }
   return arr;
 }
+
+export const metadata: Metadata = {
+  title: "Proverbs",
+  description:
+    "Zen proverbs, koans, and sayings from 363 teachings with attribution — from Bodhidharma and Huineng to Dōgen, Hakuin, and modern teachers.",
+  alternates: { canonical: "https://zenlineage.org/proverbs" },
+  openGraph: {
+    title: "Zen Proverbs & Teachings — Zen Lineage",
+    description:
+      "Zen proverbs, koans, and sayings with attribution from 363 teachings across the Chan/Zen tradition.",
+    url: "https://zenlineage.org/proverbs",
+    type: "website",
+  },
+  twitter: {
+    card: "summary",
+    title: "Zen Proverbs & Teachings — Zen Lineage",
+    description: "363 Zen proverbs, koans, and sayings with attribution.",
+  },
+};
 
 export default async function ProverbsPage() {
   // 1. Fetch all proverb teachings with content
@@ -227,8 +247,21 @@ export default async function ProverbsPage() {
   // 10. Shuffle the proverbs
   const shuffled = shuffle(items);
 
+  const breadcrumbJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://zenlineage.org" },
+      { "@type": "ListItem", position: 2, name: "Proverbs", item: "https://zenlineage.org/proverbs" },
+    ],
+  };
+
   return (
     <div style={{ background: "var(--paper)", minHeight: "100vh" }}>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd).replace(/</g, "\\u003c") }}
+      />
       <header className="page-header">
         <Link href="/" className="nav-link">
           禅

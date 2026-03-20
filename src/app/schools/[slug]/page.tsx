@@ -1,7 +1,8 @@
 
+import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { and, eq, inArray } from "drizzle-orm";
+import { and, eq, inArray, sql } from "drizzle-orm";
 import { db } from "@/db";
 import {
   citations,
@@ -14,6 +15,62 @@ import {
 } from "@/db/schema";
 import { formatDateWithPrecision } from "@/lib/date-format";
 import { getSchoolDefinition } from "@/lib/school-taxonomy";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}): Promise<Metadata> {
+  const { slug } = await params;
+
+  const schoolRows = await db
+    .select({ id: schools.id, tradition: schools.tradition })
+    .from(schools)
+    .where(eq(schools.slug, slug))
+    .limit(1);
+
+  const school = schoolRows[0];
+  if (!school) return {};
+
+  const nameRow = await db
+    .select({ value: schoolNames.value })
+    .from(schoolNames)
+    .where(and(eq(schoolNames.schoolId, school.id), eq(schoolNames.locale, "en")))
+    .limit(1);
+
+  const primaryName = nameRow[0]?.value ?? slug;
+
+  const masterCountRow = await db
+    .select({ count: sql<number>`count(*)` })
+    .from(masters)
+    .where(eq(masters.schoolId, school.id));
+  const masterCount = masterCountRow[0]?.count ?? 0;
+
+  const definition = getSchoolDefinition(slug);
+
+  const description = definition?.summary
+    ? definition.summary.slice(0, 160)
+    : `${primaryName}: ${masterCount} Zen Buddhist masters in the ${school.tradition ?? "Zen"} tradition.`;
+
+  const canonicalUrl = `https://zenlineage.org/schools/${slug}`;
+
+  return {
+    title: primaryName,
+    description,
+    alternates: { canonical: canonicalUrl },
+    openGraph: {
+      title: `${primaryName} — Zen School`,
+      description,
+      url: canonicalUrl,
+      type: "website",
+    },
+    twitter: {
+      card: "summary",
+      title: `${primaryName} — Zen Lineage`,
+      description,
+    },
+  };
+}
 
 export async function generateStaticParams() {
   const allSchools = await db.select({ slug: schools.slug }).from(schools);
@@ -159,8 +216,24 @@ export default async function SchoolDetailPage({ params }: { params: Promise<{ s
       ? schoolImageRows[0]
       : null;
 
+  const canonicalUrl = `https://zenlineage.org/schools/${school.slug}`;
+
+  const breadcrumbJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://zenlineage.org" },
+      { "@type": "ListItem", position: 2, name: "Schools", item: "https://zenlineage.org/schools" },
+      { "@type": "ListItem", position: 3, name: primaryName, item: canonicalUrl },
+    ],
+  };
+
   return (
     <main className="detail-page">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd).replace(/</g, "\\u003c") }}
+      />
       <header className="page-header">
         <Link href="/" className="nav-link">
           禅
