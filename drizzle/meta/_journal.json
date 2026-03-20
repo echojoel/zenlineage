@@ -22,6 +22,13 @@
       "when": 1773498517372,
       "tag": "0002_aberrant_ma_gnuci",
       "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "6",
+      "when": 1774029962274,
+      "tag": "0003_secret_kid_colt",
+      "breakpoints": true
     }
   ]
 }

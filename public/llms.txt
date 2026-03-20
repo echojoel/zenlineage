@@ -1,0 +1,32 @@
+# Zen Lineage
+
+> An open-source interactive encyclopedia of Zen Buddhism covering 435+ masters,
+> 23 schools, 436 lineage transmissions, 363 teachings, and 1,700+ scholarly
+> citations across 2,500 years of Chan, Zen, Seon, and Thien Buddhist history.
+
+Zen Lineage maps the dharma transmission lineages connecting Buddhist masters
+from Shakyamuni Buddha through Bodhidharma to modern teachers. All content
+requires item-level citations from scholarly sources before publication.
+
+The project covers Chinese Chan, Japanese Zen (Rinzai, Soto, Obaku),
+Korean Seon, and Vietnamese Thien traditions.
+
+## Main Pages
+
+- [Masters index](https://zenlineage.org/masters): Browse all 435+ masters chronologically with search
+- [Schools index](https://zenlineage.org/schools): 23 school branches with master counts
+- [Lineage graph](https://zenlineage.org/lineage): Interactive visualization of transmission lineages
+- [Proverbs](https://zenlineage.org/proverbs): Zen proverbs, koans, and sayings with attribution
+- [Timeline](https://zenlineage.org/timeline): Chronological history from 500 BCE to present
+- [About](https://zenlineage.org/about): Comprehensive introduction to Zen Buddhism with scholarly citations
+
+## Data
+
+- [Lineage graph data (JSON)](https://zenlineage.org/data/graph.json): Complete node/edge data for all masters and transmissions
+- [Masters dataset (JSON)](https://zenlineage.org/api/masters.json): Full master list with names, dates, schools, teachers, students, and biographies
+- [Complete reference (Markdown)](https://zenlineage.org/llms-full.txt): All master biographies, school descriptions, and teachings in one document
+- [Source code](https://github.com/echojoel/zenlineage): Full open-source repository
+
+## Optional
+
+- [About — etymology, practice, history](https://zenlineage.org/about): Detailed scholarly essay on Zen Buddhism

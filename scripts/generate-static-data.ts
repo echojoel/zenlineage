@@ -98,12 +98,95 @@ async function generateGraphData() {
   return { nodes: connectedNodes, edges, schools: schoolList };
 }
 
+async function generateMastersJson() {
+  console.log("Generating api/masters.json...");
+
+  const [
+    mastersData, namesData, transmissionsData,
+    schoolsData, schoolNamesData,
+    bioRows,
+  ] = await Promise.all([
+    db.select({ id: masters.id, slug: masters.slug, schoolId: masters.schoolId, birthYear: masters.birthYear, birthPrecision: masters.birthPrecision, deathYear: masters.deathYear, deathPrecision: masters.deathPrecision }).from(masters),
+    db.select({ masterId: masterNames.masterId, value: masterNames.value, nameType: masterNames.nameType }).from(masterNames).where(eq(masterNames.locale, "en")),
+    db.select({ studentId: masterTransmissions.studentId, teacherId: masterTransmissions.teacherId }).from(masterTransmissions),
+    db.select({ id: schools.id, slug: schools.slug }).from(schools),
+    db.select({ schoolId: schoolNames.schoolId, value: schoolNames.value }).from(schoolNames).where(eq(schoolNames.locale, "en")),
+    db.select({ id: masterBiographies.id, masterId: masterBiographies.masterId, content: masterBiographies.content }).from(masterBiographies).where(eq(masterBiographies.locale, "en")),
+  ]);
+
+  const bioCitationRows = bioRows.length > 0
+    ? await db.select({ entityType: citations.entityType, entityId: citations.entityId }).from(citations).where(and(eq(citations.entityType, "master_biography"), inArray(citations.entityId, bioRows.map((r) => r.id))))
+    : [];
+
+  const allCitationKeys = buildCitationKeySet(bioCitationRows);
+
+  // Primary name: dharma name first, then any
+  const primaryNameMap = new Map<string, string>();
+  const allNamesMap = new Map<string, string[]>();
+  for (const n of namesData) {
+    const existing = allNamesMap.get(n.masterId) ?? [];
+    existing.push(n.value);
+    allNamesMap.set(n.masterId, existing);
+    if (n.nameType === "dharma" && !primaryNameMap.has(n.masterId)) primaryNameMap.set(n.masterId, n.value);
+  }
+  for (const n of namesData) { if (!primaryNameMap.has(n.masterId)) primaryNameMap.set(n.masterId, n.value); }
+
+  const slugMap = new Map(mastersData.map((m) => [m.id, m.slug]));
+  const schoolNameMap = new Map(schoolNamesData.map((s) => [s.schoolId, s.value]));
+  const schoolSlugMap = new Map(schoolsData.map((s) => [s.id, s.slug]));
+  const bioMap = new Map(bioRows.filter((r) => isPublishedBiography(r.id, allCitationKeys)).map((r) => [r.masterId, r.content]));
+
+  // Teacher / student relationship maps
+  const teacherMap = new Map<string, Array<{ slug: string; name: string }>>();
+  const studentMap = new Map<string, Array<{ slug: string; name: string }>>();
+  for (const t of transmissionsData) {
+    const teacherSlug = slugMap.get(t.teacherId);
+    const studentSlug = slugMap.get(t.studentId);
+    if (!teacherSlug || !studentSlug) continue;
+    const st = teacherMap.get(t.studentId) ?? [];
+    if (!st.some((x) => x.slug === teacherSlug)) { st.push({ slug: teacherSlug, name: primaryNameMap.get(t.teacherId) ?? teacherSlug }); teacherMap.set(t.studentId, st); }
+    const ts = studentMap.get(t.teacherId) ?? [];
+    if (!ts.some((x) => x.slug === studentSlug)) { ts.push({ slug: studentSlug, name: primaryNameMap.get(t.studentId) ?? studentSlug }); studentMap.set(t.teacherId, ts); }
+  }
+
+  /** First paragraph of the biography. */
+  function firstParagraph(content: string): string {
+    const para = content.split(/\n\n+/)[0];
+    return para ? para.trim() : content.slice(0, 400).trim();
+  }
+
+  const masterList = mastersData.map((m) => {
+    const bio = bioMap.get(m.id);
+    return {
+      slug: m.slug,
+      primaryName: primaryNameMap.get(m.id) ?? m.slug,
+      names: allNamesMap.get(m.id) ?? [],
+      birthYear: m.birthYear,
+      birthPrecision: m.birthPrecision,
+      deathYear: m.deathYear,
+      deathPrecision: m.deathPrecision,
+      schoolSlug: m.schoolId ? (schoolSlugMap.get(m.schoolId) ?? null) : null,
+      schoolName: m.schoolId ? (schoolNameMap.get(m.schoolId) ?? null) : null,
+      teachers: teacherMap.get(m.id) ?? [],
+      students: studentMap.get(m.id) ?? [],
+      bio: bio ? firstParagraph(bio) : null,
+    };
+  });
+
+  const API_DIR = path.join(process.cwd(), "public", "api");
+  fs.mkdirSync(API_DIR, { recursive: true });
+  fs.writeFileSync(path.join(API_DIR, "masters.json"), JSON.stringify(masterList));
+  console.log(`  -> ${masterList.length} masters`);
+}
+
 async function main() {
   fs.mkdirSync(OUT_DIR, { recursive: true });
 
   const graphData = await generateGraphData();
   fs.writeFileSync(path.join(OUT_DIR, "graph.json"), JSON.stringify(graphData));
   console.log(`  -> ${graphData.nodes.length} nodes, ${graphData.edges.length} edges, ${graphData.schools.length} schools`);
+
+  await generateMastersJson();
 
   console.log("Done.");
   process.exit(0);

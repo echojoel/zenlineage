@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "prebuild": "tsx scripts/seed-db.ts && tsx scripts/generate-static-data.ts",
+    "prebuild": "tsx scripts/seed-db.ts && tsx scripts/generate-static-data.ts && tsx scripts/generate-llms-full.ts",
     "build": "next build",
     "start": "next start",
     "lint": "eslint .",
