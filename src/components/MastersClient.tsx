@@ -98,6 +98,7 @@ export default function MastersClient({ masters, schoolNames }: Props) {
 
       {/* Master list/grid */}
       {viewMode === "list" ? (
+        <div className="masters-table-wrapper">
         <table className="masters-table">
           <thead>
             <tr>
@@ -116,6 +117,7 @@ export default function MastersClient({ masters, schoolNames }: Props) {
             ))}
           </tbody>
         </table>
+        </div>
       ) : (
         <div className="masters-grid">
           {filtered.map((m) => (
