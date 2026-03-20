@@ -910,15 +910,15 @@ Foyan's teaching often returned to the theme of not making things complicated: "
   },
   {
     slug: "guishan-daan",
-    content: `Guishan Daan was a Yangqi line master who taught at Mount Guishan during the Song dynasty. He maintained the Yangqi tradition's emphasis on direct and spontaneous teaching, using encounters with students to provoke insight rather than offering systematic instruction. His dialogues reflect the mature form of the Yangqi approach.
+    content: `Guishan Daan was a master in the Nanyue line who taught at Mount Guishan during the Tang dynasty. A student of Baizhang Huaihai, he carried forward the direct and spontaneous teaching style characteristic of the Hongzhou school, using encounters with students to provoke insight rather than offering systematic instruction.
 
 Daan's teaching on Mount Guishan—a name associated with the earlier Guishan Lingyou of the Guiyang school—placed him in dialogue with one of the most hallowed sites in Chan history. His work there continued the mountain's tradition as a center of rigorous practice and genuine transmission, demonstrating the continuity of the Chan spirit across different schools and centuries.`,
   },
   {
     slug: "mingan-rongxi",
-    content: `Mingan Rongxi was a Yangqi line master recorded in the transmission literature as a dharma heir who maintained the Yangqi tradition's characteristic teaching methods. He contributed to the branch's broad network of practice centers during the Song dynasty, training students in the encounter-based pedagogy that distinguished the Linji school from other forms of Chinese Buddhism.
+    content: `Mingan Rongxi, better known as Myōan Eisai (明菴栄西, 1141–1215), was the Japanese monk who founded the Rinzai school of Zen in Japan. He traveled twice to Song dynasty China, where he studied under Xuan Huaichang (Kian Eshō) and received dharma transmission in the Huanglong branch of the Linji lineage. Upon returning to Japan, he established the first Rinzai Zen temples and introduced the systematic practice of tea drinking, earning the title "father of Japanese tea."
 
-Rongxi's place in the lineage reflects the robust health of the Yangqi branch during the Song dynasty, when it was rapidly becoming the dominant form of Chinese Chan. The branch's success was due not only to its great innovators but to the many teachers like Rongxi who maintained the standard of practice across the tradition's expanding network of monasteries and hermitages.`,
+Eisai's significance lies in transplanting the living Linji tradition to Japanese soil. His major work, the Kōzen Gokokuron (Treatise on Promoting Zen for the Protection of the Nation), argued that Zen practice would strengthen both the individual and the state. Through his efforts, Rinzai Zen gained patronage from the Kamakura shogunate and took root as a major force in Japanese Buddhism.`,
   },
   {
     slug: "sansheng-huiran",
@@ -934,7 +934,7 @@ Sixin's emphasis on the mind as both the obstacle and the path to awakening refl
   },
   {
     slug: "dasui-fazhen",
-    content: `Dasui Fazhen was a master in the Yangqi line who is known for a famous koan exchange about the destruction of the universe. A monk asked him, "When the great conflagration occurs at the end of the kalpa and the whole cosmos is destroyed, is this destroyed or not?" Dasui said, "It is destroyed." The monk said, "Then it goes along with it?" Dasui said, "It goes along with it." This exchange became important koan material exploring the relationship between the absolute and the phenomenal, and whether awakened nature is affected by the destruction of the physical world.
+    content: `Dasui Fazhen was a master in the Nanyue line, a student of Guishan Daan, who is known for a famous koan exchange about the destruction of the universe. A monk asked him, "When the great conflagration occurs at the end of the kalpa and the whole cosmos is destroyed, is this destroyed or not?" Dasui said, "It is destroyed." The monk said, "Then it goes along with it?" Dasui said, "It goes along with it." This exchange became important koan material exploring the relationship between the absolute and the phenomenal, and whether awakened nature is affected by the destruction of the physical world.
 
 The koan challenges the student to investigate whether there is something that survives the complete annihilation of all form—and whether the question itself is properly framed. Dasui's uncompromising answer—"It goes along with it"—refuses to offer the comfort of an eternal, unchanging ground, pointing instead to the radical inseparability of emptiness and form.`,
   },
@@ -993,9 +993,9 @@ Xianglin is associated with a number of important encounters in the koan literat
   },
   {
     slug: "baofeng-weizhao",
-    content: `Baofeng Weizhao was a Guiyang school master who taught at Mount Baofeng. He is recorded in the transmission literature as a dharma heir who maintained the Guiyang school's distinctive teaching methods, which emphasized the use of circular figures and subtle gestures to communicate the unity of the absolute and relative.
+    content: `Baofeng Weizhao was a Caodong school master who taught at Mount Baofeng. He is recorded in the transmission literature as a dharma heir of Xiangyan Zhixian who maintained the contemplative approach characteristic of the Caodong tradition, emphasizing silent awareness and the unity of practice and realization.
 
-The Guiyang school, the earliest of the Five Houses of Chan, was known for its refined and indirect teaching style. Unlike the dramatic shouts and blows of the Linji school, the Guiyang approach used symbols, circles, and wordless communication to point to the truth. Baofeng's teaching continued this tradition of elegant subtlety, contributing to the school's reputation as the most artistically refined of the Chan houses.`,
+The Caodong school's emphasis on quiet, sustained sitting and the integration of the absolute and relative in daily experience shaped Baofeng's teaching. His work at Mount Baofeng contributed to the school's network of practice communities, preserving the contemplative depth of the tradition during a period when the more verbally dramatic Linji school dominated the Chan landscape.`,
   },
   {
     slug: "hangzhou-tianlong",
@@ -1172,9 +1172,9 @@ Nanta's teaching contributed to the Caodong tradition's reputation for balance�
   },
   {
     slug: "changshui-zixuan",
-    content: `Changshui Zixuan was a Caodong school master and one of the most accomplished Buddhist scholars of the Song dynasty. He was known for his commentaries on the Shurangama Sutra and other key Buddhist texts, bringing the Caodong tradition's contemplative insight to bear on textual interpretation. His work bridged the worlds of Chan practice and Buddhist scholarship.
+    content: `Changshui Zixuan was a Linji school master and one of the most accomplished Buddhist scholars of the Song dynasty. A student of Langye Huijue, he was known for his commentaries on the Shurangama Sutra and other key Buddhist texts, bringing the Linji tradition's emphasis on direct insight to bear on textual interpretation. His work bridged the worlds of Chan practice and Buddhist scholarship.
 
-Zixuan's scholarly accomplishments remind us that the Caodong school, despite its emphasis on sitting meditation, never rejected the study of Buddhist texts. The school's characteristic approach was to read scripture through the lens of meditative experience, finding in the philosophical traditions of Buddhism a confirmation and elaboration of what the practitioner discovers in silent sitting.`,
+Zixuan's scholarly accomplishments demonstrate that the Linji school, despite its reputation for iconoclasm, maintained a deep engagement with the Buddhist textual tradition. His approach was to read scripture through the lens of awakened experience, finding in the philosophical traditions of Buddhism a confirmation and elaboration of what the practitioner discovers through direct investigation of the mind.`,
   },
   {
     slug: "dagui-muzhe",

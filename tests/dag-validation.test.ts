@@ -174,15 +174,15 @@ describe("DAG Validation", () => {
       master("T", {
         birthYear: 900,
         birthPrecision: "exact",
-        birthConfidence: "certain",
+        birthConfidence: "high",
         deathYear: 980,
         deathPrecision: "exact",
-        deathConfidence: "certain",
+        deathConfidence: "high",
       }),
       master("S", {
         birthYear: 800,
         birthPrecision: "exact",
-        birthConfidence: "certain",
+        birthConfidence: "high",
       }),
     ];
 
@@ -209,15 +209,15 @@ describe("DAG Validation", () => {
       master("T", {
         birthYear: 700,
         birthPrecision: "circa",
-        birthConfidence: "uncertain",
+        birthConfidence: "low",
         deathYear: 760,
         deathPrecision: "circa",
-        deathConfidence: "uncertain",
+        deathConfidence: "low",
       }),
       master("S", {
         birthYear: 755,
         birthPrecision: "circa",
-        birthConfidence: "uncertain",
+        birthConfidence: "low",
       }),
     ];
 

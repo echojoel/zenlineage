@@ -115,7 +115,7 @@ describe("originals-curated overlay", () => {
     expect(teacherByName.get("Yuelin Shiguan")).toBe("Wuzhun Shifan");
     expect(teacherByName.get("Wumen Huikai")).toBe("Yuelin Shiguan");
 
-    expect(teacherByName.get("Tongan Guanzhi")).toBe("Yunju Daoying");
+    expect(teacherByName.get("Tongan Guanzhi")).toBe("Tongan Daopi");
     expect(teacherByName.get("Tongan Daopi")).toBe("Yunju Daoying");
     expect(teacherByName.get("Liangshan Yuanguan")).toBe("Tongan Guanzhi");
     expect(teacherByName.get("Dayang Jingxuan")).toBe("Liangshan Yuanguan");
@@ -163,9 +163,9 @@ describe("originals-curated overlay", () => {
     expect(teacherByName.get("Xita Guangmu")).toBe("Linji Yixuan");
     expect(teacherByName.get("Zifu Rubao")).toBe("Xita Guangmu");
     expect(teacherByName.get("Xingyang Qingpou")).toBe("Xianglin Chengyuan");
-    expect(teacherByName.get("Cizhou Faru")).toBe("Heze Shenhui");
+    expect(teacherByName.get("Cizhou Faru")).toBe("Daman Hongren");
     expect(teacherByName.get("Taiyuan Fu")).toBe("Shushan Kuangren");
-    expect(teacherByName.get("Changshui Zixuan")).toBe("Fushan Fayuan");
+    expect(teacherByName.get("Changshui Zixuan")).toBe("Langye Huijue");
     expect(teacherByName.get("Dagui Muzhe")).toBe("Furong Daokai");
     expect(teacherByName.get("Bajiao Huiqing")).toBe("Nanta Guangyong");
     expect(teacherByName.get("Shexian Guixing")).toBe("Fushan Fayuan");
@@ -181,20 +181,19 @@ describe("originals-curated overlay", () => {
     expect(teacherByName.get("Yuantong Fashen")).toBe("Fushan Fayuan");
     expect(teacherByName.get("Longya Judun")).toBe("Dongshan Liangjie");
     expect(teacherByName.get("Moshan Liaoran")).toBe("Gaoan Dayu");
-    expect(teacherByName.get("Sansheng Huiran")).toBe("Xinghua Cunjiang");
+    expect(teacherByName.get("Sansheng Huiran")).toBe("Linji Yixuan");
     expect(teacherByName.get("Sixin Wuxin")).toBe("Baiyun Shouduan");
-    expect(teacherByName.get("Dasui Fazhen")).toBe("Fenyang Shanzhao");
-    expect(teacherByName.get("Guishan Daan")).toBe("Baiyun Shouduan");
-    expect(teacherByName.get("Mingan Rongxi")).toBe("Xuedou Chongxian");
+    expect(teacherByName.get("Dasui Fazhen")).toBe("Guishan Daan");
+    expect(teacherByName.get("Mingan Rongxi")).toBe("Xuan Huaichang");
+    expect(teacherByName.get("Guishan Daan")).toBe("Baizhang Huaihai");
     expect(teacherByName.get("Jinhua Juzhi")).toBe("Hangzhou Tianlong");
     expect(teacherByName.get("Hangzhou Tianlong")).toBe("Damei Fachang");
     expect(teacherByName.get("Juefan Huihong")).toBe("Zhenjing Kewen");
     expect(teacherByName.get("Nanpu Shaoming")).toBe("Xutang Zhiyu");
     expect(teacherByName.get("Baizhang Niepan")).toBe("Linji Yixuan");
-    expect(teacherByName.get("Chongshou Qichou")).toBe("Chuanzi Decheng");
-    expect(teacherByName.get("Zizhou Zhishen")).toBe("Baotang Wuzhu");
+    expect(teacherByName.get("Chongshou Qichou")).toBe("Fayan Wenyi");
+    expect(teacherByName.get("Zizhou Zhishen")).toBe("Daman Hongren");
     expect(teacherByName.get("Luzu Baoyun")).toBe("Mazu Daoyi");
-    expect(teacherByName.get("Mahasattva Fu")).toBe("Dongshan Liangjie");
     expect(teacherByName.get("Longji Shaoxiu")).toBe("Cuiwei Wuxue");
     expect(teacherByName.get("Fengxian Daochen")).toBe("Yunmen Wenyan");
     expect(teacherByName.get("Ruiyan Shiyan")).toBe("Yantou Quanhuo");
@@ -202,7 +201,7 @@ describe("originals-curated overlay", () => {
     expect(teacherByName.get("Changfu Zhi")).toBe("Xuefeng Yicun");
     expect(teacherByName.get("Taigu Puyu")).toBe("Shiwu Qinggong");
     expect(teacherByName.get("Baofu Congzhan")).toBe("Xuefeng Yicun");
-    expect(teacherByName.get("Zizhou Chuji")).toBe("Xuefeng Yicun");
+    expect(teacherByName.get("Zizhou Chuji")).toBe("Zizhou Zhishen");
     expect(teacherByName.get("Chengtian Chuanzong")).toBe("Yunmen Wenyan");
     expect(teacherByName.get("Dingzhou Shizang")).toBe("Shishuang Qingzhu");
     expect(teacherByName.get("Danyuan Yingzhen")).toBe("Nanyue Daoxuan");
@@ -222,7 +221,7 @@ describe("originals-curated overlay", () => {
     expect(teacherByName.get("Xutang Zhiyu")).toBe("Wuzhun Shifan");
     expect(teacherByName.get("Baotang Wuzhu")).toBe("Jingzhong Wuxiang");
     expect(teacherByName.get("Nanyue Daoxuan")).toBe("Shitou Xiqian");
-    expect(teacherByName.get("Jianyuan")).toBe("Xutang Zhiyu");
-    expect(teacherByName.get("Shiwu Qinggong")).toBe("Jianyuan");
+    expect(teacherByName.get("Ji'an Xin")).toBe("Gaofeng Yuanmiao");
+    expect(teacherByName.get("Shiwu Qinggong")).toBe("Ji'an Xin");
   });
 });

@@ -129,7 +129,7 @@ scripts/seed-images-targeted.ts # Targeted run (specific masters with overrides)
 ## Quality rules
 
 - Nothing gets published without item-level citations
-- Dates carry precision (`exact` / `circa` / `century` / `unknown`) and confidence (`certain` / `probable` / `uncertain` / `legendary`)
+- Dates carry precision (`exact` / `circa` / `century` / `unknown`) and confidence (`high` / `medium` / `low`)
 - External sources and internal editorial overlays are kept separate
 - Images are sourced only from Wikipedia pageimages (editorially curated) and manually verified before inclusion
 - Ambiguous merges are flagged for review rather than auto-accepted

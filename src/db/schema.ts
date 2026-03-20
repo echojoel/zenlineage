@@ -11,7 +11,7 @@ import {
 // Precision / confidence enums (stored as TEXT)
 // ---------------------------------------------------------------------------
 // precision: "exact" | "circa" | "century" | "unknown"
-// confidence: "certain" | "probable" | "uncertain" | "legendary"
+// confidence: "high" | "medium" | "low"
 
 // ============================= SCHOOLS =====================================
 

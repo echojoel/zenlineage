@@ -153,8 +153,8 @@ export function detectSelfLoops(edges: TransmissionEdge[]): ValidationIssue[] {
  *   (a) teacher.birthYear < student.birthYear
  *   (b) lifespans overlap by >= 10 years (teacher.deathYear - student.birthYear >= 10)
  *
- * A violation is an *error* when both relevant confidences are "certain" or
- * "probable" (i.e. high confidence), otherwise a *warning*.
+ * A violation is an *error* when both relevant confidences are "high",
+ * otherwise a *warning*.
  */
 export function checkTemporalConsistency(
   edges: TransmissionEdge[],

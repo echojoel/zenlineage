@@ -1615,7 +1615,7 @@
     "dates": "",
     "teachers": [
       {
-        "name": "Yunju Daoying",
+        "name": "Tongan Daopi",
         "edge_type": "primary"
       }
     ],
@@ -1672,7 +1672,7 @@
     "teachers": [
       {
         "name": "Dayang Jingxuan",
-        "edge_type": "primary"
+        "edge_type": "dharma"
       }
     ],
     "school": "",
@@ -2120,7 +2120,7 @@
     "name": "Cizhou Faru",
     "names_cjk": "",
     "dates": "",
-    "teachers": [{"name": "Heze Shenhui", "edge_type": "primary"}],
+    "teachers": [{"name": "Daman Hongren", "edge_type": "primary"}],
     "school": "",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -2138,7 +2138,7 @@
     "name": "Changshui Zixuan",
     "names_cjk": "",
     "dates": "",
-    "teachers": [{"name": "Fushan Fayuan", "edge_type": "primary"}],
+    "teachers": [{"name": "Langye Huijue", "edge_type": "primary"}],
     "school": "",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -2282,7 +2282,7 @@
     "name": "Sansheng Huiran",
     "names_cjk": "",
     "dates": "",
-    "teachers": [{"name": "Xinghua Cunjiang", "edge_type": "primary"}],
+    "teachers": [{"name": "Linji Yixuan", "edge_type": "primary"}],
     "school": "",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -2300,7 +2300,7 @@
     "name": "Dasui Fazhen",
     "names_cjk": "",
     "dates": "",
-    "teachers": [{"name": "Fenyang Shanzhao", "edge_type": "primary"}],
+    "teachers": [{"name": "Guishan Daan", "edge_type": "primary"}],
     "school": "",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -2309,7 +2309,7 @@
     "name": "Guishan Daan",
     "names_cjk": "",
     "dates": "",
-    "teachers": [{"name": "Baiyun Shouduan", "edge_type": "primary"}],
+    "teachers": [{"name": "Baizhang Huaihai", "edge_type": "primary"}],
     "school": "",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -2318,7 +2318,7 @@
     "name": "Mingan Rongxi",
     "names_cjk": "",
     "dates": "",
-    "teachers": [{"name": "Xuedou Chongxian", "edge_type": "primary"}],
+    "teachers": [{"name": "Xuan Huaichang", "edge_type": "primary"}],
     "school": "",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -2399,7 +2399,7 @@
     "name": "Mahasattva Fu",
     "names_cjk": "",
     "dates": "",
-    "teachers": [{"name": "Dongshan Liangjie", "edge_type": "primary"}],
+    "teachers": [],
     "school": "",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
