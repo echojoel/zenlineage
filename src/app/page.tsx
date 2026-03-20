@@ -1,5 +1,25 @@
 
+import type { Metadata } from "next";
 import Link from "next/link";
+
+export const metadata: Metadata = {
+  title: "Zen Lineage",
+  description:
+    "An interactive encyclopedia of Zen Buddhism — lineage explorer, masters, schools, and teachings across 2,500 years of Chan/Zen history.",
+  alternates: { canonical: "https://zenlineage.org" },
+  openGraph: {
+    title: "Zen Lineage",
+    description:
+      "An interactive encyclopedia of Zen Buddhism — lineage explorer, masters, schools, and teachings across 2,500 years of Chan/Zen history.",
+    url: "https://zenlineage.org",
+    type: "website",
+  },
+  twitter: {
+    card: "summary",
+    title: "Zen Lineage",
+    description: "An interactive encyclopedia of Zen Buddhism across 2,500 years of Chan/Zen history.",
+  },
+};
 import { sql, eq, and } from "drizzle-orm";
 import { db } from "@/db";
 import {
@@ -105,11 +125,29 @@ export default async function Home() {
 
   const countsLabel = `${masterRow[0]?.count ?? 0} masters · ${schoolRow[0]?.count ?? 0} schools · ${transmissionRow[0]?.count ?? 0} transmissions`;
 
+  const websiteJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    name: "Zen Lineage",
+    url: "https://zenlineage.org",
+    description:
+      "An interactive encyclopedia of Zen Buddhism covering 435+ masters, 23 schools, and 436 lineage transmissions across 2,500 years of Chan/Zen history.",
+    potentialAction: {
+      "@type": "SearchAction",
+      target: "https://zenlineage.org/masters?q={search_term_string}",
+      "query-input": "required name=search_term_string",
+    },
+  };
+
   return (
     <main
       className="flex min-h-screen flex-col items-center justify-center px-6 text-center"
       style={{ background: "var(--paper)" }}
     >
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteJsonLd).replace(/</g, "\\u003c") }}
+      />
       {/* Logograph */}
       <div
         className="mb-8 select-none"

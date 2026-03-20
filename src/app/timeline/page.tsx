@@ -16,9 +16,22 @@ import type { ResolvedMaster, ResolvedSchool } from "@/components/TimelineClient
 import { TIMELINE_ERAS, BIBLIOGRAPHY } from "@/lib/timeline-editorial";
 
 export const metadata: Metadata = {
-  title: "Timeline — Zen Lineage",
+  title: "Timeline",
   description:
-    "A chronological journey through 2,500 years of Chan and Zen Buddhist history.",
+    "A chronological journey through 2,500 years of Chan and Zen Buddhist history — from the historical Buddha to the spread of Zen in the modern West.",
+  alternates: { canonical: "https://zenlineage.org/timeline" },
+  openGraph: {
+    title: "Zen Buddhism Timeline — Zen Lineage",
+    description:
+      "Chronological history of Chan and Zen Buddhism from 500 BCE to the present.",
+    url: "https://zenlineage.org/timeline",
+    type: "website",
+  },
+  twitter: {
+    card: "summary",
+    title: "Zen Buddhism Timeline — Zen Lineage",
+    description: "2,500 years of Chan and Zen Buddhist history in one timeline.",
+  },
 };
 
 export default async function TimelinePage() {
@@ -170,8 +183,21 @@ export default async function TimelinePage() {
     }
   }
 
+  const breadcrumbJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://zenlineage.org" },
+      { "@type": "ListItem", position: 2, name: "Timeline", item: "https://zenlineage.org/timeline" },
+    ],
+  };
+
   return (
     <main className="detail-page">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd).replace(/</g, "\\u003c") }}
+      />
       <header className="page-header">
         <Link href="/" className="nav-link">
           禅
