@@ -15,6 +15,7 @@ import { eq, and } from "drizzle-orm";
 import crypto from "crypto";
 
 const PUBLIC_MASTERS_DIR = path.join(process.cwd(), "public", "masters");
+const IMAGE_AUTOFETCH_BLOCKLIST = new Set(["harada-sodo-kakusho"]);
 
 const UA = "ZenEncyclopediaBot/1.0 (https://github.com/zen-encyclopedia; educational project)";
 
@@ -170,6 +171,12 @@ async function main() {
   console.log(`Processing ${slugs.length} targeted masters...\n`);
 
   for (const slug of slugs) {
+    if (IMAGE_AUTOFETCH_BLOCKLIST.has(slug)) {
+      console.log(`  [SKIP] ${slug} — reviewed false-positive risk`);
+      skip++;
+      continue;
+    }
+
     const master = slugToMaster.get(slug);
     if (!master) {
       console.log(`  [SKIP] ${slug} — not in database`);

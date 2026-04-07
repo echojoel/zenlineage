@@ -21,6 +21,10 @@ import crypto from "crypto";
 
 const PUBLIC_MASTERS_DIR = path.join(process.cwd(), "public", "masters");
 
+// Reviewed exclusions for known false-positive auto matches.
+// These masters should have no auto-seeded portrait until a correct image is sourced.
+const IMAGE_AUTOFETCH_BLOCKLIST = new Set(["harada-sodo-kakusho"]);
+
 /**
  * Override search terms for masters whose Wikipedia pages use different names.
  * Each entry is an array of search terms to try in order.
@@ -28,22 +32,22 @@ const PUBLIC_MASTERS_DIR = path.join(process.cwd(), "public", "masters");
 const IMAGE_SEARCH_OVERRIDES: Record<string, string[]> = {
   // Indian patriarchs
   "shakyamuni-buddha": ["Gautama Buddha", "Buddha", "Siddhartha Gautama"],
-  "mahakashyapa": ["Mahākāśyapa", "Mahakasyapa", "Mahakashyapa"],
-  "ananda": ["Ānanda", "Ananda (Buddhist)"],
-  "shanakavasa": ["Śāṇakavāsa", "Shanakavasa"],
-  "upagupta": ["Upagupta"],
-  "dhritaka": ["Dhṛtaka"],
-  "vasumitra": ["Vasumitra"],
-  "buddhanandi": ["Buddhanandi"],
-  "parshva": ["Pārśva", "Parshva (Buddhist)"],
-  "punyayashas": ["Puṇyayaśas"],
-  "ashvaghosha": ["Aśvaghoṣa", "Ashvaghosha"],
-  "kapimala": ["Kapimala"],
-  "nagarjuna": ["Nāgārjuna", "Nagarjuna"],
-  "aryadeva": ["Āryadeva", "Aryadeva"],
-  "vasubandhu": ["Vasubandhu"],
-  "simha": ["Aryasimha", "Āryasiṃha", "Simha Bhikshu"],
-  "prajnatara": ["Prajñātāra", "Prajnatara"],
+  mahakashyapa: ["Mahākāśyapa", "Mahakasyapa", "Mahakashyapa"],
+  ananda: ["Ānanda", "Ananda (Buddhist)"],
+  shanakavasa: ["Śāṇakavāsa", "Shanakavasa"],
+  upagupta: ["Upagupta"],
+  dhritaka: ["Dhṛtaka"],
+  vasumitra: ["Vasumitra"],
+  buddhanandi: ["Buddhanandi"],
+  parshva: ["Pārśva", "Parshva (Buddhist)"],
+  punyayashas: ["Puṇyayaśas"],
+  ashvaghosha: ["Aśvaghoṣa", "Ashvaghosha"],
+  kapimala: ["Kapimala"],
+  nagarjuna: ["Nāgārjuna", "Nagarjuna"],
+  aryadeva: ["Āryadeva", "Aryadeva"],
+  vasubandhu: ["Vasubandhu"],
+  simha: ["Aryasimha", "Āryasiṃha", "Simha Bhikshu"],
+  prajnatara: ["Prajñātāra", "Prajnatara"],
 
   // Chinese — early
   "puti-damo": ["Bodhidharma"],
@@ -73,12 +77,12 @@ const IMAGE_SEARCH_OVERRIDES: Record<string, string[]> = {
   "lingyun-zhiqin": ["Lingyun Zhiqin", "靈雲志勤"],
 
   // Chinese — modern
-  "xuyun": ["Xuyun", "Hsu Yun", "Empty Cloud", "虛雲"],
+  xuyun: ["Xuyun", "Hsu Yun", "Empty Cloud", "虛雲"],
   "sheng-yen": ["Sheng Yen", "聖嚴法師"],
   "hsuan-hua": ["Hsuan Hua", "宣化上人"],
 
   // Japanese
-  "dogen": ["Dōgen", "Dogen Zenji"],
+  dogen: ["Dōgen", "Dogen Zenji"],
   "keizan-jokin": ["Keizan", "Keizan Jōkin"],
   "hakuin-ekaku": ["Hakuin Ekaku", "Hakuin"],
   "myoan-eisai": ["Eisai", "Myōan Eisai", "栄西"],
@@ -106,25 +110,25 @@ const IMAGE_SEARCH_OVERRIDES: Record<string, string[]> = {
   "roland-rech": ["Roland Rech Zen"],
 
   // Korean Seon
-  "wonhyo": ["Wonhyo", "원효"],
-  "toui": ["Toui (monk)", "道義"],
+  wonhyo: ["Wonhyo", "원효"],
+  toui: ["Toui (monk)", "道義"],
   "bojo-jinul": ["Jinul", "Chinul", "보조지눌"],
   "chinul-hyesim": ["Hyesim", "Chin'gak Hyesim", "혜심"],
   "taego-bou": ["Taego Bou", "태고보우"],
   "naong-hyegeun": ["Naong Hyegeun", "나옹혜근"],
-  "gihwa": ["Gihwa", "Hamheo Deuktong", "기화"],
+  gihwa: ["Gihwa", "Hamheo Deuktong", "기화"],
   "seosan-hyujeong": ["Hyujeong", "Seosan Daesa", "서산대사"],
   "samyeongdang-yujeong": ["Samyeongdang", "Yujeong", "사명당"],
-  "gyeongheo": ["Gyeongheo", "경허"],
-  "mangong": ["Mangong", "만공"],
+  gyeongheo: ["Gyeongheo", "경허"],
+  mangong: ["Mangong", "만공"],
   "hanam-jungwon": ["Hanam Jungwon", "한암"],
-  "hyobong": ["Hyobong", "효봉"],
-  "gobong": ["Ko Bong", "Gobong", "고봉"],
+  hyobong: ["Hyobong", "효봉"],
+  gobong: ["Ko Bong", "Gobong", "고봉"],
   "kusan-sunim": ["Kusan Sunim", "구산"],
-  "seongcheol": ["Seongcheol", "Song Chol", "성철"],
+  seongcheol: ["Seongcheol", "Song Chol", "성철"],
   "seung-sahn": ["Seung Sahn", "숭산"],
-  "daehaeng": ["Daehaeng Kun Sunim", "대행"],
-  "beopjeong": ["Beopjeong", "법정"],
+  daehaeng: ["Daehaeng Kun Sunim", "대행"],
+  beopjeong: ["Beopjeong", "법정"],
 
   // Vietnamese
   "thich-thanh-tu": ["Thích Thanh Từ"],
@@ -196,7 +200,11 @@ async function searchWikimediaCommons(
 }
 
 // Smart fetch with exponential backoff and rate limit handling
-async function smartFetch(url: string, retries = 5, delay = 2000): Promise<Record<string, unknown> | Response> {
+async function smartFetch(
+  url: string,
+  retries = 5,
+  delay = 2000
+): Promise<Record<string, unknown> | Response> {
   for (let i = 0; i < retries; i++) {
     const res = await fetch(url, {
       headers: {
@@ -220,7 +228,9 @@ async function smartFetch(url: string, retries = 5, delay = 2000): Promise<Recor
         }
       }
 
-      console.warn(`    [Rate Limited] HTTP ${res.status}. Retrying in ${waitTime / 1000}s... (${i + 1}/${retries})`);
+      console.warn(
+        `    [Rate Limited] HTTP ${res.status}. Retrying in ${waitTime / 1000}s... (${i + 1}/${retries})`
+      );
       await new Promise((resolve) => setTimeout(resolve, waitTime));
       continue;
     }
@@ -251,6 +261,14 @@ async function init() {
   let alreadyExistsCount = 0;
 
   for (const master of sortedMasters) {
+    if (IMAGE_AUTOFETCH_BLOCKLIST.has(master.slug)) {
+      console.log(
+        `\nSkipping auto image search for: ${master.slug} (reviewed false-positive risk)`
+      );
+      skipCount++;
+      continue;
+    }
+
     // 0. Check if existing record
     const existingMedia = await db
       .select()
@@ -278,7 +296,7 @@ async function init() {
           entityId: existingMedia[0].id,
           sourceId: "src_wikipedia",
           fieldName: "storage_path",
-          excerpt: `Seeded from Wikimedia Commons: ${existingMedia[0].sourceUrl?.split('/').pop() || 'unknown'}`,
+          excerpt: `Seeded from Wikimedia Commons: ${existingMedia[0].sourceUrl?.split("/").pop() || "unknown"}`,
           pageOrSection: `Wikipedia: ${master.slug.replace(/-/g, " ")}`,
         });
         successCount++;
@@ -361,10 +379,9 @@ async function init() {
     }
 
     try {
-
       // 2. Download the image
       const imgRes = await smartFetch(imageUrl);
-      
+
       if (!imgRes.ok) {
         console.error(`  -> Failed to download image: HTTP ${imgRes.status}`);
         skipCount++;
