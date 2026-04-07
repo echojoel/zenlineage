@@ -902,7 +902,7 @@ Yihuai's teaching continued the Yunmen tradition's emphasis on the spontaneous, 
 - **Dates:** 1002 – 1069
 - **School:** Linji
 - **Teachers:** Shishuang Chuyuan
-- **Students:** Huitang Zuxin, Dahong Zuzheng, Yunan Kewen, Huanglong Huiji, Zhenjing Kewen
+- **Students:** Huitang Zuxin, Mingan Rongxi, Dahong Zuzheng, Yunan Kewen, Huanglong Huiji, Zhenjing Kewen
 
 Huanglong Huinan was a student of Shishuang Chuyuan who founded the Huanglong branch of the Linji school, one of the two great subschools into which Linji Chan divided during the Song dynasty. He taught at Mount Huanglong and developed a systematic approach to testing students known as the "Three Barriers of Huanglong."
 
@@ -1842,7 +1842,7 @@ So-on's influence on Suzuki Roshi, and through him on the entire Western Soto tr
 - **Dates:** 1880 – 1965
 - **School:** Soto
 - **Teachers:** Sawada Zenko
-- **Students:** Kosho Uchiyama, Taisen Deshimaru
+- **Students:** Gudo Wafu Nishijima, Kosho Uchiyama, Taisen Deshimaru
 
 Kodo Sawaki, known as "Homeless Kodo," was one of the most influential Soto Zen masters of the twentieth century. He never held a permanent temple position, instead traveling throughout Japan to teach zazen in whatever venue was available—prisons, factories, universities, and public halls. His radical commitment to the practice of shikantaza, stripped of all institutional trappings, inspired a generation of practitioners and teachers.
 
@@ -1854,7 +1854,7 @@ Sawaki's teaching was characterized by a fierce directness that cut through the 
 - **Dates:** 1885 – 1973
 - **School:** Sanbo-Zen
 - **Teachers:** Harada Daiun Sogaku
-- **Students:** Yamada Koun
+- **Students:** Taizan Maezumi, Yamada Koun
 
 Yasutani Hakuun was a student of Harada Daiun Sogaku who founded the Sanbo Kyodan (Three Treasures Association), a Zen lineage that integrated Soto and Rinzai methods and became one of the most important vehicles for the transmission of Zen to the West. His book The Three Pillars of Zen (compiled by Philip Kapleau) introduced countless Western readers to the practice of Zen meditation.
 
@@ -1896,6 +1896,7 @@ Omori Sogen (1904–1994) has been called the greatest Rinzai Zen master of the 
 - **Dates:** 1904 – 1971
 - **School:** Soto
 - **Teachers:** Gyokujun So-on
+- **Students:** Dainin Katagiri, Kobun Chino Otogawa
 
 Shunryu Suzuki was the founder of the San Francisco Zen Center and one of the most influential Zen teachers in the history of Western Buddhism. Born in 1904 in Japan, he arrived in San Francisco in 1959 to serve a small Japanese-American congregation and discovered a generation of young Americans eager to practice zazen. His gentle, humorous, and profoundly simple teaching attracted a devoted following and established the model for Soto Zen practice in the West.
 
@@ -1967,6 +1968,7 @@ Aitken was also a social activist who integrated his Zen practice with engagemen
 - **Also known as:** Gudō Wafu Nishijima, Nishijima Roshi
 - **Dates:** 1919 – 2014
 - **School:** Soto
+- **Teachers:** Kodo Sawaki
 - **Students:** Brad Warner, Mike Chodo Cross
 
 Gudo Wafu Nishijima was a Soto Zen master who made significant contributions to the understanding of Dogen's thought in the modern world. He translated the entire Shobogenzo into English (with his student Chodo Cross), making Dogen's masterwork accessible to a global audience. He taught that Dogen's philosophy could be understood through the lens of the autonomic nervous system, offering a naturalistic interpretation of zazen.
@@ -1979,7 +1981,7 @@ Nishijima's approach was distinctive for its integration of Dogen's teaching wit
 - **Dates:** 1924 – 1996
 - **School:** Soto
 
-Jiyu Kennett was a British-born Soto Zen teacher who founded Shasta Abbey in northern California, establishing one of the first Western Soto Zen monasteries. She trained in Japan at Sojiji, one of the two head temples of Soto Zen, and received dharma transmission before returning to the West to teach.
+Jiyu Kennett was a British-born Soto Zen teacher who founded Shasta Abbey in northern California, establishing one of the first Western Soto Zen monasteries. She trained in Japan at Sojiji, one of the two head temples of Soto Zen, and received dharma transmission there from Koho Keido Chisan before returning to the West to teach.
 
 Kennett's approach to Soto Zen was distinctive for its adaptation to Western forms. She translated many Soto liturgical texts into English, set chants to Gregorian-style melodies, and created a monastic environment that combined Japanese Soto discipline with elements familiar to Western practitioners.
 
@@ -1988,30 +1990,31 @@ Kennett's approach to Soto Zen was distinctive for its adaptation to Western for
 - **Also known as:** Katagiri Roshi
 - **Dates:** 1928 – 1990
 - **School:** Soto
+- **Teachers:** Shunryu Suzuki
 
-Dainin Katagiri was a Soto Zen master who helped establish Zen practice in the American Midwest, founding the Minnesota Zen Meditation Center in Minneapolis. Born in Japan in 1928, he came to the United States in 1963 and initially assisted Shunryu Suzuki at the San Francisco Zen Center before establishing his own community in Minnesota.
+Dainin Katagiri was a Soto Zen master who helped establish Zen practice in the American Midwest, founding the Minnesota Zen Meditation Center in Minneapolis. Born in Japan in 1928, he ordained under Daicho Hayashi, whom he later described as his honshi, or root teacher, and also trained with Eko Hashimoto before coming to the United States in 1963. In America he initially assisted Shunryu Suzuki at the San Francisco Zen Center before establishing his own community in Minnesota.
 
-Katagiri's teaching was characterized by a warmth and accessibility that made Zen practice available to Americans far from the coastal centers where Zen first took root. His published talks, collected in Returning to Silence and Each Moment Is the Universe, present Dogen's teaching in clear, practical language. He emphasized that Zen practice is not about achieving special states but about meeting each moment of life fully and completely.
+Katagiri's teaching was characterized by a warmth and accessibility that made Zen practice available to Americans far from the coastal centers where Zen first took root. His published talks, collected in Returning to Silence and Each Moment Is the Universe, present Dogen's teaching in clear, practical language.
 
 ### Taizan Maezumi
 
 - **Also known as:** Hakuyu Taizan Maezumi, Maezumi Roshi
 - **Dates:** 1931 – 1995
 - **School:** Soto
+- **Teachers:** Yasutani Hakuun
 
-Taizan Maezumi was a Soto Zen master who founded the Zen Center of Los Angeles and became one of the most influential Zen teachers in the Western world. Born in 1931 into a Soto Zen temple family, he came to Los Angeles in 1956 and gradually built a community that became a major center for American Zen practice. He held dharma transmission in three lineages—Soto, Rinzai, and Sanbo Kyodan—giving him an unusually comprehensive perspective.
-
-Maezumi trained many students who went on to become prominent Zen teachers in their own right, including Bernard Tetsugen Glassman, John Daido Loori, and Dennis Genpo Merzel. His community, the White Plum Asanga, represents one of the largest and most diverse networks of Zen teachers in the West.
+Taizan Maezumi was a Soto Zen master who founded the Zen Center of Los Angeles and became one of the most influential Zen teachers in the Western world. Born in 1931 into a Soto Zen temple family, he came to Los Angeles in 1956 and gradually built a community that became a major center for American Zen practice. ZCLA's own founder history records that the center was established by Maezumi Roshi together with his father Baian Hakujun Kuroda, and that Maezumi had already begun koan practice with Yasutani Roshi. He held dharma transmission in three lineages—Soto, Rinzai, and Sanbo Kyodan—giving him an unusually comprehensive perspective.
 
 ### Kobun Chino Otogawa
 
 - **Also known as:** Kobun Chino, Kobun Chino Otagawa
 - **Dates:** 1938 – 2002
 - **School:** Soto
+- **Teachers:** Shunryu Suzuki
 
-Kobun Chino Otogawa was a Soto Zen master who brought the tradition to the American West Coast and became known for his unconventional and deeply intuitive teaching style. He trained at Eiheiji and came to the United States to assist at the Tassajara Zen monastery, eventually establishing his own communities in California and New Mexico.
+Kobun Chino Otogawa was a Soto Zen master who brought the tradition to the American West Coast and became known for his unconventional and deeply intuitive teaching style. Born into Jokoji temple in Kamo, he was adopted after his father's death by Hozan Koei Chino, who became his later master. During his Komazawa and Eiheiji years he regularly attended Kodo Sawaki's lectures, and in 1967 Shunryu Suzuki invited him to the United States to help establish Tassajara before he eventually founded his own communities in California and New Mexico.
 
-Kobun was known for his artistic sensibility and his willingness to teach in informal, non-institutional settings. His influence extended beyond the Zen community—he served as the spiritual adviser to Steve Jobs and influenced the aesthetic sensibility of early Apple computer design. His teaching emphasized the natural quality of zazen—sitting not as a formal exercise but as the most natural thing a human being can do.
+Kobun was known for his artistic sensibility and his willingness to teach in informal, non-institutional settings.
 
 ### Roland Rech
 
@@ -2120,6 +2123,10 @@ Dayu's role in the Yunmen lineage reflects the school's position as a bridge bet
 - **School:** Rinzai
 - **Teachers:** Xutang Zhiyu
 - **Students:** Shuho Myocho
+
+Nanpo Jomyo (1235–1308), known posthumously as Daio Kokushi (National Teacher), was the founder of the Otokan lineage that became the sole surviving branch of Rinzai Zen. Born in Suruga Province, he began Zen training under Lanxi Daolong at Kenchoji in Kamakura before traveling to Song dynasty China in 1259, where he studied under Xutang Zhiyu and received dharma transmission in 1265.
+
+Returning to Japan, Nanpo established himself as one of the most important figures in the transmission of Chinese Linji Chan to Japan. Through his student Shuho Myocho (Daito Kokushi), his lineage produced the Daitokuji and Myoshinji branches of Rinzai Zen, which remain the largest and most influential Rinzai lineages in Japan to this day.
 
 ### Langye Huijue
 
@@ -2422,6 +2429,10 @@ The Linji tradition during the Song dynasty encompassed hundreds of active teach
 - **Dates:** Dates uncertain
 - **School:** Soto
 - **Teachers:** Gudo Wafu Nishijima
+
+Mike Chodo Cross is a Soto Zen teacher and translator associated with the modern transmission of Gudo Wafu Nishijima's teaching in the English-speaking world. As Nishijima's student and close collaborator, he worked extensively on the translation and publication of Dogen's writings, especially the multi-volume English presentation of the Shobogenzo.
+
+Cross's contribution has been less public-facing than that of some contemporary teachers, but it has been substantial. By helping carry difficult Japanese Zen texts into readable English, he supported one of the most consequential modern efforts to make Dogen's work available outside Japan. His place in Nishijima's lineage therefore reflects both formal training and the practical labor of textual transmission.
 
 ### Fuden Gentotsu
 
@@ -2940,6 +2951,10 @@ Kewen's teaching reflected the mature Song dynasty Chan tradition, which had dev
 - **School:** Soto
 - **Teachers:** Taisen Deshimaru
 
+Etienne Mokusho Zeisler is a French Soto Zen teacher in the lineage of Taisen Deshimaru and one of the mature senior figures formed in the first generation of European Zen practice under Japanese guidance. As one of Deshimaru's close disciples, he helped carry forward the teacher's insistence on zazen as the central fact of practice rather than one technique among others.
+
+Zeisler's place in the lineage represents the institutional settling of Soto Zen in Europe after Deshimaru's death. Teachers of his generation had to do more than repeat a founder's charisma: they had to stabilize communities, continue ordination and retreat culture, and transmit a recognizably Soto discipline in European languages and social conditions.
+
 ### Dahong Zuzheng
 
 - **Also known as:** Ta-hung Tsu-Chêng, Daikô Soshô
@@ -3124,9 +3139,10 @@ Linji then struck Dayu three times, and Dayu said, "Your teacher is Huangbo—it
 
 ### Mingan Rongxi
 
-- **Also known as:** Ming-an Jung-hsi, Myôan Eisai
+- **Also known as:** Ming-an Jung-hsi, Myôan Eisai, Myoan Eisai, Myoan Yosai, Eisai
 - **Dates:** Dates uncertain
 - **School:** Rinzai
+- **Teachers:** Huanglong Huinan
 
 Mingan Rongxi, better known as Myōan Eisai (明菴栄西, 1141–1215), was the Japanese monk who founded the Rinzai school of Zen in Japan. He traveled twice to Song dynasty China, where he studied under Xuan Huaichang (Kian Eshō) and received dharma transmission in the Huanglong branch of the Linji lineage. Upon returning to Japan, he established the first Rinzai Zen temples and introduced the systematic practice of tea drinking, earning the title "father of Japanese tea."
 
@@ -3194,6 +3210,10 @@ In one recorded exchange, a monk asked Wufeng about the ultimate meaning of the 
 - **Dates:** Dates uncertain
 - **School:** Soto
 - **Teachers:** Gudo Wafu Nishijima
+
+Brad Warner is an American Soto Zen teacher, writer, and musician known for presenting Zen in a direct, colloquial style to a broad contemporary audience. He ordained under Gudo Wafu Nishijima and became one of Nishijima's best-known Western students, helping to popularize his teacher's emphasis on straightforward zazen practice and careful engagement with Dogen's thought.
+
+Warner's books and talks are marked by a refusal to romanticize Zen. He often frames practice in practical, demystifying terms, stressing that awakening is worked out in posture, conduct, and ordinary life rather than in spiritual theatrics.
 
 ### Sesso Hoseki
 
@@ -3734,6 +3754,10 @@ Shunki's place in the Soto succession represents the tradition's steady continui
 - **Dates:** Dates uncertain
 - **School:** Soto
 - **Teachers:** Taisen Deshimaru
+
+Stephane Kosen Thibaut is a French Soto Zen teacher in the Deshimaru lineage and one of the better-known second-generation figures of European Zen. He practiced closely with Taisen Deshimaru and belongs to the group of close disciples who helped preserve and transmit Deshimaru's style of zazen after the founding generation passed.
+
+Kosen's teaching places strong emphasis on posture, discipline, and sustained sesshin practice in the mold established by Deshimaru. His role in the European Soto landscape is that of a consolidating successor: not the original transmitter from Japan to Europe, but one of the teachers through whom that transplanted tradition took stable local form.
 
 ### Yantou Quanhuo
 

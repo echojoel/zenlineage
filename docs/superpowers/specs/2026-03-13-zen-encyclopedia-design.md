@@ -38,6 +38,8 @@ The lineage graph is a **directed acyclic graph (DAG)**, not a tree. A master ma
 
 **Public graph constraint:** regardless of what exists in the underlying research dataset, the published lineage graph must expose exactly one visible root: `Shakyamuni Buddha`. Any disconnected subgraph or partially sourced lineage must be excluded from the public graph until it is connected back to that root with cited transmissions.
 
+**Contemporary media constraint:** contemporary masters (roughly, birth year >= 1850 or death year >= 1950) are not considered publication-complete unless they have a cited, publishable portrait asset or a documented editorial exception explaining why none is available.
+
 ### Core Entities
 
 **Master (Person)**

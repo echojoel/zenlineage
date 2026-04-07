@@ -1536,6 +1536,38 @@
     "excerpt": "Myoki Soseki (Terebess Harada profile - Harada's Rinzai Lineage)"
   },
   {
+    "id": "kaIq0BI9LXQt7cH1sxWNo",
+    "source_id": "src_zcla_maezumi_founders",
+    "entity_type": "master",
+    "entity_id": "5jVaikrFuGWfTBTVeEq5d",
+    "field_name": "dates",
+    "excerpt": "1931-1995"
+  },
+  {
+    "id": "tHiGw7JOl0Xir7SgP8dHK",
+    "source_id": "src_zcla_maezumi_founders",
+    "entity_type": "master",
+    "entity_id": "5jVaikrFuGWfTBTVeEq5d",
+    "field_name": "name",
+    "excerpt": "Taizan Maezumi"
+  },
+  {
+    "id": "5_sNCIze6D0KV0Nm9oM3N",
+    "source_id": "src_zcla_maezumi_founders",
+    "entity_type": "master",
+    "entity_id": "5jVaikrFuGWfTBTVeEq5d",
+    "field_name": "school",
+    "excerpt": "Soto"
+  },
+  {
+    "id": "pHBB8HdJWpRWhlGYitAX0",
+    "source_id": "src_zcla_maezumi_founders",
+    "entity_type": "master",
+    "entity_id": "5jVaikrFuGWfTBTVeEq5d",
+    "field_name": "teachers",
+    "excerpt": "Yasutani Hakuun"
+  },
+  {
     "id": "wXq3z6Ky0VuxSwNfO9niM",
     "source_id": "src_sotozen_founders",
     "entity_type": "master",
@@ -6768,6 +6800,30 @@
     "excerpt": "Linji/Yangqi"
   },
   {
+    "id": "erV70jw0SvbIZ-ZBjo2mQ",
+    "source_id": "src_agent_review",
+    "entity_type": "master",
+    "entity_id": "jSeppG7S9SGrEIWFq3DpX",
+    "field_name": "name",
+    "excerpt": "Mingan Rongxi"
+  },
+  {
+    "id": "R6BPpN0C4MZ4G_Io83A1Q",
+    "source_id": "src_agent_review",
+    "entity_type": "master",
+    "entity_id": "jSeppG7S9SGrEIWFq3DpX",
+    "field_name": "school",
+    "excerpt": "Rinzai"
+  },
+  {
+    "id": "g_b8_cblyvPq-QpZH7DQc",
+    "source_id": "src_agent_review",
+    "entity_type": "master",
+    "entity_id": "jSeppG7S9SGrEIWFq3DpX",
+    "field_name": "teachers",
+    "excerpt": "Huanglong Huinan"
+  },
+  {
     "id": "5YDiwpZHrrMg7TfE-9Wal",
     "source_id": "src_originals_curated",
     "entity_type": "master",
@@ -7280,6 +7336,38 @@
     "excerpt": "Xianglin Chengyuan"
   },
   {
+    "id": "45Dpmzn2eyVpWX_KU6KvD",
+    "source_id": "src_mnzencenter_katagiri_biography",
+    "entity_type": "master",
+    "entity_id": "kPxvekBAGHFQcneShv3GW",
+    "field_name": "dates",
+    "excerpt": "1928-1990"
+  },
+  {
+    "id": "nULKXkfHpi_mRNLjiDvAF",
+    "source_id": "src_mnzencenter_katagiri_biography",
+    "entity_type": "master",
+    "entity_id": "kPxvekBAGHFQcneShv3GW",
+    "field_name": "name",
+    "excerpt": "Dainin Katagiri"
+  },
+  {
+    "id": "qJlEYQkjBlxF6GPCIGhUk",
+    "source_id": "src_mnzencenter_katagiri_biography",
+    "entity_type": "master",
+    "entity_id": "kPxvekBAGHFQcneShv3GW",
+    "field_name": "school",
+    "excerpt": "Soto"
+  },
+  {
+    "id": "oq768WVPVSkuZAQ5WZIKM",
+    "source_id": "src_mnzencenter_katagiri_biography",
+    "entity_type": "master",
+    "entity_id": "kPxvekBAGHFQcneShv3GW",
+    "field_name": "teachers",
+    "excerpt": "Shunryu Suzuki"
+  },
+  {
     "id": "K-jjg40iJlnRpO0sNHruZ",
     "source_id": "src_sotozen_founders",
     "entity_type": "master",
@@ -7790,6 +7878,38 @@
     "entity_id": "M_dUQCJ9bjmX1ckgX4YtY",
     "field_name": "teachers",
     "excerpt": "Dahui Zonggao"
+  },
+  {
+    "id": "ZKUPc3W6t4EAi1DUujyJI",
+    "source_id": "src_kobun_sama_biography",
+    "entity_type": "master",
+    "entity_id": "M2g4WsoYjXgackvaKXUjn",
+    "field_name": "dates",
+    "excerpt": "1938-2002"
+  },
+  {
+    "id": "-Kbp6dr4e9ambwpN5TFQD",
+    "source_id": "src_kobun_sama_biography",
+    "entity_type": "master",
+    "entity_id": "M2g4WsoYjXgackvaKXUjn",
+    "field_name": "name",
+    "excerpt": "Kobun Chino Otogawa"
+  },
+  {
+    "id": "TbO8Igg_8ITP0m2vgyhOL",
+    "source_id": "src_kobun_sama_biography",
+    "entity_type": "master",
+    "entity_id": "M2g4WsoYjXgackvaKXUjn",
+    "field_name": "school",
+    "excerpt": "Soto"
+  },
+  {
+    "id": "fbO1cK8-0GHDqYlHLHsNc",
+    "source_id": "src_kobun_sama_biography",
+    "entity_type": "master",
+    "entity_id": "M2g4WsoYjXgackvaKXUjn",
+    "field_name": "teachers",
+    "excerpt": "Shunryu Suzuki"
   },
   {
     "id": "5LsbPzZzntba3TbF1DTmU",

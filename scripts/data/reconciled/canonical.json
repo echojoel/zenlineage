@@ -1395,6 +1395,7 @@
     "death_confidence": "high",
     "school": "Soto",
     "source_ids": [
+      "src_zcla_maezumi_founders",
       "src_sotozen_founders"
     ]
   },
@@ -5766,6 +5767,21 @@
         "locale": "en",
         "name_type": "alias",
         "value": "Myôan Eisai"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Myoan Eisai"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Myoan Yosai"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Eisai"
       }
     ],
     "birth_year": null,
@@ -5777,6 +5793,7 @@
     "school": "Rinzai",
     "source_ids": [
       "src_chan_ancestors_pdf",
+      "src_agent_review",
       "src_originals_curated"
     ]
   },
@@ -6249,6 +6266,7 @@
     "death_confidence": "high",
     "school": "Soto",
     "source_ids": [
+      "src_mnzencenter_katagiri_biography",
       "src_sotozen_founders"
     ]
   },
@@ -6690,6 +6708,7 @@
     "death_confidence": "high",
     "school": "Soto",
     "source_ids": [
+      "src_kobun_sama_biography",
       "src_sotozen_founders"
     ]
   },

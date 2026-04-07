@@ -187,7 +187,14 @@ async function main() {
     allIngestionRuns,
     allSnapshots,
   ] = await Promise.all([
-    db.select({ id: masters.id, slug: masters.slug }).from(masters),
+    db
+      .select({
+        id: masters.id,
+        slug: masters.slug,
+        birthYear: masters.birthYear,
+        deathYear: masters.deathYear,
+      })
+      .from(masters),
     db
       .select({
         entityType: citations.entityType,
@@ -311,6 +318,15 @@ async function main() {
     .filter((master) => !imageIds.has(master.id))
     .map((master) => master.slug)
     .sort();
+  const contemporaryMasters = allMasters.filter(
+    (master) =>
+      (master.birthYear !== null && master.birthYear >= 1850) ||
+      (master.deathYear !== null && master.deathYear >= 1950)
+  );
+  const contemporaryMissingImages = contemporaryMasters
+    .filter((master) => !imageIds.has(master.id))
+    .map((master) => master.slug)
+    .sort();
   const uncitedBiographyRows = allBiographies.filter(
     (bio) => !citationKeys.has(`master_biography:${bio.id}`)
   );
@@ -393,6 +409,13 @@ async function main() {
   printMetric(
     "Masters with images",
     `${imageIds.size} / ${totalMasters} (${formatPercent(imageIds.size, totalMasters)})`
+  );
+  printMetric(
+    "Contemporary masters with images",
+    `${contemporaryMasters.length - contemporaryMissingImages.length} / ${contemporaryMasters.length} (${formatPercent(
+      contemporaryMasters.length - contemporaryMissingImages.length,
+      contemporaryMasters.length
+    )})`
   );
   printMetric(
     "Images in media_assets",
@@ -510,6 +533,7 @@ async function main() {
   printMetric("Missing biographies", preview(missingBiographies));
   printMetric("Missing teachings", preview(missingTeachings));
   printMetric("Missing images", preview(missingImages));
+  printMetric("Contemporary masters missing images", preview(contemporaryMissingImages));
   printMetric("Suspicious slugs", preview(suspiciousSlugs));
   const uncitedBiographyPreview = uncitedBiographyRows
     .map((bio) => allMasters.find((master) => master.id === bio.masterId)?.slug)

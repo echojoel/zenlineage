@@ -1,0 +1,78 @@
+[
+  {
+    "name": "Mingan Rongxi",
+    "names_cjk": "",
+    "dates": "",
+    "teachers": [
+      {
+        "name": "Huanglong Huinan",
+        "edge_type": "dharma",
+        "notes": "Editorial bridge for Eisai's Huanglong lineage when the direct teacher Xuan Huaichang is not yet in the canonical corpus."
+      }
+    ],
+    "school": "Rinzai",
+    "source_id": "src_agent_review",
+    "ingestion_run_id": "run_lineage_fixes_curated_20260407",
+    "names_alt": [
+      "Myoan Eisai",
+      "Myoan Yosai",
+      "Eisai"
+    ]
+  },
+  {
+    "name": "Taizan Maezumi",
+    "names_cjk": "",
+    "dates": "1931-1995",
+    "teachers": [
+      {
+        "name": "Yasutani Hakuun",
+        "edge_type": "secondary",
+        "notes": "ZCLA's founder history notes that Maezumi had begun koan practice with Yasutani Roshi; this secondary edge keeps the public graph connected without overriding his family Soto roots."
+      }
+    ],
+    "school": "Soto",
+    "source_id": "src_zcla_maezumi_founders",
+    "ingestion_run_id": "run_lineage_fixes_curated_20260407",
+    "names_alt": [
+      "Hakuyu Taizan Maezumi",
+      "Maezumi Roshi"
+    ]
+  },
+  {
+    "name": "Dainin Katagiri",
+    "names_cjk": "",
+    "dates": "1928-1990",
+    "teachers": [
+      {
+        "name": "Shunryu Suzuki",
+        "edge_type": "secondary",
+        "notes": "Katagiri's Minnesota Zen Center biography records that he assisted Shunryu Suzuki at San Francisco Zen Center before founding his own community in Minnesota."
+      }
+    ],
+    "school": "Soto",
+    "source_id": "src_mnzencenter_katagiri_biography",
+    "ingestion_run_id": "run_lineage_fixes_curated_20260407",
+    "names_alt": [
+      "Katagiri Roshi"
+    ]
+  },
+  {
+    "name": "Kobun Chino Otogawa",
+    "names_cjk": "",
+    "dates": "1938-2002",
+    "teachers": [
+      {
+        "name": "Shunryu Suzuki",
+        "edge_type": "secondary",
+        "notes": "Kobun's biography identifies Shunryu Suzuki as the decisive later influence who brought him to Tassajara in 1967."
+      }
+    ],
+    "school": "Soto",
+    "source_id": "src_kobun_sama_biography",
+    "ingestion_run_id": "run_lineage_fixes_curated_20260407",
+    "names_alt": [
+      "Kobun Chino",
+      "Kobun Chino Otagawa"
+    ]
+  }
+]

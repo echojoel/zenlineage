@@ -10,14 +10,13 @@ import path from "path";
 import sharp from "sharp";
 import { fetch } from "undici";
 import { db } from "@/db";
-import { masters, masterNames, mediaAssets, citations } from "@/db/schema";
+import { masters, mediaAssets, citations } from "@/db/schema";
 import { eq, and } from "drizzle-orm";
 import crypto from "crypto";
 
 const PUBLIC_MASTERS_DIR = path.join(process.cwd(), "public", "masters");
 
-const UA =
-  "ZenEncyclopediaBot/1.0 (https://github.com/zen-encyclopedia; educational project)";
+const UA = "ZenEncyclopediaBot/1.0 (https://github.com/zen-encyclopedia; educational project)";
 
 /**
  * Slugs to search — only masters with known Wikipedia presence.
@@ -25,25 +24,25 @@ const UA =
  */
 const TARGETS: Record<string, string[]> = {
   // Korean Seon
-  "wonhyo": ["Wonhyo", "원효"],
-  "toui": ["Toui (monk)", "道義"],
+  wonhyo: ["Wonhyo", "원효"],
+  toui: ["Toui (monk)", "道義"],
   "bojo-jinul": ["Jinul", "Chinul", "보조지눌"],
   "chinul-hyesim": ["Hyesim", "Chin'gak Hyesim", "혜심"],
   "taego-bou": ["Taego Bou", "태고보우"],
   "naong-hyegeun": ["Naong Hyegeun", "나옹혜근"],
-  "gihwa": ["Gihwa", "Hamheo Deuktong", "기화"],
+  gihwa: ["Gihwa", "Hamheo Deuktong", "기화"],
   "seosan-hyujeong": ["Hyujeong", "Seosan Daesa", "서산대사"],
   "samyeongdang-yujeong": ["Samyeongdang", "Yujeong", "사명당"],
-  "gyeongheo": ["Gyeongheo", "경허"],
-  "mangong": ["Mangong", "만공"],
+  gyeongheo: ["Gyeongheo", "경허"],
+  mangong: ["Mangong", "만공"],
   "hanam-jungwon": ["Hanam Jungwon", "한암"],
-  "hyobong": ["Hyobong", "효봉"],
-  "gobong": ["Ko Bong", "Gobong", "고봉"],
+  hyobong: ["Hyobong", "효봉"],
+  gobong: ["Ko Bong", "Gobong", "고봉"],
   "kusan-sunim": ["Kusan Sunim", "구산"],
-  "seongcheol": ["Seongcheol", "Song Chol", "성철"],
+  seongcheol: ["Seongcheol", "Song Chol", "성철"],
   "seung-sahn": ["Seung Sahn", "숭산"],
-  "daehaeng": ["Daehaeng Kun Sunim", "대행"],
-  "beopjeong": ["Beopjeong", "법정"],
+  daehaeng: ["Daehaeng Kun Sunim", "대행"],
+  beopjeong: ["Beopjeong", "법정"],
 
   // Japanese
   "myoan-eisai": ["Eisai", "Myōan Eisai", "栄西"],
@@ -54,9 +53,15 @@ const TARGETS: Record<string, string[]> = {
   "ingen-ryuki": ["Ingen", "Yinyuan Longqi", "隠元隆琦"],
   "tetsugen-doko": ["Tetsugen Dōkō", "鉄眼道光"],
   "menzan-zuiho": ["Menzan Zuihō", "面山瑞方"],
+  "gyokujun-so-on": ["Gyokujun So-on", "Gyokujun So-on Zen"],
+  "butsumon-sogaku": ["Butsumon Sogaku"],
+  "bokuo-soun": ["Bokuo Sōun", "Bokuo Soun"],
+  "joten-soko-miura": ["Joten Sōkō Miura", "Joten Soko Miura"],
+  "kono-bukai": ["Kono Bukai"],
+  "seisetsu-genjyo": ["Seisetsu Genjō", "Seisetsu Genjo"],
 
   // Chinese modern
-  "xuyun": ["Xuyun", "Hsu Yun", "Empty Cloud", "虛雲"],
+  xuyun: ["Xuyun", "Hsu Yun", "Empty Cloud", "虛雲"],
   "sheng-yen": ["Sheng Yen", "聖嚴法師"],
   "hsuan-hua": ["Hsuan Hua", "宣化上人"],
 
@@ -107,7 +112,9 @@ async function smartFetch(url: string, retries = 3, delay = 3000): Promise<Respo
         const parsed = parseInt(retryAfter, 10);
         if (!isNaN(parsed)) waitTime = Math.min(parsed * 1000, 60000); // cap at 60s
       }
-      console.warn(`    [Rate Limited] HTTP ${res.status}. Retrying in ${waitTime / 1000}s... (${i + 1}/${retries})`);
+      console.warn(
+        `    [Rate Limited] HTTP ${res.status}. Retrying in ${waitTime / 1000}s... (${i + 1}/${retries})`
+      );
       await new Promise((r) => setTimeout(r, waitTime));
       continue;
     }
@@ -142,45 +149,6 @@ async function searchWikipedia(
       await new Promise((r) => setTimeout(r, 1500));
     } catch {
       await new Promise((r) => setTimeout(r, 2000));
-    }
-  }
-  return null;
-}
-
-async function searchCommons(
-  searchTerms: string[]
-): Promise<{ imageUrl: string; fileName: string; searchName: string } | null> {
-  for (const term of searchTerms) {
-    try {
-      const searchUrl = `https://commons.wikimedia.org/w/api.php?action=query&list=search&srsearch=${encodeURIComponent(term + " Buddhist")}&srnamespace=6&srlimit=5&format=json`;
-      const searchRes = await smartFetch(searchUrl);
-      // eslint-disable-next-line @typescript-eslint/no-explicit-any
-      const searchData = (await searchRes.json()) as any;
-      const results = searchData.query?.search;
-      if (!results || results.length === 0) {
-        await new Promise((r) => setTimeout(r, 1000));
-        continue;
-      }
-      for (const result of results) {
-        const fileTitle = result.title;
-        if (!fileTitle.match(/\.(jpg|jpeg|png|svg|webp)$/i)) continue;
-        const infoUrl = `https://commons.wikimedia.org/w/api.php?action=query&titles=${encodeURIComponent(fileTitle)}&prop=imageinfo&iiprop=url&iiurlwidth=800&format=json`;
-        const infoRes = await smartFetch(infoUrl);
-        // eslint-disable-next-line @typescript-eslint/no-explicit-any
-        const infoData = (await infoRes.json()) as any;
-        const pages = infoData.query?.pages;
-        if (!pages) continue;
-        const pageId = Object.keys(pages)[0];
-        const imageInfo = pages[pageId]?.imageinfo?.[0];
-        if (!imageInfo) continue;
-        const thumbUrl = imageInfo.thumburl || imageInfo.url;
-        if (!thumbUrl) continue;
-        const fileName = fileTitle.replace(/^File:/, "");
-        return { imageUrl: thumbUrl, fileName, searchName: term };
-      }
-      await new Promise((r) => setTimeout(r, 1000));
-    } catch {
-      continue;
     }
   }
   return null;
