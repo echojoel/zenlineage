@@ -136,6 +136,7 @@ scripts/seed-images-targeted.ts # Targeted run (specific masters with overrides)
 - Images are sourced only from Wikipedia pageimages (editorially curated) and manually verified before inclusion
 - Ambiguous merges are flagged for review rather than auto-accepted
 - Public lineage graph invariant: `Shakyamuni Buddha` is the only allowed root. Any master not connected to that backbone stays off the graph until the upstream lineage is sourced.
+- Orphan invariant: the canonical graph should not retain zero-edge masters. When a historically important figure lacks a full direct chain, add a clearly labeled reviewed lineage anchor instead of leaving them disconnected.
 - Contemporary image invariant: masters born after 1850 or dying after 1950 should not be treated as complete without a cited, publishable portrait or an explicit reviewed exception.
 
 ## Contributing

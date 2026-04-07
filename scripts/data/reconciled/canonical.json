@@ -2376,17 +2376,33 @@
         "locale": "en",
         "name_type": "dharma",
         "value": "Mahasattva Fu"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Fu Dashi"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Fu Xi"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Fu Ta-shih"
       }
     ],
-    "birth_year": null,
-    "birth_precision": "unknown",
-    "birth_confidence": "low",
-    "death_year": null,
-    "death_precision": "unknown",
-    "death_confidence": "low",
+    "birth_year": 497,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 569,
+    "death_precision": "exact",
+    "death_confidence": "high",
     "school": "Early Chan",
     "source_ids": [
       "src_chan_ancestors_pdf",
+      "src_terebess",
       "src_originals_curated"
     ]
   },
@@ -3325,6 +3341,7 @@
     "death_confidence": "high",
     "school": "Soto",
     "source_ids": [
+      "src_obcon_founding_teachers",
       "src_sotozen_founders"
     ]
   },
@@ -3871,6 +3888,37 @@
     "school": "Indian Patriarchs",
     "source_ids": [
       "src_originals_curated"
+    ]
+  },
+  {
+    "id": "DYsioznzNhmyRundt6JLP",
+    "slug": "keido-chisan",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Keido Chisan"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Keido Chisan Koho Zenji"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Koho Keido Chisan"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Soto",
+    "source_ids": [
+      "src_obcon_founding_teachers"
     ]
   },
   {

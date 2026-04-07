@@ -2752,6 +2752,38 @@
     "excerpt": "Mahasattva Fu"
   },
   {
+    "id": "u2OMy7CpHk-QaVHiAQjPX",
+    "source_id": "src_terebess",
+    "entity_type": "master",
+    "entity_id": "aJhm8JOd_mYz8PykmCewJ",
+    "field_name": "dates",
+    "excerpt": "497-569"
+  },
+  {
+    "id": "kJ4OcblhjsX2YIDnuHw5n",
+    "source_id": "src_terebess",
+    "entity_type": "master",
+    "entity_id": "aJhm8JOd_mYz8PykmCewJ",
+    "field_name": "name",
+    "excerpt": "Mahasattva Fu"
+  },
+  {
+    "id": "DscxNYNPa6lzhD1L-GCB1",
+    "source_id": "src_terebess",
+    "entity_type": "master",
+    "entity_id": "aJhm8JOd_mYz8PykmCewJ",
+    "field_name": "school",
+    "excerpt": "Early Chan"
+  },
+  {
+    "id": "fL5eTXN1y9o8FOAYjhSAB",
+    "source_id": "src_terebess",
+    "entity_type": "master",
+    "entity_id": "aJhm8JOd_mYz8PykmCewJ",
+    "field_name": "teachers",
+    "excerpt": "Bodhidharma"
+  },
+  {
     "id": "t-G92zfoD5_AUS1xJ1qhl",
     "source_id": "src_originals_curated",
     "entity_type": "master",
@@ -3896,6 +3928,38 @@
     "excerpt": "Yunmen Wenyan"
   },
   {
+    "id": "0Q5FAoCximF-PcN3ltIvv",
+    "source_id": "src_obcon_founding_teachers",
+    "entity_type": "master",
+    "entity_id": "CV42oRvR8Nv9kl0UIIr6V",
+    "field_name": "dates",
+    "excerpt": "1924-1996"
+  },
+  {
+    "id": "MTBI8ROC_jF7E4fadKBRh",
+    "source_id": "src_obcon_founding_teachers",
+    "entity_type": "master",
+    "entity_id": "CV42oRvR8Nv9kl0UIIr6V",
+    "field_name": "name",
+    "excerpt": "Jiyu-Kennett"
+  },
+  {
+    "id": "opuSdWKQ8yNx9uDa2KuLL",
+    "source_id": "src_obcon_founding_teachers",
+    "entity_type": "master",
+    "entity_id": "CV42oRvR8Nv9kl0UIIr6V",
+    "field_name": "school",
+    "excerpt": "Soto"
+  },
+  {
+    "id": "DxWz4YZNEiodDLHCM1yw5",
+    "source_id": "src_obcon_founding_teachers",
+    "entity_type": "master",
+    "entity_id": "CV42oRvR8Nv9kl0UIIr6V",
+    "field_name": "teachers",
+    "excerpt": "Keido Chisan"
+  },
+  {
     "id": "KZ6-XMQbWDE7FBlNTSBVy",
     "source_id": "src_sotozen_founders",
     "entity_type": "master",
@@ -4582,6 +4646,30 @@
     "entity_id": "DWofxdcfC79blHHMxK4GS",
     "field_name": "teachers",
     "excerpt": "Vasumitra"
+  },
+  {
+    "id": "tswpQT4IkgoznZcKWNUTD",
+    "source_id": "src_obcon_founding_teachers",
+    "entity_type": "master",
+    "entity_id": "DYsioznzNhmyRundt6JLP",
+    "field_name": "name",
+    "excerpt": "Keido Chisan"
+  },
+  {
+    "id": "s7fL3kHqO87sIGeh2xqKT",
+    "source_id": "src_obcon_founding_teachers",
+    "entity_type": "master",
+    "entity_id": "DYsioznzNhmyRundt6JLP",
+    "field_name": "school",
+    "excerpt": "Soto"
+  },
+  {
+    "id": "k7xptHzxnx7Wwl-4lxp6o",
+    "source_id": "src_obcon_founding_teachers",
+    "entity_type": "master",
+    "entity_id": "DYsioznzNhmyRundt6JLP",
+    "field_name": "teachers",
+    "excerpt": "Keizan Jokin"
   },
   {
     "id": "bdTul-7lLX0evu_F-p4aT",

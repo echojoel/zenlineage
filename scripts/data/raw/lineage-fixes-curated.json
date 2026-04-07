@@ -74,5 +74,64 @@
       "Kobun Chino",
       "Kobun Chino Otagawa"
     ]
+  },
+  {
+    "name": "Keido Chisan",
+    "names_cjk": "",
+    "dates": "",
+    "teachers": [
+      {
+        "name": "Keizan Jokin",
+        "edge_type": "dharma",
+        "notes": "The Order of Buddhist Contemplatives presents Keido Chisan Koho Zenji within the transmitted Soto lineage that continues through Keizan, Dogen, Bodhidharma, and Shakyamuni Buddha. This is a reviewed backbone anchor pending a fuller direct Japanese succession chain."
+      }
+    ],
+    "school": "Soto",
+    "source_id": "src_obcon_founding_teachers",
+    "ingestion_run_id": "run_lineage_fixes_curated_20260407",
+    "names_alt": [
+      "Keido Chisan Koho Zenji",
+      "Koho Keido Chisan"
+    ]
+  },
+  {
+    "name": "Jiyu-Kennett",
+    "names_cjk": "",
+    "dates": "1924-1996",
+    "teachers": [
+      {
+        "name": "Keido Chisan",
+        "edge_type": "primary",
+        "notes": "The Order of Buddhist Contemplatives identifies Keido Chisan Koho Zenji as Jiyu-Kennett's Japanese Soto teacher and transmitter."
+      }
+    ],
+    "school": "Soto",
+    "source_id": "src_obcon_founding_teachers",
+    "ingestion_run_id": "run_lineage_fixes_curated_20260407",
+    "names_alt": [
+      "Houn Jiyu-Kennett",
+      "Reverend Master Jiyu-Kennett",
+      "Peggy Kennett"
+    ]
+  },
+  {
+    "name": "Mahasattva Fu",
+    "names_cjk": "",
+    "dates": "497-569",
+    "teachers": [
+      {
+        "name": "Bodhidharma",
+        "edge_type": "secondary",
+        "notes": "Terebess describes Mahasattva Fu as a younger contemporary and important precursor in early Zen traditions alongside Bodhidharma; this is an editorial anchor into the early Zen graph, not a claim of formal discipleship."
+      }
+    ],
+    "school": "Early Chan",
+    "source_id": "src_terebess",
+    "ingestion_run_id": "run_lineage_fixes_curated_20260407",
+    "names_alt": [
+      "Fu Dashi",
+      "Fu Xi",
+      "Fu Ta-shih"
+    ]
   }
 ]

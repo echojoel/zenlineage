@@ -353,13 +353,24 @@ Dazu Huike was the second patriarch of Chinese Chan, the successor of Bodhidharm
 
 Huike's encounter with Bodhidharma is recorded as proceeding through a series of exchanges that paralleled Bodhidharma's famous encounter with Emperor Wu.
 
+### Mahasattva Fu
+
+- **Also known as:** Fu Dashi, Fu Xi, Fu Ta-shih
+- **Dates:** 497 – 569
+- **School:** Early Chan
+- **Teachers:** Puti Damo
+
+Mahasattva Fu, also known as Fu Dashi (Great Master Fu), was a legendary Chinese Buddhist figure of the Liang dynasty who is considered a precursor of the Chan tradition. He was a layman who was recognized by Emperor Wu of Liang as a living bodhisattva. He is credited with inventing the revolving sutra case (the rotating bookshelf used in Buddhist temples) and with teaching a form of direct pointing that anticipated Chan methods.
+
+Mahasattva Fu's most famous encounter occurred when Emperor Wu invited him to lecture on the Diamond Sutra. He ascended the lecture platform, struck the table once, and descended without saying a word.
+
 ### Puti Damo
 
 - **Also known as:** P'u-ti Ta-mo, Bodai Daruma, Bodhidharma, puti damo, bodai daruma, p'u-ti ta-mo
 - **Dates:** null – c. 536
 - **School:** Early Chan
 - **Teachers:** Prajnatara
-- **Students:** Dazu Huike
+- **Students:** Mahasattva Fu, Dazu Huike
 
 Bodhidharma was the twenty-eighth Indian patriarch and the first Chinese patriarch of Chan, a figure who stands at the hinge between the Indian and East Asian traditions. He arrived in China around the late fifth or early sixth century, having crossed the seas from India. His encounter with Emperor Wu of Liang is one of the most celebrated exchanges in Chan history. The Emperor, who had built many temples and supported thousands of monks, asked what merit he had accumulated.
 
@@ -984,7 +995,7 @@ Gaofeng's teaching emphasized the absolute necessity of great doubt, great faith
 - **Dates:** 1264 – 1325
 - **School:** Soto
 - **Teachers:** Tettsu Gikai
-- **Students:** Meiho Sotetsu, Gasan Joseki
+- **Students:** Keido Chisan, Meiho Sotetsu, Gasan Joseki
 
 Keizan Jokin, the fourth patriarch of Japanese Soto Zen, is sometimes called "the Great Popularizer" to complement Dogen's role as the school's philosophical founder. He lived from around 1264 to 1325 and was instrumental in making Soto practice accessible to a broad population, including laypeople and those outside the educated elite. He founded Sojiji Temple, which became one of the two head temples of Soto Zen in Japan, the other being Dogen's Eiheiji.
 
@@ -1980,6 +1991,7 @@ Nishijima's approach was distinctive for its integration of Dogen's teaching wit
 - **Also known as:** Houn Jiyu-Kennett, Reverend Master Jiyu-Kennett, Peggy Kennett
 - **Dates:** 1924 – 1996
 - **School:** Soto
+- **Teachers:** Keido Chisan
 
 Jiyu Kennett was a British-born Soto Zen teacher who founded Shasta Abbey in northern California, establishing one of the first Western Soto Zen monasteries. She trained in Japan at Sojiji, one of the two head temples of Soto Zen, and received dharma transmission there from Koho Keido Chisan before returning to the West to teach.
 
@@ -2445,15 +2457,6 @@ Fuden Gentotsu was a Soto Zen master who contributed to the tradition's continui
 
 Gentotsu's teaching continued the Soto emphasis on zazen as the essential practice. The school's tradition of grounding everything in seated meditation—seeing zazen not as one practice among many but as the foundation of all practice—was preserved and transmitted by teachers like Gentotsu across the generations.
 
-### Mahasattva Fu
-
-- **Dates:** Dates uncertain
-- **School:** Early Chan
-
-Mahasattva Fu, also known as Fu Dashi (Great Master Fu), was a legendary Chinese Buddhist figure of the Liang dynasty who is considered a precursor of the Chan tradition. He was a layman who was recognized by Emperor Wu of Liang as a living bodhisattva. He is credited with inventing the revolving sutra case (the rotating bookshelf used in Buddhist temples) and with teaching a form of direct pointing that anticipated Chan methods.
-
-Mahasattva Fu's most famous encounter occurred when Emperor Wu invited him to lecture on the Diamond Sutra. He ascended the lecture platform, struck the table once, and descended without saying a word.
-
 ### Qinshan Wensui
 
 - **Also known as:** Ch'in-shan Wên-sui, Kinzan Bunsui
@@ -2773,6 +2776,18 @@ Yong's presence at Yangshan represents the organic way in which Chan schools coe
 Kaifu Daoning was a Linji school master of the Song dynasty who taught at Kaifu Temple. He was known for a teaching style that emphasized the cultivation of great doubt as the prerequisite for great awakening—a principle that would later become central to the huatou method championed by Dahui Zonggao. His dialogues pushed students to the edge of their intellectual resources.
 
 Kaifu's emphasis on the role of doubt in the awakening process reflects a development within the Linji tradition that would have far-reaching consequences. The understanding that genuine realization requires passing through a period of intense, all-consuming questioning became one of the most distinctive features of Linji and later Rinzai practice. Kaifu's teaching contributed to the crystallization of this approach.
+
+### Keido Chisan
+
+- **Also known as:** Keido Chisan Koho Zenji, Koho Keido Chisan
+- **Dates:** Dates uncertain
+- **School:** Soto
+- **Teachers:** Keizan Jokin
+- **Students:** Jiyu-Kennett
+
+Keido Chisan, also styled Keido Chisan Koho Zenji, was a Japanese Soto Zen teacher associated with Sojiji and remembered in this corpus primarily as the teacher who transmitted the Soto lineage to Jiyu-Kennett. In the Order of Buddhist Contemplatives' founding lineage, he appears as the immediate Japanese transmitter before the line is recited back through Keizan, Dogen, Bodhidharma, and Shakyamuni Buddha.
+
+His role here is intentionally conservative: he is included to preserve the documented Soto transmission context around Jiyu-Kennett rather than to claim a fully reconstructed modern Japanese succession chart. Until that fuller chain is sourced and entered, he functions as the explicit bridge between Kennett's documented Japanese training and the older Soto backbone.
 
 ### Yanyang Shanxin
 
@@ -4388,7 +4403,7 @@ The Rinzai school (臨済宗) is the Japanese form of the Chinese Linji traditio
 ### Soto
 
 - **Tradition:** Zen
-- **Masters:** 87
+- **Masters:** 88
 
 The Soto school (曹洞宗) is the Japanese continuation of the Chinese Caodong tradition, founded by Eihei Dogen (1200–1253) after his training with Tiantong Rujing in China. It is the largest Zen denomination in Japan. Soto's central practice is shikantaza ('just sitting')—zazen practiced as the direct expression of awakening itself, not as a means to attain enlightenment. Dogen articulated this in his masterwork the Shobogenzo—which is itself largely composed of koan commentary and philosophical inquiry—and in his practical manual the Fukanzazengi. The school's second great figure, Keizan Jokin (1264–1325), founded Sojiji Temple and made Soto practice accessible to a broad Japanese population through the integration of esoteric ritual and ancestor veneration. Together, Eiheiji (Dogen's temple) and Sojiji serve as the school's two head monasteries. In the modern era, the Soto tradition has been carried to the West by teachers including Shunryu Suzuki (San Francisco Zen Center), Taisen Deshimaru (Association Zen Internationale, Europe), Taizan Maezumi (Zen Center of Los Angeles), and Dainin Katagiri (Minnesota Zen Center), establishing vibrant practice communities across North America and Europe.
 

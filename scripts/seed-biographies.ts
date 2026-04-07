@@ -1548,6 +1548,12 @@ Mokuin's role in the Soto succession reflects the tradition's characteristic sta
 Kennett's approach to Soto Zen was distinctive for its adaptation to Western forms. She translated many Soto liturgical texts into English, set chants to Gregorian-style melodies, and created a monastic environment that combined Japanese Soto discipline with elements familiar to Western practitioners. Her community, the Order of Buddhist Contemplatives, maintains active monasteries in both the United States and the United Kingdom, representing one of the earliest and most successful transplantations of Soto Zen to the West.`,
   },
   {
+    slug: "keido-chisan",
+    content: `Keido Chisan, also styled Keido Chisan Koho Zenji, was a Japanese Soto Zen teacher associated with Sojiji and remembered in this corpus primarily as the teacher who transmitted the Soto lineage to Jiyu-Kennett. In the Order of Buddhist Contemplatives' founding lineage, he appears as the immediate Japanese transmitter before the line is recited back through Keizan, Dogen, Bodhidharma, and Shakyamuni Buddha.
+
+His role here is intentionally conservative: he is included to preserve the documented Soto transmission context around Jiyu-Kennett rather than to claim a fully reconstructed modern Japanese succession chart. Until that fuller chain is sourced and entered, he functions as the explicit bridge between Kennett's documented Japanese training and the older Soto backbone.`,
+  },
+  {
     slug: "jochu-tengin",
     content: `Jochu Tengin was a Soto Zen master who served in the school's transmission lineage in Japan. He maintained the tradition's emphasis on zazen practice and contributed to the continuity of the Soto school.
 

@@ -503,6 +503,16 @@
     ]
   },
   {
+    "id": "pzd-ZKScpsZ6bP5jWn-wi",
+    "student_id": "aJhm8JOd_mYz8PykmCewJ",
+    "teacher_id": "fHWr9ohlZyE4g7K3Wo0ad",
+    "type": "secondary",
+    "is_primary": false,
+    "source_ids": [
+      "src_terebess"
+    ]
+  },
+  {
     "id": "157L5Yh1ReJ4pDk3BmVvU",
     "student_id": "MZXM7aD7Xu_yqhL_cdQ0d",
     "teacher_id": "0-ND3KJXjjf5gkb1aJbM_",
@@ -1971,6 +1981,27 @@
     "is_primary": false,
     "source_ids": [
       "src_kobun_sama_biography"
+    ]
+  },
+  {
+    "id": "bqjutzgfwUXixQlDFEpNZ",
+    "student_id": "DYsioznzNhmyRundt6JLP",
+    "teacher_id": "mYg9M1wh-alZRKv2NrUp_",
+    "type": "dharma",
+    "is_primary": false,
+    "source_ids": [
+      "src_obcon_founding_teachers"
+    ]
+  },
+  {
+    "id": "yjxamev3OV9jao2Wpm6m3",
+    "student_id": "CV42oRvR8Nv9kl0UIIr6V",
+    "teacher_id": "DYsioznzNhmyRundt6JLP",
+    "type": "primary",
+    "is_primary": true,
+    "source_ids": [
+      "src_obcon_founding_teachers",
+      "src_sotozen_founders"
     ]
   },
   {
