@@ -2842,6 +2842,7 @@
     "death_confidence": "high",
     "school": "Soto",
     "source_ids": [
+      "src_londonzen_nishijima",
       "src_sotozen_founders"
     ]
   },

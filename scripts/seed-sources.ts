@@ -95,6 +95,15 @@ const SOURCES = [
     reliability: "primary",
   },
   {
+    id: "src_londonzen_nishijima",
+    type: "website",
+    title: "London Zen Centre - Gudo Wafu Nishijima",
+    author: "London Zen Centre",
+    url: "https://www.londonzen.org/gudo-wafu-nishijima/",
+    publicationDate: null,
+    reliability: "secondary",
+  },
+  {
     id: "src_zen_deshimaru_history",
     type: "website",
     title: "Zen Deshimaru - The history of Zen, from the Buddha to the modern world",

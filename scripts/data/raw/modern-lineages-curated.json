@@ -1,5 +1,24 @@
 [
   {
+    "name": "Gudo Wafu Nishijima",
+    "names_cjk": "西嶋愚道和夫",
+    "dates": "1919-2014",
+    "teachers": [
+      {
+        "name": "Kodo Sawaki",
+        "edge_type": "primary",
+        "notes": "Nishijima met Kodo Sawaki in 1940 and became his student."
+      }
+    ],
+    "school": "Soto",
+    "source_id": "src_londonzen_nishijima",
+    "ingestion_run_id": "run_modern_lineages_curated_20260407",
+    "names_alt": [
+      "Gudō Wafu Nishijima",
+      "Nishijima Roshi"
+    ]
+  },
+  {
     "name": "Brad Warner",
     "names_cjk": "",
     "dates": "n.d.",

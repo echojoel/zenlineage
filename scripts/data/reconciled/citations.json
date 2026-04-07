@@ -3248,6 +3248,38 @@
     "excerpt": "Huanglong Huinan"
   },
   {
+    "id": "aDSaOVHD0hrYOUEjzM2Oo",
+    "source_id": "src_londonzen_nishijima",
+    "entity_type": "master",
+    "entity_id": "BKXR0nCDBJxkrGmBHuSDh",
+    "field_name": "dates",
+    "excerpt": "1919-2014"
+  },
+  {
+    "id": "GAu7CJQyq4NW8_euep8Dh",
+    "source_id": "src_londonzen_nishijima",
+    "entity_type": "master",
+    "entity_id": "BKXR0nCDBJxkrGmBHuSDh",
+    "field_name": "name",
+    "excerpt": "Gudo Wafu Nishijima"
+  },
+  {
+    "id": "ZKH9i0P6sI50XwA8DQhhV",
+    "source_id": "src_londonzen_nishijima",
+    "entity_type": "master",
+    "entity_id": "BKXR0nCDBJxkrGmBHuSDh",
+    "field_name": "school",
+    "excerpt": "Soto"
+  },
+  {
+    "id": "cy3ecoXk4xqXQtzPQtYvz",
+    "source_id": "src_londonzen_nishijima",
+    "entity_type": "master",
+    "entity_id": "BKXR0nCDBJxkrGmBHuSDh",
+    "field_name": "teachers",
+    "excerpt": "Kodo Sawaki"
+  },
+  {
     "id": "jagHhfp3sIVJsFBiWM2J1",
     "source_id": "src_sotozen_founders",
     "entity_type": "master",
