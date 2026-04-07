@@ -135,6 +135,7 @@ scripts/seed-images-targeted.ts # Targeted run (specific masters with overrides)
 - External sources and internal editorial overlays are kept separate
 - Images are sourced only from Wikipedia pageimages (editorially curated) and manually verified before inclusion
 - Ambiguous merges are flagged for review rather than auto-accepted
+- Public lineage graph invariant: `Shakyamuni Buddha` is the only allowed root. Any master not connected to that backbone stays off the graph until the upstream lineage is sourced.
 
 ## Contributing
 
