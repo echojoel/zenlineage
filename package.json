@@ -4,8 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "prebuild": "tsx scripts/seed-db.ts && tsx scripts/generate-static-data.ts && tsx scripts/generate-llms-full.ts",
-    "build": "next build",
+    "prebuild": "DATABASE_URL=file:zen.db tsx scripts/seed-db.ts && DATABASE_URL=file:zen.db tsx scripts/generate-static-data.ts && DATABASE_URL=file:zen.db tsx scripts/generate-llms-full.ts",
+    "build": "DATABASE_URL=file:zen.db next build",
     "start": "next start",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
