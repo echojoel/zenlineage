@@ -1,3 +1,6 @@
+import fs from "fs";
+import path from "path";
+
 export interface CitationPointer {
   entityType: string;
   entityId: string;
@@ -24,6 +27,14 @@ export interface PublishedImageAsset extends PublishableMediaAsset {
 function normalizeMediaUrl(value: string | null): string | null {
   const trimmed = value?.trim();
   return trimmed ? trimmed : null;
+}
+
+function resolveLocalStoragePath(storagePath: string | null): string | null {
+  const normalized = normalizeMediaUrl(storagePath);
+  if (!normalized) return null;
+
+  const publicPath = path.join(process.cwd(), "public", normalized.replace(/^\/+/, ""));
+  return fs.existsSync(publicPath) ? normalized : null;
 }
 
 export function buildCitationKeySet(rows: CitationPointer[]): Set<string> {
@@ -54,7 +65,14 @@ export function isPublishedTeaching(
 }
 
 export function resolveMediaAssetUrl(asset: PublishableMediaAsset): string | null {
-  return normalizeMediaUrl(asset.storagePath) ?? normalizeMediaUrl(asset.sourceUrl);
+  const localStoragePath = resolveLocalStoragePath(asset.storagePath);
+  if (localStoragePath) return localStoragePath;
+
+  if (normalizeMediaUrl(asset.storagePath)) {
+    return null;
+  }
+
+  return normalizeMediaUrl(asset.sourceUrl);
 }
 
 export function isPublishedImageAsset(
