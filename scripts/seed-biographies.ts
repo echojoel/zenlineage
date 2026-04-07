@@ -2812,6 +2812,7 @@ async function main(): Promise<void> {
   let seeded = 0;
   let skipped = 0;
   let citationCount = 0;
+  const skippedSlugs: string[] = [];
   const biographyIds = BIOGRAPHIES.map((bio) => `bio_${bio.slug}_en`);
 
   await deleteBiographyCitationsWithRetry(biographyIds);
@@ -2819,7 +2820,7 @@ async function main(): Promise<void> {
   for (const bio of BIOGRAPHIES) {
     const masterId = slugToId.get(bio.slug);
     if (!masterId) {
-      console.warn(`WARNING: slug "${bio.slug}" not found in canonical.json — skipping`);
+      skippedSlugs.push(bio.slug);
       skipped++;
       continue;
     }
@@ -2851,6 +2852,9 @@ async function main(): Promise<void> {
 
   console.log("\n=== Biography seeding complete ===");
   console.log(`Seeded: ${seeded}, Skipped (slug not found): ${skipped}`);
+  if (skippedSlugs.length > 0) {
+    console.log(`Skipped biography slugs: ${skippedSlugs.join(", ")}`);
+  }
   console.log(`Biography citations seeded: ${citationCount}`);
 }
 

@@ -717,7 +717,7 @@ export const TIMELINE_ERAS: TimelineEra[] = [
         precision: "exact",
         title: "Shunryu Suzuki and San Francisco Zen Center",
         description:
-          "Shunryu Suzuki arrived in San Francisco in 1959 to serve a Japanese-American congregation, but soon attracted American students drawn to his gentle, rigorous teaching. By 1962 the San Francisco Zen Center was established; in 1967 Tassajara became the first Zen monastery outside Asia. His Zen Mind, Beginner's Mind (1970) remains the most widely read introduction to Zen practice.",
+          "Shunryu Suzuki arrived in San Francisco in 1959 to serve a Japanese-American congregation, but soon attracted American students drawn to his gentle, rigorous teaching. By 1962 the San Francisco Zen Center had taken shape; in 1967 Tassajara became the first Soto Zen training monastery in the United States and, by SFZC's account, the first Zen monastery outside Asia. His Zen Mind, Beginner's Mind (1970) remains one of the most widely read introductions to Zen practice.",
         masters: [{ label: "Shunryu Suzuki", slug: "shunryu-suzuki" }],
         schools: [{ label: "Soto", slug: "soto" }],
         citations: [
@@ -731,7 +731,7 @@ export const TIMELINE_ERAS: TimelineEra[] = [
         precision: "exact",
         title: "Deshimaru Brings Zen to Europe",
         description:
-          "Taisen Deshimaru traveled from Japan to Paris in 1967, initially with nothing but a zafu and his teacher Kodo Sawaki's instructions. Over the next fifteen years he founded over a hundred dojos across Europe and established the Association Zen Internationale. His direct, uncompromising teaching style and emphasis on shikantaza created the largest Zen organization in Europe.",
+          "Taisen Deshimaru traveled from Japan to Paris in 1967, initially with little more than a zafu and his teacher Kodo Sawaki's instructions. Over the next fifteen years he helped establish a broad network of dojos across Europe and founded the Association Zen Internationale. His direct teaching style and emphasis on shikantaza made him one of the central figures in the spread of Soto Zen in Europe.",
         masters: [{ label: "Taisen Deshimaru", slug: "taisen-deshimaru" }],
         schools: [{ label: "Soto", slug: "soto" }],
         citations: [{ key: "de-coulon", pages: "pp. 45–180" }],

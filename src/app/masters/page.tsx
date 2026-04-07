@@ -1,7 +1,13 @@
-
 import type { Metadata } from "next";
 import { db } from "@/db";
-import { masters, masterNames, schoolNames, searchTokens, mediaAssets, citations } from "@/db/schema";
+import {
+  masters,
+  masterNames,
+  schoolNames,
+  searchTokens,
+  mediaAssets,
+  citations,
+} from "@/db/schema";
 import { eq, and, inArray } from "drizzle-orm";
 import MastersClient from "@/components/MastersClient";
 import Link from "next/link";
@@ -10,19 +16,19 @@ import type { MasterListItem } from "@/lib/master-list";
 export const metadata: Metadata = {
   title: "Masters",
   description:
-    "Browse 435+ Zen Buddhist masters chronologically — from the Indian patriarchs through Tang-dynasty Chan to modern teachers. Search by name, school, or era.",
+    "Browse Zen Buddhist masters chronologically — from the Indian patriarchs through Tang-dynasty Chan to modern teachers. Search by name, school, or era.",
   alternates: { canonical: "https://zenlineage.org/masters" },
   openGraph: {
     title: "Zen Buddhist Masters — Zen Lineage",
     description:
-      "Browse 435+ Zen Buddhist masters chronologically — from Bodhidharma to modern teachers.",
+      "Browse Zen Buddhist masters chronologically — from Bodhidharma to modern teachers.",
     url: "https://zenlineage.org/masters",
     type: "website",
   },
   twitter: {
     card: "summary",
     title: "Zen Buddhist Masters — Zen Lineage",
-    description: "Browse 435+ Zen Buddhist masters from 2,500 years of Chan/Zen history.",
+    description: "Browse Zen Buddhist masters from 2,500 years of Chan and Zen history.",
   },
 };
 
@@ -71,22 +77,32 @@ export default async function MastersPage() {
       id: mediaAssets.id,
     })
     .from(mediaAssets)
-    .where(and(eq(mediaAssets.entityType, "master"), inArray(mediaAssets.entityId, masterIds.length > 0 ? masterIds : ["__none__"])));
-
-  const citedImageIds = imageRows.length > 0
-    ? new Set(
-        (await db
-          .select({ entityId: citations.entityId })
-          .from(citations)
-          .where(
-            and(
-              eq(citations.entityType, "media_asset"),
-              inArray(citations.entityId, imageRows.map((r) => r.id))
-            )
-          )
-        ).map((r) => r.entityId)
+    .where(
+      and(
+        eq(mediaAssets.entityType, "master"),
+        inArray(mediaAssets.entityId, masterIds.length > 0 ? masterIds : ["__none__"])
       )
-    : new Set<string>();
+    );
+
+  const citedImageIds =
+    imageRows.length > 0
+      ? new Set(
+          (
+            await db
+              .select({ entityId: citations.entityId })
+              .from(citations)
+              .where(
+                and(
+                  eq(citations.entityType, "media_asset"),
+                  inArray(
+                    citations.entityId,
+                    imageRows.map((r) => r.id)
+                  )
+                )
+              )
+          ).map((r) => r.entityId)
+        )
+      : new Set<string>();
 
   const imageMap = new Map<string, string>();
   for (const row of imageRows) {
@@ -174,11 +190,15 @@ export default async function MastersPage() {
     <div style={{ background: "var(--paper)", minHeight: "100vh" }}>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd).replace(/</g, "\\u003c") }}
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(breadcrumbJsonLd).replace(/</g, "\\u003c"),
+        }}
       />
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListJsonLd).replace(/</g, "\\u003c") }}
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(itemListJsonLd).replace(/</g, "\\u003c"),
+        }}
       />
       <header className="page-header">
         <Link href="/" className="nav-link">

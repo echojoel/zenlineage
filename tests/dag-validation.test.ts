@@ -166,9 +166,9 @@ describe("DAG Validation", () => {
   });
 
   // -----------------------------------------------------------------------
-  // 4. Temporal violation (hard) — teacher born AFTER student, high conf
+  // 4. Temporal review warning — teacher younger than student
   // -----------------------------------------------------------------------
-  describe("temporal violation — hard error", () => {
+  describe("temporal review warning — teacher younger than student", () => {
     const edges: TransmissionEdge[] = [edge("e1", "T", "S")];
     const masters_: MasterDates[] = [
       master("T", {
@@ -186,17 +186,17 @@ describe("DAG Validation", () => {
       }),
     ];
 
-    it("should produce a temporal error", () => {
+    it("should produce a temporal issue", () => {
       const issues = checkTemporalConsistency(edges, masters_);
       expect(issues.length).toBeGreaterThanOrEqual(1);
       expect(issues[0]!.type).toBe("temporal");
     });
 
-    it("should be classified as an error (not warning) in validateDAG", () => {
+    it("should be classified as a warning in validateDAG", () => {
       const result = validateDAG(edges, masters_, ["T", "S"]);
-      expect(result.valid).toBe(false);
-      expect(result.errors.some((e) => e.type === "temporal")).toBe(true);
-      expect(result.warnings.filter((w) => w.type === "temporal")).toHaveLength(0);
+      expect(result.valid).toBe(true);
+      expect(result.errors.filter((e) => e.type === "temporal")).toHaveLength(0);
+      expect(result.warnings.some((w) => w.type === "temporal")).toBe(true);
     });
   });
 

@@ -1,4 +1,3 @@
-
 import type { Metadata } from "next";
 import { db } from "@/db";
 import { schools, schoolNames, masters, mediaAssets, citations } from "@/db/schema";
@@ -20,7 +19,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary",
     title: "Zen Buddhist Schools — Zen Lineage",
-    description: "Explore 23 Chan and Zen Buddhist school branches across 2,500 years of history.",
+    description: "Explore Chan and Zen Buddhist school branches across 2,500 years of history.",
   },
 };
 
@@ -69,7 +68,9 @@ export default async function SchoolsPage() {
             id: mediaAssets.id,
           })
           .from(mediaAssets)
-          .where(and(eq(mediaAssets.entityType, "school"), inArray(mediaAssets.entityId, schoolIds)))
+          .where(
+            and(eq(mediaAssets.entityType, "school"), inArray(mediaAssets.entityId, schoolIds))
+          )
       : [];
 
   const citedImageIds =
@@ -121,7 +122,8 @@ export default async function SchoolsPage() {
     "@context": "https://schema.org",
     "@type": "ItemList",
     name: "Chan and Zen Buddhist Schools",
-    description: "A complete index of Chan and Zen Buddhist school branches in the Zen Lineage encyclopedia.",
+    description:
+      "A complete index of Chan and Zen Buddhist school branches in the Zen Lineage encyclopedia.",
     numberOfItems: schoolList.length,
     itemListElement: schoolList.map((school, i) => ({
       "@type": "ListItem",
@@ -135,11 +137,15 @@ export default async function SchoolsPage() {
     <div style={{ background: "var(--paper)", minHeight: "100vh" }}>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd).replace(/</g, "\\u003c") }}
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(breadcrumbJsonLd).replace(/</g, "\\u003c"),
+        }}
       />
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListJsonLd).replace(/</g, "\\u003c") }}
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(itemListJsonLd).replace(/</g, "\\u003c"),
+        }}
       />
       <header className="page-header">
         <Link href="/" className="nav-link">
@@ -157,11 +163,7 @@ export default async function SchoolsPage() {
             <Link key={school.id} href={`/schools/${school.slug}`} className="school-card">
               {school.image && (
                 // eslint-disable-next-line @next/next/no-img-element
-                <img
-                  src={school.image}
-                  alt={school.name}
-                  className="school-card-image"
-                />
+                <img src={school.image} alt={school.name} className="school-card-image" />
               )}
               <div className="school-card-name">{school.name}</div>
               {school.tradition && <div className="school-card-tradition">{school.tradition}</div>}

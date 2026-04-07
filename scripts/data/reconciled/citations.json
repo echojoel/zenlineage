@@ -1128,12 +1128,12 @@
     "excerpt": "Tongan Guanzhi"
   },
   {
-    "id": "3rvV5oWpk9kyPgOn_zGQs",
+    "id": "jKNVWHByNKvGWbd1i-amQ",
     "source_id": "src_originals_curated",
     "entity_type": "master",
     "entity_id": "3A_xRCHtopdEAqNDz96Jv",
     "field_name": "teachers",
-    "excerpt": "Yunju Daoying"
+    "excerpt": "Tongan Daopi"
   },
   {
     "id": "Ww2MC48YjQTt9W2ST0zY_",
@@ -2552,6 +2552,38 @@
     "excerpt": "Soyen Shaku"
   },
   {
+    "id": "TNgpaAMp-qOjtrs9E7ypK",
+    "source_id": "src_hardcore_zen_nishijima_students",
+    "entity_type": "master",
+    "entity_id": "A5aLqEj4il8v0pNqUBHmZ",
+    "field_name": "dates",
+    "excerpt": "n.d."
+  },
+  {
+    "id": "tQDV7le1CCRuAQ6RrG_Mr",
+    "source_id": "src_hardcore_zen_nishijima_students",
+    "entity_type": "master",
+    "entity_id": "A5aLqEj4il8v0pNqUBHmZ",
+    "field_name": "name",
+    "excerpt": "Mike Chodo Cross"
+  },
+  {
+    "id": "YiL050WqaK4yb0dM279J7",
+    "source_id": "src_hardcore_zen_nishijima_students",
+    "entity_type": "master",
+    "entity_id": "A5aLqEj4il8v0pNqUBHmZ",
+    "field_name": "school",
+    "excerpt": "Soto"
+  },
+  {
+    "id": "UVD6fKl0-DyHeTV9fZCxD",
+    "source_id": "src_hardcore_zen_nishijima_students",
+    "entity_type": "master",
+    "entity_id": "A5aLqEj4il8v0pNqUBHmZ",
+    "field_name": "teachers",
+    "excerpt": "Gudo Wafu Nishijima"
+  },
+  {
     "id": "quSE0Qn4--3Xg6X9ZYWGL",
     "source_id": "src_sotozen_founders",
     "entity_type": "master",
@@ -2694,14 +2726,6 @@
     "entity_id": "aJhm8JOd_mYz8PykmCewJ",
     "field_name": "name",
     "excerpt": "Mahasattva Fu"
-  },
-  {
-    "id": "66DPdFnD9WMECUqPWeX52",
-    "source_id": "src_originals_curated",
-    "entity_type": "master",
-    "entity_id": "aJhm8JOd_mYz8PykmCewJ",
-    "field_name": "teachers",
-    "excerpt": "Dongshan Liangjie"
   },
   {
     "id": "atvOzR4jb4kd3Ryt7TaGn",
@@ -5592,6 +5616,38 @@
     "excerpt": "Mokushi Soen"
   },
   {
+    "id": "-CsnLBk3_eT7gqyBJC_Eh",
+    "source_id": "src_zen_deshimaru_history",
+    "entity_type": "master",
+    "entity_id": "gRxLrRlXmFidEMKEwCbSw",
+    "field_name": "dates",
+    "excerpt": "n.d."
+  },
+  {
+    "id": "9IKzhx_a3rLQrALH22qDL",
+    "source_id": "src_zen_deshimaru_history",
+    "entity_type": "master",
+    "entity_id": "gRxLrRlXmFidEMKEwCbSw",
+    "field_name": "name",
+    "excerpt": "Etienne Mokusho Zeisler"
+  },
+  {
+    "id": "a1VNfwW6ZB9QnMFSIqE1I",
+    "source_id": "src_zen_deshimaru_history",
+    "entity_type": "master",
+    "entity_id": "gRxLrRlXmFidEMKEwCbSw",
+    "field_name": "school",
+    "excerpt": "Soto"
+  },
+  {
+    "id": "FLwVMcp92S5N2j1sYKgiE",
+    "source_id": "src_zen_deshimaru_history",
+    "entity_type": "master",
+    "entity_id": "gRxLrRlXmFidEMKEwCbSw",
+    "field_name": "teachers",
+    "excerpt": "Taisen Deshimaru"
+  },
+  {
     "id": "BV51KWO2m611iY1GLvmGI",
     "source_id": "src_chan_ancestors_pdf",
     "entity_type": "master",
@@ -6480,12 +6536,12 @@
     "excerpt": "Dasui Fazhen"
   },
   {
-    "id": "xQggE8_yAW5w-EvJgOyoI",
+    "id": "EsWWvRPQal1vmtUx8XGWg",
     "source_id": "src_originals_curated",
     "entity_type": "master",
     "entity_id": "j-cIc9VMB17RIb8K_GRPi",
     "field_name": "teachers",
-    "excerpt": "Fenyang Shanzhao"
+    "excerpt": "Guishan Daan"
   },
   {
     "id": "0kNUxaqcGgFjcWdcTlgf8",
@@ -6688,12 +6744,12 @@
     "excerpt": "Mingan Rongxi"
   },
   {
-    "id": "Px2ZIQJ8r4BpmuqEeKnCu",
+    "id": "cWh0BR7BoDN9e9CYkWmPq",
     "source_id": "src_originals_curated",
     "entity_type": "master",
     "entity_id": "jSeppG7S9SGrEIWFq3DpX",
     "field_name": "teachers",
-    "excerpt": "Xuedou Chongxian"
+    "excerpt": "Xuan Huaichang"
   },
   {
     "id": "BDTcu0mvfSnDWpNiCcKtV",
@@ -7078,6 +7134,38 @@
     "entity_id": "Kkq_46-Hh94BLD8RXPqxR",
     "field_name": "teachers",
     "excerpt": "Xitang Zhizang"
+  },
+  {
+    "id": "GEdk19BBUiK45xjhI1BAI",
+    "source_id": "src_hardcore_zen_nishijima_students",
+    "entity_type": "master",
+    "entity_id": "KL36wkGII0wQV0C5iLi83",
+    "field_name": "dates",
+    "excerpt": "n.d."
+  },
+  {
+    "id": "BMrfCyxwOckkC1TPPF43U",
+    "source_id": "src_hardcore_zen_nishijima_students",
+    "entity_type": "master",
+    "entity_id": "KL36wkGII0wQV0C5iLi83",
+    "field_name": "name",
+    "excerpt": "Brad Warner"
+  },
+  {
+    "id": "HDJEk9WNJ3kD_MZXICAsV",
+    "source_id": "src_hardcore_zen_nishijima_students",
+    "entity_type": "master",
+    "entity_id": "KL36wkGII0wQV0C5iLi83",
+    "field_name": "school",
+    "excerpt": "Soto"
+  },
+  {
+    "id": "3SRWnyyXKChGyPEbW7z-k",
+    "source_id": "src_hardcore_zen_nishijima_students",
+    "entity_type": "master",
+    "entity_id": "KL36wkGII0wQV0C5iLi83",
+    "field_name": "teachers",
+    "excerpt": "Gudo Wafu Nishijima"
   },
   {
     "id": "-o7n9OHmoIs1I7i2-9ftP",
@@ -9520,12 +9608,12 @@
     "excerpt": "Sansheng Huiran"
   },
   {
-    "id": "eD-T4YGTY1JT1_ujM4yk-",
+    "id": "H4W2qwgK6ZXAmTxlvI462",
     "source_id": "src_originals_curated",
     "entity_type": "master",
     "entity_id": "Q7Gx9DnbP5KTZCxD8hFmu",
     "field_name": "teachers",
-    "excerpt": "Xinghua Cunjiang"
+    "excerpt": "Linji Yixuan"
   },
   {
     "id": "uIH34pf6u1ZXDIpZMWD9V",
@@ -10398,6 +10486,38 @@
     "entity_id": "soBxt-uezqo1vEUlIJ74M",
     "field_name": "teachers",
     "excerpt": "Dazu Huike"
+  },
+  {
+    "id": "b8LfgpupTFbcvY3WTsWyQ",
+    "source_id": "src_zen_deshimaru_history",
+    "entity_type": "master",
+    "entity_id": "sOpOQoTa6neVqPXdMRUF1",
+    "field_name": "dates",
+    "excerpt": "n.d."
+  },
+  {
+    "id": "hPA1Q1XRpQSKaHu4O7PZM",
+    "source_id": "src_zen_deshimaru_history",
+    "entity_type": "master",
+    "entity_id": "sOpOQoTa6neVqPXdMRUF1",
+    "field_name": "name",
+    "excerpt": "Stephane Kosen Thibaut"
+  },
+  {
+    "id": "MM9LPWfheWVm8HmvtCi6n",
+    "source_id": "src_zen_deshimaru_history",
+    "entity_type": "master",
+    "entity_id": "sOpOQoTa6neVqPXdMRUF1",
+    "field_name": "school",
+    "excerpt": "Soto"
+  },
+  {
+    "id": "PnvX2Hdzw6xEpJQ9gOI5F",
+    "source_id": "src_zen_deshimaru_history",
+    "entity_type": "master",
+    "entity_id": "sOpOQoTa6neVqPXdMRUF1",
+    "field_name": "teachers",
+    "excerpt": "Taisen Deshimaru"
   },
   {
     "id": "ZcLfM1rIRQ8TPpf7mO1T0",
@@ -11968,12 +12088,12 @@
     "excerpt": "Changshui Zixuan"
   },
   {
-    "id": "xex3VQyMLMkLR_wHmNQds",
+    "id": "ggb-IleI7XX6HQZasO9Xn",
     "source_id": "src_originals_curated",
     "entity_type": "master",
     "entity_id": "v6FVLPTyfT77cJEetS1I6",
     "field_name": "teachers",
-    "excerpt": "Fushan Fayuan"
+    "excerpt": "Langye Huijue"
   },
   {
     "id": "lGVeKPenkFXfWcVBhUep7",
@@ -12032,12 +12152,12 @@
     "excerpt": "Cizhou Faru"
   },
   {
-    "id": "R1Y30qKbxx2M5PCgcjPF0",
+    "id": "x-O2uLvK3tpg84JVkj6ae",
     "source_id": "src_originals_curated",
     "entity_type": "master",
     "entity_id": "v9Enx95HWL-dRCYWpf3vC",
     "field_name": "teachers",
-    "excerpt": "Heze Shenhui"
+    "excerpt": "Daman Hongren"
   },
   {
     "id": "N5OfHvYQLBPW8w5ICA5od",
@@ -13768,12 +13888,12 @@
     "excerpt": "Guishan Daan"
   },
   {
-    "id": "1H-IV_9iu57b-nEbcrxDM",
+    "id": "VG1prKrhuqLSQ_DDseVjx",
     "source_id": "src_originals_curated",
     "entity_type": "master",
     "entity_id": "zuqTzAdXzd8ExE41-U2ol",
     "field_name": "teachers",
-    "excerpt": "Baiyun Shouduan"
+    "excerpt": "Baizhang Huaihai"
   },
   {
     "id": "D9K9gBPtiZyRewVtxYEZh",

@@ -3,12 +3,12 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Lineage",
   description:
-    "Interactive visualization of Zen Buddhist lineage transmissions — explore how dharma was passed from teacher to student across 2,500 years of Chan/Zen history.",
+    "Interactive visualization of Zen Buddhist lineage transmissions — explore how dharma was passed from teacher to student across 2,500 years of Chan and Zen history.",
   alternates: { canonical: "https://zenlineage.org/lineage" },
   openGraph: {
     title: "Zen Lineage Graph — Zen Lineage",
     description:
-      "Interactive visualization of dharma transmission lineages across 435+ Zen Buddhist masters.",
+      "Interactive visualization of dharma transmission lineages across Zen Buddhist masters.",
     url: "https://zenlineage.org/lineage",
     type: "website",
   },

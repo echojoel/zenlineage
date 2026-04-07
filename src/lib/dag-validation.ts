@@ -150,11 +150,13 @@ export function detectSelfLoops(edges: TransmissionEdge[]): ValidationIssue[] {
  * Check temporal consistency of each transmission edge.
  *
  * Rules (only checked when both endpoints have dates with precision >= circa):
- *   (a) teacher.birthYear < student.birthYear
+ *   (a) teacher.birthYear < student.birthYear is preferred but not required;
+ *       if the teacher is younger than the student we emit a review warning
  *   (b) lifespans overlap by >= 10 years (teacher.deathYear - student.birthYear >= 10)
  *
- * A violation is an *error* when both relevant confidences are "high",
- * otherwise a *warning*.
+ * Birth-order anomalies are warnings only: older students can plausibly train
+ * under younger teachers. Insufficient overlap remains an *error* when the
+ * relevant dates are all high-confidence, otherwise a *warning*.
  */
 export function checkTemporalConsistency(
   edges: TransmissionEdge[],
@@ -185,17 +187,14 @@ export function checkTemporalConsistency(
       HIGH_CONFIDENCE.has(teacher.birthConfidence ?? "") &&
       HIGH_CONFIDENCE.has(student.birthConfidence ?? "");
 
-    // (a) Teacher born before student
+    // (a) Teacher younger than student is plausible, but worth review.
     if (teacher.birthYear! >= student.birthYear!) {
       issues.push({
         type: "temporal",
-        message: `Teacher (${edge.teacherId}, born ${teacher.birthYear}) born after or same year as student (${edge.studentId}, born ${student.birthYear})`,
+        message: `Teacher (${edge.teacherId}, born ${teacher.birthYear}) is younger than or the same age as student (${edge.studentId}, born ${student.birthYear}); review transmission chronology`,
         entityIds: [edge.id, edge.teacherId, edge.studentId],
+        _warning: true,
       });
-      // Mark as error only when high confidence
-      if (!bothBirthHighConf) {
-        issues[issues.length - 1]._warning = true;
-      }
     }
 
     // (b) Lifespan overlap check — requires teacher death year

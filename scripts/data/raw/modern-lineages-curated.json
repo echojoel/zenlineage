@@ -1,0 +1,77 @@
+[
+  {
+    "name": "Brad Warner",
+    "names_cjk": "",
+    "dates": "n.d.",
+    "teachers": [
+      {
+        "name": "Gudo Wafu Nishijima",
+        "edge_type": "primary",
+        "notes": "Brad Warner identifies Gudo Wafu Nishijima as his teacher and ordaining Zen teacher."
+      }
+    ],
+    "school": "Soto",
+    "source_id": "src_hardcore_zen_nishijima_students",
+    "ingestion_run_id": "run_modern_lineages_curated_20260407",
+    "names_alt": []
+  },
+  {
+    "name": "Mike Chodo Cross",
+    "names_cjk": "",
+    "dates": "n.d.",
+    "teachers": [
+      {
+        "name": "Gudo Wafu Nishijima",
+        "edge_type": "primary",
+        "notes": "Brad Warner describes Mike Cross as Nishijima's student and translation collaborator."
+      }
+    ],
+    "school": "Soto",
+    "source_id": "src_hardcore_zen_nishijima_students",
+    "ingestion_run_id": "run_modern_lineages_curated_20260407",
+    "names_alt": [
+      "Mike Cross",
+      "Chodo Cross"
+    ]
+  },
+  {
+    "name": "Stephane Kosen Thibaut",
+    "names_cjk": "",
+    "dates": "n.d.",
+    "teachers": [
+      {
+        "name": "Taisen Deshimaru",
+        "edge_type": "primary",
+        "notes": "Listed by the Zen Deshimaru Buddhist Association as one of Deshimaru's close disciples who later received transmission from Niwa Zenji."
+      }
+    ],
+    "school": "Soto",
+    "source_id": "src_zen_deshimaru_history",
+    "ingestion_run_id": "run_modern_lineages_curated_20260407",
+    "names_alt": [
+      "Stéphane Kosen Thibaut",
+      "Kosen Thibaut",
+      "Stephane Thibaut"
+    ]
+  },
+  {
+    "name": "Etienne Mokusho Zeisler",
+    "names_cjk": "",
+    "dates": "n.d.",
+    "teachers": [
+      {
+        "name": "Taisen Deshimaru",
+        "edge_type": "primary",
+        "notes": "Listed by the Zen Deshimaru Buddhist Association as one of Deshimaru's close disciples who later received transmission from Niwa Zenji."
+      }
+    ],
+    "school": "Soto",
+    "source_id": "src_zen_deshimaru_history",
+    "ingestion_run_id": "run_modern_lineages_curated_20260407",
+    "names_alt": [
+      "Étienne Mokusho Zeisler",
+      "Mokusho Zeisler",
+      "Etienne Zeisler"
+    ]
+  }
+]

@@ -1,23 +1,23 @@
-
 import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Zen Lineage",
   description:
-    "An interactive encyclopedia of Zen Buddhism — lineage explorer, masters, schools, and teachings across 2,500 years of Chan/Zen history.",
+    "An interactive encyclopedia of Zen Buddhism — lineage explorer, masters, schools, and teachings across 2,500 years of Chan and Zen history.",
   alternates: { canonical: "https://zenlineage.org" },
   openGraph: {
     title: "Zen Lineage",
     description:
-      "An interactive encyclopedia of Zen Buddhism — lineage explorer, masters, schools, and teachings across 2,500 years of Chan/Zen history.",
+      "An interactive encyclopedia of Zen Buddhism — lineage explorer, masters, schools, and teachings across 2,500 years of Chan and Zen history.",
     url: "https://zenlineage.org",
     type: "website",
   },
   twitter: {
     card: "summary",
     title: "Zen Lineage",
-    description: "An interactive encyclopedia of Zen Buddhism across 2,500 years of Chan/Zen history.",
+    description:
+      "An interactive encyclopedia of Zen Buddhism across 2,500 years of Chan and Zen history.",
   },
 };
 import { sql, eq, and } from "drizzle-orm";
@@ -32,10 +32,7 @@ import {
   teachingMasterRoles,
   citations,
 } from "@/db/schema";
-import {
-  buildCitationKeySet,
-  isPublishedTeaching,
-} from "@/lib/publishable-content";
+import { buildCitationKeySet, isPublishedTeaching } from "@/lib/publishable-content";
 
 export default async function Home() {
   // Counts
@@ -56,10 +53,7 @@ export default async function Home() {
     .from(teachings)
     .innerJoin(
       teachingContent,
-      and(
-        eq(teachingContent.teachingId, teachings.id),
-        eq(teachingContent.locale, "en")
-      )
+      and(eq(teachingContent.teachingId, teachings.id), eq(teachingContent.locale, "en"))
     )
     .where(eq(teachings.type, "proverb"));
 
@@ -78,7 +72,17 @@ export default async function Home() {
 
   const randomPick =
     publishedProverbs.length > 0
-      ? publishedProverbs[Math.floor(Math.random() * publishedProverbs.length)]
+      ? publishedProverbs[
+          Math.abs(
+            Math.floor(
+              Date.UTC(
+                new Date().getUTCFullYear(),
+                new Date().getUTCMonth(),
+                new Date().getUTCDate()
+              ) / 86_400_000
+            )
+          ) % publishedProverbs.length
+        ]
       : null;
 
   // Resolve author name for the random proverb
@@ -107,12 +111,25 @@ export default async function Home() {
         const nameRow = await db
           .select({ value: masterNames.value })
           .from(masterNames)
-          .where(and(eq(masterNames.masterId, masterId), eq(masterNames.locale, "en"), eq(masterNames.nameType, "dharma")))
+          .where(
+            and(
+              eq(masterNames.masterId, masterId),
+              eq(masterNames.locale, "en"),
+              eq(masterNames.nameType, "dharma")
+            )
+          )
           .limit(1);
 
-        authorName = nameRow.length > 0
-          ? nameRow[0].value
-          : (await db.select({ value: masterNames.value }).from(masterNames).where(and(eq(masterNames.masterId, masterId), eq(masterNames.locale, "en"))).limit(1))[0]?.value ?? null;
+        authorName =
+          nameRow.length > 0
+            ? nameRow[0].value
+            : ((
+                await db
+                  .select({ value: masterNames.value })
+                  .from(masterNames)
+                  .where(and(eq(masterNames.masterId, masterId), eq(masterNames.locale, "en")))
+                  .limit(1)
+              )[0]?.value ?? null);
       }
     }
 
@@ -130,8 +147,7 @@ export default async function Home() {
     "@type": "WebSite",
     name: "Zen Lineage",
     url: "https://zenlineage.org",
-    description:
-      "An interactive encyclopedia of Zen Buddhism covering 435+ masters, 23 schools, and 436 lineage transmissions across 2,500 years of Chan/Zen history.",
+    description: `An interactive encyclopedia of Zen Buddhism covering ${masterRow[0]?.count ?? 0} masters, ${schoolRow[0]?.count ?? 0} schools, and ${transmissionRow[0]?.count ?? 0} lineage transmissions across 2,500 years of Chan and Zen history.`,
     potentialAction: {
       "@type": "SearchAction",
       target: "https://zenlineage.org/masters?q={search_term_string}",

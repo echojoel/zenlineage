@@ -1,4 +1,3 @@
-
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
@@ -52,8 +51,7 @@ export async function generateMetadata({
     .from(masterNames)
     .where(and(eq(masterNames.masterId, master.id), eq(masterNames.locale, "en")));
 
-  const primaryName =
-    names.find((n) => n.nameType === "dharma")?.value ?? slug;
+  const primaryName = names.find((n) => n.nameType === "dharma")?.value ?? slug;
 
   const allNames = names.map((n) => n.value);
 
@@ -83,9 +81,7 @@ export async function generateMetadata({
     const bioCites = await db
       .select({ entityId: citations.entityId })
       .from(citations)
-      .where(
-        and(eq(citations.entityType, "master_biography"), eq(citations.entityId, bioRow.id))
-      )
+      .where(and(eq(citations.entityType, "master_biography"), eq(citations.entityId, bioRow.id)))
       .limit(1);
     bioPublished = bioCites.length > 0;
   }
@@ -137,9 +133,8 @@ export async function generateMetadata({
   let description = defaultDesc;
   if (bioPublished && bioRow?.content) {
     const firstParagraph = bioRow.content.split("\n\n")[0] ?? bioRow.content;
-    description = firstParagraph.length > 160
-      ? firstParagraph.slice(0, 157) + "..."
-      : firstParagraph;
+    description =
+      firstParagraph.length > 160 ? firstParagraph.slice(0, 157) + "..." : firstParagraph;
   }
 
   const canonicalUrl = `https://zenlineage.org/masters/${slug}`;
@@ -470,9 +465,7 @@ export default async function MasterDetailPage({ params }: { params: Promise<{ s
     "@context": "https://schema.org",
     "@type": "Person",
     name: primaryName,
-    alternateName: orderedNames
-      .filter((n) => n.value !== primaryName)
-      .map((n) => n.value),
+    alternateName: orderedNames.filter((n) => n.value !== primaryName).map((n) => n.value),
     url: canonicalUrl,
     ...(publishedImage
       ? {
@@ -483,10 +476,9 @@ export default async function MasterDetailPage({ params }: { params: Promise<{ s
       : {}),
     ...(master.birthYear ? { birthDate: String(master.birthYear) } : {}),
     ...(master.deathYear ? { deathDate: String(master.deathYear) } : {}),
-    description:
-      publishedBiography
-        ? (publishedBiography.split("\n\n")[0] ?? publishedBiography).slice(0, 200)
-        : `${primaryName}, a Zen Buddhist master.`,
+    description: publishedBiography
+      ? (publishedBiography.split("\n\n")[0] ?? publishedBiography).slice(0, 200)
+      : `${primaryName}, a Zen Buddhist master.`,
     ...(schoolRow
       ? {
           memberOf: {
@@ -528,7 +520,9 @@ export default async function MasterDetailPage({ params }: { params: Promise<{ s
       />
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd).replace(/</g, "\\u003c") }}
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(breadcrumbJsonLd).replace(/</g, "\\u003c"),
+        }}
       />
       <header className="page-header">
         <Link href="/" className="nav-link">
@@ -646,69 +640,70 @@ export default async function MasterDetailPage({ params }: { params: Promise<{ s
         </section>
 
         {(publishedTeachings.length > 0 || withheldTeachingCount > 0) && (
-        <section className="detail-card">
-          <h3 className="detail-section-title">Teachings</h3>
-          {publishedTeachings.length === 0 ? (
-            <p className="detail-muted">
-              Teaching records exist for this master, but they are withheld until item-level citations are attached.
-            </p>
-          ) : (
-            <ul className="detail-source-list">
-              {publishedTeachings.map((teaching) => {
-                const roles = rolesByTeachingId.get(teaching.id) ?? [];
-                const collectionBadge =
-                  teaching.type === "koan" && teaching.collection && teaching.caseNumber
-                    ? `${teaching.collection} Case ${teaching.caseNumber}`
-                    : null;
-                const translatorLine =
-                  teaching.translator
+          <section className="detail-card">
+            <h3 className="detail-section-title">Teachings</h3>
+            {publishedTeachings.length === 0 ? (
+              <p className="detail-muted">
+                Teaching records exist for this master, but they are withheld until item-level
+                citations are attached.
+              </p>
+            ) : (
+              <ul className="detail-source-list">
+                {publishedTeachings.map((teaching) => {
+                  const roles = rolesByTeachingId.get(teaching.id) ?? [];
+                  const collectionBadge =
+                    teaching.type === "koan" && teaching.collection && teaching.caseNumber
+                      ? `${teaching.collection} Case ${teaching.caseNumber}`
+                      : null;
+                  const translatorLine = teaching.translator
                     ? `tr. ${teaching.translator}${teaching.edition ? `, ${teaching.edition}` : ""}`
                     : null;
-                const attributionTag =
-                  teaching.attributionStatus === "traditional"
-                    ? "(traditional attribution)"
-                    : teaching.attributionStatus === "unresolved"
-                      ? "(unresolved attribution)"
-                      : null;
+                  const attributionTag =
+                    teaching.attributionStatus === "traditional"
+                      ? "(traditional attribution)"
+                      : teaching.attributionStatus === "unresolved"
+                        ? "(unresolved attribution)"
+                        : null;
 
-                return (
-                  <li key={teaching.id}>
-                    <div className="detail-source-heading">
-                      <span>{teaching.type ?? "teaching"}</span>
-                      <span>{teaching.title ?? "Untitled teaching"}</span>
-                    </div>
-                    {collectionBadge && (
-                      <p className="detail-list-meta">{collectionBadge}</p>
-                    )}
-                    {attributionTag && (
-                      <p className="detail-list-meta">{attributionTag}</p>
-                    )}
-                    {teaching.content ? (
-                      <p className="detail-source-excerpt">{teaching.content}</p>
-                    ) : (
-                      <p className="detail-muted">
-                        Teaching metadata exists, but no English text has been imported yet.
-                      </p>
-                    )}
-                    {translatorLine && (
-                      <p className="detail-list-meta">{translatorLine}</p>
-                    )}
-                    {roles.length > 0 && (
-                      <p className="detail-list-meta">
-                        {roles
-                          .map(
-                            (r) =>
-                              `${r.role.charAt(0).toUpperCase()}${r.role.slice(1)}: ${roleNameMap.get(r.masterId) ?? r.masterId}`
-                          )
-                          .join(", ")}
-                      </p>
-                    )}
-                  </li>
-                );
-              })}
-            </ul>
-          )}
-        </section>
+                  return (
+                    <li key={teaching.id}>
+                      <div className="detail-source-heading">
+                        <span>{teaching.type ?? "teaching"}</span>
+                        <span>{teaching.title ?? "Untitled teaching"}</span>
+                      </div>
+                      {collectionBadge && <p className="detail-list-meta">{collectionBadge}</p>}
+                      {attributionTag && <p className="detail-list-meta">{attributionTag}</p>}
+                      {teaching.content ? (
+                        <p className="detail-source-excerpt">{teaching.content}</p>
+                      ) : (
+                        <p className="detail-muted">
+                          Teaching metadata exists, but no English text has been imported yet.
+                        </p>
+                      )}
+                      {translatorLine && <p className="detail-list-meta">{translatorLine}</p>}
+                      {roles.length > 0 && (
+                        <p className="detail-list-meta">
+                          {roles
+                            .map((r) => {
+                              const name = roleNameMap.get(r.masterId) ?? r.masterId;
+                              if (r.role === "attributed_to" || r.role === "speaker") {
+                                return name;
+                              }
+                              const label = r.role
+                                .split("_")
+                                .map((part) => part.charAt(0).toUpperCase() + part.slice(1))
+                                .join(" ");
+                              return `${label}: ${name}`;
+                            })
+                            .join(", ")}
+                        </p>
+                      )}
+                    </li>
+                  );
+                })}
+              </ul>
+            )}
+          </section>
         )}
 
         <section className="detail-card">

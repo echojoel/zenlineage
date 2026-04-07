@@ -15,11 +15,7 @@ import {
 import { eq, and } from "drizzle-orm";
 import Link from "next/link";
 import ProverbsClient from "@/components/ProverbsClient";
-import {
-  buildCitationKeySet,
-  isPublishedTeaching,
-} from "@/lib/publishable-content";
-
+import { buildCitationKeySet, isPublishedTeaching } from "@/lib/publishable-content";
 
 export interface ProverbListItem {
   id: string;
@@ -45,19 +41,19 @@ function shuffle<T>(array: T[]): T[] {
 export const metadata: Metadata = {
   title: "Proverbs",
   description:
-    "Zen proverbs, koans, and sayings from 363 teachings with attribution — from Bodhidharma and Huineng to Dōgen, Hakuin, and modern teachers.",
+    "Zen proverbs, koans, and sayings with attribution — from Bodhidharma and Huineng to Dōgen, Hakuin, and modern teachers.",
   alternates: { canonical: "https://zenlineage.org/proverbs" },
   openGraph: {
     title: "Zen Proverbs & Teachings — Zen Lineage",
     description:
-      "Zen proverbs, koans, and sayings with attribution from 363 teachings across the Chan/Zen tradition.",
+      "Zen proverbs, koans, and sayings with attribution across the Chan and Zen tradition.",
     url: "https://zenlineage.org/proverbs",
     type: "website",
   },
   twitter: {
     card: "summary",
     title: "Zen Proverbs & Teachings — Zen Lineage",
-    description: "363 Zen proverbs, koans, and sayings with attribution.",
+    description: "Zen proverbs, koans, and sayings with attribution.",
   },
 };
 
@@ -76,10 +72,7 @@ export default async function ProverbsPage() {
     .from(teachings)
     .innerJoin(
       teachingContent,
-      and(
-        eq(teachingContent.teachingId, teachings.id),
-        eq(teachingContent.locale, "en")
-      )
+      and(eq(teachingContent.teachingId, teachings.id), eq(teachingContent.locale, "en"))
     )
     .where(eq(teachings.type, "proverb"));
 
@@ -163,10 +156,7 @@ export default async function ProverbsPage() {
     })
     .from(teachingThemes)
     .innerJoin(themes, eq(themes.id, teachingThemes.themeId))
-    .innerJoin(
-      themeNames,
-      and(eq(themeNames.themeId, themes.id), eq(themeNames.locale, "en"))
-    );
+    .innerJoin(themeNames, and(eq(themeNames.themeId, themes.id), eq(themeNames.locale, "en")));
 
   const themeMap = new Map<string, { slug: string; name: string }[]>();
   for (const row of themeJoinRows) {
@@ -183,10 +173,7 @@ export default async function ProverbsPage() {
       sortOrder: themes.sortOrder,
     })
     .from(themes)
-    .innerJoin(
-      themeNames,
-      and(eq(themeNames.themeId, themes.id), eq(themeNames.locale, "en"))
-    )
+    .innerJoin(themeNames, and(eq(themeNames.themeId, themes.id), eq(themeNames.locale, "en")))
     .orderBy(themes.sortOrder);
 
   // 8. Fetch school names for filter UI
@@ -252,7 +239,12 @@ export default async function ProverbsPage() {
     "@type": "BreadcrumbList",
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "Home", item: "https://zenlineage.org" },
-      { "@type": "ListItem", position: 2, name: "Proverbs", item: "https://zenlineage.org/proverbs" },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: "Proverbs",
+        item: "https://zenlineage.org/proverbs",
+      },
     ],
   };
 
@@ -260,7 +252,9 @@ export default async function ProverbsPage() {
     <div style={{ background: "var(--paper)", minHeight: "100vh" }}>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd).replace(/</g, "\\u003c") }}
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(breadcrumbJsonLd).replace(/</g, "\\u003c"),
+        }}
       />
       <header className="page-header">
         <Link href="/" className="nav-link">
@@ -268,11 +262,7 @@ export default async function ProverbsPage() {
         </Link>
         <h1 className="page-title">Proverbs</h1>
       </header>
-      <ProverbsClient
-        proverbs={shuffled}
-        allThemes={allThemes}
-        schoolNames={schoolNameRecord}
-      />
+      <ProverbsClient proverbs={shuffled} allThemes={allThemes} schoolNames={schoolNameRecord} />
     </div>
   );
 }

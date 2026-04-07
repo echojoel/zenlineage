@@ -2,7 +2,7 @@
 
 **[zenlineage.org](https://zenlineage.org)** — An open, interactive encyclopedia of Zen Buddhist masters, schools, and dharma transmission lineages.
 
-This project aims to make Zen's rich history accessible and explorable. Browse 435 masters across 23 schools, trace teacher-student lineages through an interactive graph, and read sourced biographies, teachings, and koans spanning 2,500 years from Shakyamuni Buddha to living teachers.
+This project aims to make Zen's rich history accessible and explorable. Browse 381 masters across 15 schools, trace teacher-student lineages through an interactive graph, and read sourced biographies, teachings, and koans spanning 2,500 years from Shakyamuni Buddha to modern teachers.
 
 ---
 
@@ -20,28 +20,28 @@ We will promptly honor any removal or correction request. We sincerely apologize
 
 ## What's here
 
-| | |
-|---|---|
-| **Masters** | 435 across Chan, Zen, Seon, and Thien traditions |
-| **Schools** | 23 — Linji, Caodong, Rinzai, Soto, Jogye, Truc Lam, and more |
-| **Lineage edges** | 436 teacher-student transmission records |
-| **Teachings** | 363 — koans, verses, dialogues, and proverbs |
-| **Images** | 199 verified master portraits |
-| **Biographies** | Sourced narratives for all 435 masters |
-| **Citations** | 1,700+ source attributions |
+|                   |                                                     |
+| ----------------- | --------------------------------------------------- |
+| **Masters**       | 381 across Chan, Zen, Seon, and Thiền traditions    |
+| **Schools**       | 15 — Linji, Caodong, Rinzai, Soto, Jogye, and more  |
+| **Lineage edges** | 375 teacher-student transmission records            |
+| **Teachings**     | 363 — koans, verses, dialogues, and proverbs        |
+| **Images**        | 199 verified master portraits                       |
+| **Biographies**   | Sourced narratives for the current canonical corpus |
+| **Citations**     | 1,700+ source attributions                          |
 
 ## Pages
 
-| Route | Description |
-|---|---|
-| `/` | Home |
-| `/lineage` | Interactive lineage graph — pan, zoom, filter by school, time scrubber, fuzzy search |
-| `/masters` | Searchable grid of all masters with school and era filters |
+| Route             | Description                                                                            |
+| ----------------- | -------------------------------------------------------------------------------------- |
+| `/`               | Home                                                                                   |
+| `/lineage`        | Interactive lineage graph — pan, zoom, filter by school, time scrubber, fuzzy search   |
+| `/masters`        | Searchable grid of all masters with school and era filters                             |
 | `/masters/[slug]` | Master detail — names, dates, school, lineage, biography, teachings, portrait, sources |
-| `/schools` | All schools with descriptions and master counts |
-| `/schools/[slug]` | School detail — tradition, history, notable members |
-| `/proverbs` | Browsable collection of Zen proverbs with theme and school filters |
-| `/timeline` | Chronological timeline of masters |
+| `/schools`        | All schools with descriptions and master counts                                        |
+| `/schools/[slug]` | School detail — tradition, history, notable members                                    |
+| `/proverbs`       | Browsable collection of Zen proverbs with theme and school filters                     |
+| `/timeline`       | Chronological timeline of masters                                                      |
 
 ## Stack
 
@@ -110,21 +110,23 @@ scripts/seed-images-targeted.ts # Targeted run (specific masters with overrides)
 
 ## Sources
 
-| ID | What |
-|---|---|
-| `src_chan_ancestors_pdf` | Andy Ferguson's lineage chart (Wisdom Experience) |
-| `src_tibetan_encyclopedia` | Tibetan Buddhist Encyclopedia |
-| `src_terebess` | Terebess Asia Online |
-| `src_cosmos_chan` | Cosmos Chan lineage charts |
-| `src_mountain_moon` | Mountain Moon Sanbo-Zen chart |
-| `src_wikipedia` | Wikipedia Zen lineage charts and images |
-| `src_sotozen_founders` | Soto Zen official founders page |
-| `src_wikisource` | Wikisource free library |
-| `src_mumonkan_senzaki_1934` | Mumonkan — Senzaki/Reps 1934 translation |
-| `src_blue_cliff_record_shaw_1961` | Blue Cliff Record — R.D.M. Shaw 1961 translation |
-| `src_platform_sutra_yampolsky_1967` | Platform Sutra — Yampolsky 1967 translation |
-| `src_editorial_biographies` | Editorial biographies (internal) |
-| `src_editorial_teachings` | Editorial teachings (internal) |
+| ID                                    | What                                              |
+| ------------------------------------- | ------------------------------------------------- |
+| `src_chan_ancestors_pdf`              | Andy Ferguson's lineage chart (Wisdom Experience) |
+| `src_tibetan_encyclopedia`            | Tibetan Buddhist Encyclopedia                     |
+| `src_terebess`                        | Terebess Asia Online                              |
+| `src_cosmos_chan`                     | Cosmos Chan lineage charts                        |
+| `src_mountain_moon`                   | Mountain Moon Sanbo-Zen chart                     |
+| `src_wikipedia`                       | Wikipedia Zen lineage charts and images           |
+| `src_sotozen_founders`                | Soto Zen official founders page                   |
+| `src_hardcore_zen_nishijima_students` | Brad Warner on Gudo Nishijima and fellow students |
+| `src_zen_deshimaru_history`           | Zen Deshimaru lineage history                     |
+| `src_wikisource`                      | Wikisource free library                           |
+| `src_mumonkan_senzaki_1934`           | Mumonkan — Senzaki/Reps 1934 translation          |
+| `src_blue_cliff_record_shaw_1961`     | Blue Cliff Record — R.D.M. Shaw 1961 translation  |
+| `src_platform_sutra_yampolsky_1967`   | Platform Sutra — Yampolsky 1967 translation       |
+| `src_editorial_biographies`           | Editorial biographies (internal)                  |
+| `src_editorial_teachings`             | Editorial teachings (internal)                    |
 
 ## Quality rules
 
