@@ -12,9 +12,13 @@ import {
   schoolNames,
   schools,
   sources,
+  teachings,
+  teachingContent,
+  teachingMasterRoles,
 } from "@/db/schema";
 import { formatDateWithPrecision } from "@/lib/date-format";
 import { getSchoolDefinition } from "@/lib/school-taxonomy";
+import { isTier1Master } from "@/lib/editorial-tiers";
 
 export async function generateMetadata({
   params,
@@ -104,6 +108,12 @@ export default async function SchoolDetailPage({ params }: { params: Promise<{ s
   const primaryName =
     names.find((name) => name.locale === "en")?.value ?? names[0]?.value ?? school.slug;
 
+  // Native-script names (non-English) surfaced under the title so readers see
+  // the school in the orthography it was written in historically.
+  const nativeScriptNames = names
+    .filter((name) => name.locale !== "en")
+    .sort((a, b) => a.locale.localeCompare(b.locale));
+
   const parentRow = school.parentId
     ? (
         await db
@@ -188,6 +198,66 @@ export default async function SchoolDetailPage({ params }: { params: Promise<{ s
     schoolMasters[0] ??
     null;
 
+  // Tier-1 masters of this school — highlighted above the full roster so the
+  // school's most historically central voices are surfaced immediately.
+  const tier1Masters = schoolMasters
+    .filter((m) => isTier1Master(m.slug))
+    .sort((a, b) => (a.birthYear ?? 9999) - (b.birthYear ?? 9999));
+
+  // Proverbs / short sayings attributed to any master of this school, filtered
+  // by the same citation publish gate used elsewhere on the site. Cap at 6 so
+  // the school page stays contemplative rather than exhaustive.
+  const proverbRows =
+    masterIds.length > 0
+      ? await db
+          .select({
+            teachingId: teachings.id,
+            slug: teachings.slug,
+            collection: teachings.collection,
+            title: teachingContent.title,
+            content: teachingContent.content,
+            attributedMasterId: teachingMasterRoles.masterId,
+          })
+          .from(teachings)
+          .innerJoin(
+            teachingMasterRoles,
+            and(
+              eq(teachingMasterRoles.teachingId, teachings.id),
+              eq(teachingMasterRoles.role, "attributed_to"),
+              inArray(teachingMasterRoles.masterId, masterIds)
+            )
+          )
+          .innerJoin(
+            teachingContent,
+            and(eq(teachingContent.teachingId, teachings.id), eq(teachingContent.locale, "en"))
+          )
+          .where(eq(teachings.type, "proverb"))
+      : [];
+
+  const proverbTeachingIds = proverbRows.map((r) => r.teachingId);
+  const citedProverbIds =
+    proverbTeachingIds.length > 0
+      ? new Set(
+          (
+            await db
+              .select({ entityId: citations.entityId })
+              .from(citations)
+              .where(
+                and(
+                  eq(citations.entityType, "teaching"),
+                  inArray(citations.entityId, proverbTeachingIds)
+                )
+              )
+          ).map((r) => r.entityId)
+        )
+      : new Set<string>();
+
+  const publishedProverbs = proverbRows
+    .filter((p) => citedProverbIds.has(p.teachingId))
+    // Dedupe by slug (multiple master_roles rows for the same teaching)
+    .filter((p, i, arr) => arr.findIndex((q) => q.slug === p.slug) === i)
+    .slice(0, 6);
+
   const definition = getSchoolDefinition(slug);
 
   // School image
@@ -256,6 +326,16 @@ export default async function SchoolDetailPage({ params }: { params: Promise<{ s
           )}
           <p className="detail-eyebrow">{school.tradition ?? "Zen tradition"}</p>
           <h2 className="detail-title">{primaryName}</h2>
+          {nativeScriptNames.length > 0 && (
+            <p className="detail-native-names" aria-label="Names in native scripts">
+              {nativeScriptNames.map((name, i) => (
+                <span key={`${name.locale}-${i}`} lang={name.locale}>
+                  {i > 0 ? " · " : ""}
+                  {name.value}
+                </span>
+              ))}
+            </p>
+          )}
           <p className="detail-subtitle">
             {parentRow ? (
               <>
@@ -294,6 +374,135 @@ export default async function SchoolDetailPage({ params }: { params: Promise<{ s
           <section className="detail-card">
             <h3 className="detail-section-title">Meditation practice</h3>
             <p className="detail-summary">{definition.practice}</p>
+            {tier1Masters.length > 0 && (
+              <>
+                <h4 className="detail-subsection-title" style={{ marginTop: "1.25rem" }}>
+                  Prominent masters
+                </h4>
+                <ul className="detail-link-list">
+                  {tier1Masters.map((m) => (
+                    <li key={m.id}>
+                      <Link href={`/masters/${m.slug}`}>
+                        {masterNameMap.get(m.id) ?? m.slug}
+                      </Link>
+                      {(m.birthYear || m.deathYear) && (
+                        <span className="detail-list-meta">
+                          {m.birthYear ?? "?"} – {m.deathYear ?? "?"}
+                        </span>
+                      )}
+                    </li>
+                  ))}
+                </ul>
+              </>
+            )}
+          </section>
+        )}
+
+        {definition?.keyTexts && definition.keyTexts.length > 0 && (
+          <section className="detail-card">
+            <h3 className="detail-section-title">Key texts</h3>
+            <ul className="detail-link-list">
+              {definition.keyTexts.map((text) => {
+                const heading = (
+                  <>
+                    {text.title}
+                    {text.nativeTitle && (
+                      <span className="detail-list-meta" lang="ja zh ko vi">
+                        {" "}
+                        {text.nativeTitle}
+                      </span>
+                    )}
+                  </>
+                );
+                return (
+                  <li key={`${text.title}-${text.nativeTitle ?? ""}`}>
+                    {text.url ? (
+                      <a
+                        href={text.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="detail-inline-link"
+                      >
+                        {heading}
+                      </a>
+                    ) : (
+                      <span>{heading}</span>
+                    )}
+                    <span className="detail-list-meta">
+                      {[text.attributedTo, text.period].filter(Boolean).join(" · ")}
+                    </span>
+                    <p className="detail-source-excerpt" style={{ marginTop: "0.4rem" }}>
+                      {text.description}
+                    </p>
+                  </li>
+                );
+              })}
+            </ul>
+          </section>
+        )}
+
+        {definition?.keyConcepts && definition.keyConcepts.length > 0 && (
+          <section className="detail-card">
+            <h3 className="detail-section-title">Key concepts</h3>
+            <ul className="detail-link-list">
+              {definition.keyConcepts.map((concept) => {
+                const heading = (
+                  <>
+                    {concept.term}
+                    {concept.nativeTerm && (
+                      <span className="detail-list-meta" lang="ja zh ko vi">
+                        {" "}
+                        {concept.nativeTerm}
+                      </span>
+                    )}
+                  </>
+                );
+                return (
+                  <li key={`${concept.term}-${concept.nativeTerm ?? ""}`}>
+                    {concept.url ? (
+                      <a
+                        href={concept.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="detail-inline-link"
+                      >
+                        {heading}
+                      </a>
+                    ) : (
+                      <span>{heading}</span>
+                    )}
+                    <p className="detail-source-excerpt" style={{ marginTop: "0.4rem" }}>
+                      {concept.description}
+                    </p>
+                  </li>
+                );
+              })}
+            </ul>
+          </section>
+        )}
+
+        {publishedProverbs.length > 0 && (
+          <section className="detail-card">
+            <h3 className="detail-section-title">In the words of the masters</h3>
+            <ul className="detail-link-list">
+              {publishedProverbs.map((p) => (
+                <li key={p.slug}>
+                  <Link href={`/teachings/${p.slug}`}>{p.title ?? p.slug}</Link>
+                  <span className="detail-list-meta">
+                    {masterNameMap.get(p.attributedMasterId) ?? "attributed"}
+                    {p.collection ? ` · ${p.collection}` : ""}
+                  </span>
+                  {p.content && (
+                    <p
+                      className="detail-source-excerpt"
+                      style={{ marginTop: "0.4rem", fontStyle: "italic" }}
+                    >
+                      {p.content.length > 280 ? p.content.slice(0, 280) + "…" : p.content}
+                    </p>
+                  )}
+                </li>
+              ))}
+            </ul>
           </section>
         )}
 

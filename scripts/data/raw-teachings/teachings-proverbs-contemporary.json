@@ -1,5 +1,24 @@
 [
   {
+    "slug": "proverb-triet-patriarchs-mirror",
+    "type": "proverb",
+    "author_slug": "raphael-doko-triet",
+    "collection": "Centre Zen de Lisboa",
+    "era": "Contemporary",
+    "attribution_status": "verified",
+    "themes": ["patriarchs", "lineage", "study", "practice"],
+    "locale": "en",
+    "title": "An Old Mirror",
+    "content": "Study the lives of the patriarchs, as if peering into an old mirror.",
+    "source_id": "src_agent_review",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Centre Zen de Lisboa — Raphael Dōkō Triet teachings",
+    "license_status": "fair_use",
+    "master_roles": [
+      { "slug": "raphael-doko-triet", "role": "attributed_to" }
+    ]
+  },
+  {
     "slug": "proverb-suzuki-no-gaining",
     "type": "proverb",
     "author_slug": "shunryu-suzuki",

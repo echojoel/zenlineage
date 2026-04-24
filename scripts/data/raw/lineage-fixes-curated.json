@@ -26,8 +26,8 @@
     "teachers": [
       {
         "name": "Yasutani Hakuun",
-        "edge_type": "secondary",
-        "notes": "ZCLA's founder history notes that Maezumi had begun koan practice with Yasutani Roshi; this secondary edge keeps the public graph connected without overriding his family Soto roots."
+        "edge_type": "primary",
+        "notes": "Wikipedia (citing the White Plum Asanga founder page) records that Maezumi completed kōan study under Yasutani and received his inka (dharma transmission) in 1970. Marked primary so the Sōtō-filtered /lineage view surfaces the Sanbō-Zen branch that actually transmits into Maezumi; his Sōtō shiho from Baian Hakujun Kuroda remains the family lineage."
       }
     ],
     "school": "Soto",

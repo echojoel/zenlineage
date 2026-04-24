@@ -1957,8 +1957,8 @@
     "id": "gSkWAW4fU5RMIoNkZ0HDk",
     "student_id": "5jVaikrFuGWfTBTVeEq5d",
     "teacher_id": "8djkv2Pw0FvL6oYEzem_q",
-    "type": "secondary",
-    "is_primary": false,
+    "type": "primary",
+    "is_primary": true,
     "source_ids": [
       "src_zcla_maezumi_founders"
     ]
@@ -3816,8 +3816,8 @@
     ]
   },
   {
-    "id": "NQO5giNxsg3w38ORWzLU2",
-    "student_id": "ehRBAakSqW4gBVAGPJrYr",
+    "id": "_cWWYlaydIZ6eARWA4RvE",
+    "student_id": "J8Ej-alBWcTa9C9QhlJc0",
     "teacher_id": "JUlWiDloLgDq82bu8kx_G",
     "type": "primary",
     "is_primary": true,
@@ -3826,9 +3826,9 @@
     ]
   },
   {
-    "id": "doG_AU7WQ8m_mYu9wJbai",
+    "id": "5zxCr2AqYURLattEvqcZV",
     "student_id": "9jNP2fUH7zmQTozB_DnAO",
-    "teacher_id": "ehRBAakSqW4gBVAGPJrYr",
+    "teacher_id": "J8Ej-alBWcTa9C9QhlJc0",
     "type": "primary",
     "is_primary": true,
     "source_ids": [

@@ -62,3 +62,7 @@ scripts/data/i18n/
 scripts/data/review-queue.json
 .worktrees
 d1-export*.sql
+
+# Agent / Claude Code local artefacts
+/.claude/
+/reports/

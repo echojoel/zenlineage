@@ -310,130 +310,24 @@ export default function AboutPage() {
           <h3 className="detail-section-title">Historical Development</h3>
           <div className="detail-summary">
             <p>
-              <strong>Indian roots (c. 5th century CE)</strong> &mdash;
-              <Link className="detail-inline-link" href="/masters/puti-damo">
-                Bodhidharma
-              </Link>
-              , a semi-legendary figure traditionally said to have arrived in China around 520 CE,
-              is regarded as the First Patriarch of Chan. The earliest reliable reference to him
-              appears in Yángxuǎnzhī&rsquo;s <em>Record of the Buddhist Monasteries of Luoyang</em>{" "}
-              (547 CE), which describes him as a foreign monk associated with meditation practice at
-              Yǒngníng Temple (Broughton, <em>The Bodhidharma Anthology</em>, 1999, pp. 2&ndash;8).
+              Zen&rsquo;s lineage stretches from fifth-century India, through Tang-dynasty China,
+              and onward into Korea (as <em>Seon</em>), Japan (as <em>Zen</em>), Vietnam (as{" "}
+              <em>Thiền</em>), and &mdash; over the past century &mdash; the rest of the world. The
+              tradition frames itself as a mind-to-mind transmission running from the historical
+              Buddha through twenty-eight Indian patriarchs, the six patriarchs of early Chinese
+              Chan, the Five Houses of the late Tang, and the national branches that followed.
             </p>
             <p>
-              <strong>Tang dynasty flourishing (7th&ndash;10th centuries)</strong>
-              &mdash; Chan crystallised as a distinct school during the Tang dynasty, producing the
-              great masters whose recorded sayings (<em>yǔlù</em>) would become the foundational
-              texts of the tradition:{" "}
-              <Link className="detail-inline-link" href="/masters/mazu-daoyi">
-                Mǎzǔ Dàoyī
-              </Link>{" "}
-              (709&ndash;788), whose teaching style introduced shouts, blows, and iconoclastic
-              gestures;{" "}
-              <Link className="detail-inline-link" href="/masters/linji-yixuan">
-                Línjì Yìxuán
-              </Link>{" "}
-              (d. 866), founder of the{" "}
-              <Link className="detail-inline-link" href="/schools/linji">
-                Linji
-              </Link>{" "}
-              school; and{" "}
-              <Link className="detail-inline-link" href="/masters/dongshan-liangjie">
-                Dòngshān Liángjié
-              </Link>{" "}
-              (807&ndash;869), founder of the{" "}
-              <Link className="detail-inline-link" href="/schools/caodong">
-                Caodong
-              </Link>{" "}
-              school. The great persecution of Buddhism in 845 under Emperor Wǔzōng destroyed much
-              of the scholastic Buddhist establishment but largely spared Chan, which was less
-              dependent on textual libraries and imperial patronage (Poceski,{" "}
-              <em>Ordinary Mind as the Way</em>, 2007, pp. 21&ndash;40).
-            </p>
-            <p>
-              <strong>Song dynasty maturation (10th&ndash;13th centuries)</strong>
-              &mdash; During the Song dynasty, Chan became the dominant form of monastic Buddhism in
-              China. This period produced the major kōan collections: the <em>
-                Blue Cliff Record
-              </em>{" "}
-              (<em>Bìyán Lù</em>, 1125), compiled by{" "}
-              <Link className="detail-inline-link" href="/masters/yuanwu-keqin">
-                Yuánwù Kèqín
-              </Link>{" "}
-              from{" "}
-              <Link className="detail-inline-link" href="/masters/xuedou-chongxian">
-                Xuědòu Zhòngxiǎn
+              A full chronological walk-through &mdash; with dates, events, and the masters who
+              carried the lineage at each turn &mdash; lives on the{" "}
+              <Link className="detail-inline-link" href="/timeline">
+                Timeline
               </Link>
-              &rsquo;s verses; and the <em>Gateless Gate</em> (<em>Wúmén Guān</em>, 1228) by{" "}
-              <Link className="detail-inline-link" href="/masters/wumen-huikai">
-                Wúmén Huìkāi
+              . This page stays with the <em>what</em> and the <em>why</em>; the{" "}
+              <Link className="detail-inline-link" href="/timeline">
+                Timeline
               </Link>{" "}
-              (Cleary &amp; Cleary, <em>The Blue Cliff Record</em>, 1977, Introduction; Aitken,{" "}
-              <em>The Gateless Barrier</em>, 1991, pp. ix&ndash;xxi).
-            </p>
-            <p>
-              <strong>Transmission to Japan (12th&ndash;13th centuries)</strong>
-              &mdash; Eisai (Myōan Yōsai, 1141&ndash;1215) introduced Rinzai Zen to Japan after
-              studying in Song China;{" "}
-              <Link className="detail-inline-link" href="/masters/dogen">
-                Dōgen Zenji
-              </Link>{" "}
-              brought the
-              <Link className="detail-inline-link" href="/schools/caodong">
-                Caodong
-              </Link>{" "}
-              (
-              <Link className="detail-inline-link" href="/schools/soto">
-                Sōtō
-              </Link>
-              ) lineage back in 1227 after receiving dharma transmission from{" "}
-              <Link className="detail-inline-link" href="/masters/tiantong-rujing">
-                Tiāntóng Rújìng
-              </Link>
-              . These two lineages shaped Japanese Zen and remain its principal branches (Dumoulin,
-              <em>Zen Buddhism: A History &mdash; Japan</em>, 2005, pp. 7&ndash;23, 51&ndash;99).
-            </p>
-            <p>
-              <strong>Modern era (19th century&ndash;present)</strong> &mdash; Zen entered Western
-              awareness through the writings of D.T. Suzuki, whose{" "}
-              <em>An Introduction to Zen Buddhism</em> (first English edition 1934; preface by C.G.
-              Jung) presented Zen as a universal mystical experience transcending cultural
-              boundaries. Later scholarship has emphasised that Suzuki&rsquo;s presentation was
-              shaped by Japanese nationalism, Romanticism, and Protestant categories, and that Zen
-              must also be understood in its full institutional, ritual, and ethical context (Sharf,
-              &ldquo;The Zen of Japanese Nationalism,&rdquo; in <em>Curators of the Buddha</em>, ed.
-              Lopez, 1995, pp. 107&ndash;160).
-            </p>
-            <p>
-              The institutional transplantation of Zen to the West occurred through two parallel
-              movements. In the United States,{" "}
-              <Link className="detail-inline-link" href="/masters/shunryu-suzuki">
-                Shunryū Suzuki
-              </Link>{" "}
-              (1904&ndash;1971) helped establish the San Francisco Zen Center in 1962 and Tassajara
-              Zen Mountain Center in 1967 &mdash; the first Sōtō Zen training monastery in the
-              United States and, by San Francisco Zen Center&rsquo;s account, the first Zen
-              monastery outside Asia. His teaching, collected in{" "}
-              <em>Zen Mind, Beginner&rsquo;s Mind</em> (1970), became one of the most widely read
-              introductions to Zen practice in English (Chadwick,{" "}
-              <em>Crooked Cucumber: The Life and Zen Teaching of Shunryu Suzuki</em>, 1999, pp.
-              247&ndash;265). In Europe,
-              <Link className="detail-inline-link" href="/masters/taisen-deshimaru">
-                Taisen Deshimaru
-              </Link>{" "}
-              (1914&ndash;1982), a dharma heir of{" "}
-              <Link className="detail-inline-link" href="/masters/kodo-sawaki">
-                Kōdō Sawaki
-              </Link>
-              , arrived in Paris in 1967 and built a wide network of dojos together with the temple
-              La Gendronnière, becoming a principal figure in the dissemination of Sōtō Zen across
-              the European continent. His emphasis on <em>shikantaza</em> as the core of practice
-              and his prolific teaching &mdash; recorded in works such as{" "}
-              <em>The Zen Way to the Martial Arts</em> (1982) and{" "}
-              <em>Sit: Zen Teachings of Master Taisen Deshimaru</em> (1996) &mdash; shaped a
-              distinctly European Zen lineage that continues through the Association Zen
-              Internationale and its successors (de Coulon, <em>Maître Deshimaru: Biographie</em>,
-              2009, pp. 135&ndash;180).
+              is the <em>when</em>.
             </p>
           </div>
         </section>
@@ -490,6 +384,40 @@ export default function AboutPage() {
               <span className="detail-list-meta">
                 Brought to Japan in 1654 by Yǐnyuán Lóngqí (Ingen Ryūki), blending Linji Chan with
                 Pure Land elements. The smallest of the three extant Japanese Zen schools.
+              </span>
+            </li>
+            <li>
+              <Link href="/schools/seon">Seon (선 · 禪)</Link>
+              <span className="detail-list-meta">
+                The Korean branch of the tradition, carried from Tang China beginning in the late
+                eighth century and synthesized in the twelfth century by Bojo Jinul (1158&ndash;1210).
+                The{" "}
+                <Link className="detail-inline-link" href="/schools/jogye">
+                  Jogye Order
+                </Link>{" "}
+                remains the dominant Buddhist institution in Korea today, with rigorous hwadu
+                investigation still at the center of monastic training.
+              </span>
+            </li>
+            <li>
+              <Link href="/schools/thien">Thiền</Link>
+              <span className="detail-list-meta">
+                The Vietnamese branch. Transmitted as early as the sixth century, later synthesized
+                into the indigenous{" "}
+                <Link className="detail-inline-link" href="/schools/truc-lam">
+                  Trúc Lâm
+                </Link>{" "}
+                school founded in 1299 by Emperor Trần Nhân Tông, and in the seventeenth century
+                into the{" "}
+                <Link className="detail-inline-link" href="/schools/lam-te">
+                  Lâm Tế
+                </Link>{" "}
+                (Vietnamese Linji) lineage carried forward by Liễu Quán and, in our own time, by
+                Thích Nhất Hạnh&rsquo;s{" "}
+                <Link className="detail-inline-link" href="/schools/plum-village">
+                  Plum Village
+                </Link>{" "}
+                community.
               </span>
             </li>
           </ul>

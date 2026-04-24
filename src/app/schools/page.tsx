@@ -7,19 +7,19 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Schools",
   description:
-    "Explore 23 Chan and Zen Buddhist schools — from the Five Houses of Tang-dynasty China to the Rinzai, Soto, and Obaku schools of Japan, and Korean Seon.",
+    "Explore the schools of Chan, Seon, Thiền, and Zen — from the Five Houses of Tang-dynasty China to Japan's Sōtō and Rinzai, Korean Seon, and Vietnamese Thiền.",
   alternates: { canonical: "https://zenlineage.org/schools" },
   openGraph: {
     title: "Zen Buddhist Schools — Zen Lineage",
     description:
-      "Explore 23 Chan and Zen Buddhist schools from Bodhidharma's lineage to modern traditions.",
+      "The schools of Chan, Seon, Thiền, and Zen — from Bodhidharma's lineage through the modern Korean and Vietnamese traditions.",
     url: "https://zenlineage.org/schools",
     type: "website",
   },
   twitter: {
     card: "summary",
     title: "Zen Buddhist Schools — Zen Lineage",
-    description: "Explore Chan and Zen Buddhist school branches across 2,500 years of history.",
+    description: "The school branches of Chan, Seon, Thiền, and Zen across 2,500 years of history.",
   },
 };
 

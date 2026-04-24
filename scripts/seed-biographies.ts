@@ -1626,10 +1626,10 @@ Shinshu's role in the Soto succession exemplifies the tradition's characteristic
 Yokaku's place in the Soto lineage reflects the tradition's organic growth across the centuries. Each generation of teachers contributed to the school's expanding reach while maintaining the contemplative depth that Dogen established as the tradition's foundation.`,
   },
   {
-    slug: "raphael-dokio-triet",
-    content: `Raphael Dokio Triet is a French Soto Zen teacher and dharma heir of Taisen Deshimaru who has played a significant role in maintaining and deepening the European Soto Zen tradition after Deshimaru's death in 1982. He received the dharma name Dokio and has dedicated himself to preserving the authenticity of Deshimaru's transmission while adapting the practice to serve the evolving needs of European practitioners.
+    slug: "raphael-doko-triet",
+    content: `Raphaël Dōkō Triet (b. 1950) is a French Sōtō Zen monk in the Deshimaru lineage and abbot of Templo Zen Seikyūji near Seville, Spain. He began zazen with Taisen Deshimaru at the Paris dōjō in 1971 and was ordained as a monk in 1973. He led the Paris dōjō from 1990 to 1997 and presided over the Association Zen Internationale (AZI) from 2004 to 2013. In 1995 he settled in Spain, and in 1997 he founded the Centre Zen de Lisboa (Dōjō Zen de Lisboa, Ryumonji) in Portugal. He received Dharma transmission (shihō) from Master Yūkō Okamoto — a close disciple of Deshimaru — in 1997.
 
-Triet leads sesshin and teaches at dojos affiliated with the Deshimaru lineage, continuing the tradition of kusen (oral teaching during zazen) that Deshimaru brought from Japan. His teaching emphasizes the unity of zazen and daily life—the inseparability of practice on the cushion and practice in the world. As one of the senior teachers in the European Soto lineage, Triet has helped guide the tradition through the critical transition from the charismatic founding period under Deshimaru to a mature, self-sustaining practice community rooted in European soil.`,
+Triet's teaching continues Deshimaru's emphasis on zazen as the heart of Sōtō practice, transmitted through kusen (oral teaching during seated meditation) and the unity of practice on and off the cushion. As abbot of Seikyūji and a senior figure in AZI, he is one of the principal European Sōtō teachers responsible for stabilising the tradition Deshimaru transplanted to Europe and continuing its transmission into the second and third generations.`,
   },
   {
     slug: "stephane-kosen-thibaut",
@@ -1753,7 +1753,7 @@ Kozan's place in the Soto lineage represents the tradition's ongoing adaptation 
   },
   {
     slug: "yves-shoshin-crettaz",
-    content: `Yves Shoshin Crettaz is a Swiss-born Soto Zen teacher who leads the Lisbon dojo and practices in the lineage of Taisen Deshimaru. His direct teacher is Raphael Dokio Triet, through whom he received the dharma name Shoshin—meaning "beginner's mind." He has dedicated himself to the practice and transmission of zazen in the European Soto tradition.
+    content: `Yves Shoshin Crettaz is a Swiss-born Soto Zen teacher who leads the Lisbon dojo and practices in the lineage of Taisen Deshimaru. His direct teacher is Raphaël Dōkō Triet, through whom he received the dharma name Shoshin—meaning "beginner's mind." He has dedicated himself to the practice and transmission of zazen in the European Soto tradition.
 
 Leading the Lisbon dojo, Crettaz has helped extend the reach of the European Soto tradition into the Iberian Peninsula, demonstrating that the practice of zazen can take root in new cultural contexts while maintaining its essential character. His teaching continues the emphasis on shikantaza, kusen, and the spirit of mushotoku that define the Deshimaru lineage. Through his work in Lisbon, Crettaz contributes to the ongoing growth of a genuinely international Soto Zen practice, grounded in the daily discipline of sitting and the transmission of the Dharma from teacher to student.`,
   },

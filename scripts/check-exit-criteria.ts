@@ -15,10 +15,12 @@ import {
   masters,
   masterTransmissions,
   mediaAssets,
+  schools,
   searchTokens,
   sourceSnapshots,
   sources,
   teachings,
+  temples,
 } from "@/db/schema";
 import { getTier1Entry, getTier1Slugs } from "@/lib/editorial-tiers";
 import { getRawDatasetConfig, getRawTeachingDatasetConfig } from "./raw-dataset-config";
@@ -545,6 +547,69 @@ async function main() {
     return entry ? `${master.slug} (${entry.reason})` : master.slug;
   });
   printMetric("Tier 1 orphan preview", preview(tier1OrphanPreview));
+
+  // ── Places of practice ──────────────────────────────────────────────
+  const templeRows = await db
+    .select({
+      id: temples.id,
+      slug: temples.slug,
+      lat: temples.lat,
+      lng: temples.lng,
+      schoolId: temples.schoolId,
+      url: temples.url,
+    })
+    .from(temples);
+  const knownSchoolIds = new Set(
+    (await db.select({ id: schools.id }).from(schools)).map((s) => s.id)
+  );
+  const geocoded = templeRows.filter((t) => t.lat !== null && t.lng !== null);
+  const withUrl = templeRows.filter((t) => typeof t.url === "string" && t.url.length > 0);
+  const templeCitationIds = new Set(
+    allCitations.filter((c) => c.entityType === "temple").map((c) => c.entityId)
+  );
+  const uncitedTempleSlugs = templeRows
+    .filter((t) => !templeCitationIds.has(t.id))
+    .map((t) => t.slug)
+    .sort();
+  const unresolvedSchoolSlugs = templeRows
+    .filter((t) => !t.schoolId || !knownSchoolIds.has(t.schoolId))
+    .map((t) => t.slug)
+    .sort();
+  const missingUrlSlugs = templeRows
+    .filter((t) => !(typeof t.url === "string" && t.url.length > 0))
+    .map((t) => t.slug)
+    .sort();
+  const missingCoordsSlugs = templeRows
+    .filter((t) => t.lat === null || t.lng === null)
+    .map((t) => t.slug)
+    .sort();
+
+  console.log("\nPlaces of practice");
+  printMetric("Total temples", templeRows.length);
+  printMetric(
+    "Geocoded (on map)",
+    `${geocoded.length} / ${templeRows.length} (${formatPercent(
+      geocoded.length,
+      templeRows.length
+    )})`
+  );
+  printMetric(
+    "With official URL",
+    `${withUrl.length} / ${templeRows.length} (${formatPercent(
+      withUrl.length,
+      templeRows.length
+    )})`
+  );
+  printMetric("Uncited temples", `${uncitedTempleSlugs.length}`);
+  printMetric("Unresolved school", `${unresolvedSchoolSlugs.length}`);
+  printMetric("Missing coordinates", preview(missingCoordsSlugs));
+  printMetric("Missing URL", preview(missingUrlSlugs));
+  if (uncitedTempleSlugs.length > 0) {
+    printMetric("Uncited temple slugs", preview(uncitedTempleSlugs));
+  }
+  if (unresolvedSchoolSlugs.length > 0) {
+    printMetric("Unresolved school slugs", preview(unresolvedSchoolSlugs));
+  }
 
   console.log("\nStatus");
   printMetric("Coverage audit", auditAssessment.status);

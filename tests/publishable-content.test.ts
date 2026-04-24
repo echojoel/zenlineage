@@ -35,17 +35,20 @@ describe("publishable content helpers", () => {
   });
 
   it("prefers storage paths when resolving media URLs", () => {
+    // resolveMediaAssetUrl verifies the storage path exists on disk under
+    // public/ (to hide broken image assets). Use a file we know exists in
+    // the seeded public/masters/ directory so the check passes in CI.
     expect(
       resolveMediaAssetUrl({
         id: "asset_1",
         type: "image",
-        storagePath: " /media/hakuin.jpg ",
+        storagePath: " /masters/dogen.webp ",
         sourceUrl: "https://example.com/hakuin.jpg",
         altText: null,
         attribution: null,
         license: null,
       })
-    ).toBe("/media/hakuin.jpg");
+    ).toBe("/masters/dogen.webp");
   });
 
   it("requires citations and a URL for published images", () => {
@@ -99,7 +102,7 @@ describe("publishable content helpers", () => {
         {
           id: "asset_2",
           type: "image",
-          storagePath: "/media/published.jpg",
+          storagePath: "/masters/dogen.webp",
           sourceUrl: "https://example.com/published.jpg",
           altText: "Published image",
           attribution: "Example Archive",
@@ -110,6 +113,6 @@ describe("publishable content helpers", () => {
     );
 
     expect(published?.id).toBe("asset_2");
-    expect(published?.src).toBe("/media/published.jpg");
+    expect(published?.src).toBe("/masters/dogen.webp");
   });
 });

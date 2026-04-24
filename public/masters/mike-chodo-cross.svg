@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600" role="img" aria-label="Mike Chodo Cross — portrait unavailable">
+  <title>Mike Chodo Cross</title>
+  <desc>Name-card placeholder — no public-domain portrait of this master is available.</desc>
+  <defs>
+    <radialGradient id="paper" cx="50%" cy="45%" r="65%">
+      <stop offset="0%" stop-color="hsl(32, 14%, 97%)" stop-opacity="1"/>
+      <stop offset="100%" stop-color="hsl(32, 14%, 97%)" stop-opacity="0.88"/>
+    </radialGradient>
+  </defs>
+  <rect width="600" height="600" fill="url(#paper)"/>
+  <g transform="translate(300 280)">
+    <circle r="200" fill="none" stroke="hsl(32, 25%, 35%)" stroke-width="10" stroke-linecap="round" stroke-dasharray="1230 30" transform="rotate(-18)" opacity="0.85"/>
+    <text y="28" text-anchor="middle" font-family="Cormorant Garamond, serif" font-size="120" fill="hsl(32, 20%, 22%)" style="font-weight:500; letter-spacing:6px;">MCC</text>
+  </g>
+  <text x="300" y="530" text-anchor="middle" font-family="Cormorant Garamond, serif" font-size="26" fill="hsl(32, 20%, 22%)" style="font-weight:500;">Mike Chodo Cross</text>
+  
+  <text x="300" y="586" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="hsl(32, 15%, 50%)" opacity="0.7">portrait unavailable</text>
+</svg>

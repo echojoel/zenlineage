@@ -463,6 +463,25 @@ export default function LineageGraph() {
       // Node containers
       const nodeContainers = new Map<string, import("pixi.js").Container>();
 
+      // Portrait-load concurrency throttle. ~400 nodes loading in parallel
+      // starves the browser's 6-per-origin HTTP budget and makes the first
+      // paint feel sluggish. Run at most 8 portrait fetches concurrently;
+      // later ones start as earlier ones resolve, so portraits stream in
+      // rather than blocking one another.
+      const PORTRAIT_CONCURRENCY = 8;
+      const portraitQueue: Array<() => Promise<void>> = [];
+      let activePortraits = 0;
+      const pumpPortraits = () => {
+        while (activePortraits < PORTRAIT_CONCURRENCY && portraitQueue.length > 0) {
+          const task = portraitQueue.shift()!;
+          activePortraits++;
+          task().finally(() => {
+            activePortraits--;
+            if (!destroyed) pumpPortraits();
+          });
+        }
+      };
+
       for (const node of nodes) {
         const pos = positions.get(node.id);
         if (!pos) continue;
@@ -474,13 +493,49 @@ export default function LineageGraph() {
 
         const color = schoolColor(node.schoolSlug ?? node.schoolName ?? null);
 
-        // Circle
+        // Background medallion: larger when the node has a portrait, so the
+        // sprite has somewhere to sit; smaller otherwise so the plain node
+        // looks like a restrained contemplative marker.
+        const hasPortrait = Boolean(node.imageThumb96 ?? node.imageThumb48);
+        const medallionRadius = hasPortrait ? 14 : 6;
+
         const circle = new PIXI.Graphics();
-        circle.circle(0, 0, 6);
-        circle.fill({ color, alpha: 0.9 });
-        circle.circle(0, 0, 6);
-        circle.stroke({ width: 1, color: 0xfaf9f7, alpha: 0.5 });
+        circle.circle(0, 0, medallionRadius);
+        circle.fill({ color, alpha: hasPortrait ? 0.25 : 0.9 });
+        circle.circle(0, 0, medallionRadius);
+        circle.stroke({ width: 1, color, alpha: 0.85 });
         c.addChild(circle);
+
+        // Portrait sprite — loaded async through the concurrency queue so
+        // the first paint isn't drowned by hundreds of simultaneous
+        // texture fetches. We use the 96px thumbnail rather than the 48px
+        // so the medallion stays crisp at retina and when the user zooms
+        // in. SVG placeholders resolve the same way; they're handled as
+        // scalable source paths in graph.json.
+        const thumbUrl = node.imageThumb96 ?? node.imageThumb48 ?? null;
+        if (thumbUrl) {
+          portraitQueue.push(async () => {
+            try {
+              const texture = (await PIXI.Assets.load(thumbUrl)) as import("pixi.js").Texture;
+              if (destroyed) return;
+              const sprite = new PIXI.Sprite(texture);
+              const size = medallionRadius * 2;
+              sprite.width = size;
+              sprite.height = size;
+              sprite.anchor.set(0.5);
+
+              const mask = new PIXI.Graphics();
+              mask.circle(0, 0, medallionRadius - 1);
+              mask.fill({ color: 0xffffff });
+              sprite.mask = mask;
+
+              c.addChild(mask);
+              c.addChild(sprite);
+            } catch {
+              // Silent — the medallion ring remains as a visible fallback.
+            }
+          });
+        }
 
         // Label
         const shortLabel = node.label.length > 20 ? node.label.slice(0, 18) + "…" : node.label;
@@ -492,12 +547,15 @@ export default function LineageGraph() {
             fontFamily: "'Cormorant Garamond', Georgia, serif",
           }),
         });
-        label.anchor.set(0.5, -0.6);
+        // Nudge the label further below when the medallion is larger so it
+        // doesn't collide with the portrait.
+        label.anchor.set(0.5, hasPortrait ? -0.5 : -0.6);
+        label.position.y = hasPortrait ? medallionRadius + 2 : 0;
         c.addChild(label);
 
         // Larger invisible hit area so nodes are clickable even when zoomed out
         const hitArea = new PIXI.Graphics();
-        hitArea.circle(0, 0, 20);
+        hitArea.circle(0, 0, Math.max(20, medallionRadius + 6));
         hitArea.fill({ color: 0xffffff, alpha: 0 });
         c.addChildAt(hitArea, 0); // behind circle and label
 
@@ -524,6 +582,11 @@ export default function LineageGraph() {
         stage.addChild(c);
         nodeContainers.set(node.id, c);
       }
+
+      // Start the throttled portrait fetches now that every node has
+      // queued its load. Portraits stream in over ~2-4s instead of
+      // hammering the browser with 400 parallel connections.
+      pumpPortraits();
 
       pixiRef.current = {
         app,

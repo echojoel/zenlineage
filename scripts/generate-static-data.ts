@@ -12,18 +12,23 @@ import {
   masters,
   masterBiographies,
   masterNames,
+  masterTemples,
   masterTransmissions,
   mediaAssets,
   schools,
   schoolNames,
   searchTokens,
+  sources,
+  templeNames,
+  temples,
 } from "@/db/schema";
-import { and, eq, inArray } from "drizzle-orm";
+import { and, eq, inArray, isNotNull } from "drizzle-orm";
 import {
   buildCitationKeySet,
   getPublishedImageAsset,
   isPublishedBiography,
 } from "@/lib/publishable-content";
+import { schoolHexColor } from "@/lib/temple-colors";
 
 const OUT_DIR = path.join(process.cwd(), "public", "data");
 
@@ -168,6 +173,17 @@ async function generateGraphData() {
     const schoolMeta = m.schoolId ? schoolMetaMap.get(m.schoolId) : null;
     const masterAssets = mediaByMasterId.get(m.id) ?? [];
     const publishedImage = getPublishedImageAsset(masterAssets, allCitationKeys);
+    // Thumbnails only exist for real photographed portraits (WebP). SVG
+    // name-card placeholders are infinitely scalable so we serve the
+    // source SVG at every size — browsers rasterize in-place. Any other
+    // path (external URL, etc.) gets no thumbnail: the UI falls back to
+    // the full-size image.
+    const isWebp = publishedImage?.src?.endsWith(".webp") ?? false;
+    const isSvgPlaceholder = publishedImage?.src?.endsWith(".svg") ?? false;
+    const thumbBase =
+      isWebp && publishedImage!.src.startsWith("/masters/")
+        ? publishedImage!.src.replace(/\/masters\/([^/]+)\.webp$/, "/masters/thumb/$1")
+        : null;
     return {
       id: m.id,
       slug: m.slug,
@@ -182,6 +198,9 @@ async function generateGraphData() {
       searchText: (searchMap.get(m.id) ?? []).join(" "),
       bio: bioMap.get(m.id) ?? null,
       imageSrc: publishedImage?.src ?? null,
+      imageThumb48: thumbBase ? `${thumbBase}-48.webp` : isSvgPlaceholder ? publishedImage!.src : null,
+      imageThumb96: thumbBase ? `${thumbBase}-96.webp` : isSvgPlaceholder ? publishedImage!.src : null,
+      imageThumb200: thumbBase ? `${thumbBase}-200.webp` : isSvgPlaceholder ? publishedImage!.src : null,
       imageAlt: publishedImage?.altText ?? null,
       imageAttribution: publishedImage?.attribution ?? null,
     };
@@ -402,6 +421,190 @@ async function generateMastersJson() {
   console.log(`  -> ${masterList.length} masters`);
 }
 
+async function generateTemplesJson() {
+  console.log("Generating temples.json...");
+
+  // Only rows with non-null lat/lng make the map. Drizzle's inArray is used
+  // later for the join lookups; initial pull filters geocoded rows only.
+  const templeRows = await db
+    .select({
+      id: temples.id,
+      slug: temples.slug,
+      lat: temples.lat,
+      lng: temples.lng,
+      region: temples.region,
+      country: temples.country,
+      foundedYear: temples.foundedYear,
+      foundedPrecision: temples.foundedPrecision,
+      status: temples.status,
+      schoolId: temples.schoolId,
+      founderId: temples.founderId,
+      url: temples.url,
+    })
+    .from(temples)
+    .where(and(isNotNull(temples.lat), isNotNull(temples.lng)));
+
+  if (templeRows.length === 0) {
+    const empty = { temples: [], schools: [] };
+    fs.writeFileSync(path.join(OUT_DIR, "temples.json"), JSON.stringify(empty));
+    console.log("  -> 0 temples (table empty; map will render empty state)");
+    return empty;
+  }
+
+  const templeIds = templeRows.map((t) => t.id);
+  const schoolIds = Array.from(
+    new Set(templeRows.map((t) => t.schoolId).filter((id): id is string => Boolean(id)))
+  );
+  const founderIds = Array.from(
+    new Set(templeRows.map((t) => t.founderId).filter((id): id is string => Boolean(id)))
+  );
+
+  const [
+    nameRows,
+    schoolMeta,
+    schoolNameRows,
+    founderRows,
+    founderNameRows,
+    masterTempleRows,
+  ] = await Promise.all([
+    db
+      .select({ templeId: templeNames.templeId, locale: templeNames.locale, value: templeNames.value })
+      .from(templeNames)
+      .where(inArray(templeNames.templeId, templeIds)),
+    schoolIds.length > 0
+      ? db
+          .select({ id: schools.id, slug: schools.slug, tradition: schools.tradition })
+          .from(schools)
+          .where(inArray(schools.id, schoolIds))
+      : Promise.resolve([]),
+    schoolIds.length > 0
+      ? db
+          .select({ schoolId: schoolNames.schoolId, value: schoolNames.value })
+          .from(schoolNames)
+          .where(and(inArray(schoolNames.schoolId, schoolIds), eq(schoolNames.locale, "en")))
+      : Promise.resolve([]),
+    founderIds.length > 0
+      ? db
+          .select({ id: masters.id, slug: masters.slug })
+          .from(masters)
+          .where(inArray(masters.id, founderIds))
+      : Promise.resolve([]),
+    founderIds.length > 0
+      ? db
+          .select({ masterId: masterNames.masterId, nameType: masterNames.nameType, value: masterNames.value })
+          .from(masterNames)
+          .where(and(inArray(masterNames.masterId, founderIds), eq(masterNames.locale, "en")))
+      : Promise.resolve([]),
+    // If a founder isn't set directly on the temple but a master_temples
+    // role="founded" row exists, we'll pick that up too.
+    db
+      .select({ masterId: masterTemples.masterId, templeId: masterTemples.templeId, role: masterTemples.role })
+      .from(masterTemples)
+      .where(and(inArray(masterTemples.templeId, templeIds), eq(masterTemples.role, "founded"))),
+  ]);
+
+  // Source URL fallback: when the temple has no `url`, the popup links to
+  // the citation source (SOTOZEN Europe / AZI / Wikipedia etc.). Every
+  // temple gets a citation row when seeded, so this map is usually full.
+  const sourceRows = await db
+    .select({
+      entityId: citations.entityId,
+      sourceId: citations.sourceId,
+      sourceUrl: sources.url,
+      sourceTitle: sources.title,
+    })
+    .from(citations)
+    .innerJoin(sources, eq(sources.id, citations.sourceId))
+    .where(and(eq(citations.entityType, "temple"), inArray(citations.entityId, templeIds)));
+  const sourceByTemple = new Map<string, { url: string | null; title: string | null }>();
+  for (const r of sourceRows) {
+    if (!sourceByTemple.has(r.entityId)) {
+      sourceByTemple.set(r.entityId, { url: r.sourceUrl, title: r.sourceTitle });
+    }
+  }
+
+  // Build lookup maps
+  const englishName = new Map<string, string>();
+  const nativeName = new Map<string, string>(); // any non-en locale, first wins
+  for (const n of nameRows) {
+    if (n.locale === "en" && !englishName.has(n.templeId)) englishName.set(n.templeId, n.value);
+    else if (n.locale !== "en" && !nativeName.has(n.templeId)) nativeName.set(n.templeId, n.value);
+  }
+
+  const schoolSlugById = new Map(schoolMeta.map((s) => [s.id, s.slug]));
+  const schoolTraditionById = new Map(schoolMeta.map((s) => [s.id, s.tradition]));
+  const schoolNameById = new Map(schoolNameRows.map((n) => [n.schoolId, n.value]));
+
+  const founderSlugById = new Map(founderRows.map((m) => [m.id, m.slug]));
+  const founderDharmaName = new Map<string, string>();
+  const founderAnyName = new Map<string, string>();
+  for (const n of founderNameRows) {
+    if (n.nameType === "dharma" && !founderDharmaName.has(n.masterId))
+      founderDharmaName.set(n.masterId, n.value);
+    if (!founderAnyName.has(n.masterId)) founderAnyName.set(n.masterId, n.value);
+  }
+
+  // If temple.founderId is null but master_temples has a "founded" row, use it.
+  const foundedBy = new Map<string, string>();
+  for (const row of masterTempleRows) {
+    if (!foundedBy.has(row.templeId)) foundedBy.set(row.templeId, row.masterId);
+  }
+
+  const features = templeRows.map((t) => {
+    const effectiveFounderId = t.founderId ?? foundedBy.get(t.id) ?? null;
+    const founderSlug = effectiveFounderId ? founderSlugById.get(effectiveFounderId) ?? null : null;
+    const founderName = effectiveFounderId
+      ? founderDharmaName.get(effectiveFounderId) ?? founderAnyName.get(effectiveFounderId) ?? null
+      : null;
+    const schoolSlug = t.schoolId ? schoolSlugById.get(t.schoolId) ?? null : null;
+    const schoolName = t.schoolId ? schoolNameById.get(t.schoolId) ?? null : null;
+    const src = sourceByTemple.get(t.id) ?? null;
+    return {
+      slug: t.slug,
+      name: englishName.get(t.id) ?? t.slug,
+      nativeName: nativeName.get(t.id) ?? null,
+      lat: t.lat,
+      lng: t.lng,
+      region: t.region,
+      country: t.country,
+      foundedYear: t.foundedYear,
+      foundedPrecision: t.foundedPrecision,
+      status: t.status,
+      schoolSlug,
+      schoolName,
+      schoolColor: schoolHexColor(schoolSlug),
+      founderSlug,
+      founderName,
+      url: t.url ?? null,
+      sourceUrl: src?.url ?? null,
+      sourceTitle: src?.title ?? null,
+    };
+  });
+
+  // Per-school counts for the filter dropdown
+  const schoolCounts = new Map<string, number>();
+  for (const f of features) {
+    if (!f.schoolSlug) continue;
+    schoolCounts.set(f.schoolSlug, (schoolCounts.get(f.schoolSlug) ?? 0) + 1);
+  }
+  const schoolList = schoolMeta
+    .filter((s) => (schoolCounts.get(s.slug) ?? 0) > 0)
+    .map((s) => ({
+      slug: s.slug,
+      name: schoolNameById.get(s.id) ?? s.slug,
+      tradition: schoolTraditionById.get(s.id) ?? null,
+      count: schoolCounts.get(s.slug) ?? 0,
+    }))
+    .sort((a, b) => b.count - a.count || a.name.localeCompare(b.name));
+
+  const payload = { temples: features, schools: schoolList };
+  fs.writeFileSync(path.join(OUT_DIR, "temples.json"), JSON.stringify(payload));
+  console.log(
+    `  -> ${features.length} temples across ${schoolList.length} schools`
+  );
+  return payload;
+}
+
 async function main() {
   fs.mkdirSync(OUT_DIR, { recursive: true });
 
@@ -412,6 +615,7 @@ async function main() {
   );
 
   await generateMastersJson();
+  await generateTemplesJson();
 
   console.log("Done.");
   process.exit(0);

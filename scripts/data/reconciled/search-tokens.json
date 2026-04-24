@@ -11520,69 +11520,6 @@
     "token_type": "romanization"
   },
   {
-    "id": "bRGMtZZGZuccMjttwHCxc",
-    "entity_type": "master",
-    "entity_id": "ehRBAakSqW4gBVAGPJrYr",
-    "token": "raphael dokio triet",
-    "original": "Raphael Dokio Triet",
-    "locale": "en",
-    "token_type": "name"
-  },
-  {
-    "id": "8ntIFEITGDHIrQ8eGSMEv",
-    "entity_type": "master",
-    "entity_id": "ehRBAakSqW4gBVAGPJrYr",
-    "token": "raphael",
-    "original": "Raphael Dokio Triet",
-    "locale": "en",
-    "token_type": "name"
-  },
-  {
-    "id": "34FvxWgihpUO5ZUoGkFW3",
-    "entity_type": "master",
-    "entity_id": "ehRBAakSqW4gBVAGPJrYr",
-    "token": "dokio",
-    "original": "Raphael Dokio Triet",
-    "locale": "en",
-    "token_type": "name"
-  },
-  {
-    "id": "4uvgwIy9PYJQgBYNOK_5a",
-    "entity_type": "master",
-    "entity_id": "ehRBAakSqW4gBVAGPJrYr",
-    "token": "triet",
-    "original": "Raphael Dokio Triet",
-    "locale": "en",
-    "token_type": "name"
-  },
-  {
-    "id": "WqS4XdGRJf9mN2oL-xZzo",
-    "entity_type": "master",
-    "entity_id": "ehRBAakSqW4gBVAGPJrYr",
-    "token": "dokio triet",
-    "original": "Dokio Triet",
-    "locale": "en",
-    "token_type": "alias"
-  },
-  {
-    "id": "a_ZTrCO7hWa5Meql52GUJ",
-    "entity_type": "master",
-    "entity_id": "ehRBAakSqW4gBVAGPJrYr",
-    "token": "dokio",
-    "original": "Dokio Triet",
-    "locale": "en",
-    "token_type": "alias"
-  },
-  {
-    "id": "dm0aKdmyQ9vjoLpISbua1",
-    "entity_type": "master",
-    "entity_id": "ehRBAakSqW4gBVAGPJrYr",
-    "token": "triet",
-    "original": "Dokio Triet",
-    "locale": "en",
-    "token_type": "alias"
-  },
-  {
     "id": "g8yItEMvdoohrqRylYMLs",
     "entity_type": "master",
     "entity_id": "EMoIlVImDttpEYdxP41FA",
@@ -15791,6 +15728,132 @@
     "entity_id": "j-cIc9VMB17RIb8K_GRPi",
     "token": "hoshin",
     "original": "Daizui Hôshin",
+    "locale": "en",
+    "token_type": "alias"
+  },
+  {
+    "id": "AYhYbdKhMw8QCqA0xm_iC",
+    "entity_type": "master",
+    "entity_id": "J8Ej-alBWcTa9C9QhlJc0",
+    "token": "raphael doko triet",
+    "original": "Raphaël Dōkō Triet",
+    "locale": "en",
+    "token_type": "name"
+  },
+  {
+    "id": "LfxGub8OXH5sdpW3wTZfU",
+    "entity_type": "master",
+    "entity_id": "J8Ej-alBWcTa9C9QhlJc0",
+    "token": "raphael",
+    "original": "Raphaël Dōkō Triet",
+    "locale": "en",
+    "token_type": "name"
+  },
+  {
+    "id": "WWlYAo_JV2wnLVXw0G1Xx",
+    "entity_type": "master",
+    "entity_id": "J8Ej-alBWcTa9C9QhlJc0",
+    "token": "doko",
+    "original": "Raphaël Dōkō Triet",
+    "locale": "en",
+    "token_type": "name"
+  },
+  {
+    "id": "RPwix0v3J_4I7-zcSpAca",
+    "entity_type": "master",
+    "entity_id": "J8Ej-alBWcTa9C9QhlJc0",
+    "token": "triet",
+    "original": "Raphaël Dōkō Triet",
+    "locale": "en",
+    "token_type": "name"
+  },
+  {
+    "id": "eXVrl-d7XSHoskRYXdXR_",
+    "entity_type": "master",
+    "entity_id": "J8Ej-alBWcTa9C9QhlJc0",
+    "token": "raphael doko triet",
+    "original": "Raphael Doko Triet",
+    "locale": "en",
+    "token_type": "alias"
+  },
+  {
+    "id": "WsKOd2qBZrip4sm59_41l",
+    "entity_type": "master",
+    "entity_id": "J8Ej-alBWcTa9C9QhlJc0",
+    "token": "raphael",
+    "original": "Raphael Doko Triet",
+    "locale": "en",
+    "token_type": "alias"
+  },
+  {
+    "id": "kfw-HsnZcrbnzxflQve3F",
+    "entity_type": "master",
+    "entity_id": "J8Ej-alBWcTa9C9QhlJc0",
+    "token": "doko",
+    "original": "Raphael Doko Triet",
+    "locale": "en",
+    "token_type": "alias"
+  },
+  {
+    "id": "qaa1HmBZXAhcyZFC-YwdC",
+    "entity_type": "master",
+    "entity_id": "J8Ej-alBWcTa9C9QhlJc0",
+    "token": "triet",
+    "original": "Raphael Doko Triet",
+    "locale": "en",
+    "token_type": "alias"
+  },
+  {
+    "id": "pLwxNQK01slzhImkM8Cpm",
+    "entity_type": "master",
+    "entity_id": "J8Ej-alBWcTa9C9QhlJc0",
+    "token": "doko triet",
+    "original": "Dōkō Triet",
+    "locale": "en",
+    "token_type": "alias"
+  },
+  {
+    "id": "kfw-HsnZcrbnzxflQve3F",
+    "entity_type": "master",
+    "entity_id": "J8Ej-alBWcTa9C9QhlJc0",
+    "token": "doko",
+    "original": "Dōkō Triet",
+    "locale": "en",
+    "token_type": "alias"
+  },
+  {
+    "id": "qaa1HmBZXAhcyZFC-YwdC",
+    "entity_type": "master",
+    "entity_id": "J8Ej-alBWcTa9C9QhlJc0",
+    "token": "triet",
+    "original": "Dōkō Triet",
+    "locale": "en",
+    "token_type": "alias"
+  },
+  {
+    "id": "pLwxNQK01slzhImkM8Cpm",
+    "entity_type": "master",
+    "entity_id": "J8Ej-alBWcTa9C9QhlJc0",
+    "token": "doko triet",
+    "original": "Doko Triet",
+    "locale": "en",
+    "token_type": "alias"
+  },
+  {
+    "id": "kfw-HsnZcrbnzxflQve3F",
+    "entity_type": "master",
+    "entity_id": "J8Ej-alBWcTa9C9QhlJc0",
+    "token": "doko",
+    "original": "Doko Triet",
+    "locale": "en",
+    "token_type": "alias"
+  },
+  {
+    "id": "qaa1HmBZXAhcyZFC-YwdC",
+    "entity_type": "master",
+    "entity_id": "J8Ej-alBWcTa9C9QhlJc0",
+    "token": "triet",
+    "original": "Doko Triet",
     "locale": "en",
     "token_type": "alias"
   },

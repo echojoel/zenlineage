@@ -13,14 +13,16 @@
 
 import fs from "fs";
 import path from "path";
-import { and, ne } from "drizzle-orm";
+import { and, eq, inArray, ne, sql } from "drizzle-orm";
 import { db } from "@/db";
 import {
   schoolNames,
   schools,
   masters,
   masterNames,
+  masterTemples,
   masterTransmissions,
+  mediaAssets,
   searchTokens,
   citations,
   teachingContent,
@@ -74,8 +76,40 @@ async function resetDerivedTables(): Promise<void> {
   await db.delete(themes);
   await db.delete(masterTransmissions);
   await db.delete(masterNames);
+  // Detach temple → master references before wiping masters. The
+  // temples table itself is owned by the seed-temples pipeline (keyed
+  // on slug, re-runs idempotently), but its founder_id / master_temples
+  // rows become dangling the moment we delete masters.
+  await db.delete(masterTemples);
+  await db.run(sql`UPDATE temples SET founder_id = NULL`);
+  // Clear MASTER media_assets + their citations *before* deleting
+  // masters so we don't leave orphan rows pointing at ids that will be
+  // gone. Image files under public/masters/ stay on disk; they'll be
+  // re-registered by register-disk-images / fetch-kv-images /
+  // generate-name-placeholders. School images are left alone because
+  // their rows survive the master wipe (they're seeded by
+  // import-curated-images).
+  const masterImageIds = (
+    await db
+      .select({ id: mediaAssets.id })
+      .from(mediaAssets)
+      .where(eq(mediaAssets.entityType, "master"))
+  ).map((r) => r.id);
+  if (masterImageIds.length > 0) {
+    await db
+      .delete(citations)
+      .where(
+        and(
+          eq(citations.entityType, "media_asset"),
+          inArray(citations.entityId, masterImageIds)
+        )
+      );
+  }
+  await db.delete(mediaAssets).where(eq(mediaAssets.entityType, "master"));
   await db.delete(masters);
   await db.delete(schoolNames);
+  // temples.school_id references schools.id — detach before wiping.
+  await db.run(sql`UPDATE temples SET school_id = NULL`);
   await db.delete(schools);
 
   console.log("✓ Derived tables cleared");

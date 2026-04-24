@@ -126,8 +126,8 @@ describe("Soto reconciliation", () => {
       master.names.some((name) => name.value === "Tiantong Rujing")
     );
 
-    expect(dogen?.school).toBe("Soto");
-    expect(result.masters.some((master) => master.school === "Soto")).toBe(true);
+    expect(dogen?.school).toBe("Sōtō");
+    expect(result.masters.some((master) => master.school === "Sōtō")).toBe(true);
     expect(
       result.transmissions.some(
         (edge) => edge.teacher_id === rujing?.id && edge.student_id === dogen?.id

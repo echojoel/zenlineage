@@ -207,11 +207,48 @@ export default async function MasterDetailPage({ params }: { params: Promise<{ s
     .from(masterNames)
     .where(eq(masterNames.masterId, master.id));
 
-  const orderedNames = names.sort((a, b) => {
+  // Dedupe canonical name forms — historical imports left lowercase
+  // duplicates of names already present in proper case ("dogen" vs
+  // "Dogen", "yongping daoyuan" vs "Yongping Daoyuan"). Prefer the form
+  // with leading uppercase + diacritics; treat case-only differences as
+  // the same name.
+  const sortedRaw = names.sort((a, b) => {
     const rank = (nameType: string) =>
       ({ dharma: 0, honorific: 1, alias: 2, birth: 3 })[nameType] ?? 9;
     return rank(a.nameType) - rank(b.nameType) || a.value.localeCompare(b.value);
   });
+  const seenNameKeys = new Set<string>();
+  const orderedNames = sortedRaw
+    .map((n) => {
+      // Prefer the variant that already has any uppercase letter — drop
+      // its lowercase twin. Compare on a normalised key (lowercased,
+      // diacritics stripped) so "Dōgen" and "dogen" collapse together.
+      const key = `${n.locale}:${n.nameType}:${n.value
+        .normalize("NFD")
+        .replace(/[̀-ͯ]/g, "")
+        .toLowerCase()
+        .trim()}`;
+      return { ...n, _key: key };
+    })
+    .sort((a, b) => {
+      // Prefer mixed-case (has uppercase) over all-lowercase as the
+      // surviving entry for each duplicate key.
+      const aHasUpper = a.value !== a.value.toLowerCase();
+      const bHasUpper = b.value !== b.value.toLowerCase();
+      if (aHasUpper !== bHasUpper) return aHasUpper ? -1 : 1;
+      return 0;
+    })
+    .filter((n) => {
+      if (seenNameKeys.has(n._key)) return false;
+      seenNameKeys.add(n._key);
+      return true;
+    })
+    // Re-sort back to the original display order (rank, alpha)
+    .sort((a, b) => {
+      const rank = (nameType: string) =>
+        ({ dharma: 0, honorific: 1, alias: 2, birth: 3 })[nameType] ?? 9;
+      return rank(a.nameType) - rank(b.nameType) || a.value.localeCompare(b.value);
+    });
 
   const primaryName = orderedNames.find((name) => name.nameType === "dharma")?.value ?? master.slug;
 
@@ -305,6 +342,7 @@ export default async function MasterDetailPage({ params }: { params: Promise<{ s
   const teachingRows = await db
     .select({
       id: teachings.id,
+      slug: teachings.slug,
       type: teachings.type,
       title: teachingContent.title,
       content: teachingContent.content,
@@ -537,12 +575,18 @@ export default async function MasterDetailPage({ params }: { params: Promise<{ s
       <div className="detail-layout">
         <section className="detail-hero">
           {publishedImage && (
-            // eslint-disable-next-line @next/next/no-img-element
-            <img
-              src={publishedImage.src}
-              alt={publishedImage.altText ?? primaryName}
-              className="detail-hero-image"
-            />
+            <>
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src={publishedImage.src}
+                alt={publishedImage.altText ?? primaryName}
+                className={
+                  publishedImage.type === "placeholder"
+                    ? "detail-hero-image detail-hero-placeholder"
+                    : "detail-hero-image"
+                }
+              />
+            </>
           )}
           <p className="detail-eyebrow">
             {schoolRow ? (
@@ -669,7 +713,12 @@ export default async function MasterDetailPage({ params }: { params: Promise<{ s
                     <li key={teaching.id}>
                       <div className="detail-source-heading">
                         <span>{teaching.type ?? "teaching"}</span>
-                        <span>{teaching.title ?? "Untitled teaching"}</span>
+                        <Link
+                          href={`/teachings/${teaching.slug}`}
+                          className="detail-inline-link"
+                        >
+                          {teaching.title ?? "Untitled teaching"}
+                        </Link>
                       </div>
                       {collectionBadge && <p className="detail-list-meta">{collectionBadge}</p>}
                       {attributionTag && <p className="detail-list-meta">{attributionTag}</p>}

@@ -18,6 +18,7 @@ import {
   determineSchoolDefinition,
   getSchoolAncestors,
   getSchoolDefinition,
+  getSchoolDefinitions,
 } from "@/lib/school-taxonomy";
 
 const RECONCILED_DIR = path.join(process.cwd(), "scripts/data/reconciled");
@@ -31,23 +32,14 @@ export default async function seedSchools(): Promise<void> {
 
   const canonicalMasters: CanonicalMaster[] = JSON.parse(fs.readFileSync(filepath, "utf-8"));
 
-  const requiredSlugs = new Set<string>();
-  for (const m of canonicalMasters) {
-    const definition = determineSchoolDefinition({
-      rawLabel: m.school,
-      names: m.names.map((name) => name.value),
-    });
-    if (!definition) continue;
-
-    for (const ancestor of getSchoolAncestors(definition.slug)) {
-      requiredSlugs.add(ancestor.slug);
-    }
-  }
-
-  const orderedSchools = Array.from(requiredSlugs)
-    .map((slug) => getSchoolDefinition(slug))
-    .filter((definition): definition is NonNullable<typeof definition> => definition != null)
-    .sort((a, b) => getSchoolAncestors(a.slug).length - getSchoolAncestors(b.slug).length);
+  // The schools table is seeded from the taxonomy (the source of truth for
+  // what schools exist), not from the masters dataset. This lets schools
+  // without any seeded masters still appear on /schools — for example the
+  // Korean Seon and Vietnamese Thiền schools, which the site documents even
+  // before master biographies for those traditions land.
+  const orderedSchools = [...getSchoolDefinitions()].sort(
+    (a, b) => getSchoolAncestors(a.slug).length - getSchoolAncestors(b.slug).length
+  );
 
   const schoolIds = new Map<string, string>(); // slug -> school id
 
@@ -96,6 +88,23 @@ export default async function seedSchools(): Promise<void> {
         target: schoolNames.id,
         set: { value: definition.name },
       });
+
+    if (definition.nativeNames) {
+      for (const [locale, value] of Object.entries(definition.nativeNames)) {
+        await db
+          .insert(schoolNames)
+          .values({
+            id: `${schoolId}_${locale}`,
+            schoolId,
+            locale,
+            value,
+          })
+          .onConflictDoUpdate({
+            target: schoolNames.id,
+            set: { value, locale },
+          });
+      }
+    }
 
     schoolIds.set(definition.slug, schoolId);
   }

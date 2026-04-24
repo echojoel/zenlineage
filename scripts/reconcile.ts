@@ -520,6 +520,15 @@ export function parseDates(raw: string): ParsedDates {
     };
   }
 
+  // "BIRTH-" — still living, open-ended death year (e.g. "1950-")
+  const livingRange = s.match(/^(\d{3,4})-$/);
+  if (livingRange) {
+    return {
+      birth: { year: parseInt(livingRange[1], 10), precision: "exact", confidence: "high" },
+      death: null,
+    };
+  }
+
   // Fallback — unknown
   return { birth: null, death: null };
 }

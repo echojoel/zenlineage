@@ -62,6 +62,33 @@ export const TIER_1_ENTRIES: EditorialTierEntry[] = [
   { slug: "keizan-jokin", tier: "tier1", reason: "founder" },
   { slug: "hakuin-ekaku", tier: "tier1", reason: "modern_transmitter" },
   { slug: "yamada-koun", tier: "tier1", reason: "modern_transmitter" },
+
+  // Korean Seon founders and transmitters
+  { slug: "jinul", tier: "tier1", reason: "founder" },
+  { slug: "chingak-hyesim", tier: "tier1", reason: "major_lineage_bridge" },
+  { slug: "taego-bou", tier: "tier1", reason: "major_lineage_bridge" },
+  { slug: "seosan-hyujeong", tier: "tier1", reason: "historically_central_teacher" },
+  { slug: "gyeongheo-seongu", tier: "tier1", reason: "modern_transmitter" },
+  { slug: "seongcheol", tier: "tier1", reason: "modern_transmitter" },
+  { slug: "seung-sahn", tier: "tier1", reason: "modern_transmitter" },
+
+  // Vietnamese Thiền founders and transmitters
+  { slug: "vinitaruci", tier: "tier1", reason: "founder" },
+  { slug: "vo-ngon-thong", tier: "tier1", reason: "founder" },
+  { slug: "tran-nhan-tong", tier: "tier1", reason: "founder" },
+  { slug: "lieu-quan", tier: "tier1", reason: "major_lineage_bridge" },
+  { slug: "thich-nhat-hanh", tier: "tier1", reason: "modern_transmitter" },
+
+  // Maezumi lineage — teachers and the most historically consequential
+  // White Plum dharma heirs.
+  { slug: "baian-hakujun-kuroda", tier: "tier1", reason: "major_lineage_bridge" },
+  { slug: "osaka-koryu", tier: "tier1", reason: "major_lineage_bridge" },
+  { slug: "bernie-tetsugen-glassman", tier: "tier1", reason: "modern_transmitter" },
+  { slug: "charlotte-joko-beck", tier: "tier1", reason: "modern_transmitter" },
+  { slug: "john-daido-loori", tier: "tier1", reason: "modern_transmitter" },
+  { slug: "dennis-genpo-merzel", tier: "tier1", reason: "modern_transmitter" },
+  { slug: "jan-chozen-bays", tier: "tier1", reason: "modern_transmitter" },
+  { slug: "gerry-shishin-wick", tier: "tier1", reason: "modern_transmitter" },
 ];
 
 const TIER_1_ENTRY_BY_SLUG = new Map(TIER_1_ENTRIES.map((entry) => [entry.slug, entry]));

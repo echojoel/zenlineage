@@ -2488,12 +2488,12 @@
     "excerpt": "Soto"
   },
   {
-    "id": "-eolXRo-QKWGbaKjHjzMN",
+    "id": "hTQPaxv_-HUdhHEwCe6fm",
     "source_id": "src_sotozen_founders",
     "entity_type": "master",
     "entity_id": "9jNP2fUH7zmQTozB_DnAO",
     "field_name": "teachers",
-    "excerpt": "Raphael Dokio Triet"
+    "excerpt": "Raphaël Dōkō Triet"
   },
   {
     "id": "lkFyfmg2UYXRjkpMVtHrT",
@@ -4904,38 +4904,6 @@
     "excerpt": "Xinghua Cunjiang"
   },
   {
-    "id": "N1W0tynWAZPQ66_lI2Qlb",
-    "source_id": "src_sotozen_founders",
-    "entity_type": "master",
-    "entity_id": "ehRBAakSqW4gBVAGPJrYr",
-    "field_name": "dates",
-    "excerpt": "n.d."
-  },
-  {
-    "id": "nI_rFpI49ChCqDvISwFpp",
-    "source_id": "src_sotozen_founders",
-    "entity_type": "master",
-    "entity_id": "ehRBAakSqW4gBVAGPJrYr",
-    "field_name": "name",
-    "excerpt": "Raphael Dokio Triet"
-  },
-  {
-    "id": "T3mHyrD8VsHdQ1T4gOhIX",
-    "source_id": "src_sotozen_founders",
-    "entity_type": "master",
-    "entity_id": "ehRBAakSqW4gBVAGPJrYr",
-    "field_name": "school",
-    "excerpt": "Soto"
-  },
-  {
-    "id": "GKoMkvSXxwDwLN3Gy54j-",
-    "source_id": "src_sotozen_founders",
-    "entity_type": "master",
-    "entity_id": "ehRBAakSqW4gBVAGPJrYr",
-    "field_name": "teachers",
-    "excerpt": "Taisen Deshimaru"
-  },
-  {
     "id": "gqpY1AfLwWNxWZtdGLs-3",
     "source_id": "src_chan_ancestors_pdf",
     "entity_type": "master",
@@ -6694,6 +6662,38 @@
     "entity_id": "j-cIc9VMB17RIb8K_GRPi",
     "field_name": "teachers",
     "excerpt": "Guishan Daan"
+  },
+  {
+    "id": "Ba2pE6tOgbzq5UONAIdcu",
+    "source_id": "src_sotozen_founders",
+    "entity_type": "master",
+    "entity_id": "J8Ej-alBWcTa9C9QhlJc0",
+    "field_name": "dates",
+    "excerpt": "1950-"
+  },
+  {
+    "id": "ki8HZUqKnsFu-rFi0365B",
+    "source_id": "src_sotozen_founders",
+    "entity_type": "master",
+    "entity_id": "J8Ej-alBWcTa9C9QhlJc0",
+    "field_name": "name",
+    "excerpt": "Raphaël Dōkō Triet"
+  },
+  {
+    "id": "IUqJ4mTqHzy0LMO-swv45",
+    "source_id": "src_sotozen_founders",
+    "entity_type": "master",
+    "entity_id": "J8Ej-alBWcTa9C9QhlJc0",
+    "field_name": "school",
+    "excerpt": "Soto"
+  },
+  {
+    "id": "h5GiYQzlDs5easDJYKwll",
+    "source_id": "src_sotozen_founders",
+    "entity_type": "master",
+    "entity_id": "J8Ej-alBWcTa9C9QhlJc0",
+    "field_name": "teachers",
+    "excerpt": "Taisen Deshimaru"
   },
   {
     "id": "0kNUxaqcGgFjcWdcTlgf8",

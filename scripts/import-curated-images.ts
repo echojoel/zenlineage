@@ -195,10 +195,10 @@ const IMAGES: CuratedImage[] = [
   },
   {
     source: "/Users/basket/Desktop/Screenshot 2026-03-14 at 20.11.49.png",
-    slug: "raphael-dokio-triet",
+    slug: "raphael-doko-triet",
     entityType: "master",
-    attribution: "Photograph of Raphael Dokio Triet",
-    altText: "Photograph of Raphael Dokio Triet in Zen robes",
+    attribution: "Photograph of Raphaël Dōkō Triet",
+    altText: "Photograph of Raphaël Dōkō Triet in Zen robes",
   },
   {
     source: "/Users/basket/Downloads/Roland_Yuno-Rech.png",

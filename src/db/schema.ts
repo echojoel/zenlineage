@@ -103,6 +103,7 @@ export const temples = sqliteTable("temples", {
   founderId: text("founder_id").references(() => masters.id),
   schoolId: text("school_id").references(() => schools.id),
   status: text("status"),
+  url: text("url"),
 });
 
 export const templeNames = sqliteTable("temple_names", {

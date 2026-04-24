@@ -8,5 +8,8 @@
   { "slug": "mind", "name": "Mind", "sortOrder": 7 },
   { "slug": "nature", "name": "Nature", "sortOrder": 8 },
   { "slug": "letting-go", "name": "Letting Go", "sortOrder": 9 },
-  { "slug": "paradox", "name": "Paradox", "sortOrder": 10 }
+  { "slug": "paradox", "name": "Paradox", "sortOrder": 10 },
+  { "slug": "patriarchs", "name": "Patriarchs", "sortOrder": 11 },
+  { "slug": "lineage", "name": "Lineage", "sortOrder": 12 },
+  { "slug": "study", "name": "Study", "sortOrder": 13 }
 ]

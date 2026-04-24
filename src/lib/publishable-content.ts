@@ -79,7 +79,10 @@ export function isPublishedImageAsset(
   asset: PublishableMediaAsset,
   citationKeys: Set<string>
 ): boolean {
-  if (asset.type !== "image") return false;
+  // 'image' is a real photo; 'placeholder' is a generated SVG name card
+  // used when no portrait is available. Both are allowed to surface on
+  // detail pages as long as they carry a citation and a resolvable URL.
+  if (asset.type !== "image" && asset.type !== "placeholder") return false;
   if (!hasItemCitation(citationKeys, "media_asset", asset.id)) return false;
   return Boolean(resolveMediaAssetUrl(asset));
 }

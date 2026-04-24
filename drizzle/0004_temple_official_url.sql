@@ -1,0 +1,1 @@
+ALTER TABLE `temples` ADD COLUMN `url` text;
