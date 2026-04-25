@@ -74,6 +74,21 @@ export const SRC_OBC = "src_obc";
 /** Plum Village — monastic practice centres directory on plumvillage.org. */
 export const SRC_PLUMVILLAGE_MONASTIC = "src_plumvillage_monastic";
 
+/** San Francisco Zen Center — sfzc.org (Suzuki Roshi lineage; the largest
+ * Sōtō Zen institution in the United States). */
+export const SRC_SFZC = "src_sfzc";
+
+/** Diamond Sangha — Aitken Roshi's network of lay zen sanghas
+ * (Harada-Yasutani-Yamada lineage). */
+export const SRC_DIAMOND_SANGHA = "src_diamond_sangha";
+
+/** Mountains and Rivers Order (Daido Loori, Zen Mountain Monastery). */
+export const SRC_MRO = "src_mountains_rivers";
+
+/** Rinzai-ji — Joshu Sasaki Roshi's network of Rinzai centres in
+ * North America and Europe. */
+export const SRC_RINZAIJI = "src_rinzaiji";
+
 export const SEED_TEMPLES: TempleSeed[] = [
   // ─── Japanese Sōtō ────────────────────────────────────────────────────
   {
@@ -1555,5 +1570,421 @@ export const SEED_TEMPLES: TempleSeed[] = [
     sourceExcerpt:
       "Gokokuzan Sōgenji in Okayama — a ~300-year-old Rinzai monastery where Shōdō Harada Rōshi serves as abbot; the source temple of his worldwide One Drop Zen sangha.",
     url: "https://sogenji.com/",
+  },
+
+  // ─── San Francisco Zen Center network (Suzuki Roshi / Sōtō) ──────────
+  {
+    slug: "sfzc-city-center",
+    names: [
+      { locale: "en", value: "San Francisco Zen Center — City Center" },
+      { locale: "en", value: "Beginner's Mind Temple" },
+      { locale: "ja", value: "発心寺" },
+    ],
+    lat: 37.7757,
+    lng: -122.4239,
+    region: "San Francisco, California",
+    country: "United States",
+    foundedYear: 1969,
+    foundedPrecision: "exact",
+    schoolSlug: "soto",
+    founderSlug: "shunryu-suzuki",
+    status: "active",
+    sourceId: SRC_SFZC,
+    sourceExcerpt:
+      "City Center / Beginner's Mind Temple (Hosshin-ji) at 300 Page Street, San Francisco — established 1969 by Shunryu Suzuki Roshi as the urban temple of the SFZC network.",
+    url: "https://www.sfzc.org/locations/city-center",
+  },
+  {
+    slug: "tassajara-zen-mountain-center",
+    names: [
+      { locale: "en", value: "Tassajara Zen Mountain Center" },
+      { locale: "en", value: "Zenshin-ji" },
+      { locale: "ja", value: "禅心寺" },
+    ],
+    lat: 36.2333,
+    lng: -121.5500,
+    region: "Carmel Valley, California",
+    country: "United States",
+    foundedYear: 1967,
+    foundedPrecision: "exact",
+    schoolSlug: "soto",
+    founderSlug: "shunryu-suzuki",
+    status: "active",
+    sourceId: SRC_SFZC,
+    sourceExcerpt:
+      "Tassajara Zen Mountain Center (Zenshin-ji) — the oldest Sōtō Zen training monastery in the West, founded 1967 by Shunryu Suzuki Roshi in the Ventana Wilderness.",
+    url: "https://www.sfzc.org/locations/tassajara",
+  },
+  {
+    slug: "green-gulch-farm",
+    names: [
+      { locale: "en", value: "Green Gulch Farm Zen Center" },
+      { locale: "en", value: "Green Dragon Temple" },
+      { locale: "ja", value: "蒼龍寺" },
+    ],
+    lat: 37.8625,
+    lng: -122.5808,
+    region: "Muir Beach, Marin County, California",
+    country: "United States",
+    foundedYear: 1972,
+    foundedPrecision: "exact",
+    schoolSlug: "soto",
+    founderSlug: "shunryu-suzuki",
+    status: "active",
+    sourceId: SRC_SFZC,
+    sourceExcerpt:
+      "Green Gulch Farm / Green Dragon Temple (Sōryū-ji) in Muir Beach, Marin County — the SFZC's farm and retreat practice centre.",
+    url: "https://www.sfzc.org/locations/green-gulch-farm",
+  },
+
+  // ─── Maezumi Roshi's home temple in the U.S. ─────────────────────────
+  {
+    slug: "zen-center-of-los-angeles",
+    names: [
+      { locale: "en", value: "Zen Center of Los Angeles" },
+      { locale: "en", value: "Buddha Essence Temple" },
+    ],
+    lat: 34.0480,
+    lng: -118.2965,
+    region: "Los Angeles, California",
+    country: "United States",
+    foundedYear: 1967,
+    foundedPrecision: "exact",
+    schoolSlug: "white-plum-asanga",
+    founderSlug: "taizan-maezumi",
+    status: "active",
+    sourceId: SRC_WHITEPLUM,
+    sourceExcerpt:
+      "Zen Center of Los Angeles (Buddha Essence Temple) at 923 S Normandie Ave — founded 1967 by Taizan Maezumi Roshi; Wendy Egyoku Nakao Roshi currently serves as abbot.",
+    url: "https://zcla.org/",
+  },
+  {
+    slug: "yokoji-zen-mountain-center",
+    names: [
+      { locale: "en", value: "Yokoji Zen Mountain Center" },
+      { locale: "ja", value: "陽光寺" },
+    ],
+    lat: 33.6892,
+    lng: -116.7281,
+    region: "Mountain Center, San Jacinto Mountains, California",
+    country: "United States",
+    foundedYear: 1981,
+    foundedPrecision: "exact",
+    schoolSlug: "white-plum-asanga",
+    founderSlug: "taizan-maezumi",
+    status: "active",
+    sourceId: SRC_WHITEPLUM,
+    sourceExcerpt:
+      "Yokoji Zen Mountain Center, founded 1981 by Taizan Maezumi Roshi in the San Jacinto Mountains; Tenshin Fletcher Roshi serves as abbot.",
+    url: "https://zmc.org/",
+  },
+
+  // ─── Sanbō Zen / Diamond Sangha (Aitken / Yamada Kōun lineage) ───────
+  {
+    slug: "honolulu-diamond-sangha",
+    names: [{ locale: "en", value: "Honolulu Diamond Sangha — Palolo Zen Center" }],
+    lat: 21.3000,
+    lng: -157.7917,
+    region: "Honolulu, Hawaii",
+    country: "United States",
+    foundedYear: 1959,
+    foundedPrecision: "exact",
+    schoolSlug: "sanbo-zen",
+    status: "active",
+    sourceId: SRC_DIAMOND_SANGHA,
+    sourceExcerpt:
+      "Honolulu Diamond Sangha (Palolo Zen Center) — co-founded 1959 by Robert Aitken Roshi and Anne Aitken; the founding sangha of the worldwide Diamond Sangha network in the Harada–Yasutani–Yamada lineage.",
+    url: "https://diamondsangha.org/",
+  },
+  {
+    slug: "maui-zendo",
+    names: [{ locale: "en", value: "Maui Zendo" }],
+    lat: 20.9028,
+    lng: -156.3680,
+    region: "Pā‘ia, Maui, Hawaii",
+    country: "United States",
+    foundedYear: 1969,
+    foundedPrecision: "circa",
+    schoolSlug: "sanbo-zen",
+    status: "active",
+    sourceId: SRC_DIAMOND_SANGHA,
+    sourceExcerpt:
+      "Maui Zendo in Pā‘ia, Hawaii — a lay Diamond Sangha zendo in the Aitken Roshi tradition.",
+    url: "https://www.maui-zendo.org/",
+  },
+  {
+    slug: "pacific-zen-institute",
+    names: [{ locale: "en", value: "Pacific Zen Institute (PZI)" }],
+    lat: 38.4404,
+    lng: -122.7141,
+    region: "Santa Rosa, California",
+    country: "United States",
+    foundedYear: 1987,
+    foundedPrecision: "exact",
+    schoolSlug: "sanbo-zen",
+    status: "active",
+    sourceId: SRC_DIAMOND_SANGHA,
+    sourceExcerpt:
+      "Pacific Zen Institute, founded 1987 in Santa Rosa, California by John Tarrant Roshi (the first Dharma heir of Robert Aitken). The school of choice for koan-based contemporary Zen practice on the West Coast.",
+    url: "https://www.pacificzen.org/",
+  },
+  {
+    slug: "mountain-cloud-zen-center",
+    names: [{ locale: "en", value: "Mountain Cloud Zen Center" }],
+    lat: 35.6075,
+    lng: -105.9214,
+    region: "Santa Fe, New Mexico",
+    country: "United States",
+    foundedYear: 1985,
+    foundedPrecision: "exact",
+    schoolSlug: "sanbo-zen",
+    status: "active",
+    sourceId: SRC_SANBOZEN,
+    sourceExcerpt:
+      "Mountain Cloud Zen Center in Santa Fe — built 1985 by Philip Kapleau Roshi and his students; Henry Shukman Roshi (Sanbō Zen lineage) is teacher emeritus.",
+    url: "https://www.mountaincloud.org/",
+  },
+
+  // ─── Rochester / Kapleau lineage ─────────────────────────────────────
+  {
+    slug: "rochester-zen-center",
+    names: [{ locale: "en", value: "Rochester Zen Center" }],
+    lat: 43.1473,
+    lng: -77.5907,
+    region: "Rochester, New York",
+    country: "United States",
+    foundedYear: 1966,
+    foundedPrecision: "exact",
+    schoolSlug: "sanbo-zen",
+    status: "active",
+    sourceId: SRC_SANBOZEN,
+    sourceExcerpt:
+      "Rochester Zen Center at 7 Arnold Park, founded 1966 by Philip Kapleau Roshi after his Yasutani training; the centre that brought Three Pillars of Zen practice to American soil.",
+    url: "https://www.rzc.org/",
+  },
+
+  // ─── Mountains and Rivers Order (Daido Loori) ────────────────────────
+  {
+    slug: "zen-center-of-new-york-city",
+    names: [
+      { locale: "en", value: "Zen Center of New York City — Fire Lotus Temple" },
+    ],
+    lat: 40.6865,
+    lng: -73.9826,
+    region: "Brooklyn, New York",
+    country: "United States",
+    foundedYear: 1996,
+    foundedPrecision: "circa",
+    schoolSlug: "white-plum-asanga",
+    founderSlug: "john-daido-loori",
+    status: "active",
+    sourceId: SRC_MRO,
+    sourceExcerpt:
+      "Zen Center of New York City (Fire Lotus Temple) in Brooklyn — the urban centre of the Mountains and Rivers Order, the umbrella organisation founded by John Daido Loori at Zen Mountain Monastery.",
+    url: "https://zmm.org/zcnyc/",
+  },
+
+  // ─── Rinzai-ji (Joshu Sasaki Roshi network) ──────────────────────────
+  {
+    slug: "mt-baldy-zen-center",
+    names: [{ locale: "en", value: "Mount Baldy Zen Center" }],
+    lat: 34.2367,
+    lng: -117.6481,
+    region: "Mount Baldy, San Gabriel Mountains, California",
+    country: "United States",
+    foundedYear: 1971,
+    foundedPrecision: "exact",
+    schoolSlug: "rinzai",
+    status: "active",
+    sourceId: SRC_RINZAIJI,
+    sourceExcerpt:
+      "Mount Baldy Zen Center, founded 1971 by Kyozan Joshu Sasaki Roshi — the principal Rinzai-ji training monastery in North America, set on a 99-year U.S. Forest Service lease in the San Gabriel Mountains.",
+    url: "https://www.mbzc.org/",
+  },
+
+  // ─── Other major White Plum / lay Zen American centres ───────────────
+  {
+    slug: "boundless-way-zen-temple",
+    names: [{ locale: "en", value: "Boundless Way Zen Temple" }],
+    lat: 42.2625,
+    lng: -71.8023,
+    region: "Worcester, Massachusetts",
+    country: "United States",
+    foundedYear: 2011,
+    foundedPrecision: "exact",
+    schoolSlug: "white-plum-asanga",
+    status: "active",
+    sourceId: SRC_WHITEPLUM,
+    sourceExcerpt:
+      "Boundless Way Zen Temple in Worcester, Massachusetts — co-founded by James Ishmael Ford and David Rynick Roshi; a Western Zen sangha with roots in Sōtō and Korean Linji.",
+    url: "https://boundlesswayzen.org/",
+  },
+  {
+    slug: "springwater-center",
+    names: [{ locale: "en", value: "Springwater Center" }],
+    lat: 42.6364,
+    lng: -77.5664,
+    region: "Springwater, Finger Lakes, New York",
+    country: "United States",
+    foundedYear: 1981,
+    foundedPrecision: "exact",
+    schoolSlug: "sanbo-zen",
+    status: "active",
+    sourceId: SRC_SANBOZEN,
+    sourceExcerpt:
+      "Springwater Center, founded 1981 by Toni Packer (a Kapleau-trained teacher who departed institutional Zen) and 200 friends — a meditation retreat centre on 212 acres in the Finger Lakes region.",
+    url: "https://www.springwatercenter.org/",
+  },
+
+  // ─── European Zen ────────────────────────────────────────────────────
+  {
+    slug: "stonewater-zen",
+    names: [{ locale: "en", value: "StoneWater Zen Sangha" }],
+    lat: 53.4084,
+    lng: -2.9916,
+    region: "Liverpool",
+    country: "United Kingdom",
+    foundedYear: 2002,
+    foundedPrecision: "circa",
+    schoolSlug: "white-plum-asanga",
+    status: "active",
+    sourceId: SRC_WHITEPLUM,
+    sourceExcerpt:
+      "StoneWater Zen Sangha in Liverpool — a UK White Plum Asanga sangha in the Maezumi lineage led by Dr David Keizan Scott Roshi.",
+    url: "https://www.stonewaterzen.org/",
+  },
+  {
+    slug: "western-chan-fellowship",
+    names: [{ locale: "en", value: "Western Chan Fellowship — Maenllwyd Retreat" }],
+    lat: 52.5444,
+    lng: -3.8400,
+    region: "Mid Wales",
+    country: "United Kingdom",
+    foundedYear: 1997,
+    foundedPrecision: "exact",
+    schoolSlug: "chan",
+    status: "active",
+    sourceId: SRC_WIKIPEDIA,
+    sourceExcerpt:
+      "Western Chan Fellowship — UK Chan charity in the Sheng Yen lineage, founded 1997 by Dr John Crook (first Western Dharma heir of Sheng Yen). The Maenllwyd retreat centre in mid-Wales is its principal site.",
+    url: "https://westernchanfellowship.org/",
+  },
+
+  // ─── Australia ───────────────────────────────────────────────────────
+  {
+    slug: "jikishoan-melbourne",
+    names: [{ locale: "en", value: "Jikishoan Zen Buddhist Community" }],
+    lat: -37.8136,
+    lng: 144.9631,
+    region: "Melbourne, Victoria",
+    country: "Australia",
+    foundedYear: 1999,
+    foundedPrecision: "exact",
+    schoolSlug: "soto",
+    status: "active",
+    sourceId: SRC_SOTOZEN_EUROPE,
+    sourceExcerpt:
+      "Jikishoan Zen Buddhist Community, founded 1999 in Melbourne under Zen Master Ekai Korematsu Osho — a Sōtōshū-affiliated practice community.",
+    url: "https://www.jikishoan.org.au/",
+  },
+  {
+    slug: "zen-open-circle-sydney",
+    names: [{ locale: "en", value: "Zen Open Circle" }],
+    lat: -33.7969,
+    lng: 151.2820,
+    region: "Sydney, New South Wales",
+    country: "Australia",
+    foundedYear: null,
+    foundedPrecision: null,
+    schoolSlug: "sanbo-zen",
+    status: "active",
+    sourceId: SRC_DIAMOND_SANGHA,
+    sourceExcerpt:
+      "Zen Open Circle near Sydney — an Australian Diamond Sangha lineage practice community offering meditation and retreats.",
+    url: "https://www.zenopencircle.org.au/",
+  },
+
+  // ─── Latin America ───────────────────────────────────────────────────
+  {
+    slug: "templo-busshinji-sao-paulo",
+    names: [
+      { locale: "en", value: "Templo Busshinji" },
+      { locale: "pt", value: "Templo Busshinji — Comunidade Sōtō Zen" },
+      { locale: "ja", value: "佛心寺" },
+    ],
+    lat: -23.5610,
+    lng: -46.6358,
+    region: "Liberdade, São Paulo",
+    country: "Brazil",
+    foundedYear: 1956,
+    foundedPrecision: "circa",
+    schoolSlug: "soto",
+    status: "active",
+    sourceId: SRC_SOTOZEN_EUROPE,
+    sourceExcerpt:
+      "Templo Busshinji (佛心寺) in the Liberdade neighbourhood of São Paulo — the central Sōtō Zen temple for South America, listed by Sōtōshū as the regional administrative seat.",
+    url: "https://sotozen.org.br/",
+  },
+  {
+    slug: "mosteiro-zen-morro-da-vargem",
+    names: [
+      { locale: "en", value: "Mosteiro Zen Morro da Vargem" },
+      { locale: "pt", value: "Mosteiro Zen Budista Morro da Vargem" },
+    ],
+    lat: -19.8408,
+    lng: -40.4044,
+    region: "Ibiraçu, Espírito Santo",
+    country: "Brazil",
+    foundedYear: 1974,
+    foundedPrecision: "exact",
+    schoolSlug: "soto",
+    status: "active",
+    sourceId: SRC_SOTOZEN_EUROPE,
+    sourceExcerpt:
+      "Mosteiro Zen Morro da Vargem in Ibiraçu, Espírito Santo — the first Zen monastery in Latin America, founded 1974 by Ryōtan Tokuda Roshi.",
+    url: "https://mosteirozen.com.br/",
+  },
+  {
+    slug: "templo-shobogenji-cordoba",
+    names: [
+      { locale: "en", value: "Templo Zen Shōbōgenji" },
+      { locale: "es", value: "Templo Zen Shōbōgenji" },
+      { locale: "ja", value: "正法源寺" },
+    ],
+    lat: -30.8625,
+    lng: -64.5189,
+    region: "Capilla del Monte, Córdoba",
+    country: "Argentina",
+    foundedYear: 1998,
+    foundedPrecision: "exact",
+    schoolSlug: "soto",
+    founderSlug: "stephane-kosen-thibaut",
+    status: "active",
+    sourceId: SRC_AZI,
+    sourceExcerpt:
+      "Templo Zen Shōbōgenji on Cerro Uritorco in Capilla del Monte, Córdoba — the first Sōtō Zen temple in Latin America in the Deshimaru lineage, founded 1998 by Stéphane Kōsen Thibaut.",
+    url: "https://shobogenji.org/",
+  },
+
+  // ─── Japan — Antaiji (Sawaki / Uchiyama lineage) ─────────────────────
+  {
+    slug: "antaiji",
+    names: [
+      { locale: "en", value: "Antaiji" },
+      { locale: "ja", value: "安泰寺" },
+    ],
+    lat: 35.6256,
+    lng: 134.4983,
+    region: "Shin'onsen, Hyōgo Prefecture",
+    country: "Japan",
+    foundedYear: 1921,
+    foundedPrecision: "exact",
+    schoolSlug: "soto",
+    founderSlug: "sawaki-kodo",
+    status: "active",
+    sourceId: SRC_WIKIPEDIA,
+    sourceExcerpt:
+      "Antaiji (安泰寺) in Shin'onsen, northern Hyōgo Prefecture — a Sōtō Zen training monastery founded 1921 (re-located 1976), the practice home of Kōdō Sawaki Roshi and Kōshō Uchiyama Roshi.",
+    url: "https://antaiji.org/",
   },
 ];
