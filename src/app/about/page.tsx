@@ -1,5 +1,54 @@
 import Link from "next/link";
 import type { Metadata } from "next";
+import { FootnoteList, FootnoteRef, type FootnoteRef as FN } from "@/lib/footnotes";
+
+/**
+ * Wikipedia-style footnotes for the /about page. Each `<FootnoteRef n={N} scope="about" />`
+ * in the JSX below resolves to the entry in this array whose `index` matches.
+ * Authors: order is irrelevant — the renderer sorts by index for the printed list.
+ */
+const ABOUT_FOOTNOTES: FN[] = [
+  {
+    index: 1,
+    sourceTitle: "Zen Buddhism: A History — Volume 1: India and China",
+    author: "Heinrich Dumoulin (trans. James W. Heisig & Paul Knitter)",
+    pageOrSection: "pp. 85–94",
+    sourceUrl: "https://wisdomexperience.org/product/zen-buddhism-a-history-volume-1/",
+  },
+  {
+    index: 2,
+    sourceTitle: "Zen Buddhism: A History — Volume 1: India and China",
+    author: "Heinrich Dumoulin",
+    pageOrSection: "pp. 132–141",
+  },
+  {
+    index: 3,
+    sourceTitle: "Seeing through Zen: Encounter, Transformation, and Genealogy in Chinese Chan Buddhism",
+    author: "John R. McRae",
+    pageOrSection: "pp. 12–13",
+    sourceUrl: "https://www.ucpress.edu/book/9780520237988/seeing-through-zen",
+  },
+  {
+    index: 4,
+    sourceTitle: "Seeing through Zen",
+    author: "John R. McRae",
+    pageOrSection: "p. 13",
+    excerpt:
+      "These lines should not be understood as a historically accurate description of Chan; rather, they encode how the tradition came to articulate its own identity.",
+  },
+  {
+    index: 5,
+    sourceTitle: "Chan Insights and Oversights: An Epistemological Critique of the Chan Tradition",
+    author: "Bernard Faure",
+    pageOrSection: "ch. 5",
+  },
+  {
+    index: 6,
+    sourceTitle: "The Kōan: Texts and Contexts in Zen Buddhism",
+    author: "Steven Heine & Dale S. Wright (eds.)",
+    pageOrSection: "Mohr, \"Hakuin's Daruma\" (ch. 8)",
+  },
+];
 
 export const metadata: Metadata = {
   title: "About Zen",
@@ -71,12 +120,17 @@ export default function AboutPage() {
 
       <div className="detail-layout">
         <section className="detail-hero">
-          {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img
-            src="/about-enso.webp"
-            alt="Ensō — a circle drawn in one brushstroke, symbolizing enlightenment, the universe, and the void in Zen"
-            className="detail-hero-image"
-          />
+          <figure className="detail-hero-figure">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src="/about-enso.webp"
+              alt="Ensō — a circle drawn in one brushstroke, symbolizing enlightenment, the universe, and the void in Zen"
+              className="detail-hero-image"
+            />
+            <figcaption className="figure-credit">
+              Ensō — brushstroke study, public domain via Wikimedia Commons.
+            </figcaption>
+          </figure>
           <p className="detail-eyebrow">Introduction</p>
           <h2 className="detail-title">What is Zen Lineage?</h2>
           <p className="detail-subtitle">An open encyclopedia of Chan and Zen history</p>
@@ -129,9 +183,8 @@ export default function AboutPage() {
                 Bodhidharma
               </Link>{" "}
               later became the emblematic first patriarch of Chan in the tradition&rsquo;s lineage
-              accounts (Dumoulin, <em>Zen Buddhism: A History &mdash; India and China</em>, 2005,
-              pp. 85&ndash;94). In Korean the tradition is called <em>Seon</em> (선/禪), and in
-              Vietnamese, <em>Thiền</em>.
+              accounts<FootnoteRef n={1} scope="about" />. In Korean the tradition is called{" "}
+              <em>Seon</em> (선/禪), and in Vietnamese, <em>Thiền</em>.
             </p>
           </div>
         </section>
@@ -145,8 +198,7 @@ export default function AboutPage() {
               meditation practice (<em>zuòchán</em> / <em>zazen</em>) and direct, experiential
               insight into one&rsquo;s own nature (<em>jiànxìng</em> 見性, Japanese <em>kenshō</em>)
               as the primary path to awakening, rather than sole reliance on doctrinal study or
-              ritual observance (Dumoulin, <em>Zen Buddhism: A History &mdash; India and China</em>,
-              2005, pp. 7&ndash;12).
+              ritual observance<FootnoteRef n={2} scope="about" />.
             </p>
             <p>
               A celebrated four-line verse, traditionally attributed to
@@ -154,7 +206,7 @@ export default function AboutPage() {
                 Bodhidharma
               </Link>{" "}
               but likely compiled in the late Tang period, captures the school&rsquo;s
-              self-understanding (McRae, <em>Seeing Through Zen</em>, 2003, pp. 12&ndash;13):
+              self-understanding<FootnoteRef n={3} scope="about" />:
             </p>
             <blockquote
               style={{
@@ -178,20 +230,26 @@ export default function AboutPage() {
             <p>
               As John McRae notes, these lines &ldquo;should not be understood as a historically
               accurate description of Chan&rsquo;s origins, but as a retrospective distillation of
-              its identity&rdquo; (McRae, 2003, p. 13). Zen has always been embedded in the broader
-              Mahāyāna tradition: its monasteries follow the Vinaya, its liturgy draws on sutras,
-              and its doctrinal vocabulary is shaped by Madhyamaka and Yogācāra philosophy (Faure,{" "}
-              <em>The Rhetoric of Immediacy</em>, 1991, pp. 15&ndash;31).
+              its identity&rdquo;<FootnoteRef n={4} scope="about" />. Zen has always been embedded
+              in the broader Mahāyāna tradition: its monasteries follow the Vinaya, its liturgy
+              draws on sutras, and its doctrinal vocabulary is shaped by Madhyamaka and Yogācāra
+              philosophy<FootnoteRef n={5} scope="about" />.
             </p>
           </div>
         </section>
 
-        {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img
-          src="/masters/puti-damo.webp"
-          alt="Bodhidharma (Puti Damo), the First Patriarch of Chan Buddhism"
-          className="about-section-image"
-        />
+        <figure className="about-figure">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src="/masters/puti-damo.webp"
+            alt="Bodhidharma (Puti Damo), the First Patriarch of Chan Buddhism"
+            className="about-section-image"
+          />
+          <figcaption className="figure-credit">
+            Bodhidharma — ink portrait attributed to Yi Yuanji, 11th c. (Wikimedia Commons,
+            public domain).
+          </figcaption>
+        </figure>
 
         <section className="detail-card">
           <h3 className="detail-section-title">Core Practice: Zazen</h3>
@@ -221,19 +279,22 @@ export default function AboutPage() {
               <Link className="detail-inline-link" href="/masters/hakuin-ekaku">
                 Hakuin Ekaku
               </Link>{" "}
-              (1686&ndash;1769), who systematised kōan practice into a structured curriculum (Mohr,{" "}
-              <em>Hakuin&rsquo;s Daruma</em>, in Heine &amp; Wright, eds., <em>The Kōan</em>, 2000,
-              pp. 84&ndash;109).
+              (1686&ndash;1769), who systematised kōan practice into a structured curriculum<FootnoteRef n={6} scope="about" />.
             </p>
           </div>
         </section>
 
-        {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img
-          src="/masters/dogen.webp"
-          alt="Dogen Zenji, founder of Soto Zen in Japan"
-          className="about-section-image"
-        />
+        <figure className="about-figure">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src="/masters/dogen.webp"
+            alt="Dogen Zenji, founder of Soto Zen in Japan"
+            className="about-section-image"
+          />
+          <figcaption className="figure-credit">
+            Dōgen Zenji (1200–1253) — historical portrait via Wikimedia Commons, public domain.
+          </figcaption>
+        </figure>
 
         <section className="detail-card">
           <h3 className="detail-section-title">Key Concepts</h3>
@@ -299,12 +360,18 @@ export default function AboutPage() {
           </div>
         </section>
 
-        {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img
-          src="/masters/dajian-huineng.webp"
-          alt="Huineng, the Sixth Patriarch of Chan Buddhism"
-          className="about-section-image"
-        />
+        <figure className="about-figure">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src="/masters/dajian-huineng.webp"
+            alt="Huineng, the Sixth Patriarch of Chan Buddhism"
+            className="about-section-image"
+          />
+          <figcaption className="figure-credit">
+            Dajian Huineng (638–713), the Sixth Patriarch — silk hanging scroll, 13th c.
+            (Wikimedia Commons, public domain).
+          </figcaption>
+        </figure>
 
         <section className="detail-card">
           <h3 className="detail-section-title">Historical Development</h3>
@@ -332,12 +399,18 @@ export default function AboutPage() {
           </div>
         </section>
 
-        {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img
-          src="/masters/hakuin-ekaku.webp"
-          alt="Hakuin Ekaku, reviver of the Rinzai school"
-          className="about-section-image"
-        />
+        <figure className="about-figure">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src="/masters/hakuin-ekaku.webp"
+            alt="Hakuin Ekaku, reviver of the Rinzai school"
+            className="about-section-image"
+          />
+          <figcaption className="figure-credit">
+            Hakuin Ekaku (1686–1769), self-portrait — ink on paper (Wikimedia Commons,
+            public domain).
+          </figcaption>
+        </figure>
 
         <section className="detail-card">
           <h3 className="detail-section-title">The Major Schools</h3>
@@ -430,12 +503,18 @@ export default function AboutPage() {
           </div>
         </section>
 
-        {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img
-          src="/masters/shunryu-suzuki.webp"
-          alt="Shunryu Suzuki, who helped establish Soto Zen in the United States"
-          className="about-section-image"
-        />
+        <figure className="about-figure">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src="/masters/shunryu-suzuki.webp"
+            alt="Shunryu Suzuki, who helped establish Soto Zen in the United States"
+            className="about-section-image"
+          />
+          <figcaption className="figure-credit">
+            Shunryū Suzuki (1904–1971), founding teacher of San Francisco Zen Center
+            (photo via Wikimedia Commons, fair use / educational).
+          </figcaption>
+        </figure>
 
         <section className="detail-card">
           <h3 className="detail-section-title">The Ensō</h3>
@@ -468,7 +547,15 @@ export default function AboutPage() {
         </section>
 
         <section className="detail-card">
-          <h3 className="detail-section-title">Sources Cited</h3>
+          <FootnoteList refs={ABOUT_FOOTNOTES} scope="about" title="Notes" />
+        </section>
+
+        <section className="detail-card">
+          <h3 className="detail-section-title">Bibliography</h3>
+          <p className="detail-list-meta" style={{ marginBottom: "1rem" }}>
+            Full literature list — every work referenced in the inline notes above plus the
+            general scholarly background.
+          </p>
           <ul className="detail-source-list">
             <li>
               <div className="detail-source-heading">

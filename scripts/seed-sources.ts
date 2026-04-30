@@ -250,6 +250,15 @@ const SOURCES = [
     reliability: "scholarly",
   },
   {
+    id: "src_heine_wright_koan",
+    type: "edited_volume",
+    title: "The Kōan: Texts and Contexts in Zen Buddhism",
+    author: "Steven Heine & Dale S. Wright (eds.)",
+    url: "https://global.oup.com/academic/product/the-koan-9780195117486",
+    publicationDate: "2000",
+    reliability: "scholarly",
+  },
+  {
     id: "src_shambhala_zen_dictionary",
     type: "reference",
     title: "The Shambhala Dictionary of Buddhism and Zen",

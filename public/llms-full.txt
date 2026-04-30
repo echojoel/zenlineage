@@ -8,7 +8,7 @@ Zen Lineage maps the dharma transmission lineages connecting Buddhist masters
 from Shakyamuni Buddha through Bodhidharma to modern teachers. All content
 requires item-level citations from scholarly sources before publication.
 
-Generated: 2026-04-25
+Generated: 2026-04-29
 
 ---
 
@@ -439,9 +439,9 @@ Zhishen's role in the Jingzhong lineage represents the tradition's geographical 
 - **Teachers:** Daman Hongren
 - **Students:** Heze Shenhui, Nanyang Huizhong, Nanyue Huairang, Qingyuan Xingsi, Yongjia Xuanjue, Bojo Jinul
 
-Dajian Huineng, the sixth and final patriarch of undivided Chinese Chan, was an illiterate wood-seller from Guangdong province who became the most influential figure in the entire Chan tradition. His story of recognition by Hongren and subsequent flight southward with the robe and bowl, pursued by monks who sought to reclaim the symbol of patriarchal authority, became one of the founding narratives of Chan. His teaching was eventually recorded in the Platform Sutra, the only Chinese Buddhist text accorded the status of a sutra.
+Dajian Huineng, the sixth and final patriarch of undivided Chinese Chan, was an illiterate wood-seller from Guangdong province who became the most influential figure in the entire Chan tradition[1]. His story of recognition by Hongren and subsequent flight southward with the robe and bowl, pursued by monks who sought to reclaim the symbol of patriarchal authority, became one of the founding narratives of Chan[2]. His teaching was eventually recorded in the Platform Sutra, the only Chinese Buddhist text accorded the status of a sutra[3].
 
-Huineng's central teaching was the direct, sudden recognition of original mind, which he called the "no-thought" or "no-mind" approach.
+Huineng's central teaching was the direct, sudden recognition of original mind, which he called the "no-thought" or "no-mind" approach[4].
 
 ### Zizhou Chuji
 
@@ -975,7 +975,7 @@ Ejo compiled the Shobogenzo Zuimonki, a collection of Dogen's informal talks tha
 - **Teachers:** Tiantong Rujing
 - **Students:** Koun Ejo
 
-Eihei Dogen was the founder of the Soto school of Zen in Japan and one of the most profound religious philosophers in world history. Born into a noble family in 1200, he entered the monastery as a child and came to question why, if all beings are originally endowed with Buddha nature, they still need to practice. Unable to find a satisfying answer in Japan, he traveled to China in 1223 and studied with Tiantong Rujing, under whom he experienced the moment of "dropping off body and mind." He returned to Japan in 1227 and spent the rest of his life teaching, writing, and establishing the Soto monastic tradition.
+Eihei Dogen was the founder of the Soto school of Zen in Japan and one of the most profound religious philosophers in world history[1]. Born into a noble family in 1200, he entered the monastery as a child and came to question why, if all beings are originally endowed with Buddha nature, they still need to practice. Unable to find a satisfying answer in Japan, he traveled to China in 1223 and studied with Tiantong Rujing, under whom he experienced the moment of "dropping off body and mind."[2] He returned to Japan in 1227 and spent the rest of his life teaching, writing, and establishing the Soto monastic tradition[3].
 
 ### Shinchi Kakushin
 
@@ -1587,9 +1587,9 @@ Gankei's role in the Soto lineage reflects the tradition's organic development a
 - **Teachers:** Shoju Rojin
 - **Students:** Gasan Jito
 
-Hakuin Ekaku, who lived from 1686 to 1769, is credited with single-handedly reviving and systematizing the Rinzai school of Zen after a period of significant decline. Through his own intense and prolonged practice—marked by repeated experiences of kensho and equally repeated disillusionment when he recognized deeper layers of his own confusion—Hakuin developed a curriculum of koan practice that moved systematically through progressively deeper layers of inquiry. This curriculum became the standard structure for Rinzai training that continues to this day.
+Hakuin Ekaku, who lived from 1686 to 1769, is credited with single-handedly reviving and systematizing the Rinzai school of Zen after a period of significant decline[1]. Through his own intense and prolonged practice—marked by repeated experiences of kensho and equally repeated disillusionment when he recognized deeper layers of his own confusion—Hakuin developed a curriculum of koan practice that moved systematically through progressively deeper layers of inquiry. This curriculum became the standard structure for Rinzai training that continues to this day[2].
 
-Hakuin's own biography is written in his awakening autobiography Orategama and Wild Ivy, extraordinary documents of the psychological and physical extremes of intensive practice.
+Hakuin's own biography is written in his awakening autobiography Orategama and Wild Ivy, extraordinary documents of the psychological and physical extremes of intensive practice[3].
 
 ### Gessen Zenne
 
@@ -2154,7 +2154,7 @@ Katagiri's teaching was characterized by a warmth and accessibility that made Ze
 - **Teachers:** Yasutani Hakuun, Baian Hakujun Kuroda, Osaka Koryu, Yamada Koun
 - **Students:** Bernie Tetsugen Glassman, Charlotte Joko Beck, Dennis Genpo Merzel, John Daido Loori, Jan Chozen Bays, Gerry Shishin Wick, Nicolee Jikyo McCann, William Nyogen Yeo, Susan Myoyu Andersen, John Tesshin Sanderson, Alfred Jitsudo Ancheta, Anne Seisen Saunders
 
-Taizan Maezumi was a Soto Zen master who founded the Zen Center of Los Angeles and became one of the most influential Zen teachers in the Western world. Born in 1931 into a Soto Zen temple family, he came to Los Angeles in 1956 and gradually built a community that became a major center for American Zen practice. ZCLA's own founder history records that the center was established by Maezumi Roshi together with his father Baian Hakujun Kuroda, and that Maezumi had already begun koan practice with Yasutani Roshi. He held dharma transmission in three lineages—Soto, Rinzai, and Sanbo Kyodan—giving him an unusually comprehensive perspective.
+Taizan Maezumi was a Soto Zen master who founded the Zen Center of Los Angeles and became one of the most influential Zen teachers in the Western world. Born in 1931 into a Soto Zen temple family[1], he came to Los Angeles in 1956 and gradually built a community that became a major center for American Zen practice. ZCLA's own founder history records that the center was established by Maezumi Roshi together with his father Baian Hakujun Kuroda, and that Maezumi had already begun koan practice with Yasutani Roshi[2]. He held dharma transmission in three lineages—Soto, Rinzai, and Sanbo Kyodan—giving him an unusually comprehensive perspective[3].
 
 ### John Daido Loori
 
@@ -2240,9 +2240,7 @@ Habito's work represents one of the most creative dimensions of the Sanbo Kyodan
 - **Teachers:** Taisen Deshimaru
 - **Students:** Yves Shoshin Crettaz
 
-Raphaël Dōkō Triet (b. 1950) is a French Sōtō Zen monk in the Deshimaru lineage and abbot of Templo Zen Seikyūji near Seville, Spain. He began zazen with Taisen Deshimaru at the Paris dōjō in 1971 and was ordained as a monk in 1973. He led the Paris dōjō from 1990 to 1997 and presided over the Association Zen Internationale (AZI) from 2004 to 2013. In 1995 he settled in Spain, and in 1997 he founded the Centre Zen de Lisboa (Dōjō Zen de Lisboa, Ryumonji) in Portugal. He received Dharma transmission (shihō) from Master Yūkō Okamoto — a close disciple of Deshimaru — in 1997.
-
-Triet's teaching continues Deshimaru's emphasis on zazen as the heart of Sōtō practice, transmitted through kusen (oral teaching during seated meditation) and the unity of practice on and off the cushion.
+Raphaël Dōkō Triet (b. 1950) is a French Sōtō Zen monk in the Deshimaru lineage and abbot of Templo Zen Seikyūji near Seville, Spain[1]. He began zazen with Taisen Deshimaru at the Paris dōjō in 1971 and was ordained as a monk in 1973[1]. He led the Paris dōjō from 1990 to 1997 and presided over the Association Zen Internationale (AZI) from 2004 to 2013[1]. In 1995 he settled in Spain, and in 1997 he founded the Centre Zen de Lisboa (Dōjō Zen de Lisboa, Ryumonji) in Portugal[2]. He received Dharma transmission (shihō) from Master Yūkō Okamoto — a close disciple of Deshimaru — in 1997[1].
 
 ### Susan Myoyu Andersen
 
@@ -4668,14 +4666,14 @@ The Taego Order (太古宗, 태고종) is the second largest Buddhist order in K
 - **Tradition:** Zen
 - **Masters:** 89
 
-The Soto school (曹洞宗) is the Japanese continuation of the Chinese Caodong tradition, founded by Eihei Dogen (1200–1253) after his training with Tiantong Rujing in China. It is the largest Zen denomination in Japan. Soto's central practice is shikantaza ('just sitting')—zazen practiced as the direct expression of awakening itself, not as a means to attain enlightenment. Dogen articulated this in his masterwork the Shobogenzo—which is itself largely composed of koan commentary and philosophical inquiry—and in his practical manual the Fukanzazengi. The school's second great figure, Keizan Jokin (1264–1325), founded Sojiji Temple and made Soto practice accessible to a broad Japanese population through the integration of esoteric ritual and ancestor veneration. Together, Eiheiji (Dogen's temple) and Sojiji serve as the school's two head monasteries. In the modern era, the Soto tradition has been carried to the West by teachers including Shunryu Suzuki (San Francisco Zen Center), Taisen Deshimaru (Association Zen Internationale, Europe), Taizan Maezumi (Zen Center of Los Angeles), and Dainin Katagiri (Minnesota Zen Center), establishing vibrant practice communities across North America and Europe.
+The Soto school (曹洞宗) is the Japanese continuation of the Chinese Caodong tradition, founded by Eihei Dogen (1200–1253) after his training with Tiantong Rujing in China[1]. It is the largest Zen denomination in Japan[2]. Soto's central practice is shikantaza ('just sitting')—zazen practiced as the direct expression of awakening itself, not as a means to attain enlightenment[3]. Dogen articulated this in his masterwork the Shobogenzo—which is itself largely composed of koan commentary and philosophical inquiry—and in his practical manual the Fukanzazengi[3]. The school's second great figure, Keizan Jokin (1264–1325), founded Sojiji Temple and made Soto practice accessible to a broad Japanese population through the integration of esoteric ritual and ancestor veneration[1]. Together, Eiheiji (Dogen's temple) and Sojiji serve as the school's two head monasteries. In the modern era, the Soto tradition has been carried to the West by teachers including Shunryu Suzuki (San Francisco Zen Center), Taisen Deshimaru (Association Zen Internationale, Europe), Taizan Maezumi (Zen Center of Los Angeles), and Dainin Katagiri (Minnesota Zen Center), establishing vibrant practice communities across North America and Europe[4].
 
 ### Rinzai
 
 - **Tradition:** Zen
 - **Masters:** 60
 
-The Rinzai school (臨済宗) is the Japanese form of the Chinese Linji tradition, transmitted to Japan through multiple lineages during the Kamakura period (1185–1333). The school's defining figure is Hakuin Ekaku (1686–1769), who single-handedly revived and systematized Rinzai practice after a period of decline. Hakuin developed the structured koan curriculum that remains standard today—beginning with the Mu koan or the sound of one hand clapping, then progressing through increasingly subtle layers of inquiry. His emphasis on 'great doubt, great faith, great determination' as the three pillars of practice became definitive. The modern Rinzai school is organized primarily through the O-To-Kan lineage: Nanpo Jomyo (Daio Kokushi) received transmission from the Chinese master Xutang Zhiyu, transmitted to Shuho Myocho (Daito Kokushi, founder of Daitokuji), who transmitted to Kanzan Egen (founder of Myoshinji). These two temple complexes—Daitokuji and Myoshinji—and their extensive branch networks form the institutional backbone of modern Rinzai Zen. The school profoundly influenced Japanese culture, including the tea ceremony, calligraphy, ink painting, garden design, and the martial arts.
+The Rinzai school (臨済宗) is the Japanese form of the Chinese Linji tradition, transmitted to Japan through multiple lineages during the Kamakura period (1185–1333)[1]. The school's defining figure is Hakuin Ekaku (1686–1769), who single-handedly revived and systematized Rinzai practice after a period of decline[2]. Hakuin developed the structured koan curriculum that remains standard today—beginning with the Mu koan or the sound of one hand clapping, then progressing through increasingly subtle layers of inquiry. His emphasis on 'great doubt, great faith, great determination' as the three pillars of practice became definitive[2]. The modern Rinzai school is organized primarily through the O-To-Kan lineage: Nanpo Jomyo (Daio Kokushi) received transmission from the Chinese master Xutang Zhiyu, transmitted to Shuho Myocho (Daito Kokushi, founder of Daitokuji), who transmitted to Kanzan Egen (founder of Myoshinji)[3]. These two temple complexes—Daitokuji and Myoshinji—and their extensive branch networks form the institutional backbone of modern Rinzai Zen. The school profoundly influenced Japanese culture, including the tea ceremony, calligraphy, ink painting, garden design, and the martial arts.
 
 ### Yangqi line
 

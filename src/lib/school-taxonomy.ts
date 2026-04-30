@@ -27,6 +27,16 @@ export interface SchoolKeyConcept {
   url?: string;
 }
 
+export interface SchoolFootnote {
+  /** 1-based; matches `[N]` markers in `summary` and `practice`. */
+  index: number;
+  sourceTitle: string;
+  sourceUrl?: string;
+  author?: string;
+  pageOrSection?: string;
+  excerpt?: string;
+}
+
 export interface SchoolDefinition {
   slug: string;
   name: string;
@@ -35,6 +45,9 @@ export interface SchoolDefinition {
   aliases: string[];
   summary: string;
   practice?: string;
+  /** Inline references for `summary` and `practice` prose. Marker `[N]`
+   * in the text resolves to the entry whose `index === N`. */
+  footnotes?: SchoolFootnote[];
   /** Canonical writings of this school — Shōbōgenzō, Linji Lu, etc.
    * Rendered in a dedicated section on the school detail page. */
   keyTexts?: SchoolKeyText[];
@@ -465,9 +478,43 @@ const SCHOOL_DEFINITIONS: SchoolDefinition[] = [
     aliases: ["soto", "sōtō", "soto zen", "caodong/soto", "曹洞宗"],
     nativeNames: { ja: "曹洞宗" },
     summary:
-      "The Soto school (曹洞宗) is the Japanese continuation of the Chinese Caodong tradition, founded by Eihei Dogen (1200–1253) after his training with Tiantong Rujing in China. It is the largest Zen denomination in Japan. Soto's central practice is shikantaza ('just sitting')—zazen practiced as the direct expression of awakening itself, not as a means to attain enlightenment. Dogen articulated this in his masterwork the Shobogenzo—which is itself largely composed of koan commentary and philosophical inquiry—and in his practical manual the Fukanzazengi. The school's second great figure, Keizan Jokin (1264–1325), founded Sojiji Temple and made Soto practice accessible to a broad Japanese population through the integration of esoteric ritual and ancestor veneration. Together, Eiheiji (Dogen's temple) and Sojiji serve as the school's two head monasteries. In the modern era, the Soto tradition has been carried to the West by teachers including Shunryu Suzuki (San Francisco Zen Center), Taisen Deshimaru (Association Zen Internationale, Europe), Taizan Maezumi (Zen Center of Los Angeles), and Dainin Katagiri (Minnesota Zen Center), establishing vibrant practice communities across North America and Europe.",
+      "The Soto school (曹洞宗) is the Japanese continuation of the Chinese Caodong tradition, founded by Eihei Dogen (1200–1253) after his training with Tiantong Rujing in China[1]. It is the largest Zen denomination in Japan[2]. Soto's central practice is shikantaza ('just sitting')—zazen practiced as the direct expression of awakening itself, not as a means to attain enlightenment[3]. Dogen articulated this in his masterwork the Shobogenzo—which is itself largely composed of koan commentary and philosophical inquiry—and in his practical manual the Fukanzazengi[3]. The school's second great figure, Keizan Jokin (1264–1325), founded Sojiji Temple and made Soto practice accessible to a broad Japanese population through the integration of esoteric ritual and ancestor veneration[1]. Together, Eiheiji (Dogen's temple) and Sojiji serve as the school's two head monasteries. In the modern era, the Soto tradition has been carried to the West by teachers including Shunryu Suzuki (San Francisco Zen Center), Taisen Deshimaru (Association Zen Internationale, Europe), Taizan Maezumi (Zen Center of Los Angeles), and Dainin Katagiri (Minnesota Zen Center), establishing vibrant practice communities across North America and Europe[4].",
     practice:
-      "Soto Zen’s central practice is shikantaza (‘just sitting’)—zazen as the direct expression of awakening rather than a technique aimed at producing it. Dogen’s Fukanzazengi (‘Universally Recommended Instructions for Zazen’), written soon after his return from China, is not just a slogan for sitting: it is a concise manual that explains why zazen matters and how to do it. In line with Soto practice as presented by Sotoshu, it emphasizes a clean and quiet sitting place, an upright stable posture, full- or half-lotus if possible, the cosmic mudra, eyes kept open, natural breathing through the nose, and the instruction not to chase thoughts or suppress them but to let them arise and fall away while returning to posture and wakefulness. This is the practical side of Dogen’s teaching that practice and realization are one (shusho ittō). Koans are also integral to the Soto tradition—Dogen compiled the Shinji Shobogenzo (300 cases) and his Shobogenzo is largely koan commentary—but they are generally approached as expressions of realized truth rather than used as concentration devices during zazen in the Rinzai manner. Monastic life extends the same discipline into kinhin (walking meditation), oryoki (formal meals), samu (work practice), chanting, and temple ritual, so that sitting and everyday activity are treated as one continuous field of practice.",
+      "Soto Zen’s central practice is shikantaza (‘just sitting’)—zazen as the direct expression of awakening rather than a technique aimed at producing it[3]. Dogen’s Fukanzazengi (‘Universally Recommended Instructions for Zazen’), written soon after his return from China, is not just a slogan for sitting: it is a concise manual that explains why zazen matters and how to do it. In line with Soto practice as presented by Sotoshu, it emphasizes a clean and quiet sitting place, an upright stable posture, full- or half-lotus if possible, the cosmic mudra, eyes kept open, natural breathing through the nose, and the instruction not to chase thoughts or suppress them but to let them arise and fall away while returning to posture and wakefulness[5]. This is the practical side of Dogen’s teaching that practice and realization are one (shusho ittō). Koans are also integral to the Soto tradition—Dogen compiled the Shinji Shobogenzo (300 cases) and his Shobogenzo is largely koan commentary—but they are generally approached as expressions of realized truth rather than used as concentration devices during zazen in the Rinzai manner. Monastic life extends the same discipline into kinhin (walking meditation), oryoki (formal meals), samu (work practice), chanting, and temple ritual, so that sitting and everyday activity are treated as one continuous field of practice.",
+    footnotes: [
+      {
+        index: 1,
+        sourceTitle: "Sōtō Zen — Sōtōshū global website (Two Founders)",
+        sourceUrl: "https://www.sotozen.com/eng/about/Buddha_founders/",
+        author: "Sōtōshū Shūmuchō",
+      },
+      {
+        index: 2,
+        sourceTitle: "Zen Buddhism: A History — Japan",
+        author: "Heinrich Dumoulin",
+        pageOrSection: "vol. 2, ch. 2",
+      },
+      {
+        index: 3,
+        sourceTitle: "Treasury of the True Dharma Eye — Shōbōgenzō",
+        author: "Kazuaki Tanahashi (ed. & trans.)",
+        sourceUrl: "https://www.shambhala.com/treasury-of-the-true-dharma-eye-1450.html",
+        pageOrSection: "Editor's introduction; Genjōkōan",
+      },
+      {
+        index: 4,
+        sourceTitle: "Sōtō Zen Buddhist Association",
+        sourceUrl: "https://www.szba.org/",
+        excerpt:
+          "SZBA member roster covers SFZC, AZI, Maezumi/White Plum, Katagiri lineage, OBC, and many more.",
+      },
+      {
+        index: 5,
+        sourceTitle: "Fukan Zazengi — Universal Recommendations for Zazen",
+        author: "Dōgen, trans. Sōtōshū",
+        sourceUrl: "https://global.sotozen-net.or.jp/eng/library/dogenzenji/023.html",
+      },
+    ],
     keyTexts: [
       {
         title: "Shōbōgenzō",
@@ -707,9 +754,35 @@ const SCHOOL_DEFINITIONS: SchoolDefinition[] = [
     aliases: ["rinzai", "linji/rinzai", "臨済宗"],
     nativeNames: { ja: "臨済宗" },
     summary:
-      "The Rinzai school (臨済宗) is the Japanese form of the Chinese Linji tradition, transmitted to Japan through multiple lineages during the Kamakura period (1185–1333). The school's defining figure is Hakuin Ekaku (1686–1769), who single-handedly revived and systematized Rinzai practice after a period of decline. Hakuin developed the structured koan curriculum that remains standard today—beginning with the Mu koan or the sound of one hand clapping, then progressing through increasingly subtle layers of inquiry. His emphasis on 'great doubt, great faith, great determination' as the three pillars of practice became definitive. The modern Rinzai school is organized primarily through the O-To-Kan lineage: Nanpo Jomyo (Daio Kokushi) received transmission from the Chinese master Xutang Zhiyu, transmitted to Shuho Myocho (Daito Kokushi, founder of Daitokuji), who transmitted to Kanzan Egen (founder of Myoshinji). These two temple complexes—Daitokuji and Myoshinji—and their extensive branch networks form the institutional backbone of modern Rinzai Zen. The school profoundly influenced Japanese culture, including the tea ceremony, calligraphy, ink painting, garden design, and the martial arts.",
+      "The Rinzai school (臨済宗) is the Japanese form of the Chinese Linji tradition, transmitted to Japan through multiple lineages during the Kamakura period (1185–1333)[1]. The school's defining figure is Hakuin Ekaku (1686–1769), who single-handedly revived and systematized Rinzai practice after a period of decline[2]. Hakuin developed the structured koan curriculum that remains standard today—beginning with the Mu koan or the sound of one hand clapping, then progressing through increasingly subtle layers of inquiry. His emphasis on 'great doubt, great faith, great determination' as the three pillars of practice became definitive[2]. The modern Rinzai school is organized primarily through the O-To-Kan lineage: Nanpo Jomyo (Daio Kokushi) received transmission from the Chinese master Xutang Zhiyu, transmitted to Shuho Myocho (Daito Kokushi, founder of Daitokuji), who transmitted to Kanzan Egen (founder of Myoshinji)[3]. These two temple complexes—Daitokuji and Myoshinji—and their extensive branch networks form the institutional backbone of modern Rinzai Zen. The school profoundly influenced Japanese culture, including the tea ceremony, calligraphy, ink painting, garden design, and the martial arts.",
     practice:
-      "Rinzai Zen is defined by Hakuin Ekaku’s systematized koan curriculum, in which practitioners work through a graded sequence of koans in private sanzen interviews, often beginning with Mu or ‘the sound of one hand’ and moving through breakthrough, integration, and embodiment cases. Hakuin made ‘great doubt, great faith, and great determination’ the engine of practice, and he paired koan work with strong posture, concentrated breath-energy, and demanding retreat discipline. Intensive sesshin, with many hours of zazen and repeated sanzen, is the classic environment in which doubt ripens into kensho (seeing one’s true nature). After initial breakthrough, training continues through further koans, literary study, and continued interview so that insight is refined rather than romanticized.",
+      "Rinzai Zen is defined by Hakuin Ekaku’s systematized koan curriculum, in which practitioners work through a graded sequence of koans in private sanzen interviews, often beginning with Mu or ‘the sound of one hand’ and moving through breakthrough, integration, and embodiment cases[2]. Hakuin made ‘great doubt, great faith, and great determination’ the engine of practice, and he paired koan work with strong posture, concentrated breath-energy, and demanding retreat discipline. Intensive sesshin, with many hours of zazen and repeated sanzen, is the classic environment in which doubt ripens into kensho (seeing one’s true nature)[4]. After initial breakthrough, training continues through further koans, literary study, and continued interview so that insight is refined rather than romanticized.",
+    footnotes: [
+      {
+        index: 1,
+        sourceTitle: "Zen Buddhism: A History — Japan",
+        author: "Heinrich Dumoulin",
+        pageOrSection: "vol. 2, chs. 1–4 (Kamakura transmissions)",
+      },
+      {
+        index: 2,
+        sourceTitle: "Zen Buddhism: A History — Japan",
+        author: "Heinrich Dumoulin",
+        pageOrSection: "vol. 2, ch. 11 ('Hakuin Ekaku and Rinzai renewal')",
+      },
+      {
+        index: 3,
+        sourceTitle: "Rinzai-Ōbaku Zen — Head Temples directory",
+        sourceUrl: "https://zen.rinnou.net/head_temples/",
+        author: "Rinzai-Ōbaku Federation",
+      },
+      {
+        index: 4,
+        sourceTitle: "The Kōan: Texts and Contexts in Zen Buddhism",
+        author: "Steven Heine & Dale S. Wright (eds.)",
+        pageOrSection: "ch. 6",
+      },
+    ],
     keyTexts: [
       {
         title: "Song of Zazen",

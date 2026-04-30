@@ -17,8 +17,20 @@ import {
   teachingMasterRoles,
 } from "@/db/schema";
 import { formatDateWithPrecision } from "@/lib/date-format";
-import { getSchoolDefinition } from "@/lib/school-taxonomy";
+import { getSchoolDefinition, type SchoolFootnote } from "@/lib/school-taxonomy";
 import { isTier1Master } from "@/lib/editorial-tiers";
+import { renderProseWithFootnotes, type FootnoteRef } from "@/lib/footnotes";
+
+function schoolFootnotesToRefs(footnotes: SchoolFootnote[] | undefined): FootnoteRef[] {
+  return (footnotes ?? []).map((fn) => ({
+    index: fn.index,
+    sourceTitle: fn.sourceTitle,
+    sourceUrl: fn.sourceUrl ?? null,
+    author: fn.author ?? null,
+    pageOrSection: fn.pageOrSection ?? null,
+    excerpt: fn.excerpt ?? null,
+  }));
+}
 
 export async function generateMetadata({
   params,
@@ -364,16 +376,40 @@ export default async function SchoolDetailPage({ params }: { params: Promise<{ s
               </Link>
             )}
           </div>
-          <p className="detail-summary">
-            {definition?.summary ??
-              "This school page summarizes the current lineage coverage in the encyclopedia dataset."}
-          </p>
+          <div className="detail-summary">
+            {definition?.summary ? (
+              definition.footnotes && definition.footnotes.length > 0 ? (
+                renderProseWithFootnotes(
+                  definition.summary,
+                  schoolFootnotesToRefs(definition.footnotes),
+                  { idScope: `school-${slug}-summary` }
+                )
+              ) : (
+                <p>{definition.summary}</p>
+              )
+            ) : (
+              <p>
+                This school page summarizes the current lineage coverage in the encyclopedia
+                dataset.
+              </p>
+            )}
+          </div>
         </section>
 
         {definition?.practice && (
           <section className="detail-card">
             <h3 className="detail-section-title">Meditation practice</h3>
-            <p className="detail-summary">{definition.practice}</p>
+            <div className="detail-summary">
+              {definition.footnotes && definition.footnotes.length > 0 ? (
+                renderProseWithFootnotes(
+                  definition.practice,
+                  schoolFootnotesToRefs(definition.footnotes),
+                  { idScope: `school-${slug}-practice`, showHeader: false }
+                )
+              ) : (
+                <p>{definition.practice}</p>
+              )}
+            </div>
             {tier1Masters.length > 0 && (
               <>
                 <h4 className="detail-subsection-title" style={{ marginTop: "1.25rem" }}>

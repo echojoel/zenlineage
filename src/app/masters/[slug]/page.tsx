@@ -24,6 +24,8 @@ import {
   isPublishedTeaching,
 } from "@/lib/publishable-content";
 import { formatLifeRange } from "@/lib/date-format";
+import { renderProseWithFootnotes, type FootnoteRef } from "@/lib/footnotes";
+import { like } from "drizzle-orm";
 
 export async function generateMetadata({
   params,
@@ -431,6 +433,45 @@ export default async function MasterDetailPage({ params }: { params: Promise<{ s
           and(eq(citations.entityType, "master_biography"), eq(citations.entityId, biographyRow.id))
         )
     : [];
+
+  // Footnote citations: rows whose `field_name` is `footnote:N`. The
+  // master detail page renders the biography prose with `[N]` markers
+  // resolved against this list. If a biography has no footnotes the
+  // renderer falls back to plain `<p>` paragraphs.
+  const biographyFootnoteRows = biographyRow
+    ? await db
+        .select({
+          fieldName: citations.fieldName,
+          excerpt: citations.excerpt,
+          pageOrSection: citations.pageOrSection,
+          sourceId: citations.sourceId,
+          sourceTitle: sources.title,
+          sourceUrl: sources.url,
+          sourceAuthor: sources.author,
+        })
+        .from(citations)
+        .innerJoin(sources, eq(sources.id, citations.sourceId))
+        .where(
+          and(
+            eq(citations.entityType, "master_biography"),
+            eq(citations.entityId, biographyRow.id),
+            like(citations.fieldName, "footnote:%")
+          )
+        )
+    : [];
+  const biographyFootnoteRefs: FootnoteRef[] = [];
+  for (const row of biographyFootnoteRows) {
+    const match = /^footnote:(\d+)$/.exec(row.fieldName ?? "");
+    if (!match) continue;
+    biographyFootnoteRefs.push({
+      index: parseInt(match[1], 10),
+      sourceTitle: row.sourceTitle ?? row.sourceId,
+      sourceUrl: row.sourceUrl ?? null,
+      author: row.sourceAuthor ?? null,
+      pageOrSection: row.pageOrSection ?? null,
+      excerpt: row.excerpt && row.excerpt.length > 0 ? row.excerpt : null,
+    });
+  }
   const teachingCitationRows =
     teachingRows.length > 0
       ? await db
@@ -575,7 +616,7 @@ export default async function MasterDetailPage({ params }: { params: Promise<{ s
       <div className="detail-layout">
         <section className="detail-hero">
           {publishedImage && (
-            <>
+            <figure className="detail-hero-figure">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src={publishedImage.src}
@@ -586,7 +627,17 @@ export default async function MasterDetailPage({ params }: { params: Promise<{ s
                     : "detail-hero-image"
                 }
               />
-            </>
+              <figcaption className="figure-credit">
+                {publishedImage.type === "placeholder"
+                  ? "Portrait unavailable — name card generated from native script."
+                  : (
+                    <>
+                      {publishedImage.attribution ?? "Portrait via Wikipedia / Commons"}
+                      {publishedImage.license ? ` · ${publishedImage.license}` : ""}
+                    </>
+                  )}
+              </figcaption>
+            </figure>
           )}
           <p className="detail-eyebrow">
             {schoolRow ? (
@@ -617,9 +668,9 @@ export default async function MasterDetailPage({ params }: { params: Promise<{ s
           </div>
           {publishedBiography && (
             <div className="detail-summary">
-              {publishedBiography.split("\n\n").map((paragraph, index) => (
-                <p key={index}>{paragraph}</p>
-              ))}
+              {renderProseWithFootnotes(publishedBiography, biographyFootnoteRefs, {
+                idScope: master.slug,
+              })}
             </div>
           )}
         </section>
@@ -791,12 +842,6 @@ export default async function MasterDetailPage({ params }: { params: Promise<{ s
                 );
               })}
             </ul>
-          )}
-          {publishedImage?.attribution && (
-            <p className="detail-list-meta" style={{ fontSize: "0.7rem", marginTop: "1rem" }}>
-              Image: {publishedImage.attribution}
-              {publishedImage.license ? ` · ${publishedImage.license}` : ""}
-            </p>
           )}
         </section>
       </div>

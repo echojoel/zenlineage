@@ -26,7 +26,24 @@ const SQLITE_BUSY_BACKOFF_MS = 150;
 
 interface BiographyEntry {
   slug: string;
+  /** Body text. May contain inline `[1]`, `[2]`, … markers; each
+   * marker resolves to the entry in `footnotes` whose index matches. */
   content: string;
+  /** Wikipedia-style numbered references. `index` is the digit shown
+   * inside the marker (1-based). Order in this array is irrelevant —
+   * the renderer sorts by index for the footnote list. */
+  footnotes?: BiographyFootnote[];
+}
+
+interface BiographyFootnote {
+  /** 1-based number that matches the `[N]` marker in `content`. */
+  index: number;
+  /** Source row id (must exist in the `sources` table). */
+  sourceId: string;
+  /** Optional locator (e.g. "pp. 85–94", "fasc. 1"). */
+  pageOrSection?: string;
+  /** Optional supporting quote shown after the citation. */
+  excerpt?: string;
 }
 
 const BIOGRAPHIES: BiographyEntry[] = [
@@ -230,9 +247,38 @@ Hongren is particularly significant because among his many students he recognize
   },
   {
     slug: "dajian-huineng",
-    content: `Dajian Huineng, the sixth and final patriarch of undivided Chinese Chan, was an illiterate wood-seller from Guangdong province who became the most influential figure in the entire Chan tradition. His story of recognition by Hongren and subsequent flight southward with the robe and bowl, pursued by monks who sought to reclaim the symbol of patriarchal authority, became one of the founding narratives of Chan. His teaching was eventually recorded in the Platform Sutra, the only Chinese Buddhist text accorded the status of a sutra.
+    content: `Dajian Huineng, the sixth and final patriarch of undivided Chinese Chan, was an illiterate wood-seller from Guangdong province who became the most influential figure in the entire Chan tradition[1]. His story of recognition by Hongren and subsequent flight southward with the robe and bowl, pursued by monks who sought to reclaim the symbol of patriarchal authority, became one of the founding narratives of Chan[2]. His teaching was eventually recorded in the Platform Sutra, the only Chinese Buddhist text accorded the status of a sutra[3].
 
-Huineng's central teaching was the direct, sudden recognition of original mind, which he called the "no-thought" or "no-mind" approach. He insisted that awakening is not something achieved through gradual accumulation but is the immediate recognition of what one already fundamentally is. His famous exchanges, recorded in the Platform Sutra, demonstrate this direct pointing with extraordinary economy and power. Through his students—particularly Nanyue Huairang and Qingyuan Xingsi—virtually all subsequent Chinese Chan schools trace their lineage. The Rinzai and Soto schools of Japan, the Korean Seon tradition, and the Vietnamese Thien tradition all descend from Huineng through these two streams.`,
+Huineng's central teaching was the direct, sudden recognition of original mind, which he called the "no-thought" or "no-mind" approach[4]. He insisted that awakening is not something achieved through gradual accumulation but is the immediate recognition of what one already fundamentally is. His famous exchanges, recorded in the Platform Sutra, demonstrate this direct pointing with extraordinary economy and power. Through his students—particularly Nanyue Huairang and Qingyuan Xingsi—virtually all subsequent Chinese Chan schools trace their lineage[5]. The Rinzai and Soto schools of Japan, the Korean Seon tradition, and the Vietnamese Thien tradition all descend from Huineng through these two streams.`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_mcrae_seeing_through_zen",
+        pageOrSection: "ch. 4 (\"The Sixth Patriarch and the Origins of Chan\")",
+      },
+      {
+        index: 2,
+        sourceId: "src_platform_sutra_yampolsky_1967",
+        pageOrSection: "Introduction §3",
+      },
+      {
+        index: 3,
+        sourceId: "src_red_pine_platform",
+        pageOrSection: "Translator's preface",
+      },
+      {
+        index: 4,
+        sourceId: "src_red_pine_platform",
+        pageOrSection: "Sections 17–24",
+        excerpt:
+          "Huineng characterizes awakening as the direct recognition of no-thought (wunian).",
+      },
+      {
+        index: 5,
+        sourceId: "src_chan_ancestors_pdf",
+        pageOrSection: "Lineage chart, generation 33",
+      },
+    ],
   },
   {
     slug: "shitou-xiqian",
@@ -308,9 +354,40 @@ Yunyan was known for making straw sandals, a simple craft that he employed as a 
   },
   {
     slug: "dogen",
-    content: `Eihei Dogen was the founder of the Soto school of Zen in Japan and one of the most profound religious philosophers in world history. Born into a noble family in 1200, he entered the monastery as a child and came to question why, if all beings are originally endowed with Buddha nature, they still need to practice. Unable to find a satisfying answer in Japan, he traveled to China in 1223 and studied with Tiantong Rujing, under whom he experienced the moment of "dropping off body and mind." He returned to Japan in 1227 and spent the rest of his life teaching, writing, and establishing the Soto monastic tradition.
+    content: `Eihei Dogen was the founder of the Soto school of Zen in Japan and one of the most profound religious philosophers in world history[1]. Born into a noble family in 1200, he entered the monastery as a child and came to question why, if all beings are originally endowed with Buddha nature, they still need to practice. Unable to find a satisfying answer in Japan, he traveled to China in 1223 and studied with Tiantong Rujing, under whom he experienced the moment of "dropping off body and mind."[2] He returned to Japan in 1227 and spent the rest of his life teaching, writing, and establishing the Soto monastic tradition[3].
 
-Dogen's masterwork, the Shobogenzo (Treasury of the True Dharma Eye), is a collection of fascicles that approach the fundamental questions of Buddhist philosophy—time, being, impermanence, the body, language, and awakening—with extraordinary depth and originality. His core teaching is that practice and realization are not separate: to sit in zazen is itself the expression of Buddha nature, not a means toward it. His instruction for zazen, the Fukanzazengi, remains the definitive guide to Soto sitting practice. The teaching of shikantaza—"just sitting"—points to a quality of wholehearted, non-striving presence that Dogen considered the complete expression of awakening itself.`,
+Dogen's masterwork, the Shobogenzo (Treasury of the True Dharma Eye), is a collection of fascicles that approach the fundamental questions of Buddhist philosophy—time, being, impermanence, the body, language, and awakening—with extraordinary depth and originality[4]. His core teaching is that practice and realization are not separate: to sit in zazen is itself the expression of Buddha nature, not a means toward it. His instruction for zazen, the Fukanzazengi, remains the definitive guide to Soto sitting practice[5]. The teaching of shikantaza—"just sitting"—points to a quality of wholehearted, non-striving presence that Dogen considered the complete expression of awakening itself.`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_dumoulin_japan",
+        pageOrSection: "ch. 2 (\"Dogen Zenji and the Soto School\")",
+      },
+      {
+        index: 2,
+        sourceId: "src_dumoulin_japan",
+        pageOrSection: "pp. 51–119",
+        excerpt:
+          "Dōgen experienced the dropping off of body and mind under Tiantong Rujing in 1225.",
+      },
+      {
+        index: 3,
+        sourceId: "src_sotozen_founders",
+        pageOrSection: "Two Founders — Dōgen Zenji",
+      },
+      {
+        index: 4,
+        sourceId: "src_cleary_shobogenzo",
+        pageOrSection: "Editor's introduction",
+      },
+      {
+        index: 5,
+        sourceId: "src_sotozen_founders",
+        pageOrSection: "Fukan Zazengi",
+        excerpt:
+          "The Sōtōshū treats the Fukan Zazengi as the canonical description of how to sit zazen.",
+      },
+    ],
   },
   {
     slug: "keizan-jokin",
@@ -320,9 +397,33 @@ Keizan's Denkoroku (Transmission of the Lamp) records the awakening stories of e
   },
   {
     slug: "hakuin-ekaku",
-    content: `Hakuin Ekaku, who lived from 1686 to 1769, is credited with single-handedly reviving and systematizing the Rinzai school of Zen after a period of significant decline. Through his own intense and prolonged practice—marked by repeated experiences of kensho and equally repeated disillusionment when he recognized deeper layers of his own confusion—Hakuin developed a curriculum of koan practice that moved systematically through progressively deeper layers of inquiry. This curriculum became the standard structure for Rinzai training that continues to this day.
+    content: `Hakuin Ekaku, who lived from 1686 to 1769, is credited with single-handedly reviving and systematizing the Rinzai school of Zen after a period of significant decline[1]. Through his own intense and prolonged practice—marked by repeated experiences of kensho and equally repeated disillusionment when he recognized deeper layers of his own confusion—Hakuin developed a curriculum of koan practice that moved systematically through progressively deeper layers of inquiry. This curriculum became the standard structure for Rinzai training that continues to this day[2].
 
-Hakuin's own biography is written in his awakening autobiography Orategama and Wild Ivy, extraordinary documents of the psychological and physical extremes of intensive practice. He developed what he called "Zen sickness"—a dangerous energetic imbalance from excessive one-pointed effort—and was cured by the hermit Hakuyu, from whom he learned the practice of "soft butter" visualization for cultivating the body's energy. Hakuin was also a prolific and unconventional visual artist, creating thousands of brushwork paintings and calligraphies that expressed Dharma teachings through visceral imagery. His famous Circle of Emptiness paintings and his portraits of Bodhidharma are among the most iconic works of Japanese religious art. His restoration of Rinzai practice gave the Japanese Zen tradition a renewed vitality that has persisted to the modern period.`,
+Hakuin's own biography is written in his awakening autobiography Orategama and Wild Ivy, extraordinary documents of the psychological and physical extremes of intensive practice[3]. He developed what he called "Zen sickness"—a dangerous energetic imbalance from excessive one-pointed effort—and was cured by the hermit Hakuyu, from whom he learned the practice of "soft butter" visualization for cultivating the body's energy[3]. Hakuin was also a prolific and unconventional visual artist, creating thousands of brushwork paintings and calligraphies that expressed Dharma teachings through visceral imagery[4]. His famous Circle of Emptiness paintings and his portraits of Bodhidharma are among the most iconic works of Japanese religious art. His restoration of Rinzai practice gave the Japanese Zen tradition a renewed vitality that has persisted to the modern period.`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_dumoulin_japan",
+        pageOrSection: "vol. 2, ch. 11 (\"Hakuin Ekaku and Rinzai Renewal\")",
+      },
+      {
+        index: 2,
+        sourceId: "src_heine_wright_koan",
+        pageOrSection: "ch. 6",
+        excerpt:
+          "Hakuin's graded koan curriculum became the modern Rinzai training standard.",
+      },
+      {
+        index: 3,
+        sourceId: "src_wikipedia",
+        pageOrSection: "Wikipedia — Hakuin Ekaku § Wild Ivy and Zen sickness",
+      },
+      {
+        index: 4,
+        sourceId: "src_wikipedia",
+        pageOrSection: "Wikipedia — Hakuin Ekaku § Painting and calligraphy",
+      },
+    ],
   },
   {
     slug: "yamada-koun",
@@ -1627,9 +1728,30 @@ Yokaku's place in the Soto lineage reflects the tradition's organic growth acros
   },
   {
     slug: "raphael-doko-triet",
-    content: `Raphaël Dōkō Triet (b. 1950) is a French Sōtō Zen monk in the Deshimaru lineage and abbot of Templo Zen Seikyūji near Seville, Spain. He began zazen with Taisen Deshimaru at the Paris dōjō in 1971 and was ordained as a monk in 1973. He led the Paris dōjō from 1990 to 1997 and presided over the Association Zen Internationale (AZI) from 2004 to 2013. In 1995 he settled in Spain, and in 1997 he founded the Centre Zen de Lisboa (Dōjō Zen de Lisboa, Ryumonji) in Portugal. He received Dharma transmission (shihō) from Master Yūkō Okamoto — a close disciple of Deshimaru — in 1997.
+    content: `Raphaël Dōkō Triet (b. 1950) is a French Sōtō Zen monk in the Deshimaru lineage and abbot of Templo Zen Seikyūji near Seville, Spain[1]. He began zazen with Taisen Deshimaru at the Paris dōjō in 1971 and was ordained as a monk in 1973[1]. He led the Paris dōjō from 1990 to 1997 and presided over the Association Zen Internationale (AZI) from 2004 to 2013[1]. In 1995 he settled in Spain, and in 1997 he founded the Centre Zen de Lisboa (Dōjō Zen de Lisboa, Ryumonji) in Portugal[2]. He received Dharma transmission (shihō) from Master Yūkō Okamoto — a close disciple of Deshimaru — in 1997[1].
 
-Triet's teaching continues Deshimaru's emphasis on zazen as the heart of Sōtō practice, transmitted through kusen (oral teaching during seated meditation) and the unity of practice on and off the cushion. As abbot of Seikyūji and a senior figure in AZI, he is one of the principal European Sōtō teachers responsible for stabilising the tradition Deshimaru transplanted to Europe and continuing its transmission into the second and third generations.`,
+Triet's teaching continues Deshimaru's emphasis on zazen as the heart of Sōtō practice, transmitted through kusen (oral teaching during seated meditation) and the unity of practice on and off the cushion. As abbot of Seikyūji and a senior figure in AZI, he is one of the principal European Sōtō teachers responsible for stabilising the tradition Deshimaru transplanted to Europe and continuing its transmission into the second and third generations[3].`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_azi",
+        pageOrSection: "AZI — Maître Raphaël Dôkô Triet",
+        excerpt:
+          "Né en 1950, il commence la pratique du zen avec Maître Taisen Deshimaru au Dojo de Paris en 1971; ordonné moine en 1973; reçoit le Shihō de Maître Yūkō Okamoto en 1997.",
+      },
+      {
+        index: 2,
+        sourceId: "src_azi",
+        pageOrSection: "Centre zen de Lisboa — fiche dōjō",
+        excerpt:
+          "Le dōjō de Lisbonne a été créé en 1997 par le moine Raphaël Doko Triet.",
+      },
+      {
+        index: 3,
+        sourceId: "src_sotozen_europe",
+        pageOrSection: "Spain — Templo Zen Seikyūji",
+      },
+    ],
   },
   {
     slug: "stephane-kosen-thibaut",
@@ -1729,9 +1851,35 @@ Soshin's place in the Soto lineage represents the tradition's characteristic emp
   },
   {
     slug: "taizan-maezumi",
-    content: `Taizan Maezumi was a Soto Zen master who founded the Zen Center of Los Angeles and became one of the most influential Zen teachers in the Western world. Born in 1931 into a Soto Zen temple family, he came to Los Angeles in 1956 and gradually built a community that became a major center for American Zen practice. ZCLA's own founder history records that the center was established by Maezumi Roshi together with his father Baian Hakujun Kuroda, and that Maezumi had already begun koan practice with Yasutani Roshi. He held dharma transmission in three lineages—Soto, Rinzai, and Sanbo Kyodan—giving him an unusually comprehensive perspective.
+    content: `Taizan Maezumi was a Soto Zen master who founded the Zen Center of Los Angeles and became one of the most influential Zen teachers in the Western world. Born in 1931 into a Soto Zen temple family[1], he came to Los Angeles in 1956 and gradually built a community that became a major center for American Zen practice. ZCLA's own founder history records that the center was established by Maezumi Roshi together with his father Baian Hakujun Kuroda, and that Maezumi had already begun koan practice with Yasutani Roshi[2]. He held dharma transmission in three lineages—Soto, Rinzai, and Sanbo Kyodan—giving him an unusually comprehensive perspective[3].
 
-Maezumi trained many students who went on to become prominent Zen teachers in their own right, including Bernard Tetsugen Glassman, John Daido Loori, and Dennis Genpo Merzel. His community, the White Plum Asanga, represents one of the largest and most diverse networks of Zen teachers in the West. His teaching integrated the traditional rigor of Japanese Zen with an openness to American culture and sensibility.`,
+Maezumi trained many students who went on to become prominent Zen teachers in their own right, including Bernard Tetsugen Glassman, John Daido Loori, and Dennis Genpo Merzel[4]. His community, the White Plum Asanga, represents one of the largest and most diverse networks of Zen teachers in the West[3]. His teaching integrated the traditional rigor of Japanese Zen with an openness to American culture and sensibility.`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_whiteplum",
+        pageOrSection: "Founder — Hakuyū Taizan Maezumi Roshi",
+      },
+      {
+        index: 2,
+        sourceId: "src_zcla_maezumi_founders",
+        pageOrSection: "Water Wheel — Founders issue (Apr–Jun 2017)",
+        excerpt:
+          "ZCLA was established by Maezumi Roshi together with his father Baian Hakujun Kuroda; Maezumi had already begun koan practice with Yasutani Roshi.",
+      },
+      {
+        index: 3,
+        sourceId: "src_whiteplum",
+        pageOrSection: "Lineage and Dharma Heirs",
+        excerpt:
+          "Maezumi held shihō in Sōtō (Baian Hakujun Kuroda), inka in Rinzai (Kōryū Osaka) and inka in Sanbō-Zen (Hakuun Yasutani).",
+      },
+      {
+        index: 4,
+        sourceId: "src_whiteplum",
+        pageOrSection: "Twelve American Dharma Heirs",
+      },
+    ],
   },
   {
     slug: "tenrin-kanshu",
@@ -2875,8 +3023,26 @@ async function main(): Promise<void> {
     for (const citation of biographyCitations) {
       await upsertBiographyCitationWithRetry(citation);
     }
-
     citationCount += biographyCitations.length;
+
+    // Footnote citations — one row per `[N]` marker in `bio.content`,
+    // with field_name = `footnote:N`. The pre-loop wipe already
+    // covered these (entity_type='master_biography'), so we just write.
+    if (bio.footnotes && bio.footnotes.length > 0) {
+      for (const note of bio.footnotes) {
+        await upsertBiographyCitationWithRetry({
+          id: `${bioId}__footnote_${note.index}`,
+          sourceId: note.sourceId,
+          entityType: "master_biography",
+          entityId: bioId,
+          fieldName: `footnote:${note.index}`,
+          excerpt: note.excerpt ?? "",
+          pageOrSection: note.pageOrSection ?? null,
+        });
+        citationCount++;
+      }
+    }
+
     seeded++;
   }
 
