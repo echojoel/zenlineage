@@ -938,14 +938,20 @@ export default function LineageGraph() {
             ✕
           </button>
           {sidebar.node.imageSrc && (
-            <div className="sidebar-image-container">
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
-                src={sidebar.node.imageSrc}
-                alt={sidebar.node.imageAlt ?? sidebar.node.label}
-                className="sidebar-image"
-              />
-            </div>
+            <Link
+              href={`/masters/${sidebar.node.slug}`}
+              className="sidebar-image-link"
+              aria-label={`Open profile of ${sidebar.node.label}`}
+            >
+              <div className="sidebar-image-container">
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img
+                  src={sidebar.node.imageSrc}
+                  alt={sidebar.node.imageAlt ?? sidebar.node.label}
+                  className="sidebar-image"
+                />
+              </div>
+            </Link>
           )}
           <h2 className="sidebar-name">{sidebar.node.label}</h2>
           {sidebar.schoolName && <p className="sidebar-school">{sidebar.schoolName}</p>}
@@ -957,12 +963,12 @@ export default function LineageGraph() {
           )}
           {sidebar.node.bio && <p className="sidebar-description">{sidebar.node.bio}</p>}
           <div className="sidebar-actions">
-            <Link className="sidebar-link" href={`/masters/${sidebar.node.slug}`}>
-              Open profile
+            <Link className="sidebar-button" href={`/masters/${sidebar.node.slug}`}>
+              Open profile →
             </Link>
             {sidebar.node.schoolSlug && (
-              <Link className="sidebar-link" href={`/schools/${sidebar.node.schoolSlug}`}>
-                Open school
+              <Link className="sidebar-button sidebar-button-muted" href={`/schools/${sidebar.node.schoolSlug}`}>
+                Open school →
               </Link>
             )}
           </div>
