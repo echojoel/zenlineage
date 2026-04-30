@@ -41,23 +41,32 @@ interface RenderOptions {
 const MARKER_RE = /\[(\d{1,3})\]/g;
 
 /**
+ * Tracks every call-site (occurrence) of each footnote marker so the
+ * note list can render Wikipedia-style backref arrows pointing to the
+ * exact spot the marker appears in the prose.
+ */
+type CallSiteMap = Map<number, string[]>;
+
+/**
  * Split a single paragraph string on footnote markers. Each numbered
- * marker becomes a `<sup><a>` anchor that targets `#fn-{idScope}-{N}`.
- * Markers without a corresponding reference render as plain `[N]`
- * (still visible to the reader, but not a dead link).
+ * marker becomes a `<sup><a>` anchor that targets `#fn-{idScope}-{N}`
+ * and itself carries a unique `id` so the corresponding note can link
+ * back to it. Markers without a matching reference are preserved as
+ * literal text so authoring slips stay visible.
  */
 function renderParagraph(
   text: string,
   refs: Map<number, FootnoteRef>,
   idScope: string,
-  paragraphIndex: number
-): ReactNode {
+  callSites: CallSiteMap,
+  startCounter: number
+): { nodes: ReactNode; counter: number } {
   const nodes: ReactNode[] = [];
   let lastIndex = 0;
   let match: RegExpExecArray | null;
   let key = 0;
+  let counter = startCounter;
 
-  // Reset regex state — global regex retains lastIndex across calls.
   MARKER_RE.lastIndex = 0;
   while ((match = MARKER_RE.exec(text)) !== null) {
     const [token, indexStr] = match;
@@ -67,11 +76,18 @@ function renderParagraph(
     }
     const n = parseInt(indexStr, 10);
     if (refs.has(n)) {
+      // Each call-site gets a globally unique id so multiple `[N]`s
+      // in the same paragraph (or across paragraphs) all back-link
+      // independently.
+      const callId = `fnref-${idScope}-${n}-${counter++}`;
+      const sites = callSites.get(n) ?? [];
+      sites.push(callId);
+      callSites.set(n, sites);
       nodes.push(
         <sup key={`m-${key++}`} className="footnote-ref">
           <a
             href={`#fn-${idScope}-${n}`}
-            id={`fnref-${idScope}-${n}-${paragraphIndex}`}
+            id={callId}
             aria-label={`Footnote ${n}`}
           >
             [{n}]
@@ -79,8 +95,6 @@ function renderParagraph(
         </sup>
       );
     } else {
-      // Out-of-range marker: render the literal token so the slip is
-      // visible to the author rather than silently swallowed.
       nodes.push(token);
     }
     lastIndex = start + token.length;
@@ -88,7 +102,7 @@ function renderParagraph(
   if (lastIndex < text.length) {
     nodes.push(text.slice(lastIndex));
   }
-  return nodes;
+  return { nodes, counter };
 }
 
 /**
@@ -108,12 +122,16 @@ export function renderProseWithFootnotes(
   for (const ref of refs) refMap.set(ref.index, ref);
 
   const paragraphs = text.split(/\n\n+/);
+  const callSites: CallSiteMap = new Map();
+  let counter = 0;
   const paragraphNodes = paragraphs
     .map((p) => p.trim())
     .filter((p) => p.length > 0)
-    .map((p, i) => (
-      <p key={`p-${i}`}>{renderParagraph(p, refMap, idScope, i)}</p>
-    ));
+    .map((p, i) => {
+      const { nodes, counter: next } = renderParagraph(p, refMap, idScope, callSites, counter);
+      counter = next;
+      return <p key={`p-${i}`}>{nodes}</p>;
+    });
 
   // Sort references for the footnote list by index so authors can
   // declare them in any order.
@@ -132,6 +150,7 @@ export function renderProseWithFootnotes(
                 id={`fn-${idScope}-${ref.index}`}
                 value={ref.index}
               >
+                <Backrefs sites={callSites.get(ref.index) ?? []} />
                 <FootnoteEntry entry={ref} />
               </li>
             ))}
@@ -139,6 +158,43 @@ export function renderProseWithFootnotes(
         </aside>
       )}
     </>
+  );
+}
+
+/**
+ * Wikipedia-style backref. One call-site → "↑". Multiple call-sites
+ * → "↑ a b c" with a separate jump-back link for each. When zero
+ * call-sites are registered (rare but possible — e.g. an author
+ * declared a footnote that they didn't actually cite), no arrow is
+ * rendered.
+ */
+function Backrefs({ sites }: { sites: string[] }): React.JSX.Element | null {
+  if (sites.length === 0) return null;
+  if (sites.length === 1) {
+    return (
+      <a
+        href={`#${sites[0]}`}
+        className="footnote-backref"
+        aria-label="Jump back to citation"
+      >
+        ↑
+      </a>
+    );
+  }
+  return (
+    <span className="footnote-backref-group">
+      <span className="footnote-backref-jump">↑</span>{" "}
+      {sites.map((site, i) => (
+        <a
+          key={site}
+          href={`#${site}`}
+          className="footnote-backref"
+          aria-label={`Jump back to citation ${String.fromCharCode(97 + i)}`}
+        >
+          {String.fromCharCode(97 + i)}
+        </a>
+      ))}{" "}
+    </span>
   );
 }
 

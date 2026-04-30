@@ -780,6 +780,34 @@ body {
   outline-offset: 2px;
   border-radius: 2px;
 }
+/* Backref arrow inside each <li> in the Notes block. Single call-site
+   → "↑". Multiple call-sites → "↑ a b" with each letter linking back
+   to its call site, mirroring Wikipedia's pattern. */
+.footnote-backref {
+  display: inline-block;
+  color: var(--rust);
+  text-decoration: none;
+  font-size: 0.85em;
+  margin-right: 0.3em;
+  font-style: italic;
+}
+.footnote-backref:hover,
+.footnote-backref:focus {
+  text-decoration: underline;
+  outline: none;
+}
+.footnote-backref-group {
+  display: inline-flex;
+  gap: 0.15em;
+  margin-right: 0.3em;
+  align-items: baseline;
+}
+.footnote-backref-jump {
+  color: var(--ink-light);
+  font-size: 0.85em;
+  margin-right: 0.15em;
+}
+
 .footnote-source-link {
   color: var(--ink);
   text-decoration: underline;

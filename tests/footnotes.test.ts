@@ -165,4 +165,51 @@ describe("renderProseWithFootnotes", () => {
     const pMatches = out.match(/<p>/g) ?? [];
     expect(pMatches.length).toBe(3);
   });
+
+  it("renders a single ↑ backref when a footnote is cited once", () => {
+    const out = html(
+      renderProseWithFootnotes("Once[1].", [ref({ index: 1 })], { idScope: "x" })
+    );
+    expect(out).toContain('href="#fnref-x-1-0"');
+    expect(out).toContain("footnote-backref");
+    expect(out).toContain("↑");
+    // Single-site mode should NOT render the a/b letters.
+    expect(out).not.toMatch(/>a<\/a>/);
+  });
+
+  it("renders ↑ a b backrefs when one footnote is cited multiple times", () => {
+    const out = html(
+      renderProseWithFootnotes(
+        "First mention[1] and again[1] and once more[1].",
+        [ref({ index: 1, sourceTitle: "Reused" })],
+        { idScope: "x" }
+      )
+    );
+    // The same href="#fn-x-1" appears 3 times in the prose markers.
+    const calls = (out.match(/href="#fn-x-1"/g) ?? []).length;
+    expect(calls).toBe(3);
+    // Note <li> renders 3 backref letters a / b / c, each linking to a
+    // distinct call-site id.
+    expect(out).toContain('href="#fnref-x-1-0"');
+    expect(out).toContain('href="#fnref-x-1-1"');
+    expect(out).toContain('href="#fnref-x-1-2"');
+    expect(out).toMatch(/>a<\/a>/);
+    expect(out).toMatch(/>b<\/a>/);
+    expect(out).toMatch(/>c<\/a>/);
+    // Single canonical entry in the <ol> for this index.
+    const olEntries = (out.match(/<li id="fn-x-1"/g) ?? []).length;
+    expect(olEntries).toBe(1);
+  });
+
+  it("assigns unique call-site ids across paragraphs", () => {
+    const out = html(
+      renderProseWithFootnotes(
+        "Para A[1].\n\nPara B[1].",
+        [ref({ index: 1 })],
+        { idScope: "x" }
+      )
+    );
+    expect(out).toContain('id="fnref-x-1-0"');
+    expect(out).toContain('id="fnref-x-1-1"');
+  });
 });
