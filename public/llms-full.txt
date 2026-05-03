@@ -8,7 +8,7 @@ Zen Lineage maps the dharma transmission lineages connecting Buddhist masters
 from Shakyamuni Buddha through Bodhidharma to modern teachers. All content
 requires item-level citations from scholarly sources before publication.
 
-Generated: 2026-04-30
+Generated: 2026-05-03
 
 ---
 
@@ -2069,7 +2069,7 @@ Toeong Seongcheol (退翁性徹, 1912–1993) was the most influential Korean ma
 - **Dates:** 1914 – 1982
 - **School:** Sōtō
 - **Teachers:** Kodo Sawaki
-- **Students:** Stephane Kosen Thibaut, Etienne Mokusho Zeisler, Roland Rech, Raphaël Dōkō Triet
+- **Students:** Stephane Kosen Thibaut, Etienne Mokusho Zeisler, Roland Rech, Raphaël Dōkō Triet, Philippe Reiryū Coupey, Olivier Reigen Wang-Genh, Michel Reikū Bovay, Évelyne Ekō de Smedt, Pierre Reigen Crépon, Jean-Pierre Genshū Faure, Vincent Keisen Vuillemin
 
 Taisen Deshimaru was born in 1914 in Saga Prefecture, Japan, into a samurai family with strong Buddhist roots. He first encountered Kodo Sawaki's teaching as a young man in the 1930s and was profoundly struck by Sawaki's radical insistence on zazen without gain or purpose. For decades Deshimaru lived as a layman—working as a businessman, surviving the war, raising a family—while maintaining his practice and connection to Sawaki. Only near the end of Sawaki's life, in 1965, did Deshimaru receive ordination and his teacher's final instruction: "Go to the West and plant the seed of the Dharma."
 
@@ -2165,6 +2165,15 @@ Taizan Maezumi was a Soto Zen master who founded the Zen Center of Los Angeles a
 
 John Daido Loori (大道, 1931–2009) was a former Navy photographer and research scientist who became one of the most important institution-builders in American Zen. Authorized by Maezumi in the mid-1980s, he founded Zen Mountain Monastery in Mount Tremper, New York (1980) and went on to build the Mountains and Rivers Order — a nationwide network combining traditional monastic training with an integration of creative disciplines (photography, calligraphy, music, zen arts) as dharma gates. Through his Dharma Communications publishing and media work, and a long list of books (including the eight-fold gates of Zen), Loori shaped a distinctly American synthesis of rigorous Soto-Rinzai training with the contemplative arts.
 
+### Philippe Reiryū Coupey
+
+- **Also known as:** Philippe Reiryu Coupey, Reiryū Coupey, Reiryu Coupey
+- **Dates:** 1937 – null
+- **School:** Sōtō
+- **Teachers:** Taisen Deshimaru
+
+Philippe Reiryū Coupey (b. 1937) is an American-born Sōtō Zen monk who has lived and taught in France since the early 1970s. He met Taisen Deshimaru shortly after Deshimaru's arrival in Paris and was ordained by him as a monk in 1972, becoming one of his earliest Western disciples. After Deshimaru's death in 1982 he remained based at the Dojo Zen de Paris (the founding AZI dōjō on rue Pernety), where he leads zazen and gives kusen in English and French. He is the longtime editor and translator of Deshimaru's oral teachings, having compiled and published volumes such as *The Voice of the Valley*, *Sit*, and *Zen Simply Sitting*, which preserve Deshimaru's kusen-style commentary for the Anglophone Zen world.
+
 ### Kobun Chino Otogawa
 
 - **Also known as:** Kobun Chino, Kobun Chino Otagawa
@@ -2232,6 +2241,24 @@ Ruben Habito is a Filipino-born Zen teacher in the Sanbo Kyodan lineage who stud
 
 Habito's work represents one of the most creative dimensions of the Sanbo Kyodan's legacy—the dialogue between Zen and Christian contemplative traditions.
 
+### Jean-Pierre Genshū Faure
+
+- **Also known as:** Jean-Pierre Genshu Faure, Genshū Faure, Genshu Faure
+- **Dates:** 1948 – null
+- **School:** Sōtō
+- **Teachers:** Taisen Deshimaru
+
+Jean-Pierre Genshū Faure (b. 1948) is a French Sōtō Zen monk in the Deshimaru lineage and the founding abbot of Temple Zen Kanshōji, a residential monastery in the Dordogne. He met Taisen Deshimaru at the Paris dōjō in the 1970s and was ordained by him as a monk; after Deshimaru's death he undertook further training in Japan and received Dharma transmission within the Japanese Sōtō school. In 1999 he founded Kanshōji as one of the first French Sōtō monasteries with a year-round residential schedule, and the temple is now listed in the Sōtōshū Europe directory as an officially recognised Sōtō practice center in France.
+
+### Michel Reikū Bovay
+
+- **Also known as:** Michel Reiku Bovay, Reikū Bovay, Reiku Bovay
+- **Dates:** 1949 – 2009
+- **School:** Sōtō
+- **Teachers:** Taisen Deshimaru
+
+Michel Reikū Bovay (1949–2009) was a Swiss Sōtō Zen monk in the Deshimaru lineage and one of the founding figures of European Zen publishing. He met Taisen Deshimaru at the Paris dōjō in the early 1970s and was ordained by him as a monk; he subsequently founded the Pinède Zen Center and the Zen Dōjō de Lausanne, around which a substantial Swiss-Romand sangha gathered. With Lucien Hervieu and Évelyne de Smedt he co-authored *Zen* (1987), one of the first sustained French-language presentations of Sōtō practice in the Deshimaru style; the book has been continuously in print and remains a standard introduction in the AZI orbit. After Deshimaru's death he taught actively across the European AZI network until his own death in 2009.
+
 ### Raphaël Dōkō Triet
 
 - **Also known as:** Raphael Doko Triet, Dōkō Triet, Doko Triet
@@ -2241,6 +2268,15 @@ Habito's work represents one of the most creative dimensions of the Sanbo Kyodan
 - **Students:** Yves Shoshin Crettaz
 
 Raphaël Dōkō Triet (b. 1950) is a French Sōtō Zen monk in the Deshimaru lineage and abbot of Templo Zen Seikyūji near Seville, Spain[1]. He began zazen with Taisen Deshimaru at the Paris dōjō in 1971 and was ordained as a monk in 1973[1]. He led the Paris dōjō from 1990 to 1997 and presided over the Association Zen Internationale (AZI) from 2004 to 2013[1]. In 1995 he settled in Spain, and in 1997 he founded the Centre Zen de Lisboa (Dōjō Zen de Lisboa, Ryumonji) in Portugal[2]. He received Dharma transmission (shihō) from Master Yūkō Okamoto — a close disciple of Deshimaru — in 1997[1].
+
+### Olivier Reigen Wang-Genh
+
+- **Also known as:** Reigen Wang-Genh, Olivier Wang-Genh
+- **Dates:** 1955 – null
+- **School:** Sōtō
+- **Teachers:** Taisen Deshimaru
+
+Olivier Reigen Wang-Genh (b. 1955) is a French Sōtō Zen monk in the Deshimaru lineage and abbot of Kōsan Ryūmon-ji, the residential monastery he founded in 1999 in Weiterswiller (Bas-Rhin, Alsace). He met Taisen Deshimaru at the Paris dōjō in the mid-1970s, was ordained as a monk by him, and after Deshimaru's death in 1982 received Dharma transmission within the Japanese Sōtō school. He has served as president of the Union Bouddhiste de France (UBF) and as president of the Association Zen Internationale, making him one of the most institutionally visible representatives of European Sōtō Zen. Ryūmon-ji is listed in the Sōtōshū Europe directory and functions as one of the principal training monasteries for AZI ordinees.
 
 ### Susan Myoyu Andersen
 
@@ -4538,6 +4574,33 @@ Alfred Jitsudo Ancheta (実道) is a White Plum dharma heir of Taizan Maezumi, a
 
 Anne Seisen Saunders (正泉) is a White Plum dharma heir of Taizan Maezumi and abbot of Sweetwater Zen Center in National City, California, which she founded as a residential training community. She continues to teach actively in the Maezumi line.
 
+### Évelyne Ekō de Smedt
+
+- **Also known as:** Evelyne Eko de Smedt, Ekō de Smedt, Eko de Smedt
+- **Dates:** Dates uncertain
+- **School:** Sōtō
+- **Teachers:** Taisen Deshimaru
+
+Évelyne Ekō de Smedt is a French Sōtō Zen nun in the Deshimaru lineage and one of the senior women teachers in the Association Zen Internationale. She practiced closely with Taisen Deshimaru in Paris through the 1970s, was ordained by him, and co-authored with him *L'Anneau de la Voie* — a French-language exposition of Sōtō practice and lineage that remains in print. After Deshimaru's death she continued teaching within AZI and contributed to the broader European reception of Sōtō Zen as a co-author (with Reikū Bovay and Lucien Hervieu) of *Zen* (1987), a long-running French introduction to the Deshimaru-style of practice.
+
+### Pierre Reigen Crépon
+
+- **Also known as:** Pierre Reigen Crepon, Reigen Crépon, Reigen Crepon
+- **Dates:** Dates uncertain
+- **School:** Sōtō
+- **Teachers:** Taisen Deshimaru
+
+Pierre Reigen Crépon is a French Sōtō Zen monk in the Deshimaru lineage, an AZI teacher, and the principal biographer of Taisen Deshimaru in French. He practiced with Deshimaru at the Paris dōjō from the 1970s, was ordained by him, and after Deshimaru's death in 1982 took on the long editorial work of reconstructing his life and teaching from oral and archival sources. His book-length biography of Deshimaru is the standard French-language reference for the founding period of European Sōtō Zen, and his ongoing role as an AZI teacher places him among the senior Deshimaru-line figures still active in France.
+
+### Vincent Keisen Vuillemin
+
+- **Also known as:** Keisen Vuillemin
+- **Dates:** Dates uncertain
+- **School:** Sōtō
+- **Teachers:** Taisen Deshimaru
+
+Vincent Keisen Vuillemin is a Swiss Sōtō Zen monk in the Deshimaru lineage and the founder of the Dōjō Zen de Genève (Geneva). He practiced with Taisen Deshimaru at the Paris dōjō in the late 1970s and was ordained by him as a monk; after Deshimaru's death he established the Geneva dōjō, which has become one of the principal AZI-affiliated practice centers in French-speaking Switzerland. He continues to teach in the AZI network and is a regular leader of sesshin in the Deshimaru-style of practice.
+
 ---
 
 ## Schools
@@ -4664,7 +4727,7 @@ The Taego Order (太古宗, 태고종) is the second largest Buddhist order in K
 ### Sōtō
 
 - **Tradition:** Zen
-- **Masters:** 89
+- **Masters:** 96
 
 The Soto school (曹洞宗) is the Japanese continuation of the Chinese Caodong tradition, founded by Eihei Dogen (1200–1253) after his training with Tiantong Rujing in China[1]. It is the largest Zen denomination in Japan[2]. Soto's central practice is shikantaza ('just sitting')—zazen practiced as the direct expression of awakening itself, not as a means to attain enlightenment[3]. Dogen articulated this in his masterwork the Shobogenzo—which is itself largely composed of koan commentary and philosophical inquiry—and in his practical manual the Fukanzazengi[3]. The school's second great figure, Keizan Jokin (1264–1325), founded Sojiji Temple and made Soto practice accessible to a broad Japanese population through the integration of esoteric ritual and ancestor veneration[1]. Together, Eiheiji (Dogen's temple) and Sojiji serve as the school's two head monasteries. In the modern era, the Soto tradition has been carried to the West by teachers including Shunryu Suzuki (San Francisco Zen Center), Taisen Deshimaru (Association Zen Internationale, Europe), Taizan Maezumi (Zen Center of Los Angeles), and Dainin Katagiri (Minnesota Zen Center), establishing vibrant practice communities across North America and Europe[4].
 
