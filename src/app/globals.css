@@ -369,13 +369,10 @@ body {
   border-radius: 4px;
   overflow: hidden;
   cursor: pointer;
-  transition: transform 120ms ease, box-shadow 120ms ease;
 }
-.sidebar-image-link:hover,
 .sidebar-image-link:focus-visible {
-  outline: none;
-  transform: scale(1.01);
-  box-shadow: 0 0 0 2px rgba(139, 107, 74, 0.45);
+  outline: 2px solid rgba(139, 107, 74, 0.6);
+  outline-offset: 2px;
 }
 /* Subtle "Open profile" hint that fades in on hover so users know the
    image is interactive without cluttering the static layout. */
