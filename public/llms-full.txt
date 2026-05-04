@@ -1,7 +1,7 @@
 # Zen Lineage — Complete Reference
 
-> An open-source interactive encyclopedia of Zen Buddhism covering 435+ masters,
-> 23 schools, 436 lineage transmissions, 363 teachings, and 1,700+ scholarly
+> An open-source interactive encyclopedia of Zen Buddhism covering 420+ masters,
+> 25 schools, 420+ lineage transmissions, 730+ teachings, and 1,700+ scholarly
 > citations across 2,500 years of Chan, Zen, Seon, and Thien Buddhist history.
 
 Zen Lineage maps the dharma transmission lineages connecting Buddhist masters
@@ -677,6 +677,15 @@ Xuefeng Yicun was a student of Deshan Xuanjian who traveled and practiced intens
 
 Xuefeng was the teacher of both Yunmen Wenyan and Xuansha Shibei, two of the most significant figures of the next generation. His teaching featured powerful imagery drawn from the natural world, and his dialogues with students are marked by a quality of utter simplicity that breaks through discursive thinking.
 
+### Doui
+
+- **Also known as:** Toui
+- **Dates:** null – 825
+- **School:** Seon
+- **Teachers:** Xitang Zhizang
+
+Doui (道義, d. 825) is the master through whom Southern School Chan first entered the Korean peninsula and is reckoned the founder of the Gajisan school, the earliest of the Nine Mountain Schools (Gusan Seonmun) of Korean Seon. He travelled to Tang China in 784, received transmission from Xitang Zhizang at Mazu Daoyi's Hongzhou community, and returned to Silla in 821 carrying a teaching that the doctrinal establishment of his time received with hostility.
+
 ### Vô Ngôn Thông
 
 - **Dates:** null – 826
@@ -1025,12 +1034,21 @@ Gaofeng Yuanmiao was a Yangqi line master of the late Song and early Yuan dynast
 
 Gaofeng's teaching emphasized the absolute necessity of great doubt, great faith, and great determination—the three pillars of Linji practice. He taught that without a doubt so intense that it feels like a ball of fire stuck in one's throat, awakening cannot occur.
 
+### Huyền Quang
+
+- **Dates:** 1254 – 1334
+- **School:** Trúc Lâm
+- **Teachers:** Trần Nhân Tông
+
+Huyền Quang (玄光, 1254–1334) was the third and last patriarch of the medieval Trúc Lâm school. A precocious scholar who placed first in the imperial examinations in 1272, he served the Trần court for two decades before being ordained in middle age and entering the dharma circle around Trần Nhân Tông and Pháp Loa. After Pháp Loa's death he assumed the patriarchate at age seventy-seven and spent the final four years of his life at Côn Sơn, where his poetry — among the earliest surviving lyric corpus in Vietnamese Buddhist letters — gives the most personal voice to the school's contemplative ideal. With his death the Trúc Lâm patriarchate passed into a long quiescence from which it would be revived only in the twentieth century.
+
 ### Trần Nhân Tông
 
 - **Also known as:** Điều Ngự Giác Hoàng
 - **Dates:** 1258 – 1308
 - **School:** Trúc Lâm
 - **Teachers:** Vinītaruci
+- **Students:** Pháp Loa, Huyền Quang
 
 Trần Nhân Tông (陳仁宗, 1258–1308) was the third emperor of the Trần dynasty, personally led Đại Việt to victory against the second and third Mongol invasions of Vietnam (1285 and 1287–1288), and then — at the height of his political power — abdicated the throne to become a monk. Retiring to Yên Tử Mountain, he synthesized the earlier Vinītaruci, Vô Ngôn Thông, and Thảo Đường streams into a new school he named Trúc Lâm (竹林, Bamboo Grove) in 1299. The school's emphasis on ‘knowing the mind, seeing the nature’ (tri tâm kiến tánh), its Sino-Vietnamese literary culture, and its accommodation of Confucian ethics made it the most distinctly Vietnamese articulation of Thiền in the medieval period. Trần Nhân Tông is the only Zen school founder known to have been a reigning emperor.
 
@@ -1115,6 +1133,14 @@ Shuho Myocho, known posthumously as Daito Kokushi (National Teacher), was one of
 
 Daito was known for his fierce and uncompromising practice. According to tradition, he lived among beggars under the Gojo Bridge in Kyoto for twenty years after his awakening, hiding his realization and continuing to deepen his practice in obscurity. He was eventually discovered by the emperor and brought to lead Daitokuji.
 
+### Pháp Loa
+
+- **Dates:** 1284 – 1330
+- **School:** Trúc Lâm
+- **Teachers:** Trần Nhân Tông
+
+Pháp Loa (法螺, 1284–1330) was the second patriarch of the Trúc Lâm school and the master to whom Trần Nhân Tông personally transmitted the dharma in 1308 in front of the assembled monastic community. Where the founder had been an emperor turned hermit, Pháp Loa was the institutional builder who consolidated the new school: he supervised the carving of a complete Vietnamese-edition Buddhist canon, ordained more than fifteen thousand monastics over his patriarchate, and oversaw the construction and reform of monasteries across the Trần realm. The disciplined, scholastic Trúc Lâm that survives in Vietnamese Buddhist memory — as much as the more famous founder — is in large part his work.
+
 ### Tetto Giko
 
 - **Dates:** 1295 – 1369
@@ -1143,7 +1169,7 @@ Sohitsu's teaching continued the Rinzai tradition's insistence on direct persona
 - **Dates:** 1301 – 1382
 - **School:** Taego Order
 - **Teachers:** Shiwu Qinggong
-- **Students:** Seosan Hyujeong
+- **Students:** Naong Hyegeun, Seosan Hyujeong
 
 Taego Bou (太古普愚, 1301–1382) is the master through whom Chinese Linji dharma transmission entered Korea, making him a pivotal figure in the formation of later Korean Seon orthodoxy. In 1347 he travelled to Yuan China and received transmission from the Yangqi-line master Shiwu Qinggong (Stonehouse), the hermit-poet whose poems survive today largely through this very transmission. On returning to Korea he served as royal preceptor under King Gongmin and, at the king's request, undertook to unify the Nine Mountain Schools of Seon into a single order organized around Linji koan practice. His legacy is twofold: the modern Taego Order takes him as its eponymous founder, while the Jogye Order also reads its Linji-centered transmission through him.
 
@@ -1157,6 +1183,16 @@ Taego Bou (太古普愚, 1301–1382) is the master through whom Chinese Linji d
 Gongai Sōchū (1315–1390) was a student of Tettō Gikō and an important transmitter of the Daitokuji Rinzai lineage. He continued the teaching style established by Daitō Kokushi, emphasizing direct realization over institutional prestige or scholarly attainment. His role in the lineage was primarily one of faithful transmission, preserving the distinctive character of the Daitokuji approach.
 
 Gongai's most significant contribution to Zen history was his training of Kasō Sōdon, who would become a legendary teacher in his own right and the master who confirmed Ikkyū Sōjun's awakening. Through this line of transmission, Gongai helped ensure that the uncompromising spirit of Daitō Kokushi's Zen survived into the fifteenth century.
+
+### Naong Hyegeun
+
+- **Also known as:** Naong Hyegun
+- **Dates:** 1320 – 1376
+- **School:** Seon
+- **Teachers:** Taego Bou
+- **Students:** Hamheo Gihwa
+
+Naong Hyegeun (懶翁惠勤, 1320–1376) was — alongside Taego Bou — the second great late-Goryeo master through whom Yuan-dynasty Chinese Chan reached Korea, and the teacher who carried the dharma into the early Joseon. Travelling to Yuan China in 1347, he studied at the great Mongol-period monastery on Mount Yan, received Linji transmission from Pingshan Chulin, and crossed paths with the Indian master Zhikong (Śūnyādiśya), whose memory he later helped to establish in Korea. On returning to Korea he served as Royal Preceptor under King Gongmin and re-articulated the inheritance from China through hwadu practice.
 
 ### Keigan Eisho
 
@@ -1253,6 +1289,15 @@ Doku's role in the Soto lineage represents the faithful maintenance of the tradi
 Tessan Shikaku was a Soto Zen master who maintained the tradition's transmission in Japan. He served in the lineage of teachers responsible for preserving the school's meditative practices and institutional life, contributing to the steady continuity that characterizes the Soto tradition.
 
 Shikaku's role in the Soto succession reflects the tradition's emphasis on unbroken transmission. Each teacher in the chain is responsible not only for their own practice but for the faithful transmission of the Dharma to the next generation, ensuring that Dogen's original insight remains alive and accessible.
+
+### Hamheo Gihwa
+
+- **Also known as:** Hamhŏ Tŭkt'ong, Kihwa
+- **Dates:** 1376 – 1433
+- **School:** Seon
+- **Teachers:** Naong Hyegeun
+
+Hamheo Gihwa (涵虛己和, 1376–1433) was the leading philosophical voice of Korean Buddhism in the first generation of the Joseon dynasty, when the new Neo-Confucian state was systematically dismantling Buddhist institutions. A former Confucian scholar at Seonggyungwan who became a monk under Muhak Jacho — Naong Hyegeun's principal disciple — he turned his classical training to the defense of the dharma in the Hyeonjeong-non (Treatise on Manifesting the Right), a measured response to Confucian polemics that argued for the compatibility of Buddhist liberation with Confucian moral seriousness.
 
 ### Gisan Tonin
 
@@ -1553,7 +1598,7 @@ Ryoko's work as a Soto teacher exemplifies the tradition's dual commitment to me
 - **Dates:** 1670 – 1742
 - **School:** Lâm Tế
 - **Teachers:** Linji Yixuan
-- **Students:** Thích Nhất Hạnh
+- **Students:** Thích Thanh Từ, Thích Nhất Hạnh
 
 Liễu Quán (了觀, 1670–1742) is the master who Vietnamized the Lâm Tế (Linji) tradition. Where earlier Vietnamese Lâm Tế transmission had been carried by Chinese émigré monks — notably Nguyên Thiều, who arrived from Guangdong c. 1665 — Liễu Quán was the first Vietnamese-born heir, receiving transmission from the Chinese master Tử Dung Minh Hoằng. The dharma line he established, known as the Liễu Quán branch, became the dominant Buddhist lineage in central and southern Vietnam and remains so today. Thích Nhất Hạnh's Plum Village tradition descends through this line as its 42nd generation, making Liễu Quán the ancestor of the global Vietnamese Zen tradition as it is now practiced worldwide.
 
@@ -2116,6 +2161,14 @@ Nishijima's approach was distinctive for its integration of Dogen's teaching wit
 Jiyu Kennett was a British-born Soto Zen teacher who founded Shasta Abbey in northern California, establishing one of the first Western Soto Zen monasteries. She trained in Japan at Sojiji, one of the two head temples of Soto Zen, and received dharma transmission there from Koho Keido Chisan before returning to the West to teach.
 
 Kennett's approach to Soto Zen was distinctive for its adaptation to Western forms. She translated many Soto liturgical texts into English, set chants to Gregorian-style melodies, and created a monastic environment that combined Japanese Soto discipline with elements familiar to Western practitioners.
+
+### Thích Thanh Từ
+
+- **Dates:** 1924 – null
+- **School:** Trúc Lâm
+- **Teachers:** Liễu Quán
+
+Thích Thanh Từ (釋清慈, b. 1924) is the master most responsible for the twentieth-century revival of the Trúc Lâm school after six centuries of dormancy. Trained in the Lâm Tế Liễu Quán line under Thích Thiện Hoa, he founded Trúc Lâm Thiền Viện at Đà Lạt in 1993 as an explicit re-grounding of Vietnamese Buddhism in the indigenous Trúc Lâm inheritance of Trần Nhân Tông, Pháp Loa, and Huyền Quang — practiced as a disciplined meditative monasticism rather than a literary memory. From this base he has trained the largest contemporary Vietnamese contemplative community, with Trúc Lâm monasteries now established across Vietnam, North America, Europe, and Australia.
 
 ### Thích Nhất Hạnh
 
@@ -4379,7 +4432,7 @@ Yuanmi's presence in the Caodong lineage reflects the school's continuous transm
 - **Dates:** Dates uncertain
 - **School:** Nanyue line
 - **Teachers:** Mazu Daoyi
-- **Students:** Wufeng Changguan
+- **Students:** Wufeng Changguan, Doui
 
 Xitang Zhizang was one of the three great students of Mazu Daoyi, alongside Baizhang Huaihai and Nanquan Puyuan. He taught at Xitang (West Hall) and was known for a deep and quiet style that complemented the more dramatic approaches of his dharma brothers. The three students are often mentioned together as exemplifying different facets of Mazu's teaching.
 
@@ -4664,7 +4717,7 @@ Thiền (禪) is the Vietnamese tradition of Chan Buddhism, brought to Vietnam t
 ### Seon
 
 - **Tradition:** Seon
-- **Masters:** 2
+- **Masters:** 5
 
 Seon (禪, 선) is the Korean tradition of Chan Buddhism, introduced to the Korean peninsula beginning in the seventh century by monks who had studied in Tang dynasty China. The earliest transmissions came through figures like Toui, who received dharma transmission from Baizhang Huaihai's lineage and established the first Seon school upon returning to Korea. During the Goryeo dynasty, Bojo Jinul (1158–1210) became the tradition's most influential reformer, synthesizing Seon meditation with Hwaeom (Huayan) doctrinal study and establishing the Jogye Order, which remains the dominant Buddhist institution in Korea today. Korean Seon developed a distinctive character: it preserved the intensity of Tang dynasty Chan practice—particularly the hwadu (huatou) method of koan investigation—while integrating it with a broader Buddhist framework. The tradition also maintained a strong emphasis on extended silent retreat, culminating in the modern Korean practice of three-month intensive meditation seasons (kyolche). Major modern figures include Gyeongheo, who revived the dying Seon tradition in the late nineteenth century, and Seongcheol, who insisted on sudden awakening as the only authentic path.
 
@@ -4706,7 +4759,7 @@ The Guiyang school (潙仰宗) was the earliest of the Five Houses of Chan to be
 ### Trúc Lâm
 
 - **Tradition:** Thiền
-- **Masters:** 1
+- **Masters:** 4
 
 The Trúc Lâm (竹林, Bamboo Forest) school is the only indigenous Vietnamese Zen tradition, founded in 1299 by Trần Nhân Tông (1258–1308), the third emperor of the Trần dynasty who abdicated the throne to become a monk. After personally leading Vietnam to victory in the second and third Mongol invasions (1285 and 1288), Trần Nhân Tông retired to Yên Tử Mountain and unified the three existing Vietnamese Thiền schools—the Vinitaruci, Vô Ngôn Thông, and Thảo Đường lineages—into a single school. The Trúc Lâm tradition was continued by two more patriarchs, Pháp Loa (1284–1330) and Huyền Quang (1254–1334), before gradually declining as a distinct school. It was revived in the twentieth century by Thích Thanh Từ as a modern Vietnamese contemplative movement with monasteries across the country.
 
@@ -4757,7 +4810,7 @@ The Lâm Tế school is the Vietnamese form of the Chinese Linji tradition, form
 - **Tradition:** Seon
 - **Masters:** 1
 
-The Kwan Um School of Zen is an international Seon organization founded in 1983 by the Korean master Seung Sahn (1927–2004), who was among the first Korean Zen teachers to establish a major presence in the West. The school's name refers to Gwaneum (Avalokiteshvara), the bodhisattva of compassion. Seung Sahn's teaching style combined the rigor of traditional Korean hwadu practice with a direct, humorous, and accessible approach adapted for Western students. His famous kong-an (koan) interviews, often beginning with 'What is this?', became the school's hallmark. The Kwan Um School maintains over a hundred Zen centers and groups across North America, Europe, Asia, and Africa, making it one of the most geographically widespread Zen organizations in the world.
+The Kwan Um School of Zen is an international Seon organization founded in 1983 by the Korean master Seung Sahn (1927–2004), among the first Korean Zen teachers to establish a major presence in the West[1]. The school's name refers to Gwaneum (Avalokiteshvara), the bodhisattva of compassion[1]. Seung Sahn's teaching style combined the rigor of traditional Korean hwadu practice with a direct, humorous, and accessible approach adapted for Western students[2]. His kong-an (koan) interviews, often pivoting on the question 'What is this?', became the school's hallmark[3]. The Kwan Um School maintains over a hundred Zen centers and groups across North America, Europe, Asia, and Africa[1], making it one of the most geographically widespread Zen organizations in the world.
 
 ### Ōbaku
 
@@ -4771,7 +4824,7 @@ The Ōbaku school (黄檗宗) is the third major school of Japanese Zen, founded
 - **Tradition:** Zen
 - **Masters:** 12
 
-The White Plum Asanga (白梅, 'white plum blossom') is the lineage sangha of Taizan Maezumi Roshi (1931–1995) and his Dharma successors. It is not a Japanese Sōtōshū-registered sub-school but a Western Zen order that inherits Maezumi's tri-lineage authorization: Sōtō shihō from his father Baian Hakujun Kuroda, Rinzai inka from the lay teacher Kōryū Osaka, and Sanbō-Zen inka from Hakuun Yasutani. Maezumi named twelve American Dharma heirs — including Bernie Tetsugen Glassman, Charlotte Joko Beck, Dennis Genpo Merzel, John Daido Loori, Jan Chozen Bays, and Gerry Shishin Wick — and through their own transmissions the White Plum now has several hundred authorized teachers and roughly a thousand affiliated practice places worldwide. Because the order combines shikantaza with the Harada-Yasutani koan curriculum, and because it operates outside Sōtōshū registration, most White Plum heirs teach under the Asanga's own name rather than as Sōtō priests.
+The White Plum Asanga (白梅, 'white plum blossom') is the lineage sangha of Taizan Maezumi Roshi (1931–1995) and his Dharma successors[1]. It is not a Japanese Sōtōshū-registered sub-school but a Western Zen order that inherits Maezumi's tri-lineage authorization: Sōtō shihō from his father Baian Hakujun Kuroda, Rinzai inka from the lay teacher Kōryū Osaka, and Sanbō-Zen inka from Hakuun Yasutani[1]. Maezumi named twelve American Dharma heirs — including Bernie Tetsugen Glassman, Charlotte Joko Beck, Dennis Genpo Merzel, John Daido Loori, Jan Chozen Bays, and Gerry Shishin Wick — and through their own transmissions the White Plum now spans several hundred authorized teachers and dozens of affiliated practice places worldwide[2]. Because the order combines shikantaza with the Harada-Yasutani koan curriculum[3], and because it operates outside Sōtōshū registration, most White Plum heirs teach under the Asanga's own name rather than as Sōtō priests.
 
 ### Plum Village
 
@@ -5521,6 +5574,24 @@ A Zen pupil asked Kembo: "All Buddhas of the ten parts of the universe enter the
 Kembo, raising his walking stick and drawing the figure one in the air, said: "Here it is."
 
 This pupil went to Ummon and asked the same question. Ummon, who happened to have a fan in his hand, said: "This fan will reach to the thirty-third heaven and hit the nose of the presiding deity there.
+
+### How to Sit (Fukanzazengi, opening)
+
+- **Attribution:** Dogen
+- **Type:** practice-instruction
+
+The way is originally perfect and all-pervading. How could it depend on practice and verification? The dharma vehicle is free and untrammeled. What need is there for our concentrated effort? Indeed, the whole body is far beyond the world's dust. Who could believe in a means to brush it clean? It is never apart from one, right where one is. What is the use of going off here and there to practice?
+
+For sanzen, a quiet room is suitable. Eat and drink moderately. Cast aside all involvements and cease all affairs. Do not think 'good' or 'bad.' Do not judge true or false.
+
+### Points to Watch in Zazen
+
+- **Attribution:** Keizan Jokin
+- **Type:** practice-instruction
+
+Keizan's Zazen Yōjinki ('Points to Watch in Zazen') gives the Sōtō practitioner a manual for the body of practice, where Dōgen's Fukanzazengi gives the spirit. Choose a clean, quiet place. Sit on a thick cushion, legs in lotus or half-lotus, spine erect, ears aligned with shoulders, nose with navel. The tongue rests against the upper palate; the eyes are open but soft, gaze cast slightly downward. Breathe through the nose, neither holding nor pushing.
+
+'Do not think of the koans. Do not turn the mind toward enlightenment. Do not turn it away.
 
 ### An Old Mirror
 

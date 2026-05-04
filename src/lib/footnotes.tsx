@@ -36,6 +36,15 @@ interface RenderOptions {
   idScope: string;
   /** Show "Notes" header above the footnote list (default true). */
   showHeader?: boolean;
+  /**
+   * Skip rendering the inline footnote list entirely. Useful when a
+   * page has multiple prose blocks that share a single source list and
+   * surfaces a consolidated `<FootnoteList>` near the bottom (the
+   * /about pattern). The `[N]` markers still render as superscript
+   * anchors and target `#fn-{idScope}-{N}` so a sibling `<FootnoteList>`
+   * with the matching scope resolves them.
+   */
+  suppressList?: boolean;
 }
 
 const MARKER_RE = /\[(\d{1,3})\]/g;
@@ -116,7 +125,7 @@ export function renderProseWithFootnotes(
   refs: FootnoteRef[],
   options: RenderOptions
 ): React.JSX.Element {
-  const { idScope, showHeader = true } = options;
+  const { idScope, showHeader = true, suppressList = false } = options;
 
   const refMap = new Map<number, FootnoteRef>();
   for (const ref of refs) refMap.set(ref.index, ref);
@@ -140,7 +149,7 @@ export function renderProseWithFootnotes(
   return (
     <>
       {paragraphNodes}
-      {sortedRefs.length > 0 && (
+      {!suppressList && sortedRefs.length > 0 && (
         <aside className="footnote-section" aria-label="Footnotes">
           {showHeader && <h4 className="footnote-section-title">Notes</h4>}
           <ol className="footnote-list">

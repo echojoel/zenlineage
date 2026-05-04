@@ -19,7 +19,7 @@ import {
 import { formatDateWithPrecision } from "@/lib/date-format";
 import { getSchoolDefinition, type SchoolFootnote } from "@/lib/school-taxonomy";
 import { isTier1Master } from "@/lib/editorial-tiers";
-import { renderProseWithFootnotes, type FootnoteRef } from "@/lib/footnotes";
+import { FootnoteList, renderProseWithFootnotes, type FootnoteRef } from "@/lib/footnotes";
 import { AccuracyFooter } from "@/components/AccuracyFooter";
 
 function schoolFootnotesToRefs(footnotes: SchoolFootnote[] | undefined): FootnoteRef[] {
@@ -383,7 +383,7 @@ export default async function SchoolDetailPage({ params }: { params: Promise<{ s
                 renderProseWithFootnotes(
                   definition.summary,
                   schoolFootnotesToRefs(definition.footnotes),
-                  { idScope: `school-${slug}-summary` }
+                  { idScope: `school-${slug}`, suppressList: true }
                 )
               ) : (
                 <p>{definition.summary}</p>
@@ -405,7 +405,7 @@ export default async function SchoolDetailPage({ params }: { params: Promise<{ s
                 renderProseWithFootnotes(
                   definition.practice,
                   schoolFootnotesToRefs(definition.footnotes),
-                  { idScope: `school-${slug}-practice`, showHeader: false }
+                  { idScope: `school-${slug}`, suppressList: true }
                 )
               ) : (
                 <p>{definition.practice}</p>
@@ -610,6 +610,16 @@ export default async function SchoolDetailPage({ params }: { params: Promise<{ s
             </p>
           )}
         </section>
+
+        {definition?.footnotes && definition.footnotes.length > 0 && (
+          <section className="detail-card">
+            <FootnoteList
+              refs={schoolFootnotesToRefs(definition.footnotes)}
+              scope={`school-${slug}`}
+              title="Notes"
+            />
+          </section>
+        )}
 
         <AccuracyFooter
           entityType="school"
