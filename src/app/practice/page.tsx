@@ -4,6 +4,7 @@ import { db } from "@/db";
 import { schoolNames, schools, temples } from "@/db/schema";
 import { and, eq, isNotNull } from "drizzle-orm";
 import PracticeMapLoader from "@/components/PracticeMapLoader";
+import { SCHOOL_PRACTICE_TEACHINGS } from "@/lib/practice-instructions";
 
 export const metadata: Metadata = {
   title: "Practice",
@@ -58,6 +59,30 @@ export default async function PracticePage() {
     }))
     .sort((a, b) => b.count - a.count || a.name.localeCompare(b.name));
 
+  // A school has its own /practice/<slug> page when it either has geocoded
+  // temples or curated practice instructions. Surfaced as cards on the
+  // landing page so a reader can jump straight from "what tradition?" to
+  // "how do they practice and where?"
+  const schoolsWithPracticePages = schoolRows
+    .map((s) => {
+      const templeCount = countsBySchool.get(s.id) ?? 0;
+      const instructionCount = (SCHOOL_PRACTICE_TEACHINGS[s.slug] ?? []).length;
+      return {
+        slug: s.slug,
+        name: nameById.get(s.id) ?? s.slug,
+        tradition: s.tradition ?? "",
+        templeCount,
+        instructionCount,
+      };
+    })
+    .filter((s) => s.templeCount > 0 || s.instructionCount > 0)
+    .sort(
+      (a, b) =>
+        b.templeCount - a.templeCount ||
+        b.instructionCount - a.instructionCount ||
+        a.name.localeCompare(b.name)
+    );
+
   const totalTemples = geocodedTemples.length;
 
   const breadcrumbJsonLd = {
@@ -92,13 +117,58 @@ export default async function PracticePage() {
             className="detail-subtitle"
             style={{ maxWidth: "42rem", margin: "0.9rem auto 0" }}
           >
-            Temples, zendōs, seonbangs, and Thiền centers around the world — filtered
-            by school. To learn <em>how</em> a given school practices, visit its{" "}
-            <Link className="detail-inline-link" href="/schools">
-              school page
-            </Link>
-            .
+            Temples, zendōs, seonbangs, and Thiền centers around the world.
+            Pick a school below for its practice instructions and the places
+            you can practice it.
           </p>
+        </section>
+
+        <section className="detail-card detail-card--wide">
+          <h3 className="detail-section-title">Choose a school</h3>
+          <ul
+            className="detail-link-list"
+            style={{
+              listStyle: "none",
+              padding: 0,
+              display: "grid",
+              gridTemplateColumns: "repeat(auto-fill, minmax(220px, 1fr))",
+              gap: "0.6rem",
+            }}
+          >
+            {schoolsWithPracticePages.map((s) => (
+              <li key={s.slug} style={{ margin: 0 }}>
+                <Link
+                  className="detail-button detail-button-muted"
+                  href={`/practice/${s.slug}`}
+                  style={{
+                    display: "flex",
+                    flexDirection: "column",
+                    alignItems: "flex-start",
+                    gap: "0.25rem",
+                    padding: "0.7rem 0.9rem",
+                    textTransform: "none",
+                    letterSpacing: "0.02em",
+                    fontSize: "0.85rem",
+                    width: "100%",
+                  }}
+                >
+                  <span style={{ fontWeight: 600 }}>{s.name}</span>
+                  <span
+                    className="detail-list-meta"
+                    style={{ fontSize: "0.7rem" }}
+                  >
+                    {s.tradition}
+                    {s.templeCount > 0
+                      ? ` · ${s.templeCount} ${s.templeCount === 1 ? "place" : "places"}`
+                      : ""}
+                    {s.instructionCount > 0
+                      ? ` · ${s.instructionCount} instr.`
+                      : ""}
+                  </span>
+                </Link>
+              </li>
+            ))}
+          </ul>
         </section>
 
         <section className="detail-card detail-card--wide">

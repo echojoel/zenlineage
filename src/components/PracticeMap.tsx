@@ -64,14 +64,20 @@ const STYLE_URL = "https://tiles.openfreemap.org/styles/positron";
 const INITIAL_CENTER: [number, number] = [100, 25];
 const INITIAL_ZOOM = 1.3;
 
-export default function PracticeMap() {
+export interface PracticeMapProps {
+  /** When set, the map opens locked to this school's temples and the
+   * filter dropdown is hidden. Used on the per-school practice page. */
+  initialSchool?: string;
+}
+
+export default function PracticeMap({ initialSchool }: PracticeMapProps = {}) {
   const containerRef = useRef<HTMLDivElement | null>(null);
   const mapRef = useRef<MapLibreMap | null>(null);
   const popupRef = useRef<maplibregl.Popup | null>(null);
 
   const [data, setData] = useState<TemplesPayload | null>(null);
   const [status, setStatus] = useState<"loading" | "ready" | "error" | "empty">("loading");
-  const [schoolFilter, setSchoolFilter] = useState<string>("all");
+  const [schoolFilter, setSchoolFilter] = useState<string>(initialSchool ?? "all");
 
   // Load /data/temples.json
   useEffect(() => {
@@ -271,25 +277,27 @@ export default function PracticeMap() {
 
   return (
     <div className="practice-map">
-      <div className="practice-map-controls">
-        <label htmlFor="practice-map-school-filter" className="detail-eyebrow">
-          Filter by school
-        </label>
-        <select
-          id="practice-map-school-filter"
-          className="masters-select"
-          value={schoolFilter}
-          onChange={(e) => setSchoolFilter(e.target.value)}
-          disabled={!data || status !== "ready"}
-        >
-          <option value="all">All schools {data ? `(${data.temples.length})` : ""}</option>
-          {data?.schools.map((s) => (
-            <option key={s.slug} value={s.slug}>
-              {s.name} ({s.count})
-            </option>
-          ))}
-        </select>
-      </div>
+      {!initialSchool && (
+        <div className="practice-map-controls">
+          <label htmlFor="practice-map-school-filter" className="detail-eyebrow">
+            Filter by school
+          </label>
+          <select
+            id="practice-map-school-filter"
+            className="masters-select"
+            value={schoolFilter}
+            onChange={(e) => setSchoolFilter(e.target.value)}
+            disabled={!data || status !== "ready"}
+          >
+            <option value="all">All schools {data ? `(${data.temples.length})` : ""}</option>
+            {data?.schools.map((s) => (
+              <option key={s.slug} value={s.slug}>
+                {s.name} ({s.count})
+              </option>
+            ))}
+          </select>
+        </div>
+      )}
       <div className="practice-map-wrapper" ref={containerRef} aria-label="Places of practice map" />
       {status === "loading" && <p className="detail-muted">Loading map…</p>}
       {status === "error" && (
