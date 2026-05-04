@@ -644,16 +644,12 @@ export default async function MasterDetailPage({ params }: { params: Promise<{ s
                     : "detail-hero-image"
                 }
               />
-              <figcaption className="figure-credit">
-                {publishedImage.type === "placeholder"
-                  ? "Portrait unavailable — name card generated from native script."
-                  : (
-                    <>
-                      {publishedImage.attribution ?? "Portrait via Wikipedia / Commons"}
-                      {publishedImage.license ? ` · ${publishedImage.license}` : ""}
-                    </>
-                  )}
-              </figcaption>
+              {publishedImage.type !== "placeholder" && (
+                <figcaption className="figure-credit">
+                  {publishedImage.attribution ?? "Portrait via Wikipedia / Commons"}
+                  {publishedImage.license ? ` · ${publishedImage.license}` : ""}
+                </figcaption>
+              )}
             </figure>
           )}
           <p className="detail-eyebrow">
