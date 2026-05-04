@@ -965,14 +965,14 @@ a.footnote-source-link:hover {
   color: var(--ink);
   text-decoration: underline;
   text-decoration-thickness: 1px;
-  text-decoration-color: var(--ink-light);
+  text-decoration-color: var(--ink);
   text-underline-offset: 3px;
-  transition: text-decoration-color 150ms ease;
+  transition: text-decoration-thickness 150ms ease;
 }
 
 .detail-inline-link:hover,
 .detail-inline-link:focus-visible {
-  text-decoration-color: var(--ink);
+  text-decoration-thickness: 2px;
 }
 
 .detail-inline-link:focus-visible {
@@ -1012,6 +1012,14 @@ a.footnote-source-link:hover {
   font-size: 0.7rem;
   letter-spacing: 0.1em;
   text-transform: uppercase;
+}
+
+.detail-summary > .detail-subsection-title {
+  margin-top: 1.6rem;
+}
+
+.detail-summary > .detail-subsection-title:first-child {
+  margin-top: 0;
 }
 
 .detail-columns {

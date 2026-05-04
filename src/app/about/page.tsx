@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import type { Metadata } from "next";
 import { FootnoteList, FootnoteRef, type FootnoteRef as FN } from "@/lib/footnotes";
 
@@ -121,11 +122,13 @@ export default function AboutPage() {
       <div className="detail-layout">
         <section className="detail-hero">
           <figure className="detail-hero-figure">
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img
+            <Image
               src="/about-enso.webp"
               alt="Ensō — a circle drawn in one brushstroke, symbolizing enlightenment, the universe, and the void in Zen"
+              width={400}
+              height={400}
               className="detail-hero-image"
+              priority
             />
             <figcaption className="figure-credit">
               Ensō — brushstroke study, public domain via Wikimedia Commons.
@@ -163,11 +166,160 @@ export default function AboutPage() {
               later the distance between you and your life closes. That is all.
             </p>
             <p>
-              What follows on this page is the history, the philosophy, the scholarship. It matters.
-              But it comes second.
+              The longer answer &mdash; the one the rest of this page is for &mdash; has four parts:
+              what the word means and where it comes from, how the same tradition wears four
+              different names across Asia, the three pillars of meditation / transmission /
+              awakening, and what Zen <em>is not</em>, since most of what circulates in English
+              about Zen is wrong.
             </p>
+
+            <h4 className="detail-subsection-title">One word, five languages</h4>
+            <p>
+              Zen, Chán, Seon, Thiền, dhyāna &mdash; these are the same word, refracted across the
+              languages the tradition travelled through. The Sanskrit <em>dhyāna</em> (ध्यान,
+              &ldquo;meditative absorption&rdquo;) was transliterated into Chinese as{" "}
+              <em>chánnà</em> (禪那), shortened to <em>chán</em> (禪), and then read in Korean as{" "}
+              <em>Seon</em> (선/禪), in Vietnamese as <em>Thiền</em>, and in Japanese as{" "}
+              <em>Zen</em> (禅). The English word &ldquo;Zen&rdquo; is the Japanese reading,
+              which is why the English-speaking world tends to assume the tradition is Japanese
+              when it is, in fact, Chinese in origin and pan-Asian in scope (Dumoulin,{" "}
+              <em>Zen Buddhism: A History, Vol. 1</em>, 2005, pp. 9&ndash;13).
+            </p>
+
+            <h4 className="detail-subsection-title">One tradition, four schools, four names</h4>
+            <p>
+              <strong>Chán</strong>, <strong>Seon</strong>, <strong>Thiền</strong>, and{" "}
+              <strong>Zen</strong> are the same tradition as it took root in China, Korea,
+              Vietnam, and Japan. The doctrinal core is identical: direct pointing at the mind,
+              transmission outside the scriptures, awakening as recognition of one&rsquo;s own
+              nature. What diverges is style. Chinese{" "}
+              <Link className="detail-inline-link" href="/schools">
+                Chán
+              </Link>{" "}
+              kept its Tang-dynasty diversity longest. Korean{" "}
+              <Link className="detail-inline-link" href="/schools/seon">
+                Seon
+              </Link>{" "}
+              centred on <em>hwadu</em> investigation under{" "}
+              <Link className="detail-inline-link" href="/masters/jinul">
+                Jinul
+              </Link>
+              . Vietnamese{" "}
+              <Link className="detail-inline-link" href="/schools/thien">
+                Thiền
+              </Link>{" "}
+              produced the indigenous{" "}
+              <Link className="detail-inline-link" href="/schools/truc-lam">
+                Trúc Lâm
+              </Link>{" "}
+              school in 1299 and, in our own time,{" "}
+              <Link className="detail-inline-link" href="/masters/thich-nhat-hanh">
+                Thích Nhất Hạnh
+              </Link>
+              &rsquo;s engaged-Buddhism reformulation. Japanese{" "}
+              <Link className="detail-inline-link" href="/schools">
+                Zen
+              </Link>{" "}
+              split into the kōan-driven{" "}
+              <Link className="detail-inline-link" href="/schools/linji">
+                Rinzai
+              </Link>{" "}
+              and the silent-illumination{" "}
+              <Link className="detail-inline-link" href="/schools/caodong">
+                Sōtō
+              </Link>
+              , and is the form that travelled to the West first. Treating any one of these as
+              the &ldquo;real&rdquo; Zen and the others as variants is a category error.
+            </p>
+
+            <h4 className="detail-subsection-title">Meditation, transmission, awakening</h4>
+            <p>
+              Three things hold the tradition together across all four regional forms. The
+              first is <strong>meditation</strong> &mdash; <em>zazen</em> in Japanese, ordinary
+              seated practice with a straight back and a bare attention to what is. Sōtō calls
+              it <em>shikantaza</em> (&ldquo;just sitting&rdquo;); Rinzai pairs it with{" "}
+              <em>kōan</em> introspection; Korean Seon uses <em>hwadu</em>; the underlying act
+              is the same. The second is <strong>transmission</strong> &mdash; not a doctrine
+              passed in books but a relationship between teacher and student, ratified when the
+              teacher recognises in the student what the teacher&rsquo;s own teacher recognised
+              in them. Modern scholarship has shown the lineage charts to be partly
+              retrospective constructions (Welter, <em>The Linji Lu</em>, 2008, pp. 29&ndash;55),
+              but the principle &mdash; that awakening is verified, not self-declared &mdash;
+              remains the spine of the institution. The third is <strong>awakening</strong>{" "}
+              itself: <em>kenshō</em> (見性, &ldquo;seeing one&rsquo;s nature&rdquo;), the moment
+              the practitioner recognises that the buddha-nature being sought has been the one
+              looking the whole time.
+            </p>
+
+            <h4 className="detail-subsection-title">What Zen is not</h4>
+            <p>
+              A great deal of what circulates in English under the word &ldquo;Zen&rdquo; is
+              imported from twentieth-century popular writing rather than from the tradition.
+              The most common misreadings worth naming directly:
+            </p>
+            <ul className="detail-link-list" style={{ marginTop: "0.5rem" }}>
+              <li>
+                <strong>Zen is not anti-intellectual.</strong>
+                <span className="detail-list-meta">
+                  The literature of Chan / Zen &mdash; the recorded sayings, the kōan
+                  collections, the commentarial tradition &mdash; is one of the largest bodies
+                  of religious philosophy ever produced. &ldquo;A special transmission outside
+                  the scriptures&rdquo; means the awakening is not <em>contained</em> in words,
+                  not that words are to be discarded.
+                </span>
+              </li>
+              <li>
+                <strong>Zen is not separate from Buddhism.</strong>
+                <span className="detail-list-meta">
+                  Zen monasteries follow the Vinaya, chant the sutras, and inherit Madhyamaka
+                  and Yogācāra philosophy directly (Faure, <em>The Rhetoric of Immediacy</em>,
+                  1991). It is a Mahāyāna school, not a separate religion.
+                </span>
+              </li>
+              <li>
+                <strong>Zen is not a Japanese invention.</strong>
+                <span className="detail-list-meta">
+                  The school formed in Tang-dynasty China, was carried to Korea in the eighth
+                  century and to Vietnam by the sixth, and reached Japan only in the late
+                  twelfth. The Japanese Zen the West met first is a downstream development, not
+                  the source.
+                </span>
+              </li>
+              <li>
+                <strong>Zen is not a self-help technique.</strong>
+                <span className="detail-list-meta">
+                  Zazen is not a productivity tool, a stress-reduction protocol, or a posture
+                  for &ldquo;optimisation.&rdquo; The framing of Zen-as-mindfulness was largely
+                  shaped by mid-twentieth-century writers and modern wellness culture (Sharf,
+                  &ldquo;The Zen of Japanese Nationalism,&rdquo; 1995); the tradition itself is
+                  not aimed at improving the self but at seeing through the self.
+                </span>
+              </li>
+              <li>
+                <strong>Zen does not float free of ethics.</strong>
+                <span className="detail-list-meta">
+                  Every transmission lineage takes the bodhisattva precepts. The cliché that
+                  &ldquo;a Zen master is beyond good and evil&rdquo; is a romantic Western
+                  reading; the actual tradition is monastic, vow-bound, and ethically dense.
+                </span>
+              </li>
+            </ul>
           </div>
         </section>
+
+        <figure className="about-figure">
+          <Image
+            src="/masters/thich-nhat-hanh.webp"
+            alt="Thích Nhất Hạnh, twentieth-century teacher of Vietnamese Thiền"
+            width={320}
+            height={320}
+            className="about-section-image"
+          />
+          <figcaption className="figure-credit">
+            Thích Nhất Hạnh (1926–2022) — modern teacher of Vietnamese Thiền and founder
+            of Plum Village (photo via Wikimedia Commons).
+          </figcaption>
+        </figure>
 
         <section className="detail-card">
           <h3 className="detail-section-title">Etymology</h3>
@@ -239,10 +391,11 @@ export default function AboutPage() {
         </section>
 
         <figure className="about-figure">
-          {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img
+          <Image
             src="/masters/puti-damo.webp"
             alt="Bodhidharma (Puti Damo), the First Patriarch of Chan Buddhism"
+            width={320}
+            height={320}
             className="about-section-image"
           />
           <figcaption className="figure-credit">
@@ -285,10 +438,11 @@ export default function AboutPage() {
         </section>
 
         <figure className="about-figure">
-          {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img
+          <Image
             src="/masters/dogen.webp"
             alt="Dogen Zenji, founder of Soto Zen in Japan"
+            width={320}
+            height={320}
             className="about-section-image"
           />
           <figcaption className="figure-credit">
@@ -361,10 +515,11 @@ export default function AboutPage() {
         </section>
 
         <figure className="about-figure">
-          {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img
+          <Image
             src="/masters/dajian-huineng.webp"
             alt="Huineng, the Sixth Patriarch of Chan Buddhism"
+            width={320}
+            height={320}
             className="about-section-image"
           />
           <figcaption className="figure-credit">
@@ -385,25 +540,25 @@ export default function AboutPage() {
               Chan, the Five Houses of the late Tang, and the national branches that followed.
             </p>
             <p>
-              A full chronological walk-through &mdash; with dates, events, and the masters who
-              carried the lineage at each turn &mdash; lives on the{" "}
-              <Link className="detail-inline-link" href="/timeline">
-                Timeline
-              </Link>
-              . This page stays with the <em>what</em> and the <em>why</em>; the{" "}
-              <Link className="detail-inline-link" href="/timeline">
-                Timeline
-              </Link>{" "}
-              is the <em>when</em>.
+              The full chronological account &mdash; Bodhidharma&rsquo;s arrival, the Tang
+              masters, the Song-dynasty kōan collections, the transmission to Japan, the
+              twentieth-century opening to the West &mdash; lives on the Timeline page. This
+              page is the <em>what</em> and the <em>why</em>; the Timeline is the <em>when</em>.
             </p>
+          </div>
+          <div className="detail-actions" style={{ justifyContent: "flex-start", marginTop: "1rem" }}>
+            <Link className="detail-button" href="/timeline">
+              Open the Timeline →
+            </Link>
           </div>
         </section>
 
         <figure className="about-figure">
-          {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img
+          <Image
             src="/masters/hakuin-ekaku.webp"
             alt="Hakuin Ekaku, reviver of the Rinzai school"
+            width={320}
+            height={320}
             className="about-section-image"
           />
           <figcaption className="figure-credit">
@@ -504,10 +659,11 @@ export default function AboutPage() {
         </section>
 
         <figure className="about-figure">
-          {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img
+          <Image
             src="/masters/shunryu-suzuki.webp"
             alt="Shunryu Suzuki, who helped establish Soto Zen in the United States"
+            width={320}
+            height={320}
             className="about-section-image"
           />
           <figcaption className="figure-credit">
