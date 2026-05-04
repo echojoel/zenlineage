@@ -1,0 +1,54 @@
+name: accuracy-audit
+
+# Runs the field-level accuracy audit on every push and pull request that
+# touches data/seed/audit code, and on a weekly schedule so drift in upstream
+# data is caught even when no PRs are open. The job fails when the audit
+# reports any CRITICAL issue — see scripts/audit-accuracy.ts for the rules
+# and docs/EDITORIAL.md for the editorial policy this enforces.
+
+on:
+  push:
+    branches: [master]
+  pull_request:
+    paths:
+      - "scripts/**"
+      - "src/db/**"
+      - "src/lib/editorial-tiers.ts"
+      - "drizzle/**"
+      - "docs/EDITORIAL.md"
+      - ".github/workflows/accuracy-audit.yml"
+  schedule:
+    # Mondays 08:00 UTC — cheap weekly drift check.
+    - cron: "0 8 * * 1"
+  workflow_dispatch:
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm ci --no-audit --no-fund
+
+      - name: Run drizzle migrations
+        run: DATABASE_URL=file:zen.db npx drizzle-kit migrate
+
+      - name: Build seed database
+        run: npm run prebuild
+
+      - name: Run accuracy audit (fails on CRITICAL issues)
+        run: npm run audit:accuracy
+
+      - name: Upload accuracy report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: accuracy-report
+          path: reports/accuracy-report.*

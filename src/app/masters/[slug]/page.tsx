@@ -26,6 +26,21 @@ import {
 import { formatLifeRange } from "@/lib/date-format";
 import { renderProseWithFootnotes, type FootnoteRef } from "@/lib/footnotes";
 import { like } from "drizzle-orm";
+import { AccuracyFooter, type AccuracyField } from "@/components/AccuracyFooter";
+
+type Confidence = "high" | "medium" | "low" | null;
+
+function asConfidence(value: string | null | undefined): Confidence {
+  if (value === "high" || value === "medium" || value === "low") return value;
+  return null;
+}
+
+function citationCountForField(
+  rows: { fieldName: string | null }[],
+  fieldName: string
+): number {
+  return rows.filter((r) => r.fieldName === fieldName).length;
+}
 
 export async function generateMetadata({
   params,
@@ -181,8 +196,10 @@ export default async function MasterDetailPage({ params }: { params: Promise<{ s
       schoolId: masters.schoolId,
       birthYear: masters.birthYear,
       birthPrecision: masters.birthPrecision,
+      birthConfidence: masters.birthConfidence,
       deathYear: masters.deathYear,
       deathPrecision: masters.deathPrecision,
+      deathConfidence: masters.deathConfidence,
     })
     .from(masters)
     .where(eq(masters.slug, slug));
@@ -844,6 +861,36 @@ export default async function MasterDetailPage({ params }: { params: Promise<{ s
             </ul>
           )}
         </section>
+
+        <AccuracyFooter
+          entityType="master"
+          entitySlug={master.slug}
+          entityName={primaryName}
+          totalCitations={citationRows.length}
+          fields={(
+            [
+              {
+                label: "birth date",
+                confidence: asConfidence(master.birthConfidence),
+                citationCount:
+                  citationCountForField(citationRows, "birth_year") +
+                  citationCountForField(citationRows, "birth"),
+              },
+              {
+                label: "death date",
+                confidence: asConfidence(master.deathConfidence),
+                citationCount:
+                  citationCountForField(citationRows, "death_year") +
+                  citationCountForField(citationRows, "death"),
+              },
+              {
+                label: "school",
+                confidence: master.schoolId ? "medium" : null,
+                citationCount: citationCountForField(citationRows, "school_id"),
+              },
+            ] satisfies AccuracyField[]
+          )}
+        />
       </div>
     </main>
   );

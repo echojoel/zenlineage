@@ -65,4 +65,6 @@ d1-export*.sql
 
 # Agent / Claude Code local artefacts
 /.claude/
-/reports/
+/reports/*
+!/reports/accuracy-report.md
+!/reports/accuracy-report.csv

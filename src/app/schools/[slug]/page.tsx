@@ -20,6 +20,7 @@ import { formatDateWithPrecision } from "@/lib/date-format";
 import { getSchoolDefinition, type SchoolFootnote } from "@/lib/school-taxonomy";
 import { isTier1Master } from "@/lib/editorial-tiers";
 import { renderProseWithFootnotes, type FootnoteRef } from "@/lib/footnotes";
+import { AccuracyFooter } from "@/components/AccuracyFooter";
 
 function schoolFootnotesToRefs(footnotes: SchoolFootnote[] | undefined): FootnoteRef[] {
   return (footnotes ?? []).map((fn) => ({
@@ -609,6 +610,13 @@ export default async function SchoolDetailPage({ params }: { params: Promise<{ s
             </p>
           )}
         </section>
+
+        <AccuracyFooter
+          entityType="school"
+          entitySlug={school.slug}
+          entityName={primaryName}
+          totalCitations={citationRows.length}
+        />
       </div>
     </main>
   );

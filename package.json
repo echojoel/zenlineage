@@ -19,6 +19,7 @@
     "provenance:backfill": "tsx scripts/backfill-ingestion-metadata.ts",
     "audit": "tsx scripts/check-exit-criteria.ts",
     "audit:accuracy": "DATABASE_URL=file:zen.db tsx scripts/audit-accuracy.ts",
+    "review:master": "DATABASE_URL=file:zen.db tsx scripts/review-master.ts",
     "audit:images": "DATABASE_URL=file:zen.db tsx scripts/audit-images.ts",
     "thumbnails": "tsx scripts/generate-thumbnails.ts",
     "seed:kv": "DATABASE_URL=file:zen.db tsx scripts/seed-korean-vietnamese.ts",
