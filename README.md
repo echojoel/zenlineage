@@ -108,6 +108,24 @@ scripts/seed-images-targeted.ts # Targeted run (specific masters with overrides)
   -> media_assets + citations in zen.db
 ```
 
+The lineage graph's "Portraits" view uses three downscaled thumbnails per
+master so it can paint quickly without shipping full-resolution heroes:
+
+```
+scripts/generate-thumbnails.ts  # Runs in `npm run prebuild`; idempotent
+  -> public/masters/thumb/{slug}-48.webp   # 1× node sprite, ~2–3 KB
+  -> public/masters/thumb/{slug}-96.webp   # 2× / retina + zoom ≥ 1.5
+  -> public/masters/thumb/{slug}-200.webp  # zoom ≥ 4 / hover preview
+```
+
+`generate-static-data.ts` bakes the three thumbnail paths into
+`public/data/graph.json` so the renderer doesn't need a separate manifest.
+The graph component (`src/components/LineageGraph.tsx`) loads thumbnails
+lazily via viewport frustum culling — only nodes inside the padded
+viewport request a texture, and the active size is upgraded as the user
+zooms in. Users can switch to a name-only view via the controls
+(`?mode=text` URL override; preference persists to `localStorage`).
+
 ## Sources
 
 | ID                                    | What                                              |

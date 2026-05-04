@@ -163,10 +163,45 @@ interface SidebarState {
   schoolName?: string;
 }
 
+type ViewMode = "image" | "text";
+
+const VIEW_MODE_STORAGE_KEY = "lineage-view-mode";
+
+function readInitialViewMode(urlMode: string | null): ViewMode {
+  if (urlMode === "text" || urlMode === "image") return urlMode;
+  if (typeof window === "undefined") return "image";
+  try {
+    const stored = window.localStorage.getItem(VIEW_MODE_STORAGE_KEY);
+    if (stored === "text" || stored === "image") return stored;
+  } catch {
+    // localStorage unavailable (private mode, SSR snapshot, etc.) — fall through to default
+  }
+  return "image";
+}
+
+// Per-node portrait bookkeeping. Lets the cull pass swap textures based on
+// zoom level and skip loads for off-screen nodes.
+interface NodePortraitState {
+  nodeId: string;
+  container: import("pixi.js").Container;
+  textDot: import("pixi.js").Graphics;
+  portraitFrame: import("pixi.js").Graphics | null;
+  label: import("pixi.js").Text;
+  sprite: import("pixi.js").Sprite | null;
+  hasPortrait: boolean;
+  isSvg: boolean;
+  url48: string | null;
+  url96: string | null;
+  url200: string | null;
+  loadedKey: "48" | "96" | "200" | null;
+  loading: boolean;
+}
+
 interface PixiState {
   app: import("pixi.js").Application;
   stage: import("pixi.js").Container;
   nodeContainers: Map<string, import("pixi.js").Container>;
+  portraitStates: Map<string, NodePortraitState>;
   edgeGraphics: import("pixi.js").Graphics;
   nodes: GraphNode[];
   edges: GraphEdge[];
@@ -175,6 +210,39 @@ interface PixiState {
   schoolFilter: string;
   timeMax: number;
   orphanSet: Set<string>;
+  viewMode: ViewMode;
+  zoomScale: number;
+  cullPortraits: () => void;
+  applyAllNodeModes: () => void;
+}
+
+// Decide which thumbnail size to load given the current zoom scale. Above
+// 4× zoom we upgrade to the 200px tile so faces stay sharp; below 1.5× the
+// 48px tile is plenty.
+function targetThumbKey(scale: number): "48" | "96" | "200" {
+  if (scale >= 4) return "200";
+  if (scale >= 1.5) return "96";
+  return "48";
+}
+
+// Toggle a node's children to match the active view mode. In text mode the
+// big portrait frame and any loaded sprite are hidden and the small dot
+// stands in. In image mode the frame is shown for nodes with a portrait
+// (sprite layered on top once it loads); nodes without a portrait keep the
+// small dot so the visual grid stays consistent.
+function applyNodeMode(state: NodePortraitState, mode: ViewMode): void {
+  const inImage = mode === "image";
+  const showPortrait = inImage && state.hasPortrait;
+  if (state.portraitFrame) state.portraitFrame.visible = showPortrait;
+  if (state.sprite) state.sprite.visible = showPortrait;
+  state.textDot.visible = !showPortrait;
+  if (showPortrait) {
+    state.label.anchor.set(0.5, -0.5);
+    state.label.position.y = 14 + 2; // PORTRAIT_RADIUS + gap
+  } else {
+    state.label.anchor.set(0.5, -0.6);
+    state.label.position.y = 0;
+  }
 }
 
 // ---------------------------------------------------------------------------
@@ -195,6 +263,9 @@ export default function LineageGraph() {
   const [dataMaxYear, setDataMaxYear] = useState(2000);
   const [schoolList, setSchoolList] = useState<GraphSchool[]>([]);
   const [status, setStatus] = useState<"loading" | "ready" | "error">("loading");
+  const [viewMode, setViewMode] = useState<ViewMode>(() =>
+    readInitialViewMode(searchParams.get("mode"))
+  );
 
   const pixiRef = useRef<PixiState | null>(null);
   const fuseRef = useRef<import("fuse.js").default<GraphNode> | null>(null);
@@ -462,25 +533,110 @@ export default function LineageGraph() {
 
       // Node containers
       const nodeContainers = new Map<string, import("pixi.js").Container>();
+      const portraitStates = new Map<string, NodePortraitState>();
 
-      // Portrait-load concurrency throttle. ~400 nodes loading in parallel
-      // starves the browser's 6-per-origin HTTP budget and makes the first
-      // paint feel sluggish. Run at most 8 portrait fetches concurrently;
-      // later ones start as earlier ones resolve, so portraits stream in
-      // rather than blocking one another.
-      const PORTRAIT_CONCURRENCY = 8;
-      const portraitQueue: Array<() => Promise<void>> = [];
-      let activePortraits = 0;
-      const pumpPortraits = () => {
-        while (activePortraits < PORTRAIT_CONCURRENCY && portraitQueue.length > 0) {
-          const task = portraitQueue.shift()!;
-          activePortraits++;
-          task().finally(() => {
-            activePortraits--;
-            if (!destroyed) pumpPortraits();
-          });
+      const initialMode = readInitialViewMode(searchParams.get("mode"));
+      const PORTRAIT_RADIUS = 14;
+      const TEXT_DOT_RADIUS = 6;
+
+      // ---- Portrait loading + viewport culling ---------------------------
+      //
+      // Loading every thumbnail on init wastes bandwidth — most masters are
+      // off-screen. Instead each node defers its load until the cull pass
+      // sees it inside the (padded) viewport. The cull also re-targets the
+      // texture size when the user zooms in past 1.5× / 4×.
+
+      async function loadPortrait(
+        state: NodePortraitState,
+        sizeKey: "48" | "96" | "200"
+      ): Promise<void> {
+        if (destroyed || state.loading) return;
+        const url =
+          sizeKey === "200"
+            ? state.url200 ?? state.url96 ?? state.url48
+            : sizeKey === "96"
+              ? state.url96 ?? state.url48
+              : state.url48 ?? state.url96;
+        if (!url) return;
+        if (state.loadedKey === sizeKey) return;
+        // Don't downgrade: a 200 already loaded stays 200, etc.
+        const rank = { "48": 0, "96": 1, "200": 2 } as const;
+        if (state.loadedKey && rank[state.loadedKey] >= rank[sizeKey]) return;
+
+        state.loading = true;
+        try {
+          const texture = (await PIXI.Assets.load(url)) as import("pixi.js").Texture;
+          if (destroyed) return;
+          if (!state.sprite) {
+            const sprite = new PIXI.Sprite(texture);
+            sprite.anchor.set(0.5);
+            const size = PORTRAIT_RADIUS * 2;
+            sprite.width = size;
+            sprite.height = size;
+
+            const mask = new PIXI.Graphics();
+            mask.circle(0, 0, PORTRAIT_RADIUS - 1);
+            mask.fill({ color: 0xffffff });
+            sprite.mask = mask;
+            state.container.addChild(mask);
+            state.container.addChild(sprite);
+            state.sprite = sprite;
+          } else {
+            state.sprite.texture = texture;
+          }
+          state.loadedKey = sizeKey;
+          // Respect the current view mode — don't force-show a sprite if
+          // the user has switched to text mode mid-load.
+          const currentMode = pixiRef.current?.viewMode ?? initialMode;
+          state.sprite.visible = currentMode === "image" && state.hasPortrait;
+        } catch {
+          // Network error or decode failure — leave the medallion in place.
+        } finally {
+          state.loading = false;
         }
-      };
+      }
+
+      function cullPortraits(): void {
+        const pixi = pixiRef.current;
+        if (!pixi) return;
+        if (pixi.viewMode !== "image") return;
+
+        const screenW = app.screen.width;
+        const screenH = app.screen.height;
+        const k = stage.scale.x || 1;
+        const tx = stage.position.x;
+        const ty = stage.position.y;
+
+        // 200px screen-space padding around the viewport — generous enough
+        // that panning a screen-width still finds most nodes pre-loaded.
+        const padScreen = 200;
+        const xMinW = (-tx - padScreen) / k;
+        const yMinW = (-ty - padScreen) / k;
+        const xMaxW = (screenW - tx + padScreen) / k;
+        const yMaxW = (screenH - ty + padScreen) / k;
+
+        const target = targetThumbKey(k);
+
+        for (const state of portraitStates.values()) {
+          if (!state.hasPortrait) continue;
+          const pos = positions.get(state.nodeId);
+          if (!pos) continue;
+          if (!state.container.visible) continue;
+          if (pos.x < xMinW || pos.x > xMaxW || pos.y < yMinW || pos.y > yMaxW) continue;
+          // SVG placeholders aren't rasterized into multiple sizes; they
+          // resolve to the same file regardless of zoom.
+          const pickedKey = state.isSvg ? "48" : target;
+          void loadPortrait(state, pickedKey);
+        }
+      }
+
+      function applyAllNodeModes(): void {
+        const pixi = pixiRef.current;
+        const mode = pixi?.viewMode ?? initialMode;
+        for (const state of portraitStates.values()) {
+          applyNodeMode(state, mode);
+        }
+      }
 
       for (const node of nodes) {
         const pos = positions.get(node.id);
@@ -493,49 +649,26 @@ export default function LineageGraph() {
 
         const color = schoolColor(node.schoolSlug ?? node.schoolName ?? null);
 
-        // Background medallion: larger when the node has a portrait, so the
-        // sprite has somewhere to sit; smaller otherwise so the plain node
-        // looks like a restrained contemplative marker.
+        // Two medallion variants live side-by-side; the cull pass toggles
+        // visibility based on view mode and whether a portrait sprite has
+        // loaded. Pre-building both avoids redraw work on toggle.
         const hasPortrait = Boolean(node.imageThumb96 ?? node.imageThumb48);
-        const medallionRadius = hasPortrait ? 14 : 6;
+        const isSvg = (node.imageThumb48 ?? node.imageThumb96 ?? "").endsWith(".svg");
 
-        const circle = new PIXI.Graphics();
-        circle.circle(0, 0, medallionRadius);
-        circle.fill({ color, alpha: hasPortrait ? 0.25 : 0.9 });
-        circle.circle(0, 0, medallionRadius);
-        circle.stroke({ width: 1, color, alpha: 0.85 });
-        c.addChild(circle);
-
-        // Portrait sprite — loaded async through the concurrency queue so
-        // the first paint isn't drowned by hundreds of simultaneous
-        // texture fetches. We use the 96px thumbnail rather than the 48px
-        // so the medallion stays crisp at retina and when the user zooms
-        // in. SVG placeholders resolve the same way; they're handled as
-        // scalable source paths in graph.json.
-        const thumbUrl = node.imageThumb96 ?? node.imageThumb48 ?? null;
-        if (thumbUrl) {
-          portraitQueue.push(async () => {
-            try {
-              const texture = (await PIXI.Assets.load(thumbUrl)) as import("pixi.js").Texture;
-              if (destroyed) return;
-              const sprite = new PIXI.Sprite(texture);
-              const size = medallionRadius * 2;
-              sprite.width = size;
-              sprite.height = size;
-              sprite.anchor.set(0.5);
-
-              const mask = new PIXI.Graphics();
-              mask.circle(0, 0, medallionRadius - 1);
-              mask.fill({ color: 0xffffff });
-              sprite.mask = mask;
-
-              c.addChild(mask);
-              c.addChild(sprite);
-            } catch {
-              // Silent — the medallion ring remains as a visible fallback.
-            }
-          });
+        let portraitFrame: import("pixi.js").Graphics | null = null;
+        if (hasPortrait) {
+          portraitFrame = new PIXI.Graphics();
+          portraitFrame.circle(0, 0, PORTRAIT_RADIUS);
+          portraitFrame.fill({ color, alpha: 0.25 });
+          portraitFrame.circle(0, 0, PORTRAIT_RADIUS);
+          portraitFrame.stroke({ width: 1, color, alpha: 0.85 });
+          c.addChild(portraitFrame);
         }
+
+        const textDot = new PIXI.Graphics();
+        textDot.circle(0, 0, TEXT_DOT_RADIUS);
+        textDot.fill({ color, alpha: 0.9 });
+        c.addChild(textDot);
 
         // Label
         const shortLabel = node.label.length > 20 ? node.label.slice(0, 18) + "…" : node.label;
@@ -547,15 +680,11 @@ export default function LineageGraph() {
             fontFamily: "'Cormorant Garamond', Georgia, serif",
           }),
         });
-        // Nudge the label further below when the medallion is larger so it
-        // doesn't collide with the portrait.
-        label.anchor.set(0.5, hasPortrait ? -0.5 : -0.6);
-        label.position.y = hasPortrait ? medallionRadius + 2 : 0;
         c.addChild(label);
 
         // Larger invisible hit area so nodes are clickable even when zoomed out
         const hitArea = new PIXI.Graphics();
-        hitArea.circle(0, 0, Math.max(20, medallionRadius + 6));
+        hitArea.circle(0, 0, Math.max(20, PORTRAIT_RADIUS + 6));
         hitArea.fill({ color: 0xffffff, alpha: 0 });
         c.addChildAt(hitArea, 0); // behind circle and label
 
@@ -581,17 +710,31 @@ export default function LineageGraph() {
 
         stage.addChild(c);
         nodeContainers.set(node.id, c);
-      }
 
-      // Start the throttled portrait fetches now that every node has
-      // queued its load. Portraits stream in over ~2-4s instead of
-      // hammering the browser with 400 parallel connections.
-      pumpPortraits();
+        portraitStates.set(node.id, {
+          nodeId: node.id,
+          container: c,
+          textDot,
+          portraitFrame,
+          label,
+          sprite: null,
+          hasPortrait,
+          isSvg,
+          url48: node.imageThumb48 ?? null,
+          url96: node.imageThumb96 ?? null,
+          url200: node.imageThumb200 ?? null,
+          loadedKey: null,
+          loading: false,
+        });
+
+        applyNodeMode(portraitStates.get(node.id)!, initialMode);
+      }
 
       pixiRef.current = {
         app,
         stage,
         nodeContainers,
+        portraitStates,
         edgeGraphics,
         nodes,
         edges,
@@ -600,10 +743,15 @@ export default function LineageGraph() {
         schoolFilter: "all",
         timeMax: maxYear,
         orphanSet,
+        viewMode: initialMode,
+        zoomScale: 1,
+        cullPortraits,
+        applyAllNodeModes,
       };
 
-      // Initial draw
+      // Initial draw + viewport cull (loads only nodes in the initial viewport).
       redraw();
+      cullPortraits();
 
       // ---------------------------------------------------------------------------
       // d3-zoom
@@ -615,6 +763,10 @@ export default function LineageGraph() {
           const { x, y, k } = event.transform;
           stage.position.set(x, y);
           stage.scale.set(k);
+          if (pixiRef.current) {
+            pixiRef.current.zoomScale = k;
+          }
+          cullPortraits();
         });
 
       d3.select(canvas).call(zoom);
@@ -764,6 +916,7 @@ export default function LineageGraph() {
     if (!pixiRef.current) return;
     pixiRef.current.schoolFilter = selectedSchool;
     redraw();
+    pixiRef.current.cullPortraits();
 
     const pixi = pixiRef.current;
     if (canvasRef.current && zoomRef.current && selectedSchool !== "all" && !focusSlug) {
@@ -808,7 +961,26 @@ export default function LineageGraph() {
     if (!pixiRef.current) return;
     pixiRef.current.timeMax = timeMax;
     redraw();
+    pixiRef.current.cullPortraits();
   }, [timeMax, redraw]);
+
+  // View-mode toggle. Persists to localStorage; the cull pass kicks in
+  // next so any newly-visible portrait actually loads when the user flips
+  // back to image mode.
+  useEffect(() => {
+    if (typeof window !== "undefined") {
+      try {
+        window.localStorage.setItem(VIEW_MODE_STORAGE_KEY, viewMode);
+      } catch {
+        // Quota / private mode — preference simply won't persist.
+      }
+    }
+    if (!pixiRef.current) return;
+    pixiRef.current.viewMode = viewMode;
+    pixiRef.current.applyAllNodeModes();
+    redraw();
+    pixiRef.current.cullPortraits();
+  }, [viewMode, redraw]);
 
   useEffect(() => {
     if (!pixiRef.current) return;
@@ -891,6 +1063,17 @@ export default function LineageGraph() {
             </option>
           ))}
         </select>
+        <select
+          id="lineage-view-mode"
+          name="lineage-view-mode"
+          className="lineage-select"
+          aria-label="Display mode: portraits or names"
+          value={viewMode}
+          onChange={(e) => setViewMode(e.target.value as ViewMode)}
+        >
+          <option value="image">Portraits</option>
+          <option value="text">Names</option>
+        </select>
       </div>
 
       {/* Time scrubber */}
@@ -911,7 +1094,12 @@ export default function LineageGraph() {
       </div>
 
       {/* Canvas */}
-      <canvas ref={canvasRef} className="lineage-canvas" />
+      <canvas
+        ref={canvasRef}
+        className="lineage-canvas"
+        role="img"
+        aria-label="Zen lineage graph: pan and zoom to explore teacher-student transmissions across schools and centuries. Use the search box to find a master, or switch to Names mode for a text-only view."
+      />
 
       {/* Loading / error */}
       {status === "loading" && <div className="lineage-loading">Loading lineage…</div>}
