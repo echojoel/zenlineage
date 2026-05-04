@@ -19,7 +19,7 @@ import {
 import { formatDateWithPrecision } from "@/lib/date-format";
 import { getSchoolDefinition, type SchoolFootnote } from "@/lib/school-taxonomy";
 import { isTier1Master } from "@/lib/editorial-tiers";
-import { renderProseWithFootnotes, type FootnoteRef } from "@/lib/footnotes";
+import { FootnoteList, renderProseWithFootnotes, type FootnoteRef } from "@/lib/footnotes";
 import { AccuracyFooter } from "@/components/AccuracyFooter";
 
 function schoolFootnotesToRefs(footnotes: SchoolFootnote[] | undefined): FootnoteRef[] {
@@ -383,7 +383,11 @@ export default async function SchoolDetailPage({ params }: { params: Promise<{ s
                 renderProseWithFootnotes(
                   definition.summary,
                   schoolFootnotesToRefs(definition.footnotes),
-                  { idScope: `school-${slug}-summary` }
+                  {
+                    idScope: `school-${slug}-summary`,
+                    anchorScope: `school-${slug}`,
+                    suppressList: true,
+                  }
                 )
               ) : (
                 <p>{definition.summary}</p>
@@ -405,31 +409,54 @@ export default async function SchoolDetailPage({ params }: { params: Promise<{ s
                 renderProseWithFootnotes(
                   definition.practice,
                   schoolFootnotesToRefs(definition.footnotes),
-                  { idScope: `school-${slug}-practice`, showHeader: false }
+                  {
+                    idScope: `school-${slug}-practice`,
+                    anchorScope: `school-${slug}`,
+                    suppressList: true,
+                  }
                 )
               ) : (
                 <p>{definition.practice}</p>
               )}
             </div>
-            {tier1Masters.length > 0 && (
+            {(definition.mastersIntro || tier1Masters.length > 0) && (
               <>
                 <h4 className="detail-subsection-title" style={{ marginTop: "1.25rem" }}>
                   Prominent masters
                 </h4>
-                <ul className="detail-link-list">
-                  {tier1Masters.map((m) => (
-                    <li key={m.id}>
-                      <Link href={`/masters/${m.slug}`}>
-                        {masterNameMap.get(m.id) ?? m.slug}
-                      </Link>
-                      {(m.birthYear || m.deathYear) && (
-                        <span className="detail-list-meta">
-                          {m.birthYear ?? "?"} – {m.deathYear ?? "?"}
-                        </span>
-                      )}
-                    </li>
-                  ))}
-                </ul>
+                {definition.mastersIntro && (
+                  <div className="detail-summary">
+                    {definition.footnotes && definition.footnotes.length > 0 ? (
+                      renderProseWithFootnotes(
+                        definition.mastersIntro,
+                        schoolFootnotesToRefs(definition.footnotes),
+                        {
+                          idScope: `school-${slug}-masters`,
+                          anchorScope: `school-${slug}`,
+                          suppressList: true,
+                        }
+                      )
+                    ) : (
+                      <p>{definition.mastersIntro}</p>
+                    )}
+                  </div>
+                )}
+                {tier1Masters.length > 0 && (
+                  <ul className="detail-link-list">
+                    {tier1Masters.map((m) => (
+                      <li key={m.id}>
+                        <Link href={`/masters/${m.slug}`}>
+                          {masterNameMap.get(m.id) ?? m.slug}
+                        </Link>
+                        {(m.birthYear || m.deathYear) && (
+                          <span className="detail-list-meta">
+                            {m.birthYear ?? "?"} – {m.deathYear ?? "?"}
+                          </span>
+                        )}
+                      </li>
+                    ))}
+                  </ul>
+                )}
               </>
             )}
           </section>
@@ -576,6 +603,16 @@ export default async function SchoolDetailPage({ params }: { params: Promise<{ s
             </ul>
           )}
         </section>
+
+        {definition?.footnotes && definition.footnotes.length > 0 && (
+          <section className="detail-card">
+            <FootnoteList
+              refs={schoolFootnotesToRefs(definition.footnotes)}
+              scope={`school-${slug}`}
+              title="Notes"
+            />
+          </section>
+        )}
 
         <section className="detail-card">
           <h3 className="detail-section-title">Sources in use</h3>

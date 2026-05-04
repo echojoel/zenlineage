@@ -36,6 +36,15 @@ interface RenderOptions {
   idScope: string;
   /** Show "Notes" header above the footnote list (default true). */
   showHeader?: boolean;
+  /**
+   * If set, the bottom footnote list is omitted and inline `[N]` anchors
+   * target `#fn-{anchorScope}-{N}` instead of `#fn-{idScope}-{N}`. Used
+   * when several prose blocks on the same page share a single
+   * `<FootnoteList>` at the page foot.
+   */
+  anchorScope?: string;
+  /** When true, suppress the per-block Notes list (defaults to false). */
+  suppressList?: boolean;
 }
 
 const MARKER_RE = /\[(\d{1,3})\]/g;
@@ -58,6 +67,7 @@ function renderParagraph(
   text: string,
   refs: Map<number, FootnoteRef>,
   idScope: string,
+  anchorScope: string,
   callSites: CallSiteMap,
   startCounter: number
 ): { nodes: ReactNode; counter: number } {
@@ -86,7 +96,7 @@ function renderParagraph(
       nodes.push(
         <sup key={`m-${key++}`} className="footnote-ref">
           <a
-            href={`#fn-${idScope}-${n}`}
+            href={`#fn-${anchorScope}-${n}`}
             id={callId}
             aria-label={`Footnote ${n}`}
           >
@@ -116,7 +126,8 @@ export function renderProseWithFootnotes(
   refs: FootnoteRef[],
   options: RenderOptions
 ): React.JSX.Element {
-  const { idScope, showHeader = true } = options;
+  const { idScope, showHeader = true, anchorScope, suppressList = false } = options;
+  const targetScope = anchorScope ?? idScope;
 
   const refMap = new Map<number, FootnoteRef>();
   for (const ref of refs) refMap.set(ref.index, ref);
@@ -128,7 +139,7 @@ export function renderProseWithFootnotes(
     .map((p) => p.trim())
     .filter((p) => p.length > 0)
     .map((p, i) => {
-      const { nodes, counter: next } = renderParagraph(p, refMap, idScope, callSites, counter);
+      const { nodes, counter: next } = renderParagraph(p, refMap, idScope, targetScope, callSites, counter);
       counter = next;
       return <p key={`p-${i}`}>{nodes}</p>;
     });
@@ -140,7 +151,7 @@ export function renderProseWithFootnotes(
   return (
     <>
       {paragraphNodes}
-      {sortedRefs.length > 0 && (
+      {!suppressList && sortedRefs.length > 0 && (
         <aside className="footnote-section" aria-label="Footnotes">
           {showHeader && <h4 className="footnote-section-title">Notes</h4>}
           <ol className="footnote-list">
