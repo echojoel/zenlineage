@@ -201,6 +201,67 @@ describe("DAG Validation", () => {
   });
 
   // -----------------------------------------------------------------------
+  // 4b. Editorial bridge — non-primary edge with impossible overlap stays a warning
+  // -----------------------------------------------------------------------
+  describe("editorial bridge — non-primary edge across centuries", () => {
+    // Mirrors the Seosan Hyujeong (1520-1604) → Gyeongheo Seongu (1846-1912)
+    // pattern: a documented school descent across uncoded intermediate
+    // generations, marked isPrimary=false to indicate it is not a direct
+    // teacher/student relationship.
+    const edges: TransmissionEdge[] = [edge("e1", "T", "S", { isPrimary: false })];
+    const masters_: MasterDates[] = [
+      master("T", {
+        birthYear: 1520,
+        birthPrecision: "exact",
+        birthConfidence: "high",
+        deathYear: 1604,
+        deathPrecision: "exact",
+        deathConfidence: "high",
+      }),
+      master("S", {
+        birthYear: 1846,
+        birthPrecision: "exact",
+        birthConfidence: "high",
+      }),
+    ];
+
+    it("should be a warning, not an error, since the edge is non-primary", () => {
+      const result = validateDAG(edges, masters_, ["T", "S"]);
+      expect(result.valid).toBe(true);
+      expect(result.errors.filter((e) => e.type === "temporal")).toHaveLength(0);
+      expect(result.warnings.some((w) => w.type === "temporal")).toBe(true);
+    });
+  });
+
+  // -----------------------------------------------------------------------
+  // 4c. Primary edge with impossible overlap is still a hard error
+  // -----------------------------------------------------------------------
+  describe("temporal violation — primary edge with high-confidence dates", () => {
+    const edges: TransmissionEdge[] = [edge("e1", "T", "S", { isPrimary: true })];
+    const masters_: MasterDates[] = [
+      master("T", {
+        birthYear: 700,
+        birthPrecision: "exact",
+        birthConfidence: "high",
+        deathYear: 760,
+        deathPrecision: "exact",
+        deathConfidence: "high",
+      }),
+      master("S", {
+        birthYear: 900,
+        birthPrecision: "exact",
+        birthConfidence: "high",
+      }),
+    ];
+
+    it("should be a hard error", () => {
+      const result = validateDAG(edges, masters_, ["T", "S"]);
+      expect(result.valid).toBe(false);
+      expect(result.errors.some((e) => e.type === "temporal")).toBe(true);
+    });
+  });
+
+  // -----------------------------------------------------------------------
   // 5. Temporal violation (soft) — insufficient overlap, low confidence
   // -----------------------------------------------------------------------
   describe("temporal violation — soft warning", () => {

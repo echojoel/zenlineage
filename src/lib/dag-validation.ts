@@ -210,7 +210,11 @@ export function checkTemporalConsistency(
           message: `Insufficient lifespan overlap (${overlap} years) between teacher ${edge.teacherId} (d. ${teacher.deathYear}) and student ${edge.studentId} (b. ${student.birthYear}); need >= 10`,
           entityIds: [edge.id, edge.teacherId, edge.studentId],
         });
-        if (!highConf) {
+        // Non-primary edges (secondary teachers, intellectual/editorial bridges
+        // that span uncoded intermediate generations) don't claim direct
+        // student/teacher chronology, so demote to a warning. Only primary
+        // edges with high-confidence dates remain hard errors.
+        if (!highConf || !edge.isPrimary) {
           issues[issues.length - 1]._warning = true;
         }
       }
