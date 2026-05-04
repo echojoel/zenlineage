@@ -217,10 +217,18 @@ async function main() {
 
   const lines: string[] = [];
 
+  // Round-down hundreds for "X+" labels so the count rolls forward as the
+  // dataset grows, but the published number stays a stable lower bound.
+  const masterFloor = Math.floor(mastersData.length / 5) * 5;
+  const transmissionFloor = Math.floor(transmissionsData.length / 10) * 10;
+  const teachingFloor = Math.floor(teachingsData.length / 5) * 5;
+
   lines.push("# Zen Lineage — Complete Reference");
   lines.push("");
-  lines.push("> An open-source interactive encyclopedia of Zen Buddhism covering 435+ masters,");
-  lines.push("> 23 schools, 436 lineage transmissions, 363 teachings, and 1,700+ scholarly");
+  lines.push(`> An open-source interactive encyclopedia of Zen Buddhism covering ${masterFloor}+ masters,`);
+  lines.push(
+    `> ${schoolsData.length} schools, ${transmissionFloor}+ lineage transmissions, ${teachingFloor}+ teachings, and 1,700+ scholarly`
+  );
   lines.push("> citations across 2,500 years of Chan, Zen, Seon, and Thien Buddhist history.");
   lines.push("");
   lines.push("Zen Lineage maps the dharma transmission lineages connecting Buddhist masters");

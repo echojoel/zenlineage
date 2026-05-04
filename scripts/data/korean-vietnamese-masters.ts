@@ -102,12 +102,53 @@ export const KV_SOURCES: KVSource[] = [
     publicationDate: "2006",
     reliability: "scholarly",
   },
+  {
+    id: "src_muller_kihwa",
+    type: "monograph",
+    title:
+      "The Sutra of Perfect Enlightenment: Korean Buddhism's Guide to Meditation (with Commentary by the Sŏn Monk Kihwa)",
+    author: "Muller, A. Charles",
+    publicationDate: "1999",
+    reliability: "scholarly",
+  },
 ];
 
 // ─── Masters ────────────────────────────────────────────────────────────
 
 export const KV_MASTERS: KVMaster[] = [
   // ─── Korean Seon ──────────────────────────────────────────────────────
+  {
+    slug: "toui",
+    schoolSlug: "seon",
+    names: [
+      { locale: "en", nameType: "dharma", value: "Doui" },
+      { locale: "en", nameType: "alias", value: "Toui" },
+      { locale: "ko", nameType: "dharma", value: "도의" },
+      { locale: "zh", nameType: "alias", value: "道義" },
+    ],
+    birthYear: null,
+    birthPrecision: "unknown",
+    birthConfidence: "low",
+    deathYear: 825,
+    deathPrecision: "exact",
+    deathConfidence: "medium",
+    biography:
+      "Doui (道義, d. 825) is the master through whom Southern School Chan first entered the Korean peninsula and is reckoned the founder of the Gajisan school, the earliest of the Nine Mountain Schools (Gusan Seonmun) of Korean Seon. He travelled to Tang China in 784, received transmission from Xitang Zhizang at Mazu Daoyi's Hongzhou community, and returned to Silla in 821 carrying a teaching that the doctrinal establishment of his time received with hostility. Unable to teach publicly, he retired to Jinjeon-sa on Mount Seorak, where his lineage matured under his disciple Yeomgeo and became visible only after his death — a pattern, repeated across the next century by the other Mountain founders, that defined the Korean reception of Chan as a self-consciously meditative alternative to Silla's scholastic Buddhism.",
+    citations: [
+      { sourceId: "src_buswell_formation", pageOrSection: "pp. 1–40", fieldName: "biography" },
+      { sourceId: "src_buswell_monastic", pageOrSection: "pp. 21–58", fieldName: "teachers" },
+    ],
+    transmissions: [
+      {
+        teacherSlug: "xitang-zhizang",
+        type: "primary",
+        isPrimary: true,
+        sourceIds: ["src_buswell_formation"],
+        notes:
+          "Transmission received in Tang China c. 821 from Mazu Daoyi's principal heir Xitang Zhizang.",
+      },
+    ],
+  },
   {
     slug: "jinul",
     schoolSlug: "jogye",
@@ -201,6 +242,71 @@ export const KV_MASTERS: KVMaster[] = [
         sourceIds: ["src_buswell_formation"],
         notes:
           "Transmission received in Yuan China in 1347; brings the Yangqi-Linji dharma stream into Korea.",
+      },
+    ],
+  },
+  {
+    slug: "naong-hyegeun",
+    schoolSlug: "seon",
+    names: [
+      { locale: "en", nameType: "dharma", value: "Naong Hyegeun" },
+      { locale: "en", nameType: "alias", value: "Naong Hyegun" },
+      { locale: "ko", nameType: "dharma", value: "나옹혜근" },
+      { locale: "zh", nameType: "alias", value: "懶翁惠勤" },
+    ],
+    birthYear: 1320,
+    birthPrecision: "exact",
+    birthConfidence: "high",
+    deathYear: 1376,
+    deathPrecision: "exact",
+    deathConfidence: "high",
+    biography:
+      "Naong Hyegeun (懶翁惠勤, 1320–1376) was — alongside Taego Bou — the second great late-Goryeo master through whom Yuan-dynasty Chinese Chan reached Korea, and the teacher who carried the dharma into the early Joseon. Travelling to Yuan China in 1347, he studied at the great Mongol-period monastery on Mount Yan, received Linji transmission from Pingshan Chulin, and crossed paths with the Indian master Zhikong (Śūnyādiśya), whose memory he later helped to establish in Korea. On returning to Korea he served as Royal Preceptor under King Gongmin and re-articulated the inheritance from China through hwadu practice. His most consequential disciple, Muhak Jacho, in turn taught Hamheo Gihwa and became state preceptor to the founding Joseon king Yi Seong-gye — making Naong the conduit through which the late-Goryeo Linji line continued, however precariously, into the Confucian-suppressed early Joseon.",
+    citations: [
+      { sourceId: "src_buswell_formation", pageOrSection: "pp. 41–74", fieldName: "biography" },
+      { sourceId: "src_buswell_monastic", pageOrSection: "pp. 21–41", fieldName: "teachers" },
+    ],
+    transmissions: [
+      {
+        teacherSlug: "taego-bou",
+        type: "dharma",
+        isPrimary: false,
+        sourceIds: ["src_buswell_formation"],
+        notes:
+          "Editorial bridge: Naong and Taego Bou were contemporaries who both received Yuan-Chinese Linji transmission and served as Royal Preceptor under King Gongmin. The edge captures the late-Goryeo Linji cohort to which Naong belongs; his direct teacher Pingshan Chulin is not yet seeded.",
+      },
+    ],
+  },
+  {
+    slug: "gihwa",
+    schoolSlug: "seon",
+    names: [
+      { locale: "en", nameType: "dharma", value: "Hamheo Gihwa" },
+      { locale: "en", nameType: "alias", value: "Hamhŏ Tŭkt'ong" },
+      { locale: "en", nameType: "alias", value: "Kihwa" },
+      { locale: "ko", nameType: "dharma", value: "함허기화" },
+      { locale: "zh", nameType: "alias", value: "涵虛己和" },
+    ],
+    birthYear: 1376,
+    birthPrecision: "exact",
+    birthConfidence: "high",
+    deathYear: 1433,
+    deathPrecision: "exact",
+    deathConfidence: "high",
+    biography:
+      "Hamheo Gihwa (涵虛己和, 1376–1433) was the leading philosophical voice of Korean Buddhism in the first generation of the Joseon dynasty, when the new Neo-Confucian state was systematically dismantling Buddhist institutions. A former Confucian scholar at Seonggyungwan who became a monk under Muhak Jacho — Naong Hyegeun's principal disciple — he turned his classical training to the defense of the dharma in the Hyeonjeong-non (Treatise on Manifesting the Right), a measured response to Confucian polemics that argued for the compatibility of Buddhist liberation with Confucian moral seriousness. His commentaries on the Sutra of Perfect Enlightenment and the Diamond Sutra became standard reading in Korean monasteries and remain among the most subtle works of philosophical Seon ever written, demonstrating that the Korean tradition could continue to think rigorously even under the Joseon state's suppression.",
+    citations: [
+      { sourceId: "src_muller_kihwa", pageOrSection: "Introduction", fieldName: "biography" },
+      { sourceId: "src_buswell_monastic", pageOrSection: "pp. 21–58", fieldName: "teachers" },
+    ],
+    transmissions: [
+      {
+        teacherSlug: "naong-hyegeun",
+        type: "dharma",
+        isPrimary: false,
+        sourceIds: ["src_muller_kihwa"],
+        notes:
+          "Editorial bridge: Gihwa's direct teacher was Muhak Jacho (not yet seeded), Naong Hyegeun's principal disciple. The edge captures the Naong → Muhak → Gihwa transmission line that carried late-Goryeo Linji Seon into the early Joseon.",
       },
     ],
   },
@@ -423,6 +529,99 @@ export const KV_MASTERS: KVMaster[] = [
         sourceIds: ["src_nguyen_medieval"],
         notes:
           "Editorial bridge: Trần Nhân Tông's direct teacher was the lay master Tuệ Trung Thượng Sĩ (not yet seeded). In founding Trúc Lâm he unified the Vinītaruci, Vô Ngôn Thông, and Thảo Đường schools; the edge to Vinītaruci is drawn on that lineage-unification basis.",
+      },
+    ],
+  },
+  {
+    slug: "phap-loa",
+    schoolSlug: "truc-lam",
+    names: [
+      { locale: "en", nameType: "dharma", value: "Pháp Loa" },
+      { locale: "vi", nameType: "dharma", value: "Pháp Loa" },
+      { locale: "zh", nameType: "alias", value: "法螺" },
+    ],
+    birthYear: 1284,
+    birthPrecision: "exact",
+    birthConfidence: "high",
+    deathYear: 1330,
+    deathPrecision: "exact",
+    deathConfidence: "high",
+    biography:
+      "Pháp Loa (法螺, 1284–1330) was the second patriarch of the Trúc Lâm school and the master to whom Trần Nhân Tông personally transmitted the dharma in 1308 in front of the assembled monastic community. Where the founder had been an emperor turned hermit, Pháp Loa was the institutional builder who consolidated the new school: he supervised the carving of a complete Vietnamese-edition Buddhist canon, ordained more than fifteen thousand monastics over his patriarchate, and oversaw the construction and reform of monasteries across the Trần realm. The disciplined, scholastic Trúc Lâm that survives in Vietnamese Buddhist memory — as much as the more famous founder — is in large part his work.",
+    citations: [
+      { sourceId: "src_nguyen_medieval", pageOrSection: "pp. 85–123", fieldName: "biography" },
+      { sourceId: "src_le_manh_that", fieldName: "dates" },
+    ],
+    transmissions: [
+      {
+        teacherSlug: "tran-nhan-tong",
+        type: "primary",
+        isPrimary: true,
+        sourceIds: ["src_nguyen_medieval"],
+        notes:
+          "Direct transmission from Trần Nhân Tông in 1308; second patriarch of Trúc Lâm.",
+      },
+    ],
+  },
+  {
+    slug: "huyen-quang",
+    schoolSlug: "truc-lam",
+    names: [
+      { locale: "en", nameType: "dharma", value: "Huyền Quang" },
+      { locale: "vi", nameType: "dharma", value: "Huyền Quang" },
+      { locale: "zh", nameType: "alias", value: "玄光" },
+    ],
+    birthYear: 1254,
+    birthPrecision: "exact",
+    birthConfidence: "high",
+    deathYear: 1334,
+    deathPrecision: "exact",
+    deathConfidence: "high",
+    biography:
+      "Huyền Quang (玄光, 1254–1334) was the third and last patriarch of the medieval Trúc Lâm school. A precocious scholar who placed first in the imperial examinations in 1272, he served the Trần court for two decades before being ordained in middle age and entering the dharma circle around Trần Nhân Tông and Pháp Loa. After Pháp Loa's death he assumed the patriarchate at age seventy-seven and spent the final four years of his life at Côn Sơn, where his poetry — among the earliest surviving lyric corpus in Vietnamese Buddhist letters — gives the most personal voice to the school's contemplative ideal. With his death the Trúc Lâm patriarchate passed into a long quiescence from which it would be revived only in the twentieth century.",
+    citations: [
+      { sourceId: "src_nguyen_medieval", pageOrSection: "pp. 85–123", fieldName: "biography" },
+      { sourceId: "src_le_manh_that", fieldName: "dates" },
+    ],
+    transmissions: [
+      {
+        teacherSlug: "tran-nhan-tong",
+        type: "dharma",
+        isPrimary: false,
+        sourceIds: ["src_nguyen_medieval"],
+        notes:
+          "Editorial bridge: institutionally Huyền Quang succeeded the second patriarch Pháp Loa, but he was older than Pháp Loa and received his Trúc Lâm formation from the founder Trần Nhân Tông himself. The edge to Trần Nhân Tông keeps the chronology straight while preserving the patriarchal line.",
+      },
+    ],
+  },
+  {
+    slug: "thich-thanh-tu",
+    schoolSlug: "truc-lam",
+    names: [
+      { locale: "en", nameType: "dharma", value: "Thích Thanh Từ" },
+      { locale: "vi", nameType: "dharma", value: "Thích Thanh Từ" },
+      { locale: "zh", nameType: "alias", value: "釋清慈" },
+    ],
+    birthYear: 1924,
+    birthPrecision: "exact",
+    birthConfidence: "high",
+    deathYear: null,
+    deathPrecision: "unknown",
+    deathConfidence: "low",
+    biography:
+      "Thích Thanh Từ (釋清慈, b. 1924) is the master most responsible for the twentieth-century revival of the Trúc Lâm school after six centuries of dormancy. Trained in the Lâm Tế Liễu Quán line under Thích Thiện Hoa, he founded Trúc Lâm Thiền Viện at Đà Lạt in 1993 as an explicit re-grounding of Vietnamese Buddhism in the indigenous Trúc Lâm inheritance of Trần Nhân Tông, Pháp Loa, and Huyền Quang — practiced as a disciplined meditative monasticism rather than a literary memory. From this base he has trained the largest contemporary Vietnamese contemplative community, with Trúc Lâm monasteries now established across Vietnam, North America, Europe, and Australia. Where Thích Nhất Hạnh's Plum Village brought Vietnamese Buddhism into a global lay-mindfulness movement, Thích Thanh Từ has rebuilt it from inside the monastic tradition.",
+    citations: [
+      { sourceId: "src_le_manh_that", fieldName: "biography" },
+      { sourceId: "src_nguyen_medieval", pageOrSection: "pp. 150–175", fieldName: "teachers" },
+    ],
+    transmissions: [
+      {
+        teacherSlug: "lieu-quan",
+        type: "dharma",
+        isPrimary: false,
+        sourceIds: ["src_le_manh_that"],
+        notes:
+          "Editorial bridge: Thích Thanh Từ trained in the Lâm Tế Liễu Quán line under Thích Thiện Hoa (not yet seeded). The edge to Liễu Quán anchors his transmission line; his Trúc Lâm revival reaches back, programmatically, to Trần Nhân Tông.",
       },
     ],
   },
