@@ -1,0 +1,154 @@
+[
+  {
+    "slug": "practice-dogen-fukanzazengi-opening",
+    "type": "practice-instruction",
+    "author_slug": "dogen",
+    "collection": "Fukanzazengi",
+    "era": "Kamakura",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "How to Sit (Fukanzazengi, opening)",
+    "content": "The way is originally perfect and all-pervading. How could it depend on practice and verification? The dharma vehicle is free and untrammeled. What need is there for our concentrated effort? Indeed, the whole body is far beyond the world's dust. Who could believe in a means to brush it clean? It is never apart from one, right where one is. What is the use of going off here and there to practice?\n\nFor sanzen, a quiet room is suitable. Eat and drink moderately. Cast aside all involvements and cease all affairs. Do not think 'good' or 'bad.' Do not judge true or false. Give up the operations of mind, intellect, and consciousness; stop measuring with thoughts, ideas, and views. Have no designs on becoming a buddha.",
+    "source_id": "src_dogen_fukanzazengi",
+    "ingestion_run_id": "run_practice_instructions",
+    "locator": "Fukanzazengi, opening section; Sōtōshū English edition",
+    "translator": "Sōtōshū editorial summary (after Bielefeldt 1988)",
+    "license_status": "cc_by",
+    "master_roles": [
+      { "slug": "dogen", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "practice-jinul-sudden-gradual",
+    "type": "practice-instruction",
+    "author_slug": "jinul",
+    "collection": "Susimkyŏl (Secrets on Cultivating the Mind)",
+    "era": "Goryeo",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "Sudden Awakening, Gradual Cultivation",
+    "content": "Jinul taught that the mind which is to be cultivated and the mind which awakens are not two. Practice, in his framing, begins with sudden awakening (頓悟): the direct recognition that one's own nature is already Buddha-nature, complete and unborn. From this single recognition flows gradual cultivation (漸修): the patient work of dissolving habit-energies that continue to arise even after recognition.\n\nIn practice this means investigating the hwadu — the live phrase — until intellectual grasping is exhausted, and then sustaining that clarity through every activity of body and speech. 'Even after one has awakened to one's original mind, one's habits are deeply rooted and cannot be removed in one stroke.' The Seon practitioner therefore sits, walks, eats, and works as continuous cultivation of what was already realized.",
+    "source_id": "src_jinul_susimkyol",
+    "ingestion_run_id": "run_practice_instructions",
+    "locator": "Susimkyŏl, sections on tono chŏmsu (頓悟漸修)",
+    "translator": "Zen Lineage editorial paraphrase, after Buswell, 'Tracing Back the Radiance' (1991)",
+    "license_status": "cc_by",
+    "master_roles": [
+      { "slug": "jinul", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "practice-seosan-hwadu",
+    "type": "practice-instruction",
+    "author_slug": "seosan-hyujeong",
+    "collection": "Sŏn'ga kwigam (Mirror of Seon)",
+    "era": "Joseon",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "Investigating the Live Word",
+    "content": "Seosan held that the Seon practitioner takes up a single hwadu — most commonly Zhaozhou's 'Mu' or 'What is this?' (이뭣고, imwŏtgo) — and pursues it with the whole body and breath, not the analytical mind. The 'live word' (活句) is the phrase that cannot be reasoned about; the 'dead word' (死句) is the phrase one explains.\n\n'Whether walking, standing, sitting, or lying down, only investigate the live word. Do not let it drop for an instant.' Doubt that gathers and intensifies until the practitioner is one mass of doubt — that, for Seosan, is the only practice. When that single doubt shatters of its own accord, the original face is seen; until then, sustain it.",
+    "source_id": "src_seosan_mirror_of_seon",
+    "ingestion_run_id": "run_practice_instructions",
+    "locator": "Sŏn'ga kwigam, sections on hwadu meditation",
+    "translator": "Zen Lineage editorial paraphrase, after Boep Joeng / Hyon Gak translations",
+    "license_status": "cc_by",
+    "master_roles": [
+      { "slug": "seosan-hyujeong", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "practice-seongcheol-only-dont-know",
+    "type": "practice-instruction",
+    "author_slug": "seongcheol",
+    "collection": "Seongcheol Dharma Talks",
+    "era": "Modern",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "Hold Only the Don't-Know Mind",
+    "content": "Seongcheol, who served as the Patriarch of the Jogye Order, insisted that hwadu practice is the only door. He pointed his students to one phrase — most often 'What is this?' — and told them not to drop it through any of the four postures.\n\n'Don't try to figure out the answer. Don't try to make the doubt arise. Don't try to keep the question going. Just be the question. When the question is so close that there is nothing between you and it, then there is nothing called you and nothing called the question — and that is your original face.' He warned against shortcuts: no special states, no chasing of light or visions, only the great doubt mass until it breaks.",
+    "source_id": "src_seongcheol_dharma_talks",
+    "ingestion_run_id": "run_practice_instructions",
+    "locator": "Seongcheol's Hundred-Day Dharma Talks (백일법문), hwadu sections",
+    "translator": "Zen Lineage editorial paraphrase, after the Haein-sa published English summaries",
+    "license_status": "cc_by",
+    "master_roles": [
+      { "slug": "seongcheol", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "practice-seung-sahn-dont-know",
+    "type": "practice-instruction",
+    "author_slug": "seung-sahn",
+    "collection": "Kwan Um School of Zen — Founding Teachings",
+    "era": "Modern",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "Only Don't Know",
+    "content": "Seung Sahn taught a single, deliberately simple practice. Sit upright. Breathe naturally. Ask, with the whole body, 'What am I?' — and meet the answer that arises with 'Only don't know.'\n\n'Don't-know mind cuts off all thinking. When you keep don't-know mind one hundred percent, this don't-know mind is your true self. So don't make anything. Don't hold anything. Just keep don't-know mind, moment to moment.' From that don't-know, he said, function appears: when you are hungry, eat; when tired, sleep; when someone is suffering, help. Practice is don't-know in motion.",
+    "source_id": "src_kwan_um_teachings",
+    "ingestion_run_id": "run_practice_instructions",
+    "locator": "Kwan Um School of Zen — Foundational dharma talks",
+    "translator": "Zen Lineage editorial paraphrase, after Seung Sahn, 'Only Don't Know' (1982)",
+    "license_status": "cc_by",
+    "master_roles": [
+      { "slug": "seung-sahn", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "practice-tran-nhan-tong-mind-only-buddha",
+    "type": "practice-instruction",
+    "author_slug": "tran-nhan-tong",
+    "collection": "Recorded Sayings of the Trúc Lâm Patriarchs",
+    "era": "Trần",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "Buddha in Each Ordinary Act",
+    "content": "Trần Nhân Tông, founder of the Trúc Lâm school of Vietnamese Thiền, taught that practice is not separate from the duties of the householder, the farmer, or the king. Awakened mind is found in the carrying of water, the planting of rice, the bowing in the family shrine.\n\n'In the home, be a filial child; in the world, a loyal subject; on the cushion, an upright sitter. Mind is Buddha — do not seek elsewhere.' His Trúc Lâm method joins zazen, sutra study, and mindful daily conduct into one continuous discipline, so that no moment falls outside of practice and no activity falls outside of awakening.",
+    "source_id": "src_truc_lam_records",
+    "ingestion_run_id": "run_practice_instructions",
+    "locator": "Trúc Lâm patriarch records, dharma talks attributed to Trần Nhân Tông",
+    "translator": "Zen Lineage editorial paraphrase, after Cuong Tu Nguyen, 'Zen in Medieval Vietnam' (1997)",
+    "license_status": "cc_by",
+    "master_roles": [
+      { "slug": "tran-nhan-tong", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "practice-thich-nhat-hanh-mindful-breathing",
+    "type": "practice-instruction",
+    "author_slug": "thich-nhat-hanh",
+    "collection": "Plum Village — Foundational practice instructions",
+    "era": "Modern",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "Breathing In, I Know I Am Breathing In",
+    "content": "Thích Nhất Hạnh framed practice as the conscious unification of body and mind through the breath. The first instruction is the simplest: 'Breathing in, I know I am breathing in. Breathing out, I know I am breathing out.' Awareness rides on the breath; the breath, when noticed, slows and deepens of itself.\n\nFrom that base he taught the gathas — short verses spoken silently with each breath ('Breathing in, I calm my body; breathing out, I smile') — and walking meditation, in which each step is taken in full awareness of contact with the earth. 'The miracle is not to walk on water; the miracle is to walk on the green earth.' Sitting, walking, eating, washing dishes: any of these is the whole of Plum Village practice when done with one undivided breath.",
+    "source_id": "src_plum_village_practice",
+    "ingestion_run_id": "run_practice_instructions",
+    "locator": "Plum Village foundational practice — sixteen exercises of mindful breathing",
+    "translator": "Zen Lineage editorial paraphrase, after Thích Nhất Hạnh, 'The Miracle of Mindfulness' (1975)",
+    "license_status": "cc_by",
+    "master_roles": [
+      { "slug": "thich-nhat-hanh", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "practice-keizan-zazen-yojinki-summary",
+    "type": "practice-instruction",
+    "author_slug": "keizan-jokin",
+    "collection": "Zazen Yōjinki",
+    "era": "Kamakura",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "Points to Watch in Zazen",
+    "content": "Keizan's Zazen Yōjinki ('Points to Watch in Zazen') gives the Sōtō practitioner a manual for the body of practice, where Dōgen's Fukanzazengi gives the spirit. Choose a clean, quiet place. Sit on a thick cushion, legs in lotus or half-lotus, spine erect, ears aligned with shoulders, nose with navel. The tongue rests against the upper palate; the eyes are open but soft, gaze cast slightly downward. Breathe through the nose, neither holding nor pushing.\n\n'Do not think of the koans. Do not turn the mind toward enlightenment. Do not turn it away. Sit upright in the midst of all conditions, neither extinguishing thoughts nor following them. This is the zazen of the buddhas and ancestors.' From this single instruction the daily life of the Sōtō monastery is built.",
+    "source_id": "src_editorial_teachings",
+    "ingestion_run_id": "run_practice_instructions",
+    "locator": "Zazen Yōjinki, instructions on posture and attitude",
+    "translator": "Zen Lineage editorial paraphrase, after Cleary's Timeless Spring rendering",
+    "license_status": "cc_by",
+    "master_roles": [
+      { "slug": "keizan-jokin", "role": "speaker" }
+    ]
+  }
+]

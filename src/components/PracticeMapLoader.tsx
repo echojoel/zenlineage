@@ -16,10 +16,14 @@ const PracticeMap = dynamic(() => import("@/components/PracticeMap"), {
   loading: () => <p className="detail-muted">Loading map…</p>,
 });
 
-export default function PracticeMapLoader() {
+export default function PracticeMapLoader({
+  initialSchool,
+}: {
+  initialSchool?: string;
+} = {}) {
   return (
     <Suspense fallback={<p className="detail-muted">Loading map…</p>}>
-      <PracticeMap />
+      <PracticeMap initialSchool={initialSchool} />
     </Suspense>
   );
 }
