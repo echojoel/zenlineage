@@ -45,8 +45,17 @@ export interface SchoolDefinition {
   aliases: string[];
   summary: string;
   practice?: string;
-  /** Inline references for `summary` and `practice` prose. Marker `[N]`
-   * in the text resolves to the entry whose `index === N`. */
+  /**
+   * Wikipedia-style prose introducing the prominent masters of this
+   * school. Rendered above the "Prominent masters" / "Masters in this
+   * branch" lists on the school detail page. Inline `[N]` markers
+   * resolve against the same `footnotes` array as `summary`/`practice`,
+   * so a single per-page Notes section serves the whole page.
+   */
+  mastersIntro?: string;
+  /** Inline references for `summary`, `practice`, and `mastersIntro`
+   * prose. Marker `[N]` in the text resolves to the entry whose
+   * `index === N`. */
   footnotes?: SchoolFootnote[];
   /** Canonical writings of this school — Shōbōgenzō, Linji Lu, etc.
    * Rendered in a dedicated section on the school detail page. */
@@ -74,9 +83,55 @@ const SCHOOL_DEFINITIONS: SchoolDefinition[] = [
       "indian patriarchs lineage",
     ],
     summary:
-      "The twenty-eight Indian patriarchs form the traditional lineage from Shakyamuni Buddha to Bodhidharma, tracing the mind-to-mind transmission of awakening across roughly a thousand years of Indian Buddhism. The lineage begins with the Flower Sermon: the Buddha held up a flower before the assembly on Vulture Peak, and only Mahakashyapa smiled in understanding. This wordless exchange is regarded as the origin of the entire Chan/Zen transmission. The chain passes through major figures in Indian Buddhist history—including Nagarjuna, Ashvaghosha, and Vasubandhu—before reaching Prajnatara, who recognized Bodhidharma and sent him east to China. While modern historians question the historical accuracy of this lineage as a literal chain of teacher-student relationships, the tradition treats it as a sacred genealogy affirming that the awakening transmitted in Zen is identical to the Buddha's own realization.",
+      "The twenty-eight Indian patriarchs form the traditional lineage from Shakyamuni Buddha to Bodhidharma, tracing the mind-to-mind transmission of awakening across roughly a thousand years of Indian Buddhism[1]. The lineage begins with the Flower Sermon: the Buddha held up a flower before the assembly on Vulture Peak, and only Mahakashyapa smiled in understanding[2]. This wordless exchange is regarded as the origin of the entire Chan/Zen transmission[2]. The chain passes through major figures in Indian Buddhist history—including Nagarjuna, Ashvaghosha, and Vasubandhu—before reaching Prajnatara, who recognized Bodhidharma and sent him east to China[1][3]. While modern historians question the historical accuracy of this lineage as a literal chain of teacher-student relationships, the tradition treats it as a sacred genealogy affirming that the awakening transmitted in Zen is identical to the Buddha's own realization[4].",
     practice:
-      "The Indian patriarchs transmitted dhyana—meditative absorption rooted in the Buddha’s own practice of seated contemplation and direct mind-to-mind transmission (yixin chuanxin). Their methods encompassed the full range of early Buddhist samatha-vipassana practice as well as Mahayana prajna contemplation, from Upagupta’s rigorous Sarvastivada meditation discipline to Nagarjuna’s Madhyamaka investigation of emptiness. The lineage’s defining claim is that an awakening identical to the Buddha’s was passed wordlessly from teacher to student across twenty-eight generations, establishing the paradigm of direct transmission that became the hallmark of all Chan and Zen schools.",
+      "The Indian patriarchs transmitted dhyana—meditative absorption rooted in the Buddha’s own practice of seated contemplation and direct mind-to-mind transmission (yixin chuanxin). Their methods encompassed the full range of early Buddhist samatha-vipassana practice as well as Mahayana prajna contemplation, from Upagupta’s rigorous Sarvastivada meditation discipline to Nagarjuna’s Madhyamaka investigation of emptiness[3]. The lineage’s defining claim is that an awakening identical to the Buddha’s was passed wordlessly from teacher to student across twenty-eight generations, establishing the paradigm of direct transmission that became the hallmark of all Chan and Zen schools[1].",
+    mastersIntro:
+      "The first patriarch, Mahākāśyapa, is venerated for receiving the Buddha’s wordless transmission at the Flower Sermon[2]. The lineage continues through Ānanda, the Buddha’s personal attendant who memorised the discourses; Śāṇavāsa; and the Mauryan-era master Upagupta, said to have ordained tens of thousands[5]. Among its most consequential figures are Nāgārjuna (c. 2nd c. CE), founder of the Madhyamaka school of emptiness[6]; Aśvaghoṣa, author of the Buddhacarita[7]; and Vasubandhu, the Yogācāra theorist[8]. The line closes with Prajñātāra, traditionally said to have recognised the young Bodhidharma and sent him east, where he is remembered as the 28th Indian and 1st Chinese patriarch[3].",
+    footnotes: [
+      {
+        index: 1,
+        sourceTitle: "Twenty-Eight Patriarchs — Encyclopedia article",
+        sourceUrl: "https://en.wikipedia.org/wiki/Twenty-Eight_Patriarchs",
+      },
+      {
+        index: 2,
+        sourceTitle: "Flower Sermon — Encyclopedia article",
+        sourceUrl: "https://en.wikipedia.org/wiki/Flower_Sermon",
+      },
+      {
+        index: 3,
+        sourceTitle: "Bodhidharma — Encyclopedia article",
+        sourceUrl: "https://en.wikipedia.org/wiki/Bodhidharma",
+      },
+      {
+        index: 4,
+        sourceTitle: "Seeing through Zen: Encounter, Transformation, and Genealogy in Chinese Chan Buddhism",
+        author: "John R. McRae",
+        sourceUrl: "https://www.ucpress.edu/book/9780520237988/seeing-through-zen",
+        pageOrSection: "ch. 1",
+      },
+      {
+        index: 5,
+        sourceTitle: "Upagupta — Encyclopedia article",
+        sourceUrl: "https://en.wikipedia.org/wiki/Upagupta",
+      },
+      {
+        index: 6,
+        sourceTitle: "Nāgārjuna — Encyclopedia article",
+        sourceUrl: "https://en.wikipedia.org/wiki/N%C4%81g%C4%81rjuna",
+      },
+      {
+        index: 7,
+        sourceTitle: "Aśvaghoṣa — Encyclopedia article",
+        sourceUrl: "https://en.wikipedia.org/wiki/A%C5%9Bvagho%E1%B9%A3a",
+      },
+      {
+        index: 8,
+        sourceTitle: "Vasubandhu — Encyclopedia article",
+        sourceUrl: "https://en.wikipedia.org/wiki/Vasubandhu",
+      },
+    ],
     keyTexts: [
       {
         title: "Denkōroku (Transmission of the Light)",
@@ -136,9 +191,58 @@ const SCHOOL_DEFINITIONS: SchoolDefinition[] = [
     tradition: "Chan",
     aliases: ["chan", "zen"],
     summary:
-      "Chan (禪) is the Chinese Buddhist meditation tradition that emerged from the encounter between Indian Buddhism and Chinese culture, becoming the most influential school of East Asian Buddhism. The word 'Chan' derives from the Sanskrit dhyana (meditation). Chan emphasizes direct experience of awakened mind over scriptural study, formalized by the motto attributed to Bodhidharma: 'A special transmission outside the scriptures; no dependence on words and letters; directly pointing to the human mind; seeing one's nature and becoming Buddha.' During the Tang and Song dynasties, Chan developed its characteristic methods—encounter dialogues, koan practice, intensive sitting, and the teacher-student relationship as the vehicle of transmission. The tradition crystallized into the Five Houses (Caodong, Linji, Yunmen, Guiyang, and Fayan), each with distinctive teaching styles. Chan was transmitted to Korea (as Seon), Japan (as Zen), and Vietnam (as Thien), profoundly shaping the religious, artistic, and philosophical culture of East Asia.",
+      "Chan (禪) is the Chinese Buddhist meditation tradition that emerged from the encounter between Indian Buddhism and Chinese culture, becoming the most influential school of East Asian Buddhism[1]. The word 'Chan' derives from the Sanskrit dhyana (meditation). Chan emphasizes direct experience of awakened mind over scriptural study, formalized by the motto attributed to Bodhidharma: 'A special transmission outside the scriptures; no dependence on words and letters; directly pointing to the human mind; seeing one's nature and becoming Buddha.'[2] During the Tang and Song dynasties, Chan developed its characteristic methods—encounter dialogues, koan practice, intensive sitting, and the teacher-student relationship as the vehicle of transmission[1]. The tradition crystallized into the Five Houses (Caodong, Linji, Yunmen, Guiyang, and Fayan), each with distinctive teaching styles[3]. Chan was transmitted to Korea (as Seon), Japan (as Zen), and Vietnam (as Thien), profoundly shaping the religious, artistic, and philosophical culture of East Asia[1].",
     practice:
-      "Chan encompasses a spectrum of meditation methods unified by the commitment to direct experiential realization over doctrinal study. The foundational practice is zuochan (sitting meditation), performed in lotus or half-lotus posture with regulated breathing and upright spine, complemented by distinctive methods within each school: silent illumination (mozhao) in Caodong, keyword investigation (huatou/kanhua) in Linji, and one-word barriers in Yunmen. Encounter dialogue between teacher and student in the private interview (rushi/dokusan) serves as the primary vehicle for testing and deepening realization. Intensive group retreats (chanqi), typically lasting seven days with extended daily sitting, and the integration of manual labor (puqing) into practice, distinguish Chan's communal monastic training from other Buddhist traditions.",
+      "Chan encompasses a spectrum of meditation methods unified by the commitment to direct experiential realization over doctrinal study. The foundational practice is zuochan (sitting meditation), performed in lotus or half-lotus posture with regulated breathing and upright spine, complemented by distinctive methods within each school: silent illumination (mozhao) in Caodong, keyword investigation (huatou/kanhua) in Linji, and one-word barriers in Yunmen[3]. Encounter dialogue between teacher and student in the private interview (rushi/dokusan) serves as the primary vehicle for testing and deepening realization. Intensive group retreats (chanqi), typically lasting seven days with extended daily sitting, and the integration of manual labor (puqing) into practice, distinguish Chan's communal monastic training from other Buddhist traditions[4].",
+    mastersIntro:
+      "Chan history is conventionally narrated through six Chinese patriarchs: Bodhidharma (the semi-legendary Indian founder)[2]; Dazu Huike, said to have severed his arm to demonstrate sincerity[5]; Jianzhi Sengcan, traditional author of the Xinxin Ming[6]; Dayi Daoxin, who established the East Mountain teaching at Mount Shuangfeng[7]; Daman Hongren, his successor at Mount Huangmei[8]; and Dajian Huineng, the illiterate Sixth Patriarch whose Platform Sutra became the charter of mature Chan[9]. From Huineng’s two great heirs, Qingyuan Xingsi and Nanyue Huairang, descend the Five Houses[3] — including the Caodong line of Dongshan Liangjie, the Linji line of Linji Yixuan, and the Yunmen, Fayan, and Guiyang houses[3].",
+    footnotes: [
+      {
+        index: 1,
+        sourceTitle: "Chan Buddhism — Encyclopedia article",
+        sourceUrl: "https://en.wikipedia.org/wiki/Chan_Buddhism",
+      },
+      {
+        index: 2,
+        sourceTitle: "Bodhidharma — Encyclopedia article",
+        sourceUrl: "https://en.wikipedia.org/wiki/Bodhidharma",
+      },
+      {
+        index: 3,
+        sourceTitle: "Five Houses of Chan — Encyclopedia article",
+        sourceUrl: "https://en.wikipedia.org/wiki/Five_Houses_of_Chan",
+      },
+      {
+        index: 4,
+        sourceTitle: "Baizhang Huaihai — Encyclopedia article",
+        sourceUrl: "https://en.wikipedia.org/wiki/Baizhang_Huaihai",
+      },
+      {
+        index: 5,
+        sourceTitle: "Dazu Huike — Encyclopedia article",
+        sourceUrl: "https://en.wikipedia.org/wiki/Dazu_Huike",
+      },
+      {
+        index: 6,
+        sourceTitle: "Sengcan — Encyclopedia article",
+        sourceUrl: "https://en.wikipedia.org/wiki/Sengcan",
+      },
+      {
+        index: 7,
+        sourceTitle: "Daoxin — Encyclopedia article",
+        sourceUrl: "https://en.wikipedia.org/wiki/Daoxin",
+      },
+      {
+        index: 8,
+        sourceTitle: "Daman Hongren — Encyclopedia article",
+        sourceUrl: "https://en.wikipedia.org/wiki/Daman_Hongren",
+      },
+      {
+        index: 9,
+        sourceTitle: "Huineng — Encyclopedia article",
+        sourceUrl: "https://en.wikipedia.org/wiki/Huineng",
+      },
+    ],
     keyTexts: [
       {
         title: "Platform Sutra of the Sixth Patriarch",
@@ -238,9 +342,41 @@ const SCHOOL_DEFINITIONS: SchoolDefinition[] = [
     parentSlug: "chan",
     aliases: ["early chan"],
     summary:
-      "Early Chan encompasses the formative period from Bodhidharma's arrival in China (traditionally c. 520 CE) through the Sixth Patriarch Huineng and his immediate successors, before the tradition divided into distinct house lineages. This era includes the six patriarchs—Bodhidharma, Huike, Sengcan, Daoxin, Hongren, and Huineng—as well as precursor figures like Mahasattva Fu and independent lineages such as the Oxhead (Niutou) school and the Jingzhong school of Sichuan. The period's defining crisis was the Northern-Southern School controversy: Shenxiu's gradualist approach versus Huineng's sudden awakening, with Heze Shenhui's polemical advocacy eventually establishing the Southern School as orthodox. Huineng's Platform Sutra became the foundational text, and his two principal students—Qingyuan Xingsi and Nanyue Huairang—gave rise to the two great branches from which all subsequent Chan schools descend.",
+      "Early Chan encompasses the formative period from Bodhidharma's arrival in China (traditionally c. 520 CE) through the Sixth Patriarch Huineng and his immediate successors, before the tradition divided into distinct house lineages[1]. This era includes the six patriarchs—Bodhidharma, Huike, Sengcan, Daoxin, Hongren, and Huineng—as well as precursor figures like Mahasattva Fu and independent lineages such as the Oxhead (Niutou) school and the Jingzhong school of Sichuan[1]. The period's defining crisis was the Northern-Southern School controversy: Shenxiu's gradualist approach versus Huineng's sudden awakening, with Heze Shenhui's polemical advocacy eventually establishing the Southern School as orthodox[2]. Huineng's Platform Sutra became the foundational text[3], and his two principal students—Qingyuan Xingsi and Nanyue Huairang—gave rise to the two great branches from which all subsequent Chan schools descend[1].",
     practice:
-      "Early Chan practice centered on Bodhidharma’s method of ‘wall-gazing’ (biguan)—sustained seated meditation aimed at directly perceiving the mind’s nature. Daoxin and Hongren’s East Mountain teaching systematized this into communal monastic sitting, emphasizing the ‘samadhi of one practice’ (yixing sanmei) and Hongren’s ‘guarding the one’ (shouyi, 守一). The Northern School under Shenxiu taught a graduated purification of mental defilements through the contemplative method outlined in the Guanxin Lun (attributed to his school), while the Southern School championed by Huineng and Shenhui insisted on sudden recognition that mind is originally pure. The Oxhead (Niutou) school offered a third approach, emphasizing the emptiness of mind itself and the non-arising of thoughts, influenced by Madhyamaka philosophy.",
+      "Early Chan practice centered on Bodhidharma’s method of ‘wall-gazing’ (biguan)—sustained seated meditation aimed at directly perceiving the mind’s nature[4]. Daoxin and Hongren’s East Mountain teaching systematized this into communal monastic sitting, emphasizing the ‘samadhi of one practice’ (yixing sanmei) and Hongren’s ‘guarding the one’ (shouyi, 守一)[5]. The Northern School under Shenxiu taught a graduated purification of mental defilements through the contemplative method outlined in the Guanxin Lun (attributed to his school), while the Southern School championed by Huineng and Shenhui insisted on sudden recognition that mind is originally pure[2]. The Oxhead (Niutou) school offered a third approach, emphasizing the emptiness of mind itself and the non-arising of thoughts, influenced by Madhyamaka philosophy[6].",
+    footnotes: [
+      {
+        index: 1,
+        sourceTitle: "East Mountain Teaching — Encyclopedia article",
+        sourceUrl: "https://en.wikipedia.org/wiki/East_Mountain_Teaching",
+      },
+      {
+        index: 2,
+        sourceTitle: "Subitism — Encyclopedia article",
+        sourceUrl: "https://en.wikipedia.org/wiki/Subitism",
+      },
+      {
+        index: 3,
+        sourceTitle: "Platform Sutra — Encyclopedia article",
+        sourceUrl: "https://en.wikipedia.org/wiki/Platform_Sutra",
+      },
+      {
+        index: 4,
+        sourceTitle: "Bodhidharma — Encyclopedia article",
+        sourceUrl: "https://en.wikipedia.org/wiki/Bodhidharma",
+      },
+      {
+        index: 5,
+        sourceTitle: "Daman Hongren — Encyclopedia article",
+        sourceUrl: "https://en.wikipedia.org/wiki/Daman_Hongren",
+      },
+      {
+        index: 6,
+        sourceTitle: "East Mountain Teaching / Niutou — Encyclopedia article",
+        sourceUrl: "https://en.wikipedia.org/wiki/Oxhead_school",
+      },
+    ],
     keyTexts: [
       {
         title: "Two Entrances and Four Practices",
@@ -317,9 +453,31 @@ const SCHOOL_DEFINITIONS: SchoolDefinition[] = [
     parentSlug: "chan",
     aliases: ["qingyuan line"],
     summary:
-      "The Qingyuan line descends from Qingyuan Xingsi, a student of the Sixth Patriarch Huineng, and constitutes one of the two great branches of Chan. Through Qingyuan's student Shitou Xiqian—author of the Sandokai (Harmony of Difference and Equality)—this line gave rise to three of the Five Houses: the Caodong school (through Dongshan Liangjie), the Yunmen school (through Yunmen Wenyan), and the Fayan school (through Fayan Wenyi). The Qingyuan branch is broadly characterized by a more contemplative and subtle approach compared to the Nanyue line's dramatic directness, though individual masters varied widely. Key figures in the early Qingyuan line include Yaoshan Weiyan, who bridged the Shitou and Mazu traditions; Tianhuang Daowu and Longtan Chongxin, through whom the Deshan-Xuefeng lineage developed; and Chuanzi Decheng, the beloved Boat Monk. The line's emphasis on the interpenetration of the absolute and relative, expressed through Shitou's Sandokai and Dongshan's Five Ranks, became a defining contribution to Chan philosophy.",
+      "The Qingyuan line descends from Qingyuan Xingsi, a student of the Sixth Patriarch Huineng, and constitutes one of the two great branches of Chan[1]. Through Qingyuan's student Shitou Xiqian—author of the Sandokai (Harmony of Difference and Equality)—this line gave rise to three of the Five Houses: the Caodong school (through Dongshan Liangjie), the Yunmen school (through Yunmen Wenyan), and the Fayan school (through Fayan Wenyi)[2]. The Qingyuan branch is broadly characterized by a more contemplative and subtle approach compared to the Nanyue line's dramatic directness, though individual masters varied widely. Key figures in the early Qingyuan line include Yaoshan Weiyan, who bridged the Shitou and Mazu traditions[3]; Tianhuang Daowu and Longtan Chongxin, through whom the Deshan-Xuefeng lineage developed; and Chuanzi Decheng, the beloved Boat Monk. The line's emphasis on the interpenetration of the absolute and relative, expressed through Shitou's Sandokai and Dongshan's Five Ranks, became a defining contribution to Chan philosophy[4].",
     practice:
-      "Practice in the Qingyuan line flows from Shitou Xiqian’s Sandokai, which describes the interpenetration of the absolute and relative as the ground of meditation and daily conduct. This branch tends toward subtle contemplative inquiry rather than dramatic confrontation: seated meditation, poetic and philosophical reflection, and close attention to how difference and equality appear together in ordinary experience. That orientation later flowered in the silent illumination of Caodong, the linguistic precision of Yunmen, and the more synthetic contemplative style of Fayan.",
+      "Practice in the Qingyuan line flows from Shitou Xiqian’s Sandokai, which describes the interpenetration of the absolute and relative as the ground of meditation and daily conduct[2]. This branch tends toward subtle contemplative inquiry rather than dramatic confrontation: seated meditation, poetic and philosophical reflection, and close attention to how difference and equality appear together in ordinary experience. That orientation later flowered in the silent illumination of Caodong, the linguistic precision of Yunmen, and the more synthetic contemplative style of Fayan.",
+    footnotes: [
+      {
+        index: 1,
+        sourceTitle: "Qingyuan Xingsi — Encyclopedia article",
+        sourceUrl: "https://en.wikipedia.org/wiki/Qingyuan_Xingsi",
+      },
+      {
+        index: 2,
+        sourceTitle: "Shitou Xiqian — Encyclopedia article",
+        sourceUrl: "https://en.wikipedia.org/wiki/Shitou_Xiqian",
+      },
+      {
+        index: 3,
+        sourceTitle: "Yaoshan Weiyan — Encyclopedia article",
+        sourceUrl: "https://en.wikipedia.org/wiki/Yaoshan_Weiyan",
+      },
+      {
+        index: 4,
+        sourceTitle: "Five Ranks — Encyclopedia article",
+        sourceUrl: "https://en.wikipedia.org/wiki/Five_Ranks",
+      },
+    ],
     keyTexts: [
       {
         title: "Sandokai",
@@ -357,9 +515,21 @@ const SCHOOL_DEFINITIONS: SchoolDefinition[] = [
     parentSlug: "chan",
     aliases: ["nanyue line"],
     summary:
-      "The Nanyue line descends from Nanyue Huairang, a student of the Sixth Patriarch Huineng, and constitutes the second of the two great branches of Chan. Through Nanyue's student Mazu Daoyi—one of the most influential Chan masters in history—this line gave rise to the Linji and Guiyang schools and profoundly shaped the character of Chinese Chan. Mazu's Hongzhou school developed the use of shouts, blows, and spontaneous gestures as teaching methods, famously declaring 'This very mind is Buddha' and 'No mind, no Buddha.' The Nanyue branch is broadly associated with dynamic, forceful, and unpredictable teaching styles. Nanyue is best remembered for his encounter with the young Mazu: seeing Mazu practicing intensive sitting meditation, Nanyue began polishing a tile nearby. When Mazu asked why, Nanyue said he was making a mirror. Mazu protested that polishing a tile cannot make a mirror, and Nanyue replied, 'How can sitting in meditation make a Buddha?' This exchange shattered Mazu's attachment to the form of practice and became one of the foundational teaching stories of Chan.",
+      "The Nanyue line descends from Nanyue Huairang, a student of the Sixth Patriarch Huineng, and constitutes the second of the two great branches of Chan[1]. Through Nanyue's student Mazu Daoyi—one of the most influential Chan masters in history—this line gave rise to the Linji and Guiyang schools and profoundly shaped the character of Chinese Chan[2]. Mazu's Hongzhou school developed the use of shouts, blows, and spontaneous gestures as teaching methods, famously declaring 'This very mind is Buddha' and 'No mind, no Buddha.'[2] The Nanyue branch is broadly associated with dynamic, forceful, and unpredictable teaching styles. Nanyue is best remembered for his encounter with the young Mazu: seeing Mazu practicing intensive sitting meditation, Nanyue began polishing a tile nearby. When Mazu asked why, Nanyue said he was making a mirror. Mazu protested that polishing a tile cannot make a mirror, and Nanyue replied, 'How can sitting in meditation make a Buddha?'[1] This exchange shattered Mazu's attachment to the form of practice and became one of the foundational teaching stories of Chan[2].",
     practice:
-      "The Nanyue line, through Mazu Daoyi’s Hongzhou school, extended meditation beyond the hall into every activity of daily life. Mazu’s radical teaching that ‘this very mind is Buddha’ collapsed the distinction between formal sitting and ordinary activity. The line’s characteristic methods—shouts, blows, unexpected gestures, and paradoxical dialogue—were designed to shatter conceptual thought and trigger sudden awakening in the midst of engaged encounter.",
+      "The Nanyue line, through Mazu Daoyi’s Hongzhou school, extended meditation beyond the hall into every activity of daily life[2]. Mazu’s radical teaching that ‘this very mind is Buddha’ collapsed the distinction between formal sitting and ordinary activity[2]. The line’s characteristic methods—shouts, blows, unexpected gestures, and paradoxical dialogue—were designed to shatter conceptual thought and trigger sudden awakening in the midst of engaged encounter.",
+    footnotes: [
+      {
+        index: 1,
+        sourceTitle: "Nanyue Huairang — Encyclopedia article",
+        sourceUrl: "https://en.wikipedia.org/wiki/Nanyue_Huairang",
+      },
+      {
+        index: 2,
+        sourceTitle: "Mazu Daoyi — Encyclopedia article",
+        sourceUrl: "https://en.wikipedia.org/wiki/Mazu_Daoyi",
+      },
+    ],
     keyTexts: [
       {
         title: "Record of Mazu Daoyi",
@@ -405,9 +575,36 @@ const SCHOOL_DEFINITIONS: SchoolDefinition[] = [
     aliases: ["caodong", "tsaodong", "曹洞"],
     nativeNames: { zh: "曹洞宗" },
     summary:
-      "The Caodong school (曹洞宗) is one of the Five Houses of Chan, founded in the ninth century by Dongshan Liangjie and his student Caoshan Benji—the school's name combines the first characters of their mountain names. Its central philosophical contribution is the Five Ranks (wuwei), a dialectical framework describing five modes of relationship between the absolute (emptiness) and the relative (form). Where the Linji school emphasized dramatic breakthrough through shouts and blows, the Caodong tradition developed a subtler approach centered on 'silent illumination' (mozhao chan)—objectless sitting in which awareness naturally illuminates itself without the pursuit of any particular experience. Hongzhi Zhengjue, the Song dynasty master at Tiantong Monastery, was the school's greatest literary voice, composing the verses for the Book of Serenity and articulating silent illumination as a formal practice. The Caodong school nearly went extinct during the Song dynasty before being revived through the extraordinary cross-lineage transmission from Dayang Jingxuan through the Linji master Fushan Fayuan to Touzi Yiqing. Through Furong Daokai and subsequent masters, the revived Caodong tradition reached Tiantong Rujing, who transmitted it to Dogen and thus to all of Japanese Soto Zen.",
+      "The Caodong school (曹洞宗) is one of the Five Houses of Chan, founded in the ninth century by Dongshan Liangjie and his student Caoshan Benji—the school's name combines the first characters of their mountain names[1]. Its central philosophical contribution is the Five Ranks (wuwei), a dialectical framework describing five modes of relationship between the absolute (emptiness) and the relative (form)[2]. Where the Linji school emphasized dramatic breakthrough through shouts and blows, the Caodong tradition developed a subtler approach centered on 'silent illumination' (mozhao chan)—objectless sitting in which awareness naturally illuminates itself without the pursuit of any particular experience[3]. Hongzhi Zhengjue, the Song dynasty master at Tiantong Monastery, was the school's greatest literary voice, composing the verses for the Book of Serenity and articulating silent illumination as a formal practice[4]. The Caodong school nearly went extinct during the Song dynasty before being revived through the extraordinary cross-lineage transmission from Dayang Jingxuan through the Linji master Fushan Fayuan to Touzi Yiqing[1]. Through Furong Daokai and subsequent masters, the revived Caodong tradition reached Tiantong Rujing, who transmitted it to Dogen and thus to all of Japanese Soto Zen[5].",
     practice:
-      "The Caodong school’s signature practice is silent illumination (mozhao chan), an objectless form of sitting meditation in which the practitioner rests in open, non-grasping awareness without chasing visions, insights, or altered states. Hongzhi Zhengjue described this as a luminous field in which stillness and knowing are not two different things. The school’s discipline is therefore less about forcing breakthrough than about stabilizing clear, upright presence until absolute and relative are experienced as mutually inclusive. Dongshan Liangjie’s Five Ranks complement seated practice by giving practitioners a framework for understanding how emptiness and phenomena, host and guest, silence and activity interpenetrate in lived realization.",
+      "The Caodong school’s signature practice is silent illumination (mozhao chan), an objectless form of sitting meditation in which the practitioner rests in open, non-grasping awareness without chasing visions, insights, or altered states[3]. Hongzhi Zhengjue described this as a luminous field in which stillness and knowing are not two different things[4]. The school’s discipline is therefore less about forcing breakthrough than about stabilizing clear, upright presence until absolute and relative are experienced as mutually inclusive. Dongshan Liangjie’s Five Ranks complement seated practice by giving practitioners a framework for understanding how emptiness and phenomena, host and guest, silence and activity interpenetrate in lived realization[2].",
+    footnotes: [
+      {
+        index: 1,
+        sourceTitle: "Caodong school — Encyclopedia article",
+        sourceUrl: "https://en.wikipedia.org/wiki/Caodong_school",
+      },
+      {
+        index: 2,
+        sourceTitle: "Five Ranks — Encyclopedia article",
+        sourceUrl: "https://en.wikipedia.org/wiki/Five_Ranks",
+      },
+      {
+        index: 3,
+        sourceTitle: "Silent illumination — Encyclopedia article",
+        sourceUrl: "https://en.wikipedia.org/wiki/Silent_illumination",
+      },
+      {
+        index: 4,
+        sourceTitle: "Hongzhi Zhengjue — Encyclopedia article",
+        sourceUrl: "https://en.wikipedia.org/wiki/Hongzhi_Zhengjue",
+      },
+      {
+        index: 5,
+        sourceTitle: "Tiantong Rujing — Encyclopedia article",
+        sourceUrl: "https://en.wikipedia.org/wiki/Tiantong_Rujing",
+      },
+    ],
     keyTexts: [
       {
         title: "Book of Serenity",
@@ -481,6 +678,8 @@ const SCHOOL_DEFINITIONS: SchoolDefinition[] = [
       "The Soto school (曹洞宗) is the Japanese continuation of the Chinese Caodong tradition, founded by Eihei Dogen (1200–1253) after his training with Tiantong Rujing in China[1]. It is the largest Zen denomination in Japan[2]. Soto's central practice is shikantaza ('just sitting')—zazen practiced as the direct expression of awakening itself, not as a means to attain enlightenment[3]. Dogen articulated this in his masterwork the Shobogenzo—which is itself largely composed of koan commentary and philosophical inquiry—and in his practical manual the Fukanzazengi[3]. The school's second great figure, Keizan Jokin (1264–1325), founded Sojiji Temple and made Soto practice accessible to a broad Japanese population through the integration of esoteric ritual and ancestor veneration[1]. Together, Eiheiji (Dogen's temple) and Sojiji serve as the school's two head monasteries. In the modern era, the Soto tradition has been carried to the West by teachers including Shunryu Suzuki (San Francisco Zen Center), Taisen Deshimaru (Association Zen Internationale, Europe), Taizan Maezumi (Zen Center of Los Angeles), and Dainin Katagiri (Minnesota Zen Center), establishing vibrant practice communities across North America and Europe[4].",
     practice:
       "Soto Zen’s central practice is shikantaza (‘just sitting’)—zazen as the direct expression of awakening rather than a technique aimed at producing it[3]. Dogen’s Fukanzazengi (‘Universally Recommended Instructions for Zazen’), written soon after his return from China, is not just a slogan for sitting: it is a concise manual that explains why zazen matters and how to do it. In line with Soto practice as presented by Sotoshu, it emphasizes a clean and quiet sitting place, an upright stable posture, full- or half-lotus if possible, the cosmic mudra, eyes kept open, natural breathing through the nose, and the instruction not to chase thoughts or suppress them but to let them arise and fall away while returning to posture and wakefulness[5]. This is the practical side of Dogen’s teaching that practice and realization are one (shusho ittō). Koans are also integral to the Soto tradition—Dogen compiled the Shinji Shobogenzo (300 cases) and his Shobogenzo is largely koan commentary—but they are generally approached as expressions of realized truth rather than used as concentration devices during zazen in the Rinzai manner. Monastic life extends the same discipline into kinhin (walking meditation), oryoki (formal meals), samu (work practice), chanting, and temple ritual, so that sitting and everyday activity are treated as one continuous field of practice.",
+    mastersIntro:
+      "Sōtō Zen recognises Dōgen as Kōso (Eminent Founder) and Keizan as Taiso (Great Ancestor); both temples Eihei-ji and Sōji-ji descend from their work[1]. Dōgen received transmission from Tiantong Rujing on Mount Tiantong in 1227 and returned to Japan to found the Sōtō line[1][6]. Keizan’s student Gasan Jōseki and Gasan’s ‘five great gates’ produced the dharma lineages from which the modern Sōtō priesthood ultimately descends[1]. In the twentieth century, Shunryū Suzuki (1904–1971) co-founded San Francisco Zen Center and authored the influential Zen Mind, Beginner’s Mind, becoming a defining voice of American Sōtō[7]. Taisen Deshimaru (1914–1982), a student of Kōdō Sawaki, founded the Association Zen Internationale and made Sōtō the dominant form of Zen in continental Europe[8]. Taizan Maezumi (1931–1995) carried Sōtō shihō from Hakujun Kuroda alongside Rinzai and Sanbō-Zen authorisation, and trained twelve American Dharma heirs at the Zen Center of Los Angeles[9]. Dainin Katagiri (1928–1990) founded Minnesota Zen Meditation Center and helped establish San Francisco Zen Center after Suzuki’s death[10].",
     footnotes: [
       {
         index: 1,
@@ -513,6 +712,31 @@ const SCHOOL_DEFINITIONS: SchoolDefinition[] = [
         sourceTitle: "Fukan Zazengi — Universal Recommendations for Zazen",
         author: "Dōgen, trans. Sōtōshū",
         sourceUrl: "https://global.sotozen-net.or.jp/eng/library/dogenzenji/023.html",
+      },
+      {
+        index: 6,
+        sourceTitle: "Dōgen — Encyclopedia article",
+        sourceUrl: "https://en.wikipedia.org/wiki/D%C5%8Dgen",
+      },
+      {
+        index: 7,
+        sourceTitle: "Shunryū Suzuki — Encyclopedia article",
+        sourceUrl: "https://en.wikipedia.org/wiki/Shunry%C5%AB_Suzuki",
+      },
+      {
+        index: 8,
+        sourceTitle: "Taisen Deshimaru — Encyclopedia article",
+        sourceUrl: "https://en.wikipedia.org/wiki/Taisen_Deshimaru",
+      },
+      {
+        index: 9,
+        sourceTitle: "Taizan Maezumi — Encyclopedia article",
+        sourceUrl: "https://en.wikipedia.org/wiki/Taizan_Maezumi",
+      },
+      {
+        index: 10,
+        sourceTitle: "Dainin Katagiri — Encyclopedia article",
+        sourceUrl: "https://en.wikipedia.org/wiki/Dainin_Katagiri",
       },
     ],
     keyTexts: [
@@ -615,9 +839,50 @@ const SCHOOL_DEFINITIONS: SchoolDefinition[] = [
     aliases: ["white plum asanga", "white plum", "hakubai"],
     nativeNames: { ja: "白梅" },
     summary:
-      "The White Plum Asanga (白梅, 'white plum blossom') is the lineage sangha of Taizan Maezumi Roshi (1931–1995) and his Dharma successors. It is not a Japanese Sōtōshū-registered sub-school but a Western Zen order that inherits Maezumi's tri-lineage authorization: Sōtō shihō from his father Baian Hakujun Kuroda, Rinzai inka from the lay teacher Kōryū Osaka, and Sanbō-Zen inka from Hakuun Yasutani. Maezumi named twelve American Dharma heirs — including Bernie Tetsugen Glassman, Charlotte Joko Beck, Dennis Genpo Merzel, John Daido Loori, Jan Chozen Bays, and Gerry Shishin Wick — and through their own transmissions the White Plum now has several hundred authorized teachers and roughly a thousand affiliated practice places worldwide. Because the order combines shikantaza with the Harada-Yasutani koan curriculum, and because it operates outside Sōtōshū registration, most White Plum heirs teach under the Asanga's own name rather than as Sōtō priests.",
+      "The White Plum Asanga (白梅, 'white plum blossom') is the lineage sangha of Taizan Maezumi Roshi (1931–1995) and his Dharma successors[1]. It is not a Japanese Sōtōshū-registered sub-school but a Western Zen order that inherits Maezumi's tri-lineage authorization: Sōtō shihō from his father Baian Hakujun Kuroda, Rinzai inka from the lay teacher Kōryū Osaka, and Sanbō-Zen inka from Hakuun Yasutani[1][2]. Maezumi named twelve American Dharma heirs — including Bernie Tetsugen Glassman, Charlotte Joko Beck, Dennis Genpo Merzel, John Daido Loori, Jan Chozen Bays, and Gerry Shishin Wick — and through their own transmissions the White Plum now has several hundred authorized teachers and roughly a thousand affiliated practice places worldwide[3]. Because the order combines shikantaza with the Harada-Yasutani koan curriculum, and because it operates outside Sōtōshū registration, most White Plum heirs teach under the Asanga's own name rather than as Sōtō priests.",
     practice:
-      "White Plum practice reflects Maezumi's triple authorization: shikantaza in the Sōtō sense (zazen as the direct expression of awakening) combined with a formal koan curriculum derived from Harada Daiun Sogaku and Hakuun Yasutani — beginning with the Mu koan, moving through breakthrough koans, and continuing into the Shōyōroku, Mumonkan, Denkōroku, and Hekiganroku. Formal face-to-face interview (dokusan) is central. Many White Plum centers also integrate the social-action emphasis of the Zen Peacemaker Order, which Glassman founded in 1996 within Maezumi's line.",
+      "White Plum practice reflects Maezumi's triple authorization: shikantaza in the Sōtō sense (zazen as the direct expression of awakening) combined with a formal koan curriculum derived from Harada Daiun Sogaku and Hakuun Yasutani — beginning with the Mu koan, moving through breakthrough koans, and continuing into the Shōyōroku, Mumonkan, Denkōroku, and Hekiganroku[2]. Formal face-to-face interview (dokusan) is central. Many White Plum centers also integrate the social-action emphasis of the Zen Peacemaker Order, which Glassman founded in 1996 within Maezumi's line[4].",
+    mastersIntro:
+      "Taizan Maezumi (1931–1995) founded the Zen Center of Los Angeles in 1967 and, by the time of his death, had given Dharma transmission to twelve American successors[1]. Among the best known are Bernie Tetsugen Glassman (1939–2018), founder of Greyston Bakery and the Zen Peacemaker Order[4]; Dennis Genpo Merzel (b. 1944), founder of Kanzeon Sangha[5]; Charlotte Joko Beck (1917–2011), whose ‘Ordinary Mind School’ took her teaching out of the lineage tree[6]; John Daido Loori (1931–2009), founder of Zen Mountain Monastery and the Mountains and Rivers Order[7]; Jan Chozen Bays, co-abbot of Great Vow Zen Monastery; and Gerry Shishin Wick. Through their own transmissions the White Plum now spans several hundred authorized teachers in North America, Europe, and beyond[3].",
+    footnotes: [
+      {
+        index: 1,
+        sourceTitle: "Taizan Maezumi — Encyclopedia article",
+        sourceUrl: "https://en.wikipedia.org/wiki/Taizan_Maezumi",
+      },
+      {
+        index: 2,
+        sourceTitle: "White Plum Asanga — Founder page",
+        sourceUrl: "https://whiteplum.org/founder/",
+        author: "White Plum Asanga",
+      },
+      {
+        index: 3,
+        sourceTitle: "White Plum Asanga — Official site",
+        sourceUrl: "https://whiteplum.org/",
+        author: "White Plum Asanga",
+      },
+      {
+        index: 4,
+        sourceTitle: "Bernie Glassman — Encyclopedia article",
+        sourceUrl: "https://en.wikipedia.org/wiki/Bernie_Glassman",
+      },
+      {
+        index: 5,
+        sourceTitle: "Genpo Merzel — Encyclopedia article",
+        sourceUrl: "https://en.wikipedia.org/wiki/Genpo_Merzel",
+      },
+      {
+        index: 6,
+        sourceTitle: "Charlotte Joko Beck — Encyclopedia article",
+        sourceUrl: "https://en.wikipedia.org/wiki/Charlotte_Joko_Beck",
+      },
+      {
+        index: 7,
+        sourceTitle: "John Daido Loori — Encyclopedia article",
+        sourceUrl: "https://en.wikipedia.org/wiki/John_Daido_Loori",
+      },
+    ],
     keyTexts: [
       {
         title: "On Zen Practice",
@@ -667,9 +932,41 @@ const SCHOOL_DEFINITIONS: SchoolDefinition[] = [
     aliases: ["linji", "臨済"],
     nativeNames: { zh: "臨濟宗" },
     summary:
-      "The Linji school (臨済宗) is the most dynamic and influential of the Five Houses of Chan, founded by Linji Yixuan (d. 866) in the lineage of Mazu Daoyi through Baizhang Huaihai and Huangbo Xiyun. Linji's teaching is characterized by fierce directness—he used shouts (katsu), blows, and paradoxical exchanges to shatter students' conceptual thinking and precipitate immediate awakening. His 'True Person of No Rank' teaching and his four-fold classification of shouts became foundational for the school. During the Song dynasty, the Linji school divided into the Yangqi and Huanglong branches, with the Yangqi line eventually becoming dominant. The school produced the two greatest koan collections: the Blue Cliff Record (Yuanwu Keqin's commentary on Xuedou Chongxian's verses) and the Gateless Barrier (Wumen Huikai's forty-eight cases). Dahui Zonggao championed the huatou (keyword) method of koan practice—concentrating on a single critical phrase until all conceptual thinking is exhausted—which became the standard Linji approach. Through transmission to Japan, Korea, and Vietnam, the Linji school became the most geographically widespread form of Chan/Zen Buddhism.",
+      "The Linji school (臨済宗) is the most dynamic and influential of the Five Houses of Chan, founded by Linji Yixuan (d. 866) in the lineage of Mazu Daoyi through Baizhang Huaihai and Huangbo Xiyun[1]. Linji's teaching is characterized by fierce directness—he used shouts (katsu), blows, and paradoxical exchanges to shatter students' conceptual thinking and precipitate immediate awakening[1]. His 'True Person of No Rank' teaching and his four-fold classification of shouts became foundational for the school[1]. During the Song dynasty, the Linji school divided into the Yangqi and Huanglong branches, with the Yangqi line eventually becoming dominant[2]. The school produced the two greatest koan collections: the Blue Cliff Record (Yuanwu Keqin's commentary on Xuedou Chongxian's verses)[3] and the Gateless Barrier (Wumen Huikai's forty-eight cases)[4]. Dahui Zonggao championed the huatou (keyword) method of koan practice—concentrating on a single critical phrase until all conceptual thinking is exhausted—which became the standard Linji approach[5]. Through transmission to Japan, Korea, and Vietnam, the Linji school became the most geographically widespread form of Chan/Zen Buddhism[6].",
     practice:
-      "The Linji school’s primary meditation method is huatou (話頭) practice, championed by Dahui Zonggao, in which the practitioner takes up a single critical phrase—such as ‘Mu’ or ‘What is this?’—and returns to it with gathering intensity until discursive mind is exhausted in great doubt. This is not mere repetition: the phrase becomes a living point of inquiry that absorbs body and mind. Practice is then tested and deepened in rushi (face-to-face encounter), where the master may respond with shouts, paradoxes, blows, or abrupt questions intended to expose whether realization is embodied or merely conceptual. Linji training therefore combines seated investigation with high-pressure personal interview aimed at discovering the ‘True Person of No Rank’ directly.",
+      "The Linji school’s primary meditation method is huatou (話頭) practice, championed by Dahui Zonggao, in which the practitioner takes up a single critical phrase—such as ‘Mu’ or ‘What is this?’—and returns to it with gathering intensity until discursive mind is exhausted in great doubt[5]. This is not mere repetition: the phrase becomes a living point of inquiry that absorbs body and mind. Practice is then tested and deepened in rushi (face-to-face encounter), where the master may respond with shouts, paradoxes, blows, or abrupt questions intended to expose whether realization is embodied or merely conceptual[1]. Linji training therefore combines seated investigation with high-pressure personal interview aimed at discovering the ‘True Person of No Rank’ directly[1].",
+    footnotes: [
+      {
+        index: 1,
+        sourceTitle: "Linji Yixuan — Encyclopedia article",
+        sourceUrl: "https://en.wikipedia.org/wiki/Linji_Yixuan",
+      },
+      {
+        index: 2,
+        sourceTitle: "Yangqi school — Encyclopedia article",
+        sourceUrl: "https://en.wikipedia.org/wiki/Yangqi_school",
+      },
+      {
+        index: 3,
+        sourceTitle: "Blue Cliff Record — Encyclopedia article",
+        sourceUrl: "https://en.wikipedia.org/wiki/Blue_Cliff_Record",
+      },
+      {
+        index: 4,
+        sourceTitle: "The Gateless Barrier — Encyclopedia article",
+        sourceUrl: "https://en.wikipedia.org/wiki/The_Gateless_Barrier",
+      },
+      {
+        index: 5,
+        sourceTitle: "Dahui Zonggao — Encyclopedia article",
+        sourceUrl: "https://en.wikipedia.org/wiki/Dahui_Zonggao",
+      },
+      {
+        index: 6,
+        sourceTitle: "Linji school — Encyclopedia article",
+        sourceUrl: "https://en.wikipedia.org/wiki/Linji_school",
+      },
+    ],
     keyTexts: [
       {
         title: "Record of Linji",
@@ -757,6 +1054,8 @@ const SCHOOL_DEFINITIONS: SchoolDefinition[] = [
       "The Rinzai school (臨済宗) is the Japanese form of the Chinese Linji tradition, transmitted to Japan through multiple lineages during the Kamakura period (1185–1333)[1]. The school's defining figure is Hakuin Ekaku (1686–1769), who single-handedly revived and systematized Rinzai practice after a period of decline[2]. Hakuin developed the structured koan curriculum that remains standard today—beginning with the Mu koan or the sound of one hand clapping, then progressing through increasingly subtle layers of inquiry. His emphasis on 'great doubt, great faith, great determination' as the three pillars of practice became definitive[2]. The modern Rinzai school is organized primarily through the O-To-Kan lineage: Nanpo Jomyo (Daio Kokushi) received transmission from the Chinese master Xutang Zhiyu, transmitted to Shuho Myocho (Daito Kokushi, founder of Daitokuji), who transmitted to Kanzan Egen (founder of Myoshinji)[3]. These two temple complexes—Daitokuji and Myoshinji—and their extensive branch networks form the institutional backbone of modern Rinzai Zen. The school profoundly influenced Japanese culture, including the tea ceremony, calligraphy, ink painting, garden design, and the martial arts.",
     practice:
       "Rinzai Zen is defined by Hakuin Ekaku’s systematized koan curriculum, in which practitioners work through a graded sequence of koans in private sanzen interviews, often beginning with Mu or ‘the sound of one hand’ and moving through breakthrough, integration, and embodiment cases[2]. Hakuin made ‘great doubt, great faith, and great determination’ the engine of practice, and he paired koan work with strong posture, concentrated breath-energy, and demanding retreat discipline. Intensive sesshin, with many hours of zazen and repeated sanzen, is the classic environment in which doubt ripens into kensho (seeing one’s true nature)[4]. After initial breakthrough, training continues through further koans, literary study, and continued interview so that insight is refined rather than romanticized.",
+    mastersIntro:
+      "The earliest Japanese Rinzai pioneers were Myōan Eisai (1141–1215), who introduced Linji-line Chan to Japan after his second voyage to Song China and founded Kennin-ji[5], and Enni Ben'en (1202–1280), founder of Tōfuku-ji, who carried back the Yangqi-line transmission of Wuzhun Shifan[6]. The dominant institutional line, however, descends from Nanpo Jōmyō (Daiō Kokushi, 1235–1309), who received Xutang Zhiyu’s seal in China; through his student Shūhō Myōchō (Daitō Kokushi, 1283–1338), founder of Daitoku-ji; to Kanzan Egen (1277–1360), founder of Myōshin-ji[3]. The iconoclastic Daitoku-ji master Ikkyū Sōjun (1394–1481) is also remembered for his ‘Crazy Cloud’ poetry and reform of monastic life[7]. Hakuin Ekaku (1686–1769) is universally credited with reviving the Rinzai school after a long decline, devising new kōans like ‘the sound of one hand,’ and producing a structured curriculum that remains canonical[2]. In the modern era, Shaku Sōen (1860–1919) attended the 1893 World’s Parliament of Religions in Chicago, becoming the first Zen master to teach Westerners directly, and trained D. T. Suzuki, who would popularize Zen in the West[8].",
     footnotes: [
       {
         index: 1,
@@ -781,6 +1080,26 @@ const SCHOOL_DEFINITIONS: SchoolDefinition[] = [
         sourceTitle: "The Kōan: Texts and Contexts in Zen Buddhism",
         author: "Steven Heine & Dale S. Wright (eds.)",
         pageOrSection: "ch. 6",
+      },
+      {
+        index: 5,
+        sourceTitle: "Eisai — Encyclopedia article",
+        sourceUrl: "https://en.wikipedia.org/wiki/Eisai",
+      },
+      {
+        index: 6,
+        sourceTitle: "Enni — Encyclopedia article",
+        sourceUrl: "https://en.wikipedia.org/wiki/Enni",
+      },
+      {
+        index: 7,
+        sourceTitle: "Ikkyū — Encyclopedia article",
+        sourceUrl: "https://en.wikipedia.org/wiki/Ikky%C5%AB",
+      },
+      {
+        index: 8,
+        sourceTitle: "Shaku Sōen — Encyclopedia article",
+        sourceUrl: "https://en.wikipedia.org/wiki/Shaku_S%C5%8Den",
       },
     ],
     keyTexts: [
@@ -867,9 +1186,41 @@ const SCHOOL_DEFINITIONS: SchoolDefinition[] = [
     aliases: ["linji/yangqi", "yangqi", "yangqi line"],
     nativeNames: { zh: "楊岐派" },
     summary:
-      "The Yangqi line is the dominant sub-branch of the Linji school, founded by Yangqi Fanghui (992–1049), a student of Shishuang Chuyuan. It emerged alongside the Huanglong branch when the Linji school divided in the Song dynasty, and eventually absorbed and superseded the Huanglong line to become the sole surviving Linji lineage. The Yangqi branch is characterized by an unpredictable, spontaneous teaching style—Yangqi himself was known for playful and surprising responses that kept students off balance. The line produced many of the most important figures in later Chan history: Wuzu Fayan, Yuanwu Keqin (compiler of the Blue Cliff Record), Dahui Zonggao (champion of huatou practice, who famously burned the Blue Cliff Record's printing blocks), and Wumen Huikai (compiler of the Gateless Barrier). Through Xutang Zhiyu's transmission to Nanpo Jomyo, the Yangqi line became the foundation of virtually all Japanese Rinzai Zen. The Yuan dynasty hermit-poet Shiwu Qinggong (Stonehouse) and the intense practitioner Gaofeng Yuanmiao also belong to this lineage.",
+      "The Yangqi line is the dominant sub-branch of the Linji school, founded by Yangqi Fanghui (992–1049), a student of Shishuang Chuyuan[1]. It emerged alongside the Huanglong branch when the Linji school divided in the Song dynasty, and eventually absorbed and superseded the Huanglong line to become the sole surviving Linji lineage[1]. The Yangqi branch is characterized by an unpredictable, spontaneous teaching style—Yangqi himself was known for playful and surprising responses that kept students off balance[1]. The line produced many of the most important figures in later Chan history: Wuzu Fayan, Yuanwu Keqin (compiler of the Blue Cliff Record)[2], Dahui Zonggao (champion of huatou practice, who famously burned the Blue Cliff Record's printing blocks)[3], and Wumen Huikai (compiler of the Gateless Barrier)[4]. Through Xutang Zhiyu's transmission to Nanpo Jomyo, the Yangqi line became the foundation of virtually all Japanese Rinzai Zen[5]. The Yuan dynasty hermit-poet Shiwu Qinggong (Stonehouse) and the intense practitioner Gaofeng Yuanmiao also belong to this lineage[6].",
     practice:
-      "The Yangqi line championed huatou meditation, in which the practitioner takes up a single critical phrase and investigates it with total concentration until the questioning itself becomes more important than any verbal answer. Dahui Zonggao promoted this kanhua chan (看話禪, ‘observing the phrase’) as a portable and rigorous practice suitable for monks, officials, and laypeople alike. Practice in this line therefore centers on concentrated inquiry, repeated return to the live point of doubt, and dynamic teacher-student testing. Its teaching style prizes spontaneity and compression, using surprise to keep students from settling into secondhand understanding.",
+      "The Yangqi line championed huatou meditation, in which the practitioner takes up a single critical phrase and investigates it with total concentration until the questioning itself becomes more important than any verbal answer[3]. Dahui Zonggao promoted this kanhua chan (看話禪, ‘observing the phrase’) as a portable and rigorous practice suitable for monks, officials, and laypeople alike[3]. Practice in this line therefore centers on concentrated inquiry, repeated return to the live point of doubt, and dynamic teacher-student testing. Its teaching style prizes spontaneity and compression, using surprise to keep students from settling into secondhand understanding.",
+    footnotes: [
+      {
+        index: 1,
+        sourceTitle: "Yangqi school — Encyclopedia article",
+        sourceUrl: "https://en.wikipedia.org/wiki/Yangqi_school",
+      },
+      {
+        index: 2,
+        sourceTitle: "Yuanwu Keqin — Encyclopedia article",
+        sourceUrl: "https://en.wikipedia.org/wiki/Yuanwu_Keqin",
+      },
+      {
+        index: 3,
+        sourceTitle: "Dahui Zonggao — Encyclopedia article",
+        sourceUrl: "https://en.wikipedia.org/wiki/Dahui_Zonggao",
+      },
+      {
+        index: 4,
+        sourceTitle: "Wumen Huikai — Encyclopedia article",
+        sourceUrl: "https://en.wikipedia.org/wiki/Wumen_Huikai",
+      },
+      {
+        index: 5,
+        sourceTitle: "Nanpo Jōmyō — Encyclopedia article",
+        sourceUrl: "https://en.wikipedia.org/wiki/Nanpo_J%C5%8Dmy%C5%8D",
+      },
+      {
+        index: 6,
+        sourceTitle: "Shiwu Qinggong — Encyclopedia article",
+        sourceUrl: "https://en.wikipedia.org/wiki/Shiwu",
+      },
+    ],
     keyTexts: [
       {
         title: "Blue Cliff Record",
@@ -924,9 +1275,21 @@ const SCHOOL_DEFINITIONS: SchoolDefinition[] = [
     aliases: ["yunmen", "雲門"],
     nativeNames: { zh: "雲門宗" },
     summary:
-      "The Yunmen school (雲門宗) is one of the Five Houses of Chan, founded by Yunmen Wenyan (864–949), a student of Xuefeng Yicun. It is renowned for the extraordinary economy and precision of its teaching language—Yunmen's responses were often a single word or phrase that functioned as a complete teaching, known as 'one-word barriers.' His famous utterances include 'Every day is a good day,' 'A dried shit stick' (in response to 'What is Buddha?'), and 'The whole world is medicine—what is your self?' The Yunmen school valued linguistic virtuosity not as literary display but as a form of direct pointing: each word chosen to cut through the student's conceptual mind with surgical precision. Xuedou Chongxian, the school's greatest literary figure, selected and composed verses on the hundred cases that became the basis for the Blue Cliff Record, arguably the supreme literary achievement of the Chan tradition. Though the Yunmen school did not survive as an independent institution beyond the Song dynasty, its spirit permeated all subsequent Chan through the koan collections, and its emphasis on concise, powerful expression continues to shape Zen teaching style to this day.",
+      "The Yunmen school (雲門宗) is one of the Five Houses of Chan, founded by Yunmen Wenyan (864–949), a student of Xuefeng Yicun[1]. It is renowned for the extraordinary economy and precision of its teaching language—Yunmen's responses were often a single word or phrase that functioned as a complete teaching, known as 'one-word barriers.'[1] His famous utterances include 'Every day is a good day,' 'A dried shit stick' (in response to 'What is Buddha?'), and 'The whole world is medicine—what is your self?'[1] The Yunmen school valued linguistic virtuosity not as literary display but as a form of direct pointing: each word chosen to cut through the student's conceptual mind with surgical precision. Xuedou Chongxian, the school's greatest literary figure, selected and composed verses on the hundred cases that became the basis for the Blue Cliff Record, arguably the supreme literary achievement of the Chan tradition[2]. Though the Yunmen school did not survive as an independent institution beyond the Song dynasty, its spirit permeated all subsequent Chan through the koan collections, and its emphasis on concise, powerful expression continues to shape Zen teaching style to this day.",
     practice:
-      "The Yunmen school’s practice centered on the ‘one-word barrier’ (yizi guan), in which the master’s single word or abrupt phrase functions both as a block to analysis and as a gate to realization. Rather than encouraging long explanation, Yunmen training compresses the field of practice into an utterance so exact that it cuts off discursiveness on contact. Students contemplate phrases such as ‘Dried shit stick’ or ‘Every day is a good day’ until language stops behaving as commentary and starts acting as direct revelation. This style of practice trains immediacy, precision, and the ability to meet the whole situation without interpretive delay.",
+      "The Yunmen school’s practice centered on the ‘one-word barrier’ (yizi guan), in which the master’s single word or abrupt phrase functions both as a block to analysis and as a gate to realization[1]. Rather than encouraging long explanation, Yunmen training compresses the field of practice into an utterance so exact that it cuts off discursiveness on contact. Students contemplate phrases such as ‘Dried shit stick’ or ‘Every day is a good day’ until language stops behaving as commentary and starts acting as direct revelation. This style of practice trains immediacy, precision, and the ability to meet the whole situation without interpretive delay.",
+    footnotes: [
+      {
+        index: 1,
+        sourceTitle: "Yunmen Wenyan — Encyclopedia article",
+        sourceUrl: "https://en.wikipedia.org/wiki/Yunmen_Wenyan",
+      },
+      {
+        index: 2,
+        sourceTitle: "Xuedou Chongxian — Encyclopedia article",
+        sourceUrl: "https://en.wikipedia.org/wiki/Xuedou_Chongxian",
+      },
+    ],
     keyTexts: [
       {
         title: "Extensive Record of Yunmen",
@@ -972,9 +1335,26 @@ const SCHOOL_DEFINITIONS: SchoolDefinition[] = [
     aliases: ["fayan", "法眼"],
     nativeNames: { zh: "法眼宗" },
     summary:
-      "The Fayan school (法眼宗) is one of the Five Houses of Chan, founded by Fayan Wenyi (885–958), a dharma heir of Luohan Guichen in the lineage of Xuefeng Yicun and Shitou Xiqian. The school is named after Fayan's monastery on Mount Qingliang in Jinling (modern Nanjing). During the Five Dynasties and Ten Kingdoms period, the Fayan school became the dominant Chan school in the Southern Tang and Wuyue kingdoms. Fayan Wenyi's teaching emphasized the harmony of the three teachings—Buddhism, Confucianism, and Daoism—and sought to place culture and learning in service of insight rather than rejecting them. His Ten Admonishments for the Lineage (Zongmen shigui lun) critiqued the decline of Chan practice in his era. Key figures include Tiantai Deshao (891–972), who served as national preceptor of Wuyue and revitalized the Tiantai school alongside his Chan teaching, and Yongming Yanshou (904–975), regarded as the third Fayan patriarch, who authored the monumental Zongjing lu (Records of the Mirror of the Source) and initiated the Chan-Pure Land synthesis that shaped all subsequent Chinese Buddhism. The Fayan school was the first Chan lineage to gain recognition at the Song court, but it did not survive as an independent institution beyond the early Song dynasty, its methods and insights absorbed into the Linji tradition.",
+      "The Fayan school (法眼宗) is one of the Five Houses of Chan, founded by Fayan Wenyi (885–958), a dharma heir of Luohan Guichen in the lineage of Xuefeng Yicun and Shitou Xiqian[1]. The school is named after Fayan's monastery on Mount Qingliang in Jinling (modern Nanjing). During the Five Dynasties and Ten Kingdoms period, the Fayan school became the dominant Chan school in the Southern Tang and Wuyue kingdoms[1]. Fayan Wenyi's teaching emphasized the harmony of the three teachings—Buddhism, Confucianism, and Daoism—and sought to place culture and learning in service of insight rather than rejecting them. His Ten Admonishments for the Lineage (Zongmen shigui lun) critiqued the decline of Chan practice in his era[1]. Key figures include Tiantai Deshao (891–972), who served as national preceptor of Wuyue and revitalized the Tiantai school alongside his Chan teaching[2], and Yongming Yanshou (904–975), regarded as the third Fayan patriarch, who authored the monumental Zongjing lu (Records of the Mirror of the Source) and initiated the Chan-Pure Land synthesis that shaped all subsequent Chinese Buddhism[3]. The Fayan school was the first Chan lineage to gain recognition at the Song court, but it did not survive as an independent institution beyond the early Song dynasty, its methods and insights absorbed into the Linji tradition.",
     practice:
-      "The Fayan school integrated doctrinal understanding with direct Chan realization, drawing on Huayan philosophy’s vision of the mutual interpenetration of all phenomena. Practice was not reduced to scholasticism, but it refused the anti-intellectual pose of treating study as an obstacle: meditation, scriptural reflection, and dialectical questioning belonged together. Fayan Wenyi’s question ‘the myriad dharmas return to the one; where does the one return?’ exemplifies this training, in which conceptual inquiry is pushed until it opens into contemplative insight. Yongming Yanshou extended the same synthetic method by combining Chan meditation with Pure Land recitation and broader Mahayana study, creating a practice culture in which contemplation, devotion, and doctrine reinforce one another.",
+      "The Fayan school integrated doctrinal understanding with direct Chan realization, drawing on Huayan philosophy’s vision of the mutual interpenetration of all phenomena[1]. Practice was not reduced to scholasticism, but it refused the anti-intellectual pose of treating study as an obstacle: meditation, scriptural reflection, and dialectical questioning belonged together. Fayan Wenyi’s question ‘the myriad dharmas return to the one; where does the one return?’ exemplifies this training, in which conceptual inquiry is pushed until it opens into contemplative insight[1]. Yongming Yanshou extended the same synthetic method by combining Chan meditation with Pure Land recitation and broader Mahayana study, creating a practice culture in which contemplation, devotion, and doctrine reinforce one another[3].",
+    footnotes: [
+      {
+        index: 1,
+        sourceTitle: "Fayan Wenyi — Encyclopedia article",
+        sourceUrl: "https://en.wikipedia.org/wiki/Fayan_Wenyi",
+      },
+      {
+        index: 2,
+        sourceTitle: "Tiantai Deshao — Encyclopedia article",
+        sourceUrl: "https://en.wikipedia.org/wiki/Tiantai_Deshao",
+      },
+      {
+        index: 3,
+        sourceTitle: "Yongming Yanshou — Encyclopedia article",
+        sourceUrl: "https://en.wikipedia.org/wiki/Yongming_Yanshou",
+      },
+    ],
     keyTexts: [
       {
         title: "Ten Admonishments for the Lineage",
@@ -1020,9 +1400,36 @@ const SCHOOL_DEFINITIONS: SchoolDefinition[] = [
     aliases: ["guiyang", "潙仰"],
     nativeNames: { zh: "潙仰宗" },
     summary:
-      "The Guiyang school (潙仰宗) was the earliest of the Five Houses of Chan to be formally recognized, founded by Guishan Lingyou (771–853) and his student Yangshan Huiji (807–883) in the lineage of Baizhang Huaihai. The school's name combines the first characters of their respective mountains. The Guiyang school was distinguished by its refined and indirect teaching methods, particularly the use of ninety-seven circular figures (yuan-xiang) to express the relationship between the absolute and relative—a sophisticated non-verbal language that complemented the verbal exchanges used by other schools. Where the Linji school employed shouts and blows, the Guiyang tradition favored subtle gestures, drawn symbols, and the interplay of 'host' and 'guest' as pedagogical tools. Key figures include Xiangyan Zhixian, who awakened at the sound of a pebble striking bamboo after burning all his scholarly notes, and Liu Tiemo ('Iron Grindstone Liu'), a formidable female dharma heir of Guishan whose sharp dialogues ground down all challengers. In the modern era, the Guiyang lineage was revived by the great master Xuyun (1840–1959), who transmitted it to Hsuan Hua. The Guiyang school did not survive as an independent institution beyond the Song dynasty, but its insights into symbolic communication and the non-verbal dimensions of transmission influenced the broader Chan tradition.",
+      "The Guiyang school (潙仰宗) was the earliest of the Five Houses of Chan to be formally recognized, founded by Guishan Lingyou (771–853) and his student Yangshan Huiji (807–883) in the lineage of Baizhang Huaihai[1][2]. The school's name combines the first characters of their respective mountains. The Guiyang school was distinguished by its refined and indirect teaching methods, particularly the use of ninety-seven circular figures (yuan-xiang) to express the relationship between the absolute and relative—a sophisticated non-verbal language that complemented the verbal exchanges used by other schools[2]. Where the Linji school employed shouts and blows, the Guiyang tradition favored subtle gestures, drawn symbols, and the interplay of 'host' and 'guest' as pedagogical tools. Key figures include Xiangyan Zhixian, who awakened at the sound of a pebble striking bamboo after burning all his scholarly notes[3], and Liu Tiemo ('Iron Grindstone Liu'), a formidable female dharma heir of Guishan whose sharp dialogues ground down all challengers. In the modern era, the Guiyang lineage was revived by the great master Xuyun (1840–1959)[4], who transmitted it to Hsuan Hua[5]. The Guiyang school did not survive as an independent institution beyond the Song dynasty, but its insights into symbolic communication and the non-verbal dimensions of transmission influenced the broader Chan tradition.",
     practice:
-      "The Guiyang school employed ninety-seven circular figures (yuan-xiang) as contemplative tools, using drawn forms, symbolic gestures, and subtle exchanges to express relationships that ordinary explanation cannot capture. In practice encounters, master and student might work with a figure or gesture rather than a sentence, making non-verbal communication itself part of the training. This did not replace sitting meditation; it refined the practitioner’s sensitivity to how absolute and relative, host and guest, presence and response shift within a living encounter. The school’s distinctive contribution is therefore a contemplative pedagogy of symbolic form rather than blunt confrontation.",
+      "The Guiyang school employed ninety-seven circular figures (yuan-xiang) as contemplative tools, using drawn forms, symbolic gestures, and subtle exchanges to express relationships that ordinary explanation cannot capture[2]. In practice encounters, master and student might work with a figure or gesture rather than a sentence, making non-verbal communication itself part of the training. This did not replace sitting meditation; it refined the practitioner’s sensitivity to how absolute and relative, host and guest, presence and response shift within a living encounter. The school’s distinctive contribution is therefore a contemplative pedagogy of symbolic form rather than blunt confrontation.",
+    footnotes: [
+      {
+        index: 1,
+        sourceTitle: "Guishan Lingyou — Encyclopedia article",
+        sourceUrl: "https://en.wikipedia.org/wiki/Guishan_Lingyou",
+      },
+      {
+        index: 2,
+        sourceTitle: "Yangshan Huiji — Encyclopedia article",
+        sourceUrl: "https://en.wikipedia.org/wiki/Yangshan_Huiji",
+      },
+      {
+        index: 3,
+        sourceTitle: "Xiangyan Zhixian — Encyclopedia article",
+        sourceUrl: "https://en.wikipedia.org/wiki/Xiangyan_Zhixian",
+      },
+      {
+        index: 4,
+        sourceTitle: "Xuyun — Encyclopedia article",
+        sourceUrl: "https://en.wikipedia.org/wiki/Xuyun",
+      },
+      {
+        index: 5,
+        sourceTitle: "Hsuan Hua — Encyclopedia article",
+        sourceUrl: "https://en.wikipedia.org/wiki/Hsuan_Hua",
+      },
+    ],
     keyTexts: [
       {
         title: "Guishan's Admonitions",
@@ -1058,9 +1465,31 @@ const SCHOOL_DEFINITIONS: SchoolDefinition[] = [
     aliases: ["sanbo", "sanbo-zen", "sanbō-zen", "sanbo kyodan"],
     nativeNames: { ja: "三宝禅" },
     summary:
-      "Sanbo-Zen (三宝禅, formerly Sanbo Kyodan, 'Three Treasures Association') is a modern Zen school founded by Yasutani Hakuun (1885–1973) that integrates Soto Zen's emphasis on shikantaza with the Rinzai tradition's systematic koan curriculum. Yasutani's teacher, Harada Daiun Sogaku, had pioneered this synthesis by combining his Soto training with extensive Rinzai koan study under several masters. The Sanbo-Zen approach offers practitioners both objectless sitting and a structured koan path, beginning with the Mu koan and progressing through the traditional Rinzai curriculum. Under the leadership of Yamada Koun (1907–1989), the school became one of the most important vehicles for transmitting Zen to the West. Yamada's radical openness—he trained Catholic priests and nuns, Protestant ministers, and practitioners of other faiths alongside traditional Buddhist students—transformed Zen from a Japanese cultural phenomenon into a genuinely international contemplative practice. Robert Aitken (Diamond Sangha, Hawaii) and Ruben Habito (Maria Kannon Zen Center, Dallas) are among the school's notable Western-based teachers. The school is headquartered in Kamakura, Japan.",
+      "Sanbo-Zen (三宝禅, formerly Sanbo Kyodan, 'Three Treasures Association') is a modern Zen school founded by Yasutani Hakuun (1885–1973) that integrates Soto Zen's emphasis on shikantaza with the Rinzai tradition's systematic koan curriculum[1]. Yasutani's teacher, Harada Daiun Sogaku, had pioneered this synthesis by combining his Soto training with extensive Rinzai koan study under several masters[2]. The Sanbo-Zen approach offers practitioners both objectless sitting and a structured koan path, beginning with the Mu koan and progressing through the traditional Rinzai curriculum[1]. Under the leadership of Yamada Koun (1907–1989), the school became one of the most important vehicles for transmitting Zen to the West[3]. Yamada's radical openness—he trained Catholic priests and nuns, Protestant ministers, and practitioners of other faiths alongside traditional Buddhist students—transformed Zen from a Japanese cultural phenomenon into a genuinely international contemplative practice[3]. Robert Aitken (Diamond Sangha, Hawaii)[4] and Ruben Habito (Maria Kannon Zen Center, Dallas) are among the school's notable Western-based teachers. The school is headquartered in Kamakura, Japan.",
     practice:
-      "Sanbo-Zen uniquely synthesizes Soto shikantaza with the Rinzai koan curriculum, as developed by Harada Daiun Sogaku and refined by Yasutani Hakuun. Training typically alternates between periods of objectless sitting and intensive koan investigation, with practitioners often beginning with Mu and then progressing through a streamlined Rinzai-style sequence in dokusan. The school is notable for treating kensho as a concrete experiential aim while still insisting that insight be stabilized through continued sitting, ethical life, and teacher verification. Under Yamada Koun, these methods were adapted for lay people and for practitioners from other religions, making Sanbo-Zen one of the most portable modern formats of formal Zen training.",
+      "Sanbo-Zen uniquely synthesizes Soto shikantaza with the Rinzai koan curriculum, as developed by Harada Daiun Sogaku and refined by Yasutani Hakuun[1][2]. Training typically alternates between periods of objectless sitting and intensive koan investigation, with practitioners often beginning with Mu and then progressing through a streamlined Rinzai-style sequence in dokusan. The school is notable for treating kensho as a concrete experiential aim while still insisting that insight be stabilized through continued sitting, ethical life, and teacher verification. Under Yamada Koun, these methods were adapted for lay people and for practitioners from other religions, making Sanbo-Zen one of the most portable modern formats of formal Zen training[3].",
+    footnotes: [
+      {
+        index: 1,
+        sourceTitle: "Hakuun Yasutani — Encyclopedia article",
+        sourceUrl: "https://en.wikipedia.org/wiki/Hakuun_Yasutani",
+      },
+      {
+        index: 2,
+        sourceTitle: "Harada Daiun Sogaku — Encyclopedia article",
+        sourceUrl: "https://en.wikipedia.org/wiki/Harada_Daiun_Sogaku",
+      },
+      {
+        index: 3,
+        sourceTitle: "Yamada Kōun — Encyclopedia article",
+        sourceUrl: "https://en.wikipedia.org/wiki/Yamada_K%C5%8Dun",
+      },
+      {
+        index: 4,
+        sourceTitle: "Robert Baker Aitken — Encyclopedia article",
+        sourceUrl: "https://en.wikipedia.org/wiki/Robert_Baker_Aitken",
+      },
+    ],
     keyTexts: [
       {
         title: "The Three Pillars of Zen",
@@ -1111,9 +1540,36 @@ const SCHOOL_DEFINITIONS: SchoolDefinition[] = [
     aliases: ["thien", "thiền", "vietnamese zen", "vietnamese chan"],
     nativeNames: { vi: "Thiền", zh: "禪" },
     summary:
-      "Thiền (禪) is the Vietnamese tradition of Chan Buddhism, brought to Vietnam through multiple transmissions from China beginning as early as the sixth century. The first Thiền school was founded by Vinitaruci (d. 594), an Indian monk who had studied with the Third Patriarch Sengcan before traveling to Vietnam. The second school was established by Vô Ngôn Thông (d. 826), a Chinese disciple of Baizhang Huaihai. Vietnamese Thiền developed a distinctive character, readily combining meditation practice with Pure Land devotion, Confucian ethics, and indigenous Vietnamese spirituality. The tradition produced several uniquely Vietnamese developments, including the Trúc Lâm (Bamboo Forest) school founded by Emperor Trần Nhân Tông in 1299, and the Liễu Quán dharma line of the Lâm Tế school, which became the dominant lineage in central and southern Vietnam.",
+      "Thiền (禪) is the Vietnamese tradition of Chan Buddhism, brought to Vietnam through multiple transmissions from China beginning as early as the sixth century[1]. The first Thiền school was founded by Vinitaruci (d. 594), an Indian monk who had studied with the Third Patriarch Sengcan before traveling to Vietnam[2]. The second school was established by Vô Ngôn Thông (d. 826), a Chinese disciple of Baizhang Huaihai[3]. Vietnamese Thiền developed a distinctive character, readily combining meditation practice with Pure Land devotion, Confucian ethics, and indigenous Vietnamese spirituality[1]. The tradition produced several uniquely Vietnamese developments, including the Trúc Lâm (Bamboo Forest) school founded by Emperor Trần Nhân Tông in 1299[4], and the Liễu Quán dharma line of the Lâm Tế school, which became the dominant lineage in central and southern Vietnam[5].",
     practice:
-      "Vietnamese Thiền characteristically combines seated meditation with Pure Land devotion (niệm Phật), sutra chanting, repentance liturgies, and practical mindfulness in daily life. Rather than treating these as competing methods, the tradition typically understands them as mutually supportive disciplines suited to different capacities and circumstances. A practitioner may therefore move between silent sitting, recitation of the Buddha’s name, doctrinal study, and ritual observance without feeling that one invalidates the others. The relative balance varies by lineage and teacher, but the hallmark of Thiền is this integrated rather than exclusionary practice culture.",
+      "Vietnamese Thiền characteristically combines seated meditation with Pure Land devotion (niệm Phật), sutra chanting, repentance liturgies, and practical mindfulness in daily life[1]. Rather than treating these as competing methods, the tradition typically understands them as mutually supportive disciplines suited to different capacities and circumstances. A practitioner may therefore move between silent sitting, recitation of the Buddha’s name, doctrinal study, and ritual observance without feeling that one invalidates the others. The relative balance varies by lineage and teacher, but the hallmark of Thiền is this integrated rather than exclusionary practice culture.",
+    footnotes: [
+      {
+        index: 1,
+        sourceTitle: "Buddhism in Vietnam — Encyclopedia article",
+        sourceUrl: "https://en.wikipedia.org/wiki/Buddhism_in_Vietnam",
+      },
+      {
+        index: 2,
+        sourceTitle: "Vinitaruci — Encyclopedia article",
+        sourceUrl: "https://en.wikipedia.org/wiki/Vinitaruci",
+      },
+      {
+        index: 3,
+        sourceTitle: "Vô Ngôn Thông — Encyclopedia article",
+        sourceUrl: "https://en.wikipedia.org/wiki/V%C3%B4_Ng%C3%B4n_Th%C3%B4ng",
+      },
+      {
+        index: 4,
+        sourceTitle: "Trần Nhân Tông — Encyclopedia article",
+        sourceUrl: "https://en.wikipedia.org/wiki/Tr%E1%BA%A7n_Nh%C3%A2n_T%C3%B4ng",
+      },
+      {
+        index: 5,
+        sourceTitle: "Liễu Quán — Encyclopedia article",
+        sourceUrl: "https://en.wikipedia.org/wiki/Li%E1%BB%85u_Qu%C3%A1n",
+      },
+    ],
     keyTexts: [
       {
         title: "Thiền Uyển Tập Anh",
@@ -1175,9 +1631,31 @@ const SCHOOL_DEFINITIONS: SchoolDefinition[] = [
     aliases: ["lam te", "lâm tế", "vietnamese linji", "linji vietnam"],
     nativeNames: { vi: "Lâm Tế", zh: "臨濟宗" },
     summary:
-      "The Lâm Tế school is the Vietnamese form of the Chinese Linji tradition, formally established in Vietnam during the seventeenth century by Chinese monks carrying the late-Ming Linji revival lineage of Miyun Yuanwu. The most important transmission was through Nguyên Thiều (1648–1728), a Chinese monk from Guangdong who arrived in Vietnam around 1665–1677 and established the Linji lineage in the central and southern regions. His dharma grandson Liễu Quán (1670–1742) became the first native Vietnamese to receive Linji dharma transmission, founding the Liễu Quán dharma line that 'Vietnamized' the tradition and remains the dominant Buddhist lineage in central Vietnam to this day. Thích Nhất Hạnh (1926–2022), the globally influential Zen teacher and peace activist, was the 42nd generation of the Lâm Tế school and 8th generation of the Liễu Quán line.",
+      "The Lâm Tế school is the Vietnamese form of the Chinese Linji tradition, formally established in Vietnam during the seventeenth century by Chinese monks carrying the late-Ming Linji revival lineage of Miyun Yuanwu[1]. The most important transmission was through Nguyên Thiều (1648–1728), a Chinese monk from Guangdong who arrived in Vietnam around 1665–1677 and established the Linji lineage in the central and southern regions[2]. His dharma grandson Liễu Quán (1670–1742) became the first native Vietnamese to receive Linji dharma transmission, founding the Liễu Quán dharma line that 'Vietnamized' the tradition and remains the dominant Buddhist lineage in central Vietnam to this day[3]. Thích Nhất Hạnh (1926–2022), the globally influential Zen teacher and peace activist, was the 42nd generation of the Lâm Tế school and 8th generation of the Liễu Quán line[4].",
     practice:
-      "The Lâm Tế school practices huatou (thoại đầu) investigation in the tradition transmitted from late-Ming Chinese Linji Chan, but adapted to Vietnamese monastic life where chanting, liturgy, and community obligations remain prominent. In the Liễu Quán line especially, meditation is joined to sutra study, repentance ceremonies, devotional chanting, and forms of service rather than isolated from them. This means that insight is cultivated through both concentrated inquiry and a broader temple discipline shaped by Vietnamese Mahayana culture. Thích Nhất Hạnh later drew on this inherited unity of contemplation and engagement when developing his own modern teaching.",
+      "The Lâm Tế school practices huatou (thoại đầu) investigation in the tradition transmitted from late-Ming Chinese Linji Chan, but adapted to Vietnamese monastic life where chanting, liturgy, and community obligations remain prominent[1]. In the Liễu Quán line especially, meditation is joined to sutra study, repentance ceremonies, devotional chanting, and forms of service rather than isolated from them[3]. This means that insight is cultivated through both concentrated inquiry and a broader temple discipline shaped by Vietnamese Mahayana culture. Thích Nhất Hạnh later drew on this inherited unity of contemplation and engagement when developing his own modern teaching[4].",
+    footnotes: [
+      {
+        index: 1,
+        sourceTitle: "Buddhism in Vietnam — Encyclopedia article",
+        sourceUrl: "https://en.wikipedia.org/wiki/Buddhism_in_Vietnam",
+      },
+      {
+        index: 2,
+        sourceTitle: "Nguyên Thiều — Encyclopedia article",
+        sourceUrl: "https://en.wikipedia.org/wiki/Nguy%C3%AAn_Thi%E1%BB%81u",
+      },
+      {
+        index: 3,
+        sourceTitle: "Liễu Quán — Encyclopedia article",
+        sourceUrl: "https://en.wikipedia.org/wiki/Li%E1%BB%85u_Qu%C3%A1n",
+      },
+      {
+        index: 4,
+        sourceTitle: "Thích Nhất Hạnh — Encyclopedia article",
+        sourceUrl: "https://en.wikipedia.org/wiki/Th%C3%ADch_Nh%E1%BA%A5t_H%E1%BA%A1nh",
+      },
+    ],
     keyTexts: [
       {
         title: "Record of Linji",
@@ -1221,9 +1699,26 @@ const SCHOOL_DEFINITIONS: SchoolDefinition[] = [
     aliases: ["truc lam", "trúc lâm", "bamboo forest", "竹林"],
     nativeNames: { vi: "Trúc Lâm", zh: "竹林" },
     summary:
-      "The Trúc Lâm (竹林, Bamboo Forest) school is the only indigenous Vietnamese Zen tradition, founded in 1299 by Trần Nhân Tông (1258–1308), the third emperor of the Trần dynasty who abdicated the throne to become a monk. After personally leading Vietnam to victory in the second and third Mongol invasions (1285 and 1288), Trần Nhân Tông retired to Yên Tử Mountain and unified the three existing Vietnamese Thiền schools—the Vinitaruci, Vô Ngôn Thông, and Thảo Đường lineages—into a single school. The Trúc Lâm tradition was continued by two more patriarchs, Pháp Loa (1284–1330) and Huyền Quang (1254–1334), before gradually declining as a distinct school. It was revived in the twentieth century by Thích Thanh Từ as a modern Vietnamese contemplative movement with monasteries across the country.",
+      "The Trúc Lâm (竹林, Bamboo Forest) school is the only indigenous Vietnamese Zen tradition, founded in 1299 by Trần Nhân Tông (1258–1308), the third emperor of the Trần dynasty who abdicated the throne to become a monk[1]. After personally leading Vietnam to victory in the second and third Mongol invasions (1285 and 1288), Trần Nhân Tông retired to Yên Tử Mountain and unified the three existing Vietnamese Thiền schools—the Vinitaruci, Vô Ngôn Thông, and Thảo Đường lineages—into a single school[1][2]. The Trúc Lâm tradition was continued by two more patriarchs, Pháp Loa (1284–1330) and Huyền Quang (1254–1334), before gradually declining as a distinct school[2]. It was revived in the twentieth century by Thích Thanh Từ as a modern Vietnamese contemplative movement with monasteries across the country[3].",
     practice:
-      "The Trúc Lâm school, as revived by Thích Thanh Từ, emphasizes meditation-centered training rooted in Trần Nhân Tông’s synthesis of the older Vietnamese Thiền streams. Practitioners are directed toward ‘knowing the mind and seeing the nature’ (tri tâm kiến tánh), often through seated meditation and direct questioning practices such as ‘Who is dragging this corpse around?’ In its modern form, Trúc Lâm intentionally re-centers contemplative discipline within a Buddhist landscape often dominated by ritual and devotional forms, while still remaining fully Mahayana in ethical and monastic orientation. Its ideal is a distinctly Vietnamese Zen life in which clarity of mind, simplicity, and disciplined sitting are the foundation.",
+      "The Trúc Lâm school, as revived by Thích Thanh Từ, emphasizes meditation-centered training rooted in Trần Nhân Tông’s synthesis of the older Vietnamese Thiền streams[3]. Practitioners are directed toward ‘knowing the mind and seeing the nature’ (tri tâm kiến tánh), often through seated meditation and direct questioning practices such as ‘Who is dragging this corpse around?’ In its modern form, Trúc Lâm intentionally re-centers contemplative discipline within a Buddhist landscape often dominated by ritual and devotional forms, while still remaining fully Mahayana in ethical and monastic orientation. Its ideal is a distinctly Vietnamese Zen life in which clarity of mind, simplicity, and disciplined sitting are the foundation.",
+    footnotes: [
+      {
+        index: 1,
+        sourceTitle: "Trần Nhân Tông — Encyclopedia article",
+        sourceUrl: "https://en.wikipedia.org/wiki/Tr%E1%BA%A7n_Nh%C3%A2n_T%C3%B4ng",
+      },
+      {
+        index: 2,
+        sourceTitle: "Trúc Lâm — Encyclopedia article",
+        sourceUrl: "https://en.wikipedia.org/wiki/Tr%C3%BAc_L%C3%A2m",
+      },
+      {
+        index: 3,
+        sourceTitle: "Thích Thanh Từ — Encyclopedia article",
+        sourceUrl: "https://en.wikipedia.org/wiki/Th%C3%ADch_Thanh_T%E1%BB%AB",
+      },
+    ],
     keyTexts: [
       {
         title: "Cư Trần Lạc Đạo Phú",
@@ -1283,9 +1778,27 @@ const SCHOOL_DEFINITIONS: SchoolDefinition[] = [
     aliases: ["plum village", "lang mai", "làng mai", "order of interbeing"],
     nativeNames: { vi: "Làng Mai", zh: "梅村" },
     summary:
-      "The Plum Village tradition is a modern school of engaged Buddhism founded by Thích Nhất Hạnh (1926–2022) in the Lâm Tế (Vietnamese Linji) lineage. Named after Plum Village, the practice center established in the Dordogne region of France in 1982, the tradition emphasizes mindfulness in daily life, engaged social action, and the integration of meditation practice with ethical living. Thích Nhất Hạnh developed the practice of the Fourteen Mindfulness Trainings as the foundation of the Order of Interbeing (Tiếp Hiện), established in 1966 during the Vietnam War. The tradition's teaching methods—walking meditation, mindful eating, dharma sharing circles, and the practice of Beginning Anew—have made Zen practice accessible to millions worldwide. With monasteries and practice centers on five continents and hundreds of local sanghas, Plum Village is one of the largest Buddhist communities in the Western world.",
+      "The Plum Village tradition is a modern school of engaged Buddhism founded by Thích Nhất Hạnh (1926–2022) in the Lâm Tế (Vietnamese Linji) lineage[1]. Named after Plum Village, the practice center established in the Dordogne region of France in 1982, the tradition emphasizes mindfulness in daily life, engaged social action, and the integration of meditation practice with ethical living[2]. Thích Nhất Hạnh developed the practice of the Fourteen Mindfulness Trainings as the foundation of the Order of Interbeing (Tiếp Hiện), established in 1966 during the Vietnam War[3]. The tradition's teaching methods—walking meditation, mindful eating, dharma sharing circles, and the practice of Beginning Anew—have made Zen practice accessible to millions worldwide[2]. With monasteries and practice centers on five continents and hundreds of local sanghas, Plum Village is one of the largest Buddhist communities in the Western world[2].",
     practice:
-      "Plum Village practice integrates mindfulness into every activity—walking meditation, mindful eating, conscious breathing, deep listening, and careful speech—so that formal sitting becomes one part of a whole ecology of awareness. The tradition is highly structured but not monastically severe in the classical Zen sense: bells of mindfulness, guided meditations, communal chanting, and dharma sharing circles repeatedly return practitioners to embodied presence. The Fourteen Mindfulness Trainings of the Order of Interbeing function as both ethical commitments and contemplative exercises, linking inner transformation to nonviolence, right consumption, and compassionate social action. Beginning Anew, total relaxation, and ‘lazy days’ further mark Plum Village as a school in which healing, community, and engagement are integral to practice rather than secondary to it.",
+      "Plum Village practice integrates mindfulness into every activity—walking meditation, mindful eating, conscious breathing, deep listening, and careful speech—so that formal sitting becomes one part of a whole ecology of awareness[2]. The tradition is highly structured but not monastically severe in the classical Zen sense: bells of mindfulness, guided meditations, communal chanting, and dharma sharing circles repeatedly return practitioners to embodied presence. The Fourteen Mindfulness Trainings of the Order of Interbeing function as both ethical commitments and contemplative exercises, linking inner transformation to nonviolence, right consumption, and compassionate social action[3]. Beginning Anew, total relaxation, and ‘lazy days’ further mark Plum Village as a school in which healing, community, and engagement are integral to practice rather than secondary to it.",
+    footnotes: [
+      {
+        index: 1,
+        sourceTitle: "Thích Nhất Hạnh — Encyclopedia article",
+        sourceUrl: "https://en.wikipedia.org/wiki/Th%C3%ADch_Nh%E1%BA%A5t_H%E1%BA%A1nh",
+      },
+      {
+        index: 2,
+        sourceTitle: "Plum Village Tradition — Official site",
+        sourceUrl: "https://plumvillage.org/about",
+        author: "Plum Village Community of Engaged Buddhism",
+      },
+      {
+        index: 3,
+        sourceTitle: "Order of Interbeing — Encyclopedia article",
+        sourceUrl: "https://en.wikipedia.org/wiki/Order_of_Interbeing",
+      },
+    ],
     keyTexts: [
       {
         title: "The Miracle of Mindfulness",
@@ -1362,9 +1875,36 @@ const SCHOOL_DEFINITIONS: SchoolDefinition[] = [
     aliases: ["seon", "선", "korean zen", "korean chan"],
     nativeNames: { ko: "선", zh: "禪" },
     summary:
-      "Seon (禪, 선) is the Korean tradition of Chan Buddhism, introduced to the Korean peninsula beginning in the seventh century by monks who had studied in Tang dynasty China. The earliest transmissions came through figures like Toui, who received dharma transmission from Baizhang Huaihai's lineage and established the first Seon school upon returning to Korea. During the Goryeo dynasty, Bojo Jinul (1158–1210) became the tradition's most influential reformer, synthesizing Seon meditation with Hwaeom (Huayan) doctrinal study and establishing the Jogye Order, which remains the dominant Buddhist institution in Korea today. Korean Seon developed a distinctive character: it preserved the intensity of Tang dynasty Chan practice—particularly the hwadu (huatou) method of koan investigation—while integrating it with a broader Buddhist framework. The tradition also maintained a strong emphasis on extended silent retreat, culminating in the modern Korean practice of three-month intensive meditation seasons (kyolche). Major modern figures include Gyeongheo, who revived the dying Seon tradition in the late nineteenth century, and Seongcheol, who insisted on sudden awakening as the only authentic path.",
+      "Seon (禪, 선) is the Korean tradition of Chan Buddhism, introduced to the Korean peninsula beginning in the seventh century by monks who had studied in Tang dynasty China[1]. The earliest transmissions came through figures like Toui, who received dharma transmission from Baizhang Huaihai's lineage and established the first Seon school upon returning to Korea[2]. During the Goryeo dynasty, Bojo Jinul (1158–1210) became the tradition's most influential reformer, synthesizing Seon meditation with Hwaeom (Huayan) doctrinal study and establishing the Jogye Order, which remains the dominant Buddhist institution in Korea today[3]. Korean Seon developed a distinctive character: it preserved the intensity of Tang dynasty Chan practice—particularly the hwadu (huatou) method of koan investigation—while integrating it with a broader Buddhist framework[1]. The tradition also maintained a strong emphasis on extended silent retreat, culminating in the modern Korean practice of three-month intensive meditation seasons (kyolche)[1]. Major modern figures include Gyeongheo, who revived the dying Seon tradition in the late nineteenth century[4], and Seongcheol, who insisted on sudden awakening as the only authentic path[5].",
     practice:
-      "Korean Seon preserves hwadu (話頭) investigation as its defining method: the practitioner takes up a living question—most often ‘What is this?’ (이뭣고)—and sustains it through sitting, walking, chanting, and daily activity until the questioning penetrates beneath conceptual thought. The hallmark of Seon training is intensity over discursiveness, especially in the kyolche (結制) retreat system, where monastics enter long seasonal periods of near-continuous meditation under strict discipline. Yet Seon has never been only technique: the tradition also frames practice through the long debate over sudden awakening and subsequent cultivation, from Jinul’s dono jeomsu to Seongcheol’s insistence on pure sudden awakening. In this way, Korean Seon combines rigorous meditative inquiry with sustained reflection on what awakening actually means.",
+      "Korean Seon preserves hwadu (話頭) investigation as its defining method: the practitioner takes up a living question—most often ‘What is this?’ (이뭣고)—and sustains it through sitting, walking, chanting, and daily activity until the questioning penetrates beneath conceptual thought[1]. The hallmark of Seon training is intensity over discursiveness, especially in the kyolche (結制) retreat system, where monastics enter long seasonal periods of near-continuous meditation under strict discipline. Yet Seon has never been only technique: the tradition also frames practice through the long debate over sudden awakening and subsequent cultivation, from Jinul’s dono jeomsu to Seongcheol’s insistence on pure sudden awakening[3][5]. In this way, Korean Seon combines rigorous meditative inquiry with sustained reflection on what awakening actually means.",
+    footnotes: [
+      {
+        index: 1,
+        sourceTitle: "Seon Buddhism — Encyclopedia article",
+        sourceUrl: "https://en.wikipedia.org/wiki/Seon_Buddhism",
+      },
+      {
+        index: 2,
+        sourceTitle: "Doui — Encyclopedia article",
+        sourceUrl: "https://en.wikipedia.org/wiki/Doui",
+      },
+      {
+        index: 3,
+        sourceTitle: "Jinul — Encyclopedia article",
+        sourceUrl: "https://en.wikipedia.org/wiki/Jinul",
+      },
+      {
+        index: 4,
+        sourceTitle: "Gyeongheo — Encyclopedia article",
+        sourceUrl: "https://en.wikipedia.org/wiki/Gyeongheo",
+      },
+      {
+        index: 5,
+        sourceTitle: "Seongcheol — Encyclopedia article",
+        sourceUrl: "https://en.wikipedia.org/wiki/Seongcheol",
+      },
+    ],
     keyTexts: [
       {
         title: "Secrets on Cultivating the Mind",
@@ -1442,9 +1982,36 @@ const SCHOOL_DEFINITIONS: SchoolDefinition[] = [
     aliases: ["jogye", "jogye order", "조계종", "chogye"],
     nativeNames: { ko: "조계종", zh: "曹溪宗" },
     summary:
-      "The Jogye Order (조계종, 曹溪宗) is the largest and most influential Buddhist order in Korea, tracing its spiritual lineage to the Sixth Patriarch Huineng's mountain, Caoxi (Jogye in Korean). Founded in its original form by Bojo Jinul in the twelfth century and reconstituted in the twentieth century after Japanese colonial suppression, the Jogye Order represents the mainstream of Korean Seon practice. The order's distinctive approach combines rigorous hwadu (huatou) meditation with monastic discipline, seasonal intensive retreats (kyolche), and the integration of doctrinal study. The Jogye Order maintains over two thousand temples across South Korea and operates the country's major monastic training centers, including Haeinsa, Songgwangsa, and Tongdosa. In the modern era, the order has produced towering figures including Gyeongheo Seongu, who single-handedly revived Korean Seon practice; Mangong, Hyobong, and Gobong, who maintained rigorous meditation standards; and Seongcheol, whose uncompromising insistence on sudden awakening sparked nationwide debate about the nature of enlightenment.",
+      "The Jogye Order (조계종, 曹溪宗) is the largest and most influential Buddhist order in Korea, tracing its spiritual lineage to the Sixth Patriarch Huineng's mountain, Caoxi (Jogye in Korean)[1]. Founded in its original form by Bojo Jinul in the twelfth century and reconstituted in the twentieth century after Japanese colonial suppression, the Jogye Order represents the mainstream of Korean Seon practice[1][2]. The order's distinctive approach combines rigorous hwadu (huatou) meditation with monastic discipline, seasonal intensive retreats (kyolche), and the integration of doctrinal study[1]. The Jogye Order maintains over two thousand temples across South Korea and operates the country's major monastic training centers, including Haeinsa, Songgwangsa, and Tongdosa[1]. In the modern era, the order has produced towering figures including Gyeongheo Seongu, who single-handedly revived Korean Seon practice[3]; Mangong, Hyobong, and Gobong, who maintained rigorous meditation standards[4]; and Seongcheol, whose uncompromising insistence on sudden awakening sparked nationwide debate about the nature of enlightenment[5].",
     practice:
-      "The Jogye Order’s standard practice is hwadu investigation, typically working with ‘What is this?’ (이뭣고) or another critical phrase under a seon master’s guidance. This unfolds most intensely in the seonbang during the twice-yearly summer and winter kyolche, when monastics commit to three months of highly disciplined sitting, walking meditation, and silence. Outside retreat, Jogye training still integrates chanting, bowing, repentance, sutra study, and communal temple labor, so the order does not treat hwadu as a freestanding exercise divorced from monastic formation. The result is a practice culture that joins hard meditative inquiry to the rhythms of large Korean monastic institutions.",
+      "The Jogye Order’s standard practice is hwadu investigation, typically working with ‘What is this?’ (이뭣고) or another critical phrase under a seon master’s guidance[1]. This unfolds most intensely in the seonbang during the twice-yearly summer and winter kyolche, when monastics commit to three months of highly disciplined sitting, walking meditation, and silence[1]. Outside retreat, Jogye training still integrates chanting, bowing, repentance, sutra study, and communal temple labor, so the order does not treat hwadu as a freestanding exercise divorced from monastic formation. The result is a practice culture that joins hard meditative inquiry to the rhythms of large Korean monastic institutions.",
+    footnotes: [
+      {
+        index: 1,
+        sourceTitle: "Jogye Order — Encyclopedia article",
+        sourceUrl: "https://en.wikipedia.org/wiki/Jogye_Order",
+      },
+      {
+        index: 2,
+        sourceTitle: "Jinul — Encyclopedia article",
+        sourceUrl: "https://en.wikipedia.org/wiki/Jinul",
+      },
+      {
+        index: 3,
+        sourceTitle: "Gyeongheo — Encyclopedia article",
+        sourceUrl: "https://en.wikipedia.org/wiki/Gyeongheo",
+      },
+      {
+        index: 4,
+        sourceTitle: "Mangong (Korean Seon) — Encyclopedia article",
+        sourceUrl: "https://en.wikipedia.org/wiki/Mangong",
+      },
+      {
+        index: 5,
+        sourceTitle: "Seongcheol — Encyclopedia article",
+        sourceUrl: "https://en.wikipedia.org/wiki/Seongcheol",
+      },
+    ],
     keyTexts: [
       {
         title: "Admonitions to Beginners",
@@ -1506,9 +2073,35 @@ const SCHOOL_DEFINITIONS: SchoolDefinition[] = [
     aliases: ["kwan um", "kwan um school", "kwan um school of zen"],
     nativeNames: { ko: "관음선종", zh: "觀音禪宗" },
     summary:
-      "The Kwan Um School of Zen is an international Seon organization founded in 1983 by the Korean master Seung Sahn (1927–2004), who was among the first Korean Zen teachers to establish a major presence in the West. The school's name refers to Gwaneum (Avalokiteshvara), the bodhisattva of compassion. Seung Sahn's teaching style combined the rigor of traditional Korean hwadu practice with a direct, humorous, and accessible approach adapted for Western students. His famous kong-an (koan) interviews, often beginning with 'What is this?', became the school's hallmark. The Kwan Um School maintains over a hundred Zen centers and groups across North America, Europe, Asia, and Africa, making it one of the most geographically widespread Zen organizations in the world.",
+      "The Kwan Um School of Zen is an international Seon organization founded in 1983 by the Korean master Seung Sahn (1927–2004), who was among the first Korean Zen teachers to establish a major presence in the West[1][2]. The school's name refers to Gwaneum (Avalokiteshvara), the bodhisattva of compassion[2]. Seung Sahn's teaching style combined the rigor of traditional Korean hwadu practice with a direct, humorous, and accessible approach adapted for Western students[1]. His famous kong-an (koan) interviews, often beginning with 'What is this?', became the school's hallmark[3]. The Kwan Um School maintains over a hundred Zen centers and groups across North America, Europe, Asia, and Africa, making it one of the most geographically widespread Zen organizations in the world[2].",
     practice:
-      "Kwan Um practice centers on kong-an (公案) interviews and Seung Sahn’s teaching of ‘don’t-know mind,’ which reframes traditional hwadu intensity in simple, portable language. Students work with questions such as ‘What is this?’ or ‘What am I?’ in seated practice, but their understanding is regularly tested in kong-an interviews where responsiveness matters more than conceptual explanation. Daily forms usually include zazen, chanting, and 108 prostrations, while Yong Maeng Jong Jin retreats reproduce the concentrated atmosphere of Korean intensive practice in formats accessible to lay communities. The school’s distinctiveness lies in combining traditional Seon rigor with unusually direct and global teaching forms.",
+      "Kwan Um practice centers on kong-an (公案) interviews and Seung Sahn’s teaching of ‘don’t-know mind,’ which reframes traditional hwadu intensity in simple, portable language[3]. Students work with questions such as ‘What is this?’ or ‘What am I?’ in seated practice, but their understanding is regularly tested in kong-an interviews where responsiveness matters more than conceptual explanation. Daily forms usually include zazen, chanting, and 108 prostrations, while Yong Maeng Jong Jin retreats reproduce the concentrated atmosphere of Korean intensive practice in formats accessible to lay communities[2]. The school’s distinctiveness lies in combining traditional Seon rigor with unusually direct and global teaching forms.",
+    mastersIntro:
+      "Seung Sahn (1927–2004) trained in Korea under Kobong Sunim, who gave him inka in 1949, making him one of the youngest dharma heirs in modern Korean Buddhism[1]. He arrived in Providence, Rhode Island in 1972 and worked initially in a laundromat before founding the Providence Zen Center, which became the head temple of the Kwan Um School when the international order was incorporated in 1983[1][2]. His senior Western students received transmission as Ji Do Poep Sa Nim (‘Dharma Master’) before the more senior title of Soen Sa Nim (‘Zen Master’); among the most prominent are the late Zen Master Su Bong (Mu Deung Sunim, 1943–1994), Zen Master Wu Kwang (Richard Shrobe), Zen Master Bon Soeng (Jeff Kitzes), and Zen Master Bon Yeon (Jane Dobisz)[2]. Many of Seung Sahn’s root teachers and contemporaries — including Mangong Wolmyeon and Hyobong Sunim — appear in the broader Korean Seon tradition that Kwan Um inherits[4].",
+    footnotes: [
+      {
+        index: 1,
+        sourceTitle: "Seung Sahn — Encyclopedia article",
+        sourceUrl: "https://en.wikipedia.org/wiki/Seungsahn",
+      },
+      {
+        index: 2,
+        sourceTitle: "Kwan Um School of Zen — About",
+        sourceUrl: "https://kwanumzen.org/about",
+        author: "Kwan Um School of Zen",
+      },
+      {
+        index: 3,
+        sourceTitle: "The Compass of Zen",
+        author: "Seung Sahn",
+        sourceUrl: "https://www.shambhala.com/the-compass-of-zen.html",
+      },
+      {
+        index: 4,
+        sourceTitle: "Korean Seon — Encyclopedia article",
+        sourceUrl: "https://en.wikipedia.org/wiki/Seon_Buddhism",
+      },
+    ],
     keyTexts: [
       {
         title: "Dropping Ashes on the Buddha",
@@ -1565,9 +2158,21 @@ const SCHOOL_DEFINITIONS: SchoolDefinition[] = [
     aliases: ["taego", "taego order", "태고종"],
     nativeNames: { ko: "태고종", zh: "太古宗" },
     summary:
-      "The Taego Order (太古宗, 태고종) is the second largest Buddhist order in Korea, tracing its lineage to Taego Bou (1301–1382), a Goryeo dynasty master who received dharma transmission in the Linji lineage from the Chinese master Shiwu Qinggong (Stonehouse). Unlike the celibate Jogye Order, the Taego Order permits married clergy, a practice that became widespread during the Japanese colonial period (1910–1945) when Japanese Buddhist customs were imposed on Korean monastics. After Korean independence, the Buddhist community split over the issue of married clergy, with the celibate monks reconstituting as the Jogye Order and the married clergy organizing as the Taego Order. Despite this institutional distinction, both orders maintain the same fundamental Seon practice tradition rooted in hwadu meditation.",
+      "The Taego Order (太古宗, 태고종) is the second largest Buddhist order in Korea, tracing its lineage to Taego Bou (1301–1382), a Goryeo dynasty master who received dharma transmission in the Linji lineage from the Chinese master Shiwu Qinggong (Stonehouse)[1]. Unlike the celibate Jogye Order, the Taego Order permits married clergy, a practice that became widespread during the Japanese colonial period (1910–1945) when Japanese Buddhist customs were imposed on Korean monastics[2]. After Korean independence, the Buddhist community split over the issue of married clergy, with the celibate monks reconstituting as the Jogye Order and the married clergy organizing as the Taego Order[2]. Despite this institutional distinction, both orders maintain the same fundamental Seon practice tradition rooted in hwadu meditation.",
     practice:
-      "The Taego Order practices the same core hwadu meditation as the Jogye Order, investigating a critical phrase under a teacher’s guidance until discriminating thought weakens and direct knowing becomes possible. Its distinctive feature is not a different meditation method but a different institutional setting: because married clergy are permitted, rigorous Seon practice is often integrated with parish life, ritual duties, and family responsibilities. This gives Taego training a more visibly pastoral and public form while retaining the same Linji-derived contemplative backbone. The order therefore preserves classical Korean Seon methods in a clergy model that differs sharply from Jogye celibate monasticism.",
+      "The Taego Order practices the same core hwadu meditation as the Jogye Order, investigating a critical phrase under a teacher’s guidance until discriminating thought weakens and direct knowing becomes possible[2]. Its distinctive feature is not a different meditation method but a different institutional setting: because married clergy are permitted, rigorous Seon practice is often integrated with parish life, ritual duties, and family responsibilities. This gives Taego training a more visibly pastoral and public form while retaining the same Linji-derived contemplative backbone. The order therefore preserves classical Korean Seon methods in a clergy model that differs sharply from Jogye celibate monasticism.",
+    footnotes: [
+      {
+        index: 1,
+        sourceTitle: "Taego Bou — Encyclopedia article",
+        sourceUrl: "https://en.wikipedia.org/wiki/Taego_Bou",
+      },
+      {
+        index: 2,
+        sourceTitle: "Taego Order — Encyclopedia article",
+        sourceUrl: "https://en.wikipedia.org/wiki/Taego_Order",
+      },
+    ],
     keyTexts: [
       {
         title: "Record of Taego",
@@ -1602,9 +2207,26 @@ const SCHOOL_DEFINITIONS: SchoolDefinition[] = [
     aliases: ["obaku", "ōbaku", "obaku zen", "黄檗宗"],
     nativeNames: { ja: "黄檗宗" },
     summary:
-      "The Ōbaku school (黄檗宗) is the third major school of Japanese Zen, founded in 1661 by the Chinese Chan master Ingen Ryūki (Yinyuan Longqi, 1592–1673), who brought late-Ming Chinese Linji Chan to Japan. Named after Huangbo (Ōbaku) Mountain—the monastery of the great Tang dynasty master Huangbo Xiyun—the school established its headquarters at Manpuku-ji in Uji, near Kyoto. The Ōbaku school is distinctive for preserving Chinese liturgical forms, including the recitation of the nembutsu (nianfo) alongside Zen meditation, reflecting the syncretic Chan-Pure Land practice that had become standard in late-Ming China. The school also introduced Ming dynasty architectural styles, calligraphy, painting, and the sencha tea ceremony to Japan, profoundly influencing Japanese culture. Tetsugen Dōkō, a prominent figure in the early Ōbaku school (dharma heir of Muan Xingtao), is celebrated for his monumental project of carving the entire Chinese Buddhist canon (Ōbaku edition of the Tripitaka) in woodblock, a feat of devotion that took over a decade.",
+      "The Ōbaku school (黄檗宗) is the third major school of Japanese Zen, founded in 1661 by the Chinese Chan master Ingen Ryūki (Yinyuan Longqi, 1592–1673), who brought late-Ming Chinese Linji Chan to Japan[1]. Named after Huangbo (Ōbaku) Mountain—the monastery of the great Tang dynasty master Huangbo Xiyun—the school established its headquarters at Manpuku-ji in Uji, near Kyoto[1][2]. The Ōbaku school is distinctive for preserving Chinese liturgical forms, including the recitation of the nembutsu (nianfo) alongside Zen meditation, reflecting the syncretic Chan-Pure Land practice that had become standard in late-Ming China[2]. The school also introduced Ming dynasty architectural styles, calligraphy, painting, and the sencha tea ceremony to Japan, profoundly influencing Japanese culture[2]. Tetsugen Dōkō, a prominent figure in the early Ōbaku school (dharma heir of Muan Xingtao), is celebrated for his monumental project of carving the entire Chinese Buddhist canon (Ōbaku edition of the Tripitaka) in woodblock, a feat of devotion that took over a decade[3].",
     practice:
-      "Ōbaku practice combines Chan-style zazen with recitation of the nembutsu (南無阿弥陀仏), preserving the Chan-Pure Land synthesis common in late-Ming Chinese Buddhism rather than the more sharply differentiated Japanese Zen style. Recitation is not treated as merely devotional: it can become a contemplative pivot when joined to the question ‘Who is it that recites the Buddha’s name?’ so that nembutsu and meditative inquiry reinforce each other. The school also maintains a distinctive liturgical, musical, and monastic culture inherited from Ming China, giving practice a strongly communal and ceremonial character. In Ōbaku, seated meditation, chanting, ritual form, and Pure Land invocation belong to one integrated discipline.",
+      "Ōbaku practice combines Chan-style zazen with recitation of the nembutsu (南無阿弥陀仏), preserving the Chan-Pure Land synthesis common in late-Ming Chinese Buddhism rather than the more sharply differentiated Japanese Zen style[2]. Recitation is not treated as merely devotional: it can become a contemplative pivot when joined to the question ‘Who is it that recites the Buddha’s name?’ so that nembutsu and meditative inquiry reinforce each other. The school also maintains a distinctive liturgical, musical, and monastic culture inherited from Ming China, giving practice a strongly communal and ceremonial character. In Ōbaku, seated meditation, chanting, ritual form, and Pure Land invocation belong to one integrated discipline.",
+    footnotes: [
+      {
+        index: 1,
+        sourceTitle: "Ingen — Encyclopedia article",
+        sourceUrl: "https://en.wikipedia.org/wiki/Ingen",
+      },
+      {
+        index: 2,
+        sourceTitle: "Ōbaku — Encyclopedia article",
+        sourceUrl: "https://en.wikipedia.org/wiki/%C5%8Cbaku",
+      },
+      {
+        index: 3,
+        sourceTitle: "Tetsugen Dōkō — Encyclopedia article",
+        sourceUrl: "https://en.wikipedia.org/wiki/Tetsugen_D%C5%8Dk%C5%8D",
+      },
+    ],
     keyTexts: [
       {
         title: "Ōbaku Shingi",
@@ -1663,7 +2285,14 @@ const SCHOOL_DEFINITIONS: SchoolDefinition[] = [
     tradition: "Zen",
     aliases: ["other"],
     summary:
-      "This category includes significant figures in Chan and Zen history who do not fit neatly into the major school classifications. Among them are Layman Pang Yun, one of the greatest lay practitioners in Chan history, whose dialogues with Mazu Daoyi and Shitou Xiqian demonstrate that awakening is not confined to the monastic institution. Other figures include precursors and contemporaries of the Five Houses whose lineages developed independently or whose school affiliation is ambiguous in the historical sources.",
+      "This category includes significant figures in Chan and Zen history who do not fit neatly into the major school classifications. Among them are Layman Pang Yun, one of the greatest lay practitioners in Chan history, whose dialogues with Mazu Daoyi and Shitou Xiqian demonstrate that awakening is not confined to the monastic institution[1]. Other figures include precursors and contemporaries of the Five Houses whose lineages developed independently or whose school affiliation is ambiguous in the historical sources.",
+    footnotes: [
+      {
+        index: 1,
+        sourceTitle: "Layman Pang — Encyclopedia article",
+        sourceUrl: "https://en.wikipedia.org/wiki/Layman_Pang",
+      },
+    ],
   },
 ];
 
