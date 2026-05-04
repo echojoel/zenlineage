@@ -134,7 +134,7 @@ export const masterTemples = sqliteTable(
 export const teachings = sqliteTable("teachings", {
   id: text("id").primaryKey(),
   slug: text("slug").notNull().unique(),
-  type: text("type"),
+  type: text("type"), // "koan" | "saying" | "verse" | "sermon" | "dialogue" | "proverb" | "work" | "practice-instruction"
   authorId: text("author_id").references(() => masters.id),
   collection: text("collection"),
   era: text("era"),
