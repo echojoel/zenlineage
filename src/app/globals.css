@@ -1303,6 +1303,11 @@ a.footnote-source-link:hover {
 .detail-name-row > *,
 .detail-actions > *,
 .detail-source-heading > *,
+.detail-source-list > li,
+.detail-link-list > li,
+.timeline-masters > *,
+.timeline-schools > *,
+.timeline-master-link > *,
 .page-header > *,
 .proverb-attribution > *,
 .proverb-tags > * {
@@ -1316,10 +1321,32 @@ a.footnote-source-link:hover {
 .detail-subtitle,
 .detail-section-title,
 .detail-subsection-title,
+.detail-source-heading,
+.detail-source-link,
+.detail-inline-link,
+.detail-link-list a,
+.detail-link-list li,
+.detail-source-list li,
 .detail-muted,
+.timeline-entry-content h3,
+.timeline-entry-content p,
+.timeline-master-name,
+.timeline-school-tag,
+.timeline-cite,
 .proverb-content,
-.proverb-attribution {
+.proverb-attribution,
+.proverb-theme-tag,
+.figure-credit {
   overflow-wrap: anywhere;
+}
+
+/* Long URLs in source links and external references can't rely on word
+ * boundaries — Firefox keeps them as a single unbreakable token unless
+ * `word-break: break-word` is also set. */
+.detail-source-link,
+.footnote-source-link,
+.detail-source-list a {
+  word-break: break-word;
 }
 
 .proverb-attribution {
