@@ -1728,28 +1728,35 @@ Yokaku's place in the Soto lineage reflects the tradition's organic growth acros
   },
   {
     slug: "raphael-doko-triet",
-    content: `Raphaël Dōkō Triet (b. 1950) is a French Sōtō Zen monk in the Deshimaru lineage and abbot of Templo Zen Seikyūji near Seville, Spain[1]. He began zazen with Taisen Deshimaru at the Paris dōjō in 1971 and was ordained as a monk in 1973[1]. He led the Paris dōjō from 1990 to 1997 and presided over the Association Zen Internationale (AZI) from 2004 to 2013[1]. In 1995 he settled in Spain, and in 1997 he founded the Centre Zen de Lisboa (Dōjō Zen de Lisboa, Ryumonji) in Portugal[2]. He received Dharma transmission (shihō) from Master Yūkō Okamoto — a close disciple of Deshimaru — in 1997[1].
+    content: `Raphaël Dōkō Triet (b. 1950, Paris) is a French Sōtō Zen monk in the lineage of Taisen Deshimaru and abbot of the Seikyūji temple near Morón de la Frontera, Andalusia[1]. He began practising zazen in 1971 at the Paris dōjō with Deshimaru, who ordained him as a monk in 1973, and became one of Deshimaru's close disciples in the founding Paris sangha[2][3].
 
-Triet's teaching continues Deshimaru's emphasis on zazen as the heart of Sōtō practice, transmitted through kusen (oral teaching during seated meditation) and the unity of practice on and off the cushion. As abbot of Seikyūji and a senior figure in AZI, he is one of the principal European Sōtō teachers responsible for stabilising the tradition Deshimaru transplanted to Europe and continuing its transmission into the second and third generations[3].`,
+After Deshimaru's death in 1982, Triet helped continue the line of teaching Deshimaru had established in Europe. He served as president of the Paris dōjō from 1990 to 1995 and as editor-in-chief of the Revue Zen — the magazine of the Association Zen Internationale (AZI) — from around 1990 to 2002, shaping much of the written teaching available to the European sangha[3]. He received Dharma transmission (shihō) in 1998 from Master Yūkō Okamoto, a Japanese Sōtō master and close associate of both Deshimaru and Kōdō Sawaki, formally confirming his place in the Sōtō lineage[2][3].
+
+Triet moved to Spain in 1995 and, in 1997, founded the Centro Zen de Lisboa (Dōjō Zen de Lisboa, Ryumonji), establishing a Deshimaru-line Sōtō presence on the Iberian Peninsula[4]. From 2004 to 2013 he led the AZI at the international level, and from 2012 to 2015 he served as abbot of the Temple Zen de La Gendronnière in France — the principal European temple founded by Deshimaru[3]. He currently leads sesshin and ango at Seikyūji and teaches regularly in Spain, Portugal, France, Quebec, and Sweden[1][2].
+
+His teaching follows Deshimaru's "vrai zen": zazen as the heart of practice, integrated with meals, work, and ordinary relationships rather than confined to ritual or monastic settings. In kusen and teisho he draws on classical authors such as Wanshi, Dōgen, and Ryōkan, using sober and concrete imagery to address illusion, suffering, and the margin between conditioned life and freedom[1][3]. Among his disciples is Yves Shoshin Crettaz, who accompanied him to Portugal in the late 1990s and received Dharma transmission from him in 2013[4].`,
     footnotes: [
       {
         index: 1,
-        sourceId: "src_azi",
-        pageOrSection: "AZI — Maître Raphaël Dôkô Triet",
-        excerpt:
-          "Né en 1950, il commence la pratique du zen avec Maître Taisen Deshimaru au Dojo de Paris en 1971; ordonné moine en 1973; reçoit le Shihō de Maître Yūkō Okamoto en 1997.",
+        sourceId: "src_seikyuji",
+        pageOrSection: "Seikyuji — Raphaël Doko Triet (abbot biography)",
       },
       {
         index: 2,
         sourceId: "src_azi",
-        pageOrSection: "Centre zen de Lisboa — fiche dōjō",
+        pageOrSection: "AZI — Maître Raphaël Dôkô Triet",
         excerpt:
-          "Le dōjō de Lisbonne a été créé en 1997 par le moine Raphaël Doko Triet.",
+          "Né en 1950, il commence la pratique du zen avec Maître Taisen Deshimaru au Dojo de Paris en 1971; ordonné moine en 1973; reçoit le Shihō de Maître Yūkō Okamoto en 1998.",
       },
       {
         index: 3,
-        sourceId: "src_sotozen_europe",
-        pageOrSection: "Spain — Templo Zen Seikyūji",
+        sourceId: "src_zen_mataro",
+        pageOrSection: "Zen Mataró — Raphaël Doko Triet (institutional roles, Revue Zen, La Gendronnière)",
+      },
+      {
+        index: 4,
+        sourceId: "src_dojo_zen_lisboa",
+        pageOrSection: "Mestres — founding of the Lisbon dōjō and transmission to Yves Shoshin Crettaz",
       },
     ],
   },
@@ -1901,9 +1908,37 @@ Kozan's place in the Soto lineage represents the tradition's ongoing adaptation 
   },
   {
     slug: "yves-shoshin-crettaz",
-    content: `Yves Shoshin Crettaz is a Swiss-born Soto Zen teacher who leads the Lisbon dojo and practices in the lineage of Taisen Deshimaru. His direct teacher is Raphaël Dōkō Triet, through whom he received the dharma name Shoshin—meaning "beginner's mind." He has dedicated himself to the practice and transmission of zazen in the European Soto tradition.
+    content: `Yves Shoshin Crettaz (b. 1946, Switzerland) is a Sōtō Zen monk in the lineage of Taisen Deshimaru and the responsible teacher of the Centro Zen de Lisboa (Ryumonji) and several associated zazen groups in Portugal[1]. Originally from the canton of Valais, he studied philosophy and worked as a teacher, trade unionist, and journalist before dedicating himself fully to Zen[1].
 
-Leading the Lisbon dojo, Crettaz has helped extend the reach of the European Soto tradition into the Iberian Peninsula, demonstrating that the practice of zazen can take root in new cultural contexts while maintaining its essential character. His teaching continues the emphasis on shikantaza, kusen, and the spirit of mushotoku that define the Deshimaru lineage. Through his work in Lisbon, Crettaz contributes to the ongoing growth of a genuinely international Soto Zen practice, grounded in the daily discipline of sitting and the transmission of the Dharma from teacher to student.`,
+Crettaz was ordained as a Zen monk in 1988 and trained for decades under his teacher Raphaël Dōkō Triet, a close disciple of Taisen Deshimaru. He received Dharma transmission (shihō) from Triet in 2013, confirming him as an authorised successor in the European Sōtō tradition[1]. In 1997 he moved to Portugal with Triet to establish Zen practice there. He has been responsible for the Lisbon dojo since 2005 and has served as president of the União Budista Portuguesa[1][2].
+
+Beyond Lisbon, Crettaz sits on the board of the Association Zen Internationale (AZI), is one of the responsible teachers for the Seikyuji temple near Seville, and represents the Lisbon dojo in the Sōtō Zen Buddhism Europe Office[2]. His teaching emphasises shikantaza, the spirit of mushotoku, and the practice of the present instant, in continuity with the kusen tradition of Deshimaru.
+
+His written work includes the book *O Gosto Simples da Vida*[3] and a study, "The Young Dōgen in China," circulated through AZI[4], which traces Dōgen Zenji's formative years of Chan training before his return to Japan and the founding of Eihei-ji.`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_dojo_zen_lisboa",
+        pageOrSection: "Mestres — biographical entry for Yves Shoshin Crettaz",
+        excerpt:
+          "Born 1946 in Valais; studied philosophy; worked as teacher, trade unionist, and journalist; ordained 1988; received shihō from Raphaël Dōkō Triet in 2013; responsible for the Lisbon dojo since 2005.",
+      },
+      {
+        index: 2,
+        sourceId: "src_azi_lisbon",
+        pageOrSection: "Association Zen Internationale — Lisbon center listing",
+      },
+      {
+        index: 3,
+        sourceId: "src_ysc_gosto_simples",
+        pageOrSection: "Monograph by Yves Shoshin Crettaz",
+      },
+      {
+        index: 4,
+        sourceId: "src_ysc_young_dogen_pdf",
+        pageOrSection: "AZI document 100-2020 (PDF)",
+      },
+    ],
   },
   {
     slug: "zoden-yoko",

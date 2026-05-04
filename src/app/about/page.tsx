@@ -140,24 +140,6 @@ export default function AboutPage() {
         </section>
 
         <section className="detail-card">
-          <div className="detail-summary">
-            <p>
-              My name is Joel. I practice zazen. I wanted to understand how the schools and lineages
-              connect, so I built this. The project is{" "}
-              <a
-                href="https://github.com/echojoel/zenlineage"
-                className="detail-inline-link"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                open source
-              </a>{" "}
-              and open to correction &mdash; if something is wrong, please open an issue.
-            </p>
-          </div>
-        </section>
-
-        <section className="detail-card">
           <h3 className="detail-section-title">What is Zen?</h3>
           <div className="detail-summary">
             <p>
@@ -719,7 +701,7 @@ export default function AboutPage() {
               </div>
               <p className="detail-source-excerpt">
                 Addiss, Stephen.{" "}
-                <em>The Art of Zen: Paintings and Calligraphy by Japanese Monks 1600&ndash;1925</em>
+                <em><a href="https://en.wikipedia.org/wiki/Zen_painting" className="detail-inline-link" target="_blank" rel="noopener noreferrer">The Art of Zen: Paintings and Calligraphy by Japanese Monks 1600&ndash;1925</a></em>
                 . New York: Harry N. Abrams, 1989.
               </p>
             </li>
@@ -728,7 +710,7 @@ export default function AboutPage() {
                 <span>Monograph</span>
               </div>
               <p className="detail-source-excerpt">
-                Aitken, Robert. <em>The Gateless Barrier: The Wu-Men Kuan (Mumonkan)</em>. San
+                Aitken, Robert. <em><a href="https://en.wikipedia.org/wiki/Robert_Baker_Aitken" className="detail-inline-link" target="_blank" rel="noopener noreferrer">The Gateless Barrier: The Wu-Men Kuan (Mumonkan)</a></em>. San
                 Francisco: North Point Press, 1991.
               </p>
             </li>
@@ -738,7 +720,7 @@ export default function AboutPage() {
               </div>
               <p className="detail-source-excerpt">
                 Broughton, Jeffrey L.{" "}
-                <em>The Bodhidharma Anthology: The Earliest Records of Zen</em>. Berkeley:
+                <em><a href="https://en.wikipedia.org/wiki/Bodhidharma" className="detail-inline-link" target="_blank" rel="noopener noreferrer">The Bodhidharma Anthology: The Earliest Records of Zen</a></em>. Berkeley:
                 University of California Press, 1999.
               </p>
             </li>
@@ -748,7 +730,7 @@ export default function AboutPage() {
               </div>
               <p className="detail-source-excerpt">
                 Chadwick, David.{" "}
-                <em>Crooked Cucumber: The Life and Zen Teaching of Shunryu Suzuki</em>. New York:
+                <em><a href="https://en.wikipedia.org/wiki/Shunry%C5%AB_Suzuki" className="detail-inline-link" target="_blank" rel="noopener noreferrer">Crooked Cucumber: The Life and Zen Teaching of Shunryu Suzuki</a></em>. New York:
                 Broadway Books, 1999.
               </p>
             </li>
@@ -757,7 +739,7 @@ export default function AboutPage() {
                 <span>Translation</span>
               </div>
               <p className="detail-source-excerpt">
-                Cleary, Thomas, and J.C. Cleary, trans. <em>The Blue Cliff Record</em>. Boston:
+                Cleary, Thomas, and J.C. Cleary, trans. <em><a href="https://en.wikipedia.org/wiki/The_Blue_Cliff_Record" className="detail-inline-link" target="_blank" rel="noopener noreferrer">The Blue Cliff Record</a></em>. Boston:
                 Shambhala, 1977.
               </p>
             </li>
@@ -766,7 +748,7 @@ export default function AboutPage() {
                 <span>Biography</span>
               </div>
               <p className="detail-source-excerpt">
-                de Coulon, Jacques. <em>Maître Deshimaru: Biographie</em>. Paris: Éditions du Relié,
+                de Coulon, Jacques. <em><a href="https://en.wikipedia.org/wiki/Taisen_Deshimaru" className="detail-inline-link" target="_blank" rel="noopener noreferrer">Maître Deshimaru: Biographie</a></em>. Paris: Éditions du Relié,
                 2009.
               </p>
             </li>
@@ -776,7 +758,7 @@ export default function AboutPage() {
               </div>
               <p className="detail-source-excerpt">
                 Dōgen Zenji.{" "}
-                <em>Treasury of the True Dharma Eye: Zen Master Dōgen&rsquo;s Shōbōgenzō</em>.
+                <em><a href="https://www.shambhala.com/treasury-of-the-true-dharma-eye-1450.html" className="detail-inline-link" target="_blank" rel="noopener noreferrer">Treasury of the True Dharma Eye: Zen Master Dōgen&rsquo;s Shōbōgenzō</a></em>.
                 Edited by Kazuaki Tanahashi. Boston: Shambhala, 2010.
               </p>
             </li>
@@ -785,7 +767,7 @@ export default function AboutPage() {
                 <span>Monograph</span>
               </div>
               <p className="detail-source-excerpt">
-                Dumoulin, Heinrich. <em>Zen Buddhism: A History. Vol. 1, India and China</em>.
+                Dumoulin, Heinrich. <em><a href="https://wisdomexperience.org/product/zen-buddhism-a-history-volume-1/" className="detail-inline-link" target="_blank" rel="noopener noreferrer">Zen Buddhism: A History. Vol. 1, India and China</a></em>.
                 Translated by James W. Heisig and Paul Knitter. Bloomington: World Wisdom, 2005.
               </p>
             </li>
@@ -794,7 +776,7 @@ export default function AboutPage() {
                 <span>Monograph</span>
               </div>
               <p className="detail-source-excerpt">
-                Dumoulin, Heinrich. <em>Zen Buddhism: A History. Vol. 2, Japan</em>. Translated by
+                Dumoulin, Heinrich. <em><a href="https://wisdomexperience.org/product/zen-buddhism-a-history-volume-2/" className="detail-inline-link" target="_blank" rel="noopener noreferrer">Zen Buddhism: A History. Vol. 2, Japan</a></em>. Translated by
                 James W. Heisig and Paul Knitter. Bloomington: World Wisdom, 2005.
               </p>
             </li>
@@ -804,7 +786,7 @@ export default function AboutPage() {
               </div>
               <p className="detail-source-excerpt">
                 Faure, Bernard.{" "}
-                <em>The Rhetoric of Immediacy: A Cultural Critique of Chan/Zen Buddhism</em>.
+                <em><a href="https://en.wikipedia.org/wiki/Bernard_Faure" className="detail-inline-link" target="_blank" rel="noopener noreferrer">The Rhetoric of Immediacy: A Cultural Critique of Chan/Zen Buddhism</a></em>.
                 Princeton: Princeton University Press, 1991.
               </p>
             </li>
@@ -814,7 +796,7 @@ export default function AboutPage() {
               </div>
               <p className="detail-source-excerpt">
                 Gregory, Peter N., ed.{" "}
-                <em>Sudden and Gradual: Approaches to Enlightenment in Chinese Thought</em>.
+                <em><a href="https://en.wikipedia.org/wiki/Subitism" className="detail-inline-link" target="_blank" rel="noopener noreferrer">Sudden and Gradual: Approaches to Enlightenment in Chinese Thought</a></em>.
                 Honolulu: University of Hawai&rsquo;i Press, 1987.
               </p>
             </li>
@@ -825,7 +807,7 @@ export default function AboutPage() {
               <p className="detail-source-excerpt">
                 Mohr, Michel. &ldquo;Hakuin&rsquo;s Daruma: Negotiating Zen, Art and
                 Iconography.&rdquo; In Steven Heine and Dale S. Wright, eds.,{" "}
-                <em>The Kōan: Texts and Contexts in Zen Buddhism</em>. Oxford: Oxford University
+                <em><a href="https://global.oup.com/academic/product/the-koan-9780195117486" className="detail-inline-link" target="_blank" rel="noopener noreferrer">The Kōan: Texts and Contexts in Zen Buddhism</a></em>. Oxford: Oxford University
                 Press, 2000, pp. 84&ndash;109.
               </p>
             </li>
@@ -835,7 +817,7 @@ export default function AboutPage() {
               </div>
               <p className="detail-source-excerpt">
                 Leighton, Taigen Dan.{" "}
-                <em>Zen&rsquo;s Chinese Heritage: The Masters and Their Teachings</em>. Boston:
+                <em><a href="https://wisdomexperience.org/product/zens-chinese-heritage/" className="detail-inline-link" target="_blank" rel="noopener noreferrer">Zen&rsquo;s Chinese Heritage: The Masters and Their Teachings</a></em>. Boston:
                 Wisdom Publications, 2000.
               </p>
             </li>
@@ -846,8 +828,10 @@ export default function AboutPage() {
               <p className="detail-source-excerpt">
                 McRae, John R.{" "}
                 <em>
-                  Seeing Through Zen: Encounter, Transformation, and Genealogy in Chinese Chan
-                  Buddhism
+                  <a href="https://www.ucpress.edu/book/9780520237988/seeing-through-zen" className="detail-inline-link" target="_blank" rel="noopener noreferrer">
+                    Seeing Through Zen: Encounter, Transformation, and Genealogy in Chinese Chan
+                    Buddhism
+                  </a>
                 </em>
                 . Berkeley: University of California Press, 2003.
               </p>
@@ -859,7 +843,9 @@ export default function AboutPage() {
               <p className="detail-source-excerpt">
                 Poceski, Mario.{" "}
                 <em>
-                  Ordinary Mind as the Way: The Hongzhou School and the Growth of Chan Buddhism
+                  <a href="https://en.wikipedia.org/wiki/Hongzhou_school" className="detail-inline-link" target="_blank" rel="noopener noreferrer">
+                    Ordinary Mind as the Way: The Hongzhou School and the Growth of Chan Buddhism
+                  </a>
                 </em>
                 . Oxford: Oxford University Press, 2007.
               </p>
@@ -869,7 +855,7 @@ export default function AboutPage() {
                 <span>Translation</span>
               </div>
               <p className="detail-source-excerpt">
-                Red Pine (Bill Porter). <em>The Heart Sutra: The Womb of Buddhas</em>. Washington,
+                Red Pine (Bill Porter). <em><a href="https://en.wikipedia.org/wiki/Heart_Sutra" className="detail-inline-link" target="_blank" rel="noopener noreferrer">The Heart Sutra: The Womb of Buddhas</a></em>. Washington,
                 DC: Shoemaker &amp; Hoard, 2004.
               </p>
             </li>
@@ -879,7 +865,7 @@ export default function AboutPage() {
               </div>
               <p className="detail-source-excerpt">
                 Sharf, Robert H. &ldquo;The Zen of Japanese Nationalism.&rdquo; In Donald S. Lopez
-                Jr., ed., <em>Curators of the Buddha: The Study of Buddhism Under Colonialism</em>.
+                Jr., ed., <em><a href="https://en.wikipedia.org/wiki/Robert_H._Sharf" className="detail-inline-link" target="_blank" rel="noopener noreferrer">Curators of the Buddha: The Study of Buddhism Under Colonialism</a></em>.
                 Chicago: University of Chicago Press, 1995, pp. 107&ndash;160.
               </p>
             </li>
@@ -888,7 +874,7 @@ export default function AboutPage() {
                 <span>Monograph</span>
               </div>
               <p className="detail-source-excerpt">
-                Suzuki, Shunryū. <em>Zen Mind, Beginner&rsquo;s Mind</em>. Edited by Trudy Dixon.
+                Suzuki, Shunryū. <em><a href="https://en.wikipedia.org/wiki/Zen_Mind,_Beginner%27s_Mind" className="detail-inline-link" target="_blank" rel="noopener noreferrer">Zen Mind, Beginner&rsquo;s Mind</a></em>. Edited by Trudy Dixon.
                 New York: Weatherhill, 1970.
               </p>
             </li>
@@ -899,8 +885,10 @@ export default function AboutPage() {
               <p className="detail-source-excerpt">
                 Welter, Albert.{" "}
                 <em>
-                  The Linji Lu and the Creation of Chan Orthodoxy: The Development of Chan&rsquo;s
-                  Records of Sayings Literature
+                  <a href="https://en.wikipedia.org/wiki/Linji_Yixuan" className="detail-inline-link" target="_blank" rel="noopener noreferrer">
+                    The Linji Lu and the Creation of Chan Orthodoxy: The Development of Chan&rsquo;s
+                    Records of Sayings Literature
+                  </a>
                 </em>
                 . Oxford: Oxford University Press, 2008.
               </p>
@@ -910,22 +898,47 @@ export default function AboutPage() {
                 <span>Translation</span>
               </div>
               <p className="detail-source-excerpt">
-                Yampolsky, Philip B. <em>The Platform Sutra of the Sixth Patriarch</em>. New York:
+                Yampolsky, Philip B. <em><a href="https://en.wikipedia.org/wiki/Platform_Sutra" className="detail-inline-link" target="_blank" rel="noopener noreferrer">The Platform Sutra of the Sixth Patriarch</a></em>. New York:
                 Columbia University Press, 1967.
               </p>
             </li>
           </ul>
         </section>
         <footer className="about-credit">
-          Open source on{" "}
-          <a
-            href="https://github.com/echojoel/zenlineage"
-            className="detail-inline-link"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            GitHub
-          </a>
+          <p>
+            Created by{" "}
+            <a
+              href="https://github.com/echojoel"
+              className="detail-inline-link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Joel
+            </a>
+            , student of{" "}
+            <Link className="detail-inline-link" href="/masters/yves-shoshin-crettaz">
+              Yves Shoshin Crettaz
+            </Link>
+            . A study of the Zen patriarchs —{" "}
+            <a
+              href="https://github.com/echojoel/zenlineage"
+              className="detail-inline-link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              open source
+            </a>
+            ; corrections welcome via{" "}
+            <a
+              href="https://github.com/echojoel/zenlineage/issues"
+              className="detail-inline-link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              GitHub issues
+            </a>
+            .
+          </p>
         </footer>
       </div>
     </main>
