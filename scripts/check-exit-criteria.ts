@@ -28,6 +28,20 @@ import { assessCoverageAudit } from "./coverage-audit-status";
 
 const RAW_DIR = path.join(process.cwd(), "scripts/data/raw");
 const PREVIEW_LIMIT = 10;
+const DEFAULT_IMAGE_COVERAGE_THRESHOLD = 95;
+
+function parseCoverageThreshold(): number {
+  const raw = process.env.IMAGE_COVERAGE_THRESHOLD;
+  if (raw === undefined || raw === "") return DEFAULT_IMAGE_COVERAGE_THRESHOLD;
+  const parsed = Number(raw);
+  if (!Number.isFinite(parsed) || parsed < 0 || parsed > 100) {
+    console.warn(
+      `IMAGE_COVERAGE_THRESHOLD="${raw}" is not a valid percentage; falling back to ${DEFAULT_IMAGE_COVERAGE_THRESHOLD}.`
+    );
+    return DEFAULT_IMAGE_COVERAGE_THRESHOLD;
+  }
+  return parsed;
+}
 
 interface RawDatasetAudit {
   filename: string;
@@ -226,6 +240,7 @@ async function main() {
         id: mediaAssets.id,
         entityType: mediaAssets.entityType,
         entityId: mediaAssets.entityId,
+        type: mediaAssets.type,
       })
       .from(mediaAssets),
     db
@@ -270,6 +285,24 @@ async function main() {
   );
 
   const imageIds = new Set([...mediaMasterIds]);
+
+  const citedMediaAssetIds = new Set(
+    allCitations
+      .filter((citation) => citation.entityType === "media_asset")
+      .map((citation) => citation.entityId)
+  );
+  const citedImageMasterIds = new Set(
+    allMedia
+      .filter(
+        (asset) => asset.entityType === "master" && citedMediaAssetIds.has(asset.id)
+      )
+      .map((asset) => asset.entityId)
+  );
+  const portraitMediaIds = new Set(
+    allMedia
+      .filter((asset) => asset.entityType === "master" && asset.type === "image")
+      .map((asset) => asset.entityId)
+  );
 
   const studentIds = new Set(allTransmissions.map((edge) => edge.studentId));
   const teacherIds = new Set(allTransmissions.map((edge) => edge.teacherId));
@@ -411,6 +444,20 @@ async function main() {
   printMetric(
     "Masters with images",
     `${imageIds.size} / ${totalMasters} (${formatPercent(imageIds.size, totalMasters)})`
+  );
+  printMetric(
+    "Masters with cited images",
+    `${citedImageMasterIds.size} / ${totalMasters} (${formatPercent(
+      citedImageMasterIds.size,
+      totalMasters
+    )})`
+  );
+  printMetric(
+    "Masters with real portrait",
+    `${portraitMediaIds.size} / ${totalMasters} (${formatPercent(
+      portraitMediaIds.size,
+      totalMasters
+    )})`
   );
   printMetric(
     "Contemporary masters with images",
@@ -621,6 +668,36 @@ async function main() {
       "Provenance issues",
       `${provenanceWarnings.length + provenanceErrors.length} raw datasets need attention`
     );
+  }
+
+  // ── Image-coverage gate ──────────────────────────────────────────────
+  // Hard threshold: every master must end up with a cited media asset
+  // (real portrait or name-card placeholder). Configurable via
+  // IMAGE_COVERAGE_THRESHOLD (percentage, 0–100; default 95). Set to 0
+  // to disable. Returns a non-zero exit code when coverage regresses
+  // below the threshold so CI fails noisily.
+  const threshold = parseCoverageThreshold();
+  const coveragePct = totalMasters === 0 ? 100 : (citedImageMasterIds.size / totalMasters) * 100;
+  console.log("\nImage coverage gate");
+  printMetric("Threshold", `${threshold.toFixed(1)}%`);
+  printMetric(
+    "Cited image coverage",
+    `${citedImageMasterIds.size} / ${totalMasters} (${coveragePct.toFixed(1)}%)`
+  );
+  if (threshold > 0 && coveragePct < threshold) {
+    const missingCited = allMasters
+      .filter((master) => !citedImageMasterIds.has(master.id))
+      .map((master) => master.slug)
+      .sort();
+    console.error(
+      `\nERROR: cited image coverage ${coveragePct.toFixed(1)}% is below threshold ${threshold.toFixed(1)}%.`
+    );
+    console.error(`  ${missingCited.length} masters lack a cited media_asset:`);
+    console.error(`    ${preview(missingCited)}`);
+    console.error(
+      `  Run scripts/generate-name-placeholders.ts (or land a real portrait) to restore coverage.`
+    );
+    process.exit(1);
   }
 }
 
