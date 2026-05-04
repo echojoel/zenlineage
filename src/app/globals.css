@@ -922,6 +922,8 @@ a.footnote-source-link:hover {
   line-height: 1.7;
   text-align: justify;
   overflow-wrap: anywhere;
+  hyphens: auto;
+  -webkit-hyphens: auto;
 }
 
 .detail-summary blockquote {
@@ -1370,9 +1372,9 @@ a.footnote-source-link:hover {
     padding-right: 1rem;
   }
 
-  /* Narrow-width justification creates uneven word-spacing that reads as
-   * visual noise. Fall back to left alignment below the tablet breakpoint. */
-  .detail-summary,
+  /* Citations stay left-aligned on narrow screens — short excerpts in
+   * justified mode produce awkward gaps. Body prose keeps its base
+   * justified treatment, mitigated by hyphens: auto. */
   .detail-source-excerpt {
     text-align: left;
   }
