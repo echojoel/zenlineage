@@ -31,10 +31,24 @@ import {
   CURATED_PROVERB_SOURCES,
   CURATED_PROVERBS,
   type CuratedProverb,
+  type CuratedProverbSource,
 } from "./data/curated-proverbs";
+import {
+  EXPANSION_PROVERB_SOURCES,
+  EXPANSION_PROVERBS,
+} from "./data/proverbs";
+
+const ALL_SOURCES: CuratedProverbSource[] = [
+  ...CURATED_PROVERB_SOURCES,
+  ...EXPANSION_PROVERB_SOURCES,
+];
+const ALL_PROVERBS: CuratedProverb[] = [
+  ...CURATED_PROVERBS,
+  ...EXPANSION_PROVERBS,
+];
 
 async function upsertSources(): Promise<void> {
-  for (const s of CURATED_PROVERB_SOURCES) {
+  for (const s of ALL_SOURCES) {
     const existing = await db
       .select({ id: sources.id })
       .from(sources)
@@ -53,7 +67,7 @@ async function upsertSources(): Promise<void> {
       await db.update(sources).set(values).where(eq(sources.id, s.id));
     }
   }
-  console.log(`✓ ${CURATED_PROVERB_SOURCES.length} scholarly sources upserted`);
+  console.log(`✓ ${ALL_SOURCES.length} scholarly sources upserted`);
 }
 
 async function resolveMasterId(slug: string): Promise<string | null> {
@@ -141,7 +155,7 @@ async function main() {
   await upsertSources();
 
   let seeded = 0;
-  for (const p of CURATED_PROVERBS) {
+  for (const p of ALL_PROVERBS) {
     await upsertProverb(p);
     seeded++;
   }

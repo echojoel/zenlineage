@@ -1,0 +1,263 @@
+/**
+ * Sources used to anchor the proverb-expansion batch (issue #15).
+ *
+ * License posture: every English rendering of the proverbs is editorial
+ * (cc_by, written for this project). The sources below are scholarly
+ * anchors for attribution, period, and substantive claim — not quoted at
+ * length. A handful of entries quote pre-1929 public-domain translations
+ * directly; those entries flag `licenseStatus: "public_domain"` and cite
+ * the PD edition.
+ */
+
+import type { CuratedProverbSource } from "../curated-proverbs";
+
+export const EXPANSION_SOURCES: CuratedProverbSource[] = [
+  // ─── Indian / early Buddhist ─────────────────────────────────────────
+  {
+    id: "src_dhammapada_muller_1881",
+    type: "text_edition",
+    title: "The Dhammapada (Sacred Books of the East, Vol. X)",
+    author: "Max Müller (trans.)",
+    publicationDate: "1881",
+    reliability: "scholarly",
+    url: "https://www.sacred-texts.com/bud/sbe10/index.htm",
+  },
+  {
+    id: "src_rhys_davids_buddhist_suttas_1881",
+    type: "text_edition",
+    title: "Buddhist Suttas (Sacred Books of the East, Vol. XI)",
+    author: "T. W. Rhys Davids (trans.)",
+    publicationDate: "1881",
+    reliability: "scholarly",
+    url: "https://www.sacred-texts.com/bud/sbe11/index.htm",
+  },
+  {
+    id: "src_dt_suzuki_essays_1927",
+    type: "monograph",
+    title: "Essays in Zen Buddhism, First Series",
+    author: "D. T. Suzuki",
+    publicationDate: "1927",
+    reliability: "scholarly",
+  },
+  {
+    id: "src_okakura_book_of_tea_1906",
+    type: "monograph",
+    title: "The Book of Tea",
+    author: "Kakuzō Okakura",
+    publicationDate: "1906",
+    reliability: "secondary",
+  },
+  // ─── Tang/Song Chan scholarship ──────────────────────────────────────
+  {
+    id: "src_app_yunmen",
+    type: "monograph",
+    title: "Master Yunmen: From the Record of the Chan Master 'Gate of the Clouds'",
+    author: "Urs App (trans.)",
+    publicationDate: "1994",
+    reliability: "scholarly",
+  },
+  {
+    id: "src_poceski_ordinary_mind",
+    type: "monograph",
+    title: "Ordinary Mind as the Way: The Hongzhou School and the Growth of Chan Buddhism",
+    author: "Mario Poceski",
+    publicationDate: "2007",
+    reliability: "scholarly",
+  },
+  {
+    id: "src_welter_linji",
+    type: "monograph",
+    title: "The Linji Lu and the Creation of Chan Orthodoxy",
+    author: "Albert Welter",
+    publicationDate: "2008",
+    reliability: "scholarly",
+  },
+  {
+    id: "src_schlutter_dahui",
+    type: "monograph",
+    title: "How Zen Became Zen: The Dispute Over Enlightenment and the Formation of Chan Buddhism in Song-Dynasty China",
+    author: "Morten Schlütter",
+    publicationDate: "2008",
+    reliability: "scholarly",
+  },
+  {
+    id: "src_mcrae_seeing_through_zen",
+    type: "monograph",
+    title: "Seeing Through Zen: Encounter, Transformation, and Genealogy in Chinese Chan Buddhism",
+    author: "John R. McRae",
+    publicationDate: "2003",
+    reliability: "scholarly",
+  },
+  {
+    id: "src_foulk_caodong",
+    type: "edited_chapter",
+    title: "Form and Function of Koan Literature: A Historical Overview (in The Kōan, eds. Heine & Wright)",
+    author: "T. Griffith Foulk",
+    publicationDate: "2000",
+    reliability: "scholarly",
+  },
+  {
+    id: "src_leighton_cultivating_empty_field",
+    type: "text_edition",
+    title: "Cultivating the Empty Field: The Silent Illumination of Zen Master Hongzhi",
+    author: "Taigen Dan Leighton (trans.)",
+    publicationDate: "2000",
+    reliability: "scholarly",
+  },
+  {
+    id: "src_ferguson_zen_chinese_heritage",
+    type: "monograph",
+    title: "Zen's Chinese Heritage: The Masters and Their Teachings",
+    author: "Andy Ferguson",
+    publicationDate: "2011",
+    reliability: "scholarly",
+  },
+  // ─── Japanese Zen scholarship ────────────────────────────────────────
+  {
+    id: "src_kim_dogen",
+    type: "monograph",
+    title: "Eihei Dogen: Mystical Realist",
+    author: "Hee-Jin Kim",
+    publicationDate: "2004",
+    reliability: "scholarly",
+  },
+  {
+    id: "src_bodiford_soto_medieval",
+    type: "monograph",
+    title: "Sōtō Zen in Medieval Japan",
+    author: "William M. Bodiford",
+    publicationDate: "1993",
+    reliability: "scholarly",
+  },
+  {
+    id: "src_haskel_bankei",
+    type: "text_edition",
+    title: "Bankei Zen: Translations from the Record of Bankei",
+    author: "Peter Haskel (trans.)",
+    publicationDate: "1984",
+    reliability: "scholarly",
+  },
+  {
+    id: "src_waddell_hakuin",
+    type: "text_edition",
+    title: "The Essential Teachings of Zen Master Hakuin",
+    author: "Norman Waddell (trans.)",
+    publicationDate: "2010",
+    reliability: "scholarly",
+  },
+  {
+    id: "src_arntzen_ikkyu",
+    type: "text_edition",
+    title: "Ikkyū and the Crazy Cloud Anthology",
+    author: "Sonja Arntzen (trans.)",
+    publicationDate: "1986",
+    reliability: "scholarly",
+  },
+  {
+    id: "src_dumoulin_japan_vol2",
+    type: "monograph",
+    title: "Zen Buddhism: A History — Volume 2: Japan",
+    author: "Heinrich Dumoulin",
+    publicationDate: "1990",
+    reliability: "scholarly",
+  },
+  // ─── Modern Western transmitters ─────────────────────────────────────
+  {
+    id: "src_aitken_mind_clover",
+    type: "monograph",
+    title: "The Mind of Clover: Essays in Zen Buddhist Ethics",
+    author: "Robert Aitken",
+    publicationDate: "1984",
+    reliability: "primary",
+  },
+  {
+    id: "src_glassman_bearing_witness",
+    type: "monograph",
+    title: "Bearing Witness: A Zen Master's Lessons in Making Peace",
+    author: "Bernie Glassman",
+    publicationDate: "1998",
+    reliability: "primary",
+  },
+  {
+    id: "src_loori_eight_gates",
+    type: "monograph",
+    title: "The Eight Gates of Zen: A Program of Zen Training",
+    author: "John Daido Loori",
+    publicationDate: "2002",
+    reliability: "primary",
+  },
+  {
+    id: "src_beck_everyday_zen",
+    type: "monograph",
+    title: "Everyday Zen: Love and Work",
+    author: "Charlotte Joko Beck",
+    publicationDate: "1989",
+    reliability: "primary",
+  },
+  {
+    id: "src_katagiri_returning_silence",
+    type: "monograph",
+    title: "Returning to Silence: Zen Practice in Daily Life",
+    author: "Dainin Katagiri",
+    publicationDate: "1988",
+    reliability: "primary",
+  },
+  {
+    id: "src_kennett_zen_eternal",
+    type: "monograph",
+    title: "Zen is Eternal Life",
+    author: "Jiyu-Kennett",
+    publicationDate: "1999",
+    reliability: "primary",
+  },
+  {
+    id: "src_chadwick_crooked_cucumber",
+    type: "monograph",
+    title: "Crooked Cucumber: The Life and Zen Teaching of Shunryu Suzuki",
+    author: "David Chadwick",
+    publicationDate: "1999",
+    reliability: "scholarly",
+  },
+  {
+    id: "src_deshimaru_zen_way_to_martial_arts",
+    type: "monograph",
+    title: "The Zen Way to the Martial Arts",
+    author: "Taisen Deshimaru",
+    publicationDate: "1982",
+    reliability: "primary",
+  },
+  // ─── Korean Seon scholarship ─────────────────────────────────────────
+  {
+    id: "src_park_korean_seon",
+    type: "monograph",
+    title: "Buddhism and Buddhists in Korea",
+    author: "Sung-bae Park",
+    publicationDate: "2009",
+    reliability: "scholarly",
+  },
+  {
+    id: "src_seungsahn_compass_zen",
+    type: "monograph",
+    title: "The Compass of Zen",
+    author: "Seung Sahn",
+    publicationDate: "1997",
+    reliability: "primary",
+  },
+  // ─── Vietnamese Thiền scholarship ────────────────────────────────────
+  {
+    id: "src_nhat_hanh_miracle_mindfulness",
+    type: "monograph",
+    title: "The Miracle of Mindfulness",
+    author: "Thích Nhất Hạnh",
+    publicationDate: "1975",
+    reliability: "primary",
+  },
+  {
+    id: "src_thanh_tu_truc_lam",
+    type: "monograph",
+    title: "Trúc Lâm Thiền: Studies in Vietnamese Buddhism",
+    author: "Thích Thanh Từ (collected works)",
+    publicationDate: "2000",
+    reliability: "primary",
+  },
+];
