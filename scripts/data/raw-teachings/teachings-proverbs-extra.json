@@ -2,11 +2,14 @@
   {
     "slug": "proverb-landscape-of-spring",
     "type": "proverb",
-    "author_slug": "shakyamuni-buddha",
+    "author_slug": "unknown",
     "collection": "Traditional Zen Proverbs",
     "era": "Tang",
-    "attribution_status": "traditional",
-    "themes": ["nature", "non-duality"],
+    "attribution_status": "unresolved",
+    "themes": [
+      "nature",
+      "non-duality"
+    ],
     "locale": "en",
     "title": "Landscape of Spring",
     "content": "In the landscape of spring, there is neither better nor worse. The flowering branches grow naturally, some long, some short.",
@@ -14,16 +17,21 @@
     "ingestion_run_id": "run_standalone_teachings",
     "locator": "Zenrin Kushu (Zen Forest Anthology)",
     "license_status": "public_domain",
-    "master_roles": []
+    "master_roles": [],
+    "compiler": "Zenrin Kushu (Zen Forest Anthology)"
   },
   {
     "slug": "proverb-entering-the-forest",
     "type": "proverb",
-    "author_slug": "shakyamuni-buddha",
+    "author_slug": "unknown",
     "collection": "Traditional Zen Proverbs",
     "era": "Tang",
-    "attribution_status": "traditional",
-    "themes": ["nature", "practice", "letting-go"],
+    "attribution_status": "unresolved",
+    "themes": [
+      "nature",
+      "practice",
+      "letting-go"
+    ],
     "locale": "en",
     "title": "Entering the Forest",
     "content": "Entering the forest, he does not disturb a blade of grass. Entering the water, he does not cause a ripple.",
@@ -31,16 +39,20 @@
     "ingestion_run_id": "run_standalone_teachings",
     "locator": "Zenrin Kushu (Zen Forest Anthology)",
     "license_status": "public_domain",
-    "master_roles": []
+    "master_roles": [],
+    "compiler": "Zenrin Kushu (Zen Forest Anthology)"
   },
   {
     "slug": "proverb-bamboo-shadows",
     "type": "proverb",
-    "author_slug": "shakyamuni-buddha",
+    "author_slug": "unknown",
     "collection": "Traditional Zen Proverbs",
     "era": "Tang",
-    "attribution_status": "traditional",
-    "themes": ["nature", "emptiness"],
+    "attribution_status": "unresolved",
+    "themes": [
+      "nature",
+      "emptiness"
+    ],
     "locale": "en",
     "title": "Bamboo Shadows",
     "content": "The bamboo shadows sweep the stairs, but no dust is stirred.",
@@ -48,16 +60,20 @@
     "ingestion_run_id": "run_standalone_teachings",
     "locator": "Zenrin Kushu (Zen Forest Anthology)",
     "license_status": "public_domain",
-    "master_roles": []
+    "master_roles": [],
+    "compiler": "Zenrin Kushu (Zen Forest Anthology)"
   },
   {
     "slug": "proverb-scoop-up-water",
     "type": "proverb",
-    "author_slug": "shakyamuni-buddha",
+    "author_slug": "unknown",
     "collection": "Traditional Zen Proverbs",
     "era": "Tang",
-    "attribution_status": "traditional",
-    "themes": ["nature", "daily-life"],
+    "attribution_status": "unresolved",
+    "themes": [
+      "nature",
+      "daily-life"
+    ],
     "locale": "en",
     "title": "Scoop Up Water",
     "content": "Scoop up water and the moon is in your hands. Handle flowers and their fragrance fills your clothes.",
@@ -65,16 +81,21 @@
     "ingestion_run_id": "run_standalone_teachings",
     "locator": "Zenrin Kushu (Zen Forest Anthology)",
     "license_status": "public_domain",
-    "master_roles": []
+    "master_roles": [],
+    "compiler": "Zenrin Kushu (Zen Forest Anthology)"
   },
   {
     "slug": "proverb-wild-geese-reflection",
     "type": "proverb",
-    "author_slug": "shakyamuni-buddha",
+    "author_slug": "unknown",
     "collection": "Traditional Zen Proverbs",
     "era": "Tang",
-    "attribution_status": "traditional",
-    "themes": ["nature", "non-duality", "letting-go"],
+    "attribution_status": "unresolved",
+    "themes": [
+      "nature",
+      "non-duality",
+      "letting-go"
+    ],
     "locale": "en",
     "title": "Wild Geese Reflection",
     "content": "The wild geese do not intend to cast their reflection. The water has no mind to receive their image.",
@@ -82,33 +103,41 @@
     "ingestion_run_id": "run_standalone_teachings",
     "locator": "Zenrin Kushu (Zen Forest Anthology)",
     "license_status": "public_domain",
-    "master_roles": []
+    "master_roles": [],
+    "compiler": "Zenrin Kushu (Zen Forest Anthology)"
   },
   {
     "slug": "proverb-thousand-mountains",
     "type": "proverb",
-    "author_slug": "shakyamuni-buddha",
+    "author_slug": "unknown",
     "collection": "Traditional Zen Proverbs",
     "era": "Tang",
-    "attribution_status": "traditional",
-    "themes": ["emptiness", "nature"],
+    "attribution_status": "unresolved",
+    "themes": [
+      "emptiness",
+      "nature"
+    ],
     "locale": "en",
     "title": "A Thousand Mountains",
-    "content": "A thousand mountains\u2014not a bird in flight. Ten thousand paths\u2014no trace of man.",
+    "content": "A thousand mountains—not a bird in flight. Ten thousand paths—no trace of man.",
     "source_id": "src_wikisource",
     "ingestion_run_id": "run_standalone_teachings",
     "locator": "Zenrin Kushu (Zen Forest Anthology)",
     "license_status": "public_domain",
-    "master_roles": []
+    "master_roles": [],
+    "compiler": "Zenrin Kushu (Zen Forest Anthology)"
   },
   {
     "slug": "proverb-ride-horse-sword-edge",
     "type": "proverb",
-    "author_slug": "shakyamuni-buddha",
+    "author_slug": "unknown",
     "collection": "Traditional Zen Proverbs",
     "era": "Tang",
-    "attribution_status": "traditional",
-    "themes": ["practice", "paradox"],
+    "attribution_status": "unresolved",
+    "themes": [
+      "practice",
+      "paradox"
+    ],
     "locale": "en",
     "title": "Ride Your Horse",
     "content": "Ride your horse along the edge of a sword. Hide yourself in the middle of flames.",
@@ -116,16 +145,21 @@
     "ingestion_run_id": "run_standalone_teachings",
     "locator": "Zenrin Kushu (Zen Forest Anthology)",
     "license_status": "public_domain",
-    "master_roles": []
+    "master_roles": [],
+    "compiler": "Zenrin Kushu (Zen Forest Anthology)"
   },
   {
     "slug": "proverb-cast-off-realized",
     "type": "proverb",
-    "author_slug": "shakyamuni-buddha",
+    "author_slug": "unknown",
     "collection": "Traditional Zen Proverbs",
     "era": "Tang",
-    "attribution_status": "traditional",
-    "themes": ["practice", "enlightenment", "letting-go"],
+    "attribution_status": "unresolved",
+    "themes": [
+      "practice",
+      "enlightenment",
+      "letting-go"
+    ],
     "locale": "en",
     "title": "Cast Off What Has Been Realized",
     "content": "Cast off what has been realized. Turn back to the subject that realizes.",
@@ -133,16 +167,20 @@
     "ingestion_run_id": "run_standalone_teachings",
     "locator": "Zenrin Kushu (Zen Forest Anthology)",
     "license_status": "public_domain",
-    "master_roles": []
+    "master_roles": [],
+    "compiler": "Zenrin Kushu (Zen Forest Anthology)"
   },
   {
     "slug": "proverb-blue-mountains",
     "type": "proverb",
-    "author_slug": "shakyamuni-buddha",
+    "author_slug": "unknown",
     "collection": "Traditional Zen Proverbs",
     "era": "Tang",
-    "attribution_status": "traditional",
-    "themes": ["nature", "non-duality"],
+    "attribution_status": "unresolved",
+    "themes": [
+      "nature",
+      "non-duality"
+    ],
     "locale": "en",
     "title": "Blue Mountains",
     "content": "The blue mountains are of themselves blue mountains. White clouds are of themselves white clouds.",
@@ -150,16 +188,20 @@
     "ingestion_run_id": "run_standalone_teachings",
     "locator": "Zenrin Kushu (Zen Forest Anthology)",
     "license_status": "public_domain",
-    "master_roles": []
+    "master_roles": [],
+    "compiler": "Zenrin Kushu (Zen Forest Anthology)"
   },
   {
     "slug": "proverb-bamboo-forest-dense",
     "type": "proverb",
-    "author_slug": "shakyamuni-buddha",
+    "author_slug": "unknown",
     "collection": "Traditional Zen Proverbs",
     "era": "Tang",
-    "attribution_status": "traditional",
-    "themes": ["nature", "letting-go"],
+    "attribution_status": "unresolved",
+    "themes": [
+      "nature",
+      "letting-go"
+    ],
     "locale": "en",
     "title": "Dense Bamboo Forest",
     "content": "Though the bamboo forest is dense, water flows through it freely.",
@@ -167,16 +209,21 @@
     "ingestion_run_id": "run_standalone_teachings",
     "locator": "Zenrin Kushu (Zen Forest Anthology)",
     "license_status": "public_domain",
-    "master_roles": []
+    "master_roles": [],
+    "compiler": "Zenrin Kushu (Zen Forest Anthology)"
   },
   {
     "slug": "proverb-withered-tree-flower",
     "type": "proverb",
-    "author_slug": "shakyamuni-buddha",
+    "author_slug": "unknown",
     "collection": "Traditional Zen Proverbs",
     "era": "Tang",
-    "attribution_status": "traditional",
-    "themes": ["nature", "paradox", "enlightenment"],
+    "attribution_status": "unresolved",
+    "themes": [
+      "nature",
+      "paradox",
+      "enlightenment"
+    ],
     "locale": "en",
     "title": "From the Withered Tree",
     "content": "From the withered tree, a flower blooms.",
@@ -184,16 +231,21 @@
     "ingestion_run_id": "run_standalone_teachings",
     "locator": "Zenrin Kushu (Zen Forest Anthology)",
     "license_status": "public_domain",
-    "master_roles": []
+    "master_roles": [],
+    "compiler": "Zenrin Kushu (Zen Forest Anthology)"
   },
   {
     "slug": "proverb-knock-on-sky",
     "type": "proverb",
-    "author_slug": "shakyamuni-buddha",
+    "author_slug": "unknown",
     "collection": "Traditional Zen Proverbs",
     "era": "Tang",
-    "attribution_status": "traditional",
-    "themes": ["mind", "paradox", "emptiness"],
+    "attribution_status": "unresolved",
+    "themes": [
+      "mind",
+      "paradox",
+      "emptiness"
+    ],
     "locale": "en",
     "title": "Knock on the Sky",
     "content": "Knock on the sky and listen to the sound.",
@@ -201,33 +253,41 @@
     "ingestion_run_id": "run_standalone_teachings",
     "locator": "Zenrin Kushu (Zen Forest Anthology)",
     "license_status": "public_domain",
-    "master_roles": []
+    "master_roles": [],
+    "compiler": "Zenrin Kushu (Zen Forest Anthology)"
   },
   {
     "slug": "proverb-single-leaf-falls",
     "type": "proverb",
-    "author_slug": "shakyamuni-buddha",
+    "author_slug": "unknown",
     "collection": "Traditional Zen Proverbs",
     "era": "Tang",
-    "attribution_status": "traditional",
-    "themes": ["impermanence", "nature"],
+    "attribution_status": "unresolved",
+    "themes": [
+      "impermanence",
+      "nature"
+    ],
     "locale": "en",
     "title": "A Single Leaf Falls",
-    "content": "A single leaf falls\u2014all under heaven know it is autumn.",
+    "content": "A single leaf falls—all under heaven know it is autumn.",
     "source_id": "src_wikisource",
     "ingestion_run_id": "run_standalone_teachings",
     "locator": "Zenrin Kushu (Zen Forest Anthology)",
     "license_status": "public_domain",
-    "master_roles": []
+    "master_roles": [],
+    "compiler": "Zenrin Kushu (Zen Forest Anthology)"
   },
   {
     "slug": "proverb-clear-water-bottom",
     "type": "proverb",
-    "author_slug": "shakyamuni-buddha",
+    "author_slug": "unknown",
     "collection": "Traditional Zen Proverbs",
     "era": "Tang",
-    "attribution_status": "traditional",
-    "themes": ["nature", "non-duality"],
+    "attribution_status": "unresolved",
+    "themes": [
+      "nature",
+      "non-duality"
+    ],
     "locale": "en",
     "title": "Clear Water",
     "content": "Clear water all the way to the bottom. A fish swims like a fish.",
@@ -235,16 +295,21 @@
     "ingestion_run_id": "run_standalone_teachings",
     "locator": "Zenrin Kushu (Zen Forest Anthology)",
     "license_status": "public_domain",
-    "master_roles": []
+    "master_roles": [],
+    "compiler": "Zenrin Kushu (Zen Forest Anthology)"
   },
   {
     "slug": "proverb-hundred-foot-pole",
     "type": "proverb",
-    "author_slug": "shakyamuni-buddha",
+    "author_slug": "unknown",
     "collection": "Traditional Zen Proverbs",
     "era": "Tang",
-    "attribution_status": "traditional",
-    "themes": ["practice", "enlightenment", "paradox"],
+    "attribution_status": "unresolved",
+    "themes": [
+      "practice",
+      "enlightenment",
+      "paradox"
+    ],
     "locale": "en",
     "title": "Atop the Hundred-Foot Pole",
     "content": "Atop the hundred-foot pole, how do you step forward?",
@@ -252,16 +317,20 @@
     "ingestion_run_id": "run_standalone_teachings",
     "locator": "Zenrin Kushu (Zen Forest Anthology)",
     "license_status": "public_domain",
-    "master_roles": []
+    "master_roles": [],
+    "compiler": "Zenrin Kushu (Zen Forest Anthology)"
   },
   {
     "slug": "proverb-iron-tree-blooms",
     "type": "proverb",
-    "author_slug": "shakyamuni-buddha",
+    "author_slug": "unknown",
     "collection": "Traditional Zen Proverbs",
     "era": "Tang",
-    "attribution_status": "traditional",
-    "themes": ["paradox", "enlightenment"],
+    "attribution_status": "unresolved",
+    "themes": [
+      "paradox",
+      "enlightenment"
+    ],
     "locale": "en",
     "title": "Iron Tree Blooms",
     "content": "When the iron tree blooms, the rooster lays an egg.",
@@ -269,16 +338,21 @@
     "ingestion_run_id": "run_standalone_teachings",
     "locator": "Zenrin Kushu (Zen Forest Anthology)",
     "license_status": "public_domain",
-    "master_roles": []
+    "master_roles": [],
+    "compiler": "Zenrin Kushu (Zen Forest Anthology)"
   },
   {
     "slug": "proverb-moon-not-think-reflected",
     "type": "proverb",
-    "author_slug": "shakyamuni-buddha",
+    "author_slug": "unknown",
     "collection": "Traditional Zen Proverbs",
     "era": "Tang",
-    "attribution_status": "traditional",
-    "themes": ["nature", "non-duality", "letting-go"],
+    "attribution_status": "unresolved",
+    "themes": [
+      "nature",
+      "non-duality",
+      "letting-go"
+    ],
     "locale": "en",
     "title": "The Moon Does Not Think",
     "content": "The moon does not think about being reflected, nor does the water think about reflecting it.",
@@ -286,16 +360,21 @@
     "ingestion_run_id": "run_standalone_teachings",
     "locator": "Zenrin Kushu (Zen Forest Anthology)",
     "license_status": "public_domain",
-    "master_roles": []
+    "master_roles": [],
+    "compiler": "Zenrin Kushu (Zen Forest Anthology)"
   },
   {
     "slug": "proverb-put-heart-at-rest",
     "type": "proverb",
-    "author_slug": "shakyamuni-buddha",
+    "author_slug": "unknown",
     "collection": "Traditional Zen Proverbs",
     "era": "Tang",
-    "attribution_status": "traditional",
-    "themes": ["practice", "mind", "letting-go"],
+    "attribution_status": "unresolved",
+    "themes": [
+      "practice",
+      "mind",
+      "letting-go"
+    ],
     "locale": "en",
     "title": "Put Your Heart at Rest",
     "content": "Put your heart at rest. Do not look for anything outside of this.",
@@ -303,16 +382,20 @@
     "ingestion_run_id": "run_standalone_teachings",
     "locator": "Traditional Zen proverb",
     "license_status": "public_domain",
-    "master_roles": []
+    "master_roles": [],
+    "compiler": "Traditional Zen proverb"
   },
   {
     "slug": "proverb-fall-seven-times",
     "type": "proverb",
-    "author_slug": "shakyamuni-buddha",
+    "author_slug": "unknown",
     "collection": "Traditional Zen Proverbs",
     "era": "Tang",
-    "attribution_status": "traditional",
-    "themes": ["practice", "daily-life"],
+    "attribution_status": "unresolved",
+    "themes": [
+      "practice",
+      "daily-life"
+    ],
     "locale": "en",
     "title": "Fall Seven Times",
     "content": "Fall seven times, stand up eight.",
@@ -320,16 +403,20 @@
     "ingestion_run_id": "run_standalone_teachings",
     "locator": "Traditional Zen proverb",
     "license_status": "public_domain",
-    "master_roles": []
+    "master_roles": [],
+    "compiler": "Traditional Zen proverb"
   },
   {
     "slug": "proverb-frog-in-well",
     "type": "proverb",
-    "author_slug": "shakyamuni-buddha",
+    "author_slug": "unknown",
     "collection": "Traditional Zen Proverbs",
     "era": "Tang",
-    "attribution_status": "traditional",
-    "themes": ["mind", "enlightenment"],
+    "attribution_status": "unresolved",
+    "themes": [
+      "mind",
+      "enlightenment"
+    ],
     "locale": "en",
     "title": "The Frog in the Well",
     "content": "The frog in the well knows nothing of the great ocean.",
@@ -337,16 +424,20 @@
     "ingestion_run_id": "run_standalone_teachings",
     "locator": "Traditional Zen proverb",
     "license_status": "public_domain",
-    "master_roles": []
+    "master_roles": [],
+    "compiler": "Traditional Zen proverb"
   },
   {
     "slug": "proverb-reverse-side",
     "type": "proverb",
-    "author_slug": "shakyamuni-buddha",
+    "author_slug": "unknown",
     "collection": "Traditional Zen Proverbs",
     "era": "Tang",
-    "attribution_status": "traditional",
-    "themes": ["non-duality", "paradox"],
+    "attribution_status": "unresolved",
+    "themes": [
+      "non-duality",
+      "paradox"
+    ],
     "locale": "en",
     "title": "The Reverse Side",
     "content": "The reverse side also has a reverse side.",
@@ -354,33 +445,42 @@
     "ingestion_run_id": "run_standalone_teachings",
     "locator": "Traditional Zen proverb",
     "license_status": "public_domain",
-    "master_roles": []
+    "master_roles": [],
+    "compiler": "Traditional Zen proverb"
   },
   {
     "slug": "proverb-sitting-quietly-not-waiting",
     "type": "proverb",
-    "author_slug": "shakyamuni-buddha",
+    "author_slug": "unknown",
     "collection": "Traditional Zen Proverbs",
     "era": "Tang",
-    "attribution_status": "traditional",
-    "themes": ["practice", "mind", "letting-go"],
+    "attribution_status": "unresolved",
+    "themes": [
+      "practice",
+      "mind",
+      "letting-go"
+    ],
     "locale": "en",
     "title": "Sitting Quietly, Not Waiting",
-    "content": "Sitting quietly, doing nothing\u2014not even waiting.",
+    "content": "Sitting quietly, doing nothing—not even waiting.",
     "source_id": "src_wikisource",
     "ingestion_run_id": "run_standalone_teachings",
     "locator": "Traditional Zen proverb",
     "license_status": "public_domain",
-    "master_roles": []
+    "master_roles": [],
+    "compiler": "Traditional Zen proverb"
   },
   {
     "slug": "proverb-all-know-the-way",
     "type": "proverb",
-    "author_slug": "shakyamuni-buddha",
+    "author_slug": "unknown",
     "collection": "Traditional Zen Proverbs",
     "era": "Tang",
-    "attribution_status": "traditional",
-    "themes": ["practice", "daily-life"],
+    "attribution_status": "unresolved",
+    "themes": [
+      "practice",
+      "daily-life"
+    ],
     "locale": "en",
     "title": "All Know the Way",
     "content": "All know the Way, but few actually walk it.",
@@ -388,33 +488,42 @@
     "ingestion_run_id": "run_standalone_teachings",
     "locator": "Traditional Zen proverb",
     "license_status": "public_domain",
-    "master_roles": []
+    "master_roles": [],
+    "compiler": "Traditional Zen proverb"
   },
   {
     "slug": "proverb-thief-left-it-behind",
     "type": "proverb",
-    "author_slug": "shakyamuni-buddha",
+    "author_slug": "unknown",
     "collection": "Traditional Zen Proverbs",
     "era": "Tang",
-    "attribution_status": "traditional",
-    "themes": ["nature", "letting-go", "paradox"],
+    "attribution_status": "unresolved",
+    "themes": [
+      "nature",
+      "letting-go",
+      "paradox"
+    ],
     "locale": "en",
     "title": "The Thief Left It Behind",
-    "content": "The thief left it behind\u2014the moon at the window.",
+    "content": "The thief left it behind—the moon at the window.",
     "source_id": "src_wikisource",
     "ingestion_run_id": "run_standalone_teachings",
     "locator": "Traditional Zen proverb",
     "license_status": "public_domain",
-    "master_roles": []
+    "master_roles": [],
+    "compiler": "Traditional Zen proverb"
   },
   {
     "slug": "proverb-sheet-of-paper",
     "type": "proverb",
-    "author_slug": "shakyamuni-buddha",
+    "author_slug": "unknown",
     "collection": "Traditional Zen Proverbs",
     "era": "Tang",
-    "attribution_status": "traditional",
-    "themes": ["non-duality", "daily-life"],
+    "attribution_status": "unresolved",
+    "themes": [
+      "non-duality",
+      "daily-life"
+    ],
     "locale": "en",
     "title": "A Sheet of Paper",
     "content": "Even a sheet of paper has two sides.",
@@ -422,16 +531,20 @@
     "ingestion_run_id": "run_standalone_teachings",
     "locator": "Traditional Zen proverb",
     "license_status": "public_domain",
-    "master_roles": []
+    "master_roles": [],
+    "compiler": "Traditional Zen proverb"
   },
   {
     "slug": "proverb-moon-river-wind-pines",
     "type": "proverb",
-    "author_slug": "shakyamuni-buddha",
+    "author_slug": "unknown",
     "collection": "Traditional Zen Proverbs",
     "era": "Tang",
-    "attribution_status": "traditional",
-    "themes": ["nature", "mind"],
+    "attribution_status": "unresolved",
+    "themes": [
+      "nature",
+      "mind"
+    ],
     "locale": "en",
     "title": "Moon on the River",
     "content": "The moon shines on the river. The wind blows through the pines.",
@@ -439,16 +552,21 @@
     "ingestion_run_id": "run_standalone_teachings",
     "locator": "Zenrin Kushu (Zen Forest Anthology)",
     "license_status": "public_domain",
-    "master_roles": []
+    "master_roles": [],
+    "compiler": "Zenrin Kushu (Zen Forest Anthology)"
   },
   {
     "slug": "proverb-snow-plum-tree",
     "type": "proverb",
-    "author_slug": "shakyamuni-buddha",
+    "author_slug": "unknown",
     "collection": "Traditional Zen Proverbs",
     "era": "Tang",
-    "attribution_status": "traditional",
-    "themes": ["nature", "impermanence", "paradox"],
+    "attribution_status": "unresolved",
+    "themes": [
+      "nature",
+      "impermanence",
+      "paradox"
+    ],
     "locale": "en",
     "title": "Snow on the Plum Tree",
     "content": "The snow on the plum tree is not yet melted, but already the branches bloom.",
@@ -456,16 +574,21 @@
     "ingestion_run_id": "run_standalone_teachings",
     "locator": "Zenrin Kushu (Zen Forest Anthology)",
     "license_status": "public_domain",
-    "master_roles": []
+    "master_roles": [],
+    "compiler": "Zenrin Kushu (Zen Forest Anthology)"
   },
   {
     "slug": "proverb-student-ready-teacher",
     "type": "proverb",
-    "author_slug": "shakyamuni-buddha",
+    "author_slug": "unknown",
     "collection": "Traditional Zen Proverbs",
     "era": "Tang",
-    "attribution_status": "traditional",
-    "themes": ["practice", "enlightenment", "paradox"],
+    "attribution_status": "unresolved",
+    "themes": [
+      "practice",
+      "enlightenment",
+      "paradox"
+    ],
     "locale": "en",
     "title": "When the Student Is Ready",
     "content": "When the student is ready, the teacher will appear. When the student is truly ready, the teacher will disappear.",
@@ -473,16 +596,21 @@
     "ingestion_run_id": "run_standalone_teachings",
     "locator": "Traditional Zen proverb",
     "license_status": "public_domain",
-    "master_roles": []
+    "master_roles": [],
+    "compiler": "Traditional Zen proverb"
   },
   {
     "slug": "proverb-before-bell-rings",
     "type": "proverb",
-    "author_slug": "shakyamuni-buddha",
+    "author_slug": "unknown",
     "collection": "Traditional Zen Proverbs",
     "era": "Tang",
-    "attribution_status": "traditional",
-    "themes": ["emptiness", "impermanence", "mind"],
+    "attribution_status": "unresolved",
+    "themes": [
+      "emptiness",
+      "impermanence",
+      "mind"
+    ],
     "locale": "en",
     "title": "Before the Bell Rings",
     "content": "Before the bell rings, where is the sound? After the bell rings, where does it go?",
@@ -490,16 +618,21 @@
     "ingestion_run_id": "run_standalone_teachings",
     "locator": "Traditional Zen proverb",
     "license_status": "public_domain",
-    "master_roles": []
+    "master_roles": [],
+    "compiler": "Traditional Zen proverb"
   },
   {
     "slug": "proverb-great-path-no-gate",
     "type": "proverb",
-    "author_slug": "shakyamuni-buddha",
+    "author_slug": "unknown",
     "collection": "Traditional Zen Proverbs",
     "era": "Tang",
-    "attribution_status": "traditional",
-    "themes": ["practice", "non-duality", "enlightenment"],
+    "attribution_status": "unresolved",
+    "themes": [
+      "practice",
+      "non-duality",
+      "enlightenment"
+    ],
     "locale": "en",
     "title": "The Great Path Has No Gate",
     "content": "The great path has no gate. A thousand roads enter it.",
@@ -507,16 +640,21 @@
     "ingestion_run_id": "run_standalone_teachings",
     "locator": "Traditional Zen proverb",
     "license_status": "public_domain",
-    "master_roles": []
+    "master_roles": [],
+    "compiler": "Traditional Zen proverb"
   },
   {
     "slug": "proverb-drink-tea-slowly",
     "type": "proverb",
-    "author_slug": "shakyamuni-buddha",
+    "author_slug": "unknown",
     "collection": "Traditional Zen Proverbs",
     "era": "Tang",
-    "attribution_status": "traditional",
-    "themes": ["daily-life", "practice", "mind"],
+    "attribution_status": "unresolved",
+    "themes": [
+      "daily-life",
+      "practice",
+      "mind"
+    ],
     "locale": "en",
     "title": "Drink Your Tea Slowly",
     "content": "Drink your tea slowly and reverently, as if it is the axis on which the whole earth revolves.",
@@ -524,16 +662,21 @@
     "ingestion_run_id": "run_standalone_teachings",
     "locator": "Traditional Zen proverb",
     "license_status": "public_domain",
-    "master_roles": []
+    "master_roles": [],
+    "compiler": "Traditional Zen proverb"
   },
   {
     "slug": "proverb-wind-blows-river-flows",
     "type": "proverb",
-    "author_slug": "shakyamuni-buddha",
+    "author_slug": "unknown",
     "collection": "Traditional Zen Proverbs",
     "era": "Tang",
-    "attribution_status": "traditional",
-    "themes": ["nature", "practice", "letting-go"],
+    "attribution_status": "unresolved",
+    "themes": [
+      "nature",
+      "practice",
+      "letting-go"
+    ],
     "locale": "en",
     "title": "The River Flows to the Sea",
     "content": "No matter how hard the wind blows, the river always flows to the sea.",
@@ -541,16 +684,20 @@
     "ingestion_run_id": "run_standalone_teachings",
     "locator": "Traditional Zen proverb",
     "license_status": "public_domain",
-    "master_roles": []
+    "master_roles": [],
+    "compiler": "Traditional Zen proverb"
   },
   {
     "slug": "proverb-vast-inane",
     "type": "proverb",
-    "author_slug": "shakyamuni-buddha",
+    "author_slug": "unknown",
     "collection": "Traditional Zen Proverbs",
     "era": "Tang",
-    "attribution_status": "traditional",
-    "themes": ["emptiness", "non-duality"],
+    "attribution_status": "unresolved",
+    "themes": [
+      "emptiness",
+      "non-duality"
+    ],
     "locale": "en",
     "title": "The Vast Inane",
     "content": "In the vast inane there is no back or front. The path of the bird annihilates east and west.",
@@ -558,16 +705,21 @@
     "ingestion_run_id": "run_standalone_teachings",
     "locator": "Zenrin Kushu (Zen Forest Anthology)",
     "license_status": "public_domain",
-    "master_roles": []
+    "master_roles": [],
+    "compiler": "Zenrin Kushu (Zen Forest Anthology)"
   },
   {
     "slug": "proverb-withered-stump-dragon",
     "type": "proverb",
-    "author_slug": "shakyamuni-buddha",
+    "author_slug": "unknown",
     "collection": "Traditional Zen Proverbs",
     "era": "Tang",
-    "attribution_status": "traditional",
-    "themes": ["paradox", "nature", "enlightenment"],
+    "attribution_status": "unresolved",
+    "themes": [
+      "paradox",
+      "nature",
+      "enlightenment"
+    ],
     "locale": "en",
     "title": "From the Withered Stump",
     "content": "From the withered stump, a dragon emerges.",
@@ -575,16 +727,21 @@
     "ingestion_run_id": "run_standalone_teachings",
     "locator": "Zenrin Kushu (Zen Forest Anthology)",
     "license_status": "public_domain",
-    "master_roles": []
+    "master_roles": [],
+    "compiler": "Zenrin Kushu (Zen Forest Anthology)"
   },
   {
     "slug": "proverb-return-to-root",
     "type": "proverb",
-    "author_slug": "shakyamuni-buddha",
+    "author_slug": "unknown",
     "collection": "Traditional Zen Proverbs",
     "era": "Tang",
-    "attribution_status": "traditional",
-    "themes": ["practice", "mind", "enlightenment"],
+    "attribution_status": "unresolved",
+    "themes": [
+      "practice",
+      "mind",
+      "enlightenment"
+    ],
     "locale": "en",
     "title": "Return to the Root",
     "content": "To return to the root is to find the meaning. To chase appearances is to miss the source.",
@@ -592,16 +749,21 @@
     "ingestion_run_id": "run_standalone_teachings",
     "locator": "Zenrin Kushu (Zen Forest Anthology)",
     "license_status": "public_domain",
-    "master_roles": []
+    "master_roles": [],
+    "compiler": "Zenrin Kushu (Zen Forest Anthology)"
   },
   {
     "slug": "proverb-not-twice-this-day",
     "type": "proverb",
-    "author_slug": "shakyamuni-buddha",
+    "author_slug": "unknown",
     "collection": "Traditional Zen Proverbs",
     "era": "Tang",
-    "attribution_status": "traditional",
-    "themes": ["impermanence", "practice", "daily-life"],
+    "attribution_status": "unresolved",
+    "themes": [
+      "impermanence",
+      "practice",
+      "daily-life"
+    ],
     "locale": "en",
     "title": "Not Twice This Day",
     "content": "Not twice this day.",
@@ -609,16 +771,20 @@
     "ingestion_run_id": "run_standalone_teachings",
     "locator": "Traditional Zen proverb",
     "license_status": "public_domain",
-    "master_roles": []
+    "master_roles": [],
+    "compiler": "Traditional Zen proverb"
   },
   {
     "slug": "proverb-inch-of-time",
     "type": "proverb",
-    "author_slug": "shakyamuni-buddha",
+    "author_slug": "unknown",
     "collection": "Traditional Zen Proverbs",
     "era": "Tang",
-    "attribution_status": "traditional",
-    "themes": ["impermanence", "daily-life"],
+    "attribution_status": "unresolved",
+    "themes": [
+      "impermanence",
+      "daily-life"
+    ],
     "locale": "en",
     "title": "An Inch of Time",
     "content": "An inch of time is an inch of gold, but you cannot buy an inch of time with an inch of gold.",
@@ -626,16 +792,20 @@
     "ingestion_run_id": "run_standalone_teachings",
     "locator": "Traditional Zen proverb",
     "license_status": "public_domain",
-    "master_roles": []
+    "master_roles": [],
+    "compiler": "Traditional Zen proverb"
   },
   {
     "slug": "proverb-move-way-will-open",
     "type": "proverb",
-    "author_slug": "shakyamuni-buddha",
+    "author_slug": "unknown",
     "collection": "Traditional Zen Proverbs",
     "era": "Tang",
-    "attribution_status": "traditional",
-    "themes": ["practice", "daily-life"],
+    "attribution_status": "unresolved",
+    "themes": [
+      "practice",
+      "daily-life"
+    ],
     "locale": "en",
     "title": "Move and the Way Will Open",
     "content": "Move and the way will open.",
@@ -643,33 +813,42 @@
     "ingestion_run_id": "run_standalone_teachings",
     "locator": "Traditional Zen proverb",
     "license_status": "public_domain",
-    "master_roles": []
+    "master_roles": [],
+    "compiler": "Traditional Zen proverb"
   },
   {
     "slug": "proverb-spring-rain-soaks",
     "type": "proverb",
-    "author_slug": "shakyamuni-buddha",
+    "author_slug": "unknown",
     "collection": "Traditional Zen Proverbs",
     "era": "Tang",
-    "attribution_status": "traditional",
-    "themes": ["non-duality", "nature"],
+    "attribution_status": "unresolved",
+    "themes": [
+      "non-duality",
+      "nature"
+    ],
     "locale": "en",
     "title": "The Spring Rain",
-    "content": "The spring rain soaks everything equally\u2014the beautiful garden and the empty lot.",
+    "content": "The spring rain soaks everything equally—the beautiful garden and the empty lot.",
     "source_id": "src_wikisource",
     "ingestion_run_id": "run_standalone_teachings",
     "locator": "Traditional Zen proverb",
     "license_status": "public_domain",
-    "master_roles": []
+    "master_roles": [],
+    "compiler": "Traditional Zen proverb"
   },
   {
     "slug": "proverb-clouds-come-and-go",
     "type": "proverb",
-    "author_slug": "shakyamuni-buddha",
+    "author_slug": "unknown",
     "collection": "Traditional Zen Proverbs",
     "era": "Tang",
-    "attribution_status": "traditional",
-    "themes": ["mind", "nature", "letting-go"],
+    "attribution_status": "unresolved",
+    "themes": [
+      "mind",
+      "nature",
+      "letting-go"
+    ],
     "locale": "en",
     "title": "Clouds Come and Go",
     "content": "Clouds come and go. Behind them, the sun has never moved.",
@@ -677,16 +856,21 @@
     "ingestion_run_id": "run_standalone_teachings",
     "locator": "Traditional Zen proverb",
     "license_status": "public_domain",
-    "master_roles": []
+    "master_roles": [],
+    "compiler": "Traditional Zen proverb"
   },
   {
     "slug": "proverb-drinks-water-knows",
     "type": "proverb",
-    "author_slug": "shakyamuni-buddha",
+    "author_slug": "unknown",
     "collection": "Traditional Zen Proverbs",
     "era": "Tang",
-    "attribution_status": "traditional",
-    "themes": ["practice", "mind", "enlightenment"],
+    "attribution_status": "unresolved",
+    "themes": [
+      "practice",
+      "mind",
+      "enlightenment"
+    ],
     "locale": "en",
     "title": "A Person Who Drinks Water",
     "content": "A person who drinks water knows for themselves whether it is hot or cold.",
@@ -694,16 +878,20 @@
     "ingestion_run_id": "run_standalone_teachings",
     "locator": "Traditional Zen proverb",
     "license_status": "public_domain",
-    "master_roles": []
+    "master_roles": [],
+    "compiler": "Traditional Zen proverb"
   },
   {
     "slug": "proverb-arrow-left-bow",
     "type": "proverb",
-    "author_slug": "shakyamuni-buddha",
+    "author_slug": "unknown",
     "collection": "Traditional Zen Proverbs",
     "era": "Tang",
-    "attribution_status": "traditional",
-    "themes": ["impermanence", "letting-go"],
+    "attribution_status": "unresolved",
+    "themes": [
+      "impermanence",
+      "letting-go"
+    ],
     "locale": "en",
     "title": "The Arrow Has Left the Bow",
     "content": "The arrow has left the bow. It will not return.",
@@ -711,16 +899,20 @@
     "ingestion_run_id": "run_standalone_teachings",
     "locator": "Traditional Zen proverb",
     "license_status": "public_domain",
-    "master_roles": []
+    "master_roles": [],
+    "compiler": "Traditional Zen proverb"
   },
   {
     "slug": "proverb-lotus-muddy-water",
     "type": "proverb",
-    "author_slug": "shakyamuni-buddha",
+    "author_slug": "unknown",
     "collection": "Traditional Zen Proverbs",
     "era": "Tang",
-    "attribution_status": "traditional",
-    "themes": ["nature", "paradox"],
+    "attribution_status": "unresolved",
+    "themes": [
+      "nature",
+      "paradox"
+    ],
     "locale": "en",
     "title": "The Lotus in Muddy Water",
     "content": "The lotus grows in the muddy water. Without the mud, there is no lotus.",
@@ -728,16 +920,20 @@
     "ingestion_run_id": "run_standalone_teachings",
     "locator": "Traditional Zen proverb",
     "license_status": "public_domain",
-    "master_roles": []
+    "master_roles": [],
+    "compiler": "Traditional Zen proverb"
   },
   {
     "slug": "proverb-plunge-into-poison",
     "type": "proverb",
-    "author_slug": "shakyamuni-buddha",
+    "author_slug": "unknown",
     "collection": "Traditional Zen Proverbs",
     "era": "Tang",
-    "attribution_status": "traditional",
-    "themes": ["practice", "paradox"],
+    "attribution_status": "unresolved",
+    "themes": [
+      "practice",
+      "paradox"
+    ],
     "locale": "en",
     "title": "Plunge into the Poison",
     "content": "Plunge into the poison to discover the antidote.",
@@ -745,7 +941,8 @@
     "ingestion_run_id": "run_standalone_teachings",
     "locator": "Traditional Zen proverb",
     "license_status": "public_domain",
-    "master_roles": []
+    "master_roles": [],
+    "compiler": "Traditional Zen proverb"
   },
   {
     "slug": "proverb-hakuin-truth-near",
@@ -754,7 +951,11 @@
     "collection": "Sayings of Hakuin",
     "era": "Edo",
     "attribution_status": "verified",
-    "themes": ["mind", "practice", "paradox"],
+    "themes": [
+      "mind",
+      "practice",
+      "paradox"
+    ],
     "locale": "en",
     "title": "Not Knowing How Near the Truth Is",
     "content": "Not knowing how near the truth is, we seek it far away.",
@@ -763,7 +964,10 @@
     "locator": "Zazen Wasan, selected verse",
     "license_status": "public_domain",
     "master_roles": [
-      { "slug": "hakuin-ekaku", "role": "attributed_to" }
+      {
+        "slug": "hakuin-ekaku",
+        "role": "attributed_to"
+      }
     ]
   },
   {
@@ -773,7 +977,10 @@
     "collection": "Sayings of Hakuin",
     "era": "Edo",
     "attribution_status": "verified",
-    "themes": ["practice", "daily-life"],
+    "themes": [
+      "practice",
+      "daily-life"
+    ],
     "locale": "en",
     "title": "Meditation in Activity",
     "content": "Meditation in the midst of activity is a thousand times superior to meditation in stillness.",
@@ -782,7 +989,10 @@
     "locator": "Sayings of Hakuin",
     "license_status": "public_domain",
     "master_roles": [
-      { "slug": "hakuin-ekaku", "role": "attributed_to" }
+      {
+        "slug": "hakuin-ekaku",
+        "role": "attributed_to"
+      }
     ]
   },
   {
@@ -792,7 +1002,10 @@
     "collection": "Zen Mind, Beginner's Mind",
     "era": "Contemporary",
     "attribution_status": "verified",
-    "themes": ["practice", "letting-go"],
+    "themes": [
+      "practice",
+      "letting-go"
+    ],
     "locale": "en",
     "title": "Burn Yourself Completely",
     "content": "When you do something, you should burn yourself up completely, like a good bonfire, leaving no trace of yourself.",
@@ -801,7 +1014,10 @@
     "locator": "Zen Mind, Beginner's Mind",
     "license_status": "fair_use",
     "master_roles": [
-      { "slug": "shunryu-suzuki", "role": "attributed_to" }
+      {
+        "slug": "shunryu-suzuki",
+        "role": "attributed_to"
+      }
     ]
   },
   {
@@ -811,7 +1027,11 @@
     "collection": "Zen Mind, Beginner's Mind",
     "era": "Contemporary",
     "attribution_status": "verified",
-    "themes": ["mind", "practice", "emptiness"],
+    "themes": [
+      "mind",
+      "practice",
+      "emptiness"
+    ],
     "locale": "en",
     "title": "If Your Mind Is Empty",
     "content": "If your mind is empty, it is always ready for anything. It is open to everything.",
@@ -820,7 +1040,10 @@
     "locator": "Zen Mind, Beginner's Mind",
     "license_status": "fair_use",
     "master_roles": [
-      { "slug": "shunryu-suzuki", "role": "attributed_to" }
+      {
+        "slug": "shunryu-suzuki",
+        "role": "attributed_to"
+      }
     ]
   },
   {
@@ -830,7 +1053,10 @@
     "collection": "Zen Mind, Beginner's Mind",
     "era": "Contemporary",
     "attribution_status": "verified",
-    "themes": ["practice", "daily-life"],
+    "themes": [
+      "practice",
+      "daily-life"
+    ],
     "locale": "en",
     "title": "Zen Is Concentration on Routine",
     "content": "Zen is not some kind of excitement, but concentration on our usual everyday routine.",
@@ -839,7 +1065,10 @@
     "locator": "Zen Mind, Beginner's Mind",
     "license_status": "fair_use",
     "master_roles": [
-      { "slug": "shunryu-suzuki", "role": "attributed_to" }
+      {
+        "slug": "shunryu-suzuki",
+        "role": "attributed_to"
+      }
     ]
   },
   {
@@ -849,7 +1078,10 @@
     "collection": "Zen Mind, Beginner's Mind",
     "era": "Contemporary",
     "attribution_status": "verified",
-    "themes": ["practice", "mind"],
+    "themes": [
+      "practice",
+      "mind"
+    ],
     "locale": "en",
     "title": "Accept Yourself",
     "content": "The most important point is to accept yourself and stand on your own two feet.",
@@ -858,7 +1090,10 @@
     "locator": "Zen Mind, Beginner's Mind",
     "license_status": "fair_use",
     "master_roles": [
-      { "slug": "shunryu-suzuki", "role": "attributed_to" }
+      {
+        "slug": "shunryu-suzuki",
+        "role": "attributed_to"
+      }
     ]
   },
   {
@@ -868,7 +1103,10 @@
     "collection": "Record of Bankei",
     "era": "Edo",
     "attribution_status": "verified",
-    "themes": ["mind", "letting-go"],
+    "themes": [
+      "mind",
+      "letting-go"
+    ],
     "locale": "en",
     "title": "Don't Side with Yourself",
     "content": "Don't side with yourself.",
@@ -877,7 +1115,10 @@
     "locator": "Record of Bankei",
     "license_status": "public_domain",
     "master_roles": [
-      { "slug": "bankei-yotaku", "role": "attributed_to" }
+      {
+        "slug": "bankei-yotaku",
+        "role": "attributed_to"
+      }
     ]
   },
   {
@@ -887,7 +1128,10 @@
     "collection": "Poems of Ikkyu",
     "era": "Muromachi",
     "attribution_status": "verified",
-    "themes": ["letting-go", "mind"],
+    "themes": [
+      "letting-go",
+      "mind"
+    ],
     "locale": "en",
     "title": "Having No Destination",
     "content": "Having no destination, I am never lost.",
@@ -896,7 +1140,10 @@
     "locator": "Poems of Ikkyu",
     "license_status": "public_domain",
     "master_roles": [
-      { "slug": "ikkyu-sojun", "role": "attributed_to" }
+      {
+        "slug": "ikkyu-sojun",
+        "role": "attributed_to"
+      }
     ]
   },
   {
@@ -906,7 +1153,11 @@
     "collection": "Poems of Ikkyu",
     "era": "Muromachi",
     "attribution_status": "verified",
-    "themes": ["nature", "practice", "daily-life"],
+    "themes": [
+      "nature",
+      "practice",
+      "daily-life"
+    ],
     "locale": "en",
     "title": "Love Letters of Wind and Rain",
     "content": "Every day, priests minutely examine the Dharma and endlessly chant sutras. Before doing that, they should learn how to read the love letters sent by the wind and rain, the snow and moon.",
@@ -915,7 +1166,10 @@
     "locator": "Poems of Ikkyu",
     "license_status": "public_domain",
     "master_roles": [
-      { "slug": "ikkyu-sojun", "role": "attributed_to" }
+      {
+        "slug": "ikkyu-sojun",
+        "role": "attributed_to"
+      }
     ]
   },
   {
@@ -925,7 +1179,10 @@
     "collection": "Mud and Water",
     "era": "Muromachi",
     "attribution_status": "verified",
-    "themes": ["mind", "practice"],
+    "themes": [
+      "mind",
+      "practice"
+    ],
     "locale": "en",
     "title": "Look Directly",
     "content": "Look directly! What is this? Look in this manner and you won't be fooled.",
@@ -934,7 +1191,10 @@
     "locator": "Mud and Water",
     "license_status": "public_domain",
     "master_roles": [
-      { "slug": "bassui-tokusho", "role": "attributed_to" }
+      {
+        "slug": "bassui-tokusho",
+        "role": "attributed_to"
+      }
     ]
   },
   {
@@ -944,7 +1204,11 @@
     "collection": "Mud and Water",
     "era": "Muromachi",
     "attribution_status": "verified",
-    "themes": ["mind", "practice", "enlightenment"],
+    "themes": [
+      "mind",
+      "practice",
+      "enlightenment"
+    ],
     "locale": "en",
     "title": "Who Is Hearing?",
     "content": "Who is hearing that sound?",
@@ -953,7 +1217,10 @@
     "locator": "Mud and Water",
     "license_status": "public_domain",
     "master_roles": [
-      { "slug": "bassui-tokusho", "role": "attributed_to" }
+      {
+        "slug": "bassui-tokusho",
+        "role": "attributed_to"
+      }
     ]
   },
   {
@@ -963,7 +1230,10 @@
     "collection": "Record of Linji",
     "era": "Tang",
     "attribution_status": "verified",
-    "themes": ["practice", "daily-life"],
+    "themes": [
+      "practice",
+      "daily-life"
+    ],
     "locale": "en",
     "title": "When You Meet a Swordsman",
     "content": "When you meet a swordsman, draw your sword. Do not offer a poem to someone who is not a poet.",
@@ -972,7 +1242,10 @@
     "locator": "Record of Linji",
     "license_status": "public_domain",
     "master_roles": [
-      { "slug": "linji-yixuan", "role": "attributed_to" }
+      {
+        "slug": "linji-yixuan",
+        "role": "attributed_to"
+      }
     ]
   },
   {
@@ -982,7 +1255,11 @@
     "collection": "Chuanxin Fayao",
     "era": "Tang",
     "attribution_status": "verified",
-    "themes": ["mind", "letting-go", "practice"],
+    "themes": [
+      "mind",
+      "letting-go",
+      "practice"
+    ],
     "locale": "en",
     "title": "Cease to Cherish Opinions",
     "content": "Do not search for the truth. Only cease to cherish opinions.",
@@ -991,7 +1268,10 @@
     "locator": "Chuanxin Fayao",
     "license_status": "public_domain",
     "master_roles": [
-      { "slug": "huangbo-xiyun", "role": "attributed_to" }
+      {
+        "slug": "huangbo-xiyun",
+        "role": "attributed_to"
+      }
     ]
   },
   {
@@ -1001,7 +1281,11 @@
     "collection": "Xinxinming",
     "era": "Sui",
     "attribution_status": "verified",
-    "themes": ["mind", "practice", "letting-go"],
+    "themes": [
+      "mind",
+      "practice",
+      "letting-go"
+    ],
     "locale": "en",
     "title": "No Preferences",
     "content": "The Great Way is not difficult for those who have no preferences.",
@@ -1010,7 +1294,10 @@
     "locator": "Xinxinming",
     "license_status": "public_domain",
     "master_roles": [
-      { "slug": "jianzhi-sengcan", "role": "attributed_to" }
+      {
+        "slug": "jianzhi-sengcan",
+        "role": "attributed_to"
+      }
     ]
   },
   {
@@ -1020,7 +1307,11 @@
     "collection": "Shobogenzo",
     "era": "Kamakura",
     "attribution_status": "verified",
-    "themes": ["enlightenment", "mind", "paradox"],
+    "themes": [
+      "enlightenment",
+      "mind",
+      "paradox"
+    ],
     "locale": "en",
     "title": "Not Aware of Enlightenment",
     "content": "Do not think you will necessarily be aware of your own enlightenment.",
@@ -1029,7 +1320,10 @@
     "locator": "Shobogenzo",
     "license_status": "public_domain",
     "master_roles": [
-      { "slug": "dogen", "role": "attributed_to" }
+      {
+        "slug": "dogen",
+        "role": "attributed_to"
+      }
     ]
   },
   {
@@ -1039,7 +1333,10 @@
     "collection": "Shobogenzo",
     "era": "Kamakura",
     "attribution_status": "verified",
-    "themes": ["practice", "daily-life"],
+    "themes": [
+      "practice",
+      "daily-life"
+    ],
     "locale": "en",
     "title": "Continuous Practice",
     "content": "Continuous practice, day after day, is the most appropriate way of expressing gratitude.",
@@ -1048,7 +1345,10 @@
     "locator": "Shobogenzo",
     "license_status": "public_domain",
     "master_roles": [
-      { "slug": "dogen", "role": "attributed_to" }
+      {
+        "slug": "dogen",
+        "role": "attributed_to"
+      }
     ]
   },
   {
@@ -1058,7 +1358,11 @@
     "collection": "Shobogenzo",
     "era": "Kamakura",
     "attribution_status": "verified",
-    "themes": ["impermanence", "nature", "letting-go"],
+    "themes": [
+      "impermanence",
+      "nature",
+      "letting-go"
+    ],
     "locale": "en",
     "title": "Flowers Fall",
     "content": "Flowers fall amid our longing, and weeds spring up amid our antipathy.",
@@ -1067,7 +1371,10 @@
     "locator": "Shobogenzo",
     "license_status": "public_domain",
     "master_roles": [
-      { "slug": "dogen", "role": "attributed_to" }
+      {
+        "slug": "dogen",
+        "role": "attributed_to"
+      }
     ]
   },
   {
@@ -1077,7 +1384,11 @@
     "collection": "Platform Sutra",
     "era": "Tang",
     "attribution_status": "verified",
-    "themes": ["mind", "emptiness", "enlightenment"],
+    "themes": [
+      "mind",
+      "emptiness",
+      "enlightenment"
+    ],
     "locale": "en",
     "title": "Your Original Face",
     "content": "What was your original face before your parents were born?",
@@ -1086,7 +1397,10 @@
     "locator": "Platform Sutra",
     "license_status": "public_domain",
     "master_roles": [
-      { "slug": "dajian-huineng", "role": "attributed_to" }
+      {
+        "slug": "dajian-huineng",
+        "role": "attributed_to"
+      }
     ]
   },
   {
@@ -1096,7 +1410,10 @@
     "collection": "Platform Sutra",
     "era": "Tang",
     "attribution_status": "verified",
-    "themes": ["mind", "non-duality"],
+    "themes": [
+      "mind",
+      "non-duality"
+    ],
     "locale": "en",
     "title": "It Is Your Mind That Moves",
     "content": "It is not the wind that moves. It is not the flag that moves. It is your mind that moves.",
@@ -1105,7 +1422,10 @@
     "locator": "Platform Sutra",
     "license_status": "public_domain",
     "master_roles": [
-      { "slug": "dajian-huineng", "role": "attributed_to" }
+      {
+        "slug": "dajian-huineng",
+        "role": "attributed_to"
+      }
     ]
   },
   {
@@ -1115,7 +1435,11 @@
     "collection": "Mumonkan",
     "era": "Song",
     "attribution_status": "verified",
-    "themes": ["nature", "daily-life", "letting-go"],
+    "themes": [
+      "nature",
+      "daily-life",
+      "letting-go"
+    ],
     "locale": "en",
     "title": "Every Season Is a Good Season",
     "content": "In spring, hundreds of flowers. In autumn, the moon. In summer, a cool breeze. In winter, snow. If useless things do not clog your mind, every season is a good season.",
@@ -1124,7 +1448,10 @@
     "locator": "Mumonkan",
     "license_status": "public_domain",
     "master_roles": [
-      { "slug": "wumen-huikai", "role": "attributed_to" }
+      {
+        "slug": "wumen-huikai",
+        "role": "attributed_to"
+      }
     ]
   },
   {
@@ -1134,7 +1461,11 @@
     "collection": "Letters of Dahui",
     "era": "Song",
     "attribution_status": "verified",
-    "themes": ["practice", "mind", "enlightenment"],
+    "themes": [
+      "practice",
+      "mind",
+      "enlightenment"
+    ],
     "locale": "en",
     "title": "Make Your Mind Bright",
     "content": "Just make your mind bright and clear. One day you will get it, and you will know it was always right there.",
@@ -1143,7 +1474,10 @@
     "locator": "Letters of Dahui",
     "license_status": "public_domain",
     "master_roles": [
-      { "slug": "dahui-zonggao", "role": "attributed_to" }
+      {
+        "slug": "dahui-zonggao",
+        "role": "attributed_to"
+      }
     ]
   },
   {
@@ -1153,7 +1487,10 @@
     "collection": "Hongzhi Guanglu",
     "era": "Song",
     "attribution_status": "verified",
-    "themes": ["practice", "mind"],
+    "themes": [
+      "practice",
+      "mind"
+    ],
     "locale": "en",
     "title": "In Silence, In Clarity",
     "content": "In silence, words are forgotten. In clarity, things appear.",
@@ -1162,7 +1499,10 @@
     "locator": "Hongzhi Guanglu",
     "license_status": "public_domain",
     "master_roles": [
-      { "slug": "hongzhi-zhengjue", "role": "attributed_to" }
+      {
+        "slug": "hongzhi-zhengjue",
+        "role": "attributed_to"
+      }
     ]
   },
   {
@@ -1172,7 +1512,11 @@
     "collection": "Record of Dongshan",
     "era": "Tang",
     "attribution_status": "verified",
-    "themes": ["practice", "mind", "enlightenment"],
+    "themes": [
+      "practice",
+      "mind",
+      "enlightenment"
+    ],
     "locale": "en",
     "title": "Truth Outside Yourself",
     "content": "If you look for the truth outside yourself, it gets farther and farther away.",
@@ -1181,7 +1525,10 @@
     "locator": "Record of Dongshan",
     "license_status": "public_domain",
     "master_roles": [
-      { "slug": "dongshan-liangjie", "role": "attributed_to" }
+      {
+        "slug": "dongshan-liangjie",
+        "role": "attributed_to"
+      }
     ]
   },
   {
@@ -1191,7 +1538,10 @@
     "collection": "Record of Yunmen",
     "era": "Five Dynasties",
     "attribution_status": "verified",
-    "themes": ["paradox", "practice"],
+    "themes": [
+      "paradox",
+      "practice"
+    ],
     "locale": "en",
     "title": "Why Put on Your Robe?",
     "content": "The whole world is vast and wide. Why do you put on your robe at the sound of a bell?",
@@ -1200,7 +1550,10 @@
     "locator": "Record of Yunmen",
     "license_status": "public_domain",
     "master_roles": [
-      { "slug": "yunmen-wenyan", "role": "attributed_to" }
+      {
+        "slug": "yunmen-wenyan",
+        "role": "attributed_to"
+      }
     ]
   },
   {
@@ -1210,7 +1563,11 @@
     "collection": "Instant Zen",
     "era": "Song",
     "attribution_status": "verified",
-    "themes": ["practice", "mind", "daily-life"],
+    "themes": [
+      "practice",
+      "mind",
+      "daily-life"
+    ],
     "locale": "en",
     "title": "Right and Wrong",
     "content": "If you want to know right and wrong, consider your own situation carefully.",
@@ -1219,7 +1576,10 @@
     "locator": "Instant Zen",
     "license_status": "public_domain",
     "master_roles": [
-      { "slug": "foyan-qingyuan", "role": "attributed_to" }
+      {
+        "slug": "foyan-qingyuan",
+        "role": "attributed_to"
+      }
     ]
   },
   {
@@ -1229,7 +1589,10 @@
     "collection": "Teachings of Taisen Deshimaru",
     "era": "Contemporary",
     "attribution_status": "verified",
-    "themes": ["practice", "mind"],
+    "themes": [
+      "practice",
+      "mind"
+    ],
     "locale": "en",
     "title": "Observe Your Own Mind",
     "content": "You do not need to search for the truth. You only need to observe your own mind.",
@@ -1238,7 +1601,10 @@
     "locator": "Teachings of Taisen Deshimaru",
     "license_status": "fair_use",
     "master_roles": [
-      { "slug": "taisen-deshimaru", "role": "attributed_to" }
+      {
+        "slug": "taisen-deshimaru",
+        "role": "attributed_to"
+      }
     ]
   },
   {
@@ -1248,7 +1614,10 @@
     "collection": "To You (Anata ni)",
     "era": "Contemporary",
     "attribution_status": "verified",
-    "themes": ["practice", "mind"],
+    "themes": [
+      "practice",
+      "mind"
+    ],
     "locale": "en",
     "title": "Zazen Is the Self",
     "content": "Zazen is the self making the self into the self.",
@@ -1257,7 +1626,10 @@
     "locator": "To You (Anata ni)",
     "license_status": "fair_use",
     "master_roles": [
-      { "slug": "kodo-sawaki", "role": "attributed_to" }
+      {
+        "slug": "kodo-sawaki",
+        "role": "attributed_to"
+      }
     ]
   },
   {
@@ -1267,7 +1639,11 @@
     "collection": "Zhengdaoge",
     "era": "Tang",
     "attribution_status": "verified",
-    "themes": ["practice", "daily-life", "mind"],
+    "themes": [
+      "practice",
+      "daily-life",
+      "mind"
+    ],
     "locale": "en",
     "title": "In Walking, Just Walk",
     "content": "In walking, just walk. In sitting, just sit. Above all, don't wobble.",
@@ -1276,7 +1652,10 @@
     "locator": "Zhengdaoge",
     "license_status": "public_domain",
     "master_roles": [
-      { "slug": "yongjia-xuanjue", "role": "attributed_to" }
+      {
+        "slug": "yongjia-xuanjue",
+        "role": "attributed_to"
+      }
     ]
   }
 ]
