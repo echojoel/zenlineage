@@ -443,10 +443,10 @@ export const MAEZUMI_INCOMING_TRANSMISSIONS: Array<{
   {
     studentSlug: "taizan-maezumi",
     teacherSlug: "baian-hakujun-kuroda",
-    type: "primary",
-    isPrimary: true,
+    type: "dharma",
+    isPrimary: false,
     notes:
-      "Primary Soto dharma transmission from his father, the abbot of Koshin-ji.",
+      "Soto dharma transmission from his father, the abbot of Koshin-ji. Marked non-primary because Maezumi's White Plum lineage flows from Yasutani Hakuun (Sanbo-Zen), and a master may have at most one primary incoming transmission.",
     sourceIds: ["src_whiteplum", "src_zcla_maezumi_founders"],
   },
   {
