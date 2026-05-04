@@ -179,6 +179,7 @@ async function runAudit(): Promise<{ issues: Issue[]; summary: Record<string, nu
         authorId: teachings.authorId,
         type: teachings.type,
         attributionStatus: teachings.attributionStatus,
+        compiler: teachings.compiler,
       })
       .from(teachings),
     db
@@ -421,10 +422,16 @@ async function runAudit(): Promise<{ issues: Issue[]; summary: Record<string, nu
   }
 
   // ---- Orphan teachings: no authorId and no teaching_master_roles entry ----
+  // A teaching marked attribution_status="traditional" with a non-null
+  // compiler is a documented anonymous saying recorded in a named anthology
+  // (e.g. Zenrin Kushu). That is a legitimate, scholarly form of attribution
+  // ("traditional saying recorded by X"), not an oversight, so we don't flag
+  // it as unattributed.
   const teachingsWithRoles = new Set(allTeachingRoles.map((r) => r.teachingId));
   for (const t of allTeachings) {
     if (t.authorId) continue;
     if (teachingsWithRoles.has(t.id)) continue;
+    if (t.attributionStatus === "traditional" && t.compiler) continue;
     issues.push({
       severity: "WARNING",
       category: "teaching-unattributed",

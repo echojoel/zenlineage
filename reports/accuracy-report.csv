@@ -28,50 +28,6 @@ WARNING,native-script-missing,tier1,master,vasasita,pSb9_Qob0HVVHAJ9ofchR,names:
 WARNING,native-script-missing,tier1,master,vasubandhu,UrW-WoQSXfuZ_BI68riTM,names:devanagari,School=indian-patriarchs expects a name in [devanagari] but no name contains characters in those ranges.
 WARNING,native-script-missing,tier1,master,vasumitra,XrxqdmN0CWreWdHqvkO67,names:devanagari,School=indian-patriarchs expects a name in [devanagari] but no name contains characters in those ranges.
 WARNING,native-script-missing,tier1,master,yunyan-tansheng,QOda3cU5XErQnAadR7KXd,names:cjk,School=qingyuan-line expects a name in [cjk] but no name contains characters in those ranges.
-WARNING,teaching-unattributed,,teaching,proverb-all-know-the-way,BqpZEpx6nsBcw6Jzzcqpm,,No author_id and no teaching_master_roles row. Who said this?
-WARNING,teaching-unattributed,,teaching,proverb-arrow-left-bow,4H6BWBnzUpgrPfiXy_9yh,,No author_id and no teaching_master_roles row. Who said this?
-WARNING,teaching-unattributed,,teaching,proverb-bamboo-forest-dense,VB_LJCue_mUb4rkqUFIEW,,No author_id and no teaching_master_roles row. Who said this?
-WARNING,teaching-unattributed,,teaching,proverb-bamboo-shadows,LDmYwyu6zq9n5pu6ADPeM,,No author_id and no teaching_master_roles row. Who said this?
-WARNING,teaching-unattributed,,teaching,proverb-before-bell-rings,RjdD1PYMWxpdFys7rBayt,,No author_id and no teaching_master_roles row. Who said this?
-WARNING,teaching-unattributed,,teaching,proverb-blue-mountains,wHHm-SkT2IGc_Ik3JMMVg,,No author_id and no teaching_master_roles row. Who said this?
-WARNING,teaching-unattributed,,teaching,proverb-cast-off-realized,5BsNMFQ50OYOIfbA-njXz,,No author_id and no teaching_master_roles row. Who said this?
-WARNING,teaching-unattributed,,teaching,proverb-clear-water-bottom,n6p_LQiibf-tht2PvyZyJ,,No author_id and no teaching_master_roles row. Who said this?
-WARNING,teaching-unattributed,,teaching,proverb-clouds-come-and-go,1wDYk4XV21M-9opPp6hFJ,,No author_id and no teaching_master_roles row. Who said this?
-WARNING,teaching-unattributed,,teaching,proverb-drink-tea-slowly,PvBpueFPwxCHr6JziXIA3,,No author_id and no teaching_master_roles row. Who said this?
-WARNING,teaching-unattributed,,teaching,proverb-drinks-water-knows,RWt8WPvCRAAKMlsVIrAVc,,No author_id and no teaching_master_roles row. Who said this?
-WARNING,teaching-unattributed,,teaching,proverb-entering-the-forest,MiwnBnhkMeT23V8NvHruF,,No author_id and no teaching_master_roles row. Who said this?
-WARNING,teaching-unattributed,,teaching,proverb-fall-seven-times,9KAGtzcuC0xRGrGj2Lygz,,No author_id and no teaching_master_roles row. Who said this?
-WARNING,teaching-unattributed,,teaching,proverb-frog-in-well,teTPEmJ0N9fuzT_IKcbpp,,No author_id and no teaching_master_roles row. Who said this?
-WARNING,teaching-unattributed,,teaching,proverb-great-path-no-gate,XwTbKXhzTK-YCoaHNj5bS,,No author_id and no teaching_master_roles row. Who said this?
-WARNING,teaching-unattributed,,teaching,proverb-hundred-foot-pole,npJfU8G_ZrCHpGs0RNG8e,,No author_id and no teaching_master_roles row. Who said this?
-WARNING,teaching-unattributed,,teaching,proverb-inch-of-time,Op0dt17YJbED_clsDsDDN,,No author_id and no teaching_master_roles row. Who said this?
-WARNING,teaching-unattributed,,teaching,proverb-iron-tree-blooms,NBWqxOjwUWKiMjXi6mNvA,,No author_id and no teaching_master_roles row. Who said this?
-WARNING,teaching-unattributed,,teaching,proverb-knock-on-sky,g0peKvFIA73jMrQfgOJXf,,No author_id and no teaching_master_roles row. Who said this?
-WARNING,teaching-unattributed,,teaching,proverb-landscape-of-spring,X4wA9BmHvYKABucMCNhfQ,,No author_id and no teaching_master_roles row. Who said this?
-WARNING,teaching-unattributed,,teaching,proverb-lotus-muddy-water,YAYXrKlIYaCPLAny4Dlvr,,No author_id and no teaching_master_roles row. Who said this?
-WARNING,teaching-unattributed,,teaching,proverb-moon-not-think-reflected,1bD6xyIzweUZWgE9lPMJI,,No author_id and no teaching_master_roles row. Who said this?
-WARNING,teaching-unattributed,,teaching,proverb-moon-river-wind-pines,uEP9YHa4E3dJk-nMbg_-Y,,No author_id and no teaching_master_roles row. Who said this?
-WARNING,teaching-unattributed,,teaching,proverb-move-way-will-open,HMuPs_AlZFtbFpYcFn8xh,,No author_id and no teaching_master_roles row. Who said this?
-WARNING,teaching-unattributed,,teaching,proverb-not-twice-this-day,eIfdrsdgB4lbJymWa9pNl,,No author_id and no teaching_master_roles row. Who said this?
-WARNING,teaching-unattributed,,teaching,proverb-plunge-into-poison,IcB9JXYph1UirjZBliM4C,,No author_id and no teaching_master_roles row. Who said this?
-WARNING,teaching-unattributed,,teaching,proverb-put-heart-at-rest,sDkOkxmLvRLZsVsppVT52,,No author_id and no teaching_master_roles row. Who said this?
-WARNING,teaching-unattributed,,teaching,proverb-return-to-root,5LNNbtmlZWhU8QMqDEYug,,No author_id and no teaching_master_roles row. Who said this?
-WARNING,teaching-unattributed,,teaching,proverb-reverse-side,qBjTKG218fsYOZmXHmITc,,No author_id and no teaching_master_roles row. Who said this?
-WARNING,teaching-unattributed,,teaching,proverb-ride-horse-sword-edge,2J1Sz2t1hIZ1kiQuIa177,,No author_id and no teaching_master_roles row. Who said this?
-WARNING,teaching-unattributed,,teaching,proverb-scoop-up-water,cvOywsu5QJkT8r0xEc8-q,,No author_id and no teaching_master_roles row. Who said this?
-WARNING,teaching-unattributed,,teaching,proverb-sheet-of-paper,5Vn3VPSXAktZxCkAreflm,,No author_id and no teaching_master_roles row. Who said this?
-WARNING,teaching-unattributed,,teaching,proverb-single-leaf-falls,fBWSDUQrzQohTCP2fx1h5,,No author_id and no teaching_master_roles row. Who said this?
-WARNING,teaching-unattributed,,teaching,proverb-sitting-quietly-not-waiting,GG5aXJ8-BdEBOx_q9k6hx,,No author_id and no teaching_master_roles row. Who said this?
-WARNING,teaching-unattributed,,teaching,proverb-snow-plum-tree,zjNhvrd1HLh1pxG-nWlT2,,No author_id and no teaching_master_roles row. Who said this?
-WARNING,teaching-unattributed,,teaching,proverb-spring-rain-soaks,uS50Dk6zUOiuBIaOTUPWx,,No author_id and no teaching_master_roles row. Who said this?
-WARNING,teaching-unattributed,,teaching,proverb-student-ready-teacher,jv44AWheJJr6H1Fya72S7,,No author_id and no teaching_master_roles row. Who said this?
-WARNING,teaching-unattributed,,teaching,proverb-thief-left-it-behind,N36RzdtUrIqRUwTcJiggY,,No author_id and no teaching_master_roles row. Who said this?
-WARNING,teaching-unattributed,,teaching,proverb-thousand-mountains,i7BRqe4iFacwTJ0rzJgmC,,No author_id and no teaching_master_roles row. Who said this?
-WARNING,teaching-unattributed,,teaching,proverb-vast-inane,mn0K-V2484m48gW0Z_fCa,,No author_id and no teaching_master_roles row. Who said this?
-WARNING,teaching-unattributed,,teaching,proverb-wild-geese-reflection,Dxzqw0oaA7y8zNx05oSwG,,No author_id and no teaching_master_roles row. Who said this?
-WARNING,teaching-unattributed,,teaching,proverb-wind-blows-river-flows,je0Ejd5vI5fkiMpcYnAWL,,No author_id and no teaching_master_roles row. Who said this?
-WARNING,teaching-unattributed,,teaching,proverb-withered-stump-dragon,g1UfYtUULHfBYdE5uDVm3,,No author_id and no teaching_master_roles row. Who said this?
-WARNING,teaching-unattributed,,teaching,proverb-withered-tree-flower,L4wz1ShEPnGhut20ORkFQ,,No author_id and no teaching_master_roles row. Who said this?
 INFO,native-script-missing,other,master,baiyun-shouduan,O-M3m_XGgwVNBiKpNlzJ2,names:cjk,School=yangqi-line expects a name in [cjk] but no name contains characters in those ranges.
 INFO,native-script-missing,other,master,baizan-monpon,NmK847RayDk0rz8gPlcC4,names:cjk,School=soto expects a name in [cjk] but no name contains characters in those ranges.
 INFO,native-script-missing,other,master,baizhang-niepan,2le5Q31xg5eULcmP6E7pN,names:cjk,School=linji expects a name in [cjk] but no name contains characters in those ranges.

@@ -7,9 +7,9 @@ Field-level correctness gaps — uncited facts, missing uncertainty markers, una
 | severity | count | tier-1 count |
 |---|---:|---:|
 | CRITICAL | 0 | 0 |
-| WARNING | 73 | 29 |
+| WARNING | 29 | 29 |
 | INFO | 223 | — |
-| **total** | **296** | — |
+| **total** | **252** | — |
 
 **No CRITICAL issues.** Tier-1 masters have citations for the claims that are hardest to correct after-the-fact.
 
@@ -57,40 +57,3 @@ _…and 221 more. See `accuracy-report.csv` for the complete list._
 | severity | tier | entity | field | detail |
 |---|---|---|---|---|
 | INFO | — | `source/Wikipedia — temple articles with infobox coordinates` | — | Source reliability='popular'. Consider replacing with a scholarly source or downgrading claims that depend on it. |
-
-### teaching-unattributed (44)
-
-| severity | tier | entity | field | detail |
-|---|---|---|---|---|
-| WARNING | — | `teaching/proverb-all-know-the-way` | — | No author_id and no teaching_master_roles row. Who said this? |
-| WARNING | — | `teaching/proverb-arrow-left-bow` | — | No author_id and no teaching_master_roles row. Who said this? |
-| WARNING | — | `teaching/proverb-bamboo-forest-dense` | — | No author_id and no teaching_master_roles row. Who said this? |
-| WARNING | — | `teaching/proverb-bamboo-shadows` | — | No author_id and no teaching_master_roles row. Who said this? |
-| WARNING | — | `teaching/proverb-before-bell-rings` | — | No author_id and no teaching_master_roles row. Who said this? |
-| WARNING | — | `teaching/proverb-blue-mountains` | — | No author_id and no teaching_master_roles row. Who said this? |
-| WARNING | — | `teaching/proverb-cast-off-realized` | — | No author_id and no teaching_master_roles row. Who said this? |
-| WARNING | — | `teaching/proverb-clear-water-bottom` | — | No author_id and no teaching_master_roles row. Who said this? |
-| WARNING | — | `teaching/proverb-clouds-come-and-go` | — | No author_id and no teaching_master_roles row. Who said this? |
-| WARNING | — | `teaching/proverb-drink-tea-slowly` | — | No author_id and no teaching_master_roles row. Who said this? |
-| WARNING | — | `teaching/proverb-drinks-water-knows` | — | No author_id and no teaching_master_roles row. Who said this? |
-| WARNING | — | `teaching/proverb-entering-the-forest` | — | No author_id and no teaching_master_roles row. Who said this? |
-| WARNING | — | `teaching/proverb-fall-seven-times` | — | No author_id and no teaching_master_roles row. Who said this? |
-| WARNING | — | `teaching/proverb-frog-in-well` | — | No author_id and no teaching_master_roles row. Who said this? |
-| WARNING | — | `teaching/proverb-great-path-no-gate` | — | No author_id and no teaching_master_roles row. Who said this? |
-| WARNING | — | `teaching/proverb-hundred-foot-pole` | — | No author_id and no teaching_master_roles row. Who said this? |
-| WARNING | — | `teaching/proverb-inch-of-time` | — | No author_id and no teaching_master_roles row. Who said this? |
-| WARNING | — | `teaching/proverb-iron-tree-blooms` | — | No author_id and no teaching_master_roles row. Who said this? |
-| WARNING | — | `teaching/proverb-knock-on-sky` | — | No author_id and no teaching_master_roles row. Who said this? |
-| WARNING | — | `teaching/proverb-landscape-of-spring` | — | No author_id and no teaching_master_roles row. Who said this? |
-| WARNING | — | `teaching/proverb-lotus-muddy-water` | — | No author_id and no teaching_master_roles row. Who said this? |
-| WARNING | — | `teaching/proverb-moon-not-think-reflected` | — | No author_id and no teaching_master_roles row. Who said this? |
-| WARNING | — | `teaching/proverb-moon-river-wind-pines` | — | No author_id and no teaching_master_roles row. Who said this? |
-| WARNING | — | `teaching/proverb-move-way-will-open` | — | No author_id and no teaching_master_roles row. Who said this? |
-| WARNING | — | `teaching/proverb-not-twice-this-day` | — | No author_id and no teaching_master_roles row. Who said this? |
-| WARNING | — | `teaching/proverb-plunge-into-poison` | — | No author_id and no teaching_master_roles row. Who said this? |
-| WARNING | — | `teaching/proverb-put-heart-at-rest` | — | No author_id and no teaching_master_roles row. Who said this? |
-| WARNING | — | `teaching/proverb-return-to-root` | — | No author_id and no teaching_master_roles row. Who said this? |
-| WARNING | — | `teaching/proverb-reverse-side` | — | No author_id and no teaching_master_roles row. Who said this? |
-| WARNING | — | `teaching/proverb-ride-horse-sword-edge` | — | No author_id and no teaching_master_roles row. Who said this? |
-
-_…and 14 more. See `accuracy-report.csv` for the complete list._
