@@ -23,6 +23,7 @@ async function main() {
     teacherId: t.teacherId,
     type: t.type as TransmissionEdge["type"],
     isPrimary: t.isPrimary ?? false,
+    notes: t.notes ?? null,
   }));
 
   const masterDates: MasterDates[] = allMasters.map((m) => ({

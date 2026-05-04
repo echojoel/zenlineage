@@ -14,6 +14,19 @@ export interface TransmissionEdge {
   teacherId: string;
   type: "primary" | "secondary" | "disputed" | "dharma";
   isPrimary: boolean;
+  /**
+   * Free-form annotation. Edges whose notes begin with "Editorial bridge"
+   * are deliberate multi-generation skips when the direct teacher is not
+   * yet seeded; their temporal-overlap failures are emitted as warnings
+   * (not errors) so validation can still pass.
+   */
+  notes?: string | null;
+}
+
+const EDITORIAL_BRIDGE_PREFIX = "Editorial bridge";
+
+function isEditorialBridge(edge: TransmissionEdge): boolean {
+  return (edge.notes ?? "").trimStart().startsWith(EDITORIAL_BRIDGE_PREFIX);
 }
 
 export interface MasterDates {
@@ -205,12 +218,14 @@ export function checkTemporalConsistency(
       const overlap = teacher.deathYear! - student.birthYear!;
       if (overlap < 10) {
         const highConf = bothBirthHighConf && HIGH_CONFIDENCE.has(teacher.deathConfidence ?? "");
+        const bridge = isEditorialBridge(edge);
+        const messagePrefix = bridge ? "[editorial bridge] " : "";
         issues.push({
           type: "temporal",
-          message: `Insufficient lifespan overlap (${overlap} years) between teacher ${edge.teacherId} (d. ${teacher.deathYear}) and student ${edge.studentId} (b. ${student.birthYear}); need >= 10`,
+          message: `${messagePrefix}Insufficient lifespan overlap (${overlap} years) between teacher ${edge.teacherId} (d. ${teacher.deathYear}) and student ${edge.studentId} (b. ${student.birthYear}); need >= 10`,
           entityIds: [edge.id, edge.teacherId, edge.studentId],
         });
-        if (!highConf) {
+        if (!highConf || bridge) {
           issues[issues.length - 1]._warning = true;
         }
       }

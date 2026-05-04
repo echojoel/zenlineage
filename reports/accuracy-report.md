@@ -56,7 +56,7 @@ _…and 221 more. See `accuracy-report.csv` for the complete list._
 
 | severity | tier | entity | field | detail |
 |---|---|---|---|---|
-| INFO | — | `source/Wikipedia — temple articles with infobox coordinates` | — | Source reliability='popular'. Consider replacing with a scholarly source or downgrading claims that depend on it. |
+| INFO | — | `source/Wikipedia - Zen Lineage Charts` | — | Source reliability='popular'. Consider replacing with a scholarly source or downgrading claims that depend on it. |
 
 ### teaching-unattributed (44)
 
