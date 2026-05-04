@@ -19,7 +19,12 @@ import {
 import { formatDateWithPrecision } from "@/lib/date-format";
 import { getSchoolDefinition, type SchoolFootnote } from "@/lib/school-taxonomy";
 import { isTier1Master } from "@/lib/editorial-tiers";
-import { renderProseWithFootnotes, type FootnoteRef } from "@/lib/footnotes";
+import {
+  createCallSiteMap,
+  renderProseWithFootnotes,
+  renderSharedFootnoteList,
+  type FootnoteRef,
+} from "@/lib/footnotes";
 import { AccuracyFooter } from "@/components/AccuracyFooter";
 
 function schoolFootnotesToRefs(footnotes: SchoolFootnote[] | undefined): FootnoteRef[] {
@@ -273,6 +278,34 @@ export default async function SchoolDetailPage({ params }: { params: Promise<{ s
 
   const definition = getSchoolDefinition(slug);
 
+  // All inline citations on this page funnel into one shared call-site
+  // map and one consolidated Notes section at the bottom — Wikipedia
+  // style. The summary, the practice prose, and the prominent-master
+  // blurbs all draw from the same `definition.footnotes` array.
+  const sharedFootnoteRefs = schoolFootnotesToRefs(definition?.footnotes);
+  const sharedScope = `school-${slug}`;
+  const sharedCallSites = createCallSiteMap();
+  const renderShared = (text: string) =>
+    renderProseWithFootnotes(text, sharedFootnoteRefs, {
+      idScope: sharedScope,
+      callSites: sharedCallSites,
+    });
+
+  // Prominent-master entries from the curated taxonomy come with cited
+  // blurbs; if the school has none we fall back to the auto-derived
+  // tier-1 list (bare names + dates, no blurbs).
+  const prominentMasters = (definition?.prominentMasters ?? [])
+    .map((entry) => {
+      const master = schoolMasters.find((m) => m.slug === entry.slug);
+      if (!master) return null;
+      return {
+        master,
+        name: entry.name ?? masterNameMap.get(master.id) ?? master.slug,
+        blurb: entry.blurb,
+      };
+    })
+    .filter((entry): entry is NonNullable<typeof entry> => entry !== null);
+
   // School image
   const schoolImageRows = await db
     .select({
@@ -379,12 +412,8 @@ export default async function SchoolDetailPage({ params }: { params: Promise<{ s
           </div>
           <div className="detail-summary">
             {definition?.summary ? (
-              definition.footnotes && definition.footnotes.length > 0 ? (
-                renderProseWithFootnotes(
-                  definition.summary,
-                  schoolFootnotesToRefs(definition.footnotes),
-                  { idScope: `school-${slug}-summary` }
-                )
+              sharedFootnoteRefs.length > 0 ? (
+                renderShared(definition.summary)
               ) : (
                 <p>{definition.summary}</p>
               )
@@ -401,36 +430,55 @@ export default async function SchoolDetailPage({ params }: { params: Promise<{ s
           <section className="detail-card">
             <h3 className="detail-section-title">Meditation practice</h3>
             <div className="detail-summary">
-              {definition.footnotes && definition.footnotes.length > 0 ? (
-                renderProseWithFootnotes(
-                  definition.practice,
-                  schoolFootnotesToRefs(definition.footnotes),
-                  { idScope: `school-${slug}-practice`, showHeader: false }
-                )
+              {sharedFootnoteRefs.length > 0 ? (
+                renderShared(definition.practice)
               ) : (
                 <p>{definition.practice}</p>
               )}
             </div>
-            {tier1Masters.length > 0 && (
+            {prominentMasters.length > 0 ? (
               <>
                 <h4 className="detail-subsection-title" style={{ marginTop: "1.25rem" }}>
                   Prominent masters
                 </h4>
                 <ul className="detail-link-list">
-                  {tier1Masters.map((m) => (
-                    <li key={m.id}>
-                      <Link href={`/masters/${m.slug}`}>
-                        {masterNameMap.get(m.id) ?? m.slug}
-                      </Link>
-                      {(m.birthYear || m.deathYear) && (
+                  {prominentMasters.map(({ master, name, blurb }) => (
+                    <li key={master.id}>
+                      <Link href={`/masters/${master.slug}`}>{name}</Link>
+                      {(master.birthYear || master.deathYear) && (
                         <span className="detail-list-meta">
-                          {m.birthYear ?? "?"} – {m.deathYear ?? "?"}
+                          {master.birthYear ?? "?"} – {master.deathYear ?? "?"}
                         </span>
                       )}
+                      <div className="detail-summary" style={{ marginTop: "0.4rem" }}>
+                        {renderShared(blurb)}
+                      </div>
                     </li>
                   ))}
                 </ul>
               </>
+            ) : (
+              tier1Masters.length > 0 && (
+                <>
+                  <h4 className="detail-subsection-title" style={{ marginTop: "1.25rem" }}>
+                    Prominent masters
+                  </h4>
+                  <ul className="detail-link-list">
+                    {tier1Masters.map((m) => (
+                      <li key={m.id}>
+                        <Link href={`/masters/${m.slug}`}>
+                          {masterNameMap.get(m.id) ?? m.slug}
+                        </Link>
+                        {(m.birthYear || m.deathYear) && (
+                          <span className="detail-list-meta">
+                            {m.birthYear ?? "?"} – {m.deathYear ?? "?"}
+                          </span>
+                        )}
+                      </li>
+                    ))}
+                  </ul>
+                </>
+              )
             )}
           </section>
         )}
@@ -610,6 +658,15 @@ export default async function SchoolDetailPage({ params }: { params: Promise<{ s
             </p>
           )}
         </section>
+
+        {sharedFootnoteRefs.length > 0 && (
+          <section className="detail-card">
+            {renderSharedFootnoteList(sharedFootnoteRefs, sharedCallSites, sharedScope, {
+              title: "Notes",
+              headingLevel: "h3",
+            })}
+          </section>
+        )}
 
         <AccuracyFooter
           entityType="school"

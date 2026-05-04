@@ -1,6 +1,11 @@
 import { describe, expect, it } from "vitest";
 import { renderToStaticMarkup } from "react-dom/server";
-import { renderProseWithFootnotes, type FootnoteRef } from "../src/lib/footnotes";
+import {
+  createCallSiteMap,
+  renderProseWithFootnotes,
+  renderSharedFootnoteList,
+  type FootnoteRef,
+} from "../src/lib/footnotes";
 
 const ref = (overrides: Partial<FootnoteRef> & { index: number }): FootnoteRef => ({
   index: overrides.index,
@@ -211,5 +216,87 @@ describe("renderProseWithFootnotes", () => {
     );
     expect(out).toContain('id="fnref-x-1-0"');
     expect(out).toContain('id="fnref-x-1-1"');
+  });
+});
+
+describe("renderProseWithFootnotes with a shared call-site map", () => {
+  it("does not emit an inline footnote list when callSites is supplied", () => {
+    const callSites = createCallSiteMap();
+    const out = renderToStaticMarkup(
+      renderProseWithFootnotes("Cite[1].", [ref({ index: 1 })], {
+        idScope: "x",
+        callSites,
+      })
+    );
+    expect(out).toContain('href="#fn-x-1"');
+    expect(out).not.toContain("<aside");
+    expect(out).not.toContain("<ol");
+  });
+
+  it("registers call-sites in the shared map for every cited marker", () => {
+    const callSites = createCallSiteMap();
+    renderToStaticMarkup(
+      renderProseWithFootnotes("First[1] then[2] then[1].", [ref({ index: 1 }), ref({ index: 2 })], {
+        idScope: "x",
+        callSites,
+      })
+    );
+    expect(callSites.get(1)?.length).toBe(2);
+    expect(callSites.get(2)?.length).toBe(1);
+  });
+
+  it("yields globally-unique call-site ids across multiple prose blocks", () => {
+    const callSites = createCallSiteMap();
+    renderToStaticMarkup(
+      renderProseWithFootnotes("Block A[1].", [ref({ index: 1 })], {
+        idScope: "x",
+        callSites,
+      })
+    );
+    renderToStaticMarkup(
+      renderProseWithFootnotes("Block B[1].", [ref({ index: 1 })], {
+        idScope: "x",
+        callSites,
+      })
+    );
+    const ids = callSites.get(1) ?? [];
+    expect(ids.length).toBe(2);
+    expect(new Set(ids).size).toBe(2); // all unique
+  });
+});
+
+describe("renderSharedFootnoteList", () => {
+  it("renders one consolidated <ol> with backrefs for every recorded call-site", () => {
+    const callSites = createCallSiteMap();
+    renderToStaticMarkup(
+      renderProseWithFootnotes(
+        "Block A[1] also[1] also[2].\n\nBlock B[1].",
+        [ref({ index: 1 }), ref({ index: 2 })],
+        { idScope: "page", callSites }
+      )
+    );
+    const out = renderToStaticMarkup(
+      renderSharedFootnoteList(
+        [ref({ index: 1, sourceTitle: "Source A" }), ref({ index: 2, sourceTitle: "Source B" })],
+        callSites,
+        "page"
+      )!
+    );
+    expect(out).toContain('id="fn-page-1"');
+    expect(out).toContain('id="fn-page-2"');
+    // Three call-sites for [1] → ↑ a b c letters
+    expect(out).toMatch(/>a<\/a>/);
+    expect(out).toMatch(/>b<\/a>/);
+    expect(out).toMatch(/>c<\/a>/);
+    // One call-site for [2] → single ↑
+    const arrowCount = (out.match(/↑/g) ?? []).length;
+    expect(arrowCount).toBeGreaterThanOrEqual(2);
+    expect(out).toContain("Source A");
+    expect(out).toContain("Source B");
+  });
+
+  it("returns null when given an empty refs array", () => {
+    const result = renderSharedFootnoteList([], createCallSiteMap(), "page");
+    expect(result).toBeNull();
   });
 });

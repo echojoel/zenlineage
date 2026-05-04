@@ -28,13 +28,27 @@ export interface SchoolKeyConcept {
 }
 
 export interface SchoolFootnote {
-  /** 1-based; matches `[N]` markers in `summary` and `practice`. */
+  /** 1-based; matches `[N]` markers in `summary`, `practice`, and
+   * `prominentMasters` blurbs. The same numeric scope is shared across
+   * all prose blocks on a school page so a single Notes section at the
+   * bottom can list every cited source exactly once. */
   index: number;
   sourceTitle: string;
   sourceUrl?: string;
   author?: string;
   pageOrSection?: string;
   excerpt?: string;
+}
+
+export interface SchoolProminentMaster {
+  /** Master slug — used to build the `/masters/{slug}` link. */
+  slug: string;
+  /** Display name override; falls back to whatever the masters table
+   * carries when omitted. */
+  name?: string;
+  /** Short cited blurb — one or two sentences, with `[N]` markers
+   * pointing into the school's shared `footnotes` array. */
+  blurb: string;
 }
 
 export interface SchoolDefinition {
@@ -45,9 +59,16 @@ export interface SchoolDefinition {
   aliases: string[];
   summary: string;
   practice?: string;
-  /** Inline references for `summary` and `practice` prose. Marker `[N]`
-   * in the text resolves to the entry whose `index === N`. */
+  /** Inline references for `summary`, `practice`, and the prominent-
+   * master blurbs. Marker `[N]` in any of those prose strings resolves
+   * to the entry whose `index === N`. The school page renders one
+   * consolidated Notes section at the bottom listing all footnotes. */
   footnotes?: SchoolFootnote[];
+  /** Hand-curated short blurbs about the school's most consequential
+   * masters. Each blurb may carry `[N]` markers backed by `footnotes`
+   * above. Rendered in the "Prominent masters" section of the school
+   * detail page in the order given. */
+  prominentMasters?: SchoolProminentMaster[];
   /** Canonical writings of this school — Shōbōgenzō, Linji Lu, etc.
    * Rendered in a dedicated section on the school detail page. */
   keyTexts?: SchoolKeyText[];
@@ -514,6 +535,41 @@ const SCHOOL_DEFINITIONS: SchoolDefinition[] = [
         author: "Dōgen, trans. Sōtōshū",
         sourceUrl: "https://global.sotozen-net.or.jp/eng/library/dogenzenji/023.html",
       },
+      {
+        index: 6,
+        sourceTitle: "Eihei Dōgen — Wikipedia",
+        sourceUrl: "https://en.wikipedia.org/wiki/D%C5%8Dgen",
+      },
+      {
+        index: 7,
+        sourceTitle: "Keizan Jōkin — Wikipedia",
+        sourceUrl: "https://en.wikipedia.org/wiki/Keizan",
+      },
+      {
+        index: 8,
+        sourceTitle: "Taizan Maezumi — White Plum Asanga (Founder)",
+        sourceUrl: "https://whiteplum.org/founder/",
+      },
+    ],
+    prominentMasters: [
+      {
+        slug: "dogen",
+        name: "Eihei Dōgen",
+        blurb:
+          "Founder of Japanese Sōtō. Travelled to Song China in 1223, received Caodong transmission from Tiantong Rujing, and returned to Japan in 1227 to establish the lineage[1][6]. Founded Eihei-ji in 1244 and authored the Shōbōgenzō and Fukan Zazengi, which together set out the Sōtō teaching that practice and realization are one[3][5].",
+      },
+      {
+        slug: "keizan-jokin",
+        name: "Keizan Jōkin",
+        blurb:
+          "The school's 'Great Ancestor' (Tai-so) and second founder. Established Sōji-ji — Sōtō's second head temple — and through ritual and outreach made the lineage accessible to a broad Japanese laity[1][7]. Authored the Denkōroku, the school's narrative of the 53 ancestors from Śākyamuni through Dōgen[7].",
+      },
+      {
+        slug: "baian-hakujun-kuroda",
+        name: "Baian Hakujun Kuroda",
+        blurb:
+          "Senior Sōtō priest and abbot of Kirigaya-ji in 20th-century Japan; gave Sōtō dharma transmission to his son Taizan Maezumi, who would carry the lineage to the United States and found the Zen Center of Los Angeles and the White Plum Asanga[8].",
+      },
     ],
     keyTexts: [
       {
@@ -615,9 +671,94 @@ const SCHOOL_DEFINITIONS: SchoolDefinition[] = [
     aliases: ["white plum asanga", "white plum", "hakubai"],
     nativeNames: { ja: "白梅" },
     summary:
-      "The White Plum Asanga (白梅, 'white plum blossom') is the lineage sangha of Taizan Maezumi Roshi (1931–1995) and his Dharma successors. It is not a Japanese Sōtōshū-registered sub-school but a Western Zen order that inherits Maezumi's tri-lineage authorization: Sōtō shihō from his father Baian Hakujun Kuroda, Rinzai inka from the lay teacher Kōryū Osaka, and Sanbō-Zen inka from Hakuun Yasutani. Maezumi named twelve American Dharma heirs — including Bernie Tetsugen Glassman, Charlotte Joko Beck, Dennis Genpo Merzel, John Daido Loori, Jan Chozen Bays, and Gerry Shishin Wick — and through their own transmissions the White Plum now has several hundred authorized teachers and roughly a thousand affiliated practice places worldwide. Because the order combines shikantaza with the Harada-Yasutani koan curriculum, and because it operates outside Sōtōshū registration, most White Plum heirs teach under the Asanga's own name rather than as Sōtō priests.",
+      "The White Plum Asanga (白梅, 'white plum blossom') is the lineage sangha of Taizan Maezumi Roshi (1931–1995) and his Dharma successors[1]. It is not a Japanese Sōtōshū-registered sub-school but a Western Zen order that inherits Maezumi's tri-lineage authorization: Sōtō shihō from his father Baian Hakujun Kuroda, Rinzai inka from the lay teacher Kōryū Osaka, and Sanbō-Zen inka from Hakuun Yasutani[1][2]. Maezumi named twelve American Dharma heirs — including Bernie Tetsugen Glassman, Charlotte Joko Beck, Dennis Genpo Merzel, John Daido Loori, Jan Chozen Bays, and Gerry Shishin Wick — and through their own transmissions the White Plum now has several hundred authorized teachers and roughly a thousand affiliated practice places worldwide[1]. Because the order combines shikantaza with the Harada-Yasutani koan curriculum, and because it operates outside Sōtōshū registration, most White Plum heirs teach under the Asanga's own name rather than as Sōtō priests.",
     practice:
-      "White Plum practice reflects Maezumi's triple authorization: shikantaza in the Sōtō sense (zazen as the direct expression of awakening) combined with a formal koan curriculum derived from Harada Daiun Sogaku and Hakuun Yasutani — beginning with the Mu koan, moving through breakthrough koans, and continuing into the Shōyōroku, Mumonkan, Denkōroku, and Hekiganroku. Formal face-to-face interview (dokusan) is central. Many White Plum centers also integrate the social-action emphasis of the Zen Peacemaker Order, which Glassman founded in 1996 within Maezumi's line.",
+      "White Plum practice reflects Maezumi's triple authorization: shikantaza in the Sōtō sense (zazen as the direct expression of awakening) combined with a formal koan curriculum derived from Harada Daiun Sogaku and Hakuun Yasutani — beginning with the Mu koan, moving through breakthrough koans, and continuing into the Shōyōroku, Mumonkan, Denkōroku, and Hekiganroku[2]. Formal face-to-face interview (dokusan) is central. Many White Plum centers also integrate the social-action emphasis of the Zen Peacemaker Order, which Glassman founded in 1996 within Maezumi's line[3].",
+    footnotes: [
+      {
+        index: 1,
+        sourceTitle: "White Plum Asanga — Founder (Maezumi Rōshi)",
+        sourceUrl: "https://whiteplum.org/founder/",
+      },
+      {
+        index: 2,
+        sourceTitle: "Taizan Maezumi — Wikipedia",
+        sourceUrl: "https://en.wikipedia.org/wiki/Taizan_Maezumi",
+      },
+      {
+        index: 3,
+        sourceTitle: "Zen Peacemakers — History",
+        sourceUrl: "https://zenpeacemakers.org/about/history/",
+      },
+      {
+        index: 4,
+        sourceTitle: "Bernie Glassman — Wikipedia",
+        sourceUrl: "https://en.wikipedia.org/wiki/Bernie_Glassman",
+      },
+      {
+        index: 5,
+        sourceTitle: "Charlotte Joko Beck — Wikipedia",
+        sourceUrl: "https://en.wikipedia.org/wiki/Charlotte_Joko_Beck",
+      },
+      {
+        index: 6,
+        sourceTitle: "John Daido Loori — Wikipedia",
+        sourceUrl: "https://en.wikipedia.org/wiki/John_Daido_Loori",
+      },
+      {
+        index: 7,
+        sourceTitle: "Dennis Genpo Merzel — Wikipedia",
+        sourceUrl: "https://en.wikipedia.org/wiki/Dennis_Genpo_Merzel",
+      },
+      {
+        index: 8,
+        sourceTitle: "Jan Chozen Bays — Wikipedia",
+        sourceUrl: "https://en.wikipedia.org/wiki/Jan_Chozen_Bays",
+      },
+      {
+        index: 9,
+        sourceTitle: "Gerry Shishin Wick — Wikipedia",
+        sourceUrl: "https://en.wikipedia.org/wiki/Gerry_Shishin_Wick",
+      },
+    ],
+    prominentMasters: [
+      {
+        slug: "bernie-tetsugen-glassman",
+        name: "Bernie Tetsugen Glassman",
+        blurb:
+          "Maezumi's first American dharma successor and the founder of the Zen Peacemaker Order (1996); pioneered street retreats and bearing-witness practice as a contemporary expression of the bodhisattva vow[3][4].",
+      },
+      {
+        slug: "charlotte-joko-beck",
+        name: "Charlotte Joko Beck",
+        blurb:
+          "Authorized by Maezumi, then taught at the Zen Center of San Diego and developed the 'Ordinary Mind Zen School,' a frank everyday-life style of practice that became one of the most influential American Zen lineages independent of monastic forms[5].",
+      },
+      {
+        slug: "john-daido-loori",
+        name: "John Daido Loori",
+        blurb:
+          "Founded Zen Mountain Monastery in New York and the Mountains and Rivers Order (1980); designed an 'Eight Gates of Zen' training matrix that integrates zazen, koan study, art practice, and academic study[6].",
+      },
+      {
+        slug: "dennis-genpo-merzel",
+        name: "Dennis Genpo Merzel",
+        blurb:
+          "One of Maezumi's senior heirs; founded Kanzeon Zen Center in Salt Lake City and developed the 'Big Mind' process, a Voice Dialogue–derived method that became a widely-known and widely-debated White Plum offshoot[7].",
+      },
+      {
+        slug: "jan-chozen-bays",
+        name: "Jan Chozen Bays",
+        blurb:
+          "Pediatrician and abbot, with her husband Hogen Bays, of Great Vow Zen Monastery in Oregon; a longtime Maezumi heir whose teaching emphasizes mindful eating and body practice alongside formal koan training[8].",
+      },
+      {
+        slug: "gerry-shishin-wick",
+        name: "Gerry Shishin Wick",
+        blurb:
+          "Co-founder of the Great Mountain Zen Center in Colorado; received Maezumi's transmission and continues the Harada-Yasutani koan curriculum within the White Plum line[9].",
+      },
+    ],
     keyTexts: [
       {
         title: "On Zen Practice",
@@ -781,6 +922,41 @@ const SCHOOL_DEFINITIONS: SchoolDefinition[] = [
         sourceTitle: "The Kōan: Texts and Contexts in Zen Buddhism",
         author: "Steven Heine & Dale S. Wright (eds.)",
         pageOrSection: "ch. 6",
+      },
+      {
+        index: 5,
+        sourceTitle: "Hakuin Ekaku — Wikipedia",
+        sourceUrl: "https://en.wikipedia.org/wiki/Hakuin_Ekaku",
+      },
+      {
+        index: 6,
+        sourceTitle: "Shūhō Myōchō (Daitō Kokushi) — Wikipedia",
+        sourceUrl: "https://en.wikipedia.org/wiki/Sh%C5%ABh%C5%8D_My%C5%8Dch%C5%8D",
+      },
+      {
+        index: 7,
+        sourceTitle: "Kanzan Egen — Wikipedia",
+        sourceUrl: "https://en.wikipedia.org/wiki/Kanzan_Egen",
+      },
+    ],
+    prominentMasters: [
+      {
+        slug: "shuho-myocho",
+        name: "Shūhō Myōchō (Daitō Kokushi)",
+        blurb:
+          "Founder of Daitoku-ji in Kyoto and a central node in the O-Tō-Kan lineage that organizes most of modern Japanese Rinzai[3][6]. Honored with the imperial title Daitō Kokushi, his rigorous, terse teaching style set the tone for the Daitoku-ji branch.",
+      },
+      {
+        slug: "kanzan-egen",
+        name: "Kanzan Egen",
+        blurb:
+          "Dharma heir of Daitō Kokushi and founder of Myōshin-ji in 1342 — the temple complex that today anchors the largest of Rinzai's 14 head-temple branches[3][7].",
+      },
+      {
+        slug: "hakuin-ekaku",
+        name: "Hakuin Ekaku",
+        blurb:
+          "The most consequential figure in modern Rinzai. After a period of decline he revived and systematized the school, devising the graded koan curriculum still in use today and articulating the 'Three Essentials' — great faith, great doubt, great determination[2][5]. Composed the Song of Zazen ('Zazen Wasan'), chanted in every Rinzai zendo, and the autobiography Wild Ivy that records his three great kenshōs[5].",
       },
     ],
     keyTexts: [
@@ -1506,9 +1682,34 @@ const SCHOOL_DEFINITIONS: SchoolDefinition[] = [
     aliases: ["kwan um", "kwan um school", "kwan um school of zen"],
     nativeNames: { ko: "관음선종", zh: "觀音禪宗" },
     summary:
-      "The Kwan Um School of Zen is an international Seon organization founded in 1983 by the Korean master Seung Sahn (1927–2004), who was among the first Korean Zen teachers to establish a major presence in the West. The school's name refers to Gwaneum (Avalokiteshvara), the bodhisattva of compassion. Seung Sahn's teaching style combined the rigor of traditional Korean hwadu practice with a direct, humorous, and accessible approach adapted for Western students. His famous kong-an (koan) interviews, often beginning with 'What is this?', became the school's hallmark. The Kwan Um School maintains over a hundred Zen centers and groups across North America, Europe, Asia, and Africa, making it one of the most geographically widespread Zen organizations in the world.",
+      "The Kwan Um School of Zen is an international Seon organization founded in 1983 by the Korean master Seung Sahn (1927–2004), who was among the first Korean Zen teachers to establish a major presence in the West[1][2]. The school's name refers to Gwaneum (Avalokiteshvara), the bodhisattva of compassion[1]. Seung Sahn's teaching style combined the rigor of traditional Korean hwadu practice with a direct, humorous, and accessible approach adapted for Western students; his famous kong-an interviews, often beginning with 'What is this?', became the school's hallmark[2][3]. The Kwan Um School maintains over a hundred Zen centers and groups across North America, Europe, Asia, and Africa, making it one of the most geographically widespread Zen organizations in the world[1].",
     practice:
-      "Kwan Um practice centers on kong-an (公案) interviews and Seung Sahn’s teaching of ‘don’t-know mind,’ which reframes traditional hwadu intensity in simple, portable language. Students work with questions such as ‘What is this?’ or ‘What am I?’ in seated practice, but their understanding is regularly tested in kong-an interviews where responsiveness matters more than conceptual explanation. Daily forms usually include zazen, chanting, and 108 prostrations, while Yong Maeng Jong Jin retreats reproduce the concentrated atmosphere of Korean intensive practice in formats accessible to lay communities. The school’s distinctiveness lies in combining traditional Seon rigor with unusually direct and global teaching forms.",
+      "Kwan Um practice centers on kong-an (公案) interviews and Seung Sahn’s teaching of ‘don’t-know mind,’ which reframes traditional hwadu intensity in simple, portable language[3]. Students work with questions such as ‘What is this?’ or ‘What am I?’ in seated practice, but their understanding is regularly tested in kong-an interviews where responsiveness matters more than conceptual explanation. Daily forms usually include zazen, chanting, and 108 prostrations, while Yong Maeng Jong Jin retreats reproduce the concentrated atmosphere of Korean intensive practice in formats accessible to lay communities[1]. The school’s distinctiveness lies in combining traditional Seon rigor with unusually direct and global teaching forms.",
+    footnotes: [
+      {
+        index: 1,
+        sourceTitle: "Kwan Um School of Zen — About Us",
+        sourceUrl: "https://kwanumzen.org/about-us",
+      },
+      {
+        index: 2,
+        sourceTitle: "Seung Sahn — Wikipedia",
+        sourceUrl: "https://en.wikipedia.org/wiki/Seungsahn",
+      },
+      {
+        index: 3,
+        sourceTitle: "Kwan Um School of Zen — Wikipedia",
+        sourceUrl: "https://en.wikipedia.org/wiki/Kwan_Um_School_of_Zen",
+      },
+    ],
+    prominentMasters: [
+      {
+        slug: "seung-sahn",
+        name: "Seung Sahn Soen Sa Nim",
+        blurb:
+          "Founder of the Kwan Um School of Zen and the seventy-eighth Patriarch of the Korean Jogye Order's Chogye lineage[2]. Arrived in the United States in 1972 and built one of the first major Western Seon networks; his blunt, humorous teaching of 'don't-know mind' became the school's defining voice[1][2].",
+      },
+    ],
     keyTexts: [
       {
         title: "Dropping Ashes on the Buddha",

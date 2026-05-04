@@ -36,6 +36,14 @@ interface RenderOptions {
   idScope: string;
   /** Show "Notes" header above the footnote list (default true). */
   showHeader?: boolean;
+  /**
+   * When provided, the renderer mutates this map with every call-site
+   * it encounters and skips emitting the inline `<aside>` of notes.
+   * Use this when several prose blocks on the same page need to share
+   * one consolidated Notes section at the bottom (rendered separately
+   * via `renderSharedFootnoteList`).
+   */
+  callSites?: CallSiteMap;
 }
 
 const MARKER_RE = /\[(\d{1,3})\]/g;
@@ -116,14 +124,23 @@ export function renderProseWithFootnotes(
   refs: FootnoteRef[],
   options: RenderOptions
 ): React.JSX.Element {
-  const { idScope, showHeader = true } = options;
+  const { idScope, showHeader = true, callSites: sharedCallSites } = options;
 
   const refMap = new Map<number, FootnoteRef>();
   for (const ref of refs) refMap.set(ref.index, ref);
 
   const paragraphs = text.split(/\n\n+/);
-  const callSites: CallSiteMap = new Map();
+  const callSites: CallSiteMap = sharedCallSites ?? new Map();
+  // When the caller supplies a shared map we don't know how many
+  // call-sites have already been registered for an index across other
+  // prose blocks; seed the counter from the largest existing site so
+  // ids stay globally unique.
   let counter = 0;
+  if (sharedCallSites) {
+    for (const sites of sharedCallSites.values()) {
+      counter += sites.length;
+    }
+  }
   const paragraphNodes = paragraphs
     .map((p) => p.trim())
     .filter((p) => p.length > 0)
@@ -132,6 +149,13 @@ export function renderProseWithFootnotes(
       counter = next;
       return <p key={`p-${i}`}>{nodes}</p>;
     });
+
+  // When a shared map is supplied, the caller is responsible for
+  // emitting the consolidated Notes block — so we only return the
+  // paragraph nodes and skip the inline list.
+  if (sharedCallSites) {
+    return <>{paragraphNodes}</>;
+  }
 
   // Sort references for the footnote list by index so authors can
   // declare them in any order.
@@ -160,6 +184,48 @@ export function renderProseWithFootnotes(
     </>
   );
 }
+
+/**
+ * Render a consolidated Notes block at the bottom of a page where
+ * several prose blocks have streamed their call-sites into a shared
+ * `CallSiteMap`. Renders Wikipedia-style backref arrows just like the
+ * inline list emitted by `renderProseWithFootnotes`. Refs that were
+ * never cited still render (so reviewers can spot orphaned sources).
+ */
+export function renderSharedFootnoteList(
+  refs: FootnoteRef[],
+  callSites: CallSiteMap,
+  idScope: string,
+  options: { title?: string; headingLevel?: "h3" | "h4" } = {}
+): React.JSX.Element | null {
+  if (refs.length === 0) return null;
+  const { title = "Notes", headingLevel = "h3" } = options;
+  const sorted = [...refs].sort((a, b) => a.index - b.index);
+  const Heading = headingLevel;
+  return (
+    <aside className="footnote-section" aria-label={title}>
+      <Heading className="footnote-section-title">{title}</Heading>
+      <ol className="footnote-list">
+        {sorted.map((ref) => (
+          <li key={ref.index} id={`fn-${idScope}-${ref.index}`} value={ref.index}>
+            <Backrefs sites={callSites.get(ref.index) ?? []} />
+            <FootnoteEntry entry={ref} />
+          </li>
+        ))}
+      </ol>
+    </aside>
+  );
+}
+
+/**
+ * Construct an empty shared call-site map. Exported so callers don't
+ * need to reach into the renderer's private types.
+ */
+export function createCallSiteMap(): CallSiteMap {
+  return new Map();
+}
+
+export type { CallSiteMap };
 
 /**
  * Wikipedia-style backref. One call-site → "↑". Multiple call-sites
