@@ -172,7 +172,22 @@ Review priority:
 
 `npm run audit:accuracy` produces `reports/accuracy-report.md` +
 `reports/accuracy-report.csv`. Commit changes to the baseline reports when
-they improve; CI gates on the CRITICAL count (0 must remain 0).
+they improve; CI gates on the CRITICAL count (0 must remain 0). The same
+audit runs in GitHub Actions (`.github/workflows/accuracy-audit.yml`) on
+PRs, on `master`, and on a weekly cron, so drift in upstream data is caught
+even when no PRs are open.
+
+Recording reviews:
+
+```bash
+npm run review:master -- <slug> --field birth_year \
+  --status approved --reviewer js \
+  --notes "Dumoulin 2005 vol.2 p.51 — 1200, no scholarly dispute."
+```
+
+Statuses are `approved`, `needs-research`, or `disputed`. Re-running the
+command for the same `(slug, field)` updates the existing row. List
+existing reviews with `npm run review:master -- <slug> --list`.
 
 Categories reported:
 

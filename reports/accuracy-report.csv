@@ -1,0 +1,297 @@
+severity,category,tier,entity_type,entity_slug,entity_id,field,detail
+WARNING,native-script-missing,tier1,master,ananda,TvV4QKu4ZhHtn8WkdDL7W,names:devanagari,School=indian-patriarchs expects a name in [devanagari] but no name contains characters in those ranges.
+WARNING,native-script-missing,tier1,master,aryadeva,MaT_2LUWapSpvCzLlN9of,names:devanagari,School=indian-patriarchs expects a name in [devanagari] but no name contains characters in those ranges.
+WARNING,native-script-missing,tier1,master,ashvaghosha,XRkgYKrS2PmeZWWOPzRLj,names:devanagari,School=indian-patriarchs expects a name in [devanagari] but no name contains characters in those ranges.
+WARNING,native-script-missing,tier1,master,buddhamitra,CKps4fDp0URGrbOjjfwBX,names:devanagari,School=indian-patriarchs expects a name in [devanagari] but no name contains characters in those ranges.
+WARNING,native-script-missing,tier1,master,buddhanandi,DWofxdcfC79blHHMxK4GS,names:devanagari,School=indian-patriarchs expects a name in [devanagari] but no name contains characters in those ranges.
+WARNING,native-script-missing,tier1,master,dhritaka,KWt8nDNBawWXfHKVaUhqa,names:devanagari,School=indian-patriarchs expects a name in [devanagari] but no name contains characters in those ranges.
+WARNING,native-script-missing,tier1,master,gayashata,ASq3jRh32oG76SQh-MPlQ,names:devanagari,School=indian-patriarchs expects a name in [devanagari] but no name contains characters in those ranges.
+WARNING,native-script-missing,tier1,master,haklena,-nClvaByR9P4FRYQMX4_L,names:devanagari,School=indian-patriarchs expects a name in [devanagari] but no name contains characters in those ranges.
+WARNING,native-script-missing,tier1,master,jayata,YOKNETNusc7MvXG9H87_4,names:devanagari,School=indian-patriarchs expects a name in [devanagari] but no name contains characters in those ranges.
+WARNING,native-script-missing,tier1,master,kapimala,_1Cl22lVVw0x5tya5L6fJ,names:devanagari,School=indian-patriarchs expects a name in [devanagari] but no name contains characters in those ranges.
+WARNING,native-script-missing,tier1,master,kumarata,uYAX94w0QwewUKFQwpJ7a,names:devanagari,School=indian-patriarchs expects a name in [devanagari] but no name contains characters in those ranges.
+WARNING,native-script-missing,tier1,master,mahakashyapa,2D6CTxIOohm4bqR0bQj2U,names:devanagari,School=indian-patriarchs expects a name in [devanagari] but no name contains characters in those ranges.
+WARNING,native-script-missing,tier1,master,manorhita,aGsBwP6-XaMHAML0lESfh,names:devanagari,School=indian-patriarchs expects a name in [devanagari] but no name contains characters in those ranges.
+WARNING,native-script-missing,tier1,master,michaka,QL__3DUEKp2S2_iQgrq48,names:devanagari,School=indian-patriarchs expects a name in [devanagari] but no name contains characters in those ranges.
+WARNING,native-script-missing,tier1,master,nagarjuna,my3n-C46G_URdJrNzWjCo,names:devanagari,School=indian-patriarchs expects a name in [devanagari] but no name contains characters in those ranges.
+WARNING,native-script-missing,tier1,master,parshva,sWs0_DcgLTAzOP5pMMOTZ,names:devanagari,School=indian-patriarchs expects a name in [devanagari] but no name contains characters in those ranges.
+WARNING,native-script-missing,tier1,master,prajnatara,f-5SSXM6Hb3L0T0a5f5sF,names:devanagari,School=indian-patriarchs expects a name in [devanagari] but no name contains characters in those ranges.
+WARNING,native-script-missing,tier1,master,punyamitra,0_an1VP-SgfI-rwnL591D,names:devanagari,School=indian-patriarchs expects a name in [devanagari] but no name contains characters in those ranges.
+WARNING,native-script-missing,tier1,master,punyayashas,RCt4jHgjnctkJQ-nUgGqm,names:devanagari,School=indian-patriarchs expects a name in [devanagari] but no name contains characters in those ranges.
+WARNING,native-script-missing,tier1,master,rahulata,dowc9tfw9nrI_KIBHaEaW,names:devanagari,School=indian-patriarchs expects a name in [devanagari] but no name contains characters in those ranges.
+WARNING,native-script-missing,tier1,master,sanghanandi,pjmSshTkUyqFmd9mDotbM,names:devanagari,School=indian-patriarchs expects a name in [devanagari] but no name contains characters in those ranges.
+WARNING,native-script-missing,tier1,master,shakyamuni-buddha,oDgWuQLQG__HcsFgsuCnm,names:devanagari,School=indian-patriarchs expects a name in [devanagari] but no name contains characters in those ranges.
+WARNING,native-script-missing,tier1,master,shanakavasa,nVY1H3EIFPh_YpaA6eFQc,names:devanagari,School=indian-patriarchs expects a name in [devanagari] but no name contains characters in those ranges.
+WARNING,native-script-missing,tier1,master,simha,wwCpXq760NDqCnk7mu9p_,names:devanagari,School=indian-patriarchs expects a name in [devanagari] but no name contains characters in those ranges.
+WARNING,native-script-missing,tier1,master,upagupta,Du2RzVK7ZHNqT3hHDDPwQ,names:devanagari,School=indian-patriarchs expects a name in [devanagari] but no name contains characters in those ranges.
+WARNING,native-script-missing,tier1,master,vasasita,pSb9_Qob0HVVHAJ9ofchR,names:devanagari,School=indian-patriarchs expects a name in [devanagari] but no name contains characters in those ranges.
+WARNING,native-script-missing,tier1,master,vasubandhu,UrW-WoQSXfuZ_BI68riTM,names:devanagari,School=indian-patriarchs expects a name in [devanagari] but no name contains characters in those ranges.
+WARNING,native-script-missing,tier1,master,vasumitra,XrxqdmN0CWreWdHqvkO67,names:devanagari,School=indian-patriarchs expects a name in [devanagari] but no name contains characters in those ranges.
+WARNING,native-script-missing,tier1,master,yunyan-tansheng,QOda3cU5XErQnAadR7KXd,names:cjk,School=qingyuan-line expects a name in [cjk] but no name contains characters in those ranges.
+WARNING,teaching-unattributed,,teaching,proverb-all-know-the-way,BqpZEpx6nsBcw6Jzzcqpm,,No author_id and no teaching_master_roles row. Who said this?
+WARNING,teaching-unattributed,,teaching,proverb-arrow-left-bow,4H6BWBnzUpgrPfiXy_9yh,,No author_id and no teaching_master_roles row. Who said this?
+WARNING,teaching-unattributed,,teaching,proverb-bamboo-forest-dense,VB_LJCue_mUb4rkqUFIEW,,No author_id and no teaching_master_roles row. Who said this?
+WARNING,teaching-unattributed,,teaching,proverb-bamboo-shadows,LDmYwyu6zq9n5pu6ADPeM,,No author_id and no teaching_master_roles row. Who said this?
+WARNING,teaching-unattributed,,teaching,proverb-before-bell-rings,RjdD1PYMWxpdFys7rBayt,,No author_id and no teaching_master_roles row. Who said this?
+WARNING,teaching-unattributed,,teaching,proverb-blue-mountains,wHHm-SkT2IGc_Ik3JMMVg,,No author_id and no teaching_master_roles row. Who said this?
+WARNING,teaching-unattributed,,teaching,proverb-cast-off-realized,5BsNMFQ50OYOIfbA-njXz,,No author_id and no teaching_master_roles row. Who said this?
+WARNING,teaching-unattributed,,teaching,proverb-clear-water-bottom,n6p_LQiibf-tht2PvyZyJ,,No author_id and no teaching_master_roles row. Who said this?
+WARNING,teaching-unattributed,,teaching,proverb-clouds-come-and-go,1wDYk4XV21M-9opPp6hFJ,,No author_id and no teaching_master_roles row. Who said this?
+WARNING,teaching-unattributed,,teaching,proverb-drink-tea-slowly,PvBpueFPwxCHr6JziXIA3,,No author_id and no teaching_master_roles row. Who said this?
+WARNING,teaching-unattributed,,teaching,proverb-drinks-water-knows,RWt8WPvCRAAKMlsVIrAVc,,No author_id and no teaching_master_roles row. Who said this?
+WARNING,teaching-unattributed,,teaching,proverb-entering-the-forest,MiwnBnhkMeT23V8NvHruF,,No author_id and no teaching_master_roles row. Who said this?
+WARNING,teaching-unattributed,,teaching,proverb-fall-seven-times,9KAGtzcuC0xRGrGj2Lygz,,No author_id and no teaching_master_roles row. Who said this?
+WARNING,teaching-unattributed,,teaching,proverb-frog-in-well,teTPEmJ0N9fuzT_IKcbpp,,No author_id and no teaching_master_roles row. Who said this?
+WARNING,teaching-unattributed,,teaching,proverb-great-path-no-gate,XwTbKXhzTK-YCoaHNj5bS,,No author_id and no teaching_master_roles row. Who said this?
+WARNING,teaching-unattributed,,teaching,proverb-hundred-foot-pole,npJfU8G_ZrCHpGs0RNG8e,,No author_id and no teaching_master_roles row. Who said this?
+WARNING,teaching-unattributed,,teaching,proverb-inch-of-time,Op0dt17YJbED_clsDsDDN,,No author_id and no teaching_master_roles row. Who said this?
+WARNING,teaching-unattributed,,teaching,proverb-iron-tree-blooms,NBWqxOjwUWKiMjXi6mNvA,,No author_id and no teaching_master_roles row. Who said this?
+WARNING,teaching-unattributed,,teaching,proverb-knock-on-sky,g0peKvFIA73jMrQfgOJXf,,No author_id and no teaching_master_roles row. Who said this?
+WARNING,teaching-unattributed,,teaching,proverb-landscape-of-spring,X4wA9BmHvYKABucMCNhfQ,,No author_id and no teaching_master_roles row. Who said this?
+WARNING,teaching-unattributed,,teaching,proverb-lotus-muddy-water,YAYXrKlIYaCPLAny4Dlvr,,No author_id and no teaching_master_roles row. Who said this?
+WARNING,teaching-unattributed,,teaching,proverb-moon-not-think-reflected,1bD6xyIzweUZWgE9lPMJI,,No author_id and no teaching_master_roles row. Who said this?
+WARNING,teaching-unattributed,,teaching,proverb-moon-river-wind-pines,uEP9YHa4E3dJk-nMbg_-Y,,No author_id and no teaching_master_roles row. Who said this?
+WARNING,teaching-unattributed,,teaching,proverb-move-way-will-open,HMuPs_AlZFtbFpYcFn8xh,,No author_id and no teaching_master_roles row. Who said this?
+WARNING,teaching-unattributed,,teaching,proverb-not-twice-this-day,eIfdrsdgB4lbJymWa9pNl,,No author_id and no teaching_master_roles row. Who said this?
+WARNING,teaching-unattributed,,teaching,proverb-plunge-into-poison,IcB9JXYph1UirjZBliM4C,,No author_id and no teaching_master_roles row. Who said this?
+WARNING,teaching-unattributed,,teaching,proverb-put-heart-at-rest,sDkOkxmLvRLZsVsppVT52,,No author_id and no teaching_master_roles row. Who said this?
+WARNING,teaching-unattributed,,teaching,proverb-return-to-root,5LNNbtmlZWhU8QMqDEYug,,No author_id and no teaching_master_roles row. Who said this?
+WARNING,teaching-unattributed,,teaching,proverb-reverse-side,qBjTKG218fsYOZmXHmITc,,No author_id and no teaching_master_roles row. Who said this?
+WARNING,teaching-unattributed,,teaching,proverb-ride-horse-sword-edge,2J1Sz2t1hIZ1kiQuIa177,,No author_id and no teaching_master_roles row. Who said this?
+WARNING,teaching-unattributed,,teaching,proverb-scoop-up-water,cvOywsu5QJkT8r0xEc8-q,,No author_id and no teaching_master_roles row. Who said this?
+WARNING,teaching-unattributed,,teaching,proverb-sheet-of-paper,5Vn3VPSXAktZxCkAreflm,,No author_id and no teaching_master_roles row. Who said this?
+WARNING,teaching-unattributed,,teaching,proverb-single-leaf-falls,fBWSDUQrzQohTCP2fx1h5,,No author_id and no teaching_master_roles row. Who said this?
+WARNING,teaching-unattributed,,teaching,proverb-sitting-quietly-not-waiting,GG5aXJ8-BdEBOx_q9k6hx,,No author_id and no teaching_master_roles row. Who said this?
+WARNING,teaching-unattributed,,teaching,proverb-snow-plum-tree,zjNhvrd1HLh1pxG-nWlT2,,No author_id and no teaching_master_roles row. Who said this?
+WARNING,teaching-unattributed,,teaching,proverb-spring-rain-soaks,uS50Dk6zUOiuBIaOTUPWx,,No author_id and no teaching_master_roles row. Who said this?
+WARNING,teaching-unattributed,,teaching,proverb-student-ready-teacher,jv44AWheJJr6H1Fya72S7,,No author_id and no teaching_master_roles row. Who said this?
+WARNING,teaching-unattributed,,teaching,proverb-thief-left-it-behind,N36RzdtUrIqRUwTcJiggY,,No author_id and no teaching_master_roles row. Who said this?
+WARNING,teaching-unattributed,,teaching,proverb-thousand-mountains,i7BRqe4iFacwTJ0rzJgmC,,No author_id and no teaching_master_roles row. Who said this?
+WARNING,teaching-unattributed,,teaching,proverb-vast-inane,mn0K-V2484m48gW0Z_fCa,,No author_id and no teaching_master_roles row. Who said this?
+WARNING,teaching-unattributed,,teaching,proverb-wild-geese-reflection,Dxzqw0oaA7y8zNx05oSwG,,No author_id and no teaching_master_roles row. Who said this?
+WARNING,teaching-unattributed,,teaching,proverb-wind-blows-river-flows,je0Ejd5vI5fkiMpcYnAWL,,No author_id and no teaching_master_roles row. Who said this?
+WARNING,teaching-unattributed,,teaching,proverb-withered-stump-dragon,g1UfYtUULHfBYdE5uDVm3,,No author_id and no teaching_master_roles row. Who said this?
+WARNING,teaching-unattributed,,teaching,proverb-withered-tree-flower,L4wz1ShEPnGhut20ORkFQ,,No author_id and no teaching_master_roles row. Who said this?
+INFO,native-script-missing,other,master,baiyun-shouduan,O-M3m_XGgwVNBiKpNlzJ2,names:cjk,School=yangqi-line expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,baizan-monpon,NmK847RayDk0rz8gPlcC4,names:cjk,School=soto expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,baizhang-niepan,2le5Q31xg5eULcmP6E7pN,names:cjk,School=linji expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,bajiao-huiqing,Tm1rbdJAF98SEEdKOXmbZ,names:cjk,School=caodong expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,baling-haojian,MzsKL71HSAAVCzJred0Z3,names:cjk,School=yunmen expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,banryo-zenso,ofXVf88AgcjBjAQIdRQna,names:cjk,School=rinzai expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,baoci-xingyan,ZMXzHZ8MwtS8wtG_jQCRc,names:cjk,School=qingyuan-line expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,baoen-xuanze,oPsupmKZ_xN51oyqQdF0z,names:cjk,School=nanyue-line expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,baofeng-weizhao,OggSJsfxAwRhE2UUVas6g,names:cjk,School=guiyang expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,baofu-congzhan,GAlcbtrsjobgkFfMIAVh_,names:cjk,School=qingyuan-line expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,baoning-renyong,d22Ow-7bdbZI8jnr-Sfdf,names:cjk,School=linji expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,baoshou-yanzhao,1SC2EPq9Yj9sLkPHvecSM,names:cjk,School=linji expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,baotang-wuzhu,UohqYd8v_T7T_hsfoUDav,names:cjk,School=early-chan expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,bokuo-soun,MmEh0giNqQgCYsMnv834g,names:cjk,School=rinzai expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,brad-warner,KL36wkGII0wQV0C5iLi83,names:cjk,School=soto expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,changfu-zhi,DCKhB3tkUhuXVX5_AqERp,names:cjk,School=qingyuan-line expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,changlu-qingliao,NDmJFm_-4hx3eBqReWXWS,names:cjk,School=caodong expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,changqing-huileng,X2ccK87D6xrnkZyp3yAtO,names:cjk,School=qingyuan-line expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,changsha-jingcen,qfbrxo8zivETGjePTga_s,names:cjk,School=caodong expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,changshui-zixuan,v6FVLPTyfT77cJEetS1I6,names:cjk,School=caodong expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,chengtian-chuanzong,HWwmjVp87R6TwGIfyzzDB,names:cjk,School=yunmen expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,chokoku-koen,Lbw4A4bPQgno9F25SOaaQ,names:cjk,School=soto expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,chuanzi-decheng,V_8lJN6ppavunARmM0NLf,names:cjk,School=qingyuan-line expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,cizhou-faru,v9Enx95HWL-dRCYWpf3vC,names:cjk,School=early-chan expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,cuiwei-wuxue,1qhC-vJBtbBQ4Cs_DcLfQ,names:cjk,School=qingyuan-line expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,cuiyan-kezhen,NVstWHNNQBh7pgteVGtDn,names:cjk,School=linji expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,cuiyan-lingcan,LLwCimIa1-v4zit4LjIo-,names:cjk,School=caodong expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,d-t-suzuki,a-mw6gpsR_a8VPTinpaIC,names:cjk,School=rinzai expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,daguang-juhui,TmI49DCAHKzONqKV8a1Ys,names:cjk,School=qingyuan-line expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,dagui-muzhe,_aaQkfq6Ay3kPKB2xV4pw,names:cjk,School=caodong expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,dahong-zuzheng,GsCXe4WfiV06Y4-TUjdKM,names:cjk,School=linji expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,dahui-zonggao,BPzpMPUQxiKjZJ6mTBIPr,names:cjk,School=linji expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,daiki-kyokan,GdlZI4mC-BJWlrRutxBfi,names:cjk,School=soto expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,daishin-kan-yu,UXIrhkzCEgAaJIGUtsghb,names:cjk,School=soto expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,damei-fachang,pK1ozC28fBtfV_A-zCIvr,names:cjk,School=nanyue-line expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,danxia-tianran,VkPTR1oW6Vohii5HAIgIR,names:cjk,School=qingyuan-line expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,danxia-zichun,Hy6NRtgSBVR82vh95RIsE,names:cjk,School=caodong expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,danyuan-yingzhen,iJ4NrYpW85olchICykpuy,names:cjk,School=qingyuan-line expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,daowu-yuanzhi,upu2QpQ9LlFN3T-gwWP01,names:cjk,School=qingyuan-line expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,dasui-fazhen,j-cIc9VMB17RIb8K_GRPi,names:cjk,School=nanyue-line expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,dayang-jingxuan,Vy7KG4Qzu-Xo8fQ7vz9Qs,names:cjk,School=caodong expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,dayu-shouzhi,JFPJEb3YvLpKb-Lqi6QCA,names:cjk,School=linji expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,deshan-yuanmi,XjAKbIvgYgUOotD4gqWCV,names:cjk,School=caodong expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,dingzhou-shizang,iHhoBfvtLlnWeY2l8owiE,names:cjk,School=qingyuan-line expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,dongshan-shouchu,DuB_NWJfY_tzIKn62UjqY,names:cjk,School=nanyue-line expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,doushuai-congyue,f_mN_OO-KGU_OStG0WhDX,names:cjk,School=linji expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,enjo-gikan,7BXng_a-inuYsUgogx043,names:cjk,School=soto expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,etienne-mokusho-zeisler,gRxLrRlXmFidEMKEwCbSw,names:cjk,School=soto expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,evelyne-eko-de-smedt,evelyne-eko-de-smedt,names:cjk,School=soto expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,fengxian-daochen,B1apjWpWug3oIhTasx8c5,names:cjk,School=yunmen expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,fengxue-yanzhao,d55Lyv4WH6h4WZAM32p79,names:cjk,School=linji expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,fenyang-shanzhao,cWJ5YHI20RtHiSRSlkjBm,names:cjk,School=linji expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,foyan-qingyuan,_gqRy0igxACiZ1ZAcGt4c,names:cjk,School=yangqi-line expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,fuden-gentotsu,aGl-pgbWvFhOIti65cdiL,names:cjk,School=soto expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,furong-daokai,dajjMBPqxOv2QAYg5_1da,names:cjk,School=caodong expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,fushan-fayuan,7oTDRnVmrmHfaS9TyTy5u,names:cjk,School=caodong expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,fuzan-shunki,sDu5QAyK-3k_LGDtI9A02,names:cjk,School=soto expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,gaoan-dayu,0q3Qprk3B6N7TFdNLpOUu,names:cjk,School=yunmen expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,guannan-daochang,9p7AxxsAqoPi-TVU4ZnJj,names:cjk,School=caodong expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,guifeng-zongmi,lrQm0FV12JeahNnGpZqDX,names:cjk,School=early-chan expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,guishan-daan,zuqTzAdXzd8ExE41-U2ol,names:cjk,School=nanyue-line expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,guizong-cezhen,BvpqBTZAJBbk3n-mloCXt,names:cjk,School=qingyuan-line expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,guizong-zhichang,8rIBtQ2oTTybHN9lwOT-I,names:cjk,School=nanyue-line expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,gyakushitsu-sojun,v8tjFFdTSpFbJ2okDbOlH,names:cjk,School=soto expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,hangzhou-tianlong,Gzki8G7Dmg5LUcyMtqlCF,names:cjk,School=guiyang expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,heshan-wuyin,YtkGkMWTv8Kv64k_KtCi7,names:cjk,School=yunmen expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,heze-shenhui,Y0knckXJi9kjRghDAvzgR,names:cjk,School=early-chan expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,hongzhi-zhengjue,XcZWOXq1P5YUGV8UKZXDN,names:cjk,School=caodong expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,huanglong-huiji,v5EyeUSr4kkYXdxVFIuTu,names:cjk,School=linji expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,huanglong-huinan,1RFyY3lzzzRYNuLT0eyeZ,names:cjk,School=linji expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,huguo-jingyuan,iLU8eKYHP-kmxLSkg7hkW,names:cjk,School=linji expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,huguo-shoucheng,207kUvhLH1az0H6YA57NV,names:cjk,School=guiyang expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,huitang-zuxin,ZfmfYNCJD9rKOo9nvYUen,names:cjk,School=linji expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,huoan-shiti,yRkGCQqk0wCVaL-wdDNzh,names:cjk,School=linji expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,iyoku-choyu,AXXUnt4U9PGs1ZRtWZXLO,names:cjk,School=soto expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,jean-pierre-genshu-faure,jean-pierre-genshu-faure,names:cjk,School=soto expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,jiashan-shanhui,WTI-TCqjlDuEtaweyATXJ,names:cjk,School=qingyuan-line expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,jingqing-daofu,iGOnJ8m8mWWgedkNyVb-4,names:cjk,School=nanyue-line expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,jingzhao-mihu,93pix4g_RyHondNvLDSs3,names:cjk,School=caodong expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,jingzhong-shenhui,1aRVSJptwURPY9AZHpDGM,names:cjk,School=early-chan expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,jinhua-juzhi,-lkE_Q1eKm1hALEp12sD8,names:cjk,School=yunmen expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,jissan-mokuin,dlVd-Ybh6rrPiQiGWAOye,names:cjk,School=soto expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,jiufeng-daoqian,VC9R6db1spX9eNyW77zXV,names:cjk,School=qingyuan-line expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,jiufeng-qin,CTYad12WWJR8tMk_IHb0v,names:cjk,School=guiyang expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,jiyu-kennett,CV42oRvR8Nv9kl0UIIr6V,names:cjk,School=soto expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,jochu-tengin,ow7ZzgMZpGDPrcBPQBguW,names:cjk,School=soto expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,joten-soko-miura,mz038BnitrAQrr4jKUmLx,names:cjk,School=rinzai expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,juefan-huihong,-ODyZKNOSwVAyBA7yRVjn,names:cjk,School=linji expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,kaifu-daoning,DPaqdrB7_tincwkl9PEQ1,names:cjk,School=linji expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,kankai-tokuon,uxbaQKIsmojebxkYWH8Q5,names:cjk,School=soto expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,keido-chisan,DYsioznzNhmyRundt6JLP,names:cjk,School=soto expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,ken-an-junsa,5O77V4ooLpwNb_gAixQIC,names:cjk,School=soto expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,kono-bukai,OsfXUptacRn3A1TZOzuNt,names:cjk,School=rinzai expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,kosen-baido,gMNmVtQLGTs4qgFvpNazT,names:cjk,School=soto expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,kumu-daocheng,ErnBMjdG2GndqNBDNPQpP,names:cjk,School=caodong expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,langye-huijue,1hXjfik6NhiACunrULRzu,names:cjk,School=linji expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,liangshan-yuanguan,1L1RalHVjkUCvzsl46eE-,names:cjk,School=caodong expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,lianhua-fengxiang,p4aJBzmNaNhr-KEdOwopR,names:cjk,School=yunmen expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,licun,9TJpkFTJmSLKV_NWQYUuC,names:cjk,School=linji expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,lingyun-zhiqin,dACngaSplh7fQ97Fl0xHn,names:cjk,School=guiyang expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,liu-tiemo,QdAytZKtUArQPxta3X8t7,names:cjk,School=yunmen expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,longji-shaoxiu,aYZO7GDyEuLqUdNkSPYdL,names:cjk,School=qingyuan-line expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,longtan-chongxin,PkGHSIWJnE9AfaP0NJokD,names:cjk,School=qingyuan-line expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,longya-judun,SBxT4ao1VkUaz3s0-VHxk,names:cjk,School=yunmen expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,luohan-guichen,Ol3Uuxkzi7rtRH2CVccHm,names:cjk,School=qingyuan-line expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,luopu-yuanan,LhYc5nPmBBsyVh8kscU3Q,names:cjk,School=qingyuan-line expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,luoshan-daoxian,mt7Wvlp1EHOHKUB1I3yk9,names:cjk,School=qingyuan-line expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,luzu-baoyun,58clK0ij7nlgm_mYVexOA,names:cjk,School=nanyue-line expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,mahasattva-fu,aJhm8JOd_mYz8PykmCewJ,names:cjk,School=early-chan expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,mayu-baoche,MZXM7aD7Xu_yqhL_cdQ0d,names:cjk,School=nanyue-line expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,michel-reiku-bovay,michel-reiku-bovay,names:cjk,School=soto expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,mike-chodo-cross,A5aLqEj4il8v0pNqUBHmZ,names:cjk,School=soto expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,mingan-rongxi,jSeppG7S9SGrEIWFq3DpX,names:cjk,School=rinzai expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,mingzhao-deqian,kVOPBQ_iEP7qwNlpMHYFm,names:cjk,School=qingyuan-line expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,moshan-liaoran,noj0soXZGkua0vO7MpOsD,names:cjk,School=caodong expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,mugai-keigon,P6AU7Us1EfOzKly9_5xWq,names:cjk,School=soto expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,muzhou-daoming,IjImAFg07jLpkiAfvrt0X,names:cjk,School=linji expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,nampo-gentaku,cVdnpEiZngmQbBD8WdxjG,names:cjk,School=soto expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,nanpu-shaoming,0yYHIqv6h1fQlQqfk2eQy,names:cjk,School=rinzai expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,nanso-shinshu,yVIubuemvfrEwA9NovmQM,names:cjk,School=soto expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,nanta-guangyong,hEOd5fdtLUK-0Fu15szpE,names:cjk,School=caodong expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,nanyang-huizhong,cfn2ET9nAT4CPDEmgmqKV,names:cjk,School=early-chan expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,nanyuan-huiyong,fFFRVZW-TlYc3imPU4ZMr,names:cjk,School=linji expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,nanyue-daoxuan,K3tGdAxPeoVWOCN3DnRq9,names:cjk,School=qingyuan-line expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,nenshitsu-yokaku,co3NFuQ7Dv9TSnKXILbTI,names:cjk,School=soto expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,niutou-farong,bw7smzHvL-dIp7y7lBeGl,names:cjk,School=early-chan expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,olivier-reigen-wang-genh,olivier-reigen-wang-genh,names:cjk,School=soto expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,panshan-baoji,znqwIUXYM3hGD_HsbepXD,names:cjk,School=nanyue-line expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,philippe-reiryu-coupey,philippe-reiryu-coupey,names:cjk,School=soto expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,pierre-reigen-crepon,pierre-reigen-crepon,names:cjk,School=soto expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,poan-zuxian,QNihLq7F6lFvXyy0FEUCI,names:cjk,School=yangqi-line expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,qinglin-shiqian,CZsUYLmBsyccueFDgAzpT,names:cjk,School=nanyue-line expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,qingxi-hongjin,2ViXkfd-4_RKrlE_iGJFh,names:cjk,School=qingyuan-line expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,qinshan-wensui,aqnL8MRDm1bxk2Lu0S5Ne,names:cjk,School=guiyang expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,raphael-doko-triet,J8Ej-alBWcTa9C9QhlJc0,names:cjk,School=soto expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,robert-aitken,TQzr9ourum7QO05WzkwVh,names:cjk,School=sanbo-zen expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,roland-rech,6DVN4QdD6cAJWvY-o0yHS,names:cjk,School=soto expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,ruben-habito,s_nR66_yj2tOIGe3GU9Yi,names:cjk,School=sanbo-zen expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,ruiyan-shiyan,bNQLsTfESFgAIGvqTi82K,names:cjk,School=qingyuan-line expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,ryoen-genseki,bgAOr6wpkYuTi8DwnLliZ,names:cjk,School=rinzai expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,sansheng-huiran,Q7Gx9DnbP5KTZCxD8hFmu,names:cjk,School=linji expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,seisetsu-genjyo,7ybIRbLsrjHNDRg4q1YqL,names:cjk,School=rinzai expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,sengan-bonryu,AVq5lTrPokKVy2JEEPoT8,names:cjk,School=soto expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,senshu-donko,N_9pSjDlGYPdd_rjwE7qH,names:cjk,School=soto expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,senso-esai,_ftBFxCYZ3Xn3an_qdLCs,names:cjk,School=soto expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,sessan-tetsuzen,VyMBh4aHqVaOzr8kApZx8,names:cjk,School=soto expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,sesso-hoseki,kNMhx0h8suu_wB8nIArpj,names:cjk,School=soto expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,shanglan-lingchao,buNUUo66XlXE6lnMXXY3d,names:cjk,School=qingyuan-line expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,shaoshan-huanpu,n44pWPgKAYDunODi5gJDK,names:cjk,School=qingyuan-line expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,shengshou-nanyin,vjHWgxgLJcExleMk_kKNo,names:cjk,School=early-chan expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,shexian-guixing,UPNzZbMpN3aYiR1YAriYG,names:cjk,School=caodong expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,shingan-doku,3A-O2kfB0Rno8eK38cAlb,names:cjk,School=soto expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,shishuang-qingzhu,XGgvvjlgSlpPY4huIWXjM,names:cjk,School=qingyuan-line expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,shizan-tokuchu,h4J5ebMBX2bRmXjWUIl8p,names:cjk,School=soto expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,shoun-hozui,CiZGC1uF3y6dzSr1gWPHE,names:cjk,School=soto expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,shoushan-xingnian,uZ4D53XAuRrqcqmhCBmqG,names:cjk,School=linji expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,shushan-kuangren,JBhPy4sLL_4OgCqT0G36B,names:cjk,School=qingyuan-line expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,sixin-wuxin,tucgspCiGHOSD5vJVeIKY,names:cjk,School=yangqi-line expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,sohan-genyo,6Ht4O5eCUkrIsYMcDgqoo,names:cjk,School=rinzai expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,songshan-puji,-x_tMuMjPp3DZQGCGA0zs,names:cjk,School=early-chan expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,stephane-kosen-thibaut,sOpOQoTa6neVqPXdMRUF1,names:cjk,School=soto expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,suizhou-daoyuan,3Dd3l63_Ee1bnHLolSvML,names:cjk,School=early-chan expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,taiei-zesho,tUzVyJEiZtWnDV7Vpp4Fq,names:cjk,School=soto expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,taigen-soshin,M5shSPzxAvlmM1oS4aFSc,names:cjk,School=soto expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,taiping-huiqin,7bVq77ThGkOYeAitn6YRm,names:cjk,School=linji expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,taiyuan-fu,tWIL3-PP9anYN53fH_WSh,names:cjk,School=qingyuan-line expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,tenrin-kanshu,4znKB3qRf_SOcZd1xsJNi,names:cjk,School=soto expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,tenyu-soen,rZdzXWI-_M8_oXrpEz838,names:cjk,School=soto expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,tianhuang-daowu,Ypzz3R74TdOUZEc41CRhm,names:cjk,School=qingyuan-line expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,tianping-congyi,Rwko-GTEayENS1Q0lSgRs,names:cjk,School=qingyuan-line expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,tiantai-deshao,SSHyzsJj2K7xWw2Q5ZVHG,names:cjk,School=fayan expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,tiantong-zongjue,uQ3HJxr98QdGcDriXHgVa,names:cjk,School=caodong expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,tianyi-yihuai,7HfwCdpszPy0hDSrPxZOi,names:cjk,School=yunmen expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,tongan-guanzhi,3A_xRCHtopdEAqNDz96Jv,names:cjk,School=caodong expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,tongfeng-anzhu,pXqMnbtBWYQaVDpdzhvcX,names:cjk,School=linji expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,touzi-datong,jTmwdm8QPIAiiUAwV-zCE,names:cjk,School=qingyuan-line expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,touzi-yiqing,ilSQ1eOlSNCagZoG1W3Fv,names:cjk,School=caodong expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,vincent-keisen-vuillemin,vincent-keisen-vuillemin,names:cjk,School=soto expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,wang-yanbin,BF-2Vjqejpp-aUQU6JuKt,names:cjk,School=qingyuan-line expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,wenshu-yingzhen,Bo97GCtM9BZ6e71TAMAdZ,names:cjk,School=caodong expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,wufeng-changguan,Kkq_46-Hh94BLD8RXPqxR,names:cjk,School=nanyue-line expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,wujiu-youxuan,pxx2qaSxC_Crv8p9o8l5p,names:cjk,School=nanyue-line expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,wumen-huikai,C0r4GzBv7BEN2ZXFGLwo8,names:cjk,School=linji expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,wuzhun-shifan,s6fg-VgmQx67L-78F45cW,names:cjk,School=yangqi-line expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,wuzu-fayan,lZ4j8pOCblnrPvSG8faoi,names:cjk,School=linji expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,xianglin-chengyuan,la_nj_rqWAlfcj_p60Xoj,names:cjk,School=guiyang expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,xiangyan-zhixian,yYvOl6ecI-wc9nmWKgP3f,names:cjk,School=guiyang expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,xingyang-qingpou,K7s1fzKNnNrs673SYBt4V,names:cjk,School=guiyang expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,xingyang-qingrang,BvSGSw4IC-m8D3oyzF4ow,names:cjk,School=caodong expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,xita-guangmu,Uj8Fu23jBVYiUHHl32zzU,names:cjk,School=linji expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,xitang-zhizang,xvNlcBK2lf_-swgDoLjZg,names:cjk,School=nanyue-line expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,xiyuan-siming,DgxUMAIDeal0L9V5R1TWV,names:cjk,School=linji expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,xuansha-shibei,iO_UjXfKurStJgutHyTa-,names:cjk,School=qingyuan-line expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,xuedou-chongxian,3FVS2Ax3LAfRimpc4b_f-,names:cjk,School=yunmen expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,xuedou-zhijian,FhsJ0vhiUvvvghy9ys7Jr,names:cjk,School=caodong expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,xutang-zhiyu,IgLEF6ibrtovkxxzFqR_l,names:cjk,School=yangqi-line expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,yang-wuwei,qB1m3MboCgq1YkbCWEWY6,names:cjk,School=yunmen expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,yangqi-fanghui,EMoIlVImDttpEYdxP41FA,names:cjk,School=yangqi-line expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,yangshan-yong,DODjkFbOBTItIJ8egKEhK,names:cjk,School=caodong expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,yanguan-qian,xc5IW8qvtH_72qBONcm8D,names:cjk,School=nanyue-line expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,yantou-quanhuo,STErfEe56EBTfML9qvACn,names:cjk,School=qingyuan-line expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,yanyang-shanxin,e2m1ar_J_q9_8UVAyDGOZ,names:cjk,School=nanyue-line expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,yaoshan-weiyan,uu9qH9-9wD0oJeH7zP13h,names:cjk,School=qingyuan-line expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,yongjia-xuanjue,YPOsnZ8XDX33nnOePZ-5c,names:cjk,School=early-chan expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,yongming-yanshou,sq4kfstDl97XrJQhtHtme,names:cjk,School=fayan expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,yuantong-fashen,WRqVa4TCwjlNOkSjUCj8G,names:cjk,School=yunmen expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,yuanwu-keqin,BL41yC9VsAMM0TzssIEKP,names:cjk,School=linji expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,yuean-shanguo,dO8iOgsAFRvx7lVlydPMO,names:cjk,School=linji expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,yuelin-shiguan,T5yC-lZjdEoiTetm3Rsfx,names:cjk,School=linji expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,yuezhou-qianfeng,MRUgXjS05THSbaFxxRBWe,names:cjk,School=yunmen expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,yunan-kewen,bjQXp6ro2IqXUbtD15GO8,names:cjk,School=linji expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,yungai-zhiyuan,gaN8ndaUaEcnJDAxSZQm1,names:cjk,School=qingyuan-line expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,yuquan-shenxiu,NEAKNQoo_MlBKLBAQRXDI,names:cjk,School=early-chan expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,yves-shoshin-crettaz,9jNP2fUH7zmQTozB_DnAO,names:cjk,School=soto expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,zhangjing-huaiyun,TBKSEsLQZiOU_e4wO8-CU,names:cjk,School=nanyue-line expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,zhenjing-kewen,gnKKjaZPBk0CIELCFqZJ6,names:cjk,School=linji expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,zhenxie-qingliao,no2kDb-qSf_4r9NjDeyq9,names:cjk,School=caodong expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,zhimen-guangzuo,kP5TDAuk1-nJJoOtaXibF,names:cjk,School=guiyang expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,zhongyi-hongen,RZ12rddz4Ik3VPQ0zXLHn,names:cjk,School=nanyue-line expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,zhuan-shigui,M_dUQCJ9bjmX1ckgX4YtY,names:cjk,School=yangqi-line expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,zifu-rubao,XzLx8w_R3S46E186G9qep,names:cjk,School=linji expects a name in [cjk] but no name contains characters in those ranges.
+INFO,native-script-missing,other,master,zoden-yoko,Tgrsp0lDRQvv_YLUWHvjm,names:cjk,School=soto expects a name in [cjk] but no name contains characters in those ranges.
+INFO,source-popular,,source,Wikipedia — temple articles with infobox coordinates,src_wikipedia,,Source reliability='popular'. Consider replacing with a scholarly source or downgrading claims that depend on it.

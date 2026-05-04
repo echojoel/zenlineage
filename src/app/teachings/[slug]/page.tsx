@@ -20,6 +20,7 @@ import {
   hasItemCitation,
   isPublishedTeaching,
 } from "@/lib/publishable-content";
+import { AccuracyFooter } from "@/components/AccuracyFooter";
 
 export async function generateStaticParams() {
   const allTeachings = await db.select({ slug: teachings.slug }).from(teachings);
@@ -474,6 +475,14 @@ export default async function TeachingDetailPage({
             </p>
           )}
         </section>
+
+        <AccuracyFooter
+          entityType="teaching"
+          entitySlug={teaching.slug}
+          entityName={title}
+          totalCitations={citationRows.length}
+          attributionStatus={teaching.attributionStatus ?? null}
+        />
       </div>
     </main>
   );
