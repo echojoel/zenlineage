@@ -327,7 +327,7 @@ export const TIMELINE_ERAS: TimelineEra[] = [
         title: "Vinītaruci Carries Chan to Vietnam",
         description:
           "An Indian monk who had studied with the Third Patriarch Sengcan in China, Vinītaruci travelled south and founded the first Thiền (禪) lineage in what is now northern Vietnam, based at the Pháp Vân temple. The Thiền Uyển Tập Anh, a fourteenth-century Vietnamese compendium, traces this lineage through nineteen generations and makes Vinītaruci Vietnamese Buddhism's earliest named Chan ancestor — though modern scholarship reads the scheme as a retrospective construction shaped by later traditions rather than a contemporaneous historical chain.",
-        masters: [],
+        masters: [{ label: "Vinītaruci", slug: "vinitaruci" }],
         schools: [
           { label: "Thiền", slug: "thien" },
           { label: "Early Chan", slug: "early-chan" },
@@ -421,7 +421,7 @@ export const TIMELINE_ERAS: TimelineEra[] = [
         title: "Toui Returns with Seon to Silla",
         description:
           "Toui (도의, d. 825), a Korean monk who trained in Tang China and received transmission in the Mazu-Baizhang line, returned to the Silla kingdom bringing Southern School Chan doctrine. His teaching of sudden awakening encountered resistance from the scholastic Buddhism then dominant in Korea and flowered only posthumously, when his disciples established Chauldoyi-sa on Mount Gaji. Toui is regarded as the first patriarch of Korean Seon, opening the century-long arrival of what would become the Nine Mountain Schools (구산선문 Guṣan Seonmun) — each founded by a Korean master who had received transmission in China.",
-        masters: [],
+        masters: [{ label: "Toui", slug: "toui" }],
         schools: [
           { label: "Seon", slug: "seon" },
           { label: "Nanyue line", slug: "nanyue-line" },
@@ -438,7 +438,10 @@ export const TIMELINE_ERAS: TimelineEra[] = [
         title: "Vô Ngôn Thông Founds the Second Thiền Lineage",
         description:
           "Vô Ngôn Thông (無言通, d. 826), a Chinese disciple of Baizhang Huaihai, travelled to Vietnam in his later years and founded the second major Thiền lineage, based at Kiến Sơ temple in what is now Bắc Ninh province. Where the earlier Vinītaruci line carried an Indian-rooted meditative tradition, the Vô Ngôn Thông line transmitted the dharma through the Chinese Southern School with its characteristic emphasis on direct transmission outside the scriptures. Together the two lineages formed the spine of Vietnamese Thiền for the next five centuries.",
-        masters: [],
+        masters: [
+          { label: "Vô Ngôn Thông", slug: "vo-ngon-thong" },
+          { label: "Baizhang Huaihai", slug: "baizhang-huaihai" },
+        ],
         schools: [
           { label: "Thiền", slug: "thien" },
           { label: "Nanyue line", slug: "nanyue-line" },
@@ -601,7 +604,7 @@ export const TIMELINE_ERAS: TimelineEra[] = [
         title: "Chinul's Synthesis and the Rise of Jogye Seon",
         description:
           "Bojo Chinul (普照知訥, 1158–1210) gave Korean Seon the doctrinal and institutional form it still carries. Rejecting the Chinese controversy between sudden and gradual awakening as a false dichotomy, he taught 'sudden awakening, gradual cultivation' (돈오점수 dono jeomsu) and braided Seon meditation together with Hwaeom (Huayan) doctrinal study and Pure Land devotion. His Samādhi-Prajñā Society retreat at Mount Jogye (ending in 1200) became the seed of what would later be institutionalized as the Jogye Order — the dominant expression of Korean Buddhism from that day to this.",
-        masters: [],
+        masters: [{ label: "Bojo Chinul", slug: "jinul" }],
         schools: [
           { label: "Seon", slug: "seon" },
           { label: "Jogye", slug: "jogye" },
@@ -618,7 +621,10 @@ export const TIMELINE_ERAS: TimelineEra[] = [
         title: "Chin'gak Hyesim Systematizes Hwadu Practice",
         description:
           "Chin'gak Hyesim (眞覺慧諶, 1178–1234), Chinul's principal disciple and successor at Mount Jogye, refined Korean huatou (화두 hwadu) practice into the disciplined form that still defines Korean monastic training. His Seonmun Yeomsong, a collection of 1,125 koan cases with his commentary, remains one of the foundational texts of Korean Seon. With Hyesim the Korean tradition committed to keyword investigation as the primary meditative method, a commitment that endures in the seonbang (meditation hall) to this day.",
-        masters: [],
+        masters: [
+          { label: "Chin'gak Hyesim", slug: "chingak-hyesim" },
+          { label: "Bojo Chinul", slug: "jinul" },
+        ],
         schools: [{ label: "Jogye", slug: "jogye" }],
         citations: [
           { key: "buswell-radiance", pages: "pp. 98–130" },
@@ -700,7 +706,7 @@ export const TIMELINE_ERAS: TimelineEra[] = [
         title: "Trần Nhân Tông Founds Trúc Lâm",
         description:
           "Having personally led Đại Việt to victory against two Mongol invasions (1285 and 1288), Emperor Trần Nhân Tông (陳仁宗, 1258–1308) abdicated the throne and retired to Yên Tử Mountain to become a monk. There, drawing together the earlier Vinītaruci, Vô Ngôn Thông, and Thảo Đường lineages, he founded Trúc Lâm (竹林, Bamboo Grove) — the only indigenous Vietnamese Thiền school, and the only Zen school ever founded by a reigning emperor. The patriarchy passed through Pháp Loa (1284–1330) and Huyền Quang (1254–1334) before the school dissolved into the broader Vietnamese Buddhist landscape. Thích Thanh Từ revived the school in the twentieth century as a meditation-centered Vietnamese contemplative movement.",
-        masters: [],
+        masters: [{ label: "Trần Nhân Tông", slug: "tran-nhan-tong" }],
         schools: [
           { label: "Trúc Lâm", slug: "truc-lam" },
           { label: "Thiền", slug: "thien" },
@@ -717,7 +723,7 @@ export const TIMELINE_ERAS: TimelineEra[] = [
         title: "Taego Bou Brings Linji Transmission to Korea",
         description:
           "Taego Bou (太古普愚, 1301–1382) travelled to Yuan China and received Linji dharma transmission from Shiwu Qinggong (Stonehouse), the hermit-poet of the Yangqi branch. On returning to Korea he served as royal preceptor and, at Gongmin's request, undertook the unification of the Nine Mountain Schools into a single order organized around Linji koan practice. This Linji-centered institutional framework — alongside Chinul's earlier synthesis — became the backbone of the modern Jogye and Taego Orders.",
-        masters: [],
+        masters: [{ label: "Taego Bou", slug: "taego-bou" }],
         schools: [
           { label: "Taego Order", slug: "taego-order" },
           { label: "Seon", slug: "seon" },
@@ -791,7 +797,7 @@ export const TIMELINE_ERAS: TimelineEra[] = [
         title: "Seosan Hyujeong and the Monk-Soldiers",
         description:
           "During the Imjin War (1592–1598), as Toyotomi Hideyoshi's forces invaded Korea, the seventy-two-year-old Seon master Seosan Hyujeong (西山休靜, 1520–1604) left his mountain temple and organized Buddhist militias (승병 seungbyeong) to fight in the country's defense. After the war he returned to writing and composed the Seongamnok (Mirror of Seon), the standard Joseon-dynasty handbook of Korean practice, which articulates a synthesis of Seon meditation, sutra study, and Pure Land devotion. Seosan's political role led to Buddhism's partial rehabilitation at court after centuries of Neo-Confucian suppression.",
-        masters: [],
+        masters: [{ label: "Seosan Hyujeong", slug: "seosan-hyujeong" }],
         schools: [{ label: "Seon", slug: "seon" }],
         citations: [
           { key: "buswell-monastic", pages: "pp. 21–58" },
@@ -805,7 +811,7 @@ export const TIMELINE_ERAS: TimelineEra[] = [
         title: "Liễu Quán Vietnamizes the Lâm Tế Line",
         description:
           "Liễu Quán (了觀, 1667–1742) was the first native Vietnamese master to receive dharma transmission in the Lâm Tế (Linji) line — from the Chinese émigré master Tử Dung Minh Hoằng. Where earlier Vietnamese Linji transmission had been carried by Chinese monks such as Nguyên Thiều, Liễu Quán made the tradition indigenously Vietnamese: his enduring dharma line, the 'Liễu Quán branch,' became the dominant lineage in central and southern Vietnam and remains so today. Thích Nhất Hạnh's Plum Village tradition descends from this line.",
-        masters: [],
+        masters: [{ label: "Liễu Quán", slug: "lieu-quan" }],
         schools: [
           { label: "Lâm Tế", slug: "lam-te" },
           { label: "Linji", slug: "linji" },
@@ -839,7 +845,7 @@ export const TIMELINE_ERAS: TimelineEra[] = [
         title: "Gyeongheo Revives Korean Seon",
         description:
           "By the late Joseon period, centuries of Neo-Confucian suppression had reduced Korean Seon monastic practice to near-extinction outside a handful of mountain temples. Gyeongheo Seongu (鏡虛惺牛, 1846–1912) had a breakthrough awakening at Cheonjang-sa in 1879 and spent the rest of his life re-establishing the seonbang (meditation hall) and hwadu retreat schedule. The lineage he reignited — through Mangong, Hyobong, Seongcheol, and others — carried Seon into the twentieth century and made modern Korean meditation possible.",
-        masters: [],
+        masters: [{ label: "Gyeongheo Seongu", slug: "gyeongheo-seongu" }],
         schools: [{ label: "Seon", slug: "seon" }],
         citations: [
           { key: "buswell-monastic", pages: "pp. 21–41, 191–229" },
@@ -957,7 +963,7 @@ export const TIMELINE_ERAS: TimelineEra[] = [
         title: "Seongcheol's Haein-sa Sermons",
         description:
           "Installed as Supreme Patriarch of the Jogye Order, Toeong Seongcheol (退翁性徹, 1912–1993) delivered a hundred days of sermons at Haein-sa that would define modern Korean Seon orthodoxy. Against Chinul's inherited 'sudden awakening, gradual cultivation,' he insisted on pure sudden awakening followed by sudden cultivation (돈오돈수 dono donsu) — a position he defended with exhaustive scholarship in Seonmun Jeongno. The debate reshaped the Korean Seon academy and re-centered hwadu practice as the sole authentic path.",
-        masters: [],
+        masters: [{ label: "Toeong Seongcheol", slug: "seongcheol" }],
         schools: [
           { label: "Jogye", slug: "jogye" },
           { label: "Seon", slug: "seon" },
@@ -974,7 +980,7 @@ export const TIMELINE_ERAS: TimelineEra[] = [
         title: "Seung Sahn Founds the Kwan Um School",
         description:
           "Seung Sahn (崇山, 1927–2004), a dharma heir of Gobong Seonsa in the Korean Jogye lineage, arrived in Providence, Rhode Island in 1972 and opened the Providence Zen Center. From that seed he grew the Kwan Um School of Zen into one of the most geographically widespread Zen organizations in the world, with more than a hundred centers across North America, Europe, Asia, and Africa. His direct, humorous teaching — 'only don't know' — adapted classical Korean hwadu into a teaching form that Western students could enter on their first weekend retreat.",
-        masters: [],
+        masters: [{ label: "Seung Sahn", slug: "seung-sahn" }],
         schools: [
           { label: "Kwan Um", slug: "kwan-um" },
           { label: "Jogye", slug: "jogye" },
@@ -990,7 +996,7 @@ export const TIMELINE_ERAS: TimelineEra[] = [
         title: "Thích Nhất Hạnh Founds Plum Village",
         description:
           "Exiled from Vietnam in 1966 for his peace activism during the war, Thích Nhất Hạnh (釋一行, 1926–2022) — a 42nd-generation master of the Lâm Tế school in the Liễu Quán branch — settled in the Dordogne region of France in 1982 and founded Plum Village (Làng Mai), a practice village for monastic and lay community together. Through his Fourteen Mindfulness Trainings, his Order of Interbeing (established earlier, 1966, during the war), and more than a hundred books translated into dozens of languages, he shaped Engaged Buddhism as a distinctly twentieth-century contribution to the Zen tradition, and made mindfulness one of the most widely practised contemplative disciplines on the planet.",
-        masters: [],
+        masters: [{ label: "Thích Nhất Hạnh", slug: "thich-nhat-hanh" }],
         schools: [
           { label: "Plum Village", slug: "plum-village" },
           { label: "Lâm Tế", slug: "lam-te" },
