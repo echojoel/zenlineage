@@ -22,6 +22,7 @@ function edge(
   opts: {
     type?: "primary" | "secondary" | "disputed";
     isPrimary?: boolean;
+    notes?: string | null;
   } = {}
 ): TransmissionEdge {
   return {
@@ -30,6 +31,7 @@ function edge(
     studentId,
     type: opts.type ?? "primary",
     isPrimary: opts.isPrimary ?? false,
+    notes: opts.notes ?? null,
   };
 }
 
@@ -233,6 +235,52 @@ describe("DAG Validation", () => {
       expect(result.valid).toBe(true); // warnings don't block
       expect(result.warnings.some((w) => w.type === "temporal")).toBe(true);
       expect(result.errors.filter((e) => e.type === "temporal")).toHaveLength(0);
+    });
+  });
+
+  // -----------------------------------------------------------------------
+  // 5b. Editorial-bridge edges — temporal failure downgraded to warning
+  // -----------------------------------------------------------------------
+  describe("editorial-bridge edges", () => {
+    const edges: TransmissionEdge[] = [
+      edge("e1", "T", "S", {
+        notes:
+          "Editorial bridge: intermediate masters between T (d. 600) and S (b. 1100) are not yet seeded.",
+      }),
+    ];
+    const masters_: MasterDates[] = [
+      master("T", {
+        birthYear: 530,
+        birthPrecision: "exact",
+        birthConfidence: "high",
+        deathYear: 600,
+        deathPrecision: "exact",
+        deathConfidence: "high",
+      }),
+      master("S", {
+        birthYear: 1100,
+        birthPrecision: "exact",
+        birthConfidence: "high",
+      }),
+    ];
+
+    it("downgrades the temporal-overlap failure to a warning", () => {
+      const result = validateDAG(edges, masters_, ["T", "S"]);
+      expect(result.valid).toBe(true);
+      expect(result.errors.filter((e) => e.type === "temporal")).toHaveLength(0);
+      const bridgeWarn = result.warnings.find((w) =>
+        w.message.includes("[editorial bridge]")
+      );
+      expect(bridgeWarn).toBeDefined();
+    });
+
+    it("keeps the same overlap failure as an error when notes are absent", () => {
+      const plain: TransmissionEdge[] = [edge("e1", "T", "S")];
+      const result = validateDAG(plain, masters_, ["T", "S"]);
+      expect(result.valid).toBe(false);
+      expect(
+        result.errors.filter((e) => e.type === "temporal").length
+      ).toBeGreaterThanOrEqual(1);
     });
   });
 

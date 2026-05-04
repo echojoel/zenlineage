@@ -652,7 +652,7 @@ export const KV_MASTERS: KVMaster[] = [
         isPrimary: false,
         sourceIds: ["src_nguyen_medieval"],
         notes:
-          "42nd-generation master of the Lâm Tế school in the Liễu Quán dharma line — lineage rather than direct teacher-student.",
+          "Editorial bridge: Thích Nhất Hạnh is a 42nd-generation master of the Lâm Tế school in the Liễu Quán dharma line — lineage rather than direct teacher-student; intermediate Vietnamese Liễu Quán-line masters between 1742 and 1926 are not yet seeded.",
       },
     ],
   },

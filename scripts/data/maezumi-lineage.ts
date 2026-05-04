@@ -443,10 +443,10 @@ export const MAEZUMI_INCOMING_TRANSMISSIONS: Array<{
   {
     studentSlug: "taizan-maezumi",
     teacherSlug: "baian-hakujun-kuroda",
-    type: "primary",
-    isPrimary: true,
+    type: "dharma",
+    isPrimary: false,
     notes:
-      "Primary Soto dharma transmission from his father, the abbot of Koshin-ji.",
+      "Soto dharma transmission (shiho) from his father, the abbot of Koshin-ji. Maezumi's *primary* transmission for graph purposes is recorded as the Sanbo-Zen inka from Yasutani Hakuun (see scripts/data/raw/lineage-fixes-curated.json), which connects the White Plum Asanga branch back to Shakyamuni; the Kuroda Soto edge is preserved here as a parallel dharma transmission.",
     sourceIds: ["src_whiteplum", "src_zcla_maezumi_founders"],
   },
   {

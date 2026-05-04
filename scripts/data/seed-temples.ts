@@ -1980,7 +1980,7 @@ export const SEED_TEMPLES: TempleSeed[] = [
     foundedYear: 1921,
     foundedPrecision: "exact",
     schoolSlug: "soto",
-    founderSlug: "sawaki-kodo",
+    founderSlug: "kodo-sawaki",
     status: "active",
     sourceId: SRC_WIKIPEDIA,
     sourceExcerpt:
