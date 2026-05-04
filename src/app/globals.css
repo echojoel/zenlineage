@@ -1386,8 +1386,42 @@ a.footnote-source-link:hover {
     width: 100%;
   }
 
+  /* Mobile: dock the sidebar as a tight bottom drawer so the lineage
+     canvas above it stays usable. Outside-tap dismiss is wired up in
+     LineageGraph.tsx and is gated to this same 720px breakpoint. */
   .sidebar {
-    width: min(320px, 100vw);
+    position: absolute;
+    top: auto;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: auto;
+    max-height: 55%;
+    padding: 1rem 1rem;
+    border-left: none;
+    border-top: 1px solid var(--paper-warm);
+    box-shadow: 0 -4px 12px rgba(61, 53, 48, 0.08);
+    overflow-y: auto;
+  }
+
+  .sidebar-name {
+    font-size: 1.05rem;
+    margin-bottom: 0.35rem;
+  }
+
+  .sidebar-image-container {
+    max-width: 96px;
+    float: right;
+    margin: 0 0 0.5rem 0.75rem;
+  }
+
+  .sidebar-image {
+    margin-bottom: 0;
+  }
+
+  .sidebar-actions {
+    margin-top: 0.75rem;
+    clear: both;
   }
 
   .masters-table-th,
@@ -1397,20 +1431,6 @@ a.footnote-source-link:hover {
 
   .master-list-school {
     white-space: normal;
-  }
-}
-
-@media (max-width: 640px) {
-  .sidebar {
-    position: fixed;
-    top: auto;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    width: 100%;
-    max-height: 60vh;
-    border-left: none;
-    border-top: 1px solid var(--paper-warm);
   }
 }
 
