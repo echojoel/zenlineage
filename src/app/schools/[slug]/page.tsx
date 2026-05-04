@@ -19,7 +19,7 @@ import {
 import { formatDateWithPrecision } from "@/lib/date-format";
 import { getSchoolDefinition, type SchoolFootnote } from "@/lib/school-taxonomy";
 import { isTier1Master } from "@/lib/editorial-tiers";
-import { renderProseWithFootnotes, type FootnoteRef } from "@/lib/footnotes";
+import { renderSharedFootnotedProse, type FootnoteRef } from "@/lib/footnotes";
 import { AccuracyFooter } from "@/components/AccuracyFooter";
 
 function schoolFootnotesToRefs(footnotes: SchoolFootnote[] | undefined): FootnoteRef[] {
@@ -299,6 +299,27 @@ export default async function SchoolDetailPage({ params }: { params: Promise<{ s
       ? schoolImageRows[0]
       : null;
 
+  // Wikipedia-style: render every prose block on this page through one
+  // shared CallSiteMap so that markers like `[1]` in the summary and the
+  // same `[1]` in the practice paragraph back-link to one canonical
+  // entry in a single Notes block at the foot of the page.
+  const footnoteScope = `school-${slug}`;
+  const sharedRefs = schoolFootnotesToRefs(definition?.footnotes);
+  const proseBlocks: Array<{ key: string; text: string }> = [];
+  if (definition?.summary) {
+    proseBlocks.push({ key: "summary", text: definition.summary });
+  }
+  if (definition?.practice) {
+    proseBlocks.push({ key: "practice", text: definition.practice });
+  }
+  const { renderedBlocks, notes: footnotesNotes } = renderSharedFootnotedProse({
+    blocks: proseBlocks,
+    refs: sharedRefs,
+    scope: footnoteScope,
+    notesTitle: "References",
+  });
+  const renderedByKey = new Map(renderedBlocks.map((b) => [b.key, b.nodes]));
+
   const canonicalUrl = `https://zenlineage.org/schools/${school.slug}`;
 
   const breadcrumbJsonLd = {
@@ -379,15 +400,7 @@ export default async function SchoolDetailPage({ params }: { params: Promise<{ s
           </div>
           <div className="detail-summary">
             {definition?.summary ? (
-              definition.footnotes && definition.footnotes.length > 0 ? (
-                renderProseWithFootnotes(
-                  definition.summary,
-                  schoolFootnotesToRefs(definition.footnotes),
-                  { idScope: `school-${slug}-summary` }
-                )
-              ) : (
-                <p>{definition.summary}</p>
-              )
+              renderedByKey.get("summary") ?? <p>{definition.summary}</p>
             ) : (
               <p>
                 This school page summarizes the current lineage coverage in the encyclopedia
@@ -401,15 +414,7 @@ export default async function SchoolDetailPage({ params }: { params: Promise<{ s
           <section className="detail-card">
             <h3 className="detail-section-title">Meditation practice</h3>
             <div className="detail-summary">
-              {definition.footnotes && definition.footnotes.length > 0 ? (
-                renderProseWithFootnotes(
-                  definition.practice,
-                  schoolFootnotesToRefs(definition.footnotes),
-                  { idScope: `school-${slug}-practice`, showHeader: false }
-                )
-              ) : (
-                <p>{definition.practice}</p>
-              )}
+              {renderedByKey.get("practice") ?? <p>{definition.practice}</p>}
             </div>
             {tier1Masters.length > 0 && (
               <>
@@ -610,6 +615,10 @@ export default async function SchoolDetailPage({ params }: { params: Promise<{ s
             </p>
           )}
         </section>
+
+        {footnotesNotes && (
+          <section className="detail-card">{footnotesNotes}</section>
+        )}
 
         <AccuracyFooter
           entityType="school"

@@ -1,6 +1,11 @@
 import { describe, expect, it } from "vitest";
+import { createElement, Fragment } from "react";
 import { renderToStaticMarkup } from "react-dom/server";
-import { renderProseWithFootnotes, type FootnoteRef } from "../src/lib/footnotes";
+import {
+  renderProseWithFootnotes,
+  renderSharedFootnotedProse,
+  type FootnoteRef,
+} from "../src/lib/footnotes";
 
 const ref = (overrides: Partial<FootnoteRef> & { index: number }): FootnoteRef => ({
   index: overrides.index,
@@ -211,5 +216,53 @@ describe("renderProseWithFootnotes", () => {
     );
     expect(out).toContain('id="fnref-x-1-0"');
     expect(out).toContain('id="fnref-x-1-1"');
+  });
+});
+
+describe("renderSharedFootnotedProse", () => {
+  it("renders one Notes block with backrefs for citations across multiple blocks", () => {
+    const { renderedBlocks, notes } = renderSharedFootnotedProse({
+      blocks: [
+        { key: "summary", text: "Founder taught X[1]." },
+        { key: "practice", text: "Method derives from the same teacher[1]." },
+      ],
+      refs: [ref({ index: 1, sourceTitle: "Shared Source" })],
+      scope: "school-test",
+    });
+    expect(renderedBlocks).toHaveLength(2);
+    const summaryHtml = renderToStaticMarkup(
+      createElement(Fragment, null, renderedBlocks[0].nodes)
+    );
+    const practiceHtml = renderToStaticMarkup(
+      createElement(Fragment, null, renderedBlocks[1].nodes)
+    );
+    expect(summaryHtml).toContain('href="#fn-school-test-1"');
+    expect(practiceHtml).toContain('href="#fn-school-test-1"');
+    // Distinct call-site ids so the bottom Notes block can back-link to each.
+    expect(summaryHtml).toContain('id="fnref-school-test-1-0"');
+    expect(practiceHtml).toContain('id="fnref-school-test-1-1"');
+
+    expect(notes).not.toBeNull();
+    const notesHtml = renderToStaticMarkup(notes!);
+    expect(notesHtml).toContain('id="fn-school-test-1"');
+    expect(notesHtml).toContain("Shared Source");
+    // Two call-sites → ↑ a b backrefs in the single canonical entry.
+    expect(notesHtml).toContain('href="#fnref-school-test-1-0"');
+    expect(notesHtml).toContain('href="#fnref-school-test-1-1"');
+    expect(notesHtml).toMatch(/>a<\/a>/);
+    expect(notesHtml).toMatch(/>b<\/a>/);
+  });
+
+  it("returns null notes when no refs are supplied", () => {
+    const { renderedBlocks, notes } = renderSharedFootnotedProse({
+      blocks: [{ key: "summary", text: "Plain prose." }],
+      refs: [],
+      scope: "x",
+    });
+    expect(notes).toBeNull();
+    const out = renderToStaticMarkup(
+      createElement(Fragment, null, renderedBlocks[0].nodes)
+    );
+    expect(out).toContain("<p>Plain prose.</p>");
   });
 });

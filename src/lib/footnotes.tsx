@@ -275,3 +275,76 @@ export function FootnoteList({
     </aside>
   );
 }
+
+/**
+ * Render multiple prose blocks that share a single footnote reference
+ * list, with one unified Notes block at the foot of the page (Wikipedia
+ * style). Each prose block is split on `\n\n` into paragraphs; `[N]`
+ * markers are converted to superscript anchors that link to a single
+ * combined `<aside>` containing one `<li>` per source. Backref arrows
+ * point at the actual call-site, which is what makes citation reuse
+ * across blocks behave correctly: cite source `[2]` in two different
+ * blocks and the Notes entry shows `↑ a b` for both call-sites.
+ */
+export function renderSharedFootnotedProse({
+  blocks,
+  refs,
+  scope,
+  notesTitle = "References",
+}: {
+  blocks: Array<{ key: string; text: string }>;
+  refs: FootnoteRef[];
+  scope: string;
+  notesTitle?: string;
+}): {
+  renderedBlocks: Array<{ key: string; nodes: React.JSX.Element[] }>;
+  notes: React.JSX.Element | null;
+} {
+  const refMap = new Map<number, FootnoteRef>();
+  for (const ref of refs) refMap.set(ref.index, ref);
+
+  const callSites: CallSiteMap = new Map();
+  let counter = 0;
+
+  const renderedBlocks = blocks.map((block) => {
+    const paragraphs = block.text
+      .split(/\n\n+/)
+      .map((p) => p.trim())
+      .filter((p) => p.length > 0);
+    const nodes = paragraphs.map((p, i) => {
+      const { nodes: paraNodes, counter: next } = renderParagraph(
+        p,
+        refMap,
+        scope,
+        callSites,
+        counter
+      );
+      counter = next;
+      return <p key={`${block.key}-p-${i}`}>{paraNodes}</p>;
+    });
+    return { key: block.key, nodes };
+  });
+
+  const sortedRefs = [...refs].sort((a, b) => a.index - b.index);
+
+  const notes =
+    sortedRefs.length === 0 ? null : (
+      <aside className="footnote-section" aria-label={notesTitle}>
+        <h3 className="footnote-section-title">{notesTitle}</h3>
+        <ol className="footnote-list">
+          {sortedRefs.map((ref) => (
+            <li
+              key={ref.index}
+              id={`fn-${scope}-${ref.index}`}
+              value={ref.index}
+            >
+              <Backrefs sites={callSites.get(ref.index) ?? []} />
+              <FootnoteEntry entry={ref} />
+            </li>
+          ))}
+        </ol>
+      </aside>
+    );
+
+  return { renderedBlocks, notes };
+}

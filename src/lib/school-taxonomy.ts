@@ -615,9 +615,34 @@ const SCHOOL_DEFINITIONS: SchoolDefinition[] = [
     aliases: ["white plum asanga", "white plum", "hakubai"],
     nativeNames: { ja: "白梅" },
     summary:
-      "The White Plum Asanga (白梅, 'white plum blossom') is the lineage sangha of Taizan Maezumi Roshi (1931–1995) and his Dharma successors. It is not a Japanese Sōtōshū-registered sub-school but a Western Zen order that inherits Maezumi's tri-lineage authorization: Sōtō shihō from his father Baian Hakujun Kuroda, Rinzai inka from the lay teacher Kōryū Osaka, and Sanbō-Zen inka from Hakuun Yasutani. Maezumi named twelve American Dharma heirs — including Bernie Tetsugen Glassman, Charlotte Joko Beck, Dennis Genpo Merzel, John Daido Loori, Jan Chozen Bays, and Gerry Shishin Wick — and through their own transmissions the White Plum now has several hundred authorized teachers and roughly a thousand affiliated practice places worldwide. Because the order combines shikantaza with the Harada-Yasutani koan curriculum, and because it operates outside Sōtōshū registration, most White Plum heirs teach under the Asanga's own name rather than as Sōtō priests.",
+      "The White Plum Asanga (白梅, 'white plum blossom') is the lineage sangha of Taizan Maezumi Roshi (1931–1995) and his Dharma successors[1]. It is not a Japanese Sōtōshū-registered sub-school but a Western Zen order that inherits Maezumi's tri-lineage authorization: Sōtō shihō from his father Baian Hakujun Kuroda, Rinzai inka from the lay teacher Kōryū Osaka, and Sanbō-Zen inka from Hakuun Yasutani[1][2]. Maezumi named twelve American Dharma heirs — including Bernie Tetsugen Glassman, Charlotte Joko Beck, Dennis Genpo Merzel, John Daido Loori, Jan Chozen Bays, and Gerry Shishin Wick — and through their own transmissions the White Plum now has several hundred authorized teachers and roughly a thousand affiliated practice places worldwide[3]. Because the order combines shikantaza with the Harada-Yasutani koan curriculum, and because it operates outside Sōtōshū registration, most White Plum heirs teach under the Asanga's own name rather than as Sōtō priests[2].",
     practice:
-      "White Plum practice reflects Maezumi's triple authorization: shikantaza in the Sōtō sense (zazen as the direct expression of awakening) combined with a formal koan curriculum derived from Harada Daiun Sogaku and Hakuun Yasutani — beginning with the Mu koan, moving through breakthrough koans, and continuing into the Shōyōroku, Mumonkan, Denkōroku, and Hekiganroku. Formal face-to-face interview (dokusan) is central. Many White Plum centers also integrate the social-action emphasis of the Zen Peacemaker Order, which Glassman founded in 1996 within Maezumi's line.",
+      "White Plum practice reflects Maezumi's triple authorization: shikantaza in the Sōtō sense (zazen as the direct expression of awakening) combined with a formal koan curriculum derived from Harada Daiun Sogaku and Hakuun Yasutani — beginning with the Mu koan, moving through breakthrough koans, and continuing into the Shōyōroku, Mumonkan, Denkōroku, and Hekiganroku[2]. Formal face-to-face interview (dokusan) is central. Many White Plum centers also integrate the social-action emphasis of the Zen Peacemaker Order, which Glassman founded in 1996 within Maezumi's line[4].",
+    footnotes: [
+      {
+        index: 1,
+        sourceTitle: "White Plum Asanga — Founder (Taizan Maezumi Roshi)",
+        sourceUrl: "https://whiteplum.org/founder/",
+        author: "White Plum Asanga",
+      },
+      {
+        index: 2,
+        sourceTitle: "Taizan Maezumi — Wikipedia",
+        sourceUrl: "https://en.wikipedia.org/wiki/Taizan_Maezumi",
+      },
+      {
+        index: 3,
+        sourceTitle: "White Plum Asanga — Lineage and Successors",
+        sourceUrl: "https://whiteplum.org/lineage/",
+        author: "White Plum Asanga",
+      },
+      {
+        index: 4,
+        sourceTitle: "Zen Peacemakers — Our History",
+        sourceUrl: "https://zenpeacemakers.org/about-us/our-history/",
+        author: "Zen Peacemakers International",
+      },
+    ],
     keyTexts: [
       {
         title: "On Zen Practice",
@@ -1506,9 +1531,29 @@ const SCHOOL_DEFINITIONS: SchoolDefinition[] = [
     aliases: ["kwan um", "kwan um school", "kwan um school of zen"],
     nativeNames: { ko: "관음선종", zh: "觀音禪宗" },
     summary:
-      "The Kwan Um School of Zen is an international Seon organization founded in 1983 by the Korean master Seung Sahn (1927–2004), who was among the first Korean Zen teachers to establish a major presence in the West. The school's name refers to Gwaneum (Avalokiteshvara), the bodhisattva of compassion. Seung Sahn's teaching style combined the rigor of traditional Korean hwadu practice with a direct, humorous, and accessible approach adapted for Western students. His famous kong-an (koan) interviews, often beginning with 'What is this?', became the school's hallmark. The Kwan Um School maintains over a hundred Zen centers and groups across North America, Europe, Asia, and Africa, making it one of the most geographically widespread Zen organizations in the world.",
+      "The Kwan Um School of Zen is an international Seon organization founded in 1983 by the Korean master Seung Sahn (1927–2004), who was among the first Korean Zen teachers to establish a major presence in the West[1][2]. The school's name refers to Gwaneum (Avalokiteshvara), the bodhisattva of compassion[1]. Seung Sahn's teaching style combined the rigor of traditional Korean hwadu practice with a direct, humorous, and accessible approach adapted for Western students[2]. His famous kong-an (koan) interviews, often beginning with 'What is this?', became the school's hallmark[3]. The Kwan Um School maintains over a hundred Zen centers and groups across North America, Europe, Asia, and Africa, making it one of the most geographically widespread Zen organizations in the world[1].",
     practice:
-      "Kwan Um practice centers on kong-an (公案) interviews and Seung Sahn’s teaching of ‘don’t-know mind,’ which reframes traditional hwadu intensity in simple, portable language. Students work with questions such as ‘What is this?’ or ‘What am I?’ in seated practice, but their understanding is regularly tested in kong-an interviews where responsiveness matters more than conceptual explanation. Daily forms usually include zazen, chanting, and 108 prostrations, while Yong Maeng Jong Jin retreats reproduce the concentrated atmosphere of Korean intensive practice in formats accessible to lay communities. The school’s distinctiveness lies in combining traditional Seon rigor with unusually direct and global teaching forms.",
+      "Kwan Um practice centers on kong-an (公案) interviews and Seung Sahn’s teaching of ‘don’t-know mind,’ which reframes traditional hwadu intensity in simple, portable language[3]. Students work with questions such as ‘What is this?’ or ‘What am I?’ in seated practice, but their understanding is regularly tested in kong-an interviews where responsiveness matters more than conceptual explanation[3]. Daily forms usually include zazen, chanting, and 108 prostrations, while Yong Maeng Jong Jin retreats reproduce the concentrated atmosphere of Korean intensive practice in formats accessible to lay communities[1]. The school’s distinctiveness lies in combining traditional Seon rigor with unusually direct and global teaching forms[2].",
+    footnotes: [
+      {
+        index: 1,
+        sourceTitle: "Kwan Um School of Zen — About",
+        sourceUrl: "https://kwanumzen.org/about-the-kwan-um-school-of-zen",
+        author: "Kwan Um School of Zen",
+      },
+      {
+        index: 2,
+        sourceTitle: "Seung Sahn — Wikipedia",
+        sourceUrl: "https://en.wikipedia.org/wiki/Seungsahn",
+      },
+      {
+        index: 3,
+        sourceTitle: "The Compass of Zen",
+        author: "Seung Sahn",
+        sourceUrl: "https://www.shambhala.com/the-compass-of-zen.html",
+        pageOrSection: "Introduction; 'Don't-Know Mind' chapter",
+      },
+    ],
     keyTexts: [
       {
         title: "Dropping Ashes on the Buddha",
