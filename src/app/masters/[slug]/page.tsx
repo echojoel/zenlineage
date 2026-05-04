@@ -367,6 +367,7 @@ export default async function MasterDetailPage({ params }: { params: Promise<{ s
       content: teachingContent.content,
       caseNumber: teachings.caseNumber,
       collection: teachings.collection,
+      era: teachings.era,
       attributionStatus: teachings.attributionStatus,
       licenseStatus: teachingContent.licenseStatus,
       translator: teachingContent.translator,
@@ -549,10 +550,18 @@ export default async function MasterDetailPage({ params }: { params: Promise<{ s
     biographyRow && isPublishedBiography(biographyRow.id, itemCitationKeys)
       ? biographyRow.content
       : null;
-  const publishedTeachings = teachingRows.filter((teaching) =>
+  // Whole-text "works" (Shōbōgenzō, Fukanzazengi, Linji Lu…) are modelled
+  // as teachings with type='work'. They get a dedicated section above the
+  // finer-grained sayings/koans/verses so a reader landing on a master's
+  // page can find what the master actually wrote without scrolling past
+  // every individual proverb attributed to them.
+  const publishedTeachingsAll = teachingRows.filter((teaching) =>
     isPublishedTeaching(teaching, itemCitationKeys)
   );
-  const withheldTeachingCount = teachingRows.length - publishedTeachings.length;
+  const publishedWorks = publishedTeachingsAll.filter((t) => t.type === "work");
+  const publishedTeachings = publishedTeachingsAll.filter((t) => t.type !== "work");
+  const withheldTeachingCount =
+    teachingRows.length - publishedTeachingsAll.length;
   const publishedImage = getPublishedImageAsset(mediaRows, itemCitationKeys);
 
   const canonicalUrl = `https://zenlineage.org/masters/${master.slug}`;
@@ -746,6 +755,37 @@ export default async function MasterDetailPage({ params }: { params: Promise<{ s
             </div>
           </div>
         </section>
+
+        {publishedWorks.length > 0 && (
+          <section className="detail-card">
+            <h3 className="detail-section-title">Works</h3>
+            <ul className="detail-source-list">
+              {publishedWorks.map((work) => (
+                <li key={work.id}>
+                  <div className="detail-source-heading">
+                    <span>{work.collection ?? "work"}</span>
+                    <Link
+                      href={`/teachings/${work.slug}`}
+                      className="detail-inline-link"
+                    >
+                      {work.title ?? "Untitled work"}
+                    </Link>
+                  </div>
+                  {work.era && <p className="detail-list-meta">{work.era}</p>}
+                  {work.content && (
+                    <p className="detail-source-excerpt">{work.content}</p>
+                  )}
+                  {work.translator && (
+                    <p className="detail-list-meta">
+                      tr. {work.translator}
+                      {work.edition ? `, ${work.edition}` : ""}
+                    </p>
+                  )}
+                </li>
+              ))}
+            </ul>
+          </section>
+        )}
 
         {(publishedTeachings.length > 0 || withheldTeachingCount > 0) && (
           <section className="detail-card">
