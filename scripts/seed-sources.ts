@@ -312,6 +312,40 @@ const SOURCES = [
     publicationDate: null,
     reliability: "secondary",
   },
+  // Three institutional source IDs registered globally so they exist by
+  // the time seed-biographies runs (inside seed-db). These are also
+  // upserted later by seed-temples.ts and seed-maezumi-lineage.ts, but
+  // those run after seed-biographies, which references all three from
+  // existing footnotes (Triet → src_azi / src_sotozen_europe; Maezumi
+  // and Glassman → src_whiteplum).
+  {
+    id: "src_azi",
+    type: "website",
+    title: "Association Zen Internationale — Find your practice location",
+    author: "Association Zen Internationale",
+    url: "https://www.zen-azi.org/en/dojos",
+    publicationDate: "2025",
+    reliability: "authoritative",
+  },
+  {
+    id: "src_sotozen_europe",
+    type: "website",
+    title:
+      "Sōtōshū Europe Office — Temples, monasteries and practice centres in Europe",
+    author: "Sōtōshū Shūmuchō",
+    url: "https://global.sotozen-net.or.jp/eng/temples/europe/",
+    publicationDate: "2025",
+    reliability: "authoritative",
+  },
+  {
+    id: "src_whiteplum",
+    type: "website",
+    title: "White Plum Asanga — Founder and Dharma Heirs",
+    author: "White Plum Asanga",
+    url: "https://whiteplum.org/founder/",
+    publicationDate: "2025",
+    reliability: "authoritative",
+  },
 ] as const;
 
 export default async function main() {
