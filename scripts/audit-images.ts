@@ -1,7 +1,7 @@
 /**
  * Image coverage audit: emit a deterministic report of every master's image
  * state, so we can track progress toward the "every master has at least one
- * published image" goal (see GitHub issue #2).
+ * published image" goal (see GitHub issue #14).
  *
  * Outputs:
  *   reports/image-coverage-audit.csv — one row per master, machine-readable

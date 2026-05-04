@@ -7,7 +7,7 @@
  *
  * The full-resolution originals in public/masters/ continue to serve
  * detail-page heroes (see the master detail page). Thumbnails are small
- * enough that the entire graph fits in the budget set by GitHub issue #7
+ * enough that the entire graph fits in the budget set by GitHub issue #19
  * (≤ 1.5 MB first paint for ~50 visible nodes; ≤ 2 MB for the full roster).
  *
  * Idempotent. Skips thumbnails whose mtime is already newer than the source.
