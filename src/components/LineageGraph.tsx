@@ -270,6 +270,10 @@ export default function LineageGraph() {
   const pixiRef = useRef<PixiState | null>(null);
   const fuseRef = useRef<import("fuse.js").default<GraphNode> | null>(null);
   const zoomRef = useRef<d3.ZoomBehavior<HTMLCanvasElement, unknown> | null>(null);
+  const sidebarRef = useRef<HTMLElement | null>(null);
+  // Set by node pointerdown handlers so the document-level outside-tap
+  // listener can distinguish "tapped a node" from "tapped empty canvas".
+  const nodeJustClickedRef = useRef(false);
 
   const prefersReducedMotion =
     typeof window !== "undefined"
@@ -702,6 +706,7 @@ export default function LineageGraph() {
 
         // Click → sidebar
         c.on("pointerdown", () => {
+          nodeJustClickedRef.current = true;
           setSidebar({
             node,
             schoolName: node.schoolName ?? undefined,
@@ -859,6 +864,35 @@ export default function LineageGraph() {
     };
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
+
+  // Outside-tap dismiss for the master sidebar on mobile (≤720px). Desktop
+  // keeps the sidebar pinned as a side rail; tapping the canvas there should
+  // not dismiss it.
+  useEffect(() => {
+    if (!sidebar) return;
+    if (typeof window === "undefined") return;
+
+    const mq = window.matchMedia("(max-width: 720px)");
+    const handler = (e: PointerEvent) => {
+      if (!mq.matches) return;
+      // A node-tap fires its PIXI pointerdown handler before the document
+      // listener (the canvas is deeper in the tree), setting this flag. In
+      // that case the new node is already being shown — don't dismiss, or
+      // React batching would collapse the open+close into a no-op flash.
+      if (nodeJustClickedRef.current) {
+        nodeJustClickedRef.current = false;
+        return;
+      }
+      const target = e.target as Node | null;
+      if (target && sidebarRef.current && sidebarRef.current.contains(target)) return;
+      setSidebar(null);
+    };
+
+    document.addEventListener("pointerdown", handler);
+    return () => {
+      document.removeEventListener("pointerdown", handler);
+    };
+  }, [sidebar]);
 
   // Handle focusSlug changes without re-initializing the whole graph
   useEffect(() => {
@@ -1121,7 +1155,7 @@ export default function LineageGraph() {
 
       {/* Sidebar */}
       {sidebar && (
-        <aside className="sidebar">
+        <aside className="sidebar" ref={sidebarRef}>
           <button className="sidebar-close" onClick={() => setSidebar(null)} aria-label="Close">
             ✕
           </button>
