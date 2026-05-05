@@ -115,7 +115,12 @@ function nameForSlug(fullName: string): string {
 // Lineage free-text → school slug (must match a row in `schools`).
 function lineageToSchoolSlug(lineage: string): string {
   const l = lineage.toLowerCase();
-  if (l.includes("kwan um") || l.includes("seon")) return "kwan-um";
+  // Korean orders — check specific orders before the generic "seon" fallback.
+  if (l.includes("kwan um")) return "kwan-um";
+  if (l.includes("jogye") || l.includes("chogye")) return "jogye";
+  if (l.includes("taego")) return "taego-order";
+  if (l.includes("cheontae") || l.includes("tiantai")) return "other";
+  if (l.includes("seon")) return "jogye"; // generic Korean Seon → default to Jogye (largest order)
   if (l.includes("plum village") || l.includes("thiền") || l.includes("thien"))
     return "plum-village";
   if (l.includes("sanbō zen") || l.includes("sanbo zen")) return "sanbo-zen";
@@ -210,6 +215,28 @@ function pickSourceId(sourceUrl: string, lineage: string): string {
   // Generic catch-all — preserves provenance via the sourceExcerpt host.
   return "src_eu_zen_research";
 }
+
+// Manual coordinate overrides for places where Nominatim fails (rural retreats,
+// PO-box addresses, networks without a single physical location, etc.).
+// Keyed by the raw `name` field. Values are [lat, lng].
+const MANUAL_COORDS: Record<string, [number, number]> = {
+  "Jikishoan Zen Buddhist Community": [-37.7434, 144.9988], // Preston VIC 3072
+  "Melbourne Zen Group": [-37.7589, 144.9876], // CERES Environment Park, Brunswick East
+  "Centrum Oko Lesa (Sandō Kaisen — retreat)": [49.8175, 15.473], // Czech centroid (rural retreat, exact loc not public)
+  "Europäisches Zentrum für Meditation und Begegnung Neumühle": [49.4756, 6.5697], // Mettlach-Tünsdorf 66693
+  "Sangha Aman à Breman (Plougiel)": [48.7833, -3.2667], // Plougiel, Côtes-d'Armor
+  "Shawbottom Farm Retreat": [52.45, -2.75], // Shropshire approx (WCF retreat venue)
+  "Asian Institute of Applied Buddhism (AIAB) – Lotus Pond Temple": [22.2553, 113.905], // Ngong Ping, Lantau
+  "Dharma Drum Mountain Hong Kong Centre": [22.3373, 114.1467], // Lai Chi Kok, Kowloon
+  "Pu Guang Meditation Center (Chung Tai HK)": [22.278, 114.1747], // Wanchai
+  "Chan Retreat Center Hartovski Vrh (Dharmaloka)": [45.7833, 15.3667], // Žumberak Nature Park
+  "Bodhi Zendo": [10.241, 77.504], // Perumalmalai, near Kodaikanal
+  "Dharma Drum Mountain Malaysia Centre": [3.175, 101.565], // Kwasa Damansara
+  "Zen Peacemakers Lage Landen (ZPLL)": [52.1326, 5.2913], // NL centroid (NL/BE network)
+  "Grupa Zen Kwan Um Płock": [52.5468, 19.7064], // Płock
+  "Almond Blossom Sangha (Sangha Flor de Amêndoeira)": [37.0194, -7.9304], // Faro, Algarve
+  Zengården: [59.45, 15.65], // Finnåker near Arboga
+};
 
 type Cache = Record<string, [number, number] | null>;
 
@@ -334,11 +361,13 @@ async function main(): Promise<void> {
       }
       seenSlugs.add(slug);
 
-      // Geocode.
-      let coords: [number, number] | null = null;
-      for (const q of buildQueries(p, country)) {
-        coords = await geocodeOne(q, cache, cc);
-        if (coords) break;
+      // Geocode — manual override first, then Nominatim queries.
+      let coords: [number, number] | null = MANUAL_COORDS[p.name] ?? null;
+      if (!coords) {
+        for (const q of buildQueries(p, country)) {
+          coords = await geocodeOne(q, cache, cc);
+          if (coords) break;
+        }
       }
       if (!coords) {
         skippedNoCoords++;
