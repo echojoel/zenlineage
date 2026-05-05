@@ -163,21 +163,10 @@ interface SidebarState {
   schoolName?: string;
 }
 
-type ViewMode = "image" | "text";
-
-const VIEW_MODE_STORAGE_KEY = "lineage-view-mode";
-
-function readInitialViewMode(urlMode: string | null): ViewMode {
-  if (urlMode === "text" || urlMode === "image") return urlMode;
-  if (typeof window === "undefined") return "image";
-  try {
-    const stored = window.localStorage.getItem(VIEW_MODE_STORAGE_KEY);
-    if (stored === "text" || stored === "image") return stored;
-  } catch {
-    // localStorage unavailable (private mode, SSR snapshot, etc.) — fall through to default
-  }
-  return "image";
-}
+// Portraits are the only display mode for the lineage graph. The previous
+// "Names" text-only mode existed before portraits had full coverage; with
+// every master imaged, the toggle was unnecessary noise.
+type ViewMode = "image";
 
 // Per-node portrait bookkeeping. Lets the cull pass swap textures based on
 // zoom level and skip loads for off-screen nodes.
@@ -263,9 +252,7 @@ export default function LineageGraph() {
   const [dataMaxYear, setDataMaxYear] = useState(2000);
   const [schoolList, setSchoolList] = useState<GraphSchool[]>([]);
   const [status, setStatus] = useState<"loading" | "ready" | "error">("loading");
-  const [viewMode, setViewMode] = useState<ViewMode>(() =>
-    readInitialViewMode(searchParams.get("mode"))
-  );
+  const viewMode: ViewMode = "image";
 
   const pixiRef = useRef<PixiState | null>(null);
   const fuseRef = useRef<import("fuse.js").default<GraphNode> | null>(null);
@@ -539,7 +526,7 @@ export default function LineageGraph() {
       const nodeContainers = new Map<string, import("pixi.js").Container>();
       const portraitStates = new Map<string, NodePortraitState>();
 
-      const initialMode = readInitialViewMode(searchParams.get("mode"));
+      const initialMode: ViewMode = "image";
       const PORTRAIT_RADIUS = 14;
       const TEXT_DOT_RADIUS = 6;
 
@@ -998,23 +985,6 @@ export default function LineageGraph() {
     pixiRef.current.cullPortraits();
   }, [timeMax, redraw]);
 
-  // View-mode toggle. Persists to localStorage; the cull pass kicks in
-  // next so any newly-visible portrait actually loads when the user flips
-  // back to image mode.
-  useEffect(() => {
-    if (typeof window !== "undefined") {
-      try {
-        window.localStorage.setItem(VIEW_MODE_STORAGE_KEY, viewMode);
-      } catch {
-        // Quota / private mode — preference simply won't persist.
-      }
-    }
-    if (!pixiRef.current) return;
-    pixiRef.current.viewMode = viewMode;
-    pixiRef.current.applyAllNodeModes();
-    redraw();
-    pixiRef.current.cullPortraits();
-  }, [viewMode, redraw]);
 
   useEffect(() => {
     if (!pixiRef.current) return;
@@ -1097,17 +1067,6 @@ export default function LineageGraph() {
             </option>
           ))}
         </select>
-        <select
-          id="lineage-view-mode"
-          name="lineage-view-mode"
-          className="lineage-select"
-          aria-label="Display mode: portraits or names"
-          value={viewMode}
-          onChange={(e) => setViewMode(e.target.value as ViewMode)}
-        >
-          <option value="image">Portraits</option>
-          <option value="text">Names</option>
-        </select>
       </div>
 
       {/* Time scrubber */}
@@ -1132,7 +1091,7 @@ export default function LineageGraph() {
         ref={canvasRef}
         className="lineage-canvas"
         role="img"
-        aria-label="Zen lineage graph: pan and zoom to explore teacher-student transmissions across schools and centuries. Use the search box to find a master, or switch to Names mode for a text-only view."
+        aria-label="Zen lineage graph: pan and zoom to explore teacher-student transmissions across schools and centuries. Use the search box to find a master."
       />
 
       {/* Loading / error */}

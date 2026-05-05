@@ -2128,9 +2128,9 @@
         "value": "Shoshin Crettaz"
       }
     ],
-    "birth_year": null,
-    "birth_precision": "unknown",
-    "birth_confidence": "low",
+    "birth_year": 1946,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
     "death_year": null,
     "death_precision": "unknown",
     "death_confidence": "low",

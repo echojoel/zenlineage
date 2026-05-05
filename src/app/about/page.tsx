@@ -80,7 +80,7 @@ const articleJsonLd = {
     "A precise introduction to the history, practice, and philosophy of Chan/Zen Buddhism, with scholarly citations.",
   url: "https://zenlineage.org/about",
   image: "https://zenlineage.org/about-enso.webp",
-  author: { "@type": "Person", name: "Joel" },
+  author: { "@type": "Person", name: "Joel Pestana" },
   publisher: {
     "@type": "Organization",
     name: "Zen Lineage",
@@ -386,6 +386,20 @@ export default function AboutPage() {
           </figcaption>
         </figure>
 
+        <figure className="about-figure">
+          <Image
+            src="/about-zendo.webp"
+            alt="Zendō at Tōfuku-ji — long parallel meditation platforms running the length of the hall"
+            width={480}
+            height={259}
+            className="about-section-image about-section-image--wide"
+          />
+          <figcaption className="figure-credit">
+            Zendō at Tōfuku-ji, Kyoto — the meditation hall where zazen is sat in unison
+            (Wikimedia Commons).
+          </figcaption>
+        </figure>
+
         <section className="detail-card">
           <h3 className="detail-section-title">Core Practice: Zazen</h3>
           <div className="detail-summary">
@@ -405,6 +419,19 @@ export default function AboutPage() {
               zazen&rdquo; (Dōgen, tr. Tanahashi, <em>Treasury of the True Dharma Eye</em>, 2010, p.
               886).
             </p>
+            <figure className="about-figure">
+              <Image
+                src="/about-zazen.webp"
+                alt="Kōdō Sawaki seated in zazen — full lotus posture, hands in the cosmic mudra"
+                width={320}
+                height={457}
+                className="about-section-image"
+              />
+              <figcaption className="figure-credit">
+                Kōdō Sawaki (1880–1965) seated in zazen — the form Dōgen describes in the{" "}
+                <em>Fukanzazengi</em> (Wikimedia Commons).
+              </figcaption>
+            </figure>
             <p>
               In the Rinzai (Linji) school, zazen is complemented by intensive engagement with{" "}
               <em>kōan</em> (公案) &mdash; paradoxical questions or dialogues drawn from the records
@@ -429,6 +456,20 @@ export default function AboutPage() {
           />
           <figcaption className="figure-credit">
             Dōgen Zenji (1200–1253) — historical portrait via Wikimedia Commons, public domain.
+          </figcaption>
+        </figure>
+
+        <figure className="about-figure">
+          <Image
+            src="/about-eiheiji.webp"
+            alt="Eihei-ji, the principal Sōtō temple in Fukui prefecture — wooden cloisters and stone steps among cedars"
+            width={480}
+            height={320}
+            className="about-section-image about-section-image--wide"
+          />
+          <figcaption className="figure-credit">
+            Eihei-ji, Fukui — founded by Dōgen Zenji in 1244 and still the head temple of Sōtō
+            Zen (Wikimedia Commons).
           </figcaption>
         </figure>
 
@@ -464,6 +505,20 @@ export default function AboutPage() {
               <em>Sudden and Gradual: Approaches to Enlightenment in Chinese Thought</em>, 1987, pp.
               1&ndash;35).
             </p>
+            <figure className="about-figure">
+              <Image
+                src="/about-ten-bulls.webp"
+                alt="A panel from the Ten Bulls (Oxherding) sequence — ink and colour on silk, depicting one stage of the path"
+                width={320}
+                height={427}
+                className="about-section-image"
+              />
+              <figcaption className="figure-credit">
+                From the <em>Ten Bulls</em> (Oxherding) sequence — a classical visual narrative
+                of the gradual path of awakening, Edo-period silk handscroll (Met Museum /
+                Wikimedia Commons, public domain).
+              </figcaption>
+            </figure>
             <p>
               <strong>Emptiness</strong> (<em>śūnyatā</em>, <em>kōng</em> 空) &mdash; Following the{" "}
               <em>Prajñāpāramitā</em> literature and
@@ -476,6 +531,20 @@ export default function AboutPage() {
               declares: &ldquo;Form is emptiness; emptiness is form&rdquo; (Red Pine,{" "}
               <em>The Heart Sutra</em>, 2004, pp. 2&ndash;3).
             </p>
+            <figure className="about-figure">
+              <Image
+                src="/about-ryoanji.webp"
+                alt="The karesansui rock garden at Ryōan-ji, Kyoto — fifteen stones arranged in raked white gravel"
+                width={480}
+                height={323}
+                className="about-section-image about-section-image--wide"
+              />
+              <figcaption className="figure-credit">
+                Ryōan-ji (15th c.), Kyoto — the karesansui rock garden gives form to the doctrine
+                of emptiness: the gravel and stones hold weight only against the absences they
+                describe (Wikimedia Commons).
+              </figcaption>
+            </figure>
             <p>
               <strong>Transmission</strong> (<em>yìxīn chuánxīn</em>, &ldquo;mind-to-mind
               transmission&rdquo;) &mdash; Zen maintains an unbroken lineage of teacher-to-student
@@ -913,7 +982,7 @@ export default function AboutPage() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Joel
+              Joel Pestana
             </a>
             , student of{" "}
             <Link className="detail-inline-link" href="/masters/yves-shoshin-crettaz">

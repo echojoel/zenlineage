@@ -1117,6 +1117,13 @@ a.footnote-source-link:hover {
   opacity: 0.85;
 }
 
+/* Wider variant for landscape thematic images (gardens, temples, halls)
+ * where 320px feels cramped and the picture benefits from more horizontal
+ * room. Keeps the same visual treatment as portraits. */
+.about-section-image--wide {
+  max-width: 560px;
+}
+
 .about-credit {
   margin: 0.5rem auto 0;
   padding: 1rem 0 0.5rem;
@@ -1185,7 +1192,14 @@ a.footnote-source-link:hover {
 .detail-layout--practice {
   max-width: min(1400px, calc(100vw - 2rem));
 }
-.detail-layout--practice .detail-hero {
+/* Hero + ordinary cards (e.g. "Practice instructions from the masters")
+ * stay in the 860px reading column so /practice/<school> matches the
+ * centred layout of /schools and /masters. Only sections explicitly
+ * marked with .detail-card--wide (the temple map) opt out and use the
+ * full 1400px gutter. */
+.detail-layout--practice > .detail-hero,
+.detail-layout--practice > .detail-card:not(.detail-card--wide) {
+  width: 100%;
   max-width: 860px;
   margin-left: auto;
   margin-right: auto;
