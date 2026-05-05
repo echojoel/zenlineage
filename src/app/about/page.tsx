@@ -921,7 +921,25 @@ export default function AboutPage() {
         </section>
         <footer className="about-credit">
           <p>
-            Created by{" "}
+            A study of the Zen patriarchs.{" "}
+            <a
+              href="https://github.com/echojoel/zenlineage"
+              className="detail-inline-link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Open source
+            </a>{" "}
+            — corrections welcome via{" "}
+            <a
+              href="https://github.com/echojoel/zenlineage/issues"
+              className="detail-inline-link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              GitHub issues
+            </a>
+            . Compiled by{" "}
             <a
               href="https://github.com/echojoel"
               className="detail-inline-link"
@@ -934,24 +952,6 @@ export default function AboutPage() {
             <Link className="detail-inline-link" href="/masters/yves-shoshin-crettaz">
               Yves Shoshin Crettaz
             </Link>
-            . A study of the Zen patriarchs —{" "}
-            <a
-              href="https://github.com/echojoel/zenlineage"
-              className="detail-inline-link"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              open source
-            </a>
-            ; corrections welcome via{" "}
-            <a
-              href="https://github.com/echojoel/zenlineage/issues"
-              className="detail-inline-link"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              GitHub issues
-            </a>
             .
           </p>
         </footer>

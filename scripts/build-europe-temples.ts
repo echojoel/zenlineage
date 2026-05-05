@@ -97,11 +97,14 @@ function stripDiacritics(s: string): string {
 }
 
 function slugify(s: string): string {
-  return stripDiacritics(s)
+  const result = stripDiacritics(s)
     .toLowerCase()
     .replace(/[^a-z0-9]+/g, "-")
     .replace(/(^-|-$)/g, "")
     .replace(/-+/g, "-");
+  // CJK / other non-Latin names slugify to "" — fall back to a placeholder
+  // so the per-batch deduper can still suffix it with the city.
+  return result || "temple";
 }
 
 function nameForSlug(fullName: string): string {
@@ -230,9 +233,15 @@ async function geocodeOne(
 ): Promise<[number, number] | null> {
   const cacheKey = `${countryCode}:${query}`;
   if (cacheKey in cache) return cache[cacheKey];
+  // Nominatim's countrycodes filter only accepts ISO 3166-1 alpha-2.
+  // Filenames like `zen-places-us-pv.json` produce a non-conforming cc;
+  // in that case omit the filter and let the query string carry the
+  // country (queries always include ", <Country Name>").
+  const filterCC = /^[a-z]{2}$/i.test(countryCode) ? countryCode : "";
+  const filter = filterCC ? `&countrycodes=${filterCC}` : "";
   const url = `https://nominatim.openstreetmap.org/search?q=${encodeURIComponent(
     query
-  )}&format=json&limit=1&countrycodes=${countryCode}`;
+  )}&format=json&limit=1${filter}`;
   let result: [number, number] | null = null;
   try {
     const res = await fetch(url, {
