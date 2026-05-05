@@ -281,8 +281,8 @@ export default async function Home() {
           fontSize: "0.6rem",
           letterSpacing: "0.12em",
           textTransform: "uppercase",
-          color: "var(--ink-light)",
-          opacity: 0.4,
+          color: "var(--ink)",
+          opacity: 0.75,
         }}
       >
         {countsLabel}

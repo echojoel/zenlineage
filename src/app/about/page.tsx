@@ -148,11 +148,10 @@ export default function AboutPage() {
               later the distance between you and your life closes. That is all.
             </p>
             <p>
-              The longer answer &mdash; the one the rest of this page is for &mdash; has four parts:
-              what the word means and where it comes from, how the same tradition wears four
-              different names across Asia, the three pillars of meditation / transmission /
-              awakening, and what Zen <em>is not</em>, since most of what circulates in English
-              about Zen is wrong.
+              The longer answer &mdash; the one the rest of this page is for &mdash; has three
+              parts: what the word means and where it comes from, how the same tradition wears
+              four different names across Asia, and the three pillars of meditation /
+              transmission / awakening.
             </p>
 
             <h4 className="detail-subsection-title">One word, five languages</h4>
@@ -233,59 +232,6 @@ export default function AboutPage() {
               looking the whole time.
             </p>
 
-            <h4 className="detail-subsection-title">What Zen is not</h4>
-            <p>
-              A great deal of what circulates in English under the word &ldquo;Zen&rdquo; is
-              imported from twentieth-century popular writing rather than from the tradition.
-              The most common misreadings worth naming directly:
-            </p>
-            <ul className="detail-link-list" style={{ marginTop: "0.5rem" }}>
-              <li>
-                <strong>Zen is not anti-intellectual.</strong>
-                <span className="detail-list-meta">
-                  The literature of Chan / Zen &mdash; the recorded sayings, the kōan
-                  collections, the commentarial tradition &mdash; is one of the largest bodies
-                  of religious philosophy ever produced. &ldquo;A special transmission outside
-                  the scriptures&rdquo; means the awakening is not <em>contained</em> in words,
-                  not that words are to be discarded.
-                </span>
-              </li>
-              <li>
-                <strong>Zen is not separate from Buddhism.</strong>
-                <span className="detail-list-meta">
-                  Zen monasteries follow the Vinaya, chant the sutras, and inherit Madhyamaka
-                  and Yogācāra philosophy directly (Faure, <em>The Rhetoric of Immediacy</em>,
-                  1991). It is a Mahāyāna school, not a separate religion.
-                </span>
-              </li>
-              <li>
-                <strong>Zen is not a Japanese invention.</strong>
-                <span className="detail-list-meta">
-                  The school formed in Tang-dynasty China, was carried to Korea in the eighth
-                  century and to Vietnam by the sixth, and reached Japan only in the late
-                  twelfth. The Japanese Zen the West met first is a downstream development, not
-                  the source.
-                </span>
-              </li>
-              <li>
-                <strong>Zen is not a self-help technique.</strong>
-                <span className="detail-list-meta">
-                  Zazen is not a productivity tool, a stress-reduction protocol, or a posture
-                  for &ldquo;optimisation.&rdquo; The framing of Zen-as-mindfulness was largely
-                  shaped by mid-twentieth-century writers and modern wellness culture (Sharf,
-                  &ldquo;The Zen of Japanese Nationalism,&rdquo; 1995); the tradition itself is
-                  not aimed at improving the self but at seeing through the self.
-                </span>
-              </li>
-              <li>
-                <strong>Zen does not float free of ethics.</strong>
-                <span className="detail-list-meta">
-                  Every transmission lineage takes the bodhisattva precepts. The cliché that
-                  &ldquo;a Zen master is beyond good and evil&rdquo; is a romantic Western
-                  reading; the actual tradition is monastic, vow-bound, and ethically dense.
-                </span>
-              </li>
-            </ul>
           </div>
         </section>
 
