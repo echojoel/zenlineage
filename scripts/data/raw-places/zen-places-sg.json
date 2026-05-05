@@ -39,6 +39,36 @@
       "url": "https://ddsingapore.org/en",
       "source_url": "https://ddsingapore.org/en",
       "notes": "Singapore branch of Dharma Drum Mountain Buddhist Association; offers Chan meditation classes and Sheng-yen lineage teachings."
+    },
+    {
+      "name": "Awaken Mindfulness Centre Singapore",
+      "city": "Singapore",
+      "region": "Singapore",
+      "lineage": "Plum Village (Thich Nhat Hanh tradition)",
+      "address": "Singapore",
+      "url": "https://www.awaken.sg/",
+      "source_url": "https://plumvillage.org/community/international-sangha-directory",
+      "notes": "Plum Village-aligned mindfulness sangha and practice centre in Singapore. Coordinates approximate Singapore centre."
+    },
+    {
+      "name": "Foguang Shan Singapore",
+      "city": "Singapore",
+      "region": "Singapore",
+      "lineage": "Chan / Linji (Foguangshan)",
+      "address": "Singapore",
+      "url": "https://www.fgs.sg/",
+      "source_url": "https://www.fgs.org.tw/",
+      "notes": "Foguangshan branch in Singapore. Coordinates approximate Singapore centre."
+    },
+    {
+      "name": "Chung Tai Chan Monastery Singapore",
+      "city": "Singapore",
+      "region": "Singapore",
+      "lineage": "Chan / Linji (Chung Tai Shan)",
+      "address": "Singapore",
+      "url": "https://www.chungtai.org.sg/",
+      "source_url": "https://www.ctworld.org.tw/english-96/html/03_Centers.html",
+      "notes": "Chung Tai branch in Singapore. Coordinates approximate Singapore centre."
     }
   ]
 }

@@ -5118,5 +5118,171 @@
   "cn:Huxian, Shaanxi, China": [
     34.1134343,
     108.6144775
+  ],
+  "ca:8240 No. 5 Road, Richmond, BC V6Y 2V4, Canada": null,
+  "ca:Richmond, British Columbia, Canada": [
+    49.163168,
+    -123.137414
+  ],
+  "hk:23 Sik On Street, Wan Chai, Hong Kong, Hong Kong": null,
+  "hk:Wan Chai, Hong Kong Island, Hong Kong": null,
+  "hk:Wan Chai, Hong Kong": null,
+  "hk:Ngong Ping, Lantau Island, Hong Kong, Hong Kong": null,
+  "hk:5 Chi Lin Drive, Diamond Hill, Kowloon, Hong Kong, Hong Kong": null,
+  "hk:Diamond Hill, Kowloon, Hong Kong": null,
+  "hk:Diamond Hill, Hong Kong": null,
+  "id:Jl. Lodan Raya, Pluit, North Jakarta, Indonesia": null,
+  "id:Jakarta, Jakarta, Indonesia": [
+    -6.1726007,
+    106.8785732
+  ],
+  "my:Bandar Saujana Putra, Banting, Selangor, Malaysia": null,
+  "my:Banting, Selangor, Malaysia": [
+    2.8027574,
+    101.4956767
+  ],
+  "ph:656 Pablo Ocampo Sr. Avenue, Malate, Manila, Philippines": null,
+  "sg:Singapore, Singapore": [
+    1.357107,
+    103.8194992
+  ],
+  "at:Yoga Mitte, 6020 Innsbruck, Austria": [
+    47.2606419,
+    11.4102365
+  ],
+  "au:530 Porcupine Ridge Road, Porcupine Ridge VIC 3461, Australia": [
+    -37.2917996,
+    144.1951074
+  ],
+  "br:São Paulo, São Paulo, Brazil": [
+    -23.5506507,
+    -46.6333824
+  ],
+  "ch:Lausanne (national network), Vaud, Switzerland": null,
+  "ch:Lausanne (national network), Switzerland": null,
+  "de:50674 Köln, Germany": [
+    50.9319504,
+    6.9335385
+  ],
+  "de:14467 Potsdam, Germany": [
+    52.4030431,
+    13.0670995
+  ],
+  "de:04229 Leipzig, Germany": [
+    51.321971,
+    12.3374652
+  ],
+  "de:Unterkashof 21, 94545 Hohenau, Germany": [
+    48.845097,
+    13.5295985
+  ],
+  "es:Las Palmas de Gran Canaria, Canarias, Spain": [
+    28.1288694,
+    -15.4349015
+  ],
+  "fr-gap:Bourges, Centre-Val de Loire, France": [
+    47.0811658,
+    2.399125
+  ],
+  "fr-gap:Vannes, Bretagne, France": [
+    47.6586772,
+    -2.7599079
+  ],
+  "fr-gap:Clermont-Ferrand, Auvergne-Rhône-Alpes, France": [
+    45.7774551,
+    3.0819427
+  ],
+  "fr-gap:Bayonne, Nouvelle-Aquitaine, France": [
+    43.4945144,
+    -1.4736657
+  ],
+  "fr-gap:Poitiers, Nouvelle-Aquitaine, France": [
+    46.5802596,
+    0.340196
+  ],
+  "fr-gap:Châtenay-Malabry, Île-de-France, France": [
+    48.7670404,
+    2.2775316
+  ],
+  "fr-gap:48 bis cité du 6 avril 1944, 31400 Toulouse, France": [
+    43.5816894,
+    1.4776874
+  ],
+  "id:Jakarta, Indonesia, Indonesia": [
+    -6.3008971,
+    106.8914056
+  ],
+  "il:Tel Aviv (national umbrella), National, Israel": null,
+  "il:Tel Aviv (national umbrella), Israel": null,
+  "nl:Amsterdam Oost / Diemen, Noord-Holland, Netherlands": null,
+  "nl:Amsterdam Oost / Diemen, Netherlands": null,
+  "nl:Alkmaar / Bergen, Noord-Holland, Netherlands": [
+    52.6288842,
+    4.7105714
+  ],
+  "nl:Baarn / Soest, Utrecht, Netherlands": [
+    52.1770021,
+    5.268907
+  ],
+  "nl:Breda, Noord-Brabant, Netherlands": [
+    51.5887845,
+    4.7760237
+  ],
+  "nl:Den Haag, Zuid-Holland, Netherlands": [
+    52.0799838,
+    4.3113461
+  ],
+  "nl:Deventer, Overijssel, Netherlands": [
+    52.2694897,
+    6.2364886
+  ],
+  "nl:Haarlem, Noord-Holland, Netherlands": [
+    52.3837281,
+    4.6435679
+  ],
+  "nl:Hilversum, Noord-Holland, Netherlands": [
+    52.2241375,
+    5.1719396
+  ],
+  "nl:Hoorn, Noord-Holland, Netherlands": [
+    52.653272,
+    5.0735802
+  ],
+  "nl:Hulsberg, Limburg, Netherlands": [
+    50.889865,
+    5.8575404
+  ],
+  "nl:IJsselstein, Utrecht, Netherlands": [
+    52.0246381,
+    5.0458792
+  ],
+  "nl:Kloosterburen, Groningen, Netherlands": [
+    53.3869998,
+    6.3923371
+  ],
+  "nl:Leeuwarden, Friesland, Netherlands": [
+    53.2005936,
+    5.7918548
+  ],
+  "nl:Sittard, Limburg, Netherlands": [
+    50.9974235,
+    5.8666627
+  ],
+  "nl:Tilburg, Noord-Brabant, Netherlands": [
+    51.5856185,
+    5.0660616
+  ],
+  "nl:Venlo, Limburg, Netherlands": [
+    51.3924489,
+    6.1511724
+  ],
+  "pt:Matosinhos, Porto, Portugal": [
+    41.1806814,
+    -8.6821998
+  ],
+  "th:Ban Sra Nam Sai, Moo 7, Tambon Pongtalong, Pak Chong District, Nakhon Ratchasima, Thailand, Thailand": null,
+  "th:Pak Chong, Nakhon Ratchasima Province, Thailand": [
+    14.7040864,
+    101.4132201
   ]
 }

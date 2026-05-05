@@ -71,8 +71,11 @@ const DUP_PATTERNS: { pattern: RegExp; existingSlug: string }[] = [
   { pattern: /ryumonji/i, existingSlug: "ryumonji-alsace" },
   { pattern: /kanshoji/i, existingSlug: "kanshoji" },
   { pattern: /falaise\s*verte/i, existingSlug: "falaise-verte" },
+  // Matches only the French Plum Village monastery itself (Thénac/Loubès-Bernac
+  // hamlets), NOT regional national chapters like "Plum Village Indonesia" or
+  // "Thai Plum Village". The latter are distinct sanghas worth pinning.
   {
-    pattern: /(plum\s*village|village\s*des\s*pruniers)/i,
+    pattern: /^(plum\s*village(\s+(monastery|france))?|village\s*des\s*pruniers)$/i,
     existingSlug: "plum-village-*",
   },
   {
@@ -249,6 +252,12 @@ const MANUAL_COORDS: Record<string, [number, number]> = {
   "Grupa Zen Kwan Um Płock": [52.5468, 19.7064], // Płock
   "Almond Blossom Sangha (Sangha Flor de Amêndoeira)": [37.0194, -7.9304], // Faro, Algarve
   Zengården: [59.45, 15.65], // Finnåker near Arboga
+  "Pu Men Temple Hong Kong (Foguangshan)": [22.2757, 114.173], // Wan Chai
+  "Po Lin Monastery": [22.2553, 113.905], // Ngong Ping, Lantau
+  "Chi Lin Nunnery": [22.3408, 114.2025], // Diamond Hill, Kowloon
+  "Plum Village Swiss Inter-Sangha": [46.948, 7.4474], // Swiss centroid (Bern); national network
+  "Community of Mindfulness in Israel (Plum Village)": [32.0853, 34.7818], // Tel Aviv (national network)
+  "Sangha Amsterdam Oost - Diemen (Plum Village)": [52.3439, 4.9619], // Amsterdam-Oost / Diemen
 };
 
 type Cache = Record<string, [number, number] | null>;

@@ -39,6 +39,36 @@
       "url": "https://www.ctworld.org/",
       "source_url": "https://www.ctworld.org.tw/english-96/html/03_Centers.html",
       "notes": "Hong Kong branch meditation center of Chung Tai Chan Monastery."
+    },
+    {
+      "name": "Pu Men Temple Hong Kong (Foguangshan)",
+      "city": "Wan Chai",
+      "region": "Hong Kong Island",
+      "lineage": "Chan / Linji (Foguangshan)",
+      "address": "23 Sik On Street, Wan Chai, Hong Kong",
+      "url": "https://www.fgs.org.hk/",
+      "source_url": "https://www.fgs.org.tw/",
+      "notes": "Foguangshans main branch in Hong Kong; offers public Chan practice and Sunday classes."
+    },
+    {
+      "name": "Po Lin Monastery",
+      "city": "Lantau Island",
+      "region": "Ngong Ping",
+      "lineage": "Chinese Chan / Linji (historic)",
+      "address": "Ngong Ping, Lantau Island, Hong Kong",
+      "url": "https://www.plm.org.hk/",
+      "source_url": "https://en.wikipedia.org/wiki/Po_Lin_Monastery",
+      "notes": "Founded 1906; one of Hong Kongs most important Buddhist monasteries. Tian Tan Buddha is on its grounds; long-standing Chan training site."
+    },
+    {
+      "name": "Chi Lin Nunnery",
+      "city": "Diamond Hill",
+      "region": "Kowloon",
+      "lineage": "Chinese Chan (Chinese Buddhist nunnery)",
+      "address": "5 Chi Lin Drive, Diamond Hill, Kowloon, Hong Kong",
+      "url": "http://www.chilin.org/",
+      "source_url": "https://en.wikipedia.org/wiki/Chi_Lin_Nunnery",
+      "notes": "Founded 1934, rebuilt 1990s in Tang-dynasty wooden architecture. Active Chan-affiliated nunnery in central Kowloon."
     }
   ]
 }
