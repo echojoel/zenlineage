@@ -1,0 +1,227 @@
+{
+  "_meta": {
+    "country": "Austria",
+    "collectedAt": "2026-05-05",
+    "method": "Web search + targeted fetches of operator sites (zenbuddhismus.at, buddhismus-austria.at, mishoan.at, bodhidharmazendo.at, zen.wien, zengruppe-wien.at, zen-meditation.wien, sanghainnsbruck.at, kannon-do.at, sanbo-zendo-hallein.at, puregg.at, werkraumtheater.at, bergzendo.at, zenklagenfurt.at, zen-azi.org, kwanumeurope.org, plumvillage.org, interseinwien). Cross-checked via Austrian Buddhist Union (ÖBR) directory and IRIZ Hanazono Zen Centers list.",
+    "coverageEstimate": "Estimated 75-85% of publicly listed active Zen sanghas in Austria. ÖBR-registered Zen orders, AZI Soto dojos, Rinzai (Bodhidharma/Sasaki line), Sanbo Zen Hallein, Plum Village/Intersein sanghas, and Kwan Um Vienna are covered. Likely missing: small private home sittings, Christian-Zen circles in parishes (Lassalle/Jaeger line via Stille in Wien is included), and Vorarlberg satellite contacts that publish only contact persons (no fixed address).",
+    "knownGaps": [
+      "Vorarlberg: only individual contact persons (Bregenz, Lustenau) under Puregg/Phoenix Cloud; no fixed public address",
+      "Wake Up Wien meeting address withheld (request via email) — included as sangha but address null",
+      "Private Sanbo Zen home groups in Vienna affiliated with Stille Insel could not be independently sourced beyond stille-in-wien.at",
+      "Several rural retreat venues (Kloster Maria Luggau, Stift Reichersberg, GEA Akademie Schrems, Stift Zwettl) are used as sesshin venues by Zengruppe Wien but are not standalone Zen centers — excluded",
+      "Possible smaller AZI affiliate dojos (e.g., reported but unverified groups in Tirol/Salzburg)"
+    ]
+  },
+  "places": [
+    {
+      "name": "Bodhidharma Zendo Wien",
+      "city": "Wien",
+      "region": "Wien",
+      "lineage": "Rinzai (Joshu Sasaki Roshi / Rinzai-ji line)",
+      "address": "Fleischmarkt 16/1. Stock, 1010 Wien",
+      "url": "https://bodhidharmazendo.at/",
+      "source_url": "https://buddhismus-austria.at/oebr_uber-uns/oebr-gruppen/bodhidharma-zendo/",
+      "notes": "Founded 1979. Abbot Seigaku Kigen Osho. ÖBR-registered. Headquarters of an association with affiliated zendos in Graz and Klagenfurt and a country retreat (BergZendo)."
+    },
+    {
+      "name": "Bodhidharma Zendo Graz",
+      "city": "Graz",
+      "region": "Steiermark",
+      "lineage": "Rinzai (Joshu Sasaki Roshi / Rinzai-ji line)",
+      "address": null,
+      "url": "https://bodhidharmazendo.at/",
+      "source_url": "https://buddhismus-austria.at/oebr_uber-uns/oebr-gruppen/bodhidharma-zendo/",
+      "notes": "Affiliated branch of Bodhidharma Zendo (Vienna). Distinct from the Soto/Deshimaru Zen Dojo Graz at Werkraum."
+    },
+    {
+      "name": "Zen Zentrum Klagenfurt (Bodhidharma Zendo)",
+      "city": "Klagenfurt",
+      "region": "Kärnten",
+      "lineage": "Rinzai (Joshu Sasaki Roshi / Rinzai-ji line)",
+      "address": "Tristangasse 28, 9020 Klagenfurt (Inselreich – Haus der Energie und Bewegung)",
+      "url": "https://www.zenklagenfurt.at/",
+      "source_url": "https://buddhismus-austria.at/oebr_uber-uns/oebr-gruppen/bodhidharma-zendo/",
+      "notes": "Klagenfurt branch of Bodhidharma Zendo. Zazen Wed 18:00-21:00 and Fri 06:30-08:00."
+    },
+    {
+      "name": "Hyakujōgan Zendo (BergZendo)",
+      "city": "Hohe Wand",
+      "region": "Niederösterreich",
+      "lineage": "Rinzai (Bodhidharma Zendo / Sasaki line)",
+      "address": "Am Almfrieden 87, 2724 Hohe Wand",
+      "url": "https://bergzendo.at/",
+      "source_url": "https://bergzendo.at/en/bodhidharmazendo_en/",
+      "notes": "Country retreat zendo of Bodhidharma Zendo Wien at ~900m elevation; hosts sesshins and zazenkais."
+    },
+    {
+      "name": "Zen Dojo Wien Mushoju",
+      "city": "Wien",
+      "region": "Wien",
+      "lineage": "Sōtō / Deshimaru (AZI)",
+      "address": "Kaiserstrasse 67-69, 1070 Wien",
+      "url": "https://zen.wien/",
+      "source_url": "https://www.zen-azi.org/en/node/403",
+      "notes": "Daily zazen in the Soto line; affiliated with Association Zen Internationale (AZI) founded by Taisen Deshimaru."
+    },
+    {
+      "name": "Zen Dojo Graz (Werkraumtheater)",
+      "city": "Graz",
+      "region": "Steiermark",
+      "lineage": "Sōtō / Deshimaru (AZI)",
+      "address": "Werkraum Studio, Glacisstrasse 61a, 8010 Graz",
+      "url": "https://www.werkraumtheater.at/zen-dojo-graz/",
+      "source_url": "https://www.zen-azi.org/en/node/999",
+      "notes": "Soto Zen in the Deshimaru lineage; led by Franz Blauensteiner and Rezka Kanzian. AZI-affiliated. AZI office address listed as Weißeneggergasse 3, 8020 Graz."
+    },
+    {
+      "name": "Zengruppe Wien / Zendo Rosinagasse",
+      "city": "Wien",
+      "region": "Wien",
+      "lineage": "Zen (Willigis Jäger / Hsin Tao line, Soto-Sanbo hybrid)",
+      "address": "Rosinagasse 8/11, 1150 Wien",
+      "url": "https://www.zengruppe-wien.at/",
+      "source_url": "https://www.zengruppe-wien.at/zenmeditation-oesterreich",
+      "notes": "Christoph Singer, authorized as Zen teacher by Willigis Jäger and by Hsin Tao (Taiwan). Hosts sesshins at Stift Reichersberg, Maria Luggau, Stift Zwettl and other venues."
+    },
+    {
+      "name": "Zen Zentrum Mishoan",
+      "city": "Wien",
+      "region": "Wien",
+      "lineage": "Rinzai (Chinese/Japanese Rinzai tradition)",
+      "address": "Währingerstrasse 26, 1090 Wien",
+      "url": "https://mishoan.at/",
+      "source_url": "https://www.buddhismus-austria.at/buddhismus-in-oesterreich/oebr-gruppen-und-orden/zen-meditationszentrum-mishoan/",
+      "notes": "Founded 2006 by Dr. Fleur Sakura Wöss and Mag. Paul Hogen Matusek. ÖBR-registered Zen order; own 120m² zendo since 2008."
+    },
+    {
+      "name": "Vienna Zen Center (Kwan Um School of Zen)",
+      "city": "Wien",
+      "region": "Wien",
+      "lineage": "Kwan Um (Korean Seon, Seung Sahn line)",
+      "address": "Neubaugasse 12-14, Stiege 2 (Innenhof), Mez/Studio 4+5, 1070 Wien",
+      "url": "https://www.zen-meditation.wien/",
+      "source_url": "https://www.kwanumeurope.org/locations/vienna-zen-center/",
+      "notes": "Kwan Um School of Zen Austria, founded 1994; ÖBR-registered order."
+    },
+    {
+      "name": "Puregg – Haus der Stille (Jakkoji)",
+      "city": "Dienten am Hochkönig",
+      "region": "Salzburg",
+      "lineage": "Sōtō (Kobun Chino Roshi line / Phoenix Cloud Sangha)",
+      "address": "Berg 12, 5652 Dienten am Hochkönig",
+      "url": "https://www.puregg.at/",
+      "source_url": "https://buddhismus-austria.at/oebr_uber-uns/oebr-gruppen/puregg-haus-der-stille/",
+      "notes": "Mountain retreat at ~1300m, active since 1989. Co-founded by Brother David Steindl-Rast and Vanja Palmers. Direction: Angelika Genshin Eller. Note: country brief suggested Sanbō Zen affiliation, but operator and ÖBR list it as Soto/Kobun-Phoenix Cloud."
+    },
+    {
+      "name": "SANBO ZENDO Hallein",
+      "city": "Hallein",
+      "region": "Salzburg",
+      "lineage": "Sanbō Zen International",
+      "address": "Kornsteinplatz 7 (ENERGIEzentrum), 5400 Hallein",
+      "url": "https://sanbo-zendo-hallein.at/",
+      "source_url": "https://www.facebook.com/sanbozendohallein/",
+      "notes": "Led by Claudia Petschnig. Affiliated with Sanbō Zen International (Yasutani / Yamada Koun line)."
+    },
+    {
+      "name": "Zendo Innsbruck (Bodhidharma)",
+      "city": "Innsbruck",
+      "region": "Tirol",
+      "lineage": "Rinzai (Joshu Sasaki Roshi line)",
+      "address": "Richard-Wagner-Strasse 7, 6020 Innsbruck",
+      "url": "https://bodhidharmazendo.at/",
+      "source_url": "http://iriz.hanazono.ac.jp/zen_centers/centers_data/austria.htm",
+      "notes": "Rinzai zendo in Innsbruck listed historically under Herbert Koudela; affiliated with the Bodhidharma/Sasaki line."
+    },
+    {
+      "name": "Kannon-Do Zen-Buddhistisches Zentrum Innsbruck",
+      "city": "Innsbruck",
+      "region": "Tirol",
+      "lineage": "Sōtō (Kobun Chino Otogawa Roshi line)",
+      "address": "Müllerstrasse 13 (Villa Nachsommer), 6020 Innsbruck",
+      "url": "http://www.kannon-do.at/",
+      "source_url": "http://iriz.hanazono.ac.jp/zen_centers/centers_data/austria.htm",
+      "notes": "Teacher Peter Chikurin Pfötscher; Soto in the Kobun Chino line."
+    },
+    {
+      "name": "Zen Gruppe Salzburg",
+      "city": "Salzburg",
+      "region": "Salzburg",
+      "lineage": "Rinzai (Joshu Sasaki Roshi line)",
+      "address": "Lehenerstrasse 15, 5020 Salzburg",
+      "url": "https://bodhidharmazendo.at/",
+      "source_url": "http://iriz.hanazono.ac.jp/zen_centers/centers_data/austria.htm",
+      "notes": "Salzburg Rinzai group; teacher Herbert Koudela in the Sasaki/Bodhidharma Zendo network."
+    },
+    {
+      "name": "Zen Gruppe Linz",
+      "city": "Linz",
+      "region": "Oberösterreich",
+      "lineage": "Rinzai (Joshu Sasaki Roshi line)",
+      "address": "Reuchlinstrasse 53, Linz",
+      "url": "https://bodhidharmazendo.at/",
+      "source_url": "http://buddhanet.info/wbd/country.php?country_id=56",
+      "notes": "Linz Rinzai group, teacher Herbert Koudela; part of the Sasaki/Bodhidharma Zendo network."
+    },
+    {
+      "name": "Zendo Wien (Karl Obermayer)",
+      "city": "Wien",
+      "region": "Wien",
+      "lineage": "Zen (Willigis-Jäger inspired ecumenical Zen)",
+      "address": "Sonnenhofgasse 3, 1050 Wien (event location)",
+      "url": "https://zendowien.org/",
+      "source_url": "https://zendowien.org/veranstaltungen/",
+      "notes": "Vienna Zen group around teacher Karl Obermayer; sesshin venues include Sonnenhofgasse 3."
+    },
+    {
+      "name": "Stille in Wien – Zen-Meditation",
+      "city": "Wien",
+      "region": "Wien",
+      "lineage": "Christian-Zen (Hugo Enomiya-Lassalle / Sansui-an / Zendo Betania line)",
+      "address": "Kardinal-König-Platz 3, 1130 Wien (Kardinal König Haus)",
+      "url": "https://www.stille-in-wien.at/gebet/zen/",
+      "source_url": "https://www.stille-in-wien.at/gebet/zen/",
+      "notes": "Zen practice with Dr. Ursula Baatz (Sansui-an, Escuela Zen 'Zendo Betania') in the Lassalle line. Hosted at Kardinal König Haus."
+    },
+    {
+      "name": "Intersein Sangha Wien",
+      "city": "Wien",
+      "region": "Wien",
+      "lineage": "Vietnamese Thiền / Plum Village (Thich Nhat Hanh)",
+      "address": null,
+      "url": "https://interseinwien.jimdofree.com/",
+      "source_url": "http://www.buddhistisch.at/meditation/buddhistische-meditationsgruppen/detail/99",
+      "notes": "Active since 1998. Weekly Thursday practice 17:30. Part of the Intersein/Plum Village Dhyana School."
+    },
+    {
+      "name": "Wake Up Wien",
+      "city": "Wien",
+      "region": "Wien",
+      "lineage": "Vietnamese Thiền / Plum Village (Thich Nhat Hanh)",
+      "address": null,
+      "url": "https://wkup.org/meetings/wake-up-vienna-wien/",
+      "source_url": "https://wkup.org/meetings/wake-up-vienna-wien/",
+      "notes": "Young-adults sangha (~18-35) in the Plum Village tradition. Address shared on request."
+    },
+    {
+      "name": "Plum Village Sangha Innsbruck",
+      "city": "Innsbruck",
+      "region": "Tirol",
+      "lineage": "Vietnamese Thiền / Plum Village (Thich Nhat Hanh)",
+      "address": "Yoga Mitte, 6020 Innsbruck",
+      "url": "https://sanghainnsbruck.at/",
+      "source_url": "http://www.buddhistisch.at/meditation/buddhistische-meditationsgruppen/detail/409",
+      "notes": "Active since 2019. Meets Thursdays 18:00–19:30 at Yoga Mitte."
+    },
+    {
+      "name": "Intersein Sangha Hall in Tirol",
+      "city": "Hall in Tirol",
+      "region": "Tirol",
+      "lineage": "Vietnamese Thiền / Plum Village (Thich Nhat Hanh)",
+      "address": null,
+      "url": "https://interseinwien.jimdofree.com/links/",
+      "source_url": "https://interseinwien.jimdofree.com/links/",
+      "notes": "Tyrolean Intersein/Plum Village group listed on the Intersein Wien links page."
+    }
+  ]
+}

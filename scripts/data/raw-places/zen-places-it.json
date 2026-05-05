@@ -1,0 +1,469 @@
+{
+  "_meta": {
+    "country": "Italy",
+    "collectedAt": "2026-05-05",
+    "method": "Aggregated from Sōtōshū Europe (sotozen.com), Unione Buddhista Italiana (UBI) complete center list, AZI Italia network as catalogued by Mokusho Torino, Stella del Mattino community pages, Zenshinji Scaramuccia affiliated centers list, Monastero Enso-ji Il Cerchio centri page, Plum Village Essere Pace, Sanbō Dojo Roma, and CESNUR survey of Italian Zen schools.",
+    "coverageEstimate": "Strong coverage of registered/UBI-recognised temples (Sōtō Sōtōshū-listed, AZI/Deshimaru, Scaramuccia/Rinzai, Il Cerchio/Harada-Yasutani-Tetsugen) and the principal Plum Village umbrella. Smaller informal Plum Village/Essere Pace sanghas under-listed because that directory is map-only and not crawlable.",
+    "knownGaps": [
+      "Plum Village / Essere Pace / Interessere local lay sanghas are administered via a JS map and could not be enumerated; only the Milan umbrella organisation is included.",
+      "Kwan Um School of Zen has no listed Italian center (kwanumeurope.org filter returns none as of 2026-05).",
+      "White Plum Asanga public membership list shows no Italian member centers.",
+      "Some AZI groups (Ciampino, Montorio Romano, Ancona, Vicenza, Marebbe, Robbiate, Moglia, San Sperate, Savigliano) had no public website at the time of collection and were dropped from this file because the schema requires a non-empty url.",
+      "Yume Zen Trento could not be verified online (the Trento 'Yume' results refer to a sushi restaurant); excluded.",
+      "Centro Studi Bodhidharma / Musangam is Korean Chogye Seon (Mahayana) — included as a Korean Zen lineage entry.",
+      "Sanbō Zen International member status of the Roma Sanbō Dojo is not publicly listed; the dojo describes itself in the Deshimaru/AZI line, so it is filed under Sōtō / Deshimaru."
+    ]
+  },
+  "places": [
+    {
+      "name": "Centro Zen Anshin – Pace del Cuore",
+      "city": "Roma",
+      "region": "Lazio",
+      "lineage": "Sōtō / Uchiyama (Antaiji) line",
+      "address": "Via Ettore Rolli 49, 00153 Roma",
+      "url": "https://anshin.it/",
+      "source_url": "https://www.sotozen.com/eng/temples/outside_jp/Italy/",
+      "notes": "Sōtōshū-registered temple in Italy. Resident teacher Rev. Doryu Cappelli. UBI member."
+    },
+    {
+      "name": "Tempio Buddhista Zen Jōhōji",
+      "city": "Roma",
+      "region": "Lazio",
+      "lineage": "Sōtō / Deshimaru (AZI)",
+      "address": "Via di Villa Lauricella 12, 00176 Roma",
+      "url": "https://tempiozenroma.it/",
+      "source_url": "https://www.sotozen.com/eng/temples/outside_jp/Italy/",
+      "notes": "Sōtōshū-registered. Associazione Buddhista Zen Soto Buppo, Rev. Sengyo Van Leuven. AZI Italia."
+    },
+    {
+      "name": "Centro Zen Firenze – Tempio Shinnyo-ji",
+      "city": "Firenze",
+      "region": "Toscana",
+      "lineage": "Sōtō / Daijō-ji (Kanazawa) line",
+      "address": "Via Vittorio Emanuele II 171, 50134 Firenze",
+      "url": "https://www.zenfirenze.it/",
+      "source_url": "https://www.sotozen.com/eng/temples/outside_jp/Italy/",
+      "notes": "Sōtōshū-registered. Resident teacher Rev. Shinnyo Marradi. UBI member."
+    },
+    {
+      "name": "Enkuji – Il Cerchio Vuoto",
+      "city": "Torino",
+      "region": "Piemonte",
+      "lineage": "Sōtō",
+      "address": "Via Carlo Ignazio Giulio 29, 10122 Torino",
+      "url": "https://www.ilcerchiovuoto.it/",
+      "source_url": "https://www.sotozen.com/eng/temples/outside_jp/Italy/",
+      "notes": "Sōtōshū-registered. Resident teacher Rev. Seishin Viviani. UBI member."
+    },
+    {
+      "name": "Monastero Zen Enso-ji Il Cerchio",
+      "city": "Milano",
+      "region": "Lombardia",
+      "lineage": "Sōtō / Harada-Yasutani / Tetsugen Serra",
+      "address": "Via dei Crollalanza 9, 20143 Milano",
+      "url": "https://www.monasterozen.it/",
+      "source_url": "https://www.sotozen.com/eng/temples/outside_jp/Italy/",
+      "notes": "Sōtōshū-registered as Ensoji. Founder/abbot Carlo Tetsugen Serra. UBI member."
+    },
+    {
+      "name": "Istituto Italiano Zen Sōtō Shōbōzan Fudenji",
+      "city": "Salsomaggiore Terme",
+      "region": "Emilia-Romagna",
+      "lineage": "Sōtō",
+      "address": "Località Bargone 113, 43039 Salsomaggiore Terme (PR)",
+      "url": "https://www.fudenji.it/",
+      "source_url": "https://www.sotozen.com/eng/temples/outside_jp/Italy/",
+      "notes": "Sōtōshū-registered residential monastery, founded by Fausto Taiten Guareschi. UBI member."
+    },
+    {
+      "name": "San-shin Zen Center",
+      "city": "Casarano",
+      "region": "Puglia",
+      "lineage": "Sōtō",
+      "address": "Via XX Settembre 52, 73042 Casarano (LE)",
+      "url": "https://www.sotozen.com/eng/temples/outside_jp/Italy/",
+      "source_url": "https://www.sotozen.com/eng/temples/outside_jp/Italy/",
+      "notes": "Sōtōshū-registered. Resident teacher Rev. Myosen Rovesti. No standalone website; entry points to Sōtōshū directory."
+    },
+    {
+      "name": "Sanboji – Eremo dei Tre Gioielli",
+      "city": "Berceto",
+      "region": "Emilia-Romagna",
+      "lineage": "Sōtō / Harada-Yasutani / Tetsugen Serra",
+      "address": "Via Pradaiolo 374, 43042 Pagazzano di Berceto (PR)",
+      "url": "https://monasterozen.it/centri/zen-parma-berceto-sanboji-tempio-dei-tre-gioielli/",
+      "source_url": "https://www.sotozen.com/eng/temples/outside_jp/Italy/",
+      "notes": "Sōtōshū-registered mountain hermitage of Enso-ji Il Cerchio."
+    },
+    {
+      "name": "Tenmonzan Seihoji",
+      "city": "Fermignano",
+      "region": "Marche",
+      "lineage": "Sōtō",
+      "address": "Il Pagino II, Sagrata 196, 61033 Fermignano (PU)",
+      "url": "https://www.sotozen.com/eng/temples/outside_jp/Italy/",
+      "source_url": "https://www.sotozen.com/eng/temples/outside_jp/Italy/",
+      "notes": "Sōtōshū-registered. Resident teacher Rev. Taigo Fumagalli."
+    },
+    {
+      "name": "Zen Komyoji Temple",
+      "city": "Fortunago",
+      "region": "Lombardia",
+      "lineage": "Sōtō",
+      "address": "Costa Pelata 7, 27040 Fortunago (PV)",
+      "url": "https://www.sotozen.com/eng/temples/outside_jp/Italy/",
+      "source_url": "https://www.sotozen.com/eng/temples/outside_jp/Italy/",
+      "notes": "Sōtōshū-registered. Resident teacher Rev. Kengaku Pinciara."
+    },
+    {
+      "name": "Centro Buddhista Zen Gyosho – Tempio Gyosho",
+      "city": "Cecina",
+      "region": "Toscana",
+      "lineage": "Sōtō / Harada-Yasutani / Tetsugen Serra",
+      "address": "Via Marrucci 58/A, 57023 Cecina (LI)",
+      "url": "https://www.centrogyosho.it/",
+      "source_url": "https://unionebuddhistaitaliana.it/en/centers/complete-list/",
+      "notes": "UBI-registered. Affiliated to Enso-ji Il Cerchio."
+    },
+    {
+      "name": "Tempio Zen Ten Shin – Cuore di Cielo Puro",
+      "city": "Napoli",
+      "region": "Campania",
+      "lineage": "Sōtō / Harada-Yasutani / Tetsugen Serra",
+      "address": "Via Terracina 429, Napoli",
+      "url": "https://www.tenshin.it/",
+      "source_url": "https://unionebuddhistaitaliana.it/en/centers/complete-list/",
+      "notes": "UBI-registered. Affiliated to Enso-ji Il Cerchio."
+    },
+    {
+      "name": "Tempio Zen Sokuzen (Orazen)",
+      "city": "Padova",
+      "region": "Veneto",
+      "lineage": "Sōtō / Harada-Yasutani / Tetsugen Serra",
+      "address": null,
+      "url": "https://monasterozen.it/centri/zen-padova/",
+      "source_url": "https://monasterozen.it/centri/",
+      "notes": "Affiliated to Enso-ji Il Cerchio."
+    },
+    {
+      "name": "Tempio Unsui",
+      "city": "Pesaro",
+      "region": "Marche",
+      "lineage": "Sōtō / Harada-Yasutani / Tetsugen Serra",
+      "address": null,
+      "url": "https://monasterozen.it/centri/unsui-centro-zen-pesaro/",
+      "source_url": "https://monasterozen.it/centri/",
+      "notes": "Affiliated to Enso-ji Il Cerchio."
+    },
+    {
+      "name": "Centro Zen Milano L20",
+      "city": "Milano",
+      "region": "Lombardia",
+      "lineage": "Sōtō / Harada-Yasutani / Tetsugen Serra",
+      "address": null,
+      "url": "https://monasterozen.it/centri/l20-centro-zen-milano/",
+      "source_url": "https://monasterozen.it/centri/",
+      "notes": "Urban affiliate of Enso-ji Il Cerchio."
+    },
+    {
+      "name": "Tempio Buddhista Zenshinji di Scaramuccia",
+      "city": "Orvieto",
+      "region": "Umbria",
+      "lineage": "Rinzai / Yamada Mumon (Engaku Taino)",
+      "address": "Località Pian del Vantaggio 64, 05019 Orvieto (TR)",
+      "url": "https://zenshinji.org/",
+      "source_url": "https://unionebuddhistaitaliana.it/en/centers/complete-list/",
+      "notes": "Founded by Engaku Taino (Mario Luigi). UBI member; principal Rinzai monastery in Italy."
+    },
+    {
+      "name": "Centro di Meditazione Shiguseigan Zen Rinzai",
+      "city": "Roma",
+      "region": "Lazio",
+      "lineage": "Rinzai / Yamada Mumon (Scaramuccia)",
+      "address": null,
+      "url": "https://zenshinji.org/centro-di-meditazione-shiguseigan-zen-rinzai/",
+      "source_url": "https://zenshinji.org/centri-affiliati-2/",
+      "notes": "Affiliated to Zenshinji Scaramuccia."
+    },
+    {
+      "name": "Chudo – La Via di Mezzo",
+      "city": "Trieste",
+      "region": "Friuli-Venezia Giulia",
+      "lineage": "Rinzai / Yamada Mumon (Scaramuccia)",
+      "address": "Salita di Gretta 7/1, 34136 Trieste",
+      "url": "https://zenshinji.org/centri-affiliati-2/",
+      "source_url": "https://zenshinji.org/centri-affiliati-2/",
+      "notes": "Teacher M° Tullio Giraldi. Affiliated to Zenshinji Scaramuccia."
+    },
+    {
+      "name": "Tora Kan Zen Dōjō",
+      "city": "Roma",
+      "region": "Lazio",
+      "lineage": "Sōtō / Nishijima – Jōkō",
+      "address": "Via di Selva Candida 45/C, Roma",
+      "url": "https://www.torakanzendojo.org/",
+      "source_url": "https://www.torakanzendojo.org/dojo.htm",
+      "notes": "Lineage of Gudo Wafu Nishijima → Federico Dainin Jōkō → Paolo Taigō Kōnin (Dharma transmission 2020)."
+    },
+    {
+      "name": "Sanbō Dojo Roma",
+      "city": "Roma",
+      "region": "Lazio",
+      "lineage": "Sōtō / Deshimaru (AZI)",
+      "address": "Via di Portonaccio 114, Roma",
+      "url": "https://sanbodojo.it/",
+      "source_url": "https://sanbodojo.it/orari/",
+      "notes": "Guided by Rev. Jikō Simone Wolf (disciple of Taisen Deshimaru). AZI Italia."
+    },
+    {
+      "name": "Dojo Zen Hodo",
+      "city": "Roma",
+      "region": "Lazio",
+      "lineage": "Sōtō / Deshimaru (AZI)",
+      "address": null,
+      "url": "http://www.centrohodo.com/",
+      "source_url": "https://www.mokusho.it/sangha/",
+      "notes": "AZI Italia."
+    },
+    {
+      "name": "Meditazione Zen Roma",
+      "city": "Roma",
+      "region": "Lazio",
+      "lineage": "Sōtō / Deshimaru (AZI)",
+      "address": null,
+      "url": "http://www.zenroma.it/",
+      "source_url": "https://www.mokusho.it/sangha/",
+      "notes": "AZI Italia."
+    },
+    {
+      "name": "Anri Zendo",
+      "city": "Ladispoli",
+      "region": "Lazio",
+      "lineage": "Sōtō / Deshimaru (AZI)",
+      "address": null,
+      "url": "http://www.zazenladispoli.it/",
+      "source_url": "https://www.mokusho.it/sangha/",
+      "notes": "AZI Italia."
+    },
+    {
+      "name": "Dojo Zen Higan – L'altra Riva",
+      "city": "Milano",
+      "region": "Lombardia",
+      "lineage": "Sōtō / Deshimaru (AZI)",
+      "address": null,
+      "url": "https://www.zenhiganmilano.it/",
+      "source_url": "https://www.mokusho.it/sangha/",
+      "notes": "AZI Italia."
+    },
+    {
+      "name": "Gruppo Zen di Milano",
+      "city": "Milano",
+      "region": "Lombardia",
+      "lineage": "Sōtō / Deshimaru (AZI)",
+      "address": null,
+      "url": "http://www.meditazionezenmilano.com/",
+      "source_url": "https://www.mokusho.it/sangha/",
+      "notes": "AZI Italia."
+    },
+    {
+      "name": "Gruppo Zen Shiroi Karasu",
+      "city": "Trieste",
+      "region": "Friuli-Venezia Giulia",
+      "lineage": "Sōtō / Deshimaru (AZI)",
+      "address": null,
+      "url": "http://www.shiroikarasu.org/",
+      "source_url": "https://www.mokusho.it/sangha/",
+      "notes": "AZI Italia."
+    },
+    {
+      "name": "Gruppo Zen di Udine",
+      "city": "Udine",
+      "region": "Friuli-Venezia Giulia",
+      "lineage": "Sōtō / Deshimaru (AZI)",
+      "address": null,
+      "url": "https://sites.google.com/site/zenudine/",
+      "source_url": "https://www.mokusho.it/sangha/",
+      "notes": "AZI Italia."
+    },
+    {
+      "name": "Gruppo Zen di Savona",
+      "city": "Savona",
+      "region": "Liguria",
+      "lineage": "Sōtō / Deshimaru (AZI)",
+      "address": null,
+      "url": "http://www.zensavona.it/",
+      "source_url": "https://www.mokusho.it/sangha/",
+      "notes": "AZI Italia."
+    },
+    {
+      "name": "Dojo Zen Sanrin",
+      "city": "Fossano",
+      "region": "Piemonte",
+      "lineage": "Sōtō / Deshimaru (AZI)",
+      "address": "Via Don Minzoni 12, 12045 Fossano (CN)",
+      "url": "https://www.sanrin.it/",
+      "source_url": "https://unionebuddhistaitaliana.it/en/centers/complete-list/",
+      "notes": "AZI Italia. UBI-registered."
+    },
+    {
+      "name": "Dojo Zen Bodai – Associazione Zen Bodai Dojo",
+      "city": "Alba",
+      "region": "Piemonte",
+      "lineage": "Sōtō / Deshimaru (AZI)",
+      "address": "Via Fratelli Ambrogio 25, Alba (CN)",
+      "url": "http://www.bodai.it/",
+      "source_url": "https://unionebuddhistaitaliana.it/centri/associazione-zen-bodai-dojo/",
+      "notes": "Founded 2009 by Beppe Mokuza. UBI member since 2021. AZI/ABZE affiliate."
+    },
+    {
+      "name": "Tempio Zen Gyogenji",
+      "city": "Costigliole d'Asti",
+      "region": "Piemonte",
+      "lineage": "Sōtō / Deshimaru (AZI)",
+      "address": "Strada Santo Stefanetto 23/25, 14055 Costigliole d'Asti (AT)",
+      "url": "https://zentemple.it/",
+      "source_url": "https://zentemple.it/en/about-us/",
+      "notes": "Sōtō lineage Sawaki → Deshimaru → Niwa → Roland Yūnō Rech. New rural temple of the Bodai Dojo community."
+    },
+    {
+      "name": "Casa Mushin Zen",
+      "city": "Asti",
+      "region": "Piemonte",
+      "lineage": "Sōtō / Deshimaru (AZI)",
+      "address": null,
+      "url": "http://www.casamushin.it/",
+      "source_url": "https://www.mokusho.it/sangha/",
+      "notes": "AZI Italia."
+    },
+    {
+      "name": "Dojo Zen Mokusho – Associazione Hokuzenko",
+      "city": "Torino",
+      "region": "Piemonte",
+      "lineage": "Sōtō / Deshimaru (AZI)",
+      "address": "Via Principe Amedeo 37, 10123 Torino",
+      "url": "https://www.mokusho.it/",
+      "source_url": "https://unionebuddhistaitaliana.it/en/centers/complete-list/",
+      "notes": "AZI Italia. UBI-registered. Coordinates the AZI sangha map for Italy."
+    },
+    {
+      "name": "Shōbōgendō Dōjō Zen Sōtō di Novara",
+      "city": "Novara",
+      "region": "Piemonte",
+      "lineage": "Sōtō / Fudenji",
+      "address": "Piazzale Giuseppe Fortina 6/A, 28100 Novara",
+      "url": "https://praticazen.org/",
+      "source_url": "https://praticazen.org/it/",
+      "notes": "Founded 2000 by Giulio Taizen Alliaudi. Affiliated to Shōbōzan Fudenji."
+    },
+    {
+      "name": "Centro Zen L'Arco",
+      "city": "Roma",
+      "region": "Lazio",
+      "lineage": "Sōtō / San Francisco Zen Center (Suzuki)",
+      "address": null,
+      "url": "https://www.romazen.it/",
+      "source_url": "https://cesnur.com/il-buddhismo-in-italia/le-scuole-zen/",
+      "notes": "Affiliated with San Francisco Zen Center (Shunryu Suzuki line)."
+    },
+    {
+      "name": "Centro Italiano Zen Sōtō",
+      "city": "Milano",
+      "region": "Lombardia",
+      "lineage": "Sōtō",
+      "address": null,
+      "url": "https://www.centroitalianozen.it/",
+      "source_url": "https://cesnur.com/il-buddhismo-in-italia/le-scuole-zen/",
+      "notes": "Listed in CESNUR survey of Italian Zen schools."
+    },
+    {
+      "name": "Centro Zen d'Occidente – Associazione Aretè",
+      "city": "Vicenza",
+      "region": "Veneto",
+      "lineage": "Indipendente / Zen d'Occidente",
+      "address": null,
+      "url": "https://www.zendoccidente.org/",
+      "source_url": "https://cesnur.com/il-buddhismo-in-italia/le-scuole-zen/",
+      "notes": "Independent Italian Zen lineage with multiple satellite groups."
+    },
+    {
+      "name": "Casa Zen – Scuola delle Quattro Foglie",
+      "city": "Gazzuolo",
+      "region": "Lombardia",
+      "lineage": "Rinzai / Kyudo",
+      "address": null,
+      "url": "https://www.kyudo.net/",
+      "source_url": "https://cesnur.com/il-buddhismo-in-italia/le-scuole-zen/",
+      "notes": "Integrates Kyūdō and Rinzai Zen practice."
+    },
+    {
+      "name": "Stella del Mattino – Gruppo zazen di Torino",
+      "city": "Torino",
+      "region": "Piemonte",
+      "lineage": "Sōtō / Antaiji (Watanabe / Forzani-Marassi)",
+      "address": null,
+      "url": "https://www.lastelladelmattino.org/vita-della-comunita/gruppo-zazen-di-torino/",
+      "source_url": "https://www.lastelladelmattino.org/vita-della-comunita",
+      "notes": "Local sangha of La Stella del Mattino community (founded by Italian-Japanese Antaiji monks)."
+    },
+    {
+      "name": "Stella del Mattino – Gruppo zazen di Fano",
+      "city": "Fano",
+      "region": "Marche",
+      "lineage": "Sōtō / Antaiji (Watanabe / Forzani-Marassi)",
+      "address": null,
+      "url": "https://www.lastelladelmattino.org/vita-della-comunita/gruppo-zazen-di-fano/",
+      "source_url": "https://www.lastelladelmattino.org/vita-della-comunita",
+      "notes": "Local sangha of La Stella del Mattino."
+    },
+    {
+      "name": "Stella del Mattino – Gruppo zazen di Livorno",
+      "city": "Livorno",
+      "region": "Toscana",
+      "lineage": "Sōtō / Antaiji (Watanabe / Forzani-Marassi)",
+      "address": null,
+      "url": "https://www.lastelladelmattino.org/vita-della-comunita/gruppo-zazen-di-livorno/",
+      "source_url": "https://www.lastelladelmattino.org/vita-della-comunita",
+      "notes": "Local sangha of La Stella del Mattino."
+    },
+    {
+      "name": "Stella del Mattino – Zazen a Pescara",
+      "city": "Pescara",
+      "region": "Abruzzo",
+      "lineage": "Sōtō / Antaiji (Watanabe / Forzani-Marassi)",
+      "address": null,
+      "url": "https://www.lastelladelmattino.org/zazen-a-pescara",
+      "source_url": "https://www.lastelladelmattino.org/vita-della-comunita",
+      "notes": "Local sangha of La Stella del Mattino."
+    },
+    {
+      "name": "Associazione Essere Pace",
+      "city": "Milano",
+      "region": "Lombardia",
+      "lineage": "Plum Village / Thich Nhat Hanh",
+      "address": null,
+      "url": "https://www.esserepace.org/",
+      "source_url": "https://cesnur.com/il-buddhismo-in-italia/le-scuole-zen/",
+      "notes": "Founded 1996; Italian umbrella for Plum Village / Order of Interbeing sanghas; coordinates retreats and the Italian sangha map."
+    },
+    {
+      "name": "Comunità italiana dell'Interessere",
+      "city": "Roma",
+      "region": "Lazio",
+      "lineage": "Plum Village / Thich Nhat Hanh",
+      "address": null,
+      "url": "https://www.interessere.it/",
+      "source_url": "https://www.interessere.it/gruppi-di-pratica-in-italia/",
+      "notes": "Italian-language Plum Village hub; maintains national directory of practice groups."
+    },
+    {
+      "name": "Musangam – Eremo Bodhidharma",
+      "city": "Lerici",
+      "region": "Liguria",
+      "lineage": "Korean Seon / Chogye (with Mahayana-Theravada bridges)",
+      "address": null,
+      "url": "https://www.bodhidharma.info/",
+      "source_url": "https://cesnur.com/il-buddhismo-in-italia/le-scuole-zen/",
+      "notes": "Korean Chogye-affiliated Zen/Seon hermitage in Lerici (La Spezia); maintains relations with Songgwangsa (Korea) and Sheng Jue Si (Taiwan)."
+    }
+  ]
+}

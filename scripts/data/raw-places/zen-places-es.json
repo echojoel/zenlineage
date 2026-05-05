@@ -1,0 +1,848 @@
+{
+  "_meta": {
+    "country": "Spain",
+    "collectedAt": "2026-05-05",
+    "method": "Web research across the official directories of Comunidad Buddhista Soto Zen (sotozen.es), Sotoshu Europe (sotozen.com), Asociación Zen Internacional / Kosen Sangha (zen-deshimaru.com, zenkan.com), Templo Seikyuji affiliates, Camino Medio (caminomedio.org), Instituto Internacional Zen de España (Lam Te / Rinzai), Kwan Um Europe (kwanumeurope.org, boricentro.kwanumzen.es), Comunidad Budista del Interser (tnhspain.com), Buddhistdoor en Español Catalonia/Balearic directory, and the IRIZ Hanazono University zen centers list. Each entry was cross-verified against at least one institutional/network directory.",
+    "coverageEstimate": "Strong coverage of the four main networks (Sōtō CBSZ, AZI/Kosen-Deshimaru, Seikyuji/Camino Medio, Kwan Um) and the Plum Village lay sangha network. Sanbō Zen presence in Spain is a single hub (Zendo Betania + offshoots). Rinzai presence is limited (Vietnamese Lam Te lineage via IIZE). No active Ōbaku presence located. Plum Village lay sanghas are listed selectively (representative subset of ~50 groups; many are home-based without a fixed dojo).",
+    "knownGaps": [
+      "Some Plum Village 'sanghas' meet in private homes without a fixed practice place — not all are listed",
+      "Ōbaku-shū has no documented active presence in Spain",
+      "White Plum Asanga has no resident Spanish teacher / fixed center",
+      "A few small Soto groups (e.g. Mokusan Dojo Madrid sub-groups) may overlap with parent dojos",
+      "Phone-only / email-only contacts dropped where no institutional URL was confirmed",
+      "Address not always public (privacy of host venues); kept null where unknown but URL+source confirmed"
+    ]
+  },
+  "places": [
+    {
+      "name": "Templo Zen Luz Serena",
+      "city": "Casas del Río (Requena)",
+      "region": "Comunidad Valenciana",
+      "lineage": "Sōtō / Comunidad Buddhista Soto Zen (Dokushô Villalba)",
+      "address": "46356 Casas del Río, Requena, Valencia",
+      "url": "https://sotozen.es/",
+      "source_url": "https://sotozen.es/en/cbsz/centros-integrados/",
+      "notes": "Spiritual and administrative headquarters of CBSZ; main residential monastery in Spain."
+    },
+    {
+      "name": "Asociación Zen de Galicia",
+      "city": "Ourense",
+      "region": "Galicia",
+      "lineage": "Sōtō / Comunidad Buddhista Soto Zen",
+      "address": "Travesía Portocarreiro 5, 32003 Ourense",
+      "url": "https://galicia.sotozen.es/",
+      "source_url": "https://sotozen.es/en/cbsz/centros-integrados/",
+      "notes": "CBSZ integrated center; instructor Uxío Outeiro Lojo."
+    },
+    {
+      "name": "Asociación Zen de Mallorca",
+      "city": "Palma de Mallorca",
+      "region": "Illes Balears",
+      "lineage": "Sōtō / Comunidad Buddhista Soto Zen",
+      "address": "C/ Martí Boneo 31, Son Dameto, 07013 Palma de Mallorca",
+      "url": "https://mallorca.sotozen.es/",
+      "source_url": "https://sotozen.es/en/cbsz/centros-integrados/",
+      "notes": "CBSZ integrated center."
+    },
+    {
+      "name": "Asociación Zen de Valencia (Ananda Dharma)",
+      "city": "Valencia",
+      "region": "Comunidad Valenciana",
+      "lineage": "Sōtō / Comunidad Buddhista Soto Zen",
+      "address": "C/ Cuenca 89, entresuelo, 46007 Valencia",
+      "url": "https://valencia.sotozen.es/",
+      "source_url": "https://sotozen.es/en/cbsz/centros-integrados/",
+      "notes": "CBSZ integrated urban center."
+    },
+    {
+      "name": "Grupo Zen Monte Moncayo",
+      "city": "Zaragoza",
+      "region": "Aragón",
+      "lineage": "Sōtō / Comunidad Buddhista Soto Zen",
+      "address": "Paseo Independencia 24-26, 8º Puerta 7, 50001 Zaragoza",
+      "url": "https://montemoncayo.sotozen.es/",
+      "source_url": "https://sotozen.es/en/cbsz/centros-integrados/",
+      "notes": "CBSZ integrated center; instructor Agustín Vázquez."
+    },
+    {
+      "name": "Asociación Zen Gran Canaria",
+      "city": "Las Palmas de Gran Canaria",
+      "region": "Canarias",
+      "lineage": "Sōtō / Comunidad Buddhista Soto Zen",
+      "address": "Los Almendros 15, La Galera, Tamaraceite, 35005 Las Palmas",
+      "url": "https://grancanaria.sotozen.es/",
+      "source_url": "https://sotozen.es/en/cbsz/centros-integrados/",
+      "notes": "CBSZ integrated center; instructor Víctor Basanta."
+    },
+    {
+      "name": "Templo Seikyuji",
+      "city": "Sevilla (Marchena - Morón)",
+      "region": "Andalucía",
+      "lineage": "Sōtō / AZI - Seikyuji (Raphaël Doko Triet)",
+      "address": "Finca La Morejona, Carretera Marchena-Morón km 8.8, 41003 Sevilla",
+      "url": "https://www.seikyuji.org/",
+      "source_url": "https://www.sotozen.com/eng/temples/outside_jp/Spain/",
+      "notes": "Officially registered Sōtōshū temple outside Japan; main Andalusian residential temple."
+    },
+    {
+      "name": "Centro Zen Abhirati / Buda Dharma Zen",
+      "city": "Valencia",
+      "region": "Comunidad Valenciana",
+      "lineage": "Sōtō / Sōtōshū Europe",
+      "address": "C/ Palleter 36.2, 2a, 46008 Valencia",
+      "url": "https://budadharmazen.org/",
+      "source_url": "https://www.sotozen.com/eng/temples/outside_jp/Spain/",
+      "notes": "Listed in Sōtōshū Europe registry."
+    },
+    {
+      "name": "Keiryuji",
+      "city": "Camprodon",
+      "region": "Cataluña",
+      "lineage": "Sōtō / Sōtōshū Europe",
+      "address": "La Masó de Bolòs 1, 17867 Camprodon, Girona",
+      "url": "https://www.keiryuji.org/",
+      "source_url": "https://www.sotozen.com/eng/temples/outside_jp/Spain/",
+      "notes": "Mountain temple in the Catalan Pyrenees, registered with Sōtōshū."
+    },
+    {
+      "name": "Shorin-ji Templo Zen",
+      "city": "Villanueva de la Vera",
+      "region": "Extremadura",
+      "lineage": "Sōtō / AZI - Kosen Sangha (Bárbara Kosen)",
+      "address": "Sierra de Gredos, Villanueva de la Vera, Cáceres",
+      "url": "https://zenkan.com/en/shorinji-zen-temple/",
+      "source_url": "https://zenkan.com/en/shorinji-zen-temple/",
+      "notes": "Forest temple founded 2001 by Bárbara Kosen, first Western woman to receive Shiho."
+    },
+    {
+      "name": "Mokusan Dojo",
+      "city": "Madrid",
+      "region": "Comunidad de Madrid",
+      "lineage": "Sōtō / AZI - Kosen Sangha (Bárbara Kosen)",
+      "address": null,
+      "url": "https://zenkan.com/mokusan-dojo/",
+      "source_url": "https://zenkan.com/grupos-de-zazen/",
+      "notes": "Headquarters dojo of Asociación Zen Taisen Deshimaru in Madrid."
+    },
+    {
+      "name": "Getsuko Dojo",
+      "city": "Granada",
+      "region": "Andalucía",
+      "lineage": "Sōtō / AZI - Kosen Sangha",
+      "address": "Calle El Calar 9, Edificio Valladolid 3B, 18008 Granada",
+      "url": "https://zenkan.com/getsuko-dojo-zen/",
+      "source_url": "https://zenkan.com/grupos-de-zazen/",
+      "notes": "Kosen Sangha network."
+    },
+    {
+      "name": "Sokai Dojo",
+      "city": "Gijón",
+      "region": "Asturias",
+      "lineage": "Sōtō / AZI - Kosen Sangha",
+      "address": "C/ San Bernardo 42, 1º izquierda, Gijón",
+      "url": "https://zenkan.com/sokai-dojo/",
+      "source_url": "https://zenkan.com/grupos-de-zazen/",
+      "notes": null
+    },
+    {
+      "name": "Ryusansui Dojo",
+      "city": "Poio",
+      "region": "Galicia",
+      "lineage": "Sōtō / AZI - Kosen Sangha",
+      "address": "Avenida Peirao Besada 6, 2-D, 36163 Poio, Pontevedra",
+      "url": "https://zenkan.com/ryusansui-dojo/",
+      "source_url": "https://zenkan.com/grupos-de-zazen/",
+      "notes": null
+    },
+    {
+      "name": "Grupo Zen de Cantabria / Dojo Zen Santander",
+      "city": "Santander",
+      "region": "Cantabria",
+      "lineage": "Sōtō / AZI - Kosen Sangha",
+      "address": "Calle Camilo Alonso Vega 2, Santander",
+      "url": "https://zazencantabria.wixsite.com/zazencantabria",
+      "source_url": "https://zenkan.com/grupos-de-zazen/",
+      "notes": "Practices Mondays and Saturdays."
+    },
+    {
+      "name": "Grupo Zen de Zarzalejo",
+      "city": "Zarzalejo",
+      "region": "Comunidad de Madrid",
+      "lineage": "Sōtō / AZI - Kosen Sangha",
+      "address": "Espacio Social La Fuente, C. de la Fuente 7, Zarzalejo",
+      "url": "https://zenkan.com/grupos-de-zazen/",
+      "source_url": "https://zenkan.com/grupos-de-zazen/",
+      "notes": null
+    },
+    {
+      "name": "Grupo Zen de Huesca",
+      "city": "Huesca",
+      "region": "Aragón",
+      "lineage": "Sōtō / AZI - Kosen Sangha",
+      "address": "Espacio Activo 22, C/ Lanuza 17 bajos, Huesca",
+      "url": "https://zenkan.com/grupos-de-zazen/",
+      "source_url": "https://zenkan.com/grupos-de-zazen/",
+      "notes": null
+    },
+    {
+      "name": "Dojo Zen de Barcelona (Ryokan)",
+      "city": "Barcelona",
+      "region": "Cataluña",
+      "lineage": "Sōtō / AZI - Deshimaru (San Pai Sobel)",
+      "address": "Tordera 18, bajos 2ª, Gràcia, Barcelona",
+      "url": "https://zen-barcelona.com/es/",
+      "source_url": "https://www.zen-deshimaru.com/en/where-to-practice/",
+      "notes": "Listed in AZI international where-to-practice directory."
+    },
+    {
+      "name": "Dojo Zen Sevilla Kaiko",
+      "city": "Sevilla",
+      "region": "Andalucía",
+      "lineage": "Sōtō / AZI - Seikyuji",
+      "address": "Ronda de Capuchinos 2, Bloque 7, 41003 Sevilla",
+      "url": "https://www.dojozensevillakaiko.es/",
+      "source_url": "https://www.seikyuji.org/donde-practicar/",
+      "notes": "Affiliated with Templo Seikyuji."
+    },
+    {
+      "name": "Granada Zen",
+      "city": "Granada",
+      "region": "Andalucía",
+      "lineage": "Sōtō / AZI - Seikyuji",
+      "address": "Calle Pescadería 1, 4°D, Granada",
+      "url": "https://www.granadazen.com/",
+      "source_url": "https://www.seikyuji.org/donde-practicar/",
+      "notes": null
+    },
+    {
+      "name": "Dojo Zen de Algeciras",
+      "city": "Algeciras",
+      "region": "Andalucía",
+      "lineage": "Sōtō / AZI - Seikyuji",
+      "address": "C/ Rinconcillo Portal Sur 1, Puerta 6, Algeciras, Cádiz",
+      "url": "https://www.dojozendealgeciras.com/",
+      "source_url": "https://www.seikyuji.org/donde-practicar/",
+      "notes": null
+    },
+    {
+      "name": "Dojo Zen de Málaga",
+      "city": "Málaga",
+      "region": "Andalucía",
+      "lineage": "Sōtō / AZI - Seikyuji",
+      "address": "Calle Cuarteles 26, Bajo, 29002 Málaga",
+      "url": "https://dojozendemalaga.com/",
+      "source_url": "https://www.seikyuji.org/donde-practicar/",
+      "notes": null
+    },
+    {
+      "name": "Zen Jaén",
+      "city": "Jaén",
+      "region": "Andalucía",
+      "lineage": "Sōtō / AZI - Seikyuji",
+      "address": "Centro Nahual de Jaén, Calle Mesa 6, Jaén",
+      "url": "https://www.seikyuji.org/donde-practicar/",
+      "source_url": "https://www.seikyuji.org/donde-practicar/",
+      "notes": "Email-only contact via Seikyuji directory."
+    },
+    {
+      "name": "Zendo Utrera",
+      "city": "Utrera",
+      "region": "Andalucía",
+      "lineage": "Sōtō / AZI - Seikyuji",
+      "address": "C/ Ruiseñor 1, Utrera, Sevilla",
+      "url": "https://www.zendoutrera.com/",
+      "source_url": "https://www.seikyuji.org/donde-practicar/",
+      "notes": null
+    },
+    {
+      "name": "Dojo Zen Madrid (Soto Hidalgo)",
+      "city": "Madrid",
+      "region": "Comunidad de Madrid",
+      "lineage": "Sōtō / AZI - Seikyuji",
+      "address": "Calle Soto Hidalgo 22, L-30, Madrid",
+      "url": "https://www.seikyuji.org/donde-practicar/",
+      "source_url": "https://www.seikyuji.org/donde-practicar/",
+      "notes": "Listed via Seikyuji affiliate directory."
+    },
+    {
+      "name": "Zen Sierra de Madrid (Bai San)",
+      "city": "Collado Villalba",
+      "region": "Comunidad de Madrid",
+      "lineage": "Sōtō / AZI - Seikyuji",
+      "address": "Camino del Berrocal 4, Collado Villalba",
+      "url": "https://www.zensierra.com/",
+      "source_url": "https://www.seikyuji.org/donde-practicar/",
+      "notes": null
+    },
+    {
+      "name": "Dojo Zen de Vitoria-Gasteiz",
+      "city": "Vitoria-Gasteiz",
+      "region": "País Vasco",
+      "lineage": "Sōtō / AZI - Seikyuji",
+      "address": "C/ Cuadrilla de Mendoza 4 bajo, 01013 Vitoria-Gasteiz",
+      "url": "https://zenvitoriagasteiz.com/",
+      "source_url": "https://www.seikyuji.org/donde-practicar/",
+      "notes": null
+    },
+    {
+      "name": "Dojo Zen de Bilbao",
+      "city": "Bilbao",
+      "region": "País Vasco",
+      "lineage": "Sōtō / AZI - Seikyuji",
+      "address": "Plaza Moraza 3A, Lonja 3 Izquierda, 48007 Bilbao",
+      "url": "http://dojozendebilbao.blogspot.com/",
+      "source_url": "https://www.seikyuji.org/donde-practicar/",
+      "notes": null
+    },
+    {
+      "name": "Dojo Zen de Donostia",
+      "city": "San Sebastián",
+      "region": "País Vasco",
+      "lineage": "Sōtō / AZI - Seikyuji",
+      "address": "Ramón María Lily 9, entresuelo, 20002 San Sebastián",
+      "url": "https://www.zendonostia.com/",
+      "source_url": "https://www.seikyuji.org/donde-practicar/",
+      "notes": null
+    },
+    {
+      "name": "Zen Pamplona",
+      "city": "Pamplona",
+      "region": "Navarra",
+      "lineage": "Sōtō / AZI - Seikyuji",
+      "address": "Ronda Barbazana Trasera 6, Pamplona",
+      "url": "https://www.seikyuji.org/donde-practicar/",
+      "source_url": "https://www.seikyuji.org/donde-practicar/",
+      "notes": "Email-only contact."
+    },
+    {
+      "name": "Zen Valladolid",
+      "city": "Valladolid",
+      "region": "Castilla y León",
+      "lineage": "Sōtō / AZI - Seikyuji",
+      "address": "Centro Ondinas, C/ Miguel Íscar 16, Valladolid",
+      "url": "https://www.seikyuji.org/donde-practicar/",
+      "source_url": "https://www.seikyuji.org/donde-practicar/",
+      "notes": null
+    },
+    {
+      "name": "Dojo Zen Mataró",
+      "city": "Mataró",
+      "region": "Cataluña",
+      "lineage": "Sōtō / AZI - Seikyuji",
+      "address": "Avda. Maresme 301, 08302 Mataró",
+      "url": "https://www.zenmataro.com/",
+      "source_url": "https://espanol.buddhistdoor.net/directorio-de-entidades-budistas-en-cataluna-e-islas-baleares-espana/",
+      "notes": "Also listed in BuddhistDoor Catalonia directory."
+    },
+    {
+      "name": "Zen Cuenca",
+      "city": "Cuenca",
+      "region": "Castilla-La Mancha",
+      "lineage": "Sōtō / AZI - Seikyuji",
+      "address": "Alameda del Júcar 13, Local, 16003 Cuenca",
+      "url": "https://www.seikyuji.org/donde-practicar/",
+      "source_url": "https://www.seikyuji.org/donde-practicar/",
+      "notes": null
+    },
+    {
+      "name": "Zendo Betania (Barcelona)",
+      "city": "Barcelona",
+      "region": "Cataluña",
+      "lineage": "Sōtō / Soto Zen Catalunya",
+      "address": null,
+      "url": "https://www.zendobetania.com/",
+      "source_url": "https://espanol.buddhistdoor.net/directorio-de-entidades-budistas-en-cataluna-e-islas-baleares-espana/",
+      "notes": "Catalan zendo network (distinct from Zendo Betania Brihuega/Sanbo)."
+    },
+    {
+      "name": "Zendo Betania Moià",
+      "city": "Moià",
+      "region": "Cataluña",
+      "lineage": "Sōtō / Soto Zen Catalunya",
+      "address": "Moià, Barcelona",
+      "url": "https://www.zendobetania.com/",
+      "source_url": "https://espanol.buddhistdoor.net/directorio-de-entidades-budistas-en-cataluna-e-islas-baleares-espana/",
+      "notes": null
+    },
+    {
+      "name": "Centro Zen Barcelona",
+      "city": "Barcelona",
+      "region": "Cataluña",
+      "lineage": "Sōtō",
+      "address": "C/ Bacardí 10, Sants, 08028 Barcelona",
+      "url": "https://www.zenbarcelona.org/",
+      "source_url": "https://espanol.buddhistdoor.net/directorio-de-entidades-budistas-en-cataluna-e-islas-baleares-espana/",
+      "notes": null
+    },
+    {
+      "name": "Dojo Zen Barcelona Kannon",
+      "city": "Barcelona",
+      "region": "Cataluña",
+      "lineage": "Sōtō / Deshimaru",
+      "address": "Ronda Universitat 14, 2-1ª, 08007 Barcelona",
+      "url": "https://zenkannon.org/",
+      "source_url": "https://espanol.buddhistdoor.net/directorio-de-entidades-budistas-en-cataluna-e-islas-baleares-espana/",
+      "notes": null
+    },
+    {
+      "name": "Dojo Zen Lleida",
+      "city": "Lleida",
+      "region": "Cataluña",
+      "lineage": "Sōtō",
+      "address": "Anselm Clavé 16, 25007 Lleida",
+      "url": "https://meditaciozenlleida.wordpress.com/",
+      "source_url": "https://espanol.buddhistdoor.net/directorio-de-entidades-budistas-en-cataluna-e-islas-baleares-espana/",
+      "notes": null
+    },
+    {
+      "name": "Dojo Keisei-ji",
+      "city": "Sant Andreu de Llavaneres",
+      "region": "Cataluña",
+      "lineage": "Sōtō",
+      "address": "Calle Sant Joan 1, 08392 Sant Andreu de Llavaneres",
+      "url": "https://zazen.cat/",
+      "source_url": "https://espanol.buddhistdoor.net/directorio-de-entidades-budistas-en-cataluna-e-islas-baleares-espana/",
+      "notes": null
+    },
+    {
+      "name": "Nalanda Dojo Zen",
+      "city": "Barcelona",
+      "region": "Cataluña",
+      "lineage": "Sōtō",
+      "address": "C/ Agregació 44, 08041 Barcelona",
+      "url": "https://www.nalanda.cat/",
+      "source_url": "https://espanol.buddhistdoor.net/directorio-de-entidades-budistas-en-cataluna-e-islas-baleares-espana/",
+      "notes": null
+    },
+    {
+      "name": "Tenryuji",
+      "city": "Llardecans",
+      "region": "Cataluña",
+      "lineage": "Sōtō",
+      "address": "St. Pere 5, 25186 Llardecans, Lleida",
+      "url": "https://sotozencatalunya.wordpress.com/",
+      "source_url": "https://espanol.buddhistdoor.net/directorio-de-entidades-budistas-en-cataluna-e-islas-baleares-espana/",
+      "notes": null
+    },
+    {
+      "name": "AZC-AZI Dojo Zen de Girona",
+      "city": "Girona",
+      "region": "Cataluña",
+      "lineage": "Sōtō / AZI",
+      "address": "Gran Via Jaume I 44, 3er 2ª B, 17001 Girona",
+      "url": "https://www.zengirona.net/",
+      "source_url": "https://espanol.buddhistdoor.net/directorio-de-entidades-budistas-en-cataluna-e-islas-baleares-espana/",
+      "notes": null
+    },
+    {
+      "name": "AZC-AZI Grupo de Zen de Reus",
+      "city": "Reus",
+      "region": "Cataluña",
+      "lineage": "Sōtō / AZI",
+      "address": "Navarra 9, 1er 1ª, Reus, Tarragona",
+      "url": "https://espanol.buddhistdoor.net/directorio-de-entidades-budistas-en-cataluna-e-islas-baleares-espana/",
+      "source_url": "https://espanol.buddhistdoor.net/directorio-de-entidades-budistas-en-cataluna-e-islas-baleares-espana/",
+      "notes": "AZI affiliate group."
+    },
+    {
+      "name": "Asai Dojo",
+      "city": "Sils",
+      "region": "Cataluña",
+      "lineage": "Sōtō",
+      "address": "Vallcanera 28, 17410 Sils, Girona",
+      "url": "https://www.dojoasai.com/",
+      "source_url": "https://espanol.buddhistdoor.net/directorio-de-entidades-budistas-en-cataluna-e-islas-baleares-espana/",
+      "notes": null
+    },
+    {
+      "name": "Un Sui Zen",
+      "city": "Madrid",
+      "region": "Comunidad de Madrid",
+      "lineage": "Sōtō",
+      "address": "Calle Valderribas 30, 28007 Madrid",
+      "url": "https://www.unsuizen.es/",
+      "source_url": "https://www.unsuizen.es/",
+      "notes": "Multipurpose zendo / martial arts dojo in Madrid; resident monk Bion."
+    },
+    {
+      "name": "Dojo Zen Sakura",
+      "city": "El Boalo",
+      "region": "Comunidad de Madrid",
+      "lineage": "Sōtō (Roshi Soko Daidó Yoza, lineage of Shuyu Narita / Todenji)",
+      "address": null,
+      "url": "https://dojozensakura.blogspot.com/",
+      "source_url": "https://dojozensakura.blogspot.com/p/dojo-zen-sakura.html",
+      "notes": "Sierra de Madrid; transmitted via Shuyu Narita Roshi (Todenji)."
+    },
+    {
+      "name": "Dojo Zen Nakama Madrid",
+      "city": "Madrid",
+      "region": "Comunidad de Madrid",
+      "lineage": "Sōtō",
+      "address": null,
+      "url": "https://dojozenmadrid.wordpress.com/",
+      "source_url": "https://dojozenmadrid.wordpress.com/donde-estamos/",
+      "notes": null
+    },
+    {
+      "name": "Zendo Betania Brihuega",
+      "city": "Brihuega",
+      "region": "Castilla-La Mancha",
+      "lineage": "Sanbō Zen (Sanbo Kyodan, Yamada Kōun line; Ana María Schlüter Rodés)",
+      "address": "Brihuega, Guadalajara",
+      "url": "https://www.zendobetania.com/",
+      "source_url": "http://zendobetania.com/sanbo.html",
+      "notes": "Founded 1986; main Sanbō Zen hub in Spain. Christian-Zen dialogue tradition."
+    },
+    {
+      "name": "Bori Centre Zen Barcelona",
+      "city": "Barcelona",
+      "region": "Cataluña",
+      "lineage": "Kwan Um (Korean Seon, Seung Sahn)",
+      "address": "C/ de les Beates 8, 3º 2ª, 08003 Barcelona",
+      "url": "https://boricentro.kwanumzen.es/",
+      "source_url": "https://www.kwanumeurope.org/locations/barcelona-zen-center-bori-centro-zen/",
+      "notes": "Main Kwan Um center in Spain."
+    },
+    {
+      "name": "Bori Sa Centre de Retirs",
+      "city": "Sales de Llierca",
+      "region": "Cataluña",
+      "lineage": "Kwan Um (Korean Seon, Seung Sahn)",
+      "address": "Poli, 17853 Sales de Llierca, Alta Garrotxa, Girona",
+      "url": "https://boricentro.kwanumzen.es/",
+      "source_url": "https://boricentro.kwanumzen.es/",
+      "notes": "Mountain retreat affiliated with Bori Centre Zen Barcelona."
+    },
+    {
+      "name": "Centro Zen Palma",
+      "city": "Palma de Mallorca",
+      "region": "Illes Balears",
+      "lineage": "Kwan Um (Korean Seon, Seung Sahn)",
+      "address": "Can Sales 14, bajos, 07012 Palma de Mallorca",
+      "url": "https://www.centrozenpalma.org/",
+      "source_url": "https://espanol.buddhistdoor.net/directorio-de-entidades-budistas-en-cataluna-e-islas-baleares-espana/",
+      "notes": null
+    },
+    {
+      "name": "Dojo Zen de Alicante (Camino Medio)",
+      "city": "Alicante",
+      "region": "Comunidad Valenciana",
+      "lineage": "Sōtō / Camino Medio",
+      "address": null,
+      "url": "https://caminomedio.org/alicante/",
+      "source_url": "https://caminomedio.org/",
+      "notes": "Local sangha of Comunidad Soto Zen Camino Medio."
+    },
+    {
+      "name": "Dojo Zen de Elche (Camino Medio)",
+      "city": "Elche",
+      "region": "Comunidad Valenciana",
+      "lineage": "Sōtō / Camino Medio",
+      "address": null,
+      "url": "https://caminomedio.org/elche/",
+      "source_url": "https://caminomedio.org/",
+      "notes": null
+    },
+    {
+      "name": "Dojo Zen de Murcia (Camino Medio)",
+      "city": "Murcia",
+      "region": "Región de Murcia",
+      "lineage": "Sōtō / Camino Medio",
+      "address": null,
+      "url": "https://caminomedio.org/murcia/",
+      "source_url": "https://caminomedio.org/",
+      "notes": null
+    },
+    {
+      "name": "Grupo Zen de Valencia (Camino Medio)",
+      "city": "Valencia",
+      "region": "Comunidad Valenciana",
+      "lineage": "Sōtō / Camino Medio",
+      "address": null,
+      "url": "https://caminomedio.org/valencia/",
+      "source_url": "https://caminomedio.org/",
+      "notes": null
+    },
+    {
+      "name": "Meditación Zen Cantabria (IIZE)",
+      "city": "Santander",
+      "region": "Cantabria",
+      "lineage": "Vietnamese Lam Te (Rinzai) / Instituto Internacional Zen España (Jiun Hogen Roshi)",
+      "address": null,
+      "url": "https://www.meditacionzencantabria.es/",
+      "source_url": "https://meditacionzenspain.com/grupos/",
+      "notes": "IIZE local group; Lâm Tế / Rinzai lineage."
+    },
+    {
+      "name": "Meditación Zen Alicante (IIZE)",
+      "city": "Guardamar de Segura",
+      "region": "Comunidad Valenciana",
+      "lineage": "Vietnamese Lam Te (Rinzai) / Instituto Internacional Zen España",
+      "address": null,
+      "url": "https://meditacionzenalicante.com/",
+      "source_url": "https://meditacionzenspain.com/grupos/",
+      "notes": null
+    },
+    {
+      "name": "Meditación Zen La Rioja (IIZE)",
+      "city": "Logroño",
+      "region": "La Rioja",
+      "lineage": "Vietnamese Lam Te (Rinzai) / Instituto Internacional Zen España",
+      "address": null,
+      "url": "https://www.meditacionzenlarioja.com/",
+      "source_url": "https://meditacionzenspain.com/grupos/",
+      "notes": "Group covers La Rioja, Navarra and Álava (Elciego, Viana, Logroño)."
+    },
+    {
+      "name": "Meditación Zen Donostia (IIZE)",
+      "city": "San Sebastián",
+      "region": "País Vasco",
+      "lineage": "Vietnamese Lam Te (Rinzai) / Instituto Internacional Zen España",
+      "address": null,
+      "url": "https://www.meditacionzendonostia.com/",
+      "source_url": "https://meditacionzenspain.com/grupos/",
+      "notes": null
+    },
+    {
+      "name": "Sangha Interser Valencia",
+      "city": "Valencia",
+      "region": "Comunidad Valenciana",
+      "lineage": "Plum Village (Thich Nhat Hanh) / Comunidad Budista del Interser",
+      "address": null,
+      "url": "https://tnhspain.com/",
+      "source_url": "https://tnhspain.com/sangha/buscar-sanghas-para-practicar/",
+      "notes": "Plum Village lay sangha in Valencia."
+    },
+    {
+      "name": "Sangha del Pi (Barcelona)",
+      "city": "Barcelona",
+      "region": "Cataluña",
+      "lineage": "Plum Village (Thich Nhat Hanh) / Comunidad Budista del Interser",
+      "address": null,
+      "url": "https://tnhspain.com/",
+      "source_url": "https://tnhspain.com/sangha/buscar-sanghas-para-practicar/",
+      "notes": "Plum Village lay sangha in Barcelona."
+    },
+    {
+      "name": "Sangha de Barcelona con Gracia",
+      "city": "Barcelona",
+      "region": "Cataluña",
+      "lineage": "Plum Village (Thich Nhat Hanh)",
+      "address": null,
+      "url": "https://tnhspain.com/",
+      "source_url": "https://tnhspain.com/sangha/buscar-sanghas-para-practicar/",
+      "notes": null
+    },
+    {
+      "name": "Sangha de l'Harmonia (Sant Pere de Ribes)",
+      "city": "Sant Pere de Ribes",
+      "region": "Cataluña",
+      "lineage": "Plum Village (Thich Nhat Hanh)",
+      "address": null,
+      "url": "https://tnhspain.com/",
+      "source_url": "https://tnhspain.com/sangha/buscar-sanghas-para-practicar/",
+      "notes": "Garraf area sangha referenced in Plum Village Spain history."
+    },
+    {
+      "name": "Sangha Karuna de l'Empordà",
+      "city": "Figueres",
+      "region": "Cataluña",
+      "lineage": "Plum Village (Thich Nhat Hanh)",
+      "address": null,
+      "url": "https://tnhspain.com/",
+      "source_url": "https://tnhspain.com/sangha/buscar-sanghas-para-practicar/",
+      "notes": null
+    },
+    {
+      "name": "Sangha Amanecer Madrid",
+      "city": "Madrid",
+      "region": "Comunidad de Madrid",
+      "lineage": "Plum Village (Thich Nhat Hanh)",
+      "address": null,
+      "url": "https://tnhspain.com/",
+      "source_url": "https://tnhspain.com/sangha/buscar-sanghas-para-practicar/",
+      "notes": "Sol-Tirso de Molina."
+    },
+    {
+      "name": "Sangha Maitri Karuna (Aravaca)",
+      "city": "Madrid",
+      "region": "Comunidad de Madrid",
+      "lineage": "Plum Village (Thich Nhat Hanh)",
+      "address": null,
+      "url": "https://tnhspain.com/",
+      "source_url": "https://tnhspain.com/sangha/buscar-sanghas-para-practicar/",
+      "notes": "Aravaca district."
+    },
+    {
+      "name": "Sangha de la Luz",
+      "city": "Granada",
+      "region": "Andalucía",
+      "lineage": "Plum Village (Thich Nhat Hanh)",
+      "address": null,
+      "url": "https://tnhspain.com/",
+      "source_url": "https://tnhspain.com/sangha/buscar-sanghas-para-practicar/",
+      "notes": null
+    },
+    {
+      "name": "Sangha Gades",
+      "city": "Cádiz",
+      "region": "Andalucía",
+      "lineage": "Plum Village (Thich Nhat Hanh)",
+      "address": null,
+      "url": "https://tnhspain.com/",
+      "source_url": "https://tnhspain.com/sangha/buscar-sanghas-para-practicar/",
+      "notes": null
+    },
+    {
+      "name": "Sangha la Barca de Buda Sevilla",
+      "city": "Sevilla",
+      "region": "Andalucía",
+      "lineage": "Plum Village (Thich Nhat Hanh)",
+      "address": null,
+      "url": "https://tnhspain.com/",
+      "source_url": "https://tnhspain.com/sangha/buscar-sanghas-para-practicar/",
+      "notes": null
+    },
+    {
+      "name": "Sangha Bambú",
+      "city": "Totalán",
+      "region": "Andalucía",
+      "lineage": "Plum Village (Thich Nhat Hanh)",
+      "address": null,
+      "url": "https://tnhspain.com/",
+      "source_url": "https://tnhspain.com/sangha/buscar-sanghas-para-practicar/",
+      "notes": "Málaga province."
+    },
+    {
+      "name": "Sangha Respira Zaragoza",
+      "city": "Zaragoza",
+      "region": "Aragón",
+      "lineage": "Plum Village (Thich Nhat Hanh)",
+      "address": null,
+      "url": "https://tnhspain.com/",
+      "source_url": "https://tnhspain.com/sangha/buscar-sanghas-para-practicar/",
+      "notes": null
+    },
+    {
+      "name": "El Camino del Medio (Asturias)",
+      "city": "Oviedo",
+      "region": "Asturias",
+      "lineage": "Plum Village (Thich Nhat Hanh)",
+      "address": null,
+      "url": "https://tnhspain.com/",
+      "source_url": "https://tnhspain.com/sangha/buscar-sanghas-para-practicar/",
+      "notes": "Regional Plum Village sangha in Asturias."
+    },
+    {
+      "name": "Sangha Nubes Blancas Mallorca",
+      "city": "Palma de Mallorca",
+      "region": "Illes Balears",
+      "lineage": "Plum Village (Thich Nhat Hanh)",
+      "address": null,
+      "url": "https://tnhspain.com/",
+      "source_url": "https://tnhspain.com/sangha/buscar-sanghas-para-practicar/",
+      "notes": null
+    },
+    {
+      "name": "Plum Village Gran Canaria Sangha",
+      "city": "Las Palmas de Gran Canaria",
+      "region": "Canarias",
+      "lineage": "Plum Village (Thich Nhat Hanh)",
+      "address": null,
+      "url": "https://tnhspain.com/",
+      "source_url": "https://tnhspain.com/sangha/buscar-sanghas-para-practicar/",
+      "notes": null
+    },
+    {
+      "name": "Sangha de Tenerife",
+      "city": "Santa Cruz de Tenerife",
+      "region": "Canarias",
+      "lineage": "Plum Village (Thich Nhat Hanh)",
+      "address": null,
+      "url": "https://tnhspain.com/",
+      "source_url": "https://tnhspain.com/sangha/buscar-sanghas-para-practicar/",
+      "notes": null
+    },
+    {
+      "name": "Sangha Eguzkilore",
+      "city": "Pamplona",
+      "region": "Navarra",
+      "lineage": "Plum Village (Thich Nhat Hanh)",
+      "address": null,
+      "url": "https://tnhspain.com/",
+      "source_url": "https://tnhspain.com/sangha/buscar-sanghas-para-practicar/",
+      "notes": "Flor de Sol; Pamplona-based."
+    },
+    {
+      "name": "Sangha Uxilkide",
+      "city": "Vitoria-Gasteiz",
+      "region": "País Vasco",
+      "lineage": "Plum Village (Thich Nhat Hanh)",
+      "address": null,
+      "url": "https://tnhspain.com/",
+      "source_url": "https://tnhspain.com/sangha/buscar-sanghas-para-practicar/",
+      "notes": null
+    },
+    {
+      "name": "Sangha Lasaibizi",
+      "city": "Basauri",
+      "region": "País Vasco",
+      "lineage": "Plum Village (Thich Nhat Hanh)",
+      "address": null,
+      "url": "https://tnhspain.com/",
+      "source_url": "https://tnhspain.com/sangha/buscar-sanghas-para-practicar/",
+      "notes": "Vizcaya."
+    },
+    {
+      "name": "Sangha del Camino Logroño",
+      "city": "Logroño",
+      "region": "La Rioja",
+      "lineage": "Plum Village (Thich Nhat Hanh)",
+      "address": null,
+      "url": "https://tnhspain.com/",
+      "source_url": "https://tnhspain.com/sangha/buscar-sanghas-para-practicar/",
+      "notes": null
+    },
+    {
+      "name": "Sangha Terra de Presenza",
+      "city": "Gondomar",
+      "region": "Galicia",
+      "lineage": "Plum Village (Thich Nhat Hanh)",
+      "address": null,
+      "url": "https://terradepresencia.org/",
+      "source_url": "https://tnhspain.com/sangha/buscar-sanghas-para-practicar/",
+      "notes": "Pontevedra province."
+    },
+    {
+      "name": "Sangha Luna Nueva Burgos",
+      "city": "Burgos",
+      "region": "Castilla y León",
+      "lineage": "Plum Village (Thich Nhat Hanh)",
+      "address": null,
+      "url": "https://tnhspain.com/",
+      "source_url": "https://tnhspain.com/sangha/buscar-sanghas-para-practicar/",
+      "notes": null
+    },
+    {
+      "name": "Sangha de Murcia",
+      "city": "Murcia",
+      "region": "Región de Murcia",
+      "lineage": "Plum Village (Thich Nhat Hanh)",
+      "address": null,
+      "url": "https://tnhspain.com/",
+      "source_url": "https://tnhspain.com/sangha/buscar-sanghas-para-practicar/",
+      "notes": null
+    },
+    {
+      "name": "Sangha Madre Tierra Castellón",
+      "city": "Onda",
+      "region": "Comunidad Valenciana",
+      "lineage": "Plum Village (Thich Nhat Hanh)",
+      "address": null,
+      "url": "https://tnhspain.com/",
+      "source_url": "https://tnhspain.com/sangha/buscar-sanghas-para-practicar/",
+      "notes": "Castellón province."
+    }
+  ]
+}

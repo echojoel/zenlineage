@@ -8,6 +8,8 @@
  * same slug upserts the row.
  */
 
+import { EUROPE_TEMPLE_SEEDS } from "./seed-temples-europe";
+
 export interface TempleSeed {
   /** Stable kebab-case slug; used as DB primary key. */
   slug: string;
@@ -88,6 +90,71 @@ export const SRC_MRO = "src_mountains_rivers";
 /** Rinzai-ji — Joshu Sasaki Roshi's network of Rinzai centres in
  * North America and Europe. */
 export const SRC_RINZAIJI = "src_rinzaiji";
+
+/** Kosen Sangha — Stéphane Kosen Thibaut's Sōtō / Deshimaru-derived
+ * network. zen-deshimaru.com is the canonical dōjō directory. */
+export const SRC_KOSEN_SANGHA = "src_kosen_sangha";
+
+/** Kanshoji — Taiun Jean-Pierre Faure's Sōtō monastery + affiliated
+ * places-of-practice directory. */
+export const SRC_KANSHOJI = "src_kanshoji";
+
+/** Zen Road — Roland Yuno Rech's AZI-affiliated dōjō network
+ * (zen-road.org). */
+export const SRC_ZEN_ROAD = "src_zen_road";
+
+/** ABZE — Association Bouddhiste Zen d'Europe; pan-European Sōtō
+ * teachers' association affiliated with the Sōtōshū. */
+export const SRC_ABZE = "src_abze";
+
+// ─── National Buddhist umbrella directories ─────────────────────────────
+/** Deutsche Buddhistische Union — DE national umbrella, lists Zen members. */
+export const SRC_DBU = "src_dbu";
+/** Boeddhistische Unie Nederland — NL national umbrella. */
+export const SRC_BUN = "src_bun";
+/** Schweizerische Buddhistische Union — CH national umbrella. */
+export const SRC_SBU = "src_sbu";
+/** Österreichische Buddhistische Religionsgesellschaft — AT statutory body. */
+export const SRC_OBR = "src_obr";
+/** Unione Buddhista Italiana — IT national umbrella. */
+export const SRC_UBI = "src_ubi";
+/** União Budista Portuguesa — PT national umbrella. */
+export const SRC_UBP = "src_ubp";
+/** Bouddhisme-France — FR umbrella with annuaire of practice centres. */
+export const SRC_BOUDDHISME_FRANCE = "src_bouddhisme_france";
+
+// ─── Country-specific Zen guides ────────────────────────────────────────
+/** zen-guide.de — public-facing DE Zen-place catalogue. */
+export const SRC_ZEN_GUIDE_DE = "src_zen_guide_de";
+
+// ─── UK-specific networks ───────────────────────────────────────────────
+/** Western Chan Fellowship — Chan/Zen UK network (Hsu Yun lineage). */
+export const SRC_WESTERN_CHAN_FELLOWSHIP = "src_western_chan_fellowship";
+/** StoneWater Zen Sangha — UK White Plum lineage (Tenshin Reb Anderson). */
+export const SRC_STONEWATER_ZEN = "src_stonewater_zen";
+/** International Zen Association UK — AZI's UK affiliate. */
+export const SRC_IZAUK = "src_izauk";
+/** The Buddhist Society — Hampstead, oldest UK Buddhist body. */
+export const SRC_BUDDHIST_SOCIETY_UK = "src_buddhist_society_uk";
+
+// ─── Country-specific monastery / network sites ─────────────────────────
+/** Felsentor / Houshinji — CH Sōtō monastery on Mount Rigi. */
+export const SRC_FELSENTOR = "src_felsentor";
+/** Puregg Zen-Kloster — AT Sanbō Zen / Kobun Chino lineage. */
+export const SRC_PUREGG = "src_puregg";
+/** Luz Serena — ES Sōtō monastery (Dokushô Villalba). */
+export const SRC_LUZ_SERENA = "src_luz_serena";
+/** Comunidad Budista Sōtō Zen España (CBSZ) — ES Sōtō umbrella. */
+export const SRC_SOTOZEN_ES = "src_sotozen_es";
+/** Kwan Um Polska (zen.pl) — large PL Korean-Zen network. */
+export const SRC_KWAN_UM_POLAND = "src_kwan_um_poland";
+
+// ─── Catch-all for the long tail of small directory citations ──────────
+/** EU Zen places research bundle — generic citation source for entries
+ * surfaced by directories not individually registered above. The
+ * `sourceExcerpt` of each citation preserves the original source URL so
+ * per-entry provenance is auditable. */
+export const SRC_EU_ZEN_RESEARCH = "src_eu_zen_research";
 
 export const SEED_TEMPLES: TempleSeed[] = [
   // ─── Japanese Sōtō ────────────────────────────────────────────────────
@@ -1987,4 +2054,6 @@ export const SEED_TEMPLES: TempleSeed[] = [
       "Antaiji (安泰寺) in Shin'onsen, northern Hyōgo Prefecture — a Sōtō Zen training monastery founded 1921 (re-located 1976), the practice home of Kōdō Sawaki Roshi and Kōshō Uchiyama Roshi.",
     url: "https://antaiji.org/",
   },
+  // ─── Europe (generated from research artifacts) ───────────────────────
+  ...EUROPE_TEMPLE_SEEDS,
 ];

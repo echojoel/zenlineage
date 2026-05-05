@@ -1,0 +1,227 @@
+{
+  "_meta": {
+    "country": "Switzerland",
+    "collectedAt": "2026-05-05",
+    "method": "Cross-referenced Sōtōshū outside-Japan directory (sotozen.com), Schweizerische Buddhistische Union (sbu.net), AZI (zen-azi.org), Kosen Sangha (zen-deshimaru.com), bouddha.ch national directory, Hanazono IRIZ archive, Kwan Um Europe, and individual sangha websites. Each entry has at minimum a primary URL and a corroborating source URL.",
+    "coverageEstimate": "~80% of publicly listed Swiss Zen sanghas across SōtōShū, AZI/Deshimaru, Kosen, Sanbō Zen, Plum Village, Kwan Um, and Kobun-lineage groups. Smaller Plum Village lay sanghas (which proliferate informally) are under-represented.",
+    "knownGaps": [
+      "Most Plum Village lay sanghas are informal Inter-Sangha groups not individually directoried",
+      "Some AZI affiliated dojos (Conthey/Valais) may have changed location",
+      "Kanzeon Sangha appears not to have a Swiss outpost (per kanzeon.de affiliate map)",
+      "Yun Hwa Dharma Sah (Bern/Zürich/Schwarzenburg/Luzern) excluded as the SBU classifies them Mahāyāna and the lineage is not Zen-canonical",
+      "Bodhidharma Chan-Gemeinschaft (Linji) noted in Switzerland but no current public address located"
+    ]
+  },
+  "places": [
+    {
+      "name": "Bendōji",
+      "city": "Bern",
+      "region": "Bern",
+      "lineage": "Sōtō (Sōtōshū / Soto Zen Schweizerische Vereinigung)",
+      "address": "Hochfeldstrasse 113, 3012 Bern",
+      "url": "https://www.sotozen.ch/",
+      "source_url": "https://www.sotozen.com/eng/temples/outside_jp/Switzerland/index.html",
+      "notes": "Listed as the official Sōtōshū-registered temple in Switzerland."
+    },
+    {
+      "name": "Muijōji – Zen Dōjō Zürich",
+      "city": "Zürich",
+      "region": "Zürich",
+      "lineage": "Sōtō / Deshimaru (AZI)",
+      "address": "Rindermarkt 26, 8001 Zürich",
+      "url": "https://zen.ch/",
+      "source_url": "https://www.sotozen.com/eng/temples/outside_jp/Switzerland/index.html",
+      "notes": "Founded 1975 by Taisen Deshimaru; 'Muijō' = Fortress of Non-Fear. Also listed by Sōtōshū outside-Japan directory."
+    },
+    {
+      "name": "Mushin Zen Dōjō Zürich",
+      "city": "Zürich",
+      "region": "Zürich",
+      "lineage": "Sōtō / Deshimaru (AZI)",
+      "address": "Bremgartnerstrasse 18, 8003 Zürich",
+      "url": "https://zen-zurich.ch/",
+      "source_url": "https://zen-zurich.ch/",
+      "notes": "Affiliated with Association Zen Internationale; Dōgen-Deshimaru transmission line."
+    },
+    {
+      "name": "Dōjō Zen de Lausanne",
+      "city": "Lausanne",
+      "region": "Vaud",
+      "lineage": "Sōtō / Deshimaru (AZI)",
+      "address": "Galerie Saint-François, entrée C, 1003 Lausanne",
+      "url": "http://www.zenlausanne.ch/",
+      "source_url": "https://www.sotozen.com/eng/temples/outside_jp/Switzerland/index.html",
+      "notes": "Member of AZI since founding in 1980; also SBU member."
+    },
+    {
+      "name": "Dōjō Zen Sansui",
+      "city": "Clarens (Montreux)",
+      "region": "Vaud",
+      "lineage": "Sōtō / Deshimaru (AZI)",
+      "address": "Rue du Port 4, 1815 Clarens",
+      "url": "https://www.dojozensansui.ch/",
+      "source_url": "https://abzen.eu/abze_listings/dojo-zen-sansui-clarens/",
+      "notes": "Opened 1992 in Vevey, moved to Clarens; directed by Chantal Baiettini (ordained by Roland Yuno Rech)."
+    },
+    {
+      "name": "Dōjō Zen de Genève (AZI / Groupe de Zazen)",
+      "city": "Genève",
+      "region": "Genève",
+      "lineage": "Sōtō / Deshimaru (AZI)",
+      "address": "Rue Jean-Violette 12, 5e étage, 1205 Genève",
+      "url": "https://www.zazen.ch/",
+      "source_url": "http://www.bouddha.ch/adresses_suisse.htm",
+      "notes": "AZI affiliate; SBU member."
+    },
+    {
+      "name": "Prieuré Sōtō Zen du Sermon sur la Montagne",
+      "city": "Genève",
+      "region": "Genève",
+      "lineage": "Sōtō Zen",
+      "address": "15 quai du Cheval Blanc, 1227 Carouge/Genève",
+      "url": "https://www.zen-geneve.ch/",
+      "source_url": "http://www.bouddha.ch/adresses_suisse.htm",
+      "notes": "Independent Sōtō priory."
+    },
+    {
+      "name": "Ryūkai Dōjō Zen (Kosen Sangha Genève)",
+      "city": "Genève",
+      "region": "Genève",
+      "lineage": "Sōtō / Deshimaru (Kosen Sangha)",
+      "address": "Av. Calas 16, 1206 Genève",
+      "url": "https://zen-deshimaru.ch/",
+      "source_url": "http://www.bouddha.ch/adresses_suisse.htm",
+      "notes": "Kosen Sangha (Stéphane Kosen Thibaut) lineage; rooted in Deshimaru transmission."
+    },
+    {
+      "name": "Temple Zen Suimei Shōja",
+      "city": "Genève",
+      "region": "Genève",
+      "lineage": "Sōtō Zen (Kōsetsu-ji network)",
+      "address": "Bât. 43, route des Acacias 43, 1227 Genève",
+      "url": "https://zen-soto.ch/",
+      "source_url": "http://www.bouddha.ch/adresses_suisse.htm",
+      "notes": "Operated under the Kōsetsu-ji monastic federation."
+    },
+    {
+      "name": "Kōbokudō – Centre Zen de La Chaux-de-Fonds",
+      "city": "La Chaux-de-Fonds",
+      "region": "Neuchâtel",
+      "lineage": "Sōtō Zen (Kōsetsu-ji)",
+      "address": "35 rue Daniel-JeanRichard, 2300 La Chaux-de-Fonds",
+      "url": "https://zen-soto.ch/",
+      "source_url": "https://www.sotozen.com/eng/temples/outside_jp/Switzerland/index.html",
+      "notes": "Urban centre attached to Kōsetsu-ji monastery; SBU member."
+    },
+    {
+      "name": "Kōsetsu-ji – Monastère Bouddhiste Sōtō Zen",
+      "city": "Le Cerneux-Péquignot",
+      "region": "Neuchâtel",
+      "lineage": "Sōtō Zen",
+      "address": "Betod 72, 2414 Le Cerneux-Péquignot",
+      "url": "https://zen-soto.ch/",
+      "source_url": "https://www.sotozen.com/eng/temples/outside_jp/Switzerland/index.html",
+      "notes": "Residential Sōtō monastery in the Jura; flagship of zen-soto.ch network."
+    },
+    {
+      "name": "Kōsetsu-ji – Zazen-Gruppe Freiburg",
+      "city": "Fribourg",
+      "region": "Fribourg",
+      "lineage": "Sōtō Zen (Kōsetsu-ji)",
+      "address": null,
+      "url": "https://zen-soto.ch/",
+      "source_url": "https://www.sbu.net/mitglieder/",
+      "notes": "Satellite zazen group of Kōsetsu-ji monastery; SBU member."
+    },
+    {
+      "name": "Groupe de Zazen d'Yverdon",
+      "city": "Yverdon-les-Bains",
+      "region": "Vaud",
+      "lineage": "Sōtō Zen (Kōsetsu-ji network)",
+      "address": "Quai de la Thièle 3, 2400 Yverdon-les-Bains",
+      "url": "https://zen-soto.ch/",
+      "source_url": "http://www.bouddha.ch/adresses_suisse.htm",
+      "notes": "Affiliated to the zen-soto.ch / Kōsetsu-ji federation."
+    },
+    {
+      "name": "Zen Dōjō Mokushinzan",
+      "city": "Basel",
+      "region": "Basel-Stadt",
+      "lineage": "Sōtō / Deshimaru (AZI)",
+      "address": null,
+      "url": "https://www.sbu.net/mitglieder/zen-dojo-mokushinzan",
+      "source_url": "https://www.sbu.net/mitglieder/",
+      "notes": "Basel zazen group; SBU member."
+    },
+    {
+      "name": "Groupe Zen de Conthey (Dōjō Zen Valais)",
+      "city": "Conthey",
+      "region": "Valais",
+      "lineage": "Sōtō / Deshimaru (AZI)",
+      "address": "Route des Rottes 26, 1964 Conthey",
+      "url": "https://www.dojo-zen.ch/",
+      "source_url": "http://www.bouddha.ch/adresses_suisse.htm",
+      "notes": "Valais regional dōjō."
+    },
+    {
+      "name": "Dōjō Zen de Savagnier",
+      "city": "Savagnier",
+      "region": "Neuchâtel",
+      "lineage": "Rinzai",
+      "address": "Rue des Forgerons 1, 2065 Savagnier",
+      "url": "http://www.bouddha.ch/adresses_suisse.htm",
+      "source_url": "http://www.bouddha.ch/adresses_suisse.htm",
+      "notes": "One of the rare Rinzai-tradition dōjōs in Switzerland; listed in bouddha.ch national directory."
+    },
+    {
+      "name": "Stiftung Felsentor / Hōshinji",
+      "city": "Weggis (Mt. Rigi)",
+      "region": "Lucerne",
+      "lineage": "Sōtō / Kobun Chino lineage",
+      "address": "Romiti-Felsentor, 6354 Weggis",
+      "url": "https://www.felsentor.ch/",
+      "source_url": "https://www.felsentor.ch/",
+      "notes": "Founded by Vanja Palmers in lineage of Kobun Chino Otogawa Roshi; mountainside retreat centre."
+    },
+    {
+      "name": "Zendo am Fluss",
+      "city": "Luzern",
+      "region": "Lucerne",
+      "lineage": "Sōtō / Kobun Chino lineage (Kobun–David Steindl-Rast–Vanja Palmers)",
+      "address": "St. Karli-Quai 7, 6004 Luzern",
+      "url": "https://www.zendoamfluss.ch/",
+      "source_url": "https://www.zendoamfluss.ch/",
+      "notes": "Urban sister-zendo of Felsentor; founded with Vanja Palmers."
+    },
+    {
+      "name": "Zen-Zentrum im Grünen Ring",
+      "city": "St. Gallen",
+      "region": "St. Gallen",
+      "lineage": "Zen Peacemaker Order (White Plum lineage)",
+      "address": null,
+      "url": "https://zen-imgruenenring.ch/",
+      "source_url": "https://zen-imgruenenring.ch/home",
+      "notes": "Identifies with Zen Peacemakers (Bernie Glassman / White Plum descent)."
+    },
+    {
+      "name": "Kwan Um Zen Schweiz – Head Temple Zürich",
+      "city": "Zürich",
+      "region": "Zürich",
+      "lineage": "Kwan Um (Korean Sŏn / Seung Sahn)",
+      "address": "Forchstrasse 72, 8008 Zürich",
+      "url": "https://www.kwanumeurope.org/",
+      "source_url": "https://www.buddhanet.info/wbd/country.php?country_id=75",
+      "notes": "Listed as Kwan Um Switzerland head temple; guiding teacher historically Zen Master Wu Bong."
+    },
+    {
+      "name": "Plum Village Swiss Inter-Sangha",
+      "city": "Lausanne (national network)",
+      "region": "Vaud",
+      "lineage": "Plum Village / Vietnamese Thiền (Thich Nhat Hanh)",
+      "address": null,
+      "url": "https://www.facebook.com/PlumVillageSwissInterSangha/",
+      "source_url": "https://plumvillage.org/community/international-sangha-directory",
+      "notes": "Umbrella for Plum Village lay sanghas across Switzerland; coordinates national days of mindfulness."
+    }
+  ]
+}

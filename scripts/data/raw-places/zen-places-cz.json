@@ -1,0 +1,34 @@
+{
+  "_meta": {
+    "country": "Czech Republic",
+    "collectedAt": "2026-05-05",
+    "method": "Claude Code research agent (general-purpose) — multi-network web crawl across Kwan Um Czech Republic (kwanumzen.cz, kwanumeurope.org), Buddhovo sezení / Sandō Kaisen network (zenkaisen.cz), Dojo V Proudu (zazen.cz), Sōtō Zen ČR (sotozen.cz), Plum Village Czech Republic, Sanbō Zen Praha references, and Centrum Lotus directory.",
+    "coverageEstimate": "~70-80% of an estimated 12-18 active Zen practice places in Czech Republic. Strong on Kwan Um and Kaisen networks. Weaker on small Sōtō zazenkais and any Sanbō Zen Praha branch (sanbo.cz unreachable at collection).",
+    "knownGaps": [
+      "sanbo.cz returned ECONNREFUSED — Sanbō Zen Praha presence cannot be independently verified.",
+      "iriz.hanazono.ac.jp (Japanese Zen centers worldwide directory) returned cert error — historical CZ list not cross-checked.",
+      "Plum Village Czech Republic Facebook page is referenced but no formal directory of Czech sanghas was located.",
+      "Possible additional Soto Zen ČR (Sōtōshū-affiliated) groups beyond Kaisen lineage not enumerated."
+    ]
+  },
+  "places": [
+    { "name": "Dojo V Proudu (Soto Zen Praha)", "city": "Praha", "region": "Hlavní město Praha", "lineage": "Sōtō (Japanese)", "address": "Lotus Center, Dlouhá 2, 110 00 Praha 1 (4. patro)", "url": "http://www.zazen.cz/", "source_url": "http://www.zazen.cz/en.html", "notes": "Open Sōtō Zen group practicing zazen Mon/Tue/Thu at Lotus Center; info@zazen.cz, +420 774 223 606." },
+    { "name": "Myogenji (Centrum Praha — Sandō Kaisen)", "city": "Praha", "region": "Hlavní město Praha", "lineage": "Sōtō (Sandō Kaisen / Deshimaru lineage)", "address": "Šrobárova 45, Praha 3 – Vinohrady", "url": "https://www.zenkaisen.cz/en/centres/myogenji-prague/", "source_url": "https://www.zenkaisen.cz/en/centres/", "notes": "Buddha sitting Mondays 7 p.m.; part of Buddhovo sezení z. s. (Master Sandō Kaisen network)." },
+    { "name": "Myoji (Centrum Brno — Sandō Kaisen)", "city": "Brno", "region": "Jihomoravský kraj", "lineage": "Sōtō (Kaisen / Deshimaru)", "address": null, "url": "https://www.zenkaisen.cz/en/centres/myoji-brno/", "source_url": "https://www.zenkaisen.cz/en/centres/", "notes": "Brno Kaisen-lineage center." },
+    { "name": "Zanmaiji (Centrum Ostrava — Sandō Kaisen)", "city": "Ostrava", "region": "Moravskoslezský kraj", "lineage": "Sōtō (Kaisen / Deshimaru)", "address": "Ivana Sekaniny 1803/13, 708 00 Ostrava", "url": "https://www.zenkaisen.cz/en/centres/zanmaiji-ostrava/", "source_url": "https://www.zenkaisen.cz/en/centres/", "notes": "Ostrava Kaisen-lineage center." },
+    { "name": "Mushinji (Centrum Plzeň — Sandō Kaisen)", "city": "Plzeň", "region": "Plzeňský kraj", "lineage": "Sōtō (Kaisen / Deshimaru)", "address": "Tylova 14, 301 25 Plzeň", "url": "https://www.zenkaisen.cz/en/centres/mushinji-pilsen/", "source_url": "https://www.zenkaisen.cz/en/centres/", "notes": "Teacher Sei Yu Debailly; Plzeň Kaisen dojo." },
+    { "name": "Kansorin (Centrum Litvínov — Sandō Kaisen)", "city": "Litvínov", "region": "Ústecký kraj", "lineage": "Sōtō (Kaisen / Deshimaru)", "address": null, "url": "https://www.zenkaisen.cz/en/centres/kansorin-litvinov/", "source_url": "https://www.zenkaisen.cz/en/centres/", "notes": "Litvínov Kaisen-lineage center." },
+    { "name": "Centrum Kladno (Sandō Kaisen)", "city": "Kladno", "region": "Středočeský kraj", "lineage": "Sōtō (Kaisen / Deshimaru)", "address": null, "url": "https://www.zenkaisen.cz/en/centres/centre-kladno/", "source_url": "https://www.zenkaisen.cz/en/centres/", "notes": "Kladno group, Buddhovo sezení z. s." },
+    { "name": "Centrum Oko Lesa (Sandō Kaisen — retreat)", "city": "(rural)", "region": "Czech Republic", "lineage": "Sōtō (Kaisen / Deshimaru)", "address": null, "url": "https://www.zenkaisen.cz/centra/oko-lesa/", "source_url": "https://www.zenkaisen.cz/en/centres/", "notes": "Buddhovo sezení retreat center; specific city not given on directory page." },
+    { "name": "Pražský Zenový Centrum Kvan Um (Praha)", "city": "Praha", "region": "Hlavní město Praha", "lineage": "Kwan Um (Korean Sŏn)", "address": "Avati, Kobrova 3354/5, Praha 5 – Smíchov", "url": "https://www.kwanumzen.cz/praha", "source_url": "https://www.kwanumeurope.org/locations/prague-zen-center/", "notes": "Hlavní český Kwan Um center; kwanumpraha@gmail.com; +420 602 796 371 (L. Kohoutová)." },
+    { "name": "Kwan Um Brno", "city": "Brno", "region": "Jihomoravský kraj", "lineage": "Kwan Um", "address": null, "url": "https://www.kwanumzen.cz/brno", "source_url": "https://www.kwanumzen.cz/praha", "notes": "Czech Kwan Um group in Brno." },
+    { "name": "Kwan Um Děčín", "city": "Děčín", "region": "Ústecký kraj", "lineage": "Kwan Um", "address": null, "url": "https://www.kwanumzen.cz/decin", "source_url": "https://www.kwanumzen.cz/praha", "notes": "Děčín Kwan Um sitting group." },
+    { "name": "Kwan Um Hodonín", "city": "Hodonín", "region": "Jihomoravský kraj", "lineage": "Kwan Um", "address": null, "url": "https://www.kwanumzen.cz/hodonin", "source_url": "https://www.kwanumzen.cz/praha", "notes": "Hodonín Kwan Um group." },
+    { "name": "Kwan Um Liberec", "city": "Liberec", "region": "Liberecký kraj", "lineage": "Kwan Um", "address": null, "url": "https://www.kwanumzen.cz/liberec", "source_url": "https://www.kwanumzen.cz/praha", "notes": "Liberec Kwan Um group." },
+    { "name": "Kwan Um Olomouc", "city": "Olomouc", "region": "Olomoucký kraj", "lineage": "Kwan Um", "address": null, "url": "https://www.kwanumzen.cz/olomouc", "source_url": "https://www.kwanumzen.cz/praha", "notes": "Olomouc Kwan Um group." },
+    { "name": "Kwan Um Tábor", "city": "Tábor", "region": "Jihočeský kraj", "lineage": "Kwan Um", "address": null, "url": "https://www.kwanumzen.cz/tabor", "source_url": "https://www.kwanumzen.cz/praha", "notes": "Tábor Kwan Um group." },
+    { "name": "Kwan Um Vrážné (Centrum)", "city": "Vrážné", "region": "Pardubický kraj", "lineage": "Kwan Um", "address": "Vrážné 3, 569 43", "url": "https://www.kwanumzen.cz/vrazne", "source_url": "https://www.kwanumeurope.org/locations/", "notes": "Rural Kwan Um centre / retreat hub for Czech sangha." },
+    { "name": "Kwan Um Zlín", "city": "Zlín", "region": "Zlínský kraj", "lineage": "Kwan Um", "address": null, "url": "https://www.kwanumzen.cz/zlin", "source_url": "https://www.kwanumzen.cz/praha", "notes": "Zlín Kwan Um group." },
+    { "name": "Plum Village Czech Republic (Praha)", "city": "Praha", "region": "Hlavní město Praha", "lineage": "Vietnamese Thiền / Plum Village (Thich Nhat Hanh)", "address": null, "url": "https://www.facebook.com/PlumVillageCzechRepublic/", "source_url": "https://www.facebook.com/PlumVillageCzechRepublic/", "notes": "Plum Village lay sangha based in Prague; only public presence is the FB page." }
+  ]
+}

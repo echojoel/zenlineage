@@ -1,0 +1,77 @@
+{
+  "_meta": {
+    "country": "Finland",
+    "collectedAt": "2026-05-05",
+    "method": "Web research across Helsinki Zen Center (helsinki.zazen.fi), Sanneji Zen Temple, Tampere Zen Center, Sydänmieli Zen, Buddhalainen Liitto references, Ordinary Mind Zendo Europe",
+    "coverageEstimate": "~85% of active organized Zen groups in Finland",
+    "knownGaps": [
+      "Helsinki Zenshala (Plum Village) referenced in prompt - 'Zenshala' did not appear in searches; no Finnish Plum Village sangha located online with that name",
+      "Kwan Um School: no Finnish center listed in Kwan Um Europe directory",
+      "Sanbo Zen Suomi: not located as a distinct Finnish entity",
+      "Soto Zen Suomi (sotozen.fi) referenced in prompt - domain not found via search results; possibly inactive",
+      "Kuopio zen group reportedly led by Sensei Mitra Virtaperko but no standalone web presence located"
+    ]
+  },
+  "places": [
+    {
+      "name": "Helsinki Zen Center",
+      "city": "Helsinki",
+      "region": "Uusimaa",
+      "lineage": "Cloud-Water Sangha (Kapleau / Kjolhede / Yasutani-Harada lineage)",
+      "address": "Pääskylänrinne 3, sisäpiha, 00500 Helsinki",
+      "url": "https://helsinki.zazen.fi/",
+      "source_url": "https://helsinki.zazen.fi/english/",
+      "notes": "Weekly zazen in Helsinki since 1997; teacher Sangen Salo Sensei (resides at Sanneji); Yasutani-Kapleau line via Zenbuddhistiska Samfundet network"
+    },
+    {
+      "name": "Sanneji Zen Temple",
+      "city": "Karjaa (Karis)",
+      "region": "Uusimaa",
+      "lineage": "Cloud-Water Sangha (Kapleau / Kjolhede / Yasutani-Harada lineage)",
+      "address": null,
+      "url": "https://sanneji.zazen.fi/en/",
+      "source_url": "https://sanneji.zazen.fi/en/visiting-sanneji/",
+      "notes": "Residential Zen temple in Karjaa; Sangen Salo Sensei resides here; full-time practice and sesshin retreats; maintained by Sanneji Zen ry"
+    },
+    {
+      "name": "Sanneji Zendo Turku",
+      "city": "Turku",
+      "region": "Varsinais-Suomi",
+      "lineage": "Cloud-Water Sangha (Kapleau / Kjolhede)",
+      "address": null,
+      "url": "https://turku.zazen.fi/",
+      "source_url": "https://helsinki.zazen.fi/english/",
+      "notes": "Affiliated zendo of Sanneji / Helsinki Zen Center network"
+    },
+    {
+      "name": "Tampere Zen Center",
+      "city": "Tampere",
+      "region": "Pirkanmaa",
+      "lineage": "Yasutani-Kapleau / Cloud-Water Sangha",
+      "address": null,
+      "url": "https://tzc.fi/",
+      "source_url": "https://uskonnot.fi/yhteiso/tampere-zen-ry/",
+      "notes": "Tampere Zen Center ry, registered association founded 2007; ~30 members (2024); led by Sensei Mitra Virtaperko (sensei since 2021 in Yasutani-Kapleau line); zazen 3-4x/week"
+    },
+    {
+      "name": "Sydänmieli Zen Helsinki",
+      "city": "Helsinki",
+      "region": "Uusimaa",
+      "lineage": "Yasutani-Kapleau / Cloud-Water Sangha",
+      "address": "Albertinkatu, Punavuori, Helsinki",
+      "url": "https://sydanmieli.tzc.fi/",
+      "source_url": "https://sydanmieli.tzc.fi/",
+      "notes": "Connected to Tampere Zen Center; led by Sensei Mitra Virtaperko; regular meditation, weekend retreats, sesshin"
+    },
+    {
+      "name": "Kajo Zendo Turku",
+      "city": "Turku",
+      "region": "Varsinais-Suomi",
+      "lineage": "Zen (independent practice group)",
+      "address": null,
+      "url": "https://kajozendo.wordpress.com/",
+      "source_url": "https://kajozendo.wordpress.com/in-english/",
+      "notes": "Zen practice group in Turku"
+    }
+  ]
+}

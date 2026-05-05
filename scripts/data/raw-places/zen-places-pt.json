@@ -1,0 +1,168 @@
+{
+  "_meta": {
+    "country": "Portugal",
+    "collectedAt": "2026-05-05",
+    "method": "Cross-referenced União Budista Portuguesa (uniaobudista.pt) member directory, AZI dojo directory (zen-azi.org), Sōtōshū Europe directory (sotozen.com), Olhar Budista sangha index, plus organisation websites for the Zan Mai Zen network and the Wild Flower Zen / Sangha Flor Silvestre. Each entry verified against an official lineage organisation or the centre's own site.",
+    "coverageEstimate": "High (~90%) for organised Zen sanghas with a website. Likely complete for AZI/Deshimaru, Zan Mai Zen, Sōtōshū-registered, and Wild Flower Zen networks. Plum Village PT representation likely undercounted (informal weekly home sanghas not indexed). No active Rinzai, Sanbō Zen, Kwan Um, or Ōbaku presence located.",
+    "knownGaps": [
+      "Plum Village informal home sanghas (Lisboa, Porto, Coimbra) not all listed on plumvillage.org directory",
+      "No Kwan Um Zen presence found in Portugal as of 2026",
+      "No active Rinzai or Sanbō Zen International groups found",
+      "No Ōbaku presence in Portugal",
+      "Wild Flower Zen Coimbra group (Avenida Antero de Quental 265) and Montemor-o-Novo AZI group both have weekly practice but no standalone site — included as places",
+      "Some Zan Mai Zen sub-dojos (Pinhal Novo, Mértola) exist but specific street addresses not published"
+    ]
+  },
+  "places": [
+    {
+      "name": "Centro Zen de Lisboa — Ryumonji (Dojo Zen de Lisboa)",
+      "city": "Lisboa",
+      "region": "Lisboa",
+      "lineage": "Sōtō / Deshimaru (AZI)",
+      "address": "Rua Luciano Cordeiro 49, cv, 1150-212 Lisboa",
+      "url": "https://dojozenlisboa.com/",
+      "source_url": "https://www.sotozen.com/eng/temples/outside_jp/Portugal/index.html",
+      "notes": "Founded 1997. Responsible: Rev. Yves Shoshin Crettaz. Registered with Sōtōshū Europe and AZI; UBP member."
+    },
+    {
+      "name": "Grupo Zen do Porto",
+      "city": "Senhora da Hora (Matosinhos)",
+      "region": "Porto",
+      "lineage": "Sōtō / Deshimaru (AZI)",
+      "address": "Centro Cultural Senhora da Hora, Avenida Fabril do Norte, 4460-312 Senhora da Hora",
+      "url": "https://www.grupozenporto.org/",
+      "source_url": "https://www.zen-azi.org/en/node/1429",
+      "notes": "AZI dojo group, oriented by Dojo Zen de Lisboa. Saturday zazen 10h50."
+    },
+    {
+      "name": "Grupo Zen de Aveiro",
+      "city": "Aveiro",
+      "region": "Aveiro",
+      "lineage": "Sōtō / Deshimaru (AZI)",
+      "address": "Rua Marques Gomes 2, Edifício Vera Cruz, 1.º andar, fração I, 3800-221 Aveiro",
+      "url": "https://www.grupozenaveiro.org/",
+      "source_url": "https://uniaobudista.pt/membros/grupos-em-portugal",
+      "notes": "Oriented by Dojo Zen de Lisboa; UBP member."
+    },
+    {
+      "name": "Grupo Zen de Montemor-o-Novo",
+      "city": "Montemor-o-Novo",
+      "region": "Évora",
+      "lineage": "Sōtō / Deshimaru (AZI)",
+      "address": "Travessa das Pedrosas 10, 7050-286 Montemor-o-Novo",
+      "url": "https://uniaobudista.pt/membros/grupos-em-portugal",
+      "source_url": "https://uniaobudista.pt/membros/grupos-em-portugal",
+      "notes": "Affiliated with Dojo Zen de Lisboa / AZI; UBP member. No standalone website — UBP directory is canonical listing."
+    },
+    {
+      "name": "Zen Dojo Tai Ku An",
+      "city": "Barão de São João (Lagos)",
+      "region": "Faro (Algarve)",
+      "lineage": "Sōtō / Deshimaru (AZI)",
+      "address": "Barão de São João, Lagos (purpose-built dojo, 2005)",
+      "url": "https://zendojotaikuan.org/",
+      "source_url": "https://www.zendojotaikuan.org/about-us/dojo-history/",
+      "notes": "Founded 1988 by Betty Pujol and Carl Zimmerling, both disciples of Taisen Deshimaru Roshi. Practice in Barão (Tue/Thu) and Lagos (Wed at Espaço Ahimsa)."
+    },
+    {
+      "name": "Dojo Zen Bashô-An (ZaZen Setúbal)",
+      "city": "Setúbal",
+      "region": "Setúbal",
+      "lineage": "Sōtō / Deshimaru (via Master Pierre Soko Leroux, Barcelona)",
+      "address": "Rua Fran Pacheco 146, Setúbal",
+      "url": "https://zanmaizen.org/dojo-zen-setubal/",
+      "source_url": "https://zanmaizen.org/",
+      "notes": "Hombu-dojo of the Zan Mai Zen network. Teacher: Manuel Toei Simões."
+    },
+    {
+      "name": "ZaZen Montijo (Zendō)",
+      "city": "Montijo",
+      "region": "Setúbal",
+      "lineage": "Sōtō / Deshimaru (Zan Mai Zen network)",
+      "address": null,
+      "url": "https://www.zazen-montijo.pt/",
+      "source_url": "https://olharbudista.com/recursos/sanghas-grupos-centros/",
+      "notes": "Founded 2020 by Manuel Toei Simões. Part of Zan Mai Zen."
+    },
+    {
+      "name": "Dojo da Via Autêntica (Dojo Zen da Caparica)",
+      "city": "Corroios / Vale de Milhaços",
+      "region": "Setúbal",
+      "lineage": "Sōtō / Deshimaru (Zan Mai Zen network)",
+      "address": "Quinta do Albino 58, Vale de Milhaços, Corroios",
+      "url": "https://zanmaizen.org/dojo-zen-caparica/",
+      "source_url": "https://zanmaizen.org/",
+      "notes": "Founded 2024. Part of Zan Mai Zen network."
+    },
+    {
+      "name": "Dojo Zen Pinhal Novo",
+      "city": "Pinhal Novo (Palmela)",
+      "region": "Setúbal",
+      "lineage": "Sōtō / Deshimaru (Zan Mai Zen network)",
+      "address": null,
+      "url": "https://zanmaizen.org/",
+      "source_url": "https://zanmaizen.org/",
+      "notes": "Founded 2023 within Zan Mai Zen. Teacher: Manuel Toei Simões."
+    },
+    {
+      "name": "Dojo Zen de Mértola",
+      "city": "Mértola",
+      "region": "Beja",
+      "lineage": "Sōtō / Deshimaru (Zan Mai Zen network)",
+      "address": null,
+      "url": "https://zanmaizen.org/",
+      "source_url": "https://zanmaizen.org/",
+      "notes": "Founded 2025. Part of Zan Mai Zen network."
+    },
+    {
+      "name": "Zan Mai Zen — Dojo Zen da Perfeita Tranquilidade (sede)",
+      "city": "Vendas Novas (Piçarras)",
+      "region": "Évora",
+      "lineage": "Sōtō / Deshimaru (Zan Mai Zen network)",
+      "address": "Piçarras, Vendas Novas",
+      "url": "https://zanmaizen.org/",
+      "source_url": "https://zanmaizen.org/",
+      "notes": "Headquarters of the Zan Mai Zen association. Teacher: Manuel Toei Simões, ordained 2012 by Master Pierre Soko Leroux."
+    },
+    {
+      "name": "Sangha Zen Flor Silvestre — Lisboa (Wild Flower Zen)",
+      "city": "Lisboa",
+      "region": "Lisboa",
+      "lineage": "Sōtō (White Plum / Maezumi via Genpo Roshi → Catherine Genno Pagès → Amy Hollowell Roshi)",
+      "address": null,
+      "url": "https://sanghazenpt.org/",
+      "source_url": "https://uniaobudista.pt/membros/grupos-em-portugal",
+      "notes": "Portuguese branch (founded 2012) of Wild Flower Zen Sangha (France, 2004). Spiritual director: Amy Hollowell Roshi. UBP member; weekly practice currently online plus three annual in-person retreats in Portugal."
+    },
+    {
+      "name": "Wild Flower Zen — Coimbra group",
+      "city": "Coimbra",
+      "region": "Coimbra",
+      "lineage": "Sōtō (White Plum / Maezumi → Hollowell)",
+      "address": "Avenida Rua Antero de Quental 265, sala 901, Coimbra",
+      "url": "https://sanghazenpt.org/",
+      "source_url": "https://olharbudista.com/recursos/sanghas-grupos-centros/",
+      "notes": "Local Coimbra practice group of Sangha Zen Flor Silvestre; Thursday zazen 19:30–20:30. Annual retreats hosted at Instituto Secular Servas do Apostolado, Coimbra."
+    },
+    {
+      "name": "Plum Village Porto Sangha",
+      "city": "Matosinhos",
+      "region": "Porto",
+      "lineage": "Plum Village (Thiền — Thich Nhat Hanh)",
+      "address": null,
+      "url": "https://plumvillageporto.org/",
+      "source_url": "https://plumvillage.org/community/sanghas",
+      "notes": "Lay sangha in Thich Nhat Hanh tradition; weekly mindfulness meditation in Matosinhos."
+    },
+    {
+      "name": "Almond Blossom Sangha (Sangha Flor de Amêndoeira)",
+      "city": "Algarve (rotating)",
+      "region": "Faro (Algarve)",
+      "lineage": "Plum Village (Thiền — Thich Nhat Hanh)",
+      "address": null,
+      "url": "https://algarvesangha.wordpress.com/",
+      "source_url": "https://olharbudista.com/recursos/sanghas-grupos-centros/",
+      "notes": "Monthly Mindfulness Day in the Algarve in Plum Village tradition; English and Portuguese."
+    }
+  ]
+}

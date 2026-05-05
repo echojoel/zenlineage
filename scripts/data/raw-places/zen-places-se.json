@@ -1,0 +1,226 @@
+{
+  "_meta": {
+    "country": "Sweden",
+    "collectedAt": "2026-05-05",
+    "method": "Web research across Zenbuddhistiska Samfundet (zazen.se), Plum Village Sverige, AZI directories, Sanbo Zen Sweden, Zen Peacemakers, individual center sites",
+    "coverageEstimate": "~85-90% of organized Zen centers; smaller informal sitting groups likely undercounted",
+    "knownGaps": [
+      "Some Plum Village 'Wake Up' style sanghas have only Facebook presence; durability uncertain",
+      "Sanbo Zen Sverige presence: Gundula Meyer Roshi guides a Swedish zendo per Sanbo Zen International, but a distinct standalone Swedish Sanbo Zen site/URL was not located",
+      "Kwan Um School: no Swedish center listed in Kwan Um Europe directory",
+      "Solrossanghan and Ljungsanghan Plum Village groups have no published city"
+    ]
+  },
+  "places": [
+    {
+      "name": "Zengården",
+      "city": "Finnåker (near Arboga)",
+      "region": "Västmanland",
+      "lineage": "Sanbo / Cloud-Water Sangha (Kapleau / Bodhin Kjolhede / Yasutani-Harada lineage)",
+      "address": "Finnåker, near Arboga",
+      "url": "https://zentraining.org/",
+      "source_url": "https://www.zazen.se/aboutus_en.php",
+      "notes": "Head temple and residential retreat center of Zenbuddhistiska Samfundet; full-time training year-round since 1995; teachers Sante Poromaa Roshi and Kanja Odland Roshi"
+    },
+    {
+      "name": "Stockholm Zen Center",
+      "city": "Stockholm",
+      "region": "Stockholms län",
+      "lineage": "Cloud-Water Sangha (Kapleau / Kjolhede)",
+      "address": "Södermalm, Stockholm",
+      "url": "http://stockholmzencenter.se/",
+      "source_url": "https://www.zazen.se/aboutus_en.php",
+      "notes": "City temple of Zenbuddhistiska Samfundet on Södermalm"
+    },
+    {
+      "name": "Göteborg Zen Center",
+      "city": "Göteborg",
+      "region": "Västra Götaland",
+      "lineage": "Cloud-Water Sangha (Kapleau / Kjolhede)",
+      "address": "Masthuggsterrassen 4 B, Göteborg",
+      "url": "https://www.goteborgzencenter.se/",
+      "source_url": "https://www.zazen.se/aboutus_en.php",
+      "notes": "City temple of Zenbuddhistiska Samfundet; teacher Dharman Ödman-sensei (appointed 2019)"
+    },
+    {
+      "name": "Lund Zen Center",
+      "city": "Lund",
+      "region": "Skåne",
+      "lineage": "Cloud-Water Sangha (Kapleau / Kjolhede)",
+      "address": "Stora Gråbrödersgatan, 222 22 Lund",
+      "url": "https://www.lundzencenter.se/",
+      "source_url": "https://www.zazen.se/aboutus_en.php",
+      "notes": "City temple of Zenbuddhistiska Samfundet"
+    },
+    {
+      "name": "Umeå Zengrupp",
+      "city": "Umeå",
+      "region": "Västerbotten",
+      "lineage": "Cloud-Water Sangha (Kapleau / Kjolhede)",
+      "address": null,
+      "url": "https://www.zengu.se/",
+      "source_url": "https://www.zazen.se/aboutus_en.php",
+      "notes": "Affiliated sitting group of Zenbuddhistiska Samfundet"
+    },
+    {
+      "name": "Uppsala Zengrupp",
+      "city": "Uppsala",
+      "region": "Uppsala län",
+      "lineage": "Cloud-Water Sangha (Kapleau / Kjolhede)",
+      "address": null,
+      "url": "https://www.zazen.se/aboutus_en.php",
+      "source_url": "https://www.zazen.se/aboutus_en.php",
+      "notes": "Affiliated sitting group of Zenbuddhistiska Samfundet"
+    },
+    {
+      "name": "Lunds Zendojo (AZI)",
+      "city": "Lund",
+      "region": "Skåne",
+      "lineage": "Soto Zen (Deshimaru / Association Zen Internationale)",
+      "address": "Magle Lilla Kyrkogata 2, 223 51 Lund",
+      "url": "http://www.soto-zen.se/",
+      "source_url": "https://www.zen-azi.org/en/temple/dojo-de-lund",
+      "notes": "AZI dojo; responsible Charlotte Laurell; daily zazen schedule"
+    },
+    {
+      "name": "So Gyo Zen Dojo Göteborg",
+      "city": "Göteborg",
+      "region": "Västra Götaland",
+      "lineage": "Soto Zen (Deshimaru / Kosen lineage)",
+      "address": "Distansgatan 59, Flatås, Göteborg",
+      "url": "https://zen-goteborg.se/",
+      "source_url": "https://zen-goteborg.se/",
+      "notes": "Led by Zen nun Rei Kiku Femenias (dharma transmission from Master Kosen, 2015)"
+    },
+    {
+      "name": "Göteborg Zen Dojo (Sanbo)",
+      "city": "Göteborg",
+      "region": "Västra Götaland",
+      "lineage": "Sanbo Zen",
+      "address": "Dahlströmsgatan 16, Majorna, Göteborg",
+      "url": "https://sanbodojo.se/",
+      "source_url": "https://sanbodojo.se/",
+      "notes": "Sanbo Zen-affiliated dojo in Göteborg; contact senshin.mats@icloud.com; monthly introductions first Wednesday at 17:30"
+    },
+    {
+      "name": "Svalornas Sangha (Zen Peacemakers Sweden)",
+      "city": "Göteborg",
+      "region": "Västra Götaland",
+      "lineage": "Zen Peacemakers / White Plum Asanga (Bernie Glassman lineage)",
+      "address": null,
+      "url": "https://www.svalornassangha.org/",
+      "source_url": "https://zenpeacemakers.org/zpi-publishing/introducing-zpi-affiliate-group-svalornas-sangha-peacemakers-sweden/",
+      "notes": "Engaged Buddhism Zen group, ZPI affiliate"
+    },
+    {
+      "name": "Plum Village-traditionen Sverige",
+      "city": "Stockholm",
+      "region": "Stockholms län",
+      "lineage": "Plum Village / Thiền (Thich Nhat Hanh)",
+      "address": null,
+      "url": "https://plumvillage-traditionen.se/",
+      "source_url": "https://plumvillage-traditionen.se/om/",
+      "notes": "National umbrella for Plum Village sanghas in Sweden, formed 2021"
+    },
+    {
+      "name": "Sangha Malmö (Plum Village)",
+      "city": "Malmö",
+      "region": "Skåne",
+      "lineage": "Plum Village / Thiền (Thich Nhat Hanh)",
+      "address": null,
+      "url": "https://www.facebook.com/groups/1006148160066045/",
+      "source_url": "https://plumvillage-traditionen.se/groups/",
+      "notes": "Plum Village tradition sangha"
+    },
+    {
+      "name": "Rosensanghan",
+      "city": "Göteborg",
+      "region": "Västra Götaland",
+      "lineage": "Plum Village / Thiền (Thich Nhat Hanh)",
+      "address": null,
+      "url": "https://rosensanghan.weebly.com/",
+      "source_url": "https://plumvillage-traditionen.se/groups/",
+      "notes": "Plum Village tradition sangha"
+    },
+    {
+      "name": "Fikussanghan",
+      "city": "Malmö",
+      "region": "Skåne",
+      "lineage": "Plum Village / Thiền (Thich Nhat Hanh)",
+      "address": null,
+      "url": "https://www.facebook.com/groups/529472283212936/",
+      "source_url": "https://plumvillage-traditionen.se/groups/",
+      "notes": "Plum Village tradition sangha"
+    },
+    {
+      "name": "Sollandet Sangha",
+      "city": "Sollentuna",
+      "region": "Stockholms län",
+      "lineage": "Plum Village / Thiền (Thich Nhat Hanh)",
+      "address": null,
+      "url": "https://plumvillage-traditionen.se/sollandet",
+      "source_url": "https://plumvillage-traditionen.se/groups/",
+      "notes": "Plum Village tradition sangha"
+    },
+    {
+      "name": "Wake Up Stockholm",
+      "city": "Stockholm",
+      "region": "Stockholms län",
+      "lineage": "Plum Village / Thiền (Thich Nhat Hanh)",
+      "address": null,
+      "url": "https://www.facebook.com/groups/698508990644945/",
+      "source_url": "https://plumvillage-traditionen.se/groups/",
+      "notes": "Plum Village 'Wake Up' young adult sangha"
+    },
+    {
+      "name": "Wake Up Lund",
+      "city": "Lund",
+      "region": "Skåne",
+      "lineage": "Plum Village / Thiền (Thich Nhat Hanh)",
+      "address": null,
+      "url": "https://www.facebook.com/groups/2106143476284454",
+      "source_url": "https://plumvillage-traditionen.se/groups/",
+      "notes": "Plum Village 'Wake Up' young adult sangha"
+    },
+    {
+      "name": "Wake Up Malmö",
+      "city": "Malmö",
+      "region": "Skåne",
+      "lineage": "Plum Village / Thiền (Thich Nhat Hanh)",
+      "address": null,
+      "url": "https://www.facebook.com/groups/668787381473803",
+      "source_url": "https://plumvillage-traditionen.se/groups/",
+      "notes": "Plum Village 'Wake Up' young adult sangha"
+    },
+    {
+      "name": "Wake Up Gothenburg",
+      "city": "Göteborg",
+      "region": "Västra Götaland",
+      "lineage": "Plum Village / Thiền (Thich Nhat Hanh)",
+      "address": null,
+      "url": "https://plumvillage-traditionen.se/wake-up-gothenburg",
+      "source_url": "https://plumvillage-traditionen.se/groups/",
+      "notes": "Plum Village 'Wake Up' young adult sangha"
+    },
+    {
+      "name": "Glädjens källa Sangha",
+      "city": "Stockholm",
+      "region": "Stockholms län",
+      "lineage": "Plum Village / Thiền (Thich Nhat Hanh)",
+      "address": null,
+      "url": "https://www.gladjenskalla.se/",
+      "source_url": "https://plumvillage-traditionen.se/groups/",
+      "notes": "Plum Village tradition sangha (online + Stockholm)"
+    },
+    {
+      "name": "Stockholms Zengrupp (Ordinary Mind Zen)",
+      "city": "Stockholm",
+      "region": "Stockholms län",
+      "lineage": "Ordinary Mind Zen (Joko Beck lineage)",
+      "address": null,
+      "url": "https://zenstockholm.nu/",
+      "source_url": "https://ordinarymind.se/lokalgrupper/ordinary-mind-stockholm",
+      "notes": "Ordinary Mind Zen Stockholm group"
+    }
+  ]
+}

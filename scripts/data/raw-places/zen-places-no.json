@@ -1,0 +1,88 @@
+{
+  "_meta": {
+    "country": "Norway",
+    "collectedAt": "2026-05-05",
+    "method": "Web research across Den norske Sotozen Buddhistorden (sotozen.no), Rinzai Zen Senter Oslo, Bergen Zen, IRIZ Hanazono Zen centers directory, Sotoshu Europe directory, Plum Village/Floating Clouds sangha references",
+    "coverageEstimate": "~80% of organized Zen groups; some smaller sub-groups of Sotozenordenen lack standalone web presence",
+    "knownGaps": [
+      "'Hashin-ji / Rinzai-ji Norway' referenced in prompt - not located online; Rinzai-ji's Affiliated Centers list does not include a Norwegian temple; possibly conflated with Rinzai Zen Senter Oslo (which is Joshu Sasaki Roshi lineage, i.e. Rinzai-ji) or a defunct group",
+      "Sandnes/Stavanger Zen Senter currently on pause per sotozen.no",
+      "Sandefjord group listed by Sotozen.no without details",
+      "Plum Village Norway: only Sangha of Floating Clouds (Drivende Skyer) Oslo confirmed; no national umbrella site located",
+      "Kwan Um School: no Norwegian center listed in Kwan Um Europe directory",
+      "Norsk Zen Forbund referenced in prompt - not located as a separate organization; may refer to Sotozenordenen"
+    ]
+  },
+  "places": [
+    {
+      "name": "Bugakuji Zen-tempel (Den norske Sotozen Buddhistorden)",
+      "city": "Kristiansand",
+      "region": "Agder",
+      "lineage": "Soto Zen",
+      "address": "Vågsbygdveien 81, 4623 Kristiansand S",
+      "url": "https://www.sotozen.no/",
+      "source_url": "https://www.sotozen.com/eng/temples/outside_jp/Norway/",
+      "notes": "Headquarters of Den norske Sotozen Buddhistorden (Norwegian Soto Zen Buddhist Order); Rev. Sozen Kusano Larsen abbot; listed on Sotoshu Europe directory"
+    },
+    {
+      "name": "Bergen Zen Senter (Regndråpe Sangha)",
+      "city": "Bergen",
+      "region": "Vestland",
+      "lineage": "Soto Zen",
+      "address": "Håsteins gate 3, 5160 Laksevåg",
+      "url": "https://bergenzensenter.no/",
+      "source_url": "https://bergenzensenter.no/",
+      "notes": "U ryu så - Regndråpe Sangha, Sotozen fellowship in Bergen; weekly Thursday zazen 19:30-21:00; affiliated with Sotozenordenen"
+    },
+    {
+      "name": "Haugesund Zen-senter (Stille Sinn Sangha)",
+      "city": "Haugesund",
+      "region": "Rogaland",
+      "lineage": "Soto Zen",
+      "address": null,
+      "url": "http://www.haugesundzensenter.com/",
+      "source_url": "https://www.sotozen.no/sotozen-i-norge",
+      "notes": "Affiliated with Den norske Sotozen Buddhistorden; led by Lars-Eivind Haukaas"
+    },
+    {
+      "name": "Sandnes/Stavanger Zen-senter",
+      "city": "Sandnes",
+      "region": "Rogaland",
+      "lineage": "Soto Zen",
+      "address": null,
+      "url": "https://www.sotozen.no/sotozen-i-norge",
+      "source_url": "https://www.sotozen.no/sotozen-i-norge",
+      "notes": "Affiliated with Den norske Sotozen Buddhistorden; led by Chirin (Bente Grønn); currently on pause per sotozen.no"
+    },
+    {
+      "name": "Tønsberg Zen-gruppe",
+      "city": "Tønsberg",
+      "region": "Vestfold",
+      "lineage": "Soto Zen",
+      "address": null,
+      "url": "https://dortheleth.no/",
+      "source_url": "https://www.sotozen.no/sotozen-i-norge",
+      "notes": "Affiliated with Den norske Sotozen Buddhistorden; led by Djien (Dorthe Leth)"
+    },
+    {
+      "name": "Rinzai Zen-senter Oslo",
+      "city": "Oslo",
+      "region": "Oslo",
+      "lineage": "Rinzai (Joshu Sasaki Roshi / Rinzai-ji lineage)",
+      "address": "Christian Krogs gate 32 B, Oslo",
+      "url": "https://www.facebook.com/rinzaizensenter/",
+      "source_url": "http://iriz.hanazono.ac.jp/zen_centers/centers_data/norway.htm",
+      "notes": "Originally Oslo Zazenkai; renamed Rinzai Zen Senter Oslo 1996; teacher Herbert Koudela (Genro Seiun Osho); morning and evening zazen"
+    },
+    {
+      "name": "Sangha of Floating Clouds (Drivende Skyer)",
+      "city": "Oslo",
+      "region": "Oslo",
+      "lineage": "Plum Village / Thiền (Thich Nhat Hanh)",
+      "address": null,
+      "url": "http://iriz.hanazono.ac.jp/zen_centers/centers_data/norway.htm",
+      "source_url": "https://www.spiritualityandpractice.com/book-reviews/view/1661/plum-poems",
+      "notes": "Vietnamese Zen / Plum Village sangha in Oslo, founded by Svein Myreng (Order of Interbeing); Bjørn Petter Hernes contact"
+    }
+  ]
+}

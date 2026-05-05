@@ -1,0 +1,176 @@
+{
+  "_meta": {
+    "country": "Ireland",
+    "collectedAt": "2026-05-05",
+    "method": "Web research across primary org sites (zenbuddhism.ie, zenireland.com, greyheronzen.ie, corkzen.ie, zengalway.ie, OneDropZen Dublin Meetup) and pan-European directories (kwanumeurope.org, plumvillage.org via Mindfulness Ireland sangha list, zen-azi.org). Filtered to Republic of Ireland only; Northern Ireland (Black Mountain Zen Belfast) excluded for the UK file. Excluded Triratna/Dublin Buddhist Centre (not Zen lineage) and generic mindfulness sanghas.",
+    "coverageEstimate": "High (~90%) for established Zen dojos/centres; Plum Village sangha list reflects publicly registered groups via Mindfulness Ireland (Plum Village Ireland's umbrella).",
+    "knownGaps": [
+      "No Kwan Um (Mu Sang Sa) presence found in Ireland as of 2026 — prompt's Cork reference appears outdated; not listed on kwanumeurope.org.",
+      "No Western Chan Fellowship local group confirmed in Ireland.",
+      "No Sanbo Zen affiliate confirmed in Ireland.",
+      "Several Plum Village sanghas list a contact-only address; some meet rotationally and may not have a fixed venue."
+    ]
+  },
+  "places": [
+    {
+      "name": "Dublin Zen Centre (Zen Buddhism Ireland)",
+      "city": "Dublin",
+      "region": "Co. Dublin (Leinster)",
+      "lineage": "Sōtō (Nishijima Roshi lineage; teacher Rev. Myōzan Kōdō Kilroy, dharma heir of Taigu Turlur)",
+      "address": "11 Anglesea Street, Temple Bar, Dublin, D02 NY01",
+      "url": "https://www.zenbuddhism.ie/",
+      "source_url": "https://www.zenbuddhism.ie/dublin-zen-centre",
+      "notes": "Ireland's first dedicated Zen centre, opened April 2022. Registered charity 20155384. Soto Zen Buddhist Association affiliate."
+    },
+    {
+      "name": "Earth+Sky Zen — Dublin Dojo",
+      "city": "Dublin",
+      "region": "Co. Dublin (Leinster)",
+      "lineage": "Sōtō / Deshimaru (AZI) and White Plum Asanga (teacher Soshin Mary Laheen Roshi; dharma transmission from Robert Jinsen Kennedy Roshi 2019)",
+      "address": null,
+      "url": "https://zenireland.com/",
+      "source_url": "https://zenireland.com/",
+      "notes": "Dublin Dojo founded 1996 by Alain Tainan Liebmann (Deshimaru lineage, AZI). Now under Mary Laheen Roshi (Roshi 2025); spans AZI/Sotoshu and White Plum Asanga."
+    },
+    {
+      "name": "Grey Heron Zen",
+      "city": "Tallaght (Dublin)",
+      "region": "Co. Dublin (Leinster)",
+      "lineage": "White Plum Asanga (teacher Miriam Healy Roshi, dharma transmission from Robert Kennedy Roshi 2014); also Zen Peacemaker Order",
+      "address": "Dominican Retreat House, Tallaght Village, Dublin 24",
+      "url": "https://greyheronzen.ie/",
+      "source_url": "https://greyheronzen.ie/about/",
+      "notes": "Active in Dublin since September 2011. Co-founded with Mary McGrane Sensei. Joint sesshins with Earth+Sky Zendo."
+    },
+    {
+      "name": "OneDropZen Dublin",
+      "city": "Dublin",
+      "region": "Co. Dublin (Leinster)",
+      "lineage": "Rinzai (One Drop Zen / Sogenji line; Shōdō Harada Rōshi, Hokuozan Sogenji Europe)",
+      "address": "15 Heytesbury Street, Dublin 8",
+      "url": "https://www.meetup.com/onedropzen-dublin/",
+      "source_url": "https://www.meetup.com/onedropzen-dublin/",
+      "notes": "Weekly Thursday zazen 8:15pm. Affiliated to Hokuozan Sogenji (Germany), the European hub of Harada Roshi's One Drop Zen sangha."
+    },
+    {
+      "name": "Cork Zen Dojo",
+      "city": "Cork",
+      "region": "Co. Cork (Munster)",
+      "lineage": "Sōtō / Deshimaru (Association Zen Internationale, AZI)",
+      "address": "19 North Main Street, Cork",
+      "url": "http://corkzen.ie/",
+      "source_url": "https://www.facebook.com/CorkZenDojo/",
+      "notes": "Founded by Alain Tainan Liebmann after 1991. Core group running monthly zazen since 2012; visiting AZI teachers."
+    },
+    {
+      "name": "Galway Zen Dojo",
+      "city": "Galway",
+      "region": "Co. Galway (Connacht)",
+      "lineage": "Sōtō / Deshimaru (Association Zen Internationale, AZI)",
+      "address": "Áras na nGael, 45 Dominick Street, Galway",
+      "url": "https://zengalway.ie/",
+      "source_url": "https://zengalway.ie/about-us/",
+      "notes": "Founded 1993 by Alain Tainan Liebmann. Currently led by Tom Jikai Cleary. Weekly zazen plus annual Aran Islands summer camp; sesshins at Esker Monastery."
+    },
+    {
+      "name": "Open Heart Sangha",
+      "city": "Dublin",
+      "region": "Co. Dublin (Leinster)",
+      "lineage": "Plum Village (Thich Nhat Hanh)",
+      "address": "Oscailt Integrative Health Centre, 8 Pembroke Road, Ballsbridge, Dublin 4",
+      "url": "https://www.mindfulnessireland.ie/sanghas-local-sanghas-across-ireland/",
+      "source_url": "https://www.mindfulnessireland.ie/sanghas-local-sanghas-across-ireland/",
+      "notes": "Tuesdays 19:30–21:00. Listed on Mindfulness Ireland (Plum Village Ireland umbrella)."
+    },
+    {
+      "name": "Wake-Up Dublin",
+      "city": "Dublin",
+      "region": "Co. Dublin (Leinster)",
+      "lineage": "Plum Village (Thich Nhat Hanh; Wake Up young-adult network)",
+      "address": "Oscailt Integrative Health Centre, 8 Pembroke Road, Ballsbridge, Dublin 4",
+      "url": "https://www.mindfulnessireland.ie/sanghas-local-sanghas-across-ireland/",
+      "source_url": "https://www.mindfulnessireland.ie/sanghas-local-sanghas-across-ireland/",
+      "notes": "Sundays 19:00–21:00. Part of the global Wake Up sangha network."
+    },
+    {
+      "name": "Sonas Sangha (Mindfulness for Children)",
+      "city": "Dublin",
+      "region": "Co. Dublin (Leinster)",
+      "lineage": "Plum Village (Thich Nhat Hanh)",
+      "address": "Oscailt, 8 Pembroke Road, Dublin 4",
+      "url": "https://www.mindfulnessireland.ie/sanghas-local-sanghas-across-ireland/",
+      "source_url": "https://www.mindfulnessireland.ie/sanghas-local-sanghas-across-ireland/",
+      "notes": "Family/children's sangha; first Sunday of each month 14:00–16:00."
+    },
+    {
+      "name": "Red Robin Sangha",
+      "city": "Cork",
+      "region": "Co. Cork (Munster)",
+      "lineage": "Plum Village (Thich Nhat Hanh)",
+      "address": "Bru Columbanus, Wilton, Cork",
+      "url": "https://www.mindfulnessireland.ie/sanghas-local-sanghas-across-ireland/",
+      "source_url": "https://www.mindfulnessireland.ie/sanghas-local-sanghas-across-ireland/",
+      "notes": "Tuesday evenings 19:30–20:45."
+    },
+    {
+      "name": "The Peace of Wild Things Family Sangha",
+      "city": "Ballincollig (Cork)",
+      "region": "Co. Cork (Munster)",
+      "lineage": "Plum Village (Thich Nhat Hanh)",
+      "address": "Ballincollig Regional Park, Ballincollig, Co. Cork",
+      "url": "https://www.mindfulnessireland.ie/sanghas-local-sanghas-across-ireland/",
+      "source_url": "https://www.mindfulnessireland.ie/sanghas-local-sanghas-across-ireland/",
+      "notes": "Outdoor family sangha; second Sunday of each month."
+    },
+    {
+      "name": "Solas Gheal Sangha",
+      "city": "Loughrea",
+      "region": "Co. Galway (Connacht)",
+      "lineage": "Plum Village (Thich Nhat Hanh)",
+      "address": "Loughrea Family Resource Centre, Loughrea, H53 E891",
+      "url": "https://www.mindfulnessireland.ie/sanghas-local-sanghas-across-ireland/",
+      "source_url": "https://www.mindfulnessireland.ie/sanghas-local-sanghas-across-ireland/",
+      "notes": "Mondays 19:00–20:30."
+    },
+    {
+      "name": "Flowing as a River Sangha",
+      "city": "Slane",
+      "region": "Co. Meath (Leinster)",
+      "lineage": "Plum Village (Thich Nhat Hanh)",
+      "address": "Rossnaree House, Slane, C15 Y579",
+      "url": "https://www.mindfulnessireland.ie/sanghas-local-sanghas-across-ireland/",
+      "source_url": "https://www.mindfulnessireland.ie/sanghas-local-sanghas-across-ireland/",
+      "notes": "Monthly Sundays."
+    },
+    {
+      "name": "Still Water Sangha",
+      "city": "Tullamore",
+      "region": "Co. Offaly (Leinster)",
+      "lineage": "Plum Village (Thich Nhat Hanh)",
+      "address": "Cappincur, Tullamore, Co. Offaly",
+      "url": "https://www.mindfulnessireland.ie/sanghas-local-sanghas-across-ireland/",
+      "source_url": "https://www.mindfulnessireland.ie/sanghas-local-sanghas-across-ireland/",
+      "notes": "Wednesdays 19:00–20:30."
+    },
+    {
+      "name": "Full Moon Sangha",
+      "city": "Greystones",
+      "region": "Co. Wicklow (Leinster)",
+      "lineage": "Plum Village (Thich Nhat Hanh)",
+      "address": "Gorse Hill, Cliff Road, Windgates, Greystones, Co. Wicklow",
+      "url": "https://www.mindfulnessireland.ie/sanghas-local-sanghas-across-ireland/",
+      "source_url": "https://www.mindfulnessireland.ie/sanghas-local-sanghas-across-ireland/",
+      "notes": "Thursdays 19:30–21:30."
+    },
+    {
+      "name": "Old Heart New Heart Sangha",
+      "city": "Glendalough",
+      "region": "Co. Wicklow (Leinster)",
+      "lineage": "Plum Village (Thich Nhat Hanh)",
+      "address": "Tearman, near Glendalough, Co. Wicklow",
+      "url": "https://www.mindfulnessireland.ie/sanghas-local-sanghas-across-ireland/",
+      "source_url": "https://www.mindfulnessireland.ie/sanghas-local-sanghas-across-ireland/",
+      "notes": "Third Sunday of month, 11:30–16:30."
+    }
+  ]
+}

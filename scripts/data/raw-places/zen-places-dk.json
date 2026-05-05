@@ -1,0 +1,107 @@
+{
+  "_meta": {
+    "country": "Denmark",
+    "collectedAt": "2026-05-05",
+    "method": "Web research across Buddhistisk Samfund, Zenbuddhistisk Forening, Boundless Way Zen, One Drop Zen, Big Heart Zen, Interbeing Denmark, and Wikipedia/BuddhaNet directories",
+    "coverageEstimate": "~85% of active groups; Denmark has ~5-8 known Zen groups per Wikipedia 'Buddhism in Denmark' (~100 practitioners total)",
+    "knownGaps": [
+      "Sanbo Zen Danmark not located as a distinct Danish group; appears to be subsumed within German/Swedish Sanbo Zen presence",
+      "Specific street address for Boundless Way Zen Copenhagen (Frederiksberg) not published",
+      "Aarhus Zendo (Øsal Ling) is primarily Tibetan/Dzogchen with Zen overlap; included as hybrid",
+      "Bovbjerg Sōtō Zen Center referenced in prompt but no online presence found - may be defunct or never existed",
+      "Some sangha sub-groups (Wake Up etc.) may operate informally without standalone web presence"
+    ]
+  },
+  "places": [
+    {
+      "name": "Havredal Zendo (Buddhistisk Samfund)",
+      "city": "Karup",
+      "region": "Midtjylland",
+      "lineage": "Rinzai Zen",
+      "address": "Stendalsvej 19, 7470 Karup J",
+      "url": "https://havredalzendo.dk/",
+      "source_url": "https://en.wikipedia.org/wiki/Havredal_Zendo",
+      "notes": "First Zen temple building in Denmark, founded by Choan Denko Mokudo Bertelsen; current leadership Shuho Seishin Sommerhall; HQ of Buddhistisk Samfund (buddhistisksamfund.dk)"
+    },
+    {
+      "name": "Zen-Buddhistisk Forening (Hokori Sangha)",
+      "city": "København",
+      "region": "Hovedstaden",
+      "lineage": "Rinzai (Sogenji / Shodo Harada Roshi affiliation)",
+      "address": null,
+      "url": "https://www.zenbuddhistiskforening.dk/",
+      "source_url": "https://www.zenbuddhistiskforening.dk/",
+      "notes": "Independent group with affiliation to Sogenji monastery and Shodo Harada Roshi; meets in central Copenhagen by arrangement"
+    },
+    {
+      "name": "One Drop Zendo København",
+      "city": "København",
+      "region": "Hovedstaden",
+      "lineage": "Rinzai (Shodo Harada Roshi / Sogenji / One Drop Zen)",
+      "address": "Teglgårdstræde 8B, 2nd floor, 1452 København K",
+      "url": "https://onedropzendo.dk/",
+      "source_url": "https://onedropzendo.dk/zen-i-odense/",
+      "notes": "Contact Peter Daiko Skovgaard; meets Sundays 17:30-19:30 at FOF facilities (currently displaced after building fire)"
+    },
+    {
+      "name": "One Drop Zendo Odense (Ten Chi Dojo)",
+      "city": "Odense",
+      "region": "Syddanmark",
+      "lineage": "Rinzai (Shodo Harada Roshi / Sogenji / One Drop Zen)",
+      "address": null,
+      "url": "https://onedropzendo.dk/zen-i-odense/",
+      "source_url": "https://onedropzendo.dk/zen-i-odense/",
+      "notes": "Practicing zazen since 2001; meets first Wednesday of month 18:00; connection to Shodo Harada Roshi and One Drop Zendo community"
+    },
+    {
+      "name": "Boundless Way Zen Copenhagen",
+      "city": "Frederiksberg",
+      "region": "Hovedstaden",
+      "lineage": "Soto/Harada-Yasutani koan curriculum + Korean Linji (Boundless Way Zen)",
+      "address": null,
+      "url": "https://copenhagenzen.com/",
+      "source_url": "https://copenhagenzen.com/om-os",
+      "notes": "Led by Esther Sorgenfrei (Dharma Holder, Denkai Aug 2025), student of David Dae An Rynick Roshi and Melissa Moyzen Blacker Roshi; weekly Monday evening practice"
+    },
+    {
+      "name": "Big Heart Zen Copenhagen",
+      "city": "København",
+      "region": "Hovedstaden",
+      "lineage": "Kanzeon Sangha / White Plum / Genpo Roshi lineage",
+      "address": null,
+      "url": "https://www.meetup.com/zazen-copenhagen/",
+      "source_url": "https://www.meetup.com/zazen-copenhagen/",
+      "notes": "Led by Birgitte Myoin, ordained Zen Monk and long-term student of Soten Genpo Roshi; donation-based, online and in-person"
+    },
+    {
+      "name": "Sōtō Zen Aarhus",
+      "city": "Aarhus",
+      "region": "Midtjylland",
+      "lineage": "Soto Zen",
+      "address": null,
+      "url": "https://www.facebook.com/sotozenaarhus/",
+      "source_url": "https://www.facebook.com/sotozenaarhus/",
+      "notes": "Sōtō Zen practice group in Aarhus"
+    },
+    {
+      "name": "Aarhus Zendo (Øsal Ling)",
+      "city": "Aarhus",
+      "region": "Midtjylland",
+      "lineage": "Zen / Dzogchen (Nyingma) hybrid",
+      "address": "Fredensgade 39, Aarhus",
+      "url": "http://www.buddhanet.info/wbd/country.php?country_id=60",
+      "source_url": "http://www.buddhanet.info/wbd/country.php?country_id=60",
+      "notes": "Teacher Denko John Mortensen; combines Zen and Dzogchen; included as hybrid Zen presence; also hosts Interbeing Denmark Plum Village days monthly"
+    },
+    {
+      "name": "Interbeing Denmark (Plum Village Copenhagen Sangha)",
+      "city": "København",
+      "region": "Hovedstaden",
+      "lineage": "Plum Village / Thiền (Thich Nhat Hanh)",
+      "address": null,
+      "url": "https://interbeing.dk/",
+      "source_url": "https://interbeing.dk/practice",
+      "notes": "Plum Village tradition mindfulness sangha in Denmark; Tuesday evening meets at Det Åbne Rum or Naturcenter Vestamager; monthly mindfulness day at Chùa Liễu Quán Vietnamese temple in Glostrup, led by Br. Thay Phap Tru"
+    }
+  ]
+}

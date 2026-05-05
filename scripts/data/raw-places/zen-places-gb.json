@@ -1,0 +1,928 @@
+{
+  "_meta": {
+    "country": "United Kingdom",
+    "collectedAt": "2026-05-05",
+    "method": "Pulled from canonical UK Zen network directories: OBC (obcon.org), IZAUK (izauk.org), Western Chan Fellowship (westernchanfellowship.org), Plum Village UK (plumvillage.uk), StoneWater Zen (stonewaterzen.org), Sanbo Zen (Oxford Zen Centre), The Zen Centre London / Shobo-an (rinzaizencentre.org.uk), Kwan Um Europe, Buddhist Society UK. Cross-checked names/addresses against priory and group home pages.",
+    "coverageEstimate": "Strong coverage of OBC priories, IZAUK dojos, WCF Chan groups, StoneWater groups, the two Rinzai/Sanbo houses, Kwan Um London, and the Plum Village UK in-person sangha network. Plum Village figures dominate the count; smaller informal sitting groups, individual dharma-successor home dojos, and Channel Islands sanghas are partially included. Soto-shu Europe directory and obcon.org/temples/ both returned 403/404 at fetch time, but list was reconstructed from tbpriory.org.uk's OBC links page.",
+    "knownGaps": [
+      "Plum Village UK address detail: in-person groups list city/region but rarely give street addresses on the public directory; URLs default to plumvillage.uk find-a-group entries",
+      "Some StoneWater satellites (Chesterfield) lack public URLs",
+      "White Plum independents beyond StoneWater + Wholehearted Zen are sparse — Keizan Roshi listed as Europe rep but standalone UK sitting groups not separately published",
+      "Obaku presence in UK appears negligible; no current standalone Obaku temple identified",
+      "Sotoshu (sotozen.com) UK temple page was 404 on collection day; relied on OBC + IZAUK + StoneWater for Soto coverage",
+      "Channel Islands (Guernsey, Jersey) included under Plum Village though technically Crown Dependencies, not UK constituent countries"
+    ]
+  },
+  "places": [
+    {
+      "name": "Throssel Hole Buddhist Abbey",
+      "city": "Hexham",
+      "region": "England",
+      "lineage": "Sōtō / OBC (Serene Reflection Meditation, Jiyu-Kennett)",
+      "address": "Carrshield, Hexham, Northumberland NE47 8AL",
+      "url": "https://throssel.org.uk/",
+      "source_url": "https://obcon.org/throssel-hole-buddhist-abbey/",
+      "notes": "European seat of the Order of Buddhist Contemplatives; founded 1972 by Rev. Master Jiyu-Kennett."
+    },
+    {
+      "name": "Reading Buddhist Priory",
+      "city": "Reading",
+      "region": "England",
+      "lineage": "Sōtō / OBC",
+      "address": "176 Cressingham Road, Reading, Berkshire RG2 7LW",
+      "url": "https://readingbuddhistpriory.org.uk/",
+      "source_url": "https://www.tbpriory.org.uk/order-of-buddhist-contemplatives-websites/",
+      "notes": "Founded 1990; Wed/Fri evening and Sunday morning practice."
+    },
+    {
+      "name": "Telford Buddhist Priory",
+      "city": "Telford",
+      "region": "England",
+      "lineage": "Sōtō / OBC",
+      "address": "49 The Rock, Telford, Shropshire TF3 5BH",
+      "url": "https://www.tbpriory.org.uk/",
+      "source_url": "https://obcon.org/telford-buddhist-priory/",
+      "notes": "Resident OBC priory."
+    },
+    {
+      "name": "Norwich Zen Buddhist Priory",
+      "city": "Norwich",
+      "region": "England",
+      "lineage": "Sōtō / OBC",
+      "address": null,
+      "url": "https://norwichzen.org.uk/",
+      "source_url": "https://en.wikipedia.org/wiki/Norwich_Zen_Buddhist_Priory",
+      "notes": "Soto Zen priory in west Norwich."
+    },
+    {
+      "name": "Dragon Bell Temple",
+      "city": "Exeter",
+      "region": "England",
+      "lineage": "Sōtō / OBC",
+      "address": null,
+      "url": "http://www.dragonbelltemple.org.uk/",
+      "source_url": "https://www.tbpriory.org.uk/order-of-buddhist-contemplatives-websites/",
+      "notes": "OBC temple in the South West."
+    },
+    {
+      "name": "Turning Wheel Buddhist Temple",
+      "city": "Leicester",
+      "region": "England",
+      "lineage": "Sōtō / OBC",
+      "address": null,
+      "url": "https://www.turningwheel.org.uk/",
+      "source_url": "https://www.tbpriory.org.uk/order-of-buddhist-contemplatives-websites/",
+      "notes": "OBC temple, East Midlands."
+    },
+    {
+      "name": "Portobello Buddhist Priory",
+      "city": "Edinburgh",
+      "region": "Scotland",
+      "lineage": "Sōtō / OBC",
+      "address": "27 Brighton Place, Portobello, Edinburgh EH15 1LL",
+      "url": "http://www.portobellobuddhist.org.uk/",
+      "source_url": "https://www.tbpriory.org.uk/order-of-buddhist-contemplatives-websites/",
+      "notes": "Scotland's OBC priory."
+    },
+    {
+      "name": "The Place of Peace Dharma House",
+      "city": "Aberystwyth",
+      "region": "Wales",
+      "lineage": "Sōtō / OBC",
+      "address": null,
+      "url": "https://www.placeofpeacewales.org.uk/",
+      "source_url": "https://www.tbpriory.org.uk/order-of-buddhist-contemplatives-websites/",
+      "notes": "Welsh OBC dharma house."
+    },
+    {
+      "name": "Cambridge Serene Reflection Meditation Group",
+      "city": "Cambridge",
+      "region": "England",
+      "lineage": "Sōtō / OBC (lay group)",
+      "address": null,
+      "url": "https://sites.google.com/site/cambsrmgroup/",
+      "source_url": "https://www.tbpriory.org.uk/order-of-buddhist-contemplatives-websites/",
+      "notes": "OBC lay meditation group."
+    },
+    {
+      "name": "Lancaster Serene Reflection Meditation Group",
+      "city": "Lancaster",
+      "region": "England",
+      "lineage": "Sōtō / OBC (lay group)",
+      "address": null,
+      "url": "http://www.lancasterserenereflection.org.uk/",
+      "source_url": "https://www.tbpriory.org.uk/order-of-buddhist-contemplatives-websites/",
+      "notes": "OBC lay group, North West."
+    },
+    {
+      "name": "Newcastle Serene Reflection Meditation Group",
+      "city": "Newcastle upon Tyne",
+      "region": "England",
+      "lineage": "Sōtō / OBC (lay group)",
+      "address": null,
+      "url": "http://www.northeastserenereflection.org.uk/newcastle",
+      "source_url": "https://www.tbpriory.org.uk/order-of-buddhist-contemplatives-websites/",
+      "notes": "OBC lay group serving Newcastle."
+    },
+    {
+      "name": "Nottingham Serene Reflection Meditation Group",
+      "city": "Nottingham",
+      "region": "England",
+      "lineage": "Sōtō / OBC (lay group)",
+      "address": null,
+      "url": "http://www.notts-serenereflection.org.uk/",
+      "source_url": "https://www.tbpriory.org.uk/order-of-buddhist-contemplatives-websites/",
+      "notes": "OBC lay group."
+    },
+    {
+      "name": "Sheffield Zen",
+      "city": "Sheffield",
+      "region": "England",
+      "lineage": "Sōtō / OBC (lay group)",
+      "address": null,
+      "url": "http://www.zensheffield.org/",
+      "source_url": "https://www.tbpriory.org.uk/order-of-buddhist-contemplatives-websites/",
+      "notes": "OBC-affiliated Sheffield meditation group."
+    },
+    {
+      "name": "Teesside Serene Reflection Meditation Group",
+      "city": "Middlesbrough",
+      "region": "England",
+      "lineage": "Sōtō / OBC (lay group)",
+      "address": null,
+      "url": "http://www.northeastserenereflection.org.uk/teesside",
+      "source_url": "https://www.tbpriory.org.uk/order-of-buddhist-contemplatives-websites/",
+      "notes": "OBC Teesside lay group."
+    },
+    {
+      "name": "IZAUK Bradford Dojo",
+      "city": "Bradford",
+      "region": "England",
+      "lineage": "Sōtō / Deshimaru (IZAUK / AZI)",
+      "address": null,
+      "url": "https://www.izauk.org/zen-groups-in-uk/bradford/",
+      "source_url": "https://izauk.org/",
+      "notes": "Full member group of International Zen Association UK (Deshimaru lineage, AZI)."
+    },
+    {
+      "name": "IZAUK Brighton Dojo",
+      "city": "Brighton",
+      "region": "England",
+      "lineage": "Sōtō / Deshimaru (IZAUK / AZI)",
+      "address": null,
+      "url": "https://www.izauk.org/zen-groups-in-uk/brighton/",
+      "source_url": "https://izauk.org/",
+      "notes": "IZAUK full member."
+    },
+    {
+      "name": "IZAUK Bristol Dojo",
+      "city": "Bristol",
+      "region": "England",
+      "lineage": "Sōtō / Deshimaru (IZAUK / AZI)",
+      "address": null,
+      "url": "https://www.izauk.org/zen-groups-in-uk/bristol/",
+      "source_url": "https://izauk.org/",
+      "notes": "IZAUK full member."
+    },
+    {
+      "name": "IZAUK Leeds Dojo",
+      "city": "Leeds",
+      "region": "England",
+      "lineage": "Sōtō / Deshimaru (IZAUK / AZI)",
+      "address": null,
+      "url": "https://www.izauk.org/zen-groups-in-uk/leeds/",
+      "source_url": "https://izauk.org/",
+      "notes": "IZAUK full member."
+    },
+    {
+      "name": "IZAUK London North Dojo (Caledonian Road)",
+      "city": "London",
+      "region": "England",
+      "lineage": "Sōtō / Deshimaru (IZAUK / AZI)",
+      "address": "Caledonian Road, London",
+      "url": "https://www.izauk.org/zen-groups-in-uk/london-north/",
+      "source_url": "https://izauk.org/",
+      "notes": "IZAUK full member, central London dojo."
+    },
+    {
+      "name": "IZAUK London South / Brockley Dojo",
+      "city": "London",
+      "region": "England",
+      "lineage": "Sōtō / Deshimaru (IZAUK / AZI)",
+      "address": "Brockley, London SE",
+      "url": "https://www.izauk.org/zen-groups-in-uk/london-southeast/",
+      "source_url": "https://izauk.org/",
+      "notes": "IZAUK full member, south-east London."
+    },
+    {
+      "name": "IZAUK Manchester Dojo",
+      "city": "Manchester",
+      "region": "England",
+      "lineage": "Sōtō / Deshimaru (IZAUK / AZI)",
+      "address": null,
+      "url": "https://www.izauk.org/zen-groups-in-uk/manchester/",
+      "source_url": "https://izauk.org/",
+      "notes": "IZAUK full member."
+    },
+    {
+      "name": "IZAUK Norwich Dojo",
+      "city": "Norwich",
+      "region": "England",
+      "lineage": "Sōtō / Deshimaru (IZAUK / AZI)",
+      "address": null,
+      "url": "https://www.izauk.org/zen-groups-in-uk/norwich/",
+      "source_url": "https://izauk.org/",
+      "notes": "IZAUK full member; distinct from OBC priory in Norwich."
+    },
+    {
+      "name": "IZAUK Wells-Next-The-Sea Dojo",
+      "city": "Wells-next-the-Sea",
+      "region": "England",
+      "lineage": "Sōtō / Deshimaru (IZAUK / AZI)",
+      "address": null,
+      "url": "https://www.izauk.org/zen-groups-in-uk/wells-next-the-sea/",
+      "source_url": "https://izauk.org/",
+      "notes": "IZAUK full member, north Norfolk coast."
+    },
+    {
+      "name": "IZAUK Godalming Group",
+      "city": "Godalming",
+      "region": "England",
+      "lineage": "Sōtō / Deshimaru (IZAUK / AZI)",
+      "address": null,
+      "url": "https://www.izauk.org/zen-groups-in-uk/godalming-correspondent/",
+      "source_url": "https://izauk.org/",
+      "notes": "IZAUK correspondent group, Surrey."
+    },
+    {
+      "name": "IZAUK Cardiff Group",
+      "city": "Cardiff",
+      "region": "Wales",
+      "lineage": "Sōtō / Deshimaru (IZAUK / AZI)",
+      "address": null,
+      "url": "https://www.izauk.org/zen-groups-in-uk/cardiff/",
+      "source_url": "https://izauk.org/",
+      "notes": "IZAUK correspondent, Wales."
+    },
+    {
+      "name": "IZAUK Milford Haven Group",
+      "city": "Milford Haven",
+      "region": "Wales",
+      "lineage": "Sōtō / Deshimaru (IZAUK / AZI)",
+      "address": null,
+      "url": "https://www.izauk.org/zen-groups-in-uk/milford-haven-correspondent/",
+      "source_url": "https://izauk.org/",
+      "notes": "IZAUK correspondent, west Wales."
+    },
+    {
+      "name": "Maenllwyd Retreat Centre",
+      "city": "Pennant",
+      "region": "Wales",
+      "lineage": "Chan (Western Chan Fellowship — Sheng Yen / Hsu Yun lineage)",
+      "address": "Pennant, mid-Wales",
+      "url": "https://www.maenllwyd.org/",
+      "source_url": "https://westernchanfellowship.org/events-and-retreats/venues-chan-and-zen-retreats/maenllwyd-retreat-centre/",
+      "notes": "WCF retreat centre in mid-Wales; remote farm-building hosting Chan retreats since the 1970s under John Crook then successors."
+    },
+    {
+      "name": "Shawbottom Farm Retreat",
+      "city": "Shawbottom",
+      "region": "England",
+      "lineage": "Chan (Western Chan Fellowship)",
+      "address": null,
+      "url": "https://westernchanfellowship.org/events-and-retreats/venues-chan-and-zen-retreats/shawbottom/",
+      "source_url": "https://westernchanfellowship.org/",
+      "notes": "WCF retreat venue, England."
+    },
+    {
+      "name": "Birmingham Chan Group",
+      "city": "Birmingham",
+      "region": "England",
+      "lineage": "Chan (Western Chan Fellowship)",
+      "address": null,
+      "url": "https://westernchanfellowship.org/chan-meditation-groups/birmingham-chan-group/",
+      "source_url": "https://westernchanfellowship.org/",
+      "notes": "WCF affiliated Chan meditation group."
+    },
+    {
+      "name": "Bristol Chan Group",
+      "city": "Bristol",
+      "region": "England",
+      "lineage": "Chan (Western Chan Fellowship)",
+      "address": null,
+      "url": "https://westernchanfellowship.org/chan-meditation-groups/bristol-chan-group/",
+      "source_url": "https://westernchanfellowship.org/",
+      "notes": "WCF affiliated Chan meditation group."
+    },
+    {
+      "name": "Cardiff Chan Group",
+      "city": "Cardiff",
+      "region": "Wales",
+      "lineage": "Chan (Western Chan Fellowship)",
+      "address": null,
+      "url": "https://westernchanfellowship.org/chan-meditation-groups/cardiff-chan-group/",
+      "source_url": "https://westernchanfellowship.org/",
+      "notes": "WCF affiliated."
+    },
+    {
+      "name": "Derbyshire Dales Chan Group",
+      "city": "Matlock",
+      "region": "England",
+      "lineage": "Chan (Western Chan Fellowship)",
+      "address": null,
+      "url": "https://westernchanfellowship.org/chan-meditation-groups/derbyshire-dales-chan-group/",
+      "source_url": "https://westernchanfellowship.org/",
+      "notes": "WCF affiliated."
+    },
+    {
+      "name": "Forest of Dean Chan Meditation Group",
+      "city": "Forest of Dean",
+      "region": "England",
+      "lineage": "Chan (Western Chan Fellowship)",
+      "address": null,
+      "url": "https://westernchanfellowship.org/chan-meditation-groups/forest-of-dean-chan-meditation-group/",
+      "source_url": "https://westernchanfellowship.org/",
+      "notes": "WCF affiliated."
+    },
+    {
+      "name": "Glastonbury Chan Group",
+      "city": "Glastonbury",
+      "region": "England",
+      "lineage": "Chan (Western Chan Fellowship)",
+      "address": null,
+      "url": "https://westernchanfellowship.org/chan-meditation-groups/glastonbury-chan-group/",
+      "source_url": "https://westernchanfellowship.org/",
+      "notes": "WCF affiliated."
+    },
+    {
+      "name": "Hatfield / Welwyn Garden City Chan Group",
+      "city": "Welwyn Garden City",
+      "region": "England",
+      "lineage": "Chan (Western Chan Fellowship)",
+      "address": null,
+      "url": "https://westernchanfellowship.org/chan-meditation-groups/hatfield-welwyn-garden-city-chan-group/",
+      "source_url": "https://westernchanfellowship.org/",
+      "notes": "WCF affiliated."
+    },
+    {
+      "name": "Kent Chan Group",
+      "city": "Canterbury",
+      "region": "England",
+      "lineage": "Chan (Western Chan Fellowship)",
+      "address": null,
+      "url": "https://westernchanfellowship.org/chan-meditation-groups/kent-chan-group/",
+      "source_url": "https://westernchanfellowship.org/",
+      "notes": "WCF affiliated."
+    },
+    {
+      "name": "The Lizard Chan Group",
+      "city": "Helston",
+      "region": "England",
+      "lineage": "Chan (Western Chan Fellowship)",
+      "address": null,
+      "url": "https://westernchanfellowship.org/chan-meditation-groups/the-lizard-chan-group/",
+      "source_url": "https://westernchanfellowship.org/",
+      "notes": "WCF affiliated, Cornwall."
+    },
+    {
+      "name": "London Chan Group",
+      "city": "London",
+      "region": "England",
+      "lineage": "Chan (Western Chan Fellowship)",
+      "address": null,
+      "url": "https://westernchanfellowship.org/chan-meditation-groups/",
+      "source_url": "https://westernchanfellowship.org/",
+      "notes": "WCF affiliated London Chan group."
+    },
+    {
+      "name": "Manchester Chan Group",
+      "city": "Manchester",
+      "region": "England",
+      "lineage": "Chan (Western Chan Fellowship)",
+      "address": null,
+      "url": "https://westernchanfellowship.org/chan-meditation-groups/manchester-chan-group/",
+      "source_url": "https://westernchanfellowship.org/",
+      "notes": "WCF affiliated."
+    },
+    {
+      "name": "Mid-Wales Chan Group",
+      "city": "Aberystwyth",
+      "region": "Wales",
+      "lineage": "Chan (Western Chan Fellowship)",
+      "address": null,
+      "url": "https://westernchanfellowship.org/chan-meditation-groups/mid-wales-chan-group/",
+      "source_url": "https://westernchanfellowship.org/",
+      "notes": "WCF affiliated."
+    },
+    {
+      "name": "Newbury Meditation Group",
+      "city": "Newbury",
+      "region": "England",
+      "lineage": "Chan (Western Chan Fellowship)",
+      "address": null,
+      "url": "https://westernchanfellowship.org/chan-meditation-groups/newbury-meditation-group/",
+      "source_url": "https://westernchanfellowship.org/",
+      "notes": "WCF affiliated."
+    },
+    {
+      "name": "Nottingham Chan Group",
+      "city": "Nottingham",
+      "region": "England",
+      "lineage": "Chan (Western Chan Fellowship)",
+      "address": null,
+      "url": "https://westernchanfellowship.org/chan-meditation-groups/nottingham-chan-group/",
+      "source_url": "https://westernchanfellowship.org/",
+      "notes": "WCF affiliated."
+    },
+    {
+      "name": "Portsmouth Meditation Group",
+      "city": "Portsmouth",
+      "region": "England",
+      "lineage": "Chan (Western Chan Fellowship)",
+      "address": null,
+      "url": "https://westernchanfellowship.org/chan-meditation-groups/portsmouth-meditation-group/",
+      "source_url": "https://westernchanfellowship.org/",
+      "notes": "WCF affiliated."
+    },
+    {
+      "name": "Scottish Chan",
+      "city": "Edinburgh",
+      "region": "Scotland",
+      "lineage": "Chan (Western Chan Fellowship)",
+      "address": null,
+      "url": "https://westernchanfellowship.org/chan-meditation-groups/scottish-chan/",
+      "source_url": "https://westernchanfellowship.org/",
+      "notes": "WCF affiliated Scotland-wide group."
+    },
+    {
+      "name": "South Devon Chan Group",
+      "city": "Totnes",
+      "region": "England",
+      "lineage": "Chan (Western Chan Fellowship)",
+      "address": null,
+      "url": "https://westernchanfellowship.org/chan-meditation-groups/south-devon-chan-group/",
+      "source_url": "https://westernchanfellowship.org/",
+      "notes": "WCF affiliated."
+    },
+    {
+      "name": "Winscombe Chan Group",
+      "city": "Winscombe",
+      "region": "England",
+      "lineage": "Chan (Western Chan Fellowship)",
+      "address": null,
+      "url": "https://westernchanfellowship.org/chan-meditation-groups/winscombe-chan-group/",
+      "source_url": "https://westernchanfellowship.org/",
+      "notes": "WCF affiliated, Somerset."
+    },
+    {
+      "name": "StoneWater Zen Liverpool",
+      "city": "Liverpool",
+      "region": "England",
+      "lineage": "Sōtō / White Plum Asanga (Tenshin Fletcher / Maezumi line)",
+      "address": "13 Hope Street, Liverpool L1 9BQ",
+      "url": "https://www.stonewaterzen.org/",
+      "source_url": "https://whiteplum.org/",
+      "notes": "Main StoneWater Zen Centre; led by Keizan Scott Roshi (White Plum Europe rep)."
+    },
+    {
+      "name": "StoneWater Zen Northampton",
+      "city": "Northampton",
+      "region": "England",
+      "lineage": "Sōtō / White Plum Asanga",
+      "address": "20-30a Abington Street, Northampton NN1 2AJ",
+      "url": "http://swz-northampton.blogspot.com/",
+      "source_url": "https://www.stonewaterzen.org/stonewater/local-groups/",
+      "notes": "StoneWater satellite group."
+    },
+    {
+      "name": "StoneWater Zen North London (Hampstead)",
+      "city": "London",
+      "region": "England",
+      "lineage": "Sōtō / White Plum Asanga",
+      "address": "Hampstead, London",
+      "url": "https://www.manubazzano.com/",
+      "source_url": "https://www.stonewaterzen.org/stonewater/local-groups/",
+      "notes": "Led by Manu Bazzano."
+    },
+    {
+      "name": "StoneWater Zen South London",
+      "city": "London",
+      "region": "England",
+      "lineage": "Sōtō / White Plum Asanga",
+      "address": "Streatham and Brixton Quaker Meeting House, Brixton Hill, London",
+      "url": "https://www.stonewaterzen.org/stonewater/local-groups/",
+      "source_url": "https://www.stonewaterzen.org/stonewater/local-groups/",
+      "notes": "Meets at Streatham/Brixton Quaker Meeting House."
+    },
+    {
+      "name": "StoneWater Zen Kent",
+      "city": "Hayes",
+      "region": "England",
+      "lineage": "Sōtō / White Plum Asanga",
+      "address": "6 Station Approach, Hayes, Kent BR2 7EH",
+      "url": "https://www.stonewaterzen.org/stonewater/local-groups/",
+      "source_url": "https://www.stonewaterzen.org/stonewater/local-groups/",
+      "notes": "Kent satellite of StoneWater Zen."
+    },
+    {
+      "name": "StoneWater Zen Wells",
+      "city": "Wells",
+      "region": "England",
+      "lineage": "Sōtō / White Plum Asanga",
+      "address": null,
+      "url": "http://www.wellszen.org/",
+      "source_url": "https://www.stonewaterzen.org/stonewater/local-groups/",
+      "notes": "Somerset StoneWater group."
+    },
+    {
+      "name": "Woodchester Valley Zendo (StoneWater Zen Woodchester)",
+      "city": "Nailsworth",
+      "region": "England",
+      "lineage": "Sōtō / White Plum Asanga",
+      "address": "Nailsworth, Stroud, Gloucestershire",
+      "url": "https://www.woodchestervalleyzendo.co.uk/",
+      "source_url": "https://www.stonewaterzen.org/stonewater/local-groups/",
+      "notes": "Cotswolds zendo affiliated to StoneWater."
+    },
+    {
+      "name": "Wholehearted Zen Sangha",
+      "city": "Kingston upon Thames",
+      "region": "England",
+      "lineage": "Sōtō / White Plum Asanga (Maezumi line)",
+      "address": null,
+      "url": "https://wholeheartedzensangha.uk/about/",
+      "source_url": "https://whiteplum.org/",
+      "notes": "Independent White Plum sangha in south-west London suburbs."
+    },
+    {
+      "name": "The Zen Centre / Shobo-an (Hampstead Buddhist Society)",
+      "city": "London",
+      "region": "England",
+      "lineage": "Rinzai (Soko Morinaga line)",
+      "address": "58 Marlborough Place, St John's Wood, London NW8",
+      "url": "https://rinzaizencentre.org.uk/",
+      "source_url": "https://en.wikipedia.org/wiki/Zen_Centre",
+      "notes": "Shobo-an ('Hermitage of the True Dharma') consecrated 1984 by Soko Morinaga Roshi; bequeathed by Christmas Humphreys to the Zen Centre. Sister training house in Luton. Site at zencentre.org.uk currently unreachable; rinzaizencentre.org.uk is the live URL."
+    },
+    {
+      "name": "Shobo-an Luton Training House",
+      "city": "Luton",
+      "region": "England",
+      "lineage": "Rinzai (Soko Morinaga line)",
+      "address": null,
+      "url": "https://rinzaizencentre.org.uk/",
+      "source_url": "https://en.wikipedia.org/wiki/Zen_Centre",
+      "notes": "Second residential Rinzai training house, founded 1996."
+    },
+    {
+      "name": "Oxford Zen Centre",
+      "city": "Oxford",
+      "region": "England",
+      "lineage": "Sanbō Zen (Yamada Ryoun line)",
+      "address": null,
+      "url": "https://oxfordzencentre.org.uk/",
+      "source_url": "https://sanbo-zen-international.org/en/",
+      "notes": "Sanbo Zen sangha led by Sandy Chubb; Thursday evening Oxford zazen."
+    },
+    {
+      "name": "London Jizo Zen Centre",
+      "city": "London",
+      "region": "England",
+      "lineage": "Sanbō Zen (Yamada Ryoun line)",
+      "address": null,
+      "url": "https://oxfordzencentre.org.uk/",
+      "source_url": "https://sanbo-zen-international.org/en/",
+      "notes": "London arm of Oxford Zen Centre sangha, led by Sandy Chubb; meets Tuesday evenings."
+    },
+    {
+      "name": "Kwan Um London Zen Centre",
+      "city": "London",
+      "region": "England",
+      "lineage": "Kwan Um School of Zen (Seung Sahn lineage)",
+      "address": "Ilex House, Crouch Hill Road, London N4 4BY",
+      "url": "https://london-zen-centre.weebly.com/",
+      "source_url": "https://www.kwanumeurope.org/locations/london-zen-centre/",
+      "notes": "UK affiliate of Kwan Um School of Zen Europe."
+    },
+    {
+      "name": "The Buddhist Society (Zen programme)",
+      "city": "London",
+      "region": "England",
+      "lineage": "Rinzai-leaning ecumenical (Christmas Humphreys legacy)",
+      "address": "58 Eccleston Square, London SW1V 1PH",
+      "url": "https://thebuddhistsociety.org/",
+      "source_url": "https://thebuddhistsociety.org/",
+      "notes": "Hosts long-running Zen Meditation, Fundamentals of Zen, and Zen Sundays alongside other traditions; founded 1924."
+    },
+    {
+      "name": "Touching The Earth Sangha (Aberdeen)",
+      "city": "Aberdeen",
+      "region": "Scotland",
+      "lineage": "Plum Village (Thich Nhat Hanh / Thiền)",
+      "address": null,
+      "url": "https://plumvillage.uk/practice-groups/find-a-group/",
+      "source_url": "https://plumvillage.uk/practice-groups/find-a-group/",
+      "notes": "Plum Village UK in-person sangha."
+    },
+    {
+      "name": "Still Waters Sangha",
+      "city": "Ambleside",
+      "region": "England",
+      "lineage": "Plum Village",
+      "address": null,
+      "url": "https://plumvillage.uk/practice-groups/find-a-group/",
+      "source_url": "https://plumvillage.uk/practice-groups/find-a-group/",
+      "notes": "Lake District sangha."
+    },
+    {
+      "name": "Birmingham Sangha",
+      "city": "Birmingham",
+      "region": "England",
+      "lineage": "Plum Village",
+      "address": null,
+      "url": "https://plumvillage.uk/practice-groups/find-a-group/",
+      "source_url": "https://plumvillage.uk/practice-groups/find-a-group/",
+      "notes": "Plum Village UK group."
+    },
+    {
+      "name": "Floating Cloud Sangha",
+      "city": "Bradford-on-Avon",
+      "region": "England",
+      "lineage": "Plum Village",
+      "address": null,
+      "url": "https://plumvillage.uk/practice-groups/find-a-group/",
+      "source_url": "https://plumvillage.uk/practice-groups/find-a-group/",
+      "notes": "Plum Village UK group, Wiltshire."
+    },
+    {
+      "name": "Pebbles Sangha",
+      "city": "Brighton",
+      "region": "England",
+      "lineage": "Plum Village",
+      "address": null,
+      "url": "https://plumvillage.uk/practice-groups/find-a-group/",
+      "source_url": "https://plumvillage.uk/practice-groups/find-a-group/",
+      "notes": "Plum Village UK group."
+    },
+    {
+      "name": "White Clouds Sangha Bristol",
+      "city": "Bristol",
+      "region": "England",
+      "lineage": "Plum Village",
+      "address": null,
+      "url": "https://plumvillage.uk/practice-groups/find-a-group/",
+      "source_url": "https://plumvillage.uk/practice-groups/find-a-group/",
+      "notes": "Plum Village UK group."
+    },
+    {
+      "name": "Cambridge Interbeing Sangha",
+      "city": "Cambridge",
+      "region": "England",
+      "lineage": "Plum Village",
+      "address": null,
+      "url": "https://plumvillage.uk/practice-groups/find-a-group/",
+      "source_url": "https://plumvillage.uk/practice-groups/find-a-group/",
+      "notes": "Plum Village UK group."
+    },
+    {
+      "name": "Daffodil Sangha",
+      "city": "Cardiff",
+      "region": "Wales",
+      "lineage": "Plum Village",
+      "address": null,
+      "url": "https://plumvillage.uk/practice-groups/find-a-group/",
+      "source_url": "https://plumvillage.uk/practice-groups/find-a-group/",
+      "notes": "Plum Village UK group, Wales."
+    },
+    {
+      "name": "Heart of London Sangha",
+      "city": "London",
+      "region": "England",
+      "lineage": "Plum Village",
+      "address": null,
+      "url": "https://plumvillage.uk/practice-groups/find-a-group/",
+      "source_url": "https://plumvillage.uk/practice-groups/find-a-group/",
+      "notes": "Central London Plum Village sangha."
+    },
+    {
+      "name": "North London Sangha",
+      "city": "London",
+      "region": "England",
+      "lineage": "Plum Village",
+      "address": null,
+      "url": "https://plumvillage.uk/practice-groups/find-a-group/",
+      "source_url": "https://plumvillage.uk/practice-groups/find-a-group/",
+      "notes": "Plum Village UK group."
+    },
+    {
+      "name": "Seven Sisters Sangha",
+      "city": "London",
+      "region": "England",
+      "lineage": "Plum Village",
+      "address": "Tottenham Hale, London",
+      "url": "https://plumvillage.uk/practice-groups/find-a-group/",
+      "source_url": "https://plumvillage.uk/practice-groups/find-a-group/",
+      "notes": "Plum Village UK group."
+    },
+    {
+      "name": "Mai Blossom UK (Vietnamese-language sangha)",
+      "city": "London",
+      "region": "England",
+      "lineage": "Plum Village (Thiền)",
+      "address": null,
+      "url": "https://plumvillage.uk/practice-groups/find-a-group/",
+      "source_url": "https://plumvillage.uk/practice-groups/find-a-group/",
+      "notes": "Vietnamese Plum Village sangha in London."
+    },
+    {
+      "name": "Wild Geese Sangha",
+      "city": "Edinburgh",
+      "region": "Scotland",
+      "lineage": "Plum Village",
+      "address": null,
+      "url": "https://plumvillage.uk/practice-groups/find-a-group/",
+      "source_url": "https://plumvillage.uk/practice-groups/find-a-group/",
+      "notes": "Plum Village UK group."
+    },
+    {
+      "name": "Dear Green Sangha",
+      "city": "Glasgow",
+      "region": "Scotland",
+      "lineage": "Plum Village",
+      "address": null,
+      "url": "https://plumvillage.uk/practice-groups/find-a-group/",
+      "source_url": "https://plumvillage.uk/practice-groups/find-a-group/",
+      "notes": "Plum Village UK group."
+    },
+    {
+      "name": "Northern Lights Sangha",
+      "city": "Findhorn",
+      "region": "Scotland",
+      "lineage": "Plum Village",
+      "address": null,
+      "url": "https://plumvillage.uk/practice-groups/find-a-group/",
+      "source_url": "https://plumvillage.uk/practice-groups/find-a-group/",
+      "notes": "Plum Village sangha in Findhorn community area."
+    },
+    {
+      "name": "Heart of Manchester Sangha",
+      "city": "Manchester",
+      "region": "England",
+      "lineage": "Plum Village",
+      "address": null,
+      "url": "https://plumvillage.uk/practice-groups/find-a-group/",
+      "source_url": "https://plumvillage.uk/practice-groups/find-a-group/",
+      "notes": "Plum Village UK group."
+    },
+    {
+      "name": "Heart of Liverpool Sangha",
+      "city": "Liverpool",
+      "region": "England",
+      "lineage": "Plum Village",
+      "address": null,
+      "url": "https://plumvillage.uk/practice-groups/find-a-group/",
+      "source_url": "https://plumvillage.uk/practice-groups/find-a-group/",
+      "notes": "Plum Village UK group."
+    },
+    {
+      "name": "Northern Lotus Sangha",
+      "city": "Newcastle upon Tyne",
+      "region": "England",
+      "lineage": "Plum Village",
+      "address": null,
+      "url": "https://plumvillage.uk/practice-groups/find-a-group/",
+      "source_url": "https://plumvillage.uk/practice-groups/find-a-group/",
+      "notes": "Plum Village UK group."
+    },
+    {
+      "name": "Oxford Sangha",
+      "city": "Oxford",
+      "region": "England",
+      "lineage": "Plum Village",
+      "address": null,
+      "url": "https://plumvillage.uk/practice-groups/find-a-group/",
+      "source_url": "https://plumvillage.uk/practice-groups/find-a-group/",
+      "notes": "Plum Village UK group."
+    },
+    {
+      "name": "Two Rivers Sangha",
+      "city": "Reading",
+      "region": "England",
+      "lineage": "Plum Village",
+      "address": null,
+      "url": "https://plumvillage.uk/practice-groups/find-a-group/",
+      "source_url": "https://plumvillage.uk/practice-groups/find-a-group/",
+      "notes": "Plum Village UK group."
+    },
+    {
+      "name": "Heart of the Forest Sangha",
+      "city": "Forest Row",
+      "region": "England",
+      "lineage": "Plum Village",
+      "address": null,
+      "url": "https://plumvillage.uk/practice-groups/find-a-group/",
+      "source_url": "https://plumvillage.uk/practice-groups/find-a-group/",
+      "notes": "Plum Village UK group, East Sussex."
+    },
+    {
+      "name": "Swallowtail Sangha",
+      "city": "Norwich",
+      "region": "England",
+      "lineage": "Plum Village",
+      "address": null,
+      "url": "https://plumvillage.uk/practice-groups/find-a-group/",
+      "source_url": "https://plumvillage.uk/practice-groups/find-a-group/",
+      "notes": "Plum Village UK group."
+    },
+    {
+      "name": "Deep Roots Sangha",
+      "city": "Nottingham",
+      "region": "England",
+      "lineage": "Plum Village",
+      "address": null,
+      "url": "https://plumvillage.uk/practice-groups/find-a-group/",
+      "source_url": "https://plumvillage.uk/practice-groups/find-a-group/",
+      "notes": "Plum Village UK group."
+    },
+    {
+      "name": "Leeds InterBeing Sangha",
+      "city": "Leeds",
+      "region": "England",
+      "lineage": "Plum Village",
+      "address": null,
+      "url": "https://plumvillage.uk/practice-groups/find-a-group/",
+      "source_url": "https://plumvillage.uk/practice-groups/find-a-group/",
+      "notes": "Plum Village UK group."
+    },
+    {
+      "name": "York Sangha",
+      "city": "York",
+      "region": "England",
+      "lineage": "Plum Village",
+      "address": null,
+      "url": "https://plumvillage.uk/practice-groups/find-a-group/",
+      "source_url": "https://plumvillage.uk/practice-groups/find-a-group/",
+      "notes": "Plum Village UK group."
+    },
+    {
+      "name": "Mynydd Cadarn (Solid Mountain) Sangha",
+      "city": "Newport",
+      "region": "Wales",
+      "lineage": "Plum Village",
+      "address": null,
+      "url": "https://plumvillage.uk/practice-groups/find-a-group/",
+      "source_url": "https://plumvillage.uk/practice-groups/find-a-group/",
+      "notes": "Plum Village UK group, south Wales."
+    },
+    {
+      "name": "Heart of Transformation Sangha",
+      "city": "Wrexham",
+      "region": "Wales",
+      "lineage": "Plum Village",
+      "address": null,
+      "url": "https://plumvillage.uk/practice-groups/find-a-group/",
+      "source_url": "https://plumvillage.uk/practice-groups/find-a-group/",
+      "notes": "Plum Village UK group, north Wales."
+    },
+    {
+      "name": "Open Waves Sangha",
+      "city": "St Davids",
+      "region": "Wales",
+      "lineage": "Plum Village",
+      "address": null,
+      "url": "https://plumvillage.uk/practice-groups/find-a-group/",
+      "source_url": "https://plumvillage.uk/practice-groups/find-a-group/",
+      "notes": "Plum Village UK group, Pembrokeshire."
+    },
+    {
+      "name": "Red Valley Sangha",
+      "city": "Gilfach Goch",
+      "region": "Wales",
+      "lineage": "Plum Village",
+      "address": null,
+      "url": "https://plumvillage.uk/practice-groups/find-a-group/",
+      "source_url": "https://plumvillage.uk/practice-groups/find-a-group/",
+      "notes": "Plum Village UK group, Rhondda."
+    },
+    {
+      "name": "Tall Trees Sangha",
+      "city": "Newtownabbey",
+      "region": "Northern Ireland",
+      "lineage": "Plum Village",
+      "address": null,
+      "url": "https://plumvillage.uk/practice-groups/find-a-group/",
+      "source_url": "https://plumvillage.uk/practice-groups/find-a-group/",
+      "notes": "Plum Village UK group, NI."
+    },
+    {
+      "name": "Gaiatree Family Sangha",
+      "city": "Moira",
+      "region": "Northern Ireland",
+      "lineage": "Plum Village",
+      "address": null,
+      "url": "https://plumvillage.uk/practice-groups/find-a-group/",
+      "source_url": "https://plumvillage.uk/practice-groups/find-a-group/",
+      "notes": "Plum Village UK group, Co. Down."
+    }
+  ]
+}
