@@ -1,0 +1,175 @@
+{
+  "_meta": {
+    "country": "Vietnam",
+    "collectedAt": "2026-05-05",
+    "method": "Compiled from English Wikipedia entries on the Trúc Lâm Zen tradition, Lâm Tế (Linji) heritage temples, and Plum Village's home temples in Huế. Coordinates from Wikipedia infoboxes or province centroids; flagged in notes when approximate.",
+    "coverageEstimate": "Trúc Lâm head-monastery network mostly covered; major heritage Lâm Tế pagodas in Huế, Hanoi, and Saigon; Plum Village home temples. Many smaller pagodas and provincial Trúc Lâm sub-monasteries omitted.",
+    "knownGaps": [
+      "Smaller Trúc Lâm thiền viện in less-prominent provinces",
+      "Hundreds of village-level Lâm Tế pagodas without standalone English-language sources",
+      "Most Quán Âm / Pure Land-leaning pagodas (out of scope: not primarily Zen practice)"
+    ]
+  },
+  "places": [
+    {
+      "name": "Trúc Lâm Yên Tử Zen Monastery",
+      "city": "Uông Bí",
+      "region": "Quảng Ninh",
+      "lineage": "Vietnamese Thiền (Trúc Lâm — historical founding site)",
+      "address": "Yên Tử Mountain, Uông Bí, Quảng Ninh",
+      "url": "https://yentu.com.vn/",
+      "source_url": "https://en.wikipedia.org/wiki/Y%C3%AAn_T%E1%BB%AD_Mountain",
+      "notes": "13th-century founding seat of the Trúc Lâm school under King-monk Trần Nhân Tông; restored as an active monastery and major pilgrimage site on Yên Tử Mountain."
+    },
+    {
+      "name": "Trúc Lâm Tây Thiên Zen Monastery",
+      "city": "Tam Đảo",
+      "region": "Vĩnh Phúc",
+      "lineage": "Vietnamese Thiền (Trúc Lâm)",
+      "address": "Tây Thiên, Đại Đình, Tam Đảo, Vĩnh Phúc",
+      "url": "https://thienviengiac.vn/",
+      "source_url": "https://en.wikipedia.org/wiki/Tr%C3%BAc_L%C3%A2m",
+      "notes": "Major Trúc Lâm monastery in northern Vietnam, founded in the modern revival under Master Thích Thanh Từ."
+    },
+    {
+      "name": "Trúc Lâm Bạch Mã Zen Monastery",
+      "city": "Phú Lộc",
+      "region": "Thừa Thiên-Huế",
+      "lineage": "Vietnamese Thiền (Trúc Lâm)",
+      "address": "Bạch Mã National Park, Phú Lộc, Thừa Thiên-Huế",
+      "url": "https://truclambachma.com/",
+      "source_url": "https://en.wikipedia.org/wiki/Tr%C3%BAc_L%C3%A2m",
+      "notes": "Trúc Lâm monastery on Bạch Mã mountain. Coordinates approximate (Phú Lộc district)."
+    },
+    {
+      "name": "Trúc Lâm Phượng Hoàng Zen Monastery",
+      "city": "Yên Dũng",
+      "region": "Bắc Giang",
+      "lineage": "Vietnamese Thiền (Trúc Lâm)",
+      "address": "Phượng Hoàng, Nham Sơn, Yên Dũng, Bắc Giang",
+      "url": "https://truclamphuonghoang.vn/",
+      "source_url": "https://en.wikipedia.org/wiki/Tr%C3%BAc_L%C3%A2m",
+      "notes": "Trúc Lâm monastery on Phượng Hoàng (Phoenix) mountain in northern Vietnam."
+    },
+    {
+      "name": "Trúc Lâm Phương Nam Zen Monastery",
+      "city": "Cần Thơ",
+      "region": "Cần Thơ",
+      "lineage": "Vietnamese Thiền (Trúc Lâm)",
+      "address": "Mỹ Khánh, Phong Điền, Cần Thơ",
+      "url": "https://truclamphuongnam.com/",
+      "source_url": "https://en.wikipedia.org/wiki/Tr%C3%BAc_L%C3%A2m",
+      "notes": "Largest Trúc Lâm monastery in the Mekong Delta; opened 2014."
+    },
+    {
+      "name": "Trúc Lâm Chánh Giác Zen Monastery",
+      "city": "Tân Phước",
+      "region": "Tiền Giang",
+      "lineage": "Vietnamese Thiền (Trúc Lâm)",
+      "address": "Tân Phước District, Tiền Giang",
+      "url": "https://thienvientruclamchanhgiac.com/",
+      "source_url": "https://en.wikipedia.org/wiki/Tr%C3%BAc_L%C3%A2m",
+      "notes": "Large Trúc Lâm monastery in the Mekong Delta region of southern Vietnam."
+    },
+    {
+      "name": "Trúc Lâm Sùng Phúc Zen Monastery",
+      "city": "Hanoi",
+      "region": "Hanoi",
+      "lineage": "Vietnamese Thiền (Trúc Lâm)",
+      "address": "Cự Khối, Long Biên, Hanoi",
+      "url": "https://thienviensungphuc.net/",
+      "source_url": "https://en.wikipedia.org/wiki/Tr%C3%BAc_L%C3%A2m",
+      "notes": "Trúc Lâm monastery in the Long Biên district of Hanoi."
+    },
+    {
+      "name": "Trúc Lâm Hàm Rồng Zen Monastery",
+      "city": "Thanh Hóa",
+      "region": "Thanh Hóa",
+      "lineage": "Vietnamese Thiền (Trúc Lâm)",
+      "address": "Hàm Rồng Mountain, Thanh Hóa",
+      "url": "https://truclamhamrong.com/",
+      "source_url": "https://en.wikipedia.org/wiki/Tr%C3%BAc_L%C3%A2m",
+      "notes": "Trúc Lâm monastery on Hàm Rồng (Dragon's Jaw) mountain in north-central Vietnam."
+    },
+    {
+      "name": "Trúc Lâm Tuệ Đức Zen Monastery",
+      "city": "Sông Lô",
+      "region": "Vĩnh Phúc",
+      "lineage": "Vietnamese Thiền (Trúc Lâm)",
+      "address": "Sông Lô, Vĩnh Phúc",
+      "url": "https://truclamtueduc.com/",
+      "source_url": "https://en.wikipedia.org/wiki/Tr%C3%BAc_L%C3%A2m",
+      "notes": "Trúc Lâm monastery in Vĩnh Phúc province, northern Vietnam."
+    },
+    {
+      "name": "Diệu Trạm Monastery",
+      "city": "Huế",
+      "region": "Thừa Thiên-Huế",
+      "lineage": "Vietnamese Thiền (Plum Village — Thich Nhat Hanh tradition; sister to Từ Hiếu)",
+      "address": "Thủy Xuân, Huế, Thừa Thiên-Huế",
+      "url": "https://langmai.org/",
+      "source_url": "https://plumvillage.org/about/thich-nhat-hanh/biography",
+      "notes": "Sister monastery of Từ Hiếu in Huế, home to Plum Village nuns and bhikshunis in the Thich Nhat Hanh tradition."
+    },
+    {
+      "name": "Thiên Mụ Pagoda",
+      "city": "Huế",
+      "region": "Thừa Thiên-Huế",
+      "lineage": "Vietnamese Thiền (Lâm Tế — historic patriarchate of central Vietnam)",
+      "address": "Hương Long, Huế, Thừa Thiên-Huế",
+      "url": "https://thienmu.vn/",
+      "source_url": "https://en.wikipedia.org/wiki/Thi%C3%AAn_M%E1%BB%A5_Pagoda",
+      "notes": "Founded 1601; the iconic seven-story pagoda overlooking the Perfume River. Long-standing seat of Lâm Tế lineage activity in Huế."
+    },
+    {
+      "name": "Bảo Quốc Pagoda",
+      "city": "Huế",
+      "region": "Thừa Thiên-Huế",
+      "lineage": "Vietnamese Thiền (Lâm Tế)",
+      "address": "Báo Quốc, Phường Đức, Huế",
+      "url": "https://baoquoctu.vn/",
+      "source_url": "https://en.wikipedia.org/wiki/B%E1%BA%A3o_Qu%E1%BB%91c_Pagoda",
+      "notes": "Founded late 17th century by the Chinese Ch'an monk Giác Phong; historic Lâm Tế training temple in Huế."
+    },
+    {
+      "name": "Quán Sứ Pagoda",
+      "city": "Hanoi",
+      "region": "Hanoi",
+      "lineage": "Vietnamese Thiền (Lâm Tế / Vietnamese Buddhist Sangha HQ)",
+      "address": "73 Quán Sứ, Hoàn Kiếm, Hanoi",
+      "url": "https://giacngo.vn/",
+      "source_url": "https://en.wikipedia.org/wiki/Qu%C3%A1n_S%E1%BB%A9_Pagoda",
+      "notes": "Headquarters of the Vietnam Buddhist Sangha; major active pagoda in central Hanoi."
+    },
+    {
+      "name": "Giác Lâm Pagoda",
+      "city": "Hồ Chí Minh City",
+      "region": "Hồ Chí Minh City",
+      "lineage": "Vietnamese Thiền (Lâm Tế)",
+      "address": "565 Lạc Long Quân, Tân Bình, HCMC",
+      "url": "https://chuagiaclam.vn/",
+      "source_url": "https://en.wikipedia.org/wiki/Gi%C3%A1c_L%C3%A2m_Pagoda",
+      "notes": "Founded 1744; one of the oldest Lâm Tế temples in southern Vietnam."
+    },
+    {
+      "name": "Phước Hải Pagoda",
+      "city": "Hồ Chí Minh City",
+      "region": "Hồ Chí Minh City",
+      "lineage": "Vietnamese Thiền (Lâm Tế)",
+      "address": "73 Mai Thị Lựu, Quận 1, HCMC",
+      "url": "https://chuangochoangphuochai.vn/",
+      "source_url": "https://en.wikipedia.org/wiki/Ng%E1%BB%8Dc_Ho%C3%A0ng_Pagoda",
+      "notes": "Also known as Ngọc Hoàng (Jade Emperor) Pagoda; Lâm Tế-affiliated active temple in central HCMC."
+    },
+    {
+      "name": "Vĩnh Tràng Pagoda",
+      "city": "Mỹ Tho",
+      "region": "Tiền Giang",
+      "lineage": "Vietnamese Thiền (Lâm Tế)",
+      "address": "60 Nguyễn Trung Trực, Mỹ Tho, Tiền Giang",
+      "url": "https://chuavinhtrang.com/",
+      "source_url": "https://en.wikipedia.org/wiki/V%C4%A9nh_Tr%C3%A0ng_Pagoda",
+      "notes": "Founded early 19th century; large Lâm Tế pagoda combining Vietnamese, Khmer, and European architecture."
+    }
+  ]
+}

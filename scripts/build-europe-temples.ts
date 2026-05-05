@@ -121,10 +121,23 @@ function lineageToSchoolSlug(lineage: string): string {
   if (l.includes("taego")) return "taego-order";
   if (l.includes("cheontae") || l.includes("tiantai")) return "other";
   if (l.includes("seon")) return "jogye"; // generic Korean Seon → default to Jogye (largest order)
-  if (l.includes("plum village") || l.includes("thiền") || l.includes("thien"))
+  // Vietnamese Thiền — check specific schools before generic Plum Village fallback.
+  if (l.includes("trúc lâm") || l.includes("truc lam")) return "truc-lam";
+  if (l.includes("lâm tế") || l.includes("lam te")) return "lam-te";
+  if (
+    l.includes("plum village") ||
+    l.includes("thich nhat hanh") ||
+    l.includes("làng mai") ||
+    l.includes("lang mai")
+  )
     return "plum-village";
+  // Generic Vietnamese Thiền with no subschool marker — bucket as "other"
+  // rather than blindly assigning Plum Village.
+  if (l.includes("thiền") || l.includes("thien")) return "other";
   if (l.includes("sanbō zen") || l.includes("sanbo zen")) return "sanbo-zen";
   if (l.includes("rinzai")) return "rinzai";
+  if (l.includes("ōbaku") || l.includes("obaku")) return "obaku";
+  if (l.includes("chan") || l.includes("ch'an")) return "chan";
   // Sōtō covers AZI/Deshimaru, Kosen Sangha, Kanshoji, Sotoshu, Dogen Sangha,
   // Moriyama/Aoyama, Nishijima, etc.
   return "soto";

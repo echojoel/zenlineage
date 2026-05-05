@@ -245,7 +245,7 @@ export default function AboutPage() {
           />
           <figcaption className="figure-credit">
             Thích Nhất Hạnh (1926–2022) — modern teacher of Vietnamese Thiền and founder
-            of Plum Village (photo via Wikimedia Commons).
+            of Plum Village. Photo: Duc (pixiduc), Paris 2006, CC BY-SA 2.0 via Wikimedia Commons.
           </figcaption>
         </figure>
 

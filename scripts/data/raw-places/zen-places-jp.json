@@ -1,0 +1,326 @@
+{
+  "_meta": {
+    "country": "Japan",
+    "collectedAt": "2026-05-05",
+    "method": "Compiled from (1) Sōtōshū's official 'temples welcoming foreign practitioners' directory at sotozen-navi.com (page 1 of 12), (2) Rinzai-Ōbaku Federation honzan list with English Wikipedia infobox cross-checks, (3) widely-attested major Sōtō / Rinzai senmon-sōdō (training monasteries).",
+    "coverageEstimate": "Honzan saturation for Rinzai, plus a representative slice of foreign-friendly parish temples and training monasteries; Sōtōshū's full directory has 228 foreign-friendly entries, only first page included this round.",
+    "knownGaps": [
+      "Sōtōshū foreign-friendly directory pages 2-12 (~209 more parish temples)",
+      "Many Rinzai sub-honzan and bekkaku jiin",
+      "Most Sōtō senmon-sōdō (only the most-visible internationally are included)",
+      "Ōbaku temples beyond Manpuku-ji"
+    ]
+  },
+  "places": [
+    {
+      "name": "Engaku-ji",
+      "city": "Kamakura",
+      "region": "Kanagawa",
+      "lineage": "Rinzai (Engaku-ji-ha head temple, honzan)",
+      "address": "409 Yamanouchi, Kamakura, Kanagawa 247-0062",
+      "url": "https://www.engakuji.or.jp/",
+      "source_url": "https://en.wikipedia.org/wiki/Engaku-ji",
+      "notes": "Founded 1282 by Mugaku Sogen; head temple of the Engaku-ji branch of Rinzai. Open daily for tourist visits and hosts public zazenkai."
+    },
+    {
+      "name": "Kenchō-ji",
+      "city": "Kamakura",
+      "region": "Kanagawa",
+      "lineage": "Rinzai (Kenchō-ji-ha head temple, honzan)",
+      "address": "8 Yamanouchi, Kamakura, Kanagawa 247-8525",
+      "url": "https://www.kenchoji.com/",
+      "source_url": "https://en.wikipedia.org/wiki/Kench%C5%8D-ji",
+      "notes": "Founded 1253 by Lanxi Daolong; oldest formal Zen training monastery in Japan; head temple of the Kenchō-ji branch of Rinzai."
+    },
+    {
+      "name": "Hōkō-ji",
+      "city": "Hamamatsu",
+      "region": "Shizuoka",
+      "lineage": "Rinzai (Hōkō-ji-ha head temple, honzan)",
+      "address": "Okuyama 1577-1, Inasa-chō, Kita-ku, Hamamatsu 431-2224",
+      "url": "https://houkouji.or.jp/",
+      "source_url": "https://en.wikipedia.org/wiki/H%C5%8Dk%C5%8D-ji_(Shizuoka)",
+      "notes": "Founded 1384; head temple of the Hōkō-ji branch of Rinzai."
+    },
+    {
+      "name": "Buttsū-ji",
+      "city": "Mihara",
+      "region": "Hiroshima",
+      "lineage": "Rinzai (Buttsū-ji-ha head temple, honzan)",
+      "address": "22 Mitsugi-chō Yasuhigashi, Mihara, Hiroshima 729-0471",
+      "url": "https://buttsuji.or.jp/",
+      "source_url": "https://en.wikipedia.org/wiki/Butts%C5%ABji",
+      "notes": "Founded 1397 by Guchū Shūkyū; head temple of the Buttsū-ji branch of Rinzai."
+    },
+    {
+      "name": "Hōfuku-ji",
+      "city": "Sōja",
+      "region": "Okayama",
+      "lineage": "Rinzai (Hōfuku-ji-ha head temple, honzan)",
+      "address": "1162 Ihoku Hōfukuji, Sōja, Okayama 719-1101",
+      "url": "https://www.hofuku-ji.org/",
+      "source_url": "https://en.wikipedia.org/wiki/H%C5%8Dfuku-ji",
+      "notes": "Founded 1242; head temple of the Hōfuku-ji branch of Rinzai. Sesshū studied here in his youth."
+    },
+    {
+      "name": "Kōgaku-ji",
+      "city": "Kōshū",
+      "region": "Yamanashi",
+      "lineage": "Rinzai (Kōgaku-ji-ha head temple, honzan)",
+      "address": "2026 Shioyama, Kōshū, Yamanashi 404-0024",
+      "url": "https://kogakuji-rinzai.com/",
+      "source_url": "https://en.wikipedia.org/wiki/K%C5%8Dgaku-ji",
+      "notes": "Founded 1380 by Bassui Tokushō; head temple of the Kōgaku-ji branch of Rinzai."
+    },
+    {
+      "name": "Eigen-ji",
+      "city": "Higashiōmi",
+      "region": "Shiga",
+      "lineage": "Rinzai (Eigen-ji-ha head temple, honzan)",
+      "address": "41 Eigenji Takano-chō, Higashiōmi, Shiga 527-0212",
+      "url": "https://eigenji-t.jp/",
+      "source_url": "https://en.wikipedia.org/wiki/Eigen-ji",
+      "notes": "Founded 1361 by Jakushitsu Genkō; head temple of the Eigen-ji branch of Rinzai. Famous for autumn maples."
+    },
+    {
+      "name": "Sōji-ji Soin",
+      "city": "Noto",
+      "region": "Ishikawa",
+      "lineage": "Sōtō (former head temple, jōin)",
+      "address": "1-18-1 Monzen-machi, Wajima, Ishikawa 927-2156",
+      "url": "https://www.noto-soujiji.jp/",
+      "source_url": "https://en.wikipedia.org/wiki/S%C5%8Dji-ji",
+      "notes": "Original Sōji-ji on the Noto Peninsula; founded 1321 by Keizan Jōkin. After 1898 fire, head-temple status moved to Tsurumi (Yokohama); the Noto site retains 'Soin' (founding sub-temple) status."
+    },
+    {
+      "name": "Hosshin-ji",
+      "city": "Obama",
+      "region": "Fukui",
+      "lineage": "Sōtō (senmon-sōdō / training monastery)",
+      "address": "1-3 Tenjin Saiwai-chō, Obama, Fukui 917-0066",
+      "url": "https://hosshinji.or.jp/",
+      "source_url": "https://en.wikipedia.org/wiki/Hosshin-ji",
+      "notes": "Founded 1899; Sōtō Zen training monastery known internationally for foreign-practitioner programs led by Harada Daiun Sogaku, his successors and Hōzumi Gensho Roshi."
+    },
+    {
+      "name": "Zuiō-ji",
+      "city": "Niihama",
+      "region": "Ehime",
+      "lineage": "Sōtō (senmon-sōdō / training monastery)",
+      "address": "8-1 Yamane-chō, Niihama, Ehime 792-0835",
+      "url": "https://www.zuioji.or.jp/",
+      "source_url": "https://en.wikipedia.org/wiki/Zui%C5%8D-ji",
+      "notes": "Sōtō Zen senmon-sōdō; refounded 1875. Several Western Sōtō teachers (Tangen Harada, Loori, others) trained here."
+    },
+    {
+      "name": "Daiyū-zan Saijō-ji",
+      "city": "Odawara",
+      "region": "Kanagawa",
+      "lineage": "Sōtō (bekkaku honzan)",
+      "address": "1157 Daiyūchō, Odawara, Kanagawa 250-0127",
+      "url": "https://www.daiyuuzan.or.jp/",
+      "source_url": "https://en.wikipedia.org/wiki/Saij%C5%8D-ji",
+      "notes": "Founded 1394 by Ryōan Emyō; Sōtō Zen 'bekkaku honzan' — special-rank head temple — and major pilgrimage destination."
+    },
+    {
+      "name": "Bukkoku-ji",
+      "city": "Obama",
+      "region": "Fukui",
+      "lineage": "Sōtō (small training temple — Tangen Roshi line)",
+      "address": "44 Sano, Obama, Fukui 917-0237",
+      "url": "https://bukkokuji.com/",
+      "source_url": "https://en.wikipedia.org/wiki/Bukkoku-ji",
+      "notes": "Small intensive Sōtō training temple founded by Harada Tangen Roshi; long-standing destination for Western Zen practitioners."
+    },
+    {
+      "name": "Shōfuku-ji",
+      "city": "Kobe",
+      "region": "Hyōgo",
+      "lineage": "Rinzai (senmon-sōdō / training monastery — Myōshin-ji-ha)",
+      "address": "1-9-1 Hirano-chō, Hyōgo-ku, Kobe, Hyōgo 652-0801",
+      "url": "https://www.zen-shofukuji.jp/",
+      "source_url": "https://en.wikipedia.org/wiki/Sh%C5%8Dfuku-ji_(Kobe)",
+      "notes": "Rinzai senmon-sōdō led for many years by Yamada Mumon Rōshi; major training destination in Kobe."
+    },
+    {
+      "name": "Tōkō-ji",
+      "city": "Matsue",
+      "region": "Shimane",
+      "lineage": "Sōtō (parish temple welcoming foreign practitioners)",
+      "address": "832 Shinmachi, Matsue, Shimane 690-0057",
+      "url": "https://sotozen-navi.com/",
+      "source_url": "https://sotozen-navi.com/?cate=22",
+      "notes": "Listed in Sōtōshū's official directory of temples that welcome foreign zazen practitioners (外国人参禅)."
+    },
+    {
+      "name": "Unsei-ji",
+      "city": "Akashi",
+      "region": "Hyōgo",
+      "lineage": "Sōtō (parish temple welcoming foreign practitioners)",
+      "address": "5-23 Hitomarumachi, Akashi, Hyōgo 673-0877",
+      "url": "https://sotozen-navi.com/",
+      "source_url": "https://sotozen-navi.com/?cate=22",
+      "notes": "Gesshōzan Unsei-ji; listed in Sōtōshū's official directory of foreign-zazen-friendly temples."
+    },
+    {
+      "name": "Zenshō-ji Nakatsugawa",
+      "city": "Nakatsugawa",
+      "region": "Gifu",
+      "lineage": "Sōtō (parish temple welcoming foreign practitioners)",
+      "address": "864-1 Ochiai, Nakatsugawa, Gifu 508-0006",
+      "url": "https://sotozen-navi.com/",
+      "source_url": "https://sotozen-navi.com/?cate=22",
+      "notes": "Listed in Sōtōshū's official directory of foreign-zazen-friendly temples."
+    },
+    {
+      "name": "Dairyū-ji Oga",
+      "city": "Oga",
+      "region": "Akita",
+      "lineage": "Sōtō (parish temple welcoming foreign practitioners)",
+      "address": "Funakawakō Funakawa Toriyaba 34, Oga, Akita 010-0511",
+      "url": "https://sotozen-navi.com/",
+      "source_url": "https://sotozen-navi.com/?cate=22",
+      "notes": "Kaizōzan Dairyū-ji; listed in Sōtōshū's official directory of foreign-zazen-friendly temples."
+    },
+    {
+      "name": "Toyokawa-ji Hiratsuka",
+      "city": "Hiratsuka",
+      "region": "Kanagawa",
+      "lineage": "Sōtō (parish temple welcoming foreign practitioners)",
+      "address": "16-21 Akashi-chō, Hiratsuka, Kanagawa 254-0042",
+      "url": "https://sotozen-navi.com/",
+      "source_url": "https://sotozen-navi.com/?cate=22",
+      "notes": "Hiratsukazan Toyokawa-ji; listed in Sōtōshū's official directory of foreign-zazen-friendly temples."
+    },
+    {
+      "name": "Anraku-ji Yamanashi",
+      "city": "Chūō",
+      "region": "Yamanashi",
+      "lineage": "Sōtō (parish temple welcoming foreign practitioners)",
+      "address": "571 Gokurakuji, Chūō, Yamanashi 409-3811",
+      "url": "https://sotozen-navi.com/",
+      "source_url": "https://sotozen-navi.com/?cate=22",
+      "notes": "Hōfuzan Anraku-ji; listed in Sōtōshū's official directory of foreign-zazen-friendly temples."
+    },
+    {
+      "name": "Fusai-ji Murakami",
+      "city": "Murakami",
+      "region": "Niigata",
+      "lineage": "Sōtō (parish temple welcoming foreign practitioners)",
+      "address": "1847 Obasawa, Murakami, Niigata 958-0253",
+      "url": "https://sotozen-navi.com/",
+      "source_url": "https://sotozen-navi.com/?cate=22",
+      "notes": "Taiyōzan Fusai-ji; listed in Sōtōshū's official directory of foreign-zazen-friendly temples."
+    },
+    {
+      "name": "Kentoku-ji Nakagawa",
+      "city": "Nakagawa",
+      "region": "Tochigi",
+      "lineage": "Sōtō (parish temple welcoming foreign practitioners)",
+      "address": "Batō 114, Nakagawa-machi, Naka-gun, Tochigi 324-0613",
+      "url": "https://sotozen-navi.com/",
+      "source_url": "https://sotozen-navi.com/?cate=22",
+      "notes": "Ryūtakuzan Kentoku-ji; listed in Sōtōshū's official directory of foreign-zazen-friendly temples."
+    },
+    {
+      "name": "Jūrin-ji Fujinomiya",
+      "city": "Fujinomiya",
+      "region": "Shizuoka",
+      "lineage": "Sōtō (parish temple welcoming foreign practitioners)",
+      "address": "418-1 Ōiwa, Fujinomiya, Shizuoka 418-0013",
+      "url": "https://sotozen-navi.com/",
+      "source_url": "https://sotozen-navi.com/?cate=22",
+      "notes": "Fujisan Jūrin-ji; listed in Sōtōshū's official directory of foreign-zazen-friendly temples."
+    },
+    {
+      "name": "Daiun-ji Sakuragawa",
+      "city": "Sakuragawa",
+      "region": "Ibaraki",
+      "lineage": "Sōtō (parish temple welcoming foreign practitioners)",
+      "address": "1721-1 Tomiya, Sakuragawa, Ibaraki 309-1347",
+      "url": "https://sotozen-navi.com/",
+      "source_url": "https://sotozen-navi.com/?cate=22",
+      "notes": "Tomiyasan Daiun-ji; listed in Sōtōshū's official directory of foreign-zazen-friendly temples."
+    },
+    {
+      "name": "Chōsen-ji Nakagawa",
+      "city": "Nakagawa",
+      "region": "Tochigi",
+      "lineage": "Sōtō (parish temple welcoming foreign practitioners)",
+      "address": "Shiraku 777, Nakagawa-machi, Naka-gun, Tochigi 324-0513",
+      "url": "https://sotozen-navi.com/",
+      "source_url": "https://sotozen-navi.com/?cate=22",
+      "notes": "Shirakusan Chōsen-ji; listed in Sōtōshū's official directory of foreign-zazen-friendly temples."
+    },
+    {
+      "name": "Chūō-in Tomakomai",
+      "city": "Tomakomai",
+      "region": "Hokkaidō",
+      "lineage": "Sōtō (parish temple welcoming foreign practitioners)",
+      "address": "1-8-18 Motomachi, Tomakomai, Hokkaidō 053-0804",
+      "url": "https://sotozen-navi.com/",
+      "source_url": "https://sotozen-navi.com/?cate=22",
+      "notes": "Jitsuhōzan Chūō-in; listed in Sōtōshū's official directory of foreign-zazen-friendly temples."
+    },
+    {
+      "name": "Jōjō-ji Izumo",
+      "city": "Izumo",
+      "region": "Shimane",
+      "lineage": "Sōtō (parish temple welcoming foreign practitioners)",
+      "address": "49 Kamishima-machi, Izumo, Shimane 693-0101",
+      "url": "https://sotozen-navi.com/",
+      "source_url": "https://sotozen-navi.com/?cate=22",
+      "notes": "Tentokuzan Jōjō-ji; listed in Sōtōshū's official directory of foreign-zazen-friendly temples."
+    },
+    {
+      "name": "Eirin-ji Ogi",
+      "city": "Ogi",
+      "region": "Saga",
+      "lineage": "Sōtō (parish temple welcoming foreign practitioners)",
+      "address": "Ashimizo 445, Ashikari-chō, Ogi, Saga 849-0311",
+      "url": "https://sotozen-navi.com/",
+      "source_url": "https://sotozen-navi.com/?cate=22",
+      "notes": "Listed in Sōtōshū's official directory of foreign-zazen-friendly temples."
+    },
+    {
+      "name": "Shōkaku-ji Hannō",
+      "city": "Hannō",
+      "region": "Saitama",
+      "lineage": "Sōtō (parish temple welcoming foreign practitioners)",
+      "address": "2326 Kaminaguri, Hannō, Saitama 357-0111",
+      "url": "https://sotozen-navi.com/",
+      "source_url": "https://sotozen-navi.com/?cate=22",
+      "notes": "Fukuōzan Shōkaku-ji; listed in Sōtōshū's official directory of foreign-zazen-friendly temples."
+    },
+    {
+      "name": "Taihei-ji Nagoya",
+      "city": "Nagoya",
+      "region": "Aichi",
+      "lineage": "Sōtō (parish temple welcoming foreign practitioners)",
+      "address": "3-911 Toda, Nakagawa-ku, Nagoya, Aichi 454-0962",
+      "url": "https://sotozen-navi.com/",
+      "source_url": "https://sotozen-navi.com/?cate=22",
+      "notes": "Listed in Sōtōshū's official directory of foreign-zazen-friendly temples."
+    },
+    {
+      "name": "Dairyū-ji Shinjuku",
+      "city": "Shinjuku",
+      "region": "Tokyo",
+      "lineage": "Sōtō (parish temple welcoming foreign practitioners)",
+      "address": "2-62 Haramachi, Shinjuku-ku, Tokyo 162-0053",
+      "url": "https://sotozen-navi.com/",
+      "source_url": "https://sotozen-navi.com/?cate=22",
+      "notes": "Kiunzan Dairyū-ji; listed in Sōtōshū's official directory of foreign-zazen-friendly temples (central Tokyo)."
+    },
+    {
+      "name": "Zenfuku-ji Harima",
+      "city": "Harima",
+      "region": "Hyōgo",
+      "lineage": "Sōtō (parish temple welcoming foreign practitioners)",
+      "address": "Ōnaka 2-6-12, Harima-chō, Kako-gun, Hyōgo 675-0142",
+      "url": "https://sotozen-navi.com/",
+      "source_url": "https://sotozen-navi.com/?cate=22",
+      "notes": "Ōsawa Banshōzan Zenfuku-ji; listed in Sōtōshū's official directory of foreign-zazen-friendly temples."
+    }
+  ]
+}

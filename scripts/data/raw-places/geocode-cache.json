@@ -4840,5 +4840,283 @@
   "us-extra:Dania Beach, Florida, United States": [
     26.0524224,
     -80.143929
+  ],
+  "jp:409 Yamanouchi, Kamakura, Kanagawa 247-0062, Japan": [
+    35.3355524,
+    139.5485119
+  ],
+  "jp:8 Yamanouchi, Kamakura, Kanagawa 247-8525, Japan": [
+    35.3355524,
+    139.5485119
+  ],
+  "jp:Okuyama 1577-1, Inasa-chō, Kita-ku, Hamamatsu 431-2224, Japan": null,
+  "jp:Hamamatsu, Shizuoka, Japan": [
+    34.7109786,
+    137.7259431
+  ],
+  "jp:22 Mitsugi-chō Yasuhigashi, Mihara, Hiroshima 729-0471, Japan": null,
+  "jp:Mihara, Hiroshima, Japan": [
+    34.3974407,
+    133.0785046
+  ],
+  "jp:1162 Ihoku Hōfukuji, Sōja, Okayama 719-1101, Japan": null,
+  "jp:Sōja, Okayama, Japan": [
+    34.6728162,
+    133.7466763
+  ],
+  "jp:2026 Shioyama, Kōshū, Yamanashi 404-0024, Japan": null,
+  "jp:Kōshū, Yamanashi, Japan": [
+    35.7043662,
+    138.7293579
+  ],
+  "jp:41 Eigenji Takano-chō, Higashiōmi, Shiga 527-0212, Japan": null,
+  "jp:Higashiōmi, Shiga, Japan": [
+    35.112415,
+    136.2073154
+  ],
+  "jp:1-18-1 Monzen-machi, Wajima, Ishikawa 927-2156, Japan": null,
+  "jp:Noto, Ishikawa, Japan": [
+    37.3104029,
+    137.1477258
+  ],
+  "jp:1-3 Tenjin Saiwai-chō, Obama, Fukui 917-0066, Japan": null,
+  "jp:Obama, Fukui, Japan": [
+    35.4938281,
+    135.7446614
+  ],
+  "jp:8-1 Yamane-chō, Niihama, Ehime 792-0835, Japan": null,
+  "jp:Niihama, Ehime, Japan": [
+    33.9603497,
+    133.2835899
+  ],
+  "jp:1157 Daiyūchō, Odawara, Kanagawa 250-0127, Japan": null,
+  "jp:Odawara, Kanagawa, Japan": [
+    35.2645301,
+    139.152246
+  ],
+  "jp:44 Sano, Obama, Fukui 917-0237, Japan": null,
+  "jp:1-9-1 Hirano-chō, Hyōgo-ku, Kobe, Hyōgo 652-0801, Japan": null,
+  "jp:Kobe, Hyōgo, Japan": [
+    34.6932379,
+    135.1943764
+  ],
+  "jp:832 Shinmachi, Matsue, Shimane 690-0057, Japan": [
+    35.4559932,
+    133.0559519
+  ],
+  "jp:5-23 Hitomarumachi, Akashi, Hyōgo 673-0877, Japan": null,
+  "jp:Akashi, Hyōgo, Japan": [
+    34.6482884,
+    134.993215
+  ],
+  "jp:864-1 Ochiai, Nakatsugawa, Gifu 508-0006, Japan": [
+    35.5131955,
+    137.5454264
+  ],
+  "jp:Funakawakō Funakawa Toriyaba 34, Oga, Akita 010-0511, Japan": null,
+  "jp:Oga, Akita, Japan": [
+    39.8866202,
+    139.8473949
+  ],
+  "jp:16-21 Akashi-chō, Hiratsuka, Kanagawa 254-0042, Japan": null,
+  "jp:Hiratsuka, Kanagawa, Japan": [
+    35.3350609,
+    139.3494345
+  ],
+  "jp:571 Gokurakuji, Chūō, Yamanashi 409-3811, Japan": [
+    35.5998079,
+    138.5572168
+  ],
+  "jp:1847 Obasawa, Murakami, Niigata 958-0253, Japan": null,
+  "jp:Murakami, Niigata, Japan": [
+    38.2240529,
+    139.4799636
+  ],
+  "jp:Batō 114, Nakagawa-machi, Naka-gun, Tochigi 324-0613, Japan": null,
+  "jp:Nakagawa, Tochigi, Japan": [
+    36.7356266,
+    140.172496
+  ],
+  "jp:418-1 Ōiwa, Fujinomiya, Shizuoka 418-0013, Japan": null,
+  "jp:Fujinomiya, Shizuoka, Japan": [
+    35.2221369,
+    138.6214683
+  ],
+  "jp:1721-1 Tomiya, Sakuragawa, Ibaraki 309-1347, Japan": [
+    36.3774844,
+    140.1874213
+  ],
+  "jp:Shiraku 777, Nakagawa-machi, Naka-gun, Tochigi 324-0513, Japan": null,
+  "jp:1-8-18 Motomachi, Tomakomai, Hokkaidō 053-0804, Japan": [
+    42.622882,
+    141.57491
+  ],
+  "jp:49 Kamishima-machi, Izumo, Shimane 693-0101, Japan": null,
+  "jp:Izumo, Shimane, Japan": [
+    35.3668891,
+    132.7548827
+  ],
+  "jp:Ashimizo 445, Ashikari-chō, Ogi, Saga 849-0311, Japan": null,
+  "jp:Ogi, Saga, Japan": [
+    33.2738076,
+    130.2171043
+  ],
+  "jp:2326 Kaminaguri, Hannō, Saitama 357-0111, Japan": null,
+  "jp:Hannō, Saitama, Japan": [
+    35.8556902,
+    139.3276436
+  ],
+  "jp:3-911 Toda, Nakagawa-ku, Nagoya, Aichi 454-0962, Japan": [
+    35.1330392,
+    136.8064098
+  ],
+  "jp:2-62 Haramachi, Shinjuku-ku, Tokyo 162-0053, Japan": [
+    35.7003037,
+    139.7235922
+  ],
+  "jp:Ōnaka 2-6-12, Harima-chō, Kako-gun, Hyōgo 675-0142, Japan": null,
+  "jp:Harima, Hyōgo, Japan": [
+    34.7152522,
+    134.8678549
+  ],
+  "vn:Yên Tử Mountain, Uông Bí, Quảng Ninh, Vietnam": null,
+  "vn:Uông Bí, Quảng Ninh, Vietnam": [
+    21.0357403,
+    106.7647796
+  ],
+  "vn:Tây Thiên, Đại Đình, Tam Đảo, Vĩnh Phúc, Vietnam": null,
+  "vn:Tam Đảo, Vĩnh Phúc, Vietnam": [
+    21.4035508,
+    105.610193
+  ],
+  "vn:Bạch Mã National Park, Phú Lộc, Thừa Thiên-Huế, Vietnam": [
+    16.2157265,
+    107.8533926
+  ],
+  "vn:Phượng Hoàng, Nham Sơn, Yên Dũng, Bắc Giang, Vietnam": null,
+  "vn:Yên Dũng, Bắc Giang, Vietnam": null,
+  "vn:Yên Dũng, Vietnam": [
+    21.1965221,
+    106.2179041
+  ],
+  "vn:Mỹ Khánh, Phong Điền, Cần Thơ, Vietnam": [
+    9.9967882,
+    105.7186809
+  ],
+  "vn:Tân Phước District, Tiền Giang, Vietnam": null,
+  "vn:Tân Phước, Tiền Giang, Vietnam": null,
+  "vn:Tân Phước, Vietnam": [
+    10.5097382,
+    106.2112681
+  ],
+  "vn:Cự Khối, Long Biên, Hanoi, Vietnam": [
+    21.0148162,
+    105.9123125
+  ],
+  "vn:Hàm Rồng Mountain, Thanh Hóa, Vietnam": null,
+  "vn:Thanh Hóa, Thanh Hóa, Vietnam": [
+    19.8053115,
+    105.752611
+  ],
+  "vn:Sông Lô, Vĩnh Phúc, Vietnam": null,
+  "vn:Sông Lô, Vietnam": [
+    22.5046956,
+    104.8798551
+  ],
+  "vn:Thủy Xuân, Huế, Thừa Thiên-Huế, Vietnam": [
+    16.4345013,
+    107.5734766
+  ],
+  "vn:Hương Long, Huế, Thừa Thiên-Huế, Vietnam": [
+    16.4634087,
+    107.5456855
+  ],
+  "vn:Báo Quốc, Phường Đức, Huế, Vietnam": [
+    16.4542679,
+    107.5796617
+  ],
+  "vn:73 Quán Sứ, Hoàn Kiếm, Hanoi, Vietnam": [
+    21.0287415,
+    105.8463196
+  ],
+  "vn:565 Lạc Long Quân, Tân Bình, HCMC, Vietnam": [
+    10.7788931,
+    106.6492037
+  ],
+  "vn:73 Mai Thị Lựu, Quận 1, HCMC, Vietnam": null,
+  "vn:Hồ Chí Minh City, Hồ Chí Minh City, Vietnam": [
+    10.8073712,
+    106.7564593
+  ],
+  "vn:60 Nguyễn Trung Trực, Mỹ Tho, Tiền Giang, Vietnam": null,
+  "vn:Mỹ Tho, Tiền Giang, Vietnam": [
+    10.358067,
+    106.3606351
+  ],
+  "cn:Linji Lu, Zhengding County, Shijiazhuang, Hebei, China": [
+    38.1349165,
+    114.5672013
+  ],
+  "cn:Bailin Si, Zhao County, Shijiazhuang, Hebei 051530, China": [
+    37.7480453,
+    114.7784369
+  ],
+  "cn:Yunju Mountain, Yongxiu County, Jiujiang, Jiangxi, China": null,
+  "cn:Yongxiu County, Jiangxi, China": [
+    29.0931097,
+    115.6983273
+  ],
+  "cn:Yinzhou District, Ningbo, Zhejiang 315133, China": [
+    29.8197049,
+    121.5428103
+  ],
+  "cn:Ayuwang Lu, Beilun District, Ningbo, Zhejiang, China": null,
+  "cn:Ningbo, Zhejiang, China": [
+    29.8622194,
+    121.6203873
+  ],
+  "cn:1 Fayun Lane, Xihu District, Hangzhou 310013, China": null,
+  "cn:Hangzhou, Zhejiang, China": [
+    30.2489634,
+    120.2052342
+  ],
+  "cn:South of West Lake, Xihu District, Hangzhou, China": null,
+  "cn:Jinshan Park, Runzhou District, Zhenjiang, Jiangsu, China": [
+    32.2208496,
+    119.4092911
+  ],
+  "cn:Gaomin Si, Hanjiang District, Yangzhou, Jiangsu, China": null,
+  "cn:Yangzhou, Jiangsu, China": [
+    32.3968554,
+    119.4077658
+  ],
+  "cn:Putuoshan, Zhoushan, Zhejiang 316107, China": [
+    29.9776134,
+    122.3779964
+  ],
+  "cn:Xuedou Mountain, Xikou Town, Fenghua District, Ningbo, China": null,
+  "cn:Fenghua, Zhejiang, China": [
+    29.6575869,
+    121.4017136
+  ],
+  "cn:Pingshan Tang, Yangzhou, Jiangsu, China": null,
+  "cn:Mount Lu, Lushan, Jiujiang, Jiangxi, China": null,
+  "cn:Jiujiang, Jiangxi, China": [
+    29.388607,
+    115.3820227
+  ],
+  "cn:Tiantai Mountain, Tiantai County, Taizhou, Zhejiang, China": [
+    29.1601044,
+    121.0313895
+  ],
+  "cn:Hanshansi Lu, Gusu District, Suzhou, Jiangsu, China": null,
+  "cn:Suzhou, Jiangsu, China": [
+    31.311123,
+    120.6212881
+  ],
+  "cn:Hu County (Huxian), Xi'an, Shaanxi, China": null,
+  "cn:Huxian, Shaanxi, China": [
+    34.1134343,
+    108.6144775
   ]
 }

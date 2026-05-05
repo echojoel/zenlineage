@@ -1,0 +1,175 @@
+{
+  "_meta": {
+    "country": "China",
+    "collectedAt": "2026-05-05",
+    "method": "Compiled from English Wikipedia entries on the Five Houses of Chan ancestral temples and major modern Chan training monasteries. Coordinates from Wikipedia infoboxes; flagged in notes when approximate.",
+    "coverageEstimate": "Ancestral seats of the Linji, Caodong, and Yunmen schools plus the most-prominent modern Chan revival monasteries. Many smaller historic temples (especially in Sichuan, Fujian, Yunnan) and contemporary Chan-training monasteries omitted.",
+    "knownGaps": [
+      "Many provincial Chan training monasteries (Sichuan, Fujian, Yunnan, Hunan)",
+      "Most Chan ancestor sites in poor preservation (Guishan, Yangshan)",
+      "Most temples primarily oriented to Pure Land or scholastic Buddhism even though historically Chan-affiliated"
+    ]
+  },
+  "places": [
+    {
+      "name": "Linji Temple (Linji Yuan)",
+      "city": "Zhengding County",
+      "region": "Hebei",
+      "lineage": "Chinese Chan (Linji — ancestral seat of the Linji house)",
+      "address": "Linji Lu, Zhengding County, Shijiazhuang, Hebei",
+      "url": "http://www.linjisi.com/",
+      "source_url": "https://en.wikipedia.org/wiki/Linji_Temple",
+      "notes": "Founding monastery of the Linji school of Chan, where Linji Yixuan taught in the 9th century. Restored in the 1980s and again under Master Jing Hui; the Chenglin Pagoda dates to the 9th century."
+    },
+    {
+      "name": "Bailin Chan Temple",
+      "city": "Zhao County",
+      "region": "Hebei",
+      "lineage": "Chinese Chan (Linji — modern revival)",
+      "address": "Bailin Si, Zhao County, Shijiazhuang, Hebei 051530",
+      "url": "https://www.bailinsi.net/",
+      "source_url": "https://en.wikipedia.org/wiki/Bailin_Temple",
+      "notes": "Where Zhaozhou Congshen taught for 40 years in the 9th century. Major modern Chan-revival training monastery rebuilt under Master Jing Hui (Jinghui) from 1988; flagship of the 'Living Chan' movement."
+    },
+    {
+      "name": "Zhenru Chan Temple (Yunju Shan)",
+      "city": "Yongxiu County",
+      "region": "Jiangxi",
+      "lineage": "Chinese Chan (Caodong — modern training monastery)",
+      "address": "Yunju Mountain, Yongxiu County, Jiujiang, Jiangxi",
+      "url": "http://www.yunjushan.org/",
+      "source_url": "https://en.wikipedia.org/wiki/Yunju_Mountain",
+      "notes": "Largest active Caodong training monastery in China; site of Daoying Yu's 9th-century Daoying Chansi and continuously a Caodong seat since. Rebuilt under Master Xuyun in the 1950s."
+    },
+    {
+      "name": "Tiantong Temple",
+      "city": "Ningbo",
+      "region": "Zhejiang",
+      "lineage": "Chinese Chan (Caodong — historic — where Dōgen received transmission)",
+      "address": "Yinzhou District, Ningbo, Zhejiang 315133",
+      "url": "http://www.tiantongsi.cn/",
+      "source_url": "https://en.wikipedia.org/wiki/Tiantong_Temple",
+      "notes": "Major Caodong ancestral temple founded 300 CE. Where Tiantong Rujing taught Dōgen 1223–1227, transmitting the Sōtō line to Japan. Active Chan training monastery."
+    },
+    {
+      "name": "Asoka Temple (Ayuwang)",
+      "city": "Ningbo",
+      "region": "Zhejiang",
+      "lineage": "Chinese Chan (Linji — historic — where Eisai studied)",
+      "address": "Ayuwang Lu, Beilun District, Ningbo, Zhejiang",
+      "url": "https://www.ayw.com.cn/",
+      "source_url": "https://en.wikipedia.org/wiki/Ashoka_Temple_(Ningbo)",
+      "notes": "Founded 282 CE; one of the Five Mountain Chan temples of southern Song China. Where Myōan Eisai studied Linji Chan before establishing Rinzai in Japan."
+    },
+    {
+      "name": "Lingyin Temple",
+      "city": "Hangzhou",
+      "region": "Zhejiang",
+      "lineage": "Chinese Chan (Linji — major historic Chan temple)",
+      "address": "1 Fayun Lane, Xihu District, Hangzhou 310013",
+      "url": "https://www.lingyinsi.com/",
+      "source_url": "https://en.wikipedia.org/wiki/Lingyin_Temple",
+      "notes": "Founded 328 CE; one of the wealthiest and largest Chan temples in China. Listed among the Five Mountains of southern Song Chan."
+    },
+    {
+      "name": "Jingci Temple",
+      "city": "Hangzhou",
+      "region": "Zhejiang",
+      "lineage": "Chinese Chan (Linji — Five Mountains historic temple)",
+      "address": "South of West Lake, Xihu District, Hangzhou",
+      "url": "https://www.jingcisi.cn/",
+      "source_url": "https://en.wikipedia.org/wiki/Jingci_Temple",
+      "notes": "Founded 954 CE; one of the original Five Mountains of Linji Chan in Southern Song China."
+    },
+    {
+      "name": "Jinshan Temple",
+      "city": "Zhenjiang",
+      "region": "Jiangsu",
+      "lineage": "Chinese Chan (Linji — historic training monastery)",
+      "address": "Jinshan Park, Runzhou District, Zhenjiang, Jiangsu",
+      "url": "https://www.jinshansi.com/",
+      "source_url": "https://en.wikipedia.org/wiki/Jinshan_Temple_(Jiangsu)",
+      "notes": "Founded 4th century; major Linji training monastery of late imperial China. Source of one of two main Chan training rule traditions ('Jinshan style')."
+    },
+    {
+      "name": "Gaomin Temple",
+      "city": "Yangzhou",
+      "region": "Jiangsu",
+      "lineage": "Chinese Chan (Linji — modern training monastery)",
+      "address": "Gaomin Si, Hanjiang District, Yangzhou, Jiangsu",
+      "url": "http://www.china-gaominsi.com/",
+      "source_url": "https://en.wikipedia.org/wiki/Gaomin_Temple",
+      "notes": "Founded Sui dynasty; revived by Master Laiguo in the 20th century. One of the most rigorous active Chan training monasteries in China; Sheng Yen trained here."
+    },
+    {
+      "name": "Putuoshan Puji Temple",
+      "city": "Putuo Mountain",
+      "region": "Zhejiang",
+      "lineage": "Chinese Chan (Linji — major historic mountain temple)",
+      "address": "Putuoshan, Zhoushan, Zhejiang 316107",
+      "url": "https://www.putuoshan.org.cn/",
+      "source_url": "https://en.wikipedia.org/wiki/Mount_Putuo",
+      "notes": "Main monastery on Mount Putuo, one of the Four Sacred Mountains of Chinese Buddhism (Avalokiteśvara's bodhimanḍa). Historically Linji training site."
+    },
+    {
+      "name": "Xuedou Temple",
+      "city": "Fenghua",
+      "region": "Zhejiang",
+      "lineage": "Chinese Chan (Yunmen — historic training site)",
+      "address": "Xuedou Mountain, Xikou Town, Fenghua District, Ningbo",
+      "url": "https://www.xuedousi.com/",
+      "source_url": "https://en.wikipedia.org/wiki/Xuedou_Temple",
+      "notes": "Where Xuedou Chongxian (980–1052) compiled the Hekiganroku (Blue Cliff Record) base verses. Yunmen-school heritage temple."
+    },
+    {
+      "name": "Daming Temple",
+      "city": "Yangzhou",
+      "region": "Jiangsu",
+      "lineage": "Chinese Chan (historic — Jianzhen / Ganjin)",
+      "address": "Pingshan Tang, Yangzhou, Jiangsu",
+      "url": "https://www.damingsi.com/",
+      "source_url": "https://en.wikipedia.org/wiki/Daming_Temple",
+      "notes": "Founded 5th century; where Jianzhen (Ganjin) lived before founding Tōshōdai-ji in Japan. Active monastery."
+    },
+    {
+      "name": "Donglin Temple",
+      "city": "Jiujiang",
+      "region": "Jiangxi",
+      "lineage": "Chinese Chan (historic Mount Lu)",
+      "address": "Mount Lu, Lushan, Jiujiang, Jiangxi",
+      "url": "https://www.donglin.org/",
+      "source_url": "https://en.wikipedia.org/wiki/Donglin_Temple_(Jiangxi)",
+      "notes": "Founded 386 CE on Mount Lu; one of the most historically significant Chan-Pure Land temples in China."
+    },
+    {
+      "name": "Guoqing Temple",
+      "city": "Tiantai County",
+      "region": "Zhejiang",
+      "lineage": "Chinese Chan (Tiantai school home temple — historic)",
+      "address": "Tiantai Mountain, Tiantai County, Taizhou, Zhejiang",
+      "url": "https://www.guoqingsi.com/",
+      "source_url": "https://en.wikipedia.org/wiki/Guoqing_Temple",
+      "notes": "Founded 598 CE; founding seat of the Tiantai school. Active monastery; Saichō transmitted Tiantai (Tendai) to Japan from here."
+    },
+    {
+      "name": "Hanshan Temple",
+      "city": "Suzhou",
+      "region": "Jiangsu",
+      "lineage": "Chinese Chan (Linji — historic literary association)",
+      "address": "Hanshansi Lu, Gusu District, Suzhou, Jiangsu",
+      "url": "https://www.hanshansi.org/",
+      "source_url": "https://en.wikipedia.org/wiki/Hanshan_Temple",
+      "notes": "Founded 6th century; named for Tang-era Chan poet Hanshan. Active Linji-affiliated monastery in Suzhou's old city."
+    },
+    {
+      "name": "Caotang Temple",
+      "city": "Huxian",
+      "region": "Shaanxi",
+      "lineage": "Chinese Chan (historic — Kumarajiva)",
+      "address": "Hu County (Huxian), Xi'an, Shaanxi",
+      "url": "https://www.caotangsi.org.cn/",
+      "source_url": "https://en.wikipedia.org/wiki/Caotang_Temple",
+      "notes": "Founded 401 CE; where Kumarajiva translated the Lotus Sutra. Active Buddhist monastery; key proto-Chan textual heritage site."
+    }
+  ]
+}

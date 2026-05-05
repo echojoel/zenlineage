@@ -130,6 +130,27 @@ const COMMONS_FALLBACKS: Record<string, string> = {
 };
 
 /**
+ * Curated overrides — used when the Wikipedia pageimage exists but is
+ * unrepresentative (wrong era, ceremonial dress the master is not
+ * publicly recognised in, etc.). Each entry must point at a manually
+ * verified Commons file with explicit license + attribution. This
+ * branch takes precedence over findPageImage and re-stamps the DB row
+ * even if the on-disk webp already exists.
+ */
+interface CuratedOverride {
+  commonsFile: string;
+  attribution: string;
+  license: string;
+}
+const CURATED_OVERRIDES: Record<string, CuratedOverride> = {
+  "thich-nhat-hanh": {
+    commonsFile: "Thich Nhat Hanh 12 (cropped).jpg",
+    attribution: "Duc (pixiduc), CC BY-SA 2.0, via Wikimedia Commons",
+    license: "cc-by-sa-2.0",
+  },
+};
+
+/**
  * Non-Wikimedia portrait URLs, each with explicit attribution and
  * license. Used only when Wikipedia and Commons yield nothing. Every
  * entry must be:
@@ -286,6 +307,51 @@ async function upsertMediaAsset(masterId: string, storagePath: string, sourceUrl
   }
 }
 
+async function upsertCuratedAsset(
+  masterId: string,
+  storagePath: string,
+  override: CuratedOverride,
+  sourceUrl: string
+): Promise<void> {
+  const existing = await db
+    .select({ id: mediaAssets.id })
+    .from(mediaAssets)
+    .where(and(eq(mediaAssets.entityType, "master"), eq(mediaAssets.entityId, masterId)));
+  const assetId = existing[0]?.id ?? `img_${masterId}`;
+  const values = {
+    entityType: "master",
+    entityId: masterId,
+    type: "image",
+    storagePath,
+    sourceUrl,
+    license: override.license,
+    attribution: override.attribution,
+    altText: null,
+    createdAt: new Date().toISOString(),
+  };
+  if (existing.length === 0) {
+    await db.insert(mediaAssets).values({ id: assetId, ...values });
+  } else {
+    await db.update(mediaAssets).set(values).where(eq(mediaAssets.id, assetId));
+  }
+  const citationId = `cite_img_${assetId}`;
+  const existingCite = await db
+    .select({ id: citations.id })
+    .from(citations)
+    .where(and(eq(citations.entityType, "media_asset"), eq(citations.entityId, assetId)));
+  if (existingCite.length === 0) {
+    await db.insert(citations).values({
+      id: citationId,
+      sourceId: "src_wikipedia",
+      entityType: "media_asset",
+      entityId: assetId,
+      fieldName: "source",
+      excerpt: null,
+      pageOrSection: override.commonsFile,
+    });
+  }
+}
+
 async function main() {
   if (!fs.existsSync(PUBLIC_MASTERS_DIR)) fs.mkdirSync(PUBLIC_MASTERS_DIR, { recursive: true });
 
@@ -300,6 +366,41 @@ async function main() {
     )[0];
     if (!masterRow) {
       console.warn(`  ⚠ master ${slug} not found in DB`);
+      continue;
+    }
+
+    // Curated override path — runs before the Wikipedia pageimage
+    // lookup, and always re-stamps DB attribution so the curated
+    // license/credit survives even when the file is already on disk
+    // from a previous run.
+    const override = CURATED_OVERRIDES[slug];
+    if (override) {
+      if (!fs.existsSync(outPath)) {
+        console.log(`  → ${slug} (curated override: ${override.commonsFile}) ...`);
+        const result = await findCommonsFile(override.commonsFile);
+        if (!result) {
+          console.warn(`    ⚠ curated file not found on Commons`);
+          missing.push(slug);
+          continue;
+        }
+        try {
+          await downloadToWebp(result.imageUrl, outPath);
+          fetched++;
+        } catch (err) {
+          console.warn(`    failed: ${err instanceof Error ? err.message : err}`);
+          missing.push(slug);
+          continue;
+        }
+        await new Promise((r) => setTimeout(r, 800));
+      } else {
+        skipped++;
+      }
+      await upsertCuratedAsset(
+        masterRow.id,
+        `/masters/${slug}.webp`,
+        override,
+        `https://commons.wikimedia.org/wiki/File:${encodeURIComponent(override.commonsFile)}`
+      );
       continue;
     }
 
