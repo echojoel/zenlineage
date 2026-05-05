@@ -1,0 +1,96 @@
+{
+  "_meta": {
+    "country": "Israel",
+    "collectedAt": "2026-05-05",
+    "method": "Web research across Kwan Um Europe directory, Sanbo Zen International, Plum Village Israel community site, Jerusalem Zen Center site, IRIZ/Hanazono Zen centers list, and Wikipedia. Cross-checked teacher and lineage attribution.",
+    "coverageEstimate": "~85% of publicly visible active Zen-lineage practice places in Israel. The Plum Village 'Community of Mindfulness in Israel' lists ~12 local sanghas under one umbrella organisation; we record the umbrella with a note rather than each weekly meeting group, since most do not publish standalone addresses or websites.",
+    "knownGaps": [
+      "Individual local Plum Village sanghas (Ein Hod, Hadera, Haifa, Jerusalem x3, Mevasseret, Netanya, Rehovot, Tel Aviv x2) are aggregated under mindfulness-israel.org and not separately enumerated here.",
+      "No verified active One Drop Zen, Daihonzan Chozenji, or Vietnamese Thien (non-Plum-Village) sitting group found in Israel.",
+      "Hidden Zen Center / hiddenzen.org / hsbis.org could not be verified — domains did not resolve and no third-party directory lists them; treated as unverified and excluded.",
+      "Hasharon, Ramat Gan, and Pardes Hanna Kwan Um groups are referenced in Wikipedia and the Kwan Um Europe network but lack independent live websites; included only when an authoritative directory entry exists."
+    ]
+  },
+  "places": [
+    {
+      "name": "Tel Aviv Zen Group (Kwan Um)",
+      "city": "Tel Aviv",
+      "region": "Tel Aviv District",
+      "lineage": "Kwan Um School of Zen (Korean Seon, Seung Sahn lineage)",
+      "address": "24A HaRav Reines St, Tel Aviv, Israel",
+      "url": "https://www.kwanumeurope.org/locations/tel-aviv-zen-group/",
+      "source_url": "https://www.kwanumeurope.org/locations/tel-aviv-zen-group/",
+      "notes": "Founded January 1999 by Revital Dan, who trained directly with Zen Master Seung Sahn in Korea. The principal Kwan Um center in Israel; serves as hub for the smaller Israeli Kwan Um groups."
+    },
+    {
+      "name": "Jerusalem Zen Center",
+      "city": "Jerusalem",
+      "region": "Jerusalem District",
+      "lineage": "Soto / Rinzai (mixed Japanese Zen, lay-led)",
+      "address": "Balfour 8, Jerusalem, Israel",
+      "url": "https://jerusalemzencenter.org/",
+      "source_url": "https://jerusalemzencenter.org/",
+      "notes": "Founded 2003; co-founder and teacher Daniel Stambler trained in both Soto and Rinzai traditions in Asia and the West. Lay-led; weekly Sunday evening zazen."
+    },
+    {
+      "name": "Sanbo-Zen Israel",
+      "city": "Hod HaSharon",
+      "region": "Central District",
+      "lineage": "Sanbo Zen (Sanbo Kyodan, Yasutani-Yamada line)",
+      "address": null,
+      "url": "https://www.facebook.com/sanbozenIL/",
+      "source_url": "https://sanbo-zen-international.org/en/teachers/location/",
+      "notes": "Israeli affiliate of Sanbo Zen International. Teaching link is to Migaku Sato Roshi (Kyuun-ken), whose countries of activity include Israel; local contact Anders Englund Weiss. Activity coordinated via Facebook page."
+    },
+    {
+      "name": "Zen in Daily Life (Soto, Danny Waxman)",
+      "city": "Ramat Gan (Ramat-Hen)",
+      "region": "Tel Aviv District",
+      "lineage": "Soto Zen (Masunaga Reiho line)",
+      "address": null,
+      "url": "http://www.zenki.com/",
+      "source_url": "http://www.zenki.com/index.php?lang=en&page=aboutDanny",
+      "notes": "Layman Soto-Zen teacher Danny Waxman, indoor disciple of Prof. Masunaga Reiho; trained in Japan 1958-1971. Zazen meetings and Zen-Judo/martial-arts sessions in Ramat-Hen, Ramat Gan."
+    },
+    {
+      "name": "Community of Mindfulness in Israel (Plum Village)",
+      "city": "Tel Aviv (national umbrella)",
+      "region": "National (multiple districts)",
+      "lineage": "Plum Village / Vietnamese Thien (Thich Nhat Hanh)",
+      "address": null,
+      "url": "https://mindfulness-israel.org/en/",
+      "source_url": "https://mindfulness-israel.org/en/",
+      "notes": "Active national Plum Village community with weekly local sanghas in Ein Hod, Hadera, Haifa, Jerusalem (3), Mevasseret, Netanya, Rehovot, and Tel Aviv (2 + youth), plus two online sanghas. Days of mindfulness every ~6 weeks; two annual retreats. Listed on Plum Village's international community pages."
+    },
+    {
+      "name": "Hasharon Zen Center (Kwan Um)",
+      "city": "Hod HaSharon",
+      "region": "Central District",
+      "lineage": "Kwan Um School of Zen (Korean Seon)",
+      "address": null,
+      "url": "https://www.kwanumeurope.org/centers-groups/",
+      "source_url": "https://en.wikipedia.org/wiki/Kwan_Um_School_of_Zen",
+      "notes": "One of the four Kwan Um groups in Israel listed in the Kwan Um School of Zen Wikipedia article and Kwan Um Europe directory. Standalone website not currently resolving; activity coordinated through the Kwan Um Israel network."
+    },
+    {
+      "name": "Pardes Hanna Zen Centre (Kwan Um)",
+      "city": "Pardes Hanna-Karkur",
+      "region": "Haifa District",
+      "lineage": "Kwan Um School of Zen (Korean Seon)",
+      "address": null,
+      "url": "https://www.kwanumeurope.org/centers-groups/",
+      "source_url": "https://en.wikipedia.org/wiki/Kwan_Um_School_of_Zen",
+      "notes": "One of four Israeli Kwan Um groups identified in the Kwan Um School of Zen Wikipedia entry; organisationally part of the Kwan Um Europe & Israel region."
+    },
+    {
+      "name": "Ramat Gan Zen Group (Kwan Um)",
+      "city": "Ramat Gan",
+      "region": "Tel Aviv District",
+      "lineage": "Kwan Um School of Zen (Korean Seon)",
+      "address": null,
+      "url": "https://www.kwanumeurope.org/centers-groups/",
+      "source_url": "https://en.wikipedia.org/wiki/Kwan_Um_School_of_Zen",
+      "notes": "Smallest of the Israeli Kwan Um groups per Wikipedia; satellite sitting group in the Tel Aviv metro area associated with the Tel Aviv Zen Center."
+    }
+  ]
+}

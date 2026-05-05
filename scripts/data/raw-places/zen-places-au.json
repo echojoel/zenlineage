@@ -1,0 +1,366 @@
+{
+  "_meta": {
+    "country": "Australia",
+    "collectedAt": "2026-05-05",
+    "method": "Compiled from canonical Diamond Sangha Australia directories (Sydney Zen Centre 'Other Groups' page, Melbourne Zen Group 'Links' page, diamondsangha.org), Jikishoan Zen Buddhist Community, Open Way Zen (openway.org.au), Mountain Moon Zen Sangha (mountainmoon.org.au), Sun Mountain Zen (sunmountainzen.org.au), Phoenix Zen Centre / Kwan Um Australia (kwanumzen.com.au), Ordinary Mind Zen Brisbane and Melbourne, OzZen, Plum Village Australia (Nhap Luu / Stream Entering Monastery), Bodhimount Zendo, Twining Vines Zen Centre, Canberra Soto Zen Group. Each entry verified by visiting the group's home page or its parent directory.",
+    "coverageEstimate": "Strong coverage of the two main networks: Diamond Sangha Australia (Sydney, Melbourne, Adelaide, Perth, Darwin, Hobart, Castlemaine, Mildura, Geelong, Blue Mountains, Forest Way, Black Mountain Canberra, Bodhimount Armidale, Kuan Yin Lismore) and the Sanbo Zen / Mountain Moon / Sun Mountain Brisbane cluster. Soto Zen represented by Jikishoan + Canberra Soto + Twining Vines + Open Way (Hogen lineage). Kwan Um and Plum Village covered. Some small informal sitting groups (Wahroonga Friends Dojo, regional Plum Village sanghas) likely under-counted; only those with a verifiable web presence are included.",
+    "knownGaps": [
+      "Kwan Um Australia internal centre list (Bellbowrie, Deception Bay, Runaway Bay) only partly verified via secondary sources; primary directory not fully publicly browsable.",
+      "Local Plum Village lay sanghas (numerous small Wake Up / mindfulness groups) only the in-person practice centre and the major lay sangha hubs are listed.",
+      "Late Hogen Yamahata's Dochu-an Mullumbimby successor centre has unclear current activity post-2024 and is omitted.",
+      "Some Diamond Sangha satellite sittings (Berry NSW, smaller VIC towns) not separately listed when they meet under another sangha's roof."
+    ]
+  },
+  "places": [
+    {
+      "name": "Sydney Zen Centre",
+      "city": "Sydney (Annandale)",
+      "region": "NSW",
+      "lineage": "Diamond Sangha (Aitken / Harada-Yasutani lay Zen)",
+      "address": "251 Young Street, Annandale NSW 2038",
+      "url": "https://szc.org.au/",
+      "source_url": "https://szc.org.au/about-us/",
+      "notes": "Founded 1979; affiliated with Diamond Sangha founded by Robert Aitken Roshi. Resident teachers include Subhana Barzaghi Roshi, Paul Maloney Roshi, Maggie Gluek, Jane Andino, Allan Marett."
+    },
+    {
+      "name": "Brisbane Zen Group (formerly Brisbane Diamond Sangha)",
+      "city": "Brisbane",
+      "region": "QLD",
+      "lineage": "Diamond Sangha",
+      "address": null,
+      "url": "https://diamondsangha.org/resources-2/links/",
+      "source_url": "https://diamondsangha.org/resources-2/links/",
+      "notes": "Brisbane Diamond Sangha presence with Arthur Wells Roshi (now also resident in Brisbane). Listed on diamondsangha.org links page; meets in private homes."
+    },
+    {
+      "name": "Jikishoan Zen Buddhist Community",
+      "city": "Melbourne (Heidelberg West / Braybrook)",
+      "region": "VIC",
+      "lineage": "Soto Zen (Ekai Korematsu Osho lineage)",
+      "address": "PO Box 8367 Northland Centre, Preston VIC 3072",
+      "url": "https://www.jikishoan.org.au/",
+      "source_url": "https://www.jikishoan.org.au/",
+      "notes": "Soto Zen training community led by Abbot Ekai Korematsu Osho. Main Course B sittings in Heidelberg West (Sun) and Braybrook (Thu); retreats and Main Course A intakes scheduled for 2026."
+    },
+    {
+      "name": "Zen Group of Western Australia",
+      "city": "Perth",
+      "region": "WA",
+      "lineage": "Diamond Sangha",
+      "address": null,
+      "url": "https://www.zgwa.org.au/",
+      "source_url": "https://www.zgwa.org.au/history",
+      "notes": "Founded 1982; resident teacher Ross Bolleter Roshi (transmission from Aitken & Tarrant 1997), co-teacher Mari Rhydwen Roshi."
+    },
+    {
+      "name": "Zen Open Circle",
+      "city": "Sydney / Berry",
+      "region": "NSW",
+      "lineage": "Diamond Sangha + Pacific Zen (Tarrant) lineages",
+      "address": null,
+      "url": "https://www.zenopencircle.org.au/",
+      "source_url": "https://www.zenopencircle.org.au/about-us",
+      "notes": "Founded 2001 by Susan Murphy Roshi. Susan received transmission in both Aitken's Diamond Sangha and Tarrant's Pacific Zen lineages."
+    },
+    {
+      "name": "Kuan Yin Meditation Centre",
+      "city": "Lismore",
+      "region": "NSW",
+      "lineage": "Diamond Sangha + Insight (Subhana Barzaghi Roshi)",
+      "address": "Lismore NSW",
+      "url": "https://www.kuanyinmeditationcentre.org/",
+      "source_url": "https://www.kuanyinmeditationcentre.org/zen-events/",
+      "notes": "Purpose-built dojo established by Subhana Barzaghi Roshi; described as the first Zen temple in Australia. Hosts weekly Zen on Mondays."
+    },
+    {
+      "name": "Plum Village Australia (Stream Entering Monastery / Nhap Luu)",
+      "city": "Porcupine Ridge",
+      "region": "VIC",
+      "lineage": "Plum Village (Thich Nhat Hanh, Vietnamese Thien)",
+      "address": "530 Porcupine Ridge Road, Porcupine Ridge VIC 3461",
+      "url": "https://en.nhapluu.org/",
+      "source_url": "https://plumvillage.org/practice-centre/stream-entering-monastery",
+      "notes": "Nunnery in Plum Village tradition founded 2010 (originally at Beaufort VIC; relocated June 2021). Sisters host Days of Mindfulness every Sunday."
+    },
+    {
+      "name": "Open Way Zen Brisbane",
+      "city": "Brisbane (South Brisbane)",
+      "region": "QLD",
+      "lineage": "Soto Zen (lineage of Daido Hogen Yamahata)",
+      "address": "Salmon Building Chapel, Mater Hospital, South Brisbane QLD",
+      "url": "https://www.openway.org.au/",
+      "source_url": "https://www.openway.org.au/",
+      "notes": "Supports the Australian teachings of the late Zen Master Daido Hogen Yamahata (d. 2024); regular Wednesday evening sittings."
+    },
+    {
+      "name": "Open Way Zen Byron Bay",
+      "city": "Byron Bay",
+      "region": "NSW",
+      "lineage": "Soto Zen (Daido Hogen Yamahata lineage)",
+      "address": null,
+      "url": "https://www.openway.org.au/",
+      "source_url": "https://www.openway.org.au/",
+      "notes": "Sitting group affiliated with Open Way Zen network; longstanding Hogen-san practice centre region."
+    },
+    {
+      "name": "Open Way Zen Murwillumbah",
+      "city": "Murwillumbah",
+      "region": "NSW",
+      "lineage": "Soto Zen (Daido Hogen Yamahata lineage)",
+      "address": null,
+      "url": "https://www.openway.org.au/",
+      "source_url": "https://www.openway.org.au/",
+      "notes": "Open Way Zen sitting group in northern NSW Tweed Valley."
+    },
+    {
+      "name": "Adelaide Zen Group",
+      "city": "Adelaide",
+      "region": "SA",
+      "lineage": "Diamond Sangha",
+      "address": null,
+      "url": "https://www.azg.org.au/",
+      "source_url": "https://sites.google.com/view/adelaide-zen-group/our-sangha",
+      "notes": "Established 1970s; revitalised 1991. Ross Bolleter Roshi visiting teacher; resident teachers Bob Joyner Roshi, Imelda Carson Roshi (2024), Steve Wigg Roshi (2025); Allan Marett Roshi senior teacher."
+    },
+    {
+      "name": "Melbourne Zen Group",
+      "city": "Melbourne (CERES, Brunswick East)",
+      "region": "VIC",
+      "lineage": "Diamond Sangha",
+      "address": "CERES Environment Park, Roberts Street, Brunswick East VIC",
+      "url": "https://mzg.org.au/",
+      "source_url": "https://mzg.org.au/about/who-are-we/",
+      "notes": "Formed 1985 around Robert Aitken Roshi's visits. Visiting teachers Subhana Barzaghi Roshi, Susan Murphy Roshi; local teacher Kirk Fisher Roshi (authorised 2023)."
+    },
+    {
+      "name": "Mountains & Rivers Zen (Hobart)",
+      "city": "Hobart",
+      "region": "TAS",
+      "lineage": "Diamond Sangha (Murphy / Sutherland / Fisher)",
+      "address": "2nd Floor, 71-73 Liverpool Street, Hobart TAS 7000",
+      "url": "https://zenhobart.com/",
+      "source_url": "https://zenhobart.com/about",
+      "notes": "Diamond Sangha lineage; teachers Susan Murphy Roshi, Kirk Fisher Sensei, Kynan Sutherland Sensei. Sangha 30+ years old."
+    },
+    {
+      "name": "Castlemaine Zen",
+      "city": "Castlemaine",
+      "region": "VIC",
+      "lineage": "Diamond Sangha",
+      "address": null,
+      "url": "https://castlemainezen.com.au/",
+      "source_url": "https://castlemainezen.com.au/about",
+      "notes": "Established 2009 by Kynan Sutherland Roshi (transmission from Susan Murphy Roshi 2023) and Chris Barker."
+    },
+    {
+      "name": "Mildura Zen Group",
+      "city": "Mildura",
+      "region": "VIC",
+      "lineage": "Diamond Sangha",
+      "address": null,
+      "url": "https://mildurazengroup.org/",
+      "source_url": "https://mildurazengroup.org/about-us/",
+      "notes": "Lay Diamond Sangha community in NW Victoria; guiding teacher Wayne Rankin (authorised by Subhana Barzaghi Roshi)."
+    },
+    {
+      "name": "Geelong Zen Group",
+      "city": "Geelong",
+      "region": "VIC",
+      "lineage": "Diamond Sangha",
+      "address": null,
+      "url": "https://mzg.org.au/links/",
+      "source_url": "https://mzg.org.au/links/other-zen-groups/",
+      "notes": "Small Diamond Sangha group; meets first Friday of each month 7:30-9:30pm. Linked via Melbourne Zen Group."
+    },
+    {
+      "name": "Forest Way Zen",
+      "city": "Doonan (Sunshine Coast)",
+      "region": "QLD",
+      "lineage": "Diamond Sangha",
+      "address": "Way of the Forest Hermitage, Doonan QLD",
+      "url": "https://forestwayzen.com.au/",
+      "source_url": "https://forestwayzen.com.au/home/",
+      "notes": "Founded 1989 by Barry Farrin Roshi (Sensei 2004, Roshi 2015 in Diamond Sangha). Weekly sittings, regular Zazenkai and 5-day Sesshin."
+    },
+    {
+      "name": "Darwin Zen Group",
+      "city": "Darwin",
+      "region": "NT",
+      "lineage": "Diamond Sangha",
+      "address": null,
+      "url": "https://dzg.org.au/",
+      "source_url": "https://dzg.org.au/about-us/",
+      "notes": "Resident teacher Justine Mayer Roshi (Mugen Kai), full transmission 2017."
+    },
+    {
+      "name": "Black Mountain Zen Group",
+      "city": "Canberra",
+      "region": "ACT",
+      "lineage": "Diamond Sangha",
+      "address": null,
+      "url": "https://blackmountainzen.com/",
+      "source_url": "https://blackmountainzen.com/our-teacher/",
+      "notes": "Formerly Canberra Zen Group. Teacher Jeff Ward Roshi, transmission 2017 from Subhana Barzaghi and Paul Maloney."
+    },
+    {
+      "name": "Twining Vines Zen Centre (Katto-an Temple)",
+      "city": "Canberra (Fraser)",
+      "region": "ACT",
+      "lineage": "Soto Zen (Suzuki / Henkel) + Diamond Sangha",
+      "address": "Fraser ACT",
+      "url": "https://netiparekh.com/",
+      "source_url": "https://netiparekh.com/zen-study-offerings/",
+      "notes": "Soto Zen temple founded by Rev. Neti Mushin Parekh, ordained 2017, full Soto transmission 2021. Combined Soto Zen / Diamond Sangha sangha."
+    },
+    {
+      "name": "Canberra Soto Zen Group",
+      "city": "Canberra (Cook)",
+      "region": "ACT",
+      "lineage": "Soto Zen (Jikishoan / Korematsu lineage)",
+      "address": "1 Tilden Place, Cook ACT 2614",
+      "url": "https://www.canberrasotozen.com/",
+      "source_url": "https://canberrasotozengroup.wixsite.com/canberrasotozengroup/about_us",
+      "notes": "Weekly Zazenkai under guidance of Ekai Korematsu Osho (Jikishoan). Sundays 7:30-9:30am, Thursdays 6-8pm."
+    },
+    {
+      "name": "Bodhimount Zendo",
+      "city": "Armidale",
+      "region": "NSW",
+      "lineage": "Bodhi Sangha (Ama Samy lineage; ex-Sanbo Kyodan)",
+      "address": "Armidale NSW",
+      "url": "http://bodhimountzendo.blogspot.com/",
+      "source_url": "https://www.bodhizendo.org/index.php/en/zen-teachers/carl-hooper-engl",
+      "notes": "Established 2015 by Carl Hooper Roshi (independent master under Ama Samy 2016). Bodhi Sangha lineage descended from Yamada Koun / Sanbo Kyodan."
+    },
+    {
+      "name": "Mountain Moon Zen Sangha",
+      "city": "Brisbane (Cannon Hill)",
+      "region": "QLD",
+      "lineage": "Sanbo Zen (Sanbo Kyodan)",
+      "address": "Cannon Hill, Brisbane QLD",
+      "url": "https://mountainmoon.org.au/",
+      "source_url": "https://mountainmoon.org.au/sanbo-zen-lineage-chart",
+      "notes": "Founded 1993 by Sei'un An Roselyn Stone Roshi (Sanbo Kyodan authorisation). Active teachers include Liyea Bretz."
+    },
+    {
+      "name": "Sun Mountain Zen",
+      "city": "Brisbane (East Brisbane)",
+      "region": "QLD",
+      "lineage": "Sanbo Zen",
+      "address": "East Brisbane QLD",
+      "url": "https://sunmountainzen.org.au/",
+      "source_url": "http://sunmountainzen.org.au/teachers/",
+      "notes": "Founded 2003 by Mervyn Lander Roshi (Goun Ken) and Cecilie Lander Roshi (Goen An), Sanbo Zen authorisation. Multiple authorised teachers."
+    },
+    {
+      "name": "Phoenix Zen Centre",
+      "city": "Brisbane (Deagon)",
+      "region": "QLD",
+      "lineage": "Kwan Um School of Zen (Korean Seon)",
+      "address": "3C Albury Street, Deagon QLD 4017",
+      "url": "https://www.phoenixzencentre.org/",
+      "source_url": "https://www.phoenixzencentre.org/communty",
+      "notes": "Opened February 2016. Successor to Queensland Zen Centre (Dae Kwang Sa) opened by Seung Sahn 1994. Mon/Wed/Sun practice schedule."
+    },
+    {
+      "name": "Kwan Um School of Zen Australia (Bellbowrie)",
+      "city": "Brisbane (Bellbowrie)",
+      "region": "QLD",
+      "lineage": "Kwan Um School of Zen",
+      "address": "25 Banyan Street, Bellbowrie QLD",
+      "url": "https://kwanumzen.com.au/",
+      "source_url": "https://kwanumzen.com.au/contact-us/",
+      "notes": "Kwan Um Australia branch group; Thursdays 6:30-8:30pm."
+    },
+    {
+      "name": "Kwan Um School of Zen Australia (Deception Bay)",
+      "city": "Deception Bay",
+      "region": "QLD",
+      "lineage": "Kwan Um School of Zen",
+      "address": "8 Admiral Drive, Deception Bay QLD",
+      "url": "https://kwanumzen.com.au/",
+      "source_url": "https://kwanumzen.com.au/contact-us/",
+      "notes": "Kwan Um Australia branch group; Tuesdays 7-9pm."
+    },
+    {
+      "name": "Kwan Um School of Zen Australia (Gold Coast)",
+      "city": "Runaway Bay (Gold Coast)",
+      "region": "QLD",
+      "lineage": "Kwan Um School of Zen",
+      "address": "23 Sundance Way, Runaway Bay QLD",
+      "url": "https://kwanumzen.com.au/",
+      "source_url": "https://kwanumzen.com.au/contact-us/",
+      "notes": "Kwan Um Australia Gold Coast branch; Wed & Sat 7am-9pm."
+    },
+    {
+      "name": "Ordinary Mind Zen Brisbane",
+      "city": "Brisbane",
+      "region": "QLD",
+      "lineage": "Ordinary Mind Zen School (Joko Beck)",
+      "address": null,
+      "url": "https://www.ordinarymind.org.au/",
+      "source_url": "https://www.ordinarymind.org.au/",
+      "notes": "Co-founded 1981 by Gregg Howard, who studied with Charlotte Joko Beck. Ordinary Mind Zen School lineage."
+    },
+    {
+      "name": "Ordinary Mind Zen Melbourne",
+      "city": "Melbourne",
+      "region": "VIC",
+      "lineage": "Ordinary Mind Zen School (Joko Beck / Geoff Dawson)",
+      "address": null,
+      "url": "https://www.zenmelbourne.com/",
+      "source_url": "https://www.zenmelbourne.com/our-teacher-and-group/",
+      "notes": "Teacher Geoff Dawson, Dharma successor of Charlotte Joko Beck (transmission 2003). Began Sydney/Melbourne work in 1998."
+    },
+    {
+      "name": "OzZen (Australian Ordinary Mind Zen School)",
+      "city": "Bellingen",
+      "region": "NSW",
+      "lineage": "Ordinary Mind Zen School (Magid / Joko Beck)",
+      "address": "Bellingen / Coffs Harbour / Sawtell NSW",
+      "url": "https://ordinarymind.com.au/",
+      "source_url": "https://ordinarymind.com.au/teacher/",
+      "notes": "Founded 2015 by Andrew Sono Tootell (denbo transmission from Barry Magid 2019). Mid-North Coast NSW."
+    },
+    {
+      "name": "Blue Mountains Zen Group",
+      "city": "Blue Mountains",
+      "region": "NSW",
+      "lineage": "Diamond Sangha",
+      "address": null,
+      "url": "https://szc.org.au/other-groups/",
+      "source_url": "https://szc.org.au/our-teachers/jane-andino/",
+      "notes": "Sangha began 2006; teacher Paul Maloney Roshi from 2011; coordinator/teacher Jane Andino Roshi (transmission 2022). Meets 2nd & 4th Sunday afternoons."
+    },
+    {
+      "name": "Clifton Hill Zendo",
+      "city": "Melbourne (Alphington)",
+      "region": "VIC",
+      "lineage": "Soto Zen / Mahayana (independent)",
+      "address": "17 Clive Street, Alphington VIC 3078",
+      "url": "https://www.facebook.com/CliftonHillZendo/",
+      "source_url": "https://mzg.org.au/links/",
+      "notes": "Independent sitting community. Sesshins led by visiting Soto Zen teacher Robert Rosenbaum. Regular weekly zazen."
+    },
+    {
+      "name": "The Friends Dojo",
+      "city": "Sydney (Wahroonga)",
+      "region": "NSW",
+      "lineage": "Diamond Sangha",
+      "address": "Wahroonga NSW",
+      "url": "https://szc.org.au/other-groups/",
+      "source_url": "https://szc.org.au/other-groups/",
+      "notes": "Diamond Sangha sitting group with Maggie Gluek (Sydney Zen Centre senior teacher)."
+    },
+    {
+      "name": "Wake Up Melbourne (Plum Village)",
+      "city": "Melbourne",
+      "region": "VIC",
+      "lineage": "Plum Village (Thich Nhat Hanh)",
+      "address": null,
+      "url": "https://wkup.org/",
+      "source_url": "https://en.nhapluu.org/",
+      "notes": "Plum Village Wake Up sangha; meets online Thursdays 7-8:15pm with occasional in-person events. Lay sangha under Nhap Luu monastic guidance."
+    }
+  ]
+}

@@ -1,0 +1,167 @@
+{
+  "_meta": {
+    "country": "Brazil",
+    "collectedAt": "2026-05-05",
+    "method": "Cross-referenced the Sōtōshū South America directory (sotozen.com/eng/temples/outside_jp/Brazil), Comunidade Zen Budista Zendo Brasil (Monja Coen sangha), Zendo Curitiba (sotozen.com.br affiliated), Comunidade Daissen network, Mosteiro Zen Morro da Vargem and Mosteiro Eishōji (Tokuda lineage), Templo Zen das Alterosas, Templo Enkoji, Templo Taikanji, Via Zen Porto Alegre, plus Plum Village Brasil sangha index curated by A Outra Margem and the Sangavirtual blog. Each entry verified against an official lineage organisation, the centre's own site, or both.",
+    "coverageEstimate": "High (~75-80%) for Sōtōshū-registered temples and the largest active sanghas (Coen, Daissen, Tokuda, Morro da Vargem, AZI). Plum Village Brasil sangha network undercounted (many are informal weekly Zoom/home groups without standalone sites). Limited or no presence located for Rinzai (other than Tokuda's Rinzai-influenced lineage), Kwan Um, Sanbō Zen, Ōbaku.",
+    "knownGaps": [
+      "Plum Village informal home sanghas (Sangha Plena Consciência São Paulo, Sangha Viver Consciente Rio, Wake Up São Paulo, Sangha Zen Despertar SC) lack standalone websites — only the Pasargada Ecovillage hub is fully sourced",
+      "Daissen sub-locations (Salvador, Recife) are referenced but specific street addresses not published on daissen.org.br",
+      "Centro Zen do Recife / Seirenji (Tokuda) has only a blogspot presence and uncertain current activity",
+      "Templo Zen Pico de Raios (Ouro Preto) and Mosteiro Serra do Trovão (Lavras Novas) appear active but rely on blog-era sourcing",
+      "No active Rinzai-only, Kwan Um, Sanbō Zen, or Ōbaku centres located as of 2026"
+    ]
+  },
+  "places": [
+    {
+      "name": "Comunidade Budista Sōtō Zenshū da América do Sul — Busshinji",
+      "city": "São Paulo",
+      "region": "São Paulo",
+      "lineage": "Sōtō (Sōtōshū South America headquarters)",
+      "address": "Rua São Joaquim 285, Liberdade, São Paulo - SP",
+      "url": "http://www.sotozen.org.br",
+      "source_url": "https://www.sotozen.com/eng/temples/outside_jp/Brazil/index.html",
+      "notes": "Founded 1956. Official headquarters of Sōtōshū for South America. Hosts the Sul-Americano regional office."
+    },
+    {
+      "name": "Comunidade Zen Budista Zendo Brasil — Taikōzan Tenzuizenji",
+      "city": "São Paulo",
+      "region": "São Paulo",
+      "lineage": "Sōtō (Sōtōshū; Monja Coen Rōshi)",
+      "address": "Rua Wanderley 1302, Perdizes, São Paulo - SP, 05018-001",
+      "url": "https://www.zendobrasil.org.br/",
+      "source_url": "https://www.sotozen.com/eng/temples/outside_jp/Brazil/index.html",
+      "notes": "Founded by Monja Coen Rōshi. Sōtōshū-registered. Building a permanent temple in Campos do Jordão."
+    },
+    {
+      "name": "Daissen-ji — Comunidade Zen Budista de Florianópolis",
+      "city": "Florianópolis",
+      "region": "Santa Catarina",
+      "lineage": "Sōtō (Sōtōshū; Saikawa Rōshi / Gensho Rōshi)",
+      "address": "Travessa José Goulart 59, Saco dos Limões, Florianópolis - SC",
+      "url": "https://www.daissen.org.br/",
+      "source_url": "https://www.sotozen.com/eng/temples/outside_jp/Brazil/index.html",
+      "notes": "Main seat of the Daissen Zen-Buddhist community network. Linktree: linktr.ee/zendaissen."
+    },
+    {
+      "name": "Dōjō Daiji-dō",
+      "city": "Juiz de Fora",
+      "region": "Minas Gerais",
+      "lineage": "Sōtō (Sōtōshū)",
+      "address": "Rua Oscar Vidal 71/301, Centro, Juiz de Fora - MG",
+      "url": "https://www.sotozen.com/eng/temples/outside_jp/Brazil/index.html",
+      "source_url": "https://www.sotozen.com/eng/temples/outside_jp/Brazil/index.html",
+      "notes": "Sōtōshū-registered dōjō. Contact: bmitih@gmail.com."
+    },
+    {
+      "name": "Mosteiro Zen Morro da Vargem — Zenkōji",
+      "city": "Ibiraçu",
+      "region": "Espírito Santo",
+      "lineage": "Sōtō (Sōtōshū; Daigyo Moriyama Rōshi lineage)",
+      "address": "BR 101, KM 217, s/nº, Ibiraçu - ES",
+      "url": "https://mosteirozen.com.br/",
+      "source_url": "https://www.sotozen.com/eng/temples/outside_jp/Brazil/index.html",
+      "notes": "Long-standing residential monastery with environmental and forest-restoration mission."
+    },
+    {
+      "name": "Organização Religiosa Budista Zenguenji do Brasil",
+      "city": "Mogi das Cruzes",
+      "region": "São Paulo",
+      "lineage": "Sōtō (Sōtōshū; Japanese-Brazilian community temple)",
+      "address": "Rua Padre Eustáquio 109, Vila Lavínia, Mogi das Cruzes - SP",
+      "url": "https://www.sotozen.com/eng/temples/outside_jp/Brazil/index.html",
+      "source_url": "https://www.sotozen.com/eng/temples/outside_jp/Brazil/index.html",
+      "notes": "Sōtōshū-registered diaspora temple."
+    },
+    {
+      "name": "Templo Budista de Rolândia — Dōkōzan Busshinji do Brasil",
+      "city": "Rolândia",
+      "region": "Paraná",
+      "lineage": "Sōtō (Sōtōshū)",
+      "address": "Rua Paranaguá 325, Rolândia - PR",
+      "url": "https://www.sotozen.com/eng/temples/outside_jp/Brazil/index.html",
+      "source_url": "https://www.sotozen.com/eng/temples/outside_jp/Brazil/index.html",
+      "notes": "Sōtōshū-registered diaspora temple. Contact: doko-bushin@uol.com.br."
+    },
+    {
+      "name": "Templo Enkōji",
+      "city": "Itapecerica da Serra",
+      "region": "São Paulo",
+      "lineage": "Sōtō (Sōtōshū)",
+      "address": "Rua Izequias Hengles 485, Chácara das Palmeiras, Itapecerica da Serra - SP",
+      "url": "https://temploenkoji.org.br/",
+      "source_url": "https://www.sotozen.com/eng/temples/outside_jp/Brazil/index.html",
+      "notes": "Sōtōshū-registered."
+    },
+    {
+      "name": "Templo Zen das Alterosas — Kogakuzenji",
+      "city": "Belo Horizonte",
+      "region": "Minas Gerais",
+      "lineage": "Sōtō (Sōtōshū)",
+      "address": "Rua Itaparica 245, Serra, Belo Horizonte - MG",
+      "url": "https://www.zen.org.br/",
+      "source_url": "https://www.sotozen.com/eng/temples/outside_jp/Brazil/index.html",
+      "notes": "Belo Horizonte's Sōtōshū-registered temple."
+    },
+    {
+      "name": "Templo Zen Taikanji",
+      "city": "Pedra Bela",
+      "region": "São Paulo",
+      "lineage": "Sōtō (Sōtōshū)",
+      "address": "Estrada das Pintas, km 3,5, Pitangueiras do Meio, Pedra Bela - SP",
+      "url": "https://www.taikanji.com.br/",
+      "source_url": "https://www.sotozen.com/eng/temples/outside_jp/Brazil/index.html",
+      "notes": "Rural training temple."
+    },
+    {
+      "name": "Mosteiro Zen Budista Eishōji — Hōryūzan",
+      "city": "Pirenópolis",
+      "region": "Goiás",
+      "lineage": "Sōtō (Tokuda Igarashi Rōshi lineage)",
+      "address": "Várzea do Lobo, zona rural, Pirenópolis - GO",
+      "url": "https://www.mosteiroeishoji.org/",
+      "source_url": "https://www.mosteiroeishoji.org/historia",
+      "notes": "Founded 2001 by Mestre Ryōtan Tokuda Igarashi. 900-hectare ecological sanctuary at 1,200 m altitude."
+    },
+    {
+      "name": "Zendo Curitiba",
+      "city": "Curitiba",
+      "region": "Paraná",
+      "lineage": "Sōtō (Sōtōshū; Monja Coen lineage — Ryuzan & Mui Sato)",
+      "address": null,
+      "url": "https://zendocuritiba.com.br/",
+      "source_url": "https://zendocuritiba.com.br/sobre/",
+      "notes": "Founded 3 September 2013 by Ryuzan and Mui Sato, disciples of Monja Coen Rōshi. Affiliated with Zendo Brasil."
+    },
+    {
+      "name": "Via Zen — Centro de Prática Porto Alegre",
+      "city": "Porto Alegre",
+      "region": "Rio Grande do Sul",
+      "lineage": "Sōtō (Sōtōshū; Petrópolis sangha lineage)",
+      "address": null,
+      "url": "https://www.viazen.org.br/",
+      "source_url": "https://www.viazen.org.br/",
+      "notes": "Founded 1996 (roots in 1970s Porto Alegre zazen group). Affiliated with Eiheiji/Sōjiji headquarters. Contact: secretariaviazen@gmail.com."
+    },
+    {
+      "name": "Pasargada Ecovillage — Sangha Plum Village Brasil",
+      "city": "Itapecerica da Serra",
+      "region": "São Paulo",
+      "lineage": "Vietnamese Thiền (Plum Village / Thich Nhat Hanh)",
+      "address": null,
+      "url": "https://www.pasargadaecovillage.com/",
+      "source_url": "https://www.aoutramargem.org/plum-village/onde-praticar/",
+      "notes": "Reference centre for Plum Village tradition in Brazil; sustainability + mindfulness ecovillage."
+    },
+    {
+      "name": "Wake Up São Paulo — Plum Village young-adults sangha",
+      "city": "São Paulo",
+      "region": "São Paulo",
+      "lineage": "Vietnamese Thiền (Plum Village / Wake Up)",
+      "address": null,
+      "url": "https://wakeupsaopaulo.webnode.page/",
+      "source_url": "https://plumvillage.org/articles/news/a-wake-up-tour-in-latin-america",
+      "notes": "Wake Up sangha for practitioners aged 18-35 in Plum Village tradition."
+    }
+  ]
+}

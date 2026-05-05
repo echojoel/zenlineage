@@ -1,0 +1,25 @@
+{
+  "_meta": {
+    "country": "India",
+    "collectedAt": "2026-05-05",
+    "method": "Web research on Bodhi Zendo (Sanbo Zen, Tamil Nadu) and AMA Samy lineage.",
+    "coverageEstimate": "High for the principal standing Zen monastery in India (Bodhi Zendo). Low for other lineages.",
+    "knownGaps": [
+      "No standing Plum Village monastery in India verified; Plum Village India activity is limited to occasional retreats and lay sanghas.",
+      "Buddha-vacana Zen India referenced in brief not located via sourced URL.",
+      "No Sotoshu-listed Soto Zen temple in India found in official directory."
+    ]
+  },
+  "places": [
+    {
+      "name": "Bodhi Zendo",
+      "city": "Perumalmalai (near Kodaikanal)",
+      "region": "Tamil Nadu",
+      "lineage": "Sanbo Zen (Sanbo Kyodan)",
+      "address": "Bodhi Zendo, Perumalmalai, Kodaikanal Hills, Dindigul District, Tamil Nadu 624212, India",
+      "url": "https://www.bodhizendo.org/",
+      "source_url": "https://en.wikipedia.org/wiki/Ama_Samy",
+      "notes": "Sanbo Zen monastery founded 1996 by AMA Samy (Yamada Koun Roshi-authorized teacher, 1982). Long and short sesshin in the Sanbo Kyodan tradition; integrates Christian, Buddhist and Advaita strands."
+    }
+  ]
+}

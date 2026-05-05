@@ -3001,5 +3001,1617 @@
   "se:Lund, Skåne, Sweden": [
     55.7029296,
     13.1929449
+  ],
+  "ar:Sánchez 2212, La Paternal, C1416 CABA, Argentina": null,
+  "ar:Buenos Aires, Ciudad Autónoma de Buenos Aires, Argentina": [
+    -34.6095579,
+    -58.3887904
+  ],
+  "ar:Paraje Ojo de Agua, Capilla del Monte, Córdoba, Argentina": null,
+  "ar:Capilla del Monte, Córdoba, Argentina": [
+    -30.8572075,
+    -64.5263199
+  ],
+  "ar:Honduras 5765, Buenos Aires, C1414, Argentina": [
+    -34.5827827,
+    -58.4379094
+  ],
+  "ar:Rosario, Santa Fe, Argentina": [
+    -32.9593609,
+    -60.6617024
+  ],
+  "ar:Córdoba, Córdoba, Argentina": [
+    -31.4166867,
+    -64.1834193
+  ],
+  "ar:La Plata, Buenos Aires Province, Argentina": [
+    -34.9206797,
+    -57.9537638
+  ],
+  "ar:Mar del Plata, Buenos Aires Province, Argentina": [
+    -37.9976168,
+    -57.5482079
+  ],
+  "ar:Salta, Salta, Argentina": [
+    -24.7892946,
+    -65.4103194
+  ],
+  "ar:Neuquén, Neuquén, Argentina": [
+    -38.9519679,
+    -68.0591741
+  ],
+  "ar:Trelew, Chubut, Argentina": [
+    -43.2531242,
+    -65.3094407
+  ],
+  "ar:Bermejo 6815, Capital Federal, C1408 Buenos Aires, Argentina": [
+    -34.6406218,
+    -58.5225966
+  ],
+  "au:251 Young Street, Annandale NSW 2038, Australia": [
+    -33.876655,
+    151.1700609
+  ],
+  "au:Brisbane, QLD, Australia": [
+    -27.4689623,
+    153.0235009
+  ],
+  "au:PO Box 8367 Northland Centre, Preston VIC 3072, Australia": null,
+  "au:Melbourne (Heidelberg West / Braybrook), VIC, Australia": null,
+  "au:Melbourne (Heidelberg West / Braybrook), Australia": null,
+  "au:Perth, WA, Australia": [
+    -31.9558967,
+    115.8605784
+  ],
+  "au:Sydney / Berry, NSW, Australia": [
+    -33.8369184,
+    151.2050239
+  ],
+  "au:Lismore NSW, Australia": [
+    -28.8117496,
+    153.28711
+  ],
+  "au:Salmon Building Chapel, Mater Hospital, South Brisbane QLD, Australia": null,
+  "au:Brisbane (South Brisbane), QLD, Australia": [
+    -27.4730649,
+    153.0172622
+  ],
+  "au:Byron Bay, NSW, Australia": [
+    -28.6483333,
+    153.6177778
+  ],
+  "au:Murwillumbah, NSW, Australia": [
+    -28.3267617,
+    153.3971541
+  ],
+  "au:Adelaide, SA, Australia": [
+    -34.9281805,
+    138.5999312
+  ],
+  "au:CERES Environment Park, Roberts Street, Brunswick East VIC, Australia": null,
+  "au:Melbourne (CERES, Brunswick East), VIC, Australia": null,
+  "au:Melbourne (CERES, Brunswick East), Australia": null,
+  "au:2nd Floor, 71-73 Liverpool Street, Hobart TAS 7000, Australia": null,
+  "au:Hobart, TAS, Australia": [
+    -42.8825088,
+    147.3281233
+  ],
+  "au:Castlemaine, VIC, Australia": [
+    -37.0664778,
+    144.2200032
+  ],
+  "au:Mildura, VIC, Australia": [
+    -34.195274,
+    142.1503146
+  ],
+  "au:Geelong, VIC, Australia": [
+    -38.1493248,
+    144.3598241
+  ],
+  "au:Way of the Forest Hermitage, Doonan QLD, Australia": null,
+  "au:Doonan (Sunshine Coast), QLD, Australia": [
+    -26.44167,
+    153.01111
+  ],
+  "au:Darwin, NT, Australia": [
+    -12.46044,
+    130.8410469
+  ],
+  "au:Canberra, ACT, Australia": [
+    -35.2975906,
+    149.1012676
+  ],
+  "au:Fraser ACT, Australia": [
+    -35.1917124,
+    149.0453179
+  ],
+  "au:1 Tilden Place, Cook ACT 2614, Australia": [
+    -35.2603368,
+    149.0699738
+  ],
+  "au:Armidale NSW, Australia": [
+    -30.4915278,
+    151.6699965
+  ],
+  "au:Cannon Hill, Brisbane QLD, Australia": [
+    -27.4653182,
+    153.0886074
+  ],
+  "au:East Brisbane QLD, Australia": [
+    -27.5807847,
+    152.9421925
+  ],
+  "au:3C Albury Street, Deagon QLD 4017, Australia": [
+    -27.3259615,
+    153.0652665
+  ],
+  "au:25 Banyan Street, Bellbowrie QLD, Australia": [
+    -27.5619222,
+    152.8917863
+  ],
+  "au:8 Admiral Drive, Deception Bay QLD, Australia": [
+    -27.2059981,
+    153.0274918
+  ],
+  "au:23 Sundance Way, Runaway Bay QLD, Australia": [
+    -27.920662,
+    153.3958208
+  ],
+  "au:Melbourne, VIC, Australia": [
+    -37.8142454,
+    144.9631732
+  ],
+  "au:Bellingen / Coffs Harbour / Sawtell NSW, Australia": null,
+  "au:Bellingen, NSW, Australia": [
+    -30.3739913,
+    152.71921
+  ],
+  "au:Blue Mountains, NSW, Australia": [
+    -33.609741,
+    150.4052237
+  ],
+  "au:17 Clive Street, Alphington VIC 3078, Australia": [
+    -37.7797886,
+    145.0271708
+  ],
+  "au:Wahroonga NSW, Australia": [
+    -33.7177551,
+    151.1159106
+  ],
+  "bg:София (Sofia), Sofia City Province, Bulgaria": null,
+  "bg:София (Sofia), Bulgaria": [
+    42.6792938,
+    23.3011089
+  ],
+  "br:Rua São Joaquim 285, Liberdade, São Paulo - SP, Brazil": [
+    -23.5615623,
+    -46.6359603
+  ],
+  "br:Rua Wanderley 1302, Perdizes, São Paulo - SP, 05018-001, Brazil": [
+    -23.5376352,
+    -46.6787457
+  ],
+  "br:Travessa José Goulart 59, Saco dos Limões, Florianópolis - SC, Brazil": [
+    -27.6088842,
+    -48.5327558
+  ],
+  "br:Rua Oscar Vidal 71/301, Centro, Juiz de Fora - MG, Brazil": [
+    -21.7647581,
+    -43.3479002
+  ],
+  "br:BR 101, KM 217, s/nº, Ibiraçu - ES, Brazil": null,
+  "br:Ibiraçu, Espírito Santo, Brazil": [
+    -19.8309496,
+    -40.3686594
+  ],
+  "br:Rua Padre Eustáquio 109, Vila Lavínia, Mogi das Cruzes - SP, Brazil": null,
+  "br:Mogi das Cruzes, São Paulo, Brazil": [
+    -23.5234284,
+    -46.1926671
+  ],
+  "br:Rua Paranaguá 325, Rolândia - PR, Brazil": null,
+  "br:Rolândia, Paraná, Brazil": [
+    -23.3119901,
+    -51.3674145
+  ],
+  "br:Rua Izequias Hengles 485, Chácara das Palmeiras, Itapecerica da Serra - SP, Brazil": null,
+  "br:Itapecerica da Serra, São Paulo, Brazil": [
+    -23.7176303,
+    -46.8492435
+  ],
+  "br:Rua Itaparica 245, Serra, Belo Horizonte - MG, Brazil": [
+    -19.9355415,
+    -43.9202737
+  ],
+  "br:Estrada das Pintas, km 3,5, Pitangueiras do Meio, Pedra Bela - SP, Brazil": null,
+  "br:Pedra Bela, São Paulo, Brazil": [
+    -22.7950193,
+    -46.4431811
+  ],
+  "br:Várzea do Lobo, zona rural, Pirenópolis - GO, Brazil": null,
+  "br:Pirenópolis, Goiás, Brazil": [
+    -15.8501619,
+    -48.957317
+  ],
+  "br:Curitiba, Paraná, Brazil": [
+    -25.4295963,
+    -49.2712724
+  ],
+  "br:Porto Alegre, Rio Grande do Sul, Brazil": [
+    -30.0324999,
+    -51.2303767
+  ],
+  "ca:2016 Wall Street, Vancouver, BC V5L 1B1, Canada": [
+    49.2895905,
+    -123.0589686
+  ],
+  "ca:PO Box 701, Lytton, BC V0K 1Z0, Canada": null,
+  "ca:Lytton, British Columbia, Canada": [
+    50.2311317,
+    -121.581601
+  ],
+  "ca:4970 Nagle Road, Sooke, BC, Canada": [
+    48.3838643,
+    -123.6244747
+  ],
+  "ca:Penticton, British Columbia, Canada": [
+    49.5003268,
+    -119.593249
+  ],
+  "ca:Vancouver, British Columbia, Canada": [
+    49.2608724,
+    -123.113952
+  ],
+  "ca:REACH Community Health Centre, East Vancouver, Canada": null,
+  "ca:Calgary, Alberta, Canada": [
+    51.0456064,
+    -114.057541
+  ],
+  "ca:1009 4 Avenue SW, Calgary, AB, Canada": [
+    51.0496673,
+    -114.0841905
+  ],
+  "ca:Edmonton, Alberta, Canada": [
+    53.5462055,
+    -113.491241
+  ],
+  "ca:Lethbridge, Alberta, Canada": [
+    49.6945782,
+    -112.8331033
+  ],
+  "ca:10734 - 70th Avenue, Edmonton, AB, Canada": null,
+  "ca:11328 - 97 St, Edmonton, AB T5G 1X4, Canada": [
+    53.5637553,
+    -113.4923952
+  ],
+  "ca:Westlock, Alberta, Canada": [
+    54.1525241,
+    -113.8519902
+  ],
+  "ca:Knox-Metropolitan United Church, Regina, SK, Canada": [
+    50.4475037,
+    -104.6142935
+  ],
+  "ca:33 High Park Gardens, Toronto, ON M6R 1S8, Canada": [
+    43.6487501,
+    -79.4570029
+  ],
+  "ca:297 College Street, Toronto, ON, Canada": [
+    43.6574531,
+    -79.4016633
+  ],
+  "ca:Toronto, Ontario, Canada": [
+    43.6534817,
+    -79.3839347
+  ],
+  "ca:Roncesvalles United Church, 214 Wright Avenue, Toronto, ON M6R 1L3, Canada": [
+    43.6455896,
+    -79.4492689
+  ],
+  "ca:44 Burnhamthorpe Park Blvd., Etobicoke, ON M9A 1J1, Canada": [
+    43.6512745,
+    -79.5382595
+  ],
+  "ca:39 Pinehurst Cres., Toronto, ON M9A 3A4, Canada": [
+    43.6631652,
+    -79.5276518
+  ],
+  "ca:London, Ontario, Canada": [
+    42.9836747,
+    -81.2496068
+  ],
+  "ca:Hamilton, Ontario, Canada": [
+    43.2560802,
+    -79.8728583
+  ],
+  "ca:240 Daly Avenue, Ottawa, ON (Sandy Hill), Canada": [
+    45.4285275,
+    -75.6814769
+  ],
+  "ca:Ottawa, Ontario, Canada": [
+    45.4208777,
+    -75.6901106
+  ],
+  "ca:Guelph, Ontario, Canada": [
+    43.5460516,
+    -80.2493276
+  ],
+  "ca:Rivière des Prairies, Montreal, QC, Canada": [
+    45.5443295,
+    -73.707967
+  ],
+  "ca:Montreal, Quebec, Canada": [
+    45.5031824,
+    -73.5698065
+  ],
+  "ca:4620 Saint-Dominique Street, Montreal, QC, Canada": null,
+  "ca:Eastern Townships, Quebec, Canada": [
+    45.2921641,
+    -72.2110888
+  ],
+  "ca:Kingston, Ontario, Canada": [
+    44.3054151,
+    -76.4283781
+  ],
+  "ca:1895 Purcells Cove Road, Halifax, NS B3P 1C2, Canada": [
+    44.62297,
+    -63.5996639
+  ],
+  "ca:Dalhousie Multifaith Centre, 1321 Edward Street, Halifax, NS B3H 1Z1, Canada": null,
+  "ca:Halifax, Nova Scotia, Canada": [
+    44.648618,
+    -63.5859487
+  ],
+  "ca:Wolfville, Nova Scotia, Canada": [
+    45.0914073,
+    -64.3645102
+  ],
+  "ca:Saint John, New Brunswick, Canada": [
+    45.2787992,
+    -66.0585188
+  ],
+  "cl:Martín Alonso Pinzón 5882, Las Condes, Santiago, Chile": [
+    -33.4187502,
+    -70.5655652
+  ],
+  "cl:Santiago (Los Domínicos), Región Metropolitana, Chile": [
+    -33.4087021,
+    -70.5510413
+  ],
+  "cl:Tunquén (Casablanca), Valparaíso, Chile": [
+    -33.2671001,
+    -71.6546666
+  ],
+  "cl:Santiago, Región Metropolitana, Chile": [
+    -33.4376995,
+    -70.6510671
+  ],
+  "cl:Valdivia, Los Ríos, Chile": [
+    -39.8141262,
+    -73.2459859
+  ],
+  "cl:Pucón, Araucanía, Chile": [
+    -39.2731173,
+    -71.9777605
+  ],
+  "co:Carrera 22 # 82-19, Barrio El Polo, Bogotá, 111211, Colombia": null,
+  "co:Bogotá, Bogotá D.C., Colombia": [
+    4.6533817,
+    -74.0836331
+  ],
+  "co:Calle 52 # 78-92, Barrio Los Colores, Medellín, Colombia": [
+    6.26444,
+    -75.5943964
+  ],
+  "co:Cachipay, Cundinamarca, Colombia": [
+    4.7310662,
+    -74.4367577
+  ],
+  "gr:Agisilaou 76-80, Athens, Greece": [
+    37.982521,
+    23.7229162
+  ],
+  "gr:Northern Paros, between Naoussa and Ambelas, Greece": null,
+  "gr:Νάουσα (Naoussa), Πάρος (Paros), South Aegean, Greece": [
+    37.122866,
+    25.2382725
+  ],
+  "hk:Lotus Pond Temple, Ngong Ping, Lantau Island, Hong Kong, Hong Kong": null,
+  "hk:Lantau Island, Ngong Ping, Hong Kong": null,
+  "hk:Lantau Island, Hong Kong": null,
+  "hk:Room 205, 2/F, Block B, Alexandra Industrial Building, 23-27 Wing Hong Street, Lai Chi Kok, Kowloon, Hong Kong, Hong Kong": null,
+  "hk:Hong Kong, Kowloon, Hong Kong": null,
+  "hk:Hong Kong, Hong Kong": null,
+  "hk:G/F, Kingstown Mansion, 319-323 Jaffe Rd., Wanchai, Hong Kong, Hong Kong": null,
+  "hk:Hong Kong, Wanchai, Hong Kong": null,
+  "hr:Hartovski Vrh, Žumberak Nature Park, Croatia": null,
+  "hr:Žumberak (near Zagreb), Zagreb County, Croatia": null,
+  "hr:Žumberak (near Zagreb), Croatia": null,
+  "hr:Zagreb, Grad Zagreb, Croatia": [
+    45.8426414,
+    15.9622315
+  ],
+  "il:24A HaRav Reines St, Tel Aviv, Israel, Israel": null,
+  "il:Tel Aviv, Tel Aviv District, Israel": [
+    32.0852997,
+    34.7818064
+  ],
+  "il:Balfour 8, Jerusalem, Israel, Israel": [
+    31.7730487,
+    35.2169574
+  ],
+  "il:Hod HaSharon, Central District, Israel": [
+    32.1499496,
+    34.8851247
+  ],
+  "il:Ramat Gan (Ramat-Hen), Tel Aviv District, Israel": [
+    32.0573962,
+    34.8183078
+  ],
+  "il:Pardes Hanna-Karkur, Haifa District, Israel": [
+    32.4749962,
+    34.975139
+  ],
+  "il:Ramat Gan, Tel Aviv District, Israel": [
+    32.0686867,
+    34.8246812
+  ],
+  "in:Bodhi Zendo, Perumalmalai, Kodaikanal Hills, Dindigul District, Tamil Nadu 624212, India, India": null,
+  "in:Perumalmalai (near Kodaikanal), Tamil Nadu, India": null,
+  "in:Perumalmalai (near Kodaikanal), India": null,
+  "is:Kletthálsi 1, 110 Reykjavík (2nd floor), Iceland": null,
+  "is:Reykjavík, Capital Region, Iceland": [
+    64.145981,
+    -21.9422367
+  ],
+  "lt:Vilnius, Vilnius County, Lithuania": [
+    54.6870458,
+    25.2829111
+  ],
+  "lt:Kaunas, Kaunas County, Lithuania": [
+    54.8982139,
+    23.9044817
+  ],
+  "lt:Šakiai, Marijampolė County, Lithuania": [
+    54.9559617,
+    23.0395432
+  ],
+  "mx:Calle G Manzana XIII No. 18, Col. Educación, 04400 Ciudad de México, CDMX, Mexico": null,
+  "mx:Ciudad de México, Ciudad de México, Mexico": [
+    19.4326296,
+    -99.1331785
+  ],
+  "mx:Ingres 127, Col. Nonoalco, Alcaldía Benito Juárez, 03710 Ciudad de México, CDMX, Mexico": null,
+  "mx:Ángela Peralta 142A, María Luisa, Centro, 64049 Monterrey, N.L., Mexico": null,
+  "mx:Monterrey, Nuevo León, Mexico": [
+    25.6802019,
+    -100.315258
+  ],
+  "mx:Chacala, Riviera Nayarit (90 min north of Puerto Vallarta), Mexico, Mexico": null,
+  "mx:Chacala, Nayarit, Mexico": [
+    21.1666773,
+    -105.2255089
+  ],
+  "mx:Dr. Vértiz 1418, Col. Vértiz Narvarte, 03310 Ciudad de México, CDMX, Mexico": [
+    19.3794122,
+    -99.1533554
+  ],
+  "mx:Eulalio Pedroza 122, Cuernavaca, Morelos, Mexico": [
+    18.975685,
+    -99.2548821
+  ],
+  "my:Near Kwasa Damansara MRT Station, Selangor, Malaysia, Malaysia": null,
+  "my:Petaling Jaya / Kwasa Damansara, Selangor, Malaysia": null,
+  "my:Petaling Jaya / Kwasa Damansara, Malaysia": null,
+  "nz:Auckland, North Island, New Zealand": null,
+  "nz:Auckland, New Zealand": [
+    -36.852095,
+    174.7631803
+  ],
+  "nz:53 Heathcote Street, Woolston, Christchurch, New Zealand": [
+    -43.5508769,
+    172.6833909
+  ],
+  "nz:4 Mayroyd Terrace, Nelson, New Zealand": [
+    -41.2772411,
+    173.2949699
+  ],
+  "nz:Wellington, North Island, New Zealand": [
+    -41.2887953,
+    174.7772114
+  ],
+  "nz:Conscious Living Centre, 6a Carroll Street, Dunedin, New Zealand": null,
+  "nz:Dunedin, South Island, New Zealand": null,
+  "nz:Dunedin, New Zealand": [
+    -45.8740984,
+    170.5035755
+  ],
+  "nz:Christchurch, South Island, New Zealand": null,
+  "nz:Christchurch, New Zealand": [
+    -43.530955,
+    172.6364343
+  ],
+  "nz:Nelson, South Island, New Zealand": null,
+  "nz:Nelson, New Zealand": [
+    -41.2710849,
+    173.2836756
+  ],
+  "nz:Palmerston North (Manawatu), North Island, New Zealand": null,
+  "nz:Palmerston North (Manawatu), New Zealand": [
+    -40.4102804,
+    175.5560902
+  ],
+  "nz:Rotorua, North Island, New Zealand": null,
+  "nz:Rotorua, New Zealand": [
+    -38.136073,
+    176.2525434
+  ],
+  "nz:608 Manaia Road, Coromandel, New Zealand": [
+    -36.8615259,
+    175.445565
+  ],
+  "ph:Heroes Hill, Quezon City, Metro Manila, Philippines, Philippines": null,
+  "ph:Quezon City, Metro Manila, Philippines": [
+    14.6510546,
+    121.0486254
+  ],
+  "ph:Baguio City, Benguet / Cordillera, Philippines": [
+    16.3394164,
+    120.7257291
+  ],
+  "ph:Manila, Metro Manila, Philippines": [
+    14.5904492,
+    120.9803621
+  ],
+  "ph:Iloilo City, Western Visayas, Philippines": [
+    10.6932884,
+    122.5732604
+  ],
+  "ph:Davao City, Davao Region, Philippines": [
+    7.0648306,
+    125.6080623
+  ],
+  "ph:716 Jose Abad Santos St., Little Baguio, San Juan, Metro Manila, Philippines, Philippines": null,
+  "ph:San Juan, Metro Manila, Philippines": [
+    14.6044363,
+    121.0299469
+  ],
+  "ro:Str. Complexului 2A, sector 3 (Dristor), Romania": [
+    44.4205422,
+    26.1406599
+  ],
+  "ro:Aleea Lăcrămioarelor 7A, Bl. 8, Sc. D, Ap. 22, Romania": null,
+  "ro:Brașov, Brașov County, Romania": null,
+  "ro:Brașov, Romania": [
+    45.6525105,
+    25.6105654
+  ],
+  "rs:Sremska 9, Belgrade, Serbia": [
+    44.8492553,
+    20.3842046
+  ],
+  "sg:Singapore, Singapore, Singapore": [
+    1.2959845,
+    103.7766186
+  ],
+  "sg:134 Chuan Hoe Avenue, Singapore 549318, Singapore": [
+    1.3641458,
+    103.8753511
+  ],
+  "sk:Hanulova 5, 841 01 Bratislava, Slovakia": [
+    48.1788464,
+    17.0422605
+  ],
+  "sk:Letná 10/43, 040 01 Košice-Sever, Slovakia": [
+    48.7298361,
+    21.24218
+  ],
+  "th:91 Soi Praram 9 Hospital, Rama 9 Road, Bangkapi, Huai Khwang, Bangkok 10310, Thailand, Thailand": null,
+  "th:Bangkok, Huai Khwang, Thailand": [
+    13.7662026,
+    100.5740475
+  ],
+  "tr:Mehmet Şengün Sokak No 2, D 15, Fenerbahçe 34726, İstanbul, Turkey": null,
+  "tr:İstanbul, Istanbul Province, Turkey": null,
+  "tr:İstanbul, Turkey": [
+    41.006381,
+    28.9758715
+  ],
+  "tw:No. 555, Fagu Rd., Jinshan District, New Taipei City 20842, Taiwan, Taiwan": null,
+  "tw:Jinshan, New Taipei City, Taiwan": null,
+  "tw:Jinshan, Taiwan": [
+    25.221883,
+    121.6361852
+  ],
+  "tw:No. 89, Lane 65, Daye Rd., Beitou District, Taipei City 112, Taiwan, Taiwan": null,
+  "tw:Taipei, Beitou District, Taiwan": [
+    25.1347799,
+    121.4715254
+  ],
+  "tw:No. 2, Zhongtai Rd., Puli Township, Nantou County 545, Taiwan, Taiwan": null,
+  "tw:Puli, Nantou County, Taiwan": [
+    23.9666667,
+    120.9691462
+  ],
+  "tw:No. 153, Xingtian Rd., Dashu District, Kaohsiung City 840, Taiwan, Taiwan": null,
+  "tw:Kaohsiung, Dashu District, Taiwan": [
+    22.6467432,
+    120.4373895
+  ],
+  "tw:No. 9, Lane 27, Yuluen St., Zhongshan District, Taipei City, Taiwan, Taiwan": null,
+  "tw:Taipei, Zhongshan District, Taiwan": [
+    25.0488929,
+    121.5187937
+  ],
+  "tw:Sanyi Township, Miaoli County, Taiwan, Taiwan": null,
+  "tw:Sanyi, Miaoli County, Taiwan": [
+    24.4130625,
+    120.7704023
+  ],
+  "us:Anchorage, AK 99501, United States": [
+    61.2163129,
+    -149.894852
+  ],
+  "us:Anchorage, Alaska, United States": [
+    61.2163129,
+    -149.894852
+  ],
+  "us:Fairbanks, Alaska, United States": [
+    64.837845,
+    -147.716675
+  ],
+  "us:Scottsdale, Arizona, United States": [
+    33.4942189,
+    -111.926018
+  ],
+  "us:Bisbee, Arizona, United States": [
+    31.4417165,
+    -109.9159946
+  ],
+  "us:Tempe, Arizona, United States": [
+    33.4255117,
+    -111.940016
+  ],
+  "us:Tucson, Arizona, United States": [
+    32.2228765,
+    -110.974847
+  ],
+  "us:Little Rock, Arkansas, United States": [
+    34.7465071,
+    -92.2896267
+  ],
+  "us:Fayetteville, Arkansas, United States": [
+    36.0625843,
+    -94.1574328
+  ],
+  "us:Kingston, Arkansas, United States": [
+    35.0167573,
+    -93.3151825
+  ],
+  "us:Arcata, CA 95521, United States": [
+    40.866517,
+    -124.08284
+  ],
+  "us:Sunnyvale, CA 94087, United States": [
+    37.3688301,
+    -122.036349
+  ],
+  "us:Los Angeles area, CA 91325, United States": null,
+  "us:Northridge, California, United States": [
+    34.2345615,
+    -118.5369316
+  ],
+  "us:Santa Barbara, CA 93120, United States": [
+    34.4221319,
+    -119.702667
+  ],
+  "us:Santa Barbara, CA 93102, United States": [
+    34.4221319,
+    -119.702667
+  ],
+  "us:San Diego, CA 92172, United States": [
+    32.7174202,
+    -117.162772
+  ],
+  "us:San Francisco, CA 94116, United States": [
+    37.7879363,
+    -122.4075201
+  ],
+  "us:Long Beach, CA 90814, United States": [
+    33.7690164,
+    -118.191604
+  ],
+  "us:Santa Cruz, CA 95060, United States": [
+    36.9743626,
+    -122.0294673
+  ],
+  "us:Oakland, CA 94618, United States": [
+    37.8044557,
+    -122.271356
+  ],
+  "us:San Jose, CA 95126, United States": [
+    37.3361663,
+    -121.890591
+  ],
+  "us:Los Gatos, CA 95033, United States": [
+    37.226611,
+    -121.9746797
+  ],
+  "us:San Rafael, CA 94901, United States": [
+    37.9747795,
+    -122.5316686
+  ],
+  "us:San Jose, CA 95112, United States": [
+    37.3361663,
+    -121.890591
+  ],
+  "us:Mill Valley, CA 94941, United States": [
+    37.9060368,
+    -122.5449763
+  ],
+  "us:Modesto, CA 95358, United States": [
+    37.6393419,
+    -120.9968892
+  ],
+  "us:Carmel-By-The-Sea, CA 93923, United States": [
+    36.5552656,
+    -121.923278
+  ],
+  "us:Pleasant Hill, CA 94523, United States": [
+    37.9479786,
+    -122.0607963
+  ],
+  "us:Sebastopol, CA, United States": [
+    38.4021038,
+    -122.824222
+  ],
+  "us:Santa Cruz, CA 95062, United States": [
+    36.9743626,
+    -122.0294673
+  ],
+  "us:San Francisco, CA 94118, United States": [
+    37.7879363,
+    -122.4075201
+  ],
+  "us:Guerneville, CA 95446, United States": [
+    38.5020445,
+    -122.9987407
+  ],
+  "us:Sonoma, CA 95476, United States": [
+    38.2919984,
+    -122.4578582
+  ],
+  "us:Graton, CA 95444, United States": [
+    38.4363022,
+    -122.8697158
+  ],
+  "us:Santa Rosa, CA, United States": [
+    38.4404925,
+    -122.7141049
+  ],
+  "us:Vallejo, CA 94590, United States": [
+    38.1040864,
+    -122.2566367
+  ],
+  "us:Fresno, CA 93710, United States": [
+    36.7394421,
+    -119.78483
+  ],
+  "us:Woodside, CA 94062, United States": [
+    37.4280637,
+    -122.2507435
+  ],
+  "us:Long Beach, CA 90810, United States": [
+    33.7869293,
+    -118.1828515
+  ],
+  "us:Montebello, CA, United States": [
+    34.0159398,
+    -118.111975
+  ],
+  "us:San Francisco, CA, United States": [
+    37.7879363,
+    -122.4075201
+  ],
+  "us:123 South Hewitt Street, Los Angeles, CA 90012, United States": [
+    34.0472303,
+    -118.2361369
+  ],
+  "us:National City, CA, United States": [
+    32.6781085,
+    -117.0991967
+  ],
+  "us:Oakland, CA, United States": [
+    37.8044557,
+    -122.271356
+  ],
+  "us:Los Osos, CA, United States": [
+    35.3107214,
+    -120.832348
+  ],
+  "us:Redlands, CA, United States": [
+    34.0550328,
+    -117.1827445
+  ],
+  "us:Nevada City, CA, United States": [
+    39.2625993,
+    -121.0187304
+  ],
+  "us:Los Angeles, California, United States": [
+    34.0536909,
+    -118.242766
+  ],
+  "us:San Diego, California, United States": [
+    32.7174202,
+    -117.162772
+  ],
+  "us:Berkeley, California, United States": [
+    37.8708393,
+    -122.272863
+  ],
+  "us:Santa Clara, California, United States": [
+    37.3541132,
+    -121.955174
+  ],
+  "us:Nevada City, California, United States": [
+    39.2625993,
+    -121.0187304
+  ],
+  "us:Sebastopol, California, United States": [
+    38.4021038,
+    -122.824222
+  ],
+  "us:San Francisco, California, United States": [
+    37.7879363,
+    -122.4075201
+  ],
+  "us:Pine Mountain, CA, United States": [
+    35.4927105,
+    -120.6557169
+  ],
+  "us:Redding, CA, United States": [
+    40.5863563,
+    -122.391675
+  ],
+  "us:Berkeley, CA, United States": [
+    37.8708393,
+    -122.272863
+  ],
+  "us:Long Beach, CA, United States": [
+    33.7690164,
+    -118.191604
+  ],
+  "us:Stanford, CA 94305, United States": [
+    37.427467,
+    -122.1702445
+  ],
+  "us:Mountain View, CA 94043, United States": [
+    37.3893889,
+    -122.0832101
+  ],
+  "us:Boulder, CO, United States": [
+    40.0149856,
+    -105.270545
+  ],
+  "us:Longmont, CO 80501, United States": [
+    40.1672117,
+    -105.101928
+  ],
+  "us:Denver, CO, United States": [
+    39.7392364,
+    -104.984862
+  ],
+  "us:Lafayette, CO, United States": [
+    39.9935959,
+    -105.089705
+  ],
+  "us:Western Colorado, United States": [
+    39.8317413,
+    -105.004144
+  ],
+  "us:Boulder, Colorado, United States": [
+    40.0149856,
+    -105.270545
+  ],
+  "us:Boulder County, Colorado, United States": [
+    40.102555,
+    -105.3632079
+  ],
+  "us:Newark, DE, United States": [
+    39.6828358,
+    -75.7515682
+  ],
+  "us:Rehoboth Beach, DE, United States": [
+    38.7164771,
+    -75.0835107
+  ],
+  "us:Washington, DC, United States": [
+    38.8950982,
+    -77.0363849
+  ],
+  "us:Washington, District of Columbia, United States": [
+    38.8950982,
+    -77.0363849
+  ],
+  "us:West Melbourne, FL 32904, United States": [
+    28.0736261,
+    -80.6718389
+  ],
+  "us:Tallahassee, FL, United States": [
+    30.4380832,
+    -84.2809332
+  ],
+  "us:Gainesville, FL, United States": [
+    29.6519684,
+    -82.3249846
+  ],
+  "us:Orlando, FL, United States": [
+    28.5421218,
+    -81.379045
+  ],
+  "us:Southwest Ranches, FL, United States": [
+    26.0586543,
+    -80.3381531
+  ],
+  "us:Boca Raton, Florida, United States": [
+    26.3586885,
+    -80.0830984
+  ],
+  "us:Melbourne, Florida, United States": [
+    28.0785034,
+    -80.6077908
+  ],
+  "us:Tampa, Florida, United States": [
+    27.9449854,
+    -82.4583107
+  ],
+  "us:Atlanta, GA 30306, United States": [
+    33.7544657,
+    -84.3898151
+  ],
+  "us:Kealakekua, HI 96750, United States": [
+    19.517728,
+    -155.921402
+  ],
+  "us:Hilo, HI, United States": [
+    19.7073734,
+    -155.08158
+  ],
+  "us:Kaunakakai, HI, United States": [
+    21.0906247,
+    -157.0208436
+  ],
+  "us:Hanapepe, HI, United States": [
+    21.9113611,
+    -159.5869973
+  ],
+  "us:Paia, Maui, HI, United States": [
+    20.902457,
+    -156.3727211
+  ],
+  "us:Aiea, HI, United States": [
+    21.3822222,
+    -157.9336111
+  ],
+  "us:Honolulu, HI, United States": [
+    21.304547,
+    -157.855676
+  ],
+  "us:Wahiawa, HI, United States": [
+    21.5006241,
+    -158.016672
+  ],
+  "us:Waipahu, HI, United States": [
+    21.3848275,
+    -158.0115976
+  ],
+  "us:Boise, ID, United States": [
+    43.6166163,
+    -116.200886
+  ],
+  "us:Moscow, ID, United States": [
+    46.7323875,
+    -117.000165
+  ],
+  "us:Chicago, IL 60613, United States": [
+    41.8755616,
+    -87.6244212
+  ],
+  "us:Chicago, IL 60614, United States": [
+    41.8755616,
+    -87.6244212
+  ],
+  "us:Evanston, IL 60201, United States": [
+    42.0693991,
+    -87.682932
+  ],
+  "us:Wheaton, IL, United States": [
+    41.8646959,
+    -88.1101709
+  ],
+  "us:Chicago, IL, United States": [
+    41.8755616,
+    -87.6244212
+  ],
+  "us:Oak Park, Illinois, United States": [
+    41.8878145,
+    -87.7887615
+  ],
+  "us:Champaign, Illinois, United States": [
+    40.1164841,
+    -88.2430932
+  ],
+  "us:Ottawa, IL, United States": [
+    41.3516628,
+    -88.845436
+  ],
+  "us:Hobart, IN, United States": [
+    41.5322592,
+    -87.2550353
+  ],
+  "us:Bloomington, IN 47401, United States": [
+    39.1670396,
+    -86.5342881
+  ],
+  "us:South Bend, IN 46617, United States": [
+    41.6833813,
+    -86.2500066
+  ],
+  "us:Indianapolis, IN, United States": [
+    39.7683331,
+    -86.1583502
+  ],
+  "us:Cedar Rapids, IA 52403, United States": [
+    41.9758872,
+    -91.6704053
+  ],
+  "us:Decorah, IA 52101, United States": [
+    43.3041609,
+    -91.7859098
+  ],
+  "us:Ames, IA 50010, United States": [
+    42.0267567,
+    -93.6170448
+  ],
+  "us:Des Moines, IA, United States": [
+    41.5868654,
+    -93.6249494
+  ],
+  "us:Lawrence, KS, United States": [
+    38.9719137,
+    -95.2359403
+  ],
+  "us:Topeka, KS, United States": [
+    39.049011,
+    -95.677556
+  ],
+  "us:Topsham, ME, United States": [
+    43.9247398,
+    -69.9635448
+  ],
+  "us:Oakland, ME 04963, United States": [
+    44.5477088,
+    -69.7160522
+  ],
+  "us:Pembroke, ME, United States": [
+    44.9536891,
+    -67.1619293
+  ],
+  "us:Surry, ME, United States": [
+    44.4959099,
+    -68.5016874
+  ],
+  "us:Annapolis, MD, United States": [
+    38.9786401,
+    -76.492786
+  ],
+  "us:Silver Spring, MD, United States": [
+    38.9997621,
+    -77.0240371
+  ],
+  "us:Barnstable, MA, United States": [
+    41.7016936,
+    -70.3036163
+  ],
+  "us:Lexington, MA, United States": [
+    42.4473175,
+    -71.2245003
+  ],
+  "us:Plymouth, MA, United States": [
+    41.9426657,
+    -70.7618592
+  ],
+  "us:Somerville, MA 02143, United States": [
+    42.3875968,
+    -71.0994968
+  ],
+  "us:Beverly, MA 01915, United States": [
+    42.5489744,
+    -70.8781883
+  ],
+  "us:Worcester, MA 01602, United States": [
+    42.2625621,
+    -71.8018877
+  ],
+  "us:Charlemont, MA, United States": [
+    42.6275354,
+    -72.874488
+  ],
+  "us:Florence, MA, United States": [
+    42.3355692,
+    -72.6719518
+  ],
+  "us:Westhampton, MA, United States": [
+    42.3043386,
+    -72.7749593
+  ],
+  "us:Greenfield, MA, United States": [
+    42.5876342,
+    -72.6002068
+  ],
+  "us:Worcester, MA, United States": [
+    42.2625621,
+    -71.8018877
+  ],
+  "us:Brookline, MA, United States": [
+    42.332918,
+    -71.1187829
+  ],
+  "us:Boston, MA, United States": [
+    42.3588336,
+    -71.0578303
+  ],
+  "us:Martha's Vineyard / New Haven, United States": null,
+  "us:New Haven, Massachusetts, United States": [
+    42.2121008,
+    -72.7353047
+  ],
+  "us:Ann Arbor, Michigan, United States": [
+    42.2813722,
+    -83.7484616
+  ],
+  "us:4820 East 9 Mile Road, Warren, MI 48091, United States": [
+    42.4621701,
+    -83.0562135
+  ],
+  "us:St Paul, MN 55103, United States": [
+    44.9497487,
+    -93.0931028
+  ],
+  "us:Minneapolis, MN 55409, United States": [
+    44.9772995,
+    -93.2654692
+  ],
+  "us:Eitzen, MN 55931, United States": [
+    43.5080273,
+    -91.4615282
+  ],
+  "us:Minneapolis, MN 55408, United States": [
+    44.9772995,
+    -93.2654692
+  ],
+  "us:Faribault, MN 55021, United States": [
+    44.2949637,
+    -93.268827
+  ],
+  "us:Minneapolis, MN, United States": [
+    44.9772995,
+    -93.2654692
+  ],
+  "us:St. Louis, MO 63143, United States": [
+    38.6254063,
+    -90.190009
+  ],
+  "us:Webster Groves, MO 63119, United States": [
+    38.592339,
+    -90.3564329
+  ],
+  "us:Kansas City, MO, United States": [
+    39.100105,
+    -94.5781416
+  ],
+  "us:Columbia, MO, United States": [
+    38.951883,
+    -92.3337366
+  ],
+  "us:Dayton, MT 59914, United States": [
+    47.8628045,
+    -114.2826832
+  ],
+  "us:Omaha, NE 68131, United States": [
+    41.2587459,
+    -95.9383758
+  ],
+  "us:Las Vegas, NV, United States": [
+    36.1674263,
+    -115.1484131
+  ],
+  "us:Morristown, NJ, United States": [
+    40.7970382,
+    -74.4809868
+  ],
+  "us:Ridgewood, NJ, United States": [
+    40.9796683,
+    -74.1194403
+  ],
+  "us:Jersey City, NJ, United States": [
+    40.7215682,
+    -74.047455
+  ],
+  "us:Princeton, NJ, United States": [
+    40.3496953,
+    -74.6597376
+  ],
+  "us:Albuquerque, NM, United States": [
+    35.0841034,
+    -106.650985
+  ],
+  "us:Arroyo Seco, NM 87514, United States": [
+    36.5160231,
+    -105.5699891
+  ],
+  "us:Jemez Springs, NM, United States": [
+    35.76851,
+    -106.6921555
+  ],
+  "us:Taos, NM, United States": [
+    36.4072377,
+    -105.573284
+  ],
+  "us:Las Cruces, NM, United States": [
+    32.3140354,
+    -106.779807
+  ],
+  "us:Beacon, NY, United States": [
+    41.5048402,
+    -73.9695409
+  ],
+  "us:Brooklyn, NY 11215, United States": [
+    40.6526006,
+    -73.9497211
+  ],
+  "us:Yorktown Heights, NY 10598, United States": [
+    41.2709274,
+    -73.7776336
+  ],
+  "us:Purchase, NY 10577, United States": [
+    41.0409305,
+    -73.7145746
+  ],
+  "us:Narrowsburg, NY, United States": [
+    41.6026904,
+    -75.0593426
+  ],
+  "us:Mohegan Lake, NY, United States": [
+    41.314821,
+    -73.8461971
+  ],
+  "us:New York, NY, United States": [
+    40.7127281,
+    -74.0060152
+  ],
+  "us:Staten Island, NY, United States": [
+    40.5834557,
+    -74.1496048
+  ],
+  "us:Bridgehampton, NY, United States": [
+    40.9312839,
+    -72.3103724
+  ],
+  "us:New Rochelle, NY, United States": [
+    40.9115386,
+    -73.7826363
+  ],
+  "us:Hudson Valley, New York, United States": [
+    42.250303,
+    -73.6319754
+  ],
+  "us:New York, New York, United States": [
+    40.7127281,
+    -74.0060152
+  ],
+  "us:Binghamton, NY, United States": [
+    42.098698,
+    -75.9125187
+  ],
+  "us:Oneonta, NY, United States": [
+    42.453492,
+    -75.0629531
+  ],
+  "us:Ithaca, NY, United States": [
+    42.4374175,
+    -76.5483724
+  ],
+  "us:Long Island, NY, United States": [
+    40.8514971,
+    -73.0994297
+  ],
+  "us:Buffalo, NY, United States": [
+    42.8864163,
+    -78.8781493
+  ],
+  "us:Yonkers, NY, United States": [
+    40.9312099,
+    -73.8987469
+  ],
+  "us:Bronx, NY, United States": [
+    40.8466508,
+    -73.8785937
+  ],
+  "us:Chapel Hill, NC 27514, United States": [
+    35.9131542,
+    -79.05578
+  ],
+  "us:Alexander, NC 28701, United States": [
+    35.7029571,
+    -82.6266748
+  ],
+  "us:Asheville, NC 28801, United States": [
+    35.595363,
+    -82.5508407
+  ],
+  "us:Cleveland, OH 44121, United States": [
+    41.5008217,
+    -81.5369108
+  ],
+  "us:Yellow Springs, OH, United States": [
+    39.8045432,
+    -83.8925234
+  ],
+  "us:Cleveland, Ohio, United States": [
+    41.4996574,
+    -81.6936772
+  ],
+  "us:West Chester, OH, United States": [
+    39.3303357,
+    -84.408275
+  ],
+  "us:Cleveland, OH, United States": [
+    41.4996574,
+    -81.6936772
+  ],
+  "us:Ashland, OR 97520, United States": [
+    42.1972487,
+    -122.7153995
+  ],
+  "us:Cheshire, OR 97419, United States": [
+    44.1895913,
+    -123.2856475
+  ],
+  "us:Portland, OR 97225, United States": [
+    45.5202471,
+    -122.674194
+  ],
+  "us:Eugene, OR 97405, United States": [
+    44.0505054,
+    -123.0950506
+  ],
+  "us:Portland, OR 97220, United States": [
+    45.5202471,
+    -122.674194
+  ],
+  "us:Clatskanie, OR 97016, United States": [
+    46.1036879,
+    -123.2048168
+  ],
+  "us:Portland, OR 97211, United States": [
+    45.5202471,
+    -122.674194
+  ],
+  "us:Joseph, OR, United States": [
+    45.3519627,
+    -117.2311073
+  ],
+  "us:Portland, OR, United States": [
+    45.5202471,
+    -122.674194
+  ],
+  "us:Lake Oswego, OR, United States": [
+    45.4206749,
+    -122.670649
+  ],
+  "us:Lansdowne, PA 19050, United States": [
+    39.9381682,
+    -75.2718507
+  ],
+  "us:Honesdale, PA 18431, United States": [
+    41.5771005,
+    -75.2580212
+  ],
+  "us:Sewickley, PA 15143, United States": [
+    40.5403417,
+    -80.1805269
+  ],
+  "us:Pittsburgh, PA, United States": [
+    40.4406968,
+    -80.0025666
+  ],
+  "us:Doylestown, PA, United States": [
+    40.3100446,
+    -75.1304588
+  ],
+  "us:Reading, PA, United States": [
+    40.335345,
+    -75.9279495
+  ],
+  "us:Harrisburg, PA, United States": [
+    40.2663107,
+    -76.8861122
+  ],
+  "us:Columbia, SC, United States": [
+    34.000754,
+    -81.0352313
+  ],
+  "us:Tennessee, United States": [
+    35.7730076,
+    -86.2820081
+  ],
+  "us:Austin, TX 78705, United States": [
+    30.2711286,
+    -97.7436995
+  ],
+  "us:Houston, TX 77008, United States": [
+    29.7589382,
+    -95.3676974
+  ],
+  "us:San Antonio, TX 78212, United States": [
+    29.4246002,
+    -98.4951405
+  ],
+  "us:Houston, TX, United States": [
+    29.7589382,
+    -95.3676974
+  ],
+  "us:Austin, TX, United States": [
+    30.2711286,
+    -97.7436995
+  ],
+  "us:4604 Duval Rd, Austin, TX, United States": [
+    30.4144708,
+    -97.7344313
+  ],
+  "us:1334 FM 646 Rd, Dickinson, TX 77539, United States": null,
+  "us:Dickinson, Texas, United States": [
+    29.4607876,
+    -95.0513173
+  ],
+  "us:Salt Lake City, UT 84101, United States": [
+    40.7596198,
+    -111.886797
+  ],
+  "us:Cornwall, VT 05753, United States": [
+    43.9609015,
+    -73.2098352
+  ],
+  "us:East Calais, VT 05650, United States": [
+    44.3664462,
+    -72.429828
+  ],
+  "us:White River Junction, VT, United States": [
+    43.6505307,
+    -72.3309258
+  ],
+  "us:Putney, VT, United States": [
+    42.9751766,
+    -72.5215973
+  ],
+  "us:Alexandria, VA 22302, United States": [
+    38.8051095,
+    -77.0470229
+  ],
+  "us:Virginia Beach, VA 23455, United States": [
+    36.8496579,
+    -75.9760751
+  ],
+  "us:Blacksburg, VA, United States": [
+    37.2296566,
+    -80.4136767
+  ],
+  "us:Charlottesville, VA, United States": [
+    38.029306,
+    -78.4766781
+  ],
+  "us:Port Angeles, WA, United States": [
+    48.118146,
+    -123.430741
+  ],
+  "us:Olympia, WA 98506, United States": [
+    47.0451022,
+    -122.8950075
+  ],
+  "us:Bellingham, WA 98225, United States": [
+    48.7544012,
+    -122.478836
+  ],
+  "us:Seattle, WA 98109, United States": [
+    47.6038321,
+    -122.330062
+  ],
+  "us:Seattle, WA, United States": [
+    47.6038321,
+    -122.330062
+  ],
+  "us:Deming, WA, United States": [
+    48.8398815,
+    -122.2369963
+  ],
+  "us:Spokane, WA, United States": [
+    47.6571934,
+    -117.42351
+  ],
+  "us:Bellingham, WA, United States": [
+    48.7544012,
+    -122.478836
+  ],
+  "us:Whidbey Island, Freeland, WA, United States": [
+    48.0080246,
+    -122.5249417
+  ],
+  "us:Bainbridge Island, WA, United States": [
+    47.6515096,
+    -122.5246791
+  ],
+  "us:Trout Lake, WA, United States": [
+    45.9964905,
+    -121.5290028
+  ],
+  "us:Lewisburg, WV, United States": [
+    37.8017879,
+    -80.4456303
+  ],
+  "us:Beldenville, WI 54003, United States": [
+    44.7738564,
+    -92.5076915
+  ],
+  "us:Milwaukee, WI 53211, United States": [
+    43.0386475,
+    -87.9090751
+  ],
+  "us:Wauwatosa, WI, United States": [
+    43.0494122,
+    -88.0079271
+  ],
+  "us:Madison, WI, United States": [
+    43.07469,
+    -89.3841663
+  ],
+  "us:near Madison, WI, United States": [
+    43.0775385,
+    -89.4233979
+  ],
+  "us:Baraboo, WI, United States": [
+    43.4704014,
+    -89.7437844
+  ],
+  "us:Green Bay, WI, United States": [
+    44.5126379,
+    -88.0125794
+  ],
+  "za:26 White Street, Robertson 6705, Western Cape, South Africa": [
+    -33.7991375,
+    19.8800397
+  ],
+  "za:Sufi Temple, Newlands, Cape Town, South Africa": null,
+  "za:Cape Town, Western Cape, South Africa": [
+    -33.9288301,
+    18.4172197
+  ],
+  "za:Knysna, Western Cape, South Africa": [
+    -34.035734,
+    23.048485
+  ],
+  "za:Poplar Grove farm, ~30 km outside Colesberg, Northern Cape Karoo, South Africa": null,
+  "za:Colesberg, Northern Cape, South Africa": [
+    -30.721111,
+    25.096667
+  ],
+  "za:Sedgefield, Western Cape, South Africa": [
+    -34.015606,
+    22.802768
+  ],
+  "za:D64, Nirodha Farm, Ixopo 3276, KwaZulu-Natal, South Africa": null,
+  "za:Ixopo, KwaZulu-Natal, South Africa": [
+    -30.151389,
+    30.061111
   ]
 }

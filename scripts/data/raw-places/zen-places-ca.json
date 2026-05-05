@@ -1,0 +1,408 @@
+{
+  "_meta": {
+    "country": "Canada",
+    "collectedAt": "2026-05-05",
+    "method": "Web research across SZBA, OBC, Sanbo Zen International, Kwan Um School of Zen, Plum Village/Plumline networks, and individual sangha websites; cross-checked with Northwest Dharma Association and SOTOZEN.COM. Filtered for currently active centers per their public schedules in 2025-2026.",
+    "coverageEstimate": "~75% of named, organized Zen practice places with public web presence. Likely good coverage for Soto/Rinzai/Sanbo Zen/OBC/Kwan Um; partial coverage for Plum Village lay sanghas (which are numerous and informal); partial coverage for Vietnamese Thien temples that don't strongly self-identify as 'Zen' in English.",
+    "knownGaps": [
+      "Many small Plum Village lay sanghas listed only on Plumline map (sangha-finder requires interactive use)",
+      "Vietnamese Thien temples often serve diaspora communities and are underrepresented in English-language Zen directories",
+      "Some smaller university zen groups (e.g. UBC Zen Sangha) and informal sitting groups",
+      "Quebec francophone sanghas may be underrepresented",
+      "Atlantic Canada outside Halifax",
+      "Northern Canada (no known active Zen centers)"
+    ]
+  },
+  "places": [
+    {
+      "name": "Mountain Rain Zen Community",
+      "city": "Vancouver",
+      "region": "British Columbia",
+      "lineage": "Sōtō (Suzuki Roshi / Everyday Zen / Zoketsu Norman Fischer); SZBA member",
+      "address": "2016 Wall Street, Vancouver, BC V5L 1B1",
+      "url": "https://www.mountainrainzen.org/",
+      "source_url": "https://www.szba.org/mountain-rain-zen-community-1",
+      "notes": "Guiding teachers Myoshin Kate McCandless and Shinmon Michael Newton. Wall Street Zendo and Bright Stream Temple (Koryuji)."
+    },
+    {
+      "name": "Lions Gate Buddhist Priory",
+      "city": "Lytton",
+      "region": "British Columbia",
+      "lineage": "Sōtō / Serene Reflection Meditation (Order of Buddhist Contemplatives, Jiyu-Kennett lineage)",
+      "address": "PO Box 701, Lytton, BC V0K 1Z0",
+      "url": "https://www.lionsgatebuddhistpriory.ca/",
+      "source_url": "https://obcon.org/lions-gate-buddhist-priory/",
+      "notes": "Founded 1985 in Vancouver; relocated to Botanie Mountain near Lytton in 2007. Prior Rev. Master Koten Benson, elected Head of OBC in 2025."
+    },
+    {
+      "name": "Zenwest Buddhist Society",
+      "city": "Victoria / Sooke",
+      "region": "British Columbia",
+      "lineage": "Rinzai (Hakuin lineage; formerly Rinzai-ji, now training under Cho Bo Zen Ji Seattle)",
+      "address": "4970 Nagle Road, Sooke, BC",
+      "url": "https://www.zenwest.ca/",
+      "source_url": "https://northwestdharma.org/group_member/zenwest-buddhist-society-formerly-victoria-zen-centre/",
+      "notes": "Founded 1980 as Victoria Zen Centre; renamed 2013. Abbot Kosen Eshu Martin Osho (returned 2025). Activities in Victoria, Sooke and Nanaimo."
+    },
+    {
+      "name": "Penticton Zen Centre",
+      "city": "Penticton",
+      "region": "British Columbia",
+      "lineage": "Sanbō Zen (Kamakura, Japan)",
+      "address": null,
+      "url": "https://pentictonzen.org/",
+      "source_url": "https://sanbo-zen-international.org/location/",
+      "notes": "Founded 2008 with support of Sister Elaine MacInnes Roshi. Member of Sanbo Zen International."
+    },
+    {
+      "name": "Waves and Water Sangha",
+      "city": "Vancouver",
+      "region": "British Columbia",
+      "lineage": "Plum Village (Thich Nhat Hanh)",
+      "address": null,
+      "url": "https://wavesandwater.org/site/",
+      "source_url": "https://wavesandwater.org/site/save-the-dates-fall-2024-plum-village-monastic-tour-to-western-canada/",
+      "notes": "Weekly Sunday Zoom plus hybrid in-person on last Sunday of month at Mountain Rain Zen."
+    },
+    {
+      "name": "Mindfulness Practice Community of Vancouver",
+      "city": "Vancouver",
+      "region": "British Columbia",
+      "lineage": "Plum Village (Thich Nhat Hanh)",
+      "address": "REACH Community Health Centre, East Vancouver",
+      "url": "http://mindfulnessvancouver.org/",
+      "source_url": "http://mindfulnessvancouver.org/",
+      "notes": "Second Sunday of each month, 6:30-8:30pm."
+    },
+    {
+      "name": "Calgary Sōtō Zen",
+      "city": "Calgary",
+      "region": "Alberta",
+      "lineage": "Sōtō (Shunryu Suzuki / Everyday Zen / Zoketsu Norman Fischer)",
+      "address": null,
+      "url": "http://calgarysotozen.org/",
+      "source_url": "http://calgarysotozen.org/",
+      "notes": "Affiliated with Norman Fischer's Everyday Zen Foundation."
+    },
+    {
+      "name": "Avatamsaka Monastery",
+      "city": "Calgary",
+      "region": "Alberta",
+      "lineage": "Mahayana Chan/Zen (Vietnamese-Chinese hybrid; Five Schools tradition)",
+      "address": "1009 4 Avenue SW, Calgary, AB",
+      "url": "https://www.avatamsaka.ca/",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_Buddhist_temples_in_Canada",
+      "notes": "Founded 1986; Chan practice within multi-school Mahayana monastery."
+    },
+    {
+      "name": "Rocky Mountain Zen — Edmonton",
+      "city": "Edmonton",
+      "region": "Alberta",
+      "lineage": "Sōtō (Gyokei Yokoyama, SZBNA)",
+      "address": null,
+      "url": "https://rockymountainzen.weebly.com/",
+      "source_url": "https://zenpeacemakers.org/projects/rocky-mountain-zen/",
+      "notes": "Founded 2021. Facilitator Ryugen Roth, ordained under Rev. Gyokei Yokoyama (Soto Zen Buddhism North America Office)."
+    },
+    {
+      "name": "Rocky Mountain Zen — Lethbridge",
+      "city": "Lethbridge",
+      "region": "Alberta",
+      "lineage": "Sōtō (Gyokei Yokoyama, SZBNA)",
+      "address": null,
+      "url": "https://rockymountainzen.weebly.com/",
+      "source_url": "https://zenpeacemakers.org/projects/rocky-mountain-zen/",
+      "notes": "Sister group to Rocky Mountain Zen Edmonton; same teacher and lineage."
+    },
+    {
+      "name": "Serene Reflections (Edmonton)",
+      "city": "Edmonton",
+      "region": "Alberta",
+      "lineage": "Sōtō / Serene Reflection Meditation (OBC, Shasta Abbey lineage)",
+      "address": "10734 - 70th Avenue, Edmonton, AB",
+      "url": "https://obcon.org/",
+      "source_url": "https://www.buddhanet.info/wbd/province.php?province_id=9",
+      "notes": "Lay group affiliated with the Order of Buddhist Contemplatives."
+    },
+    {
+      "name": "Trúc Lâm Monastery (Bamboo Forest Monastery)",
+      "city": "Edmonton",
+      "region": "Alberta",
+      "lineage": "Vietnamese Thiền (Trúc Lâm; close ties to Plum Village tradition)",
+      "address": "11328 - 97 St, Edmonton, AB T5G 1X4",
+      "url": "https://www.truclam.ca/truclam",
+      "source_url": "https://www.truclam.ca/",
+      "notes": "Home of Edmonton Buddhist Research Institute; Most Ven. Thích Thiện Tâm and Ven. Abbot Thích Pháp Hòa. Vietnamese Thien with Pure Land elements."
+    },
+    {
+      "name": "Tây Thiên / Westlock Meditation Centre",
+      "city": "Westlock",
+      "region": "Alberta",
+      "lineage": "Vietnamese Thiền (Trúc Lâm)",
+      "address": null,
+      "url": "https://www.truclam.ca/taythien",
+      "source_url": "https://www.truclam.ca/",
+      "notes": "Retreat center ~50km northwest of Edmonton, sister site to Trúc Lâm Monastery."
+    },
+    {
+      "name": "Clear Way Zen (formerly Regina Zen Sangha)",
+      "city": "Regina",
+      "region": "Saskatchewan",
+      "lineage": "Vietnamese Rinzai / Lâm Tế (Nguyên Thiều lineage)",
+      "address": "Knox-Metropolitan United Church, Regina, SK",
+      "url": "https://www.clearwayzen.ca/",
+      "source_url": "https://www.clearwayzen.ca/our-history/",
+      "notes": "Guided by Zen Teacher Lotus Vu, 43rd generation of the Vietnamese Thiền Lâm Tế Lineage."
+    },
+    {
+      "name": "Toronto Zen Centre",
+      "city": "Toronto",
+      "region": "Ontario",
+      "lineage": "Sanbō Kyodan / Kapleau lineage (Soto–Rinzai hybrid)",
+      "address": "33 High Park Gardens, Toronto, ON M6R 1S8",
+      "url": "https://torontozen.org/",
+      "source_url": "https://en.wikipedia.org/wiki/Toronto_Zen_Centre",
+      "notes": "Founded 1967 by Roshi Philip Kapleau. Current teacher Roshi Taigen Henderson."
+    },
+    {
+      "name": "Zen Buddhist Temple — Toronto",
+      "city": "Toronto",
+      "region": "Ontario",
+      "lineage": "Korean Sŏn / Buddhist Society for Compassionate Wisdom (Samu Sunim)",
+      "address": "297 College Street, Toronto, ON",
+      "url": "https://www.zenbuddhisttemple.org/toronto",
+      "source_url": "https://www.zenbuddhisttemple.org/about-bscw",
+      "notes": "Founded by Ven. Samu Sunim (1941–2022). Part of BSCW (originally Zen Lotus Society)."
+    },
+    {
+      "name": "Mountain Moon Sangha — Toronto",
+      "city": "Toronto",
+      "region": "Ontario",
+      "lineage": "Sanbō Zen (Yamada Koun lineage; Sei'un An Roselyn Stone Roshi)",
+      "address": null,
+      "url": "http://www.amtelecom.net/~dragan/MMS/MMS1.html",
+      "source_url": "https://sanbo-zen-international.org/location/",
+      "notes": "Toronto zendo established 1994. Guided by Sei'un An Roselyn Stone Roshi, authorized Sanbō-Zen master."
+    },
+    {
+      "name": "Three Treasures Zen / Oak Tree in the Garden",
+      "city": "Toronto",
+      "region": "Ontario",
+      "lineage": "Sanbō Zen (Yamada Ryoun Roshi; Patrick Gallagher)",
+      "address": null,
+      "url": "https://www.ttzc.org/",
+      "source_url": "http://www.3-treasures-toronto.com/aims.php",
+      "notes": "Principal teacher Patrick Gallagher, also leads Hamilton and Ottawa groups."
+    },
+    {
+      "name": "Toronto Zendo",
+      "city": "Toronto",
+      "region": "Ontario",
+      "lineage": "Sanbō Zen",
+      "address": null,
+      "url": "http://www.torontozendo.ca/",
+      "source_url": "https://sanbo-zen-international.org/location/",
+      "notes": "Small sitting group associated with Sanbo Zen lineage."
+    },
+    {
+      "name": "Mindfulness Practice Community of Toronto",
+      "city": "Toronto",
+      "region": "Ontario",
+      "lineage": "Plum Village (Thich Nhat Hanh)",
+      "address": "Roncesvalles United Church, 214 Wright Avenue, Toronto, ON M6R 1L3",
+      "url": "https://mindfulnesspracticecommunity.org/",
+      "source_url": "https://mindfulnesspracticecommunity.org/our-teacher/",
+      "notes": "Weekly sittings, in-person Saturdays."
+    },
+    {
+      "name": "Wake Up Toronto",
+      "city": "Toronto",
+      "region": "Ontario",
+      "lineage": "Plum Village (Thich Nhat Hanh)",
+      "address": null,
+      "url": "https://www.wakeuptoronto.ca/",
+      "source_url": "https://wkup.org/sangha-of-the-month/wake-up-toronto/",
+      "notes": "Plum Village young-adult sangha, founded 2012."
+    },
+    {
+      "name": "Ontario Zen Center (Kwan Um)",
+      "city": "Etobicoke (Toronto)",
+      "region": "Ontario",
+      "lineage": "Korean Sŏn / Kwan Um School of Zen (Seung Sahn lineage)",
+      "address": "44 Burnhamthorpe Park Blvd., Etobicoke, ON M9A 1J1",
+      "url": "https://kwanumzen.org/zen-centers/",
+      "source_url": "https://americas.kwanumzen.org/",
+      "notes": "Kwan Um School of Zen affiliate."
+    },
+    {
+      "name": "Toronto Zen Circle Group (Kwan Um)",
+      "city": "Toronto",
+      "region": "Ontario",
+      "lineage": "Korean Sŏn / Kwan Um School of Zen",
+      "address": "39 Pinehurst Cres., Toronto, ON M9A 3A4",
+      "url": "https://kwanumzen.org/zen-centers/",
+      "source_url": "https://americas.kwanumzen.org/",
+      "notes": "Kwan Um School of Zen affiliate."
+    },
+    {
+      "name": "London Zen Centre",
+      "city": "London",
+      "region": "Ontario",
+      "lineage": "Sanbō Kyodan / Pacific Zen lineage (Aitken–Tarrant)",
+      "address": null,
+      "url": "https://londonzencentre.org/",
+      "source_url": "https://londonzencentre.org/about",
+      "notes": "Director Roshi Guy Gaudry; trained in Sanbo Kyodan stream that straddles Soto and Rinzai."
+    },
+    {
+      "name": "Three Treasures Hamilton (Patrick Gallagher group)",
+      "city": "Hamilton",
+      "region": "Ontario",
+      "lineage": "Sanbō Zen",
+      "address": null,
+      "url": "https://www.ttzc.org/",
+      "source_url": "https://rbmcdaniel.ca/2021/12/02/patrick-gallagher/",
+      "notes": "Hamilton sitting group under Patrick Gallagher Sensei."
+    },
+    {
+      "name": "White Wind Zen Community / Zen Centre of Ottawa (Honzan Dainen-ji)",
+      "city": "Ottawa",
+      "region": "Ontario",
+      "lineage": "Sōtō / Anzan Hoshin Roshi (Dogen lineage)",
+      "address": "240 Daly Avenue, Ottawa, ON (Sandy Hill)",
+      "url": "https://wwzc.org/",
+      "source_url": "https://en.wikipedia.org/wiki/White_Wind_Zen_Community",
+      "notes": "Founded 1985. Led by Ven. Anzan Hoshin Roshi. 9,700 sq ft heritage building."
+    },
+    {
+      "name": "Zen Ottawa / Flowing Bridge Sangha",
+      "city": "Ottawa",
+      "region": "Ontario",
+      "lineage": "Sanbō Zen (Patrick Gallagher Sensei; Theresa Redmond founder)",
+      "address": null,
+      "url": "https://www.zenottawa.com/",
+      "source_url": "https://www.zenottawa.com/about",
+      "notes": "Founded 2006 as Flowing Bridge Sangha."
+    },
+    {
+      "name": "Mountain Moon Sangha of Ottawa",
+      "city": "Ottawa",
+      "region": "Ontario",
+      "lineage": "Sanbō Zen / Mountain Moon (Sei'un An Roshi; teacher Carolyn Seburn)",
+      "address": null,
+      "url": "https://mountainmoonottawa.org/",
+      "source_url": "https://mountainmoonottawa.org/about/",
+      "notes": "Carolyn Seburn, authorized Zen teacher in Mountain Moon lineage."
+    },
+    {
+      "name": "Guelph Zazenkai (White Wind)",
+      "city": "Guelph",
+      "region": "Ontario",
+      "lineage": "Sōtō / Anzan Hoshin (White Wind Zen Community)",
+      "address": null,
+      "url": "https://wwzc.org/centres/",
+      "source_url": "https://wwzc.org/centres/",
+      "notes": "Branch practice hall of WWZC under Anzan Hoshin Roshi."
+    },
+    {
+      "name": "Montreal Zen Center / Centre Zen de Montréal",
+      "city": "Montreal",
+      "region": "Quebec",
+      "lineage": "Sōtō–Rinzai hybrid (Kapleau / Albert Low lineage)",
+      "address": "Rivière des Prairies, Montreal, QC",
+      "url": "https://www.zenmontreal.ca/",
+      "source_url": "https://www.zenmontreal.ca/",
+      "notes": "Founded 1979 under Albert Low (1928–2016). Lay community drawing on both Soto and Rinzai."
+    },
+    {
+      "name": "Association Zen de Montréal (Dojo Zen de Montréal)",
+      "city": "Montreal",
+      "region": "Quebec",
+      "lineage": "Sōtō (Taisen Deshimaru / AZI lineage)",
+      "address": null,
+      "url": "https://www.zenmontreal.org/",
+      "source_url": "https://www.zenmontreal.org/welcome.html",
+      "notes": "Affiliated with Soto School / Association Zen Internationale."
+    },
+    {
+      "name": "Enpuku-ji Zen Centre",
+      "city": "Montreal",
+      "region": "Quebec",
+      "lineage": "Rinzai (Joshu Sasaki Roshi / Rinzai-ji)",
+      "address": "4620 Saint-Dominique Street, Montreal, QC",
+      "url": "https://enpuku-ji.org/",
+      "source_url": "https://www.rinzaiji.org/affiliated-centers/",
+      "notes": "Affiliate of Rinzai-ji Los Angeles. Resident abbot Zengetsu Myōkyō."
+    },
+    {
+      "name": "Wake Up Montréal",
+      "city": "Montreal",
+      "region": "Quebec",
+      "lineage": "Plum Village (Thich Nhat Hanh)",
+      "address": null,
+      "url": "https://wkup.org/sangha-of-the-month/wake-up-montreal/",
+      "source_url": "https://wkup.org/sangha-of-the-month/wake-up-montreal/",
+      "notes": "Young-adult Plum Village sangha; revived after hiatus."
+    },
+    {
+      "name": "Maple Village (Village d'Érable)",
+      "city": "Eastern Townships",
+      "region": "Quebec",
+      "lineage": "Plum Village (Thich Nhat Hanh)",
+      "address": null,
+      "url": "https://www.facebook.com/maplevillagesangha/",
+      "source_url": "https://wkup.org/sangha-of-the-month/wake-up-montreal/",
+      "notes": "Zen meditation retreat center in tradition of Thich Nhat Hanh, Eastern Townships, QC."
+    },
+    {
+      "name": "Kingston Zen Group (affiliated with Montreal Zen Center)",
+      "city": "Kingston",
+      "region": "Ontario",
+      "lineage": "Sōtō–Rinzai hybrid (Kapleau / Albert Low)",
+      "address": null,
+      "url": "https://www.zenmontreal.ca/",
+      "source_url": "http://iriz.hanazono.ac.jp/zen_centers/centers_data/canada.htm",
+      "notes": "Satellite sitting group of Montreal Zen Center."
+    },
+    {
+      "name": "Thousand Harbours Zen (Sensōji)",
+      "city": "Halifax",
+      "region": "Nova Scotia",
+      "lineage": "Sōtō (SZBA / SOTOZEN.COM listed); Rev. Koun Franz",
+      "address": "1895 Purcells Cove Road, Halifax, NS B3P 1C2",
+      "url": "https://thousandharbourszen.com/",
+      "source_url": "https://www.sotozen.com/eng/temples/outside_jp/Canada/",
+      "notes": "Founded 2014 (formerly Zen Nova Scotia); hybrid online + in-person Tuesday evenings."
+    },
+    {
+      "name": "Atlantic Sōtō Zen Centre",
+      "city": "Halifax",
+      "region": "Nova Scotia",
+      "lineage": "Sōtō",
+      "address": "Dalhousie Multifaith Centre, 1321 Edward Street, Halifax, NS B3H 1Z1",
+      "url": "http://atlanticsotozencenter.com/",
+      "source_url": "https://www.yelp.ca/biz/atlantic-soto-zen-centre-halifax",
+      "notes": "Traditional Soto Zen service: zazen, kinhin, dharma study, sesshin."
+    },
+    {
+      "name": "Wolfville Zazenkai (White Wind)",
+      "city": "Wolfville",
+      "region": "Nova Scotia",
+      "lineage": "Sōtō / Anzan Hoshin (White Wind Zen Community)",
+      "address": null,
+      "url": "https://wwzc.org/centres/",
+      "source_url": "https://wwzc.org/centres/",
+      "notes": "Established August 1990 as branch of Anzan Hoshin's WWZC."
+    },
+    {
+      "name": "Sanbo Zen Saint John Meditation Group",
+      "city": "Saint John",
+      "region": "New Brunswick",
+      "lineage": "Sanbō Zen",
+      "address": null,
+      "url": "https://www.facebook.com/groups/277664696226474/",
+      "source_url": "https://sanbo-zen-international.org/location/",
+      "notes": "Small Sanbo Zen meditation group."
+    }
+  ]
+}

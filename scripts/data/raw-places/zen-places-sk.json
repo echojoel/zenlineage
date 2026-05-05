@@ -1,0 +1,35 @@
+{
+  "_meta": {
+    "country": "Slovakia",
+    "collectedAt": "2026-05-05",
+    "method": "Web search of Kwan Um Europe directory and bratislavazen.sk / kwanumzen.sk",
+    "coverageEstimate": "~95% of Slovak Kwan Um centers (the dominant Zen lineage in Slovakia)",
+    "knownGaps": [
+      "No verified active Sanbō Zen group in Slovakia",
+      "No active Sōtō / AZI dojo verified",
+      "No Plum Village Slovakia lay sangha verified with stable URL"
+    ]
+  },
+  "places": [
+    {
+      "name": "Bratislava Zen Center (Slovenská zenová škola Kwan Um)",
+      "city": "Bratislava",
+      "region": "Bratislava Region",
+      "lineage": "Korean Zen (Kwan Um School)",
+      "address": "Hanulova 5, 841 01 Bratislava",
+      "url": "https://www.bratislavazen.sk/",
+      "source_url": "https://kwanumzen.sk/o_nas",
+      "notes": "Main Kwan Um center in Slovakia. Slovak Kwan Um school established 1990; celebrated 20 years in 2010."
+    },
+    {
+      "name": "Košice Zen Center",
+      "city": "Košice",
+      "region": "Košice Region",
+      "lineage": "Korean Zen (Kwan Um School)",
+      "address": "Letná 10/43, 040 01 Košice-Sever",
+      "url": "https://www.kwanumeurope.org/locations/kosice-zen-center/",
+      "source_url": "https://www.kwanumeurope.org/locations/kosice-zen-center/",
+      "notes": "Eastern Slovakia Kwan Um center. Wednesday evening sessions 18:30-20:30."
+    }
+  ]
+}

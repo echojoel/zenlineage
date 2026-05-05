@@ -1,0 +1,136 @@
+{
+  "_meta": {
+    "country": "Argentina",
+    "collectedAt": "2026-05-05",
+    "method": "Cross-referenced Sōtōshū Argentina directory (sotozen.com), Nanzenji — Asociación de Budismo Sōtō Zen de Argentina (nanzenji.com.ar), Templo Zen Shōbōgenji (shobogenji.org / Asociación Zen de América Latina, Kosen Sangha), Asociación Budista Zen Deshimaru Argentina (zen-deshimaru.com.ar), Ermita de Paja (zazen.com.ar), and the budismo.com Argentina directory. Each entry verified against an official lineage organisation or the centre's own site.",
+    "coverageEstimate": "High (~85%) for organised Zen sanghas with a website or institutional directory entry. Argentina has the largest Latin American Kosen Sangha presence (20+ dōjōs/groups under Master Stéphane Kosen Thibaut) — only the named, sourced ones are listed below; smaller study groups in towns like Tandil, Saladillo, Reconquista, Lago Puelo, El Bolsón, etc. are confirmed but lack standalone URLs.",
+    "knownGaps": [
+      "Many Kosen Sangha 'Grupo Zen' satellite groups in smaller Argentine towns share the parent zen-deshimaru.com.ar URL and have no separate site/address",
+      "Plum Village Buenos Aires sangha exists (visited by Plum Village monastics 2023) but no permanent standalone URL located in 2026",
+      "No 'Hokoji' Zen temple located in San Antonio de Areco — the AZI / SZBA reference appears to be confused with the Kobun Chino Hokoji in Taos, NM",
+      "No active Kwan Um, Sanbō Zen International, or Ōbaku presence located as of 2026"
+    ]
+  },
+  "places": [
+    {
+      "name": "Nanzenji — Asociación de Budismo Sōtō Zen de Argentina (Comunidad Zen del Sur)",
+      "city": "Buenos Aires",
+      "region": "Ciudad Autónoma de Buenos Aires",
+      "lineage": "Sōtō (Sōtōshū-affiliated)",
+      "address": "Sánchez 2212, La Paternal, C1416 CABA",
+      "url": "https://www.nanzenji.com.ar/",
+      "source_url": "https://www.sotozen.com/spa/temples/outside_jp/Argentina/",
+      "notes": "Founded 2005. Argentina's primary Sōtōshū-affiliated zen community (Comunidad Zen del Sur, Asociación Civil)."
+    },
+    {
+      "name": "Templo Zen Shōbōgenji",
+      "city": "Capilla del Monte",
+      "region": "Córdoba",
+      "lineage": "Sōtō / Deshimaru (Kosen Sangha — Stéphane Kosen Thibaut)",
+      "address": "Paraje Ojo de Agua, Capilla del Monte, Córdoba",
+      "url": "https://shobogenji.org/",
+      "source_url": "https://es.wikipedia.org/wiki/Templo_Shobogenji",
+      "notes": "Main residential temple of the Asociación Zen de América Latina (largest Zen group in Argentina, founded 1995)."
+    },
+    {
+      "name": "Dōjō Zen de Buenos Aires — 'Ho Sen'",
+      "city": "Buenos Aires",
+      "region": "Ciudad Autónoma de Buenos Aires",
+      "lineage": "Sōtō / Deshimaru (Kosen Sangha; Maestro Tai Gen Yamauchi)",
+      "address": null,
+      "url": "https://dojozenbuenosaires.com.ar/",
+      "source_url": "https://www.zen-deshimaru.com/es/dojos-zen",
+      "notes": "Urban dōjō of the Kosen Sangha in Buenos Aires."
+    },
+    {
+      "name": "Ermita de Paja — Centro de Práctica Zen",
+      "city": "Buenos Aires",
+      "region": "Ciudad Autónoma de Buenos Aires",
+      "lineage": "Sōtō Zen (Ryūnan Jorge Bustamante)",
+      "address": "Honduras 5765, Buenos Aires, C1414",
+      "url": "https://www.zazen.com.ar/",
+      "source_url": "https://www.budismo.com/directorios/argentina2.php",
+      "notes": "Founded 1992 by monk Ryūnan Jorge Bustamante; spacious facility for regular zazen and intensive sesshin."
+    },
+    {
+      "name": "Dōjō Zen Rosario",
+      "city": "Rosario",
+      "region": "Santa Fe",
+      "lineage": "Sōtō / Deshimaru (Kosen Sangha)",
+      "address": null,
+      "url": "https://zen-deshimaru.com.ar/dojos/",
+      "source_url": "https://zen-deshimaru.com.ar/dojos/",
+      "notes": "Kosen Sangha Argentine dōjō network."
+    },
+    {
+      "name": "Dōjō Zen Córdoba",
+      "city": "Córdoba",
+      "region": "Córdoba",
+      "lineage": "Sōtō / Deshimaru (Kosen Sangha)",
+      "address": null,
+      "url": "https://zen-deshimaru.com.ar/dojos/",
+      "source_url": "https://zen-deshimaru.com.ar/dojos/",
+      "notes": "Kosen Sangha Argentine dōjō network."
+    },
+    {
+      "name": "Dōjō Zen La Plata",
+      "city": "La Plata",
+      "region": "Buenos Aires Province",
+      "lineage": "Sōtō / Deshimaru (Kosen Sangha)",
+      "address": null,
+      "url": "https://zen-deshimaru.com.ar/dojos/",
+      "source_url": "https://zen-deshimaru.com.ar/dojos/",
+      "notes": "Kosen Sangha Argentine dōjō network."
+    },
+    {
+      "name": "Dōjō Zen Mar del Plata",
+      "city": "Mar del Plata",
+      "region": "Buenos Aires Province",
+      "lineage": "Sōtō / Deshimaru (Kosen Sangha)",
+      "address": null,
+      "url": "https://zen-deshimaru.com.ar/dojos/",
+      "source_url": "https://zen-deshimaru.com.ar/dojos/",
+      "notes": "Kosen Sangha Argentine dōjō network."
+    },
+    {
+      "name": "Dōjō Zen Salta",
+      "city": "Salta",
+      "region": "Salta",
+      "lineage": "Sōtō / Deshimaru (Kosen Sangha)",
+      "address": null,
+      "url": "https://zen-deshimaru.com.ar/dojos/",
+      "source_url": "https://zen-deshimaru.com.ar/dojos/",
+      "notes": "Kosen Sangha Argentine dōjō network."
+    },
+    {
+      "name": "Dōjō Zen Neuquén",
+      "city": "Neuquén",
+      "region": "Neuquén",
+      "lineage": "Sōtō / Deshimaru (Kosen Sangha)",
+      "address": null,
+      "url": "https://zen-deshimaru.com.ar/dojos/",
+      "source_url": "https://zen-deshimaru.com.ar/dojos/",
+      "notes": "Kosen Sangha Argentine dōjō network."
+    },
+    {
+      "name": "Dōjō Zen Trelew",
+      "city": "Trelew",
+      "region": "Chubut",
+      "lineage": "Sōtō / Deshimaru (Kosen Sangha)",
+      "address": null,
+      "url": "https://zen-deshimaru.com.ar/dojos/",
+      "source_url": "https://zen-deshimaru.com.ar/dojos/",
+      "notes": "Kosen Sangha Argentine dōjō network."
+    },
+    {
+      "name": "Zen Dōjō Internacional de Buenos Aires",
+      "city": "Buenos Aires",
+      "region": "Ciudad Autónoma de Buenos Aires (Liniers)",
+      "lineage": "Rinzai (Tenryū-ji, Kyoto; Seizan Feijoo)",
+      "address": "Bermejo 6815, Capital Federal, C1408 Buenos Aires",
+      "url": "https://www.budismo.com/directorios/argentina2.php",
+      "source_url": "https://www.budismo.com/directorios/argentina2.php",
+      "notes": "Argentina's principal Rinzai practice site; affiliated with Tenryū-ji line. Director: Seizan Feijoo."
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "_meta": {
+    "country": "Indonesia",
+    "collectedAt": "2026-05-05",
+    "method": "Web research on Plum Village Indonesia community and Sotoshu directory.",
+    "coverageEstimate": "Low. Indonesian Buddhism is dominated by Mahayana / Theravada / syncretic forms; standing Zen institutions are rare.",
+    "knownGaps": [
+      "Plum Village Indonesia operates primarily via online sangha and visits; no standing monastery.",
+      "Sangha Cermin Hati referenced in brief could not be verified to a current independent URL.",
+      "No Sotoshu-listed Soto Zen temple in Indonesia found in official directory."
+    ]
+  },
+  "places": [
+    {
+      "name": "Plum Village Indonesia (Order of Interbeing Indonesia)",
+      "city": "Jakarta",
+      "region": "Indonesia (national)",
+      "lineage": "Plum Village / Vietnamese Thien (Thich Nhat Hanh)",
+      "address": null,
+      "url": "https://www.instagram.com/plumvillageindonesia/",
+      "source_url": "https://en.wikipedia.org/wiki/Plum_Village_Tradition",
+      "notes": "Lay community of Plum Village practitioners and Order of Interbeing in Indonesia; coordinates retreats with Thai Plum Village monastics."
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "_meta": {
+    "country": "Singapore",
+    "collectedAt": "2026-05-05",
+    "method": "Web research of Plum Village Joyful Garden Sangha, Soto Zen Singapore (Sotoshu directory), Dharma Drum Singapore.",
+    "coverageEstimate": "Medium-high for institutional Zen presence. Singapore's Zen scene is small relative to its Mahayana / Theravada Buddhist communities.",
+    "knownGaps": [
+      "Sanbo Zen Singapore (small) not separately verified with sourceable URL.",
+      "Rinzai-affiliated lay groups not enumerated."
+    ]
+  },
+  "places": [
+    {
+      "name": "Joyful Garden Sangha",
+      "city": "Singapore",
+      "region": "Singapore",
+      "lineage": "Plum Village / Vietnamese Thien (Thich Nhat Hanh)",
+      "address": null,
+      "url": "https://www.joyfulgarden.sg/",
+      "source_url": "https://www.parallax.org/mindfulnessbell/article/joyful-garden-sangha/",
+      "notes": "Lay Plum Village sangha established 2008; monthly Days of Mindfulness in the tradition of Thich Nhat Hanh."
+    },
+    {
+      "name": "Nihonji Soto Zen Temple",
+      "city": "Singapore",
+      "region": "Singapore",
+      "lineage": "Soto Zen (Sotoshu)",
+      "address": "134 Chuan Hoe Avenue, Singapore 549318",
+      "url": "https://www.sotozen.com/eng/temples/outside_jp/Singapore/",
+      "source_url": "https://www.sotozen.com/eng/temples/outside_jp/Singapore/",
+      "notes": "Sole Sotoshu-listed Soto Zen temple in Singapore, per official Sotoshu international temple directory."
+    },
+    {
+      "name": "Dharma Drum Mountain Singapore",
+      "city": "Singapore",
+      "region": "Singapore",
+      "lineage": "Chan / Sheng-yen (Dharma Drum Mountain)",
+      "address": null,
+      "url": "https://ddsingapore.org/en",
+      "source_url": "https://ddsingapore.org/en",
+      "notes": "Singapore branch of Dharma Drum Mountain Buddhist Association; offers Chan meditation classes and Sheng-yen lineage teachings."
+    }
+  ]
+}

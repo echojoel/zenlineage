@@ -1,0 +1,75 @@
+{
+  "_meta": {
+    "country": "Taiwan",
+    "collectedAt": "2026-05-05",
+    "method": "Targeted web research of major Taiwanese Chan/Zen institutions, cross-referenced with official sites and Wikipedia. Taiwanese Chan treated as Zen for taxonomy.",
+    "coverageEstimate": "High for the four major Chan institutions (Dharma Drum, Chung Tai, Fo Guang Shan, Linji-Rinzai). Lower for smaller independent zendos and Sanbo Zen affiliates.",
+    "knownGaps": [
+      "Hundreds of small Chung Tai branch meditation centers across Taiwan not enumerated.",
+      "Numerous Fo Guang Shan branch temples with Chan halls not enumerated.",
+      "Smaller independent Chan groups, Sanbo Zen affiliates and Yuanjue Hall not separately verified."
+    ]
+  },
+  "places": [
+    {
+      "name": "Dharma Drum Mountain World Center for Buddhist Education",
+      "city": "Jinshan",
+      "region": "New Taipei City",
+      "lineage": "Chan / Sheng-yen (Dharma Drum Mountain)",
+      "address": "No. 555, Fagu Rd., Jinshan District, New Taipei City 20842, Taiwan",
+      "url": "https://www.dharmadrum.org/",
+      "source_url": "https://en.wikipedia.org/wiki/Dharma_Drum_Mountain",
+      "notes": "International headquarters and main monastery of the Dharma Drum Mountain organization founded by Chan Master Sheng-yen; one of the Four Great Mountains of Taiwanese Buddhism."
+    },
+    {
+      "name": "Nung Chan Monastery (Water-Moon Dharma Center)",
+      "city": "Taipei",
+      "region": "Beitou District",
+      "lineage": "Chan / Sheng-yen (Dharma Drum Mountain)",
+      "address": "No. 89, Lane 65, Daye Rd., Beitou District, Taipei City 112, Taiwan",
+      "url": "https://www.ddm.org.tw/",
+      "source_url": "https://en.wikipedia.org/wiki/Nung_Chan_Monastery",
+      "notes": "Principal Taipei branch of Dharma Drum Mountain, founded 1975 by Master Dongchu; site of Sheng-yen's early teaching. Famed Water-Moon Dharma Center hall."
+    },
+    {
+      "name": "Chung Tai Chan Monastery",
+      "city": "Puli",
+      "region": "Nantou County",
+      "lineage": "Chan / Linji (Chung Tai Shan)",
+      "address": "No. 2, Zhongtai Rd., Puli Township, Nantou County 545, Taiwan",
+      "url": "https://www.ctworld.org/",
+      "source_url": "https://en.wikipedia.org/wiki/Chung_Tai_Shan",
+      "notes": "Main monastery of Chung Tai Shan (Linji Chan), founded by Wei Chueh in 1987; 136 m tall, parent of 108 affiliated Chan meditation centers."
+    },
+    {
+      "name": "Fo Guang Shan Monastery (Chan Hall)",
+      "city": "Kaohsiung",
+      "region": "Dashu District",
+      "lineage": "Chan / Linji (Fo Guang Shan, Humanistic Buddhism)",
+      "address": "No. 153, Xingtian Rd., Dashu District, Kaohsiung City 840, Taiwan",
+      "url": "https://www.fgs.org.tw/",
+      "source_url": "https://en.wikipedia.org/wiki/Fo_Guang_Shan",
+      "notes": "Headquarters of Fo Guang Shan, founded 1967 by Hsing Yun; Chan Hall behind Main Shrine on third floor of Tathagata Building, capacity 400+."
+    },
+    {
+      "name": "Linji Huguo Chan Temple",
+      "city": "Taipei",
+      "region": "Zhongshan District",
+      "lineage": "Rinzai / Linji",
+      "address": "No. 9, Lane 27, Yuluen St., Zhongshan District, Taipei City, Taiwan",
+      "url": "https://www.fgs.org.tw/",
+      "source_url": "https://en.wikipedia.org/wiki/Linji_Huguo_Chan_Temple",
+      "notes": "Historic Japanese-built Rinzai temple (1900-1911), now affiliated with Fo Guang Shan; weekly Sunday Chan meditation sessions."
+    },
+    {
+      "name": "Dharma Drum Retreat Center (Sanyi Branch)",
+      "city": "Sanyi",
+      "region": "Miaoli County",
+      "lineage": "Chan / Sheng-yen (Dharma Drum Mountain)",
+      "address": "Sanyi Township, Miaoli County, Taiwan",
+      "url": "https://www.ddm.org.tw/",
+      "source_url": "https://www.dharmadrum.org/",
+      "notes": "Dharma Drum branch retreat / DILA campus; one of multiple DDM education centers across Taiwan."
+    }
+  ]
+}

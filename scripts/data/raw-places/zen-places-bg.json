@@ -1,0 +1,35 @@
+{
+  "_meta": {
+    "country": "Bulgaria",
+    "collectedAt": "2026-05-05",
+    "method": "Web search of Mokusho Zen network, Plum Village resources, and Buddhist directories",
+    "coverageEstimate": "~85% of active Bulgarian Zen practice",
+    "knownGaps": [
+      "Bulgarian Plum Village Sangha is active in Sofia but lacks a standalone website — relight.one used as canonical source",
+      "Mokusho Zen House Bulgaria operates primarily via Facebook with no listed street address",
+      "No verified Sanbō Zen Bulgaria entity"
+    ]
+  },
+  "places": [
+    {
+      "name": "Mokusho Zen House Bulgaria",
+      "city": "София (Sofia)",
+      "region": "Sofia City Province",
+      "lineage": "Sōtō Zen (Deshimaru-Zeisler line)",
+      "address": null,
+      "url": "https://www.facebook.com/mokushozen.bg/",
+      "source_url": "https://www.facebook.com/mokushozen.bg/",
+      "notes": "Bulgarian branch of the Eastern European Mokusho Zen network (Monk Myoken lineage). Regular zazen and sesshins (e.g. Vratsa)."
+    },
+    {
+      "name": "Bulgarian Plum Village Sangha",
+      "city": "София (Sofia)",
+      "region": "Sofia City Province",
+      "lineage": "Vietnamese Thiền (Plum Village / Thich Nhat Hanh)",
+      "address": null,
+      "url": "https://www.relight.one/places/bulgarian-plum-village-sangha",
+      "source_url": "https://www.relight.one/places/bulgarian-plum-village-sangha",
+      "notes": "Active community of mindfulness practitioners in the Plum Village tradition; meets in Sofia."
+    }
+  ]
+}

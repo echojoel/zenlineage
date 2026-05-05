@@ -1,0 +1,44 @@
+{
+  "_meta": {
+    "country": "Turkey",
+    "collectedAt": "2026-05-05",
+    "method": "Web search of Yun Hwa Sangha, Plum Village resources, and Tricycle coverage of Cem Şen's sangha",
+    "coverageEstimate": "~85% of publicly listed Istanbul Zen practice",
+    "knownGaps": [
+      "Cem Şen's Turkish Buddhist sangha is well documented (Tricycle 2024) but uses cemsen.com as a teaching site rather than a sangha-specific URL",
+      "Istanbul Lotus River Sangha (Plum Village) is Facebook-only — included with Facebook URL"
+    ]
+  },
+  "places": [
+    {
+      "name": "Istanbul Yun Hwa Dharma Sah",
+      "city": "İstanbul",
+      "region": "Istanbul Province",
+      "lineage": "Korean Zen (Yun Hwa / World Social Buddhism — Ji Kwang Dae Poep Sa Nim)",
+      "address": "Mehmet Şengün Sokak No 2, D 15, Fenerbahçe 34726, İstanbul",
+      "url": "https://yunhwasangha.org/centers/istanbul/",
+      "source_url": "https://yunhwasangha.org/centers/istanbul/",
+      "notes": "First Yun Hwa Dharma Sah in Asia; opened 7 September 2013. Phone +90 543 965 41 77."
+    },
+    {
+      "name": "Istanbul Lotus River Sangha",
+      "city": "İstanbul",
+      "region": "Istanbul Province",
+      "lineage": "Vietnamese Thiền (Plum Village / Thich Nhat Hanh)",
+      "address": null,
+      "url": "https://www.facebook.com/groups/1211436302248039/",
+      "source_url": "https://www.relight.one/places/istanbul-lotus-river-sangha",
+      "notes": "Plum Village mindfulness sangha in Istanbul. Active community of practitioners."
+    },
+    {
+      "name": "Cem Şen Sangha (Turkish Buddhist Sangha)",
+      "city": "İstanbul",
+      "region": "Istanbul Province",
+      "lineage": "Zen (formal Zen training since 1989; founder student of İlhan Güngören)",
+      "address": null,
+      "url": "https://cemsen.com/?lang=en",
+      "source_url": "https://tricycle.org/article/modern-turkey-buddhism/",
+      "notes": "Turkey's principal Zen-trained Buddhist sangha. Founder Cem Şen (b. 1968, İzmir) began Zen training in 1989. Tricycle profile (2024) describes ~350 devotees over a decade."
+    }
+  ]
+}

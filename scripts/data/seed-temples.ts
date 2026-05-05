@@ -149,6 +149,10 @@ export const SRC_SOTOZEN_ES = "src_sotozen_es";
 /** Kwan Um Polska (zen.pl) — large PL Korean-Zen network. */
 export const SRC_KWAN_UM_POLAND = "src_kwan_um_poland";
 
+/** Sōtō Zen Buddhist Association (SZBA) — North-American Sōtō teachers'
+ * association. szba.org is the main directory of US/Canada Sōtō centres. */
+export const SRC_SZBA = "src_szba";
+
 // ─── Catch-all for the long tail of small directory citations ──────────
 /** EU Zen places research bundle — generic citation source for entries
  * surfaced by directories not individually registered above. The

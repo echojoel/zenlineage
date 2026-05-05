@@ -1,0 +1,55 @@
+{
+  "_meta": {
+    "country": "Colombia",
+    "collectedAt": "2026-05-05",
+    "method": "Cross-referenced Comunidad Sōtō Zen Colombia / Daishinji (sotozencolombia.org), Montaña de Silencio / Sōfū-ji (montanadesilencio.org), Fundación Zen de Colombia / Templo Gen To (fundacionzen.org), Sangha Bogotá (Plum Village tradition; sangha.bogota@gmail.com), and Buddhistdoor en Español's Colombia directory. Each entry verified against the centre's own site or an official Sōtōshū / Plum Village reference.",
+    "coverageEstimate": "Medium (~65-70%) for organised Zen sanghas with a website. Daishinji is the central Sōtōshū-recognised seat for Colombia (proclaimed a Sōtō school temple in South America). Montaña de Silencio in Medellín is a separate active Sōtō community. Plum Village footprint represented by Sangha Bogotá; smaller mindfulness groups in Medellín/Cali/Armenia are documented but lack standalone URLs.",
+    "knownGaps": [
+      "Sangha Bogotá (Plum Village tradition) operates primarily through Facebook/Instagram; no dedicated website",
+      "Centro Cultural Bodhidharma (Armenia) and Kasaguadua are listed as Daishinji sub-locations but lack independent URLs",
+      "No active Rinzai, Kwan Um, Sanbō Zen International, or Ōbaku presence located as of 2026"
+    ]
+  },
+  "places": [
+    {
+      "name": "Daishinji — Templo Zen Mente Magnánima",
+      "city": "Bogotá",
+      "region": "Bogotá D.C.",
+      "lineage": "Sōtō (Sōtōshū; Densho Quintero, dharma heir of Shōhaku Okumura Rōshi)",
+      "address": "Carrera 22 # 82-19, Barrio El Polo, Bogotá, 111211",
+      "url": "https://sotozencolombia.org/",
+      "source_url": "https://espanol.buddhistdoor.net/un-templo-zen-en-bogota-la-proclamacion-de-daishinji-como-templo-de-la-escuela-zen-soto-en-suramerica/",
+      "notes": "Proclaimed a Sōtōshū South America temple. Led by Ven. Densho Quintero (ordained at Antaiji, Japan)."
+    },
+    {
+      "name": "Montaña de Silencio — Sōfū-ji",
+      "city": "Medellín",
+      "region": "Antioquia",
+      "lineage": "Sōtō Zen",
+      "address": "Calle 52 # 78-92, Barrio Los Colores, Medellín",
+      "url": "https://www.montanadesilencio.org/",
+      "source_url": "https://www.montanadesilencio.org/",
+      "notes": "Main seat of the Montaña de Silencio Sōtō Zen community; daily zazen schedule plus virtual sessions."
+    },
+    {
+      "name": "Fundación Zen de Colombia — Templo Gen To 'La Tierra'",
+      "city": "Cachipay",
+      "region": "Cundinamarca",
+      "lineage": "Sōtō (Reitai Lemort)",
+      "address": null,
+      "url": "https://www.fundacionzen.org/",
+      "source_url": "https://www.fundacionzen.org/templo-gen-to-la-tierra/",
+      "notes": "Rural retreat temple near Cachipay run by monk Reitai Lemort; urban practice groups via fundacion@fundacionzen.org."
+    },
+    {
+      "name": "Sangha Bogotá — Tradición Thich Nhat Hanh",
+      "city": "Bogotá",
+      "region": "Bogotá D.C.",
+      "lineage": "Vietnamese Thiền (Plum Village / Thich Nhat Hanh)",
+      "address": null,
+      "url": "https://www.facebook.com/sangha.bogota/",
+      "source_url": "https://plumvillage.org/articles/transformation-and-healing-in-latin-america-2023",
+      "notes": "Active Plum Village sangha in Bogotá; hosted Plum Village monastics during 2023 and 2025 Colombia tours. Contact: sangha.bogota@gmail.com."
+    }
+  ]
+}

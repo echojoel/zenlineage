@@ -50,6 +50,19 @@ interface RawFile {
   places: RawPlace[];
 }
 
+// All slugs already curated by hand in scripts/data/seed-temples.ts (i.e.
+// the entries that appear BEFORE the `...EUROPE_TEMPLE_SEEDS` spread).
+// We preload them so a new agent batch never overwrites a curated row's
+// foundedYear / founderSlug / sourceExcerpt with thinner generated data.
+function loadCuratedSlugs(): Set<string> {
+  const src = readFileSync("scripts/data/seed-temples.ts", "utf-8");
+  const cutoff = src.indexOf("...EUROPE_TEMPLE_SEEDS");
+  const head = cutoff >= 0 ? src.slice(0, cutoff) : src;
+  const slugs = new Set<string>();
+  for (const m of head.matchAll(/slug:\s*"([^"]+)"/g)) slugs.add(m[1]);
+  return slugs;
+}
+
 // Patterns that mean an agent-provided entry is the same place we already
 // have hardcoded in seed-temples.ts. When a pattern matches, we drop the
 // entry so we don't fight the canonical row.
@@ -112,6 +125,14 @@ function lineageToSchoolSlug(lineage: string): string {
 // Source URL host → registered sourceId.
 function pickSourceId(sourceUrl: string, lineage: string): string {
   const u = sourceUrl.toLowerCase();
+
+  // ── North-American sect umbrellas ───────────────────────────────────
+  if (u.includes("szba.org")) return "src_szba";
+  if (u.includes("sfzc.org")) return "src_sfzc";
+  if (u.includes("zmm.org") || u.includes("mountainsandrivers"))
+    return "src_mountains_rivers";
+  if (u.includes("diamondsangha.org")) return "src_diamond_sangha";
+  if (u.includes("rinzaiji.org")) return "src_rinzaiji";
 
   // ── Pan-European / sect networks ────────────────────────────────────
   if (u.includes("zen-deshimaru.com")) return "src_kosen_sangha";
@@ -258,12 +279,16 @@ function buildExcerpt(p: RawPlace): string {
 
 async function main(): Promise<void> {
   const cache = loadCache();
+  const curatedSlugs = loadCuratedSlugs();
   const seenSlugs = new Set<string>();
   const lines: string[] = [];
   let kept = 0;
   let skippedDup = 0;
+  let skippedCurated = 0;
   let skippedNoCoords = 0;
   const failed: string[] = [];
+
+  console.log(`Loaded ${curatedSlugs.size} curated slugs to protect.`);
 
   for (const filePath of RAW_PATHS) {
     const raw = JSON.parse(readFileSync(filePath, "utf-8")) as RawFile;
@@ -287,10 +312,16 @@ async function main(): Promise<void> {
       // Slug — parenthetical-stripped name, deduped within batch.
       const baseSlug = slugify(nameForSlug(p.name));
       let slug = baseSlug;
+      if (curatedSlugs.has(slug)) {
+        skippedCurated++;
+        console.log(`  skip (curated row exists): ${slug}`);
+        continue;
+      }
       if (seenSlugs.has(slug)) {
         slug = `${baseSlug}-${slugify(p.city)}`;
         let n = 2;
-        while (seenSlugs.has(slug)) slug = `${baseSlug}-${slugify(p.city)}-${n++}`;
+        while (seenSlugs.has(slug) || curatedSlugs.has(slug))
+          slug = `${baseSlug}-${slugify(p.city)}-${n++}`;
       }
       seenSlugs.add(slug);
 
@@ -353,9 +384,10 @@ ${lines.join("\n")}
   writeFileSync(OUT_PATH, file);
 
   console.log(`\n=== Summary ===`);
-  console.log(`  written:           ${kept} → ${OUT_PATH}`);
-  console.log(`  skipped (dup):     ${skippedDup}`);
-  console.log(`  skipped (geocode): ${skippedNoCoords}`);
+  console.log(`  written:            ${kept} → ${OUT_PATH}`);
+  console.log(`  skipped (curated):  ${skippedCurated}`);
+  console.log(`  skipped (pattern):  ${skippedDup}`);
+  console.log(`  skipped (geocode):  ${skippedNoCoords}`);
   if (failed.length) {
     console.log(`  failures:`);
     for (const n of failed) console.log(`    - ${n}`);

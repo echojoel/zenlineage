@@ -1,0 +1,24 @@
+{
+  "_meta": {
+    "country": "Iceland",
+    "collectedAt": "2026-05-05",
+    "method": "Web search and review of Zen á Íslandi (zen.is) and Buddhist Center Reykjavík (buddismi.is)",
+    "coverageEstimate": "~95% of active Icelandic Zen practice (small national footprint)",
+    "knownGaps": [
+      "No active Plum Village lay sangha verified in Iceland",
+      "buddismi.is is multi-tradition (not exclusively Zen) — included as it hosts Zen-style meditation"
+    ]
+  },
+  "places": [
+    {
+      "name": "Zen á Íslandi – Nátthagi (Night Pasture)",
+      "city": "Reykjavík",
+      "region": "Capital Region",
+      "lineage": "Sōtō Zen (Sonoma Mountain — Jakusho Kwong-roshi line)",
+      "address": "Kletthálsi 1, 110 Reykjavík (2nd floor)",
+      "url": "https://www.zen.is/",
+      "source_url": "https://www.zen.is/about-night-pasture.html",
+      "notes": "Founded 1986 after Jakusho Kwong-roshi visited Iceland. Current teachers Ástvaldur Zenki and Helga Kimyo. Officially recognised religious community since 1999."
+    }
+  ]
+}

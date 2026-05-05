@@ -1,0 +1,2701 @@
+{
+  "_meta": {
+    "country": "United States",
+    "collectedAt": "2026-05-05",
+    "method": "Aggregated from canonical US Zen network directories: Soto Zen Buddhist Association by-state directory (szba.org/zen-centers-by-state), SOTOZEN.COM North America/Hawaii temple lists (sotozen.com), White Plum Asanga public membership list (whiteplum.org/membership-list-public, pages 1-6), Diamond Sangha affiliates (diamondsangha.org), Order of Buddhist Contemplatives US temples (per Berkeley Buddhist Priory's OBC links page), Kwan Um School of Zen Americas locations (americas.kwanumzen.org/zen-centers), Rinzai-ji affiliated centers (rinzaiji.org/affiliated-centers), Mountains and Rivers Order (zmm.org/about/affiliates), Zen Peacemakers affiliate network (zenpeacemakers.org/membership/affiliate-network), Plum Village US monasteries (pvengagedbuddhism.org), Hollow Bones Zen, One Drop Zen Tahoma. URLs and addresses cross-checked against center home pages where possible.",
+    "coverageEstimate": "Strong coverage of SZBA Soto network (~85 US centers), White Plum Asanga (~50+ US sanghas across 6 paginated public membership pages), Kwan Um North America (~37 US groups), Diamond Sangha US affiliates (~18), OBC US priories (8), Rinzai-ji affiliates (~14 US), Hawaii Soto missions (10). Net-new entries focus on regional sanghas and satellites, skipping the well-known curated centers (SFZC, Tassajara, ZCLA, ZMM, Yokoji, Hosshinji, Daibosatsu, Rochester, Providence, etc., which are auto-skipped by the build script).",
+    "knownGaps": [
+      "Plum Village local lay sanghas (~hundreds in US) live behind a JS map at plumline.org and could not be enumerated directly; only the three US monasteries (Deer Park, Blue Cliff, Magnolia Grove) and a couple of regional sangha consortiums are listed.",
+      "obcon.org returned 403 Forbidden on every attempt; OBC US list reconstructed from Berkeley Buddhist Priory's links page.",
+      "MRO formal affiliate list at zmm.org/about/affiliates returned mostly empty content; only Buffalo Zen Dharma Community surfaced as an explicit US affiliate.",
+      "Sanbo Zen North America affiliate list lives on sanbo-zen.org which served a self-signed cert and could not be fetched; Mountain Cloud Zen Center / Florida Sanbo Zen captured from cross-references.",
+      "Vietnamese Thiền temples beyond Plum Village (Truc Lam, Linh Son networks, Linh Quang, etc.) are extensive in the US but largely Pure-Land-blended; only a few clearly Thien temples are included.",
+      "Zen Peacemakers affiliate page returned 403; member list reconstructed from web search snippets with URLs verified separately where possible.",
+      "Some smaller satellite sitting groups (Empty Gate satellites, Kansas Zen Center satellites, Plum Village 'Wake Up' youth groups) share parent URLs and may collapse under one canonical center.",
+      "BCA / Buddhist Churches of America temples are predominantly Jodo Shinshu (Pure Land) and excluded; a small number of Hawaii Soto missions are BCA-overlapping but classified Soto here.",
+      "URLs were not always provided alongside SZBA by-state listings; centers with non-obvious URLs were dropped when no source URL could be verified."
+    ]
+  },
+  "places": [
+    {
+      "name": "Upright Noble Zen",
+      "city": "Anchorage",
+      "region": "Alaska",
+      "lineage": "Sōtō (SZBA)",
+      "address": "Anchorage, AK 99501",
+      "url": "https://uprightnoblezen.org/",
+      "source_url": "https://www.szba.org/zen-centers-by-state",
+      "notes": "SZBA member; small Soto sitting group in Anchorage."
+    },
+    {
+      "name": "Anchorage Zen Community",
+      "city": "Anchorage",
+      "region": "Alaska",
+      "lineage": "Sōtō (Sōtōshū North America)",
+      "address": null,
+      "url": "http://www.anchoragezen.com/",
+      "source_url": "https://www.sotozen.com/eng/temples/outside_jp/America/",
+      "notes": "Sōtōshū North America-listed Soto Zen community in Anchorage."
+    },
+    {
+      "name": "Cold Mountain Zen Center",
+      "city": "Fairbanks",
+      "region": "Alaska",
+      "lineage": "Kwan Um (Korean Seon)",
+      "address": null,
+      "url": "https://coldmountainzencenter.org/",
+      "source_url": "https://americas.kwanumzen.org/zen-centers",
+      "notes": "Kwan Um School of Zen affiliate in interior Alaska."
+    },
+    {
+      "name": "Myung Wol Zen Center",
+      "city": "Scottsdale",
+      "region": "Arizona",
+      "lineage": "Kwan Um (Korean Seon)",
+      "address": null,
+      "url": "https://americas.kwanumzen.org/zen-centers",
+      "source_url": "https://americas.kwanumzen.org/zen-centers",
+      "notes": "Kwan Um affiliate; no standalone site listed in directory."
+    },
+    {
+      "name": "Cochise Zen Center",
+      "city": "Bisbee",
+      "region": "Arizona",
+      "lineage": "Kwan Um (Korean Seon)",
+      "address": null,
+      "url": "https://cochisezencenter.org/",
+      "source_url": "https://americas.kwanumzen.org/zen-centers",
+      "notes": "Kwan Um affiliate in Old Bisbee."
+    },
+    {
+      "name": "Haku-un-ji Zen Center",
+      "city": "Tempe",
+      "region": "Arizona",
+      "lineage": "Rinzai (Rinzai-ji / Joshu Sasaki lineage)",
+      "address": null,
+      "url": "https://zenarizona.com/",
+      "source_url": "https://www.rinzaiji.org/affiliated-centers/",
+      "notes": "Rinzai-ji affiliate; Phoenix-area Sasaki Roshi sangha."
+    },
+    {
+      "name": "Upaya Sangha of Tucson",
+      "city": "Tucson",
+      "region": "Arizona",
+      "lineage": "White Plum / Upaya (Joan Halifax)",
+      "address": null,
+      "url": "https://upayatucson.org/",
+      "source_url": "https://whiteplum.org/membership-list-public/",
+      "notes": "White Plum Asanga affiliate; teacher Alfred Genkai Kaszniak."
+    },
+    {
+      "name": "Zen Desert Sangha",
+      "city": "Tucson",
+      "region": "Arizona",
+      "lineage": "Diamond Sangha (Aitken)",
+      "address": null,
+      "url": "https://www.zendesertsangha.org/",
+      "source_url": "https://diamondsangha.org/resources-2/links/",
+      "notes": "Diamond Sangha affiliate."
+    },
+    {
+      "name": "Little Rock Zen Group",
+      "city": "Little Rock",
+      "region": "Arkansas",
+      "lineage": "Kwan Um (Korean Seon)",
+      "address": null,
+      "url": "https://ebslr.org/kwan-um-zen",
+      "source_url": "https://americas.kwanumzen.org/zen-centers",
+      "notes": "Kwan Um sitting group at Ecumenical Buddhist Society."
+    },
+    {
+      "name": "Morning Star Zen Center",
+      "city": "Fayetteville",
+      "region": "Arkansas",
+      "lineage": "Kwan Um (Korean Seon)",
+      "address": null,
+      "url": "https://americas.kwanumzen.org/zen-centers",
+      "source_url": "https://americas.kwanumzen.org/zen-centers",
+      "notes": "Kwan Um School of Zen affiliate."
+    },
+    {
+      "name": "Gyobutsuji Zen Monastery",
+      "city": "Kingston",
+      "region": "Arkansas",
+      "lineage": "Sōtō (Sōtōshū North America)",
+      "address": null,
+      "url": "https://gyobutsuji.org/",
+      "source_url": "https://www.sotozen.com/eng/temples/outside_jp/America/",
+      "notes": "Soto Zen monastery in Ozarks."
+    },
+    {
+      "name": "Arcata Zen Group / Rinshinji",
+      "city": "Arcata",
+      "region": "California",
+      "lineage": "Sōtō (SZBA)",
+      "address": "Arcata, CA 95521",
+      "url": "https://arcatazengroup.org/",
+      "source_url": "https://www.szba.org/zen-centers-by-state",
+      "notes": "SZBA-affiliated Soto group in Humboldt County."
+    },
+    {
+      "name": "Bamboo in the Wind Zen Center",
+      "city": "Sunnyvale",
+      "region": "California",
+      "lineage": "Sōtō (SZBA)",
+      "address": "Sunnyvale, CA 94087",
+      "url": "https://bamboointhewind.org/",
+      "source_url": "https://www.szba.org/zen-centers-by-state",
+      "notes": "SZBA member."
+    },
+    {
+      "name": "Beginner's Mind Zen Center",
+      "city": "Northridge",
+      "region": "California",
+      "lineage": "Sōtō (SZBA)",
+      "address": "Los Angeles area, CA 91325",
+      "url": "https://beginnersmindzc.org/",
+      "source_url": "https://www.szba.org/zen-centers-by-state",
+      "notes": "SZBA-listed Soto sitting community."
+    },
+    {
+      "name": "Boundless Mind Sangha",
+      "city": "Santa Barbara",
+      "region": "California",
+      "lineage": "Sōtō (SZBA)",
+      "address": "Santa Barbara, CA 93120",
+      "url": "https://boundlessmindsangha.org/",
+      "source_url": "https://www.szba.org/zen-centers-by-state",
+      "notes": "SZBA member."
+    },
+    {
+      "name": "Santa Barbara Zen Center",
+      "city": "Santa Barbara",
+      "region": "California",
+      "lineage": "Sōtō (SZBA)",
+      "address": "Santa Barbara, CA 93102",
+      "url": "https://santabarbarazen.org/",
+      "source_url": "https://www.szba.org/zen-centers-by-state",
+      "notes": "SZBA member."
+    },
+    {
+      "name": "Three Treasures Zen Community / JoRen Temple",
+      "city": "San Diego",
+      "region": "California",
+      "lineage": "Sōtō (SZBA)",
+      "address": "San Diego, CA 92172",
+      "url": "https://threetreasureszen.org/",
+      "source_url": "https://www.szba.org/zen-centers-by-state",
+      "notes": "SZBA member."
+    },
+    {
+      "name": "Dragons Leap Meditation Center",
+      "city": "San Francisco",
+      "region": "California",
+      "lineage": "Sōtō (SZBA)",
+      "address": "San Francisco, CA 94116",
+      "url": "https://dragonsleap.org/",
+      "source_url": "https://www.szba.org/zen-centers-by-state",
+      "notes": "SZBA member; Sunset District sitting community."
+    },
+    {
+      "name": "Empty Moon Zen Network",
+      "city": "Long Beach",
+      "region": "California",
+      "lineage": "Sōtō (SZBA)",
+      "address": "Long Beach, CA 90814",
+      "url": "https://emptymoonzen.org/",
+      "source_url": "https://www.szba.org/zen-centers-by-state",
+      "notes": "SZBA member; James Ishmael Ford lineage network."
+    },
+    {
+      "name": "Everyday Dharma Zen Center",
+      "city": "Santa Cruz",
+      "region": "California",
+      "lineage": "Sōtō (SZBA)",
+      "address": "Santa Cruz, CA 95060",
+      "url": "https://everydaydharma.org/",
+      "source_url": "https://www.szba.org/zen-centers-by-state",
+      "notes": "SZBA member."
+    },
+    {
+      "name": "Everyday Zen Foundation",
+      "city": "Oakland",
+      "region": "California",
+      "lineage": "Sōtō (Norman Fischer / SFZC line)",
+      "address": "Oakland, CA 94618",
+      "url": "https://www.everydayzen.org/",
+      "source_url": "https://www.szba.org/zen-centers-by-state",
+      "notes": "Founded by Norman Fischer; multiple satellite communities."
+    },
+    {
+      "name": "Floating Zendo",
+      "city": "San Jose",
+      "region": "California",
+      "lineage": "Sōtō (SZBA)",
+      "address": "San Jose, CA 95126",
+      "url": "https://floatingzendo.org/",
+      "source_url": "https://www.szba.org/zen-centers-by-state",
+      "notes": "SZBA member."
+    },
+    {
+      "name": "Jikoji Zen Center",
+      "city": "Los Gatos",
+      "region": "California",
+      "lineage": "Sōtō (Suzuki Roshi / Kobun Chino lineage)",
+      "address": "Los Gatos, CA 95033",
+      "url": "https://jikoji.org/",
+      "source_url": "https://www.szba.org/zen-centers-by-state",
+      "notes": "Founded under Kobun Chino Roshi; Santa Cruz Mountains."
+    },
+    {
+      "name": "Marin Zen Meditation",
+      "city": "San Rafael",
+      "region": "California",
+      "lineage": "Sōtō (SZBA)",
+      "address": "San Rafael, CA 94901",
+      "url": "https://marinzen.org/",
+      "source_url": "https://www.szba.org/zen-centers-by-state",
+      "notes": "SZBA member."
+    },
+    {
+      "name": "Middle Way Zen / San Jose Zendo",
+      "city": "San Jose",
+      "region": "California",
+      "lineage": "Sōtō (SZBA)",
+      "address": "San Jose, CA 95112",
+      "url": "https://middlewayzen.org/",
+      "source_url": "https://www.szba.org/zen-centers-by-state",
+      "notes": "SZBA member."
+    },
+    {
+      "name": "Mill Valley Zen",
+      "city": "Mill Valley",
+      "region": "California",
+      "lineage": "Sōtō (SZBA)",
+      "address": "Mill Valley, CA 94941",
+      "url": "https://millvalleyzen.org/",
+      "source_url": "https://www.szba.org/zen-centers-by-state",
+      "notes": "SZBA member."
+    },
+    {
+      "name": "Modesto Zen Center",
+      "city": "Modesto",
+      "region": "California",
+      "lineage": "Sōtō (SZBA)",
+      "address": "Modesto, CA 95358",
+      "url": "https://modestozen.org/",
+      "source_url": "https://www.szba.org/zen-centers-by-state",
+      "notes": "SZBA member."
+    },
+    {
+      "name": "Monterey Bay Zen Center",
+      "city": "Carmel-by-the-Sea",
+      "region": "California",
+      "lineage": "Sōtō (SZBA)",
+      "address": "Carmel-By-The-Sea, CA 93923",
+      "url": "https://montereybayzen.org/",
+      "source_url": "https://www.szba.org/zen-centers-by-state",
+      "notes": "SZBA member."
+    },
+    {
+      "name": "Mt. Diablo Zen Group",
+      "city": "Pleasant Hill",
+      "region": "California",
+      "lineage": "Sōtō (SZBA)",
+      "address": "Pleasant Hill, CA 94523",
+      "url": "https://mtdiablozen.org/",
+      "source_url": "https://www.szba.org/zen-centers-by-state",
+      "notes": "SZBA member; East Bay sitting group."
+    },
+    {
+      "name": "Occidental Laguna Sangha",
+      "city": "Sebastopol",
+      "region": "California",
+      "lineage": "Sōtō (SZBA)",
+      "address": "Sebastopol, CA",
+      "url": "https://www.szba.org/zen-centers-by-state",
+      "source_url": "https://www.szba.org/zen-centers-by-state",
+      "notes": "SZBA member; West Sonoma County."
+    },
+    {
+      "name": "Ocean Gate Zen Center",
+      "city": "Santa Cruz",
+      "region": "California",
+      "lineage": "Sōtō (Sōtōshū North America)",
+      "address": "Santa Cruz, CA 95062",
+      "url": "https://www.oceangatezen.org/",
+      "source_url": "https://www.sotozen.com/eng/temples/outside_jp/America/",
+      "notes": "Soto Zen temple in Capitola."
+    },
+    {
+      "name": "Presidio Hill Zen Group",
+      "city": "San Francisco",
+      "region": "California",
+      "lineage": "Sōtō (SZBA)",
+      "address": "San Francisco, CA 94118",
+      "url": "https://presidiohillzen.org/",
+      "source_url": "https://www.szba.org/zen-centers-by-state",
+      "notes": "SZBA member; Richmond District."
+    },
+    {
+      "name": "Russian River Zendo",
+      "city": "Guerneville",
+      "region": "California",
+      "lineage": "Sōtō (SZBA)",
+      "address": "Guerneville, CA 95446",
+      "url": "https://russianriverzendo.org/",
+      "source_url": "https://www.szba.org/zen-centers-by-state",
+      "notes": "SZBA member."
+    },
+    {
+      "name": "Santa Cruz Zen Center",
+      "city": "Santa Cruz",
+      "region": "California",
+      "lineage": "Sōtō (SZBA)",
+      "address": "Santa Cruz, CA 95060",
+      "url": "https://santacruzzen.org/",
+      "source_url": "https://www.szba.org/zen-centers-by-state",
+      "notes": "SZBA member."
+    },
+    {
+      "name": "Sonoma Valley Zen Group",
+      "city": "Sonoma",
+      "region": "California",
+      "lineage": "Sōtō (SZBA)",
+      "address": "Sonoma, CA 95476",
+      "url": "https://sonomavalleyzen.org/",
+      "source_url": "https://www.szba.org/zen-centers-by-state",
+      "notes": "SZBA member."
+    },
+    {
+      "name": "Stone Creek Zen Center / Sekisen-an",
+      "city": "Graton",
+      "region": "California",
+      "lineage": "Sōtō (Suzuki Roshi lineage)",
+      "address": "Graton, CA 95444",
+      "url": "https://stonecreekzencenter.org/",
+      "source_url": "https://www.sotozen.com/eng/temples/outside_jp/America/",
+      "notes": "Founded by Jakusho Kwong-style Sonoma sangha lineage."
+    },
+    {
+      "name": "Sonoma Mountain Zen Center / Genjoji",
+      "city": "Santa Rosa",
+      "region": "California",
+      "lineage": "Sōtō (Jakusho Kwong / Suzuki Roshi lineage)",
+      "address": "Santa Rosa, CA",
+      "url": "https://www.smzc.org/",
+      "source_url": "https://www.sotozen.com/eng/temples/outside_jp/America/",
+      "notes": "Founded by Jakusho Kwong Roshi, Suzuki Roshi disciple."
+    },
+    {
+      "name": "Vallejo Zen Center / Clear Water Temple",
+      "city": "Vallejo",
+      "region": "California",
+      "lineage": "Sōtō (SZBA)",
+      "address": "Vallejo, CA 94590",
+      "url": "https://clearwaterzen.org/",
+      "source_url": "https://www.szba.org/zen-centers-by-state",
+      "notes": "SZBA member."
+    },
+    {
+      "name": "Zen Center Fresno",
+      "city": "Fresno",
+      "region": "California",
+      "lineage": "Sōtō (SZBA)",
+      "address": "Fresno, CA 93710",
+      "url": "https://zencenterfresno.org/",
+      "source_url": "https://www.szba.org/zen-centers-by-state",
+      "notes": "SZBA member."
+    },
+    {
+      "name": "Zen Heart Sangha",
+      "city": "Woodside",
+      "region": "California",
+      "lineage": "Sōtō (SZBA)",
+      "address": "Woodside, CA 94062",
+      "url": "https://zenheartsangha.org/",
+      "source_url": "https://www.szba.org/zen-centers-by-state",
+      "notes": "SZBA member."
+    },
+    {
+      "name": "Kojin-an Zendo / Oakland Zen Center",
+      "city": "Oakland",
+      "region": "California",
+      "lineage": "Sōtō (Sōtōshū North America)",
+      "address": "Oakland, CA 94618",
+      "url": "http://oaklandzencenter.org/",
+      "source_url": "https://www.sotozen.com/eng/temples/outside_jp/America/",
+      "notes": "Soto Zen temple in Oakland."
+    },
+    {
+      "name": "Long Beach Buddhist Church",
+      "city": "Long Beach",
+      "region": "California",
+      "lineage": "Sōtō (Sōtōshū North America)",
+      "address": "Long Beach, CA 90810",
+      "url": "https://longbeachbuddhistchurch.org/",
+      "source_url": "https://www.sotozen.com/eng/temples/outside_jp/America/",
+      "notes": "Japanese-American Soto Zen temple."
+    },
+    {
+      "name": "Montebello Sozenji Buddhist Temple",
+      "city": "Montebello",
+      "region": "California",
+      "lineage": "Sōtō (Sōtōshū North America)",
+      "address": "Montebello, CA",
+      "url": "https://sozenjibuddhisttemple.weebly.com/",
+      "source_url": "https://www.sotozen.com/eng/temples/outside_jp/America/",
+      "notes": "Soto Zen temple in Greater Los Angeles."
+    },
+    {
+      "name": "Soto Mission of San Francisco / Sokoji",
+      "city": "San Francisco",
+      "region": "California",
+      "lineage": "Sōtō (Sōtōshū North America)",
+      "address": "San Francisco, CA",
+      "url": "https://sokoji.org/",
+      "source_url": "https://www.sotozen.com/eng/temples/outside_jp/America/",
+      "notes": "Historic Soto temple where Suzuki Roshi served before founding SFZC."
+    },
+    {
+      "name": "Zenshuji Soto Mission",
+      "city": "Los Angeles",
+      "region": "California",
+      "lineage": "Sōtō (Sōtōshū North America headquarters)",
+      "address": "123 South Hewitt Street, Los Angeles, CA 90012",
+      "url": "http://www.zenshuji.org/",
+      "source_url": "https://www.sotozen.com/eng/temples/outside_jp/America/",
+      "notes": "Sotoshu North America office; Little Tokyo."
+    },
+    {
+      "name": "Sweetwater Zen Center / Kosen-in",
+      "city": "National City",
+      "region": "California",
+      "lineage": "White Plum (Maezumi/Bernie Glassman lineage)",
+      "address": "National City, CA",
+      "url": "http://www.swzc.org/",
+      "source_url": "https://whiteplum.org/membership-list-public/",
+      "notes": "White Plum Asanga; Zen Peacemakers affiliate."
+    },
+    {
+      "name": "Bay Zen Center",
+      "city": "Oakland",
+      "region": "California",
+      "lineage": "White Plum (Diane Rizzetto lineage)",
+      "address": "Oakland, CA",
+      "url": "https://bayzen.org/",
+      "source_url": "https://whiteplum.org/membership-map/",
+      "notes": "White Plum Asanga member."
+    },
+    {
+      "name": "San Luis Obispo Zen Circle",
+      "city": "Los Osos",
+      "region": "California",
+      "lineage": "White Plum (Maezumi lineage)",
+      "address": "Los Osos, CA",
+      "url": "https://slozc.org/",
+      "source_url": "https://whiteplum.org/membership-map/",
+      "notes": "White Plum Asanga member."
+    },
+    {
+      "name": "Citrus Zen / Yokoji Long Beach Group",
+      "city": "Redlands",
+      "region": "California",
+      "lineage": "White Plum (Yokoji / Tenshin Tanouye lineage)",
+      "address": "Redlands, CA",
+      "url": "https://citruszen.com/",
+      "source_url": "https://whiteplum.org/membership-map/",
+      "notes": "Yokoji affiliate sangha in Inland Empire."
+    },
+    {
+      "name": "Wild River Zen Circle",
+      "city": "Nevada City",
+      "region": "California",
+      "lineage": "White Plum (Maezumi lineage)",
+      "address": "Nevada City, CA",
+      "url": "https://wildriverzen.org/",
+      "source_url": "https://whiteplum.org/membership-map/",
+      "notes": "White Plum Asanga member."
+    },
+    {
+      "name": "Santa Rosa Zen Group",
+      "city": "Santa Rosa",
+      "region": "California",
+      "lineage": "White Plum (Maezumi lineage)",
+      "address": "Santa Rosa, CA",
+      "url": "https://santarosazengroup.org/",
+      "source_url": "https://whiteplum.org/membership-list-public/",
+      "notes": "White Plum Asanga member."
+    },
+    {
+      "name": "Lost Coin Zen",
+      "city": "Los Angeles",
+      "region": "California",
+      "lineage": "White Plum (Maezumi lineage)",
+      "address": null,
+      "url": "https://lostcoinzen.com/",
+      "source_url": "https://whiteplum.org/membership-list-public/",
+      "notes": "White Plum Asanga; teacher Daniel Doen Silberberg."
+    },
+    {
+      "name": "Freeway Zen",
+      "city": "San Diego",
+      "region": "California",
+      "lineage": "White Plum (Maezumi lineage)",
+      "address": null,
+      "url": "https://freewayzen.org/",
+      "source_url": "https://whiteplum.org/membership-list-public/",
+      "notes": "White Plum Asanga member."
+    },
+    {
+      "name": "Dharma Zen Center",
+      "city": "Los Angeles",
+      "region": "California",
+      "lineage": "Kwan Um (Korean Seon)",
+      "address": null,
+      "url": "https://dharmazen.com/",
+      "source_url": "https://americas.kwanumzen.org/zen-centers",
+      "notes": "Kwan Um School of Zen flagship LA center."
+    },
+    {
+      "name": "Empty Gate Zen Center - Berkeley",
+      "city": "Berkeley",
+      "region": "California",
+      "lineage": "Kwan Um (Korean Seon)",
+      "address": null,
+      "url": "https://emptygatezen.com/",
+      "source_url": "https://americas.kwanumzen.org/zen-centers",
+      "notes": "Kwan Um School of Zen Berkeley center."
+    },
+    {
+      "name": "Empty Gate Zen Center - Santa Clara",
+      "city": "Santa Clara",
+      "region": "California",
+      "lineage": "Kwan Um (Korean Seon)",
+      "address": null,
+      "url": "https://emptygatezen.com/",
+      "source_url": "https://americas.kwanumzen.org/zen-centers",
+      "notes": "Kwan Um affiliate in South Bay."
+    },
+    {
+      "name": "Ring of Bone Zendo",
+      "city": "Nevada City",
+      "region": "California",
+      "lineage": "Diamond Sangha (Aitken)",
+      "address": null,
+      "url": "https://ringofbonezendo.org/",
+      "source_url": "https://diamondsangha.org/resources-2/links/",
+      "notes": "Founded with poet Gary Snyder; Diamond Sangha affiliate."
+    },
+    {
+      "name": "Rocks and Cloud Zendo",
+      "city": "Sebastopol",
+      "region": "California",
+      "lineage": "Diamond Sangha (Aitken)",
+      "address": null,
+      "url": "https://rocksandclouds.org/",
+      "source_url": "https://diamondsangha.org/resources-2/links/",
+      "notes": "Diamond Sangha affiliate."
+    },
+    {
+      "name": "Deep Streams Zen Institute",
+      "city": "San Francisco",
+      "region": "California",
+      "lineage": "Diamond Sangha (Aitken)",
+      "address": null,
+      "url": "https://deepstreams.org/",
+      "source_url": "https://diamondsangha.org/resources-2/links/",
+      "notes": "Diamond Sangha affiliate."
+    },
+    {
+      "name": "Berkeley Buddhist Priory",
+      "city": "Albany",
+      "region": "California",
+      "lineage": "Sōtō (OBC, Serene Reflection / Jiyu-Kennett)",
+      "address": "Albany, CA",
+      "url": "https://www.berkeleybuddhistpriory.org/",
+      "source_url": "https://berkeleybuddhistpriory.org/obc-links/",
+      "notes": "OBC priory; Reverend Master Kinrei Bassis."
+    },
+    {
+      "name": "Pine Mountain Buddhist Temple",
+      "city": "Maricopa",
+      "region": "California",
+      "lineage": "Sōtō (OBC, Serene Reflection / Jiyu-Kennett)",
+      "address": "Pine Mountain, CA",
+      "url": "http://www.pinemtnbuddhisttemple.org/",
+      "source_url": "https://berkeleybuddhistpriory.org/obc-links/",
+      "notes": "OBC retreat temple in central coast mountains."
+    },
+    {
+      "name": "Redding Zen Buddhist Priory",
+      "city": "Redding",
+      "region": "California",
+      "lineage": "Sōtō (OBC, Serene Reflection / Jiyu-Kennett)",
+      "address": "Redding, CA",
+      "url": "https://reddingzen.org/",
+      "source_url": "https://berkeleybuddhistpriory.org/obc-links/",
+      "notes": "OBC priory in Northern California."
+    },
+    {
+      "name": "Mt Baldy Zen Center",
+      "city": "Mt. Baldy",
+      "region": "California",
+      "lineage": "Rinzai (Rinzai-ji / Joshu Sasaki)",
+      "address": "San Gabriel Mountains, CA",
+      "url": "https://mbzc.org/",
+      "source_url": "https://www.rinzaiji.org/affiliated-centers/",
+      "notes": "Mountain monastic training center founded 1971."
+    },
+    {
+      "name": "Silent Shin",
+      "city": "Berkeley",
+      "region": "California",
+      "lineage": "Rinzai (Rinzai-ji / Joshu Sasaki)",
+      "address": "Berkeley, CA",
+      "url": "https://silentshin.rinzaiji.org/",
+      "source_url": "https://www.rinzaiji.org/affiliated-centers/",
+      "notes": "Rinzai-ji Berkeley affiliate."
+    },
+    {
+      "name": "Yokoji Long Beach Meditation Group",
+      "city": "Long Beach",
+      "region": "California",
+      "lineage": "Sōtō / White Plum (Yokoji)",
+      "address": "Long Beach, CA",
+      "url": "https://yokoji.org/long-beach/",
+      "source_url": "https://www.szba.org/zen-centers-by-state",
+      "notes": "Yokoji Zen Mountain Center satellite."
+    },
+    {
+      "name": "Stanford University Zen Group",
+      "city": "Stanford",
+      "region": "California",
+      "lineage": "Sōtō (SFZC affiliate)",
+      "address": "Stanford, CA 94305",
+      "url": "https://www.szba.org/zen-centers-by-state",
+      "source_url": "https://www.szba.org/zen-centers-by-state",
+      "notes": "Campus sitting group affiliated with SFZC."
+    },
+    {
+      "name": "Kannon Do Zen Meditation Center",
+      "city": "Mountain View",
+      "region": "California",
+      "lineage": "Sōtō (Suzuki Roshi lineage)",
+      "address": "Mountain View, CA 94043",
+      "url": "https://kannondo.org/",
+      "source_url": "https://www.szba.org/zen-centers-by-state",
+      "notes": "Founded by Les Kaye Roshi, Suzuki Roshi disciple."
+    },
+    {
+      "name": "Boulder Zen Center",
+      "city": "Boulder",
+      "region": "Colorado",
+      "lineage": "Sōtō (SZBA)",
+      "address": "Boulder, CO",
+      "url": "https://boulderzen.org/",
+      "source_url": "https://www.szba.org/zen-centers-by-state",
+      "notes": "SZBA member."
+    },
+    {
+      "name": "Prairie Mountain Zen Center",
+      "city": "Longmont",
+      "region": "Colorado",
+      "lineage": "Sōtō (SZBA)",
+      "address": "Longmont, CO 80501",
+      "url": "https://prairiemountainzen.org/",
+      "source_url": "https://www.szba.org/zen-centers-by-state",
+      "notes": "SZBA member."
+    },
+    {
+      "name": "Hakubai Zen Center",
+      "city": "Boulder",
+      "region": "Colorado",
+      "lineage": "Sōtō (Sōtōshū North America)",
+      "address": "Boulder, CO",
+      "url": "https://www.hakubai.org/",
+      "source_url": "https://www.sotozen.com/eng/temples/outside_jp/America/",
+      "notes": "Soto Zen temple."
+    },
+    {
+      "name": "Eon Zen Center",
+      "city": "Boulder",
+      "region": "Colorado",
+      "lineage": "White Plum (Maezumi lineage)",
+      "address": "Boulder, CO",
+      "url": "https://eonzen.org/",
+      "source_url": "https://whiteplum.org/membership-map/",
+      "notes": "White Plum Asanga member."
+    },
+    {
+      "name": "Zen Center of Denver",
+      "city": "Denver",
+      "region": "Colorado",
+      "lineage": "Diamond Sangha / White Plum (combined Sanbo lineage)",
+      "address": "Denver, CO",
+      "url": "https://zencenterofdenver.org/",
+      "source_url": "https://diamondsangha.org/resources-2/links/",
+      "notes": "Diamond Sangha and White Plum affiliate; Karin Ryuku Kempe."
+    },
+    {
+      "name": "Great Mountain Zen Center",
+      "city": "Lafayette",
+      "region": "Colorado",
+      "lineage": "Sōtō (Katagiri / White Plum lineage)",
+      "address": "Lafayette, CO",
+      "url": "https://greatmountainzen.org/",
+      "source_url": "https://zenpeacemakers.org/membership/affiliate-network/",
+      "notes": "Zen Peacemakers affiliate."
+    },
+    {
+      "name": "Hogaku-ji (Dharma Mountain Zen Center)",
+      "city": "Grand Junction",
+      "region": "Colorado",
+      "lineage": "Rinzai (Rinzai-ji / Joshu Sasaki)",
+      "address": "Western Colorado",
+      "url": "https://dharmamountain.org/",
+      "source_url": "https://www.rinzaiji.org/affiliated-centers/",
+      "notes": "Rinzai-ji affiliate in Grand Valley."
+    },
+    {
+      "name": "Willow Farm Contemplative Center",
+      "city": "Boulder",
+      "region": "Colorado",
+      "lineage": "Zen Peacemakers",
+      "address": null,
+      "url": "https://willowfarmretreat.org/",
+      "source_url": "https://zenpeacemakers.org/membership/affiliate-network/",
+      "notes": "Zen Peacemakers affiliate."
+    },
+    {
+      "name": "Rocky Mountain Ecodharma Retreat Center",
+      "city": "Boulder County",
+      "region": "Colorado",
+      "lineage": "Zen Peacemakers / EcoDharma",
+      "address": null,
+      "url": "https://rockymountainecodharma.org/",
+      "source_url": "https://zenpeacemakers.org/membership/affiliate-network/",
+      "notes": "Zen Peacemakers affiliate."
+    },
+    {
+      "name": "New Haven Zen Center",
+      "city": "New Haven",
+      "region": "Connecticut",
+      "lineage": "Kwan Um (Korean Seon)",
+      "address": "New Haven, CT",
+      "url": "https://newhavenzen.org/",
+      "source_url": "https://americas.kwanumzen.org/zen-centers",
+      "notes": "Kwan Um School of Zen flagship Connecticut center."
+    },
+    {
+      "name": "Delaware Valley Zen Center",
+      "city": "Newark",
+      "region": "Delaware",
+      "lineage": "Kwan Um (Korean Seon)",
+      "address": "Newark, DE",
+      "url": "https://dvzc.org/",
+      "source_url": "https://americas.kwanumzen.org/zen-centers",
+      "notes": "Kwan Um School of Zen affiliate."
+    },
+    {
+      "name": "Joyful Mind Zendo",
+      "city": "Rehoboth Beach",
+      "region": "Delaware",
+      "lineage": "White Plum (Maezumi lineage)",
+      "address": "Rehoboth Beach, DE",
+      "url": "https://joyfulmindzendo.org/",
+      "source_url": "https://whiteplum.org/membership-map/",
+      "notes": "White Plum Asanga member."
+    },
+    {
+      "name": "Sky Above Great Wind",
+      "city": "Washington",
+      "region": "District of Columbia",
+      "lineage": "White Plum (Maezumi lineage)",
+      "address": "Washington, DC",
+      "url": "https://skyabove.org/",
+      "source_url": "https://whiteplum.org/membership-list-public/",
+      "notes": "White Plum Asanga; teacher Susan KoDo Efird."
+    },
+    {
+      "name": "All Beings Zen Sangha",
+      "city": "Washington",
+      "region": "District of Columbia",
+      "lineage": "Sōtō (SZBA)",
+      "address": null,
+      "url": "https://allbeingszen.org/",
+      "source_url": "https://www.szba.org/zen-centers-by-state",
+      "notes": "SZBA member; DC area."
+    },
+    {
+      "name": "Brevard Zen Center / Kuge-in Temple",
+      "city": "West Melbourne",
+      "region": "Florida",
+      "lineage": "Sōtō (SZBA)",
+      "address": "West Melbourne, FL 32904",
+      "url": "https://brevardzencenter.org/",
+      "source_url": "https://www.szba.org/zen-centers-by-state",
+      "notes": "SZBA member."
+    },
+    {
+      "name": "Cypress Tree Zen Group",
+      "city": "Tallahassee",
+      "region": "Florida",
+      "lineage": "Kwan Um (Korean Seon)",
+      "address": "Tallahassee, FL",
+      "url": "https://webdharma.com/",
+      "source_url": "https://americas.kwanumzen.org/zen-centers",
+      "notes": "Kwan Um School affiliate."
+    },
+    {
+      "name": "The Gateless Gate Zen Center",
+      "city": "Gainesville",
+      "region": "Florida",
+      "lineage": "Kwan Um (Korean Seon)",
+      "address": "Gainesville, FL",
+      "url": "https://gatelessgate.org/",
+      "source_url": "https://americas.kwanumzen.org/zen-centers",
+      "notes": "Kwan Um affiliate."
+    },
+    {
+      "name": "Orlando Zen Center",
+      "city": "Orlando",
+      "region": "Florida",
+      "lineage": "Kwan Um (Korean Seon)",
+      "address": "Orlando, FL",
+      "url": "https://orlandozen.com/",
+      "source_url": "https://americas.kwanumzen.org/zen-centers",
+      "notes": "Kwan Um affiliate."
+    },
+    {
+      "name": "South Florida Zen Group",
+      "city": "Southwest Ranches",
+      "region": "Florida",
+      "lineage": "Kwan Um (Korean Seon)",
+      "address": "Southwest Ranches, FL",
+      "url": "https://southfloridazen.org/",
+      "source_url": "https://americas.kwanumzen.org/zen-centers",
+      "notes": "Kwan Um affiliate."
+    },
+    {
+      "name": "Hokori Zen Center",
+      "city": "Boca Raton",
+      "region": "Florida",
+      "lineage": "White Plum (Maezumi lineage)",
+      "address": null,
+      "url": "https://hokorizencenter.org/",
+      "source_url": "https://whiteplum.org/membership-list-public/",
+      "notes": "White Plum Asanga; teacher Lou Mitsunen Nordstrom."
+    },
+    {
+      "name": "Open Mind Zen",
+      "city": "Melbourne",
+      "region": "Florida",
+      "lineage": "White Plum (Maezumi lineage)",
+      "address": null,
+      "url": "https://openmindzen.com/",
+      "source_url": "https://whiteplum.org/membership-list-public/",
+      "notes": "White Plum Asanga; teacher Michael Jiun Stamper."
+    },
+    {
+      "name": "Palmetto Zendo",
+      "city": "Tampa",
+      "region": "Florida",
+      "lineage": "White Plum (Maezumi lineage)",
+      "address": null,
+      "url": "https://palmettozendo.org/",
+      "source_url": "https://whiteplum.org/membership-list-public/",
+      "notes": "White Plum Asanga; teacher Andy Hoseki Solis."
+    },
+    {
+      "name": "Florida Sanbo Zen",
+      "city": "Tampa",
+      "region": "Florida",
+      "lineage": "Sanbō Zen",
+      "address": null,
+      "url": "https://floridasanbozen.com/",
+      "source_url": "https://floridasanbozen.com/",
+      "notes": "Sanbo Zen satellite of Mountain Cloud Zen Center."
+    },
+    {
+      "name": "Atlanta Soto Zen Center",
+      "city": "Atlanta",
+      "region": "Georgia",
+      "lineage": "Sōtō (SZBA)",
+      "address": "Atlanta, GA 30306",
+      "url": "https://aszc.org/",
+      "source_url": "https://www.szba.org/zen-centers-by-state",
+      "notes": "SZBA member; Taiun Michael Elliston lineage."
+    },
+    {
+      "name": "Daifukuji Soto Mission",
+      "city": "Kealakekua",
+      "region": "Hawaii",
+      "lineage": "Sōtō (Sōtōshū Hawaii)",
+      "address": "Kealakekua, HI 96750",
+      "url": "https://www.daifukuji.org/",
+      "source_url": "https://www.sotozen.com/eng/temples/outside_jp/Hawaii/",
+      "notes": "Historic Big Island Soto temple."
+    },
+    {
+      "name": "'Alaneo Zendo",
+      "city": "Hilo",
+      "region": "Hawaii",
+      "lineage": "Sōtō (Sōtōshū Hawaii)",
+      "address": "Hilo, HI",
+      "url": "https://www.szba.org/zen-centers-by-state",
+      "source_url": "https://www.sotozen.com/eng/temples/outside_jp/Hawaii/",
+      "notes": "SZBA-listed Big Island zendo."
+    },
+    {
+      "name": "Guzeiji Soto Mission of Molokai",
+      "city": "Kaunakakai",
+      "region": "Hawaii",
+      "lineage": "Sōtō (Sōtōshū Hawaii)",
+      "address": "Kaunakakai, HI",
+      "url": "https://www.sotozen.com/eng/temples/outside_jp/Hawaii/",
+      "source_url": "https://www.sotozen.com/eng/temples/outside_jp/Hawaii/",
+      "notes": "Molokai Soto temple."
+    },
+    {
+      "name": "Kauai Soto Zen Temple Zenshuji",
+      "city": "Hanapepe",
+      "region": "Hawaii",
+      "lineage": "Sōtō (Sōtōshū Hawaii)",
+      "address": "Hanapepe, HI",
+      "url": "https://www.sotozen.com/eng/temples/outside_jp/Hawaii/",
+      "source_url": "https://www.sotozen.com/eng/temples/outside_jp/Hawaii/",
+      "notes": "Kauai Soto temple."
+    },
+    {
+      "name": "Mantokuji Soto Mission of Paia",
+      "city": "Paia",
+      "region": "Hawaii",
+      "lineage": "Sōtō (Sōtōshū Hawaii)",
+      "address": "Paia, Maui, HI",
+      "url": "http://www.paiamantokuji.org/",
+      "source_url": "https://www.sotozen.com/eng/temples/outside_jp/Hawaii/",
+      "notes": "Maui Soto temple."
+    },
+    {
+      "name": "Soto Mission of Aiea / Taiheiji",
+      "city": "Aiea",
+      "region": "Hawaii",
+      "lineage": "Sōtō (Sōtōshū Hawaii)",
+      "address": "Aiea, HI",
+      "url": "http://www.sotomission.com/",
+      "source_url": "https://www.sotozen.com/eng/temples/outside_jp/Hawaii/",
+      "notes": "Oahu Soto temple."
+    },
+    {
+      "name": "Soto Mission of Hawaii / Shoboji",
+      "city": "Honolulu",
+      "region": "Hawaii",
+      "lineage": "Sōtō (Sōtōshū Hawaii regional headquarters)",
+      "address": "Honolulu, HI",
+      "url": "https://www.sotomission.org/",
+      "source_url": "https://www.sotozen.com/eng/temples/outside_jp/Hawaii/",
+      "notes": "Hawaii Soto regional office."
+    },
+    {
+      "name": "Taishoji Soto Mission",
+      "city": "Hilo",
+      "region": "Hawaii",
+      "lineage": "Sōtō (Sōtōshū Hawaii)",
+      "address": "Hilo, HI",
+      "url": "http://www.taishoji.org/",
+      "source_url": "https://www.sotozen.com/eng/temples/outside_jp/Hawaii/",
+      "notes": "Big Island Soto temple."
+    },
+    {
+      "name": "Wahiawa Ryusenji Soto Mission",
+      "city": "Wahiawa",
+      "region": "Hawaii",
+      "lineage": "Sōtō (Sōtōshū Hawaii)",
+      "address": "Wahiawa, HI",
+      "url": "https://www.sotozen.com/eng/temples/outside_jp/Hawaii/",
+      "source_url": "https://www.sotozen.com/eng/temples/outside_jp/Hawaii/",
+      "notes": "Oahu Soto temple."
+    },
+    {
+      "name": "Waipahu Soto Zen Temple Taiyoji",
+      "city": "Waipahu",
+      "region": "Hawaii",
+      "lineage": "Sōtō (Sōtōshū Hawaii)",
+      "address": "Waipahu, HI",
+      "url": "https://www.sotozen.com/eng/temples/outside_jp/Hawaii/",
+      "source_url": "https://www.sotozen.com/eng/temples/outside_jp/Hawaii/",
+      "notes": "Oahu Soto temple."
+    },
+    {
+      "name": "Hilo Zen Circle",
+      "city": "Hilo",
+      "region": "Hawaii",
+      "lineage": "Diamond Sangha (Aitken)",
+      "address": "Hilo, HI",
+      "url": "https://diamondsangha.org/resources-2/links/",
+      "source_url": "https://diamondsangha.org/resources-2/links/",
+      "notes": "Diamond Sangha affiliate; contact via diamondsangha.org."
+    },
+    {
+      "name": "Maui Zendo",
+      "city": "Kula",
+      "region": "Hawaii",
+      "lineage": "Diamond Sangha (Aitken)",
+      "address": "Kula, HI",
+      "url": "https://maui-zendo.org/",
+      "source_url": "https://diamondsangha.org/resources-2/links/",
+      "notes": "Diamond Sangha affiliate."
+    },
+    {
+      "name": "Empty Gate Zen Center - Boise",
+      "city": "Boise",
+      "region": "Idaho",
+      "lineage": "Kwan Um (Korean Seon)",
+      "address": "Boise, ID",
+      "url": "https://emptygatezen.com/",
+      "source_url": "https://americas.kwanumzen.org/zen-centers",
+      "notes": "Kwan Um affiliate."
+    },
+    {
+      "name": "Palouse Zen Community",
+      "city": "Moscow",
+      "region": "Idaho",
+      "lineage": "Diamond Sangha (Aitken)",
+      "address": "Moscow, ID",
+      "url": "https://palousezen.org/",
+      "source_url": "https://diamondsangha.org/resources-2/links/",
+      "notes": "Diamond Sangha affiliate."
+    },
+    {
+      "name": "Ancient Dragon Zen Gate",
+      "city": "Chicago",
+      "region": "Illinois",
+      "lineage": "Sōtō (Suzuki Roshi lineage / SZBA)",
+      "address": "Chicago, IL 60613",
+      "url": "https://www.ancientdragon.org/",
+      "source_url": "https://www.szba.org/zen-centers-by-state",
+      "notes": "SZBA member; Taigen Dan Leighton."
+    },
+    {
+      "name": "Chicago Zen Meditation Community",
+      "city": "Chicago",
+      "region": "Illinois",
+      "lineage": "Sōtō (SZBA)",
+      "address": "Chicago, IL 60614",
+      "url": "https://chicagozen.org/",
+      "source_url": "https://www.szba.org/zen-centers-by-state",
+      "notes": "SZBA member."
+    },
+    {
+      "name": "Udumbara Zen Center",
+      "city": "Evanston",
+      "region": "Illinois",
+      "lineage": "Sōtō (SZBA)",
+      "address": "Evanston, IL 60201",
+      "url": "https://udumbarafoundation.org/",
+      "source_url": "https://www.szba.org/zen-centers-by-state",
+      "notes": "SZBA member."
+    },
+    {
+      "name": "Ten Directions Zen Community",
+      "city": "Wheaton",
+      "region": "Illinois",
+      "lineage": "Kwan Um (Korean Seon)",
+      "address": "Wheaton, IL",
+      "url": "https://tendirectionszen.org/",
+      "source_url": "https://americas.kwanumzen.org/zen-centers",
+      "notes": "Kwan Um affiliate."
+    },
+    {
+      "name": "Ten Directions Bronzeville Sitting Group",
+      "city": "Chicago",
+      "region": "Illinois",
+      "lineage": "Kwan Um (Korean Seon)",
+      "address": "Chicago, IL",
+      "url": "https://tendirectionszen.org/",
+      "source_url": "https://americas.kwanumzen.org/zen-centers",
+      "notes": "Kwan Um Bronzeville sub-group."
+    },
+    {
+      "name": "Zen Life & Meditation Center of Chicago",
+      "city": "Oak Park",
+      "region": "Illinois",
+      "lineage": "White Plum (Maezumi lineage)",
+      "address": null,
+      "url": "https://zlmc.org/",
+      "source_url": "https://whiteplum.org/membership-list-public/",
+      "notes": "White Plum Asanga; teacher Robert Joshin Althouse."
+    },
+    {
+      "name": "Prairie Zen Center",
+      "city": "Champaign",
+      "region": "Illinois",
+      "lineage": "White Plum (Maezumi lineage)",
+      "address": null,
+      "url": "https://prairiezen.org/",
+      "source_url": "https://whiteplum.org/membership-list-public/",
+      "notes": "White Plum Asanga; teacher Elihu Genmyo Smith."
+    },
+    {
+      "name": "One River Zen",
+      "city": "Ottawa",
+      "region": "Illinois",
+      "lineage": "Zen Peacemakers",
+      "address": "Ottawa, IL",
+      "url": "https://onerivercenter.org/",
+      "source_url": "https://zenpeacemakers.org/membership/affiliate-network/",
+      "notes": "Zen Peacemakers affiliate."
+    },
+    {
+      "name": "Empty Circle - NW Indiana Zen Group",
+      "city": "Hobart",
+      "region": "Indiana",
+      "lineage": "Kwan Um (Korean Seon)",
+      "address": "Hobart, IN",
+      "url": "https://emptycirclezen.com/",
+      "source_url": "https://americas.kwanumzen.org/zen-centers",
+      "notes": "Kwan Um affiliate."
+    },
+    {
+      "name": "Indianapolis Zen Center",
+      "city": "Indianapolis",
+      "region": "Indiana",
+      "lineage": "Kwan Um (Korean Seon)",
+      "address": "Indianapolis, IN",
+      "url": "https://indyzen.org/",
+      "source_url": "https://americas.kwanumzen.org/zen-centers",
+      "notes": "Kwan Um affiliate."
+    },
+    {
+      "name": "Sanshin Zen Community / Sanshinji",
+      "city": "Bloomington",
+      "region": "Indiana",
+      "lineage": "Sōtō (Shohaku Okumura)",
+      "address": "Bloomington, IN 47401",
+      "url": "https://www.sanshinji.org/",
+      "source_url": "https://www.sotozen.com/eng/temples/outside_jp/America/",
+      "notes": "Founded by Shohaku Okumura Roshi; major Dogen scholarship center."
+    },
+    {
+      "name": "Sophia Zen Temple",
+      "city": "South Bend",
+      "region": "Indiana",
+      "lineage": "Sōtō (SZBA)",
+      "address": "South Bend, IN 46617",
+      "url": "https://sophiazentemple.org/",
+      "source_url": "https://www.szba.org/zen-centers-by-state",
+      "notes": "SZBA member."
+    },
+    {
+      "name": "Joshu Zen Temple",
+      "city": "Indianapolis",
+      "region": "Indiana",
+      "lineage": "Rinzai (Rinzai-ji / Joshu Sasaki)",
+      "address": "Indianapolis, IN",
+      "url": "https://joshuzentemple.org/",
+      "source_url": "https://www.rinzaiji.org/affiliated-centers/",
+      "notes": "Rinzai-ji affiliate."
+    },
+    {
+      "name": "Cedar Rapids Zen Center / Jikyoji",
+      "city": "Cedar Rapids",
+      "region": "Iowa",
+      "lineage": "Sōtō (SZBA)",
+      "address": "Cedar Rapids, IA 52403",
+      "url": "http://www.cedarrapidszencenter.org/",
+      "source_url": "https://www.szba.org/zen-centers-by-state",
+      "notes": "SZBA member."
+    },
+    {
+      "name": "Decorah Zen Center",
+      "city": "Decorah",
+      "region": "Iowa",
+      "lineage": "Sōtō (SZBA)",
+      "address": "Decorah, IA 52101",
+      "url": "https://decorahzen.com/",
+      "source_url": "https://www.szba.org/zen-centers-by-state",
+      "notes": "SZBA member."
+    },
+    {
+      "name": "Ryumonji Zen Monastery",
+      "city": "Dorchester",
+      "region": "Iowa",
+      "lineage": "Sōtō (Katagiri lineage)",
+      "address": "Dorchester, IA 52140",
+      "url": "https://ryumonji.org/",
+      "source_url": "https://www.szba.org/zen-centers-by-state",
+      "notes": "Soto Zen monastery; Katagiri Roshi successor Shoken Winecoff."
+    },
+    {
+      "name": "Zen Fields",
+      "city": "Ames",
+      "region": "Iowa",
+      "lineage": "Sōtō (SZBA)",
+      "address": "Ames, IA 50010",
+      "url": "https://zenfields.org/",
+      "source_url": "https://www.szba.org/zen-centers-by-state",
+      "notes": "SZBA member."
+    },
+    {
+      "name": "Des Moines Zen Center / Shinsenji",
+      "city": "Des Moines",
+      "region": "Iowa",
+      "lineage": "Sōtō (Sōtōshū North America)",
+      "address": "Des Moines, IA",
+      "url": "https://dmzencenter.org/",
+      "source_url": "https://www.sotozen.com/eng/temples/outside_jp/America/",
+      "notes": "Soto Zen temple."
+    },
+    {
+      "name": "Kansas Zen Center",
+      "city": "Lawrence",
+      "region": "Kansas",
+      "lineage": "Kwan Um (Korean Seon)",
+      "address": "Lawrence, KS",
+      "url": "https://kansaszencenter.org/",
+      "source_url": "https://americas.kwanumzen.org/zen-centers",
+      "notes": "Kwan Um regional flagship."
+    },
+    {
+      "name": "Prairyerth Zen Center",
+      "city": "Topeka",
+      "region": "Kansas",
+      "lineage": "Kwan Um (Korean Seon)",
+      "address": "Topeka, KS",
+      "url": "https://prairyerthzen.org/",
+      "source_url": "https://americas.kwanumzen.org/zen-centers",
+      "notes": "Kwan Um affiliate."
+    },
+    {
+      "name": "Northern Light Zen Center",
+      "city": "Topsham",
+      "region": "Maine",
+      "lineage": "Kwan Um (Korean Seon)",
+      "address": "Topsham, ME",
+      "url": "https://nlzc.info/",
+      "source_url": "https://americas.kwanumzen.org/zen-centers",
+      "notes": "Kwan Um affiliate."
+    },
+    {
+      "name": "Treetop Zen Center",
+      "city": "Oakland",
+      "region": "Maine",
+      "lineage": "White Plum / Sōtō (SZBA)",
+      "address": "Oakland, ME 04963",
+      "url": "https://treetopzencenter.org/",
+      "source_url": "https://www.szba.org/zen-centers-by-state",
+      "notes": "SZBA + White Plum; teacher Peter Seishin Wohl."
+    },
+    {
+      "name": "Zen DownEast",
+      "city": "Pembroke",
+      "region": "Maine",
+      "lineage": "Sōtō (SZBA)",
+      "address": "Pembroke, ME",
+      "url": "https://zendowneast.org/",
+      "source_url": "https://www.szba.org/zen-centers-by-state",
+      "notes": "SZBA member; coastal Maine Soto group."
+    },
+    {
+      "name": "Howling Dragon Zen at Morgan Bay Zendo",
+      "city": "Surry",
+      "region": "Maine",
+      "lineage": "White Plum (Maezumi lineage)",
+      "address": "Surry, ME",
+      "url": "https://howlingdragon.org/",
+      "source_url": "https://whiteplum.org/membership-list-public/",
+      "notes": "White Plum Asanga; teacher Jim Daikan Bastien."
+    },
+    {
+      "name": "Mindfulness Practice Group of Annapolis",
+      "city": "Annapolis",
+      "region": "Maryland",
+      "lineage": "Plum Village (Thich Nhat Hanh)",
+      "address": "Annapolis, MD",
+      "url": "https://annapolismindfulness.org/",
+      "source_url": "https://zenpeacemakers.org/membership/affiliate-network/",
+      "notes": "Plum Village-style sangha; also Zen Peacemakers affiliate."
+    },
+    {
+      "name": "Silver Spring Zendo / One Heart Sangha",
+      "city": "Silver Spring",
+      "region": "Maryland",
+      "lineage": "Zen Peacemakers / White Plum",
+      "address": "Silver Spring, MD",
+      "url": "https://silverspringzendo.org/",
+      "source_url": "https://zenpeacemakers.org/membership/affiliate-network/",
+      "notes": "Zen Peacemakers affiliate."
+    },
+    {
+      "name": "Cambridge Zen Center",
+      "city": "Cambridge",
+      "region": "Massachusetts",
+      "lineage": "Kwan Um (Korean Seon)",
+      "address": "Cambridge, MA",
+      "url": "https://cambridgezen.org/",
+      "source_url": "https://americas.kwanumzen.org/zen-centers",
+      "notes": "Kwan Um residential center; one of the largest Korean Zen centers in US."
+    },
+    {
+      "name": "Cape Cod Zen Center",
+      "city": "Barnstable",
+      "region": "Massachusetts",
+      "lineage": "Kwan Um (Korean Seon)",
+      "address": "Barnstable, MA",
+      "url": "https://capecodzen.com/",
+      "source_url": "https://americas.kwanumzen.org/zen-centers",
+      "notes": "Kwan Um affiliate."
+    },
+    {
+      "name": "Open Meadow Zen Group",
+      "city": "Lexington",
+      "region": "Massachusetts",
+      "lineage": "Kwan Um (Korean Seon)",
+      "address": "Lexington, MA",
+      "url": "https://openmeadowzen.com/",
+      "source_url": "https://americas.kwanumzen.org/zen-centers",
+      "notes": "Kwan Um affiliate."
+    },
+    {
+      "name": "Plymouth Zen Group",
+      "city": "Plymouth",
+      "region": "Massachusetts",
+      "lineage": "Kwan Um (Korean Seon)",
+      "address": "Plymouth, MA",
+      "url": "https://plymouthzen.com/",
+      "source_url": "https://americas.kwanumzen.org/zen-centers",
+      "notes": "Kwan Um affiliate."
+    },
+    {
+      "name": "One Heart Zen",
+      "city": "Somerville",
+      "region": "Massachusetts",
+      "lineage": "Sōtō (SZBA)",
+      "address": "Somerville, MA 02143",
+      "url": "https://oneheartzen.org/",
+      "source_url": "https://www.szba.org/zen-centers-by-state",
+      "notes": "SZBA member."
+    },
+    {
+      "name": "Zen Center North Shore",
+      "city": "Beverly",
+      "region": "Massachusetts",
+      "lineage": "Sōtō (SZBA)",
+      "address": "Beverly, MA 01915",
+      "url": "https://zcns.org/",
+      "source_url": "https://www.szba.org/zen-centers-by-state",
+      "notes": "SZBA member."
+    },
+    {
+      "name": "Boundless Way Zen Temple / Mugendo-ji",
+      "city": "Worcester",
+      "region": "Massachusetts",
+      "lineage": "Sōtō / Diamond Sangha (combined)",
+      "address": "Worcester, MA 01602",
+      "url": "https://boundlesswayzen.org/",
+      "source_url": "https://www.szba.org/zen-centers-by-state",
+      "notes": "SZBA member; James Ishmael Ford lineage."
+    },
+    {
+      "name": "Valley Zendo",
+      "city": "Charlemont",
+      "region": "Massachusetts",
+      "lineage": "Sōtō (Suzuki Roshi lineage)",
+      "address": "Charlemont, MA",
+      "url": "https://valleyzendo.org/",
+      "source_url": "https://www.sotozen.com/eng/temples/outside_jp/America/",
+      "notes": "Soto Zen monastic-style center in Pioneer Valley."
+    },
+    {
+      "name": "Oxbow Zen",
+      "city": "Florence",
+      "region": "Massachusetts",
+      "lineage": "White Plum (Maezumi lineage)",
+      "address": "Florence, MA",
+      "url": "https://oxbowzen.org/",
+      "source_url": "https://whiteplum.org/membership-list-public/",
+      "notes": "White Plum Asanga; teacher Lisa Soshin Dufour."
+    },
+    {
+      "name": "Two Streams Zen",
+      "city": "Westhampton",
+      "region": "Massachusetts",
+      "lineage": "White Plum (Maezumi lineage)",
+      "address": "Westhampton, MA",
+      "url": "https://twostreamszen.org/",
+      "source_url": "https://whiteplum.org/membership-list-public/",
+      "notes": "White Plum Asanga; teacher Catherine Anraku Hondorp."
+    },
+    {
+      "name": "Green River Zen Center",
+      "city": "Greenfield",
+      "region": "Massachusetts",
+      "lineage": "White Plum (Maezumi lineage)",
+      "address": "Greenfield, MA",
+      "url": "https://greenriverzen.org/",
+      "source_url": "https://whiteplum.org/membership-list-public/",
+      "notes": "White Plum Asanga; teacher Sally Sonen Kealy."
+    },
+    {
+      "name": "Day Star Sangha",
+      "city": "Worcester",
+      "region": "Massachusetts",
+      "lineage": "White Plum (Maezumi lineage)",
+      "address": "Worcester, MA",
+      "url": "https://kevinhuntsensei.org/",
+      "source_url": "https://whiteplum.org/membership-list-public/",
+      "notes": "White Plum Asanga; teacher Kevin Jiun Hunt."
+    },
+    {
+      "name": "Full Moon Zen",
+      "city": "Brookline",
+      "region": "Massachusetts",
+      "lineage": "White Plum (Maezumi lineage)",
+      "address": "Brookline, MA",
+      "url": "https://fullmoonzen.org/",
+      "source_url": "https://whiteplum.org/membership-list-public/",
+      "notes": "White Plum Asanga; teacher Jeff Kogen Seul."
+    },
+    {
+      "name": "Hōun-an / Charles River Zen",
+      "city": "Boston",
+      "region": "Massachusetts",
+      "lineage": "Rinzai (Rinzai-ji / Joshu Sasaki)",
+      "address": "Boston, MA",
+      "url": "https://charlesriverzen.org/",
+      "source_url": "https://www.rinzaiji.org/affiliated-centers/",
+      "notes": "Rinzai-ji Boston-area affiliate."
+    },
+    {
+      "name": "East Rock Sangha",
+      "city": "New Haven",
+      "region": "Massachusetts",
+      "lineage": "Diamond Sangha (Aitken)",
+      "address": "Martha's Vineyard / New Haven",
+      "url": "https://eastrocksangha.org/",
+      "source_url": "https://diamondsangha.org/resources-2/links/",
+      "notes": "Diamond Sangha affiliate spanning MA/CT."
+    },
+    {
+      "name": "Awakening Dharma",
+      "city": "Ann Arbor",
+      "region": "Michigan",
+      "lineage": "White Plum (Maezumi lineage)",
+      "address": null,
+      "url": "https://awakeningdharma.org/",
+      "source_url": "https://whiteplum.org/membership-list-public/",
+      "notes": "White Plum Asanga; teacher Stephen Mugen Snyder."
+    },
+    {
+      "name": "Great Wave Zen Sangha",
+      "city": "Ann Arbor",
+      "region": "Michigan",
+      "lineage": "White Plum (Maezumi lineage)",
+      "address": null,
+      "url": "https://greatwave.org/",
+      "source_url": "https://whiteplum.org/membership-list-public/",
+      "notes": "White Plum Asanga; teacher John Gendo Wolff."
+    },
+    {
+      "name": "Linh Son Detroit",
+      "city": "Warren",
+      "region": "Michigan",
+      "lineage": "Vietnamese Thiền (Linh Son network / Lâm Tế)",
+      "address": "4820 East 9 Mile Road, Warren, MI 48091",
+      "url": "https://linhsondetroit.net/",
+      "source_url": "https://linhsondetroit.net/",
+      "notes": "Vietnamese Thiền temple; 43rd-generation Lâm Tế."
+    },
+    {
+      "name": "Clouds in Water Zen Center",
+      "city": "St. Paul",
+      "region": "Minnesota",
+      "lineage": "Sōtō (Katagiri / Suzuki lineage)",
+      "address": "St Paul, MN 55103",
+      "url": "https://www.cloudsinwater.org/",
+      "source_url": "https://www.szba.org/zen-centers-by-state",
+      "notes": "SZBA member."
+    },
+    {
+      "name": "Dharma Dance Sangha",
+      "city": "Minneapolis",
+      "region": "Minnesota",
+      "lineage": "Sōtō (SZBA)",
+      "address": "Minneapolis, MN 55409",
+      "url": "https://dharmadancesangha.org/",
+      "source_url": "https://www.szba.org/zen-centers-by-state",
+      "notes": "SZBA member."
+    },
+    {
+      "name": "Hokyoji Zen Practice Community",
+      "city": "Eitzen",
+      "region": "Minnesota",
+      "lineage": "Sōtō (Katagiri / Suzuki lineage)",
+      "address": "Eitzen, MN 55931",
+      "url": "https://www.hokyoji.org/",
+      "source_url": "https://www.szba.org/zen-centers-by-state",
+      "notes": "Catpath retreat monastery in southeastern MN."
+    },
+    {
+      "name": "Minnesota Zen Meditation Center / Ganshoji",
+      "city": "Minneapolis",
+      "region": "Minnesota",
+      "lineage": "Sōtō (Katagiri lineage)",
+      "address": "Minneapolis, MN 55408",
+      "url": "https://www.mnzencenter.org/",
+      "source_url": "https://www.szba.org/zen-centers-by-state",
+      "notes": "Founded by Dainin Katagiri Roshi."
+    },
+    {
+      "name": "Mountains and Waters Zen Group",
+      "city": "Faribault",
+      "region": "Minnesota",
+      "lineage": "Sōtō (SZBA)",
+      "address": "Faribault, MN 55021",
+      "url": "https://mountainsandwaterszen.com/",
+      "source_url": "https://www.szba.org/zen-centers-by-state",
+      "notes": "SZBA member."
+    },
+    {
+      "name": "Compassionate Ocean Dharma Center / Jikaiji",
+      "city": "Minneapolis",
+      "region": "Minnesota",
+      "lineage": "Sōtō (Katagiri lineage)",
+      "address": "Minneapolis, MN",
+      "url": "https://www.oceanzen.org/",
+      "source_url": "https://www.sotozen.com/eng/temples/outside_jp/America/",
+      "notes": "Joen and Michael O'Neal lineage."
+    },
+    {
+      "name": "Magnolia Grove Monastery",
+      "city": "Batesville",
+      "region": "Mississippi",
+      "lineage": "Plum Village (Thich Nhat Hanh)",
+      "address": "Batesville, MS",
+      "url": "https://magnoliagrovemonastery.org/",
+      "source_url": "https://pvengagedbuddhism.org/",
+      "notes": "One of three US Plum Village monasteries."
+    },
+    {
+      "name": "Confluence Zen Center / Housenji",
+      "city": "St. Louis",
+      "region": "Missouri",
+      "lineage": "Sōtō (SZBA)",
+      "address": "St. Louis, MO 63143",
+      "url": "https://www.confluencezen.org/",
+      "source_url": "https://www.szba.org/zen-centers-by-state",
+      "notes": "SZBA member."
+    },
+    {
+      "name": "Missouri Zen Center / Buppozan Zengenji",
+      "city": "Webster Groves",
+      "region": "Missouri",
+      "lineage": "Sōtō (SZBA)",
+      "address": "Webster Groves, MO 63119",
+      "url": "http://www.missourizencenter.org/",
+      "source_url": "https://www.szba.org/zen-centers-by-state",
+      "notes": "SZBA member."
+    },
+    {
+      "name": "Kansas Zen Center - Kansas City",
+      "city": "Kansas City",
+      "region": "Missouri",
+      "lineage": "Kwan Um (Korean Seon)",
+      "address": "Kansas City, MO",
+      "url": "https://kansaszencenter.org/",
+      "source_url": "https://americas.kwanumzen.org/zen-centers",
+      "notes": "Kwan Um KC satellite of Kansas Zen Center."
+    },
+    {
+      "name": "Hokoku-An",
+      "city": "Columbia",
+      "region": "Missouri",
+      "lineage": "Rinzai (Rinzai-ji / Joshu Sasaki)",
+      "address": "Columbia, MO",
+      "url": "https://www.rinzaiji.org/affiliated-centers/",
+      "source_url": "https://www.rinzaiji.org/affiliated-centers/",
+      "notes": "Rinzai-ji affiliate."
+    },
+    {
+      "name": "Mission Mountain Zen",
+      "city": "Dayton",
+      "region": "Montana",
+      "lineage": "Sōtō (SZBA)",
+      "address": "Dayton, MT 59914",
+      "url": "https://missionmountainzen.org/",
+      "source_url": "https://www.szba.org/zen-centers-by-state",
+      "notes": "SZBA member."
+    },
+    {
+      "name": "Nebraska Zen Center / Heartland Temple",
+      "city": "Omaha",
+      "region": "Nebraska",
+      "lineage": "Sōtō (Katagiri lineage)",
+      "address": "Omaha, NE 68131",
+      "url": "https://nebraskazencenter.org/",
+      "source_url": "https://www.szba.org/zen-centers-by-state",
+      "notes": "SZBA member."
+    },
+    {
+      "name": "Zen Center of Las Vegas",
+      "city": "Las Vegas",
+      "region": "Nevada",
+      "lineage": "Kwan Um (Korean Seon)",
+      "address": "Las Vegas, NV",
+      "url": "https://zenlasvegas.com/",
+      "source_url": "https://americas.kwanumzen.org/zen-centers",
+      "notes": "Kwan Um affiliate."
+    },
+    {
+      "name": "Empty Bowl Zendo",
+      "city": "Morristown",
+      "region": "New Jersey",
+      "lineage": "White Plum (Maezumi lineage)",
+      "address": "Morristown, NJ",
+      "url": "https://emptybowlzendo.org/",
+      "source_url": "https://whiteplum.org/membership-map/",
+      "notes": "White Plum Asanga member."
+    },
+    {
+      "name": "Heart Circle Sangha",
+      "city": "Ridgewood",
+      "region": "New Jersey",
+      "lineage": "White Plum (Maezumi lineage)",
+      "address": "Ridgewood, NJ",
+      "url": "https://heartcirclesangha.org/",
+      "source_url": "https://whiteplum.org/membership-list-public/",
+      "notes": "White Plum Asanga; teachers Joan Hogetsu Hoeberichts and Mark Eko Morris."
+    },
+    {
+      "name": "Morning Star Zendo",
+      "city": "Jersey City",
+      "region": "New Jersey",
+      "lineage": "White Plum (Maezumi lineage)",
+      "address": "Jersey City, NJ",
+      "url": "https://morningstarzen.org/",
+      "source_url": "https://whiteplum.org/membership-list-public/",
+      "notes": "White Plum Asanga; teacher Robert Jinsen Kennedy."
+    },
+    {
+      "name": "Princeton Area Zen Group",
+      "city": "Princeton",
+      "region": "New Jersey",
+      "lineage": "Rinzai (Rinzai-ji / Joshu Sasaki)",
+      "address": "Princeton, NJ",
+      "url": "https://www.rinzaiji.org/affiliated-centers/",
+      "source_url": "https://www.rinzaiji.org/affiliated-centers/",
+      "notes": "Rinzai-ji affiliate."
+    },
+    {
+      "name": "Albuquerque Open Sky Zen Group",
+      "city": "Albuquerque",
+      "region": "New Mexico",
+      "lineage": "Kwan Um (Korean Seon)",
+      "address": "Albuquerque, NM",
+      "url": "https://americas.kwanumzen.org/zen-centers",
+      "source_url": "https://americas.kwanumzen.org/zen-centers",
+      "notes": "Kwan Um affiliate."
+    },
+    {
+      "name": "Hokoji Zendo",
+      "city": "Arroyo Seco",
+      "region": "New Mexico",
+      "lineage": "Sōtō (SZBA)",
+      "address": "Arroyo Seco, NM 87514",
+      "url": "https://hokoji.org/",
+      "source_url": "https://www.szba.org/zen-centers-by-state",
+      "notes": "SZBA member; northern NM."
+    },
+    {
+      "name": "Bodhi Manda Zen Center",
+      "city": "Jemez Springs",
+      "region": "New Mexico",
+      "lineage": "Rinzai (Rinzai-ji / Joshu Sasaki)",
+      "address": "Jemez Springs, NM",
+      "url": "https://bmzc.org/",
+      "source_url": "https://www.rinzaiji.org/affiliated-centers/",
+      "notes": "Rinzai-ji training center founded 1973."
+    },
+    {
+      "name": "No Gate Zen Center",
+      "city": "Albuquerque",
+      "region": "New Mexico",
+      "lineage": "White Plum (Maezumi lineage)",
+      "address": "Albuquerque, NM",
+      "url": "https://nogatezencenter.org/",
+      "source_url": "https://whiteplum.org/membership-list-public/",
+      "notes": "White Plum Asanga; teacher Issan Mugai Elkin."
+    },
+    {
+      "name": "Sage Institute for Creativity and Consciousness",
+      "city": "Taos",
+      "region": "New Mexico",
+      "lineage": "White Plum (Maezumi lineage)",
+      "address": "Taos, NM",
+      "url": "https://sagetaos.com/",
+      "source_url": "https://whiteplum.org/membership-list-public/",
+      "notes": "White Plum Asanga; teacher Sean Tetsudo Murphy."
+    },
+    {
+      "name": "Mountain Cloud Zen Center",
+      "city": "Santa Fe",
+      "region": "New Mexico",
+      "lineage": "Sanbō Zen",
+      "address": "Santa Fe, NM",
+      "url": "https://www.mountaincloud.org/",
+      "source_url": "https://www.mountaincloud.org/about/sanbo-zen-lineage/",
+      "notes": "Henry Shukman Roshi; Sanbo Zen North America hub."
+    },
+    {
+      "name": "Eighthwave",
+      "city": "Albuquerque",
+      "region": "New Mexico",
+      "lineage": "Zen Peacemakers",
+      "address": "Albuquerque, NM",
+      "url": "https://eighthwave.org/",
+      "source_url": "https://zenpeacemakers.org/membership/affiliate-network/",
+      "notes": "Zen Peacemakers affiliate."
+    },
+    {
+      "name": "Order of Clear Mind Zen",
+      "city": "Las Cruces",
+      "region": "New Mexico",
+      "lineage": "Zen Peacemakers / White Plum",
+      "address": "Las Cruces, NM",
+      "url": "https://clearmindzen.org/",
+      "source_url": "https://zenpeacemakers.org/membership/affiliate-network/",
+      "notes": "Zen Peacemakers affiliate; Daiho Hilbert."
+    },
+    {
+      "name": "Beacon Zen Temple",
+      "city": "Beacon",
+      "region": "New York",
+      "lineage": "Sōtō (Sōtōshū North America)",
+      "address": "Beacon, NY",
+      "url": "https://www.beaconzen.org/",
+      "source_url": "https://www.sotozen.com/eng/temples/outside_jp/America/",
+      "notes": "Soto Zen temple in Hudson Valley."
+    },
+    {
+      "name": "Brooklyn Zen Center",
+      "city": "Brooklyn",
+      "region": "New York",
+      "lineage": "Sōtō (SFZC affiliate / SZBA)",
+      "address": "Brooklyn, NY 11215",
+      "url": "https://brooklynzen.org/",
+      "source_url": "https://www.szba.org/zen-centers-by-state",
+      "notes": "Major NYC sangha; Greg Snyder lineage."
+    },
+    {
+      "name": "Tetsugyuji Zen Temple",
+      "city": "Yorktown Heights",
+      "region": "New York",
+      "lineage": "Sōtō (SZBA)",
+      "address": "Yorktown Heights, NY 10598",
+      "url": "https://tetsugyuji.org/",
+      "source_url": "https://www.szba.org/zen-centers-by-state",
+      "notes": "SZBA member."
+    },
+    {
+      "name": "Twining Vines Sangha",
+      "city": "Purchase",
+      "region": "New York",
+      "lineage": "Sōtō / Hollow Bones (combined)",
+      "address": "Purchase, NY 10577",
+      "url": "https://twiningvinessangha.com/",
+      "source_url": "https://www.szba.org/zen-centers-by-state",
+      "notes": "SZBA member."
+    },
+    {
+      "name": "Two Rivers Zen Community",
+      "city": "Narrowsburg",
+      "region": "New York",
+      "lineage": "Sōtō (SZBA)",
+      "address": "Narrowsburg, NY",
+      "url": "https://tworiverszen.org/",
+      "source_url": "https://www.szba.org/zen-centers-by-state",
+      "notes": "SZBA member."
+    },
+    {
+      "name": "Yorktown Zen",
+      "city": "Mohegan Lake",
+      "region": "New York",
+      "lineage": "Sōtō (Sōtōshū North America)",
+      "address": "Mohegan Lake, NY",
+      "url": "http://www.yorktownzen.org/",
+      "source_url": "https://www.sotozen.com/eng/temples/outside_jp/America/",
+      "notes": "Soto Zen temple in Westchester County."
+    },
+    {
+      "name": "Still Mind Zendo",
+      "city": "New York",
+      "region": "New York",
+      "lineage": "White Plum (Maezumi lineage)",
+      "address": "New York, NY",
+      "url": "https://stillmindzendo.org/",
+      "source_url": "https://whiteplum.org/membership-list-public/",
+      "notes": "White Plum Asanga; teacher Janet Jiryu Abels."
+    },
+    {
+      "name": "No Traces Zendo",
+      "city": "New York",
+      "region": "New York",
+      "lineage": "White Plum (Maezumi lineage)",
+      "address": "New York, NY",
+      "url": "https://notraceszendo.com/",
+      "source_url": "https://whiteplum.org/membership-list-public/",
+      "notes": "White Plum Asanga; teacher Nancy Mujo Baker."
+    },
+    {
+      "name": "Zen Community of Staten Island",
+      "city": "Staten Island",
+      "region": "New York",
+      "lineage": "White Plum (Maezumi lineage)",
+      "address": "Staten Island, NY",
+      "url": "https://zencommunitysi.org/",
+      "source_url": "https://whiteplum.org/membership-list-public/",
+      "notes": "White Plum Asanga; teacher Ken Tetsuji Byalin."
+    },
+    {
+      "name": "Ocean Zendo",
+      "city": "Bridgehampton",
+      "region": "New York",
+      "lineage": "White Plum (Maezumi lineage)",
+      "address": "Bridgehampton, NY",
+      "url": "https://oceanzendo.org/",
+      "source_url": "https://whiteplum.org/membership-list-public/",
+      "notes": "White Plum Asanga; teacher Michel Engu Dobbs."
+    },
+    {
+      "name": "Empty Hand Zen Center",
+      "city": "New Rochelle",
+      "region": "New York",
+      "lineage": "White Plum (Maezumi lineage)",
+      "address": "New Rochelle, NY",
+      "url": "https://emptyhandzen.org/",
+      "source_url": "https://whiteplum.org/membership-list-public/",
+      "notes": "White Plum Asanga; teacher Randall Ryotan Eiger."
+    },
+    {
+      "name": "Pamsula Zen Center",
+      "city": "Hudson Valley",
+      "region": "New York",
+      "lineage": "White Plum (Maezumi lineage)",
+      "address": null,
+      "url": "https://pamsulazen.org/",
+      "source_url": "https://whiteplum.org/membership-list-public/",
+      "notes": "White Plum Asanga; teacher Craig Daiken Nelson."
+    },
+    {
+      "name": "Dragon's Eye Zendo",
+      "city": "New York",
+      "region": "New York",
+      "lineage": "White Plum (Maezumi lineage)",
+      "address": null,
+      "url": "https://michaelkholleran.org/",
+      "source_url": "https://whiteplum.org/membership-list-public/",
+      "notes": "White Plum Asanga; teacher Michael Koryu Holleran."
+    },
+    {
+      "name": "Chogye International Zen Center of New York",
+      "city": "New York",
+      "region": "New York",
+      "lineage": "Kwan Um (Korean Seon)",
+      "address": "New York, NY",
+      "url": "https://chogyezencenter.org/",
+      "source_url": "https://americas.kwanumzen.org/zen-centers",
+      "notes": "Kwan Um Manhattan center."
+    },
+    {
+      "name": "Three Jewels Binghamton Zen Group",
+      "city": "Binghamton",
+      "region": "New York",
+      "lineage": "Kwan Um (Korean Seon)",
+      "address": "Binghamton, NY",
+      "url": "https://thethreejewelsbinghamton.org/",
+      "source_url": "https://americas.kwanumzen.org/zen-centers",
+      "notes": "Kwan Um affiliate."
+    },
+    {
+      "name": "Three Treasures Zen Center of Oneonta",
+      "city": "Oneonta",
+      "region": "New York",
+      "lineage": "Kwan Um (Korean Seon)",
+      "address": "Oneonta, NY",
+      "url": "https://threetreasureszencenter.org/",
+      "source_url": "https://americas.kwanumzen.org/zen-centers",
+      "notes": "Kwan Um affiliate."
+    },
+    {
+      "name": "Ithaca Zen Center",
+      "city": "Ithaca",
+      "region": "New York",
+      "lineage": "Rinzai (Rinzai-ji / Joshu Sasaki)",
+      "address": "Ithaca, NY",
+      "url": "https://ithacazencenter.org/",
+      "source_url": "https://www.rinzaiji.org/affiliated-centers/",
+      "notes": "Rinzai-ji affiliate."
+    },
+    {
+      "name": "Long Island Rinzai-ji Group",
+      "city": "Long Island",
+      "region": "New York",
+      "lineage": "Rinzai (Rinzai-ji / Joshu Sasaki)",
+      "address": "Long Island, NY",
+      "url": "https://www.rinzaiji.org/affiliated-centers/",
+      "source_url": "https://www.rinzaiji.org/affiliated-centers/",
+      "notes": "Rinzai-ji affiliate sitting group."
+    },
+    {
+      "name": "Buffalo Zen Dharma Community",
+      "city": "Buffalo",
+      "region": "New York",
+      "lineage": "Sōtō (Mountains and Rivers Order)",
+      "address": "Buffalo, NY",
+      "url": "https://www.buffalozen.org/",
+      "source_url": "https://zmm.org/about/affiliates/",
+      "notes": "Mountains and Rivers Order formal affiliate."
+    },
+    {
+      "name": "Hudson River Peacemaker Center",
+      "city": "Yonkers",
+      "region": "New York",
+      "lineage": "Zen Peacemakers",
+      "address": "Yonkers, NY",
+      "url": "https://hudsonriverpeacemakercenter.org/",
+      "source_url": "https://zenpeacemakers.org/membership/affiliate-network/",
+      "notes": "Zen Peacemakers affiliate; Bernie Glassman lineage."
+    },
+    {
+      "name": "Hudson River Zen Center",
+      "city": "Bronx",
+      "region": "New York",
+      "lineage": "Zen Peacemakers / White Plum",
+      "address": "Bronx, NY",
+      "url": "https://hudsonriverzencenter.org/",
+      "source_url": "https://zenpeacemakers.org/membership/affiliate-network/",
+      "notes": "Zen Peacemakers affiliate."
+    },
+    {
+      "name": "Chapel Hill Zen Center",
+      "city": "Chapel Hill",
+      "region": "North Carolina",
+      "lineage": "Sōtō (SFZC affiliate)",
+      "address": "Chapel Hill, NC 27514",
+      "url": "http://www.chzc.org/",
+      "source_url": "https://www.szba.org/zen-centers-by-state",
+      "notes": "SFZC Suzuki Roshi lineage; Josho Pat Phelan."
+    },
+    {
+      "name": "Great Tree Zen Temple / Daijuji",
+      "city": "Alexander",
+      "region": "North Carolina",
+      "lineage": "Sōtō (women's training temple)",
+      "address": "Alexander, NC 28701",
+      "url": "https://www.greattreetemple.org/",
+      "source_url": "https://www.szba.org/zen-centers-by-state",
+      "notes": "SZBA member; women-led Soto temple."
+    },
+    {
+      "name": "Zen Center of Asheville / Magnanimous Mind",
+      "city": "Asheville",
+      "region": "North Carolina",
+      "lineage": "Sōtō (SZBA)",
+      "address": "Asheville, NC 28801",
+      "url": "https://zencenterofasheville.org/",
+      "source_url": "https://www.szba.org/zen-centers-by-state",
+      "notes": "SZBA member."
+    },
+    {
+      "name": "Crooked River Zen Center",
+      "city": "Cleveland",
+      "region": "Ohio",
+      "lineage": "Sōtō (SZBA)",
+      "address": "Cleveland, OH 44121",
+      "url": "https://crookedriverzen.org/",
+      "source_url": "https://www.szba.org/zen-centers-by-state",
+      "notes": "SZBA member."
+    },
+    {
+      "name": "Yellow Springs Dharma Center Zen Group",
+      "city": "Yellow Springs",
+      "region": "Ohio",
+      "lineage": "Diamond Sangha (Aitken)",
+      "address": "Yellow Springs, OH",
+      "url": "https://ysdharma.org/",
+      "source_url": "https://diamondsangha.org/resources-2/links/",
+      "notes": "Diamond Sangha affiliate; shares Yellow Springs Dharma Center."
+    },
+    {
+      "name": "The Lotus Institute",
+      "city": "Cleveland",
+      "region": "Ohio",
+      "lineage": "Zen Peacemakers",
+      "address": null,
+      "url": "https://thelotusinstitute.org/",
+      "source_url": "https://zenpeacemakers.org/membership/affiliate-network/",
+      "notes": "Zen Peacemakers affiliate."
+    },
+    {
+      "name": "Interiority Wellness Sangha",
+      "city": "West Chester",
+      "region": "Ohio",
+      "lineage": "Zen Peacemakers",
+      "address": "West Chester, OH",
+      "url": "https://interiority.org/",
+      "source_url": "https://zenpeacemakers.org/membership/affiliate-network/",
+      "notes": "Zen Peacemakers affiliate."
+    },
+    {
+      "name": "Linh Sơn A Di Đà Viện",
+      "city": "Cleveland",
+      "region": "Ohio",
+      "lineage": "Vietnamese Thiền (Linh Son network)",
+      "address": "Cleveland, OH",
+      "url": "https://linhsonamida.org/",
+      "source_url": "https://linhsonamida.org/",
+      "notes": "Vietnamese Thiền temple; Linh Son lineage."
+    },
+    {
+      "name": "Ashland Zen Center / Siskiyou Sansui Do",
+      "city": "Ashland",
+      "region": "Oregon",
+      "lineage": "Sōtō (SFZC affiliate)",
+      "address": "Ashland, OR 97520",
+      "url": "https://ashlandzencenter.org/",
+      "source_url": "https://www.szba.org/zen-centers-by-state",
+      "notes": "SZBA member."
+    },
+    {
+      "name": "Bird Haven Zendo",
+      "city": "Cheshire",
+      "region": "Oregon",
+      "lineage": "Sōtō (SZBA)",
+      "address": "Cheshire, OR 97419",
+      "url": "https://birdhavenzendo.org/",
+      "source_url": "https://www.szba.org/zen-centers-by-state",
+      "notes": "SZBA member."
+    },
+    {
+      "name": "Bright Way Zen",
+      "city": "Portland",
+      "region": "Oregon",
+      "lineage": "Sōtō (SZBA)",
+      "address": "Portland, OR 97225",
+      "url": "https://brightwayzen.org/",
+      "source_url": "https://www.szba.org/zen-centers-by-state",
+      "notes": "SZBA member."
+    },
+    {
+      "name": "Buddha Eye Temple / Butsugenji",
+      "city": "Eugene",
+      "region": "Oregon",
+      "lineage": "Sōtō (Sōtōshū North America)",
+      "address": "Eugene, OR 97405",
+      "url": "https://www.buddhaeye.org/",
+      "source_url": "https://www.szba.org/zen-centers-by-state",
+      "notes": "Soto temple; Edward Kakushin Brown."
+    },
+    {
+      "name": "Dharma Rain Zen Center",
+      "city": "Portland",
+      "region": "Oregon",
+      "lineage": "Sōtō (SZBA)",
+      "address": "Portland, OR 97220",
+      "url": "https://dharma-rain.org/",
+      "source_url": "https://www.szba.org/zen-centers-by-state",
+      "notes": "Major Portland Soto residential center."
+    },
+    {
+      "name": "Great Vow Zen Monastery / Daiganzenji",
+      "city": "Clatskanie",
+      "region": "Oregon",
+      "lineage": "White Plum / Zen Community of Oregon",
+      "address": "Clatskanie, OR 97016",
+      "url": "https://www.zendust.org/",
+      "source_url": "https://www.szba.org/zen-centers-by-state",
+      "notes": "Jan Chozen Bays / Hogen Bays White Plum monastery."
+    },
+    {
+      "name": "Heart of Wisdom Zen Temple",
+      "city": "Portland",
+      "region": "Oregon",
+      "lineage": "White Plum / Zen Community of Oregon",
+      "address": "Portland, OR 97211",
+      "url": "https://zendust.org/zen-temple/",
+      "source_url": "https://www.szba.org/zen-centers-by-state",
+      "notes": "Zen Community of Oregon Portland temple."
+    },
+    {
+      "name": "Eugene Buddhist Priory",
+      "city": "Eugene",
+      "region": "Oregon",
+      "lineage": "Sōtō (OBC, Serene Reflection / Jiyu-Kennett)",
+      "address": "Eugene, OR",
+      "url": "http://www.eugenebuddhistpriory.org/",
+      "source_url": "https://berkeleybuddhistpriory.org/obc-links/",
+      "notes": "OBC priory; Reverend Oriana La Chance."
+    },
+    {
+      "name": "Portland Buddhist Priory",
+      "city": "Portland",
+      "region": "Oregon",
+      "lineage": "Sōtō (OBC, Serene Reflection / Jiyu-Kennett)",
+      "address": "Portland, OR",
+      "url": "http://www.portlandbuddhistpriory.org/",
+      "source_url": "https://berkeleybuddhistpriory.org/obc-links/",
+      "notes": "OBC priory."
+    },
+    {
+      "name": "Wallowa Buddhist Temple",
+      "city": "Joseph",
+      "region": "Oregon",
+      "lineage": "Sōtō (OBC, Serene Reflection / Jiyu-Kennett)",
+      "address": "Joseph, OR",
+      "url": "http://www.wallowabuddhisttemple.org/",
+      "source_url": "https://berkeleybuddhistpriory.org/obc-links/",
+      "notes": "OBC temple in eastern Oregon; Reverend Master Meido Tuttle."
+    },
+    {
+      "name": "Ring of Moss Zendo",
+      "city": "Portland",
+      "region": "Oregon",
+      "lineage": "Diamond Sangha (Aitken)",
+      "address": "Portland, OR",
+      "url": "https://ringofmoss.org/",
+      "source_url": "https://diamondsangha.org/resources-2/links/",
+      "notes": "Diamond Sangha affiliate."
+    },
+    {
+      "name": "Seven Thunders",
+      "city": "Lake Oswego",
+      "region": "Oregon",
+      "lineage": "Diamond Sangha (Aitken)",
+      "address": "Lake Oswego, OR",
+      "url": "https://seventhunders.org/",
+      "source_url": "https://diamondsangha.org/resources-2/links/",
+      "notes": "Diamond Sangha affiliate."
+    },
+    {
+      "name": "Soji Zen Center",
+      "city": "Lansdowne",
+      "region": "Pennsylvania",
+      "lineage": "Sōtō (SZBA)",
+      "address": "Lansdowne, PA 19050",
+      "url": "https://sojizen.org/",
+      "source_url": "https://www.szba.org/zen-centers-by-state",
+      "notes": "SZBA member."
+    },
+    {
+      "name": "Two Rivers Zen Community (PA)",
+      "city": "Honesdale",
+      "region": "Pennsylvania",
+      "lineage": "Sōtō (SZBA)",
+      "address": "Honesdale, PA 18431",
+      "url": "https://tworiverszen.org/",
+      "source_url": "https://www.szba.org/zen-centers-by-state",
+      "notes": "SZBA member; sister community to NY group."
+    },
+    {
+      "name": "Zen Center of Pittsburgh / Deep Spring Temple",
+      "city": "Sewickley",
+      "region": "Pennsylvania",
+      "lineage": "Sōtō (SZBA)",
+      "address": "Sewickley, PA 15143",
+      "url": "https://www.deepspringzen.org/",
+      "source_url": "https://www.szba.org/zen-centers-by-state",
+      "notes": "Soto temple west of Pittsburgh."
+    },
+    {
+      "name": "Zen Group of Pittsburgh",
+      "city": "Pittsburgh",
+      "region": "Pennsylvania",
+      "lineage": "Kwan Um (Korean Seon)",
+      "address": "Pittsburgh, PA",
+      "url": "https://zengrouppgh.com/",
+      "source_url": "https://americas.kwanumzen.org/zen-centers",
+      "notes": "Kwan Um affiliate."
+    },
+    {
+      "name": "Flowing River Sangha",
+      "city": "Doylestown",
+      "region": "Pennsylvania",
+      "lineage": "White Plum (Maezumi lineage)",
+      "address": "Doylestown, PA",
+      "url": "https://flowingriversangha.com/",
+      "source_url": "https://whiteplum.org/membership-list-public/",
+      "notes": "White Plum Asanga; teacher Courtney Gessho Burgess-Michak."
+    },
+    {
+      "name": "Zen Group of Reading",
+      "city": "Reading",
+      "region": "Pennsylvania",
+      "lineage": "Diamond Sangha (Aitken)",
+      "address": "Reading, PA",
+      "url": "https://zen-group-of-reading-pa.org/",
+      "source_url": "https://diamondsangha.org/resources-2/links/",
+      "notes": "Diamond Sangha affiliate."
+    },
+    {
+      "name": "Dragonfly Sangha",
+      "city": "Harrisburg",
+      "region": "Pennsylvania",
+      "lineage": "Zen Peacemakers",
+      "address": "Harrisburg, PA",
+      "url": "https://dragonflysangha.org/",
+      "source_url": "https://zenpeacemakers.org/membership/affiliate-network/",
+      "notes": "Zen Peacemakers affiliate."
+    },
+    {
+      "name": "Columbia Zen Buddhist Priory",
+      "city": "Columbia",
+      "region": "South Carolina",
+      "lineage": "Sōtō (OBC, Serene Reflection / Jiyu-Kennett)",
+      "address": "Columbia, SC",
+      "url": "http://columbiazen.org/",
+      "source_url": "https://berkeleybuddhistpriory.org/obc-links/",
+      "notes": "OBC priory; Reverend Master Rokuzan Kroenke."
+    },
+    {
+      "name": "Genkai-ji Zen Center",
+      "city": "Nashville",
+      "region": "Tennessee",
+      "lineage": "Rinzai (Rinzai-ji / Joshu Sasaki)",
+      "address": "Tennessee",
+      "url": "https://tnzen.org/",
+      "source_url": "https://www.rinzaiji.org/affiliated-centers/",
+      "notes": "Rinzai-ji affiliate."
+    },
+    {
+      "name": "Appamada",
+      "city": "Austin",
+      "region": "Texas",
+      "lineage": "Sōtō (SZBA)",
+      "address": "Austin, TX 78705",
+      "url": "https://appamada.org/",
+      "source_url": "https://www.szba.org/zen-centers-by-state",
+      "notes": "SZBA member."
+    },
+    {
+      "name": "Austin Zen Center / Zenkeiji",
+      "city": "Austin",
+      "region": "Texas",
+      "lineage": "Sōtō (SFZC affiliate)",
+      "address": "Austin, TX 78705",
+      "url": "https://austinzencenter.org/",
+      "source_url": "https://www.szba.org/zen-centers-by-state",
+      "notes": "SFZC Suzuki Roshi lineage."
+    },
+    {
+      "name": "Houston Zen Center / Shounji",
+      "city": "Houston",
+      "region": "Texas",
+      "lineage": "Sōtō (SFZC affiliate)",
+      "address": "Houston, TX 77008",
+      "url": "https://houstonzen.org/",
+      "source_url": "https://www.szba.org/zen-centers-by-state",
+      "notes": "SFZC affiliate; Gaelyn Godwin."
+    },
+    {
+      "name": "San Antonio Zen Center",
+      "city": "San Antonio",
+      "region": "Texas",
+      "lineage": "Sōtō (SZBA)",
+      "address": "San Antonio, TX 78212",
+      "url": "https://sanantoniozencenter.org/",
+      "source_url": "https://www.szba.org/zen-centers-by-state",
+      "notes": "SZBA member."
+    },
+    {
+      "name": "Hidden Mountain Zendo",
+      "city": "Houston",
+      "region": "Texas",
+      "lineage": "White Plum (Maezumi lineage)",
+      "address": "Houston, TX",
+      "url": "https://hiddenmountainzendo.org/",
+      "source_url": "https://whiteplum.org/membership-map/",
+      "notes": "White Plum Asanga; teacher Eric Kishin Arbiter."
+    },
+    {
+      "name": "Living Water Zen Community",
+      "city": "Austin",
+      "region": "Texas",
+      "lineage": "White Plum (Maezumi lineage)",
+      "address": "Austin, TX",
+      "url": "https://livingwaterzen.com/",
+      "source_url": "https://whiteplum.org/membership-list-public/",
+      "notes": "White Plum Asanga; teacher Cuca Kosen Montecel."
+    },
+    {
+      "name": "Chùa Linh-Sơn Austin",
+      "city": "Austin",
+      "region": "Texas",
+      "lineage": "Vietnamese Thiền (Linh Son network)",
+      "address": "4604 Duval Rd, Austin, TX",
+      "url": "http://www.linhsonaustin.org/",
+      "source_url": "https://en.wikipedia.org/wiki/Chua_Linh-Son_Buddhist_Temple",
+      "notes": "Vietnamese Thiền temple."
+    },
+    {
+      "name": "Linh Son Temple Dickinson",
+      "city": "Dickinson",
+      "region": "Texas",
+      "lineage": "Vietnamese Thiền (Linh Son network)",
+      "address": "1334 FM 646 Rd, Dickinson, TX 77539",
+      "url": "https://www.linhsondickinson.org/",
+      "source_url": "https://www.linhsondickinson.org/",
+      "notes": "Vietnamese Thiền temple in Galveston County."
+    },
+    {
+      "name": "Two Arrows Zen",
+      "city": "Salt Lake City",
+      "region": "Utah",
+      "lineage": "White Plum (Maezumi lineage)",
+      "address": "Salt Lake City, UT 84101",
+      "url": "https://twoarrowszen.org/",
+      "source_url": "https://www.szba.org/zen-centers-by-state",
+      "notes": "White Plum / SZBA; teachers Diane Musho Hamilton, Michael Mugaku Zimmerman."
+    },
+    {
+      "name": "Bread Loaf Mountain Zen Community",
+      "city": "Cornwall",
+      "region": "Vermont",
+      "lineage": "White Plum (Maezumi lineage)",
+      "address": "Cornwall, VT 05753",
+      "url": "https://breadloafmountainzen.org/",
+      "source_url": "https://whiteplum.org/membership-map/",
+      "notes": "White Plum Asanga; teachers Brian Joshin Byrnes, Peggy Genshin Kendo Murray, Eishō Sinclair."
+    },
+    {
+      "name": "Shao Shan Temple",
+      "city": "East Calais",
+      "region": "Vermont",
+      "lineage": "Sōtō (Sōtōshū North America)",
+      "address": "East Calais, VT 05650",
+      "url": "https://www.shaoshantemple.org/",
+      "source_url": "https://www.sotozen.com/eng/temples/outside_jp/America/",
+      "notes": "Soto Zen temple; Taihaku Priest."
+    },
+    {
+      "name": "Upper Valley Zen Center",
+      "city": "White River Junction",
+      "region": "Vermont",
+      "lineage": "Rinzai (Rinzai-ji / Joshu Sasaki)",
+      "address": "White River Junction, VT",
+      "url": "https://uvzc.org/",
+      "source_url": "https://www.rinzaiji.org/affiliated-centers/",
+      "notes": "Rinzai-ji affiliate."
+    },
+    {
+      "name": "New England Council Collective",
+      "city": "Putney",
+      "region": "Vermont",
+      "lineage": "Zen Peacemakers",
+      "address": "Putney, VT",
+      "url": "https://newenglandcouncilcollective.org/",
+      "source_url": "https://zenpeacemakers.org/membership/affiliate-network/",
+      "notes": "Zen Peacemakers affiliate."
+    },
+    {
+      "name": "Dassanāya Buddhist Community",
+      "city": "Alexandria",
+      "region": "Virginia",
+      "lineage": "Sōtō (SZBA)",
+      "address": "Alexandria, VA 22302",
+      "url": "https://dassanaya.org/",
+      "source_url": "https://www.szba.org/zen-centers-by-state",
+      "notes": "SZBA member."
+    },
+    {
+      "name": "Deep Ocean Zendo",
+      "city": "Virginia Beach",
+      "region": "Virginia",
+      "lineage": "Sōtō / Zen Peacemakers",
+      "address": "Virginia Beach, VA 23455",
+      "url": "https://deepoceanzendo.org/",
+      "source_url": "https://www.szba.org/zen-centers-by-state",
+      "notes": "SZBA member; Zen Peacemakers affiliate."
+    },
+    {
+      "name": "New River Zen Community",
+      "city": "Blacksburg",
+      "region": "Virginia",
+      "lineage": "White Plum (Maezumi lineage)",
+      "address": "Blacksburg, VA",
+      "url": "https://newriverzen.org/",
+      "source_url": "https://whiteplum.org/membership-map/",
+      "notes": "White Plum Asanga; teachers Charles Shinkai Birx and Ellen Jikai Birx."
+    },
+    {
+      "name": "Clear Springs Sangha",
+      "city": "Charlottesville",
+      "region": "Virginia",
+      "lineage": "Diamond Sangha (Aitken)",
+      "address": "Charlottesville, VA",
+      "url": "https://clearspringzen.org/",
+      "source_url": "https://diamondsangha.org/resources-2/links/",
+      "notes": "Diamond Sangha affiliate."
+    },
+    {
+      "name": "Blue Ridge Zen Group",
+      "city": "Charlottesville",
+      "region": "Virginia",
+      "lineage": "Rinzai (Rinzai-ji / Joshu Sasaki)",
+      "address": "Charlottesville, VA",
+      "url": "https://brzen.org/",
+      "source_url": "https://www.rinzaiji.org/affiliated-centers/",
+      "notes": "Rinzai-ji affiliate."
+    },
+    {
+      "name": "Joyous Refuge",
+      "city": "Port Angeles",
+      "region": "Washington",
+      "lineage": "Sōtō (SZBA)",
+      "address": "Port Angeles, WA",
+      "url": "https://joyousrefuge.org/",
+      "source_url": "https://www.szba.org/zen-centers-by-state",
+      "notes": "SZBA member."
+    },
+    {
+      "name": "Olympia Zen Center / Ryoko-an",
+      "city": "Olympia",
+      "region": "Washington",
+      "lineage": "Sōtō (Sōtōshū North America)",
+      "address": "Olympia, WA 98506",
+      "url": "https://www.olympiazencenter.org/",
+      "source_url": "https://www.sotozen.com/eng/temples/outside_jp/America/",
+      "notes": "Soto Zen center."
+    },
+    {
+      "name": "Red Cedar Zen Community",
+      "city": "Bellingham",
+      "region": "Washington",
+      "lineage": "Sōtō (SZBA)",
+      "address": "Bellingham, WA 98225",
+      "url": "https://redcedarzen.org/",
+      "source_url": "https://www.szba.org/zen-centers-by-state",
+      "notes": "SZBA member."
+    },
+    {
+      "name": "Seattle Soto Zen",
+      "city": "Seattle",
+      "region": "Washington",
+      "lineage": "Sōtō (SZBA)",
+      "address": "Seattle, WA 98109",
+      "url": "https://seattlesotozen.org/",
+      "source_url": "https://www.szba.org/zen-centers-by-state",
+      "notes": "SZBA member."
+    },
+    {
+      "name": "Three Treasures Sangha",
+      "city": "Seattle",
+      "region": "Washington",
+      "lineage": "Diamond Sangha (Aitken)",
+      "address": "Seattle, WA",
+      "url": "https://three-treasures-sangha.org/",
+      "source_url": "https://diamondsangha.org/resources-2/links/",
+      "notes": "Diamond Sangha affiliate."
+    },
+    {
+      "name": "Mountain Lamp",
+      "city": "Deming",
+      "region": "Washington",
+      "lineage": "Diamond Sangha (Aitken)",
+      "address": "Deming, WA",
+      "url": "https://mountainlamp.org/",
+      "source_url": "https://diamondsangha.org/resources-2/links/",
+      "notes": "Diamond Sangha retreat center."
+    },
+    {
+      "name": "Zen Center of Spokane",
+      "city": "Spokane",
+      "region": "Washington",
+      "lineage": "Diamond Sangha (Aitken)",
+      "address": "Spokane, WA",
+      "url": "https://zencenterspokane.org/",
+      "source_url": "https://diamondsangha.org/resources-2/links/",
+      "notes": "Diamond Sangha affiliate."
+    },
+    {
+      "name": "No Sangha",
+      "city": "Port Angeles",
+      "region": "Washington",
+      "lineage": "Diamond Sangha (Aitken)",
+      "address": "Port Angeles, WA",
+      "url": "https://nosangha.org/",
+      "source_url": "https://diamondsangha.org/resources-2/links/",
+      "notes": "Diamond Sangha affiliate."
+    },
+    {
+      "name": "Ocean Light Zen Center",
+      "city": "Seattle",
+      "region": "Washington",
+      "lineage": "Kwan Um (Korean Seon)",
+      "address": "Seattle, WA",
+      "url": "https://oceanlightzen.org/",
+      "source_url": "https://americas.kwanumzen.org/zen-centers",
+      "notes": "Kwan Um affiliate."
+    },
+    {
+      "name": "Trikaya Zen Center",
+      "city": "Seattle",
+      "region": "Washington",
+      "lineage": "White Plum (Maezumi lineage)",
+      "address": "Seattle, WA",
+      "url": "https://trikayazencenter.org/",
+      "source_url": "https://whiteplum.org/membership-list-public/",
+      "notes": "White Plum Asanga; teacher Rich Taido Christofferson."
+    },
+    {
+      "name": "Banyan Dharma House",
+      "city": "Bellingham",
+      "region": "Washington",
+      "lineage": "White Plum (Maezumi lineage)",
+      "address": "Bellingham, WA",
+      "url": "https://whiteplum.org/membership-list-public/user/443",
+      "source_url": "https://whiteplum.org/membership-list-public/",
+      "notes": "White Plum Asanga; teacher Jeana Teiju Moore."
+    },
+    {
+      "name": "Tahoma One Drop Zen Monastery",
+      "city": "Freeland",
+      "region": "Washington",
+      "lineage": "Rinzai (One Drop Zen / Shodo Harada)",
+      "address": "Whidbey Island, Freeland, WA",
+      "url": "https://www.tahomazenmonastery.com/",
+      "source_url": "https://onedropzen.net/",
+      "notes": "Shodo Harada Roshi US training monastery."
+    },
+    {
+      "name": "Entsu-an Zen",
+      "city": "Bainbridge Island",
+      "region": "Washington",
+      "lineage": "Rinzai (Rinzai-ji / Joshu Sasaki)",
+      "address": "Bainbridge Island, WA",
+      "url": "https://entsuan-zen.org/",
+      "source_url": "https://www.rinzaiji.org/affiliated-centers/",
+      "notes": "Rinzai-ji affiliate."
+    },
+    {
+      "name": "Dai Bai Zan Cho Bo Zen Ji",
+      "city": "Seattle",
+      "region": "Washington",
+      "lineage": "Rinzai (Genjo Marinello / Choboji)",
+      "address": "Seattle, WA",
+      "url": "https://choboji.org/",
+      "source_url": "https://zenpeacemakers.org/membership/affiliate-network/",
+      "notes": "Rinzai temple; Zen Peacemakers affiliate."
+    },
+    {
+      "name": "Interfaith Enlightenment Center",
+      "city": "Seattle",
+      "region": "Washington",
+      "lineage": "Zen Peacemakers",
+      "address": "Seattle, WA",
+      "url": "https://interfaithenlightenment.org/",
+      "source_url": "https://zenpeacemakers.org/membership/affiliate-network/",
+      "notes": "Zen Peacemakers affiliate."
+    },
+    {
+      "name": "Mt. Adams Zen Buddhist Temple",
+      "city": "Trout Lake",
+      "region": "Washington",
+      "lineage": "Vietnamese Thiền + Northern Chan",
+      "address": "Trout Lake, WA",
+      "url": "https://mtadamsbuddhisttemple.org/",
+      "source_url": "https://mtadamsbuddhisttemple.org/",
+      "notes": "Country temple offering Vietnamese Thien and Chinese Chan."
+    },
+    {
+      "name": "Southern West Virginia Zen Group",
+      "city": "Lewisburg",
+      "region": "West Virginia",
+      "lineage": "White Plum (Maezumi lineage)",
+      "address": "Lewisburg, WV",
+      "url": "https://southernwvzen.org/",
+      "source_url": "https://whiteplum.org/membership-list-public/",
+      "notes": "White Plum Asanga; teacher Jenny Yuan Shan Boyd."
+    },
+    {
+      "name": "Boundless Sky Temple",
+      "city": "Beldenville",
+      "region": "Wisconsin",
+      "lineage": "Sōtō (SZBA)",
+      "address": "Beldenville, WI 54003",
+      "url": "https://boundlessskytemple.org/",
+      "source_url": "https://www.szba.org/zen-centers-by-state",
+      "notes": "SZBA member."
+    },
+    {
+      "name": "Milwaukee Zen Center / Kokyo-an",
+      "city": "Milwaukee",
+      "region": "Wisconsin",
+      "lineage": "Sōtō (Katagiri lineage)",
+      "address": "Milwaukee, WI 53211",
+      "url": "http://mkzen.org/",
+      "source_url": "https://www.szba.org/zen-centers-by-state",
+      "notes": "Soto Zen center."
+    },
+    {
+      "name": "Great Lake Zen Center",
+      "city": "Wauwatosa",
+      "region": "Wisconsin",
+      "lineage": "Kwan Um (Korean Seon)",
+      "address": "Wauwatosa, WI",
+      "url": "https://glzc.org/",
+      "source_url": "https://americas.kwanumzen.org/zen-centers",
+      "notes": "Kwan Um affiliate."
+    },
+    {
+      "name": "Isthmus Zen Community",
+      "city": "Madison",
+      "region": "Wisconsin",
+      "lineage": "Kwan Um (Korean Seon)",
+      "address": "Madison, WI",
+      "url": "https://isthmuszencommunity.org/",
+      "source_url": "https://americas.kwanumzen.org/zen-centers",
+      "notes": "Kwan Um affiliate."
+    },
+    {
+      "name": "Great Plains Zen Center",
+      "city": "Monroe",
+      "region": "Wisconsin",
+      "lineage": "White Plum (Maezumi lineage)",
+      "address": "Monroe, WI",
+      "url": "https://greatplainszen.org/",
+      "source_url": "https://whiteplum.org/membership-map/",
+      "notes": "White Plum Asanga; teacher Susan Myoyu Andersen."
+    },
+    {
+      "name": "Korinji Monastery",
+      "city": "Madison",
+      "region": "Wisconsin",
+      "lineage": "Rinzai (Daiyuzenji lineage)",
+      "address": "near Madison, WI",
+      "url": "https://www.korinji.org/",
+      "source_url": "https://en.wikipedia.org/wiki/Zen_in_the_United_States",
+      "notes": "Rinzai monastery in southwestern Wisconsin."
+    },
+    {
+      "name": "Twining Vines Zen (Baraboo)",
+      "city": "Baraboo",
+      "region": "Wisconsin",
+      "lineage": "Hollow Bones / Rinzai (Junpo Roshi lineage)",
+      "address": "Baraboo, WI",
+      "url": "https://twiningvinessangha.com/",
+      "source_url": "https://hollowboneszen.org/",
+      "notes": "Hollow Bones Zen Order in-person sangha."
+    },
+    {
+      "name": "Green Bay Zen Center",
+      "city": "Green Bay",
+      "region": "Wisconsin",
+      "lineage": "Hollow Bones / Rinzai (Junpo Roshi lineage)",
+      "address": "Green Bay, WI",
+      "url": "https://greenbayzencenter.org/",
+      "source_url": "https://greenbayzencenter.org/hollow-bones-order/",
+      "notes": "Hollow Bones Zen Order affiliate."
+    }
+  ]
+}

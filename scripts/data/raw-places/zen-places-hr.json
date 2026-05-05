@@ -1,0 +1,35 @@
+{
+  "_meta": {
+    "country": "Croatia",
+    "collectedAt": "2026-05-05",
+    "method": "Web search of Mokusho Zen House network and Dharmaloka / chan.hr",
+    "coverageEstimate": "~80% of active Croatian Zen/Chan practice (small national footprint)",
+    "knownGaps": [
+      "Mokusho Zen Dojo Zagreb founded by Monk Myoken — historical reference clear but current operating address not published online; included pending verification",
+      "No verified Plum Village Croatia lay sangha with stable URL",
+      "No active Kwan Um Croatia center on kwanumeurope.org"
+    ]
+  },
+  "places": [
+    {
+      "name": "Chan Retreat Center Hartovski Vrh (Dharmaloka)",
+      "city": "Žumberak (near Zagreb)",
+      "region": "Zagreb County",
+      "lineage": "Chinese Chan (Sheng Yen / Dharma Drum line)",
+      "address": "Hartovski Vrh, Žumberak Nature Park",
+      "url": "https://chan.hr/en/",
+      "source_url": "https://chan.hr/en/about-us/",
+      "notes": "Residential Chan/Zen retreat center founded 2019 by Žarko Andričević, Dharma heir of Master Sheng Yen. Hosts Dharmaloka community."
+    },
+    {
+      "name": "Mokusho Zen Dojo Zagreb",
+      "city": "Zagreb",
+      "region": "Grad Zagreb",
+      "lineage": "Sōtō Zen (Deshimaru-Zeisler line)",
+      "address": null,
+      "url": "https://www.mokushozen.hu/en/",
+      "source_url": "https://www.mokushozen.hu/en/sample-page/mokusho-myoken/",
+      "notes": "Founded by Monk Myoken (also founder of Bucharest Mokusho dojo). Eastern European Mokusho Zen network branch."
+    }
+  ]
+}

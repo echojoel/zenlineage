@@ -1,0 +1,34 @@
+{
+  "_meta": {
+    "country": "Greece",
+    "collectedAt": "2026-05-05",
+    "method": "Web search of organisation websites and Plum Village/Soto Zen directories",
+    "coverageEstimate": "~80% of publicly listed Zen sanghas; small Plum Village lay sanghas may be missed",
+    "knownGaps": [
+      "Sangha Anapnoes / Athens Plum Village lay sangha — referenced anecdotally but no live website found",
+      "Possible smaller AZI-affiliated dojos not listed on AZI directory"
+    ]
+  },
+  "places": [
+    {
+      "name": "Zen Center Athens (Saikenji)",
+      "city": "Αθήνα (Athens)",
+      "region": "Attica",
+      "lineage": "Sōtō Zen (Koten Roshi line)",
+      "address": "Agisilaou 76-80, Athens",
+      "url": "https://www.zencenterathens.com/en/",
+      "source_url": "https://www.zencenterathens.com/en/kentro-zen/our-space/",
+      "notes": "Founded 2013 by Konstantinos Sgoubopoulos, dharma heir of Koten Roshi. Moved to permanent Saikenji Temple location December 2024."
+    },
+    {
+      "name": "Tao's Center",
+      "city": "Νάουσα (Naoussa), Πάρος (Paros)",
+      "region": "South Aegean",
+      "lineage": "Sōtō Zen (Nishijima line) / Korean Zen (Seung Sahn line)",
+      "address": "Northern Paros, between Naoussa and Ambelas",
+      "url": "https://taos-greece.com/",
+      "source_url": "https://en.wikipedia.org/wiki/Nissim_Amon",
+      "notes": "Founded 2001 by Sōtō Zen master Nissim Amon (Dharma transmission from Gudo Wafu Nishijima; previously ordained by Seung Sahn). Retreat and meditation center."
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "_meta": {
+    "country": "Malaysia",
+    "collectedAt": "2026-05-05",
+    "method": "Web research on Dharma Drum Malaysia, Plum Village Malaysia retreats, Soto Zen / Sotoshu directory for Malaysia.",
+    "coverageEstimate": "Medium. Malaysia has many Mahayana temples but few that practice zazen/Chan in a sustained way; we list the institutional Chan/Zen ones.",
+    "knownGaps": [
+      "No standing Plum Village monastery in Malaysia; retreats are co-organized with Singapore Sangha and Thai Plum Village.",
+      "Bodhiyana retreat reference in source brief not verified to a current organizational URL.",
+      "Smaller Sanbo Zen / Rinzai lay groups not located via sourced URLs."
+    ]
+  },
+  "places": [
+    {
+      "name": "Dharma Drum Mountain Malaysia Centre",
+      "city": "Petaling Jaya / Kwasa Damansara",
+      "region": "Selangor",
+      "lineage": "Chan / Sheng-yen (Dharma Drum Mountain)",
+      "address": "Near Kwasa Damansara MRT Station, Selangor, Malaysia",
+      "url": "https://ddmmy.org/",
+      "source_url": "https://ddmmy.org/new-dharma-drum-mountain-malaysia-centre/",
+      "notes": "Malaysian branch of Dharma Drum Mountain; new five-story centre with meditation hall and rooftop walking-meditation space, 30 minutes from KL."
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "_meta": {
+    "country": "Serbia",
+    "collectedAt": "2026-05-05",
+    "method": "Web search of social-media-based Zen groups and Buddhist directories",
+    "coverageEstimate": "~70% of active Belgrade Zen practice",
+    "knownGaps": [
+      "Zen Centar Beograd appears active on Facebook but has no standalone website — included with Facebook URL",
+      "No verified Plum Village Serbia lay sangha with stable URL",
+      "No active Kwan Um Serbia center on kwanumeurope.org"
+    ]
+  },
+  "places": [
+    {
+      "name": "Zen Centar Beograd",
+      "city": "Београд (Belgrade)",
+      "region": "Belgrade",
+      "lineage": "Zen (lineage not specified publicly)",
+      "address": "Sremska 9, Belgrade",
+      "url": "https://www.facebook.com/p/Zen-Centar-Beograd-100064712765042/",
+      "source_url": "https://www.facebook.com/p/Zen-Centar-Beograd-100064712765042/",
+      "notes": "Active Belgrade Zen group. Self-description: 'sit, walk, be what you are.' Phone +381 64 0762604."
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "_meta": {
+    "country": "Hong Kong",
+    "collectedAt": "2026-05-05",
+    "method": "Web research on major Chan/Zen institutions with HK presence: Plum Village (AIAB), Dharma Drum HK, Chung Tai HK.",
+    "coverageEstimate": "High for institutional Chan/Zen practice centers. Lower for smaller lay sanghas.",
+    "knownGaps": [
+      "Smaller Plum Village lay sanghas in Hong Kong not enumerated.",
+      "Fo Guang Shan HK branches may exist but not separately verified."
+    ]
+  },
+  "places": [
+    {
+      "name": "Asian Institute of Applied Buddhism (AIAB) – Lotus Pond Temple",
+      "city": "Lantau Island",
+      "region": "Ngong Ping",
+      "lineage": "Plum Village / Vietnamese Thien (Thich Nhat Hanh)",
+      "address": "Lotus Pond Temple, Ngong Ping, Lantau Island, Hong Kong",
+      "url": "https://www.pvfhk.org/",
+      "source_url": "https://plumvillage.org/practice-centre/aiab-3",
+      "notes": "Plum Village monastic practice center for Asia, founded by Thich Nhat Hanh; resident monks and nuns lead retreats."
+    },
+    {
+      "name": "Dharma Drum Mountain Hong Kong Centre",
+      "city": "Hong Kong",
+      "region": "Kowloon (Lai Chi Kok)",
+      "lineage": "Chan / Sheng-yen (Dharma Drum Mountain)",
+      "address": "Room 205, 2/F, Block B, Alexandra Industrial Building, 23-27 Wing Hong Street, Lai Chi Kok, Kowloon, Hong Kong",
+      "url": "https://www.ddmhk.org.hk/",
+      "source_url": "http://www.chancenter.org/chanctr/alinks.html",
+      "notes": "Hong Kong branch of Dharma Drum Mountain; offers regular Chan meditation classes and Sheng-yen teachings."
+    },
+    {
+      "name": "Pu Guang Meditation Center (Chung Tai HK)",
+      "city": "Hong Kong",
+      "region": "Wanchai",
+      "lineage": "Chan / Linji (Chung Tai Shan)",
+      "address": "G/F, Kingstown Mansion, 319-323 Jaffe Rd., Wanchai, Hong Kong",
+      "url": "https://www.ctworld.org/",
+      "source_url": "https://www.ctworld.org.tw/english-96/html/03_Centers.html",
+      "notes": "Hong Kong branch meditation center of Chung Tai Chan Monastery."
+    }
+  ]
+}

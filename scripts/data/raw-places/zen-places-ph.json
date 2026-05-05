@@ -1,0 +1,75 @@
+{
+  "_meta": {
+    "country": "Philippines",
+    "collectedAt": "2026-05-05",
+    "method": "Web research on Sanbo Zen lineage in the Philippines (Zen Center Manila and affiliates) and Chung Tai Philippines branch.",
+    "coverageEstimate": "Medium-high for the Sanbo Zen lineage centers (Manila, Baguio, Iloilo, Cotabato, Davao). Adequate coverage of the Chung Tai institutional branch.",
+    "knownGaps": [
+      "Holy Mountain Zen Center referenced in brief not verified to a current independent URL; the Mountain Sangha / Baguio Zen Center may be its successor.",
+      "Plum Village Philippines lay sanghas not enumerated with separate URLs.",
+      "No Sotoshu-listed Soto Zen temple in the Philippines found in official directory."
+    ]
+  },
+  "places": [
+    {
+      "name": "Zen Center Manila (Heroes Hill Zendo)",
+      "city": "Quezon City",
+      "region": "Metro Manila",
+      "lineage": "Sanbo Zen (Sanbo Kyodan)",
+      "address": "Heroes Hill, Quezon City, Metro Manila, Philippines",
+      "url": "https://zencentermanila.wordpress.com/",
+      "source_url": "https://zencentermanila.wordpress.com/a-brief-zen-history/",
+      "notes": "Sanbo Zen lineage center founded by Sr. Elaine MacInnes OLM with Yamada Koun Roshi (1976); regular Zazenkai at Heroes Hill Zendo."
+    },
+    {
+      "name": "Baguio Zen Center (Mountain Sangha)",
+      "city": "Baguio City",
+      "region": "Benguet / Cordillera",
+      "lineage": "Sanbo Zen (Sanbo Kyodan)",
+      "address": null,
+      "url": "https://baguiozencenter.wordpress.com/",
+      "source_url": "https://baguiozencenter.wordpress.com/zen-in-the-philippines/",
+      "notes": "Mountain Sangha affiliate of the Zen Center Philippines / Sanbo Zen lineage in Baguio."
+    },
+    {
+      "name": "Zen Philippines (Zen Center of Oriental Spirituality)",
+      "city": "Manila",
+      "region": "Metro Manila",
+      "lineage": "Sanbo Zen (Sanbo Kyodan)",
+      "address": null,
+      "url": "https://www.zenphilippines.org.ph/",
+      "source_url": "https://www.zenphilippines.org.ph/about-us",
+      "notes": "Founding Sanbo Zen sangha in the Philippines (1976) under Sr. Elaine MacInnes / Yamada Koun Roshi lineage; community of zen practitioners."
+    },
+    {
+      "name": "Iloilo Zen Center",
+      "city": "Iloilo City",
+      "region": "Western Visayas",
+      "lineage": "Sanbo Zen (Sanbo Kyodan)",
+      "address": null,
+      "url": "https://zencentermanila.wordpress.com/",
+      "source_url": "https://zencentermanila.wordpress.com/a-brief-zen-history/",
+      "notes": "Sanbo Zen affiliate consolidated under Zen Center Manila by Elda Paz Perez, 2014."
+    },
+    {
+      "name": "Davao Zen Center",
+      "city": "Davao City",
+      "region": "Davao Region",
+      "lineage": "Sanbo Zen (Sanbo Kyodan)",
+      "address": null,
+      "url": "https://zencentermanila.wordpress.com/",
+      "source_url": "https://zencentermanila.wordpress.com/a-brief-zen-history/",
+      "notes": "Sanbo Zen affiliate consolidated under Zen Center Manila by Elda Paz Perez, 2014."
+    },
+    {
+      "name": "Ocean Sky Chan Monastery (Chung Tai Philippines)",
+      "city": "San Juan",
+      "region": "Metro Manila",
+      "lineage": "Chan / Linji (Chung Tai Shan)",
+      "address": "716 Jose Abad Santos St., Little Baguio, San Juan, Metro Manila, Philippines",
+      "url": "https://www.ctworld.org/",
+      "source_url": "https://www.ctworld.org.tw/english-96/html/03_Centers.html",
+      "notes": "Philippine branch monastery of Chung Tai Chan; full Chan meditation curriculum."
+    }
+  ]
+}

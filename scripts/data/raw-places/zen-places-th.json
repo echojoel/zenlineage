@@ -1,0 +1,34 @@
+{
+  "_meta": {
+    "country": "Thailand",
+    "collectedAt": "2026-05-05",
+    "method": "Web research on Thai Plum Village (Pak Chong) and Chung Tai Thailand branch.",
+    "coverageEstimate": "Medium-high for institutional Zen / Chan presence; Thai Buddhism is overwhelmingly Theravada, so standing Zen sites are few.",
+    "knownGaps": [
+      "Soto Zen Thailand (Tokuun Tasaki line) referenced in brief not located via sourced URL.",
+      "Wat Prap Pra Yoon Plum Village reference in brief is dated; Thai Plum Village is the official Plum Village monastery in Thailand."
+    ]
+  },
+  "places": [
+    {
+      "name": "Thai Plum Village International Practice Center",
+      "city": "Pak Chong",
+      "region": "Nakhon Ratchasima Province",
+      "lineage": "Plum Village / Vietnamese Thien (Thich Nhat Hanh)",
+      "address": "Ban Sra Nam Sai, Moo 7, Tambon Pongtalong, Pak Chong District, Nakhon Ratchasima, Thailand",
+      "url": "https://www.thaiplumvillage.org/",
+      "source_url": "https://plumvillage.org/practice-centre/plum-village-thailand",
+      "notes": "Plum Village monastery founded 2008; current campus near Khao Yai National Park since 2013, ~240 km NE of Bangkok. Trilingual programs (Vietnamese/English/Thai)."
+    },
+    {
+      "name": "Great Buddha Monastery (Chung Tai Thailand)",
+      "city": "Bangkok",
+      "region": "Huai Khwang",
+      "lineage": "Chan / Linji (Chung Tai Shan)",
+      "address": "91 Soi Praram 9 Hospital, Rama 9 Road, Bangkapi, Huai Khwang, Bangkok 10310, Thailand",
+      "url": "https://www.ctworld.org/",
+      "source_url": "https://www.ctworld.org.tw/english-96/html/03_Centers.html",
+      "notes": "Thai branch monastery of Chung Tai Chan Monastery."
+    }
+  ]
+}

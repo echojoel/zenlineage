@@ -1,0 +1,44 @@
+{
+  "_meta": {
+    "country": "Lithuania",
+    "collectedAt": "2026-05-05",
+    "method": "Web search of Kwan Um Europe directory (kwanumeurope.org) and zen.lt",
+    "coverageEstimate": "~95% of Kwan Um Lithuania (the dominant Zen lineage in the country)",
+    "knownGaps": [
+      "No active Plum Village Lithuania sangha verified",
+      "No active AZI / Sōtō dojo verified in Lithuania"
+    ]
+  },
+  "places": [
+    {
+      "name": "Vilnius Zen Center – Ko Bong Sa",
+      "city": "Vilnius",
+      "region": "Vilnius County",
+      "lineage": "Korean Zen (Kwan Um School)",
+      "address": null,
+      "url": "https://www.zen.lt/",
+      "source_url": "https://www.kwanumeurope.org/locations/vilnius-zen-center-ko-bong-sa/",
+      "notes": "Main Kwan Um center in Lithuania; affiliated with Kwan Um School of Zen Europe."
+    },
+    {
+      "name": "Kaunas Zen Center",
+      "city": "Kaunas",
+      "region": "Kaunas County",
+      "lineage": "Korean Zen (Kwan Um School)",
+      "address": null,
+      "url": "https://www.zen.lt/",
+      "source_url": "https://www.kwanumeurope.org/centers-groups/zen-centers-groups-by-name/",
+      "notes": "Kwan Um Lithuania regional center."
+    },
+    {
+      "name": "Šakiai Zen Center",
+      "city": "Šakiai",
+      "region": "Marijampolė County",
+      "lineage": "Korean Zen (Kwan Um School)",
+      "address": null,
+      "url": "https://www.zen.lt/",
+      "source_url": "https://www.kwanumeurope.org/centers-groups/zen-centers-groups-by-name/",
+      "notes": "Smaller Kwan Um center in southwestern Lithuania."
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "_meta": {
+    "country": "Romania",
+    "collectedAt": "2026-05-05",
+    "method": "Web search of Mokusho Zen House Romania directory and Plum Village resources",
+    "coverageEstimate": "~85% of active Romanian Zen dojos",
+    "knownGaps": [
+      "Plum Village Romania lay sanghas — possibly active but not on plumline.org with stable URL",
+      "Smaller AZI-affiliated groups in Cluj or Iași not consistently listed"
+    ]
+  },
+  "places": [
+    {
+      "name": "Mokushozen-ji (Mokusho Zen House București)",
+      "city": "București (Bucharest)",
+      "region": "Municipiul București",
+      "lineage": "Sōtō Zen (Deshimaru-Zeisler line)",
+      "address": "Str. Complexului 2A, sector 3 (Dristor)",
+      "url": "https://mokushozen.ro/",
+      "source_url": "https://mokushozen.ro/dojoEn.html",
+      "notes": "First Eastern European Zen dojo (1993), founded by Monk Myoken. Named 'Temple of Silent Illumination Zen.' Daily zazen, eight sessions per week."
+    },
+    {
+      "name": "Mokusho Zen Dojo Brașov",
+      "city": "Brașov",
+      "region": "Brașov County",
+      "lineage": "Sōtō Zen (Deshimaru-Zeisler line)",
+      "address": "Aleea Lăcrămioarelor 7A, Bl. 8, Sc. D, Ap. 22",
+      "url": "https://mokushozen.ro/",
+      "source_url": "https://mokushozen.ro/dojoEn.html",
+      "notes": "Branch of Mokusho Zen House Romania. Morning and evening zazen sessions weekly."
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "_meta": {
+    "country": "Mexico",
+    "collectedAt": "2026-05-05",
+    "method": "Cross-referenced Soto Zen Buddhist Association directory (szba.org), Centro Zen de México site (sites.google.com/site/czenmx), Zen México (Kosen Sangha — zenmexico.org), Asociación Budista Zen Deshimaru dojo list (zen-deshimaru.com), Mar de Jade retreat centre listing, Casa Zen México social presence, plus the Plum Village Latin America tour records. Each entry verified against an official lineage organisation or the centre's own site.",
+    "coverageEstimate": "Medium-high (~70%) for organised Zen sanghas with a website. Strong coverage of White Plum (Maezumi/Tesshin) lineage, Kosen/Deshimaru dojos, and Mar de Jade retreats. Plum Village home sanghas, Dharma Sangha (Baker Roshi) Cuernavaca and Dhammapada-Xochimilco group included where sites confirm. Ejo Takata's Rinzai zazenkai legacy survives only as informal groups and is not separately listed.",
+    "knownGaps": [
+      "Ejo Takata zazenkai (Rinzai legacy in CDMX) has no current standalone website",
+      "Several Plum Village home sanghas in Mexico City and Guadalajara not in plumline.org directory in a citable form",
+      "No active Kwan Um, Sanbō Zen International, or Ōbaku presence located as of 2026",
+      "Centro Zen del Escorpión Negro and Centro Zen Maezumi referenced in directories but lack verified current sites"
+    ]
+  },
+  "places": [
+    {
+      "name": "El Centro Zen de México, A.R.",
+      "city": "Ciudad de México",
+      "region": "Ciudad de México",
+      "lineage": "Sōtō / White Plum (Maezumi Rōshi → Tesshin Sanderson)",
+      "address": "Calle G Manzana XIII No. 18, Col. Educación, 04400 Ciudad de México, CDMX",
+      "url": "https://sites.google.com/site/czenmx/",
+      "source_url": "https://www.szba.org/el-centro-zen-de-mexico-ar",
+      "notes": "Established when Maezumi Rōshi sent senior disciple Tesshin Sanderson as Zen instructor in 1986; Tesshin received Dharma Transmission and was named Zen Master in 1991. SZBA-affiliated."
+    },
+    {
+      "name": "Dōjō Zen Mon Kō — Zen México",
+      "city": "Ciudad de México",
+      "region": "Ciudad de México",
+      "lineage": "Sōtō / Deshimaru (Kosen Sangha)",
+      "address": "Ingres 127, Col. Nonoalco, Alcaldía Benito Juárez, 03710 Ciudad de México, CDMX",
+      "url": "https://zenmexico.org/",
+      "source_url": "https://www.zen-deshimaru.com/en/dojos/mexico-zen-dojo",
+      "notes": "Main dōjō of the Zen México non-profit (Kosen Sangha / Taisen Deshimaru lineage)."
+    },
+    {
+      "name": "Grupo Zen Monterrey — Zen México",
+      "city": "Monterrey",
+      "region": "Nuevo León",
+      "lineage": "Sōtō / Deshimaru (Kosen Sangha)",
+      "address": "Ángela Peralta 142A, María Luisa, Centro, 64049 Monterrey, N.L.",
+      "url": "https://zenmexico.org/",
+      "source_url": "https://www.zen-deshimaru.com/es/dojos-zen",
+      "notes": "Monterrey practice group of the Kosen Sangha network."
+    },
+    {
+      "name": "Mar de Jade — Silent Zen Meditation Retreat Center",
+      "city": "Chacala",
+      "region": "Nayarit",
+      "lineage": "Sōtō / Chan (bilingual sesshin host; Laura del Valle)",
+      "address": "Chacala, Riviera Nayarit (90 min north of Puerto Vallarta), Mexico",
+      "url": "https://mardejade.com/",
+      "source_url": "https://mardejade.com/about/our-story/",
+      "notes": "Has hosted annual Zen and Chan sesshins for 30+ years; founded by long-time Zen practitioner Dr. Laura del Valle."
+    },
+    {
+      "name": "Casa Zen México",
+      "city": "Ciudad de México",
+      "region": "Ciudad de México",
+      "lineage": "Sōtō (lay Zen community, Coyoacán)",
+      "address": "Dr. Vértiz 1418, Col. Vértiz Narvarte, 03310 Ciudad de México, CDMX",
+      "url": "https://www.facebook.com/casazenmexico/",
+      "source_url": "https://www.facebook.com/casazenmexico/",
+      "notes": "Lay Zen practice community in Coyoacán. Primary online presence is Facebook."
+    },
+    {
+      "name": "Dharma Sangha México",
+      "city": "Cuernavaca",
+      "region": "Morelos",
+      "lineage": "Sōtō (Suzuki Rōshi → Richard Baker Rōshi lineage)",
+      "address": "Eulalio Pedroza 122, Cuernavaca, Morelos",
+      "url": "https://dharma-sangha.org/",
+      "source_url": "https://www.budismo.com/directorios/mexico.php",
+      "notes": "Mexican branch of Richard Baker Rōshi's Dharma Sangha (Crestone, CO / Johanneshof). Cuernavaca residential practice."
+    },
+    {
+      "name": "Dhammapada Budismo Zen — Dōjō Zen México",
+      "city": "Ciudad de México",
+      "region": "Ciudad de México (Xochimilco)",
+      "lineage": "Sōtō Zen (lay community)",
+      "address": null,
+      "url": "https://budismozen.org/mx1/",
+      "source_url": "https://budismozen.org/mx/seminario-meditacion-zen/",
+      "notes": "Weekly Zen practice and seminars open to public; located in Xochimilco, CDMX."
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "_meta": {
+    "country": "South Africa",
+    "collectedAt": "2026-05-05",
+    "method": "Compiled from primary org websites and directories: The Dharma Centre (dharmacentre.org.za, Robertson + Newlands Cape Town + Knysna; Heila Downey JDPSN, Korean Seon / formerly Kwan Um, now independent contemporary Zen lineage), StoepZen at Poplar Grove (stoepzen.co.za, Antony Osler — Korean Seon via Dae Gak / Furnace Mountain, Seung Sahn lineage), Born As The Earth Zen Academy / BEZA (bornastheearth.com, Cape Town, White Plum / MRO line via Daido / Ekan Nangaku), Jung Shim / Garden Route Zen Centre (jungshimzen.co.za + JungShimZen Facebook, Sedgefield), Buddhist Retreat Centre Ixopo (brcixopo.co.za, KZN — non-sectarian but historically the country's primary Zen retreat venue, hosts Stoep Zen + Dharma Centre retreats). Cross-referenced against Wikipedia (Buddhism in South Africa), BuddhaNet world directory, and Charl Hattingh's South African retreat directory. Plum Village Plumline / Mindfulness Bell directories were checked but no in-person SA sangha was independently verifiable as of collection date.",
+    "coverageEstimate": "Likely strong coverage (~85-95%) of formally-organised Zen practice in South Africa. The Zen scene is small and centred on Heila Downey's network (Dharma Centre + Knysna + historically the Kwan Um SA groups in Grahamstown, Johannesburg, Durban) plus Antony Osler's StoepZen and the BEZA Cape Town group. Older BuddhaNet listings (Bamboo Grove Grahamstown, Kwan Um Johannesburg/Durban contact addresses) are now absorbed into / superseded by the independent Dharma Centre network and so are not separately listed. Buddhist Retreat Centre Ixopo is included as a Zen-hosting retreat venue rather than a resident Zen sangha.",
+    "knownGaps": [
+      "No independently-verified active Plum Village (Thich Nhat Hanh / Wake Up) lay sangha in South Africa was found via Plumline / Mindfulness Bell directories at collection time; any informal SA sangha is omitted rather than assumed.",
+      "No verified Soto Zen Buddhist Association (SZBA) member temple in South Africa.",
+      "No verified Sanbo Zen International, Diamond Sangha, or Ordinary Mind Zen affiliate in South Africa.",
+      "Older BuddhaNet entries for Bamboo Grove Zen Centre (9 Mount Street, Grahamstown), Johannesburg Zen Group (PO Box 1080, Bucchleuch), and Durban Zen Group are not separately listed because they were Heila Downey-led Kwan Um sitting groups whose status post-Kwan Um disaffiliation (Dharma Centre is now independent) could not be verified active.",
+      "Knysna Zen Centre is administered from the Robertson Dharma Centre office; standalone street address for the Knysna sitting venue is not published online."
+    ]
+  },
+  "places": [
+    {
+      "name": "The Dharma Centre (Robertson)",
+      "city": "Robertson",
+      "region": "Western Cape",
+      "lineage": "Korean Seon / Zen (Heila Downey JDPSN, Seung Sahn / Kwan Um lineage; Dharma Centre is now independent of Kwan Um School of Zen)",
+      "address": "26 White Street, Robertson 6705, Western Cape",
+      "url": "https://dharmacentre.org.za/",
+      "source_url": "https://dharmacentre.org.za/about-us/",
+      "notes": "Founded 1981 (Somerset West) by Heila and Rodney Downey; relocated to Robertson 1994. Heila Downey received inka from Zen Master Seung Sahn in April 1996 (first African Ji Do Poep Sa Nim). Adopted Kwan Um teaching style in 1989; subsequently became independent. Described as 'home of contemporary Zen in Africa.' Phone (083) 703-3160; email heila.downey@gmail.com."
+    },
+    {
+      "name": "The Dharma Centre — Cape Town (Newlands)",
+      "city": "Cape Town",
+      "region": "Western Cape",
+      "lineage": "Korean Seon / Zen (Heila Downey JDPSN lineage; independent Zen, formerly Kwan Um)",
+      "address": "Sufi Temple, Newlands, Cape Town",
+      "url": "https://dharmacentre.org.za/",
+      "source_url": "https://dharmacentre.org.za/about-us/",
+      "notes": "Urban Cape Town centre of The Dharma Centre, established 1994 in Rondebosch and relocated in 2018 to the Sufi Temple in Newlands. Weekly Monday-evening sitting (chanting, two 30-minute zazen rounds, walking meditation, dharma reading)."
+    },
+    {
+      "name": "Knysna Zen Centre",
+      "city": "Knysna",
+      "region": "Western Cape",
+      "lineage": "Korean Seon / Zen (Heila Downey JDPSN lineage; independent, Dharma Centre network)",
+      "address": null,
+      "url": "https://dharmacentre.org.za/",
+      "source_url": "https://dharmacentre.org.za/",
+      "notes": "Knysna sitting group within The Dharma Centre network; administered from the Robertson office (PO Box 795, Robertson 6705). Phone (083) 703-3160; email heila.downey@gmail.com."
+    },
+    {
+      "name": "StoepZen at Poplar Grove",
+      "city": "Colesberg",
+      "region": "Northern Cape",
+      "lineage": "Korean Seon / Zen (Antony Osler 'Dae Chong' — inka from Zen Master Dae Gak of Furnace Mountain, Seung Sahn / Su Bong line; also Mt Baldy / Rinzai exposure)",
+      "address": "Poplar Grove farm, ~30 km outside Colesberg, Northern Cape Karoo",
+      "url": "https://www.stoepzen.co.za/",
+      "source_url": "https://www.stoepzen.co.za/retreats.html",
+      "notes": "Karoo farm zendo run by Antony and Margie Osler. Hosts approximately four formal Zen retreats per year for up to ~15 practitioners; also offers self-catering hermitages and a barn zendo with morning/evening practice. Booking via margie@stoepzen.co.za."
+    },
+    {
+      "name": "Born As The Earth Zen Academy (BEZA)",
+      "city": "Cape Town",
+      "region": "Western Cape",
+      "lineage": "Zen / White Plum line (training references Daido Loori Roshi and teacher Ekan Nangaku; described as merging authentic Zen Buddhism with Earth-based wisdom)",
+      "address": null,
+      "url": "https://bornastheearth.com/",
+      "source_url": "https://bornastheearth.com/",
+      "notes": "Cape Town-based Zen academy, registered NPC #K2024636180. Active 2025-2026 programming including the Grounded EARTH Module (May-June 2026). Self-describes as the first school on the African continent merging Zen Buddhism and Earth-based wisdom."
+    },
+    {
+      "name": "Jung Shim Zen Centre / Garden Route Zen Centre",
+      "city": "Sedgefield",
+      "region": "Western Cape",
+      "lineage": "Korean Seon / Zen (Heila Downey JDPSN lineage; Dharma Centre / former Kwan Um network)",
+      "address": null,
+      "url": "http://www.jungshimzen.co.za/",
+      "source_url": "https://www.facebook.com/JungShimZen/",
+      "notes": "Garden Route sitting group in Sedgefield (Knysna municipality), Western Cape, affiliated with the Heila Downey / Dharma Centre Korean Zen network."
+    },
+    {
+      "name": "Buddhist Retreat Centre, Ixopo",
+      "city": "Ixopo",
+      "region": "KwaZulu-Natal",
+      "lineage": "Non-sectarian Buddhist retreat venue; primary host of Zen retreats in KZN (Stoep Zen, Dharma Centre teachers, and visiting Soto/Rinzai/Korean teachers regularly lead programmes here)",
+      "address": "D64, Nirodha Farm, Ixopo 3276, KwaZulu-Natal",
+      "url": "http://www.brcixopo.co.za/",
+      "source_url": "http://www.brcixopo.co.za/",
+      "notes": "300-acre retreat centre on a ridge above the Umkomaas valley, founded 1980. Not a resident Zen sangha but the country's principal Zen retreat venue, with Zen gardens and a long history of hosting Korean / Soto / Rinzai-led sesshin and zazenkai. GPS 30deg06'15.4\"S 30deg02'46.6\"E."
+    }
+  ]
+}

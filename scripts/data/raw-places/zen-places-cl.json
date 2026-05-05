@@ -1,0 +1,75 @@
+{
+  "_meta": {
+    "country": "Chile",
+    "collectedAt": "2026-05-05",
+    "method": "Cross-referenced Sangha Zen Chile (sanghazen.cl), Maitreya Comunidad (maitreyazen.cl), zenchile.cl directory, Asociación Budista Zen Deshimaru dojo list (Kosen Sangha — Santiago, Valdivia, Pucón), Tricycle's profile of Sho Den Dōjō Zen de Santiago, and Buddhistdoor en Español's Chile directory. Each entry verified against the centre's own site or an official lineage organisation.",
+    "coverageEstimate": "Medium-high (~70-75%) for organised Zen sanghas with a website. Coverage solid for Kosen Sangha (Santiago, Valdivia, Pucón, plus smaller groups in Coquimbo/La Serena, Quilpué/Viña del Mar). Limited Plum Village footprint; no standalone Plum Village Chile site located.",
+    "knownGaps": [
+      "Plum Village Chile sangha visited Santiago in the 2023 Latin America tour but has no permanent standalone URL located in 2026",
+      "Smaller Kosen-Sangha groups in Coquimbo, La Serena, Quilpué, and Viña del Mar share the parent Kosen URL and lack standalone sites",
+      "No active Kwan Um, Sanbō Zen International, Ōbaku, or White Plum presence located as of 2026"
+    ]
+  },
+  "places": [
+    {
+      "name": "Sho Den Dōjō Zen de Santiago",
+      "city": "Santiago (Las Condes)",
+      "region": "Región Metropolitana",
+      "lineage": "Sōtō / Deshimaru (Kosen Sangha)",
+      "address": "Martín Alonso Pinzón 5882, Las Condes, Santiago",
+      "url": "https://www.zen-deshimaru.com/es/dojos/dojo-zen-de-santiago",
+      "source_url": "https://tricycle.org/article/meet-sangha-dojo-zen-de-santiago-chile/",
+      "notes": "Opened August 2002; named 'Sho Den' (The Exact Transmission) by Master Kosen. Approx. 20 regular practitioners."
+    },
+    {
+      "name": "Maitreya Comunidad — Dōjō Urbano Santiago",
+      "city": "Santiago (Los Domínicos)",
+      "region": "Región Metropolitana",
+      "lineage": "Sōtō Zen (urban dōjō)",
+      "address": null,
+      "url": "https://www.maitreyazen.cl/",
+      "source_url": "https://www.maitreyazen.cl/",
+      "notes": "Urban Zen practice community in the Los Domínicos area; weekly zazen Tuesdays/Thursdays."
+    },
+    {
+      "name": "Sangha Zen — Zendo Tunquén",
+      "city": "Tunquén (Casablanca)",
+      "region": "Valparaíso",
+      "lineage": "Sōtō Zen",
+      "address": null,
+      "url": "http://www.sanghazen.cl/web/",
+      "source_url": "http://www.sanghazen.cl/web/",
+      "notes": "Coastal residential zendo near Algarrobo/Casablanca, paired with an urban Santiago practice site."
+    },
+    {
+      "name": "Centro Zen Chile — zenchile.cl",
+      "city": "Santiago",
+      "region": "Región Metropolitana",
+      "lineage": "Sōtō Zen",
+      "address": null,
+      "url": "https://www.zenchile.cl/",
+      "source_url": "https://www.zenchile.cl/quienes-somos",
+      "notes": "Santiago-based Zen practice community; site lists 'Quienes Somos' and weekly schedule."
+    },
+    {
+      "name": "Dōjō Zen Valdivia",
+      "city": "Valdivia",
+      "region": "Los Ríos",
+      "lineage": "Sōtō / Deshimaru (Kosen Sangha)",
+      "address": null,
+      "url": "https://www.zen-deshimaru.com/es/dojos-zen",
+      "source_url": "https://www.zen-deshimaru.com/es/dojos-zen",
+      "notes": "Southern-Chile Kosen Sangha dōjō."
+    },
+    {
+      "name": "Dōjō Zen Pucón",
+      "city": "Pucón",
+      "region": "Araucanía",
+      "lineage": "Sōtō / Deshimaru (Kosen Sangha)",
+      "address": null,
+      "url": "https://www.zen-deshimaru.com/es/dojos-zen",
+      "source_url": "https://www.zen-deshimaru.com/es/dojos-zen",
+      "notes": "Kosen Sangha lakeside dōjō."
+    }
+  ]
+}
