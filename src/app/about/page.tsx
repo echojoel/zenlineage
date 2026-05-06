@@ -743,15 +743,35 @@ export default function AboutPage() {
 
         <section className="detail-card">
           <h3 className="detail-section-title">Explore This Encyclopedia</h3>
+          <p className="detail-summary">
+            The interactive{" "}
+            <Link className="detail-inline-link" href="/lineage">
+              lineage graph
+            </Link>{" "}
+            is the central artefact of this site: a single navigable diagram of
+            dharma transmission from Shakyamuni Buddha through Bodhidharma down
+            to the contemporary teachers of Chan, Sŏn, Thiền, and Zen. Every
+            other index — masters, schools, teachings, practice centres — is a
+            different slice of the same graph.
+          </p>
           <div className="detail-actions" style={{ justifyContent: "flex-start" }}>
             <Link className="detail-button" href="/lineage">
-              Explore lineage
+              Open the lineage graph
             </Link>
             <Link className="detail-button detail-button-muted" href="/masters">
               Browse masters
             </Link>
             <Link className="detail-button detail-button-muted" href="/schools">
               View schools
+            </Link>
+            <Link className="detail-button detail-button-muted" href="/practice">
+              Practice centres
+            </Link>
+            <Link className="detail-button detail-button-muted" href="/proverbs">
+              Proverbs &amp; teachings
+            </Link>
+            <Link className="detail-button detail-button-muted" href="/glossary">
+              Glossary
             </Link>
           </div>
         </section>
