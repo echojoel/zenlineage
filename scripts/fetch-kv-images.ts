@@ -69,6 +69,12 @@ const TARGETS: Record<string, string[]> = {
   "kobun-chino-otogawa": ["Kōbun Chino Otogawa", "Kobun Chino Otogawa"],
   "dainin-katagiri": ["Dainin Katagiri"],
   "taisen-deshimaru": ["Taisen Deshimaru"],
+  // Deshimaru disciples — only Philippe Coupey has an en.wiki page; the
+  // others need EXTERNAL_PORTRAITS with verified Commons URLs (see below).
+  "philippe-reiryu-coupey": ["Philippe Coupey"],
+  // Olivier Wang-Genh — fr.wiki only; en.wiki search returns 404, so we
+  // give an empty title list and rely on EXTERNAL_PORTRAITS below.
+  "olivier-reigen-wang-genh": [],
   "shodo-harada": ["Shodo Harada", "Shōdō Harada"],
   "harada-sodo-kakusho": ["Shōdō Harada", "Shodo Harada"],
   "nyogen-senzaki": ["Nyogen Senzaki"],
@@ -170,7 +176,16 @@ interface ExternalPortrait {
   attribution: string;
   license: string;
 }
-const EXTERNAL_PORTRAITS: Record<string, ExternalPortrait> = {};
+const EXTERNAL_PORTRAITS: Record<string, ExternalPortrait> = {
+  // Olivier Wang-Genh — abbot of Ryumonji and former AZI president. Has a
+  // fr.wikipedia page; the lead image is on Commons under CC BY-SA.
+  "olivier-reigen-wang-genh": {
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/4/4b/DSC09526-Olivier-Croped.jpg",
+    sourcePageUrl: "https://fr.wikipedia.org/wiki/Olivier_Wang-Genh",
+    attribution: "fr.wikipedia.org / Wikimedia Commons",
+    license: "CC BY-SA 4.0",
+  },
+};
 
 async function findCommonsFile(
   filename: string

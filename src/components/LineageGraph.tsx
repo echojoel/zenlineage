@@ -1148,7 +1148,7 @@ export default function LineageGraph() {
               Open profile →
             </Link>
             {sidebar.node.schoolSlug && (
-              <Link className="sidebar-button sidebar-button-muted" href={`/schools/${sidebar.node.schoolSlug}`}>
+              <Link className="sidebar-button" href={`/schools/${sidebar.node.schoolSlug}`}>
                 Open school →
               </Link>
             )}

@@ -507,6 +507,26 @@ export default function AboutPage() {
                 describe (Wikimedia Commons).
               </figcaption>
             </figure>
+            <figure className="about-figure">
+              <Image
+                src="/masters/shakyamuni-buddha.webp"
+                alt="Śākyamuni Buddha, the historical figure to whom Zen traces its first wordless transmission"
+                width={320}
+                height={320}
+                className="about-section-image"
+              />
+              <figcaption className="figure-credit">
+                Śākyamuni Buddha (c. 5th century BCE). Zen begins not with his words but with
+                his silence: the <em>Flower Sermon</em> (拈華微笑, <em>nenge-mishō</em>) — the
+                Buddha holds up a single flower, says nothing, and only{" "}
+                <Link className="detail-inline-link" href="/masters/mahakashyapa">
+                  Mahākāśyapa
+                </Link>{" "}
+                smiles. That smile is the first transmission, &ldquo;a special transmission
+                outside the scriptures, not relying on words and letters&rdquo; (<em>kyōge betsuden,
+                furyū monji</em>) — the formula every later Zen ancestor inherits.
+              </figcaption>
+            </figure>
             <p>
               <strong>Transmission</strong> (<em>yìxīn chuánxīn</em>, &ldquo;mind-to-mind
               transmission&rdquo;) &mdash; Zen maintains an unbroken lineage of teacher-to-student
