@@ -2933,3 +2933,86 @@ a.footnote-source-link:hover {
   color: var(--ink-light);
 }
 
+
+/* Sūtra translation chip — two-line variant of the glossary chip,
+ * with a language tag above the translator label. Shape, palette,
+ * and active state mirror .glossary-filter-chip so the whole site
+ * reads as one design language. */
+.sutra-chip {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.15rem;
+  background: transparent;
+  border: 1px solid rgba(122, 106, 85, 0.25);
+  border-radius: 14px;
+  font-family: var(--font-inter), sans-serif;
+  color: var(--ink-light);
+  cursor: pointer;
+  padding: 0.3rem 0.7rem 0.35rem;
+  text-align: left;
+  transition:
+    background 180ms ease,
+    color 180ms ease,
+    border-color 180ms ease;
+}
+
+.sutra-chip:hover,
+.sutra-chip:focus-visible {
+  border-color: var(--ink-light);
+  color: var(--ink);
+  outline: none;
+}
+
+.sutra-chip--active {
+  background: var(--ink-light);
+  border-color: var(--ink-light);
+  color: var(--paper);
+}
+
+.sutra-chip--active .sutra-chip-lang {
+  color: rgba(250, 249, 247, 0.7);
+}
+
+.sutra-chip-lang {
+  font-size: 0.55rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--ink-light);
+  line-height: 1;
+}
+
+.sutra-chip-label {
+  font-size: 0.66rem;
+  letter-spacing: 0.06em;
+  line-height: 1.2;
+}
+
+.sutra-prose[lang="zh-Hant"],
+.sutra-prose[lang="zh-Hans"],
+.sutra-prose[lang="ja"],
+.sutra-prose[lang="ja-Latn"] {
+  font-family:
+    "Hiragino Mincho ProN",
+    "Yu Mincho",
+    "Songti SC",
+    "STSong",
+    Georgia,
+    serif;
+  line-height: 1.95;
+}
+
+.sutra-prose[lang="zh-Hant"] .sutra-passage-body p,
+.sutra-prose[lang="zh-Hans"] .sutra-passage-body p {
+  text-align: left;
+  hyphens: none;
+}
+
+.sutra-prose[lang="ja-Latn"] .sutra-passage-body p {
+  text-align: left;
+}
+
+.sutra-prose[lang="sa-Latn"] .sutra-passage-body p {
+  font-style: italic;
+  text-align: left;
+}

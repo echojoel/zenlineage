@@ -230,6 +230,7 @@ export default async function Home() {
           { label: "Masters", href: "/masters" },
           { label: "Lineage", href: "/lineage" },
           { label: "Schools", href: "/schools" },
+          { label: "Sūtras", href: "/sutras" },
           { label: "Glossary", href: "/glossary" },
           { label: "Practice", href: "/practice" },
           { label: "Timeline", href: "/timeline" },
@@ -289,8 +290,8 @@ export default async function Home() {
           fontSize: "0.6rem",
           letterSpacing: "0.12em",
           textTransform: "uppercase",
-          color: "var(--ink)",
-          opacity: 0.75,
+          color: "var(--ink-light)",
+          opacity: 0.7,
         }}
       >
         <Link href="/masters" className="home-stats-link">

@@ -1,0 +1,20 @@
+[
+  {
+    "slug": "diamond-sutra-sanskrit",
+    "type": "sutra",
+    "author_slug": "unknown",
+    "collection": "Diamond Sūtra",
+    "compiler": "Sanskrit (Vajracchedikā Prajñāpāramitā), F. Max Müller (ed.)",
+    "era": "Mahāyāna (Sanskrit text edited 1881)",
+    "attribution_status": "verified",
+    "locale": "sa-Latn",
+    "title": "Vajracchedikā Prajñāpāramitā — Sanskrit (Müller 1881) selections",
+    "content": "## §1 The setting\n\n*From* The Vajracchedikā or Diamond-Cutter, *edited by F. Max Müller, Anecdota Oxoniensia, Aryan Series I.i (Oxford: Clarendon Press, 1881) — public domain. IAST transcription of the Devanāgarī mūla.*\n\nEvaṃ mayā śrutam. Ekasmin samaye Bhagavān Śrāvastyāṃ viharati sma Jetavane Anāthapiṇḍadasya-ārāme mahatā bhikṣu-saṃghena sārdham ardha-trayodaśabhir bhikṣu-śataiḥ saṃbahulaiśca bodhisattvair mahāsattvaiḥ.\n\n## §5 Lakṣaṇāni alakṣaṇāni\n\nTat kiṃ manyase Subhūte, lakṣaṇa-saṃpadā Tathāgato draṣṭavyaḥ? Subhūtir-āha: No-hīdaṃ Bhagavan, na lakṣaṇa-saṃpadā Tathāgato draṣṭavyaḥ. Tat kasya hetoḥ? Yā sā Bhagavan lakṣaṇa-saṃpat Tathāgatena bhāṣitā saiva-alakṣaṇa-saṃpat.\n\nBhagavān-āha: Yāvat Subhūte lakṣaṇa-saṃpat tāvan-mṛṣā, yāvad-alakṣaṇa-saṃpat tāvan-na mṛṣeti. Hi lakṣaṇa-alakṣaṇataḥ Tathāgato draṣṭavyaḥ.\n\n## §10 The mind that is fixed nowhere\n\nTasmāt-tarhi Subhūte bodhisattvena mahāsattvena evam apratiṣṭhitaṃ cittam-utpādayitavyam yan-na kvacit pratiṣṭhitaṃ cittam-utpādayitavyam. Na rūpa-pratiṣṭhitaṃ cittam-utpādayitavyam, na śabda-gandha-rasa-spraṣṭavya-dharma-pratiṣṭhitaṃ cittam-utpādayitavyam.\n\n## §26 The two stanzas\n\nAtha khalu Bhagavāṃs-tasyāṃ velāyām-ime gāthe abhāṣata:\n\n*Ye māṃ rūpeṇa cādrākṣur ye māṃ ghoṣeṇa cānvayuḥ,*\n*mithyā-prahāṇa-prasṛtā na māṃ drakṣyanti te janāḥ.*\n\n*Dharmato Buddho draṣṭavyo dharma-kāyā hi nāyakāḥ,*\n*dharmatā ca na vijñeyā na sā śakyā vijānituṃ.*\n\n## §32 The closing simile\n\nTat kasya hetoḥ —\n\n*tārakā timiraṃ dīpo māyāvaśyāya budbudaḥ,*\n*supinaṃ vidyud-abhraṃ ca evaṃ draṣṭavyaṃ saṃskṛtam.*\n\nIdam-avocad Bhagavān āttamanāḥ. Sthavira-Subhūtis-te ca bhikṣavo bhikṣuṇyaḥ upāsakā upāsikāḥ, te ca bodhisattvāḥ sa-deva-mānuṣa-asura-gandharvaśca loko Bhagavato bhāṣitam-abhyanandan.\n\nĀrya-Vajracchedikā-bhagavatī-prajñāpāramitā samāptā.",
+    "source_id": "src_mueller_anecdota_1881",
+    "ingestion_run_id": "run_sutras_originals_pd_initial",
+    "locator": "Anecdota Oxoniensia, Aryan Series I.i (1881), §§ 1, 5, 10, 26, 32",
+    "translator": "Sanskrit edition: F. Max Müller (ed.)",
+    "edition": "The Vajracchedikā or Diamond-Cutter (Anecdota Oxoniensia, 1881)",
+    "license_status": "public_domain"
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "slug": "heart-sutra-japanese-chant",
+    "type": "sutra",
+    "author_slug": "unknown",
+    "collection": "Heart Sūtra",
+    "compiler": "Sino-Japanese chant (on'yomi reading of Xuanzang's Chinese)",
+    "era": "Daily liturgy in Sōtō, Rinzai, Ōbaku, and most Japanese Zen halls",
+    "attribution_status": "verified",
+    "locale": "ja-Latn",
+    "title": "Maka Hannya Haramita Shingyō (摩訶般若波羅蜜多心經) — chanted form",
+    "content": "## §1 Kaikyō\n\n*The Heart Sūtra as it is sounded in a Japanese Zen meditation hall: the Sino-Japanese (on'yomi) reading of Xuanzang's Chinese, written here in Hepburn romanisation. The Chinese characters are identical to the* 漢 *edition; only the pronunciation differs. Chanted at a steady tempo on a single tone with the* mokugyō *fish-drum keeping the beat.*\n\nMaka hannya haramita shingyō.\n\nKan-ji-zai bo-satsu, gyō jin hannya haramita ji, shō ken go-un kai kū, do is-sai ku yaku.\n\n## §2 Shiki soku ze kū\n\nShari-shi, shiki fu-i kū, kū fu-i shiki, shiki soku ze kū, kū soku ze shiki, ju sō gyō shiki, yaku bu nyo ze. Shari-shi, ze sho hō kū sō, fu shō fu metsu, fu ku fu jō, fu zō fu gen.\n\n## §3 Hitei issai sō\n\nZe ko, kū chū mu shiki, mu ju sō gyō shiki, mu gen ni bi zes-shin ni, mu shiki shō kō mi soku hō, mu gen kai nai-shi mu i-shiki kai. Mu mu-myō, yaku mu mu-myō jin, nai-shi mu rō-shi, yaku mu rō-shi jin. Mu ku shū metsu dō, mu chi yaku mu toku.\n\n## §4 Bo-satsu kukyō nehan\n\nI mu sho-tok-ko, bo-dai-sat-ta, e hannya haramita ko, shin mu kei-ge, mu kei-ge ko, mu u ku-fu, on-ri is-sai ten-dō mu-sō, ku-kyō ne-han. San-ze sho-butsu, e hannya haramita ko, toku a-noku-ta-ra san-myaku san-bo-dai.\n\n## §5 Shingon\n\nKo chi hannya haramita, ze dai-jin-shu, ze dai-myō-shu, ze mu-jō-shu, ze mu-tō-dō-shu, nō jo is-sai ku, shin-jitsu fu-ko. Ko setsu hannya haramita shu, soku setsu shu watsu:\n\n*Gya-tei gya-tei  hara-gya-tei  hara-sō-gya-tei  bo-ji sowa-ka.*\n\nHannya shingyō.",
+    "source_id": "src_sutras_curated_pd",
+    "ingestion_run_id": "run_sutras_originals_pd_initial",
+    "locator": "Daily Zen sūtra-book chanting form (Sōtōshū / Rinzai-shū liturgy)",
+    "translator": "Sino-Japanese on'yomi (chanted reading)",
+    "edition": "Standard Sōtō / Rinzai chant book — public-domain phonetic transcription",
+    "license_status": "public_domain"
+  }
+]

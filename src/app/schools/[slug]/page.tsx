@@ -22,6 +22,8 @@ import { formatDateWithPrecision } from "@/lib/date-format";
 import { getSchoolDefinition, type SchoolFootnote } from "@/lib/school-taxonomy";
 import { isTier1Master } from "@/lib/editorial-tiers";
 import { FootnoteList, renderProseWithFootnotes, type FootnoteRef } from "@/lib/footnotes";
+import { buildSutraLinkTerms } from "@/lib/linkify-mentions";
+import { loadMasterLinkTerms } from "@/lib/linkify-mentions-server";
 import { AccuracyFooter } from "@/components/AccuracyFooter";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import {
@@ -318,6 +320,14 @@ export default async function SchoolDetailPage({ params }: { params: Promise<{ s
 
   const definition = getSchoolDefinition(slug);
 
+  // Auto-link mentions of masters and sūtras inside the prose. Built
+  // once per render and shared across all renderProseWithFootnotes
+  // calls on this page.
+  const linkTerms = [
+    ...(await loadMasterLinkTerms()),
+    ...buildSutraLinkTerms(),
+  ];
+
   // School image
   const schoolImageRows = await db
     .select({
@@ -573,18 +583,15 @@ export default async function SchoolDetailPage({ params }: { params: Promise<{ s
           </div>
           <div className="detail-summary">
             {definition?.summary ? (
-              definition.footnotes && definition.footnotes.length > 0 ? (
-                renderProseWithFootnotes(
-                  definition.summary,
-                  schoolFootnotesToRefs(definition.footnotes),
-                  {
-                    idScope: `school-${slug}-summary`,
-                    anchorScope: `school-${slug}`,
-                    suppressList: true,
-                  }
-                )
-              ) : (
-                <p>{definition.summary}</p>
+              renderProseWithFootnotes(
+                definition.summary,
+                schoolFootnotesToRefs(definition.footnotes),
+                {
+                  idScope: `school-${slug}-summary`,
+                  anchorScope: `school-${slug}`,
+                  suppressList: true,
+                  linkify: linkTerms,
+                }
               )
             ) : (
               <p>
@@ -599,18 +606,15 @@ export default async function SchoolDetailPage({ params }: { params: Promise<{ s
           <section className="detail-card">
             <h3 className="detail-section-title">Meditation practice</h3>
             <div className="detail-summary">
-              {definition.footnotes && definition.footnotes.length > 0 ? (
-                renderProseWithFootnotes(
-                  definition.practice,
-                  schoolFootnotesToRefs(definition.footnotes),
-                  {
-                    idScope: `school-${slug}-practice`,
-                    anchorScope: `school-${slug}`,
-                    suppressList: true,
-                  }
-                )
-              ) : (
-                <p>{definition.practice}</p>
+              {renderProseWithFootnotes(
+                definition.practice,
+                schoolFootnotesToRefs(definition.footnotes),
+                {
+                  idScope: `school-${slug}-practice`,
+                  anchorScope: `school-${slug}`,
+                  suppressList: true,
+                  linkify: linkTerms,
+                }
               )}
             </div>
             {(definition.mastersIntro || tier1Masters.length > 0) && (
@@ -620,18 +624,15 @@ export default async function SchoolDetailPage({ params }: { params: Promise<{ s
                 </h4>
                 {definition.mastersIntro && (
                   <div className="detail-summary">
-                    {definition.footnotes && definition.footnotes.length > 0 ? (
-                      renderProseWithFootnotes(
-                        definition.mastersIntro,
-                        schoolFootnotesToRefs(definition.footnotes),
-                        {
-                          idScope: `school-${slug}-masters`,
-                          anchorScope: `school-${slug}`,
-                          suppressList: true,
-                        }
-                      )
-                    ) : (
-                      <p>{definition.mastersIntro}</p>
+                    {renderProseWithFootnotes(
+                      definition.mastersIntro,
+                      schoolFootnotesToRefs(definition.footnotes),
+                      {
+                        idScope: `school-${slug}-masters`,
+                        anchorScope: `school-${slug}`,
+                        suppressList: true,
+                        linkify: linkTerms,
+                      }
                     )}
                   </div>
                 )}

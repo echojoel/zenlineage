@@ -1,0 +1,20 @@
+[
+  {
+    "slug": "heart-sutra-sanskrit",
+    "type": "sutra",
+    "author_slug": "unknown",
+    "collection": "Heart Sūtra",
+    "compiler": "Sanskrit short recension (Prajñāpāramitā-hṛdaya)",
+    "era": "Mahāyāna (Sanskrit attested in 8th-c. mss.)",
+    "attribution_status": "verified",
+    "locale": "sa-Latn",
+    "title": "Prajñāpāramitā-hṛdaya — Sanskrit (short recension, IAST)",
+    "content": "## §1 Setting\n\n*The short Sanskrit recension as preserved in the Nepalese manuscripts and edited by F. Max Müller and Bunyiu Nanjio,* Anecdota Oxoniensia *(Aryan Series, vol. I, part III, 1884) — public domain. Romanised here in IAST.*\n\nĀrya-Avalokiteśvaro bodhisattvo gambhīrāṃ prajñāpāramitā-caryāṃ caramāṇo vyavalokayati sma: pañca-skandhāḥ, tāṃś-ca svabhāva-śūnyān paśyati sma.\n\n## §2 Form is emptiness\n\nIha Śāriputra rūpaṃ śūnyatā śūnyataiva rūpam. Rūpān-na pṛthak śūnyatā, śūnyatāyā na pṛthag rūpam. Yad rūpaṃ sā śūnyatā, yā śūnyatā tad rūpam. Evam-eva vedanā-saṃjñā-saṃskāra-vijñānāni.\n\nIha Śāriputra sarva-dharmāḥ śūnyatā-lakṣaṇāḥ — anutpannā aniruddhā, amalā na vimalā, anūnā na paripūrṇāḥ.\n\n## §3 Negation\n\nTasmāc-Chāriputra śūnyatāyāṃ na rūpaṃ na vedanā na saṃjñā na saṃskārā na vijñānam. Na cakṣuḥ-śrotra-ghrāṇa-jihvā-kāya-manāṃsi, na rūpa-śabda-gandha-rasa-spraṣṭavya-dharmāḥ. Na cakṣur-dhātur yāvan na mano-vijñāna-dhātuḥ.\n\nNa-avidyā na-avidyā-kṣayo yāvan na jarā-maraṇaṃ na jarā-maraṇa-kṣayo. Na duḥkha-samudaya-nirodha-mārgāḥ. Na jñānaṃ na prāptir na-aprāptiḥ.\n\n## §4 The bodhisattva's awakening\n\nTasmāc-Chāriputra aprāptitvād bodhisattvo prajñāpāramitām-āśritya viharati a-citta-āvaraṇaḥ. Citta-āvaraṇa-nāstitvād a-trasto viparyāsa-atikrānto niṣṭhā-nirvāṇaḥ. Try-adhva-vyavasthitāḥ sarva-buddhāḥ prajñāpāramitām-āśritya-anuttarāṃ samyaksambodhim abhisambuddhāḥ.\n\n## §5 The mantra\n\nTasmāj-jñātavyaṃ prajñāpāramitā mahā-mantro mahā-vidyā-mantro 'nuttara-mantro 'samasama-mantraḥ, sarva-duḥkha-praśamanaḥ, satyam amithyatvāt. Prajñāpāramitāyām ukto mantraḥ, tadyathā:\n\n*gate gate pāragate pārasaṃgate bodhi svāhā.*\n\niti Prajñāpāramitā-hṛdayaṃ samāptam.",
+    "source_id": "src_mueller_nanjio_anecdota_1884",
+    "ingestion_run_id": "run_sutras_originals_pd_initial",
+    "locator": "Anecdota Oxoniensia, Aryan Series I.iii (1884), pp. 48–50",
+    "translator": "Sanskrit edition: F. Max Müller & Bunyiu Nanjio (eds.)",
+    "edition": "Anecdota Oxoniensia, Aryan Series, vol. I, part III (1884) — short recension",
+    "license_status": "public_domain"
+  }
+]

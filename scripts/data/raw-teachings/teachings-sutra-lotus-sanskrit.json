@@ -1,0 +1,20 @@
+[
+  {
+    "slug": "lotus-sutra-sanskrit",
+    "type": "sutra",
+    "author_slug": "unknown",
+    "collection": "Lotus Sūtra",
+    "compiler": "Sanskrit (Saddharma-Puṇḍarīka), Kern–Nanjio (eds.)",
+    "era": "Mahāyāna (Sanskrit edited 1908–12)",
+    "attribution_status": "verified",
+    "locale": "sa-Latn",
+    "title": "Saddharma-Puṇḍarīka — Samantamukha-parivarta (Kern–Nanjio, IAST)",
+    "content": "## §1 The question raised\n\n*From the Saddharma-Puṇḍarīka edited from Nepalese manuscripts by H. Kern and Bunyiu Nanjio,* Bibliotheca Buddhica X (St-Pétersbourg: Académie Impériale, 1908–1912) — public domain. Selections from chapter XXIV, the Samantamukha-parivarta. IAST transcription of the Devanāgarī mūla.\n\nAtha khalv-Akṣayamatir bodhisattvo mahāsattva utthāya-āsanād-ekāṃsam-uttarāsaṅgaṃ kṛtvā dakṣiṇaṃ jānu-maṇḍalaṃ pṛthivyāṃ pratiṣṭhāpya yena Bhagavāṃs tena-añjaliṃ praṇamya Bhagavantam-etad-avocat:\n\nKena kāraṇena Bhagavan Avalokiteśvaro bodhisattvo mahāsattva Avalokiteśvara ity-ucyate?\n\n## §2 Liberation from peril\n\nEvam ukte Bhagavān Akṣayamatim bodhisattvam mahāsattvam-etad-avocat: Iha kula-putra yāvanti satva-koṭyo duḥkhaiḥ paripīḍyamānāḥ Avalokiteśvarasya bodhisattvasya nāma śroṣyanti, sarve te tasmāt duḥkha-skandhāt parimokṣyante.\n\nYe ca kula-putra Avalokiteśvarasya bodhisattvasya nāma dhārayiṣyanti, te ced-api mahato 'gni-skandhe prapateyuḥ, sarve te 'gnito mokṣyante tasya bodhisattvasya-anubhāvena.\n\n## §3 The thirty-two forms\n\nYena yena rūpeṇa kula-putra satvāḥ paripācayitavyāḥ, tena tena rūpeṇa-Avalokiteśvaro bodhisattvo mahāsattva ātmānam upadarśayati. Ye buddha-rūpeṇa vinetavyāḥ, teṣāṃ buddha-rūpeṇa dharmaṃ deśayati. Ye bodhisattva-rūpeṇa, teṣāṃ bodhisattva-rūpeṇa. Ye śrāvaka-rūpeṇa, ye brāhmaṇa-rūpeṇa, ye gṛhapati-rūpeṇa, ye upāsaka-rūpeṇa, ye dārikā-rūpeṇa — sarvābhi rūpeṇa Avalokiteśvaro bodhisattvo dharmaṃ deśayati.\n\n## §4 The verse\n\nAtha khalv-Akṣayamatir bodhisattvo mahāsattvo Bhagavantam-imāṃ gāthām abhāṣata:\n\n*Avalokitasvara karuṇekṣaṇo viśuddha-cakṣur*\n*Maitra-prema-kṛpā-svabhāva sukhada-svabhāva,*\n*Lokasya tva loka-bandhuḥ pratibhāse,*\n*Saumya tasmād bhaja Avalokitasvaram.*\n\n*Brahma-svaro Avalokitasvarasya megha-svaraḥ,*\n*Dharma-megha-svaro madhura-svaras-saumyaḥ,*\n*Tasmād bhaja-bhaja saumya Avalokitasvaram.*\n\nAsmin khalu Samantamukha-parivarte bhāṣyamāṇe caturaśīter satva-sahasrāṇi anuttarāyāṃ samyaksambodhau cittam-utpādayāmāsuḥ.",
+    "source_id": "src_kern_nanjio_lotus_1908",
+    "ingestion_run_id": "run_sutras_originals_pd_initial",
+    "locator": "Bibliotheca Buddhica X (1908–12), Saddharma-Puṇḍarīka, ch. XXIV",
+    "translator": "Sanskrit edition: H. Kern & Bunyiu Nanjio (eds.)",
+    "edition": "Bibliotheca Buddhica X — Saddharma-Puṇḍarīka (1908–1912)",
+    "license_status": "public_domain"
+  }
+]

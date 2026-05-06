@@ -1,0 +1,20 @@
+[
+  {
+    "slug": "lotus-sutra-japanese-chant",
+    "type": "sutra",
+    "author_slug": "unknown",
+    "collection": "Lotus Sūtra",
+    "compiler": "Sino-Japanese chant (Kannon-gyō)",
+    "era": "Daily liturgy in Sōtō, Rinzai, Plum Village, and many Mahāyāna halls",
+    "attribution_status": "verified",
+    "locale": "ja-Latn",
+    "title": "Kannon-gyō (観音経 — Universal Gate, chanted)",
+    "content": "## §1 Mu-jin-i bo-satsu mon-pō\n\n*The Universal Gate of Avalokiteśvara chapter as chanted in Japanese Zen halls — the Sino-Japanese (on'yomi) reading of Kumārajīva's Chinese, written here in Hepburn romanisation. Known popularly as the* Kannon-gyō, *the most-recited Lotus chapter in Sōtō and Rinzai liturgy.*\n\nMyō hō ren ge kyō, Kan-ze-on bo-satsu Fu-mon-bon dai ni jū go.\n\nNi-ji Mu-jin-i bo-satsu, soku jū za ki, hen tan u ken, gas-shō kō butsu ni saku ze gon: Se-son, Kan-ze-on bo-satsu, i ga in nen myō Kan-ze-on?\n\nButsu go Mu-jin-i bo-satsu: Zen-nan-shi, nyaku u mu-ryō hyaku sen man oku shu-jō, ju sho ku-nō, mon ze Kan-ze-on bo-satsu, is-shin shō myō, Kan-ze-on bo-satsu, soku ji kan go on-jō, kai toku ge-das-shi.\n\n## §2 Shichi-nan ge-datsu\n\nNyaku u ji ze Kan-ze-on bo-satsu myō sha, set-su nyū dai ka, ka fu nō shō, yu ze bo-satsu i-jin riki ko. Nyaku i dai sui sho hyō, shō go myō gō, soku toku sen sho.\n\nSetsu fu u nin, nyaku u zai nyaku mu zai, chū kai ka sa, ken-kei go shin, shō Kan-ze-on bo-satsu myō sha, kai shitsu dan-e, soku toku ge-datsu.\n\n## §3 Sanjū-ni ō-jin\n\nMu-jin-i, ze Kan-ze-on bo-satsu, jō-jū nyo ze ku-doku. I shu-ju gyō, yu sho koku-do, do-das-shu-jō. Ze ko nyo-tō, ō-tō is-shin ku-yō Kan-ze-on bo-satsu.\n\nŌ i butsu shin toku do sha, soku gen butsu shin ni i sep-pō. Ō i byaku-shi-butsu shin toku do sha, soku gen byaku-shi-butsu shin ni i sep-pō. Ō i shō-mon shin toku do sha, soku gen shō-mon shin ni i sep-pō.\n\n## §4 Jū-ge\n\nNi-ji Mu-jin-i bo-satsu i ge mon watsu:\n\n*Myō-on Kan-ze-on,*\n*Bon-non kai-chō-on,*\n*Shō pi se-ken-non,*\n*Ze ko shu jō nen.*\n\n*Nen-nen mot-tu shō gi,*\n*Kan-ze-on jō shō,*\n*O ku-nō shi-yaku,*\n*Nō i sa e-go.*\n\nButsu setsu ze Fu-mon-bon ji, shu chū hachi man shi sen shu-jō, kai hot-tu mu-tō-tō a-noku-ta-ra san-myaku san-bo-dai shin.",
+    "source_id": "src_sutras_curated_pd",
+    "ingestion_run_id": "run_sutras_originals_pd_initial",
+    "locator": "Standard Sōtōshū / Rinzai-shū chant book — 'Kannon-gyō'",
+    "translator": "Sino-Japanese on'yomi (chanted reading of Kumārajīva)",
+    "edition": "Standard Zen liturgy chant book — public-domain phonetic transcription",
+    "license_status": "public_domain"
+  }
+]

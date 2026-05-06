@@ -1,0 +1,20 @@
+[
+  {
+    "slug": "platform-sutra-zongbao",
+    "type": "sutra",
+    "author_slug": "unknown",
+    "collection": "Platform Sūtra",
+    "compiler": "宗寶 (Zongbao, ed.)",
+    "era": "Yuan recension, 1291 CE (Taishō T2008)",
+    "attribution_status": "verified",
+    "locale": "zh-Hant",
+    "title": "六祖大師法寶壇經 (Zongbao, 1291) — selected chapters",
+    "content": "## §1 行由第一\n\n*從《六祖大師法寶壇經》（Liù-zǔ Dà-shī Fǎ-bǎo Tán-jīng）— 元延祐間宗寶所定本。Selections from chapters 行由 (autobiography), 般若, 機緣 / 付囑.*\n\n大師至寶林。韶州韋刺史與官僚入山，請師出。於大梵寺講堂，為眾開緣說法。師升座次，刺史官僚三十餘人，儒宗學士三十餘人，僧尼道俗一千餘人，同時作禮，願聞法要。大師告眾曰：善知識，菩提自性，本來清淨。但用此心，直了成佛。\n\n## §2 神秀偈與惠能偈\n\n上座神秀，於南廊壁書一偈云：\n\n*身是菩提樹，*\n*心如明鏡臺。*\n*時時勤拂拭，*\n*勿使惹塵埃。*\n\n惠能聞而和之，請別駕張日用代書於壁：\n\n*菩提本無樹，*\n*明鏡亦非臺。*\n*本來無一物，*\n*何處惹塵埃？*\n\n## §3 五祖傳法\n\n祖以袈裟遮圍，不令人見，為說《金剛經》。至「應無所住而生其心」，惠能言下大悟，一切萬法不離自性。遂啟祖言：\n\n*何期自性本自清淨。*\n*何期自性本不生滅。*\n*何期自性本自具足。*\n*何期自性本無動搖。*\n*何期自性能生萬法。*\n\n祖知悟本性，謂惠能曰：不識本心，學法無益；若識自本心，見自本性，即名丈夫、天人師、佛。三更受法，人盡不知。便傳頓教及衣缽，云：汝為第六代祖。善自護念，廣度有情，流布將來，無令斷絕。\n\n## §6 懺悔受戒\n\n善知識，云何名懺？云何名悔？懺者，懺其前愆。從前所有惡業、愚迷、憍誑、嫉妒等罪，悉皆懺悔，永不復起，是名為懺。悔者，悔其後過。從今已後，所有惡業、愚迷、憍誑、嫉妒等罪，今已覺悟，悉皆永斷，更不復作，是名為悔。\n\n善知識，於自色身，歸依清淨法身佛；於自色身，歸依圓滿報身佛；於自色身，歸依千百億化身佛。\n\n## §10 付囑流通\n\n大師於太極元年壬子歲，遣門人，令往新州國恩寺造塔。仍令促工。次年夏末落成。先天二年七月，大師告眾辭別，至八月三日，齋畢，謂眾曰：吾欲歸新州。汝等速理舟楫。眾哀留甚堅。\n\n師說偈已，端坐至三更，忽謂門人曰：吾行矣。奄然遷化。於時，異香滿室，白虹屬地，林木變白，禽獸哀鳴。",
+    "source_id": "src_taisho_canon",
+    "ingestion_run_id": "run_sutras_originals_pd_initial",
+    "locator": "Taishō Tripiṭaka T2008 (selections from chapters 1, 1, 1, 6, 10)",
+    "translator": "宗寶 Zongbao (ed.)",
+    "edition": "Taishō Daizōkyō, vol. 48, no. 2008 (Zongbao recension, 1291 CE)",
+    "license_status": "public_domain"
+  }
+]

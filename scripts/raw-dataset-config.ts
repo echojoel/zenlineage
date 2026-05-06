@@ -84,6 +84,66 @@ const RAW_TEACHINGS_DATASET_CONFIG: Record<string, RawDatasetConfig> = {
     expectedSourceId: "src_goddard_buddhist_bible_1932",
     notes: "Platform Sūtra — Dwight Goddard, A Buddhist Bible (1932 ed.). Public domain.",
   },
+  "teachings-sutra-heart-xuanzang.json": {
+    kind: "external_extract",
+    entityKind: "teaching",
+    expectedSourceId: "src_taisho_canon",
+    notes: "Heart Sūtra — Xuanzang's Chinese (T251). Public domain.",
+  },
+  "teachings-sutra-heart-japanese.json": {
+    kind: "editorial_overlay",
+    entityKind: "teaching",
+    expectedSourceId: "src_sutras_curated_pd",
+    notes: "Heart Sūtra — Sino-Japanese chant (Hannya Shingyō). Public domain.",
+  },
+  "teachings-sutra-heart-sanskrit.json": {
+    kind: "external_extract",
+    entityKind: "teaching",
+    expectedSourceId: "src_mueller_nanjio_anecdota_1884",
+    notes: "Heart Sūtra — Sanskrit short recension (Müller & Nanjio 1884). Public domain.",
+  },
+  "teachings-sutra-diamond-kumarajiva.json": {
+    kind: "external_extract",
+    entityKind: "teaching",
+    expectedSourceId: "src_taisho_canon",
+    notes: "Diamond Sūtra — Kumārajīva's Chinese (T235). Public domain.",
+  },
+  "teachings-sutra-diamond-sanskrit.json": {
+    kind: "external_extract",
+    entityKind: "teaching",
+    expectedSourceId: "src_mueller_anecdota_1881",
+    notes: "Diamond Sūtra — Sanskrit (Müller 1881 ed.). Public domain.",
+  },
+  "teachings-sutra-platform-zongbao.json": {
+    kind: "external_extract",
+    entityKind: "teaching",
+    expectedSourceId: "src_taisho_canon",
+    notes: "Platform Sūtra — Zongbao Chinese recension (T2008). Public domain.",
+  },
+  "teachings-sutra-lotus-kern.json": {
+    kind: "external_extract",
+    entityKind: "teaching",
+    expectedSourceId: "src_kern_lotus_1884",
+    notes: "Lotus Sūtra — Kern English (Universal Gate ch. XXIV). Public domain.",
+  },
+  "teachings-sutra-lotus-kumarajiva.json": {
+    kind: "external_extract",
+    entityKind: "teaching",
+    expectedSourceId: "src_taisho_canon",
+    notes: "Lotus Sūtra — Kumārajīva's Chinese (T262, ch. 25). Public domain.",
+  },
+  "teachings-sutra-lotus-japanese.json": {
+    kind: "editorial_overlay",
+    entityKind: "teaching",
+    expectedSourceId: "src_sutras_curated_pd",
+    notes: "Lotus Sūtra — Sino-Japanese chant (Kannon-gyō). Public domain.",
+  },
+  "teachings-sutra-lotus-sanskrit.json": {
+    kind: "external_extract",
+    entityKind: "teaching",
+    expectedSourceId: "src_kern_nanjio_lotus_1908",
+    notes: "Lotus Sūtra — Sanskrit (Kern–Nanjio Bibliotheca Buddhica X). Public domain.",
+  },
 };
 
 const DEFAULT_TEACHINGS_DATASET_CONFIG: RawDatasetConfig = {

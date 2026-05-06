@@ -22,6 +22,13 @@ export interface SutraTranslation {
   slug: string;
   /** Short label for the chip — translator surname + year. */
   chipLabel: string;
+  /** Two- or three-character language tag rendered above chipLabel
+   *  in the chip (EN, SA, 漢, 日). */
+  langLabel: string;
+  /** BCP-47-ish locale of the prose body. Drives `lang=` on the
+   *  rendered article so screen readers and font-fallback select
+   *  appropriate behaviour for CJK and Sanskrit. */
+  language: string;
   /** Long label for the source footer. */
   fullLabel: string;
   translator: string;
@@ -221,19 +228,31 @@ export default function SutraReader({
             <button
               key={t.slug}
               type="button"
-              className={`glossary-filter-chip${
-                t.slug === active.slug ? " glossary-filter-chip--active" : ""
+              className={`sutra-chip${
+                t.slug === active.slug ? " sutra-chip--active" : ""
               }`}
               onClick={() => handleSelect(t.slug)}
               aria-pressed={t.slug === active.slug}
+              lang={t.language}
             >
-              {t.chipLabel}
+              <span
+                className="sutra-chip-lang"
+                aria-hidden="true"
+                lang={t.language}
+              >
+                {t.langLabel}
+              </span>
+              <span className="sutra-chip-label">{t.chipLabel}</span>
             </button>
           ))}
         </div>
       </div>
 
-      <article ref={articleRef} className="sutra-prose detail-summary">
+      <article
+        ref={articleRef}
+        className="sutra-prose detail-summary"
+        lang={active.language}
+      >
         {sections.map((section) => (
           <section
             key={section.passageNumber}

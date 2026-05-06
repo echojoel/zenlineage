@@ -290,6 +290,55 @@ const SOURCES = [
     reliability: "scholarly",
   },
   {
+    id: "src_taisho_canon",
+    type: "text_edition",
+    title:
+      "Taishō Shinshū Daizōkyō (大正新脩大藏經) — Chinese Buddhist canon, Tokyo 1924–1934",
+    author: "Takakusu Junjirō, Watanabe Kaigyoku (eds.)",
+    url: "https://21dzk.l.u-tokyo.ac.jp/SAT/",
+    publicationDate: "1924",
+    reliability: "scholarly",
+  },
+  {
+    id: "src_mueller_anecdota_1881",
+    type: "text_edition",
+    title: "The Vajracchedikā or Diamond-Cutter (Sanskrit), F. Max Müller (ed.)",
+    author: "F. Max Müller (ed.)",
+    url: "https://archive.org/details/anecdotaoxonien01anecgoog",
+    publicationDate: "1881",
+    reliability: "scholarly",
+  },
+  {
+    id: "src_mueller_nanjio_anecdota_1884",
+    type: "text_edition",
+    title:
+      "The Ancient Palm-Leaves containing the Prajñā-Pāramitā-Hṛdaya-Sūtra (Sanskrit, short recension), F. Max Müller & B. Nanjio (eds.)",
+    author: "F. Max Müller & Bunyiu Nanjio (eds.)",
+    url: "https://archive.org/details/anecdotaoxonien03nanjgoog",
+    publicationDate: "1884",
+    reliability: "scholarly",
+  },
+  {
+    id: "src_kern_lotus_1884",
+    type: "text_edition",
+    title:
+      "Saddharma-Puṇḍarīka, or the Lotus of the True Law — H. Kern (trans.), Sacred Books of the East, vol. XXI",
+    author: "Hendrik Kern (trans.)",
+    url: "https://archive.org/details/sacredbooksofeas21ml",
+    publicationDate: "1884",
+    reliability: "scholarly",
+  },
+  {
+    id: "src_kern_nanjio_lotus_1908",
+    type: "text_edition",
+    title:
+      "Saddharma-Puṇḍarīka — Sanskrit edition (Bibliotheca Buddhica X), H. Kern & B. Nanjio (eds.)",
+    author: "H. Kern & B. Nanjio (eds.)",
+    url: "https://archive.org/details/saddharmapundari00kernuoft",
+    publicationDate: "1908",
+    reliability: "scholarly",
+  },
+  {
     id: "src_sutras_curated_pd",
     type: "curated_translation_set",
     title:

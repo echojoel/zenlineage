@@ -1,5 +1,6 @@
 import type { ReactNode } from "react";
 import React from "react";
+import { linkifyText, type LinkTerm } from "./linkify-mentions";
 
 /**
  * Inline footnote rendering.
@@ -45,6 +46,14 @@ interface RenderOptions {
   anchorScope?: string;
   /** When true, suppress the per-block Notes list (defaults to false). */
   suppressList?: boolean;
+  /**
+   * Auto-link known mentions inside the prose. When a master name or
+   * sūtra title appears verbatim in a text run, the renderer wraps the
+   * first occurrence in an internal `<Link>`. Footnote-marker spans are
+   * preserved untouched (the linkifier only sees the text *between*
+   * `[N]` markers), so author-controlled citations still take priority.
+   */
+  linkify?: LinkTerm[];
 }
 
 const MARKER_RE = /\[(\d{1,3})\]/g;
@@ -69,7 +78,8 @@ function renderParagraph(
   idScope: string,
   anchorScope: string,
   callSites: CallSiteMap,
-  startCounter: number
+  startCounter: number,
+  linkify: LinkTerm[] | null
 ): { nodes: ReactNode; counter: number } {
   const nodes: ReactNode[] = [];
   let lastIndex = 0;
@@ -77,12 +87,25 @@ function renderParagraph(
   let key = 0;
   let counter = startCounter;
 
+  // Linkify a plain text segment (no footnote markers in it). Falls
+  // through to the raw string when no linkify table is supplied.
+  const pushPlain = (segment: string) => {
+    if (!segment) return;
+    if (linkify && linkify.length > 0) {
+      for (const node of linkifyText(segment, linkify)) {
+        nodes.push(node);
+      }
+    } else {
+      nodes.push(segment);
+    }
+  };
+
   MARKER_RE.lastIndex = 0;
   while ((match = MARKER_RE.exec(text)) !== null) {
     const [token, indexStr] = match;
     const start = match.index;
     if (start > lastIndex) {
-      nodes.push(text.slice(lastIndex, start));
+      pushPlain(text.slice(lastIndex, start));
     }
     const n = parseInt(indexStr, 10);
     if (refs.has(n)) {
@@ -110,7 +133,7 @@ function renderParagraph(
     lastIndex = start + token.length;
   }
   if (lastIndex < text.length) {
-    nodes.push(text.slice(lastIndex));
+    pushPlain(text.slice(lastIndex));
   }
   return { nodes, counter };
 }
@@ -126,7 +149,13 @@ export function renderProseWithFootnotes(
   refs: FootnoteRef[],
   options: RenderOptions
 ): React.JSX.Element {
-  const { idScope, showHeader = true, anchorScope, suppressList = false } = options;
+  const {
+    idScope,
+    showHeader = true,
+    anchorScope,
+    suppressList = false,
+    linkify = null,
+  } = options;
   const targetScope = anchorScope ?? idScope;
 
   const refMap = new Map<number, FootnoteRef>();
@@ -139,7 +168,15 @@ export function renderProseWithFootnotes(
     .map((p) => p.trim())
     .filter((p) => p.length > 0)
     .map((p, i) => {
-      const { nodes, counter: next } = renderParagraph(p, refMap, idScope, targetScope, callSites, counter);
+      const { nodes, counter: next } = renderParagraph(
+        p,
+        refMap,
+        idScope,
+        targetScope,
+        callSites,
+        counter,
+        linkify
+      );
       counter = next;
       return <p key={`p-${i}`}>{nodes}</p>;
     });

@@ -14,7 +14,11 @@ import SutraReader, {
   type SutraTranslation,
 } from "@/components/SutraReader";
 import { abs, breadcrumbSchema, jsonLdString } from "@/lib/seo/jsonld";
-import { getSutraEntry, getSutraRegistry } from "@/lib/sutra-registry";
+import {
+  getDefaultTranslationSlug,
+  getSutraEntry,
+  getSutraRegistry,
+} from "@/lib/sutra-registry";
 
 export async function generateStaticParams() {
   return getSutraRegistry().map((s) => ({ slug: s.slug }));
@@ -57,6 +61,9 @@ export default async function SutraDetailPage({
   const entry = getSutraEntry(slug);
   if (!entry) notFound();
 
+  // Pull every translation of this sūtra in any locale — original
+  // languages (zh-Hant, sa-Latn, ja-Latn) ride alongside the English
+  // ones so a reader can flip between them.
   const rows = await db
     .select({
       teachingId: teachings.id,
@@ -66,14 +73,12 @@ export default async function SutraDetailPage({
       translator: teachingContent.translator,
       edition: teachingContent.edition,
       licenseStatus: teachingContent.licenseStatus,
+      locale: teachingContent.locale,
     })
     .from(teachings)
     .innerJoin(
       teachingContent,
-      and(
-        eq(teachingContent.teachingId, teachings.id),
-        eq(teachingContent.locale, "en")
-      )
+      eq(teachingContent.teachingId, teachings.id)
     )
     .where(
       and(
@@ -140,13 +145,15 @@ export default async function SutraDetailPage({
   }
 
   const rowBySlug = new Map(rows.map((r) => [r.slug, r]));
-  const translations: SutraTranslation[] = entry.translatorOrder
+  const translations: SutraTranslation[] = entry.translations
     .map((order) => {
       const row = rowBySlug.get(order.slug);
       if (!row) return null;
       return {
         slug: row.slug,
         chipLabel: order.chipLabel,
+        langLabel: order.langLabel,
+        language: order.language,
         fullLabel: `${row.translator ?? "Unknown"} (${row.edition ?? ""})`,
         translator: row.translator ?? "Unknown",
         edition: row.edition ?? "",
@@ -159,7 +166,10 @@ export default async function SutraDetailPage({
     })
     .filter((t): t is SutraTranslation => t !== null);
 
-  const defaultTranslator = translations[0]?.slug ?? rows[0].slug;
+  const defaultTranslator =
+    getDefaultTranslationSlug(entry) ??
+    translations[0]?.slug ??
+    rows[0].slug;
   const canonicalUrl = abs(`/sutras/${slug}`);
 
   const breadcrumbLd = breadcrumbSchema([

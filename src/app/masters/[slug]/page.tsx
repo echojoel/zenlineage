@@ -25,6 +25,8 @@ import {
 } from "@/lib/publishable-content";
 import { formatLifeRange } from "@/lib/date-format";
 import { renderProseWithFootnotes, type FootnoteRef } from "@/lib/footnotes";
+import { buildSutraLinkTerms } from "@/lib/linkify-mentions";
+import { loadMasterLinkTerms } from "@/lib/linkify-mentions-server";
 import { like } from "drizzle-orm";
 import { AccuracyFooter, type AccuracyField } from "@/components/AccuracyFooter";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
@@ -616,6 +618,16 @@ export default async function MasterDetailPage({ params }: { params: Promise<{ s
     biographyRow && isPublishedBiography(biographyRow.id, itemCitationKeys)
       ? biographyRow.content
       : null;
+
+  // Auto-link mentions of *other* masters and any sūtras inside the
+  // biography prose. Self-link is suppressed by passing the current
+  // master id to the term builder.
+  const bioLinkTerms = publishedBiography
+    ? [
+        ...(await loadMasterLinkTerms({ excludeMasterId: master.id })),
+        ...buildSutraLinkTerms(),
+      ]
+    : [];
   // Whole-text "works" (Shōbōgenzō, Fukanzazengi, Linji Lu…) are modelled
   // as teachings with type='work'. They get a dedicated section above the
   // finer-grained sayings/koans/verses so a reader landing on a master's
@@ -787,6 +799,7 @@ export default async function MasterDetailPage({ params }: { params: Promise<{ s
             <div className="detail-summary">
               {renderProseWithFootnotes(publishedBiography, biographyFootnoteRefs, {
                 idScope: master.slug,
+                linkify: bioLinkTerms,
               })}
             </div>
           )}

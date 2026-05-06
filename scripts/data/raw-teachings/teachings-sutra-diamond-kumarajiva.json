@@ -1,0 +1,20 @@
+[
+  {
+    "slug": "diamond-sutra-kumarajiva",
+    "type": "sutra",
+    "author_slug": "unknown",
+    "collection": "Diamond Sūtra",
+    "compiler": "鳩摩羅什 (Kumārajīva)",
+    "era": "Yao Qin (Chinese recension, c. 401 CE)",
+    "attribution_status": "verified",
+    "locale": "zh-Hant",
+    "title": "金剛般若波羅蜜經 (Kumārajīva, c. 401) — selected chapters",
+    "content": "## §1 法會因由分\n\n如是我聞。一時，佛在舍衛國祇樹給孤獨園，與大比丘眾千二百五十人俱。爾時，世尊食時，著衣持缽，入舍衛大城乞食。於其城中，次第乞已，還至本處。飯食訖，收衣缽，洗足已，敷座而坐。\n\n## §5 如理實見分\n\n須菩提，於意云何，可以身相見如來不？不也，世尊，不可以身相得見如來。何以故？如來所說身相，即非身相。佛告須菩提：凡所有相，皆是虛妄。若見諸相非相，則見如來。\n\n## §10 莊嚴淨土分\n\n是故須菩提，諸菩薩摩訶薩，應如是生清淨心：不應住色生心，不應住聲香味觸法生心。應無所住而生其心。\n\n## §26 法身非相分\n\n爾時，世尊而說偈言：\n\n*若以色見我，以音聲求我，*\n*是人行邪道，不能見如來。*\n\n## §32 應化非真分\n\n何以故？\n\n*一切有為法，如夢幻泡影，*\n*如露亦如電，應作如是觀。*\n\n佛說是經已，長老須菩提及諸比丘比丘尼優婆塞優婆夷，一切世間天人阿修羅，聞佛所說，皆大歡喜，信受奉行。",
+    "source_id": "src_taisho_canon",
+    "ingestion_run_id": "run_sutras_originals_pd_initial",
+    "locator": "Taishō Tripiṭaka T235 (selections from chapters 1, 5, 10, 26, 32)",
+    "translator": "鳩摩羅什 Kumārajīva",
+    "edition": "Taishō Daizōkyō, vol. 8, no. 235 (Kumārajīva's recension, c. 401 CE)",
+    "license_status": "public_domain"
+  }
+]
