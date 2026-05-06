@@ -2031,7 +2031,11 @@ a.footnote-source-link:hover {
 }
 
 .practice-map-popup h4 {
+  /* Reserve space on the right so the maplibre close (×) button never
+   * lands on top of long temple names. The ×'s hit area is ~1.6rem
+   * including its inset; 1.75rem leaves a comfortable gap. */
   margin: 0 0 0.2rem;
+  padding-right: 1.75rem;
   font-family: var(--font-cormorant), Georgia, serif;
   font-size: 1.2rem;
   font-weight: 500;
