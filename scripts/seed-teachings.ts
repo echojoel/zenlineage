@@ -18,6 +18,7 @@ import { masters } from "@/db/schema";
 import seedSources from "./seed-sources";
 import type { RawTeaching } from "./scraper-types";
 import { startIngestionRun, finishIngestionRun } from "./ingestion-provenance";
+import { themesForTeaching } from "./data/auto-themes";
 
 const RAW_TEACHINGS_DIR = path.join(
   import.meta.dirname ?? path.dirname(new URL(import.meta.url).pathname),
@@ -71,8 +72,29 @@ async function seedTeachings(): Promise<void> {
   let seededCount = 0;
   let skippedCount = 0;
 
+  const PERMISSIVE_LICENSES = new Set([
+    "public_domain",
+    "cc_by",
+    "cc_by_sa",
+  ]);
+
   // 5. Process each teaching
   for (const row of rawData) {
+    // Sūtras are reproduced in full on the public site, so any
+    // translation we ship must carry a permissive license. Refuse to
+    // seed an NC/ND/fair_use/unknown sūtra translation — fail noisily
+    // at build time so a bad commit can never reach a deploy.
+    if (row.type === "sutra") {
+      const license = row.license_status ?? "unknown";
+      if (!PERMISSIVE_LICENSES.has(license)) {
+        throw new Error(
+          `[seed-teachings] License gate: sūtra "${row.slug}" has ` +
+            `license_status="${license}". Sūtra translations must be ` +
+            `public_domain, cc_by, or cc_by_sa. Aborting seed.`
+        );
+      }
+    }
+
     // a. Resolve author_slug → masterId (null for "unknown" authors)
     if (row.author_slug !== "unknown" && !slugToMasterId.has(row.author_slug)) {
       console.warn(
@@ -208,17 +230,21 @@ async function seedTeachings(): Promise<void> {
       }
     }
 
-    // h. Upsert teachingThemes if present
-    if (row.themes && row.themes.length > 0) {
-      for (const themeSlug of row.themes) {
-        await db
-          .insert(teachingThemes)
-          .values({
-            teachingId,
-            themeId: themeSlug,
-          })
-          .onConflictDoNothing();
-      }
+    // h. Upsert teachingThemes. If the source row provides explicit
+    // themes use those; otherwise fall back to keyword-derived tagging
+    // so every teaching is at least minimally faceted.
+    const themeSlugs =
+      row.themes && row.themes.length > 0
+        ? row.themes
+        : themesForTeaching({ title: row.title, content: row.content });
+    for (const themeSlug of themeSlugs) {
+      await db
+        .insert(teachingThemes)
+        .values({
+          teachingId,
+          themeId: themeSlug,
+        })
+        .onConflictDoNothing();
     }
 
     console.log(`  ✓ ${row.slug}`);

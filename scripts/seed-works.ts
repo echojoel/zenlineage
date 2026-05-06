@@ -15,16 +15,19 @@
  */
 
 import { db } from "@/db";
+import { eq } from "drizzle-orm";
 import {
   citations,
   masters,
   teachingContent,
   teachingMasterRoles,
+  teachingThemes,
   teachings,
 } from "@/db/schema";
 import { deterministicId } from "./reconcile";
 import { startIngestionRun, finishIngestionRun } from "./ingestion-provenance";
 import { WORKS, type WorkSeed } from "./data/works";
+import { themesForTeaching } from "./data/auto-themes";
 
 async function seedWorks(): Promise<void> {
   const runContext = await startIngestionRun({
@@ -56,6 +59,7 @@ async function seedWorks(): Promise<void> {
     await upsertOriginalContent(work, teachingId);
     await upsertAuthorRole(teachingId, authorId);
     await upsertCitation(work, teachingId);
+    await upsertThemes(teachingId, work);
 
     console.log(`  ✓ ${work.slug}`);
     seeded++;
@@ -154,6 +158,17 @@ async function upsertAuthorRole(teachingId: string, authorId: string) {
     .insert(teachingMasterRoles)
     .values({ teachingId, masterId: authorId, role: "attributed_to" })
     .onConflictDoNothing();
+}
+
+async function upsertThemes(teachingId: string, work: WorkSeed) {
+  const slugs = themesForTeaching({ title: work.title, content: work.description });
+  await db.delete(teachingThemes).where(eq(teachingThemes.teachingId, teachingId));
+  for (const themeSlug of slugs) {
+    await db
+      .insert(teachingThemes)
+      .values({ teachingId, themeId: themeSlug })
+      .onConflictDoNothing();
+  }
 }
 
 async function upsertCitation(work: WorkSeed, teachingId: string) {

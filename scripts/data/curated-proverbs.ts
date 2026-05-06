@@ -49,6 +49,9 @@ export interface CuratedProverb {
   collection?: string;
   /** Attribution role — default "attributed_to". */
   role?: "speaker" | "attributed_to" | "compiler" | "commentator";
+  /** Theme tags — slugs from scripts/data/themes.json. Used to populate
+   * teaching_themes for the theme-faceted /proverbs/themes/[slug] pages. */
+  themes?: string[];
 }
 
 export const CURATED_PROVERB_SOURCES: CuratedProverbSource[] = [

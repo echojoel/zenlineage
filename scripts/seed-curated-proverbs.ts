@@ -25,6 +25,7 @@ import {
   sources,
   teachingContent,
   teachingMasterRoles,
+  teachingThemes,
   teachings,
 } from "@/db/schema";
 import {
@@ -37,6 +38,7 @@ import {
   EXPANSION_PROVERB_SOURCES,
   EXPANSION_PROVERBS,
 } from "./data/proverbs";
+import { themesForTeaching } from "./data/auto-themes";
 
 const ALL_SOURCES: CuratedProverbSource[] = [
   ...CURATED_PROVERB_SOURCES,
@@ -130,6 +132,21 @@ async function upsertProverb(p: CuratedProverb): Promise<void> {
     masterId: attributedMasterId,
     role: p.role ?? "attributed_to",
   });
+
+  // Replace teaching_themes for this proverb. Use explicit themes if the
+  // source data provides them, otherwise fall back to keyword-derived
+  // tagging so every proverb is at least minimally faceted.
+  const themeSlugs =
+    p.themes && p.themes.length > 0
+      ? p.themes
+      : themesForTeaching({ title: p.title, content: p.content });
+  await db.delete(teachingThemes).where(eq(teachingThemes.teachingId, teachingId));
+  for (const themeSlug of themeSlugs) {
+    await db
+      .insert(teachingThemes)
+      .values({ teachingId, themeId: themeSlug })
+      .onConflictDoNothing();
+  }
 
   // Replace teaching-level citations
   await db
