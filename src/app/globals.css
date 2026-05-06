@@ -1125,16 +1125,18 @@ a.footnote-source-link:hover {
 }
 
 .about-credit {
-  margin: 0.5rem auto 0;
+  margin: 2rem auto 0;
   padding: 1rem 0 0.5rem;
   max-width: 38rem;
   border-top: 1px solid rgba(122, 106, 85, 0.12);
-  font-family: var(--font-cormorant), Georgia, serif;
-  font-style: italic;
-  font-size: 0.75rem;
+  font-family: var(--font-inter), system-ui, sans-serif;
+  font-style: normal;
+  font-size: 0.7rem;
   line-height: 1.6;
+  letter-spacing: 0.04em;
   color: var(--ink-light);
   text-align: center;
+  opacity: 0.85;
 }
 
 .about-credit p {

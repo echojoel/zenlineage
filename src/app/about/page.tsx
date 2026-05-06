@@ -669,6 +669,21 @@ export default function AboutPage() {
           </figcaption>
         </figure>
 
+        <figure className="about-figure">
+          <Image
+            src="/masters/taisen-deshimaru.webp"
+            alt="Taisen Deshimaru, who established Sōtō Zen in Europe"
+            width={320}
+            height={320}
+            className="about-section-image"
+          />
+          <figcaption className="figure-credit">
+            Taisen Deshimaru (1914–1982), Sōtō teacher who carried zazen to Europe and
+            founded the Association Zen Internationale (photo via Wikimedia Commons,
+            fair use / educational).
+          </figcaption>
+        </figure>
+
         <section className="detail-card">
           <h3 className="detail-section-title">The Ensō</h3>
           <div className="detail-summary">
