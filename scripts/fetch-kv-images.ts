@@ -75,6 +75,11 @@ const TARGETS: Record<string, string[]> = {
   // Olivier Wang-Genh — fr.wiki only; en.wiki search returns 404, so we
   // give an empty title list and rely on EXTERNAL_PORTRAITS below.
   "olivier-reigen-wang-genh": [],
+  // The next three have no Wikipedia article in any language; portraits
+  // come from their primary sangha sites via EXTERNAL_PORTRAITS.
+  "jean-pierre-genshu-faure": [],
+  "evelyne-eko-de-smedt": [],
+  "stephane-kosen-thibaut": [],
   "shodo-harada": ["Shodo Harada", "Shōdō Harada"],
   "harada-sodo-kakusho": ["Shōdō Harada", "Shodo Harada"],
   "nyogen-senzaki": ["Nyogen Senzaki"],
@@ -184,6 +189,32 @@ const EXTERNAL_PORTRAITS: Record<string, ExternalPortrait> = {
     sourcePageUrl: "https://fr.wikipedia.org/wiki/Olivier_Wang-Genh",
     attribution: "fr.wikipedia.org / Wikimedia Commons",
     license: "CC BY-SA 4.0",
+  },
+  // Jean-Pierre Taiun (Genshū) Faure — abbot of Kanshoji. Portrait from his
+  // teacher page on the official AZI directory.
+  "jean-pierre-genshu-faure": {
+    imageUrl:
+      "https://www.zen-azi.org/sites/default/files/styles/xlarge/public/images/pages/JP-Taiun-Faure.png",
+    sourcePageUrl: "https://www.zen-azi.org/fr/node/4205",
+    attribution: "Association Zen Internationale (zen-azi.org) — Maître Jean-Pierre Taiun Faure",
+    license: "courtesy of AZI / fair use for educational identification",
+  },
+  // Évelyne Ekō / Reiko de Smedt — Deshimaru disciple, AZI teacher.
+  "evelyne-eko-de-smedt": {
+    imageUrl:
+      "https://www.zen-azi.org/sites/default/files/styles/xlarge/public/images/pages/Evelyne-Reiko-de-Schmedt.png",
+    sourcePageUrl: "https://www.zen-azi.org/fr/node/4204",
+    attribution: "Association Zen Internationale (zen-azi.org) — Maître Évelyne Reiko de Smedt",
+    license: "courtesy of AZI / fair use for educational identification",
+  },
+  // Stéphane Kōsen Thibaut — founder of Kosen Sangha. Portrait from the
+  // sangha's official "Maître Kosen" presentation page.
+  "stephane-kosen-thibaut": {
+    imageUrl:
+      "https://medias.zen-deshimaru.com/photos/master-kosen-ordination/master-kosen-ordination-1024w.webp",
+    sourcePageUrl: "https://www.zen-deshimaru.com/fr/association-abzd/maitre-kosen/",
+    attribution: "Kosen Sangha (zen-deshimaru.com) — Maître Kosen",
+    license: "courtesy of Kosen Sangha / fair use for educational identification",
   },
 };
 
