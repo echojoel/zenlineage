@@ -7264,6 +7264,38 @@
     "excerpt": "Xianglin Chengyuan"
   },
   {
+    "id": "kSd-EUNBWl0ksVJAdEp0C",
+    "source_id": "src_sotozen_founders",
+    "entity_type": "master",
+    "entity_id": "kc5K6WIK0uzVNDoMe3maY",
+    "field_name": "dates",
+    "excerpt": "1948-"
+  },
+  {
+    "id": "rEWDFOxQURa3emc2LrMst",
+    "source_id": "src_sotozen_founders",
+    "entity_type": "master",
+    "entity_id": "kc5K6WIK0uzVNDoMe3maY",
+    "field_name": "name",
+    "excerpt": "Shōhaku Okumura"
+  },
+  {
+    "id": "01edg1MxXpPbb-Ksaoe-F",
+    "source_id": "src_sotozen_founders",
+    "entity_type": "master",
+    "entity_id": "kc5K6WIK0uzVNDoMe3maY",
+    "field_name": "school",
+    "excerpt": "Soto"
+  },
+  {
+    "id": "xc3hoZocIvgLC5R9aDRSn",
+    "source_id": "src_sotozen_founders",
+    "entity_type": "master",
+    "entity_id": "kc5K6WIK0uzVNDoMe3maY",
+    "field_name": "teachers",
+    "excerpt": "Kosho Uchiyama"
+  },
+  {
     "id": "SFyycIzglSVth8wSD3U9Y",
     "source_id": "src_chan_ancestors_pdf",
     "entity_type": "master",
@@ -8286,6 +8318,38 @@
     "entity_id": "MRUgXjS05THSbaFxxRBWe",
     "field_name": "teachers",
     "excerpt": "Dongshan Liangjie"
+  },
+  {
+    "id": "itP9dGkhw0T_Kjn2xhlLs",
+    "source_id": "src_sotozen_founders",
+    "entity_type": "master",
+    "entity_id": "mskfTp9nq5SjOveloxzAt",
+    "field_name": "dates",
+    "excerpt": "1961-"
+  },
+  {
+    "id": "QRMuyAvn-RMxynO_JskAt",
+    "source_id": "src_sotozen_founders",
+    "entity_type": "master",
+    "entity_id": "mskfTp9nq5SjOveloxzAt",
+    "field_name": "name",
+    "excerpt": "Iván Densho Quintero"
+  },
+  {
+    "id": "rpQzk5spe5g1T2EWH_kZt",
+    "source_id": "src_sotozen_founders",
+    "entity_type": "master",
+    "entity_id": "mskfTp9nq5SjOveloxzAt",
+    "field_name": "school",
+    "excerpt": "Soto"
+  },
+  {
+    "id": "FRij6WQTeS7hkAkWC2WHv",
+    "source_id": "src_sotozen_founders",
+    "entity_type": "master",
+    "entity_id": "mskfTp9nq5SjOveloxzAt",
+    "field_name": "teachers",
+    "excerpt": "Shōhaku Okumura"
   },
   {
     "id": "fM6i6fYX-VQr_y4B_mtmR",

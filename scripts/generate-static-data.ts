@@ -19,6 +19,8 @@ import {
   schoolNames,
   searchTokens,
   sources,
+  teachings,
+  teachingContent,
   templeNames,
   temples,
 } from "@/db/schema";
@@ -27,10 +29,14 @@ import {
   buildCitationKeySet,
   getPublishedImageAsset,
   isPublishedBiography,
+  isPublishedTeaching,
 } from "@/lib/publishable-content";
 import { schoolHexColor } from "@/lib/temple-colors";
 import { SCHOOL_PRACTICE_TEACHINGS } from "@/lib/practice-instructions";
 import { loadPracticeInstructions } from "@/lib/practice-instructions-data";
+import { getSchoolDefinitions } from "@/lib/school-taxonomy";
+import { buildGlossary, termAnchorId } from "@/lib/glossary-data";
+import type { SearchEntry } from "@/lib/search-types";
 
 const OUT_DIR = path.join(process.cwd(), "public", "data");
 
@@ -627,6 +633,181 @@ async function generatePracticeInstructionsJson() {
   );
 }
 
+function clipBlurb(text: string | null | undefined, maxChars = 140): string | undefined {
+  if (!text) return undefined;
+  const collapsed = text.replace(/\s+/g, " ").trim();
+  if (collapsed.length <= maxChars) return collapsed;
+  return collapsed.slice(0, maxChars - 1).trimEnd() + "…";
+}
+
+async function generateSearchIndexJson() {
+  console.log("Generating search-index.json...");
+
+  // 1. Citation gate set — covers both biographies and teachings.
+  const citationRows = await db
+    .select({
+      entityType: citations.entityType,
+      entityId: citations.entityId,
+    })
+    .from(citations);
+  const citationKeys = buildCitationKeySet(citationRows);
+
+  const entries: SearchEntry[] = [];
+
+  // 2. Masters — name + native + school + biography first line.
+  const masterRows = await db
+    .select({
+      id: masters.id,
+      slug: masters.slug,
+      schoolId: masters.schoolId,
+    })
+    .from(masters);
+
+  const masterNameRows = await db
+    .select({
+      masterId: masterNames.masterId,
+      nameType: masterNames.nameType,
+      locale: masterNames.locale,
+      value: masterNames.value,
+    })
+    .from(masterNames);
+
+  const enNameByMaster = new Map<string, string>();
+  const nativeNameByMaster = new Map<string, string>();
+  for (const n of masterNameRows) {
+    if (n.locale === "en" && n.nameType === "dharma" && !enNameByMaster.has(n.masterId)) {
+      enNameByMaster.set(n.masterId, n.value);
+    }
+  }
+  for (const n of masterNameRows) {
+    if (n.locale === "en" && !enNameByMaster.has(n.masterId)) {
+      enNameByMaster.set(n.masterId, n.value);
+    }
+    if (n.locale !== "en" && !nativeNameByMaster.has(n.masterId)) {
+      nativeNameByMaster.set(n.masterId, n.value);
+    }
+  }
+
+  const schoolNameById = new Map<string, string>();
+  for (const r of await db
+    .select({ schoolId: schoolNames.schoolId, value: schoolNames.value })
+    .from(schoolNames)
+    .where(eq(schoolNames.locale, "en"))) {
+    if (!schoolNameById.has(r.schoolId)) schoolNameById.set(r.schoolId, r.value);
+  }
+
+  const bioRows = await db
+    .select({
+      id: masterBiographies.id,
+      masterId: masterBiographies.masterId,
+      content: masterBiographies.content,
+    })
+    .from(masterBiographies)
+    .where(eq(masterBiographies.locale, "en"));
+  const bioByMaster = new Map<string, { id: string; content: string }>();
+  for (const b of bioRows) {
+    if (!bioByMaster.has(b.masterId)) {
+      bioByMaster.set(b.masterId, { id: b.id, content: b.content ?? "" });
+    }
+  }
+
+  for (const m of masterRows) {
+    const title = enNameByMaster.get(m.id) ?? m.slug;
+    const bio = bioByMaster.get(m.id);
+    if (!isPublishedBiography(bio?.id ?? null, citationKeys)) continue;
+    entries.push({
+      type: "master",
+      slug: m.slug,
+      title,
+      nativeTitle: nativeNameByMaster.get(m.id),
+      secondary: m.schoolId ? schoolNameById.get(m.schoolId) : undefined,
+      blurb: clipBlurb(bio?.content),
+      url: `/masters/${m.slug}`,
+    });
+  }
+
+  // 3. Schools — name + tradition + summary first line.
+  for (const s of getSchoolDefinitions()) {
+    const blurbSource = s.summary ?? s.practice;
+    entries.push({
+      type: "school",
+      slug: s.slug,
+      title: s.name,
+      nativeTitle: s.nativeNames
+        ? s.nativeNames.zh ?? s.nativeNames.ja ?? s.nativeNames.ko ?? s.nativeNames.vi
+        : undefined,
+      secondary: s.tradition,
+      blurb: clipBlurb(blurbSource?.replace(/\[\d+\]/g, "")),
+      url: `/schools/${s.slug}`,
+    });
+  }
+
+  // 4. Teachings — title + author + content snippet, citation-gated.
+  const teachingRows = await db
+    .select({
+      id: teachings.id,
+      slug: teachings.slug,
+      type: teachings.type,
+      collection: teachings.collection,
+      authorId: teachings.authorId,
+      title: teachingContent.title,
+      content: teachingContent.content,
+    })
+    .from(teachings)
+    .leftJoin(
+      teachingContent,
+      and(
+        eq(teachingContent.teachingId, teachings.id),
+        eq(teachingContent.locale, "en")
+      )
+    );
+
+  for (const t of teachingRows) {
+    if (!t.title) continue;
+    if (!isPublishedTeaching({ id: t.id }, citationKeys)) continue;
+    const authorName = t.authorId ? enNameByMaster.get(t.authorId) : undefined;
+    const secondaryParts: string[] = [];
+    if (t.collection) secondaryParts.push(t.collection);
+    if (authorName) secondaryParts.push(authorName);
+    entries.push({
+      type: "teaching",
+      slug: t.slug,
+      title: t.title,
+      secondary: secondaryParts.join(" · ") || (t.type ?? undefined),
+      blurb: clipBlurb(t.content),
+      url: `/teachings/${t.slug}`,
+    });
+  }
+
+  // 5. Glossary — flatten unique key concepts from school taxonomy.
+  const glossary = buildGlossary();
+  for (const g of glossary) {
+    entries.push({
+      type: "glossary",
+      slug: g.termKey,
+      title: g.displayTerm,
+      nativeTitle: g.nativeTerm,
+      secondary: g.schools.map((s) => s.name).slice(0, 3).join(" · "),
+      blurb: clipBlurb(g.description),
+      url: `/glossary#${termAnchorId(g.termKey)}`,
+    });
+  }
+
+  fs.writeFileSync(
+    path.join(OUT_DIR, "search-index.json"),
+    JSON.stringify(entries)
+  );
+  const counts = entries.reduce<Record<string, number>>((acc, e) => {
+    acc[e.type] = (acc[e.type] ?? 0) + 1;
+    return acc;
+  }, {});
+  console.log(
+    `  -> ${entries.length} entries (${Object.entries(counts)
+      .map(([k, v]) => `${v} ${k}`)
+      .join(", ")})`
+  );
+}
+
 async function main() {
   fs.mkdirSync(OUT_DIR, { recursive: true });
 
@@ -639,6 +820,7 @@ async function main() {
   await generateMastersJson();
   await generateTemplesJson();
   await generatePracticeInstructionsJson();
+  await generateSearchIndexJson();
 
   console.log("Done.");
   process.exit(0);

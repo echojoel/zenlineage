@@ -229,6 +229,7 @@ export default async function Home() {
           { label: "Masters", href: "/masters" },
           { label: "Lineage", href: "/lineage" },
           { label: "Schools", href: "/schools" },
+          { label: "Glossary", href: "/glossary" },
           { label: "Practice", href: "/practice" },
           { label: "Timeline", href: "/timeline" },
           { label: "About", href: "/about" },

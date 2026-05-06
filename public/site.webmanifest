@@ -1,0 +1,13 @@
+{
+  "name": "Zen Lineage",
+  "short_name": "Zen Lineage",
+  "description": "An interactive encyclopedia of Zen Buddhism — lineage, masters, schools, teachings.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#faf9f7",
+  "theme_color": "#5a7a5a",
+  "icons": [
+    { "src": "/favicon.ico", "sizes": "any", "type": "image/x-icon" },
+    { "src": "/apple-icon.png", "sizes": "180x180", "type": "image/png" }
+  ]
+}

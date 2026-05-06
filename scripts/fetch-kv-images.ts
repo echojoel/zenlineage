@@ -104,6 +104,10 @@ const TARGETS: Record<string, string[]> = {
   "mumon-yamada": ["Mumon Yamada"],
   "kosho-uchiyama": ["Kōshō Uchiyama", "Kosho Uchiyama"],
   "sawaki-kodo": ["Kōdō Sawaki", "Kodo Sawaki"],
+  "shohaku-okumura": ["Shōhaku Okumura", "Shohaku Okumura"],
+  // Iván Densho Quintero — no Wikipedia article in any language; portrait
+  // comes from the Sōtōshū 120th-anniversary site via EXTERNAL_PORTRAITS.
+  "ivan-densho-quintero": [],
 };
 
 async function smartFetch(url: string, retries = 3): Promise<Response> {
@@ -236,6 +240,19 @@ const EXTERNAL_PORTRAITS: Record<string, ExternalPortrait> = {
     sourcePageUrl: "https://www.mokushozen.hu/en/sample-page/our-story/",
     attribution: "Mokusho Zen House Budapest (mokushozen.hu) — Vincent Keisen Vuillemin",
     license: "courtesy of Mokusho Zen House / fair use for educational identification",
+  },
+  // Iván Densho Quintero — Colombian Sōtō missionary, dharma heir of Shōhaku
+  // Okumura. Portrait from the Sōtōshū's official 120th-anniversary site
+  // (sotozen120.org), where he is featured as one of the international
+  // missionary teachers. Image is hosted on Wix (static.wixstatic.com)
+  // behind the Sōtōshū-curated about page.
+  "ivan-densho-quintero": {
+    imageUrl:
+      "https://static.wixstatic.com/media/1f383b_16a25d4e4be746449720b840440660d6~mv2.jpg",
+    sourcePageUrl: "https://www.sotozen120.org/about-5",
+    attribution:
+      "Sōtōshū / Sotozen 120 (sotozen120.org) — Densho Quintero, international missionary",
+    license: "courtesy of Sōtōshū / Sotozen 120 / fair use for educational identification",
   },
 };
 

@@ -9,6 +9,12 @@ export const dynamic = "force-static";
 const BASE_URL = "https://zenlineage.org";
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
+  // Single timestamp for the whole sitemap — the seed-data-is-truth
+  // pipeline rebuilds the DB on every deploy, so per-row mtimes don't
+  // correspond to real content edits. Build time is the most honest
+  // signal we can give crawlers.
+  const lastModified = new Date();
+
   const [allMasters, allSchools, allTeachings] = await Promise.all([
     db.select({ slug: masters.slug }).from(masters),
     db.select({ id: schools.id, slug: schools.slug }).from(schools),
@@ -36,24 +42,27 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       : new Set<string>();
 
   const staticPages: MetadataRoute.Sitemap = [
-    { url: BASE_URL, changeFrequency: "weekly", priority: 1.0 },
-    { url: `${BASE_URL}/masters`, changeFrequency: "weekly", priority: 0.9 },
-    { url: `${BASE_URL}/schools`, changeFrequency: "weekly", priority: 0.9 },
-    { url: `${BASE_URL}/lineage`, changeFrequency: "weekly", priority: 0.9 },
-    { url: `${BASE_URL}/proverbs`, changeFrequency: "weekly", priority: 0.8 },
-    { url: `${BASE_URL}/practice`, changeFrequency: "weekly", priority: 0.8 },
-    { url: `${BASE_URL}/timeline`, changeFrequency: "monthly", priority: 0.8 },
-    { url: `${BASE_URL}/about`, changeFrequency: "monthly", priority: 0.7 },
+    { url: BASE_URL, lastModified, changeFrequency: "weekly", priority: 1.0 },
+    { url: `${BASE_URL}/masters`, lastModified, changeFrequency: "weekly", priority: 0.9 },
+    { url: `${BASE_URL}/schools`, lastModified, changeFrequency: "weekly", priority: 0.9 },
+    { url: `${BASE_URL}/lineage`, lastModified, changeFrequency: "weekly", priority: 0.9 },
+    { url: `${BASE_URL}/proverbs`, lastModified, changeFrequency: "weekly", priority: 0.8 },
+    { url: `${BASE_URL}/practice`, lastModified, changeFrequency: "weekly", priority: 0.8 },
+    { url: `${BASE_URL}/glossary`, lastModified, changeFrequency: "weekly", priority: 0.8 },
+    { url: `${BASE_URL}/timeline`, lastModified, changeFrequency: "monthly", priority: 0.8 },
+    { url: `${BASE_URL}/about`, lastModified, changeFrequency: "monthly", priority: 0.7 },
   ];
 
   const masterPages: MetadataRoute.Sitemap = allMasters.map((m) => ({
     url: `${BASE_URL}/masters/${m.slug}`,
+    lastModified,
     changeFrequency: "monthly",
     priority: 0.6,
   }));
 
   const schoolPages: MetadataRoute.Sitemap = allSchools.map((s: { id: string; slug: string }) => ({
     url: `${BASE_URL}/schools/${s.slug}`,
+    lastModified,
     changeFrequency: "monthly",
     priority: 0.7,
   }));
@@ -79,6 +88,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     )
     .map((s) => ({
       url: `${BASE_URL}/practice/${s.slug}`,
+      lastModified,
       changeFrequency: "monthly",
       priority: 0.7,
     }));
@@ -87,6 +97,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     .filter((t) => citedTeachingIds.has(t.id))
     .map((t) => ({
       url: `${BASE_URL}/teachings/${t.slug}`,
+      lastModified,
       changeFrequency: "monthly",
       priority: 0.6,
     }));

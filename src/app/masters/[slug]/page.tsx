@@ -27,6 +27,13 @@ import { formatLifeRange } from "@/lib/date-format";
 import { renderProseWithFootnotes, type FootnoteRef } from "@/lib/footnotes";
 import { like } from "drizzle-orm";
 import { AccuracyFooter, type AccuracyField } from "@/components/AccuracyFooter";
+import { Breadcrumbs } from "@/components/Breadcrumbs";
+import {
+  abs,
+  breadcrumbSchema,
+  jsonLdString,
+  personSchema,
+} from "@/lib/seo/jsonld";
 
 type Confidence = "high" | "medium" | "low" | null;
 
@@ -564,70 +571,91 @@ export default async function MasterDetailPage({ params }: { params: Promise<{ s
     teachingRows.length - publishedTeachingsAll.length;
   const publishedImage = getPublishedImageAsset(mediaRows, itemCitationKeys);
 
-  const canonicalUrl = `https://zenlineage.org/masters/${master.slug}`;
+  // Sibling masters — others in the same school, excluding the current
+  // master, deterministic chronological order. Used for both the
+  // "Other masters in this school" related section and the JSON-LD's
+  // implied lineage neighborhood. Capped at 6.
+  const siblingMasters = master.schoolId
+    ? (
+        await db
+          .select({
+            id: masters.id,
+            slug: masters.slug,
+            birthYear: masters.birthYear,
+            deathYear: masters.deathYear,
+          })
+          .from(masters)
+          .where(eq(masters.schoolId, master.schoolId))
+      )
+        .filter((m) => m.id !== master.id)
+        .sort((a, b) => (a.birthYear ?? 9999) - (b.birthYear ?? 9999))
+    : [];
+  const siblingIds = siblingMasters.map((m) => m.id);
+  const siblingNameRows =
+    siblingIds.length > 0
+      ? await db
+          .select({
+            masterId: masterNames.masterId,
+            value: masterNames.value,
+            nameType: masterNames.nameType,
+          })
+          .from(masterNames)
+          .where(and(inArray(masterNames.masterId, siblingIds), eq(masterNames.locale, "en")))
+      : [];
+  const siblingNameMap = new Map<string, string>();
+  for (const row of siblingNameRows) {
+    if (row.nameType === "dharma" && !siblingNameMap.has(row.masterId)) {
+      siblingNameMap.set(row.masterId, row.value);
+    }
+  }
+  for (const row of siblingNameRows) {
+    if (!siblingNameMap.has(row.masterId)) {
+      siblingNameMap.set(row.masterId, row.value);
+    }
+  }
+  const relatedSchoolMasters = siblingMasters.slice(0, 6).map((m) => ({
+    ...m,
+    name: siblingNameMap.get(m.id) ?? m.slug,
+  }));
 
-  const personJsonLd = {
-    "@context": "https://schema.org",
-    "@type": "Person",
+  const canonicalUrl = abs(`/masters/${master.slug}`);
+
+  const bioFirstParagraph = publishedBiography
+    ? (publishedBiography.split("\n\n")[0] ?? publishedBiography)
+    : null;
+
+  const personLd = personSchema({
     name: primaryName,
-    alternateName: orderedNames.filter((n) => n.value !== primaryName).map((n) => n.value),
-    url: canonicalUrl,
-    ...(publishedImage
-      ? {
-          image: publishedImage.src.startsWith("http")
-            ? publishedImage.src
-            : `https://zenlineage.org${publishedImage.src}`,
-        }
-      : {}),
-    ...(master.birthYear ? { birthDate: String(master.birthYear) } : {}),
-    ...(master.deathYear ? { deathDate: String(master.deathYear) } : {}),
-    description: publishedBiography
-      ? (publishedBiography.split("\n\n")[0] ?? publishedBiography).slice(0, 200)
-      : `${primaryName}, a Zen Buddhist master.`,
-    ...(schoolRow
-      ? {
-          memberOf: {
-            "@type": "Organization",
-            name: schoolRow.name,
-            url: `https://zenlineage.org/schools/${schoolRow.slug}`,
-          },
-        }
-      : {}),
-    knows: [
-      ...teachers.map((t) => ({
-        "@type": "Person",
-        name: nameMap.get(t.counterpartId) ?? t.counterpartSlug,
-        url: `https://zenlineage.org/masters/${t.counterpartSlug}`,
-      })),
-      ...students.map((s) => ({
-        "@type": "Person",
-        name: nameMap.get(s.counterpartId) ?? s.counterpartSlug,
-        url: `https://zenlineage.org/masters/${s.counterpartSlug}`,
-      })),
-    ],
-  };
+    slug: master.slug,
+    alternateNames: orderedNames
+      .filter((n) => n.value !== primaryName)
+      .map((n) => n.value),
+    birthYear: master.birthYear,
+    deathYear: master.deathYear,
+    description: bioFirstParagraph,
+    image: publishedImage?.src,
+    school: schoolRow ? { slug: schoolRow.slug, name: schoolRow.name ?? schoolRow.slug } : null,
+    teachers: teachers.map((t) => ({
+      slug: t.counterpartSlug,
+      name: nameMap.get(t.counterpartId) ?? t.counterpartSlug,
+    })),
+    students: students.map((s) => ({
+      slug: s.counterpartSlug,
+      name: nameMap.get(s.counterpartId) ?? s.counterpartSlug,
+    })),
+  });
 
-  const breadcrumbJsonLd = {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://zenlineage.org" },
-      { "@type": "ListItem", position: 2, name: "Masters", item: "https://zenlineage.org/masters" },
-      { "@type": "ListItem", position: 3, name: primaryName, item: canonicalUrl },
-    ],
-  };
+  const breadcrumbLd = breadcrumbSchema([
+    { name: "Home", url: abs("/") },
+    { name: "Masters", url: abs("/masters") },
+    { name: primaryName, url: canonicalUrl },
+  ]);
 
   return (
     <main className="detail-page">
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(personJsonLd).replace(/</g, "\\u003c") }}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify(breadcrumbJsonLd).replace(/</g, "\\u003c"),
-        }}
+        dangerouslySetInnerHTML={{ __html: jsonLdString([personLd, breadcrumbLd]) }}
       />
       <header className="page-header">
         <Link href="/" className="nav-link">
@@ -638,6 +666,14 @@ export default async function MasterDetailPage({ params }: { params: Promise<{ s
         </Link>
         <h1 className="page-title">{primaryName}</h1>
       </header>
+      <Breadcrumbs
+        trail={[
+          { name: "Home", href: "/" },
+          { name: "Masters", href: "/masters" },
+          { name: primaryName },
+        ]}
+      />
+
 
       <div className="detail-layout">
         <section className="detail-hero">
@@ -856,6 +892,24 @@ export default async function MasterDetailPage({ params }: { params: Promise<{ s
                 })}
               </ul>
             )}
+          </section>
+        )}
+
+        {relatedSchoolMasters.length > 0 && schoolRow && (
+          <section className="detail-card">
+            <h3 className="detail-section-title">
+              Other masters in {schoolRow.name}
+            </h3>
+            <ul className="detail-link-list">
+              {relatedSchoolMasters.map((m) => (
+                <li key={m.id}>
+                  <Link href={`/masters/${m.slug}`}>{m.name}</Link>
+                  <span className="detail-list-meta">
+                    {m.birthYear ?? "?"} – {m.deathYear ?? "?"}
+                  </span>
+                </li>
+              ))}
+            </ul>
           </section>
         )}
 

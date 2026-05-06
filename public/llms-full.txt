@@ -1926,9 +1926,7 @@ Sogaku's teaching reflected the Soto school's mature integration of zazen practi
 - **Teachers:** Kosen Imakita
 - **Students:** D.T. Suzuki, Nyogen Senzaki
 
-Soyen Shaku (1860–1919) was the first Zen master to teach in America and a pivotal figure in the global transmission of Zen Buddhism. Born in Wakayama Prefecture, he entered monastic training as a boy and became the dharma heir of Kosen Imakita at Engaku-ji in Kamakura. After Kosen's death, Soyen succeeded him as abbot of Engaku-ji. In addition to his Zen training, he studied Western philosophy at Keio University, giving him an unusual capacity to communicate with non-Japanese audiences.
-
-In 1893, Soyen traveled to Chicago to address the World Parliament of Religions, becoming the first Zen master to speak publicly in America. His address, delivered in English, introduced Zen Buddhism to a Western audience for the first time.
+Shaku Sōen (釈宗演), often romanised in his lifetime as Soyen Shaku, was born on 10 January 1860 in Takahama, Fukui Prefecture, into the dying years of the Tokugawa shogunate. He entered monastic life as a boy at the Rinzai temple Myōshin-ji and trained under Ekkei Shuken before becoming the disciple of Imakita Kōsen at Engaku-ji in Kamakura. He received Dharma transmission (inka) from Kōsen at the unusually young age of twenty-five, an early recognition that marked him as one of the most promising Rinzai teachers of the Meiji era[1].
 
 ### Yamamoto Gempo
 
@@ -1937,9 +1935,9 @@ In 1893, Soyen traveled to Chicago to address the World Parliament of Religions,
 - **Teachers:** Sohan Genyo
 - **Students:** Nakagawa Soen
 
-Yamamoto Gempō (1866–1961) was one of the greatest Rinzai masters of the twentieth century, often called "the twentieth-century Hakuin" for his tireless efforts to revitalize Rinzai Zen. He served as abbot of both Ryūtaku-ji — the temple where Hakuin himself had taught — and Shōin-ji, Hakuin's birthplace temple. When he arrived at Ryūtaku-ji, the temple was in near-ruin; he restored it to become once again a vital center of Rinzai training.
+Yamamoto Gempō (山本玄峰, 1866–1961) was one of the most influential Rinzai masters of twentieth-century Japan and a key figure in the postwar revival of Hakuin's Myōshin-ji line. Born in 1866 in Wakayama Prefecture, he came to the Dharma late and from extreme disadvantage: he had no formal schooling, was deemed legally blind, and learned to read and write only as an adult, taking ordination as a Rinzai monk at the age of twenty-five and then walking on pilgrimage from temple to temple across Japan[1].
 
-Gempō was renowned as a calligrapher and poet as well as a Zen master. His brushwork carried the same force and directness as his teaching. His most important student, Nakagawa Soen, became a major figure in the transmission of Zen to America. Through Soen and his other students, Gempō's influence extended far beyond the walls of his restored temples.
+Gempō eventually settled in the orbit of Hakuin's old training temple Ryūtaku-ji in Mishima, Shizuoka — a monastery that Hakuin Ekaku had relocated there in 1761 but which "had all but failed into ruins by the Taisho period, until revived by the efforts of Gempō Yamamoto"[2].
 
 ### D.T. Suzuki
 
@@ -1948,7 +1946,7 @@ Gempō was renowned as a calligrapher and poet as well as a Zen master. His brus
 - **School:** Rinzai
 - **Teachers:** Soyen Shaku
 
-Daisetsu Teitaro Suzuki (1870–1966) was the single most influential figure in bringing Zen Buddhism to Western awareness. Born in Kanazawa to a family of physicians, he lost his father young and grew up in genteel poverty. As a student at what is now Waseda University, he began Zen practice under Soyen Shaku at Engaku-ji, working on the koan Mu. His breakthrough came after intense struggle — a kensho experience that Soyen confirmed. Though Suzuki never received formal dharma transmission and remained a layperson throughout his life, his experiential understanding of Zen was recognized by multiple masters.
+Daisetsu Teitarō Suzuki (鈴木 大拙 貞太郎) was born on 18 October 1870 in Honda-machi, Kanazawa, in Japan's Ishikawa Prefecture, into a family of physicians of samurai descent that had been impoverished by the Meiji Restoration. He studied at Waseda University and the Imperial University of Tokyo, where he acquired the unusual command of Chinese, Sanskrit, Pāli, English, French, and German that would later define his career as a translator and interpreter of the Zen tradition for Western readers[1].
 
 ### Harada Daiun Sogaku
 
@@ -1957,9 +1955,7 @@ Daisetsu Teitaro Suzuki (1870–1966) was the single most influential figure in 
 - **Teachers:** Harada Sodo Kakusho, Dokutan Sosan
 - **Students:** Yasutani Hakuun
 
-Harada Daiun Sogaku was a Soto Zen master who also trained extensively in the Rinzai tradition, integrating koan practice into his Soto teaching in a way that profoundly influenced modern Zen. His combined approach—Soto shikantaza enriched with Rinzai koan study—became the foundation of the Sanbo Kyodan (Three Treasures) school, which has been one of the most important vehicles for the transmission of Zen to the West.
-
-Harada's principal student was Yasutani Hakuun, who formalized this integrated approach and opened it to lay practitioners and non-Buddhists.
+Daiun Sogaku Harada (原田 祖岳, 1871–1961) was born on October 13, 1871 in Obama, Fukui Prefecture, and is widely regarded as the most consequential Sōtō priest of modern Japan for his fusion of Sōtō shikantaza with the formal Rinzai kōan curriculum — the synthesis that became known as the Harada-Yasutani method[1]. He entered a Sōtō temple as a novice at age seven, and at twenty crossed sectarian lines to train at the Rinzai monastery Shōgen-ji, where he was reported to have realized kenshō after roughly two and a half years of practice[1]. He graduated from Sōtō-shū Daigakurin (now Komazawa University) in 1901 and held a professorship there from 1911 to 1923 before withdrawing from academic life to devote himself to monastic teaching[1].
 
 ### Joten Soko Miura
 
@@ -1969,9 +1965,9 @@ Harada's principal student was Yasutani Hakuun, who formalized this integrated a
 - **Teachers:** Banryo Zenso
 - **Students:** Joshu Sasaki
 
-Jōten Sōkō Miura (1871–1958) was a towering figure in modern Japanese Rinzai Zen, serving as the 624th kanchō (chief abbot) of Myōshin-ji, the largest branch of Rinzai Zen. A student of Banryō Zensō, he embodied the Inzan line's rigorous approach to koan training.
+Jōten Sōkō Miura (Miura Isshū) was a Rinzai Zen master of the Daitoku-ji line whose collaboration with Ruth Fuller Sasaki produced the first systematic English-language account of Rinzai koan curriculum. He served as a roshi in the Daitoku-ji subtemple complex in Kyoto before being recruited to the United States in the 1950s, when Sasaki — then directing the First Zen Institute of America's Kyoto research project — arranged for him to come to New York to instruct her American students. Wikipedia notes that "it was not until 1955 that she was able to bring Miura Isshu back with her" to take up a teaching role at the Institute[1].
 
-From 1936 to 1949, Miura served as roshi at Zuigan-ji monastery in Hokkaido, where he trained the young Joshu Sasaki. His demanding teaching style left a lasting imprint on Sasaki, who would later carry the Rinzai tradition to America. Miura's position as head of Myōshin-ji gave him broad influence over the institutional direction of Rinzai Zen in the twentieth century.
+Miura's tenure as resident roshi at the First Zen Institute of America in New York was uneasy.
 
 ### Nyogen Senzaki
 
@@ -1979,7 +1975,9 @@ From 1936 to 1949, Miura served as roshi at Zuigan-ji monastery in Hokkaido, whe
 - **School:** Rinzai
 - **Teachers:** Soyen Shaku
 
-Nyogen Senzaki (1876–1958) was one of the first teachers to bring authentic Zen practice to America, and he did so in a manner uniquely his own — without institutional backing, without robes, and without any trappings of authority. Born in Siberia and raised in Japan, he ordained under Soyen Shaku and accompanied his teacher to America in 1905. When Soyen returned to Japan, he reportedly told Senzaki to remain in America but to wait seventeen years before beginning to teach. Senzaki honored this instruction faithfully, working as a houseboy, hotel worker, and in various other humble occupations while deepening his own practice in silence.
+Nyogen Senzaki (千崎 如幻) was born on 5 October 1876 — by the most reliable accounts in Fukaura, Aomori Prefecture, although Senzaki himself preferred a more elliptical story in which he was found as an abandoned infant on the snow of the Sakhalin coast and raised by a Japanese fisherman. Orphaned again as a young man, he was adopted into a Sōtō priest's household and ordained, but read his way out of his adoptive sect and presented himself in 1896 at Engaku-ji in Kamakura as a disciple of Soyen Shaku, where he met the slightly younger lay student D. T. Suzuki[1].
+
+Senzaki's monastic career was brief and unconventional.
 
 ### Seisetsu Genjyo
 
@@ -2000,9 +1998,9 @@ His student Bokuo Soun carried the lineage forward, eventually transmitting it t
 - **Teachers:** Butsumon Sogaku
 - **Students:** Shunryu Suzuki
 
-Gyokujun So-on was a Soto Zen master best known as the ordaining teacher of Shunryu Suzuki, who would later found the San Francisco Zen Center and become one of the most influential Zen teachers in the West. So-on was known for his strict and demanding training style, which deeply shaped the young Suzuki's understanding of practice.
+Gyokujun Sō-on Suzuki (1877–1934) was the Sōtō Zen priest who made Shunryū Suzuki — and so, indirectly, made San Francisco Zen Center. The English-language record of his life is sparse and survives almost entirely through references in Shunryū's biography and in the histories of the temples he led; what follows is what can be verified against those sources.
 
-So-on's influence on Suzuki Roshi, and through him on the entire Western Soto tradition, demonstrates how the chain of personal transmission works in Zen—each teacher's character and style shapes the students who carry the tradition forward. The rigor and devotion that Suzuki brought to his American teaching had its roots in So-on's uncompromising training.
+Sō-on was the adopted son of Butsumon Sogaku Suzuki, Shunryū's biological father and himself a Sōtō priest. That adoption made Sō-on Shunryū's Dharma elder brother by family and, eventually, his teacher.
 
 ### Kodo Sawaki
 
@@ -2012,9 +2010,7 @@ So-on's influence on Suzuki Roshi, and through him on the entire Western Soto tr
 - **Teachers:** Sawada Zenko
 - **Students:** Gudo Wafu Nishijima, Kosho Uchiyama, Taisen Deshimaru
 
-Kodo Sawaki, known as "Homeless Kodo," was one of the most influential Soto Zen masters of the twentieth century. He never held a permanent temple position, instead traveling throughout Japan to teach zazen in whatever venue was available—prisons, factories, universities, and public halls. His radical commitment to the practice of shikantaza, stripped of all institutional trappings, inspired a generation of practitioners and teachers.
-
-Sawaki's teaching was characterized by a fierce directness that cut through the institutional complacency he saw in established Soto Zen. He said, "Zazen is good for nothing"—meaning that zazen practiced for some gain or benefit has missed the point entirely.
+Kōdō Sawaki (澤木 興道, 1880–1965), known throughout Japan as "Homeless Kōdō" (Yadonashi Kōdō), was the modern Sōtō master most responsible for severing the practice of zazen from the temple-funeral economy and restoring shikantaza as the living center of the school. He was born June 16, 1880 in Tsu, Mie Prefecture; orphaned by age seven, he was taken in by a lantern-maker named Bunkichi Sawaki whose home doubled as a gambling parlor — an upbringing he later credited with immunizing him against any romance about respectability[1]. At sixteen he ran away to Eihei-ji, found work as a temple servant, and at eighteen entered Sōshin-ji, where he was ordained in 1899 by Kōhō Sawada and received dharma transmission from Zenkō Sawada in 1906[1].
 
 ### Yasutani Hakuun
 
@@ -2024,9 +2020,7 @@ Sawaki's teaching was characterized by a fierce directness that cut through the 
 - **Teachers:** Harada Daiun Sogaku
 - **Students:** Taizan Maezumi, Yamada Koun
 
-Yasutani Hakuun was a student of Harada Daiun Sogaku who founded the Sanbo Kyodan (Three Treasures Association), a Zen lineage that integrated Soto and Rinzai methods and became one of the most important vehicles for the transmission of Zen to the West. His book The Three Pillars of Zen (compiled by Philip Kapleau) introduced countless Western readers to the practice of Zen meditation.
-
-Yasutani broke with many conventions of Japanese institutional Zen. He offered koan practice to lay students, taught in an accessible style that emphasized the universality of awakening, and encouraged his students to bring Zen practice into their daily lives rather than confining it to the monastery.
+Hakuun Ryōkō Yasutani (安谷 白雲, 1885–1973) was the dharma heir of Harada Daiun Sogaku who carried the Harada-Yasutani method to Western lay students and, in doing so, became the most direct Japanese root of contemporary American Zen. He was born in 1885 in Shizuoka Prefecture and ordained at age thirteen at the Sōtō temple Teishin-ji, where he received the religious name Hakuun ("white cloud")[1]. After years of conventional Sōtō training and work as a schoolteacher, he married at thirty and had five children, only beginning serious kōan practice under Harada in 1925 at the age of forty; he reported kenshō under Harada in 1927 and received dharma transmission (inka shōmei) from him in 1943[1][2].
 
 ### Shibayama Zenkei
 
@@ -2034,9 +2028,9 @@ Yasutani broke with many conventions of Japanese institutional Zen. He offered k
 - **School:** Rinzai
 - **Teachers:** Kono Bukai
 
-Shibayama Zenkei (1894–1974) was the head roshi of Nanzen-ji, one of the most prestigious Rinzai monasteries in Kyoto, and the chief abbot of the entire Nanzenji branch of Rinzai Zen. He entered Nanzen-ji as a young monk in 1916 and trained for over a decade under the severe master Kono Bukai, whose uncompromising methods forged in Shibayama a deep and thorough mastery of the koan tradition. He later served as a professor at both Hanazono University (the Rinzai-affiliated university in Kyoto) and Ōtani University.
+Zenkei Shibayama (柴山全慶, 1894–1974) was one of the senior Rinzai abbots of mid-twentieth-century Japan and, through a remarkable series of American lecture tours and English-language books, one of the principal voices that introduced classical kōan Zen to postwar Western audiences. He was born on November 30, 1894, trained in the Rinzai monastic system, and pursued an unusually scholarly career alongside monastic practice, eventually teaching at Otani University in Kyoto while continuing his formal Zen training[1].
 
-Shibayama is best known in the West as the author of "Gateless Barrier: Zen Comments on the Mumonkan" (originally published in Japanese in 1945, with an English translation in 1974), which remains one of the finest modern commentaries on the classic koan collection.
+Shibayama rose to the highest institutional position in his school: he became abbot of Nanzen-ji in Kyoto and "head abbot of the entire Nanzenji Organization, overseeing the administration of over five hundred temples"[1].
 
 ### Baian Hakujun Kuroda
 
@@ -2045,7 +2039,9 @@ Shibayama is best known in the West as the author of "Gateless Barrier: Zen Comm
 - **School:** Sōtō
 - **Students:** Taizan Maezumi
 
-Baian Hakujun Kuroda (黒田白雲, 1898–1978) was Taizan Maezumi's father and his first and primary Soto teacher. Abbot of Koshin-ji (Kirigaya-dera) in Tokyo and a senior officer of the Soto school's central administration (Shumucho), he ordained his three monk sons — Junyu, Taizan, and another brother — and gave Taizan Soto dharma transmission, the first of the three authorizations on which Maezumi later built the Zen Center of Los Angeles. Through Baian Hakujun the White Plum line inherits its Soto backbone: shikantaza practice, monastic forms, and the Eiheiji/Sojiji institutional framework that Maezumi brought to the West.
+Baian Hakujun Kuroda (黒田白雲, 1898–1978) was a leading mid-twentieth-century Sōtō priest, abbot of Kōshin-ji / Kirigaya-ji in Tokyo and of his family temple in Ōtawara, Tochigi, and the father and Sōtō dharma transmitter of Hakuyū Taizan Maezumi. Within Western Zen he is most often encountered as the 'Hakujun' of 'Baian Hakujun Daiosho,' the dharma name from which the White Plum Asanga (白梅花) — the lineage federation of Maezumi's twelve American heirs — takes its identity.
+
+Kuroda was a working Sōtōshū abbot of the type that anchors mainstream Japanese Sōtō: he raised his family in the precincts of his own temple, sent his sons through both academic study and Sōji-ji training, and in due course transmitted his temple succession to one of them.
 
 ### Osaka Koryu
 
@@ -2116,6 +2112,7 @@ Yamada Kōun (born Yamada Kiozo, 1907–1989) was the Japanese lay Zen master wh
 - **Dates:** 1912 – 1998
 - **School:** Sōtō
 - **Teachers:** Kodo Sawaki
+- **Students:** Shōhaku Okumura
 
 Kōshō Uchiyama (1912–March 13, 1998) was a Sōtō Zen priest, prolific essayist, and origami master whose decade as abbot of Antai-ji (1965–1975) shaped a distinctive lay-and-monastic Zen rooted in pure zazen and self-supporting begging[1]. Born in Tokyo, he earned an M.A. in Western philosophy from Waseda University in 1937, then sought ordination after the death of his first wife; he was ordained in 1941 by Kōdō Sawaki, the itinerant "Homeless Kōdō" whose anti-institutional Zen would mark Uchiyama's entire teaching life[1]. He spent the war and postwar years living in extreme poverty alongside Sawaki at Antai-ji in Kyoto's Gentaku district, struggling continuously with the long-term effects of tuberculosis[1].
 
@@ -2126,7 +2123,7 @@ Kōshō Uchiyama (1912–March 13, 1998) was a Sōtō Zen priest, prolific essay
 - **School:** Jogye
 - **Teachers:** Gyeongheo Seongu
 
-Toeong Seongcheol (退翁性徹, 1912–1993) was the most influential Korean master of the twentieth century and the scholar-monk who redefined modern Korean Seon orthodoxy. Ordained in 1936 under the Gyeongheo lineage, he undertook famously austere practice — ten years of forgoing sleep in the lotus posture — before emerging as a leading voice in the post-war Jogye Order. Appointed Supreme Patriarch in 1967, he delivered a hundred days of sermons at Haein-sa arguing that Jinul's 'sudden awakening, gradual cultivation' had misread the Chinese Chan tradition: true awakening, he held, is both sudden and complete, needing no subsequent cultivation (돈오돈수 dono donsu). His Seonmun Jeongno defended this position with exhaustive scholarship and re-centered hwadu as the sole authentic Korean path.
+Toeong Seongcheol (退翁性徹, 1912–1993) was the most influential Korean Seon master of the twentieth century and served as the seventh Supreme Patriarch (Jongjeong) of the Jogye Order from 1981 until his death. Born Yi Yeongju on 6 April 1912 in what was then Korea under Japanese rule, he was a precocious child who reportedly read by the age of three and worked through the Chinese classics in his early youth before turning to Western philosophy and Eastern religion.
 
 ### Taisen Deshimaru
 
@@ -2153,7 +2150,7 @@ Robert Baker Aitken (19 June 1917 – 5 August 2010) was the dean of American Ze
 - **School:** White Plum Asanga
 - **Teachers:** Taizan Maezumi
 
-Charlotte Joko Beck (常湖, 1917–2011) was a second-generation American dharma heir of Taizan Maezumi and the teacher most responsible for an unadorned, psychologically-rigorous American Zen. A classical pianist and single mother of four before coming to practice in her fifties, she was appointed head of the San Diego Zen Center by Maezumi in 1983, later leaving the White Plum to found the Ordinary Mind School — a loosely-federated network of centers emphasising everyday life as the primary field of practice. Her books Everyday Zen (1989) and Nothing Special (1993) became two of the most widely-read introductions to Zen practice in English, and her teaching's refusal of mystification has shaped two generations of secular American Zen.
+Charlotte Joko Beck (常湖, 27 March 1917 – 15 June 2011) was an American Zen teacher whose blunt, psychologically literate style produced one of the first distinctly Western Zen schools. Born in New Jersey, she trained as a classical pianist at the Oberlin Conservatory of Music, married, raised four children, and supported herself in turn as a piano teacher, secretary, and university department assistant before encountering Zen in her forties. She began practice with Hakuyu Taizan Maezumi at the Zen Center of Los Angeles, with additional study under Hakuun Yasutani and Soen Nakagawa, and received dharma transmission from Maezumi in 1978.
 
 ### Gudo Wafu Nishijima
 
@@ -2180,7 +2177,7 @@ Hōun Jiyu-Kennett (born Peggy Teresa Nancy Kennett, 1 January 1924, St Leonards
 - **School:** Trúc Lâm
 - **Teachers:** Liễu Quán
 
-Thích Thanh Từ (釋清慈, b. 1924) is the master most responsible for the twentieth-century revival of the Trúc Lâm school after six centuries of dormancy. Trained in the Lâm Tế Liễu Quán line under Thích Thiện Hoa, he founded Trúc Lâm Thiền Viện at Đà Lạt in 1993 as an explicit re-grounding of Vietnamese Buddhism in the indigenous Trúc Lâm inheritance of Trần Nhân Tông, Pháp Loa, and Huyền Quang — practiced as a disciplined meditative monasticism rather than a literary memory. From this base he has trained the largest contemporary Vietnamese contemplative community, with Trúc Lâm monasteries now established across Vietnam, North America, Europe, and Australia.
+Thích Thanh Từ (1924–2022) was the principal architect of the modern revival of Trúc Lâm Zen, the indigenous Vietnamese Thiền school founded by Emperor Trần Nhân Tông in the thirteenth century and largely dormant for some six hundred years. He was born Trần Hữu Phước on 24 July 1924 in Tích Khánh hamlet, Thiện Mỹ commune, Trà Ôn district, Vĩnh Long province in the Mekong Delta. Drawn to monastic life from his youth, he was ordained at Chùa Phật Quang on 15 July 1949 under the great southern reformer Thích Thiện Hoa as his root teacher (bổn sư), and received the full bhikṣu precepts in 1952 from Tổ Khánh Anh.
 
 ### Thích Nhất Hạnh
 
@@ -2189,7 +2186,7 @@ Thích Thanh Từ (釋清慈, b. 1924) is the master most responsible for the tw
 - **School:** Plum Village
 - **Teachers:** Liễu Quán
 
-Thích Nhất Hạnh (釋一行, 1926–2022) was a Vietnamese Thiền master of the Liễu Quán branch of the Lâm Tế (Linji) line — its 42nd-generation dharma heir — and the most influential figure in the twentieth-century transmission of Vietnamese Buddhism to the West. His wartime activism and interfaith peace work led to exile in 1966; his Order of Interbeing (Tiếp Hiện), founded that same year, articulated an engaged Buddhist ethics anchored in the Fourteen Mindfulness Trainings. In 1982 he established Plum Village (Làng Mai) in the Dordogne region of France, which grew into one of the largest contemplative communities in the world, with monasteries and practice centers on five continents.
+Thích Nhất Hạnh (一行, 1926–2022) was the Vietnamese Thiền master, poet, peace activist, and author who, more than any other modern teacher, shaped the global understanding of mindfulness and gave the world the term 'engaged Buddhism.' He was born Nguyễn Xuân Bảo on 11 October 1926 in Huế, central Vietnam, and at sixteen entered Từ Hiếu Temple as a novice under Zen Master Thanh Quý Chân Thật, of the forty-third generation of the Lâm Tế (Linji) school and the ninth generation of its Liễu Quán branch; he was fully ordained as a bhikṣu at Ấn Quang Pagoda in Saigon in 1951.
 
 ### Seung Sahn
 
@@ -2198,7 +2195,7 @@ Thích Nhất Hạnh (釋一行, 1926–2022) was a Vietnamese Thiền master of
 - **School:** Kwan Um
 - **Teachers:** Gyeongheo Seongu
 
-Seung Sahn (崇山, 1927–2004) was a Korean Seon master in the Jogye lineage and the teacher most responsible for bringing Korean meditation practice to the West. A dharma heir of Gobong Seonsa, he led the reconstruction of Korean Buddhist institutions after the Korean War before departing for the United States in 1972. From the Providence Zen Center he grew the Kwan Um School of Zen into one of the most geographically widespread Zen organizations in the world, with more than a hundred centers across North America, Europe, Asia, and Africa. His direct, humorous teaching — 'only don't know,' 'put it all down' — adapted classical Korean hwadu into a form that Western students could enter on their first weekend retreat, while his dharma heirs continue the lineage today.
+Seung Sahn Haengwon (숭산행원, 1927–2004) was the Korean Seon master who, more than any other, brought Korean Zen to the Western world and built the largest international Korean Zen sangha of the twentieth century, the Kwan Um School of Zen. He was born Duk-In Lee on 1 August 1927 in Sunchon, South Pyongan Province, in what is now North Korea. As a teenager he joined the Korean independence movement under Japanese occupation and was briefly imprisoned; afterward he studied Western philosophy at Dongguk University in Seoul, where reading the Diamond Sutra prompted him to leave his studies for the mountains.
 
 ### Dainin Katagiri
 
@@ -2228,7 +2225,7 @@ Hakuyū Taizan Maezumi was born February 24, 1931, in Ōtawara, Tochigi Prefectu
 - **School:** White Plum Asanga
 - **Teachers:** Taizan Maezumi
 
-John Daido Loori (大道, 1931–2009) was a former Navy photographer and research scientist who became one of the most important institution-builders in American Zen. Authorized by Maezumi in the mid-1980s, he founded Zen Mountain Monastery in Mount Tremper, New York (1980) and went on to build the Mountains and Rivers Order — a nationwide network combining traditional monastic training with an integration of creative disciplines (photography, calligraphy, music, zen arts) as dharma gates. Through his Dharma Communications publishing and media work, and a long list of books (including the eight-fold gates of Zen), Loori shaped a distinctly American synthesis of rigorous Soto-Rinzai training with the contemplative arts.
+John Daido Loori (大道, 14 June 1931 – 9 October 2009) was born in Jersey City, New Jersey, into an Italian-American Catholic family. He served in the United States Navy from 1947 to 1952, afterwards studied at Rutgers, and worked for two decades as a research chemist in the food industry; throughout that period he pursued serious black-and-white photography, eventually studying with Minor White, whose Zen-influenced approach to seeing strongly shaped Loori's later teaching on art practice. He began formal Zen practice in 1972 under the Rinzai master Soen Nakagawa Roshi at the New York Zendo Shoboji, then trained intensively in California with Taizan Maezumi at the Zen Center of Los Angeles.
 
 ### Philippe Reiryū Coupey
 
@@ -2313,6 +2310,18 @@ Crettaz was ordained as a Zen monk in 1988 and trained for decades under his tea
 
 Rubén L. F. Habito (born c. 1947 in the Philippines) is a Filipino-American Sanbō Zen teacher and scholar of comparative religion who has done more than almost any other contemporary figure to articulate Zen practice for Christian practitioners. Trained as a Jesuit, he was sent to Japan as a missionary, where he undertook formal Zen training under Yamada Kōun Rōshi at the San-un Zendo in Kamakura. Yamada authorized him as a Zen teacher in 1988 and he received the dharma name Keiun-ken; the following year, 1989, he left the Society of Jesus[1][2].
 
+### Shōhaku Okumura
+
+- **Also known as:** Shohaku Okumura, Okumura Shohaku, Okumura Roshi
+- **Dates:** 1948 – null
+- **School:** Sōtō
+- **Teachers:** Kosho Uchiyama
+- **Students:** Iván Densho Quintero
+
+Shōhaku Okumura, born 22 June 1948 in Osaka, is a Sōtō Zen priest, translator, and the principal English-language disciple of Kōshō Uchiyama-roshi of Antaiji. He has done as much as any living teacher to make the writings of Eihei Dōgen accessible in idiomatic, philologically careful English.
+
+Okumura traces his vocation to a high-school encounter with Uchiyama's book *Self*. He went on to study Buddhism at Komazawa University in Tokyo, and on 8 December 1970 was ordained at Antaiji under Uchiyama, with whom he practiced until his teacher's retirement in 1975[1]. After Antaiji he co-founded Pioneer Valley Zendo in Massachusetts, where he taught until 1981, and later served as a teacher at Minnesota Zen Meditation Center (1993–1996, including a stint as interim abbot)[1].
+
 ### Jean-Pierre Genshū Faure
 
 - **Also known as:** Jean-Pierre Genshu Faure, Genshū Faure, Genshu Faure
@@ -2357,6 +2366,17 @@ After Deshimaru's death in 1982, Triet helped continue the line of teaching Desh
 Olivier Reigen Wang-Genh (born 17 April 1955 in Molsheim, Alsace) is a French Sōtō Zen monk in the Deshimaru lineage and the founding abbot of the temple Kōsan Ryūmon-ji at Weiterswiller in northern Alsace (per fr.wikipedia, Association Zen Internationale, l'Alsace). He encountered Sōtō Zen in March 1973 and was ordained as a monk in 1977 by Taisen Deshimaru, whose teaching he followed until Deshimaru's death in 1982.
 
 From 1973 onward he developed the Strasbourg dōjō and took over its direction in 1986. Beginning in 1987, with the support of the German and French sanghas, he founded dōjōs across Baden-Württemberg, Alsace, and Basel — establishing the trans-Rhenan AZI network that today links French and German-speaking practitioners.
+
+### Iván Densho Quintero
+
+- **Also known as:** Densho Quintero, Ivan Densho Quintero, Densho Sensei, Tendō Quintero
+- **Dates:** 1961 – null
+- **School:** Sōtō
+- **Teachers:** Shōhaku Okumura
+
+Iván Denshō Quintero (b. 1961 in Bogotá, Colombia) is a Colombian Sōtō Zen monk and the founding abbot of Daishinji ("Templo Zen Mente Magnánima"), the principal Sōtōshū-recognised Zen temple in South America[1][2]. He began studying and practising Sōtō Zen in 1984 and travelled to Europe later that decade to train within the Association Zen Internationale founded by Taisen Deshimaru[3].
+
+He received his first monastic ordination in Paris in 1987 under the AZI, taking the religious name **Tendō**[3]. After settling back in Colombia, in 1989 he founded the meditation centre in Bogotá that would become the Comunidad Soto Zen de Colombia[2][4].
 
 ### Susan Myoyu Andersen
 
@@ -4812,7 +4832,7 @@ The Taego Order (太古宗, 태고종) is the second largest Buddhist order in K
 ### Sōtō
 
 - **Tradition:** Zen
-- **Masters:** 97
+- **Masters:** 99
 
 The Soto school (曹洞宗) is the Japanese continuation of the Chinese Caodong tradition, founded by Eihei Dogen (1200–1253) after his training with Tiantong Rujing in China[1]. It is the largest Zen denomination in Japan[2]. Soto's central practice is shikantaza ('just sitting')—zazen practiced as the direct expression of awakening itself, not as a means to attain enlightenment[3]. Dogen articulated this in his masterwork the Shobogenzo—which is itself largely composed of koan commentary and philosophical inquiry—and in his practical manual the Fukanzazengi[3]. The school's second great figure, Keizan Jokin (1264–1325), founded Sojiji Temple and made Soto practice accessible to a broad Japanese population through the integration of esoteric ritual and ancestor veneration[1]. Together, Eiheiji (Dogen's temple) and Sojiji serve as the school's two head monasteries. In the modern era, the Soto tradition has been carried to the West by teachers including Shunryu Suzuki (San Francisco Zen Center), Taisen Deshimaru (Association Zen Internationale, Europe), Taizan Maezumi (Zen Center of Los Angeles), and Dainin Katagiri (Minnesota Zen Center), establishing vibrant practice communities across North America and Europe[4].
 

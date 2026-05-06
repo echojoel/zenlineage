@@ -21,6 +21,13 @@ import {
   isPublishedTeaching,
 } from "@/lib/publishable-content";
 import { AccuracyFooter } from "@/components/AccuracyFooter";
+import { Breadcrumbs } from "@/components/Breadcrumbs";
+import {
+  abs,
+  breadcrumbSchema,
+  jsonLdString,
+  teachingSchema,
+} from "@/lib/seo/jsonld";
 
 export async function generateStaticParams() {
   const allTeachings = await db.select({ slug: teachings.slug }).from(teachings);
@@ -284,22 +291,102 @@ export default async function TeachingDetailPage({
           ? "Historically verified"
           : null;
 
-  const canonicalUrl = `https://zenlineage.org/teachings/${teaching.slug}`;
+  // Related teachings — by the same master (other cited teachings) and
+  // from the same collection (other case-numbered siblings). Both surface
+  // existing data without new joins.
+  const sameAuthorTeachings =
+    teaching.authorId && teaching.authorId !== teaching.id
+      ? await db
+          .select({
+            id: teachings.id,
+            slug: teachings.slug,
+            type: teachings.type,
+            title: teachingContent.title,
+          })
+          .from(teachings)
+          .leftJoin(
+            teachingContent,
+            and(eq(teachingContent.teachingId, teachings.id), eq(teachingContent.locale, "en"))
+          )
+          .where(eq(teachings.authorId, teaching.authorId))
+      : [];
+  const sameCollectionTeachings = teaching.collection
+    ? await db
+        .select({
+          id: teachings.id,
+          slug: teachings.slug,
+          type: teachings.type,
+          caseNumber: teachings.caseNumber,
+          title: teachingContent.title,
+        })
+        .from(teachings)
+        .leftJoin(
+          teachingContent,
+          and(eq(teachingContent.teachingId, teachings.id), eq(teachingContent.locale, "en"))
+        )
+        .where(eq(teachings.collection, teaching.collection))
+    : [];
 
-  const breadcrumbJsonLd = {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://zenlineage.org" },
-      {
-        "@type": "ListItem",
-        position: 2,
-        name: "Teachings",
-        item: "https://zenlineage.org/teachings",
-      },
-      { "@type": "ListItem", position: 3, name: title, item: canonicalUrl },
-    ],
-  };
+  const relatedCandidateIds = Array.from(
+    new Set([
+      ...sameAuthorTeachings.map((t) => t.id),
+      ...sameCollectionTeachings.map((t) => t.id),
+    ])
+  ).filter((id) => id !== teaching.id);
+  const citedRelatedIds =
+    relatedCandidateIds.length > 0
+      ? new Set(
+          (
+            await db
+              .select({ entityId: citations.entityId })
+              .from(citations)
+              .where(
+                and(
+                  eq(citations.entityType, "teaching"),
+                  inArray(citations.entityId, relatedCandidateIds)
+                )
+              )
+          ).map((r) => r.entityId)
+        )
+      : new Set<string>();
+
+  const sameAuthorPublished = sameAuthorTeachings
+    .filter((t) => t.id !== teaching.id && citedRelatedIds.has(t.id))
+    .slice(0, 5);
+  const sameCollectionPublished = sameCollectionTeachings
+    .filter((t) => t.id !== teaching.id && citedRelatedIds.has(t.id))
+    .sort((a, b) => {
+      const aN = parseInt(a.caseNumber ?? "0", 10);
+      const bN = parseInt(b.caseNumber ?? "0", 10);
+      return (Number.isFinite(aN) ? aN : 0) - (Number.isFinite(bN) ? bN : 0);
+    })
+    .slice(0, 10);
+
+  const canonicalUrl = abs(`/teachings/${teaching.slug}`);
+
+  const teachingLd = teachingSchema({
+    slug: teaching.slug,
+    type: teaching.type,
+    title,
+    content: enContent?.content ?? null,
+    collection: teaching.collection,
+    caseNumber: teaching.caseNumber,
+    era: teaching.era,
+    translator: enContent?.translator ?? null,
+    author:
+      authorMaster
+        ? {
+            slug: authorMaster.slug,
+            name: masterDharmaName.get(authorMaster.id) ?? authorMaster.slug,
+          }
+        : null,
+  });
+
+  const breadcrumbLd = breadcrumbSchema([
+    { name: "Home", url: abs("/") },
+    { name: "Teachings", url: abs("/proverbs") },
+    { name: title, url: canonicalUrl },
+  ]);
 
   const fieldCitations = citationRows.filter((c) => c.fieldName);
 
@@ -307,9 +394,21 @@ export default async function TeachingDetailPage({
     <main className="detail-page">
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify(breadcrumbJsonLd).replace(/</g, "\\u003c"),
-        }}
+        dangerouslySetInnerHTML={{ __html: jsonLdString([teachingLd, breadcrumbLd]) }}
+      />
+      <Breadcrumbs
+        trail={[
+          { name: "Home", href: "/" },
+          ...(authorMaster
+            ? [
+                {
+                  name: masterDharmaName.get(authorMaster.id) ?? authorMaster.slug,
+                  href: `/masters/${authorMaster.slug}`,
+                },
+              ]
+            : []),
+          { name: title },
+        ]}
       />
       {/* Keep the breadcrumb intentionally minimal on teaching pages — the
           hero below carries the large display title, so duplicating it in
@@ -429,6 +528,40 @@ export default async function TeachingDetailPage({
                   </li>
                 );
               })}
+            </ul>
+          </section>
+        )}
+
+        {sameAuthorPublished.length > 0 && authorMaster && (
+          <section className="detail-card">
+            <h3 className="detail-section-title">
+              By {masterDharmaName.get(authorMaster.id) ?? authorMaster.slug}
+            </h3>
+            <ul className="detail-link-list">
+              {sameAuthorPublished.map((t) => (
+                <li key={t.id}>
+                  <Link href={`/teachings/${t.slug}`}>{t.title ?? t.slug}</Link>
+                  {t.type && <span className="detail-list-meta">{t.type}</span>}
+                </li>
+              ))}
+            </ul>
+          </section>
+        )}
+
+        {sameCollectionPublished.length > 0 && teaching.collection && (
+          <section className="detail-card">
+            <h3 className="detail-section-title">
+              From {teaching.collection}
+            </h3>
+            <ul className="detail-link-list">
+              {sameCollectionPublished.map((t) => (
+                <li key={t.id}>
+                  <Link href={`/teachings/${t.slug}`}>{t.title ?? t.slug}</Link>
+                  {t.caseNumber && (
+                    <span className="detail-list-meta">Case {t.caseNumber}</span>
+                  )}
+                </li>
+              ))}
             </ul>
           </section>
         )}

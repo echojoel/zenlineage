@@ -21,6 +21,13 @@ import { getSchoolDefinition, type SchoolFootnote } from "@/lib/school-taxonomy"
 import { isTier1Master } from "@/lib/editorial-tiers";
 import { FootnoteList, renderProseWithFootnotes, type FootnoteRef } from "@/lib/footnotes";
 import { AccuracyFooter } from "@/components/AccuracyFooter";
+import { Breadcrumbs } from "@/components/Breadcrumbs";
+import {
+  abs,
+  breadcrumbSchema,
+  jsonLdString,
+  schoolSchema,
+} from "@/lib/seo/jsonld";
 
 function schoolFootnotesToRefs(footnotes: SchoolFootnote[] | undefined): FootnoteRef[] {
   return (footnotes ?? []).map((fn) => ({
@@ -299,23 +306,108 @@ export default async function SchoolDetailPage({ params }: { params: Promise<{ s
       ? schoolImageRows[0]
       : null;
 
-  const canonicalUrl = `https://zenlineage.org/schools/${school.slug}`;
+  // Sibling schools — share the same parent. Useful both as a related
+  // section and as a way to nudge crawlers across the school graph.
+  const siblingSchools = school.parentId
+    ? (
+        await db
+          .select({
+            id: schools.id,
+            slug: schools.slug,
+            name: schoolNames.value,
+          })
+          .from(schools)
+          .leftJoin(
+            schoolNames,
+            and(eq(schoolNames.schoolId, schools.id), eq(schoolNames.locale, "en"))
+          )
+          .where(eq(schools.parentId, school.parentId))
+      ).filter((s) => s.id !== school.id)
+    : [];
 
-  const breadcrumbJsonLd = {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://zenlineage.org" },
-      { "@type": "ListItem", position: 2, name: "Schools", item: "https://zenlineage.org/schools" },
-      { "@type": "ListItem", position: 3, name: primaryName, item: canonicalUrl },
-    ],
-  };
+  // Major teachings of this school — top cited teachings whose author is
+  // a master in this school. Capped at 6.
+  const majorTeachings =
+    masterIds.length > 0
+      ? await db
+          .select({
+            id: teachings.id,
+            slug: teachings.slug,
+            type: teachings.type,
+            title: teachingContent.title,
+            authorId: teachings.authorId,
+          })
+          .from(teachings)
+          .leftJoin(
+            teachingContent,
+            and(eq(teachingContent.teachingId, teachings.id), eq(teachingContent.locale, "en"))
+          )
+          .where(and(inArray(teachings.authorId, masterIds), eq(teachings.type, "work")))
+      : [];
+  const citedMajorTeachingIds =
+    majorTeachings.length > 0
+      ? new Set(
+          (
+            await db
+              .select({ entityId: citations.entityId })
+              .from(citations)
+              .where(
+                and(
+                  eq(citations.entityType, "teaching"),
+                  inArray(
+                    citations.entityId,
+                    majorTeachings.map((t) => t.id)
+                  )
+                )
+              )
+          ).map((r) => r.entityId)
+        )
+      : new Set<string>();
+  const publishedMajorTeachings = majorTeachings
+    .filter((t) => citedMajorTeachingIds.has(t.id))
+    .slice(0, 6);
+
+  const canonicalUrl = abs(`/schools/${school.slug}`);
+
+  const definitionForLd = definition;
+  const knowsAbout = [
+    ...((definitionForLd?.keyConcepts ?? []).map((c) => c.term)),
+    ...((definitionForLd?.keyTexts ?? []).map((t) => t.title)),
+  ];
+
+  const schoolMembersForLd = schoolMasters
+    .map((m) => ({
+      slug: m.slug,
+      name: masterNameMap.get(m.id) ?? m.slug,
+      birthYear: m.birthYear ?? Infinity,
+    }))
+    .sort((a, b) => a.birthYear - b.birthYear)
+    .slice(0, 30)
+    .map(({ slug, name }) => ({ slug, name }));
+
+  const schoolLd = schoolSchema({
+    name: primaryName,
+    slug: school.slug,
+    description: definitionForLd?.summary ?? null,
+    tradition: school.tradition,
+    parent: parentRow?.slug
+      ? { slug: parentRow.slug, name: parentRow.name ?? parentRow.slug }
+      : null,
+    members: schoolMembersForLd,
+    knowsAbout,
+  });
+
+  const breadcrumbLd = breadcrumbSchema([
+    { name: "Home", url: abs("/") },
+    { name: "Schools", url: abs("/schools") },
+    { name: primaryName, url: canonicalUrl },
+  ]);
 
   return (
     <main className="detail-page">
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd).replace(/</g, "\\u003c") }}
+        dangerouslySetInnerHTML={{ __html: jsonLdString([schoolLd, breadcrumbLd]) }}
       />
       <header className="page-header">
         <Link href="/" className="nav-link">
@@ -326,6 +418,14 @@ export default async function SchoolDetailPage({ params }: { params: Promise<{ s
         </Link>
         <h1 className="page-title">{primaryName}</h1>
       </header>
+      <Breadcrumbs
+        trail={[
+          { name: "Home", href: "/" },
+          { name: "Schools", href: "/schools" },
+          { name: primaryName },
+        ]}
+      />
+
 
       <div className="detail-layout">
         <section className="detail-hero">
@@ -611,6 +711,37 @@ export default async function SchoolDetailPage({ params }: { params: Promise<{ s
               scope={`school-${slug}`}
               title="Notes"
             />
+          </section>
+        )}
+
+        {siblingSchools.length > 0 && parentRow && (
+          <section className="detail-card">
+            <h3 className="detail-section-title">
+              Sibling branches of {parentRow.name ?? parentRow.slug}
+            </h3>
+            <ul className="detail-link-list">
+              {siblingSchools.map((s) => (
+                <li key={s.id}>
+                  <Link href={`/schools/${s.slug}`}>{s.name ?? s.slug}</Link>
+                </li>
+              ))}
+            </ul>
+          </section>
+        )}
+
+        {publishedMajorTeachings.length > 0 && (
+          <section className="detail-card">
+            <h3 className="detail-section-title">Major works of this school</h3>
+            <ul className="detail-link-list">
+              {publishedMajorTeachings.map((t) => (
+                <li key={t.id}>
+                  <Link href={`/teachings/${t.slug}`}>{t.title ?? t.slug}</Link>
+                  <span className="detail-list-meta">
+                    {masterNameMap.get(t.authorId ?? "") ?? "—"}
+                  </span>
+                </li>
+              ))}
+            </ul>
           </section>
         )}
 

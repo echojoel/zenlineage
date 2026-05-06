@@ -6190,6 +6190,42 @@
     ]
   },
   {
+    "id": "kc5K6WIK0uzVNDoMe3maY",
+    "slug": "shohaku-okumura",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Shōhaku Okumura"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Shohaku Okumura"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Okumura Shohaku"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Okumura Roshi"
+      }
+    ],
+    "birth_year": 1948,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Sōtō",
+    "source_ids": [
+      "src_sotozen_founders"
+    ]
+  },
+  {
     "id": "Kjt0_gRyxH_Y0YEXxCJrW",
     "slug": "baizhang-huaihai",
     "names": [
@@ -7022,6 +7058,47 @@
     "source_ids": [
       "src_chan_ancestors_pdf",
       "src_originals_curated"
+    ]
+  },
+  {
+    "id": "mskfTp9nq5SjOveloxzAt",
+    "slug": "ivan-densho-quintero",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Iván Densho Quintero"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Densho Quintero"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Ivan Densho Quintero"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Densho Sensei"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Tendō Quintero"
+      }
+    ],
+    "birth_year": 1961,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Sōtō",
+    "source_ids": [
+      "src_sotozen_founders"
     ]
   },
   {
