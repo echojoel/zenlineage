@@ -133,5 +133,70 @@
       "Fu Xi",
       "Fu Ta-shih"
     ]
+  },
+  {
+    "name": "Myoan Eisai",
+    "names_cjk": "明菴栄西",
+    "dates": "1141-1215",
+    "teachers": [
+      {
+        "name": "Xuan Huaichang",
+        "edge_type": "primary",
+        "notes": "Eisai received Linji (Rinzai) transmission from the Chinese master Xuan Huaichang (Hsü-an Huai-ch'ang, 虚庵懐敞) at Mount Tiantai during his second journey to China (1187-1191). Wikipedia: Eisai."
+      }
+    ],
+    "school": "Rinzai",
+    "source_id": "src_wikipedia",
+    "ingestion_run_id": "run_lineage_fixes_curated_20260506",
+    "names_alt": [
+      "Eisai",
+      "Yōsai",
+      "Eisai Zenji",
+      "Myōan Eisai"
+    ],
+    "nicknames": [
+      "Eisai",
+      "Founder of Japanese Rinzai"
+    ]
+  },
+  {
+    "name": "Ingen Ryuki",
+    "names_cjk": "隠元隆琦",
+    "dates": "1592-1673",
+    "teachers": [
+      {
+        "name": "Feiyin Tongrong",
+        "edge_type": "primary",
+        "notes": "Ingen Ryūki (Chinese: Yinyuan Longqi) received transmission from Feiyin Tongrong of the Linji school in Fujian. He emigrated to Japan in 1654 at the invitation of the Sōtō community in Nagasaki and founded Manpuku-ji in 1661, establishing the Ōbaku school as the third Japanese Zen sect. Wikipedia: Yinyuan Longqi."
+      }
+    ],
+    "school": "Obaku",
+    "source_id": "src_wikipedia",
+    "ingestion_run_id": "run_lineage_fixes_curated_20260506",
+    "names_alt": [
+      "Yinyuan Longqi",
+      "Yin-yüan Lung-ch'i",
+      "Ingen Ryūki"
+    ],
+    "nicknames": [
+      "Founder of Japanese Ōbaku"
+    ]
+  },
+  {
+    "name": "Nguyen Thieu",
+    "names_cjk": "元韶",
+    "dates": "1648-1728",
+    "teachers": [],
+    "school": "Lam Te",
+    "source_id": "src_wikipedia",
+    "ingestion_run_id": "run_lineage_fixes_curated_20260506",
+    "names_alt": [
+      "Nguyên Thiều",
+      "Nguyên Thiều Hoán Bích",
+      "Yuan Shao"
+    ],
+    "nicknames": [
+      "Founder of Vietnamese Lâm Tế"
+    ]
   }
 ]

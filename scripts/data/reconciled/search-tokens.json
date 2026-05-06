@@ -15624,6 +15624,204 @@
     "token_type": "alias"
   },
   {
+    "id": "i0ijUxR-17qij7QV_rJpB",
+    "entity_type": "master",
+    "entity_id": "Iw_aX0Eqep5-4Bubc3hJN",
+    "token": "ingen ryuki",
+    "original": "Ingen Ryuki",
+    "locale": "en",
+    "token_type": "name"
+  },
+  {
+    "id": "ekCiKsHE8e9kfLQuufb0u",
+    "entity_type": "master",
+    "entity_id": "Iw_aX0Eqep5-4Bubc3hJN",
+    "token": "ingen",
+    "original": "Ingen Ryuki",
+    "locale": "en",
+    "token_type": "name"
+  },
+  {
+    "id": "pyOzdX0knGDQV7_yAu_GF",
+    "entity_type": "master",
+    "entity_id": "Iw_aX0Eqep5-4Bubc3hJN",
+    "token": "ryuki",
+    "original": "Ingen Ryuki",
+    "locale": "en",
+    "token_type": "name"
+  },
+  {
+    "id": "idlFsiapAf1ag0J4iUd7j",
+    "entity_type": "master",
+    "entity_id": "Iw_aX0Eqep5-4Bubc3hJN",
+    "token": "yin yuan long qi",
+    "original": "隠元隆琦",
+    "locale": "zh",
+    "token_type": "romanization"
+  },
+  {
+    "id": "7qWK9W-11N2JzIkvvjDpy",
+    "entity_type": "master",
+    "entity_id": "Iw_aX0Eqep5-4Bubc3hJN",
+    "token": "yinyuanlongqi",
+    "original": "隠元隆琦",
+    "locale": "zh",
+    "token_type": "romanization"
+  },
+  {
+    "id": "kotPrtUC5xfNZvE8-3qTj",
+    "entity_type": "master",
+    "entity_id": "Iw_aX0Eqep5-4Bubc3hJN",
+    "token": "yinyuan longqi",
+    "original": "Yinyuan Longqi",
+    "locale": "en",
+    "token_type": "alias"
+  },
+  {
+    "id": "f6NIHWzLKphRGLOMTBtI8",
+    "entity_type": "master",
+    "entity_id": "Iw_aX0Eqep5-4Bubc3hJN",
+    "token": "yinyuan",
+    "original": "Yinyuan Longqi",
+    "locale": "en",
+    "token_type": "alias"
+  },
+  {
+    "id": "3qL5FRZkgcUujaOWmGrnI",
+    "entity_type": "master",
+    "entity_id": "Iw_aX0Eqep5-4Bubc3hJN",
+    "token": "longqi",
+    "original": "Yinyuan Longqi",
+    "locale": "en",
+    "token_type": "alias"
+  },
+  {
+    "id": "ZNiq41ovPkAES9zwMKAGr",
+    "entity_type": "master",
+    "entity_id": "Iw_aX0Eqep5-4Bubc3hJN",
+    "token": "yin-yuan lung-ch'i",
+    "original": "Yin-yüan Lung-ch'i",
+    "locale": "en",
+    "token_type": "alias"
+  },
+  {
+    "id": "WG0LXA4_klQuk-K96uMMk",
+    "entity_type": "master",
+    "entity_id": "Iw_aX0Eqep5-4Bubc3hJN",
+    "token": "yin-yuan",
+    "original": "Yin-yüan Lung-ch'i",
+    "locale": "en",
+    "token_type": "alias"
+  },
+  {
+    "id": "U5KqMA9oA8O0lbdqMNLKz",
+    "entity_type": "master",
+    "entity_id": "Iw_aX0Eqep5-4Bubc3hJN",
+    "token": "lung-ch'i",
+    "original": "Yin-yüan Lung-ch'i",
+    "locale": "en",
+    "token_type": "alias"
+  },
+  {
+    "id": "QER0nWDjSqj1nQNZnWvhI",
+    "entity_type": "master",
+    "entity_id": "Iw_aX0Eqep5-4Bubc3hJN",
+    "token": "yinyuan lungchi",
+    "original": "Yin-yüan Lung-ch'i",
+    "locale": "en",
+    "token_type": "alias"
+  },
+  {
+    "id": "f6NIHWzLKphRGLOMTBtI8",
+    "entity_type": "master",
+    "entity_id": "Iw_aX0Eqep5-4Bubc3hJN",
+    "token": "yinyuan",
+    "original": "Yin-yüan Lung-ch'i",
+    "locale": "en",
+    "token_type": "alias"
+  },
+  {
+    "id": "HlCrVdrHoJqhoNV2WQUDo",
+    "entity_type": "master",
+    "entity_id": "Iw_aX0Eqep5-4Bubc3hJN",
+    "token": "lungchi",
+    "original": "Yin-yüan Lung-ch'i",
+    "locale": "en",
+    "token_type": "alias"
+  },
+  {
+    "id": "Mwdry0rnhMb3E63byPovh",
+    "entity_type": "master",
+    "entity_id": "Iw_aX0Eqep5-4Bubc3hJN",
+    "token": "ingen ryuki",
+    "original": "Ingen Ryūki",
+    "locale": "en",
+    "token_type": "alias"
+  },
+  {
+    "id": "vfhRuFElPY33cqTwki82p",
+    "entity_type": "master",
+    "entity_id": "Iw_aX0Eqep5-4Bubc3hJN",
+    "token": "ingen",
+    "original": "Ingen Ryūki",
+    "locale": "en",
+    "token_type": "alias"
+  },
+  {
+    "id": "jpmBm0MteulWbXBeaxlp4",
+    "entity_type": "master",
+    "entity_id": "Iw_aX0Eqep5-4Bubc3hJN",
+    "token": "ryuki",
+    "original": "Ingen Ryūki",
+    "locale": "en",
+    "token_type": "alias"
+  },
+  {
+    "id": "gi9a91IdmPJw1qoHBaMv9",
+    "entity_type": "master",
+    "entity_id": "Iw_aX0Eqep5-4Bubc3hJN",
+    "token": "founder of japanese obaku",
+    "original": "Founder of Japanese Ōbaku",
+    "locale": "en",
+    "token_type": "name"
+  },
+  {
+    "id": "Nt74YBT3bwwRFRuzlibOR",
+    "entity_type": "master",
+    "entity_id": "Iw_aX0Eqep5-4Bubc3hJN",
+    "token": "founder",
+    "original": "Founder of Japanese Ōbaku",
+    "locale": "en",
+    "token_type": "name"
+  },
+  {
+    "id": "xNjWwhK8JAResQ5NgvEp5",
+    "entity_type": "master",
+    "entity_id": "Iw_aX0Eqep5-4Bubc3hJN",
+    "token": "of",
+    "original": "Founder of Japanese Ōbaku",
+    "locale": "en",
+    "token_type": "name"
+  },
+  {
+    "id": "ForQZU6nDsu1NIJM8CD2i",
+    "entity_type": "master",
+    "entity_id": "Iw_aX0Eqep5-4Bubc3hJN",
+    "token": "japanese",
+    "original": "Founder of Japanese Ōbaku",
+    "locale": "en",
+    "token_type": "name"
+  },
+  {
+    "id": "o-JTW-dVeskl8MGtQkbo4",
+    "entity_type": "master",
+    "entity_id": "Iw_aX0Eqep5-4Bubc3hJN",
+    "token": "obaku",
+    "original": "Founder of Japanese Ōbaku",
+    "locale": "en",
+    "token_type": "name"
+  },
+  {
     "id": "VhJT1yvf-ETQkh4dhYe-8",
     "entity_type": "master",
     "entity_id": "j-cIc9VMB17RIb8K_GRPi",
@@ -19395,6 +19593,204 @@
     "token_type": "name"
   },
   {
+    "id": "C6GapP-jt_SSwRpxq0Vy9",
+    "entity_type": "master",
+    "entity_id": "mQqBP_3ucn0yU2TvFt-Nt",
+    "token": "nguyen thieu",
+    "original": "Nguyen Thieu",
+    "locale": "en",
+    "token_type": "name"
+  },
+  {
+    "id": "kUSavIHrP_x5IN5bCqGh5",
+    "entity_type": "master",
+    "entity_id": "mQqBP_3ucn0yU2TvFt-Nt",
+    "token": "nguyen",
+    "original": "Nguyen Thieu",
+    "locale": "en",
+    "token_type": "name"
+  },
+  {
+    "id": "U8ah0ApxbdZqe9Ns93Zoo",
+    "entity_type": "master",
+    "entity_id": "mQqBP_3ucn0yU2TvFt-Nt",
+    "token": "thieu",
+    "original": "Nguyen Thieu",
+    "locale": "en",
+    "token_type": "name"
+  },
+  {
+    "id": "_3rCrOGtvzeFj1rdmIoAz",
+    "entity_type": "master",
+    "entity_id": "mQqBP_3ucn0yU2TvFt-Nt",
+    "token": "yuan shao",
+    "original": "元韶",
+    "locale": "zh",
+    "token_type": "romanization"
+  },
+  {
+    "id": "5fFziHUUUzuvYPvbjDACe",
+    "entity_type": "master",
+    "entity_id": "mQqBP_3ucn0yU2TvFt-Nt",
+    "token": "yuanshao",
+    "original": "元韶",
+    "locale": "zh",
+    "token_type": "romanization"
+  },
+  {
+    "id": "7y2hOOE9BU4tgQ9-z2PrV",
+    "entity_type": "master",
+    "entity_id": "mQqBP_3ucn0yU2TvFt-Nt",
+    "token": "nguyen thieu",
+    "original": "Nguyên Thiều",
+    "locale": "en",
+    "token_type": "alias"
+  },
+  {
+    "id": "cHHScL8Ki45y3zo1uBR6O",
+    "entity_type": "master",
+    "entity_id": "mQqBP_3ucn0yU2TvFt-Nt",
+    "token": "nguyen",
+    "original": "Nguyên Thiều",
+    "locale": "en",
+    "token_type": "alias"
+  },
+  {
+    "id": "KJ7IV693u6nuAgRtjjbvX",
+    "entity_type": "master",
+    "entity_id": "mQqBP_3ucn0yU2TvFt-Nt",
+    "token": "thieu",
+    "original": "Nguyên Thiều",
+    "locale": "en",
+    "token_type": "alias"
+  },
+  {
+    "id": "zLil0ztJ7g9yvWwzlfBlD",
+    "entity_type": "master",
+    "entity_id": "mQqBP_3ucn0yU2TvFt-Nt",
+    "token": "nguyen thieu hoan bich",
+    "original": "Nguyên Thiều Hoán Bích",
+    "locale": "en",
+    "token_type": "alias"
+  },
+  {
+    "id": "cHHScL8Ki45y3zo1uBR6O",
+    "entity_type": "master",
+    "entity_id": "mQqBP_3ucn0yU2TvFt-Nt",
+    "token": "nguyen",
+    "original": "Nguyên Thiều Hoán Bích",
+    "locale": "en",
+    "token_type": "alias"
+  },
+  {
+    "id": "KJ7IV693u6nuAgRtjjbvX",
+    "entity_type": "master",
+    "entity_id": "mQqBP_3ucn0yU2TvFt-Nt",
+    "token": "thieu",
+    "original": "Nguyên Thiều Hoán Bích",
+    "locale": "en",
+    "token_type": "alias"
+  },
+  {
+    "id": "e7sJVnyRK7b34GeNy8ZyJ",
+    "entity_type": "master",
+    "entity_id": "mQqBP_3ucn0yU2TvFt-Nt",
+    "token": "hoan",
+    "original": "Nguyên Thiều Hoán Bích",
+    "locale": "en",
+    "token_type": "alias"
+  },
+  {
+    "id": "XshU3p-YM8Ssyf5-EM5FS",
+    "entity_type": "master",
+    "entity_id": "mQqBP_3ucn0yU2TvFt-Nt",
+    "token": "bich",
+    "original": "Nguyên Thiều Hoán Bích",
+    "locale": "en",
+    "token_type": "alias"
+  },
+  {
+    "id": "42yor6LZcOY-KhjPOSW31",
+    "entity_type": "master",
+    "entity_id": "mQqBP_3ucn0yU2TvFt-Nt",
+    "token": "yuan shao",
+    "original": "Yuan Shao",
+    "locale": "en",
+    "token_type": "alias"
+  },
+  {
+    "id": "1VsWSpQ3zKwoQHVGeNTOb",
+    "entity_type": "master",
+    "entity_id": "mQqBP_3ucn0yU2TvFt-Nt",
+    "token": "yuan",
+    "original": "Yuan Shao",
+    "locale": "en",
+    "token_type": "alias"
+  },
+  {
+    "id": "Esbl_vyp2T3CFs0QBvnpM",
+    "entity_type": "master",
+    "entity_id": "mQqBP_3ucn0yU2TvFt-Nt",
+    "token": "shao",
+    "original": "Yuan Shao",
+    "locale": "en",
+    "token_type": "alias"
+  },
+  {
+    "id": "rKGC3HoQXwYJhNPn3FrLu",
+    "entity_type": "master",
+    "entity_id": "mQqBP_3ucn0yU2TvFt-Nt",
+    "token": "founder of vietnamese lam te",
+    "original": "Founder of Vietnamese Lâm Tế",
+    "locale": "en",
+    "token_type": "name"
+  },
+  {
+    "id": "HCfEBaRzjlrNtLYDD_lyy",
+    "entity_type": "master",
+    "entity_id": "mQqBP_3ucn0yU2TvFt-Nt",
+    "token": "founder",
+    "original": "Founder of Vietnamese Lâm Tế",
+    "locale": "en",
+    "token_type": "name"
+  },
+  {
+    "id": "ukpcs2ZyGllwQ_5gZaWgT",
+    "entity_type": "master",
+    "entity_id": "mQqBP_3ucn0yU2TvFt-Nt",
+    "token": "of",
+    "original": "Founder of Vietnamese Lâm Tế",
+    "locale": "en",
+    "token_type": "name"
+  },
+  {
+    "id": "SK3--lvpsA3P0RxOIO8J9",
+    "entity_type": "master",
+    "entity_id": "mQqBP_3ucn0yU2TvFt-Nt",
+    "token": "vietnamese",
+    "original": "Founder of Vietnamese Lâm Tế",
+    "locale": "en",
+    "token_type": "name"
+  },
+  {
+    "id": "E3k65AyFa5__O_8Ak453I",
+    "entity_type": "master",
+    "entity_id": "mQqBP_3ucn0yU2TvFt-Nt",
+    "token": "lam",
+    "original": "Founder of Vietnamese Lâm Tế",
+    "locale": "en",
+    "token_type": "name"
+  },
+  {
+    "id": "jNMt8LhtazVxJ0LfJdqXH",
+    "entity_type": "master",
+    "entity_id": "mQqBP_3ucn0yU2TvFt-Nt",
+    "token": "te",
+    "original": "Founder of Vietnamese Lâm Tế",
+    "locale": "en",
+    "token_type": "name"
+  },
+  {
     "id": "ScigPEn32Zemt5022poXF",
     "entity_type": "master",
     "entity_id": "MRUgXjS05THSbaFxxRBWe",
@@ -20536,6 +20932,168 @@
     "original": "Gyokusen Jinshû",
     "locale": "en",
     "token_type": "alias"
+  },
+  {
+    "id": "qVv8KtCU6v_xAKQ37noZm",
+    "entity_type": "master",
+    "entity_id": "NEuR76w8oHToQv7ZPyugY",
+    "token": "myoan eisai",
+    "original": "Myoan Eisai",
+    "locale": "en",
+    "token_type": "name"
+  },
+  {
+    "id": "X-BHn1uOwrcTc7cl3WwKz",
+    "entity_type": "master",
+    "entity_id": "NEuR76w8oHToQv7ZPyugY",
+    "token": "myoan",
+    "original": "Myoan Eisai",
+    "locale": "en",
+    "token_type": "name"
+  },
+  {
+    "id": "QbnX-q384vu29C3DAkl_x",
+    "entity_type": "master",
+    "entity_id": "NEuR76w8oHToQv7ZPyugY",
+    "token": "eisai",
+    "original": "Myoan Eisai",
+    "locale": "en",
+    "token_type": "name"
+  },
+  {
+    "id": "f1byAjhYvBL2LGbRsluwX",
+    "entity_type": "master",
+    "entity_id": "NEuR76w8oHToQv7ZPyugY",
+    "token": "ming an rong xi",
+    "original": "明菴栄西",
+    "locale": "zh",
+    "token_type": "romanization"
+  },
+  {
+    "id": "-XxJrjGj6Lxr-TTDmjr5E",
+    "entity_type": "master",
+    "entity_id": "NEuR76w8oHToQv7ZPyugY",
+    "token": "minganrongxi",
+    "original": "明菴栄西",
+    "locale": "zh",
+    "token_type": "romanization"
+  },
+  {
+    "id": "_iSr-ovDN8naU4drf5KZw",
+    "entity_type": "master",
+    "entity_id": "NEuR76w8oHToQv7ZPyugY",
+    "token": "eisai",
+    "original": "Eisai",
+    "locale": "en",
+    "token_type": "alias"
+  },
+  {
+    "id": "re2iJ76wBBYlHRBS5vHqX",
+    "entity_type": "master",
+    "entity_id": "NEuR76w8oHToQv7ZPyugY",
+    "token": "yosai",
+    "original": "Yōsai",
+    "locale": "en",
+    "token_type": "alias"
+  },
+  {
+    "id": "jV2f8VQ4f5ZNJB8R6WcoS",
+    "entity_type": "master",
+    "entity_id": "NEuR76w8oHToQv7ZPyugY",
+    "token": "eisai zenji",
+    "original": "Eisai Zenji",
+    "locale": "en",
+    "token_type": "alias"
+  },
+  {
+    "id": "_iSr-ovDN8naU4drf5KZw",
+    "entity_type": "master",
+    "entity_id": "NEuR76w8oHToQv7ZPyugY",
+    "token": "eisai",
+    "original": "Eisai Zenji",
+    "locale": "en",
+    "token_type": "alias"
+  },
+  {
+    "id": "iik81tztREd0OZrluG38J",
+    "entity_type": "master",
+    "entity_id": "NEuR76w8oHToQv7ZPyugY",
+    "token": "zenji",
+    "original": "Eisai Zenji",
+    "locale": "en",
+    "token_type": "alias"
+  },
+  {
+    "id": "e94KKcXUYtwlczXX7yMV1",
+    "entity_type": "master",
+    "entity_id": "NEuR76w8oHToQv7ZPyugY",
+    "token": "myoan eisai",
+    "original": "Myōan Eisai",
+    "locale": "en",
+    "token_type": "alias"
+  },
+  {
+    "id": "-S-hVfePKKdZ9zHUwhOnL",
+    "entity_type": "master",
+    "entity_id": "NEuR76w8oHToQv7ZPyugY",
+    "token": "myoan",
+    "original": "Myōan Eisai",
+    "locale": "en",
+    "token_type": "alias"
+  },
+  {
+    "id": "_iSr-ovDN8naU4drf5KZw",
+    "entity_type": "master",
+    "entity_id": "NEuR76w8oHToQv7ZPyugY",
+    "token": "eisai",
+    "original": "Myōan Eisai",
+    "locale": "en",
+    "token_type": "alias"
+  },
+  {
+    "id": "C1cr7b41p3YxtDDmZ6iTc",
+    "entity_type": "master",
+    "entity_id": "NEuR76w8oHToQv7ZPyugY",
+    "token": "founder of japanese rinzai",
+    "original": "Founder of Japanese Rinzai",
+    "locale": "en",
+    "token_type": "name"
+  },
+  {
+    "id": "E8qaZCBgKCWSDgHMGy0SL",
+    "entity_type": "master",
+    "entity_id": "NEuR76w8oHToQv7ZPyugY",
+    "token": "founder",
+    "original": "Founder of Japanese Rinzai",
+    "locale": "en",
+    "token_type": "name"
+  },
+  {
+    "id": "zhVkI-9cnqMmUhgvHhpmH",
+    "entity_type": "master",
+    "entity_id": "NEuR76w8oHToQv7ZPyugY",
+    "token": "of",
+    "original": "Founder of Japanese Rinzai",
+    "locale": "en",
+    "token_type": "name"
+  },
+  {
+    "id": "X_8c1sW4szFa2noBj7Kpv",
+    "entity_type": "master",
+    "entity_id": "NEuR76w8oHToQv7ZPyugY",
+    "token": "japanese",
+    "original": "Founder of Japanese Rinzai",
+    "locale": "en",
+    "token_type": "name"
+  },
+  {
+    "id": "Kuqhq-dbk4TE49dPn6aCR",
+    "entity_type": "master",
+    "entity_id": "NEuR76w8oHToQv7ZPyugY",
+    "token": "rinzai",
+    "original": "Founder of Japanese Rinzai",
+    "locale": "en",
+    "token_type": "name"
   },
   {
     "id": "b6yIkgb9geMTThQBT7geF",

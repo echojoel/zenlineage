@@ -1,8 +1,8 @@
 # Zen Lineage
 
-**[zenlineage.org](https://zenlineage.org)** — An open, interactive encyclopedia of Zen Buddhist masters, schools, and dharma transmission lineages.
+**[zenlineage.org](https://zenlineage.org)** — An open, interactive encyclopedia of Zen Buddhist masters, schools, dharma transmission lineages, and active places of practice.
 
-This project aims to make Zen's rich history accessible and explorable. Browse 381 masters across 15 schools, trace teacher-student lineages through an interactive graph, and read sourced biographies, teachings, and koans spanning 2,500 years from Shakyamuni Buddha to modern teachers.
+This project aims to make Zen's rich history accessible and explorable. Browse 424 masters across 25 schools, trace teacher-student lineages through an interactive graph, and read sourced biographies, teachings, and koans spanning 2,500 years from Shakyamuni Buddha to modern teachers — and find Zen practice places near you across 51 countries.
 
 ---
 
@@ -20,15 +20,16 @@ We will promptly honor any removal or correction request. We sincerely apologize
 
 ## What's here
 
-|                   |                                                     |
-| ----------------- | --------------------------------------------------- |
-| **Masters**       | 381 across Chan, Zen, Seon, and Thiền traditions    |
-| **Schools**       | 15 — Linji, Caodong, Rinzai, Soto, Jogye, and more  |
-| **Lineage edges** | 375 teacher-student transmission records            |
-| **Teachings**     | 363 — koans, verses, dialogues, and proverbs        |
-| **Images**        | 199 verified master portraits                       |
-| **Biographies**   | Sourced narratives for the current canonical corpus |
-| **Citations**     | 1,700+ source attributions                          |
+|                   |                                                                                |
+| ----------------- | ------------------------------------------------------------------------------ |
+| **Masters**       | 424 across Chan, Zen, Seon, and Thiền traditions                               |
+| **Schools**       | 25 — Linji, Caodong, Rinzai, Soto, Jogye, Plum Village, Sanbō Zen, and more   |
+| **Transmissions** | 423 teacher-student dharma transmission records                                |
+| **Places of practice** | 1,594 active dōjō, monasteries, and lay sanghas across 51 countries       |
+| **Teachings**     | 758 — koans, verses, dialogues, and proverbs                                   |
+| **Images**        | 187 verified master portraits with attribution                                 |
+| **Biographies**   | Sourced narratives for the canonical corpus                                    |
+| **Citations**     | 6,800+ source attributions                                                     |
 
 ## Pages
 
@@ -39,9 +40,11 @@ We will promptly honor any removal or correction request. We sincerely apologize
 | `/masters`        | Searchable grid of all masters with school and era filters                             |
 | `/masters/[slug]` | Master detail — names, dates, school, lineage, biography, teachings, portrait, sources |
 | `/schools`        | All schools with descriptions and master counts                                        |
-| `/schools/[slug]` | School detail — tradition, history, notable members                                    |
+| `/schools/[slug]` | School detail — tradition, history, notable members, hero portrait                     |
+| `/practice`       | World map of Zen practice places — pan, zoom, filter by school                         |
 | `/proverbs`       | Browsable collection of Zen proverbs with theme and school filters                     |
 | `/timeline`       | Chronological timeline of masters                                                      |
+| `/about`          | What Zen is, where the word comes from, the three pillars, and historical development  |
 
 ## Stack
 
@@ -97,6 +100,18 @@ Teachings follow a parallel path:
 ```
 scripts/data/raw-teachings/teachings-*.json
   -> scripts/seed-teachings.ts  ->  zen.db
+```
+
+Places of practice follow yet another path — per-country research artifacts
+are auto-discovered, geocoded, and merged into the seed dataset:
+
+```
+scripts/data/raw-places/zen-places-{cc}.json   # one per country (~50)
+  -> scripts/build-europe-temples.ts
+       (Nominatim geocoding + cache + lineage→school + URL→source mapping)
+  -> scripts/data/seed-temples-europe.ts
+  -> scripts/seed-temples.ts                   # combined with curated entries
+  -> zen.db
 ```
 
 Images are fetched from Wikipedia's pageimages API, manually verified, then optimized to WebP:

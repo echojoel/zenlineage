@@ -945,6 +945,16 @@ Huanglong Huinan was a student of Shishuang Chuyuan who founded the Huanglong br
 
 The Three Barriers were questions that Huanglong posed to every student: "Everyone has a place of birth—where is your place of birth?" "My hand is like the hand of Buddha—what is the reason?" "My foot is like the foot of a donkey—what is the meaning?" These seemingly absurd questions were designed to probe whether the student had genuine realization or merely intellectual understanding.
 
+### Myoan Eisai
+
+- **Also known as:** Eisai, Yōsai, Eisai Zenji, Myōan Eisai, Founder of Japanese Rinzai
+- **Dates:** 1141 – 1215
+- **School:** Rinzai
+
+Myōan Eisai (1141–1215) was the monk who introduced Rinzai Zen from China to Japan and is also credited with establishing the tradition of tea cultivation that would evolve into the Japanese tea ceremony. A Tendai monk by original training, Eisai made two journeys to Song dynasty China, the second lasting from 1187 to 1191, during which he studied under the Linji master Xuan Huaichang on Mount Tiantai and received dharma transmission. He returned to Japan bearing not only the Linji teaching but also tea seeds and the Chinese methods of preparing powdered tea.
+
+Eisai's efforts to establish Zen as an independent school in Japan met fierce resistance from the powerful Tendai establishment on Mount Hiei, which viewed the new meditation school as a threat.
+
 ### Bojo Jinul
 
 - **Also known as:** Chinul
@@ -1527,6 +1537,14 @@ Shuzan Shunsho was a Soto Zen master who contributed to the tradition's transmis
 
 Shunsho's teaching reflected the Soto school's characteristic balance of meditative depth and institutional responsibility. The tradition's ability to maintain both dimensions—the inner practice of zazen and the outer structure of monastic and temple life—has been essential to its enduring presence in Japanese and now global Buddhism.
 
+### Ingen Ryuki
+
+- **Also known as:** Yinyuan Longqi, Yin-yüan Lung-ch'i, Ingen Ryūki, Founder of Japanese Ōbaku
+- **Dates:** 1592 – 1673
+- **School:** Ōbaku
+
+Ingen Ryūki (1592–1673), known in Chinese as Yinyuan Longqi, was a Chinese Linji Chan master who crossed to Japan in 1654 and founded the Ōbaku school, the third major school of Japanese Zen alongside Rinzai and Sōtō. Born in Fuqing, Fujian Province, he ordained at a young age and eventually became the abbot of Wanfu-si on Mount Huangbo (Ōbaku in Japanese), the very temple where Huangbo Xiyun had taught a thousand years earlier. When invited to Japan by Chinese emigrant communities in Nagasaki, he brought with him a form of late-Ming Chan that blended meditation with Pure Land nembutsu recitation, sutra chanting, and strict vinaya observance.
+
 ### Hakuho Genteki
 
 - **Dates:** 1594 – 1670
@@ -1581,6 +1599,16 @@ Bankei Yōtaku (1622–1693) was one of the most original and accessible Zen mas
 Shoju Rojin, whose formal name was Dokyo Etan, was Hakuin Ekaku's most important teacher and the master responsible for deepening Hakuin's initial awakening into the mature realization that would transform the Rinzai school. He was known as "the old man of Shoju" after the hermitage where he lived and taught a small number of students with extraordinary rigor.
 
 When the young Hakuin arrived at Shoju's hermitage, already confident in his initial kensho experience, Shoju tested him relentlessly and found his understanding shallow. The confrontation between Hakuin's premature confidence and Shoju's merciless probing drove Hakuin to a much deeper realization.
+
+### Nguyen Thieu
+
+- **Also known as:** Nguyên Thiều, Nguyên Thiều Hoán Bích, Yuan Shao, Founder of Vietnamese Lâm Tế
+- **Dates:** 1648 – 1728
+- **School:** Lâm Tế
+
+Nguyên Thiều (1648–1728) was a Chinese Buddhist monk who became the pivotal figure in establishing the Linji (Lâm Tế) school of Chan Buddhism in Vietnam. Born on July 8, 1648, in Triệu Châu Prefecture, Guangdong Province, China, he was ordained at age nineteen under Venerable Bổn Quả Khoáng Viên at Báo Tư Temple, receiving designation as the thirty-third generation of the Linji lineage.
+
+In 1677, during the reign of the Nguyễn lord Nguyễn Phúc Tần, Nguyên Thiều traveled to Đại Việt by merchant ship, arriving during intense political upheaval in China as the Qing dynasty crushed the last Ming loyalist resistance. He initially settled in Quy Nhơn, establishing the Thập Tháp Di Đà Temple in 1683.
 
 ### Tokuo Ryoko
 
@@ -4789,7 +4817,7 @@ The Soto school (曹洞宗) is the Japanese continuation of the Chinese Caodong 
 ### Rinzai
 
 - **Tradition:** Zen
-- **Masters:** 60
+- **Masters:** 61
 
 The Rinzai school (臨済宗) is the Japanese form of the Chinese Linji tradition, transmitted to Japan through multiple lineages during the Kamakura period (1185–1333)[1]. The school's defining figure is Hakuin Ekaku (1686–1769), who single-handedly revived and systematized Rinzai practice after a period of decline[2]. Hakuin developed the structured koan curriculum that remains standard today—beginning with the Mu koan or the sound of one hand clapping, then progressing through increasingly subtle layers of inquiry. His emphasis on 'great doubt, great faith, great determination' as the three pillars of practice became definitive[2]. The modern Rinzai school is organized primarily through the O-To-Kan lineage: Nanpo Jomyo (Daio Kokushi) received transmission from the Chinese master Xutang Zhiyu, transmitted to Shuho Myocho (Daito Kokushi, founder of Daitokuji), who transmitted to Kanzan Egen (founder of Myoshinji)[3]. These two temple complexes—Daitokuji and Myoshinji—and their extensive branch networks form the institutional backbone of modern Rinzai Zen. The school profoundly influenced Japanese culture, including the tea ceremony, calligraphy, ink painting, garden design, and the martial arts.
 
@@ -4803,7 +4831,7 @@ The Yangqi line is the dominant sub-branch of the Linji school, founded by Yangq
 ### Lâm Tế
 
 - **Tradition:** Thiền
-- **Masters:** 1
+- **Masters:** 2
 
 The Lâm Tế school is the Vietnamese form of the Chinese Linji tradition, formally established in Vietnam during the seventeenth century by Chinese monks carrying the late-Ming Linji revival lineage of Miyun Yuanwu[1]. The most important transmission was through Nguyên Thiều (1648–1728), a Chinese monk from Guangdong who arrived in Vietnam around 1665–1677 and established the Linji lineage in the central and southern regions[2]. His dharma grandson Liễu Quán (1670–1742) became the first native Vietnamese to receive Linji dharma transmission, founding the Liễu Quán dharma line that 'Vietnamized' the tradition and remains the dominant Buddhist lineage in central Vietnam to this day[3]. Thích Nhất Hạnh (1926–2022), the globally influential Zen teacher and peace activist, was the 42nd generation of the Lâm Tế school and 8th generation of the Liễu Quán line[4].
 
@@ -4817,7 +4845,7 @@ The Kwan Um School of Zen is an international Seon organization founded in 1983 
 ### Ōbaku
 
 - **Tradition:** Zen
-- **Masters:** 0
+- **Masters:** 1
 
 The Ōbaku school (黄檗宗) is the third major school of Japanese Zen, founded in 1661 by the Chinese Chan master Ingen Ryūki (Yinyuan Longqi, 1592–1673), who brought late-Ming Chinese Linji Chan to Japan[1]. Named after Huangbo (Ōbaku) Mountain—the monastery of the great Tang dynasty master Huangbo Xiyun—the school established its headquarters at Manpuku-ji in Uji, near Kyoto[1][2]. The Ōbaku school is distinctive for preserving Chinese liturgical forms, including the recitation of the nembutsu (nianfo) alongside Zen meditation, reflecting the syncretic Chan-Pure Land practice that had become standard in late-Ming China[2]. The school also introduced Ming dynasty architectural styles, calligraphy, painting, and the sencha tea ceremony to Japan, profoundly influencing Japanese culture[2]. Tetsugen Dōkō, a prominent figure in the early Ōbaku school (dharma heir of Muan Xingtao), is celebrated for his monumental project of carving the entire Chinese Buddhist canon (Ōbaku edition of the Tripitaka) in woodblock, a feat of devotion that took over a decade[3].
 

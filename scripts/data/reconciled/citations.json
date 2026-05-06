@@ -6624,6 +6624,38 @@
     "excerpt": "Kaso Sodon"
   },
   {
+    "id": "N6yB3_7v7wBp7OCcrbh_F",
+    "source_id": "src_wikipedia",
+    "entity_type": "master",
+    "entity_id": "Iw_aX0Eqep5-4Bubc3hJN",
+    "field_name": "dates",
+    "excerpt": "1592-1673"
+  },
+  {
+    "id": "bw3VYrTUjemLD4C9CyLIE",
+    "source_id": "src_wikipedia",
+    "entity_type": "master",
+    "entity_id": "Iw_aX0Eqep5-4Bubc3hJN",
+    "field_name": "name",
+    "excerpt": "Ingen Ryuki"
+  },
+  {
+    "id": "tdoYqKQmAhHA7r2W0yQZ9",
+    "source_id": "src_wikipedia",
+    "entity_type": "master",
+    "entity_id": "Iw_aX0Eqep5-4Bubc3hJN",
+    "field_name": "school",
+    "excerpt": "Obaku"
+  },
+  {
+    "id": "TKabdJPQ4yANvsOKITzjA",
+    "source_id": "src_wikipedia",
+    "entity_type": "master",
+    "entity_id": "Iw_aX0Eqep5-4Bubc3hJN",
+    "field_name": "teachers",
+    "excerpt": "Feiyin Tongrong"
+  },
+  {
     "id": "GZpClYvuuFqlRvnGZ7iDK",
     "source_id": "src_chan_ancestors_pdf",
     "entity_type": "master",
@@ -8184,6 +8216,30 @@
     "excerpt": "Seisetsu Genjyo"
   },
   {
+    "id": "7d3J61zlHd6VzJrP9Pevd",
+    "source_id": "src_wikipedia",
+    "entity_type": "master",
+    "entity_id": "mQqBP_3ucn0yU2TvFt-Nt",
+    "field_name": "dates",
+    "excerpt": "1648-1728"
+  },
+  {
+    "id": "bj3Xp4j2mHcdZXVpsE24F",
+    "source_id": "src_wikipedia",
+    "entity_type": "master",
+    "entity_id": "mQqBP_3ucn0yU2TvFt-Nt",
+    "field_name": "name",
+    "excerpt": "Nguyen Thieu"
+  },
+  {
+    "id": "eiHiE5Juus0fZGmRxc0VF",
+    "source_id": "src_wikipedia",
+    "entity_type": "master",
+    "entity_id": "mQqBP_3ucn0yU2TvFt-Nt",
+    "field_name": "school",
+    "excerpt": "Lam Te"
+  },
+  {
     "id": "6uvQH8lBl1x_d46_dTwI0",
     "source_id": "src_chan_ancestors_pdf",
     "entity_type": "master",
@@ -8654,6 +8710,38 @@
     "entity_id": "NEAKNQoo_MlBKLBAQRXDI",
     "field_name": "teachers",
     "excerpt": "Daman Hongren"
+  },
+  {
+    "id": "EvlDVqMdKuq3772g0nud1",
+    "source_id": "src_wikipedia",
+    "entity_type": "master",
+    "entity_id": "NEuR76w8oHToQv7ZPyugY",
+    "field_name": "dates",
+    "excerpt": "1141-1215"
+  },
+  {
+    "id": "A0G6FNvSoeQITj738m9kN",
+    "source_id": "src_wikipedia",
+    "entity_type": "master",
+    "entity_id": "NEuR76w8oHToQv7ZPyugY",
+    "field_name": "name",
+    "excerpt": "Myoan Eisai"
+  },
+  {
+    "id": "_vbgHgIMyVqGhtgoPLClM",
+    "source_id": "src_wikipedia",
+    "entity_type": "master",
+    "entity_id": "NEuR76w8oHToQv7ZPyugY",
+    "field_name": "school",
+    "excerpt": "Rinzai"
+  },
+  {
+    "id": "vEJzrrUG4_zXn1-a8Kwt8",
+    "source_id": "src_wikipedia",
+    "entity_type": "master",
+    "entity_id": "NEuR76w8oHToQv7ZPyugY",
+    "field_name": "teachers",
+    "excerpt": "Xuan Huaichang"
   },
   {
     "id": "2QBTJMjEs7XlZNi1sObYs",

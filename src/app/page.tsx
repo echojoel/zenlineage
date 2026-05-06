@@ -30,16 +30,18 @@ import {
   teachings,
   teachingContent,
   teachingMasterRoles,
+  temples,
   citations,
 } from "@/db/schema";
 import { buildCitationKeySet, isPublishedTeaching } from "@/lib/publishable-content";
 
 export default async function Home() {
   // Counts
-  const [masterRow, schoolRow, transmissionRow] = await Promise.all([
+  const [masterRow, schoolRow, transmissionRow, templeRow] = await Promise.all([
     db.select({ count: sql<number>`count(*)` }).from(masters),
     db.select({ count: sql<number>`count(*)` }).from(schools),
     db.select({ count: sql<number>`count(*)` }).from(masterTransmissions),
+    db.select({ count: sql<number>`count(*)` }).from(temples),
   ]);
 
   // Random proverb
@@ -140,14 +142,14 @@ export default async function Home() {
     };
   }
 
-  const countsLabel = `${masterRow[0]?.count ?? 0} masters · ${schoolRow[0]?.count ?? 0} schools · ${transmissionRow[0]?.count ?? 0} transmissions`;
+  const countsLabel = `${masterRow[0]?.count ?? 0} masters · ${schoolRow[0]?.count ?? 0} schools · ${transmissionRow[0]?.count ?? 0} transmissions · ${templeRow[0]?.count ?? 0} places of practice`;
 
   const websiteJsonLd = {
     "@context": "https://schema.org",
     "@type": "WebSite",
     name: "Zen Lineage",
     url: "https://zenlineage.org",
-    description: `An interactive encyclopedia of Zen Buddhism covering ${masterRow[0]?.count ?? 0} masters, ${schoolRow[0]?.count ?? 0} schools, and ${transmissionRow[0]?.count ?? 0} lineage transmissions across 2,500 years of Chan and Zen history.`,
+    description: `An interactive encyclopedia of Zen Buddhism covering ${masterRow[0]?.count ?? 0} masters, ${schoolRow[0]?.count ?? 0} schools, ${transmissionRow[0]?.count ?? 0} lineage transmissions, and ${templeRow[0]?.count ?? 0} active places of practice across 2,500 years of Chan and Zen history.`,
     potentialAction: {
       "@type": "SearchAction",
       target: "https://zenlineage.org/masters?q={search_term_string}",

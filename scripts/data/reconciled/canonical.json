@@ -5588,6 +5588,52 @@
     ]
   },
   {
+    "id": "Iw_aX0Eqep5-4Bubc3hJN",
+    "slug": "ingen-ryuki",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Ingen Ryuki"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "隠元隆琦"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Yinyuan Longqi"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Yin-yüan Lung-ch'i"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Ingen Ryūki"
+      },
+      {
+        "locale": "en",
+        "name_type": "honorific",
+        "value": "Founder of Japanese Ōbaku"
+      }
+    ],
+    "birth_year": 1592,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 1673,
+    "death_precision": "exact",
+    "death_confidence": "high",
+    "school": "Ōbaku",
+    "source_ids": [
+      "src_wikipedia"
+    ]
+  },
+  {
     "id": "j-cIc9VMB17RIb8K_GRPi",
     "slug": "dasui-fazhen",
     "names": [
@@ -6901,6 +6947,52 @@
     ]
   },
   {
+    "id": "mQqBP_3ucn0yU2TvFt-Nt",
+    "slug": "nguyen-thieu",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Nguyen Thieu"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "元韶"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Nguyên Thiều"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Nguyên Thiều Hoán Bích"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Yuan Shao"
+      },
+      {
+        "locale": "en",
+        "name_type": "honorific",
+        "value": "Founder of Vietnamese Lâm Tế"
+      }
+    ],
+    "birth_year": 1648,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 1728,
+    "death_precision": "exact",
+    "death_confidence": "high",
+    "school": "Lâm Tế",
+    "source_ids": [
+      "src_wikipedia"
+    ]
+  },
+  {
     "id": "MRUgXjS05THSbaFxxRBWe",
     "slug": "yuezhou-qianfeng",
     "names": [
@@ -7327,6 +7419,57 @@
     "source_ids": [
       "src_chan_ancestors_pdf",
       "src_originals_curated"
+    ]
+  },
+  {
+    "id": "NEuR76w8oHToQv7ZPyugY",
+    "slug": "myoan-eisai",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Myoan Eisai"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "明菴栄西"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Eisai"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Yōsai"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Eisai Zenji"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Myōan Eisai"
+      },
+      {
+        "locale": "en",
+        "name_type": "honorific",
+        "value": "Founder of Japanese Rinzai"
+      }
+    ],
+    "birth_year": 1141,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 1215,
+    "death_precision": "exact",
+    "death_confidence": "high",
+    "school": "Rinzai",
+    "source_ids": [
+      "src_wikipedia"
     ]
   },
   {
