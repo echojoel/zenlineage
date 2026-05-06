@@ -750,17 +750,17 @@
       {
         "locale": "en",
         "name_type": "dharma",
+        "value": "Koun Ejō"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
         "value": "Koun Ejo"
       },
       {
         "locale": "zh",
         "name_type": "alias",
         "value": "孤雲懐奘"
-      },
-      {
-        "locale": "en",
-        "name_type": "alias",
-        "value": "Koun Ejō"
       },
       {
         "locale": "en",
@@ -4422,6 +4422,11 @@
       {
         "locale": "en",
         "name_type": "dharma",
+        "value": "Bodhidharma"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
         "value": "Puti Damo"
       },
       {
@@ -4433,11 +4438,6 @@
         "locale": "en",
         "name_type": "alias",
         "value": "Bodai Daruma"
-      },
-      {
-        "locale": "en",
-        "name_type": "alias",
-        "value": "Bodhidharma"
       },
       {
         "locale": "zh",
@@ -7079,17 +7079,17 @@
       {
         "locale": "en",
         "name_type": "dharma",
+        "value": "Keizan Jōkin"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
         "value": "Keizan Jokin"
       },
       {
         "locale": "zh",
         "name_type": "alias",
         "value": "瑩山紹瑾"
-      },
-      {
-        "locale": "en",
-        "name_type": "alias",
-        "value": "Keizan Jōkin"
       },
       {
         "locale": "en",
@@ -7394,6 +7394,11 @@
       {
         "locale": "en",
         "name_type": "dharma",
+        "value": "Dōgen"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
         "value": "Dogen"
       },
       {
@@ -7405,11 +7410,6 @@
         "locale": "en",
         "name_type": "alias",
         "value": "Dogen Zenji"
-      },
-      {
-        "locale": "en",
-        "name_type": "alias",
-        "value": "Dōgen"
       },
       {
         "locale": "en",
@@ -7855,17 +7855,17 @@
       {
         "locale": "en",
         "name_type": "dharma",
+        "value": "Tettsū Gikai"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
         "value": "Tettsu Gikai"
       },
       {
         "locale": "zh",
         "name_type": "alias",
         "value": "徹通義介"
-      },
-      {
-        "locale": "en",
-        "name_type": "alias",
-        "value": "Tettsū Gikai"
       },
       {
         "locale": "en",

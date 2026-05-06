@@ -566,10 +566,16 @@ export function buildCanonicalNames(
   const sorted = [...group].sort((a, b) => reliabilityOf(b.source_id) - reliabilityOf(a.source_id));
 
   const primary = sorted[0];
-  addName(primary.name, "dharma");
+
+  // If aliases.json marks a different canonical name (e.g. Ferguson's Pinyin
+  // "Puti Damo" maps to canonical "Bodhidharma"), let the alias file win as
+  // the dharma name. Source-form becomes an alias.
+  const aliasCanonical = aliasLookup.get(primary.name.toLowerCase());
+  const dharmaName = aliasCanonical ?? primary.name;
+  addName(dharmaName, "dharma");
 
   for (const m of sorted) {
-    if (m.name !== primary.name) addName(m.name, "alias");
+    if (m.name !== dharmaName) addName(m.name, "alias");
     if (m.names_cjk) addName(m.names_cjk, "alias");
     for (const alt of m.names_alt ?? []) addName(alt, "alias");
     for (const nick of m.nicknames ?? []) addName(nick, "honorific");
