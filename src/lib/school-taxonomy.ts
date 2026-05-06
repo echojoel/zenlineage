@@ -183,6 +183,27 @@ const SCHOOL_DEFINITIONS: SchoolDefinition[] = [
           "The Sanskrit word from which 'Chan' and 'Zen' directly descend — meditative absorption, the sustained collected attention in which the awakening transmitted through the patriarchs is realized.",
         url: "https://en.wikipedia.org/wiki/Dhy%C4%81na_in_Buddhism",
       },
+      {
+        term: "Bodhicitta",
+        nativeTerm: "菩提心",
+        description:
+          "'Mind of awakening.' The aspiration — central to the Mahāyāna inheritance Chan received from India — to realize buddhahood for the sake of all beings. The motivational ground beneath every later Chan vow.",
+        url: "https://en.wikipedia.org/wiki/Bodhicitta",
+      },
+      {
+        term: "Bodhisattva",
+        nativeTerm: "菩薩",
+        description:
+          "An 'awakening being' who postpones final nirvāṇa to liberate all sentient beings. The Mahāyāna ideal carried into China by the Indian patriarchs and embodied in figures like Avalokiteśvara (Guanyin) and Mañjuśrī.",
+        url: "https://en.wikipedia.org/wiki/Bodhisattva",
+      },
+      {
+        term: "Prajñāpāramitā",
+        nativeTerm: "般若波羅蜜多",
+        description:
+          "'Perfection of wisdom.' The corpus of Mahāyāna sūtras — Heart, Diamond, and the longer Prajñāpāramitā texts — that grounds Chan's teaching of emptiness. Nāgārjuna's Madhyamaka is its philosophical articulation.",
+        url: "https://en.wikipedia.org/wiki/Prajnaparamita",
+      },
     ],
   },
   {
@@ -332,6 +353,48 @@ const SCHOOL_DEFINITIONS: SchoolDefinition[] = [
         description:
           "'Universal invitation' — the Chan monastic labor system codified by Baizhang Huaihai. 'A day without work, a day without eating': manual work in the fields and kitchens is treated as no less awakening than seated meditation.",
         url: "https://en.wikipedia.org/wiki/Baizhang_Huaihai",
+      },
+      {
+        term: "Buddha-nature",
+        nativeTerm: "佛性",
+        description:
+          "'Foxing' (Jp. busshō) — the doctrine, drawn from the Tathāgatagarbha and Nirvāṇa sūtras, that all beings already possess the awakened nature of a buddha. The premise of every Chan claim that awakening is a recognition rather than an attainment.",
+        url: "https://en.wikipedia.org/wiki/Buddha-nature",
+      },
+      {
+        term: "Emptiness",
+        nativeTerm: "空",
+        description:
+          "'Kōng' (Skt. śūnyatā, Jp. kū). The teaching, articulated by Nāgārjuna and inherited by Chan through the Prajñāpāramitā literature, that no thing has independent self-nature — everything arises in dependence on conditions. Not nihilism but the absence of fixity that makes liberation possible.",
+        url: "https://en.wikipedia.org/wiki/%C5%9A%C5%ABnyat%C4%81",
+      },
+      {
+        term: "Suchness",
+        nativeTerm: "真如",
+        description:
+          "'Zhēnrú' (Skt. tathatā, Jp. shinnyo). Reality just as it is, prior to conceptual elaboration. The 'thus' of the Tathāgata — what shikantaza, kanhua, and silent illumination all point at, each in their own register.",
+        url: "https://en.wikipedia.org/wiki/Tathat%C4%81",
+      },
+      {
+        term: "Original face",
+        nativeTerm: "本來面目",
+        description:
+          "'Běnlái miànmù' (Jp. honrai no menmoku). 'What was your original face before your parents were born?' — the question Huineng poses in the Platform Sūtra, used in Chan and Zen ever since as a direct pointer to the mind that precedes name and form.",
+        url: "https://en.wikipedia.org/wiki/Hui-neng",
+      },
+      {
+        term: "Mondō",
+        nativeTerm: "問答",
+        description:
+          "'Wèndá' (Jp. mondō). The recorded question-and-answer between master and student that became the dominant literary form of Chan from the Tang onward — and the raw material from which kōan collections were later assembled.",
+        url: "https://en.wikipedia.org/wiki/Mond%C5%8D",
+      },
+      {
+        term: "Three Treasures",
+        nativeTerm: "三寶",
+        description:
+          "'Sānbǎo' (Jp. sanbō). The Buddha, the Dharma, and the Saṅgha — the three refuges every Chan practitioner takes formally at ordination and informally each day. Common ground with all Buddhist traditions.",
+        url: "https://en.wikipedia.org/wiki/Three_Jewels",
       },
     ],
   },
@@ -829,6 +892,90 @@ const SCHOOL_DEFINITIONS: SchoolDefinition[] = [
           "‘One bright pearl.’ A Shōbōgenzō fascicle (and a line from Xuansha Shibei) used by Dōgen to teach that the whole universe is one luminous jewel — an image Sōtō practitioners use to point at non-dual realization.",
         url: "https://en.wikipedia.org/wiki/Sh%C5%8Db%C5%8Dgenz%C5%8D",
       },
+      {
+        term: "Zazen",
+        nativeTerm: "座禅",
+        description:
+          "'Seated meditation' — the foundational practice of Japanese Zen and the form in which shikantaza is carried out. Upright posture, half-lotus or Burmese seat, hands in the cosmic mudrā, breath unforced. Dōgen's Fukanzazengi is the canonical instruction.",
+        url: "https://www.sotozen.com/eng/practice/zazen/",
+      },
+      {
+        term: "Shoshin",
+        nativeTerm: "初心",
+        description:
+          "'Beginner's mind.' Shunryū Suzuki's iconic phrase: 'In the beginner's mind there are many possibilities, but in the expert's there are few.' The receptive, unfixed quality the Sōtō tradition holds up as the proper attitude of zazen.",
+        url: "https://en.wikipedia.org/wiki/Shoshin",
+      },
+      {
+        term: "Kinhin",
+        nativeTerm: "経行",
+        description:
+          "Walking meditation performed between rounds of zazen. In Sōtō, slow and synchronized — half a step per breath, hands in shashu — preserving the samādhi of sitting while restoring circulation to the legs.",
+        url: "https://en.wikipedia.org/wiki/Kinhin",
+      },
+      {
+        term: "Ango",
+        nativeTerm: "安居",
+        description:
+          "'Peaceful dwelling.' The traditional 90-day intensive practice period, inherited from the Indian Buddhist rains retreat, during which monks remain at the monastery for sustained training. Most Western Sōtō centers hold one or two ango each year.",
+        url: "https://en.wikipedia.org/wiki/Vassa",
+      },
+      {
+        term: "Samu",
+        nativeTerm: "作務",
+        description:
+          "'Work practice.' Mindful manual labor — sweeping, gardening, cleaning, kitchen work — treated as zazen in motion. The Japanese expression of Baizhang's puqing rule: an integral part of monastic and lay training, not a chore between practices.",
+        url: "https://en.wikipedia.org/wiki/Samu_(Zen)",
+      },
+      {
+        term: "Ōryōki",
+        nativeTerm: "応量器",
+        description:
+          "'Just-enough vessel.' The set of nesting bowls and the formal silent meal eaten with them in Sōtō training. Every gesture is choreographed; the ritual is a complete practice in attention, gratitude, and the forms of the tradition.",
+        url: "https://en.wikipedia.org/wiki/%C5%8Cry%C5%8Dki",
+      },
+      {
+        term: "Gasshō",
+        nativeTerm: "合掌",
+        description:
+          "'Palms together.' The bow with hands joined at heart level — the basic gesture of greeting, gratitude, and reverence in Zen. Used to enter and leave the zendō, before and after eating, and to acknowledge teachers and fellow practitioners.",
+        url: "https://en.wikipedia.org/wiki/A%C3%B1jali_Mudr%C4%81",
+      },
+      {
+        term: "Jukai",
+        nativeTerm: "受戒",
+        description:
+          "'Receiving the precepts.' The ceremony in which a lay student formally takes refuge in the Three Treasures and accepts the sixteen Bodhisattva precepts, receiving a Dharma name and a rakusu sewn during preparation. The standard entry into formal Sōtō practice.",
+        url: "https://en.wikipedia.org/wiki/Jukai_(Zen)",
+      },
+      {
+        term: "Teishō",
+        nativeTerm: "提唱",
+        description:
+          "'Presentation of the teaching.' A formal Dharma talk given by a roshi, traditionally on a kōan or a fascicle of the Shōbōgenzō. Distinguished from a lecture: the teishō is treated as a live expression of the teaching, not exposition about it.",
+        url: "https://en.wikipedia.org/wiki/Teisho",
+      },
+      {
+        term: "Inka shōmei",
+        nativeTerm: "印可証明",
+        description:
+          "'Seal of approval.' Formal certification by a master that a student's realization is mature enough to teach independently. In Sōtō, often distinguished from shihō (basic Dharma transmission); in Rinzai, the capstone of a complete kōan curriculum.",
+        url: "https://en.wikipedia.org/wiki/Inka_Sh%C5%8Dmei",
+      },
+      {
+        term: "Makyō",
+        nativeTerm: "魔境",
+        description:
+          "'Demonic realm.' The visions, sensory distortions, and pseudo-mystical experiences that can arise in deep zazen. Sōtō teachers warn students not to credit them as awakening — makyō come and go; only the upright sitting that sees through them matters.",
+        url: "https://en.wikipedia.org/wiki/Makyo",
+      },
+      {
+        term: "Tenzo",
+        nativeTerm: "典座",
+        description:
+          "The head cook of a Zen monastery. Dōgen's Tenzo Kyōkun ('Instructions for the Cook') treats the role as one of the most senior in the community — the tenzo's care for ingredients and pots is itself the realization of the Way.",
+        url: "https://en.wikipedia.org/wiki/Tenzo",
+      },
     ],
   },
   {
@@ -1175,6 +1322,55 @@ const SCHOOL_DEFINITIONS: SchoolDefinition[] = [
         description:
           "'Sekishu onjō' — the first koan Hakuin invented and the one that supplements or substitutes for Mu in many modern Rinzai curricula. 'You know the sound of two hands clapping; what is the sound of one hand?'",
         url: "https://en.wikipedia.org/wiki/One_hand_clapping",
+      },
+      {
+        term: "Kōan",
+        nativeTerm: "公案",
+        description:
+          "Japanese reading of gōng'àn ('public case'). A recorded encounter or saying — Mu, the Sound of One Hand, the Original Face — that a student takes up under a roshi's direction as the live point of meditation. The signature pedagogy of Rinzai training.",
+        url: "https://en.wikipedia.org/wiki/K%C5%8Dan",
+      },
+      {
+        term: "Mu",
+        nativeTerm: "無",
+        description:
+          "'No' / 'nothing' — Zhaozhou's answer to 'Does a dog have buddha-nature?' (Mumonkan case 1). The classic first kōan in the Rinzai curriculum and the gateway to the great doubt that Hakuin's Three Essentials are designed to ripen.",
+        url: "https://en.wikipedia.org/wiki/Mu_(negative)",
+      },
+      {
+        term: "Satori",
+        nativeTerm: "悟り",
+        description:
+          "'Awakening.' The Japanese popular term for sudden insight into one's nature — overlapping with kenshō but often used for deeper or more comprehensive realization. D. T. Suzuki's writings made it the English-speaking world's first word for Zen experience.",
+        url: "https://en.wikipedia.org/wiki/Satori",
+      },
+      {
+        term: "Mushin",
+        nativeTerm: "無心",
+        description:
+          "'No-mind.' The condition in which action arises without the interference of self-conscious deliberation — explored by Takuan Sōhō in the Fudōchi Shinmyōroku and adopted into the Japanese arts of swordsmanship, tea, and calligraphy as the practical fruit of Zen training.",
+        url: "https://en.wikipedia.org/wiki/Mushin_(mental_state)",
+      },
+      {
+        term: "Rōshi",
+        nativeTerm: "老師",
+        description:
+          "'Old teacher.' The honorific for a fully recognized Zen master authorized to give sanzen and confirm kenshō. In Rinzai, traditionally reserved for those who have completed the kōan curriculum and received inka shōmei from their own teacher.",
+        url: "https://en.wikipedia.org/wiki/R%C5%8Dshi",
+      },
+      {
+        term: "Rōhatsu",
+        nativeTerm: "臘八",
+        description:
+          "The eight-day sesshin held in the first week of December commemorating the Buddha's awakening on the morning of December 8. The most demanding retreat of the Rinzai monastic year — minimal sleep, maximal sitting, and the conditions Hakuin called 'the great death.'",
+        url: "https://en.wikipedia.org/wiki/Rohatsu",
+      },
+      {
+        term: "Hossen",
+        nativeTerm: "法戦",
+        description:
+          "'Dharma combat.' A formal public exchange in which a senior student is questioned by the assembly to test understanding — preserved as a ritual at Dharma transmission ceremonies and as the everyday register of much classical encounter dialogue.",
+        url: "https://en.wikipedia.org/wiki/Mond%C5%8D",
       },
     ],
   },
