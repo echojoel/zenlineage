@@ -79,6 +79,23 @@ export async function generateMetadata({
 
   const allNames = names.map((n) => n.value);
 
+  // Native-script variant (Japanese kanji, Chinese hanzi, Korean
+  // hangul, or Vietnamese with diacritics) — appended to the page
+  // <title> so non-English queries hit the same page. Drives queries
+  // like "道元", "盤珪永琢", "Pháp Loa".
+  const nativeNameRows = await db
+    .select({ value: masterNames.value, locale: masterNames.locale })
+    .from(masterNames)
+    .where(and(eq(masterNames.masterId, master.id)));
+  const nativeName =
+    nativeNameRows.find(
+      (n) =>
+        (n.locale === "ja" || n.locale === "zh" || n.locale === "ko") &&
+        /[　-鿿가-힯]/.test(n.value)
+    )?.value ?? null;
+
+  const titleWithNative = nativeName ? `${primaryName} (${nativeName})` : primaryName;
+
   const schoolRow = master.schoolId
     ? (
         await db
@@ -152,24 +169,66 @@ export async function generateMetadata({
         : "";
 
   const schoolStr = schoolRow?.name ? `, ${schoolRow.name} school` : "";
-  const defaultDesc = `${primaryName}${datesStr} — Zen Buddhist master${schoolStr}.`;
+
+  // Disciple count for the description — drives "[master] disciples"
+  // type queries. Only counted, not enumerated, to keep description
+  // short.
+  const studentCountRows = await db
+    .select({ id: masterTransmissions.id })
+    .from(masterTransmissions)
+    .where(eq(masterTransmissions.teacherId, master.id));
+  const studentCount = studentCountRows.length;
+  const teacherCountRows = await db
+    .select({ id: masterTransmissions.id })
+    .from(masterTransmissions)
+    .where(eq(masterTransmissions.studentId, master.id));
+  const teacherCount = teacherCountRows.length;
+
+  const lineageHints: string[] = [];
+  if (studentCount > 0) {
+    lineageHints.push(
+      `${studentCount} named ${studentCount === 1 ? "disciple" : "disciples"}`
+    );
+  }
+  if (teacherCount > 0) {
+    lineageHints.push(
+      `${teacherCount} ${teacherCount === 1 ? "teacher" : "teachers"}`
+    );
+  }
+  const lineageStr =
+    lineageHints.length > 0 ? ` (${lineageHints.join("; ")})` : "";
+
+  const defaultDesc = `${primaryName}${datesStr} — Zen Buddhist master${schoolStr}${lineageStr}.`;
 
   let description = defaultDesc;
   if (bioPublished && bioRow?.content) {
     const firstParagraph = bioRow.content.split("\n\n")[0] ?? bioRow.content;
+    // If the bio doesn't already mention disciples and we have any,
+    // append the lineage hint so the description carries the
+    // relational signal even when the first paragraph is purely
+    // biographical.
+    const bioLooksRelational = /disciple|student|successor|dharma heir/i.test(
+      firstParagraph
+    );
+    const baseDesc =
+      firstParagraph.length > 160
+        ? firstParagraph.slice(0, 157) + "..."
+        : firstParagraph;
     description =
-      firstParagraph.length > 160 ? firstParagraph.slice(0, 157) + "..." : firstParagraph;
+      !bioLooksRelational && lineageStr && baseDesc.length + lineageStr.length < 220
+        ? baseDesc.replace(/\.?$/, "") + lineageStr + "."
+        : baseDesc;
   }
 
   const canonicalUrl = `https://zenlineage.org/masters/${slug}`;
   const ogImages = ogImage ? [{ url: ogImage }] : [];
 
   return {
-    title: primaryName,
+    title: titleWithNative,
     description,
     alternates: { canonical: canonicalUrl },
     openGraph: {
-      title: `${primaryName} — Zen Buddhist Master`,
+      title: `${titleWithNative} — Zen Buddhist Master`,
       description,
       url: canonicalUrl,
       type: "profile",
@@ -177,7 +236,7 @@ export async function generateMetadata({
     },
     twitter: {
       card: ogImages.length > 0 ? "summary_large_image" : "summary",
-      title: `${primaryName} — Zen Lineage`,
+      title: `${titleWithNative} — Zen Lineage`,
       description,
       images: ogImages.map((img) => img.url),
     },
@@ -734,63 +793,72 @@ export default async function MasterDetailPage({ params }: { params: Promise<{ s
         </section>
 
         <section className="detail-card">
-          <div className="detail-columns">
-            <div>
-              <h4 className="detail-subsection-title">Names</h4>
-              <div className="detail-name-list">
-                {orderedNames.map((name) => (
-                  <div
-                    key={`${name.locale}:${name.nameType}:${name.value}`}
-                    className="detail-name-row"
-                  >
-                    <span className="detail-name-meta">
-                      {name.nameType} · {name.locale}
-                    </span>
-                    <span className="detail-name-value">{name.value}</span>
-                  </div>
-                ))}
+          <h4 className="detail-subsection-title">Names</h4>
+          <div className="detail-name-list">
+            {orderedNames.map((name) => (
+              <div
+                key={`${name.locale}:${name.nameType}:${name.value}`}
+                className="detail-name-row"
+              >
+                <span className="detail-name-meta">
+                  {name.nameType} · {name.locale}
+                </span>
+                <span className="detail-name-value">{name.value}</span>
               </div>
-            </div>
-            <div>
-              <h4 className="detail-subsection-title">Teachers</h4>
-              {teachers.length === 0 ? (
-                <p className="detail-muted">No linked teacher records yet.</p>
-              ) : (
-                <ul className="detail-link-list">
-                  {teachers.map((teacher) => (
-                    <li key={teacher.transmissionId}>
-                      <Link href={`/masters/${teacher.counterpartSlug}`}>
-                        {nameMap.get(teacher.counterpartId) ?? teacher.counterpartSlug}
-                      </Link>
-                      <span className="detail-list-meta">
-                        {teacher.type} · {formatLifeRange(teacher)}
-                      </span>
-                    </li>
-                  ))}
-                </ul>
-              )}
-            </div>
-            <div>
-              <h4 className="detail-subsection-title">Students</h4>
-              {students.length === 0 ? (
-                <p className="detail-muted">No linked student records yet.</p>
-              ) : (
-                <ul className="detail-link-list">
-                  {students.map((student) => (
-                    <li key={student.transmissionId}>
-                      <Link href={`/masters/${student.counterpartSlug}`}>
-                        {nameMap.get(student.counterpartId) ?? student.counterpartSlug}
-                      </Link>
-                      <span className="detail-list-meta">
-                        {student.type} · {formatLifeRange(student)}
-                      </span>
-                    </li>
-                  ))}
-                </ul>
-              )}
-            </div>
+            ))}
           </div>
         </section>
+
+        {students.length > 0 && (
+          <section className="detail-card" id="disciples">
+            <h3 className="detail-section-title">
+              Disciples of {primaryName}{" "}
+              <span className="detail-list-meta">
+                {students.length} named
+              </span>
+            </h3>
+            <ul className="detail-link-list">
+              {students.map((s) => (
+                <li key={s.transmissionId}>
+                  <Link href={`/masters/${s.counterpartSlug}`}>
+                    {nameMap.get(s.counterpartId) ?? s.counterpartSlug}
+                  </Link>
+                  <span className="detail-list-meta">
+                    {s.type} · {formatLifeRange(s)}
+                  </span>
+                </li>
+              ))}
+            </ul>
+          </section>
+        )}
+
+        {teachers.length > 0 && (
+          <section className="detail-card" id="lineage">
+            <h3 className="detail-section-title">
+              Teachers and lineage of {primaryName}
+            </h3>
+            <ul className="detail-link-list">
+              {teachers.map((t) => (
+                <li key={t.transmissionId}>
+                  <Link href={`/masters/${t.counterpartSlug}`}>
+                    {nameMap.get(t.counterpartId) ?? t.counterpartSlug}
+                  </Link>
+                  <span className="detail-list-meta">
+                    {t.type} · {formatLifeRange(t)}
+                  </span>
+                </li>
+              ))}
+            </ul>
+            <p className="detail-list-meta" style={{ marginTop: "0.8rem" }}>
+              <Link
+                className="detail-inline-link"
+                href={`/lineage/${master.slug}`}
+              >
+                Full lineage of {primaryName} &rarr;
+              </Link>
+            </p>
+          </section>
+        )}
 
         {publishedWorks.length > 0 && (
           <section className="detail-card">

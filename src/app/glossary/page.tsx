@@ -3,6 +3,12 @@ import Link from "next/link";
 import { Suspense } from "react";
 import { buildGlossary, termAnchorId } from "@/lib/glossary-data";
 import GlossaryFilter from "@/components/GlossaryFilter";
+import { Breadcrumbs } from "@/components/Breadcrumbs";
+import {
+  abs,
+  breadcrumbSchema,
+  jsonLdString,
+} from "@/lib/seo/jsonld";
 
 export const metadata: Metadata = {
   title: "Glossary",
@@ -24,19 +30,10 @@ export const metadata: Metadata = {
   },
 };
 
-const breadcrumbJsonLd = {
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  itemListElement: [
-    { "@type": "ListItem", position: 1, name: "Home", item: "https://zenlineage.org" },
-    {
-      "@type": "ListItem",
-      position: 2,
-      name: "Glossary",
-      item: "https://zenlineage.org/glossary",
-    },
-  ],
-};
+const breadcrumbLd = breadcrumbSchema([
+  { name: "Home", url: abs("/") },
+  { name: "Glossary", url: abs("/glossary") },
+]);
 
 export default function GlossaryPage() {
   const glossary = buildGlossary();
@@ -51,18 +48,26 @@ export default function GlossaryPage() {
   }
   const letters = Array.from(byLetter.keys()).sort();
 
-  // For DefinitionList structured data on each entry.
-  const definedTermJsonLd = {
-    "@context": "https://schema.org",
+  // DefinedTermSet structured data — every entry exposed as a
+  // resolvable anchor URL with @id so external Schema-aware crawlers
+  // (Google Rich Results, AI search) can dereference individual terms.
+  const definedTermSetLd = {
     "@type": "DefinedTermSet",
+    "@id": `${abs("/glossary")}#defined-term-set`,
     name: "Zen Lineage Glossary",
-    hasDefinedTerm: glossary.map((g) => ({
-      "@type": "DefinedTerm",
-      name: g.displayTerm,
-      alternateName: g.nativeTerm,
-      description: g.description,
-      url: `https://zenlineage.org/glossary#${termAnchorId(g.termKey)}`,
-    })),
+    inLanguage: "en",
+    hasDefinedTerm: glossary.map((g) => {
+      const url = `${abs("/glossary")}#${termAnchorId(g.termKey)}`;
+      return {
+        "@type": "DefinedTerm",
+        "@id": url,
+        url,
+        name: g.displayTerm,
+        ...(g.nativeTerm ? { alternateName: g.nativeTerm } : {}),
+        description: g.description,
+        inDefinedTermSet: `${abs("/glossary")}#defined-term-set`,
+      };
+    }),
   };
 
   return (
@@ -70,13 +75,7 @@ export default function GlossaryPage() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: JSON.stringify(breadcrumbJsonLd).replace(/</g, "\\u003c"),
-        }}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify(definedTermJsonLd).replace(/</g, "\\u003c"),
+          __html: jsonLdString([definedTermSetLd, breadcrumbLd]),
         }}
       />
       <header className="page-header">
@@ -85,6 +84,9 @@ export default function GlossaryPage() {
         </Link>
         <h1 className="page-title">Glossary</h1>
       </header>
+      <Breadcrumbs
+        trail={[{ name: "Home", href: "/" }, { name: "Glossary" }]}
+      />
 
       <div className="detail-layout" data-glossary-root data-active-tradition="all">
         <section className="detail-hero" style={{ paddingBottom: "1rem" }}>

@@ -2,7 +2,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { and, eq, inArray, sql } from "drizzle-orm";
+import { and, eq, inArray, isNotNull, sql } from "drizzle-orm";
 import { db } from "@/db";
 import {
   citations,
@@ -15,6 +15,8 @@ import {
   teachings,
   teachingContent,
   teachingMasterRoles,
+  temples,
+  templeNames,
 } from "@/db/schema";
 import { formatDateWithPrecision } from "@/lib/date-format";
 import { getSchoolDefinition, type SchoolFootnote } from "@/lib/school-taxonomy";
@@ -70,11 +72,28 @@ export async function generateMetadata({
     .where(eq(masters.schoolId, school.id));
   const masterCount = masterCountRow[0]?.count ?? 0;
 
+  const templeCountRow = await db
+    .select({ count: sql<number>`count(*)` })
+    .from(temples)
+    .where(and(eq(temples.schoolId, school.id), isNotNull(temples.lat)));
+  const templeCount = templeCountRow[0]?.count ?? 0;
+
   const definition = getSchoolDefinition(slug);
 
-  const description = definition?.summary
-    ? definition.summary.slice(0, 160)
-    : `${primaryName}: ${masterCount} Zen Buddhist masters in the ${school.tradition ?? "Zen"} tradition.`;
+  // Surface temple/master counts in description so the page targets
+  // both editorial ("about plum village") and directory ("plum village
+  // centres") query intents.
+  const countSuffix =
+    templeCount > 0
+      ? ` ${masterCount} masters, ${templeCount} practice centres.`
+      : masterCount > 0
+        ? ` ${masterCount} Zen masters in the ${school.tradition ?? "Zen"} tradition.`
+        : "";
+
+  const baseDesc = definition?.summary
+    ? definition.summary.slice(0, 220 - countSuffix.length)
+    : `${primaryName} school of ${school.tradition ?? "Zen"} Buddhism.`;
+  const description = `${baseDesc.replace(/\.?$/, "")}.${countSuffix}`;
 
   const canonicalUrl = `https://zenlineage.org/schools/${slug}`;
 
@@ -305,6 +324,54 @@ export default async function SchoolDetailPage({ params }: { params: Promise<{ s
     schoolImageRows.length > 0 && schoolImageRows[0].storagePath && schoolImageCited
       ? schoolImageRows[0]
       : null;
+
+  // Practice centres for this school — geocoded temples grouped by
+  // country. Drives "[school] centres directory" and per-country
+  // queries. Cap displayed list per country at 30 with a "see all"
+  // link to the dedicated /practice/[slug] page.
+  const schoolTemples = await db
+    .select({
+      id: temples.id,
+      slug: temples.slug,
+      lat: temples.lat,
+      lng: temples.lng,
+      region: temples.region,
+      country: temples.country,
+      url: temples.url,
+    })
+    .from(temples)
+    .where(and(eq(temples.schoolId, school.id), isNotNull(temples.lat)));
+  const schoolTempleIds = schoolTemples.map((t) => t.id);
+  const schoolTempleNames =
+    schoolTempleIds.length > 0
+      ? await db
+          .select({
+            templeId: templeNames.templeId,
+            locale: templeNames.locale,
+            value: templeNames.value,
+          })
+          .from(templeNames)
+          .where(inArray(templeNames.templeId, schoolTempleIds))
+      : [];
+  const templeEnName = new Map<string, string>();
+  for (const row of schoolTempleNames) {
+    if (row.locale === "en" && !templeEnName.has(row.templeId)) {
+      templeEnName.set(row.templeId, row.value);
+    }
+  }
+  const templeCountriesGrouped = new Map<
+    string,
+    typeof schoolTemples
+  >();
+  for (const t of schoolTemples) {
+    const c = t.country ?? "Other";
+    const arr = templeCountriesGrouped.get(c) ?? [];
+    arr.push(t);
+    templeCountriesGrouped.set(c, arr);
+  }
+  const templeCountriesSorted = Array.from(templeCountriesGrouped.entries()).sort(
+    (a, b) => b[1].length - a[1].length || a[0].localeCompare(b[0])
+  );
 
   // Sibling schools — share the same parent. Useful both as a related
   // section and as a way to nudge crawlers across the school graph.
@@ -711,6 +778,80 @@ export default async function SchoolDetailPage({ params }: { params: Promise<{ s
               scope={`school-${slug}`}
               title="Notes"
             />
+          </section>
+        )}
+
+        {schoolTemples.length > 0 && (
+          <section className="detail-card" id="practice-centres">
+            <h3 className="detail-section-title">
+              {primaryName} practice centres{" "}
+              <span className="detail-list-meta">
+                {schoolTemples.length} across {templeCountriesSorted.length}{" "}
+                {templeCountriesSorted.length === 1 ? "country" : "countries"}
+              </span>
+            </h3>
+            <p className="detail-list-meta" style={{ marginBottom: "1rem" }}>
+              <Link
+                className="detail-inline-link"
+                href={`/practice/${school.slug}`}
+              >
+                Full directory of {primaryName} practice centres &rarr;
+              </Link>
+            </p>
+            {templeCountriesSorted.slice(0, 8).map(([country, centres]) => (
+              <div key={country} style={{ marginTop: "1rem" }}>
+                <h4 className="detail-subsection-title">
+                  {country}{" "}
+                  <span className="detail-list-meta">
+                    {centres.length}
+                  </span>
+                </h4>
+                <ul className="detail-link-list">
+                  {centres.slice(0, 8).map((t) => {
+                    const name = templeEnName.get(t.id) ?? t.slug.replace(/-/g, " ");
+                    return (
+                      <li key={t.id}>
+                        {t.url ? (
+                          <a
+                            href={t.url}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="detail-inline-link"
+                          >
+                            {name}
+                          </a>
+                        ) : (
+                          <span>{name}</span>
+                        )}
+                        {t.region && (
+                          <span className="detail-list-meta">{t.region}</span>
+                        )}
+                      </li>
+                    );
+                  })}
+                </ul>
+                {centres.length > 8 && (
+                  <p className="detail-list-meta" style={{ marginTop: "0.4rem" }}>
+                    <Link
+                      className="detail-inline-link"
+                      href={`/practice/${school.slug}#${country.toLowerCase().replace(/\s+/g, "-")}`}
+                    >
+                      +{centres.length - 8} more in {country}
+                    </Link>
+                  </p>
+                )}
+              </div>
+            ))}
+            {templeCountriesSorted.length > 8 && (
+              <p className="detail-list-meta" style={{ marginTop: "1rem" }}>
+                <Link
+                  className="detail-inline-link"
+                  href={`/practice/${school.slug}`}
+                >
+                  +{templeCountriesSorted.length - 8} more countries
+                </Link>
+              </p>
+            )}
           </section>
         )}
 

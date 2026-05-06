@@ -35,14 +35,24 @@ export default async function MasterOpenGraphImage({
   const master = masterRows[0];
 
   let primaryName = slug;
+  let nativeName: string | null = null;
   let schoolName: string | null = null;
 
   if (master) {
     const nameRows = await db
-      .select({ value: masterNames.value, nameType: masterNames.nameType })
+      .select({
+        value: masterNames.value,
+        nameType: masterNames.nameType,
+        locale: masterNames.locale,
+      })
       .from(masterNames)
-      .where(and(eq(masterNames.masterId, master.id), eq(masterNames.locale, "en")));
-    primaryName = nameRows.find((n) => n.nameType === "dharma")?.value ?? slug;
+      .where(eq(masterNames.masterId, master.id));
+    primaryName =
+      nameRows.find((n) => n.locale === "en" && n.nameType === "dharma")?.value ?? slug;
+    nativeName =
+      nameRows.find(
+        (n) => n.locale === "ja" || n.locale === "zh" || n.locale === "ko"
+      )?.value ?? null;
 
     if (master.schoolId) {
       const schoolRow = (

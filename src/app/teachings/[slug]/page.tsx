@@ -46,8 +46,12 @@ export async function generateMetadata({
       id: teachings.id,
       type: teachings.type,
       collection: teachings.collection,
+      caseNumber: teachings.caseNumber,
+      era: teachings.era,
+      authorId: teachings.authorId,
       title: teachingContent.title,
       content: teachingContent.content,
+      translator: teachingContent.translator,
     })
     .from(teachings)
     .leftJoin(
@@ -60,10 +64,49 @@ export async function generateMetadata({
   const t = row[0];
   if (!t) return {};
 
-  const title = t.title ?? slug;
+  const baseTitle = t.title ?? slug;
+
+  // Author dharma name — used in titles for works/death-verses so the
+  // page targets "[master] [type]" queries.
+  let authorName: string | null = null;
+  if (t.authorId) {
+    const authorNameRow = await db
+      .select({ value: masterNames.value, nameType: masterNames.nameType })
+      .from(masterNames)
+      .where(and(eq(masterNames.masterId, t.authorId), eq(masterNames.locale, "en")));
+    authorName =
+      authorNameRow.find((n) => n.nameType === "dharma")?.value ??
+      authorNameRow[0]?.value ??
+      null;
+  }
+
+  // Title formatting tuned by teaching type. The goal is that the
+  // emitted <title> looks like a search result for the queries people
+  // actually type:
+  //   - koan in collection → "Mumonkan Case 1: Joshu's Mu"
+  //   - work → "Shōbōgenzō — Dōgen, 13th c."
+  //   - death verse → "Dōgen's death verse"
+  //   - generic teaching → existing baseTitle
+  let title = baseTitle;
+  if (t.type === "koan" && t.collection && t.caseNumber) {
+    title = `${t.collection} Case ${t.caseNumber}: ${baseTitle}`;
+  } else if (t.type === "work") {
+    const tail = [authorName, t.era].filter(Boolean).join(", ");
+    title = tail ? `${baseTitle} — ${tail}` : baseTitle;
+  } else if (
+    t.type === "verse" &&
+    /death\s*verse|death\s*poem|jisei/i.test(baseTitle) &&
+    authorName
+  ) {
+    title = `${authorName}'s death verse: ${baseTitle.replace(/death\s*verse:?\s*/i, "")}`.trim();
+  }
+
   const description = t.content
     ? t.content.slice(0, 160).replace(/\s+/g, " ").trim()
-    : `${t.type ?? "Teaching"}${t.collection ? ` from ${t.collection}` : ""}.`;
+    : authorName
+      ? `${baseTitle} — ${t.type ?? "teaching"} attributed to ${authorName}${t.collection ? `, from the ${t.collection}` : ""}.`
+      : `${t.type ?? "Teaching"}${t.collection ? ` from ${t.collection}` : ""}.`;
+
   const canonicalUrl = `https://zenlineage.org/teachings/${slug}`;
 
   return {
@@ -77,7 +120,7 @@ export async function generateMetadata({
       type: "article",
     },
     twitter: {
-      card: "summary",
+      card: "summary_large_image",
       title: `${title} — Zen Lineage`,
       description,
     },
