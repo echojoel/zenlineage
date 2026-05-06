@@ -32,7 +32,7 @@ export interface RawMasterRole {
 
 export interface RawTeaching {
   slug: string;
-  type: string; // "koan" | "saying" | "verse" | "sermon" | "dialogue" | "proverb"
+  type: string; // "koan" | "saying" | "verse" | "sermon" | "dialogue" | "proverb" | "sutra"
   author_slug: string; // primary display attribution — maps to authorId on teachings table
   collection: string; // e.g. "Mumonkan", "Blue Cliff Record"
   case_number?: string; // e.g. "1", "48"

@@ -1,7 +1,7 @@
 # Zen Lineage — Complete Reference
 
 > An open-source interactive encyclopedia of Zen Buddhism covering 425+ masters,
-> 25 schools, 420+ lineage transmissions, 775+ teachings, and 1,700+ scholarly
+> 25 schools, 420+ lineage transmissions, 780+ teachings, and 1,700+ scholarly
 > citations across 2,500 years of Chan, Zen, Seon, and Thien Buddhist history.
 
 Zen Lineage maps the dharma transmission lineages connecting Buddhist masters
@@ -8175,6 +8175,74 @@ Panshan said, "Too late."
 A monk asked Baling, "What is the school of Yunmen?"
 
 Baling said, "A silver bowl filled with snow."
+
+### Diamond Sūtra (William Gemmell, 1912) — selected chapters
+
+- **Type:** sutra
+
+## §1 The setting
+
+*The Diamond Sūtra (Vajracchedikā), translated from the Chinese of Kumārajīva.*
+
+Thus have I heard. Upon a time Buddha sojourned in Anāthapiṇḍika's Park by Śrāvastī with a great company of bhikshus, even twelve hundred and fifty.
+
+One day, at the time for breaking fast, the World-honoured One enrobed, and carrying his bowl made his way into the great city of Śrāvastī to beg for his food. In the midst of the city he begged from door to door according to rule. This done, he returned to his retreat and took his meal.
+
+### Diamond Sūtra (F. Max Müller, 1894) — selected chapters
+
+- **Type:** sutra
+
+## §1 The setting
+
+*Vajracchedikâ Prajñâpâramitâ — Chapter I, abridged.*
+
+Adoration to the blessed Ârya-prajñâpâramitâ (perfection of wisdom)!
+
+Thus it was heard by me: At one time Bhagavat (the Lord) dwelt in Srâvasti, in the grove of Geta, in the garden of Anâthapindada, together with a large assembly of Bhikshus, viz. with 1,250 Bhikshus, and with many noble-minded Bodhisattvas. Then the Bhagavat, having put on his garments in the morning and taken his bowl and cloak, entered the great city of Srâvasti to collect alms.
+
+### Heart Sūtra (Samuel Beal, 1871)
+
+- **Type:** sutra
+
+## §1 Setting
+
+*From* A Catena of Buddhist Scriptures from the Chinese, *rendered after the Chinese short recension attributed to Xuanzang.*
+
+Kwan-tseu-tsai (Avalokiteśvara), the honoured of the world, whilst engaged in profound Prajñâ-pâramitâ contemplation, perceived that the five skandhas are altogether empty, and so passed beyond every sorrow and pain.
+
+## §2 Form is emptiness
+
+O Sâriputra, form is not different from emptiness, emptiness is not different from form: form is the same as emptiness, emptiness is the same as form.
+
+### Heart Sūtra (F. Max Müller, 1894)
+
+- **Type:** sutra
+
+## §1 Setting
+
+Adoration to the Omniscient!
+
+Thus have I heard: At one time the Bhagavat dwelt at Râgagriha, on the hill Gridhrakûta, with a great assembly of Bhikshus and a great assembly of Bodhisattvas. At that time the Bhagavat was absorbed in a meditation, called Gambhirâvasambodha.
+
+### Platform Sūtra (Goddard, A Buddhist Bible, 1932) — selected chapters
+
+- **Type:** sutra
+
+## §1 The Patriarch's autobiography
+
+*From* A Buddhist Bible, *edited by Dwight Goddard (1932). Goddard's recension is a lightly edited rendering of the Wong Mou-Lam English text, presented with chapter divisions and modernised spelling. The voice is the same — a faithful, plain-English Hui-neng with sectarian framing softened.*
+
+When the Patriarch arrived at Po-lam Monastery, Prefect Wei and other officials of Shao-chou requested him to deliver public lectures upon the Dharma in the great hall of Tai-fan Temple.
+
+### Platform Sūtra (Wong Mou-Lam, 1930) — selected chapters
+
+- **Type:** sutra
+
+## §1 The Patriarch's autobiography
+
+*From* The Sutra of Wei Lang (Hui-neng) — Sutra Spoken by the Sixth Patriarch on the High Seat of the Treasure of the Law, *translated by Wong Mou-Lam, Shanghai 1930.*
+
+Once, when the Patriarch had arrived at Pao Lin Monastery, Prefect Wei Ch'ü of Shao Chou and other officials went there to ask him to deliver public lectures on Buddhism in the hall of Ta Fan Temple in the City (of Canton).
 
 ### Sudden Awakening, Gradual Cultivation
 

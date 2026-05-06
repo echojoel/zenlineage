@@ -1,0 +1,20 @@
+[
+  {
+    "slug": "diamond-sutra-gemmell-1912",
+    "type": "sutra",
+    "author_slug": "unknown",
+    "collection": "Diamond Sūtra",
+    "compiler": "William Gemmell (trans.)",
+    "era": "Chinese recension (Kumārajīva)",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "Diamond Sūtra (William Gemmell, 1912) — selected chapters",
+    "content": "## §1 The setting\n\n*The Diamond Sūtra (Vajracchedikā), translated from the Chinese of Kumārajīva.*\n\nThus have I heard. Upon a time Buddha sojourned in Anāthapiṇḍika's Park by Śrāvastī with a great company of bhikshus, even twelve hundred and fifty.\n\nOne day, at the time for breaking fast, the World-honoured One enrobed, and carrying his bowl made his way into the great city of Śrāvastī to beg for his food. In the midst of the city he begged from door to door according to rule. This done, he returned to his retreat and took his meal. When he had finished he put away his robe and begging bowl, washed his feet, arranged his seat, and sat down.\n\n## §5 Seeing the Tathāgata in no-marks\n\n'Subhūti, what do you think? Is it possible to recognise the Tathāgata by means of his bodily form?'\n\n'No, World-honoured One, it is not possible to recognise the Tathāgata by means of his bodily form. And why? Because the Tathāgata has taught that bodily form is not, in fact, bodily form.'\n\nBuddha said to Subhūti: 'Every form or quality of phenomena is transient and illusive. When the mind realises that the phenomena of life are not real phenomena, the Tathāgata may be perceived.'\n\n## §10 The pure mind that is fixed nowhere\n\n'Therefore, Subhūti, the minds of all bodhisattva-mahāsattvas should be purified of all thoughts that relate to seeing, hearing, tasting, smelling, touching, and discriminating. They should use their minds spontaneously and naturally, without being constrained by preconceived notions arising from the senses. The mind that is fixed nowhere is the true mind.'\n\n## §26 The two stanzas on the Dharma-body\n\nAt that time the World-honoured One uttered the following stanzas:\n\n*Whoever looks for me in form,*\n*Or seeks me in audible sound,*\n*Cherishes a perverted view,*\n*And shall not behold the Tathāgata.*\n\n*Know, the Dharma-body of the Buddhas*\n*Is none other than the Universal Essence;*\n*The body of Dharma cannot be expressed,*\n*And the eye of Dharma cannot be limited.*\n\n## §32 The closing simile\n\n'Subhūti, what is meant by saying that the bodhisattva should never abide in conditions of phenomena? Because:\n\n*Thus shall ye think of all this fleeting world:*\n*A star at dawn, a bubble in a stream;*\n*A flash of lightning in a summer cloud,*\n*A flickering lamp, a phantom, and a dream.*'\n\nWhen Buddha had finished delivering this Sūtra the Venerable Subhūti, and all the bhikshus, bhikshunis, lay-brothers and sisters, and the whole realms of gods, men, and titans, were filled with joy by his teaching, and, taking it sincerely to heart, they went their ways.",
+    "source_id": "src_gemmell_diamond_1912",
+    "ingestion_run_id": "run_sutras_curated_pd_initial",
+    "locator": "The Diamond Sutra, pp. 1–84 (selections)",
+    "translator": "William Gemmell",
+    "edition": "The Diamond Sutra (Kegan Paul, Trench, Trübner & Co., 1912)",
+    "license_status": "public_domain"
+  }
+]

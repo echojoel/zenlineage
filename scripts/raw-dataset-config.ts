@@ -48,6 +48,42 @@ const RAW_TEACHINGS_DATASET_CONFIG: Record<string, RawDatasetConfig> = {
     entityKind: "teaching",
     notes: "Standalone verses and dialogues — each row carries its own source_id",
   },
+  "teachings-sutra-heart-mueller.json": {
+    kind: "external_extract",
+    entityKind: "teaching",
+    expectedSourceId: "src_sbe_xlix_mueller_1894",
+    notes: "Heart Sūtra — F. Max Müller, SBE XLIX (1894). Public domain.",
+  },
+  "teachings-sutra-heart-beal.json": {
+    kind: "external_extract",
+    entityKind: "teaching",
+    expectedSourceId: "src_beal_catena_1871",
+    notes: "Heart Sūtra — Samuel Beal, Catena of Buddhist Scriptures (1871). Public domain.",
+  },
+  "teachings-sutra-diamond-mueller.json": {
+    kind: "external_extract",
+    entityKind: "teaching",
+    expectedSourceId: "src_sbe_xlix_mueller_1894",
+    notes: "Diamond Sūtra — F. Max Müller, SBE XLIX (1894). Public domain.",
+  },
+  "teachings-sutra-diamond-gemmell.json": {
+    kind: "external_extract",
+    entityKind: "teaching",
+    expectedSourceId: "src_gemmell_diamond_1912",
+    notes: "Diamond Sūtra — William Gemmell (1912). Public domain.",
+  },
+  "teachings-sutra-platform-wong.json": {
+    kind: "external_extract",
+    entityKind: "teaching",
+    expectedSourceId: "src_wong_platform_1930",
+    notes: "Platform Sūtra — Wong Mou-Lam (1930). Public domain.",
+  },
+  "teachings-sutra-platform-goddard.json": {
+    kind: "external_extract",
+    entityKind: "teaching",
+    expectedSourceId: "src_goddard_buddhist_bible_1932",
+    notes: "Platform Sūtra — Dwight Goddard, A Buddhist Bible (1932 ed.). Public domain.",
+  },
 };
 
 const DEFAULT_TEACHINGS_DATASET_CONFIG: RawDatasetConfig = {

@@ -7,6 +7,7 @@
 
 import fs from "fs";
 import path from "path";
+import { inArray } from "drizzle-orm";
 import { db } from "@/db";
 import {
   citations,
@@ -19,6 +20,7 @@ import {
   searchTokens,
   sourceSnapshots,
   sources,
+  teachingContent,
   teachings,
   temples,
 } from "@/db/schema";
@@ -527,6 +529,7 @@ async function main() {
   printMetric("Verses", teachingTypeCounts.get("verse") ?? 0);
   printMetric("Sermons", teachingTypeCounts.get("sermon") ?? 0);
   printMetric("Proverbs", teachingTypeCounts.get("proverb") ?? 0);
+  printMetric("Sūtra translations", teachingTypeCounts.get("sutra") ?? 0);
   printMetric(
     "Other",
     allTeachings.length -
@@ -535,8 +538,67 @@ async function main() {
       (teachingTypeCounts.get("dialogue") ?? 0) -
       (teachingTypeCounts.get("verse") ?? 0) -
       (teachingTypeCounts.get("sermon") ?? 0) -
-      (teachingTypeCounts.get("proverb") ?? 0)
+      (teachingTypeCounts.get("proverb") ?? 0) -
+      (teachingTypeCounts.get("sutra") ?? 0)
   );
+
+  // ── Sūtra license gate ───────────────────────────────────────────────
+  // Every type='sutra' translation must carry a permissive license.
+  // The seeder already throws on violations at seed time, but the
+  // audit surfaces the per-collection breakdown so we can see at a
+  // glance what's shipped and exits non-zero on any drift.
+  const PERMISSIVE_LICENSES = new Set([
+    "public_domain",
+    "cc_by",
+    "cc_by_sa",
+  ]);
+  const sutraTeachingIds = allTeachings
+    .filter((t) => t.type === "sutra")
+    .map((t) => t.id);
+  const sutraContent =
+    sutraTeachingIds.length > 0
+      ? await db
+          .select({
+            teachingId: teachingContent.teachingId,
+            translator: teachingContent.translator,
+            licenseStatus: teachingContent.licenseStatus,
+          })
+          .from(teachingContent)
+          .where(inArray(teachingContent.teachingId, sutraTeachingIds))
+      : [];
+  const sutraByCollection = new Map<string, number>();
+  for (const t of allTeachings) {
+    if (t.type !== "sutra") continue;
+    const key = t.collection ?? "Unknown";
+    sutraByCollection.set(key, (sutraByCollection.get(key) ?? 0) + 1);
+  }
+  const sutraLicenseViolations = sutraContent.filter(
+    (c) => !PERMISSIVE_LICENSES.has(c.licenseStatus ?? "unknown")
+  );
+
+  console.log("\nSūtra coverage");
+  printMetric("Distinct sūtras", sutraByCollection.size);
+  for (const [collection, n] of Array.from(sutraByCollection.entries()).sort()) {
+    printMetric(`  ${collection}`, `${n} translation${n === 1 ? "" : "s"}`);
+  }
+  printMetric(
+    "Sūtra license violations",
+    `${sutraLicenseViolations.length} / ${sutraContent.length}`
+  );
+  if (sutraLicenseViolations.length > 0) {
+    const previewList = sutraLicenseViolations
+      .slice(0, 5)
+      .map((v) => `${v.translator ?? "?"}=${v.licenseStatus ?? "unknown"}`)
+      .join(", ");
+    console.error(
+      `\nERROR: ${sutraLicenseViolations.length} sūtra translation(s) carry a non-permissive license.`
+    );
+    console.error(`  Examples: ${previewList}`);
+    console.error(
+      `  Sūtras must be public_domain, cc_by, or cc_by_sa. Fix the seed data and re-run.`
+    );
+    process.exit(1);
+  }
 
   const attributionCounts = { verified: 0, traditional: 0, unresolved: 0 };
   for (const teaching of allTeachings) {

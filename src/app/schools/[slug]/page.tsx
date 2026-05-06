@@ -31,6 +31,20 @@ import {
   schoolSchema,
 } from "@/lib/seo/jsonld";
 
+/**
+ * Map a SchoolKeyText title to an internal `/sutras/[slug]` route,
+ * if we host the text. Match on the leading sūtra name so curated
+ * titles like "Platform Sutra of the Sixth Patriarch" resolve.
+ * Returns null when there is no internal page.
+ */
+function matchInternalSutraSlug(title: string): string | null {
+  const normalized = title.toLowerCase();
+  if (/\bheart\s+s[uū]tra\b/.test(normalized)) return "heart-sutra";
+  if (/\bdiamond\s+s[uū]tra\b/.test(normalized)) return "diamond-sutra";
+  if (/\bplatform\s+s[uū]tra\b/.test(normalized)) return "platform-sutra";
+  return null;
+}
+
 function schoolFootnotesToRefs(footnotes: SchoolFootnote[] | undefined): FootnoteRef[] {
   return (footnotes ?? []).map((fn) => ({
     index: fn.index,
@@ -650,6 +664,10 @@ export default async function SchoolDetailPage({ params }: { params: Promise<{ s
             <h3 className="detail-section-title">Key texts</h3>
             <ul className="detail-link-list">
               {definition.keyTexts.map((text) => {
+                // If this keyText matches one of the sūtras we host
+                // on /sutras/[slug], route to the internal reader
+                // instead of an external Wikipedia/Sōtōshū link.
+                const internalSutraSlug = matchInternalSutraSlug(text.title);
                 const heading = (
                   <>
                     {text.title}
@@ -663,7 +681,14 @@ export default async function SchoolDetailPage({ params }: { params: Promise<{ s
                 );
                 return (
                   <li key={`${text.title}-${text.nativeTitle ?? ""}`}>
-                    {text.url ? (
+                    {internalSutraSlug ? (
+                      <Link
+                        href={`/sutras/${internalSutraSlug}`}
+                        className="detail-inline-link"
+                      >
+                        {heading}
+                      </Link>
+                    ) : text.url ? (
                       <a
                         href={text.url}
                         target="_blank"

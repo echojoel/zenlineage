@@ -2802,3 +2802,134 @@ a.footnote-source-link:hover {
   padding-top: 0.4rem;
   border-top: 1px solid rgba(0, 0, 0, 0.08);
 }
+
+/* ── Sūtra reader (/sutras/[slug]) ──────────────────────────────────
+ *
+ * Reuses the existing detail-page palette — --ink for body,
+ * --ink-light for secondary metadata, paper warmth for the card.
+ * The §N marker sits in a small gutter so the prose itself keeps a
+ * clean margin and the eye lands on the text, not the scaffolding.
+ */
+
+.sutra-reader-card {
+  padding-top: 1.25rem;
+}
+
+.sutra-switcher {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-bottom: 1.75rem;
+  padding-bottom: 1.25rem;
+  border-bottom: 1px solid rgba(122, 106, 85, 0.18);
+}
+
+.sutra-switcher-label {
+  font-family: var(--font-inter), sans-serif;
+  font-size: 0.62rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--ink-light);
+}
+
+.sutra-switcher-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem 0.6rem;
+}
+
+.sutra-prose {
+  margin-top: 0;
+  max-width: 36rem;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+
+.sutra-passage {
+  margin-top: 2.4rem;
+  scroll-margin-top: 5rem;
+}
+
+.sutra-passage:first-child {
+  margin-top: 0;
+}
+
+.sutra-passage-heading {
+  display: flex;
+  align-items: baseline;
+  gap: 0.65rem;
+  margin: 0 0 0.85rem;
+  font-family: var(--font-cormorant), Georgia, serif;
+  font-weight: 400;
+  font-size: 1.1rem;
+  color: var(--ink);
+}
+
+.sutra-passage-marker {
+  font-family: var(--font-inter), sans-serif;
+  font-size: 0.7rem;
+  letter-spacing: 0.12em;
+  color: var(--ink-light);
+  flex-shrink: 0;
+}
+
+.sutra-passage-title {
+  font-style: italic;
+}
+
+.sutra-passage-body p {
+  margin: 0 0 1rem;
+  line-height: 1.75;
+  text-align: justify;
+  hyphens: auto;
+  -webkit-hyphens: auto;
+}
+
+.sutra-passage-body p:last-child {
+  margin-bottom: 0;
+}
+
+.sutra-verse {
+  margin: 1.1rem 0;
+  padding: 0.1rem 0 0.1rem 1.25rem;
+  border-left: 1px solid rgba(122, 106, 85, 0.3);
+  font-style: italic;
+  line-height: 1.75;
+  color: var(--ink);
+}
+
+.sutra-source-footer {
+  margin-top: 2.5rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid rgba(122, 106, 85, 0.18);
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.sutra-source-line {
+  margin: 0;
+  font-size: 0.78rem;
+  line-height: 1.55;
+  color: var(--ink-light);
+}
+
+.sutra-source-line strong {
+  color: var(--ink);
+  font-weight: 500;
+}
+
+.sutra-license-badge {
+  display: inline-block;
+  margin-left: 0.4rem;
+  padding: 0.05rem 0.5rem;
+  border: 1px solid rgba(122, 106, 85, 0.25);
+  border-radius: 999px;
+  font-family: var(--font-inter), sans-serif;
+  font-size: 0.6rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ink-light);
+}
+

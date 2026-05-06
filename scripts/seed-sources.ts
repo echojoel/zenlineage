@@ -241,6 +241,65 @@ const SOURCES = [
     reliability: "scholarly",
   },
   {
+    id: "src_sbe_xlix_mueller_1894",
+    type: "text_edition",
+    title:
+      "Buddhist Mahâyâna Texts — Sacred Books of the East, vol XLIX (Heart & Diamond Sūtras, F. Max Müller trans.)",
+    author: "F. Max Müller (trans.)",
+    url: "https://archive.org/details/sacredbooksofeas49ml",
+    publicationDate: "1894",
+    reliability: "scholarly",
+  },
+  {
+    id: "src_beal_catena_1871",
+    type: "text_edition",
+    title:
+      "A Catena of Buddhist Scriptures from the Chinese (Heart Sūtra rendering, Samuel Beal trans.)",
+    author: "Samuel Beal (trans.)",
+    url: "https://archive.org/details/catenaofbuddhist00beal",
+    publicationDate: "1871",
+    reliability: "scholarly",
+  },
+  {
+    id: "src_gemmell_diamond_1912",
+    type: "text_edition",
+    title: "The Diamond Sutra — William Gemmell translation",
+    author: "William Gemmell (trans.)",
+    url: "https://archive.org/details/diamondsutraprag00gemmuoft",
+    publicationDate: "1912",
+    reliability: "scholarly",
+  },
+  {
+    id: "src_wong_platform_1930",
+    type: "text_edition",
+    title:
+      "Sutra of Wei Lang (Hui-neng) — Platform Sūtra of the Sixth Patriarch, Wong Mou-Lam translation",
+    author: "Wong Mou-Lam (trans.)",
+    url: "https://archive.org/details/sutraofweilanghu00huin",
+    publicationDate: "1930",
+    reliability: "scholarly",
+  },
+  {
+    id: "src_goddard_buddhist_bible_1932",
+    type: "text_edition",
+    title:
+      "A Buddhist Bible — Dwight Goddard, ed. (1932 ed.; includes Wong Mou-Lam Platform Sūtra and Diamond Sūtra recension)",
+    author: "Dwight Goddard (ed.)",
+    url: "https://archive.org/details/buddhistbible00godd",
+    publicationDate: "1932",
+    reliability: "scholarly",
+  },
+  {
+    id: "src_sutras_curated_pd",
+    type: "curated_translation_set",
+    title:
+      "Curated public-domain & permissive-license sūtra translations (Zen project editorial)",
+    author: "Zen project editorial",
+    url: null,
+    publicationDate: null,
+    reliability: "editorial",
+  },
+  {
     id: "src_red_pine_platform",
     type: "text_edition",
     title: "The Platform Sutra: The Zen Teaching of Hui-neng",

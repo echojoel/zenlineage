@@ -1,0 +1,20 @@
+[
+  {
+    "slug": "heart-sutra-beal-1871",
+    "type": "sutra",
+    "author_slug": "unknown",
+    "collection": "Heart Sūtra",
+    "compiler": "Samuel Beal (trans.)",
+    "era": "Chinese recension (Xuanzang)",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "Heart Sūtra (Samuel Beal, 1871)",
+    "content": "## §1 Setting\n\n*From* A Catena of Buddhist Scriptures from the Chinese, *rendered after the Chinese short recension attributed to Xuanzang.*\n\nKwan-tseu-tsai (Avalokiteśvara), the honoured of the world, whilst engaged in profound Prajñâ-pâramitâ contemplation, perceived that the five skandhas are altogether empty, and so passed beyond every sorrow and pain.\n\n## §2 Form is emptiness\n\nO Sâriputra, form is not different from emptiness, emptiness is not different from form: form is the same as emptiness, emptiness is the same as form. So also are sensation, perception, discrimination, and consciousness. Sâriputra, the very nature of all dharmas is voidness; they are not produced and not destroyed; they are not soiled and not pure; they neither increase nor decrease.\n\n## §3 Negation\n\nFor which reason, in voidness there is no form, no sensation, no perception, no discrimination, no consciousness. There is no eye, ear, nose, tongue, body, mind; no form, sound, scent, taste, touch, dharmas. There is no realm of vision, &c., even no realm of mind-consciousness. There is no ignorance, and no extinction of ignorance, &c., even no decay and death, and no extinction of decay and death. There is no suffering, no cause of suffering, no cessation, no path. There is no knowledge, neither any attainment, because there is nothing to attain.\n\n## §4 The bodhisattva's awakening\n\nThe Bodhisattva, depending upon Prajñâ-pâramitâ, his heart has no obstacle. Because there is no obstacle, he has no fear; he is far apart from every distorted dream-thought, and is at last fixed in Nirvâṇa. The Buddhas of the three ages, depending upon Prajñâ-pâramitâ, have attained the supreme, perfect, and complete Bodhi.\n\n## §5 The mantra\n\nTherefore know that Prajñâ-pâramitâ is the great spiritual mantra, the mantra of great wisdom, the supreme mantra, the unsurpassed mantra, able to remove all suffering — true, not vain. Wherefore he uttered the Prajñâ-pâramitâ mantra, saying thus —\n\n*Gaté, gaté, pâragaté, pârasamgaté, bodhi, svâhâ!*\n\n(Gone, gone, gone over, gone fully over to the other shore. Wisdom! All hail!)\n\nSuch is the Heart of the Prajñâ-pâramitâ.",
+    "source_id": "src_beal_catena_1871",
+    "ingestion_run_id": "run_sutras_curated_pd_initial",
+    "locator": "A Catena of Buddhist Scriptures from the Chinese, pp. 282–284",
+    "translator": "Samuel Beal",
+    "edition": "A Catena of Buddhist Scriptures from the Chinese (1871)",
+    "license_status": "public_domain"
+  }
+]
