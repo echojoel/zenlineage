@@ -49,9 +49,90 @@ interface BiographyFootnote {
 const BIOGRAPHIES: BiographyEntry[] = [
   {
     slug: "shakyamuni-buddha",
-    content: `Shakyamuni Buddha, born Siddhartha Gautama in the foothills of the Himalayas around the fifth century BCE, renounced his princely life at twenty-nine to seek liberation from suffering. After years of ascetic practice and contemplation, he attained complete awakening beneath the Bodhi tree at Bodh Gaya, becoming the Buddha, the Awakened One. His enlightenment, reached through the direct investigation of mind and reality, forms the unshakeable ground on which all subsequent Buddhist teaching rests.
+    content: `Shakyamuni Buddha — the Awakened One of the Śākya clan — was born Siddhārtha Gautama in Lumbinī, in the foothills of what is now southern Nepal, sometime in the fifth or sixth century BCE; modern scholarship has progressively shortened the date range, with most current reconstructions placing his death between roughly 410 and 370 BCE[1]. His father Śuddhodana led the Śākya republic from its capital at Kapilavastu; his mother Māyādevī died seven days after his birth and was succeeded by her sister Mahāprajāpatī Gautamī, who raised him alongside his half-brother Nanda[2]. Traditional biographies describe a sheltered princely upbringing within the palace walls, marriage to Yaśodharā, and the birth of a son, Rāhula. The early canonical *Ariyapariyesana Sutta* and the later *Buddhacarita* of Aśvaghoṣa preserve the narrative of the "four sights" — an old man, a sick man, a corpse, and a wandering ascetic — that prompted his renunciation at twenty-nine[3].
 
-For forty-five years the Buddha traveled the Gangetic plain, teaching the Dharma to monks, nuns, laypeople, and rulers. His discourses range from practical ethics to the profound analysis of dependent origination and the nature of consciousness. He established the Sangha, the community of practitioners, as the third jewel alongside the Buddha and Dharma. In the Chan tradition, his transmission to Mahakashyapa at Vulture Peak—raising a flower and smiling in silence—is regarded as the origin of mind-to-mind transmission beyond words.`,
+Leaving home as a *śramaṇa*, Siddhārtha studied under the meditation masters Āḷāra Kālāma and Uddaka Rāmaputta, attaining the highest formless absorptions but finding them insufficient for the liberation he sought[4]. He then practiced extreme asceticism for six years in the forests of Uruvelā with five companions before concluding that mortification of the body was no closer to awakening than indulgence had been; this realization gave rise to the doctrine of the Middle Way[5]. Sitting beneath a *pīpal* tree at what would become Bodh Gayā, after a night of progressive meditative absorption, he attained complete and unsurpassed awakening (*anuttarā samyaksaṃbodhi*) and was henceforth called the Buddha — "one who has awakened."
+
+Some weeks later, in the Deer Park at Sarnath, the Buddha gave his first discourse, the *Dhammacakkappavattana Sutta* ("Setting in Motion the Wheel of Dharma"), to the five companions of his earlier ascetic life[6]. The discourse outlines the Four Noble Truths — the truths of suffering, of its origin in craving, of its cessation, and of the Noble Eightfold Path that leads to cessation — and remains the most concise formulation of the Buddha's diagnostic and therapeutic vision. Kauṇḍinya and the four others became the first members of the Buddhist Sangha, which together with the Buddha and his Dharma constitute the Three Jewels in which all later Buddhists take refuge.
+
+For forty-five years the Buddha walked the Gangetic plain, residing each rains-retreat in one of the early monastic *vihāras* donated by lay followers — Anāthapiṇḍika's Jetavana grove at Sāvatthī, the Bamboo Grove (Veḷuvana) at Rājagṛha given by King Bimbisāra, and others[7]. He taught monarchs (Bimbisāra of Magadha, Pasenadi of Kosala), brahmins, householders, and outcastes, and is described in the discourses as adjusting his teaching to the capacity of each listener (*upāya*). Among his foremost disciples were Śāriputra, foremost in wisdom; Mahāmaudgalyāyana, foremost in psychic abilities; Ānanda, his cousin and personal attendant who memorized the discourses; and Mahākāśyapa, foremost in austere discipline. After repeated entreaty by Mahāprajāpatī and Ānanda's intervention, the Buddha admitted women to the monastic order, founding the *bhikkhunī* sangha — the earliest formally organized community of women renunciants in any world religion[8].
+
+The corpus of teachings preserved in the early sutta collections of the Pāli Canon (the *Sutta Piṭaka*) and the parallel *Āgamas* in Chinese is doctrinally compact but vast in scope. Central is the analysis of conditioned existence through *paṭicca-samuppāda* (dependent origination) — the formula that whatever arises does so in dependence on causes and conditions — and the three marks of existence: impermanence (*anicca*), unsatisfactoriness (*dukkha*), and non-self (*anattā*)[9]. These analyses dissolve the apparently solid self into a stream of conditioned processes and underwrite the soteriological claim that liberation (*nirvāṇa*) is the ending of clinging rather than the attainment of any new state. The Buddha rejected both eternalist views of an unchanging soul and annihilationist views of a self that simply ends at death, holding that liberation is realized through direct insight in the present.
+
+At about age eighty, after a meal at the home of the smith Cunda, the Buddha entered final *parinirvāṇa* in a grove of *sāl* trees near Kuśinagara. The *Mahāparinibbāna Sutta* preserves what tradition holds to be his last words to the assembled disciples — *vayadhammā saṅkhārā, appamādena sampādetha*: "all conditioned things are subject to decay; strive on with diligence"[10]. His relics were divided among the major polities of the region and enshrined in *stūpas*, the architectural form that would carry his memory across Asia. Within a year of his death, five hundred elders convened the First Council at Rājagṛha, where Ānanda recited the discourses ("Thus have I heard…") and Upāli the monastic discipline, fixing the canonical recension that descended through oral transmission for several centuries before being committed to writing.
+
+For the Chan, Sŏn, Thiền, and Zen traditions, Shakyamuni is venerated not only as the historical teacher but as the source of a distinct line of transmission "outside the scriptures." The *locus classicus* is the Flower Sermon, recorded in later Chinese sources — most prominently the *Wúménguān* (*Mumonkan*, Case 6): on Vulture Peak the Buddha held up a flower without speaking, and only Mahākāśyapa smiled in recognition; the Buddha replied, "I have the eye of the true Dharma, the marvelous mind of nirvāṇa, the true mark of formlessness, the subtle Dharma gate that does not rest on words and letters and is transmitted outside the scriptures — this I entrust to Mahākāśyapa"[11]. Modern scholarship traces the explicit textual record of this episode to the eleventh-century *Tiānshèng Guǎngdēng Lù* and to the *Wúménguān* of 1228, although the underlying claim of a wordless transmission is older[12]. In Chan iconography Shakyamuni stands at the head of a lineage chart of twenty-eight Indian patriarchs leading to Bodhidharma, who in turn brought the transmission to China.`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_princeton_dict_buddhism",
+        pageOrSection: "s.v. \"Buddha\" and \"Śākyamuni\"",
+        excerpt:
+          "Modern scholarship has progressively narrowed the dating, with most current proposals placing the death between c. 410 and 370 BCE.",
+      },
+      {
+        index: 2,
+        sourceId: "src_princeton_dict_buddhism",
+        pageOrSection: "s.v. \"Mahāprajāpatī\" and \"Śuddhodana\"",
+      },
+      {
+        index: 3,
+        sourceId: "src_bodhi_in_buddhas_words",
+        pageOrSection: "ch. 2 §3 (MN 26, Ariyapariyesana Sutta)",
+        excerpt:
+          "While I was still young, a black-haired young man endowed with the blessings of youth, in the prime of life… I shaved off my hair and beard, put on the yellow robe, and went forth from the home life into homelessness.",
+      },
+      {
+        index: 4,
+        sourceId: "src_bodhi_in_buddhas_words",
+        pageOrSection: "ch. 2 §3 (MN 26, on Āḷāra Kālāma and Uddaka Rāmaputta)",
+      },
+      {
+        index: 5,
+        sourceId: "src_bodhi_in_buddhas_words",
+        pageOrSection:
+          "ch. 2 §4 (MN 36, Mahāsaccaka Sutta — six years of austerity and the abandonment of self-mortification)",
+      },
+      {
+        index: 6,
+        sourceId: "src_bodhi_in_buddhas_words",
+        pageOrSection: "ch. 2 §5 (SN 56.11, Dhammacakkappavattana Sutta)",
+      },
+      {
+        index: 7,
+        sourceId: "src_princeton_dict_buddhism",
+        pageOrSection: "s.v. \"Jetavana\", \"Veluvana\", \"vihāra\"",
+      },
+      {
+        index: 8,
+        sourceId: "src_princeton_dict_buddhism",
+        pageOrSection: "s.v. \"bhikṣuṇī\" and \"Mahāprajāpatī\"",
+        excerpt:
+          "After Ānanda's intercession, the Buddha consented to the ordination of Mahāprajāpatī, founding the order of nuns under the eight gurudharmas.",
+      },
+      {
+        index: 9,
+        sourceId: "src_princeton_dict_buddhism",
+        pageOrSection:
+          "s.v. \"pratītyasamutpāda\", \"trilakṣaṇa\" (anicca, dukkha, anātman)",
+      },
+      {
+        index: 10,
+        sourceId: "src_bodhi_in_buddhas_words",
+        pageOrSection: "ch. 9 §6 (DN 16, Mahāparinibbāna Sutta, final exhortation)",
+      },
+      {
+        index: 11,
+        sourceId: "src_dumoulin_india_china",
+        pageOrSection: "Vol. 1, ch. 1 (\"The Flower Sermon and the Origin of Chan\")",
+      },
+      {
+        index: 12,
+        sourceId: "src_dumoulin_india_china",
+        pageOrSection:
+          "Vol. 1, ch. 1 — discussion of the Tiānshèng Guǎngdēng Lù (1036) and Wúménguān (1228) as the earliest textual witnesses",
+      },
+    ],
   },
   {
     slug: "mahakashyapa",

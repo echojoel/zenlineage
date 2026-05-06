@@ -277,6 +277,16 @@ const SOURCES = [
     reliability: "scholarly",
   },
   {
+    id: "src_bodhi_in_buddhas_words",
+    type: "book",
+    title:
+      "In the Buddha's Words: An Anthology of Discourses from the Pāli Canon",
+    author: "Bhikkhu Bodhi (ed., trans.)",
+    url: "https://wisdomexperience.org/product/buddhas-words/",
+    publicationDate: "2005",
+    reliability: "scholarly",
+  },
+  {
     id: "src_sotoshu_global",
     type: "website",
     title: "Sōtōshū — Global Sōtō Zen Network",
