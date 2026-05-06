@@ -144,14 +144,7 @@ export default function AboutPage() {
           <div className="detail-summary">
             <p>
               Zen is the practice of sitting down and looking directly at what you are. No scripture
-              can do it for you, no concept can replace it. You sit, you breathe, and sooner or
-              later the distance between you and your life closes. That is all.
-            </p>
-            <p>
-              The longer answer &mdash; the one the rest of this page is for &mdash; has three
-              parts: what the word means and where it comes from, how the same tradition wears
-              four different names across Asia, and the three pillars of meditation /
-              transmission / awakening.
+              can do it for you, no concept can replace it.
             </p>
 
             <h4 className="detail-subsection-title">One word, five languages</h4>
@@ -212,6 +205,20 @@ export default function AboutPage() {
               , and is the form that travelled to the West first. Treating any one of these as
               the &ldquo;real&rdquo; Zen and the others as variants is a category error.
             </p>
+            <figure className="about-figure">
+              <Image
+                src="/masters/thich-nhat-hanh.webp"
+                alt="Thích Nhất Hạnh, twentieth-century teacher of Vietnamese Thiền"
+                width={320}
+                height={320}
+                className="about-section-image"
+              />
+              <figcaption className="figure-credit">
+                Thích Nhất Hạnh (1926–2022) — modern teacher of Vietnamese Thiền and founder
+                of Plum Village. Photo: Duc (pixiduc), Paris 2006, CC BY-SA 2.0 via Wikimedia
+                Commons.
+              </figcaption>
+            </figure>
 
             <h4 className="detail-subsection-title">Meditation, transmission, awakening</h4>
             <p>
@@ -235,20 +242,6 @@ export default function AboutPage() {
           </div>
         </section>
 
-        <figure className="about-figure">
-          <Image
-            src="/masters/thich-nhat-hanh.webp"
-            alt="Thích Nhất Hạnh, twentieth-century teacher of Vietnamese Thiền"
-            width={320}
-            height={320}
-            className="about-section-image"
-          />
-          <figcaption className="figure-credit">
-            Thích Nhất Hạnh (1926–2022) — modern teacher of Vietnamese Thiền and founder
-            of Plum Village. Photo: Duc (pixiduc), Paris 2006, CC BY-SA 2.0 via Wikimedia Commons.
-          </figcaption>
-        </figure>
-
         <section className="detail-card">
           <h3 className="detail-section-title">Etymology</h3>
           <div className="detail-summary">
@@ -266,6 +259,19 @@ export default function AboutPage() {
               accounts<FootnoteRef n={1} scope="about" />. In Korean the tradition is called{" "}
               <em>Seon</em> (선/禪), and in Vietnamese, <em>Thiền</em>.
             </p>
+            <figure className="about-figure">
+              <Image
+                src="/masters/puti-damo.webp"
+                alt="Bodhidharma (Puti Damo), the First Patriarch of Chan Buddhism"
+                width={320}
+                height={320}
+                className="about-section-image"
+              />
+              <figcaption className="figure-credit">
+                Bodhidharma — ink portrait attributed to Yi Yuanji, 11th c. (Wikimedia Commons,
+                public domain).
+              </figcaption>
+            </figure>
           </div>
         </section>
 
@@ -318,37 +324,22 @@ export default function AboutPage() {
           </div>
         </section>
 
-        <figure className="about-figure">
-          <Image
-            src="/masters/puti-damo.webp"
-            alt="Bodhidharma (Puti Damo), the First Patriarch of Chan Buddhism"
-            width={320}
-            height={320}
-            className="about-section-image"
-          />
-          <figcaption className="figure-credit">
-            Bodhidharma — ink portrait attributed to Yi Yuanji, 11th c. (Wikimedia Commons,
-            public domain).
-          </figcaption>
-        </figure>
-
-        <figure className="about-figure">
-          <Image
-            src="/about-zendo.webp"
-            alt="Zendō at Tōfuku-ji — long parallel meditation platforms running the length of the hall"
-            width={480}
-            height={259}
-            className="about-section-image about-section-image--wide"
-          />
-          <figcaption className="figure-credit">
-            Zendō at Tōfuku-ji, Kyoto — the meditation hall where zazen is sat in unison
-            (Wikimedia Commons).
-          </figcaption>
-        </figure>
-
         <section className="detail-card">
           <h3 className="detail-section-title">Core Practice: Zazen</h3>
           <div className="detail-summary">
+            <figure className="about-figure">
+              <Image
+                src="/about-zendo.webp"
+                alt="Zendō at Tōfuku-ji — long parallel meditation platforms running the length of the hall"
+                width={480}
+                height={259}
+                className="about-section-image about-section-image--wide"
+              />
+              <figcaption className="figure-credit">
+                Zendō at Tōfuku-ji, Kyoto — the meditation hall where zazen is sat in unison
+                (Wikimedia Commons).
+              </figcaption>
+            </figure>
             <p>
               The central practice of Zen is seated meditation, known as <em>zazen</em> (坐禅,
               &ldquo;sitting dhyāna&rdquo;). In the Sōtō school, this takes the form of{" "}
@@ -365,6 +356,19 @@ export default function AboutPage() {
               zazen&rdquo; (Dōgen, tr. Tanahashi, <em>Treasury of the True Dharma Eye</em>, 2010, p.
               886).
             </p>
+            <figure className="about-figure">
+              <Image
+                src="/masters/dogen.webp"
+                alt="Dogen Zenji, founder of Soto Zen in Japan"
+                width={320}
+                height={320}
+                className="about-section-image"
+              />
+              <figcaption className="figure-credit">
+                Dōgen Zenji (1200–1253) — historical portrait via Wikimedia Commons, public
+                domain.
+              </figcaption>
+            </figure>
             <figure className="about-figure">
               <Image
                 src="/about-zazen.webp"
@@ -389,35 +393,34 @@ export default function AboutPage() {
               </Link>{" "}
               (1686&ndash;1769), who systematised kōan practice into a structured curriculum<FootnoteRef n={6} scope="about" />.
             </p>
+            <figure className="about-figure">
+              <Image
+                src="/masters/hakuin-ekaku.webp"
+                alt="Hakuin Ekaku, reviver of the Rinzai school"
+                width={320}
+                height={320}
+                className="about-section-image"
+              />
+              <figcaption className="figure-credit">
+                Hakuin Ekaku (1686–1769), self-portrait — ink on paper (Wikimedia Commons,
+                public domain).
+              </figcaption>
+            </figure>
+            <figure className="about-figure">
+              <Image
+                src="/about-eiheiji.webp"
+                alt="Eihei-ji, the principal Sōtō temple in Fukui prefecture — wooden cloisters and stone steps among cedars"
+                width={480}
+                height={320}
+                className="about-section-image about-section-image--wide"
+              />
+              <figcaption className="figure-credit">
+                Eihei-ji, Fukui — founded by Dōgen Zenji in 1244 and still the head temple of
+                Sōtō Zen (Wikimedia Commons).
+              </figcaption>
+            </figure>
           </div>
         </section>
-
-        <figure className="about-figure">
-          <Image
-            src="/masters/dogen.webp"
-            alt="Dogen Zenji, founder of Soto Zen in Japan"
-            width={320}
-            height={320}
-            className="about-section-image"
-          />
-          <figcaption className="figure-credit">
-            Dōgen Zenji (1200–1253) — historical portrait via Wikimedia Commons, public domain.
-          </figcaption>
-        </figure>
-
-        <figure className="about-figure">
-          <Image
-            src="/about-eiheiji.webp"
-            alt="Eihei-ji, the principal Sōtō temple in Fukui prefecture — wooden cloisters and stone steps among cedars"
-            width={480}
-            height={320}
-            className="about-section-image about-section-image--wide"
-          />
-          <figcaption className="figure-credit">
-            Eihei-ji, Fukui — founded by Dōgen Zenji in 1244 and still the head temple of Sōtō
-            Zen (Wikimedia Commons).
-          </figcaption>
-        </figure>
 
         <section className="detail-card">
           <h3 className="detail-section-title">Key Concepts</h3>
@@ -434,6 +437,19 @@ export default function AboutPage() {
               making use of this mind, one directly attains Buddhahood&rdquo; (Yampolsky,{" "}
               <em>The Platform Sutra of the Sixth Patriarch</em>, 1967, p. 130).
             </p>
+            <figure className="about-figure">
+              <Image
+                src="/masters/dajian-huineng.webp"
+                alt="Huineng, the Sixth Patriarch of Chan Buddhism"
+                width={320}
+                height={320}
+                className="about-section-image"
+              />
+              <figcaption className="figure-credit">
+                Dajian Huineng (638–713), the Sixth Patriarch — silk hanging scroll, 13th c.
+                (Wikimedia Commons, public domain).
+              </figcaption>
+            </figure>
             <p>
               <strong>Sudden and gradual awakening</strong> &mdash; The dialectic between sudden (
               <em>dùn</em> 頓) and gradual (<em>jiàn</em> 漸) enlightenment has shaped Zen since the
@@ -511,20 +527,6 @@ export default function AboutPage() {
           </div>
         </section>
 
-        <figure className="about-figure">
-          <Image
-            src="/masters/dajian-huineng.webp"
-            alt="Huineng, the Sixth Patriarch of Chan Buddhism"
-            width={320}
-            height={320}
-            className="about-section-image"
-          />
-          <figcaption className="figure-credit">
-            Dajian Huineng (638–713), the Sixth Patriarch — silk hanging scroll, 13th c.
-            (Wikimedia Commons, public domain).
-          </figcaption>
-        </figure>
-
         <section className="detail-card">
           <h3 className="detail-section-title">Historical Development</h3>
           <div className="detail-summary">
@@ -542,6 +544,48 @@ export default function AboutPage() {
               twentieth-century opening to the West &mdash; lives on the Timeline page. This
               page is the <em>what</em> and the <em>why</em>; the Timeline is the <em>when</em>.
             </p>
+            <h4 className="detail-subsection-title">Transmission to the West</h4>
+            <p>
+              The twentieth-century opening took two parallel paths. In the United States,{" "}
+              <Link className="detail-inline-link" href="/masters/shunryu-suzuki">
+                Shunryū Suzuki
+              </Link>{" "}
+              (1904&ndash;1971) founded San Francisco Zen Center in 1962, planting Sōtō practice
+              on American soil and shaping a generation of Western teachers through{" "}
+              <em>Zen Mind, Beginner&rsquo;s Mind</em>. In Europe,{" "}
+              <Link className="detail-inline-link" href="/masters/taisen-deshimaru">
+                Taisen Deshimaru
+              </Link>{" "}
+              (1914&ndash;1982) arrived in Paris in 1967 and established the Association Zen
+              Internationale, around which most of European Sōtō Zen still organises itself today.
+            </p>
+            <figure className="about-figure">
+              <Image
+                src="/masters/shunryu-suzuki.webp"
+                alt="Shunryu Suzuki, who helped establish Soto Zen in the United States"
+                width={320}
+                height={320}
+                className="about-section-image"
+              />
+              <figcaption className="figure-credit">
+                Shunryū Suzuki (1904–1971), founding teacher of San Francisco Zen Center
+                (photo via Wikimedia Commons, fair use / educational).
+              </figcaption>
+            </figure>
+            <figure className="about-figure">
+              <Image
+                src="/masters/taisen-deshimaru.webp"
+                alt="Taisen Deshimaru, who established Sōtō Zen in Europe"
+                width={320}
+                height={320}
+                className="about-section-image"
+              />
+              <figcaption className="figure-credit">
+                Taisen Deshimaru (1914–1982), Sōtō teacher who carried zazen to Europe and
+                founded the Association Zen Internationale (photo via Wikimedia Commons,
+                fair use / educational).
+              </figcaption>
+            </figure>
           </div>
           <div className="detail-actions" style={{ justifyContent: "flex-start", marginTop: "1rem" }}>
             <Link className="detail-button" href="/timeline">
@@ -549,20 +593,6 @@ export default function AboutPage() {
             </Link>
           </div>
         </section>
-
-        <figure className="about-figure">
-          <Image
-            src="/masters/hakuin-ekaku.webp"
-            alt="Hakuin Ekaku, reviver of the Rinzai school"
-            width={320}
-            height={320}
-            className="about-section-image"
-          />
-          <figcaption className="figure-credit">
-            Hakuin Ekaku (1686–1769), self-portrait — ink on paper (Wikimedia Commons,
-            public domain).
-          </figcaption>
-        </figure>
 
         <section className="detail-card">
           <h3 className="detail-section-title">The Major Schools</h3>
@@ -655,46 +685,30 @@ export default function AboutPage() {
           </div>
         </section>
 
-        <figure className="about-figure">
-          <Image
-            src="/masters/shunryu-suzuki.webp"
-            alt="Shunryu Suzuki, who helped establish Soto Zen in the United States"
-            width={320}
-            height={320}
-            className="about-section-image"
-          />
-          <figcaption className="figure-credit">
-            Shunryū Suzuki (1904–1971), founding teacher of San Francisco Zen Center
-            (photo via Wikimedia Commons, fair use / educational).
-          </figcaption>
-        </figure>
-
-        <figure className="about-figure">
-          <Image
-            src="/masters/taisen-deshimaru.webp"
-            alt="Taisen Deshimaru, who established Sōtō Zen in Europe"
-            width={320}
-            height={320}
-            className="about-section-image"
-          />
-          <figcaption className="figure-credit">
-            Taisen Deshimaru (1914–1982), Sōtō teacher who carried zazen to Europe and
-            founded the Association Zen Internationale (photo via Wikimedia Commons,
-            fair use / educational).
-          </figcaption>
-        </figure>
-
         <section className="detail-card">
           <h3 className="detail-section-title">The Ensō</h3>
+          <figure className="about-figure">
+            <Image
+              src="/about-enso-sengai.webp"
+              alt="Ensō by Sengai Gibon (1750–1837), brush and ink on paper"
+              width={520}
+              height={367}
+              className="about-section-image"
+            />
+            <figcaption className="figure-credit">
+              Ensō by Sengai Gibon (1750–1837), Edo-period Rinzai monk and calligrapher.
+              Public domain via Wikimedia Commons.
+            </figcaption>
+          </figure>
           <div className="detail-summary">
             <p>
-              The image above is an <em>ensō</em> (円相), a circle drawn in a single brushstroke. It
-              is one of the most recognisable symbols of Zen, expressing wholeness, the void (
-              <em>śūnyatā</em>), and the beauty of imperfection. The practice of painting ensō
-              belongs to the broader tradition of Zen calligraphy (<em>bokuseki</em>, &ldquo;ink
-              traces&rdquo;), in which the spontaneous gesture of the brush is understood to reveal
-              the state of mind of the practitioner at the moment of execution (Addiss,{" "}
-              <em>The Art of Zen</em>, 1989, pp. 29&ndash;34).
+              An <em>ensō</em> (円相) is a circle drawn in a single brushstroke. It is one of the
+              most recognisable symbols of Zen, expressing wholeness, the void (<em>śūnyatā</em>),
+              and the beauty of imperfection. The practice of painting ensō belongs to the broader
+              tradition of Zen calligraphy (<em>bokuseki</em>, &ldquo;ink traces&rdquo;), in which
+              the spontaneous gesture of the brush is understood to reveal the state of mind of the
+              practitioner at the moment of execution (Addiss, <em>The Art of Zen</em>, 1989, pp.
+              29&ndash;34).
             </p>
           </div>
         </section>

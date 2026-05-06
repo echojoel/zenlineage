@@ -8,7 +8,7 @@ Zen Lineage maps the dharma transmission lineages connecting Buddhist masters
 from Shakyamuni Buddha through Bodhidharma to modern teachers. All content
 requires item-level citations from scholarly sources before publication.
 
-Generated: 2026-05-05
+Generated: 2026-05-06
 
 ---
 
@@ -312,7 +312,7 @@ Punyamitra's significance lies above all in his recognition of Prajnatara, the l
 - **Dates:** 5th c. – null
 - **School:** Indian Patriarchs
 - **Teachers:** Punyamitra
-- **Students:** Puti Damo
+- **Students:** Bodhidharma
 
 Prajnatara, the twenty-seventh and final Indian patriarch before the transmission passed to China, was the teacher of Bodhidharma. He is described in Chan sources as an accomplished master of great depth who recognized Bodhidharma among the sons of a king and perceived immediately his extraordinary capacity. Prajnatara's teaching of Bodhidharma lasted many years, culminating in the full transmission of the patriarchal mind.
 
@@ -346,7 +346,7 @@ Simha represents the extreme test of the lineage: the willingness to give one's 
 - **Also known as:** Ta-tsu Hui-k'o, Taiso Eka, taiso eka, ta-tsu hui-k'o
 - **Dates:** 487 – 593
 - **School:** Early Chan
-- **Teachers:** Puti Damo
+- **Teachers:** Bodhidharma
 - **Students:** Jianzhi Sengcan
 
 Dazu Huike was the second patriarch of Chinese Chan, the successor of Bodhidharma and one of the most dramatic figures in the tradition. He first sought out Bodhidharma while the master was engaged in his nine years of wall-gazing, standing in the snow outside the meditation hall. When Bodhidharma refused to see him, Huike cut off his own arm at the elbow and presented it as evidence of his sincerity. Bodhidharma then agreed to teach him.
@@ -358,15 +358,15 @@ Huike's encounter with Bodhidharma is recorded as proceeding through a series of
 - **Also known as:** Fu Dashi, Fu Xi, Fu Ta-shih
 - **Dates:** 497 – 569
 - **School:** Early Chan
-- **Teachers:** Puti Damo
+- **Teachers:** Bodhidharma
 
 Mahasattva Fu, also known as Fu Dashi (Great Master Fu), was a legendary Chinese Buddhist figure of the Liang dynasty who is considered a precursor of the Chan tradition. He was a layman who was recognized by Emperor Wu of Liang as a living bodhisattva. He is credited with inventing the revolving sutra case (the rotating bookshelf used in Buddhist temples) and with teaching a form of direct pointing that anticipated Chan methods.
 
 Mahasattva Fu's most famous encounter occurred when Emperor Wu invited him to lecture on the Diamond Sutra. He ascended the lecture platform, struck the table once, and descended without saying a word.
 
-### Puti Damo
+### Bodhidharma
 
-- **Also known as:** P'u-ti Ta-mo, Bodai Daruma, Bodhidharma, puti damo, bodai daruma, p'u-ti ta-mo
+- **Also known as:** Puti Damo, P'u-ti Ta-mo, Bodai Daruma, puti damo, bodai daruma, p'u-ti ta-mo
 - **Dates:** null – c. 536
 - **School:** Early Chan
 - **Teachers:** Prajnatara
@@ -964,25 +964,25 @@ Bojo Jinul (普照知訥, 1158–1210) is the central figure of Korean Seon and 
 
 Chin'gak Hyesim (眞覺慧諶, 1178–1234) was Jinul's principal disciple and successor at Songgwang-sa on Mount Jogye. A former Confucian scholar who turned to Buddhism after his mother's death, he refined Korean huatou (화두 hwadu) practice into the disciplined investigation of a single critical phrase that still defines Korean meditation. His Seonmun Yeomsong, an anthology of 1,125 koan cases with his verse and prose commentary, is the largest classical Korean Seon koan collection and remains a foundational training text. With Hyesim, the Korean tradition committed to keyword investigation as its primary meditative method — a commitment that continues unbroken in the seonbang today.
 
-### Koun Ejo
+### Koun Ejō
 
-- **Also known as:** Koun Ejō, Ejo, koun ejo, ejo
+- **Also known as:** Koun Ejo, Ejo, koun ejo, ejo
 - **Dates:** 1198 – 1280
 - **School:** Sōtō
-- **Teachers:** Dogen
-- **Students:** Tettsu Gikai
+- **Teachers:** Dōgen
+- **Students:** Tettsū Gikai
 
 Koun Ejo was Dogen's first dharma successor and the second abbot of Eiheiji, the temple that remains the head training monastery of the Soto school to this day. He had previously studied with Kakuan, a Daruma school teacher, before meeting Dogen, under whom his understanding deepened decisively. His devotion to Dogen and his careful stewardship of the community after Dogen's death ensured the survival of the Soto school during its most vulnerable early years.
 
 Ejo compiled the Shobogenzo Zuimonki, a collection of Dogen's informal talks that remains one of the most accessible introductions to Dogen's thought. His own teaching was characterized by a deep humility and a wholehearted commitment to the practice of zazen as Dogen had taught it.
 
-### Dogen
+### Dōgen
 
-- **Also known as:** Dogen Zenji, Dōgen, Eihei Dogen, Eihei Dōgen, Yongping Daoyuan, Yung-p'ing Tao-yüan, Eihei Dôgen, eihei dōgen, yongping daoyuan, dogen
+- **Also known as:** Dogen, Dogen Zenji, Eihei Dogen, Eihei Dōgen, Yongping Daoyuan, Yung-p'ing Tao-yüan, Eihei Dôgen, eihei dōgen, yongping daoyuan, dogen
 - **Dates:** 1200 – 1253
 - **School:** Sōtō
 - **Teachers:** Tiantong Rujing
-- **Students:** Koun Ejo
+- **Students:** Koun Ejō
 
 Eihei Dogen was the founder of the Soto school of Zen in Japan and one of the most profound religious philosophers in world history[1]. Born into a noble family in 1200, he entered the monastery as a child and came to question why, if all beings are originally endowed with Buddha nature, they still need to practice. Unable to find a satisfying answer in Japan, he traveled to China in 1223 and studied with Tiantong Rujing, under whom he experienced the moment of "dropping off body and mind."[2] He returned to Japan in 1227 and spent the rest of his life teaching, writing, and establishing the Soto monastic tradition[3].
 
@@ -1010,13 +1010,13 @@ Xueyan Zuqin was a Yangqi line master of the Song and Yuan dynasties who played 
 
 Xueyan's contribution to the tradition lies in his deepening of the Yangqi approach to koan practice. He emphasized that the student must bring the entirety of their being—body, mind, and spirit—to the investigation of the koan, leaving nothing in reserve. This totality of engagement became a hallmark of the mature Linji tradition and remains central to Rinzai Zen practice today.
 
-### Tettsu Gikai
+### Tettsū Gikai
 
-- **Also known as:** Tettsū Gikai, Gikai, tettsu gikai, gikai
+- **Also known as:** Tettsu Gikai, Gikai, tettsu gikai, gikai
 - **Dates:** 1219 – 1309
 - **School:** Sōtō
-- **Teachers:** Koun Ejo
-- **Students:** Keizan Jokin
+- **Teachers:** Koun Ejō
+- **Students:** Keizan Jōkin
 
 Tettsu Gikai was the third abbot of Eiheiji and a pivotal figure in the early Soto school. His tenure was marked by controversy—he introduced ritual elements and institutional changes that some of Dogen's other students viewed as departures from the founder's austere vision. This conflict eventually led to Gikai's departure from Eiheiji and the establishment of a separate lineage stream.
 
@@ -1052,12 +1052,12 @@ Huyền Quang (玄光, 1254–1334) was the third and last patriarch of the medi
 
 Trần Nhân Tông (陳仁宗, 1258–1308) was the third emperor of the Trần dynasty, personally led Đại Việt to victory against the second and third Mongol invasions of Vietnam (1285 and 1287–1288), and then — at the height of his political power — abdicated the throne to become a monk. Retiring to Yên Tử Mountain, he synthesized the earlier Vinītaruci, Vô Ngôn Thông, and Thảo Đường streams into a new school he named Trúc Lâm (竹林, Bamboo Grove) in 1299. The school's emphasis on ‘knowing the mind, seeing the nature’ (tri tâm kiến tánh), its Sino-Vietnamese literary culture, and its accommodation of Confucian ethics made it the most distinctly Vietnamese articulation of Thiền in the medieval period. Trần Nhân Tông is the only Zen school founder known to have been a reigning emperor.
 
-### Keizan Jokin
+### Keizan Jōkin
 
-- **Also known as:** Keizan Jōkin, Keizan, keizan jokin, keizan
+- **Also known as:** Keizan Jokin, Keizan, keizan jokin, keizan
 - **Dates:** 1264 – 1325
 - **School:** Sōtō
-- **Teachers:** Tettsu Gikai
+- **Teachers:** Tettsū Gikai
 - **Students:** Keido Chisan, Meiho Sotetsu, Gasan Joseki
 
 Keizan Jokin, the fourth patriarch of Japanese Soto Zen, is sometimes called "the Great Popularizer" to complement Dogen's role as the school's philosophical founder. He lived from around 1264 to 1325 and was instrumental in making Soto practice accessible to a broad population, including laypeople and those outside the educated elite. He founded Sojiji Temple, which became one of the two head temples of Soto Zen in Japan, the other being Dogen's Eiheiji.
@@ -1091,7 +1091,7 @@ Shiwu's poems capture the simplicity and contentment of a practitioner who has f
 - **Also known as:** Gasan Jōseki
 - **Dates:** 1275 – 1366
 - **School:** Sōtō
-- **Teachers:** Keizan Jokin
+- **Teachers:** Keizan Jōkin
 - **Students:** Taigen Soshin
 
 Gasan Joseki was a student of Keizan Jokin and one of the most important figures in the expansion of the Soto school throughout Japan. He trained a large number of students who established Soto temples across the country, creating the institutional network that would make Soto the most widely practiced form of Zen in Japan. His organizational skill complemented Keizan's spiritual vision.
@@ -1103,7 +1103,7 @@ Gasan's contribution was primarily institutional—he created the systems and tr
 - **Also known as:** Meihō Sotetsu
 - **Dates:** 1277 – 1350
 - **School:** Sōtō
-- **Teachers:** Keizan Jokin
+- **Teachers:** Keizan Jōkin
 - **Students:** Shugan Dochin
 
 Meiho Sotetsu was the fourth-generation Soto patriarch who played an important role in consolidating the school's institutional structure. He served as abbot of Daijoji Temple and trained students who would carry the Soto tradition forward during a period of growth and geographical expansion across Japan.
@@ -3085,7 +3085,7 @@ Kaifu's emphasis on the role of doubt in the awakening process reflects a develo
 - **Also known as:** Keido Chisan Koho Zenji, Koho Keido Chisan
 - **Dates:** Dates uncertain
 - **School:** Sōtō
-- **Teachers:** Keizan Jokin
+- **Teachers:** Keizan Jōkin
 - **Students:** Jiyu-Kennett
 
 Keido Chisan, also styled Keido Chisan Koho Zenji, was a Japanese Soto Zen teacher associated with Sojiji and remembered in this corpus primarily as the teacher who transmitted the Soto lineage to Jiyu-Kennett. In the Order of Buddhist Contemplatives' founding lineage, he appears as the immediate Japanese transmitter before the line is recited back through Keizan, Dogen, Bodhidharma, and Shakyamuni Buddha.
@@ -4366,7 +4366,7 @@ Tetsuzen's teaching continued the Soto emphasis on zazen as the foundation and f
 - **Dates:** Dates uncertain
 - **School:** Caodong
 - **Teachers:** Xuedou Zhijian
-- **Students:** Dogen
+- **Students:** Dōgen
 
 Tiantong Rujing was the Chinese master who transmitted the Caodong teaching to Dogen, and thus to all of Japanese Soto Zen. He served as abbot of Tiantong Monastery and was known for his fierce insistence on intensive zazen practice above all other forms of Buddhist cultivation. His famous instruction to Dogen—"Drop off body and mind!"—precipitated Dogen's decisive awakening experience.
 
@@ -5471,7 +5471,7 @@ Mumon’s comment: Isan was brave enough, but he could not escape Hyakujo's tric
 
 ### Bodhidharma Pacifies The Mind
 
-- **Attribution:** Puti Damo
+- **Attribution:** Bodhidharma
 - **Type:** koan
 
 Bodhidharma sits facing the wall. His future successor stands in the snow and presents his severed arm to Bodhidharma. He cries: "My mind is not pacified. Master, pacify my mind."
@@ -5579,7 +5579,7 @@ This pupil went to Ummon and asked the same question. Ummon, who happened to hav
 
 ### How to Sit (Fukanzazengi, opening)
 
-- **Attribution:** Dogen
+- **Attribution:** Dōgen
 - **Type:** practice-instruction
 
 The way is originally perfect and all-pervading. How could it depend on practice and verification? The dharma vehicle is free and untrammeled. What need is there for our concentrated effort? Indeed, the whole body is far beyond the world's dust. Who could believe in a means to brush it clean? It is never apart from one, right where one is. What is the use of going off here and there to practice?
@@ -5588,7 +5588,7 @@ For sanzen, a quiet room is suitable. Eat and drink moderately. Cast aside all i
 
 ### Points to Watch in Zazen
 
-- **Attribution:** Keizan Jokin
+- **Attribution:** Keizan Jōkin
 - **Type:** practice-instruction
 
 Keizan's Zazen Yōjinki ('Points to Watch in Zazen') gives the Sōtō practitioner a manual for the body of practice, where Dōgen's Fukanzazengi gives the spirit. Choose a clean, quiet place. Sit on a thick cushion, legs in lotus or half-lotus, spine erect, ears aligned with shoulders, nose with navel. The tongue rests against the upper palate; the eyes are open but soft, gaze cast slightly downward. Breathe through the nose, neither holding nor pushing.
@@ -6176,21 +6176,21 @@ The Great Way is not difficult for those who have no preferences.
 
 ### Not Aware of Enlightenment
 
-- **Attribution:** Dogen
+- **Attribution:** Dōgen
 - **Type:** proverb
 
 Do not think you will necessarily be aware of your own enlightenment.
 
 ### Continuous Practice
 
-- **Attribution:** Dogen
+- **Attribution:** Dōgen
 - **Type:** proverb
 
 Continuous practice, day after day, is the most appropriate way of expressing gratitude.
 
 ### Flowers Fall, Weeds Spring
 
-- **Attribution:** Dogen
+- **Attribution:** Dōgen
 - **Type:** proverb
 
 Flowers fall amid our longing; weeds spring up amid our aversion. Both belong to the same garden, and the garden does not consult us about its arrangement.
@@ -6460,14 +6460,14 @@ Xiangyan had been an extremely learned monk, but when Guishan challenged him to 
 
 ### Vast Emptiness, Nothing Holy
 
-- **Attribution:** Puti Damo
+- **Attribution:** Bodhidharma
 - **Type:** dialogue
 
 Emperor Wu of Liang asked Bodhidharma, "I have built temples and ordained monks. What merit have I gained?" Bodhidharma said, "No merit at all." The emperor asked, "What is the first principle of the holy teaching?" Bodhidharma said, "Vast emptiness, nothing holy." The emperor asked, "Who is this standing before me?" Bodhidharma said, "I don't know." The emperor did not understand. Bodhidharma crossed the Yangtze River and went on to the kingdom of Wei.
 
 ### A Special Transmission Outside the Scriptures
 
-- **Attribution:** Puti Damo
+- **Attribution:** Bodhidharma
 - **Type:** saying
 
 A special transmission outside the scriptures;
@@ -6645,21 +6645,21 @@ from that moment, no more doubts.
 
 ### Firewood and Ash (Genjokoan)
 
-- **Attribution:** Dogen
+- **Attribution:** Dōgen
 - **Type:** sermon
 
 Firewood becomes ash, and it does not become firewood again. Yet do not suppose that the ash is after and the firewood before. You should understand that firewood abides in the dharma position of firewood, which fully includes before and after, and is independent of before and after. Ash abides in the dharma position of ash, which fully includes before and after. Just as firewood does not become firewood again after it is ash, you do not return to birth after death.
 
 ### Enlightenment Is Like the Moon Reflected in Water (Genjokoan)
 
-- **Attribution:** Dogen
+- **Attribution:** Dōgen
 - **Type:** sermon
 
 Enlightenment is like the moon reflected in water. The moon does not get wet, nor is the water broken. Although its light is wide and great, the moon is reflected even in a puddle an inch wide. The whole moon and the entire sky are reflected in dewdrops on the grass, or even in one drop of water. Enlightenment does not divide you, just as the moon does not break the water. You cannot hinder enlightenment, just as a drop of water does not hinder the moon in the sky.
 
 ### To Study the Self
 
-- **Attribution:** Dogen
+- **Attribution:** Dōgen
 - **Type:** saying
 
 To study the Buddha Way is to study the self. To study the self is to forget the self. To forget the self is to be enlightened by the ten thousand things. To be enlightened by the ten thousand things is to free one's body and mind, and those of others. No trace of enlightenment remains, and this traceless enlightenment is continued forever.
@@ -6739,7 +6739,7 @@ In the beginner's mind there are many possibilities, but in the expert's mind th
 
 ### Chop Wood, Carry Water
 
-- **Attribution:** Puti Damo
+- **Attribution:** Bodhidharma
 - **Type:** proverb
 
 Before enlightenment, chop wood, carry water. After enlightenment, chop wood, carry water.
@@ -7059,35 +7059,35 @@ Each precept is a koan, a challenge to our understanding. 'Do not kill'—what d
 
 ### The Transmission to Mahakashyapa
 
-- **Attribution:** Keizan Jokin
+- **Attribution:** Keizan Jōkin
 - **Type:** dialogue
 
 Once on Vulture Peak, the World-Honored One held up a flower before the assembly. All were silent. Only Mahakashyapa broke into a broad smile. The World-Honored One said, 'I possess the treasury of the true Dharma eye, the marvelous mind of nirvana, the true form of the formless, the subtle Dharma gate. It does not rest on words or letters but is a special transmission outside the scriptures. I entrust it to Mahakashyapa.' Thus the lamp of the Dharma was transmitted for the first time.
 
 ### Zazen Yojinki: Notes on What to Be Aware of in Zazen
 
-- **Attribution:** Keizan Jokin
+- **Attribution:** Keizan Jōkin
 - **Type:** sermon
 
 Zazen is not something you learn to do. It is simply sitting in the awareness that is already here. Do not try to become a buddha—you already are one. Do not try to get rid of delusions—they are already empty. When sitting, let body and mind fall away naturally. Do not follow thoughts, and do not push them away. Just sit, upright and alert, like a great mountain that cannot be moved. Breathe naturally. Whether thoughts come or go, whether the mind is clear or cloudy, just continue sitting. This sitting itself is the gateless gate of liberation.
 
 ### Awakening Is Accessible to All Beings
 
-- **Attribution:** Keizan Jokin
+- **Attribution:** Keizan Jōkin
 - **Type:** saying
 
 This Way is not the possession of the learned or the gifted. It does not belong to monks alone, nor to those of high birth. Any person, whether man or woman, whether wise or simple, can realize this great matter. The Buddha-nature makes no distinctions. A farmer in the field, a woman drawing water—each one possesses the same luminous nature as the Buddha himself. This is why we must open the gate of practice wide, so that all beings may enter.
 
 ### Dogen's Teaching on Impermanence (Recorded by Ejo)
 
-- **Attribution:** Koun Ejo
+- **Attribution:** Koun Ejō
 - **Type:** sermon
 
 The most important thing in studying the Way is to be aware of impermanence. This is not merely an idea to be understood with the intellect. It must be felt in the very marrow of your bones. Life and death is the great matter. Time does not wait. Do not waste a single moment. Once you have genuinely felt the swiftness of impermanence, you will not spend your time on trivial things. You will not care about fame or profit. You will practice as if your hair were on fire. This urgency is itself the beginning of the Way.
 
 ### On Wholehearted Devotion to Practice
 
-- **Attribution:** Koun Ejo
+- **Attribution:** Koun Ejō
 - **Type:** saying
 
 In following the Way of the ancestors, the most essential thing is single-minded devotion to practice. Do not practice half-heartedly. Do not keep one foot in the world and one foot in the monastery. When you sit, sit with your entire being. When you serve your teacher, serve with your entire being. If you hold anything back, your practice becomes lukewarm and the Way remains distant. Cast away all other concerns and devote yourself wholly—this is the meaning of leaving home.
@@ -7572,14 +7572,14 @@ Huangbo said, "There is nothing to practice.
 
 ### Being-Time (Uji)
 
-- **Attribution:** Dogen
+- **Attribution:** Dōgen
 - **Type:** sermon
 
 An ancient Buddha said, "For the time being, I stand on the highest mountain peak. For the time being, I move along the deepest ocean floor." 'For the time being' here means time itself is being, and all being is time. Each moment is all being, is the entire world. Reflect now whether any being or any world is left out of the present moment. Being-time has the quality of flowing. Today flows into tomorrow, today flows into yesterday. This flowing does not mean that time moves from today to tomorrow. Today is the time of today; yesterday is the time of yesterday.
 
 ### Spring Does Not Become Summer
 
-- **Attribution:** Dogen
+- **Attribution:** Dōgen
 - **Type:** saying
 
 Firewood becomes ash, and does not become firewood again. Yet do not think that the ash is after and the firewood is before. Firewood abides in its dharma-position as firewood, with its own before and after. Spring does not become summer. We do not say that spring becomes summer. There is spring, and there is summer. Each abides in its own dharma-position completely. This is being-time. Life does not become death. Death does not become life. Life is its own complete moment; death is its own complete moment.
@@ -8235,7 +8235,7 @@ A single phrase can block off ten thousand gates. A single glance can open the w
 
 ### Practice Is Realization
 
-- **Attribution:** Dogen
+- **Attribution:** Dōgen
 - **Type:** proverb
 
 To study the Buddha Way is to study the self. To study the self is to forget the self. To forget the self is to be verified by the ten thousand dharmas.
@@ -8508,28 +8508,28 @@ A wealthy merchant came to me wanting to leave the world. I told him: stay in th
 
 ### No Merit
 
-- **Attribution:** Puti Damo
+- **Attribution:** Bodhidharma
 - **Type:** proverb
 
 Emperor Wu asked: how much merit have I gained from building temples? I said: no merit. Real virtue does not count itself; the moment you keep score, you have walked out of it.
 
 ### Vast Emptiness, Nothing Holy
 
-- **Attribution:** Puti Damo
+- **Attribution:** Bodhidharma
 - **Type:** proverb
 
 He asked: what is the highest meaning of the holy truth? I answered: vast emptiness, nothing holy. He could not understand. I crossed the river and went north.
 
 ### Bring Me Your Mind
 
-- **Attribution:** Puti Damo
+- **Attribution:** Bodhidharma
 - **Type:** proverb
 
 Huike said: my mind is not at peace. I said: bring me your mind, and I will pacify it. He searched and could not find it. I said: there — I have pacified it for you.
 
 ### Skin, Flesh, Bone, Marrow
 
-- **Attribution:** Puti Damo
+- **Attribution:** Bodhidharma
 - **Type:** proverb
 
 I told my four students each to speak the Way. Daofu received my skin. Zongchi received my flesh. Daoyu received my bone. Huike received my marrow. The four divisions were one body; the dharma is whole even when described in pieces.
@@ -9439,49 +9439,49 @@ Mind is the faculty, things are the object — like two knife blades striking sp
 
 ### The Time-Being
 
-- **Attribution:** Dogen
+- **Attribution:** Dōgen
 - **Type:** proverb
 
 Time is the thing, and the thing is time. The pine is time; the bamboo is time. To say I am wasting time is to admit you are waiting for time to be elsewhere; it never is.
 
 ### Firewood Does Not Become Ash
 
-- **Attribution:** Dogen
+- **Attribution:** Dōgen
 - **Type:** proverb
 
 Firewood does not become ash. Firewood is firewood completely; ash is ash completely. To say one becomes the other is to step over the moment in which each one stands alone.
 
 ### Fish in Water, Bird in Sky
 
-- **Attribution:** Dogen
+- **Attribution:** Dōgen
 - **Type:** proverb
 
 When the fish swims, the water has no edges for the fish; when the bird flies, the sky has no edges for the bird. Each fully fills its element. So we, when we sit, fill the sitting.
 
 ### Just Sit (Shikantaza)
 
-- **Attribution:** Dogen
+- **Attribution:** Dōgen
 - **Type:** proverb
 
 Sit without a single goal. If a goal sneaks in, sit with the goal as another visitor. The sitting that has no purpose is the sitting that completes its purpose.
 
 ### Mountains Walking
 
-- **Attribution:** Dogen
+- **Attribution:** Dōgen
 - **Type:** proverb
 
 Mountains are walking. Those who do not see this say: how could a mountain walk? Those who see it say: how could a mountain not walk?
 
 ### Instructions to the Cook
 
-- **Attribution:** Dogen
+- **Attribution:** Dōgen
 - **Type:** proverb
 
 When you wash the rice, do not separate the work from yourself. Do not separate yourself from the work. Cook with great mind, parental mind, joyful mind. The meal is the dharma; you are the menu.
 
 ### Body and Mind Falling Away
 
-- **Attribution:** Dogen
+- **Attribution:** Dōgen
 - **Type:** proverb
 
 Body and mind fall away; fallen-away body and mind. The student who hears this and sets out to make body and mind fall away has reattached them with both hands.
@@ -9628,35 +9628,35 @@ Bow to a cherry blossom and the blossom does not return the bow; yet some part o
 
 ### Broad Seat
 
-- **Attribution:** Keizan Jokin
+- **Attribution:** Keizan Jōkin
 - **Type:** proverb
 
 Spread the seat of the practice broadly. Do not gather the dharma into a narrow line of monks; let nuns sit, let the children sit, let the donor sit beside the abbot. The seat that excludes is too small for the buddhas.
 
 ### Record of the Transmission of Light
 
-- **Attribution:** Keizan Jokin
+- **Attribution:** Keizan Jōkin
 - **Type:** proverb
 
 I write this Record because the lamp must not be left in only one hand. Each face in the lineage held the lamp differently; only by writing them down do we see the family resemblance.
 
 ### Women Too
 
-- **Attribution:** Keizan Jokin
+- **Attribution:** Keizan Jōkin
 - **Type:** proverb
 
 If the dharma stops at the gate of the nuns' hall, it is no longer the dharma. I built temples open to women practitioners. Some called me lax. The dharma called me back to my work.
 
 ### Three Poisons in One Cup
 
-- **Attribution:** Keizan Jokin
+- **Attribution:** Keizan Jōkin
 - **Type:** proverb
 
 Greed, anger, ignorance — three poisons in one cup. To drink them is hell; to refuse them is hell; to look at the cup until the cup itself becomes empty is the practice.
 
 ### Ground of Being
 
-- **Attribution:** Keizan Jokin
+- **Attribution:** Keizan Jōkin
 - **Type:** proverb
 
 The ground of being is not below your feet; it is what your feet are pressed into and out of, breath by breath. To practice is to learn how to step on it without forgetting.
@@ -10559,14 +10559,14 @@ I have practiced as a pediatrician and as a Zen teacher. The two practices wash 
 
 ### Painted Rice Cake
 
-- **Attribution:** Dogen
+- **Attribution:** Dōgen
 - **Type:** proverb
 
 Without painted rice cakes, there is no remedy for hunger. The image of awakening is not opposed to awakening; the painting and the eating belong to one kitchen.
 
 ### Mountains and Rivers Sutra
 
-- **Attribution:** Dogen
+- **Attribution:** Dōgen
 - **Type:** proverb
 
 The blue mountains, the running rivers — these are not the setting for the sutra. They are the sutra. Those who can read in this way do not need a printed page.
@@ -10580,7 +10580,7 @@ Sit in the burning house and do not run. The flames will become the wind that fa
 
 ### Women and Children Sit Too
 
-- **Attribution:** Keizan Jokin
+- **Attribution:** Keizan Jōkin
 - **Type:** proverb
 
 Whenever I built a hall, I made sure the women and children could sit there. The dharma had no robe of its own; it accepted any size.
@@ -10664,35 +10664,35 @@ Do not burn incense for show, do not bow for show, do not chant for show. The dh
 
 ### Shōbōgenzō (Treasury of the True Dharma Eye)
 
-- **Attribution:** Dogen
+- **Attribution:** Dōgen
 - **Type:** work
 
 Dōgen's central work: a collection of 95 fascicles composed between 1231 and 1253, written in vernacular Japanese rather than classical Chinese. Each fascicle is a stand-alone meditation on practice, perception, language, or doctrine — Genjōkōan, Bendōwa, Uji, Sansuikyō, Busshō, and others have circulated independently for centuries. The text is the foundational scripture of Sōtō Zen and one of the most commented-on works of medieval Japanese Buddhism.
 
 ### Fukanzazengi (Universal Recommendation for Zazen)
 
-- **Attribution:** Dogen
+- **Attribution:** Dōgen
 - **Type:** work
 
 Dōgen's earliest extant work and his foundational practice manual, drafted in 1227 shortly after his return from China and revised in 1233. In a few hundred characters it lays out the rationale, posture, breathing, and inner orientation of zazen — the seated meditation he treats not as a means to enlightenment but as its very expression. Read in Sōtō zendos worldwide as the canonical "how-to" of shikantaza.
 
 ### Eihei Kōroku (Dōgen's Extensive Record)
 
-- **Attribution:** Dogen
+- **Attribution:** Dōgen
 - **Type:** work
 
 A ten-volume record of Dōgen's later teaching at Eihei-ji, compiled by his successors. It collects formal jōdō (Dharma hall discourses), shōsan (informal talks), kōan commentaries, and Chinese-style verse — the documentary counterpart to Shōbōgenzō. The Leighton & Okumura translation makes the full Chinese-language record available in English for the first time.
 
 ### Tenzo Kyōkun (Instructions for the Cook)
 
-- **Attribution:** Dogen
+- **Attribution:** Dōgen
 - **Type:** work
 
 Dōgen's 1237 essay on the vocation of the monastery cook, drawing on encounters with two old tenzos he met in China. Although the surface subject is kitchen work, the text develops Dōgen's account of how attentiveness in everyday tasks is itself the unfolding of practice — and is widely read today outside the monastic context.
 
 ### Gakudō Yōjinshū (Points to Watch in Buddhist Practice)
 
-- **Attribution:** Dogen
+- **Attribution:** Dōgen
 - **Type:** work
 
 Ten short admonitions for practitioners, composed around 1234. Each point — arousing the way-seeking mind, taking refuge, reading sutras, sitting zazen — is presented as an instruction to be turned over and embodied rather than merely understood. One of the most accessible entry points into Dōgen for new practitioners.
@@ -10720,14 +10720,14 @@ Hakuin's most demanding kōan-commentary collection: dense, allusive verses and 
 
 ### Denkōroku (The Record of the Transmission of the Light)
 
-- **Attribution:** Keizan Jokin
+- **Attribution:** Keizan Jōkin
 - **Type:** work
 
 Keizan's record of the lineage from Śākyamuni through fifty-two generations of Indian, Chinese, and Japanese ancestors down to Ejō, his teacher. Each chapter pairs an awakening dialogue with Keizan's commentary and verse. Together with the Shōbōgenzō it forms one of the two foundational texts of Sōtō Zen.
 
 ### Zazen Yōjinki (Notes on What to Be Aware of in Zazen)
 
-- **Attribution:** Keizan Jokin
+- **Attribution:** Keizan Jōkin
 - **Type:** work
 
 Keizan's practical complement to Dōgen's Fukanzazengi: a detailed handbook on posture, attention, the management of drowsiness and distraction, and the integration of zazen into daily life. Often the second text a Sōtō student is given after the Fukanzazengi.
