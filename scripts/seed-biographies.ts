@@ -1662,15 +1662,37 @@ Sojun's contribution to the Soto tradition lies in the faithful maintenance of t
   },
   {
     slug: "gudo-wafu-nishijima",
-    content: `Gudo Wafu Nishijima was a Soto Zen master who made significant contributions to the understanding of Dogen's thought in the modern world. He translated the entire Shobogenzo into English (with his student Chodo Cross), making Dogen's masterwork accessible to a global audience. He taught that Dogen's philosophy could be understood through the lens of the autonomic nervous system, offering a naturalistic interpretation of zazen.
+    content: `Gudō Wafu Nishijima (西嶋愚道和夫, 29 November 1919 – 28 January 2014) was a Japanese Sōtō Zen priest, translator, and one of the most consequential modern Japanese teachers of Dōgen for an English-speaking audience[1]. As a young man in the early 1940s he became a student of Kōdō Sawaki — placing him in the same lay-Zen lineage that would also produce Taisen Deshimaru — and after the Second World War he took a law degree from Tokyo University and entered a long career in finance, working at the Japanese Ministry of Finance and later in the securities industry[1]. He did not ordain as a Buddhist priest until 1973, when he was already in his mid-fifties; his preceptor was Niwa Rempō Zenji, the future head abbot of Eihei-ji and a former leader of the Sōtō school. **Four years later, in 1977, Niwa conferred dharma transmission (shihō) on Nishijima**, formally accepting him as one of his successors — the same authority who would in 1984 transmit the dharma to three of Deshimaru's disciples[1]. Nishijima continued his professional career until 1979.
 
-Nishijima's approach was distinctive for its integration of Dogen's teaching with modern scientific and philosophical thought. He trained students from around the world, including Brad Warner, who brought Nishijima's practical, no-nonsense approach to Zen to a wide popular audience. His translations and commentaries represent one of the most important modern contributions to Dogen scholarship.`,
+From the 1960s he gave regular public lectures on Buddhism and zazen, and from the 1980s he began lecturing in English and accepting foreign students[1]. His most lasting work is textual: with his English dharma heir Mike Chōdō Cross he produced one of only three complete English translations of Dōgen's ninety-five-fascicle Kana Shōbōgenzō, and he separately translated Dōgen's Shinji Shōbōgenzō (the Mana / "true-character" Shōbōgenzō, a Chinese-language collection of kōans). He also published, with Brad Warner, an English edition of Nāgārjuna's Mūlamadhyamakakārikā[1]. **In 2007, Nishijima and a group of his students organised as Dōgen Sangha International**, a non-monastic global network of Nishijima's lay and ordained successors[1].
+
+His distinctive interpretive scheme, "Three Philosophies and One Reality" (三哲学と一実在), reads Dōgen's texts as a four-perspective structure mapped onto the Four Noble Truths: an idealist/subjective view (dukkha), a materialist/objective view (samudaya), a realist synthesis (nirodha), and the lived reality of the path (magga)[1]. Coupled with his lay-friendly emphasis on the autonomic nervous system as a frame for understanding the effects of zazen, this gave him an unusually wide reach among scientifically- and philosophically-minded Western readers. Among his recognised dharma heirs are Mike Chōdō Cross (UK), Brad Warner (US), Jundo Cohen (Treeleaf Zendo), Jeremy Pearson, Yodō Brian Wickham, and others — a lineage carried forward today as much through Internet sangha and English-language publishing as through traditional residential temples.`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_wikipedia",
+        pageOrSection: "en.wikipedia.org — Gudō Wafu Nishijima",
+        excerpt:
+          "Born 29 November 1919, died 28 January 2014. Student of Kōdō Sawaki in the early 1940s. Law degree from Tokyo University; career in finance. Ordained by Rempō Niwa in 1973; received shihō from Niwa in 1977. Compiled, with Mike Chodo Cross, one of three complete English translations of Dōgen's ninety-five-fascicle Kana Shōbōgenzō; also translated Dōgen's Shinji Shōbōgenzō and Nāgārjuna's Mūlamadhyamakakārikā. In 2007 organised Dogen Sangha International with his students. Distinctive theory: 'three philosophies and one reality.'",
+      },
+    ],
   },
   {
     slug: "brad-warner",
-    content: `Brad Warner is an American Soto Zen teacher, writer, and musician known for presenting Zen in a direct, colloquial style to a broad contemporary audience. He ordained under Gudo Wafu Nishijima and became one of Nishijima's best-known Western students, helping to popularize his teacher's emphasis on straightforward zazen practice and careful engagement with Dogen's thought.
+    content: `Brad Warner (born 5 March 1964 in Hamilton, Ohio) is an American Sōtō Zen priest, author, blogger, documentarian, and punk-rock bass guitarist — the most widely-read English-language teacher in the lineage of Gudō Wafu Nishijima[1]. He grew up mainly near Akron, Ohio (with a stint in Nairobi as a child while his father worked abroad), attended Kent State University, and as a teenager joined the hardcore punk band Zero Defex on bass after a friend introduced him to the Akron scene[1]. He later played in the psychedelic band Dimentia 13, which released several albums on the New York label Midnight Records.
 
-Warner's books and talks are marked by a refusal to romanticize Zen. He often frames practice in practical, demystifying terms, stressing that awakening is worked out in posture, conduct, and ordinary life rather than in spiritual theatrics. Whatever one makes of his deliberately abrasive style, he has played a significant role in carrying Nishijima's line into an English-speaking public sphere far beyond formal Zen centers.`,
+Warner began Zen practice in Ohio under Tim McCarthy and later studied with the Jōdo Shinshū-influenced teacher Gyōmay Kubose[1]. After the financial failure of his Dimentia 13 albums he took a job in Japan with the JET Programme, and in 1994 joined **Tsuburaya Productions** — the company behind Ultraman — where he played the roles of various foreigners in their TV programs and worked in international licensing[1]. While in Japan he met Gudō Wafu Nishijima, became his student, and **in 2000 was ordained as a Sōtō priest and named one of Nishijima's dharma heirs**[1]. In 2007, Nishijima named Warner the leader of Dogen Sangha International. Warner dissolved that organisation in April 2012 and **moved to California, where he started Dogen Sangha Los Angeles** (later associated with the Angel City Zen Center)[1]. In 2013, the documentary *Brad Warner's Hardcore Zen*, directed by Pirooz Kalayeh, premiered at the Buddhist Film Festival of Europe in Amsterdam[1].
+
+Warner's distinctive contribution is on the page and on the public Internet. **His non-fiction books** — *Hardcore Zen: Punk Rock, Monster Movies & the Truth About Reality* (Wisdom, 2003), *Sit Down and Shut Up* (New World Library, 2007), *Zen Wrapped in Karma Dipped in Chocolate* (2009), *Sex, Sin, and Zen* (2010), *Fundamental Wisdom of the Middle Way: Nagarjuna's Mūlamadhyamakakārikā* (with Nishijima, Monkfish, 2011), *There Is No God and He Is Always With You* (2013), *Don't Be a Jerk* (2016) and its companion *It Came from Beyond Zen!* (2017) — both Shōbōgenzō commentaries, *Letters to a Dead Friend about Zen* (2019), and *The Other Side of Nothing: The Zen Ethics of Time, Space, and Being* (2022) — span Wisdom Publications, New World Library, and Monkfish, and have introduced Nishijima's plain-spoken reading of Dōgen to a vastly wider readership than his teacher reached in life[1]. His Hardcorezen.info blog and YouTube channel have been continuously active since the early 2000s, and his deliberately abrasive, demystifying style has made him one of the visible faces of contemporary American Zen.`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_wikipedia",
+        pageOrSection: "en.wikipedia.org — Brad Warner",
+        excerpt:
+          "Born 5 March 1964 in Hamilton, Ohio. Bass guitarist for Zero Defex and Dimentia 13. Moved to Japan via JET, then Tsuburaya Productions (Ultraman) in 1994. Trained under Tim McCarthy, then Gyōmay Kubose, then Gudō Wafu Nishijima — ordained priest and named dharma heir in 2000. Named leader of Dogen Sangha International in 2007; dissolved DSI April 2012, moved to California, started Dogen Sangha Los Angeles. 2013 documentary Brad Warner's Hardcore Zen. Books include Hardcore Zen (2003), Sit Down and Shut Up (2007), Zen Wrapped in Karma Dipped in Chocolate (2009), Sex Sin and Zen (2010), Fundamental Wisdom of the Middle Way (2011 with Nishijima), There Is No God and He Is Always With You (2013), Don't Be a Jerk (2016), It Came from Beyond Zen! (2017), Letters to a Dead Friend about Zen (2019), The Other Side of Nothing (2022).",
+      },
+    ],
   },
   {
     slug: "iyoku-choyu",
@@ -1722,9 +1744,20 @@ Kobun was known for his artistic sensibility and his willingness to teach in inf
   },
   {
     slug: "mike-chodo-cross",
-    content: `Mike Chodo Cross is a Soto Zen teacher and translator associated with the modern transmission of Gudo Wafu Nishijima's teaching in the English-speaking world. As Nishijima's student and close collaborator, he worked extensively on the translation and publication of Dogen's writings, especially the multi-volume English presentation of the Shobogenzo.
+    content: `Mike Chōdō Cross is a British Sōtō Zen priest, translator, and Alexander Technique teacher — Gudō Wafu Nishijima's principal English-language dharma heir and the man who, more than anyone else in the Nishijima line, made Dōgen's writings readable in modern English[1]. As Nishijima's long-running student and close collaborator he produced, jointly with his teacher, **a complete English translation of Dōgen's ninety-five-fascicle Kana Shōbōgenzō** — published in four volumes by Windbell Publications and the Numata Center for Buddhist Translation and Research, and recognised in the en.wikipedia article on Nishijima as one of only three complete English Shōbōgenzō translations in existence[1].
 
-Cross's contribution has been less public-facing than that of some contemporary teachers, but it has been substantial. By helping carry difficult Japanese Zen texts into readable English, he supported one of the most consequential modern efforts to make Dogen's work available outside Japan. His place in Nishijima's lineage therefore reflects both formal training and the practical labor of textual transmission.`,
+Cross's textual approach is shaped by a distinctive parallel career. As a teacher of the Alexander Technique he carries an unusual sensitivity to the body, posture, and the somatic dimension of Zen practice; this informs both his rendering of Dōgen's notoriously slippery prose and his independent commentary work — including his book *Sitting–Dharma–Just Sit* and the long-running *Treasury of the Eye of True Teaching* commentary blog, where he has, sometimes in respectful disagreement with his teacher, continued to interpret the Shōbōgenzō chapter by chapter.
+
+His public profile is quieter than Brad Warner's, but his lineage role is at least as load-bearing: by the simple fact of having translated the entire ninety-five fascicles into English, he has shaped how an entire generation of Western readers — including most of the practitioners who first encountered Dōgen through the Nishijima-Cross edition — understand what Dōgen actually wrote.`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_wikipedia",
+        pageOrSection: "en.wikipedia.org — Gudō Wafu Nishijima § Translations",
+        excerpt:
+          "Working with student and Dharma heir Mike Chodo Cross, Nishijima compiled one of three complete English versions of Dōgen's ninety-five-fascicle Kana Shōbōgenzō.",
+      },
+    ],
   },
   {
     slug: "kosen-baido",
