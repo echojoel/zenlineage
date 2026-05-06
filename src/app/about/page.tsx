@@ -195,11 +195,11 @@ export default function AboutPage() {
                 Zen
               </Link>{" "}
               split into the kōan-driven{" "}
-              <Link className="detail-inline-link" href="/schools/linji">
+              <Link className="detail-inline-link" href="/schools/rinzai">
                 Rinzai
               </Link>{" "}
               and the silent-illumination{" "}
-              <Link className="detail-inline-link" href="/schools/caodong">
+              <Link className="detail-inline-link" href="/schools/soto">
                 Sōtō
               </Link>
               , and is the form that travelled to the West first. Treating any one of these as
@@ -625,7 +625,11 @@ export default function AboutPage() {
           </div>
           <ul className="detail-link-list" style={{ marginTop: "0.75rem" }}>
             <li>
-              <Link href="/schools/linji">Linji (Rinzai)</Link>
+              <Link href="/schools/linji">Linji</Link> (
+              <Link className="detail-inline-link" href="/schools/rinzai">
+                Rinzai
+              </Link>
+              )
               <span className="detail-list-meta">
                 Founded by{" "}
                 <Link className="detail-inline-link" href="/masters/linji-yixuan">
@@ -636,7 +640,11 @@ export default function AboutPage() {
               </span>
             </li>
             <li>
-              <Link href="/schools/caodong">Caodong (Sōtō)</Link>
+              <Link href="/schools/caodong">Caodong</Link> (
+              <Link className="detail-inline-link" href="/schools/soto">
+                Sōtō
+              </Link>
+              )
               <span className="detail-list-meta">
                 Founded by{" "}
                 <Link className="detail-inline-link" href="/masters/dongshan-liangjie">

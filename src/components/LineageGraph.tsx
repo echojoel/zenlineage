@@ -75,6 +75,14 @@ function formatNodeDate(year: number | null, precision: string | null): string {
   return formatDateWithPrecision(year, precision, { unknown: "?" }) ?? "?";
 }
 
+// Compact label for the dual-range scrubber thumbs. Shows BCE for
+// negative years (the Buddha is around -480) and the bare CE year
+// otherwise.
+function formatYearLabel(year: number): string {
+  if (year < 0) return `${Math.abs(year)} BCE`;
+  return String(year);
+}
+
 // ---------------------------------------------------------------------------
 // Simple BFS-layering layout fallback
 // ---------------------------------------------------------------------------
@@ -197,7 +205,10 @@ interface PixiState {
   positions: Map<string, { x: number; y: number }>;
   highlighted: Set<string> | null;
   schoolFilter: string;
+  timeMin: number;
   timeMax: number;
+  dataMinYear: number;
+  dataMaxYear: number;
   orphanSet: Set<string>;
   viewMode: ViewMode;
   zoomScale: number;
@@ -249,7 +260,9 @@ export default function LineageGraph() {
   const [searchQuery, setSearchQuery] = useState("");
   const [selectedSchool, setSelectedSchool] = useState("all");
   const [timeMax, setTimeMax] = useState(2000);
+  const [timeMin, setTimeMin] = useState(-600);
   const [dataMaxYear, setDataMaxYear] = useState(2000);
+  const [dataMinYear, setDataMinYear] = useState(-600);
   const [schoolList, setSchoolList] = useState<GraphSchool[]>([]);
   const [status, setStatus] = useState<"loading" | "ready" | "error">("loading");
   const viewMode: ViewMode = "image";
@@ -286,7 +299,16 @@ export default function LineageGraph() {
       if (pixi.orphanSet.has(id)) continue;
       if (!schoolContextIds.has(id)) continue;
       const effectiveYear = node.deathYear ?? node.birthYear;
-      const yearOk = effectiveYear == null || effectiveYear <= pixi.timeMax;
+      // Hide nodes whose effective year falls outside the time window.
+      // Nodes with no recorded year are kept visible only when the
+      // window covers the full data range — otherwise they'd float as
+      // disconnected stragglers when the user narrows the bounds.
+      const filterIsActive =
+        pixi.timeMin > pixi.dataMinYear || pixi.timeMax < pixi.dataMaxYear;
+      const yearOk =
+        effectiveYear == null
+          ? !filterIsActive
+          : effectiveYear >= pixi.timeMin && effectiveYear <= pixi.timeMax;
       if (!yearOk) continue;
       visible.add(id);
     }
@@ -382,8 +404,11 @@ export default function LineageGraph() {
       // Time range from data
       const years = nodes.map((n) => n.deathYear ?? n.birthYear).filter((y): y is number => y != null);
       const maxYear = years.length > 0 ? Math.max(...years) : 2000;
+      const minYear = years.length > 0 ? Math.min(...years) : -600;
       setDataMaxYear(maxYear);
+      setDataMinYear(minYear);
       setTimeMax(maxYear);
+      setTimeMin(minYear);
 
       // Load Fuse.js
       const Fuse = (await import("fuse.js")).default;
@@ -733,7 +758,10 @@ export default function LineageGraph() {
         positions,
         highlighted: null,
         schoolFilter: "all",
+        timeMin: minYear,
         timeMax: maxYear,
+        dataMinYear: minYear,
+        dataMaxYear: maxYear,
         orphanSet,
         viewMode: initialMode,
         zoomScale: 1,
@@ -980,10 +1008,13 @@ export default function LineageGraph() {
 
   useEffect(() => {
     if (!pixiRef.current) return;
+    pixiRef.current.timeMin = timeMin;
     pixiRef.current.timeMax = timeMax;
+    pixiRef.current.dataMinYear = dataMinYear;
+    pixiRef.current.dataMaxYear = dataMaxYear;
     redraw();
     pixiRef.current.cullPortraits();
-  }, [timeMax, redraw]);
+  }, [timeMin, timeMax, dataMinYear, dataMaxYear, redraw]);
 
 
   useEffect(() => {
@@ -1069,21 +1100,49 @@ export default function LineageGraph() {
         </select>
       </div>
 
-      {/* Time scrubber */}
+      {/* Time scrubber — dual-thumb range so the user can clamp both
+          ends of the visible window (e.g. only Tang-era masters). The
+          two inputs are stacked; CSS gives them transparent tracks so
+          they read as one control. */}
       <div className="lineage-scrubber">
-        <span className="scrubber-label">Before</span>
-        <input
-          type="range"
-          id="lineage-time"
-          name="lineage-time"
-          aria-label="Filter by time period"
-          min={0}
-          max={dataMaxYear}
-          step={10}
-          value={timeMax}
-          onChange={(e) => setTimeMax(Number(e.target.value))}
-        />
-        <span className="scrubber-value">{timeMax === dataMaxYear ? "Now" : timeMax}</span>
+        <span className="scrubber-value scrubber-value-start">
+          {timeMin === dataMinYear ? "Earliest" : formatYearLabel(timeMin)}
+        </span>
+        <div className="scrubber-range">
+          <input
+            type="range"
+            id="lineage-time-min"
+            name="lineage-time-min"
+            aria-label="Filter — earliest year"
+            className="scrubber-input scrubber-input-min"
+            min={dataMinYear}
+            max={dataMaxYear}
+            step={10}
+            value={timeMin}
+            onChange={(e) => {
+              const next = Math.min(Number(e.target.value), timeMax - 10);
+              setTimeMin(next);
+            }}
+          />
+          <input
+            type="range"
+            id="lineage-time-max"
+            name="lineage-time-max"
+            aria-label="Filter — latest year"
+            className="scrubber-input scrubber-input-max"
+            min={dataMinYear}
+            max={dataMaxYear}
+            step={10}
+            value={timeMax}
+            onChange={(e) => {
+              const next = Math.max(Number(e.target.value), timeMin + 10);
+              setTimeMax(next);
+            }}
+          />
+        </div>
+        <span className="scrubber-value scrubber-value-end">
+          {timeMax === dataMaxYear ? "Now" : formatYearLabel(timeMax)}
+        </span>
       </div>
 
       {/* Canvas */}

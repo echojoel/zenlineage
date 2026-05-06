@@ -285,16 +285,85 @@ body {
   font-size: 0.7rem;
   color: var(--ink-light);
   letter-spacing: 0.05em;
-  min-width: 2.5rem;
+  min-width: 3.4rem;
 }
 
-.scrubber-value {
+.scrubber-value-start {
   text-align: right;
 }
 
-.lineage-scrubber input[type="range"] {
+.scrubber-value-end {
+  text-align: left;
+}
+
+/* Dual-thumb range — two stacked sliders share a track. The first
+ * input draws the track; the second is positioned on top with a
+ * transparent track so only its thumb shows. Both thumbs receive
+ * pointer events; the inputs themselves are pointer-transparent
+ * outside the thumbs so users can't grab the wrong handle. */
+.scrubber-range {
+  position: relative;
   width: 220px;
-  accent-color: var(--ink-light);
+  height: 1.4rem;
+  display: flex;
+  align-items: center;
+}
+
+.scrubber-input {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  margin: 0;
+  background: transparent;
+  pointer-events: none;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.scrubber-input::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  pointer-events: auto;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: var(--ink);
+  border: 2px solid var(--paper);
+  box-shadow: 0 1px 2px rgba(61, 53, 48, 0.25);
+  cursor: pointer;
+}
+
+.scrubber-input::-moz-range-thumb {
+  pointer-events: auto;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: var(--ink);
+  border: 2px solid var(--paper);
+  box-shadow: 0 1px 2px rgba(61, 53, 48, 0.25);
+  cursor: pointer;
+}
+
+.scrubber-input::-webkit-slider-runnable-track {
+  height: 2px;
+  background: var(--paper-warm);
+  border-radius: 1px;
+}
+
+.scrubber-input::-moz-range-track {
+  height: 2px;
+  background: var(--paper-warm);
+  border-radius: 1px;
+}
+
+/* Only the first input draws a visible track; the second's track is
+ * transparent so the two don't stack. */
+.scrubber-input-max::-webkit-slider-runnable-track {
+  background: transparent;
+}
+
+.scrubber-input-max::-moz-range-track {
+  background: transparent;
 }
 
 .lineage-loading {
