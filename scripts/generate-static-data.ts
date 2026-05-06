@@ -40,6 +40,36 @@ import type { SearchEntry } from "@/lib/search-types";
 
 const OUT_DIR = path.join(process.cwd(), "public", "data");
 
+const SIDEBAR_BIO_MAX_CHARS = 280;
+
+/**
+ * Compact a full biography into the teaser shown in the lineage-graph
+ * sidebar. Strips Wikipedia-style `[N]` footnote markers, takes the
+ * first paragraph, and trims to a sentence boundary at or under the
+ * character cap so the sidebar never has to render the full prose.
+ * Full bios remain on /masters/[slug].
+ */
+function biographyExcerpt(full: string | null | undefined): string | null {
+  if (!full) return null;
+  const firstParagraph = full.split(/\n\n+/)[0] ?? full;
+  const stripped = firstParagraph.replace(/\[\d+\]/g, "").replace(/\s+/g, " ").trim();
+  if (stripped.length <= SIDEBAR_BIO_MAX_CHARS) return stripped;
+  // Prefer cutting at a sentence boundary within the cap.
+  const window = stripped.slice(0, SIDEBAR_BIO_MAX_CHARS);
+  const lastSentence = Math.max(
+    window.lastIndexOf(". "),
+    window.lastIndexOf("? "),
+    window.lastIndexOf("! "),
+    window.lastIndexOf("; ")
+  );
+  if (lastSentence >= SIDEBAR_BIO_MAX_CHARS - 120) {
+    return window.slice(0, lastSentence + 1).trim() + " …";
+  }
+  // Fall back to a word boundary.
+  const lastSpace = window.lastIndexOf(" ");
+  return (lastSpace > 0 ? window.slice(0, lastSpace) : window).trim() + "…";
+}
+
 async function generateGraphData() {
   console.log("Generating graph.json...");
 
@@ -164,10 +194,14 @@ async function generateGraphData() {
   }
 
   const allCitationKeys = buildCitationKeySet([...biographyCitationRows, ...mediaCitationRows]);
+  // The lineage-graph sidebar only has room for a short teaser; the
+  // full biography lives on /masters/[slug]. Truncate to the first
+  // sentence (or ~280 chars) and strip footnote markers so we don't
+  // ship 6 KB of prose into every graph node.
   const bioMap = new Map(
     bioRows
       .filter((r) => isPublishedBiography(r.id, allCitationKeys))
-      .map((r) => [r.masterId, r.content])
+      .map((r) => [r.masterId, biographyExcerpt(r.content)])
   );
 
   const mediaByMasterId = new Map<string, typeof mediaAssetRows>();
