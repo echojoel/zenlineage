@@ -1523,8 +1523,8 @@ a.footnote-source-link:hover {
 
 .practice-filter-clear:hover,
 .practice-filter-clear:focus-visible {
-  background: var(--ink);
-  border-color: var(--ink);
+  background: var(--ink-light);
+  border-color: var(--ink-light);
   color: var(--paper);
   outline: none;
 }
@@ -1845,14 +1845,17 @@ a.footnote-source-link:hover {
 
 .glossary-filter-chip:hover,
 .glossary-filter-chip:focus-visible {
-  border-color: var(--ink);
+  /* Softer hover — full --ink reads as harsh black against the
+   * minimal palette. --ink-light is the warm-brown mid-tone the rest
+   * of the site uses for secondary text. */
+  border-color: var(--ink-light);
   color: var(--ink);
   outline: none;
 }
 
 .glossary-filter-chip--active {
-  background: var(--ink);
-  border-color: var(--ink);
+  background: var(--ink-light);
+  border-color: var(--ink-light);
   color: var(--paper);
 }
 
@@ -2333,9 +2336,9 @@ a.footnote-source-link:hover {
 }
 
 .proverbs-theme-pill.active {
-  background: var(--ink);
+  background: var(--ink-light);
   color: var(--paper);
-  border-color: var(--ink);
+  border-color: var(--ink-light);
 }
 
 .proverbs-list {
