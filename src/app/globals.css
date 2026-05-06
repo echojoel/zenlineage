@@ -2058,6 +2058,27 @@ a.footnote-source-link:hover {
   text-decoration-color: var(--ink);
 }
 
+/* Quiet correction-invite — same idea as the AccuracyFooter on master and
+   school pages: ask people to fix things rather than admire them. Smaller
+   and lighter than the surrounding links so it doesn't compete with the
+   primary "Official website" / school / founder rows. */
+.practice-map-popup-correct {
+  margin: 0.55rem 0 0;
+  padding-top: 0.45rem;
+  border-top: 1px solid rgba(122, 106, 85, 0.18);
+  font-size: 0.72rem;
+}
+.practice-map-popup-correct a {
+  color: var(--ink-light);
+  text-decoration: none;
+}
+.practice-map-popup-correct a:hover {
+  color: var(--ink);
+  text-decoration: underline;
+  text-decoration-color: var(--ink-light);
+  text-underline-offset: 2px;
+}
+
 /* ===== Cross-browser overflow safety =====
  * Firefox enforces min-width: auto on grid/flex items more strictly than
  * Chromium. Long unbreakable tokens (CJK names, URLs, translator strings)

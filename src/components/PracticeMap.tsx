@@ -407,6 +407,33 @@ function renderPopupHTML(p: Record<string, unknown>): string {
   const founderSlug = p.founderSlug ? escapeHtml(p.founderSlug) : null;
   const founderName = p.founderName ? escapeHtml(p.founderName) : null;
 
+  // Pre-filled correction-invite link, mirroring the AccuracyFooter on
+  // master/school pages. Practitioners and institutional contacts are far
+  // more likely to engage with a project that asks them to fix an error
+  // than one that doesn't acknowledge errors are possible.
+  const slug = typeof p.slug === "string" ? p.slug : "";
+  const issueTitle = `Correction: temple/${slug}`;
+  const issueBody = [
+    `**Entity:** temple/${slug}${typeof p.name === "string" ? ` (${p.name})` : ""}`,
+    "",
+    "**Field with possible issue:**",
+    "<!-- e.g. address, status (closed/moved), school assignment, official URL -->",
+    "",
+    "**What is wrong:**",
+    "",
+    "**Suggested correction (with source):**",
+    "",
+    "<!-- Please include a source: the place's own page, a sangha directory listing, etc. -->",
+    "",
+    "---",
+    "_Submitted via the practice-map popup correction link._",
+  ].join("\n");
+  const issueUrl =
+    `https://github.com/echojoel/zenlineage/issues/new` +
+    `?title=${encodeURIComponent(issueTitle)}` +
+    `&body=${encodeURIComponent(issueBody)}` +
+    `&labels=data-correction`;
+
   // Prefer the place's own website; fall back to the authoritative
   // directory that lists it (SOTOZEN Europe, AZI, Wikipedia, etc.).
   const officialUrl = safeExternalUrl(p.url);
@@ -437,6 +464,7 @@ function renderPopupHTML(p: Record<string, unknown>): string {
         ? `<p class="practice-map-popup-link">Founder: <a href="/masters/${founderSlug}">${founderName}</a></p>`
         : ""}
       ${linkRow}
+      <p class="practice-map-popup-correct"><a href="${escapeHtml(issueUrl)}" target="_blank" rel="noopener noreferrer">Spot something wrong? →</a></p>
     </div>
   `;
 }
