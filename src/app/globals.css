@@ -88,6 +88,25 @@ body {
   }
 }
 
+/* Stats line: pinned to the bottom of the viewport on every breakpoint
+ * (the centered content above gets enough bottom padding on `main` to
+ * never overlap). On mobile we sit slightly higher to clear the fixed
+ * search pill in the corner. */
+.home-stats {
+  position: absolute;
+  bottom: 0.85rem;
+  left: 0;
+  right: 0;
+  text-align: center;
+  padding: 0 1rem;
+}
+
+@media (min-width: 768px) {
+  .home-stats {
+    bottom: 1.25rem;
+  }
+}
+
 /* ===== Page header (shared) =====
  * The header shares the same 860px content column as the detail pages and
  * list pages, so on wide viewports the breadcrumb stays aligned with the
@@ -327,10 +346,14 @@ body {
   width: 14px;
   height: 14px;
   border-radius: 50%;
-  background: var(--ink);
+  background: var(--ink-light);
   border: 2px solid var(--paper);
   box-shadow: 0 1px 2px rgba(61, 53, 48, 0.25);
   cursor: pointer;
+  /* WebKit doesn't auto-center the thumb on a custom track when the
+   * slider uses appearance:none. Pull it up by half the difference
+   * between thumb (14px) and track (2px) so the thumb sits centered. */
+  margin-top: -6px;
 }
 
 .scrubber-input::-moz-range-thumb {
@@ -338,7 +361,7 @@ body {
   width: 14px;
   height: 14px;
   border-radius: 50%;
-  background: var(--ink);
+  background: var(--ink-light);
   border: 2px solid var(--paper);
   box-shadow: 0 1px 2px rgba(61, 53, 48, 0.25);
   cursor: pointer;
@@ -689,7 +712,8 @@ body {
 
 .master-card-image {
   width: 100%;
-  height: 180px;
+  aspect-ratio: 1 / 1;
+  height: auto;
   object-fit: cover;
   object-position: top;
   border-radius: 3px;
@@ -2270,10 +2294,19 @@ a.footnote-source-link:hover {
     margin-bottom: 0.35rem;
   }
 
-  .sidebar-image-container {
-    max-width: 96px;
+  /* Float the entire image link so the name, school, dates, and bio
+     wrap beside it. Floating only the inner container had no effect
+     because the link wrapper is a full-width block. */
+  .sidebar-image-link {
     float: right;
-    margin: 0 0 0.5rem 0.75rem;
+    width: 104px;
+    margin: 0.1rem 0 0.5rem 0.85rem;
+  }
+
+  .sidebar-image-container {
+    max-width: none;
+    float: none;
+    margin: 0;
   }
 
   .sidebar-image {

@@ -622,7 +622,10 @@ export default async function SchoolDetailPage({ params }: { params: Promise<{ s
                   </div>
                 )}
                 {tier1Masters.length > 0 && (
-                  <ul className="detail-link-list">
+                  <ul
+                    className="detail-link-list"
+                    style={definition.mastersIntro ? { marginTop: "1.25rem" } : undefined}
+                  >
                     {tier1Masters.map((m) => (
                       <li key={m.id}>
                         <Link href={`/masters/${m.slug}`}>

@@ -1106,7 +1106,7 @@ export default function LineageGraph() {
           they read as one control. */}
       <div className="lineage-scrubber">
         <span className="scrubber-value scrubber-value-start">
-          {timeMin === dataMinYear ? "Earliest" : formatYearLabel(timeMin)}
+          {timeMin === dataMinYear ? "Before" : formatYearLabel(timeMin)}
         </span>
         <div className="scrubber-range">
           <input

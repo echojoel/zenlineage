@@ -207,16 +207,16 @@ export default function AboutPage() {
             </p>
             <figure className="about-figure">
               <Image
-                src="/masters/thich-nhat-hanh.webp"
-                alt="Thích Nhất Hạnh, twentieth-century teacher of Vietnamese Thiền"
+                src="/masters/nagarjuna.webp"
+                alt="Nāgārjuna, founder of the Madhyamaka school, ancestral to all Mahāyāna lineages including Chan/Zen"
                 width={320}
                 height={320}
                 className="about-section-image"
               />
               <figcaption className="figure-credit">
-                Thích Nhất Hạnh (1926–2022) — modern teacher of Vietnamese Thiền and founder
-                of Plum Village. Photo: Duc (pixiduc), Paris 2006, CC BY-SA 2.0 via Wikimedia
-                Commons.
+                Nāgārjuna (c. 150–250 CE) — founder of the Madhyamaka school of emptiness, an
+                Indian ancestor counted in every Chan/Zen patriarchal lineage. Image via
+                Wikimedia Commons.
               </figcaption>
             </figure>
 
@@ -578,6 +578,13 @@ export default function AboutPage() {
               </Link>{" "}
               (1914&ndash;1982) arrived in Paris in 1967 and established the Association Zen
               Internationale, around which most of European Sōtō Zen still organises itself today.
+              Vietnamese Thiền reached the West through{" "}
+              <Link className="detail-inline-link" href="/masters/thich-nhat-hanh">
+                Thích Nhất Hạnh
+              </Link>{" "}
+              (1926&ndash;2022), who founded Plum Village in the Dordogne in 1982 and reformulated
+              practice as &ldquo;engaged Buddhism&rdquo; &mdash; the same zazen, recast as
+              mindful daily action in the world.
             </p>
             <figure className="about-figure">
               <Image
@@ -604,6 +611,20 @@ export default function AboutPage() {
                 Taisen Deshimaru (1914–1982), Sōtō teacher who carried zazen to Europe and
                 founded the Association Zen Internationale (photo via Wikimedia Commons,
                 fair use / educational).
+              </figcaption>
+            </figure>
+            <figure className="about-figure">
+              <Image
+                src="/masters/thich-nhat-hanh.webp"
+                alt="Thích Nhất Hạnh, twentieth-century teacher of Vietnamese Thiền and founder of Plum Village"
+                width={320}
+                height={320}
+                className="about-section-image"
+              />
+              <figcaption className="figure-credit">
+                Thích Nhất Hạnh (1926–2022), Vietnamese Thiền teacher and founder of Plum
+                Village; popularised mindfulness and engaged Buddhism in the West. Photo: Duc
+                (pixiduc), Paris 2006, CC BY-SA 2.0 via Wikimedia Commons.
               </figcaption>
             </figure>
           </div>
