@@ -10096,6 +10096,30 @@
     "excerpt": "Dhritaka"
   },
   {
+    "id": "pLgdNLqhsMNvKz_mUx08g",
+    "source_id": "src_sotozen_founders",
+    "entity_type": "master",
+    "entity_id": "qL6chFg9_9kBrJa8ruPjt",
+    "field_name": "name",
+    "excerpt": "Pierre Sōkō Leroux"
+  },
+  {
+    "id": "2hHQT5qxn2UyYfhsE-8vB",
+    "source_id": "src_sotozen_founders",
+    "entity_type": "master",
+    "entity_id": "qL6chFg9_9kBrJa8ruPjt",
+    "field_name": "school",
+    "excerpt": "Soto"
+  },
+  {
+    "id": "rCXuS7lGgRw_AJixQU50W",
+    "source_id": "src_sotozen_founders",
+    "entity_type": "master",
+    "entity_id": "qL6chFg9_9kBrJa8ruPjt",
+    "field_name": "teachers",
+    "excerpt": "Stephane Kosen Thibaut"
+  },
+  {
     "id": "_GM-Xihr1gvAQmauFGo62",
     "source_id": "src_originals_curated",
     "entity_type": "master",

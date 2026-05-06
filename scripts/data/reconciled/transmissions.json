@@ -3836,6 +3836,16 @@
     ]
   },
   {
+    "id": "wMZu06UdqscSDfLWLYGZ-",
+    "student_id": "qL6chFg9_9kBrJa8ruPjt",
+    "teacher_id": "sOpOQoTa6neVqPXdMRUF1",
+    "type": "primary",
+    "is_primary": true,
+    "source_ids": [
+      "src_sotozen_founders"
+    ]
+  },
+  {
     "id": "4l6sQMmBkhwbdLhrD7X5F",
     "student_id": "eeWkFL_yU8-TDINiD55bY",
     "teacher_id": "tEX5l7-qjZO_KX3utGFFf",

@@ -20,12 +20,16 @@ interface Props {
   proverbs: ProverbListItem[];
   allThemes: { slug: string; name: string }[];
   schoolNames: Record<string, string>;
+  /** Slug of the proverb to feature at the top, set when the user
+   *  arrived from a homepage proverb click (`/proverbs?highlight=…`). */
+  highlightSlug?: string | null;
 }
 
 export default function ProverbsClient({
   proverbs,
   allThemes,
   schoolNames,
+  highlightSlug = null,
 }: Props) {
   const [order, setOrder] = useState(proverbs);
   const [query, setQuery] = useState("");
@@ -200,7 +204,11 @@ export default function ProverbsClient({
       {/* Proverb list */}
       <div className="proverbs-list">
         {visible.map((p) => (
-          <ProverbEntry key={p.id} proverb={p} />
+          <ProverbEntry
+            key={p.id}
+            proverb={p}
+            highlighted={p.slug === highlightSlug}
+          />
         ))}
       </div>
 
@@ -219,9 +227,18 @@ export default function ProverbsClient({
   );
 }
 
-function ProverbEntry({ proverb }: { proverb: ProverbListItem }) {
+function ProverbEntry({
+  proverb,
+  highlighted = false,
+}: {
+  proverb: ProverbListItem;
+  highlighted?: boolean;
+}) {
   return (
-    <div className="proverb-entry">
+    <div className={`proverb-entry${highlighted ? " proverb-entry--highlighted" : ""}`}>
+      {highlighted && (
+        <p className="proverb-entry-eyebrow">From the homepage</p>
+      )}
       <div className="proverb-content">{proverb.content}</div>
       <div className="proverb-attribution">
         {proverb.attributedSlug ? (

@@ -484,6 +484,149 @@ export const WORKS: WorkSeed[] = [
     excerpt:
       "The Miracle of Mindfulness, Thich Nhat Hanh's first widely-translated work, originated as a 1974 manual for Vietnamese social workers and became the principal Western introduction to engaged mindfulness practice.",
   },
+  // ─── Taisen Deshimaru (Sōtō, modern France) ──────────────────────────────
+  // Deshimaru wrote little in his own hand: his teaching medium was kusen,
+  // oral instruction during zazen. The titles below are the principal
+  // book-form vehicles of that teaching — most edited and translated from
+  // his French kusen by his close disciples (Coupey, de Smedt, Crépon)
+  // either during his lifetime or posthumously. They are the canonical
+  // "books by Deshimaru" as the AZI bibliography presents them.
+  {
+    slug: "zen-way-to-martial-arts",
+    authorSlug: "taisen-deshimaru",
+    collection: "Zen et Arts Martiaux",
+    era: "Modern",
+    attributionStatus: "verified",
+    title: "The Zen Way to the Martial Arts (Zen et Arts Martiaux)",
+    description:
+      "Deshimaru's most widely read book in English: a sustained meditation, originally published in French in 1977 as Zen et Arts Martiaux, on the shared root of zazen and bushidō. Drawing on his Saga upbringing and on kendō and judō practice with his European students, he frames the martial arts as a particular case of mushotoku attention — concentration without goal, action without ego — and uses them to explicate posture, breathing, and the quality of mind he called hishiryo. The standard introductory volume to his teaching for non-French readers.",
+    translator: "Nancy Amphoux",
+    edition: "E. P. Dutton, 1982 (FR original Editions Albin Michel, 1977)",
+    licenseStatus: "fair_use",
+    sourceId: "src_deshimaru_zen_way_to_martial_arts",
+    locator: "Editor's preface and chapters on posture, breath, and the mind of bushidō",
+    excerpt:
+      "Zen and the martial arts share a single root in concentration on the body's posture and breath; the warrior's discipline and the practice of zazen converge in the attitude of mushotoku, action without expectation of result.",
+  },
+  {
+    slug: "questions-to-a-zen-master",
+    authorSlug: "taisen-deshimaru",
+    collection: "Questions à un maître zen",
+    era: "Modern",
+    attributionStatus: "verified",
+    title: "Questions to a Zen Master (Questions à un maître zen)",
+    description:
+      "A book-length transcript of Deshimaru's mondō — the question-and-answer sessions held after zazen at the Paris dōjō and at sesshin across Europe. Originally published as Questions à un maître zen (Pierre Belfond, 1981) and translated into English by Nancy Amphoux for E. P. Dutton in 1985, it preserves the unedited interrogative texture of his teaching: students asking about karma, sex, money, fear of death, and the nature of mind, and Deshimaru responding in compact, idiomatic French. One of the most accessible primary sources for his oral style.",
+    translator: "Nancy Amphoux",
+    edition: "E. P. Dutton, 1985 (FR original Pierre Belfond, 1981)",
+    licenseStatus: "fair_use",
+    sourceId: "src_zen_deshimaru_history",
+    locator: "AZI bibliography of Taisen Deshimaru — Questions à un maître zen",
+    excerpt:
+      "Questions à un maître zen, transcribed from the mondō at the Paris dōjō, presents Deshimaru responding directly to his European students on questions of practice, ordinary life, and the nature of mind.",
+  },
+  {
+    slug: "voice-of-the-valley",
+    authorSlug: "taisen-deshimaru",
+    collection: "The Voice of the Valley",
+    era: "Modern",
+    attributionStatus: "verified",
+    title: "The Voice of the Valley: Zen Teachings",
+    description:
+      "An English-language compilation of Deshimaru's kusen prepared by his American disciple Philippe Reiryū Coupey, drawing on the dōjō transcripts of the late 1970s. The volume's title alludes to Dōgen's keisei sanshoku (\"valley sounds, mountain colours\") and frames Deshimaru's instruction as a contemporary continuation of the Sōtō tradition's attention to ordinary perception. Read alongside Sit and Mushotoku Mind, it is the principal English access point to his kusen.",
+    translator: "Edited by Philippe Reiryū Coupey",
+    edition: "Bobbs-Merrill, 1979; reprinted Hohm Press",
+    licenseStatus: "fair_use",
+    sourceId: "src_zen_deshimaru_history",
+    locator: "AZI bibliography — English-language compilations of Deshimaru's kusen",
+    excerpt:
+      "The Voice of the Valley collects Deshimaru's kusen as transcribed and edited by his disciple Philippe Reiryū Coupey at the Paris dōjō.",
+  },
+  {
+    slug: "ring-of-the-way",
+    authorSlug: "taisen-deshimaru",
+    collection: "L'Anneau de la Voie",
+    era: "Modern",
+    attributionStatus: "verified",
+    title: "The Ring of the Way (L'Anneau de la Voie)",
+    description:
+      "A late-period volume co-authored with Évelyne Ekō de Smedt, in which Deshimaru comments verse-by-verse on classical Sōtō texts (the Hannya Shingyō, the Sandōkai, fragments of the Shōbōgenzō) interleaved with first-person reflection on practice and lineage. Published in French in 1982, the year of his death, and translated into English in 1983, it is the most explicit statement of his understanding of the transmission line he was inserting Europe into.",
+    translator: "Nancy Amphoux",
+    edition: "E. P. Dutton, 1983 (FR original Editions du Cerf, 1982)",
+    licenseStatus: "fair_use",
+    sourceId: "src_azi",
+    locator: "AZI publications — L'Anneau de la Voie / The Ring of the Way",
+    excerpt:
+      "L'Anneau de la Voie, written with his disciple Évelyne Ekō de Smedt, is Deshimaru's late commentary on the classical Sōtō texts and on the lineage into which he intended his European sangha to be received.",
+  },
+  {
+    slug: "sit-zen-teachings-deshimaru",
+    authorSlug: "taisen-deshimaru",
+    collection: "Sit",
+    era: "Modern",
+    attributionStatus: "verified",
+    title: "Sit: Zen Teachings of Master Taisen Deshimaru",
+    description:
+      "A posthumous English-language anthology of Deshimaru's kusen, edited by Philippe Reiryū Coupey at the Paris dōjō from transcripts of zazen sessions held at the AZI in the late 1970s and early 1980s. The book is organised around fundamental Sōtō themes — the posture, breath, the bodhisattva precepts, the relation of zazen to ordinary life — and is widely used as the introductory English text in Deshimaru-line dōjōs.",
+    translator: "Edited by Philippe Reiryū Coupey",
+    edition: "Hohm Press, 1996",
+    licenseStatus: "fair_use",
+    sourceId: "src_kosen_sangha",
+    locator: "Kosen Sangha — recommended reading list for the Deshimaru lineage",
+    excerpt:
+      "Sit is the standard English-language compilation of Master Deshimaru's kusen, edited by his close disciple Philippe Reiryū Coupey from the AZI Paris-dōjō transcripts.",
+  },
+  {
+    slug: "mushotoku-mind",
+    authorSlug: "taisen-deshimaru",
+    collection: "Mushotoku Mind",
+    era: "Modern",
+    attributionStatus: "verified",
+    title: "Mushotoku Mind: The Heart of the Heart Sutra",
+    description:
+      "A book-length kusen-commentary on the Hannya Shingyō (Heart Sutra), assembled by Philippe Reiryū Coupey from Deshimaru's oral teachings at the Paris dōjō. The volume threads Deshimaru's signature term — mushotoku, the mind without gaining idea — through the sutra's negation formulas (\"no eye, no ear, no nose…\"), reading the Heart Sutra not as a metaphysical thesis but as the description of the consciousness that arises in shikantaza.",
+    translator: "Edited by Philippe Reiryū Coupey",
+    edition: "Hohm Press, 2012",
+    licenseStatus: "fair_use",
+    sourceId: "src_kosen_sangha",
+    locator: "Kosen Sangha — recommended reading on the Heart Sutra and Deshimaru's commentary",
+    excerpt:
+      "Mushotoku Mind is Deshimaru's commentary on the Hannya Shingyō, edited by Reiryū Coupey, in which the master reads the sutra's negations as a description of the mind of zazen.",
+  },
+  {
+    slug: "vrai-zen",
+    authorSlug: "taisen-deshimaru",
+    collection: "Vrai Zen",
+    era: "Modern",
+    attributionStatus: "verified",
+    title: "Vrai Zen: Source vivante, racines profondes",
+    description:
+      "Deshimaru's running French commentary on Dōgen's Shōbōgenzō, transcribed from teisho given at La Gendronnière. The volume is the closest he came to producing a sustained doctrinal exposition rather than situational kusen, and it shows him reading Dōgen line-by-line in French for an audience that had no access to the Japanese original. A central reference for the AZI's understanding of its Sōtō pedigree.",
+    translator: null,
+    edition: "Editions Le Courrier du Livre, 1984 (transcribed teisho at La Gendronnière)",
+    licenseStatus: "fair_use",
+    sourceId: "src_azi",
+    locator: "AZI publications — Vrai Zen / commentaries on the Shōbōgenzō",
+    excerpt:
+      "Vrai Zen collects Deshimaru's French teisho on the Shōbōgenzō given at La Gendronnière, the AZI's most extended doctrinal exposition by the founder.",
+  },
+  {
+    slug: "le-bol-et-le-baton",
+    authorSlug: "taisen-deshimaru",
+    collection: "Le Bol et le Bâton",
+    era: "Modern",
+    attributionStatus: "verified",
+    title: "Le Bol et le Bâton: 120 contes zen",
+    description:
+      "A posthumous collection of one hundred and twenty classical Zen tales as told and commented on by Deshimaru in the dōjō, prepared from kusen transcripts. The cases run from the Tang encounter dialogues through Dōgen's Shōbōgenzō anecdotes, each followed by Deshimaru's compact French commentary. Functions as the AZI's working koan-anthology in the absence of a formal Rinzai-style curriculum.",
+    translator: null,
+    edition: "Albin Michel, 1986 (collected and edited from AZI dōjō transcripts)",
+    licenseStatus: "fair_use",
+    sourceId: "src_zen_deshimaru_history",
+    locator: "AZI bibliography — Le Bol et le Bâton (Zen tales as told by Deshimaru)",
+    excerpt:
+      "Le Bol et le Bâton gathers 120 classical Zen tales as recounted and commented by Master Deshimaru in his dōjō teaching, edited from the AZI kusen transcripts.",
+  },
   {
     slug: "zen-keys",
     authorSlug: "thich-nhat-hanh",

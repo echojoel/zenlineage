@@ -66,18 +66,32 @@ const INITIAL_ZOOM = 1.3;
 
 export interface PracticeMapProps {
   /** When set, the map opens locked to this school's temples and the
-   * filter dropdown is hidden. Used on the per-school practice page. */
+   * built-in filter dropdown is hidden. Used by the URL-driven /practice
+   * experience: the parent passes the current `?school=` value here. */
   initialSchool?: string;
+  /** When set (any value, including "" to mean "all"), the map is fully
+   * controlled by the parent — internal selection state mirrors this
+   * prop on every change. Use this for URL-driven filtering. */
+  selectedSchool?: string | null;
 }
 
-export default function PracticeMap({ initialSchool }: PracticeMapProps = {}) {
+export default function PracticeMap({ initialSchool, selectedSchool }: PracticeMapProps = {}) {
   const containerRef = useRef<HTMLDivElement | null>(null);
   const mapRef = useRef<MapLibreMap | null>(null);
   const popupRef = useRef<maplibregl.Popup | null>(null);
 
   const [data, setData] = useState<TemplesPayload | null>(null);
   const [status, setStatus] = useState<"loading" | "ready" | "error" | "empty">("loading");
-  const [schoolFilter, setSchoolFilter] = useState<string>(initialSchool ?? "all");
+  const [schoolFilter, setSchoolFilter] = useState<string>(
+    selectedSchool ?? initialSchool ?? "all"
+  );
+
+  // When the parent drives selection (URL-controlled), keep internal
+  // state in sync so the existing filter useEffect re-applies.
+  useEffect(() => {
+    if (selectedSchool === undefined) return;
+    setSchoolFilter(selectedSchool && selectedSchool.length > 0 ? selectedSchool : "all");
+  }, [selectedSchool]);
 
   // Load /data/temples.json
   useEffect(() => {
@@ -152,12 +166,40 @@ export default function PracticeMap({ initialSchool }: PracticeMapProps = {}) {
         clusterMaxZoom: 9,
       });
 
-      // Unclustered: colored circle per temple, school-matched.
+      // Second, un-clustered source with the exact same features. Used
+      // only when a single school is selected: clusters at world zoom
+      // would otherwise hide every individual temple inside them, which
+      // breaks per-school filtering for any school with >50 places.
+      map.addSource("temples-flat", {
+        type: "geojson",
+        data: { type: "FeatureCollection", features },
+      });
+
+      // Unclustered (clustered source): colored circle per temple,
+      // school-matched. Only visible at high zoom, where features are
+      // not clustered.
       map.addLayer({
         id: "temples-unclustered",
         type: "circle",
         source: "temples",
         filter: ["!", ["has", "point_count"]],
+        paint: {
+          "circle-radius": 6,
+          "circle-color": ["get", "schoolColor"],
+          "circle-stroke-width": 1.5,
+          "circle-stroke-color": "#faf9f7",
+          "circle-opacity": 0.95,
+        },
+      });
+
+      // Filtered layer (un-clustered source): hidden by default,
+      // toggled on when the parent passes selectedSchool.
+      map.addLayer({
+        id: "temples-filtered",
+        type: "circle",
+        source: "temples-flat",
+        layout: { visibility: "none" },
+        filter: ["==", ["get", "schoolSlug"], "__none__"],
         paint: {
           "circle-radius": 6,
           "circle-color": ["get", "schoolColor"],
@@ -197,18 +239,14 @@ export default function PracticeMap({ initialSchool }: PracticeMapProps = {}) {
       });
 
       // Cursor feedback
-      map.on("mouseenter", "temples-unclustered", () => {
-        map.getCanvas().style.cursor = "pointer";
-      });
-      map.on("mouseleave", "temples-unclustered", () => {
-        map.getCanvas().style.cursor = "";
-      });
-      map.on("mouseenter", "temples-clusters", () => {
-        map.getCanvas().style.cursor = "pointer";
-      });
-      map.on("mouseleave", "temples-clusters", () => {
-        map.getCanvas().style.cursor = "";
-      });
+      for (const layer of ["temples-unclustered", "temples-clusters", "temples-filtered"]) {
+        map.on("mouseenter", layer, () => {
+          map.getCanvas().style.cursor = "pointer";
+        });
+        map.on("mouseleave", layer, () => {
+          map.getCanvas().style.cursor = "";
+        });
+      }
 
       // Click a cluster: zoom in
       map.on("click", "temples-clusters", (e) => {
@@ -227,8 +265,10 @@ export default function PracticeMap({ initialSchool }: PracticeMapProps = {}) {
         });
       });
 
-      // Click a temple: open popup
-      map.on("click", "temples-unclustered", (e) => {
+      // Click a temple: open popup. Both unclustered layers behave the
+      // same way — only one is visible at a time depending on whether a
+      // school is selected.
+      const onTempleClick = (e: maplibregl.MapMouseEvent & { features?: MapGeoJSONFeature[] }) => {
         const feat = e.features?.[0];
         if (!feat) return;
         const p = feat.properties ?? {};
@@ -238,7 +278,9 @@ export default function PracticeMap({ initialSchool }: PracticeMapProps = {}) {
           .setLngLat(coords)
           .setHTML(renderPopupHTML(p as Record<string, unknown>))
           .addTo(map);
-      });
+      };
+      map.on("click", "temples-unclustered", onTempleClick);
+      map.on("click", "temples-filtered", onTempleClick);
     });
 
     return () => {
@@ -248,36 +290,52 @@ export default function PracticeMap({ initialSchool }: PracticeMapProps = {}) {
     };
   }, [status, data]);
 
-  // React to the school filter change.
+  // React to the school filter change. When a school is selected we
+  // hide the clustered source entirely and switch to the un-clustered
+  // `temples-flat` source filtered to that school — otherwise points
+  // hidden inside clusters at world zoom never appear.
   useEffect(() => {
     const map = mapRef.current;
     if (!map) return;
     const apply = () => {
       if (schoolFilter === "all") {
-        map.setFilter("temples-unclustered", ["!", ["has", "point_count"]]);
-        map.setFilter("temples-clusters", ["has", "point_count"]);
-        map.setFilter("temples-cluster-count", ["has", "point_count"]);
+        map.setLayoutProperty("temples-unclustered", "visibility", "visible");
+        map.setLayoutProperty("temples-clusters", "visibility", "visible");
+        map.setLayoutProperty("temples-cluster-count", "visibility", "visible");
+        map.setLayoutProperty("temples-filtered", "visibility", "none");
       } else {
-        map.setFilter("temples-unclustered", [
-          "all",
-          ["!", ["has", "point_count"]],
-          ["==", ["get", "schoolSlug"], schoolFilter],
+        map.setLayoutProperty("temples-unclustered", "visibility", "none");
+        map.setLayoutProperty("temples-clusters", "visibility", "none");
+        map.setLayoutProperty("temples-cluster-count", "visibility", "none");
+        map.setLayoutProperty("temples-filtered", "visibility", "visible");
+        map.setFilter("temples-filtered", [
+          "==",
+          ["get", "schoolSlug"],
+          schoolFilter,
         ]);
-        // Clusters aggregate at the source level — the simplest honest
-        // approach when filtering is to hide the clusters and show only
-        // unclustered points for that school. For ≤50 temples per school
-        // this is fine visually.
-        map.setFilter("temples-clusters", ["==", ["get", "schoolSlug"], "__none__"]);
-        map.setFilter("temples-cluster-count", ["==", ["get", "schoolSlug"], "__none__"]);
+
+        // Fit to the bounds of the filtered school so distant points are
+        // visible and the map doesn't sit on a centred-on-Asia view that
+        // misses Europe / the Americas.
+        const matching = data?.temples.filter((t) => t.schoolSlug === schoolFilter) ?? [];
+        if (matching.length > 0) {
+          const bounds = new maplibregl.LngLatBounds();
+          for (const t of matching) bounds.extend([t.lng, t.lat]);
+          map.fitBounds(bounds, {
+            padding: 50,
+            maxZoom: 8,
+            duration: 600,
+          });
+        }
       }
     };
     if (map.isStyleLoaded()) apply();
     else map.once("load", apply);
-  }, [schoolFilter]);
+  }, [schoolFilter, status, data]);
 
   return (
     <div className="practice-map">
-      {!initialSchool && (
+      {!initialSchool && selectedSchool === undefined && (
         <div className="practice-map-controls">
           <label htmlFor="practice-map-school-filter" className="detail-eyebrow">
             Filter by school

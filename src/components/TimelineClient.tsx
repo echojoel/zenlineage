@@ -9,6 +9,11 @@ import type {
   EventCitation,
   Mention,
 } from "@/lib/timeline-editorial";
+import {
+  FootnoteRef as FootnoteSup,
+  FootnoteList,
+  type FootnoteRef as FootnoteRefEntry,
+} from "@/lib/footnotes";
 
 export interface ResolvedMaster {
   slug: string;
@@ -51,19 +56,66 @@ function formatYearRange(
   return `${s} – ${abs}${suffix}`;
 }
 
-function formatCitations(
-  citations: EventCitation[],
+const FN_SCOPE = "timeline";
+
+function citeTupleKey(c: EventCitation): string {
+  return `${c.key}::${c.pages ?? ""}`;
+}
+
+function buildFootnotes(
+  eras: TimelineEra[],
   bibliography: Record<string, BibliographyEntry>
-): string {
-  return citations
-    .map((c) => {
+): {
+  indexByCiteKey: Map<string, number>;
+  footnoteRefs: FootnoteRefEntry[];
+} {
+  const indexByCiteKey = new Map<string, number>();
+  const footnoteRefs: FootnoteRefEntry[] = [];
+
+  const visit = (citations: EventCitation[]) => {
+    for (const c of citations) {
+      const tupleKey = citeTupleKey(c);
+      if (indexByCiteKey.has(tupleKey)) continue;
       const bib = bibliography[c.key];
-      if (!bib) return null;
-      const ref = `${bib.author} (${bib.year})`;
-      return c.pages ? `${ref}, ${c.pages}` : ref;
-    })
-    .filter(Boolean)
-    .join("; ");
+      if (!bib) continue;
+      const index = footnoteRefs.length + 1;
+      indexByCiteKey.set(tupleKey, index);
+      footnoteRefs.push({
+        index,
+        sourceTitle: bib.title,
+        author: bib.author,
+        pageOrSection: c.pages ?? `${bib.year}`,
+        sourceUrl: bib.url ?? null,
+      });
+    }
+  };
+
+  for (const era of eras) {
+    for (const event of era.events) visit(event.citations);
+    visit(era.citations);
+  }
+
+  return { indexByCiteKey, footnoteRefs };
+}
+
+function CitationMarkers({
+  citations,
+  indexByCiteKey,
+}: {
+  citations: EventCitation[];
+  indexByCiteKey: Map<string, number>;
+}) {
+  const indices = citations
+    .map((c) => indexByCiteKey.get(citeTupleKey(c)))
+    .filter((n): n is number => typeof n === "number");
+  if (indices.length === 0) return null;
+  return (
+    <span className="timeline-cite-markers">
+      {indices.map((n) => (
+        <FootnoteSup key={n} n={n} scope={FN_SCOPE} />
+      ))}
+    </span>
+  );
 }
 
 function MasterMention({
@@ -121,6 +173,8 @@ export default function TimelineClient({
   schoolMap,
   bibliography,
 }: Props) {
+  const { indexByCiteKey, footnoteRefs } = buildFootnotes(eras, bibliography);
+
   const [enhanced, setEnhanced] = useState(false);
   const [activeEraId, setActiveEraId] = useState(eras[0]?.id ?? "");
   const [visibleEntries, setVisibleEntries] = useState<Set<string>>(new Set());
@@ -213,7 +267,13 @@ export default function TimelineClient({
           <div className="timeline-era-header">
             <h2>{era.title}</h2>
             <span className="timeline-era-subtitle">{era.subtitle}</span>
-            <p className="timeline-era-intro">{era.introduction}</p>
+            <p className="timeline-era-intro">
+              {era.introduction}
+              <CitationMarkers
+                citations={era.citations}
+                indexByCiteKey={indexByCiteKey}
+              />
+            </p>
           </div>
 
           {era.events.map((event) => (
@@ -229,7 +289,13 @@ export default function TimelineClient({
                   {formatYearRange(event.yearStart, event.yearEnd, event.precision)}
                 </span>
                 <h3>{event.title}</h3>
-                <p>{event.description}</p>
+                <p>
+                  {event.description}
+                  <CitationMarkers
+                    citations={event.citations}
+                    indexByCiteKey={indexByCiteKey}
+                  />
+                </p>
 
                 {event.masters.length > 0 && (
                   <div className="timeline-masters">
@@ -246,17 +312,17 @@ export default function TimelineClient({
                     ))}
                   </div>
                 )}
-
-                {event.citations.length > 0 && (
-                  <cite className="timeline-cite">
-                    {formatCitations(event.citations, bibliography)}
-                  </cite>
-                )}
               </div>
             </article>
           ))}
         </section>
       ))}
+
+      <FootnoteList
+        refs={footnoteRefs}
+        scope={FN_SCOPE}
+        title="References"
+      />
     </div>
   );
 }

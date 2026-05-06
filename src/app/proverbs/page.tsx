@@ -57,7 +57,12 @@ export const metadata: Metadata = {
   },
 };
 
-export default async function ProverbsPage() {
+export default async function ProverbsPage({
+  searchParams,
+}: {
+  searchParams: Promise<{ highlight?: string }>;
+}) {
+  const { highlight } = await searchParams;
   // 1. Fetch all proverb teachings with content
   const proverbRows = await db
     .select({
@@ -231,8 +236,19 @@ export default async function ProverbsPage() {
     };
   });
 
-  // 10. Shuffle the proverbs
-  const shuffled = shuffle(items);
+  // 10. Shuffle the proverbs, then float the highlighted slug to the
+  // top so a click from the homepage lands on its proverb without the
+  // user having to scroll or search.
+  let shuffled = shuffle(items);
+  const highlightSlug = highlight && items.some((p) => p.slug === highlight)
+    ? highlight
+    : null;
+  if (highlightSlug) {
+    shuffled = [
+      ...shuffled.filter((p) => p.slug === highlightSlug),
+      ...shuffled.filter((p) => p.slug !== highlightSlug),
+    ];
+  }
 
   const breadcrumbJsonLd = {
     "@context": "https://schema.org",
@@ -262,7 +278,12 @@ export default async function ProverbsPage() {
         </Link>
         <h1 className="page-title">Proverbs</h1>
       </header>
-      <ProverbsClient proverbs={shuffled} allThemes={allThemes} schoolNames={schoolNameRecord} />
+      <ProverbsClient
+        proverbs={shuffled}
+        allThemes={allThemes}
+        schoolNames={schoolNameRecord}
+        highlightSlug={highlightSlug}
+      />
     </div>
   );
 }

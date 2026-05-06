@@ -257,12 +257,16 @@ function pickSourceId(sourceUrl: string, lineage: string): string {
   if (u.includes("zen-road.org")) return "src_zen_road";
   if (u.includes("abzen.eu")) return "src_abze";
   // Sōtōshū has multiple sites — distinguish them by exact path:
-  //   global.sotozen-net.or.jp/eng/temples/europe/  → European office
-  //   sotozen-net.or.jp (other paths)               → Japanese head office
-  //   sotozen.com (international English)           → Japanese head office
-  //   sotozen-navi.com                              → foreign-friendly portal
+  //   sotozen.com/eng/temples/regional_office/europe.html  → European office
+  //   global.sotozen-net.or.jp/eng/temples/europe/         → legacy European office (now redirects)
+  //   sotozen.com (other English paths)                    → Japanese head office (international site)
+  //   sotozen-net.or.jp                                    → Japanese head office (Japanese site)
+  //   sotozen-navi.com                                     → foreign-friendly portal
   if (u.includes("sotozen-navi.com")) return "src_sotozen_navi";
-  if (u.includes("global.sotozen-net.or.jp/eng/temples/europe"))
+  if (
+    u.includes("sotozen.com/eng/temples/regional_office/europe") ||
+    u.includes("global.sotozen-net.or.jp/eng/temples/europe")
+  )
     return "src_sotozen_europe";
   if (u.includes("sotozen-net.or.jp") || u.includes("sotozen.com"))
     return "src_sotozen_jp";

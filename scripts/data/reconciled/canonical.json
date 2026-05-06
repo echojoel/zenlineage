@@ -8635,6 +8635,42 @@
     ]
   },
   {
+    "id": "qL6chFg9_9kBrJa8ruPjt",
+    "slug": "pierre-soko-leroux",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Pierre Sōkō Leroux"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Pierre Soko Leroux"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Sōkō Leroux"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Soko Leroux"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Sōtō",
+    "source_ids": [
+      "src_sotozen_founders"
+    ]
+  },
+  {
     "id": "QNihLq7F6lFvXyy0FEUCI",
     "slug": "poan-zuxian",
     "names": [

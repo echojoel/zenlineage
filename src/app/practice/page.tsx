@@ -1,10 +1,11 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { Suspense } from "react";
 import { db } from "@/db";
 import { schoolNames, schools, temples } from "@/db/schema";
 import { and, eq, isNotNull } from "drizzle-orm";
-import PracticeMapLoader from "@/components/PracticeMapLoader";
 import { SCHOOL_PRACTICE_TEACHINGS } from "@/lib/practice-instructions";
+import PracticeExperience from "@/components/PracticeExperience";
 
 export const metadata: Metadata = {
   title: "Practice",
@@ -27,8 +28,9 @@ export const metadata: Metadata = {
 };
 
 export default async function PracticePage() {
-  // Server-side counts used for the zero-JS <noscript> fallback so the page
-  // is crawlable and readable without the client map.
+  // Server-side counts used for the chip metadata and the zero-JS
+  // fallback. The selection state itself lives in `?school=` and is
+  // applied client-side by <PracticeExperience>.
   const geocodedTemples = await db
     .select({ schoolId: temples.schoolId })
     .from(temples)
@@ -59,11 +61,7 @@ export default async function PracticePage() {
     }))
     .sort((a, b) => b.count - a.count || a.name.localeCompare(b.name));
 
-  // A school has its own /practice/<slug> page when it either has geocoded
-  // temples or curated practice instructions. Surfaced as cards on the
-  // landing page so a reader can jump straight from "what tradition?" to
-  // "how do they practice and where?"
-  const schoolsWithPracticePages = schoolRows
+  const schoolChips = schoolRows
     .map((s) => {
       const templeCount = countsBySchool.get(s.id) ?? 0;
       const instructionCount = (SCHOOL_PRACTICE_TEACHINGS[s.slug] ?? []).length;
@@ -110,104 +108,27 @@ export default async function PracticePage() {
       </header>
 
       <div className="detail-layout detail-layout--practice">
-        <section className="detail-hero">
+        <section className="detail-hero" style={{ paddingBottom: "1rem" }}>
           <p className="detail-eyebrow">Places of practice</p>
           <h2 className="detail-title">Where to sit</h2>
-          <p
-            className="detail-subtitle"
-            style={{ maxWidth: "42rem", margin: "0.9rem auto 0" }}
-          >
+          <p className="detail-subtitle">
             Temples, zendōs, seonbangs, and Thiền centers around the world.
-            Pick a school below for its practice instructions and the places
-            you can practice it.
           </p>
         </section>
 
-        <section className="detail-card detail-card--wide">
-          <h3 className="detail-section-title">Choose a school</h3>
-          <ul
-            className="detail-link-list"
-            style={{
-              listStyle: "none",
-              padding: 0,
-              display: "grid",
-              gridTemplateColumns: "repeat(auto-fill, minmax(220px, 1fr))",
-              gap: "0.6rem",
-            }}
-          >
-            {schoolsWithPracticePages.map((s) => (
-              <li key={s.slug} style={{ margin: 0 }}>
-                <Link
-                  className="detail-button detail-button-muted"
-                  href={`/practice/${s.slug}`}
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    alignItems: "flex-start",
-                    gap: "0.25rem",
-                    padding: "0.7rem 0.9rem",
-                    textTransform: "none",
-                    letterSpacing: "0.02em",
-                    fontSize: "0.85rem",
-                    width: "100%",
-                  }}
-                >
-                  <span style={{ fontWeight: 600 }}>{s.name}</span>
-                  <span
-                    className="detail-list-meta"
-                    style={{ fontSize: "0.7rem" }}
-                  >
-                    {s.tradition}
-                    {s.templeCount > 0
-                      ? ` · ${s.templeCount} ${s.templeCount === 1 ? "place" : "places"}`
-                      : ""}
-                    {s.instructionCount > 0
-                      ? ` · ${s.instructionCount} instr.`
-                      : ""}
-                  </span>
-                </Link>
-              </li>
-            ))}
-          </ul>
-        </section>
-
-        <section className="detail-card detail-card--wide">
-          {totalTemples > 0 ? (
-            <>
-              <PracticeMapLoader />
-              <p
-                className="detail-muted"
-                style={{ marginTop: "0.75rem", fontSize: "0.72rem" }}
-              >
-                Map tiles from{" "}
-                <a
-                  className="detail-inline-link"
-                  href="https://openfreemap.org"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  OpenFreeMap
-                </a>
-                . Map data ©{" "}
-                <a
-                  className="detail-inline-link"
-                  href="https://www.openstreetmap.org/copyright"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  OpenStreetMap contributors
-                </a>
-                .
-              </p>
-            </>
-          ) : (
+        {totalTemples > 0 ? (
+          <Suspense fallback={<p className="detail-muted">Loading…</p>}>
+            <PracticeExperience schools={schoolChips} />
+          </Suspense>
+        ) : (
+          <section className="detail-card detail-card--wide">
             <div className="practice-map-empty">
               <p>
                 <strong>Interactive map coming soon.</strong>
               </p>
               <p>
-                The practice-location dataset is being assembled. If you know of
-                a place that should appear here, please{" "}
+                The practice-location dataset is being assembled. If you know
+                of a place that should appear here, please{" "}
                 <a
                   className="detail-inline-link"
                   href="https://github.com/echojoel/zenlineage/issues/new"
@@ -219,30 +140,28 @@ export default async function PracticePage() {
                 .
               </p>
             </div>
-          )}
+          </section>
+        )}
 
-          {/* Zero-JS / crawler-friendly fallback — renders alongside the
-              client map; the map component's CSS hides it once hydrated
-              so double-rendering isn't a visual issue. */}
-          <noscript>
-            <div style={{ marginTop: "1.5rem" }}>
-              <h3 className="detail-section-title">
-                {totalTemples} places of practice
-              </h3>
-              <ul className="detail-link-list">
-                {schoolsWithTemples.map((s) => (
-                  <li key={s.slug}>
-                    <Link href={`/schools/${s.slug}`}>{s.name}</Link>
-                    <span className="detail-list-meta">
-                      {s.tradition} · {s.count}{" "}
-                      {s.count === 1 ? "temple" : "temples"}
-                    </span>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          </noscript>
-        </section>
+        {/* Zero-JS / crawler fallback — invisible once JS hydrates. */}
+        <noscript>
+          <section className="detail-card detail-card--wide">
+            <h3 className="detail-section-title">
+              {totalTemples} places of practice
+            </h3>
+            <ul className="detail-link-list">
+              {schoolsWithTemples.map((s) => (
+                <li key={s.slug}>
+                  <Link href={`/schools/${s.slug}`}>{s.name}</Link>
+                  <span className="detail-list-meta">
+                    {s.tradition} · {s.count}{" "}
+                    {s.count === 1 ? "temple" : "temples"}
+                  </span>
+                </li>
+              ))}
+            </ul>
+          </section>
+        </noscript>
       </div>
     </main>
   );

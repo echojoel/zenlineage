@@ -59,6 +59,35 @@ body {
   color: var(--ink);
 }
 
+/* Homepage stat links — each metric ("424 masters", etc.) deep-links
+ * to its index page. Inherits the parent <p>'s upper-case Inter look
+ * with a subtle hover so it reads as discoverable but quiet. */
+.home-stats-link {
+  color: inherit;
+  text-decoration: none;
+  transition: opacity 180ms ease;
+  border-bottom: 1px solid transparent;
+  padding-bottom: 1px;
+}
+
+.home-stats-link:hover {
+  opacity: 1;
+  border-bottom-color: var(--ink-light);
+}
+
+/* Homepage proverb spacing — the Link sits between the nav and the
+ * stats line. On desktop the breathing room is generous; on mobile we
+ * pull it in so the page still fits one viewport. */
+.home-proverb-link {
+  margin-top: 3.5rem;
+}
+
+@media (min-width: 768px) {
+  .home-proverb-link {
+    margin-top: 6rem;
+  }
+}
+
 /* ===== Page header (shared) =====
  * The header shares the same 860px content column as the detail pages and
  * list pages, so on wide viewports the breadcrumb stays aligned with the
@@ -1265,6 +1294,231 @@ a.footnote-source-link:hover {
   color: var(--ink);
 }
 
+/* ===== Practice page chips =====
+ * Replaces the old "Choose a school" link grid. Each chip is a button
+ * that toggles `?school=<slug>` in the URL — selected = solid border +
+ * paper background, others = dimmed when one is active so the eye
+ * follows the selection without the page feeling reduced.
+ */
+/* ===== Practice page filter bar =====
+ * Single styled <select> above the map. With 25 schools, a chip wrap
+ * is the wrong pattern — past ~7 items dropdowns win on every metric:
+ * scannability, mobile ergonomics, accessibility. The map is the hero;
+ * the picker is a quiet utility that gets out of the way.
+ */
+.practice-filter-bar {
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid rgba(122, 106, 85, 0.12);
+}
+
+.practice-filter-label {
+  font-family: var(--font-inter), sans-serif;
+  font-size: 0.62rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--ink-light);
+  flex-shrink: 0;
+}
+
+.practice-filter-select {
+  min-width: 14rem;
+  background-color: var(--paper);
+  border: 1px solid rgba(122, 106, 85, 0.3);
+  border-radius: 2px;
+  font-family: var(--font-cormorant), Georgia, serif;
+  font-size: 1.05rem;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  color: var(--ink);
+  padding: 0.5rem 0.85rem;
+  cursor: pointer;
+  transition: border-color 180ms ease;
+}
+
+.practice-filter-select:hover {
+  border-color: rgba(122, 106, 85, 0.5);
+}
+
+.practice-filter-select:focus-visible {
+  border-color: var(--ink);
+  outline: none;
+}
+
+.practice-filter-summary {
+  font-family: var(--font-inter), sans-serif;
+  font-size: 0.7rem;
+  letter-spacing: 0.08em;
+  color: var(--ink-light);
+  font-feature-settings: "tnum" 1;
+}
+
+/* Clear-filter button — appears in the filter bar (top-right of the
+ * map card) and again below the map. Both invoke the same handler so
+ * the user can unfilter without scrolling back up. */
+.practice-filter-clear {
+  background: var(--paper-warm);
+  border: 1px solid rgba(122, 106, 85, 0.35);
+  border-radius: 2px;
+  font-family: var(--font-inter), sans-serif;
+  font-size: 0.62rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--ink);
+  cursor: pointer;
+  padding: 0.4rem 0.85rem;
+  transition:
+    background 180ms ease,
+    border-color 180ms ease,
+    color 180ms ease;
+}
+
+.practice-filter-clear:hover,
+.practice-filter-clear:focus-visible {
+  background: var(--ink);
+  border-color: var(--ink);
+  color: var(--paper);
+  outline: none;
+}
+
+.practice-filter-clear-row {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid rgba(122, 106, 85, 0.12);
+}
+
+@media (max-width: 480px) {
+  .practice-filter-bar {
+    flex-wrap: wrap;
+    gap: 0.5rem 0.75rem;
+  }
+  .practice-filter-select {
+    flex: 1 1 100%;
+    min-width: 0;
+    width: 100%;
+  }
+  .practice-filter-summary {
+    flex: 1 1 100%;
+  }
+}
+
+/* ===== Practice page traditions directory =====
+ * Quiet typographic block below the map. Four columns on desktop —
+ * one per source tradition (Chán / Zen / Seon / Thiền). Schools are
+ * clickable plain text that update ?school= and scroll back to the
+ * map. No card chrome — reads as a printed table of contents.
+ */
+.practice-traditions {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem 1.75rem;
+  margin-top: 1rem;
+}
+
+.practice-tradition {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.practice-tradition-heading {
+  font-family: var(--font-cormorant), Georgia, serif;
+  font-size: 1.05rem;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  color: var(--ink);
+  margin: 0;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid rgba(122, 106, 85, 0.18);
+}
+
+.practice-tradition-heading-meta {
+  display: block;
+  font-family: var(--font-inter), sans-serif;
+  font-size: 0.58rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--ink-light);
+  margin-top: 0.15rem;
+}
+
+.practice-tradition-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.practice-tradition-list > li {
+  margin: 0;
+}
+
+.practice-tradition-school {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  width: 100%;
+  gap: 0.5rem;
+  padding: 0.3rem 0;
+  background: none;
+  border: none;
+  font-family: var(--font-cormorant), Georgia, serif;
+  font-size: 0.9rem;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: var(--ink);
+  cursor: pointer;
+  transition: color 180ms ease;
+}
+
+.practice-tradition-school:hover,
+.practice-tradition-school:focus-visible {
+  outline: none;
+  font-style: italic;
+}
+
+.practice-tradition-school--active {
+  font-style: italic;
+}
+
+.practice-tradition-school--active .practice-tradition-school-name {
+  border-bottom: 1px solid var(--ink-light);
+  padding-bottom: 1px;
+}
+
+.practice-tradition-school-count {
+  font-family: var(--font-inter), sans-serif;
+  font-size: 0.62rem;
+  letter-spacing: 0.05em;
+  color: var(--ink-light);
+  font-feature-settings: "tnum" 1;
+  flex-shrink: 0;
+}
+
+.practice-tradition-school-count--zero {
+  opacity: 0.4;
+}
+
+@media (max-width: 900px) {
+  .practice-traditions {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 540px) {
+  .practice-traditions {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+}
+
 /* MapLibre popup — use the site's serif display face so popup headings
  * don't clash with the rest of the layout. */
 .practice-map-wrapper .maplibregl-popup-content {
@@ -1528,6 +1782,28 @@ a.footnote-source-link:hover {
 
 .proverb-entry:last-child {
   border-bottom: none;
+}
+
+/* Highlighted proverb — surfaced when the user arrives from the
+ * homepage via /proverbs?highlight=<slug>. Subtle paper-warm tint so
+ * it reads as featured without breaking the page rhythm. */
+.proverb-entry--highlighted {
+  background: var(--paper-warm);
+  margin: 0 -1.5rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  border-radius: 3px;
+}
+
+.proverb-entry-eyebrow {
+  font-family: var(--font-inter), sans-serif;
+  font-size: 0.58rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--ink-light);
+  margin: 0 0 0.85rem;
+  text-align: center;
+  opacity: 0.85;
 }
 
 .proverb-content {

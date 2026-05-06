@@ -142,14 +142,19 @@ export default async function Home() {
     };
   }
 
-  const countsLabel = `${masterRow[0]?.count ?? 0} masters · ${schoolRow[0]?.count ?? 0} schools · ${transmissionRow[0]?.count ?? 0} transmissions · ${templeRow[0]?.count ?? 0} places of practice`;
+  const counts = {
+    masters: masterRow[0]?.count ?? 0,
+    schools: schoolRow[0]?.count ?? 0,
+    transmissions: transmissionRow[0]?.count ?? 0,
+    temples: templeRow[0]?.count ?? 0,
+  };
 
   const websiteJsonLd = {
     "@context": "https://schema.org",
     "@type": "WebSite",
     name: "Zen Lineage",
     url: "https://zenlineage.org",
-    description: `An interactive encyclopedia of Zen Buddhism covering ${masterRow[0]?.count ?? 0} masters, ${schoolRow[0]?.count ?? 0} schools, ${transmissionRow[0]?.count ?? 0} lineage transmissions, and ${templeRow[0]?.count ?? 0} active places of practice across 2,500 years of Chan and Zen history.`,
+    description: `An interactive encyclopedia of Zen Buddhism covering ${counts.masters} masters, ${counts.schools} schools, ${counts.transmissions} lineage transmissions, and ${counts.temples} active places of practice across 2,500 years of Chan and Zen history.`,
     potentialAction: {
       "@type": "SearchAction",
       target: "https://zenlineage.org/masters?q={search_term_string}",
@@ -238,10 +243,10 @@ export default async function Home() {
       {randomProverb && (
         <Link
           href={`/proverbs?highlight=${randomProverb.slug}`}
+          className="home-proverb-link"
           style={{
             display: "block",
             maxWidth: "380px",
-            marginTop: "3.5rem",
             textDecoration: "none",
             textAlign: "center",
           }}
@@ -274,8 +279,9 @@ export default async function Home() {
         </Link>
       )}
 
-      {/* Stats */}
+      {/* Stats — each metric links to its index page */}
       <p
+        className="home-stats"
         style={{
           position: "absolute",
           bottom: "2rem",
@@ -287,7 +293,21 @@ export default async function Home() {
           opacity: 0.75,
         }}
       >
-        {countsLabel}
+        <Link href="/masters" className="home-stats-link">
+          {counts.masters} masters
+        </Link>
+        {" · "}
+        <Link href="/schools" className="home-stats-link">
+          {counts.schools} schools
+        </Link>
+        {" · "}
+        <Link href="/lineage" className="home-stats-link">
+          {counts.transmissions} transmissions
+        </Link>
+        {" · "}
+        <Link href="/practice" className="home-stats-link">
+          {counts.temples} places of practice
+        </Link>
       </p>
     </main>
   );

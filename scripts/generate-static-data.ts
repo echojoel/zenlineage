@@ -29,6 +29,8 @@ import {
   isPublishedBiography,
 } from "@/lib/publishable-content";
 import { schoolHexColor } from "@/lib/temple-colors";
+import { SCHOOL_PRACTICE_TEACHINGS } from "@/lib/practice-instructions";
+import { loadPracticeInstructions } from "@/lib/practice-instructions-data";
 
 const OUT_DIR = path.join(process.cwd(), "public", "data");
 
@@ -605,6 +607,26 @@ async function generateTemplesJson() {
   return payload;
 }
 
+async function generatePracticeInstructionsJson() {
+  console.log("Generating practice-instructions.json...");
+  const out: Record<string, Awaited<ReturnType<typeof loadPracticeInstructions>>> = {};
+  let total = 0;
+  for (const schoolSlug of Object.keys(SCHOOL_PRACTICE_TEACHINGS)) {
+    const items = await loadPracticeInstructions(schoolSlug);
+    if (items.length > 0) {
+      out[schoolSlug] = items;
+      total += items.length;
+    }
+  }
+  fs.writeFileSync(
+    path.join(OUT_DIR, "practice-instructions.json"),
+    JSON.stringify(out)
+  );
+  console.log(
+    `  -> ${total} instructions across ${Object.keys(out).length} schools`
+  );
+}
+
 async function main() {
   fs.mkdirSync(OUT_DIR, { recursive: true });
 
@@ -616,6 +638,7 @@ async function main() {
 
   await generateMastersJson();
   await generateTemplesJson();
+  await generatePracticeInstructionsJson();
 
   console.log("Done.");
   process.exit(0);

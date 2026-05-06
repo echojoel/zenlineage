@@ -711,7 +711,7 @@ const SCHOOL_DEFINITIONS: SchoolDefinition[] = [
         index: 5,
         sourceTitle: "Fukan Zazengi — Universal Recommendations for Zazen",
         author: "Dōgen, trans. Sōtōshū",
-        sourceUrl: "https://global.sotozen-net.or.jp/eng/library/dogenzenji/023.html",
+        sourceUrl: "https://www.sotozen.com/eng/zazen/advice/fukanzanzeng.html",
       },
       {
         index: 6,
@@ -756,7 +756,7 @@ const SCHOOL_DEFINITIONS: SchoolDefinition[] = [
         period: "1227 (first draft)",
         description:
           "‘Universally Recommended Instructions for Zazen.’ Dōgen’s concise practical manual: how to arrange the sitting place, fold the legs, hold the cosmic mudrā, regulate the breath, and meet thoughts without pursuing or suppressing them. The Sōtō school treats it as the canonical description of how to sit zazen.",
-        url: "https://global.sotozen-net.or.jp/eng/library/dogenzenji/023.html",
+        url: "https://www.sotozen.com/eng/zazen/advice/fukanzanzeng.html",
       },
       {
         title: "Shinji Shōbōgenzō",
@@ -806,7 +806,7 @@ const SCHOOL_DEFINITIONS: SchoolDefinition[] = [
         nativeTerm: "修証一等",
         description:
           "‘Practice and realization are one.’ Dōgen’s central axiom: sitting zazen is not a means to some later enlightenment — it is the actualization of awakening in this very moment. The ground of shikantaza.",
-        url: "https://global.sotozen-net.or.jp/eng/library/dogenzenji/023.html",
+        url: "https://www.sotozen.com/eng/zazen/advice/fukanzanzeng.html",
       },
       {
         term: "Genjōkōan",

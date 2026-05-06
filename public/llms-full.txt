@@ -1,7 +1,7 @@
 # Zen Lineage — Complete Reference
 
-> An open-source interactive encyclopedia of Zen Buddhism covering 420+ masters,
-> 25 schools, 420+ lineage transmissions, 755+ teachings, and 1,700+ scholarly
+> An open-source interactive encyclopedia of Zen Buddhism covering 425+ masters,
+> 25 schools, 420+ lineage transmissions, 775+ teachings, and 1,700+ scholarly
 > citations across 2,500 years of Chan, Zen, Seon, and Thien Buddhist history.
 
 Zen Lineage maps the dharma transmission lineages connecting Buddhist masters
@@ -2054,7 +2054,7 @@ Baian Hakujun Kuroda (黒田白雲, 1898–1978) was Taizan Maezumi's father and
 - **School:** Rinzai
 - **Students:** Taizan Maezumi
 
-Osaka Koryu (大阪広隆, 1901–1985) was a lay Rinzai teacher — unusual in a tradition historically centered on monastic training — who led the Tokyo lay group Shakyamuni-kai (Shakyamuni-kai Kanzō) and gave Rinzai inka to a small number of students, including Taizan Maezumi. His authorization is the Rinzai half of Maezumi's triple lineage and is the reason the White Plum line teaches the Hakuin koan curriculum alongside Soto shikantaza. Koryu also taught Robert Aitken, Philip Kapleau, and Peter Matthiessen at various stages, and through Aitken and Kapleau his teaching reached the English-language Zen world well before Maezumi's inka was widely known.
+Kōryū Osaka (1901–1985), born Kōryū Matsumoto and later adopted into the Osaka family, was a Japanese lay Zen teacher in the Rinzai koan tradition and one of the three transmitters in the unusual triple-lineage of Taizan Maezumi Roshi, founder of the Zen Center of Los Angeles. From the 1930s onwards he directed the Hannya Dōjō (般若道場) in Tokyo — a lay zazen training hall founded by his own teacher Mushō Jōkō Roshi (1884–1949), a Shingon priest who had completed Rinzai koan study and who established the Shakyamuni-kai as a lay Rinzai community based at Hannya Dōjō with a mountain training centre, Hannya Fuji Dōjō, on Mt. Fuji.
 
 ### Bokuo Soun
 
@@ -2063,9 +2063,7 @@ Osaka Koryu (大阪広隆, 1901–1985) was a lay Rinzai teacher — unusual in 
 - **Teachers:** Seisetsu Genjyo
 - **Students:** Omori Sogen
 
-Bokuo Soun (1903–1991) was a Rinzai master and student of Seisetsu Genjyo. He served as an important link in the transmission chain that connected the nineteenth-century Inzan line to the contemporary era. His most notable student was Omori Sogen, who would go on to become one of the most influential Rinzai masters of the twentieth century.
-
-Through Omori Sogen, Bokuo's lineage reached beyond Japan with the founding of Chozen-ji in Honolulu, the first Rinzai headquarters temple established outside Japan.
+Bokuō Sōun (also rendered Sōun Bokuō, 1903–1991) was a Japanese Sōtō Zen master active in the postwar reconstruction era of the school's institutional life, including in connection with the abbatial succession at Daihonzan Eihei-ji, one of the two head temples of Sōtō Zen[1]. He belongs to the same mid-twentieth-century generation as Hashimoto Ekō, Niwa Butsuan Emyō, and the cohort of senior Sōtō priests who rebuilt the school's training-temple infrastructure after the war and steered the Eihei-ji abbatial succession that culminated in Niwa Zuigaku Rempō, who became the 77th abbot of Eihei-ji in 1985[1].
 
 ### Omori Sogen
 
@@ -2084,9 +2082,7 @@ Omori Sogen (1904–1994) has been called the greatest Rinzai Zen master of the 
 - **Teachers:** Gyokujun So-on
 - **Students:** Dainin Katagiri, Kobun Chino Otogawa
 
-Shunryu Suzuki was the founder of the San Francisco Zen Center and one of the most influential Zen teachers in the history of Western Buddhism. Born in 1904 in Japan, he arrived in San Francisco in 1959 to serve a small Japanese-American congregation and discovered a generation of young Americans eager to practice zazen. His gentle, humorous, and profoundly simple teaching attracted a devoted following and established the model for Soto Zen practice in the West.
-
-Suzuki's book Zen Mind, Beginner's Mind, compiled from his talks by his students, became the most widely read introduction to Zen practice in the English language.
+Shunryū Suzuki (born Toshitaka Suzuki, May 18, 1904, in Kanagawa Prefecture, Japan; died December 4, 1971, in San Francisco) was the Sōtō Zen priest who, more than any other figure, transmitted Japanese Sōtō practice to American counterculture. He began monastic apprenticeship at age twelve under Gyokujun So-on Suzuki, a disciple of his father, and was ordained as a novice on his thirteenth birthday in 1917, receiving the Buddhist name Shōgaku Shunryū[1]. He attended Sōtō preparatory school in Tokyo from 1924, entered Komazawa University in 1925, and on August 26, 1926, at age twenty-two, received Dharma transmission from So-on; he was installed as the 28th abbot of Zoun-in on January 22, 1929, and subsequently trained at Eihei-ji (1930) and Sōji-ji in Yokohama (1931)[1].
 
 ### Nakagawa Soen
 
@@ -2112,9 +2108,7 @@ Kyozan Joshu Sasaki (1907–2014) was a Japanese Rinzai master who taught in Ame
 - **Teachers:** Yasutani Hakuun
 - **Students:** Robert Aitken, Ruben Habito, Taizan Maezumi
 
-Yamada Koun Roshi was one of the most influential Zen masters of the twentieth century, a lay teacher in the Sanbo Kyodan school who opened the Japanese Rinzai koan curriculum to students of all religious backgrounds, including Catholic and Protestant priests and nuns. Born in 1907 and dying in 1989, he was a student of Nakagawa Soen and Harada Daiun Sogaku, and he became the second teacher of the Sanbo Kyodan school.
-
-Yamada's genius was his recognition that the experience of kensho, the initial glimpse of one's true nature, and the subsequent deepening through koan practice, were not the exclusive property of any religious tradition but were available to any sincere practitioner regardless of faith background.
+Yamada Kōun (born Yamada Kiozo, 1907–1989) was the Japanese lay Zen master who shaped Sanbō Kyōdan (now Sanbō Zen) into an internationally accessible lineage and trained the first generation of Western teachers. Born in Nihonmatsu, Fukushima Prefecture, he attended Tokyo's elite Dai-Ichi High School together with the future Rinzai master Soen Nakagawa, then pursued a business career, working from 1941 as a labor supervisor for the Manchurian Mining Company and rising to deputy director of General Affairs by 1945[1]. He began Zen practice at age 38 in Manchuria and, after returning to Kamakura with his wife and three children, sat twice-daily dokusan with Asahina Sōgen Rōshi while serving as a managing director of a major Tokyo firm[1].
 
 ### Kosho Uchiyama
 
@@ -2123,9 +2117,7 @@ Yamada's genius was his recognition that the experience of kensho, the initial g
 - **School:** Sōtō
 - **Teachers:** Kodo Sawaki
 
-Kosho Uchiyama was a student of Kodo Sawaki who became one of the most important Soto Zen teachers of the twentieth century. His book Opening the Hand of Thought is regarded as one of the clearest and most profound modern expositions of zazen practice. After Sawaki's death, Uchiyama served as abbot of Antaiji, where he maintained a rigorous schedule of sesshin (intensive practice periods) that attracted serious practitioners from around the world.
-
-Uchiyama's teaching stripped zazen to its absolute essence: the practice of opening the hand of thought—letting go of all mental grasping without trying to achieve any particular state. He insisted that zazen is not a technique for producing enlightenment but the actual practice of enlightenment itself.
+Kōshō Uchiyama (1912–March 13, 1998) was a Sōtō Zen priest, prolific essayist, and origami master whose decade as abbot of Antai-ji (1965–1975) shaped a distinctive lay-and-monastic Zen rooted in pure zazen and self-supporting begging[1]. Born in Tokyo, he earned an M.A. in Western philosophy from Waseda University in 1937, then sought ordination after the death of his first wife; he was ordained in 1941 by Kōdō Sawaki, the itinerant "Homeless Kōdō" whose anti-institutional Zen would mark Uchiyama's entire teaching life[1]. He spent the war and postwar years living in extreme poverty alongside Sawaki at Antai-ji in Kyoto's Gentaku district, struggling continuously with the long-term effects of tuberculosis[1].
 
 ### Toeong Seongcheol
 
@@ -2144,9 +2136,7 @@ Toeong Seongcheol (退翁性徹, 1912–1993) was the most influential Korean ma
 - **Teachers:** Kodo Sawaki
 - **Students:** Stephane Kosen Thibaut, Etienne Mokusho Zeisler, Roland Rech, Raphaël Dōkō Triet, Philippe Reiryū Coupey, Olivier Reigen Wang-Genh, Michel Reikū Bovay, Évelyne Ekō de Smedt, Pierre Reigen Crépon, Jean-Pierre Genshū Faure, Vincent Keisen Vuillemin
 
-Taisen Deshimaru was born in 1914 in Saga Prefecture, Japan, into a samurai family with strong Buddhist roots. He first encountered Kodo Sawaki's teaching as a young man in the 1930s and was profoundly struck by Sawaki's radical insistence on zazen without gain or purpose. For decades Deshimaru lived as a layman—working as a businessman, surviving the war, raising a family—while maintaining his practice and connection to Sawaki. Only near the end of Sawaki's life, in 1965, did Deshimaru receive ordination and his teacher's final instruction: "Go to the West and plant the seed of the Dharma."
-
-In 1967, Deshimaru arrived in Paris with almost nothing and began teaching zazen in the back rooms of health food stores and borrowed apartments.
+Mokudō Taisen Deshimaru (弟子丸泰仙, 1914–1982) was a Japanese Sōtō Zen monk and the principal figure in the establishment of European Sōtō Zen. Born in Saga Prefecture in southern Kyūshū to a Jōdo Shinshū household with samurai antecedents, he encountered the itinerant Sōtō teacher Kōdō Sawaki in the 1930s and remained Sawaki's lay disciple for the next three decades while working as a businessman in Tokyo and Kobe[1][2]. His attachment to Sawaki's signature teaching — zazen practised without object and without expectation of gain — shaped every later phase of his life and the tradition he transplanted to Europe[2].
 
 ### Robert Aitken
 
@@ -2154,9 +2144,7 @@ In 1967, Deshimaru arrived in Paris with almost nothing and began teaching zazen
 - **School:** Sanbo-Zen
 - **Teachers:** Yamada Koun
 
-Robert Aitken was an American Zen teacher who co-founded the Diamond Sangha in Hawaii and became one of the pioneers of Western Zen. He studied with Yamada Koun in the Sanbo Kyodan lineage and received dharma transmission, becoming one of the first Americans to be fully authorized as a Zen teacher. His numerous books, including Taking the Path of Zen and The Mind of Clover, helped shape the understanding of Zen practice in the English-speaking world.
-
-Aitken was also a social activist who integrated his Zen practice with engagement in issues of peace, justice, and environmental protection. He coined the term "engaged Buddhism" and helped establish the Buddhist Peace Fellowship, demonstrating that contemplative practice and social action were not separate but mutually reinforcing.
+Robert Baker Aitken (19 June 1917 – 5 August 2010) was the dean of American Zen and, with his wife Anne Hopkins Aitken, the founder of the Honolulu Diamond Sangha — the first Western lay Zen community in the Sanbō Kyōdan stream. Born in Philadelphia and raised in Hawaii, he was working as a civilian construction worker on Guam when Japanese forces captured him in 1941; he spent the rest of the war in internment, and at a Kobe camp in 1944 a guard lent him R. H. Blyth's *Zen in English Literature and Oriental Classics*, which transformed him. He met Blyth in person in the same camp[1].
 
 ### Charlotte Joko Beck
 
@@ -2175,9 +2163,7 @@ Charlotte Joko Beck (常湖, 1917–2011) was a second-generation American dharm
 - **Teachers:** Kodo Sawaki
 - **Students:** Brad Warner, Mike Chodo Cross
 
-Gudo Wafu Nishijima was a Soto Zen master who made significant contributions to the understanding of Dogen's thought in the modern world. He translated the entire Shobogenzo into English (with his student Chodo Cross), making Dogen's masterwork accessible to a global audience. He taught that Dogen's philosophy could be understood through the lens of the autonomic nervous system, offering a naturalistic interpretation of zazen.
-
-Nishijima's approach was distinctive for its integration of Dogen's teaching with modern scientific and philosophical thought. He trained students from around the world, including Brad Warner, who brought Nishijima's practical, no-nonsense approach to Zen to a wide popular audience.
+Gudō Wafu Nishijima (西嶋愚道和夫, 29 November 1919 – 28 January 2014) was a Japanese Sōtō Zen priest, translator, and one of the most consequential modern Japanese teachers of Dōgen for an English-speaking audience[1]. As a young man in the early 1940s he became a student of Kōdō Sawaki — placing him in the same lay-Zen lineage that would also produce Taisen Deshimaru — and after the Second World War he took a law degree from Tokyo University and entered a long career in finance, working at the Japanese Ministry of Finance and later in the securities industry[1]. He did not ordain as a Buddhist priest until 1973, when he was already in his mid-fifties; his preceptor was Niwa Rempō Zenji, the future head abbot of Eihei-ji and a former leader of the Sōtō school.
 
 ### Jiyu-Kennett
 
@@ -2186,9 +2172,7 @@ Nishijima's approach was distinctive for its integration of Dogen's teaching wit
 - **School:** Sōtō
 - **Teachers:** Keido Chisan
 
-Jiyu Kennett was a British-born Soto Zen teacher who founded Shasta Abbey in northern California, establishing one of the first Western Soto Zen monasteries. She trained in Japan at Sojiji, one of the two head temples of Soto Zen, and received dharma transmission there from Koho Keido Chisan before returning to the West to teach.
-
-Kennett's approach to Soto Zen was distinctive for its adaptation to Western forms. She translated many Soto liturgical texts into English, set chants to Gregorian-style melodies, and created a monastic environment that combined Japanese Soto discipline with elements familiar to Western practitioners.
+Hōun Jiyu-Kennett (born Peggy Teresa Nancy Kennett, 1 January 1924, St Leonards-on-Sea, Sussex, England; died 6 November 1996, Mount Shasta, California) was the first Western woman to be sanctioned as a Sōtō Zen master in Japan and the founder of the Order of Buddhist Contemplatives (OBC). She studied medieval music at Durham University and held a scholarship at Trinity College of Music in London — a background that would later shape one of her most distinctive contributions, the use of plainchant for English-language Buddhist liturgy[1].
 
 ### Thích Thanh Từ
 
@@ -2223,9 +2207,9 @@ Seung Sahn (崇山, 1927–2004) was a Korean Seon master in the Jogye lineage a
 - **School:** Sōtō
 - **Teachers:** Shunryu Suzuki
 
-Dainin Katagiri was a Soto Zen master who helped establish Zen practice in the American Midwest, founding the Minnesota Zen Meditation Center in Minneapolis. Born in Japan in 1928, he ordained under Daicho Hayashi, whom he later described as his honshi, or root teacher, and also trained with Eko Hashimoto before coming to the United States in 1963. In America he initially assisted Shunryu Suzuki at the San Francisco Zen Center before establishing his own community in Minnesota.
+Jikai Dainin Katagiri (January 19, 1928 – March 1, 1990) was the Sōtō priest most responsible for establishing Zen practice across the American Midwest[1]. Born in Osaka, he was ordained in 1946 by Daichō Hayashi at Taizō-in in Fukui Prefecture, from whom he eventually received Dharma transmission; he then trained for three years under the famously severe Ekō Hashimoto at Eihei-ji before entering Komazawa University in Tokyo, where he majored in Buddhist studies[1]. After graduation he served at Eihei-ji and was assigned to North America by the Sōtōshū[1].
 
-Katagiri's teaching was characterized by a warmth and accessibility that made Zen practice available to Americans far from the coastal centers where Zen first took root. His published talks, collected in Returning to Silence and Each Moment Is the Universe, present Dogen's teaching in clear, practical language.
+Katagiri's American ministry began in 1963 at Zenshūji Sōtō Mission in Los Angeles.
 
 ### Taizan Maezumi
 
@@ -2235,7 +2219,7 @@ Katagiri's teaching was characterized by a warmth and accessibility that made Ze
 - **Teachers:** Yasutani Hakuun, Baian Hakujun Kuroda, Osaka Koryu, Yamada Koun
 - **Students:** Bernie Tetsugen Glassman, Charlotte Joko Beck, Dennis Genpo Merzel, John Daido Loori, Jan Chozen Bays, Gerry Shishin Wick, Nicolee Jikyo McCann, William Nyogen Yeo, Susan Myoyu Andersen, John Tesshin Sanderson, Alfred Jitsudo Ancheta, Anne Seisen Saunders
 
-Taizan Maezumi was a Soto Zen master who founded the Zen Center of Los Angeles and became one of the most influential Zen teachers in the Western world. Born in 1931 into a Soto Zen temple family[1], he came to Los Angeles in 1956 and gradually built a community that became a major center for American Zen practice. ZCLA's own founder history records that the center was established by Maezumi Roshi together with his father Baian Hakujun Kuroda, and that Maezumi had already begun koan practice with Yasutani Roshi[2]. He held dharma transmission in three lineages—Soto, Rinzai, and Sanbo Kyodan—giving him an unusually comprehensive perspective[3].
+Hakuyū Taizan Maezumi was born February 24, 1931, in Ōtawara, Tochigi Prefecture, Japan, the son of Baian Hakujun Kuroda, abbot of Kirigayaji and a major figure of mid-twentieth-century Sōtō Zen. He was ordained a novice Sōtō monk at the age of eleven and went on to take degrees in Oriental literature and philosophy at Komazawa University, the Sōtō school's flagship institution, while completing formal monastic training at Sōji-ji[1][2]. In 1955 he received shihō (dharma transmission) from his father in the Sōtō lineage.
 
 ### John Daido Loori
 
@@ -2253,7 +2237,9 @@ John Daido Loori (大道, 1931–2009) was a former Navy photographer and resear
 - **School:** Sōtō
 - **Teachers:** Taisen Deshimaru
 
-Philippe Reiryū Coupey (b. 1937) is an American-born Sōtō Zen monk in the Deshimaru lineage and one of the longest-serving teachers at the Dojo Zen de Paris. He met Taisen Deshimaru shortly after Deshimaru's arrival in Paris in 1967 and was ordained as a monk in 1972. After Deshimaru's death in 1982, Coupey remained at the Paris dōjō, where he leads zazen, gives kusen in English, and has guided successive generations of practitioners. He has edited and translated several volumes of Deshimaru's teachings — including "Sit" and "The Voice of the Valley" — making the AZI tradition accessible to English-language readers and helping to preserve the oral character of Deshimaru's instruction.
+Philippe Reiryū Coupey (born 8 December 1937 in New York City) is an American-born Sōtō Zen monk in the lineage of Taisen Deshimaru and Kōdō Sawaki, and one of the longest-serving teachers at the Dojo Zen de Paris. After studies in literature he settled in Paris in 1968 and met Deshimaru four years later, in 1972, becoming Reiryū Coupey — a close disciple who served as Deshimaru's principal English-language transcriber of the master's kusen until Deshimaru's death in 1982 (per fr.wikipedia, Association Zen Internationale, Buddhachannel).
+
+After 1982 he continued teaching at AZI; since 1994 he has directed an annual summer session at La Gendronnière, the AZI mother temple.
 
 ### Kobun Chino Otogawa
 
@@ -2262,9 +2248,7 @@ Philippe Reiryū Coupey (b. 1937) is an American-born Sōtō Zen monk in the Des
 - **School:** Sōtō
 - **Teachers:** Shunryu Suzuki
 
-Kobun Chino Otogawa was a Soto Zen master who brought the tradition to the American West Coast and became known for his unconventional and deeply intuitive teaching style. Born into Jokoji temple in Kamo, he was adopted after his father's death by Hozan Koei Chino, who became his later master. During his Komazawa and Eiheiji years he regularly attended Kodo Sawaki's lectures, and in 1967 Shunryu Suzuki invited him to the United States to help establish Tassajara before he eventually founded his own communities in California and New Mexico.
-
-Kobun was known for his artistic sensibility and his willingness to teach in informal, non-institutional settings.
+Kōbun Chino Otogawa (乙川 弘文; February 1, 1938 – July 26, 2002) was a Japanese Sōtō priest whose quiet, intuitive teaching seeded a generation of independent California and New Mexico sanghas, and whose private students included the founders of Silicon Valley[1]. Born into a temple family in Kamo, Niigata Prefecture — his older brother Keibun Otogawa later succeeded their father at the family temple — he completed undergraduate studies at Komazawa University, took a master's degree in Mahayana Buddhism at Kyoto University, and then trained for three years at Eihei-ji[1]. In 1967, at the invitation of Shunryū Suzuki, he came to California to help establish the new monastic training program at Tassajara Zen Mountain Center, where he served as Suzuki's assistant until 1970[1][2].
 
 ### Bernie Tetsugen Glassman
 
@@ -2273,7 +2257,7 @@ Kobun was known for his artistic sensibility and his willingness to teach in inf
 - **School:** White Plum Asanga
 - **Teachers:** Taizan Maezumi
 
-Bernie Tetsugen Glassman (哲玄, 1939–2018) was the first of Taizan Maezumi's American dharma heirs, authorized in 1976, and the teacher who shaped socially-engaged Zen in the United States. An aerospace engineer before ordination, he founded the Zen Community of New York (1979), the Greyston Bakery and Greyston Mandala in Yonkers (which provides jobs and housing in distressed communities), and — with his wife Sandra Jishu Holmes — the Zen Peacemakers order in 1996, whose Three Tenets (not-knowing, bearing witness, taking action) recast Maezumi's Zen as an explicitly social practice.
+Bernie Tetsugen Glassman (哲玄, January 18, 1939 – November 4, 2018) was born in Brighton Beach, Brooklyn, the son of Jewish immigrants from Eastern Europe. He took an engineering degree from Brooklyn Polytechnic Institute and a Ph.D. in applied mathematics from UCLA, and worked as an aeronautical engineer at McDonnell-Douglas — including on an early Mars-mission feasibility study — before turning fully to Zen. He had first encountered Zen in 1958 through Huston Smith's *The Religions of Man*, and in Los Angeles in the late 1960s he became one of the founding students of Taizan Maezumi at the Zen Center of Los Angeles.
 
 ### Gerry Shishin Wick
 
@@ -2282,7 +2266,7 @@ Bernie Tetsugen Glassman (哲玄, 1939–2018) was the first of Taizan Maezumi's
 - **School:** White Plum Asanga
 - **Teachers:** Taizan Maezumi
 
-Gerry Shishin Wick (支芯, b. c. 1943) is an astrophysicist and Zen master, a White Plum dharma heir of Taizan Maezumi (authorized 1990) and founder of Great Mountain Zen Center in Berthoud, Colorado. With his wife Ilia Shinko Perez (also a dharma heir) he established Great Mountain as a residential training center and has co-authored a number of books on Zen practice, including work on the Book of Equanimity koan collection. His scientific background shapes a teaching style that pairs rigorous koan investigation with clarity about the practice's empirical claims.
+Gerry Shishin Wick (支芯, born 1943) is an American Sōtō Zen teacher, scientist, and author, and one of the twelve formal dharma heirs of Hakuyū Taizan Maezumi Roshi. Trained as a physicist, Wick earned a Ph.D. in physics from the University of California, Berkeley, and worked for years as a research oceanographer before devoting himself full-time to Zen — an unusual scientific pedigree that continues to colour his teaching style and his interest in the dialogue between Zen and the natural sciences.
 
 ### Roland Rech
 
@@ -2290,9 +2274,7 @@ Gerry Shishin Wick (支芯, b. c. 1943) is an astrophysicist and Zen master, a W
 - **School:** Sōtō
 - **Teachers:** Taisen Deshimaru
 
-Roland Yuno Rech, born in 1944, is one of the most senior and prolific Soto Zen teachers in Europe. He began practicing with Taisen Deshimaru in 1972 and became one of his closest students, receiving ordination and eventually dharma transmission. After Deshimaru's death in 1982, Rech continued his training in Japan and emerged as one of the principal teachers responsible for carrying the European Soto lineage forward. He leads the Nice Zen Dojo and teaches sesshin across France and Europe.
-
-Rech is distinguished by his deep engagement with Dogen's Shobogenzo, which he has studied, commented on, and taught for decades.
+Roland Yuno Rech (born Roland Rech, 20 June 1944, Paris) is one of the most senior and prolific living teachers of European Sōtō Zen[1]. A graduate of Sciences Po (Institut d'études politiques de Paris) and of the DESS in Clinical Human Sciences at Université Paris VII-Denis-Diderot, he discovered zazen in 1971 at the Sōtō Antaiji temple in Kyoto during a worldwide search for meaning, and on his return to France in 1972 became the disciple of Taisen Deshimaru — a relationship that lasted until Deshimaru's death in 1982[1]. He was ordained as a monk in 1974 and, on Deshimaru's recommendation, kept his industrial-management career while serving as one of his teacher's principal translators, dōjō coordinators, book editors, and sesshin leaders[1].
 
 ### Dennis Genpo Merzel
 
@@ -2301,7 +2283,7 @@ Rech is distinguished by his deep engagement with Dogen's Shobogenzo, which he h
 - **School:** White Plum Asanga
 - **Teachers:** Taizan Maezumi
 
-Dennis Genpo Merzel (玄峰, b. 1944) was Maezumi's second American dharma heir (authorized in 1980) and the founder of Kanzeon Sangha, later Big Mind Western Zen. A former teacher and swimmer, he trained at the Zen Center of Los Angeles from the early 1970s and subsequently established centers in the Netherlands, Germany, the UK, and Salt Lake City. In the 2000s he developed 'Big Mind', a group-interview practice that explicitly integrates Voice Dialogue psychotherapy with Zen koan inquiry; the method has drawn both enthusiastic uptake and substantive critique from within the Zen world. A 2011 disclosure of misconduct led Merzel to resign from the White Plum Asanga; he continues to teach independently.
+Dennis Paul Merzel (born 3 June 1944 in Brooklyn, New York), known by his Japanese dharma name Genpo (玄峰), is an American Sōtō / Sanbō-Kyōdan-influenced Zen teacher and one of the most prominent — and most controversial — of the twelve dharma successors of Hakuyū Taizan Maezumi Roshi. He grew up in Long Beach, California, and earned a master's degree in educational administration from the University of Southern California before turning to Zen practice. He met Maezumi at the Zen Center of Los Angeles in 1972, was ordained as an unsui (novice priest) in 1973, and in 1980 received dharma transmission, becoming Maezumi's second formal heir.
 
 ### Jan Chozen Bays
 
@@ -2310,7 +2292,7 @@ Dennis Genpo Merzel (玄峰, b. 1944) was Maezumi's second American dharma heir 
 - **School:** White Plum Asanga
 - **Teachers:** Taizan Maezumi
 
-Jan Chozen Bays (長善, b. 1945) is a pediatrician, author, and co-abbot of Great Vow Zen Monastery in Clatskanie, Oregon, which she founded with her husband Laren Hogen Bays in 2002. Authorized by Maezumi in the early 1980s, she served for decades at the Zen Community of Oregon in Portland before establishing Great Vow as a full-time residential training monastery. Her teaching integrates Zen with her medical vocation — she is a national expert on child-abuse pediatrics — and her books on mindful eating and mindfulness for children have made White Plum practice accessible outside strictly Buddhist contexts.
+Jan Chozen Bays (長善, born 9 August 1945 in Chicago, Illinois) is an American Sōtō Zen teacher, pediatrician, and author — one of the twelve dharma heirs of Hakuyū Taizan Maezumi Roshi and the second woman to whom he gave transmission. By professional training a physician specialising in paediatrics, Bays spent much of her medical career as one of the United States' leading clinical experts on the medical evaluation of child abuse, conducting examinations of thousands of abused and murdered children and serving as an expert witness in court proceedings throughout the 1980s and 1990s — a body of work that continues to shape both her ethical voice as a teacher and her insistence on Zen as a practice of 'showing up' for suffering bodies in the actual world.
 
 ### Yves Shoshin Crettaz
 
@@ -2329,9 +2311,7 @@ Crettaz was ordained as a Zen monk in 1988 and trained for decades under his tea
 - **School:** Sanbo-Zen
 - **Teachers:** Yamada Koun
 
-Ruben Habito is a Filipino-born Zen teacher in the Sanbo Kyodan lineage who studied with Yamada Koun and received dharma transmission. He is distinctive for his integration of Zen practice with Catholic theology, having originally trained as a Jesuit priest before devoting himself fully to Zen teaching. He founded the Maria Kannon Zen Center in Dallas, Texas.
-
-Habito's work represents one of the most creative dimensions of the Sanbo Kyodan's legacy—the dialogue between Zen and Christian contemplative traditions.
+Rubén L. F. Habito (born c. 1947 in the Philippines) is a Filipino-American Sanbō Zen teacher and scholar of comparative religion who has done more than almost any other contemporary figure to articulate Zen practice for Christian practitioners. Trained as a Jesuit, he was sent to Japan as a missionary, where he undertook formal Zen training under Yamada Kōun Rōshi at the San-un Zendo in Kamakura. Yamada authorized him as a Zen teacher in 1988 and he received the dharma name Keiun-ken; the following year, 1989, he left the Society of Jesus[1][2].
 
 ### Jean-Pierre Genshū Faure
 
@@ -2340,7 +2320,9 @@ Habito's work represents one of the most creative dimensions of the Sanbo Kyodan
 - **School:** Sōtō
 - **Teachers:** Taisen Deshimaru
 
-Jean-Pierre Genshū Faure (b. 1948) is a French Sōtō Zen monk in the Deshimaru lineage and the founding abbot of Temple Zen Kanshōji in the Dordogne. He began practice with Taisen Deshimaru in the 1970s and was ordained as a monk by him; in the years following Deshimaru's death he continued his training in Japan and went on to establish Kanshōji as one of the principal European Sōtō residential temples, registered with the Sōtōshū Europe Office. His teaching is grounded in long sesshin practice and in the careful transmission of Sōtō ritual forms, and the temple has trained a number of younger AZI-lineage teachers.
+Jean-Pierre Genshū / Taiun Faure (born 1948) is a French Sōtō Zen monk in the Deshimaru lineage and the founding abbot of the Temple Zen Kanshōji in the Dordogne. He is listed on the Association Zen Internationale teacher directory as Maître Jean-Pierre Taiun Faure (Taiun being his official Sōtō dharma name; Genshū is the alternate form preserved in older AZI records). Faure began practice with Taisen Deshimaru in the 1970s, was ordained as a monk by him, and followed Deshimaru until his death in 1982.
+
+After Deshimaru's death Faure continued his training in Japan, deepening his ritual education within mainstream Sōtō.
 
 ### Michel Reikū Bovay
 
@@ -2349,7 +2331,9 @@ Jean-Pierre Genshū Faure (b. 1948) is a French Sōtō Zen monk in the Deshimaru
 - **School:** Sōtō
 - **Teachers:** Taisen Deshimaru
 
-Michel Reikū Bovay (1949–2009) was a Swiss Sōtō Zen monk in the Deshimaru lineage and the founder of the Zen Dōjō de Lausanne. He began zazen with Taisen Deshimaru in the early 1970s, was ordained as a monk by him, and was one of the closest of Deshimaru's Swiss-French disciples. With Lucien Marchal and Laurent Strim he co-authored the 1987 introductory volume "Zen," one of the standard French-language presentations of the tradition's history and practice. Through his work in Lausanne and across French-speaking Switzerland, he extended the AZI network into the Romandie and trained a generation of Swiss practitioners until his death in 2009.
+Michel Reikū Bovay (1949–2009) was a Swiss Sōtō Zen monk in the Deshimaru lineage and the founder of the Zen Dōjō de Lausanne. He began zazen with Taisen Deshimaru in the early 1970s, was ordained as a monk by him, and became one of Deshimaru's closest Swiss-French disciples — part of the small group who took on the responsibility of holding the European Sōtō community together after the founder's death in 1982.
+
+Bovay's most enduring contribution is on the page.
 
 ### Raphaël Dōkō Triet
 
@@ -2370,7 +2354,9 @@ After Deshimaru's death in 1982, Triet helped continue the line of teaching Desh
 - **School:** Sōtō
 - **Teachers:** Taisen Deshimaru
 
-Olivier Reigen Wang-Genh (b. 1955) is a French Sōtō Zen monk in the Deshimaru lineage and the founding abbot of Kōsan Ryūmon-ji, the Sōtō temple at Weiterswiller in Alsace. He began practice with Taisen Deshimaru in the early 1970s and was ordained as a monk by him; after Deshimaru's death he continued his training in Japan and went on to establish Ryūmon-ji as the principal European Sōtō residential training centre outside La Gendronnière. He served as president of the Association Zen Internationale and of the Union Bouddhiste de France (UBF), in which capacity he has represented French Buddhism in dialogue with the public sphere. His teaching combines daily zazen practice in the AZI mould with extensive engagement with the wider Buddhist landscape of contemporary France.
+Olivier Reigen Wang-Genh (born 17 April 1955 in Molsheim, Alsace) is a French Sōtō Zen monk in the Deshimaru lineage and the founding abbot of the temple Kōsan Ryūmon-ji at Weiterswiller in northern Alsace (per fr.wikipedia, Association Zen Internationale, l'Alsace). He encountered Sōtō Zen in March 1973 and was ordained as a monk in 1977 by Taisen Deshimaru, whose teaching he followed until Deshimaru's death in 1982.
+
+From 1973 onward he developed the Strasbourg dōjō and took over its direction in 1986. Beginning in 1987, with the support of the German and French sanghas, he founded dōjōs across Baden-Württemberg, Alsace, and Basel — establishing the trans-Rhenan AZI network that today links French and German-speaking practitioners.
 
 ### Susan Myoyu Andersen
 
@@ -2773,9 +2759,9 @@ The Linji tradition during the Song dynasty encompassed hundreds of active teach
 - **School:** Sōtō
 - **Teachers:** Gudo Wafu Nishijima
 
-Mike Chodo Cross is a Soto Zen teacher and translator associated with the modern transmission of Gudo Wafu Nishijima's teaching in the English-speaking world. As Nishijima's student and close collaborator, he worked extensively on the translation and publication of Dogen's writings, especially the multi-volume English presentation of the Shobogenzo.
+Mike Chōdō Cross is a British Sōtō Zen priest, translator, and Alexander Technique teacher — Gudō Wafu Nishijima's principal English-language dharma heir and the man who, more than anyone else in the Nishijima line, made Dōgen's writings readable in modern English[1]. As Nishijima's long-running student and close collaborator he produced, jointly with his teacher, **a complete English translation of Dōgen's ninety-five-fascicle Kana Shōbōgenzō** — published in four volumes by Windbell Publications and the Numata Center for Buddhist Translation and Research, and recognised in the en.wikipedia article on Nishijima as one of only three complete English Shōbōgenzō translations in existence[1].
 
-Cross's contribution has been less public-facing than that of some contemporary teachers, but it has been substantial. By helping carry difficult Japanese Zen texts into readable English, he supported one of the most consequential modern efforts to make Dogen's work available outside Japan. His place in Nishijima's lineage therefore reflects both formal training and the practical labor of textual transmission.
+Cross's textual approach is shaped by a distinctive parallel career.
 
 ### Fuden Gentotsu
 
@@ -3285,9 +3271,9 @@ Kewen's teaching reflected the mature Song dynasty Chan tradition, which had dev
 - **School:** Sōtō
 - **Teachers:** Taisen Deshimaru
 
-Etienne Mokusho Zeisler is a French Soto Zen teacher in the lineage of Taisen Deshimaru and one of the mature senior figures formed in the first generation of European Zen practice under Japanese guidance. As one of Deshimaru's close disciples, he helped carry forward the teacher's insistence on zazen as the central fact of practice rather than one technique among others.
+Étienne Mokushō Zeisler (1946 – 7 June 1990) was a Hungarian-French Sōtō Zen monk and one of Taisen Deshimaru's three principal dharma heirs. He met Deshimaru in the years following the latter's 1967 arrival in Paris, was ordained as a monk, and became one of his closest disciples, working alongside the master at the founding generation of European Sōtō dōjōs. **In 1984, two years after Deshimaru's death, Niwa Rempō Zenji — abbot of Eihei-ji and the highest authority of Japanese Sōtō Zen — conferred dharma transmission (shihō) on Zeisler together with Stéphane Kōsen Thibaut and Roland Yuno Rech**, formally authenticating Deshimaru's mission in Europe[1].
 
-Zeisler's place in the lineage represents the institutional settling of Soto Zen in Europe after Deshimaru's death. Teachers of his generation had to do more than repeat a founder's charisma: they had to stabilize communities, continue ordination and retreat culture, and transmit a recognizably Soto discipline in European languages and social conditions.
+Zeisler's distinctive contribution was geographical.
 
 ### Dahong Zuzheng
 
@@ -3545,9 +3531,9 @@ In one recorded exchange, a monk asked Wufeng about the ultimate meaning of the 
 - **School:** Sōtō
 - **Teachers:** Gudo Wafu Nishijima
 
-Brad Warner is an American Soto Zen teacher, writer, and musician known for presenting Zen in a direct, colloquial style to a broad contemporary audience. He ordained under Gudo Wafu Nishijima and became one of Nishijima's best-known Western students, helping to popularize his teacher's emphasis on straightforward zazen practice and careful engagement with Dogen's thought.
+Brad Warner (born 5 March 1964 in Hamilton, Ohio) is an American Sōtō Zen priest, author, blogger, documentarian, and punk-rock bass guitarist — the most widely-read English-language teacher in the lineage of Gudō Wafu Nishijima[1]. He grew up mainly near Akron, Ohio (with a stint in Nairobi as a child while his father worked abroad), attended Kent State University, and as a teenager joined the hardcore punk band Zero Defex on bass after a friend introduced him to the Akron scene[1]. He later played in the psychedelic band Dimentia 13, which released several albums on the New York label Midnight Records.
 
-Warner's books and talks are marked by a refusal to romanticize Zen. He often frames practice in practical, demystifying terms, stressing that awakening is worked out in posture, conduct, and ordinary life rather than in spiritual theatrics.
+Warner began Zen practice in Ohio under Tim McCarthy and later studied with the Jōdo Shinshū-influenced teacher Gyōmay Kubose[1].
 
 ### Sesso Hoseki
 
@@ -3984,6 +3970,17 @@ Changsha Jingcen was a student of Nanquan Puyuan who is known for the extraordin
 
 This teaching of the complete interpenetration of the practitioner and the cosmos influenced later Caodong and Soto thought, particularly Dogen's understanding of practice-realization.
 
+### Pierre Sōkō Leroux
+
+- **Also known as:** Pierre Soko Leroux, Sōkō Leroux, Soko Leroux
+- **Dates:** Dates uncertain
+- **School:** Sōtō
+- **Teachers:** Stephane Kosen Thibaut
+
+Pierre Sōkō Leroux is a French Sōtō Zen monk in the Deshimaru lineage and one of the seven dharma-heirs (shihō recipients) of Stéphane Kōsen Thibaut[1][2]. He resides and teaches in Barcelona, where he is the founding teacher of the Zan Mai Zen network — a Sōtō Zen association in the Iberian peninsula descended, through Thibaut, from Taisen Deshimaru's Paris work[3].
+
+From Barcelona, Leroux directs and supervises practice across a cluster of Spanish and Portuguese dōjōs, ordains monks and nuns, and conducts sesshin in the kusen tradition transmitted to him by Kōsen Thibaut[3].
+
 ### Poan Zuxian
 
 - **Dates:** Dates uncertain
@@ -4078,10 +4075,9 @@ Shunki's place in the Soto succession represents the tradition's steady continui
 - **Dates:** Dates uncertain
 - **School:** Sōtō
 - **Teachers:** Taisen Deshimaru
+- **Students:** Pierre Sōkō Leroux
 
-Stephane Kosen Thibaut is a French Soto Zen teacher in the Deshimaru lineage and one of the better-known second-generation figures of European Zen. He practiced closely with Taisen Deshimaru and belongs to the group of close disciples who helped preserve and transmit Deshimaru's style of zazen after the founding generation passed.
-
-Kosen's teaching places strong emphasis on posture, discipline, and sustained sesshin practice in the mold established by Deshimaru. His role in the European Soto landscape is that of a consolidating successor: not the original transmitter from Japan to Europe, but one of the teachers through whom that transplanted tradition took stable local form.
+Stéphane Jacques Germain Thibaut, known under the religious name Kōsen, was born on 26 May 1950 in the 16th arrondissement of Paris and died on 21 September 2025 in Montpellier at the age of 75[1]. The son of the musician Gilles Thibaut and a teacher-psychologist mother, he studied theatre and mime at the École internationale Jacques Lecoq in Paris before, at nineteen, encountering Taisen Deshimaru, who was then introducing Sōtō Zen to Europe. He became Deshimaru's disciple, received monastic ordination, and practised at his master's side for some fifteen years until Deshimaru's death in 1982[1].
 
 ### Yantou Quanhuo
 
@@ -4664,7 +4660,9 @@ Anne Seisen Saunders (正泉) is a White Plum dharma heir of Taizan Maezumi and 
 - **School:** Sōtō
 - **Teachers:** Taisen Deshimaru
 
-Évelyne Ekō de Smedt is a French Sōtō Zen nun in the Deshimaru lineage and a longtime teacher in the Association Zen Internationale. Ordained by Taisen Deshimaru, she was among the small group of disciples who collaborated directly on the editing and publication of his teachings, and is the co-author with Deshimaru of "L'Anneau de la Voie" ("The Ring of the Way"), an early presentation of the kusen genre in French. Within AZI she has led zazen and taught at Parisian dōjōs and at the temple La Gendronnière, contributing to the consolidation of the European Sōtō tradition through several decades of sustained practice.
+Évelyne Ekō / Reiko de Smedt is a French Sōtō Zen nun in the Deshimaru lineage and one of Taisen Deshimaru's earliest female disciples. Listed on the Association Zen Internationale teacher roster as Maître Évelyne Reiko de Smedt — Ekō (慧光, "luminous wisdom") and Reiko being two forms of her dharma name — she was ordained by Deshimaru in the 1970s and became part of the small editorial circle around the master.
+
+Her most consequential contribution to Deshimaru's western mission was as a co-author. With Lucien Marchand she wrote Zen, religion de la vie quotidienne (Albin Michel, 1976) — among the very first French-language presentations of Zen as Deshimaru taught it, written contemporaneously with Deshimaru's own Paris mission and frequently reissued as a standard introductory text.
 
 ### Pierre Reigen Crépon
 
@@ -4673,7 +4671,9 @@ Anne Seisen Saunders (正泉) is a White Plum dharma heir of Taizan Maezumi and 
 - **School:** Sōtō
 - **Teachers:** Taisen Deshimaru
 
-Pierre Reigen Crépon is a French Sōtō Zen monk in the Deshimaru lineage and the principal biographer of Taisen Deshimaru in French. Ordained by Deshimaru, he has taught for decades within the Association Zen Internationale and was responsible — through his book on Deshimaru's life and his editorial work on the master's kusen — for shaping the standard biographical understanding of the AZI tradition's founder. His teaching combines a strong emphasis on continuous zazen practice in the lineage's idiom with an unusually careful historical sensibility about how Deshimaru's instruction has been transmitted, edited, and remembered.
+Pierre Reigen / Dōkan Crépon is a French Sōtō Zen monk in the Deshimaru lineage and the principal historian-biographer of Taisen Deshimaru in French. He is listed on the Association Zen Internationale teacher directory as Maître Pierre Dōkan Crépon (Dōkan being his Sōtō dharma name; Reigen the form preserved in older AZI records). Ordained by Deshimaru, he has taught within AZI for several decades.
+
+Crépon's enduring contribution is on the page. His long-form essay Maître Taisen Deshimaru et l'arrivée du zen en Europe — published on zen-azi.org and cited by the French Wikipedia article on Deshimaru as the canonical French-language source on the master's life — is the standard AZI account of Deshimaru's 1967 arrival in Paris and the founding decade of European Zen.
 
 ### Vincent Keisen Vuillemin
 
@@ -4682,7 +4682,9 @@ Pierre Reigen Crépon is a French Sōtō Zen monk in the Deshimaru lineage and t
 - **School:** Sōtō
 - **Teachers:** Taisen Deshimaru
 
-Vincent Keisen Vuillemin is a Swiss Sōtō Zen monk in the Deshimaru lineage and the founder of the Dōjō Zen de Genève. Ordained by Taisen Deshimaru, he has taught zazen in Geneva for several decades and is one of the principal AZI-affiliated teachers in French-speaking Switzerland. The Geneva dōjō, listed on the AZI directory and on the Sōtōshū Europe Office's directory of practice centres, has served as one of the stable points around which the European Sōtō network has continued to organise itself in the second and third generations after Deshimaru.
+Vincent Keisen Vuillemin is a Swiss Sōtō Zen monk in the Deshimaru–Zeisler line and the founder of the Dōjō Zen de Genève. He was ordained by Taisen Deshimaru in the late 1970s; after Deshimaru's death in 1982 he pursued his deeper formation as a disciple of Étienne Mokushō Zeisler, with whom he was closely associated until Zeisler's death in 1990. Mokusho Zen House Budapest — the Hungarian sangha founded by Yvon Myōken Bec, Zeisler's dharma-heir — explicitly identifies Vuillemin as "Vincent Keisen Vuillemin, from Geneva, disciple of master Zeisler".
+
+Through the Geneva dōjō and the Romandie network around it, Vuillemin has taught zazen in French-speaking Switzerland for several decades, becoming one of the principal AZI-affiliated teachers in the region.
 
 ---
 
@@ -4810,7 +4812,7 @@ The Taego Order (太古宗, 태고종) is the second largest Buddhist order in K
 ### Sōtō
 
 - **Tradition:** Zen
-- **Masters:** 96
+- **Masters:** 97
 
 The Soto school (曹洞宗) is the Japanese continuation of the Chinese Caodong tradition, founded by Eihei Dogen (1200–1253) after his training with Tiantong Rujing in China[1]. It is the largest Zen denomination in Japan[2]. Soto's central practice is shikantaza ('just sitting')—zazen practiced as the direct expression of awakening itself, not as a means to attain enlightenment[3]. Dogen articulated this in his masterwork the Shobogenzo—which is itself largely composed of koan commentary and philosophical inquiry—and in his practical manual the Fukanzazengi[3]. The school's second great figure, Keizan Jokin (1264–1325), founded Sojiji Temple and made Soto practice accessible to a broad Japanese population through the integration of esoteric ritual and ancestor veneration[1]. Together, Eiheiji (Dogen's temple) and Sojiji serve as the school's two head monasteries. In the modern era, the Soto tradition has been carried to the West by teachers including Shunryu Suzuki (San Francisco Zen Center), Taisen Deshimaru (Association Zen Internationale, Europe), Taizan Maezumi (Zen Center of Los Angeles), and Dainin Katagiri (Minnesota Zen Center), establishing vibrant practice communities across North America and Europe[4].
 
@@ -6938,6 +6940,41 @@ True Zen is useless. It does not serve any purpose. It is not useful for busines
 
 You must concentrate on zazen. Only zazen. Here, now, nothing else. Not the zazen of yesterday, not the zazen of tomorrow. This zazen, this breath, this posture. If you can truly be here, completely, for just one moment—that is satori.
 
+### Shikantaza: Only Sit
+
+- **Attribution:** Taisen Deshimaru
+- **Type:** sermon
+
+Shikantaza means only sit. Not sit and pray, not sit and concentrate on a mantra, not sit and try to understand a koan. Only sit. The body sits, the breath comes and goes, and that is enough. Dōgen said zazen itself is enlightenment—not the cause, not the means, but enlightenment as it actually appears. When you sit shikantaza, the Buddhas of all directions sit with you. There is no second step.
+
+### Kontin and Sanran: The Two Sicknesses of Zazen
+
+- **Attribution:** Taisen Deshimaru
+- **Type:** sermon
+
+In zazen, two sicknesses arise. Kontin: drowsiness, dullness, the mind sinking into a soft cloud. Sanran: agitation, the mind running after thoughts like a dog after a bone. Most beginners alternate between the two. The remedy is the same for both: come back to the posture. Push the earth with the knees. Push the sky with the head. Stretch the spine. The breath becomes long and quiet, the eyes open, the gaze drops to the floor in front of you. Then the mind clarifies on its own. You do not fight kontin or sanran—you let the posture cure them.
+
+### Shinjin Ichinyo: Body and Mind Are One
+
+- **Attribution:** Taisen Deshimaru
+- **Type:** saying
+
+In the West, you cut the body from the mind. The mind is up here, in the head, and the body is something the mind drags around. This is your great suffering. In zazen, you discover shinjin ichinyo: body and mind are one. The posture of the body is already the posture of the mind. When the spine is straight, the thought is straight. When the breath is deep, the consciousness is deep. There is no inner work to do separately—just take the right posture, and the rest follows.
+
+### The Way of the Warrior Is the Way of Zazen
+
+- **Attribution:** Taisen Deshimaru
+- **Type:** sermon
+
+The samurai who hesitates is already dead. The swordsman who calculates—"if I strike here, my opponent will move there"—loses the contest before it begins. True bushido is the same as true zen: act without ego, decide without calculation, give yourself entirely to the present moment. The sword cuts because the body cuts; the body cuts because the mind is mushotoku, without aim. Zazen is the deepest training of the warrior, and the warrior's discipline is the most concrete expression of zazen.
+
+### Eat When Hungry, Sleep When Tired
+
+- **Attribution:** Taisen Deshimaru
+- **Type:** saying
+
+Zen is not complicated. Eat when you are hungry. Sleep when you are tired. Sit zazen when it is time to sit. The whole difficulty is that we do not do these simple things—we eat without tasting, sleep without resting, sit without sitting. To return to the simplest action, completely, is the entire teaching. The most ordinary life, lived attentively, is already the life of a Buddha.
+
 ### Body and Mind Are One in Zazen
 
 - **Attribution:** Roland Rech
@@ -8120,6 +8157,60 @@ Panshan said, "Too late."
 A monk asked Baling, "What is the school of Yunmen?"
 
 Baling said, "A silver bowl filled with snow."
+
+### Sudden Awakening, Gradual Cultivation
+
+- **Attribution:** Bojo Jinul
+- **Type:** practice-instruction
+
+Jinul taught that the mind which is to be cultivated and the mind which awakens are not two. Practice, in his framing, begins with sudden awakening (頓悟): the direct recognition that one's own nature is already Buddha-nature, complete and unborn. From this single recognition flows gradual cultivation (漸修): the patient work of dissolving habit-energies that continue to arise even after recognition.
+
+In practice this means investigating the hwadu — the live phrase — until intellectual grasping is exhausted, and then sustaining that clarity through every activity of body and speech.
+
+### Investigating the Live Word
+
+- **Attribution:** Seosan Hyujeong
+- **Type:** practice-instruction
+
+Seosan held that the Seon practitioner takes up a single hwadu — most commonly Zhaozhou's 'Mu' or 'What is this?' (이뭣고, imwŏtgo) — and pursues it with the whole body and breath, not the analytical mind. The 'live word' (活句) is the phrase that cannot be reasoned about; the 'dead word' (死句) is the phrase one explains.
+
+'Whether walking, standing, sitting, or lying down, only investigate the live word. Do not let it drop for an instant.' Doubt that gathers and intensifies until the practitioner is one mass of doubt — that, for Seosan, is the only practice.
+
+### Hold Only the Don't-Know Mind
+
+- **Attribution:** Toeong Seongcheol
+- **Type:** practice-instruction
+
+Seongcheol, who served as the Patriarch of the Jogye Order, insisted that hwadu practice is the only door. He pointed his students to one phrase — most often 'What is this?' — and told them not to drop it through any of the four postures.
+
+'Don't try to figure out the answer. Don't try to make the doubt arise. Don't try to keep the question going. Just be the question.
+
+### Only Don't Know
+
+- **Attribution:** Seung Sahn
+- **Type:** practice-instruction
+
+Seung Sahn taught a single, deliberately simple practice. Sit upright. Breathe naturally. Ask, with the whole body, 'What am I?' — and meet the answer that arises with 'Only don't know.'
+
+'Don't-know mind cuts off all thinking. When you keep don't-know mind one hundred percent, this don't-know mind is your true self. So don't make anything. Don't hold anything. Just keep don't-know mind, moment to moment.' From that don't-know, he said, function appears: when you are hungry, eat; when tired, sleep; when someone is suffering, help. Practice is don't-know in motion.
+
+### Buddha in Each Ordinary Act
+
+- **Attribution:** Trần Nhân Tông
+- **Type:** practice-instruction
+
+Trần Nhân Tông, founder of the Trúc Lâm school of Vietnamese Thiền, taught that practice is not separate from the duties of the householder, the farmer, or the king. Awakened mind is found in the carrying of water, the planting of rice, the bowing in the family shrine.
+
+'In the home, be a filial child; in the world, a loyal subject; on the cushion, an upright sitter.
+
+### Breathing In, I Know I Am Breathing In
+
+- **Attribution:** Thích Nhất Hạnh
+- **Type:** practice-instruction
+
+Thích Nhất Hạnh framed practice as the conscious unification of body and mind through the breath. The first instruction is the simplest: 'Breathing in, I know I am breathing in. Breathing out, I know I am breathing out.' Awareness rides on the breath; the breath, when noticed, slows and deepens of itself.
+
+From that base he taught the gathas — short verses spoken silently with each breath ('Breathing in, I calm my body; breathing out, I smile') — and walking meditation, in which each step is taken in full awareness of contact with the earth.
 
 ### The Mind Is Buddha
 
@@ -10857,6 +10948,62 @@ Seosan Hyujeong's 1564 anthology — short passages drawn from sūtras and Chan 
 - **Type:** work
 
 Originally a long letter (1974) from Thích Nhất Hạnh to Brother Quang of the School of Youth for Social Service in Saigon, written during the Vietnam War. Translated by Mobi Ho and published by Beacon Press in 1975, it became the seminal English-language introduction to mindfulness practice — its descriptions of washing dishes, drinking tea, and walking shaped the secular mindfulness movement that followed.
+
+### The Zen Way to the Martial Arts (Zen et Arts Martiaux)
+
+- **Attribution:** Taisen Deshimaru
+- **Type:** work
+
+Deshimaru's most widely read book in English: a sustained meditation, originally published in French in 1977 as Zen et Arts Martiaux, on the shared root of zazen and bushidō. Drawing on his Saga upbringing and on kendō and judō practice with his European students, he frames the martial arts as a particular case of mushotoku attention — concentration without goal, action without ego — and uses them to explicate posture, breathing, and the quality of mind he called hishiryo. The standard introductory volume to his teaching for non-French readers.
+
+### Questions to a Zen Master (Questions à un maître zen)
+
+- **Attribution:** Taisen Deshimaru
+- **Type:** work
+
+A book-length transcript of Deshimaru's mondō — the question-and-answer sessions held after zazen at the Paris dōjō and at sesshin across Europe. Originally published as Questions à un maître zen (Pierre Belfond, 1981) and translated into English by Nancy Amphoux for E. P. Dutton in 1985, it preserves the unedited interrogative texture of his teaching: students asking about karma, sex, money, fear of death, and the nature of mind, and Deshimaru responding in compact, idiomatic French. One of the most accessible primary sources for his oral style.
+
+### The Voice of the Valley: Zen Teachings
+
+- **Attribution:** Taisen Deshimaru
+- **Type:** work
+
+An English-language compilation of Deshimaru's kusen prepared by his American disciple Philippe Reiryū Coupey, drawing on the dōjō transcripts of the late 1970s. The volume's title alludes to Dōgen's keisei sanshoku ("valley sounds, mountain colours") and frames Deshimaru's instruction as a contemporary continuation of the Sōtō tradition's attention to ordinary perception. Read alongside Sit and Mushotoku Mind, it is the principal English access point to his kusen.
+
+### The Ring of the Way (L'Anneau de la Voie)
+
+- **Attribution:** Taisen Deshimaru
+- **Type:** work
+
+A late-period volume co-authored with Évelyne Ekō de Smedt, in which Deshimaru comments verse-by-verse on classical Sōtō texts (the Hannya Shingyō, the Sandōkai, fragments of the Shōbōgenzō) interleaved with first-person reflection on practice and lineage. Published in French in 1982, the year of his death, and translated into English in 1983, it is the most explicit statement of his understanding of the transmission line he was inserting Europe into.
+
+### Sit: Zen Teachings of Master Taisen Deshimaru
+
+- **Attribution:** Taisen Deshimaru
+- **Type:** work
+
+A posthumous English-language anthology of Deshimaru's kusen, edited by Philippe Reiryū Coupey at the Paris dōjō from transcripts of zazen sessions held at the AZI in the late 1970s and early 1980s. The book is organised around fundamental Sōtō themes — the posture, breath, the bodhisattva precepts, the relation of zazen to ordinary life — and is widely used as the introductory English text in Deshimaru-line dōjōs.
+
+### Mushotoku Mind: The Heart of the Heart Sutra
+
+- **Attribution:** Taisen Deshimaru
+- **Type:** work
+
+A book-length kusen-commentary on the Hannya Shingyō (Heart Sutra), assembled by Philippe Reiryū Coupey from Deshimaru's oral teachings at the Paris dōjō. The volume threads Deshimaru's signature term — mushotoku, the mind without gaining idea — through the sutra's negation formulas ("no eye, no ear, no nose…"), reading the Heart Sutra not as a metaphysical thesis but as the description of the consciousness that arises in shikantaza.
+
+### Vrai Zen: Source vivante, racines profondes
+
+- **Attribution:** Taisen Deshimaru
+- **Type:** work
+
+Deshimaru's running French commentary on Dōgen's Shōbōgenzō, transcribed from teisho given at La Gendronnière. The volume is the closest he came to producing a sustained doctrinal exposition rather than situational kusen, and it shows him reading Dōgen line-by-line in French for an audience that had no access to the Japanese original. A central reference for the AZI's understanding of its Sōtō pedigree.
+
+### Le Bol et le Bâton: 120 contes zen
+
+- **Attribution:** Taisen Deshimaru
+- **Type:** work
+
+A posthumous collection of one hundred and twenty classical Zen tales as told and commented on by Deshimaru in the dōjō, prepared from kusen transcripts. The cases run from the Tang encounter dialogues through Dōgen's Shōbōgenzō anecdotes, each followed by Deshimaru's compact French commentary. Functions as the AZI's working koan-anthology in the absence of a formal Rinzai-style curriculum.
 
 ### Zen Keys: A Guide to Zen Practice
 

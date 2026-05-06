@@ -9,6 +9,7 @@ export interface BibliographyEntry {
   author: string;
   title: string;
   year: number;
+  url?: string;
 }
 
 export interface EventCitation {

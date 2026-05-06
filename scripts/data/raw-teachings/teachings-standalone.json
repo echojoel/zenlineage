@@ -1401,6 +1401,96 @@
     ]
   },
   {
+    "slug": "deshimaru-shikantaza-only",
+    "type": "sermon",
+    "author_slug": "taisen-deshimaru",
+    "collection": "Teachings of Taisen Deshimaru",
+    "era": "Showa",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "Shikantaza: Only Sit",
+    "content": "Shikantaza means only sit. Not sit and pray, not sit and concentrate on a mantra, not sit and try to understand a koan. Only sit. The body sits, the breath comes and goes, and that is enough. Dōgen said zazen itself is enlightenment—not the cause, not the means, but enlightenment as it actually appears. When you sit shikantaza, the Buddhas of all directions sit with you. There is no second step.",
+    "source_id": "src_zen_deshimaru_history",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Kusen on shikantaza, AZI dōjō transcripts",
+    "license_status": "fair_use",
+    "master_roles": [
+      { "slug": "taisen-deshimaru", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "deshimaru-kontin-sanran",
+    "type": "sermon",
+    "author_slug": "taisen-deshimaru",
+    "collection": "Teachings of Taisen Deshimaru",
+    "era": "Showa",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "Kontin and Sanran: The Two Sicknesses of Zazen",
+    "content": "In zazen, two sicknesses arise. Kontin: drowsiness, dullness, the mind sinking into a soft cloud. Sanran: agitation, the mind running after thoughts like a dog after a bone. Most beginners alternate between the two. The remedy is the same for both: come back to the posture. Push the earth with the knees. Push the sky with the head. Stretch the spine. The breath becomes long and quiet, the eyes open, the gaze drops to the floor in front of you. Then the mind clarifies on its own. You do not fight kontin or sanran—you let the posture cure them.",
+    "source_id": "src_zen_deshimaru_history",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Kusen on the two obstacles of zazen, AZI dōjō transcripts",
+    "license_status": "fair_use",
+    "master_roles": [
+      { "slug": "taisen-deshimaru", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "deshimaru-body-mind-one",
+    "type": "saying",
+    "author_slug": "taisen-deshimaru",
+    "collection": "Teachings of Taisen Deshimaru",
+    "era": "Showa",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "Shinjin Ichinyo: Body and Mind Are One",
+    "content": "In the West, you cut the body from the mind. The mind is up here, in the head, and the body is something the mind drags around. This is your great suffering. In zazen, you discover shinjin ichinyo: body and mind are one. The posture of the body is already the posture of the mind. When the spine is straight, the thought is straight. When the breath is deep, the consciousness is deep. There is no inner work to do separately—just take the right posture, and the rest follows.",
+    "source_id": "src_deshimaru_zen_way_to_martial_arts",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Kusen on shinjin ichinyo (body-mind unity), AZI dōjō transcripts and Zen and Martial Arts",
+    "license_status": "fair_use",
+    "master_roles": [
+      { "slug": "taisen-deshimaru", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "deshimaru-bushido-zazen",
+    "type": "sermon",
+    "author_slug": "taisen-deshimaru",
+    "collection": "Teachings of Taisen Deshimaru",
+    "era": "Showa",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "The Way of the Warrior Is the Way of Zazen",
+    "content": "The samurai who hesitates is already dead. The swordsman who calculates—\"if I strike here, my opponent will move there\"—loses the contest before it begins. True bushido is the same as true zen: act without ego, decide without calculation, give yourself entirely to the present moment. The sword cuts because the body cuts; the body cuts because the mind is mushotoku, without aim. Zazen is the deepest training of the warrior, and the warrior's discipline is the most concrete expression of zazen.",
+    "source_id": "src_deshimaru_zen_way_to_martial_arts",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Kusen on bushido and zazen, The Zen Way to the Martial Arts",
+    "license_status": "fair_use",
+    "master_roles": [
+      { "slug": "taisen-deshimaru", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "deshimaru-eat-when-hungry",
+    "type": "saying",
+    "author_slug": "taisen-deshimaru",
+    "collection": "Teachings of Taisen Deshimaru",
+    "era": "Showa",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "Eat When Hungry, Sleep When Tired",
+    "content": "Zen is not complicated. Eat when you are hungry. Sleep when you are tired. Sit zazen when it is time to sit. The whole difficulty is that we do not do these simple things—we eat without tasting, sleep without resting, sit without sitting. To return to the simplest action, completely, is the entire teaching. The most ordinary life, lived attentively, is already the life of a Buddha.",
+    "source_id": "src_zen_deshimaru_history",
+    "ingestion_run_id": "run_standalone_teachings",
+    "locator": "Kusen on ordinary mind, AZI dōjō transcripts",
+    "license_status": "fair_use",
+    "master_roles": [
+      { "slug": "taisen-deshimaru", "role": "attributed_to" }
+    ]
+  },
+  {
     "slug": "roland-rech-body-mind-one",
     "type": "sermon",
     "author_slug": "roland-rech",
