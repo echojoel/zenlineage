@@ -179,6 +179,11 @@ export const SRC_SANDO_KAISEN = "src_sando_kaisen";
 /** Dharma Drum Mountain — Chan Master Sheng Yen's global network: Chan
  * Meditation Center, DDRC Pine Bush, and DDMBA regional affiliates. */
 export const SRC_DHARMADRUM = "src_dharmadrum";
+/** Mokusho Zen House Budapest (mokushozen.hu) — Hungarian Sōtō Zen sangha
+ * founded 1992 by Yvon Myōken Bec, dharma-heir of Étienne Mokushō Zeisler;
+ * primary source for Zeisler's biography, the Eastern European mission, and
+ * Vincent Keisen Vuillemin's lineage. */
+export const SRC_MOKUSHO_HOUSE = "src_mokusho_house";
 
 // ─── Catch-all for the long tail of small directory citations ──────────
 /** EU Zen places research bundle — generic citation source for entries

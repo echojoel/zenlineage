@@ -346,6 +346,47 @@ const SOURCES = [
     publicationDate: "2025",
     reliability: "authoritative",
   },
+  // Disciples of Deshimaru: institutional source pages used as footnotes
+  // for biographies in seed-biographies.ts and scripts/data/deshimaru-lineage.ts.
+  // These are also re-upserted later by seed-temples.ts; registering them
+  // here ensures the FK is satisfied when biographies seed inside seed-db.
+  {
+    id: "src_kosen_sangha",
+    type: "website",
+    title: "Kosen Sangha — Maître Kosen / Kōsen Thibaut presentation",
+    author: "Kosen Sangha International",
+    url: "https://www.zen-deshimaru.com/fr/association-abzd/maitre-kosen/",
+    publicationDate: "2026",
+    reliability: "authoritative",
+  },
+  {
+    id: "src_kanshoji",
+    type: "website",
+    title: "Monastère Bouddhiste Zen Kanshoji — Founder & lineage",
+    author: "Kanshoji / Taiun Jean-Pierre Faure",
+    url: "https://www.kanshoji.org/kanshoji/",
+    publicationDate: "2026",
+    reliability: "authoritative",
+  },
+  {
+    id: "src_zen_road",
+    type: "website",
+    title: "Zen Road — Sangha Sans demeure (Philippe Reiryū Coupey)",
+    author: "Zen Road / Philippe Reiryū Coupey",
+    url: "https://zen-road.org/",
+    publicationDate: "2026",
+    reliability: "authoritative",
+  },
+  {
+    id: "src_mokusho_house",
+    type: "website",
+    title:
+      "Mokusho Zen House Budapest — Our Story (Étienne Mokushō Zeisler & the Eastern European mission)",
+    author: "Mokusho Zen House / Yvon Myōken Bec",
+    url: "https://www.mokushozen.hu/en/sample-page/our-story/",
+    publicationDate: "2026",
+    reliability: "authoritative",
+  },
   // ── Practice-instruction primary sources ────────────────────────────
   {
     id: "src_jinul_susimkyol",

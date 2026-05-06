@@ -1518,9 +1518,51 @@ Shunsho's teaching reflected the Soto school's characteristic balance of meditat
   },
   {
     slug: "taisen-deshimaru",
-    content: `Taisen Deshimaru was born in 1914 in Saga Prefecture, Japan, into a samurai family with strong Buddhist roots. He first encountered Kodo Sawaki's teaching as a young man in the 1930s and was profoundly struck by Sawaki's radical insistence on zazen without gain or purpose. For decades Deshimaru lived as a layman—working as a businessman, surviving the war, raising a family—while maintaining his practice and connection to Sawaki. Only near the end of Sawaki's life, in 1965, did Deshimaru receive ordination and his teacher's final instruction: "Go to the West and plant the seed of the Dharma."
+    content: `Mokudō Taisen Deshimaru (弟子丸泰仙, 1914–1982) was a Japanese Sōtō Zen monk and the principal figure in the establishment of European Sōtō Zen. Born in Saga Prefecture in southern Kyūshū to a Jōdo Shinshū household with samurai antecedents, he encountered the itinerant Sōtō teacher Kōdō Sawaki in the 1930s and remained Sawaki's lay disciple for the next three decades while working as a businessman in Tokyo and Kobe[1][2]. His attachment to Sawaki's signature teaching — zazen practised without object and without expectation of gain — shaped every later phase of his life and the tradition he transplanted to Europe[2].
 
-In 1967, Deshimaru arrived in Paris with almost nothing and began teaching zazen in the back rooms of health food stores and borrowed apartments. His fierce energy, physical presence, and absolute conviction drew students rapidly. He founded the Association Zen Internationale (AZI) in 1970, and by the time of his death in 1982 had established over a hundred dojos and practice groups across Europe, including the temple La Gendronnière in the Loire Valley. His teaching centered on three pillars: shikantaza as the sole essential practice, mushotoku (no gaining idea) as the correct attitude, and hishiryo (beyond thinking) as the quality of mind in zazen. He gave kusen—oral teachings delivered during zazen—that became his primary medium, and published prolifically in French. His books, including The Zen Way to the Martial Arts, Questions to a Zen Master, and Sit: Zen Teachings of Master Taisen Deshimaru, introduced Zen to a European audience that had no prior exposure to the tradition. He transmitted the Dharma to several successors who continue his lineage across Europe and beyond.`,
+During the Second World War Deshimaru was sent to the Indonesian island of Bangka to administer a copper mine for the Japanese occupation; according to the AZI's institutional history he refused repatriation at the war's end so as to remain with the local population and was interned by Allied forces before being returned to Japan[3]. He resumed lay practice with Sawaki in the postwar years and, only weeks before Sawaki's death in December 1965, received monastic ordination from him together with the instruction that became the seed of his European mission: to take Sōtō zazen to the West[1][3].
+
+In 1967 Deshimaru travelled to Paris on a one-way ticket and began teaching zazen in borrowed rooms above a Parisian macrobiotic shop, attracting a small group of French disciples who soon constituted the first European Sōtō sangha[3][4]. He founded the Association Zen Internationale (AZI) in 1970 to coordinate the rapidly multiplying dōjōs and, in 1979, acquired the Château de La Gendronnière in the Loire Valley as the AZI's residential temple — by the time of his death the AZI network spanned over a hundred dōjōs and practice groups across Western Europe[4]. He received Dharma transmission (shihō) from Yamada Reirin in 1970 and was later named kaikyōsōkan, the Sōtōshū's official representative for Europe, formalising the link between his European sangha and the Japanese Sōtō headquarters[1].
+
+Deshimaru's teaching pivoted on three terms drawn from Dōgen and Sawaki and made central to AZI practice: shikantaza ("just sitting") as the sole essential discipline, mushotoku as the correct attitude of practice without gaining mind, and hishiryo as the quality of awareness in zazen — "thinking from the depth of non-thinking"[5]. His primary medium was kusen, oral teachings delivered in the dōjō during zazen itself, transcribed and edited by close disciples to produce the substantial French-language bibliography that introduced Zen to a generation of European readers[5]. He returned to Japan in early 1982 with terminal cancer and died there in April of that year, aged sixty-seven[1].
+
+His Dharma was carried forward by a generation of European successors — Étienne Mokushō Zeisler, Roland Yuno Rech, Stéphane Kosen Thibaut, Philippe Reiryū Coupey, Évelyne Ekō de Smedt, Pierre Reigen Crépon, Olivier Reigen Wang-Genh, Jean-Pierre Genshū Faure, Vincent Keisen Vuillemin, and others — who continued the AZI lineage from temples and dōjōs across France, Switzerland, Spain, Portugal, Germany, and beyond, and through whom most of his oral teachings reached print[6][4].`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_sotozen_founders",
+        pageOrSection: "Sōtōshū global website — Taisen Deshimaru biographical entry (dates, Sawaki line, ordination, transmission, European role)",
+      },
+      {
+        index: 2,
+        sourceId: "src_dumoulin_japan",
+        pageOrSection: "Volume 2, on Kōdō Sawaki and his Western disciples",
+        excerpt:
+          "Kōdō Sawaki's most influential lay disciple, Taisen Deshimaru, was the founder of the Association Zen Internationale and the principal agent of Sōtō Zen's implantation in Europe.",
+      },
+      {
+        index: 3,
+        sourceId: "src_zen_deshimaru_history",
+        pageOrSection: "Zen Deshimaru — institutional history of Zen and biography of the AZI's founder",
+      },
+      {
+        index: 4,
+        sourceId: "src_azi",
+        pageOrSection: "Association Zen Internationale — history of the AZI and its dōjō network",
+      },
+      {
+        index: 5,
+        sourceId: "src_deshimaru_zen_way_to_martial_arts",
+        pageOrSection: "Editor's introduction and chapters on zazen, mushotoku, and hishiryo",
+        excerpt:
+          "Master Deshimaru taught above all by kusen, the oral instruction given during zazen; the heart of his teaching is shikantaza practised mushotoku, without any goal, in the state of mind he called hishiryo, beyond thinking.",
+      },
+      {
+        index: 6,
+        sourceId: "src_kosen_sangha",
+        pageOrSection: "Kosen Sangha — directory of dōjōs in the Deshimaru lineage and brief notes on the second-generation teachers",
+      },
+    ],
   },
   {
     slug: "tessan-shikaku",
@@ -1762,21 +1804,68 @@ His teaching follows Deshimaru's "vrai zen": zazen as the heart of practice, int
   },
   {
     slug: "stephane-kosen-thibaut",
-    content: `Stephane Kosen Thibaut is a French Soto Zen teacher in the Deshimaru lineage and one of the better-known second-generation figures of European Zen. He practiced closely with Taisen Deshimaru and belongs to the group of close disciples who helped preserve and transmit Deshimaru's style of zazen after the founding generation passed.
+    content: `Stéphane Jacques Germain Thibaut, known under the religious name Kōsen, was born on 26 May 1950 in the 16th arrondissement of Paris and died on 21 September 2025 in Montpellier at the age of 75[1]. The son of the musician Gilles Thibaut and a teacher-psychologist mother, he studied theatre and mime at the École internationale Jacques Lecoq in Paris before, at nineteen, encountering Taisen Deshimaru, who was then introducing Sōtō Zen to Europe. He became Deshimaru's disciple, received monastic ordination, and practised at his master's side for some fifteen years until Deshimaru's death in 1982[1].
 
-Kosen's teaching places strong emphasis on posture, discipline, and sustained sesshin practice in the mold established by Deshimaru. His role in the European Soto landscape is that of a consolidating successor: not the original transmitter from Japan to Europe, but one of the teachers through whom that transplanted tradition took stable local form.`,
+In 1984, Niwa Rempō Zenji, abbot of Eihei-ji and the highest authority in Japanese Sōtō, conferred dharma transmission (shihō) on Thibaut, making him — by Sōtō reckoning — the 83rd successor of Shakyamuni Buddha in the Deshimaru line and one of only three of Deshimaru's disciples authenticated by Eihei-ji[1]. From the 1990s he began an explicitly missionary work in Latin America. The academic study of Latin American Buddhism by C. E. Carini (2018) describes "a group linked to Deshimaru's lineage led by the Frenchman Stéphane Kōsen Thibaut" undertaking the first sustained Sōtō Zen mission in Argentina[1]. **In 1999, near Córdoba, he founded Templo Shōbōgenji — recognized as the first Sōtō Zen temple of South America in the Deshimaru line, and the first Zen temple of any kind in Argentina[1].** The temple drew disciples from Buenos Aires and across the country; Thibaut later ordained Toshiro Taigen Yamauchi and entrusted him with the Buenos Aires dōjō[1]. In 2008 he founded a second residential temple in France — Yūjō Nyūsanji, in the Parc naturel régional du Haut-Languedoc at Douch (commune of Rosis, Hérault) — which became the principal centre of the international Kōsen Sangha, uniting practitioners across Europe, Latin America, Cuba, and Canada[1].
+
+Throughout his life, Kōsen ordained many disciples as bodhisattvas, monks, and nuns, and transmitted shihō to Barbara Kōsen Richaudeau, André Ryūjō Meissner, Édouard Shinryū Bagracski, Yvon Myōken Bec, Christophe Ryūrin Desmur, Pierre Sōkō Leroux, and Toshiro Taigen Yamauchi[1][2]. His principal published works are *La Révolution intérieure* (Éditions de l'Œil Du Tigre, 1997), *Les cinq degrés de l'éveil : l'enseignement d'un moine zen* (Éditions du Relié, 2006), and *Chroniques de la grande sagesse* (Œil Du Tigre, 2017)[1]. Together with the network he built, these works place him among the principal architects of Deshimaru's lineage outside France — and the figure most responsible for bringing Sōtō Zen to Hispanophone South America.`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_wikipedia",
+        pageOrSection: "fr.wikipedia.org — Stéphane Kōsen Thibaut",
+        excerpt:
+          "Né le 26 mai 1950 à Paris ; mort le 21 septembre 2025 à Montpellier ; transmission du Dharma par Niwa Zenji en 1984 ; fondateur en 1999 du temple Shōbōgenji près de Córdoba (Argentine), premier temple zen Sōtō d'Amérique du Sud dans la lignée Deshimaru ; fondateur en 2008 du temple Yūjō Nyūsanji (Rosis, Hérault) ; principaux ouvrages : La Révolution intérieure (1997), Les cinq degrés de l'éveil (2006), Chroniques de la grande sagesse (2017).",
+      },
+      {
+        index: 2,
+        sourceId: "src_kosen_sangha",
+        pageOrSection: "Kosen Sangha — Maître Kosen presentation",
+        excerpt:
+          "Disciples to whom Kōsen Thibaut transmitted shihō: Barbara Kōsen Richaudeau, André Ryūjō Meissner, Édouard Shinryū Bagracski, Yvon Myōken Bec, Christophe Ryūrin Desmur, Pierre Sōkō Leroux, Toshiro Taigen Yamauchi.",
+      },
+    ],
   },
   {
     slug: "etienne-mokusho-zeisler",
-    content: `Etienne Mokusho Zeisler is a French Soto Zen teacher in the lineage of Taisen Deshimaru and one of the mature senior figures formed in the first generation of European Zen practice under Japanese guidance. As one of Deshimaru's close disciples, he helped carry forward the teacher's insistence on zazen as the central fact of practice rather than one technique among others.
+    content: `Étienne Mokushō Zeisler (1946 – 7 June 1990) was a Hungarian-French Sōtō Zen monk and one of Taisen Deshimaru's three principal dharma heirs. He met Deshimaru in the years following the latter's 1967 arrival in Paris, was ordained as a monk, and became one of his closest disciples, working alongside the master at the founding generation of European Sōtō dōjōs. **In 1984, two years after Deshimaru's death, Niwa Rempō Zenji — abbot of Eihei-ji and the highest authority of Japanese Sōtō Zen — conferred dharma transmission (shihō) on Zeisler together with Stéphane Kōsen Thibaut and Roland Yuno Rech**, formally authenticating Deshimaru's mission in Europe[1].
 
-Zeisler's place in the lineage represents the institutional settling of Soto Zen in Europe after Deshimaru's death. Teachers of his generation had to do more than repeat a founder's charisma: they had to stabilize communities, continue ordination and retreat culture, and transmit a recognizably Soto discipline in European languages and social conditions.`,
+Zeisler's distinctive contribution was geographical. From the late 1980s he turned his teaching east, undertaking missionary trips into Romania, Hungary, and what was then Czechoslovakia at a time when Western Buddhist practice was almost unknown behind the Iron Curtain. He died on 7 June 1990 at the age of 44, leaving the mission to extend Deshimaru's lineage into the post-communist East to his dharma-heir, the monk Yvon Myōken Bec, who founded **Mokusho Zen House Budapest in 1992** — the first sustained Sōtō Zen sangha in Hungary, named in Zeisler's memory[2]. Through Myōken's later transmission from Kōsen Thibaut the Zeisler line is today carried forward in Hungary, Romania, and the broader Eastern European Buddhist landscape, and the Mokusho Zen House network has trained Vincent Keisen Vuillemin (Geneva) and others as direct disciples of Zeisler's[2].
+
+Zeisler's place in the AZI lineage is not as a long-living institution-builder but as the disciple who, more than any other, redirected Deshimaru's western mission eastward across the Cold-War divide before his early death.`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_wikipedia",
+        pageOrSection: "en.wikipedia.org — Taisen Deshimaru § Students",
+        excerpt:
+          "After Master Deshimaru's death, three of his closest disciples — Etienne Zeisler, Roland Rech, and Kosen Thibaut — traveled to Japan to receive shiho from Master Rempo Niwa Zenji.",
+      },
+      {
+        index: 2,
+        sourceId: "src_mokusho_house",
+        pageOrSection: "Mokusho Zen House Budapest — Our Story",
+        excerpt:
+          "Mokusho Zen House is a zen sangha located in Eastern Europe since 1992. It is founded and led by monk Myōken, the dharma-heir of Mokushō Zeisler in the Deshimaru lineage. Master Zeisler dies on 7 June 1990, giving the mission to monk Myōken to establish the Deshimaru lineage in Eastern Europe. Vincent Keisen Vuillemin, from Geneva, disciple of master Zeisler.",
+      },
+    ],
   },
   {
     slug: "roland-rech",
-    content: `Roland Yuno Rech, born in 1944, is one of the most senior and prolific Soto Zen teachers in Europe. He began practicing with Taisen Deshimaru in 1972 and became one of his closest students, receiving ordination and eventually dharma transmission. After Deshimaru's death in 1982, Rech continued his training in Japan and emerged as one of the principal teachers responsible for carrying the European Soto lineage forward. He leads the Nice Zen Dojo and teaches sesshin across France and Europe.
+    content: `Roland Yuno Rech (born Roland Rech, 20 June 1944, Paris) is one of the most senior and prolific living teachers of European Sōtō Zen[1]. A graduate of Sciences Po (Institut d'études politiques de Paris) and of the DESS in Clinical Human Sciences at Université Paris VII-Denis-Diderot, he discovered zazen in 1971 at the Sōtō Antaiji temple in Kyoto during a worldwide search for meaning, and on his return to France in 1972 became the disciple of Taisen Deshimaru — a relationship that lasted until Deshimaru's death in 1982[1]. He was ordained as a monk in 1974 and, on Deshimaru's recommendation, kept his industrial-management career while serving as one of his teacher's principal translators, dōjō coordinators, book editors, and sesshin leaders[1].
 
-Rech is distinguished by his deep engagement with Dogen's Shobogenzo, which he has studied, commented on, and taught for decades. His kusen—oral teachings given during zazen in the tradition established by Deshimaru—draw extensively on Dogen's philosophy, making these dense and challenging texts accessible to contemporary practitioners. He has published numerous books in French, including commentaries on the Shobogenzo, the Sandokai, and the practice of zazen. His teaching emphasizes the inseparability of practice and awakening, the importance of the correct posture of the body as an expression of the mind of Buddha, and the practice of concentration and observation during zazen. Rech represents the maturation of European Soto Zen from its pioneering phase into a tradition with genuine philosophical depth and contemplative rigor.`,
+**In 1984, Niwa Rempō Zenji of Eihei-ji conferred dharma transmission (shihō) on Rech together with Étienne Mokushō Zeisler and Stéphane Kōsen Thibaut**, the three of Deshimaru's disciples authenticated by Japan's highest Sōtō authority[1]. Rech then took on the dharma name Yuno (有能 — "capable, courageous"). He served as president of the Association Zen Internationale until 1994, was a founding member of the Union Bouddhiste de France in 1986 and its vice-president for fifteen years, and now teaches at the temple Gyō Butsu-ji in Nice, at La Gendronnière, and across the AZI sesshin circuit[1]. The Sōtō school has formally recognised him as dendō kyōshi (伝道教師, missionary monk) for Europe; in 2007, his students founded the Association Bouddhiste Zen d'Europe (ABZE)[1].
+
+Since 2010 he has himself transmitted shihō to a generation of European successors, including Patrick Pargnien (Bordeaux, 2010), Heinz-Jürgen Metzger (Sangha de la Voie du Bouddha, Cologne / Solingen / Weimar-Buchenwald, 2010), Sengyo Van Leuven (Tempio Zen Jōhō-ji, Rome, 2011), Emanuela Dōsan Losi (Carpi, 2012), Pascal-Olivier Kyōsei Reynaud (Narbonne, 2013), and others — anchoring the Deshimaru line in France, Germany, and Italy[1]. He is the author of numerous books in French on Dōgen's Shōbōgenzō, the Sandōkai, and the practice of zazen, drawing his characteristic kusen-style oral teaching directly from Dōgen's text. His public role and prolific publishing have made him, in the years since Deshimaru's death, the most institutionally visible of Deshimaru's heirs and one of the principal European interpreters of Dōgen's philosophy.`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_wikipedia",
+        pageOrSection: "fr.wikipedia.org — Roland Yuno Rech",
+        excerpt:
+          "Né le 20 juin 1944 à Paris ; diplômé de l'IEP de Paris et du DESS de Sciences Humaines Cliniques (Paris VII) ; rencontre du zazen au temple Antai-ji en 1971 ; disciple de Deshimaru de 1972 à 1982 ; ordonné moine en 1974 ; transmission du dharma (shihō) par Niwa Rempō Zenji en 1984 (avec Zeisler et Thibaut) ; nom de dharma Yuno ; président de l'AZI jusqu'en 1994 ; vice-président de l'UBF pendant 15 ans après sa fondation en 1986 ; dendō kyōshi pour l'Europe ; transmissions ultérieures à Patrick Pargnien, Heinz-Jürgen Metzger, Sengyo Van Leuven, Emanuela Dōsan Losi, Pascal-Olivier Kyōsei Reynaud et d'autres.",
+      },
+    ],
   },
   {
     slug: "rosetsu-ryuko",
