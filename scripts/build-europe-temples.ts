@@ -86,17 +86,52 @@ const DUP_PATTERNS: { pattern: RegExp; existingSlug: string }[] = [
     pattern: /maison\s*de\s*l['']?\s*inspir/i,
     existingSlug: "maison-de-linspir",
   },
+  // Curated rows (in seed-temples.ts) that agents tried to re-import under
+  // slightly different slugs. Pattern matches the agent's full name so the
+  // duplicate is dropped before slugification.
+  { pattern: /throssel\s*hole/i, existingSlug: "throssel-hole-abbey" },
+  { pattern: /chogye\s*international/i, existingSlug: "chogye-international-nyc" },
+  { pattern: /zen\s*center\s*of\s*las\s*vegas/i, existingSlug: "zen-center-las-vegas" },
+  { pattern: /^dharma\s*zen\s*center$/i, existingSlug: "dharma-zen-center-la" },
+  { pattern: /jikishoan/i, existingSlug: "jikishoan-melbourne" },
+  { pattern: /^zen\s*open\s*circle$/i, existingSlug: "zen-open-circle-sydney" },
+  { pattern: /lions\s*gate\s*buddhist\s*priory/i, existingSlug: "lions-gate-priory" },
+  { pattern: /^templo\s*(zen\s*)?sh[ōo]b[ōo]genji$/i, existingSlug: "templo-shobogenji-cordoba" },
+  { pattern: /^jogye-?\s*sa$/i, existingSlug: "jogye-sa-seoul" },
+  // Match either the diacriticked Vietnamese form ("Thiền viện Trúc Lâm Đà Lạt")
+  // or the ASCII form (after stripDiacritics) — isDuplicate tests both.
+  {
+    pattern: /thien\s*vien\s*truc\s*lam\s*da\s*lat/i,
+    existingSlug: "truc-lam-dalat",
+  },
+  // Curated row tu-dam-pagoda already covers this Huế temple under both
+  // "Từ Đàm Pagoda" (en) and "Chùa Từ Đàm" (vi).
+  {
+    pattern: /(chua\s*tu\s*dam|tu\s*dam\s*pagoda)/i,
+    existingSlug: "tu-dam-pagoda",
+  },
 ];
 
 function isDuplicate(name: string): string | null {
+  // Match against both the raw name and a diacritic-stripped lowercase form
+  // so simple ASCII patterns also catch Vietnamese / Korean / Japanese names
+  // (e.g. "Thiền viện Trúc Lâm Đà Lạt" decomposes to "thien vien truc lam da lat").
+  const ascii = stripDiacritics(name).toLowerCase();
   for (const { pattern, existingSlug } of DUP_PATTERNS) {
-    if (pattern.test(name)) return existingSlug;
+    if (pattern.test(name) || pattern.test(ascii)) return existingSlug;
   }
   return null;
 }
 
 function stripDiacritics(s: string): string {
-  return s.normalize("NFD").replace(/[̀-ͯ]/g, "");
+  // Vietnamese đ/Đ are precomposed (U+0111 / U+0110) and survive NFD —
+  // map them to d/D explicitly so dup patterns like /chua\s*tu\s*dam/i
+  // still catch agent-supplied "Chùa Từ Đàm".
+  return s
+    .normalize("NFD")
+    .replace(/[̀-ͯ]/g, "")
+    .replace(/đ/g, "d")
+    .replace(/Đ/g, "D");
 }
 
 function slugify(s: string): string {
@@ -113,6 +148,54 @@ function slugify(s: string): string {
 function nameForSlug(fullName: string): string {
   const before = fullName.split(/\s*\(/)[0].trim();
   return before.length >= 4 ? before : fullName;
+}
+
+// Two-letter Australian state codes used inconsistently by some agents.
+const AU_STATE_NAMES: Record<string, string> = {
+  ACT: "Australian Capital Territory",
+  NSW: "New South Wales",
+  NT: "Northern Territory",
+  QLD: "Queensland",
+  SA: "South Australia",
+  TAS: "Tasmania",
+  VIC: "Victoria",
+  WA: "Western Australia",
+};
+
+// Many agents emitted region as "City, State" or "Town, Region" — collapse
+// to just the broader administrative unit (last comma segment) so region
+// grouping in the UI stays consistent. Also expand AU state abbreviations.
+function normalizeRegion(region: string, country: string): string {
+  let r = region.trim();
+  if (r.includes(",")) r = r.split(",").pop()!.trim();
+  if (country === "Australia" && AU_STATE_NAMES[r]) r = AU_STATE_NAMES[r];
+  return r;
+}
+
+// Lineage strings drift heavily for the most common schools — same school
+// shows up under 5+ surface labels. Canonicalize the high-volume clusters
+// so the rendered lineage chip is consistent. Lineages that genuinely
+// encode a sub-network (Sōtō / Deshimaru AZI vs. Sōtō / Kanshoji) are
+// left alone — that information is meaningful.
+function canonicalizeLineage(rawLineage: string, school: string): string {
+  const l = rawLineage.toLowerCase();
+  if (school === "plum-village") {
+    return "Plum Village (Thích Nhất Hạnh)";
+  }
+  if (school === "kwan-um") {
+    return "Kwan Um School of Zen (Korean Seon)";
+  }
+  if (school === "white-plum-asanga") {
+    if (/de waele|zen sangha/.test(l))
+      return "Sōtō / White Plum Asanga (Frank De Waele Roshi)";
+    if (/peacemaker/.test(l)) return "Zen Peacemakers (Bernie Glassman)";
+    return "White Plum Asanga (Maezumi lineage)";
+  }
+  if (school === "jogye" && !/jogye/i.test(rawLineage)) {
+    // Generic "Korean Seon" → tag the dominant order explicitly.
+    return "Korean Seon (Jogye Order)";
+  }
+  return rawLineage;
 }
 
 // Lineage free-text → school slug (must match a row in `schools`).
@@ -138,6 +221,16 @@ function lineageToSchoolSlug(lineage: string): string {
   // rather than blindly assigning Plum Village.
   if (l.includes("thiền") || l.includes("thien")) return "other";
   if (l.includes("sanbō zen") || l.includes("sanbo zen")) return "sanbo-zen";
+  // White Plum / Maezumi descendants and Bernie Glassman's Zen Peacemakers.
+  // MUST come before "rinzai" / "soto" fallbacks: many White Plum entries
+  // tag themselves "Sōtō / White Plum (Maezumi)" — without this check they
+  // fall to the Sōtō default and the white-plum-asanga school stays empty.
+  if (
+    l.includes("white plum") ||
+    l.includes("maezumi") ||
+    l.includes("peacemaker")
+  )
+    return "white-plum-asanga";
   if (l.includes("rinzai")) return "rinzai";
   if (l.includes("ōbaku") || l.includes("obaku")) return "obaku";
   if (l.includes("chan") || l.includes("ch'an")) return "chan";
@@ -429,6 +522,12 @@ async function main(): Promise<void> {
       const schoolSlug = lineageToSchoolSlug(p.lineage);
       const sourceId = pickSourceId(p.source_url, p.lineage);
       const excerpt = buildExcerpt(p);
+      const region = normalizeRegion(p.region, country);
+      const canonicalLineage = canonicalizeLineage(p.lineage, schoolSlug);
+      const excerptCanonical =
+        canonicalLineage === p.lineage
+          ? excerpt
+          : excerpt.replace(`(${p.lineage})`, `(${canonicalLineage})`);
 
       lines.push(
         `  {
@@ -436,14 +535,14 @@ async function main(): Promise<void> {
     names: [{ locale: "en", value: ${JSON.stringify(p.name)} }],
     lat: ${coords[0]},
     lng: ${coords[1]},
-    region: ${JSON.stringify(p.region)},
+    region: ${JSON.stringify(region)},
     country: ${JSON.stringify(country)},
     foundedYear: null,
     foundedPrecision: null,
     schoolSlug: ${JSON.stringify(schoolSlug)},
     status: "active",
     sourceId: ${JSON.stringify(sourceId)},
-    sourceExcerpt: ${JSON.stringify(excerpt)},
+    sourceExcerpt: ${JSON.stringify(excerptCanonical)},
     url: ${JSON.stringify(p.url)},
   },`
       );

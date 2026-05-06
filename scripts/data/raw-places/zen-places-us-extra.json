@@ -15,17 +15,7 @@
       "address": null,
       "url": "https://southfloridazen.org/locations/bo-hyun-sa-temple/",
       "source_url": "https://southfloridazen.org/locations/bo-hyun-sa-temple/",
-      "notes": "Korean Buddhist temple of the Chogye Order serving the Korean Buddhist community of Fort Lauderdale, Miami, and West Palm Beach. Hosts the South Florida Zen Group (Kwan Um) for Saturday-morning practice."
-    },
-    {
-      "name": "South Florida Zen Group",
-      "city": "Dania Beach",
-      "region": "Florida",
-      "lineage": "Korean Seon (Kwan Um School of Zen — Seung Sahn)",
-      "address": null,
-      "url": "https://southfloridazen.org/",
-      "source_url": "https://www.kwanumzen.org/find-a-group",
-      "notes": "Kwan Um sangha covering the Fort Lauderdale / Miami / West Palm Beach corridor; sittings at Bo Hyun Sa (Southwest Ranches) Saturday 9am and at the Zen Mystery Café in Dania Beach."
+      "notes": "Korean Buddhist temple of the Chogye Order serving the Korean Buddhist community of Fort Lauderdale, Miami, and West Palm Beach. Hosts the South Florida Zen Group (Kwan Um) for Saturday-morning practice. The Kwan Um sangha itself is captured separately in the main us.json file."
     }
   ]
 }
