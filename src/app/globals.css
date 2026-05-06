@@ -849,6 +849,16 @@ body {
   margin: 0.7rem 0 0;
 }
 
+/* Quiet page-level note — used for the single-sentence "Corrections
+   welcome — open an issue." line on detail/index pages. Sits below the
+   subtitle, smaller and softer; no chrome, no separator, no icon. */
+.detail-page-note {
+  margin: 1.1rem 0 0;
+  font-size: 0.72rem;
+  color: var(--ink-light);
+  letter-spacing: 0.04em;
+}
+
 .detail-native-names {
   margin: 0.5rem 0 0;
   font-family: var(--font-cormorant), Georgia, serif;
@@ -2056,27 +2066,6 @@ a.footnote-source-link:hover {
 
 .practice-map-popup-link a:hover {
   text-decoration-color: var(--ink);
-}
-
-/* Quiet correction-invite — same idea as the AccuracyFooter on master and
-   school pages: ask people to fix things rather than admire them. Smaller
-   and lighter than the surrounding links so it doesn't compete with the
-   primary "Official website" / school / founder rows. */
-.practice-map-popup-correct {
-  margin: 0.55rem 0 0;
-  padding-top: 0.45rem;
-  border-top: 1px solid rgba(122, 106, 85, 0.18);
-  font-size: 0.72rem;
-}
-.practice-map-popup-correct a {
-  color: var(--ink-light);
-  text-decoration: none;
-}
-.practice-map-popup-correct a:hover {
-  color: var(--ink);
-  text-decoration: underline;
-  text-decoration-color: var(--ink-light);
-  text-underline-offset: 2px;
 }
 
 /* ===== Cross-browser overflow safety =====

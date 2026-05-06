@@ -114,6 +114,18 @@ export default async function PracticePage() {
           <p className="detail-subtitle">
             Temples, zendōs, seonbangs, and Thiền centers around the world.
           </p>
+          <p className="detail-page-note">
+            Corrections welcome —{" "}
+            <a
+              href="https://github.com/echojoel/zenlineage/issues/new?labels=data-correction&title=Correction:%20temple/"
+              className="detail-inline-link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              open an issue
+            </a>
+            .
+          </p>
         </section>
 
         {totalTemples > 0 ? (
