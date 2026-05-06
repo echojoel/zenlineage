@@ -1,6 +1,7 @@
 import { ImageResponse } from "next/og";
 
 export const runtime = "nodejs";
+export const dynamic = "force-static";
 export const alt = "Zen Lineage — an interactive encyclopedia of Zen Buddhism";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
@@ -33,9 +34,17 @@ export default async function OpenGraphImage() {
         </div>
         <div style={{ display: "flex", flexDirection: "column", gap: 24 }}>
           <div style={{ fontSize: 220, lineHeight: 1, color: "#5a7a5a" }}>禅</div>
-          <div style={{ fontSize: 64, lineHeight: 1.15, fontWeight: 300 }}>
-            An interactive encyclopedia
-            <br /> of Zen Buddhism.
+          <div
+            style={{
+              fontSize: 64,
+              lineHeight: 1.15,
+              fontWeight: 300,
+              display: "flex",
+              flexDirection: "column",
+            }}
+          >
+            <span>An interactive encyclopedia</span>
+            <span>of Zen Buddhism.</span>
           </div>
         </div>
         <div style={{ fontSize: 26, color: "#7a6a55" }}>

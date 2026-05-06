@@ -4,6 +4,7 @@ import { db } from "@/db";
 import { schoolNames, schools } from "@/db/schema";
 
 export const runtime = "nodejs";
+export const dynamic = "force-static";
 export const alt = "Zen school — Zen Lineage";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
@@ -30,9 +31,9 @@ export async function generateStaticParams() {
 export default async function SchoolOpenGraphImage({
   params,
 }: {
-  params: { slug: string };
+  params: Promise<{ slug: string }>;
 }) {
-  const { slug } = params;
+  const { slug } = await params;
 
   const schoolRows = await db
     .select({ id: schools.id, tradition: schools.tradition })

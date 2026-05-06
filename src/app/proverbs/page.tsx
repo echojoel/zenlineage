@@ -57,12 +57,13 @@ export const metadata: Metadata = {
   },
 };
 
-export default async function ProverbsPage({
-  searchParams,
-}: {
-  searchParams: Promise<{ highlight?: string }>;
-}) {
-  const { highlight } = await searchParams;
+// Static export: searchParams aren't available at build time, so the
+// `?highlight=` deep-link from the homepage lands on the page and is
+// resolved client-side by ProverbsClient (which reads window.location).
+export const dynamic = "force-static";
+
+export default async function ProverbsPage() {
+  const highlight: string | undefined = undefined;
   // 1. Fetch all proverb teachings with content
   const proverbRows = await db
     .select({

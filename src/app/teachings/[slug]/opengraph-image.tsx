@@ -4,6 +4,7 @@ import { db } from "@/db";
 import { teachingContent, teachings } from "@/db/schema";
 
 export const runtime = "nodejs";
+export const dynamic = "force-static";
 export const alt = "Teaching — Zen Lineage";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
@@ -16,9 +17,9 @@ export async function generateStaticParams() {
 export default async function TeachingOpenGraphImage({
   params,
 }: {
-  params: { slug: string };
+  params: Promise<{ slug: string }>;
 }) {
-  const { slug } = params;
+  const { slug } = await params;
 
   const row = (
     await db
@@ -68,7 +69,7 @@ export default async function TeachingOpenGraphImage({
             color: "#7a6a55",
           }}
         >
-          Zen Lineage · {(row?.type ?? "Teaching").toString()}
+          {`Zen Lineage · ${row?.type ?? "Teaching"}`}
         </div>
         <div style={{ display: "flex", flexDirection: "column", gap: 24 }}>
           <div style={{ fontSize: 72, lineHeight: 1.1, fontWeight: 400 }}>
@@ -87,8 +88,7 @@ export default async function TeachingOpenGraphImage({
                 maxWidth: "1000px",
               }}
             >
-              {excerpt}
-              {row?.content && row.content.length > 220 ? "…" : ""}
+              {excerpt + (row?.content && row.content.length > 220 ? "…" : "")}
             </div>
           )}
         </div>

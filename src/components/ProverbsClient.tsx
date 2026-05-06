@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useMemo, useCallback } from "react";
+import { useState, useMemo, useCallback, useEffect } from "react";
 import Fuse from "fuse.js";
 import Link from "next/link";
 import type { ProverbListItem } from "@/app/proverbs/page";
@@ -32,11 +32,30 @@ export default function ProverbsClient({
   highlightSlug = null,
 }: Props) {
   const [order, setOrder] = useState(proverbs);
+  const [activeHighlight, setActiveHighlight] = useState<string | null>(
+    highlightSlug ?? null
+  );
   const [query, setQuery] = useState("");
   const [selectedTheme, setSelectedTheme] = useState("all");
   const [selectedSchool, setSelectedSchool] = useState("all");
   const [selectedEra, setSelectedEra] = useState("all");
   const [visibleCount, setVisibleCount] = useState(BATCH_SIZE);
+
+  // Static export can't see ?highlight= server-side, so the homepage
+  // deep-link is resolved here instead. Float the highlighted proverb
+  // to the top once on mount.
+  useEffect(() => {
+    if (typeof window === "undefined") return;
+    const params = new URLSearchParams(window.location.search);
+    const slug = params.get("highlight");
+    if (!slug) return;
+    if (!proverbs.some((p) => p.slug === slug)) return;
+    setActiveHighlight(slug);
+    setOrder((prev) => [
+      ...prev.filter((p) => p.slug === slug),
+      ...prev.filter((p) => p.slug !== slug),
+    ]);
+  }, [proverbs]);
 
   const handleShuffle = useCallback(() => {
     setOrder(shuffle(order));
@@ -207,7 +226,7 @@ export default function ProverbsClient({
           <ProverbEntry
             key={p.id}
             proverb={p}
-            highlighted={p.slug === highlightSlug}
+            highlighted={p.slug === activeHighlight}
           />
         ))}
       </div>
