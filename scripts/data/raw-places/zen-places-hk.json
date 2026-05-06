@@ -2,43 +2,84 @@
   "_meta": {
     "country": "Hong Kong",
     "collectedAt": "2026-05-05",
-    "method": "Web research on major Chan/Zen institutions with HK presence: Plum Village (AIAB), Dharma Drum HK, Chung Tai HK.",
-    "coverageEstimate": "High for institutional Chan/Zen practice centers. Lower for smaller lay sanghas.",
+    "method": "Merged from two research passes: (A) BuddhaNet World Buddhist Directory, Plum Village monastic practice-centre directory, Dharma Drum Mountain affiliate list, Chung Tai Chan global directory, Kwan Um School of Zen center listings, Western Chan Fellowship trip reports, and mainstream travel/tourism listings for major Chan/Zen monasteries; (B) earlier pass on Foguangshan and Chi Lin Nunnery.",
+    "coverageEstimate": "High for institutional Chan/Zen practice centers (Plum Village, DDM, Chung Tai, Kwan Um, Foguangshan, traditional monasteries). Lower for smaller lay sanghas.",
     "knownGaps": [
       "Smaller Plum Village lay sanghas in Hong Kong not enumerated.",
-      "Fo Guang Shan HK branches may exist but not separately verified."
+      "Local lay Zen/Chan groups that meet in rented rooms or private homes and are not listed in public directories are excluded to avoid unverifiable, shifting locations.",
+      "Macau Chan temples not yet surveyed."
     ]
   },
   "places": [
     {
-      "name": "Asian Institute of Applied Buddhism (AIAB) – Lotus Pond Temple",
-      "city": "Lantau Island",
-      "region": "Ngong Ping",
-      "lineage": "Plum Village / Vietnamese Thien (Thich Nhat Hanh)",
-      "address": "Lotus Pond Temple, Ngong Ping, Lantau Island, Hong Kong",
-      "url": "https://www.pvfhk.org/",
-      "source_url": "https://plumvillage.org/practice-centre/aiab-3",
-      "notes": "Plum Village monastic practice center for Asia, founded by Thich Nhat Hanh; resident monks and nuns lead retreats."
+      "name": "Po Lin Monastery (Po Lin Chansi)",
+      "city": "Hong Kong",
+      "region": "Hong Kong SAR",
+      "lineage": "Chan (Chinese Zen, Po Lin Monastery)",
+      "address": "Ngong Ping Plateau, Lantau Island, Hong Kong",
+      "url": "https://plm.org.hk",
+      "source_url": "https://intotravelchina.com/attractions/hongkong_attraction/po-lin-monastery.html",
+      "notes": "Major Chan Buddhist monastery on Ngong Ping Plateau, often described as one of Hong Kong's foremost Zen monasteries and part of the 'Southern Buddhist Realm'. Founded in 1906 by three monks from Jiangsu; it grew from a remote hermitage ('Big Hut') into one of Hong Kong's largest Buddhist complexes and a key center of Chan practice. Adjacent to the Tian Tan (Big) Buddha and offering daily services, vegetarian meals, and pilgrimage facilities for practitioners and visitors. Native: 寶蓮禪寺 (Bǎolián Chán Sì)."
     },
     {
-      "name": "Dharma Drum Mountain Hong Kong Centre",
+      "name": "Lotus Pond Temple (Plum Village Hong Kong, Asian Institute of Applied Buddhism)",
       "city": "Hong Kong",
-      "region": "Kowloon (Lai Chi Kok)",
+      "region": "Hong Kong SAR",
+      "lineage": "Plum Village (Thich Nhat Hanh)",
+      "address": "Lotus Pond Temple, Ngong Ping, Lantau Island, Hong Kong",
+      "url": "https://www.pvfhk.org",
+      "source_url": "https://plumvillage.org/community/monastic-practice-centres",
+      "notes": "Monastic practice centre of the Plum Village tradition in Hong Kong, known as the Asian Institute of Applied Buddhism (AIAB), located at Lotus Pond Temple on Lantau Island. Hosts a resident community of monks and nuns who lead retreats and mindfulness programs in Thich Nhat Hanh's engaged Zen lineage. Recognized by Plum Village as the home of Plum Village in Hong Kong and part of its international network of practice centres. Native: 蓮池寺 / 亞洲應用佛學院 (Liánchí Sì / Yàzhōu Yìngyòng Fóxuéyuàn)."
+    },
+    {
+      "name": "Su Bong Zen Monastery",
+      "city": "Hong Kong",
+      "region": "Hong Kong SAR",
+      "lineage": "Kwan Um (Korean Seon, Jogye)",
+      "address": "5/F, Starlight House, 32 Leighton Road, Causeway Bay, Hong Kong",
+      "url": "https://www.subong.org.hk/en/content/introduction",
+      "source_url": "https://www.buddhanet.info/wbd/country.php?country_id=41",
+      "notes": "Urban Zen center founded in 1992 and named after Zen Master Su Bong, serving as the main Kwan Um School of Zen monastery in Hong Kong. Offers zazen, kong-an (koan) interviews, retreats, and regular group practice under teachers authorized in the Kwan Um School lineage of Seung Sahn. Listed in the BuddhaNet World Buddhist Directory as a Mahayana center in the Kwan Um School of Zen, with Zen Master Dae Kwan as resident teacher. Native: 秀峰禪院 (Xiùfēng Chán Yuàn)."
+    },
+    {
+      "name": "Gak Su Temple International Zen Center",
+      "city": "Hong Kong",
+      "region": "Hong Kong SAR",
+      "lineage": "Kwan Um (Korean Seon, Jogye)",
+      "address": "17A Luk Wu, Lantau Island, Hong Kong",
+      "url": "https://www.subong.org.hk/en/content/gak-su-temple",
+      "source_url": "https://www.buddhanet.info/wbd/country.php?country_id=41",
+      "notes": "Mountain Zen temple and retreat center of Su Bong Zen Monastery, located in Luk Wu on Lantau Island, an area with a 130-year history of Buddhist hermitages. Identified by BuddhaNet as 'Gak Su Mountain Temple', a Mahayana center in the Kwan Um School of Zen founded by Zen Master Seung Sahn with Zen Master Dae Kwan as teacher. Hosts intensive Kyol Che retreats and residential practice periods for monks, nuns, and lay practitioners following Kwan Um School forms. Native: 覺修禪寺 (Juéxiū Chán Sì)."
+    },
+    {
+      "name": "Puguang Meditation Center (Chung Tai Chan Monastery Hong Kong Branch)",
+      "city": "Hong Kong",
+      "region": "Hong Kong SAR",
+      "lineage": "Chan / Linji (Chung Tai Chan Monastery)",
+      "address": "G/F, Kingstown Mansion, 319-323 Jaffe Road, Wan Chai, Hong Kong",
+      "url": "http://www.ctworld.org/108/puguang3/index.htm",
+      "source_url": "https://www.buddhanet.info/wbd/country.php?country_id=41",
+      "notes": "Urban Chan meditation center functioning as the Hong Kong branch of Chung Tai Chan Monastery, a major contemporary Chan organization. BuddhaNet lists Puguang Meditation Center as a Mahayana Linji Chan center affiliated with Chung Tai Chan Monastery, providing contact details and location in Hong Kong. Chung Tai's global directory notes Hong Kong among its overseas branches, with Puguang as its local meditation center serving city practitioners. Native: 普光精舍 (Pǔguāng Jīngshè)."
+    },
+    {
+      "name": "Dharma Drum Mountain Hong Kong Center (DDM Hong Kong)",
+      "city": "Hong Kong",
+      "region": "Hong Kong SAR",
       "lineage": "Chan / Sheng-yen (Dharma Drum Mountain)",
       "address": "Room 205, 2/F, Block B, Alexandra Industrial Building, 23-27 Wing Hong Street, Lai Chi Kok, Kowloon, Hong Kong",
-      "url": "https://www.ddmhk.org.hk/",
-      "source_url": "http://www.chancenter.org/chanctr/alinks.html",
-      "notes": "Hong Kong branch of Dharma Drum Mountain; offers regular Chan meditation classes and Sheng-yen teachings."
+      "url": "https://www.ddmhk.org.hk",
+      "source_url": "https://www.buddhanet.info/wbd/country.php?country_id=41",
+      "notes": "City practice center of Dharma Drum Mountain founded by Chan Master Sheng Yen, listed by BuddhaNet as a Mahayana Chinese Chan (Zen) organization in Lai Chi Kok, Kowloon. DDM's global affiliates and related listings confirm DDM Hong Kong as an official branch offering Chan meditation, Dharma classes, and community programs in the Dharma Drum lineage. Registered locally as Dharma Drum Mountain Foundation (Hong Kong Branch) with the same Wing Hong Street address and website. Native: 法鼓山香港道場 (Fǎgǔshān Xiānggǎng Dàochǎng)."
     },
     {
-      "name": "Pu Guang Meditation Center (Chung Tai HK)",
+      "name": "Po Lam Monastery (Po Lam Chan Monastery)",
       "city": "Hong Kong",
-      "region": "Wanchai",
-      "lineage": "Chan / Linji (Chung Tai Shan)",
-      "address": "G/F, Kingstown Mansion, 319-323 Jaffe Rd., Wanchai, Hong Kong",
-      "url": "https://www.ctworld.org/",
-      "source_url": "https://www.ctworld.org.tw/english-96/html/03_Centers.html",
-      "notes": "Hong Kong branch meditation center of Chung Tai Chan Monastery."
+      "region": "Hong Kong SAR",
+      "lineage": "Chan (Chinese Mahayana, Xuyun lineage)",
+      "address": "Tei Tong Tsai, Lantau Island, Hong Kong",
+      "url": "https://westernchanfellowship.org/dharma/library/article/life-at-po-lam-chan-monastery-hong-kong/",
+      "source_url": "https://www.buddhanet.info/wbd/country.php?country_id=41",
+      "notes": "Forest-style Chan monastery at Tei Tong Tsai on Lantau Island, described in BuddhaNet as Po Lam Forest Monastery providing regular zazen, with facilities for monastics and lay meditators who follow the temple routine. Western Chan Fellowship accounts depict Po Lam Chan Monastery as a traditional Chinese Chan monastery with strict retreat forms, connected through its abbots to the Xuyun lineage and neighboring Nanhua-related teachers. The surrounding Tei Tong Tsai area is recognized in local heritage and hiking guides as a historic Buddhist village with Po Lam Monastery as one of the key surviving hermitages. Native: 寶林寺 (Bǎolín Sì)."
     },
     {
       "name": "Pu Men Temple Hong Kong (Foguangshan)",
@@ -48,17 +89,7 @@
       "address": "23 Sik On Street, Wan Chai, Hong Kong",
       "url": "https://www.fgs.org.hk/",
       "source_url": "https://www.fgs.org.tw/",
-      "notes": "Foguangshans main branch in Hong Kong; offers public Chan practice and Sunday classes."
-    },
-    {
-      "name": "Po Lin Monastery",
-      "city": "Lantau Island",
-      "region": "Ngong Ping",
-      "lineage": "Chinese Chan / Linji (historic)",
-      "address": "Ngong Ping, Lantau Island, Hong Kong",
-      "url": "https://www.plm.org.hk/",
-      "source_url": "https://en.wikipedia.org/wiki/Po_Lin_Monastery",
-      "notes": "Founded 1906; one of Hong Kongs most important Buddhist monasteries. Tian Tan Buddha is on its grounds; long-standing Chan training site."
+      "notes": "Foguangshan's main branch in Hong Kong; offers public Chan practice and Sunday classes."
     },
     {
       "name": "Chi Lin Nunnery",

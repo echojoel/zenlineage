@@ -1,0 +1,126 @@
+{
+  "_meta": {
+    "country": "Russia",
+    "collectedAt": "2026-05-06",
+    "method": "Surveyed Sando Kaisen sangha directory for Russia, IRIZ Hanazono Zen Centers – Russia list, Kwan Um School of Zen Europe and Russian center pages, plus BuddhaNet and U.S. Embassy Moscow worship directory for cross-check.",
+    "coverageEstimate": "≈20–40% of active Zen dojos and centers; likely undercounts informal house-groups and unlisted sanghas.",
+    "knownGaps": [
+      "Many small zazen groups and informal dojos (especially outside major cities) are not listed in public directories.",
+      "IRIZ Russia directory was last updated in 2003; centers only listed there are flagged with uncertain current status, especially after 2022.",
+      "Some Kwan Um and Plum Village–inspired groups now meet only online or in private flats and are not fully documented.",
+      "No systematic coverage yet of Sanbō Zen or independent Sōtō / Rinzai lineages beyond the Deshimaru / Sando Kaisen network and Moscow Soto-style groups."
+    ]
+  },
+  "places": [
+    {
+      "name": "Dzen-tsentr 'Khram Serediny Zemli'",
+      "city": "Moscow",
+      "region": "Moscow (Moscow City)",
+      "lineage": "Sōtō / Deshimaru (Sando Kaisen, Zazen International)",
+      "address": "Москва, Староконюшенный пер., д. 43, Россия",
+      "url": "https://zen-kaisen.ru/zen-in-russia",
+      "source_url": "https://zen-kaisen.ru/zen-in-russia",
+      "notes": "Native: Дзен-центр «Храм середины земли». Urban dojo of the Russian sangha of Zen master Sando Kaisen, offering regular zazen on Wednesdays and Sundays in central Moscow; practice follows the Deshimaru/Sawaki Sōtō lineage with mokushō (silent illumination) emphasis. Status: appears active as of 2025; in-person meetings may be affected by Moscow's political climate post-2022—check schedule before visiting."
+    },
+    {
+      "name": "Dzen-tsentr v Kaliningrade",
+      "city": "Kaliningrad",
+      "region": "Kaliningrad Oblast",
+      "lineage": "Sōtō / Deshimaru (Sando Kaisen, Zazen International)",
+      "address": "Парковая Аллея 44, пространство «Живое», Калининград, Россия",
+      "url": "https://zen-kaisen.ru/zen-in-russia",
+      "source_url": "https://zen-kaisen.ru/zen-in-russia",
+      "notes": "Native: Дзен-центр в Калининграде. Regional dojo of Sando Kaisen's sangha meeting Sunday afternoons at the 'Zhivoe' space on Parkovaya Alleya; schedule and suggested donations are listed on the sangha website. Status: listed as active on the Russian sangha site; local conditions and travel restrictions may change quickly—verify locally."
+    },
+    {
+      "name": "Dzen-tsentr 'Dodzho vecherney luny'",
+      "city": "Zelenograd",
+      "region": "Moscow Oblast (Zelenograd Administrative Okrug)",
+      "lineage": "Sōtō / Deshimaru (Sando Kaisen, Zazen International)",
+      "address": "Зеленоград, корпус 1401, подъезд 1, этаж 2, кв. 5, Россия",
+      "url": "https://zen-kaisen.ru/zen-in-russia",
+      "source_url": "https://zen-kaisen.ru/zen-in-russia",
+      "notes": "Native: Дзен-центр «Додзё вечерней луны». Small residential dojo in Zelenograd led by nun Kan Dzi (Антонина Миронова-Тихомирова), offering mid-week and Saturday zazen in the Deshimaru/Sando Kaisen lineage. Status: appears active with contact phone and Telegram on sangha media; confirm details before traveling."
+    },
+    {
+      "name": "Dzen-tsentr 'Koraifu-ji' (Samara)",
+      "city": "Samara",
+      "region": "Samara Oblast",
+      "lineage": "Sōtō / Deshimaru (Sando Kaisen, Zazen International)",
+      "address": "г. Самара, Творческий кластер «Дом 77», ул. Ленинградская, д. 77, 2 эт., к. 214 'Flow room', Россия",
+      "url": "https://zen-kaisen.ru/zen-in-russia",
+      "source_url": "https://zen-kaisen.ru/zen-in-russia",
+      "notes": "Native: Дзен-центр «Кораифу Дзи» («Храм ни прихода ни ухода»). Samara dojo of the Sando Kaisen sangha, holding weekly zazen at creative cluster Dom 77 on Leningradskaya Street; instruction and schedule are provided for newcomers. Status: listed as active; regional economic and transport disruption after 2022 may affect access."
+    },
+    {
+      "name": "Dzen-tsentr v Chelyabinske",
+      "city": "Chelyabinsk",
+      "region": "Chelyabinsk Oblast",
+      "lineage": "Sōtō / Deshimaru (Sando Kaisen, Zazen International)",
+      "address": "ул. Кирова, д. 17а, кв. 55, Челябинск, Россия",
+      "url": "https://zen-kaisen.ru/zen-in-russia",
+      "source_url": "https://zen-kaisen.ru/zen-in-russia",
+      "notes": "Native: Дзен-центр в Челябинске. Official dojo of Sando Kaisen's sangha in Chelyabinsk under nun Shitsu Ho (Мария Шишкина), offering twice-weekly zazen and introductory instruction for beginners. Status: appears active per local VK community; long-distance travel and public meetings in Russia remain sensitive—verify current arrangements."
+    },
+    {
+      "name": "Moskovskiy Dzen-tsentr 'Kwan Um'",
+      "city": "Moscow",
+      "region": "Moscow (Moscow City)",
+      "lineage": "Kwan Um (Korean Seon, Jogye Order)",
+      "address": "ул. Кедрова 7-1-22, Москва, Россия",
+      "url": "https://center-zen.narod.ru/index_en.html",
+      "source_url": "https://center-zen.narod.ru/index_en.html",
+      "notes": "Native: Московский дзэн-центр школы «Кван Ум». Moscow Zen Center associated with the international Kwan Um School of Zen, teaching Seung Sahn's Korean Seon with weekly evening practice at the Korean temple on Kedrova Street. Status: website and contact details remain online but on an old hosting platform; post-2022 openness of public practice for foreign-linked Buddhist groups is uncertain—contact by phone or email first."
+    },
+    {
+      "name": "Saint Petersburg Zen Center (Kwan Um)",
+      "city": "Saint Petersburg",
+      "region": "Saint Petersburg (Federal City)",
+      "lineage": "Kwan Um (Korean Seon, Jogye Order)",
+      "address": "Datsan Gunzechoinei, Primorsky prospekt 91, Saint Petersburg 197374, Russia",
+      "url": "https://www.kwanumeurope.org/locations/saint-petersburg-zen-center/",
+      "source_url": "https://www.kwanumeurope.org/locations/saint-petersburg-zen-center/",
+      "notes": "Native: Санкт-Петербургский дзэн-центр (школа «Кван Ум»). Kwan Um Zen group in Saint Petersburg meeting for meditation at the Tibetan Buddhist temple Datsan Gunzechoinei on Primorsky prospekt, under the European region of the Kwan Um School. Status: Kwan Um Europe still lists this center, but foreign-linked religious activity in Russia has tightened since 2022; verify by phone/email before attending."
+    },
+    {
+      "name": "Ulianovsk Zen Center (Kwan Um)",
+      "city": "Ulyanovsk",
+      "region": "Ulyanovsk Oblast",
+      "lineage": "Kwan Um (Korean Seon, Jogye Order)",
+      "address": "ul. Lokomotivnaya 112, 1, 432012 ULIANOVSK, Russia",
+      "url": "http://iriz.hanazono.ac.jp/zen_centers/centers_data/russia.htm",
+      "source_url": "http://iriz.hanazono.ac.jp/zen_centers/centers_data/russia.htm",
+      "notes": "Native: Ульяновский дзэн-центр. Listed by IRIZ as a Kwan Um School of Zen center in Ulyanovsk affiliated with Korean Chogye Order teacher Wu Bong; holds zazen and retreats in the Seung Sahn lineage. Status: IRIZ entry last updated 2003; no recent web presence could be verified, so physical activity and location after 2022 are highly uncertain."
+    },
+    {
+      "name": "Velikiy Novgorod Meditation Center (Kwan Um)",
+      "city": "Veliky Novgorod",
+      "region": "Novgorod Oblast",
+      "lineage": "Kwan Um (Korean Seon, Jogye Order)",
+      "address": "30 Borovskaya ul., Bronnitsa, 173110 VELIKIY NOVGOROD, Russia",
+      "url": "http://iriz.hanazono.ac.jp/zen_centers/centers_data/russia.htm",
+      "source_url": "http://iriz.hanazono.ac.jp/zen_centers/centers_data/russia.htm",
+      "notes": "Native: Медитационный центр в Великом Новгороде. IRIZ lists this as a Kwan Um–affiliated meditation center in Bronnitsa near Veliky Novgorod, in the Seung Sahn Korean Zen lineage. Status: only attested in the early-2000s IRIZ database; current existence of a local Kwan Um group at this address is unknown and should be treated as archival information."
+    },
+    {
+      "name": "Moscow Sangha (Thich Nhat Hanh tradition)",
+      "city": "Moscow",
+      "region": "Moscow (Moscow City)",
+      "lineage": "Vietnamese Zen (Thich Nhat Hanh / Plum Village)",
+      "address": "Novogireevskaya Street 14-2-34, Moscow 111401, Russia",
+      "url": "http://iriz.hanazono.ac.jp/zen_centers/centers_data/russia.htm",
+      "source_url": "http://iriz.hanazono.ac.jp/zen_centers/centers_data/russia.htm",
+      "notes": "Native: Московская сангха (традиция Тик Нат Ханя). Listed by IRIZ as a lay sangha in the Vietnamese Zen/Plum Village tradition under Boris Orion, meeting for mindfulness practice and zazen in Moscow apartments. Status: no current dedicated website in 2026; given IRIZ's last update in 2003 and Russia's political climate, the sangha's location and public activity are highly uncertain—contact through newer Plum Village networks if possible."
+    },
+    {
+      "name": "Bodhisattva Truth Center (Moscow)",
+      "city": "Moscow",
+      "region": "Moscow (Moscow City)",
+      "lineage": "Vietnamese Zen (Thich Nhat Hanh)",
+      "address": "Yan Rainis Boulevard 24-2-240, Moscow 123373, Russia",
+      "url": "http://iriz.hanazono.ac.jp/zen_centers/centers_data/russia.htm",
+      "source_url": "http://iriz.hanazono.ac.jp/zen_centers/centers_data/russia.htm",
+      "notes": "Native: Центр «Истина Бодхисаттвы». Early Moscow Vietnamese Zen group in Thich Nhat Hanh's lineage listed by IRIZ under several local teachers, practicing sitting and walking meditation. Status: directory entry dates from 2003; no reliable post-2010 web traces were found, and the group's survival in Moscow after 2022 is doubtful without direct confirmation."
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "_meta": {
+    "country": "United States",
+    "collectedAt": "2026-05-06",
+    "method": "Hand-collected a small sample of U.S. lay sanghas from sangha homepages, regional directories, and Wake Up listings, focusing on those explicitly in the Plum Village / Thich Nhat Hanh tradition with clearly published in-person weekly meeting places.",
+    "coverageEstimate": "≈3–7% of active U.S. Plum Village / Wake Up sanghas with regular in-person meetings.",
+    "knownGaps": [
+      "Most U.S. sanghas are only discoverable via the interactive Plumline map or local word-of-mouth; those data could not be crawled.",
+      "Many groups currently meet in hybrid or rotating home locations without a stable public street address, so they are excluded by design.",
+      "This sample does not attempt coverage of all regional Wake Up and all-ages sanghas in large metro areas (e.g., Bay Area, Chicago, Boston, Pacific Northwest), only a few illustrative cases."
+    ]
+  },
+  "places": [
+    {
+      "name": "Plum Blossom Sangha",
+      "city": "Austin",
+      "region": "Texas",
+      "lineage": "Plum Village (Thich Nhat Hanh)",
+      "address": "Flow Yoga Westgate, 4477 South Lamar Blvd, Austin, TX 78745, USA",
+      "url": "https://plumblossomsangha.org",
+      "source_url": "https://www.gosit.org/CenterDetails.asp?vAC=512&CenterID=922&qGCS=Plum+Blossom+Sangha",
+      "notes": "Weekly hybrid practice in the Plum Village tradition every Sunday 4:00–6:00 p.m. at Flow Yoga Westgate, with sitting, walking meditation, readings from Thich Nhat Hanh, and Dharma sharing. Founded in the late 1990s as a Mindfulness Practice Community and continues to host retreats and Days of Mindfulness with Plum Village Dharma teachers."
+    },
+    {
+      "name": "Wake Up New York",
+      "city": "New York City",
+      "region": "New York",
+      "lineage": "Plum Village (Thich Nhat Hanh)",
+      "address": "Still Mind Zendo, 34 W 15th St, 3rd Floor, New York, NY 10011, USA",
+      "url": "https://wakeupnewyork.org",
+      "source_url": "https://wkup.org/category/america/united-states/",
+      "notes": "Young-adult Wake Up sangha in Manhattan practicing in the Plum Village tradition; meets in person every Friday 7:30–9:30 p.m. at Still Mind Zendo with sitting and walking meditation, readings, and Dharma sharing. The group formed around 2011 after a Wake Up tour by Plum Village monastics and has since become a long-standing Wake Up hub for New York City."
+    },
+    {
+      "name": "Wake Up San Diego",
+      "city": "San Diego",
+      "region": "California",
+      "lineage": "Plum Village (Thich Nhat Hanh)",
+      "address": "WorldBeat Cultural Center, 2100 Park Blvd, San Diego, CA 92101, USA",
+      "url": "https://www.wakeupsandiego.org",
+      "source_url": "https://wkup.org/sangha-of-the-month/wake-up-san-diego/",
+      "notes": "Wake Up sangha for young adults in the Plum Village tradition; holds in-person practice on Sundays at 4:00 p.m. at the WorldBeat Center in Balboa Park together with WorldBeat / HeartBeat Sangha, including meditation, walking, and sharing. The group grew out of earlier Heart Beat / World Beat PV practice in San Diego and has featured repeatedly in Wake Up's global communications as a model community."
+    }
+  ]
+}

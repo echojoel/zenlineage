@@ -2,55 +2,354 @@
   "_meta": {
     "country": "Japan",
     "collectedAt": "2026-05-05",
-    "method": "Compiled from (1) Sōtōshū's official 'temples welcoming foreign practitioners' directory at sotozen-navi.com (page 1 of 12), (2) Rinzai-Ōbaku Federation honzan list with English Wikipedia infobox cross-checks, (3) widely-attested major Sōtō / Rinzai senmon-sōdō (training monasteries).",
-    "coverageEstimate": "Honzan saturation for Rinzai, plus a representative slice of foreign-friendly parish temples and training monasteries; Sōtōshū's full directory has 228 foreign-friendly entries, only first page included this round.",
+    "method": "Merged from two research passes: (A) Rinzai-Ōbaku head-temple directory + Sōtōshū sōdō (training monastery) list — head temples and major training monasteries; (B) Sōtōshū's official 'temples welcoming foreign practitioners' directory (sotozen-navi.com) — parish temples that host foreign zazen practitioners.",
+    "coverageEstimate": "Honzan saturation for Rinzai (all 14 head temples + Manpuku-ji), broad coverage of Sōtō senmon-sōdō, plus a representative slice of Sōtōshū's foreign-friendly parish directory (page 1 of 12).",
     "knownGaps": [
       "Sōtōshū foreign-friendly directory pages 2-12 (~209 more parish temples)",
       "Many Rinzai sub-honzan and bekkaku jiin",
-      "Most Sōtō senmon-sōdō (only the most-visible internationally are included)",
-      "Ōbaku temples beyond Manpuku-ji"
+      "Korean Seon, Vietnamese Thiền, and Chan/Zen hybrid centers inside Japan are not yet surveyed"
     ]
   },
   "places": [
     {
-      "name": "Engaku-ji",
-      "city": "Kamakura",
-      "region": "Kanagawa",
-      "lineage": "Rinzai (Engaku-ji-ha head temple, honzan)",
-      "address": "409 Yamanouchi, Kamakura, Kanagawa 247-0062",
-      "url": "https://www.engakuji.or.jp/",
-      "source_url": "https://en.wikipedia.org/wiki/Engaku-ji",
-      "notes": "Founded 1282 by Mugaku Sogen; head temple of the Engaku-ji branch of Rinzai. Open daily for tourist visits and hosts public zazenkai."
+      "name": "Myōshin-ji",
+      "city": "Kyoto",
+      "region": "Kyoto Prefecture",
+      "lineage": "Rinzai-shū Myōshin-ji-ha",
+      "address": "64 Hanazono Myoshinji-cho, Ukyo-ku, Kyoto-shi, Kyoto 616-8035, Japan",
+      "url": "https://www.myoshinji.or.jp/english/",
+      "source_url": "https://zen.rinnou.net/head_temples/01myoshin.html",
+      "notes": "Head temple of the Myōshin-ji branch of the Rinzai school, established in 1337 by Emperor Hanazono with Kanzan Egen as founding abbot."
+    },
+    {
+      "name": "Nanzen-ji",
+      "city": "Kyoto",
+      "region": "Kyoto Prefecture",
+      "lineage": "Rinzai-shū Nanzen-ji-ha",
+      "address": "Nanzenji Fukuchicho, Sakyo-ku, Kyoto-shi, Kyoto 606-8435, Japan",
+      "url": "https://kyoto.travel/en/destinations/nanzenji-temple/",
+      "source_url": "https://en.wikipedia.org/wiki/Nanzen-ji",
+      "notes": "Historic head temple of the Nanzen-ji branch of the Rinzai sect, founded in 1291 at the base of Kyoto's Higashiyama hills."
     },
     {
       "name": "Kenchō-ji",
       "city": "Kamakura",
-      "region": "Kanagawa",
-      "lineage": "Rinzai (Kenchō-ji-ha head temple, honzan)",
-      "address": "8 Yamanouchi, Kamakura, Kanagawa 247-8525",
+      "region": "Kanagawa Prefecture",
+      "lineage": "Rinzai-shū Kenchō-ji-ha",
+      "address": "8 Yamanouchi, Kamakura-shi, Kanagawa 247-8525, Japan",
       "url": "https://www.kenchoji.com/",
-      "source_url": "https://en.wikipedia.org/wiki/Kench%C5%8D-ji",
-      "notes": "Founded 1253 by Lanxi Daolong; oldest formal Zen training monastery in Japan; head temple of the Kenchō-ji branch of Rinzai."
+      "source_url": "https://zen.rinnou.net/head_temples/05kencho.html",
+      "notes": "Head temple of the Kenchō-ji branch of Rinzai Zen and first of the Kamakura Gozan, founded in 1253 by Rankei Dōryū under Hōjō Tokiyori's patronage."
+    },
+    {
+      "name": "Engaku-ji",
+      "city": "Kamakura",
+      "region": "Kanagawa Prefecture",
+      "lineage": "Rinzai-shū Engaku-ji-ha",
+      "address": "409 Yamanouchi, Kamakura-shi, Kanagawa 247-0062, Japan",
+      "url": "https://www.engakuji.or.jp/",
+      "source_url": "https://zen.rinnou.net/head_temples/06engaku.html",
+      "notes": "Head temple of the Engaku-ji branch, founded in 1282 by Hōjō Tokimune and Chinese master Wuxue Zuyuan; a major Kamakura Gozan monastery with active zazen training."
+    },
+    {
+      "name": "Tōfuku-ji",
+      "city": "Kyoto",
+      "region": "Kyoto Prefecture",
+      "lineage": "Rinzai-shū Tōfuku-ji-ha",
+      "address": "15-778 Honmachi, Higashiyama-ku, Kyoto-shi, Kyoto 605-0981, Japan",
+      "url": "https://tofukuji.jp/",
+      "source_url": "https://zen.rinnou.net/head_temples/04tofuku.html",
+      "notes": "Headquarters of the Tōfuku-ji branch of Rinzai Zen in southeastern Kyoto, renowned for its large monastic compound and autumn maple valley used for zazen retreats."
+    },
+    {
+      "name": "Tenryū-ji",
+      "city": "Kyoto",
+      "region": "Kyoto Prefecture",
+      "lineage": "Rinzai-shū Tenryū-ji-ha",
+      "address": "68 Saga Tenryuji Susukinobabacho, Ukyo-ku, Kyoto-shi, Kyoto 616-8385, Japan",
+      "url": "http://www.tenryuji.com/en/",
+      "source_url": "https://zen.rinnou.net/head_temples/03tenryu.html",
+      "notes": "Head temple of the Tenryū-ji branch, founded in 1339 by Ashikaga Takauji and Musō Soseki; UNESCO World Heritage site with regular Zen meditation programs."
+    },
+    {
+      "name": "Shōkoku-ji",
+      "city": "Kyoto",
+      "region": "Kyoto Prefecture",
+      "lineage": "Rinzai-shū Shōkoku-ji-ha",
+      "address": "Imadegawa-dori, Karasuma Higashi-iru, Kamigyo-ku, Kyoto 602-0898, Japan",
+      "url": "https://www.shokoku-ji.jp/en/",
+      "source_url": "https://zen.rinnou.net/head_temples/04shokoku.html",
+      "notes": "Third of the Kyoto Five Mountain temples and head of the Shōkoku-ji branch, established in 1382 by Ashikaga Yoshimitsu; maintains zazen and monastic training halls."
+    },
+    {
+      "name": "Eigen-ji",
+      "city": "Higashiōmi",
+      "region": "Shiga Prefecture",
+      "lineage": "Rinzai-shū Eigen-ji-ha",
+      "address": "41 Eigenjitakano-cho, Higashiōmi-shi, Shiga 527-0212, Japan",
+      "url": "https://eigenji-t.jp/en/tour/",
+      "source_url": "https://zen.rinnou.net/head_temples/09eigen.html",
+      "notes": "Head temple of the Eigen-ji branch, founded in 1361 by Sasaki Ujiyori with Jakushitsu Genkō as founding abbot; still operates a sōdō (training monastery) for monks."
     },
     {
       "name": "Hōkō-ji",
       "city": "Hamamatsu",
-      "region": "Shizuoka",
-      "lineage": "Rinzai (Hōkō-ji-ha head temple, honzan)",
-      "address": "Okuyama 1577-1, Inasa-chō, Kita-ku, Hamamatsu 431-2224",
-      "url": "https://houkouji.or.jp/",
-      "source_url": "https://en.wikipedia.org/wiki/H%C5%8Dk%C5%8D-ji_(Shizuoka)",
-      "notes": "Founded 1384; head temple of the Hōkō-ji branch of Rinzai."
+      "region": "Shizuoka Prefecture",
+      "lineage": "Rinzai-shū Hōkō-ji-ha",
+      "address": "1577-1 Okuyama, Inasa-cho, Hamana-ku, Hamamatsu-shi, Shizuoka 431-2224, Japan",
+      "url": "https://www.houkouji.or.jp/",
+      "source_url": "https://zen.rinnou.net/head_temples/08hoko.html",
+      "notes": "Mountain monastery north of Hamamatsu and head of the Hōkō-ji branch, founded in 1371 by Mumon Gensen; maintains a large rural training complex for Rinzai monks."
+    },
+    {
+      "name": "Kōgaku-ji",
+      "city": "Kōshū",
+      "region": "Yamanashi Prefecture",
+      "lineage": "Rinzai-shū Kōgaku-ji-ha",
+      "address": "2026 Enzankamiozō, Kōshū-shi, Yamanashi 404-0042, Japan",
+      "url": "https://rekishinomichi-yamanashi.jp/en/spot/3-22.html",
+      "source_url": "https://zen.rinnou.net/head_temples/13kogaku.html",
+      "notes": "Head temple of the Kōgaku-ji branch, founded in 1380 for Bassui Tokushō; a mountain Rinzai monastery with limited public access but active monastic training."
     },
     {
       "name": "Buttsū-ji",
       "city": "Mihara",
-      "region": "Hiroshima",
-      "lineage": "Rinzai (Buttsū-ji-ha head temple, honzan)",
-      "address": "22 Mitsugi-chō Yasuhigashi, Mihara, Hiroshima 729-0471",
-      "url": "https://buttsuji.or.jp/",
-      "source_url": "https://en.wikipedia.org/wiki/Butts%C5%ABji",
-      "notes": "Founded 1397 by Guchū Shūkyū; head temple of the Buttsū-ji branch of Rinzai."
+      "region": "Hiroshima Prefecture",
+      "lineage": "Rinzai-shū Buttsū-ji-ha",
+      "address": "22 Motoyama, Takasaka-cho, Mihara-shi, Hiroshima 729-0471, Japan",
+      "url": "https://www.dive-hiroshima.com/en/explore/91/",
+      "source_url": "https://zen.rinnou.net/head_temples/11buttsu.html",
+      "notes": "Head temple of the Buttsū-ji branch in rural Hiroshima, established in the late 14th century; today a large forested Rinzai training monastery open for zazen visits."
+    },
+    {
+      "name": "Kokutai-ji",
+      "city": "Takaoka",
+      "region": "Toyama Prefecture",
+      "lineage": "Rinzai-shū Kokutai-ji-ha",
+      "address": "184 Ota, Takaoka-shi, Toyama 933-0137, Japan",
+      "url": "https://www.trip.com/travel-guide/attraction/takaoka/kokutaiji-58325444/",
+      "source_url": "https://zen.rinnou.net/head_temples/14kokutai.html",
+      "notes": "Head temple of the Kokutai-ji branch in Toyama, housing one of the largest Zen monasteries in the Hokuriku region; active Rinzai training center."
+    },
+    {
+      "name": "Kennin-ji",
+      "city": "Kyoto",
+      "region": "Kyoto Prefecture",
+      "lineage": "Rinzai-shū Kennin-ji-ha",
+      "address": "584 Komatsu-cho, Higashiyama-ku, Kyoto-shi, Kyoto 605-0811, Japan",
+      "url": "https://www.kenninji.jp/",
+      "source_url": "https://zen.rinnou.net/head_temples/12kennin.html",
+      "notes": "Founded in 1202 by Eisai, Kennin-ji is Kyoto's oldest Zen temple and head of the Kennin-ji branch, with active zazen and lay-oriented meditation programs."
+    },
+    {
+      "name": "Manpuku-ji (Ōbaku-san Manpuku-ji)",
+      "city": "Uji",
+      "region": "Kyoto Prefecture",
+      "lineage": "Ōbaku-shū (Manpuku-ji)",
+      "address": "34 Gokasho Sanbanwari, Uji-shi, Kyoto 611-0011, Japan",
+      "url": "https://www.obakusan.or.jp/",
+      "source_url": "https://zen.rinnou.net/head_temples/15manpuku.html",
+      "notes": "Head temple of the Ōbaku school of Zen, founded in 1661 by Chinese master Ingen; its Chinese-style monastic compound in Uji remains an active zazen training site."
+    },
+    {
+      "name": "Ryūtaku-ji",
+      "city": "Mishima",
+      "region": "Shizuoka Prefecture",
+      "lineage": "Rinzai-shū Myōshin-ji-ha (Ryūtaku-ji)",
+      "address": "326 Sawaji, Mishima-shi, Shizuoka 411-0043, Japan",
+      "url": "https://en.wikipedia.org/wiki/Ry%C5%ABtaku-ji",
+      "source_url": "https://en.wikipedia.org/wiki/Ry%C5%ABtaku-ji",
+      "notes": "Rinzai monastery of the Myōshin-ji branch in Mishima, long associated with Hakuun Yasutani and western students; retains an active rural training sōdō."
+    },
+    {
+      "name": "Kokeizan Eihō-ji",
+      "city": "Tajimi",
+      "region": "Gifu Prefecture",
+      "lineage": "Rinzai-shū (Kokeizan Eiho-ji)",
+      "address": "1-40 Kokeizan-cho, Tajimi-shi, Gifu 507-0014, Japan",
+      "url": "https://kokeizan.or.jp/en/pages/4/",
+      "source_url": "https://visitgifu.com/see-do/eiho-ji-temple/",
+      "notes": "Historic Rinzai temple in Tajimi known for early-morning zazen and sutra-copying; cited as a major training monastery in the contemporary Rinzai network."
+    },
+    {
+      "name": "Daihonzan Eihei-ji Betsuin Chōkoku-ji (Hase-dera)",
+      "city": "Tokyo",
+      "region": "Tokyo Metropolis",
+      "lineage": "Sōtō (Eihei-ji Betsuin, senmon sōdō)",
+      "address": "2-21-34 Nishi-azabu, Minato-ku, Tokyo 106-0031, Japan",
+      "url": "https://chokokuji.jiin.com/",
+      "source_url": "https://www.sotozen-net.or.jp/organization/sodo-list",
+      "notes": "Tokyo branch temple of Daihonzan Eihei-ji, recognized by Sōtōshū as a specialized training monastery (senmon sōdō) for monks in Nishi-Azabu."
+    },
+    {
+      "name": "Daihonzan Sōji-ji Sōin",
+      "city": "Wajima",
+      "region": "Ishikawa Prefecture",
+      "lineage": "Sōtō (Sōji-ji Sōin, former head temple)",
+      "address": "1-18-1 Monzen, Monzen-machi, Wajima-shi, Ishikawa 927-2156, Japan",
+      "url": "https://noto-soin.jp/",
+      "source_url": "https://www.sotozen-net.or.jp/organization/sodo-list",
+      "notes": "Former head temple of Sōtō Zen founded by Keizan Jōkin in 1321; now the Sōji-ji Sōin training monastery and major pilgrimage site on the Noto Peninsula."
+    },
+    {
+      "name": "Daiyūzan Saijō-ji",
+      "city": "Minamiashigara",
+      "region": "Kanagawa Prefecture",
+      "lineage": "Sōtō (Daiyūzan Saijō-ji, senmon sōdō)",
+      "address": "1157 Daiyū-machi, Minamiashigara-shi, Kanagawa 250-0127, Japan",
+      "url": "https://daiyuuzan.or.jp/",
+      "source_url": "https://www.sotozen-net.or.jp/organization/sodo-list",
+      "notes": "Large mountain Sōtō monastery near Hakone, one of the sect's three great prayer temples and an officially designated specialized training sōdō."
+    },
+    {
+      "name": "Kasuisai (Banshōzan Kasuisai)",
+      "city": "Fukuroi",
+      "region": "Shizuoka Prefecture",
+      "lineage": "Sōtō (Kasuisai, senmon sōdō)",
+      "address": "2915-1 Kuno, Fukuroi-shi, Shizuoka 437-0061, Japan",
+      "url": "https://www.kasuisai.or.jp/",
+      "source_url": "https://www.sotozen-net.or.jp/organization/sodo-list",
+      "notes": "Historic Sōtō temple and fire-ritual center (Akiba Sōhonden) in Fukuroi, operating a recognized training sōdō and lay zazen/temple-stay programs."
+    },
+    {
+      "name": "Kakuōzan Nittai-ji",
+      "city": "Nagoya",
+      "region": "Aichi Prefecture",
+      "lineage": "Multi-sect, Sōtō training sōdō (Nittai-ji)",
+      "address": "1-1 Hōō-cho, Chikusa-ku, Nagoya-shi, Aichi 464-0057, Japan",
+      "url": "https://www.nittaiji.or.jp/",
+      "source_url": "https://www.sotozen-net.or.jp/organization/sodo-list",
+      "notes": "Inter-sectarian temple housing Śākyamuni relics in Nagoya; Sōtōshū designates a specialized training sōdō within Nittai-ji for Sōtō monks."
+    },
+    {
+      "name": "Aichi Senmon Nisōdō (Shōbō-ji)",
+      "city": "Nagoya",
+      "region": "Aichi Prefecture",
+      "lineage": "Sōtō (Aichi Senmon Nisōdō, nuns' training sōdō)",
+      "address": "1-80 Shiroyama-cho, Chikusa-ku, Nagoya-shi, Aichi 464-0045, Japan",
+      "url": "https://shoboji.net/",
+      "source_url": "https://www.sotozen-net.or.jp/organization/sodo-list",
+      "notes": "Main Sōtō training monastery for nuns in Japan, located at Shōbō-ji in Nagoya; led for decades by Aoyama Shundō Rōshi."
+    },
+    {
+      "name": "Tōshō-ji (Dōmatsu-ji senmon sōdō)",
+      "city": "Yakage",
+      "region": "Okayama Prefecture",
+      "lineage": "Sōtō (Tōshō-ji, senmon sōdō)",
+      "address": "3796 Yokotani, Yakage-cho, Oda-gun, Okayama 714-1212, Japan",
+      "url": "https://sotozen-navi.com/detail/index_330028.html",
+      "source_url": "https://www.sotozen-net.or.jp/organization/sodo-list",
+      "notes": "Rural Sōtō monastery in Yakage with an officially recognized training sōdō; noted for traditional zen dō (meditation hall) architecture."
+    },
+    {
+      "name": "Zuio-ji (Bukkokusan Zuio-ji)",
+      "city": "Niihama",
+      "region": "Ehime Prefecture",
+      "lineage": "Sōtō (Zuio-ji, senmon sōdō)",
+      "address": "8-1 Yamane-cho, Niihama-shi, Ehime 792-0835, Japan",
+      "url": "https://zuioji.jp/",
+      "source_url": "https://www.sotozen-net.or.jp/organization/sodo-list",
+      "notes": "Major Sōtō training monastery in Shikoku, known for its large ginkgo tree and status as the only specialized sōdō in the Shikoku region."
+    },
+    {
+      "name": "Ankoku-ji (Daiko-zan Ankoku-ji)",
+      "city": "Fukuoka",
+      "region": "Fukuoka Prefecture",
+      "lineage": "Sōtō (Ankoku-ji, senmon sōdō)",
+      "address": "3-14-4 Tenjin, Chūō-ku, Fukuoka-shi, Fukuoka 810-0001, Japan",
+      "url": "https://sotozen-navi.com/detail/index_400003.html",
+      "source_url": "https://www.sotozen-net.or.jp/organization/sodo-list",
+      "notes": "Urban Sōtō training monastery in central Fukuoka (Tenjin), balancing rigorous monastic training with lay zazen offerings in a downtown setting."
+    },
+    {
+      "name": "Kōtai-ji (Kōtai-ji Senmon Sōdō)",
+      "city": "Nagasaki",
+      "region": "Nagasaki Prefecture",
+      "lineage": "Sōtō (Kōtai-ji, senmon sōdō)",
+      "address": "1-1 Teramachi, Nagasaki-shi, Nagasaki 850-0872, Japan",
+      "url": "https://sotozen-navi.com/detail/index_420001.html",
+      "source_url": "https://www.sotozen-net.or.jp/organization/sodo-list",
+      "notes": "Historic Sōtō temple in Nagasaki's Teramachi, designated by Sōtōshū as a specialized training sōdō and known as one of the city's three great temples."
+    },
+    {
+      "name": "Gotanjo-ji",
+      "city": "Echizen",
+      "region": "Fukui Prefecture",
+      "lineage": "Sōtō (Gotanjo-ji, senmon sōdō)",
+      "address": "32-1-1 Shōda-cho, Echizen-shi, Fukui 915-0043, Japan",
+      "url": "https://www.gotanjoji.com/",
+      "source_url": "https://www.sotozen-net.or.jp/organization/sodo-list",
+      "notes": "Modern Sōtō monastery on the birthplace site of Keizan Jōkin, functioning since 2009 as a specialized training sōdō and popularly known as the 'cat temple.'"
+    },
+    {
+      "name": "Shōbō-ji (Ōshū Shōbō-ji)",
+      "city": "Ōshū",
+      "region": "Iwate Prefecture",
+      "lineage": "Sōtō (Shōbō-ji, senmon sōdō)",
+      "address": "129 Shōbōji, Kuroishi-cho, Mizusawa-ku, Ōshū-shi, Iwate 023-0101, Japan",
+      "url": "https://shoboji.net/",
+      "source_url": "https://www.sotozen-net.or.jp/organization/sodo-list",
+      "notes": "Historic Sōtō monastery in southern Iwate, once counted with Eihei-ji and Sōji-ji as a leading northern Sōtō center; maintains a large thatched-hall training complex."
+    },
+    {
+      "name": "Zenpō-ji (Ryūtaku-zan Zenpō-ji)",
+      "city": "Tsuruoka",
+      "region": "Yamagata Prefecture",
+      "lineage": "Sōtō (Zenpō-ji, senmon sōdō)",
+      "address": "100 Sekine, Shimokawa, Tsuruoka-shi, Yamagata 997-1117, Japan",
+      "url": "http://ryuoson.jp",
+      "source_url": "https://www.sotozen-net.or.jp/organization/sodo-list",
+      "notes": "Major Sōtō pilgrimage temple near Sakata, famed for dragon-king rites and designated as a specialized training monastery attracting monk-trainees and lay pilgrims."
+    },
+    {
+      "name": "Chūō-ji (Jissō-zan Chūō-ji)",
+      "city": "Sapporo",
+      "region": "Hokkaidō",
+      "lineage": "Sōtō (Chūō-ji, senmon sōdō)",
+      "address": "2-1 Minami 6-jō Nishi, Chūō-ku, Sapporo-shi, Hokkaidō 064-0806, Japan",
+      "url": "http://www.chuouji.or.jp/",
+      "source_url": "https://www.sotozen-net.or.jp/organization/sodo-list",
+      "notes": "Central Sapporo Sōtō temple established 1874, hosting a specialized training sōdō and regular public zazen sessions near Susukino entertainment district."
+    },
+    {
+      "name": "Jōkō-ji (Jōkō-ji Senmon Sōdō)",
+      "city": "Kushiro",
+      "region": "Hokkaidō",
+      "lineage": "Sōtō (Jōkō-ji, senmon sōdō)",
+      "address": "3-2-3 Yonemachi, Kushiro-shi, Hokkaidō 085-0842, Japan",
+      "url": "https://sotozen-navi.com/spn/detail/index.cfm?cl_id=10195",
+      "source_url": "https://www.sotozen-net.or.jp/organization/sodo-list",
+      "notes": "Sōtō temple in Kushiro's historic port district, designated as a specialized training sōdō and noted for educating clergy serving Hokkaidō parishes."
+    },
+    {
+      "name": "Hosshin-ji (Reishō-zan Hosshin-ji)",
+      "city": "Obama",
+      "region": "Fukui Prefecture",
+      "lineage": "Sōtō (Hosshin-ji, training monastery)",
+      "address": "45-3 Fushihara, Obama-shi, Fukui 917-0054, Japan",
+      "url": "https://www.fuku-e.com/spot/detail_1109.html",
+      "source_url": "https://en.wikipedia.org/wiki/Hosshin-ji",
+      "notes": "Sōtō training temple in Obama known for rigorous winter takuhatsu; Harada Sekkei Rōshi served as abbot, leading intensive zazen practice for Japanese and foreign monks."
+    },
+    {
+      "name": "Daijō-ji (Daijō-ji Zen Monastery, Kanazawa)",
+      "city": "Kanazawa",
+      "region": "Ishikawa Prefecture",
+      "lineage": "Sōtō (Daijō-ji, foreigner-training temple)",
+      "address": "10 Ru, Nagasakamachi, Kanazawa-shi, Ishikawa 921-8033, Japan",
+      "url": "http://www.daijoji.or.jp/",
+      "source_url": "https://www.sotozen.com/eng/temples/foreigner/3-15.html",
+      "notes": "Mountain Sōtō monastery on Mt. Nodayama above Kanazawa, offering daily early-morning zazen and overnight training programs for lay visitors and overseas practitioners."
+    },
+    {
+      "name": "Shōgō-ji (Hōzan Dōjō Shōgō-ji)",
+      "city": "Kikuchi",
+      "region": "Kumamoto Prefecture",
+      "lineage": "Sōtō (Shōgō-ji, international training ango)",
+      "address": "2034 Hanjaku, Kikuchi-shi, Kumamoto 861-1672, Japan",
+      "url": "http://shogoji.com/",
+      "source_url": "http://iriz.hanazono.ac.jp/zen_centers/centers_data/japan.htm",
+      "notes": "Remote Sōtō monastery in the mountains of Kumamoto operating the Hōzan Dōjō and long-running international ango (practice period) for foreign and Japanese practitioners."
     },
     {
       "name": "Hōfuku-ji",
@@ -61,66 +360,6 @@
       "url": "https://www.hofuku-ji.org/",
       "source_url": "https://en.wikipedia.org/wiki/H%C5%8Dfuku-ji",
       "notes": "Founded 1242; head temple of the Hōfuku-ji branch of Rinzai. Sesshū studied here in his youth."
-    },
-    {
-      "name": "Kōgaku-ji",
-      "city": "Kōshū",
-      "region": "Yamanashi",
-      "lineage": "Rinzai (Kōgaku-ji-ha head temple, honzan)",
-      "address": "2026 Shioyama, Kōshū, Yamanashi 404-0024",
-      "url": "https://kogakuji-rinzai.com/",
-      "source_url": "https://en.wikipedia.org/wiki/K%C5%8Dgaku-ji",
-      "notes": "Founded 1380 by Bassui Tokushō; head temple of the Kōgaku-ji branch of Rinzai."
-    },
-    {
-      "name": "Eigen-ji",
-      "city": "Higashiōmi",
-      "region": "Shiga",
-      "lineage": "Rinzai (Eigen-ji-ha head temple, honzan)",
-      "address": "41 Eigenji Takano-chō, Higashiōmi, Shiga 527-0212",
-      "url": "https://eigenji-t.jp/",
-      "source_url": "https://en.wikipedia.org/wiki/Eigen-ji",
-      "notes": "Founded 1361 by Jakushitsu Genkō; head temple of the Eigen-ji branch of Rinzai. Famous for autumn maples."
-    },
-    {
-      "name": "Sōji-ji Soin",
-      "city": "Noto",
-      "region": "Ishikawa",
-      "lineage": "Sōtō (former head temple, jōin)",
-      "address": "1-18-1 Monzen-machi, Wajima, Ishikawa 927-2156",
-      "url": "https://www.noto-soujiji.jp/",
-      "source_url": "https://en.wikipedia.org/wiki/S%C5%8Dji-ji",
-      "notes": "Original Sōji-ji on the Noto Peninsula; founded 1321 by Keizan Jōkin. After 1898 fire, head-temple status moved to Tsurumi (Yokohama); the Noto site retains 'Soin' (founding sub-temple) status."
-    },
-    {
-      "name": "Hosshin-ji",
-      "city": "Obama",
-      "region": "Fukui",
-      "lineage": "Sōtō (senmon-sōdō / training monastery)",
-      "address": "1-3 Tenjin Saiwai-chō, Obama, Fukui 917-0066",
-      "url": "https://hosshinji.or.jp/",
-      "source_url": "https://en.wikipedia.org/wiki/Hosshin-ji",
-      "notes": "Founded 1899; Sōtō Zen training monastery known internationally for foreign-practitioner programs led by Harada Daiun Sogaku, his successors and Hōzumi Gensho Roshi."
-    },
-    {
-      "name": "Zuiō-ji",
-      "city": "Niihama",
-      "region": "Ehime",
-      "lineage": "Sōtō (senmon-sōdō / training monastery)",
-      "address": "8-1 Yamane-chō, Niihama, Ehime 792-0835",
-      "url": "https://www.zuioji.or.jp/",
-      "source_url": "https://en.wikipedia.org/wiki/Zui%C5%8D-ji",
-      "notes": "Sōtō Zen senmon-sōdō; refounded 1875. Several Western Sōtō teachers (Tangen Harada, Loori, others) trained here."
-    },
-    {
-      "name": "Daiyū-zan Saijō-ji",
-      "city": "Odawara",
-      "region": "Kanagawa",
-      "lineage": "Sōtō (bekkaku honzan)",
-      "address": "1157 Daiyūchō, Odawara, Kanagawa 250-0127",
-      "url": "https://www.daiyuuzan.or.jp/",
-      "source_url": "https://en.wikipedia.org/wiki/Saij%C5%8D-ji",
-      "notes": "Founded 1394 by Ryōan Emyō; Sōtō Zen 'bekkaku honzan' — special-rank head temple — and major pilgrimage destination."
     },
     {
       "name": "Bukkoku-ji",

@@ -163,8 +163,22 @@ function pickSourceId(sourceUrl: string, lineage: string): string {
   if (u.includes("kanshoji.org")) return "src_kanshoji";
   if (u.includes("zen-road.org")) return "src_zen_road";
   if (u.includes("abzen.eu")) return "src_abze";
-  if (u.includes("sotozen.com") || u.includes("sotozen-net"))
+  // Sōtōshū has multiple sites — distinguish them by exact path:
+  //   global.sotozen-net.or.jp/eng/temples/europe/  → European office
+  //   sotozen-net.or.jp (other paths)               → Japanese head office
+  //   sotozen.com (international English)           → Japanese head office
+  //   sotozen-navi.com                              → foreign-friendly portal
+  if (u.includes("sotozen-navi.com")) return "src_sotozen_navi";
+  if (u.includes("global.sotozen-net.or.jp/eng/temples/europe"))
     return "src_sotozen_europe";
+  if (u.includes("sotozen-net.or.jp") || u.includes("sotozen.com"))
+    return "src_sotozen_jp";
+  if (u.includes("zen.rinnou.net")) return "src_rinnou";
+  if (u.includes("buddhanet.info")) return "src_buddhanet";
+  if (u.includes("giacngo.vn")) return "src_giacngo_vn";
+  if (u.includes("phatgiao.org.vn")) return "src_phatgiao_vn";
+  if (u.includes("iriz.hanazono.ac.jp")) return "src_iriz_hanazono";
+  if (u.includes("zen-kaisen.ru")) return "src_sando_kaisen";
   if (u.includes("zen-azi.org")) return "src_azi";
   if (u.includes("sanbo-zen")) return "src_sanbozen";
   if (u.includes("onedropzen")) return "src_onedropzen";
@@ -174,6 +188,7 @@ function pickSourceId(sourceUrl: string, lineage: string): string {
   if (
     u.includes("plumvillage.org") ||
     u.includes("plumvillage.uk") ||
+    u.includes("langmai.org") ||
     u.includes("aandacht.net") ||
     u.includes("intersein.de") ||
     u.includes("tnhspain.com") ||
@@ -214,7 +229,7 @@ function pickSourceId(sourceUrl: string, lineage: string): string {
   if (u.includes("uniaobudista.pt")) return "src_ubp";
   if (u.includes("bouddhisme-france.org")) return "src_bouddhisme_france";
 
-  if (u.includes("en.wikipedia.org")) return "src_wikipedia";
+  if (u.includes("wikipedia.org")) return "src_wikipedia"; // any-language Wikipedia
 
   // ── Lineage-based fallbacks ─────────────────────────────────────────
   const l = lineage.toLowerCase();
@@ -245,6 +260,13 @@ const MANUAL_COORDS: Record<string, [number, number]> = {
   "Asian Institute of Applied Buddhism (AIAB) – Lotus Pond Temple": [22.2553, 113.905], // Ngong Ping, Lantau
   "Dharma Drum Mountain Hong Kong Centre": [22.3373, 114.1467], // Lai Chi Kok, Kowloon
   "Pu Guang Meditation Center (Chung Tai HK)": [22.278, 114.1747], // Wanchai
+  "Po Lin Monastery (Po Lin Chansi)": [22.2548, 113.9051], // Ngong Ping plateau, Lantau
+  "Lotus Pond Temple (Plum Village Hong Kong, Asian Institute of Applied Buddhism)": [22.2553, 113.905], // Ngong Ping, Lantau
+  "Su Bong Zen Monastery": [22.2780, 114.1841], // Causeway Bay, Leighton Rd
+  "Gak Su Temple International Zen Center": [22.2611, 113.9089], // Luk Wu, Lantau
+  "Puguang Meditation Center (Chung Tai Chan Monastery Hong Kong Branch)": [22.278, 114.1747], // Wanchai
+  "Dharma Drum Mountain Hong Kong Center (DDM Hong Kong)": [22.3373, 114.1467], // Lai Chi Kok, Kowloon
+  "Po Lam Monastery (Po Lam Chan Monastery)": [22.2783, 113.9381], // Tei Tong Tsai, Lantau
   "Chan Retreat Center Hartovski Vrh (Dharmaloka)": [45.7833, 15.3667], // Žumberak Nature Park
   "Bodhi Zendo": [10.241, 77.504], // Perumalmalai, near Kodaikanal
   "Dharma Drum Mountain Malaysia Centre": [3.175, 101.565], // Kwasa Damansara

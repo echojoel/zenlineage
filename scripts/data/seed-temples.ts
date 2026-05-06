@@ -153,6 +153,30 @@ export const SRC_KWAN_UM_POLAND = "src_kwan_um_poland";
  * association. szba.org is the main directory of US/Canada Sōtō centres. */
 export const SRC_SZBA = "src_szba";
 
+// ─── Asian directory sources ────────────────────────────────────────────
+/** Sōtōshū Japan head office — sodo (training monastery) directory at
+ * sotozen-net.or.jp. Distinct from SRC_SOTOZEN_EUROPE which covers only
+ * the /eng/temples/europe/ pages on the same domain. */
+export const SRC_SOTOZEN_JP = "src_sotozen_jp";
+/** Sotozen-Navi — Sōtōshū's foreign-zazen-friendly temple portal at
+ * sotozen-navi.com. */
+export const SRC_SOTOZEN_NAVI = "src_sotozen_navi";
+/** Rinzai-Ōbaku Federation — head temples directory at zen.rinnou.net. */
+export const SRC_RINNOU = "src_rinnou";
+/** BuddhaNet World Buddhist Directory — country-by-country listings. */
+export const SRC_BUDDHANET = "src_buddhanet";
+/** Giác Ngộ — official newspaper of the Vietnamese Buddhist Sangha. */
+export const SRC_GIACNGO_VN = "src_giacngo_vn";
+/** Phật giáo Việt Nam — phatgiao.org.vn, official news portal of the
+ * Vietnam Buddhist Sangha (GHPGVN). */
+export const SRC_PHATGIAO_VN = "src_phatgiao_vn";
+/** International Research Institute for Zen Buddhism (IRIZ), Hanazono
+ * University — global Zen Centers database (last refreshed 2003). */
+export const SRC_IRIZ_HANAZONO = "src_iriz_hanazono";
+/** Sando Kaisen Russian sangha — Deshimaru-line Sōtō dōjō directory at
+ * zen-kaisen.ru. */
+export const SRC_SANDO_KAISEN = "src_sando_kaisen";
+
 // ─── Catch-all for the long tail of small directory citations ──────────
 /** EU Zen places research bundle — generic citation source for entries
  * surfaced by directories not individually registered above. The

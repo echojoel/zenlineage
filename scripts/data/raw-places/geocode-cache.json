@@ -5284,5 +5284,271 @@
   "th:Pak Chong, Nakhon Ratchasima Province, Thailand": [
     14.7040864,
     101.4132201
+  ],
+  "cn:Caoxi, 7 km southeast of Maba Town, Qujiang District, Shaoguan, Guangdong, China, China": null,
+  "cn:Shaoguan, Guangdong, China": [
+    24.8309489,
+    113.8155263
+  ],
+  "hk:Ngong Ping Plateau, Lantau Island, Hong Kong, Hong Kong": null,
+  "hk:Hong Kong, Hong Kong SAR, Hong Kong": null,
+  "hk:5/F, Starlight House, 32 Leighton Road, Causeway Bay, Hong Kong, Hong Kong": null,
+  "hk:17A Luk Wu, Lantau Island, Hong Kong, Hong Kong": null,
+  "hk:G/F, Kingstown Mansion, 319-323 Jaffe Road, Wan Chai, Hong Kong, Hong Kong": null,
+  "hk:Tei Tong Tsai, Lantau Island, Hong Kong, Hong Kong": null,
+  "jp:8 Yamanouchi, Kamakura-shi, Kanagawa 247-8525, Japan, Japan": null,
+  "jp:Kamakura, Kanagawa Prefecture, Japan": [
+    35.3192808,
+    139.5469627
+  ],
+  "jp:409 Yamanouchi, Kamakura-shi, Kanagawa 247-0062, Japan, Japan": null,
+  "jp:41 Eigenjitakano-cho, Higashiōmi-shi, Shiga 527-0212, Japan, Japan": null,
+  "jp:Higashiōmi, Shiga Prefecture, Japan": [
+    35.112415,
+    136.2073154
+  ],
+  "jp:1577-1 Okuyama, Inasa-cho, Hamana-ku, Hamamatsu-shi, Shizuoka 431-2224, Japan, Japan": null,
+  "jp:Hamamatsu, Shizuoka Prefecture, Japan": [
+    34.7109786,
+    137.7259431
+  ],
+  "jp:2026 Enzankamiozō, Kōshū-shi, Yamanashi 404-0042, Japan, Japan": null,
+  "jp:Kōshū, Yamanashi Prefecture, Japan": [
+    35.7043662,
+    138.7293579
+  ],
+  "jp:22 Motoyama, Takasaka-cho, Mihara-shi, Hiroshima 729-0471, Japan, Japan": null,
+  "jp:Mihara, Hiroshima Prefecture, Japan": [
+    34.3974407,
+    133.0785046
+  ],
+  "jp:184 Ota, Takaoka-shi, Toyama 933-0137, Japan, Japan": null,
+  "jp:Takaoka, Toyama Prefecture, Japan": [
+    36.7362147,
+    137.0187306
+  ],
+  "jp:326 Sawaji, Mishima-shi, Shizuoka 411-0043, Japan, Japan": null,
+  "jp:Mishima, Shizuoka Prefecture, Japan": [
+    35.1185376,
+    138.9184438
+  ],
+  "jp:1-40 Kokeizan-cho, Tajimi-shi, Gifu 507-0014, Japan, Japan": null,
+  "jp:Tajimi, Gifu Prefecture, Japan": [
+    35.3329961,
+    137.1319459
+  ],
+  "jp:2-21-34 Nishi-azabu, Minato-ku, Tokyo 106-0031, Japan, Japan": null,
+  "jp:Tokyo, Tokyo Metropolis, Japan": null,
+  "jp:Tokyo, Japan": [
+    35.6768601,
+    139.7638947
+  ],
+  "jp:1-18-1 Monzen, Monzen-machi, Wajima-shi, Ishikawa 927-2156, Japan, Japan": null,
+  "jp:Wajima, Ishikawa Prefecture, Japan": [
+    37.3909384,
+    136.8995701
+  ],
+  "jp:1157 Daiyū-machi, Minamiashigara-shi, Kanagawa 250-0127, Japan, Japan": null,
+  "jp:Minamiashigara, Kanagawa Prefecture, Japan": [
+    35.3205738,
+    139.0992405
+  ],
+  "jp:2915-1 Kuno, Fukuroi-shi, Shizuoka 437-0061, Japan, Japan": null,
+  "jp:Fukuroi, Shizuoka Prefecture, Japan": [
+    34.7501492,
+    137.9246962
+  ],
+  "jp:1-1 Hōō-cho, Chikusa-ku, Nagoya-shi, Aichi 464-0057, Japan, Japan": null,
+  "jp:Nagoya, Aichi Prefecture, Japan": [
+    35.1851045,
+    136.8998438
+  ],
+  "jp:1-80 Shiroyama-cho, Chikusa-ku, Nagoya-shi, Aichi 464-0045, Japan, Japan": null,
+  "jp:3796 Yokotani, Yakage-cho, Oda-gun, Okayama 714-1212, Japan, Japan": null,
+  "jp:Yakage, Okayama Prefecture, Japan": [
+    34.6275353,
+    133.5870434
+  ],
+  "jp:8-1 Yamane-cho, Niihama-shi, Ehime 792-0835, Japan, Japan": null,
+  "jp:Niihama, Ehime Prefecture, Japan": [
+    33.9603497,
+    133.2835899
+  ],
+  "jp:3-14-4 Tenjin, Chūō-ku, Fukuoka-shi, Fukuoka 810-0001, Japan, Japan": null,
+  "jp:Fukuoka, Fukuoka Prefecture, Japan": [
+    33.5898988,
+    130.4017509
+  ],
+  "jp:1-1 Teramachi, Nagasaki-shi, Nagasaki 850-0872, Japan, Japan": null,
+  "jp:Nagasaki, Nagasaki Prefecture, Japan": [
+    32.7501611,
+    129.8781002
+  ],
+  "jp:32-1-1 Shōda-cho, Echizen-shi, Fukui 915-0043, Japan, Japan": null,
+  "jp:Echizen, Fukui Prefecture, Japan": [
+    35.9034571,
+    136.1689317
+  ],
+  "jp:129 Shōbōji, Kuroishi-cho, Mizusawa-ku, Ōshū-shi, Iwate 023-0101, Japan, Japan": null,
+  "jp:Ōshū, Iwate Prefecture, Japan": [
+    39.144275,
+    141.1392382
+  ],
+  "jp:100 Sekine, Shimokawa, Tsuruoka-shi, Yamagata 997-1117, Japan, Japan": null,
+  "jp:Tsuruoka, Yamagata Prefecture, Japan": [
+    38.7272187,
+    139.8266292
+  ],
+  "jp:2-1 Minami 6-jō Nishi, Chūō-ku, Sapporo-shi, Hokkaidō 064-0806, Japan, Japan": null,
+  "jp:Sapporo, Hokkaidō, Japan": [
+    43.061936,
+    141.3542924
+  ],
+  "jp:3-2-3 Yonemachi, Kushiro-shi, Hokkaidō 085-0842, Japan, Japan": null,
+  "jp:Kushiro, Hokkaidō, Japan": [
+    42.9849503,
+    144.3820491
+  ],
+  "jp:45-3 Fushihara, Obama-shi, Fukui 917-0054, Japan, Japan": null,
+  "jp:Obama, Fukui Prefecture, Japan": [
+    35.4938281,
+    135.7446614
+  ],
+  "jp:10 Ru, Nagasakamachi, Kanazawa-shi, Ishikawa 921-8033, Japan, Japan": null,
+  "jp:Kanazawa, Ishikawa Prefecture, Japan": [
+    36.561627,
+    136.6568822
+  ],
+  "jp:2034 Hanjaku, Kikuchi-shi, Kumamoto 861-1672, Japan, Japan": null,
+  "jp:Kikuchi, Kumamoto Prefecture, Japan": [
+    32.9798234,
+    130.8131987
+  ],
+  "vn:Thôn Nam Mẫu, xã Thượng Yên Công, thành phố Uông Bí, tỉnh Quảng Ninh, Việt Nam, Vietnam": null,
+  "vn:Uông Bí, Quảng Ninh Province, Vietnam": [
+    21.0357403,
+    106.7647796
+  ],
+  "vn:Đường Trúc Lâm Yên Tử, phường 3, thành phố Đà Lạt, tỉnh Lâm Đồng, Việt Nam, Vietnam": null,
+  "vn:Đà Lạt, Lâm Đồng Province, Vietnam": [
+    11.9082632,
+    108.4572089
+  ],
+  "vn:Xã Đại Đình, huyện Tam Đảo, tỉnh Vĩnh Phúc, Việt Nam, Vietnam": null,
+  "vn:Tam Đảo, Vĩnh Phúc Province, Vietnam": [
+    21.4035508,
+    105.610193
+  ],
+  "vn:Hồ Truồi, xã Lộc Hòa, huyện Phú Lộc, tỉnh Thừa Thiên Huế, Việt Nam, Vietnam": null,
+  "vn:Phú Lộc, Thừa Thiên Huế Province, Vietnam": null,
+  "vn:Phú Lộc, Vietnam": [
+    16.280351,
+    107.858984
+  ],
+  "vn:Khu phố 7, phường 3, thành phố Đà Lạt, tỉnh Lâm Đồng, Việt Nam, Vietnam": null,
+  "vn:Ấp Nhơn Mỹ, xã Mỹ Khánh, huyện Phong Điền, thành phố Cần Thơ, Việt Nam, Vietnam": null,
+  "vn:Cần Thơ, Cần Thơ City, Vietnam": [
+    10.0433764,
+    105.7864891
+  ],
+  "vn:Số 001, tổ 23, ấp 1C, xã Phước Thái, huyện Long Thành, tỉnh Đồng Nai, Việt Nam, Vietnam": null,
+  "vn:Long Thành, Đồng Nai Province, Vietnam": [
+    11.1709454,
+    107.6385386
+  ],
+  "vn:Xã Phước Thái, huyện Long Thành, tỉnh Đồng Nai, Việt Nam, Vietnam": null,
+  "vn:Xã Phước Bình, huyện Long Thành, tỉnh Đồng Nai, Việt Nam, Vietnam": null,
+  "vn:Xã An Phước, huyện Long Thành, tỉnh Đồng Nai, Việt Nam, Vietnam": null,
+  "vn:Khu 15, huyện Long Thành, tỉnh Đồng Nai, Việt Nam, Vietnam": null,
+  "vn:Thị xã Long Mỹ, tỉnh Hậu Giang, Việt Nam, Vietnam": null,
+  "vn:Long Mỹ, Hậu Giang Province, Vietnam": null,
+  "vn:Long Mỹ, Vietnam": [
+    9.6929623,
+    105.6160944
+  ],
+  "vn:Phường Gia Lộc, thị xã Trảng Bàng, tỉnh Tây Ninh, Việt Nam, Vietnam": null,
+  "vn:Trảng Bàng, Tây Ninh Province, Vietnam": [
+    11.1046601,
+    106.3884056
+  ],
+  "vn:Thôn Dương Xuân Thượng III, phường Thủy Xuân, thành phố Huế, tỉnh Thừa Thiên Huế, Việt Nam, Vietnam": null,
+  "vn:Huế, Thừa Thiên Huế Province, Vietnam": null,
+  "vn:Huế, Vietnam": [
+    16.4639321,
+    107.5863388
+  ],
+  "vn:Số 143 đường Đặng Huy Trứ, phường Phước Vĩnh, thành phố Huế, tỉnh Thừa Thiên Huế, Việt Nam, Vietnam": null,
+  "vn:Đồi Hàm Long, đường Báo Quốc, phường Phường Đúc, thành phố Huế, tỉnh Thừa Thiên Huế, Việt Nam, Vietnam": null,
+  "vn:Đồi Hà Khê, phường Hương Long, thành phố Huế, tỉnh Thừa Thiên Huế, Việt Nam, Vietnam": null,
+  "vn:Số 1 đường Sư Liễu Quán, phường Trường An, thành phố Huế, tỉnh Thừa Thiên Huế, Việt Nam, Vietnam": null,
+  "vn:Số 22 đường 23 Tháng 10, phường Phương Sơn, thành phố Nha Trang, tỉnh Khánh Hòa, Việt Nam, Vietnam": null,
+  "vn:Nha Trang, Khánh Hòa Province, Vietnam": [
+    12.2084991,
+    109.2871204
+  ],
+  "vn:Thôn Quốc Khánh, xã Trí Yên, huyện Yên Dũng, tỉnh Bắc Giang, Việt Nam, Vietnam": null,
+  "vn:Yên Dũng, Bắc Giang Province, Vietnam": null,
+  "vn:Số 339 Nam Kỳ Khởi Nghĩa, phường 7, quận 3, Thành phố Hồ Chí Minh, Việt Nam, Vietnam": null,
+  "vn:Thành phố Hồ Chí Minh, Hồ Chí Minh City, Vietnam": [
+    10.8073613,
+    106.7565052
+  ],
+  "ru:Москва, Староконюшенный пер., д. 43, Россия, Russia": null,
+  "ru:Moscow, Moscow, Russia": [
+    55.7505412,
+    37.6174782
+  ],
+  "ru:Парковая Аллея 44, пространство «Живое», Калининград, Россия, Russia": null,
+  "ru:Kaliningrad, Kaliningrad Oblast, Russia": [
+    54.7046485,
+    20.4565666
+  ],
+  "ru:Зеленоград, корпус 1401, подъезд 1, этаж 2, кв. 5, Россия, Russia": null,
+  "ru:Zelenograd, Moscow Oblast, Russia": [
+    55.9490797,
+    37.1810871
+  ],
+  "ru:г. Самара, Творческий кластер «Дом 77», ул. Ленинградская, д. 77, 2 эт., к. 214 'Flow room', Россия, Russia": null,
+  "ru:Samara, Samara Oblast, Russia": [
+    53.1956255,
+    50.1014927
+  ],
+  "ru:ул. Кирова, д. 17а, кв. 55, Челябинск, Россия, Russia": null,
+  "ru:Chelyabinsk, Chelyabinsk Oblast, Russia": [
+    55.1598408,
+    61.4025547
+  ],
+  "ru:ул. Кедрова 7-1-22, Москва, Россия, Russia": null,
+  "ru:Datsan Gunzechoinei, Primorsky prospekt 91, Saint Petersburg 197374, Russia, Russia": null,
+  "ru:Saint Petersburg, Saint Petersburg, Russia": [
+    59.938732,
+    30.316229
+  ],
+  "ru:ul. Lokomotivnaya 112, 1, 432012 ULIANOVSK, Russia, Russia": null,
+  "ru:Ulyanovsk, Ulyanovsk Oblast, Russia": [
+    54.3150278,
+    48.403373
+  ],
+  "ru:30 Borovskaya ul., Bronnitsa, 173110 VELIKIY NOVGOROD, Russia, Russia": null,
+  "ru:Veliky Novgorod, Novgorod Oblast, Russia": [
+    58.5209862,
+    31.2757862
+  ],
+  "ru:Novogireevskaya Street 14-2-34, Moscow 111401, Russia, Russia": null,
+  "ru:Yan Rainis Boulevard 24-2-240, Moscow 123373, Russia, Russia": null,
+  "us-pv:Flow Yoga Westgate, 4477 South Lamar Blvd, Austin, TX 78745, USA, United States": null,
+  "us-pv:Austin, Texas, United States": [
+    30.2711286,
+    -97.7436995
+  ],
+  "us-pv:Still Mind Zendo, 34 W 15th St, 3rd Floor, New York, NY 10011, USA, United States": null,
+  "us-pv:New York City, New York, United States": [
+    40.7127281,
+    -74.0060152
+  ],
+  "us-pv:WorldBeat Cultural Center, 2100 Park Blvd, San Diego, CA 92101, USA, United States": null,
+  "us-pv:San Diego, California, United States": [
+    32.7174202,
+    -117.162772
   ]
 }

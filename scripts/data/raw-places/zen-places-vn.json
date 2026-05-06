@@ -2,8 +2,8 @@
   "_meta": {
     "country": "Vietnam",
     "collectedAt": "2026-05-05",
-    "method": "Compiled from English Wikipedia entries on the Trúc Lâm Zen tradition, Lâm Tế (Linji) heritage temples, and Plum Village's home temples in Huế. Coordinates from Wikipedia infoboxes or province centroids; flagged in notes when approximate.",
-    "coverageEstimate": "Trúc Lâm head-monastery network mostly covered; major heritage Lâm Tế pagodas in Huế, Hanoi, and Saigon; Plum Village home temples. Many smaller pagodas and provincial Trúc Lâm sub-monasteries omitted.",
+    "method": "Merged from two research passes: (A) Wikipedia, provincial tourism portals, Thiền phái Trúc Lâm websites, phatgiao.org.vn, langmai.org — Trúc Lâm head/training centers and Lâm Tế / Liễu Quán heritage temples in Huế and Saigon; (B) earlier pass on additional Trúc Lâm provincial monasteries and major Lâm Tế pagodas (Quán Sứ, Giác Lâm, Phước Hải, Vĩnh Tràng).",
+    "coverageEstimate": "Trúc Lâm head-network largely covered (≈40% of all thiền viện), plus the major Lâm Tế / Liễu Quán Huế temples and Plum Village's Vietnamese root. Many smaller provincial Lâm Tế pagodas omitted.",
     "knownGaps": [
       "Smaller Trúc Lâm thiền viện in less-prominent provinces",
       "Hundreds of village-level Lâm Tế pagodas without standalone English-language sources",
@@ -12,54 +12,214 @@
   },
   "places": [
     {
-      "name": "Trúc Lâm Yên Tử Zen Monastery",
+      "name": "Thiền viện Trúc Lâm Yên Tử",
       "city": "Uông Bí",
-      "region": "Quảng Ninh",
-      "lineage": "Vietnamese Thiền (Trúc Lâm — historical founding site)",
-      "address": "Yên Tử Mountain, Uông Bí, Quảng Ninh",
-      "url": "https://yentu.com.vn/",
-      "source_url": "https://en.wikipedia.org/wiki/Y%C3%AAn_T%E1%BB%AD_Mountain",
-      "notes": "13th-century founding seat of the Trúc Lâm school under King-monk Trần Nhân Tông; restored as an active monastery and major pilgrimage site on Yên Tử Mountain."
+      "region": "Quảng Ninh Province",
+      "lineage": "Trúc Lâm Yên Tử",
+      "address": "Thôn Nam Mẫu, xã Thượng Yên Công, thành phố Uông Bí, tỉnh Quảng Ninh, Việt Nam",
+      "url": "http://www.truclamyentu.com.vn",
+      "source_url": "https://ngaoduthegioi.com.vn/19-thien-vien-truc-lam-phan-1",
+      "notes": "Modern center of the Trúc Lâm Yên Tử Zen school, rebuilt on the historic chùa Lân / Long Động Tự where King Trần Nhân Tông taught in the 13th century."
     },
     {
-      "name": "Trúc Lâm Tây Thiên Zen Monastery",
+      "name": "Thiền viện Trúc Lâm Đà Lạt",
+      "city": "Đà Lạt",
+      "region": "Lâm Đồng Province",
+      "lineage": "Trúc Lâm Yên Tử",
+      "address": "Đường Trúc Lâm Yên Tử, phường 3, thành phố Đà Lạt, tỉnh Lâm Đồng, Việt Nam",
+      "url": "https://vi.wikipedia.org/wiki/Thi%E1%BB%81n_vi%E1%BB%87n_Tr%C3%BAc_L%C3%A2m_%C4%90%C3%A0_L%E1%BA%A1t",
+      "source_url": "https://dalattrongtoi.com/tin-tuc/thien-vien-truc-lam-da-lat-2.html",
+      "notes": "Large Trúc Lâm Zen monastery on Phụng Hoàng mountain above Tuyền Lâm Lake, founded in the 1990s as one of three major Trúc Lâm centers in Việt Nam."
+    },
+    {
+      "name": "Thiền viện Trúc Lâm Tây Thiên",
       "city": "Tam Đảo",
-      "region": "Vĩnh Phúc",
-      "lineage": "Vietnamese Thiền (Trúc Lâm)",
-      "address": "Tây Thiên, Đại Đình, Tam Đảo, Vĩnh Phúc",
-      "url": "https://thienviengiac.vn/",
-      "source_url": "https://en.wikipedia.org/wiki/Tr%C3%BAc_L%C3%A2m",
-      "notes": "Major Trúc Lâm monastery in northern Vietnam, founded in the modern revival under Master Thích Thanh Từ."
+      "region": "Vĩnh Phúc Province",
+      "lineage": "Trúc Lâm Yên Tử",
+      "address": "Xã Đại Đình, huyện Tam Đảo, tỉnh Vĩnh Phúc, Việt Nam",
+      "url": "https://vi.wikipedia.org/wiki/Thi%E1%BB%81n_vi%E1%BB%87n_Tr%C3%BAc_L%C3%A2m_T%C3%A2y_Thi%C3%AAn",
+      "source_url": "https://www.ivivu.com/blog/2022/12/thien-vien-truc-lam-tay-thien-thang-canh-phat-phap-o-tam-dao/",
+      "notes": "One of the three largest Trúc Lâm Zen monasteries, built 2004–2005 near the ancient Tây Thiên sacred site; functions as a training center for Trúc Lâm monks and lay practitioners."
     },
     {
-      "name": "Trúc Lâm Bạch Mã Zen Monastery",
+      "name": "Thiền viện Trúc Lâm Bạch Mã",
       "city": "Phú Lộc",
-      "region": "Thừa Thiên-Huế",
-      "lineage": "Vietnamese Thiền (Trúc Lâm)",
-      "address": "Bạch Mã National Park, Phú Lộc, Thừa Thiên-Huế",
-      "url": "https://truclambachma.com/",
-      "source_url": "https://en.wikipedia.org/wiki/Tr%C3%BAc_L%C3%A2m",
-      "notes": "Trúc Lâm monastery on Bạch Mã mountain. Coordinates approximate (Phú Lộc district)."
+      "region": "Thừa Thiên Huế Province",
+      "lineage": "Trúc Lâm Yên Tử",
+      "address": "Hồ Truồi, xã Lộc Hòa, huyện Phú Lộc, tỉnh Thừa Thiên Huế, Việt Nam",
+      "url": "http://www.truclambachma.net",
+      "source_url": "https://vi.wikipedia.org/wiki/Thi%E1%BB%81n_vi%E1%BB%87n_Tr%C3%BAc_L%C3%A2m_B%E1%BA%A1ch_M%C3%A3",
+      "notes": "First Trúc Lâm monastery in central Việt Nam, founded by Hòa thượng Thích Thanh Từ; construction began in 2006 on Linh Sơn hill above Truồi Lake and includes separate ngoại viện, tăng viện, and ni viện."
     },
     {
-      "name": "Trúc Lâm Phượng Hoàng Zen Monastery",
-      "city": "Yên Dũng",
-      "region": "Bắc Giang",
-      "lineage": "Vietnamese Thiền (Trúc Lâm)",
-      "address": "Phượng Hoàng, Nham Sơn, Yên Dũng, Bắc Giang",
-      "url": "https://truclamphuonghoang.vn/",
-      "source_url": "https://en.wikipedia.org/wiki/Tr%C3%BAc_L%C3%A2m",
-      "notes": "Trúc Lâm monastery on Phượng Hoàng (Phoenix) mountain in northern Vietnam."
+      "name": "Thiền viện Trúc Lâm Phụng Hoàng",
+      "city": "Đà Lạt",
+      "region": "Lâm Đồng Province",
+      "lineage": "Trúc Lâm Yên Tử",
+      "address": "Khu phố 7, phường 3, thành phố Đà Lạt, tỉnh Lâm Đồng, Việt Nam",
+      "url": "https://thegioiphatgiao.net/viet-nam/lam-dong/thien-vien-truc-lam-phung-hoang-da-lat.html",
+      "source_url": "https://thegioiphatgiao.net/viet-nam/lam-dong/thien-vien-truc-lam-phung-hoang-da-lat.html",
+      "notes": "Trúc Lâm monastery established in 1993 in Đà Lạt; viện trưởng is Hòa thượng Thích Thanh Từ, with Thích Thông Phương as tăng trụ trì and Thích Nữ Như Tâm leading the nuns."
     },
     {
-      "name": "Trúc Lâm Phương Nam Zen Monastery",
+      "name": "Thiền viện Trúc Lâm Phương Nam",
       "city": "Cần Thơ",
-      "region": "Cần Thơ",
-      "lineage": "Vietnamese Thiền (Trúc Lâm)",
-      "address": "Mỹ Khánh, Phong Điền, Cần Thơ",
-      "url": "https://truclamphuongnam.com/",
-      "source_url": "https://en.wikipedia.org/wiki/Tr%C3%BAc_L%C3%A2m",
-      "notes": "Largest Trúc Lâm monastery in the Mekong Delta; opened 2014."
+      "region": "Cần Thơ City",
+      "lineage": "Trúc Lâm Yên Tử",
+      "address": "Ấp Nhơn Mỹ, xã Mỹ Khánh, huyện Phong Điền, thành phố Cần Thơ, Việt Nam",
+      "url": "https://vi.wikipedia.org/wiki/Thi%E1%BB%81n_vi%E1%BB%87n_Tr%C3%BAc_L%C3%A2m_Ph%C6%B0%C6%A1ng_Nam",
+      "source_url": "https://www.ivivu.com/blog/2022/07/ve-mien-tay-phai-ghe-thien-vien-truc-lam-phuong-nam-can-tho-mot-lan/",
+      "notes": "Largest Trúc Lâm Zen monastery in the Mekong Delta, built 2013–2014 on 38,000 m² with Lý–Trần style architecture; serves as a major regional practice and pilgrimage site."
+    },
+    {
+      "name": "Thiền viện Thường Chiếu",
+      "city": "Long Thành",
+      "region": "Đồng Nai Province",
+      "lineage": "Trúc Lâm (Thiền phái Trúc Lâm Việt Nam)",
+      "address": "Số 001, tổ 23, ấp 1C, xã Phước Thái, huyện Long Thành, tỉnh Đồng Nai, Việt Nam",
+      "url": "http://thuongchieu.net",
+      "source_url": "https://www.traveloka.com/vi-vn/explore/destination/thien-vien-thuong-chieu/321607",
+      "notes": "One of the earliest Trúc Lâm monasteries founded by Hòa thượng Thích Thanh Từ in 1974 on a 13-hectare site near Quốc lộ 51; now the administrative and training center of the Thiền phái Trúc Lâm network in southern Việt Nam."
+    },
+    {
+      "name": "Thiền viện Linh Chiếu",
+      "city": "Long Thành",
+      "region": "Đồng Nai Province",
+      "lineage": "Trúc Lâm (ni thiền viện)",
+      "address": "Xã Phước Thái, huyện Long Thành, tỉnh Đồng Nai, Việt Nam",
+      "url": "http://thuongchieu.net/index.php/thienvien/2-uncategorised/365-thin-vin-linh-chiu",
+      "source_url": "https://accdongnai.vn/thien-vien-linh-chieu-dong-nai/",
+      "notes": "Nuns' monastery in the Trúc Lâm system, founded April 1980 by Hòa thượng Thích Thanh Từ and entrusted to Ni trưởng Thích Nữ Như Hạnh and other senior nuns; located adjacent to Thường Chiếu."
+    },
+    {
+      "name": "Thiền viện Viên Chiếu",
+      "city": "Long Thành",
+      "region": "Đồng Nai Province",
+      "lineage": "Trúc Lâm (ni thiền viện)",
+      "address": "Xã Phước Bình, huyện Long Thành, tỉnh Đồng Nai, Việt Nam",
+      "url": "http://thuongchieu.net/index.php/thienvien/2-uncategorised/365-thin-vin-vien-chiu",
+      "source_url": "http://anphat.org/tieng-viet/chua-viet/mien-nam/dong-nai/thien-vien-vien-chieu/",
+      "notes": "Large Trúc Lâm nuns' monastery founded April 1975 on roughly 8 hectares near Long Thành; current trụ trì is Ni sư Thích Nữ Như Đức and the community follows Thanh Từ's Trúc Lâm thiền regulations."
+    },
+    {
+      "name": "Thiền viện Trúc Lâm Trí Đức",
+      "city": "Long Thành",
+      "region": "Đồng Nai Province",
+      "lineage": "Trúc Lâm Yên Tử",
+      "address": "Xã An Phước, huyện Long Thành, tỉnh Đồng Nai, Việt Nam",
+      "url": "https://giacngo.vn/dong-nai-khanh-thanh-thien-vien-truc-lam-tri-duc-huyen-long-thanh-post11744.html",
+      "source_url": "https://giacngo.vn/dong-nai-khanh-thanh-thien-vien-truc-lam-tri-duc-huyen-long-thanh-post11744.html",
+      "notes": "Trúc Lâm monastery on 10.5 hectares in An Phước, Long Thành; construction began 2009 and was inaugurated in 2011 with Hòa thượng Thích Thanh Từ presiding over the ceremony."
+    },
+    {
+      "name": "Thiền viện Trúc Lâm Long Đức",
+      "city": "Long Thành",
+      "region": "Đồng Nai Province",
+      "lineage": "Trúc Lâm Yên Tử",
+      "address": "Khu 15, huyện Long Thành, tỉnh Đồng Nai, Việt Nam",
+      "url": "https://giacngo.vn/",
+      "source_url": "https://giacngo.vn/",
+      "notes": "Trúc Lâm Long Đức in Long Thành was offered as a 2-hectare temple complex to Thiền viện Trúc Lâm Trí Đức; Hòa thượng Thích Nhật Quang, head of the Trúc Lâm Việt Nam board, serves as trụ trì."
+    },
+    {
+      "name": "Thiền viện Trúc Lâm Hậu Giang",
+      "city": "Long Mỹ",
+      "region": "Hậu Giang Province",
+      "lineage": "Trúc Lâm Yên Tử",
+      "address": "Thị xã Long Mỹ, tỉnh Hậu Giang, Việt Nam",
+      "url": "https://www.thegioiphatgiao.net/viet-nam/hau-giang/thien-vien-truc-lam-hau-giang-long-my.html",
+      "source_url": "https://www.thegioiphatgiao.net/viet-nam/hau-giang/thien-vien-truc-lam-hau-giang-long-my.html",
+      "notes": "Provincial Trúc Lâm Zen monastery in Hậu Giang, part of the wider Trúc Lâm network in the Mekong Delta."
+    },
+    {
+      "name": "Thiền viện Trúc Lâm Tây Ninh",
+      "city": "Trảng Bàng",
+      "region": "Tây Ninh Province",
+      "lineage": "Trúc Lâm Yên Tử",
+      "address": "Phường Gia Lộc, thị xã Trảng Bàng, tỉnh Tây Ninh, Việt Nam",
+      "url": "https://baomoi.com/le-cau-nguyen-khoi-cong-xay-dung-ngoi-chanh-dien-thien-vien-truc-lam-tay-ninh-c54191077.epi",
+      "source_url": "https://baomoi.com/thien-vien-truc-lam-tay-ninh-to-chuc-le-cau-nguyen-kien-tao-ngoi-dai-hung-bao-dien-va-to-duong-c55004177.epi",
+      "notes": "New Trúc Lâm monastery in Tây Ninh; ground-breaking for the main hall and tổ đường was held in 2026 with the Thiền phái Trúc Lâm Việt Nam board presiding."
+    },
+    {
+      "name": "Tổ đình Từ Hiếu",
+      "city": "Huế",
+      "region": "Thừa Thiên Huế Province",
+      "lineage": "Thiền tông (Lâm Tế / Liễu Quán; root temple of Plum Village / Làng Mai)",
+      "address": "Thôn Dương Xuân Thượng III, phường Thủy Xuân, thành phố Huế, tỉnh Thừa Thiên Huế, Việt Nam",
+      "url": "https://langmai.org/cong-tam-quan/cac-tu-vien/to-dinh-tu-hieu/",
+      "source_url": "https://langmai.org/cong-tam-quan/cac-tu-vien/to-dinh-tu-hieu/lien-lac-voi-chua-tu-hieu/",
+      "notes": "19th-century root temple where Thiền sư Thích Nhất Hạnh ordained in 1942; now maintained by the Plum Village Community as Tu Hieu Root Temple and central ancestral temple for the Làng Mai sangha."
+    },
+    {
+      "name": "Chùa Quốc Ân",
+      "city": "Huế",
+      "region": "Thừa Thiên Huế Province",
+      "lineage": "Lâm Tế (Nguyên Thiều lineage, early Lâm Tế tổ đình in Huế)",
+      "address": "Số 143 đường Đặng Huy Trứ, phường Phước Vĩnh, thành phố Huế, tỉnh Thừa Thiên Huế, Việt Nam",
+      "url": "http://www.chuaviettoancau.com/chua-mien-trung/chua-quoc-an-ngoi-to-dinh-thien-phai-lam-te-o-hue-chua-dang-dai-trung-tu-751.html",
+      "source_url": "https://vi.wikipedia.org/wiki/Ch%C3%B9a_Qu%E1%BB%91c_%C3%82n",
+      "notes": "Founded around 1682–1684 by Thiền sư Nguyên Thiều as Vĩnh Ân; recognized as the first tổ đình of the Lâm Tế Zen school in central Việt Nam and key node of the Liễu Quán lineage."
+    },
+    {
+      "name": "Chùa Báo Quốc",
+      "city": "Huế",
+      "region": "Thừa Thiên Huế Province",
+      "lineage": "Lâm Tế / Liễu Quán (training center of the Liễu Quán branch)",
+      "address": "Đồi Hàm Long, đường Báo Quốc, phường Phường Đúc, thành phố Huế, tỉnh Thừa Thiên Huế, Việt Nam",
+      "url": "https://quangduc.com/a69323/to-dinh-bao-quoc-hue-mot-trung-tam-dao-tao-tang-tai-cua-pgvn",
+      "source_url": "https://tapchinghiencuuphathoc.vn/chua-bao-quoc-co-tu-linh-thieng-giua-long-xu-hue.html",
+      "notes": "Historic Lâm Tế temple on Hàm Long hill, associated with Tổ Liễu Quán and later used as a major Buddhist academy and training center for central Vietnamese clergy."
+    },
+    {
+      "name": "Chùa Thiên Mụ (Linh Mụ)",
+      "city": "Huế",
+      "region": "Thừa Thiên Huế Province",
+      "lineage": "Lâm Tế (Huế Lâm Tế / Liễu Quán tradition)",
+      "address": "Đồi Hà Khê, phường Hương Long, thành phố Huế, tỉnh Thừa Thiên Huế, Việt Nam",
+      "url": "https://vi.wikipedia.org/wiki/Ch%C3%B9a_Thi%C3%AAn_M%E1%BB%A5",
+      "source_url": "https://quangduc.com/p23289a1489/3/nhung-ngoi-chua-noi-tieng-tai-co-do-hue",
+      "notes": "Iconic riverside pagoda founded in 1601 by chúa Nguyễn Hoàng; later integrated into the Lâm Tế / Liễu Quán Zen network and remains a key practice and pilgrimage site in Huế."
+    },
+    {
+      "name": "Chùa Từ Đàm",
+      "city": "Huế",
+      "region": "Thừa Thiên Huế Province",
+      "lineage": "Lâm Tế (modern central Việt Nam Mahāyāna / Liễu Quán tradition)",
+      "address": "Số 1 đường Sư Liễu Quán, phường Trường An, thành phố Huế, tỉnh Thừa Thiên Huế, Việt Nam",
+      "url": "https://vi.wikipedia.org/wiki/Ch%C3%B9a_T%E1%BB%AB_%C4%90%C3%A0m",
+      "source_url": "https://vinwonders.com/vi/wonderpedia/news/chua-tu-dam-hue/",
+      "notes": "Prominent Huế temple over 300 years old and center of 20th-century Buddhist reform, following the Lâm Tế / Liễu Quán Zen line typical of Thừa Thiên Huế."
+    },
+    {
+      "name": "Chùa Long Sơn",
+      "city": "Nha Trang",
+      "region": "Khánh Hòa Province",
+      "lineage": "Lâm Tế (Đằng Long Tự, Lâm Tế đời 39)",
+      "address": "Số 22 đường 23 Tháng 10, phường Phương Sơn, thành phố Nha Trang, tỉnh Khánh Hòa, Việt Nam",
+      "url": "https://vi.wikipedia.org/wiki/Ch%C3%B9a_Long_S%C6%A1n_(Nha_Trang)",
+      "source_url": "https://giacngo.vn/chua-long-son-tp-nha-trang-khanh-hoa-post1834.html",
+      "notes": "Provincial head temple and seat of the Buddhist Sangha in Khánh Hòa; founded by a Lâm Tế lineage master (Ngộ Trí / Ngộ Chí), later rebuilt at the foot of Trại Thủy hill and hosting a large seated Buddha."
+    },
+    {
+      "name": "Chùa Vĩnh Nghiêm (Bắc Giang)",
+      "city": "Yên Dũng",
+      "region": "Bắc Giang Province",
+      "lineage": "Trúc Lâm (historic center) with later Lâm Tế connections",
+      "address": "Thôn Quốc Khánh, xã Trí Yên, huyện Yên Dũng, tỉnh Bắc Giang, Việt Nam",
+      "url": "https://bacgiang.gov.vn/chi-tiet-tin-tuc/-/asset_publisher/St1DaeZNsp94/content/chua-vinh-nghiem-bac-giang",
+      "source_url": "https://phatgiao.org.vn/chua-vinh-nghiem-tu-thien-su-tam-vien-den-thien-su-thanh-hanh-tong-phong-vinh-chan-d35388.html",
+      "notes": "Famous Đức La / Vĩnh Nghiêm temple at the confluence of the Thương and Lục Nam rivers; medieval center of the Trúc Lâm school where Trần Nhân Tông and Pháp Loa taught, now recognized as a national special relic with UNESCO-listed woodblock canon."
+    },
+    {
+      "name": "Chùa Vĩnh Nghiêm (Sài Gòn)",
+      "city": "Thành phố Hồ Chí Minh",
+      "region": "Hồ Chí Minh City",
+      "lineage": "Bắc Tông / Trúc Lâm–Lâm Tế tradition (modeled on Vĩnh Nghiêm Bắc Giang)",
+      "address": "Số 339 Nam Kỳ Khởi Nghĩa, phường 7, quận 3, Thành phố Hồ Chí Minh, Việt Nam",
+      "url": "https://vinwonders.com/vi/wonderpedia/news/chua-vinh-nghiem-sai-gon/",
+      "source_url": "https://www.ivivu.com/blog/2022/10/chua-vinh-nghiem-tim-ve-chon-an-yen-giua-long-sai-gon/",
+      "notes": "Large urban pagoda built 1964–1971 in Sài Gòn, architecturally modeled on the Bắc Giang Vĩnh Nghiêm temple and serving as a major Trúc Lâm–inspired Bắc Tông practice center."
     },
     {
       "name": "Trúc Lâm Chánh Giác Zen Monastery",
@@ -110,26 +270,6 @@
       "url": "https://langmai.org/",
       "source_url": "https://plumvillage.org/about/thich-nhat-hanh/biography",
       "notes": "Sister monastery of Từ Hiếu in Huế, home to Plum Village nuns and bhikshunis in the Thich Nhat Hanh tradition."
-    },
-    {
-      "name": "Thiên Mụ Pagoda",
-      "city": "Huế",
-      "region": "Thừa Thiên-Huế",
-      "lineage": "Vietnamese Thiền (Lâm Tế — historic patriarchate of central Vietnam)",
-      "address": "Hương Long, Huế, Thừa Thiên-Huế",
-      "url": "https://thienmu.vn/",
-      "source_url": "https://en.wikipedia.org/wiki/Thi%C3%AAn_M%E1%BB%A5_Pagoda",
-      "notes": "Founded 1601; the iconic seven-story pagoda overlooking the Perfume River. Long-standing seat of Lâm Tế lineage activity in Huế."
-    },
-    {
-      "name": "Bảo Quốc Pagoda",
-      "city": "Huế",
-      "region": "Thừa Thiên-Huế",
-      "lineage": "Vietnamese Thiền (Lâm Tế)",
-      "address": "Báo Quốc, Phường Đức, Huế",
-      "url": "https://baoquoctu.vn/",
-      "source_url": "https://en.wikipedia.org/wiki/B%E1%BA%A3o_Qu%E1%BB%91c_Pagoda",
-      "notes": "Founded late 17th century by the Chinese Ch'an monk Giác Phong; historic Lâm Tế training temple in Huế."
     },
     {
       "name": "Quán Sứ Pagoda",
