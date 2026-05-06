@@ -80,6 +80,8 @@ const TARGETS: Record<string, string[]> = {
   "jean-pierre-genshu-faure": [],
   "evelyne-eko-de-smedt": [],
   "stephane-kosen-thibaut": [],
+  "etienne-mokusho-zeisler": [],
+  "vincent-keisen-vuillemin": [],
   "shodo-harada": ["Shodo Harada", "Shōdō Harada"],
   "harada-sodo-kakusho": ["Shōdō Harada", "Shodo Harada"],
   "nyogen-senzaki": ["Nyogen Senzaki"],
@@ -215,6 +217,25 @@ const EXTERNAL_PORTRAITS: Record<string, ExternalPortrait> = {
     sourcePageUrl: "https://www.zen-deshimaru.com/fr/association-abzd/maitre-kosen/",
     attribution: "Kosen Sangha (zen-deshimaru.com) — Maître Kosen",
     license: "courtesy of Kosen Sangha / fair use for educational identification",
+  },
+  // Étienne Mokushō Zeisler (1946–1990) — Hungarian-French Deshimaru
+  // disciple. Portrait from Mokusho Zen House Budapest, founded by his
+  // dharma-heir Yvon Myoken Bec; image is on the sangha's "Our story" page
+  // captioned "Death of Master Zeisler".
+  "etienne-mokusho-zeisler": {
+    imageUrl: "http://www.mokushozen.hu/wptest/images/01_Zeisler_rs.jpg",
+    sourcePageUrl: "https://www.mokushozen.hu/en/sample-page/our-story/",
+    attribution: "Mokusho Zen House Budapest (mokushozen.hu) — Master Zeisler",
+    license: "courtesy of Mokusho Zen House / fair use for educational identification",
+  },
+  // Vincent Keisen Vuillemin — Genevan Deshimaru-Zeisler-line teacher.
+  // Same Mokusho ZH source page, captioned "Vincent Keisen Vuillemin, from
+  // Geneve, disciple of master Zeisler".
+  "vincent-keisen-vuillemin": {
+    imageUrl: "http://www.mokushozen.hu/wptest/images/11_Vincent_rs.jpg",
+    sourcePageUrl: "https://www.mokushozen.hu/en/sample-page/our-story/",
+    attribution: "Mokusho Zen House Budapest (mokushozen.hu) — Vincent Keisen Vuillemin",
+    license: "courtesy of Mokusho Zen House / fair use for educational identification",
   },
 };
 
