@@ -88,6 +88,33 @@ body {
   }
 }
 
+/* Homepage layout — desktop pins the stats line to the bottom of the
+ * viewport. On mobile the centered column gets tall (the 8-item nav wraps
+ * to several rows, plus a multi-line proverb), so an absolute footer
+ * collides with the content. Below 640px we let it flow naturally and
+ * tighten the nav gap so it doesn't fan into too many rows. */
+.home-stats {
+  position: absolute;
+  bottom: 2rem;
+  margin: 0;
+}
+
+@media (max-width: 640px) {
+  .home-main {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
+  .home-nav {
+    gap: 1rem 1.5rem !important;
+  }
+
+  .home-stats {
+    position: static;
+    margin-top: 3rem;
+  }
+}
+
 /* ===== Page header (shared) =====
  * The header shares the same 860px content column as the detail pages and
  * list pages, so on wide viewports the breadcrumb stays aligned with the
