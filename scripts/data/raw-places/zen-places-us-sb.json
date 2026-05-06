@@ -1,0 +1,95 @@
+{
+  "_meta": {
+    "country": "United States",
+    "collectedAt": "2026-05-06",
+    "method": "Sampled active practice places from Sanbō Zen affiliate websites, Sanbo Zen International leaders/centers list, Order of Buddhist Contemplatives US temples directory, and Dharma Drum Mountain / Chan Meditation Center affiliate lists. Filtered to entries not already covered by zen-places-us.json (SZBA), zen-places-us-extra.json, or curated rows in seed-temples.ts.",
+    "coverageEstimate": "Net-new additions: 1 Sanbō-line center (Vermont Zen) + 7 Dharma Drum Mountain Chan centers (CMC New York, DDRC Pine Bush, DDM regional affiliates in CA/MA/WA, Tallahassee Chan).",
+    "knownGaps": [
+      "Sanbō Zen North America has additional sitting groups not on public center websites.",
+      "OBC US directory lists further abbeys, temples, and lay meditation groups beyond Shasta/Berkeley/Eugene/Portland/Redding/Columbia (already curated).",
+      "Smaller DDM chapters and affiliates that meet in rotating venues are omitted."
+    ]
+  },
+  "places": [
+    {
+      "name": "Vermont Zen Center",
+      "city": "Shelburne",
+      "region": "Vermont",
+      "lineage": "Sanbō Zen–influenced (Kapleau / Harada–Yasutani)",
+      "address": "480 Thomas Road, Shelburne, VT 05482, USA",
+      "url": "https://www.vermontzen.org",
+      "source_url": "https://www.vermontzen.org/contact.html",
+      "notes": "Founded in 1988 by Roshi Sunyana Graef, a Dharma heir of Philip Kapleau in the Harada–Yasutani line. The Vermont Zen Center maintains daily sittings, introductory workshops, sesshin, and a solo retreat cabin on its wooded property. Training combines Sōtō-style shikantaza and koan practice resembling Sanbō Zen's Harada–Yasutani stream."
+    },
+    {
+      "name": "Chan Meditation Center (Dharma Drum Mountain New York)",
+      "city": "Elmhurst",
+      "region": "New York",
+      "lineage": "Chan / Sheng-yen (Dharma Drum Mountain)",
+      "address": "90-56 Corona Avenue, Elmhurst, NY 11373, USA",
+      "url": "https://chancenter.org",
+      "source_url": "https://dharmadrumretreat.org/about-us/affiliates/",
+      "notes": "Chan Meditation Center is the main US city temple of Dharma Drum Mountain, founded by Chan Master Sheng Yen in Queens; offers weekly group meditation, Dharma talks, and classes in English and Chinese. Headquarters of Dharma Drum Mountain Buddhist Association (DDMBA) America and coordinates affiliates across North America."
+    },
+    {
+      "name": "Dharma Drum Retreat Center (DDRC)",
+      "city": "Pine Bush",
+      "region": "New York",
+      "lineage": "Chan / Sheng-yen (Dharma Drum Mountain)",
+      "address": "184 Quannacut Road, Pine Bush, NY 12566, USA",
+      "url": "https://dharmadrumretreat.org",
+      "source_url": "https://dharmadrumretreat.org/about-us/affiliates/",
+      "notes": "DDRC is the North American retreat center of Dharma Drum Mountain, founded by Master Sheng Yen to host silent meditation retreats from beginner instruction to advanced Chan methods such as silent illumination and huatou. Year-round retreats at its rural campus in Pine Bush, New York."
+    },
+    {
+      "name": "DDM Los Angeles Center",
+      "city": "El Monte",
+      "region": "California",
+      "lineage": "Chan / Sheng-yen (Dharma Drum Mountain)",
+      "address": "4530 North Peck Road, El Monte, CA 91732, USA",
+      "url": "https://www.ddmbala.org",
+      "source_url": "https://dharmadrumretreat.org/about-us/affiliates/",
+      "notes": "Regional Dharma Drum Mountain center for Southern California, offering regular meditation practice, Dharma classes, and retreats in the Chan tradition. Directed by Chang Tong Fashi and affiliated with Chan Meditation Center and DDMBA."
+    },
+    {
+      "name": "DDM Massachusetts Buddhist Association",
+      "city": "Lexington",
+      "region": "Massachusetts",
+      "lineage": "Chan / Sheng-yen (Dharma Drum Mountain)",
+      "address": "319 Lowell Street, Lexington, MA 02420, USA",
+      "url": "https://www.ddmmba.org",
+      "source_url": "https://dharmadrumretreat.org/about-us/affiliates/",
+      "notes": "Dharma Drum center in Lexington providing group meditation, Dharma talks, and retreats; led by Chang Xuan Fashi as Associate Director within the DDM global network. Serves practitioners in the Greater Boston area in Master Sheng Yen's Chan lineage."
+    },
+    {
+      "name": "DDM San Francisco Bay Area Center",
+      "city": "Fremont",
+      "region": "California",
+      "lineage": "Chan / Sheng-yen (Dharma Drum Mountain)",
+      "address": "255 H Street, Fremont, CA 94536, USA",
+      "url": "https://www.ddmbasf.org",
+      "source_url": "https://dharmadrumretreat.org/about-us/affiliates/",
+      "notes": "Bay Area Dharma Drum center in Fremont offering Chan meditation, Dharma classes, and retreats under Director Chang Xiang Fashi, connected with CMC and DDRC in the broader DDM network."
+    },
+    {
+      "name": "DDM Seattle Center",
+      "city": "Woodinville",
+      "region": "Washington",
+      "lineage": "Chan / Sheng-yen (Dharma Drum Mountain)",
+      "address": "18670 NE Woodinville-Duvall Road, Woodinville, WA 98077, USA",
+      "url": "https://www.ddmbaseattle.org",
+      "source_url": "https://dharmadrumretreat.org/about-us/affiliates/",
+      "notes": "Dharma Drum Mountain Seattle center in suburban Woodinville, directed by Joyce Chen, providing weekly meditation practice, Dharma teaching, and retreats in the Chan tradition."
+    },
+    {
+      "name": "Tallahassee Chan Center",
+      "city": "Tallahassee",
+      "region": "Florida",
+      "lineage": "Chan / Sheng-yen (Dharma Drum Chan lineage)",
+      "address": "1310 North Paul Russell Road, Tallahassee, FL 32301, USA",
+      "url": "https://tallahasseechan.org",
+      "source_url": "https://www.dharmadrum.org/portal_b6_page.php?cnt_id=1405",
+      "notes": "Founded by Guo Gu (Jimmy Yu), one of Master Sheng Yen's closest disciples. Tallahassee Chan Center is a major Western Chan hub offering weekly group meditation, workshops, and intensive retreats in the Dharma Drum Chan lineage. Recognized as a DDMBA chapter listed among Dharma Drum's North American centers, emphasizing both Linji and Caodong Chan methods for English-speaking practitioners."
+    }
+  ]
+}

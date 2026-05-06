@@ -176,6 +176,9 @@ export const SRC_IRIZ_HANAZONO = "src_iriz_hanazono";
 /** Sando Kaisen Russian sangha — Deshimaru-line Sōtō dōjō directory at
  * zen-kaisen.ru. */
 export const SRC_SANDO_KAISEN = "src_sando_kaisen";
+/** Dharma Drum Mountain — Chan Master Sheng Yen's global network: Chan
+ * Meditation Center, DDRC Pine Bush, and DDMBA regional affiliates. */
+export const SRC_DHARMADRUM = "src_dharmadrum";
 
 // ─── Catch-all for the long tail of small directory citations ──────────
 /** EU Zen places research bundle — generic citation source for entries

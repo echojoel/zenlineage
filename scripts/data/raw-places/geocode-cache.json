@@ -5550,5 +5550,55 @@
   "us-pv:San Diego, California, United States": [
     32.7174202,
     -117.162772
+  ],
+  "au:90 Church St, Camperdown NSW 2050, Australia, Australia": null,
+  "au:Sydney, New South Wales, Australia": [
+    -33.8698439,
+    151.2082848
+  ],
+  "gb:Friends Meeting House, 8 Hop Gardens, London WC2N 4EH, United Kingdom, United Kingdom": null,
+  "gb:London, Greater London, United Kingdom": [
+    51.5156177,
+    -0.0919983
+  ],
+  "us-sb:480 Thomas Road, Shelburne, VT 05482, USA, United States": null,
+  "us-sb:Shelburne, Vermont, United States": [
+    44.3783486,
+    -73.2276183
+  ],
+  "us-sb:90-56 Corona Avenue, Elmhurst, NY 11373, USA, United States": null,
+  "us-sb:Elmhurst, New York, United States": [
+    40.7365804,
+    -73.8783932
+  ],
+  "us-sb:184 Quannacut Road, Pine Bush, NY 12566, USA, United States": null,
+  "us-sb:Pine Bush, New York, United States": [
+    41.61329,
+    -74.2939101
+  ],
+  "us-sb:4530 North Peck Road, El Monte, CA 91732, USA, United States": null,
+  "us-sb:El Monte, California, United States": [
+    34.0751571,
+    -118.036849
+  ],
+  "us-sb:319 Lowell Street, Lexington, MA 02420, USA, United States": null,
+  "us-sb:Lexington, Massachusetts, United States": [
+    42.4473175,
+    -71.2245003
+  ],
+  "us-sb:255 H Street, Fremont, CA 94536, USA, United States": null,
+  "us-sb:Fremont, California, United States": [
+    37.5482697,
+    -121.988571
+  ],
+  "us-sb:18670 NE Woodinville-Duvall Road, Woodinville, WA 98077, USA, United States": null,
+  "us-sb:Woodinville, Washington, United States": [
+    47.7545827,
+    -122.1588902
+  ],
+  "us-sb:1310 North Paul Russell Road, Tallahassee, FL 32301, USA, United States": null,
+  "us-sb:Tallahassee, Florida, United States": [
+    30.4380832,
+    -84.2809332
   ]
 }

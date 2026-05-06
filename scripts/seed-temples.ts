@@ -34,6 +34,7 @@ import {
   SRC_BUDDHIST_SOCIETY_UK,
   SRC_BUN,
   SRC_DBU,
+  SRC_DHARMADRUM,
   SRC_DIAMOND_SANGHA,
   SRC_EU_ZEN_RESEARCH,
   SRC_FELSENTOR,
@@ -494,6 +495,16 @@ async function upsertTempleSources(): Promise<void> {
       url: "https://zen-kaisen.ru/",
       publicationDate: "2026",
       reliability: "secondary",
+    },
+    {
+      id: SRC_DHARMADRUM,
+      type: "website",
+      title:
+        "Dharma Drum Mountain — DDRC + DDMBA affiliate network (Sheng-yen Chan lineage)",
+      author: "Dharma Drum Mountain Buddhist Foundation",
+      url: "https://dharmadrumretreat.org/about-us/affiliates/",
+      publicationDate: "2026",
+      reliability: "authoritative",
     },
     {
       id: SRC_EU_ZEN_RESEARCH,

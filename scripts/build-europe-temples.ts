@@ -179,6 +179,12 @@ function pickSourceId(sourceUrl: string, lineage: string): string {
   if (u.includes("phatgiao.org.vn")) return "src_phatgiao_vn";
   if (u.includes("iriz.hanazono.ac.jp")) return "src_iriz_hanazono";
   if (u.includes("zen-kaisen.ru")) return "src_sando_kaisen";
+  if (
+    u.includes("dharmadrumretreat.org") ||
+    u.includes("dharmadrum.org") ||
+    u.includes("chancenter.org")
+  )
+    return "src_dharmadrum";
   if (u.includes("zen-azi.org")) return "src_azi";
   if (u.includes("sanbo-zen")) return "src_sanbozen";
   if (u.includes("onedropzen")) return "src_onedropzen";
