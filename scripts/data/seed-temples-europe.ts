@@ -19285,7 +19285,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     status: "active",
     sourceId: "src_szba",
     sourceExcerpt: "Brevard Zen Center / Kuge-in Temple — listed at www.szba.org (Sōtō (SZBA)). SZBA member.",
-    url: "https://brevardzencenter.org/",
+    url: "https://www.brevardzen.org/",
   },
   {
     slug: "cypress-tree-zen-group",
