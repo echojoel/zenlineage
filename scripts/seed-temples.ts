@@ -131,7 +131,7 @@ async function upsertTempleSources(): Promise<void> {
       type: "website",
       title: "Sōtōshū Europe Office — Temples, monasteries and practice centres in Europe",
       author: "Sōtōshū Shūmuchō",
-      url: "https://global.sotozen-net.or.jp/eng/temples/europe/",
+      url: "https://www.sotozen.com/eng/temples/regional_office/europe.html",
       publicationDate: "2025",
       reliability: "authoritative",
     },
