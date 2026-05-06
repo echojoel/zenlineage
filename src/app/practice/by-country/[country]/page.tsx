@@ -25,7 +25,7 @@ async function getCountries(): Promise<string[]> {
     .where(and(isNotNull(temples.country), isNotNull(temples.lat)));
   return rows
     .map((r) => r.country)
-    .filter((c): c is string => Boolean(c) && c.trim().length > 0);
+    .filter((c): c is string => Boolean(c) && (c as string).trim().length > 0);
 }
 
 export async function generateStaticParams() {

@@ -106,6 +106,11 @@ export default async function MasterOpenGraphImage({
           <div style={{ fontSize: 96, lineHeight: 1.05, fontWeight: 400 }}>
             {primaryName}
           </div>
+          {nativeName && (
+            <div style={{ fontSize: 56, color: "#3d3530", opacity: 0.7 }}>
+              {nativeName}
+            </div>
+          )}
           {datesLine && (
             <div style={{ fontSize: 36, color: "#7a6a55" }}>{datesLine}</div>
           )}

@@ -770,16 +770,16 @@ export default async function MasterDetailPage({ params }: { params: Promise<{ s
           <div className="detail-actions">
             <Link
               className="detail-button"
-              href={`/lineage?focus=${master.slug}${schoolRow ? `&school=${schoolRow.slug}` : ""}`}
+              href={`/lineage/${master.slug}`}
             >
-              Show in lineage
+              Lineage of {primaryName}
             </Link>
             {schoolRow && (
               <Link
                 className="detail-button detail-button-muted"
                 href={`/schools/${schoolRow.slug}`}
               >
-                View school
+                {schoolRow.name} school
               </Link>
             )}
           </div>

@@ -1,8 +1,16 @@
 import type { MetadataRoute } from "next";
 import { and, eq, inArray, isNotNull } from "drizzle-orm";
 import { db } from "@/db";
-import { citations, masters, schools, teachings, temples } from "@/db/schema";
+import {
+  citations,
+  masters,
+  schools,
+  teachings,
+  temples,
+  themes,
+} from "@/db/schema";
 import { SCHOOL_PRACTICE_TEACHINGS } from "@/lib/practice-instructions";
+import { countryToSlug } from "@/lib/seo/country-slug";
 
 export const dynamic = "force-static";
 
@@ -102,11 +110,48 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       priority: 0.6,
     }));
 
+  // Per-master lineage SSR landings (/lineage/[slug]). One per master.
+  const lineagePages: MetadataRoute.Sitemap = allMasters.map((m) => ({
+    url: `${BASE_URL}/lineage/${m.slug}`,
+    lastModified,
+    changeFrequency: "monthly",
+    priority: 0.55,
+  }));
+
+  // Per-country temple landings.
+  const countryRows = await db
+    .selectDistinct({ country: temples.country })
+    .from(temples)
+    .where(and(isNotNull(temples.country), isNotNull(temples.lat)));
+  const countryPages: MetadataRoute.Sitemap = countryRows
+    .map((r) => r.country)
+    .filter((c): c is string => Boolean(c) && (c as string).trim().length > 0)
+    .map((c) => ({
+      url: `${BASE_URL}/practice/by-country/${countryToSlug(c)}`,
+      lastModified,
+      changeFrequency: "monthly",
+      priority: 0.65,
+    }));
+
+  // Per-theme proverb landings.
+  const allThemes = await db
+    .select({ slug: themes.slug })
+    .from(themes);
+  const themePages: MetadataRoute.Sitemap = allThemes.map((t) => ({
+    url: `${BASE_URL}/proverbs/themes/${t.slug}`,
+    lastModified,
+    changeFrequency: "monthly",
+    priority: 0.6,
+  }));
+
   return [
     ...staticPages,
     ...masterPages,
     ...schoolPages,
     ...practiceSchoolPages,
+    ...countryPages,
+    ...lineagePages,
     ...teachingPages,
+    ...themePages,
   ];
 }

@@ -58,13 +58,18 @@ export async function generateMetadata({
   const school = schoolRows[0];
   if (!school) return {};
 
-  const nameRow = await db
-    .select({ value: schoolNames.value })
+  const allNameRows = await db
+    .select({ value: schoolNames.value, locale: schoolNames.locale })
     .from(schoolNames)
-    .where(and(eq(schoolNames.schoolId, school.id), eq(schoolNames.locale, "en")))
-    .limit(1);
+    .where(eq(schoolNames.schoolId, school.id));
 
-  const primaryName = nameRow[0]?.value ?? slug;
+  const primaryName =
+    allNameRows.find((n) => n.locale === "en")?.value ?? slug;
+  const nativeName =
+    allNameRows.find(
+      (n) => n.locale === "ja" || n.locale === "zh" || n.locale === "ko"
+    )?.value ?? null;
+  const titleWithNative = nativeName ? `${primaryName} (${nativeName})` : primaryName;
 
   const masterCountRow = await db
     .select({ count: sql<number>`count(*)` })
@@ -98,18 +103,18 @@ export async function generateMetadata({
   const canonicalUrl = `https://zenlineage.org/schools/${slug}`;
 
   return {
-    title: primaryName,
+    title: titleWithNative,
     description,
     alternates: { canonical: canonicalUrl },
     openGraph: {
-      title: `${primaryName} — Zen School`,
+      title: `${titleWithNative} — Zen School`,
       description,
       url: canonicalUrl,
       type: "website",
     },
     twitter: {
-      card: "summary",
-      title: `${primaryName} — Zen Lineage`,
+      card: "summary_large_image",
+      title: `${titleWithNative} — Zen Lineage`,
       description,
     },
   };
@@ -533,8 +538,16 @@ export default async function SchoolDetailPage({ params }: { params: Promise<{ s
               className="detail-button"
               href={`/lineage?school=${school.slug}${featuredMaster ? `&focus=${featuredMaster.slug}` : ""}`}
             >
-              Explore lineage
+              {primaryName} lineage graph
             </Link>
+            {schoolTemples.length > 0 && (
+              <Link
+                className="detail-button detail-button-muted"
+                href={`/practice/${school.slug}`}
+              >
+                {primaryName} practice centres ({schoolTemples.length})
+              </Link>
+            )}
             {featuredMaster && (
               <Link
                 className="detail-button detail-button-muted"
