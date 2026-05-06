@@ -829,7 +829,11 @@ export const SEED_TEMPLES: TempleSeed[] = [
     sourceId: SRC_WIKIPEDIA,
     sourceExcerpt:
       "Shaolin Monastery (少林寺) on Mount Song, Henan; founded 495 CE, traditionally the monastery where Bodhidharma is said to have practiced nine years of wall-gazing.",
-    url: "https://www.shaolin.org.cn/",
+    // The historical official domain shaolin.org.cn no longer resolves
+    // reliably and there is no stable English-language site for the
+    // Henan monastery itself; point at the Wikipedia article so the
+    // popup still surfaces a working, authoritative link.
+    url: "https://en.wikipedia.org/wiki/Shaolin_Monastery",
   },
   {
     slug: "nanhua-temple",

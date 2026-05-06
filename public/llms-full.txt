@@ -1,7 +1,7 @@
 # Zen Lineage — Complete Reference
 
 > An open-source interactive encyclopedia of Zen Buddhism covering 425+ masters,
-> 25 schools, 420+ lineage transmissions, 780+ teachings, and 1,700+ scholarly
+> 25 schools, 420+ lineage transmissions, 790+ teachings, and 1,700+ scholarly
 > citations across 2,500 years of Chan, Zen, Seon, and Thien Buddhist history.
 
 Zen Lineage maps the dharma transmission lineages connecting Buddhist masters
@@ -8223,6 +8223,14 @@ O Sâriputra, form is not different from emptiness, emptiness is not different f
 Adoration to the Omniscient!
 
 Thus have I heard: At one time the Bhagavat dwelt at Râgagriha, on the hill Gridhrakûta, with a great assembly of Bhikshus and a great assembly of Bodhisattvas. At that time the Bhagavat was absorbed in a meditation, called Gambhirâvasambodha.
+
+### Lotus Sūtra — Universal Gate of Avalokiteśvara (Kern, 1884)
+
+- **Type:** sutra
+
+## §1 The question raised
+
+*From the* Saddharma-Puṇḍarīka, or Lotus of the True Law, *translated from Sanskrit by H. Kern, Sacred Books of the East, vol. XXI (Oxford: Clarendon Press, 1884) — public domain. Chapter XXIV (= Kumārajīva ch. 25), 'Samantamukha-parivarta,' the Universal Gate of Avalokiteśvara — the chapter chanted in Sōtō and Rinzai halls as the* Kannon-gyō.
 
 ### Platform Sūtra (Goddard, A Buddhist Bible, 1932) — selected chapters
 

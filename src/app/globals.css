@@ -88,21 +88,25 @@ body {
   }
 }
 
-/* Homepage layout — desktop pins the stats line to the bottom of the
- * viewport. On mobile the centered column gets tall (the 8-item nav wraps
- * to several rows, plus a multi-line proverb), so an absolute footer
- * collides with the content. Below 640px we let it flow naturally and
- * tighten the nav gap so it doesn't fan into too many rows. */
+/* Homepage footer — stats line reads as a true bottom-of-page footer
+ * on every viewport. Pinned flush to the bottom edge with internal
+ * padding so spacing is consistent rather than a floating row hovering
+ * mid-air above the bottom edge. The centered column above keeps clear
+ * via `main`'s vertical padding. */
 .home-stats {
   position: absolute;
-  bottom: 2rem;
+  bottom: 0;
+  left: 0;
+  right: 0;
   margin: 0;
+  padding: 0.75rem 1rem;
+  text-align: center;
 }
 
 @media (max-width: 640px) {
   .home-main {
     padding-top: 3rem;
-    padding-bottom: 3rem;
+    padding-bottom: 4rem;
   }
 
   .home-nav {
@@ -110,8 +114,7 @@ body {
   }
 
   .home-stats {
-    position: static;
-    margin-top: 3rem;
+    padding: 0.65rem 1rem;
   }
 }
 
