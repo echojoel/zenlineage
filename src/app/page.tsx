@@ -164,7 +164,7 @@ export default async function Home() {
 
   return (
     <main
-      className="flex min-h-screen flex-col items-center justify-center px-6 pt-12 pb-24 text-center"
+      className="home-main flex min-h-screen flex-col items-center justify-center px-6 text-center"
       style={{ background: "var(--paper)" }}
     >
       <script
@@ -212,6 +212,7 @@ export default async function Home() {
 
       {/* Nav links */}
       <nav
+        className="home-nav"
         style={{
           display: "flex",
           gap: "2.5rem",
