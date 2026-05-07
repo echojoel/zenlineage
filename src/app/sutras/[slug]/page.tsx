@@ -169,6 +169,7 @@ export default async function SutraDetailPage({
       };
       if (order.coverage) t.coverage = order.coverage;
       if (order.audioUrl) t.audioUrl = order.audioUrl;
+      if (order.audioSourceUrl) t.audioSourceUrl = order.audioSourceUrl;
       if (order.audioAttribution) t.audioAttribution = order.audioAttribution;
       return [t];
     }

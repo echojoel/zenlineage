@@ -51,8 +51,10 @@ export interface SutraTranslation {
   coverage?:
     | { kind: "complete" }
     | { kind: "selections"; sections: string };
-  /** Optional URL to a freely-licensed recording of the chant. */
+  /** Optional URL to a freely-licensed audio file of the chant. */
   audioUrl?: string;
+  /** Catalogue page underlying the audio file, for attribution. */
+  audioSourceUrl?: string;
   audioAttribution?: string;
 }
 
@@ -355,6 +357,15 @@ export default function SutraReader({
                 lang={t.language}
               >
                 {t.langLabel}
+                {t.audioUrl ? (
+                  <span
+                    className="sutra-chip-audio-indicator"
+                    aria-label="Audio recording available"
+                    title="Audio recording available"
+                  >
+                    {" "}♪
+                  </span>
+                ) : null}
               </span>
               <span className="sutra-chip-label">{t.chipLabel}</span>
             </button>
@@ -405,6 +416,49 @@ export default function SutraReader({
           </div>
         )}
       </div>
+
+      {active.audioUrl ? (
+        <div className="sutra-audio-panel" aria-label="Chant recording">
+          <p className="sutra-audio-label">
+            <span className="sutra-audio-icon" aria-hidden="true">
+              ♪
+            </span>{" "}
+            Chant recording
+          </p>
+          <audio
+            controls
+            preload="none"
+            src={active.audioUrl}
+            className="sutra-audio-player"
+          >
+            Your browser does not support embedded audio. Open the
+            recording directly:{" "}
+            <a
+              href={active.audioUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {active.audioUrl}
+            </a>
+          </audio>
+          {active.audioAttribution || active.audioSourceUrl ? (
+            <p className="sutra-audio-attribution">
+              {active.audioSourceUrl ? (
+                <a
+                  href={active.audioSourceUrl}
+                  className="detail-inline-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {active.audioAttribution ?? "Source"}
+                </a>
+              ) : (
+                active.audioAttribution
+              )}
+            </p>
+          ) : null}
+        </div>
+      ) : null}
 
       <article
         ref={articleRef}
@@ -510,24 +564,6 @@ export default function SutraReader({
             </span>
           ) : null}
         </p>
-        {active.audioUrl ? (
-          <p className="sutra-source-line">
-            <a
-              href={active.audioUrl}
-              className="sutra-listen-link"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label={`Listen to ${active.translator}`}
-            >
-              ▶ Listen
-            </a>
-            {active.audioAttribution ? (
-              <span className="detail-list-meta">
-                {" "}· {active.audioAttribution}
-              </span>
-            ) : null}
-          </p>
-        ) : null}
       </footer>
     </>
   );

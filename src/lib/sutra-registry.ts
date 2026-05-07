@@ -37,14 +37,17 @@ export interface SutraTranslationEntry {
   coverage?:
     | { kind: "complete" }
     | { kind: "selections"; sections: string };
-  /** Optional URL to a freely-licensed recording of this chant. The
-   *  reader surfaces it as a small "Listen" link in the source
-   *  footer. Use only with PD or Creative Commons recordings —
-   *  Sōtōshū's official recordings, archive.org masters, or sangha
-   *  publishers like Plum Village that release under CC. */
+  /** Optional direct URL to a freely-licensed audio file (.ogg,
+   *  .mp3, .wav, .m4a) of the chant. When set, the reader embeds an
+   *  HTML5 audio player above the prose. Use only with PD or
+   *  Creative Commons recordings — Internet Archive community
+   *  uploads in the Buddhist.Chanting collection, Sōtōshū releases
+   *  marked free, Plum Village publications, etc. */
   audioUrl?: string;
-  /** Short attribution shown next to the listen link, e.g.
-   *  "Sōtōshū, official recording". Only used when audioUrl is set. */
+  /** Catalogue page where the audio lives, for the "Source" link
+   *  underneath the player (e.g. the archive.org item page). */
+  audioSourceUrl?: string;
+  /** One-line attribution shown next to the player. */
   audioAttribution?: string;
 }
 
@@ -93,8 +96,11 @@ const SUTRAS: SutraRegistryEntry[] = [
         chipLabel: "Hannya Shingyō (chanted)",
         language: "ja-Latn",
         langLabel: "日",
-        audioUrl: "https://global.sotozen-net.or.jp/eng/practice/sutra/heart/index.html",
-        audioAttribution: "Sōtōshū — official Hannya Shingyō recording",
+        audioUrl:
+          "https://archive.org/download/Buddhist.Chanting/Japan-Japanese-Kyoto_Temples-Hannya_Shingyo-Heart_Sutra.ogg",
+        audioSourceUrl: "https://archive.org/details/Buddhist.Chanting",
+        audioAttribution:
+          "Kyoto temples — Hannya Shingyō recording, Internet Archive Buddhist.Chanting collection",
       },
       {
         slug: "heart-sutra-sanskrit",
@@ -227,8 +233,11 @@ const SUTRAS: SutraRegistryEntry[] = [
         language: "ja-Latn",
         langLabel: "日",
         coverage: { kind: "selections", sections: "Universal Gate (ch. 25) of 28" },
-        audioUrl: "https://global.sotozen-net.or.jp/eng/practice/sutra/index.html",
-        audioAttribution: "Sōtōshū — official chant audio library",
+        // No verified-PD recording of the *full* Universal Gate
+        // chapter is presently catalogued. The shorter Enmei Jukku
+        // Kannon-gyō dharani (Ten-Phrase Life-Prolonging Sūtra) has
+        // free recordings on Internet Archive but is a different
+        // chant — leaving audio empty here rather than mislabel it.
       },
       {
         slug: "lotus-sutra-sanskrit",
