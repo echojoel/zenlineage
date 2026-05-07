@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import ThemeToggle from "@/components/ThemeToggle";
 
 export const metadata: Metadata = {
   title: "Zen Lineage",
@@ -240,6 +241,7 @@ export default async function Home() {
             {label}
           </Link>
         ))}
+        <ThemeToggle />
       </nav>
 
       {/* Random proverb — between nav and footer */}

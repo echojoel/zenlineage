@@ -80,6 +80,13 @@ export const viewport: Viewport = {
   themeColor: "#faf9f7",
 };
 
+/**
+ * No-flash theme boot. Runs synchronously before first paint to
+ * apply the persisted preference (or the OS preference) — without
+ * this, every page would flash light then snap to sepia.
+ */
+const THEME_BOOT_SCRIPT = `(function(){try{var t=localStorage.getItem('zen-theme');if(t!=='day'&&t!=='sepia'&&t!=='system')t='system';document.documentElement.dataset.theme=t;}catch(e){}})();`;
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -87,6 +94,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <script dangerouslySetInnerHTML={{ __html: THEME_BOOT_SCRIPT }} />
+      </head>
       <body className={`${cormorant.variable} ${inter.variable} antialiased`}>
         <script
           type="application/ld+json"
