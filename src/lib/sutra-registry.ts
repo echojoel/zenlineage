@@ -78,6 +78,12 @@ const SUTRAS: SutraRegistryEntry[] = [
         chipLabel: "Müller · 1894",
         language: "en",
         langLabel: "EN",
+        audioUrl:
+          "https://archive.org/download/diamond_sutra_and_heart_sutra_2301_librivox/diamondheartsutra_01_unknown_64kb.mp3",
+        audioSourceUrl:
+          "https://archive.org/details/diamond_sutra_and_heart_sutra_2301_librivox",
+        audioAttribution:
+          "LibriVox audiobook — public-domain English Heart Sūtra reading (2 min)",
       },
       {
         slug: "heart-sutra-beal-1871",
@@ -143,6 +149,12 @@ const SUTRAS: SutraRegistryEntry[] = [
         language: "en",
         langLabel: "EN",
         coverage: { kind: "selections", sections: "§§ 1, 5, 10, 26, 32 of 32" },
+        audioUrl:
+          "https://archive.org/download/diamondsutra_2312_librivox/diamondsutra_00_unknown_64kb.mp3",
+        audioSourceUrl:
+          "https://archive.org/details/diamondsutra_2312_librivox",
+        audioAttribution:
+          "LibriVox audiobook — full reading of Gemmell's Diamond Sūtra (~25 min)",
       },
       {
         slug: "diamond-sutra-kumarajiva",
@@ -219,6 +231,12 @@ const SUTRAS: SutraRegistryEntry[] = [
         language: "en",
         langLabel: "EN",
         coverage: { kind: "selections", sections: "Ch. 25 (Universal Gate of Avalokiteśvara) of 28" },
+        audioUrl:
+          "https://archive.org/download/lotussutra_2403_librivox/lotussutra_26_64kb.mp3",
+        audioSourceUrl:
+          "https://archive.org/details/lotussutra_2403_librivox",
+        audioAttribution:
+          "LibriVox audiobook — Kern's Universal Gate chapter (ch. XXIV, 26 min)",
       },
       {
         slug: "lotus-sutra-kumarajiva",

@@ -434,7 +434,9 @@ export default function SutraReader({
             ▶
           </span>
           <span className="sutra-audio-cta-label">
-            Listen to the chanted recording
+            {audioTranslation.language === "ja-Latn"
+              ? "Listen to the chanted recording"
+              : "Listen to a recording"}
           </span>
           <span className="sutra-audio-cta-meta">
             {audioTranslation.chipLabel}
