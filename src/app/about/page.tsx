@@ -2,6 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import type { Metadata } from "next";
 import { FootnoteList, FootnoteRef, type FootnoteRef as FN } from "@/lib/footnotes";
+import PathDoor from "@/components/PathDoor";
 
 /**
  * Wikipedia-style footnotes for the /about page. Each `<FootnoteRef n={N} scope="about" />`
@@ -137,6 +138,66 @@ export default function AboutPage() {
           <p className="detail-eyebrow">Introduction</p>
           <h2 className="detail-title">What is Zen Lineage?</h2>
           <p className="detail-subtitle">An open encyclopedia of Chan and Zen history</p>
+        </section>
+
+        {/* Pick-Your-Path: three equal doors. The lineage graph is
+         *  surfaced first because it is the unique artefact of this
+         *  site — 425 masters, 2,500 years, one navigable diagram —
+         *  but the three doors are visually equal so a reader who
+         *  arrives wanting to find a hall, or to read the Heart
+         *  Sūtra, lands somewhere useful in the same glance.
+         */}
+        <section className="detail-card path-door-card">
+          <p className="detail-eyebrow">Where to begin</p>
+          <h3 className="detail-section-title">Three doors into the encyclopedia</h3>
+          <div className="path-door-grid">
+            <PathDoor
+              eyebrow="History"
+              title="The lineage graph"
+              lede="A single navigable diagram of 425 masters across 2,500 years, from Shakyamuni Buddha through Bodhidharma to the contemporary teachers of Chan, Sŏn, Thiền, and Zen. Every other index on this site is a slice of this same graph — the unique artefact you won't find elsewhere."
+              href="/lineage"
+              glyph="禅"
+              glyphLang="ja"
+            />
+            <PathDoor
+              eyebrow="Practice"
+              title="Find a hall"
+              lede="1,650+ practice centres mapped across 60+ countries — Sōtō, Rinzai, Plum Village, Kwan Um, Order of Buddhist Contemplatives, and more. Search by tradition, by country, by language."
+              href="/practice"
+              glyph="坐"
+              glyphLang="ja"
+            />
+            <PathDoor
+              eyebrow="Texts"
+              title="Read the sūtras"
+              lede="Heart, Diamond, Platform, and Lotus — read in English, Sanskrit, Chinese, the Sino-Japanese chant, French, and German, side-by-side, with audio recordings of the Hannya Shingyō. Every translation public-domain."
+              href="/sutras"
+              glyph="心"
+              glyphLang="zh"
+            />
+          </div>
+          <p className="path-door-secondary-row">
+            More:{" "}
+            <Link className="detail-inline-link" href="/masters">
+              masters
+            </Link>{" "}
+            ·{" "}
+            <Link className="detail-inline-link" href="/schools">
+              schools
+            </Link>{" "}
+            ·{" "}
+            <Link className="detail-inline-link" href="/proverbs">
+              proverbs
+            </Link>{" "}
+            ·{" "}
+            <Link className="detail-inline-link" href="/glossary">
+              glossary
+            </Link>{" "}
+            ·{" "}
+            <Link className="detail-inline-link" href="/timeline">
+              timeline
+            </Link>
+          </p>
         </section>
 
         <section className="detail-card">
@@ -759,41 +820,6 @@ export default function AboutPage() {
               practitioner at the moment of execution (Addiss, <em>The Art of Zen</em>, 1989, pp.
               29&ndash;34).
             </p>
-          </div>
-        </section>
-
-        <section className="detail-card">
-          <h3 className="detail-section-title">Explore This Encyclopedia</h3>
-          <p className="detail-summary">
-            The interactive{" "}
-            <Link className="detail-inline-link" href="/lineage">
-              lineage graph
-            </Link>{" "}
-            is the central artefact of this site: a single navigable diagram of
-            dharma transmission from Shakyamuni Buddha through Bodhidharma down
-            to the contemporary teachers of Chan, Sŏn, Thiền, and Zen. Every
-            other index — masters, schools, teachings, practice centres — is a
-            different slice of the same graph.
-          </p>
-          <div className="detail-actions" style={{ justifyContent: "flex-start" }}>
-            <Link className="detail-button" href="/lineage">
-              Open the lineage graph
-            </Link>
-            <Link className="detail-button detail-button-muted" href="/masters">
-              Browse masters
-            </Link>
-            <Link className="detail-button detail-button-muted" href="/schools">
-              View schools
-            </Link>
-            <Link className="detail-button detail-button-muted" href="/practice">
-              Practice centres
-            </Link>
-            <Link className="detail-button detail-button-muted" href="/proverbs">
-              Proverbs &amp; teachings
-            </Link>
-            <Link className="detail-button detail-button-muted" href="/glossary">
-              Glossary
-            </Link>
           </div>
         </section>
 
