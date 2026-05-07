@@ -27,6 +27,7 @@ import { formatLifeRange } from "@/lib/date-format";
 import { renderProseWithFootnotes, type FootnoteRef } from "@/lib/footnotes";
 import { buildSutraLinkTerms } from "@/lib/linkify-mentions";
 import { loadMasterLinkTerms } from "@/lib/linkify-mentions-server";
+import CiteThis from "@/components/CiteThis";
 import { like } from "drizzle-orm";
 import { AccuracyFooter, type AccuracyField } from "@/components/AccuracyFooter";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
@@ -1032,6 +1033,18 @@ export default async function MasterDetailPage({ params }: { params: Promise<{ s
             </ul>
           )}
         </section>
+
+        <CiteThis
+          entry={{
+            title: primaryName,
+            author: "Zen Lineage editorial",
+            year: new Date().getUTCFullYear(),
+            url: abs(`/masters/${master.slug}`),
+            slug: master.slug,
+            accessedDate: new Date().toISOString().slice(0, 10),
+            note: "Encyclopedia biography",
+          }}
+        />
 
         <AccuracyFooter
           entityType="master"

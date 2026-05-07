@@ -23,6 +23,7 @@ import {
   buildGlossaryLinkTerms,
   buildSutraLinkTerms,
 } from "@/lib/linkify-mentions";
+import CiteThis from "@/components/CiteThis";
 
 export async function generateStaticParams() {
   return getSutraRegistry().map((s) => ({ slug: s.slug }));
@@ -240,6 +241,33 @@ export default async function SutraDetailPage({
             linkTerms={linkTerms}
           />
         </section>
+
+        {(() => {
+          // Citation defaults to the page's default translation —
+          // typically the first English entry. The active translation
+          // may differ per session, but a static citation needs a
+          // stable author/year.
+          const defaultRow = translations.find(
+            (t) => t.slug === defaultTranslator
+          );
+          const yearMatch = defaultRow?.edition.match(/(1[6-9]\d{2}|20\d{2})/);
+          const editionYear = yearMatch ? Number(yearMatch[1]) : new Date().getUTCFullYear();
+          return (
+            <CiteThis
+              entry={{
+                title: defaultRow
+                  ? `${entry.title} (${defaultRow.translator}, ${editionYear})`
+                  : entry.title,
+                author: defaultRow?.translator ?? "Zen Lineage editorial",
+                year: editionYear,
+                url: canonicalUrl,
+                slug: entry.slug,
+                accessedDate: new Date().toISOString().slice(0, 10),
+                note: defaultRow?.edition,
+              }}
+            />
+          );
+        })()}
       </div>
     </main>
   );

@@ -25,6 +25,7 @@ import { FootnoteList, renderProseWithFootnotes, type FootnoteRef } from "@/lib/
 import { buildSutraLinkTerms } from "@/lib/linkify-mentions";
 import { loadMasterLinkTerms } from "@/lib/linkify-mentions-server";
 import { AccuracyFooter } from "@/components/AccuracyFooter";
+import CiteThis from "@/components/CiteThis";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import {
   abs,
@@ -961,6 +962,18 @@ export default async function SchoolDetailPage({ params }: { params: Promise<{ s
             </p>
           )}
         </section>
+
+        <CiteThis
+          entry={{
+            title: primaryName,
+            author: "Zen Lineage editorial",
+            year: new Date().getUTCFullYear(),
+            url: canonicalUrl,
+            slug: school.slug,
+            accessedDate: new Date().toISOString().slice(0, 10),
+            note: "Encyclopedia school overview",
+          }}
+        />
 
         <AccuracyFooter
           entityType="school"
