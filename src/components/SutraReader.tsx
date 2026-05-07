@@ -331,6 +331,13 @@ export default function SutraReader({
   // anything except the currently-active primary translation.
   const compareCandidates = translations.filter((t) => t.slug !== active.slug);
 
+  // First translation that carries an audio recording — used by the
+  // discoverability CTA so a reader on the default English view
+  // still sees an obvious entry point to the chant audio.
+  const audioTranslation = translations.find((t) => t.audioUrl);
+  const audioCtaVisible =
+    audioTranslation !== undefined && audioTranslation.slug !== active.slug;
+
   return (
     <>
       <div
@@ -416,6 +423,24 @@ export default function SutraReader({
           </div>
         )}
       </div>
+
+      {audioCtaVisible && audioTranslation ? (
+        <button
+          type="button"
+          className="sutra-audio-cta"
+          onClick={() => handleSelect(audioTranslation.slug)}
+        >
+          <span className="sutra-audio-cta-icon" aria-hidden="true">
+            ▶
+          </span>
+          <span className="sutra-audio-cta-label">
+            Listen to the chanted recording
+          </span>
+          <span className="sutra-audio-cta-meta">
+            {audioTranslation.chipLabel}
+          </span>
+        </button>
+      ) : null}
 
       {active.audioUrl ? (
         <div className="sutra-audio-panel" aria-label="Chant recording">

@@ -3187,3 +3187,51 @@ a.footnote-source-link:hover {
   color: inherit;
   opacity: 0.85;
 }
+
+/* "Listen to the chanted recording" CTA — appears at the top of the
+ * reader whenever the current view isn't the chant. Quiet but
+ * obvious: paper-warm pill with a triangle icon, matches the
+ * existing button vocabulary. Click swaps to the chant translation
+ * and the embedded <audio> player slides in below the chip strip.
+ */
+.sutra-audio-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin: 0 0 1.5rem;
+  padding: 0.55rem 1rem 0.6rem;
+  background: var(--paper-warm);
+  border: 1px solid rgba(122, 106, 85, 0.25);
+  border-radius: 999px;
+  font-family: var(--font-inter), sans-serif;
+  color: var(--ink);
+  cursor: pointer;
+  transition:
+    background 180ms ease,
+    border-color 180ms ease;
+}
+
+.sutra-audio-cta:hover,
+.sutra-audio-cta:focus-visible {
+  border-color: var(--ink-light);
+  outline: none;
+}
+
+.sutra-audio-cta-icon {
+  font-size: 0.85rem;
+  line-height: 1;
+  color: var(--ink-light);
+}
+
+.sutra-audio-cta-label {
+  font-size: 0.72rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.sutra-audio-cta-meta {
+  font-size: 0.62rem;
+  letter-spacing: 0.08em;
+  color: var(--ink-light);
+  font-style: italic;
+}
