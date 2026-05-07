@@ -690,4 +690,325 @@ export const KV_MASTERS: KVMaster[] = [
       },
     ],
   },
+  // ─── Korean Seon — Nine Mountain Schools founders (additional) ────────
+  {
+    slug: "hyecheol",
+    schoolSlug: "seon",
+    names: [
+      { locale: "en", nameType: "dharma", value: "Hyech'ŏl" },
+      { locale: "en", nameType: "alias", value: "Hyecheol" },
+      { locale: "ko", nameType: "dharma", value: "혜철" },
+      { locale: "zh", nameType: "alias", value: "慧徹" },
+    ],
+    birthYear: 785,
+    birthPrecision: "exact",
+    birthConfidence: "medium",
+    deathYear: 861,
+    deathPrecision: "exact",
+    deathConfidence: "medium",
+    biography:
+      "Hyech'ŏl (慧徹, 785–861) is the founder of the Tongnisan school, the second of the Nine Mountain Schools (Gusan Seonmun) of Korean Seon. He travelled to Tang China in 814, received transmission from Xitang Zhizang at Mazu Daoyi's Hongzhou community — the same teacher as Doui — and returned to Silla in 839 carrying the Southern School's sudden-awakening teaching. Where Doui's lineage matured slowly under suspicion of court Buddhism, Hyech'ŏl was received with royal patronage and established Tongnisa on Mount Tongnisan as one of the great training centres of the late Silla period. His teaching emphasised the inseparability of meditation and the doctrinal study of the Avataṃsaka Sūtra — a foreshadowing of the Sŏn-Hwaŏm synthesis that Pojo Chinul would systematise three centuries later.",
+    citations: [
+      { sourceId: "src_buswell_formation", pageOrSection: "pp. 25–32", fieldName: "biography" },
+      { sourceId: "src_princeton_dict_buddhism", pageOrSection: "s.v. 'Hyech'ŏl'", fieldName: "dates" },
+    ],
+    transmissions: [
+      {
+        teacherSlug: "xitang-zhizang",
+        type: "primary",
+        isPrimary: true,
+        sourceIds: ["src_buswell_formation"],
+        notes:
+          "Transmission received in Tang China c. 825 from Xitang Zhizang — the same teacher as Doui, anchoring two Nine Mountain Schools to the same Hongzhou-Mazu line.",
+      },
+    ],
+  },
+  {
+    slug: "muyeom",
+    schoolSlug: "seon",
+    names: [
+      { locale: "en", nameType: "dharma", value: "Muyŏm" },
+      { locale: "en", nameType: "alias", value: "Muyeom" },
+      { locale: "ko", nameType: "dharma", value: "무염" },
+      { locale: "zh", nameType: "alias", value: "無染" },
+    ],
+    birthYear: 800,
+    birthPrecision: "exact",
+    birthConfidence: "medium",
+    deathYear: 888,
+    deathPrecision: "exact",
+    deathConfidence: "medium",
+    biography:
+      "Muyŏm (無染, 800–888) is the founder of the Sŏngjusan school, one of the Nine Mountain Schools of Korean Seon, and one of the most influential figures of late Silla Buddhism. Born to a noble family of the True-Bone aristocracy, he travelled to Tang China around 821 and trained under Magu Baoche, a heir in the Mazu Daoyi line. After more than two decades in China — long enough to be regarded by his Chinese hosts as a fully Chinese master — he returned to Silla in 845 and established Sŏngjusa on Mount Sŏngjusan in the Boryeong region. Muyŏm's lineage produced thousands of students, his temple became a major training centre, and his Mugŏlbong Munpŏp ('Tongueless Sermon') is preserved as a touchstone of early Korean Sŏn rhetoric — its insistence that the dharma is finally beyond words mirrored the teaching style of his Hongzhou-line master and grounded the Korean reception of Chan in the same direct-pointing tradition.",
+    citations: [
+      { sourceId: "src_buswell_formation", pageOrSection: "pp. 32–40", fieldName: "biography" },
+      { sourceId: "src_princeton_dict_buddhism", pageOrSection: "s.v. 'Muyŏm'", fieldName: "dates" },
+    ],
+    transmissions: [
+      {
+        teacherSlug: "mazu-daoyi",
+        type: "dharma",
+        isPrimary: false,
+        sourceIds: ["src_buswell_formation"],
+        notes:
+          "Editorial bridge: Muyŏm trained under Magu Baoche (寶徹, not yet seeded), a direct heir of Mazu Daoyi's Hongzhou line. The transmission edge anchors him to Mazu as the lineage source.",
+      },
+    ],
+  },
+  {
+    slug: "beomil",
+    schoolSlug: "seon",
+    names: [
+      { locale: "en", nameType: "dharma", value: "Pŏmil" },
+      { locale: "en", nameType: "alias", value: "Beomil" },
+      { locale: "ko", nameType: "dharma", value: "범일" },
+      { locale: "zh", nameType: "alias", value: "梵日" },
+    ],
+    birthYear: 810,
+    birthPrecision: "exact",
+    birthConfidence: "medium",
+    deathYear: 889,
+    deathPrecision: "exact",
+    deathConfidence: "medium",
+    biography:
+      "Pŏmil (梵日, 810–889) is the founder of the Saguelsan school, another of the Nine Mountain Schools of Korean Seon. He travelled to Tang China in 831 and received transmission from Yanguan Qi'an, a senior heir of Mazu Daoyi. After fifteen years in China — including the disruption of the Huichang persecution of Buddhism (842–846) — he returned to Silla and established Gulsansa on Mount Saguelsan. Pŏmil's lineage was distinctive for cultivating close ties with the eastern Korean coast and the burgeoning trade networks with Japan; his successors maintained the school as one of the longest-running Mountain communities, and the Goryeo-era hagiographies preserve his teaching that the awakening transmitted to him in China is identical to the awakening of Mahākāśyapa under the Bodhi tree — a characteristic Mountain-school assertion of unbroken patriarchal lineage.",
+    citations: [
+      { sourceId: "src_buswell_formation", pageOrSection: "pp. 28–35", fieldName: "biography" },
+      { sourceId: "src_princeton_dict_buddhism", pageOrSection: "s.v. 'Pŏmil'", fieldName: "dates" },
+    ],
+    transmissions: [
+      {
+        teacherSlug: "yanguan-qian",
+        type: "primary",
+        isPrimary: true,
+        sourceIds: ["src_buswell_formation"],
+        notes:
+          "Transmission received in Tang China c. 845 from Yanguan Qi'an, anchoring the Saguelsan school to the Mazu-Hongzhou lineage.",
+      },
+    ],
+  },
+  {
+    slug: "beopjeong",
+    schoolSlug: "jogye",
+    names: [
+      { locale: "en", nameType: "dharma", value: "Beopjeong" },
+      { locale: "en", nameType: "alias", value: "Bŏpchŏng" },
+      { locale: "en", nameType: "alias", value: "Bopjong" },
+      { locale: "ko", nameType: "dharma", value: "법정" },
+      { locale: "zh", nameType: "alias", value: "法頂" },
+    ],
+    birthYear: 1932,
+    birthPrecision: "exact",
+    birthConfidence: "high",
+    deathYear: 2010,
+    deathPrecision: "exact",
+    deathConfidence: "high",
+    biography:
+      "Beopjeong (法頂, 1932–2010) is one of the most widely-read modern Korean Sŏn writers, a Jogye Order monk whose essays on simplicity, attentiveness, and the inseparability of practice from daily life shaped the religious imagination of two generations of Korean lay readers. Ordained in 1956 under Hyobong, he spent decades in mountain hermitages — most famously Bulil Hermitage at Songgwangsa and Suryeon Hermitage on Mount Bongseon — and refused all institutional titles. His best-known book, *Musoyu* ('Non-Possession', 1976), articulates a quiet ethic of voluntary simplicity that influenced Korean environmentalism and the country's late-twentieth-century critique of consumerism. In his final years he stipulated that none of his books be reprinted after his death — a last lesson, his disciples said, in non-attachment.",
+    citations: [
+      { sourceId: "src_buswell_monastic", pageOrSection: "pp. 145–152", fieldName: "biography" },
+      { sourceId: "src_princeton_dict_buddhism", pageOrSection: "s.v. 'Pŏpchŏng'", fieldName: "dates" },
+    ],
+    transmissions: [
+      {
+        teacherSlug: "seongcheol",
+        type: "secondary",
+        isPrimary: false,
+        sourceIds: ["src_buswell_monastic"],
+        notes:
+          "Editorial bridge: Beopjeong's primary teacher was Hyobong (孝峰, 1888–1966, not yet seeded). The link to Seongcheol — both eminent twentieth-century Jogye masters — represents shared formation in the post-Imjin Songgwangsa hermitage tradition rather than a literal transmission.",
+      },
+    ],
+  },
+  {
+    slug: "daehaeng",
+    schoolSlug: "jogye",
+    names: [
+      { locale: "en", nameType: "dharma", value: "Daehaeng Kun Sunim" },
+      { locale: "en", nameType: "alias", value: "Daehaeng" },
+      { locale: "ko", nameType: "dharma", value: "대행" },
+      { locale: "zh", nameType: "alias", value: "大行" },
+    ],
+    birthYear: 1927,
+    birthPrecision: "exact",
+    birthConfidence: "high",
+    deathYear: 2012,
+    deathPrecision: "exact",
+    deathConfidence: "high",
+    biography:
+      "Daehaeng Kun Sunim (大行, 1927–2012) is one of the most important Korean female Sŏn masters of the twentieth century and the founder of the Hanmaum Seonwon ('One-Mind Sŏn Centre') network, which by her death numbered fifteen branches in Korea and another fifteen abroad. Ordained in 1950 in the wake of the Korean War, she spent her early years in mountain hermitages refusing the formal Jogye Order monastic curriculum, working instead from her own awakening — a position the Order later affirmed by recognising her teaching authority and granting her dharma-name lineage status. Her teaching, distilled in dozens of dharma talks published as *No River to Cross* and *Wake Up and Laugh*, centres on Han Maeum, 'one mind' — the invitation to entrust everything to the foundation of one's own true nature rather than to method, ritual, or teacher. Daehaeng's significance is doubled: she is both a major modern Sŏn teacher in her own right and a watershed figure for Korean Buddhist nuns, having opened formal teaching paths in a tradition where female lineage transmission had long been informal.",
+    citations: [
+      { sourceId: "src_buswell_monastic", pageOrSection: "pp. 211–220", fieldName: "biography" },
+      { sourceId: "src_princeton_dict_buddhism", pageOrSection: "s.v. 'Daehaeng'", fieldName: "dates" },
+    ],
+    transmissions: [
+      {
+        teacherSlug: "seongcheol",
+        type: "dharma",
+        isPrimary: false,
+        sourceIds: ["src_buswell_monastic"],
+        notes:
+          "Editorial bridge: Daehaeng was self-taught in the Sŏn idiom and received no formal teacher's transmission. The edge to Seongcheol marks shared mid-twentieth-century Jogye context rather than a literal transmission.",
+      },
+    ],
+  },
+  // ─── Vietnamese Thiền (additional) ──────────────────────────────────
+  {
+    slug: "khuong-viet",
+    schoolSlug: "thien",
+    names: [
+      { locale: "en", nameType: "dharma", value: "Khuông Việt" },
+      { locale: "vi", nameType: "dharma", value: "Khuông Việt" },
+      { locale: "zh", nameType: "alias", value: "匡越" },
+      { locale: "en", nameType: "birth", value: "Ngô Chân Lưu" },
+    ],
+    birthYear: 933,
+    birthPrecision: "exact",
+    birthConfidence: "medium",
+    deathYear: 1011,
+    deathPrecision: "exact",
+    deathConfidence: "medium",
+    biography:
+      "Khuông Việt (匡越, 933–1011), birth name Ngô Chân Lưu, is the fourth-generation patriarch of the Vô Ngôn Thông line of Vietnamese Thiền and the figure regarded as Vietnam's first national Buddhist preceptor. Born into the Ngô clan that briefly held the Vietnamese throne after the fall of Chinese rule in 939, he ordained at the Khai Quốc temple under Vân Phong and became one of the most learned monks of his generation. King Đinh Tiên Hoàng granted him the title Khuông Việt Đại Sư ('Great Master Who Helps Vietnam') in 971 — the first time a Vietnamese Buddhist had been formally appointed to the post of national preceptor — and he served the early Đinh, Lê, and Lý courts as a religious-political advisor. The Thiền Uyển Tập Anh records his correspondence with the Song-dynasty Chinese ambassadors, in which he composed Buddhist verses that established Vietnamese literary Buddhism as a peer tradition to its Chinese parent.",
+    citations: [
+      { sourceId: "src_nguyen_medieval", pageOrSection: "pp. 80–95", fieldName: "biography" },
+      { sourceId: "src_le_manh_that", pageOrSection: "pp. 134–145", fieldName: "context" },
+    ],
+    transmissions: [
+      {
+        teacherSlug: "vo-ngon-thong",
+        type: "dharma",
+        isPrimary: true,
+        sourceIds: ["src_nguyen_medieval"],
+        notes:
+          "Khuông Việt is the fourth-generation heir of Vô Ngôn Thông; his immediate teacher Vân Phong (雲峰) is not yet seeded. The transmission edge to Vô Ngôn Thông represents lineage origin.",
+      },
+    ],
+  },
+  {
+    slug: "van-hanh",
+    schoolSlug: "thien",
+    names: [
+      { locale: "en", nameType: "dharma", value: "Vạn Hạnh" },
+      { locale: "vi", nameType: "dharma", value: "Vạn Hạnh" },
+      { locale: "zh", nameType: "alias", value: "萬行" },
+    ],
+    birthYear: 938,
+    birthPrecision: "exact",
+    birthConfidence: "medium",
+    deathYear: 1018,
+    deathPrecision: "exact",
+    deathConfidence: "medium",
+    biography:
+      "Vạn Hạnh (萬行, 938–1018) is the twelfth-generation master of the Tỳ-ni-đa-lưu-chi (Vinītaruci) line of Vietnamese Thiền and one of the most consequential political-religious figures in Vietnamese history. Trained at Lục Tổ Temple in Bắc Ninh, he was renowned for his mastery of the three traditional 'studies' — Buddhism, Confucianism, and Daoism — and for what the chronicles describe as a strikingly accurate gift of prophecy. His most celebrated act was political: foreseeing the imminent fall of the Lê dynasty, he persuaded the court official Lý Công Uẩn to accept the throne in 1009, founding the Lý dynasty (1009–1225) which would shape Vietnam for two centuries and establish Buddhism as the de facto state religion. Vạn Hạnh's death-verse, recorded in the Thiền Uyển Tập Anh, articulates the impermanence at the heart of his teaching: 'The body is like a flash of lightning; here, then gone.'",
+    citations: [
+      { sourceId: "src_nguyen_medieval", pageOrSection: "pp. 96–110", fieldName: "biography" },
+      { sourceId: "src_le_manh_that", pageOrSection: "pp. 156–172", fieldName: "political" },
+    ],
+    transmissions: [
+      {
+        teacherSlug: "vinitaruci",
+        type: "dharma",
+        isPrimary: true,
+        sourceIds: ["src_nguyen_medieval"],
+        notes:
+          "Vạn Hạnh is the twelfth-generation heir of the Vinītaruci line; his immediate teacher Thiền Ông Đạo Giả (禪翁道者, not yet seeded) was an eleventh-generation master in the same line.",
+      },
+    ],
+  },
+  {
+    slug: "huong-hai",
+    schoolSlug: "lam-te",
+    names: [
+      { locale: "en", nameType: "dharma", value: "Hương Hải" },
+      { locale: "vi", nameType: "dharma", value: "Hương Hải" },
+      { locale: "zh", nameType: "alias", value: "香海" },
+    ],
+    birthYear: 1628,
+    birthPrecision: "exact",
+    birthConfidence: "medium",
+    deathYear: 1715,
+    deathPrecision: "exact",
+    deathConfidence: "medium",
+    biography:
+      "Hương Hải (香海, 1628–1715) is the central figure of the seventeenth-century Vietnamese Thiền revival. Born in the southern Đàng Trong region during the long Trịnh-Nguyễn split, he served briefly as a court mandarin before ordaining and travelling north to study under the Chinese Lâm Tế (Linji) master Trí Giáo Nhất Cú at Phật Tích temple. He returned south, established a hermitage on Mount Tiêu Dao, and from there reformed Vietnamese Thiền practice along the lines of Ming-dynasty Linji discipline — a recovery, after centuries of decline, of the rigorous training that had defined the Trúc Lâm period. He authored more than thirty works in chữ Nôm and classical Chinese, including *Sự Lý Dung Thông* on the unity of phenomena and principle and the *Giải Tâm Kinh* commentary on the Heart Sūtra; his death-verse, 'The mountains are mountains, the waters are waters — what use is there in seeking?', is preserved in every Vietnamese Buddhist anthology.",
+    citations: [
+      { sourceId: "src_nguyen_medieval", pageOrSection: "pp. 211–228", fieldName: "biography" },
+      { sourceId: "src_le_manh_that", pageOrSection: "pp. 245–260", fieldName: "writings" },
+    ],
+    transmissions: [
+      {
+        teacherSlug: "linji-yixuan",
+        type: "dharma",
+        isPrimary: false,
+        sourceIds: ["src_nguyen_medieval"],
+        notes:
+          "Editorial bridge: Hương Hải's immediate teacher Trí Giáo Nhất Cú was a seventeenth-century Chinese Lâm Tế master not yet seeded. The edge to the Lâm Tế founder Linji Yixuan anchors the lineage.",
+      },
+    ],
+  },
+  {
+    slug: "thich-tinh-khiet",
+    schoolSlug: "thien",
+    names: [
+      { locale: "en", nameType: "dharma", value: "Thích Tịnh Khiết" },
+      { locale: "vi", nameType: "dharma", value: "Thích Tịnh Khiết" },
+      { locale: "zh", nameType: "alias", value: "釋淨潔" },
+      { locale: "en", nameType: "birth", value: "Nguyễn Văn Kỉnh" },
+    ],
+    birthYear: 1890,
+    birthPrecision: "exact",
+    birthConfidence: "high",
+    deathYear: 1973,
+    deathPrecision: "exact",
+    deathConfidence: "high",
+    biography:
+      "Thích Tịnh Khiết (釋淨潔, 1890–1973) was the first Supreme Patriarch of the Unified Buddhist Sangha of Vietnam (Giáo Hội Phật Giáo Việt Nam Thống Nhất) and the unifying ecclesiastical figure of twentieth-century Vietnamese Buddhism. Ordained in 1905 at Tường Vân Pagoda in Huế, he rose through the Lâm Tế-derived Liễu Quán lineage and became, by the 1930s, the senior Buddhist authority in central Vietnam. His public profile crystallised during the 1963 Buddhist crisis: as nominal head of the Vietnamese Sangha he was placed under house arrest by the Diệm regime in May 1963, an act that catalysed the international protests culminating in Thích Quảng Đức's self-immolation that June. After Diệm's fall, Thích Tịnh Khiết presided over the founding of the Unified Buddhist Sangha in January 1964 and held the office of Supreme Patriarch until his death — symbolising, for a war-fractured Vietnamese Buddhism, an institutional centre that survived both colonial and Cold War political assault.",
+    citations: [
+      { sourceId: "src_le_manh_that", pageOrSection: "pp. 312–328", fieldName: "biography" },
+      { sourceId: "src_princeton_dict_buddhism", pageOrSection: "s.v. 'Thích Tịnh Khiết'", fieldName: "dates" },
+    ],
+    transmissions: [
+      {
+        teacherSlug: "lieu-quan",
+        type: "dharma",
+        isPrimary: true,
+        sourceIds: ["src_le_manh_that"],
+        notes:
+          "Editorial bridge: Thích Tịnh Khiết's lineage descends through the eighteenth-century Liễu Quán reform of the Lâm Tế tradition. The edge to Liễu Quán represents lineage origin; intermediate masters are not yet seeded.",
+      },
+    ],
+  },
+  {
+    slug: "thich-quang-duc",
+    schoolSlug: "thien",
+    names: [
+      { locale: "en", nameType: "dharma", value: "Thích Quảng Đức" },
+      { locale: "vi", nameType: "dharma", value: "Thích Quảng Đức" },
+      { locale: "zh", nameType: "alias", value: "釋廣德" },
+      { locale: "en", nameType: "birth", value: "Lâm Văn Túc" },
+    ],
+    birthYear: 1897,
+    birthPrecision: "exact",
+    birthConfidence: "high",
+    deathYear: 1963,
+    deathPrecision: "exact",
+    deathConfidence: "high",
+    biography:
+      "Thích Quảng Đức (釋廣德, 1897–1963) is among the most internationally recognised Vietnamese Buddhists of the twentieth century. Ordained at age fifteen in the Lâm Tế-derived Liễu Quán tradition, he spent four decades in monastic obscurity — restoring more than thirty pagodas across central Vietnam, supervising the construction of the Quan Âm Pagoda in Saigon, and serving as chairman of the Vietnamese Buddhist Sangha's monastic discipline panel. His name became known worldwide on 11 June 1963, when he sat in lotus posture at the intersection of Phan Đình Phùng and Lê Văn Duyệt streets in Saigon, was doused in petrol by fellow monks, lit a match, and burned to death without moving — an act of protest against the Diệm government's persecution of Buddhists. Malcolm Browne's photograph of the immolation became one of the most reproduced images of the twentieth century; the heart, recovered intact from the funeral pyre, is preserved as a relic at Việt Nam Quốc Tự pagoda. The Vietnamese Buddhist establishment formally canonised him as a bodhisattva in 1964.",
+    citations: [
+      { sourceId: "src_le_manh_that", pageOrSection: "pp. 329–342", fieldName: "biography" },
+      { sourceId: "src_princeton_dict_buddhism", pageOrSection: "s.v. 'Thích Quảng Đức'", fieldName: "dates" },
+    ],
+    transmissions: [
+      {
+        teacherSlug: "lieu-quan",
+        type: "dharma",
+        isPrimary: false,
+        sourceIds: ["src_le_manh_that"],
+        notes:
+          "Editorial bridge: Thích Quảng Đức ordained in the Liễu Quán branch of the Lâm Tế tradition. The edge to Liễu Quán anchors the lineage; the immediate teacher line through twentieth-century Vietnamese masters is not yet seeded.",
+      },
+    ],
+  },
 ];

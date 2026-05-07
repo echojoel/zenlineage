@@ -1,7 +1,7 @@
 # Zen Lineage — Complete Reference
 
-> An open-source interactive encyclopedia of Zen Buddhism covering 425+ masters,
-> 25 schools, 420+ lineage transmissions, 795+ teachings, and 1,700+ scholarly
+> An open-source interactive encyclopedia of Zen Buddhism covering 435+ masters,
+> 25 schools, 430+ lineage transmissions, 795+ teachings, and 1,700+ scholarly
 > citations across 2,500 years of Chan, Zen, Seon, and Thien Buddhist history.
 
 Zen Lineage maps the dharma transmission lineages connecting Buddhist masters
@@ -389,7 +389,7 @@ Daoxin's teaching integrated sitting meditation with practical monastic work, a 
 - **Dates:** null – 594
 - **School:** Thiền
 - **Teachers:** Jianzhi Sengcan
-- **Students:** Trần Nhân Tông
+- **Students:** Trần Nhân Tông, Vạn Hạnh
 
 Vinītaruci (d. 594) is the master whom the fourteenth-century Vietnamese hagiographical compendium Thiền Uyển Tập Anh names as the founder of Vietnamese Thiền. According to that later source he was a South Indian monk who travelled to Chang'an and studied with the Third Patriarch Sengcan before continuing south, settling at Pháp Vân temple in what is now Bắc Ninh province, and founding a lineage of twenty-eight generations over the next six centuries. Modern scholarship reads the Thiền Uyển Tập Anh's genealogy as a retrospective construction shaped by fourteenth-century doctrinal concerns rather than a contemporaneous record, but it preserves the earliest Vietnamese account of the tradition's beginning and remains its foundational text.
 
@@ -615,6 +615,24 @@ Deshan Xuanjian began his practice as a specialist in the Diamond Sutra within t
 
 He subsequently studied with Longtan Chongxin and had his awakening when Longtan blew out a candle in the darkness.
 
+### Hyech'ŏl
+
+- **Also known as:** Hyecheol
+- **Dates:** 785 – 861
+- **School:** Seon
+- **Teachers:** Xitang Zhizang
+
+Hyech'ŏl (慧徹, 785–861) is the founder of the Tongnisan school, the second of the Nine Mountain Schools (Gusan Seonmun) of Korean Seon. He travelled to Tang China in 814, received transmission from Xitang Zhizang at Mazu Daoyi's Hongzhou community — the same teacher as Doui — and returned to Silla in 839 carrying the Southern School's sudden-awakening teaching. Where Doui's lineage matured slowly under suspicion of court Buddhism, Hyech'ŏl was received with royal patronage and established Tongnisa on Mount Tongnisan as one of the great training centres of the late Silla period. His teaching emphasised the inseparability of meditation and the doctrinal study of the Avataṃsaka Sūtra — a foreshadowing of the Sŏn-Hwaŏm synthesis that Pojo Chinul would systematise three centuries later.
+
+### Muyŏm
+
+- **Also known as:** Muyeom
+- **Dates:** 800 – 888
+- **School:** Seon
+- **Teachers:** Mazu Daoyi
+
+Muyŏm (無染, 800–888) is the founder of the Sŏngjusan school, one of the Nine Mountain Schools of Korean Seon, and one of the most influential figures of late Silla Buddhism. Born to a noble family of the True-Bone aristocracy, he travelled to Tang China around 821 and trained under Magu Baoche, a heir in the Mazu Daoyi line. After more than two decades in China — long enough to be regarded by his Chinese hosts as a fully Chinese master — he returned to Silla in 845 and established Sŏngjusa on Mount Sŏngjusan in the Boryeong region.
+
 ### Jiashan Shanhui
 
 - **Also known as:** Chia-shan Shan-hui, Kassan Zenne
@@ -650,6 +668,15 @@ Dongshan developed the teaching of the Five Ranks (Wuwei), a sophisticated schem
 Shishuang Qingzhu was a student of Daowu Yuanzhi who established a remarkable community on Mount Shishuang, known as the "dead tree hall" because its members practiced sitting meditation with such radical stillness that they appeared as lifeless as withered trees. This practice of utter non-engagement with thought and sensation was Shishuang's distinctive contribution to Chan methodology—a form of sitting so absolute that it preceded the later Caodong emphasis on silent illumination.
 
 Shishuang's famous instruction was: "Cease and desist. Be like a censer in an ancient temple, like a length of white silk." This teaching of radical cessation—not as torpor but as the complete dropping of the discriminating mind—became foundational for the Caodong tradition.
+
+### Pŏmil
+
+- **Also known as:** Beomil
+- **Dates:** 810 – 889
+- **School:** Seon
+- **Teachers:** Yanguan Qian
+
+Pŏmil (梵日, 810–889) is the founder of the Saguelsan school, another of the Nine Mountain Schools of Korean Seon. He travelled to Tang China in 831 and received transmission from Yanguan Qi'an, a senior heir of Mazu Daoyi. After fifteen years in China — including the disruption of the Huichang persecution of Buddhism (842–846) — he returned to Silla and established Gulsansa on Mount Saguelsan.
 
 ### Touzi Datong
 
@@ -689,6 +716,7 @@ Doui (道義, d. 825) is the master through whom Southern School Chan first ente
 - **Dates:** null – 826
 - **School:** Thiền
 - **Teachers:** Baizhang Huaihai
+- **Students:** Khuông Việt
 
 Vô Ngôn Thông (無言通, d. 826) founded the second major Thiền lineage in Vietnam and is the Chinese disciple of Baizhang Huaihai through whom the Southern School of Chan entered Vietnamese Buddhism. Sources describe his travelling south late in life to Kiến Sơ temple in what is now Bắc Ninh province, where his transmission passed through fifteen generations of Vietnamese masters. Where the Vinītaruci line emphasized Indian-rooted meditative practice, the Vô Ngôn Thông line carried the characteristic Chinese-Chan emphasis on mind-to-mind transmission outside the scriptures. Together the two schools formed the main stems of Vietnamese Thiền for the next five centuries.
 
@@ -779,7 +807,7 @@ Yunmen's teaching style was demanding and unsparing.
 - **Dates:** null – 866
 - **School:** Linji
 - **Teachers:** Huangbo Xiyun
-- **Students:** Sansheng Huiran, Baizhang Niepan, Baoshou Yanzhao, Xinghua Cunjiang, Xita Guangmu, Licun, Tongfeng Anzhu, Liễu Quán
+- **Students:** Sansheng Huiran, Baizhang Niepan, Baoshou Yanzhao, Xinghua Cunjiang, Xita Guangmu, Licun, Tongfeng Anzhu, Liễu Quán, Hương Hải
 
 Linji Yixuan founded one of the most dynamic and enduring of all Chan schools, the Linji school, which later became the Rinzai school of Japanese Zen. He was a student of Huangbo Xiyun who underwent an extremely severe training. Three times he asked Huangbo the fundamental meaning of Buddhism, and three times Huangbo struck him without speaking. Linji left in confusion, and Huangbo sent him to consult the master Dayu. When Linji told Dayu what had happened, Dayu said: "Huangbo was so grandmotherly for you!" At this moment Linji had a sudden awakening and said: "There's not much to Huangbo's Buddha Dharma!" When Dayu grabbed him and demanded an explanation, Linji struck Dayu three times in the ribs. This exchange is one of the most analyzed in the entire koan literature.
 
@@ -886,6 +914,23 @@ Dongshan Shouchu's teaching maintained the direct and forceful style characteris
 Baofu Congzhan was a student of Xuefeng Yicun who taught alongside his Dharma brother Changqing Huileng in the Fujian region. The two are often mentioned together in the lamp records, and their dialogues with each other became important teaching material. Baofu and Changqing would frequently test each other's understanding through impromptu exchanges, modeling the value of peer inquiry in Chan practice.
 
 In one well-known exchange, Baofu and Changqing were walking together when Baofu pointed to the ground and said, "Right here, this is the peak of the Wondrous Mountain." Changqing said, "Indeed so, but what a pity." This back-and-forth exemplifies how two awakened practitioners refine each other's expression, ensuring that language never solidifies into fixed doctrine.
+
+### Khuông Việt
+
+- **Also known as:** Ngô Chân Lưu
+- **Dates:** 933 – 1011
+- **School:** Thiền
+- **Teachers:** Vô Ngôn Thông
+
+Khuông Việt (匡越, 933–1011), birth name Ngô Chân Lưu, is the fourth-generation patriarch of the Vô Ngôn Thông line of Vietnamese Thiền and the figure regarded as Vietnam's first national Buddhist preceptor. Born into the Ngô clan that briefly held the Vietnamese throne after the fall of Chinese rule in 939, he ordained at the Khai Quốc temple under Vân Phong and became one of the most learned monks of his generation. King Đinh Tiên Hoàng granted him the title Khuông Việt Đại Sư ('Great Master Who Helps Vietnam') in 971 — the first time a Vietnamese Buddhist had been formally appointed to the post of national preceptor — and he served the early Đinh, Lê, and Lý courts as a religious-political advisor.
+
+### Vạn Hạnh
+
+- **Dates:** 938 – 1018
+- **School:** Thiền
+- **Teachers:** Vinītaruci
+
+Vạn Hạnh (萬行, 938–1018) is the twelfth-generation master of the Tỳ-ni-đa-lưu-chi (Vinītaruci) line of Vietnamese Thiền and one of the most consequential political-religious figures in Vietnamese history. Trained at Lục Tổ Temple in Bắc Ninh, he was renowned for his mastery of the three traditional 'studies' — Buddhism, Confucianism, and Daoism — and for what the chronicles describe as a strikingly accurate gift of prophecy. His most celebrated act was political: foreseeing the imminent fall of the Lê dynasty, he persuaded the court official Lý Công Uẩn to accept the throne in 1009, founding the Lý dynasty (1009–1225) which would shape Vietnam for two centuries and establish Buddhism as the de facto state religion.
 
 ### Nanyin Shourou
 
@@ -1586,6 +1631,14 @@ Soko's emphasis on Dogen's original vision—the practice of shikantaza (just si
 
 Bankei Yōtaku (1622–1693) was one of the most original and accessible Zen masters in Japanese history. Born in the village of Hamada in Harima Province, he became obsessed as a young boy with the meaning of "bright virtue" (meiji toku), a phrase he encountered in the Confucian Great Learning. Unable to find anyone who could explain it to his satisfaction, he ordained as a monk under Umpō Zenjō at the age of sixteen and plunged into years of extreme ascetic practice — sitting for days without sleep, exposing himself to the elements, eating almost nothing. These austerities nearly killed him; at one point he was so weakened that he coughed up a ball of phlegm, and in that moment of physical extremity, his great doubt suddenly resolved.
 
+### Hương Hải
+
+- **Dates:** 1628 – 1715
+- **School:** Lâm Tế
+- **Teachers:** Linji Yixuan
+
+Hương Hải (香海, 1628–1715) is the central figure of the seventeenth-century Vietnamese Thiền revival. Born in the southern Đàng Trong region during the long Trịnh-Nguyễn split, he served briefly as a court mandarin before ordaining and travelling north to study under the Chinese Lâm Tế (Linji) master Trí Giáo Nhất Cú at Phật Tích temple. He returned south, established a hermitage on Mount Tiêu Dao, and from there reformed Vietnamese Thiền practice along the lines of Ming-dynasty Linji discipline — a recovery, after centuries of decline, of the rigorous training that had defined the Trúc Lâm period.
+
 ### Shoju Rojin
 
 - **Also known as:** Dokyo Etan, Shoju Ronin
@@ -1624,7 +1677,7 @@ Ryoko's work as a Soto teacher exemplifies the tradition's dual commitment to me
 - **Dates:** 1670 – 1742
 - **School:** Lâm Tế
 - **Teachers:** Linji Yixuan
-- **Students:** Thích Thanh Từ, Thích Nhất Hạnh
+- **Students:** Thích Thanh Từ, Thích Nhất Hạnh, Thích Tịnh Khiết, Thích Quảng Đức
 
 Liễu Quán (了觀, 1670–1742) is the master who Vietnamized the Lâm Tế (Linji) tradition. Where earlier Vietnamese Lâm Tế transmission had been carried by Chinese émigré monks — notably Nguyên Thiều, who arrived from Guangdong c. 1665 — Liễu Quán was the first Vietnamese-born heir, receiving transmission from the Chinese master Tử Dung Minh Hoằng. The dharma line he established, known as the Liễu Quán branch, became the dominant Buddhist lineage in central and southern Vietnam and remains so today. Thích Nhất Hạnh's Plum Village tradition descends through this line as its 42nd generation, making Liễu Quán the ancestor of the global Vietnamese Zen tradition as it is now practiced worldwide.
 
@@ -2020,6 +2073,15 @@ Kōdō Sawaki (澤木 興道, 1880–1965), known throughout Japan as "Homeless 
 
 Hakuun Ryōkō Yasutani (安谷 白雲, 1885–1973) was the dharma heir of Harada Daiun Sogaku who carried the Harada-Yasutani method to Western lay students and, in doing so, became the most direct Japanese root of contemporary American Zen. He was born in 1885 in Shizuoka Prefecture and ordained at age thirteen at the Sōtō temple Teishin-ji, where he received the religious name Hakuun ("white cloud")[1]. After years of conventional Sōtō training and work as a schoolteacher, he married at thirty and had five children, only beginning serious kōan practice under Harada in 1925 at the age of forty; he reported kenshō under Harada in 1927 and received dharma transmission (inka shōmei) from him in 1943[1][2].
 
+### Thích Tịnh Khiết
+
+- **Also known as:** Nguyễn Văn Kỉnh
+- **Dates:** 1890 – 1973
+- **School:** Thiền
+- **Teachers:** Liễu Quán
+
+Thích Tịnh Khiết (釋淨潔, 1890–1973) was the first Supreme Patriarch of the Unified Buddhist Sangha of Vietnam (Giáo Hội Phật Giáo Việt Nam Thống Nhất) and the unifying ecclesiastical figure of twentieth-century Vietnamese Buddhism. Ordained in 1905 at Tường Vân Pagoda in Huế, he rose through the Lâm Tế-derived Liễu Quán lineage and became, by the 1930s, the senior Buddhist authority in central Vietnam. His public profile crystallised during the 1963 Buddhist crisis: as nominal head of the Vietnamese Sangha he was placed under house arrest by the Diệm regime in May 1963, an act that catalysed the international protests culminating in Thích Quảng Đức's self-immolation that June.
+
 ### Shibayama Zenkei
 
 - **Dates:** 1894 – 1974
@@ -2029,6 +2091,15 @@ Hakuun Ryōkō Yasutani (安谷 白雲, 1885–1973) was the dharma heir of Hara
 Zenkei Shibayama (柴山全慶, 1894–1974) was one of the senior Rinzai abbots of mid-twentieth-century Japan and, through a remarkable series of American lecture tours and English-language books, one of the principal voices that introduced classical kōan Zen to postwar Western audiences. He was born on November 30, 1894, trained in the Rinzai monastic system, and pursued an unusually scholarly career alongside monastic practice, eventually teaching at Otani University in Kyoto while continuing his formal Zen training[1].
 
 Shibayama rose to the highest institutional position in his school: he became abbot of Nanzen-ji in Kyoto and "head abbot of the entire Nanzenji Organization, overseeing the administration of over five hundred temples"[1].
+
+### Thích Quảng Đức
+
+- **Also known as:** Lâm Văn Túc
+- **Dates:** 1897 – 1963
+- **School:** Thiền
+- **Teachers:** Liễu Quán
+
+Thích Quảng Đức (釋廣德, 1897–1963) is among the most internationally recognised Vietnamese Buddhists of the twentieth century. Ordained at age fifteen in the Lâm Tế-derived Liễu Quán tradition, he spent four decades in monastic obscurity — restoring more than thirty pagodas across central Vietnam, supervising the construction of the Quan Âm Pagoda in Saigon, and serving as chairman of the Vietnamese Buddhist Sangha's monastic discipline panel. His name became known worldwide on 11 June 1963, when he sat in lotus posture at the intersection of Phan Đình Phùng and Lê Văn Duyệt streets in Saigon, was doused in petrol by fellow monks, lit a match, and burned to death without moving — an act of protest against the Diệm government's persecution of Buddhists.
 
 ### Baian Hakujun Kuroda
 
@@ -2120,6 +2191,7 @@ Kōshō Uchiyama (1912–March 13, 1998) was a Sōtō Zen priest, prolific essay
 - **Dates:** 1912 – 1993
 - **School:** Jogye
 - **Teachers:** Gyeongheo Seongu
+- **Students:** Beopjeong, Daehaeng Kun Sunim
 
 Toeong Seongcheol (退翁性徹, 1912–1993) was the most influential Korean Seon master of the twentieth century and served as the seventh Supreme Patriarch (Jongjeong) of the Jogye Order from 1981 until his death. Born Yi Yeongju on 6 April 1912 in what was then Korea under Japanese rule, he was a precocious child who reportedly read by the age of three and worked through the Chinese classics in his early youth before turning to Western philosophy and Eastern religion.
 
@@ -2195,6 +2267,15 @@ Thích Nhất Hạnh (一行, 1926–2022) was the Vietnamese Thiền master, po
 
 Seung Sahn Haengwon (숭산행원, 1927–2004) was the Korean Seon master who, more than any other, brought Korean Zen to the Western world and built the largest international Korean Zen sangha of the twentieth century, the Kwan Um School of Zen. He was born Duk-In Lee on 1 August 1927 in Sunchon, South Pyongan Province, in what is now North Korea. As a teenager he joined the Korean independence movement under Japanese occupation and was briefly imprisoned; afterward he studied Western philosophy at Dongguk University in Seoul, where reading the Diamond Sutra prompted him to leave his studies for the mountains.
 
+### Daehaeng Kun Sunim
+
+- **Also known as:** Daehaeng
+- **Dates:** 1927 – 2012
+- **School:** Jogye
+- **Teachers:** Toeong Seongcheol
+
+Daehaeng Kun Sunim (大行, 1927–2012) is one of the most important Korean female Sŏn masters of the twentieth century and the founder of the Hanmaum Seonwon ('One-Mind Sŏn Centre') network, which by her death numbered fifteen branches in Korea and another fifteen abroad. Ordained in 1950 in the wake of the Korean War, she spent her early years in mountain hermitages refusing the formal Jogye Order monastic curriculum, working instead from her own awakening — a position the Order later affirmed by recognising her teaching authority and granting her dharma-name lineage status.
+
 ### Dainin Katagiri
 
 - **Also known as:** Katagiri Roshi
@@ -2224,6 +2305,15 @@ Hakuyū Taizan Maezumi was born February 24, 1931, in Ōtawara, Tochigi Prefectu
 - **Teachers:** Taizan Maezumi
 
 John Daido Loori (大道, 14 June 1931 – 9 October 2009) was born in Jersey City, New Jersey, into an Italian-American Catholic family. He served in the United States Navy from 1947 to 1952, afterwards studied at Rutgers, and worked for two decades as a research chemist in the food industry; throughout that period he pursued serious black-and-white photography, eventually studying with Minor White, whose Zen-influenced approach to seeing strongly shaped Loori's later teaching on art practice. He began formal Zen practice in 1972 under the Rinzai master Soen Nakagawa Roshi at the New York Zendo Shoboji, then trained intensively in California with Taizan Maezumi at the Zen Center of Los Angeles.
+
+### Beopjeong
+
+- **Also known as:** Bŏpchŏng, Bopjong
+- **Dates:** 1932 – 2010
+- **School:** Jogye
+- **Teachers:** Toeong Seongcheol
+
+Beopjeong (法頂, 1932–2010) is one of the most widely-read modern Korean Sŏn writers, a Jogye Order monk whose essays on simplicity, attentiveness, and the inseparability of practice from daily life shaped the religious imagination of two generations of Korean lay readers. Ordained in 1956 under Hyobong, he spent decades in mountain hermitages — most famously Bulil Hermitage at Songgwangsa and Suryeon Hermitage on Mount Bongseon — and refused all institutional titles. His best-known book, *Musoyu* ('Non-Possession', 1976), articulates a quiet ethic of voluntary simplicity that influenced Korean environmentalism and the country's late-twentieth-century critique of consumerism.
 
 ### Philippe Reiryū Coupey
 
@@ -2456,7 +2546,7 @@ After the Southern School's rise to orthodoxy, Puji and the Northern School were
 - **Dates:** Dates uncertain
 - **School:** Nanyue line
 - **Teachers:** Nanyue Huairang
-- **Students:** Guizong Zhichang, Luzu Baoyun, Mayu Baoche, Nanquan Puyuan, Pang Yun, Panshan Baoji, Baizhang Huaihai, Damei Fachang, Wujiu Youxuan, Xitang Zhizang, Yanguan Qian, Zhangjing Huaiyun, Zhongyi Hongen
+- **Students:** Guizong Zhichang, Luzu Baoyun, Mayu Baoche, Nanquan Puyuan, Pang Yun, Panshan Baoji, Baizhang Huaihai, Damei Fachang, Wujiu Youxuan, Xitang Zhizang, Yanguan Qian, Zhangjing Huaiyun, Zhongyi Hongen, Muyŏm
 
 Mazu Daoyi was the other great heir of the post-Huineng generation, descending through Nanyue Huairang, and one of the most dynamic and influential Chan masters in Chinese history. He was the teacher of hundreds of students and was renowned for his startling, unconventional teaching methods. Mazu introduced the "shout" (katsu/he) as a teaching device, sometimes shouting so forcefully that students experienced sudden awakening. He also employed physical gestures—grabbing noses, twisting ears, striking students unexpectedly—as direct interventions in the stream of conceptual thought.
 
@@ -4443,6 +4533,7 @@ Tongan Daopi's contribution was primarily one of faithful transmission—keeping
 - **Dates:** Dates uncertain
 - **School:** Nanyue line
 - **Teachers:** Mazu Daoyi
+- **Students:** Pŏmil
 
 Yanguan Qi'an was a student of Mazu Daoyi known for his encounter dialogues that became important koan material. He taught at Yanguan (Salt Office) and his exchanges with monks display the vivid, direct style characteristic of Mazu's lineage. His most famous encounter involves the rhinoceros fan, which appears in the Blue Cliff Record.
 
@@ -4476,7 +4567,7 @@ Yuanmi's presence in the Caodong lineage reflects the school's continuous transm
 - **Dates:** Dates uncertain
 - **School:** Nanyue line
 - **Teachers:** Mazu Daoyi
-- **Students:** Wufeng Changguan, Doui
+- **Students:** Wufeng Changguan, Doui, Hyech'ŏl
 
 Xitang Zhizang was one of the three great students of Mazu Daoyi, alongside Baizhang Huaihai and Nanquan Puyuan. He taught at Xitang (West Hall) and was known for a deep and quiet style that complemented the more dramatic approaches of his dharma brothers. The three students are often mentioned together as exemplifying different facets of Mazu's teaching.
 
@@ -4760,14 +4851,14 @@ The Nanyue line descends from Nanyue Huairang, a student of the Sixth Patriarch 
 ### Thiền
 
 - **Tradition:** Thiền
-- **Masters:** 2
+- **Masters:** 6
 
 Thiền (禪) is the Vietnamese tradition of Chan Buddhism, brought to Vietnam through multiple transmissions from China beginning as early as the sixth century[1]. The first Thiền school was founded by Vinitaruci (d. 594), an Indian monk who had studied with the Third Patriarch Sengcan before traveling to Vietnam[2]. The second school was established by Vô Ngôn Thông (d. 826), a Chinese disciple of Baizhang Huaihai[3]. Vietnamese Thiền developed a distinctive character, readily combining meditation practice with Pure Land devotion, Confucian ethics, and indigenous Vietnamese spirituality[1]. The tradition produced several uniquely Vietnamese developments, including the Trúc Lâm (Bamboo Forest) school founded by Emperor Trần Nhân Tông in 1299[4], and the Liễu Quán dharma line of the Lâm Tế school, which became the dominant lineage in central and southern Vietnam[5].
 
 ### Seon
 
 - **Tradition:** Seon
-- **Masters:** 5
+- **Masters:** 8
 
 Seon (禪, 선) is the Korean tradition of Chan Buddhism, introduced to the Korean peninsula beginning in the seventh century by monks who had studied in Tang dynasty China[1]. The earliest transmissions came through figures like Toui, who received dharma transmission from Baizhang Huaihai's lineage and established the first Seon school upon returning to Korea[2]. During the Goryeo dynasty, Bojo Jinul (1158–1210) became the tradition's most influential reformer, synthesizing Seon meditation with Hwaeom (Huayan) doctrinal study and establishing the Jogye Order, which remains the dominant Buddhist institution in Korea today[3]. Korean Seon developed a distinctive character: it preserved the intensity of Tang dynasty Chan practice—particularly the hwadu (huatou) method of koan investigation—while integrating it with a broader Buddhist framework[1]. The tradition also maintained a strong emphasis on extended silent retreat, culminating in the modern Korean practice of three-month intensive meditation seasons (kyolche)[1]. Major modern figures include Gyeongheo, who revived the dying Seon tradition in the late nineteenth century[4], and Seongcheol, who insisted on sudden awakening as the only authentic path[5].
 
@@ -4816,7 +4907,7 @@ The Trúc Lâm (竹林, Bamboo Forest) school is the only indigenous Vietnamese 
 ### Jogye
 
 - **Tradition:** Seon
-- **Masters:** 3
+- **Masters:** 5
 
 The Jogye Order (조계종, 曹溪宗) is the largest and most influential Buddhist order in Korea, tracing its spiritual lineage to the Sixth Patriarch Huineng's mountain, Caoxi (Jogye in Korean)[1]. Founded in its original form by Bojo Jinul in the twelfth century and reconstituted in the twentieth century after Japanese colonial suppression, the Jogye Order represents the mainstream of Korean Seon practice[1][2]. The order's distinctive approach combines rigorous hwadu (huatou) meditation with monastic discipline, seasonal intensive retreats (kyolche), and the integration of doctrinal study[1]. The Jogye Order maintains over two thousand temples across South Korea and operates the country's major monastic training centers, including Haeinsa, Songgwangsa, and Tongdosa[1]. In the modern era, the order has produced towering figures including Gyeongheo Seongu, who single-handedly revived Korean Seon practice[3]; Mangong, Hyobong, and Gobong, who maintained rigorous meditation standards[4]; and Seongcheol, whose uncompromising insistence on sudden awakening sparked nationwide debate about the nature of enlightenment[5].
 
@@ -4851,7 +4942,7 @@ The Yangqi line is the dominant sub-branch of the Linji school, founded by Yangq
 ### Lâm Tế
 
 - **Tradition:** Thiền
-- **Masters:** 2
+- **Masters:** 3
 
 The Lâm Tế school is the Vietnamese form of the Chinese Linji tradition, formally established in Vietnam during the seventeenth century by Chinese monks carrying the late-Ming Linji revival lineage of Miyun Yuanwu[1]. The most important transmission was through Nguyên Thiều (1648–1728), a Chinese monk from Guangdong who arrived in Vietnam around 1665–1677 and established the Linji lineage in the central and southern regions[2]. His dharma grandson Liễu Quán (1670–1742) became the first native Vietnamese to receive Linji dharma transmission, founding the Liễu Quán dharma line that 'Vietnamized' the tradition and remains the dominant Buddhist lineage in central Vietnam to this day[3]. Thích Nhất Hạnh (1926–2022), the globally influential Zen teacher and peace activist, was the 42nd generation of the Lâm Tế school and 8th generation of the Liễu Quán line[4].
 
