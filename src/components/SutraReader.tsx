@@ -16,6 +16,7 @@
  */
 
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
+import { linkifyText, type LinkTerm } from "@/lib/linkify-mentions";
 
 export interface SutraTranslation {
   /** Slug of the *teaching* row (e.g. "heart-sutra-mueller-1894"). */
@@ -42,6 +43,17 @@ export interface SutraTranslation {
     url: string | null;
     locator: string;
   };
+  /** When the rendered text is a curated subset of the full sūtra
+   *  (Diamond, Platform, Lotus all ship as selections), the source
+   *  footer surfaces a small "Selected chapters" badge so the reader
+   *  knows the sūtra continues beyond what's on the page. Optional;
+   *  absent / "complete" omits the badge. */
+  coverage?:
+    | { kind: "complete" }
+    | { kind: "selections"; sections: string };
+  /** Optional URL to a freely-licensed recording of the chant. */
+  audioUrl?: string;
+  audioAttribution?: string;
 }
 
 interface Props {
@@ -49,6 +61,11 @@ interface Props {
   translations: SutraTranslation[];
   /** chip-slug to use when ?translator= is missing or invalid. */
   defaultTranslator: string;
+  /** Auto-link target list — glossary terms, sūtra titles, etc.
+   *  Server pages assemble these and pass them in. The reader applies
+   *  them only to plain prose (not to italicised verse blocks, where
+   *  Sanskrit transliteration would otherwise generate noisy links). */
+  linkTerms?: LinkTerm[];
 }
 
 interface ParsedSection {
@@ -82,20 +99,38 @@ function parseSections(markdown: string): ParsedSection[] {
   return sections;
 }
 
-function renderInline(text: string): React.ReactNode {
+function renderInline(
+  text: string,
+  linkTerms: LinkTerm[] | null
+): React.ReactNode {
   const out: React.ReactNode[] = [];
   let i = 0;
   let key = 0;
+
+  // Linkify-or-pass plain text segments. Verse content lives inside
+  // `*…*` italic spans which we deliberately skip to avoid littering
+  // Sanskrit transliterations with noisy English term links.
+  const pushPlain = (segment: string) => {
+    if (!segment) return;
+    if (linkTerms && linkTerms.length > 0) {
+      for (const node of linkifyText(segment, linkTerms)) {
+        out.push(node);
+      }
+    } else {
+      out.push(segment);
+    }
+  };
+
   while (i < text.length) {
     const star = text.indexOf("*", i);
     if (star === -1) {
-      out.push(text.slice(i));
+      pushPlain(text.slice(i));
       break;
     }
-    if (star > i) out.push(text.slice(i, star));
+    if (star > i) pushPlain(text.slice(i, star));
     const close = text.indexOf("*", star + 1);
     if (close === -1) {
-      out.push(text.slice(star));
+      pushPlain(text.slice(star));
       break;
     }
     out.push(<em key={`em-${key++}`}>{text.slice(star + 1, close)}</em>);
@@ -104,16 +139,23 @@ function renderInline(text: string): React.ReactNode {
   return out;
 }
 
-function renderBody(body: string): React.ReactNode[] {
+function renderBody(
+  body: string,
+  linkTerms: LinkTerm[] | null
+): React.ReactNode[] {
   const blocks = body.split(/\n{2,}/);
   return blocks.map((block, i) => {
     const trimmed = block.trim();
     if (!trimmed) return null;
     const allItalic = /^\*[^*]+\*$/.test(trimmed.replace(/\n/g, " "));
     const lines = trimmed.split("\n");
+    // Verse blocks pass `null` to suppress linkification — verses
+    // are typically translit/Sanskrit and any English glossary hit
+    // would corrupt the line break and visual rhythm.
+    const lineLinkTerms = allItalic ? null : linkTerms;
     const rendered = lines.map((line, j) => (
       <span key={j}>
-        {renderInline(line)}
+        {renderInline(line, lineLinkTerms)}
         {j < lines.length - 1 ? <br /> : null}
       </span>
     ));
@@ -132,12 +174,19 @@ export default function SutraReader({
   sutraTitle,
   translations,
   defaultTranslator,
+  linkTerms = [],
 }: Props) {
   const validSlugs = useMemo(
     () => new Set(translations.map((t) => t.slug)),
     [translations]
   );
   const [activeSlug, setActiveSlug] = useState<string>(defaultTranslator);
+  /** When set, the reader splits into two columns and renders the
+   *  matching translation alongside the active one — passage by
+   *  passage, sharing § anchors. Null disables compare mode. */
+  const [compareSlug, setCompareSlug] = useState<string | null>(null);
+  /** When true the secondary chip strip ("Compare with…") is open. */
+  const [compareOpen, setCompareOpen] = useState<boolean>(false);
   const articleRef = useRef<HTMLElement | null>(null);
   const initialPassageRef = useRef<string | null>(null);
 
@@ -145,9 +194,14 @@ export default function SutraReader({
     if (typeof window === "undefined") return;
     const params = new URLSearchParams(window.location.search);
     const wantTranslator = params.get("translator");
+    const wantCompare = params.get("compare");
     const wantPassage = params.get("passage");
     if (wantTranslator && validSlugs.has(wantTranslator)) {
       setActiveSlug(wantTranslator);
+    }
+    if (wantCompare && validSlugs.has(wantCompare) && wantCompare !== wantTranslator) {
+      setCompareSlug(wantCompare);
+      setCompareOpen(true);
     }
     initialPassageRef.current = wantPassage;
   }, [validSlugs]);
@@ -164,32 +218,46 @@ export default function SutraReader({
     }
   }, [activeSlug]);
 
+  /** Capture the currently visible §N before swapping content so the
+   *  scroll position survives the swap. */
+  const captureNearestPassage = useCallback((): string | null => {
+    const sections = articleRef.current?.querySelectorAll<HTMLElement>(
+      "[data-passage]"
+    );
+    if (!sections) return null;
+    const viewportTop =
+      typeof window !== "undefined" ? window.scrollY + 100 : 0;
+    let nearest: string | null = null;
+    for (const s of sections) {
+      if (s.offsetTop <= viewportTop) {
+        nearest = s.dataset.passage ?? null;
+      } else {
+        break;
+      }
+    }
+    return nearest;
+  }, []);
+
   const handleSelect = useCallback(
     (slug: string) => {
       if (slug === activeSlug) return;
       const params = new URLSearchParams(window.location.search);
       params.set("translator", slug);
+      // If the user switches the primary translation to whatever was
+      // in the compare slot, drop the compare slot — it would be
+      // showing the same text twice.
+      if (compareSlug === slug) {
+        setCompareSlug(null);
+        params.delete("compare");
+      }
       const passage = params.get("passage");
       if (passage) {
         initialPassageRef.current = passage;
       } else {
-        const sections = articleRef.current?.querySelectorAll<HTMLElement>(
-          "[data-passage]"
-        );
-        if (sections) {
-          const viewportTop = window.scrollY + 100;
-          let nearest: string | null = null;
-          for (const s of sections) {
-            if (s.offsetTop <= viewportTop) {
-              nearest = s.dataset.passage ?? null;
-            } else {
-              break;
-            }
-          }
-          if (nearest) {
-            initialPassageRef.current = nearest;
-            params.set("passage", nearest);
-          }
+        const nearest = captureNearestPassage();
+        if (nearest) {
+          initialPassageRef.current = nearest;
+          params.set("passage", nearest);
         }
       }
       const qs = params.toString();
@@ -200,8 +268,39 @@ export default function SutraReader({
       );
       setActiveSlug(slug);
     },
+    [activeSlug, compareSlug, captureNearestPassage]
+  );
+
+  const handleCompare = useCallback(
+    (slug: string | null) => {
+      const params = new URLSearchParams(window.location.search);
+      if (slug && slug !== activeSlug) {
+        params.set("compare", slug);
+        setCompareSlug(slug);
+      } else {
+        params.delete("compare");
+        setCompareSlug(null);
+      }
+      const qs = params.toString();
+      window.history.replaceState(
+        null,
+        "",
+        qs ? `${window.location.pathname}?${qs}` : window.location.pathname
+      );
+    },
     [activeSlug]
   );
+
+  const toggleCompareOpen = useCallback(() => {
+    setCompareOpen((prev) => {
+      const next = !prev;
+      if (!next && compareSlug) {
+        // Closing the picker also dismisses an active comparison.
+        handleCompare(null);
+      }
+      return next;
+    });
+  }, [compareSlug, handleCompare]);
 
   const active =
     translations.find((t) => t.slug === activeSlug) ??
@@ -214,6 +313,21 @@ export default function SutraReader({
 
   const sections = parseSections(active.content);
   const licenseLabel = formatLicense(active.licenseStatus);
+
+  const compareTranslation =
+    compareSlug !== null
+      ? translations.find((t) => t.slug === compareSlug) ?? null
+      : null;
+  const compareSections = compareTranslation
+    ? parseSections(compareTranslation.content)
+    : null;
+  const compareSectionByPassage = compareSections
+    ? new Map(compareSections.map((s) => [s.passageNumber, s]))
+    : null;
+
+  // Translations available for the right-hand "Compare with…" slot:
+  // anything except the currently-active primary translation.
+  const compareCandidates = translations.filter((t) => t.slug !== active.slug);
 
   return (
     <>
@@ -246,35 +360,133 @@ export default function SutraReader({
             </button>
           ))}
         </div>
+        {compareCandidates.length > 0 && (
+          <div className="sutra-compare-toggle-row">
+            <button
+              type="button"
+              className={`sutra-compare-toggle${
+                compareOpen ? " sutra-compare-toggle--open" : ""
+              }`}
+              onClick={toggleCompareOpen}
+              aria-expanded={compareOpen}
+            >
+              {compareSlug ? "Hide compare" : "Compare two translations"}
+            </button>
+          </div>
+        )}
+        {compareOpen && (
+          <div className="sutra-switcher-compare">
+            <span className="sutra-switcher-label">Compare with</span>
+            <div className="sutra-switcher-chips">
+              {compareCandidates.map((t) => (
+                <button
+                  key={`cmp-${t.slug}`}
+                  type="button"
+                  className={`sutra-chip${
+                    t.slug === compareSlug ? " sutra-chip--active" : ""
+                  }`}
+                  onClick={() =>
+                    handleCompare(t.slug === compareSlug ? null : t.slug)
+                  }
+                  aria-pressed={t.slug === compareSlug}
+                  lang={t.language}
+                >
+                  <span
+                    className="sutra-chip-lang"
+                    aria-hidden="true"
+                    lang={t.language}
+                  >
+                    {t.langLabel}
+                  </span>
+                  <span className="sutra-chip-label">{t.chipLabel}</span>
+                </button>
+              ))}
+            </div>
+          </div>
+        )}
       </div>
 
       <article
         ref={articleRef}
-        className="sutra-prose detail-summary"
-        lang={active.language}
+        className={`sutra-prose detail-summary${
+          compareTranslation ? " sutra-prose--compare" : ""
+        }`}
+        lang={compareTranslation ? undefined : active.language}
       >
-        {sections.map((section) => (
-          <section
-            key={section.passageNumber}
-            id={`passage-${section.passageNumber}`}
-            data-passage={section.passageNumber}
-            className="sutra-passage"
-          >
-            <h3 className="sutra-passage-heading">
-              <span className="sutra-passage-marker" aria-hidden="true">
-                §{section.passageNumber}
-              </span>
-              <span className="sutra-passage-title">{section.heading}</span>
-            </h3>
-            <div className="sutra-passage-body">{renderBody(section.body)}</div>
-          </section>
-        ))}
+        {sections.map((section) => {
+          const cmp = compareSectionByPassage?.get(section.passageNumber);
+          return (
+            <section
+              key={section.passageNumber}
+              id={`passage-${section.passageNumber}`}
+              data-passage={section.passageNumber}
+              className="sutra-passage"
+            >
+              <h3 className="sutra-passage-heading">
+                <span className="sutra-passage-marker" aria-hidden="true">
+                  §{section.passageNumber}
+                </span>
+                <span className="sutra-passage-title">{section.heading}</span>
+              </h3>
+              {compareTranslation ? (
+                <div className="sutra-passage-grid">
+                  <div
+                    className="sutra-passage-body"
+                    lang={active.language}
+                  >
+                    <p className="sutra-passage-col-label">
+                      {active.langLabel} · {active.translator}
+                    </p>
+                    {renderBody(
+                      section.body,
+                      linkTerms.length > 0 ? linkTerms : null
+                    )}
+                  </div>
+                  <div
+                    className="sutra-passage-body"
+                    lang={compareTranslation.language}
+                  >
+                    <p className="sutra-passage-col-label">
+                      {compareTranslation.langLabel} ·{" "}
+                      {compareTranslation.translator}
+                    </p>
+                    {cmp ? (
+                      renderBody(
+                        cmp.body,
+                        linkTerms.length > 0 ? linkTerms : null
+                      )
+                    ) : (
+                      <p className="detail-muted">
+                        Not present in this edition.
+                      </p>
+                    )}
+                  </div>
+                </div>
+              ) : (
+                <div className="sutra-passage-body">
+                  {renderBody(
+                    section.body,
+                    linkTerms.length > 0 ? linkTerms : null
+                  )}
+                </div>
+              )}
+            </section>
+          );
+        })}
       </article>
 
       <footer className="sutra-source-footer">
         <p className="sutra-source-line">
           Translated by <strong>{active.translator}</strong>. {active.edition}.{" "}
           <span className="sutra-license-badge">{licenseLabel}</span>
+          {active.coverage && active.coverage.kind === "selections" ? (
+            <span
+              className="sutra-coverage-badge"
+              title={active.coverage.sections}
+            >
+              Selected chapters
+            </span>
+          ) : null}
         </p>
         <p className="sutra-source-line">
           {active.source.url ? (
@@ -292,7 +504,30 @@ export default function SutraReader({
           {active.source.locator ? (
             <span className="detail-list-meta"> · {active.source.locator}</span>
           ) : null}
+          {active.coverage && active.coverage.kind === "selections" ? (
+            <span className="detail-list-meta">
+              {" "}· {active.coverage.sections}
+            </span>
+          ) : null}
         </p>
+        {active.audioUrl ? (
+          <p className="sutra-source-line">
+            <a
+              href={active.audioUrl}
+              className="sutra-listen-link"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label={`Listen to ${active.translator}`}
+            >
+              ▶ Listen
+            </a>
+            {active.audioAttribution ? (
+              <span className="detail-list-meta">
+                {" "}· {active.audioAttribution}
+              </span>
+            ) : null}
+          </p>
+        ) : null}
       </footer>
     </>
   );

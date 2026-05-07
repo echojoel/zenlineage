@@ -3019,3 +3019,115 @@ a.footnote-source-link:hover {
   font-style: italic;
   text-align: left;
 }
+
+.sutra-coverage-badge {
+  display: inline-block;
+  margin-left: 0.4rem;
+  padding: 0.05rem 0.5rem;
+  border: 1px dashed rgba(122, 106, 85, 0.35);
+  border-radius: 999px;
+  font-family: var(--font-inter), sans-serif;
+  font-size: 0.6rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ink-light);
+  cursor: help;
+}
+
+/* ── Sūtra compare mode ─────────────────────────────────────────────
+ * Two-column passage grid: left = primary translation, right =
+ * comparison. Above each column a small label notes which language
+ * and translator. On narrow screens the grid collapses to single
+ * column so the right-hand text falls underneath the left.
+ */
+.sutra-compare-toggle-row {
+  display: flex;
+  margin-top: 0.6rem;
+}
+
+.sutra-compare-toggle {
+  background: transparent;
+  border: 1px solid rgba(122, 106, 85, 0.25);
+  border-radius: 999px;
+  font-family: var(--font-inter), sans-serif;
+  font-size: 0.62rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--ink-light);
+  cursor: pointer;
+  padding: 0.35rem 0.85rem;
+  transition:
+    background 180ms ease,
+    color 180ms ease,
+    border-color 180ms ease;
+}
+
+.sutra-compare-toggle:hover,
+.sutra-compare-toggle:focus-visible {
+  border-color: var(--ink-light);
+  color: var(--ink);
+  outline: none;
+}
+
+.sutra-compare-toggle--open {
+  background: var(--ink-light);
+  border-color: var(--ink-light);
+  color: var(--paper);
+}
+
+.sutra-switcher-compare {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-top: 0.85rem;
+  padding-top: 0.85rem;
+  border-top: 1px dashed rgba(122, 106, 85, 0.25);
+}
+
+.sutra-prose--compare {
+  /* The two-column grid widens; release the 36-rem cap so each
+   * column gets a comfortable measure. */
+  max-width: 64rem;
+}
+
+.sutra-passage-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.6rem;
+}
+
+@media (max-width: 720px) {
+  .sutra-passage-grid {
+    grid-template-columns: 1fr;
+    gap: 1.2rem;
+  }
+}
+
+.sutra-passage-col-label {
+  margin: 0 0 0.6rem;
+  font-family: var(--font-inter), sans-serif;
+  font-size: 0.62rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--ink-light);
+}
+
+.sutra-listen-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  color: var(--ink);
+  font-family: var(--font-inter), sans-serif;
+  font-size: 0.7rem;
+  letter-spacing: 0.1em;
+  text-decoration: none;
+  border-bottom: 1px solid var(--ink-light);
+  padding-bottom: 1px;
+}
+
+.sutra-listen-link:hover,
+.sutra-listen-link:focus-visible {
+  color: var(--ink);
+  border-bottom-color: var(--ink);
+  outline: none;
+}

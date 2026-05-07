@@ -83,12 +83,12 @@ export default async function SutrasIndexPage() {
               passage in Sōtō and Rinzai daily liturgy.
             </p>
             <p>
-              Each is offered here in multiple editions —{" "}
-              <strong>English by default</strong>, with the original
+              Each is offered here in multiple editions: the original
               Sanskrit, the canonical Chinese (Xuanzang, Kumārajīva,
-              Zongbao), and the Sino-Japanese chant alongside. The
-              switcher above each text keeps the reader anchored at the
-              same passage when you flip between languages.
+              Zongbao), the Sino-Japanese chant, and several
+              translations into European languages. The switcher above
+              each text keeps the reader anchored at the same passage
+              when you flip between languages.
             </p>
           </div>
         </section>
@@ -119,6 +119,22 @@ export default async function SutrasIndexPage() {
               );
             })}
           </ul>
+        </section>
+
+        <section className="detail-card">
+          <h3 className="detail-section-title">Practical: how to chant</h3>
+          <div className="detail-summary">
+            <p>
+              The Sino-Japanese chant (Hannya Shingyō, Kannon-gyō)
+              sits as a chip on each sūtra's page — alongside the
+              translations. If you're new to chanting, the{" "}
+              <Link className="detail-inline-link" href="/sutras/how-to-chant">
+                how-to-chant guide
+              </Link>{" "}
+              walks through breath, tempo, the <em>mokugyō</em>, and
+              what to do when you don't know the words yet.
+            </p>
+          </div>
         </section>
 
         <section className="detail-card">

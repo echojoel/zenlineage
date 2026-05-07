@@ -1,14 +1,14 @@
 # Zen Lineage — Complete Reference
 
 > An open-source interactive encyclopedia of Zen Buddhism covering 425+ masters,
-> 25 schools, 420+ lineage transmissions, 790+ teachings, and 1,700+ scholarly
+> 25 schools, 420+ lineage transmissions, 795+ teachings, and 1,700+ scholarly
 > citations across 2,500 years of Chan, Zen, Seon, and Thien Buddhist history.
 
 Zen Lineage maps the dharma transmission lineages connecting Buddhist masters
 from Shakyamuni Buddha through Bodhidharma to modern teachers. All content
 requires item-level citations from scholarly sources before publication.
 
-Generated: 2026-05-06
+Generated: 2026-05-07
 
 ---
 

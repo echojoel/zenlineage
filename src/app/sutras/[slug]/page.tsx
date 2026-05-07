@@ -19,6 +19,10 @@ import {
   getSutraEntry,
   getSutraRegistry,
 } from "@/lib/sutra-registry";
+import {
+  buildGlossaryLinkTerms,
+  buildSutraLinkTerms,
+} from "@/lib/linkify-mentions";
 
 export async function generateStaticParams() {
   return getSutraRegistry().map((s) => ({ slug: s.slug }));
@@ -145,11 +149,11 @@ export default async function SutraDetailPage({
   }
 
   const rowBySlug = new Map(rows.map((r) => [r.slug, r]));
-  const translations: SutraTranslation[] = entry.translations
-    .map((order) => {
+  const translations: SutraTranslation[] = entry.translations.flatMap(
+    (order): SutraTranslation[] => {
       const row = rowBySlug.get(order.slug);
-      if (!row) return null;
-      return {
+      if (!row) return [];
+      const t: SutraTranslation = {
         slug: row.slug,
         chipLabel: order.chipLabel,
         langLabel: order.langLabel,
@@ -162,14 +166,28 @@ export default async function SutraDetailPage({
         source:
           sourceByTeachingId.get(row.teachingId) ??
           { title: row.edition ?? "Edition", url: null, locator: "" },
-      } satisfies SutraTranslation;
-    })
-    .filter((t): t is SutraTranslation => t !== null);
+      };
+      if (order.coverage) t.coverage = order.coverage;
+      if (order.audioUrl) t.audioUrl = order.audioUrl;
+      if (order.audioAttribution) t.audioAttribution = order.audioAttribution;
+      return [t];
+    }
+  );
 
   const defaultTranslator =
     getDefaultTranslationSlug(entry) ??
     translations[0]?.slug ??
     rows[0].slug;
+
+  // Auto-link target list for the prose body: glossary terms (so
+  // prajñāpāramitā, śūnyatā, etc. resolve into /glossary) plus other
+  // sūtras (so a Heart-Sūtra page mentioning the Diamond cross-links
+  // automatically). Self-href is excluded so the current sūtra never
+  // links to itself.
+  const linkTerms = [
+    ...buildGlossaryLinkTerms(),
+    ...buildSutraLinkTerms({ excludeHref: `/sutras/${slug}` }),
+  ];
   const canonicalUrl = abs(`/sutras/${slug}`);
 
   const breadcrumbLd = breadcrumbSchema([
@@ -218,6 +236,7 @@ export default async function SutraDetailPage({
             sutraTitle={entry.title}
             translations={translations}
             defaultTranslator={defaultTranslator}
+            linkTerms={linkTerms}
           />
         </section>
       </div>

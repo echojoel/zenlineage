@@ -1,6 +1,7 @@
 import React, { type ReactNode } from "react";
 import Link from "next/link";
 import { getSutraRegistry } from "./sutra-registry";
+import { buildGlossary, termAnchorId } from "./glossary-data";
 
 /**
  * Generic auto-linker. Given a string of plain text and a list of
@@ -50,6 +51,28 @@ export function buildSutraLinkTerms(opts?: { excludeHref?: string }): LinkTerm[]
     }
     if (s.nativeTitle) {
       terms.push({ match: s.nativeTitle, href });
+    }
+  }
+  return terms;
+}
+
+/**
+ * Build link terms for every glossary entry. Each entry's display
+ * term and native term (e.g. shikantaza / 只管打坐) becomes a link
+ * to the matching glossary anchor. The English form is required to
+ * be at least 5 characters to avoid noisy matches in arbitrary
+ * prose ("Mu" would otherwise link inside "must"); CJK terms always
+ * link literally because there is no collision risk.
+ */
+export function buildGlossaryLinkTerms(): LinkTerm[] {
+  const terms: LinkTerm[] = [];
+  for (const entry of buildGlossary()) {
+    const href = `/glossary#${termAnchorId(entry.termKey)}`;
+    if (entry.displayTerm && entry.displayTerm.length >= 5) {
+      terms.push({ match: entry.displayTerm, href });
+    }
+    if (entry.nativeTerm) {
+      terms.push({ match: entry.nativeTerm, href });
     }
   }
   return terms;

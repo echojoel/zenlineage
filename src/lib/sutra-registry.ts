@@ -28,6 +28,24 @@ export interface SutraTranslationEntry {
   /** Two- to three-character gutter tag rendered above chipLabel
    *  (EN, SA, 漢, 日). Lets the reader scan languages at a glance. */
   langLabel: string;
+  /** Editorial coverage: `complete` for full-text editions (Heart
+   *  Sūtra in any language), `selections` for partial editions
+   *  shipping a curated subset of chapters. The reader surfaces a
+   *  small badge near the source footer when set to `selections` so
+   *  the reader knows the sūtra continues beyond what's on the
+   *  page. Optional; defaults to `complete`. */
+  coverage?:
+    | { kind: "complete" }
+    | { kind: "selections"; sections: string };
+  /** Optional URL to a freely-licensed recording of this chant. The
+   *  reader surfaces it as a small "Listen" link in the source
+   *  footer. Use only with PD or Creative Commons recordings —
+   *  Sōtōshū's official recordings, archive.org masters, or sangha
+   *  publishers like Plum Village that release under CC. */
+  audioUrl?: string;
+  /** Short attribution shown next to the listen link, e.g.
+   *  "Sōtōshū, official recording". Only used when audioUrl is set. */
+  audioAttribution?: string;
 }
 
 export interface SutraRegistryEntry {
@@ -75,6 +93,8 @@ const SUTRAS: SutraRegistryEntry[] = [
         chipLabel: "Hannya Shingyō (chanted)",
         language: "ja-Latn",
         langLabel: "日",
+        audioUrl: "https://global.sotozen-net.or.jp/eng/practice/sutra/heart/index.html",
+        audioAttribution: "Sōtōshū — official Hannya Shingyō recording",
       },
       {
         slug: "heart-sutra-sanskrit",
@@ -109,36 +129,42 @@ const SUTRAS: SutraRegistryEntry[] = [
         chipLabel: "Müller · 1894",
         language: "en",
         langLabel: "EN",
+        coverage: { kind: "selections", sections: "§§ 1, 5, 10, 26, 32 of 32" },
       },
       {
         slug: "diamond-sutra-gemmell-1912",
         chipLabel: "Gemmell · 1912",
         language: "en",
         langLabel: "EN",
+        coverage: { kind: "selections", sections: "§§ 1, 5, 10, 26, 32 of 32" },
       },
       {
         slug: "diamond-sutra-kumarajiva",
         chipLabel: "Kumārajīva · 401",
         language: "zh-Hant",
         langLabel: "漢",
+        coverage: { kind: "selections", sections: "§§ 1, 5, 10, 26, 32 of 32" },
       },
       {
         slug: "diamond-sutra-sanskrit",
         chipLabel: "Sanskrit (Müller 1881)",
         language: "sa-Latn",
         langLabel: "SA",
+        coverage: { kind: "selections", sections: "§§ 1, 5, 10, 26, 32 of 32" },
       },
       {
         slug: "diamond-sutra-deharlez-1892",
         chipLabel: "de Harlez · 1892",
         language: "fr",
         langLabel: "FR",
+        coverage: { kind: "selections", sections: "§§ 1, 5, 10, 26, 32 of 32" },
       },
       {
         slug: "diamond-sutra-walleser-1914",
         chipLabel: "Walleser · 1914",
         language: "de",
         langLabel: "DE",
+        coverage: { kind: "selections", sections: "§§ 1, 5, 10, 26, 32 of 32" },
       },
     ],
   },
@@ -155,18 +181,21 @@ const SUTRAS: SutraRegistryEntry[] = [
         chipLabel: "Wong Mou-Lam · 1930",
         language: "en",
         langLabel: "EN",
+        coverage: { kind: "selections", sections: "Chs. I, II, III, VI, X" },
       },
       {
         slug: "platform-sutra-goddard-1932",
         chipLabel: "Goddard · 1932",
         language: "en",
         langLabel: "EN",
+        coverage: { kind: "selections", sections: "Chs. I, II, III, VI, X" },
       },
       {
         slug: "platform-sutra-zongbao",
         chipLabel: "Zongbao · 1291",
         language: "zh-Hant",
         langLabel: "漢",
+        coverage: { kind: "selections", sections: "Chs. 1, 2, 3, 6, 10" },
       },
     ],
   },
@@ -183,30 +212,37 @@ const SUTRAS: SutraRegistryEntry[] = [
         chipLabel: "Kern · 1884 (Universal Gate)",
         language: "en",
         langLabel: "EN",
+        coverage: { kind: "selections", sections: "Ch. 25 (Universal Gate of Avalokiteśvara) of 28" },
       },
       {
         slug: "lotus-sutra-kumarajiva",
         chipLabel: "Kumārajīva · 406 (觀世音菩薩普門品)",
         language: "zh-Hant",
         langLabel: "漢",
+        coverage: { kind: "selections", sections: "觀世音菩薩普門品 (ch. 25) of 28" },
       },
       {
         slug: "lotus-sutra-japanese-chant",
         chipLabel: "Kannon-gyō (chanted)",
         language: "ja-Latn",
         langLabel: "日",
+        coverage: { kind: "selections", sections: "Universal Gate (ch. 25) of 28" },
+        audioUrl: "https://global.sotozen-net.or.jp/eng/practice/sutra/index.html",
+        audioAttribution: "Sōtōshū — official chant audio library",
       },
       {
         slug: "lotus-sutra-sanskrit",
         chipLabel: "Sanskrit (Nepalese mss.)",
         language: "sa-Latn",
         langLabel: "SA",
+        coverage: { kind: "selections", sections: "Samantamukha-parivarta (ch. 24/25) of 27" },
       },
       {
         slug: "lotus-sutra-burnouf-1852",
         chipLabel: "Burnouf · 1852 (Porte universelle)",
         language: "fr",
         langLabel: "FR",
+        coverage: { kind: "selections", sections: "Ch. XXIV (Porte universelle) of XXVII" },
       },
     ],
   },
@@ -231,3 +267,4 @@ export function getDefaultTranslationSlug(
   const en = entry.translations.find((t) => t.language === "en");
   return (en ?? entry.translations[0])?.slug;
 }
+
