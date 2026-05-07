@@ -85,7 +85,7 @@ export const viewport: Viewport = {
  * apply the persisted preference (or the OS preference) — without
  * this, every page would flash light then snap to sepia.
  */
-const THEME_BOOT_SCRIPT = `(function(){try{var t=localStorage.getItem('zen-theme');if(t!=='day'&&t!=='sepia'&&t!=='system')t='system';document.documentElement.dataset.theme=t;}catch(e){}})();`;
+const THEME_BOOT_SCRIPT = `(function(){try{var t=localStorage.getItem('zen-theme');if(t!=='sepia'&&t!=='dark')t='day';document.documentElement.dataset.theme=t;}catch(e){}})();`;
 
 export default function RootLayout({
   children,

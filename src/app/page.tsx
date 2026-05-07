@@ -241,7 +241,6 @@ export default async function Home() {
             {label}
           </Link>
         ))}
-        <ThemeToggle />
       </nav>
 
       {/* Random proverb — between nav and footer */}
@@ -312,6 +311,13 @@ export default async function Home() {
           {counts.temples} places of practice
         </Link>
       </p>
+
+      <footer className="home-footer">
+        <ThemeToggle />
+        <p className="home-footer-tag">
+          Zen Lineage — open encyclopedia of Chan, Zen, Sŏn, and Thiền
+        </p>
+      </footer>
     </main>
   );
 }

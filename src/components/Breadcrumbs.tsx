@@ -1,5 +1,4 @@
 import Link from "next/link";
-import ThemeToggle from "./ThemeToggle";
 
 export type BreadcrumbItem = {
   name: string;
@@ -29,7 +28,6 @@ export function Breadcrumbs({ trail }: { trail: BreadcrumbItem[] }) {
           );
         })}
       </ol>
-      <ThemeToggle />
     </nav>
   );
 }

@@ -3,90 +3,87 @@
 import { useCallback, useEffect, useState } from "react";
 
 /**
- * Sepia evening / day toggle. Two visible states:
- *   • day    — light paper, warm-brown ink (the historical default)
- *   • sepia  — warm dark walnut, cream ink (evening reading)
+ * Reading-mode toggle. Three explicit states cycle in order:
+ *   • day   — light paper, warm-brown ink (the historical default)
+ *   • sepia — warm parchment, dark-brown ink (old-book reading feel)
+ *   • dark  — warm walnut paper, cream ink (evening reading)
  *
- * Internally a third state, `system`, is the initial / unset value:
- * it lets the OS-level `prefers-color-scheme: dark` decide. We treat
- * a user click as an explicit override and persist it to
- * `localStorage["zen-theme"]`.
+ * Each click advances. The user's choice persists to
+ * `localStorage["zen-theme"]`. The boot script in layout.tsx applies
+ * the persisted preference before first paint so pages don't flash.
  *
- * The boot script in layout.tsx applies the persisted preference
- * before first paint so the page never flashes from light to sepia.
+ * The toggle is rendered as three small dots — filled = current,
+ * hollow = available — with a textual label describing the current
+ * mode. Quiet styling so it disappears into the page chrome until a
+ * reader looks for it.
  */
 
-type Theme = "system" | "day" | "sepia";
+type Theme = "day" | "sepia" | "dark";
 const STORAGE_KEY = "zen-theme";
+
+const ORDER: Theme[] = ["day", "sepia", "dark"];
+
+const LABELS: Record<Theme, string> = {
+  day: "Day",
+  sepia: "Sepia",
+  dark: "Evening",
+};
 
 function applyTheme(theme: Theme) {
   if (typeof document === "undefined") return;
   const html = document.documentElement;
   html.dataset.theme = theme;
-  // Update the <meta name="theme-color"> for the browser chrome.
+  // Update <meta name="theme-color"> for the browser chrome.
   const meta = document.querySelector('meta[name="theme-color"]');
   if (meta instanceof HTMLMetaElement) {
-    const isDark =
-      theme === "sepia" ||
-      (theme === "system" &&
-        window.matchMedia?.("(prefers-color-scheme: dark)").matches);
-    meta.content = isDark ? "#2a2520" : "#faf9f7";
+    meta.content =
+      theme === "dark"
+        ? "#2a2520"
+        : theme === "sepia"
+          ? "#f4ecd8"
+          : "#faf9f7";
   }
 }
 
 export default function ThemeToggle() {
-  const [theme, setTheme] = useState<Theme>("system");
-  // Avoid hydration mismatch: don't render an explicit aria-pressed
-  // state until we've read localStorage on mount.
+  const [theme, setTheme] = useState<Theme>("day");
   const [hydrated, setHydrated] = useState(false);
 
   useEffect(() => {
     const stored = window.localStorage.getItem(STORAGE_KEY);
     const initial: Theme =
-      stored === "day" || stored === "sepia" || stored === "system"
+      stored === "sepia" || stored === "dark" || stored === "day"
         ? stored
-        : "system";
+        : "day";
     setTheme(initial);
     applyTheme(initial);
     setHydrated(true);
   }, []);
 
-  const handleClick = useCallback(() => {
-    setTheme((prev) => {
-      // Cycle: system → day → sepia → system. Most users will park
-      // on either day or sepia after one or two clicks.
-      const next: Theme =
-        prev === "system" ? "day" : prev === "day" ? "sepia" : "system";
-      window.localStorage.setItem(STORAGE_KEY, next);
-      applyTheme(next);
-      return next;
-    });
+  const setExplicit = useCallback((next: Theme) => {
+    window.localStorage.setItem(STORAGE_KEY, next);
+    applyTheme(next);
+    setTheme(next);
   }, []);
 
-  const label =
-    theme === "sepia"
-      ? "Evening reading"
-      : theme === "day"
-        ? "Day reading"
-        : "Match system";
-
-  // Glyph: filled circle for sepia, outline circle for day, dotted
-  // for system. Keeps a single visual vocabulary across states.
-  const glyph =
-    theme === "sepia" ? "◐" : theme === "day" ? "○" : "◔";
-
   return (
-    <button
-      type="button"
-      className="theme-toggle"
-      onClick={handleClick}
-      aria-pressed={hydrated && theme === "sepia"}
-      aria-label={`Reading mode: ${label}. Click to cycle.`}
-      title={`Reading mode: ${label}`}
-    >
-      <span className="theme-toggle-glyph" aria-hidden="true">
-        {glyph}
-      </span>
-    </button>
+    <div className="theme-toggle" role="group" aria-label="Reading mode">
+      <span className="theme-toggle-label">Reading mode</span>
+      <div className="theme-toggle-options">
+        {ORDER.map((opt) => (
+          <button
+            key={opt}
+            type="button"
+            className={`theme-toggle-option${
+              hydrated && theme === opt ? " theme-toggle-option--active" : ""
+            }`}
+            aria-pressed={hydrated && theme === opt}
+            onClick={() => setExplicit(opt)}
+          >
+            {LABELS[opt]}
+          </button>
+        ))}
+      </div>
+    </div>
   );
 }

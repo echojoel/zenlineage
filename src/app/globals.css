@@ -20,17 +20,28 @@
   --school-guiyang: #8b7a5a;
 }
 
-/* Sepia evening mode — not a "dark mode" in the techy-blue sense.
- * Aim is the feel of reading by candlelight: warm dark walnut paper,
- * cream/parchment ink, school accents lifted in lightness so they
- * still read on the dark background. The aesthetic is meditative.
+/* Reading-mode alternatives. Two warm options sit alongside the
+ * default day mode:
  *
- * The toggle component sets `data-theme="sepia"` on <html>; a tiny
- * boot script in layout.tsx applies the persisted preference before
- * first paint to avoid a flash. The 'system' state follows
- * `prefers-color-scheme: dark` at the user's OS level.
+ *   • sepia — *light* warm parchment + dark brown ink. The feel of
+ *     an old book under lamplight; never a dark mode.
+ *   • dark  — warm walnut paper + cream ink. Evening reading on
+ *     phones and in low-light rooms. Still warm; never bluish.
+ *
+ * The toggle component sets `data-theme` on <html>; a tiny boot
+ * script in layout.tsx applies the persisted preference before
+ * first paint to avoid a flash.
  */
 :root[data-theme="sepia"] {
+  --paper: #f4ecd8;      /* warm parchment */
+  --paper-warm: #ebd9b8; /* slightly deeper cream */
+  --ink: #5b4636;        /* dark brown */
+  --ink-light: #8a7660;  /* muted warm brown */
+  --moss: #4a6a4a;       /* deepened so it still reads on parchment */
+  --rust: #7b5b3a;
+}
+
+:root[data-theme="dark"] {
   --ink: #ebe2cc;        /* warm cream */
   --ink-light: #b9a98a;  /* light taupe */
   --paper: #2a2520;      /* dark walnut */
@@ -43,22 +54,6 @@
   --school-fayan: #8a9aab;
   --school-huayan: #9a8aab;
   --school-guiyang: #ab9a7a;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root[data-theme="system"] {
-    --ink: #ebe2cc;
-    --ink-light: #b9a98a;
-    --paper: #2a2520;
-    --paper-warm: #34302a;
-    --moss: #8aa28a;
-    --rust: #c69a73;
-    --school-obaku: #9aab8a;
-    --school-yunmen: #c0905a;
-    --school-fayan: #8a9aab;
-    --school-huayan: #9a8aab;
-    --school-guiyang: #ab9a7a;
-  }
 }
 
 @theme inline {
@@ -3431,78 +3426,110 @@ a.footnote-source-link:hover {
   color: var(--ink-light);
 }
 
-/* Theme toggle button — small quarter-moon glyph in nav rows
- * (home + breadcrumbs). Quiet styling: same paper/ink language as
- * the rest of the chrome, no shouting. */
+/* Theme toggle — a small segmented control rendered in the home
+ * footer area. Three states (Day / Sepia / Evening) shown as
+ * pill-shaped buttons. Quiet styling so it sits in the page chrome
+ * without competing with the content above it.
+ */
 .theme-toggle {
   display: inline-flex;
   align-items: center;
+  gap: 0.7rem;
+  flex-wrap: wrap;
   justify-content: center;
-  width: 28px;
-  height: 28px;
-  padding: 0;
-  margin-left: 0.4rem;
-  background: transparent;
-  border: 1px solid rgba(122, 106, 85, 0.25);
+}
+
+.theme-toggle-label {
+  font-family: var(--font-inter), sans-serif;
+  font-size: 0.6rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--ink-light);
+}
+
+.theme-toggle-options {
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid rgba(122, 106, 85, 0.22);
   border-radius: 999px;
+  padding: 2px;
+  background: transparent;
+}
+
+.theme-toggle-option {
+  background: transparent;
+  border: 0;
+  border-radius: 999px;
+  padding: 0.3rem 0.85rem;
+  font-family: var(--font-inter), sans-serif;
+  font-size: 0.62rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
   color: var(--ink-light);
   cursor: pointer;
   transition:
     color 180ms ease,
-    border-color 180ms ease,
     background 180ms ease;
-  font-family: Georgia, serif;
-  line-height: 1;
 }
 
-.theme-toggle:hover,
-.theme-toggle:focus-visible {
+.theme-toggle-option:hover,
+.theme-toggle-option:focus-visible {
   color: var(--ink);
-  border-color: var(--ink-light);
   outline: none;
 }
 
-.theme-toggle[aria-pressed="true"] {
-  background: var(--paper-warm);
-  color: var(--ink);
-  border-color: var(--ink-light);
+.theme-toggle-option--active {
+  background: var(--ink-light);
+  color: var(--paper);
 }
 
-.theme-toggle-glyph {
-  font-size: 0.85rem;
-  display: block;
-  transform: translateY(-1px);
-}
-
-/* Breadcrumbs row needs to flex so the toggle sits at the right edge. */
-.breadcrumbs {
+/* Home footer — the band at the bottom of the home page that hosts
+ * the theme toggle plus a quiet attribution line. Picks up the same
+ * --paper-warm tint used by the path-door cards above so it reads
+ * as a coherent footer section, not a separate bolt-on. */
+.home-footer {
+  width: 100%;
+  margin-top: 3rem;
+  padding: 2rem 1.25rem 2.5rem;
+  border-top: 1px solid rgba(122, 106, 85, 0.18);
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: space-between;
-  gap: 0.5rem;
+  gap: 1.2rem;
 }
 
-/* Sepia adjustments — keep verses, badges, and the audio panel
- * legible on the dark walnut background. */
-:root[data-theme="sepia"] .sutra-audio-panel,
-:root[data-theme="sepia"] .tradition-stat,
-:root[data-theme="sepia"] .path-door {
+.home-footer-tag {
+  font-family: var(--font-inter), sans-serif;
+  font-size: 0.62rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--ink-light);
+  opacity: 0.7;
+  text-align: center;
+}
+
+/* Dark adjustments — keep verses, badges, and the audio panel
+ * legible on the dark walnut background. Sepia is a light mode and
+ * inherits the day overrides without changes. */
+:root[data-theme="dark"] .sutra-audio-panel,
+:root[data-theme="dark"] .tradition-stat,
+:root[data-theme="dark"] .path-door {
   background: var(--paper-warm);
 }
 
-:root[data-theme="sepia"] .sutra-verse {
+:root[data-theme="dark"] .sutra-verse {
   border-left-color: rgba(235, 226, 204, 0.25);
 }
 
-:root[data-theme="sepia"] .sutra-license-badge,
-:root[data-theme="sepia"] .sutra-coverage-badge,
-:root[data-theme="sepia"] .glossary-filter-chip,
-:root[data-theme="sepia"] .sutra-chip {
+:root[data-theme="dark"] .sutra-license-badge,
+:root[data-theme="dark"] .sutra-coverage-badge,
+:root[data-theme="dark"] .glossary-filter-chip,
+:root[data-theme="dark"] .sutra-chip {
   border-color: rgba(235, 226, 204, 0.25);
 }
 
-:root[data-theme="sepia"] .glossary-filter-chip--active,
-:root[data-theme="sepia"] .sutra-chip--active {
+:root[data-theme="dark"] .glossary-filter-chip--active,
+:root[data-theme="dark"] .sutra-chip--active {
   background: var(--ink-light);
   color: var(--paper);
   border-color: var(--ink-light);
