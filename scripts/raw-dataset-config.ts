@@ -144,6 +144,36 @@ const RAW_TEACHINGS_DATASET_CONFIG: Record<string, RawDatasetConfig> = {
     expectedSourceId: "src_kern_nanjio_lotus_1908",
     notes: "Lotus Sūtra — Sanskrit (Kern–Nanjio Bibliotheca Buddhica X). Public domain.",
   },
+  "teachings-sutra-heart-feer.json": {
+    kind: "external_extract",
+    entityKind: "teaching",
+    expectedSourceId: "src_feer_essence_1866",
+    notes: "Heart Sūtra — Léon Feer, L'essence de la science transcendante (Paris, 1866). Public domain.",
+  },
+  "teachings-sutra-diamond-deharlez.json": {
+    kind: "external_extract",
+    entityKind: "teaching",
+    expectedSourceId: "src_deharlez_vajracchedika_1892",
+    notes: "Diamond Sūtra — Charles de Harlez, Vajracchedikā (Paris, 1892). Public domain.",
+  },
+  "teachings-sutra-lotus-burnouf.json": {
+    kind: "external_extract",
+    entityKind: "teaching",
+    expectedSourceId: "src_burnouf_lotus_1852",
+    notes: "Lotus Sūtra — Eugène Burnouf, Le Lotus de la Bonne Loi (Paris, 1852). Public domain.",
+  },
+  "teachings-sutra-heart-walleser.json": {
+    kind: "external_extract",
+    entityKind: "teaching",
+    expectedSourceId: "src_walleser_prajnaparamita_1914",
+    notes: "Heart Sūtra — Max Walleser, Prajñāpāramitā: die Vollkommenheit der Erkenntnis (Göttingen, 1914). Public domain.",
+  },
+  "teachings-sutra-diamond-walleser.json": {
+    kind: "external_extract",
+    entityKind: "teaching",
+    expectedSourceId: "src_walleser_prajnaparamita_1914",
+    notes: "Diamond Sūtra — Max Walleser, ibid. Public domain.",
+  },
 };
 
 const DEFAULT_TEACHINGS_DATASET_CONFIG: RawDatasetConfig = {

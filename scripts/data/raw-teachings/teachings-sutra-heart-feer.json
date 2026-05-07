@@ -1,0 +1,20 @@
+[
+  {
+    "slug": "heart-sutra-feer-1866",
+    "type": "sutra",
+    "author_slug": "unknown",
+    "collection": "Heart Sūtra",
+    "compiler": "Léon Feer (trad.)",
+    "era": "Tibetan / Sanskrit / Mongol comparative recension (Feer Eng. 1866)",
+    "attribution_status": "verified",
+    "locale": "fr",
+    "title": "Sūtra du Cœur (Léon Feer, 1866)",
+    "content": "## §1 Cadre\n\n*Tiré de* L'essence de la science transcendante (Prajñā-pāramitā-hṛdaya-sūtra) en trois langues : tibétain, sanscrit, mongol, *édité et traduit par Léon Feer, Paris, 1866 — domaine public. Texte établi à partir de la recension brève sanskrite confrontée aux versions tibétaine et mongole.*\n\nHommage à l'Omniscient !\n\nLe Bodhisattva Ārya-Avalokiteśvara, accomplissant la pratique profonde de la perfection de la sagesse, considéra : il y a cinq agrégats, et il les vit comme étant par leur nature propre vides. Ainsi est-il délivré de toute douleur.\n\n## §2 La forme est vacuité\n\nIci, ô Śāriputra, la forme est vacuité, la vacuité même est forme ; la forme n'est pas autre que la vacuité, la vacuité n'est pas autre que la forme. Ce qui est forme, cela est vacuité ; ce qui est vacuité, cela est forme. Il en est de même de la sensation, de la perception, des composés et de la connaissance.\n\nIci, ô Śāriputra, tous les dharmas ont pour caractère la vacuité : ils ne sont ni nés ni détruits, ni souillés ni purs, ni croissants ni décroissants.\n\n## §3 Négation\n\nC'est pourquoi, ô Śāriputra, dans la vacuité il n'y a pas de forme, ni de sensation, ni de perception, ni de composés, ni de connaissance. Pas d'œil, d'oreille, de nez, de langue, de corps, de pensée. Pas de forme, de son, d'odeur, de saveur, de tangible, de dharma. Pas de sphère du regard, et ainsi de suite, jusqu'à : pas de sphère de la connaissance mentale.\n\nIl n'y a pas d'ignorance, ni cessation de l'ignorance, et ainsi de suite jusqu'à : pas de vieillesse-et-mort, ni cessation de la vieillesse-et-mort. Pas de douleur, d'origine, de cessation, de chemin. Pas de connaissance, pas d'obtention, et pas de non-obtention.\n\n## §4 L'éveil du bodhisattva\n\nC'est pourquoi, ô Śāriputra, le Bodhisattva, en vertu de la non-obtention, s'appuyant sur la perfection de la sagesse, demeure le cœur sans entrave. Parce que le cœur est sans entrave, il est sans crainte ; ayant dépassé toutes les vues fausses, il atteint le Nirvāṇa final. Tous les Bouddhas des trois âges, s'appuyant sur la perfection de la sagesse, sont parvenus à l'illumination suprême et parfaite.\n\n## §5 Le mantra\n\nIl faut donc savoir que la perfection de la sagesse est le grand mantra, le mantra de la grande science, le mantra suprême, le mantra sans égal, qui apaise toute souffrance — vrai, car non vain. Voici le mantra proclamé dans la perfection de la sagesse :\n\n*Gate gate pāragate pārasaṃgate bodhi svāhā.*\n\n(Allé, allé, allé sur l'autre rive, abordé sur l'autre rive, ô éveil, salut !)\n\nAinsi se termine l'essence de la perfection de la sagesse.",
+    "source_id": "src_feer_essence_1866",
+    "ingestion_run_id": "run_sutras_european_pd_initial",
+    "locator": "L'essence de la science transcendante, Paris 1866 — recension brève",
+    "translator": "Léon Feer",
+    "edition": "L'essence de la science transcendante (Paris, 1866)",
+    "license_status": "public_domain"
+  }
+]

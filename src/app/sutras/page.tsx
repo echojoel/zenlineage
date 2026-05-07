@@ -141,6 +141,19 @@ export default async function SutrasIndexPage() {
               Sanskrit), with each section linked back to the
               authoritative full text on the Internet Archive.
             </p>
+            <p>
+              French and German coverage rests on three nineteenth-century
+              orientalists whose work is now in the public domain: Eugène
+              Burnouf's <em>Lotus de la Bonne Loi</em> (1852, the first
+              Western Lotus), Léon Feer's <em>L'essence de la science
+              transcendante</em> (1866) and Charles de Harlez's{" "}
+              <em>Vajracchedikā</em> (1892), and Max Walleser's{" "}
+              <em>Prajñāpāramitā</em> (1914). Spanish, Portuguese,
+              Vietnamese, Korean, and modern East-Asian vernacular
+              renderings of these sūtras are nearly all under copyright;
+              we will land them as public-domain or CC-BY contributions
+              become available.
+            </p>
           </div>
         </section>
       </div>

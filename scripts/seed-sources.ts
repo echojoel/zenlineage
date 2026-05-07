@@ -339,6 +339,46 @@ const SOURCES = [
     reliability: "scholarly",
   },
   {
+    id: "src_feer_essence_1866",
+    type: "text_edition",
+    title:
+      "L'essence de la science transcendante (Prajñā-pāramitā-hṛdaya-sūtra), Léon Feer (trad.) — tibétain, sanscrit, mongol",
+    author: "Léon Feer (trad.)",
+    url: "https://archive.org/details/lessencedelascie00feer",
+    publicationDate: "1866",
+    reliability: "scholarly",
+  },
+  {
+    id: "src_deharlez_vajracchedika_1892",
+    type: "text_edition",
+    title:
+      "Vajracchedikā (Prajñāpāramitā) — texte sanscrit, traduit en français par Charles de Harlez",
+    author: "Charles de Harlez (trad.)",
+    url: "https://archive.org/details/vajracchedikapra00harl",
+    publicationDate: "1892",
+    reliability: "scholarly",
+  },
+  {
+    id: "src_burnouf_lotus_1852",
+    type: "text_edition",
+    title:
+      "Le Lotus de la Bonne Loi — première traduction française du Saddharma-Puṇḍarīka, Eugène Burnouf",
+    author: "Eugène Burnouf (trad.)",
+    url: "https://fr.wikisource.org/wiki/Le_Lotus_de_la_bonne_loi",
+    publicationDate: "1852",
+    reliability: "scholarly",
+  },
+  {
+    id: "src_walleser_prajnaparamita_1914",
+    type: "text_edition",
+    title:
+      "Prajñāpāramitā: die Vollkommenheit der Erkenntnis nach indischen, tibetischen und chinesischen Quellen — Max Walleser (Übers.)",
+    author: "Max Walleser (Übers.)",
+    url: "https://catalog.hathitrust.org/Record/001394211",
+    publicationDate: "1914",
+    reliability: "scholarly",
+  },
+  {
     id: "src_sutras_curated_pd",
     type: "curated_translation_set",
     title:
