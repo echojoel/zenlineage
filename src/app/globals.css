@@ -145,8 +145,22 @@ body {
     padding-bottom: 4rem;
   }
 
+  /* On mobile the nine nav links lay out as a 3×3 grid: each cell
+   * is the same width, items are centered, rows align cleanly. The
+   * inline-style flex declarations from page.tsx are overridden via
+   * !important so we don't have to refactor the JSX. */
   .home-nav {
-    gap: 1rem 1.5rem !important;
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.1rem 0.6rem !important;
+    width: 100%;
+    max-width: 22rem;
+    margin: 0 auto;
+  }
+
+  .home-nav .nav-link {
+    text-align: center;
+    line-height: 1.2;
   }
 
   .home-stats {
