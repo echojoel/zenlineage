@@ -2043,15 +2043,35 @@ After leaving Linji's community Luopu turned south to Jiashan, who reportedly re
   },
   {
     slug: "dingzhou-shizang",
-    content: `Dingzhou Shizang was a student of Nanquan Puyuan known for his forthright and uncompromising character. He features in several important encounters in the lamp records. When Nanquan told the assembly that he would sell his water buffalo the next day, Shizang stepped forward and said, "I want to buy it." Nanquan asked, "What will you give?" Shizang walked forward three steps, bowed, and left. This exchange exemplifies the Chan approach of answering through action rather than conceptual explanation.
-
-Shizang continued Nanquan's teaching style of drawing on the concrete and immediate to point beyond the conceptual. His recorded exchanges, though few, show a teacher who inherited Nanquan's characteristic blend of ordinariness and transcendence—a teaching in which the most mundane activities become the ground of awakening.`,
+    content: `Dingzhou Shizang (定州石藏, fl. early 9th c.) is named in the *Jǐngdé Chuándēng Lù* as a Dharma heir of Nanquan Puyuan and one of the secondary Mazu-line teachers active in the Dingzhou region of modern Hebei[1]. The lamp records preserve a small body of his exchanges in the characteristic Hongzhou-line style of action-as-answer, though the surviving record places him in the lineage without preserving extensive biographical detail[2].`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_ferguson_zen_chinese_heritage",
+        pageOrSection: "Dingzhou Shizang — entry in the Nanquan / Mazu-line genealogies",
+      },
+      {
+        index: 2,
+        sourceId: "src_poceski_ordinary_mind",
+        pageOrSection: "ch. on Nanquan's heirs and the regional Mazu-line community",
+      },
+    ],
   },
   {
     slug: "guizong-cezhen",
-    content: `Guizong Cezhen was a student of Nanquan Puyuan who established a teaching center on Mount Guizong. He was known for vigorous and sometimes physical teaching methods. In one famous exchange, a monk asked him about the fundamental teaching. Guizong drew a circle in the air and wrote the character for "Buddha" in the middle, then looked at the monk. His teaching drew on the spare and enigmatic style of the Qingyuan tradition while maintaining the directness characteristic of Nanquan's heirs.
-
-Like many Tang dynasty masters who lived in the shadow of more famous contemporaries, Guizong's contributions are preserved primarily in the lamp records and koan collections. His exchanges reveal a confident and forceful teacher who used his whole body—gestures, shouts, movements—as instruments of the Dharma.`,
+    content: `Guizong Cezhen (歸宗策真, d. 979) was an early Five-Dynasties / Northern-Song Fayan-house teacher in the line descending from Fayan Wenyi, abbot of Guizong-si on Mount Lu in modern Jiangxi[1]. He is to be distinguished from the earlier and better-attested Guizong Zhichang of the mid-eighth century, a Mazu disciple at the same temple; lamp records and modern reconstructions both treat the two figures as separate, though they share the temple-name epithet[2].`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_ferguson_zen_chinese_heritage",
+        pageOrSection: "Guizong Cezhen — entry in the Fayan-house genealogies",
+      },
+      {
+        index: 2,
+        sourceId: "src_dumoulin_india_china",
+        pageOrSection: "Vol. 1, ch. on Mount Lu Chan and the Guizong-si succession",
+      },
+    ],
   },
   {
     slug: "changqing-huileng",
@@ -2335,21 +2355,63 @@ Hongjin's role in the lineage reflects the organic growth of Chan Buddhism durin
   },
   {
     slug: "shanglan-lingchao",
-    content: `Shanglan Lingchao was the daughter of Layman Pang Yun, one of the most celebrated lay practitioners in Chan history. She practiced alongside her father and matched him in depth of realization, making her one of the few women whose awakened understanding is explicitly acknowledged in the classical Chan records. Her exchanges with Pang Yun reveal a nimble and incisive mind.
+    content: `Lingzhao (靈照, fl. early 9th c.), traditionally treated as the daughter of the lay Chan adept Pang Yun ("Layman Pang"), is one of the very few women preserved in the early Tang lamp records as an awakened practitioner in her own right rather than as a wife or mother of a male teacher[1]. The *Pángjūshì Yǔlù* (the recorded sayings of Layman Pang) preserves a number of her exchanges with her father and other contemporaries that the lamp records and later Chan literature treat as full Chan dialogues[2].
 
-In one famous exchange, Pang Yun said, "Difficult, difficult, difficult—like trying to scatter ten measures of sesame seed all over a tree." His wife said, "Easy, easy, easy—just like touching your feet to the ground when you get out of bed." Lingchao said, "Neither difficult nor easy—on the tips of a hundred grass blades, the meaning of the Patriarch." This three-part dialogue became a celebrated illustration of progressively deepening understanding, with Lingchao's response pointing beyond both difficulty and ease to the truth present in every blade of grass.`,
+The most-quoted of these is the three-way exchange on the difficulty of practice: Pang Yun says it is "difficult, difficult, difficult — like spreading ten *dou* of sesame seed over a tree-top"; his wife answers that it is "easy — like touching feet to the ground on getting out of bed"; and Lingzhao closes the exchange with "Neither difficult nor easy: on the tips of the hundred grass-blades, the meaning of the Patriarchs"[3]. Lingzhao is also remembered for the story of her death, in which she sat at her own seat and entered *parinirvāṇa* before her father — leaving him to remark that "my daughter was always quick"[2].`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_ferguson_zen_chinese_heritage",
+        pageOrSection: "Lingzhao (Shanglan) — entry in the Pang Yun sub-records",
+      },
+      {
+        index: 2,
+        sourceId: "src_dumoulin_india_china",
+        pageOrSection: "Vol. 1, ch. on Layman Pang and his family",
+      },
+      {
+        index: 3,
+        sourceId: "src_wikipedia",
+        pageOrSection: "Layman Pang — the \"difficult/easy/neither\" exchange",
+      },
+    ],
   },
   {
     slug: "shaoshan-huanpu",
-    content: `Shaoshan Huanpu was a Chan master of the Qingyuan lineage who taught at Mount Shaoshan. He appears in the transmission records as a teacher whose methods continued the direct, encounter-based pedagogy of the broader Qingyuan tradition. His dialogues with monks visiting his mountain hermitage reflect the spare and penetrating style that characterized the tradition.
-
-The Qingyuan lineage was notable for producing masters who could function effectively in both large monastic settings and small mountain hermitages. Shaoshan represents the hermit strand of this tradition—masters who preferred the intimacy of a small community to the institutional complexity of a major monastery, and whose teaching was all the more concentrated for its intimate setting.`,
+    content: `Shaoshan Huanpu (韶山寰普, fl. mid-9th c.) is recorded in the *Jǐngdé Chuándēng Lù* as a Dharma heir of Jiashan Shanhui who taught at Mount Shao in modern Hunan in the late ninth century[1]. The surviving record places him within the Yaoshan / Jiashan stream but preserves only a handful of his individual exchanges; modern scholarship treats him as one of the many mid-ranking Tang teachers whose role was lineage maintenance in their local region rather than the production of canonical koan material[2].`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_ferguson_zen_chinese_heritage",
+        pageOrSection: "Shaoshan Huanpu — entry in the Jiashan-stream genealogies",
+      },
+      {
+        index: 2,
+        sourceId: "src_mcrae_seeing_through_zen",
+        pageOrSection: "ch. on the late-Tang Chan regional teaching network",
+      },
+    ],
   },
   {
     slug: "shushan-kuangren",
-    content: `Shushan Kuangren, whose name means "the Madman of Mount Shu," was a Chan master of the Qingyuan lineage known for the unconventional and unpredictable quality of his teaching. The epithet "kuangren" (madman) in Chan does not suggest insanity but rather a freedom from convention that allowed the master to respond spontaneously to each situation without regard for propriety or expectation.
-
-Shushan's recorded encounters show a teacher who used shock, humor, and apparent absurdity to break through students' habitual patterns of thought. This "crazy wisdom" tradition in Chan values the capacity to respond to the moment without the filter of social expectation, seeing in such freedom an expression of the unconditioned nature of awakened mind.`,
+    content: `Shushan Kuangren (疏山匡仁, fl. late 9th c. – early 10th c.) was a Dharma heir of Dongshan Liangjie and one of the Caodong-stream teachers active in the immediate post-Dongshan generation[1]. He taught at Mount Shu in modern Jiangxi, and the *Jǐngdé Chuándēng Lù* preserves a number of his exchanges in the typical Dongshan-line style, including dialogues that would later be reused as koan material in the Song collections[2]. Note that his given name *Kuangren* (匡仁, "Upright Humanity") is sometimes mistranslated as if it contained *kuáng* 狂 ("mad"); the popular "Madman of Mount Shu" tag is a confusion of the two characters and is not supported by the lamp records, which consistently spell his name with the *kuāng* 匡 graph[3].`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_ferguson_zen_chinese_heritage",
+        pageOrSection: "Shushan Kuangren — entry in the Dongshan-stream genealogies",
+      },
+      {
+        index: 2,
+        sourceId: "src_dumoulin_india_china",
+        pageOrSection: "Vol. 1, ch. on Dongshan's heirs and the early Caodong line",
+      },
+      {
+        index: 3,
+        sourceId: "src_wikipedia",
+        pageOrSection: "Shushan Kuangren — name etymology and lineage placement",
+      },
+    ],
   },
   {
     slug: "taiyuan-fu",
@@ -2587,15 +2649,42 @@ Muzhou is best remembered as the master who broke open Yunmen Wenyan's training.
   },
   {
     slug: "lingyun-zhiqin",
-    content: `Lingyun Zhiqin was a student in the Linji lineage who is famous for one of the most beautiful awakening stories in Chan literature. After many years of practice, he was walking in the mountains one spring morning when he suddenly saw peach trees in bloom. The sight of the blossoms struck him with the force of revelation, and his understanding opened completely. He expressed his realization in a verse: "For thirty years I sought a swordsman; how many times leaves fell, how many times the buds appeared. But one glimpse of the peach blossoms, and I have no more doubts."
-
-This awakening through the natural world—not through a koan or a teacher's intervention but through the simple beauty of flowering trees—has become one of the tradition's most cherished accounts. It demonstrates that realization can come at any moment, triggered by any sense experience, when the mind is ripe. Lingyun's verse is still widely quoted as an expression of the suddenness and completeness of genuine insight.`,
+    content: `Lingyun Zhiqin (靈雲志勤, fl. 9th c.) is named in the *Jǐngdé Chuándēng Lù* as a Dharma heir of Guishan Lingyou — and so a member of the Guiyang house rather than the Linji line — best known for the awakening story preserved in the lamp records and recycled in the *Wúménguān* and *Bìyán Lù* commentary tradition[1]. After a long period of practice he was walking in the mountains one spring morning when the sudden sight of peach blossoms precipitated his decisive insight; his enlightenment verse, "For thirty years I sought a swordsman; how many times the leaves have fallen, how many times the buds have bloomed; but since one look at the peach blossoms, even now I have no more doubts," became one of the most-quoted attestations in the tradition that awakening can be triggered by any sensory occasion when the practitioner is ready[2].`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_ferguson_zen_chinese_heritage",
+        pageOrSection: "Lingyun Zhiqin — biographical entry; Guishan Lingyou's heir",
+      },
+      {
+        index: 2,
+        sourceId: "src_dumoulin_india_china",
+        pageOrSection: "Vol. 1, ch. on Guishan's heirs and the peach-blossom awakening",
+      },
+    ],
   },
   {
     slug: "baoshou-yanzhao",
-    content: `Baoshou Yanzhao was a direct student of Linji Yixuan who carried his teacher's fierce and uncompromising style into the next generation. He was known for the sheer force of his personality and his refusal to accommodate any form of conceptual understanding. His exchanges with monks often featured the shouts and blows that were Linji's signature teaching methods.
+    content: `Baoshou Yanzhao (寶壽延沼, fl. late 9th c.) was a Dharma heir of Linji Yixuan and a senior member of the founding Linji circle alongside Sansheng Huiran and Xinghua Cunjiang[1]. The lamp records preserve a small but characteristic body of his exchanges, including the celebrated dialogue with Sansheng in which the two visit a barbershop and exchange a paradoxical command that reads as a Linji-style host-and-guest demonstration[2].
 
-As one of Linji's direct heirs, Baoshou played an important role in transmitting the authentic spirit of the Linji teaching. The tradition preserved his encounters as examples of the school's characteristic approach—meeting every student as if the encounter were a matter of life and death, leaving no space for the mind to rest on any concept, and demanding that the student present their own living realization rather than borrowed understanding.`,
+He is one of the founding-generation Linji teachers from whom the school traces its institutional self-image as a community of contemporaries sharpening each other, rather than a strictly teacher-to-student vertical lineage; through his successors the Baoshou sub-line continued into the next century alongside Xinghua's main transmission[3].`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_welter_linji",
+        pageOrSection: "ch. on Linji's heirs and the founding Linji circle",
+      },
+      {
+        index: 2,
+        sourceId: "src_ferguson_zen_chinese_heritage",
+        pageOrSection: "Baoshou Yanzhao — biographical entry and Sansheng exchanges",
+      },
+      {
+        index: 3,
+        sourceId: "src_dumoulin_india_china",
+        pageOrSection: "Vol. 1, ch. on the Linji-house's founding generation",
+      },
+    ],
   },
   {
     slug: "xinghua-cunjiang",
@@ -3185,9 +3274,26 @@ Caoshan's chief contribution was the systematisation of Dongshan's "Five Ranks" 
   },
   {
     slug: "yunju-daoying",
-    content: `Yunju Daoying was a direct student of Dongshan Liangjie who established a major community on Mount Yunju. He was known for the depth and simplicity of his practice, embodying the Caodong ideal of silent, unadorned sitting as the expression of awakened mind. His community became one of the most respected training centers in the Chan world of the late Tang period.
+    content: `Yunju Daoying (雲居道膺, d. 902) was the principal Dharma heir of Dongshan Liangjie alongside Caoshan Benji, and the figure through whom the main line of the Caodong house actually descended — the line that, after Caoshan's branch petered out within two generations, carried the school forward through the Northern and Southern Song[1]. He established a large community on Mount Yunju in modern Jiangxi, which became the most institutionally well-established Caodong centre of the late ninth and tenth centuries[2].
 
-Yunju's teaching emphasized the practice of "just sitting"—being present without seeking anything or trying to achieve any particular state. This approach, which would later be refined by Hongzhi Zhengjue into the method of "silent illumination" and by Dogen into "shikantaza," finds one of its earliest expressions in Yunju's quiet, undemonstrative style. His lineage through subsequent generations carried this contemplative spirit forward.`,
+Yunju's teaching emphasised the quiet, unadorned *zazen*-centered style that the Caodong house would systematise as *mòzhào chán* under Hongzhi Zhengjue and as *shikantaza* under Dōgen. His line passed through Tongan Daopi, Tongan Guanzhi, Liangshan Yuanguan, Dayang Jingxuan, and the late-eleventh-century Caodong revival around Touzi Yiqing, Furong Daokai, and Hongzhi — making Yunju the proximate ancestor of every later Caodong / Sōtō teacher[3].`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_dumoulin_india_china",
+        pageOrSection: "Vol. 1, ch. on Dongshan's heirs and the Yunju line",
+      },
+      {
+        index: 2,
+        sourceId: "src_ferguson_zen_chinese_heritage",
+        pageOrSection: "Yunju Daoying — biographical entry and Mount Yunju community",
+      },
+      {
+        index: 3,
+        sourceId: "src_leighton_cultivating_empty_field",
+        pageOrSection: "Introduction — the Yunju line and the Caodong revival",
+      },
+    ],
   },
   {
     slug: "guishan-lingyou",
@@ -4635,75 +4741,87 @@ Gensho's role in the Rinzai lineage reflects the tradition's emphasis on the qua
   },
   {
     slug: "ian-chisatsu",
-    content: `Ian Chisatsu was a Rinzai Zen master who served in the school's transmission lineage. He maintained the tradition's practices of koan study and zazen, contributing to the ongoing vitality of the Rinzai school during his period of activity.
-
-Chisatsu's place in the Rinzai lineage represents the tradition's steady maintenance of its practice standards. The school's emphasis on rigorous koan training and the cultivation of genuine insight depends on teachers who preserve these methods and pass them forward with integrity.`,
+    content: `Ian Chisatsu (1514–1587) is recorded in the Myōshin-ji documentation as a sixteenth-century Rinzai abbot in the Myōshin-ji line of the Ōtōkan stream. The surviving record preserves his lineage placement; little distinctive doctrinal material from his teaching survives in the modern Rinzai-shū historiography[1].`,
+    footnotes: [
+      { index: 1, sourceId: "src_dumoulin_japan", pageOrSection: "ch. on the Myōshin-ji line in the late Muromachi / Sengoku period" },
+    ],
   },
   {
     slug: "juo-sohitsu",
-    content: `Juo Sohitsu was a Rinzai Zen master who contributed to the tradition's continuity in Japan. He maintained the school's emphasis on koan practice and trained students in the methods established by Hakuin and refined through subsequent generations of Rinzai teachers.
-
-Sohitsu's teaching continued the Rinzai tradition's insistence on direct personal experience as the foundation of genuine understanding. The school refuses to accept intellectual comprehension or behavioral conformity as substitutes for the breakthrough experience of kensho, and teachers like Sohitsu maintained this standard with care.`,
+    content: `Juō Sohitsu (1296–1380) is recorded in the Daitoku-ji documentation as a fourteenth-century Dharma heir within the Ōtōkan / Daitō-line transmission, one of the secondary teachers around the early Daitoku-ji community. The surviving record preserves his lineage placement; little distinctive doctrinal material from his teaching is preserved in the modern Rinzai-shū historiography[1].`,
+    footnotes: [
+      { index: 1, sourceId: "src_dumoulin_japan", pageOrSection: "ch. on the Daitō line in the fourteenth century" },
+    ],
   },
   {
     slug: "karyo-zuika",
-    content: `Karyo Zuika was a Rinzai Zen master who served in the school's transmission lineage. He contributed to the maintenance of the Rinzai tradition's practices and the training of monks in the koan curriculum developed by Hakuin and his successors.
-
-Zuika's role in the Rinzai lineage reflects the tradition's organic development across the centuries. While maintaining the essential framework of Hakuin's koan practice, each generation of Rinzai teachers has brought their own insight and experience to the tradition, keeping it vital and responsive to changing circumstances.`,
+    content: `Karyō Zuika is recorded in the Myōshin-ji line documentation as a Rinzai abbot in the Ōtōkan stream, one of the many transmitting teachers between Kanzan and Hakuin. The surviving record preserves his lineage placement; little distinctive doctrinal material from his teaching survives in the modern Rinzai-shū historiography[1].`,
+    footnotes: [
+      { index: 1, sourceId: "src_dumoulin_japan", pageOrSection: "ch. on the Myōshin-ji line between Kanzan and Hakuin" },
+    ],
   },
   {
     slug: "koho-genkun",
-    content: `Koho Genkun was a Rinzai Zen master who contributed to the tradition's institutional and spiritual life in Japan. He maintained the school's rigorous approach to koan practice and the cultivation of genuine insight through the progressive deepening of understanding that characterizes the Rinzai training path.
-
-Genkun's teaching reflected the mature form of the Rinzai school, which integrates the intensity of koan practice with the broader framework of monastic life. The tradition values both the breakthrough moments of kensho and the ongoing work of deepening and integrating realization into every aspect of daily life.`,
+    content: `Kōhō Genkun is recorded in the Rinzai-shū documentation as an abbot in the Ōtōkan line of Japanese Rinzai. The surviving record preserves his lineage placement; little distinctive doctrinal material from his teaching is preserved in the modern Rinzai-shū historiography[1].`,
+    footnotes: [
+      { index: 1, sourceId: "src_dumoulin_japan", pageOrSection: "ch. on the Myōshin-ji and Daitoku-ji lines in the early-modern period" },
+    ],
   },
   {
     slug: "muin-soin",
-    content: `Muin Soin was a Rinzai Zen master who served in the school's transmission lineage. He maintained the tradition's emphasis on koan practice and contributed to the Rinzai school's continuity during his period of activity.
-
-Soin's place in the Rinzai lineage represents the tradition's emphasis on the personal transmission of insight from teacher to student. The Rinzai school holds that genuine understanding can only be confirmed through the direct encounter between master and student, and that this encounter must be grounded in the shared practice of zazen and koan contemplation.`,
+    content: `Muin Soin (1326–1410) is recorded in the Daitoku-ji documentation as a fourteenth-century Rinzai abbot in the Daitō line. The surviving record preserves his lineage placement; little distinctive doctrinal material from his teaching is preserved in the modern Rinzai-shū historiography[1].`,
+    footnotes: [
+      { index: 1, sourceId: "src_dumoulin_japan", pageOrSection: "ch. on the Daitō line in the late fourteenth and early fifteenth centuries" },
+    ],
   },
   {
     slug: "nanyin-shourou",
-    content: `Nanyin Shourou was a Rinzai Zen master who maintained the tradition's practices in Japan. He contributed to the training of monks and the preservation of the Rinzai school's meditation and koan practices.
-
-Shourou's role in the Rinzai succession reflects the tradition's steady maintenance of practice standards. The school's ability to produce genuine practitioners and teachers across many generations depends on the faithful preservation of its methods by teachers like Shourou.`,
+    content: `Nanyin Shourou (d. 952) is named in the late-Tang / Five-Dynasties transmission records as one of the minor figures of the Linji-stream genealogies. The surviving record preserves his lineage placement; little distinctive doctrinal material from his teaching survives in the lamp-record corpus[1].`,
+    footnotes: [
+      { index: 1, sourceId: "src_ferguson_zen_chinese_heritage", pageOrSection: "Nanyin Shourou — entry in the Linji-stream genealogies" },
+    ],
   },
   {
     slug: "nippo-soshun",
-    content: `Nippo Soshun was a Rinzai Zen master who contributed to the tradition's development in Japan. He served in the lineage of teachers who maintained the Rinzai school's emphasis on koan practice as the primary vehicle for realizing one's true nature.
-
-Soshun's teaching continued the Rinzai tradition's central conviction that awakening is possible for every practitioner who engages in koan practice with sufficient intensity, sincerity, and perseverance. This democratic vision—that enlightenment is not reserved for spiritual virtuosos but is the birthright of all beings—remains at the heart of the Rinzai school.`,
+    content: `Nippō Soshun (1367–1448) is recorded in the Myōshin-ji line documentation as a fifteenth-century Rinzai abbot in the Ōtōkan stream. The surviving record preserves his lineage placement; little distinctive doctrinal material from his teaching is preserved in the modern Rinzai-shū historiography[1].`,
+    footnotes: [
+      { index: 1, sourceId: "src_dumoulin_japan", pageOrSection: "ch. on the Myōshin-ji line in the fifteenth century" },
+    ],
   },
   {
     slug: "sekko-soshin",
-    content: `Sekko Soshin was a Rinzai Zen master who served in the school's transmission lineage. He maintained the tradition's practices of koan study and intensive zazen, contributing to the Rinzai school's ongoing vitality.
-
-Soshin's contribution to the Rinzai tradition lies in the faithful preservation of the practice across generations. The school's emphasis on the direct experience of awakening—not merely its theoretical understanding—requires teachers who can embody and transmit this experience with authenticity and precision.`,
+    content: `Sekkō Sōshin (1408–1486) is recorded in the Myōshin-ji line documentation as a fifteenth-century Rinzai abbot in the Ōtōkan stream, in the generations between Kanzan Egen's founding circle and the Sengoku-period Myōshin-ji revival. The surviving record preserves his lineage placement; little distinctive doctrinal material from his teaching is preserved in the modern Rinzai-shū historiography[1].`,
+    footnotes: [
+      { index: 1, sourceId: "src_dumoulin_japan", pageOrSection: "ch. on the Myōshin-ji line through the fifteenth century" },
+    ],
   },
   {
     slug: "taiga-tankyo",
-    content: `Taiga Tankyo was a Rinzai Zen master who contributed to the tradition's continuity in Japan. He maintained the school's emphasis on koan practice and the cultivation of genuine insight through the rigorous training methods of the Rinzai school.
-
-Tankyo's place in the Rinzai lineage represents the tradition's ongoing commitment to the authenticity of practice. The school's high standards for dharma transmission ensure that each generation of teachers possesses genuine realization, maintaining the quality of the lineage across the centuries.`,
+    content: `Taiga Tankyō is recorded in the post-Hakuin Rinzai documentation as an abbot in the Inzan or Takujū sub-line of modern Rinzai Zen. The surviving record preserves his lineage placement; little distinctive doctrinal material from his teaching is preserved in the modern Rinzai-shū historiography[1].`,
+    footnotes: [
+      { index: 1, sourceId: "src_dumoulin_japan", pageOrSection: "ch. on the post-Hakuin Inzan and Takujū curricula" },
+    ],
   },
   {
     slug: "tankai-gensho",
-    content: `Tankai Gensho was a Rinzai Zen master who served in the school's transmission lineage. He contributed to the maintenance of the Rinzai tradition's practices and the training of monks in the methods established by Hakuin and his successors.
-
-Gensho's role in the Rinzai lineage reflects the tradition's emphasis on the personal encounter between teacher and student as the irreplaceable vehicle for transmitting genuine understanding. The Rinzai school holds that no text, technique, or institution can substitute for this living encounter.`,
+    content: `Tankai Genshō is recorded in the post-Hakuin Rinzai documentation as an abbot in the Inzan or Takujū sub-line of modern Rinzai Zen. The surviving record preserves his lineage placement; little distinctive doctrinal material from his teaching is preserved in the modern Rinzai-shū historiography[1].`,
+    footnotes: [
+      { index: 1, sourceId: "src_dumoulin_japan", pageOrSection: "ch. on the post-Hakuin Inzan and Takujū curricula" },
+    ],
   },
   {
     slug: "tozen-soshin",
-    content: `Tozen Soshin was a Rinzai Zen master who maintained the tradition's transmission in Japan. He contributed to the school's institutional and spiritual life, training students in the koan curriculum and the practice of intensive zazen.
-
-Soshin's teaching reflected the Rinzai tradition's integration of koan practice with all aspects of monastic life. The school teaches that awakening is not limited to formal meditation but must pervade every activity—walking, working, eating, sleeping—until the entire life becomes an expression of realized mind.`,
+    content: `Tōzen Sōshin (1532–1602) is recorded in the Myōshin-ji line documentation as a sixteenth-century Rinzai abbot in the Ōtōkan stream, in the Sengoku-period generations preceding Gudō Tōshoku's seventeenth-century revival of Myōshin-ji. The surviving record preserves his lineage placement; little distinctive doctrinal material from his teaching is preserved in the modern Rinzai-shū historiography[1].`,
+    footnotes: [
+      { index: 1, sourceId: "src_dumoulin_japan", pageOrSection: "ch. on the Myōshin-ji line in the late Sengoku period" },
+    ],
   },
   {
     slug: "yozan-keiyo",
-    content: `Yozan Keiyo was a Rinzai Zen master who contributed to the tradition's continuity in Japan. He maintained the school's emphasis on koan practice and the rigorous training that the Rinzai tradition demands of its practitioners.
-
-Keiyo's place in the Rinzai succession reflects the tradition's remarkable durability. From its Chinese origins through its Japanese development, the Rinzai school has maintained an unbroken chain of teachers committed to the direct transmission of awakened understanding through the medium of koan practice and personal encounter.`,
+    content: `Yōzan Keiyō (1559–1629) is recorded in the Myōshin-ji line documentation as a Rinzai abbot in the Ōtōkan stream at the close of the Sengoku period. The surviving record preserves his lineage placement; little distinctive doctrinal material from his teaching is preserved in the modern Rinzai-shū historiography[1].`,
+    footnotes: [
+      { index: 1, sourceId: "src_dumoulin_japan", pageOrSection: "ch. on the Myōshin-ji line at the close of the Sengoku period" },
+    ],
   },
 
   // =========================================================================
@@ -5736,39 +5854,68 @@ In 1979, Omori founded Daihonzan Chozen-ji in Honolulu, Hawaii — the first Rin
   // =========================================================================
   {
     slug: "zhongfeng-mingben",
-    content: `Zhongfeng Mingben (1263–1323) was the most prominent Chan master of the Yuan dynasty and a towering figure in the Linji school. Born in Qiantang, Zhejiang Province, he showed extraordinary spiritual inclination from childhood. His mother's death when he was nine deepened his renunciation. Around age twenty, he encountered the severe master Gaofeng Yuanmiao on Mount Tianmu's fearsome "Death Pass" and studied as a lay brother for three years before receiving tonsure in 1287. Two years after ordination, Mingben attained enlightenment. Gaofeng celebrated with a portrait and eulogy, declaring: "I allow this no-good son alone to have a peep at half of my nose."
+    content: `Zhongfeng Mingben (中峰明本, 1263–1323) was the most prominent Chan master of the Yuan dynasty and the principal Dharma heir of Gaofeng Yuanmiao in the Yangqi-line Linji school[1]. Born in Qiantang in modern Zhejiang, he encountered Gaofeng on Mount Tianmu's "Death Pass" and trained as a lay brother for three years before receiving tonsure in 1287; his decisive awakening followed two years later, and Gaofeng confirmed it with the portrait-inscription "I allow this no-good son alone to have a peep at half of my nose"[1].
 
-After Gaofeng's death around 1295, Mingben declined leadership of the monastery and spent over two decades as an itinerant hermit-monk, establishing hermitages frequently named "Huanzhu'an" (Dwelling-in-the-Phantasmal), embodying his philosophy that all phenomena are illusory. Though repeatedly offered prestigious positions and imperial audiences, he consistently refused, living on houseboats and traveling incognito. He was called "The Old Buddha South of the Sea." In his teaching, Mingben emphasized huatou practice, calling koans "senseless and tasteless phrases" designed to create the "great doubt" essential for breakthrough. He also practiced nianfo alongside Chan, reflecting Yuan-dynasty syncretism. He drew students from across East Asia — seven Japanese monks became his dharma successors, profoundly influencing Japanese Zen. His major disciple Tianru Weize significantly shaped subsequent Ming-dynasty Chan. He died in 1323 at age sixty.`,
+After Gaofeng's death around 1295, Mingben declined leadership of the Mount Tianmu community and spent the rest of his life as an itinerant hermit-monk, establishing successive hermitages named *Huànzhù-ān* (幻住菴, "Dwelling-in-the-Phantasmal")[2]. He systematised the *huatou* triad of *great faith, great determination, great doubt* inherited from Gaofeng, and his recorded sayings (the *Zhōngfēng Hé-shàng Guǎnglù*) became the canonical Yuan-period statement of *kanhua chan*; his seven Japanese Dharma heirs — most notably Kōhō Kakumyō — carried the late-Song-Yuan curriculum into Kamakura and Muromachi-period Japanese Rinzai[3].`,
+    footnotes: [
+      { index: 1, sourceId: "src_ferguson_zen_chinese_heritage", pageOrSection: "Zhongfeng Mingben — biographical entry; Gaofeng transmission" },
+      { index: 2, sourceId: "src_dumoulin_india_china", pageOrSection: "Vol. 1, ch. on Zhongfeng Mingben and Yuan-period Linji" },
+      { index: 3, sourceId: "src_dumoulin_japan", pageOrSection: "ch. on Zhongfeng's Japanese heirs" },
+    ],
   },
   {
     slug: "huanyou-zhengchuan",
-    content: `Huanyou Zhengchuan (1549–1614) was a late Ming dynasty Linji Chan master who played a crucial role in the revival of orthodox Linji Chan Buddhism. He served as abbot of Longchiyuan monastery in Changzhou, Jiangsu Province, and was the direct teacher of Miyun Yuanwu, through whom the Linji school would undergo its most dramatic resurgence.
+    content: `Huanyou Zhengchuan (幻有正傳, 1549–1614) was a late-Ming Linji master who held the abbacy of Longchi-yuan monastery in Changzhou (Jiangsu) and is the bridge figure between the declining mid-Ming Linji line and the dramatic seventeenth-century revival under his Dharma heir Miyun Yuanwu[1].
 
-Huanyou's significance lies in his role as the bridge between the declining Linji tradition of the mid-Ming period and its explosive revival under his student Miyun. During the late sixteenth century, Chinese Buddhism was dominated by syncretic approaches mixing Chan with Pure Land, scholastic study, and Confucian dialogue. Huanyou represented a more conservative strand, insisting on the purity of lineage and the centrality of direct experiential awakening. In 1595, the young Miyun became his disciple, receiving formal ordination in 1598 and dharma transmission in 1611. Upon Huanyou's death in 1614, Miyun assumed the abbacy of Longchiyuan, beginning the extraordinary expansion that would dominate seventeenth-century Chinese Buddhism and spread to Vietnam and Japan.`,
+The young Miyun became his disciple in 1595, received full ordination in 1598, and received Dharma transmission in 1611; on Huanyou's death three years later Miyun assumed the Longchi-yuan abbacy and began the network expansion that would dominate Chinese Buddhism through the Ming-Qing transition and reach Japan (via Yinyuan Longqi / Ingen) and Vietnam (via Muchen Daomin → Nguyên Thiều)[2].`,
+    footnotes: [
+      { index: 1, sourceId: "src_dumoulin_india_china", pageOrSection: "Vol. 1, ch. on the late-Ming Linji revival" },
+      { index: 2, sourceId: "src_ferguson_zen_chinese_heritage", pageOrSection: "Huanyou Zhengchuan — biographical entry; succession to Miyun" },
+    ],
   },
   {
     slug: "miyun-yuanwu",
-    content: `Miyun Yuanwu (1566–1642) was arguably the most influential figure in institutional Chinese Buddhism of the seventeenth century, the fountainhead from whom virtually all subsequent Linji Chan transmission flowed. Born in Changzhou prefecture, Jiangsu Province, from humble peasant stock, he decided to become a monk after reading the Platform Sutra of the Sixth Patriarch. In 1595, at about twenty-eight, he left his wife and children to become a disciple of Huanyou Zhengchuan, receiving full ordination in 1598.
+    content: `Miyun Yuanwu (密雲圓悟, 1566–1642) was arguably the most institutionally influential figure of late-Ming and early-Qing Chinese Buddhism — the fountainhead from whom essentially all subsequent Linji Chan transmission to East Asia descends[1]. Born in Changzhou prefecture in modern Jiangsu to a peasant family, he turned to monastic life after reading the *Platform Sūtra*, joined Huanyou Zhengchuan's community in 1595, received full ordination in 1598, and was given Dharma transmission in 1611[1].
 
-Miyun became famous for his distinctive revival of the "beating and shouting" methods of the original Linji Yixuan — a sharp contrast to the gentle, syncretic Buddhism of the late Ming. His Tiantong lineage insisted on strict orthodoxy, doctrinal purity, and rigorous monastic practice. He received dharma transmission in 1611 and held abbacies at numerous prestigious monasteries, including the great Tiantong monastery. His most notable students included Feiyin Tongrong, Muchen Daomin, and through Feiyin, Yinyuan Longqi, who emigrated to Japan and founded the Ōbaku school. Through Muchen's line, the dharma was transmitted to Vietnam via Nguyên Thiều. He died in 1642 at age seventy-six, just as the Ming dynasty was collapsing. His legacy ensured that the Linji school dominated Chinese Buddhism for centuries.`,
+Miyun was famous for his deliberate revival of the "beating and shouting" pedagogy of the original Linji Yixuan against the gentler syncretic Buddhism of the late Ming. He held abbacies at Tiantong-si and a series of other major monasteries and authorised an unusually broad cohort of Dharma heirs[2]. Among his successors: Feiyin Tongrong, and through Feiyin, Yinyuan Longqi (Ingen) who founded the Ōbaku-shū in Japan; Muchen Daomin, through whose line the Lâm Tế tradition reached Vietnam via Bổn Quả Khoáng Viên and Nguyên Thiều; and many other Tiantong-line teachers who carried his orthodoxy through the Ming-Qing transition[3].`,
+    footnotes: [
+      { index: 1, sourceId: "src_ferguson_zen_chinese_heritage", pageOrSection: "Miyun Yuanwu — biographical entry" },
+      { index: 2, sourceId: "src_dumoulin_india_china", pageOrSection: "Vol. 1, ch. on the late-Ming Tiantong revival" },
+      { index: 3, sourceId: "src_dumoulin_japan", pageOrSection: "ch. on the Tiantong line, Ōbaku-shū, and Vietnamese Lâm Tế" },
+    ],
   },
   {
     slug: "muchen-daomin",
-    content: `Muchen Daomin (1596–1674) was a prominent Chinese Chan master of the Yangqi branch of the Linji school and a direct dharma heir of Miyun Yuanwu. He was the first to serve as abbot of Tiantong monastery after Miyun's death, holding the position from 1642 to 1645 during the turbulent Ming-Qing transition.
+    content: `Muchen Daomin (木陳道忞, 1596–1674) was one of Miyun Yuanwu's principal Dharma heirs in the late-Ming / early-Qing Linji line; he held the abbacy of the great Tiantong monastery from 1642 to 1645, in the years immediately following Miyun's death and the Ming-Qing transition[1].
 
-Muchen is notable for two aspects of his career. First, he compiled the first edition of Miyun's Collected Sayings, a task that placed him in direct conflict with Feiyin Tongrong, another of Miyun's heirs, who organized a rival compilation — reflecting deeper tensions about doctrinal authority. Second, Muchen became the spiritual teacher of the Shunzhi Emperor, the first Qing emperor to rule over all of China. Under Muchen's influence, the grief-stricken emperor reportedly attempted to abdicate and become a monk. Crucially for Vietnamese Buddhism, Muchen's dharma lineage extended to Vietnam through his student Bổn Quả Khoáng Viên, who was the direct teacher of Nguyên Thiều, the monk who brought the Linji school to Vietnam and established the Lâm Tế tradition. Muchen died in 1674 at age seventy-eight.`,
+Muchen compiled the first edition of Miyun's *Collected Sayings*, a task that brought him into open conflict with Feiyin Tongrong — Miyun's other principal heir — who organised a rival compilation; the dispute is one of the standard episodes of mid-seventeenth-century Chinese Chan historiography and a useful index of the politicised character of late-Ming Linji orthodoxy[2]. He also served as spiritual adviser to the Shunzhi Emperor (the first Qing emperor to rule all of China), under whose grief-stricken influence the emperor reportedly attempted to abdicate to monastic life. Through Muchen's student Bổn Quả Khoáng Viên, his Dharma reached the Vietnamese monk Nguyên Thiều, who carried the Lâm Tế (Linji) tradition into Vietnam[3].`,
+    footnotes: [
+      { index: 1, sourceId: "src_dumoulin_india_china", pageOrSection: "Vol. 1, ch. on the Tiantong abbacy after Miyun" },
+      { index: 2, sourceId: "src_ferguson_zen_chinese_heritage", pageOrSection: "Muchen Daomin — biographical entry; Feiyin dispute" },
+      { index: 3, sourceId: "src_nguyen_medieval", pageOrSection: "Buddhism in Vietnam — Muchen → Bổn Quả → Nguyên Thiều transmission" },
+    ],
   },
   {
     slug: "nguyen-thieu",
-    content: `Nguyên Thiều (1648–1728) was a Chinese Buddhist monk who became the pivotal figure in establishing the Linji (Lâm Tế) school of Chan Buddhism in Vietnam. Born on July 8, 1648, in Triệu Châu Prefecture, Guangdong Province, China, he was ordained at age nineteen under Venerable Bổn Quả Khoáng Viên at Báo Tư Temple, receiving designation as the thirty-third generation of the Linji lineage.
+    content: `Nguyên Thiều (元韶, 1648–1728) was the Cantonese Linji-Yangqi-line monk who carried the Lâm Tế (Linji) tradition into Vietnam during the late seventeenth century and fundamentally reshaped Vietnamese Buddhism for the next three hundred years[1]. Born in Triệu Châu prefecture in Guangdong, he was ordained at nineteen under Bổn Quả Khoáng Viên (a Dharma heir of Muchen Daomin and so an indirect heir of Miyun Yuanwu), and so stands as the thirty-third generation of the Linji lineage[1].
 
-In 1677, during the reign of the Nguyễn lord Nguyễn Phúc Tần, Nguyên Thiều traveled to Đại Việt by merchant ship, arriving during intense political upheaval in China as the Qing dynasty crushed the last Ming loyalist resistance. He initially settled in Quy Nhơn, establishing the Thập Tháp Di Đà Temple in 1683. He then moved to Thuận Hóa (the Huế region), founding Phổ Thành Temple and Quốc Ân Temple with the patronage of the Nguyễn lords. Between 1687 and 1690, he was sent back to China to invite additional monks, scriptures, and ritual implements, returning with several eminent Chinese monks including Minh Hoằng Tử Dung. He passed away on November 20, 1728, at age eighty-one. His mission fundamentally reshaped Vietnamese Buddhism, establishing the Lâm Tế tradition that would produce the Liễu Quán dharma line and, through it, Thích Nhất Hạnh and the Plum Village tradition.`,
+He travelled to Đàng Trong (the Nguyễn-lord south of Đại Việt) in 1677, arriving during the political upheaval of the Qing conquest of the last Ming loyalists, and was received under the patronage of Lord Nguyễn Phúc Tần. He founded Thập Tháp Di Đà Temple in Quy Nhơn (1683) and later Phổ Thành and Quốc Ân in Thuận Hóa (the Huế region), and around 1687–1690 was sent back to China to invite further monks, scriptures, and ritual implements — returning with several eminent Chinese masters including Minh Hoằng Tử Dung[2]. Through Minh Hoằng Tử Dung's student Liễu Quán, his line produced the Vietnamized Liễu Quán branch that became the dominant Buddhist lineage of central and southern Vietnam and the ancestor of Thích Nhất Hạnh's Plum Village tradition[3].`,
+    footnotes: [
+      { index: 1, sourceId: "src_nguyen_medieval", pageOrSection: "Buddhism in Vietnam — Nguyên Thiều biography and lineage" },
+      { index: 2, sourceId: "src_le_manh_that", pageOrSection: "Buddhism in Vietnam — Nguyên Thiều's seventeenth-century mission to Vietnam" },
+      { index: 3, sourceId: "src_nguyen_medieval", pageOrSection: "Buddhism in Vietnam — Nguyên Thiều → Minh Hoằng Tử Dung → Liễu Quán" },
+    ],
   },
   {
     slug: "minh-hoang-tu-dung",
-    content: `Minh Hoằng Tử Dung was a Chinese monk of the thirty-fourth generation of the Linji school who traveled to Vietnam in the late seventeenth century and became one of the most important figures in establishing the Lâm Tế tradition in central Vietnam. He was among the eminent monastics invited by Nguyên Thiều from China, arriving in Thuận Hóa (Huế) during the period of Buddhist revival under the patronage of the Nguyễn lords.
+    content: `Minh Hoằng Tử Dung (明宏子融) was a late-seventeenth-century Chinese Linji-Yangqi-line monk of the thirty-fourth generation who travelled to Đàng Trong as one of the eminent monastics invited from China by Nguyên Thiều, settling at An Tôn (later Bảo Quốc) Temple on Hoàng Long Mountain near Huế[1].
 
-Tử Dung settled at An Tôn Temple (also known as Bảo Quốc Temple) on Hoàng Long Mountain near Huế, where he taught and transmitted the dharma. His most significant student was Liễu Quán (1670–1742), who would found the uniquely Vietnamese Liễu Quán dharma line. When Liễu Quán came to him in 1702, Tử Dung presented the koan: "All dharmas return to the one. Where does the one return to?" After six years of intensive practice, Liễu Quán experienced breakthrough understanding, and in 1712 Tử Dung formally confirmed his enlightenment, making him the thirty-fifth generation heir of the Lâm Tế lineage. Through Liễu Quán, Tử Dung's dharma lineage became the dominant form of Vietnamese Zen Buddhism.`,
+His chief Dharma heir was the young Vietnamese monk Liễu Quán, who came to him in 1702; Tử Dung gave him the *huatou* "All dharmas return to the one — where does the one return to?", and after six years of intensive investigation Liễu Quán's breakthrough was confirmed and his formal Dharma transmission was given (1708 in some sources, 1712 in others), making him the thirty-fifth-generation Lâm Tế heir[2]. Through Liễu Quán, Tử Dung's Dharma line became the dominant form of Vietnamese Zen Buddhism in central and southern Vietnam and the ultimate ancestor of Thích Nhất Hạnh's Plum Village tradition[3].`,
+    footnotes: [
+      { index: 1, sourceId: "src_nguyen_medieval", pageOrSection: "Buddhism in Vietnam — Nguyên Thiều's invitation of Chinese monastics to Đàng Trong" },
+      { index: 2, sourceId: "src_le_manh_that", pageOrSection: "Buddhism in Vietnam — Tử Dung and Liễu Quán's koan training and transmission" },
+      { index: 3, sourceId: "src_nguyen_medieval", pageOrSection: "Buddhism in Vietnam — the Liễu Quán line in central and southern Vietnam" },
+    ],
   },
   {
     slug: "lieu-quan",
