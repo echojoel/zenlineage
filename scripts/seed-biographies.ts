@@ -3037,15 +3037,44 @@ Although the *Sandai sōron* split the original Eihei-ji line, Gikai's branch �
   },
   {
     slug: "meiho-sotetsu",
-    content: `Meiho Sotetsu was the fourth-generation Soto patriarch who played an important role in consolidating the school's institutional structure. He served as abbot of Daijoji Temple and trained students who would carry the Soto tradition forward during a period of growth and geographical expansion across Japan.
+    content: `Meihō Sotetsu (明峰素哲, 1277–1350) was Keizan Jōkin's elder principal Dharma heir, founder of the Yōkō-ji branch of the early Sōtō school and abbot of Daijō-ji in Kaga, the temple Tettsū Gikai had established after the Sandai sōron[1]. Tradition places him alongside Gasan Jōseki as the two heirs through whom the early-Sōji-ji and early-Daijō-ji communities were transmitted: in the standard medieval Sōtō genealogy he is the senior heir, and Daijō-ji and Yōkō-ji preserved the original ascetic-monastic emphasis of the Eihei-ji-Daijō-ji line[2].
 
-Sotetsu's teaching maintained the Soto emphasis on zazen practice while adapting to the institutional needs of a growing school. He helped establish the systems of temple administration and dharma transmission that would sustain the Soto school as it expanded from its base in the north to become a national presence. His lineage through subsequent generations contributed to the school's eventual status as the largest Buddhist denomination in Japan.`,
+Although Gasan's lineage came eventually to dominate the medieval and modern Sōtō school, Meihō's branch — passed through his own heirs Mugai Chikō and others — remained an important countervailing influence, and Yōkō-ji continued to serve as Keizan's mortuary temple and one of the school's two head institutions for several centuries[3].`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_bodiford_soto_medieval",
+        pageOrSection: "ch. on Keizan's heirs and the early Sōtō branches",
+      },
+      {
+        index: 2,
+        sourceId: "src_dumoulin_japan",
+        pageOrSection: "ch. on Keizan and the spread of medieval Sōtō",
+      },
+      {
+        index: 3,
+        sourceId: "src_wikipedia",
+        pageOrSection: "Meihō Sotetsu — Yōkō-ji, Daijō-ji, Sōtō branches",
+      },
+    ],
   },
   {
     slug: "gasan-joseki",
-    content: `Gasan Joseki was a student of Keizan Jokin and one of the most important figures in the expansion of the Soto school throughout Japan. He trained a large number of students who established Soto temples across the country, creating the institutional network that would make Soto the most widely practiced form of Zen in Japan. His organizational skill complemented Keizan's spiritual vision.
+    content: `Gasan Jōseki (峨山韶碩, 1275–1366) was, with Meihō Sotetsu, one of Keizan Jōkin's two principal Dharma heirs and the figure through whom most of the institutional growth of the medieval Sōtō school descends. He succeeded Keizan as second abbot of Sōji-ji in 1325 and is traditionally credited with the "Five Sects of Gasan" (峨山五哲) — his own five great Dharma heirs — through whose temples the network of provincial Sōtō monasteries was founded across Japan[1].
 
-Gasan's contribution was primarily institutional—he created the systems and trained the teachers that turned the Soto school from a small, regional movement into a national denomination. This work of institutional building, though less celebrated than the spiritual achievements of the great founders, was equally essential to the tradition's survival and flourishing. Without Gasan's organizational genius, Dogen's teaching might have remained the possession of a small elite rather than becoming accessible to millions.`,
+Gasan's institutional work — combining Dōgen's *zazen*-centred orthodoxy with Keizan's more ritually accommodating model and a flexible policy toward lay patrons and existing local cults — turned Sōtō from a small Eihei-ji-Daijō-ji community into a national denomination over the next two generations. Modern scholarship treats him, rather than Dōgen or Keizan, as the figure most responsible for Sōtō becoming the largest single Buddhist school in Japan by the early-modern period[2].`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_bodiford_soto_medieval",
+        pageOrSection: "ch. on Gasan's heirs and the Sōji-ji network",
+      },
+      {
+        index: 2,
+        sourceId: "src_dumoulin_japan",
+        pageOrSection: "ch. on the medieval Sōtō expansion",
+      },
+    ],
   },
   {
     slug: "tokuo-ryoko",
@@ -3877,15 +3906,59 @@ Yoko's role in the Soto succession reflects the tradition's emphasis on the fait
 
   {
     slug: "shuho-myocho",
-    content: `Shuho Myocho, known posthumously as Daito Kokushi (National Teacher), was one of the most important figures in the establishment of Japanese Rinzai Zen. He was a student of Nanpo Jomyo (Daio Kokushi) and the founder of Daitokuji, one of the great Zen temples of Kyoto. Together with his teacher Nanpo and his student Kanzan Egen, he forms the Daio-Daito-Kanzan lineage through which virtually all modern Rinzai Zen descends.
+    content: `Shūhō Myōchō (宗峰妙超, 1282–1337), known posthumously by his imperial titles Daitō Kokushi (大燈國師) and Kōzen Daitō Kokushi, was the Dharma heir of Nanpo Jōmyō (Daiō Kokushi) and the founder of Daitoku-ji in Kyoto[1]. Together with Nanpo above him and his student Kanzan Egen below him, he forms the Daiō-Daitō-Kanzan line through which the entire Ōtōkan ("Daiō-Daitō-Kanzan") current of modern Rinzai Zen — the curriculum used at Daitoku-ji and Myōshin-ji to this day — descends[2].
 
-Daito was known for his fierce and uncompromising practice. According to tradition, he lived among beggars under the Gojo Bridge in Kyoto for twenty years after his awakening, hiding his realization and continuing to deepen his practice in obscurity. He was eventually discovered by the emperor and brought to lead Daitokuji. His death verse—"I have cut off buddhas and patriarchs; the blown hair sword is always burnished"—expresses the radical freedom that he embodied and transmitted to his students.`,
+The traditional account preserved in the *Daitō Kokushi Goroku* and the Tokugen-ji documentation reports that, after receiving Nanpo's seal in 1308, he spent some twenty years in austere hidden practice — including a celebrated period living incognito among beggars at the Gojō Bridge in Kyoto — before being discovered and installed by Emperor Go-Daigo as founding abbot of Daitoku-ji in 1326[3]. His death verse — *Sui sui buppo, choshu sansho* ("I cut through the Buddha and patriarchs; the blown-hair sword is forever bright") — became one of the most-quoted Rinzai compositions and a touchstone for the Ōtōkan emphasis on direct, unmediated transmission[4].`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_dumoulin_japan",
+        pageOrSection: "ch. on the Daiō-Daitō-Kanzan line and the founding of Daitoku-ji",
+      },
+      {
+        index: 2,
+        sourceId: "src_wikipedia",
+        pageOrSection: "Shūhō Myōchō — Daitō Kokushi; Ōtōkan lineage",
+      },
+      {
+        index: 3,
+        sourceId: "src_dumoulin_japan",
+        pageOrSection: "ch. on Daitō's hidden practice and the Daitoku-ji founding",
+      },
+      {
+        index: 4,
+        sourceId: "src_wikipedia",
+        pageOrSection: "Daitō Kokushi — death verse and influence",
+      },
+    ],
   },
   {
     slug: "kanzan-egen",
-    content: `Kanzan Egen was a student of Shuho Myocho (Daito Kokushi) and the founder of Myoshinji, which became the largest and most influential Rinzai Zen temple complex in Japan. He completed the Daio-Daito-Kanzan lineage that forms the backbone of modern Rinzai Zen. Through Myoshinji and its many branch temples, Kanzan's lineage eventually became the numerically dominant branch of the Rinzai school.
+    content: `Kanzan Egen (關山慧玄, 1277–1360) was the Dharma heir of Shūhō Myōchō (Daitō Kokushi) and the founding abbot of Myōshin-ji in Kyoto, established in 1342 at the invitation of the retired Emperor Hanazono[1]. With his teacher Daitō and grand-teacher Daiō, he completes the Ōtōkan line (Daiō-Daitō-Kanzan, 應燈關) from which essentially all modern Rinzai Zen descends; Myōshin-ji and its branch network came in time to dwarf the older Gozan temples, and the Myōshin-ji line now accounts for the great majority of Rinzai temples in Japan[2].
 
-Like his teacher Daito, Kanzan was known for his austerity and his insistence on the primacy of practice over institutional prestige. He maintained a small, rigorous community and resisted the allure of political patronage that tempted many Zen temples of his era. This commitment to the purity of practice over worldly success became a defining value of the Myoshinji lineage and contributed to its remarkable vitality across the centuries.`,
+Unlike many of his contemporaries Kanzan refused court honours and consciously kept Myōshin-ji out of the Gozan official monastic system, an institutional independence that preserved the *Rinka* (forest, in-mountain) discipline of the line as the Gozan temples drifted toward literary and administrative prominence[3]. His austerity, his refusal of state appointments, and the small size of his original community fixed the Myōshin-ji line's later self-understanding as a "rigorous" branch of Rinzai, in contrast to the more cultured Daitoku-ji and Gozan houses[4].`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_dumoulin_japan",
+        pageOrSection: "ch. on the founding of Myōshin-ji and the Ōtōkan line",
+      },
+      {
+        index: 2,
+        sourceId: "src_wikipedia",
+        pageOrSection: "Kanzan Egen — Myōshin-ji and the Ōtōkan lineage",
+      },
+      {
+        index: 3,
+        sourceId: "src_dumoulin_japan",
+        pageOrSection: "ch. on Rinka vs Gozan distinctions in medieval Rinzai",
+      },
+      {
+        index: 4,
+        sourceId: "src_haskel_bankei",
+        pageOrSection: "Introduction — the Myōshin-ji \"forest\" tradition",
+      },
+    ],
   },
   {
     slug: "myoki-soseki",
@@ -4436,15 +4509,54 @@ Modern reconstructions, drawing on the Dunhuang manuscripts recovered in the ear
   },
   {
     slug: "shinchi-kakushin",
-    content: `Shinchi Kakushin (1207–1298), also known as National Teacher Hottō, was a Japanese Rinzai master who played a pivotal role in transmitting Chinese Chan teachings to Japan. He traveled to Song dynasty China, where he studied under Wumen Huikai, the compiler of the celebrated koan collection known as the Mumonkan (Wumenguan). Kakushin received dharma transmission from Wumen and returned to Japan carrying not only the Mumonkan text but also the practices of the Fuke school of Zen, which emphasized the playing of the shakuhachi bamboo flute as a form of meditative practice.
+    content: `Shinchi Kakushin (心地覚心, 1207–1298), known posthumously as Hottō Kokushi (法燈国師, "Dharma-Lamp National Teacher"), was a Japanese monk who travelled to Song-dynasty China in 1249 and studied under Wumen Huikai (1183–1260), the compiler of the *Wúménguān* / *Mumonkan*[1]. Although the conventional Japanese historiography classifies him as a Rinzai master, Wumen's own lineage descends from the Yangqi line of Linji Chan, and Kakushin's transmission carries a distinct sub-lineal flavour usually called the Hottō line (法燈派) within the broader Rinzai institution[2].
 
-Upon returning to Japan, Kakushin founded Saihō-ji in Yura, Wakayama Prefecture, which was later renamed Kōkoku-ji and became an important center for Rinzai Zen. His introduction of the Mumonkan to Japan had lasting consequences for Japanese Zen, as it became one of the two foundational koan collections used in Rinzai training. Kakushin's lineage continued through students such as Kohō Kakumyō, ensuring the transmission of Wumen's rigorous koan approach in Japan for generations.`,
+He returned to Japan in 1254 carrying — most consequentially — a manuscript copy of the *Wúménguān*, which thereafter became one of the two principal koan collections (alongside the *Bìyán Lù*) used in Japanese Rinzai training[3]. He also brought back the Fuke-shū strand of practice associated with the shakuhachi bamboo flute, settled at Saihō-ji in modern Wakayama (the temple later renamed Kōkoku-ji), and through his disciple Kohō Kakumyō and others transmitted his line forward into the late-Kamakura and Muromachi periods[4].`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_dumoulin_japan",
+        pageOrSection: "ch. on Kakushin, Wumen Huikai, and the Hottō line",
+      },
+      {
+        index: 2,
+        sourceId: "src_wikipedia",
+        pageOrSection: "Shinchi Kakushin — Hottō line within Rinzai",
+      },
+      {
+        index: 3,
+        sourceId: "src_mumonkan_senzaki_1934",
+        pageOrSection: "Translator's introduction — Kakushin's Mumonkan import",
+      },
+      {
+        index: 4,
+        sourceId: "src_wikipedia",
+        pageOrSection: "Hottō line — Saihō-ji / Kōkoku-ji; Fuke-shū",
+      },
+    ],
   },
   {
     slug: "koho-kakumyo",
-    content: `Kohō Kakumyō (1271–1361) was a Japanese Rinzai master known for his rigorous teaching style and his wide-ranging study under multiple teachers. He first trained under Shinchi Kakushin, inheriting the Hottō lineage, and then traveled to Yuan dynasty China, where he studied under the eminent master Zhongfeng Mingben. He also studied with the Sōtō teacher Keizan Jōkin, giving him an unusually broad perspective across Zen lineages.
+    content: `Kōhō Kakumyō (孤峰覚明, 1271–1361) is one of the most cross-affiliated figures in early-medieval Japanese Zen. He first received Dharma transmission within Shinchi Kakushin's Hottō line, then travelled to Yuan-dynasty China around 1311 and studied under the major Yangqi-line Linji master Zhongfeng Mingben on Mount Tianmu, returning to Japan with that additional transmission as well[1]. On his return he is also documented as having spent time in the early Sōtō community around Keizan Jōkin — leaving him with formal ties to three distinct Zen lineages, an unusual situation in an age that increasingly hardened sectarian boundaries[2].
 
-Kohō became known as a demanding and exacting teacher. His most notable student was the unconventional master Bassui Tokushō, whose awakening Kohō personally confirmed. Through Bassui and his other students, Kohō's influence helped sustain the intensity of koan-centered Rinzai practice during a period when Japanese Zen institutions were increasingly entangled with political patronage and formalism.`,
+Kōhō became known as a demanding teacher who continued the koan-centred severity of his Chinese training in spite of the increasingly literary and patronage-oriented Gozan establishment around him. His best-known student is the recluse Bassui Tokushō, whose awakening he confirmed and whose own line through Bassui's heirs became one of the more austere streams of medieval Rinzai practice[3].`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_dumoulin_japan",
+        pageOrSection: "ch. on Kakushin's heirs and Japanese travel to Yuan China",
+      },
+      {
+        index: 2,
+        sourceId: "src_wikipedia",
+        pageOrSection: "Kōhō Kakumyō — Hottō line, Zhongfeng Mingben, Sōtō contact",
+      },
+      {
+        index: 3,
+        sourceId: "src_dumoulin_japan",
+        pageOrSection: "ch. on Bassui Tokushō and his teachers",
+      },
+    ],
   },
   {
     slug: "tetto-giko",
@@ -4460,9 +4572,21 @@ Gongai's most significant contribution to Zen history was his training of Kasō 
   },
   {
     slug: "kaso-sodon",
-    content: `Kasō Sōdon (1352–1428) served as the twenty-second abbot of Daitokuji, though he is better remembered for his solitary life in a humble hermitage on the shores of Lake Biwa than for any institutional role. He avoided the increasingly politicized atmosphere of Kyoto's great monasteries and preferred a life of austere practice and direct, personal instruction.
+    content: `Kasō Sōdon (華叟宗曇, 1352–1428) was a Daitoku-ji-line Rinzai master in the Daitō Kokushi tradition who served briefly as the twenty-second abbot of Daitoku-ji but is best remembered for the austere hermitage he maintained at Katada on the shore of Lake Biwa, where he taught a small circle of students in deliberate avoidance of the increasingly politicised atmosphere of Kyoto's Gozan monasteries[1].
 
-Kasō is most famous as the teacher who confirmed the great enlightenment of Ikkyū Sōjun. According to tradition, the young Ikkyū was meditating in a small boat on Lake Biwa one night when the sudden cry of a crow shattered the darkness and triggered a profound awakening. When Ikkyū presented his experience to Kasō, the old master initially withheld approval, but ultimately confirmed it as genuine. This episode remains one of the most celebrated awakening stories in Japanese Zen.`,
+Kasō's enduring place in Japanese Zen history rests almost entirely on his role as the teacher who confirmed Ikkyū Sōjun's awakening: tradition records that the young Ikkyū, meditating alone in a small boat on the lake one night, was thrown into great awakening by the sudden cry of a crow; when he reported the experience Kasō withheld approval until satisfied, then formally confirmed his attainment — though Ikkyū famously refused to accept the certificate Kasō offered as recognition[2].`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_dumoulin_japan",
+        pageOrSection: "ch. on the Daitō line in the fifteenth century and Kasō's hermitage",
+      },
+      {
+        index: 2,
+        sourceId: "src_arntzen_ikkyu",
+        pageOrSection: "ch. on the crow-awakening and Kasō's confirmation",
+      },
+    ],
   },
   {
     slug: "umpo-zenjo",
@@ -4582,19 +4706,66 @@ His most notable student was Shibayama Zenkei, who would go on to become the hea
   },
   {
     slug: "bassui-tokusho",
-    content: `Bassui Tokushō (1327–1387) was one of the most original and compelling figures in Japanese Zen. Born in Sagami Province (present-day Kanagawa), he was haunted from childhood by the question of what becomes of consciousness after death. He refused to wear monks' robes, declined to live in temples, and wandered for years as an unaffiliated seeker — a radical stance in an era when monastic affiliation defined religious life. He studied under both Sōtō and Rinzai teachers, absorbing the best of each tradition while remaining stubbornly independent. His core question — "Who is the master that hears, sees, and knows?" — became the axis around which his entire practice and teaching revolved.
+    content: `Bassui Tokushō (拔隊得勝, 1327–1387) was a fourteenth-century Japanese Zen master in the Hottō line of Rinzai whose surviving Dharma talks, the *Wadeigassui* (和泥合水, "Mud and Water"), make him one of the most accessible voices in medieval Japanese Zen[1]. Born in Sagami Province, he was preoccupied from childhood with the question of what becomes of consciousness after death; he refused at first to wear monks' robes or live in temples and travelled for years as an unaffiliated practitioner, studying in turn under both Sōtō and Rinzai teachers before settling on the question "Who is the master that hears, sees, and knows?" as the heart of his practice[2].
 
-At the age of thirty-two, Bassui's awakening was confirmed by Kohō Kakumyō, a rigorous master in the Hottō lineage. Even after this confirmation, Bassui continued to resist institutional entanglements, preferring the solitary life of a hermit. Eventually, however, his reputation drew so many seekers that he reluctantly established Kōgaku-an, a hermitage in Kai Province (present-day Yamanashi), where thousands came to hear him teach. His instructions were characterized by relentless emphasis on direct self-inquiry rather than reliance on scripture, ritual, or external authority.
-
-Bassui's collected teachings, known as "Mud and Water" (Wadeigassui), preserve his distinctive voice — urgent, compassionate, and uncompromising. His deathbed words to his assembled students were simply: "Look directly! What is this? Look in this manner and you won't be fooled." He remains one of the most accessible and powerful voices in the Zen tradition, speaking across centuries to anyone willing to take up the question of who, exactly, is asking.`,
+At thirty-two his awakening was confirmed by Kōhō Kakumyō, the Hottō-line master who had himself trained both with Shinchi Kakushin and with Zhongfeng Mingben in China[3]. Bassui eventually founded the hermitage Kōgaku-an in Kai Province (modern Yamanashi), where his teaching drew large audiences without his ever taking on institutional office; his deathbed words to his community, *Mite, mite — kore wa nan zo* ("Look! Look! — what is this?"), are quoted in the *Wadeigassui* as the summary of his entire teaching method of direct self-investigation[4].`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_dumoulin_japan",
+        pageOrSection: "ch. on Bassui Tokushō and the Hottō line",
+      },
+      {
+        index: 2,
+        sourceId: "src_wikipedia",
+        pageOrSection: "Bassui Tokushō — life and Wadeigassui",
+      },
+      {
+        index: 3,
+        sourceId: "src_dumoulin_japan",
+        pageOrSection: "ch. on Kōhō Kakumyō and the Hottō line in the fourteenth century",
+      },
+      {
+        index: 4,
+        sourceId: "src_wikipedia",
+        pageOrSection: "Bassui Tokushō — Wadeigassui collected teachings",
+      },
+    ],
   },
   {
     slug: "ikkyu-sojun",
-    content: `Ikkyū Sōjun (1394–1481) is perhaps the most famous iconoclast in the history of Zen Buddhism. Believed to be the illegitimate son of Emperor Go-Komatsu, he was placed in a Kyoto temple at age five and quickly distinguished himself as a prodigy in Chinese poetry and Buddhist study. Dissatisfied with the complacent atmosphere of established monasteries, the young Ikkyū sought out Kasō Sōdon, a hermit master living in austere simplicity on the shores of Lake Biwa. Under Kasō's demanding guidance, Ikkyū threw himself into fierce practice. One night, while meditating alone in a small boat on the lake, the sudden cry of a crow shattered through him and triggered a great awakening. Kasō confirmed the experience, though Ikkyū famously refused the written certificate of transmission, seeing it as just another form of attachment.
+    content: `Ikkyū Sōjun (一休宗純, 1394–1481) is the most famous iconoclast in Japanese Zen history and one of the major figures of fifteenth-century Japanese literature. He is generally believed by his biographers — and was understood by his contemporaries — to have been the illegitimate son of Emperor Go-Komatsu by a court lady of southern-line sympathies; he was sent into temple service in Kyoto at the age of five and was educated in Chinese poetry, philosophy and Sino-Japanese kanbun from an early age[1]. Dissatisfied with what he regarded as the courtly worldliness of the Gozan establishment, he eventually sought out Kasō Sōdon, an austere Daitoku-ji-line hermit living on the shore of Lake Biwa, and under Kasō's regime his decisive awakening came one night in a small boat on the lake at the sudden cry of a crow; he refused, as is famously recorded, to accept the certificate of transmission Kasō offered[2].
 
-For the next several decades, Ikkyū lived as a wandering monk, deliberately violating monastic conventions. He drank sake, wrote love poetry, visited brothels, and openly kept companions — all while maintaining that authentic Zen had nothing to do with external purity or institutional respectability. His poetry collection, "Crazy Cloud" (Kyōunshū), is a masterwork of Japanese literature, veering between soaring spiritual insight and earthy, sometimes bawdy, honesty. He wrote scathing critiques of the Zen establishment, accusing prominent masters of selling dharma certificates and reducing Zen to empty ritual.
+For the next several decades Ikkyū lived as a wandering monk who deliberately broke the monastic conventions of his order: he drank, wrote frankly erotic poetry, visited the pleasure quarters of Sakai, and in later life lived openly with the blind singer Mori. His Chinese-style poetry collection, the *Kyōunshū* (狂雲集, "Crazy Cloud"), modulates between metaphysical intensity and a sometimes shocking earthiness, and his prose polemics against the contemporary Daitoku-ji and Myōshin-ji establishment accuse the prominent abbots of selling Dharma certificates and reducing Zen to ritual[3].
 
-Despite his lifelong rejection of institutional authority, Ikkyū accepted appointment as abbot of Daitokuji in 1474, at the age of eighty-one, to oversee its reconstruction after the devastation of the Ōnin War. He brought to the task the same fierce energy that had characterized his entire life, raising funds and directing the rebuilding while continuing to scandalize the pious. He died at Daitokuji in 1481. His influence on Japanese culture extends far beyond Zen, shaping the tea ceremony through his student Murata Jukō and inspiring countless works of art, literature, and even the beloved children's character Ikkyū-san.`,
+Despite this lifelong opposition to institutional Zen, Ikkyū accepted appointment as abbot of Daitoku-ji in 1474, at the age of eighty-one, to oversee its reconstruction after the devastation of the Ōnin War (1467–1477), and held the office until his death in 1481[4]. Through his lay disciple Murata Jukō he shaped the wabi aesthetic of the early *chanoyu* (tea ceremony), and through his poetry and persona he became one of the most enduringly recognised figures of Japanese cultural history, eventually surviving even into modern children's-television iconography as "Ikkyū-san"[5].`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_arntzen_ikkyu",
+        pageOrSection: "ch. on Ikkyū's birth, parentage, and early temple education",
+      },
+      {
+        index: 2,
+        sourceId: "src_arntzen_ikkyu",
+        pageOrSection: "ch. on Kasō Sōdon, Lake Biwa, and the crow-awakening",
+      },
+      {
+        index: 3,
+        sourceId: "src_arntzen_ikkyu",
+        pageOrSection: "Kyōunshū — selected poems and the polemics against the Daitoku-ji establishment",
+      },
+      {
+        index: 4,
+        sourceId: "src_dumoulin_japan",
+        pageOrSection: "ch. on Ikkyū's late-life abbacy of Daitoku-ji and the Ōnin War context",
+      },
+      {
+        index: 5,
+        sourceId: "src_wikipedia",
+        pageOrSection: "Ikkyū Sōjun — Murata Jukō, wabi tea, modern reception",
+      },
+    ],
   },
   {
     slug: "bankei-yotaku",
