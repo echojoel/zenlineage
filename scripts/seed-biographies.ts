@@ -2781,27 +2781,110 @@ Like many masters of his generation, Tongfeng sustained the living tradition thr
   },
   {
     slug: "wuzu-fayan",
-    content: `Wuzu Fayan, "Fifth Patriarch Fayan" (not to be confused with the earlier Fayan Wenyi), was a student of Baiyun Shouduan in the Yangqi branch of the Linji school. He taught at Mount Wuzu and was one of the most influential Chan masters of the Song dynasty. His most famous student was Yuanwu Keqin, the compiler of the Blue Cliff Record, making Wuzu the grandfather of one of Chan's most important literary works.
+    content: `Wuzu Fayan (五祖法演, c. 1024–1104), the "Fifth Patriarch Fayan" — so called because he taught at the Dongshan-si on Mount East-Mountain (Wǔzǔ-shān), the same site where the Fifth Patriarch Hongren had taught some four centuries earlier, and not to be confused with the earlier Fayan Wenyi — was the major Yangqi-line Linji master of the late Northern Song[1]. He was the Dharma heir of Baiyun Shouduan and the teacher of three of the most consequential figures of Song-period Chan: Yuanwu Keqin, Foyan Qingyuan, and Foguo Weibai[2].
 
-Wuzu's teaching was marked by a quality of penetrating simplicity. In one famous exchange, he said to the assembly, "The old barbarian from the west—if you say he had something special to teach, you slander him. If you say he had nothing special, you contradict yourself. Tell me, what did Bodhidharma bring?" This refusal to allow either affirmation or negation—a hallmark of the Linji style—pushed students beyond all conceptual positions into the freedom of direct seeing.`,
+Wuzu is one of the most cited teachers in the Song koan literature, and his recorded sayings — collected as the *Wǔzǔ Fǎyǎn Chánshī Yǔlù* — are characterised by terse, paradoxical formulations that refuse both affirmation and negation. His teaching is the immediate background of the Linji-house style codified in his student Yuanwu's *Bìyán Lù* and his grand-student Dahui's *huatou* curriculum[3].`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_dumoulin_india_china",
+        pageOrSection: "Vol. 1, ch. on the Yangqi sub-house in the late Northern Song",
+      },
+      {
+        index: 2,
+        sourceId: "src_ferguson_zen_chinese_heritage",
+        pageOrSection: "Wuzu Fayan — biographical entry and three principal heirs",
+      },
+      {
+        index: 3,
+        sourceId: "src_schlutter_dahui",
+        pageOrSection: "ch. on the Wuzu → Yuanwu → Dahui line and the formation of huatou practice",
+      },
+    ],
   },
   {
     slug: "yuanwu-keqin",
-    content: `Yuanwu Keqin was a student of Wuzu Fayan who compiled the Blue Cliff Record (Biyanlu), one of the two most important koan collections in the Chan tradition. Working from the hundred cases selected by Xuedou Chongxian of the Yunmen school, Yuanwu added his own introductions, commentaries, and capping phrases, creating a multi-layered text of extraordinary literary and spiritual depth. The Blue Cliff Record became the supreme expression of the literary dimension of Chan practice.
+    content: `Yuanwu Keqin (圜悟克勤, 1063–1135) was the principal Dharma heir of Wuzu Fayan and the foremost Yangqi-line Linji master of the early Southern Song[1]. He held abbacies at the major Linji monasteries of his generation, including Jiashan-si and Lingyin-si, and received the imperial title *Yuanwu Chánshī* from Emperor Gaozong[2].
 
-Yuanwu's principal student was Dahui Zonggao, who would paradoxically attempt to destroy his teacher's masterwork. Yuanwu's own teaching emphasized the integration of literary refinement and direct experience—he saw no contradiction between the study of classic encounter dialogues and the immediacy of personal realization. His commentaries in the Blue Cliff Record demonstrate this integration, using language of great beauty and precision to point beyond language itself.`,
+His most enduring contribution is the *Bìyán Lù* (碧巖錄, "Blue Cliff Record"): taking Xuedou Chongxian's earlier collection of one hundred cases with their verse-commentaries, Yuanwu added his own *chuíshì* (introductions), *zhuó-yǔ* (capping phrases), and prose commentaries on both case and verse, creating the multi-layered text that became the canonical koan collection of late-imperial East Asian Chan and Japanese Rinzai[3]. The *Bìyán Lù* was lecture-form initially and was compiled by his students; Yuanwu also wrote letters and Dharma-talks collected in the *Xīntángjí* and the *Yuánwù Yǔlù*[4].`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_dumoulin_india_china",
+        pageOrSection: "Vol. 1, ch. on Yuanwu Keqin and the Bìyán Lù",
+      },
+      {
+        index: 2,
+        sourceId: "src_ferguson_zen_chinese_heritage",
+        pageOrSection: "Yuanwu Keqin — biographical entry and imperial honours",
+      },
+      {
+        index: 3,
+        sourceId: "src_blue_cliff_record_shaw_1961",
+        pageOrSection: "Translator's introduction — Yuanwu's additions to Xuedou's verses",
+      },
+      {
+        index: 4,
+        sourceId: "src_heine_wright_koan",
+        pageOrSection: "ch. on the Bìyán Lù and the literary form of Song-period Chan",
+      },
+    ],
   },
   {
     slug: "dahui-zonggao",
-    content: `Dahui Zonggao was a student of Yuanwu Keqin who became the most influential advocate of the huatou (keyword) method of koan practice, which he called "kanhua Chan." Rather than studying entire koans with their literary apparatus, Dahui taught students to concentrate on a single critical phrase—such as Zhaozhou's "Mu"—with such intensity that all conceptual thinking was eventually exhausted, precipitating a breakthrough into direct seeing.
+    content: `Dahui Zonggao (大慧宗杲, 1089–1163) was the principal Dharma heir of Yuanwu Keqin and the master most responsible for the development of the *kānhuà chán* (看話禪, "investigating-the-phrase Chan") method that has dominated Linji-house and Rinzai practice ever since[1]. His teaching method concentrated the student on a single critical phrase from a koan — most paradigmatically Zhaozhou's "wu" 無 — held to the point of "great doubt" (*dàyí*) until conceptual thinking exhausts itself and gives way to direct insight[2].
 
-In one of the most dramatic acts in Chan history, Dahui ordered the printing blocks of his own teacher Yuanwu's Blue Cliff Record to be burned, fearing that students were using the text as an object of literary appreciation rather than as a tool for awakening. This act reflects his fierce commitment to the primacy of direct experience over scholarly study. His promotion of the huatou method shaped the entire subsequent development of Linji and Rinzai practice, and the approach remains central to koan training in Rinzai Zen to this day.`,
+Dahui is also remembered for two unusually polemical campaigns: the public attack on the *mòzhào chán* ("silent illumination") of his Caodong contemporaries Hongzhi Zhengjue and Changlu Qingliao, which he characterised as a "withered-tree" quietism, and the burning of the printing blocks of his own teacher's *Bìyán Lù* in 1140 — an act preserved in his correspondence and explained as a refusal to allow the literary appreciation of the text to substitute for the labour of investigation it was meant to provoke[3]. Morten Schlütter's *How Zen Became Zen* is the standard modern monograph on the Dahui–Hongzhi controversy and its institutional context[4].`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_schlutter_dahui",
+        pageOrSection: "ch. on Dahui Zonggao and the formation of kānhuà chán",
+      },
+      {
+        index: 2,
+        sourceId: "src_dumoulin_india_china",
+        pageOrSection: "Vol. 1, ch. on the Yangqi line and huatou practice",
+      },
+      {
+        index: 3,
+        sourceId: "src_schlutter_dahui",
+        pageOrSection: "ch. on the burning of the Bìyán Lù blocks",
+      },
+      {
+        index: 4,
+        sourceId: "src_schlutter_dahui",
+        pageOrSection: "Introduction — Dahui–Hongzhi controversy and Song political context",
+      },
+    ],
   },
   {
     slug: "wumen-huikai",
-    content: `Wumen Huikai was the compiler of the Wumenguan (Gateless Barrier), the most widely studied koan collection in the world. He practiced with the koan "Mu" for six years before his awakening, sitting with it day and night until the entire universe of his conceptual mind collapsed and he burst through into realization. His breakthrough verse—"A thunderclap under the clear blue sky! All beings on earth open their eyes"—expresses the totality of the experience.
+    content: `Wumen Huikai (無門慧開, 1183–1260) was a Yangqi-line Linji master in the line descending from Yuanwu Keqin and the compiler of the *Wúménguān* (無門關, "Gateless Barrier" / *Mumonkan*), the most widely-read koan collection in the world after the *Bìyán Lù*[1]. The standard biographical account preserved in the lamp records describes a six-year period during which he worked exclusively on the koan "wu" 無 (Case 1 of his own collection) before his decisive opening, after which he wrote the verse "*A thunderclap under the clear blue sky! All beings on earth open their eyes*"[2].
 
-Wumen selected forty-eight cases and added his own commentaries and verses, creating a collection noted for its directness and accessibility compared to the more literary Blue Cliff Record. His preface states that the Great Way is gateless, approached from a thousand roads, and that those who pass through this barrier walk freely between heaven and earth. The Mumonkan became the standard introductory koan text in Rinzai Zen and has been translated into virtually every major world language.`,
+Wumen compiled the *Wúménguān* in 1228 from forty-eight cases he had used as preaching material at the Longxiang-si in Hangzhou; each case is given a short prose commentary and a four-line verse, producing the compact and aphoristic style that contrasts deliberately with the multi-layered architecture of the *Bìyán Lù*[3]. The text was carried to Japan in 1254 by the Japanese monk Shinchi Kakushin, who had received Wumen's Dharma transmission, and through Kakushin's Hottō line and the Daiō-Daitō-Kanzan curriculum it became the canonical introductory koan collection of Japanese Rinzai training[4].`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_mumonkan_senzaki_1934",
+        pageOrSection: "Translator's introduction — Wumen Huikai and the compilation of the Wúménguān",
+      },
+      {
+        index: 2,
+        sourceId: "src_ferguson_zen_chinese_heritage",
+        pageOrSection: "Wumen Huikai — biographical entry and \"wu\" awakening",
+      },
+      {
+        index: 3,
+        sourceId: "src_heine_wright_koan",
+        pageOrSection: "ch. on the form and rhetoric of the Wúménguān",
+      },
+      {
+        index: 4,
+        sourceId: "src_dumoulin_japan",
+        pageOrSection: "ch. on Kakushin and the Japanese reception of the Wúménguān",
+      },
+    ],
   },
   {
     slug: "xita-guangmu",
@@ -2858,9 +2941,26 @@ Rubao's presence in the lineage records testifies to the breadth of the Linji ne
 
   {
     slug: "yangqi-fanghui",
-    content: `Yangqi Fanghui was a student of Shishuang Chuyuan who founded the Yangqi branch of the Linji school, which ultimately became the dominant lineage of Linji Chan. His teaching was characterized by a quality of unpredictable spontaneity—he might answer a student with a shout, a laugh, a gesture, or a seemingly irrelevant remark, and the student never knew what was coming. This unpredictability was itself the teaching, breaking the student's habit of anticipating and preparing.
+    content: `Yangqi Fanghui (楊岐方會, 992–1049) was a Dharma heir of Shishuang Chuyuan and the founder of the Yangqi (楊岐) sub-house of the Linji school, the one of the two Linji sub-lineages — alongside Huanglong Huinan's — which proved to be the more enduring[1]. He taught at Mount Yangqi in modern Jiangxi, where his small community produced the immediate ancestors of the great mid-eleventh- to twelfth-century Yangqi line: through his successor Baiyun Shouduan, the Yangqi line passed to Wuzu Fayan and then to the three masters who shaped the canonical form of late-imperial Linji practice — Yuanwu Keqin (compiler of the *Bìyán Lù*), Foyan Qingyuan, and through Yuanwu, Dahui Zonggao[2].
 
-The Yangqi branch proved extraordinarily vital, producing many of the greatest masters of the Song dynasty and beyond, including Wuzu Fayan, Yuanwu Keqin, Dahui Zonggao, and Wumen Huikai. Through the Japanese transmission, the Yangqi line became the basis of the Rinzai school's O-To-Kan lineage, which continues to this day. Yangqi's founding gesture—of playful, unpredictable freedom within the formal structure of Linji practice—set the tone for the entire subsequent history of the school.`,
+The Yangqi line eventually absorbed the Huanglong sub-house and became the only surviving Linji line; through the late-Song transmissions to Japan it gave rise to the Daiō-Daitō-Kanzan / Ōtōkan stream from which essentially all modern Rinzai Zen descends[3].`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_dumoulin_india_china",
+        pageOrSection: "Vol. 1, ch. on the founding of the Yangqi sub-house",
+      },
+      {
+        index: 2,
+        sourceId: "src_ferguson_zen_chinese_heritage",
+        pageOrSection: "Yangqi Fanghui — biographical entry and successors",
+      },
+      {
+        index: 3,
+        sourceId: "src_dumoulin_japan",
+        pageOrSection: "ch. on the Yangqi line and the Ōtōkan transmission to Japan",
+      },
+    ],
   },
   {
     slug: "baiyun-shouduan",
@@ -3169,9 +3269,31 @@ Danxia's lineage led through subsequent generations to Hongzhi Zhengjue and Tian
   },
   {
     slug: "hongzhi-zhengjue",
-    content: `Hongzhi Zhengjue was the greatest advocate of "silent illumination" (mozhao chan), the Caodong school's distinctive meditation practice. He taught at Tiantong Monastery and composed the verses that would later form the basis of the Book of Serenity (Congrong Lu), one of the two major koan collections alongside the Blue Cliff Record. His teaching emphasized a quality of aware, luminous stillness that neither grasps nor rejects any experience.
+    content: `Hongzhi Zhengjue (宏智正覺, 1091–1157) was the great Southern-Song Caodong master and the foremost articulator of *mòzhào chán* (默照禪, "silent illumination Chan"). He served as abbot of Tiantong-si (天童寺) near Mingzhou for thirty years and built it into the major Caodong centre of the twelfth century[1]. His prose poem *Mòzhào Míng* (默照銘, "Silent-Illumination Inscription") and his hundred verse-comments on koan cases — preserved in the *Hongzhi Songgu* and later assembled by Wansong Xingxiu into the *Cóngróng Lù* (從容錄, "Book of Serenity") — are the canonical statements of the silent-illumination practice and the Caodong literary-koan tradition that paralleled the Linji *Bìyán Lù* line[2].
 
-Hongzhi's championing of silent illumination brought him into famous conflict with the Linji master Dahui Zonggao, who advocated the huatou (keyword) method. Dahui criticized silent illumination as producing a state of "dead sitting" without genuine insight, while Hongzhi maintained that objectless awareness was itself the expression of awakened mind. This debate defined the two great approaches to Chan meditation that continue to shape practice today. Despite the polemics, Hongzhi and Dahui maintained a personal relationship of mutual respect, and when Hongzhi died, he asked Dahui to serve as abbot of Tiantong in his place.`,
+Hongzhi's championing of silent illumination prompted the famous polemic by his Linji-line contemporary Dahui Zonggao, who attacked *mòzhào* as a "dead-tree" quietism — a campaign that hardened the doctrinal contrast between the Caodong and Linji houses for the rest of the Song[3]. Despite the public dispute, Hongzhi and Dahui maintained a personal correspondence of mutual respect, and Hongzhi's transmission line through Wansong Xingxiu eventually reached Tiantong Rujing and from him to Dōgen — making Hongzhi the doctrinal ancestor of Japanese Sōtō Zen's understanding of *shikantaza*[4].`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_leighton_cultivating_empty_field",
+        pageOrSection: "Introduction — Hongzhi Zhengjue and the Tiantong-si community",
+      },
+      {
+        index: 2,
+        sourceId: "src_leighton_cultivating_empty_field",
+        pageOrSection: "Translated verses — Hongzhi Songgu and the Mòzhào Míng",
+      },
+      {
+        index: 3,
+        sourceId: "src_schlutter_dahui",
+        pageOrSection: "ch. on the Dahui–Hongzhi silent-illumination controversy",
+      },
+      {
+        index: 4,
+        sourceId: "src_kim_dogen",
+        pageOrSection: "ch. on Hongzhi → Wansong → Rujing → Dōgen transmission",
+      },
+    ],
   },
   {
     slug: "zhenxie-qingliao",
@@ -3181,9 +3303,31 @@ Qingliao's teaching emphasized the Caodong principle that practice and realizati
   },
   {
     slug: "tiantong-rujing",
-    content: `Tiantong Rujing was the Chinese master who transmitted the Caodong teaching to Dogen, and thus to all of Japanese Soto Zen. He served as abbot of Tiantong Monastery and was known for his fierce insistence on intensive zazen practice above all other forms of Buddhist cultivation. His famous instruction to Dogen—"Drop off body and mind!"—precipitated Dogen's decisive awakening experience.
+    content: `Tiantong Rujing (天童如淨, 1162–1228) was the Caodong master under whom Dōgen received Dharma transmission at the Tiantong-si monastery near Mingzhou between 1223 and 1227, and is thus the figure through whom the Caodong stream entered Japan as Sōtō Zen[1]. He was a Dharma heir of Xuedou Zhijian and held the abbacy at Tiantong from 1224 until his death; the temple was one of the great institutional Chan centres of the late Southern Song[2].
 
-Rujing's teaching emphasized the absolute primacy of seated meditation. He rejected the use of incense-burning, prostrations, chanting, and other devotional practices as substitutes for zazen, insisting that sitting was the one essential practice. This rigorously meditation-centered approach deeply influenced Dogen's own teaching of shikantaza (just sitting) and his establishment of the Japanese Soto school as a tradition grounded in the practice of zazen above all else.`,
+Dōgen's *Hōkyō-ki* (寶慶記), composed at Tiantong during his training and preserved in his collected works, records Rujing's instruction in extensive detail and is one of the principal early-Sōtō sources for the doctrine of *shēnxīn tuōluò* / *shinjin datsuraku* (身心脱落, "body-mind dropping away") that Dōgen would make central to his own teaching of *shikantaza*[3]. Rujing's emphasis on *zazen* against the other Buddhist practices then in fashion — *nianfo*, vinaya formalism, incense-burning — and his distance from the Caodong silent-illumination polemics of the previous generation, shape the immediate background of Dōgen's mature thought[4].`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_kim_dogen",
+        pageOrSection: "ch. on Dōgen at Tiantong and Rujing's transmission",
+      },
+      {
+        index: 2,
+        sourceId: "src_dumoulin_japan",
+        pageOrSection: "ch. on Rujing and the late-Song Caodong school",
+      },
+      {
+        index: 3,
+        sourceId: "src_cleary_shobogenzo",
+        pageOrSection: "Hōkyō-ki — Dōgen's record of Rujing's teaching at Tiantong",
+      },
+      {
+        index: 4,
+        sourceId: "src_kim_dogen",
+        pageOrSection: "ch. on shinjin datsuraku and the Rujing-Dōgen relationship",
+      },
+    ],
   },
   {
     slug: "tiantong-zongjue",
@@ -4242,7 +4386,7 @@ Beyond Bogotá he serves as abbot of the **Dokan Group in Caracas, Venezuela**, 
 
 From Barcelona, Leroux directs and supervises practice across a cluster of Spanish and Portuguese dōjōs, ordains monks and nuns, and conducts sesshin in the kusen tradition transmitted to him by Kōsen Thibaut[3]. Among his Portuguese disciples is Manuel Toei Simões, whom he ordained as a monk in 2012 and who today leads the Zan Mai Zen headquarters dōjō outside Setúbal — the principal extension of Leroux's lineage south of the Pyrenees[3].
 
-Leroux's place in the AZI / Kōsen Sangha neighbourhood is that of a third-generation European Sōtō teacher: trained under one of Deshimaru's three principal heirs, formally authenticated by him through shihō, and continuing the missionary work of installing Sōtō zazen practice in Hispanic and Lusophone Europe.`,
+Leroux's place in the AZI / Kōsen Sangha neighbourhood is that of a third-generation European Sōtō teacher: trained under one of Deshimaru's three principal heirs[1][2], formally authenticated by him through shihō, and continuing the missionary work of installing Sōtō zazen practice in Hispanic and Lusophone Europe[3].`,
     footnotes: [
       {
         index: 1,
