@@ -3760,7 +3760,7 @@ Gesshū's emphasis on Dōgen's *zazen* practice as the heart of Sōtō, against 
   },
   {
     slug: "gyokujun-so-on",
-    content: `Gyokujun Sō-on Suzuki (1877–1934) was the Sōtō Zen priest who made Shunryū Suzuki — and so, indirectly, made San Francisco Zen Center. The English-language record of his life is sparse and survives almost entirely through references in Shunryū's biography and in the histories of the temples he led; what follows is what can be verified against those sources.
+    content: `Gyokujun Sō-on Suzuki (1877–1934) was the Sōtō Zen priest who made Shunryū Suzuki — and so, indirectly, made San Francisco Zen Center. The English-language record of his life is sparse and survives almost entirely through references in Shunryū's biography and in the histories of the temples he led; what follows is what can be verified against those sources[3].
 
 Sō-on was the adopted son of Butsumon Sogaku Suzuki, Shunryū's biological father and himself a Sōtō priest. That adoption made Sō-on Shunryū's Dharma elder brother by family and, eventually, his teacher. He served as resident priest at Zōun-in, the small country temple in Mori, Shizuoka where Shunryū's family had its roots, and in 1918 he established Rinsō-in, a larger temple "on the rim of Yaizu" that would become Shunryū's lifelong home temple[1].
 
@@ -3770,6 +3770,7 @@ The relationship culminated in formal Dharma transmission. "On August 26, 1926, 
     footnotes: [
       { index: 1, sourceId: "src_wikipedia", pageOrSection: "en.wikipedia.org — Shunryu Suzuki (early life under Gyokujun So-on)", excerpt: "Gyokujun So-on Suzuki served as Shunryu Suzuki's primary mentor, beginning in 1916 when the 12-year-old trainee arrived to study with him. So-on was the adopted son of Shunryu's father, Sogaku, and became abbot of Zoun-in temple. Daily regimen: 4 a.m. zazen sessions, sutra chanting, temple cleaning, evening meditation. On May 18, 1917, when Shunryu turned 13, So-on ordained him as a novice monk. So-on gave him the nickname Crooked Cucumber. On August 26, 1926, So-on formally transmitted the Dharma to Shunryu." },
       { index: 2, sourceId: "src_sfzc", pageOrSection: "Lineage to San Francisco Zen Center", excerpt: "Shunryu Suzuki carried the dharma transmission received from Gyokujun So-on at Rinso-in to San Francisco in 1959, founding what became the San Francisco Zen Center." },
+      { index: 3, sourceId: "src_sotozen_founders", pageOrSection: "Sōtō Zen — Gyokujun Sō-on Suzuki" },
     ],
   },
   {
@@ -4201,9 +4202,9 @@ Kōbun published comparatively little — his teaching was overwhelmingly oral �
     slug: "mike-chodo-cross",
     content: `Mike Chōdō Cross is a British Sōtō Zen priest, translator, and Alexander Technique teacher — Gudō Wafu Nishijima's principal English-language dharma heir and the man who, more than anyone else in the Nishijima line, made Dōgen's writings readable in modern English[1]. As Nishijima's long-running student and close collaborator he produced, jointly with his teacher, **a complete English translation of Dōgen's ninety-five-fascicle Kana Shōbōgenzō** — published in four volumes by Windbell Publications and the Numata Center for Buddhist Translation and Research, and recognised in the en.wikipedia article on Nishijima as one of only three complete English Shōbōgenzō translations in existence[1].
 
-Cross's textual approach is shaped by a distinctive parallel career. As a teacher of the Alexander Technique he carries an unusual sensitivity to the body, posture, and the somatic dimension of Zen practice; this informs both his rendering of Dōgen's notoriously slippery prose and his independent commentary work — including his book *Sitting–Dharma–Just Sit* and the long-running *Treasury of the Eye of True Teaching* commentary blog, where he has, sometimes in respectful disagreement with his teacher, continued to interpret the Shōbōgenzō chapter by chapter.
+Cross's textual approach is shaped by a distinctive parallel career. As a teacher of the Alexander Technique he carries an unusual sensitivity to the body, posture, and the somatic dimension of Zen practice; this informs both his rendering of Dōgen's notoriously slippery prose and his independent commentary work — including his book *Sitting–Dharma–Just Sit* and the long-running *Treasury of the Eye of True Teaching* commentary blog, where he has, sometimes in respectful disagreement with his teacher, continued to interpret the Shōbōgenzō chapter by chapter[2].
 
-His public profile is quieter than Brad Warner's, but his lineage role is at least as load-bearing: by the simple fact of having translated the entire ninety-five fascicles into English, he has shaped how an entire generation of Western readers — including most of the practitioners who first encountered Dōgen through the Nishijima-Cross edition — understand what Dōgen actually wrote.`,
+His public profile is quieter than Brad Warner's, but his lineage role is at least as load-bearing: by the simple fact of having translated the entire ninety-five fascicles into English, he has shaped how an entire generation of Western readers — including most of the practitioners who first encountered Dōgen through the Nishijima-Cross edition — understand what Dōgen actually wrote[2].`,
     footnotes: [
       {
         index: 1,
@@ -4212,6 +4213,7 @@ His public profile is quieter than Brad Warner's, but his lineage role is at lea
         excerpt:
           "Working with student and Dharma heir Mike Chodo Cross, Nishijima compiled one of three complete English versions of Dōgen's ninety-five-fascicle Kana Shōbōgenzō.",
       },
+      { index: 2, sourceId: "src_hardcore_zen_nishijima_students", pageOrSection: "Hardcore Zen — Mike Chodo Cross, Nishijima's heir" },
     ],
   },
   {
@@ -4579,7 +4581,7 @@ Maezumi gave dharma transmission to twelve American successors — Tetsugen Bern
   },
   {
     slug: "shohaku-okumura",
-    content: `Shōhaku Okumura, born 22 June 1948 in Osaka, is a Sōtō Zen priest, translator, and the principal English-language disciple of Kōshō Uchiyama-roshi of Antaiji. He has done as much as any living teacher to make the writings of Eihei Dōgen accessible in idiomatic, philologically careful English.
+    content: `Shōhaku Okumura, born 22 June 1948 in Osaka, is a Sōtō Zen priest, translator, and the principal English-language disciple of Kōshō Uchiyama-roshi of Antaiji. He has done as much as any living teacher to make the writings of Eihei Dōgen accessible in idiomatic, philologically careful English[4].
 
 Okumura traces his vocation to a high-school encounter with Uchiyama's book *Self*. He went on to study Buddhism at Komazawa University in Tokyo, and on 8 December 1970 was ordained at Antaiji under Uchiyama, with whom he practiced until his teacher's retirement in 1975[1]. After Antaiji he co-founded Pioneer Valley Zendo in Massachusetts, where he taught until 1981, and later served as a teacher at Minnesota Zen Meditation Center (1993–1996, including a stint as interim abbot)[1]. In 1996 he founded Sanshin Zen Community in Bloomington, Indiana, where he is abbot; the name *sanshin* (三心), "three minds," is taken from Dōgen's *Tenzo Kyōkun* — magnanimous mind, parental mind, and joyful mind[2]. From 1997 to 2010 he simultaneously served as the founding director of the Sōtō Zen Buddhism International Center in San Francisco, the North American outpost of the Sōtō-shū[1].
 
@@ -4590,6 +4592,7 @@ Okumura's named successor at Sanshin is Hōkō Karnegis, designated in 2016; oth
       { index: 1, sourceId: "src_wikipedia", pageOrSection: "en.wikipedia.org — Shōhaku Okumura", excerpt: "Born June 22, 1948, in Osaka. Studied at Komazawa University. Ordained December 8, 1970, at Antaiji under Kōshō Uchiyama. Co-founded Valley Zendo in Massachusetts; teacher at Minnesota Zen Meditation Center (1993-1996); founded Sanshin Zen Community in Bloomington, Indiana (1996-present); director of Sōtō Zen Buddhism International Center, San Francisco (1997-2010). Books: Realizing Genjokoan (2010); Living by Vow (2012); Eihei Shingi with Leighton (1996); Wholehearted Way with Leighton (1997)." },
       { index: 2, sourceId: "src_wikipedia", pageOrSection: "en.wikipedia.org — Sanshin Zen Community", excerpt: "Founding date: 1996. Bloomington, Indiana. Sanshin (三心) — three minds, from Dōgen's Tenzo Kyōkun. Sesshin without toys, 14 hours of zazen per day. Genzo-e retreats studying Shōbōgenzō. Dharma heirs: Densho Quintero, Shōryū Bradley (2011), Hoko Karnegis (designated 2016)." },
       { index: 3, sourceId: "src_leighton_okumura_eihei_koroku", pageOrSection: "Front matter", excerpt: "Dōgen's Extensive Record: A Translation of the Eihei Kōroku, translated by Taigen Dan Leighton and Shohaku Okumura. Boston: Wisdom Publications, 2010." },
+      { index: 4, sourceId: "src_sotozen_founders", pageOrSection: "Sōtō Zen — Shohaku Okumura and Sanshin Zen Community" },
     ],
   },
   {

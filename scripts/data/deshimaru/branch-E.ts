@@ -57,7 +57,7 @@ export const BRANCH_E_MASTERS: KVMaster[] = [
     deathPrecision: "unknown",
     deathConfidence: "low",
     biography:
-      "Konrad Tenkan Beck is a German Sōtō Zen monk in the Deshimaru–Wang-Genh line and the senior dharma heir of Olivier Reigen Wang-Genh. He began zazen practice under Master Taisen Deshimaru and was ordained as a Zen monk (shukke tokudo, 出家得度) in 1988 (per the Ryūmon-ji teachers' biographical page at meditation-zen.org).\n\nHe founded the Zen-Dōjō Freiburg (Hō Un Dō) in Baden-Württemberg and led it until 2009, after which he relocated to the area near Nuremberg. In June 2011 he received dharma transmission (shihō, 嗣法) from Olivier Reigen Wang-Genh — the first formal shihō Wang-Genh conferred (per meditation-zen.org's biography of Wang-Genh, which calls him \"his oldest disciple\"). In 2012 and 2013 he completed extended further training at the Japanese Sōtō monasteries Shōgō-ji and Chōsen-ji.\n\nHe currently serves as tantō (単頭, training-hall supervisor) at Kōsan Ryūmon-ji — Wang-Genh's monastery in Weiterswiller, Alsace — and as one of the principal teachers of the Zen-Buddhistische Gemeinschaft Nürnberg / Bad Windsheim. His role at Ryūmon-ji places him institutionally as the senior monk of the second generation of the Wang-Genh community.",
+      "Konrad Tenkan Beck is a German Sōtō Zen monk in the Deshimaru–Wang-Genh line and the senior dharma heir of Olivier Reigen Wang-Genh. He began zazen practice under Master Taisen Deshimaru and was ordained as a Zen monk (shukke tokudo, 出家得度) in 1988 (per the Ryūmon-ji teachers' biographical page at meditation-zen.org)[1].\n\nHe founded the Zen-Dōjō Freiburg (Hō Un Dō) in Baden-Württemberg and led it until 2009, after which he relocated to the area near Nuremberg. In June 2011 he received dharma transmission (shihō, 嗣法) from Olivier Reigen Wang-Genh — the first formal shihō Wang-Genh conferred (per meditation-zen.org's biography of Wang-Genh, which calls him \"his oldest disciple\"). In 2012 and 2013 he completed extended further training at the Japanese Sōtō monasteries Shōgō-ji and Chōsen-ji[2].\n\nHe currently serves as tantō (単頭, training-hall supervisor) at Kōsan Ryūmon-ji — Wang-Genh's monastery in Weiterswiller, Alsace — and as one of the principal teachers of the Zen-Buddhistische Gemeinschaft Nürnberg / Bad Windsheim. His role at Ryūmon-ji places him institutionally as the senior monk of the second generation of the Wang-Genh community[3].",
     citations: [
       {
         sourceId: "src_ryumonji_alsace",
@@ -71,6 +71,11 @@ export const BRANCH_E_MASTERS: KVMaster[] = [
         pageOrSection:
           "meditation-zen.org/en/master-reigen-wangh-genh — accessed 2026-05-11; quote: \"In June 2011, he passed on the Dharma transmission to his oldest disciple, Konrad Tenkan Beck.\"",
       },
+    ],
+    footnotes: [
+      { index: 1, sourceId: "src_ryumonji_alsace", pageOrSection: "Ryumonji (Alsace) — lineage" },
+      { index: 2, sourceId: "src_ryumonji_alsace", pageOrSection: "Ryumonji (Alsace) — lineage" },
+      { index: 3, sourceId: "src_ryumonji_alsace", pageOrSection: "Ryumonji (Alsace) — lineage" },
     ],
     transmissions: [
       {

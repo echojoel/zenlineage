@@ -59,7 +59,7 @@ export const BRANCH_C_MASTERS: KVMaster[] = [
     deathPrecision: "unknown",
     deathConfidence: "low",
     biography:
-      "Vincent Keisen Vuillemin is a Swiss Sōtō Zen monk in the Deshimaru–Zeisler lineage, based in Geneva. He was a direct disciple of Étienne Mokushō Zeisler in the years immediately before Zeisler's death in 1990, and the canonical Mokushō Zen House Budapest lineage record names him explicitly as \"Vincent Keisen Vuillemin, from Geneve, disciple of master Zeisler.\" After Zeisler's death he continued his training under Yvon Myōken Bec, the monk to whom Zeisler had entrusted the Eastern European mission, and on 25 March 2007 Master Myōken conferred dharma transmission (shihō) on him — the first shihō Myōken granted, completing the Deshimaru → Zeisler → Bec → Vuillemin line.\n\nVuillemin has been a Sōtō monk for more than three decades and teaches in the AZI tradition from Geneva, where he leads zazen and sesshins and continues the transmission of Deshimaru's kusen-style teaching. He is also active as an author and public speaker on the dialogue between Buddhist meditation and contemporary science: his book Zen et physique quantique – Quand un moine rencontre le boson de Higgs (Dervy / Almora) reads contemporary particle physics through Buddhist categories, presenting the two approaches as complementary rather than contradictory.\n\nWith Avila (Geneva), Nedelcu (Bucharest), and Kálmán (Budapest), Vuillemin is one of the four formally transmitted continuing teachers of the Mokushō Zen House network — and the only one to carry the Zeisler line into the Francophone Swiss landscape, threaded back through Bec to Zeisler and through Zeisler to Deshimaru.",
+      "Vincent Keisen Vuillemin is a Swiss Sōtō Zen monk in the Deshimaru–Zeisler lineage, based in Geneva. He was a direct disciple of Étienne Mokushō Zeisler in the years immediately before Zeisler's death in 1990, and the canonical Mokushō Zen House Budapest lineage record names him explicitly as \"Vincent Keisen Vuillemin, from Geneve, disciple of master Zeisler.\" After Zeisler's death he continued his training under Yvon Myōken Bec, the monk to whom Zeisler had entrusted the Eastern European mission, and on 25 March 2007 Master Myōken conferred dharma transmission (shihō) on him — the first shihō Myōken granted, completing the Deshimaru → Zeisler → Bec → Vuillemin line[1].\n\nVuillemin has been a Sōtō monk for more than three decades and teaches in the AZI tradition from Geneva, where he leads zazen and sesshins and continues the transmission of Deshimaru's kusen-style teaching. He is also active as an author and public speaker on the dialogue between Buddhist meditation and contemporary science: his book Zen et physique quantique – Quand un moine rencontre le boson de Higgs (Dervy / Almora) reads contemporary particle physics through Buddhist categories, presenting the two approaches as complementary rather than contradictory[2].\n\nWith Avila (Geneva), Nedelcu (Bucharest), and Kálmán (Budapest), Vuillemin is one of the four formally transmitted continuing teachers of the Mokushō Zen House network — and the only one to carry the Zeisler line into the Francophone Swiss landscape, threaded back through Bec to Zeisler and through Zeisler to Deshimaru[3].",
     citations: [
       {
         sourceId: "src_mokusho_house",
@@ -75,6 +75,11 @@ export const BRANCH_C_MASTERS: KVMaster[] = [
         excerpt:
           "Vincent Keisen Vuillemin est moine zen sôtô depuis trente-cinq ans, et maître zen dans la tradition de Taisen Deshimaru qui introduisit le Zen en Europe.",
       },
+    ],
+    footnotes: [
+      { index: 1, sourceId: "src_mokusho_house", pageOrSection: "Mokushō Zen House — Our Story (lineage)" },
+      { index: 2, sourceId: "src_mokusho_house", pageOrSection: "Mokushō Zen House — Our Story (lineage)" },
+      { index: 3, sourceId: "src_mokusho_house", pageOrSection: "Mokushō Zen House — Our Story (lineage)" },
     ],
     transmissions: [
       {

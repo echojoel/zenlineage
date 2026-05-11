@@ -42,10 +42,13 @@ export const BRANCH_F_MASTERS: KVMaster[] = [
     deathPrecision: "exact",
     deathConfidence: "high",
     biography:
-      "Robert C. Livingston Roshi (28 January 1933 – 2 January 2021) was the senior American disciple of Taisen Deshimaru and the founder of the New Orleans Zen Temple — the principal Sōtō dōjō in the United States carrying the Deshimaru / AZI line. Born in New York City, educated at Cornell, and a U.S. Army veteran of the Japan-Korea theatre in the early 1950s, he spent more than a decade in Europe in international finance before retiring from business and becoming Deshimaru's close disciple in Paris in the 1970s. Before his death in 1982 Deshimaru asked Livingston to return to the United States and establish authentic Sōtō practice there; Livingston founded the American Zen Association in 1983 and opened the New Orleans Zen Temple at 748 Camp Street in 1991. He served as abbot until 2016, when he transmitted the dharma to Richard Reishin Collins; he had previously transmitted to Tony Bland in 2004.",
+      "Robert C. Livingston Roshi (28 January 1933 – 2 January 2021) was the senior American disciple of Taisen Deshimaru and the founder of the New Orleans Zen Temple — the principal Sōtō dōjō in the United States carrying the Deshimaru / AZI line. Born in New York City, educated at Cornell, and a U.S. Army veteran of the Japan-Korea theatre in the early 1950s, he spent more than a decade in Europe in international finance before retiring from business and becoming Deshimaru's close disciple in Paris in the 1970s. Before his death in 1982 Deshimaru asked Livingston to return to the United States and establish authentic Sōtō practice there; Livingston founded the American Zen Association in 1983 and opened the New Orleans Zen Temple at 748 Camp Street in 1991. He served as abbot until 2016, when he transmitted the dharma to Richard Reishin Collins; he had previously transmitted to Tony Bland in 2004[1].",
     citations: [
       { sourceId: "src_wikipedia", fieldName: "biography", pageOrSection: "Robert Livingston (Zen teacher)" },
       { sourceId: "src_new_orleans_zen_temple", fieldName: "biography", pageOrSection: "About / Robert Livingston Roshi" },
+    ],
+    footnotes: [
+      { index: 1, sourceId: "src_new_orleans_zen_temple", pageOrSection: "New Orleans Zen Temple — biography" },
     ],
     transmissions: [
       {
@@ -74,10 +77,13 @@ export const BRANCH_F_MASTERS: KVMaster[] = [
     deathPrecision: "unknown",
     deathConfidence: "high",
     biography:
-      "Richard Reishin Collins (born 1952, Eugene, Oregon) is the second abbot of the New Orleans Zen Temple and the principal dharma successor of Robert Livingston Roshi. An academic by profession (English / comparative literature), he began Zen practice with Livingston in 2001, received monastic ordination in 2010, was given permission to teach in 2012, and received shihō (dharma transmission) from Livingston at midnight on 1 January 2016 in the dōjō at 748 Camp Street — the intimate ceremony in which Livingston handed over his kotsu (the curved teaching stick) as the symbol of transmitted authority. He has since served as abbot of the New Orleans Zen Temple while residing in Sewanee, Tennessee, where he directs the Stone Nest Dōjō and oversees the wider American Zen Association sangha. He is the author of *No Fear Zen: Discovering Balance in an Unbalanced World* (2015) among other writings.",
+      "Richard Reishin Collins (born 1952, Eugene, Oregon) is the second abbot of the New Orleans Zen Temple and the principal dharma successor of Robert Livingston Roshi. An academic by profession (English / comparative literature), he began Zen practice with Livingston in 2001, received monastic ordination in 2010, was given permission to teach in 2012, and received shihō (dharma transmission) from Livingston at midnight on 1 January 2016 in the dōjō at 748 Camp Street — the intimate ceremony in which Livingston handed over his kotsu (the curved teaching stick) as the symbol of transmitted authority. He has since served as abbot of the New Orleans Zen Temple while residing in Sewanee, Tennessee, where he directs the Stone Nest Dōjō and oversees the wider American Zen Association sangha. He is the author of *No Fear Zen: Discovering Balance in an Unbalanced World* (2015) among other writings[1].",
     citations: [
       { sourceId: "src_new_orleans_zen_temple", fieldName: "biography", pageOrSection: "About — Richard Reishin Collins, second abbot" },
       { sourceId: "src_wikipedia", fieldName: "biography", pageOrSection: "New Orleans Zen Temple" },
+    ],
+    footnotes: [
+      { index: 1, sourceId: "src_new_orleans_zen_temple", pageOrSection: "New Orleans Zen Temple — biography" },
     ],
     transmissions: [
       {
@@ -104,9 +110,12 @@ export const BRANCH_F_MASTERS: KVMaster[] = [
     deathPrecision: "unknown",
     deathConfidence: "high",
     biography:
-      "Tony Bland (born 1946, Starkville, Mississippi) is a dharma heir of Robert Livingston Roshi and the founder of the Starkville Zen Dōjō. A counsellor and psychotherapist by profession, he began training with Livingston at the New Orleans Zen Temple in 1984, took lay ordination in 1985, monastic ordination in 1992, served as shusso (head trainee) in 1998, and received shihō (dharma transmission) from Livingston in 2004 — becoming a fully authorised lineage holder and an independent teacher in the Deshimaru–Livingston line. He returned to Mississippi in 1994 and established the Starkville Zen Dōjō, beginning regular teaching in 1995 and assuming full teaching autonomy after the 2004 transmission. With Richard Reishin Collins he is one of the two documented dharma successors of Livingston Roshi.",
+      "Tony Bland (born 1946, Starkville, Mississippi) is a dharma heir of Robert Livingston Roshi and the founder of the Starkville Zen Dōjō. A counsellor and psychotherapist by profession, he began training with Livingston at the New Orleans Zen Temple in 1984, took lay ordination in 1985, monastic ordination in 1992, served as shusso (head trainee) in 1998, and received shihō (dharma transmission) from Livingston in 2004 — becoming a fully authorised lineage holder and an independent teacher in the Deshimaru–Livingston line. He returned to Mississippi in 1994 and established the Starkville Zen Dōjō, beginning regular teaching in 1995 and assuming full teaching autonomy after the 2004 transmission. With Richard Reishin Collins he is one of the two documented dharma successors of Livingston Roshi[1].",
     citations: [
       { sourceId: "src_new_orleans_zen_temple", fieldName: "biography", pageOrSection: "Lineage — Livingston's two successors: Tony Bland and Richard Collins" },
+    ],
+    footnotes: [
+      { index: 1, sourceId: "src_new_orleans_zen_temple", pageOrSection: "New Orleans Zen Temple — biography" },
     ],
     transmissions: [
       {
@@ -135,10 +144,13 @@ export const BRANCH_F_MASTERS: KVMaster[] = [
     deathPrecision: "unknown",
     deathConfidence: "high",
     biography:
-      "Eishuku Monika Leibundgut is a Swiss Sōtō Zen nun in the Deshimaru lineage and the designated successor of Meihō Missen Michel Bovay at the Zen Dōjō Zürich. Bodhisattva-ordained in 1986 and ordained as a nun in 1988, she served as Bovay's assistant for more than two decades. After his serious illness in 2007 she took over leadership of the dōjō, supported by Bovay until his death in 2009. Her own dharma transmission follows the same pattern as her teacher's: Yūkō Okamoto Roshi of Teishōji invited her to perform the hossen-shiki at Teishōji in 2012 and conferred shihō in 2013, followed by zuise at Eihei-ji and Sōji-ji with the Zürich and Vienna sanghas in attendance. She continues to lead the Zen Dōjō Zürich (an AZI-affiliated dōjō originally founded by Deshimaru in 1975) and edited Bovay's posthumous memoir *Deshimaru — Histoires vécues avec un maître zen* (Le Relié, 2022).",
+      "Eishuku Monika Leibundgut is a Swiss Sōtō Zen nun in the Deshimaru lineage and the designated successor of Meihō Missen Michel Bovay at the Zen Dōjō Zürich. Bodhisattva-ordained in 1986 and ordained as a nun in 1988, she served as Bovay's assistant for more than two decades. After his serious illness in 2007 she took over leadership of the dōjō, supported by Bovay until his death in 2009. Her own dharma transmission follows the same pattern as her teacher's: Yūkō Okamoto Roshi of Teishōji invited her to perform the hossen-shiki at Teishōji in 2012 and conferred shihō in 2013, followed by zuise at Eihei-ji and Sōji-ji with the Zürich and Vienna sanghas in attendance. She continues to lead the Zen Dōjō Zürich (an AZI-affiliated dōjō originally founded by Deshimaru in 1975) and edited Bovay's posthumous memoir *Deshimaru — Histoires vécues avec un maître zen* (Le Relié, 2022)[1].",
     citations: [
       { sourceId: "src_dojo_lausanne", fieldName: "biography", pageOrSection: "Muijoji / zen.ch — Eishuku Monika Leibundgut, designated successor of Michel Bovay" },
       { sourceId: "src_azi", fieldName: "biography", pageOrSection: "Zen Dōjō Zürich (AZI-affiliated)" },
+    ],
+    footnotes: [
+      { index: 1, sourceId: "src_azi", pageOrSection: "Association Zen Internationale — directory and biographies" },
     ],
     transmissions: [
       {

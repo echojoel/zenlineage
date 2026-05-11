@@ -70,7 +70,7 @@ export const BRANCH_D_MASTERS: KVMaster[] = [
     deathPrecision: "unknown",
     deathConfidence: "low",
     biography:
-      "Patrick Ferrieux is a French Sōtō Zen monk in the lineage of Taisen Deshimaru and Kōdō Sawaki, and the only publicly documented dharma-transmission recipient of Philippe Reiryū Coupey to date. He encountered Coupey at the Dojo Zen de Paris in 1995, was ordained as a monk by him in 2000, and received the transmission of the Dharma (shihō) from Coupey in 2021 — completing a transmission line that runs Sawaki → Kishigami → Coupey → Ferrieux on the shihō side, alongside the older Sawaki → Deshimaru → Coupey ordination line (per the Dojo Zen de Paris teachers roster and the Sangha Sans Demeure publications).\n\nAn engineer by training, Ferrieux has long served on the administrative and spiritual councils of both the Dojo Zen de Paris and the Association Zen Internationale (AZI), and is a regular presence at the AZI mother temple of La Gendronnière in the Loir-et-Cher. He directs sesshins and journées de zazen across the Sangha Sans Demeure / Zen Road network — including a recurring \"journée de zazen\" he has led at the Dojo zen de Nantes (most recently announced for 12 April 2026) — and runs the Daruma-Boutique Zen association, which supplies kesa, rakusu, zafu, and other practice materials to AZI dōjōs across France.",
+      "Patrick Ferrieux is a French Sōtō Zen monk in the lineage of Taisen Deshimaru and Kōdō Sawaki, and the only publicly documented dharma-transmission recipient of Philippe Reiryū Coupey to date. He encountered Coupey at the Dojo Zen de Paris in 1995, was ordained as a monk by him in 2000, and received the transmission of the Dharma (shihō) from Coupey in 2021 — completing a transmission line that runs Sawaki → Kishigami → Coupey → Ferrieux on the shihō side, alongside the older Sawaki → Deshimaru → Coupey ordination line (per the Dojo Zen de Paris teachers roster and the Sangha Sans Demeure publications)[1].\n\nAn engineer by training, Ferrieux has long served on the administrative and spiritual councils of both the Dojo Zen de Paris and the Association Zen Internationale (AZI), and is a regular presence at the AZI mother temple of La Gendronnière in the Loir-et-Cher. He directs sesshins and journées de zazen across the Sangha Sans Demeure / Zen Road network — including a recurring \"journée de zazen\" he has led at the Dojo zen de Nantes (most recently announced for 12 April 2026) — and runs the Daruma-Boutique Zen association, which supplies kesa, rakusu, zafu, and other practice materials to AZI dōjōs across France[2].",
     citations: [
       {
         sourceId: "src_wikipedia",
@@ -87,6 +87,10 @@ export const BRANCH_D_MASTERS: KVMaster[] = [
         fieldName: "biography",
         pageOrSection: "AZI council & La Gendronnière instructors",
       },
+    ],
+    footnotes: [
+      { index: 1, sourceId: "src_zen_road", pageOrSection: "Zen Road — Sangha Sans demeure" },
+      { index: 2, sourceId: "src_zen_road", pageOrSection: "Zen Road — Sangha Sans demeure" },
     ],
     transmissions: [
       {
