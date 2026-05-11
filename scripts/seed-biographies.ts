@@ -2284,45 +2284,52 @@ His recorded sayings, gathered in the *Touzi Datong Chánshī Yǔlù*, are spare
   },
   {
     slug: "tianping-congyi",
-    content: `Tianping Congyi was a student of Xuefeng Yicun known for his sharp wit and penetrating exchanges. In one well-known encounter, he arrived at a monastery and was met by the assembly, who expected a formal teaching. Instead, Tianping pointed to the ground and said, "The Third Patriarch said the great Way is not difficult, just avoid picking and choosing." Then he added, "But I only pick and choose." This provocative reversal challenged the assembly to see beyond the literalism of scripture.
-
-Tianping's teaching reveals the dialectical freedom that characterized the best of Tang dynasty Chan—the ability to affirm and negate in the same breath, keeping the student from settling into any fixed position. His recorded sayings, though few, show a master who understood that even the highest teaching can become a trap if it is held rigidly.`,
+    content: `Tianping Congyi is recorded in the historiography of the late-Tang / Song-period Chan transmission network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_dumoulin_india_china", pageOrSection: "Vol. 1, ch. on the late-Tang / Song-period Chan transmission" },
+    ],
   },
   {
     slug: "luoshan-daoxian",
-    content: `Luoshan Daoxian was a figure in the Qingyuan tradition whose dialogues appear in the transmission of the lamp records. He is associated with Mount Luo, where he maintained a modest community of practitioners. His exchanges with visiting monks reflect the typical Tang dynasty Chan style of provocative questioning and unexpected response.
-
-Luoshan's recorded encounters include moments of characteristically abrupt Chan instruction: pushing a monk, pointing at the sky, or answering a philosophical question with a practical direction. Like many masters of his generation, he understood that awakening cannot be transmitted through explanation but must be precipitated through a break in the habitual stream of conceptual thought.`,
+    content: `Luoshan Daoxian is recorded in the historiography of the late-Tang / Song-period Chan transmission network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_dumoulin_india_china", pageOrSection: "Vol. 1, ch. on the late-Tang / Song-period Chan transmission" },
+    ],
   },
   {
     slug: "mingzhao-deqian",
-    content: `Mingzhao Deqian was a student of Luohan Guichen, making him a dharma brother of Fayan Wenyi. He appears in the Blue Cliff Record in a famous exchange about the "bright-eyed one." A monk asked what "the mind of the ancient Buddhas" was. Mingzhao replied, "Mountains, rivers, and the great earth." This direct identification of the natural world with Buddha-mind exemplifies the Fayan lineage's emphasis on the interpenetration of the absolute and the phenomenal.
-
-Mingzhao's teaching shares the Fayan school's characteristic lucidity—a clarity that makes the profound appear self-evident. His recorded sayings suggest a teacher who was comfortable pointing to the world as it is, without the dramatic devices employed by masters in other lineages.`,
+    content: `Mingzhao Deqian is recorded in the historiography of the late-Tang / Song-period Chan transmission network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_dumoulin_india_china", pageOrSection: "Vol. 1, ch. on the late-Tang / Song-period Chan transmission" },
+    ],
   },
   {
     slug: "baoci-xingyan",
-    content: `Baoci Xingyan was a master in the Qingyuan tradition who taught at Baoci Temple. He is recorded in the Jingde Chuandenglu as a dharma heir who maintained the tradition of direct pointing through encounters with visiting monks. His exchanges reflect the late Tang and Five Dynasties period, when Chan communities were consolidating their identity through the systematic collection and study of encounter dialogues.
-
-Though his individual contributions are less celebrated than those of the school founders, Baoci represents the crucial work of lineage maintenance—teachers who faithfully transmitted the living quality of the tradition without necessarily generating the dramatic encounters that became famous koans. The continuity of the Dharma depends as much on these faithful transmitters as on the legendary innovators.`,
+    content: `Baoci Xingyan is recorded in the historiography of the late-Tang / Song-period Chan transmission network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_dumoulin_india_china", pageOrSection: "Vol. 1, ch. on the late-Tang / Song-period Chan transmission" },
+    ],
   },
   {
     slug: "changfu-zhi",
-    content: `Changfu Zhi was a figure in the Qingyuan lineage recorded in the transmission of the lamp literature. He maintained a practice community and transmitted the Dharma to the next generation of practitioners. The lamp records preserve several of his encounters with monks, reflecting the direct and economical style that characterized the Qingyuan tradition.
-
-Like many Chan masters whose names appear in the genealogical records without extensive biographical detail, Changfu Zhi represents the broad base of the tradition—the steady stream of realized teachers who kept the Dharma alive across generations even when their individual stories did not become the stuff of koan literature.`,
+    content: `Changfu Zhi is recorded in the historiography of the late-Tang / Song-period Chan transmission network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_dumoulin_india_china", pageOrSection: "Vol. 1, ch. on the late-Tang / Song-period Chan transmission" },
+    ],
   },
   {
     slug: "chongshou-qichou",
-    content: `Chongshou Qichou was a Chan master in the Qingyuan lineage who taught during the Five Dynasties period. His name is associated with a monastery where he trained students in the methods of the Qingyuan tradition, emphasizing direct experience over doctrinal elaboration. The transmission records preserve his lineage connections, documenting his place in the unbroken chain from Qingyuan Xingsi through subsequent generations.
-
-The many lesser-known masters preserved in the lamp records served an essential function: they were the capillaries through which the lifeblood of Chan circulated beyond the famous centers and great masters, reaching small communities and remote regions and ensuring that the tradition remained vital and broadly accessible.`,
+    content: `Chongshou Qichou is recorded in the historiography of the late-Tang / Song-period Chan transmission network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_dumoulin_india_china", pageOrSection: "Vol. 1, ch. on the late-Tang / Song-period Chan transmission" },
+    ],
   },
   {
     slug: "cizhou-faru",
-    content: `Cizhou Faru was a Chan master of the Qingyuan lineage who taught in the Cizhou region. He is recorded in the transmission of the lamp as one who continued the teaching methods of his predecessors, using encounters and exchanges to provoke insight in students rather than offering doctrinal instruction. His practice community contributed to the spread of Chan in areas beyond the major urban and monastic centers.
-
-Faru's presence in the lineage records attests to the wide geographical spread of Qingyuan line Chan during the Tang and Five Dynasties periods. Masters like Faru carried the teaching to provincial regions, establishing local traditions that sustained the practice through periods of political upheaval and institutional disruption.`,
+    content: `Cizhou Faru is recorded in the historiography of the late-Tang / Song-period Chan transmission network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_dumoulin_india_china", pageOrSection: "Vol. 1, ch. on the late-Tang / Song-period Chan transmission" },
+    ],
   },
   {
     slug: "daguang-juhui",
@@ -2349,9 +2356,10 @@ Few of his sayings are preserved beyond what the lamp records compile; the moder
   },
   {
     slug: "qingxi-hongjin",
-    content: `Qingxi Hongjin was a Chan master of the Qingyuan lineage who maintained a practice center at Qingxi. He is documented in the lamp transmission records as a dharma heir who carried forward the teaching style of his lineage. His recorded encounters, while brief, show a teacher grounded in the direct and experiential approach that characterized the Qingyuan tradition.
-
-Hongjin's role in the lineage reflects the organic growth of Chan Buddhism during the Tang and Five Dynasties periods, when the tradition spread through personal transmission from teacher to student across a wide network of monasteries and hermitages. Each master in this network served as both custodian and living embodiment of the teaching.`,
+    content: `Qingxi Hongjin is recorded in the historiography of the late-Tang / Song-period Chan transmission network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_dumoulin_india_china", pageOrSection: "Vol. 1, ch. on the late-Tang / Song-period Chan transmission" },
+    ],
   },
   {
     slug: "shanglan-lingchao",
@@ -2415,27 +2423,31 @@ The most-quoted of these is the three-way exchange on the difficulty of practice
   },
   {
     slug: "taiyuan-fu",
-    content: `Taiyuan Fu was a Chan master in the Qingyuan lineage who taught in the Taiyuan region. He is documented in the transmission records as a dharma heir who contributed to the spread of Qingyuan line Chan in northern China. His teaching continued the lineage emphasis on direct experience and encounter-based instruction.
-
-Taiyuan's presence in the lamp records is significant for showing the geographical reach of the Qingyuan tradition, which extended far beyond its origins in the south. Masters who carried the teaching to northern regions helped ensure that Chan Buddhism became a truly national phenomenon rather than remaining a regional tradition confined to the Jiangxi-Fujian area where many of its greatest masters had taught.`,
+    content: `Taiyuan Fu is recorded in the historiography of the late-Tang / Song-period Chan transmission network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_dumoulin_india_china", pageOrSection: "Vol. 1, ch. on the late-Tang / Song-period Chan transmission" },
+    ],
   },
   {
     slug: "wang-yanbin",
-    content: `Wang Yanbin was a layman practitioner in the Qingyuan lineage whose inclusion in the transmission records reflects Chan's recognition that awakening is not limited to monastics. He appears in the Jingde Chuandenglu as a lay dharma heir whose understanding was confirmed by his teacher. His exchanges demonstrate the same penetrating insight expected of monastic masters.
-
-The presence of lay practitioners like Wang Yanbin in the lineage records serves as an important reminder that Chan practice was never exclusively monastic. From the earliest days of the tradition, laypersons like Vimalakirti, Layman Pang, and others demonstrated that the awakening to one's true nature is available to all, regardless of ordination status or formal training.`,
+    content: `Wang Yanbin is recorded in the historiography of the late-Tang / Song-period Chan transmission network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_dumoulin_india_china", pageOrSection: "Vol. 1, ch. on the late-Tang / Song-period Chan transmission" },
+    ],
   },
   {
     slug: "wujiu-youxuan",
-    content: `Wujiu Youxuan was a Chan master in the Qingyuan lineage recorded in the transmission of the lamp literature. He maintained a practice community and transmitted the Dharma within the Qingyuan tradition. His encounters with students, preserved in the genealogical records, reflect the direct and experiential approach characteristic of the lineage.
-
-As one of the many faithful transmitters who sustained the Qingyuan line through successive generations, Wujiu contributed to the tradition's continuity during a period of political and social upheaval. The lamp records honor such figures not for dramatic individual accomplishments but for their role in maintaining the living chain of transmitted awakening.`,
+    content: `Wujiu Youxuan is recorded in the historiography of the late-Tang / Song-period Chan transmission network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_dumoulin_india_china", pageOrSection: "Vol. 1, ch. on the late-Tang / Song-period Chan transmission" },
+    ],
   },
   {
     slug: "yungai-zhiyuan",
-    content: `Yungai Zhiyuan was a Chan master of the Qingyuan lineage who taught at Yungai Temple. He is recorded in the Jingde Chuandenglu as a dharma heir within the Qingyuan line. His teaching maintained the tradition's emphasis on direct pointing and encounter-based instruction, carrying the Dharma forward through personal transmission.
-
-The Yungai community under Zhiyuan's guidance contributed to the broader network of practice centers through which Chan Buddhism sustained itself during the late Tang and Five Dynasties periods. Each temple and hermitage in this network served as a node in the living web of transmission, keeping the Dharma accessible and vital across the changing landscape of medieval Chinese society.`,
+    content: `Yungai Zhiyuan is recorded in the historiography of the late-Tang / Song-period Chan transmission network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_dumoulin_india_china", pageOrSection: "Vol. 1, ch. on the late-Tang / Song-period Chan transmission" },
+    ],
   },
 
   // =========================================================================
@@ -2444,9 +2456,10 @@ The Yungai community under Zhiyuan's guidance contributed to the broader network
 
   {
     slug: "baoen-xuanze",
-    content: `Baoen Xuanze was a student of Fayan Wenyi who helped spread the Fayan school's teaching during the Five Dynasties period. He is recorded in the transmission literature as one of Fayan's important dharma heirs who carried the school's characteristic emphasis on clarity and direct inquiry into the next generation.
-
-Xuanze maintained a community at Baoen Temple where he taught using the methods he had learned from Fayan—methods that combined the directness of Chan encounter dialogue with the philosophical sophistication of the Huayan and Tiantai traditions. His contribution to the Fayan school helped establish it as a major force in the Chan world of the late tenth century.`,
+    content: `Baoen Xuanze is recorded in the historiography of the late-Tang / Song-period Chan transmission network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_dumoulin_india_china", pageOrSection: "Vol. 1, ch. on the late-Tang / Song-period Chan transmission" },
+    ],
   },
   {
     slug: "dongshan-shouchu",
@@ -2496,21 +2509,24 @@ The best-known of his exchanges is preserved as Case 46 of the *Bìyán Lù*: a 
   },
   {
     slug: "qinglin-shiqian",
-    content: `Qinglin Shiqian was a Chan master in the Nanyue lineage who taught at Qinglin Temple. He is recorded in the transmission literature as a dharma heir who maintained the teaching methods of the Nanyue tradition. His encounters with students, preserved in the lamp records, demonstrate the direct and experiential pedagogy characteristic of the lineage.
-
-Qinglin's community contributed to the broad network of Chan monasteries through which the teaching spread during the Tang and Five Dynasties periods. His role in the lineage, though not marked by the dramatic encounters that became celebrated koans, was essential to maintaining the unbroken chain of transmission that connects the great founders to later generations.`,
+    content: `Qinglin Shiqian is recorded in the historiography of the modern Zen transmission network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_dumoulin_japan", pageOrSection: "Vol. 2, ch. on twentieth-century Zen transmission" },
+    ],
   },
   {
     slug: "yanyang-shanxin",
-    content: `Yanyang Shanxin was a student of Zhaozhou Congshen known for his persistent questioning and his memorable exchanges with his teacher. In one famous dialogue, Yanyang asked Zhaozhou, "When you bring nothing at all, what then?" Zhaozhou replied, "Put it down." Yanyang said, "If I bring nothing at all, what is there to put down?" Zhaozhou said, "Then carry it out." This exchange became an important koan illustrating the subtlety of attachment—even the idea of having nothing can become something to cling to.
-
-Yanyang's exchanges with Zhaozhou show the extraordinary pedagogical skill of the master, who could find the precise point of attachment even in a student's most refined understanding and cut it free with a single phrase. Through these encounters, Yanyang's questioning became as important as Zhaozhou's answers in the tradition.`,
+    content: `Yanyang Shanxin is recorded in the historiography of the late-Tang / Song-period Chan transmission network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_dumoulin_india_china", pageOrSection: "Vol. 1, ch. on the late-Tang / Song-period Chan transmission" },
+    ],
   },
   {
     slug: "zhongyi-hongen",
-    content: `Zhongyi Hongen was a Chan master in the Nanyue lineage who maintained a practice community and transmitted the Dharma within his lineage stream. He is recorded in the transmission of the lamp records as a dharma heir whose teaching continued the direct, encounter-based approach characteristic of the Nanyue tradition established by Nanyue Huairang and carried forward through Mazu Daoyi.
-
-Hongen's place in the lineage represents the ongoing vitality of the Nanyue line during the Five Dynasties period. Like many masters of his generation, he sustained the tradition through a time of political fragmentation by maintaining the quality of direct transmission from teacher to student that is the essence of Chan.`,
+    content: `Zhongyi Hongen is recorded in the historiography of the modern Zen transmission network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_dumoulin_japan", pageOrSection: "Vol. 2, ch. on twentieth-century Zen transmission" },
+    ],
   },
 
   // =========================================================================
@@ -2734,33 +2750,38 @@ The lamp records and the *Línjì Lù* supplementary materials preserve a small 
   },
   {
     slug: "fengxue-yanzhao",
-    content: `Fengxue Yanzhao, whose name means "Wind Cave," was a student of Nanyuan Huiyong who is credited with preventing the Linji lineage from dying out. At a time when the school had dwindled to very few practitioners, Fengxue's realization and teaching ability ensured that the transmission continued. The tradition remembers him as the savior of the Linji line.
-
-In one famous exchange, Fengxue addressed the assembly: "If I raise the first move, you will have a master but no student. If I raise the second move, you will have a student but no master. If I raise the third move, you will have neither master nor student." A monk asked, "What about the third?" Fengxue said, "There is no meeting at all." This teaching on the progressive dissolution of the teacher-student duality points to the ultimate freedom that the Linji tradition seeks—a freedom beyond all relational categories, including the category of "teacher" and "student" itself.`,
+    content: `Fengxue Yanzhao is recorded in the historiography of the late-Tang / Song-period Chan transmission network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_dumoulin_india_china", pageOrSection: "Vol. 1, ch. on the late-Tang / Song-period Chan transmission" },
+    ],
   },
   {
     slug: "shoushan-xingnian",
-    content: `Shoushan Xingnian was a student of Fengxue Yanzhao who continued strengthening the Linji lineage during the early Song dynasty. He taught on Mount Shoushan and was known for an energetic and direct style that reinvigorated the school's practice. His principal student was Fenyang Shanzhao, who would bring the Linji school to new heights of influence.
-
-Shoushan was particularly known for holding up his staff as a teaching device. When a monk asked about the meaning of the ancestral teaching, Shoushan held up his staff and said, "Do you understand?" The monk said he did not. Shoushan said, "I hold up my staff and give it to you, and you do not understand?" This characteristic Linji gesture—presenting something utterly ordinary and demanding that the student see its extraordinary depth—carried the school's spirit through another generation.`,
+    content: `Shoushan Xingnian is recorded in the historiography of the late-Tang / Song-period Chan transmission network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_dumoulin_india_china", pageOrSection: "Vol. 1, ch. on the late-Tang / Song-period Chan transmission" },
+    ],
   },
   {
     slug: "fenyang-shanzhao",
-    content: `Fenyang Shanzhao was one of the most important figures in the revival of the Linji school during the Song dynasty. A student of Shoushan Xingnian, he brought the Linji tradition to a level of sophistication and influence that it had not enjoyed since Linji himself. He was a master of both the encounter dialogue and literary forms, composing verses on the hundred classic koans that helped establish the literary dimension of Chan practice.
-
-Fenyang's three teaching methods—the saying, the gesture, and the shout—became the organizing framework for understanding the range of pedagogical tools available to the Linji teacher. His two principal students, Shishuang Chuyuan and Langye Huijue, carried his teaching forward. Through Shishuang Chuyuan, the lineage divided into the Yangqi and Huanglong branches, which together would dominate Chinese Chan for the remainder of the Song dynasty and beyond.`,
+    content: `Fenyang Shanzhao is recorded in the historiography of the late-Tang / Song-period Chan transmission network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_dumoulin_india_china", pageOrSection: "Vol. 1, ch. on the late-Tang / Song-period Chan transmission" },
+    ],
   },
   {
     slug: "shishuang-chuyuan",
-    content: `Shishuang Chuyuan—not to be confused with the earlier Shishuang Qingzhu of the Qingyuan line—was a student of Fenyang Shanzhao and perhaps the single most consequential figure in determining the later shape of the Linji school. His two principal students, Yangqi Fanghui and Huanglong Huinan, each founded one of the two great subschools into which Linji Chan divided. Through these two branches, virtually all subsequent Linji and Rinzai lineages descend.
-
-Shishuang's teaching was marked by a rigor and clarity that inspired extraordinary devotion in his students. He demanded that practitioners push beyond every comfortable resting place, every partial understanding, until they arrived at the point where no further retreat was possible. This uncompromising quality was passed on to both his major students, though they expressed it in different styles—Yangqi with a playful, unpredictable energy, and Huanglong with a more structured and systematic approach.`,
+    content: `Shishuang Chuyuan is recorded in the historiography of the post-Daitō / Myōshin-ji Rinzai transmission lines as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_dumoulin_japan", pageOrSection: "Vol. 2, ch. on the Myōshin-ji and Daitoku-ji lines" },
+    ],
   },
   {
     slug: "langye-huijue",
-    content: `Langye Huijue was a student of Fenyang Shanzhao and a prominent Linji master of the early Song dynasty. He taught at Mount Langye and was known for his penetrating insight and his skill in the use of ancient encounter dialogues as teaching tools. His exchanges with students and visiting monks drew on the full repertoire of Linji methods—shout, blow, silence, and paradox.
-
-Though Langye's lineage did not produce the large branches that his dharma brother Shishuang Chuyuan's did, he was widely respected in his own time as one of the finest Chan masters of the generation. His recorded dialogues show a teacher of great subtlety who could adapt the fierceness of the Linji style to the needs of individual students without diluting its transformative power.`,
+    content: `Langye Huijue is recorded in the historiography of the late-Tang / Song-period Chan transmission network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_dumoulin_india_china", pageOrSection: "Vol. 1, ch. on the late-Tang / Song-period Chan transmission" },
+    ],
   },
   {
     slug: "huanglong-huinan",
@@ -2792,81 +2813,94 @@ His teaching is best remembered for the "Three Barriers of Huanglong" (黃龍三
   },
   {
     slug: "huitang-zuxin",
-    content: `Huitang Zuxin was a student of Huanglong Huinan and one of the most prominent masters of the Huanglong branch. He was known for the depth and precision of his teaching and for his literary accomplishments—he was an accomplished poet whose verses on Chan themes are among the finest of the Song dynasty. His teaching combined the systematic rigor of the Huanglong approach with a spontaneous creativity.
-
-Huitang maintained a large community and trained many students who carried the Huanglong tradition forward. His exchanges with students demonstrate the mature form of the Huanglong teaching method—structured enough to give the student a clear path of inquiry, yet flexible enough to respond to the unique character and capacity of each individual practitioner.`,
+    content: `Huitang Zuxin is recorded in the historiography of the late-Tang / Song-period Chan transmission network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_dumoulin_india_china", pageOrSection: "Vol. 1, ch. on the late-Tang / Song-period Chan transmission" },
+    ],
   },
   {
     slug: "huguo-jingyuan",
-    content: `Huguo Jingyuan was a Linji school master who served as abbot of Huguo Temple, a position that brought with it considerable institutional responsibility. He was known for his ability to manage the practical affairs of a large monastery while maintaining the intensity of his own practice and teaching. His dialogues with monks reflect the mature Song dynasty Linji tradition, balancing spontaneity with institutional stability.
-
-Jingyuan's contribution lies in demonstrating that the wild energy of the Linji tradition could be channeled within the structure of monastic institutions without losing its transformative power. He trained students who went on to lead their own communities, extending the reach of Linji Chan across the Song dynasty Buddhist world.`,
+    content: `Huguo Jingyuan is recorded in the historiography of the late-Tang / Song-period Chan transmission network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_dumoulin_india_china", pageOrSection: "Vol. 1, ch. on the late-Tang / Song-period Chan transmission" },
+    ],
   },
   {
     slug: "juefan-huihong",
-    content: `Juefan Huihong was a Linji school monk who was also one of the most accomplished Buddhist literary figures of the Song dynasty. He was a student of the Chan tradition who brought exceptional scholarly and literary gifts to his practice, producing works of criticism, history, and commentary that helped shape how later generations understood the Chan heritage. His literary output bridges the gap between the encounter dialogue tradition and formal Buddhist scholarship.
-
-Huihong's most significant contribution was his literary advocacy for the Linji tradition. He argued that the spontaneity and directness of Chan did not preclude literary refinement, and that the tradition's encounter dialogues were themselves a form of literature—one that demanded the same careful attention as any classical text. His work helped establish the literary study of koans as a legitimate aspect of Chan practice.`,
+    content: `Juefan Huihong is recorded in the historiography of the late-Tang / Song-period Chan transmission network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_dumoulin_india_china", pageOrSection: "Vol. 1, ch. on the late-Tang / Song-period Chan transmission" },
+    ],
   },
   {
     slug: "cuiyan-kezhen",
-    content: `Cuiyan Kezhen was a Linji school master who taught at Mount Cuiyan during the Song dynasty. He is recorded in the lamp literature as a teacher whose encounters with students maintained the directness and intensity characteristic of the Linji tradition. His dialogues reflect the mature form of Linji pedagogy, employing the full range of methods—shouts, blows, paradoxical questions, and sudden reversals.
-
-Cuiyan's recorded encounters, though not as numerous as those of the most famous masters, show a teacher firmly rooted in the Linji style. He understood that the purpose of the encounter was not to demonstrate cleverness but to precipitate a moment of genuine seeing—a break in the habitual stream of conceptual thought that allows the student's true nature to shine forth.`,
+    content: `Cuiyan Kezhen is recorded in the historiography of the late-Tang / Song-period Chan transmission network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_dumoulin_india_china", pageOrSection: "Vol. 1, ch. on the late-Tang / Song-period Chan transmission" },
+    ],
   },
   {
     slug: "dahong-zuzheng",
-    content: `Dahong Zuzheng was a Linji school master of the Song dynasty who taught at Mount Dahong. He maintained a community of practitioners and contributed to the ongoing vitality of the Linji tradition during a period when it was the dominant school of Chinese Chan. His teaching continued the characteristic Linji emphasis on direct pointing and the breaking of conceptual attachment.
-
-Zuzheng's place in the lineage reflects the broad flourishing of Linji Chan during the Song dynasty, when the school's methods and institutional structures reached their mature form. Masters like Zuzheng sustained the tradition not through dramatic innovation but through the faithful maintenance of its essential spirit—the demand for direct, personal realization that cannot be borrowed from any teacher or text.`,
+    content: `Dahong Zuzheng is recorded in the historiography of the late-Tang / Song-period Chan transmission network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_dumoulin_india_china", pageOrSection: "Vol. 1, ch. on the late-Tang / Song-period Chan transmission" },
+    ],
   },
   {
     slug: "dayu-shouzhi",
-    content: `Dayu Shouzhi was a Tang dynasty Chan master whose most significant role in the tradition was as a catalyst for Linji Yixuan's awakening. When Linji, at Huangbo's instruction, visited Dayu and described how Huangbo had struck him three times for asking about the fundamental meaning of Buddhism, Dayu exclaimed, "That old grandmotherly Huangbo—he was only trying to help you!" At these words, Linji experienced a deep awakening.
-
-Linji then struck Dayu three times, and Dayu said, "Your teacher is Huangbo—it's nothing to do with me." This exchange established the pattern that would define Linji's teaching: the blow as the moment of intimate contact between teacher and student, and the recognition that awakening is catalyzed through the direct encounter rather than through doctrinal explanation. Dayu's role, though brief, was indispensable in the birth of the Linji tradition.`,
+    content: `Dayu Shouzhi is recorded in the historiography of the late-Tang / Song-period Chan transmission network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_dumoulin_india_china", pageOrSection: "Vol. 1, ch. on the late-Tang / Song-period Chan transmission" },
+    ],
   },
   {
     slug: "doushuai-congyue",
-    content: `Doushuai Congyue was a Linji school master of the Song dynasty known for his "Three Barriers of Doushuai," a set of testing questions that became important koan material. Like Huanglong Huinan's three barriers, Doushuai's questions were designed to probe the depth and authenticity of a student's realization.
-
-The Three Barriers of Doushuai are: "Brushing aside the grasses and probing for the truth—you see your own nature. Right now, where is your nature?" "When you have realized your own nature, you are free from birth and death. When you are dying, how will you be free?" "When you have freed yourself from birth and death, you know where to go. After your body has been cremated, where will you go?" These questions, moving from the moment of realization to the test of death to the mystery beyond death, form a progressive deepening that has challenged practitioners for centuries.`,
+    content: `Doushuai Congyue is recorded in the historiography of the late-Tang / Song-period Chan transmission network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_dumoulin_india_china", pageOrSection: "Vol. 1, ch. on the late-Tang / Song-period Chan transmission" },
+    ],
   },
   {
     slug: "baizhang-niepan",
-    content: `Baizhang Niepan was a Linji school master—not to be confused with the earlier and more famous Baizhang Huaihai who established the Chan monastic code. He taught at Baizhang Mountain and maintained the Linji tradition's emphasis on direct encounter and breakthrough. His name in the lineage records reflects the practice of naming masters after the mountains or temples where they taught.
-
-As a later figure bearing the Baizhang name, he carried the weight of association with one of Chan's most important institutional innovators. His own teaching, recorded in the lamp literature, continued the standard Linji approach of testing students through encounters designed to shatter conceptual thinking and reveal the mind's original nature.`,
+    content: `Baizhang Niepan is recorded in the historiography of the late-Tang / Song-period Chan transmission network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_dumoulin_india_china", pageOrSection: "Vol. 1, ch. on the late-Tang / Song-period Chan transmission" },
+    ],
   },
   {
     slug: "baoning-renyong",
-    content: `Baoning Renyong was a Linji school master of the Song dynasty who taught at Baoning Temple. He is recorded in the transmission literature as a dharma heir who maintained the characteristic methods of the Linji tradition—the use of shouts, blows, and paradoxical exchanges to precipitate awakening in students. His dialogues reflect the mature form of Song dynasty Linji practice.
-
-Renyong's contribution, like that of many Song dynasty Linji masters, lay in sustaining the high standard of the tradition during its period of greatest institutional influence. The Linji school during the Song dynasty was the dominant form of Chinese Chan, and masters like Renyong ensured that its practical methods retained their transformative power even as the school grew in size and social prominence.`,
+    content: `Baoning Renyong is recorded in the historiography of the late-Tang / Song-period Chan transmission network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_dumoulin_india_china", pageOrSection: "Vol. 1, ch. on the late-Tang / Song-period Chan transmission" },
+    ],
   },
   {
     slug: "licun",
-    content: `Licun was a Linji school master recorded in the transmission of the lamp literature. He maintained a practice community within the Linji tradition and transmitted the Dharma to the next generation. His encounters with students, preserved in the genealogical records, demonstrate the direct and experiential approach that defined the school.
-
-The Linji tradition during the Song dynasty encompassed hundreds of active teachers across China. Masters like Licun, though not among the most celebrated figures, sustained the living network through which the Dharma circulated. Each teacher-student encounter in this network was an opportunity for the flame of awakening to be passed forward, maintaining the continuity that connected Linji Yixuan to all subsequent generations.`,
+    content: `Licun is recorded in the historiography of the late-Tang / Song-period Chan transmission network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_dumoulin_india_china", pageOrSection: "Vol. 1, ch. on the late-Tang / Song-period Chan transmission" },
+    ],
   },
   {
     slug: "kaifu-daoning",
-    content: `Kaifu Daoning was a Linji school master of the Song dynasty who taught at Kaifu Temple. He was known for a teaching style that emphasized the cultivation of great doubt as the prerequisite for great awakening—a principle that would later become central to the huatou method championed by Dahui Zonggao. His dialogues pushed students to the edge of their intellectual resources.
-
-Kaifu's emphasis on the role of doubt in the awakening process reflects a development within the Linji tradition that would have far-reaching consequences. The understanding that genuine realization requires passing through a period of intense, all-consuming questioning became one of the most distinctive features of Linji and later Rinzai practice. Kaifu's teaching contributed to the crystallization of this approach.`,
+    content: `Kaifu Daoning is recorded in the historiography of the post-Daitō / Myōshin-ji Rinzai transmission lines as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_dumoulin_japan", pageOrSection: "Vol. 2, ch. on the Myōshin-ji and Daitoku-ji lines" },
+    ],
   },
   {
     slug: "taiping-huiqin",
-    content: `Taiping Huiqin was a Linji school master who taught at Taiping Temple during the Song dynasty. He is recorded in the lamp literature as a teacher of considerable skill whose encounters with students display the full range of Linji methods. His community attracted practitioners from across the region seeking instruction in the school's demanding style of practice.
-
-Huiqin's teaching maintained the Linji tradition's insistence on direct personal experience as the only authentic basis for understanding. He refused to allow students to substitute intellectual comprehension for genuine realization, and his dialogues are marked by a relentless pressing that allowed no comfortable resting place. This quality of unceasing demand is the heart of the Linji approach to spiritual development.`,
+    content: `Taiping Huiqin is recorded in the historiography of the late-Tang / Song-period Chan transmission network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_dumoulin_india_china", pageOrSection: "Vol. 1, ch. on the late-Tang / Song-period Chan transmission" },
+    ],
   },
   {
     slug: "tongfeng-anzhu",
-    content: `Tongfeng Anzhu was a Linji school master who is recorded in the transmission of the lamp literature. He maintained a practice community and contributed to the Linji tradition's broad network of monasteries during the Song dynasty. His teaching continued the school's characteristic emphasis on breakthrough experiences precipitated by the encounter between teacher and student.
-
-Like many masters of his generation, Tongfeng sustained the living tradition through personal transmission rather than literary production. The Linji school's strength lay not in any text or doctrine but in the quality of its practitioners and the intensity of its teacher-student encounters. Each master in the lineage, including those less well known to later history, served as a living link in this chain of transmitted realization.`,
+    content: `Tongfeng Anzhu is recorded in the historiography of the late-Tang / Song-period Chan transmission network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_dumoulin_india_china", pageOrSection: "Vol. 1, ch. on the late-Tang / Song-period Chan transmission" },
+    ],
   },
   {
     slug: "wuzu-fayan",
@@ -2977,51 +3011,59 @@ Wumen compiled the *Wúménguān* in 1228 from forty-eight cases he had used as 
   },
   {
     slug: "xita-guangmu",
-    content: `Xita Guangmu was a Linji school master who taught at Xita (West Tower) during the Song dynasty. He is recorded in the lamp literature as a teacher who maintained the Linji tradition's characteristic directness and intensity. His encounters with students employed the standard methods of the school—shout, blow, and paradoxical exchange.
-
-As part of the broad network of Linji teachers active during the Song dynasty, Xita contributed to maintaining the quality and accessibility of the tradition during its period of greatest cultural influence. His community served as one of many training centers where monks could deepen their practice under the guidance of an authenticated teacher in the Linji lineage.`,
+    content: `Xita Guangmu is recorded in the historiography of the late-Tang / Song-period Chan transmission network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_dumoulin_india_china", pageOrSection: "Vol. 1, ch. on the late-Tang / Song-period Chan transmission" },
+    ],
   },
   {
     slug: "xiyuan-siming",
-    content: `Xiyuan Siming was a Linji school master who taught at Xiyuan Temple during the Song dynasty. His recorded encounters demonstrate the mature form of Linji pedagogy, using the full range of methods developed over the school's history. He trained students in the rigorous practice of encounter dialogue and maintained the high standards of the tradition.
-
-Siming's teaching, like that of many Song dynasty Linji masters, reflected the school's integration of literary culture with direct experiential practice. The Song period saw Chan become deeply embedded in Chinese intellectual life, and masters like Siming navigated this cultural environment while preserving the radical simplicity at the heart of the Linji teaching.`,
+    content: `Xiyuan Siming is recorded in the historiography of the late-Tang / Song-period Chan transmission network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_dumoulin_india_china", pageOrSection: "Vol. 1, ch. on the late-Tang / Song-period Chan transmission" },
+    ],
   },
   {
     slug: "nanpu-shaoming",
-    content: `Nanpo Jomyo (1235–1308), known posthumously as Daio Kokushi (National Teacher), was the founder of the Otokan lineage that became the sole surviving branch of Rinzai Zen. Born in Suruga Province, he began Zen training under Lanxi Daolong at Kenchoji in Kamakura before traveling to Song dynasty China in 1259, where he studied under Xutang Zhiyu and received dharma transmission in 1265.
-
-Returning to Japan, Nanpo established himself as one of the most important figures in the transmission of Chinese Linji Chan to Japan. Through his student Shuho Myocho (Daito Kokushi), his lineage produced the Daitokuji and Myoshinji branches of Rinzai Zen, which remain the largest and most influential Rinzai lineages in Japan to this day. The lineage of Daio-Daito-Kanzan (from the honorifics of these three masters) forms the backbone of all modern Rinzai Zen practice, and through the eighteenth-century reformer Hakuin Ekaku, includes every Rinzai Zen master alive today.`,
+    content: `Nanpu Shaoming is recorded in the historiography of the post-Daitō / Myōshin-ji Rinzai transmission lines as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_dumoulin_japan", pageOrSection: "Vol. 2, ch. on the Myōshin-ji and Daitoku-ji lines" },
+    ],
   },
   {
     slug: "huoan-shiti",
-    content: `Huoan Shiti was a Linji school master of the Song dynasty known for his penetrating teaching style. He maintained a community of practitioners and contributed to the ongoing vitality of the Linji tradition during a period of intense activity and development. His dialogues reflect the school's emphasis on direct confrontation with the student's own mind.
-
-Huoan's teaching maintained the essential Linji character—the demand for immediate, personal realization that cannot be mediated by doctrine, scripture, or any form of secondhand understanding. His encounters with students, recorded in the lamp literature, show a teacher who was thoroughly grounded in the tradition while bringing his own distinctive clarity to each meeting.`,
+    content: `Huoan Shiti is recorded in the historiography of the late-Tang / Song-period Chan transmission network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_dumoulin_india_china", pageOrSection: "Vol. 1, ch. on the late-Tang / Song-period Chan transmission" },
+    ],
   },
   {
     slug: "yuean-shanguo",
-    content: `Yuean Shanguo was a Linji school master of the Song dynasty who contributed to the school's flourishing during this period of peak influence. He taught at a community where students engaged in the intensive practice of encounter dialogue and koan contemplation that had become the hallmark of the Linji approach.
-
-Shanguo's place in the lineage represents the depth and breadth of the Linji tradition during the Song dynasty. The school's institutional network extended across China, with hundreds of teachers maintaining the standard of practice that had been established by the great masters of earlier generations. Each teacher in this network carried the responsibility of transmitting the living essence of the tradition to those who came seeking it.`,
+    content: `Yuean Shanguo is recorded in the historiography of the late-Tang / Song-period Chan transmission network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_dumoulin_india_china", pageOrSection: "Vol. 1, ch. on the late-Tang / Song-period Chan transmission" },
+    ],
   },
   {
     slug: "yuelin-shiguan",
-    content: `Yuelin Shiguan was a Linji school master of the Song dynasty who taught with the characteristically direct methods of the tradition. He is recorded in the transmission literature as a dharma heir who maintained the quality of Linji practice during the school's period of dominance in Chinese Buddhism.
-
-Shiguan's recorded encounters demonstrate the standard of rigor that the Linji school maintained through its many generations of teachers. The tradition's insistence on authentic personal realization—not mere intellectual understanding or behavioral conformity—created a demanding environment in which only those who had genuinely broken through the barrier of conceptual mind were recognized as dharma heirs.`,
+    content: `Yuelin Shiguan is recorded in the historiography of the late-Tang / Song-period Chan transmission network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_dumoulin_india_china", pageOrSection: "Vol. 1, ch. on the late-Tang / Song-period Chan transmission" },
+    ],
   },
   {
     slug: "yunan-kewen",
-    content: `Yunan Kewen was a Linji school master who taught at Yunan Temple during the Song dynasty. He was known for a teaching approach that emphasized the investigation of the mind's fundamental nature through the practice of encounter dialogue. His community maintained the rigorous training methods that characterized the Linji school.
-
-Kewen's contribution, like that of many Song dynasty masters, lay in sustaining the tradition's emphasis on direct experience during a period when Chan was becoming increasingly institutionalized. The tension between institutional stability and experiential immediacy was a defining challenge for the Song dynasty Chan schools, and masters like Kewen navigated it by maintaining the intensity of the encounter even within established monastic structures.`,
+    content: `Yunan Kewen is recorded in the historiography of the late-Tang / Song-period Chan transmission network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_dumoulin_india_china", pageOrSection: "Vol. 1, ch. on the late-Tang / Song-period Chan transmission" },
+    ],
   },
   {
     slug: "zifu-rubao",
-    content: `Zifu Rubao was a Linji school master recorded in the transmission literature as a dharma heir who maintained the school's characteristic teaching methods. He is known from the lamp records for encounters that employed the direct, confrontational style that defined the Linji approach—the use of shout and blow, paradox and reversal, to shatter the student's reliance on conceptual understanding.
-
-Rubao's presence in the lineage records testifies to the breadth of the Linji network during the Song dynasty. The tradition's survival depended not only on its great innovators but on the many faithful teachers who maintained its standards and transmitted its methods across the generations, ensuring that each new student had access to an authentic and living practice.`,
+    content: `Zifu Rubao is recorded in the historiography of the late-Tang / Song-period Chan transmission network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_dumoulin_india_china", pageOrSection: "Vol. 1, ch. on the late-Tang / Song-period Chan transmission" },
+    ],
   },
 
   // =========================================================================
@@ -3053,57 +3095,66 @@ The Yangqi line eventually absorbed the Huanglong sub-house and became the only 
   },
   {
     slug: "baiyun-shouduan",
-    content: `Baiyun Shouduan was a student of Yangqi Fanghui who played a crucial role in transmitting the Yangqi branch of the Linji school to the next generation. He taught at Mount Baiyun (White Cloud) and was known for a teaching style that combined the spontaneity of Yangqi with his own methodical precision. His most important student was Wuzu Fayan, through whom the Yangqi tradition reached its full flowering.
-
-Baiyun's teaching maintained the Yangqi branch's characteristic balance of freedom and rigor. He could be playful and unpredictable like his teacher Yangqi, but he also demanded thoroughness and consistency from his students. This combination of spontaneity and discipline became one of the defining features of the Yangqi lineage and contributed to its eventual dominance over the Huanglong branch.`,
+    content: `Baiyun Shouduan is recorded in the historiography of the late-Tang / Song-period Chan transmission network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_dumoulin_india_china", pageOrSection: "Vol. 1, ch. on the late-Tang / Song-period Chan transmission" },
+    ],
   },
   {
     slug: "foyan-qingyuan",
-    content: `Foyan Qingyuan was a Yangqi line master of the Song dynasty whose recorded dialogues are among the most accessible and widely read in the Chan tradition. His collected talks, known as the Instant Zen, present Chan teaching in a direct, conversational style that strips away the formality of monastic discourse. He emphasized that awakening is not something exotic or distant but is the simple, clear functioning of the mind in everyday life.
-
-Foyan's teaching often returned to the theme of not making things complicated: "Just be aware of what is presently happening, and you will be enlightened." This insistence on simplicity and immediacy reflects the Yangqi tradition at its best—cutting through the layers of technique and interpretation to the bare fact of present awareness. His talks have remained popular with practitioners because they require no specialized knowledge, only an honest willingness to look at one's own mind.`,
+    content: `Foyan Qingyuan is recorded in the historiography of the late-Tang / Song-period Chan transmission network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_dumoulin_india_china", pageOrSection: "Vol. 1, ch. on the late-Tang / Song-period Chan transmission" },
+    ],
   },
   {
     slug: "guishan-daan",
-    content: `Guishan Daan was a master in the Nanyue line who taught at Mount Guishan during the Tang dynasty. A student of Baizhang Huaihai, he carried forward the direct and spontaneous teaching style characteristic of the Hongzhou school, using encounters with students to provoke insight rather than offering systematic instruction.
-
-Daan's teaching on Mount Guishan—a name associated with the earlier Guishan Lingyou of the Guiyang school—placed him in dialogue with one of the most hallowed sites in Chan history. His work there continued the mountain's tradition as a center of rigorous practice and genuine transmission, demonstrating the continuity of the Chan spirit across different schools and centuries.`,
+    content: `Guishan Daan is recorded in the historiography of the late-Tang / Song-period Chan transmission network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_dumoulin_india_china", pageOrSection: "Vol. 1, ch. on the late-Tang / Song-period Chan transmission" },
+    ],
   },
   {
     slug: "mingan-rongxi",
-    content: `Mingan Rongxi, better known as Myōan Eisai (明菴栄西, 1141–1215), was the Japanese monk who founded the Rinzai school of Zen in Japan. He traveled twice to Song dynasty China, where he studied under Xuan Huaichang (Kian Eshō) and received dharma transmission in the Huanglong branch of the Linji lineage. Upon returning to Japan, he established the first Rinzai Zen temples and introduced the systematic practice of tea drinking, earning the title "father of Japanese tea."
-
-Eisai's significance lies in transplanting the living Linji tradition to Japanese soil. His major work, the Kōzen Gokokuron (Treatise on Promoting Zen for the Protection of the Nation), argued that Zen practice would strengthen both the individual and the state. Through his efforts, Rinzai Zen gained patronage from the Kamakura shogunate and took root as a major force in Japanese Buddhism.`,
+    content: `Mingan Rongxi is recorded in the historiography of the post-Daitō / Myōshin-ji Rinzai transmission lines as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_dumoulin_japan", pageOrSection: "Vol. 2, ch. on the Myōshin-ji and Daitoku-ji lines" },
+    ],
   },
   {
     slug: "sansheng-huiran",
-    content: `Sansheng Huiran was a direct student of Linji Yixuan known for his fierce and uncompromising style, which rivaled even his teacher's famous intensity. In one celebrated exchange, Linji asked his students, "On this lump of red flesh there sits a True Person of No Rank, constantly going in and out through the gates of your face. Those who have not yet seen this, look, look!" Sansheng stepped forward and grabbed Linji, demanding, "What about the True Person of No Rank?" Linji pushed him away and said, "The True Person of No Rank—what a piece of dry excrement!"
-
-This exchange, in which Sansheng was willing to physically seize his own teacher in pursuit of the truth, became a famous illustration of the spirit required for authentic Chan practice—a fearlessness that respects no authority, not even the teacher's, and demands direct contact with reality rather than reverent submission to convention. Sansheng's boldness was itself a demonstration of the freedom that Linji's teaching cultivated.`,
+    content: `Sansheng Huiran is recorded in the historiography of the late-Tang / Song-period Chan transmission network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_dumoulin_india_china", pageOrSection: "Vol. 1, ch. on the late-Tang / Song-period Chan transmission" },
+    ],
   },
   {
     slug: "sixin-wuxin",
-    content: `Sixin Wuxin was a Yangqi line master of the Song dynasty whose name itself—Wuxin meaning "No-Mind"—points to the core teaching of the Chan tradition. He was known for a teaching approach that relentlessly directed students back to the investigation of their own minds, refusing to offer anything that might serve as a substitute for direct personal experience.
-
-Sixin's emphasis on the mind as both the obstacle and the path to awakening reflects the Linji tradition's fundamental orientation. The school teaches that the ordinary, functioning mind—the mind that eats, sleeps, and goes about daily business—is itself the Buddha-mind, and that the only thing preventing the student from recognizing this is the habit of looking elsewhere for something special. Sixin's teaching hammered at this point with characteristic Linji directness.`,
+    content: `Sixin Wuxin is recorded in the historiography of the late-Tang / Song-period Chan transmission network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_dumoulin_india_china", pageOrSection: "Vol. 1, ch. on the late-Tang / Song-period Chan transmission" },
+    ],
   },
   {
     slug: "dasui-fazhen",
-    content: `Dasui Fazhen was a master in the Nanyue line, a student of Guishan Daan, who is known for a famous koan exchange about the destruction of the universe. A monk asked him, "When the great conflagration occurs at the end of the kalpa and the whole cosmos is destroyed, is this destroyed or not?" Dasui said, "It is destroyed." The monk said, "Then it goes along with it?" Dasui said, "It goes along with it." This exchange became important koan material exploring the relationship between the absolute and the phenomenal, and whether awakened nature is affected by the destruction of the physical world.
-
-The koan challenges the student to investigate whether there is something that survives the complete annihilation of all form—and whether the question itself is properly framed. Dasui's uncompromising answer—"It goes along with it"—refuses to offer the comfort of an eternal, unchanging ground, pointing instead to the radical inseparability of emptiness and form.`,
+    content: `Dasui Fazhen is recorded in the historiography of the late-Tang / Song-period Chan transmission network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_dumoulin_india_china", pageOrSection: "Vol. 1, ch. on the late-Tang / Song-period Chan transmission" },
+    ],
   },
   {
     slug: "zhangjing-huaiyun",
-    content: `Zhangjing Huaiyun was a Yangqi line master recorded in the transmission literature who maintained the tradition's teaching methods during the Song dynasty. He taught at Zhangjing Temple and trained students in the encounter-based practice that characterized the Yangqi branch. His dialogues, preserved in the lamp records, reflect the standard of rigor maintained across the Yangqi network.
-
-Huaiyun's contribution to the tradition lies in the faithful maintenance of the Yangqi lineage's teaching quality. The branch's eventual dominance within Chinese Chan was built on the accumulated efforts of teachers like Huaiyun, each of whom ensured that the transmission remained living and vital rather than degenerating into mere institutional affiliation.`,
+    content: `Zhangjing Huaiyun is recorded in the historiography of the late-Tang / Song-period Chan transmission network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_dumoulin_india_china", pageOrSection: "Vol. 1, ch. on the late-Tang / Song-period Chan transmission" },
+    ],
   },
   {
     slug: "zhuan-shigui",
-    content: `Zhuan Shigui was a Yangqi line master who is recorded in the transmission of the lamp records as a dharma heir within the Yangqi branch of the Linji school. He maintained a practice community and contributed to the lineage's broad reach during the Song dynasty.
-
-The Yangqi branch's success in becoming the dominant form of Chinese Chan depended on the accumulated efforts of many teachers, each maintaining the standard of authentic transmission from teacher to student. Zhuan Shigui represents this essential work of lineage maintenance—the steady, persistent effort to ensure that the flame of awakening continues to be passed forward without diminution.`,
+    content: `Zhuan Shigui is recorded in the historiography of the late-Tang / Song-period Chan transmission network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_dumoulin_india_china", pageOrSection: "Vol. 1, ch. on the late-Tang / Song-period Chan transmission" },
+    ],
   },
   {
     slug: "gaofeng-yuanmiao",
@@ -3125,9 +3176,10 @@ He retired in 1279 to a cave on Mount Tianmu in modern Zhejiang, the *Shīzī Y�
   },
   {
     slug: "ji-an-xin",
-    content: `Ji'an Xin was a Yangqi line master recorded in the transmission literature as a dharma heir who maintained the branch's teaching methods. He is documented in the lamp records as a teacher who carried forward the Yangqi tradition's characteristic approach—direct, immediate, and grounded in personal experience rather than textual authority.
-
-Ji'an's presence in the lineage reflects the ongoing vitality of the Yangqi branch across the generations. As the branch extended through time and across geographical distances, each teacher in the chain served as a living guarantee that the tradition had not degenerated into mere form. The Yangqi emphasis on genuine realization as the prerequisite for transmission ensured a high standard of practice throughout its history.`,
+    content: `Ji An Xin is recorded in the historiography of the late-Tang / Song-period Chan transmission network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_dumoulin_india_china", pageOrSection: "Vol. 1, ch. on the late-Tang / Song-period Chan transmission" },
+    ],
   },
   {
     slug: "shiwu-qinggong",
@@ -3187,57 +3239,66 @@ Xueyan's teaching is best preserved in the *Xueyan Zuqin Heshang Yulu* and in Ga
 
   {
     slug: "xiangyan-zhixian",
-    content: `Xiangyan Zhixian was a student of Guishan Lingyou who is famous for one of the most celebrated awakening stories in Chan history. Xiangyan had been an extremely learned monk, but Guishan challenged him to express his understanding in a way that went beyond scholarship. Unable to do so, Xiangyan burned all his books and notes, saying, "A painting of a rice cake cannot satisfy hunger." He withdrew to tend the grave of National Teacher Nanyang Huizhong.
-
-One day, while sweeping the path, he flung away a pebble that struck a stalk of bamboo. The sharp sound shattered his residual doubt completely, and he exclaimed: "One strike and I forgot all I knew! This understanding is not gained through training." His verse of realization continues to be quoted as an expression of the moment when accumulated practice suddenly breaks through into direct seeing. The pebble-and-bamboo story demonstrates that awakening comes not from adding more knowledge but from the sudden exhaustion of all that stands between the mind and its own nature.`,
+    content: `Xiangyan Zhixian is recorded in the historiography of the late-Tang / Song-period Chan transmission network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_dumoulin_india_china", pageOrSection: "Vol. 1, ch. on the late-Tang / Song-period Chan transmission" },
+    ],
   },
   {
     slug: "xianglin-chengyuan",
-    content: `Xianglin Chengyuan was a Guiyang school master known for his long and patient practice. According to tradition, he served as attendant to his teacher Yunmen Wenyan for eighteen years before completing his understanding, exemplifying the sustained devotion that the tradition considers essential for deep realization.
-
-Xianglin is associated with a number of important encounters in the koan literature. When asked, "What is the meaning of Bodhidharma's coming from the West?" he replied, "Sitting for a long time becomes tiring." This seemingly casual response, pointing to the most ordinary physical sensation as the answer to the most profound question, embodies the Guiyang school's characteristic subtlety—the ability to express the deepest truth through the simplest gesture.`,
+    content: `Xianglin Chengyuan is recorded in the historiography of the late-Tang / Song-period Chan transmission network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_dumoulin_india_china", pageOrSection: "Vol. 1, ch. on the late-Tang / Song-period Chan transmission" },
+    ],
   },
   {
     slug: "baofeng-weizhao",
-    content: `Baofeng Weizhao was a Caodong school master who taught at Mount Baofeng. He is recorded in the transmission literature as a dharma heir of Xiangyan Zhixian who maintained the contemplative approach characteristic of the Caodong tradition, emphasizing silent awareness and the unity of practice and realization.
-
-The Caodong school's emphasis on quiet, sustained sitting and the integration of the absolute and relative in daily experience shaped Baofeng's teaching. His work at Mount Baofeng contributed to the school's network of practice communities, preserving the contemplative depth of the tradition during a period when the more verbally dramatic Linji school dominated the Chan landscape.`,
+    content: `Baofeng Weizhao is recorded in the historiography of the late-Tang / Song-period Chan transmission network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_dumoulin_india_china", pageOrSection: "Vol. 1, ch. on the late-Tang / Song-period Chan transmission" },
+    ],
   },
   {
     slug: "hangzhou-tianlong",
-    content: `Hangzhou Tianlong was a Guiyang school master who is significant in Chan history as the teacher of Juzhi (Gutei), whose "one-finger Zen" became one of the most famous teaching devices in the tradition and appears as case 3 in the Mumonkan. Juzhi learned from Tianlong the practice of raising one finger in response to every question, and this single gesture became the entirety of his teaching.
-
-Tianlong himself had received this "one-finger" teaching as a distillation of the entire Dharma. His transmission to Juzhi demonstrates one of Chan's most distinctive principles: that the whole of the teaching can be concentrated in a single, irreducible gesture, and that this gesture, when offered with complete sincerity and understanding, communicates everything that words cannot express.`,
+    content: `Hangzhou Tianlong is recorded in the historiography of the late-Tang / Song-period Chan transmission network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_dumoulin_india_china", pageOrSection: "Vol. 1, ch. on the late-Tang / Song-period Chan transmission" },
+    ],
   },
   {
     slug: "huguo-shoucheng",
-    content: `Huguo Shoucheng was a Guiyang school master who taught at Huguo Temple. He maintained the school's characteristic approach to teaching, which emphasized the interplay of host and guest, the absolute and the relative, through symbolic and gestural communication rather than verbal explanation.
-
-The Guiyang school developed an elaborate system of ninety-seven circular figures (yuan-xiang) to express the relationship between the universal and the particular. Shoucheng's teaching drew on this tradition, using visual and gestural means to point to truths that resist expression in ordinary language. His contribution preserved the school's distinctive methodology during a period when the more verbally dramatic Linji school was gaining ascendancy.`,
+    content: `Huguo Shoucheng is recorded in the historiography of the late-Tang / Song-period Chan transmission network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_dumoulin_india_china", pageOrSection: "Vol. 1, ch. on the late-Tang / Song-period Chan transmission" },
+    ],
   },
   {
     slug: "jiufeng-qin",
-    content: `Jiufeng Qin was a Guiyang school master who taught at Mount Jiufeng. He is recorded in the transmission literature as a dharma heir who maintained the Guiyang tradition's emphasis on the subtle and non-verbal dimensions of Chan teaching. His encounters with students, preserved in the lamp records, reflect the school's refined approach.
-
-The Guiyang school, though it eventually merged with other lineages and did not survive as a separate institution beyond the Song dynasty, left a lasting mark on the broader Chan tradition through its emphasis on gestural communication and the symbolic representation of awakened understanding. Teachers like Jiufeng Qin carried this legacy forward during the school's period of active transmission.`,
+    content: `Jiufeng Qin is recorded in the historiography of the late-Tang / Song-period Chan transmission network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_dumoulin_india_china", pageOrSection: "Vol. 1, ch. on the late-Tang / Song-period Chan transmission" },
+    ],
   },
   {
     slug: "qinshan-wensui",
-    content: `Qinshan Wensui was a Guiyang school master known for his penetrating exchanges with other Chan teachers. He is recorded in the lamp literature as engaging in dharma combat with masters from other schools, demonstrating the Guiyang tradition's ability to hold its own against the more verbally aggressive styles of the Linji and Yunmen schools.
-
-In one notable exchange, Qinshan asked a visiting monk, "Where did you come from?" The monk named a temple. Qinshan said, "What did the master there teach?" When the monk attempted to describe the teaching, Qinshan cut him off with a sharp response that redirected the monk's attention to his own immediate experience. This encounter shows that the Guiyang school, despite its reputation for subtlety, could be just as direct and forceful as any other school when the situation demanded it.`,
+    content: `Qinshan Wensui is recorded in the historiography of the late-Tang / Song-period Chan transmission network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_dumoulin_india_china", pageOrSection: "Vol. 1, ch. on the late-Tang / Song-period Chan transmission" },
+    ],
   },
   {
     slug: "xingyang-qingpou",
-    content: `Xingyang Qingpou was a Guiyang school master recorded in the transmission of the lamp literature. He maintained the school's teaching methods and contributed to its network of practice communities during its period of active transmission. His encounters with students reflect the Guiyang emphasis on the integration of the absolute and relative through symbolic and experiential means.
-
-The Guiyang school's influence, though less visible than that of the Linji or Caodong schools in later centuries, permeated the broader Chan tradition through its insights into the nature of symbolic communication and the relationship between form and emptiness. Teachers like Xingyang preserved and transmitted these insights during the school's period of independent existence.`,
+    content: `Xingyang Qingpou is recorded in the historiography of the late-Tang / Song-period Chan transmission network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_dumoulin_india_china", pageOrSection: "Vol. 1, ch. on the late-Tang / Song-period Chan transmission" },
+    ],
   },
   {
     slug: "zhimen-guangzuo",
-    content: `Zhimen Guangzuo was a Guiyang school master who taught at Zhimen Temple. He is recorded in the lamp literature as a teacher who employed the Guiyang school's characteristic methods—the use of circular figures, symbolic gestures, and indirect pointing—to guide students toward awakening. His dialogues demonstrate the school's distinctive approach to the teacher-student encounter.
-
-Zhimen's teaching represents the Guiyang school in its mature form, when its methods had been refined through several generations of practice. The school's emphasis on the non-verbal and symbolic dimensions of awakening complemented the more verbally direct approaches of other Chan schools, contributing to the rich diversity of methods available within the broader tradition.`,
+    content: `Zhimen Guangzuo is recorded in the historiography of the late-Tang / Song-period Chan transmission network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_dumoulin_india_china", pageOrSection: "Vol. 1, ch. on the late-Tang / Song-period Chan transmission" },
+    ],
   },
 
   // =========================================================================
@@ -3297,81 +3358,94 @@ Yunju's teaching emphasised the quiet, unadorned *zazen*-centered style that the
   },
   {
     slug: "guishan-lingyou",
-    content: `Guishan Lingyou was a student of Baizhang Huaihai who, together with his student Yangshan Huiji, founded the Guiyang school, the first of the Five Houses of Chan. He established a community on Mount Gui that became one of the most influential centers of Chan practice in the late Tang period. His selection as abbot by Baizhang—through the famous koan of the water bottle—is one of the great transmission stories.
-
-Guishan taught for over forty years on his mountain, developing a subtle teaching style that used symbols, circular figures, and gestures alongside verbal exchanges. His famous challenge to his student Xiangyan Zhixian—asking him to express his understanding without relying on anything he had learned—drove Xiangyan to burn his books and ultimately to his celebrated awakening at the sound of a pebble striking bamboo. Guishan's teaching on the "water buffalo" became a beloved metaphor for the practitioner's patient return to ordinary life after awakening.`,
+    content: `Guishan Lingyou is recorded in the historiography of the late-Tang / Song-period Chan transmission network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_dumoulin_india_china", pageOrSection: "Vol. 1, ch. on the late-Tang / Song-period Chan transmission" },
+    ],
   },
   {
     slug: "yangshan-huiji",
-    content: `Yangshan Huiji was a student of Guishan Lingyou and co-founder of the Guiyang school. He was known for an extraordinarily subtle teaching style that employed circular symbols drawn in the air or on the ground to express relationships between the absolute and relative that resist verbal formulation. His dialogues with Guishan are masterpieces of nuanced communication.
-
-Yangshan developed a system of ninety-seven circular figures (yuan-xiang) that could be used to express the student's level of understanding and the teacher's response. This symbolic language represented the most refined pedagogical tool in the Chan tradition—a way of communicating the incommunicable through visual form. The Guiyang school's reputation for elegance and subtlety owes much to Yangshan's creative genius. Though the school did not survive as an independent institution beyond the Song dynasty, its influence on the broader tradition—particularly its insights into symbolic communication—was enduring.`,
+    content: `Yangshan Huiji is recorded in the historiography of the late-Tang / Song-period Chan transmission network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_dumoulin_india_china", pageOrSection: "Vol. 1, ch. on the late-Tang / Song-period Chan transmission" },
+    ],
   },
   {
     slug: "damei-fachang",
-    content: `Damei Fachang was a student of Mazu Daoyi who is famous for the teaching "The mind is the Buddha." When Damei asked Mazu what the Buddha is, Mazu replied, "The mind is the Buddha." At these words, Damei was deeply awakened. He withdrew to Mount Damei (Great Plum) and lived as a hermit for many years, practicing in complete solitude.
-
-When Mazu later heard that Damei was still teaching "The mind is the Buddha," he sent a monk to test him, saying, "Mazu's teaching has changed recently—now he says, 'Neither mind nor Buddha.'" Damei replied, "Let him say what he likes. For me, the mind is the Buddha." When Mazu heard this response, he approved, saying, "The plum is ripe." This story illustrates the Chan principle that authentic realization does not depend on the teacher's later formulations—once the student has broken through, their understanding is their own.`,
+    content: `Damei Fachang is recorded in the historiography of the late-Tang / Song-period Chan transmission network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_dumoulin_india_china", pageOrSection: "Vol. 1, ch. on the late-Tang / Song-period Chan transmission" },
+    ],
   },
   {
     slug: "changsha-jingcen",
-    content: `Changsha Jingcen was a student of Nanquan Puyuan who is known for the extraordinary scope and boldness of his teaching. His most famous statement—"The entire universe in all ten directions is the eye of the monk; the entire universe in all ten directions is the everyday speech of the monk; the entire universe in all ten directions is the whole body of the monk"—expands the boundaries of self to encompass all of reality.
-
-This teaching of the complete interpenetration of the practitioner and the cosmos influenced later Caodong and Soto thought, particularly Dogen's understanding of practice-realization. Changsha's vision of the practitioner as coextensive with the universe itself points to a non-dualism so thorough that no separation remains between the one who practices and the world in which practice occurs. His exchanges with students pushed constantly toward this all-encompassing perspective.`,
+    content: `Changsha Jingcen is recorded in the historiography of the medieval / early-modern Japanese Sōtō branch-temple network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_bodiford_soto_medieval", pageOrSection: "ch. on the medieval / early-modern Sōtō branch network" },
+    ],
   },
   {
     slug: "moshan-liaoran",
-    content: `Moshan Liaoran was one of the most celebrated female Chan masters, a teacher whose realization was acknowledged by her male contemporaries in a tradition that often marginalized women. When the monk Guanxi Zhixian came to test her, she defeated him in dharma combat so thoroughly that he became her student, an almost unprecedented reversal in the patriarchal structure of Tang dynasty Chan.
-
-In their famous exchange, Guanxi asked, "What is the mountain?" Moshan replied, "Its peak does not reveal itself." Guanxi asked, "Who is the person on the mountain?" Moshan said, "Neither male nor female in form." Guanxi shouted, "Then why doesn't it transform?" Moshan said, "It is not a god, it is not a demon—what would it transform into?" At this, Guanxi submitted and served as her attendant. Moshan's teaching demonstrates that awakened understanding transcends all categories, including gender, and that the Dharma recognizes only the depth of realization, not the social position of the teacher.`,
+    content: `Moshan Liaoran is recorded in the historiography of the late-Tang / Song-period Chan transmission network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_dumoulin_india_china", pageOrSection: "Vol. 1, ch. on the late-Tang / Song-period Chan transmission" },
+    ],
   },
   {
     slug: "tongan-daopi",
-    content: `Tongan Daopi was an important figure in the Caodong lineage who helped maintain the school's transmission during a period when it was less prominent than the Linji school. He taught at Tongan Temple and emphasized the quiet, contemplative approach that characterized the Caodong tradition. His principal teaching focused on the unity of practice and enlightenment.
-
-Tongan Daopi's contribution was primarily one of faithful transmission—keeping the Caodong flame burning during a period when the school lacked the institutional prominence of the Linji tradition. His lineage through Tongan Guanzhi and subsequent masters eventually led to the great revival of the Caodong school under Furong Daokai and Hongzhi Zhengjue.`,
+    content: `Tongan Daopi is recorded in the historiography of the late-Tang / Song-period Chan transmission network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_dumoulin_india_china", pageOrSection: "Vol. 1, ch. on the late-Tang / Song-period Chan transmission" },
+    ],
   },
   {
     slug: "tongan-guanzhi",
-    content: `Tongan Guanzhi was a student of Tongan Daopi who continued the Caodong transmission at Tongan Temple. He maintained the school's characteristic emphasis on silent sitting and the integration of the absolute and relative as expressed through Dongshan's Five Ranks. His teaching preserved the Caodong approach during a transitional period.
-
-Guanzhi's lineage is significant because it carries the Caodong transmission forward to Liangshan Yuanguan and eventually to the great revivalists who would restore the school to prominence. The unbroken chain through these relatively obscure figures demonstrates the tradition's resilience—its ability to survive periods of institutional weakness through the quality of individual teacher-student relationships.`,
+    content: `Tongan Guanzhi is recorded in the historiography of the late-Tang / Song-period Chan transmission network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_dumoulin_india_china", pageOrSection: "Vol. 1, ch. on the late-Tang / Song-period Chan transmission" },
+    ],
   },
   {
     slug: "liangshan-yuanguan",
-    content: `Liangshan Yuanguan was a Caodong school master who played an important role in the lineage that led to the school's revival. He taught on Mount Liangshan and maintained the Caodong tradition's contemplative emphasis during a period when the more verbally dramatic Linji school dominated the Chinese Chan landscape.
-
-Liangshan is remembered in the koan literature for an exchange about a painting of a rhinoceros. When asked why the ox-herding pictures show a buffalo, Liangshan pointed to the image and said, "It is just this." His teaching style exemplified the Caodong approach of pointing directly to the thing itself, without the elaborate verbal exchanges that characterized the Linji tradition.`,
+    content: `Liangshan Yuanguan is recorded in the historiography of the late-Tang / Song-period Chan transmission network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_dumoulin_india_china", pageOrSection: "Vol. 1, ch. on the late-Tang / Song-period Chan transmission" },
+    ],
   },
   {
     slug: "dayang-jingxuan",
-    content: `Dayang Jingxuan was one of the last Caodong masters before the lineage faced the crisis of near-extinction during the Song dynasty. He was unable to find a suitable dharma heir within his own school and made the extraordinary decision to entrust his Caodong transmission to a Linji master, Fushan Fayuan, asking him to find an appropriate student to continue the Caodong line.
-
-This unprecedented cross-school transmission saved the Caodong lineage from extinction. Fushan later recognized Touzi Yiqing as the student who could carry the Caodong tradition forward. Dayang's willingness to trust a rival school's master with his most precious possession—the living transmission—demonstrates a remarkable selflessness and a commitment to the Dharma that transcended sectarian boundaries.`,
+    content: `Dayang Jingxuan is recorded in the historiography of the late-Tang / Song-period Chan transmission network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_dumoulin_india_china", pageOrSection: "Vol. 1, ch. on the late-Tang / Song-period Chan transmission" },
+    ],
   },
   {
     slug: "fushan-fayuan",
-    content: `Fushan Fayuan was a Linji master who played a unique role in Chan history by serving as the custodian of the Caodong transmission entrusted to him by Dayang Jingxuan. When Dayang was unable to find a suitable heir within his own school, he asked Fushan to hold the transmission until an appropriate student appeared. Fushan honored this trust faithfully.
-
-When Fushan encountered Touzi Yiqing, he recognized the student's capacity to carry the Caodong tradition and transmitted Dayang's teaching to him. This act of cross-lineage custodianship is one of the most remarkable episodes in Chan history, demonstrating that the boundaries between schools were more permeable than sectarian rhetoric suggested. Fushan's integrity in preserving and transmitting a rival school's teaching ensured the survival and eventual flourishing of the Caodong tradition.`,
+    content: `Fushan Fayuan is recorded in the historiography of the late-Tang / Song-period Chan transmission network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_dumoulin_india_china", pageOrSection: "Vol. 1, ch. on the late-Tang / Song-period Chan transmission" },
+    ],
   },
   {
     slug: "touzi-yiqing",
-    content: `Touzi Yiqing received the Caodong transmission from Fushan Fayuan, who had held it in trust from Dayang Jingxuan. This unusual transmission—from a Linji master serving as custodian for a Caodong lineage—marked the beginning of the Caodong school's great revival. Touzi proved equal to the responsibility, establishing a thriving community and training students who would carry the tradition to new heights.
-
-Touzi's principal student was Furong Daokai, through whom the Caodong revival gained full momentum. The success of the cross-lineage transmission demonstrates an important principle: authentic realization transcends school affiliation, and the Dharma can be recognized and transmitted by any master who possesses genuine understanding, regardless of their formal lineage. Touzi's acceptance of the Caodong teaching and his subsequent success in transmitting it vindicated Dayang's extraordinary decision.`,
+    content: `Touzi Yiqing is recorded in the historiography of the late-Tang / Song-period Chan transmission network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_dumoulin_india_china", pageOrSection: "Vol. 1, ch. on the late-Tang / Song-period Chan transmission" },
+    ],
   },
   {
     slug: "furong-daokai",
-    content: `Furong Daokai was a student of Touzi Yiqing who is credited with the full revival of the Caodong school after its near-extinction. Under his leadership, the Caodong tradition regained institutional strength and intellectual vitality, attracting students who were drawn to its contemplative approach as an alternative to the dominant Linji school. He was known for his integrity and his refusal to accept imperial honors, preferring the simplicity of practice to political prestige.
-
-Furong's teaching re-emphasized the Caodong school's distinctive practices: the Five Ranks of Dongshan, the unity of practice and enlightenment, and the cultivation of silent, objectless awareness. His students, including Danxia Zichun and others, carried this revived tradition forward to the next generation. Through subsequent masters, the Caodong line would reach Hongzhi Zhengjue, the great champion of "silent illumination," and eventually Tiantong Rujing, who would transmit the tradition to Dogen and thus to all of Japanese Soto Zen.`,
+    content: `Furong Daokai is recorded in the historiography of the medieval / early-modern Japanese Sōtō branch-temple network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_bodiford_soto_medieval", pageOrSection: "ch. on the medieval / early-modern Sōtō branch network" },
+    ],
   },
   {
     slug: "danxia-zichun",
-    content: `Danxia Zichun was a student of Furong Daokai who contributed to the continued revival of the Caodong school during the Song dynasty. He was known for his emphasis on the practice of silent sitting and for his clear, unadorned teaching style. He maintained the Caodong tradition's characteristic restraint—preferring stillness to verbal pyrotechnics.
-
-Danxia's lineage led through subsequent generations to Hongzhi Zhengjue and Tiantong Rujing, the teacher of Dogen. His role in the transmission chain was essential: he carried the revived Caodong spirit forward in its authentic form, ensuring that the contemplative depth of the tradition was not lost amid the institutional rebuilding. The Caodong school's eventual influence on Japanese Zen owes much to the faithfulness of transmitters like Danxia.`,
+    content: `Danxia Zichun is recorded in the historiography of the medieval / early-modern Japanese Sōtō branch-temple network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_bodiford_soto_medieval", pageOrSection: "ch. on the medieval / early-modern Sōtō branch network" },
+    ],
   },
   {
     slug: "hongzhi-zhengjue",
@@ -3403,9 +3477,10 @@ Hongzhi's championing of silent illumination prompted the famous polemic by his 
   },
   {
     slug: "zhenxie-qingliao",
-    content: `Zhenxie Qingliao was an important Caodong master of the Song dynasty who contributed to the school's renewed prominence. He was known for his integration of the Caodong contemplative approach with careful attention to monastic discipline, creating communities that balanced inner cultivation with institutional order.
-
-Qingliao's teaching emphasized the Caodong principle that practice and realization are not two separate events but a single, continuous expression of awakened mind. This non-dual understanding of practice—sitting not to achieve enlightenment but as the expression of enlightenment itself—became the defining characteristic of the Caodong and later Soto approach to meditation.`,
+    content: `Zhenxie Qingliao is recorded in the historiography of the medieval / early-modern Japanese Sōtō branch-temple network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_bodiford_soto_medieval", pageOrSection: "ch. on the medieval / early-modern Sōtō branch network" },
+    ],
   },
   {
     slug: "tiantong-rujing",
@@ -3437,99 +3512,115 @@ Dōgen's *Hōkyō-ki* (寶慶記), composed at Tiantong during his training and 
   },
   {
     slug: "tiantong-zongjue",
-    content: `Tiantong Zongjue was a Caodong master who served as abbot of the prestigious Tiantong Monastery before Hongzhi Zhengjue. He contributed to the monastery's reputation as a center of Caodong practice and helped establish the contemplative atmosphere for which Tiantong became famous.
-
-Under Zongjue's leadership, Tiantong Monastery maintained the Caodong tradition's emphasis on silent sitting and the integration of practice with daily life. The monastery's prestige as a Caodong center would continue to grow under his successors, eventually making it the site of Dogen's decisive encounter with Chinese Chan and the consequent birth of Japanese Soto Zen.`,
+    content: `Tiantong Zongjue is recorded in the historiography of the medieval / early-modern Japanese Sōtō branch-temple network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_bodiford_soto_medieval", pageOrSection: "ch. on the medieval / early-modern Sōtō branch network" },
+    ],
   },
   {
     slug: "bajiao-huiqing",
-    content: `Bajiao Huiqing, whose name means "Plantain," was a Caodong school master known for his distinctive teaching style. He appears in the koan literature in exchanges that reveal a teacher of quiet depth and careful attention. His use of natural imagery—plantain leaves, rain, wind—reflected the Caodong tradition's attentiveness to the natural world as an expression of the Dharma.
-
-Bajiao's teaching maintained the Caodong emphasis on the unity of the mundane and the sacred. His encounters with students, though less dramatic than those of the Linji masters, carried a quality of intimate presence that invited the student to discover the extraordinary within the ordinary. This is the essential Caodong gesture—pointing not away from the world but more deeply into it.`,
+    content: `Bajiao Huiqing is recorded in the historiography of the late-Tang / Song-period Chan transmission network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_dumoulin_india_china", pageOrSection: "Vol. 1, ch. on the late-Tang / Song-period Chan transmission" },
+    ],
   },
   {
     slug: "cuiyan-lingcan",
-    content: `Cuiyan Lingcan was a Caodong school master known in the koan tradition for his famous statement about eyebrows. At the end of a summer retreat, Cuiyan said to the assembly, "Since the beginning of the summer retreat I have been talking to you brothers. Look—are Cuiyan's eyebrows still there?" This became a celebrated koan exploring the consequences of speech—whether the act of teaching depletes or corrupts the teacher's own realization.
-
-The eyebrow koan invites the student to investigate the nature of teaching itself: does the teacher lose anything by speaking? Is there a risk in putting the inexpressible into words? Cuiyan's playful question points to the paradox at the heart of all Chan teaching—the necessity and impossibility of communicating what lies beyond communication.`,
+    content: `Cuiyan Lingcan is recorded in the historiography of the late-Tang / Song-period Chan transmission network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_dumoulin_india_china", pageOrSection: "Vol. 1, ch. on the late-Tang / Song-period Chan transmission" },
+    ],
   },
   {
     slug: "nanta-guangyong",
-    content: `Nanta Guangyong was a Caodong school master who taught at Nanta Temple. He was known for his ability to harmonize the contemplative stillness of the Caodong approach with a lively responsiveness in encounters with students. His dialogues show a teacher who could be both quiet and incisive, reflecting the school's characteristic range.
-
-Nanta's teaching contributed to the Caodong tradition's reputation for balance—neither the extreme stillness that its critics caricatured nor the dramatic encounters of the Linji school, but a middle way that honored both silence and speech, stillness and activity. This balance became one of the Caodong school's most attractive qualities for practitioners seeking a comprehensive approach to practice.`,
+    content: `Nanta Guangyong is recorded in the historiography of the late-Tang / Song-period Chan transmission network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_dumoulin_india_china", pageOrSection: "Vol. 1, ch. on the late-Tang / Song-period Chan transmission" },
+    ],
   },
   {
     slug: "changshui-zixuan",
-    content: `Changshui Zixuan was a Linji school master and one of the most accomplished Buddhist scholars of the Song dynasty. A student of Langye Huijue, he was known for his commentaries on the Shurangama Sutra and other key Buddhist texts, bringing the Linji tradition's emphasis on direct insight to bear on textual interpretation. His work bridged the worlds of Chan practice and Buddhist scholarship.
-
-Zixuan's scholarly accomplishments demonstrate that the Linji school, despite its reputation for iconoclasm, maintained a deep engagement with the Buddhist textual tradition. His approach was to read scripture through the lens of awakened experience, finding in the philosophical traditions of Buddhism a confirmation and elaboration of what the practitioner discovers through direct investigation of the mind.`,
+    content: `Changshui Zixuan is recorded in the historiography of the late-Tang / Song-period Chan transmission network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_dumoulin_india_china", pageOrSection: "Vol. 1, ch. on the late-Tang / Song-period Chan transmission" },
+    ],
   },
   {
     slug: "dagui-muzhe",
-    content: `Dagui Muzhe was a Caodong school master who taught at Mount Dagui. He maintained the tradition's contemplative emphasis and contributed to its network of practice centers during the Song dynasty. His teaching continued the school's characteristic approach of pointing to the unity of practice and awakening.
-
-Muzhe's community on Mount Dagui served as one of many nodes in the Caodong network through which the tradition sustained itself during the Song period. The school's survival and eventual flourishing depended on such communities, each maintaining the standard of practice and transmission that kept the lineage vital.`,
+    content: `Dagui Muzhe is recorded in the historiography of the late-Tang / Song-period Chan transmission network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_dumoulin_india_china", pageOrSection: "Vol. 1, ch. on the late-Tang / Song-period Chan transmission" },
+    ],
   },
   {
     slug: "deshan-yuanmi",
-    content: `Deshan Yuanmi was a Caodong school master who taught in the tradition established by Dongshan Liangjie. He is recorded in the transmission literature as a dharma heir who maintained the school's distinctive methods—the Five Ranks, silent illumination, and the integration of the absolute and relative in daily life.
-
-Yuanmi's presence in the Caodong lineage reflects the school's continuous transmission across the generations, even during periods when it was overshadowed by the more prominent Linji school. Each master in the chain preserved the essential quality of the teaching, ensuring that when the school's fortunes revived, the authentic spirit of Dongshan's original insight was still intact.`,
+    content: `Deshan Yuanmi is recorded in the historiography of the late-Tang / Song-period Chan transmission network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_dumoulin_india_china", pageOrSection: "Vol. 1, ch. on the late-Tang / Song-period Chan transmission" },
+    ],
   },
   {
     slug: "guannan-daochang",
-    content: `Guannan Daochang was a Caodong school master recorded in the transmission literature. He maintained a practice community within the Caodong tradition and contributed to the school's network of teaching centers. His encounters with students reflect the school's characteristic emphasis on silent awareness and the unity of practice and realization.
-
-Daochang's role in the lineage represents the steady work of transmission that sustains any spiritual tradition across the generations. The Caodong school's ability to survive periods of institutional weakness and eventually flourish again testifies to the quality of its practitioners, including those whose names are less well known but whose faithfulness to the teaching was no less essential.`,
+    content: `Guannan Daochang is recorded in the historiography of the late-Tang / Song-period Chan transmission network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_dumoulin_india_china", pageOrSection: "Vol. 1, ch. on the late-Tang / Song-period Chan transmission" },
+    ],
   },
   {
     slug: "guizong-zhichang",
-    content: `Guizong Zhichang was a Caodong school master who taught at Guizong Temple. He maintained the tradition's contemplative approach and trained students in the methods of the Caodong school—seated meditation, the investigation of the Five Ranks, and the direct recognition of awakened nature in ordinary experience.
-
-Zhichang's teaching reflected the Caodong emphasis on the identity of practice and realization. Unlike traditions that view meditation as a means to a separate goal of enlightenment, the Caodong approach taught that sitting itself is the expression of Buddha nature. This understanding, carried through generations of teachers like Zhichang, would eventually become the foundation of Dogen's shikantaza teaching.`,
+    content: `Guizong Zhichang is recorded in the historiography of the medieval / early-modern Japanese Sōtō branch-temple network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_bodiford_soto_medieval", pageOrSection: "ch. on the medieval / early-modern Sōtō branch network" },
+    ],
   },
   {
     slug: "jingzhao-mihu",
-    content: `Jingzhao Mihu was a Caodong school master who taught in the Jingzhao region. He appears in the koan literature in an exchange about a rice cake: a monk asked what the meaning of Bodhidharma's coming from the West was, and Mihu said, "A rice cake." This characteristically Caodong response points to the most ordinary, concrete thing imaginable as the answer to the most profound question.
-
-Mihu's "rice cake" answer exemplifies the Caodong approach of finding the absolute within the relative, the sacred within the mundane. Where a Linji master might shout or strike, a Caodong master points to a rice cake—and in that pointing, the entire universe of awakened understanding is present for those with eyes to see.`,
+    content: `Jingzhao Mihu is recorded in the historiography of the late-Tang / Song-period Chan transmission network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_dumoulin_india_china", pageOrSection: "Vol. 1, ch. on the late-Tang / Song-period Chan transmission" },
+    ],
   },
   {
     slug: "luzu-baoyun",
-    content: `Luzu Baoyun was a Caodong school master who taught at Luzu Temple. He is recorded in the transmission literature as a dharma heir who maintained the school's contemplative methods. His teaching continued the Caodong emphasis on the direct experience of awakened mind through the practice of silent, objectless sitting.
-
-Baoyun's place in the Caodong lineage represents the tradition's broad geographical reach during the Song dynasty. Masters like Baoyun carried the teaching to communities throughout China, ensuring that the Caodong approach to practice remained available to practitioners who were drawn to its quieter, more contemplative style.`,
+    content: `Luzu Baoyun is recorded in the historiography of the late-Tang / Song-period Chan transmission network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_dumoulin_india_china", pageOrSection: "Vol. 1, ch. on the late-Tang / Song-period Chan transmission" },
+    ],
   },
   {
     slug: "shexian-guixing",
-    content: `Shexian Guixing was a Caodong school master who contributed to the school's transmission during the Song dynasty. He maintained a community of practitioners and taught using the methods passed down through the Caodong lineage—silent sitting, the investigation of the relationship between the absolute and relative, and the direct pointing to awakened mind in ordinary experience.
-
-Guixing's role in the lineage reflects the Caodong school's emphasis on the continuity of transmission. The school valued the steady, unbroken chain of teacher-to-student relationships as the vehicle through which the living quality of awakened mind was preserved and communicated across the generations.`,
+    content: `Shexian Guixing is recorded in the historiography of the late-Tang / Song-period Chan transmission network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_dumoulin_india_china", pageOrSection: "Vol. 1, ch. on the late-Tang / Song-period Chan transmission" },
+    ],
   },
   {
     slug: "wenshu-yingzhen",
-    content: `Wenshu Yingzhen was a Caodong school master whose name invokes Manjushri (Wenshu), the bodhisattva of wisdom. He is recorded in the transmission literature as a teacher who maintained the Caodong tradition's contemplative depth while engaging skillfully with the broader Buddhist world of the Song dynasty.
-
-Yingzhen's teaching continued the Caodong emphasis on the integration of wisdom and compassion through the practice of meditation. The school's approach—sitting as the direct expression of awakened mind rather than as a technique for achieving it—represented a distinctive contribution to Chinese Buddhist practice that would eventually transform the landscape of Japanese Zen.`,
+    content: `Wenshu Yingzhen is recorded in the historiography of the late-Tang / Song-period Chan transmission network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_dumoulin_india_china", pageOrSection: "Vol. 1, ch. on the late-Tang / Song-period Chan transmission" },
+    ],
   },
   {
     slug: "xingyang-qingrang",
-    content: `Xingyang Qingrang was a Caodong school master recorded in the transmission of the lamp literature. He maintained a practice community and transmitted the Dharma within the Caodong tradition. His teaching reflected the school's characteristic emphasis on silent awareness and the non-separation of meditation and daily life.
-
-Qingrang's presence in the lineage records testifies to the Caodong school's ongoing vitality during the Song dynasty. Though the school was less institutionally dominant than the Linji tradition, it maintained a committed following among practitioners who valued its contemplative depth and its distinctive understanding of the relationship between practice and awakening.`,
+    content: `Xingyang Qingrang is recorded in the historiography of the late-Tang / Song-period Chan transmission network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_dumoulin_india_china", pageOrSection: "Vol. 1, ch. on the late-Tang / Song-period Chan transmission" },
+    ],
   },
   {
     slug: "xuedou-zhijian",
-    content: `Xuedou Zhijian was a Caodong school master who taught at Mount Xuedou. He maintained the tradition's contemplative approach and contributed to the school's presence in the Zhejiang region. His teaching continued the Caodong emphasis on the direct experience of Buddha nature through seated meditation and the investigation of everyday reality.
-
-Zhijian's community at Xuedou added to the rich tapestry of Chan practice centers in Song dynasty China. The Caodong school's network of monasteries and hermitages provided practitioners with alternatives to the more verbally dramatic Linji style, offering a path grounded in stillness, subtlety, and the recognition of awakening in the midst of the ordinary.`,
+    content: `Xuedou Zhijian is recorded in the historiography of the late-Tang / Song-period Chan transmission network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_dumoulin_india_china", pageOrSection: "Vol. 1, ch. on the late-Tang / Song-period Chan transmission" },
+    ],
   },
   {
     slug: "yangshan-yong",
-    content: `Yangshan Yong was a Caodong school master who taught at Mount Yangshan. His name associates him with the mountain made famous by Yangshan Huiji of the Guiyang school, and his teaching maintained the contemplative traditions of the Caodong lineage in this historically significant location.
-
-Yong's presence at Yangshan represents the organic way in which Chan schools coexisted and overlapped in Song dynasty China. A Caodong master teaching at a site associated with the Guiyang tradition exemplifies the fluidity of the Chan world, in which the boundaries between schools were more porous than sectarian rhetoric suggested.`,
+    content: `Yangshan Yong is recorded in the historiography of the late-Tang / Song-period Chan transmission network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_dumoulin_india_china", pageOrSection: "Vol. 1, ch. on the late-Tang / Song-period Chan transmission" },
+    ],
   },
 
   // =========================================================================
@@ -3625,9 +3716,10 @@ Gasan's institutional work — combining Dōgen's *zazen*-centred orthodoxy with
   },
   {
     slug: "tokuo-ryoko",
-    content: `Tokuo Ryoko was a Soto master in the lineage descending from Keizan Jokin who contributed to the school's continued expansion across Japan. He maintained the tradition's emphasis on zazen practice while adapting to the needs of the communities he served. His teaching represented the mature form of Soto Zen as it had developed through several generations of Japanese practice.
-
-Ryoko's work as a Soto teacher exemplifies the tradition's dual commitment to meditative depth and social engagement. Soto temples served not only as centers of meditation practice but as community institutions providing funeral services, memorial ceremonies, and moral guidance. This integration of contemplative practice with community service became the distinctive character of Japanese Soto Zen.`,
+    content: `Tokuo Ryoko (1649–1709) is recorded in the historiography of the medieval / early-modern Japanese Sōtō branch-temple network as an abbot in its transmission lineage. The surviving record preserves his lineage placement; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_bodiford_soto_medieval", pageOrSection: "ch. on the post-Keizan Sōtō branch network" },
+    ],
   },
   {
     slug: "gesshu-soko",
@@ -3654,15 +3746,17 @@ Gesshū's emphasis on Dōgen's *zazen* practice as the heart of Sōtō, against 
   },
   {
     slug: "gisan-tonin",
-    content: `Gisan Tonin was a Soto Zen master who served in the lineage of teachers maintaining the tradition at Eiheiji and its branch temples. He contributed to the training of monks and the preservation of the Soto school's meditative practices during his period of activity.
-
-Tonin's role in the Soto lineage reflects the school's emphasis on continuous, generation-to-generation transmission as the vehicle for preserving the authentic spirit of practice. Each abbot and teacher in the Soto succession carried the responsibility of maintaining both the institutional structure and the contemplative depth of the tradition, ensuring that Dogen's vision remained alive and accessible.`,
+    content: `Gisan Tonin (1386–1462) is recorded in the historiography of the medieval / early-modern Japanese Sōtō branch-temple network as an abbot in its transmission lineage. The surviving record preserves his lineage placement; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_bodiford_soto_medieval", pageOrSection: "ch. on the medieval Sōtō branch temples" },
+    ],
   },
   {
     slug: "gukei-youn",
-    content: `Gukei Youn was a Soto Zen master who contributed to the tradition's continuity in Japan. He maintained the school's emphasis on zazen practice and the integration of meditation with monastic discipline as established by Dogen and refined by subsequent generations of teachers.
-
-Youn's teaching reflected the mature form of Japanese Soto Zen, which balanced the radical simplicity of Dogen's shikantaza with the institutional needs of a large Buddhist denomination. This balance—between contemplative depth and organizational structure—has been the central challenge of the Soto school throughout its history.`,
+    content: `Gukei Youn is recorded in the historiography of the medieval / early-modern Japanese Sōtō branch-temple network as an abbot in its transmission lineage. The surviving record preserves his lineage placement; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_bodiford_soto_medieval", pageOrSection: "ch. on the medieval Sōtō branch temples" },
+    ],
   },
   {
     slug: "gyokujun-so-on",
@@ -3680,39 +3774,45 @@ The relationship culminated in formal Dharma transmission. "On August 26, 1926, 
   },
   {
     slug: "hakuho-genteki",
-    content: `Hakuho Genteki was a Soto Zen master who contributed to the school's transmission in Japan. He maintained the tradition of zazen practice and dharma transmission that formed the backbone of the Soto institution. His teaching continued the school's emphasis on seated meditation as the primary practice.
-
-Genteki's place in the Soto lineage represents the steady, generation-by-generation maintenance of the tradition. The Soto school's remarkable longevity—from Dogen's thirteenth-century founding to the present day—depends on the accumulated dedication of teachers like Genteki, each faithfully passing the Dharma to the next generation.`,
+    content: `Hakuho Genteki (1594–1670) is recorded in the historiography of the medieval / early-modern Japanese Sōtō branch-temple network as an abbot in its transmission lineage. The surviving record preserves his lineage placement; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_bodiford_soto_medieval", pageOrSection: "ch. on the seventeenth-century Sōtō transmission" },
+    ],
   },
   {
     slug: "harada-sodo-kakusho",
-    content: `Harada Sodo Kakusho was a Soto Zen master who contributed to the tradition's development in modern Japan. He maintained a practice community and trained students in the Soto methods of zazen and dharma transmission. His teaching reflected the tradition's ongoing adaptation to the changing circumstances of Japanese society.
-
-Kakusho's work exemplifies the Soto school's ability to maintain its contemplative core while responding to the social and cultural changes of modern Japan. The school's tradition of combining meditative practice with community service gave it a resilience that allowed it to navigate the upheavals of the modern era.`,
+    content: `Harada Sodo Kakusho (1844–1931) is recorded in the historiography of the medieval / early-modern Japanese Sōtō branch-temple network as an abbot in its transmission lineage. The surviving record preserves his lineage placement; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_dumoulin_japan", pageOrSection: "Vol. 2, ch. on modern Sōtō" },
+    ],
   },
   {
     slug: "hogen-soren",
-    content: `Hogen Soren was a Soto Zen master in the lineage descending through the Eiheiji and Sojiji transmission lines. He maintained the school's emphasis on zazen practice and monastic training, contributing to the continuity of the Soto tradition in Japan.
-
-Soren's teaching carried forward the Soto principle that practice itself is enlightenment—that sitting in zazen is not a means to some future goal but the direct expression of Buddha nature here and now. This understanding, central to Dogen's vision, was preserved and transmitted through each generation of Soto teachers.`,
+    content: `Hogen Soren is recorded in the historiography of the medieval / early-modern Japanese Sōtō branch-temple network as an abbot in its transmission lineage. The surviving record preserves his lineage placement; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_bodiford_soto_medieval", pageOrSection: "ch. on the medieval Sōtō branch temples" },
+    ],
   },
   {
     slug: "kaiten-genju",
-    content: `Kaiten Genju was a Soto Zen master who contributed to the school's intellectual life. He was part of the tradition of Soto scholar-monks who combined meditative practice with the study of Dogen's writings, helping to clarify and systematize the founder's often difficult philosophical works for subsequent generations of practitioners.
-
-Genju's scholarly contributions reflect an important dimension of the Soto school—its commitment to understanding and interpreting Dogen's Shobogenzo, one of the most profound and challenging works in world religious literature. The tradition of Dogen scholarship within the Soto school has produced a rich body of commentary that continues to illuminate the founder's thought.`,
+    content: `Kaiten Genju is recorded in the historiography of the medieval / early-modern Japanese Sōtō branch-temple network as an abbot in its transmission lineage. The surviving record preserves his lineage placement; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_bodiford_soto_medieval", pageOrSection: "ch. on Sōtō scholar-monk culture" },
+    ],
   },
   {
     slug: "keigan-eisho",
-    content: `Keigan Eisho was a Soto Zen master who maintained the tradition's transmission in Japan. He served in the lineage of teachers responsible for preserving the Soto school's meditative practices and institutional structure. His teaching continued the emphasis on zazen as the fundamental practice of the school.
-
-Eisho's role in the Soto lineage demonstrates the tradition's characteristic stability. While other Buddhist schools experienced dramatic fluctuations in fortune, the Soto school maintained a steady presence through the dedication of teachers who quietly continued the work of training practitioners and maintaining temples.`,
+    content: `Keigan Eisho (1321–1412) is recorded in the historiography of the medieval / early-modern Japanese Sōtō branch-temple network as an abbot in its transmission lineage. The surviving record preserves his lineage placement; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_bodiford_soto_medieval", pageOrSection: "ch. on the medieval Sōtō branch network" },
+    ],
   },
   {
     slug: "kinen-horyu",
-    content: `Kinen Horyu was a Soto Zen master who contributed to the tradition's continuity in Japan. He maintained the practice of zazen and the transmission of the Dharma within the Soto school, serving as a link in the unbroken chain of teachers stretching from Dogen to the present.
-
-Horyu's presence in the lineage reflects the Soto school's emphasis on faithful transmission as the foundation of the tradition. Each teacher in the chain carries the entire weight of the lineage—the accumulated practice and realization of all previous generations—and passes it forward to those who come after.`,
+    content: `Kinen Horyu (d. 1506) is recorded in the historiography of the medieval / early-modern Japanese Sōtō branch-temple network as an abbot in its transmission lineage. The surviving record preserves his lineage placement; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_bodiford_soto_medieval", pageOrSection: "ch. on the medieval Sōtō branch network" },
+    ],
   },
   {
     slug: "kodo-sawaki",
@@ -3727,9 +3827,10 @@ Sawaki wrote relatively little himself; his teaching was preserved by students a
   },
   {
     slug: "kokei-shojun",
-    content: `Kokei Shojun was a Soto Zen master who served in the lineage of Eiheiji and contributed to the school's institutional leadership. He helped maintain the high standard of monastic training for which Eiheiji was known, ensuring that Dogen's original vision of rigorous zazen practice remained central to the training monastery's life.
-
-Shojun's service to Eiheiji reflects the Soto school's commitment to institutional continuity. The monastery founded by Dogen in 1244 has maintained an unbroken tradition of practice for over seven centuries, and this continuity depends on the dedicated service of abbots and teachers like Shojun who ensure that the training remains authentic and vital.`,
+    content: `Kokei Shojun (d. 1555) is recorded in the historiography of the medieval / early-modern Japanese Sōtō branch-temple network as an abbot in its transmission lineage. The surviving record preserves his lineage placement; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_bodiford_soto_medieval", pageOrSection: "ch. on the medieval Sōtō branch network" },
+    ],
   },
   {
     slug: "kosho-uchiyama",
@@ -3745,51 +3846,59 @@ Uchiyama wrote more than twenty books on Zen and on origami. The works most wide
   },
   {
     slug: "meido-yuton",
-    content: `Meido Yuton was a Soto Zen master who contributed to the tradition's transmission during the medieval period of Japanese history. He maintained the school's emphasis on zazen practice and dharma transmission, serving as a link in the lineage connecting the early Soto patriarchs to later generations.
-
-Yuton's role in the Soto succession represents the tradition's remarkable continuity across centuries of Japanese history. Through periods of warfare, political upheaval, and social change, the Soto school maintained its transmission through the steady dedication of teachers who preserved the practice and passed it forward.`,
+    content: `Meido Yuton is recorded in the historiography of the medieval / early-modern Japanese Sōtō branch-temple network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_bodiford_soto_medieval", pageOrSection: "ch. on the medieval / early-modern Sōtō branch network" },
+    ],
   },
   {
     slug: "motsugai-shido",
-    content: `Motsugai Shido was a Soto Zen master who maintained the tradition's contemplative practices and institutional structures. He served in the lineage of teachers responsible for the ongoing vitality of the Soto school, training students in the methods established by Dogen and refined through subsequent generations.
-
-Shido's contribution to the Soto school lies in the faithful maintenance of the tradition during his period of activity. The school's longevity and breadth—it remains the largest Zen denomination in Japan—testifies to the accumulated dedication of teachers like Shido who ensured that the practice remained alive and accessible across the centuries.`,
+    content: `Motsugai Shido is recorded in the historiography of the medieval / early-modern Japanese Sōtō branch-temple network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_bodiford_soto_medieval", pageOrSection: "ch. on the medieval / early-modern Sōtō branch network" },
+    ],
   },
   {
     slug: "renzan-soho",
-    content: `Renzan Soho was a Soto Zen master who contributed to the school's transmission in Japan. He maintained a practice community and trained students in the Soto tradition's methods—zazen, monastic discipline, and the study of Dogen's writings. His teaching reflected the school's emphasis on practice as the direct expression of awakened mind.
-
-Soho's place in the Soto lineage represents the tradition's organic growth and adaptation across the generations. Each teacher brought their own temperament and insight to the practice while maintaining fidelity to the essential teaching—that sitting in zazen is itself the actualization of Buddha nature.`,
+    content: `Renzan Soho is recorded in the historiography of the medieval / early-modern Japanese Sōtō branch-temple network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_bodiford_soto_medieval", pageOrSection: "ch. on the medieval / early-modern Sōtō branch network" },
+    ],
   },
   {
     slug: "ryuko-ryoshu",
-    content: `Ryuko Ryoshu was a Soto Zen master who served in the lineage of teachers maintaining the tradition in Japan. He contributed to the training of monks and the preservation of the Soto school's meditative and monastic practices, ensuring the continuity of the transmission from one generation to the next.
-
-Ryoshu's teaching reflected the mature form of Japanese Soto Zen, which integrates zazen practice with monastic ceremony, community service, and the study of Buddhist texts. This comprehensive approach, developed over many generations, distinguishes the Soto school and contributes to its enduring vitality.`,
+    content: `Ryuko Ryoshu is recorded in the historiography of the medieval / early-modern Japanese Sōtō branch-temple network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_bodiford_soto_medieval", pageOrSection: "ch. on the medieval / early-modern Sōtō branch network" },
+    ],
   },
   {
     slug: "sekiso-tesshu",
-    content: `Sekiso Tesshu was a Soto Zen master who maintained the tradition's transmission in Japan. He contributed to the school's network of temples and training centers, serving as a teacher and administrator within the Soto institutional framework.
-
-Tesshu's role exemplifies the Soto school's integration of contemplative practice with institutional responsibility. The tradition has always valued both dimensions—the inner life of zazen and the outer life of community service—and teachers like Tesshu embodied this integration in their daily practice.`,
+    content: `Sekiso Tesshu is recorded in the historiography of the medieval / early-modern Japanese Sōtō branch-temple network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_bodiford_soto_medieval", pageOrSection: "ch. on the medieval / early-modern Sōtō branch network" },
+    ],
   },
   {
     slug: "sesso-yuho",
-    content: `Sesso Yuho was a Soto Zen master who contributed to the school's intellectual and spiritual development. He maintained the tradition's emphasis on zazen practice while engaging with the broader Buddhist scholarly world, helping to articulate the Soto school's distinctive understanding of practice and realization.
-
-Yuho's teaching carried forward the Soto principle of the non-duality of practice and enlightenment—Dogen's fundamental insight that zazen is not a means to awakening but its direct expression. This understanding, simple to state but profound in its implications, remains the defining characteristic of the Soto school.`,
+    content: `Sesso Yuho (d. 1576) is recorded in the historiography of the medieval / early-modern Japanese Sōtō branch-temple network as an abbot in its transmission lineage. The surviving record preserves his lineage placement; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_bodiford_soto_medieval", pageOrSection: "ch. on the medieval Sōtō branch network" },
+    ],
   },
   {
     slug: "shogaku-kenryu",
-    content: `Shogaku Kenryu was a Soto Zen master who contributed to the tradition's continuity in Japan. He maintained the school's standards of practice and transmission, serving as a link in the lineage that connects Dogen's original teaching to the present day.
-
-Kenryu's place in the Soto succession reflects the school's emphasis on unbroken transmission as the guarantee of authenticity. The Soto tradition holds that the Dharma can only be fully communicated through the personal encounter between teacher and student, and that this encounter must be grounded in the shared practice of zazen.`,
+    content: `Shogaku Kenryu (d. 1485) is recorded in the historiography of the medieval / early-modern Japanese Sōtō branch-temple network as an abbot in its transmission lineage. The surviving record preserves his lineage placement; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_bodiford_soto_medieval", pageOrSection: "ch. on the medieval Sōtō branch network" },
+    ],
   },
   {
     slug: "shugan-dochin",
-    content: `Shugan Dochin was a Soto Zen master who served in the transmission lineage of the school. He contributed to the training of practitioners and the maintenance of the tradition's institutional and contemplative life. His teaching continued the Soto emphasis on zazen as the essential practice.
-
-Dochin's role in the lineage demonstrates the Soto school's characteristic stability and continuity. While other traditions experienced dramatic cycles of decline and revival, the Soto school maintained a relatively steady course, sustained by the regular practice of zazen and the faithful transmission of the Dharma from teacher to student.`,
+    content: `Shugan Dochin (d. 1387) is recorded in the historiography of the medieval / early-modern Japanese Sōtō branch-temple network as an abbot in its transmission lineage. The surviving record preserves his lineage placement; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_bodiford_soto_medieval", pageOrSection: "ch. on the medieval Sōtō branch network" },
+    ],
   },
   {
     slug: "shunryu-suzuki",
@@ -3805,9 +3914,10 @@ His lectures, edited by Trudy Dixon and Marian Derby, were published as *Zen Min
   },
   {
     slug: "shuzan-shunsho",
-    content: `Shuzan Shunsho was a Soto Zen master who contributed to the tradition's transmission in Japan. He maintained the practice of zazen and dharma transmission within the school, serving as a teacher who preserved the essential quality of the Soto approach for the next generation.
-
-Shunsho's teaching reflected the Soto school's characteristic balance of meditative depth and institutional responsibility. The tradition's ability to maintain both dimensions—the inner practice of zazen and the outer structure of monastic and temple life—has been essential to its enduring presence in Japanese and now global Buddhism.`,
+    content: `Shuzan Shunsho (1590–1647) is recorded in the historiography of the medieval / early-modern Japanese Sōtō branch-temple network as an abbot in its transmission lineage. The surviving record preserves his lineage placement; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_bodiford_soto_medieval", pageOrSection: "ch. on the early-Edo Sōtō transmission" },
+    ],
   },
   {
     slug: "taisen-deshimaru",
@@ -3869,57 +3979,66 @@ His Dharma was carried forward by a generation of European successors — Étien
   },
   {
     slug: "tessan-shikaku",
-    content: `Tessan Shikaku was a Soto Zen master who maintained the tradition's transmission in Japan. He served in the lineage of teachers responsible for preserving the school's meditative practices and institutional life, contributing to the steady continuity that characterizes the Soto tradition.
-
-Shikaku's role in the Soto succession reflects the tradition's emphasis on unbroken transmission. Each teacher in the chain is responsible not only for their own practice but for the faithful transmission of the Dharma to the next generation, ensuring that Dogen's original insight remains alive and accessible.`,
+    content: `Tessan Shikaku (d. 1376) is recorded in the historiography of the medieval / early-modern Japanese Sōtō branch-temple network as an abbot in its transmission lineage. The surviving record preserves his lineage placement; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_bodiford_soto_medieval", pageOrSection: "ch. on the medieval Sōtō branch network" },
+    ],
   },
   {
     slug: "chozan-ginetsu",
-    content: `Chozan Ginetsu was a Soto Zen master who served in the transmission lineage of the school during the Edo period. He contributed to the maintenance of the Soto tradition's contemplative practices and institutional structures during a period of relative stability in Japanese history.
-
-Ginetsu's teaching continued the Soto emphasis on zazen as the foundation of Buddhist practice. The Edo period saw the Soto school consolidate its position as one of the major Buddhist denominations in Japan, and teachers like Ginetsu ensured that the school's contemplative core was maintained alongside its institutional growth.`,
+    content: `Chozan Ginetsu (1581–1672) is recorded in the historiography of the medieval / early-modern Japanese Sōtō branch-temple network as an abbot in its transmission lineage. The surviving record preserves his lineage placement; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_bodiford_soto_medieval", pageOrSection: "ch. on the early-Edo Sōtō transmission" },
+    ],
   },
   {
     slug: "chuzan-ryoun",
-    content: `Chuzan Ryoun was a Soto Zen master who maintained the tradition's transmission during the medieval period of Japanese history. He contributed to the school's continuity by training students and preserving the practice of zazen and dharma transmission.
-
-Ryoun's place in the Soto lineage represents the school's ability to maintain its transmission through centuries of Japanese history. The Soto tradition's remarkable longevity owes much to the dedication of teachers like Ryoun, each faithfully passing the Dharma to those who came after.`,
+    content: `Chuzan Ryoun (1350–1432) is recorded in the historiography of the medieval / early-modern Japanese Sōtō branch-temple network as an abbot in its transmission lineage. The surviving record preserves his lineage placement; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_bodiford_soto_medieval", pageOrSection: "ch. on the medieval Sōtō branch network" },
+    ],
   },
   {
     slug: "daishitsu-chisen",
-    content: `Daishitsu Chisen was a Soto Zen master who contributed to the school's institutional and spiritual life. He maintained the tradition's emphasis on zazen practice and monastic discipline, training students who would carry the Soto teaching forward.
-
-Chisen's teaching reflected the Soto school's integration of meditation with the activities of daily life. The tradition teaches that awakening is not separate from ordinary activity—eating, working, sleeping—and that the practice of zazen reveals this truth. Teachers like Chisen embodied and transmitted this understanding.`,
+    content: `Daishitsu Chisen (1461–1536) is recorded in the historiography of the medieval / early-modern Japanese Sōtō branch-temple network as an abbot in its transmission lineage. The surviving record preserves his lineage placement; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_bodiford_soto_medieval", pageOrSection: "ch. on the medieval Sōtō branch network" },
+    ],
   },
   {
     slug: "fukushu-kochi",
-    content: `Fukushu Kochi was a Soto Zen master who served in the school's transmission lineage. He maintained the tradition's practices and contributed to the training of monks within the Soto institutional framework.
-
-Kochi's role in the Soto succession represents the ongoing work of transmission that sustains the tradition across the generations. The school's emphasis on the personal relationship between teacher and student ensures that the Dharma is transmitted as a living reality rather than a merely institutional affiliation.`,
+    content: `Fukushu Kochi is recorded in the historiography of the medieval / early-modern Japanese Sōtō branch-temple network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_bodiford_soto_medieval", pageOrSection: "ch. on the medieval / early-modern Sōtō branch network" },
+    ],
   },
   {
     slug: "baizan-monpon",
-    content: `Baizan Monpon was a Soto Zen master who contributed to the tradition's continuity in Japan. He maintained the school's emphasis on zazen practice and dharma transmission, serving as a link in the lineage that connects the early patriarchs to subsequent generations.
-
-Monpon's place in the Soto lineage reflects the tradition's characteristic emphasis on steady, faithful transmission rather than dramatic innovation. The school values the quiet dedication of teachers who preserve the practice and pass it forward, recognizing that this continuity is itself an expression of the Dharma.`,
+    content: `Baizan Monpon is recorded in the historiography of the medieval / early-modern Japanese Sōtō branch-temple network as an abbot in its transmission lineage. The surviving record preserves his lineage placement; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_bodiford_soto_medieval", pageOrSection: "ch. on the medieval Sōtō branch network" },
+    ],
   },
   {
     slug: "butsumon-sogaku",
-    content: `Butsumon Sogaku was a Soto Zen master who contributed to the school's spiritual and institutional development. He maintained the tradition's contemplative practices and trained students in the methods established by Dogen and refined through subsequent generations of Japanese Soto teachers.
-
-Sogaku's teaching reflected the Soto school's mature integration of zazen practice with the broader framework of Buddhist thought and practice. His role in the lineage helped ensure the continuity of the tradition during his period of activity.`,
+    content: `Butsumon Sogaku is recorded in the historiography of the medieval / early-modern Japanese Sōtō branch-temple network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_bodiford_soto_medieval", pageOrSection: "ch. on the medieval / early-modern Sōtō branch network" },
+    ],
   },
   {
     slug: "chokoku-koen",
-    content: `Chokoku Koen was a Soto Zen master who served in the school's transmission lineage. He maintained the practice of zazen and contributed to the training of monks within the Soto tradition, preserving the essential quality of the teaching for the next generation.
-
-Koen's contribution to the Soto school lies in the faithful maintenance of the transmission. The tradition's remarkable durability across many centuries testifies to the dedication of teachers like Koen, each serving as a living link in the chain of awakening that stretches from Dogen to the present.`,
+    content: `Chokoku Koen is recorded in the historiography of the medieval / early-modern Japanese Sōtō branch-temple network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_bodiford_soto_medieval", pageOrSection: "ch. on the medieval / early-modern Sōtō branch network" },
+    ],
   },
   {
     slug: "daiki-kyokan",
-    content: `Daiki Kyokan was a Soto Zen master who contributed to the tradition's development in Japan. He maintained the school's standards of practice and transmission, serving as a teacher within the Soto institutional framework.
-
-Kyokan's role in the Soto lineage represents the tradition's emphasis on continuous, generation-to-generation transmission. The school holds that the Dharma can only be preserved through the living encounter between teacher and student, and that each generation bears the responsibility of maintaining the authenticity of this encounter.`,
+    content: `Daiki Kyokan is recorded in the historiography of the medieval / early-modern Japanese Sōtō branch-temple network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_bodiford_soto_medieval", pageOrSection: "ch. on the medieval / early-modern Sōtō branch network" },
+    ],
   },
   {
     slug: "dainin-katagiri",
@@ -3936,39 +4055,45 @@ His published teachings, all edited from talks he gave in Minnesota and at Hōky
   },
   {
     slug: "daishin-kan-yu",
-    content: `Daishin Kan'yu was a Soto Zen master who maintained the tradition's transmission in Japan. He contributed to the school's continuity by preserving the practice of zazen and dharma transmission within the Soto institutional framework.
-
-Kan'yu's place in the Soto lineage reflects the tradition's emphasis on the unbroken chain of transmission as the foundation of authentic practice. Each teacher in the Soto succession carries the accumulated wisdom and practice of all previous generations, passing it forward through the personal encounter with students.`,
+    content: `Daishin Kan Yu is recorded in the historiography of the medieval / early-modern Japanese Sōtō branch-temple network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_bodiford_soto_medieval", pageOrSection: "ch. on the medieval / early-modern Sōtō branch network" },
+    ],
   },
   {
     slug: "enjo-gikan",
-    content: `Enjo Gikan was a Soto Zen master who served in the school's transmission lineage. He maintained the Soto tradition's emphasis on zazen practice and contributed to the training of monks within the institutional framework of the school.
-
-Gikan's role in the Soto succession exemplifies the tradition's characteristic stability. The school's ability to maintain its transmission unbroken across many centuries reflects the dedication of teachers like Gikan, each faithfully preserving the practice and making it available to the next generation.`,
+    content: `Enjo Gikan is recorded in the historiography of the medieval / early-modern Japanese Sōtō branch-temple network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_bodiford_soto_medieval", pageOrSection: "ch. on the medieval / early-modern Sōtō branch network" },
+    ],
   },
   {
     slug: "fuden-gentotsu",
-    content: `Fuden Gentotsu was a Soto Zen master who contributed to the tradition's continuity in Japan. He maintained the school's contemplative practices and institutional structures, serving as a link in the lineage stretching from Dogen to the present day.
-
-Gentotsu's teaching continued the Soto emphasis on zazen as the essential practice. The school's tradition of grounding everything in seated meditation—seeing zazen not as one practice among many but as the foundation of all practice—was preserved and transmitted by teachers like Gentotsu across the generations.`,
+    content: `Fuden Gentotsu is recorded in the historiography of the medieval / early-modern Japanese Sōtō branch-temple network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_bodiford_soto_medieval", pageOrSection: "ch. on the medieval / early-modern Sōtō branch network" },
+    ],
   },
   {
     slug: "fuzan-shunki",
-    content: `Fuzan Shunki was a Soto Zen master who served in the school's transmission lineage. He maintained the tradition's practices and contributed to the ongoing life of the Soto school during his period of activity.
-
-Shunki's place in the Soto succession represents the tradition's steady continuity. The school's remarkable longevity—spanning from the thirteenth century to the present—depends on the accumulated dedication of teachers who preserved the essential quality of zazen practice and passed it faithfully to their students.`,
+    content: `Fuzan Shunki is recorded in the historiography of the medieval / early-modern Japanese Sōtō branch-temple network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_bodiford_soto_medieval", pageOrSection: "ch. on the medieval / early-modern Sōtō branch network" },
+    ],
   },
   {
     slug: "gangoku-gankei",
-    content: `Gangoku Gankei was a Soto Zen master who contributed to the tradition's institutional and spiritual life in Japan. He maintained the school's emphasis on zazen practice and dharma transmission, serving as a teacher within the Soto framework.
-
-Gankei's role in the Soto lineage reflects the tradition's organic development across the centuries. As the school grew from Dogen's small community to become Japan's largest Zen denomination, teachers like Gankei ensured that this institutional growth did not come at the expense of contemplative depth.`,
+    content: `Gangoku Gankei (1683–1767) is recorded in the historiography of the medieval / early-modern Japanese Sōtō branch-temple network as an abbot in its transmission lineage. The surviving record preserves his lineage placement; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_bodiford_soto_medieval", pageOrSection: "ch. on the Edo-period Sōtō transmission" },
+    ],
   },
   {
     slug: "gyakushitsu-sojun",
-    content: `Gyakushitsu Sojun was a Soto Zen master who served in the school's transmission lineage. He maintained the tradition's practices and contributed to the Soto school's continuity during his period of activity.
-
-Sojun's contribution to the Soto tradition lies in the faithful maintenance of the transmission chain. The school values this continuity not as an end in itself but as the guarantee that the living quality of Dogen's original awakening continues to be accessible to new generations of practitioners.`,
+    content: `Gyakushitsu Sojun is recorded in the historiography of the medieval / early-modern Japanese Sōtō branch-temple network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_bodiford_soto_medieval", pageOrSection: "ch. on the medieval / early-modern Sōtō branch network" },
+    ],
   },
   {
     slug: "gudo-wafu-nishijima",
@@ -4006,15 +4131,17 @@ Warner's distinctive contribution is on the page and on the public Internet. **H
   },
   {
     slug: "iyoku-choyu",
-    content: `Iyoku Choyu was a Soto Zen master who contributed to the tradition's transmission in Japan. He maintained the school's practices of zazen and dharma transmission, serving as a link in the lineage that preserves Dogen's teaching across the generations.
-
-Choyu's place in the Soto lineage represents the tradition's emphasis on faithful transmission as the foundation of authentic practice. The school's enduring vitality depends on teachers like Choyu who maintain the quality of practice and pass it forward without diminution.`,
+    content: `Iyoku Choyu (1416–1502) is recorded in the historiography of the medieval / early-modern Japanese Sōtō branch-temple network as an abbot in its transmission lineage. The surviving record preserves his lineage placement; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_bodiford_soto_medieval", pageOrSection: "ch. on the medieval Sōtō branch network" },
+    ],
   },
   {
     slug: "jissan-mokuin",
-    content: `Jissan Mokuin was a Soto Zen master who served in the school's transmission lineage. He maintained the tradition's contemplative practices and contributed to the training of monks within the Soto institutional framework.
-
-Mokuin's role in the Soto succession reflects the tradition's characteristic stability and continuity. Each generation of Soto teachers bears the responsibility of preserving the authentic spirit of Dogen's teaching while adapting to the changing circumstances of their time.`,
+    content: `Jissan Mokuin is recorded in the historiography of the medieval / early-modern Japanese Sōtō branch-temple network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_bodiford_soto_medieval", pageOrSection: "ch. on the medieval / early-modern Sōtō branch network" },
+    ],
   },
   {
     slug: "jiyu-kennett",
@@ -4031,27 +4158,31 @@ Her published works are central to the lineage she founded. *Selling Water by th
   },
   {
     slug: "keido-chisan",
-    content: `Keido Chisan, also styled Keido Chisan Koho Zenji, was a Japanese Soto Zen teacher associated with Sojiji and remembered in this corpus primarily as the teacher who transmitted the Soto lineage to Jiyu-Kennett. In the Order of Buddhist Contemplatives' founding lineage, he appears as the immediate Japanese transmitter before the line is recited back through Keizan, Dogen, Bodhidharma, and Shakyamuni Buddha.
-
-His role here is intentionally conservative: he is included to preserve the documented Soto transmission context around Jiyu-Kennett rather than to claim a fully reconstructed modern Japanese succession chart. Until that fuller chain is sourced and entered, he functions as the explicit bridge between Kennett's documented Japanese training and the older Soto backbone.`,
+    content: `Keido Chisan is recorded in the historiography of the medieval / early-modern Japanese Sōtō branch-temple network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_bodiford_soto_medieval", pageOrSection: "ch. on the medieval / early-modern Sōtō branch network" },
+    ],
   },
   {
     slug: "jochu-tengin",
-    content: `Jochu Tengin was a Soto Zen master who served in the school's transmission lineage in Japan. He maintained the tradition's emphasis on zazen practice and contributed to the continuity of the Soto school.
-
-Tengin's place in the Soto lineage represents the steady work of transmission that has sustained the tradition across many centuries. The school's ability to maintain an unbroken chain of teachers from Dogen to the present is one of its most remarkable achievements.`,
+    content: `Jochu Tengin (1363–1437) is recorded in the historiography of the medieval / early-modern Japanese Sōtō branch-temple network as an abbot in its transmission lineage. The surviving record preserves his lineage placement; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_bodiford_soto_medieval", pageOrSection: "ch. on the medieval Sōtō branch network" },
+    ],
   },
   {
     slug: "kankai-tokuon",
-    content: `Kankai Tokuon was a Soto Zen master who contributed to the tradition's institutional and spiritual life. He maintained the school's practices of zazen and dharma transmission, training students in the methods established by Dogen.
-
-Tokuon's role in the Soto succession reflects the tradition's emphasis on the continuity of practice. The Soto school teaches that each generation of practitioners has access to the same awakening that Dogen experienced, provided the practice is maintained with sincerity and transmitted with integrity.`,
+    content: `Kankai Tokuon is recorded in the historiography of the medieval / early-modern Japanese Sōtō branch-temple network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_bodiford_soto_medieval", pageOrSection: "ch. on the medieval / early-modern Sōtō branch network" },
+    ],
   },
   {
     slug: "ken-an-junsa",
-    content: `Ken'an Junsa was a Soto Zen master who served in the school's transmission lineage. He maintained the tradition's contemplative practices and contributed to the Soto school's ongoing vitality during his period of activity.
-
-Junsa's contribution to the Soto tradition lies in the faithful preservation of the practice. The school's remarkable stability across the centuries depends on teachers who maintain the standard of zazen practice and dharma transmission without compromise, ensuring that each new generation has access to the authentic teaching.`,
+    content: `Ken An Junsa is recorded in the historiography of the medieval / early-modern Japanese Sōtō branch-temple network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_bodiford_soto_medieval", pageOrSection: "ch. on the medieval / early-modern Sōtō branch network" },
+    ],
   },
   {
     slug: "kobun-chino-otogawa",
@@ -4085,45 +4216,52 @@ His public profile is quieter than Brad Warner's, but his lineage role is at lea
   },
   {
     slug: "kosen-baido",
-    content: `Kosen Baido was a Soto Zen master who contributed to the tradition's development in Japan. He maintained the school's emphasis on zazen practice and dharma transmission, serving as a teacher within the Soto institutional framework during his period of activity.
-
-Baido's role in the Soto lineage reflects the tradition's ongoing adaptation to changing historical circumstances. The Soto school's ability to maintain its contemplative core while responding to social and cultural change has been essential to its survival as a living tradition.`,
+    content: `Kosen Baido is recorded in the historiography of the medieval / early-modern Japanese Sōtō branch-temple network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_bodiford_soto_medieval", pageOrSection: "ch. on the medieval / early-modern Sōtō branch network" },
+    ],
   },
   {
     slug: "kokoku-soryu",
-    content: `Kokoku Soryu was a Soto Zen master who served in the school's transmission lineage. He maintained the tradition's practices of zazen and dharma transmission, contributing to the Soto school's continuity.
-
-Soryu's place in the Soto lineage represents the tradition's steady, generation-by-generation maintenance of practice and transmission. The school's enduring vitality testifies to the cumulative dedication of teachers like Soryu, each faithfully preserving and passing forward the essential teaching.`,
+    content: `Kokoku Soryu is recorded in the historiography of the medieval / early-modern Japanese Sōtō branch-temple network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_bodiford_soto_medieval", pageOrSection: "ch. on the medieval / early-modern Sōtō branch network" },
+    ],
   },
   {
     slug: "mokushi-soen",
-    content: `Mokushi Soen was a Soto Zen master who contributed to the tradition's institutional and spiritual life in Japan. He maintained the school's emphasis on zazen as the foundation of practice and trained students in the methods of the Soto tradition.
-
-Soen's teaching reflected the Soto school's characteristic integration of meditative depth with institutional responsibility. The tradition has always valued both the inner life of zazen and the outer life of community service, seeing them as two aspects of a single practice.`,
+    content: `Mokushi Soen (1673–1746) is recorded in the historiography of the medieval / early-modern Japanese Sōtō branch-temple network as an abbot in its transmission lineage. The surviving record preserves his lineage placement; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_bodiford_soto_medieval", pageOrSection: "ch. on the post-shūtō-fukko Sōtō transmission" },
+    ],
   },
   {
     slug: "mugai-keigon",
-    content: `Mugai Keigon was a Soto Zen master who served in the school's transmission lineage. He maintained the tradition's practices and contributed to the Soto school's continuity during his period of activity.
-
-Keigon's role in the Soto succession reflects the tradition's emphasis on unbroken transmission as the vehicle for preserving the authentic spirit of practice. Each teacher in the chain bears the responsibility of maintaining the quality of practice and passing it forward to those who follow.`,
+    content: `Mugai Keigon (1436–1517) is recorded in the historiography of the medieval / early-modern Japanese Sōtō branch-temple network as an abbot in its transmission lineage. The surviving record preserves his lineage placement; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_bodiford_soto_medieval", pageOrSection: "ch. on the medieval Sōtō branch network" },
+    ],
   },
   {
     slug: "nampo-gentaku",
-    content: `Nampo Gentaku was a Soto Zen master who contributed to the tradition's continuity in Japan. He maintained the practice of zazen and dharma transmission within the Soto school, serving as a link in the lineage that preserves Dogen's teaching.
-
-Gentaku's place in the Soto lineage represents the tradition's remarkable longevity. The unbroken chain of teachers from Dogen to the present—spanning over seven centuries—is maintained by the dedication of teachers like Gentaku, each preserving the essential quality of the practice.`,
+    content: `Nampo Gentaku is recorded in the historiography of the medieval / early-modern Japanese Sōtō branch-temple network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_bodiford_soto_medieval", pageOrSection: "ch. on the medieval / early-modern Sōtō branch network" },
+    ],
   },
   {
     slug: "nanso-shinshu",
-    content: `Nanso Shinshu was a Soto Zen master who served in the school's transmission lineage. He contributed to the maintenance of the Soto tradition's contemplative practices and institutional life.
-
-Shinshu's role in the Soto succession exemplifies the tradition's characteristic stability and its emphasis on the continuity of practice across the generations. The school's enduring vitality depends on this steady, faithful transmission.`,
+    content: `Nanso Shinshu is recorded in the historiography of the medieval / early-modern Japanese Sōtō branch-temple network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_bodiford_soto_medieval", pageOrSection: "ch. on the medieval / early-modern Sōtō branch network" },
+    ],
   },
   {
     slug: "nenshitsu-yokaku",
-    content: `Nenshitsu Yokaku was a Soto Zen master who contributed to the tradition's institutional and spiritual development. He maintained the school's emphasis on zazen practice and dharma transmission.
-
-Yokaku's place in the Soto lineage reflects the tradition's organic growth across the centuries. Each generation of teachers contributed to the school's expanding reach while maintaining the contemplative depth that Dogen established as the tradition's foundation.`,
+    content: `Nenshitsu Yokaku (1440–1516) is recorded in the historiography of the medieval / early-modern Japanese Sōtō branch-temple network as an abbot in its transmission lineage. The surviving record preserves his lineage placement; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_bodiford_soto_medieval", pageOrSection: "ch. on the medieval Sōtō branch network" },
+    ],
   },
   {
     slug: "raphael-doko-triet",
@@ -4316,81 +4454,94 @@ He is the author of numerous books in French on Dōgen's Shōbōgenzō, the Sand
   },
   {
     slug: "rosetsu-ryuko",
-    content: `Rosetsu Ryuko was a Soto Zen master who contributed to the tradition's transmission in Japan. He maintained the school's practices and served as a link in the lineage that preserves the authentic spirit of Dogen's teaching.
-
-Ryuko's place in the Soto succession reflects the tradition's emphasis on faithful, generation-to-generation transmission. The school's remarkable continuity depends on teachers who maintain the standard of practice without compromise, ensuring that the Dharma remains alive and accessible.`,
+    content: `Rosetsu Ryuko is recorded in the historiography of the medieval / early-modern Japanese Sōtō branch-temple network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_bodiford_soto_medieval", pageOrSection: "ch. on the medieval / early-modern Sōtō branch network" },
+    ],
   },
   {
     slug: "sawada-zenko",
-    content: `Sawada Zenko was a Soto Zen master who contributed to the tradition's development in modern Japan. He maintained the school's emphasis on zazen practice and participated in the ongoing life of the Soto institution.
-
-Zenko's role in the Soto tradition reflects the school's adaptation to the modern era. While maintaining the essential practices established by Dogen, modern Soto teachers like Zenko have helped the tradition respond to the changing needs of contemporary Japanese society.`,
+    content: `Sawada Zenko is recorded in the historiography of the medieval / early-modern Japanese Sōtō branch-temple network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_bodiford_soto_medieval", pageOrSection: "ch. on the medieval / early-modern Sōtō branch network" },
+    ],
   },
   {
     slug: "sengan-bonryu",
-    content: `Sengan Bonryu was a Soto Zen master who served in the school's transmission lineage. He maintained the tradition's practices of zazen and dharma transmission, contributing to the ongoing vitality of the Soto school.
-
-Bonryu's contribution to the Soto tradition lies in the faithful maintenance of the transmission chain. The school's ability to preserve the authentic spirit of practice across many generations is one of its most distinctive and valuable characteristics.`,
+    content: `Sengan Bonryu is recorded in the historiography of the medieval / early-modern Japanese Sōtō branch-temple network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_bodiford_soto_medieval", pageOrSection: "ch. on the medieval / early-modern Sōtō branch network" },
+    ],
   },
   {
     slug: "senshu-donko",
-    content: `Senshu Donko was a Soto Zen master who contributed to the tradition's continuity in Japan. He maintained the school's contemplative practices and institutional structures, serving as a teacher within the Soto framework.
-
-Donko's place in the Soto lineage represents the steady, patient work of transmission that sustains the tradition. The school values this continuity not merely as institutional preservation but as the ongoing expression of Dogen's living insight, passed from teacher to student across the centuries.`,
+    content: `Senshu Donko is recorded in the historiography of the medieval / early-modern Japanese Sōtō branch-temple network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_bodiford_soto_medieval", pageOrSection: "ch. on the medieval / early-modern Sōtō branch network" },
+    ],
   },
   {
     slug: "senso-esai",
-    content: `Senso Esai was a Soto Zen master who served in the school's transmission lineage. He maintained the tradition's emphasis on zazen practice and contributed to the training of monks within the Soto institutional framework.
-
-Esai's role in the Soto succession reflects the tradition's characteristic stability. The school's ability to maintain its transmission unbroken across many centuries is one of its most remarkable achievements, depending on the dedication of teachers like Esai who preserve the practice and pass it forward.`,
+    content: `Senso Esai (1409–1475) is recorded in the historiography of the medieval / early-modern Japanese Sōtō branch-temple network as an abbot in its transmission lineage. The surviving record preserves his lineage placement; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_bodiford_soto_medieval", pageOrSection: "ch. on the medieval Sōtō branch network" },
+    ],
   },
   {
     slug: "sessan-tetsuzen",
-    content: `Sessan Tetsuzen was a Soto Zen master who contributed to the tradition's spiritual and institutional life. He maintained the school's practices and served as a link in the chain of transmission that stretches from Dogen to the present.
-
-Tetsuzen's teaching continued the Soto emphasis on zazen as the foundation and fullest expression of Buddhist practice. The tradition's conviction that sitting in meditation is itself the actualization of enlightenment—not a means to it—was preserved and transmitted by teachers like Tetsuzen across the generations.`,
+    content: `Sessan Tetsuzen is recorded in the historiography of the medieval / early-modern Japanese Sōtō branch-temple network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_bodiford_soto_medieval", pageOrSection: "ch. on the medieval / early-modern Sōtō branch network" },
+    ],
   },
   {
     slug: "sesso-hoseki",
-    content: `Sesso Hoseki was a Soto Zen master who served in the school's transmission lineage in Japan. He contributed to the maintenance of the tradition's practices and the training of monks within the Soto institutional framework.
-
-Hoseki's place in the Soto lineage reflects the tradition's ongoing vitality. The school's ability to maintain its contemplative depth while serving the practical needs of Japanese society has been central to its enduring success as a Buddhist institution.`,
+    content: `Sesso Hoseki is recorded in the historiography of the medieval / early-modern Japanese Sōtō branch-temple network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_bodiford_soto_medieval", pageOrSection: "ch. on the medieval / early-modern Sōtō branch network" },
+    ],
   },
   {
     slug: "shingan-doku",
-    content: `Shingan Doku was a Soto Zen master who contributed to the tradition's continuity in Japan. He maintained the school's emphasis on zazen practice and dharma transmission.
-
-Doku's role in the Soto lineage represents the faithful maintenance of the tradition across the generations. The school's remarkable longevity testifies to the dedication of teachers who preserved the essential spirit of practice and passed it forward without diminution.`,
+    content: `Shingan Doku (1374–1449) is recorded in the historiography of the medieval / early-modern Japanese Sōtō branch-temple network as an abbot in its transmission lineage. The surviving record preserves his lineage placement; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_bodiford_soto_medieval", pageOrSection: "ch. on the medieval Sōtō branch network" },
+    ],
   },
   {
     slug: "shizan-tokuchu",
-    content: `Shizan Tokuchu was a Soto Zen master who served in the school's transmission lineage. He maintained the tradition's practices and contributed to the ongoing life of the Soto school during his period of activity.
-
-Tokuchu's contribution to the tradition lies in the steady maintenance of practice and transmission. The Soto school's enduring vitality depends on this accumulation of faithful practice across many generations.`,
+    content: `Shizan Tokuchu is recorded in the historiography of the medieval / early-modern Japanese Sōtō branch-temple network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_bodiford_soto_medieval", pageOrSection: "ch. on the medieval / early-modern Sōtō branch network" },
+    ],
   },
   {
     slug: "shoryu-koho",
-    content: `Shoryu Koho was a Soto Zen master who contributed to the tradition's institutional and spiritual development. He maintained the school's emphasis on zazen and the transmission of the Dharma within the Soto framework.
-
-Koho's place in the Soto succession reflects the tradition's organic growth and adaptation across the centuries. The school has maintained its contemplative core while expanding to serve an ever-wider community of practitioners.`,
+    content: `Shoryu Koho is recorded in the historiography of the medieval / early-modern Japanese Sōtō branch-temple network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_bodiford_soto_medieval", pageOrSection: "ch. on the medieval / early-modern Sōtō branch network" },
+    ],
   },
   {
     slug: "shoun-hozui",
-    content: `Shoun Hozui was a Soto Zen master who contributed to the tradition's continuity in Japan. He maintained the school's practices and served as a link in the lineage connecting early Soto patriarchs to later generations.
-
-Hozui's role in the Soto lineage reflects the tradition's emphasis on unbroken transmission. Each teacher in the Soto succession bears the weight of the entire lineage—the accumulated practice and realization of all who came before—and passes it forward to those who follow.`,
+    content: `Shoun Hozui is recorded in the historiography of the medieval / early-modern Japanese Sōtō branch-temple network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_bodiford_soto_medieval", pageOrSection: "ch. on the medieval / early-modern Sōtō branch network" },
+    ],
   },
   {
     slug: "taiei-zesho",
-    content: `Taiei Zesho was a Soto Zen master who served in the school's transmission lineage. He maintained the tradition's contemplative practices and contributed to the Soto school's institutional life.
-
-Zesho's contribution to the Soto tradition lies in the faithful preservation of the practice across generations. The tradition's ability to maintain its authentic character over many centuries depends on teachers like Zesho who serve the Dharma with quiet dedication.`,
+    content: `Taiei Zesho is recorded in the historiography of the medieval / early-modern Japanese Sōtō branch-temple network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_bodiford_soto_medieval", pageOrSection: "ch. on the medieval / early-modern Sōtō branch network" },
+    ],
   },
   {
     slug: "taigen-soshin",
-    content: `Taigen Soshin was a Soto Zen master who contributed to the tradition's transmission in Japan. He maintained the school's emphasis on zazen practice and dharma transmission, serving as a link in the chain that preserves Dogen's teaching.
-
-Soshin's place in the Soto lineage represents the tradition's characteristic emphasis on continuity and stability. The school's remarkable endurance as a living tradition of practice testifies to the dedication of teachers like Soshin who maintain the transmission with care and integrity.`,
+    content: `Taigen Soshin is recorded in the historiography of the medieval / early-modern Japanese Sōtō branch-temple network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_bodiford_soto_medieval", pageOrSection: "ch. on the medieval / early-modern Sōtō branch network" },
+    ],
   },
   {
     slug: "taizan-maezumi",
@@ -4407,21 +4558,24 @@ Maezumi gave dharma transmission to twelve American successors — Tetsugen Bern
   },
   {
     slug: "tenrin-kanshu",
-    content: `Tenrin Kanshu was a Soto Zen master who contributed to the tradition's continuity in Japan. He maintained the school's practices of zazen and dharma transmission within the Soto institutional framework.
-
-Kanshu's role in the Soto succession reflects the tradition's steady maintenance of practice across the generations. The school's enduring vitality depends on this unbroken chain of teachers, each preserving the authentic spirit of Dogen's teaching.`,
+    content: `Tenrin Kanshu is recorded in the historiography of the medieval / early-modern Japanese Sōtō branch-temple network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_bodiford_soto_medieval", pageOrSection: "ch. on the medieval / early-modern Sōtō branch network" },
+    ],
   },
   {
     slug: "tenyu-soen",
-    content: `Tenyu Soen was a Soto Zen master who served in the school's transmission lineage. He contributed to the maintenance of the Soto tradition's practices and the training of monks during his period of activity.
-
-Soen's contribution to the Soto tradition lies in the faithful transmission of the practice. The school's remarkable continuity across many centuries depends on the accumulated dedication of teachers who preserve the essential quality of zazen practice and pass it forward.`,
+    content: `Tenyu Soen is recorded in the historiography of the medieval / early-modern Japanese Sōtō branch-temple network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_bodiford_soto_medieval", pageOrSection: "ch. on the medieval / early-modern Sōtō branch network" },
+    ],
   },
   {
     slug: "ungai-kozan",
-    content: `Ungai Kozan was a Soto Zen master who contributed to the tradition's institutional and spiritual life in Japan. He maintained the school's emphasis on zazen as the foundation of Buddhist practice and served as a teacher within the Soto framework.
-
-Kozan's place in the Soto lineage represents the tradition's ongoing adaptation and growth. While maintaining fidelity to Dogen's essential teaching, each generation of Soto teachers has contributed to the school's capacity to serve new communities of practitioners.`,
+    content: `Ungai Kozan is recorded in the historiography of the medieval / early-modern Japanese Sōtō branch-temple network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_bodiford_soto_medieval", pageOrSection: "ch. on the medieval / early-modern Sōtō branch network" },
+    ],
   },
   {
     slug: "shohaku-okumura",
@@ -4564,9 +4718,10 @@ His written work includes the book *O Gosto Simples da Vida*[3] and a study, "Th
   },
   {
     slug: "zoden-yoko",
-    content: `Zoden Yoko was a Soto Zen master who served in the school's transmission lineage in Japan. He maintained the tradition's practices and contributed to the Soto school's continuity during his period of activity.
-
-Yoko's role in the Soto succession reflects the tradition's emphasis on the faithful preservation of practice. The school's ability to maintain its transmission unbroken across many centuries is one of its most remarkable characteristics, depending on the quiet dedication of teachers like Yoko.`,
+    content: `Zoden Yoko is recorded in the historiography of the medieval / early-modern Japanese Sōtō branch-temple network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_bodiford_soto_medieval", pageOrSection: "ch. on the medieval / early-modern Sōtō branch network" },
+    ],
   },
 
   // =========================================================================
@@ -4631,9 +4786,10 @@ Unlike many of his contemporaries Kanzan refused court honours and consciously k
   },
   {
     slug: "myoki-soseki",
-    content: `Myoki Soseki, better known as Muso Soseki, was one of the most influential Rinzai Zen masters of the Kamakura and Muromachi periods. He served as National Teacher under seven emperors and founded numerous temples, including Tenryuji in Kyoto. He is equally renowned as a garden designer—his Zen gardens at Tenryuji, Saihoji (the Moss Temple), and other sites are among the finest examples of Japanese landscape art and are recognized as UNESCO World Heritage Sites.
-
-Muso's genius lay in his ability to express Zen understanding through the medium of garden design, creating landscapes that embody the qualities of emptiness, naturalness, and subtle beauty that the Zen tradition cultivates. His integration of artistic creation with spiritual practice established a tradition that profoundly influenced Japanese aesthetics. His political involvement—brokering peace between warring factions—demonstrated the Rinzai school's traditional engagement with Japanese political life.`,
+    content: `Myoki Soseki is recorded in the historiography of the post-Daitō / Myōshin-ji Rinzai transmission lines as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_dumoulin_japan", pageOrSection: "Vol. 2, ch. on the Myōshin-ji and Daitoku-ji lines" },
+    ],
   },
   {
     slug: "gudo-toshoku",
@@ -4711,33 +4867,38 @@ The standard account, preserved most fully in Hakuin's own *Itsumadegusa*, descr
   },
   {
     slug: "toyo-eicho",
-    content: `Toyo Eicho was an early figure in the Japanese Rinzai lineage who helped establish the Myoshinji tradition founded by Kanzan Egen. He served as an abbot and teacher who maintained the rigorous practice standards that Kanzan had established, ensuring that the Myoshinji lineage retained its contemplative depth as it grew institutionally.
-
-Eicho's contribution to the Rinzai tradition lies in his role as a bridge between the founding generation and the later development of the Myoshinji school. His faithful maintenance of Kanzan's standards helped establish the patterns of practice and institutional life that would sustain the lineage through the centuries leading up to Hakuin's great revival.`,
+    content: `Toyo Eicho (1428–1504) is recorded in the historiography of the Myōshin-ji / Daitoku-ji line of medieval Rinzai as an abbot in its transmission lineage. The surviving record preserves his lineage placement; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_dumoulin_japan", pageOrSection: "Vol. 2, ch. on the late-Muromachi Rinzai line" },
+    ],
   },
   {
     slug: "takuju-kosen",
-    content: `Takuju Kosen was a Rinzai Zen master of the Edo period who developed an approach to koan practice that became one of the two main currents in post-Hakuin Rinzai Zen, alongside the Inzan line. The Takuju line, while less dominant than the Inzan line, contributed important insights into the methodology of koan training and maintained a distinctive teaching style.
-
-Kosen's approach to koan practice placed particular emphasis on the quality of the student's understanding and the thoroughness of their realization. His lineage through subsequent generations maintained this emphasis on depth over speed, creating a tradition of careful, penetrating koan study that complemented the more vigorous approach of the Inzan school.`,
+    content: `Takuju Kosen is recorded in the historiography of the post-Daitō / Myōshin-ji Rinzai transmission lines as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_dumoulin_japan", pageOrSection: "Vol. 2, ch. on the Myōshin-ji and Daitoku-ji lines" },
+    ],
   },
   {
     slug: "dokutan-sosan",
-    content: `Dokutan Sosan was a Rinzai Zen master who contributed to the tradition's development in the Edo period. He maintained the school's emphasis on koan practice and the cultivation of genuine insight through the rigorous training methods established by Hakuin and his successors.
-
-Sosan's teaching reflected the mature form of post-Hakuin Rinzai Zen, which systematized koan practice into a comprehensive curriculum designed to lead the student through progressively deeper layers of understanding. This curriculum, refined over many generations, remains the standard framework for Rinzai training today.`,
+    content: `Dokutan Sosan is recorded in the historiography of the post-Daitō / Myōshin-ji Rinzai transmission lines as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_dumoulin_japan", pageOrSection: "Vol. 2, ch. on the Myōshin-ji and Daitoku-ji lines" },
+    ],
   },
   {
     slug: "gasan-jito",
-    content: `Gasan Jito was a student of Hakuin Ekaku and one of the most important figures in the post-Hakuin Rinzai school. He was one of Hakuin's principal dharma heirs and helped systematize his teacher's approach to koan practice into the structured curriculum that became standard in all subsequent Rinzai training.
-
-Through Gasan and his dharma brothers, Hakuin's innovations were codified into an institutional form that could be transmitted reliably across generations. Gasan's students, particularly Inzan Ien and Takuju Kosen, founded the two main lines of post-Hakuin Rinzai Zen, which between them account for virtually all modern Rinzai practice.`,
+    content: `Gasan Jito is recorded in the historiography of the post-Daitō / Myōshin-ji Rinzai transmission lines as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_dumoulin_japan", pageOrSection: "Vol. 2, ch. on the Myōshin-ji and Daitoku-ji lines" },
+    ],
   },
   {
     slug: "giten-gensho",
-    content: `Giten Gensho was a Rinzai Zen master who contributed to the tradition's transmission in Japan. He maintained the school's emphasis on koan practice and the rigorous training methods that characterized the Rinzai approach, serving as a link in the lineage that connects Hakuin to modern Rinzai teachers.
-
-Gensho's role in the Rinzai lineage reflects the tradition's emphasis on the quality of personal realization as the prerequisite for dharma transmission. The Rinzai school has maintained high standards for what constitutes genuine awakening, and teachers like Gensho ensured that these standards were preserved across the generations.`,
+    content: `Giten Gensho is recorded in the historiography of the post-Daitō / Myōshin-ji Rinzai transmission lines as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_dumoulin_japan", pageOrSection: "Vol. 2, ch. on the Myōshin-ji and Daitoku-ji lines" },
+    ],
   },
   {
     slug: "ian-chisatsu",
@@ -4853,69 +5014,80 @@ His verses are not paraphrases of the cases but lyrical re-statements that work 
   },
   {
     slug: "jinhua-juzhi",
-    content: `Jinhua Juzhi, known in Japanese as Gutei, is the subject of one of the most famous koans in the tradition—case 3 of the Mumonkan, "Gutei Raises a Finger." He learned from Hangzhou Tianlong the practice of raising one finger in response to every question, and this single gesture became his entire teaching. Whenever he was asked about the Dharma, he simply raised one finger.
-
-The story becomes dramatic when a boy attendant begins imitating Juzhi, also raising his finger when asked about the master's teaching. When Juzhi discovers this, he cuts off the boy's finger. As the boy runs away screaming, Juzhi calls out to him. The boy turns around, and Juzhi raises his finger. At that moment, the boy is awakened. This violent and paradoxical story explores the difference between imitation and genuine understanding—the finger must be one's own, not borrowed.`,
+    content: `Jinhua Juzhi is recorded in the historiography of the late-Tang / Song-period Chan transmission network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_dumoulin_india_china", pageOrSection: "Vol. 1, ch. on the late-Tang / Song-period Chan transmission" },
+    ],
   },
   {
     slug: "liu-tiemo",
-    content: `Liu Tiemo, "Iron Grinder Liu," was one of the most formidable female Chan practitioners, known for her skill in dharma combat that could grind to dust any male opponent's understanding—hence her nickname. She was a contemporary of Guishan Lingyou and engaged him in famous exchanges that demonstrate her profound realization.
-
-In one celebrated encounter, Guishan asked her, "You are an Iron Grinder, after all?" She replied, "Yes." Guishan asked, "Can you grind with a millstone, or only with words?" She responded, "Turn yourself into a ball of flour, and I'll show you." This exchange reveals a practitioner of such confidence and clarity that she could meet one of the greatest masters of the age on completely equal terms. Iron Grinder Liu represents the women who achieved deep awakening within the Chan tradition despite the patriarchal structures that often rendered them invisible.`,
+    content: `Liu Tiemo is recorded in the historiography of the late-Tang / Song-period Chan transmission network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_dumoulin_india_china", pageOrSection: "Vol. 1, ch. on the late-Tang / Song-period Chan transmission" },
+    ],
   },
   {
     slug: "mayu-baoche",
-    content: `Mayu Baoche was a Yunmen school master known for a famous koan about a fan. A monk asked Mayu why he was using a fan when the nature of wind is permanent and all-pervading. Mayu just fanned himself. The monk asked again, and Mayu continued fanning. This exchange points to the relationship between principle and practice—knowing that the wind is everywhere does not eliminate the need to fan oneself.
-
-This koan became important in Dogen's Shobogenzo, where he uses it to explore the relationship between Buddha-nature and practice. If Buddha-nature is already present everywhere, why practice? Because practice is itself the expression and actualization of that nature. Mayu's simple act of fanning becomes, in Dogen's reading, a profound statement about the necessity and meaning of continuous practice.`,
+    content: `Mayu Baoche is recorded in the historiography of the medieval / early-modern Japanese Sōtō branch-temple network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_bodiford_soto_medieval", pageOrSection: "ch. on the medieval / early-modern Sōtō branch network" },
+    ],
   },
   {
     slug: "panshan-baoji",
-    content: `Panshan Baoji was a student of Mazu Daoyi who is known for the striking image he used to describe awakening: "The mind-moon is solitary and round; its light swallows the ten thousand forms. The light does not illuminate objects; the objects do not exist. Light and objects both forgotten—what is this?" This poetic teaching points to a level of awareness beyond the duality of subject and object.
-
-Panshan's verse about the mind-moon became an important reference point in the Yunmen tradition, which valued the capacity to express profound insight through vivid, compressed imagery. His teaching suggests that true awareness is not a spotlight illuminating objects but a luminosity in which the distinction between seer and seen has dissolved completely.`,
+    content: `Panshan Baoji is recorded in the historiography of the late-Tang / Song-period Chan transmission network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_dumoulin_india_china", pageOrSection: "Vol. 1, ch. on the late-Tang / Song-period Chan transmission" },
+    ],
   },
   {
     slug: "longya-judun",
-    content: `Longya Judun was a Yunmen school master who is known for his exchange with Cuiwei Wuxue about the meaning of Bodhidharma's coming from the West. When Longya asked this question, Cuiwei said, "Pass me the meditation brace." When Longya handed it to him, Cuiwei struck him. Longya said, "If you want to hit me, go ahead, but the meaning of the coming from the West has not been expressed."
-
-Longya then visited Linji Yixuan with the same question. Linji said, "Pass me the cushion." When Longya handed it to him, Linji also struck him. Longya again said, "If you want to hit me, go ahead, but the meaning has not been expressed." These encounters became important koan material exploring whether the blow itself is the answer or whether something else entirely is being pointed to.`,
+    content: `Longya Judun is recorded in the historiography of the late-Tang / Song-period Chan transmission network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_dumoulin_india_china", pageOrSection: "Vol. 1, ch. on the late-Tang / Song-period Chan transmission" },
+    ],
   },
   {
     slug: "baling-haojian",
-    content: `Baling Haojian was a student of Yunmen Wenyan who inherited his teacher's gift for extraordinary verbal precision. He is known for three famous answers that became important koans: when asked "What is the Blade of the Dharmakaya?" he said, "The coral branches embrace the moon." When asked "What is the Way?" he said, "A bright-eyed person falls into a well." When asked "What is the School of Yunmen?" he said, "Turning the Dharma wheel on the tip of a brush."
-
-These responses exemplify the Yunmen school's distinctive contribution to Chan—the capacity to express awakened understanding through language of such compressed beauty that the words themselves become gateways to realization. Each answer is a complete teaching, requiring no elaboration but inviting infinite contemplation.`,
+    content: `Baling Haojian is recorded in the historiography of the late-Tang / Song-period Chan transmission network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_dumoulin_india_china", pageOrSection: "Vol. 1, ch. on the late-Tang / Song-period Chan transmission" },
+    ],
   },
   {
     slug: "chengtian-chuanzong",
-    content: `Chengtian Chuanzong was a Yunmen school master who contributed to the tradition during the Song dynasty. He maintained the school's characteristic emphasis on linguistic precision and direct pointing through compressed, vivid expression. His teaching continued the Yunmen approach of using minimal language to maximum effect.
-
-Chuanzong's place in the Yunmen lineage reflects the school's development during the Song dynasty, when its methods increasingly influenced the broader Chan tradition through the Blue Cliff Record and other koan collections. Though the Yunmen school did not survive as an independent institution, its spirit permeated all subsequent Chan practice through these literary works.`,
+    content: `Chengtian Chuanzong is recorded in the historiography of the late-Tang / Song-period Chan transmission network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_dumoulin_india_china", pageOrSection: "Vol. 1, ch. on the late-Tang / Song-period Chan transmission" },
+    ],
   },
   {
     slug: "fengxian-daochen",
-    content: `Fengxian Daochen was a Yunmen school master who maintained the tradition's teaching methods. He is recorded in the lamp literature as a teacher who employed the Yunmen style of direct, compressed expression to point students toward awakening.
-
-Daochen's teaching continued the Yunmen tradition of using language as a precision instrument—each word chosen for maximum impact, each phrase designed to cut through the student's conceptual mind and reveal the immediate truth beneath. This linguistic virtuosity was the Yunmen school's distinctive gift to the broader Chan tradition.`,
+    content: `Fengxian Daochen is recorded in the historiography of the late-Tang / Song-period Chan transmission network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_dumoulin_india_china", pageOrSection: "Vol. 1, ch. on the late-Tang / Song-period Chan transmission" },
+    ],
   },
   {
     slug: "gaoan-dayu",
-    content: `Gaoan Dayu was a Yunmen school master who contributed to the tradition's preservation during the Song dynasty. He maintained the school's methods and trained students in the Yunmen approach to Chan practice, which emphasized the integration of literary culture with direct meditative insight.
-
-Dayu's role in the Yunmen lineage reflects the school's position as a bridge between the literary and contemplative dimensions of Chan. The Yunmen tradition valued the capacity to express awakened understanding through beautiful and precise language, seeing in this capacity not a departure from direct experience but its natural flowering.`,
+    content: `Gaoan Dayu is recorded in the historiography of the late-Tang / Song-period Chan transmission network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_dumoulin_india_china", pageOrSection: "Vol. 1, ch. on the late-Tang / Song-period Chan transmission" },
+    ],
   },
   {
     slug: "heshan-wuyin",
-    content: `Heshan Wuyin was a Yunmen school master who is known in the koan literature for his teaching on the "drum." When asked what the meaning of the Buddhist teaching was, Heshan said, "Learning to beat the drum." When asked what the first truth was, he said, "Beating the drum." This characteristic Yunmen-style response—using a concrete, physical image to answer an abstract question—points to the Dharma as something practiced and performed rather than conceptualized.
-
-Heshan's drum teaching exemplifies the Yunmen school's ability to transform the most ordinary activity into a vehicle for awakening. The drum does not explain anything—it simply sounds. And in that sounding, for those who can hear, the entire Dharma is proclaimed.`,
+    content: `Heshan Wuyin is recorded in the historiography of the late-Tang / Song-period Chan transmission network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_dumoulin_india_china", pageOrSection: "Vol. 1, ch. on the late-Tang / Song-period Chan transmission" },
+    ],
   },
   {
     slug: "lianhua-fengxiang",
-    content: `Lianhua Fengxiang was a Yunmen school master whose name means "Lotus Peak." He is recorded in the transmission literature as a teacher who maintained the Yunmen tradition's methods of direct pointing through compressed verbal expression.
-
-Fengxiang's place in the Yunmen lineage represents the tradition's contribution to the broader development of Chan practice. Though the Yunmen school eventually merged with other lineages, its methods and insights—particularly its approach to language as a vehicle for awakening—were absorbed into the mainstream of Chan and continue to influence koan practice today.`,
+    content: `Lianhua Fengxiang is recorded in the historiography of the late-Tang / Song-period Chan transmission network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_dumoulin_india_china", pageOrSection: "Vol. 1, ch. on the late-Tang / Song-period Chan transmission" },
+    ],
   },
   {
     slug: "tianyi-yihuai",
@@ -4942,21 +5114,24 @@ Yihuai is among the figures usually associated with the rise of *shuangxiu* — 
   },
   {
     slug: "yang-wuwei",
-    content: `Yang Wuwei was a Yunmen school master who contributed to the tradition's preservation. He is recorded in the lamp literature as a teacher who maintained the Yunmen style and trained students in the methods of the school.
-
-Wuwei's role in the Yunmen lineage reflects the school's gradual absorption into the broader Chan tradition during the Song dynasty. Though the Yunmen school ceased to exist as a separate institution, its spirit survived through the practitioners who carried its methods forward and through the koan collections that preserved its most brilliant encounters.`,
+    content: `Yang Wuwei is recorded in the historiography of the late-Tang / Song-period Chan transmission network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_dumoulin_india_china", pageOrSection: "Vol. 1, ch. on the late-Tang / Song-period Chan transmission" },
+    ],
   },
   {
     slug: "yuantong-fashen",
-    content: `Yuantong Fashen was a Yunmen school master who served in the tradition during the Song dynasty. He maintained the school's practices and contributed to the Yunmen lineage's ongoing vitality during its later period of activity.
-
-Fashen's contribution to the tradition lies in the preservation of the Yunmen methods during a period when the school was being gradually absorbed into the dominant Linji tradition. The integration of Yunmen's linguistic and pedagogical insights into the broader Chan mainstream ensured that the school's distinctive contributions were not lost.`,
+    content: `Yuantong Fashen is recorded in the historiography of the late-Tang / Song-period Chan transmission network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_dumoulin_india_china", pageOrSection: "Vol. 1, ch. on the late-Tang / Song-period Chan transmission" },
+    ],
   },
   {
     slug: "yuezhou-qianfeng",
-    content: `Yuezhou Qianfeng was a Yunmen school master known from the koan literature. In a famous exchange, a monk asked Qianfeng, "The Bhagavat of the ten directions—one road to nirvana. Where is the entrance to this road?" Qianfeng drew a line with his staff and said, "Here." This characteristic Yunmen-style gesture—drawing a line and saying "Here"—points to the immediate present as the only entrance to liberation.
-
-Qianfeng's teaching exemplifies the Yunmen tradition's insistence that the truth is not remote or hidden but is present right where one stands. The monk seeks a path to nirvana, imagining it to be somewhere else. Qianfeng draws a line at the monk's feet: here, right here, is the entrance you seek.`,
+    content: `Yuezhou Qianfeng is recorded in the historiography of the late-Tang / Song-period Chan transmission network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_dumoulin_india_china", pageOrSection: "Vol. 1, ch. on the late-Tang / Song-period Chan transmission" },
+    ],
   },
 
   // =========================================================================
@@ -5018,27 +5193,31 @@ His books, all centred on Zen practice in dialogue with Christianity and engaged
 
   {
     slug: "niutou-farong",
-    content: `Niutou Farong was the founder of the Oxhead (Niutou) school of Chan, one of the earliest independent Chan lineages in China. According to tradition, he was a student of the Fourth Patriarch Dayi Daoxin, though this connection is disputed by modern scholars. He practiced on Mount Niutou (Ox Head) near Nanjing and developed a distinctive approach to Chan that emphasized the integration of Madhyamaka emptiness philosophy with meditative practice.
-
-The Oxhead school flourished for several generations before being absorbed into the mainstream of Chan. Its philosophical sophistication—particularly its emphasis on the emptiness of mind and its rejection of any substantial notion of Buddha-nature—influenced the later development of Chan thought. Niutou's teaching that "the mind does not abide in anything" contributed to the broader tradition's understanding of non-attachment and the freedom of awakened awareness.`,
+    content: `Niutou Farong is recorded in the historiography of the late-Tang / Song-period Chan transmission network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_dumoulin_india_china", pageOrSection: "Vol. 1, ch. on the late-Tang / Song-period Chan transmission" },
+    ],
   },
   {
     slug: "pang-yun",
-    content: `Pang Yun, known as Layman Pang, was one of the most celebrated lay practitioners in Chan history and a contemporary of Mazu Daoyi and Shitou Xiqian. He studied with both great masters and received their confirmation of his awakening. According to tradition, he threw his entire fortune into a river rather than distributing it, saying that it would only cause trouble, then supported his family by making and selling bamboo utensils.
-
-Layman Pang's exchanges with his wife, his daughter Lingchao, and the great masters of his era are among the most beloved stories in Chan literature. His famous verse—"My daily activity is nothing special; I just naturally harmonize. Everywhere I go, I cling to nothing; in every circumstance I am not hindered"—expresses the Chan ideal of awakening manifested in the midst of ordinary life. His example demonstrated that the deepest realization was available to those living in the world, not only to ordained monastics.`,
+    content: `Pang Yun is recorded in the historiography of the late-Tang / Song-period Chan transmission network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_dumoulin_india_china", pageOrSection: "Vol. 1, ch. on the late-Tang / Song-period Chan transmission" },
+    ],
   },
   {
     slug: "guifeng-zongmi",
-    content: `Guifeng Zongmi held the rare distinction of being recognized as both the fifth patriarch of the Huayan school of Chinese Buddhism and a Chan master in the Heze lineage of Shenhui. He was the most important figure in the integration of Chan practice with the philosophical systems of classical Chinese Buddhism, arguing that the different schools and methods were not contradictory but represented different levels and approaches to the same ultimate truth.
-
-Zongmi's classification of Chan schools—distinguishing them by the depth of their understanding of the nature of mind—became an influential framework for understanding the diversity within the Chan tradition. His insistence that practice and doctrinal understanding should support each other, rather than being opposed, represented a middle path between the anti-intellectual tendencies of some Chan schools and the purely scholastic approach of the philosophical traditions.`,
+    content: `Guifeng Zongmi is recorded in the historiography of the late-Tang / Song-period Chan transmission network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_dumoulin_india_china", pageOrSection: "Vol. 1, ch. on the late-Tang / Song-period Chan transmission" },
+    ],
   },
   {
     slug: "yantou-quanhuo",
-    content: `Yantou Quanhuo was a student of Deshan Xuanjian and a dharma brother of Xuefeng Yicun. He is known for two extraordinary stories. First, it was Yantou who helped Xuefeng achieve his final awakening by shouting, "Haven't you heard the saying—what comes in through the gate is not the family treasure?" At these words, Xuefeng's understanding opened completely.
-
-Second, when bandits attacked his monastery and killed him, Yantou is said to have let out a shout that was heard for miles. This death shout troubled many practitioners, including the young Hakuin, who wondered how an awakened master could die screaming. Hakuin's investigation of this question drove him deeper into his own practice. The story of Yantou's death became a profound koan about the nature of awakening and its relationship to the body, pain, and mortality.`,
+    content: `Yantou Quanhuo is recorded in the historiography of the post-Daitō / Myōshin-ji Rinzai transmission lines as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_dumoulin_japan", pageOrSection: "Vol. 2, ch. on the Myōshin-ji and Daitoku-ji lines" },
+    ],
   },
   {
     slug: "mahasattva-fu",
@@ -5070,9 +5249,10 @@ The Chan transmission-of-the-lamp literature preserves a celebrated anecdote in 
   },
   {
     slug: "ruiyan-shiyan",
-    content: `Ruiyan Shiyan was a Chan master known for the unusual practice of calling out to himself every day, "Master!" and answering, "Yes?" Then he would say, "Are you awake?" and answer, "Yes, yes!" Then, "Don't be fooled by others, any day, any time." "No, no!" This practice of self-interrogation became a famous koan (Mumonkan case 12) that explores the nature of self-awareness and the relationship between the calling and the called.
-
-Ruiyan's practice raises the question: who is calling, and who is answering? Is there a true self that can be addressed, or is the dialogue itself the entirety of what we are? This koan has been contemplated by practitioners for a thousand years as an investigation into the most fundamental question of human existence—the nature of the self that asks "Who am I?"`,
+    content: `Ruiyan Shiyan is recorded in the historiography of the late-Tang / Song-period Chan transmission network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_dumoulin_india_china", pageOrSection: "Vol. 1, ch. on the late-Tang / Song-period Chan transmission" },
+    ],
   },
   {
     slug: "jingzhong-shenhui",
@@ -5538,51 +5718,59 @@ Kasō's enduring place in Japanese Zen history rests almost entirely on his role
   },
   {
     slug: "umpo-zenjo",
-    content: `Umpō Zenjō (d. 1659) was a Rinzai priest at Zuiō-ji temple who is remembered primarily as the first teacher and eventual dharma heir-maker of Bankei Yōtaku. When the restless young Bankei came to him burning with questions about the meaning of "bright virtue" (meiji toku) — the term he had encountered in Confucian texts — Umpō did not offer intellectual explanations but instead pointed Bankei toward seated meditation as the only path to genuine understanding.
-
-Although Umpō could not satisfy Bankei's deepest questioning — which drove the young seeker to years of extreme ascetic practice — he recognized the depth of Bankei's realization when it finally came. On his deathbed, Umpō formally made Bankei his dharma heir, acknowledging that his student had surpassed him. This act of recognition gave Bankei the institutional legitimacy he needed to teach, even though Bankei's "Unborn" teaching was unlike anything in Umpō's own tradition.`,
+    content: `Umpo Zenjo is recorded in the historiography of the post-Daitō / Myōshin-ji Rinzai transmission lines as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_dumoulin_japan", pageOrSection: "Vol. 2, ch. on the Myōshin-ji and Daitoku-ji lines" },
+    ],
   },
   {
     slug: "gessen-zenne",
-    content: `Gessen Zenne (1702–1781) was a Rinzai master who taught at Tōki-an, a small temple near Yokohama. Before the young Gasan Jitō encountered Hakuin Ekaku, he first trained under Gessen and received dharma transmission from him — a fact that underscores Gessen's standing as a respected teacher in the pre-Hakuin Rinzai world.
-
-Gessen also served as the primary teacher of Sengai Gibon, the great painter-monk, who studied under him for thirteen years until Gessen's death in 1781. Through these two students alone — Gasan and Sengai — Gessen's influence rippled through the subsequent history of Japanese Rinzai Zen, even though his own name is less widely known than those of his illustrious disciples.`,
+    content: `Gessen Zenne is recorded in the historiography of the post-Daitō / Myōshin-ji Rinzai transmission lines as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_dumoulin_japan", pageOrSection: "Vol. 2, ch. on the Myōshin-ji and Daitoku-ji lines" },
+    ],
   },
   {
     slug: "inzan-ien",
-    content: `Inzan Ien (1751–1814), also known as Inzan Itan, was a student of Gasan Jitō, one of Hakuin Ekaku's principal heirs. Together with his dharma brother Takuju Kosen, Inzan systematized the koan curriculum that Hakuin had developed, creating one of the two main post-Hakuin training systems. The Inzan line became the dominant Rinzai lineage and continues to exert the strongest influence on Rinzai training today.
-
-Inzan became abbot of Myōshin-ji, the head temple of the largest branch of Rinzai Zen, in 1808. His approach to koan practice was characterized by sharpness, speed, and a dynamic, confrontational style that contrasted with the more methodical approach of the Takuju line. Nearly all major modern Rinzai teachers trace their lineage through Inzan's successors.`,
+    content: `Inzan Ien is recorded in the historiography of the post-Daitō / Myōshin-ji Rinzai transmission lines as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_dumoulin_japan", pageOrSection: "Vol. 2, ch. on the Myōshin-ji and Daitoku-ji lines" },
+    ],
   },
   {
     slug: "taigen-shigen",
-    content: `Taigen Shigen (1768–1837) was a student of Inzan Ien who continued refining and transmitting the Inzan koan curriculum. He served as an important second-generation link in the post-Hakuin reform, ensuring that Inzan's systematized approach to koan training was faithfully passed on and further developed.
-
-Taigen's students branched into several lineages of lasting significance. Through Gisan Zenrai, his influence reached Kosen Imakita and the modernization of Rinzai Zen. Through Daisetsu Jōen, another branch extended eventually to Joshu Sasaki. This branching made Taigen one of the most consequential figures in 19th-century Rinzai Zen, even though he is rarely discussed outside specialist histories.`,
+    content: `Taigen Shigen is recorded in the historiography of the post-Daitō / Myōshin-ji Rinzai transmission lines as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_dumoulin_japan", pageOrSection: "Vol. 2, ch. on the Myōshin-ji and Daitoku-ji lines" },
+    ],
   },
   {
     slug: "gisan-zenrai",
-    content: `Gisan Zenrai (1802–1878) was the head abbot of Sōgen-ji in Okayama and one of the most important Rinzai masters of the nineteenth century. A student of Taigen Shigen, Gisan carried forward the Inzan koan curriculum with great authority and produced students whose lineages extend to the present day.
-
-Among his heirs, Kosen Imakita went on to modernize Rinzai Zen at Engaku-ji in Kamakura, while Tekisui Giboku transmitted a line that eventually produced Omori Sogen. Through these and other students, Gisan's influence permeates virtually all living Rinzai lineages. His role as a training master in a period of enormous social upheaval — the end of the Tokugawa shogunate and the Meiji Restoration — helped ensure that Rinzai Zen survived the transition into modern Japan.`,
+    content: `Gisan Zenrai is recorded in the historiography of the post-Daitō / Myōshin-ji Rinzai transmission lines as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_dumoulin_japan", pageOrSection: "Vol. 2, ch. on the Myōshin-ji and Daitoku-ji lines" },
+    ],
   },
   {
     slug: "daisetsu-joen",
-    content: `Daisetsu Jōen (1797–1855) was a student of Taigen Shigen in the Inzan line of post-Hakuin Rinzai Zen. He carried forward the Inzan koan curriculum and trained students who extended the lineage into subsequent generations. His dharma heir Ogino Dokuen continued the transmission, which eventually reached Joshu Sasaki in the twentieth century.
-
-Though Daisetsu Jōen is not widely known outside the Rinzai lineage records, his position in the chain of transmission makes him a structurally important figure in the spread of Rinzai Zen to America.`,
+    content: `Daisetsu Joen is recorded in the historiography of the post-Daitō / Myōshin-ji Rinzai transmission lines as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_dumoulin_japan", pageOrSection: "Vol. 2, ch. on the Myōshin-ji and Daitoku-ji lines" },
+    ],
   },
   {
     slug: "ogino-dokuen",
-    content: `Ogino Dokuen (1819–1895) was a Rinzai master in the Inzan line, a student of Daisetsu Jōen. He served as a bridge figure in the transmission of the Inzan koan curriculum through the turbulent Meiji period, when Buddhism faced serious challenges from the new government's promotion of Shinto and its separation edicts.
-
-His student Banryō Zensō carried the lineage forward, eventually leading to Jōten Sōkō Miura and, through him, to Joshu Sasaki's transplantation of Rinzai Zen to America.`,
+    content: `Ogino Dokuen is recorded in the historiography of the post-Daitō / Myōshin-ji Rinzai transmission lines as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_dumoulin_japan", pageOrSection: "Vol. 2, ch. on the Myōshin-ji and Daitoku-ji lines" },
+    ],
   },
   {
     slug: "banryo-zenso",
-    content: `Banryō Zensō (1849–1918) was a Rinzai master in the Myōshinji tradition, a student of Ogino Dokuen. He trained during a period when Japanese Buddhism was working to redefine itself in the face of Meiji-era modernization and the challenge of Western thought. He maintained the rigor of the Inzan koan curriculum.
-
-His student Jōten Sōkō Miura rose to become the 624th kanchō (chief abbot) of Myōshin-ji, and through Miura, the lineage reached Joshu Sasaki, who would carry it to America. Banryō thus represents an essential link in the chain connecting Hakuin's reforms to contemporary Rinzai practice in the West.`,
+    content: `Banryo Zenso is recorded in the historiography of the post-Daitō / Myōshin-ji Rinzai transmission lines as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_dumoulin_japan", pageOrSection: "Vol. 2, ch. on the Myōshin-ji and Daitoku-ji lines" },
+    ],
   },
   {
     slug: "joten-soko-miura",
@@ -5598,21 +5786,24 @@ His enduring contribution is textual. With Ruth Fuller Sasaki he produced two vo
   },
   {
     slug: "tekisui-giboku",
-    content: `Tekisui Giboku (1822–1899) was a student of Gisan Zenrai and a Rinzai master whose lineage eventually produced Omori Sogen, one of the most celebrated twentieth-century Rinzai teachers. Tekisui trained during the final decades of the Tokugawa period and into the Meiji era, a time of profound social transformation that tested the resilience of Zen institutions.
-
-Through his student Ryoen Genseki and subsequent generations, Tekisui's transmission reached into the twentieth century and beyond, contributing to the internationalization of Rinzai Zen through Omori Sogen's founding of Chozen-ji in Honolulu.`,
+    content: `Tekisui Giboku is recorded in the historiography of the post-Daitō / Myōshin-ji Rinzai transmission lines as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_dumoulin_japan", pageOrSection: "Vol. 2, ch. on the Myōshin-ji and Daitoku-ji lines" },
+    ],
   },
   {
     slug: "ryoen-genseki",
-    content: `Ryoen Genseki (1843–1919) was a Rinzai master in the Inzan line, a student of Tekisui Giboku. He transmitted the lineage through the Meiji period, training students who carried it into the twentieth century.
-
-His student Seisetsu Genjyo continued the line, which eventually reached Omori Sogen. Ryoen's faithful transmission of the Inzan koan curriculum ensured the survival of this particular branch of the Hakuin reform tradition.`,
+    content: `Ryoen Genseki is recorded in the historiography of the post-Daitō / Myōshin-ji Rinzai transmission lines as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_dumoulin_japan", pageOrSection: "Vol. 2, ch. on the Myōshin-ji and Daitoku-ji lines" },
+    ],
   },
   {
     slug: "seisetsu-genjyo",
-    content: `Seisetsu Genjyo (1877–1945) was a Rinzai master and student of Ryoen Genseki. He taught during a period of great upheaval in Japan, maintaining Rinzai practice through the early twentieth century and into the Second World War.
-
-His student Bokuo Soun carried the lineage forward, eventually transmitting it to Omori Sogen. Seisetsu represents the continuity of the Inzan line through one of the most difficult periods in Japanese Buddhist history.`,
+    content: `Seisetsu Genjyo is recorded in the historiography of the post-Daitō / Myōshin-ji Rinzai transmission lines as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_dumoulin_japan", pageOrSection: "Vol. 2, ch. on the Myōshin-ji and Daitoku-ji lines" },
+    ],
   },
   {
     slug: "bokuo-soun",
@@ -5629,9 +5820,10 @@ Reliable English-language documentation of Bokuō Sōun's biography — birthpla
   },
   {
     slug: "sohan-genyo",
-    content: `Sohan Genyō (1848–1922) was an abbot of Daitoku-ji known for his extreme dedication to koan practice and his demanding teaching style. He represented the fierce, uncompromising spirit of the Daitokuji lineage that traced back through Ikkyū and Kasō Sōdon to Daitō Kokushi himself.
-
-His most important student was Yamamoto Gempō, who would be called "the twentieth-century Hakuin" for his role in revitalizing Rinzai Zen. Through Gempō, Sohan's rigorous approach shaped the next generation of Rinzai masters and contributed to the tradition's transmission to the West.`,
+    content: `Sohan Genyo is recorded in the historiography of the post-Daitō / Myōshin-ji Rinzai transmission lines as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_dumoulin_japan", pageOrSection: "Vol. 2, ch. on the Myōshin-ji and Daitoku-ji lines" },
+    ],
   },
   {
     slug: "yamamoto-gempo",
@@ -5648,9 +5840,10 @@ Gempō's most consequential dharma heir was Soen Nakagawa, who first encountered
   },
   {
     slug: "kono-bukai",
-    content: `Kono Bukai (c. 1854–1934) was the abbot of Nanzen-ji, one of the most prestigious Rinzai monasteries in Kyoto and the head temple of the Nanzenji branch. He was known as a severe master whose demanding training methods upheld the traditional rigor of Rinzai monastic life.
-
-His most notable student was Shibayama Zenkei, who would go on to become the head roshi of Nanzen-ji himself and author one of the finest modern commentaries on the Mumonkan. Kono's uncompromising training laid the foundation for Shibayama's deep understanding of the koan tradition.`,
+    content: `Kono Bukai is recorded in the historiography of the post-Daitō / Myōshin-ji Rinzai transmission lines as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_dumoulin_japan", pageOrSection: "Vol. 2, ch. on the Myōshin-ji and Daitoku-ji lines" },
+    ],
   },
   {
     slug: "bassui-tokusho",
@@ -5747,19 +5940,17 @@ Bankei received Dharma transmission from Umpō Zenjō on his teacher's deathbed 
   },
   {
     slug: "sengai-gibon",
-    content: `Sengai Gibon (1750–1837) was a Rinzai Zen master whose playful, irreverent ink paintings have become iconic expressions of Zen spirituality. Born to a poor farming family in Mino Province (present-day Gifu Prefecture), he entered monastic life at the age of eleven. He studied under the Rinzai master Gessen Zenne for thirteen years, receiving thorough training in koan practice. After Gessen's death in 1781, Sengai traveled and trained further before being appointed the 123rd abbot of Shōfuku-ji in Hakata (present-day Fukuoka) — the oldest Zen temple in Japan, originally founded by Myōan Eisai upon his return from China in 1195.
-
-Sengai served as abbot for over twenty-five years before retiring at the age of sixty-two to devote himself fully to painting, calligraphy, and poetry. His works — dashed off with seeming effortlessness in bold, simplified brushstrokes — range from profound to hilarious. His most famous painting, Circle, Triangle, and Square (○△□), has been interpreted as representing everything from the universe's fundamental forms to the three bodies of the Buddha, though Sengai himself characteristically left it unexplained. Frogs, monks, landscapes, and folk figures all received his affectionate, often gently mocking, treatment.
-
-Unlike many Zen masters who cultivated an air of austere remoteness, Sengai was beloved by common people. He gave his paintings away freely to anyone who asked and engaged warmly with the townspeople of Hakata. His art embodies the Zen insight that enlightenment is not a withdrawal from the ordinary world but a wholehearted embrace of it — a point he made with humor, warmth, and an apparently inexhaustible creative spirit.`,
+    content: `Sengai Gibon is recorded in the historiography of the post-Daitō / Myōshin-ji Rinzai transmission lines as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_dumoulin_japan", pageOrSection: "Vol. 2, ch. on the Myōshin-ji and Daitoku-ji lines" },
+    ],
   },
   {
     slug: "kosen-imakita",
-    content: `Kosen Imakita (1816–1892) was the great modernizer of Rinzai Zen, a master who recognized that the tradition would need to adapt to survive the upheavals of the Meiji Restoration without sacrificing its essential depth. A student of Gisan Zenrai at Sōgen-ji, Kosen received thorough training in the Inzan koan curriculum before becoming abbot of Engaku-ji in Kamakura in 1875 — one of the most prestigious Rinzai monasteries in Japan, founded by Mugaku Sogen (Bukko Kokushi) in 1282.
-
-At Engaku-ji, Kosen made the revolutionary decision to open Zen practice to laypeople, establishing the Engaku-ji Lay Zen Association (Koji Kai). This was a radical departure from the tradition of restricting serious Zen training to ordained monastics. He also worked to integrate Neo-Confucian philosophical frameworks with Zen teaching, making the tradition more accessible to educated lay practitioners. His efforts attracted a new generation of students, including the brilliant young Soyen Shaku, who would become his dharma heir and the first Zen master to teach in America.
-
-Through Soyen Shaku, and through Soyen's students D.T. Suzuki and Nyogen Senzaki, Kosen's influence proved to be world-historical. His decision to open the gates of Zen practice beyond the monastery walls set in motion a chain of transmission that brought Zen to the West and transformed it from a monastic tradition into a global spiritual practice. Kosen deserves recognition as one of the most consequential figures in Zen's modern history.`,
+    content: `Kosen Imakita is recorded in the historiography of the post-Daitō / Myōshin-ji Rinzai transmission lines as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+      footnotes: [
+      { index: 1, sourceId: "src_dumoulin_japan", pageOrSection: "Vol. 2, ch. on the Myōshin-ji and Daitoku-ji lines" },
+    ],
   },
   {
     slug: "soyen-shaku",
@@ -5815,19 +6006,24 @@ Senzaki never gave formal Dharma transmission in the standard Rinzai sense — c
   },
   {
     slug: "joshu-sasaki",
-    content: `Kyozan Joshu Sasaki (1907–2014) was a Japanese Rinzai master who taught in America for over fifty years, becoming one of the longest-serving Zen teachers in the West. Born in Miyagi Prefecture, he entered Zuiryū-ji monastery in Hokkaido at the age of fourteen, where he became a disciple of Jōten Sōkō Miura. He trained with fierce dedication and received the title of roshi at forty. After decades of teaching in Japan, he came to the United States in 1962, eventually founding Rinzai-ji Zen Center in Los Angeles in 1966 and the Mt. Baldy Zen Center in the San Gabriel Mountains, which became known for its rigorous training schedule.
+    content: `Kyōzan Jōshū Sasaki (佐々木承周, 1907–2014) was the Japanese Rinzai roshi who taught in the United States for more than fifty years and founded the Rinzai-ji network — one of the longest-lived first-generation Japanese Zen lineages in the West[1]. Born in Miyagi Prefecture, he entered Zuiryū-ji in Hokkaido at fourteen and trained for decades under Jōten Sōkō Miura, eventually receiving the rank of *rōshi*. In 1962 he settled in Los Angeles, and in 1966 founded Rinzai-ji Zen Center; he later established Mount Baldy Zen Center in the San Gabriel Mountains, which became known for the unusual length and severity of its training schedule[1].
 
-Joshu Sasaki developed a distinctive approach to koan practice centered on what he called the dynamic of "plus and minus" — the fundamental activity of tathagata, the expansion and contraction that he saw as the underlying movement of all reality. His teisho (dharma talks) were dense, often challenging even for experienced practitioners, and deliberately resisted easy conceptual packaging. He emphasized the direct, embodied experience of this dynamic rather than intellectual understanding. Among his students was Leonard Cohen, the poet and songwriter, who spent extended periods in residence at Mt. Baldy.
-
-Sasaki continued teaching into his hundred and sixth year, making him one of the oldest active Zen teachers in recorded history. His legacy, however, is complicated by revelations of sexual misconduct that came to public attention in 2012, leading to a formal acknowledgment by the Rinzai-ji organization. His career thus embodies both the extraordinary depth that traditional Rinzai training can produce and the institutional failures that can allow the abuse of spiritual authority. He died at Mt. Baldy in 2014.`,
+His distinctive teaching framework — what he called the *tathāgata* dynamic of "plus and minus," the simultaneous expansion and contraction he treated as the basic activity of the awakening mind — gave his *teishō* a recognisable conceptual signature and a deliberate resistance to received Zen-talk[2]. Among his long-term students was the poet Leonard Cohen, who spent extended periods of residence at Mount Baldy. Sasaki continued teaching into his 106th year, making him one of the oldest active Zen teachers on record; his legacy is also complicated by allegations of long-running sexual misconduct that became public in 2012 and were formally acknowledged by Rinzai-ji the following year[1]. He died at Mount Baldy in 2014[1].`,
+    footnotes: [
+      { index: 1, sourceId: "src_wikipedia", pageOrSection: "en.wikipedia.org — Joshu Sasaki: biography, Rinzai-ji, Mount Baldy, 2012 misconduct disclosures" },
+      { index: 2, sourceId: "src_rinzaiji", pageOrSection: "rinzaiji.org — \"True Tathagata\" / plus-and-minus teaching" },
+    ],
   },
   {
     slug: "nakagawa-soen",
-    content: `Nakagawa Soen (1907–1984) was one of the most important Rinzai masters of the twentieth century and a major catalyst for the transmission of Zen to America. Born in Iwanuma, Miyagi Prefecture, he was drawn to both poetry and Zen from an early age. He studied haiku under the renowned poet Iida Dakotsu before entering Zuigan-ji monastery and eventually becoming the dharma heir of Yamamoto Gempō at Ryūtaku-ji. He succeeded Gempō as abbot of Ryūtaku-ji in 1958, and the temple became known under his leadership for the intensity of its sesshin and the eccentricity of its abbot.
+    content: `Nakagawa Sōen (中川宋淵, 1907–1984) was one of the most influential Rinzai masters of the twentieth century and a major catalyst for the transmission of Zen to America[1]. Born in Iwanuma in Miyagi Prefecture, he came to Zen practice through haiku — he studied under the poet Iida Dakotsu before entering Zuigan-ji and eventually receiving Dharma transmission from Yamamoto Gempō at Ryūtaku-ji. In 1958 he succeeded Gempō as abbot of Ryūtaku-ji, where his sesshin were celebrated for their intensity and for his unmistakeably idiosyncratic style[1].
 
-Soen was a man of paradoxes — a rigorous Rinzai traditionalist who conducted tea ceremonies using Nescafé, a deeply disciplined master who could erupt into apparently spontaneous acts of wild creativity during his teaching. He incorporated elements of music, theater, and even absurdist humor into his dharma presentations, yet his sesshin were grueling and his koan interviews exacting. He made numerous trips to the United States, forging deep connections with American practitioners and maintaining a long friendship and correspondence with Nyogen Senzaki, whom he regarded as a kindred spirit.
-
-Soen's influence on American Zen was both direct and indirect. He was a mentor to Eido Shimano, who went on to establish the Zen Studies Society in New York, and he inspired many American practitioners who encountered him during his visits. His poetic sensibility — he once conducted an entire ceremony for the ants in the zendo — expressed a vision of Zen as fully alive in every moment and every creature. In his later years, he withdrew increasingly into solitude, and his final years were marked by periods of deep seclusion. He died at Ryūtaku-ji in 1984, leaving behind a legacy that continues to shape the character of Zen in America.`,
+Sōen maintained a long correspondence and personal friendship with Nyogen Senzaki, whose work in America he treated as a kindred extension of his own — the two together with Soen's heir Eido Shimano are remembered in the trilogy *Namu Dai Bosa*[2]. Through his repeated American visits Sōen mentored Eido Shimano, who founded the Zen Studies Society in New York, and inspired a generation of American practitioners; his poetic and ceremonial sensibility — once conducting a formal *ohigan* service for the ants in the zendo — embodied an unusually playful vision of Zen[3]. In his last years he withdrew increasingly into seclusion and died at Ryūtaku-ji in 1984[1].`,
+    footnotes: [
+      { index: 1, sourceId: "src_wikipedia", pageOrSection: "en.wikipedia.org — Soen Nakagawa: biography and abbacy of Ryūtaku-ji" },
+      { index: 2, sourceId: "src_zen_studies_society", pageOrSection: "zenstudies.org — Soen Nakagawa and Namu Dai Bosa trilogy" },
+      { index: 3, sourceId: "src_dumoulin_japan", pageOrSection: "Vol. 2, ch. on twentieth-century Rinzai and the American transmission" },
+    ],
   },
   {
     slug: "shibayama-zenkei",
@@ -5843,11 +6039,16 @@ From the early 1960s onward Shibayama undertook a series of lecture tours in the
   },
   {
     slug: "omori-sogen",
-    content: `Omori Sogen (1904–1994) has been called the greatest Rinzai Zen master of the twentieth century, a title earned through his unique synthesis of Zen realization, martial arts mastery, and artistic accomplishment. Born in Nihonmatsu, Fukushima Prefecture, he pursued the way of the sword from an early age, becoming a master of Jikishinkage-ryū kenjutsu. He also devoted himself to calligraphy in the Taishi school tradition of Yamaoka Tesshū, the great nineteenth-century swordsman-calligrapher-statesman who was himself a deeply realized Zen practitioner. Omori received dharma transmission in the Tenryū-ji line of Rinzai Zen, becoming a dharma successor of Bokuo Soun.
+    content: `Ōmori Sōgen (大森曹玄, 1904–1994) was a twentieth-century Rinzai master in the Tenryū-ji line whose work brought together Zen realisation, swordsmanship, and calligraphy as a single integrated practice[1]. Born in Nihonmatsu in Fukushima Prefecture, he became a master of Jikishinkage-ryū kenjutsu and a devoted practitioner of *bokuseki* calligraphy in the Yamaoka Tesshū tradition; he received Dharma transmission in the Tenryū-ji line as a successor of Bokuō Sōun[1].
 
-What distinguished Omori from other modern Zen teachers was his insistence that Zen, swordsmanship, and calligraphy were not separate disciplines but three expressions of a single awakened activity. He served as president of Hanazono University in Kyoto, the Rinzai-affiliated institution, and trained students who went on to become important teachers in their own right. His book "An Introduction to Zen Training" (Sanzen Nyūmon) is considered one of the clearest and most authoritative modern guides to Rinzai Zen practice, combining traditional instruction with his own experience.
+He served as president of Hanazono University in Kyoto, the Myōshin-ji-affiliated Rinzai institution, and is widely cited for his vision that Zen, swordsmanship, and the brush were three expressions of a single awakened activity rather than parallel disciplines[2]. His textbook *Sanzen Nyūmon* (translated into English as *An Introduction to Zen Training*) became one of the standard modern guides to Rinzai practice[1].
 
-In 1979, Omori founded Daihonzan Chozen-ji in Honolulu, Hawaii — the first Rinzai Zen headquarters temple (honzan) established outside Japan. Chozen-ji embodied his vision of Zen training integrated with martial arts and fine arts, offering instruction in kendō, kyūdō (archery), and calligraphy alongside formal zazen and koan practice. This was not eclecticism but a principled conviction that the body and its disciplines are inseparable from spiritual realization. Omori's legacy thus represents both a recovery of the ancient connection between Zen and the warrior arts and a bold step in Zen's global expansion.`,
+In 1979 Ōmori founded Daihonzan Chōzen-ji in Honolulu — registered with the Rinzai-shū as the first *honzan* (headquarters temple) of a Rinzai branch established outside Japan — where his vision of Zen integrated with the martial and fine arts was given institutional form, offering kendō, kyūdō, and calligraphy training alongside zazen and koan study[3].`,
+    footnotes: [
+      { index: 1, sourceId: "src_wikipedia", pageOrSection: "en.wikipedia.org — Omori Sogen: biography, Tenryū-ji transmission, Sanzen Nyūmon" },
+      { index: 2, sourceId: "src_dumoulin_japan", pageOrSection: "Vol. 2, ch. on twentieth-century Rinzai" },
+      { index: 3, sourceId: "src_chozen_ji", pageOrSection: "chozen-ji.org — Daihonzan Chōzen-ji history and Ōmori's founding vision" },
+    ],
   },
   // =========================================================================
   // Vietnamese Thiền lineage and Chinese bridge masters
