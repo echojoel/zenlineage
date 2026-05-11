@@ -2148,9 +2148,26 @@ Faru's presence in the lineage records attests to the wide geographical spread o
   },
   {
     slug: "daguang-juhui",
-    content: `Daguang Juhui was a master in the Qingyuan tradition recorded in the transmission of the lamp literature. He taught at Daguang Temple, where his community practiced the methods passed down through the Qingyuan lineage. His encounters with students, preserved in the lamp records, reflect a teaching style consistent with the broader Qingyuan emphasis on the unity of the absolute and phenomenal.
+    content: `Daguang Juhui (大光居誨, 837–903) is recorded in the *Jǐngdé Chuándēng Lù* as a Dharma heir of Shishuang Qingzhu and one of the lesser-attested teachers of the late-Tang Yaoshan / Qingyuan-line stream[1]. He taught in the Tan-zhou region of modern Hunan, where Shishuang's "withered-tree hall" practice was being carried forward by a small number of successors[2].
 
-Daguang's contribution, like that of many masters in the middle ranks of the genealogical records, lies in the faithful transmission of practice and realization from teacher to student. The tradition could not have endured without these links in the chain, each one a living expression of the Dharma that cannot be reduced to historical documentation alone.`,
+Few of his sayings are preserved beyond what the lamp records compile; the modern scholarly view, following Yanagida Seizan and others, is that masters like Daguang represent the bulk of the late-Tang Chan population — local teachers anchoring the spread of the new monastic culture rather than figures who themselves generate canonical koan literature[3].`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_ferguson_zen_chinese_heritage",
+        pageOrSection: "Daguang Juhui — entry in the Yaoshan/Shishuang stream",
+      },
+      {
+        index: 2,
+        sourceId: "src_dumoulin_india_china",
+        pageOrSection: "Vol. 1, ch. on the late-Tang Yaoshan line and the withered-tree hall tradition",
+      },
+      {
+        index: 3,
+        sourceId: "src_mcrae_seeing_through_zen",
+        pageOrSection: "ch. on the late-Tang Chan community as the bulk of the tradition",
+      },
+    ],
   },
   {
     slug: "qingxi-hongjin",
@@ -2667,9 +2684,31 @@ Ji'an's presence in the lineage reflects the ongoing vitality of the Yangqi bran
   },
   {
     slug: "shiwu-qinggong",
-    content: `Shiwu Qinggong, known as Stonehouse, was a Yangqi line master of the Yuan dynasty who chose to live as a hermit on Xiawu Mountain rather than serve as abbot of a large monastery. He is celebrated as one of the great hermit-poets of the Chan tradition, producing over two hundred poems that describe the solitary life of mountain practice with great beauty and directness.
+    content: `Shiwu Qinggong (石屋清珙, 1272–1352), known by his sobriquet "Stonehouse" (Shiwu), was a Yangqi-line Linji master of the late Song and early Yuan and the principal Dharma heir of Jihu Yanlin (a senior heir of Wuzhun Shifan)[1]. After a long period of training at the major Linji monasteries of the Hangzhou region, he retired around 1312 to the Tianhu hermitage on Mount Xiawu in modern Anhui, where he spent the rest of his life as a working farmer-monk and a teacher of a small circle of students[2].
 
-Shiwu's poems capture the simplicity and contentment of a practitioner who has found freedom in poverty and solitude: "I moved into a mountain hut, no neighbors around. A trail through the weeds leads to a winding stream." His choice to live outside the monastic system represents an important strand within the Chan tradition—the recognition that institutional life, however valuable, is not the only path, and that the mountain hermitage has its own form of authentic practice and transmission.`,
+Two distinct bodies of literature preserve his teaching. His *Mountain Poems* (山居詩) — over 180 short poems on the practice and economy of solitary mountain life — are among the most-anthologised hermit-poet works of late-imperial East Asian Buddhism and were translated into English by Bill Porter ("Red Pine") in 1986[3]. His more institutional legacy is the Dharma transmission he gave in 1347 to the Korean monk Taego Bou, the line through which Yangqi-Linji Chan entered Korea and reshaped Goryeo-period Seon[4].`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_ferguson_zen_chinese_heritage",
+        pageOrSection: "Shiwu Qinggong — biographical entry",
+      },
+      {
+        index: 2,
+        sourceId: "src_dumoulin_india_china",
+        pageOrSection: "Vol. 1, ch. on late-Song / early-Yuan Yangqi line and the hermit tradition",
+      },
+      {
+        index: 3,
+        sourceId: "src_wikipedia",
+        pageOrSection: "Shiwu Qinggong — Mountain Poems and Stonehouse hermitage",
+      },
+      {
+        index: 4,
+        sourceId: "src_buswell_formation",
+        pageOrSection: "pp. 41–74 — transmission to Taego Bou and the Korean Linji line",
+      },
+    ],
   },
   {
     slug: "xueyan-zuqin",
@@ -3565,43 +3604,60 @@ Yokaku's place in the Soto lineage reflects the tradition's organic growth acros
     slug: "raphael-doko-triet",
     content: `Raphaël Dōkō Triet (b. 1950, Paris) is a French Sōtō Zen monk in the lineage of Taisen Deshimaru and abbot of the Seikyūji temple near Morón de la Frontera, Andalusia[1]. He began practising zazen in 1971 at the Paris dōjō with Deshimaru, who ordained him as a monk in 1973, and became one of Deshimaru's close disciples in the founding Paris sangha[2][3].
 
-After Deshimaru's death in 1982, Triet helped continue the line of teaching Deshimaru had established in Europe. He served as president of the Paris dōjō from 1990 to 1995 and as editor-in-chief of the Revue Zen — the magazine of the Association Zen Internationale (AZI) — from around 1990 to 2002, shaping much of the written teaching available to the European sangha[3]. He received Dharma transmission (shihō) in 1998 from Master Yūkō Okamoto, a Japanese Sōtō master and close associate of both Deshimaru and Kōdō Sawaki, formally confirming his place in the Sōtō lineage[2][3].
+After Deshimaru's death in 1982, Triet helped continue the line of teaching Deshimaru had established in Europe. He served as president of the Paris dōjō from 1990 to 1995 and as editor-in-chief of the Revue Zen — the magazine of the Association Zen Internationale (AZI) — from around 1990 to 2002, shaping much of the written teaching available to the European sangha[3][6]. He received Dharma transmission (shihō) in 1997 from Master Yūkō Okamoto, a Japanese Sōtō master and close associate of both Deshimaru and Kōdō Sawaki, formally confirming his place in the Sōtō lineage as a successor authorised to ordain monks and to transmit the dharma in turn[1][2].
 
-Triet moved to Spain in 1995 and, in 1997, founded the Centro Zen de Lisboa (Dōjō Zen de Lisboa, Ryumonji), establishing a Deshimaru-line Sōtō presence on the Iberian Peninsula[4]. From 2004 to 2013 he led the AZI at the international level, and from 2012 to 2015 he served as abbot of the Temple Zen de La Gendronnière in France — the principal European temple founded by Deshimaru[3]. He currently leads sesshin and ango at Seikyūji and teaches regularly in Spain, Portugal, France, Quebec, and Sweden[1][2].
+Triet moved to Spain in 1995 and, in 1997, founded the Centro Zen de Lisboa (Dōjō Zen de Lisboa, Ryūmonji), establishing a Deshimaru-line Sōtō presence on the Iberian Peninsula[4]. From 2004 to 2013 he led the AZI at the international level, and from 2012 to 2015 he served as abbot of the Temple Zen de La Gendronnière in France — the principal European temple founded by Deshimaru[3][5]. He currently leads sesshin and ango at Seikyūji and teaches regularly in Spain, Portugal, France, Quebec, and Sweden[1][2].
 
-His teaching follows Deshimaru's "vrai zen": zazen as the heart of practice, integrated with meals, work, and ordinary relationships rather than confined to ritual or monastic settings. In kusen and teisho he draws on classical authors such as Wanshi, Dōgen, and Ryōkan, using sober and concrete imagery to address illusion, suffering, and the margin between conditioned life and freedom[1][3]. Among his disciples is Yves Shoshin Crettaz, who accompanied him to Portugal in the late 1990s and received Dharma transmission from him in 2013[4].`,
+His teaching follows Deshimaru's "vrai zen": zazen as the heart of practice, integrated with meals, work, and ordinary relationships rather than confined to ritual or monastic settings. In kusen and teisho he draws on classical authors such as Wanshi, Dōgen, and Ryōkan, using sober and concrete imagery to address illusion, suffering, and the margin between conditioned life and freedom[1][3]. He has himself conferred dharma transmission on three known successors: Hugues Yūsen Naas in 2009 (later abbot of La Gendronnière and founder of Daishugyōji), Yves Shōshin Crettaz in 2013 (Centro Zen de Lisboa), and Begoña Kaidō Agiriano in 2013 (Dōjō Zen de Vitoria-Gasteiz) — anchoring the Iberian and French nodes of the Deshimaru–Okamoto–Triet line[2][4][7].`,
     footnotes: [
       {
         index: 1,
         sourceId: "src_seikyuji",
-        pageOrSection: "Seikyuji — Raphaël Doko Triet (abbot biography)",
+        pageOrSection: "Seikyuji — Raphaël Dōkō Triet (abbot biography)",
       },
       {
         index: 2,
         sourceId: "src_azi",
         pageOrSection: "AZI — Maître Raphaël Dôkô Triet",
         excerpt:
-          "Né en 1950, il commence la pratique du zen avec Maître Taisen Deshimaru au Dojo de Paris en 1971; ordonné moine en 1973; reçoit le Shihō de Maître Yūkō Okamoto en 1998.",
+          "Né en 1950, il commence la pratique du zen avec Maître Taisen Deshimaru au Dojo de Paris en 1971; ordonné moine en 1973; reçoit le Shihō de Maître Yūkō Okamoto en 1997.",
       },
       {
         index: 3,
         sourceId: "src_zen_mataro",
-        pageOrSection: "Zen Mataró — Raphaël Doko Triet (institutional roles, Revue Zen, La Gendronnière)",
+        pageOrSection: "Zen Mataró — Raphaël Dōkō Triet (institutional roles, Revue Zen, La Gendronnière)",
       },
       {
         index: 4,
         sourceId: "src_dojo_zen_lisboa",
-        pageOrSection: "Mestres — founding of the Lisbon dōjō and transmission to Yves Shoshin Crettaz",
+        pageOrSection: "Mestres — founding of the Lisbon dōjō and transmission to Yves Shōshin Crettaz",
+      },
+      {
+        index: 5,
+        sourceId: "src_la_gendronniere",
+        pageOrSection: "La Gendronnière — list of successive abbots, including Triet (2012–2015) and Naas (2019–2021)",
+      },
+      {
+        index: 6,
+        sourceId: "src_revue_zen",
+        pageOrSection: "Revue Zen — masthead, editor-in-chief Raphaël Dōkō Triet (c. 1990–2002)",
+      },
+      {
+        index: 7,
+        sourceId: "src_zen_deshimaru_history",
+        pageOrSection: "Dōjō Zen de Vitoria-Gasteiz — Linaje, recording shihō from Triet to Begoña Kaidō Agiriano in 2013",
       },
     ],
   },
   {
     slug: "stephane-kosen-thibaut",
-    content: `Stéphane Jacques Germain Thibaut, known under the religious name Kōsen, was born on 26 May 1950 in the 16th arrondissement of Paris and died on 21 September 2025 in Montpellier at the age of 75[1]. The son of the musician Gilles Thibaut and a teacher-psychologist mother, he studied theatre and mime at the École internationale Jacques Lecoq in Paris before, at nineteen, encountering Taisen Deshimaru, who was then introducing Sōtō Zen to Europe. He became Deshimaru's disciple, received monastic ordination, and practised at his master's side for some fifteen years until Deshimaru's death in 1982[1].
+    content: `Stéphane Jacques Germain Thibaut, known under the religious name Kōsen, was born on 26 May 1950 in the 16th arrondissement of Paris and died on 21 September 2025 in Montpellier at the age of 75[1]. The son of the musician Gilles Thibaut and a teacher-psychologist mother, he studied theatre and mime at the École internationale Jacques Lecoq in Paris before, at nineteen, encountering Taisen Deshimaru, who was then introducing Sōtō Zen to Europe. He became Deshimaru's disciple, received the bodhisattva ordination under the name Kōsen, then the monastic ordination of a Zen monk in 1971, and practised at his master's side for some fifteen years until Deshimaru's death in 1982[1][3].
 
-In 1984, Niwa Rempō Zenji, abbot of Eihei-ji and the highest authority in Japanese Sōtō, conferred dharma transmission (shihō) on Thibaut, making him — by Sōtō reckoning — the 83rd successor of Shakyamuni Buddha in the Deshimaru line and one of only three of Deshimaru's disciples authenticated by Eihei-ji[1]. From the 1990s he began an explicitly missionary work in Latin America. The academic study of Latin American Buddhism by C. E. Carini (2018) describes "a group linked to Deshimaru's lineage led by the Frenchman Stéphane Kōsen Thibaut" undertaking the first sustained Sōtō Zen mission in Argentina[1]. **In 1999, near Córdoba, he founded Templo Shōbōgenji — recognized as the first Sōtō Zen temple of South America in the Deshimaru line, and the first Zen temple of any kind in Argentina[1].** The temple drew disciples from Buenos Aires and across the country; Thibaut later ordained Toshiro Taigen Yamauchi and entrusted him with the Buenos Aires dōjō[1]. In 2008 he founded a second residential temple in France — Yūjō Nyūsanji, in the Parc naturel régional du Haut-Languedoc at Douch (commune of Rosis, Hérault) — which became the principal centre of the international Kōsen Sangha, uniting practitioners across Europe, Latin America, Cuba, and Canada[1].
+In 1984, Niwa Rempō Zenji, abbot of Eihei-ji and the highest authority in Japanese Sōtō, conferred dharma transmission (shihō) on Thibaut, making him — by Sōtō reckoning — the 83rd successor of Shakyamuni Buddha in the Deshimaru line and one of only three of Deshimaru's disciples authenticated by Eihei-ji that year (alongside Étienne Mokushō Zeisler and Roland Yuno Rech)[1][3]. From the 1990s he began an explicitly missionary work in Latin America. The academic study of Latin American Buddhism by C. E. Carini (2018) describes "a group linked to Deshimaru's lineage led by the Frenchman Stéphane Kōsen Thibaut" undertaking the first sustained Sōtō Zen mission in Argentina[1]. **In 1999, near Capilla del Monte in the province of Córdoba, he founded Templo Shōbōgenji — recognised as the first Sōtō Zen temple of South America in the Deshimaru line, and the first Zen temple of any kind in Argentina[1][2].** The temple drew disciples from Buenos Aires and across the country; Thibaut later ordained Toshiro Taigen Yamauchi and entrusted him with the Buenos Aires dōjō, and ordained Ariadna Dōsei Labbate, who in 2015 became the first woman Sōtō Zen master in Argentina[2][3]. In 2008 he founded a second residential temple in France — Yūjō Nyūsanji, in the Parc naturel régional du Haut-Languedoc at Douch (commune of Rosis, Hérault) — which became the principal centre of the international Kōsen Sangha, uniting practitioners across Europe, Latin America, Cuba, and Canada[1][2].
 
-Throughout his life, Kōsen ordained many disciples as bodhisattvas, monks, and nuns, and transmitted shihō to Barbara Kōsen Richaudeau, André Ryūjō Meissner, Édouard Shinryū Bagracski, Yvon Myōken Bec, Christophe Ryūrin Desmur, Pierre Sōkō Leroux, and Toshiro Taigen Yamauchi[1][2]. His principal published works are *La Révolution intérieure* (Éditions de l'Œil Du Tigre, 1997), *Les cinq degrés de l'éveil : l'enseignement d'un moine zen* (Éditions du Relié, 2006), and *Chroniques de la grande sagesse* (Œil Du Tigre, 2017)[1]. Together with the network he built, these works place him among the principal architects of Deshimaru's lineage outside France — and the figure most responsible for bringing Sōtō Zen to Hispanophone South America.`,
+Throughout his life, Kōsen ordained many disciples as bodhisattvas, monks, and nuns, and conferred shihō on twelve recipients across six cohorts: in September 1993 on Bárbara Kōsen Richaudeau, André Ryūjō Meissner, and Édouard Shinryū Bagracbski "in the name of Master Deshimaru"; in 2002 on Yvon Myōken Bec "in the name of his fellow disciple Master Étienne Mokushō Zeisler"; in October 2009 at Caroux on Christophe Ryūrin Desmur and Pierre Sōkō Leroux; in 2013 on Loïc Kōshō Vuillemin; in 2015 on Ingrid Gyūji Igelnick, Françoise Jōmon Julien, Paula Reikiku Femenias, and Ariadna Dōsei Labbate; and in October 2016 at Shōbōgenji on Toshiro Taigen Yamauchi[2][3]. His principal published works are *La Révolution intérieure* (Éditions de l'Œil Du Tigre, 1997), *Les cinq degrés de l'éveil : l'enseignement d'un moine zen* (Éditions du Relié, 2006), and *Chroniques de la grande sagesse* (Œil Du Tigre, 2017)[1].
+
+Together with the network he built and the dozen successors he authorised, these works place him among the principal architects of Deshimaru's lineage outside France — and the figure most responsible for bringing Sōtō Zen to Hispanophone South America[1][2][4].`,
     footnotes: [
       {
         index: 1,
@@ -3612,10 +3668,20 @@ Throughout his life, Kōsen ordained many disciples as bodhisattvas, monks, and 
       },
       {
         index: 2,
+        sourceId: "src_yujo_nyusanji",
+        pageOrSection: "Yujō Nyūsanji — temple history and successors of Maître Kosen",
+      },
+      {
+        index: 3,
         sourceId: "src_kosen_sangha",
-        pageOrSection: "Kosen Sangha — Maître Kosen presentation",
+        pageOrSection: "Kosen Sangha / ABZD — Maître Kosen presentation, full list of shihō recipients with years",
         excerpt:
-          "Disciples to whom Kōsen Thibaut transmitted shihō: Barbara Kōsen Richaudeau, André Ryūjō Meissner, Édouard Shinryū Bagracski, Yvon Myōken Bec, Christophe Ryūrin Desmur, Pierre Sōkō Leroux, Toshiro Taigen Yamauchi.",
+          "1993: Barbara Kōsen Richaudeau, André Ryūjō Meissner, Édouard Shinryū Bagracbski. 2002: Yvon Myōken Bec. 2009: Christophe Ryūrin Desmur, Pierre Sōkō Leroux. 2013: Loïc Kōshō Vuillemin. 2015: Ingrid Gyūji Igelnick, Françoise Jōmon Julien, Paula Reikiku Femenias, Ariadna Dōsei Labbate. 2016: Toshiro Taigen Yamauchi.",
+      },
+      {
+        index: 4,
+        sourceId: "src_buddhachannel",
+        pageOrSection: "Buddhachannel — coverage of Latin-American Sōtō Zen and the Kosen Sangha",
       },
     ],
   },
@@ -3623,9 +3689,13 @@ Throughout his life, Kōsen ordained many disciples as bodhisattvas, monks, and 
     slug: "etienne-mokusho-zeisler",
     content: `Étienne Mokushō Zeisler (1946 – 7 June 1990) was a Hungarian-French Sōtō Zen monk and one of Taisen Deshimaru's three principal dharma heirs. He met Deshimaru in the years following the latter's 1967 arrival in Paris, was ordained as a monk, and became one of his closest disciples, working alongside the master at the founding generation of European Sōtō dōjōs. **In 1984, two years after Deshimaru's death, Niwa Rempō Zenji — abbot of Eihei-ji and the highest authority of Japanese Sōtō Zen — conferred dharma transmission (shihō) on Zeisler together with Stéphane Kōsen Thibaut and Roland Yuno Rech**, formally authenticating Deshimaru's mission in Europe[1].
 
-Zeisler's distinctive contribution was geographical. From the late 1980s he turned his teaching east, undertaking missionary trips into Romania, Hungary, and what was then Czechoslovakia at a time when Western Buddhist practice was almost unknown behind the Iron Curtain. He died on 7 June 1990 at the age of 44, leaving the mission to extend Deshimaru's lineage into the post-communist East to his dharma-heir, the monk Yvon Myōken Bec, who founded **Mokusho Zen House Budapest in 1992** — the first sustained Sōtō Zen sangha in Hungary, named in Zeisler's memory[2]. Through Myōken's later transmission from Kōsen Thibaut the Zeisler line is today carried forward in Hungary, Romania, and the broader Eastern European Buddhist landscape, and the Mokusho Zen House network has trained Vincent Keisen Vuillemin (Geneva) and others as direct disciples of Zeisler's[2].
+Zeisler's distinctive contribution was geographical. From the late 1980s he turned his teaching east, undertaking missionary trips into Romania, Hungary, and what was then Czechoslovakia at a time when Western Buddhist practice was almost unknown behind the Iron Curtain[3]. He died on 7 June 1990 at the age of 44, leaving the mission to extend Deshimaru's lineage into the post-communist East to his dharma-heir, the monk Yvon Myōken Bec, who founded **Mokusho Zen House Budapest in 1992** — the first sustained Sōtō Zen sangha in Hungary, named in Zeisler's memory[2]. Through Myōken's later transmission from Kōsen Thibaut the Zeisler line is today carried forward in Hungary, Romania, and the broader Eastern European Buddhist landscape, and the Mokusho Zen House network has trained Vincent Keisen Vuillemin (Geneva) and others as direct disciples of Zeisler's[2].
 
-Zeisler's place in the AZI lineage is not as a long-living institution-builder but as the disciple who, more than any other, redirected Deshimaru's western mission eastward across the Cold-War divide before his early death.`,
+The institutional shape of the post-Zeisler mission can be reconstructed in detail from the Mokushō Zen House lineage record. Bec's first Romanian trips began in 1991, and the very first Eastern European Zen dōjō was founded in Bucharest in 1993; the Mokushō Zen Ház at Uszó, together with the Zeisler Foundation, followed in 1994; the first Hungarian urban dōjō opened in Budapest's Ilka street in 1995; the network's mountain temple Hōbō-ji was built in the sacred Pilis range in 1997; and the Hungarian sangha consolidated at the Taisen-ji temple in Budapest in 2000[4]. Bec himself received shihō from Kōsen Thibaut in 2002, and in 2015 the Sōtō school posthumously conferred on Zeisler the honorific title **Sōbo (祖母, "Treasure of the Sangha")**, a Japanese institutional recognition of the magnitude of his Eastern European mission[4].
+
+A second generation of formally transmitted teachers now carries the line. **In 2007 Bec conferred shihō on Vincent Keisen Vuillemin** of Geneva — Zeisler's direct Francophone Swiss disciple — and **in 2016 he transmitted to three further successors in the Deshimaru–Zeisler lineage: Maria Teresa Shōgetsu Avila (Geneva, with extension to Senkuji in the Ecuadorian Amazon, opened 2018–19), Ionuț Koshin Nedelcu (abbot of Mokushōzenji, Bucharest), and László Toryu Kálmán (Sümegi Mokushō Zen Dōjō, Hungary)**[4][5]. Together these four shihō recipients are the formal continuing teachers of the Mokushō Zen House network and the institutional answer to the question Zeisler's early death had left open: who would carry his mission past the founder's generation[4].
+
+Zeisler's place in the AZI lineage is not as a long-living institution-builder but as the disciple who, more than any other, redirected Deshimaru's western mission eastward across the Cold-War divide before his early death — a redirection whose institutional fruit, three and a half decades on, is the four-temple Mokushō Zen House network and its formal continuing teachers in Geneva, Bucharest, Budapest, and the Ecuadorian Amazon[4].`,
     footnotes: [
       {
         index: 1,
@@ -3637,9 +3707,30 @@ Zeisler's place in the AZI lineage is not as a long-living institution-builder b
       {
         index: 2,
         sourceId: "src_mokusho_house",
-        pageOrSection: "Mokusho Zen House Budapest — Our Story",
+        pageOrSection: "Mokushō Zen House Budapest — Our Story",
         excerpt:
-          "Mokusho Zen House is a zen sangha located in Eastern Europe since 1992. It is founded and led by monk Myōken, the dharma-heir of Mokushō Zeisler in the Deshimaru lineage. Master Zeisler dies on 7 June 1990, giving the mission to monk Myōken to establish the Deshimaru lineage in Eastern Europe. Vincent Keisen Vuillemin, from Geneva, disciple of master Zeisler.",
+          "Mokusho Zen House is a zen sangha located in Eastern Europe since 1992. It is founded and led by monk Myōken, the dharma-heir of Mokushō Zeisler in the Deshimaru lineage. Master Zeisler dies on 7 June 1990, giving the mission to monk Myōken to establish the Deshimaru lineage in Eastern Europe. Vincent Keisen Vuillemin, from Geneve, disciple of master Zeisler.",
+      },
+      {
+        index: 3,
+        sourceId: "src_mokusho_house",
+        pageOrSection: "Mokushō Zen House — Our Story (1990 / 1991-1992 entries)",
+        excerpt:
+          "1990 — Master Zeisler dies on June 7th, passing his mission to monk Myoken to establish the Deshimaru lineage in Eastern Europe. 1991-1992 — Monk Myoken begins his mission with trips to Romania.",
+      },
+      {
+        index: 4,
+        sourceId: "src_mokusho_house",
+        pageOrSection: "Mokushō Zen House — Our Story (1993–2018 timeline)",
+        excerpt:
+          "1993 The first Eastern-European zen dojo is founded in Bucharest, Romania. 1994 The Mokusho Zen Ház is established in Uszó, alongside the creation of the Zeisler Foundation. 1995 The first Hungarian dojo was founded in Budapest, Ilka street. 1997 The first Eastern-European zen temple, Hoboji, was built in the sacred mountains of Pilis, Hungary. 2000 The Hungarian Sangha settled in the Taisenji zen temple, Budapest. 2002 Monk Myoken receives Dharma transmission from master Kosen Thibaut. 2007 Master Myoken grants Dharma transmission to Vincent Keisen Vuillemin. 2015 Master Zeisler is posthumously honored with the title 'Sobo – Treasure of the Sangha.' 2016 Myoken transmits Dharma to three disciples: Maria Teresa Shogetsu Avila, Ionut Koshin Nedelcu, and László Toryu Kálmán.",
+      },
+      {
+        index: 5,
+        sourceId: "src_mokusho_house",
+        pageOrSection: "Mokushō Zen House — Our Story (2018–2019 entry)",
+        excerpt:
+          "2018-2019 — Senkuji temple in Ecuador is built and opened by Hungarian and Chilean disciples.",
       },
     ],
   },
@@ -4560,15 +4651,49 @@ Kōhō became known as a demanding teacher who continued the koan-centred severi
   },
   {
     slug: "tetto-giko",
-    content: `Tettō Gikō (1295–1369) was a dharma heir of the great Shūhō Myōchō (Daitō Kokushi), the founder of Daitokuji in Kyoto. Tettō was instrumental in establishing the Daitokuji lineage as a distinct stream within Japanese Rinzai Zen, separate from the Myōshinji line that descended through Daitō's other heir, Kanzan Egen. His teachings upheld the uncompromising rigor that characterized Daitō Kokushi's approach.
+    content: `Tettō Gikō (徹翁義亨, 1295–1369) was the principal Dharma heir of Shūhō Myōchō (Daitō Kokushi) and the second-generation transmitter of the Daitoku-ji line of the Ōtōkan stream of Rinzai Zen[1]. He succeeded Daitō as abbot of Daitoku-ji at his teacher's death in 1337 and oversaw the early consolidation of the temple as a distinct alternative to the Gozan establishment, refusing — like Kanzan Egen at Myōshin-ji — to enter the official Gozan ranking system[2].
 
-Through his student Gongai Sōchū, Tettō ensured that Daitō's fierce commitment to authentic realization rather than mere institutional authority continued into subsequent generations. The Daitokuji line he helped establish would eventually produce some of the most celebrated figures in Japanese Zen, including Ikkyū Sōjun.`,
+The line through Tettō → Gongai Sōchū → Kasō Sōdon → Ikkyū Sōjun preserved the Daitō-school self-image as a "rigorous" branch of Rinzai through the late fourteenth and fifteenth centuries, providing the institutional continuity that allowed Daitoku-ji to survive the disruptions of the Nanboku-chō and early Muromachi periods and emerge in the fifteenth century as a major centre of Zen-tea culture[3].`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_dumoulin_japan",
+        pageOrSection: "ch. on the Daitō line; Tettō Gikō and the second-generation Daitoku-ji",
+      },
+      {
+        index: 2,
+        sourceId: "src_wikipedia",
+        pageOrSection: "Tettō Gikō — Daitoku-ji line and the Rinka vs Gozan split",
+      },
+      {
+        index: 3,
+        sourceId: "src_arntzen_ikkyu",
+        pageOrSection: "Introduction — the Daitoku-ji line through Tettō, Gongai and Kasō to Ikkyū",
+      },
+    ],
   },
   {
     slug: "gongai-sochu",
-    content: `Gongai Sōchū (1315–1390) was a student of Tettō Gikō and an important transmitter of the Daitokuji Rinzai lineage. He continued the teaching style established by Daitō Kokushi, emphasizing direct realization over institutional prestige or scholarly attainment. His role in the lineage was primarily one of faithful transmission, preserving the distinctive character of the Daitokuji approach.
+    content: `Gongai Sōchū (言外宗忠, 1315–1390) was the Dharma heir of Tettō Gikō and the third-generation transmitter of the Daitoku-ji branch of the Ōtōkan line[1]. His main responsibility, as recorded in the Daitoku-ji documentation, was simply the survival of the line: he succeeded Tettō as abbot of Daitoku-ji and held the office through the politically turbulent middle years of the fourteenth century, when the temple's deliberate distance from the Gozan administration left it institutionally fragile[2].
 
-Gongai's most significant contribution to Zen history was his training of Kasō Sōdon, who would become a legendary teacher in his own right and the master who confirmed Ikkyū Sōjun's awakening. Through this line of transmission, Gongai helped ensure that the uncompromising spirit of Daitō Kokushi's Zen survived into the fifteenth century.`,
+Gongai's principal Dharma heir, Kasō Sōdon, in turn confirmed the awakening of Ikkyū Sōjun, so the Tettō → Gongai → Kasō → Ikkyū chain — preserved in the *Tōkai Yawa* and other Daitoku-ji house records — is the four-generation conduit through which the founder Daitō Kokushi's teaching survived to be re-injected into the major cultural movements of fifteenth-century Kyoto[3].`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_dumoulin_japan",
+        pageOrSection: "ch. on the Daitō line, third generation",
+      },
+      {
+        index: 2,
+        sourceId: "src_wikipedia",
+        pageOrSection: "Gongai Sōchū — abbacy of Daitoku-ji",
+      },
+      {
+        index: 3,
+        sourceId: "src_arntzen_ikkyu",
+        pageOrSection: "Introduction — Daitoku-ji line continuity to Ikkyū",
+      },
+    ],
   },
   {
     slug: "kaso-sodon",
@@ -4769,11 +4894,33 @@ Despite this lifelong opposition to institutional Zen, Ikkyū accepted appointme
   },
   {
     slug: "bankei-yotaku",
-    content: `Bankei Yōtaku (1622–1693) was one of the most original and accessible Zen masters in Japanese history. Born in the village of Hamada in Harima Province, he became obsessed as a young boy with the meaning of "bright virtue" (meiji toku), a phrase he encountered in the Confucian Great Learning. Unable to find anyone who could explain it to his satisfaction, he ordained as a monk under Umpō Zenjō at the age of sixteen and plunged into years of extreme ascetic practice — sitting for days without sleep, exposing himself to the elements, eating almost nothing. These austerities nearly killed him; at one point he was so weakened that he coughed up a ball of phlegm, and in that moment of physical extremity, his great doubt suddenly resolved. He understood that everything is perfectly managed by the "Unborn" Buddha-mind.
+    content: `Bankei Yōtaku (盤珪永琢, 1622–1693) was one of the most distinctive Rinzai masters of the early Edo period and the foremost preacher of the doctrine of the *fushō* — the "Unborn" Buddha-mind[1]. He was born in Hamada in Harima Province, and as a boy his preoccupation with the meaning of the Confucian phrase *meitoku* ("bright virtue") drove him through years of extreme ascetic practice under Umpō Zenjō at Zuiō-ji until, weakened to the point of coughing blood, his decisive opening came in a moment of physical collapse[2].
 
-Bankei's teaching of the "Unborn" (fusho) was revolutionary in its directness and simplicity. He told his audiences — which included not only monks but also laypeople, farmers, merchants, and samurai — that the original Buddha-mind is "unborn and marvelously illuminating," and that all confusion arises simply from turning this Unborn mind into something else through habitual thinking. There was no need for koans, no need for arduous practice, no need for scholarly learning. One simply needed to stop exchanging the Unborn for thought and abide in one's original mind. This teaching attracted enormous crowds; Bankei's public talks drew thousands of attendees, possibly the largest Zen gatherings in Japanese history.
+His mature teaching — preached almost entirely in plain spoken Japanese rather than in literary kanbun, an unusual choice for a Rinzai master of his rank — held that the Buddha-mind is intrinsically *fushō* (不生), "unborn and marvellously illuminating," and that confusion arises only when one swaps this Unborn mind for habitual thought. He rejected formal koan curricula and pre-set practice routines, telling laypeople and monks alike that recognising the Unborn requires no special technique[3]. His public Dharma talks at Ryōmon-ji and Kōrin-ji are reported to have drawn audiences of several thousand — the largest Zen gatherings on record in pre-modern Japan[4].
 
-After receiving dharma transmission from Umpō on the latter's deathbed, Bankei went on to found Ryōmon-ji and eventually oversaw more than a thousand monks across multiple temples. Despite his rejection of formal koan study, he was recognized as a Rinzai master of the highest caliber. He refused to leave written records of his teaching, believing that words on a page would inevitably be turned into dogma — though his students preserved his talks in the collection known as the Butchi kōsai zenji hōgo. Bankei remains one of the most appealing figures in Zen, offering a teaching of startling simplicity that nonetheless points to the deepest ground of the tradition.`,
+Bankei received Dharma transmission from Umpō Zenjō on his teacher's deathbed and was eventually invited to oversee the newly built Ryōmon-ji at Aboshi and the major restoration of Myōshin-ji[1]. He refused to authorise written records of his teaching, but his students preserved his sermons in the *Butchi Kōsai Zenji Hōgo*; the modern edition and translation by Norman Waddell makes Bankei one of the few major Edo-period Zen masters whose preaching survives in something close to its spoken form[4].`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_haskel_bankei",
+        pageOrSection: "Introduction — Bankei's life, lineage, and Umpō's transmission",
+      },
+      {
+        index: 2,
+        sourceId: "src_haskel_bankei",
+        pageOrSection: "Translator's notes — Bankei's awakening and early practice",
+      },
+      {
+        index: 3,
+        sourceId: "src_haskel_bankei",
+        pageOrSection: "Translated sermons — the Unborn doctrine and the rejection of formal koan study",
+      },
+      {
+        index: 4,
+        sourceId: "src_dumoulin_japan",
+        pageOrSection: "ch. on Bankei Yōtaku and seventeenth-century Rinzai",
+      },
+    ],
   },
   {
     slug: "sengai-gibon",
