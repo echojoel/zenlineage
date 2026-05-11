@@ -1770,9 +1770,26 @@ The most influential of these exchanges is the dialogue on the bodhisattva of co
   },
   {
     slug: "chuanzi-decheng",
-    content: `Chuanzi Decheng, the "Boat Monk," was a student of Yaoshan Weiyan who, after awakening, chose to spend his life as a simple ferryman on the Huating River rather than establishing a monastery or gathering students. He is one of the most beloved figures in Chan literature, representing the ideal of the hidden sage who conceals his light in the ordinary world.
+    content: `Chuanzi Decheng (船子德誠, fl. mid-9th c.), the "Boat-Monk of Huating," is recorded in the *Jǐngdé Chuándēng Lù* and the *Zǔtáng Jí* as a Dharma heir of Yaoshan Weiyan who, on completing his training, declined to establish a monastery and instead spent the rest of his life as a ferryman on the Wu River at Huating (modern Songjiang district, Shanghai), looking for the one student worth transmitting to[1]. He became an emblematic figure for the late-Tang topos of the hidden sage who keeps the Dharma in plain sight.
 
-Chuanzi had only one dharma heir: Jiashan Shanhui, whom Daowu Yuanzhi sent to him. When Jiashan arrived at the riverbank, Chuanzi tested him with a series of searching questions, then capsized the boat, plunging Jiashan into the water. When Jiashan climbed back in, Chuanzi struck him and said, "Speak! Speak!" Jiashan began to answer, and Chuanzi hit him again. At this, Jiashan's understanding opened. After transmitting the Dharma to Jiashan, Chuanzi capsized his own boat and disappeared into the river, never to be seen again.`,
+The single famous episode of his career — the meeting with Jiashan Shanhui, sent to him by Daowu Yuanzhi — is preserved in detail in the lamp records and was retold and versified through the rest of the tradition: Chuanzi tested Jiashan with a sequence of probing questions, capsized the boat into the river, struck him as he climbed back in, and at his words "Speak! Speak!" Jiashan's understanding opened[2]. The story closes with Chuanzi capsizing his own boat and vanishing into the river, leaving Jiashan as his sole heir — an image that the Caodong stream returned to repeatedly as a model of unobtrusive transmission[3].`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_ferguson_zen_chinese_heritage",
+        pageOrSection: "Chuanzi Decheng — biographical entry; the Boat-Monk of Huating",
+      },
+      {
+        index: 2,
+        sourceId: "src_dumoulin_india_china",
+        pageOrSection: "Vol. 1, ch. on Yaoshan's heirs",
+      },
+      {
+        index: 3,
+        sourceId: "src_wikipedia",
+        pageOrSection: "Chuanzi Decheng — Boat-Monk and Jiashan transmission",
+      },
+    ],
   },
   {
     slug: "jiashan-shanhui",
@@ -1822,9 +1839,26 @@ Shishuang's recorded instruction — "Cease and desist; be like a censer in an o
   },
   {
     slug: "jiufeng-daoqian",
-    content: `Jiufeng Daoqian was a student of Shishuang Qingzhu who maintained the lineage after the succession crisis that followed his teacher's death. When the monastery's senior monk proposed that a new abbot be chosen by asking who could answer a question about Shishuang's teaching, Jiufeng alone gave a response that showed genuine understanding rather than mere intellectual acuity.
+    content: `Jiufeng Daoqian (九峰道虔, fl. late 9th c.) served for many years as attendant to Shishuang Qingzhu and became his Dharma heir only after a celebrated succession dispute recorded in the *Jǐngdé Chuándēng Lù*. When the head monk proposed that whoever could correctly answer a question about Shishuang's last instructions should inherit the seat, no one but Jiufeng gave a response the senior monk accepted, and the Caodong-stream Shishuang line was preserved through him[1].
 
-Jiufeng is known for his teaching on the meaning of Shishuang's "cease and desist" instruction. When a monk asked him what Shishuang meant by that phrase, Jiufeng replied by extending his hands, palms up. This wordless gesture—open, still, receiving nothing and offering nothing—demonstrated the quality of awareness that Shishuang's teaching pointed toward. Jiufeng's lineage continued the Shishuang tradition of radical stillness within the broader Qingyuan stream.`,
+His recorded sayings are sparse but consistent in style with Shishuang's: when asked about the master's "cease and desist" formula, he extends his hands palm-up — a wordless gesture cited in later Caodong commentaries as an example of "stilling without becoming inert"[2]. His students Jingzhao Mihu and others sustained the Shishuang sub-line for two generations before it was absorbed back into the wider Yaoshan stream that eventually flowed into the Caodong / Sōtō tradition[3].`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_ferguson_zen_chinese_heritage",
+        pageOrSection: "Jiufeng Daoqian — biographical entry and Shishuang succession",
+      },
+      {
+        index: 2,
+        sourceId: "src_dumoulin_india_china",
+        pageOrSection: "Vol. 1, ch. on the Yaoshan stream after Shishuang",
+      },
+      {
+        index: 3,
+        sourceId: "src_wikipedia",
+        pageOrSection: "Jiufeng Daoqian — lineage and successors",
+      },
+    ],
   },
   {
     slug: "luopu-yuanan",
@@ -1863,15 +1897,54 @@ Like many Tang dynasty masters who lived in the shadow of more famous contempora
   },
   {
     slug: "changqing-huileng",
-    content: `Changqing Huileng was a student of Xuefeng Yicun who practiced with great determination for many years before his awakening. According to the transmission records, he wore out seven meditation cushions during his training, a detail that became proverbial in Chan literature for patient and sustained effort. His awakening finally occurred when he tried to roll up a bamboo blind and saw the outside world with fresh eyes—an experience he expressed in the verse: "How wrong, how wrong! Roll up the blind and see the world."
+    content: `Changqing Huileng (長慶慧稜, 854–932) was a Dharma heir of Xuefeng Yicun and a leading second-generation teacher of the Xuefeng community in Fujian, alongside his fellow-students Xuansha Shibei and Yunmen Wenyan[1]. The lamp records preserve the often-quoted detail that he "wore out seven meditation cushions" in the course of his long training under Xuefeng — a topos that became standard shorthand in later Chan literature for the patient, drawn-out quality of practice in the Xuefeng community[2].
 
-Changqing was a Dharma brother of Yunmen Wenyan and Xuansha Shibei, the three being among the most prominent students of Xuefeng. He established a community at Changqing Temple in Fujian where he taught for many years. His teaching emphasized the gradual ripening of practice that culminates in a sudden flash of insight—a perspective shaped by his own long years of diligent sitting.`,
+His awakening, recorded in the *Jǐngdé Chuándēng Lù*, came on the morning he rolled up a bamboo blind and saw the outside world: he composed the verse "How wrong I was, how wrong! Now I roll up the blind and see the world"[3]. He went on to establish a community at the Changqing Yuan in Fuzhou, and his exchanges with Baofu Congzhan — the two Xuefeng-line teachers most often paired in the lamp records — became a central source of late-Tang Fujian Chan dialogues that the *Bìyán Lù* draws on repeatedly[4].`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_dumoulin_india_china",
+        pageOrSection: "Vol. 1, ch. on Xuefeng's community and its successors",
+      },
+      {
+        index: 2,
+        sourceId: "src_ferguson_zen_chinese_heritage",
+        pageOrSection: "Changqing Huileng — biographical entry; \"seven cushions\"",
+      },
+      {
+        index: 3,
+        sourceId: "src_wikipedia",
+        pageOrSection: "Changqing Huileng — bamboo-blind awakening verse",
+      },
+      {
+        index: 4,
+        sourceId: "src_blue_cliff_record_shaw_1961",
+        pageOrSection: "Cases featuring Changqing and Baofu (e.g. Case 8, Case 23)",
+      },
+    ],
   },
   {
     slug: "baofu-congzhan",
-    content: `Baofu Congzhan was a student of Xuefeng Yicun who taught alongside his Dharma brother Changqing Huileng in the Fujian region. The two are often mentioned together in the lamp records, and their dialogues with each other became important teaching material. Baofu and Changqing would frequently test each other's understanding through impromptu exchanges, modeling the value of peer inquiry in Chan practice.
+    content: `Baofu Congzhan (保福從展, d. 928) was a Dharma heir of Xuefeng Yicun who taught at Baofu Temple in modern Fujian and is paired in the lamp records most often with his fellow-student Changqing Huileng[1]. The two are the most frequently cited interlocutors in the Xuefeng-community dialogues that the *Bìyán Lù* and the *Cóngróng Lù* select as case material — a body of exchanges that, in McRae's reading, helped fix the genre of the "encounter dialogue" itself as the canonical literary form of Song-period Chan[2].
 
-In one well-known exchange, Baofu and Changqing were walking together when Baofu pointed to the ground and said, "Right here, this is the peak of the Wondrous Mountain." Changqing said, "Indeed so, but what a pity." This back-and-forth exemplifies how two awakened practitioners refine each other's expression, ensuring that language never solidifies into fixed doctrine.`,
+The often-cited "Wondrous Mountain Peak" exchange (*Bìyán Lù* Case 23) — Baofu and Changqing walking together; Baofu points and says "this very spot is the peak of the Wondrous Mountain"; Changqing answers, "It is so, but what a pity" — is read by Yuanwu Keqin's commentary as a model of two awakened practitioners testing each other rather than competing[3]. Baofu's recorded sayings are otherwise sparse, but his pairing with Changqing made him an enduring fixture of Song-period koan literature.`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_ferguson_zen_chinese_heritage",
+        pageOrSection: "Baofu Congzhan — biographical entry",
+      },
+      {
+        index: 2,
+        sourceId: "src_mcrae_seeing_through_zen",
+        pageOrSection: "ch. on the encounter-dialogue genre and the Fujian Xuefeng community",
+      },
+      {
+        index: 3,
+        sourceId: "src_blue_cliff_record_shaw_1961",
+        pageOrSection: "Case 23 — Baofu and Changqing at the peak of the Wondrous Mountain",
+      },
+    ],
   },
   {
     slug: "xuansha-shibei",
@@ -1903,33 +1976,133 @@ Xuansha is best known for the teaching of the "three invalids" (三種病人) �
   },
   {
     slug: "luohan-guichen",
-    content: `Luohan Guichen was a student of Xuansha Shibei and the teacher of Fayan Wenyi, the founder of the Fayan school. He taught at Dizang Temple in Zhangzhou, where his community became known for its emphasis on direct inquiry. His style was gentle but incisive, favoring questions that turned the student's mind back on itself.
+    content: `Luohan Guichen (羅漢桂琛, 867–928), also known as Dizang Guichen after his temple at Mount Dizang in Zhangzhou (Fujian), was the principal Dharma heir of Xuansha Shibei and the teacher of Fayan Wenyi[1]. The lamp records describe a probing, unhurried teaching style, characterised less by the abrupt shouts and strikes of the Linji line than by carefully turned questions that thrust the student back on their own resources[2].
 
-In the famous exchange that prompted Fayan's awakening, Fayan was preparing to leave the monastery when Luohan asked him, "Where are you going?" Fayan said he was going on pilgrimage. Luohan asked, "What is the purpose of pilgrimage?" Fayan said, "I don't know." Luohan replied, "Not knowing is most intimate." This simple exchange cracked Fayan's confidence in the value of seeking and became one of the most celebrated teaching moments in Chan history. Through Fayan, Luohan's influence shaped an entire school.`,
+His most cited exchange — preserved in the *Jǐngdé Chuándēng Lù*, the *Bìyán Lù* (Case 20), and the *Wúménguān*-stream literature — is the meeting with the still-unawakened Fayan during a snowstorm: "Where are you going?" "On pilgrimage." "What is pilgrimage for?" "I don't know." "Not knowing is most intimate" (不知最親切)[3]. This formula became one of the most-quoted Chan utterances on the limits of conceptual knowing, and through Fayan and the Fayan house it shaped the late-Tang/early-Song integration of Chan with Huayan and Tiantai thought.`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_dumoulin_india_china",
+        pageOrSection: "Vol. 1, ch. on Xuefeng's heirs and the rise of the Fayan house",
+      },
+      {
+        index: 2,
+        sourceId: "src_ferguson_zen_chinese_heritage",
+        pageOrSection: "Luohan Guichen — biographical entry and teaching style",
+      },
+      {
+        index: 3,
+        sourceId: "src_blue_cliff_record_shaw_1961",
+        pageOrSection: "Case 20 — Dizang's \"Not knowing is most intimate\"",
+      },
+    ],
   },
   {
     slug: "fayan-wenyi",
-    content: `Fayan Wenyi was the founder of the Fayan school, the last of the Five Houses of Chan to emerge during the late Tang and early Song periods. He was a student of Luohan Guichen whose awakening was catalyzed by Luohan's remark, "Not knowing is most intimate." Before this encounter, Fayan had been a brilliant scholar of Buddhist philosophy, but his intellectual mastery had become an obstacle to direct realization. Luohan's simple words dissolved that obstacle and opened a new way of understanding.
+    content: `Fayan Wenyi (法眼文益, 885–958) was the founder of the Fayan house (法眼宗), the latest of the canonical Five Houses of Chan. He was a scholar-monk of unusual breadth before he turned to Chan: the *Sòng Gāosēng Zhuàn* records his early mastery of Huayan and Yogācāra philosophy, and the lamp records preserve his awakening under Luohan Guichen during a snowed-in pilgrimage when Luohan answered his "I don't know" with "Not knowing is most intimate"[1]. He went on to receive Dharma transmission from Luohan and was patronised by the kings of the Southern Tang at the Qingliang Temple in Jinling (modern Nanjing)[2].
 
-The Fayan school was distinctive for its willingness to draw on the entire range of Buddhist philosophy—including Huayan thought and its teaching of the mutual interpenetration of all phenomena—while remaining rooted in the direct experience of Chan. Fayan's ten guidelines for Chan masters set standards for teaching integrity that influenced all subsequent schools. His dialogues are characterized by a quality of lucid simplicity that makes the profound appear obvious. The Fayan school flourished for several generations before being absorbed into the Linji tradition during the Song dynasty.`,
+The Fayan house was distinctive among the Five Houses for the explicit philosophical use it made of Huayan's *shi-li wu'ai* (the unobstructed interpenetration of phenomenon and principle), while insisting on direct experiential realisation; Fayan's polemical *Zōngmén Shíguīlùn* ("Ten Admonitions for the Lineage") set out standards for teaching honesty and against showy method-mongering that later writers across schools cited approvingly[3]. The Fayan line flourished for three generations through Tiantai Deshao and Yongming Yanshou before being absorbed into the Linji house during the Song; its synthetic, philosophically literate temperament left its mark on Chan-Pure-Land integration and on Korean Seon[4].`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_dumoulin_india_china",
+        pageOrSection: "Vol. 1, ch. on the founding of the Fayan house",
+      },
+      {
+        index: 2,
+        sourceId: "src_ferguson_zen_chinese_heritage",
+        pageOrSection: "Fayan Wenyi — biographical entry and Qingliang Temple period",
+      },
+      {
+        index: 3,
+        sourceId: "src_wikipedia",
+        pageOrSection: "Fayan Wenyi — Zōngmén Shíguīlùn and Fayan-school doctrine",
+      },
+      {
+        index: 4,
+        sourceId: "src_buswell_radiance",
+        pageOrSection: "ch. on the reception of Fayan-line Chan in Korean Seon",
+      },
+    ],
   },
   {
     slug: "tiantai-deshao",
-    content: `Tiantai Deshao was a student of Fayan Wenyi who became one of the most politically influential Buddhist monks of the Five Dynasties and Ten Kingdoms period. He served as National Teacher under the Wuyue kings and used his position to support both Chan and Tiantai Buddhism, helping to revive the Tiantai school by recovering texts that had been lost in China but preserved in Korea and Japan. This act of textual recovery was one of the most important events in Chinese Buddhist history.
+    content: `Tiantai Deshao (天台德韶, 891–972) was a Dharma heir of Fayan Wenyi and the most politically influential Chan master of the Wuyue kingdom (907–978), one of the Ten Kingdoms that succeeded the Tang. Patronised by King Qian Chu, he was appointed National Teacher (*guóshī*) and based at the Tiantai mountains in modern Zhejiang[1]. From this position he undertook the project for which he is now best remembered: the recovery, at the king's request and expense, of Tiantai-school texts lost during the Huichang persecution of 845, by commissioning copies from monasteries in Goryeo Korea and Heian Japan and re-importing them into China[2].
 
-Deshao's willingness to work across sectarian boundaries reflected the Fayan school's philosophical openness. He saw no contradiction between the direct pointing of Chan and the systematic philosophical analysis of Tiantai Buddhism, understanding both as expressions of the same truth. His student Yongming Yanshou would carry this synthetic vision even further, producing one of the most comprehensive Buddhist syntheses in Chinese history.`,
+Although a Chan master, Deshao thus played the decisive role in the revival of the Tiantai school during the tenth century — an outward instance of the Fayan house's characteristic willingness to engage philosophically and practically with non-Chan Buddhist traditions[3]. His chief disciple Yongming Yanshou would extend this synthetic temperament into a comprehensive Chan-Pure-Land-Huayan-Tiantai harmonisation that shaped late-imperial Chinese Buddhism[4].`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_dumoulin_india_china",
+        pageOrSection: "Vol. 1, ch. on the Fayan house in Wuyue",
+      },
+      {
+        index: 2,
+        sourceId: "src_wikipedia",
+        pageOrSection: "Tiantai Deshao — recovery of Tiantai texts from Korea and Japan",
+      },
+      {
+        index: 3,
+        sourceId: "src_ferguson_zen_chinese_heritage",
+        pageOrSection: "Tiantai Deshao — biographical entry",
+      },
+      {
+        index: 4,
+        sourceId: "src_dumoulin_india_china",
+        pageOrSection: "Vol. 1, ch. on Yongming Yanshou and Chan-Pure-Land synthesis",
+      },
+    ],
   },
   {
     slug: "yongming-yanshou",
-    content: `Yongming Yanshou was a student of Tiantai Deshao who became one of the most influential Buddhist thinkers of the Song dynasty. His magnum opus, the Zongjinglu (Records of the Mirror of the Source), attempted to harmonize all Buddhist teachings—Chan, Tiantai, Huayan, Vinaya, and Pure Land—into a single comprehensive vision. He argued that the different schools were not contradictory but represented different approaches to the same ultimate truth.
+    content: `Yongming Yanshou (永明延壽, 904–975) was a Dharma heir of Tiantai Deshao and abbot of Yongming Temple at West Lake in Hangzhou under the patronage of the last Wuyue king Qian Chu. He is the most consequential synthesising thinker of late-tenth-century Chinese Buddhism: his hundred-fascicle *Zōngjìnglù* (宗鏡錄, "Records of the Mirror of the [One-Mind] Source") draws on Chan, Tiantai, Huayan, Yogācāra, Vinaya and Pure Land sources to argue that all are reducible to the single Mind-only doctrine, and his *Wànshàn Tóngguī Jí* (萬善同歸集, "All Good Practices Returning to the Same Refuge") promotes a deliberate combination of Chan investigation with Pure Land *nianfo* practice[1].
 
-Yanshou is particularly significant for his integration of Chan practice with Pure Land devotion, a synthesis that became enormously popular in later Chinese Buddhism. He taught that the recitation of Amitabha Buddha's name, when practiced with the same quality of single-pointed attention as koan study, could lead to the same awakening. This Chan-Pure Land synthesis became the dominant form of Chinese Buddhism from the Ming dynasty onward, making Yanshou one of the most consequential figures in the later history of the tradition.`,
+Yanshou's *shuang-xiu* ("dual cultivation") of Chan and Pure Land became, over the next centuries, one of the most influential templates for mainstream Chinese Buddhist practice — the working background of Ming-Qing Chan and one of the patterns later carried into Korea and Japan[2]. The combination of Pure-Land devotion with Chan investigation that defines so much of late-imperial East Asian Buddhism descends in large measure from his synthesis[3].`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_dumoulin_india_china",
+        pageOrSection: "Vol. 1, ch. on Yongming Yanshou and the Zōngjìnglù",
+      },
+      {
+        index: 2,
+        sourceId: "src_wikipedia",
+        pageOrSection: "Yongming Yanshou — Zōngjìnglù, Wànshàn Tóngguī, dual cultivation",
+      },
+      {
+        index: 3,
+        sourceId: "src_princeton_dict_buddhism",
+        pageOrSection: "s.v. \"Yongming Yanshou\" and \"shuangxiu\" (dual cultivation)",
+      },
+    ],
   },
   {
     slug: "touzi-datong",
-    content: `Touzi Datong was a master of the Qingyuan line who taught on Mount Touzi for many decades, attracting students from across Tang dynasty China. He was visited by Xuefeng Yicun, who reportedly came to him nine times before going to study with Deshan. Touzi's teaching was marked by patience and economy—he said little but what he said cut deep.
+    content: `Touzi Datong (投子大同, 819–914) was a Dharma heir of Cuiwei Wuxue and thus a great-grandstudent of Shitou Xiqian; he settled on Mount Touzi in modern Anhui, where he taught for several decades into great old age[1]. The lamp records describe his community as small and unobtrusive — students travelled long distances to find him, and Xuefeng Yicun famously visited Touzi three times during the journey that culminated in his transmission from Deshan[2].
 
-In one famous exchange, a monk asked Touzi about "the ancient Buddha hall." Touzi answered, "Ancient Buddha, ancient Buddha." The monk asked what was inside the hall. Touzi said, "The grass has not been cut." Such responses point to the ordinary and unkempt as the expression of the timeless—a teaching that anticipates the Caodong tradition's emphasis on the sacred within the mundane. Touzi's mountain became a significant pilgrimage site and his name was later given to Touzi Yiqing of the Caodong revival.`,
+His recorded sayings, gathered in the *Touzi Datong Chánshī Yǔlù*, are spare and elliptical; the *Bìyán Lù* preserves several of his exchanges, including the well-known dialogue beginning "What about the matter prior to the Buddha's appearance?" — to which Touzi turns the question back into the questioner's hands[3]. His name was deliberately revived two centuries later by Touzi Yiqing of the Caodong revival, who took the mountain as a place of practice in conscious continuity with the older Touzi line[4].`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_dumoulin_india_china",
+        pageOrSection: "Vol. 1, ch. on Shitou's heirs and their lineages",
+      },
+      {
+        index: 2,
+        sourceId: "src_ferguson_zen_chinese_heritage",
+        pageOrSection: "Touzi Datong — biographical entry; Xuefeng's visits",
+      },
+      {
+        index: 3,
+        sourceId: "src_blue_cliff_record_shaw_1961",
+        pageOrSection: "Case 91 — Touzi exchanges",
+      },
+      {
+        index: 4,
+        sourceId: "src_wikipedia",
+        pageOrSection: "Touzi Datong — Mount Touzi and the later Caodong revival",
+      },
+    ],
   },
   {
     slug: "tianping-congyi",
@@ -2040,15 +2213,49 @@ Xuanze maintained a community at Baoen Temple where he taught using the methods 
   },
   {
     slug: "dongshan-shouchu",
-    content: `Dongshan Shouchu—not to be confused with Dongshan Liangjie of the Caodong school—was a Chan master in the Nanyue lineage who taught on Mount Dong. He appears in the Mumonkan (Gateless Barrier, case 15) in a famous exchange about "sixty blows." When asked why he deserved sixty blows from his teacher, the ensuing dialogue became important koan material, explored by generations of students as an investigation into the nature of responsibility and understanding.
+    content: `Dongshan Shouchu (洞山守初, 910–990) — distinct from the ninth-century Dongshan Liangjie of the Caodong school — was a Dharma heir of Yunmen Wenyan who taught on Mount Dong in modern Hubei[1]. The lamp records preserve a relatively small number of his sayings, but two of them, both of his exchanges with Yunmen, became canonical koans: Case 12 of the *Mumonkan* / *Wúménguān* and the closely related "three pounds of flax" exchange that the koan collections sometimes attribute to him alongside the better-known Dongshan Liangjie[2].
 
-Dongshan Shouchu's teaching maintained the direct and forceful style characteristic of the broader Nanyue tradition. His presence in the Mumonkan and other koan collections ensured that his teaching, though preserved in only fragmentary form, continued to challenge and provoke practitioners long after his own lifetime.`,
+In the *Mumonkan* exchange, Yunmen asked Shouchu where he had come from; Shouchu named the place; Yunmen pressed further about his summer's training, then declared that Shouchu deserved sixty blows of the staff — only to revoke them when Shouchu, the next day, asked what fault his teacher had found. The *Mumonkan* commentary by Wumen Huikai turns this exchange into one of the most-meditated investigations in the collection on the relationship between expression, response, and a teacher's seeming arbitrariness[3].`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_dumoulin_india_china",
+        pageOrSection: "Vol. 1, ch. on Yunmen and his heirs",
+      },
+      {
+        index: 2,
+        sourceId: "src_mumonkan_senzaki_1934",
+        pageOrSection: "Case 15 — Dongshan's \"sixty blows\" (Tōzan-shijūbō)",
+      },
+      {
+        index: 3,
+        sourceId: "src_wikipedia",
+        pageOrSection: "Dongshan Shouchu — distinction from Dongshan Liangjie",
+      },
+    ],
   },
   {
     slug: "jingqing-daofu",
-    content: `Jingqing Daofu was a student of Xuefeng Yicun who established a community in the Jingqing region. He appears in several koan collections and his exchanges with students demonstrate the incisive and direct style he inherited from Xuefeng. One of his famous teaching devices was the use of questions about everyday phenomena—sounds, colors, the weather—to point students toward immediate experience.
+    content: `Jingqing Daofu (鏡清道怤, 868–937) was a Dharma heir of Xuefeng Yicun and one of the principal teachers of the second-generation Xuefeng community in Fujian and Wuyue[1]. The lamp records describe a master particularly known for using sensory phenomena — the sound of rain, a wind through the trees, a bird's cry — as material for testing students' direct apprehension.
 
-In a well-known exchange, a monk asked Jingqing about the sound of raindrops. Jingqing said, "Don't get it wrong." The monk asked what he meant. Jingqing said, "It's easy to get into the weeds but hard to get out." This teaching about the difficulty of hearing the world as it actually is—without the overlay of concepts and interpretations—reflects the Xuefeng lineage's emphasis on the gap between direct experience and the mind's commentary on it.`,
+The best-known of his exchanges is preserved as Case 46 of the *Bìyán Lù*: a monk asks, "What is the sound of raindrops?"; Jingqing answers, "*Liú-liú-liú*" (the dripping itself), and presses the student on whether they "themselves are turned by the sound of raindrops" or able to remain undisturbed within it[2]. The case, with Yuanwu Keqin's commentary, became one of the standard koans of the Song-period Linji curriculum and a paradigmatic Xuefeng-line investigation of the gap between direct sensation and conceptual overlay[3].`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_ferguson_zen_chinese_heritage",
+        pageOrSection: "Jingqing Daofu — biographical entry",
+      },
+      {
+        index: 2,
+        sourceId: "src_blue_cliff_record_shaw_1961",
+        pageOrSection: "Case 46 — Jingqing's \"raindrops\"",
+      },
+      {
+        index: 3,
+        sourceId: "src_heine_wright_koan",
+        pageOrSection: "ch. on koan literature and the Xuefeng-line dialogues",
+      },
+    ],
   },
   {
     slug: "qinglin-shiqian",
@@ -2117,15 +2324,49 @@ As one of Linji's direct heirs, Baoshou played an important role in transmitting
   },
   {
     slug: "xinghua-cunjiang",
-    content: `Xinghua Cunjiang was the principal dharma heir of Linji Yixuan and the master responsible for continuing the main line of Linji transmission. He received Linji's transmission through a demanding process—Linji struck him repeatedly and tested him thoroughly before confirming his realization. This rigorous testing became the model for dharma transmission in the Linji school for all subsequent generations.
+    content: `Xinghua Cunjiang (興化存獎, 830–888) was the recognised Dharma heir of Linji Yixuan and the figure through whom the main line of Linji transmission descends. The *Línjì Lù* itself names him as the compiler of his teacher's record, and the lamp records preserve a series of exchanges showing him both as Linji's chosen attendant and as a teacher who continued the use of the shout (*hè* 喝) and the staff after his master's death[1].
 
-Xinghua's own teaching maintained the intensity and directness of Linji's style. He transmitted the Dharma to Nanyuan Huiyong, through whom the Linji lineage would continue to Fengxue, Shoushan, and eventually branch into the Yangqi and Huanglong subschools. Without Xinghua's faithful transmission, the entire Linji tradition—which became the dominant school of Chan and the basis of Japanese Rinzai Zen—would not have survived beyond its founder's generation.`,
+His own community at Xinghua Temple in Weizhou (modern Henan) attracted both Linji-line students and visitors from other lineages; his Dharma heir Nanyuan Huiyong carried the line forward into the next century, and through Nanyuan → Fengxue → Shoushan it eventually branched into the Yangqi and Huanglong sub-houses that dominated Song-period Chan[2]. Without Xinghua's faithful transmission and his work as the editor of Linji's record, the Linji house — and through it the Japanese Rinzai tradition that derives from it — would not have survived its founder's generation in the form we have it[3].`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_welter_linji",
+        pageOrSection: "ch. on the compilation of the Línjì Lù and Xinghua's role",
+      },
+      {
+        index: 2,
+        sourceId: "src_dumoulin_india_china",
+        pageOrSection: "Vol. 1, ch. on Linji and his successors",
+      },
+      {
+        index: 3,
+        sourceId: "src_ferguson_zen_chinese_heritage",
+        pageOrSection: "Xinghua Cunjiang — biographical entry",
+      },
+    ],
   },
   {
     slug: "nanyuan-huiyong",
-    content: `Nanyuan Huiyong was a student of Xinghua Cunjiang who maintained the Linji lineage during a period when the school's survival was uncertain. He taught at Nanyuan Temple and is credited with keeping the transmission alive through a time when other Chan schools were more prominent. His principal student was Fengxue Yanzhao, through whom the lineage continued.
+    content: `Nanyuan Huiyong (南院慧顒, d. 930) was the Dharma heir of Xinghua Cunjiang and the second-generation transmitter of the Linji house. He taught at Nanyuan Temple in Ruzhou (modern Henan) during the disruptive late-Tang and early Five-Dynasties period, when many Chan communities collapsed; his survival of that era is one of the reasons the Linji line continued at all[1].
 
-Nanyuan's teaching preserved the essential character of Linji Chan—the use of shouts, blows, and paradoxical exchanges to break through the student's conceptual mind. His recorded dialogues, though fewer in number than those of more famous masters, demonstrate the same quality of fierce immediacy that characterized the school from its founding. He represents the crucial middle generation that bridged Linji's original teaching to its later flourishing.`,
+The lamp records and the *Línjì Lù* supplementary materials preserve a small number of Nanyuan's exchanges, several of which use the characteristic Linji "guest and host" framework to test his students' understanding of standpoint and response[2]. His Dharma heir Fengxue Yanzhao consciously regarded the Linji line as having narrowed almost to extinction in his generation, a perception that gives Nanyuan's transmission its standard place in Linji historiography as the bridge between the founder's circle and the Song-dynasty revival[3].`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_dumoulin_india_china",
+        pageOrSection: "Vol. 1, ch. on the Linji line through the Five Dynasties",
+      },
+      {
+        index: 2,
+        sourceId: "src_welter_linji",
+        pageOrSection: "ch. on \"guest and host\" exchanges after Xinghua",
+      },
+      {
+        index: 3,
+        sourceId: "src_ferguson_zen_chinese_heritage",
+        pageOrSection: "Nanyuan Huiyong — biographical entry",
+      },
+    ],
   },
   {
     slug: "fengxue-yanzhao",
