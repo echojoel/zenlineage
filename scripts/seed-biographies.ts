@@ -2400,9 +2400,31 @@ Though Langye's lineage did not produce the large branches that his dharma broth
   },
   {
     slug: "huanglong-huinan",
-    content: `Huanglong Huinan was a student of Shishuang Chuyuan who founded the Huanglong branch of the Linji school, one of the two great subschools into which Linji Chan divided during the Song dynasty. He taught at Mount Huanglong and developed a systematic approach to testing students known as the "Three Barriers of Huanglong."
+    content: `Huanglong Huinan (黃龍慧南, 1002–1069) was a Dharma heir of Shishuang Chuyuan and the founder of the Huanglong (黃龍) sub-house of the Linji school, one of the two main sub-lineages — alongside Yangqi — into which the Song-period Linji line divided[1]. He settled at Mount Huanglong in modern Jiangxi, where his community attracted a generation of leading students; his Dharma was carried on through Huitang Zuxin, Hui'an Zhenru, and many others into the next century[2].
 
-The Three Barriers were questions that Huanglong posed to every student: "Everyone has a place of birth—where is your place of birth?" "My hand is like the hand of Buddha—what is the reason?" "My foot is like the foot of a donkey—what is the meaning?" These seemingly absurd questions were designed to probe whether the student had genuine realization or merely intellectual understanding. The Huanglong branch flourished for several generations and was particularly influential in the transmission of Chan to Korea and Japan, where its methods continued to shape Zen practice.`,
+His teaching is best remembered for the "Three Barriers of Huanglong" (黃龍三關), three test questions he routinely put to advanced students: "Everyone has a place of birth — where is yours?", "My hand is like the Buddha's hand — how so?", and "My foot is like a donkey's foot — what does this mean?"[3] The Huanglong line was the first Linji-sub-house transmitted to Japan, by Myōan Eisai in 1191, and its impact in Korea ran through Goryeo-period Seon — though within China itself it was eventually overshadowed by the Yangqi sub-house, which produced Wuzu Fayan, Yuanwu Keqin, and Dahui Zonggao[4].`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_dumoulin_india_china",
+        pageOrSection: "Vol. 1, ch. on the Song division of the Linji line",
+      },
+      {
+        index: 2,
+        sourceId: "src_ferguson_zen_chinese_heritage",
+        pageOrSection: "Huanglong Huinan — biographical entry and successors",
+      },
+      {
+        index: 3,
+        sourceId: "src_wikipedia",
+        pageOrSection: "Huanglong Huinan — Three Barriers",
+      },
+      {
+        index: 4,
+        sourceId: "src_dumoulin_japan",
+        pageOrSection: "ch. on Eisai's import of the Huanglong line into Japan",
+      },
+    ],
   },
   {
     slug: "huitang-zuxin",
@@ -2621,9 +2643,21 @@ The Yangqi branch's success in becoming the dominant form of Chinese Chan depend
   },
   {
     slug: "gaofeng-yuanmiao",
-    content: `Gaofeng Yuanmiao was a Yangqi line master of the late Song and early Yuan dynasty known for the extreme intensity of his practice. He is said to have vowed not to sleep until he attained awakening, and he practiced on a cliff's edge to ensure he would not drift off. His awakening came after extended effort when a monk dropped a wooden board, and the sound shattered his remaining doubt.
+    content: `Gaofeng Yuanmiao (高峰原妙, 1238–1295) was the chief Dharma heir of Xueyan Zuqin and one of the most influential Yangqi-line Linji masters of the late Southern Song and early Yuan. His autobiographical *Gāofēng Héshàng Chánshī Cān Chán Jiào Bīng* ("Admonitions on Investigating Chan") records the extreme regime of his training — he is said to have practised standing on the edge of a cliff to keep himself from falling asleep, and his decisive awakening came when a monk dropped a wooden pillow and the crack of its fall shattered his last knot of doubt[1].
 
-Gaofeng's teaching emphasized the absolute necessity of great doubt, great faith, and great determination—the three pillars of Linji practice. He taught that without a doubt so intense that it feels like a ball of fire stuck in one's throat, awakening cannot occur. His student Zhongfeng Mingben carried this teaching forward, and through subsequent generations the emphasis on the three pillars became standard in the Linji and Rinzai traditions.`,
+He retired in 1279 to a cave on Mount Tianmu in modern Zhejiang, the *Shīzī Yán* (Lion's Rock), where he taught for the rest of his life under the strict rule of never descending the mountain. The formulation of *huatou* practice he transmitted there — built around the triad of "great faith, great determination, and great doubt" — was codified by his disciple Zhongfeng Mingben and became the standard Yuan-and-after Linji curriculum, carried into Japan through the Daiō-Daitō-Kanzan line and into Korea through the Goryeo-period Seon revival[2].`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_ferguson_zen_chinese_heritage",
+        pageOrSection: "Gaofeng Yuanmiao — biographical entry; Cān Chán Jiào Bīng",
+      },
+      {
+        index: 2,
+        sourceId: "src_dumoulin_japan",
+        pageOrSection: "ch. on the late-Song Linji koan curriculum and its East-Asian transmission",
+      },
+    ],
   },
   {
     slug: "ji-an-xin",
@@ -2639,9 +2673,26 @@ Shiwu's poems capture the simplicity and contentment of a practitioner who has f
   },
   {
     slug: "xueyan-zuqin",
-    content: `Xueyan Zuqin was a Yangqi line master of the Song and Yuan dynasties who played an important role in the transmission of the Yangqi lineage. He was the teacher of Gaofeng Yuanmiao, through whom the emphasis on great doubt and intense practice was systematized into a formal methodology. His teaching prepared the ground for the later development of Linji practice in both China and Japan.
+    content: `Xueyan Zuqin (雪巖祖欽, 1216–1287) was a Yangqi-line Linji master of the late Southern Song and the principal teacher of Gaofeng Yuanmiao, through whom his approach to *huatou* / *kanhua* practice passed into the early-Yuan curriculum that would shape both later Chinese Linji and Japanese Rinzai training[1]. He trained under Wuzhun Shifan at Jingshan and taught at several monasteries before settling at Mount Yang and Mount Xueyan in modern Hubei[2].
 
-Xueyan's contribution to the tradition lies in his deepening of the Yangqi approach to koan practice. He emphasized that the student must bring the entirety of their being—body, mind, and spirit—to the investigation of the koan, leaving nothing in reserve. This totality of engagement became a hallmark of the mature Linji tradition and remains central to Rinzai Zen practice today.`,
+Xueyan's teaching is best preserved in the *Xueyan Zuqin Heshang Yulu* and in Gaofeng's autobiographical *Cān Chán Jiào Bīng* (參禪箴), which records his teacher's emphasis on the triad of "great faith, great determination, and great doubt" (大信根, 大憤志, 大疑情) as the prerequisites of *huatou* investigation — a formula that became canonical in the later Linji house and was carried into Japan through Nanpo Jōmin and his Daiō-Daitō-Kanzan successors[3].`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_dumoulin_japan",
+        pageOrSection: "ch. on the Song Linji koan curriculum and its Japanese transmission",
+      },
+      {
+        index: 2,
+        sourceId: "src_ferguson_zen_chinese_heritage",
+        pageOrSection: "Xueyan Zuqin — biographical entry",
+      },
+      {
+        index: 3,
+        sourceId: "src_schlutter_dahui",
+        pageOrSection: "ch. on huatou practice and the \"three essentials\" formula",
+      },
+    ],
   },
 
   // =========================================================================
@@ -2940,15 +2991,49 @@ Yong's presence at Yangshan represents the organic way in which Chan schools coe
 
   {
     slug: "koun-ejo",
-    content: `Koun Ejo was Dogen's first dharma successor and the second abbot of Eiheiji, the temple that remains the head training monastery of the Soto school to this day. He had previously studied with Kakuan, a Daruma school teacher, before meeting Dogen, under whom his understanding deepened decisively. His devotion to Dogen and his careful stewardship of the community after Dogen's death ensured the survival of the Soto school during its most vulnerable early years.
+    content: `Koun Ejō (孤雲懐奘, 1198–1280) was Dōgen's principal Dharma successor and the second abbot of Eihei-ji, the head training monastery of the Sōtō school. Ordained on Mount Hiei in the Tendai tradition, he had already studied for several years with Kakuzen Ekan of the disbanded Japanese Daruma-shū school of Dainichi Nōnin before meeting Dōgen in 1227; he formally joined Dōgen's community in 1234 and was named *shuso* and Dharma heir during the Kōshō-ji period[1].
 
-Ejo compiled the Shobogenzo Zuimonki, a collection of Dogen's informal talks that remains one of the most accessible introductions to Dogen's thought. His own teaching was characterized by a deep humility and a wholehearted commitment to the practice of zazen as Dogen had taught it. The transition from Dogen's charismatic founding to Ejo's quiet continuation established the pattern of institutional stability that would sustain the Soto school through the centuries.`,
+Ejō's most enduring contribution to Sōtō literary culture is the *Shōbōgenzō Zuimonki* (正法眼蔵随聞記), a six-fascicle record of Dōgen's informal talks at Kōshō-ji that he transcribed between 1235 and 1238[2]. After Dōgen's death in 1253 he succeeded him as abbot of Eihei-ji and held the post for most of the next two decades, briefly handing it to Tettsū Gikai in 1267 before resuming office until his own death in 1280; through this period of fragile institutional life he was the figure who kept the early Sōtō community intact[3].`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_dumoulin_japan",
+        pageOrSection: "ch. on Dōgen's community and Koun Ejō's early career",
+      },
+      {
+        index: 2,
+        sourceId: "src_kim_dogen",
+        pageOrSection: "ch. on the Zuimonki and the Kōshō-ji period",
+      },
+      {
+        index: 3,
+        sourceId: "src_bodiford_soto_medieval",
+        pageOrSection: "ch. on the early Eihei-ji abbacy and the Sandai sōron",
+      },
+    ],
   },
   {
     slug: "tettsu-gikai",
-    content: `Tettsu Gikai was the third abbot of Eiheiji and a pivotal figure in the early Soto school. His tenure was marked by controversy—he introduced ritual elements and institutional changes that some of Dogen's other students viewed as departures from the founder's austere vision. This conflict eventually led to Gikai's departure from Eiheiji and the establishment of a separate lineage stream.
+    content: `Tettsū Gikai (徹通義介, 1219–1309) entered the early Dōgen community in 1241 with the survivors of the suppressed Daruma-shū around Kakuzen Ekan, received Dōgen's bodhisattva precepts in 1242, and remained at Eihei-ji as a senior monk under Koun Ejō until being installed as third abbot in 1267[1]. His tenure became the immediate trigger for the *Sandai sōron* (三代相論, "third-generation dispute"), the early Sōtō controversy over whether his selective integration of esoteric ritual and lay-funeral observance into Eihei-ji practice constituted a betrayal of Dōgen's austere standard. Around 1272 he stepped aside and Ejō resumed the abbacy; Gikai eventually left Eihei-ji and re-settled at Daijō-ji in Kaga[2].
 
-Despite the controversy, Gikai's contribution to the Soto school was significant. His student Keizan Jokin would become the "Great Popularizer" who made Soto Zen accessible to a broad Japanese audience, founding Sojiji Temple and integrating elements of esoteric Buddhism and folk religion into Soto practice. Through Keizan, Gikai's lineage became the numerically dominant branch of Japanese Soto Zen.`,
+Although the *Sandai sōron* split the original Eihei-ji line, Gikai's branch — through his Dharma heir Keizan Jōkin and Keizan's heirs Meihō Sotetsu and Gasan Jōseki — produced the network of provincial Sōtō temples (Sōji-ji, Yōkō-ji, and the Five Houses of Sōtō) that became the numerically dominant form of medieval and modern Japanese Sōtō Zen[3]. The dispute itself is now read by scholars as much as an institutional struggle over property and lay patronage as a doctrinal disagreement.`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_bodiford_soto_medieval",
+        pageOrSection: "ch. on Gikai, the Daruma-shū incorporation, and the third abbacy of Eihei-ji",
+      },
+      {
+        index: 2,
+        sourceId: "src_dumoulin_japan",
+        pageOrSection: "ch. on the Sandai sōron and Gikai's move to Daijō-ji",
+      },
+      {
+        index: 3,
+        sourceId: "src_wikipedia",
+        pageOrSection: "Tettsū Gikai — successors, Keizan line, Sōji-ji",
+      },
+    ],
   },
   {
     slug: "meiho-sotetsu",
@@ -3935,9 +4020,26 @@ Keiyo's place in the Rinzai succession reflects the tradition's remarkable durab
 
   {
     slug: "xuedou-chongxian",
-    content: `Xuedou Chongxian was the most celebrated literary figure in the Yunmen school and the compiler of the hundred cases that form the basis of the Blue Cliff Record. His verses on these cases—composed as poetic distillations of the essential point of each encounter—are regarded as masterpieces of Chan literature. Yuanwu Keqin later added his own commentaries and introductions to create the Blue Cliff Record in its final form.
+    content: `Xuedou Chongxian (雪竇重顯, 980–1052) was the most influential literary figure of the Yunmen house and one of the great Song-period stylists of Chan literature[1]. After training under Zhimen Guangzuo, he settled at Mount Xuedou in modern Ningbo, where he taught for over three decades. He selected the hundred encounter dialogues and composed for each a four-line verse (*sòng* 頌) — the collection that, with Yuanwu Keqin's commentaries and introductions added the next century, became the *Bìyán Lù* (碧巖錄, Blue Cliff Record)[2].
 
-Xuedou's genius lay in his ability to capture the living spirit of an encounter in a few lines of verse, creating poems that function both as literary art and as objects of meditation. His verses do not explain the koans but restate them in new terms that open additional dimensions of meaning. The Blue Cliff Record's enduring influence on Chan and Zen practice owes as much to the beauty and precision of Xuedou's verses as to Yuanwu's commentaries.`,
+His verses are not paraphrases of the cases but lyrical re-statements that work the original encounter into a literary form designed to be sat with, not solved; this approach — using poetry as a contemplative instrument alongside the dialogue itself — became the model for the later Song "verse-comment" (*sòng-gǔ* 頌古) tradition that produced the *Cóngróng Lù* (Book of Serenity) in the Caodong line and shaped the standard Linji koan curriculum thereafter[3].`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_dumoulin_india_china",
+        pageOrSection: "Vol. 1, ch. on Yunmen-house literary culture",
+      },
+      {
+        index: 2,
+        sourceId: "src_blue_cliff_record_shaw_1961",
+        pageOrSection: "Translator's introduction — Xuedou's verses and Yuanwu's commentaries",
+      },
+      {
+        index: 3,
+        sourceId: "src_heine_wright_koan",
+        pageOrSection: "ch. on the sòng-gǔ tradition and Song koan literature",
+      },
+    ],
   },
   {
     slug: "jinhua-juzhi",
@@ -4007,9 +4109,26 @@ Fengxiang's place in the Yunmen lineage represents the tradition's contribution 
   },
   {
     slug: "tianyi-yihuai",
-    content: `Tianyi Yihuai was a Yunmen school master who contributed to the tradition's development during the Song dynasty. He maintained the school's distinctive methods and trained students in the Yunmen approach to Chan practice.
+    content: `Tianyi Yihuai (天衣義懷, 993–1064) was a Yunmen-line Linji master of the Northern Song and a Dharma heir of Xuedou Chongxian who served as abbot of a long sequence of temples — most prominently Cuifeng (翠峰) and Tianyi (天衣) in the Hangzhou region — at the request of the imperial court[1]. The lamp records describe a teacher with one of the broadest training communities of his generation, sending out a large cohort of Dharma heirs and helping to extend the Yunmen line's reach into Chan-Pure-Land territory in the late eleventh century[2].
 
-Yihuai's teaching continued the Yunmen tradition's emphasis on the spontaneous, precisely targeted response as the primary teaching tool. This approach—meeting each student's question with a response that is neither predictable nor random but exactly appropriate to the moment—represents one of the highest achievements of Chan pedagogy.`,
+Yihuai is among the figures usually associated with the rise of *shuangxiu* — combined Chan investigation and Pure-Land *nianfo* — within the Yunmen house: his exhortations to his community to "recite the Buddha-name with a single mind" while still pursuing the cases of the masters are cited by later Pure-Land historiographers as one of the bridging influences between Yongming Yanshou's tenth-century synthesis and the mature Song-period dual cultivation[3].`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_dumoulin_india_china",
+        pageOrSection: "Vol. 1, ch. on Northern Song Yunmen-line teachers",
+      },
+      {
+        index: 2,
+        sourceId: "src_ferguson_zen_chinese_heritage",
+        pageOrSection: "Tianyi Yihuai — biographical entry and successors",
+      },
+      {
+        index: 3,
+        sourceId: "src_wikipedia",
+        pageOrSection: "Tianyi Yihuai — Chan-Pure-Land synthesis in the eleventh century",
+      },
+    ],
   },
   {
     slug: "yang-wuwei",
@@ -4984,12 +5103,27 @@ Beopjeong spent much of his life at small, remote hermitages, including Burilam 
   // =========================================================================
   {
     slug: "myoan-eisai",
-    content: `Myōan Eisai (1141–1215) was the monk who introduced Rinzai Zen from China to Japan and is also credited with establishing the tradition of tea cultivation that would evolve into the Japanese tea ceremony. A Tendai monk by original training, Eisai made two journeys to Song dynasty China, the second lasting from 1187 to 1191, during which he studied under the Linji master Xuan Huaichang on Mount Tiantai and received dharma transmission. He returned to Japan bearing not only the Linji teaching but also tea seeds and the Chinese methods of preparing powdered tea.
+    content: `Myōan Eisai (明菴榮西, 1141–1215) is the monk traditionally credited with the founding of Japanese Rinzai Zen and with the re-introduction of large-scale tea cultivation to Japan. A Tendai-trained monk who had grown dissatisfied with the state of Heian-period Buddhism, Eisai made two voyages to Song-dynasty China: a brief first trip in 1168 and a longer second residence from 1187 to 1191, during which he trained at Mount Tiantai (天台山) and Mount Tiantong under the Huanglong-line Linji master Xū'ān Huáichǎng (虛庵懷敞), from whom he received Dharma transmission[1]. He returned to Japan in 1191 carrying that Huanglong-line transmission together with tea seeds and the Song methods of preparing powdered (matcha) tea[2].
 
-Eisai's efforts to establish Zen as an independent school in Japan met fierce resistance from the powerful Tendai establishment on Mount Hiei, which viewed the new meditation school as a threat. He responded with his treatise "Kōzen Gokoku Ron" (Propagation of Zen for the Protection of the Nation), arguing that Zen would strengthen rather than undermine Japanese Buddhism and the state. By allying himself with the warrior government in Kamakura, he secured patronage and founded Jufuku-ji in Kamakura and Kennin-ji in Kyoto, the latter being the first Zen monastery in the imperial capital. His "Kissa Yōjōki" (Drinking Tea for Health) promoted tea as both medicine and aid to meditation — a strand that Okakura Kakuzō would later trace through medieval Zen monasteries down to the modern tea ceremony in *The Book of Tea*[1]. Though later Rinzai masters would criticize Eisai's syncretism with Tendai and esoteric practices, he was the essential pioneer who opened the door through which all subsequent Japanese Zen passed.`,
+Eisai's effort to establish Zen as a free-standing school in Japan met sharp resistance from the powerful Tendai establishment on Mount Hiei, which obtained a court ban on the new "meditation school" in 1194. He answered in 1198 with his apologia *Kōzen Gokoku Ron* (興禪護國論, "Propagation of Zen for the Protection of the Nation"), arguing that Zen would strengthen, not undermine, the state Buddhism of Heian Japan. By turning to the new warrior government in Kamakura he secured the patronage to found Jufuku-ji in Kamakura (1200) and Kennin-ji in Kyoto (1202), the latter being the first Zen monastery in the imperial capital[3]. His *Kissa Yōjōki* (喫茶養生記, "Drinking Tea for Nourishing Life") promoted tea as both medicine and aid to meditation — a strand Okakura Kakuzō later traced through the medieval Zen monasteries down to the modern tea ceremony in *The Book of Tea*[4]. Though Dōgen and later purists criticised Eisai's syncretism with Tendai and esoteric practices, he was the essential pioneer through whom Chinese Linji Chan first took institutional root in Japan.`,
     footnotes: [
       {
         index: 1,
+        sourceId: "src_dumoulin_japan",
+        pageOrSection: "ch. on Eisai and the introduction of Rinzai Zen to Japan",
+      },
+      {
+        index: 2,
+        sourceId: "src_wikipedia",
+        pageOrSection: "Eisai — biography; tea cultivation; Huanglong-line transmission",
+      },
+      {
+        index: 3,
+        sourceId: "src_dumoulin_japan",
+        pageOrSection: "ch. on Kōzen Gokoku Ron, Jufuku-ji, and Kennin-ji",
+      },
+      {
+        index: 4,
         sourceId: "src_okakura_book_of_tea_1906",
         pageOrSection: "ch. II–III — Eisai, the Zen monasteries, and the introduction of tea to Japan",
       },
