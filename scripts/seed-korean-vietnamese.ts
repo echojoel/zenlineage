@@ -189,23 +189,30 @@ async function upsertCitations(masterId: string, master: KVMaster): Promise<void
       });
     }
 
-    // Inline-footnote citations. When the data file provides a
-    // `footnotes` array, write one citation row per footnote with
-    // field_name = `footnote:N` so the page renderer can resolve the
-    // `[N]` markers embedded in the biography text. Mirrors the
-    // pattern used by scripts/seed-biographies.ts.
-    if (master.footnotes && master.footnotes.length > 0) {
-      for (const note of master.footnotes) {
-        await db.insert(citations).values({
-          id: `cite_${bioId}__footnote_${note.index}`,
-          sourceId: note.sourceId,
-          entityType: "master_biography",
-          entityId: bioId,
-          fieldName: `footnote:${note.index}`,
-          excerpt: note.excerpt ?? null,
-          pageOrSection: note.pageOrSection ?? null,
-        });
-      }
+    // Inline-footnote citations. When the data file provides an
+    // explicit `footnotes` array, use it verbatim. Otherwise, derive
+    // footnote rows from `citations[]` in array order so the `[N]`
+    // markers embedded in the biography text resolve to clickable
+    // links — one row per citation entry, with index = arrayIndex+1.
+    const derivedFootnotes =
+      master.footnotes && master.footnotes.length > 0
+        ? master.footnotes
+        : master.citations.map((c, i) => ({
+            index: i + 1,
+            sourceId: c.sourceId,
+            pageOrSection: c.pageOrSection,
+            excerpt: c.excerpt,
+          }));
+    for (const note of derivedFootnotes) {
+      await db.insert(citations).values({
+        id: `cite_${bioId}__footnote_${note.index}`,
+        sourceId: note.sourceId,
+        entityType: "master_biography",
+        entityId: bioId,
+        fieldName: `footnote:${note.index}`,
+        excerpt: note.excerpt ?? null,
+        pageOrSection: note.pageOrSection ?? null,
+      });
     }
   }
 }
