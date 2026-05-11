@@ -41,6 +41,17 @@ export interface KVTransmission {
   sourceIds: string[];
 }
 
+export interface KVFootnote {
+  /** 1-based number matching a `[N]` marker in `biography`. */
+  index: number;
+  /** Source row id (must exist in the `sources` table). */
+  sourceId: string;
+  /** Optional locator (e.g. "pp. 85–94"). */
+  pageOrSection?: string;
+  /** Optional supporting quote shown after the citation. */
+  excerpt?: string;
+}
+
 export interface KVMaster {
   slug: string;
   schoolSlug: string;
@@ -54,6 +65,10 @@ export interface KVMaster {
   generation?: number | null;
   biography: string;
   citations: KVCitation[];
+  /** Optional Wikipedia-style numbered footnotes. When present, each
+   *  `[N]` marker in `biography` is rendered as a superscript link
+   *  resolving to the footnote whose `index` matches. */
+  footnotes?: KVFootnote[];
   transmissions: KVTransmission[];
 }
 
@@ -165,11 +180,16 @@ export const KV_MASTERS: KVMaster[] = [
     deathPrecision: "exact",
     deathConfidence: "high",
     biography:
-      "Bojo Jinul (普照知訥, 1158–1210) is the central figure of Korean Seon and the master whose synthesis of meditation and doctrinal study shaped all subsequent Korean Buddhism. Denied access to a formal Seon teacher in the sectarian strife of late-Goryeo Korea, he awakened through reading the Platform Sutra, Li Tongxuan's Huayan commentary, and the Records of Dahui Zonggao — an intellectual lineage rather than a transmitted one. Against the Chinese controversy between sudden and gradual awakening he taught sudden awakening followed by gradual cultivation (돈오점수 dono jeomsu), and against the sectarian split between Seon and Hwaeom he argued that meditation and doctrinal study illuminate one another. His Samādhi-Prajñā Society retreat on Mount Jogye (ending 1200) was the seed from which the later Jogye Order grew, and his writings — especially Secrets on Cultivating the Mind and Excerpts from the Dharma Collection — remain the foundational curriculum of Korean monastic training.",
+      "Bojo Jinul (普照知訥, 1158–1210) is the central figure of Korean Seon and the master whose synthesis of meditation and doctrinal study shaped all subsequent Korean Buddhism[1]. Denied access to a formal Seon teacher in the sectarian strife of late-Goryeo Korea, he awakened through reading the Platform Sutra, Li Tongxuan's Huayan commentary, and the Records of Dahui Zonggao — an intellectual lineage rather than a transmitted one[1]. Against the Chinese controversy between sudden and gradual awakening he taught sudden awakening followed by gradual cultivation (돈오점수 dono jeomsu), and against the sectarian split between Seon and Hwaeom he argued that meditation and doctrinal study illuminate one another[2]. His Samādhi-Prajñā Society retreat on Mount Jogye (ending 1200) was the seed from which the later Jogye Order grew, and his writings — especially Secrets on Cultivating the Mind and Excerpts from the Dharma Collection — remain the foundational curriculum of Korean monastic training[3].",
     citations: [
       { sourceId: "src_buswell_radiance", pageOrSection: "pp. 17–97, 159–213", fieldName: "biography" },
       { sourceId: "src_buswell_formation", pageOrSection: "pp. 1–40", fieldName: "dates" },
       { sourceId: "src_buswell_radiance", pageOrSection: "pp. 3–7", fieldName: "name" },
+    ],
+    footnotes: [
+      { index: 1, sourceId: "src_buswell_radiance", pageOrSection: "pp. 17–97 — the three awakenings through reading the Platform Sūtra, Li Tongxuan, and Dahui" },
+      { index: 2, sourceId: "src_buswell_radiance", pageOrSection: "pp. 159–213 — sudden awakening / gradual cultivation; Seon-Hwaŏm synthesis" },
+      { index: 3, sourceId: "src_jinul_susimkyol", pageOrSection: "Susimkyŏl 修心訣 — Secrets on Cultivating the Mind" },
     ],
     transmissions: [
       {
@@ -198,10 +218,14 @@ export const KV_MASTERS: KVMaster[] = [
     deathPrecision: "exact",
     deathConfidence: "high",
     biography:
-      "Chin'gak Hyesim (眞覺慧諶, 1178–1234) was Jinul's principal disciple and successor at Songgwang-sa on Mount Jogye. A former Confucian scholar who turned to Buddhism after his mother's death, he refined Korean huatou (화두 hwadu) practice into the disciplined investigation of a single critical phrase that still defines Korean meditation. His Seonmun Yeomsong, an anthology of 1,125 koan cases with his verse and prose commentary, is the largest classical Korean Seon koan collection and remains a foundational training text. With Hyesim, the Korean tradition committed to keyword investigation as its primary meditative method — a commitment that continues unbroken in the seonbang today.",
+      "Chin'gak Hyesim (眞覺慧諶, 1178–1234) was Jinul's principal disciple and successor at Songgwang-sa on Mount Jogye[1]. A former Confucian scholar who turned to Buddhism after his mother's death, he refined Korean huatou (화두 hwadu) practice into the disciplined investigation of a single critical phrase that still defines Korean meditation[1]. His Seonmun Yeomsong, an anthology of 1,125 koan cases with his verse and prose commentary, is the largest classical Korean Seon koan collection and remains a foundational training text. With Hyesim, the Korean tradition committed to keyword investigation as its primary meditative method — a commitment that continues unbroken in the seonbang today[2].",
     citations: [
       { sourceId: "src_buswell_radiance", pageOrSection: "pp. 98–130", fieldName: "biography" },
       { sourceId: "src_buswell_monastic", pageOrSection: "pp. 149–190", fieldName: "teachers" },
+    ],
+    footnotes: [
+      { index: 1, sourceId: "src_buswell_radiance", pageOrSection: "pp. 98–130 — Hyesim's career and his refinement of hwadu practice" },
+      { index: 2, sourceId: "src_buswell_monastic", pageOrSection: "pp. 149–190 — keyword investigation as central method of contemporary Korean Seon" },
     ],
     transmissions: [
       {
@@ -229,10 +253,14 @@ export const KV_MASTERS: KVMaster[] = [
     deathPrecision: "exact",
     deathConfidence: "high",
     biography:
-      "Taego Bou (太古普愚, 1301–1382) is the master through whom Chinese Linji dharma transmission entered Korea, making him a pivotal figure in the formation of later Korean Seon orthodoxy. In 1347 he travelled to Yuan China and received transmission from the Yangqi-line master Shiwu Qinggong (Stonehouse), the hermit-poet whose poems survive today largely through this very transmission. On returning to Korea he served as royal preceptor under King Gongmin and, at the king's request, undertook to unify the Nine Mountain Schools of Seon into a single order organized around Linji koan practice. His legacy is twofold: the modern Taego Order takes him as its eponymous founder, while the Jogye Order also reads its Linji-centered transmission through him.",
+      "Taego Bou (太古普愚, 1301–1382) is the master through whom Chinese Linji dharma transmission entered Korea, making him a pivotal figure in the formation of later Korean Seon orthodoxy[1]. In 1347 he travelled to Yuan China and received transmission from the Yangqi-line master Shiwu Qinggong (Stonehouse), the hermit-poet whose poems survive today largely through this very transmission[1]. On returning to Korea he served as royal preceptor under King Gongmin and, at the king's request, undertook to unify the Nine Mountain Schools of Seon into a single order organized around Linji koan practice. His legacy is twofold: the modern Taego Order takes him as its eponymous founder, while the Jogye Order also reads its Linji-centered transmission through him[2].",
     citations: [
       { sourceId: "src_buswell_formation", pageOrSection: "pp. 41–74", fieldName: "biography" },
       { sourceId: "src_buswell_monastic", pageOrSection: "pp. 21–41", fieldName: "teachers" },
+    ],
+    footnotes: [
+      { index: 1, sourceId: "src_buswell_formation", pageOrSection: "pp. 41–74 — Taego's Yuan-China transmission from Shiwu Qinggong" },
+      { index: 2, sourceId: "src_buswell_monastic", pageOrSection: "pp. 21–41 — Taego and Jogye Orders, Linji line in contemporary Korean Buddhism" },
     ],
     transmissions: [
       {
@@ -261,10 +289,14 @@ export const KV_MASTERS: KVMaster[] = [
     deathPrecision: "exact",
     deathConfidence: "high",
     biography:
-      "Naong Hyegeun (懶翁惠勤, 1320–1376) was — alongside Taego Bou — the second great late-Goryeo master through whom Yuan-dynasty Chinese Chan reached Korea, and the teacher who carried the dharma into the early Joseon. Travelling to Yuan China in 1347, he studied at the great Mongol-period monastery on Mount Yan, received Linji transmission from Pingshan Chulin, and crossed paths with the Indian master Zhikong (Śūnyādiśya), whose memory he later helped to establish in Korea. On returning to Korea he served as Royal Preceptor under King Gongmin and re-articulated the inheritance from China through hwadu practice. His most consequential disciple, Muhak Jacho, in turn taught Hamheo Gihwa and became state preceptor to the founding Joseon king Yi Seong-gye — making Naong the conduit through which the late-Goryeo Linji line continued, however precariously, into the Confucian-suppressed early Joseon.",
+      "Naong Hyegeun (懶翁惠勤, 1320–1376) was — alongside Taego Bou — the second great late-Goryeo master through whom Yuan-dynasty Chinese Chan reached Korea, and the teacher who carried the dharma into the early Joseon[1]. Travelling to Yuan China in 1347, he studied at the great Mongol-period monastery on Mount Yan, received Linji transmission from Pingshan Chulin, and crossed paths with the Indian master Zhikong (Śūnyādiśya), whose memory he later helped to establish in Korea[1]. On returning to Korea he served as Royal Preceptor under King Gongmin and re-articulated the inheritance from China through hwadu practice. His most consequential disciple, Muhak Jacho, in turn taught Hamheo Gihwa and became state preceptor to the founding Joseon king Yi Seong-gye — making Naong the conduit through which the late-Goryeo Linji line continued, however precariously, into the Confucian-suppressed early Joseon[2].",
     citations: [
       { sourceId: "src_buswell_formation", pageOrSection: "pp. 41–74", fieldName: "biography" },
       { sourceId: "src_buswell_monastic", pageOrSection: "pp. 21–41", fieldName: "teachers" },
+    ],
+    footnotes: [
+      { index: 1, sourceId: "src_buswell_formation", pageOrSection: "pp. 41–74 — Naong's Yuan-China training and Linji transmission" },
+      { index: 2, sourceId: "src_buswell_monastic", pageOrSection: "pp. 21–41 — Muhak Jacho and the late-Goryeo Linji line into the early Joseon" },
     ],
     transmissions: [
       {
@@ -294,10 +326,14 @@ export const KV_MASTERS: KVMaster[] = [
     deathPrecision: "exact",
     deathConfidence: "high",
     biography:
-      "Hamheo Gihwa (涵虛己和, 1376–1433) was the leading philosophical voice of Korean Buddhism in the first generation of the Joseon dynasty, when the new Neo-Confucian state was systematically dismantling Buddhist institutions. A former Confucian scholar at Seonggyungwan who became a monk under Muhak Jacho — Naong Hyegeun's principal disciple — he turned his classical training to the defense of the dharma in the Hyeonjeong-non (Treatise on Manifesting the Right), a measured response to Confucian polemics that argued for the compatibility of Buddhist liberation with Confucian moral seriousness. His commentaries on the Sutra of Perfect Enlightenment and the Diamond Sutra became standard reading in Korean monasteries and remain among the most subtle works of philosophical Seon ever written, demonstrating that the Korean tradition could continue to think rigorously even under the Joseon state's suppression.",
+      "Hamheo Gihwa (涵虛己和, 1376–1433) was the leading philosophical voice of Korean Buddhism in the first generation of the Joseon dynasty, when the new Neo-Confucian state was systematically dismantling Buddhist institutions[1]. A former Confucian scholar at Seonggyungwan who became a monk under Muhak Jacho — Naong Hyegeun's principal disciple — he turned his classical training to the defense of the dharma in the Hyeonjeong-non (Treatise on Manifesting the Right), a measured response to Confucian polemics that argued for the compatibility of Buddhist liberation with Confucian moral seriousness[1]. His commentaries on the Sutra of Perfect Enlightenment and the Diamond Sutra became standard reading in Korean monasteries and remain among the most subtle works of philosophical Seon ever written, demonstrating that the Korean tradition could continue to think rigorously even under the Joseon state's suppression[2].",
     citations: [
       { sourceId: "src_muller_kihwa", pageOrSection: "Introduction", fieldName: "biography" },
       { sourceId: "src_buswell_monastic", pageOrSection: "pp. 21–58", fieldName: "teachers" },
+    ],
+    footnotes: [
+      { index: 1, sourceId: "src_muller_kihwa", pageOrSection: "Introduction — Gihwa's biography and Hyeonjeong-non" },
+      { index: 2, sourceId: "src_buswell_monastic", pageOrSection: "pp. 21–58 — the Joseon suppression and continuing philosophical Seon" },
     ],
     transmissions: [
       {
@@ -326,10 +362,14 @@ export const KV_MASTERS: KVMaster[] = [
     deathPrecision: "exact",
     deathConfidence: "high",
     biography:
-      "Seosan Hyujeong (西山休靜, 1520–1604) was the pre-eminent Korean master of the Joseon dynasty, a period during which Neo-Confucian governance had driven Buddhism into the mountains and outlawed its public practice in the capital. When Toyotomi Hideyoshi's forces invaded Korea in 1592, the seventy-two-year-old Seosan left his mountain temple and organized monastic militias (승병 seungbyeong) in the country's defense — a politically consequential gesture that led to the partial rehabilitation of Buddhism at court. His Seongamnok (Mirror of Seon, 선가귀감) became the standard Joseon-dynasty handbook of Korean monastic practice, articulating a synthesis of hwadu meditation, sutra study, and Pure Land recitation that shaped Korean Buddhism into the modern era.",
+      "Seosan Hyujeong (西山休靜, 1520–1604) was the pre-eminent Korean master of the Joseon dynasty, a period during which Neo-Confucian governance had driven Buddhism into the mountains and outlawed its public practice in the capital[1]. When Toyotomi Hideyoshi's forces invaded Korea in 1592, the seventy-two-year-old Seosan left his mountain temple and organized monastic militias (승병 seungbyeong) in the country's defense — a politically consequential gesture that led to the partial rehabilitation of Buddhism at court[1]. His Seongamnok (Mirror of Seon, 선가귀감) became the standard Joseon-dynasty handbook of Korean monastic practice, articulating a synthesis of hwadu meditation, sutra study, and Pure Land recitation that shaped Korean Buddhism into the modern era[2].",
     citations: [
       { sourceId: "src_buswell_monastic", pageOrSection: "pp. 21–58", fieldName: "biography" },
       { sourceId: "src_buswell_formation", pageOrSection: "pp. 41–74", fieldName: "teachers" },
+    ],
+    footnotes: [
+      { index: 1, sourceId: "src_buswell_monastic", pageOrSection: "pp. 21–58 — Seosan's career and the monastic militias of 1592" },
+      { index: 2, sourceId: "src_seosan_mirror_of_seon", pageOrSection: "Seongamnok (Sŏn'ga Kwigam) — Mirror of Seon" },
     ],
     transmissions: [
       {
@@ -517,10 +557,14 @@ export const KV_MASTERS: KVMaster[] = [
     deathPrecision: "exact",
     deathConfidence: "high",
     biography:
-      "Trần Nhân Tông (陳仁宗, 1258–1308) was the third emperor of the Trần dynasty, personally led Đại Việt to victory against the second and third Mongol invasions of Vietnam (1285 and 1287–1288), and then — at the height of his political power — abdicated the throne to become a monk. Retiring to Yên Tử Mountain, he synthesized the earlier Vinītaruci, Vô Ngôn Thông, and Thảo Đường streams into a new school he named Trúc Lâm (竹林, Bamboo Grove) in 1299. The school's emphasis on ‘knowing the mind, seeing the nature’ (tri tâm kiến tánh), its Sino-Vietnamese literary culture, and its accommodation of Confucian ethics made it the most distinctly Vietnamese articulation of Thiền in the medieval period. Trần Nhân Tông is the only Zen school founder known to have been a reigning emperor.",
+      "Trần Nhân Tông (陳仁宗, 1258–1308) was the third emperor of the Trần dynasty, personally led Đại Việt to victory against the second and third Mongol invasions of Vietnam (1285 and 1287–1288), and then — at the height of his political power — abdicated the throne to become a monk[1]. Retiring to Yên Tử Mountain, he synthesized the earlier Vinītaruci, Vô Ngôn Thông, and Thảo Đường streams into a new school he named Trúc Lâm (竹林, Bamboo Grove) in 1299[1]. The school's emphasis on 'knowing the mind, seeing the nature' (tri tâm kiến tánh), its Sino-Vietnamese literary culture, and its accommodation of Confucian ethics made it the most distinctly Vietnamese articulation of Thiền in the medieval period. Trần Nhân Tông is the only Zen school founder known to have been a reigning emperor[2].",
     citations: [
       { sourceId: "src_nguyen_medieval", pageOrSection: "pp. 85–123", fieldName: "biography" },
       { sourceId: "src_le_manh_that", fieldName: "dates" },
+    ],
+    footnotes: [
+      { index: 1, sourceId: "src_nguyen_medieval", pageOrSection: "pp. 85–123 — Trần Nhân Tông's abdication and the founding of Trúc Lâm" },
+      { index: 2, sourceId: "src_le_manh_that", pageOrSection: "Buddhism in Vietnam — Trúc Lâm doctrine and the emperor-monk" },
     ],
     transmissions: [
       {
@@ -548,10 +592,14 @@ export const KV_MASTERS: KVMaster[] = [
     deathPrecision: "exact",
     deathConfidence: "high",
     biography:
-      "Pháp Loa (法螺, 1284–1330) was the second patriarch of the Trúc Lâm school and the master to whom Trần Nhân Tông personally transmitted the dharma in 1308 in front of the assembled monastic community. Where the founder had been an emperor turned hermit, Pháp Loa was the institutional builder who consolidated the new school: he supervised the carving of a complete Vietnamese-edition Buddhist canon, ordained more than fifteen thousand monastics over his patriarchate, and oversaw the construction and reform of monasteries across the Trần realm. The disciplined, scholastic Trúc Lâm that survives in Vietnamese Buddhist memory — as much as the more famous founder — is in large part his work.",
+      "Pháp Loa (法螺, 1284–1330) was the second patriarch of the Trúc Lâm school and the master to whom Trần Nhân Tông personally transmitted the dharma in 1308 in front of the assembled monastic community[1]. Where the founder had been an emperor turned hermit, Pháp Loa was the institutional builder who consolidated the new school: he supervised the carving of a complete Vietnamese-edition Buddhist canon, ordained more than fifteen thousand monastics over his patriarchate, and oversaw the construction and reform of monasteries across the Trần realm[1]. The disciplined, scholastic Trúc Lâm that survives in Vietnamese Buddhist memory — as much as the more famous founder — is in large part his work[2].",
     citations: [
       { sourceId: "src_nguyen_medieval", pageOrSection: "pp. 85–123", fieldName: "biography" },
       { sourceId: "src_le_manh_that", fieldName: "dates" },
+    ],
+    footnotes: [
+      { index: 1, sourceId: "src_nguyen_medieval", pageOrSection: "pp. 85–123 — Pháp Loa's transmission and patriarchate" },
+      { index: 2, sourceId: "src_le_manh_that", pageOrSection: "Buddhism in Vietnam — institutional consolidation of Trúc Lâm" },
     ],
     transmissions: [
       {
@@ -579,10 +627,14 @@ export const KV_MASTERS: KVMaster[] = [
     deathPrecision: "exact",
     deathConfidence: "high",
     biography:
-      "Huyền Quang (玄光, 1254–1334) was the third and last patriarch of the medieval Trúc Lâm school. A precocious scholar who placed first in the imperial examinations in 1272, he served the Trần court for two decades before being ordained in middle age and entering the dharma circle around Trần Nhân Tông and Pháp Loa. After Pháp Loa's death he assumed the patriarchate at age seventy-seven and spent the final four years of his life at Côn Sơn, where his poetry — among the earliest surviving lyric corpus in Vietnamese Buddhist letters — gives the most personal voice to the school's contemplative ideal. With his death the Trúc Lâm patriarchate passed into a long quiescence from which it would be revived only in the twentieth century.",
+      "Huyền Quang (玄光, 1254–1334) was the third and last patriarch of the medieval Trúc Lâm school[1]. A precocious scholar who placed first in the imperial examinations in 1272, he served the Trần court for two decades before being ordained in middle age and entering the dharma circle around Trần Nhân Tông and Pháp Loa[1]. After Pháp Loa's death he assumed the patriarchate at age seventy-seven and spent the final four years of his life at Côn Sơn, where his poetry — among the earliest surviving lyric corpus in Vietnamese Buddhist letters — gives the most personal voice to the school's contemplative ideal. With his death the Trúc Lâm patriarchate passed into a long quiescence from which it would be revived only in the twentieth century[2].",
     citations: [
       { sourceId: "src_nguyen_medieval", pageOrSection: "pp. 85–123", fieldName: "biography" },
       { sourceId: "src_le_manh_that", fieldName: "dates" },
+    ],
+    footnotes: [
+      { index: 1, sourceId: "src_nguyen_medieval", pageOrSection: "pp. 85–123 — Huyền Quang's career and patriarchate" },
+      { index: 2, sourceId: "src_le_manh_that", pageOrSection: "Buddhism in Vietnam — quiescence of Trúc Lâm after 1334" },
     ],
     transmissions: [
       {
@@ -707,10 +759,14 @@ export const KV_MASTERS: KVMaster[] = [
     deathPrecision: "exact",
     deathConfidence: "medium",
     biography:
-      "Hyech'ŏl (慧徹, 785–861) is the founder of the Tongnisan school, the second of the Nine Mountain Schools (Gusan Seonmun) of Korean Seon. He travelled to Tang China in 814, received transmission from Xitang Zhizang at Mazu Daoyi's Hongzhou community — the same teacher as Doui — and returned to Silla in 839 carrying the Southern School's sudden-awakening teaching. Where Doui's lineage matured slowly under suspicion of court Buddhism, Hyech'ŏl was received with royal patronage and established Tongnisa on Mount Tongnisan as one of the great training centres of the late Silla period. His teaching emphasised the inseparability of meditation and the doctrinal study of the Avataṃsaka Sūtra — a foreshadowing of the Sŏn-Hwaŏm synthesis that Pojo Chinul would systematise three centuries later.",
+      "Hyech'ŏl (慧徹, 785–861) is the founder of the Tongnisan school, the second of the Nine Mountain Schools (Gusan Seonmun) of Korean Seon[1]. He travelled to Tang China in 814, received transmission from Xitang Zhizang at Mazu Daoyi's Hongzhou community — the same teacher as Doui — and returned to Silla in 839 carrying the Southern School's sudden-awakening teaching[1]. Where Doui's lineage matured slowly under suspicion of court Buddhism, Hyech'ŏl was received with royal patronage and established Tongnisa on Mount Tongnisan as one of the great training centres of the late Silla period. His teaching emphasised the inseparability of meditation and the doctrinal study of the Avataṃsaka Sūtra — a foreshadowing of the Sŏn-Hwaŏm synthesis that Pojo Chinul would systematise three centuries later[2].",
     citations: [
       { sourceId: "src_buswell_formation", pageOrSection: "pp. 25–32", fieldName: "biography" },
       { sourceId: "src_princeton_dict_buddhism", pageOrSection: "s.v. 'Hyech'ŏl'", fieldName: "dates" },
+    ],
+    footnotes: [
+      { index: 1, sourceId: "src_buswell_formation", pageOrSection: "pp. 25–32" },
+      { index: 2, sourceId: "src_princeton_dict_buddhism", pageOrSection: "s.v. \"Hyech'ŏl\" and \"Nine Mountain Schools\"" },
     ],
     transmissions: [
       {
@@ -739,10 +795,14 @@ export const KV_MASTERS: KVMaster[] = [
     deathPrecision: "exact",
     deathConfidence: "medium",
     biography:
-      "Muyŏm (無染, 800–888) is the founder of the Sŏngjusan school, one of the Nine Mountain Schools of Korean Seon, and one of the most influential figures of late Silla Buddhism. Born to a noble family of the True-Bone aristocracy, he travelled to Tang China around 821 and trained under Magu Baoche, a heir in the Mazu Daoyi line. After more than two decades in China — long enough to be regarded by his Chinese hosts as a fully Chinese master — he returned to Silla in 845 and established Sŏngjusa on Mount Sŏngjusan in the Boryeong region. Muyŏm's lineage produced thousands of students, his temple became a major training centre, and his Mugŏlbong Munpŏp ('Tongueless Sermon') is preserved as a touchstone of early Korean Sŏn rhetoric — its insistence that the dharma is finally beyond words mirrored the teaching style of his Hongzhou-line master and grounded the Korean reception of Chan in the same direct-pointing tradition.",
+      "Muyŏm (無染, 800–888) is the founder of the Sŏngjusan school, one of the Nine Mountain Schools of Korean Seon, and one of the most influential figures of late Silla Buddhism[1]. Born to a noble family of the True-Bone aristocracy, he travelled to Tang China around 821 and trained under Magu Baoche, a heir in the Mazu Daoyi line[1]. After more than two decades in China — long enough to be regarded by his Chinese hosts as a fully Chinese master — he returned to Silla in 845 and established Sŏngjusa on Mount Sŏngjusan in the Boryeong region. Muyŏm's lineage produced thousands of students, his temple became a major training centre, and his Mugŏlbong Munpŏp ('Tongueless Sermon') is preserved as a touchstone of early Korean Sŏn rhetoric — its insistence that the dharma is finally beyond words mirrored the teaching style of his Hongzhou-line master and grounded the Korean reception of Chan in the same direct-pointing tradition[2].",
     citations: [
       { sourceId: "src_buswell_formation", pageOrSection: "pp. 32–40", fieldName: "biography" },
       { sourceId: "src_princeton_dict_buddhism", pageOrSection: "s.v. 'Muyŏm'", fieldName: "dates" },
+    ],
+    footnotes: [
+      { index: 1, sourceId: "src_buswell_formation", pageOrSection: "pp. 32–40" },
+      { index: 2, sourceId: "src_princeton_dict_buddhism", pageOrSection: "s.v. \"Muyŏm\" and Tongueless Sermon" },
     ],
     transmissions: [
       {
@@ -771,10 +831,14 @@ export const KV_MASTERS: KVMaster[] = [
     deathPrecision: "exact",
     deathConfidence: "medium",
     biography:
-      "Pŏmil (梵日, 810–889) is the founder of the Saguelsan school, another of the Nine Mountain Schools of Korean Seon. He travelled to Tang China in 831 and received transmission from Yanguan Qi'an, a senior heir of Mazu Daoyi. After fifteen years in China — including the disruption of the Huichang persecution of Buddhism (842–846) — he returned to Silla and established Gulsansa on Mount Saguelsan. Pŏmil's lineage was distinctive for cultivating close ties with the eastern Korean coast and the burgeoning trade networks with Japan; his successors maintained the school as one of the longest-running Mountain communities, and the Goryeo-era hagiographies preserve his teaching that the awakening transmitted to him in China is identical to the awakening of Mahākāśyapa under the Bodhi tree — a characteristic Mountain-school assertion of unbroken patriarchal lineage.",
+      "Pŏmil (梵日, 810–889) is the founder of the Saguelsan school, another of the Nine Mountain Schools of Korean Seon[1]. He travelled to Tang China in 831 and received transmission from Yanguan Qi'an, a senior heir of Mazu Daoyi[1]. After fifteen years in China — including the disruption of the Huichang persecution of Buddhism (842–846) — he returned to Silla and established Gulsansa on Mount Saguelsan. Pŏmil's lineage was distinctive for cultivating close ties with the eastern Korean coast and the burgeoning trade networks with Japan; his successors maintained the school as one of the longest-running Mountain communities, and the Goryeo-era hagiographies preserve his teaching that the awakening transmitted to him in China is identical to the awakening of Mahākāśyapa under the Bodhi tree — a characteristic Mountain-school assertion of unbroken patriarchal lineage[2].",
     citations: [
       { sourceId: "src_buswell_formation", pageOrSection: "pp. 28–35", fieldName: "biography" },
       { sourceId: "src_princeton_dict_buddhism", pageOrSection: "s.v. 'Pŏmil'", fieldName: "dates" },
+    ],
+    footnotes: [
+      { index: 1, sourceId: "src_buswell_formation", pageOrSection: "pp. 28–35" },
+      { index: 2, sourceId: "src_princeton_dict_buddhism", pageOrSection: "s.v. \"Pŏmil\" and the Saguelsan school" },
     ],
     transmissions: [
       {
@@ -869,10 +933,14 @@ export const KV_MASTERS: KVMaster[] = [
     deathPrecision: "exact",
     deathConfidence: "medium",
     biography:
-      "Khuông Việt (匡越, 933–1011), birth name Ngô Chân Lưu, is the fourth-generation patriarch of the Vô Ngôn Thông line of Vietnamese Thiền and the figure regarded as Vietnam's first national Buddhist preceptor. Born into the Ngô clan that briefly held the Vietnamese throne after the fall of Chinese rule in 939, he ordained at the Khai Quốc temple under Vân Phong and became one of the most learned monks of his generation. King Đinh Tiên Hoàng granted him the title Khuông Việt Đại Sư ('Great Master Who Helps Vietnam') in 971 — the first time a Vietnamese Buddhist had been formally appointed to the post of national preceptor — and he served the early Đinh, Lê, and Lý courts as a religious-political advisor. The Thiền Uyển Tập Anh records his correspondence with the Song-dynasty Chinese ambassadors, in which he composed Buddhist verses that established Vietnamese literary Buddhism as a peer tradition to its Chinese parent.",
+      "Khuông Việt (匡越, 933–1011), birth name Ngô Chân Lưu, is the fourth-generation patriarch of the Vô Ngôn Thông line of Vietnamese Thiền and the figure regarded as Vietnam's first national Buddhist preceptor[1]. Born into the Ngô clan that briefly held the Vietnamese throne after the fall of Chinese rule in 939, he ordained at the Khai Quốc temple under Vân Phong and became one of the most learned monks of his generation[1]. King Đinh Tiên Hoàng granted him the title Khuông Việt Đại Sư ('Great Master Who Helps Vietnam') in 971 — the first time a Vietnamese Buddhist had been formally appointed to the post of national preceptor — and he served the early Đinh, Lê, and Lý courts as a religious-political advisor. The Thiền Uyển Tập Anh records his correspondence with the Song-dynasty Chinese ambassadors, in which he composed Buddhist verses that established Vietnamese literary Buddhism as a peer tradition to its Chinese parent[2].",
     citations: [
       { sourceId: "src_nguyen_medieval", pageOrSection: "pp. 80–95", fieldName: "biography" },
       { sourceId: "src_le_manh_that", pageOrSection: "pp. 134–145", fieldName: "context" },
+    ],
+    footnotes: [
+      { index: 1, sourceId: "src_nguyen_medieval", pageOrSection: "pp. 80–95 — Khuông Việt biography (Thiền Uyển Tập Anh)" },
+      { index: 2, sourceId: "src_le_manh_that", pageOrSection: "pp. 134–145 — Đinh-Lê-Lý court Buddhism and Sino-Vietnamese literary exchange" },
     ],
     transmissions: [
       {
@@ -900,10 +968,14 @@ export const KV_MASTERS: KVMaster[] = [
     deathPrecision: "exact",
     deathConfidence: "medium",
     biography:
-      "Vạn Hạnh (萬行, 938–1018) is the twelfth-generation master of the Tỳ-ni-đa-lưu-chi (Vinītaruci) line of Vietnamese Thiền and one of the most consequential political-religious figures in Vietnamese history. Trained at Lục Tổ Temple in Bắc Ninh, he was renowned for his mastery of the three traditional 'studies' — Buddhism, Confucianism, and Daoism — and for what the chronicles describe as a strikingly accurate gift of prophecy. His most celebrated act was political: foreseeing the imminent fall of the Lê dynasty, he persuaded the court official Lý Công Uẩn to accept the throne in 1009, founding the Lý dynasty (1009–1225) which would shape Vietnam for two centuries and establish Buddhism as the de facto state religion. Vạn Hạnh's death-verse, recorded in the Thiền Uyển Tập Anh, articulates the impermanence at the heart of his teaching: 'The body is like a flash of lightning; here, then gone.'",
+      "Vạn Hạnh (萬行, 938–1018) is the twelfth-generation master of the Tỳ-ni-đa-lưu-chi (Vinītaruci) line of Vietnamese Thiền and one of the most consequential political-religious figures in Vietnamese history[1]. Trained at Lục Tổ Temple in Bắc Ninh, he was renowned for his mastery of the three traditional 'studies' — Buddhism, Confucianism, and Daoism — and for what the chronicles describe as a strikingly accurate gift of prophecy[1]. His most celebrated act was political: foreseeing the imminent fall of the Lê dynasty, he persuaded the court official Lý Công Uẩn to accept the throne in 1009, founding the Lý dynasty (1009–1225) which would shape Vietnam for two centuries and establish Buddhism as the de facto state religion. Vạn Hạnh's death-verse, recorded in the Thiền Uyển Tập Anh, articulates the impermanence at the heart of his teaching: 'The body is like a flash of lightning; here, then gone.'[2]",
     citations: [
       { sourceId: "src_nguyen_medieval", pageOrSection: "pp. 96–110", fieldName: "biography" },
       { sourceId: "src_le_manh_that", pageOrSection: "pp. 156–172", fieldName: "political" },
+    ],
+    footnotes: [
+      { index: 1, sourceId: "src_nguyen_medieval", pageOrSection: "pp. 96–110 — Vạn Hạnh biography and prophecy" },
+      { index: 2, sourceId: "src_le_manh_that", pageOrSection: "pp. 156–172 — founding of the Lý dynasty; death verse" },
     ],
     transmissions: [
       {
