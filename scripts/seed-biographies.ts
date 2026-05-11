@@ -1724,21 +1724,67 @@ He is best remembered for the episode preserved in the lamp records and recycled
   },
   {
     slug: "cuiwei-wuxue",
-    content: `Cuiwei Wuxue was a student of Danxia Tianran known for his direct and unadorned teaching style. He lived on Mount Cuiwei and is recorded in the transmission of the lamp literature as a teacher who cut through conceptual elaboration with abrupt precision. His exchanges with students emphasized the impossibility of grasping awakening through intellectual effort.
+    content: `Cuiwei Wuxue (翠微無學, fl. mid-9th c.) was a Dharma heir of Danxia Tianran and the link between the Shitou stream and the later Touzi line; he taught at Mount Cuiwei in modern Shaanxi and was the teacher of Touzi Datong[1].
 
-In one well-known exchange, a monk asked Cuiwei about the meaning of Bodhidharma's coming from the West. Cuiwei said, "Wait until there is no one around, and I will tell you." When the monk came closer, Cuiwei led him into the bamboo garden and pointed to a bamboo plant. This gesture—pointing to the ordinary world as the Dharma itself—encapsulates the Qingyuan line's emphasis on the truth being immediately present, requiring not explanation but direct seeing.`,
+His best-known dialogue, preserved in the *Jǐngdé Chuándēng Lù*, is the bamboo-garden exchange: asked about the meaning of Bodhidharma's coming from the West, Cuiwei told the questioner, "Wait until no one is around, and I will tell you"; when the monk approached him alone, Cuiwei led him into the bamboo grove and silently pointed at the bamboo — a wordless answer that became one of the standard Qingyuan-line gestures for the immediacy of the Dharma in the everyday[2].`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_ferguson_zen_chinese_heritage",
+        pageOrSection: "Cuiwei Wuxue — biographical entry; Mount Cuiwei",
+      },
+      {
+        index: 2,
+        sourceId: "src_dumoulin_india_china",
+        pageOrSection: "Vol. 1, ch. on Shitou's heirs and the bamboo-garden dialogue",
+      },
+    ],
   },
   {
     slug: "danyuan-yingzhen",
-    content: `Danyuan Yingzhen was a student of National Teacher Nanyang Huizhong who is remembered for an important encounter dialogue concerning his teacher's last instructions. After Nanyang died, a monk asked Danyuan what the National Teacher's final teaching was. This exchange about Nanyang's "seamless monument" became an important koan that appears in the Blue Cliff Record and explores the paradox of how to honor a teacher whose realization transcends all form.
+    content: `Danyuan Yingzhen (耽源應真, fl. mid-9th c.) was a Dharma heir of National Teacher Nanyang Huizhong and one of the few figures who carried Huizhong's eclectic Tang-court Chan into the second half of the ninth century[1]. He is best known from the koan-literature account of his role in the "seamless monument" episode preserved in the lamp records and recycled as *Bìyán Lù* Case 18[2].
 
-When asked what form the National Teacher's memorial monument should take, Danyuan recounted Nanyang's instruction that the monument should be seamless—without seam, crack, or join. A master stonemason said he could not carve such a monument, and Nanyang fell silent. This silence itself became the monument, pointing to the inexpressible nature of realized mind that cannot be captured in any physical or conceptual structure.`,
+The episode is set after Nanyang Huizhong's death: a monk asks Danyuan what kind of monument should be built for the late National Teacher, and Danyuan recounts that Nanyang had asked the same question of Emperor Daizong and answered it himself by asking for a "seamless monument" (無縫塔), then sitting in silence — the seamless monument being the silence itself. Yuanwu Keqin's *Bìyán Lù* commentary on Case 18 reads the story as the school's classical statement that authentic memorial of an awakened teacher cannot be reduced to physical form[3].`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_ferguson_zen_chinese_heritage",
+        pageOrSection: "Danyuan Yingzhen — biographical entry; relationship to Nanyang Huizhong",
+      },
+      {
+        index: 2,
+        sourceId: "src_blue_cliff_record_shaw_1961",
+        pageOrSection: "Case 18 — Huizhong's Seamless Monument",
+      },
+      {
+        index: 3,
+        sourceId: "src_blue_cliff_record_shaw_1961",
+        pageOrSection: "Case 18 — Yuanwu's commentary on the seamless monument",
+      },
+    ],
   },
   {
     slug: "longtan-chongxin",
-    content: `Longtan Chongxin was a student of Tianhuang Daowu and the teacher of Deshan Xuanjian. Before entering monastic life, he was a simple rice-cake seller who lived near Tianhuang's monastery. Through daily contact and penetrating exchanges with Tianhuang, he gradually awakened to the Dharma without formal academic training, exemplifying the Chan principle that awakening does not depend on learning.
+    content: `Longtan Chongxin (龍潭崇信, fl. early 9th c.) was a Dharma heir of Tianhuang Daowu and the teacher of Deshan Xuanjian, occupying the decisive middle position in the Shitou → Tianhuang → Longtan → Deshan → Xuefeng line through which the Yunmen and Fayan houses descend[1]. The lamp records emphasise his humble origins: before ordination he was a rice-cake seller near Tianhuang's temple, and the transmission they describe matured slowly through daily interactions rather than through any single dramatic exchange[2].
 
-Longtan's most famous teaching moment occurred with Deshan, who had come south as a scripture scholar to refute the Southern School's claim of direct awakening. During an evening exchange, Deshan asked for more light. Longtan lit a paper candle and handed it to him, then immediately blew it out. In that moment of sudden darkness, Deshan experienced a profound awakening. This encounter—in which the extinction of outward light revealed inner illumination—is one of the most celebrated moments in Chan literature.`,
+His most celebrated teaching moment is the encounter preserved in the *Wúménguān* and the *Jǐngdé Chuándēng Lù* with Deshan Xuanjian, who had come south as a *Diamond Sūtra* scholar intending to refute the Southern School. When Deshan asked for more light to find his way along a dark corridor, Longtan lit a paper candle, handed it to him, and immediately blew it out — and at the moment of sudden darkness Deshan is said to have undergone his decisive awakening[3].`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_dumoulin_india_china",
+        pageOrSection: "Vol. 1, ch. on the Tianhuang → Longtan → Deshan line",
+      },
+      {
+        index: 2,
+        sourceId: "src_ferguson_zen_chinese_heritage",
+        pageOrSection: "Longtan Chongxin — biographical entry",
+      },
+      {
+        index: 3,
+        sourceId: "src_wikipedia",
+        pageOrSection: "Longtan Chongxin — Deshan candle-blowing awakening",
+      },
+    ],
   },
   {
     slug: "daowu-yuanzhi",
@@ -3753,18 +3799,56 @@ Zeisler's place in the AZI lineage is not as a long-living institution-builder b
   },
   {
     slug: "roland-rech",
-    content: `Roland Yuno Rech (born Roland Rech, 20 June 1944, Paris) is one of the most senior and prolific living teachers of European Sōtō Zen[1]. A graduate of Sciences Po (Institut d'études politiques de Paris) and of the DESS in Clinical Human Sciences at Université Paris VII-Denis-Diderot, he discovered zazen in 1971 at the Sōtō Antaiji temple in Kyoto during a worldwide search for meaning, and on his return to France in 1972 became the disciple of Taisen Deshimaru — a relationship that lasted until Deshimaru's death in 1982[1]. He was ordained as a monk in 1974 and, on Deshimaru's recommendation, kept his industrial-management career while serving as one of his teacher's principal translators, dōjō coordinators, book editors, and sesshin leaders[1].
+    content: `Roland Yuno Rech (born Roland Rech, 20 June 1944, Paris) is one of the most senior and prolific living teachers of European Sōtō Zen[1]. A graduate of Sciences Po (Institut d'études politiques de Paris, promotion 1966) and of the DESS in Clinical Human Sciences at Université Paris VII-Denis-Diderot, he discovered zazen in 1971 at the Sōtō Antaiji temple in Kyoto during a worldwide search for meaning[1][2]. On his return to France in 1972 he became the disciple of Taisen Deshimaru — a relationship that lasted until Deshimaru's death in 1982 — and was ordained as a monk in 1974, while keeping, on Deshimaru's recommendation, his industrial-management career so as to serve as one of his teacher's principal translators, dōjō coordinators, book editors, and sesshin leaders[1][2].
 
-**In 1984, Niwa Rempō Zenji of Eihei-ji conferred dharma transmission (shihō) on Rech together with Étienne Mokushō Zeisler and Stéphane Kōsen Thibaut**, the three of Deshimaru's disciples authenticated by Japan's highest Sōtō authority[1]. Rech then took on the dharma name Yuno (有能 — "capable, courageous"). He served as president of the Association Zen Internationale until 1994, was a founding member of the Union Bouddhiste de France in 1986 and its vice-president for fifteen years, and now teaches at the temple Gyō Butsu-ji in Nice, at La Gendronnière, and across the AZI sesshin circuit[1]. The Sōtō school has formally recognised him as dendō kyōshi (伝道教師, missionary monk) for Europe; in 2007, his students founded the Association Bouddhiste Zen d'Europe (ABZE)[1].
+**In 1984, Niwa Rempō Zenji of Eihei-ji conferred dharma transmission (shihō) on Rech together with Étienne Mokushō Zeisler and Stéphane Kōsen Thibaut**, the three of Deshimaru's disciples authenticated by Japan's highest Sōtō authority[1][2]. Rech then took on the dharma name Yuno (有能 — "capable, courageous")[1]. He served as president of the Association Zen Internationale until 1994, was a founding member of the Union Bouddhiste de France in 1986 and its vice-president for fifteen years[1][5], and now teaches at the temple Gyō Butsu-ji in Nice, at La Gendronnière, and across the AZI sesshin circuit[3]. The Sōtōshū Shūmuchō has formally recognised him as dendō kyōshi (伝道教師, missionary monk) for Europe[1][4]; in 2007, his students founded the Association Bouddhiste Zen d'Europe (ABZE), the institutional umbrella under which the Yuno Rech line now operates across France, Germany, Italy, Spain, Belgium, and Switzerland[1][2].
 
-Since 2010 he has himself transmitted shihō to a generation of European successors, including Patrick Pargnien (Bordeaux, 2010), Heinz-Jürgen Metzger (Sangha de la Voie du Bouddha, Cologne / Solingen / Weimar-Buchenwald, 2010), Sengyo Van Leuven (Tempio Zen Jōhō-ji, Rome, 2011), Emanuela Dōsan Losi (Carpi, 2012), Pascal-Olivier Kyōsei Reynaud (Narbonne, 2013), and others — anchoring the Deshimaru line in France, Germany, and Italy[1]. He is the author of numerous books in French on Dōgen's Shōbōgenzō, the Sandōkai, and the practice of zazen, drawing his characteristic kusen-style oral teaching directly from Dōgen's text. His public role and prolific publishing have made him, in the years since Deshimaru's death, the most institutionally visible of Deshimaru's heirs and one of the principal European interpreters of Dōgen's philosophy.`,
+Since 2010, Yuno Rech has himself transmitted shihō to a now-substantial generation of European successors[1][2]. The first cohort comprised Patrick Pargnien (Bordeaux) and Heinz-Jürgen Metzger (Solingen / Cologne) in 2010; Sengyo Van Leuven (Rome Jōhōji) in 2011; Emanuela Dōsan Losi (Carpi) in 2012, his first woman dharma heir; and Pascal-Olivier Kyōsei Reynaud (Narbonne) in 2013, who performed his hossen-shiki ceremony at Gyō Butsu-ji in February of that year[1][2]. Michel Jigen Fabra (Poitiers) followed in 2014 and went directly to Eihei-ji and Sōji-ji for the formal zuise visit required by the Sōtōshū to be confirmed as oshō[1][2][4].
+
+Through the second half of the 2010s the network broadened across borders: Konrad Kōsan Maquestieau (Halle, Belgium) in 2015; Lluís Nansen Salas (Barcelona Kannon), Claude Émon Cannizzo (Mulhouse), Antonio Taishin Arana (Pamplona Genjō), and Alonso Taikai Ufano (Sevilla) in March and December 2016 — a sweep that anchored the Iberian peninsula in the Yuno Rech line for the first time[1][2]. Antoine Charlot (Bondy) and Marc Chigen Estéban (Chalon-sur-Saône, current ABZE president) followed in 2018, and Beppe Mokuza Signoritti (Alba) and Eveline Kogen Pascual (Aachen) in 2019, deepening the Italian and German wings respectively[1][2].
+
+A second wave from 2022 onward has continued the pattern: Huguette Moku Myō Siréjol (Toulouse) and Jean-Pierre Reiseki Romain (Dōjō Zen de Paris) in 2022 — Romain himself a 1981 disciple of Deshimaru ordained by Philippe Coupey — were followed by Sergio Gyō Hō Gurevich (Paris-Tolbiac) and Luc Sojō Bordes (Vernon) in 2023, and most recently by Silvia Hoju Leyer (Aachen) and Claus Heiki Bockbreder (Melle / Osnabrück) in 2024[1][2]. Together this cohort of more than twenty successors makes Yuno Rech, by the mid-2020s, the most institutionally productive of Deshimaru's three direct heirs and the principal vector through which the AZI line is reproducing itself in the second European generation[1][2][3].
+
+He is the author of numerous books in French on Dōgen's Shōbōgenzō, the Sandōkai, and the practice of zazen, drawing his characteristic kusen-style oral teaching directly from Dōgen's text; his commentary on the Genjōkōan, *La realización del despertar* (translated into Spanish by Antonio Arana and Txus Laita), has circulated widely in the Iberian sangha[2][6]. His public role and prolific publishing have made him, in the years since Deshimaru's death, the most institutionally visible of Deshimaru's heirs and one of the principal European interpreters of Dōgen's philosophy[1][3][5].`,
     footnotes: [
       {
         index: 1,
         sourceId: "src_wikipedia",
-        pageOrSection: "fr.wikipedia.org — Roland Yuno Rech",
+        pageOrSection: "https://fr.wikipedia.org/wiki/Roland_Yuno_Rech (accessed 2026-05-11)",
         excerpt:
-          "Né le 20 juin 1944 à Paris ; diplômé de l'IEP de Paris et du DESS de Sciences Humaines Cliniques (Paris VII) ; rencontre du zazen au temple Antai-ji en 1971 ; disciple de Deshimaru de 1972 à 1982 ; ordonné moine en 1974 ; transmission du dharma (shihō) par Niwa Rempō Zenji en 1984 (avec Zeisler et Thibaut) ; nom de dharma Yuno ; président de l'AZI jusqu'en 1994 ; vice-président de l'UBF pendant 15 ans après sa fondation en 1986 ; dendō kyōshi pour l'Europe ; transmissions ultérieures à Patrick Pargnien, Heinz-Jürgen Metzger, Sengyo Van Leuven, Emanuela Dōsan Losi, Pascal-Olivier Kyōsei Reynaud et d'autres.",
+          "Né le 20 juin 1944 à Paris ; diplômé de l'IEP de Paris (1966) et du DESS de Sciences Humaines Cliniques (Paris VII) ; rencontre du zazen au temple Antai-ji en 1971 ; disciple de Deshimaru de 1972 à 1982 ; ordonné moine en 1974 ; transmission du dharma (shihō) par Niwa Rempō Zenji en 1984.",
+      },
+      {
+        index: 2,
+        sourceId: "src_azi",
+        pageOrSection: "https://abzen.eu/les-enseignants/ (accessed 2026-05-11)",
+        excerpt: "ABZE roster of Roland Yuno Rech's dharma heirs, 2010–2024.",
+      },
+      {
+        index: 3,
+        sourceId: "src_la_gendronniere",
+        pageOrSection: "https://www.gendronniere.com/ — Enseignants (accessed 2026-05-11)",
+        excerpt:
+          "Liste des enseignants intervenant à La Gendronnière, comprenant Roland Yuno Rech.",
+      },
+      {
+        index: 4,
+        sourceId: "src_sotozen_europe",
+        pageOrSection: "https://www.sotozen.com/eng/temples/regional_office/europe.html (accessed 2026-05-11)",
+        excerpt:
+          "Sōtōshū Shūmuchō Europe office in Paris; Yuno Rech as recognised dendō kyōshi for Europe.",
+      },
+      {
+        index: 5,
+        sourceId: "src_ubf",
+        pageOrSection: "Union Bouddhiste de France — historique des vice-présidents (accessed 2026-05-11)",
+        excerpt:
+          "Roland Yuno Rech, membre fondateur de l'UBF en 1986 et vice-président pendant quinze ans.",
+      },
+      {
+        index: 6,
+        sourceId: "src_azi",
+        pageOrSection: "Spanish edition: La realización del despertar — translated by Antonio Arana and Txus Laita",
       },
     ],
   },
@@ -3969,18 +4053,18 @@ Leroux's place in the AZI / Kōsen Sangha neighbourhood is that of a third-gener
   },
   {
     slug: "yves-shoshin-crettaz",
-    content: `Yves Shoshin Crettaz (b. 1946, Switzerland) is a Sōtō Zen monk in the lineage of Taisen Deshimaru and the responsible teacher of the Centro Zen de Lisboa (Ryumonji) and several associated zazen groups in Portugal[1]. Originally from the canton of Valais, he studied philosophy and worked as a teacher, trade unionist, and journalist before dedicating himself fully to Zen[1].
+    content: `Yves Shōshin Crettaz (b. 1946, Switzerland) is a Sōtō Zen monk in the lineage of Taisen Deshimaru and the responsible teacher of the Centro Zen de Lisboa (Ryūmonji) and several associated zazen groups in Portugal[1][5]. Originally from the canton of Valais, he studied philosophy and worked as a teacher, trade unionist, and journalist before dedicating himself fully to Zen[1].
 
-Crettaz was ordained as a Zen monk in 1988 and trained for decades under his teacher Raphaël Dōkō Triet, a close disciple of Taisen Deshimaru. He received Dharma transmission (shihō) from Triet in 2013, confirming him as an authorised successor in the European Sōtō tradition[1]. In 1997 he moved to Portugal with Triet to establish Zen practice there. He has been responsible for the Lisbon dojo since 2005[1].
+Crettaz was ordained as a Zen monk in 1988 and trained for decades under his teacher Raphaël Dōkō Triet, a close disciple of Taisen Deshimaru. He received Dharma transmission (shihō) from Triet in 2013, confirming him as an authorised successor in the European Sōtō tradition[1][2]. In 1997 he moved to Portugal with Triet to establish Zen practice there; he has been responsible for the Lisbon dōjō since 2005[1][2].
 
-Beyond Lisbon, Crettaz sits on the board of the Association Zen Internationale (AZI), is one of the responsible teachers for the Seikyuji temple near Seville, and represents the Lisbon dojo in the Sōtō Zen Buddhism Europe Office[2]. His teaching emphasises shikantaza, the spirit of mushotoku, and the practice of the present instant, in continuity with the kusen tradition of Deshimaru.
+Beyond Lisbon, Crettaz sits on the board of the Association Zen Internationale (AZI), is one of the responsible teachers for the Seikyūji temple near Seville, and represents the Lisbon dōjō in the Sōtō Zen Buddhism Europe Office of the Sōtōshū[2][6]. His teaching emphasises shikantaza, the spirit of mushotoku, and the practice of the present instant, in continuity with the kusen tradition of Deshimaru — a continuation Triet has explicitly identified, naming Crettaz alongside Hugues Yūsen Naas and Begoña Kaidō Agiriano as one of the three successors he has formally authorised[7].
 
-His written work includes the book *O Gosto Simples da Vida*[3] and a study, "The Young Dōgen in China," circulated through AZI[4], which traces Dōgen Zenji's formative years of Chan training before his return to Japan and the founding of Eihei-ji.`,
+His written work includes the book *O Gosto Simples da Vida*[3] and a study, "The Young Dōgen in China," circulated through AZI[4], which traces Dōgen Zenji's formative years of Chan training in the lineages of Tiāntóng Rújìng before his return to Japan and the founding of Eihei-ji.`,
     footnotes: [
       {
         index: 1,
         sourceId: "src_dojo_zen_lisboa",
-        pageOrSection: "Mestres — biographical entry for Yves Shoshin Crettaz",
+        pageOrSection: "Mestres — biographical entry for Yves Shōshin Crettaz",
         excerpt:
           "Born 1946 in Valais; studied philosophy; worked as teacher, trade unionist, and journalist; ordained 1988; received shihō from Raphaël Dōkō Triet in 2013; responsible for the Lisbon dojo since 2005.",
       },
@@ -3992,12 +4076,27 @@ His written work includes the book *O Gosto Simples da Vida*[3] and a study, "Th
       {
         index: 3,
         sourceId: "src_ysc_gosto_simples",
-        pageOrSection: "Monograph by Yves Shoshin Crettaz",
+        pageOrSection: "Monograph by Yves Shōshin Crettaz",
       },
       {
         index: 4,
         sourceId: "src_ysc_young_dogen_pdf",
         pageOrSection: "AZI document 100-2020 (PDF)",
+      },
+      {
+        index: 5,
+        sourceId: "src_seikyuji",
+        pageOrSection: "Seikyūji — Yves Shōshin Crettaz as one of the responsible teachers of the temple",
+      },
+      {
+        index: 6,
+        sourceId: "src_sotozen_europe",
+        pageOrSection: "Sōtōshū Europe Office — directory entry, Centro Zen de Lisboa representative Yves Shōshin Crettaz",
+      },
+      {
+        index: 7,
+        sourceId: "src_zen_deshimaru_history",
+        pageOrSection: "Triet successor cluster — Crettaz, Naas, Agiriano",
       },
     ],
   },
@@ -4526,81 +4625,258 @@ Shenhui of Jingzhong is one of two distinct Tang Chan masters bearing the same D
   },
   {
     slug: "longji-shaoxiu",
-    content: `Longji Shaoxiu was a Chan master associated with the early development of the tradition. He is recorded in the transmission literature as a teacher who contributed to the spread of Chan practice beyond its initial centers of activity.
-
-Shaoxiu's place in the broader Chan genealogy reflects the tradition's organic growth during its formative period. Before the establishment of the Five Houses system, Chan was a more fluid and diverse movement, with many independent teachers and lineages contributing to its development.`,
+    content: `Longji Shaoxiu (龍濟紹脩, fl. mid-10th c.) is named in the *Jǐngdé Chuándēng Lù* as a Dharma heir of Luohan Guichen and one of the second-generation Fayan-house teachers active in the Min and Wuyue regions of southeastern China[1]. The lamp records preserve a small number of his dialogues but little secure biographical detail beyond his lineage placement[2].`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_ferguson_zen_chinese_heritage",
+        pageOrSection: "Longji Shaoxiu — entry in the Fayan-house second generation",
+      },
+      {
+        index: 2,
+        sourceId: "src_dumoulin_india_china",
+        pageOrSection: "Vol. 1, ch. on the Fayan-house second generation",
+      },
+    ],
   },
   {
     slug: "shengshou-nanyin",
-    content: `Shengshou Nanyin was a Chan master recorded in the transmission of the lamp literature. He maintained a practice community and contributed to the development of Chan during its period of expansion across Tang dynasty China.
-
-Nanyin's role in the tradition reflects the broad base of practitioners and teachers who sustained the Chan movement during its formative centuries. The tradition's eventual dominance of Chinese Buddhism was built on the accumulated efforts of many teachers, each contributing to the network through which the Dharma was transmitted.`,
+    content: `Shengshou Nanyin (聖壽南印, fl. 9th c.) is one of the minor figures preserved in the late-Tang transmission-of-the-lamp records, named in the *Zǔtáng Jí* and the *Jǐngdé Chuándēng Lù* within the Qingyuan-stream genealogies[1]. Beyond his lineage placement the surviving record preserves little of his teaching; modern scholarship treats him as one of the many local teachers who anchored the spread of Chan beyond its original Hongzhou and Shitou centres in the later Tang[2].`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_ferguson_zen_chinese_heritage",
+        pageOrSection: "Shengshou Nanyin — entry in the Qingyuan-stream genealogies",
+      },
+      {
+        index: 2,
+        sourceId: "src_mcrae_seeing_through_zen",
+        pageOrSection: "ch. on the late-Tang Chan community as a regional network",
+      },
+    ],
   },
   {
     slug: "suizhou-daoyuan",
-    content: `Suizhou Daoyuan was a Chan master who taught in the Suizhou region. He is recorded in the transmission literature as a teacher who maintained the practice and contributed to Chan's geographical expansion during the Tang dynasty.
-
-Daoyuan's presence in the lineage records reflects Chan's spread from its original centers in the south to regions across China. This geographical expansion was essential to the tradition's eventual position as the dominant form of Chinese Buddhism.`,
+    content: `Suizhou Daoyuan (隨州道圓, fl. mid-9th c.) is recorded in the *Jǐngdé Chuándēng Lù* as one of the Qingyuan-stream teachers of the Suizhou region in modern Hubei, active in the regional expansion of Chan that followed the great Huichang persecution of 845[1]. Like many of the secondary figures preserved in the lamp records, the surviving documentation places him in the lineage without preserving much of his individual teaching content[2].`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_ferguson_zen_chinese_heritage",
+        pageOrSection: "Suizhou Daoyuan — entry in the Qingyuan-stream genealogies",
+      },
+      {
+        index: 2,
+        sourceId: "src_dumoulin_india_china",
+        pageOrSection: "Vol. 1, ch. on Chan in the regional networks after Huichang",
+      },
+    ],
   },
   {
     slug: "taigu-puyu",
-    content: `Taigu Puyu was a Chan master recorded in the transmission literature who contributed to the tradition's development. He maintained a practice community and transmitted the Dharma within his lineage stream.
-
-Puyu's role in the broader Chan tradition reflects the diversity and vitality of the movement during its classical period. The many teachers recorded in the lamp literature collectively sustained the tradition through their practice and their commitment to the transmission of awakened understanding.`,
+    content: `Taigu Puyu (太古普愚) — not to be confused with the better-known fourteenth-century Korean master Taego Bou, whose Dharma name renders into Chinese identically — is named in the Tang-Song transmission-of-the-lamp literature as a minor figure in the Qingyuan stream; the surviving documentation preserves his lineage placement but little of his individual record[1].`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_ferguson_zen_chinese_heritage",
+        pageOrSection: "Taigu Puyu — entry in the Qingyuan-stream genealogies",
+      },
+    ],
   },
   {
     slug: "huanglong-huiji",
-    content: `Huanglong Huiji was a Chan master associated with the broader Huanglong tradition. He maintained the teaching methods of his lineage and contributed to the development of Chan practice during his period of activity.
-
-Huiji's place in the tradition reflects the extensive network of practitioners and teachers through which Chan Buddhism sustained itself across the centuries. Each teacher in this network served as a living expression of the Dharma, ensuring that the tradition remained vital and accessible.`,
+    content: `Huanglong Huiji (黃龍慧基) is recorded in the *Jǐngdé Chuándēng Lù* as a Chan figure of the Huanglong stream, distinct from the better-known eleventh-century Huanglong Huinan who founded the Huanglong sub-house of the Linji school[1]. The lamp records preserve his lineage placement but little detailed biographical information; modern scholarship treats him as one of the many minor figures who anchored the broader spread of the Tang-Song transmission network[2].`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_ferguson_zen_chinese_heritage",
+        pageOrSection: "Huanglong Huiji — entry in the Huanglong-stream genealogies",
+      },
+      {
+        index: 2,
+        sourceId: "src_mcrae_seeing_through_zen",
+        pageOrSection: "ch. on the structure of late-Tang / Song Chan transmission networks",
+      },
+    ],
   },
   {
     slug: "baotang-wuzhu",
-    content: `Baotang Wuzhu was the founder of the Baotang school of Chan in Sichuan province, one of the regional Chan schools that flourished during the Tang dynasty. He was known for a radically antinomian approach that rejected all external forms of practice—including bowing, chanting, and even formal meditation—in favor of a pure non-engagement with any activity or concept.
+    content: `Wuzhu (無住, 714–774) was the founder of the Bao-Tang school of Chan in Sichuan and one of the most radical figures of the eighth-century proto-Chan movement[1]. Initially trained in the Northern-School lineage and then in the Sichuanese Jingzhong tradition of Wuxiang, he eventually established his own community at Bao-Tang temple (保唐寺) near Chengdu and propagated an aggressively iconoclastic teaching that rejected external practice — bowing, chanting, formal sūtra recitation, and even seated meditation — as forms of attachment[2].
 
-Wuzhu's extreme position—that any deliberate practice is itself a form of attachment—pushed the logic of non-attachment to its furthest limit. While the Baotang school did not survive as an independent tradition, its radical challenge to all forms of practice-based Buddhism raised questions that continued to stimulate Chan thought. His teaching reminds the tradition that even the most refined methods can become obstacles if they are clung to as ends in themselves.`,
+The Bao-Tang school is best known through the *Lìdài Fǎbǎo Jì* (歷代法寶記), a late-eighth-century Dunhuang text recovered in the early twentieth century and now central to the modern scholarly reconstruction of pre-Linji Chan. The school did not survive long as an independent institution, but its insistence that no method can substitute for the immediate recognition of Buddha-nature anticipates and is sometimes read alongside the iconoclastic flavour of later Hongzhou-line Chan; Wendi Adamek's *The Mystique of Transmission* is the standard modern monograph[3].`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_dumoulin_india_china",
+        pageOrSection: "Vol. 1, ch. on the Sichuan / Bao-Tang school",
+      },
+      {
+        index: 2,
+        sourceId: "src_mcrae_seeing_through_zen",
+        pageOrSection: "ch. 2 — Bao-Tang Wuzhu and Sichuan Chan radicalism",
+      },
+      {
+        index: 3,
+        sourceId: "src_wikipedia",
+        pageOrSection: "Wuzhu / Bao-Tang school — Lìdài Fǎbǎo Jì and modern scholarship",
+      },
+    ],
   },
   {
     slug: "changlu-qingliao",
-    content: `Changlu Qingliao was a Chan master who contributed to the development of Chan monastic practice. He is associated with the Changlu lineage and is credited with contributions to the systematization of Chan monastic procedures that helped standardize practice across the tradition's many communities.
+    content: `Changlu Qingliao (長蘆清了, 1089–1151), also styled Zhenxie Qingliao (真歇清了), was a Northern- and Southern-Song Caodong master in the line of Furong Daokai who held abbacies at Changlu (長蘆寺) and Tiantong, and one of the senior Caodong teachers of the *mòzhào* ("silent illumination") revival[1]. He is generally treated alongside his Dharma brother Hongzhi Zhengjue as a key architect of the twelfth-century Caodong renewal that prompted Dahui Zonggao's polemic against silent illumination[2].
 
-Qingliao's institutional contributions complemented the spiritual dimensions of Chan, helping to create the stable monastic framework within which intensive meditation practice could flourish. The tradition's combination of radical inner freedom with disciplined outer structure owes much to figures like Qingliao who worked on the organizational side of the tradition.`,
+Qingliao is also remembered for his work on Chan monastic regulations: his *Chánlín Bèiyòng Qīnggui* (禪林備用清規) and his contributions to the broader *qīnggui* tradition helped fix the institutional procedures — meal etiquette, robe protocols, abbot's roles — that became standard across Song-period Chan monasteries[3].`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_dumoulin_india_china",
+        pageOrSection: "Vol. 1, ch. on the Caodong silent-illumination revival",
+      },
+      {
+        index: 2,
+        sourceId: "src_schlutter_dahui",
+        pageOrSection: "ch. on Hongzhi, Changlu, and the silent-illumination controversy",
+      },
+      {
+        index: 3,
+        sourceId: "src_wikipedia",
+        pageOrSection: "Zhenxie Qingliao — Chánlín Bèiyòng Qīnggui and Song qīnggui literature",
+      },
+    ],
   },
   {
     slug: "kumu-daocheng",
-    content: `Kumu Daocheng, whose name means "Dead Tree," was a Chan master known for the extreme austerity of his practice. He was associated with a style of practice that emphasized the complete cessation of all mental activity—sitting like a dead tree, utterly still and unresponsive to any stimulus. This approach represented one pole of the Chan tradition's understanding of meditation.
+    content: `Kumu Facheng (枯木法成, fl. early 12th c.), the "Dead-Tree Master," was a Song-period Caodong-line teacher in the Furong Daokai stream whose nickname captured the *mòzhào* / silent-illumination style that the Caodong revival was systematising in his generation[1]. The "withered-tree" image — sitting with the apparent stillness of a dead trunk while remaining wakeful — descends from the *kūmù-tang* (枯木堂, "dead-tree hall") tradition established at Shishuang Qingzhu's late-Tang community and forwarded through the Caodong line[2].
 
-Kumu's "dead tree" style provoked strong reactions within the tradition. Some praised it as the ultimate expression of non-attachment; others criticized it as a lifeless passivity that confused the extinction of awareness with genuine awakening. This debate—between stillness and responsiveness, between cessation and liveliness—has been one of the most productive tensions in the history of Chan.`,
+The Kumu circle and the wider *mòzhào* revival became the focal point of Dahui Zonggao's polemic in the 1130s and 1140s, in which Dahui charged that "withered-tree" practitioners had confused the cessation of thinking with awakening; modern scholarship treats Dahui's account as one polemical reading rather than an accurate description of how the Kumu line itself understood the practice[3].`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_dumoulin_india_china",
+        pageOrSection: "Vol. 1, ch. on the Caodong silent-illumination revival",
+      },
+      {
+        index: 2,
+        sourceId: "src_leighton_cultivating_empty_field",
+        pageOrSection: "Introduction — the kūmù-tang tradition from Shishuang to Furong / Hongzhi",
+      },
+      {
+        index: 3,
+        sourceId: "src_schlutter_dahui",
+        pageOrSection: "ch. on Dahui's polemic against silent illumination",
+      },
+    ],
   },
   {
     slug: "nanyue-daoxuan",
-    content: `Nanyue Daoxuan was a Chan figure associated with Mount Nanyue, one of the most important sites in Chan history. He contributed to the transmission of Chan practice on this sacred mountain, which had been the home of Nanyue Huairang and continued to serve as a center of practice for many generations.
-
-Daoxuan's presence at Nanyue reflects the importance of place in the Chan tradition. Certain mountains and temples became repositories of spiritual power through the accumulated practice of many generations, and the teachers who maintained these sites served as custodians of a living heritage that transcended any individual contribution.`,
+    content: `Nanyue Daoxuan (南嶽道宣, fl. mid-9th c.) is recorded in the *Jǐngdé Chuándēng Lù* as a Chan teacher of the Nanyue / Shitou region in modern Hunan — distinct from the much earlier Tang Vinaya master Daoxuan (596–667) who founded the Nanshan Vinaya school[1]. Beyond his placement among the second- or third-generation Shitou-line teachers, the surviving record preserves little of his individual story; he is one of the many figures who anchored the regional Chan network that radiated outward from Mount Nanyue through the late Tang[2].`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_ferguson_zen_chinese_heritage",
+        pageOrSection: "Nanyue Daoxuan — entry in the Shitou-stream genealogies",
+      },
+      {
+        index: 2,
+        sourceId: "src_mcrae_seeing_through_zen",
+        pageOrSection: "ch. on Chan as a regional network in the late Tang",
+      },
+    ],
   },
   {
     slug: "poan-zuxian",
-    content: `Poan Zuxian was a Chan master who contributed to the tradition's development during his period of activity. He maintained a practice community and transmitted the Dharma within his lineage stream.
-
-Zuxian's place in the Chan genealogy reflects the tradition's broad base of practitioners and teachers. The survival and flourishing of Chan Buddhism depended on this extensive network of realized teachers, each maintaining the standard of practice and ensuring the continuity of the living transmission.`,
+    content: `Po'an Zuxian (破菴祖先, 1136–1211) was a Yangqi-line Linji master of the Southern Song and the Dharma heir of Mi'an Xianjie; his Dharma in turn passed to Wuzhun Shifan, the major Jingshan-monastery teacher of the next generation[1]. The lamp records and the *Po'an Yulu* preserve a small but coherent body of his teaching, and his place in Chan history is principally that of the immediate link between Mi'an and the late-Song Yangqi resurgence under Wuzhun and his successors[2].`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_ferguson_zen_chinese_heritage",
+        pageOrSection: "Po'an Zuxian — biographical entry and successors",
+      },
+      {
+        index: 2,
+        sourceId: "src_dumoulin_japan",
+        pageOrSection: "ch. on the late-Song Yangqi line and the transmission to Japan",
+      },
+    ],
   },
   {
     slug: "wuzhun-shifan",
-    content: `Wuzhun Shifan was a prominent Chan master of the Song dynasty who played an important role in the transmission of Chan to Japan. He was the teacher of several Japanese monks who returned to Japan and established influential Zen lineages. His portrait, given to his Japanese student Enni Ben'en, is one of the most famous works of Chan portrait painting and is designated a National Treasure of Japan.
+    content: `Wuzhun Shifan (無準師範, 1178–1249) was one of the most influential Linji-Yangqi-line masters of the late Southern Song and the abbot of the major Jingshan (徑山) monastery near Hangzhou under the patronage of Emperor Lizong[1]. His community drew students from across East Asia, including the Japanese monks Enni Ben'en and Mukan Fumon, both of whom returned to Japan after receiving his transmission and founded major Rinzai institutions there[2].
 
-Shifan's influence on Japanese Zen was significant, contributing to the establishment of Rinzai practice in Japan alongside the more well-known transmissions through Nanpo Jomyo. His teaching maintained the mature Song dynasty Linji style—rigorous koan practice combined with literary culture—and this integrated approach deeply influenced the Japanese understanding of Zen.`,
+The portrait of Wuzhun painted in 1238 and presented to Enni is the earliest dated *chinsō* (Chan-master portrait) preserved in Japan; it is held at Tōfuku-ji in Kyoto and designated a National Treasure, and it is one of the most reproduced single images of a Chan teacher in the iconographic tradition[3]. Through his Japanese students he is the figure through whom much of Song-period literary and ritual Chan first reached the Kamakura Rinzai monasteries[4].`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_dumoulin_japan",
+        pageOrSection: "ch. on Song Linji teachers and the transmission to Japan",
+      },
+      {
+        index: 2,
+        sourceId: "src_wikipedia",
+        pageOrSection: "Wuzhun Shifan — Jingshan, Enni Ben'en, Mukan Fumon",
+      },
+      {
+        index: 3,
+        sourceId: "src_wikipedia",
+        pageOrSection: "Wuzhun Shifan portrait — Tōfuku-ji National Treasure (1238)",
+      },
+      {
+        index: 4,
+        sourceId: "src_dumoulin_japan",
+        pageOrSection: "ch. on the early Kamakura Rinzai temples and Song imports",
+      },
+    ],
   },
   {
     slug: "xutang-zhiyu",
-    content: `Xutang Zhiyu was one of the most influential Chinese Chan masters in the history of Japanese Zen. He was the teacher of Nanpo Jomyo (Daio Kokushi), through whom the Daio-Daito-Kanzan lineage—the backbone of modern Rinzai Zen—descends. His portrait and his calligraphic works became treasured objects in Japanese Rinzai temples, revered as embodiments of the Chan spirit.
+    content: `Xutang Zhiyu (虛堂智愚, 1185–1269) was one of the most influential late-Southern-Song Linji-Yangqi-line masters and the figure through whom the *Ōtōkan* line of Japanese Rinzai derives its Chinese transmission[1]. He held abbacies at the major Linji monasteries on Mount Jing and at Lingyin-si near Hangzhou, and his recorded sayings were widely circulated through the Song-period Linji house[2].
 
-Xutang's teaching was characterized by a fierce intensity and a refusal to compromise. His collection of verses and his recorded sayings demonstrate a master of extraordinary depth and literary skill. Through his Japanese students, his influence shaped the entire subsequent development of Rinzai Zen, making him one of the most consequential Chinese masters for the Japanese tradition despite his relative obscurity in China.`,
+Xutang's principal Japanese heir was Nanpo Jōmin (Daiō Kokushi), who studied with him in China between 1259 and 1267 and returned to found the line that subsequently produced Daitō Kokushi and Kanzan Egen — the Ōtōkan ("Daiō-Daitō-Kanzan") sequence from which essentially all modern Daitoku-ji- and Myōshin-ji-line Rinzai Zen descends[3]. His portraits, scrolls, and recorded sayings became treasured objects in Japanese Zen temples, and the institutional importance of his line in Japan often exceeded his standing in China alone[4].`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_dumoulin_japan",
+        pageOrSection: "ch. on Xutang Zhiyu and the Ōtōkan transmission to Japan",
+      },
+      {
+        index: 2,
+        sourceId: "src_ferguson_zen_chinese_heritage",
+        pageOrSection: "Xutang Zhiyu — biographical entry",
+      },
+      {
+        index: 3,
+        sourceId: "src_wikipedia",
+        pageOrSection: "Xutang Zhiyu — transmission to Nanpo Jōmin (Daiō Kokushi)",
+      },
+      {
+        index: 4,
+        sourceId: "src_dumoulin_japan",
+        pageOrSection: "ch. on Japanese reception of Xutang's portraits and recorded sayings",
+      },
+    ],
   },
   {
     slug: "zhenjing-kewen",
-    content: `Zhenjing Kewen was a prominent Chan master of the Song dynasty who contributed to the tradition's intellectual and spiritual development. He was known for his teaching ability and his skill in using koans as pedagogical tools. His community attracted serious practitioners from across China.
+    content: `Zhenjing Kewen (真淨克文, 1025–1102) was a major Northern-Song Linji-Huanglong-line master, the principal Dharma heir of Huanglong Huinan after Huitang Zuxin and one of the most-cited teachers in the literary culture of the late-eleventh-century Linji house[1]. He served as abbot of a series of temples including Dongchan (洞山) in Yunyang and Cuiyan-si, and his recorded sayings and dialogues were collected into the *Zhenjing Yulu*[2].
 
-Kewen's teaching reflected the mature Song dynasty Chan tradition, which had developed a sophisticated methodology for using encounter dialogues and koans as systematic tools for spiritual development. His contribution to this tradition helped refine the methods that would eventually be transmitted to Japan and Korea.`,
+Kewen's chief Dharma heir Doushuai Congyue and others carried the Huanglong sub-line forward in the early twelfth century, and his teaching is generally read as the canonical statement of the literary-philosophical style that distinguished the Huanglong house from its eventual rival the Yangqi house[3].`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_dumoulin_india_china",
+        pageOrSection: "Vol. 1, ch. on the Huanglong sub-house in the late Northern Song",
+      },
+      {
+        index: 2,
+        sourceId: "src_ferguson_zen_chinese_heritage",
+        pageOrSection: "Zhenjing Kewen — biographical entry and Zhenjing Yulu",
+      },
+      {
+        index: 3,
+        sourceId: "src_wikipedia",
+        pageOrSection: "Zhenjing Kewen — Huanglong-sub-house successors",
+      },
+    ],
   },
   {
     slug: "jingzhong-wuxiang",
@@ -5663,6 +5939,408 @@ His pedagogical method, which he called "the practising method of Vietnamese Zen
     footnotes: [
       { index: 1, sourceId: "src_wikipedia", pageOrSection: "vi.wikipedia.org — Thích Thanh Từ", excerpt: "Sinh ngày 24 tháng 7 năm 1924 tại ấp Tích Khánh, xã Thiện Mỹ, huyện Trà Ôn, tỉnh Vĩnh Long. Tên thật: Trần Hữu Phước. Xuất gia ngày 15 tháng 7 năm 1949 tại chùa Phật Quang. Bổn sư: Tổ Thiện Hoa. Thọ giới Tỳ kheo năm 1952 với Tổ Khánh Anh. Các thiền viện đã sáng lập: Thiền viện Chân Không (1971); Thiền viện Thường Chiếu (1974); Thiền viện Trúc Lâm Đà Lạt (1993); Thiền viện Trúc Lâm Yên Tử (2002); Thiền viện Trúc Lâm Tây Thiên (2005). Bộ 'Thích Thanh Từ Toàn Tập' gồm 43 quyển." },
       { index: 2, sourceId: "src_truc_lam_records", pageOrSection: "Trúc Lâm Zen records / Thiền Tông Việt Nam Cuối Thế Kỷ 20", excerpt: "Hòa thượng Thích Thanh Từ chủ trương khôi phục dòng thiền Trúc Lâm Yên Tử, lấy phương châm 'biết vọng không theo' và y cứ vào ngữ lục của Trần Thái Tông, Tuệ Trung Thượng Sĩ, Trần Nhân Tông, Pháp Loa và Huyền Quang. Các đệ tử lớn gồm Thích Nhật Quang (Thường Chiếu), Thích Thông Phương (Trúc Lâm Đà Lạt), Thích Kiến Nguyệt (Trúc Lâm Tây Thiên), Thích Tâm Hạnh." },
+    ],
+  },
+
+  // =========================================================================
+  // Deshimaru-line additions (Branches A–F) — appended by Agent G
+  // =========================================================================
+
+  // ─── Deshimaru lineage — Branch A — Kōsen Sangha / Triet (deepened entries already merged in-place) (no new entries — all replaced in-place) ───
+  // ─── Deshimaru lineage — Branch B — Yuno Rech mainline (Roland Rech entry already merged in-place) (no new entries — all replaced in-place) ───
+  // ─── Deshimaru lineage — Branch C — Mokushō Zeisler / Mokushō Zen House (Zeisler entry already merged in-place) (no new entries — all replaced in-place) ───
+  // ─── Deshimaru lineage — Branch D — Sangha Sans Demeure / Coupey ───
+  {
+    slug: "philippe-reiryu-coupey",
+    content: `Philippe Reiryū Coupey was born on 8 December 1937 in New York City and is one of the longest-serving Western disciples of Taisen Deshimaru, the Japanese Sōtō missionary who carried Kōdō Sawaki's lineage to Europe in 1967[1]. After completing studies in literature in the United States, Coupey moved to Paris in 1968 and met Deshimaru in 1972 at the original Paris dōjō; he became the master's principal English-language transcriber, a role he held continuously until Deshimaru's death in April 1982[2]. His dharma name, Reiryū (霊龍, "spirit dragon"), was given to him by Deshimaru.
+
+For more than four decades after Deshimaru's death, Coupey has continued to teach within the Association Zen Internationale (AZI) — the federation Deshimaru founded in 1970 — and at its mother temple, La Gendronnière, in the Loir-et-Cher, where he has directed an annual summer session every year since 1994[3]. He is the spiritual reference for some thirty AZI-affiliated dōjōs across France, Germany, England, and Switzerland, and he gives kusen (the spoken commentary delivered during zazen) several times a week at the Dojo Zen de Paris and at the Seine Zen group in the 13th arrondissement[4].
+
+On 31 August 2008, at the Dojo Zen de Paris, Coupey received dharma transmission (shihō) from Master Kishigami Kōjun (b. 1941), a direct disciple of Kōdō Sawaki who himself received shihō from Sawaki one month before Sawaki's death in 1965[5]. The transmission completed a line that runs Sawaki → Kishigami → Coupey, and is independent of the older Sawaki → Deshimaru → Coupey ordination line; both are recognised in the AZI registry and acknowledged in Coupey's own publications[6]. He has since transmitted the Dharma onward, ordaining Patrick Ferrieux as a monk in 2000 and giving him shihō in 2021 — the first publicly documented full transmission from Coupey.
+
+Coupey is the founder of Sangha Sans Demeure ("the Homeless Sangha"), an international community organised through the Zen Road association, which deliberately maintains no fixed temple in keeping with the wandering-monk ideal of Sawaki and Deshimaru[7]. Through Sangha Sans Demeure he leads sesshins in France, Germany, and Switzerland; the network includes some thirty dōjōs and groups led by senior practitioners, several of whom (Stéphane Chevillard, Jonas Endres, Patrick Ferrieux, Denis Crozet, Olivier Endres, and others) train under him directly[8].
+
+His French-language books include Zen, simple assise — Le Fukanzazengi de Maître Dōgen (Désiris, 2009), Mon corps de lune (Désiris, 2007), Le chant du vent dans l'arbre sec (L'Originel, 2011), Dans le ventre du Dragon — Le Shinjinmei de Maître Sosan (Deux versants, 2002), Zen d'aujourd'hui (Le Relié, 2014), Les 10 taureaux du zen (2020), Fragments Zen (L'Originel, 2021), and Minuit est la vraie lumière (Éditions de l'Éveil, 2023)[9]. His English-language Hohm Press editions — Zen, Simply Sitting (2007), The Song of the Wind in the Dry Tree (2014), and In the Belly of the Dragon (2020) — made the AZI lineage's Dōgen-and-Sōsan commentaries accessible to anglophone readers[10].
+
+As Deshimaru's longtime transcriber, Coupey assembled the canonical posthumous Deshimaru titles La voix de la vallée (1994), Le rugissement du Lion (1994), Zen et karma (2016), and Les Deux Versants du Zen (2018) — works that, together with Évelyne de Smedt's and Pierre Crépon's editions, define the textual record of Deshimaru's mission in Europe[11]. He also writes fiction under the pseudonym M.C. Dalley, and continues to teach weekly at the Dojo Zen de Paris and Seine Zen well into his late eighties[12].`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_wikipedia",
+        pageOrSection: "fr.wikipedia.org / en.wikipedia.org — Philippe Coupey",
+        excerpt:
+          "Philippe Reiryū Coupey, born 8 December 1937 in New York City, is a Zen monk in the Sōtō line of Taisen Deshimaru.",
+      },
+      {
+        index: 2,
+        sourceId: "src_azi",
+        pageOrSection: "Maître Philippe Reiryū Coupey",
+        excerpt:
+          "Devenu Reiryū Coupey, il a accompagné Deshimaru jusqu'à la mort du maître en 1982 et a été son principal transcripteur de langue anglaise.",
+      },
+      {
+        index: 3,
+        sourceId: "src_la_gendronniere",
+        pageOrSection: "Sessions d'été — Philippe Coupey",
+        excerpt:
+          "Depuis 1994, Philippe Coupey dirige chaque été une session au temple de la Gendronnière.",
+      },
+      {
+        index: 4,
+        sourceId: "src_zen_road",
+        pageOrSection: "Sangha Sans Demeure — Philippe Coupey",
+      },
+      {
+        index: 5,
+        sourceId: "src_wikipedia",
+        pageOrSection: "fr.wikipedia.org — Kishigami Kojun",
+        excerpt:
+          "Kōjun Kishigami, né en 1941 dans la préfecture de Kagawa, a obtenu la transmission du Dharma (shiho) de Sawaki environ un mois avant la mort de son maître en 1965.",
+      },
+      {
+        index: 6,
+        sourceId: "src_buddhachannel",
+        pageOrSection: "Zen d'aujourd'hui par Philippe Coupey (2014)",
+        excerpt:
+          "Le 31 août 2008, au Dojo Zen de Paris, Philippe Coupey a reçu la transmission du Dharma de maître Kojun Kishigami.",
+      },
+      {
+        index: 7,
+        sourceId: "src_sangha_sans_demeure",
+        pageOrSection: "Sangha Sans Demeure — accueil",
+        excerpt:
+          "La Sangha Sans Demeure a choisi de ne pas construire de temple mais de perpétuer la tradition du « sans demeure », organisant la pratique dans des salles temporaires.",
+      },
+      {
+        index: 8,
+        sourceId: "src_zen_road",
+        pageOrSection: "Zen Road — annuaire des dōjōs (FR / DE / CH)",
+      },
+      {
+        index: 9,
+        sourceId: "src_revue_zen",
+        pageOrSection: "Bibliographie de Philippe Coupey (titres français)",
+      },
+      {
+        index: 10,
+        sourceId: "src_wikipedia",
+        pageOrSection: "en.wikipedia.org — Philippe Coupey, bibliography",
+      },
+      {
+        index: 11,
+        sourceId: "src_azi",
+        pageOrSection: "Bibliographie de Taisen Deshimaru — éditions posthumes",
+      },
+      {
+        index: 12,
+        sourceId: "src_buddhachannel",
+        pageOrSection: "Portrait de Philippe Coupey",
+      },
+    ],
+  },
+  {
+    slug: "patrick-ferrieux",
+    content: `Patrick Ferrieux is a French Sōtō Zen monk in the lineage of Taisen Deshimaru and Kōdō Sawaki, and the only publicly documented full dharma-transmission recipient of Philippe Reiryū Coupey to date[1]. An engineer by training and a quality-management consultant by profession, he encountered Coupey at the Dojo Zen de Paris in 1995, was ordained as a monk by him in 2000, and received the transmission of the Dharma (shihō) from Coupey in 2021 — making him the first generation of European-born teachers to carry the Sawaki → Kishigami → Coupey shihō line forward[2].
+
+Within the Sangha Sans Demeure / Zen Road network founded by his teacher, Ferrieux serves on the administrative and spiritual councils of both the Dojo Zen de Paris and the Association Zen Internationale, and is a recurring instructor at the AZI mother temple of La Gendronnière in the Loir-et-Cher[3]. He directs sesshins and journées de zazen for the wider AZI federation — including a recurring journée at the Dojo zen de Nantes most recently announced for April 2026 — and runs the Daruma-Boutique Zen, a long-standing supplier of kesa, rakusu, zafu, and other practice materials to French- and German-speaking AZI dōjōs[4].`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_wikipedia",
+        pageOrSection: "Dojo Zen de Paris — Qui sommes-nous? (teachers roster)",
+        excerpt:
+          "Patrick Ferrieux a reçu l'ordination de moine en 2000 de Philippe Coupey dont il est disciple, puis la transmission du Dharma en 2021.",
+      },
+      {
+        index: 2,
+        sourceId: "src_zen_road",
+        pageOrSection: "Sangha Sans Demeure — flyer Patrick Ferrieux (2022)",
+      },
+      {
+        index: 3,
+        sourceId: "src_azi",
+        pageOrSection: "AZI — conseils et instructeurs de la Gendronnière",
+      },
+      {
+        index: 4,
+        sourceId: "src_zen_road",
+        pageOrSection: "Sangha Sans Demeure — agenda; Daruma-Boutique Zen (boutiquezen.com)",
+      },
+    ],
+  },
+  // ─── Deshimaru lineage — Branch E — Kanshōji (Faure) + Kōsan Ryūmon-ji (Wang-Genh) ───
+  {
+    slug: "jean-pierre-genshu-faure",
+    content: `Jean-Pierre Genshū / Taiun Faure (born 1948) is a French Sōtō Zen monk in the Taisen Deshimaru lineage and the founding abbot of the Temple Zen Kanshōji (観性寺) at La Coquille in the Dordogne, in the heart of the Périgord-Limousin natural park[1]. The Association Zen Internationale teacher directory lists him as Maître Jean-Pierre Taiun Faure — Taiun (大雲, "Great Cloud") being his official Sōtō dharma name; Genshū is the alternate form preserved in older AZI records[2]. He received the monk's ordination in 1981 from Master Taisen Deshimaru and followed him until Deshimaru's death in 1982[3].
+
+After Deshimaru's death Faure became a disciple of Dōnin Minamisawa Zenji, then vice-zenji of Eihei-ji — the Sōtō head temple founded by Dōgen — and undertook a long second formation in Japan[1]. Minamisawa's openness to European disciples made it possible for the Deshimaru lineage to re-attach itself, in a single move, to the highest pre-modern stem of the Japanese tradition; Faure was the first to walk that bridge, and is described in the Kanshōji literature as Minamisawa's "first European disciple"[4]. He served for years as godo (西堂, instructor of monastic conduct) within the AZI network before founding Kanshōji in March 2003[1][4].
+
+In 2003 Minamisawa Zenji travelled to France for the inaugural ceremonies of the new monastery and conferred shihō (嗣法) on Faure during the days that followed the inauguration[3][4]. Faure's own account of that event, in his January 2025 interview with the magazine Sagesses Bouddhistes (republished on the Kanshōji website), is unambiguous: "In 2003, he received the transmission of the Dharma from Minamizawa Zenji, a high authority in Zen and abbot of Eiheiji temple in Japan"[3]. He became formal abbot of Kanshōji in 2011, the year of the temple's shinsanshiki (山住式) abbot-installation rite[1][4].
+
+Under Faure's leadership Kanshōji has settled into a year-round practice rhythm structured around angos (training periods) and a recurring summer ojukai (lay-precept ordination), at which Minamisawa Zenji himself returned to officiate on several occasions[4]. The Kanshōji lineage page situates the temple between the AZI tradition that Deshimaru founded and the formal Sōtōshū institution headquartered at Eihei-ji, with Faure himself standing as the principal node connecting the two[4]. The community of resident monks and nuns has grown to include the senior nun Yashō Valérie Guéneau and the senior monks Yushin Christophe Guillet (whose hossenshiki, presided by Igarashi Takuzō Rōshi, was held on 22 February 2014) and Jifu Olivier Pressac (hossenshiki under Minamisawa, 5–6 March 2013)[5][6]. The vice-abbess of Kanshōji, Hosetsu Laure Scemama, received shihō directly from Minamisawa in 2008 — making her institutionally not Faure's heir but his peer in Minamisawa's European line[4].
+
+In his January 2025 Sagesses Bouddhistes interview Faure for the first time spoke publicly about his own onward transmission of the dharma. After describing his shihō from Minamisawa he added: "Bien plus tard, j'ai transmis le Shihō à deux disciples qui m'avaient loyalement suivi et aidé" ("Much later, I transmitted the Shihō to two disciples who had loyally followed and helped me")[3]. As of the date of this entry (2026-05-11) the two recipients are not publicly named on the Kanshōji site or in the published interview, and they are not authored as separate master rows in this dataset (see the project's branch-E notes for the deferred candidate list)[3]. With Olivier Wang-Genh at Ryūmon-ji and Faure at Kanshōji, the second-generation Deshimaru community has produced two parallel formal Eihei-ji-side dharma chains; Faure's contribution has been the more conservative of the two — a Sōtōshū-anchored claim that the Deshimaru transmission can be made indistinguishable, ritually and bureaucratically, from the standard modern Japanese register[1][4].`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_kanshoji",
+        pageOrSection: "kanshoji.org/kanshoji/?lang=en — accessed 2026-05-11; quote: \"Kanshoji is a Sôtô Zen Buddhist monastery, located in France in the Dordogne region, in the heart of Périgord-Limousin natural park… [Faure] received the monk's ordination in 1981 from master Taisen Deshimaru… he received the Dharma transmission from master Dônin Minamisawa… became abbot in 2011.\"",
+      },
+      {
+        index: 2,
+        sourceId: "src_azi",
+        pageOrSection: "zen-azi.org/fr/book/taiun-jean-pierre-faure — accessed 2026-05-11; AZI teacher directory entry, \"Maître Jean-Pierre Taiun Faure\".",
+      },
+      {
+        index: 3,
+        sourceId: "src_kanshoji",
+        pageOrSection: "kanshoji.org/news/interview-about-transmission-for-sagesses-bouddhistes-magazine-january-2025 — accessed 2026-05-11; verbatim from the interview text: \"Zen master Taiun Jean-Pierre Faure was ordained as a monk by master Taisen Deshimaru in 1981… In 2003, he received the transmission of the Dharma from Minamizawa Zenji, a high authority in Zen and abbot of Eiheiji temple in Japan… Plus tard, il m'a donné le Shihō (la transmission du Dharma)… Bien plus tard, j'ai transmis le Shihō à deux disciples qui m'avaient loyalement suivi et aidé.\"",
+      },
+      {
+        index: 4,
+        sourceId: "src_kanshoji",
+        pageOrSection: "kanshoji.org/ligneage/?lang=en — accessed 2026-05-11; quote: \"In the days following the inauguration of the monastery in 2003, at Kanshoji he gave transmission of the Dharma to his first European disciple Taiun Faure, who became abbot in 2011… In 2008, he gave the transmission of the Dharma to Hosetsu Laure Scemama, his second European disciple, in charge of the Limoges Zen Center, who helped found Kanshoji, of which she is currently vice abbess.\"",
+      },
+      {
+        index: 5,
+        sourceId: "src_kanshoji",
+        pageOrSection: "kanshoji.org/en/big-ceremonies/hossenshiki-22-fevrier-2014/ — accessed 2026-05-11; verbatim French: \"Le 22 février, a eu lieu la cérémonie d'hossenshiki de Yushin Christophe Guillet… le révérend Igarashi Takuzo Roshi… était venu du Japon pour présider cette cérémonie… confirmant sa position de premier des moines.\"",
+      },
+      {
+        index: 6,
+        sourceId: "src_kanshoji",
+        pageOrSection: "kanshoji.org/grandes_ceremonies/les-grandes-celebrations-de-mars-2013/ — accessed 2026-05-11; the page describes the 5–6 March 2013 hossenshiki ceremony of Jifu Olivier Pressac under Dônin Minamizawa Roshi, in which Pressac became \"shuso, moine de premier rang\".",
+      },
+    ],
+  },
+  {
+    slug: "olivier-reigen-wang-genh",
+    content: `Olivier Reigen Wang-Genh (born 17 April 1955 in Molsheim, Alsace) is a French Sōtō Zen monk in the Taisen Deshimaru line and the founding abbot of the temple Taikōsan Ryūmon-ji (太古山龍門寺) at Weiterswiller in the Northern Vosges, fifty kilometres north of Strasbourg[1][2]. He has been a practitioner of Sōtō Zen since 1973 and was ordained as a monk by Master Taisen Deshimaru in March 1977, following his master through sesshin in France and across Europe until Deshimaru's death in 1982[1][2][3].
+
+From 1974 to 1982 he played an active role in the development of the Strasbourg dōjō, and in 1986 he took over its direction[1]. From 1987 onward, with the help of German and French practitioners, he founded a network of dōjōs in Baden-Württemberg — Freiburg, Stuttgart, Karlsruhe, Heidelberg, Mannheim — and in eastern France: Metz, Mulhouse, Colmar, Sélestat, Benfeld, as well as in Basel[1][2]. This trans-Rhenan corridor of practice centres remains one of the most coherent regional sub-networks in European Zen, and gave the second-generation Deshimaru community its German-speaking institutional spine[1].
+
+In April 1999, with the help of the entire regional sangha, he founded the Taikōsan Ryūmon-ji monastery at Weiterswiller in Alsace, and was officially enthroned as its abbot in 2010[1][2][3]. In 2001 he received dharma transmission (shihō, 嗣法) from Master Dōshō Saikawa — abbot of Hossen-ji in Yamagata Prefecture and later of Kasuisai in Shizuoka Prefecture, who had earlier served as the Sōtōshū's representative for foreign visitors at Sōji-ji and as a long-serving teacher in the United States[3]. The Saikawa transmission anchors his line, alongside Faure's parallel Minamisawa transmission, in the modern Sōtōshū register: by the early 2010s the Deshimaru community possessed two formal chains of dharma authority back into the Japanese institution, after a quarter-century in which AZI legitimacy had rested on Deshimaru's own status alone[2][4].
+
+In June 2011 Wang-Genh in turn transmitted shihō to his oldest disciple, Konrad Tenkan Beck — the founder of the Zen-Dōjō Freiburg and now tantō at Ryūmon-ji — establishing his own onward dharma line[2][3]. Wang-Genh had been ordaining monks and nuns since the early 1990s, and the 2011 Beck transmission gave the Strasbourg–Freiburg corridor an institutional spine of its own, distinct from the Paris–La Gendronnière AZI mainline[2][1].
+
+His institutional record outside Ryūmon-ji is unusually broad. He has served as president of the Association Zen Internationale and of the Communauté Bouddhiste d'Alsace, and as president of the Union Bouddhiste de France for multiple terms — making him for nearly a decade the most institutionally visible Buddhist in France[1][2]. He sits in the Conférence des Responsables de Culte en France, the formal interfaith body in which the major French religious traditions are represented at the level of the state[2]. His published work includes Shushōgi: commentaires et enseignements (Éditions Ryumon-Ji, 2006), C'est encore loin l'Éveil? (Le Relié, 2020), and Six Pāramitā (Ryumon-Ji)[2].`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_azi",
+        pageOrSection: "zen-azi.org/en/olivier-reigen-wang-genh — accessed 2026-05-11; quote: \"A practitioner of Sôtô Zen since 1973, he was ordained as a monk by Master Taisen Deshimaru in March 1977… From 1974 to 1982 he played an active role in the development of the dojo in Strasbourg and took charge of it in 1986. From 1987, with the help of German and French practitioners, he set up dojos in Baden-Württemberg in Freiburg, Stuttgart, Karlsruhe, Heidelberg, Mannheim as well as in eastern France: Metz, Mulhouse, Colmar, Sélestat, Benfeld, and in Basel… In April 1999, with the help of the entire regional sangha, he founded the Taikosan Ryumonji monastery in Weiterswiller in Alsace and became its abbot. In 2001, he received the Dharma transmission from Master Dôshô Saikawa.\"",
+      },
+      {
+        index: 2,
+        sourceId: "src_ryumonji_alsace",
+        pageOrSection: "meditation-zen.org/en/master-reigen-wangh-genh — accessed 2026-05-11; quote: \"He was ordained by Master Taisen Deshimaru in March 1977… he started to direct [the Strasbourg dojo] in 1986… He has founded dojos in Freiburg, Stuttgart, Karlsruhe, Heidelberg, Mannheim… in April 1999, with the help of the entire regional sangha, he founded the Taikosan Ryumon Ji monastery… In 2001, Olivier Reigen Wang-Genh received the Dharma transmission from Master Dôshô Saikawa… In June 2011, he passed on the Dharma transmission to his oldest disciple, Konrad Tenkan Beck.\"",
+      },
+      {
+        index: 3,
+        sourceId: "src_ryumonji_alsace",
+        pageOrSection: "meditation-zen.org/en/the-teachers — accessed 2026-05-11; quote: \"Olivier Reigen Wang-Genh has been practicing Sōtō Zen since 1973. He was ordained as a monk in March 1977 by Maître Taisen Deshimaru… In 1986, he took over its leadership… In April 1999, with the support of the entire regional sangha, he founded the Taikosan Ryumonji Monastery in Weiterswiller, Alsace. In 2001, he received Dharma transmission from Master Dōshō Saikawa… In June 2011, he transmitted the Dharma to his senior disciple, Konrad Tenkan Beck.\" Same page on Saikawa: \"Master Dōshō Saikawa is the abbot of Hossen-ji Temple in Yamagata Prefecture… For several years, he was in charge of welcoming foreign visitors at Sōji-ji Temple. He spent nearly ten years in the United States, serving in various temples. He is now the abbot of Kasuisai, one of the largest monastic training temples in Japan.\"",
+      },
+      {
+        index: 4,
+        sourceId: "src_sotozen_europe",
+        pageOrSection: "Sōtōshū Europe Office directory — Kōsan Ryūmon-ji entry (registered training monastery in the European Sōtōshū network).",
+      },
+    ],
+  },
+  {
+    slug: "konrad-tenkan-beck",
+    content: `Konrad Tenkan Beck is a German Sōtō Zen monk in the Deshimaru–Wang-Genh line and the senior dharma heir of Olivier Reigen Wang-Genh[1]. He began his practice under Master Taisen Deshimaru and has been a Zen monk (shukke tokudo, 出家得度) since 1988, six years after Deshimaru's death[1].
+
+He founded the Zen-Dōjō Freiburg (Hō Un Dō, 法雲堂) in Baden-Württemberg and led it until 2009, when he relocated to the area near Nuremberg[1]. The Freiburg dōjō, now part of the wider Wang-Genh / Ryūmon-ji European network, was during his tenure the principal AZI / Sōtōshū-Europe practice centre on the German side of the Upper Rhine[1].
+
+In June 2011 he received dharma transmission (shihō, 嗣法) from Olivier Reigen Wang-Genh[1][2]. Both the Ryūmon-ji teachers' page and Wang-Genh's own master-bio page describe him as "his oldest disciple" / "his senior disciple", and the 2011 shihō was the first formal transmission Wang-Genh conferred after his own 2001 transmission from Dōshō Saikawa[2][3]. In 2012 and 2013 he completed extended further training at the Japanese Sōtō monasteries Shōgō-ji and Chōsen-ji — the formation period the Sōtōshū expects of newly-transmitted teachers before they assume institutional responsibilities of their own[1].
+
+He currently serves as tantō (単頭, training-hall supervisor) at Kōsan Ryūmon-ji and as one of the principal teachers of the Zen-Buddhistische Gemeinschaft Nürnberg / Bad Windsheim[1]. His role at Ryūmon-ji places him institutionally as the senior monk of the second generation of the Wang-Genh community, and he travels regularly for sesshin and zazenkai across Germany, Switzerland, and the wider AZI network[1].`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_ryumonji_alsace",
+        pageOrSection: "meditation-zen.org/de/konrad-tenkan-beck — accessed 2026-05-11; verbatim German: \"Tenkan Konrad Beck begann seine Praxis unter Meister Deshimaru. Seit 1988 ist er Zen-Mönch (shukke tokudo). Er gründete das Zen-Dojo Freiburg, das er bis 2009 leitete. Seitdem lebt er in der Nähe von Nürnberg. 2011 erhielt er die Dharma-Weitergabe (shiho) von Meister Olivier Reigen Wang-Genh. 2012 und 2013 vertiefte er seine Ausbildung in den japanischen Tempeln Shogoji und Chosenji. Er ist Tanto (Assistent des Meisters) im Kloster Kosanryumonji im Elsass und einer der Verantwortlichen der zen-buddhistischen Gruppe Nürnberg.\"",
+      },
+      {
+        index: 2,
+        sourceId: "src_ryumonji_alsace",
+        pageOrSection: "meditation-zen.org/en/master-reigen-wangh-genh — accessed 2026-05-11; quote: \"In June 2011, he passed on the Dharma transmission to his oldest disciple, Konrad Tenkan Beck.\"",
+      },
+      {
+        index: 3,
+        sourceId: "src_ryumonji_alsace",
+        pageOrSection: "meditation-zen.org/en/the-teachers — accessed 2026-05-11; quote: \"In June 2011, he transmitted the Dharma to his senior disciple, Konrad Tenkan Beck.\"",
+      },
+    ],
+  },
+  // ─── Deshimaru lineage — Branch F — American line (NOZT) + Bovay (Zürich) + de Smedt ───
+  {
+    slug: "michel-reiku-bovay",
+    content: `Michel Meihō Missen Reikū Bovay (1944–2009) was a Swiss Sōtō Zen monk in the Deshimaru lineage and one of the principal figures in the European AZI generation that took on the responsibility of carrying Taisen Deshimaru's mission forward after the founder's death in 1982. Born in Monthey in the Valais in 1944, he spent his youth as a working musician and composer — playing in Swiss rock groups including The Sevens — before encountering Deshimaru in Paris in 1972 and becoming one of his close disciples almost immediately[1].
+
+For ten years, until Deshimaru's death in 1982, Bovay was part of the small inner circle around the founder: a close disciple, an intimate collaborator, and one of the principal organisers of the daily life and travel of the master's European mission. After Deshimaru's death he was identified, alongside three other senior disciples, as a candidate to receive the formal Sōtō transmission whose paperwork had been prepared from Eihei-ji; he ultimately received shihō in 1998 from Gu'en Yūkō Okamoto Roshi of Teishōji, the Japanese Sōtō temple that became one of the principal homes of formal transmission for European AZI teachers in the post-Deshimaru generation[2].
+
+Returning to Switzerland in 1985, Bovay re-established his teaching at the Zen Dōjō Zürich — the dōjō originally founded by Deshimaru in 1975 — and from there extended the AZI network across German- and French-speaking Switzerland, training a generation of Swiss practitioners and animating dōjōs from Zürich westward into the Romandie. From 1995 to 2003 he served as president of the Association Zen Internationale, the federative body that holds together the European Deshimaru lineage, and during this period he became one of the most visible Francophone faces of AZI[2].
+
+Bovay's most enduring contribution, however, is on the page. With co-authors Lucien Marchand and Laurent Strim he wrote the 1987 introductory volume *Zen* (in the "Bref" series of Éditions du Cerf), one of the very first comprehensive French-language presentations of the tradition's history, doctrine, and practice — a book that introduced an entire generation of French-speaking readers to AZI-style Sōtō. He continued for decades as one of the principal interpreters of Deshimaru's teaching for a Francophone lay audience, in books and in regular kusen at sesshin[3].
+
+Following a serious illness, in 2007 Bovay handed responsibility for the Zen Dōjō Zürich to his eldest disciple, the Zen nun Eishuku Monika Leibundgut, whom he had trained for more than twenty years; he supported her in the role until his death in 2009[2]. In 2022, thirteen years after his death, Éditions Le Relié published *Deshimaru: Histoires vécues avec un maître zen* — a posthumous collection of his memoirs of life and training under Deshimaru, edited by Leibundgut and the Zürich sangha as the lifework of a chronicler completed by his successors[3].
+
+Through these books — and through Leibundgut's continued teaching at Zürich — Bovay remains, alongside Pierre Dōkan Crépon and Évelyne Ekō de Smedt, one of the principal first-generation French-language witnesses to Deshimaru's mission. His teaching emphasised the simplicity of zazen as Deshimaru had transmitted it: in his characteristic phrase, "the experience in zazen of this original, eternally existing Buddha mind is much more important than thinking about everyday life" — a formulation that captured the priority of direct sitting over discursive doctrine that runs through the whole Sōtō tradition from Dōgen forward[2]. The institutional shape of his legacy is twofold: a Zürich-anchored line of formal Sōtō transmission carried on by Leibundgut, and a Francophone publishing legacy that, with de Smedt's Mokuonji and Crépon's AZI essays, constitutes the principal French-language record of the founder's mission. His eight-year tenure as AZI president (1995–2003) coincided with the federation's consolidation into the institutional form it still has today, federating dōjōs from Lisbon to Vienna under the umbrella of the Gendronnière temple[2].`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_dojo_lausanne",
+        pageOrSection: "Muijoji / zen.ch — Meiho Missen Michel Bovay (1944, Monthey)",
+      },
+      {
+        index: 2,
+        sourceId: "src_dojo_lausanne",
+        pageOrSection: "zen.ch — shihō 1998 from Yūkō Okamoto Roshi (Teishōji); AZI presidency 1995–2003; 2007 handover to Eishuku Monika Leibundgut",
+      },
+      {
+        index: 3,
+        sourceId: "src_azi",
+        pageOrSection: "Bibliographie AZI — Bovay/Marchand/Strim, *Zen* (Cerf, 1987); *Deshimaru — Histoires vécues* (Le Relié, 2022)",
+      },
+    ],
+  },
+  {
+    slug: "evelyne-eko-de-smedt",
+    content: `Évelyne Ekō / Reikō de Smedt (born 20 November 1945, Sologne) is a French Sōtō Zen nun in the Deshimaru lineage and one of Taisen Deshimaru's earliest and most consequential female disciples. She first encountered Deshimaru in January 1973 at a workshop in the 14th arrondissement of Paris and was drawn rapidly into his inner circle; she received the nun's ordination from him in March 1975 and remained at his side, as part of the small editorial and administrative core around the master, until his death in 1982[1].
+
+Her most consequential contribution to Deshimaru's western mission was as a co-author and editor of his French œuvre. With Lucien Marchand she wrote *Zen, religion de la vie quotidienne* (Albin Michel, 1976) — among the very first French-language presentations of Zen as Deshimaru taught it, written contemporaneously with Deshimaru's own Paris mission and frequently reissued as a standard introductory text. She also collaborated with Deshimaru himself on *L'Anneau de la Voie* ("The Ring of the Way"), an early formal presentation of the kusen (oral teaching given during zazen) genre in French. Several of Deshimaru's most-cited posthumous books carry her preface — including the 1985 edition of *Zen et vie quotidienne* (Albin Michel), introduced by her — and she helped to edit and publish most of the master's works in French[2].
+
+After Deshimaru's death she took her turn, as she has put it, in transmitting and developing the teaching. She has led zazen and sesshin for several decades at the Paris Zen Dōjō (founded by Deshimaru, of which she is vice-president) and at the Temple Zen Sōtō de la Gendronnière on the banks of the Loire (likewise founded by him), and she sits on the Association Zen Internationale teacher roster as Maître Évelyne Reiko de Smedt. With Pierre Dōkan Crépon she co-authored the wider survey *L'Esprit du Zen* (Hachette, 2005), one of the most widely-read French introductions to the tradition, and she is the author of *Zen et christianisme* (Albin Michel) and (with Bovay and Kaltenbach) the illustrated *Zen* album, *La Lumière du satori*, and *Les Patriarches du Zen*[3].
+
+In 2005, on a preserved site in the Quercy blanc in southwest France, she founded the hermitage of Mokuon-Ji ("temple of silent compassion"), where she has since devoted herself to the study of texts and to a teaching cycle of three sesshin per year — summer, autumn, and spring — drawing students from the wider Francophone AZI network[1]. In May 2009 she performed the ceremonial role of shusso ("first monk" / head trainee) at Kongō-in in Japan with Genshū Imamura Roshi, a formal step on the Sōtō ceremonial path of teacher-recognition[4].
+
+Within the AZI press her steady editorial presence over four decades is largely responsible for the way Deshimaru's spoken kusen became readable French text — and for the shape in which that teaching reached subsequent generations of European practitioners. With Pierre Dōkan Crépon she stands as one of the two principal Francophone biographer-editors of the founder; where Crépon's role has been the long historical essay (his canonical *Maître Taisen Deshimaru et l'arrivée du zen en Europe*), de Smedt's has been the editor's preface and the co-authored introductory volume — the genres that move a tradition from the inner circle to the general reader[2][3]. Her position as vice-president of the Paris Zen Dōjō, her decades of sesshin leadership at the Gendronnière, and her founding of Mokuon-Ji together place her at one of the principal continuity-points between the founder's lifetime and the present generation of European AZI practice. The dharma name pair Ekō (慧光, "luminous wisdom") and Reikō, by which she is known on the AZI roster, was given by Deshimaru in the same first generation of Western ordinations that produced Crépon, Bovay, Roland Yūnō Rech, and the other senior AZI teachers who would carry the post-1982 mission forward across the Francophone world[1].`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_azi",
+        pageOrSection: "Maître Évelyne Reiko de Smedt — biographie; founding of Mokuon-Ji (2005)",
+      },
+      {
+        index: 2,
+        sourceId: "src_wikipedia",
+        pageOrSection: "Bibliographie de Taisen Deshimaru — préface d'Evelyn de Smedt; *Zen, religion de la vie quotidienne* (Albin Michel, 1976)",
+      },
+      {
+        index: 3,
+        sourceId: "src_azi",
+        pageOrSection: "Bibliographie AZI — *L'Esprit du Zen* (Hachette, 2005), *Zen et christianisme*, *La Lumière du satori*, *Les Patriarches du Zen*",
+      },
+      {
+        index: 4,
+        sourceId: "src_azi",
+        pageOrSection: "shusso ceremony with Genshu Imamura Roshi at Kongō-in, May 2009",
+      },
+    ],
+  },
+  {
+    slug: "robert-livingston",
+    content: `Robert C. Livingston Roshi (28 January 1933 – 2 January 2021) was the senior American disciple of Taisen Deshimaru and the founder of the New Orleans Zen Temple — the principal Sōtō dōjō in the United States carrying the Deshimaru / Association Zen Internationale line. Born in New York City and raised between New York, California, and Texas, Livingston graduated from Cornell University, then served two years in the U.S. Army in Japan and Korea in the early 1950s — his first and formative exposure to East Asia[1]. After his Army discharge he travelled and studied in Europe, returned briefly to the United States as a registered representative of the New York Stock Exchange, and then went back to Europe for a decade as the head of an international financial services corporation[1].
+
+He retired from the business world to begin sitting zazen with Master Taisen Deshimaru in Paris in the 1970s, becoming one of Deshimaru's close disciples and being made a Zen teacher by him. Deshimaru — who had always intended to take Sōtō to the United States before circumstances kept him in France — asked Livingston, before his death in 1982, to return to America and open a dōjō there to transmit authentic Zen practice[2]. Livingston founded the American Zen Association in 1983 as the institutional home for that mission, and in 1991 he opened the New Orleans Zen Temple in a historic building at 748 Camp Street in the city's Arts District. The temple became the southern anchor of AZI-style Sōtō in the United States and the publishing home of the American Zen Association, which supports Zen dōjōs across the country and republishes rare Buddhist texts[3].
+
+Livingston transmitted the dharma to two named successors. The first was Tony Bland, a Mississippi-born psychotherapist who began training with him at the New Orleans Zen Temple in 1984, took monastic ordination in 1992, and received shihō from Livingston in 2004 — by which point Bland had already founded (1994) and been teaching at (from 1995) the Starkville Zen Dōjō[3]. The second was Richard Reishin Collins, an academic literary scholar who began practice with Livingston in 2001, received monastic ordination in 2010, and was given permission to teach in 2012; on the night of 31 December 2015 / 1 January 2016, in the dōjō at 748 Camp Street, Livingston met Collins for the intimate shihō ceremony in which the teacher hands over his kotsu — the spinal-curved teaching stick with the purple cord and tassel that is the symbol of the Sōtō teacher's authority — to acknowledge the student's transmission[1][3].
+
+With that ceremony Livingston retired as abbot in 2016, succeeded by Collins as the second abbot of the New Orleans Zen Temple. Livingston died in the early morning of 2 January 2021 in New Orleans, age 87[1]. The American Zen Association now lists more than half a dozen affiliated dōjōs — Sewanee (Stone Nest, Collins), Starkville (Bland), Alexandria, Bakersfield, New York, Colorado, and others — that all trace their line back through Livingston to Deshimaru, Kōdō Sawaki, and the wider Sōtō school. Together with the Mount Baldy/Hosshin-ji Rinzai mission and the various Soto Zen Buddhist Association lines descending from Suzuki, Maezumi, and Aitken, Livingston's American Zen Association represents one of the principal first-generation routes by which Japanese Sōtō Zen took permanent institutional root in the United States.`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_wikipedia",
+        pageOrSection: "Robert Livingston (Zen teacher) — biography",
+      },
+      {
+        index: 2,
+        sourceId: "src_new_orleans_zen_temple",
+        pageOrSection: "About — Robert Livingston Roshi; Deshimaru's request to open a U.S. dōjō",
+      },
+      {
+        index: 3,
+        sourceId: "src_new_orleans_zen_temple",
+        pageOrSection: "About / Lineage — founding 1983; building at 748 Camp St 1991; shihō to Tony Bland 2004 and Richard Collins 1 Jan 2016",
+      },
+    ],
+  },
+  {
+    slug: "richard-reishin-collins",
+    content: `Richard Reishin Collins (born 1952, Eugene, Oregon) is the second abbot of the New Orleans Zen Temple, the principal dharma successor of Robert Livingston Roshi, and one of the senior teachers of the American Zen Association — the U.S. wing of the Deshimaru / AZI Sōtō lineage. An academic by profession in English and comparative literature, Collins came to Zen in mid-life: he began Zen practice with Livingston at the New Orleans Zen Temple in 2001, received monastic ordination from him in 2010, and was given permission to teach in 2012[1].
+
+His formal dharma transmission came at the changing of the year on 1 January 2016. Just after midnight, in the dōjō of the New Orleans Zen Temple at 748 Camp Street, Livingston Roshi met Collins for the intimate shihō ceremony in which the teacher acknowledges the student's transmission and physically hands over his kotsu — the spinal-curved teaching stick with the purple cord and tassel that is the Sōtō school's emblem of teaching authority. With that ceremony Livingston retired as abbot of the temple he had founded a quarter-century earlier, and Collins became the second abbot of the New Orleans Zen Temple and successor to its founding abbot[1].
+
+In the years since, Collins has anchored two centres of practice. From New Orleans, he oversees the operations of the wider American Zen Association — a network that now includes affiliated dōjōs in Alexandria (Robert Savage), Bakersfield (Gary Enns), New York (Malik Walker), Colorado (Hobbie Regan), Starkville (Tony Bland, Livingston's other dharma heir), and elsewhere — and continues the temple's role as the southern American anchor of AZI-style Sōtō and as the publishing home of the American Zen Association[2]. He himself resides in Sewanee, Tennessee, where he founded and directs the Stone Nest Dōjō; he travels regularly to New Orleans to lead sesshin and to oversee the Camp Street temple.
+
+He is the author of *No Fear Zen: Discovering Balance in an Unbalanced World* (Hohm Press, 2015) and a regular contributor to AZI publications; his broader academic work — on literature, Zen aesthetics, and the relation of contemplative practice to Western humanist disciplines — runs in parallel with his teaching role[3]. Together with Tony Bland (Starkville), Collins is one of the two named dharma successors of Livingston Roshi, and the line he carries — Sawaki → Deshimaru → Livingston → Collins — represents one of the principal North-American institutional continuations of Deshimaru's mission outside Europe.`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_new_orleans_zen_temple",
+        pageOrSection: "About — Richard Reishin Collins; ordination 2010, teaching 2012, shihō 1 January 2016, second abbot from 2016",
+      },
+      {
+        index: 2,
+        sourceId: "src_new_orleans_zen_temple",
+        pageOrSection: "Affiliated dōjōs of the American Zen Association — Sewanee (Stone Nest), Starkville, Alexandria, Bakersfield, NY, Colorado",
+      },
+      {
+        index: 3,
+        sourceId: "src_wikipedia",
+        pageOrSection: "*No Fear Zen* (Hohm Press, 2015) — Richard Collins",
+      },
+    ],
+  },
+  {
+    slug: "tony-bland",
+    content: `Tony Bland (born 1946, Starkville, Mississippi) is a dharma heir of Robert Livingston Roshi, the founder of the Starkville Zen Dōjō, and — with Richard Reishin Collins — one of the two documented shihō recipients in the American line of the Deshimaru / Association Zen Internationale Sōtō lineage. Born and raised in Starkville and the nearby community of Cumberland, he earned his bachelor's degree from the University of Mississippi in 1968 and a master's degree in counselling from the University of Arkansas in 1980; his early working life moved through naval service, farm work, and carpentry before he settled into a long career as a counsellor and psychotherapist[1].
+
+His path to Zen ran through the academy and through psychology. He first encountered Buddhism in a college course on world religions, and his interest deepened through his graduate studies in counselling, particularly his exposure to Gestalt therapy and its phenomenological vocabulary; a four-day Zen retreat in 1981 consolidated the commitment[1]. In 1984 he moved to New Orleans and began regular training under Robert Livingston Roshi at what would become the New Orleans Zen Temple, taking lay ordination in 1985 and monastic ordination from Livingston in 1992. He served as shusso (head trainee, the Sōtō ceremonial role of leading a practice period) under Livingston in 1998[1].
+
+In 1994 Bland returned to Mississippi and established the Starkville Zen Dōjō — the first AZI-affiliated practice centre in the state — and began regular teaching there in 1995, while continuing to train annually with Livingston in New Orleans. The decisive ceremonial step came in 2004, when Livingston Roshi conferred shihō (formal dharma transmission) upon him, recognising him as a fully authorised lineage holder and an independent teacher in the Deshimaru–Livingston line. From that point Bland was a teacher in his own right within the American Zen Association, and the Starkville dōjō became one of the network's documented satellite practice centres[2].
+
+He continues to lead the Starkville Zen Dōjō and to teach in the surrounding region from his home near Cumberland, about 25 miles from Starkville, where he and the small Mississippi sangha sit zazen, hold sesshin, and offer a workshop introduction to Zen practice for newcomers. His teaching is grounded in the simplicity Livingston received from Deshimaru, Deshimaru received from Kōdō Sawaki, and that Sōtō tradition (in the line of the thirteenth-century Japanese master Eihei Dōgen) treats as primary: "just sitting" (shikantaza) as the practice of awakening rather than as a means to it[2]. Together with Richard Reishin Collins (Sewanee / New Orleans), he represents one of the two named American successors of Livingston's dharma.`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_new_orleans_zen_temple",
+        pageOrSection: "Zen in Mississippi — Tony Bland: born 1946 Starkville; B.A. Ole Miss 1968; M.A. Arkansas 1980; lay ordination 1985, monastic 1992, shusso 1998",
+      },
+      {
+        index: 2,
+        sourceId: "src_new_orleans_zen_temple",
+        pageOrSection: "Zen in Mississippi — Starkville Zen Dōjō founded 1994; shihō from Livingston-Roshi 2004; teaching independently from 2004",
+      },
+    ],
+  },
+  {
+    slug: "monika-leibundgut",
+    content: `Eishuku Monika Leibundgut is a Swiss Sōtō Zen nun in the Deshimaru lineage and the designated successor of Meihō Missen Michel Bovay (1944–2009) at the Zen Dōjō Zürich — the AZI-affiliated dōjō originally founded by Taisen Deshimaru in 1975 during the founder's expansion of the AZI network across German- and French-speaking Europe[1].
+
+She came to Bovay's circle in the 1980s and rose quickly through the formal Sōtō stages of recognition: bodhisattva-ordination in 1986 and ordination as a nun in 1988. From the late 1980s onward she served as Bovay's principal assistant for more than two decades — leading zazen, organising sesshin, accompanying him to the Gendronnière and to AZI-affiliated centres across Switzerland and Austria, and progressively taking over more of the day-to-day teaching at the Zürich dōjō as the elder teacher's health declined[1].
+
+In 2007, following a serious illness, Bovay formally handed responsibility for the Zen Dōjō Zürich to her as his eldest disciple, naming her his designated successor; he supported her in that role until his death two years later[1]. Her own dharma transmission followed the same Japanese route by which Bovay himself had received shihō: Yūkō Okamoto Roshi of Teishōji — the Japanese Sōtō temple that became one of the principal homes of formal transmission for European AZI teachers in the post-Deshimaru generation, and from whom Bovay had received shihō in 1998 — invited her to perform the hossen-shiki (dharma combat ceremony) at Teishōji in 2012, and conferred shihō on her the following year, 2013. The Zuise ceremonies at Eihei-ji and Sōji-ji that complete the Sōtō transmission cycle followed, attended by the Zürich and Vienna sanghas in support[2].
+
+Since 2009 she has been the principal teacher at the Zen Dōjō Zürich and a regular leader of sesshin and ango (intensive practice periods) at affiliated venues across Switzerland — Walkringen and Flüeli-Ranft among others — and at the Zen Dōjō Wien in Vienna, the dōjō that Bovay had supported in its founding[2]. In 2022, with the Zürich sangha, she edited and published Bovay's posthumous memoir *Deshimaru — Histoires vécues avec un maître zen* (Éditions Le Relié), the lifework of a chronicler completed by his successor — a publication that consolidated her role not only as Bovay's institutional successor at Zürich but as the keeper of his written legacy in French[3].`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_dojo_lausanne",
+        pageOrSection: "Muijoji / zen.ch — Eishuku Monika Leibundgut: bodhisattva 1986, nun 1988, designated successor 2007",
+      },
+      {
+        index: 2,
+        sourceId: "src_dojo_lausanne",
+        pageOrSection: "zen.ch — hossen-shiki at Teishōji 2012; shihō from Yūkō Okamoto Roshi 2013; zuise at Eihei-ji and Sōji-ji",
+      },
+      {
+        index: 3,
+        sourceId: "src_azi",
+        pageOrSection: "Bovay/Leibundgut, *Deshimaru — Histoires vécues avec un maître zen* (Le Relié, 2022) — edited by the Zürich sangha",
+      },
     ],
   },
 ];
