@@ -92,6 +92,41 @@ Image **provenance rules:**
   transmission edges are excluded from the graph (and printed in the
   audit), but remain on their individual detail pages.
 
+## Citation conventions
+
+All long-form editorial prose must carry Wikipedia-style inline
+footnote markers. The rule is **paragraph-level density**: every
+paragraph (a `\n\n`-separated block) of:
+
+- master biographies (`scripts/seed-biographies.ts` → `bio.content`)
+- school `summary`, `practice`, and `mastersIntro`
+  (`src/lib/school-taxonomy.ts`)
+- timeline event `description` (`src/lib/timeline-editorial.ts`)
+
+must contain at least one `[N]` marker that resolves to a footnote
+entry in the same record's `footnotes[]` / `citations[]` array.
+`scripts/check-exit-criteria.ts` enforces this and lists offenders.
+
+Footnote sources must be either:
+
+1. A registered source ID in `scripts/seed-sources.ts` (preferred —
+   gives the audit a stable handle and lets `CiteThis` export
+   formatted bibliographic entries), or
+2. A direct external URL (Wikipedia article, Sōtōshū page,
+   academic publication). The renderer accepts both shapes.
+
+Transmissions (lineage edges) carry source attribution via the
+authored `sourceIds[]` arrays in
+`scripts/data/korean-vietnamese-masters.ts`,
+`scripts/data/maezumi-lineage.ts`, and
+`scripts/data/deshimaru-lineage.ts`. The seeder writes one
+`citations` row per source ID with `entity_type='master_transmission'`.
+The audit reports edges with no citation row.
+
+Image-citation rules (Wikipedia pageimage vs Commons manual
+verification) are documented in the **Image pipeline** section above
+and `memory/feedback_image_quality_validation.md`.
+
 ## Audit
 
 Run `DATABASE_URL=file:zen.db npx tsx scripts/check-exit-criteria.ts`
@@ -102,3 +137,6 @@ after any substantive data change. Target state:
 - 100% biographies cited
 - 100% teachings cited
 - 0 uncited temples
+- 0 schools / timeline events with uncited paragraphs
+- Transmissions lacking citation rows: bounded (canonical-imported
+  edges may still trail; track is moving toward 0)

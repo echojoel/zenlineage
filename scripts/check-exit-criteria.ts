@@ -25,6 +25,8 @@ import {
   temples,
 } from "@/db/schema";
 import { getTier1Entry, getTier1Slugs } from "@/lib/editorial-tiers";
+import { getSchoolDefinitions } from "@/lib/school-taxonomy";
+import { TIMELINE_ERAS } from "@/lib/timeline-editorial";
 import { getRawDatasetConfig, getRawTeachingDatasetConfig } from "./raw-dataset-config";
 import { assessCoverageAudit } from "./coverage-audit-status";
 
@@ -192,6 +194,111 @@ function auditRawDatasets(input: {
   return [...masterAudits, ...teachingAudits];
 }
 
+const FOOTNOTE_MARKER_RE = /\[(\d{1,3})\]/g;
+
+/**
+ * For each `\n\n`-separated paragraph in `prose`, returns paragraphs
+ * that contain zero footnote markers. The audit requires paragraph-level
+ * citation density: every prose block must cite at least once.
+ */
+function findUncitedParagraphs(prose: string | undefined | null): number[] {
+  if (!prose) return [];
+  const paragraphs = prose.split(/\n\n+/);
+  const offenders: number[] = [];
+  paragraphs.forEach((paragraph, index) => {
+    const trimmed = paragraph.trim();
+    if (trimmed.length === 0) return;
+    const markers = trimmed.match(FOOTNOTE_MARKER_RE);
+    if (!markers || markers.length === 0) {
+      offenders.push(index + 1);
+    }
+  });
+  return offenders;
+}
+
+/**
+ * Returns marker numbers `[N]` referenced in prose that have no matching
+ * footnote entry in the school's `footnotes[]` array (or timeline event's
+ * citations[] array).
+ */
+function findUnresolvedMarkers(
+  prose: string | undefined | null,
+  knownIndexes: Set<number>
+): number[] {
+  if (!prose) return [];
+  const referenced = new Set<number>();
+  for (const match of prose.matchAll(FOOTNOTE_MARKER_RE)) {
+    referenced.add(Number(match[1]));
+  }
+  return Array.from(referenced).filter((n) => !knownIndexes.has(n)).sort((a, b) => a - b);
+}
+
+interface SchoolAuditOffender {
+  slug: string;
+  reason: string;
+}
+
+function auditSchoolCitations(): SchoolAuditOffender[] {
+  const offenders: SchoolAuditOffender[] = [];
+  for (const school of getSchoolDefinitions()) {
+    const known = new Set((school.footnotes ?? []).map((f) => f.index));
+    for (const field of ["summary", "practice", "mastersIntro"] as const) {
+      const prose = school[field];
+      if (!prose) continue;
+      const uncitedParagraphs = findUncitedParagraphs(prose);
+      if (uncitedParagraphs.length > 0) {
+        offenders.push({
+          slug: school.slug,
+          reason: `${field}: paragraphs ${uncitedParagraphs.join(",")} have no [N]`,
+        });
+      }
+      const unresolved = findUnresolvedMarkers(prose, known);
+      if (unresolved.length > 0) {
+        offenders.push({
+          slug: school.slug,
+          reason: `${field}: markers [${unresolved.join("], [")}] unresolved`,
+        });
+      }
+    }
+  }
+  return offenders;
+}
+
+interface TimelineAuditOffender {
+  id: string;
+  reason: string;
+}
+
+function auditTimelineCitations(): TimelineAuditOffender[] {
+  const offenders: TimelineAuditOffender[] = [];
+  for (const era of TIMELINE_ERAS) {
+    for (const event of era.events) {
+      const known = new Set(
+        event.citations
+          .map((c, i) => {
+            const anyCitation = c as unknown as { index?: number };
+            return typeof anyCitation.index === "number" ? anyCitation.index : i + 1;
+          })
+      );
+      const uncitedParagraphs = findUncitedParagraphs(event.description);
+      if (uncitedParagraphs.length > 0) {
+        offenders.push({
+          id: event.id,
+          reason: `paragraphs ${uncitedParagraphs.join(",")} have no [N]`,
+        });
+      }
+      const unresolved = findUnresolvedMarkers(event.description, known);
+      if (unresolved.length > 0) {
+        offenders.push({
+          id: event.id,
+          reason: `markers [${unresolved.join("], [")}] unresolved`,
+        });
+      }
+    }
+  }
+  return offenders;
+}
+
 async function main() {
   const [
     allMasters,
@@ -247,6 +354,7 @@ async function main() {
       .from(mediaAssets),
     db
       .select({
+        id: masterTransmissions.id,
         studentId: masterTransmissions.studentId,
         teacherId: masterTransmissions.teacherId,
       })
@@ -638,6 +746,53 @@ async function main() {
         console.log(`  note: ${note}`);
       }
     }
+  }
+
+  // ── Citation density gates ───────────────────────────────────────────
+  // Schools: every paragraph of summary/practice/mastersIntro must
+  // carry a [N] marker resolving to a footnote. Timeline events: same
+  // rule for description. Transmissions: every master_transmission row
+  // must have at least one citation row.
+  const schoolOffenders = auditSchoolCitations();
+  const timelineOffenders = auditTimelineCitations();
+  const transmissionCitedKeys = new Set(
+    allCitations
+      .filter((citation) => citation.entityType === "master_transmission")
+      .map((citation) => citation.entityId)
+  );
+  const uncitedTransmissions = allTransmissions
+    .filter((edge) => !transmissionCitedKeys.has(edge.id))
+    .map((edge) => edge.id)
+    .sort();
+
+  console.log("\nCitation density");
+  printMetric(
+    "Schools with uncited paragraphs",
+    `${schoolOffenders.length} (of ${getSchoolDefinitions().length})`
+  );
+  if (schoolOffenders.length > 0) {
+    printMetric(
+      "  School offenders",
+      preview(schoolOffenders.map((o) => `${o.slug} — ${o.reason}`))
+    );
+  }
+  const totalEvents = TIMELINE_ERAS.reduce((sum, era) => sum + era.events.length, 0);
+  printMetric(
+    "Timeline events with uncited paragraphs",
+    `${timelineOffenders.length} (of ${totalEvents})`
+  );
+  if (timelineOffenders.length > 0) {
+    printMetric(
+      "  Timeline offenders",
+      preview(timelineOffenders.map((o) => `${o.id} — ${o.reason}`))
+    );
+  }
+  printMetric(
+    "Transmissions lacking citation rows",
+    `${uncitedTransmissions.length} / ${allTransmissions.length}`
+  );
+  if (uncitedTransmissions.length > 0) {
+    printMetric("  Transmission offenders", preview(uncitedTransmissions));
   }
 
   console.log("\nCoverage gaps");
