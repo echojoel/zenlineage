@@ -303,25 +303,28 @@ function auditTimelineCitations(): TimelineAuditOffender[] {
 interface BiographyAuditOffender {
   slug: string;
   reason: string;
+  tier1: boolean;
 }
 
 /**
- * Paragraph-density gate for tier-1 master biographies. Every
+ * Paragraph-density gate for master biographies. Every
  * `\n\n`-separated paragraph in `content` must carry at least one `[N]`
  * marker, and every `[N]` referenced in prose must resolve to an entry in
- * `footnotes`. Tier-1-only to keep scope tight; later tiers may be added
- * once the editorial backlog catches up.
+ * `footnotes`. Runs against ALL biographies; the audit prints tier-1
+ * offenders and the full-corpus count separately so editorial work can
+ * prioritise tier-1 without hiding the wider backlog.
  */
 function auditBiographyCitations(): BiographyAuditOffender[] {
   const offenders: BiographyAuditOffender[] = [];
   for (const bio of BIOGRAPHIES) {
-    if (!isTier1Master(bio.slug)) continue;
+    const tier1 = isTier1Master(bio.slug);
     const known = new Set((bio.footnotes ?? []).map((f) => f.index));
     const uncitedParagraphs = findUncitedParagraphs(bio.content);
     if (uncitedParagraphs.length > 0) {
       offenders.push({
         slug: bio.slug,
         reason: `content: paragraphs ${uncitedParagraphs.join(",")} have no [N]`,
+        tier1,
       });
     }
     const unresolved = findUnresolvedMarkers(bio.content, known);
@@ -329,6 +332,7 @@ function auditBiographyCitations(): BiographyAuditOffender[] {
       offenders.push({
         slug: bio.slug,
         reason: `content: markers [${unresolved.join("], [")}] unresolved`,
+        tier1,
       });
     }
   }
@@ -825,14 +829,29 @@ async function main() {
     );
   }
   const tier1BioCount = BIOGRAPHIES.filter((b) => isTier1Master(b.slug)).length;
+  const tier1BioOffenders = biographyOffenders.filter((o) => o.tier1);
   printMetric(
-    "Biographies with uncited paragraphs",
-    `${biographyOffenders.length} (of ${tier1BioCount} tier-1 biographies)`
+    "Tier-1 bios with uncited paragraphs",
+    `${tier1BioOffenders.length} (of ${tier1BioCount} tier-1 biographies)`
   );
-  if (biographyOffenders.length > 0) {
+  if (tier1BioOffenders.length > 0) {
     printMetric(
-      "  Biography offenders",
-      preview(biographyOffenders.map((o) => `${o.slug} — ${o.reason}`))
+      "  Tier-1 bio offenders",
+      preview(tier1BioOffenders.map((o) => `${o.slug} — ${o.reason}`))
+    );
+  }
+  printMetric(
+    "All bios with uncited paragraphs",
+    `${biographyOffenders.length} (of ${BIOGRAPHIES.length} biographies)`
+  );
+  if (biographyOffenders.length > tier1BioOffenders.length) {
+    printMetric(
+      "  Non-tier-1 bio offenders",
+      preview(
+        biographyOffenders
+          .filter((o) => !o.tier1)
+          .map((o) => `${o.slug} — ${o.reason}`)
+      )
     );
   }
   printMetric(
