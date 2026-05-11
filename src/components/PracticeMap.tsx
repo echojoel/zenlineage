@@ -248,29 +248,16 @@ export default function PracticeMap({ initialSchool, selectedSchool }: PracticeM
         });
       }
 
-      // Click a cluster: zoom in
-      map.on("click", "temples-clusters", (e) => {
-        const clusterFeatures = map.queryRenderedFeatures(e.point, {
-          layers: ["temples-clusters"],
-        }) as MapGeoJSONFeature[];
-        const cluster = clusterFeatures[0];
-        if (!cluster) return;
-        const clusterId = cluster.properties?.cluster_id;
-        if (clusterId === undefined) return;
-        const source = map.getSource("temples") as GeoJSONSource | undefined;
-        if (!source) return;
-        source.getClusterExpansionZoom(clusterId as number).then((zoom) => {
-          const coords = (cluster.geometry as GeoJSON.Point).coordinates as [number, number];
-          map.easeTo({ center: coords, zoom });
-        });
-      });
+      // Tap-tolerance hitbox: 6px circles are unhittable with a fingertip,
+      // so we query a square around the tap point instead of using
+      // per-layer click handlers (which rely on hitting the painted pixel
+      // exactly). Coarse pointer devices (touch) get a larger box.
+      const isCoarsePointer =
+        typeof window !== "undefined" &&
+        window.matchMedia?.("(pointer: coarse)").matches;
+      const HITBOX_PX = isCoarsePointer ? 18 : 8;
 
-      // Click a temple: open popup. Both unclustered layers behave the
-      // same way — only one is visible at a time depending on whether a
-      // school is selected.
-      const onTempleClick = (e: maplibregl.MapMouseEvent & { features?: MapGeoJSONFeature[] }) => {
-        const feat = e.features?.[0];
-        if (!feat) return;
+      const openTemplePopup = (feat: MapGeoJSONFeature) => {
         const p = feat.properties ?? {};
         const coords = (feat.geometry as GeoJSON.Point).coordinates.slice() as [number, number];
         popupRef.current?.remove();
@@ -279,8 +266,59 @@ export default function PracticeMap({ initialSchool, selectedSchool }: PracticeM
           .setHTML(renderPopupHTML(p as Record<string, unknown>))
           .addTo(map);
       };
-      map.on("click", "temples-unclustered", onTempleClick);
-      map.on("click", "temples-filtered", onTempleClick);
+
+      const expandCluster = (cluster: MapGeoJSONFeature) => {
+        const clusterId = cluster.properties?.cluster_id;
+        if (clusterId === undefined) return;
+        const source = map.getSource("temples") as GeoJSONSource | undefined;
+        if (!source) return;
+        source.getClusterExpansionZoom(clusterId as number).then((zoom) => {
+          const coords = (cluster.geometry as GeoJSON.Point).coordinates as [number, number];
+          map.easeTo({ center: coords, zoom });
+        });
+      };
+
+      map.on("click", (e) => {
+        const { x, y } = e.point;
+        const bbox: [maplibregl.PointLike, maplibregl.PointLike] = [
+          [x - HITBOX_PX, y - HITBOX_PX],
+          [x + HITBOX_PX, y + HITBOX_PX],
+        ];
+
+        // Prefer an unclustered temple under the finger (clusters are
+        // big enough to hit precisely; individual temples are the
+        // problem). If none in box, fall back to clusters in the same
+        // box so taps near a cluster edge still register.
+        const templeHits = map.queryRenderedFeatures(bbox, {
+          layers: ["temples-unclustered", "temples-filtered"],
+        }) as MapGeoJSONFeature[];
+        if (templeHits.length > 0) {
+          // Pick the closest one to the actual tap centre so two nearby
+          // points don't randomly fight for the tap.
+          const center = e.lngLat;
+          let best = templeHits[0]!;
+          let bestDist = Infinity;
+          for (const f of templeHits) {
+            const c = (f.geometry as GeoJSON.Point).coordinates as [number, number];
+            const dx = c[0] - center.lng;
+            const dy = c[1] - center.lat;
+            const d = dx * dx + dy * dy;
+            if (d < bestDist) {
+              bestDist = d;
+              best = f;
+            }
+          }
+          openTemplePopup(best);
+          return;
+        }
+
+        const clusterHits = map.queryRenderedFeatures(bbox, {
+          layers: ["temples-clusters"],
+        }) as MapGeoJSONFeature[];
+        if (clusterHits.length > 0) {
+          expandCluster(clusterHits[0]!);
+        }
+      });
     });
 
     return () => {
