@@ -366,6 +366,8 @@ export default async function MasterDetailPage({ params }: { params: Promise<{ s
       deathYear: masters.deathYear,
       deathPrecision: masters.deathPrecision,
       type: masterTransmissions.type,
+      isPrimary: masterTransmissions.isPrimary,
+      notes: masterTransmissions.notes,
     })
     .from(masterTransmissions)
     .innerJoin(masters, eq(masters.id, masterTransmissions.teacherId))
@@ -846,33 +848,92 @@ export default async function MasterDetailPage({ params }: { params: Promise<{ s
           </section>
         )}
 
-        {teachers.length > 0 && (
-          <section className="detail-card" id="lineage">
-            <h3 className="detail-section-title">
-              Teachers and lineage of {primaryName}
-            </h3>
-            <ul className="detail-link-list">
-              {teachers.map((t) => (
-                <li key={t.transmissionId}>
-                  <Link href={`/masters/${t.counterpartSlug}`}>
-                    {nameMap.get(t.counterpartId) ?? t.counterpartSlug}
-                  </Link>
-                  <span className="detail-list-meta">
-                    {t.type} · {formatLifeRange(t)}
-                  </span>
-                </li>
-              ))}
-            </ul>
-            <p className="detail-list-meta" style={{ marginTop: "0.8rem" }}>
-              <Link
-                className="detail-inline-link"
-                href={`/lineage/${master.slug}`}
-              >
-                Full lineage of {primaryName} &rarr;
-              </Link>
-            </p>
-          </section>
-        )}
+        {teachers.length > 0 && (() => {
+          // Split incoming edges into two display buckets:
+          //   - "Dharma transmission from": formal shihō (type='primary')
+          //     plus 'disputed' (historically contested transmissions)
+          //     plus 'dharma' editorial bridges where no primary edge exists.
+          //   - "Ordained by / trained under": discipleship without shihō
+          //     (type='secondary').
+          const primaryEdges = teachers.filter((t) => t.type === "primary");
+          const disputedEdges = teachers.filter((t) => t.type === "disputed");
+          const dharmaEdges = teachers.filter((t) => t.type === "dharma");
+          const secondaryEdges = teachers.filter((t) => t.type === "secondary");
+
+          const transmissionEdges = [
+            ...primaryEdges,
+            ...disputedEdges,
+            // Only show 'dharma' editorial bridges if there is no real
+            // primary edge — they exist as a fallback, not in addition.
+            ...(primaryEdges.length === 0 ? dharmaEdges : []),
+          ];
+
+          const renderTeacherItem = (t: (typeof teachers)[number]) => {
+            const relationshipLabel =
+              t.type === "primary"
+                ? t.isPrimary
+                  ? "Dharma transmission (shihō)"
+                  : "primary"
+                : t.type === "secondary"
+                  ? "ordained / trained under"
+                  : t.type === "dharma"
+                    ? "Dharma transmission (editorial bridge)"
+                    : t.type === "disputed"
+                      ? "transmission disputed"
+                      : t.type;
+            const subLine = t.notes && t.notes.trim().length > 0 ? t.notes : relationshipLabel;
+            return (
+              <li key={t.transmissionId}>
+                <Link
+                  href={`/masters/${t.counterpartSlug}`}
+                  title={relationshipLabel}
+                >
+                  {nameMap.get(t.counterpartId) ?? t.counterpartSlug}
+                </Link>
+                <span className="detail-list-meta">
+                  {subLine} · {formatLifeRange(t)}
+                </span>
+              </li>
+            );
+          };
+
+          return (
+            <section className="detail-card" id="lineage">
+              <h3 className="detail-section-title">
+                Teachers and lineage of {primaryName}
+              </h3>
+              {transmissionEdges.length > 0 && (
+                <>
+                  <h4 className="detail-subsection-title">Dharma transmission from:</h4>
+                  <ul className="detail-link-list">
+                    {transmissionEdges.map(renderTeacherItem)}
+                  </ul>
+                </>
+              )}
+              {secondaryEdges.length > 0 && (
+                <>
+                  <h4
+                    className="detail-subsection-title"
+                    style={transmissionEdges.length > 0 ? { marginTop: "1.2rem" } : undefined}
+                  >
+                    Ordained by / trained under:
+                  </h4>
+                  <ul className="detail-link-list">
+                    {secondaryEdges.map(renderTeacherItem)}
+                  </ul>
+                </>
+              )}
+              <p className="detail-list-meta" style={{ marginTop: "0.8rem" }}>
+                <Link
+                  className="detail-inline-link"
+                  href={`/lineage/${master.slug}`}
+                >
+                  Full lineage of {primaryName} &rarr;
+                </Link>
+              </p>
+            </section>
+          );
+        })()}
 
         {publishedWorks.length > 0 && (
           <section className="detail-card">

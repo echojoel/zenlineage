@@ -105,6 +105,13 @@ async function replaceMasterNames(masterId: string, master: KVMaster) {
 }
 
 async function upsertBiography(masterId: string, content: string) {
+  // An empty biography in the KVMaster is the convention for
+  // "transmission-only override" entries — masters whose canonical
+  // biography is already authored in scripts/seed-biographies.ts
+  // (and therefore seeded by seed-db.ts before this seeder runs).
+  // We must not overwrite an existing rich biography with a blank or
+  // stub string in those cases.
+  if (!content || content.trim().length === 0) return;
   const existing = await db
     .select({ id: masterBiographies.id })
     .from(masterBiographies)

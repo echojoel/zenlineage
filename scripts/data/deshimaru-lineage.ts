@@ -74,14 +74,97 @@ export const DESHIMARU_SOURCES: KVSource[] = [
 ];
 
 /**
- * Stub author entries for Sōtō / Sawaki teachers referenced as parents
- * by Branch D (Kishigami → Coupey 2008) and Branch E (Saikawa → Wang-Genh
- * 2001). Both are documented Sōtōshū prelates with public biographical
- * trails (Wikipedia, Sōtōshū Europe Office, Ryūmon-ji teachers page,
- * Sangha Sans Demeure publications). Authoring them here lets the
- * Branch D and Branch E patches resolve to a real master row.
+ * Stub author entries for Japanese Sōtō masters referenced as the
+ * actual shihō-giving teachers of Deshimaru's senior European disciples.
+ *
+ * Background: Taisen Deshimaru himself did not give formal dharma
+ * transmission (shihō) to any of his Western disciples — his Sōtō
+ * status was authenticated posthumously through Yamada Reidō and
+ * confirmed at Eihei-ji, and his closest disciples (Zeisler, Rech,
+ * Thibaut, Triet, Coupey, Wang-Genh, Bovay, …) received their shihō
+ * from a small handful of Japanese masters in the years after
+ * Deshimaru's 1982 death. The Deshimaru → X edges in this file record
+ * the ordination / discipleship relationship as `secondary`, while the
+ * actual shihō edges are recorded against the four masters below
+ * (Niwa Zenji, Yūkō Okamoto, Kishigami Kōjun, Dōshō Saikawa) as
+ * `primary` with isPrimary=true. This separation lets the lineage
+ * graph honestly distinguish "ordained by" from "received shihō from".
+ *
+ * Niwa  Rempō Zenji → Zeisler, Rech, Thibaut (1984 at Eihei-ji)
+ * Yūkō  Okamoto     → Triet (1997), Bovay (1998 at Teishōji)
+ * Kishigami Kōjun   → Coupey (31 August 2008, Dōjō Zen de Paris)
+ * Dōshō Saikawa     → Wang-Genh (2001)
  */
 const SOTO_PARENT_STUBS: KVMaster[] = [
+  {
+    slug: "niwa-rempo-zenji",
+    schoolSlug: "soto",
+    names: [
+      { locale: "en", nameType: "dharma", value: "Niwa Rempō Zenji" },
+      { locale: "en", nameType: "alias", value: "Renpō Niwa" },
+      { locale: "en", nameType: "alias", value: "Niwa Zenji" },
+      { locale: "ja", nameType: "dharma", value: "丹羽廉芳" },
+    ],
+    birthYear: 1905,
+    birthPrecision: "exact",
+    birthConfidence: "high",
+    deathYear: 1993,
+    deathPrecision: "exact",
+    deathConfidence: "high",
+    biography:
+      "Niwa Rempō Zenji (丹羽廉芳, 1905–1993) was a senior Japanese Sōtō master who served as the 77th abbot (kanchō) of Daihonzan Eihei-ji from 1985 until his death in 1993, after some five decades of monastic life at Eihei-ji proper[1]. Within twentieth-century Sōtōshū historiography he is remembered for two distinct things: his stewardship of Eihei-ji during the institutional consolidation of the modern Sōtō school, and his decisive role in formally authenticating Taisen Deshimaru's European mission after Deshimaru's 1982 death[1].\n\nIn 1984, two years after Deshimaru died, Niwa Zenji conferred dharma transmission (shihō) on three of Deshimaru's closest French disciples — Étienne Mokushō Zeisler, Roland Yuno Rech, and Stéphane Kōsen Thibaut — at Eihei-ji[1][2]. That single act of triple shihō is the formal Japanese-Sōtō recognition by which the entire Association Zen Internationale (AZI) line in Europe is institutionally anchored: where Deshimaru had operated until 1982 as an ordained Sōtō monk but without himself being authorised to transmit, the 1984 shihō from Eihei-ji's incoming abbot brought his three senior heirs inside the regular Sōtōshū succession and made it possible for them, in turn, to transmit forward[1].",
+    citations: [
+      {
+        sourceId: "src_wikipedia",
+        fieldName: "biography",
+        pageOrSection: "en.wikipedia.org — Taisen Deshimaru § Students: \"After Master Deshimaru's death, three of his closest disciples — Etienne Zeisler, Roland Rech, and Kosen Thibaut — traveled to Japan to receive shiho from Master Rempo Niwa Zenji\"",
+      },
+      {
+        sourceId: "src_sotozen_jp",
+        fieldName: "biography",
+        pageOrSection: "Sōtōshū Shūmuchō register — Niwa Rempō, 77th abbot of Eihei-ji 1985–1993",
+      },
+    ],
+    footnotes: [
+      { index: 1, sourceId: "src_wikipedia", pageOrSection: "en.wikipedia.org — Taisen Deshimaru § Students (1984 shihō to Zeisler / Rech / Thibaut)" },
+      { index: 2, sourceId: "src_sotozen_jp", pageOrSection: "Sōtōshū Shūmuchō — Eihei-ji abbacy register" },
+    ],
+    transmissions: [],
+  },
+  {
+    slug: "yuko-okamoto",
+    schoolSlug: "soto",
+    names: [
+      { locale: "en", nameType: "dharma", value: "Yūkō Okamoto" },
+      { locale: "en", nameType: "alias", value: "Yuko Okamoto" },
+      { locale: "en", nameType: "alias", value: "Okamoto Roshi" },
+    ],
+    birthYear: null,
+    birthPrecision: "unknown",
+    birthConfidence: "low",
+    deathYear: null,
+    deathPrecision: "unknown",
+    deathConfidence: "low",
+    biography:
+      "Yūkō Okamoto Roshi is a Japanese Sōtō master based at Teishōji and an intimate of Taisen Deshimaru's later generation of senior European disciples — described in the AZI biographical record of Raphaël Dōkō Triet as \"a friend of Master Deshimaru\"[1]. The publicly attested portion of his career runs principally through his role as a shihō-giving teacher for two of Deshimaru's senior heirs: he conferred dharma transmission on Raphaël Dōkō Triet in 1997[1], and on Michel Meihō Reikū Bovay at Teishōji in 1998[2]. Both transmissions anchor important branches of the AZI European Sōtō line — the Iberian / Andalusian Seikyūji and Lisbon networks (Triet) and the Swiss-German Zen Dōjō Zürich network (Bovay) — formally to the Japanese Sōtōshū through the Teishōji line.",
+    citations: [
+      {
+        sourceId: "src_azi",
+        fieldName: "biography",
+        pageOrSection: "zen-azi.org — Raphaël Dōkō Triet biography: \"In 1997, he received the Dharma transmission from Master Yuko Okamoto, a friend of Master Deshimaru\"",
+      },
+      {
+        sourceId: "src_dojo_lausanne",
+        fieldName: "biography",
+        pageOrSection: "Muijoji / zen.ch — Michel Reikū Bovay biography: \"shihō 1998 from Yūkō Okamoto Roshi at Teishōji\"",
+      },
+    ],
+    footnotes: [
+      { index: 1, sourceId: "src_azi", pageOrSection: "zen-azi.org — Raphaël Dōkō Triet biography (1997 transmission from Okamoto)" },
+      { index: 2, sourceId: "src_dojo_lausanne", pageOrSection: "Muijoji / zen.ch — Michel Reikū Bovay biography (1998 transmission at Teishōji)" },
+    ],
+    transmissions: [],
+  },
   {
     slug: "kishigami-kojun",
     schoolSlug: "soto",
