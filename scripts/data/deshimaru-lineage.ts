@@ -26,7 +26,24 @@
  * shape of `scripts/data/maezumi-lineage.ts`.
  */
 
-import type { KVMaster, KVSource } from "./korean-vietnamese-masters";
+import type {
+  KVCitation,
+  KVMaster,
+  KVSource,
+  KVTransmission,
+} from "./korean-vietnamese-masters";
+import { BRANCH_A_MASTERS } from "./deshimaru/branch-A";
+import { BRANCH_B_MASTERS } from "./deshimaru/branch-B";
+import { BRANCH_C_MASTERS } from "./deshimaru/branch-C";
+import {
+  BRANCH_D_MASTERS,
+  BRANCH_D_MASTER_PATCHES,
+} from "./deshimaru/branch-D";
+import {
+  BRANCH_E_MASTERS,
+  BRANCH_E_MASTER_PATCHES,
+} from "./deshimaru/branch-E";
+import { BRANCH_F_MASTERS } from "./deshimaru/branch-F";
 
 /**
  * Sources used by this dataset. All three are also referenced from
@@ -56,7 +73,99 @@ export const DESHIMARU_SOURCES: KVSource[] = [
   },
 ];
 
-export const DESHIMARU_MASTERS: KVMaster[] = [
+/**
+ * Stub author entries for Sōtō / Sawaki teachers referenced as parents
+ * by Branch D (Kishigami → Coupey 2008) and Branch E (Saikawa → Wang-Genh
+ * 2001). Both are documented Sōtōshū prelates with public biographical
+ * trails (Wikipedia, Sōtōshū Europe Office, Ryūmon-ji teachers page,
+ * Sangha Sans Demeure publications). Authoring them here lets the
+ * Branch D and Branch E patches resolve to a real master row.
+ */
+const SOTO_PARENT_STUBS: KVMaster[] = [
+  {
+    slug: "kishigami-kojun",
+    schoolSlug: "soto",
+    names: [
+      { locale: "en", nameType: "dharma", value: "Kōjun Kishigami" },
+      { locale: "en", nameType: "alias", value: "Kojun Kishigami" },
+      { locale: "ja", nameType: "dharma", value: "岸上耕巖" },
+    ],
+    birthYear: 1941,
+    birthPrecision: "exact",
+    birthConfidence: "high",
+    deathYear: null,
+    deathPrecision: "unknown",
+    deathConfidence: "low",
+    biography:
+      "Kōjun Kishigami (岸上耕巖, born 1941 in Kagawa Prefecture) is a Japanese Sōtō Zen monk, a direct disciple of Kōdō Sawaki Roshi, and the founder of the Jinkoan hermitage in Mie Prefecture[1]. He received dharma transmission (shihō) from Sawaki approximately one month before his master's death in December 1965, making him one of the youngest of Sawaki's recognised heirs[1].\n\nFollowing Sawaki's death he undertook a long period of training in Japan and Europe, and from the 1990s onward he was associated with the Sangha Sans Demeure / Zen Road network founded by Philippe Reiryū Coupey in Paris. On 31 August 2008, at the Dojo Zen de Paris, he conferred shihō on Coupey — the only publicly documented dharma transmission Kishigami has performed outside Japan, and the formal completion of a Sawaki → Kishigami → Coupey line that runs in parallel to the older Sawaki → Deshimaru → Coupey ordination line[2][3].",
+    citations: [
+      {
+        sourceId: "src_wikipedia",
+        fieldName: "biography",
+        pageOrSection: "fr.wikipedia.org — Kishigami Kojun (born 1941, Kagawa; shihō from Sawaki c. 1965)",
+      },
+      {
+        sourceId: "src_sangha_sans_demeure",
+        fieldName: "biography",
+        pageOrSection: "Sangha Sans Demeure — Kōjun Kishigami; 31 August 2008 transmission to Philippe Coupey at Dojo Zen de Paris",
+      },
+      {
+        sourceId: "src_zen_road",
+        fieldName: "biography",
+        pageOrSection: "Zen Road — Kōjun Kishigami biographical sketch",
+      },
+    ],
+    transmissions: [
+      {
+        teacherSlug: "kodo-sawaki",
+        type: "primary",
+        isPrimary: true,
+        sourceIds: ["src_wikipedia", "src_sangha_sans_demeure"],
+        notes:
+          "Dharma transmission (shihō) received from Kōdō Sawaki c. 1965, approximately one month before Sawaki's death.",
+      },
+    ],
+  },
+  {
+    slug: "dosho-saikawa",
+    schoolSlug: "soto",
+    names: [
+      { locale: "en", nameType: "dharma", value: "Dōshō Saikawa" },
+      { locale: "en", nameType: "alias", value: "Dosho Saikawa" },
+      { locale: "en", nameType: "alias", value: "Dōshō Saikawa Roshi" },
+    ],
+    birthYear: null,
+    birthPrecision: "unknown",
+    birthConfidence: "low",
+    deathYear: null,
+    deathPrecision: "unknown",
+    deathConfidence: "low",
+    biography:
+      "Dōshō Saikawa Roshi is a Japanese Sōtō Zen master, abbot of Hossen-ji in Yamagata Prefecture and currently abbot of Kasuisai in Shizuoka Prefecture — one of the largest monastic training temples of the modern Sōtō school[1]. For several years he was in charge of welcoming foreign visitors at Sōji-ji, one of the two head temples of Sōtō Zen, and spent nearly a decade in the United States serving in various Sōtō temples; this American period gave him an unusual fluency with non-Japanese practitioners by the standards of Sōtōshū prelates of his generation[1][2].\n\nIn 2001 he conferred dharma transmission (shihō) on the French monk Olivier Reigen Wang-Genh, founder of Kōsan Ryūmon-ji in Alsace — anchoring one of the principal European AZI temples in the modern Sōtōshū register[1][2][3]. The Brazilian Daissen-ji (São Paulo) is also listed by the Sōtōshū under his and Genshō Roshi's authority, suggesting at least one further non-Japanese transmission, though the details have not been independently verified outside the Sōtōshū directory.",
+    citations: [
+      {
+        sourceId: "src_ryumonji_alsace",
+        fieldName: "biography",
+        pageOrSection:
+          "meditation-zen.org/en/the-teachers — accessed 2026-05-11; verbatim: \"Master Dōshō Saikawa is the abbot of Hossen-ji Temple in Yamagata Prefecture, in the northwest of Japan. For several years, he was in charge of welcoming foreign visitors at Sōji-ji Temple. He spent nearly ten years in the United States, serving in various temples. He is now the abbot of Kasuisai, one of the largest monastic training temples in Japan.\"",
+      },
+      {
+        sourceId: "src_azi",
+        fieldName: "biography",
+        pageOrSection:
+          "zen-azi.org/en/olivier-reigen-wang-genh — accessed 2026-05-11; \"In 2001, he received the Dharma transmission from Master Dôshô Saikawa.\"",
+      },
+      {
+        sourceId: "src_sotozen_europe",
+        fieldName: "biography",
+        pageOrSection: "Sōtōshū directory — Hossen-ji (Yamagata), Kasuisai (Shizuoka), and the Brazilian Daissen-ji listed under Saikawa Roshi / Genshō Roshi.",
+      },
+    ],
+    transmissions: [],
+  },
+];
+
+const ORIGINAL_DESHIMARU_MASTERS: KVMaster[] = [
   {
     slug: "philippe-reiryu-coupey",
     schoolSlug: "soto",
@@ -128,16 +237,17 @@ export const DESHIMARU_MASTERS: KVMaster[] = [
       { locale: "en", nameType: "alias", value: "Michel Reiku Bovay" },
       { locale: "en", nameType: "alias", value: "Reikū Bovay" },
     ],
-    birthYear: 1949,
+    birthYear: 1944,
     birthPrecision: "exact",
     birthConfidence: "high",
     deathYear: 2009,
     deathPrecision: "exact",
     deathConfidence: "high",
     biography:
-      "Michel Reikū Bovay (1949–2009) was a Swiss Sōtō Zen monk in the Deshimaru lineage and the founder of the Zen Dōjō de Lausanne. He began zazen with Taisen Deshimaru in the early 1970s, was ordained as a monk by him, and became one of Deshimaru's closest Swiss-French disciples — part of the small group who took on the responsibility of holding the European Sōtō community together after the founder's death in 1982.\n\nBovay's most enduring contribution is on the page. With co-authors Lucien Marchand and Laurent Strim he wrote the 1987 introductory volume Zen (published in the \"Bref\" series of Éditions du Cerf), one of the very first comprehensive French-language presentations of the tradition's history, doctrine, and practice — a book that introduced an entire generation of French-speaking readers to AZI-style Sōtō. He continued for decades as one of the principal interpreters of Deshimaru's teaching for a Francophone lay audience.\n\nThrough his work in Lausanne and across French-speaking Switzerland he extended the AZI network into the Romandie (Geneva, Lausanne, Fribourg dōjōs) and trained a generation of Swiss practitioners. In 2022, thirteen years after his death, Éditions Le Relié published Deshimaru: Histoires vécues avec un maître zen — a posthumous collection of his memoirs of life and training under Deshimaru, the lifework of a chronicler completed by his sangha. Through these two books Bovay remains, alongside Pierre Crépon and Évelyne de Smedt, one of the principal first-generation French-language witnesses to Deshimaru's mission.",
+      "Michel Meihō Missen Reikū Bovay (1944–2009) was a Swiss Sōtō Zen monk in the Deshimaru lineage, born in Monthey in the Valais. He began zazen with Taisen Deshimaru in Paris in 1972, was ordained as a monk by him, and became one of Deshimaru's closest Swiss-French disciples — part of the small group who took on the responsibility of holding the European Sōtō community together after the founder's death in 1982.\n\nBovay's most enduring contribution is on the page. With co-authors Lucien Marchand and Laurent Strim he wrote the 1987 introductory volume Zen (published in the \"Bref\" series of Éditions du Cerf), one of the very first comprehensive French-language presentations of the tradition's history, doctrine, and practice — a book that introduced an entire generation of French-speaking readers to AZI-style Sōtō. He continued for decades as one of the principal interpreters of Deshimaru's teaching for a Francophone lay audience. From 1995 to 2003 he served as president of the Association Zen Internationale.\n\nReturning to Switzerland in 1985, Bovay re-established his teaching at the Zen Dōjō Zürich — the dōjō originally founded by Deshimaru in 1975 — and from there extended the AZI network across German- and French-speaking Switzerland, training a generation of Swiss practitioners. In 1998 he received dharma transmission (shihō) from Yūkō Okamoto Roshi at Teishōji in Japan. Following a serious illness, in 2007 he handed responsibility for the Zen Dōjō Zürich to his eldest disciple, the Zen nun Eishuku Monika Leibundgut, whom he supported until his death in 2009. In 2022, thirteen years after his death, Éditions Le Relié published Deshimaru: Histoires vécues avec un maître zen — a posthumous collection of his memoirs of life and training under Deshimaru. Through these two books Bovay remains, alongside Pierre Crépon and Évelyne de Smedt, one of the principal first-generation French-language witnesses to Deshimaru's mission.",
     citations: [
-      { sourceId: "src_azi", fieldName: "biography", pageOrSection: "Zen Dōjō de Lausanne — Maître Michel Reikū Bovay" },
+      { sourceId: "src_dojo_lausanne", fieldName: "biography", pageOrSection: "Muijoji / zen.ch — Meiho Missen Michel Bovay (born 1944, Monthey; primary seat Zen Dōjō Zürich; shihō 1998 from Yūkō Okamoto Roshi at Teishōji; AZI presidency 1995–2003; 2007 handover to Eishuku Monika Leibundgut)" },
+      { sourceId: "src_azi", fieldName: "biography", pageOrSection: "Zen Dōjō Zürich — Maître Michel Reikū Bovay" },
       { sourceId: "src_wikipedia", fieldName: "biography", pageOrSection: "Bibliographie de Taisen Deshimaru" },
     ],
     transmissions: [
@@ -146,7 +256,7 @@ export const DESHIMARU_MASTERS: KVMaster[] = [
         type: "primary",
         isPrimary: true,
         sourceIds: ["src_azi", "src_wikipedia"],
-        notes: "Ordained by Deshimaru; founder of the Zen Dōjō de Lausanne and a senior Swiss-French AZI teacher.",
+        notes: "Ordained by Deshimaru in the early 1970s; primary teaching seat from 1985 was the Zen Dōjō Zürich (originally founded by Deshimaru in 1975). Senior Swiss AZI teacher; AZI president 1995–2003.",
       },
     ],
   },
@@ -272,3 +382,107 @@ export const DESHIMARU_MASTERS: KVMaster[] = [
     ],
   },
 ];
+
+// ───────────────────────────────────────────────────────────────────────
+// Branch merge: combine ORIGINAL_DESHIMARU_MASTERS with the six branch
+// rosters (A–F) and the Sōtō / Sawaki parent stubs needed by Branch D
+// and Branch E patches. Duplicate slugs are reconciled by keeping the
+// later entry (which is typically the more thoroughly-cited branch
+// version) but merging in the original transmissions that the branch
+// version may not yet record.
+// ───────────────────────────────────────────────────────────────────────
+
+function dedupeMasters(masters: KVMaster[]): KVMaster[] {
+  const bySlug = new Map<string, KVMaster>();
+  for (const m of masters) {
+    const existing = bySlug.get(m.slug);
+    if (!existing) {
+      bySlug.set(m.slug, { ...m, transmissions: [...m.transmissions], citations: [...m.citations], names: [...m.names] });
+      continue;
+    }
+    // Prefer the later entry's biography/citations (branch versions are
+    // generally more thoroughly cited), but merge transmission edges so
+    // that secondary edges from one source survive alongside primary
+    // edges from another.
+    const merged: KVMaster = {
+      ...m,
+      names: dedupeNames([...existing.names, ...m.names]),
+      citations: [...existing.citations, ...m.citations],
+      transmissions: dedupeTransmissions([...existing.transmissions, ...m.transmissions]),
+    };
+    bySlug.set(m.slug, merged);
+  }
+  return Array.from(bySlug.values());
+}
+
+function dedupeNames(names: KVMaster["names"]): KVMaster["names"] {
+  const seen = new Set<string>();
+  const out: KVMaster["names"] = [];
+  for (const n of names) {
+    const key = `${n.locale}|${n.nameType}|${n.value}`;
+    if (seen.has(key)) continue;
+    seen.add(key);
+    out.push(n);
+  }
+  return out;
+}
+
+function dedupeTransmissions(txs: KVTransmission[]): KVTransmission[] {
+  const seen = new Map<string, KVTransmission>();
+  for (const t of txs) {
+    const key = `${t.teacherSlug}|${t.type}`;
+    if (!seen.has(key)) {
+      seen.set(key, t);
+    }
+  }
+  return Array.from(seen.values());
+}
+
+function applyMasterPatches(
+  masters: KVMaster[],
+  patches: {
+    slug: string;
+    addTransmissions?: KVTransmission[];
+    addCitations?: KVCitation[];
+  }[],
+  knownSlugs: Set<string>,
+): KVMaster[] {
+  const bySlug = new Map(masters.map((m) => [m.slug, m]));
+  for (const patch of patches) {
+    const target = bySlug.get(patch.slug);
+    if (!target) continue;
+    if (patch.addTransmissions) {
+      // Drop edges whose teacherSlug is unknown — graceful tolerance.
+      const filtered = patch.addTransmissions.filter((t) =>
+        knownSlugs.has(t.teacherSlug),
+      );
+      target.transmissions = dedupeTransmissions([
+        ...target.transmissions,
+        ...filtered,
+      ]);
+    }
+    if (patch.addCitations) {
+      target.citations = [...target.citations, ...patch.addCitations];
+    }
+  }
+  return masters;
+}
+
+const _allMasters: KVMaster[] = dedupeMasters([
+  ...ORIGINAL_DESHIMARU_MASTERS,
+  ...SOTO_PARENT_STUBS,
+  ...BRANCH_A_MASTERS,
+  ...BRANCH_B_MASTERS,
+  ...BRANCH_C_MASTERS,
+  ...BRANCH_D_MASTERS,
+  ...BRANCH_E_MASTERS,
+  ...BRANCH_F_MASTERS,
+]);
+
+const _knownSlugs = new Set(_allMasters.map((m) => m.slug));
+
+export const DESHIMARU_MASTERS: KVMaster[] = applyMasterPatches(
+  _allMasters,
+  [...BRANCH_D_MASTER_PATCHES, ...BRANCH_E_MASTER_PATCHES],
+  _knownSlugs,
+);

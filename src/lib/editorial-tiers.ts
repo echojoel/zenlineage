@@ -89,6 +89,80 @@ export const TIER_1_ENTRIES: EditorialTierEntry[] = [
   { slug: "dennis-genpo-merzel", tier: "tier1", reason: "modern_transmitter" },
   { slug: "jan-chozen-bays", tier: "tier1", reason: "modern_transmitter" },
   { slug: "gerry-shishin-wick", tier: "tier1", reason: "modern_transmitter" },
+
+  // Deshimaru lineage — founder + Sōtō / Sawaki parents + first generation
+  // (three Eihei-ji-confirmed shihō recipients in 1984) + second generation
+  // (every formally-transmitted European, American, and Latin-American
+  // successor in the AZI / Kosen Sangha / Mokushō Zen House / Kanshōji /
+  // Ryūmon-ji / Coupey / Livingston / Bovay neighbourhoods).
+  { slug: "kodo-sawaki", tier: "tier1", reason: "major_lineage_bridge" },
+  { slug: "taisen-deshimaru", tier: "tier1", reason: "founder" },
+  { slug: "kishigami-kojun", tier: "tier1", reason: "modern_transmitter" },
+  { slug: "dosho-saikawa", tier: "tier1", reason: "modern_transmitter" },
+  // — Three 1984 Eihei-ji shihō recipients
+  { slug: "stephane-kosen-thibaut", tier: "tier1", reason: "modern_transmitter" },
+  { slug: "etienne-mokusho-zeisler", tier: "tier1", reason: "modern_transmitter" },
+  { slug: "roland-rech", tier: "tier1", reason: "modern_transmitter" },
+  // — Other senior Deshimaru disciples (original 7 in deshimaru-lineage.ts)
+  { slug: "philippe-reiryu-coupey", tier: "tier1", reason: "modern_transmitter" },
+  { slug: "olivier-reigen-wang-genh", tier: "tier1", reason: "modern_transmitter" },
+  { slug: "michel-reiku-bovay", tier: "tier1", reason: "modern_transmitter" },
+  { slug: "evelyne-eko-de-smedt", tier: "tier1", reason: "modern_transmitter" },
+  { slug: "pierre-reigen-crepon", tier: "tier1", reason: "modern_transmitter" },
+  { slug: "jean-pierre-genshu-faure", tier: "tier1", reason: "modern_transmitter" },
+  { slug: "vincent-keisen-vuillemin", tier: "tier1", reason: "modern_transmitter" },
+  // — Triet's heirs and other senior disciples already in seed-biographies
+  { slug: "raphael-doko-triet", tier: "tier1", reason: "modern_transmitter" },
+  { slug: "yves-shoshin-crettaz", tier: "tier1", reason: "modern_transmitter" },
+  // — Branch A: Kōsen Sangha + Triet successors
+  { slug: "barbara-kosen-richaudeau", tier: "tier1", reason: "modern_transmitter" },
+  { slug: "andre-ryujo-meissner", tier: "tier1", reason: "modern_transmitter" },
+  { slug: "yvon-myoken-bec", tier: "tier1", reason: "modern_transmitter" },
+  { slug: "christophe-ryurin-desmur", tier: "tier1", reason: "modern_transmitter" },
+  { slug: "pierre-soko-leroux", tier: "tier1", reason: "modern_transmitter" },
+  { slug: "hugues-yusen-naas", tier: "tier1", reason: "modern_transmitter" },
+  { slug: "loic-kosho-vuillemin", tier: "tier1", reason: "modern_transmitter" },
+  { slug: "ingrid-gyuji-igelnick", tier: "tier1", reason: "modern_transmitter" },
+  { slug: "francoise-jomon-julien", tier: "tier1", reason: "modern_transmitter" },
+  { slug: "paula-reikiku-femenias", tier: "tier1", reason: "modern_transmitter" },
+  { slug: "ariadna-dosei-labbate", tier: "tier1", reason: "modern_transmitter" },
+  { slug: "toshiro-taigen-yamauchi", tier: "tier1", reason: "modern_transmitter" },
+  { slug: "begona-kaido-agiriano", tier: "tier1", reason: "modern_transmitter" },
+  // — Branch B: Yuno Rech mainline (2010–2024)
+  { slug: "patrick-pargnien", tier: "tier1", reason: "modern_transmitter" },
+  { slug: "heinz-juergen-metzger", tier: "tier1", reason: "modern_transmitter" },
+  { slug: "sengyo-van-leuven", tier: "tier1", reason: "modern_transmitter" },
+  { slug: "emanuela-dosan-losi", tier: "tier1", reason: "modern_transmitter" },
+  { slug: "pascal-olivier-reynaud", tier: "tier1", reason: "modern_transmitter" },
+  { slug: "michel-jigen-fabra", tier: "tier1", reason: "modern_transmitter" },
+  { slug: "konrad-kosan-maquestieau", tier: "tier1", reason: "modern_transmitter" },
+  { slug: "lluis-nansen-salas", tier: "tier1", reason: "modern_transmitter" },
+  { slug: "claude-emon-cannizzo", tier: "tier1", reason: "modern_transmitter" },
+  { slug: "antonio-taishin-arana", tier: "tier1", reason: "modern_transmitter" },
+  { slug: "alonso-taikai-ufano", tier: "tier1", reason: "modern_transmitter" },
+  { slug: "antoine-charlot", tier: "tier1", reason: "modern_transmitter" },
+  { slug: "marc-chigen-esteban", tier: "tier1", reason: "modern_transmitter" },
+  { slug: "eveline-kogen-pascual", tier: "tier1", reason: "modern_transmitter" },
+  { slug: "beppe-mokuza-signoritti", tier: "tier1", reason: "modern_transmitter" },
+  { slug: "huguette-moku-myo-sirejol", tier: "tier1", reason: "modern_transmitter" },
+  { slug: "jean-pierre-reiseki-romain", tier: "tier1", reason: "modern_transmitter" },
+  { slug: "sergio-gyoho-gurevich", tier: "tier1", reason: "modern_transmitter" },
+  { slug: "luc-sojo-bordes", tier: "tier1", reason: "modern_transmitter" },
+  { slug: "silvia-hoju-leyer", tier: "tier1", reason: "modern_transmitter" },
+  { slug: "claus-heiki-bockbreder", tier: "tier1", reason: "modern_transmitter" },
+  // — Branch C: Mokushō Zen House (Zeisler-line successors via Bec)
+  { slug: "maria-teresa-shogetsu-avila", tier: "tier1", reason: "modern_transmitter" },
+  { slug: "ionut-koshin-nedelcu", tier: "tier1", reason: "modern_transmitter" },
+  { slug: "laszlo-toryu-kalman", tier: "tier1", reason: "modern_transmitter" },
+  // — Branch D: Sangha Sans Demeure / Coupey
+  { slug: "patrick-ferrieux", tier: "tier1", reason: "modern_transmitter" },
+  // — Branch E: Kōsan Ryūmon-ji (Wang-Genh)
+  { slug: "konrad-tenkan-beck", tier: "tier1", reason: "modern_transmitter" },
+  // — Branch F: American line (NOZT) + Bovay-line successor
+  { slug: "robert-livingston", tier: "tier1", reason: "modern_transmitter" },
+  { slug: "richard-reishin-collins", tier: "tier1", reason: "modern_transmitter" },
+  { slug: "tony-bland", tier: "tier1", reason: "modern_transmitter" },
+  { slug: "monika-leibundgut", tier: "tier1", reason: "modern_transmitter" },
 ];
 
 const TIER_1_ENTRY_BY_SLUG = new Map(TIER_1_ENTRIES.map((entry) => [entry.slug, entry]));
