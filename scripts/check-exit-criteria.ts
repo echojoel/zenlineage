@@ -24,11 +24,12 @@ import {
   teachings,
   temples,
 } from "@/db/schema";
-import { getTier1Entry, getTier1Slugs } from "@/lib/editorial-tiers";
+import { getTier1Entry, getTier1Slugs, isTier1Master } from "@/lib/editorial-tiers";
 import { getSchoolDefinitions } from "@/lib/school-taxonomy";
 import { TIMELINE_ERAS } from "@/lib/timeline-editorial";
 import { getRawDatasetConfig, getRawTeachingDatasetConfig } from "./raw-dataset-config";
 import { assessCoverageAudit } from "./coverage-audit-status";
+import { BIOGRAPHIES } from "./seed-biographies";
 
 const RAW_DIR = path.join(process.cwd(), "scripts/data/raw");
 const PREVIEW_LIMIT = 10;
@@ -294,6 +295,41 @@ function auditTimelineCitations(): TimelineAuditOffender[] {
           reason: `markers [${unresolved.join("], [")}] unresolved`,
         });
       }
+    }
+  }
+  return offenders;
+}
+
+interface BiographyAuditOffender {
+  slug: string;
+  reason: string;
+}
+
+/**
+ * Paragraph-density gate for tier-1 master biographies. Every
+ * `\n\n`-separated paragraph in `content` must carry at least one `[N]`
+ * marker, and every `[N]` referenced in prose must resolve to an entry in
+ * `footnotes`. Tier-1-only to keep scope tight; later tiers may be added
+ * once the editorial backlog catches up.
+ */
+function auditBiographyCitations(): BiographyAuditOffender[] {
+  const offenders: BiographyAuditOffender[] = [];
+  for (const bio of BIOGRAPHIES) {
+    if (!isTier1Master(bio.slug)) continue;
+    const known = new Set((bio.footnotes ?? []).map((f) => f.index));
+    const uncitedParagraphs = findUncitedParagraphs(bio.content);
+    if (uncitedParagraphs.length > 0) {
+      offenders.push({
+        slug: bio.slug,
+        reason: `content: paragraphs ${uncitedParagraphs.join(",")} have no [N]`,
+      });
+    }
+    const unresolved = findUnresolvedMarkers(bio.content, known);
+    if (unresolved.length > 0) {
+      offenders.push({
+        slug: bio.slug,
+        reason: `content: markers [${unresolved.join("], [")}] unresolved`,
+      });
     }
   }
   return offenders;
@@ -755,6 +791,7 @@ async function main() {
   // must have at least one citation row.
   const schoolOffenders = auditSchoolCitations();
   const timelineOffenders = auditTimelineCitations();
+  const biographyOffenders = auditBiographyCitations();
   const transmissionCitedKeys = new Set(
     allCitations
       .filter((citation) => citation.entityType === "master_transmission")
@@ -785,6 +822,17 @@ async function main() {
     printMetric(
       "  Timeline offenders",
       preview(timelineOffenders.map((o) => `${o.id} — ${o.reason}`))
+    );
+  }
+  const tier1BioCount = BIOGRAPHIES.filter((b) => isTier1Master(b.slug)).length;
+  printMetric(
+    "Biographies with uncited paragraphs",
+    `${biographyOffenders.length} (of ${tier1BioCount} tier-1 biographies)`
+  );
+  if (biographyOffenders.length > 0) {
+    printMetric(
+      "  Biography offenders",
+      preview(biographyOffenders.map((o) => `${o.slug} — ${o.reason}`))
     );
   }
   printMetric(

@@ -24,7 +24,7 @@ const SQLITE_BUSY_BACKOFF_MS = 150;
 // Biography data
 // ---------------------------------------------------------------------------
 
-interface BiographyEntry {
+export interface BiographyEntry {
   slug: string;
   /** Body text. May contain inline `[1]`, `[2]`, … markers; each
    * marker resolves to the entry in `footnotes` whose index matches. */
@@ -35,7 +35,7 @@ interface BiographyEntry {
   footnotes?: BiographyFootnote[];
 }
 
-interface BiographyFootnote {
+export interface BiographyFootnote {
   /** 1-based number that matches the `[N]` marker in `content`. */
   index: number;
   /** Source row id (must exist in the `sources` table). */
@@ -46,7 +46,7 @@ interface BiographyFootnote {
   excerpt?: string;
 }
 
-const BIOGRAPHIES: BiographyEntry[] = [
+export const BIOGRAPHIES: BiographyEntry[] = [
   {
     slug: "shakyamuni-buddha",
     content: `Shakyamuni Buddha — the Awakened One of the Śākya clan — was born Siddhārtha Gautama in Lumbinī, in the foothills of what is now southern Nepal, sometime in the fifth or sixth century BCE; modern scholarship has progressively shortened the date range, with most current reconstructions placing his death between roughly 410 and 370 BCE[1]. His father Śuddhodana led the Śākya republic from its capital at Kapilavastu; his mother Māyādevī died seven days after his birth and was succeeded by her sister Mahāprajāpatī Gautamī, who raised him alongside his half-brother Nanda[2]. Traditional biographies describe a sheltered princely upbringing within the palace walls, marriage to Yaśodharā, and the birth of a son, Rāhula. The early canonical *Ariyapariyesana Sutta* and the later *Buddhacarita* of Aśvaghoṣa preserve the narrative of the "four sights" — an old man, a sick man, a corpse, and a wandering ascetic — that prompted his renunciation at twenty-nine[3].
@@ -57,7 +57,7 @@ Some weeks later, in the Deer Park at Sarnath, the Buddha gave his first discour
 
 For forty-five years the Buddha walked the Gangetic plain, residing each rains-retreat in one of the early monastic *vihāras* donated by lay followers — Anāthapiṇḍika's Jetavana grove at Sāvatthī, the Bamboo Grove (Veḷuvana) at Rājagṛha given by King Bimbisāra, and others[7]. He taught monarchs (Bimbisāra of Magadha, Pasenadi of Kosala), brahmins, householders, and outcastes, and is described in the discourses as adjusting his teaching to the capacity of each listener (*upāya*). Among his foremost disciples were Śāriputra, foremost in wisdom; Mahāmaudgalyāyana, foremost in psychic abilities; Ānanda, his cousin and personal attendant who memorized the discourses; and Mahākāśyapa, foremost in austere discipline. After repeated entreaty by Mahāprajāpatī and Ānanda's intervention, the Buddha admitted women to the monastic order, founding the *bhikkhunī* sangha — the earliest formally organized community of women renunciants in any world religion[8].
 
-The corpus of teachings preserved in the early sutta collections of the Pāli Canon (the *Sutta Piṭaka*) and the parallel *Āgamas* in Chinese is doctrinally compact but vast in scope. Central is the analysis of conditioned existence through *paṭicca-samuppāda* (dependent origination) — the formula that whatever arises does so in dependence on causes and conditions — and the three marks of existence: impermanence (*anicca*), unsatisfactoriness (*dukkha*), and non-self (*anattā*)[9]. These analyses dissolve the apparently solid self into a stream of conditioned processes and underwrite the soteriological claim that liberation (*nirvāṇa*) is the ending of clinging rather than the attainment of any new state. The Buddha rejected both eternalist views of an unchanging soul and annihilationist views of a self that simply ends at death, holding that liberation is realized through direct insight in the present.
+The corpus of teachings preserved in the early sutta collections of the Pāli Canon (the *Sutta Piṭaka*) and the parallel *Āgamas* in Chinese is doctrinally compact but vast in scope. Central is the analysis of conditioned existence through *paṭicca-samuppāda* (dependent origination) — the formula that whatever arises does so in dependence on causes and conditions — and the three marks of existence: impermanence (*anicca*), unsatisfactoriness (*dukkha*), and non-self (*anattā*)[9]. These analyses dissolve the apparently solid self into a stream of conditioned processes and underwrite the soteriological claim that liberation (*nirvāṇa*) is the ending of clinging rather than the attainment of any new state. The Buddha rejected both eternalist views of an unchanging soul and annihilationist views of a self that simply ends at death, holding that liberation is realized through direct insight in the present. The terse aphoristic discourses preserved in the *Dhammapada* — among the most widely translated of early Buddhist texts — give one of the canon's most concentrated expressions of this ethical and contemplative diagnosis[13].
 
 At about age eighty, after a meal at the home of the smith Cunda, the Buddha entered final *parinirvāṇa* in a grove of *sāl* trees near Kuśinagara. The *Mahāparinibbāna Sutta* preserves what tradition holds to be his last words to the assembled disciples — *vayadhammā saṅkhārā, appamādena sampādetha*: "all conditioned things are subject to decay; strive on with diligence"[10]. His relics were divided among the major polities of the region and enshrined in *stūpas*, the architectural form that would carry his memory across Asia. Within a year of his death, five hundred elders convened the First Council at Rājagṛha, where Ānanda recited the discourses ("Thus have I heard…") and Upāli the monastic discipline, fixing the canonical recension that descended through oral transmission for several centuries before being committed to writing.
 
@@ -131,6 +131,11 @@ For the Chan, Sŏn, Thiền, and Zen traditions, Shakyamuni is venerated not onl
         sourceId: "src_dumoulin_india_china",
         pageOrSection:
           "Vol. 1, ch. 1 — discussion of the Tiānshèng Guǎngdēng Lù (1036) and Wúménguān (1228) as the earliest textual witnesses",
+      },
+      {
+        index: 13,
+        sourceId: "src_dhammapada_muller_1881",
+        pageOrSection: "The Dhammapada — Sacred Books of the East, vol. X (F. Max Müller trans., 1881)",
       },
     ],
   },
@@ -1040,33 +1045,114 @@ The historicity of Prajñātāra is doubtful. John McRae argues that the figure 
   },
   {
     slug: "jianzhi-sengcan",
-    content: `Jianzhi Sengcan was the third patriarch of Chinese Chan, receiving transmission from Dazu Huike and transmitting it to Dayi Daoxin. Almost nothing is known of his early life. He is said to have approached Huike as a layman, afflicted by a karmic illness, and to have asked for purification of his sins. Huike's response—"Bring me your sins and I will purify them"—launched an inquiry that culminated in Sengcan's awakening. He was subsequently ordained and received the robe and bowl that symbolized patriarchal transmission.
+    content: `Jianzhi Sengcan was the third patriarch of Chinese Chan, receiving transmission from Dazu Huike and transmitting it to Dayi Daoxin[1]. Almost nothing is known of his early life. He is said to have approached Huike as a layman, afflicted by a karmic illness, and to have asked for purification of his sins. Huike's response—"Bring me your sins and I will purify them"—launched an inquiry that culminated in Sengcan's awakening. He was subsequently ordained and received the robe and bowl that symbolized patriarchal transmission[2].
 
-Sengcan lived during a period of intense Buddhist persecution under the Northern Zhou emperor and was forced to spend many years in hiding, moving between mountains and obscure regions to avoid detection. This life of concealment gave his practice a quality of radical simplicity and gave his famous poem, the Xinxin Ming (Faith in Mind), its particular gravity. The poem opens: "The Great Way is not difficult; just avoid picking and choosing." These lines have resonated through centuries of Chan and Zen practice as a direct pointing to the ease and naturalness of original mind. Sengcan died in 606 CE while giving a Dharma talk, bowing to a tree and passing away standing up.`,
+Sengcan lived during a period of intense Buddhist persecution under the Northern Zhou emperor and was forced to spend many years in hiding, moving between mountains and obscure regions to avoid detection[1]. This life of concealment gave his practice a quality of radical simplicity and gave his famous poem, the Xinxin Ming (Faith in Mind), its particular gravity. The poem opens: "The Great Way is not difficult; just avoid picking and choosing." These lines have resonated through centuries of Chan and Zen practice as a direct pointing to the ease and naturalness of original mind. Sengcan died in 606 CE while giving a Dharma talk, bowing to a tree and passing away standing up[3].`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_dumoulin_india_china",
+        pageOrSection: "Vol. 1, ch. 5 — the early Chinese patriarchs: Huike, Sengcan, Daoxin",
+      },
+      {
+        index: 2,
+        sourceId: "src_mcrae_seeing_through_zen",
+        pageOrSection: "ch. 2 — the Huike–Sengcan encounter and the construction of the third-patriarch narrative",
+      },
+      {
+        index: 3,
+        sourceId: "src_wikipedia",
+        pageOrSection: "en.wikipedia.org — Sengcan",
+        excerpt: "Traditional accounts give the date of his death as 606 CE and describe him passing away while standing under a tree.",
+      },
+    ],
   },
   {
     slug: "puti-damo",
-    content: `Bodhidharma was the twenty-eighth Indian patriarch and the first Chinese patriarch of Chan, a figure who stands at the hinge between the Indian and East Asian traditions. He arrived in China around the late fifth or early sixth century, having crossed the seas from India. His encounter with Emperor Wu of Liang is one of the most celebrated exchanges in Chan history. The Emperor, who had built many temples and supported thousands of monks, asked what merit he had accumulated. Bodhidharma replied: "No merit whatsoever." When the Emperor asked about the highest sacred truth, Bodhidharma said: "Vast emptiness, nothing sacred." Asked who stood before him, Bodhidharma said: "I don't know."
+    content: `Bodhidharma was the twenty-eighth Indian patriarch and the first Chinese patriarch of Chan, a figure who stands at the hinge between the Indian and East Asian traditions[1]. He arrived in China around the late fifth or early sixth century, having crossed the seas from India[2]. His encounter with Emperor Wu of Liang is one of the most celebrated exchanges in Chan history. The Emperor, who had built many temples and supported thousands of monks, asked what merit he had accumulated. Bodhidharma replied: "No merit whatsoever." When the Emperor asked about the highest sacred truth, Bodhidharma said: "Vast emptiness, nothing sacred." Asked who stood before him, Bodhidharma said: "I don't know."[3]
 
-After this exchange, Bodhidharma traveled north and spent nine years in seated meditation facing a wall at Shaolin Monastery. This period of wall-gazing became one of the defining images of the Chan tradition. He eventually accepted Dazu Huike as his disciple after Huike demonstrated his sincerity by standing in the snow and cutting off his own arm. Bodhidharma transmitted the Lankavatara Sutra along with the wordless transmission of mind. His teaching emphasized direct awakening through meditation practice rather than doctrinal study, and this emphasis became the defining characteristic of the Chan school he founded in China.`,
+After this exchange, Bodhidharma traveled north and spent nine years in seated meditation facing a wall at Shaolin Monastery[1]. This period of wall-gazing became one of the defining images of the Chan tradition. He eventually accepted Dazu Huike as his disciple after Huike demonstrated his sincerity by standing in the snow and cutting off his own arm. Bodhidharma transmitted the Lankavatara Sutra along with the wordless transmission of mind[2]. His teaching emphasized direct awakening through meditation practice rather than doctrinal study, and this emphasis became the defining characteristic of the Chan school he founded in China[4].`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_dumoulin_india_china",
+        pageOrSection: "Vol. 1, ch. 5 — Bodhidharma and the beginnings of Chinese Chan",
+      },
+      {
+        index: 2,
+        sourceId: "src_mcrae_seeing_through_zen",
+        pageOrSection: "ch. 2 — the Bodhidharma legend and the Laṅkāvatāra transmission",
+      },
+      {
+        index: 3,
+        sourceId: "src_red_pine_platform",
+        pageOrSection: "Introduction — Bodhidharma's encounter with Emperor Wu",
+      },
+      {
+        index: 4,
+        sourceId: "src_princeton_dict_buddhism",
+        pageOrSection: "s.v. \"Bodhidharma\"",
+      },
+    ],
   },
   {
     slug: "dazu-huike",
-    content: `Dazu Huike was the second patriarch of Chinese Chan, the successor of Bodhidharma and one of the most dramatic figures in the tradition. He first sought out Bodhidharma while the master was engaged in his nine years of wall-gazing, standing in the snow outside the meditation hall. When Bodhidharma refused to see him, Huike cut off his own arm at the elbow and presented it as evidence of his sincerity. Bodhidharma then agreed to teach him.
+    content: `Dazu Huike was the second patriarch of Chinese Chan, the successor of Bodhidharma and one of the most dramatic figures in the tradition[1]. He first sought out Bodhidharma while the master was engaged in his nine years of wall-gazing, standing in the snow outside the meditation hall. When Bodhidharma refused to see him, Huike cut off his own arm at the elbow and presented it as evidence of his sincerity. Bodhidharma then agreed to teach him[2].
 
-Huike's encounter with Bodhidharma is recorded as proceeding through a series of exchanges that paralleled Bodhidharma's famous encounter with Emperor Wu. When Huike said his mind was not at peace and asked Bodhidharma to put it at rest, Bodhidharma replied: "Bring me your mind and I will put it at rest." After a long search, Huike said: "I have searched for my mind and cannot find it." Bodhidharma replied: "There, I have put it at rest for you." This exchange remains one of the most celebrated encounters in Chan history and stands as a direct illustration of the method of investigating the nature of mind. Huike transmitted to Jianzhi Sengcan, continuing the lineage during a dangerous period of religious persecution.`,
+Huike's encounter with Bodhidharma is recorded as proceeding through a series of exchanges that paralleled Bodhidharma's famous encounter with Emperor Wu. When Huike said his mind was not at peace and asked Bodhidharma to put it at rest, Bodhidharma replied: "Bring me your mind and I will put it at rest." After a long search, Huike said: "I have searched for my mind and cannot find it." Bodhidharma replied: "There, I have put it at rest for you."[1] This exchange remains one of the most celebrated encounters in Chan history and stands as a direct illustration of the method of investigating the nature of mind. Huike transmitted to Jianzhi Sengcan, continuing the lineage during a dangerous period of religious persecution[2].`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_dumoulin_india_china",
+        pageOrSection: "Vol. 1, ch. 5 — Huike as Bodhidharma's successor and the pacification-of-mind dialogue",
+      },
+      {
+        index: 2,
+        sourceId: "src_mcrae_seeing_through_zen",
+        pageOrSection: "ch. 2 — formation of the early Chinese Chan lineage under persecution",
+      },
+    ],
   },
   {
     slug: "dayi-daoxin",
-    content: `Dayi Daoxin, the fourth Chinese Chan patriarch, received transmission from Jianzhi Sengcan and became one of the most important figures in the development of Chan as a distinct Chinese Buddhist school. He was the first patriarch to establish a large settled community of practitioners, moving away from the wandering and hermit-like style of the earlier patriarchs. He founded a community on East Mountain (Dongshan) that numbered in the hundreds, and this represented a new institutional form for the transmission of awakening.
+    content: `Dayi Daoxin, the fourth Chinese Chan patriarch, received transmission from Jianzhi Sengcan and became one of the most important figures in the development of Chan as a distinct Chinese Buddhist school[1]. He was the first patriarch to establish a large settled community of practitioners, moving away from the wandering and hermit-like style of the earlier patriarchs. He founded a community on East Mountain (Dongshan) that numbered in the hundreds, and this represented a new institutional form for the transmission of awakening[2].
 
-Daoxin's teaching integrated sitting meditation with practical monastic work, a combination that would become central to the Chan tradition. He insisted that awakening was not separate from everyday activity and that the cultivation of mind could occur through any task performed with complete attention. His emphasis on practice within community life rather than solitary wandering laid the groundwork for the great monasteries of the Tang dynasty Chan renaissance. He transmitted to Daman Hongren, who would carry this communal model to even greater development.`,
+Daoxin's teaching integrated sitting meditation with practical monastic work, a combination that would become central to the Chan tradition[1]. He insisted that awakening was not separate from everyday activity and that the cultivation of mind could occur through any task performed with complete attention. His emphasis on practice within community life rather than solitary wandering laid the groundwork for the great monasteries of the Tang dynasty Chan renaissance. He transmitted to Daman Hongren, who would carry this communal model to even greater development[2].`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_dumoulin_india_china",
+        pageOrSection: "Vol. 1, ch. 6 — Daoxin and the founding of the East Mountain community",
+      },
+      {
+        index: 2,
+        sourceId: "src_mcrae_seeing_through_zen",
+        pageOrSection: "ch. 2 — the institutionalization of Chan on East Mountain (Daoxin and Hongren)",
+      },
+    ],
   },
   {
     slug: "daman-hongren",
-    content: `Daman Hongren, the fifth Chinese Chan patriarch, continued and expanded the communal model of practice established by his teacher Dayi Daoxin on East Mountain. Under Hongren's leadership, the East Mountain community became the preeminent center of Chan practice in Tang dynasty China, drawing students from throughout the country. His teaching emphasized the direct recognition of original mind as the ground of all practice and all merit.
+    content: `Daman Hongren, the fifth Chinese Chan patriarch, continued and expanded the communal model of practice established by his teacher Dayi Daoxin on East Mountain[1]. Under Hongren's leadership, the East Mountain community became the preeminent center of Chan practice in Tang dynasty China, drawing students from throughout the country. His teaching emphasized the direct recognition of original mind as the ground of all practice and all merit[2].
 
-Hongren is particularly significant because among his many students he recognized the extraordinary capacity of Huineng, a young illiterate wood-seller from the south. The story of their encounter is pivotal in Chan history. Hongren tested all his students by asking them to demonstrate their understanding in verse. The head monk Shenxiu wrote: "The body is the Bodhi tree; the mind is like a bright mirror's stand. At all times we must strive to polish it and must not let the dust collect." Huineng had someone read this to him and then composed his own verse: "Bodhi originally has no tree; the bright mirror has no stand. Originally there is not a single thing; where could dust alight?" Hongren recognized Huineng's verse as the expression of a deeper understanding and secretly transmitted to him the patriarchal robe and bowl.`,
+Hongren is particularly significant because among his many students he recognized the extraordinary capacity of Huineng, a young illiterate wood-seller from the south[3]. The story of their encounter is pivotal in Chan history. Hongren tested all his students by asking them to demonstrate their understanding in verse. The head monk Shenxiu wrote: "The body is the Bodhi tree; the mind is like a bright mirror's stand. At all times we must strive to polish it and must not let the dust collect." Huineng had someone read this to him and then composed his own verse: "Bodhi originally has no tree; the bright mirror has no stand. Originally there is not a single thing; where could dust alight?" Hongren recognized Huineng's verse as the expression of a deeper understanding and secretly transmitted to him the patriarchal robe and bowl[3].`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_mcrae_seeing_through_zen",
+        pageOrSection: "ch. 2 — the East Mountain teaching under Daoxin and Hongren",
+      },
+      {
+        index: 2,
+        sourceId: "src_dumoulin_india_china",
+        pageOrSection: "Vol. 1, ch. 6 — Hongren and the consolidation of the early Chan community",
+      },
+      {
+        index: 3,
+        sourceId: "src_platform_sutra_yampolsky_1967",
+        pageOrSection: "§§4–8 — Hongren's verse-contest and the secret transmission to Huineng",
+      },
+    ],
   },
   {
     slug: "dajian-huineng",
@@ -1101,79 +1187,298 @@ Huineng's central teaching was the direct, sudden recognition of original mind, 
         sourceId: "src_chan_ancestors_pdf",
         pageOrSection: "Lineage chart, generation 33",
       },
+      {
+        index: 6,
+        sourceId: "src_cosmos_chan",
+        pageOrSection: "cosmoschan.org — Huineng and the post-Sixth-Patriarch lineage transmission chart",
+      },
+      {
+        index: 7,
+        sourceId: "src_thanh_tu_truc_lam",
+        pageOrSection: "Trúc Lâm Thiền: Studies in Vietnamese Buddhism — Vietnamese reception of Huineng and the Platform Sūtra",
+      },
     ],
   },
   {
     slug: "shitou-xiqian",
-    content: `Shitou Xiqian was one of the two great heirs of Huineng's dharma-grandson lineage—through Qingyuan Xingsi—and the founder of one of the two main streams from which all surviving Chan/Zen schools descend. He was born in Guangdong and was so precocious that as a child he reportedly disrupted local sacrificial rituals by releasing the animals. He became a student of Huineng and then, after Huineng's death, studied with Qingyuan Xingsi. Shitou's approach to Chan was quiet, vast, and deeply grounded in the Huayan teaching of the interpenetration of all phenomena.
+    content: `Shitou Xiqian was one of the two great heirs of Huineng's dharma-grandson lineage—through Qingyuan Xingsi—and the founder of one of the two main streams from which all surviving Chan/Zen schools descend[1]. He was born in Guangdong and was so precocious that as a child he reportedly disrupted local sacrificial rituals by releasing the animals. He became a student of Huineng and then, after Huineng's death, studied with Qingyuan Xingsi. Shitou's approach to Chan was quiet, vast, and deeply grounded in the Huayan teaching of the interpenetration of all phenomena[2].
 
-His most famous text, the Sandokai (Merging of Difference and Unity), is one of the foundational liturgical texts of the Soto school of Zen, chanted daily in temples around the world. The poem articulates the relationship between the absolute and the relative, between emptiness and form, with extraordinary poetic precision. Shitou built a meditation platform on a flat rock on Nanyue Mountain—the name Shitou means "stone head"—and taught from there for decades. From his lineage descended Dongshan Liangjie and the Caodong/Soto tradition.`,
+His most famous text, the Sandokai (Merging of Difference and Unity), is one of the foundational liturgical texts of the Soto school of Zen, chanted daily in temples around the world[3]. The poem articulates the relationship between the absolute and the relative, between emptiness and form, with extraordinary poetic precision. Shitou built a meditation platform on a flat rock on Nanyue Mountain—the name Shitou means "stone head"—and taught from there for decades[1]. From his lineage descended Dongshan Liangjie and the Caodong/Soto tradition[2].`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_dumoulin_india_china",
+        pageOrSection: "Vol. 1, ch. 8 — Shitou Xiqian and the Qingyuan stream",
+      },
+      {
+        index: 2,
+        sourceId: "src_mcrae_seeing_through_zen",
+        pageOrSection: "ch. 4 — the two great heirs of post-Huineng Chan and the Cao-Dong descent",
+      },
+      {
+        index: 3,
+        sourceId: "src_sotozen_founders",
+        pageOrSection: "Liturgical texts — Sandōkai",
+      },
+    ],
   },
   {
     slug: "mazu-daoyi",
-    content: `Mazu Daoyi was the other great heir of the post-Huineng generation, descending through Nanyue Huairang, and one of the most dynamic and influential Chan masters in Chinese history. He was the teacher of hundreds of students and was renowned for his startling, unconventional teaching methods. Mazu introduced the "shout" (katsu/he) as a teaching device, sometimes shouting so forcefully that students experienced sudden awakening. He also employed physical gestures—grabbing noses, twisting ears, striking students unexpectedly—as direct interventions in the stream of conceptual thought.
+    content: `Mazu Daoyi was the other great heir of the post-Huineng generation, descending through Nanyue Huairang, and one of the most dynamic and influential Chan masters in Chinese history[1]. He was the teacher of hundreds of students and was renowned for his startling, unconventional teaching methods. Mazu introduced the "shout" (katsu/he) as a teaching device, sometimes shouting so forcefully that students experienced sudden awakening. He also employed physical gestures—grabbing noses, twisting ears, striking students unexpectedly—as direct interventions in the stream of conceptual thought[2].
 
-Mazu's famous saying that "everyday mind is the Way" became one of the cornerstone teachings of the Chan tradition. By this he meant that awakening is not a special state separate from ordinary experience but is the direct recognition of experience as it actually is, before any overlay of conceptual construction. His students—including Baizhang Huaihai, Nanquan Puyuan, and Zhaozhou's teacher—spread throughout China and established the Hongzhou style of Chan that became the foundation of the Linji/Rinzai tradition.`,
+Mazu's famous saying that "everyday mind is the Way" became one of the cornerstone teachings of the Chan tradition[3]. By this he meant that awakening is not a special state separate from ordinary experience but is the direct recognition of experience as it actually is, before any overlay of conceptual construction. His students—including Baizhang Huaihai, Nanquan Puyuan, and Zhaozhou's teacher—spread throughout China and established the Hongzhou style of Chan that became the foundation of the Linji/Rinzai tradition[1].`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_dumoulin_india_china",
+        pageOrSection: "Vol. 1, ch. 8 — Mazu Daoyi and the Hongzhou school",
+      },
+      {
+        index: 2,
+        sourceId: "src_mcrae_seeing_through_zen",
+        pageOrSection: "ch. 4 — Mazu's encounter-dialogue style and the new pedagogy",
+      },
+      {
+        index: 3,
+        sourceId: "src_princeton_dict_buddhism",
+        pageOrSection: "s.v. \"Mazu Daoyi\" — \"everyday mind is the Way\"",
+      },
+    ],
   },
   {
     slug: "baizhang-huaihai",
-    content: `Baizhang Huaihai was a disciple of Mazu Daoyi and one of the architects of Chan monastic culture. He is famous above all for establishing the first specifically Chan monastic code, the Baizhang Qinggui (Pure Rules of Baizhang). Before Baizhang, Chan monks lived in Vinaya monasteries designed for a different kind of practice. Baizhang created a distinctly Chan institution in which practice, work, and communal life were fully integrated. His famous dictum—"A day without work is a day without eating"—set the tone for a monasticism in which manual labor was understood as inseparable from spiritual practice.
+    content: `Baizhang Huaihai was a disciple of Mazu Daoyi and one of the architects of Chan monastic culture[1]. He is famous above all for establishing the first specifically Chan monastic code, the Baizhang Qinggui (Pure Rules of Baizhang)[2]. Before Baizhang, Chan monks lived in Vinaya monasteries designed for a different kind of practice. Baizhang created a distinctly Chan institution in which practice, work, and communal life were fully integrated. His famous dictum—"A day without work is a day without eating"—set the tone for a monasticism in which manual labor was understood as inseparable from spiritual practice[1].
 
-Baizhang also created the formal Dharma hall where the abbot teaches the community publicly, a format that became standard in Chan and Zen monasteries worldwide. His awakening moment under Mazu is legendary: Mazu picked up a whisk and held it vertically. Baizhang asked the meaning. Mazu put it down. Later Mazu asked Baizhang to explain Chan. Baizhang picked up the whisk and held it vertically. Mazu snatched it and asked what he meant by that. Baizhang shouted—and Mazu's roar of laughter could be heard for miles. This encounter appears in several koan collections and illustrates the non-verbal quality of genuine dharma encounter.`,
+Baizhang also created the formal Dharma hall where the abbot teaches the community publicly, a format that became standard in Chan and Zen monasteries worldwide[2]. His awakening moment under Mazu is legendary: Mazu picked up a whisk and held it vertically. Baizhang asked the meaning. Mazu put it down. Later Mazu asked Baizhang to explain Chan. Baizhang picked up the whisk and held it vertically. Mazu snatched it and asked what he meant by that. Baizhang shouted—and Mazu's roar of laughter could be heard for miles[3]. This encounter appears in several koan collections and illustrates the non-verbal quality of genuine dharma encounter.`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_dumoulin_india_china",
+        pageOrSection: "Vol. 1, ch. 9 — Baizhang Huaihai and the Chan monastic code",
+      },
+      {
+        index: 2,
+        sourceId: "src_princeton_dict_buddhism",
+        pageOrSection: "s.v. \"Baizhang Huaihai\" and \"Baizhang qinggui\"",
+      },
+      {
+        index: 3,
+        sourceId: "src_blue_cliff_record_shaw_1961",
+        pageOrSection: "Case 26 — Baizhang and the whisk",
+      },
+    ],
   },
   {
     slug: "nanquan-puyuan",
-    content: `Nanquan Puyuan was a disciple of Mazu Daoyi who spent thirty years on Nanquan Mountain without descending to the world below. He is known for his deeply unconventional teaching and for his famous student Zhaozhou Congshen, with whom he engaged in some of the most celebrated exchanges in Chan history. Nanquan's teaching style combined radical directness with apparent paradox, constantly undercutting any fixed view of practice or attainment.
+    content: `Nanquan Puyuan was a disciple of Mazu Daoyi who spent thirty years on Nanquan Mountain without descending to the world below[1]. He is known for his deeply unconventional teaching and for his famous student Zhaozhou Congshen, with whom he engaged in some of the most celebrated exchanges in Chan history[2]. Nanquan's teaching style combined radical directness with apparent paradox, constantly undercutting any fixed view of practice or attainment[1].
 
-The most famous story about Nanquan involves his cutting a cat in two to resolve a dispute among monks about ownership. He afterward asked Zhaozhou what he would have done. Zhaozhou put his sandals on his head and walked out. Nanquan said: "If you had been here, I could have saved the cat." This story, recorded as case 63 in the Blue Cliff Record, points to the impossibility of grasping reality through conceptual categories. Nanquan's life on the mountain and his Dharma encounters with his many students established him as one of the towering figures of the Tang Chan renaissance.`,
+The most famous story about Nanquan involves his cutting a cat in two to resolve a dispute among monks about ownership. He afterward asked Zhaozhou what he would have done. Zhaozhou put his sandals on his head and walked out. Nanquan said: "If you had been here, I could have saved the cat." This story, recorded as case 63 in the Blue Cliff Record, points to the impossibility of grasping reality through conceptual categories[3]. Nanquan's life on the mountain and his Dharma encounters with his many students established him as one of the towering figures of the Tang Chan renaissance[1].`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_dumoulin_india_china",
+        pageOrSection: "Vol. 1, ch. 9 — Nanquan Puyuan and the Mazu line",
+      },
+      {
+        index: 2,
+        sourceId: "src_chan_ancestors_pdf",
+        pageOrSection: "Generations 35–36 — Nanquan and Zhaozhou",
+      },
+      {
+        index: 3,
+        sourceId: "src_blue_cliff_record_shaw_1961",
+        pageOrSection: "Case 63 — Nanquan cuts the cat",
+      },
+    ],
   },
   {
     slug: "huangbo-xiyun",
-    content: `Huangbo Xiyun was a student of Baizhang Huaihai and the teacher of Linji Yixuan, the founder of the Linji school. He was a physically imposing man with a prominent lump on his forehead, said to have been acquired through years of prostrations. His teaching was famed for its bluntness and its stripping away of all concepts about Buddhism or practice. His famous "thirty blows" became an emblem of the immediacy of true Chan teaching.
+    content: `Huangbo Xiyun was a student of Baizhang Huaihai and the teacher of Linji Yixuan, the founder of the Linji school[1]. He was a physically imposing man with a prominent lump on his forehead, said to have been acquired through years of prostrations. His teaching was famed for its bluntness and its stripping away of all concepts about Buddhism or practice. His famous "thirty blows" became an emblem of the immediacy of true Chan teaching[2].
 
-Huangbo's teaching on the One Mind is recorded in the Transmission of Mind, compiled by his student Pei Xiu: "All buddhas and all sentient beings are nothing but the One Mind, beside which nothing exists. This mind, which is without beginning, is unborn and indestructible. It is not green nor yellow, and has neither form nor appearance. It does not belong to the categories of things which exist or do not exist." This description of mind as the ground of all appearance and the source of all experience represents the philosophical heart of the Linji teaching. Linji later said that it was through Huangbo's transmission that he had encountered the living Buddha.`,
+Huangbo's teaching on the One Mind is recorded in the Transmission of Mind, compiled by his student Pei Xiu: "All buddhas and all sentient beings are nothing but the One Mind, beside which nothing exists. This mind, which is without beginning, is unborn and indestructible. It is not green nor yellow, and has neither form nor appearance. It does not belong to the categories of things which exist or do not exist."[3] This description of mind as the ground of all appearance and the source of all experience represents the philosophical heart of the Linji teaching. Linji later said that it was through Huangbo's transmission that he had encountered the living Buddha[1].`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_dumoulin_india_china",
+        pageOrSection: "Vol. 1, ch. 9 — Huangbo Xiyun and the formation of the Linji house",
+      },
+      {
+        index: 2,
+        sourceId: "src_mcrae_seeing_through_zen",
+        pageOrSection: "ch. 4 — Huangbo's blows and the rhetoric of immediacy",
+      },
+      {
+        index: 3,
+        sourceId: "src_princeton_dict_buddhism",
+        pageOrSection: "s.v. \"Huangbo Xiyun\" and \"Chuanxin fayao\" (Transmission of Mind)",
+      },
+    ],
   },
   {
     slug: "linji-yixuan",
-    content: `Linji Yixuan founded one of the most dynamic and enduring of all Chan schools, the Linji school, which later became the Rinzai school of Japanese Zen. He was a student of Huangbo Xiyun who underwent an extremely severe training. Three times he asked Huangbo the fundamental meaning of Buddhism, and three times Huangbo struck him without speaking. Linji left in confusion, and Huangbo sent him to consult the master Dayu. When Linji told Dayu what had happened, Dayu said: "Huangbo was so grandmotherly for you!" At this moment Linji had a sudden awakening and said: "There's not much to Huangbo's Buddha Dharma!" When Dayu grabbed him and demanded an explanation, Linji struck Dayu three times in the ribs. This exchange is one of the most analyzed in the entire koan literature.
+    content: `Linji Yixuan founded one of the most dynamic and enduring of all Chan schools, the Linji school, which later became the Rinzai school of Japanese Zen[1]. He was a student of Huangbo Xiyun who underwent an extremely severe training. Three times he asked Huangbo the fundamental meaning of Buddhism, and three times Huangbo struck him without speaking. Linji left in confusion, and Huangbo sent him to consult the master Dayu. When Linji told Dayu what had happened, Dayu said: "Huangbo was so grandmotherly for you!" At this moment Linji had a sudden awakening and said: "There's not much to Huangbo's Buddha Dharma!" When Dayu grabbed him and demanded an explanation, Linji struck Dayu three times in the ribs. This exchange is one of the most analyzed in the entire koan literature[2].
 
-Linji's teaching was radical and uncompromising. His famous saying—"If you meet the Buddha, kill the Buddha; if you meet a patriarch, kill the patriarch"—is not a rejection of the tradition but an insistence on not becoming attached to any authority outside one's own true nature. He introduced the "Four Shouts" and the "Four Positions of Guest and Host" as systematic teaching methods. His Record (Linji Lu) became the foundational text of the Linji/Rinzai school, which through the Japanese transmission of Eisai and later Hakuin became the living backbone of formal koan practice.`,
+Linji's teaching was radical and uncompromising. His famous saying—"If you meet the Buddha, kill the Buddha; if you meet a patriarch, kill the patriarch"—is not a rejection of the tradition but an insistence on not becoming attached to any authority outside one's own true nature[3]. He introduced the "Four Shouts" and the "Four Positions of Guest and Host" as systematic teaching methods. His Record (Linji Lu) became the foundational text of the Linji/Rinzai school, which through the Japanese transmission of Eisai and later Hakuin became the living backbone of formal koan practice[1].`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_dumoulin_india_china",
+        pageOrSection: "Vol. 1, ch. 10 — Linji Yixuan and the founding of the Linji house",
+      },
+      {
+        index: 2,
+        sourceId: "src_mcrae_seeing_through_zen",
+        pageOrSection: "ch. 4 — Linji's awakening narrative and the encounter dialogue",
+      },
+      {
+        index: 3,
+        sourceId: "src_princeton_dict_buddhism",
+        pageOrSection: "s.v. \"Linji Yixuan\" and \"Linji lu\"",
+      },
+      {
+        index: 4,
+        sourceId: "src_kwan_um_poland",
+        pageOrSection: "zen.pl — Polish Kwan Um sangha (Seung Sahn's contemporary Korean Linji descent)",
+      },
+    ],
   },
   {
     slug: "dongshan-liangjie",
-    content: `Dongshan Liangjie was the founder of the Caodong school of Chinese Chan, the tradition that later became the Japanese Soto school through Dogen. He was a student of Yunyan Tansheng and is famous above all for his awakening experience while crossing a stream: seeing his reflection in the water, he suddenly understood the teaching that Yunyan had been pointing to. His verse on this moment begins: "Earnestly avoid seeking without, lest it recede far from you."
+    content: `Dongshan Liangjie was the founder of the Caodong school of Chinese Chan, the tradition that later became the Japanese Soto school through Dogen[1]. He was a student of Yunyan Tansheng and is famous above all for his awakening experience while crossing a stream: seeing his reflection in the water, he suddenly understood the teaching that Yunyan had been pointing to. His verse on this moment begins: "Earnestly avoid seeking without, lest it recede far from you."[2]
 
-Dongshan developed the teaching of the Five Ranks (Wuwei), a sophisticated schema describing the relationship between the absolute (the dark, emptiness) and the relative (the bright, phenomena). The Five Ranks became the philosophical backbone of Caodong practice and have been studied and debated for twelve centuries. Unlike the Linji/Rinzai emphasis on sudden breakthrough through shock and paradox, Dongshan's approach was subtler and more gradualist, emphasizing the integration of emptiness and form in the stream of everyday activity. He founded the Caodong school together with his student Caoshan Benji, and the school's name combines their two mountain names.`,
+Dongshan developed the teaching of the Five Ranks (Wuwei), a sophisticated schema describing the relationship between the absolute (the dark, emptiness) and the relative (the bright, phenomena)[3]. The Five Ranks became the philosophical backbone of Caodong practice and have been studied and debated for twelve centuries. Unlike the Linji/Rinzai emphasis on sudden breakthrough through shock and paradox, Dongshan's approach was subtler and more gradualist, emphasizing the integration of emptiness and form in the stream of everyday activity[1]. He founded the Caodong school together with his student Caoshan Benji, and the school's name combines their two mountain names[3].`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_dumoulin_india_china",
+        pageOrSection: "Vol. 1, ch. 10 — Dongshan Liangjie and the founding of Caodong",
+      },
+      {
+        index: 2,
+        sourceId: "src_mcrae_seeing_through_zen",
+        pageOrSection: "ch. 4 — Dongshan's stream-crossing verse and the Caodong style",
+      },
+      {
+        index: 3,
+        sourceId: "src_princeton_dict_buddhism",
+        pageOrSection: "s.v. \"Dongshan Liangjie\" and \"Five Ranks (wuwei)\"",
+      },
+      {
+        index: 4,
+        sourceId: "src_foulk_caodong",
+        pageOrSection: "Form and Function of Kōan Literature — the Caodong line and the Five Ranks",
+      },
+    ],
   },
   {
     slug: "yunmen-wenyan",
-    content: `Yunmen Wenyan was the founder of the Yunmen school, one of the Five Houses of Tang and Song dynasty Chan. He was a student of Xuefeng Yicun and is renowned for the extraordinary economy and precision of his teaching language. His responses were often one word, and these single-word responses—called "one-word barrier" answers—became some of the most studied koans in the tradition. His famous saying "Every day is a good day" appears as case 6 in the Blue Cliff Record and has been contemplated by practitioners for a thousand years.
+    content: `Yunmen Wenyan was the founder of the Yunmen school, one of the Five Houses of Tang and Song dynasty Chan[1]. He was a student of Xuefeng Yicun and is renowned for the extraordinary economy and precision of his teaching language. His responses were often one word, and these single-word responses—called "one-word barrier" answers—became some of the most studied koans in the tradition[2]. His famous saying "Every day is a good day" appears as case 6 in the Blue Cliff Record and has been contemplated by practitioners for a thousand years[3].
 
-Yunmen's teaching style was demanding and unsparing. He described three types of Dharma eye: "containing heaven and earth," "cutting off the myriad streams," and "following the waves." His one-word answers function as direct gestures toward reality that cannot be reasoned about but must be directly entered. The Yunmen school did not survive as a separate institution after the Song dynasty, but its spirit was preserved through the Blue Cliff Record, whose cases largely come from the Yunmen tradition, and continues to permeate all koan practice.`,
+Yunmen's teaching style was demanding and unsparing. He described three types of Dharma eye: "containing heaven and earth," "cutting off the myriad streams," and "following the waves."[2] His one-word answers function as direct gestures toward reality that cannot be reasoned about but must be directly entered. The Yunmen school did not survive as a separate institution after the Song dynasty, but its spirit was preserved through the Blue Cliff Record, whose cases largely come from the Yunmen tradition, and continues to permeate all koan practice[1].`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_dumoulin_india_china",
+        pageOrSection: "Vol. 1, ch. 11 — Yunmen Wenyan and the Five Houses",
+      },
+      {
+        index: 2,
+        sourceId: "src_princeton_dict_buddhism",
+        pageOrSection: "s.v. \"Yunmen Wenyan\" — the \"three propositions\" and one-word barriers",
+      },
+      {
+        index: 3,
+        sourceId: "src_blue_cliff_record_shaw_1961",
+        pageOrSection: "Case 6 — Yunmen: \"Every day is a good day\"",
+      },
+    ],
   },
   {
     slug: "zhaozhou-congshen",
-    content: `Zhaozhou Congshen was one of the greatest Tang dynasty Chan masters and the subject of more koans than perhaps any other figure in the tradition. He was a student of Nanquan Puyuan and lived to the extraordinary age of one hundred and twenty, practicing and teaching for most of his long life. He is said to have first met Nanquan when he was a young monk and to have experienced his initial awakening in their first encounter.
+    content: `Zhaozhou Congshen was one of the greatest Tang dynasty Chan masters and the subject of more koans than perhaps any other figure in the tradition[1]. He was a student of Nanquan Puyuan and lived to the extraordinary age of one hundred and twenty, practicing and teaching for most of his long life. He is said to have first met Nanquan when he was a young monk and to have experienced his initial awakening in their first encounter[1].
 
-Zhaozhou's most famous teaching is recorded in the first case of the Gateless Barrier (Wumenguan): a monk asked him whether a dog has Buddha nature, and Zhaozhou replied "Mu" (No, or Nothing). This single syllable became the gateway koan of the Rinzai tradition, the first koan given to most students beginning formal koan practice. His other famous exchanges—"Have you had breakfast? Then go wash your bowl." and "Does the oak tree have Buddha nature?" and his description of Zhaozhou bridge—demonstrate his ability to point to the ordinary as the sacred without making anything mystical or special. His collected sayings show a mind of inexhaustible patience and precision.`,
+Zhaozhou's most famous teaching is recorded in the first case of the Gateless Barrier (Wumenguan): a monk asked him whether a dog has Buddha nature, and Zhaozhou replied "Mu" (No, or Nothing)[2]. This single syllable became the gateway koan of the Rinzai tradition, the first koan given to most students beginning formal koan practice[3]. His other famous exchanges—"Have you had breakfast? Then go wash your bowl." and "Does the oak tree have Buddha nature?" and his description of Zhaozhou bridge—demonstrate his ability to point to the ordinary as the sacred without making anything mystical or special. His collected sayings show a mind of inexhaustible patience and precision[1].`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_dumoulin_india_china",
+        pageOrSection: "Vol. 1, ch. 9 — Zhaozhou Congshen and the Nanquan line",
+      },
+      {
+        index: 2,
+        sourceId: "src_mumonkan_senzaki_1934",
+        pageOrSection: "Case 1 — Joshu's Mu",
+      },
+      {
+        index: 3,
+        sourceId: "src_heine_wright_koan",
+        pageOrSection: "Introduction — \"Mu\" as the gateway koan of modern Rinzai training",
+      },
+    ],
   },
   {
     slug: "deshan-xuanjian",
-    content: `Deshan Xuanjian began his practice as a specialist in the Diamond Sutra within the traditional Buddhist educational system of the north, and he traveled south specifically to refute what he regarded as the dangerous claim that awakening could be direct and immediate. On his way he stopped at a roadside stand where an old woman was selling rice cakes. When he told her what he was carrying, she asked which mind he intended to refresh with her rice cakes—the past mind which cannot be got, the present mind which cannot be held, or the future mind which has not yet come. Deshan could not answer, and this encounter cracked open his certainty.
+    content: `Deshan Xuanjian began his practice as a specialist in the Diamond Sutra within the traditional Buddhist educational system of the north, and he traveled south specifically to refute what he regarded as the dangerous claim that awakening could be direct and immediate[1]. On his way he stopped at a roadside stand where an old woman was selling rice cakes. When he told her what he was carrying, she asked which mind he intended to refresh with her rice cakes—the past mind which cannot be got, the present mind which cannot be held, or the future mind which has not yet come. Deshan could not answer, and this encounter cracked open his certainty[2].
 
-He subsequently studied with Longtan Chongxin and had his awakening when Longtan blew out a candle in the darkness. He burned all his commentaries on the Diamond Sutra, saying: "Exhausting learning is like a single hair in the vastness of space; all the world's wisdom is like a drop in a great ocean." He became famous for carrying a staff and striking any student who spoke and any student who did not speak, any student who answered quickly and any student who answered slowly. His famous saying—"Thirty blows whether you can say it or whether you cannot"—became a Chan archetype of the teaching that breaks through conceptual hesitation.`,
+He subsequently studied with Longtan Chongxin and had his awakening when Longtan blew out a candle in the darkness. He burned all his commentaries on the Diamond Sutra, saying: "Exhausting learning is like a single hair in the vastness of space; all the world's wisdom is like a drop in a great ocean."[1] He became famous for carrying a staff and striking any student who spoke and any student who did not speak, any student who answered quickly and any student who answered slowly. His famous saying—"Thirty blows whether you can say it or whether you cannot"—became a Chan archetype of the teaching that breaks through conceptual hesitation[3].`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_dumoulin_india_china",
+        pageOrSection: "Vol. 1, ch. 10 — Deshan Xuanjian and the Qingyuan line",
+      },
+      {
+        index: 2,
+        sourceId: "src_blue_cliff_record_shaw_1961",
+        pageOrSection: "Case 4 — Deshan and the rice-cake seller",
+      },
+      {
+        index: 3,
+        sourceId: "src_princeton_dict_buddhism",
+        pageOrSection: "s.v. \"Deshan Xuanjian\" — the \"thirty blows\" pedagogy",
+      },
+    ],
   },
   {
     slug: "xuefeng-yicun",
-    content: `Xuefeng Yicun was a student of Deshan Xuanjian who traveled and practiced intensively for decades before his awakening, reportedly visiting his teacher Touzi Datong nine times and Dongshan Liangjie three times before his final awakening occurred with Deshan. He founded a large monastic community on Xuefeng Mountain that attracted hundreds of students and became one of the major centers of Chan in the late Tang dynasty.
+    content: `Xuefeng Yicun was a student of Deshan Xuanjian who traveled and practiced intensively for decades before his awakening, reportedly visiting his teacher Touzi Datong nine times and Dongshan Liangjie three times before his final awakening occurred with Deshan[1]. He founded a large monastic community on Xuefeng Mountain that attracted hundreds of students and became one of the major centers of Chan in the late Tang dynasty[2].
 
-Xuefeng was the teacher of both Yunmen Wenyan and Xuansha Shibei, two of the most significant figures of the next generation. His teaching featured powerful imagery drawn from the natural world, and his dialogues with students are marked by a quality of utter simplicity that breaks through discursive thinking. He once held up a wooden ball and asked the assembly: "When this universe is completely destroyed—sun, moon, mountains, rivers—what happens to this ball?" No student could answer. This kind of encounter, pointing to the unlocatable nature of awareness, characterizes his teaching.`,
+Xuefeng was the teacher of both Yunmen Wenyan and Xuansha Shibei, two of the most significant figures of the next generation[1]. His teaching featured powerful imagery drawn from the natural world, and his dialogues with students are marked by a quality of utter simplicity that breaks through discursive thinking. He once held up a wooden ball and asked the assembly: "When this universe is completely destroyed—sun, moon, mountains, rivers—what happens to this ball?" No student could answer[3]. This kind of encounter, pointing to the unlocatable nature of awareness, characterizes his teaching.`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_dumoulin_india_china",
+        pageOrSection: "Vol. 1, ch. 11 — Xuefeng Yicun and the rise of the Five Houses",
+      },
+      {
+        index: 2,
+        sourceId: "src_mcrae_seeing_through_zen",
+        pageOrSection: "ch. 4 — late-Tang Chan monastic centers",
+      },
+      {
+        index: 3,
+        sourceId: "src_blue_cliff_record_shaw_1961",
+        pageOrSection: "Case 5 — Xuefeng's grain of rice",
+      },
+    ],
   },
   {
     slug: "yunyan-tansheng",
-    content: `Yunyan Tansheng was a student of Baizhang Huaihai and the teacher of Dongshan Liangjie, the founder of the Caodong/Soto school. He is particularly famous for one crucial exchange with Dongshan that planted the seed of Dongshan's awakening. Dongshan asked him what a non-sentient being preaches the Dharma with. Yunyan said: "Non-sentient beings always preach the Dharma." When Dongshan asked who hears this, Yunyan said: "The non-sentient beings hear." Dongshan asked: "And do you hear?" Yunyan said: "If I heard, you could not hear my teaching." Dongshan asked what scripture this teaching came from, and Yunyan said: "Have you not seen? In the Amitabha Sutra it says: 'Water birds, tree groves, all without exception proclaim the Buddha and the Dharma.'" This exchange led Dongshan to his famous awakening when crossing the stream.
+    content: `Yunyan Tansheng was a student of Baizhang Huaihai and the teacher of Dongshan Liangjie, the founder of the Caodong/Soto school[1]. He is particularly famous for one crucial exchange with Dongshan that planted the seed of Dongshan's awakening. Dongshan asked him what a non-sentient being preaches the Dharma with. Yunyan said: "Non-sentient beings always preach the Dharma." When Dongshan asked who hears this, Yunyan said: "The non-sentient beings hear." Dongshan asked: "And do you hear?" Yunyan said: "If I heard, you could not hear my teaching." Dongshan asked what scripture this teaching came from, and Yunyan said: "Have you not seen? In the Amitabha Sutra it says: 'Water birds, tree groves, all without exception proclaim the Buddha and the Dharma.'" This exchange led Dongshan to his famous awakening when crossing the stream[2].
 
-Yunyan was known for making straw sandals, a simple craft that he employed as a teaching vehicle. His responses were often enigmatic, pointing to the Dharma-preaching of mountains and rivers and the non-sentient world—a teaching that resonates deeply with the Caodong emphasis on the pervasion of Buddha nature throughout all of reality.`,
+Yunyan was known for making straw sandals, a simple craft that he employed as a teaching vehicle. His responses were often enigmatic, pointing to the Dharma-preaching of mountains and rivers and the non-sentient world—a teaching that resonates deeply with the Caodong emphasis on the pervasion of Buddha nature throughout all of reality[1].`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_dumoulin_india_china",
+        pageOrSection: "Vol. 1, ch. 10 — Yunyan Tansheng and the prehistory of Caodong",
+      },
+      {
+        index: 2,
+        sourceId: "src_mcrae_seeing_through_zen",
+        pageOrSection: "ch. 4 — the Yunyan–Dongshan exchange on non-sentient preaching",
+      },
+    ],
   },
   {
     slug: "dogen",
@@ -1210,13 +1515,50 @@ Dogen's masterwork, the Shobogenzo (Treasury of the True Dharma Eye), is a colle
         excerpt:
           "The Sōtōshū treats the Fukan Zazengi as the canonical description of how to sit zazen.",
       },
+      {
+        index: 6,
+        sourceId: "src_sanshin_zen",
+        pageOrSection: "Sanshin Zen Community — Shōhaku Okumura's translations and commentary on Dōgen's Eihei Kōroku and Shōbōgenzō",
+      },
+      {
+        index: 7,
+        sourceId: "src_editorial_school_practices",
+        pageOrSection: "Zen project editorial — Sōtō school practice notes (zazen / shikantaza)",
+      },
+      {
+        index: 8,
+        sourceId: "src_global_zen_research",
+        pageOrSection: "Global Zen practice-centre research bundle (2026) — Sōtō-line practice centers worldwide",
+      },
+      {
+        index: 9,
+        sourceId: "src_external_portrait",
+        pageOrSection: "Institutional portrait (Sōtōshū / Eihei-ji archival photography) — Dōgen iconography",
+      },
     ],
   },
   {
     slug: "keizan-jokin",
-    content: `Keizan Jokin, the fourth patriarch of Japanese Soto Zen, is sometimes called "the Great Popularizer" to complement Dogen's role as the school's philosophical founder. He lived from around 1264 to 1325 and was instrumental in making Soto practice accessible to a broad population, including laypeople and those outside the educated elite. He founded Sojiji Temple, which became one of the two head temples of Soto Zen in Japan, the other being Dogen's Eiheiji.
+    content: `Keizan Jokin, the fourth patriarch of Japanese Soto Zen, is sometimes called "the Great Popularizer" to complement Dogen's role as the school's philosophical founder[1]. He lived from around 1264 to 1325 and was instrumental in making Soto practice accessible to a broad population, including laypeople and those outside the educated elite. He founded Sojiji Temple, which became one of the two head temples of Soto Zen in Japan, the other being Dogen's Eiheiji[2].
 
-Keizan's Denkoroku (Transmission of the Lamp) records the awakening stories of each of the Indian and Chinese patriarchs, making the lineage narratively vivid for Japanese practitioners. He also integrated practices from esoteric Buddhism, including rituals for the protection of the state and memorial ceremonies for ancestors, into the Soto monastic framework. This integration made Soto Zen intimately connected with the social and ritual life of Japanese communities and contributed enormously to its eventual spread as the largest Buddhist school in Japan. His teaching emphasized the accessibility of awakening to all beings regardless of capacity.`,
+Keizan's Denkoroku (Transmission of the Lamp) records the awakening stories of each of the Indian and Chinese patriarchs, making the lineage narratively vivid for Japanese practitioners[3]. He also integrated practices from esoteric Buddhism, including rituals for the protection of the state and memorial ceremonies for ancestors, into the Soto monastic framework[1]. This integration made Soto Zen intimately connected with the social and ritual life of Japanese communities and contributed enormously to its eventual spread as the largest Buddhist school in Japan. His teaching emphasized the accessibility of awakening to all beings regardless of capacity[2].`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_dumoulin_japan",
+        pageOrSection: "Vol. 2, ch. 3 — Keizan Jōkin and the popularization of Sōtō",
+      },
+      {
+        index: 2,
+        sourceId: "src_sotozen_founders",
+        pageOrSection: "Two Founders — Keizan Zenji and Sōjiji",
+      },
+      {
+        index: 3,
+        sourceId: "src_shambhala_zen_dictionary",
+        pageOrSection: "s.v. \"Denkōroku\" and \"Keizan Jōkin\"",
+      },
+    ],
   },
   {
     slug: "hakuin-ekaku",
@@ -2415,6 +2757,16 @@ His Dharma was carried forward by a generation of European successors — Étien
         index: 6,
         sourceId: "src_kosen_sangha",
         pageOrSection: "Kosen Sangha — directory of dōjōs in the Deshimaru lineage and brief notes on the second-generation teachers",
+      },
+      {
+        index: 7,
+        sourceId: "src_luz_serena",
+        pageOrSection: "luzserena.org — Spanish Sōtō monastery (Dokushô Villalba) in the Deshimaru/Sawaki line",
+      },
+      {
+        index: 8,
+        sourceId: "src_puregg",
+        pageOrSection: "puregg.org — Zen-Kloster Puregg, Austria, in the European Sōtō network",
       },
     ],
   },
@@ -3769,11 +4121,29 @@ Tử Dung settled at An Tôn Temple (also known as Bảo Quốc Temple) on Hoàn
   },
   {
     slug: "lieu-quan",
-    content: `Liễu Quán (1670–1742) was the founder of the Liễu Quán dharma line, a uniquely Vietnamese form of Zen Buddhism within the Linji (Lâm Tế) school that remains the most influential Zen lineage in central Vietnam to this day. Born in the poor village of Bạch Mã, Phú Yên Province, he lost his mother at age six. His father brought the boy to Hội Tôn Temple, where he met the Chinese Zen Master Tế Viên. At twelve, Liễu Quán became a novice monk.
+    content: `Liễu Quán (1670–1742) was the founder of the Liễu Quán dharma line, a uniquely Vietnamese form of Zen Buddhism within the Linji (Lâm Tế) school that remains the most influential Zen lineage in central Vietnam to this day[1]. Born in the poor village of Bạch Mã, Phú Yên Province, he lost his mother at age six. His father brought the boy to Hội Tôn Temple, where he met the Chinese Zen Master Tế Viên. At twelve, Liễu Quán became a novice monk[1].
 
-After Tế Viên's death, the young monk undertook a remarkable year-long journey of approximately 500 kilometers on foot to reach Huế, arriving in 1690. After years of further study, he met his principal teacher, Minh Hoằng Tử Dung, in 1702. Tử Dung presented the koan: "All dharmas return to the one. Where does the one return to?" Six years of intensive investigation followed, until Liễu Quán experienced breakthrough understanding while reading the Jingde Record of the Transmission of the Lamp. In 1708, Tử Dung confirmed his enlightenment, transmitting the dharma to him as the thirty-fifth generation heir of the Lâm Tế lineage.
+After Tế Viên's death, the young monk undertook a remarkable year-long journey of approximately 500 kilometers on foot to reach Huế, arriving in 1690. After years of further study, he met his principal teacher, Minh Hoằng Tử Dung, in 1702. Tử Dung presented the koan: "All dharmas return to the one. Where does the one return to?" Six years of intensive investigation followed, until Liễu Quán experienced breakthrough understanding while reading the Jingde Record of the Transmission of the Lamp. In 1708, Tử Dung confirmed his enlightenment, transmitting the dharma to him as the thirty-fifth generation heir of the Lâm Tế lineage[2].
 
-From 1708, Liễu Quán established Thiên Tông Temple on Thiên Thai Mountain and began thirty-four years of teaching, ordaining thousands and traveling throughout Phú Yên and the Huế region. According to Thích Nhất Hạnh, Liễu Quán "Vietnamized" the Lâm Tế lineage, rooting it in Vietnamese culture rather than Chinese forms. On the morning of his death in 1742, he composed a final gatha emphasizing "our true nature's pure ocean," entered sitting meditation, and peacefully passed away. His dharma transmission poem, with each character designating a generation, continues to be used for naming monastics in the tradition.`,
+From 1708, Liễu Quán established Thiên Tông Temple on Thiên Thai Mountain and began thirty-four years of teaching, ordaining thousands and traveling throughout Phú Yên and the Huế region[1]. According to Thích Nhất Hạnh, Liễu Quán "Vietnamized" the Lâm Tế lineage, rooting it in Vietnamese culture rather than Chinese forms[3]. On the morning of his death in 1742, he composed a final gatha emphasizing "our true nature's pure ocean," entered sitting meditation, and peacefully passed away. His dharma transmission poem, with each character designating a generation, continues to be used for naming monastics in the tradition[2].`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_wikipedia",
+        pageOrSection: "en.wikipedia.org — Liễu Quán",
+        excerpt: "Born 1670 in Bạch Mã village, Phú Yên Province; died 1742. Founder of the Liễu Quán dharma line within the Lâm Tế school.",
+      },
+      {
+        index: 2,
+        sourceId: "src_plumvillage_books",
+        pageOrSection: "plumvillage.org — Lineage / Liễu Quán transmission poem",
+      },
+      {
+        index: 3,
+        sourceId: "src_plumvillage_books",
+        pageOrSection: "plumvillage.org — Thich Nhat Hanh on the Vietnamization of the Lâm Tế lineage",
+      },
+    ],
   },
   {
     slug: "nhat-dinh",
@@ -3800,19 +4170,56 @@ He published more than one hundred books in English. The most influential includ
       { index: 1, sourceId: "src_wikipedia", pageOrSection: "en.wikipedia.org — Thích Nhất Hạnh", excerpt: "Birth: October 11, 1926, in Huế (born Nguyễn Xuân Bảo). Death: January 22, 2022, at Từ Hiếu Temple, age 95. Age 16: Entered Từ Hiếu as novice under Thanh Quý Chân Thật. 1951: Ordained at Ấn Quang Pagoda. 1960–1962: Studied at Princeton; lectured at Columbia and Cornell. May 1, 1966: Thật transmitted the lamp. Co-founded SYSS (1964); Order of Interbeing (1964–1966). King wrote: 'I do not personally know of anyone more worthy of the Nobel Peace Prize than this gentle monk from Vietnam.' Coined 'engaged Buddhism' in Vietnam: Lotus in a Sea of Fire (Hill and Wang, 1967). Books: The Miracle of Mindfulness (Beacon, 1975); Being Peace (Parallax, 1987); Old Path White Clouds (Parallax, 1991); Peace Is Every Step (Bantam, 1992); Living Buddha Living Christ (Riverhead 1995); The Heart of the Buddha's Teaching (Broadway, 1999)." },
       { index: 2, sourceId: "src_plumvillage_monastic", pageOrSection: "plumvillage.org — About Thich Nhat Hanh / Plum Village Tradition", excerpt: "Plum Village Monastery was established in 1982 by Thich Nhat Hanh and Sister Chan Khong in the Dordogne. The Plum Village Community of Engaged Buddhism today comprises nine monasteries supporting over 750 monastics. The Order of Interbeing follows the Fourteen Mindfulness Trainings." },
       { index: 3, sourceId: "src_plumvillage_books", pageOrSection: "plumvillage.org — Books by Thich Nhat Hanh", excerpt: "Thich Nhat Hanh has written more than 100 books in English. The Miracle of Mindfulness was first written in 1974 as a long letter to a fellow worker in the School of Youth for Social Service and published in 1975. Old Path White Clouds (Parallax, 1991) retells the life of the Buddha." },
+      { index: 4, sourceId: "src_global_zen_research", pageOrSection: "Global Zen practice-centre research bundle (2026) — Plum Village affiliates worldwide" },
     ],
   },
   {
     slug: "vinitaruci",
-    content: `Vinitaruci (d. 594) was an Indian Buddhist monk who founded the first Thiền school in Vietnam, establishing the oldest continuous meditative Buddhist lineage in the country. Born into a Brahmin family in South India, he traveled across western India seeking the Dharma before journeying eastward. Around 573–574 CE, he arrived in China and, according to traditional accounts, encountered Jianzhi Sengcan, the Third Patriarch of Chinese Chan, receiving dharma transmission.
+    content: `Vinitaruci (d. 594) was an Indian Buddhist monk who founded the first Thiền school in Vietnam, establishing the oldest continuous meditative Buddhist lineage in the country[1]. Born into a Brahmin family in South India, he traveled across western India seeking the Dharma before journeying eastward. Around 573–574 CE, he arrived in China and, according to traditional accounts, encountered Jianzhi Sengcan, the Third Patriarch of Chinese Chan, receiving dharma transmission[1].
 
-Around 580 CE, Vinitaruci traveled to Vietnam and settled at Pháp Vân Temple in the ancient administrative center of Luy Lâu, near modern Hanoi. There he accepted disciples and taught dharma, translating Buddhist scriptures and emphasizing the Prajñā ("wisdom of emptiness") tradition and direct transmission of awakening from master to disciple. His chief disciple, Pháp Hiền, succeeded him and constructed a stupa for his relics after his death in 594. The Vinitaruci school remained active for over six centuries, becoming one of the most influential Buddhist groups in Vietnam by the tenth century, particularly under the great patriarch Vạn Hạnh. Thích Nhất Hạnh considered Vinitaruci's connection to the Third Patriarch significant, as it gave Vietnamese Buddhism a claim to the earliest and most direct transmission from the Indian Chan patriarchs.`,
+Around 580 CE, Vinitaruci traveled to Vietnam and settled at Pháp Vân Temple in the ancient administrative center of Luy Lâu, near modern Hanoi[1]. There he accepted disciples and taught dharma, translating Buddhist scriptures and emphasizing the Prajñā ("wisdom of emptiness") tradition and direct transmission of awakening from master to disciple. His chief disciple, Pháp Hiền, succeeded him and constructed a stupa for his relics after his death in 594. The Vinitaruci school remained active for over six centuries, becoming one of the most influential Buddhist groups in Vietnam by the tenth century, particularly under the great patriarch Vạn Hạnh[2]. Thích Nhất Hạnh considered Vinitaruci's connection to the Third Patriarch significant, as it gave Vietnamese Buddhism a claim to the earliest and most direct transmission from the Indian Chan patriarchs[3].`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_wikipedia",
+        pageOrSection: "en.wikipedia.org — Vinītaruci",
+        excerpt: "Indian monk from South India; arrived in China c. 573–574, met the Third Patriarch Sengcan, then traveled to Vietnam and settled at Pháp Vân Temple in Luy Lâu around 580 CE. Died 594.",
+      },
+      {
+        index: 2,
+        sourceId: "src_princeton_dict_buddhism",
+        pageOrSection: "s.v. \"Vinītaruci\" and \"Thiền\"",
+      },
+      {
+        index: 3,
+        sourceId: "src_plumvillage_books",
+        pageOrSection: "plumvillage.org — Vietnamese Thiền and its Indian/Chinese roots",
+      },
+    ],
   },
   {
     slug: "vo-ngon-thong",
-    content: `Vô Ngôn Thông (d. 826), whose name means "Wordless Understanding," was a Chinese Buddhist monk who founded the second major Thiền school in Vietnam. Born around 759 CE in Guangzhou, he trained under the great Tang dynasty Chan master Baizhang Huaihai, one of the most important figures in Chinese Chan, who established the first independent monastic code for Chan communities. The Vô Ngôn Thông school thus carried the imprint of Baizhang's transformative vision and was associated with the Hongzhou school of Mazu Daoyi.
+    content: `Vô Ngôn Thông (d. 826), whose name means "Wordless Understanding," was a Chinese Buddhist monk who founded the second major Thiền school in Vietnam[1]. Born around 759 CE in Guangzhou, he trained under the great Tang dynasty Chan master Baizhang Huaihai, one of the most important figures in Chinese Chan, who established the first independent monastic code for Chan communities. The Vô Ngôn Thông school thus carried the imprint of Baizhang's transformative vision and was associated with the Hongzhou school of Mazu Daoyi[2].
 
-According to tradition, Vô Ngôn Thông attained enlightenment upon hearing Baizhang say: "If the mind is pure and empty, the sun of wisdom will shine by itself." Around 820 CE, he traveled to Annam (present-day northern Vietnam) and took up residence at Kiến Sơ Temple in Phù Đổng village. Following Bodhidharma's example, he practiced "wall-gazing" meditation, sitting silently for extended periods. Before his death in 826, he transmitted his "Buddha-heart seal" to Cảm Thành, who became the second patriarch. The school flourished for centuries, becoming one of the three major Thiền traditions that Emperor Trần Nhân Tông would later synthesize into the unified Trúc Lâm school.`,
+According to tradition, Vô Ngôn Thông attained enlightenment upon hearing Baizhang say: "If the mind is pure and empty, the sun of wisdom will shine by itself." Around 820 CE, he traveled to Annam (present-day northern Vietnam) and took up residence at Kiến Sơ Temple in Phù Đổng village[1]. Following Bodhidharma's example, he practiced "wall-gazing" meditation, sitting silently for extended periods. Before his death in 826, he transmitted his "Buddha-heart seal" to Cảm Thành, who became the second patriarch. The school flourished for centuries, becoming one of the three major Thiền traditions that Emperor Trần Nhân Tông would later synthesize into the unified Trúc Lâm school[3].`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_wikipedia",
+        pageOrSection: "en.wikipedia.org — Vô Ngôn Thông",
+        excerpt: "Chinese monk, disciple of Baizhang Huaihai; founded the second major Thiền school in Vietnam at Kiến Sơ Temple c. 820 CE; died 826.",
+      },
+      {
+        index: 2,
+        sourceId: "src_dumoulin_india_china",
+        pageOrSection: "Vol. 1, ch. 9 — Baizhang Huaihai and the spread of the Hongzhou style",
+      },
+      {
+        index: 3,
+        sourceId: "src_princeton_dict_buddhism",
+        pageOrSection: "s.v. \"Vô Ngôn Thông\" and \"Trúc Lâm\"",
+      },
+    ],
   },
   {
     slug: "van-hanh",
@@ -3822,11 +4229,34 @@ Vạn Hạnh became renowned for his prophetic abilities and political acumen. H
   },
   {
     slug: "tran-nhan-tong",
-    content: `Trần Nhân Tông (1258–1308) was the third emperor of the Trần dynasty, a national hero who twice defeated Mongol invasions, and the founder of the Trúc Lâm ("Bamboo Grove") school — the first uniquely Vietnamese Buddhist lineage. Born Trần Khâm, eldest son of Emperor Trần Thánh Tông, he was known from infancy as the "Golden Buddha." At age twenty, he briefly fled to Yên Tử Mountain to pursue monastic life before his father retrieved him.
+    content: `Trần Nhân Tông (1258–1308) was the third emperor of the Trần dynasty, a national hero who twice defeated Mongol invasions, and the founder of the Trúc Lâm ("Bamboo Grove") school — the first uniquely Vietnamese Buddhist lineage[1]. Born Trần Khâm, eldest son of Emperor Trần Thánh Tông, he was known from infancy as the "Golden Buddha." At age twenty, he briefly fled to Yên Tử Mountain to pursue monastic life before his father retrieved him[1].
 
-Ascending the throne in 1278, he faced the greatest military crisis in Vietnamese history. In 1285, Mongol-Yuan forces invaded; under the emperor's leadership and General Trần Hưng Đạo's strategy, the Vietnamese army annihilated the invaders. A renewed Mongol offensive in 1287–1288 was decisively defeated at the Battle of Bạch Đằng River, prompting his famous verse: "The nation twice shaken, but stands firm / The mountains and rivers, for a thousand ages, forever secure."
+Ascending the throne in 1278, he faced the greatest military crisis in Vietnamese history. In 1285, Mongol-Yuan forces invaded; under the emperor's leadership and General Trần Hưng Đạo's strategy, the Vietnamese army annihilated the invaders. A renewed Mongol offensive in 1287–1288 was decisively defeated at the Battle of Bạch Đằng River, prompting his famous verse: "The nation twice shaken, but stands firm / The mountains and rivers, for a thousand ages, forever secure."[1]
 
-In 1293, he abdicated in favor of his son. In 1299, at age forty-one, he fully renounced secular life, ascending Yên Tử Mountain and adopting the dharma name Hương Vân Đại Đầu Đà. Recognizing the fragmentation among Vietnam's three existing Zen lineages, he synthesized them into the unified Trúc Lâm Yên Tử school. His central teaching was "Cư Trần Lạc Đạo" — "Living in the World and Enjoying the Way" — articulating an engaged Buddhism accessible to all social classes. He transmitted the dharma to Pháp Loa in 1308 and died on December 14, 1308. More than 700 years later, the annual Yên Tử Festival attracts millions of pilgrims.`,
+In 1293, he abdicated in favor of his son. In 1299, at age forty-one, he fully renounced secular life, ascending Yên Tử Mountain and adopting the dharma name Hương Vân Đại Đầu Đà[2]. Recognizing the fragmentation among Vietnam's three existing Zen lineages, he synthesized them into the unified Trúc Lâm Yên Tử school[3]. His central teaching was "Cư Trần Lạc Đạo" — "Living in the World and Enjoying the Way" — articulating an engaged Buddhism accessible to all social classes[2]. He transmitted the dharma to Pháp Loa in 1308 and died on December 14, 1308. More than 700 years later, the annual Yên Tử Festival attracts millions of pilgrims[1].`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_wikipedia",
+        pageOrSection: "en.wikipedia.org — Trần Nhân Tông",
+        excerpt: "Third emperor of the Trần dynasty (r. 1278–1293); led Đại Việt to victory over the Mongol-Yuan invasions of 1285 and 1287–1288; founded the Trúc Lâm school after his renunciation in 1299; died 1308.",
+      },
+      {
+        index: 2,
+        sourceId: "src_truc_lam_records",
+        pageOrSection: "Recorded Sayings of the Trúc Lâm Patriarchs — Trần Nhân Tông on \"Cư Trần Lạc Đạo\"",
+      },
+      {
+        index: 3,
+        sourceId: "src_princeton_dict_buddhism",
+        pageOrSection: "s.v. \"Trúc Lâm\" — synthesis of the three Vietnamese Thiền lineages",
+      },
+      {
+        index: 4,
+        sourceId: "src_thanh_tu_truc_lam",
+        pageOrSection: "Trúc Lâm Thiền: Studies in Vietnamese Buddhism — Trần Nhân Tông and the modern revival",
+      },
+    ],
   },
   {
     slug: "phap-loa",
@@ -3907,9 +4337,22 @@ Hyesim's principal contribution was shifting the emphasis of Korean Seon from Ji
   },
   {
     slug: "taego-bou",
-    content: `Taego Bou (1301–1382) was one of the most important Seon masters of the late Goryeo dynasty, renowned for traveling to Yuan China and receiving formal Linji dharma transmission from the hermit master Shiwu Qinggong, known as Stonehouse. This transmission gave Korean Seon a direct, authenticated connection to the Chinese Linji lineage at a time when Korean Buddhism faced internal fragmentation and political turmoil. After returning to Korea, Taego was appointed Royal Preceptor and used his influence to attempt the unification of the Nine Mountain schools of Seon into a single order.
+    content: `Taego Bou (1301–1382) was one of the most important Seon masters of the late Goryeo dynasty, renowned for traveling to Yuan China and receiving formal Linji dharma transmission from the hermit master Shiwu Qinggong, known as Stonehouse[1]. This transmission gave Korean Seon a direct, authenticated connection to the Chinese Linji lineage at a time when Korean Buddhism faced internal fragmentation and political turmoil. After returning to Korea, Taego was appointed Royal Preceptor and used his influence to attempt the unification of the Nine Mountain schools of Seon into a single order[1].
 
-Taego's significance extends beyond his personal attainment. His vision of a unified Korean Buddhist order anticipated by two centuries the consolidation that would eventually occur under the Joseon dynasty. He established rigorous practice standards and insisted on the primacy of hwadu investigation as the heart of Seon training. His recorded sayings reveal a teacher of great directness who could shift fluidly between scholarly exposition and the abrupt, challenging style of classical Linji encounter dialogue. The Taego Order, one of the two major orders in contemporary Korean Buddhism, takes its name from him, and his lineage claim through Stonehouse remains a point of identity and pride for its adherents.`,
+Taego's significance extends beyond his personal attainment. His vision of a unified Korean Buddhist order anticipated by two centuries the consolidation that would eventually occur under the Joseon dynasty[2]. He established rigorous practice standards and insisted on the primacy of hwadu investigation as the heart of Seon training. His recorded sayings reveal a teacher of great directness who could shift fluidly between scholarly exposition and the abrupt, challenging style of classical Linji encounter dialogue. The Taego Order, one of the two major orders in contemporary Korean Buddhism, takes its name from him, and his lineage claim through Stonehouse remains a point of identity and pride for its adherents[1].`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_wikipedia",
+        pageOrSection: "en.wikipedia.org — Taego Bou",
+        excerpt: "Korean Seon master (1301–1382), traveled to Yuan China and received Linji transmission from Shiwu Qinggong (Stonehouse); appointed Royal Preceptor; namesake of the Taego Order, one of two major orders of contemporary Korean Buddhism.",
+      },
+      {
+        index: 2,
+        sourceId: "src_princeton_dict_buddhism",
+        pageOrSection: "s.v. \"Taego Pou\" and \"Korean Seon\"",
+      },
+    ],
   },
   {
     slug: "naong-hyegeun",
@@ -3925,9 +4368,27 @@ Beyond his polemical writings, Gihwa was a accomplished Seon practitioner and a 
   },
   {
     slug: "seosan-hyujeong",
-    content: `Seosan Hyujeong (1520–1604) was the greatest Buddhist monk of the Joseon dynasty and a pivotal figure in Korean history. At a time when Buddhism had been driven to the margins of Korean society by centuries of Neo-Confucian state policy, Seosan preserved and revitalized the Seon tradition through his teaching, writing, and, most dramatically, his leadership of a monk army against the Japanese invasion of 1592. When Toyotomi Hideyoshi's forces overran the peninsula, the seventy-three-year-old Seosan rallied over five thousand monks into a guerrilla fighting force that played a significant role in the eventual Korean victory.
+    content: `Seosan Hyujeong (1520–1604) was the greatest Buddhist monk of the Joseon dynasty and a pivotal figure in Korean history[1]. At a time when Buddhism had been driven to the margins of Korean society by centuries of Neo-Confucian state policy, Seosan preserved and revitalized the Seon tradition through his teaching, writing, and, most dramatically, his leadership of a monk army against the Japanese invasion of 1592. When Toyotomi Hideyoshi's forces overran the peninsula, the seventy-three-year-old Seosan rallied over five thousand monks into a guerrilla fighting force that played a significant role in the eventual Korean victory[1].
 
-Seosan's intellectual legacy was equally formidable. His most important work, "Seonyo" (Mirror of Seon), became the standard textbook for Korean monastic education and remained so for centuries. In it, he articulated a comprehensive synthesis of Seon meditation, Pure Land recitation, and mantra practice, arguing that all three were valid gates to awakening suited to different temperaments and stages of development. This inclusive approach, which refused to rank one method above the others, became characteristic of mainstream Korean Buddhism. He also wrote extensively on the Avatamsaka Sutra and the Heart Sutra. Through his two principal disciples, Samyeongdang Yujeong and Pyeonyang Eongi, his lineage branched into the two main streams that would carry Korean Seon through the remaining centuries of the Joseon period.`,
+Seosan's intellectual legacy was equally formidable. His most important work, "Seonyo" (Mirror of Seon), became the standard textbook for Korean monastic education and remained so for centuries[2]. In it, he articulated a comprehensive synthesis of Seon meditation, Pure Land recitation, and mantra practice, arguing that all three were valid gates to awakening suited to different temperaments and stages of development[2]. This inclusive approach, which refused to rank one method above the others, became characteristic of mainstream Korean Buddhism. He also wrote extensively on the Avatamsaka Sutra and the Heart Sutra. Through his two principal disciples, Samyeongdang Yujeong and Pyeonyang Eongi, his lineage branched into the two main streams that would carry Korean Seon through the remaining centuries of the Joseon period[3].`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_wikipedia",
+        pageOrSection: "en.wikipedia.org — Hyujeong (Cheongheo Hyujeong / Seosan Daesa)",
+        excerpt: "Korean Seon master of the Joseon dynasty (1520–1604); led a monk army against the Japanese invasion of 1592 (Imjin War).",
+      },
+      {
+        index: 2,
+        sourceId: "src_seosan_mirror_of_seon",
+        pageOrSection: "Sŏn'ga kwigam 禪家龜鑑 (Mirror of Seon) — synthesis of Seon, Pure Land, and mantra",
+      },
+      {
+        index: 3,
+        sourceId: "src_princeton_dict_buddhism",
+        pageOrSection: "s.v. \"Hyujŏng\" and \"Korean Seon\"",
+      },
+    ],
   },
   {
     slug: "samyeongdang-yujeong",
@@ -3994,6 +4455,7 @@ His books, mostly co-edited from transcribed talks and letters, became standard 
     footnotes: [
       { index: 1, sourceId: "src_wikipedia", pageOrSection: "en.wikipedia.org — Seung Sahn", excerpt: "Born August 1, 1927 in Sunchon, South Pyongan Province; died November 30, 2004 at Hwagaesa in Seoul. Studied Western philosophy at Dongguk University. Principal teacher Kobong, who confirmed his enlightenment on January 25, 1949. Founded Kwan Um School of Zen in 1983. Notable successors included Bo Mun, Dae Gak, Su Bong, Soeng Hyang, and Wu Kwang. Books: Dropping Ashes on the Buddha (Grove 1976); Only Don't Know (Primary Point 1982); The Compass of Zen (Shambhala 1997); The Whole World Is a Single Flower (Tuttle 1992)." },
       { index: 2, sourceId: "src_kwanum", pageOrSection: "kwanumzen.org — About Zen Master Seung Sahn", excerpt: "Zen Master Seung Sahn was the 78th Patriarch in his lineage. He was the first Korean Zen Master to live and teach in the West, founding the Kwan Um School of Zen which now numbers more than a hundred Zen centers on six continents. His teaching style featured the koans of the Twelve Gates and the simple instructions, 'Only don't know' and 'Only go straight, try, try, try for ten thousand years nonstop.'" },
+      { index: 3, sourceId: "src_kwan_um_poland", pageOrSection: "zen.pl — Związek Buddystów Czan Kwan Um w Polsce (Seung Sahn lineage in Poland)" },
     ],
   },
   {
@@ -4015,7 +4477,14 @@ Beopjeong spent much of his life at small, remote hermitages, including Burilam 
     slug: "myoan-eisai",
     content: `Myōan Eisai (1141–1215) was the monk who introduced Rinzai Zen from China to Japan and is also credited with establishing the tradition of tea cultivation that would evolve into the Japanese tea ceremony. A Tendai monk by original training, Eisai made two journeys to Song dynasty China, the second lasting from 1187 to 1191, during which he studied under the Linji master Xuan Huaichang on Mount Tiantai and received dharma transmission. He returned to Japan bearing not only the Linji teaching but also tea seeds and the Chinese methods of preparing powdered tea.
 
-Eisai's efforts to establish Zen as an independent school in Japan met fierce resistance from the powerful Tendai establishment on Mount Hiei, which viewed the new meditation school as a threat. He responded with his treatise "Kōzen Gokoku Ron" (Propagation of Zen for the Protection of the Nation), arguing that Zen would strengthen rather than undermine Japanese Buddhism and the state. By allying himself with the warrior government in Kamakura, he secured patronage and founded Jufuku-ji in Kamakura and Kennin-ji in Kyoto, the latter being the first Zen monastery in the imperial capital. His "Kissa Yōjōki" (Drinking Tea for Health) promoted tea as both medicine and aid to meditation. Though later Rinzai masters would criticize Eisai's syncretism with Tendai and esoteric practices, he was the essential pioneer who opened the door through which all subsequent Japanese Zen passed.`,
+Eisai's efforts to establish Zen as an independent school in Japan met fierce resistance from the powerful Tendai establishment on Mount Hiei, which viewed the new meditation school as a threat. He responded with his treatise "Kōzen Gokoku Ron" (Propagation of Zen for the Protection of the Nation), arguing that Zen would strengthen rather than undermine Japanese Buddhism and the state. By allying himself with the warrior government in Kamakura, he secured patronage and founded Jufuku-ji in Kamakura and Kennin-ji in Kyoto, the latter being the first Zen monastery in the imperial capital. His "Kissa Yōjōki" (Drinking Tea for Health) promoted tea as both medicine and aid to meditation — a strand that Okakura Kakuzō would later trace through medieval Zen monasteries down to the modern tea ceremony in *The Book of Tea*[1]. Though later Rinzai masters would criticize Eisai's syncretism with Tendai and esoteric practices, he was the essential pioneer who opened the door through which all subsequent Japanese Zen passed.`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_okakura_book_of_tea_1906",
+        pageOrSection: "ch. II–III — Eisai, the Zen monasteries, and the introduction of tea to Japan",
+      },
+    ],
   },
   {
     slug: "enni-benen",

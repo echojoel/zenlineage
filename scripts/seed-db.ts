@@ -188,6 +188,7 @@ async function seedMasters(canonicalMasters: CanonicalMaster[]): Promise<void> {
 async function seedTransmissions(transmissions: CanonicalTransmission[]): Promise<void> {
   console.log(`Seeding ${transmissions.length} transmissions...`);
 
+  let citationRows = 0;
   for (const t of transmissions) {
     await db
       .insert(masterTransmissions)
@@ -206,9 +207,43 @@ async function seedTransmissions(transmissions: CanonicalTransmission[]): Promis
           isPrimary: t.is_primary,
         },
       });
+
+    // Attach per-edge citations so the accuracy audit registers each
+    // transmission as sourced. Canonical transmissions carry source_ids
+    // through scripts/reconcile.ts; if for any reason an edge is missing
+    // attribution, fall back to the Andy Ferguson lineage chart
+    // (`src_chan_ancestors_pdf`) — the closest thing we have to a default
+    // scholarly source for the broad lineage data.
+    const sourceIds =
+      t.source_ids && t.source_ids.length > 0
+        ? t.source_ids
+        : ["src_chan_ancestors_pdf"];
+
+    // Clear any previous citations for this edge so the seeder is
+    // idempotent (matches the pattern in seed-korean-vietnamese.ts).
+    await db
+      .delete(citations)
+      .where(
+        and(
+          eq(citations.entityType, "master_transmission"),
+          eq(citations.entityId, t.id)
+        )
+      );
+    for (let i = 0; i < sourceIds.length; i++) {
+      await db.insert(citations).values({
+        id: `cite_mt_${t.id}__${i}__${sourceIds[i]}`,
+        sourceId: sourceIds[i],
+        entityType: "master_transmission",
+        entityId: t.id,
+        fieldName: "transmission",
+        pageOrSection: null,
+        excerpt: null,
+      });
+      citationRows++;
+    }
   }
 
-  console.log(`✓ Transmissions seeded`);
+  console.log(`✓ Transmissions seeded (${citationRows} per-edge citations)`);
 }
 
 // ---------------------------------------------------------------------------

@@ -13,8 +13,10 @@ export interface BibliographyEntry {
 }
 
 export interface EventCitation {
-  key: string;
+  index: number;          // 1-based, matches [N] in description prose
+  key: string;            // bibliography key, must exist in BIBLIOGRAPHY
   pages?: string;
+  excerpt?: string;       // optional supporting quote
 }
 
 export interface Mention {
@@ -204,6 +206,15 @@ export const BIBLIOGRAPHY: Record<string, BibliographyEntry> = {
     title: "Buddhism in Vietnam",
     year: 2006,
   },
+
+  // ─── Wikipedia supplementary references ────────────────────────────────
+  "wikipedia-zhaozhou-cypress": {
+    key: "wikipedia-zhaozhou-cypress",
+    author: "Wikipedia",
+    title: "Cypress tree in the front garden",
+    year: 2024,
+    url: "https://en.wikipedia.org/wiki/Zhaozhou_Congshen",
+  },
 };
 
 // ─── Era content ──────────────────────────────────────────────────────
@@ -217,10 +228,10 @@ export const TIMELINE_ERAS: TimelineEra[] = [
     yearStart: -500,
     yearEnd: 500,
     introduction:
-      "The Zen tradition traces its lineage to Shakyamuni Buddha and the wordless transmission to Mahakashyapa — a founding narrative that, while largely legendary, established the principle of mind-to-mind awakening outside scripture. Through twenty-eight Indian patriarchs the dharma moved westward, culminating in Bodhidharma's crossing to China.",
+      "The Zen tradition traces its lineage to Shakyamuni Buddha and the wordless transmission to Mahakashyapa — a founding narrative that, while largely legendary, established the principle of mind-to-mind awakening outside scripture.[1]\n\nThrough twenty-eight Indian patriarchs the dharma moved westward, culminating in Bodhidharma's crossing to China.[2]",
     citations: [
-      { key: "dumoulin-china", pages: "pp. 7–29" },
-      { key: "mcrae", pages: "pp. 1–21" },
+      { index: 1, key: "dumoulin-china", pages: "pp. 7–29" },
+      { index: 2, key: "mcrae", pages: "pp. 1–21" },
     ],
     events: [
       {
@@ -229,15 +240,15 @@ export const TIMELINE_ERAS: TimelineEra[] = [
         precision: "circa",
         title: "The Flower Sermon",
         description:
-          "According to tradition, the Buddha held up a flower before the assembled monks on Vulture Peak. Only Mahakashyapa smiled, receiving the wordless transmission that would define Zen's core claim: a direct pointing to the mind, beyond words and letters. While historically unverifiable, this narrative became the foundational myth of Chan lineage.",
+          "According to tradition, the Buddha held up a flower before the assembled monks on Vulture Peak. Only Mahakashyapa smiled, receiving the wordless transmission that would define Zen's core claim: a direct pointing to the mind, beyond words and letters.[1]\n\nWhile historically unverifiable, this narrative became the foundational myth of Chan lineage.[2]",
         masters: [
           { label: "Shakyamuni Buddha", slug: "shakyamuni-buddha" },
           { label: "Mahakashyapa", slug: "mahakashyapa" },
         ],
         schools: [{ label: "Indian Patriarchs", slug: "indian-patriarchs" }],
         citations: [
-          { key: "dumoulin-china", pages: "pp. 8–12" },
-          { key: "mcrae", pages: "pp. 2–4" },
+          { index: 1, key: "dumoulin-china", pages: "pp. 8–12" },
+          { index: 2, key: "mcrae", pages: "pp. 2–4" },
         ],
       },
       {
@@ -246,12 +257,12 @@ export const TIMELINE_ERAS: TimelineEra[] = [
         precision: "circa",
         title: "Nagarjuna and the Madhyamaka",
         description:
-          "Nagarjuna, counted as the fourteenth Indian patriarch, articulated the philosophy of emptiness (śūnyatā) that would profoundly shape Chan thought. His Madhyamaka dialectic — that neither existence nor non-existence can be ultimately affirmed — provided the intellectual foundation for Zen's insistence on transcending conceptual dualities.",
+          "Nagarjuna, counted as the fourteenth Indian patriarch, articulated the philosophy of emptiness (śūnyatā) that would profoundly shape Chan thought.[1]\n\nHis Madhyamaka dialectic — that neither existence nor non-existence can be ultimately affirmed — provided the intellectual foundation for Zen's insistence on transcending conceptual dualities.[2]",
         masters: [{ label: "Nagarjuna", slug: "nagarjuna" }],
         schools: [{ label: "Indian Patriarchs", slug: "indian-patriarchs" }],
         citations: [
-          { key: "dumoulin-china", pages: "pp. 38–48" },
-          { key: "red-pine", pages: "pp. 23–35" },
+          { index: 1, key: "dumoulin-china", pages: "pp. 38–48" },
+          { index: 2, key: "red-pine", pages: "pp. 23–35" },
         ],
       },
       {
@@ -261,15 +272,15 @@ export const TIMELINE_ERAS: TimelineEra[] = [
         precision: "circa",
         title: "Bodhidharma's Journey East",
         description:
-          "The twenty-eighth Indian patriarch departed for China, carrying the meditation lineage across the sea. Tradition places his arrival at Canton around 520 CE, though earlier sources suggest he may have been active in China from the late fifth century. His journey marks the legendary bridge between Indian dhyana and Chinese Chan.",
+          "The twenty-eighth Indian patriarch departed for China, carrying the meditation lineage across the sea. Tradition places his arrival at Canton around 520 CE, though earlier sources suggest he may have been active in China from the late fifth century.[1]\n\nHis journey marks the legendary bridge between Indian dhyana and Chinese Chan.[2]",
         masters: [{ label: "Bodhidharma", slug: "puti-damo" }],
         schools: [
           { label: "Indian Patriarchs", slug: "indian-patriarchs" },
           { label: "Early Chan", slug: "early-chan" },
         ],
         citations: [
-          { key: "broughton", pages: "pp. 1–8" },
-          { key: "dumoulin-china", pages: "pp. 85–94" },
+          { index: 1, key: "broughton", pages: "pp. 1–8" },
+          { index: 2, key: "dumoulin-china", pages: "pp. 85–94" },
         ],
       },
     ],
@@ -283,10 +294,10 @@ export const TIMELINE_ERAS: TimelineEra[] = [
     yearStart: 520,
     yearEnd: 700,
     introduction:
-      "Bodhidharma's arrival initiated the transformation of Indian meditation practice into something distinctly Chinese. The early patriarchs — Huike, Sengcan, and their successors — synthesized Buddhist meditation with indigenous Daoist sensibility, laying the groundwork for a tradition that would eventually sweep East Asia. The pivotal figure of Huineng, the illiterate woodcutter who became the Sixth Patriarch, crystallized the movement's radical emphasis on sudden awakening.",
+      "Bodhidharma's arrival initiated the transformation of Indian meditation practice into something distinctly Chinese. The early patriarchs — Huike, Sengcan, and their successors — synthesized Buddhist meditation with indigenous Daoist sensibility, laying the groundwork for a tradition that would eventually sweep East Asia.[1]\n\nThe pivotal figure of Huineng, the illiterate woodcutter who became the Sixth Patriarch, crystallized the movement's radical emphasis on sudden awakening.[2]",
     citations: [
-      { key: "broughton", pages: "pp. 1–54" },
-      { key: "yampolsky", pages: "pp. 1–58" },
+      { index: 1, key: "broughton", pages: "pp. 1–54" },
+      { index: 2, key: "yampolsky", pages: "pp. 1–58" },
     ],
     events: [
       {
@@ -295,12 +306,12 @@ export const TIMELINE_ERAS: TimelineEra[] = [
         precision: "circa",
         title: "Wall-Gazing at Shaolin",
         description:
-          "Bodhidharma reportedly spent nine years facing a wall at Shaolin monastery, embodying the practice of 'wall-gazing' (biguan). This austere image — the foreign monk sitting immovably — became an icon of Chan determination. The earliest sources, particularly the Two Entrances and Four Practices, present his teaching as 'entering by principle' through the realization that all beings share one true nature.",
+          "Bodhidharma reportedly spent nine years facing a wall at Shaolin monastery, embodying the practice of 'wall-gazing' (biguan). This austere image — the foreign monk sitting immovably — became an icon of Chan determination.[1]\n\nThe earliest sources, particularly the Two Entrances and Four Practices, present his teaching as 'entering by principle' through the realization that all beings share one true nature.[2]",
         masters: [{ label: "Bodhidharma", slug: "puti-damo" }],
         schools: [{ label: "Early Chan", slug: "early-chan" }],
         citations: [
-          { key: "broughton", pages: "pp. 8–21" },
-          { key: "dumoulin-china", pages: "pp. 89–101" },
+          { index: 1, key: "broughton", pages: "pp. 8–21" },
+          { index: 2, key: "dumoulin-china", pages: "pp. 89–101" },
         ],
       },
       {
@@ -309,7 +320,7 @@ export const TIMELINE_ERAS: TimelineEra[] = [
         precision: "circa",
         title: "Huike Receives the Dharma",
         description:
-          "Huike, who according to legend severed his own arm to demonstrate his resolve, became Bodhidharma's dharma heir and the Second Patriarch of Chan. He carried the teaching forward through decades of obscurity, transmitting to Sengcan. These early patriarchs lived outside the established Buddhist institutions, practicing in small, itinerant communities.",
+          "Huike, who according to legend severed his own arm to demonstrate his resolve, became Bodhidharma's dharma heir and the Second Patriarch of Chan. He carried the teaching forward through decades of obscurity, transmitting to Sengcan.[1]\n\nThese early patriarchs lived outside the established Buddhist institutions, practicing in small, itinerant communities.[2]",
         masters: [
           { label: "Bodhidharma", slug: "puti-damo" },
           { label: "Huike", slug: "dazu-huike" },
@@ -317,8 +328,8 @@ export const TIMELINE_ERAS: TimelineEra[] = [
         ],
         schools: [{ label: "Early Chan", slug: "early-chan" }],
         citations: [
-          { key: "dumoulin-china", pages: "pp. 101–109" },
-          { key: "mcrae", pages: "pp. 24–31" },
+          { index: 1, key: "dumoulin-china", pages: "pp. 101–109" },
+          { index: 2, key: "mcrae", pages: "pp. 24–31" },
         ],
       },
       {
@@ -327,15 +338,15 @@ export const TIMELINE_ERAS: TimelineEra[] = [
         precision: "circa",
         title: "Vinītaruci Carries Chan to Vietnam",
         description:
-          "An Indian monk who had studied with the Third Patriarch Sengcan in China, Vinītaruci travelled south and founded the first Thiền (禪) lineage in what is now northern Vietnam, based at the Pháp Vân temple. The Thiền Uyển Tập Anh, a fourteenth-century Vietnamese compendium, traces this lineage through nineteen generations and makes Vinītaruci Vietnamese Buddhism's earliest named Chan ancestor — though modern scholarship reads the scheme as a retrospective construction shaped by later traditions rather than a contemporaneous historical chain.",
+          "An Indian monk who had studied with the Third Patriarch Sengcan in China, Vinītaruci travelled south and founded the first Thiền (禪) lineage in what is now northern Vietnam, based at the Pháp Vân temple.[1]\n\nThe Thiền Uyển Tập Anh, a fourteenth-century Vietnamese compendium, traces this lineage through nineteen generations and makes Vinītaruci Vietnamese Buddhism's earliest named Chan ancestor — though modern scholarship reads the scheme as a retrospective construction shaped by later traditions rather than a contemporaneous historical chain.[2]",
         masters: [{ label: "Vinītaruci", slug: "vinitaruci" }],
         schools: [
           { label: "Thiền", slug: "thien" },
           { label: "Early Chan", slug: "early-chan" },
         ],
         citations: [
-          { key: "nguyen-medieval", pages: "pp. 9–25, 127–149" },
-          { key: "le-manh-that" },
+          { index: 1, key: "nguyen-medieval", pages: "pp. 9–25, 127–149" },
+          { index: 2, key: "le-manh-that" },
         ],
       },
       {
@@ -344,12 +355,12 @@ export const TIMELINE_ERAS: TimelineEra[] = [
         precision: "circa",
         title: "Huineng and the Platform Sutra",
         description:
-          "The Platform Sutra recounts how Huineng, an illiterate southerner, won the robe and bowl of the Fifth Patriarch over the learned Shenxiu. Whether historically accurate or not, the text crystallized Chan's defining claim: that awakening is sudden, immediate, and available to all regardless of learning or status. It became the only Chinese Buddhist text honored as a 'sutra.'",
+          "The Platform Sutra recounts how Huineng, an illiterate southerner, won the robe and bowl of the Fifth Patriarch over the learned Shenxiu.[1]\n\nWhether historically accurate or not, the text crystallized Chan's defining claim: that awakening is sudden, immediate, and available to all regardless of learning or status. It became the only Chinese Buddhist text honored as a 'sutra.'[2]",
         masters: [{ label: "Huineng", slug: "dajian-huineng" }],
         schools: [{ label: "Early Chan", slug: "early-chan" }],
         citations: [
-          { key: "yampolsky", pages: "pp. 89–180" },
-          { key: "mcrae", pages: "pp. 58–72" },
+          { index: 1, key: "yampolsky", pages: "pp. 89–180" },
+          { index: 2, key: "mcrae", pages: "pp. 58–72" },
         ],
       },
       {
@@ -359,12 +370,12 @@ export const TIMELINE_ERAS: TimelineEra[] = [
         precision: "circa",
         title: "The Southern–Northern Controversy",
         description:
-          "The rivalry between the 'sudden enlightenment' school of Huineng and the 'gradual cultivation' school of Shenxiu shaped Chan's self-understanding for centuries. In reality, as McRae demonstrates, this was less a doctrinal dispute than a competition for imperial patronage and lineage authority. The 'southern' faction ultimately prevailed, establishing the model of sudden awakening that all subsequent Chan schools would claim.",
+          "The rivalry between the 'sudden enlightenment' school of Huineng and the 'gradual cultivation' school of Shenxiu shaped Chan's self-understanding for centuries. In reality, as McRae demonstrates, this was less a doctrinal dispute than a competition for imperial patronage and lineage authority.[1]\n\nThe 'southern' faction ultimately prevailed, establishing the model of sudden awakening that all subsequent Chan schools would claim.[2]",
         masters: [{ label: "Huineng", slug: "dajian-huineng" }],
         schools: [{ label: "Chan", slug: "chan" }],
         citations: [
-          { key: "mcrae", pages: "pp. 58–76" },
-          { key: "gregory", pages: "pp. 1–35" },
+          { index: 1, key: "mcrae", pages: "pp. 58–76" },
+          { index: 2, key: "gregory", pages: "pp. 1–35" },
         ],
       },
     ],
@@ -378,10 +389,10 @@ export const TIMELINE_ERAS: TimelineEra[] = [
     yearStart: 700,
     yearEnd: 907,
     introduction:
-      "Under the Tang, Chan exploded into a creative ferment unmatched in Buddhist history. From the Hongzhou school of Mazu Daoyi emerged the characteristic methods of shouting, striking, and paradoxical dialogue that define the tradition's popular image. Baizhang codified monastic rules, Linji and Dongshan founded the lineages that persist today, and Chan survived the catastrophic Huichang suppression of 845 — emerging as the dominant form of Chinese Buddhism precisely because it depended less on scriptural libraries and institutional wealth than other schools.",
+      "Under the Tang, Chan exploded into a creative ferment unmatched in Buddhist history. From the Hongzhou school of Mazu Daoyi emerged the characteristic methods of shouting, striking, and paradoxical dialogue that define the tradition's popular image.[1]\n\nBaizhang codified monastic rules, Linji and Dongshan founded the lineages that persist today, and Chan survived the catastrophic Huichang suppression of 845 — emerging as the dominant form of Chinese Buddhism precisely because it depended less on scriptural libraries and institutional wealth than other schools.[2]",
     citations: [
-      { key: "poceski", pages: "pp. 1–32" },
-      { key: "dumoulin-china", pages: "pp. 152–293" },
+      { index: 1, key: "poceski", pages: "pp. 1–32" },
+      { index: 2, key: "dumoulin-china", pages: "pp. 152–293" },
     ],
     events: [
       {
@@ -390,15 +401,15 @@ export const TIMELINE_ERAS: TimelineEra[] = [
         precision: "circa",
         title: "Mazu and the Hongzhou School",
         description:
-          "Mazu Daoyi transformed Chan from a meditation-centered practice into a dynamic engagement with daily life. His teaching that 'ordinary mind is the Way' (pingchang xin shi dao) liberated practice from formal sitting, while his use of shouts, blows, and seemingly irrational responses created the encounter-dialogue style. His community in Hongzhou trained over a hundred dharma heirs, making him the most influential figure in Tang Chan.",
+          "Mazu Daoyi transformed Chan from a meditation-centered practice into a dynamic engagement with daily life. His teaching that 'ordinary mind is the Way' (pingchang xin shi dao) liberated practice from formal sitting, while his use of shouts, blows, and seemingly irrational responses created the encounter-dialogue style.[1]\n\nHis community in Hongzhou trained over a hundred dharma heirs, making him the most influential figure in Tang Chan.[2]",
         masters: [
           { label: "Mazu Daoyi", slug: "mazu-daoyi" },
           { label: "Nanyue Huairang", slug: "nanyue-huairang" },
         ],
         schools: [{ label: "Nanyue Line", slug: "nanyue-line" }],
         citations: [
-          { key: "poceski", pages: "pp. 45–87" },
-          { key: "leighton", pages: "pp. 147–158" },
+          { index: 1, key: "poceski", pages: "pp. 45–87" },
+          { index: 2, key: "leighton", pages: "pp. 147–158" },
         ],
       },
       {
@@ -407,12 +418,12 @@ export const TIMELINE_ERAS: TimelineEra[] = [
         precision: "circa",
         title: "Baizhang's Monastic Code",
         description:
-          "Baizhang Huaihai, Mazu's foremost student, established the first distinctively Chan monastic regulations. His famous principle, 'A day without work is a day without eating,' embedded manual labor into the contemplative life and gave Chan monasteries economic self-sufficiency. Though the historical 'pure rules' attributed to him may be a later compilation, his institutional vision shaped every Chan and Zen monastery that followed.",
+          "Baizhang Huaihai, Mazu's foremost student, established the first distinctively Chan monastic regulations. His famous principle, 'A day without work is a day without eating,' embedded manual labor into the contemplative life and gave Chan monasteries economic self-sufficiency.[1]\n\nThough the historical 'pure rules' attributed to him may be a later compilation, his institutional vision shaped every Chan and Zen monastery that followed.[2]",
         masters: [{ label: "Baizhang Huaihai", slug: "baizhang-huaihai" }],
         schools: [{ label: "Chan", slug: "chan" }],
         citations: [
-          { key: "poceski", pages: "pp. 88–112" },
-          { key: "dumoulin-china", pages: "pp. 169–176" },
+          { index: 1, key: "poceski", pages: "pp. 88–112" },
+          { index: 2, key: "dumoulin-china", pages: "pp. 169–176" },
         ],
       },
       {
@@ -421,15 +432,15 @@ export const TIMELINE_ERAS: TimelineEra[] = [
         precision: "circa",
         title: "Toui Returns with Seon to Silla",
         description:
-          "Toui (도의, d. 825), a Korean monk who trained in Tang China and received transmission in the Mazu-Baizhang line, returned to the Silla kingdom bringing Southern School Chan doctrine. His teaching of sudden awakening encountered resistance from the scholastic Buddhism then dominant in Korea and flowered only posthumously, when his disciples established Chauldoyi-sa on Mount Gaji. Toui is regarded as the first patriarch of Korean Seon, opening the century-long arrival of what would become the Nine Mountain Schools (구산선문 Guṣan Seonmun) — each founded by a Korean master who had received transmission in China.",
+          "Toui (도의, d. 825), a Korean monk who trained in Tang China and received transmission in the Mazu-Baizhang line, returned to the Silla kingdom bringing Southern School Chan doctrine. His teaching of sudden awakening encountered resistance from the scholastic Buddhism then dominant in Korea and flowered only posthumously, when his disciples established Chauldoyi-sa on Mount Gaji.[1]\n\nToui is regarded as the first patriarch of Korean Seon, opening the century-long arrival of what would become the Nine Mountain Schools (구산선문 Guṣan Seonmun) — each founded by a Korean master who had received transmission in China.[2]",
         masters: [{ label: "Toui", slug: "toui" }],
         schools: [
           { label: "Seon", slug: "seon" },
           { label: "Nanyue line", slug: "nanyue-line" },
         ],
         citations: [
-          { key: "buswell-formation", pages: "pp. 41–74" },
-          { key: "buswell-radiance", pages: "pp. 17–22" },
+          { index: 1, key: "buswell-formation", pages: "pp. 41–74" },
+          { index: 2, key: "buswell-radiance", pages: "pp. 17–22" },
         ],
       },
       {
@@ -438,7 +449,7 @@ export const TIMELINE_ERAS: TimelineEra[] = [
         precision: "circa",
         title: "Vô Ngôn Thông Founds the Second Thiền Lineage",
         description:
-          "Vô Ngôn Thông (無言通, d. 826), a Chinese disciple of Baizhang Huaihai, travelled to Vietnam in his later years and founded the second major Thiền lineage, based at Kiến Sơ temple in what is now Bắc Ninh province. Where the earlier Vinītaruci line carried an Indian-rooted meditative tradition, the Vô Ngôn Thông line transmitted the dharma through the Chinese Southern School with its characteristic emphasis on direct transmission outside the scriptures. Together the two lineages formed the spine of Vietnamese Thiền for the next five centuries.",
+          "Vô Ngôn Thông (無言通, d. 826), a Chinese disciple of Baizhang Huaihai, travelled to Vietnam in his later years and founded the second major Thiền lineage, based at Kiến Sơ temple in what is now Bắc Ninh province.[1]\n\nWhere the earlier Vinītaruci line carried an Indian-rooted meditative tradition, the Vô Ngôn Thông line transmitted the dharma through the Chinese Southern School with its characteristic emphasis on direct transmission outside the scriptures. Together the two lineages formed the spine of Vietnamese Thiền for the next five centuries.[2]",
         masters: [
           { label: "Vô Ngôn Thông", slug: "vo-ngon-thong" },
           { label: "Baizhang Huaihai", slug: "baizhang-huaihai" },
@@ -448,8 +459,8 @@ export const TIMELINE_ERAS: TimelineEra[] = [
           { label: "Nanyue line", slug: "nanyue-line" },
         ],
         citations: [
-          { key: "nguyen-medieval", pages: "pp. 26–42" },
-          { key: "le-manh-that" },
+          { index: 1, key: "nguyen-medieval", pages: "pp. 26–42" },
+          { index: 2, key: "le-manh-that" },
         ],
       },
       {
@@ -458,12 +469,12 @@ export const TIMELINE_ERAS: TimelineEra[] = [
         precision: "circa",
         title: "Linji Yixuan and the Linji School",
         description:
-          "Linji Yixuan's ferocious teaching style — punctuated by shouts and blows — crystallized into the school that would become the most widespread Chan lineage. His recorded sayings, the Linji Lu, contain the famous 'four shouts,' the injunction to 'kill the Buddha,' and a radical insistence on the 'true person of no rank' within each practitioner. The Linji school later transmitted to Japan as Rinzai.",
+          "Linji Yixuan's ferocious teaching style — punctuated by shouts and blows — crystallized into the school that would become the most widespread Chan lineage.[1]\n\nHis recorded sayings, the Linji Lu, contain the famous 'four shouts,' the injunction to 'kill the Buddha,' and a radical insistence on the 'true person of no rank' within each practitioner. The Linji school later transmitted to Japan as Rinzai.[2]",
         masters: [{ label: "Linji Yixuan", slug: "linji-yixuan" }],
         schools: [{ label: "Linji", slug: "linji" }],
         citations: [
-          { key: "welter", pages: "pp. 1–45" },
-          { key: "dumoulin-china", pages: "pp. 185–200" },
+          { index: 1, key: "welter", pages: "pp. 1–45" },
+          { index: 2, key: "dumoulin-china", pages: "pp. 185–200" },
         ],
       },
       {
@@ -472,12 +483,12 @@ export const TIMELINE_ERAS: TimelineEra[] = [
         precision: "circa",
         title: "Dongshan Liangjie and the Caodong School",
         description:
-          "Dongshan Liangjie articulated the Five Ranks — a subtle dialectic of absolute and relative — and founded the Caodong lineage. Where Linji emphasized dynamic encounter, Caodong cultivated 'silent illumination' (mozhao), a mode of just sitting that required neither koan nor confrontation. This contemplative approach would later transmit to Japan as Soto Zen through Dōgen.",
+          "Dongshan Liangjie articulated the Five Ranks — a subtle dialectic of absolute and relative — and founded the Caodong lineage.[1]\n\nWhere Linji emphasized dynamic encounter, Caodong cultivated 'silent illumination' (mozhao), a mode of just sitting that required neither koan nor confrontation. This contemplative approach would later transmit to Japan as Soto Zen through Dōgen.[2]",
         masters: [{ label: "Dongshan Liangjie", slug: "dongshan-liangjie" }],
         schools: [{ label: "Caodong", slug: "caodong" }],
         citations: [
-          { key: "leighton", pages: "pp. 203–214" },
-          { key: "dumoulin-china", pages: "pp. 213–223" },
+          { index: 1, key: "leighton", pages: "pp. 203–214" },
+          { index: 2, key: "dumoulin-china", pages: "pp. 213–223" },
         ],
       },
       {
@@ -487,7 +498,7 @@ export const TIMELINE_ERAS: TimelineEra[] = [
         precision: "circa",
         title: "The Five Houses of Chan",
         description:
-          "Between the late Tang and early Song, Chan organized itself into five 'houses' or lineages: Linji, Caodong, Yunmen, Fayan, and Guiyang. Each developed distinctive teaching styles — Yunmen's single-word barriers, Guiyang's use of symbolic circles, Fayan's intellectual rigor. Of these, Linji and Caodong proved the most enduring, eventually absorbing the other three.",
+          "Between the late Tang and early Song, Chan organized itself into five 'houses' or lineages: Linji, Caodong, Yunmen, Fayan, and Guiyang. Each developed distinctive teaching styles — Yunmen's single-word barriers, Guiyang's use of symbolic circles, Fayan's intellectual rigor.[1]\n\nOf these, Linji and Caodong proved the most enduring, eventually absorbing the other three.[2]",
         masters: [
           { label: "Yunmen Wenyan", slug: "yunmen-wenyan" },
           { label: "Guishan Lingyou", slug: "guishan-lingyou" },
@@ -500,8 +511,8 @@ export const TIMELINE_ERAS: TimelineEra[] = [
           { label: "Caodong", slug: "caodong" },
         ],
         citations: [
-          { key: "dumoulin-china", pages: "pp. 196–268" },
-          { key: "leighton", pages: "pp. 180–260" },
+          { index: 1, key: "dumoulin-china", pages: "pp. 196–268" },
+          { index: 2, key: "leighton", pages: "pp. 180–260" },
         ],
       },
       {
@@ -510,10 +521,12 @@ export const TIMELINE_ERAS: TimelineEra[] = [
         precision: "exact",
         title: "The Huichang Suppression",
         description:
-          "Emperor Wuzong's persecution of Buddhism destroyed thousands of monasteries and forced hundreds of thousands of monks and nuns to return to lay life. The text-dependent schools suffered most severely; Chan, with its emphasis on direct experience over scriptural study, survived and emerged as the dominant Buddhist tradition in China. The destruction paradoxically accelerated Chan's rise to cultural preeminence.",
+          "Emperor Wuzong's persecution of Buddhism destroyed thousands of monasteries and forced hundreds of thousands of monks and nuns to return to lay life.[1]\n\nThe text-dependent schools suffered most severely; Chan, with its emphasis on direct experience over scriptural study, survived and emerged as the dominant Buddhist tradition in China. The destruction paradoxically accelerated Chan's rise to cultural preeminence.[1]",
         masters: [],
         schools: [{ label: "Chan", slug: "chan" }],
-        citations: [{ key: "dumoulin-china", pages: "pp. 177–183" }],
+        citations: [
+          { index: 1, key: "dumoulin-china", pages: "pp. 177–183" },
+        ],
       },
     ],
   },
@@ -526,10 +539,10 @@ export const TIMELINE_ERAS: TimelineEra[] = [
     yearStart: 960,
     yearEnd: 1279,
     introduction:
-      "The Song dynasty was Chan's age of literary and institutional maturation. The great koan collections — the Blue Cliff Record and the Gateless Gate — systematized the wild encounters of Tang masters into a structured curriculum. A fierce methodological debate emerged between Dahui Zonggao's 'koan introspection' (kanhua chan) and Hongzhi Zhengjue's 'silent illumination' (mozhao chan), a creative tension that continues to animate Zen practice today.",
+      "The Song dynasty was Chan's age of literary and institutional maturation. The great koan collections — the Blue Cliff Record and the Gateless Gate — systematized the wild encounters of Tang masters into a structured curriculum.[1]\n\nA fierce methodological debate emerged between Dahui Zonggao's 'koan introspection' (kanhua chan) and Hongzhi Zhengjue's 'silent illumination' (mozhao chan), a creative tension that continues to animate Zen practice today.[2]",
     citations: [
-      { key: "dumoulin-china", pages: "pp. 244–323" },
-      { key: "cleary", pages: "pp. ix–xxiv" },
+      { index: 1, key: "dumoulin-china", pages: "pp. 244–323" },
+      { index: 2, key: "cleary", pages: "pp. ix–xxiv" },
     ],
     events: [
       {
@@ -538,15 +551,15 @@ export const TIMELINE_ERAS: TimelineEra[] = [
         precision: "circa",
         title: "The Blue Cliff Record",
         description:
-          "Yuanwu Keqin compiled his master Xuedou Chongxian's verse comments on one hundred koans into the Biyan Lu (Blue Cliff Record), the most celebrated anthology in Chan literature. Its layered structure — case, verse, commentary, and capping phrases — created a literary form of extraordinary depth that simultaneously preserved the spontaneity of encounter dialogue and made it available for systematic study.",
+          "Yuanwu Keqin compiled his master Xuedou Chongxian's verse comments on one hundred koans into the Biyan Lu (Blue Cliff Record), the most celebrated anthology in Chan literature.[1]\n\nIts layered structure — case, verse, commentary, and capping phrases — created a literary form of extraordinary depth that simultaneously preserved the spontaneity of encounter dialogue and made it available for systematic study.[2]",
         masters: [
           { label: "Yuanwu Keqin", slug: "yuanwu-keqin" },
           { label: "Xuedou Chongxian", slug: "xuedou-chongxian" },
         ],
         schools: [{ label: "Linji", slug: "linji" }],
         citations: [
-          { key: "cleary", pages: "pp. ix–xxiv" },
-          { key: "dumoulin-china", pages: "pp. 252–261" },
+          { index: 1, key: "cleary", pages: "pp. ix–xxiv" },
+          { index: 2, key: "dumoulin-china", pages: "pp. 252–261" },
         ],
       },
       {
@@ -555,12 +568,12 @@ export const TIMELINE_ERAS: TimelineEra[] = [
         precision: "exact",
         title: "The Gateless Gate",
         description:
-          "Wumen Huikai compiled forty-eight koans with pithy commentaries and verse into the Wumenguan (Gateless Gate). More compact and accessible than the Blue Cliff Record, it became the most widely used koan collection in both Chinese and Japanese Zen. Its opening case — Zhaozhou's 'Mu' — remains the first koan assigned to countless practitioners.",
+          "Wumen Huikai compiled forty-eight koans with pithy commentaries and verse into the Wumenguan (Gateless Gate). More compact and accessible than the Blue Cliff Record, it became the most widely used koan collection in both Chinese and Japanese Zen.[1]\n\nIts opening case — Zhaozhou's 'Mu' — remains the first koan assigned to countless practitioners.[2]",
         masters: [{ label: "Wumen Huikai", slug: "wumen-huikai" }],
         schools: [{ label: "Linji", slug: "linji" }],
         citations: [
-          { key: "aitken", pages: "pp. 1–12" },
-          { key: "dumoulin-china", pages: "pp. 245–252" },
+          { index: 1, key: "aitken", pages: "pp. 1–12" },
+          { index: 2, key: "dumoulin-china", pages: "pp. 245–252" },
         ],
       },
       {
@@ -570,7 +583,7 @@ export const TIMELINE_ERAS: TimelineEra[] = [
         precision: "circa",
         title: "Dahui vs Hongzhi: Koan and Silent Illumination",
         description:
-          "The creative tension between Dahui Zonggao's 'keyword Chan' (kanhua chan) and Hongzhi Zhengjue's 'silent illumination' (mozhao chan) defined Song-era practice. Dahui championed intensive concentration on a koan's critical phrase; Hongzhi taught objectless sitting in luminous awareness. Despite their polemical exchanges, the two masters were personal friends — and their methodological dialogue continues to structure the Rinzai–Soto distinction.",
+          "The creative tension between Dahui Zonggao's 'keyword Chan' (kanhua chan) and Hongzhi Zhengjue's 'silent illumination' (mozhao chan) defined Song-era practice. Dahui championed intensive concentration on a koan's critical phrase; Hongzhi taught objectless sitting in luminous awareness.[1]\n\nDespite their polemical exchanges, the two masters were personal friends — and their methodological dialogue continues to structure the Rinzai–Soto distinction.[2]",
         masters: [
           { label: "Dahui Zonggao", slug: "dahui-zonggao" },
           { label: "Hongzhi Zhengjue", slug: "hongzhi-zhengjue" },
@@ -580,8 +593,8 @@ export const TIMELINE_ERAS: TimelineEra[] = [
           { label: "Caodong", slug: "caodong" },
         ],
         citations: [
-          { key: "dumoulin-china", pages: "pp. 267–283" },
-          { key: "leighton", pages: "pp. 297–310" },
+          { index: 1, key: "dumoulin-china", pages: "pp. 267–283" },
+          { index: 2, key: "leighton", pages: "pp. 297–310" },
         ],
       },
       {
@@ -590,12 +603,12 @@ export const TIMELINE_ERAS: TimelineEra[] = [
         precision: "circa",
         title: "Chan Becomes China's Dominant Buddhism",
         description:
-          "By the Northern Song, virtually all Chinese Buddhist monasteries operated under Chan institutional frameworks. The government's official monastery classification system recognized Chan as the leading school. This dominance was partly administrative — many monasteries became 'Chan' by designation rather than practice — but it reflected Chan's successful synthesis of meditation, literary culture, and monastic economy.",
+          "By the Northern Song, virtually all Chinese Buddhist monasteries operated under Chan institutional frameworks. The government's official monastery classification system recognized Chan as the leading school.[1]\n\nThis dominance was partly administrative — many monasteries became 'Chan' by designation rather than practice — but it reflected Chan's successful synthesis of meditation, literary culture, and monastic economy.[2]",
         masters: [],
         schools: [{ label: "Chan", slug: "chan" }],
         citations: [
-          { key: "mcrae", pages: "pp. 118–127" },
-          { key: "welter", pages: "pp. 60–85" },
+          { index: 1, key: "mcrae", pages: "pp. 118–127" },
+          { index: 2, key: "welter", pages: "pp. 60–85" },
         ],
       },
       {
@@ -604,15 +617,15 @@ export const TIMELINE_ERAS: TimelineEra[] = [
         precision: "circa",
         title: "Chinul's Synthesis and the Rise of Jogye Seon",
         description:
-          "Bojo Chinul (普照知訥, 1158–1210) gave Korean Seon the doctrinal and institutional form it still carries. Rejecting the Chinese controversy between sudden and gradual awakening as a false dichotomy, he taught 'sudden awakening, gradual cultivation' (돈오점수 dono jeomsu) and braided Seon meditation together with Hwaeom (Huayan) doctrinal study and Pure Land devotion. His Samādhi-Prajñā Society retreat at Mount Jogye (ending in 1200) became the seed of what would later be institutionalized as the Jogye Order — the dominant expression of Korean Buddhism from that day to this.",
+          "Bojo Chinul (普照知訥, 1158–1210) gave Korean Seon the doctrinal and institutional form it still carries. Rejecting the Chinese controversy between sudden and gradual awakening as a false dichotomy, he taught 'sudden awakening, gradual cultivation' (돈오점수 dono jeomsu) and braided Seon meditation together with Hwaeom (Huayan) doctrinal study and Pure Land devotion.[1]\n\nHis Samādhi-Prajñā Society retreat at Mount Jogye (ending in 1200) became the seed of what would later be institutionalized as the Jogye Order — the dominant expression of Korean Buddhism from that day to this.[2]",
         masters: [{ label: "Bojo Chinul", slug: "jinul" }],
         schools: [
           { label: "Seon", slug: "seon" },
           { label: "Jogye", slug: "jogye" },
         ],
         citations: [
-          { key: "buswell-radiance", pages: "pp. 17–97, 159–213" },
-          { key: "buswell-formation", pages: "pp. 1–40" },
+          { index: 1, key: "buswell-radiance", pages: "pp. 17–97, 159–213" },
+          { index: 2, key: "buswell-formation", pages: "pp. 1–40" },
         ],
       },
       {
@@ -621,15 +634,15 @@ export const TIMELINE_ERAS: TimelineEra[] = [
         precision: "circa",
         title: "Chin'gak Hyesim Systematizes Hwadu Practice",
         description:
-          "Chin'gak Hyesim (眞覺慧諶, 1178–1234), Chinul's principal disciple and successor at Mount Jogye, refined Korean huatou (화두 hwadu) practice into the disciplined form that still defines Korean monastic training. His Seonmun Yeomsong, a collection of 1,125 koan cases with his commentary, remains one of the foundational texts of Korean Seon. With Hyesim the Korean tradition committed to keyword investigation as the primary meditative method, a commitment that endures in the seonbang (meditation hall) to this day.",
+          "Chin'gak Hyesim (眞覺慧諶, 1178–1234), Chinul's principal disciple and successor at Mount Jogye, refined Korean huatou (화두 hwadu) practice into the disciplined form that still defines Korean monastic training. His Seonmun Yeomsong, a collection of 1,125 koan cases with his commentary, remains one of the foundational texts of Korean Seon.[1]\n\nWith Hyesim the Korean tradition committed to keyword investigation as the primary meditative method, a commitment that endures in the seonbang (meditation hall) to this day.[2]",
         masters: [
           { label: "Chin'gak Hyesim", slug: "chingak-hyesim" },
           { label: "Bojo Chinul", slug: "jinul" },
         ],
         schools: [{ label: "Jogye", slug: "jogye" }],
         citations: [
-          { key: "buswell-radiance", pages: "pp. 98–130" },
-          { key: "buswell-monastic", pages: "pp. 149–190" },
+          { index: 1, key: "buswell-radiance", pages: "pp. 98–130" },
+          { index: 2, key: "buswell-monastic", pages: "pp. 149–190" },
         ],
       },
     ],
@@ -643,10 +656,10 @@ export const TIMELINE_ERAS: TimelineEra[] = [
     yearStart: 1191,
     yearEnd: 1400,
     introduction:
-      "While Japanese monks crossed to Song China and brought Chan back as 'Zen,' parallel currents were reshaping the tradition elsewhere. Eisai introduced Rinzai forms with tea ceremony and Kamakura warrior patronage. Dōgen, dissatisfied with what he found in Kyoto, went to China himself and returned with a radically pure vision of 'just sitting' (shikantaza). Keizan Jōkin then made Soto accessible to the common people. Meanwhile in Vietnam, Emperor Trần Nhân Tông abdicated the throne and founded the indigenous Trúc Lâm school; in Korea, Taego Bou carried Linji transmission home from Yuan China.",
+      "While Japanese monks crossed to Song China and brought Chan back as 'Zen,' parallel currents were reshaping the tradition elsewhere. Eisai introduced Rinzai forms with tea ceremony and Kamakura warrior patronage. Dōgen, dissatisfied with what he found in Kyoto, went to China himself and returned with a radically pure vision of 'just sitting' (shikantaza). Keizan Jōkin then made Soto accessible to the common people.[1]\n\nMeanwhile in Vietnam, Emperor Trần Nhân Tông abdicated the throne and founded the indigenous Trúc Lâm school; in Korea, Taego Bou carried Linji transmission home from Yuan China.[2]",
     citations: [
-      { key: "dumoulin-japan", pages: "pp. 1–149" },
-      { key: "dogen", pages: "pp. 1–24" },
+      { index: 1, key: "dumoulin-japan", pages: "pp. 1–149" },
+      { index: 2, key: "dogen", pages: "pp. 1–24" },
     ],
     events: [
       {
@@ -655,10 +668,12 @@ export const TIMELINE_ERAS: TimelineEra[] = [
         precision: "exact",
         title: "Eisai Brings Rinzai to Japan",
         description:
-          "After studying under Linji-lineage masters in China, Eisai returned to Japan and established Zen as an independent school for the first time on Japanese soil. He cultivated relationships with the Kamakura shogunate, linking Zen to warrior culture and political power. He also introduced tea cultivation, beginning the intimate connection between Zen and the Way of Tea.",
+          "After studying under Linji-lineage masters in China, Eisai returned to Japan and established Zen as an independent school for the first time on Japanese soil. He cultivated relationships with the Kamakura shogunate, linking Zen to warrior culture and political power.[1]\n\nHe also introduced tea cultivation, beginning the intimate connection between Zen and the Way of Tea.[1]",
         masters: [{ label: "Eisai", slug: "myoan-eisai" }],
         schools: [{ label: "Rinzai", slug: "rinzai" }],
-        citations: [{ key: "dumoulin-japan", pages: "pp. 9–30" }],
+        citations: [
+          { index: 1, key: "dumoulin-japan", pages: "pp. 9–30" },
+        ],
       },
       {
         id: "dogen-soto",
@@ -666,12 +681,12 @@ export const TIMELINE_ERAS: TimelineEra[] = [
         precision: "exact",
         title: "Dōgen Returns from China",
         description:
-          "Dōgen Zenji returned from Song China having received dharma transmission in the Caodong lineage. He famously said he came back 'empty-handed,' having realized that practice and enlightenment are not two things. Over the next two decades he composed the Shōbōgenzō, a philosophical masterwork of extraordinary originality, and founded Eiheiji — the temple that remains Soto Zen's head monastery to this day.",
+          "Dōgen Zenji returned from Song China having received dharma transmission in the Caodong lineage. He famously said he came back 'empty-handed,' having realized that practice and enlightenment are not two things.[1]\n\nOver the next two decades he composed the Shōbōgenzō, a philosophical masterwork of extraordinary originality, and founded Eiheiji — the temple that remains Soto Zen's head monastery to this day.[2]",
         masters: [{ label: "Dōgen Zenji", slug: "dogen" }],
         schools: [{ label: "Soto", slug: "soto" }],
         citations: [
-          { key: "dumoulin-japan", pages: "pp. 51–120" },
-          { key: "dogen", pages: "pp. 1–24" },
+          { index: 1, key: "dumoulin-japan", pages: "pp. 51–120" },
+          { index: 2, key: "dogen", pages: "pp. 1–24" },
         ],
       },
       {
@@ -680,10 +695,12 @@ export const TIMELINE_ERAS: TimelineEra[] = [
         precision: "circa",
         title: "Keizan Jōkin Popularizes Soto",
         description:
-          "While Dōgen emphasized rigorous monastic practice, his fourth-generation successor Keizan Jōkin opened Soto Zen to a broader audience. He incorporated elements of esoteric Buddhism and folk religion, established Sōjiji (the second Soto head temple), and created an institutional framework that enabled Soto to become the largest Zen school in Japan — a position it still holds.",
+          "While Dōgen emphasized rigorous monastic practice, his fourth-generation successor Keizan Jōkin opened Soto Zen to a broader audience.[1]\n\nHe incorporated elements of esoteric Buddhism and folk religion, established Sōjiji (the second Soto head temple), and created an institutional framework that enabled Soto to become the largest Zen school in Japan — a position it still holds.[1]",
         masters: [{ label: "Keizan Jōkin", slug: "keizan-jokin" }],
         schools: [{ label: "Soto", slug: "soto" }],
-        citations: [{ key: "dumoulin-japan", pages: "pp. 120–140" }],
+        citations: [
+          { index: 1, key: "dumoulin-japan", pages: "pp. 120–140" },
+        ],
       },
       {
         id: "kamakura-patronage",
@@ -692,13 +709,15 @@ export const TIMELINE_ERAS: TimelineEra[] = [
         precision: "circa",
         title: "Kamakura Patronage and the Gozan System",
         description:
-          "The Kamakura shogunate established the 'Five Mountains' (Gozan) system, ranking Zen monasteries in a hierarchy modeled on Song Chinese precedent. Zen monks served as cultural advisors, diplomats, and educators to the warrior elite. This period saw Zen become deeply embedded in Japanese governance, aesthetics, and the martial arts.",
+          "The Kamakura shogunate established the 'Five Mountains' (Gozan) system, ranking Zen monasteries in a hierarchy modeled on Song Chinese precedent.[1]\n\nZen monks served as cultural advisors, diplomats, and educators to the warrior elite. This period saw Zen become deeply embedded in Japanese governance, aesthetics, and the martial arts.[1]",
         masters: [],
         schools: [
           { label: "Rinzai", slug: "rinzai" },
           { label: "Soto", slug: "soto" },
         ],
-        citations: [{ key: "dumoulin-japan", pages: "pp. 137–175" }],
+        citations: [
+          { index: 1, key: "dumoulin-japan", pages: "pp. 137–175" },
+        ],
       },
       {
         id: "truc-lam-founded",
@@ -706,15 +725,15 @@ export const TIMELINE_ERAS: TimelineEra[] = [
         precision: "exact",
         title: "Trần Nhân Tông Founds Trúc Lâm",
         description:
-          "Having personally led Đại Việt to victory against two Mongol invasions (1285 and 1288), Emperor Trần Nhân Tông (陳仁宗, 1258–1308) abdicated the throne and retired to Yên Tử Mountain to become a monk. There, drawing together the earlier Vinītaruci, Vô Ngôn Thông, and Thảo Đường lineages, he founded Trúc Lâm (竹林, Bamboo Grove) — the only indigenous Vietnamese Thiền school, and the only Zen school ever founded by a reigning emperor. The patriarchy passed through Pháp Loa (1284–1330) and Huyền Quang (1254–1334) before the school dissolved into the broader Vietnamese Buddhist landscape. Thích Thanh Từ revived the school in the twentieth century as a meditation-centered Vietnamese contemplative movement.",
+          "Having personally led Đại Việt to victory against two Mongol invasions (1285 and 1288), Emperor Trần Nhân Tông (陳仁宗, 1258–1308) abdicated the throne and retired to Yên Tử Mountain to become a monk. There, drawing together the earlier Vinītaruci, Vô Ngôn Thông, and Thảo Đường lineages, he founded Trúc Lâm (竹林, Bamboo Grove) — the only indigenous Vietnamese Thiền school, and the only Zen school ever founded by a reigning emperor.[1]\n\nThe patriarchy passed through Pháp Loa (1284–1330) and Huyền Quang (1254–1334) before the school dissolved into the broader Vietnamese Buddhist landscape. Thích Thanh Từ revived the school in the twentieth century as a meditation-centered Vietnamese contemplative movement.[2]",
         masters: [{ label: "Trần Nhân Tông", slug: "tran-nhan-tong" }],
         schools: [
           { label: "Trúc Lâm", slug: "truc-lam" },
           { label: "Thiền", slug: "thien" },
         ],
         citations: [
-          { key: "nguyen-medieval", pages: "pp. 85–123" },
-          { key: "le-manh-that" },
+          { index: 1, key: "nguyen-medieval", pages: "pp. 85–123" },
+          { index: 2, key: "le-manh-that" },
         ],
       },
       {
@@ -723,7 +742,7 @@ export const TIMELINE_ERAS: TimelineEra[] = [
         precision: "circa",
         title: "Taego Bou Brings Linji Transmission to Korea",
         description:
-          "Taego Bou (太古普愚, 1301–1382) travelled to Yuan China and received Linji dharma transmission from Shiwu Qinggong (Stonehouse), the hermit-poet of the Yangqi branch. On returning to Korea he served as royal preceptor and, at Gongmin's request, undertook the unification of the Nine Mountain Schools into a single order organized around Linji koan practice. This Linji-centered institutional framework — alongside Chinul's earlier synthesis — became the backbone of the modern Jogye and Taego Orders.",
+          "Taego Bou (太古普愚, 1301–1382) travelled to Yuan China and received Linji dharma transmission from Shiwu Qinggong (Stonehouse), the hermit-poet of the Yangqi branch.[1]\n\nOn returning to Korea he served as royal preceptor and, at Gongmin's request, undertook the unification of the Nine Mountain Schools into a single order organized around Linji koan practice. This Linji-centered institutional framework — alongside Chinul's earlier synthesis — became the backbone of the modern Jogye and Taego Orders.[2]",
         masters: [{ label: "Taego Bou", slug: "taego-bou" }],
         schools: [
           { label: "Taego Order", slug: "taego-order" },
@@ -731,8 +750,8 @@ export const TIMELINE_ERAS: TimelineEra[] = [
           { label: "Linji", slug: "linji" },
         ],
         citations: [
-          { key: "buswell-formation", pages: "pp. 41–74" },
-          { key: "buswell-monastic", pages: "pp. 21–41" },
+          { index: 1, key: "buswell-formation", pages: "pp. 41–74" },
+          { index: 2, key: "buswell-monastic", pages: "pp. 21–41" },
         ],
       },
     ],
@@ -746,10 +765,10 @@ export const TIMELINE_ERAS: TimelineEra[] = [
     yearStart: 1400,
     yearEnd: 1868,
     introduction:
-      "After centuries of growth, each regional tradition settled into its early-modern form. Japanese Rinzai faced institutional stagnation until Hakuin Ekaku's volcanic eighteenth-century revival; Soto expanded steadily through rural Japan under the Tokugawa temple-parish system. In Korea, the Joseon court's Confucian establishment pushed Buddhism into the mountains, yet Seosan Hyujeong led warrior-monks in defense of the country during the Japanese invasions. In Vietnam, Chinese émigré masters of the late-Ming Linji revival carried the school south, and Liễu Quán produced the first indigenously Vietnamese Lâm Tế lineage.",
+      "After centuries of growth, each regional tradition settled into its early-modern form. Japanese Rinzai faced institutional stagnation until Hakuin Ekaku's volcanic eighteenth-century revival; Soto expanded steadily through rural Japan under the Tokugawa temple-parish system.[1]\n\nIn Korea, the Joseon court's Confucian establishment pushed Buddhism into the mountains, yet Seosan Hyujeong led warrior-monks in defense of the country during the Japanese invasions. In Vietnam, Chinese émigré masters of the late-Ming Linji revival carried the school south, and Liễu Quán produced the first indigenously Vietnamese Lâm Tế lineage.[2]",
     citations: [
-      { key: "dumoulin-japan", pages: "pp. 175–412" },
-      { key: "mohr", pages: "pp. 84–109" },
+      { index: 1, key: "dumoulin-japan", pages: "pp. 175–412" },
+      { index: 2, key: "mohr", pages: "pp. 84–109" },
     ],
     events: [
       {
@@ -758,13 +777,13 @@ export const TIMELINE_ERAS: TimelineEra[] = [
         precision: "circa",
         title: "Hakuin Ekaku's Rinzai Revival",
         description:
-          "Hakuin Ekaku almost single-handedly revived the Rinzai school, systematizing koan practice into a graded curriculum that moved from initial breakthrough (kenshō) through deepening insight. His koan 'What is the sound of one hand clapping?' became iconic. He was also a prolific painter and calligrapher whose Zen art remains among the most celebrated in the tradition. Every living Rinzai lineage traces through Hakuin.",
+          "Hakuin Ekaku almost single-handedly revived the Rinzai school, systematizing koan practice into a graded curriculum that moved from initial breakthrough (kenshō) through deepening insight. His koan 'What is the sound of one hand clapping?' became iconic.[1]\n\nHe was also a prolific painter and calligrapher whose Zen art remains among the most celebrated in the tradition.[3] Every living Rinzai lineage traces through Hakuin.[2]",
         masters: [{ label: "Hakuin Ekaku", slug: "hakuin-ekaku" }],
         schools: [{ label: "Rinzai", slug: "rinzai" }],
         citations: [
-          { key: "dumoulin-japan", pages: "pp. 366–412" },
-          { key: "mohr", pages: "pp. 84–109" },
-          { key: "addiss", pages: "pp. 73–91" },
+          { index: 1, key: "dumoulin-japan", pages: "pp. 366–412" },
+          { index: 2, key: "mohr", pages: "pp. 84–109" },
+          { index: 3, key: "addiss", pages: "pp. 73–91" },
         ],
       },
       {
@@ -773,10 +792,12 @@ export const TIMELINE_ERAS: TimelineEra[] = [
         precision: "circa",
         title: "Bankei and the Unborn",
         description:
-          "Bankei Yōtaku taught in the common language, rejecting the formality of koan study in favor of a direct appeal to the 'Unborn' (fushō) — the buddha-mind present in every being before thought arises. He attracted enormous crowds, including laypeople and women, making him one of the most popular Zen teachers of the Tokugawa period, though his lineage did not survive him.",
+          "Bankei Yōtaku taught in the common language, rejecting the formality of koan study in favor of a direct appeal to the 'Unborn' (fushō) — the buddha-mind present in every being before thought arises.[1]\n\nHe attracted enormous crowds, including laypeople and women, making him one of the most popular Zen teachers of the Tokugawa period, though his lineage did not survive him.[1]",
         masters: [{ label: "Bankei Yōtaku" }],
         schools: [{ label: "Rinzai", slug: "rinzai" }],
-        citations: [{ key: "dumoulin-japan", pages: "pp. 337–365" }],
+        citations: [
+          { index: 1, key: "dumoulin-japan", pages: "pp. 337–365" },
+        ],
       },
       {
         id: "soto-institutional",
@@ -785,10 +806,12 @@ export const TIMELINE_ERAS: TimelineEra[] = [
         precision: "circa",
         title: "Soto Institutional Growth",
         description:
-          "Under the Tokugawa temple-parish (danka) system, Soto Zen expanded to over fourteen thousand temples, primarily serving rural communities. Monks performed funeral rites, ancestral ceremonies, and local education. While critics later charged that this led to 'funeral Buddhism' devoid of meditation practice, the institutional network ensured Soto's survival as Japan's largest Buddhist denomination.",
+          "Under the Tokugawa temple-parish (danka) system, Soto Zen expanded to over fourteen thousand temples, primarily serving rural communities. Monks performed funeral rites, ancestral ceremonies, and local education.[1]\n\nWhile critics later charged that this led to 'funeral Buddhism' devoid of meditation practice, the institutional network ensured Soto's survival as Japan's largest Buddhist denomination.[1]",
         masters: [],
         schools: [{ label: "Soto", slug: "soto" }],
-        citations: [{ key: "dumoulin-japan", pages: "pp. 302–335" }],
+        citations: [
+          { index: 1, key: "dumoulin-japan", pages: "pp. 302–335" },
+        ],
       },
       {
         id: "seosan-imjin",
@@ -797,12 +820,12 @@ export const TIMELINE_ERAS: TimelineEra[] = [
         precision: "exact",
         title: "Seosan Hyujeong and the Monk-Soldiers",
         description:
-          "During the Imjin War (1592–1598), as Toyotomi Hideyoshi's forces invaded Korea, the seventy-two-year-old Seon master Seosan Hyujeong (西山休靜, 1520–1604) left his mountain temple and organized Buddhist militias (승병 seungbyeong) to fight in the country's defense. After the war he returned to writing and composed the Seongamnok (Mirror of Seon), the standard Joseon-dynasty handbook of Korean practice, which articulates a synthesis of Seon meditation, sutra study, and Pure Land devotion. Seosan's political role led to Buddhism's partial rehabilitation at court after centuries of Neo-Confucian suppression.",
+          "During the Imjin War (1592–1598), as Toyotomi Hideyoshi's forces invaded Korea, the seventy-two-year-old Seon master Seosan Hyujeong (西山休靜, 1520–1604) left his mountain temple and organized Buddhist militias (승병 seungbyeong) to fight in the country's defense.[1]\n\nAfter the war he returned to writing and composed the Seongamnok (Mirror of Seon), the standard Joseon-dynasty handbook of Korean practice, which articulates a synthesis of Seon meditation, sutra study, and Pure Land devotion. Seosan's political role led to Buddhism's partial rehabilitation at court after centuries of Neo-Confucian suppression.[2]",
         masters: [{ label: "Seosan Hyujeong", slug: "seosan-hyujeong" }],
         schools: [{ label: "Seon", slug: "seon" }],
         citations: [
-          { key: "buswell-monastic", pages: "pp. 21–58" },
-          { key: "buswell-formation", pages: "pp. 41–74" },
+          { index: 1, key: "buswell-monastic", pages: "pp. 21–58" },
+          { index: 2, key: "buswell-formation", pages: "pp. 41–74" },
         ],
       },
       {
@@ -811,15 +834,15 @@ export const TIMELINE_ERAS: TimelineEra[] = [
         precision: "circa",
         title: "Liễu Quán Vietnamizes the Lâm Tế Line",
         description:
-          "Liễu Quán (了觀, 1667–1742) was the first native Vietnamese master to receive dharma transmission in the Lâm Tế (Linji) line — from the Chinese émigré master Tử Dung Minh Hoằng. Where earlier Vietnamese Linji transmission had been carried by Chinese monks such as Nguyên Thiều, Liễu Quán made the tradition indigenously Vietnamese: his enduring dharma line, the 'Liễu Quán branch,' became the dominant lineage in central and southern Vietnam and remains so today. Thích Nhất Hạnh's Plum Village tradition descends from this line.",
+          "Liễu Quán (了觀, 1667–1742) was the first native Vietnamese master to receive dharma transmission in the Lâm Tế (Linji) line — from the Chinese émigré master Tử Dung Minh Hoằng.[1]\n\nWhere earlier Vietnamese Linji transmission had been carried by Chinese monks such as Nguyên Thiều, Liễu Quán made the tradition indigenously Vietnamese: his enduring dharma line, the 'Liễu Quán branch,' became the dominant lineage in central and southern Vietnam and remains so today. Thích Nhất Hạnh's Plum Village tradition descends from this line.[2]",
         masters: [{ label: "Liễu Quán", slug: "lieu-quan" }],
         schools: [
           { label: "Lâm Tế", slug: "lam-te" },
           { label: "Linji", slug: "linji" },
         ],
         citations: [
-          { key: "nguyen-medieval", pages: "pp. 124–149" },
-          { key: "le-manh-that" },
+          { index: 1, key: "nguyen-medieval", pages: "pp. 124–149" },
+          { index: 2, key: "le-manh-that" },
         ],
       },
     ],
@@ -833,10 +856,10 @@ export const TIMELINE_ERAS: TimelineEra[] = [
     yearStart: 1868,
     yearEnd: 1970,
     introduction:
-      "The Meiji Restoration opened Japan to the West, and Zen was among the first Buddhist traditions to cross the Pacific. D.T. Suzuki's English-language writings introduced Zen to Western intellectuals, though his presentation — emphasizing aesthetic experience and satori — was selective and sometimes misleading. The wartime period exposed troubling collaborations between Zen institutions and Japanese militarism, a reckoning that shaped post-war renewal.",
+      "The Meiji Restoration opened Japan to the West, and Zen was among the first Buddhist traditions to cross the Pacific. D.T. Suzuki's English-language writings introduced Zen to Western intellectuals, though his presentation — emphasizing aesthetic experience and satori — was selective and sometimes misleading.[1]\n\nThe wartime period exposed troubling collaborations between Zen institutions and Japanese militarism, a reckoning that shaped post-war renewal.[2]",
     citations: [
-      { key: "sharf", pages: "pp. 107–160" },
-      { key: "dumoulin-japan", pages: "pp. 413–463" },
+      { index: 1, key: "sharf", pages: "pp. 107–160" },
+      { index: 2, key: "dumoulin-japan", pages: "pp. 413–463" },
     ],
     events: [
       {
@@ -845,11 +868,11 @@ export const TIMELINE_ERAS: TimelineEra[] = [
         precision: "circa",
         title: "Gyeongheo Revives Korean Seon",
         description:
-          "By the late Joseon period, centuries of Neo-Confucian suppression had reduced Korean Seon monastic practice to near-extinction outside a handful of mountain temples. Gyeongheo Seongu (鏡虛惺牛, 1846–1912) had a breakthrough awakening at Cheonjang-sa in 1879 and spent the rest of his life re-establishing the seonbang (meditation hall) and hwadu retreat schedule. The lineage he reignited — through Mangong, Hyobong, Seongcheol, and others — carried Seon into the twentieth century and made modern Korean meditation possible.",
+          "By the late Joseon period, centuries of Neo-Confucian suppression had reduced Korean Seon monastic practice to near-extinction outside a handful of mountain temples. Gyeongheo Seongu (鏡虛惺牛, 1846–1912) had a breakthrough awakening at Cheonjang-sa in 1879 and spent the rest of his life re-establishing the seonbang (meditation hall) and hwadu retreat schedule.[1]\n\nThe lineage he reignited — through Mangong, Hyobong, Seongcheol, and others — carried Seon into the twentieth century and made modern Korean meditation possible.[1]",
         masters: [{ label: "Gyeongheo Seongu", slug: "gyeongheo-seongu" }],
         schools: [{ label: "Seon", slug: "seon" }],
         citations: [
-          { key: "buswell-monastic", pages: "pp. 21–41, 191–229" },
+          { index: 1, key: "buswell-monastic", pages: "pp. 21–41, 191–229" },
         ],
       },
       {
@@ -858,12 +881,12 @@ export const TIMELINE_ERAS: TimelineEra[] = [
         precision: "circa",
         title: "D.T. Suzuki and the Western Imagination",
         description:
-          "D.T. Suzuki's Essays in Zen Buddhism, published from 1927 onward, introduced Zen to the English-speaking world with an emphasis on sudden enlightenment, artistic spontaneity, and freedom from convention. His work shaped the understanding of an entire generation — from Alan Watts to the Beat poets — though scholars later critiqued his romanticized, decontextualized presentation as 'Zen without Buddhism.'",
+          "D.T. Suzuki's Essays in Zen Buddhism, published from 1927 onward, introduced Zen to the English-speaking world with an emphasis on sudden enlightenment, artistic spontaneity, and freedom from convention.[1]\n\nHis work shaped the understanding of an entire generation — from Alan Watts to the Beat poets — though scholars later critiqued his romanticized, decontextualized presentation as 'Zen without Buddhism.'[2]",
         masters: [{ label: "D.T. Suzuki" }],
         schools: [{ label: "Rinzai", slug: "rinzai" }],
         citations: [
-          { key: "sharf", pages: "pp. 107–130" },
-          { key: "faure", pages: "pp. 52–88" },
+          { index: 1, key: "sharf", pages: "pp. 107–130" },
+          { index: 2, key: "faure", pages: "pp. 52–88" },
         ],
       },
       {
@@ -873,15 +896,15 @@ export const TIMELINE_ERAS: TimelineEra[] = [
         precision: "exact",
         title: "Zen and Wartime Japan",
         description:
-          "During the Second World War, major Zen institutions — both Rinzai and Soto — supported Japanese militarism, framing warrior self-sacrifice in Zen terms. Prominent teachers provided spiritual legitimation for imperial expansion. The post-war reckoning with this complicity, particularly Brian Victoria's Zen at War (1997), forced the tradition to confront how non-attachment could be instrumentalized for violence.",
+          "During the Second World War, major Zen institutions — both Rinzai and Soto — supported Japanese militarism, framing warrior self-sacrifice in Zen terms. Prominent teachers provided spiritual legitimation for imperial expansion.[1]\n\nThe post-war reckoning with this complicity, particularly Brian Victoria's Zen at War (1997), forced the tradition to confront how non-attachment could be instrumentalized for violence.[2]",
         masters: [],
         schools: [
           { label: "Rinzai", slug: "rinzai" },
           { label: "Soto", slug: "soto" },
         ],
         citations: [
-          { key: "sharf", pages: "pp. 131–160" },
-          { key: "dumoulin-japan", pages: "pp. 425–445" },
+          { index: 1, key: "sharf", pages: "pp. 131–160" },
+          { index: 2, key: "dumoulin-japan", pages: "pp. 425–445" },
         ],
       },
       {
@@ -891,13 +914,15 @@ export const TIMELINE_ERAS: TimelineEra[] = [
         precision: "circa",
         title: "Post-War Renewal",
         description:
-          "The aftermath of defeat prompted deep self-examination within Japanese Zen. Reform movements emphasized lay practice, social engagement, and interfaith dialogue. Simultaneously, a new generation of teachers — many with experience of the war — began looking outward. The ground was being prepared for Zen's most consequential journey: its transmission to the West not as philosophy but as living practice.",
+          "The aftermath of defeat prompted deep self-examination within Japanese Zen. Reform movements emphasized lay practice, social engagement, and interfaith dialogue.[1]\n\nSimultaneously, a new generation of teachers — many with experience of the war — began looking outward. The ground was being prepared for Zen's most consequential journey: its transmission to the West not as philosophy but as living practice.[1]",
         masters: [],
         schools: [
           { label: "Rinzai", slug: "rinzai" },
           { label: "Soto", slug: "soto" },
         ],
-        citations: [{ key: "dumoulin-japan", pages: "pp. 445–463" }],
+        citations: [
+          { index: 1, key: "dumoulin-japan", pages: "pp. 445–463" },
+        ],
       },
     ],
   },
@@ -910,12 +935,12 @@ export const TIMELINE_ERAS: TimelineEra[] = [
     yearStart: 1962,
     yearEnd: 2025,
     introduction:
-      "Beginning in the 1960s, Japanese, Korean, and Vietnamese masters established permanent Zen centers in the Americas and Europe, transforming Zen from an object of intellectual fascination into a practiced tradition on foreign soil. Shunryu Suzuki's San Francisco Zen Center and Taisen Deshimaru's Association Zen Internationale in Paris carried Sōtō forward; Taizan Maezumi's Zen Center of Los Angeles and the Kwan Um School founded by the Korean master Seung Sahn opened Rinzai and Seon to Western students; and Thích Nhất Hạnh, exiled from Vietnam, built Plum Village into one of the largest contemplative communities in the world.",
+      "Beginning in the 1960s, Japanese, Korean, and Vietnamese masters established permanent Zen centers in the Americas and Europe, transforming Zen from an object of intellectual fascination into a practiced tradition on foreign soil.[1]\n\nShunryu Suzuki's San Francisco Zen Center and Taisen Deshimaru's Association Zen Internationale in Paris carried Sōtō forward; Taizan Maezumi's Zen Center of Los Angeles and the Kwan Um School founded by the Korean master Seung Sahn opened Rinzai and Seon to Western students; and Thích Nhất Hạnh, exiled from Vietnam, built Plum Village into one of the largest contemplative communities in the world.[2][3][4]",
     citations: [
-      { key: "chadwick", pages: "pp. 1–42" },
-      { key: "de-coulon", pages: "pp. 1–35" },
-      { key: "nguyen-medieval", pages: "pp. 150–175" },
-      { key: "buswell-monastic", pages: "pp. 191–229" },
+      { index: 1, key: "chadwick", pages: "pp. 1–42" },
+      { index: 2, key: "de-coulon", pages: "pp. 1–35" },
+      { index: 3, key: "nguyen-medieval", pages: "pp. 150–175" },
+      { index: 4, key: "buswell-monastic", pages: "pp. 191–229" },
     ],
     events: [
       {
@@ -924,12 +949,12 @@ export const TIMELINE_ERAS: TimelineEra[] = [
         precision: "exact",
         title: "Shunryu Suzuki and San Francisco Zen Center",
         description:
-          "Shunryu Suzuki arrived in San Francisco in 1959 to serve a Japanese-American congregation, but soon attracted American students drawn to his gentle, rigorous teaching. By 1962 the San Francisco Zen Center had taken shape; in 1967 Tassajara became the first Soto Zen training monastery in the United States and, by SFZC's account, the first Zen monastery outside Asia. His Zen Mind, Beginner's Mind (1970) remains one of the most widely read introductions to Zen practice.",
+          "Shunryu Suzuki arrived in San Francisco in 1959 to serve a Japanese-American congregation, but soon attracted American students drawn to his gentle, rigorous teaching. By 1962 the San Francisco Zen Center had taken shape; in 1967 Tassajara became the first Soto Zen training monastery in the United States and, by SFZC's account, the first Zen monastery outside Asia.[1]\n\nHis Zen Mind, Beginner's Mind (1970) remains one of the most widely read introductions to Zen practice.[2]",
         masters: [{ label: "Shunryu Suzuki", slug: "shunryu-suzuki" }],
         schools: [{ label: "Soto", slug: "soto" }],
         citations: [
-          { key: "chadwick", pages: "pp. 193–255" },
-          { key: "suzuki-beginner", pages: "pp. 21–35" },
+          { index: 1, key: "chadwick", pages: "pp. 193–255" },
+          { index: 2, key: "suzuki-beginner", pages: "pp. 21–35" },
         ],
       },
       {
@@ -938,10 +963,12 @@ export const TIMELINE_ERAS: TimelineEra[] = [
         precision: "exact",
         title: "Deshimaru Brings Zen to Europe",
         description:
-          "Taisen Deshimaru traveled from Japan to Paris in 1967, initially with little more than a zafu and his teacher Kodo Sawaki's instructions. Over the next fifteen years he helped establish a broad network of dojos across Europe and founded the Association Zen Internationale. His direct teaching style and emphasis on shikantaza made him one of the central figures in the spread of Soto Zen in Europe.",
+          "Taisen Deshimaru traveled from Japan to Paris in 1967, initially with little more than a zafu and his teacher Kodo Sawaki's instructions.[1]\n\nOver the next fifteen years he helped establish a broad network of dojos across Europe and founded the Association Zen Internationale. His direct teaching style and emphasis on shikantaza made him one of the central figures in the spread of Soto Zen in Europe.[1]",
         masters: [{ label: "Taisen Deshimaru", slug: "taisen-deshimaru" }],
         schools: [{ label: "Soto", slug: "soto" }],
-        citations: [{ key: "de-coulon", pages: "pp. 45–180" }],
+        citations: [
+          { index: 1, key: "de-coulon", pages: "pp. 45–180" },
+        ],
       },
       {
         id: "maezumi-la",
@@ -949,13 +976,15 @@ export const TIMELINE_ERAS: TimelineEra[] = [
         precision: "circa",
         title: "Maezumi and the Zen Center of Los Angeles",
         description:
-          "Taizan Maezumi Roshi, uniquely holding transmission in both Soto and Rinzai lineages, founded the Zen Center of Los Angeles and trained a generation of American teachers. His dharma heirs — including Bernie Glassman and Dennis Merzel — went on to establish their own centers, making Maezumi one of the most consequential figures in American Zen. His White Plum lineage continues to grow internationally.",
+          "Taizan Maezumi Roshi, uniquely holding transmission in both Soto and Rinzai lineages, founded the Zen Center of Los Angeles and trained a generation of American teachers.[1]\n\nHis dharma heirs — including Bernie Glassman and Dennis Merzel — went on to establish their own centers, making Maezumi one of the most consequential figures in American Zen. His White Plum lineage continues to grow internationally.[1]",
         masters: [{ label: "Taizan Maezumi", slug: "taizan-maezumi" }],
         schools: [
           { label: "Soto", slug: "soto" },
           { label: "Sanbo Zen", slug: "sanbo-zen" },
         ],
-        citations: [{ key: "dumoulin-japan", pages: "pp. 455–463" }],
+        citations: [
+          { index: 1, key: "dumoulin-japan", pages: "pp. 455–463" },
+        ],
       },
       {
         id: "seongcheol-haein-sermons",
@@ -963,15 +992,15 @@ export const TIMELINE_ERAS: TimelineEra[] = [
         precision: "exact",
         title: "Seongcheol's Haein-sa Sermons",
         description:
-          "Installed as Supreme Patriarch of the Jogye Order, Toeong Seongcheol (退翁性徹, 1912–1993) delivered a hundred days of sermons at Haein-sa that would define modern Korean Seon orthodoxy. Against Chinul's inherited 'sudden awakening, gradual cultivation,' he insisted on pure sudden awakening followed by sudden cultivation (돈오돈수 dono donsu) — a position he defended with exhaustive scholarship in Seonmun Jeongno. The debate reshaped the Korean Seon academy and re-centered hwadu practice as the sole authentic path.",
+          "Installed as Supreme Patriarch of the Jogye Order, Toeong Seongcheol (退翁性徹, 1912–1993) delivered a hundred days of sermons at Haein-sa that would define modern Korean Seon orthodoxy.[1]\n\nAgainst Chinul's inherited 'sudden awakening, gradual cultivation,' he insisted on pure sudden awakening followed by sudden cultivation (돈오돈수 dono donsu) — a position he defended with exhaustive scholarship in Seonmun Jeongno. The debate reshaped the Korean Seon academy and re-centered hwadu practice as the sole authentic path.[2]",
         masters: [{ label: "Toeong Seongcheol", slug: "seongcheol" }],
         schools: [
           { label: "Jogye", slug: "jogye" },
           { label: "Seon", slug: "seon" },
         ],
         citations: [
-          { key: "buswell-monastic", pages: "pp. 191–229" },
-          { key: "buswell-radiance", pages: "pp. 130–157" },
+          { index: 1, key: "buswell-monastic", pages: "pp. 191–229" },
+          { index: 2, key: "buswell-radiance", pages: "pp. 130–157" },
         ],
       },
       {
@@ -980,14 +1009,14 @@ export const TIMELINE_ERAS: TimelineEra[] = [
         precision: "exact",
         title: "Seung Sahn Founds the Kwan Um School",
         description:
-          "Seung Sahn (崇山, 1927–2004), a dharma heir of Gobong Seonsa in the Korean Jogye lineage, arrived in Providence, Rhode Island in 1972 and opened the Providence Zen Center. From that seed he grew the Kwan Um School of Zen into one of the most geographically widespread Zen organizations in the world, with more than a hundred centers across North America, Europe, Asia, and Africa. His direct, humorous teaching — 'only don't know' — adapted classical Korean hwadu into a teaching form that Western students could enter on their first weekend retreat.",
+          "Seung Sahn (崇山, 1927–2004), a dharma heir of Gobong Seonsa in the Korean Jogye lineage, arrived in Providence, Rhode Island in 1972 and opened the Providence Zen Center.[1]\n\nFrom that seed he grew the Kwan Um School of Zen into one of the most geographically widespread Zen organizations in the world, with more than a hundred centers across North America, Europe, Asia, and Africa. His direct, humorous teaching — 'only don't know' — adapted classical Korean hwadu into a teaching form that Western students could enter on their first weekend retreat.[1]",
         masters: [{ label: "Seung Sahn", slug: "seung-sahn" }],
         schools: [
           { label: "Kwan Um", slug: "kwan-um" },
           { label: "Jogye", slug: "jogye" },
         ],
         citations: [
-          { key: "buswell-monastic", pages: "pp. 191–229" },
+          { index: 1, key: "buswell-monastic", pages: "pp. 191–229" },
         ],
       },
       {
@@ -996,14 +1025,14 @@ export const TIMELINE_ERAS: TimelineEra[] = [
         precision: "exact",
         title: "Thích Nhất Hạnh Founds Plum Village",
         description:
-          "Exiled from Vietnam in 1966 for his peace activism during the war, Thích Nhất Hạnh (釋一行, 1926–2022) — a 42nd-generation master of the Lâm Tế school in the Liễu Quán branch — settled in the Dordogne region of France in 1982 and founded Plum Village (Làng Mai), a practice village for monastic and lay community together. Through his Fourteen Mindfulness Trainings, his Order of Interbeing (established earlier, 1966, during the war), and more than a hundred books translated into dozens of languages, he shaped Engaged Buddhism as a distinctly twentieth-century contribution to the Zen tradition, and made mindfulness one of the most widely practised contemplative disciplines on the planet.",
+          "Exiled from Vietnam in 1966 for his peace activism during the war, Thích Nhất Hạnh (釋一行, 1926–2022) — a 42nd-generation master of the Lâm Tế school in the Liễu Quán branch — settled in the Dordogne region of France in 1982 and founded Plum Village (Làng Mai), a practice village for monastic and lay community together.[1]\n\nThrough his Fourteen Mindfulness Trainings, his Order of Interbeing (established earlier, 1966, during the war), and more than a hundred books translated into dozens of languages, he shaped Engaged Buddhism as a distinctly twentieth-century contribution to the Zen tradition, and made mindfulness one of the most widely practised contemplative disciplines on the planet.[1]",
         masters: [{ label: "Thích Nhất Hạnh", slug: "thich-nhat-hanh" }],
         schools: [
           { label: "Plum Village", slug: "plum-village" },
           { label: "Lâm Tế", slug: "lam-te" },
         ],
         citations: [
-          { key: "nguyen-medieval", pages: "pp. 150–175" },
+          { index: 1, key: "nguyen-medieval", pages: "pp. 150–175" },
         ],
       },
       {
@@ -1013,7 +1042,7 @@ export const TIMELINE_ERAS: TimelineEra[] = [
         precision: "circa",
         title: "Contemporary Adaptation",
         description:
-          "Zen continues to adapt to new contexts: secular mindfulness movements draw on zazen techniques, prison dharma programs bring practice to incarcerated populations, and online sanghas extend teaching across continents. Meanwhile, scholarly research has deepened understanding of Zen's complex history, challenging romanticized narratives while revealing a tradition far richer than any simple story of 'direct transmission.' The encounter between ancient practice and modern life continues.",
+          "Zen continues to adapt to new contexts: secular mindfulness movements draw on zazen techniques, prison dharma programs bring practice to incarcerated populations, and online sanghas extend teaching across continents.[1]\n\nMeanwhile, scholarly research has deepened understanding of Zen's complex history, challenging romanticized narratives while revealing a tradition far richer than any simple story of 'direct transmission.'[2] The encounter between ancient practice and modern life continues.[3]",
         masters: [],
         schools: [
           { label: "Soto", slug: "soto" },
@@ -1022,9 +1051,9 @@ export const TIMELINE_ERAS: TimelineEra[] = [
           { label: "Thiền", slug: "thien" },
         ],
         citations: [
-          { key: "mcrae", pages: "pp. 128–145" },
-          { key: "faure", pages: "pp. 1–14" },
-          { key: "buswell-monastic", pages: "pp. 191–229" },
+          { index: 1, key: "mcrae", pages: "pp. 128–145" },
+          { index: 2, key: "faure", pages: "pp. 1–14" },
+          { index: 3, key: "buswell-monastic", pages: "pp. 191–229" },
         ],
       },
     ],
@@ -1047,10 +1076,12 @@ export const TIMELINE_ERAS: TimelineEra[] = [
         precision: "exact",
         title: "Your Seat",
         description:
-          "Zhaozhou was asked, 'What is the meaning of the patriarch's coming from the West?' He answered, 'The cypress tree in the garden.' The whole of Zen history is not a story about the past. It is an invitation to look directly at what is in front of you — right now, right here. You are not reading about the tradition. You are sitting in it.",
+          "Zhaozhou was asked, 'What is the meaning of the patriarch's coming from the West?' He answered, 'The cypress tree in the garden.'[1]\n\nThe whole of Zen history is not a story about the past. It is an invitation to look directly at what is in front of you — right now, right here. You are not reading about the tradition. You are sitting in it.[1]",
         masters: [],
         schools: [],
-        citations: [],
+        citations: [
+          { index: 1, key: "wikipedia-zhaozhou-cypress" },
+        ],
       },
     ],
   },
