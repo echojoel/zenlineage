@@ -1609,39 +1609,151 @@ His dharma heirs are central to Western Zen: Robert Baker Aitken of the Honolulu
 
   {
     slug: "qingyuan-xingsi",
-    content: `Qingyuan Xingsi was a student of the Sixth Patriarch Dajian Huineng and the founding ancestor of the Qingyuan branch of Chan, from which the Caodong (Soto), Yunmen, and Fayan schools all descend. Little is recorded of his early life, but the lamp records describe his awakening under Huineng as arising from the question of what does not fall into stages or ranks. Huineng affirmed his realization and entrusted him with the Dharma.
+    content: `Qingyuan Xingsi (青原行思, d. 740) is traditionally treated as one of the two senior Dharma heirs of the Sixth Patriarch Huineng (alongside Nanyue Huairang) and the ancestor from whom the Caodong (Sōtō), Yunmen, and Fayan houses all descend[1]. The Tang-period record of his career is thin; the much later *Jǐngdé Chuándēng Lù* preserves the dialogue between Huineng and Qingyuan on "what falls into ranks and what does not," after which Huineng is said to have entrusted him with the Dharma at Mount Qingyuan in modern Jiangxi[2].
 
-Qingyuan's principal heir was Shitou Xiqian, through whom the entire southern branch of Chan developed. Though Qingyuan himself left no written works and his recorded sayings are few, his lineage became the most broadly branching in the history of Chan. The tradition honors him as the fountainhead of a vast river of teaching that eventually produced the major schools of Chinese and Japanese Zen.`,
+Modern scholarship — including the editorial introduction to Yampolsky's *Platform Sūtra* translation — notes that Qingyuan, like Nanyue Huairang, is essentially a constructed pivot in retrospectively organised Tang Chan genealogy: the Chinese lamp records preserve almost no contemporary trace of him, and his historical importance is principally lineal, as the named ancestor of his Dharma heir Shitou Xiqian and through him of the great non-Hongzhou branch of Tang Chan[3].`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_dumoulin_india_china",
+        pageOrSection: "Vol. 1, ch. on Huineng's heirs and the Qingyuan / Shitou stream",
+      },
+      {
+        index: 2,
+        sourceId: "src_ferguson_zen_chinese_heritage",
+        pageOrSection: "Qingyuan Xingsi — biographical entry and Huineng dialogue",
+      },
+      {
+        index: 3,
+        sourceId: "src_platform_sutra_yampolsky_1967",
+        pageOrSection: "Introduction — early-Tang Chan genealogy and the construction of Qingyuan's role",
+      },
+    ],
   },
   {
     slug: "nanyang-huizhong",
-    content: `Nanyang Huizhong was a student of the Sixth Patriarch Huineng who lived as a hermit on Baiya Mountain for over forty years before being summoned to the Tang court, where he served as National Teacher under Emperors Suzong and Daizong. His long period of solitary practice and subsequent role as imperial adviser gave him a unique position in Chan history—a recluse who became a public teacher at the highest level of Chinese society.
+    content: `Nanyang Huizhong (南陽慧忠, c. 675–775) is named in the lamp records as a Dharma heir of the Sixth Patriarch Huineng who lived for some forty years as a hermit on Mount Baiya in Henan before being summoned to the Tang court, where he served as National Teacher (*guóshī*) under Emperors Suzong and Daizong[1]. His position is unusual within the Southern School: a hermit-turned-imperial-adviser whose long isolation gave him an authority distinct from the court-tied northern teachers of the same generation[2].
 
-Nanyang is famous for his teaching on the "insentient preaching the Dharma," the idea that walls, tiles, and pebbles proclaim the truth no less than any sutra or sermon. His three encounters with a visiting monk about this topic became important koan material. He also sharply criticized what he saw as distortions of Chan teaching in his era, warning against teachers who confused intellectual cleverness with genuine realization.`,
+Huizhong is best remembered for his teaching that the inanimate world preaches the Dharma — that walls, tiles, and pebbles expound it no less than the sūtras or any human teacher; this *wúqíng shuōfǎ* (無情説法) formulation is recorded across several lamp-records exchanges and was taken up by Dōgen in *Mujō Seppō*[3]. He is also remembered for the "seamless monument" (無縫塔) episode, preserved by his successor Danyuan Yingzhen and recycled as Case 18 of the *Bìyán Lù*[4].`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_dumoulin_india_china",
+        pageOrSection: "Vol. 1, ch. on Huineng's heirs at the Tang court",
+      },
+      {
+        index: 2,
+        sourceId: "src_ferguson_zen_chinese_heritage",
+        pageOrSection: "Nanyang Huizhong — biographical entry; National Teacher",
+      },
+      {
+        index: 3,
+        sourceId: "src_cleary_shobogenzo",
+        pageOrSection: "Mujō Seppō (\"The Insentient Preach the Dharma\") — Dōgen on Huizhong",
+      },
+      {
+        index: 4,
+        sourceId: "src_blue_cliff_record_shaw_1961",
+        pageOrSection: "Case 18 — Huizhong's seamless monument",
+      },
+    ],
   },
   {
     slug: "heze-shenhui",
-    content: `Heze Shenhui was a student of the Sixth Patriarch Huineng who played a decisive political role in establishing the supremacy of the Southern School of Chan over the Northern School of Shenxiu. At the great debate of Huatai in 732, Shenhui publicly argued that Huineng, not Shenxiu, was the true Sixth Patriarch, and that sudden awakening, not gradual cultivation, represented the authentic teaching. His arguments ultimately prevailed, reshaping the institutional landscape of Tang dynasty Buddhism.
+    content: `Heze Shenhui (荷澤神會, 684–758) was the Dharma heir of the Sixth Patriarch Huineng most directly responsible for the construction of the Southern-School orthodoxy of Chan. The decisive episode is the great debate at the Wuzhe assembly at Huatai in 732 (and again in 734), at which Shenhui publicly attacked the Northern-School teachers Shenxiu and Puji and argued that Huineng, not Shenxiu, was the true Sixth Patriarch and that *dùnwù* (sudden awakening) was the authentic doctrine[1]. The polemic effectively determined later official Chan historiography, including the framing of the *Platform Sūtra* itself[2].
 
-Despite his enormous influence on the shape of Chan orthodoxy, Shenhui's own lineage did not endure beyond a few generations. Later Chan historians, particularly those of the Linji school, tended to downplay his contribution, viewing him more as a political figure than a realized master. Modern scholarship has recovered his significance through the discovery of Dunhuang manuscripts containing his teachings, which reveal a subtle and sophisticated understanding of the relationship between knowledge, practice, and awakening.`,
+Shenhui's own line did not survive past a few generations and he was largely written out of subsequent Linji-house historiography. Modern scholarship has reconstructed him from the Dunhuang manuscripts recovered in the early twentieth century — McRae and Yampolsky in particular argue that the "Southern" and "Northern" schools as transmitted to the rest of East Asia are essentially Shenhui's invention, the doctrinal binary used to win the Huatai debate rather than a description of two pre-existing teaching styles[3].`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_dumoulin_india_china",
+        pageOrSection: "Vol. 1, ch. on Shenhui and the Sudden / Gradual controversy",
+      },
+      {
+        index: 2,
+        sourceId: "src_platform_sutra_yampolsky_1967",
+        pageOrSection: "Introduction — Shenhui's role in the formation of the Platform Sūtra",
+      },
+      {
+        index: 3,
+        sourceId: "src_mcrae_seeing_through_zen",
+        pageOrSection: "ch. on Shenhui and the construction of the Southern School",
+      },
+    ],
   },
   {
     slug: "yongjia-xuanjue",
-    content: `Yongjia Xuanjue was a Tiantai monk who visited the Sixth Patriarch Huineng and received confirmation of his awakening in a single night, earning the nickname "the Overnight Guest." His visit to Huineng was brief—he arrived in the evening, engaged in a searching dialogue, and departed the next morning with Huineng's seal of approval. This encounter exemplifies the Chan principle that realization does not depend on length of training but on the depth of insight.
+    content: `Yongjia Xuanjue (永嘉玄覺, 665–713) was a Tiantai-trained monk who is said in the *Jǐngdé Chuándēng Lù* to have visited the Sixth Patriarch Huineng on his way back from a pilgrimage and to have received Huineng's seal of approval in the course of a single night, earning him the nickname "Yi-su Jue," "Overnight Awakening" (一宿覺)[1]. The episode is one of the foundational anecdotes of the Southern School's claim that realisation does not depend on long temple residence under a teacher[2].
 
-Yongjia's enduring contribution is the Zhengdaoge, the Song of Enlightenment, one of the most widely chanted and studied texts in the Chan and Zen traditions. This long poem celebrates the freedom of awakened mind in vivid, soaring language: "In walking, just walk; in sitting, just sit—above all, don't wobble." The Song of Enlightenment bridges the literary and meditative traditions, expressing profound insight through rhythmic verse that has inspired practitioners for over a millennium.`,
+His enduring contribution is the *Zhèngdàogē* (證道歌, "Song of Enlightenment"), a long verse composition that became one of the most-chanted and translated works in the Chan and Zen traditions; its rhythmic, image-dense affirmation of awakened mind has shaped the literary register of Chan poetry from the Tang onward, and remains in active liturgical use in modern Korean Sŏn[3]. Modern scholarship is divided on the historicity of his single-night meeting with Huineng, but the attribution of the *Zhèngdàogē* to Yongjia is securely attested in the early lamp records[4].`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_ferguson_zen_chinese_heritage",
+        pageOrSection: "Yongjia Xuanjue — biographical entry and \"Overnight Awakening\"",
+      },
+      {
+        index: 2,
+        sourceId: "src_dumoulin_india_china",
+        pageOrSection: "Vol. 1, ch. on Huineng's heirs",
+      },
+      {
+        index: 3,
+        sourceId: "src_seongcheol_dharma_talks",
+        pageOrSection: "Yongjia's Song of Enlightenment in modern Korean Seon use",
+      },
+      {
+        index: 4,
+        sourceId: "src_wikipedia",
+        pageOrSection: "Yongjia Xuanjue — Zhèngdàogē authorship and reception",
+      },
+    ],
   },
   {
     slug: "yuquan-shenxiu",
-    content: `Yuquan Shenxiu was the head student of the Fifth Patriarch Daman Hongren and the most prominent Chan teacher of his generation, serving as National Teacher at the Tang court in the capital cities of Luoyang and Chang'an. He was venerated throughout northern China and received imperial patronage on a scale unmatched by any other Chan master of his era. His verse in the Platform Sutra—"The body is a Bodhi tree, the mind a standing mirror bright; at all times diligently polish it and let no dust alight"—represents the gradual approach to practice that emphasizes ongoing purification.
+    content: `Yuquan Shenxiu (玉泉神秀, c. 606–706) was the senior disciple of the Fifth Patriarch Daman Hongren and the most prominent Chan teacher of his generation. Patronised by Empress Wu Zetian and her successors, he served as a *guóshī* (National Teacher) at the Tang court in Chang'an and Luoyang and received imperial honours on a scale unmatched by any other Chan teacher of his era[1]. The verse attributed to him in the *Platform Sūtra* — "The body is the Bodhi-tree, the mind is a bright mirror; constantly polish it, let no dust alight" — is read in that text as the gradual-cultivation foil for Huineng's sudden-awakening response[2].
 
-After the Sixth Patriarch succession controversy championed by Shenhui, Shenxiu's "Northern School" was characterized as teaching gradual enlightenment in contrast to Huineng's sudden awakening. Modern scholarship has complicated this simple dichotomy, recognizing that Shenxiu's actual teaching was more nuanced than the polemical accounts suggest. He was a serious practitioner and accomplished teacher whose emphasis on sustained meditative discipline resonated with both monastic and court audiences.`,
+Modern scholarship since John McRae's *The Northern School and the Formation of Early Ch'an Buddhism* has substantially complicated the standard later-tradition portrait of Shenxiu as the loser in the Sudden / Gradual debate: his surviving teachings, recovered in part from the Dunhuang manuscripts, articulate a sophisticated doctrine of "viewing the mind" (*guānxīn*) that is not reducible to mere gradual cultivation, and his northern school was the dominant institutional form of Chan throughout the early eighth century until it was eclipsed by Heze Shenhui's polemic[3].`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_dumoulin_india_china",
+        pageOrSection: "Vol. 1, ch. on Shenxiu and the Northern School",
+      },
+      {
+        index: 2,
+        sourceId: "src_platform_sutra_yampolsky_1967",
+        pageOrSection: "Introduction — Shenxiu and Huineng's mirror verses",
+      },
+      {
+        index: 3,
+        sourceId: "src_mcrae_seeing_through_zen",
+        pageOrSection: "ch. on the Northern School and the reconstruction of Shenxiu's teaching",
+      },
+    ],
   },
   {
     slug: "songshan-puji",
-    content: `Songshan Puji was a principal student of Yuquan Shenxiu and one of the most influential representatives of the Northern School of Chan. He taught on Mount Song, the central sacred mountain, and attracted a large following that included both monastics and members of the Tang aristocracy. He continued Shenxiu's emphasis on methodical meditation practice and was known for his skill in adapting the teaching to different audiences.
+    content: `Songshan Puji (嵩山普寂, 651–739) was the principal Dharma heir of Yuquan Shenxiu and the most prominent representative of the Northern School in the first half of the eighth century[1]. He taught at Songyang-si on Mount Song (the central sacred mountain) and at the imperial capitals; like his teacher he received successive court honours, including the title *guóshī*, and his community was probably the most institutionally well-established Chan community of his generation before the rise of Heze Shenhui's polemic[2].
 
-After the Southern School's rise to orthodoxy, Puji and the Northern School were marginalized in official Chan histories, depicted as proponents of a merely gradual and conceptual practice. Historical evidence suggests that Puji's actual teaching was considerably more sophisticated than the caricature. His lineage contributed to the transmission of meditation methods that continued to influence Chinese Buddhist practice even as the institutional identity of the Northern School faded.`,
+After Shenhui's 732 attack at Huatai targeted Puji directly as the inheritor of an allegedly "gradual" line, Puji and the Northern School were progressively marginalised in subsequent Chan historiography. McRae's *Northern School and the Formation of Early Ch'an Buddhism* and Yampolsky's introduction to the *Platform Sūtra* both argue that the surviving (largely Dunhuang) Northern-School texts show a more sophisticated teaching than the polemical caricature and that Puji's eclipse was as much institutional as doctrinal[3].`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_dumoulin_india_china",
+        pageOrSection: "Vol. 1, ch. on the Northern School in the early Tang",
+      },
+      {
+        index: 2,
+        sourceId: "src_ferguson_zen_chinese_heritage",
+        pageOrSection: "Songshan Puji — biographical entry; Northern School institutional position",
+      },
+      {
+        index: 3,
+        sourceId: "src_mcrae_seeing_through_zen",
+        pageOrSection: "ch. on Shenhui's attack and Puji's marginalisation",
+      },
+    ],
   },
   {
     slug: "yaoshan-weiyan",
@@ -2345,9 +2457,31 @@ Hongen's place in the lineage represents the ongoing vitality of the Nanyue line
 
   {
     slug: "nanyue-huairang",
-    content: `Nanyue Huairang was a student of the Sixth Patriarch Dajian Huineng and the founding ancestor of the Nanyue branch of Chan, from which the Linji (Rinzai) school and its many sublineages descend. He settled on Mount Nanyue (South Peak), where he trained a small number of exceptional students. His most important student was Mazu Daoyi, who would become one of the most influential Chan masters in history.
+    content: `Nanyue Huairang (南嶽懷讓, 677–744) is traditionally treated, alongside Qingyuan Xingsi, as the senior Dharma heir of the Sixth Patriarch Huineng and the ancestor of the Hongzhou stream — and through Mazu Daoyi of the Linji house and Guiyang school of Tang Chan[1]. Like Qingyuan, his individual record is thin in early sources and his lineage role was largely constructed retrospectively by the lamp records to give the Hongzhou and Shitou streams parallel claim to direct Sixth-Patriarch descent[2].
 
-The most celebrated episode in Nanyue's teaching career is his encounter with Mazu, who was practicing intensive sitting meditation. Nanyue picked up a tile and began polishing it outside Mazu's hut. When Mazu asked what he was doing, Nanyue said, "I am polishing this tile to make a mirror." Mazu asked, "How can polishing a tile make a mirror?" Nanyue replied, "How can sitting in meditation make a Buddha?" This exchange shattered Mazu's attachment to the form of practice and pointed him toward the living essence beneath all technique. It remains one of the most important teaching stories in the Chan tradition.`,
+The most-cited episode in his record is the "polishing the tile" exchange with his student Mazu, preserved most fully in the *Jǐngdé Chuándēng Lù* and recycled by Dōgen in the *Zazenshin*: Mazu sat in long meditation; Nanyue picked up a tile outside his hut and rubbed it on a stone; asked what he was doing, Nanyue answered, "Polishing it to make a mirror"; Mazu asked how polishing a tile could make a mirror, and Nanyue answered, "How can sitting in meditation make a Buddha?"[3] The exchange became the canonical Hongzhou-line caution against the reification of *zazen* and was a key text for Dōgen's later working-out of the relation between sitting and awakening[4].`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_dumoulin_india_china",
+        pageOrSection: "Vol. 1, ch. on Huineng's heirs and the Hongzhou line",
+      },
+      {
+        index: 2,
+        sourceId: "src_mcrae_seeing_through_zen",
+        pageOrSection: "ch. on the construction of post-Huineng Chan genealogy",
+      },
+      {
+        index: 3,
+        sourceId: "src_poceski_ordinary_mind",
+        pageOrSection: "ch. on Huairang, Mazu, and the polishing-the-tile exchange",
+      },
+      {
+        index: 4,
+        sourceId: "src_cleary_shobogenzo",
+        pageOrSection: "Zazenshin — Dōgen's reading of the polishing-the-tile exchange",
+      },
+    ],
   },
   {
     slug: "xitang-zhizang",
