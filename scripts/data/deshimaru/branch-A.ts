@@ -618,7 +618,7 @@ export const BRANCH_A_MASTERS: KVMaster[] = [
     deathPrecision: "unknown",
     deathConfidence: "low",
     biography:
-      "Begoña Kaidō Agiriano is a Spanish Sōtō Zen nun in the Deshimaru–Triet line and the responsible teacher of the Dōjō Zen de Vitoria-Gasteiz in the Basque Country[1][2]. The dōjō's own Linaje page records that she has been a Zen nun since 1990 (\"La responsable de la enseñanza en el dojo de Vitoria-Gasteiz es Begoña Kaidô Agiriano, monja zen desde 1990\")[1], and the Association Zen Internationale's directory of practice centres confirms her institutional role as the centre's responsible teacher[2].\n\nShe received Dharma transmission (shihō) from Raphaël Dōkō Triet, formally entering the Sōtō dharma succession via the Deshimaru–Okamoto–Triet line[3]. As a long-standing teacher in the Iberian wing of the Kōsen / Triet network — alongside Yves Shōshin Crettaz in Lisbon, Triet himself at Seikyūji in Andalusia, and the Zen Mataró sangha — she anchors the Vitoria-Gasteiz community's connection to the wider European AZI federation[1][2].\n\nUnder her guidance the Vitoria-Gasteiz dōjō has functioned as a continuous local seat of Sōtō practice in the Basque Country, hosting regular zazen and serving as the recognised AZI centre for the city[2]. Beyond her teaching responsibilities she is active as a translator of Zen literature into Spanish, contributing to the Iberian-language dissemination of Deshimaru-line teaching alongside the Kōsen Sangha's other translation work[1].",
+      "Begoña Kaidō Agiriano is a Spanish Sōtō Zen nun in the Deshimaru–Triet line and the responsible teacher of the Dōjō Zen de Vitoria-Gasteiz in the Basque Country[1][2]. The dōjō's own Linaje page records that she has been a Zen nun since 1990 (\"La responsable de la enseñanza en el dojo de Vitoria-Gasteiz es Begoña Kaidô Agiriano, monja zen desde 1990\")[1], and the Association Zen Internationale's directory of practice centres confirms her institutional role as the centre's responsible teacher[2].\n\nIn 2013 she received Dharma transmission (shihō) from her teacher Raphaël Dōkō Triet[3][4], formally entering the Sōtō dharma succession via the Deshimaru–Okamoto–Triet line. The Association Zen Internationale's La Gendronnière summer-retreats brochure documents the transmission directly (\"Begonia Kaido Agiriano received the Dharma transmission in 2013 from her teacher, Raphaël Doko Triet\")[3], and the Spanish-language Foro Budismo register of Spanish Zen masters records the same fact (\"Begoña Kaidó Agiriano… in 2013 receives the transmission of the Dharma from her master Raphaël Dôko Triet (Vitoria)\")[4]. Together with Yves Shōshin Crettaz (Lisbon, also 2013), Hugues Yūsen Naas (2009), and Alfonso Sengen Fernández (Seville, 2017) she is one of four publicly-documented shihō recipients of Triet[3][4].\n\nUnder her guidance the Vitoria-Gasteiz dōjō has functioned as a continuous local seat of Sōtō practice in the Basque Country, hosting regular zazen and serving as the recognised AZI centre for the city[2]. As a long-standing teacher in the Iberian wing of the Kōsen / Triet network she anchors the Basque community's connection to the wider European AZI federation alongside Triet's other Spanish heirs[1][3]. Beyond her teaching responsibilities she is active as a translator of Zen literature into Spanish, contributing to the Iberian-language dissemination of Deshimaru-line teaching alongside the Kōsen Sangha's other translation work[1].",
     citations: [
       {
         sourceId: "src_kosen_sangha",
@@ -633,10 +633,16 @@ export const BRANCH_A_MASTERS: KVMaster[] = [
           "https://www.zen-azi.org/en/node/573 — Centre Zen de Vitoria-Gasteiz directory entry; responsible teacher: \"Begoña AGIRIANO\" (accessed 2026-05-11).",
       },
       {
-        sourceId: "src_seikyuji",
+        sourceId: "src_azi_gendronniere_brochure",
         fieldName: "transmission",
         pageOrSection:
-          "Direct testimony from Deshimaru-line teacher confirming Begoña Kaidō Agiriano as a shihō recipient of Raphaël Dōkō Triet; secondary search-result attestations place the shihō in the early 2010s but the precise year is not yet confirmed by a published primary-source URL — see scripts/data/deshimaru/branch-A-NOTES.md for the full source trail.",
+          "https://www.zen-azi.org/sites/default/files/attachments/page/depliant_ecran_gb.pdf — AZI La Gendronnière summer-retreats brochure: \"Begonia Kaido Agiriano received the Dharma transmission in 2013 from her teacher, Raphaël Doko Triet\" (accessed 2026-05-11).",
+      },
+      {
+        sourceId: "src_foro_budismo",
+        fieldName: "transmission",
+        pageOrSection:
+          "https://www.forobudismo.com/viewtopic.php?t=3049 — Foro Budismo register of Spanish Zen masters: \"Begoña Kaidó Agiriano… en 2013 recibe la transmisión del Dharma de su maestro Raphaël Dôko Triet (Vitoria)\" (accessed 2026-05-11).",
       },
     ],
     transmissions: [
@@ -644,9 +650,52 @@ export const BRANCH_A_MASTERS: KVMaster[] = [
         teacherSlug: "raphael-doko-triet",
         type: "dharma",
         isPrimary: true,
-        sourceIds: ["src_kosen_sangha", "src_azi", "src_seikyuji"],
+        sourceIds: ["src_azi_gendronniere_brochure", "src_foro_budismo", "src_kosen_sangha"],
         notes:
-          "Shihō received from Raphaël Dōkō Triet (Deshimaru–Okamoto–Triet line). Vitoria-Gasteiz dōjō Linaje page confirms 1990 ordination; AZI directory confirms responsible-teacher status; the shihō attribution is confirmed by direct testimony from a Deshimaru-line teacher (precise year not yet attested to a published primary source). Sources: https://zenvitoriagasteiz.com/linaje/ and https://www.zen-azi.org/en/node/573",
+          "Shihō received in 2013 from Raphaël Dōkō Triet (Deshimaru–Okamoto–Triet line). Documented in the AZI La Gendronnière summer-retreats brochure (\"Begonia Kaido Agiriano received the Dharma transmission in 2013\") and corroborated in the Foro Budismo register of Spanish Zen masters. Sources: https://www.zen-azi.org/sites/default/files/attachments/page/depliant_ecran_gb.pdf and https://www.forobudismo.com/viewtopic.php?t=3049",
+      },
+    ],
+  },
+
+  // ─── Triet shihō recipient (Seville) ──────────────────────────────
+  {
+    slug: "alfonso-sengen-fernandez",
+    schoolSlug: "soto",
+    names: [
+      { locale: "en", nameType: "dharma", value: "Alfonso Sengen Fernández" },
+      { locale: "en", nameType: "alias", value: "Alfonso Sengen Fernandez" },
+      { locale: "es", nameType: "birth", value: "Alfonso Fernández" },
+    ],
+    birthYear: null,
+    birthPrecision: "unknown",
+    birthConfidence: "low",
+    deathYear: null,
+    deathPrecision: "unknown",
+    deathConfidence: "low",
+    biography:
+      "Alfonso Sengen Fernández is a Spanish Sōtō Zen monk in the Deshimaru–Triet line and the responsible teacher of the Dōjō Zen de Sevilla Kaiko in Andalusia[1]. The dōjō's own Linaje page identifies him as the centre's resident teacher and traces its Sōtō transmission lineage through Raphaël Dōkō Triet, Stéphane Kōsen Thibaut, Taisen Deshimaru, and Kōdō Sawaki to Eihei Dōgen[1].\n\nIn 2017 he received Dharma transmission (shihō) from his teacher Raphaël Dōkō Triet[2], formally entering the Sōtō dharma succession via the Deshimaru–Okamoto–Triet line. The Spanish-language Foro Budismo register of Spanish Zen masters records the transmission directly (\"Alfonso Sengen Fernández… recibió la transmisión del Dharma en 2017 de Raphael Doko Triet (Sevilla)\")[2]. Together with Yves Shōshin Crettaz (Lisbon, 2013), Hugues Yūsen Naas (2009), and Begoña Kaidō Agiriano (Vitoria-Gasteiz, 2013) he is one of four publicly-documented shihō recipients of Triet[2].\n\nFernández anchors the Andalusian wing of the Triet line in Seville, complementing Triet's own residence at Templo Zen Seikyūji near Morón de la Frontera and contributing to the wider Iberian Kōsen / Triet network alongside the Lisbon, Vitoria-Gasteiz, and Mataró communities[1][2]. He is publicly identified by his Andalusian peers as one of the three Spanish disciples of Triet to have received shihō, with the existence of at least one additional unnamed Spanish disciple noted but not yet documented in any consolidated source[2].",
+    citations: [
+      {
+        sourceId: "src_dojo_sevilla_kaiko",
+        fieldName: "biography",
+        pageOrSection:
+          "https://www.dojozensevillakaiko.es/linaje/ — Dōjō Zen de Sevilla Kaiko Linaje page identifying Alfonso Sengen Fernández as resident teacher and tracing the lineage through Raphaël Dōkō Triet → Kōsen Thibaut → Taisen Deshimaru → Kōdō Sawaki → Dōgen (accessed 2026-05-11).",
+      },
+      {
+        sourceId: "src_foro_budismo",
+        fieldName: "transmission",
+        pageOrSection:
+          "https://www.forobudismo.com/viewtopic.php?t=3049 — Foro Budismo register of Spanish Zen masters: \"Alfonso Sengen Fernández… recibió la transmisión del Dharma en 2017 de Raphael Doko Triet (Sevilla)\"; same thread reports a third unnamed Spanish disciple of Triet (accessed 2026-05-11).",
+      },
+    ],
+    transmissions: [
+      {
+        teacherSlug: "raphael-doko-triet",
+        type: "dharma",
+        isPrimary: true,
+        sourceIds: ["src_foro_budismo", "src_dojo_sevilla_kaiko"],
+        notes:
+          "Shihō received in 2017 from Raphaël Dōkō Triet (Deshimaru–Okamoto–Triet line). Documented in the Foro Budismo register of Spanish Zen masters and corroborated by the Dōjō Zen de Sevilla Kaiko's own Linaje page. Sources: https://www.forobudismo.com/viewtopic.php?t=3049 and https://www.dojozensevillakaiko.es/linaje/",
       },
     ],
   },
@@ -706,7 +755,9 @@ After Deshimaru's death in 1982, Triet helped continue the line of teaching Desh
 
 The same year he founded the Centro Zen de Lisboa (Dōjō Zen de Lisboa, Ryūmonji), establishing a Deshimaru-line Sōtō presence on the Iberian Peninsula ("In the same year, he founded the dojo in Lisbon")[3]. From 2004 to 2013 he led the AZI at the international level ("in charge of the International Zen Association (AZI) from 2004 to 2013")[3], and from August 2012 to August 2015 he served as the third abbot of the Temple Zen de La Gendronnière in France ("He served as abbot of the Gendronnière temple from August 2012 to August 2015")[3] — the principal European temple founded by Deshimaru[1]. He currently leads sesshin and ango at Seikyūji and teaches regularly in Spain, Portugal, France, Quebec, and Sweden[1][3].
 
-His teaching follows Deshimaru's "vrai zen": zazen as the heart of practice, integrated with meals, work, and ordinary relationships rather than confined to ritual or monastic settings[1]. In kusen and teisho he draws on classical authors such as Wanshi, Dōgen, and Ryōkan, using sober and concrete imagery to address illusion, suffering, and the margin between conditioned life and freedom[1][2]. His confirmed dharma successors include Yves Shōshin Crettaz (Centro Zen de Lisboa), who received shihō from him in 2013[4], and Hugues Yūsen Naas (1952–2023), who received shihō from him in 2009 and later served as abbot of La Gendronnière (April 2019 – May 2021) and founder of the Centre Zen du Perche Daishugyōji[5].`,
+His teaching follows Deshimaru's "vrai zen": zazen as the heart of practice, integrated with meals, work, and ordinary relationships rather than confined to ritual or monastic settings[1]. In kusen and teisho he draws on classical authors such as Wanshi, Dōgen, and Ryōkan, using sober and concrete imagery to address illusion, suffering, and the margin between conditioned life and freedom[1][2].
+
+His four publicly-documented dharma successors form the core of the Triet branch of the European Sōtō line: **Hugues Yūsen Naas** (1952–2023), who received shihō from him in 2009 and later served as abbot of La Gendronnière (April 2019 – May 2021) and founder of the Centre Zen du Perche Daishugyōji[5]; **Yves Shōshin Crettaz** (b. 1946, Switzerland), responsible for the Centro Zen de Lisboa, who received shihō in 2013[4]; **Begoña Kaidō Agiriano**, responsible teacher of the Dōjō Zen de Vitoria-Gasteiz in the Basque Country, who received shihō the same year, in 2013, as documented in the AZI La Gendronnière brochure ("Begonia Kaido Agiriano received the Dharma transmission in 2013 from her teacher, Raphaël Doko Triet")[7]; and **Alfonso Sengen Fernández**, responsible teacher of the Dōjō Zen de Sevilla Kaiko in Andalusia, who received shihō in 2017 as recorded in the Spanish-language Foro Budismo register of Spanish Zen masters[8]. According to testimony from Fernández himself, Triet has transmitted the Dharma to a third Spaniard whose name has not yet appeared in any consolidated public source[8].`,
     footnotes: [
       {
         index: 1,
@@ -743,6 +794,18 @@ His teaching follows Deshimaru's "vrai zen": zazen as the heart of practice, int
         sourceId: "src_revue_zen",
         pageOrSection:
           "Revue Zen masthead history (Zen Mataró biographical summary): editor-in-chief Raphaël Dōkō Triet, c. 1990–2002.",
+      },
+      {
+        index: 7,
+        sourceId: "src_azi_gendronniere_brochure",
+        pageOrSection:
+          "https://www.zen-azi.org/sites/default/files/attachments/page/depliant_ecran_gb.pdf — AZI La Gendronnière summer-retreats brochure: \"Begonia Kaido Agiriano received the Dharma transmission in 2013 from her teacher, Raphaël Doko Triet\" (accessed 2026-05-11).",
+      },
+      {
+        index: 8,
+        sourceId: "src_foro_budismo",
+        pageOrSection:
+          "https://www.forobudismo.com/viewtopic.php?t=3049 — Foro Budismo register of Spanish Zen masters: \"Alfonso Sengen Fernández… recibió la transmisión del Dharma en 2017 de Raphael Doko Triet (Sevilla)\"; same thread reports a third unnamed Spanish disciple of Triet via Fernández's testimony (accessed 2026-05-11).",
       },
     ],
   },

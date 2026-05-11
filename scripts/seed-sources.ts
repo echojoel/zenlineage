@@ -812,6 +812,42 @@ const SOURCES = [
     publicationDate: null,
     reliability: "authoritative",
   },
+  {
+    id: "src_azi_gendronniere_brochure",
+    type: "website",
+    title: "AZI Summer Retreats brochure — La Gendronnière (transmission lineage notices for Triet's heirs)",
+    author: "Association Zen Internationale",
+    url: "https://www.zen-azi.org/sites/default/files/attachments/page/depliant_ecran_gb.pdf",
+    publicationDate: null,
+    reliability: "authoritative",
+  },
+  {
+    id: "src_dojozen_net",
+    type: "website",
+    title: "Dojo Zen Mokusho (dojozen.net) — Triet-line teacher pages (Crettaz, Triet)",
+    author: "Dojo Zen Mokusho",
+    url: "https://www.dojozen.net/enseignants/",
+    publicationDate: null,
+    reliability: "authoritative",
+  },
+  {
+    id: "src_dojo_sevilla_kaiko",
+    type: "website",
+    title: "Dojo Zen de Sevilla Kaiko — lineage page (Alfonso Sengen Fernández)",
+    author: "Dojo Zen de Sevilla Kaiko",
+    url: "https://www.dojozensevillakaiko.es/linaje/",
+    publicationDate: null,
+    reliability: "authoritative",
+  },
+  {
+    id: "src_foro_budismo",
+    type: "website",
+    title: "Foro Budismo — Spanish Buddhist forum, listing of Spanish Zen masters",
+    author: "Foro Budismo community",
+    url: "https://www.forobudismo.com/viewtopic.php?t=3049",
+    publicationDate: null,
+    reliability: "secondary",
+  },
 ] as const;
 
 export default async function main() {

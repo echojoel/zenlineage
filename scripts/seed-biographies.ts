@@ -4273,7 +4273,9 @@ After Deshimaru's death in 1982, Triet helped continue the line of teaching Desh
 
 Triet moved to Spain in 1995 and, in 1997, founded the Centro Zen de Lisboa (Dōjō Zen de Lisboa, Ryūmonji), establishing a Deshimaru-line Sōtō presence on the Iberian Peninsula[4]. From 2004 to 2013 he led the AZI at the international level, and from 2012 to 2015 he served as abbot of the Temple Zen de La Gendronnière in France — the principal European temple founded by Deshimaru[3][5]. He currently leads sesshin and ango at Seikyūji and teaches regularly in Spain, Portugal, France, Quebec, and Sweden[1][2].
 
-His teaching follows Deshimaru's "vrai zen": zazen as the heart of practice, integrated with meals, work, and ordinary relationships rather than confined to ritual or monastic settings. In kusen and teisho he draws on classical authors such as Wanshi, Dōgen, and Ryōkan, using sober and concrete imagery to address illusion, suffering, and the margin between conditioned life and freedom[1][3]. He has himself conferred dharma transmission on three known successors: Hugues Yūsen Naas in 2009 (later abbot of La Gendronnière and founder of Daishugyōji), Yves Shōshin Crettaz in 2013 (Centro Zen de Lisboa), and Begoña Kaidō Agiriano in 2013 (Dōjō Zen de Vitoria-Gasteiz) — anchoring the Iberian and French nodes of the Deshimaru–Okamoto–Triet line[2][4][7].`,
+His teaching follows Deshimaru's "vrai zen": zazen as the heart of practice, integrated with meals, work, and ordinary relationships rather than confined to ritual or monastic settings. In kusen and teisho he draws on classical authors such as Wanshi, Dōgen, and Ryōkan, using sober and concrete imagery to address illusion, suffering, and the margin between conditioned life and freedom[1][3].
+
+His four publicly-documented dharma successors form the core of the Triet branch of the European Sōtō line: **Hugues Yūsen Naas** (1952–2023), who received shihō in 2009 and later served as abbot of La Gendronnière (April 2019 – May 2021) and founder of the Centre Zen du Perche Daishugyōji[2][5]; **Yves Shōshin Crettaz** (b. 1946, Switzerland), responsible for the Centro Zen de Lisboa, who received shihō in 2013[4]; **Begoña Kaidō Agiriano**, responsible teacher of the Dōjō Zen de Vitoria-Gasteiz in the Basque Country, who received shihō the same year, in 2013, as documented in the AZI La Gendronnière brochure ("Begonia Kaido Agiriano received the Dharma transmission in 2013 from her teacher, Raphaël Doko Triet")[7]; and **Alfonso Sengen Fernández**, responsible teacher of the Dōjō Zen de Sevilla Kaiko in Andalusia, who received shihō in 2017 as recorded in the Spanish-language Foro Budismo register of Spanish Zen masters and corroborated by his dōjō's own Linaje page[8]. According to testimony from Fernández himself, Triet has transmitted the Dharma to a third Spaniard whose name has not yet appeared in any consolidated public source[8].`,
     footnotes: [
       {
         index: 1,
@@ -4309,8 +4311,15 @@ His teaching follows Deshimaru's "vrai zen": zazen as the heart of practice, int
       },
       {
         index: 7,
-        sourceId: "src_zen_deshimaru_history",
-        pageOrSection: "Dōjō Zen de Vitoria-Gasteiz — Linaje, recording shihō from Triet to Begoña Kaidō Agiriano in 2013",
+        sourceId: "src_azi_gendronniere_brochure",
+        pageOrSection:
+          "https://www.zen-azi.org/sites/default/files/attachments/page/depliant_ecran_gb.pdf — AZI La Gendronnière summer-retreats brochure: \"Begonia Kaido Agiriano received the Dharma transmission in 2013 from her teacher, Raphaël Doko Triet\" (accessed 2026-05-11).",
+      },
+      {
+        index: 8,
+        sourceId: "src_foro_budismo",
+        pageOrSection:
+          "https://www.forobudismo.com/viewtopic.php?t=3049 — Foro Budismo register of Spanish Zen masters: \"Alfonso Sengen Fernández… recibió la transmisión del Dharma en 2017 de Raphael Doko Triet (Sevilla)\"; same thread reports a third unnamed Spanish disciple of Triet via Fernández's testimony (accessed 2026-05-11).",
       },
     ],
   },

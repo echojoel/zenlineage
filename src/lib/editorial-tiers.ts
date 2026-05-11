@@ -128,6 +128,7 @@ export const TIER_1_ENTRIES: EditorialTierEntry[] = [
   { slug: "ariadna-dosei-labbate", tier: "tier1", reason: "modern_transmitter" },
   { slug: "toshiro-taigen-yamauchi", tier: "tier1", reason: "modern_transmitter" },
   { slug: "begona-kaido-agiriano", tier: "tier1", reason: "modern_transmitter" },
+  { slug: "alfonso-sengen-fernandez", tier: "tier1", reason: "modern_transmitter" },
   // — Branch B: Yuno Rech mainline (2010–2024)
   { slug: "patrick-pargnien", tier: "tier1", reason: "modern_transmitter" },
   { slug: "heinz-juergen-metzger", tier: "tier1", reason: "modern_transmitter" },
