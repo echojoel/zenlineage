@@ -435,6 +435,36 @@ const SOURCES = [
     reliability: "scholarly",
   },
   {
+    id: "src_garfield_fundamental_wisdom",
+    type: "text_edition",
+    title:
+      "The Fundamental Wisdom of the Middle Way: Nāgārjuna's Mūlamadhyamakakārikā",
+    author: "Jay L. Garfield (trans. & comm.)",
+    url: "https://global.oup.com/academic/product/the-fundamental-wisdom-of-the-middle-way-9780195093360",
+    publicationDate: "1995",
+    reliability: "scholarly",
+  },
+  {
+    id: "src_hakeda_awakening_faith",
+    type: "text_edition",
+    title:
+      "The Awakening of Faith Attributed to Aśvaghoṣa",
+    author: "Yoshito S. Hakeda (trans.)",
+    url: "https://cup.columbia.edu/book/the-awakening-of-faith/9780231131582",
+    publicationDate: "1967 (repr. 2006)",
+    reliability: "scholarly",
+  },
+  {
+    id: "src_strong_legend_upagupta",
+    type: "book",
+    title:
+      "The Legend and Cult of Upagupta: Sanskrit Buddhism in North India and Southeast Asia",
+    author: "John S. Strong",
+    url: "https://press.princeton.edu/books/paperback/9780691034379/the-legend-and-cult-of-upagupta",
+    publicationDate: "1992",
+    reliability: "scholarly",
+  },
+  {
     id: "src_sotoshu_global",
     type: "website",
     title: "Sōtōshū — Global Sōtō Zen Network",

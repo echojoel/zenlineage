@@ -136,165 +136,907 @@ For the Chan, Sŏn, Thiền, and Zen traditions, Shakyamuni is venerated not onl
   },
   {
     slug: "mahakashyapa",
-    content: `Mahakashyapa was a senior disciple of Shakyamuni Buddha who became the first patriarch of the Chan lineage. Born into a wealthy brahmin family, he was known for his austere practice and mastery of the dhutanga disciplines, the ascetic purification practices. The Buddha singled him out as the foremost practitioner of these strict observances, and their relationship exemplified the directness and simplicity that would become hallmarks of Chan.
+    content: `Mahākāśyapa (Pāli: Mahā-Kassapa) is one of the few figures of the Indian Chan lineage whose historical existence is firmly attested in the early canon. The Pāli Saṃyutta Nikāya devotes an entire chapter—the Kassapa Saṃyutta—to discourses associated with him, depicting an austere senior monk who maintained the *dhutaṅga* observances (rag robes, alms-food only, forest dwelling) into old age and who declined royal patronage[1]. Born Pippali into a wealthy brahmin family of Mahātittha in Magadha and married to the equally devout Bhaddā Kāpilānī, he is said to have renounced household life by mutual agreement with his wife, who herself ordained as a *bhikkhunī*[2]. The Buddha exchanged robes with him and praised him as foremost in ascetic discipline (*dhutaguṇa*).
 
-According to Chan tradition, at the Flower Sermon on Vulture Peak, the Buddha held up a golden lotus without speaking a word. Only Mahakashyapa smiled in understanding. The Buddha said: "I possess the true Dharma eye, the marvelous mind of nirvana, the true form of the formless, the subtle Dharma gate that does not rest on words or letters but is a special transmission outside the scriptures. This I entrust to Mahakashyapa." This wordless transmission is the fountainhead of the entire Chan lineage. After the Buddha's death, Mahakashyapa presided over the First Council, where Ananda recited the sutras and Upali recited the Vinaya.`,
+Within the Chan tradition Mahākāśyapa is the first patriarch, the recipient of the wordless transmission given on Mount Gṛdhrakūṭa (Vulture Peak)[3]. The locus classicus of this episode is Case 6 of the *Wúménguān* (Mumonkan, 1228): when the Buddha "twirled a flower," only Mahākāśyapa smiled, and the Buddha said: "I have the eye of the true Dharma, the marvelous mind of nirvāṇa, the true mark of formlessness, the subtle Dharma gate that does not rest on words and letters and is transmitted outside the scriptures—this I entrust to Mahākāśyapa."[4] Modern scholarship traces the textual emergence of the Flower Sermon to the eleventh-century *Tiānshèng Guǎngdēng Lù* and the *Wúménguān*, and treats it as a Chan retrojection rather than an episode of the historical Buddha[5].
+
+Following the Buddha's *parinirvāṇa*, Mahākāśyapa convened the First Council at Rājagṛha—an event recorded in the Pāli *Cullavagga* and the parallel Vinayas of all early schools. Five hundred *arhats* gathered; Ānanda recited the discourses (the *Sūtra Piṭaka*) and Upāli the monastic rules (the *Vinaya Piṭaka*), fixing the recension that would descend through oral transmission for several centuries before being committed to writing[6]. Tradition holds that Mahākāśyapa subsequently entered into deep meditative absorption on Mount Kukkuṭapāda ("Cock's Foot") to await the coming of Maitreya, the future Buddha, to whom he is to transmit the robe given him by Śākyamuni[7]. The Chinese pilgrim Xuanzang in the seventh century reported the mountain as a major pilgrimage site venerating his samādhi[8].`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_bodhi_in_buddhas_words",
+        pageOrSection: "ch. 6 (SN 16, Kassapa Saṃyutta)",
+        excerpt:
+          "Kassapa, even now, in your old age, your rag-robes are heavy and worn. Put on lay-cloth and live near settled places. — The Buddha addresses Mahā-Kassapa, who declines.",
+      },
+      {
+        index: 2,
+        sourceId: "src_princeton_dict_buddhism",
+        pageOrSection: "s.v. \"Mahākāśyapa\", \"dhutaṅga\", \"Bhaddā Kāpilānī\"",
+      },
+      {
+        index: 3,
+        sourceId: "src_dumoulin_india_china",
+        pageOrSection: "Vol. 1, ch. 1 — Mahākāśyapa as first patriarch in the Chan reckoning",
+      },
+      {
+        index: 4,
+        sourceId: "src_mumonkan_senzaki_1934",
+        pageOrSection: "Case 6: \"Buddha Twirls a Flower\"",
+      },
+      {
+        index: 5,
+        sourceId: "src_dumoulin_india_china",
+        pageOrSection:
+          "Vol. 1, ch. 1 — discussion of the Tiānshèng Guǎngdēng Lù (1036) and Wúménguān (1228) as the earliest textual witnesses of the Flower Sermon",
+      },
+      {
+        index: 6,
+        sourceId: "src_princeton_dict_buddhism",
+        pageOrSection: "s.v. \"First Council\" and \"Rājagṛha\"",
+      },
+      {
+        index: 7,
+        sourceId: "src_princeton_dict_buddhism",
+        pageOrSection: "s.v. \"Kukkuṭapāda\" and \"Maitreya\"",
+      },
+      {
+        index: 8,
+        sourceId: "src_chan_ancestors_pdf",
+        pageOrSection: "Lineage chart, generation 1",
+      },
+    ],
   },
   {
     slug: "ananda",
-    content: `Ananda served as the personal attendant of Shakyamuni Buddha for twenty-five years, accompanying him on his travels and memorizing his discourses with remarkable fidelity. He was renowned for his excellent memory, his compassion toward all beings, and his advocacy for the admission of women into the monastic order. The Buddha said that among his disciples Ananda was foremost in learning and in service to others.
+    content: `Ānanda was Śākyamuni Buddha's cousin, personal attendant, and the disciple foremost in *bahuśruta* (much-learning) and in service to others[1]. He is among the most extensively documented figures of the early canon: the Pāli Aṅguttara Nikāya credits him as the Buddha's attendant for the last twenty-five years of his life, and the introductory phrase that opens nearly every sūtra—*evaṃ me sutaṃ*, "thus have I heard"—is attributed to his recitation at the First Council[2].
 
-Though Ananda had not attained full awakening during the Buddha's lifetime, the night before the First Council he sat in deep meditation and realized liberation. At the council, he recited all of the Buddha's discourses from memory, beginning each with "Thus have I heard." For this reason he is often called the Guardian of the Dharma Treasury. As the second Chan patriarch, he received the wordless transmission from Mahakashyapa and continued the unbroken thread of direct experience passed from teacher to student.`,
+Ānanda's most consequential intervention in the early canon is his role in the foundation of the *bhikkhunī saṅgha*. According to the *Cullavagga*, when Mahāprajāpatī Gautamī, the Buddha's foster-mother, three times petitioned the Buddha for ordination, the Buddha three times refused. Ānanda interceded, asking whether women were capable of attaining the four stages of awakening; when the Buddha affirmed that they were, Ānanda pressed the case until the Buddha consented, and the eight *gurudharmas* governing relations between the male and female sanghas were instituted on this occasion[3]. The episode is preserved as one of the earliest formal records of women's full ordination in any world religion.
+
+Tradition holds that, although Ānanda had heard more of the Buddha's teaching than anyone else, he had not yet attained full *arhatship* during the Buddha's lifetime. On the night before the First Council—where Mahākāśyapa had reluctantly agreed to admit him only as a fully realized arhat—Ānanda is said to have meditated through the night and realized liberation just before dawn[4]. The next day he recited the entire corpus of discourses from memory; the council preserved this oral recension, which became the basis of the *Sūtra Piṭaka* of all early schools[5].
+
+In the Chan lineage Ānanda is the second patriarch, the recipient of Mahākāśyapa's transmission and the teacher of Śāṇavāsa[6]. The most celebrated Chan story about him is "Kāśyapa's Flagpole," recorded as Case 22 of the *Wúménguān*: Ānanda asked Mahākāśyapa what the World-Honored One had transmitted besides the gold-embroidered robe; Mahākāśyapa called "Ānanda!" Ānanda answered "Yes!" Mahākāśyapa said: "Knock down the flagpole at the gate." The exchange is read in Chan as Mahākāśyapa's confirming gesture—what the Buddha transmitted to him, he transmits to Ānanda in the moment of being called and answered[7]. Ānanda is traditionally said to have lived to a great age and, at the moment of his *parinirvāṇa*, divided his relics by levitating to the middle of the Ganges, an etiological tale for two reliquary stūpas built on opposite banks by the kingdoms of Magadha and Vaiśālī[8].`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_princeton_dict_buddhism",
+        pageOrSection: "s.v. \"Ānanda\"",
+      },
+      {
+        index: 2,
+        sourceId: "src_bodhi_in_buddhas_words",
+        pageOrSection:
+          "Translator's introduction §I — \"Thus have I heard\" and the role of Ānanda in the canon",
+      },
+      {
+        index: 3,
+        sourceId: "src_bodhi_in_buddhas_words",
+        pageOrSection:
+          "ch. 9 §6 (Cullavagga X) — the founding of the bhikkhunī saṅgha after Ānanda's intercession",
+      },
+      {
+        index: 4,
+        sourceId: "src_princeton_dict_buddhism",
+        pageOrSection: "s.v. \"First Council\" — Ānanda's awakening on the eve of the council",
+      },
+      {
+        index: 5,
+        sourceId: "src_bodhi_in_buddhas_words",
+        pageOrSection: "Translator's introduction §II — the four nikāyas as recensions of Ānanda's recitation",
+      },
+      {
+        index: 6,
+        sourceId: "src_dumoulin_india_china",
+        pageOrSection: "Vol. 1, ch. 1 — Ānanda as second patriarch in the Chan reckoning",
+      },
+      {
+        index: 7,
+        sourceId: "src_mumonkan_senzaki_1934",
+        pageOrSection: "Case 22: \"Kashapa's Flag-Pole\"",
+      },
+      {
+        index: 8,
+        sourceId: "src_princeton_dict_buddhism",
+        pageOrSection: "s.v. \"Ānanda\" — traditions surrounding his death and relic-division",
+      },
+    ],
   },
   {
     slug: "shanakavasa",
-    content: `Shanakavasa was the third Indian patriarch of Chan, receiving transmission from Ananda. According to traditional accounts, he was born wearing a robe of shana hemp, which was considered a miraculous sign. He was known as a powerful teacher who spread the Dharma throughout Kashmir and central Asia, establishing monastic communities along the ancient trade routes.
+    content: `Śāṇavāsa is named third in the standard Chan lineage of twenty-eight Indian patriarchs as codified in the *Jǐngdé Chuándēng Lù* (Jingde Record of the Transmission of the Lamp, 1004) and reproduced in the later *Wǔdēng Huìyuán* (1252)[1]. Within Chan he is the disciple of Ānanda and the teacher of Upagupta. The earliest narrative material attaching to him appears in the Sanskrit *Aśokāvadāna* and related *avadāna* literature, where he is associated with the Mathurā region, depicted as wearing a hempen robe (*śāṇa* = "hemp," the conventional etymology of the name), and credited with the conversion of large numbers of practitioners in northwestern India[2].
 
-Shanakavasa trained many students and is particularly noted for recognizing the exceptional capacity of Upagupta and transmitting the essence of awakening to him. His legacy bridges the earliest disciples of the Buddha and the subsequent flowering of Indian Buddhism. The Chan tradition regards him as holding the flame of direct mind-to-mind transmission and passing it faithfully across generations.`,
+Modern scholarship treats the Chan list of patriarchs from Śāṇavāsa onward as a doctrinal genealogy rather than a historical reconstruction. Heinrich Dumoulin notes that the precise twenty-eight-name sequence is a Chan literary construction; few of the figures between Ānanda and Bodhidharma can be reliably correlated with the historical record[3]. What the tradition affirms through these names is the principle of *cittena cittasya saṃkrāntiḥ*—the transmission of mind by mind—rather than a documented chain of attested teachers and students.`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_dumoulin_india_china",
+        pageOrSection: "Vol. 1, ch. 1 — the Jǐngdé Chuándēng Lù as the canonical source of the twenty-eight-patriarch list",
+      },
+      {
+        index: 2,
+        sourceId: "src_princeton_dict_buddhism",
+        pageOrSection: "s.v. \"Śāṇavāsa\" and \"Aśokāvadāna\"",
+      },
+      {
+        index: 3,
+        sourceId: "src_dumoulin_india_china",
+        pageOrSection: "Vol. 1, ch. 1 — the twenty-eight patriarchs as a Chan literary construction rather than a historical chain",
+      },
+      {
+        index: 4,
+        sourceId: "src_chan_ancestors_pdf",
+        pageOrSection: "Lineage chart, generation 3",
+      },
+    ],
   },
   {
     slug: "upagupta",
-    content: `Upagupta, the fourth Chan patriarch, was a disciple of Shanakavasa and a great missionary of the Dharma in northwest India. He is traditionally said to have lived during the reign of Emperor Ashoka and to have played a role in spreading Buddhism across the Indian subcontinent. He was called "the Buddha without marks" because, though lacking the physical signs of a great being, he possessed the full inner realization.
+    content: `Upagupta is the fourth patriarch in the Chan list and one of the more substantively attested early figures, the subject of an extensive corpus of Sanskrit narrative literature centered in Mathurā[1]. The *Aśokāvadāna* presents him as the spiritual preceptor of the emperor Aśoka (r. c. 268–232 BCE), and John Strong's monograph *The Legend and Cult of Upagupta* documents a continuous regional cult that survives in modern Burma and Thailand, where he is invoked as *U Pakuṭ* and propitiated as a protector against monsoon storms[2].
 
-Upagupta was celebrated for his skill in converting difficult students and pacifying demons. In one famous story, he subdued Mara the tempter not through force but through the gentle power of compassion, binding him with garlands of flowers representing the bones of those Mara had destroyed. His transmission to Dhritaka continued the lineage of direct awakening at a time when Buddhism was gaining institutional strength throughout India.`,
+Two narrative motifs dominate the Upagupta legend. The first is his subjugation of Māra: when Māra disrupted his preaching, Upagupta countered by binding three corpses—a dog, a snake, and a man—around Māra's neck as a perfumed garland that Māra could not remove until he humbled himself; afterwards Māra is said to have taken refuge in the Dharma[3]. The second is his role as imperial preceptor: he led Aśoka on a pilgrimage to the great sites of the Buddha's life, identifying each location and confirming the emperor's commitment to Buddhist patronage[4].
+
+The Sarvāstivāda school of northwest India regarded Upagupta as their fifth patriarch, parallel to but distinct from the Chan reckoning. Dumoulin notes that the early Chan lineage drew on these northwestern materials but reorganized them around Mahāyāna concerns, producing the twenty-eight-name sequence that became canonical from the *Jǐngdé Chuándēng Lù* onward[5]. Upagupta is described in Chan sources as "the buddha without marks" (*alakṣaṇaka-buddha*)—accomplished in realization without possessing the thirty-two physical *lakṣaṇas* of a *cakravartin*[6].`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_strong_legend_upagupta",
+        pageOrSection: "Introduction and ch. 1 — the regional cult and the Aśokāvadāna textual tradition",
+      },
+      {
+        index: 2,
+        sourceId: "src_strong_legend_upagupta",
+        pageOrSection: "ch. 7–8 — the surviving Burmese and Thai cult",
+      },
+      {
+        index: 3,
+        sourceId: "src_strong_legend_upagupta",
+        pageOrSection: "ch. 4 — \"The Subjugation of Māra\"",
+      },
+      {
+        index: 4,
+        sourceId: "src_princeton_dict_buddhism",
+        pageOrSection: "s.v. \"Upagupta\" and \"Aśokāvadāna\"",
+      },
+      {
+        index: 5,
+        sourceId: "src_dumoulin_india_china",
+        pageOrSection: "Vol. 1, ch. 1 — Upagupta in Sarvāstivādin and Chan reckonings",
+      },
+      {
+        index: 6,
+        sourceId: "src_chan_ancestors_pdf",
+        pageOrSection: "Lineage chart, generation 4",
+      },
+    ],
   },
   {
     slug: "dhritaka",
-    content: `Dhritaka was the fifth Indian Chan patriarch, receiving transmission from Upagupta. Little biographical detail survives from historical sources, and his life sits in the legendary stratum of early Indian Buddhism. The Chan tradition credits him with maintaining the purity of the wordless transmission amid the growing complexity of scholastic Buddhism.
+    content: `Dhṛtaka, fifth patriarch in the Chan list of twenty-eight Indians, is described in the *Jǐngdé Chuándēng Lù* as the disciple of Upagupta and teacher of Mīcaka. Almost no material independent of the Chan transmission-of-the-lamp literature survives concerning him; he belongs to the legendary stratum of figures whose function in the lineage is structural rather than biographical[1]. The traditional accounts describe him as a brahmin youth from Magadha who recognized in Upagupta his teacher and, after a brief encounter, received the wordless transmission.
 
-He is said to have recognized the depths of the Dharma beyond intellectual formulation and to have emphasized direct experience over doctrinal elaboration. His transmission to Michaka represents another link in the unbroken chain connecting the historical Buddha to the later flowering of Chan in China.`,
+Dumoulin observes that the Chan compilers, in extending the lineage backward to the Buddha, drew on a stock of names available in northwestern Buddhist scholastic and devotional literature and arranged them into a numerologically elegant sequence ending with Bodhidharma[2]. Dhṛtaka is one of the names whose role is precisely this—holding a place in the chain rather than carrying an independently attested life-story.`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_dumoulin_india_china",
+        pageOrSection: "Vol. 1, ch. 1 — the legendary stratum of patriarchs between Upagupta and Pārśva",
+      },
+      {
+        index: 2,
+        sourceId: "src_dumoulin_india_china",
+        pageOrSection: "Vol. 1, ch. 1 — the construction of the twenty-eight-patriarch list",
+      },
+      {
+        index: 3,
+        sourceId: "src_chan_ancestors_pdf",
+        pageOrSection: "Lineage chart, generation 5",
+      },
+    ],
   },
   {
     slug: "michaka",
-    content: `Michaka, the sixth patriarch in the Indian Chan lineage, inherited the transmission from Dhritaka. Traditional sources describe him as a teacher of exceptional clarity who could point directly to the nature of mind without relying on elaborate doctrinal frameworks. He is associated with the northwestern regions of India where Buddhism flourished in the early centuries of the Common Era.
+    content: `Mīcaka (also Miccaka), sixth patriarch in the Chan list, is named in the *Jǐngdé Chuándēng Lù* as the disciple of Dhṛtaka and teacher of Vasumitra. He is one of the figures whose attestation lies wholly within the Chan transmission-of-the-lamp literature; no independent canonical or scholastic record corresponds to him[1]. The traditional account describes a teacher associated with central India who converted a community of brahmin ascetics through a single demonstrative encounter and recognized Vasumitra as his successor.
 
-Michaka's role in the lineage is primarily as a faithful guardian of the transmission. He recognized Vasumitra's capacity for awakening and passed on the wordless essence of the teaching. His life reminds practitioners that the heart of Chan—direct pointing to mind—does not depend on literary greatness or historical prominence, but on the unobstructed clarity of transmitted realization.`,
+The Princeton Dictionary of Buddhism notes that the names in this section of the lineage often correspond to figures known in northwestern Sarvāstivādin sources but reordered or relabeled to fit the Chan twenty-eight-patriarch frame; the identification of any particular name with a historically attested teacher is not always possible[2].`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_dumoulin_india_china",
+        pageOrSection: "Vol. 1, ch. 1 — the legendary middle stratum of the Chan twenty-eight",
+      },
+      {
+        index: 2,
+        sourceId: "src_princeton_dict_buddhism",
+        pageOrSection: "s.v. \"twenty-eight patriarchs\" and surrounding entries",
+      },
+      {
+        index: 3,
+        sourceId: "src_chan_ancestors_pdf",
+        pageOrSection: "Lineage chart, generation 6",
+      },
+    ],
   },
   {
     slug: "vasumitra",
-    content: `Vasumitra, the seventh patriarch of the Indian Chan lineage, is a name shared by several significant figures in Buddhist history. The Chan tradition identifies this Vasumitra as the direct disciple of Michaka and teacher of Buddhanandi. He is portrayed as an accomplished master who adapted his teaching to the capacities of his students.
+    content: `Vasumitra (Vasumitra of the Chan list) is the seventh patriarch in the *Jǐngdé Chuándēng Lù* sequence, named as the disciple of Mīcaka and teacher of Buddhanandi. The Sanskrit name Vasumitra ("Friend of the Vasus") attaches to several historically attested figures in Indian Buddhism—most prominently a Sarvāstivādin abhidharma master associated with the Fourth Council under Kaniṣka and the compilation of the *Mahāvibhāṣā*—and the Chan tradition's identification of "its" Vasumitra with one or more of these figures has never been securely established[1].
 
-The early Indian patriarchs collectively represent the transmission of awakening across the centuries following the Buddha's death, through periods of political upheaval and sectarian diversity. Vasumitra's link in this chain is characterized by the same quality that defines the entire Indian lineage: the capacity to recognize and transmit the self-nature of mind that transcends any particular time, place, or cultural form.`,
+Dumoulin observes that the Chan compilers had access to lists of distinguished names from the Sarvāstivādin and Mūlasarvāstivādin traditions and integrated several of them into the twenty-eight-patriarch sequence; whether the seventh patriarch is meant to be the abhidharma Vasumitra or a different figure of the same name is not resolvable from the surviving texts[2]. What the Chan reckoning affirms through the placement of "Vasumitra" is the connection of the Chan transmission to the prestigious northwestern scholastic milieu in which the Vibhāṣā commentaries were composed.`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_princeton_dict_buddhism",
+        pageOrSection: "s.v. \"Vasumitra\" — multiple figures sharing the name",
+      },
+      {
+        index: 2,
+        sourceId: "src_dumoulin_india_china",
+        pageOrSection: "Vol. 1, ch. 1 — Sarvāstivādin names in the Chan twenty-eight",
+      },
+      {
+        index: 3,
+        sourceId: "src_chan_ancestors_pdf",
+        pageOrSection: "Lineage chart, generation 7",
+      },
+    ],
   },
   {
     slug: "buddhanandi",
-    content: `Buddhanandi, the eighth patriarch, was a student of Vasumitra and teacher of Buddhamitra. His name means "Delight of the Buddha" or "Joy of Awakening," suggesting the quality of liberated ease that the tradition associated with him. He lived during a period of rich Buddhist activity in India, when monastic institutions and philosophical schools were proliferating.
+    content: `Buddhanandi ("Delight of the Buddha"), eighth patriarch in the Chan list, is named in the *Jǐngdé Chuándēng Lù* as the disciple of Vasumitra and teacher of Buddhamitra[1]. He belongs to the legendary middle stratum of the lineage and is not securely attested outside Chan transmission-of-the-lamp literature. The traditional account describes a young brahmin from Kāmarūpa (modern Assam) recognized by Vasumitra during a teaching tour and brought into the lineage after a brief exchange.
 
-According to Chan records, Buddhanandi possessed an innate understanding of the Buddha's teaching and transmitted that understanding directly to Buddhamitra without relying on textual elaboration. Each link in the Indian patriarchal chain affirms the possibility of carrying awakening forward across generations through the living encounter between teacher and student.`,
+Dumoulin notes that the names in this section of the list often appear in pairs whose etymologies are suggestive (here Buddhanandi paired with Buddhamitra: "Joy of the Buddha" and "Friend of the Buddha"), reflecting the literary character of the construction[2].`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_dumoulin_india_china",
+        pageOrSection: "Vol. 1, ch. 1 — Buddhanandi in the patriarchal sequence",
+      },
+      {
+        index: 2,
+        sourceId: "src_dumoulin_india_china",
+        pageOrSection: "Vol. 1, ch. 1 — etymological pairing in the Chan twenty-eight",
+      },
+      {
+        index: 3,
+        sourceId: "src_chan_ancestors_pdf",
+        pageOrSection: "Lineage chart, generation 8",
+      },
+    ],
   },
   {
     slug: "buddhamitra",
-    content: `Buddhamitra, the ninth Indian patriarch, received the transmission from Buddhanandi and passed it to Parshva. His name combines "Buddha" with "friend," evoking the Dharma friendship that is considered essential to genuine practice. The Chan tradition honors him as one who kept the direct transmission alive during a period when Buddhism in India was developing elaborate philosophical systems.
+    content: `Buddhamitra ("Friend of the Buddha"), ninth patriarch in the Chan list, is named in the *Jǐngdé Chuándēng Lù* as the disciple of Buddhanandi and teacher of Pārśva. He is one of the few patriarchs in the legendary middle stratum to receive an extended hagiographical narrative in the *Bǎolín Zhuàn* (801) and later transmission-of-the-lamp literature, where he is depicted as a long-time householder who entered the saṅgha late in life under Buddhanandi's instruction and became a renowned teacher in central India[1].
 
-The Indian lineage as preserved in Chan is not primarily a scholastic lineage but a lineage of direct experience—of minds meeting in the recognition of the nature of awareness itself. Buddhamitra represents this principle: not the accumulation of doctrine but the direct pointing that dissolves the confusion between concepts about experience and experience itself.`,
+Dumoulin notes that Buddhamitra functions in the lineage as the immediate predecessor of Pārśva, the first figure in the late Indian section who can be tied with confidence to the historical record of the Sarvāstivādin Fourth Council; the placement of Buddhamitra at this hinge gives the Chan list its narrative bridge from the unattested early stratum into the historically grounded middle period[2].`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_dumoulin_india_china",
+        pageOrSection: "Vol. 1, ch. 1 — the Bǎolín Zhuàn's elaboration of Buddhamitra",
+      },
+      {
+        index: 2,
+        sourceId: "src_dumoulin_india_china",
+        pageOrSection: "Vol. 1, ch. 1 — Buddhamitra as bridge to the Sarvāstivādin-attested stratum",
+      },
+      {
+        index: 3,
+        sourceId: "src_chan_ancestors_pdf",
+        pageOrSection: "Lineage chart, generation 9",
+      },
+    ],
   },
   {
     slug: "parshva",
-    content: `Parshva, the tenth patriarch, was known for his great age and the power of his practice. Traditional accounts describe him as an elder of extraordinary presence who had practiced continuously from youth into advanced old age. He received the transmission from Buddhamitra and gave it to Punyayashas after recognizing that student's deep readiness.
+    content: `Pārśva (Pāli: Pāssa) is the tenth patriarch in the Chan list and one of the few figures in the middle section of the lineage with a discernible historical basis. He is mentioned in Sarvāstivādin sources as one of the conveners of the Fourth Council under the Kuṣāṇa emperor Kaniṣka (1st–2nd century CE), held in Kashmir or at Jālandhara, where the *Mahāvibhāṣā*—the great Sarvāstivādin commentary on the *Jñānaprasthāna*—was composed[1]. He is associated with the *Vibhāṣā* school of northwestern Buddhist scholasticism and is sometimes credited with the conversion of the young Aśvaghoṣa[2].
 
-The longevity and steadiness attributed to Parshva suggest a teacher whose realization had been tested and refined over a lifetime of practice. His transmission to Punyayashas carries the Dharma through another generation, maintaining the unbroken thread that would eventually cross the mountains and seas to reach East Asia and transform the world.`,
+Tradition holds that Pārśva ordained late in life—at sixty or eighty, depending on the source—and made a vow not to lay his side down on a bed until he had attained full liberation; his Sanskrit name *pārśva* ("side") is explained etiologically through this resolve[3]. He is depicted as an elder of immense practice-power and considerable scholarship, the bridge between the early lineage and the Mahāyāna philosophical figures who follow. Dumoulin notes that Pārśva is one of three or four names in the middle stretch of the Chan twenty-eight where the tradition firmly attaches to a person known from the Sarvāstivādin record[4].`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_princeton_dict_buddhism",
+        pageOrSection: "s.v. \"Pārśva\" and \"Fourth Council\"",
+      },
+      {
+        index: 2,
+        sourceId: "src_dumoulin_india_china",
+        pageOrSection: "Vol. 1, ch. 1 — Pārśva in the Sarvāstivādin Vibhāṣā tradition",
+      },
+      {
+        index: 3,
+        sourceId: "src_princeton_dict_buddhism",
+        pageOrSection: "s.v. \"Pārśva\" — the etymological vow",
+      },
+      {
+        index: 4,
+        sourceId: "src_dumoulin_india_china",
+        pageOrSection: "Vol. 1, ch. 1 — historically attested names in the middle of the Chan list",
+      },
+      {
+        index: 5,
+        sourceId: "src_chan_ancestors_pdf",
+        pageOrSection: "Lineage chart, generation 10",
+      },
+    ],
   },
   {
     slug: "punyayashas",
-    content: `Punyayashas, the eleventh patriarch, was the teacher of Ashvaghosha, one of the most celebrated figures in the entire Buddhist tradition. Punyayashas is described as a skilled teacher who could identify the hidden depths of his students and awaken them through precisely suited instruction. His meeting with Ashvaghosha is recorded as a pivotal moment in which persistent philosophical debate was dissolved by direct pointing to the nature of mind.
+    content: `Puṇyayaśas, eleventh patriarch in the Chan list, is named in the *Jǐngdé Chuándēng Lù* as the disciple of Pārśva and teacher of Aśvaghoṣa[1]. The Chan account preserves the encounter narrative between Puṇyayaśas and Aśvaghoṣa as one of the more developed dialogues in the early section of the transmission-of-the-lamp literature: Aśvaghoṣa, then a brahmin debater hostile to Buddhism, was won over not through doctrinal argument but through Puṇyayaśas's direct response to a challenge about the meaning of the term "Buddha"[2].
 
-According to Chan accounts, Ashvaghosha initially challenged Punyayashas with arguments and doctrinal questions, but Punyayashas responded with such directness and clarity that Ashvaghosha recognized his own fundamental error: he had been seeking the Dharma outside himself. The encounter transformed a brilliant intellectual into an awakened practitioner, and the transmission passed forward.`,
+Dumoulin notes that the placement of Puṇyayaśas in the lineage—immediately preceding the historically attested Aśvaghoṣa—reflects the Chan compilers' care to lodge each significant Mahāyāna figure within a recognizable teacher-student relationship within the Indian sequence[3].`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_dumoulin_india_china",
+        pageOrSection: "Vol. 1, ch. 1 — Puṇyayaśas as preceptor of Aśvaghoṣa",
+      },
+      {
+        index: 2,
+        sourceId: "src_dumoulin_india_china",
+        pageOrSection: "Vol. 1, ch. 1 — the Aśvaghoṣa conversion narrative",
+      },
+      {
+        index: 3,
+        sourceId: "src_dumoulin_india_china",
+        pageOrSection: "Vol. 1, ch. 1 — embedding Mahāyāna figures within the patriarchal frame",
+      },
+      {
+        index: 4,
+        sourceId: "src_chan_ancestors_pdf",
+        pageOrSection: "Lineage chart, generation 11",
+      },
+    ],
   },
   {
     slug: "ashvaghosha",
-    content: `Ashvaghosha was one of the most renowned figures in the history of Indian Buddhism, celebrated both as the twelfth Chan patriarch and as a poet, playwright, and philosopher of exceptional talent. He is traditionally credited with composing the Buddhacarita, an epic Sanskrit poem about the life of the Buddha, as well as the Awakening of Faith, a foundational text of Mahayana Buddhism. Before his encounter with Punyayashas, he had been a master debater and opponent of Buddhism.
+    content: `Aśvaghoṣa (c. 80–150 CE), counted as the twelfth Chan patriarch, is among the most important and historically attested figures of early Indian Mahāyāna Buddhism[1]. A poet, dramatist, and philosopher active during the reign of the Kuṣāṇa emperor Kaniṣka, he is the author of two surviving Sanskrit *kāvya* (court-poetry) works—the *Buddhacarita* (Acts of the Buddha) and the *Saundarananda*—that constitute the earliest classical Sanskrit *kāvya* poetry to come down to us. The *Buddhacarita* in particular survives in fragmentary Sanskrit and complete Tibetan and Chinese translations and is one of the principal early biographies of the Buddha[2].
 
-His conversion and awakening represent the transformation of brilliant intellectual capacity into the service of direct experience and compassionate teaching. Ashvaghosha transmitted the essence of awakening to Kapimala, and his legacy demonstrates that literary and philosophical gifts, when properly oriented, can become vehicles for pointing to the inexpressible. In the Chan tradition, he is honored both for his scholarship and for his place in the unbroken lineage.`,
+Aśvaghoṣa is also traditionally credited with the *Mahāyāna-śraddhotpāda-śāstra* (*Treatise on the Awakening of Mahāyāna Faith*), one of the foundational texts of East Asian Mahāyāna. The *Awakening of Faith* lays out the doctrine of the One Mind possessing two aspects—the absolute (*tathatā*) and the conditioned (*saṃsāra*)—and develops the *tathāgatagarbha* (Buddha-nature) tradition that became central to Hua-yen, Tiantai, and Chan thought[3]. Modern scholarship is sceptical, however, that the historical Aśvaghoṣa was the actual author. Yoshito Hakeda summarizes the consensus view that the text was composed in fifth- or sixth-century China, possibly originally in Chinese rather than Sanskrit, and back-attributed to Aśvaghoṣa to lend Mahāyāna authority[4]. The treatise is nevertheless central enough to East Asian Buddhism that the attribution made him one of the most cited authors in the Chinese Buddhist canon.
+
+In the traditional Chan biography preserved in the *Jǐngdé Chuándēng Lù*, Aśvaghoṣa was a brahmin disputant of Buddhism in Pāṭaliputra (modern Patna) before his conversion by Pārśva (or, in some recensions, by Pārśva's disciple Puṇyayaśas)[5]. After receiving transmission, he is said to have served as imperial preceptor at Kaniṣka's court, where he composed his epics and instructed the emperor in the Dharma[6]. His name—"Horse-Cry"—is explained in legend by the report that he could make horses weep when he expounded the truth.`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_princeton_dict_buddhism",
+        pageOrSection: "s.v. \"Aśvaghoṣa\"",
+      },
+      {
+        index: 2,
+        sourceId: "src_princeton_dict_buddhism",
+        pageOrSection: "s.v. \"Buddhacarita\" and \"Saundarananda\"",
+      },
+      {
+        index: 3,
+        sourceId: "src_hakeda_awakening_faith",
+        pageOrSection: "Part I — \"One Mind and Its Two Aspects\"",
+      },
+      {
+        index: 4,
+        sourceId: "src_hakeda_awakening_faith",
+        pageOrSection:
+          "Translator's introduction — authorship, dating, and the consensus view that the text was composed in 5th–6th c. China",
+      },
+      {
+        index: 5,
+        sourceId: "src_dumoulin_india_china",
+        pageOrSection: "Vol. 1, ch. 1 — Aśvaghoṣa as twelfth patriarch in the Chan reckoning",
+      },
+      {
+        index: 6,
+        sourceId: "src_princeton_dict_buddhism",
+        pageOrSection: "s.v. \"Kaniṣka\" and \"Pāṭaliputra\"",
+      },
+      {
+        index: 7,
+        sourceId: "src_chan_ancestors_pdf",
+        pageOrSection: "Lineage chart, generation 12",
+      },
+    ],
   },
   {
     slug: "kapimala",
-    content: `Kapimala, the thirteenth patriarch, was an accomplished master of Brahmanical lore before his conversion to Buddhism through an encounter with Ashvaghosha. He was skilled in philosophical argumentation and had led a community of followers when Ashvaghosha engaged him in dialogue. As with Ashvaghosha's own conversion, the encounter was not primarily a matter of winning an argument but of recognizing something beyond argument altogether.
+    content: `Kapimala is the thirteenth patriarch in the Chan list, named in the *Jǐngdé Chuándēng Lù* as the disciple of Aśvaghoṣa and the teacher of Nāgārjuna[1]. The historical basis for the figure is uncertain. He appears in some Sarvāstivādin traditions as a brahmin philosopher of southern India whom Aśvaghoṣa converted by argument; the conversion narrative parallels Aśvaghoṣa's own conversion by Pārśva[2]. He is associated with the spread of Buddhism into southern India and with the recognition of Nāgārjuna as his successor.
 
-After receiving transmission from Ashvaghosha, Kapimala became a tireless teacher and eventually recognized the exceptional capacity of Nagarjuna, one of the most influential thinkers in the history of Buddhism. Kapimala's meeting with Nagarjuna began not as a philosophical encounter but as a direct pointing to what lies beneath and beyond all philosophical positions.`,
+Dumoulin observes that Kapimala functions in the lineage as a hinge between the northern Sarvāstivādin scholastic tradition associated with Aśvaghoṣa and the southern Mahāyāna milieu in which Nāgārjuna would emerge[3]. Whether Kapimala is a single historical person or a name absorbing several traditions cannot now be determined.`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_dumoulin_india_china",
+        pageOrSection: "Vol. 1, ch. 1 — Kapimala as preceptor of Nāgārjuna in the Chan list",
+      },
+      {
+        index: 2,
+        sourceId: "src_princeton_dict_buddhism",
+        pageOrSection: "s.v. \"Kapimala\"",
+      },
+      {
+        index: 3,
+        sourceId: "src_dumoulin_india_china",
+        pageOrSection: "Vol. 1, ch. 1 — north–south transition between Aśvaghoṣa and Nāgārjuna",
+      },
+      {
+        index: 4,
+        sourceId: "src_chan_ancestors_pdf",
+        pageOrSection: "Lineage chart, generation 13",
+      },
+    ],
   },
   {
     slug: "nagarjuna",
-    content: `Nagarjuna, the fourteenth Indian patriarch and one of the most important figures in the entire Buddhist tradition, was the founder of the Madhyamaka school of philosophy. He lived in southern India around the second or third century CE and composed numerous treatises, including the Mulamadhyamakakarika, which systematically demonstrates the emptiness of all phenomena through rigorous logical analysis. His philosophical contribution cannot be overstated: the doctrine of sunyata, or emptiness, as he articulated it became the foundation of virtually all subsequent Mahayana philosophy.
+    content: `Nāgārjuna (c. 150–250 CE) is, after the Buddha himself, the most important figure in the entire Mahāyāna tradition[1]. As the founder of the Madhyamaka ("Middle Way") school and the principal expositor of *śūnyatā* (emptiness), his thought structures every later Mahāyāna development: Yogācāra, *tathāgatagarbha*, the Chinese Tiantai and Sānlùn schools, the Tibetan Madhyamaka traditions, and the philosophical underpinnings of Chan and Zen[2].
 
-In the Chan lineage, Nagarjuna holds a special place because his understanding of emptiness is seen as pointing directly to the nature of mind itself. Emptiness, in his analysis, is not nothingness but the absence of fixed, independent existence—which means that all phenomena arise in dynamic interdependence, free from the burden of intrinsic selfhood. This is precisely what direct experience in Chan meditation reveals. Nagarjuna received transmission from Kapimala and transmitted to Aryadeva, his foremost student, continuing the lineage through one of the most philosophically fertile periods in Buddhist history.`,
+The historical Nāgārjuna is dated to roughly the second or third century CE, active in southern India under the patronage of a Sātavāhana king (variously identified by modern scholars)[3]. The principal hagiographies preserved by Kumārajīva (4th–5th c.) and by the Tibetan historian Tāranātha (17th c.) describe him as a brahmin from the south who entered the Buddhist saṅgha after a youthful misadventure with magical invisibility, recovered *nāga*-treasured texts from the underwater realm of the serpent kings (hence his name), and composed a vast philosophical and devotional corpus[4].
+
+His authentic philosophical works are concentrated in the *Yukti-corpus* (Reasoning collection): the *Mūlamadhyamakakārikā* (Root Verses on the Middle Way), the *Vigrahavyāvartanī*, the *Śūnyatāsaptati*, the *Yuktiṣaṣṭikā*, and the *Vaidalyaprakaraṇa*[5]. The *Mūlamadhyamakakārikā* opens with a homage to the Buddha "the supreme of teachers" and proceeds in twenty-seven chapters to demonstrate that no phenomenon—motion, fire, the self, time, suffering, the *tathāgata*, *nirvāṇa*—possesses *svabhāva* (intrinsic nature) when subjected to careful analysis[6]. The famous chapter twenty-four states the doctrinal claim most concisely: "Whatever is dependently co-arisen, that is explained to be emptiness; that, being a dependent designation, is itself the middle way."[7] His argument is not that nothing exists, but that everything that exists does so only relationally, through *pratītyasamutpāda* (dependent origination); to grasp emptiness as nothingness is, he says, "like grasping a snake by the wrong end."[8]
+
+Tradition also assigns to Nāgārjuna two further bodies of work: the *Stava-corpus* of devotional hymns to the buddhas and bodhisattvas, and the *Suhṛllekha* (Letter to a Friend), addressed to the Sātavāhana king and preserved in the Tibetan and Chinese canons[9]. The vast *Mahāprajñāpāramitā-śāstra* (*Dà Zhì Dù Lùn*), preserved only in Kumārajīva's Chinese translation, is conventionally attributed to Nāgārjuna but is now widely considered to be a 4th-century Central Asian compilation that functioned as a commentarial encyclopedia for early Chinese Mahāyāna[10].
+
+In the Chan lineage Nāgārjuna is the fourteenth patriarch, the disciple of Kapimala and teacher of Āryadeva[11]. The Chan tradition reads his analysis of emptiness as a direct philosophical exposition of the *prajñāpāramitā* perspective from which Chan's teaching of *no-mind* (*wúxīn*) and *original face* derives. The closing dedication of the *Mūlamadhyamakakārikā*—"I prostrate to Gautama, who, out of compassion, taught the true doctrine that leads to the relinquishment of all views"—has been read by Chan and Zen commentators (notably Dōgen and Hakuin) as a description of the Chan task itself[12].`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_princeton_dict_buddhism",
+        pageOrSection: "s.v. \"Nāgārjuna\"",
+      },
+      {
+        index: 2,
+        sourceId: "src_dumoulin_india_china",
+        pageOrSection: "Vol. 1, ch. 1 — Nāgārjuna and the formation of Mahāyāna philosophy",
+      },
+      {
+        index: 3,
+        sourceId: "src_garfield_fundamental_wisdom",
+        pageOrSection: "Translator's introduction §1 — biographical and chronological discussion",
+      },
+      {
+        index: 4,
+        sourceId: "src_princeton_dict_buddhism",
+        pageOrSection: "s.v. \"Nāgārjuna\" — hagiographical traditions",
+      },
+      {
+        index: 5,
+        sourceId: "src_garfield_fundamental_wisdom",
+        pageOrSection: "Translator's introduction §2 — the Yukti-corpus and questions of authenticity",
+      },
+      {
+        index: 6,
+        sourceId: "src_garfield_fundamental_wisdom",
+        pageOrSection: "ch. 1 (\"Examination of Conditions\") and ch. 24 (\"Examination of the Four Noble Truths\")",
+      },
+      {
+        index: 7,
+        sourceId: "src_garfield_fundamental_wisdom",
+        pageOrSection: "ch. 24, vv. 18–19",
+        excerpt:
+          "Whatever is dependently co-arisen, that is explained to be emptiness. That, being a dependent designation, is itself the middle way.",
+      },
+      {
+        index: 8,
+        sourceId: "src_garfield_fundamental_wisdom",
+        pageOrSection: "ch. 24, v. 11",
+        excerpt:
+          "By a misperception of emptiness a person of little intelligence is destroyed. Like a snake incorrectly seized or like a spell incorrectly cast.",
+      },
+      {
+        index: 9,
+        sourceId: "src_princeton_dict_buddhism",
+        pageOrSection: "s.v. \"Suhṛllekha\" and \"stava\"",
+      },
+      {
+        index: 10,
+        sourceId: "src_princeton_dict_buddhism",
+        pageOrSection: "s.v. \"Mahāprajñāpāramitā-śāstra\" — questions of authorship and origin",
+      },
+      {
+        index: 11,
+        sourceId: "src_dumoulin_india_china",
+        pageOrSection: "Vol. 1, ch. 1 — Nāgārjuna's place in the Chan twenty-eight",
+      },
+      {
+        index: 12,
+        sourceId: "src_garfield_fundamental_wisdom",
+        pageOrSection: "ch. 27, dedicatory verse",
+      },
+    ],
   },
   {
     slug: "aryadeva",
-    content: `Aryadeva was the principal disciple of Nagarjuna and the fifteenth Indian patriarch of the Chan lineage. He was a master debater who encountered Nagarjuna after a series of remarkable encounters with Buddhist teachers and became his most capable student. His own philosophical works, particularly the Catuhsataka (Four Hundred Verses), extend and defend the Madhyamaka analysis of Nagarjuna with great precision and polemical force.
+    content: `Āryadeva (c. 170–270 CE), counted as the fifteenth Chan patriarch, was Nāgārjuna's principal disciple and the chief expositor of Madhyamaka in the second generation[1]. He is a securely historical figure with a verifiable corpus of works preserved in Sanskrit, Chinese, and Tibetan. Tibetan tradition records that he was born in Sri Lanka or southern India, possibly to a royal family, and traveled north to study with Nāgārjuna; some accounts say he encountered his teacher at Nāgārjuna's mountain hermitage of Śrīparvata in Andhra[2].
 
-According to traditional accounts, Aryadeva had the physical characteristic of one eye, having offered it to an image of Kuan Yin in a past life. His debates with non-Buddhist philosophers were legendary, and his skill in articulating the view of emptiness contributed enormously to the spread of Mahayana in India. As the sixteenth link in the chain, he transmitted the essence of awakening to Rahulata, carrying the Indian lineage forward through another generation.`,
+Āryadeva's principal work is the *Catuḥśataka* (Four Hundred Verses on the Middle Way), a sixteen-chapter polemical and analytical treatise that extends the *Mūlamadhyamakakārikā* into the domains of practice, ethics, and refutation of non-Buddhist positions. The first eight chapters address bodhisattva conduct; the second eight refute the philosophical positions of the Sāṃkhya, Vaiśeṣika, and Jain schools[3]. He is also the author of the *Śataśāstra* (Hundred Verses), preserved only in Kumārajīva's Chinese translation, which together with Nāgārjuna's *Mūlamadhyamakakārikā* and *Twelve Gates Treatise* (*Dvādaśadvāra*) forms the textual basis of the Chinese Sānlùn ("Three Treatises") school of Madhyamaka[4].
+
+A famous traditional detail records that Āryadeva had only one eye, having offered the other in donation; this anatomical feature gives him the alternative name *Kāṇadeva* ("Deva of the One Eye") in Chinese sources[5]. Hagiographical accounts describe his death by violent assassination at the hand of a brahmin disputant whom he had defeated in debate, with Āryadeva accepting the blow as the resolution of a karmic debt and dying while expounding emptiness one last time[6].
+
+In the Chan reckoning Āryadeva transmitted to Rāhulabhadra (Rahulata)[7]. His position in the lineage marks the close of the Madhyamaka founders' generation; subsequent Indian patriarchs in the Chan list belong to a different stratum of legendary or semi-legendary teachers.`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_princeton_dict_buddhism",
+        pageOrSection: "s.v. \"Āryadeva\"",
+      },
+      {
+        index: 2,
+        sourceId: "src_dumoulin_india_china",
+        pageOrSection: "Vol. 1, ch. 1 — Āryadeva as Nāgārjuna's disciple at Śrīparvata",
+      },
+      {
+        index: 3,
+        sourceId: "src_princeton_dict_buddhism",
+        pageOrSection: "s.v. \"Catuḥśataka\"",
+      },
+      {
+        index: 4,
+        sourceId: "src_princeton_dict_buddhism",
+        pageOrSection: "s.v. \"Sānlùn\" and \"Śataśāstra\"",
+      },
+      {
+        index: 5,
+        sourceId: "src_princeton_dict_buddhism",
+        pageOrSection: "s.v. \"Kāṇadeva\"",
+      },
+      {
+        index: 6,
+        sourceId: "src_dumoulin_india_china",
+        pageOrSection: "Vol. 1, ch. 1 — the assassination tradition",
+      },
+      {
+        index: 7,
+        sourceId: "src_chan_ancestors_pdf",
+        pageOrSection: "Lineage chart, generation 15",
+      },
+    ],
   },
   {
     slug: "rahulata",
-    content: `Rahulata, the sixteenth patriarch, was a disciple of Aryadeva who continued the Indian lineage in the northwestern regions of the subcontinent. His name may evoke Rahula, the son of the historical Buddha, suggesting a sense of intimate inheritance. He is remembered as a teacher who transmitted the direct pointing of the Madhyamaka insight without reducing it to mere philosophical abstraction.
+    content: `Rāhulabhadra (Chinese: 羅睺羅多, transliterated *Rahulata*), sixteenth patriarch in the Chan list, is named in the *Jǐngdé Chuándēng Lù* as the disciple of Āryadeva and teacher of Saṃghanandi[1]. A figure of the same name appears in Sarvāstivādin and Madhyamaka literature as a poet of the *Prajñāpāramitā-stotra* (Hymn to the Perfection of Wisdom) and as one of the early commentators on Nāgārjuna; whether the Chan patriarch is meant to be this same Rāhulabhadra is debated[2].
 
-The Chan tradition values Rahulata as a bridge between the great philosophical figures of the Indian lineage and the less-documented teachers who maintained the transmission through periods of relative obscurity. He transmitted to Sanghanandi, and the lineage continued its journey through India and eventually toward China.`,
+Dumoulin notes that the post-Āryadeva section of the Chan twenty-eight relies on names available from earlier Sarvāstivādin and Mahāyāna sources but reorganized to fit the patriarchal frame, and Rāhulabhadra's place in the sequence reflects this compositional logic rather than a documented teacher-student relationship[3].`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_dumoulin_india_china",
+        pageOrSection: "Vol. 1, ch. 1 — Rāhulabhadra in the Chan twenty-eight",
+      },
+      {
+        index: 2,
+        sourceId: "src_princeton_dict_buddhism",
+        pageOrSection: "s.v. \"Rāhulabhadra\" — possible identifications",
+      },
+      {
+        index: 3,
+        sourceId: "src_dumoulin_india_china",
+        pageOrSection: "Vol. 1, ch. 1 — composition of the post-Madhyamaka section of the lineage",
+      },
+      {
+        index: 4,
+        sourceId: "src_chan_ancestors_pdf",
+        pageOrSection: "Lineage chart, generation 16",
+      },
+    ],
   },
   {
     slug: "sanghanandi",
-    content: `Sanghanandi, the seventeenth patriarch, is described in Chan sources as a prince who renounced his royal inheritance upon realizing the fragility of worldly pleasures. He entered the homeless life, found Rahulata, and received the transmission after demonstrating the clarity of his understanding. His story parallels in some ways the story of Shakyamuni Buddha himself, grounding the lineage in the archetype of renunciation and awakening.
+    content: `Saṃghanandi ("Joy of the Saṅgha"), seventeenth patriarch in the Chan list, is named in the *Jǐngdé Chuándēng Lù* as the disciple of Rāhulabhadra and teacher of Saṃghayaśas (Gayashata)[1]. The traditional narrative describes him as the son of a king who renounced his royal inheritance after a youthful realization of impermanence and entered the saṅgha—a story-pattern that mirrors the Buddha's own renunciation and recurs throughout Indian Buddhist hagiography[2].
 
-As a teacher, Sanghanandi was known for his patience and his ability to meet students wherever they were in their understanding. He recognized Gayashata's capacity and transmitted the essence of mind to him. His contribution to the lineage is the continuity of sincerity—the willingness to abandon worldly position in order to know the nature of reality directly.`,
+He belongs to the legendary stratum of the late Indian lineage. As Dumoulin observes, the Chan compilers used recurring narrative motifs—royal renunciation, debate-conversion, miraculous recognition—to give the patriarchal sequence rhetorical coherence even where independent biographical material was unavailable[3].`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_dumoulin_india_china",
+        pageOrSection: "Vol. 1, ch. 1 — Saṃghanandi in the Chan list",
+      },
+      {
+        index: 2,
+        sourceId: "src_princeton_dict_buddhism",
+        pageOrSection: "s.v. \"Saṃghanandi\" and the renunciation topos in Indian hagiography",
+      },
+      {
+        index: 3,
+        sourceId: "src_dumoulin_india_china",
+        pageOrSection: "Vol. 1, ch. 1 — recurring narrative motifs in the patriarchal sequence",
+      },
+      {
+        index: 4,
+        sourceId: "src_chan_ancestors_pdf",
+        pageOrSection: "Lineage chart, generation 17",
+      },
+    ],
   },
   {
     slug: "gayashata",
-    content: `Gayashata, the eighteenth patriarch, was a student of Sanghanandi who is described in Chan texts as having a naturally luminous understanding. He is sometimes depicted as someone who arrived at the teacher's door already ripe, needing only the final touch of recognition to break through fully. His name is connected with a mountain, suggesting settledness and solidity of realization.
+    content: `Saṃghayaśas (transliterated *Gayashata* in the Chinese sources), eighteenth patriarch in the Chan list, is named in the *Jǐngdé Chuándēng Lù* as the disciple of Saṃghanandi and teacher of Kumārata[1]. He belongs to the legendary stratum of the late Indian lineage and has no extant attestation independent of the Chan transmission-of-the-lamp literature.
 
-Gayashata transmitted the essence of awakening to Kumarata after recognizing his student's readiness through direct encounter. He represents another generation in which the transmission moved not through institutional structures but through the direct meeting of teacher and student in genuine inquiry.`,
+The traditional account describes a young brahmin from western India whom Saṃghanandi recognized through a sequence of natural-imagery exchanges (a wind-bell, a falling leaf) and brought into the lineage. Dumoulin notes that the use of natural-image *gōng'àn*-like vignettes for these middle-list patriarchs anticipates the literary style of mature Chan encounter dialogue[2].`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_dumoulin_india_china",
+        pageOrSection: "Vol. 1, ch. 1 — Saṃghayaśas/Gayashata in the Chan list",
+      },
+      {
+        index: 2,
+        sourceId: "src_dumoulin_india_china",
+        pageOrSection: "Vol. 1, ch. 1 — proto-encounter dialogue in the late Indian section",
+      },
+      {
+        index: 3,
+        sourceId: "src_chan_ancestors_pdf",
+        pageOrSection: "Lineage chart, generation 18",
+      },
+    ],
   },
   {
     slug: "kumarata",
-    content: `Kumarata, the nineteenth patriarch, was a student of Gayashata who is described as coming from a family of great learning. He was well-versed in the texts of various philosophical traditions before meeting his teacher. His encounter with Gayashata shifted his understanding from the mastery of conceptual systems to the direct recognition of what lies before and beyond all concepts.
+    content: `Kumārata (Sanskrit *Kumāralāta*), nineteenth patriarch in the Chan list, may correspond to the historically attested Kumāralāta, founder of the Sautrāntika school of abhidharma in the third or fourth century CE and author of the *Dṛṣṭāntapaṅkti* (Garland of Examples), a Sanskrit collection of edifying narratives[1]. The Sautrāntika Kumāralāta is one of the more substantively documented figures of post-Sarvāstivādin Indian scholasticism.
 
-He transmitted the essence of awakening to Jayata and continued the unbroken thread of the Indian lineage. Kumarata's name appears in the chronicles of the patriarchs as evidence that the transmission passed through central Asia at a time when Buddhism was beginning to spread along the Silk Road toward China.`,
+Whether the Chan tradition's nineteenth patriarch is meant to be this same figure or a different teacher of similar name is unresolved. Dumoulin treats the identification as plausible but not demonstrable, noting that the *Jǐngdé Chuándēng Lù* gives no detail that would securely tie Kumārata to the Sautrāntika master[2]. The Chan account names him as the disciple of Saṃghayaśas and teacher of Jayata.`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_princeton_dict_buddhism",
+        pageOrSection: "s.v. \"Kumāralāta\" and \"Sautrāntika\"",
+      },
+      {
+        index: 2,
+        sourceId: "src_dumoulin_india_china",
+        pageOrSection: "Vol. 1, ch. 1 — possible identification of Kumārata with Kumāralāta",
+      },
+      {
+        index: 3,
+        sourceId: "src_chan_ancestors_pdf",
+        pageOrSection: "Lineage chart, generation 19",
+      },
+    ],
   },
   {
     slug: "jayata",
-    content: `Jayata, the twentieth patriarch, received transmission from Kumarata and transmitted it to Vasubandhu. He is described as an accomplished practitioner who understood the ground of awakening and could recognize it in others. His name, meaning "victorious," suggests the quality of a realization that has overcome the fundamental error of taking oneself to be a fixed, separate entity.
+    content: `Jayata, twentieth patriarch in the Chan list, is named in the *Jǐngdé Chuándēng Lù* as the disciple of Kumārata and teacher of Vasubandhu[1]. He belongs to the legendary stratum of the late Indian lineage and is not securely attested outside the transmission-of-the-lamp literature.
 
-The records of Jayata are sparse, as is common for the later Indian patriarchs, but his place in the lineage is unquestioned within the Chan tradition. He represents the faithful handing down of direct experience across generations and across the gradual dissolution of Indian Buddhist civilization.`,
+Dumoulin notes that the Chan tradition's interweaving of legendary and historically attested names in this section of the list reflects a literary strategy: significant Mahāyāna figures (Aśvaghoṣa, Nāgārjuna, Āryadeva, possibly Vasubandhu and Kumārata) anchor the chain, while bridging names like Jayata supply the formal continuity required by the twenty-eight-patriarch frame[2].`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_dumoulin_india_china",
+        pageOrSection: "Vol. 1, ch. 1 — Jayata in the Chan list",
+      },
+      {
+        index: 2,
+        sourceId: "src_dumoulin_india_china",
+        pageOrSection: "Vol. 1, ch. 1 — bridging names in the patriarchal sequence",
+      },
+      {
+        index: 3,
+        sourceId: "src_chan_ancestors_pdf",
+        pageOrSection: "Lineage chart, generation 20",
+      },
+    ],
   },
   {
     slug: "vasubandhu",
-    content: `Vasubandhu, the twenty-first patriarch of the Chan lineage, should be distinguished from the more historically prominent philosopher Vasubandhu of the Yogacara school, though their names and periods may overlap in complex ways within Buddhist chronology. The Chan Vasubandhu is the disciple of Jayata and teacher of Manorhita, positioned in the lineage as a faithful transmitter of direct experience.
+    content: `The figure named as the twenty-first Chan patriarch presents a famously difficult identification problem[1]. The Sanskrit name Vasubandhu in Indian Buddhist history attaches most prominently to the great Yogācāra philosopher of the fourth–fifth century CE, brother and disciple of Asaṅga, author of the *Abhidharmakośa*, the *Triṃśikā* (Thirty Verses), the *Viṃśatikā* (Twenty Verses), and the foundational treatises of the Yogācāra ("Mind-Only") school[2]. The Chan tradition's twenty-first patriarch, however, is dated to a period earlier than the Yogācāra Vasubandhu and described as the disciple of Jayata and teacher of Manorhita, suggesting a different—or, more likely, composite—figure.
 
-As with many of the later Indian patriarchs, the historical details of his life are embedded within hagiographic tradition. The Chan lineage through these figures is not primarily a historical document but a living affirmation that the recognition of mind's true nature has been passed from person to person without break from the time of Shakyamuni to the present. Vasubandhu transmitted this recognition to Manorhita.`,
+The historical Vasubandhu, on the chronology proposed by Erich Frauwallner and now widely discussed in scholarship, may in fact be two distinct figures of the same name conflated by the later tradition: a fourth-century Vasubandhu, brother of Asaṅga and author of the Yogācāra trilogy, and a fifth-century Vasubandhu who composed the *Abhidharmakośa*[3]. Whether the Chan patriarch corresponds to either of these or to a still earlier teacher cannot be determined from the surviving sources.
+
+What is certain is that the historical Vasubandhu's *vijñaptimātratā* ("nothing-but-cognition") doctrine had a profound effect on Chinese Mahāyāna and indirectly on Chan. The *Triṃśikā* analyzes consciousness into the *ālayavijñāna* (storehouse consciousness), the *manas* (afflicted mind), and the six sense-consciousnesses, and proposes that all phenomena are transformations of consciousness[4]. This analysis entered Chinese Buddhism through Paramārtha (6th c.) and Xuánzàng's Faxiang school (7th c.), and forms part of the philosophical background against which Chan defines its own position—at times appropriating Yogācāra categories (the *ālayavijñāna* as an analogue of original mind), at times rejecting Yogācāra's analytical mode in favor of direct pointing[5].
+
+In the *Jǐngdé Chuándēng Lù*, the twenty-first patriarch is described in stock hagiographical terms as the converter of an army of disputants in northwestern India and the recognizer of his successor Manorhita[6]. Dumoulin notes that the placement of a "Vasubandhu" in the lineage gives the Chan transmission a connection to the prestigious Yogācāra philosophical tradition without committing the compilers to specific historical claims[7].`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_princeton_dict_buddhism",
+        pageOrSection: "s.v. \"Vasubandhu\" — multiple figures sharing the name",
+      },
+      {
+        index: 2,
+        sourceId: "src_princeton_dict_buddhism",
+        pageOrSection: "s.v. \"Yogācāra\", \"Abhidharmakośa\", \"Triṃśikā\"",
+      },
+      {
+        index: 3,
+        sourceId: "src_princeton_dict_buddhism",
+        pageOrSection: "s.v. \"Vasubandhu\" — the two-Vasubandhu hypothesis",
+      },
+      {
+        index: 4,
+        sourceId: "src_princeton_dict_buddhism",
+        pageOrSection: "s.v. \"vijñaptimātratā\" and \"ālayavijñāna\"",
+      },
+      {
+        index: 5,
+        sourceId: "src_dumoulin_india_china",
+        pageOrSection: "Vol. 1, ch. 5 — Yogācāra background to Chan",
+      },
+      {
+        index: 6,
+        sourceId: "src_dumoulin_india_china",
+        pageOrSection: "Vol. 1, ch. 1 — the twenty-first patriarch in the Chan reckoning",
+      },
+      {
+        index: 7,
+        sourceId: "src_dumoulin_india_china",
+        pageOrSection: "Vol. 1, ch. 1 — embedding philosophical schools within the patriarchal frame",
+      },
+      {
+        index: 8,
+        sourceId: "src_chan_ancestors_pdf",
+        pageOrSection: "Lineage chart, generation 21",
+      },
+    ],
   },
   {
     slug: "manorhita",
-    content: `Manorhita, the twenty-second patriarch, received the transmission from Vasubandhu. His name evokes brilliance of mind, and he is described as a teacher who could communicate the essence of awakening through both ordinary conversation and formal teaching. He is associated with a period of transmission in which the lineage was moving closer to the northwestern borders of India, the gateway to central Asia and eventually China.
+    content: `Manorhita (also Manorata, Manūratha), twenty-second patriarch in the Chan list, is named in the *Jǐngdé Chuándēng Lù* as the disciple of Vasubandhu and teacher of Haklenayaśas[1]. A figure of similar name—Manoratha—appears in northwestern Sarvāstivādin sources as one of the late commentators on the *Vibhāṣā*, and is mentioned by Xuanzang as having debated unsuccessfully against a brahmin opponent at the court of King Vikramāditya, dying of grief at the defeat[2]. Whether the Chan patriarch is meant to be this same figure is uncertain.
 
-Manorhita recognized in Haklena the qualities necessary to carry the transmission forward and transmitted the essence of awakening to him. His contribution to the lineage, like that of most of the middle Indian patriarchs, is the faithful preservation of a living experience that does not depend on the survival of texts or institutions but on the direct encounter between awake minds.`,
+The Chan account belongs to the legendary stratum of the late Indian lineage and is silent on the historical Manoratha's circumstances. Dumoulin treats the identification as plausible but unverifiable[3].`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_dumoulin_india_china",
+        pageOrSection: "Vol. 1, ch. 1 — Manorhita in the Chan list",
+      },
+      {
+        index: 2,
+        sourceId: "src_princeton_dict_buddhism",
+        pageOrSection: "s.v. \"Manoratha\" — the Sarvāstivādin commentator",
+      },
+      {
+        index: 3,
+        sourceId: "src_dumoulin_india_china",
+        pageOrSection: "Vol. 1, ch. 1 — possible identification of Manorhita with the Vibhāṣā commentator Manoratha",
+      },
+      {
+        index: 4,
+        sourceId: "src_chan_ancestors_pdf",
+        pageOrSection: "Lineage chart, generation 22",
+      },
+    ],
   },
   {
     slug: "haklena",
-    content: `Haklena, the twenty-third patriarch, was a student of Manorhita who is described as having practiced for many years before meeting his teacher. He had explored various contemplative methods and philosophical systems, and his meeting with Manorhita resolved his long search not through the acquisition of new knowledge but through the recognition of what had always already been present.
+    content: `Haklenayaśas (Chinese: 鶴勒那, transliterated *Haklena*), twenty-third patriarch in the Chan list, is named in the *Jǐngdé Chuándēng Lù* as the disciple of Manorhita and teacher of Siṃha Bhikṣu[1]. The traditional account describes a teacher of central India whose preaching attracted a following of cranes (*haklena* glossed as "crane-fame"), an etiology that signals the legendary character of the figure rather than supplying biographical detail[2].
 
-He transmitted the essence of mind to Simha after a period of teaching that deepened both his realization and his capacity to recognize it in students. His name appears in Chan chronicles as Haklenayasha in some traditions, and his role in the lineage represents another link in the chain that would eventually reach Bodhidharma and cross to China.`,
+Dumoulin notes that the names in the immediate lead-up to Siṃha Bhikṣu and the persecution narrative function compositionally to set the stage for the lineage's dramatic late-Indian arc; Haklenayaśas's role is structural[3].`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_dumoulin_india_china",
+        pageOrSection: "Vol. 1, ch. 1 — Haklenayaśas in the Chan list",
+      },
+      {
+        index: 2,
+        sourceId: "src_princeton_dict_buddhism",
+        pageOrSection: "s.v. \"Haklenayaśas\"",
+      },
+      {
+        index: 3,
+        sourceId: "src_dumoulin_india_china",
+        pageOrSection: "Vol. 1, ch. 1 — composition of the late-Indian arc leading to Siṃha",
+      },
+      {
+        index: 4,
+        sourceId: "src_chan_ancestors_pdf",
+        pageOrSection: "Lineage chart, generation 23",
+      },
+    ],
   },
   {
     slug: "simha",
-    content: `Simha, the twenty-fourth patriarch, was martyred for his faith and is one of the most dramatic figures in the Indian lineage. His name means "lion," a title sometimes applied to the Buddha himself. According to Chan records, he was beheaded by a king hostile to Buddhism, and at his death milk rather than blood flowed from his neck—a miracle interpreted as a sign of his complete purity and realization.
+    content: `Siṃha Bhikṣu (also Siṃhabodhi or Siṃhayāśas), twenty-fourth patriarch in the Chan list, is among the more substantively narrated figures of the later Indian lineage[1]. The earliest extended account of him appears in the Chinese Buddhist historical compilation *Fù Fǎ Zàng Yīnyuán Zhuàn* (The Causes and Conditions of the Transmission of the Dharma-Treasury), a fifth-century translation that records the chain of Indian masters extending into Sarvāstivādin scholastic circles[2].
 
-Simha represents the extreme test of the lineage: the willingness to give one's life rather than abandon the transmission. His death did not end the lineage but affirmed its indestructibility. He had already transmitted the essence of awakening to Vasasita before his martyrdom, and that transmission carried forward through the remaining Indian patriarchs to Prajnatara, who would become the teacher of Bodhidharma.`,
+According to the Chan account, Siṃha taught in Kashmir and was martyred during a persecution under the Hūṇa king Mihirakula (early 6th c.), a ruler widely associated in Indian sources with the violent suppression of Buddhism[3]. The traditional narrative states that when Siṃha was beheaded, milk flowed from the wound in place of blood—an iconographic motif used in Indian and Chinese hagiography to indicate the spiritual purity of the martyr; the detail derives from a stock Buddhist topos and is not independently attested[4].
+
+His martyrdom marks a turning point in the Chan reckoning. The lineage's continuation through Vasiṣṭha (Vasasita), Puṇyamitra, and finally Prajñātāra (Bodhidharma's teacher) is presented as a transmission that survived under conditions of persecution—a theme that resonates with the later experience of Chinese Chan under the suppressions of the Northern Zhou (574–578) and the Tang Huichang persecution (845)[5]. Dumoulin notes that this narrative arc is structurally important for the Chan self-understanding: the lineage is not the property of any state and cannot be destroyed by political force.`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_princeton_dict_buddhism",
+        pageOrSection: "s.v. \"Siṃha Bhikṣu\"",
+      },
+      {
+        index: 2,
+        sourceId: "src_dumoulin_india_china",
+        pageOrSection: "Vol. 1, ch. 1 — the Fù Fǎ Zàng Yīnyuán Zhuàn and the late Indian lineage",
+      },
+      {
+        index: 3,
+        sourceId: "src_princeton_dict_buddhism",
+        pageOrSection: "s.v. \"Mihirakula\"",
+      },
+      {
+        index: 4,
+        sourceId: "src_dumoulin_india_china",
+        pageOrSection: "Vol. 1, ch. 1 — the milk-from-the-wound topos",
+      },
+      {
+        index: 5,
+        sourceId: "src_dumoulin_india_china",
+        pageOrSection: "Vol. 1, ch. 1 — martyrdom and the indestructibility-of-the-Dharma topos",
+      },
+      {
+        index: 6,
+        sourceId: "src_chan_ancestors_pdf",
+        pageOrSection: "Lineage chart, generation 24",
+      },
+    ],
   },
   {
     slug: "vasasita",
-    content: `Vasasita, the twenty-fifth patriarch, received the transmission from Simha and continued the lineage after the period of persecution that had claimed his teacher's life. He is remembered as a teacher who emphasized the indestructibility of the true Dharma—that no external force can destroy what is not a thing, what is the ground of all things.
+    content: `Vasiṣṭha (transliterated *Vasasita* in the Chinese sources), twenty-fifth patriarch in the Chan list, is named in the *Jǐngdé Chuándēng Lù* as the disciple of Siṃha Bhikṣu and the teacher of Puṇyamitra[1]. He belongs to the legendary stratum of the late Indian lineage; the traditional accounts emphasize the continuity of transmission through the period of the Mihirakula persecution rather than supplying independently verifiable biographical detail.
 
-His transmission to Punyamitra continued the chain through difficult circumstances, and his role in the lineage embodies the resilience that the Chan tradition identifies as a quality of genuine realization: not invulnerability to circumstances, but the freedom that does not depend on circumstances.`,
+Dumoulin notes that the post-Siṃha section of the lineage functions narratively as a survival sequence: the Dharma is preserved through three further generations under conditions of political hostility, and is then released eastward by Prajñātāra to Bodhidharma[2].`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_dumoulin_india_china",
+        pageOrSection: "Vol. 1, ch. 1 — Vasiṣṭha/Vasasita in the Chan list",
+      },
+      {
+        index: 2,
+        sourceId: "src_dumoulin_india_china",
+        pageOrSection: "Vol. 1, ch. 1 — the post-Siṃha survival sequence",
+      },
+      {
+        index: 3,
+        sourceId: "src_chan_ancestors_pdf",
+        pageOrSection: "Lineage chart, generation 25",
+      },
+    ],
   },
   {
     slug: "punyamitra",
-    content: `Punyamitra, the twenty-sixth patriarch, received the transmission from Vasasita and passed it to Prajnatara, who would become the teacher of Bodhidharma. His name means "friend of merit," and he is portrayed as a teacher of great warmth and accessibility. He is said to have traveled widely, teaching in various regions of India and maintaining contact with the diverse Buddhist communities of his time.
+    content: `Puṇyamitra ("Friend of Merit"), twenty-sixth patriarch in the Chan list, is named in the *Jǐngdé Chuándēng Lù* as the disciple of Vasiṣṭha and the teacher of Prajñātāra, the master of Bodhidharma[1]. Like the other late-Indian figures, he belongs to the legendary stratum of the lineage and is not independently attested.
 
-Punyamitra's significance lies above all in his recognition of Prajnatara, the last great figure of the Indian lineage before the transmission would cross to China. His ability to see through the forms of brilliance and accomplishment to the essential readiness of a student represents the highest function of the teacher in the Chan understanding.`,
+Dumoulin notes that Puṇyamitra's sole narrative function in the *Jǐngdé Chuándēng Lù* and the *Bǎolín Zhuàn* is the recognition and ordination of Prajñātāra; the placement positions him as the immediate predecessor of the figure who will release the transmission eastward[2].`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_dumoulin_india_china",
+        pageOrSection: "Vol. 1, ch. 1–2 — Puṇyamitra as preceptor of Prajñātāra",
+      },
+      {
+        index: 2,
+        sourceId: "src_dumoulin_india_china",
+        pageOrSection: "Vol. 1, ch. 2 — the Bǎolín Zhuàn's narrative arrangement of the late Indian section",
+      },
+      {
+        index: 3,
+        sourceId: "src_chan_ancestors_pdf",
+        pageOrSection: "Lineage chart, generation 26",
+      },
+    ],
   },
   {
     slug: "prajnatara",
-    content: `Prajnatara, the twenty-seventh and final Indian patriarch before the transmission passed to China, was the teacher of Bodhidharma. He is described in Chan sources as an accomplished master of great depth who recognized Bodhidharma among the sons of a king and perceived immediately his extraordinary capacity. Prajnatara's teaching of Bodhidharma lasted many years, culminating in the full transmission of the patriarchal mind.
+    content: `Prajñātāra is the twenty-seventh and final Indian patriarch in the Chan list before the transmission passes to China through Bodhidharma[1]. The earliest extended account of him appears in the *Lìdài Fǎbǎo Jì* (Record of the Dharma-Jewel through the Ages, c. 774) and is repeated and elaborated in the *Bǎolín Zhuàn* (Record of the Bao-lin Monastery, 801) and the *Jǐngdé Chuándēng Lù* (1004)[2]. He is described as a master from eastern India who received transmission from Puṇyamitra, traveled and taught widely, and recognized in the third son of a south Indian king the capacity that would carry the Dharma to China.
 
-Prajnatara is said to have prophesied that Bodhidharma would travel to China and that his teaching there would bear great fruit, though not immediately. He instructed Bodhidharma to wait until his own death before departing, and the timing was precise: Bodhidharma's journey westward across the Himalayas and into China brought the direct transmission of the Chan lineage to East Asia. With Prajnatara, the Indian lineage of twenty-eight patriarchs reached its completion, and a new chapter in the history of awakening began.`,
+The narrative of Prajñātāra's encounter with the young Bodhidharma is highly stylized. The boy is depicted displaying a precocious understanding of the *Diamond Sūtra*; Prajñātāra tested him with a series of questions and found him already deeply realized; ordination, training, and transmission followed[3]. Prajñātāra is then said to have foretold that, sixty-seven years after his own death, his disciple would carry the lamp east to a land "beyond the sea." Bodhidharma's eventual departure for Liang-dynasty China is presented as the fulfillment of this charge.
+
+The historicity of Prajñātāra is doubtful. John McRae argues that the figure is best understood as a literary construction designed to give Bodhidharma's mission a properly Indian commission and to tie the Chinese lineage to the southern, Mahāyāna-aligned regions of India where the *Prajñāpāramitā* texts had emerged[4]. Within the Chan self-understanding, Prajñātāra represents the moment at which the Indian transmission, having passed through twenty-eight generations, releases its impulse eastward[5].`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_dumoulin_india_china",
+        pageOrSection: "Vol. 1, ch. 2 — Prajñātāra and the eastward transmission",
+      },
+      {
+        index: 2,
+        sourceId: "src_dumoulin_india_china",
+        pageOrSection: "Vol. 1, ch. 2 — the Lìdài Fǎbǎo Jì, Bǎolín Zhuàn, and Jǐngdé Chuándēng Lù as sources",
+      },
+      {
+        index: 3,
+        sourceId: "src_princeton_dict_buddhism",
+        pageOrSection: "s.v. \"Prajñātāra\" — the encounter with the young Bodhidharma",
+      },
+      {
+        index: 4,
+        sourceId: "src_mcrae_seeing_through_zen",
+        pageOrSection: "ch. 2 — the literary construction of the Indian-Chinese transition",
+      },
+      {
+        index: 5,
+        sourceId: "src_chan_ancestors_pdf",
+        pageOrSection: "Lineage chart, generation 27",
+      },
+    ],
   },
   {
     slug: "jianzhi-sengcan",
