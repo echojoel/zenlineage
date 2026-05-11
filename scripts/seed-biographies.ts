@@ -1645,21 +1645,82 @@ After the Southern School's rise to orthodoxy, Puji and the Northern School were
   },
   {
     slug: "yaoshan-weiyan",
-    content: `Yaoshan Weiyan was a student of Shitou Xiqian who also studied with Mazu Daoyi, bridging the two great branches of Tang dynasty Chan. He settled on Mount Yao and established a community known for its rigorous practice and spare, penetrating teaching style. His dialogues reveal a master who combined Shitou's subtlety with a directness that left no room for evasion.
+    content: `Yaoshan Weiyan (藥山惟儼, 751–834) is recorded in the Tang biographical compilations and in the *Jǐngdé Chuándēng Lù* as the heir of Shitou Xiqian who also spent time studying with Mazu Daoyi — one of the few Tang masters whose biographies place them at both of the great Hongzhou and Qingyuan streams[1]. After leaving Mazu's community he settled on Mount Yao (Yaoshan, in modern Hunan), where his sparse, probing style and his refusal to court official patronage made the mountain a magnet for serious practitioners[2].
 
-Yaoshan is perhaps best known for the exchange in which a monk asked what he was thinking while sitting so still. He replied, "I'm thinking of not-thinking." The monk asked how one thinks of not-thinking, and Yaoshan said, "Non-thinking." This exchange became a foundational text for the Caodong tradition's understanding of zazen—a practice that is neither the pursuit of thinking nor its suppression, but something altogether beyond that duality. His principal students included Daowu Yuanzhi and Yunyan Tansheng, through whom the Caodong lineage descended.`,
+The most consequential of his exchanges for later Zen is preserved in the *Jǐngdé Chuándēng Lù*: a monk asked what he was thinking as he sat so still, and Yaoshan answered, "I think of not-thinking" (思量箇不思量底); pressed on how one thinks of not-thinking, he replied, "*Hishiryō* — beyond thinking" (非思量)[3]. Dōgen quotes this dialogue almost verbatim at the climax of the *Fukan Zazengi* and again in the *Zazenshin*, anchoring the Sōtō understanding of *shikantaza* in Yaoshan's formula[4]. Yaoshan's principal heirs Yunyan Tansheng and Daowu Yuanzhi carried his line forward; through Yunyan it reached Dongshan Liangjie and became the Caodong / Sōtō school proper.`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_dumoulin_india_china",
+        pageOrSection: "Vol. 1, ch. on Shitou Xiqian and the Qingyuan lineage",
+      },
+      {
+        index: 2,
+        sourceId: "src_ferguson_zen_chinese_heritage",
+        pageOrSection: "Yaoshan Weiyan — biographical entry and encounter dialogues",
+      },
+      {
+        index: 3,
+        sourceId: "src_wikipedia",
+        pageOrSection: "Yaoshan Weiyan — \"thinking of not-thinking\" exchange (Jǐngdé Chuándēng Lù)",
+      },
+      {
+        index: 4,
+        sourceId: "src_dogen_fukanzazengi",
+        pageOrSection: "Fukan Zazengi — citation of the Yaoshan \"non-thinking\" formula",
+      },
+    ],
   },
   {
     slug: "tianhuang-daowu",
-    content: `Tianhuang Daowu was a student of Shitou Xiqian who established a teaching center on Mount Tianhuang. He was known for his gentle and compassionate manner, in contrast to the sharp and confrontational style of some Tang dynasty Chan masters. His dialogues with Shitou illustrate a student whose deepening was gradual and thorough.
+    content: `Tianhuang Daowu (天皇道悟, 748–807) is recorded in the *Jǐngdé Chuándēng Lù* as a Dharma heir of Shitou Xiqian who taught at Tianhuang Temple in Jingzhou (modern Hubei)[1]. The Song-era lamp records describe a student whose realisation matured slowly under Shitou and who, in contrast to the shock-tactics of his Mazu-line contemporaries, was remembered for a gentler, more reticent style of instruction[2].
 
-Tianhuang is particularly associated with the transmission of teaching to Longtan Chongxin, who would in turn become the teacher of Deshan Xuanjian. This makes Tianhuang an essential link between Shitou's lineage and the later Deshan-Xuefeng tradition that produced the Yunmen and Fayan schools. The transmission records describe him as a master of quiet depth, one who carried the Dharma without fanfare and planted the seeds of a vast lineage.`,
+Tianhuang's place in Chan history rests on a single decisive link: his transmission to Longtan Chongxin, the teacher of Deshan Xuanjian. Through Deshan and his student Xuefeng Yicun, the Tianhuang line gave rise to the Yunmen and Fayan houses, two of the canonical Five Houses of late-Tang and early-Song Chan[3]. Modern scholarship is aware of the so-called "two Daowus" problem — a Song-period polemic over whether the line through Longtan in fact descends from Tianhuang Daowu or from a separate Tianwang Daowu (天王道悟) — but the standard genealogy, codified in the *Wǔdēng Huìyuán*, continues to treat Tianhuang Daowu as the recognised patriarch[4].`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_dumoulin_india_china",
+        pageOrSection: "Vol. 1, ch. on Shitou's heirs",
+      },
+      {
+        index: 2,
+        sourceId: "src_ferguson_zen_chinese_heritage",
+        pageOrSection: "Tianhuang Daowu — biographical entry",
+      },
+      {
+        index: 3,
+        sourceId: "src_dumoulin_india_china",
+        pageOrSection: "Vol. 1, ch. on the rise of the Five Houses",
+      },
+      {
+        index: 4,
+        sourceId: "src_wikipedia",
+        pageOrSection: "Tianhuang Daowu — the \"two Daowus\" lineage controversy",
+      },
+    ],
   },
   {
     slug: "danxia-tianran",
-    content: `Danxia Tianran was one of the most colorful figures of Tang dynasty Chan, a student of Shitou Xiqian who is best remembered for the famous incident in which he burned a wooden Buddha statue to warm himself on a cold night. When the horrified temple abbot protested, Danxia said he was looking for sacred relics in the ashes. The abbot asked how a wooden statue could contain relics, and Danxia said, "Then why are you upset? Hand me the other two Buddhas to burn." This story became a Chan archetype for the teaching that no form, however sacred, should be confused with the living reality it represents.
+    content: `Danxia Tianran (丹霞天然, 739–824) was one of the most striking figures of Tang Chan. The standard biographical sources — the *Sòng Gāosēng Zhuàn* and the *Jǐngdé Chuándēng Lù* — describe him as a Confucian scholar travelling to Chang'an to sit the civil-service examinations when a fellow traveller suggested that "becoming a Buddha is better than becoming an official"; he turned aside, presented himself first to Mazu Daoyi, was sent on to Shitou Xiqian, and there received transmission[1].
 
-Before coming to Shitou, Danxia had been a Confucian scholar on his way to the civil service examinations when he encountered a Chan practitioner who told him that becoming a Buddha was superior to becoming an official. He detoured to Mazu Daoyi, who sent him to Shitou. His teaching emphasized the radical freedom of one who has let go of all attachment, including attachment to religious forms and images.`,
+He is best remembered for the episode preserved in the lamp records and recycled in dozens of later Chan texts: stopping at Huilin Temple on a cold night, Danxia took a wooden Buddha statue from the hall and burned it for warmth. When the abbot protested, he said he was looking for *śarīra* (sacred relics) in the ashes; told that a wooden statue contained none, he replied, "Then why are you upset? Bring me the other two to burn as well"[2]. The story became a Chan *locus classicus* for the doctrine that no form, however sacred, should be confused with the awakening it points to, and Linji-line teachers from Linji Yixuan onward cite it as authoritative when warning against attachment to images[3].`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_dumoulin_india_china",
+        pageOrSection: "Vol. 1, ch. on Shitou Xiqian and his Dharma heirs",
+      },
+      {
+        index: 2,
+        sourceId: "src_ferguson_zen_chinese_heritage",
+        pageOrSection: "Danxia Tianran — burning-the-Buddha episode",
+      },
+      {
+        index: 3,
+        sourceId: "src_welter_linji",
+        pageOrSection: "Linji Lu — reception of the Danxia / burning-the-Buddha trope",
+      },
+    ],
   },
   {
     slug: "cuiwei-wuxue",
@@ -1681,9 +1742,31 @@ Longtan's most famous teaching moment occurred with Deshan, who had come south a
   },
   {
     slug: "daowu-yuanzhi",
-    content: `Daowu Yuanzhi was a student of Yaoshan Weiyan and the teacher of Shishuang Qingzhu. He is known for a famous encounter with his Dharma brother Yunyan Tansheng concerning the bodhisattva of compassion. Daowu asked Yunyan, "What does the Bodhisattva of Great Compassion use so many hands and eyes for?" Yunyan replied, "It is like someone reaching behind for a pillow in the night." Daowu said, "I understand." This exchange about the unselfconscious nature of compassion—reaching without deliberation—became a celebrated koan.
+    content: `Daowu Yuanzhi (道吾圓智, 769–835) was the Dharma heir of Yaoshan Weiyan and the teacher of Shishuang Qingzhu, holding one of the two main lines of descent from Yaoshan alongside his fellow-student Yunyan Tansheng[1]. He spent most of his teaching career at Mount Daowu in Tanzhou (modern Hunan); the *Jǐngdé Chuándēng Lù* preserves a dense set of encounter dialogues between Daowu and Yunyan, often read as the two heirs sharpening each other's understanding of their teacher's "non-thinking" style of practice[2].
 
-Daowu and Yunyan are often presented as complementary dharma brothers whose exchanges reveal the deepening that occurs between practitioners of equal capacity. Their relationship modeled for later generations the vital role of spiritual friendship in Chan practice, where insight is sharpened not only through the teacher-student relationship but through the mutual inquiry of peers.`,
+The most influential of these exchanges is the dialogue on the bodhisattva of compassion preserved as Case 89 of the *Blue Cliff Record* and Case 54 of the *Book of Serenity*: Daowu asks, "What does the Bodhisattva of Great Compassion use so many hands and eyes for?" Yunyan replies, "It is like someone reaching back in the night for a pillow"; Daowu answers, "I understand," and Yunyan presses him to say what he has understood[3]. The exchange — read by both Caodong and Linji commentators as a teaching on action without deliberation — became one of the most cited dialogues in the koan literature, and Daowu's line through Shishuang Qingzhu carried the Yaoshan stream into the late ninth century[4].`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_dumoulin_india_china",
+        pageOrSection: "Vol. 1, ch. on Yaoshan's heirs and the early Caodong line",
+      },
+      {
+        index: 2,
+        sourceId: "src_ferguson_zen_chinese_heritage",
+        pageOrSection: "Daowu Yuanzhi — biographical entry and Daowu–Yunyan exchanges",
+      },
+      {
+        index: 3,
+        sourceId: "src_blue_cliff_record_shaw_1961",
+        pageOrSection: "Case 89 — The Bodhisattva of Great Compassion (Daowu and Yunyan)",
+      },
+      {
+        index: 4,
+        sourceId: "src_book_of_serenity",
+        pageOrSection: "Case 54 — Yunyan's \"Great Compassion\"",
+      },
+    ],
   },
   {
     slug: "chuanzi-decheng",
@@ -1693,15 +1776,49 @@ Chuanzi had only one dharma heir: Jiashan Shanhui, whom Daowu Yuanzhi sent to hi
   },
   {
     slug: "jiashan-shanhui",
-    content: `Jiashan Shanhui was a student of Chuanzi Decheng, the Boat Monk, who received his awakening through the dramatic encounter at the Huating River crossing. Before meeting Chuanzi, Jiashan had been a well-known lecturer, but Daowu Yuanzhi exposed the limitations of his merely intellectual understanding. This sent him to Chuanzi, whose radical teaching methods—capsizing the boat and striking his student—shattered Jiashan's remaining conceptual framework.
+    content: `Jiashan Shanhui (夾山善會, 805–881) is recorded in the *Jǐngdé Chuándēng Lù* and the *Zǔtáng Jí* as a former lecturer-monk whose merely intellectual understanding was exposed by Daowu Yuanzhi: when Jiashan, then well known for his expositions, claimed that "the Dharmakāya has no marks; the Dharma-eye has no flaw," Daowu directed him to seek out the ferryman Chuanzi Decheng on the Huating River[1].
 
-After his awakening, Jiashan established a thriving community on Mount Jia that became known for the thoroughness and depth of its training. He carried forward Yaoshan's lineage with a teaching that balanced the subtlety of the Qingyuan line with direct and forceful methods. His principal student was Luopu Yuanan, who would further deepen and transmit this branch of the Dharma.`,
+At that meeting Chuanzi, after a series of probing questions, capsized the boat into the water and shouted, "Speak! Speak!" — and as Jiashan began to reply, Chuanzi struck him with the oar, precipitating his awakening. Chuanzi then capsized his own boat and disappeared into the river, having transmitted his Dharma to a single heir[2]. Jiashan later settled on Mount Jia (in modern Hunan), where he established a community that became a major training centre of the Yaoshan / Qingyuan stream; his principal heir Luopu Yuanan carried the line forward, and his recorded sayings preserve the somewhat astringent style that characterised the Jiashan line through the late Tang[3].`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_ferguson_zen_chinese_heritage",
+        pageOrSection: "Jiashan Shanhui — biographical entry, Daowu's intervention",
+      },
+      {
+        index: 2,
+        sourceId: "src_dumoulin_india_china",
+        pageOrSection: "Vol. 1, ch. on the Boat Monk Chuanzi and Jiashan",
+      },
+      {
+        index: 3,
+        sourceId: "src_wikipedia",
+        pageOrSection: "Jiashan Shanhui — Mount Jia community and successors",
+      },
+    ],
   },
   {
     slug: "shishuang-qingzhu",
-    content: `Shishuang Qingzhu was a student of Daowu Yuanzhi who established a remarkable community on Mount Shishuang, known as the "dead tree hall" because its members practiced sitting meditation with such radical stillness that they appeared as lifeless as withered trees. This practice of utter non-engagement with thought and sensation was Shishuang's distinctive contribution to Chan methodology—a form of sitting so absolute that it preceded the later Caodong emphasis on silent illumination.
+    content: `Shishuang Qingzhu (石霜慶諸, 807–888) was the Dharma heir of Daowu Yuanzhi and one of the most distinctive teachers of the late-Tang Yaoshan stream. The *Jǐngdé Chuándēng Lù* describes the community he established on Mount Shishuang (in modern Hunan) as the "withered-tree hall" (枯木堂), so called because its monks were trained to sit with such radical stillness that they were said to look like "dead trees and cold ashes" — a practice that prefigures the silent-illumination (*mòzhào chán*) of the later Caodong revival[1].
 
-Shishuang's famous instruction was: "Cease and desist. Be like a censer in an ancient temple, like a length of white silk." This teaching of radical cessation—not as torpor but as the complete dropping of the discriminating mind—became foundational for the Caodong tradition. When he died, his community was so devoted to this practice that a succession crisis arose because no student would presume to claim the teacher's role. His student Jiufeng Daoqian eventually maintained the lineage.`,
+Shishuang's recorded instruction — "Cease and desist; be like a censer in an old shrine, like a length of bleached silk" — became one of the most-quoted formulae of late-Tang Caodong-stream practice, cited by Hongzhi Zhengjue and by Dōgen as an early expression of the *mòzhào / shikantaza* line of teaching[2]. The lamp records note that after his death his community faced a celebrated succession dispute resolved in favour of Jiufeng Daoqian, who declined to identify himself as Shishuang's heir until forced to do so by a public test of understanding posed by the head monk[3].`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_ferguson_zen_chinese_heritage",
+        pageOrSection: "Shishuang Qingzhu — biographical entry; \"dead-tree hall\"",
+      },
+      {
+        index: 2,
+        sourceId: "src_leighton_cultivating_empty_field",
+        pageOrSection: "Introduction — early Caodong silent-illumination antecedents",
+      },
+      {
+        index: 3,
+        sourceId: "src_dumoulin_india_china",
+        pageOrSection: "Vol. 1, ch. on the Yaoshan stream and the Shishuang succession",
+      },
+    ],
   },
   {
     slug: "jiufeng-daoqian",
@@ -1711,9 +1828,26 @@ Jiufeng is known for his teaching on the meaning of Shishuang's "cease and desis
   },
   {
     slug: "luopu-yuanan",
-    content: `Luopu Yuanan first studied with Jiashan Shanhui and then visited Linji Yixuan, making him one of the few Chan masters who deeply studied in both the Qingyuan and Linji lineages. His dialogue with Linji is notable: when Luopu presented his understanding, Linji struck him. Luopu struck back. Linji was pleased, recognizing a student who could meet force with force. But Luopu ultimately returned to the Jiashan line, carrying something of Linji's sharpness into the quieter Qingyuan stream.
+    content: `Luopu Yuanan (洛浦元安, 834–898) is one of the few Tang Chan masters whom the lamp records and the *Línjì Lù* both describe as having trained under masters in two of the great Tang lineages: he is named first as an attendant of Linji Yixuan, and then, after Linji's death, as a student of Jiashan Shanhui who received his final transmission from the Yaoshan stream[1]. The *Línjì Lù* preserves the often-cited episode in which Luopu, having presented his understanding, was struck by Linji and struck back; Linji laughed and acknowledged him — an exchange read by later commentators as one of the school's archetypal demonstrations of "host and guest" parity[2].
 
-Luopu's teaching reflected this dual inheritance. He could be gentle and probing in the manner of Jiashan, or abrupt and fierce in the manner of Linji. This breadth of method made him an effective teacher who could adapt to the needs of different students. His recorded exchanges show a master comfortable with both silence and the shout.`,
+After leaving Linji's community Luopu turned south to Jiashan, who reportedly required him to abandon his Linji-style posturing before accepting him; he settled at Mount Luopu (in modern Hunan), where his recorded sayings show a teacher comfortable using either the sharp confrontational style of Linji or the more probing dialogical method of Jiashan as the moment required[3]. His line did not flourish past the next generation, but his career provides important evidence of the late-Tang traffic between the Hongzhou / Linji and Qingyuan / Yaoshan houses before they hardened into the canonical Five Houses.`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_ferguson_zen_chinese_heritage",
+        pageOrSection: "Luopu Yuanan — biographical entry and dual training",
+      },
+      {
+        index: 2,
+        sourceId: "src_welter_linji",
+        pageOrSection: "Línjì Lù — the Luopu exchange and \"host and guest\" pedagogy",
+      },
+      {
+        index: 3,
+        sourceId: "src_dumoulin_india_china",
+        pageOrSection: "Vol. 1, ch. on cross-lineage training in late-Tang Chan",
+      },
+    ],
   },
   {
     slug: "dingzhou-shizang",
@@ -1741,9 +1875,31 @@ In one well-known exchange, Baofu and Changqing were walking together when Baofu
   },
   {
     slug: "xuansha-shibei",
-    content: `Xuansha Shibei was a student of Xuefeng Yicun who, before becoming a monk, had been an illiterate fisherman. His awakening occurred when he stubbed his toe on a rock while leaving the mountain—the sharp pain suddenly clarified everything, and he exclaimed, "Bodhidharma never came to China; the Second Patriarch never went to India." This utterance expressed the realization that the Dharma is not something imported or transmitted from elsewhere but is the immediate truth of one's own experience.
+    content: `Xuansha Shibei (玄沙師備, 835–908) is recorded in the *Sòng Gāosēng Zhuàn* and the *Jǐngdé Chuándēng Lù* as a former fisherman from Fuzhou who became one of the closest disciples of Xuefeng Yicun and inherited Xuefeng's community after a period of solitary practice on Mount Xuansha[1]. The lamp records preserve his awakening as a sudden moment of insight on the road down the mountain — recounted in the *Wúménguān* as the "Xuansha stubs his toe" episode — and the formula he is said to have spoken at that moment, "Bodhidharma never came to China; the Second Patriarch never went to India," became a *locus classicus* for the Chan claim that no Dharma is added from outside[2].
 
-Xuansha developed the teaching of the "three diseases"—the spiritual ailments that afflict practitioners who are blind, deaf, or mute to the truth. Each disease points to a different way in which practitioners remain trapped in partial understanding. His lineage through Luohan Guichen produced Fayan Wenyi, the founder of the Fayan school, making Xuansha the grandfather of an entire school of Chan. Despite his humble origins, he became one of the most penetrating teachers of the late Tang period.`,
+Xuansha is best known for the teaching of the "three invalids" (三種病人) — the blind, the deaf, and the mute — used as a diagnostic of the partial understandings into which practitioners settle; the formula is preserved in the *Línjì Lù* commentaries and recycled in koan collections from the *Bìyán Lù* onward[3]. His Dharma was carried forward through Luohan Guichen to Fayan Wenyi, the founder of the Fayan house, making Xuansha the immediate predecessor of one of the canonical Five Houses[4].`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_dumoulin_india_china",
+        pageOrSection: "Vol. 1, ch. on Xuefeng's community and the rise of the Fayan house",
+      },
+      {
+        index: 2,
+        sourceId: "src_ferguson_zen_chinese_heritage",
+        pageOrSection: "Xuansha Shibei — biographical entry; \"stubbed toe\" awakening",
+      },
+      {
+        index: 3,
+        sourceId: "src_blue_cliff_record_shaw_1961",
+        pageOrSection: "Case 88 — Xuansha and the three invalids",
+      },
+      {
+        index: 4,
+        sourceId: "src_wikipedia",
+        pageOrSection: "Xuansha Shibei — successors and the Fayan house",
+      },
+    ],
   },
   {
     slug: "luohan-guichen",
@@ -2312,9 +2468,31 @@ Zhimen's teaching represents the Guiyang school in its mature form, when its met
 
   {
     slug: "caoshan-benji",
-    content: `Caoshan Benji was a student of Dongshan Liangjie and the co-founder of the Caodong school, which takes its name from the first characters of Dongshan (Cao) and Caoshan (Cao). He further developed Dongshan's Five Ranks teaching into an elaborate dialectical system that mapped the relationship between the absolute and the relative, providing the Caodong school with its distinctive philosophical framework.
+    content: `Caoshan Benji (曹山本寂, 840–901) was the principal Dharma heir of Dongshan Liangjie and traditionally treated as the co-founder of the Caodong (曹洞) school, the name combining the syllable 曹 of Caoshan's mountain (Mount Cao, in modern Jiangxi) with the 洞 of his teacher Dongshan[1]. The order in which the two syllables are joined — student before teacher — is unusual; commentators since the Song have explained it as a euphonic choice, and modern scholars note that 曹 may also evoke Caoxi (曹溪), the mountain of the Sixth Patriarch Huineng, anchoring the school's claim of descent from him[2].
 
-Caoshan's approach to the Five Ranks was more systematic and intellectually rigorous than Dongshan's original poetic formulations. He developed detailed analyses of each rank and their interrelationships, creating a comprehensive map of the stages through which practitioner and reality come into alignment. His teaching attracted students who were drawn to the subtlety and depth of this approach, and his lineage became one of the two main branches of the Caodong school.`,
+Caoshan's chief contribution was the systematisation of Dongshan's "Five Ranks" (五位) — the dialectical scheme describing the interplay of the absolute (zheng 正) and the relative (pian 偏) — into a more elaborate analytic framework, set out in his recorded sayings and surviving in the *Caoshan Benji Chanshi Yulu*[3]. His mountain attracted a large following during the late ninth century, but his line did not produce comparable successors and was largely absorbed back into the main Dongshan line through Yunju Daoying; nevertheless, the school as a whole continued to bear his name, and modern Sōtō Zen historiography treats him as co-equal with Dongshan in the founding of Caodong[4].`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_dumoulin_india_china",
+        pageOrSection: "Vol. 1, ch. on Dongshan, Caoshan, and the founding of the Caodong school",
+      },
+      {
+        index: 2,
+        sourceId: "src_ferguson_zen_chinese_heritage",
+        pageOrSection: "Caoshan Benji — biographical entry; etymology of \"Caodong\"",
+      },
+      {
+        index: 3,
+        sourceId: "src_leighton_cultivating_empty_field",
+        pageOrSection: "Introduction — Five Ranks and the early Caodong synthesis",
+      },
+      {
+        index: 4,
+        sourceId: "src_wikipedia",
+        pageOrSection: "Caoshan Benji — life, Five Ranks, lineage",
+      },
+    ],
   },
   {
     slug: "yunju-daoying",
@@ -3694,9 +3872,31 @@ Second, when bandits attacked his monastery and killed him, Yantou is said to ha
   },
   {
     slug: "mahasattva-fu",
-    content: `Mahasattva Fu, also known as Fu Dashi (Great Master Fu), was a legendary Chinese Buddhist figure of the Liang dynasty who is considered a precursor of the Chan tradition. He was a layman who was recognized by Emperor Wu of Liang as a living bodhisattva. He is credited with inventing the revolving sutra case (the rotating bookshelf used in Buddhist temples) and with teaching a form of direct pointing that anticipated Chan methods.
+    content: `Fu Dashi (傅大士, "Great Master Fu"), also called Fu Xi or Shanhui Dashi, was a Liang-dynasty lay practitioner whom later Chan tradition retrospectively claimed as one of its precursors. Born in 497 in Yiwu (modern Zhejiang), he combined Buddhist devotion with Daoist and folk elements; the Liang emperor Wu (r. 502–549), a major Buddhist patron, is reported in the lamp records to have invited him repeatedly to the capital and treated him as a living bodhisattva[1]. Tradition credits him with the invention of the *zhuanlunzang* (轉輪藏), the revolving sūtra repository whose rotation was held to confer the merit of reading its scriptures, and the device became standard furniture in later East Asian temple libraries[2].
 
-Mahasattva Fu's most famous encounter occurred when Emperor Wu invited him to lecture on the Diamond Sutra. He ascended the lecture platform, struck the table once, and descended without saying a word. The emperor was bewildered, but his adviser Zhi Gong said, "The Great Teacher has finished his discourse." This wordless lecture became an early model for the Chan style of teaching through action rather than explanation.`,
+The Chan transmission-of-the-lamp literature preserves a celebrated anecdote in which Emperor Wu invited Fu Dashi to lecture on the *Diamond Sūtra*: he ascended the high seat, struck the lecture-table once with his ruler, and descended without speaking, whereupon the court monk Baozhi (寶誌) declared that "the Mahāsattva has finished expounding the sūtra"[3]. The episode — already in circulation by the Tang and prominent in the *Jǐngdé Chuándēng Lù* — became one of the earliest models for the "transmission outside the scriptures" trope that Chan writers retrojected onto pre-Chan figures, regardless of how historical its core may be[4].`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_wikipedia",
+        pageOrSection: "Fu Dashi — biography and Liang court connections",
+      },
+      {
+        index: 2,
+        sourceId: "src_princeton_dict_buddhism",
+        pageOrSection: "s.v. \"zhuanlunzang\" (revolving sūtra repository)",
+      },
+      {
+        index: 3,
+        sourceId: "src_dumoulin_india_china",
+        pageOrSection: "Vol. 1, ch. on the legendary precursors of Chan",
+      },
+      {
+        index: 4,
+        sourceId: "src_mcrae_seeing_through_zen",
+        pageOrSection: "ch. 1 — Chan's invention of its pre-history",
+      },
+    ],
   },
   {
     slug: "ruiyan-shiyan",
@@ -3706,9 +3906,26 @@ Ruiyan's practice raises the question: who is calling, and who is answering? Is 
   },
   {
     slug: "jingzhong-shenhui",
-    content: `Jingzhong Shenhui was an early Chan figure associated with the Jingzhong school, one of the regional schools of Chan that flourished in Sichuan during the Tang dynasty. The Jingzhong school developed its own distinctive approach to practice that drew on various strands of Chinese Buddhism and local religious traditions.
+    content: `Jingzhong Shenhui (淨眾神會, 720–794) — not to be confused with the more famous Heze Shenhui (684–758) of the Southern School — was the successor of Wuxiang at Jingzhong Temple in Chengdu and the third-generation leader of the Sichuan Jingzhong lineage[1]. Early-Chan documentation, especially the Dunhuang *Lìdài Fǎbǎo Jì*, treats him as Wuxiang's principal heir and as a competing claimant in eighth-century debates over the criteria for orthodox Chan transmission[2].
 
-Shenhui's teaching reflected the diversity of early Chan, which was far more varied than the later orthodoxy of the Five Houses suggests. Regional schools like the Jingzhong tradition developed independent methods and lineages that contributed to the rich tapestry of Chinese Buddhist practice during the Tang dynasty.`,
+Shenhui of Jingzhong is one of two distinct Tang Chan masters bearing the same Dharma name, and modern scholarship from Yanagida Seizan onward has worked to keep them separate: the Sichuanese Shenhui inherited the Jingzhong formula of *wuyi*, *wunian*, *mowang*, while the homonymous Heze Shenhui championed Huineng as Sixth Patriarch in the capital[3]. His career illustrates how thoroughly the Sichuan branch participated in — and was eventually overshadowed by — the polemics that produced the Southern School orthodoxy.`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_dumoulin_india_china",
+        pageOrSection: "Vol. 1, ch. on the Jingzhong lineage",
+      },
+      {
+        index: 2,
+        sourceId: "src_mcrae_seeing_through_zen",
+        pageOrSection: "ch. 2 — Dunhuang Chan texts and competing transmission claims",
+      },
+      {
+        index: 3,
+        sourceId: "src_wikipedia",
+        pageOrSection: "Wuxiang / Jingzhong school — successors",
+      },
+    ],
   },
   {
     slug: "longji-shaoxiu",
@@ -3790,21 +4007,72 @@ Kewen's teaching reflected the mature Song dynasty Chan tradition, which had dev
   },
   {
     slug: "jingzhong-wuxiang",
-    content: `Jingzhong Wuxiang was a Korean-born monk who became one of the founders of the Jingzhong school of Chan in Sichuan province. He brought a synthesis of Korean Buddhist practices and Chinese Chan methods to the Sichuan region, creating a distinctive tradition that incorporated elements of various Buddhist schools.
+    content: `Wuxiang (無相, Korean: Musang, 684–762) was a Silla prince who arrived in Tang Chang'an in 728, was received by Emperor Xuanzong, and eventually travelled to Sichuan, where he became the disciple and Dharma heir of Chuji at Dechun Temple in Zizhou[1]. He later settled at Jingzhong Temple (淨眾寺) in Chengdu, from which his lineage takes its name; tradition records that he taught a community of several thousand and conducted month-long retreats centred on collective recitation, repentance, and the threefold formula transmitted from Chuji — *wuyi*, *wunian*, *mowang* ("no-recollection, no-thought, no-forgetting")[2].
 
-Wuxiang's Korean origins remind us that the Chan tradition was never purely Chinese but was shaped by the interaction of Buddhist cultures across East Asia. His establishment of the Jingzhong school in Sichuan contributed to the diversity of Tang dynasty Chan and demonstrated the tradition's capacity to absorb and integrate influences from multiple sources.`,
+Wuxiang is one of the only Korean monks named as a patriarch in any Chan transmission line. His Sichuan teaching was carried back to Tibet in the eighth century — the *sBa bzhed* and other Tibetan chronicles mention an Indian-Chan-style master called *Kim Hwa-shang*, very plausibly Wuxiang — and into Korea, where his memory persisted in Seon historiography[3]. Through his successors Wuzhu (founder of the Bao-Tang school) and the Sichuan Shenhui, his line played a notable role in early eighth-century debates over the proper form of Chan practice.`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_wikipedia",
+        pageOrSection: "Wuxiang / Musang — Jingzhong school of Chan",
+      },
+      {
+        index: 2,
+        sourceId: "src_dumoulin_india_china",
+        pageOrSection: "Vol. 1, ch. on the Sichuan / Jingzhong school of Chan",
+      },
+      {
+        index: 3,
+        sourceId: "src_buswell_formation",
+        pageOrSection: "Korean monks in Tang China and the Sichuan transmission",
+      },
+    ],
   },
   {
     slug: "zizhou-chuji",
-    content: `Zizhou Chuji was a master associated with the Jingzhong school of Chan in Sichuan. He maintained the tradition's distinctive methods and contributed to the school's development during the Tang dynasty.
+    content: `Chuji (處寂, 669–736), known to later tradition as "Master Tang" because his lay surname was Tang, was the chief disciple of Zhishen at Dechun Temple in Zizhou and the link between the early Sichuan Chan generation and the Jingzhong school of Wuxiang[1]. Early-Chan sources recovered at Dunhuang — most importantly the *Lìdài Fǎbǎo Jì* — place him within the Hongren-descended Sichuan lineage and credit him with several decades of teaching and ordaining monks in the region[2].
 
-Chuji's place in the Jingzhong lineage reflects the diversity of early Chan, which encompassed many regional schools with their own distinctive approaches to practice. The Jingzhong school's development in Sichuan contributed to the rich tapestry of Tang dynasty Buddhism.`,
+Chuji's historical importance lies almost entirely in his role as a bridge: he received transmission from Zhishen, and in turn gave the robe and the teaching of "no-recollection, no-thought, no-forgetting" (無憶、無念、莫忘) to the Korean-born Musang (Wuxiang), who would carry the line forward as the founder of the Jingzhong school proper at Chengdu[3]. The doctrinal formula associated with him through Wuxiang is one of the earliest attested specifically Sichuanese Chan teachings.`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_dumoulin_india_china",
+        pageOrSection: "Vol. 1, ch. on the Sichuan / Jingzhong lineage",
+      },
+      {
+        index: 2,
+        sourceId: "src_mcrae_seeing_through_zen",
+        pageOrSection: "Lìdài Fǎbǎo Jì and the Sichuan transmission",
+      },
+      {
+        index: 3,
+        sourceId: "src_wikipedia",
+        pageOrSection: "Chuji / Tang Heshang — Sichuan Chan school",
+      },
+    ],
   },
   {
     slug: "zizhou-zhishen",
-    content: `Zizhou Zhishen was a master in the Jingzhong school of Chan who taught in the Zizhou region of Sichuan. He maintained the school's distinctive practices and contributed to the transmission of Chan in the Sichuan region during the Tang dynasty.
+    content: `Zhishen (智詵, 609–702) is named in the *Lìdài Fǎbǎo Jì* and other early Sichuan Chan documents as a direct disciple of the Fifth Patriarch Hongren who, on leaving Mount Huangmei, settled at Dechun Temple in Zizhou (modern Sichuan) and transplanted East Mountain teaching to the southwest[1]. He thus stands at the head of the line of teachers — Zhishen → Chuji → Wuxiang → Wuzhu / Shenhui — that twentieth-century scholarship has called the "Sichuan school" or the Bao-Tang / Jingzhong stream of early Chan[2].
 
-Zhishen's role in the Jingzhong lineage represents the tradition's geographical diversity. Chan Buddhism in the Tang dynasty was not a single, unified movement but a collection of regional traditions, each with its own character and emphasis. The Jingzhong school's Sichuan-based tradition was one important strand in this diverse tapestry.`,
+Modern reconstructions, drawing on the Dunhuang manuscripts recovered in the early 1900s, treat Zhishen as a historically important figure who anchored a regional lineage of Chan distinct from the later northern (Shenxiu) and southern (Huineng) orthodoxies eventually canonised in the *Platform Sūtra*[3]. The doctrinal content of his teaching is poorly preserved, but his presence in the Hongren-disciple lists in both the *Léngqié Shīzī Jì* and the *Lìdài Fǎbǎo Jì* shows that Sichuan was an active early Chan centre well before the rise of the classical Tang houses.`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_mcrae_seeing_through_zen",
+        pageOrSection: "ch. 2 — early Chan in the Sichuan region",
+      },
+      {
+        index: 2,
+        sourceId: "src_dumoulin_india_china",
+        pageOrSection: "Vol. 1, ch. on the proto-Chan lineages",
+      },
+      {
+        index: 3,
+        sourceId: "src_wikipedia",
+        pageOrSection: "Zhishen — Sichuan Chan / Bao-Tang school",
+      },
+    ],
   },
   {
     slug: "shinchi-kakushin",
