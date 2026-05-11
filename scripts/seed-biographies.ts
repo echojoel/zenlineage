@@ -2485,27 +2485,105 @@ The most-cited episode in his record is the "polishing the tile" exchange with h
   },
   {
     slug: "xitang-zhizang",
-    content: `Xitang Zhizang was one of the three great students of Mazu Daoyi, alongside Baizhang Huaihai and Nanquan Puyuan. He taught at Xitang (West Hall) and was known for a deep and quiet style that complemented the more dramatic approaches of his dharma brothers. The three students are often mentioned together as exemplifying different facets of Mazu's teaching.
+    content: `Xitang Zhizang (西堂智藏, 735–814) was, with Baizhang Huaihai and Nanquan Puyuan, one of the three principal Dharma heirs of Mazu Daoyi who collectively defined the mature shape of the Hongzhou house[1]. He served as abbot at the Kaiyuan-si in Jiangxi, the very temple where Mazu had taught, and was for several decades the institutional anchor of the Mazu community after the founder's death in 788[2].
 
-In one famous exchange, Mazu asked Xitang, "What is it?" Xitang struck the ground. On another occasion, a monk asked Xitang about the meaning of Bodhidharma's coming from the West. Xitang replied, "What is the meaning of the question you have just asked me?" This turning of the question back on the questioner is characteristic of the Hongzhou school's emphasis on the immediacy of the questioner's own mind as the only place where truth can be found.`,
+Xitang is also the master through whom the Hongzhou line first reached Korea: the two future founders of Korean Nine-Mountain Schools, Tooui (doui, founder of Gajisan) and Hyech'ŏl (founder of Tongnisan), both received transmission from him in the early ninth century and carried his line back to Silla, making Xitang the proximate ancestor of two of the foundational Korean Seon schools[3].`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_poceski_ordinary_mind",
+        pageOrSection: "ch. on Mazu's three principal heirs",
+      },
+      {
+        index: 2,
+        sourceId: "src_ferguson_zen_chinese_heritage",
+        pageOrSection: "Xitang Zhizang — biographical entry; Kaiyuan-si abbacy",
+      },
+      {
+        index: 3,
+        sourceId: "src_buswell_formation",
+        pageOrSection: "pp. 25–40 — Xitang Zhizang and the early-Korean Nine Mountain Schools",
+      },
+    ],
   },
   {
     slug: "yanguan-qian",
-    content: `Yanguan Qi'an was a student of Mazu Daoyi known for his encounter dialogues that became important koan material. He taught at Yanguan (Salt Office) and his exchanges with monks display the vivid, direct style characteristic of Mazu's lineage. His most famous encounter involves the rhinoceros fan, which appears in the Blue Cliff Record.
+    content: `Yanguan Qi'an (鹽官齊安, c. 750–842) was a Dharma heir of Mazu Daoyi who taught at Haichang-yuan in Yanguan (modern Hangzhou region), the salt-administration town from which his sobriquet derives[1]. The lamp records preserve a number of his exchanges in the characteristic Hongzhou-line style and document his relatively long abbacy in the second half of the eighth and the first half of the ninth century[2].
 
-A monk asked Yanguan to show him the rhinoceros fan. Yanguan said, "The rhinoceros fan is broken." The monk said, "Then show me the rhinoceros itself." Yanguan was silent. This exchange became a celebrated koan exploring the relationship between the symbol and what it points to—when the conventional teaching device is exhausted, can the student meet the reality directly? Yanguan's silence in response to the demand was itself the most eloquent teaching he could have offered.`,
+His best-known dialogue is the "rhinoceros fan" exchange preserved as Case 91 of the *Bìyán Lù*: a monk asks Yanguan to fetch the rhinoceros-horn fan, and on being told it is broken, asks Yanguan to bring the rhinoceros itself; Yanguan's response — silence in some recensions, a gestured assent in others — became one of the most contemplated koans on the relation between the symbol and the symbolised[3]. Yanguan also gave Dharma transmission to the Korean monk Pŏmil (Beomil), founder of the Saguelsan school in the Nine Mountain Schools of Korean Seon, adding to the Mazu line's role in seeding the Korean tradition[4].`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_poceski_ordinary_mind",
+        pageOrSection: "ch. on Mazu's heirs and the Hongzhou expansion",
+      },
+      {
+        index: 2,
+        sourceId: "src_ferguson_zen_chinese_heritage",
+        pageOrSection: "Yanguan Qi'an — biographical entry",
+      },
+      {
+        index: 3,
+        sourceId: "src_blue_cliff_record_shaw_1961",
+        pageOrSection: "Case 91 — Yanguan's rhinoceros fan",
+      },
+      {
+        index: 4,
+        sourceId: "src_buswell_formation",
+        pageOrSection: "pp. 28–35 — Yanguan and the founding of the Saguelsan school in Korea",
+      },
+    ],
   },
   {
     slug: "wufeng-changguan",
-    content: `Wufeng Changguan was a student of Mazu Daoyi who taught at Mount Wufeng (Five Peaks). He was known for his uncompromising directness and his willingness to use physical means—striking and shouting—to break through students' conceptual barriers. His teaching style prefigured the methods that would become the hallmark of the Linji school.
+    content: `Wufeng Changguan (五峰常觀, fl. early 9th c.) was a Dharma heir of Mazu Daoyi who taught at Mount Wufeng ("Five Peaks") in modern Jiangxi[1]. The lamp records preserve a small body of his exchanges, in which he uses the staff and the shout in the directly confrontational manner the Hongzhou line would pass on to the Linji house in the next generation[2].
 
-In one recorded exchange, a monk asked Wufeng about the ultimate meaning of the Buddhist teaching. Wufeng raised his staff. The monk said, "If that is the teaching, what is its meaning?" Wufeng struck him. This use of the staff as both question and answer—leaving no gap for conceptual elaboration—exemplifies the Hongzhou school's confidence that awakening is immediate and cannot be approached through progressive stages of understanding.`,
+Although the bulk of Wufeng's specific record is preserved only in summary form, his name recurs in the genealogy of the Hongzhou community as one of the secondary Mazu heirs whose communities anchored the line's regional spread through Jiangxi and the middle Yangzi during the early ninth century — the institutional substrate from which the later Guishan, Linji and other Hongzhou-stream sub-lineages descend[3].`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_ferguson_zen_chinese_heritage",
+        pageOrSection: "Wufeng Changguan — biographical entry",
+      },
+      {
+        index: 2,
+        sourceId: "src_poceski_ordinary_mind",
+        pageOrSection: "ch. on the second-generation Hongzhou teaching style",
+      },
+      {
+        index: 3,
+        sourceId: "src_dumoulin_india_china",
+        pageOrSection: "Vol. 1, ch. on the regional spread of the Hongzhou line",
+      },
+    ],
   },
   {
     slug: "muzhou-daoming",
-    content: `Muzhou Daoming, also known as Chen Zunsu, was a student of Huangbo Xiyun who spent his days making straw sandals for the poor while serving as one of the most demanding teachers of his generation. He combined radical compassion—his sandals were left anonymously at the city gate for anyone who needed them—with an almost ferocious teaching manner that tolerated no hesitation or pretense.
+    content: `Muzhou Daoming (睦州道明, 780–877), also known as Chen Zunsu (陳尊宿) after the sandal-weaving lay-name he kept on after monastic retirement, was a Dharma heir of Huangbo Xiyun and one of the most demanding teachers of the late-Tang generation[1]. After many years at Kaiyuan Temple in Muzhou (modern Zhejiang) and a period of teaching activity, he retired into the city to weave straw sandals which he distributed anonymously to the poor — the practice from which his "Sandalweaver" nickname derives[2].
 
-Muzhou is most famous for his encounter with the young Yunmen Wenyan. When Yunmen came seeking instruction, Muzhou three times slammed the gate on him. The third time, the gate caught Yunmen's leg and broke it, and in that moment of extreme pain, Yunmen experienced a deep awakening. Muzhou then sent him to Xuefeng Yicun to complete his training. This violent encounter, through which one of the greatest Chan masters was catalyzed into realization, exemplifies the tradition's conviction that true compassion can take whatever form the student's condition demands.`,
+Muzhou is best remembered as the master who broke open Yunmen Wenyan's training. The lamp records preserve the celebrated three-visits episode: when Yunmen came seeking instruction, Muzhou shut the gate on him on the first two visits; on the third Muzhou caught Yunmen's leg in the gate as he shut it, and in the shock of pain Yunmen had his decisive opening, after which Muzhou sent him on to Xuefeng Yicun to complete his training[3]. The episode is preserved in the *Yunmen Yulu*, Urs App's *Master Yunmen* anthology, and the lamp records[4].`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_ferguson_zen_chinese_heritage",
+        pageOrSection: "Muzhou Daoming / Chen Zunsu — biographical entry",
+      },
+      {
+        index: 2,
+        sourceId: "src_dumoulin_india_china",
+        pageOrSection: "Vol. 1, ch. on Huangbo's heirs and Muzhou's sandal-weaver retirement",
+      },
+      {
+        index: 3,
+        sourceId: "src_app_yunmen",
+        pageOrSection: "Introduction — Yunmen's training under Muzhou Daoming",
+      },
+      {
+        index: 4,
+        sourceId: "src_app_yunmen",
+        pageOrSection: "Translated Record — Muzhou episode in the Yunmen Yulu",
+      },
+    ],
   },
   {
     slug: "lingyun-zhiqin",
