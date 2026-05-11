@@ -3123,9 +3123,26 @@ Ryoko's work as a Soto teacher exemplifies the tradition's dual commitment to me
   },
   {
     slug: "gesshu-soko",
-    content: `Gesshu Soko was a Soto Zen master of the Edo period who contributed to the school's intellectual and spiritual vitality. He was part of a movement within Soto Zen to return to the original teachings of Dogen, which some felt had been obscured by centuries of institutional adaptation and the influence of Rinzai methods. This "return to Dogen" movement helped reinvigorate Soto practice.
+    content: `Gesshū Sōko (月舟宗胡, 1618–1696) was an Edo-period Sōtō master who, with his Dharma heir Manzan Dōhaku, led the seventeenth-century *shūtō fukko* — the "restoration of the Sōtō lineage" — that returned the school to face-to-face Dharma transmission and to the textual study of Dōgen's *Shōbōgenzō* after several centuries in which both had eroded in favour of temple-tied lineage assignment (*garanbō*)[1]. Trained at Daijō-ji in Kaga, he served as abbot there from 1666 and used the temple as the institutional base from which the reform was launched[2].
 
-Soko's emphasis on Dogen's original vision—the practice of shikantaza (just sitting) as the complete expression of awakening—represented an important corrective within the tradition. By insisting on the primacy of Dogen's teaching, he helped ensure that the contemplative heart of Soto Zen was not lost amid institutional and ritual elaboration.`,
+Gesshū's emphasis on Dōgen's *zazen* practice as the heart of Sōtō, against the literary and ritual elaborations that had grown up around it, anticipated and shaped the much larger Tokugawa-period editorial recovery of Dōgen's writings completed under Manzan and Menzan Zuihō; modern scholarship treats his Daijō-ji circle as the proximate origin of every important strand of Edo-period Sōtō reform[3].`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_bodiford_soto_medieval",
+        pageOrSection: "Conclusion — the shūtō fukko and the recovery of face-to-face transmission",
+      },
+      {
+        index: 2,
+        sourceId: "src_dumoulin_japan",
+        pageOrSection: "ch. on the seventeenth-century Sōtō revival",
+      },
+      {
+        index: 3,
+        sourceId: "src_kim_dogen",
+        pageOrSection: "Introduction — the editorial recovery of the Shōbōgenzō in Edo-period Sōtō",
+      },
+    ],
   },
   {
     slug: "gisan-tonin",
@@ -4059,21 +4076,77 @@ Muso's genius lay in his ability to express Zen understanding through the medium
   },
   {
     slug: "gudo-toshoku",
-    content: `Gudo Toshoku was a major Rinzai Zen master of the early Edo period who played an important role in reforming and revitalizing the Rinzai school before Hakuin's more comprehensive revival. He served as abbot of Myoshinji and was known for his insistence on strict monastic discipline and genuine practice over the merely formal Zen that had become prevalent in many temples.
+    content: `Gudō Tōshoku (愚堂東寔, 1577–1661) was the most important Rinzai master of the early Edo period and the principal architect of the seventeenth-century *Ōtōkan* revival that preceded Hakuin's later reforms[1]. He served three terms as abbot of Myōshin-ji and re-asserted the line's *Rinka* (forest, in-mountain) self-understanding against the Tokugawa state's pressure to integrate Zen temples into the parish-registration (*danka*) system[2].
 
-Gudo's reforms prepared the ground for Hakuin's later transformation of the Rinzai school. By reasserting the importance of authentic practice and personal realization, he helped create the conditions in which Hakuin's systematic approach to koan training could take root. His lineage through subsequent generations contributed to maintaining the Rinzai tradition's vitality during the transition to the Edo period.`,
+Gudō's principal Dharma heir Shidō Bunan in turn taught Shōju Rōjin (Dōkyō Etan), under whom Hakuin Ekaku underwent his most consequential training; so the Gudō → Bunan → Shōju → Hakuin sequence is the immediate four-generation conduit through which the rigorous-practice tradition of Myōshin-ji passed to the figure who would transform Japanese Rinzai in the eighteenth century[3].`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_dumoulin_japan",
+        pageOrSection: "ch. on the seventeenth-century Myōshin-ji revival and Gudō Tōshoku",
+      },
+      {
+        index: 2,
+        sourceId: "src_haskel_bankei",
+        pageOrSection: "Introduction — Rinka vs Gozan and the Edo-period Rinzai temples",
+      },
+      {
+        index: 3,
+        sourceId: "src_waddell_hakuin",
+        pageOrSection: "Introduction — Gudō → Bunan → Shōju → Hakuin sequence",
+      },
+    ],
   },
   {
     slug: "shido-bunan",
-    content: `Shido Bunan was a Rinzai Zen master of the early Edo period who served as an important link in the chain of transmission leading to Hakuin Ekaku. He was known for his emphasis on the practice of dying while alive—the complete extinction of the ego-self that is the prerequisite for genuine awakening. His teaching was fierce and uncompromising.
+    content: `Shidō Bunan (至道無難, 1603–1676) was the Dharma heir of Gudō Tōshoku at Myōshin-ji and is among the most-quoted Edo-period Rinzai writers, almost entirely on the strength of a single verse: *Ikinagara shinde nari hatete, omou mama ni furumaeba yoshi* — "Die while alive, and be completely dead; then do as you will, all is good"[1]. The poem, preserved in his *Sokushinki* and copied through generations of Rinzai students, became one of the standard utterances of the *Rinka* school's insistence on the primacy of complete existential transformation over technique[2].
 
-Bunan's famous verse—"Die while alive, and be completely dead. Then do whatever you will, all is good"—captures the essence of his teaching and became one of the most quoted verses in the Japanese Rinzai tradition. His student Shoju Rojin (Dokyo Etan) would become Hakuin's teacher, making Bunan the spiritual grandfather of the entire modern Rinzai school.`,
+His historical importance is also lineal: Bunan's heir Shōju Rōjin (Dōkyō Etan) was the master under whom Hakuin Ekaku underwent the harsh post-kenshō training that opened his mature realisation, so Bunan stands as Hakuin's Dharma-grandfather and the immediate forerunner of the eighteenth-century Rinzai revival[3].`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_waddell_hakuin",
+        pageOrSection: "Introduction — Shidō Bunan and the \"die while alive\" verse",
+      },
+      {
+        index: 2,
+        sourceId: "src_dumoulin_japan",
+        pageOrSection: "ch. on Shidō Bunan and the Myōshin-ji line in the early Edo",
+      },
+      {
+        index: 3,
+        sourceId: "src_waddell_hakuin",
+        pageOrSection: "Introduction — Bunan → Shōju Rōjin → Hakuin transmission",
+      },
+    ],
   },
   {
     slug: "shoju-rojin",
-    content: `Shoju Rojin, whose formal name was Dokyo Etan, was Hakuin Ekaku's most important teacher and the master responsible for deepening Hakuin's initial awakening into the mature realization that would transform the Rinzai school. He was known as "the old man of Shoju" after the hermitage where he lived and taught a small number of students with extraordinary rigor.
+    content: `Shōju Rōjin (正受老人), formal name Dōkyō Etan (道鏡慧端, 1642–1721), was the *Rinka*-tradition master who served as Hakuin Ekaku's principal teacher and the figure who broke through the young Hakuin's premature confidence in his first awakening[1]. He was the natural son of the daimyō Matsudaira Tadatomo and a maidservant; his identification as the lay-name "Old Man of Shōju-an" derives from the small hermitage at Iiyama in Shinano where he taught a deliberately small circle of students throughout his long life[2].
 
-When the young Hakuin arrived at Shoju's hermitage, already confident in his initial kensho experience, Shoju tested him relentlessly and found his understanding shallow. The confrontation between Hakuin's premature confidence and Shoju's merciless probing drove Hakuin to a much deeper realization. Shoju's refusal to accept anything less than thorough awakening shaped Hakuin's own approach to teaching and his insistence on the progressive deepening of insight through koan practice.`,
+The standard account, preserved most fully in Hakuin's own *Itsumadegusa*, describes Shōju's relentless testing of Hakuin during the eight-month visit of 1708 — most famously the moment when Shōju, having heard Hakuin claim that Buddha and Dharma were no more than the sound of crows, replied "How will you describe being kicked off the back of the floor?" and then knocked him into a courtyard ditch[3]. The episode and Shōju's continuing pressure on Hakuin afterwards forced the deeper *post-satori* training that Hakuin later codified into the curriculum of mature koan investigation that defined modern Rinzai practice[4].`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_dumoulin_japan",
+        pageOrSection: "ch. on Shōju Rōjin and the formation of Hakuin",
+      },
+      {
+        index: 2,
+        sourceId: "src_waddell_hakuin",
+        pageOrSection: "Introduction — Shōju Rōjin's hermitage and lineage",
+      },
+      {
+        index: 3,
+        sourceId: "src_waddell_hakuin",
+        pageOrSection: "Hakuin's autobiographical accounts of Shōju Rōjin",
+      },
+      {
+        index: 4,
+        sourceId: "src_dumoulin_japan",
+        pageOrSection: "ch. on Hakuin's post-satori training and the Rinzai curriculum",
+      },
+    ],
   },
   {
     slug: "toyo-eicho",
@@ -5473,9 +5546,31 @@ Torei's most important work is the "Shūmon Mujintō Ron" (Discourse on the Inex
   },
   {
     slug: "ingen-ryuki",
-    content: `Ingen Ryūki (1592–1673), known in Chinese as Yinyuan Longqi, was a Chinese Linji Chan master who crossed to Japan in 1654 and founded the Ōbaku school, the third major school of Japanese Zen alongside Rinzai and Sōtō. Born in Fuqing, Fujian Province, he ordained at a young age and eventually became the abbot of Wanfu-si on Mount Huangbo (Ōbaku in Japanese), the very temple where Huangbo Xiyun had taught a thousand years earlier. When invited to Japan by Chinese emigrant communities in Nagasaki, he brought with him a form of late-Ming Chan that blended meditation with Pure Land nembutsu recitation, sutra chanting, and strict vinaya observance.
+    content: `Ingen Ryūki (隠元隆琦, Chinese: Yǐnyuán Lóngqí, 1592–1673) was a late-Ming Chinese Linji master from Fuqing in Fujian Province who emigrated to Japan in 1654 and founded the Ōbaku-shū, the third great Japanese Zen school alongside Rinzai and Sōtō[1]. Before leaving China he had served as abbot of the Wànfú-sì (萬福寺) on Mount Huángbò in Fujian — the same Huangbo (Ōbaku) associated with the Tang master Huangbo Xiyun — and his Japanese disciples deliberately took that mountain-name as the new school's name[2].
 
-Ingen established Manpuku-ji in Uji, near Kyoto, in 1661, building it in the Ming Chinese architectural style that still distinguishes it from all other Japanese temples. The Ōbaku school he founded introduced Japanese Buddhists to a living Chinese Chan tradition at a time when Japanese Rinzai had become somewhat insular. Its influence went far beyond sectarian boundaries: Ōbaku monks brought Ming Chinese calligraphy, painting, printing technology, and the sencha style of tea preparation, all of which profoundly influenced Japanese culture. Ingen's arrival also catalyzed a revival within the existing Japanese Rinzai school, as masters like Hakuin were partly motivated by the challenge of showing that Japanese Zen was no less vital than the Chinese tradition Ingen represented.`,
+He landed at Nagasaki in 1654 at the invitation of the Chinese emigrant Buddhist community already established there, and after several years of teaching was granted land in Uji on which he founded Manpuku-ji in 1661, building it as a complete Ming-Chinese architectural complex unlike anything in the existing Japanese tradition[3]. The Ōbaku style he transmitted combined Linji koan practice with explicit *nianfo* (nembutsu) recitation, strict vinaya observance, and the Ming-period repertoire of sutra chanting, calligraphy, ink-painting, woodblock printing, and *sencha* steeped-tea drinking; through Manpuku-ji and its branch network these became significant cultural imports into Tokugawa Japan and provided part of the impetus for Hakuin's roughly contemporary reform of the existing Rinzai school[4].`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_dumoulin_japan",
+        pageOrSection: "ch. on Ingen and the founding of Ōbaku-shū",
+      },
+      {
+        index: 2,
+        sourceId: "src_wikipedia",
+        pageOrSection: "Ingen Ryūki — Mount Huangbo / Ōbaku transmission and naming",
+      },
+      {
+        index: 3,
+        sourceId: "src_dumoulin_japan",
+        pageOrSection: "ch. on Manpuku-ji and Ming Chinese architecture in Japan",
+      },
+      {
+        index: 4,
+        sourceId: "src_waddell_hakuin",
+        pageOrSection: "Introduction — Ōbaku influence on the eighteenth-century Rinzai revival",
+      },
+    ],
   },
   {
     slug: "tetsugen-doko",
