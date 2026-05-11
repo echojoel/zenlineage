@@ -67,6 +67,17 @@ function drawDashedLine(
   }
 }
 
+// Tight on/off pattern used for disputed transmissions and editorial
+// `dharma` bridges (where the literal immediate teacher isn't in the
+// DB yet and the edge connects to the nearest seeded lineage ancestor).
+function drawDottedLine(
+  g: import("pixi.js").Graphics,
+  x1: number, y1: number, x2: number, y2: number,
+  dot = 1.5, gap = 4,
+): void {
+  drawDashedLine(g, x1, y1, x2, y2, dot, gap);
+}
+
 // ---------------------------------------------------------------------------
 // Date display helper
 // ---------------------------------------------------------------------------
@@ -286,6 +297,7 @@ export default function LineageGraph() {
   const [dataMinYear, setDataMinYear] = useState(-600);
   const [schoolList, setSchoolList] = useState<GraphSchool[]>([]);
   const [status, setStatus] = useState<"loading" | "ready" | "error">("loading");
+  const [legendOpen, setLegendOpen] = useState(true);
   const viewMode: ViewMode = "image";
 
   const pixiRef = useRef<PixiState | null>(null);
@@ -363,14 +375,23 @@ export default function LineageGraph() {
 
       const srcNode = nodeById.get(edge.source);
       const edgeColor = schoolColor(srcNode?.schoolSlug ?? srcNode?.schoolName ?? null);
+      // Three-tier edge style — see the legend below the canvas.
+      //   primary                 → solid, full weight
+      //   secondary               → dashed (additional real teacher)
+      //   disputed | dharma       → dotted (historically contested or
+      //                              an editorial bridge to the nearest
+      //                              seeded lineage ancestor)
       const edgeWidth = edge.type === "primary" ? 1.5 : 0.8;
       edgeGraphics.setStrokeStyle({ width: edgeWidth, color: edgeColor, alpha });
 
       if (edge.type === "primary") {
         edgeGraphics.moveTo(src.x, src.y);
         edgeGraphics.lineTo(tgt.x, tgt.y);
-      } else {
+      } else if (edge.type === "secondary") {
         drawDashedLine(edgeGraphics, src.x, src.y, tgt.x, tgt.y);
+      } else {
+        // "disputed" and "dharma" (editorial bridges)
+        drawDottedLine(edgeGraphics, src.x, src.y, tgt.x, tgt.y);
       }
       edgeGraphics.stroke();
     }
@@ -1200,6 +1221,48 @@ export default function LineageGraph() {
       {/* Loading / error */}
       {status === "loading" && <div className="lineage-loading">Loading lineage…</div>}
       {status === "error" && <div className="lineage-loading">Failed to load graph data.</div>}
+
+      {/* Edge-style legend. Three-tier scheme matching the renderer
+          above: solid = canonical direct teacher; dashed = an
+          additional teacher (e.g. student trained under more than one
+          master); dotted = a historically disputed transmission or an
+          editorial bridge to the nearest seeded lineage ancestor. */}
+      {status === "ready" && (
+        legendOpen ? (
+          <aside className="lineage-legend" aria-label="Edge style legend">
+            <button
+              className="lineage-legend-close"
+              onClick={() => setLegendOpen(false)}
+              aria-label="Hide legend"
+            >
+              ✕
+            </button>
+            <p className="lineage-legend-title">Transmission lines</p>
+            <ul className="lineage-legend-list">
+              <li className="lineage-legend-item">
+                <span className="lineage-legend-swatch lineage-legend-swatch-solid" aria-hidden />
+                <span>Primary — canonical direct teacher</span>
+              </li>
+              <li className="lineage-legend-item">
+                <span className="lineage-legend-swatch lineage-legend-swatch-dashed" aria-hidden />
+                <span>Secondary — additional teacher</span>
+              </li>
+              <li className="lineage-legend-item">
+                <span className="lineage-legend-swatch lineage-legend-swatch-dotted" aria-hidden />
+                <span>Disputed or editorial bridge</span>
+              </li>
+            </ul>
+          </aside>
+        ) : (
+          <button
+            className="lineage-legend-open"
+            onClick={() => setLegendOpen(true)}
+            aria-label="Show edge style legend"
+          >
+            Legend
+          </button>
+        )
+      )}
 
       {/* Tooltip */}
       {tooltip && (

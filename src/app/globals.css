@@ -464,6 +464,93 @@ body {
   background: var(--paper);
 }
 
+/* ===== Edge-style legend ===== */
+.lineage-legend {
+  position: absolute;
+  /* Lifted above the global ⌘K search button (and the scrubber on
+     narrower viewports), aligned to the left so it doesn't fight the
+     search-button rail in the bottom-right corner. */
+  bottom: 1rem;
+  left: 1rem;
+  z-index: 10;
+  background: color-mix(in srgb, var(--paper) 94%, transparent);
+  border: 1px solid color-mix(in srgb, var(--ink) 15%, transparent);
+  padding: 0.55rem 0.75rem 0.55rem 0.65rem;
+  font-family: var(--font-inter), sans-serif;
+  font-size: 0.7rem;
+  color: var(--ink);
+  max-width: 260px;
+  pointer-events: auto;
+}
+.lineage-legend-close {
+  position: absolute;
+  top: 0.15rem;
+  right: 0.35rem;
+  background: none;
+  border: none;
+  color: var(--ink-light);
+  font-size: 0.8rem;
+  cursor: pointer;
+  line-height: 1;
+  padding: 0.1rem 0.25rem;
+}
+.lineage-legend-close:hover { color: var(--ink); }
+.lineage-legend-title {
+  margin: 0 0 0.4rem 0;
+  font-size: 0.65rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ink-light);
+}
+.lineage-legend-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+.lineage-legend-item {
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+  line-height: 1.2;
+}
+.lineage-legend-swatch {
+  flex: 0 0 28px;
+  height: 0;
+  display: inline-block;
+}
+.lineage-legend-swatch-solid {
+  border-top: 1.5px solid var(--ink);
+}
+.lineage-legend-swatch-dashed {
+  border-top: 1px dashed var(--ink);
+}
+.lineage-legend-swatch-dotted {
+  border-top: 1px dotted var(--ink);
+}
+.lineage-legend-open {
+  position: absolute;
+  bottom: 1rem;
+  left: 1rem;
+  z-index: 10;
+  background: color-mix(in srgb, var(--paper) 92%, transparent);
+  border: 1px solid color-mix(in srgb, var(--ink) 15%, transparent);
+  padding: 0.35rem 0.7rem;
+  font-family: var(--font-inter), sans-serif;
+  font-size: 0.7rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink-light);
+  cursor: pointer;
+}
+.lineage-legend-open:hover { color: var(--ink); }
+@media (max-width: 720px) {
+  .lineage-legend { max-width: 200px; font-size: 0.65rem; }
+  .lineage-legend-swatch { flex-basis: 22px; }
+}
+
 /* ===== Tooltip ===== */
 .tooltip {
   position: absolute;
