@@ -83,6 +83,27 @@ function formatYearLabel(year: number): string {
   return String(year);
 }
 
+// Pull the active reading-mode colors (set as CSS vars on <html>) so the
+// PIXI canvas — which paints onto a raw GL surface, not the DOM — stays in
+// sync with sepia / dark themes instead of baking in the default day palette.
+function parseHexColor(value: string): number | null {
+  const m = value.trim().match(/^#([0-9a-f]{3}|[0-9a-f]{6})$/i);
+  if (!m) return null;
+  const hex = m[1];
+  const full = hex.length === 3 ? hex.split("").map((c) => c + c).join("") : hex;
+  return parseInt(full, 16);
+}
+
+function readThemeColors(): { paper: number; ink: number } {
+  if (typeof document === "undefined") {
+    return { paper: 0xfaf9f7, ink: 0x3d3530 };
+  }
+  const style = getComputedStyle(document.documentElement);
+  const paper = parseHexColor(style.getPropertyValue("--paper")) ?? 0xfaf9f7;
+  const ink = parseHexColor(style.getPropertyValue("--ink")) ?? 0x3d3530;
+  return { paper, ink };
+}
+
 // ---------------------------------------------------------------------------
 // Simple BFS-layering layout fallback
 // ---------------------------------------------------------------------------
@@ -517,12 +538,14 @@ export default function LineageGraph() {
       const w = container.clientWidth || window.innerWidth;
       const h = container.clientHeight || window.innerHeight;
 
+      const themeColors = readThemeColors();
+
       const app = new PIXI.Application();
       await app.init({
         canvas,
         width: w,
         height: h,
-        backgroundColor: 0xfaf9f7,
+        backgroundColor: themeColors.paper,
         antialias: true,
         autoDensity: true,
         resolution: window.devicePixelRatio ?? 1,
@@ -692,7 +715,7 @@ export default function LineageGraph() {
           text: shortLabel,
           style: new PIXI.TextStyle({
             fontSize: 11,
-            fill: 0x3d3530,
+            fill: themeColors.ink,
             fontFamily: "'Cormorant Garamond', Georgia, serif",
           }),
         });
@@ -867,9 +890,30 @@ export default function LineageGraph() {
 
     init();
 
+    // Re-sync the PIXI canvas with the active reading-mode whenever the
+    // theme toggle flips `data-theme` on <html>. The DOM-rendered chrome
+    // tracks CSS variables automatically; the GL surface needs an explicit
+    // repaint of background + label fills.
+    const themeObserver = new MutationObserver(() => {
+      const pixi = pixiRef.current;
+      if (!pixi) return;
+      const { paper, ink } = readThemeColors();
+      pixi.app.renderer.background.color = paper;
+      for (const state of pixi.portraitStates.values()) {
+        state.label.style.fill = ink;
+      }
+    });
+    if (typeof document !== "undefined") {
+      themeObserver.observe(document.documentElement, {
+        attributes: true,
+        attributeFilter: ["data-theme"],
+      });
+    }
+
     const canvasEl = canvasRef.current;
     return () => {
       destroyed = true;
+      themeObserver.disconnect();
       if (zoomRef.current && canvasEl) {
         d3.select(canvasEl).on(".zoom", null);
       }

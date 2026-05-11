@@ -6,7 +6,7 @@
  * lets a reader find anything on the site without knowing which page
  * the term belongs to.
  */
-export type SearchEntryType = "master" | "school" | "teaching" | "glossary";
+export type SearchEntryType = "master" | "school" | "teaching" | "glossary" | "temple";
 
 export interface SearchEntry {
   type: SearchEntryType;

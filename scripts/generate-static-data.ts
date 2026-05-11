@@ -36,11 +36,12 @@ import { SCHOOL_PRACTICE_TEACHINGS } from "@/lib/practice-instructions";
 import { loadPracticeInstructions } from "@/lib/practice-instructions-data";
 import { getSchoolDefinitions } from "@/lib/school-taxonomy";
 import { buildGlossary, termAnchorId } from "@/lib/glossary-data";
+import { countryToSlug } from "@/lib/seo/country-slug";
 import type { SearchEntry } from "@/lib/search-types";
 
 const OUT_DIR = path.join(process.cwd(), "public", "data");
 
-const SIDEBAR_BIO_MAX_CHARS = 280;
+const SIDEBAR_BIO_MAX_CHARS = 560;
 
 /**
  * Compact a full biography into the teaser shown in the lineage-graph
@@ -62,7 +63,7 @@ function biographyExcerpt(full: string | null | undefined): string | null {
     window.lastIndexOf("! "),
     window.lastIndexOf("; ")
   );
-  if (lastSentence >= SIDEBAR_BIO_MAX_CHARS - 120) {
+  if (lastSentence >= SIDEBAR_BIO_MAX_CHARS - 240) {
     return window.slice(0, lastSentence + 1).trim() + " …";
   }
   // Fall back to a word boundary.
@@ -674,7 +675,9 @@ function clipBlurb(text: string | null | undefined, maxChars = 140): string | un
   return collapsed.slice(0, maxChars - 1).trimEnd() + "…";
 }
 
-async function generateSearchIndexJson() {
+async function generateSearchIndexJson(
+  templesPayload: Awaited<ReturnType<typeof generateTemplesJson>>
+) {
   console.log("Generating search-index.json...");
 
   // 1. Citation gate set — covers both biographies and teachings.
@@ -813,7 +816,31 @@ async function generateSearchIndexJson() {
     });
   }
 
-  // 5. Glossary — flatten unique key concepts from school taxonomy.
+  // 5. Temples — one entry per geocoded temple. The search dialog deep-links
+  // to the school's practice page (no per-temple route exists yet); the
+  // user lands one click away from the temple card. Entries are slim
+  // (no blurb) because the temple list is ~1.6k strong — keep the lazy-
+  // loaded index file lean.
+  for (const t of templesPayload.temples) {
+    const url = t.schoolSlug
+      ? `/practice/${t.schoolSlug}`
+      : t.country
+        ? `/practice/by-country/${countryToSlug(t.country)}`
+        : "/practice";
+    const secondaryParts: string[] = [];
+    if (t.schoolName) secondaryParts.push(t.schoolName);
+    if (t.country) secondaryParts.push(t.country);
+    entries.push({
+      type: "temple",
+      slug: t.slug,
+      title: t.name,
+      nativeTitle: t.nativeName ?? undefined,
+      secondary: secondaryParts.join(" · ") || undefined,
+      url,
+    });
+  }
+
+  // 6. Glossary — flatten unique key concepts from school taxonomy.
   const glossary = buildGlossary();
   for (const g of glossary) {
     entries.push({
@@ -852,9 +879,9 @@ async function main() {
   );
 
   await generateMastersJson();
-  await generateTemplesJson();
+  const templesPayload = await generateTemplesJson();
   await generatePracticeInstructionsJson();
-  await generateSearchIndexJson();
+  await generateSearchIndexJson(templesPayload);
 
   console.log("Done.");
   process.exit(0);

@@ -25,6 +25,7 @@ const TYPE_LABELS: Record<SearchEntry["type"], string> = {
   school: "School",
   teaching: "Teaching",
   glossary: "Term",
+  temple: "Temple",
 };
 
 export default function SiteSearch() {

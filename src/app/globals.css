@@ -312,7 +312,7 @@ body {
   display: flex;
   align-items: center;
   gap: 0.5rem;
-  background: rgba(250, 249, 247, 0.92);
+  background: color-mix(in srgb, var(--paper) 92%, transparent);
   padding: 0.5rem 0.75rem;
 }
 
@@ -355,7 +355,7 @@ body {
   display: flex;
   align-items: center;
   gap: 0.6rem;
-  background: rgba(250, 249, 247, 0.92);
+  background: color-mix(in srgb, var(--paper) 92%, transparent);
   padding: 0.4rem 0.9rem;
 }
 
@@ -469,7 +469,7 @@ body {
   position: absolute;
   z-index: 20;
   pointer-events: none;
-  background: rgba(250, 249, 247, 0.97);
+  background: color-mix(in srgb, var(--paper) 97%, transparent);
   border: 1px solid var(--paper-warm);
   border-radius: 4px;
   padding: 0.5rem 0.75rem;
