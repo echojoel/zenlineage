@@ -10,8 +10,8 @@ import type {
   Mention,
 } from "@/lib/timeline-editorial";
 import {
-  FootnoteRef as FootnoteSup,
   FootnoteList,
+  renderProseWithFootnotes,
   type FootnoteRef as FootnoteRefEntry,
 } from "@/lib/footnotes";
 
@@ -98,24 +98,32 @@ function buildFootnotes(
   return { indexByCiteKey, footnoteRefs };
 }
 
-function CitationMarkers({
-  citations,
-  indexByCiteKey,
-}: {
-  citations: EventCitation[];
-  indexByCiteKey: Map<string, number>;
-}) {
-  const indices = citations
-    .map((c) => indexByCiteKey.get(citeTupleKey(c)))
-    .filter((n): n is number => typeof n === "number");
-  if (indices.length === 0) return null;
-  return (
-    <span className="timeline-cite-markers">
-      {indices.map((n) => (
-        <FootnoteSup key={n} n={n} scope={FN_SCOPE} />
-      ))}
-    </span>
-  );
+/**
+ * Authored event descriptions embed local `[N]` markers (where N matches
+ * the event's own `citations[].index` field). The timeline keeps a single
+ * global References list, so we remap each event's local indexes to the
+ * shared global ones before passing the prose to renderProseWithFootnotes.
+ * Markers without a resolvable global index are left intact (the renderer
+ * will surface them as plain text, making authoring slips visible).
+ */
+function remapMarkersToGlobal(
+  description: string,
+  citations: EventCitation[],
+  indexByCiteKey: Map<string, number>
+): string {
+  const localToGlobal = new Map<number, number>();
+  for (const c of citations) {
+    const global = indexByCiteKey.get(citeTupleKey(c));
+    if (typeof global !== "number") continue;
+    const localIndex = (c as { index?: number }).index;
+    if (typeof localIndex === "number") {
+      localToGlobal.set(localIndex, global);
+    }
+  }
+  return description.replace(/\[(\d+)\]/g, (match, raw) => {
+    const remapped = localToGlobal.get(Number(raw));
+    return remapped !== undefined ? `[${remapped}]` : match;
+  });
 }
 
 function MasterMention({
@@ -267,13 +275,17 @@ export default function TimelineClient({
           <div className="timeline-era-header">
             <h2>{era.title}</h2>
             <span className="timeline-era-subtitle">{era.subtitle}</span>
-            <p className="timeline-era-intro">
-              {era.introduction}
-              <CitationMarkers
-                citations={era.citations}
-                indexByCiteKey={indexByCiteKey}
-              />
-            </p>
+            <div className="timeline-era-intro">
+              {renderProseWithFootnotes(
+                remapMarkersToGlobal(era.introduction, era.citations, indexByCiteKey),
+                footnoteRefs,
+                {
+                  idScope: `timeline-era-${era.id}`,
+                  anchorScope: FN_SCOPE,
+                  suppressList: true,
+                }
+              )}
+            </div>
           </div>
 
           {era.events.map((event) => (
@@ -289,13 +301,15 @@ export default function TimelineClient({
                   {formatYearRange(event.yearStart, event.yearEnd, event.precision)}
                 </span>
                 <h3>{event.title}</h3>
-                <p>
-                  {event.description}
-                  <CitationMarkers
-                    citations={event.citations}
-                    indexByCiteKey={indexByCiteKey}
-                  />
-                </p>
+                {renderProseWithFootnotes(
+                  remapMarkersToGlobal(event.description, event.citations, indexByCiteKey),
+                  footnoteRefs,
+                  {
+                    idScope: `timeline-${event.id}`,
+                    anchorScope: FN_SCOPE,
+                    suppressList: true,
+                  }
+                )}
 
                 {event.masters.length > 0 && (
                   <div className="timeline-masters">
