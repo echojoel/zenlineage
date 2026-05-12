@@ -133,6 +133,15 @@ export default function PracticeMap({ initialSchool, selectedSchool }: PracticeM
     mapRef.current = map;
 
     map.addControl(new maplibregl.NavigationControl({ showCompass: false }), "top-right");
+    // Stacks directly under the +/− buttons. Uses the native Fullscreen
+    // API where supported; on iOS Safari it falls back to a CSS
+    // pseudo-fullscreen (`.maplibregl-pseudo-fullscreen` on the wrapper).
+    // MapLibre calls `map.resize()` internally on the transition, so
+    // tiles redraw at the new size without manual intervention.
+    map.addControl(
+      new maplibregl.FullscreenControl({ container: containerRef.current ?? undefined }),
+      "top-right",
+    );
 
     map.on("load", () => {
       const features: GeoJSON.Feature<GeoJSON.Point, Record<string, unknown>>[] =
@@ -394,7 +403,28 @@ export default function PracticeMap({ initialSchool, selectedSchool }: PracticeM
           </select>
         </div>
       )}
-      <div className="practice-map-wrapper" ref={containerRef} aria-label="Places of practice map" />
+      <div className="practice-map-wrapper" ref={containerRef} aria-label="Places of practice map">
+        {/* Always-mounted overlay so we don't toggle React children inside
+         * the MapLibre-managed container. CSS shows it only when the
+         * wrapper is in real (:fullscreen) or pseudo-fullscreen. */}
+        <button
+          type="button"
+          className="practice-map-exit-fs"
+          onClick={() => {
+            if (document.fullscreenElement) {
+              void document.exitFullscreen();
+            } else {
+              // Pseudo-fullscreen fallback (iOS): click MapLibre's own
+              // button so its internal state and icon stay in sync.
+              containerRef.current
+                ?.querySelector<HTMLButtonElement>(".maplibregl-ctrl-fullscreen")
+                ?.click();
+            }
+          }}
+        >
+          Exit Map
+        </button>
+      </div>
       {status === "loading" && <p className="detail-muted">Loading map…</p>}
       {status === "error" && (
         <p className="detail-muted">Failed to load map data. Try reloading the page.</p>
