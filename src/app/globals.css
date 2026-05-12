@@ -2268,13 +2268,52 @@ a.footnote-source-link:hover {
 }
 
 /* MapLibre popup — use the site's serif display face so popup headings
- * don't clash with the rest of the layout. */
+ * don't clash with the rest of the layout. Background is theme-aware
+ * (paper in light/sepia, walnut in dark) so the popup always reads
+ * well against the map tiles. */
 .practice-map-wrapper .maplibregl-popup-content {
   padding: 0.9rem 1.1rem;
   font-family: var(--font-inter), sans-serif;
   color: var(--ink);
+  background: var(--paper);
+  border: 1px solid rgba(122, 106, 85, 0.25);
   border-radius: 4px;
-  box-shadow: 0 2px 10px rgba(61, 53, 48, 0.12);
+  box-shadow: 0 2px 10px rgba(61, 53, 48, 0.18);
+}
+
+/* The little triangular tip that connects the popup to the marker.
+ * MapLibre's default is white; tint it to match the popup background
+ * so the popup looks like one continuous shape in every theme. */
+.practice-map-wrapper .maplibregl-popup-tip {
+  border-top-color: var(--paper);
+  border-bottom-color: var(--paper);
+  border-left-color: var(--paper);
+  border-right-color: var(--paper);
+}
+.practice-map-wrapper .maplibregl-popup-anchor-top .maplibregl-popup-tip,
+.practice-map-wrapper .maplibregl-popup-anchor-top-left .maplibregl-popup-tip,
+.practice-map-wrapper .maplibregl-popup-anchor-top-right .maplibregl-popup-tip {
+  border-bottom-color: var(--paper);
+}
+.practice-map-wrapper .maplibregl-popup-anchor-bottom .maplibregl-popup-tip,
+.practice-map-wrapper .maplibregl-popup-anchor-bottom-left .maplibregl-popup-tip,
+.practice-map-wrapper .maplibregl-popup-anchor-bottom-right .maplibregl-popup-tip {
+  border-top-color: var(--paper);
+}
+.practice-map-wrapper .maplibregl-popup-anchor-left .maplibregl-popup-tip {
+  border-right-color: var(--paper);
+}
+.practice-map-wrapper .maplibregl-popup-anchor-right .maplibregl-popup-tip {
+  border-left-color: var(--paper);
+}
+
+/* Re-stamp the close button background to match the themed popup so it
+ * doesn't appear as a stray light disc in dark/sepia modes. */
+:root[data-theme="dark"] .practice-map-wrapper .maplibregl-popup-close-button,
+:root[data-theme="sepia"] .practice-map-wrapper .maplibregl-popup-close-button {
+  background: var(--paper-warm);
+  color: var(--ink);
+  border-color: rgba(122, 106, 85, 0.4);
 }
 
 .practice-map-popup h4 {
