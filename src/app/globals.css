@@ -530,6 +530,9 @@ body {
 .lineage-legend-swatch-dotted {
   border-top: 1px dotted var(--ink);
 }
+/* Shihō row uses the inline "●" in the label rather than a stroke
+   swatch, so the swatch slot is invisible. */
+.lineage-legend-swatch-shiho { visibility: hidden; }
 .lineage-legend-open {
   position: absolute;
   bottom: 1rem;

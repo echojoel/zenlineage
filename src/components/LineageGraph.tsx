@@ -381,6 +381,13 @@ export default function LineageGraph() {
       //   disputed | dharma       → dotted (historically contested or
       //                              an editorial bridge to the nearest
       //                              seeded lineage ancestor)
+      // shihoConferred=true on the edge adds a small filled dot at
+      // the student end, signalling "formal Dharma transmission
+      // (shihō / inka / inga / ấn khả) was conferred by this teacher".
+      // The marker is independent of the line style, so:
+      //   - Standard case (root teacher + shihō-giver)   → solid + dot
+      //   - Deshimaru-line root teacher only             → solid, no dot
+      //   - Niwa Zenji → Zeisler shihō (post-death)      → dashed + dot
       const edgeWidth = edge.type === "primary" ? 1.5 : 0.8;
       edgeGraphics.setStrokeStyle({ width: edgeWidth, color: edgeColor, alpha });
 
@@ -394,6 +401,23 @@ export default function LineageGraph() {
         drawDottedLine(edgeGraphics, src.x, src.y, tgt.x, tgt.y);
       }
       edgeGraphics.stroke();
+
+      // Shihō marker — a small filled dot ~12 px short of the
+      // student node, drawn in the edge color. Only when the edge
+      // explicitly records that the teacher conferred formal Dharma
+      // transmission on this student.
+      if (edge.shihoConferred) {
+        const dx = tgt.x - src.x;
+        const dy = tgt.y - src.y;
+        const len = Math.sqrt(dx * dx + dy * dy);
+        if (len > 16) {
+          const offset = 14;
+          const cx = tgt.x - (dx / len) * offset;
+          const cy = tgt.y - (dy / len) * offset;
+          edgeGraphics.circle(cx, cy, 2.4);
+          edgeGraphics.fill({ color: edgeColor, alpha: Math.min(alpha + 0.15, 1) });
+        }
+      }
     }
   }, []);
 
@@ -1241,15 +1265,19 @@ export default function LineageGraph() {
             <ul className="lineage-legend-list">
               <li className="lineage-legend-item">
                 <span className="lineage-legend-swatch lineage-legend-swatch-solid" aria-hidden />
-                <span>Primary — canonical direct teacher</span>
+                <span>Teacher / root master</span>
               </li>
               <li className="lineage-legend-item">
                 <span className="lineage-legend-swatch lineage-legend-swatch-dashed" aria-hidden />
-                <span>Secondary — additional teacher</span>
+                <span>Additional teacher</span>
               </li>
               <li className="lineage-legend-item">
                 <span className="lineage-legend-swatch lineage-legend-swatch-dotted" aria-hidden />
                 <span>Disputed or editorial bridge</span>
+              </li>
+              <li className="lineage-legend-item">
+                <span className="lineage-legend-swatch lineage-legend-swatch-shiho" aria-hidden />
+                <span>● = formal Dharma transmission documented</span>
               </li>
             </ul>
           </aside>

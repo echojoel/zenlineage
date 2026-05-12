@@ -129,7 +129,16 @@ const SOTO_PARENT_STUBS: KVMaster[] = [
       { index: 1, sourceId: "src_wikipedia", pageOrSection: "en.wikipedia.org — Taisen Deshimaru § Students (1984 shihō to Zeisler / Rech / Thibaut)" },
       { index: 2, sourceId: "src_sotozen_jp", pageOrSection: "Sōtōshū Shūmuchō — Eihei-ji abbacy register" },
     ],
-    transmissions: [],
+    transmissions: [
+      {
+        teacherSlug: "dogen",
+        type: "dharma",
+        isPrimary: false,
+        sourceIds: ["src_sotozen_jp"],
+        notes:
+          "Editorial bridge: Niwa Rempō Zenji descends from Dōgen through the Eihei-ji abbot succession (his immediate teacher in the Eihei-ji line is Kuroyanagi Bunshō Zenji, 76th abbot, not yet seeded). The edge to Dōgen anchors his Sōtō lineage to the head of the school.",
+      },
+    ],
   },
   {
     slug: "yuko-okamoto",
@@ -163,7 +172,16 @@ const SOTO_PARENT_STUBS: KVMaster[] = [
       { index: 1, sourceId: "src_azi", pageOrSection: "zen-azi.org — Raphaël Dōkō Triet biography (1997 transmission from Okamoto)" },
       { index: 2, sourceId: "src_dojo_lausanne", pageOrSection: "Muijoji / zen.ch — Michel Reikū Bovay biography (1998 transmission at Teishōji)" },
     ],
-    transmissions: [],
+    transmissions: [
+      {
+        teacherSlug: "dogen",
+        type: "dharma",
+        isPrimary: false,
+        sourceIds: ["src_azi"],
+        notes:
+          "Editorial bridge: Yūkō Okamoto Rōshi is a Japanese Sōtō master in the Teishōji line. His direct teacher is not yet seeded; the edge to Dōgen anchors him to the head of the Sōtō school.",
+      },
+    ],
   },
   {
     slug: "kishigami-kojun",

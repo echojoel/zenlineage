@@ -45,6 +45,72 @@ function asConfidence(value: string | null | undefined): Confidence {
   return null;
 }
 
+/**
+ * Tradition-specific term for "formal Dharma transmission", based on
+ * the master's school slug. Used as the parenthetical in the master
+ * detail page's "Formal Dharma transmission (X):" heading. Returns
+ * null when the school doesn't have a settled term and we should
+ * fall back to the bare English label.
+ *
+ *   Japanese Sōtō and its Western branches → shihō
+ *   Japanese Rinzai (Ōtōkan / Daitoku-ji / Myōshin-ji)
+ *      and the Hottō and Ōbaku lines → inka
+ *   Korean Sŏn (Jogye / Taego / Kwan Um) → inga
+ *   Vietnamese Thiền (Lâm Tế / Trúc Lâm / Plum Village) → ấn khả
+ *   Chinese Chan (the historical houses) → chuanfa
+ */
+function transmissionTermFor(schoolSlug: string | null): string | null {
+  if (!schoolSlug) return null;
+  const s = schoolSlug.toLowerCase();
+  if (
+    s === "soto" ||
+    s === "white-plum-asanga" ||
+    s === "ordinary-mind" ||
+    s === "mountains-rivers"
+  ) {
+    return "shihō";
+  }
+  if (
+    s === "rinzai" ||
+    s === "obaku" ||
+    s === "sanbo-zen" ||
+    s === "sanbo-kyodan" ||
+    s === "diamond-sangha"
+  ) {
+    return "inka";
+  }
+  if (
+    s === "seon" ||
+    s === "jogye" ||
+    s === "taego-order" ||
+    s === "kwan-um"
+  ) {
+    return "inga";
+  }
+  if (
+    s === "thien" ||
+    s === "lam-te" ||
+    s === "truc-lam" ||
+    s === "plum-village"
+  ) {
+    return "ấn khả";
+  }
+  if (
+    s === "chan" ||
+    s === "caodong" ||
+    s === "linji" ||
+    s === "hongzhou" ||
+    s === "yangqi" ||
+    s === "huanglong" ||
+    s === "fayan" ||
+    s === "yunmen" ||
+    s === "guiyang"
+  ) {
+    return "chuanfa";
+  }
+  return null;
+}
+
 function citationCountForField(
   rows: { fieldName: string | null }[],
   fieldName: string
@@ -937,7 +1003,16 @@ export default async function MasterDetailPage({ params }: { params: Promise<{ s
                     className="detail-subsection-title"
                     style={rootTeacherEdges.length > 0 ? { marginTop: "1.2rem" } : undefined}
                   >
-                    Formal Dharma transmission (shihō):
+                    {(() => {
+                      // Tradition-specific term for "formal Dharma
+                      // transmission" based on the disciple's school.
+                      // Falls back to the generic English label when
+                      // the school doesn't have a settled term.
+                      const term = transmissionTermFor(schoolRow?.slug ?? null);
+                      return term
+                        ? `Formal Dharma transmission (${term}):`
+                        : "Formal Dharma transmission:";
+                    })()}
                   </h4>
                   <ul className="detail-link-list">
                     {shihoEdges.map(renderTeacherItem)}

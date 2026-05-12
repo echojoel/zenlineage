@@ -110,6 +110,7 @@ async function generateGraphData() {
         teacherId: masterTransmissions.teacherId,
         type: masterTransmissions.type,
         isPrimary: masterTransmissions.isPrimary,
+        notes: masterTransmissions.notes,
       })
       .from(masterTransmissions),
     db.select({ id: schools.id, slug: schools.slug }).from(schools),
@@ -249,13 +250,43 @@ async function generateGraphData() {
     };
   });
 
-  const edges = transmissionsData.map((t) => ({
-    id: t.id,
-    source: t.teacherId,
-    target: t.studentId,
-    type: t.type,
-    isPrimary: t.isPrimary ?? false,
-  }));
+  // shihoConferred: derive from edge type + notes.
+  //
+  //   The DEFAULT case for a `primary` (isPrimary=true) edge is that
+  //   the teacher is BOTH the root teacher and the shihō giver — this
+  //   is how most master-disciple lineages work historically. The
+  //   marker is drawn on such edges by default.
+  //
+  //   The KNOWN EXCLUSION is the Deshimaru pattern: a primary edge
+  //   that records long discipleship but no shihō from this teacher.
+  //   The seed-shiho-corrections.ts script tags those edges with the
+  //   leading phrase "Root teacher / master" — we exclude on that.
+  //
+  //   For SECONDARY edges, the marker is drawn only when the notes
+  //   contain an explicit shihō marker ("Formal Dharma transmission"
+  //   or the per-tradition equivalent — inka, inga, ấn khả, chuanfa).
+  const SHIHO_NOTES_RE = /\b(shih[oō]|inka|inga|ấn\s+khả|chuanfa|传法|傳法|formal\s+dharma\s+transmission)\b/i;
+  const ROOT_TEACHER_ONLY_RE = /^\s*root\s+teacher\s*\/\s*master\b/i;
+  const edges = transmissionsData.map((t) => {
+    const notes = typeof t.notes === "string" ? t.notes : null;
+    const isPrimary = t.isPrimary ?? false;
+    let shihoConferred = false;
+    if (isPrimary && t.type === "primary") {
+      // Default: primary edge → shihō was given. Exclude the
+      // explicit "root teacher only" pattern.
+      shihoConferred = !(notes && ROOT_TEACHER_ONLY_RE.test(notes));
+    } else if (notes && SHIHO_NOTES_RE.test(notes)) {
+      shihoConferred = true;
+    }
+    return {
+      id: t.id,
+      source: t.teacherId,
+      target: t.studentId,
+      type: t.type,
+      isPrimary,
+      shihoConferred,
+    };
+  });
 
   // Public graph invariant:
   // only the lineage component descending from Shakyamuni Buddha is shown.
