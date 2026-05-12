@@ -131,12 +131,12 @@ const SOTO_PARENT_STUBS: KVMaster[] = [
     ],
     transmissions: [
       {
-        teacherSlug: "dogen",
+        teacherSlug: "kodo-sawaki",
         type: "dharma",
         isPrimary: false,
-        sourceIds: ["src_sotozen_jp"],
+        sourceIds: ["src_sotozen_jp", "src_wikipedia"],
         notes:
-          "Editorial bridge: Niwa Rempō Zenji descends from Dōgen through the Eihei-ji abbot succession (his immediate teacher in the Eihei-ji line is Kuroyanagi Bunshō Zenji, 76th abbot, not yet seeded). The edge to Dōgen anchors his Sōtō lineage to the head of the school.",
+          "Editorial bridge: Niwa Rempō received shihō from his uncle Niwa Butsuan at Tōkei-in (Shizuoka) in 1926; Butsuan is not yet seeded in the DB. Niwa subsequently trained at Antai-ji during Sawaki's era, placing him in the same Shōwa-Sōtō reform circle as Sawaki Kōdō. The edge to Sawaki anchors him in the 20th-century Eihei-ji-line milieu rather than the 13th-century Dōgen root.",
       },
     ],
   },
@@ -174,12 +174,12 @@ const SOTO_PARENT_STUBS: KVMaster[] = [
     ],
     transmissions: [
       {
-        teacherSlug: "dogen",
+        teacherSlug: "kodo-sawaki",
         type: "dharma",
         isPrimary: false,
-        sourceIds: ["src_azi"],
+        sourceIds: ["src_azi", "src_dojo_lausanne"],
         notes:
-          "Editorial bridge: Yūkō Okamoto Rōshi is a Japanese Sōtō master in the Teishōji line. His direct teacher is not yet seeded; the edge to Dōgen anchors him to the head of the Sōtō school.",
+          "Editorial bridge: Yūkō Okamoto Rōshi inherited Teishōji (Saku, Nagano) via the temple-family succession; his father (the prior Teishōji abbot, not yet seeded) was a personal friend of Sawaki Kōdō, who used Teishōji as a sesshin venue. The edge to Sawaki anchors Okamoto in the 20th-century Sōtō reform milieu through the documented Teishōji–Sawaki connection rather than the 13th-century Dōgen root.",
       },
     ],
   },

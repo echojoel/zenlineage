@@ -606,9 +606,9 @@ const ORPHAN_ANCHORS: { student: string; teacher: string; notes: string }[] = [
   },
   {
     student: "baian-hakujun-kuroda",
-    teacher: "dogen",
+    teacher: "keido-chisan",
     notes:
-      "Editorial bridge: Hakujun Kuroda was a 20th-century Sōtōshū priest in the Eihei-ji-line succession. His immediate teacher in the line is not yet seeded; the edge to Dōgen anchors him to the head of the Sōtō school.",
+      "Editorial bridge: Baian Hakujun Kuroda (1898–1978) was the 36th abbot of Kōshin-ji in the Sōji-ji-line succession, a contemporary of Kōhō Keidō Chisan (70th abbot of Sōji-ji). His immediate Kuroda-family predecessor at Kōshin-ji is not yet seeded; the edge to Keidō Chisan anchors him in the 20th-century Sōji-ji prelate world rather than the 13th-century Dōgen root.",
   },
   {
     student: "osaka-koryu",
@@ -618,9 +618,9 @@ const ORPHAN_ANCHORS: { student: string; teacher: string; notes: string }[] = [
   },
   {
     student: "dosho-saikawa",
-    teacher: "dogen",
+    teacher: "keido-chisan",
     notes:
-      "Editorial bridge: Dōshō Saikawa Roshi is a 20th-century Sōtō master at Hossen-ji / Kasuisai. His immediate teacher in the Eihei-ji-line succession is not yet seeded; the edge to Dōgen anchors him to the head of the Sōtō school.",
+      "Editorial bridge: Dōshō Saikawa was ordained by Shunmyō Satō Rōshi in 1978 and trained at Daihonzan Sōji-ji 1978–79 and Sōji-ji Soin 1979–81 (per meditation-zen.org/en/master-saikawa-roshi). His immediate shihō teacher in the Sōji-ji line is not yet seeded; the edge to Kōhō Keidō Chisan (70th abbot of Sōji-ji) anchors him in the Sōji-ji-line succession rather than the 13th-century Dōgen root.",
   },
 ];
 
