@@ -18,6 +18,9 @@ import { fetch } from "undici";
 import { and, eq } from "drizzle-orm";
 import { db } from "@/db";
 import { citations, masters, mediaAssets } from "@/db/schema";
+import { PORTRAITS_A } from "./data/deshimaru/portraits-A";
+import { PORTRAITS_B } from "./data/deshimaru/portraits-B";
+import { PORTRAITS_CDEF } from "./data/deshimaru/portraits-CDEF";
 
 const PUBLIC_MASTERS_DIR = path.join(process.cwd(), "public", "masters");
 const UA = "ZenEncyclopediaBot/1.0 (https://github.com/echojoel/zenlineage; educational project)";
@@ -254,6 +257,17 @@ const EXTERNAL_PORTRAITS: Record<string, ExternalPortrait> = {
       "Sōtōshū / Sotozen 120 (sotozen120.org) — Densho Quintero, international missionary",
     license: "courtesy of Sōtōshū / Sotozen 120 / fair use for educational identification",
   },
+  // ── Deshimaru lineage portraits — branch-research pass (2026-05-12) ──
+  // Three parallel research agents collected institutional portraits for
+  // the 46 new Deshimaru-line masters. See:
+  //   scripts/data/deshimaru/portraits-A.ts (Kōsen Sangha — 12 entries)
+  //   scripts/data/deshimaru/portraits-B.ts (Yuno Rech heirs — 21 entries)
+  //   scripts/data/deshimaru/portraits-CDEF.ts (Zeisler/Coupey/Faure/American — 9 entries)
+  // None of these use Wikimedia / Wikipedia / Commons; every URL is
+  // hosted on the master's own dōjō / sangha / temple website.
+  ...PORTRAITS_A,
+  ...PORTRAITS_B,
+  ...PORTRAITS_CDEF,
 };
 
 async function findCommonsFile(
@@ -535,6 +549,40 @@ async function main() {
       missing.push(slug);
     }
     await new Promise((r) => setTimeout(r, 1200));
+  }
+
+  // Second pass: any slug listed in EXTERNAL_PORTRAITS but NOT in TARGETS
+  // (i.e., a master with no Wikipedia article whose only portrait lives on
+  // an institutional site). Fetch those too so we don't fall back to a
+  // placeholder SVG when a real portrait is available.
+  for (const [slug, external] of Object.entries(EXTERNAL_PORTRAITS)) {
+    if (slug in TARGETS) continue;
+    const outPath = path.join(PUBLIC_MASTERS_DIR, `${slug}.webp`);
+    const masterRow = (
+      await db.select({ id: masters.id }).from(masters).where(eq(masters.slug, slug))
+    )[0];
+    if (!masterRow) {
+      console.warn(`  ⚠ master ${slug} not found in DB (external-only)`);
+      continue;
+    }
+    if (fs.existsSync(outPath)) {
+      // Already on disk from a prior run — re-stamp the citation/asset
+      // metadata so the institutional attribution survives.
+      await upsertExternalAsset(masterRow.id, `/masters/${slug}.webp`, external);
+      skipped++;
+      continue;
+    }
+    console.log(`  → ${slug} (external-only) ${external.sourcePageUrl} ...`);
+    try {
+      await downloadToWebp(external.imageUrl, outPath);
+      await upsertExternalAsset(masterRow.id, `/masters/${slug}.webp`, external);
+      console.log(`    ✓ saved (external — ${external.attribution})`);
+      fetched++;
+    } catch (err) {
+      console.warn(`    external fetch failed: ${err instanceof Error ? err.message : err}`);
+      missing.push(slug);
+    }
+    await new Promise((r) => setTimeout(r, 800));
   }
 
   console.log(`\n${fetched} fetched, ${skipped} skipped (already have), ${missing.length} still missing`);
