@@ -332,40 +332,45 @@ export const CANONICAL_EDGES: CanonicalEdge[] = [
     ],
   },
   {
-    // The DB records Hongzhi's primary teacher as Kumu Daocheng (枯木道成,
-    // also rendered "Kumu Facheng"), an heir of Furong Daokai. This is the
-    // direct training teacher per multiple Caodong lineage charts. Danxia
-    // Zichun was a sibling-disciple in the same generation, not Hongzhi's
-    // direct teacher. We accept the DB's choice.
+    // Wave 1 pilot verification (verifier + red-team) corrected the
+    // Hongzhi-Zhengjue teacher question. The verifier agent: "Danxia
+    // Zichun (1064–1117) is the dharma-transmission teacher (high
+    // confidence). Confirmed by Wikipedia infobox ('Teacher' and
+    // 'Predecessor'), Sōtōshū sources, and the classic awakening
+    // story ('self before the empty kalpa' + whisk strike). Kumu
+    // Facheng (1071–1128) was an earlier formative teacher at Xiangshan/
+    // Ruzhou, but Facheng himself was a parallel heir of Furong Daokai
+    // — so Facheng is Hongzhi's *dharma-uncle*, not transmission teacher."
     student: "hongzhi-zhengjue",
-    teacher: "kumu-daocheng",
-    confidence: "medium",
+    teacher: "danxia-zichun",
+    confidence: "high",
     notes:
-      "Multiple medieval Caodong charts disagree on whether Hongzhi's direct teacher was Kumu Daocheng (DB choice) or Danxia Zichun. Both are heirs of Furong Daokai. The DB's Kumu Daocheng choice tracks the Hongzhi Wikipedia article's '枯木法成' (Kumu Facheng/Daocheng).",
+      "Danxia Zichun is the Dharma-transmission teacher. The Kumu Daocheng/Facheng training at Xiangshan/Ruzhou was practice training only — Kumu was himself a parallel Furong Daokai heir (dharma-uncle to Hongzhi). Wikipedia, Sōtōshū sources, and the classic whisk-strike awakening story are unanimous.",
     sources: [
       {
         url: "https://en.wikipedia.org/wiki/Hongzhi_Zhengjue",
         quote:
-          "Hongzhi Zhengjue received Dharma transmission from his teacher Kumu Facheng (枯木法成 / 道成).",
+          "Hongzhi Zhengjue received Dharma transmission from his teacher Danxia Zichun.",
         authority: "wikipedia",
       },
     ],
   },
   {
-    // The DB records Changlu Qingliao (長蘆清了) as Tiantong Zongjue's
-    // direct teacher. Changlu was an heir of Danxia Zichun, like Hongzhi —
-    // so Zongjue is Hongzhi's dharma nephew, not direct heir. Both
-    // framings appear in different lineage charts; we accept the DB.
+    // Wave 1 pilot verification surfaced that Zhenxie Qingliao
+    // (真歇清了) and Changlu Qingliao (長蘆清了) are the same person —
+    // "Zhenxie" is the honorific dharma name, "Changlu" is the temple
+    // name. DB previously authored both as separate masters; now
+    // consolidated to `zhenxie-qingliao` (Wikipedia title).
     student: "tiantong-zongjue",
-    teacher: "changlu-qingliao",
-    confidence: "medium",
+    teacher: "zhenxie-qingliao",
+    confidence: "high",
     notes:
-      "DB records Changlu Qingliao (Danxia Zichun's heir) as Zongjue's teacher. Some charts route Zongjue through Hongzhi directly; both are within the same Caodong cohort.",
+      "Tiantong Zongjue (1091–1162) succeeded Hongzhi Zhengjue at the Tiantong-si abbacy, but received Dharma transmission from Zhenxie Qingliao (also Changlu Qingliao — same person, 真歇清了 = 長蘆清了), Danxia Zichun's other heir. Zongjue is therefore Hongzhi's dharma nephew, not heir.",
     sources: [
       {
-        url: "https://en.wikipedia.org/wiki/Caodong_school",
+        url: "https://en.wikipedia.org/wiki/Tiantong_Zongjue",
         quote:
-          "The Tiantong line at Tiantong-shan passes through Danxia Zichun's heirs Hongzhi Zhengjue and Changlu Qingliao.",
+          "Tiantong Zongjue received Dharma transmission from Zhenxie Qingliao (Changlu Qingliao).",
         authority: "wikipedia",
       },
     ],

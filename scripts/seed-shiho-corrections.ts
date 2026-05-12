@@ -701,6 +701,142 @@ interface CanonicalPrimaryEdge {
   sourceIds: string[];
   notes: string;
 }
+/**
+ * Wave 1 (24-agent verification pilot of the Caodong pre-Dōgen spine)
+ * surfaced three structural medieval-Caodong corrections that need
+ * applied imperatively (the raw seed has them wrong):
+ *
+ *  W1a — Hongzhi Zhengjue's primary teacher is Danxia Zichun, not Kumu
+ *        Daocheng. (Kumu was Hongzhi's earlier formative teacher and a
+ *        dharma-uncle, not transmission teacher.) Confirmed by Wikipedia
+ *        infobox + standard sōtō-shu sources unanimously.
+ *
+ *  W1b — Kumu Daocheng is himself a Furong Daokai heir (parallel to
+ *        Danxia Zichun), not a Zhenxie Qingliao heir as our raw seed
+ *        has it.
+ *
+ *  W1c — Zhenxie Qingliao (真歇清了) and Changlu Qingliao (長蘆清了) are
+ *        the same person — "Zhenxie" is his honorific name, "Changlu"
+ *        is his temple. The raw seed authored both as separate masters.
+ *        Consolidate to `zhenxie-qingliao` (the Wikipedia title) and
+ *        re-route `changlu-qingliao → tiantong-zongjue` edge.
+ */
+interface StructuralEdgeFix {
+  description: string;
+  // Edges to delete by (teacher, student) tuple
+  delete?: Array<{ teacher: string; student: string }>;
+  // Edges to (re-)insert or update — same shape as CanonicalPrimaryEdge
+  upsertPrimary?: Array<{
+    teacher: string;
+    student: string;
+    notes: string;
+    sourceIds: string[];
+  }>;
+  // Masters to delete entirely (after their edges are re-routed)
+  deleteMaster?: string[];
+}
+
+const STRUCTURAL_FIXES: StructuralEdgeFix[] = [
+  {
+    description: "Hongzhi Zhengjue: primary teacher Kumu Daocheng → Danxia Zichun",
+    delete: [{ teacher: "kumu-daocheng", student: "hongzhi-zhengjue" }],
+    upsertPrimary: [
+      {
+        teacher: "danxia-zichun",
+        student: "hongzhi-zhengjue",
+        sourceIds: ["src_wikipedia"],
+        notes:
+          "Dharma transmission from Danxia Zichun (1064–1117). The earlier formative training under Kumu Facheng/Daocheng (1071–1128) at Xiangshan/Ruzhou was practice training only; Kumu was himself a parallel Furong Daokai heir, i.e. Hongzhi's dharma-uncle. Confirmed by Wikipedia infobox + standard Sōtōshū sources unanimously — see Wikipedia Hongzhi Zhengjue and Wikipedia Danxia Zichun pages.",
+      },
+    ],
+  },
+  {
+    description: "Kumu Daocheng: primary teacher Zhenxie Qingliao → Furong Daokai",
+    delete: [{ teacher: "zhenxie-qingliao", student: "kumu-daocheng" }],
+    upsertPrimary: [
+      {
+        teacher: "furong-daokai",
+        student: "kumu-daocheng",
+        sourceIds: ["src_wikipedia"],
+        notes:
+          "Dharma heir of Furong Daokai, a parallel sibling to Danxia Zichun in the post-Touzi Caodong revival generation. Earlier DB modeling placed him under Zhenxie Qingliao (Danxia Zichun's heir), which would make Kumu a generation later than he actually was.",
+      },
+    ],
+  },
+  {
+    description:
+      "Consolidate Zhenxie Qingliao / Changlu Qingliao duplicate (same person 真歇清了 = 長蘆清了); route surviving edges to zhenxie-qingliao",
+    delete: [
+      // The changlu-side edges; their content moves to zhenxie-side.
+      { teacher: "changlu-qingliao", student: "tiantong-zongjue" },
+      { teacher: "danxia-zichun", student: "changlu-qingliao" },
+    ],
+    upsertPrimary: [
+      {
+        teacher: "zhenxie-qingliao",
+        student: "tiantong-zongjue",
+        sourceIds: ["src_wikipedia"],
+        notes:
+          "Dharma transmission from Zhenxie Qingliao to Tiantong Zongjue. Zongjue subsequently succeeded Hongzhi Zhengjue at Tiantong-si (the abbacy), but his shihō was from Qingliao, not Hongzhi. The DB previously modeled this edge under Qingliao's other name 'Changlu' — Zhenxie (真歇) is the honorific dharma name; Changlu (長蘆) refers to his temple. Consolidating to a single `zhenxie-qingliao` master.",
+      },
+    ],
+    deleteMaster: ["changlu-qingliao"],
+  },
+];
+
+async function applyStructuralFix(fix: StructuralEdgeFix): Promise<void> {
+  console.log(`  · ${fix.description}`);
+  // Deletions first.
+  for (const e of fix.delete ?? []) {
+    const sId = await resolveMasterId(e.student);
+    const tId = await resolveMasterId(e.teacher);
+    if (!sId || !tId) continue;
+    const rows = await db
+      .select({ id: masterTransmissions.id })
+      .from(masterTransmissions)
+      .where(
+        and(
+          eq(masterTransmissions.studentId, sId),
+          eq(masterTransmissions.teacherId, tId),
+        ),
+      );
+    for (const r of rows) {
+      await db
+        .delete(citations)
+        .where(
+          and(
+            eq(citations.entityType, "master_transmission"),
+            eq(citations.entityId, r.id),
+          ),
+        );
+      await db
+        .delete(masterTransmissions)
+        .where(eq(masterTransmissions.id, r.id));
+      console.log(`    – removed ${e.teacher} → ${e.student}`);
+    }
+  }
+  // Then upserts of the corrected primaries.
+  for (const e of fix.upsertPrimary ?? []) {
+    await ensureCanonicalPrimaryEdge({
+      student: e.student,
+      teacher: e.teacher,
+      shihoYear: 0, // unused for medieval edges; year is in the note
+      sourceIds: e.sourceIds,
+      notes: e.notes,
+    });
+  }
+  // Deleting the superseded master row is awkward — many tables
+  // (master_names, master_biographies, master_temples, search_tokens, …)
+  // reference masters.id with FK constraints, and unwinding all of
+  // them is brittle. Leave the master row in place; with no transmission
+  // edges it becomes an orphan in the public graph (audit will surface
+  // it as an INFO row) but doesn't break anything. Future cleanup pass
+  // can do a proper delete-cascade if desired.
+  for (const slug of fix.deleteMaster ?? []) {
+    console.log(`    · leaving ${slug} master row in place (no edges; orphan in graph)`);
+  }
+}
+
 const CANONICAL_PRIMARY_EDGES: CanonicalPrimaryEdge[] = [
   {
     student: "dainin-katagiri",
@@ -941,6 +1077,11 @@ async function main() {
   console.log("→ Superseded edges (removed in favour of canonical primaries):");
   for (const e of SUPERSEDED_EDGES) {
     await removeSupersededEdge(e);
+  }
+
+  console.log("\n→ Wave 1 structural fixes (medieval Caodong topology):");
+  for (const fix of STRUCTURAL_FIXES) {
+    await applyStructuralFix(fix);
   }
 
   console.log("\n→ Canonical primary edges (real shihō teachers, supersedes editorial bridges):");
