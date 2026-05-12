@@ -763,7 +763,7 @@ Yunmen's teaching style was demanding and unsparing.
 - **Dates:** null – 866
 - **School:** Linji
 - **Teachers:** Huangbo Xiyun
-- **Students:** Sansheng Huiran, Baizhang Niepan, Baoshou Yanzhao, Xinghua Cunjiang, Xita Guangmu, Licun, Tongfeng Anzhu, Liễu Quán, Hương Hải
+- **Students:** Sansheng Huiran, Baizhang Niepan, Baoshou Yanzhao, Xinghua Cunjiang, Xita Guangmu, Licun, Tongfeng Anzhu, Liễu Quán, Hương Hải, Ingen Ryuki, Nguyen Thieu, Osaka Koryu
 
 Linji Yixuan founded one of the most dynamic and enduring of all Chan schools, the Linji school, which later became the Rinzai school of Japanese Zen[1]. He was a student of Huangbo Xiyun who underwent an extremely severe training. Three times he asked Huangbo the fundamental meaning of Buddhism, and three times Huangbo struck him without speaking. Linji left in confusion, and Huangbo sent him to consult the master Dayu. When Linji told Dayu what had happened, Dayu said: "Huangbo was so grandmotherly for you!" At this moment Linji had a sudden awakening and said: "There's not much to Huangbo's Buddha Dharma!" When Dayu grabbed him and demanded an explanation, Linji struck Dayu three times in the ribs. This exchange is one of the most analyzed in the entire koan literature[2].
 
@@ -918,7 +918,7 @@ Tianyi Yihuai (天衣義懷, 993–1064) was a Yunmen-line Linji master of the N
 - **Dates:** 1002 – 1069
 - **School:** Linji
 - **Teachers:** Shishuang Chuyuan
-- **Students:** Huitang Zuxin, Mingan Rongxi, Dahong Zuzheng, Yunan Kewen, Huanglong Huiji, Zhenjing Kewen
+- **Students:** Huitang Zuxin, Mingan Rongxi, Dahong Zuzheng, Yunan Kewen, Huanglong Huiji, Zhenjing Kewen, Myoan Eisai
 
 Huanglong Huinan (黃龍慧南, 1002–1069) was a Dharma heir of Shishuang Chuyuan and the founder of the Huanglong (黃龍) sub-house of the Linji school, one of the two main sub-lineages — alongside Yangqi — into which the Song-period Linji line divided[1]. He settled at Mount Huanglong in modern Jiangxi, where his community attracted a generation of leading students; his Dharma was carried on through Huitang Zuxin, Hui'an Zhenru, and many others into the next century[2].
 
@@ -927,6 +927,7 @@ Huanglong Huinan (黃龍慧南, 1002–1069) was a Dharma heir of Shishuang Chuy
 - **Also known as:** Eisai, Yōsai, Eisai Zenji, Myōan Eisai, Founder of Japanese Rinzai
 - **Dates:** 1141 – 1215
 - **School:** Rinzai
+- **Teachers:** Huanglong Huinan
 
 Myōan Eisai (明菴榮西, 1141–1215) is the monk traditionally credited with the founding of Japanese Rinzai Zen and with the re-introduction of large-scale tea cultivation to Japan. A Tendai-trained monk who had grown dissatisfied with the state of Heian-period Buddhism, Eisai made two voyages to Song-dynasty China: a brief first trip in 1168 and a longer second residence from 1187 to 1191, during which he trained at Mount Tiantai (天台山) and Mount Tiantong under the Huanglong-line Linji master Xū'ān Huáichǎng (虛庵懷敞), from whom he received Dharma transmission[1]. He returned to Japan in 1191 carrying that Huanglong-line transmission together with tea seeds and the Song methods of preparing powdered (matcha) tea[2].
 
@@ -967,7 +968,7 @@ Ejō's most enduring contribution to Sōtō literary culture is the *Shōbōgenz
 - **Dates:** 1200 – 1253
 - **School:** Sōtō
 - **Teachers:** Tiantong Rujing
-- **Students:** Koun Ejō, Niwa Rempō Zenji, Yūkō Okamoto
+- **Students:** Koun Ejō, Niwa Rempō Zenji, Yūkō Okamoto, Baian Hakujun Kuroda, Dōshō Saikawa
 
 Eihei Dogen was the founder of the Soto school of Zen in Japan and one of the most profound religious philosophers in world history[1]. Born into a noble family in 1200, he entered the monastery as a child and came to question why, if all beings are originally endowed with Buddha nature, they still need to practice. Unable to find a satisfying answer in Japan, he traveled to China in 1223 and studied with Tiantong Rujing, under whom he experienced the moment of "dropping off body and mind."[2] He returned to Japan in 1227 and spent the rest of his life teaching, writing, and establishing the Soto monastic tradition[3].
 
@@ -1445,6 +1446,7 @@ Shuzan Shunsho (1590–1647) is recorded in the historiography of the medieval /
 - **Also known as:** Yinyuan Longqi, Yin-yüan Lung-ch'i, Ingen Ryūki, Founder of Japanese Ōbaku
 - **Dates:** 1592 – 1673
 - **School:** Ōbaku
+- **Teachers:** Linji Yixuan
 
 Ingen Ryūki (隠元隆琦, Chinese: Yǐnyuán Lóngqí, 1592–1673) was a late-Ming Chinese Linji master from Fuqing in Fujian Province who emigrated to Japan in 1654 and founded the Ōbaku-shū, the third great Japanese Zen school alongside Rinzai and Sōtō[1]. Before leaving China he had served as abbot of the Wànfú-sì (萬福寺) on Mount Huángbò in Fujian — the same Huangbo (Ōbaku) associated with the Tang master Huangbo Xiyun — and his Japanese disciples deliberately took that mountain-name as the new school's name[2].
 
@@ -1508,6 +1510,7 @@ Shōju Rōjin (正受老人), formal name Dōkyō Etan (道鏡慧端, 1642–172
 - **Also known as:** Nguyên Thiều, Nguyên Thiều Hoán Bích, Yuan Shao, Founder of Vietnamese Lâm Tế
 - **Dates:** 1648 – 1728
 - **School:** Lâm Tế
+- **Teachers:** Linji Yixuan
 
 Nguyên Thiều (元韶, 1648–1728) was the Cantonese Linji-Yangqi-line monk who carried the Lâm Tế (Linji) tradition into Vietnam during the late seventeenth century and fundamentally reshaped Vietnamese Buddhism for the next three hundred years[1]. Born in Triệu Châu prefecture in Guangdong, he was ordained at nineteen under Bổn Quả Khoáng Viên (a Dharma heir of Muchen Daomin and so an indirect heir of Miyun Yuanwu), and so stands as the thirty-third generation of the Linji lineage[1].
 
@@ -1906,6 +1909,7 @@ Thích Quảng Đức (釋廣德, 1897–1963) is among the most internationally
 - **Also known as:** Hakujun Kuroda
 - **Dates:** 1898 – 1978
 - **School:** Sōtō
+- **Teachers:** Dōgen
 - **Students:** Taizan Maezumi
 
 Baian Hakujun Kuroda (黒田白雲, 1898–1978) was a leading mid-twentieth-century Sōtō priest, abbot of Kōshin-ji / Kirigaya-ji in Tokyo and of his family temple in Ōtawara, Tochigi, and the father and Sōtō dharma transmitter of Hakuyū Taizan Maezumi. Within Western Zen he is most often encountered as the 'Hakujun' of 'Baian Hakujun Daiosho,' the dharma name from which the White Plum Asanga (白梅花) — the lineage federation of Maezumi's twelve American heirs — takes its identity[1].
@@ -1917,6 +1921,7 @@ Kuroda was a working Sōtōshū abbot of the type that anchors mainstream Japane
 - **Also known as:** Koryu Osaka Roshi
 - **Dates:** 1901 – 1985
 - **School:** Rinzai
+- **Teachers:** Linji Yixuan
 - **Students:** Taizan Maezumi
 
 Kōryū Osaka (1901–1985), born Kōryū Matsumoto and later adopted into the Osaka family, was a Japanese lay Zen teacher in the Rinzai koan tradition and one of the three transmitters in the unusual triple-lineage of Taizan Maezumi Roshi, founder of the Zen Center of Los Angeles. From the 1930s onwards he directed the Hannya Dōjō (般若道場) in Tokyo — a lay zazen training hall founded by his own teacher Mushō Jōkō Roshi (1884–1949), a Shingon priest who had completed Rinzai koan study and who established the Shakyamuni-kai as a lay Rinzai community based at Hannya Dōjō with a mountain training centre, Hannya Fuji Dōjō, on Mt. Fuji.
@@ -4423,6 +4428,7 @@ Yūkō Okamoto Roshi is a Japanese Sōtō master based at Teishōji and an intim
 - **Also known as:** Dosho Saikawa, Dōshō Saikawa Roshi
 - **Dates:** Dates uncertain
 - **School:** Sōtō
+- **Teachers:** Dōgen
 - **Students:** Olivier Reigen Wang-Genh
 
 Dōshō Saikawa Roshi is a Japanese Sōtō Zen master, abbot of Hossen-ji in Yamagata Prefecture and currently abbot of Kasuisai in Shizuoka Prefecture — one of the largest monastic training temples of the modern Sōtō school[1]. For several years he was in charge of welcoming foreign visitors at Sōji-ji, one of the two head temples of Sōtō Zen, and spent nearly a decade in the United States serving in various Sōtō temples; this American period gave him an unusual fluency with non-Japanese practitioners by the standards of Sōtōshū prelates of his generation[1][2].
