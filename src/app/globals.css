@@ -2282,14 +2282,11 @@ a.footnote-source-link:hover {
 }
 
 /* The little triangular tip that connects the popup to the marker.
- * MapLibre's default is white; tint it to match the popup background
- * so the popup looks like one continuous shape in every theme. */
-.practice-map-wrapper .maplibregl-popup-tip {
-  border-top-color: var(--paper);
-  border-bottom-color: var(--paper);
-  border-left-color: var(--paper);
-  border-right-color: var(--paper);
-}
+ * MapLibre uses the CSS-triangle trick: three transparent borders and
+ * one coloured border. Only override the *one* border that faces the
+ * popup body — colouring all four turns the tip into a visible square.
+ * Anchor names describe where the popup sits relative to the marker;
+ * the tip points the opposite way (anchor=bottom → tip's top border). */
 .practice-map-wrapper .maplibregl-popup-anchor-top .maplibregl-popup-tip,
 .practice-map-wrapper .maplibregl-popup-anchor-top-left .maplibregl-popup-tip,
 .practice-map-wrapper .maplibregl-popup-anchor-top-right .maplibregl-popup-tip {
