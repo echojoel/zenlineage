@@ -1,7 +1,7 @@
 # Zen Lineage — Complete Reference
 
-> An open-source interactive encyclopedia of Zen Buddhism covering 500+ masters,
-> 25 schools, 530+ lineage transmissions, 795+ teachings, and 1,700+ scholarly
+> An open-source interactive encyclopedia of Zen Buddhism covering 505+ masters,
+> 25 schools, 540+ lineage transmissions, 795+ teachings, and 1,700+ scholarly
 > citations across 2,500 years of Chan, Zen, Seon, and Thien Buddhist history.
 
 Zen Lineage maps the dharma transmission lineages connecting Buddhist masters
@@ -1963,7 +1963,7 @@ Sō-on was the adopted son of Butsumon Sogaku Suzuki, Shunryū's biological fath
 - **Dates:** 1880 – 1965
 - **School:** Sōtō
 - **Teachers:** Sawada Zenko
-- **Students:** Gudo Wafu Nishijima, Kosho Uchiyama, Taisen Deshimaru, Yūkō Okamoto, Kōjun Kishigami, Niwa Butsuan Emyō, Daichō Hayashi, Hōzan Kōei Chino
+- **Students:** Gudo Wafu Nishijima, Kosho Uchiyama, Taisen Deshimaru, Yūkō Okamoto, Kōjun Kishigami, Niwa Butsuan Emyō, Daichō Hayashi, Shūyū Narita, Sodō Yokoyama, Hōzan Kōei Chino
 
 Kōdō Sawaki (澤木 興道, 1880–1965), known throughout Japan as "Homeless Kōdō" (Yadonashi Kōdō), was the modern Sōtō master most responsible for severing the practice of zazen from the temple-funeral economy and restoring shikantaza as the living center of the school. He was born June 16, 1880 in Tsu, Mie Prefecture; orphaned by age seven, he was taken in by a lantern-maker named Bunkichi Sawaki whose home doubled as a gambling parlor — an upbringing he later credited with immunizing him against any romance about respectability[1]. At sixteen he ran away to Eihei-ji, found work as a temple servant, and at eighteen entered Sōshin-ji, where he was ordained in 1899 by Kōhō Sawada and received dharma transmission from Zenkō Sawada in 1906[1].
 
@@ -2063,7 +2063,7 @@ He served as president of Hanazono University in Kyoto, the Myōshin-ji-affiliat
 - **Dates:** 1904 – 1971
 - **School:** Sōtō
 - **Teachers:** Gyokujun So-on
-- **Students:** Dainin Katagiri, Kobun Chino Otogawa, Hoitsu Suzuki, Shōko Okamoto, Zentatsu Richard Baker
+- **Students:** Dainin Katagiri, Kobun Chino Otogawa, Jakushō Kwong, Sojun Mel Weitsman, Tenshin Reb Anderson, Hoitsu Suzuki, Shōko Okamoto, Zentatsu Richard Baker
 
 Shunryū Suzuki (born Toshitaka Suzuki, May 18, 1904, in Kanagawa Prefecture, Japan; died December 4, 1971, in San Francisco) was the Sōtō Zen priest who, more than any other figure, transmitted Japanese Sōtō practice to American counterculture. He began monastic apprenticeship at age twelve under Gyokujun So-on Suzuki, a disciple of his father, and was ordained as a novice on his thirteenth birthday in 1917, receiving the Buddhist name Shōgaku Shunryū[1]. He attended Sōtō preparatory school in Tokyo from 1924, entered Komazawa University in 1925, and on August 26, 1926, at age twenty-two, received Dharma transmission from So-on; he was installed as the 28th abbot of Zoun-in on January 22, 1929, and subsequently trained at Eihei-ji (1930) and Sōji-ji in Yokohama (1931)[1].
 
@@ -2105,6 +2105,17 @@ Kyōzan Jōshū Sasaki (佐々木承周, 1907–2014) was the Japanese Rinzai ro
 
 Yamada Kōun (born Yamada Kiozo, 1907–1989) was the Japanese lay Zen master who shaped Sanbō Kyōdan (now Sanbō Zen) into an internationally accessible lineage and trained the first generation of Western teachers. Born in Nihonmatsu, Fukushima Prefecture, he attended Tokyo's elite Dai-Ichi High School together with the future Rinzai master Soen Nakagawa, then pursued a business career, working from 1941 as a labor supervisor for the Manchurian Mining Company and rising to deputy director of General Affairs by 1945[1]. He began Zen practice at age 38 in Manchuria and, after returning to Kamakura with his wife and three children, sat twice-daily dokusan with Asahina Sōgen Rōshi while serving as a managing director of a major Tokyo firm[1].
 
+### Sodō Yokoyama
+
+- **Also known as:** Sodo Yokoyama, Grass-Flute Zen Master
+- **Dates:** 1907 – 1980
+- **School:** Sōtō
+- **Teachers:** Kodo Sawaki
+
+Sodō Yokoyama (横山祖道, 1907–1980), widely remembered as the *Kusabue Zenji* (草笛禅師, "Grass-Flute Zen Master"), was a Dharma heir of Kōdō Sawaki and one of the most idiosyncratic figures in the modern Sōtō tradition[1]. He resided at Antai-ji from approximately 1949 to 1958, as the senior monk under Sawaki alongside Kōshō Uchiyama, and received Dharma transmission from Sawaki in 1958 — Sōtō Zen Buddhist Community Spain's biography calls him Sawaki's "third successor in Dharma"[1][2].
+
+After Antai-ji, Yokoyama renounced temple residence entirely and settled at Kaikō-en Park in Komoro, Nagano, where for some twenty-two years until his death he taught daily by sitting on a bench beside a stream and playing a leaf or blade of grass between his lips as a flute.
+
 ### Kosho Uchiyama
 
 - **Also known as:** Kōshō Uchiyama, Uchiyama Roshi
@@ -2134,6 +2145,15 @@ Toeong Seongcheol (退翁性徹, 1912–1993) was the most influential Korean Se
 - **Students:** Stephane Kosen Thibaut, Etienne Mokusho Zeisler, Roland Rech, Raphaël Dōkō Triet, Philippe Reiryū Coupey, Olivier Reigen Wang-Genh, Michel Reikū Bovay, Évelyne Ekō de Smedt, Pierre Reigen Crépon, Jean-Pierre Genshū Faure, Vincent Keisen Vuillemin, Bárbara Kōsen Richaudeau, André Ryūjō Meissner, Hugues Yūsen Naas, Ingrid Gyū-Ji Igelnick, Françoise Jōmon Julien, Robert Livingston Roshi
 
 Mokudō Taisen Deshimaru (弟子丸泰仙, 1914–1982) was a Japanese Sōtō Zen monk and the principal figure in the establishment of European Sōtō Zen. Born in Saga Prefecture in southern Kyūshū to a Jōdo Shinshū household with samurai antecedents, he encountered the itinerant Sōtō teacher Kōdō Sawaki in the 1930s and remained Sawaki's lay disciple for the next three decades while working as a businessman in Tokyo and Kobe[1][2]. His attachment to Sawaki's signature teaching — zazen practised without object and without expectation of gain — shaped every later phase of his life and the tradition he transplanted to Europe[2].
+
+### Shūyū Narita
+
+- **Also known as:** Shuyu Narita
+- **Dates:** 1914 – 2004
+- **School:** Sōtō
+- **Teachers:** Kodo Sawaki
+
+Shūyū Narita (成田祖伝秀夫, 1914–2004) was Kōdō Sawaki's first Dharma heir and the 28th abbot of Tōdenji (東傳寺) in Akita Prefecture, succeeding his father at the family temple[1]. His own first-person testimony recorded by the Sōtō Zen Buddhist Community Spain confirms the primacy: "I was the first disciple to whom [Sawaki] transmitted the Dharma." In 1977 he travelled to Europe at Taisen Deshimaru's invitation and went on to become the principal Japanese-Sōtō shihō teacher of the independent European Antai-ji-line network, conferring transmission on Fausto Taiten Guareschi (1983, Fudenji, Italy), Ludger Tenryū Tenbreul (1986, Jakkō-ji, Germany), Francisco Dokushō Villalba (1987, Luz Serena, Spain), Denis Kengan Robert, Evelyne Fukusen Holzapfel, and Philippe Taihō Breal[1][2].
 
 ### Robert Aitken
 
@@ -2217,6 +2237,15 @@ Jikai Dainin Katagiri (January 19, 1928 – March 1, 1990) was the Sōtō priest
 
 Katagiri's American ministry began in 1963 at Zenshūji Sōtō Mission in Los Angeles.
 
+### Sojun Mel Weitsman
+
+- **Also known as:** Mel Weitsman, Hakuryū Sōjun
+- **Dates:** 1929 – 2021
+- **School:** Sōtō
+- **Teachers:** Hoitsu Suzuki, Shunryu Suzuki
+
+Sojun Mel Weitsman (20 July 1929 – 7 January 2021), dharma name Hakuryū Sōjun (白龍祖珣), was a senior American Sōtō Zen teacher and the founding abbot of Berkeley Zen Center, which he co-founded in 1967 and led as abbot from 1985 onward[1]. He met Shunryū Suzuki in 1964, was ordained as a priest by Suzuki in 1969 at the Berkeley zendō, and was Suzuki's close student until Suzuki's death in 1971 — but Suzuki died before he could give Weitsman formal Dharma transmission, and the shihō was completed in 1984 at Rinso-In in Japan by Suzuki's son Hoitsu Suzuki[1][2]. From 1988 to 1997 Weitsman also served as co-abbot of SFZC alongside Tenshin Reb Anderson.
+
 ### Taizan Maezumi
 
 - **Also known as:** Hakuyu Taizan Maezumi, Maezumi Roshi
@@ -2255,12 +2284,22 @@ Beopjeong (法頂, 1932–2010) is one of the most widely-read modern Korean Sŏ
 
 Robert C. Livingston Roshi (28 January 1933 – 2 January 2021) was the senior American disciple of Taisen Deshimaru and the founder of the New Orleans Zen Temple — the principal Sōtō dōjō in the United States carrying the Deshimaru / AZI line. Born in New York City, educated at Cornell, and a U.S. Army veteran of the Japan-Korea theatre in the early 1950s, he spent more than a decade in Europe in international finance before retiring from business and becoming Deshimaru's close disciple in Paris in the 1970s. Before his death in 1982 Deshimaru asked Livingston to return to the United States and establish authentic Sōtō practice there; Livingston founded the American Zen Association in 1983 and opened the New Orleans Zen Temple at 748 Camp Street in 1991.
 
+### Jakushō Kwong
+
+- **Also known as:** Jakusho Kwong, Bill Kwong, Kwong Roshi
+- **Dates:** 1935 – null
+- **School:** Sōtō
+- **Teachers:** Hoitsu Suzuki, Shunryu Suzuki
+
+Jakushō (Bill) Kwong (b. 14 November 1935, Santa Rosa, California) is a senior American Sōtō teacher and the founder (1973) of Sonoma Mountain Zen Center (Genjōji)[1]. He was a close personal student of Shunryū Suzuki at SFZC from 1959 until Suzuki's death in 1971, and Suzuki recognized him as a Dharma successor — but the formal transmission (shihō) was unfinished at Suzuki's death and was completed in 1978 at Rinso-In, Yaizu, Japan, by Suzuki's son and primary heir Hoitsu Suzuki, with the rite officiated by Hakusan Kojin Noiri[1][2]. Kwong subsequently spent approximately five years of interim transmission study with Kōbun Chino Otogawa. He is a Sōtōshū-certified Dendō-kyōshi (1995) and is recorded as a 91st-generation teacher in the Sōji-ji-line succession.
+
 ### Zentatsu Richard Baker
 
 - **Also known as:** Richard Baker, Baker Roshi
 - **Dates:** 1936 – null
 - **School:** Sōtō
 - **Teachers:** Shunryu Suzuki
+- **Students:** Tenshin Reb Anderson
 
 Zentatsu Richard Baker (born 1936) is an American Sōtō teacher and the only American Dharma heir of Shunryū Suzuki, having received transmission on 8 December 1970 and the Mountain Seat ceremony at San Francisco Zen Center on 21 November 1971 just before Suzuki's death[1]. He succeeded Suzuki as abbot of SFZC and led the institution's rapid 1970s expansion (the founding of Greens restaurant, the Tassajara Zen Mountain Center programme, the City Center on Page Street). His tenure ended in a 1983 institutional crisis documented in Michael Downing's *Shoes Outside the Door*; following the resignation he founded Dharma Sangha and the Crestone Mountain Zen Center (Colorado) and Johanneshof in the Black Forest of Germany, where he continues to teach[1][2].
 
@@ -2309,6 +2348,7 @@ Bernie Tetsugen Glassman (哲玄, January 18, 1939 – November 4, 2018) was bor
 - **Dates:** 1939 – null
 - **School:** Sōtō
 - **Teachers:** Shunryu Suzuki
+- **Students:** Jakushō Kwong, Sojun Mel Weitsman
 
 Hoitsu Suzuki (鈴木 法逸) is the eldest son and Dharma heir of Shunryū Suzuki, and the 28th abbot of Rinso-in, the family temple in Yaizu, Shizuoka, that Shunryū Suzuki had inherited from his own adoptive father Gyokujun So-on Suzuki[1]. Hoitsu received Dharma transmission from his father in 1963 — Shunryū's first transmission and the act that made it possible for him to depart for San Francisco in 1959 with the institutional question of Rinso-in's succession already resolved[1][2]. Hoitsu has subsequently played a quiet but significant role in the modern SFZC line by transmitting onward to several Western Sōtō teachers (Mel Weitsman, William Kwong, Les Kaye, Reb Anderson among others), each of whom is conventionally described as a 'second-generation' Suzuki line heir through this branch.
 
@@ -2332,6 +2372,15 @@ Following Sawaki's death he undertook a long period of training in Japan and Eur
 - **Teachers:** Taizan Maezumi
 
 Gerry Shishin Wick (支芯, born 1943) is an American Sōtō Zen teacher, scientist, and author, and one of the twelve formal dharma heirs of Hakuyū Taizan Maezumi Roshi. Trained as a physicist, Wick earned a Ph.D. in physics from the University of California, Berkeley, and worked for years as a research oceanographer before devoting himself full-time to Zen — an unusual scientific pedigree that continues to colour his teaching style and his interest in the dialogue between Zen and the natural sciences.
+
+### Tenshin Reb Anderson
+
+- **Also known as:** Reb Anderson, Tenshin Zenki
+- **Dates:** 1943 – null
+- **School:** Sōtō
+- **Teachers:** Zentatsu Richard Baker, Shunryu Suzuki
+
+Tenshin Reb Anderson (天眞全機, born 1943) is a senior American Sōtō Zen teacher and a longtime central figure at San Francisco Zen Center, where he served as abbot from 1986 to 1995 (co-abbot with Sojun Mel Weitsman) and as a senior Dharma teacher at Green Gulch Farm Zen Center until his 2025 retirement[1]. He was ordained as a priest by Shunryū Suzuki in 1970 — a year before Suzuki's death — and received Dharma transmission (shihō) from Suzuki's direct American heir Zentatsu Richard Baker in 1983, making him Baker's first Dharma successor[1][2]. He has transmitted Dharma to eighteen named successors, the most recent being Shingan Sokei Thiemo Blank (2025).
 
 ### Roland Rech
 
@@ -5041,7 +5090,7 @@ The Taego Order (太古宗, 태고종) is the second largest Buddhist order in K
 ### Sōtō
 
 - **Tradition:** Zen
-- **Masters:** 164
+- **Masters:** 169
 
 The Soto school (曹洞宗) is the Japanese continuation of the Chinese Caodong tradition, founded by Eihei Dogen (1200–1253) after his training with Tiantong Rujing in China[1]. It is the largest Zen denomination in Japan[2]. Soto's central practice is shikantaza ('just sitting')—zazen practiced as the direct expression of awakening itself, not as a means to attain enlightenment[3]. Dogen articulated this in his masterwork the Shobogenzo—which is itself largely composed of koan commentary and philosophical inquiry—and in his practical manual the Fukanzazengi[3]. The school's second great figure, Keizan Jokin (1264–1325), founded Sojiji Temple and made Soto practice accessible to a broad Japanese population through the integration of esoteric ritual and ancestor veneration[1]. Together, Eiheiji (Dogen's temple) and Sojiji serve as the school's two head monasteries. In the modern era, the Soto tradition has been carried to the West by teachers including Shunryu Suzuki (San Francisco Zen Center), Taisen Deshimaru (Association Zen Internationale, Europe), Taizan Maezumi (Zen Center of Los Angeles), and Dainin Katagiri (Minnesota Zen Center), establishing vibrant practice communities across North America and Europe[4].
 

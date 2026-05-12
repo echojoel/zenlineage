@@ -407,6 +407,34 @@ const SOURCES = [
     reliability: "scholarly",
   },
   {
+    // Added as part of the Wave 1 24-agent Caodong pilot — the
+    // canonical scholarly source on the post-Touzi Caodong "revival"
+    // and the Yunju vs Jufeng Puman lineage dispute. Referenced across
+    // Hongzhi, Yunju, Touzi, Dayang, Furong, and Dōgen red-team reports.
+    id: "src_schlutter_how_zen_became_zen",
+    type: "monograph",
+    title: "How Zen Became Zen: The Dispute over Enlightenment and the Formation of Chan Buddhism in Song-Dynasty China",
+    author: "Morten Schlütter",
+    url: "https://uhpress.hawaii.edu/title/how-zen-became-zen-the-dispute-over-enlightenment-and-the-formation-of-chan-buddhism-in-song-dynasty-china/",
+    publicationDate: "2008",
+    reliability: "scholarly",
+  },
+  {
+    // Added as part of the Wave 1 pilot — Heine's textual-critical
+    // re-examination of the Dōgen-Rujing transmission narrative. The
+    // provocative title is rhetorical; Heine accepts Dōgen's trip to
+    // China but problematises the dating, content, and reliability of
+    // the canonical Sōtō hagiography (shinjin-datsuraku, the Hōkyōki,
+    // the Eihei-ji shisho).
+    id: "src_heine_did_dogen_go_to_china",
+    type: "monograph",
+    title: "Did Dōgen Go to China?: What He Wrote and When He Wrote It",
+    author: "Steven Heine",
+    url: "https://global.oup.com/academic/product/did-dogen-go-to-china-9780195305708",
+    publicationDate: "2006",
+    reliability: "scholarly",
+  },
+  {
     id: "src_shambhala_zen_dictionary",
     type: "reference",
     title: "The Shambhala Dictionary of Buddhism and Zen",

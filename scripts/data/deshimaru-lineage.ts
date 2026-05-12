@@ -860,6 +860,254 @@ const SOTO_PARENT_STUBS: KVMaster[] = [
       },
     ],
   },
+  // ── Wave 5: Sawaki direct heirs + second-generation Suzuki/Baker line ──
+  {
+    slug: "shuyu-narita",
+    schoolSlug: "soto",
+    names: [
+      { locale: "en", nameType: "dharma", value: "Shūyū Narita" },
+      { locale: "en", nameType: "alias", value: "Shuyu Narita" },
+      { locale: "ja", nameType: "dharma", value: "成田祖伝秀夫" },
+    ],
+    birthYear: 1914,
+    birthPrecision: "exact",
+    birthConfidence: "high",
+    deathYear: 2004,
+    deathPrecision: "exact",
+    deathConfidence: "high",
+    biography:
+      "Shūyū Narita (成田祖伝秀夫, 1914–2004) was Kōdō Sawaki's first Dharma heir and the 28th abbot of Tōdenji (東傳寺) in Akita Prefecture, succeeding his father at the family temple[1]. His own first-person testimony recorded by the Sōtō Zen Buddhist Community Spain confirms the primacy: \"I was the first disciple to whom [Sawaki] transmitted the Dharma.\" In 1977 he travelled to Europe at Taisen Deshimaru's invitation and went on to become the principal Japanese-Sōtō shihō teacher of the independent European Antai-ji-line network, conferring transmission on Fausto Taiten Guareschi (1983, Fudenji, Italy), Ludger Tenryū Tenbreul (1986, Jakkō-ji, Germany), Francisco Dokushō Villalba (1987, Luz Serena, Spain), Denis Kengan Robert, Evelyne Fukusen Holzapfel, and Philippe Taihō Breal[1][2].",
+    citations: [
+      {
+        sourceId: "src_wikipedia",
+        fieldName: "biography",
+        pageOrSection:
+          "en.wikipedia.org/wiki/Kodo_Sawaki — Shūyū Narita listed among Sawaki's five named monk Dharma heirs.",
+      },
+      {
+        sourceId: "src_terebess",
+        fieldName: "biography",
+        pageOrSection: "terebess.hu/zen/mesterek/narita.html — Shūyū Narita biographical entry with kanji",
+      },
+    ],
+    footnotes: [
+      { index: 1, sourceId: "src_terebess", pageOrSection: "terebess.hu — Narita; sotozen.es first-person testimony" },
+      { index: 2, sourceId: "src_wikipedia", pageOrSection: "en.wikipedia — Kōdō Sawaki Dharma heirs" },
+    ],
+    transmissions: [
+      {
+        teacherSlug: "kodo-sawaki",
+        type: "primary",
+        isPrimary: true,
+        sourceIds: ["src_wikipedia", "src_terebess"],
+        notes:
+          "Dharma transmission from Kōdō Sawaki — per Narita's own first-person testimony, Sawaki's first Dharma heir. Specific shihō year unrecorded in publicly available sources; the relationship dates to the Komazawa University period c. 1935–1936.",
+      },
+    ],
+  },
+  {
+    slug: "sodo-yokoyama",
+    schoolSlug: "soto",
+    names: [
+      { locale: "en", nameType: "dharma", value: "Sodō Yokoyama" },
+      { locale: "en", nameType: "alias", value: "Sodo Yokoyama" },
+      { locale: "en", nameType: "alias", value: "Grass-Flute Zen Master" },
+      { locale: "ja", nameType: "dharma", value: "横山祖道" },
+      { locale: "ja", nameType: "alias", value: "草笛禅師" },
+    ],
+    birthYear: 1907,
+    birthPrecision: "exact",
+    birthConfidence: "high",
+    deathYear: 1980,
+    deathPrecision: "exact",
+    deathConfidence: "high",
+    biography:
+      "Sodō Yokoyama (横山祖道, 1907–1980), widely remembered as the *Kusabue Zenji* (草笛禅師, \"Grass-Flute Zen Master\"), was a Dharma heir of Kōdō Sawaki and one of the most idiosyncratic figures in the modern Sōtō tradition[1]. He resided at Antai-ji from approximately 1949 to 1958, as the senior monk under Sawaki alongside Kōshō Uchiyama, and received Dharma transmission from Sawaki in 1958 — Sōtō Zen Buddhist Community Spain's biography calls him Sawaki's \"third successor in Dharma\"[1][2].\n\nAfter Antai-ji, Yokoyama renounced temple residence entirely and settled at Kaikō-en Park in Komoro, Nagano, where for some twenty-two years until his death he taught daily by sitting on a bench beside a stream and playing a leaf or blade of grass between his lips as a flute. He had no actual temple — the \"Taiyō-zan Seikū-ji\" name attached to him in some sources is an imaginary heart-temple. His sole confirmed disciple was Jōkō Shibata; Arthur Braverman's 2017 *Grass-Flute Zen Master: Sodō Yokoyama* is the principal English-language biography[2].",
+    citations: [
+      {
+        sourceId: "src_wikipedia",
+        fieldName: "biography",
+        pageOrSection:
+          "en.wikipedia.org/wiki/Sod%C5%8D_Yokoyama — Sodō Yokoyama (1907–1980), Sōtō Zen monk and grass-flute teacher.",
+      },
+      {
+        sourceId: "src_terebess",
+        fieldName: "biography",
+        pageOrSection: "terebess.hu/zen/mesterek/yokoyama.html — biographical entry; Braverman 2017 biography reference",
+      },
+    ],
+    footnotes: [
+      { index: 1, sourceId: "src_wikipedia", pageOrSection: "en.wikipedia — Sodō Yokoyama" },
+      { index: 2, sourceId: "src_terebess", pageOrSection: "terebess.hu + Spanish-language Sōtō sources" },
+    ],
+    transmissions: [
+      {
+        teacherSlug: "kodo-sawaki",
+        type: "primary",
+        isPrimary: true,
+        sourceIds: ["src_wikipedia", "src_terebess"],
+        notes:
+          "Dharma transmission from Kōdō Sawaki in 1958 — Sawaki's third Dharma successor per Spanish-language Sōtō biographical sources (sotozen.es, Villalba). English Wikipedia is conservative on the formal shihō but lists Jōkō Shibata as Yokoyama's own Dharma successor.",
+      },
+    ],
+  },
+  {
+    slug: "jakusho-kwong",
+    schoolSlug: "soto",
+    names: [
+      { locale: "en", nameType: "dharma", value: "Jakushō Kwong" },
+      { locale: "en", nameType: "alias", value: "Jakusho Kwong" },
+      { locale: "en", nameType: "alias", value: "Bill Kwong" },
+      { locale: "en", nameType: "alias", value: "Kwong Roshi" },
+    ],
+    birthYear: 1935,
+    birthPrecision: "exact",
+    birthConfidence: "high",
+    deathYear: null,
+    deathPrecision: "unknown",
+    deathConfidence: "low",
+    biography:
+      "Jakushō (Bill) Kwong (b. 14 November 1935, Santa Rosa, California) is a senior American Sōtō teacher and the founder (1973) of Sonoma Mountain Zen Center (Genjōji)[1]. He was a close personal student of Shunryū Suzuki at SFZC from 1959 until Suzuki's death in 1971, and Suzuki recognized him as a Dharma successor — but the formal transmission (shihō) was unfinished at Suzuki's death and was completed in 1978 at Rinso-In, Yaizu, Japan, by Suzuki's son and primary heir Hoitsu Suzuki, with the rite officiated by Hakusan Kojin Noiri[1][2]. Kwong subsequently spent approximately five years of interim transmission study with Kōbun Chino Otogawa. He is a Sōtōshū-certified Dendō-kyōshi (1995) and is recorded as a 91st-generation teacher in the Sōji-ji-line succession. His son Nyoze Demian Kwong received Dharma transmission from him in November 2014 and has served as abbot of Sonoma Mountain Zen Center since 2023[2].",
+    citations: [
+      {
+        sourceId: "src_wikipedia",
+        fieldName: "biography",
+        pageOrSection: "en.wikipedia.org/wiki/Jakusho_Kwong — Jakushō Kwong biographical entry",
+      },
+      {
+        sourceId: "src_originals_curated",
+        fieldName: "biography",
+        pageOrSection:
+          "smzc.org/teacher (Sonoma Mountain Zen Center) — \"Roshi Kwong received Dharma transmission from Hoitsu Suzuki Roshi in 1978\"; cuke.com Suzuki archive — Bill Kwong",
+      },
+    ],
+    footnotes: [
+      { index: 1, sourceId: "src_wikipedia", pageOrSection: "en.wikipedia — Jakushō Kwong" },
+      { index: 2, sourceId: "src_originals_curated", pageOrSection: "smzc.org + cuke.com" },
+    ],
+    transmissions: [
+      {
+        teacherSlug: "hoitsu-suzuki",
+        type: "primary",
+        isPrimary: true,
+        sourceIds: ["src_wikipedia", "src_originals_curated"],
+        notes:
+          "Dharma transmission (shihō) 1978 at Rinso-In, Yaizu, Japan, from Hoitsu Suzuki (Shunryū Suzuki's son and primary heir). Hakusan Kojin Noiri officiated. The Shunryū Suzuki relationship (1959–1971) was the formative root-teacher discipleship; Suzuki recognized Kwong as a successor but died before completing transmission. The 1978 Hoitsu shihō is the institutional Sōtōshū-registered edge.",
+      },
+      {
+        teacherSlug: "shunryu-suzuki",
+        type: "secondary",
+        isPrimary: false,
+        sourceIds: ["src_wikipedia"],
+        notes:
+          "Root-teacher discipleship 1959–1971 at SFZC. Suzuki recognized Kwong as a Dharma successor but died before formal transmission; the institutional shihō was completed by his son Hoitsu in 1978.",
+      },
+    ],
+  },
+  {
+    slug: "sojun-mel-weitsman",
+    schoolSlug: "soto",
+    names: [
+      { locale: "en", nameType: "dharma", value: "Sojun Mel Weitsman" },
+      { locale: "en", nameType: "alias", value: "Mel Weitsman" },
+      { locale: "en", nameType: "alias", value: "Hakuryū Sōjun" },
+      { locale: "ja", nameType: "dharma", value: "白龍祖珣" },
+    ],
+    birthYear: 1929,
+    birthPrecision: "exact",
+    birthConfidence: "high",
+    deathYear: 2021,
+    deathPrecision: "exact",
+    deathConfidence: "high",
+    biography:
+      "Sojun Mel Weitsman (20 July 1929 – 7 January 2021), dharma name Hakuryū Sōjun (白龍祖珣), was a senior American Sōtō Zen teacher and the founding abbot of Berkeley Zen Center, which he co-founded in 1967 and led as abbot from 1985 onward[1]. He met Shunryū Suzuki in 1964, was ordained as a priest by Suzuki in 1969 at the Berkeley zendō, and was Suzuki's close student until Suzuki's death in 1971 — but Suzuki died before he could give Weitsman formal Dharma transmission, and the shihō was completed in 1984 at Rinso-In in Japan by Suzuki's son Hoitsu Suzuki[1][2]. From 1988 to 1997 Weitsman also served as co-abbot of SFZC alongside Tenshin Reb Anderson. He transmitted Dharma to twenty-two named successors, including Blanche Hartman (1988), Zoketsu Norman Fischer (1988), Hozan Alan Senauke, Edward Espe Brown, Gil Fronsdal, Sojun Michael Wenger, and Myogen Steve Stücky[2].",
+    citations: [
+      {
+        sourceId: "src_wikipedia",
+        fieldName: "biography",
+        pageOrSection: "en.wikipedia.org/wiki/Mel_Weitsman — Sojun Mel Weitsman biographical entry",
+      },
+      {
+        sourceId: "src_originals_curated",
+        fieldName: "biography",
+        pageOrSection: "sfzc.org/teachers/sojun-mel-weitsman; tricycle.org/article/sojun-mel-weitsman/",
+      },
+    ],
+    footnotes: [
+      { index: 1, sourceId: "src_wikipedia", pageOrSection: "en.wikipedia — Mel Weitsman" },
+      { index: 2, sourceId: "src_originals_curated", pageOrSection: "SFZC official + Tricycle memorial" },
+    ],
+    transmissions: [
+      {
+        teacherSlug: "hoitsu-suzuki",
+        type: "primary",
+        isPrimary: true,
+        sourceIds: ["src_wikipedia", "src_originals_curated"],
+        notes:
+          "Dharma transmission (shihō) 1984 at Rinso-In, Yaizu, from Hoitsu Suzuki. The Shunryū Suzuki relationship (1964–1971) was the formative root-teacher discipleship and priest ordination (1969); Suzuki died before completing transmission and the institutional shihō was completed by his son Hoitsu.",
+      },
+      {
+        teacherSlug: "shunryu-suzuki",
+        type: "secondary",
+        isPrimary: false,
+        sourceIds: ["src_wikipedia"],
+        notes:
+          "Root-teacher discipleship 1964–1971 at SFZC; priest ordination in 1969. Shihō was completed posthumously via Hoitsu Suzuki in 1984.",
+      },
+    ],
+  },
+  {
+    slug: "reb-anderson",
+    schoolSlug: "soto",
+    names: [
+      { locale: "en", nameType: "dharma", value: "Tenshin Reb Anderson" },
+      { locale: "en", nameType: "alias", value: "Reb Anderson" },
+      { locale: "en", nameType: "alias", value: "Tenshin Zenki" },
+      { locale: "ja", nameType: "dharma", value: "天眞全機" },
+    ],
+    birthYear: 1943,
+    birthPrecision: "exact",
+    birthConfidence: "high",
+    deathYear: null,
+    deathPrecision: "unknown",
+    deathConfidence: "low",
+    biography:
+      "Tenshin Reb Anderson (天眞全機, born 1943) is a senior American Sōtō Zen teacher and a longtime central figure at San Francisco Zen Center, where he served as abbot from 1986 to 1995 (co-abbot with Sojun Mel Weitsman) and as a senior Dharma teacher at Green Gulch Farm Zen Center until his 2025 retirement[1]. He was ordained as a priest by Shunryū Suzuki in 1970 — a year before Suzuki's death — and received Dharma transmission (shihō) from Suzuki's direct American heir Zentatsu Richard Baker in 1983, making him Baker's first Dharma successor[1][2]. He has transmitted Dharma to eighteen named successors, the most recent being Shingan Sokei Thiemo Blank (2025).",
+    citations: [
+      {
+        sourceId: "src_wikipedia",
+        fieldName: "biography",
+        pageOrSection: "en.wikipedia.org/wiki/Reb_Anderson — Tenshin Reb Anderson biographical entry",
+      },
+      {
+        sourceId: "src_originals_curated",
+        fieldName: "biography",
+        pageOrSection: "rebanderson.org — official biography page",
+      },
+    ],
+    footnotes: [
+      { index: 1, sourceId: "src_wikipedia", pageOrSection: "en.wikipedia — Reb Anderson" },
+      { index: 2, sourceId: "src_originals_curated", pageOrSection: "rebanderson.org" },
+    ],
+    transmissions: [
+      {
+        teacherSlug: "richard-zentatsu-baker",
+        type: "primary",
+        isPrimary: true,
+        sourceIds: ["src_wikipedia", "src_originals_curated"],
+        notes:
+          "Dharma transmission (shihō) 1983 from Zentatsu Richard Baker — Anderson was Baker's first Dharma successor. Note: Baker initially disputed the ceremony's completeness during his 1983 SFZC-resignation crisis; the SFZC board affirmed the transmission and Baker later concurred.",
+      },
+      {
+        teacherSlug: "shunryu-suzuki",
+        type: "secondary",
+        isPrimary: false,
+        sourceIds: ["src_wikipedia"],
+        notes:
+          "Ordained as priest by Shunryū Suzuki in 1970 — a year before Suzuki's death. The institutional shihō was from Baker in 1983.",
+      },
+    ],
+  },
   {
     slug: "hoitsu-suzuki",
     schoolSlug: "soto",
