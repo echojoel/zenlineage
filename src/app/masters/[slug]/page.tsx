@@ -849,33 +849,52 @@ export default async function MasterDetailPage({ params }: { params: Promise<{ s
         )}
 
         {teachers.length > 0 && (() => {
-          // Split incoming edges into two display buckets:
-          //   - "Dharma transmission from": formal shihō (type='primary')
-          //     plus 'disputed' (historically contested transmissions)
-          //     plus 'dharma' editorial bridges where no primary edge exists.
-          //   - "Ordained by / trained under": discipleship without shihō
-          //     (type='secondary').
+          // Split incoming edges into three display buckets. The model
+          // we settled on (after discussing the Deshimaru-line cases
+          // with the user) prefers the practitioner / lived-lineage
+          // view: `primary` means root teacher / master (the relation
+          // of long discipleship), and a SEPARATE labelled "Formal
+          // Dharma transmission (shihō)" section calls out the special
+          // case where formal sh̄ho was conferred by a different
+          // master (often posthumously, in Japan).
+          //
+          //   1. "Teacher / root master:" — primary edges (and any
+          //      `disputed` edges; plus `dharma` editorial-bridge
+          //      fallbacks shown only when no primary edge exists).
+          //   2. "Formal Dharma transmission (shihō):" — secondary
+          //      edges whose `notes` field flags them as shihō (the
+          //      seed-shiho-corrections.ts script prefixes those
+          //      notes with "Formal Dharma transmission (shihō)").
+          //   3. "Additional teachers:" — any remaining secondary
+          //      edges (brief / additional teachers, not flagged as
+          //      shihō).
           const primaryEdges = teachers.filter((t) => t.type === "primary");
           const disputedEdges = teachers.filter((t) => t.type === "disputed");
           const dharmaEdges = teachers.filter((t) => t.type === "dharma");
           const secondaryEdges = teachers.filter((t) => t.type === "secondary");
 
-          const transmissionEdges = [
+          const isShihoNote = (notes: string | null) =>
+            typeof notes === "string" && /formal dharma transmission|shih[oō]/i.test(notes);
+
+          const shihoEdges = secondaryEdges.filter((t) => isShihoNote(t.notes));
+          const otherSecondaryEdges = secondaryEdges.filter((t) => !isShihoNote(t.notes));
+
+          const rootTeacherEdges = [
             ...primaryEdges,
             ...disputedEdges,
-            // Only show 'dharma' editorial bridges if there is no real
-            // primary edge — they exist as a fallback, not in addition.
+            // `dharma` editorial bridges are a fallback — show only
+            // when no real primary edge exists.
             ...(primaryEdges.length === 0 ? dharmaEdges : []),
           ];
 
           const renderTeacherItem = (t: (typeof teachers)[number]) => {
             const relationshipLabel =
               t.type === "primary"
-                ? t.isPrimary
-                  ? "Dharma transmission (shihō)"
-                  : "primary"
+                ? "Root teacher / master"
                 : t.type === "secondary"
-                  ? "ordained / trained under"
+                  ? isShihoNote(t.notes)
+                    ? "Formal Dharma transmission (shihō)"
+                    : "additional teacher"
                   : t.type === "dharma"
                     ? "Dharma transmission (editorial bridge)"
                     : t.type === "disputed"
@@ -902,24 +921,43 @@ export default async function MasterDetailPage({ params }: { params: Promise<{ s
               <h3 className="detail-section-title">
                 Teachers and lineage of {primaryName}
               </h3>
-              {transmissionEdges.length > 0 && (
+              {rootTeacherEdges.length > 0 && (
                 <>
-                  <h4 className="detail-subsection-title">Dharma transmission from:</h4>
+                  <h4 className="detail-subsection-title">
+                    {rootTeacherEdges.length === 1 ? "Teacher / root master:" : "Teachers / root masters:"}
+                  </h4>
                   <ul className="detail-link-list">
-                    {transmissionEdges.map(renderTeacherItem)}
+                    {rootTeacherEdges.map(renderTeacherItem)}
                   </ul>
                 </>
               )}
-              {secondaryEdges.length > 0 && (
+              {shihoEdges.length > 0 && (
                 <>
                   <h4
                     className="detail-subsection-title"
-                    style={transmissionEdges.length > 0 ? { marginTop: "1.2rem" } : undefined}
+                    style={rootTeacherEdges.length > 0 ? { marginTop: "1.2rem" } : undefined}
                   >
-                    Ordained by / trained under:
+                    Formal Dharma transmission (shihō):
                   </h4>
                   <ul className="detail-link-list">
-                    {secondaryEdges.map(renderTeacherItem)}
+                    {shihoEdges.map(renderTeacherItem)}
+                  </ul>
+                </>
+              )}
+              {otherSecondaryEdges.length > 0 && (
+                <>
+                  <h4
+                    className="detail-subsection-title"
+                    style={
+                      rootTeacherEdges.length > 0 || shihoEdges.length > 0
+                        ? { marginTop: "1.2rem" }
+                        : undefined
+                    }
+                  >
+                    Additional teachers:
+                  </h4>
+                  <ul className="detail-link-list">
+                    {otherSecondaryEdges.map(renderTeacherItem)}
                   </ul>
                 </>
               )}

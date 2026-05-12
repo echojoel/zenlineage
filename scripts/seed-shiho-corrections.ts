@@ -1,16 +1,17 @@
 /**
- * Seed Deshimaru-line shihō / ordination corrections.
+ * Seed Deshimaru-line shihō / root-teacher corrections.
  *
  * Runs LAST in the prebuild chain, after seed-db.ts, seed-deshimaru-lineage.ts,
  * and the other lineage seeders have established the basic transmission graph.
  *
  * Background — Taisen Deshimaru (1914–1982) did not himself confer dharma
  * transmission (shihō) on any of his Western disciples. He was their
- * ordination master and root teacher, but the formal Sōtō shihō that
- * authenticates each of them was conferred by a small set of Japanese
- * Sōtōshū prelates after Deshimaru's death:
+ * root master — they trained under him for years, often a decade or more,
+ * until his death in 1982. After he died, several of them travelled to
+ * Japan and received the formal Sōtōshū shihō from a master they had
+ * not themselves trained under:
  *
- *   • Niwa Rempō Zenji, 77th abbot of Eihei-ji 1985–1993
+ *   • Niwa Rempō Zenji (77th abbot of Eihei-ji, 1985–1993)
  *       → Étienne Mokushō Zeisler, Roland Yuno Rech, and Stéphane Kōsen
  *         Thibaut (1984, at Eihei-ji)
  *   • Yūkō Okamoto Roshi (Teishōji)
@@ -21,18 +22,39 @@
  *   • Dōshō Saikawa (Hossen-ji / Kasuisai abbot)
  *       → Olivier Reigen Wang-Genh (2001)
  *
- * The pre-existing seeders (seed-db.ts via the raw curated JSON;
- * seed-deshimaru-lineage.ts) recorded ALL of these students as having
- * a `primary` Dharma transmission edge from Deshimaru himself. That is
- * historically wrong. This script applies the corrections:
+ * The model we settled on after walking through these cases with the
+ * user — and explicitly preferring the practitioner / lived-lineage
+ * view over the Sōtōshū institutional view:
  *
- *   R1. `primary` in `master_transmissions` means *documented Dharma
- *       transmission (shihō)*. Nothing else.
- *   R2. Deshimaru → X edges are re-typed to `secondary` with isPrimary
- *       cleared; notes preserve the ordination-master context.
- *   R3. The real shihō edges (Niwa/Okamoto/Kishigami/Saikawa → X) are
- *       created as `primary` with isPrimary=true, replacing any prior
- *       `dharma`-typed editorial-bridge edge to the same teacher.
+ *   R1. `primary` (isPrimary = true) means *root teacher*: the master
+ *       you actually trained under, often for many years, the master
+ *       you call your master. For most students this is also the
+ *       shihō giver. For Deshimaru's disciples, this is Deshimaru.
+ *
+ *   R2. `secondary` (isPrimary = false) covers EVERY non-root teacher
+ *       relationship, including formal Dharma transmission (shihō)
+ *       received from someone other than the root master, and ordinary
+ *       brief / additional teachers. Notes on the edge must say which
+ *       kind. The master-detail page UI surfaces the distinction by
+ *       parsing the notes — sh̄ho-typed secondary edges get their own
+ *       prominent "Formal Dharma transmission (shihō):" section.
+ *
+ *   R3. `dharma` is the editorial-bridge fallback only (when the
+ *       literal teacher isn't seeded yet). `disputed` is contested.
+ *
+ * What this script does:
+ *
+ *   1. Ensure Deshimaru → X is `primary` / isPrimary=true for every
+ *      one of his disciples, with notes preserving the root-teacher
+ *      narrative. This reverses an earlier pass that had downgraded
+ *      these to `secondary`.
+ *
+ *   2. Ensure each post-death shihō edge (Niwa/Okamoto/Kishigami/
+ *      Saikawa/Thibaut/Triet/Bec → X) is `secondary` / isPrimary=false,
+ *      with notes that begin with the marker "Formal Dharma
+ *      transmission (shihō)" so the UI can detect them.
+ *
+ *   3. Add citation rows on each shihō edge documenting its source.
  *
  * Idempotent. Safe to re-run.
  *
@@ -47,19 +69,23 @@ import { citations, masters, masterTransmissions } from "@/db/schema";
 interface ShihoCorrection {
   /** Student whose lineage we're correcting. */
   student: string;
-  /** The slug of the master who actually gave shihō to this student. */
+  /** Slug of the master who actually gave shihō to this student. */
   shihoTeacher: string;
   /** Year of the shihō ceremony (if known). */
   shihoYear?: number;
   /** Source IDs that document this transmission. */
   sourceIds: string[];
-  /** Explanatory notes carried on the shihō edge. */
+  /**
+   * Notes carried on the shihō edge. MUST begin with the marker
+   * "Formal Dharma transmission (shihō)" so the master-detail page
+   * UI can detect it and surface it under its own labelled section.
+   */
   shihoNotes: string;
   /**
-   * Notes to write on the Deshimaru → student edge after re-typing it
-   * to `secondary`. Captures the ordination / discipleship role.
+   * Notes for the Deshimaru → student PRIMARY edge — the root-teacher
+   * relationship the disciple actually trained in.
    */
-  ordinationNotes: string;
+  rootTeacherNotes: string;
 }
 
 const CORRECTIONS: ShihoCorrection[] = [
@@ -70,9 +96,9 @@ const CORRECTIONS: ShihoCorrection[] = [
     shihoYear: 1984,
     sourceIds: ["src_wikipedia", "src_zen_deshimaru_history"],
     shihoNotes:
-      "Dharma transmission (shihō) received in 1984 from Niwa Rempō Zenji, 77th abbot of Eihei-ji, together with Roland Yuno Rech and Stéphane Kōsen Thibaut. Source: en.wikipedia.org — Taisen Deshimaru § Students: \"After Master Deshimaru's death, three of his closest disciples — Etienne Zeisler, Roland Rech, and Kosen Thibaut — traveled to Japan to receive shiho from Master Rempo Niwa Zenji.\"",
-    ordinationNotes:
-      "Ordination master / direct disciple. Zeisler was ordained as a monk by Deshimaru and trained under him until Deshimaru's death in 1982. Formal Dharma transmission (shihō) came not from Deshimaru himself but from Niwa Rempō Zenji of Eihei-ji in 1984.",
+      "Formal Dharma transmission (shihō), 1984 at Eihei-ji. Conferred by Niwa Rempō Zenji, 77th abbot of Eihei-ji, together with Roland Yuno Rech and Stéphane Kōsen Thibaut. Source: en.wikipedia.org — Taisen Deshimaru § Students: \"After Master Deshimaru's death, three of his closest disciples — Etienne Zeisler, Roland Rech, and Kosen Thibaut — traveled to Japan to receive shiho from Master Rempo Niwa Zenji.\"",
+    rootTeacherNotes:
+      "Root teacher / master. Zeisler met Deshimaru in the years after Deshimaru's 1967 arrival in Paris, was ordained by him as a monk, and was one of his three principal direct disciples until Deshimaru's death in 1982.",
   },
   {
     student: "roland-rech",
@@ -80,9 +106,9 @@ const CORRECTIONS: ShihoCorrection[] = [
     shihoYear: 1984,
     sourceIds: ["src_wikipedia"],
     shihoNotes:
-      "Dharma transmission (shihō) received in 1984 from Niwa Rempō Zenji, 77th abbot of Eihei-ji, together with Étienne Zeisler and Kōsen Thibaut. Took the dharma name Yuno (有能) at that ceremony. Source: fr.wikipedia.org — Roland Yuno Rech.",
-    ordinationNotes:
-      "Ordination master / direct disciple. Rech was a disciple of Deshimaru from 1972 until Deshimaru's death in 1982, ordained as a monk in 1974. His shihō came not from Deshimaru himself but from Niwa Rempō Zenji of Eihei-ji in 1984.",
+      "Formal Dharma transmission (shihō), 1984 at Eihei-ji. Conferred by Niwa Rempō Zenji together with Étienne Zeisler and Kōsen Thibaut. Rech took the dharma name Yuno (有能) at that ceremony. Source: fr.wikipedia.org — Roland Yuno Rech.",
+    rootTeacherNotes:
+      "Root teacher / master. Rech was a disciple of Deshimaru from 1972 until Deshimaru's death in 1982, ordained as a monk in 1974. He kept his industrial-management career on Deshimaru's recommendation to serve as one of the master's principal translators, dōjō coordinators, and sesshin leaders.",
   },
   {
     student: "stephane-kosen-thibaut",
@@ -90,9 +116,9 @@ const CORRECTIONS: ShihoCorrection[] = [
     shihoYear: 1984,
     sourceIds: ["src_wikipedia", "src_zen_deshimaru_history"],
     shihoNotes:
-      "Dharma transmission (shihō) received in 1984 from Niwa Rempō Zenji, 77th abbot of Eihei-ji, together with Étienne Zeisler and Roland Yuno Rech. Source: en.wikipedia.org — Taisen Deshimaru § Students.",
-    ordinationNotes:
-      "Ordination master / direct disciple. Thibaut was a close disciple of Deshimaru who later founded the Kōsen Sangha. His formal Dharma transmission came not from Deshimaru himself but from Niwa Rempō Zenji of Eihei-ji in 1984.",
+      "Formal Dharma transmission (shihō), 1984 at Eihei-ji. Conferred by Niwa Rempō Zenji together with Étienne Zeisler and Roland Yuno Rech. Source: en.wikipedia.org — Taisen Deshimaru § Students.",
+    rootTeacherNotes:
+      "Root teacher / master. Thibaut was a close direct disciple of Deshimaru who later founded the Kōsen Sangha, the network of dōjōs around the Yu Jō Nyūsanji temple and the Kanshōji branch of the AZI federation.",
   },
   // ── Okamoto Roshi shihō recipients ──────────────────────────────────
   {
@@ -101,9 +127,9 @@ const CORRECTIONS: ShihoCorrection[] = [
     shihoYear: 1997,
     sourceIds: ["src_azi", "src_seikyuji"],
     shihoNotes:
-      "Dharma transmission (shihō) received in 1997 from Yūkō Okamoto Roshi, \"a friend of Master Deshimaru\". Source: zen-azi.org — Raphaël Dōkō Triet biography.",
-    ordinationNotes:
-      "Ordination master / direct disciple. Deshimaru ordained Triet as a monk in 1973 and he was one of his close disciples in the founding Paris sangha. Shihō came not from Deshimaru himself but from Yūkō Okamoto in 1997.",
+      "Formal Dharma transmission (shihō), 1997. Conferred by Yūkō Okamoto Roshi, \"a friend of Master Deshimaru\". Source: zen-azi.org — Raphaël Dōkō Triet biography.",
+    rootTeacherNotes:
+      "Root teacher / master. Triet began practising zazen with Deshimaru in 1971 at the Paris dōjō and was ordained as a monk by him in 1973; he was one of Deshimaru's close direct disciples in the founding Paris sangha until Deshimaru's 1982 death.",
   },
   {
     student: "michel-reiku-bovay",
@@ -111,9 +137,9 @@ const CORRECTIONS: ShihoCorrection[] = [
     shihoYear: 1998,
     sourceIds: ["src_dojo_lausanne"],
     shihoNotes:
-      "Dharma transmission (shihō) received in 1998 from Yūkō Okamoto Roshi at Teishōji in Japan. Source: Muijoji / zen.ch biography of Meihō Missen Michel Bovay.",
-    ordinationNotes:
-      "Ordination master / direct disciple. Bovay began zazen with Deshimaru in Paris in 1972 and was ordained as a monk by him. Shihō came not from Deshimaru himself but from Yūkō Okamoto at Teishōji in 1998.",
+      "Formal Dharma transmission (shihō), 1998 at Teishōji in Japan. Conferred by Yūkō Okamoto Roshi. Source: Muijoji / zen.ch biography of Meihō Missen Michel Bovay.",
+    rootTeacherNotes:
+      "Root teacher / master. Bovay began zazen with Deshimaru in Paris in 1972 and was ordained as a monk by him. He was one of the closest Swiss-French direct disciples and held the AZI presidency 1995–2003.",
   },
   // ── Kishigami / Saikawa shihō recipients (independent Sawaki line) ──
   {
@@ -122,9 +148,9 @@ const CORRECTIONS: ShihoCorrection[] = [
     shihoYear: 2008,
     sourceIds: ["src_sangha_sans_demeure", "src_zen_road"],
     shihoNotes:
-      "Dharma transmission (shihō) received on 31 August 2008 at the Dōjō Zen de Paris from Kōjun Kishigami — a direct Sawaki disciple who himself received shihō from Sawaki one month before Sawaki's 1965 death. Completes a Sawaki → Kishigami → Coupey line that runs parallel to the older Sawaki → Deshimaru → Coupey ordination line.",
-    ordinationNotes:
-      "Ordination master / direct disciple. Deshimaru ordained Coupey as a monk in 1972 and he served as Deshimaru's principal English-language transcriber until Deshimaru's death in 1982. Shihō came not from Deshimaru himself but from Kishigami Kōjun in 2008.",
+      "Formal Dharma transmission (shihō), 31 August 2008 at the Dōjō Zen de Paris. Conferred by Kōjun Kishigami — a direct Sawaki disciple who himself received shihō from Sawaki one month before Sawaki's 1965 death. Completes a Sawaki → Kishigami → Coupey transmission line parallel to the Sawaki → Deshimaru → Coupey root-teacher line.",
+    rootTeacherNotes:
+      "Root teacher / master. Deshimaru ordained Coupey as a monk in 1972 and Coupey served as Deshimaru's principal English-language transcriber from that year until Deshimaru's death in April 1982 — a continuous decade-long direct discipleship.",
   },
   {
     student: "olivier-reigen-wang-genh",
@@ -132,97 +158,67 @@ const CORRECTIONS: ShihoCorrection[] = [
     shihoYear: 2001,
     sourceIds: ["src_azi", "src_ryumonji_alsace"],
     shihoNotes:
-      "Dharma transmission (shihō) received in 2001 from Dōshō Saikawa Roshi, abbot of Hossen-ji and Kasuisai. Source: zen-azi.org — Olivier Reigen Wang-Genh biography: \"In 2001, he received the Dharma transmission from Master Dôshô Saikawa.\"",
-    ordinationNotes:
-      "Ordination master / direct disciple. Deshimaru ordained Wang-Genh as a monk in 1977 and he was one of his close European disciples until Deshimaru's death in 1982. Shihō came not from Deshimaru himself but from Dōshō Saikawa in 2001.",
+      "Formal Dharma transmission (shihō), 2001. Conferred by Dōshō Saikawa Roshi, abbot of Hossen-ji and Kasuisai. Source: zen-azi.org — Olivier Reigen Wang-Genh biography: \"In 2001, he received the Dharma transmission from Master Dôshô Saikawa.\"",
+    rootTeacherNotes:
+      "Root teacher / master. Deshimaru ordained Wang-Genh as a monk in 1977 and he was one of his close European direct disciples until Deshimaru's 1982 death; from 1973 onward he had been developing the Strasbourg dōjō under Deshimaru's authority.",
   },
-  // ── Second-generation shihō recipients within the Deshimaru line ───
-  // These edges currently exist in the DB as type='dharma' (editorial
-  // bridge); promote to primary because the shihō is documented.
+  // ── Second-generation Deshimaru-line shihō recipients ──────────────
   {
     student: "hugues-yusen-naas",
     shihoTeacher: "raphael-doko-triet",
     shihoYear: 2009,
     sourceIds: ["src_azi"],
     shihoNotes:
-      "Dharma transmission (shihō) received in 2009 from Raphaël Dōkō Triet. Source: zen-azi.org — Hugues Yūsen Naas biography: \"In 2009, he received the transmission of the Dharma from Master Dôkô Raphaël Triet.\"",
-    ordinationNotes:
-      "Ordination master. Naas was ordained as a monk by Deshimaru in 1977; his Dharma transmission came from Triet (Deshimaru's own disciple) in 2009 — a second-generation Deshimaru-line shihō.",
+      "Formal Dharma transmission (shihō), 2009. Conferred by Raphaël Dōkō Triet, Deshimaru's own ordained disciple. Source: zen-azi.org — Hugues Yūsen Naas biography: \"In 2009, he received the transmission of the Dharma from Master Dôkô Raphaël Triet.\"",
+    rootTeacherNotes:
+      "Root teacher / master. Naas was ordained as a monk by Deshimaru in 1977 and trained under him until Deshimaru's 1982 death; he later served as abbot of La Gendronnière 2019–2021 and founded the Centre Zen du Perche Daishugyōji.",
   },
   {
     student: "barbara-kosen-richaudeau",
     shihoTeacher: "stephane-kosen-thibaut",
     sourceIds: ["src_kosen_sangha"],
     shihoNotes:
-      "Dharma transmission (shihō) received from Stéphane Kōsen Thibaut as part of the Kōsen Sangha second-generation cohort.",
-    ordinationNotes:
-      "Ordination master. Barbara Kōsen Richaudeau was ordained as a Zen nun by Deshimaru in 1975 and followed him until his death in 1982. Her formal Dharma transmission came from Thibaut, not from Deshimaru himself.",
+      "Formal Dharma transmission (shihō) from Stéphane Kōsen Thibaut, second-generation Deshimaru-line. Part of the Kōsen Sangha shihō cohort.",
+    rootTeacherNotes:
+      "Root teacher / master. Barbara Kōsen Richaudeau was ordained as a Zen nun by Deshimaru in 1975 and followed him as a close direct disciple until his death in 1982.",
   },
   {
     student: "andre-ryujo-meissner",
     shihoTeacher: "stephane-kosen-thibaut",
     sourceIds: ["src_kosen_sangha"],
     shihoNotes:
-      "Dharma transmission (shihō) received from Stéphane Kōsen Thibaut as part of the Kōsen Sangha second-generation cohort, framed in the Kōsen Sangha roster as \"in the name of Master Deshimaru\".",
-    ordinationNotes:
-      "Ordination master / direct disciple. André Ryūjō Meissner was a direct disciple of Deshimaru; his formal Dharma transmission came from Thibaut, not from Deshimaru himself.",
+      "Formal Dharma transmission (shihō) from Stéphane Kōsen Thibaut, second-generation Deshimaru-line. Framed in the Kōsen Sangha roster as \"in the name of Master Deshimaru\".",
+    rootTeacherNotes:
+      "Root teacher / master. André Ryūjō Meissner was a close direct disciple of Deshimaru, ordained by him in the 1970s.",
   },
   {
     student: "francoise-jomon-julien",
     shihoTeacher: "stephane-kosen-thibaut",
     sourceIds: ["src_kosen_sangha"],
     shihoNotes:
-      "Dharma transmission (shihō) received from Stéphane Kōsen Thibaut.",
-    ordinationNotes:
-      "Discipleship. Françoise Jōmon Julien began zazen with Deshimaru in 1979 and received bodhisattva ordination from him. Her formal Dharma transmission came from Thibaut, not from Deshimaru himself.",
+      "Formal Dharma transmission (shihō) from Stéphane Kōsen Thibaut.",
+    rootTeacherNotes:
+      "Root teacher / master. Françoise Jōmon Julien began zazen with Deshimaru in 1979 and received bodhisattva ordination from him.",
   },
   {
     student: "ingrid-gyuji-igelnick",
     shihoTeacher: "stephane-kosen-thibaut",
     sourceIds: ["src_kosen_sangha"],
     shihoNotes:
-      "Dharma transmission (shihō) received from Stéphane Kōsen Thibaut in 1984.",
-    ordinationNotes:
-      "First encountered Deshimaru in 1978; ordained by Thibaut in 1984. Discipleship under Deshimaru; formal Dharma transmission from Thibaut.",
+      "Formal Dharma transmission (shihō), 1984. Conferred by Stéphane Kōsen Thibaut.",
+    rootTeacherNotes:
+      "Root teacher / master. Igelnick first encountered Deshimaru in 1978; she was ordained by Thibaut in 1984 but her formative discipleship was with Deshimaru.",
   },
-  // ── Vuillemin: Zeisler-line ordination + Bec 2007 shihō ─────────────
+  // ── Vuillemin: Zeisler-line root teacher + Bec 2007 shihō ───────────
   {
     student: "vincent-keisen-vuillemin",
     shihoTeacher: "yvon-myoken-bec",
     shihoYear: 2007,
     sourceIds: ["src_mokusho_house"],
     shihoNotes:
-      "Dharma transmission (shihō) received on 25 March 2007 from Yvon Myōken Bec — Bec's first shihō granted. Completes the Deshimaru → Zeisler → Bec → Vuillemin line. Source: Mokushō Zen House — Our Story: \"2007 Master Myoken grants Dharma transmission to Vincent Keisen Vuillemin.\"",
-    ordinationNotes:
-      "Ordination master. Vuillemin was ordained by Deshimaru in the late 1970s. His Dharma transmission came from Yvon Myōken Bec in 2007, in the Zeisler line.",
-  },
-];
-
-/**
- * Students whose Deshimaru edge needs to be retyped from primary →
- * secondary, even if we don't (yet) have a documented shihō from a
- * non-Deshimaru teacher. Their Deshimaru edge stops claiming shihō.
- */
-const ORDINATION_ONLY_RETYPES: { student: string; ordinationNotes: string }[] = [
-  {
-    student: "evelyne-eko-de-smedt",
-    ordinationNotes:
-      "Ordination master / direct disciple. De Smedt was ordained by Deshimaru in the 1970s and co-authored L'Anneau de la Voie with him; she has prefaced several of Deshimaru's posthumously-published volumes. No formal Dharma transmission (shihō) from Deshimaru himself is documented; she has remained the editorial voice of the line rather than a transmission successor.",
-  },
-  {
-    student: "pierre-reigen-crepon",
-    ordinationNotes:
-      "Ordination master / direct disciple. Crépon was ordained by Deshimaru and became the principal French-language biographer of the master. No formal Dharma transmission (shihō) from Deshimaru is documented; he carries the line as a senior AZI teacher rather than a transmission successor.",
-  },
-  {
-    student: "jean-pierre-genshu-faure",
-    ordinationNotes:
-      "Ordination master / direct disciple. Faure was ordained by Deshimaru and founded the Temple Zen Kanshōji (Dordogne) in 1999. No formal Dharma transmission (shihō) from Deshimaru is documented in the AZI / Sōtōshū public record.",
-  },
-  {
-    student: "robert-livingston",
-    ordinationNotes:
-      "Ordination master / direct disciple. Robert Livingston was a close disciple of Deshimaru in Paris in the 1970s and was designated by Deshimaru before 1982 to bring Sōtō practice to the United States, where he founded the New Orleans Zen Temple. He gave Dharma transmission to Tony Bland (2004) and Richard Reishin Collins (2016). No formal shihō from Deshimaru himself is documented in the published record.",
+      "Formal Dharma transmission (shihō), 25 March 2007 — Bec's first shihō granted. Completes the Deshimaru → Zeisler → Bec → Vuillemin transmission line. Source: Mokushō Zen House — Our Story: \"2007 Master Myoken grants Dharma transmission to Vincent Keisen Vuillemin.\"",
+    rootTeacherNotes:
+      "Root teacher / master. Vuillemin was ordained by Deshimaru in the late 1970s and trained under him until Deshimaru's 1982 death, after which he became a close disciple of Étienne Mokushō Zeisler until Zeisler's own early death in 1990. The Bec shihō in 2007 formalised the lineage.",
   },
 ];
 
@@ -237,14 +233,16 @@ async function deshimaruId(): Promise<string> {
   return id;
 }
 
-async function retypeDeshimaruEdge(
+/** Ensure Deshimaru → student is type='primary', isPrimary=true, with
+ *  root-teacher notes. Overrides any prior `secondary` typing. */
+async function ensureRootTeacherEdge(
   studentId: string,
   studentSlug: string,
   notes: string,
 ): Promise<void> {
   const deshimaru = await deshimaruId();
   const existing = await db
-    .select({ id: masterTransmissions.id })
+    .select({ id: masterTransmissions.id, type: masterTransmissions.type })
     .from(masterTransmissions)
     .where(
       and(
@@ -253,27 +251,30 @@ async function retypeDeshimaruEdge(
       ),
     );
   if (existing.length === 0) {
-    // Some students are recorded as direct Deshimaru disciples in the
-    // bio prose but the edge wasn't created — insert it as secondary.
     await db.insert(masterTransmissions).values({
       id: nanoid(),
       studentId,
       teacherId: deshimaru,
-      type: "secondary",
-      isPrimary: false,
+      type: "primary",
+      isPrimary: true,
       notes,
     });
-    console.log(`  + Deshimaru → ${studentSlug}: inserted as secondary`);
+    console.log(`  + Deshimaru → ${studentSlug}: inserted as primary (root teacher)`);
   } else {
     await db
       .update(masterTransmissions)
-      .set({ type: "secondary", isPrimary: false, notes })
+      .set({ type: "primary", isPrimary: true, notes })
       .where(eq(masterTransmissions.id, existing[0].id));
-    console.log(`  ~ Deshimaru → ${studentSlug}: retyped primary → secondary`);
+    const verb = existing[0].type === "primary" ? "kept" : "restored";
+    console.log(`  ~ Deshimaru → ${studentSlug}: ${verb} as primary (root teacher)`);
   }
 }
 
-async function upsertShihoEdge(c: ShihoCorrection): Promise<void> {
+/** Ensure the shihō-giver → student edge is type='secondary',
+ *  isPrimary=false, with notes flagged as "Formal Dharma transmission
+ *  (shihō)" so the master-detail page UI can surface it under its own
+ *  prominent labelled section. */
+async function ensureShihoEdge(c: ShihoCorrection): Promise<void> {
   const studentId = await resolveMasterId(c.student);
   if (!studentId) {
     console.warn(`  ⚠ ${c.student} not in DB — skipping`);
@@ -299,22 +300,21 @@ async function upsertShihoEdge(c: ShihoCorrection): Promise<void> {
   const values = {
     studentId,
     teacherId,
-    type: "primary",
-    isPrimary: true,
+    type: "secondary",
+    isPrimary: false,
     notes: c.shihoNotes,
   };
 
   if (existing.length === 0) {
     await db.insert(masterTransmissions).values({ id: edgeId, ...values });
-    console.log(`  + ${c.shihoTeacher} → ${c.student}: inserted as primary (shihō)`);
+    console.log(`  + ${c.shihoTeacher} → ${c.student}: inserted as secondary (shihō)`);
   } else {
     await db
       .update(masterTransmissions)
       .set(values)
       .where(eq(masterTransmissions.id, edgeId));
-    console.log(
-      `  ~ ${c.shihoTeacher} → ${c.student}: promoted ${existing[0].type} → primary (shihō)`,
-    );
+    const verb = existing[0].type === "secondary" ? "kept" : `re-typed ${existing[0].type} →`;
+    console.log(`  ~ ${c.shihoTeacher} → ${c.student}: ${verb} secondary (shihō)`);
   }
 
   // Citation rows for the shihō edge.
@@ -338,29 +338,59 @@ async function upsertShihoEdge(c: ShihoCorrection): Promise<void> {
     });
   }
 
-  // Now retype Deshimaru → student to secondary with the ordination notes.
-  await retypeDeshimaruEdge(studentId, c.student, c.ordinationNotes);
+  // And ensure Deshimaru → student is the primary root-teacher edge.
+  await ensureRootTeacherEdge(studentId, c.student, c.rootTeacherNotes);
 }
 
-async function main() {
-  console.log("Applying Deshimaru-line shihō / ordination corrections…\n");
+/**
+ * Direct Deshimaru disciples who have NO documented sh̄ho from anyone
+ * (Deshimaru never transmitted; no post-death sh̄ho from another
+ * Japanese master is recorded for them either). Their Deshimaru edge
+ * should remain `primary` (he was their root teacher) — we explicitly
+ * ensure that here in case an earlier seeding pass left it `secondary`.
+ */
+const ORDINATION_ONLY_DIRECT_DISCIPLES: { student: string; rootTeacherNotes: string }[] = [
+  {
+    student: "evelyne-eko-de-smedt",
+    rootTeacherNotes:
+      "Root teacher / master. De Smedt was ordained by Deshimaru in the 1970s and co-authored L'Anneau de la Voie with him; she has prefaced several of Deshimaru's posthumous volumes. No formal Dharma transmission (shihō) is documented in her record — she has remained the editorial voice of the line rather than a transmission successor.",
+  },
+  {
+    student: "pierre-reigen-crepon",
+    rootTeacherNotes:
+      "Root teacher / master. Crépon was ordained by Deshimaru and became the principal French-language biographer of the master. No formal Dharma transmission (shihō) is documented in his record; he carries the line as a senior AZI teacher.",
+  },
+  {
+    student: "jean-pierre-genshu-faure",
+    rootTeacherNotes:
+      "Root teacher / master. Faure was ordained by Deshimaru and founded the Temple Zen Kanshōji (Dordogne) in 1999. No formal Dharma transmission (shihō) from a separate teacher is documented in the AZI / Sōtōshū public record.",
+  },
+  {
+    student: "robert-livingston",
+    rootTeacherNotes:
+      "Root teacher / master. Robert Livingston was a close direct disciple of Deshimaru in Paris in the 1970s and was designated by Deshimaru before 1982 to bring Sōtō practice to the United States, where he founded the New Orleans Zen Temple in 1991. He gave Dharma transmission to Tony Bland (2004) and Richard Reishin Collins (2016). No formal sh̄ho from a separate teacher is documented in his record.",
+  },
+];
 
-  console.log("→ Shihō edges (new or promoted):");
+async function main() {
+  console.log("Applying Deshimaru-line shihō / root-teacher corrections…\n");
+
+  console.log("→ Shihō edges (secondary, flagged 'Formal Dharma transmission'):");
   for (const c of CORRECTIONS) {
-    await upsertShihoEdge(c);
+    await ensureShihoEdge(c);
   }
 
-  console.log("\n→ Ordination-only retypes (Deshimaru-edge → secondary, no shihō yet documented):");
-  for (const o of ORDINATION_ONLY_RETYPES) {
+  console.log("\n→ Ordination-only direct disciples (ensure Deshimaru edge is primary):");
+  for (const o of ORDINATION_ONLY_DIRECT_DISCIPLES) {
     const studentId = await resolveMasterId(o.student);
     if (!studentId) {
       console.warn(`  ⚠ ${o.student} not in DB — skipping`);
       continue;
     }
-    await retypeDeshimaruEdge(studentId, o.student, o.ordinationNotes);
+    await ensureRootTeacherEdge(studentId, o.student, o.rootTeacherNotes);
   }
 
-  console.log("\n=== Deshimaru-line shihō / ordination corrections complete ===");
+  console.log("\n=== Deshimaru-line shihō / root-teacher corrections complete ===");
 }
 
 main().catch((err) => {
