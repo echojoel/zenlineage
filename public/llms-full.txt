@@ -1,7 +1,7 @@
 # Zen Lineage — Complete Reference
 
-> An open-source interactive encyclopedia of Zen Buddhism covering 490+ masters,
-> 25 schools, 520+ lineage transmissions, 795+ teachings, and 1,700+ scholarly
+> An open-source interactive encyclopedia of Zen Buddhism covering 500+ masters,
+> 25 schools, 530+ lineage transmissions, 795+ teachings, and 1,700+ scholarly
 > citations across 2,500 years of Chan, Zen, Seon, and Thien Buddhist history.
 
 Zen Lineage maps the dharma transmission lineages connecting Buddhist masters
@@ -956,7 +956,7 @@ Chin'gak Hyesim (眞覺慧諶, 1178–1234) was Jinul's principal disciple and s
 - **Dates:** 1198 – 1280
 - **School:** Sōtō
 - **Teachers:** Dōgen
-- **Students:** Tettsū Gikai
+- **Students:** Tettsū Gikai, Jakuen
 
 Koun Ejō (孤雲懐奘, 1198–1280) was Dōgen's principal Dharma successor and the second abbot of Eihei-ji, the head training monastery of the Sōtō school. Ordained on Mount Hiei in the Tendai tradition, he had already studied for several years with Kakuzen Ekan of the disbanded Japanese Daruma-shū school of Dainichi Nōnin before meeting Dōgen in 1227; he formally joined Dōgen's community in 1234 and was named *shuso* and Dharma heir during the Kōshō-ji period[1].
 
@@ -983,6 +983,15 @@ Eihei Dogen was the founder of the Soto school of Zen in Japan and one of the mo
 Shinchi Kakushin (心地覚心, 1207–1298), known posthumously as Hottō Kokushi (法燈国師, "Dharma-Lamp National Teacher"), was a Japanese monk who travelled to Song-dynasty China in 1249 and studied under Wumen Huikai (1183–1260), the compiler of the *Wúménguān* / *Mumonkan*[1]. Although the conventional Japanese historiography classifies him as a Rinzai master, Wumen's own lineage descends from the Yangqi line of Linji Chan, and Kakushin's transmission carries a distinct sub-lineal flavour usually called the Hottō line (法燈派) within the broader Rinzai institution[2].
 
 He returned to Japan in 1254 carrying — most consequentially — a manuscript copy of the *Wúménguān*, which thereafter became one of the two principal koan collections (alongside the *Bìyán Lù*) used in Japanese Rinzai training[3].
+
+### Jakuen
+
+- **Also known as:** Jiyuan
+- **Dates:** 1207 – 1299
+- **School:** Sōtō
+- **Teachers:** Tiantong Rujing, Koun Ejō
+
+Jakuen (寂円, 1207–1299), also rendered Jiyuan in Chinese sources, was a Chinese-born Sōtō master and a fellow disciple of Dōgen under Tiantong Rujing at the Tiantong-shan monastery in Southern Song China[1]. He travelled to Japan after Rujing's 1228 death and served as caretaker of Rujing's jōyōden memorial hall at Eihei-ji under Dōgen and then Koun Ejō; the formal Dharma transmission he received in Japan came from Ejō rather than directly from Dōgen. He left Eihei-ji in 1261 during the *sandai sōron* dispute and was given the temple Hōkyō-ji in Echizen by Hatano Tomanari in 1278, modelled on Tiantong-shan[1][2].
 
 ### Xueyan Zuqin
 
@@ -1040,7 +1049,7 @@ Trần Nhân Tông (陳仁宗, 1258–1308) was the third emperor of the Trần 
 - **Dates:** 1264 – 1325
 - **School:** Sōtō
 - **Teachers:** Tettsū Gikai
-- **Students:** Keido Chisan, Meiho Sotetsu, Gasan Joseki
+- **Students:** Keido Chisan, Meiho Sotetsu, Gasan Joseki, Daichi Sokei
 
 Keizan Jōkin (1264–1325) is conventionally treated in modern Sōtō Zen as the school's "second founder" (*taiso*), complementing Dōgen's role as philosophical founder, and is sometimes called "the Great Popularizer" for his role in extending Sōtō practice beyond the small monastic milieu of Eihei-ji[1]. This two-founder designation, however, dates only from the late nineteenth century — it is a Meiji-era Sōtōshū institutional codification that consolidated the Sōtō school's modern self-image around the parity of Eihei-ji and Sōji-ji[2]. The earlier birth-year of 1268 still appears in some institutional sources, but Bodiford's Encyclopedia of Religion entry corrects this: "Born in 1264 (not 1268 as previously assumed)"[2].
 
@@ -1070,7 +1079,7 @@ Two distinct bodies of literature preserve his teaching.
 - **Dates:** 1275 – 1366
 - **School:** Sōtō
 - **Teachers:** Keizan Jōkin
-- **Students:** Taigen Soshin
+- **Students:** Taigen Soshin, Tsūgen Jakurei, Mutan Sokan, Daitetsu Sōrei, Jippō Ryōshū, Manzan Dōhaku, Menzan Zuihō, Nishiari Bokusan, Oka Sōtan
 
 Gasan Jōseki (峨山韶碩, 1275–1366) was, with Meihō Sotetsu, one of Keizan Jōkin's two principal Dharma heirs and the figure through whom most of the institutional growth of the medieval Sōtō school descends. He succeeded Keizan as second abbot of Sōji-ji in 1325 and is traditionally credited with the "Five Sects of Gasan" (峨山五哲) — his own five great Dharma heirs — through whose temples the network of provincial Sōtō monasteries was founded across Japan[1].
 
@@ -1082,7 +1091,7 @@ Gasan's institutional work — combining Dōgen's *zazen*-centred orthodoxy with
 - **Dates:** 1277 – 1350
 - **School:** Sōtō
 - **Teachers:** Keizan Jōkin
-- **Students:** Shugan Dochin
+- **Students:** Shugan Dochin, Tsūgen Jakurei, Daichi Sokei
 
 Meihō Sotetsu (明峰素哲, 1277–1350) was Keizan Jōkin's elder principal Dharma heir, founder of the Yōkō-ji branch of the early Sōtō school and abbot of Daijō-ji in Kaga, the temple Tettsū Gikai had established after the Sandai sōron[1]. Tradition places him alongside Gasan Jōseki as the two heirs through whom the early-Sōji-ji and early-Daijō-ji communities were transmitted: in the standard medieval Sōtō genealogy he is the senior heir, and Daijō-ji and Yōkō-ji preserved the original ascetic-monastic emphasis of the Eihei-ji-Daijō-ji line[2].
 
@@ -1112,6 +1121,16 @@ Shūhō Myōchō (宗峰妙超, 1282–1337), known posthumously by his imperial
 - **Teachers:** Trần Nhân Tông
 
 Pháp Loa (法螺, 1284–1330) was the second patriarch of the Trúc Lâm school and the master to whom Trần Nhân Tông personally transmitted the dharma in 1308 in front of the assembled monastic community[1]. Where the founder had been an emperor turned hermit, Pháp Loa was the institutional builder who consolidated the new school: he supervised the carving of a complete Vietnamese-edition Buddhist canon, ordained more than fifteen thousand monastics over his patriarchate, and oversaw the construction and reform of monasteries across the Trần realm[1]. The disciplined, scholastic Trúc Lâm that survives in Vietnamese Buddhist memory — as much as the more famous founder — is in large part his work[2].
+
+### Daichi Sokei
+
+- **Dates:** 1290 – 1366
+- **School:** Sōtō
+- **Teachers:** Meiho Sotetsu, Keizan Jōkin
+
+Daichi Sokei (大智祖継, 1290–1366) was a fourteenth-century Japanese Sōtō priest in the Meihō-ha sub-lineage. He was ordained at age seven by Kangan Giin at Daiji-ji (Higo), practiced for seven years under Keizan Jōkin, then travelled to Yuan-dynasty China (1314–1324) where he studied with Gulin Qingmao among others, before returning to receive formal Dharma transmission from Meihō Sotetsu — the second of Keizan's six "abbot heirs" — making the canonical robe lineage Dōgen → Ejō → Gikai → Keizan → Meihō → Daichi[1].
+
+He founded Kida-ji (Kaga), Hōgizan Shōgo-ji (Higo / Ryūmon Village, under Kikuchi-clan patronage), Kōfuku-ji (Higo), and Entsū-ji (Hizen, 1353).
 
 ### Tetto Giko
 
@@ -1150,6 +1169,14 @@ Taego Bou (太古普愚, 1301–1382) is the master through whom Chinese Linji d
 
 Gongai Sōchū (言外宗忠, 1315–1390) was the Dharma heir of Tettō Gikō and the third-generation transmitter of the Daitoku-ji branch of the Ōtōkan line[1]. His main responsibility, as recorded in the Daitoku-ji documentation, was simply the survival of the line: he succeeded Tettō as abbot of Daitoku-ji and held the office through the politically turbulent middle years of the fourteenth century, when the temple's deliberate distance from the Gozan administration left it institutionally fragile[2].
 
+### Jippō Ryōshū
+
+- **Dates:** 1318 – 1405
+- **School:** Sōtō
+- **Teachers:** Gasan Joseki
+
+Jippō Ryōshū (実峰良秀, 1318–1405) was one of Gasan Jōseki's five great heirs (*Gasan-go-tetsu*) and the founder of Nyoi-an (如意庵), one of the five sub-temples (Goin) of Sōji-ji whose abbots rotated as the head-temple priest, and a member of the *Gasan ni-jū-go-tetsu* (twenty-five major Gasan heirs)[1]. English-language biographical detail beyond his institutional position is sparse; the Jippō-ha sub-lineage label is plausible but unverified in accessible sources.
+
 ### Naong Hyegeun
 
 - **Also known as:** Naong Hyegun
@@ -1169,6 +1196,17 @@ Naong Hyegeun (懶翁惠勤, 1320–1376) was — alongside Taego Bou — the se
 
 Keigan Eisho (1321–1412) is recorded in the historiography of the medieval / early-modern Japanese Sōtō branch-temple network as an abbot in its transmission lineage. The surviving record preserves his lineage placement; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].
 
+### Tsūgen Jakurei
+
+- **Also known as:** Tsugen Jakurei
+- **Dates:** 1322 – 1391
+- **School:** Sōtō
+- **Teachers:** Gasan Joseki, Meiho Sotetsu
+
+Tsūgen Jakurei (通幻寂霊, 1322–1391) was one of Gasan Jōseki's five great heirs (the *Gasan-go-tetsu*) and the founder of the Tsūgen-ha sub-line of medieval Sōtō, which became the largest of Gasan's five branches with approximately 8,900 affiliated temples at its eventual peak[1]. He received Dharma transmission from Gasan in 1352 at Sōji-ji, having earlier been ordained by Jōzan Sozen at Daikō-ji (age 17) and trained for some ten years from 1340 under Meihō Sotetsu at Daijō-ji before formally entering Gasan's community[1][2].
+
+Tsūgen served as the 5th abbot of Sōji-ji from 1368 (with later returns in 1382 and 1388) and founded the temples Yōtaku-ji (永澤寺, 1370, under Hosokawa Yoriyuki / Emperor Go-En'yū's edict) and Ryūsen-ji (1386).
+
 ### Muin Soin
 
 - **Dates:** 1326 – 1410
@@ -1185,6 +1223,15 @@ Muin Soin (1326–1410) is recorded in the Daitoku-ji documentation as a fourtee
 - **Teachers:** Koho Kakumyo
 
 Bassui Tokushō (拔隊得勝, 1327–1387) was a fourteenth-century Japanese Zen master in the Hottō line of Rinzai whose surviving Dharma talks, the *Wadeigassui* (和泥合水, "Mud and Water"), make him one of the most accessible voices in medieval Japanese Zen[1]. Born in Sagami Province, he was preoccupied from childhood with the question of what becomes of consciousness after death; he refused at first to wear monks' robes or live in temples and travelled for years as an unaffiliated practitioner, studying in turn under both Sōtō and Rinzai teachers before settling on the question "Who is the master that hears, sees, and knows?" as the heart of his practice[2].
+
+### Daitetsu Sōrei
+
+- **Also known as:** Daisetsu Sōrei, Daitetsu Sōryō
+- **Dates:** 1333 – 1408
+- **School:** Sōtō
+- **Teachers:** Gasan Joseki
+
+Daitetsu Sōrei (大徹宗令, 1333–1408, also rendered Daisetsu Sōrei or Daitetsu Sōryō) was one of Gasan Jōseki's five great heirs (*Gasan-go-tetsu*) and the founder of Denpōan (伝法庵), one of the five sub-temples (Goin) of Sōji-ji that rotated as the head-temple abbacy[1]. The earlier date attribution "d. 1386" found in some derivative sources appears to be a confusion with his fellow Gotetsu Mutan Sokan (d. 1387); the consistent date in Japanese Sōtōshū sources is 1333–1408.
 
 ### Chuzan Ryoun
 
@@ -1266,6 +1313,14 @@ Gisan Tonin (1386–1462) is recorded in the historiography of the medieval / ea
 - **Students:** Tessan Shikaku
 
 Shugan Dochin (d. 1387) is recorded in the historiography of the medieval / early-modern Japanese Sōtō branch-temple network as an abbot in its transmission lineage. The surviving record preserves his lineage placement; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].
+
+### Mutan Sokan
+
+- **Dates:** null – 1387
+- **School:** Sōtō
+- **Teachers:** Gasan Joseki
+
+Mutan Sokan (無端祖環, d. 1387) was one of Gasan Jōseki's five great heirs (*Gasan-go-tetsu*) and the founder of Tōsen-an (洞泉庵), one of the five sub-temples (Goin / 五院) of the Sōji-ji precinct whose abbots rotated as chief priest of the head temple[1]. He founded the Mutan-ha (無端派) sub-lineage; English-language biographical detail beyond his institutional role at Sōji-ji is sparse, and fuller treatment requires Japanese-language Sōtōshū records.
 
 ### Ikkyu Sojun
 
@@ -1493,6 +1548,16 @@ Bankei Yōtaku (盤珪永琢, 1622–1693) was one of the most distinctive Rinza
 
 Hương Hải (香海, 1628–1715) is the central figure of the seventeenth-century Vietnamese Thiền revival[1]. Born in the southern Đàng Trong region during the long Trịnh-Nguyễn split, he served briefly as a court mandarin before ordaining and travelling north to study under the Chinese Lâm Tế (Linji) master Trí Giáo Nhất Cú at Phật Tích temple[1]. He returned south, established a hermitage on Mount Tiêu Dao, and from there reformed Vietnamese Thiền practice along the lines of Ming-dynasty Linji discipline — a recovery, after centuries of decline, of the rigorous training that had defined the Trúc Lâm period.
 
+### Manzan Dōhaku
+
+- **Also known as:** Manzan Dohaku
+- **Dates:** 1636 – 1715
+- **School:** Sōtō
+- **Teachers:** Gasan Joseki
+- **Students:** Menzan Zuihō
+
+Manzan Dōhaku (卍山道白, 1636–1715) was the central Tokugawa-era Sōtō reformer, the figure who codified the *isshi-injō* (single-master / face-to-face certification) standard for Dharma transmission that has defined modern Sōtō institutional practice since[1]. He was tonsured at age 10 under Dōhan Issen at Ryūkō-ji, trained under Bunshun Kōshū and Tokuō Ryōkō, and received *menju shihō* (face-to-face transmission) from Gesshū Sōko at Daijō-ji in 1680, becoming Daijō-ji's 27th abbot the same year. In 1694 he converted Genkō-an in Kyoto from Rinzai to Sōtō.
+
 ### Shoju Rojin
 
 - **Also known as:** Dokyo Etan, Shoju Ronin
@@ -1549,6 +1614,15 @@ Mokushi Soen (1673–1746) is recorded in the historiography of the medieval / e
 - **Students:** Kokoku Soryu
 
 Gangoku Gankei (1683–1767) is recorded in the historiography of the medieval / early-modern Japanese Sōtō branch-temple network as an abbot in its transmission lineage. The surviving record preserves his lineage placement; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].
+
+### Menzan Zuihō
+
+- **Also known as:** Menzan Zuiho
+- **Dates:** 1683 – 1769
+- **School:** Sōtō
+- **Teachers:** Gasan Joseki, Manzan Dōhaku
+
+Menzan Zuihō (面山瑞方, 1683–1769) was the most prolific Sōtō Zen scholar of the Tokugawa period — author of more than one hundred works — and is the figure most responsible for placing Dōgen-studies at the centre of modern Sōtō scholastic identity[1]. He received Dharma transmission from Sonnō Shūeki (尊應守益, 1649–1705) in 1705 at age 23, undertook a thousand-day zazen retreat at Rōbaian in Sagami, and went on to serve as abbot of Zenjō-ji and Kūin-ji. He trained as a young monk under Manzan Dōhaku, who is sometimes mis-recorded as his transmission teacher, but the formal shihō was from Sonnō Shūeki[1][2].
 
 ### Hakuin Ekaku
 
@@ -1680,6 +1754,16 @@ Kosen Imakita is recorded in the historiography of the post-Daitō / Myōshin-ji
 
 Ogino Dokuen is recorded in the historiography of the post-Daitō / Myōshin-ji Rinzai transmission lines as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].
 
+### Nishiari Bokusan
+
+- **Also known as:** Bokusan Nishiari, Sasamoto Kazuyoshi
+- **Dates:** 1821 – 1910
+- **School:** Sōtō
+- **Teachers:** Gasan Joseki
+- **Students:** Oka Sōtan
+
+Nishiari Bokusan (西有穆山, 17 November 1821 – 4 December 1910), born Sasamoto Kazuyoshi in Hachinohe, Aomori, was the dominant Sōtō scholastic figure of the late Edo / early Meiji transition and the institutional bridge between the Tokugawa-era Dōgen scholarship of Manzan and Menzan and the modern Sōtō academic tradition[1]. He received Dharma transmission from Ansō Taizen (also rendered Ansu Taigen) of Hon-nen-ji in Edo in 1842, served as abbot of Sōji-ji from 1901, was elected *Kanchō* (head priest) of the entire Sōtō school in 1902 and again in 1904, taught at proto-Komazawa University, and authored the *Shōbōgenzō Keiteki* — the most influential Meiji-era commentary on Dōgen's masterwork.
+
 ### Tekisui Giboku
 
 - **Dates:** 1822 – 1899
@@ -1781,6 +1865,15 @@ Butsumon Sogaku is recorded in the historiography of the medieval / early-modern
 - **Students:** D.T. Suzuki, Nyogen Senzaki
 
 Shaku Sōen (釈宗演), often romanised in his lifetime as Soyen Shaku, was born on 10 January 1860 in Takahama, Fukui Prefecture, into the dying years of the Tokugawa shogunate. He entered monastic life as a boy at the Rinzai temple Myōshin-ji and trained under Ekkei Shuken before becoming the disciple of Imakita Kōsen at Engaku-ji in Kamakura. He received Dharma transmission (inka) from Kōsen at the unusually young age of twenty-five, an early recognition that marked him as one of the most promising Rinzai teachers of the Meiji era[1].
+
+### Oka Sōtan
+
+- **Also known as:** Oka Sotan
+- **Dates:** 1860 – 1921
+- **School:** Sōtō
+- **Teachers:** Nishiari Bokusan, Gasan Joseki
+
+Oka Sōtan (丘宗潭, 1860–1921) was a late-Meiji / Taishō Sōtō master, the founding (first) abbot of Antai-ji in northern Kyoto when it was constituted in 1921 as a *Shōbōgenzō*-study monastery, abbot of Daiji-ji, and president of the Sōtōshū / Komazawa University in 1918. He received Dharma transmission from Tōken Mitetsu, while undertaking *Shōbōgenzō* study under the great Meiji-era scholastic Nishiari Bokusan — Nishiari being a senior teacher and scholarly mentor rather than his shihō master, despite frequent loose conflation of the two roles in secondary sources[1][2].
 
 ### Niwa Butsuan Emyō
 
@@ -3037,7 +3130,7 @@ Lingyun Zhiqin (靈雲志勤, fl. 9th c.) is named in the *Jǐngdé Chuándēng 
 - **Dates:** Dates uncertain
 - **School:** Caodong
 - **Teachers:** Touzi Yiqing
-- **Students:** Dagui Muzhe, Danxia Zichun, Yang Wuwei
+- **Students:** Dagui Muzhe, Danxia Zichun, Yang Wuwei, Kumu Daocheng
 
 Furong Daokai is recorded in the historiography of the medieval / early-modern Japanese Sōtō branch-temple network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].
 
@@ -3135,8 +3228,7 @@ Taigu Puyu (太古普愚) — not to be confused with the better-known fourteent
 
 - **Dates:** Dates uncertain
 - **School:** Caodong
-- **Teachers:** Zhenxie Qingliao
-- **Students:** Hongzhi Zhengjue
+- **Teachers:** Furong Daokai
 
 Kumu Facheng (枯木法成, fl. early 12th c.), the "Dead-Tree Master," was a Song-period Caodong-line teacher in the Furong Daokai stream whose nickname captured the *mòzhào* / silent-illumination style that the Caodong revival was systematising in his generation[1]. The "withered-tree" image — sitting with the apparent stillness of a dead trunk while remaining wakeful — descends from the *kūmù-tang* (枯木堂, "dead-tree hall") tradition established at Shishuang Qingzhu's late-Tang community and forwarded through the Caodong line[2].
 
@@ -3311,7 +3403,7 @@ Chengtian Chuanzong is recorded in the historiography of the late-Tang / Song-pe
 - **Dates:** Dates uncertain
 - **School:** Caodong
 - **Teachers:** Furong Daokai
-- **Students:** Zhenxie Qingliao, Changlu Qingliao
+- **Students:** Zhenxie Qingliao, Hongzhi Zhengjue
 
 Danxia Zichun is recorded in the historiography of the medieval / early-modern Japanese Sōtō branch-temple network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].
 
@@ -3657,8 +3749,6 @@ Fukushu Kochi is recorded in the historiography of the medieval / early-modern J
 
 - **Dates:** Dates uncertain
 - **School:** Caodong
-- **Teachers:** Danxia Zichun
-- **Students:** Tiantong Zongjue
 
 Changlu Qingliao (長蘆清了, 1089–1151), also styled Zhenxie Qingliao (真歇清了), was a Northern- and Southern-Song Caodong master in the line of Furong Daokai who held abbacies at Changlu (長蘆寺) and Tiantong, and one of the senior Caodong teachers of the *mòzhào* ("silent illumination") revival[1]. He is generally treated alongside his Dharma brother Hongzhi Zhengjue as a key architect of the twelfth-century Caodong renewal that prompted Dahui Zonggao's polemic against silent illumination[2].
 
@@ -3687,7 +3777,7 @@ Baizan Monpon is recorded in the historiography of the medieval / early-modern J
 - **Dates:** Dates uncertain
 - **School:** Caodong
 - **Teachers:** Danxia Zichun
-- **Students:** Kumu Daocheng
+- **Students:** Tiantong Zongjue
 
 Zhenxie Qingliao is recorded in the historiography of the medieval / early-modern Japanese Sōtō branch-temple network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].
 
@@ -4071,7 +4161,7 @@ Shexian Guixing is recorded in the historiography of the late-Tang / Song-period
 - **Also known as:** T'ien-t'ung Tsung-chüeh, Tendô Sôkaku
 - **Dates:** Dates uncertain
 - **School:** Caodong
-- **Teachers:** Changlu Qingliao
+- **Teachers:** Zhenxie Qingliao
 - **Students:** Xuedou Zhijian
 
 Tiantong Zongjue is recorded in the historiography of the medieval / early-modern Japanese Sōtō branch-temple network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].
@@ -4196,7 +4286,7 @@ Sessan Tetsuzen is recorded in the historiography of the medieval / early-modern
 - **Dates:** Dates uncertain
 - **School:** Caodong
 - **Teachers:** Xuedou Zhijian
-- **Students:** Dōgen
+- **Students:** Dōgen, Jakuen
 
 Tiantong Rujing (天童如淨, 1162–1228) was the Caodong master under whom Dōgen received Dharma transmission at the Tiantong-si monastery near Mingzhou between 1223 and 1227, and is thus the figure through whom the Caodong stream entered Japan as Sōtō Zen[1]. He was a Dharma heir of Xuedou Zhijian and held the abbacy at Tiantong from 1224 until his death; the temple was one of the great institutional Chan centres of the late Southern Song[2].
 
@@ -4234,7 +4324,7 @@ Yanguan Qi'an (鹽官齊安, c. 750–842) was a Dharma heir of Mazu Daoyi who t
 - **Also known as:** Hung-chih Chêng-chüeh, Wanshi Shôgaku
 - **Dates:** Dates uncertain
 - **School:** Caodong
-- **Teachers:** Kumu Daocheng
+- **Teachers:** Danxia Zichun
 
 Hongzhi Zhengjue (宏智正覺, 1091–1157) was the great Southern-Song Caodong master and the foremost articulator of *mòzhào chán* (默照禪, "silent illumination Chan"). He served as abbot of Tiantong-si (天童寺) near Mingzhou for thirty years and built it into the major Caodong centre of the twelfth century[1]. His prose poem *Mòzhào Míng* (默照銘, "Silent-Illumination Inscription") and his hundred verse-comments on koan cases — preserved in the *Hongzhi Songgu* and later assembled by Wansong Xingxiu into the *Cóngróng Lù* (從容錄, "Book of Serenity") — are the canonical statements of the silent-illumination practice and the Caodong literary-koan tradition that paralleled the Linji *Bìyán Lù* line[2].
 
@@ -4951,7 +5041,7 @@ The Taego Order (太古宗, 태고종) is the second largest Buddhist order in K
 ### Sōtō
 
 - **Tradition:** Zen
-- **Masters:** 154
+- **Masters:** 164
 
 The Soto school (曹洞宗) is the Japanese continuation of the Chinese Caodong tradition, founded by Eihei Dogen (1200–1253) after his training with Tiantong Rujing in China[1]. It is the largest Zen denomination in Japan[2]. Soto's central practice is shikantaza ('just sitting')—zazen practiced as the direct expression of awakening itself, not as a means to attain enlightenment[3]. Dogen articulated this in his masterwork the Shobogenzo—which is itself largely composed of koan commentary and philosophical inquiry—and in his practical manual the Fukanzazengi[3]. The school's second great figure, Keizan Jokin (1264–1325), founded Sojiji Temple and made Soto practice accessible to a broad Japanese population through the integration of esoteric ritual and ancestor veneration[1]. Together, Eiheiji (Dogen's temple) and Sojiji serve as the school's two head monasteries. In the modern era, the Soto tradition has been carried to the West by teachers including Shunryu Suzuki (San Francisco Zen Center), Taisen Deshimaru (Association Zen Internationale, Europe), Taizan Maezumi (Zen Center of Los Angeles), and Dainin Katagiri (Minnesota Zen Center), establishing vibrant practice communities across North America and Europe[4].
 

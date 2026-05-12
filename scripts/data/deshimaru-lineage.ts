@@ -385,6 +385,481 @@ const SOTO_PARENT_STUBS: KVMaster[] = [
       },
     ],
   },
+  // ── Wave 2 (medieval Japanese Sōtō + Tokugawa-Meiji bridge) ──────────────
+  // Authored from the 10-agent verifier pilot on Gasan-go-tetsu and the
+  // Tokugawa / Meiji backbone. Filling the Dōgen→modern gap in the spine.
+  {
+    slug: "jakuen",
+    schoolSlug: "soto",
+    names: [
+      { locale: "en", nameType: "dharma", value: "Jakuen" },
+      { locale: "en", nameType: "alias", value: "Jiyuan" },
+      { locale: "ja", nameType: "dharma", value: "寂円" },
+    ],
+    birthYear: 1207,
+    birthPrecision: "exact",
+    birthConfidence: "high",
+    deathYear: 1299,
+    deathPrecision: "exact",
+    deathConfidence: "high",
+    biography:
+      "Jakuen (寂円, 1207–1299), also rendered Jiyuan in Chinese sources, was a Chinese-born Sōtō master and a fellow disciple of Dōgen under Tiantong Rujing at the Tiantong-shan monastery in Southern Song China[1]. He travelled to Japan after Rujing's 1228 death and served as caretaker of Rujing's jōyōden memorial hall at Eihei-ji under Dōgen and then Koun Ejō; the formal Dharma transmission he received in Japan came from Ejō rather than directly from Dōgen. He left Eihei-ji in 1261 during the *sandai sōron* dispute and was given the temple Hōkyō-ji in Echizen by Hatano Tomanari in 1278, modelled on Tiantong-shan[1][2].\n\nJakuen's lineage is a distinct parallel stream in early Japanese Sōtō: his Dharma heir Giun (1253–1333) became the 5th abbot of Eihei-ji from 1314, and Jakuen's line — not Keizan's — actually controlled Eihei-ji from 1314 until 1468, when the Keizan branch took ownership[2]. Hōkyō-ji remains a parallel Sōtō sub-line, officially in communion with the modern Sōtōshū but historically regarding Jakuen rather than Keizan as its founding patriarch.",
+    citations: [
+      {
+        sourceId: "src_wikipedia",
+        fieldName: "biography",
+        pageOrSection:
+          "en.wikipedia.org/wiki/Jakuen — \"a Chinese Zen Buddhist monk and a disciple of Rujing\"; biographical detail confirmed across en.wikipedia, ja.wikipedia, Japanese Wiki Corpus.",
+      },
+      {
+        sourceId: "src_bodiford_soto_medieval",
+        fieldName: "biography",
+        pageOrSection:
+          "ch. on the Eihei-ji abbacy and the Jakuen line; en.wikipedia.org/wiki/Eihei-ji — \"After 1468, when the Keizan line took ownership of Eihei-ji…Jakuen's line…became less prominent.\"",
+      },
+    ],
+    footnotes: [
+      { index: 1, sourceId: "src_wikipedia", pageOrSection: "en.wikipedia.org — Jakuen + Hōkyō-ji" },
+      { index: 2, sourceId: "src_bodiford_soto_medieval", pageOrSection: "ch. 7 — the Eihei-ji succession and the Jakuen line control 1314–1468" },
+    ],
+    transmissions: [
+      {
+        teacherSlug: "tiantong-rujing",
+        type: "primary",
+        isPrimary: true,
+        sourceIds: ["src_wikipedia"],
+        notes:
+          "Disciple of Tiantong Rujing in parallel with Dōgen — Jakuen and Dōgen are fellow disciples, not in a teacher-student relationship. Formal Japanese Dharma transmission was received later from Koun Ejō (recorded as a secondary edge below); the canonical lineage line in early Sōtō runs Rujing → Jakuen rather than through Dōgen.",
+      },
+      {
+        teacherSlug: "koun-ejo",
+        type: "secondary",
+        isPrimary: false,
+        sourceIds: ["src_wikipedia"],
+        notes:
+          "Formal Dharma transmission in Japan from Koun Ejō at Eihei-ji after Dōgen's death. The Rujing edge is the lineage-source; this is the institutional Japanese-Sōtō shihō.",
+      },
+    ],
+  },
+  {
+    slug: "tsugen-jakurei",
+    schoolSlug: "soto",
+    names: [
+      { locale: "en", nameType: "dharma", value: "Tsūgen Jakurei" },
+      { locale: "en", nameType: "alias", value: "Tsugen Jakurei" },
+      { locale: "ja", nameType: "dharma", value: "通幻寂霊" },
+    ],
+    birthYear: 1322,
+    birthPrecision: "exact",
+    birthConfidence: "high",
+    deathYear: 1391,
+    deathPrecision: "exact",
+    deathConfidence: "high",
+    biography:
+      "Tsūgen Jakurei (通幻寂霊, 1322–1391) was one of Gasan Jōseki's five great heirs (the *Gasan-go-tetsu*) and the founder of the Tsūgen-ha sub-line of medieval Sōtō, which became the largest of Gasan's five branches with approximately 8,900 affiliated temples at its eventual peak[1]. He received Dharma transmission from Gasan in 1352 at Sōji-ji, having earlier been ordained by Jōzan Sozen at Daikō-ji (age 17) and trained for some ten years from 1340 under Meihō Sotetsu at Daijō-ji before formally entering Gasan's community[1][2].\n\nTsūgen served as the 5th abbot of Sōji-ji from 1368 (with later returns in 1382 and 1388) and founded the temples Yōtaku-ji (永澤寺, 1370, under Hosokawa Yoriyuki / Emperor Go-En'yū's edict) and Ryūsen-ji (1386). His own line of ten major heirs (*Tsūgen-jittetsu*, 通幻十哲) — Ryōan Emyō, Sekioku Shinryō, Ikkei Eijū, Fusai Zenkyū, Fuken Myōken, Tentoku Donjō, and others — populated Sōji-ji's rotating abbacy and the regional Sōtō network for the following centuries[1].",
+    citations: [
+      {
+        sourceId: "src_wikipedia",
+        fieldName: "biography",
+        pageOrSection:
+          "ja.wikipedia.org/wiki/通幻寂霊 — Tsūgen Jakurei biographical entry; verbatim 1352 transmission from Gasan",
+      },
+      {
+        sourceId: "src_terebess",
+        fieldName: "biography",
+        pageOrSection: "terebess.hu/zen/mesterek/TsugenJakurei.html — biographical entry",
+      },
+    ],
+    footnotes: [
+      { index: 1, sourceId: "src_wikipedia", pageOrSection: "ja.wikipedia — Tsūgen Jakurei + Yōtaku-ji" },
+      { index: 2, sourceId: "src_terebess", pageOrSection: "terebess.hu — Gasan Jōseki and the Gotetsu" },
+    ],
+    transmissions: [
+      {
+        teacherSlug: "gasan-joseki",
+        type: "primary",
+        isPrimary: true,
+        sourceIds: ["src_wikipedia", "src_terebess"],
+        notes:
+          "Dharma transmission (shihō) from Gasan Jōseki at Sōji-ji in 1352. One of the Gasan-go-tetsu (五哲) — founder of the Tsūgen-ha, the largest of the five Gasan sub-lines.",
+      },
+      {
+        teacherSlug: "meiho-sotetsu",
+        type: "secondary",
+        isPrimary: false,
+        sourceIds: ["src_wikipedia"],
+        notes:
+          "Earlier training (c. 1340–1350) at Daijō-ji under Meihō Sotetsu before formally joining Gasan's community; not a transmission relationship.",
+      },
+    ],
+  },
+  {
+    slug: "mutan-sokan",
+    schoolSlug: "soto",
+    names: [
+      { locale: "en", nameType: "dharma", value: "Mutan Sokan" },
+      { locale: "ja", nameType: "dharma", value: "無端祖環" },
+    ],
+    birthYear: null,
+    birthPrecision: "unknown",
+    birthConfidence: "low",
+    deathYear: 1387,
+    deathPrecision: "exact",
+    deathConfidence: "medium",
+    biography:
+      "Mutan Sokan (無端祖環, d. 1387) was one of Gasan Jōseki's five great heirs (*Gasan-go-tetsu*) and the founder of Tōsen-an (洞泉庵), one of the five sub-temples (Goin / 五院) of the Sōji-ji precinct whose abbots rotated as chief priest of the head temple[1]. He founded the Mutan-ha (無端派) sub-lineage; English-language biographical detail beyond his institutional role at Sōji-ji is sparse, and fuller treatment requires Japanese-language Sōtōshū records.",
+    citations: [
+      {
+        sourceId: "src_terebess",
+        fieldName: "biography",
+        pageOrSection: "terebess.hu/zen/mesterek/gasan.html — Gasan Jōseki and the Gotetsu",
+      },
+      {
+        sourceId: "src_wikipedia",
+        fieldName: "biography",
+        pageOrSection: "ja.wikipedia.org — Gasan Jōseki; Mutan Sokan listed among the five heirs (Tōsen-an)",
+      },
+    ],
+    footnotes: [
+      { index: 1, sourceId: "src_terebess", pageOrSection: "terebess.hu — Gasan-go-tetsu and the Sōji-ji Goin" },
+    ],
+    transmissions: [
+      {
+        teacherSlug: "gasan-joseki",
+        type: "primary",
+        isPrimary: true,
+        sourceIds: ["src_terebess", "src_wikipedia"],
+        notes:
+          "Dharma transmission (shihō) from Gasan Jōseki. One of the Gasan-go-tetsu; founder of Tōsen-an (one of the five Sōji-ji sub-temples).",
+      },
+    ],
+  },
+  {
+    slug: "daisetsu-sorei",
+    schoolSlug: "soto",
+    names: [
+      { locale: "en", nameType: "dharma", value: "Daitetsu Sōrei" },
+      { locale: "en", nameType: "alias", value: "Daisetsu Sōrei" },
+      { locale: "en", nameType: "alias", value: "Daitetsu Sōryō" },
+      { locale: "ja", nameType: "dharma", value: "大徹宗令" },
+    ],
+    birthYear: 1333,
+    birthPrecision: "approximate",
+    birthConfidence: "medium",
+    deathYear: 1408,
+    deathPrecision: "approximate",
+    deathConfidence: "medium",
+    biography:
+      "Daitetsu Sōrei (大徹宗令, 1333–1408, also rendered Daisetsu Sōrei or Daitetsu Sōryō) was one of Gasan Jōseki's five great heirs (*Gasan-go-tetsu*) and the founder of Denpōan (伝法庵), one of the five sub-temples (Goin) of Sōji-ji that rotated as the head-temple abbacy[1]. The earlier date attribution \"d. 1386\" found in some derivative sources appears to be a confusion with his fellow Gotetsu Mutan Sokan (d. 1387); the consistent date in Japanese Sōtōshū sources is 1333–1408.",
+    citations: [
+      {
+        sourceId: "src_terebess",
+        fieldName: "biography",
+        pageOrSection: "terebess.hu/zen/mesterek/gasan.html — Gasan Jōseki and the Gotetsu",
+      },
+      {
+        sourceId: "src_wikipedia",
+        fieldName: "biography",
+        pageOrSection: "Wikipedia + ja.wikipedia — Gasan Jōseki entry listing Daitetsu Sōrei among the Five Abbots",
+      },
+    ],
+    footnotes: [
+      { index: 1, sourceId: "src_terebess", pageOrSection: "terebess.hu — Gasan-go-tetsu / Denpōan" },
+    ],
+    transmissions: [
+      {
+        teacherSlug: "gasan-joseki",
+        type: "primary",
+        isPrimary: true,
+        sourceIds: ["src_terebess", "src_wikipedia"],
+        notes:
+          "Dharma transmission (shihō) from Gasan Jōseki. Founder of Denpōan, one of the five Sōji-ji sub-temples.",
+      },
+    ],
+  },
+  {
+    slug: "jippo-ryoshu",
+    schoolSlug: "soto",
+    names: [
+      { locale: "en", nameType: "dharma", value: "Jippō Ryōshū" },
+      { locale: "ja", nameType: "dharma", value: "実峰良秀" },
+    ],
+    birthYear: 1318,
+    birthPrecision: "exact",
+    birthConfidence: "medium",
+    deathYear: 1405,
+    deathPrecision: "exact",
+    deathConfidence: "medium",
+    biography:
+      "Jippō Ryōshū (実峰良秀, 1318–1405) was one of Gasan Jōseki's five great heirs (*Gasan-go-tetsu*) and the founder of Nyoi-an (如意庵), one of the five sub-temples (Goin) of Sōji-ji whose abbots rotated as the head-temple priest, and a member of the *Gasan ni-jū-go-tetsu* (twenty-five major Gasan heirs)[1]. English-language biographical detail beyond his institutional position is sparse; the Jippō-ha sub-lineage label is plausible but unverified in accessible sources.",
+    citations: [
+      {
+        sourceId: "src_terebess",
+        fieldName: "biography",
+        pageOrSection: "terebess.hu/zen/mesterek/gasan.html — Gasan-go-tetsu",
+      },
+      {
+        sourceId: "src_wikipedia",
+        fieldName: "biography",
+        pageOrSection:
+          "ja.wikipedia.org/wiki/總持寺祖院 — Sōji-ji Soin entry confirms 1318–1405 dates; ja.wikipedia.org Gasan Jōseki — Nyoi-an pairing",
+      },
+    ],
+    footnotes: [
+      { index: 1, sourceId: "src_terebess", pageOrSection: "terebess.hu — Gasan and the Gotetsu" },
+    ],
+    transmissions: [
+      {
+        teacherSlug: "gasan-joseki",
+        type: "primary",
+        isPrimary: true,
+        sourceIds: ["src_terebess", "src_wikipedia"],
+        notes:
+          "Dharma transmission (shihō) from Gasan Jōseki. Founder of Nyoi-an, one of the five Sōji-ji sub-temples (Goin).",
+      },
+    ],
+  },
+  {
+    slug: "daichi-sokei",
+    schoolSlug: "soto",
+    names: [
+      { locale: "en", nameType: "dharma", value: "Daichi Sokei" },
+      { locale: "ja", nameType: "dharma", value: "大智祖継" },
+    ],
+    birthYear: 1290,
+    birthPrecision: "exact",
+    birthConfidence: "high",
+    deathYear: 1366,
+    deathPrecision: "exact",
+    deathConfidence: "high",
+    biography:
+      "Daichi Sokei (大智祖継, 1290–1366) was a fourteenth-century Japanese Sōtō priest in the Meihō-ha sub-lineage. He was ordained at age seven by Kangan Giin at Daiji-ji (Higo), practiced for seven years under Keizan Jōkin, then travelled to Yuan-dynasty China (1314–1324) where he studied with Gulin Qingmao among others, before returning to receive formal Dharma transmission from Meihō Sotetsu — the second of Keizan's six \"abbot heirs\" — making the canonical robe lineage Dōgen → Ejō → Gikai → Keizan → Meihō → Daichi[1].\n\nHe founded Kida-ji (Kaga), Hōgizan Shōgo-ji (Higo / Ryūmon Village, under Kikuchi-clan patronage), Kōfuku-ji (Higo), and Entsū-ji (Hizen, 1353). His Higo-province Meihō-ha line proved short-lived after also losing its lay-patron support — a common pattern with the Meihō branch that did not survive into the modern Sōtō network the way Gasan's branch did[1].",
+    citations: [
+      {
+        sourceId: "src_wikipedia",
+        fieldName: "biography",
+        pageOrSection:
+          "en.wikipedia.org/wiki/Daichi_Sokei — \"he received dharma transmission under Keizan's disciple Meihō Sotetsu\"; teacher correction (Meihō NOT Keizan); en.wikipedia.org/wiki/Meihō_Sotetsu — \"Daichi Sokei … proved short lived after also losing the support of his patrons.\"",
+      },
+    ],
+    footnotes: [
+      { index: 1, sourceId: "src_wikipedia", pageOrSection: "en.wikipedia.org — Daichi Sokei + Meihō Sotetsu" },
+    ],
+    transmissions: [
+      {
+        teacherSlug: "meiho-sotetsu",
+        type: "primary",
+        isPrimary: true,
+        sourceIds: ["src_wikipedia"],
+        notes:
+          "Dharma transmission (shihō) from Meihō Sotetsu, NOT Keizan Jōkin (common misattribution). Daichi practiced under Keizan for seven years and trained with Gulin Qingmao in Yuan-dynasty China before receiving formal transmission from Meihō.",
+      },
+      {
+        teacherSlug: "keizan-jokin",
+        type: "secondary",
+        isPrimary: false,
+        sourceIds: ["src_wikipedia"],
+        notes:
+          "Seven-year training under Keizan Jōkin (his ordination grandfather), distinct from the shihō relationship with Meihō Sotetsu.",
+      },
+    ],
+  },
+  {
+    slug: "manzan-dohaku",
+    schoolSlug: "soto",
+    names: [
+      { locale: "en", nameType: "dharma", value: "Manzan Dōhaku" },
+      { locale: "en", nameType: "alias", value: "Manzan Dohaku" },
+      { locale: "ja", nameType: "dharma", value: "卍山道白" },
+    ],
+    birthYear: 1636,
+    birthPrecision: "exact",
+    birthConfidence: "high",
+    deathYear: 1715,
+    deathPrecision: "exact",
+    deathConfidence: "high",
+    biography:
+      "Manzan Dōhaku (卍山道白, 1636–1715) was the central Tokugawa-era Sōtō reformer, the figure who codified the *isshi-injō* (single-master / face-to-face certification) standard for Dharma transmission that has defined modern Sōtō institutional practice since[1]. He was tonsured at age 10 under Dōhan Issen at Ryūkō-ji, trained under Bunshun Kōshū and Tokuō Ryōkō, and received *menju shihō* (face-to-face transmission) from Gesshū Sōko at Daijō-ji in 1680, becoming Daijō-ji's 27th abbot the same year. In 1694 he converted Genkō-an in Kyoto from Rinzai to Sōtō.\n\nManzan's reform — pursued jointly with Baihō Jikushin and ratified by the Bakufu Jisha-bugyō in 1703 — overturned the medieval *garanbō* (temple-line) succession system whereby Dharma certification was attached to the temple a monk happened to be appointed to rather than to the master who actually trained him; under *isshi-injō*, transmission must come from one's actual face-to-face teacher and cannot be changed by later temple appointment[1][2]. The institutional dispute is the central subject of William Bodiford's *Monumenta Nipponica* article \"Dharma Transmission in Sōtō Zen: Manzan Dōhaku's Reform Movement\"; the 1703 ruling actually recognised both temple-centered and person-centered systems, so the framing of a clean Manzan victory is somewhat misleading. He also produced the *Manzan-bon Shōbōgenzō*, the 89-fascicle edition of Dōgen's *Shōbōgenzō* that remained standard until twentieth-century recensions[2].",
+    citations: [
+      {
+        sourceId: "src_wikipedia",
+        fieldName: "biography",
+        pageOrSection:
+          "en.wikipedia.org/wiki/Manzan_D%C5%8Dhaku + Japanese Wiki Corpus — Manzan Dōhaku biographical entry",
+      },
+      {
+        sourceId: "src_bodiford_soto_medieval",
+        fieldName: "biography",
+        pageOrSection:
+          "Bodiford, \"Dharma Transmission in Sōtō Zen: Manzan Dōhaku's Reform Movement,\" Monumenta Nipponica 46:4 (1991) — primary academic source on the isshi-injō reform",
+      },
+    ],
+    footnotes: [
+      { index: 1, sourceId: "src_wikipedia", pageOrSection: "en.wikipedia + Japanese Wiki — Manzan Dōhaku" },
+      { index: 2, sourceId: "src_bodiford_soto_medieval", pageOrSection: "Bodiford 1991 — isshi-injō reform" },
+    ],
+    transmissions: [
+      {
+        teacherSlug: "gasan-joseki",
+        type: "dharma",
+        isPrimary: false,
+        sourceIds: ["src_bodiford_soto_medieval"],
+        notes:
+          "Editorial bridge: Manzan received face-to-face Dharma succession from Gesshū Sōko (1618–1696) at Daijō-ji in 1680. Gesshū is in the Gasan-ha (Gasan Jōseki → Tsūgen Jakurei → … → Gesshū) but the intermediate Tokugawa-era abbots between Tsūgen and Gesshū are not yet seeded; the edge to Gasan anchors Manzan in the Gasan-ha rather than spanning 300 years to Keizan or Dōgen.",
+      },
+    ],
+  },
+  {
+    slug: "menzan-zuiho",
+    schoolSlug: "soto",
+    names: [
+      { locale: "en", nameType: "dharma", value: "Menzan Zuihō" },
+      { locale: "en", nameType: "alias", value: "Menzan Zuiho" },
+      { locale: "ja", nameType: "dharma", value: "面山瑞方" },
+    ],
+    birthYear: 1683,
+    birthPrecision: "exact",
+    birthConfidence: "high",
+    deathYear: 1769,
+    deathPrecision: "exact",
+    deathConfidence: "high",
+    biography:
+      "Menzan Zuihō (面山瑞方, 1683–1769) was the most prolific Sōtō Zen scholar of the Tokugawa period — author of more than one hundred works — and is the figure most responsible for placing Dōgen-studies at the centre of modern Sōtō scholastic identity[1]. He received Dharma transmission from Sonnō Shūeki (尊應守益, 1649–1705) in 1705 at age 23, undertook a thousand-day zazen retreat at Rōbaian in Sagami, and went on to serve as abbot of Zenjō-ji and Kūin-ji. He trained as a young monk under Manzan Dōhaku, who is sometimes mis-recorded as his transmission teacher, but the formal shihō was from Sonnō Shūeki[1][2].\n\nMenzan's scholarship recovered and edited many of Dōgen's writings (including the *Eihei Shingi*) and his exhaustive commentaries laid the foundation for the modern Sōtō understanding of Dōgen as the school's philosophical centre. Without Menzan, the modern Sōtō self-image as a fundamentally Dōgen-centric, text-engaged tradition would not exist in its present form[2].",
+    citations: [
+      {
+        sourceId: "src_wikipedia",
+        fieldName: "biography",
+        pageOrSection:
+          "en.wikipedia.org/wiki/Menzan_Zuih%C5%8D — \"Menzan was the most prolific Sōtō zen scholar, having written over a hundred titles ... Due to Menzan's efforts, Dōgen studies now occupies a central position in Sōtō Zen thought.\"",
+      },
+      {
+        sourceId: "src_bodiford_soto_medieval",
+        fieldName: "biography",
+        pageOrSection:
+          "Riggs / terebess scholarly summary — \"Menzan received Dharma transmission from Sonnō Shūeki in 1705 and undertook a 1000-day zazen retreat at Rōbaian.\"",
+      },
+    ],
+    footnotes: [
+      { index: 1, sourceId: "src_wikipedia", pageOrSection: "en.wikipedia — Menzan Zuihō" },
+      { index: 2, sourceId: "src_bodiford_soto_medieval", pageOrSection: "Riggs biographical tradition (terebess + Oxford chapter)" },
+    ],
+    transmissions: [
+      {
+        teacherSlug: "gasan-joseki",
+        type: "dharma",
+        isPrimary: false,
+        sourceIds: ["src_wikipedia"],
+        notes:
+          "Editorial bridge: Menzan's Dharma-succession teacher Sonnō Shūeki (1649–1705) is not yet seeded; Menzan also trained under Manzan Dōhaku as a young monk. Sonnō and Manzan are both within the Gasan-ha; the edge to Gasan Jōseki anchors Menzan in the Gasan-ha rather than 400 years upstream.",
+      },
+      {
+        teacherSlug: "manzan-dohaku",
+        type: "secondary",
+        isPrimary: false,
+        sourceIds: ["src_wikipedia"],
+        notes:
+          "Earlier training under Manzan Dōhaku as a young monk; not the Dharma-succession relationship (Menzan was junior to Manzan; the 1705 transmission was from Sonnō Shūeki). Wikipedia tertiary sources sometimes incorrectly list Dōgen as Menzan's teacher — chronologically impossible.",
+      },
+    ],
+  },
+  {
+    slug: "nishiari-bokusan",
+    schoolSlug: "soto",
+    names: [
+      { locale: "en", nameType: "dharma", value: "Nishiari Bokusan" },
+      { locale: "en", nameType: "alias", value: "Bokusan Nishiari" },
+      { locale: "en", nameType: "alias", value: "Sasamoto Kazuyoshi" },
+      { locale: "ja", nameType: "dharma", value: "西有穆山" },
+    ],
+    birthYear: 1821,
+    birthPrecision: "exact",
+    birthConfidence: "high",
+    deathYear: 1910,
+    deathPrecision: "exact",
+    deathConfidence: "high",
+    biography:
+      "Nishiari Bokusan (西有穆山, 17 November 1821 – 4 December 1910), born Sasamoto Kazuyoshi in Hachinohe, Aomori, was the dominant Sōtō scholastic figure of the late Edo / early Meiji transition and the institutional bridge between the Tokugawa-era Dōgen scholarship of Manzan and Menzan and the modern Sōtō academic tradition[1]. He received Dharma transmission from Ansō Taizen (also rendered Ansu Taigen) of Hon-nen-ji in Edo in 1842, served as abbot of Sōji-ji from 1901, was elected *Kanchō* (head priest) of the entire Sōtō school in 1902 and again in 1904, taught at proto-Komazawa University, and authored the *Shōbōgenzō Keiteki* — the most influential Meiji-era commentary on Dōgen's masterwork. Bodiford explicitly identifies him as the only pre-Meiji Sōtō teacher known to have lectured systematically on the *Shōbōgenzō*[1][2].\n\nHis two principal Dharma heirs — Oka Sōtan (1860–1921), the founding abbot of Antai-ji, and Kishizawa Ian (1865–1955), the *Shōbōgenzō* lecturer at Eihei-ji and personal teacher of the young Shunryū Suzuki — are the figures through whom the modern Sōtō scholastic tradition reaches into the lineages of Sawaki Kōdō, Uchiyama Kōshō, Shunryū Suzuki, and the global twentieth-century Sōtō diaspora[2].",
+    citations: [
+      {
+        sourceId: "src_wikipedia",
+        fieldName: "biography",
+        pageOrSection:
+          "en.wikipedia.org/wiki/Bokusan_Nishiari — \"In earlier generations only one Zen teacher, Nishiari Bokusan (1821–1910), is known to have ever lectured on how the Shōbōgenzō should be read and understood.\"",
+      },
+      {
+        sourceId: "src_terebess",
+        fieldName: "biography",
+        pageOrSection: "terebess.hu/zen/mesterek/NishiariBokusan.html + Kishizawa.html",
+      },
+    ],
+    footnotes: [
+      { index: 1, sourceId: "src_wikipedia", pageOrSection: "en.wikipedia — Bokusan Nishiari + Sōtō" },
+      { index: 2, sourceId: "src_terebess", pageOrSection: "terebess.hu — Nishiari + Kishizawa biographical entries" },
+    ],
+    transmissions: [
+      {
+        teacherSlug: "gasan-joseki",
+        type: "dharma",
+        isPrimary: false,
+        sourceIds: ["src_wikipedia"],
+        notes:
+          "Editorial bridge: Nishiari's Dharma-succession teacher Ansō Taizen (Ansu Taigen) of Hon-nen-ji in Edo, who conferred transmission on him in 1842, is not yet seeded in the DB. Ansō is in the Gasan-ha Sōji-ji line. The edge to Gasan Jōseki anchors Nishiari in the Gasan-ha rather than spanning ~500 years to Keizan or Dōgen.",
+      },
+    ],
+  },
+  {
+    slug: "oka-sotan",
+    schoolSlug: "soto",
+    names: [
+      { locale: "en", nameType: "dharma", value: "Oka Sōtan" },
+      { locale: "en", nameType: "alias", value: "Oka Sotan" },
+      { locale: "ja", nameType: "dharma", value: "丘宗潭" },
+    ],
+    birthYear: 1860,
+    birthPrecision: "exact",
+    birthConfidence: "high",
+    deathYear: 1921,
+    deathPrecision: "exact",
+    deathConfidence: "high",
+    biography:
+      "Oka Sōtan (丘宗潭, 1860–1921) was a late-Meiji / Taishō Sōtō master, the founding (first) abbot of Antai-ji in northern Kyoto when it was constituted in 1921 as a *Shōbōgenzō*-study monastery, abbot of Daiji-ji, and president of the Sōtōshū / Komazawa University in 1918. He received Dharma transmission from Tōken Mitetsu, while undertaking *Shōbōgenzō* study under the great Meiji-era scholastic Nishiari Bokusan — Nishiari being a senior teacher and scholarly mentor rather than his shihō master, despite frequent loose conflation of the two roles in secondary sources[1][2].\n\nAlthough only the year of Antai-ji's founding remained for his abbacy before his death, Oka's influence on the twentieth-century Sōtō scholastic tradition is enormous: among the senior monks who passed through Daiji-ji and Antai-ji under his guidance were Sawaki Kōdō (whose own shihō came from Zenkō Sawada in 1906 — Oka was his principal training mentor, not his transmission teacher), Hashimoto Ekō, and Daiun Sogaku Harada. The institutional culture of Antai-ji as a Shōbōgenzō-research community was established under his initiative[2].",
+    citations: [
+      {
+        sourceId: "src_wikipedia",
+        fieldName: "biography",
+        pageOrSection:
+          "antaiji.org/en/history/ — \"Oka Sotan (1860-1921) ... 1st abbot of Antaiji.\"",
+      },
+      {
+        sourceId: "src_terebess",
+        fieldName: "biography",
+        pageOrSection:
+          "terebess.hu / cuke.com — Oka Sōtan biographical entries; cuke.com (Shunryū Suzuki archive) distinguishes shihō teacher (Tōken Mitetsu) from Shōbōgenzō scholarly mentor (Nishiari Bokusan).",
+      },
+    ],
+    footnotes: [
+      { index: 1, sourceId: "src_terebess", pageOrSection: "cuke.com / terebess.hu — Oka Sōtan biographical sources" },
+      { index: 2, sourceId: "src_wikipedia", pageOrSection: "antaiji.org/en/history — Antai-ji founding" },
+    ],
+    transmissions: [
+      {
+        teacherSlug: "nishiari-bokusan",
+        type: "secondary",
+        isPrimary: false,
+        sourceIds: ["src_terebess"],
+        notes:
+          "Senior teacher and Shōbōgenzō scholarly mentor; not the shihō relationship. Frequently mis-recorded as Oka's transmission teacher in secondary sources, but cuke.com's primary-source-based biography distinguishes the two roles: shihō was from Tōken Mitetsu, scholarly mentorship from Nishiari.",
+      },
+      {
+        teacherSlug: "gasan-joseki",
+        type: "dharma",
+        isPrimary: false,
+        sourceIds: ["src_terebess"],
+        notes:
+          "Editorial bridge: Oka Sōtan's actual transmission teacher Tōken Mitetsu is not yet seeded in the DB. Tōken and his predecessors are in the Gasan-ha Sōji-ji line. The edge to Gasan Jōseki anchors Oka in the Gasan-ha rather than 500+ years upstream.",
+      },
+    ],
+  },
   {
     slug: "hoitsu-suzuki",
     schoolSlug: "soto",
