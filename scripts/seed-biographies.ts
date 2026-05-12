@@ -3486,29 +3486,32 @@ Hongzhi's championing of silent illumination occasioned the famous polemic by hi
   },
   {
     slug: "tiantong-rujing",
-    content: `Tiantong Rujing (天童如淨, 1162–1228) was the Caodong master under whom Dōgen received Dharma transmission at the Tiantong-si monastery near Mingzhou between 1223 and 1227, and is thus the figure through whom the Caodong stream entered Japan as Sōtō Zen[1]. He was a Dharma heir of Xuedou Zhijian and held the abbacy at Tiantong from 1224 until his death; the temple was one of the great institutional Chan centres of the late Southern Song[2].
+    content: `Tiantong Rujing (天童如淨, 1163–1228) was the Caodong master under whom Dōgen received Dharma transmission at the Tiantong-si monastery near Mingzhou between 1223 and 1227, and is thus the figure through whom the Caodong stream entered Japan as Sōtō Zen[1]. He was a Dharma heir of Xuedou Zhijian (also known as Zu'an Zhijian, 1105–1192), held the abbacy at Tiantong from 1224 until his death, and counted at least six "intimate Dharma heirs" — best-documented among them Dōgen himself, Jakuen (whose heir Giun would become the 5th abbot of Eihei-ji in 1314), and the Chinese monk Wuwai Yiyuan who much later (1242) sent Dōgen's collected *yulu* to Eihei-ji as the principal Chinese sanctioning document for the Japanese line[1][2].
 
-Dōgen's *Hōkyō-ki* (寶慶記), composed at Tiantong during his training and preserved in his collected works, records Rujing's instruction in extensive detail and is one of the principal early-Sōtō sources for the doctrine of *shēnxīn tuōluò* / *shinjin datsuraku* (身心脱落, "body-mind dropping away") that Dōgen would make central to his own teaching of *shikantaza*[3]. Rujing's emphasis on *zazen* against the other Buddhist practices then in fashion — *nianfo*, vinaya formalism, incense-burning — and his distance from the Caodong silent-illumination polemics of the previous generation, shape the immediate background of Dōgen's mature thought[4].`,
+Dōgen's *Hōkyō-ki* (寶慶記) records Rujing's instruction in extensive detail and is one of the principal early-Sōtō sources for the doctrine of *shēnxīn tuōluò* / *shinjin datsuraku* (身心脱落, "body-mind dropping away") that Dōgen would make central to his own teaching of *shikantaza*. Rujing's emphasis on *zazen* against the other Buddhist practices then in fashion — *nianfo*, vinaya formalism, incense-burning — and his distance from the Caodong silent-illumination polemics of the previous generation, shape the immediate background of Dōgen's mature thought[3].
+
+Modern textual-critical scholarship (notably Steven Heine, *Did Dōgen Go to China?: What He Wrote and When He Wrote It*, OUP 2006) has problematised much of the canonical hagiography around the Rujing-Dōgen transmission while accepting the underlying historical event: the *Hōkyō-ki* survives only as an undated, posthumously-circulated text in three divergent recensions (Rinnō-ji 1598 / printed 1672 / Eihei-ji manuscript discovered 1937); Dōgen's distinctive term *shinjin-datsuraku* (身心脱落) is unattested in Rujing's own Chinese sources, where the comparable phrase is the homophonic *xīnchén tuōluò* (心塵脱落, "mind-dust dropping off") — a possible Dōgen mishearing or interpretive transformation has been a live scholarly possibility for two decades. The Eihei-ji transmission certificate (a Japanese National Treasure) is judged by Bodiford as "most certainly a medieval forgery"; the Kenzeiki (1452) and Menzan's 1752 glossed Sōtō biographical tradition introduce additional hagiographic episodes that are absent from contemporary Chinese sources, which terminate at Rujing's master Zhijian and contain no Song-era record naming Dōgen or any other heir of Rujing[4].`,
     footnotes: [
       {
         index: 1,
         sourceId: "src_kim_dogen",
-        pageOrSection: "ch. on Dōgen at Tiantong and Rujing's transmission",
+        pageOrSection: "ch. on Dōgen at Tiantong, Rujing's transmission, and the Wuwai Yiyuan 1242 sanctioning",
       },
       {
         index: 2,
         sourceId: "src_dumoulin_japan",
-        pageOrSection: "ch. on Rujing and the late-Song Caodong school",
+        pageOrSection: "ch. on Rujing and the late-Song Caodong school + Jakuen's parallel Japanese line",
       },
       {
         index: 3,
         sourceId: "src_cleary_shobogenzo",
-        pageOrSection: "Hōkyō-ki — Dōgen's record of Rujing's teaching at Tiantong",
+        pageOrSection: "Hōkyō-ki — Dōgen's record of Rujing's teaching at Tiantong; the doctrinal shape of shinjin datsuraku as Dōgen received and transformed it",
       },
       {
         index: 4,
-        sourceId: "src_kim_dogen",
-        pageOrSection: "ch. on shinjin datsuraku and the Rujing-Dōgen relationship",
+        sourceId: "src_heine_did_dogen_go_to_china",
+        pageOrSection:
+          "Heine, *Did Dōgen Go to China?* (OUP 2006): textual-critical re-examination of the Hōkyō-ki recensions, the shinjin-datsuraku / xinchen-tuoluo homophone question, and the medieval forgery status of the Eihei-ji shisho. Bodiford in JJRS 30/1–2 (2003) on the shisho.",
       },
     ],
   },
