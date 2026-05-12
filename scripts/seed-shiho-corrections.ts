@@ -719,6 +719,14 @@ const CANONICAL_PRIMARY_EDGES: CanonicalPrimaryEdge[] = [
       "Dharma transmission (shihō), 1962 at Jōkō-ji in Kamo. Conferred by his adoptive father Hōzan Kōei Chino. Per jikojizencenter.org/biography: 'He received dharma transmission from Koei Chino Roshi in Kamo in 1962.' The Sawaki / Eihei-ji training in his twenties was practice / onshi training, not the shihō line.",
   },
   {
+    student: "gudo-wafu-nishijima",
+    teacher: "niwa-rempo-zenji",
+    shihoYear: 1977,
+    sourceIds: ["src_wikipedia", "src_hardcore_zen_nishijima_students"],
+    notes:
+      "Dharma transmission (shihō) from Niwa Rempō Zenji (per the 24-agent pilot verification: Sawaki red-team explicitly states Nishijima 'Received shihō from Rempō Niwa, not Sawaki. Wikipedia lists Nishijima as an influential student of Sawaki but not a shihō recipient.'). Sawaki remained Nishijima's foundational practice teacher (Sawaki's writing was Nishijima's gateway to Zen from the 1940s onward), but the institutional shihō came from Niwa. Year 1977 is the commonly cited date; pending further attestation.",
+  },
+  {
     student: "jiyu-kennett",
     teacher: "keido-chisan",
     shihoYear: 1963,

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600" role="img" aria-label="Nicolee Jikyo McMahon — portrait unavailable">
-  <title>Nicolee Jikyo McMahon</title>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600" role="img" aria-label="Charles Tenshin Fletcher — portrait unavailable">
+  <title>Charles Tenshin Fletcher</title>
   <desc>Name-card placeholder — no public-domain portrait of this master is available.</desc>
   <defs>
     <radialGradient id="paper" cx="50%" cy="45%" r="65%">
@@ -11,9 +11,9 @@
   <rect width="600" height="600" fill="url(#paper)"/>
   <g transform="translate(300 280)">
     <circle r="200" fill="none" stroke="hsl(340, 25%, 35%)" stroke-width="10" stroke-linecap="round" stroke-dasharray="1230 30" transform="rotate(-18)" opacity="0.85"/>
-    <text y="53.333333333333336" text-anchor="middle" font-family="Songti SC, STSong, Noto Serif CJK TC, serif" font-size="160" fill="hsl(340, 20%, 22%)" style="font-weight:500;">慈鏡</text>
+    <text y="53.333333333333336" text-anchor="middle" font-family="Songti SC, STSong, Noto Serif CJK TC, serif" font-size="160" fill="hsl(340, 20%, 22%)" style="font-weight:500;">天心</text>
   </g>
-  <text x="300" y="530" text-anchor="middle" font-family="Cormorant Garamond, serif" font-size="26" fill="hsl(340, 20%, 22%)" style="font-weight:500;">Nicolee Jikyo McMahon</text>
+  <text x="300" y="530" text-anchor="middle" font-family="Cormorant Garamond, serif" font-size="26" fill="hsl(340, 20%, 22%)" style="font-weight:500;">Charles Tenshin Fletcher</text>
   
   <text x="300" y="586" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="hsl(340, 15%, 50%)" opacity="0.7">portrait unavailable</text>
 </svg>

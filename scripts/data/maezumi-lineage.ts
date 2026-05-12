@@ -311,7 +311,9 @@ export const MAEZUMI_MASTERS: KVMaster[] = [
     slug: "nicolee-jikyo-mccann",
     schoolSlug: "white-plum-asanga",
     names: [
-      { locale: "en", nameType: "dharma", value: "Nicolee Jikyo McCann" },
+      { locale: "en", nameType: "dharma", value: "Nicolee Jikyo McMahon" },
+      { locale: "en", nameType: "alias", value: "Nicolee Jikyo Miller" },
+      { locale: "en", nameType: "alias", value: "Nicolee Jikyo McCann" },
       { locale: "en", nameType: "alias", value: "Jikyo Roshi" },
       { locale: "ja", nameType: "alias", value: "慈鏡" },
     ],
@@ -461,6 +463,49 @@ export const MAEZUMI_MASTERS: KVMaster[] = [
         isPrimary: true,
         sourceIds: ["src_whiteplum"],
         notes: "Authorized White Plum dharma heir of Maezumi teaching in Southern California.",
+      },
+    ],
+  },
+  {
+    slug: "charles-tenshin-fletcher",
+    schoolSlug: "white-plum-asanga",
+    names: [
+      { locale: "en", nameType: "dharma", value: "Charles Tenshin Fletcher" },
+      { locale: "en", nameType: "alias", value: "Tenshin Fletcher" },
+      { locale: "en", nameType: "alias", value: "Tenshin Fletcher Roshi" },
+      { locale: "ja", nameType: "alias", value: "天心" },
+    ],
+    birthYear: null,
+    birthPrecision: "unknown",
+    birthConfidence: "low",
+    deathYear: null,
+    deathPrecision: "unknown",
+    deathConfidence: "high",
+    biography:
+      "Charles Tenshin Fletcher (天心) is a White Plum dharma heir of Taizan Maezumi and abbot of Yokoji Zen Mountain Center in Mountain Center, California. He is one of Maezumi's twelve named dharma successors per the White Plum Asanga register — a roster the 24-agent pilot verification confirmed across White Plum Asanga, the Zen Center of Los Angeles, and zenhub.org genealogy[1].",
+    citations: [
+      {
+        sourceId: "src_whiteplum",
+        fieldName: "biography",
+        pageOrSection:
+          "whiteplum.org/founder — Tenshin Fletcher listed among Maezumi's named dharma heirs.",
+      },
+    ],
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_whiteplum",
+        pageOrSection: "whiteplum.org/founder — White Plum dharma heirs of Maezumi",
+      },
+    ],
+    transmissions: [
+      {
+        teacherSlug: "taizan-maezumi",
+        type: "primary",
+        isPrimary: true,
+        sourceIds: ["src_whiteplum"],
+        notes:
+          "White Plum dharma heir of Maezumi; abbot of Yokoji Zen Mountain Center, the residential training community Maezumi himself founded in the San Jacinto mountains.",
       },
     ],
   },

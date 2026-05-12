@@ -1,7 +1,7 @@
 # Zen Lineage — Complete Reference
 
-> An open-source interactive encyclopedia of Zen Buddhism covering 485+ masters,
-> 25 schools, 510+ lineage transmissions, 795+ teachings, and 1,700+ scholarly
+> An open-source interactive encyclopedia of Zen Buddhism covering 490+ masters,
+> 25 schools, 520+ lineage transmissions, 795+ teachings, and 1,700+ scholarly
 > citations across 2,500 years of Chan, Zen, Seon, and Thien Buddhist history.
 
 Zen Lineage maps the dharma transmission lineages connecting Buddhist masters
@@ -1042,9 +1042,7 @@ Trần Nhân Tông (陳仁宗, 1258–1308) was the third emperor of the Trần 
 - **Teachers:** Tettsū Gikai
 - **Students:** Keido Chisan, Meiho Sotetsu, Gasan Joseki
 
-Keizan Jokin, the fourth patriarch of Japanese Soto Zen, is sometimes called "the Great Popularizer" to complement Dogen's role as the school's philosophical founder[1]. He lived from around 1264 to 1325 and was instrumental in making Soto practice accessible to a broad population, including laypeople and those outside the educated elite. He founded Sojiji Temple, which became one of the two head temples of Soto Zen in Japan, the other being Dogen's Eiheiji[2].
-
-Keizan's Denkoroku (Transmission of the Lamp) records the awakening stories of each of the Indian and Chinese patriarchs, making the lineage narratively vivid for Japanese practitioners[3].
+Keizan Jōkin (1264–1325) is conventionally treated in modern Sōtō Zen as the school's "second founder" (*taiso*), complementing Dōgen's role as philosophical founder, and is sometimes called "the Great Popularizer" for his role in extending Sōtō practice beyond the small monastic milieu of Eihei-ji[1]. This two-founder designation, however, dates only from the late nineteenth century — it is a Meiji-era Sōtōshū institutional codification that consolidated the Sōtō school's modern self-image around the parity of Eihei-ji and Sōji-ji[2]. The earlier birth-year of 1268 still appears in some institutional sources, but Bodiford's Encyclopedia of Religion entry corrects this: "Born in 1264 (not 1268 as previously assumed)"[2].
 
 ### Koho Kakumyo
 
@@ -1972,7 +1970,7 @@ He served as president of Hanazono University in Kyoto, the Myōshin-ji-affiliat
 - **Dates:** 1904 – 1971
 - **School:** Sōtō
 - **Teachers:** Gyokujun So-on
-- **Students:** Dainin Katagiri, Kobun Chino Otogawa
+- **Students:** Dainin Katagiri, Kobun Chino Otogawa, Hoitsu Suzuki, Shōko Okamoto, Zentatsu Richard Baker
 
 Shunryū Suzuki (born Toshitaka Suzuki, May 18, 1904, in Kanagawa Prefecture, Japan; died December 4, 1971, in San Francisco) was the Sōtō Zen priest who, more than any other figure, transmitted Japanese Sōtō practice to American counterculture. He began monastic apprenticeship at age twelve under Gyokujun So-on Suzuki, a disciple of his father, and was ordained as a novice on his thirteenth birthday in 1917, receiving the Buddhist name Shōgaku Shunryū[1]. He attended Sōtō preparatory school in Tokyo from 1924, entered Komazawa University in 1925, and on August 26, 1926, at age twenty-two, received Dharma transmission from So-on; he was installed as the 28th abbot of Zoun-in on January 22, 1929, and subsequently trained at Eihei-ji (1930) and Sōji-ji in Yokohama (1931)[1].
 
@@ -1982,7 +1980,7 @@ Shunryū Suzuki (born Toshitaka Suzuki, May 18, 1904, in Kanagawa Prefecture, Ja
 - **Dates:** 1905 – 1993
 - **School:** Sōtō
 - **Teachers:** Niwa Butsuan Emyō
-- **Students:** Etienne Mokusho Zeisler, Roland Rech, Stephane Kosen Thibaut
+- **Students:** Daigyō Moriyama, Gudo Wafu Nishijima, Etienne Mokusho Zeisler, Roland Rech, Stephane Kosen Thibaut
 
 Niwa Rempō Zenji (丹羽廉芳, 1905–1993) was a senior Japanese Sōtō master who served as the 77th abbot (kanchō) of Daihonzan Eihei-ji from 1985 until his death in 1993, succeeding the 76th abbot Hata Egyoku Zenji[1]. He had been ordained at age 12 (1916) by his uncle Niwa Butsuan Emyō (丹羽佛庵慧明) at Tōkei-in in Shizuoka Prefecture and received Dharma transmission from him there in 1926[1]. Within twentieth-century Sōtōshū historiography he is remembered for two distinct things: his stewardship of Eihei-ji during the institutional consolidation of the modern Sōtō school, and his decisive role in formally authenticating Taisen Deshimaru's European mission after Deshimaru's 1982 death[1].
 
@@ -2066,7 +2064,7 @@ Charlotte Joko Beck (常湖, 27 March 1917 – 15 June 2011) was an American Zen
 - **Also known as:** Gudō Wafu Nishijima, Nishijima Roshi
 - **Dates:** 1919 – 2014
 - **School:** Sōtō
-- **Teachers:** Kodo Sawaki
+- **Teachers:** Kodo Sawaki, Niwa Rempō Zenji
 - **Students:** Brad Warner, Mike Chodo Cross
 
 Gudō Wafu Nishijima (西嶋愚道和夫, 29 November 1919 – 28 January 2014) was a Japanese Sōtō Zen priest, translator, and one of the most consequential modern Japanese teachers of Dōgen for an English-speaking audience[1]. As a young man in the early 1940s he became a student of Kōdō Sawaki — placing him in the same lay-Zen lineage that would also produce Taisen Deshimaru — and after the Second World War he took a law degree from Tokyo University and entered a long career in finance, working at the Japanese Ministry of Finance and later in the securities industry[1]. He did not ordain as a Buddhist priest until 1973, when he was already in his mid-fifties; his preceptor was Niwa Rempō Zenji, the future head abbot of Eihei-ji and a former leader of the Sōtō school.
@@ -2132,7 +2130,7 @@ Katagiri's American ministry began in 1963 at Zenshūji Sōtō Mission in Los An
 - **Dates:** 1931 – 1995
 - **School:** Sōtō
 - **Teachers:** Yasutani Hakuun, Baian Hakujun Kuroda, Osaka Koryu, Yamada Koun
-- **Students:** Bernie Tetsugen Glassman, Charlotte Joko Beck, Dennis Genpo Merzel, John Daido Loori, Jan Chozen Bays, Gerry Shishin Wick, Nicolee Jikyo McCann, William Nyogen Yeo, Susan Myoyu Andersen, John Tesshin Sanderson, Alfred Jitsudo Ancheta, Anne Seisen Saunders
+- **Students:** Bernie Tetsugen Glassman, Charlotte Joko Beck, Dennis Genpo Merzel, John Daido Loori, Jan Chozen Bays, Gerry Shishin Wick, Nicolee Jikyo McMahon, William Nyogen Yeo, Susan Myoyu Andersen, John Tesshin Sanderson, Alfred Jitsudo Ancheta, Charles Tenshin Fletcher, Anne Seisen Saunders
 
 Hakuyū Taizan Maezumi was born February 24, 1931, in Ōtawara, Tochigi Prefecture, Japan, the son of Baian Hakujun Kuroda, abbot of Kirigayaji and a major figure of mid-twentieth-century Sōtō Zen. He was ordained a novice Sōtō monk at the age of eleven and went on to take degrees in Oriental literature and philosophy at Komazawa University, the Sōtō school's flagship institution, while completing formal monastic training at Sōji-ji[1][2]. In 1955 he received shihō (dharma transmission) from his father in the Sōtō lineage.
 
@@ -2164,6 +2162,15 @@ Beopjeong (法頂, 1932–2010) is one of the most widely-read modern Korean Sŏ
 
 Robert C. Livingston Roshi (28 January 1933 – 2 January 2021) was the senior American disciple of Taisen Deshimaru and the founder of the New Orleans Zen Temple — the principal Sōtō dōjō in the United States carrying the Deshimaru / AZI line. Born in New York City, educated at Cornell, and a U.S. Army veteran of the Japan-Korea theatre in the early 1950s, he spent more than a decade in Europe in international finance before retiring from business and becoming Deshimaru's close disciple in Paris in the 1970s. Before his death in 1982 Deshimaru asked Livingston to return to the United States and establish authentic Sōtō practice there; Livingston founded the American Zen Association in 1983 and opened the New Orleans Zen Temple at 748 Camp Street in 1991.
 
+### Zentatsu Richard Baker
+
+- **Also known as:** Richard Baker, Baker Roshi
+- **Dates:** 1936 – null
+- **School:** Sōtō
+- **Teachers:** Shunryu Suzuki
+
+Zentatsu Richard Baker (born 1936) is an American Sōtō teacher and the only American Dharma heir of Shunryū Suzuki, having received transmission on 8 December 1970 and the Mountain Seat ceremony at San Francisco Zen Center on 21 November 1971 just before Suzuki's death[1]. He succeeded Suzuki as abbot of SFZC and led the institution's rapid 1970s expansion (the founding of Greens restaurant, the Tassajara Zen Mountain Center programme, the City Center on Page Street). His tenure ended in a 1983 institutional crisis documented in Michael Downing's *Shoes Outside the Door*; following the resignation he founded Dharma Sangha and the Crestone Mountain Zen Center (Colorado) and Johanneshof in the Black Forest of Germany, where he continues to teach[1][2].
+
 ### Philippe Reiryū Coupey
 
 - **Also known as:** Philippe Reiryu Coupey, Reiryū Coupey, Reiryu Coupey
@@ -2185,6 +2192,15 @@ After 1982 he continued teaching at AZI; since 1994 he has directed an annual su
 
 Kōbun Chino Otogawa (乙川 弘文; February 1, 1938 – July 26, 2002) was a Japanese Sōtō priest whose quiet, intuitive teaching seeded a generation of independent California and New Mexico sanghas, and whose private students included the founders of Silicon Valley[1]. Born into a temple family in Kamo, Niigata Prefecture — his older brother Keibun Otogawa later succeeded their father at the family temple — he completed undergraduate studies at Komazawa University, took a master's degree in Mahayana Buddhism at Kyoto University, and then trained for three years at Eihei-ji[1]. In 1967, at the invitation of Shunryū Suzuki, he came to California to help establish the new monastic training program at Tassajara Zen Mountain Center, where he served as Suzuki's assistant until 1970[1][2].
 
+### Daigyō Moriyama
+
+- **Also known as:** Moriyama Daigyō, Moriyama Roshi
+- **Dates:** 1938 – null
+- **School:** Sōtō
+- **Teachers:** Niwa Rempō Zenji
+
+Daigyō Moriyama Rōshi (森山 大行) is a Japanese Sōtō priest and Dharma heir of Niwa Rempō Zenji, 77th abbot of Eihei-ji[1]. The 24-agent pilot verification surfaced Moriyama as one of Niwa Rempō's documented heirs alongside Gudō Wafu Nishijima and Tetsuzan Gendō Niwa (Rempō's successor at Tōkei-in), all three of whom had previously been absent from this lineage roster. Moriyama subsequently taught extensively outside Japan, with particularly strong connections to the Brazilian Sōtōshū network; he served as abbot of Zuigakuin in Yamanashi and contributed to the international expansion of the Eihei-ji-line in South America.
+
 ### Bernie Tetsugen Glassman
 
 - **Also known as:** Bernie Glassman, Tetsugen Bernard Glassman
@@ -2193,6 +2209,15 @@ Kōbun Chino Otogawa (乙川 弘文; February 1, 1938 – July 26, 2002) was a J
 - **Teachers:** Taizan Maezumi
 
 Bernie Tetsugen Glassman (哲玄, January 18, 1939 – November 4, 2018) was born in Brighton Beach, Brooklyn, the son of Jewish immigrants from Eastern Europe. He took an engineering degree from Brooklyn Polytechnic Institute and a Ph.D. in applied mathematics from UCLA, and worked as an aeronautical engineer at McDonnell-Douglas — including on an early Mars-mission feasibility study — before turning fully to Zen. He had first encountered Zen in 1958 through Huston Smith's *The Religions of Man*, and in Los Angeles in the late 1960s he became one of the founding students of Taizan Maezumi at the Zen Center of Los Angeles.
+
+### Hoitsu Suzuki
+
+- **Also known as:** Shuntoku Hoitsu Suzuki
+- **Dates:** 1939 – null
+- **School:** Sōtō
+- **Teachers:** Shunryu Suzuki
+
+Hoitsu Suzuki (鈴木 法逸) is the eldest son and Dharma heir of Shunryū Suzuki, and the 28th abbot of Rinso-in, the family temple in Yaizu, Shizuoka, that Shunryū Suzuki had inherited from his own adoptive father Gyokujun So-on Suzuki[1]. Hoitsu received Dharma transmission from his father in 1963 — Shunryū's first transmission and the act that made it possible for him to depart for San Francisco in 1959 with the institutional question of Rinso-in's succession already resolved[1][2]. Hoitsu has subsequently played a quiet but significant role in the modern SFZC line by transmitting onward to several Western Sōtō teachers (Mel Weitsman, William Kwong, Les Kaye, Reb Anderson among others), each of whom is conventionally described as a 'second-generation' Suzuki line heir through this branch.
 
 ### Kōjun Kishigami
 
@@ -4356,9 +4381,9 @@ Panshan Baoji is recorded in the historiography of the late-Tang / Song-period C
 
 Guishan Daan is recorded in the historiography of the late-Tang / Song-period Chan transmission network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].
 
-### Nicolee Jikyo McCann
+### Nicolee Jikyo McMahon
 
-- **Also known as:** Jikyo Roshi
+- **Also known as:** Nicolee Jikyo Miller, Nicolee Jikyo McCann, Jikyo Roshi
 - **Dates:** Dates uncertain
 - **School:** White Plum Asanga
 - **Teachers:** Taizan Maezumi
@@ -4389,6 +4414,15 @@ John Tesshin Sanderson (徹心) is a White Plum dharma heir of Taizan Maezumi, o
 - **Teachers:** Taizan Maezumi
 
 Alfred Jitsudo Ancheta (実道) is a White Plum dharma heir of Taizan Maezumi, authorized among the cohort of senior students who received transmission before Maezumi's death. He teaches in Southern California in the Maezumi line[1].
+
+### Charles Tenshin Fletcher
+
+- **Also known as:** Tenshin Fletcher, Tenshin Fletcher Roshi
+- **Dates:** Dates uncertain
+- **School:** White Plum Asanga
+- **Teachers:** Taizan Maezumi
+
+Charles Tenshin Fletcher (天心) is a White Plum dharma heir of Taizan Maezumi and abbot of Yokoji Zen Mountain Center in Mountain Center, California. He is one of Maezumi's twelve named dharma successors per the White Plum Asanga register — a roster the 24-agent pilot verification confirmed across White Plum Asanga, the Zen Center of Los Angeles, and zenhub.org genealogy[1].
 
 ### Anne Seisen Saunders
 
@@ -4462,6 +4496,15 @@ In 2001 he conferred dharma transmission (shihō) on the French monk Olivier Rei
 - **Students:** Dainin Katagiri
 
 Daichō Hayashi (林大潮) was a Japanese Sōtō priest and head of Taizō-in in Fukui Prefecture in the mid-twentieth century. He is recorded in the Minnesota Zen Meditation Center's biographical materials on Dainin Katagiri as the master who ordained Katagiri as a monk at Taizō-in and named him Dharma heir on 24 December 1949 (denpō ceremony, Katagiri age 21)[1][2]. Outside this Katagiri-transmission act, English-language biographical information on Hayashi is sparse; the immediate teachers and predecessors in his own line at Taizō-in are not yet documented in publicly accessible sources, and would require Japanese-language temple records to seed accurately[2].
+
+### Shōko Okamoto
+
+- **Also known as:** Shoko Okamoto
+- **Dates:** Dates uncertain
+- **School:** Sōtō
+- **Teachers:** Shunryu Suzuki
+
+Shōko Okamoto is the second of Shunryū Suzuki's three documented Dharma heirs (sources differ on year: 1963 per cuke.com; 1966 per other lineage materials). The first was Suzuki's son Hoitsu, the third Zentatsu Richard Baker. Beyond the bare fact of the transmission, English-language biographical information on Okamoto's later career and own heirs is sparse, and this stub records only the lineage fact pending Japanese-language follow-up research[1].
 
 ### Hōzan Kōei Chino
 
@@ -4908,7 +4951,7 @@ The Taego Order (太古宗, 태고종) is the second largest Buddhist order in K
 ### Sōtō
 
 - **Tradition:** Zen
-- **Masters:** 150
+- **Masters:** 154
 
 The Soto school (曹洞宗) is the Japanese continuation of the Chinese Caodong tradition, founded by Eihei Dogen (1200–1253) after his training with Tiantong Rujing in China[1]. It is the largest Zen denomination in Japan[2]. Soto's central practice is shikantaza ('just sitting')—zazen practiced as the direct expression of awakening itself, not as a means to attain enlightenment[3]. Dogen articulated this in his masterwork the Shobogenzo—which is itself largely composed of koan commentary and philosophical inquiry—and in his practical manual the Fukanzazengi[3]. The school's second great figure, Keizan Jokin (1264–1325), founded Sojiji Temple and made Soto practice accessible to a broad Japanese population through the integration of esoteric ritual and ancestor veneration[1]. Together, Eiheiji (Dogen's temple) and Sojiji serve as the school's two head monasteries. In the modern era, the Soto tradition has been carried to the West by teachers including Shunryu Suzuki (San Francisco Zen Center), Taisen Deshimaru (Association Zen Internationale, Europe), Taizan Maezumi (Zen Center of Los Angeles), and Dainin Katagiri (Minnesota Zen Center), establishing vibrant practice communities across North America and Europe[4].
 
@@ -4950,7 +4993,7 @@ The Ōbaku school (黄檗宗) is the third major school of Japanese Zen, founded
 ### White Plum Asanga
 
 - **Tradition:** Zen
-- **Masters:** 12
+- **Masters:** 13
 
 The White Plum Asanga (白梅, 'white plum blossom') is the lineage sangha of Taizan Maezumi Roshi (1931–1995) and his Dharma successors[1]. It is not a Japanese Sōtōshū-registered sub-school but a Western Zen order that inherits Maezumi's tri-lineage authorization: Sōtō shihō from his father Baian Hakujun Kuroda, Rinzai inka from the lay teacher Kōryū Osaka, and Sanbō-Zen inka from Hakuun Yasutani[1][2]. Maezumi named twelve American Dharma heirs — including Bernie Tetsugen Glassman, Charlotte Joko Beck, Dennis Genpo Merzel, John Daido Loori, Jan Chozen Bays, and Gerry Shishin Wick — and through their own transmissions the White Plum now has several hundred authorized teachers and roughly a thousand affiliated practice places worldwide[3]. Because the order combines shikantaza with the Harada-Yasutani koan curriculum, and because it operates outside Sōtōshū registration, most White Plum heirs teach under the Asanga's own name rather than as Sōtō priests.
 

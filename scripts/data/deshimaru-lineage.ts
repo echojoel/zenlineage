@@ -386,6 +386,202 @@ const SOTO_PARENT_STUBS: KVMaster[] = [
     ],
   },
   {
+    slug: "hoitsu-suzuki",
+    schoolSlug: "soto",
+    names: [
+      { locale: "en", nameType: "dharma", value: "Hoitsu Suzuki" },
+      { locale: "en", nameType: "alias", value: "Shuntoku Hoitsu Suzuki" },
+      { locale: "ja", nameType: "dharma", value: "鈴木 法逸" },
+    ],
+    birthYear: 1939,
+    birthPrecision: "approximate",
+    birthConfidence: "low",
+    deathYear: null,
+    deathPrecision: "unknown",
+    deathConfidence: "low",
+    biography:
+      "Hoitsu Suzuki (鈴木 法逸) is the eldest son and Dharma heir of Shunryū Suzuki, and the 28th abbot of Rinso-in, the family temple in Yaizu, Shizuoka, that Shunryū Suzuki had inherited from his own adoptive father Gyokujun So-on Suzuki[1]. Hoitsu received Dharma transmission from his father in 1963 — Shunryū's first transmission and the act that made it possible for him to depart for San Francisco in 1959 with the institutional question of Rinso-in's succession already resolved[1][2]. Hoitsu has subsequently played a quiet but significant role in the modern SFZC line by transmitting onward to several Western Sōtō teachers (Mel Weitsman, William Kwong, Les Kaye, Reb Anderson among others), each of whom is conventionally described as a 'second-generation' Suzuki line heir through this branch.",
+    citations: [
+      {
+        sourceId: "src_wikipedia",
+        fieldName: "biography",
+        pageOrSection:
+          "en.wikipedia.org/wiki/Shunry%C5%AB_Suzuki — Shunryū Suzuki Dharma heirs: Hoitsu Suzuki (1963).",
+      },
+      {
+        sourceId: "src_originals_curated",
+        fieldName: "biography",
+        pageOrSection:
+          "cuke.com Suzuki archive — \"On August 21, 1926, So-on gave Dharma transmission to Suzuki\" + Rinso-in succession context.",
+      },
+    ],
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_wikipedia",
+        pageOrSection: "en.wikipedia.org — Shunryū Suzuki § Dharma heirs",
+      },
+      {
+        index: 2,
+        sourceId: "src_originals_curated",
+        pageOrSection: "cuke.com Suzuki archive — Rinso-in succession",
+      },
+    ],
+    transmissions: [
+      {
+        teacherSlug: "shunryu-suzuki",
+        type: "primary",
+        isPrimary: true,
+        sourceIds: ["src_wikipedia"],
+        notes:
+          "Dharma transmission (shihō), 1963 from his father Shunryū Suzuki. The transmission settled the Rinso-in temple-family succession before Shunryū departed for San Francisco; Hoitsu later became the 28th abbot of Rinso-in.",
+      },
+    ],
+  },
+  {
+    slug: "shoko-okamoto",
+    schoolSlug: "soto",
+    names: [
+      { locale: "en", nameType: "dharma", value: "Shōko Okamoto" },
+      { locale: "en", nameType: "alias", value: "Shoko Okamoto" },
+    ],
+    birthYear: null,
+    birthPrecision: "unknown",
+    birthConfidence: "low",
+    deathYear: null,
+    deathPrecision: "unknown",
+    deathConfidence: "low",
+    biography:
+      "Shōko Okamoto is the second of Shunryū Suzuki's three documented Dharma heirs (sources differ on year: 1963 per cuke.com; 1966 per other lineage materials). The first was Suzuki's son Hoitsu, the third Zentatsu Richard Baker. Beyond the bare fact of the transmission, English-language biographical information on Okamoto's later career and own heirs is sparse, and this stub records only the lineage fact pending Japanese-language follow-up research[1].",
+    citations: [
+      {
+        sourceId: "src_originals_curated",
+        fieldName: "biography",
+        pageOrSection:
+          "cuke.com — Suzuki Dharma heirs: Hoitsu Suzuki, Shoko Okamoto, Zentatsu Richard Baker (the second received transmission in 1963 or 1966).",
+      },
+    ],
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_originals_curated",
+        pageOrSection: "cuke.com archive — Shunryū Suzuki Dharma heirs roster",
+      },
+    ],
+    transmissions: [
+      {
+        teacherSlug: "shunryu-suzuki",
+        type: "primary",
+        isPrimary: true,
+        sourceIds: ["src_originals_curated"],
+        notes:
+          "Dharma transmission (shihō), 1963 (cuke.com) or 1966 (other lineage sources) from Shunryū Suzuki. Year not yet reconciled across sources.",
+      },
+    ],
+  },
+  {
+    slug: "richard-zentatsu-baker",
+    schoolSlug: "soto",
+    names: [
+      { locale: "en", nameType: "dharma", value: "Zentatsu Richard Baker" },
+      { locale: "en", nameType: "alias", value: "Richard Baker" },
+      { locale: "en", nameType: "alias", value: "Baker Roshi" },
+    ],
+    birthYear: 1936,
+    birthPrecision: "exact",
+    birthConfidence: "high",
+    deathYear: null,
+    deathPrecision: "unknown",
+    deathConfidence: "low",
+    biography:
+      "Zentatsu Richard Baker (born 1936) is an American Sōtō teacher and the only American Dharma heir of Shunryū Suzuki, having received transmission on 8 December 1970 and the Mountain Seat ceremony at San Francisco Zen Center on 21 November 1971 just before Suzuki's death[1]. He succeeded Suzuki as abbot of SFZC and led the institution's rapid 1970s expansion (the founding of Greens restaurant, the Tassajara Zen Mountain Center programme, the City Center on Page Street). His tenure ended in a 1983 institutional crisis documented in Michael Downing's *Shoes Outside the Door*; following the resignation he founded Dharma Sangha and the Crestone Mountain Zen Center (Colorado) and Johanneshof in the Black Forest of Germany, where he continues to teach[1][2].",
+    citations: [
+      {
+        sourceId: "src_wikipedia",
+        fieldName: "biography",
+        pageOrSection:
+          "en.wikipedia.org/wiki/Richard_Baker_(Zen_teacher) — Zentatsu Richard Baker, sole American Dharma heir of Shunryū Suzuki, transmission 1970, Mountain Seat Nov 21 1971.",
+      },
+      {
+        sourceId: "src_originals_curated",
+        fieldName: "biography",
+        pageOrSection:
+          "cuke.com Suzuki archive — Baker received transmission on December 8, 1970.",
+      },
+    ],
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_wikipedia",
+        pageOrSection: "en.wikipedia.org — Richard Baker (Zen teacher)",
+      },
+      {
+        index: 2,
+        sourceId: "src_originals_curated",
+        pageOrSection: "cuke.com archive — Baker installation, 1971",
+      },
+    ],
+    transmissions: [
+      {
+        teacherSlug: "shunryu-suzuki",
+        type: "primary",
+        isPrimary: true,
+        sourceIds: ["src_wikipedia", "src_originals_curated"],
+        notes:
+          "Dharma transmission (shihō), 8 December 1970 from Shunryū Suzuki. Mountain Seat ceremony installing Baker as Suzuki's SFZC successor: 21 November 1971, three weeks before Suzuki's death. Baker is Suzuki's only American (Western) shihō recipient — Hoitsu Suzuki and Shōko Okamoto are the two Japanese heirs.",
+      },
+    ],
+  },
+  {
+    slug: "moriyama-daigyo",
+    schoolSlug: "soto",
+    names: [
+      { locale: "en", nameType: "dharma", value: "Daigyō Moriyama" },
+      { locale: "en", nameType: "alias", value: "Moriyama Daigyō" },
+      { locale: "en", nameType: "alias", value: "Moriyama Roshi" },
+      { locale: "ja", nameType: "dharma", value: "森山 大行" },
+    ],
+    birthYear: 1938,
+    birthPrecision: "approximate",
+    birthConfidence: "low",
+    deathYear: null,
+    deathPrecision: "unknown",
+    deathConfidence: "low",
+    biography:
+      "Daigyō Moriyama Rōshi (森山 大行) is a Japanese Sōtō priest and Dharma heir of Niwa Rempō Zenji, 77th abbot of Eihei-ji[1]. The 24-agent pilot verification surfaced Moriyama as one of Niwa Rempō's documented heirs alongside Gudō Wafu Nishijima and Tetsuzan Gendō Niwa (Rempō's successor at Tōkei-in), all three of whom had previously been absent from this lineage roster. Moriyama subsequently taught extensively outside Japan, with particularly strong connections to the Brazilian Sōtōshū network; he served as abbot of Zuigakuin in Yamanashi and contributed to the international expansion of the Eihei-ji-line in South America.",
+    citations: [
+      {
+        sourceId: "src_terebess",
+        fieldName: "biography",
+        pageOrSection:
+          "terebess.hu/zen/mesterek/NiwaRempo.html — Niwa Rempō's documented Dharma heirs include Moriyama Daigyō.",
+      },
+      {
+        sourceId: "src_wikipedia",
+        fieldName: "biography",
+        pageOrSection:
+          "en.wikipedia.org/wiki/Rempo_Niwa — Niwa Rempō Dharma heirs.",
+      },
+    ],
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_terebess",
+        pageOrSection: "terebess.hu — Niwa Rempō biography",
+      },
+    ],
+    transmissions: [
+      {
+        teacherSlug: "niwa-rempo-zenji",
+        type: "primary",
+        isPrimary: true,
+        sourceIds: ["src_terebess", "src_wikipedia"],
+        notes:
+          "Dharma transmission (shihō) from Niwa Rempō Zenji. Year not yet pinned down in publicly available English-language sources; pending Japanese-language temple-register research.",
+      },
+    ],
+  },
+  {
     slug: "yamada-reirin",
     schoolSlug: "soto",
     names: [
