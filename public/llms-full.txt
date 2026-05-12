@@ -1,7 +1,7 @@
 # Zen Lineage — Complete Reference
 
-> An open-source interactive encyclopedia of Zen Buddhism covering 480+ masters,
-> 25 schools, 500+ lineage transmissions, 795+ teachings, and 1,700+ scholarly
+> An open-source interactive encyclopedia of Zen Buddhism covering 485+ masters,
+> 25 schools, 510+ lineage transmissions, 795+ teachings, and 1,700+ scholarly
 > citations across 2,500 years of Chan, Zen, Seon, and Thien Buddhist history.
 
 Zen Lineage maps the dharma transmission lineages connecting Buddhist masters
@@ -1784,6 +1784,16 @@ Butsumon Sogaku is recorded in the historiography of the medieval / early-modern
 
 Shaku Sōen (釈宗演), often romanised in his lifetime as Soyen Shaku, was born on 10 January 1860 in Takahama, Fukui Prefecture, into the dying years of the Tokugawa shogunate. He entered monastic life as a boy at the Rinzai temple Myōshin-ji and trained under Ekkei Shuken before becoming the disciple of Imakita Kōsen at Engaku-ji in Kamakura. He received Dharma transmission (inka) from Kōsen at the unusually young age of twenty-five, an early recognition that marked him as one of the most promising Rinzai teachers of the Meiji era[1].
 
+### Niwa Butsuan
+
+- **Also known as:** Butsuan Niwa
+- **Dates:** 1864 – 1937
+- **School:** Sōtō
+- **Teachers:** Kodo Sawaki
+- **Students:** Niwa Rempō Zenji
+
+Niwa Butsuan (丹羽佛庵, c. 1864–1937) was a Japanese Sōtō priest and head of Tōkei-in in Shizuoka Prefecture in the late Meiji and early Shōwa periods. His chief historical importance is as the ordaining and Dharma-transmitting teacher of his nephew Niwa Rempō (the future 77th abbot of Eihei-ji): Rempō was ordained at age 12 (1916) under Butsuan at Tōkei-in and received Dharma transmission (shihō) from him in 1926[1]. Outside this transmission line, biographical information on Butsuan is sparse in English-language sources, and a fuller portrait would require Japanese-language primary materials from Tōkei-in's own succession registers[1][2].
+
 ### Yamamoto Gempo
 
 - **Dates:** 1866 – 1961
@@ -1862,7 +1872,7 @@ Sō-on was the adopted son of Butsumon Sogaku Suzuki, Shunryū's biological fath
 - **Dates:** 1880 – 1965
 - **School:** Sōtō
 - **Teachers:** Sawada Zenko
-- **Students:** Gudo Wafu Nishijima, Kosho Uchiyama, Taisen Deshimaru, Niwa Rempō Zenji, Yūkō Okamoto, Kōjun Kishigami
+- **Students:** Gudo Wafu Nishijima, Kosho Uchiyama, Taisen Deshimaru, Yūkō Okamoto, Kōjun Kishigami, Niwa Butsuan, Daichō Hayashi, Hōzan Kōei Chino
 
 Kōdō Sawaki (澤木 興道, 1880–1965), known throughout Japan as "Homeless Kōdō" (Yadonashi Kōdō), was the modern Sōtō master most responsible for severing the practice of zazen from the temple-funeral economy and restoring shikantaza as the living center of the school. He was born June 16, 1880 in Tsu, Mie Prefecture; orphaned by age seven, he was taken in by a lantern-maker named Bunkichi Sawaki whose home doubled as a gambling parlor — an upbringing he later credited with immunizing him against any romance about respectability[1]. At sixteen he ran away to Eihei-ji, found work as a temple servant, and at eighteen entered Sōshin-ji, where he was ordained in 1899 by Kōhō Sawada and received dharma transmission from Zenkō Sawada in 1906[1].
 
@@ -1961,7 +1971,7 @@ Shunryū Suzuki (born Toshitaka Suzuki, May 18, 1904, in Kanagawa Prefecture, Ja
 - **Also known as:** Renpō Niwa, Niwa Zenji
 - **Dates:** 1905 – 1993
 - **School:** Sōtō
-- **Teachers:** Kodo Sawaki
+- **Teachers:** Niwa Butsuan
 - **Students:** Etienne Mokusho Zeisler, Roland Rech, Stephane Kosen Thibaut
 
 Niwa Rempō Zenji (丹羽廉芳, 1905–1993) was a senior Japanese Sōtō master who served as the 77th abbot (kanchō) of Daihonzan Eihei-ji from 1985 until his death in 1993, after some five decades of monastic life at Eihei-ji proper[1]. Within twentieth-century Sōtōshū historiography he is remembered for two distinct things: his stewardship of Eihei-ji during the institutional consolidation of the modern Sōtō school, and his decisive role in formally authenticating Taisen Deshimaru's European mission after Deshimaru's 1982 death[1].
@@ -2102,7 +2112,7 @@ Daehaeng Kun Sunim (大行, 1927–2012) is one of the most important Korean fem
 - **Also known as:** Katagiri Roshi
 - **Dates:** 1928 – 1990
 - **School:** Sōtō
-- **Teachers:** Shunryu Suzuki
+- **Teachers:** Shunryu Suzuki, Daichō Hayashi
 
 Jikai Dainin Katagiri (January 19, 1928 – March 1, 1990) was the Sōtō priest most responsible for establishing Zen practice across the American Midwest[1]. Born in Osaka, he was ordained in 1946 by Daichō Hayashi at Taizō-in in Fukui Prefecture, from whom he eventually received Dharma transmission; he then trained for three years under the famously severe Ekō Hashimoto at Eihei-ji before entering Komazawa University in Tokyo, where he majored in Buddhist studies[1]. After graduation he served at Eihei-ji and was assigned to North America by the Sōtōshū[1].
 
@@ -2163,7 +2173,7 @@ After 1982 he continued teaching at AZI; since 1994 he has directed an annual su
 - **Also known as:** Kobun Chino, Kobun Chino Otagawa
 - **Dates:** 1938 – 2002
 - **School:** Sōtō
-- **Teachers:** Shunryu Suzuki
+- **Teachers:** Shunryu Suzuki, Hōzan Kōei Chino
 
 Kōbun Chino Otogawa (乙川 弘文; February 1, 1938 – July 26, 2002) was a Japanese Sōtō priest whose quiet, intuitive teaching seeded a generation of independent California and New Mexico sanghas, and whose private students included the founders of Silicon Valley[1]. Born into a temple family in Kamo, Niigata Prefecture — his older brother Keibun Otogawa later succeeded their father at the family temple — he completed undergraduate studies at Komazawa University, took a master's degree in Mahayana Buddhism at Kyoto University, and then trained for three years at Eihei-ji[1]. In 1967, at the invitation of Shunryū Suzuki, he came to California to help establish the new monastic training program at Tassajara Zen Mountain Center, where he served as Suzuki's assistant until 1970[1][2].
 
@@ -4435,6 +4445,26 @@ Dōshō Saikawa Roshi is a Japanese Sōtō Zen master, abbot of Hossen-ji in Yam
 
 In 2001 he conferred dharma transmission (shihō) on the French monk Olivier Reigen Wang-Genh, founder of Kōsan Ryūmon-ji in Alsace — anchoring one of the principal European AZI temples in the modern Sōtōshū register[1][2][3].
 
+### Daichō Hayashi
+
+- **Also known as:** Daicho Hayashi, Hayashi Daichō
+- **Dates:** Dates uncertain
+- **School:** Sōtō
+- **Teachers:** Kodo Sawaki
+- **Students:** Dainin Katagiri
+
+Daichō Hayashi (林大潮) was a Japanese Sōtō priest and head of Taizō-in in Fukui Prefecture in the mid-twentieth century. He is recorded in the Minnesota Zen Meditation Center's biographical materials on Dainin Katagiri as the master who ordained Katagiri as a monk at Taizō-in and named him Dharma heir on 24 December 1949 (denpō ceremony, Katagiri age 21)[1][2]. Outside this Katagiri-transmission act, English-language biographical information on Hayashi is sparse; the immediate teachers and predecessors in his own line at Taizō-in are not yet documented in publicly accessible sources, and would require Japanese-language temple records to seed accurately[2].
+
+### Hōzan Kōei Chino
+
+- **Also known as:** Hozan Koei Chino, Kōei Chino, Koei Chino
+- **Dates:** Dates uncertain
+- **School:** Sōtō
+- **Teachers:** Kodo Sawaki
+- **Students:** Kobun Chino Otogawa
+
+Hōzan Kōei Chino (知野弘恵) was a Japanese Sōtō priest and head of Jōkō-ji in Kamo (Niigata Prefecture). He is the adoptive father and Dharma-transmission teacher of Kōbun Chino Otogawa, who was raised at Jōkō-ji after his birth father's death and received Dharma transmission (shihō) from Hōzan Kōei in 1962[1][2]. Kōbun went on to become one of the most influential Japanese Sōtō teachers in the postwar American transmission, founding Hōkō-ji (Taos, NM) and Jikoji (Santa Cruz Mountains), and an early teacher to Steve Jobs. The Eihei-ji training Kōbun undertook in his twenties under Kōdō Sawaki was a practice / onshi training, distinct from the shihō relationship with his adoptive father Hōzan Kōei[1].
+
 ### André Ryūjō Meissner
 
 - **Also known as:** André Ryujo Meissner
@@ -4870,7 +4900,7 @@ The Taego Order (太古宗, 태고종) is the second largest Buddhist order in K
 ### Sōtō
 
 - **Tradition:** Zen
-- **Masters:** 146
+- **Masters:** 149
 
 The Soto school (曹洞宗) is the Japanese continuation of the Chinese Caodong tradition, founded by Eihei Dogen (1200–1253) after his training with Tiantong Rujing in China[1]. It is the largest Zen denomination in Japan[2]. Soto's central practice is shikantaza ('just sitting')—zazen practiced as the direct expression of awakening itself, not as a means to attain enlightenment[3]. Dogen articulated this in his masterwork the Shobogenzo—which is itself largely composed of koan commentary and philosophical inquiry—and in his practical manual the Fukanzazengi[3]. The school's second great figure, Keizan Jokin (1264–1325), founded Sojiji Temple and made Soto practice accessible to a broad Japanese population through the integration of esoteric ritual and ancestor veneration[1]. Together, Eiheiji (Dogen's temple) and Sojiji serve as the school's two head monasteries. In the modern era, the Soto tradition has been carried to the West by teachers including Shunryu Suzuki (San Francisco Zen Center), Taisen Deshimaru (Association Zen Internationale, Europe), Taizan Maezumi (Zen Center of Los Angeles), and Dainin Katagiri (Minnesota Zen Center), establishing vibrant practice communities across North America and Europe[4].
 

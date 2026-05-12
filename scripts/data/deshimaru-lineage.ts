@@ -131,12 +131,12 @@ const SOTO_PARENT_STUBS: KVMaster[] = [
     ],
     transmissions: [
       {
-        teacherSlug: "kodo-sawaki",
-        type: "dharma",
-        isPrimary: false,
-        sourceIds: ["src_sotozen_jp", "src_wikipedia"],
+        teacherSlug: "niwa-butsuan",
+        type: "primary",
+        isPrimary: true,
+        sourceIds: ["src_terebess", "src_wikipedia"],
         notes:
-          "Editorial bridge: Niwa Rempō received shihō from his uncle Niwa Butsuan at Tōkei-in (Shizuoka) in 1926; Butsuan is not yet seeded in the DB. Niwa subsequently trained at Antai-ji during Sawaki's era, placing him in the same Shōwa-Sōtō reform circle as Sawaki Kōdō. The edge to Sawaki anchors him in the 20th-century Eihei-ji-line milieu rather than the 13th-century Dōgen root.",
+          "Dharma transmission (shihō) 1926 from his uncle Niwa Butsuan at Tōkei-in (Shizuoka). Per the Niwa Rempō biography on terebess.hu: \"ordained at age 12 (1916) under Niwa Butsuan at Tōkei-in ... received dharma transmission from him in 1926.\" Niwa subsequently trained at Antai-ji during Sawaki Kōdō's era.",
       },
     ],
   },
@@ -263,6 +263,181 @@ const SOTO_PARENT_STUBS: KVMaster[] = [
       },
     ],
     transmissions: [],
+  },
+  // ── Three thin master stubs for the un-seeded mid-20th-c. shihō teachers ──
+  // Niwa Butsuan, Daichō Hayashi, and Hōzan Kōei Chino are the actual
+  // Dharma-transmission teachers of three figures whose previous "parent"
+  // edges were 700-year editorial bridges to Dōgen. By authoring each as
+  // a thin master row with citations, we turn the bridges into real
+  // transmission edges. Each of these teachers' own predecessors is not
+  // yet seeded (Japanese-language sources required) — they appear as new
+  // editorial bridges to the nearest seeded Sōtō ancestor.
+  {
+    slug: "niwa-butsuan",
+    schoolSlug: "soto",
+    names: [
+      { locale: "en", nameType: "dharma", value: "Niwa Butsuan" },
+      { locale: "en", nameType: "alias", value: "Butsuan Niwa" },
+      { locale: "ja", nameType: "dharma", value: "丹羽佛庵" },
+    ],
+    birthYear: 1864,
+    birthPrecision: "approximate",
+    birthConfidence: "low",
+    deathYear: 1937,
+    deathPrecision: "approximate",
+    deathConfidence: "low",
+    biography:
+      "Niwa Butsuan (丹羽佛庵, c. 1864–1937) was a Japanese Sōtō priest and head of Tōkei-in in Shizuoka Prefecture in the late Meiji and early Shōwa periods. His chief historical importance is as the ordaining and Dharma-transmitting teacher of his nephew Niwa Rempō (the future 77th abbot of Eihei-ji): Rempō was ordained at age 12 (1916) under Butsuan at Tōkei-in and received Dharma transmission (shihō) from him in 1926[1]. Outside this transmission line, biographical information on Butsuan is sparse in English-language sources, and a fuller portrait would require Japanese-language primary materials from Tōkei-in's own succession registers[1][2].",
+    citations: [
+      {
+        sourceId: "src_terebess",
+        fieldName: "biography",
+        pageOrSection:
+          "terebess.hu/zen/mesterek/NiwaRempo.html — biography of Niwa Rempō: \"ordained at age 12 (1916) under Niwa Butsuan at Tōkei-in ... received dharma transmission from him in 1926.\"",
+      },
+      {
+        sourceId: "src_wikipedia",
+        fieldName: "biography",
+        pageOrSection:
+          "en.wikipedia.org/wiki/Rempo_Niwa — confirms Rempō's Tōkei-in training and later Eihei-ji abbacy.",
+      },
+    ],
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_terebess",
+        pageOrSection:
+          "terebess.hu — Niwa Rempō biography (1916 ordination, 1926 shihō at Tōkei-in)",
+      },
+      {
+        index: 2,
+        sourceId: "src_wikipedia",
+        pageOrSection: "en.wikipedia.org — Rempo Niwa",
+      },
+    ],
+    transmissions: [
+      {
+        teacherSlug: "kodo-sawaki",
+        type: "dharma",
+        isPrimary: false,
+        sourceIds: ["src_terebess"],
+        notes:
+          "Editorial bridge: Niwa Butsuan's own teacher in the Eihei-ji-line succession is not yet seeded in the DB. The edge to Sawaki Kōdō anchors him in the same late-Meiji / early-Shōwa Sōtō reform milieu rather than the 13th-century Dōgen root. Pending Japanese-source research into Tōkei-in's succession register.",
+      },
+    ],
+  },
+  {
+    slug: "daicho-hayashi",
+    schoolSlug: "soto",
+    names: [
+      { locale: "en", nameType: "dharma", value: "Daichō Hayashi" },
+      { locale: "en", nameType: "alias", value: "Daicho Hayashi" },
+      { locale: "en", nameType: "alias", value: "Hayashi Daichō" },
+      { locale: "ja", nameType: "dharma", value: "林大潮" },
+    ],
+    birthYear: null,
+    birthPrecision: "unknown",
+    birthConfidence: "low",
+    deathYear: null,
+    deathPrecision: "unknown",
+    deathConfidence: "low",
+    biography:
+      "Daichō Hayashi (林大潮) was a Japanese Sōtō priest and head of Taizō-in in Fukui Prefecture in the mid-twentieth century. He is recorded in the Minnesota Zen Meditation Center's biographical materials on Dainin Katagiri as the master who ordained Katagiri as a monk at Taizō-in and named him Dharma heir on 24 December 1949 (denpō ceremony, Katagiri age 21)[1][2]. Outside this Katagiri-transmission act, English-language biographical information on Hayashi is sparse; the immediate teachers and predecessors in his own line at Taizō-in are not yet documented in publicly accessible sources, and would require Japanese-language temple records to seed accurately[2].",
+    citations: [
+      {
+        sourceId: "src_wikipedia",
+        fieldName: "biography",
+        pageOrSection:
+          "en.wikipedia.org/wiki/Dainin_Katagiri — \"ordained a monk by and named a Dharma heir of Daicho Hayashi at Taizo-in in Fukui.\"",
+      },
+      {
+        sourceId: "src_mnzencenter_katagiri_biography",
+        fieldName: "biography",
+        pageOrSection:
+          "Andrea Martin, \"Ceaseless Effort: The Life of Dainin Katagiri Roshi\" (MNZC) — \"On December 24, 1949, Daichō Hayashi performed the denpō ceremony — formal transmission of Dharma — for Katagiri at Taizō-in.\"",
+      },
+    ],
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_wikipedia",
+        pageOrSection:
+          "en.wikipedia.org — Dainin Katagiri (Taizō-in ordination and Dharma transmission)",
+      },
+      {
+        index: 2,
+        sourceId: "src_mnzencenter_katagiri_biography",
+        pageOrSection:
+          "MNZC — Andrea Martin, \"Ceaseless Effort\" biography of Katagiri (1949 denpō)",
+      },
+    ],
+    transmissions: [
+      {
+        teacherSlug: "kodo-sawaki",
+        type: "dharma",
+        isPrimary: false,
+        sourceIds: ["src_mnzencenter_katagiri_biography"],
+        notes:
+          "Editorial bridge: Daichō Hayashi's own teacher and predecessor at Taizō-in are not yet seeded in the DB. The edge to Sawaki Kōdō anchors him in the contemporary mid-Shōwa Sōtō world rather than the 13th-century Dōgen root. Pending Japanese-source research into the Taizō-in succession register.",
+      },
+    ],
+  },
+  {
+    slug: "hozan-koei-chino",
+    schoolSlug: "soto",
+    names: [
+      { locale: "en", nameType: "dharma", value: "Hōzan Kōei Chino" },
+      { locale: "en", nameType: "alias", value: "Hozan Koei Chino" },
+      { locale: "en", nameType: "alias", value: "Kōei Chino" },
+      { locale: "en", nameType: "alias", value: "Koei Chino" },
+      { locale: "ja", nameType: "dharma", value: "知野弘恵" },
+    ],
+    birthYear: null,
+    birthPrecision: "unknown",
+    birthConfidence: "low",
+    deathYear: null,
+    deathPrecision: "unknown",
+    deathConfidence: "low",
+    biography:
+      "Hōzan Kōei Chino (知野弘恵) was a Japanese Sōtō priest and head of Jōkō-ji in Kamo (Niigata Prefecture). He is the adoptive father and Dharma-transmission teacher of Kōbun Chino Otogawa, who was raised at Jōkō-ji after his birth father's death and received Dharma transmission (shihō) from Hōzan Kōei in 1962[1][2]. Kōbun went on to become one of the most influential Japanese Sōtō teachers in the postwar American transmission, founding Hōkō-ji (Taos, NM) and Jikoji (Santa Cruz Mountains), and an early teacher to Steve Jobs. The Eihei-ji training Kōbun undertook in his twenties under Kōdō Sawaki was a practice / onshi training, distinct from the shihō relationship with his adoptive father Hōzan Kōei[1].",
+    citations: [
+      {
+        sourceId: "src_kobun_sama_biography",
+        fieldName: "biography",
+        pageOrSection:
+          "jikojizencenter.org/biography — \"He received dharma transmission from Koei Chino Roshi in Kamo in 1962.\"",
+      },
+      {
+        sourceId: "src_wikipedia",
+        fieldName: "biography",
+        pageOrSection:
+          "en.wikipedia.org/wiki/K%C5%8Dbun_Chino_Otogawa — \"Following the death of his birth father, Kōbun was adopted by his uncle, Hōzan Kōei Chino, who became his Sōtō teacher.\"",
+      },
+    ],
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_kobun_sama_biography",
+        pageOrSection:
+          "Jikoji Zen Center — biography of Kōbun Chino Otogawa (1962 transmission from Hōzan Kōei Chino at Kamo)",
+      },
+      {
+        index: 2,
+        sourceId: "src_wikipedia",
+        pageOrSection:
+          "en.wikipedia.org — Kōbun Chino Otogawa",
+      },
+    ],
+    transmissions: [
+      {
+        teacherSlug: "kodo-sawaki",
+        type: "dharma",
+        isPrimary: false,
+        sourceIds: ["src_kobun_sama_biography"],
+        notes:
+          "Editorial bridge: Hōzan Kōei Chino's own teacher and predecessor at Jōkō-ji are not yet seeded. The edge to Sawaki Kōdō anchors him in the contemporary mid-Shōwa Sōtō world rather than the 13th-century Dōgen root. Pending Japanese-source research into the Jōkō-ji succession register.",
+      },
+    ],
   },
 ];
 

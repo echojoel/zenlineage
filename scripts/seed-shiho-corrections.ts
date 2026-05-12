@@ -620,7 +620,7 @@ const ORPHAN_ANCHORS: { student: string; teacher: string; notes: string }[] = [
     student: "dosho-saikawa",
     teacher: "keido-chisan",
     notes:
-      "Editorial bridge: Dōshō Saikawa was ordained by Shunmyō Satō Rōshi in 1978 and trained at Daihonzan Sōji-ji 1978–79 and Sōji-ji Soin 1979–81 (per meditation-zen.org/en/master-saikawa-roshi). His immediate shihō teacher in the Sōji-ji line is not yet seeded; the edge to Kōhō Keidō Chisan (70th abbot of Sōji-ji) anchors him in the Sōji-ji-line succession rather than the 13th-century Dōgen root.",
+      "Editorial bridge: Dōshō Saikawa was ordained by Shunmyō Satō Rōshi in 1978 and trained at Daihonzan Sōji-ji 1978–79 and Sōji-ji Soin 1979–81 (per meditation-zen.org/en/master-saikawa-roshi). His immediate Dharma-transmission teacher in the Sōji-ji line is not yet seeded; the edge to Kōhō Keidō Chisan (70th abbot of Sōji-ji) anchors him in the Sōji-ji-line succession rather than the 13th-century Dōgen root.",
   },
 ];
 
@@ -686,10 +686,167 @@ async function ensureOrphanAnchor(anchor: typeof ORPHAN_ANCHORS[number]): Promis
   });
 }
 
+/**
+ * Canonical primary-teacher edges for masters whose actual shihō teacher
+ * had to be authored as a stub elsewhere (see SOTO_PARENT_STUBS in
+ * scripts/data/deshimaru-lineage.ts). Each entry installs the (teacher →
+ * student) edge as `primary`+`isPrimary=true` and demotes any other
+ * existing primary edge for the same student to `secondary` so the DAG
+ * invariant (≤1 isPrimary per student) holds.
+ */
+interface CanonicalPrimaryEdge {
+  student: string;
+  teacher: string;
+  shihoYear: number;
+  sourceIds: string[];
+  notes: string;
+}
+const CANONICAL_PRIMARY_EDGES: CanonicalPrimaryEdge[] = [
+  {
+    student: "dainin-katagiri",
+    teacher: "daicho-hayashi",
+    shihoYear: 1949,
+    sourceIds: ["src_wikipedia", "src_mnzencenter_katagiri_biography"],
+    notes:
+      "Dharma transmission (shihō / denpō), 24 December 1949 at Taizō-in, Fukui. Conferred by Daichō Hayashi. Per Andrea Martin's biography 'Ceaseless Effort: The Life of Dainin Katagiri Roshi' (MNZC) and en.wikipedia.org/wiki/Dainin_Katagiri: 'ordained a monk by and named a Dharma heir of Daicho Hayashi at Taizo-in in Fukui.' The Shunryū Suzuki relationship (1965 onward, SFZC) was a senior-collaborator relationship, not the shihō line.",
+  },
+  {
+    student: "kobun-chino-otogawa",
+    teacher: "hozan-koei-chino",
+    shihoYear: 1962,
+    sourceIds: ["src_kobun_sama_biography", "src_wikipedia"],
+    notes:
+      "Dharma transmission (shihō), 1962 at Jōkō-ji in Kamo. Conferred by his adoptive father Hōzan Kōei Chino. Per jikojizencenter.org/biography: 'He received dharma transmission from Koei Chino Roshi in Kamo in 1962.' The Sawaki / Eihei-ji training in his twenties was practice / onshi training, not the shihō line.",
+  },
+];
+
+async function ensureCanonicalPrimaryEdge(edge: CanonicalPrimaryEdge): Promise<void> {
+  const studentId = await resolveMasterId(edge.student);
+  if (!studentId) {
+    console.warn(`  ⚠ ${edge.student} not in DB — skipping`);
+    return;
+  }
+  const teacherId = await resolveMasterId(edge.teacher);
+  if (!teacherId) {
+    console.warn(`  ⚠ ${edge.teacher} not in DB — skipping ${edge.student}`);
+    return;
+  }
+
+  // Demote any other isPrimary=true edges for this student to secondary —
+  // there can only be one canonical root-teacher edge per student. Skip
+  // the one we're about to (re)install.
+  const others = await db
+    .select({ id: masterTransmissions.id, teacherId: masterTransmissions.teacherId })
+    .from(masterTransmissions)
+    .where(eq(masterTransmissions.studentId, studentId));
+  for (const o of others) {
+    if (o.teacherId === teacherId) continue;
+    await db
+      .update(masterTransmissions)
+      .set({ type: "secondary", isPrimary: false })
+      .where(eq(masterTransmissions.id, o.id));
+  }
+
+  // Upsert the canonical edge.
+  const matching = others.find((o) => o.teacherId === teacherId);
+  const edgeId = matching?.id ?? nanoid();
+  const values = {
+    studentId,
+    teacherId,
+    type: "primary",
+    isPrimary: true,
+    notes: edge.notes,
+  };
+  if (matching) {
+    await db
+      .update(masterTransmissions)
+      .set(values)
+      .where(eq(masterTransmissions.id, edgeId));
+    console.log(`  ~ ${edge.teacher} → ${edge.student}: kept/restored as primary (shihō ${edge.shihoYear})`);
+  } else {
+    await db.insert(masterTransmissions).values({ id: edgeId, ...values });
+    console.log(`  + ${edge.teacher} → ${edge.student}: inserted as primary (shihō ${edge.shihoYear})`);
+  }
+
+  // Citation rows.
+  await db
+    .delete(citations)
+    .where(
+      and(
+        eq(citations.entityType, "master_transmission"),
+        eq(citations.entityId, edgeId),
+      ),
+    );
+  for (let i = 0; i < edge.sourceIds.length; i++) {
+    await db.insert(citations).values({
+      id: `cite_mt_${edgeId}__${i}__${edge.sourceIds[i]}`,
+      sourceId: edge.sourceIds[i],
+      entityType: "master_transmission",
+      entityId: edgeId,
+      fieldName: "transmission",
+      pageOrSection: null,
+      excerpt: edge.notes,
+    });
+  }
+}
+
+// Edges that earlier seeding passes inserted but which are now
+// superseded by a properly-attributed primary edge from the canonical
+// shihō teacher. Removed defensively so the audit doesn't surface a
+// stale dharma bridge alongside the real primary.
+const SUPERSEDED_EDGES: { teacher: string; student: string; reason: string }[] = [
+  {
+    teacher: "kodo-sawaki",
+    student: "niwa-rempo-zenji",
+    reason:
+      "superseded by niwa-butsuan → niwa-rempo-zenji primary edge (real 1926 shihō teacher, now seeded as a SOTO_PARENT_STUB)",
+  },
+];
+
+async function removeSupersededEdge(item: typeof SUPERSEDED_EDGES[number]): Promise<void> {
+  const studentId = await resolveMasterId(item.student);
+  const teacherId = await resolveMasterId(item.teacher);
+  if (!studentId || !teacherId) return;
+  const existing = await db
+    .select({ id: masterTransmissions.id })
+    .from(masterTransmissions)
+    .where(
+      and(
+        eq(masterTransmissions.studentId, studentId),
+        eq(masterTransmissions.teacherId, teacherId),
+      ),
+    );
+  if (existing.length === 0) return;
+  for (const row of existing) {
+    await db
+      .delete(citations)
+      .where(
+        and(
+          eq(citations.entityType, "master_transmission"),
+          eq(citations.entityId, row.id),
+        ),
+      );
+    await db
+      .delete(masterTransmissions)
+      .where(eq(masterTransmissions.id, row.id));
+    console.log(`  – ${item.teacher} → ${item.student}: removed (${item.reason})`);
+  }
+}
+
 async function main() {
   console.log("Applying Deshimaru-line shihō / root-teacher corrections…\n");
 
-  console.log("→ Shihō edges (secondary, flagged 'Formal Dharma transmission'):");
+  console.log("→ Superseded edges (removed in favour of canonical primaries):");
+  for (const e of SUPERSEDED_EDGES) {
+    await removeSupersededEdge(e);
+  }
+
+  console.log("\n→ Canonical primary edges (real shihō teachers, supersedes editorial bridges):");
+  for (const edge of CANONICAL_PRIMARY_EDGES) {
+    await ensureCanonicalPrimaryEdge(edge);
+  }
+
+  console.log("\n→ Shihō edges (secondary, flagged 'Formal Dharma transmission'):");
   for (const c of CORRECTIONS) {
     await ensureShihoEdge(c);
   }
