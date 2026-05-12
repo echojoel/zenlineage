@@ -49,34 +49,86 @@ function schoolColor(schoolSlug: string | null): number {
   return 0x9a8a75;
 }
 
-function drawDashedLine(
-  g: import("pixi.js").Graphics,
+// Non-primary edges are rendered as a gentle quadratic-bezier bow so
+// they can't visually overlay a primary edge that shares an endpoint
+// (e.g. Deshimaru→Bovay primary + Okamoto→Bovay secondary, both running
+// near-vertical into the same target). The control point is offset
+// perpendicular to the straight line by `curvature × length`, rotated
+// consistently to one side so all secondary edges curve the same way.
+const NON_PRIMARY_CURVATURE = 0.16;
+const BEZIER_SAMPLES = 48;
+
+function bezierPoint(
+  t: number,
+  x1: number, y1: number,
+  cx: number, cy: number,
+  x2: number, y2: number,
+): [number, number] {
+  const u = 1 - t;
+  return [
+    u * u * x1 + 2 * u * t * cx + t * t * x2,
+    u * u * y1 + 2 * u * t * cy + t * t * y2,
+  ];
+}
+
+function curvedControlPoint(
   x1: number, y1: number, x2: number, y2: number,
-  dash = 6, gap = 4,
-): void {
+  curvature: number,
+): { cx: number; cy: number } | null {
   const dx = x2 - x1, dy = y2 - y1;
   const len = Math.sqrt(dx * dx + dy * dy);
-  if (len === 0) return;
-  const nx = dx / len, ny = dy / len;
-  let d = 0;
-  while (d < len) {
-    const segEnd = Math.min(d + dash, len);
-    g.moveTo(x1 + nx * d, y1 + ny * d);
-    g.lineTo(x1 + nx * segEnd, y1 + ny * segEnd);
-    d += dash + gap;
+  if (len === 0) return null;
+  // Perpendicular rotated +90° from the source→target direction.
+  const px = -dy / len, py = dx / len;
+  const offset = len * curvature;
+  return {
+    cx: (x1 + x2) / 2 + px * offset,
+    cy: (y1 + y2) / 2 + py * offset,
+  };
+}
+
+// Walks a quadratic bezier in `BEZIER_SAMPLES` segments and lays a
+// dash/gap pattern down along the cumulative arc length. Used for both
+// the dashed (secondary) and dotted (disputed / dharma) line styles —
+// the only difference is the dash and gap lengths.
+function drawCurvedDashed(
+  g: import("pixi.js").Graphics,
+  x1: number, y1: number, x2: number, y2: number,
+  dash: number, gap: number,
+  curvature = NON_PRIMARY_CURVATURE,
+): void {
+  const ctrl = curvedControlPoint(x1, y1, x2, y2, curvature);
+  if (!ctrl) return;
+  let onPen = true;
+  let remaining = dash;
+  let prev: [number, number] = [x1, y1];
+  for (let i = 1; i <= BEZIER_SAMPLES; i++) {
+    const t = i / BEZIER_SAMPLES;
+    const next = bezierPoint(t, x1, y1, ctrl.cx, ctrl.cy, x2, y2);
+    const segDx = next[0] - prev[0], segDy = next[1] - prev[1];
+    const segLen = Math.sqrt(segDx * segDx + segDy * segDy);
+    let consumed = 0;
+    while (consumed < segLen) {
+      const take = Math.min(remaining, segLen - consumed);
+      const t0 = consumed / segLen;
+      const t1 = (consumed + take) / segLen;
+      const ax = prev[0] + segDx * t0, ay = prev[1] + segDy * t0;
+      const bx = prev[0] + segDx * t1, by = prev[1] + segDy * t1;
+      if (onPen) {
+        g.moveTo(ax, ay);
+        g.lineTo(bx, by);
+      }
+      consumed += take;
+      remaining -= take;
+      if (remaining <= 0.0001) {
+        onPen = !onPen;
+        remaining = onPen ? dash : gap;
+      }
+    }
+    prev = next;
   }
 }
 
-// Tight on/off pattern used for disputed transmissions and editorial
-// `dharma` bridges (where the literal immediate teacher isn't in the
-// DB yet and the edge connects to the nearest seeded lineage ancestor).
-function drawDottedLine(
-  g: import("pixi.js").Graphics,
-  x1: number, y1: number, x2: number, y2: number,
-  dot = 1.5, gap = 4,
-): void {
-  drawDashedLine(g, x1, y1, x2, y2, dot, gap);
-}
 
 // ---------------------------------------------------------------------------
 // Date display helper
@@ -391,29 +443,46 @@ export default function LineageGraph() {
       const edgeWidth = edge.type === "primary" ? 1.5 : 0.8;
       edgeGraphics.setStrokeStyle({ width: edgeWidth, color: edgeColor, alpha });
 
-      if (edge.type === "primary") {
+      const isPrimary = edge.type === "primary";
+      if (isPrimary) {
         edgeGraphics.moveTo(src.x, src.y);
         edgeGraphics.lineTo(tgt.x, tgt.y);
       } else if (edge.type === "secondary") {
-        drawDashedLine(edgeGraphics, src.x, src.y, tgt.x, tgt.y);
+        // Dashed bezier — bows perpendicular to the straight line so
+        // a secondary edge sharing endpoints with a primary edge can
+        // never visually overlap it.
+        drawCurvedDashed(edgeGraphics, src.x, src.y, tgt.x, tgt.y, 6, 4);
       } else {
-        // "disputed" and "dharma" (editorial bridges)
-        drawDottedLine(edgeGraphics, src.x, src.y, tgt.x, tgt.y);
+        // "disputed" and "dharma" (editorial bridges) — same bezier
+        // path, tighter on/off pattern so it reads as a dotted line.
+        drawCurvedDashed(edgeGraphics, src.x, src.y, tgt.x, tgt.y, 1.5, 4);
       }
       edgeGraphics.stroke();
 
-      // Shihō marker — a small filled dot ~12 px short of the
-      // student node, drawn in the edge color. Only when the edge
-      // explicitly records that the teacher conferred formal Dharma
-      // transmission on this student.
+      // Shihō marker — a small filled dot ~14 px short of the student
+      // node, drawn in the edge color. Only when the edge explicitly
+      // records that the teacher conferred formal Dharma transmission
+      // on this student. For curved (non-primary) edges, the dot sits
+      // on the curve itself so it tracks the visible line.
       if (edge.shihoConferred) {
         const dx = tgt.x - src.x;
         const dy = tgt.y - src.y;
         const len = Math.sqrt(dx * dx + dy * dy);
         if (len > 16) {
-          const offset = 14;
-          const cx = tgt.x - (dx / len) * offset;
-          const cy = tgt.y - (dy / len) * offset;
+          let cx: number, cy: number;
+          if (isPrimary) {
+            const offset = 14;
+            cx = tgt.x - (dx / len) * offset;
+            cy = tgt.y - (dy / len) * offset;
+          } else {
+            const ctrl = curvedControlPoint(src.x, src.y, tgt.x, tgt.y, NON_PRIMARY_CURVATURE);
+            const t = Math.max(0.6, 1 - 14 / len);
+            const [px, py] = ctrl
+              ? bezierPoint(t, src.x, src.y, ctrl.cx, ctrl.cy, tgt.x, tgt.y)
+              : [tgt.x - (dx / len) * 14, tgt.y - (dy / len) * 14];
+            cx = px;
+            cy = py;
+          }
           edgeGraphics.circle(cx, cy, 2.4);
           edgeGraphics.fill({ color: edgeColor, alpha: Math.min(alpha + 0.15, 1) });
         }
