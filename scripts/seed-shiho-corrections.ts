@@ -94,9 +94,9 @@ const CORRECTIONS: ShihoCorrection[] = [
     student: "etienne-mokusho-zeisler",
     shihoTeacher: "niwa-rempo-zenji",
     shihoYear: 1984,
-    sourceIds: ["src_wikipedia", "src_zen_deshimaru_history"],
+    sourceIds: ["src_zen_deshimaru_history", "src_mokusho_house"],
     shihoNotes:
-      "Formal Dharma transmission (shihō), 1984 at Eihei-ji. Conferred by Niwa Rempō Zenji, 77th abbot of Eihei-ji, together with Roland Yuno Rech and Stéphane Kōsen Thibaut. Source: en.wikipedia.org — Taisen Deshimaru § Students: \"After Master Deshimaru's death, three of his closest disciples — Etienne Zeisler, Roland Rech, and Kosen Thibaut — traveled to Japan to receive shiho from Master Rempo Niwa Zenji.\"",
+      "Formal Dharma transmission (shihō), 1984 at Temple de la Gendronnière (Blois, France) — NOT at Eihei-ji in Japan as Wikipedia mistakenly states. Niwa Rempō Zenji, then assistant abbot of Eihei-ji, travelled to France in mourning for Deshimaru and conferred shihō wearing a black kesa, simultaneously on Zeisler, Roland Yuno Rech, and Stéphane Kōsen Thibaut. Sources: Dojo Zen Mokushō (Zeisler's own dojo), Méditation Zen Narbonne, ABZE (Rech's European Buddhist association), Zen Kannon Barcelona — all independent AZI-line institutional sources.",
     rootTeacherNotes:
       "Root teacher / master. Zeisler met Deshimaru in the years after Deshimaru's 1967 arrival in Paris, was ordained by him as a monk, and was one of his three principal direct disciples until Deshimaru's death in 1982.",
   },
@@ -104,9 +104,9 @@ const CORRECTIONS: ShihoCorrection[] = [
     student: "roland-rech",
     shihoTeacher: "niwa-rempo-zenji",
     shihoYear: 1984,
-    sourceIds: ["src_wikipedia"],
+    sourceIds: ["src_zen_deshimaru_history"],
     shihoNotes:
-      "Formal Dharma transmission (shihō), 1984 at Eihei-ji. Conferred by Niwa Rempō Zenji together with Étienne Zeisler and Kōsen Thibaut. Rech took the dharma name Yuno (有能) at that ceremony. Source: fr.wikipedia.org — Roland Yuno Rech.",
+      "Formal Dharma transmission (shihō), 1984 at Temple de la Gendronnière in France (Niwa Rempō travelled from Japan rather than the three disciples travelling east). Conferred simultaneously with Étienne Mokushō Zeisler and Stéphane Kōsen Thibaut. Rech took the dharma name Yuno (有能) at that ceremony. Sources: ABZE archive, Méditation Zen Narbonne, Zen Kannon Barcelona — independent AZI-line institutional sources, all locating the ceremony at La Gendronnière, contra Wikipedia's claim that the disciples \"traveled to Japan\".",
     rootTeacherNotes:
       "Root teacher / master. Rech was a disciple of Deshimaru from 1972 until Deshimaru's death in 1982, ordained as a monk in 1974. He kept his industrial-management career on Deshimaru's recommendation to serve as one of the master's principal translators, dōjō coordinators, and sesshin leaders.",
   },
@@ -114,9 +114,9 @@ const CORRECTIONS: ShihoCorrection[] = [
     student: "stephane-kosen-thibaut",
     shihoTeacher: "niwa-rempo-zenji",
     shihoYear: 1984,
-    sourceIds: ["src_wikipedia", "src_zen_deshimaru_history"],
+    sourceIds: ["src_zen_deshimaru_history", "src_kosen_sangha"],
     shihoNotes:
-      "Formal Dharma transmission (shihō), 1984 at Eihei-ji. Conferred by Niwa Rempō Zenji together with Étienne Zeisler and Roland Yuno Rech. Source: en.wikipedia.org — Taisen Deshimaru § Students.",
+      "Formal Dharma transmission (shihō), 1984 at Temple de la Gendronnière in France. Conferred simultaneously with Étienne Mokushō Zeisler and Roland Yuno Rech by Niwa Rempō Zenji, who travelled from Japan wearing a black kesa in mourning for Deshimaru. Sources: ABZE, Méditation Zen Narbonne, Zen Kannon Barcelona — independent AZI-line institutional sources.",
     rootTeacherNotes:
       "Root teacher / master. Thibaut was a close direct disciple of Deshimaru who later founded the Kōsen Sangha, the network of dōjōs around the Yu Jō Nyūsanji temple and the Kanshōji branch of the AZI federation.",
   },
@@ -718,7 +718,101 @@ const CANONICAL_PRIMARY_EDGES: CanonicalPrimaryEdge[] = [
     notes:
       "Dharma transmission (shihō), 1962 at Jōkō-ji in Kamo. Conferred by his adoptive father Hōzan Kōei Chino. Per jikojizencenter.org/biography: 'He received dharma transmission from Koei Chino Roshi in Kamo in 1962.' The Sawaki / Eihei-ji training in his twenties was practice / onshi training, not the shihō line.",
   },
+  {
+    student: "jiyu-kennett",
+    teacher: "keido-chisan",
+    shihoYear: 1963,
+    sourceIds: ["src_wikipedia", "src_obcon_founding_teachers"],
+    notes:
+      "Dharma transmission (shihō), 28 May 1963 at Sōji-ji. Conferred by Kōhō Keidō Chisan Zenji (numbered as the 70th abbot in the full Keizan-line count, or the 18th abbot of Daihonzan Sōji-ji in the post-1907 Tsurumi succession — both refer to the same man). Kennett was the first Western woman to receive formal Sōtō Dharma transmission. Note: after Kōhō Chisan's death in November 1967, the Sōtō administration ultimately did not continue to recognise Kennett's order or the validity of the transmissions she authorised onward; the OBC (founded 1969) operates as a non-Sōtōshū-recognised lineage from that point.",
+  },
 ];
+
+/**
+ * Cases where formal Dharma transmission (shihō) was conferred by a
+ * teacher who was NOT the student's root-teacher. The pilot
+ * verification confirmed one such Sōtō-backbone case beyond the
+ * Deshimaru-line CORRECTIONS: Yamada Reirin's 1970 shihō to Taisen
+ * Deshimaru, which is the Sōtōshū-registered transmission that brought
+ * the Paris mission inside the institutional succession (Sawaki
+ * remains Deshimaru's root teacher / primary edge).
+ */
+interface ExtraSecondaryShihoEdge {
+  student: string;
+  teacher: string;
+  shihoYear: number;
+  sourceIds: string[];
+  notes: string;
+}
+const EXTRA_SECONDARY_SHIHO_EDGES: ExtraSecondaryShihoEdge[] = [
+  {
+    student: "taisen-deshimaru",
+    teacher: "yamada-reirin",
+    shihoYear: 1970,
+    sourceIds: ["src_wikipedia", "src_azi"],
+    notes:
+      "Formal Dharma transmission (shihō), 1970 from Yamada Reirin Roshi. This is Deshimaru's Sōtōshū-registered shihō. The famous 1965 deathbed entrustment from Kōdō Sawaki was never institutionally registered (Sawaki entrusted Uchiyama with Deshimaru's ketsumyaku for Sōtōshū registration, but the registration ultimately failed); Yamada Reirin's 1970 transmission is what brought Deshimaru inside the Sōtōshū recognised succession. The Italian Sōtōshū scholarly source La Stella del Mattino dates the Yamada act 1974 and frames it as a Sōtōshū-status normalization following Antaiji's earlier refusal to regularise Deshimaru's standing.",
+  },
+];
+
+async function ensureExtraSecondaryShihoEdge(edge: ExtraSecondaryShihoEdge): Promise<void> {
+  const studentId = await resolveMasterId(edge.student);
+  if (!studentId) {
+    console.warn(`  ⚠ ${edge.student} not in DB — skipping`);
+    return;
+  }
+  const teacherId = await resolveMasterId(edge.teacher);
+  if (!teacherId) {
+    console.warn(`  ⚠ ${edge.teacher} not in DB — skipping ${edge.student}`);
+    return;
+  }
+  const existing = await db
+    .select({ id: masterTransmissions.id })
+    .from(masterTransmissions)
+    .where(
+      and(
+        eq(masterTransmissions.studentId, studentId),
+        eq(masterTransmissions.teacherId, teacherId),
+      ),
+    );
+  const edgeId = existing[0]?.id ?? nanoid();
+  const values = {
+    studentId,
+    teacherId,
+    type: "secondary",
+    isPrimary: false,
+    notes: edge.notes,
+  };
+  if (existing.length === 0) {
+    await db.insert(masterTransmissions).values({ id: edgeId, ...values });
+    console.log(`  + ${edge.teacher} → ${edge.student}: inserted as secondary (shihō ${edge.shihoYear})`);
+  } else {
+    await db
+      .update(masterTransmissions)
+      .set(values)
+      .where(eq(masterTransmissions.id, edgeId));
+    console.log(`  ~ ${edge.teacher} → ${edge.student}: kept/restored as secondary (shihō ${edge.shihoYear})`);
+  }
+  await db
+    .delete(citations)
+    .where(
+      and(
+        eq(citations.entityType, "master_transmission"),
+        eq(citations.entityId, edgeId),
+      ),
+    );
+  for (let i = 0; i < edge.sourceIds.length; i++) {
+    await db.insert(citations).values({
+      id: `cite_mt_${edgeId}__${i}__${edge.sourceIds[i]}`,
+      sourceId: edge.sourceIds[i],
+      entityType: "master_transmission",
+      entityId: edgeId,
+      fieldName: "transmission",
+      pageOrSection: null,
+      excerpt: edge.notes,
+    });
+  }
+}
 
 async function ensureCanonicalPrimaryEdge(edge: CanonicalPrimaryEdge): Promise<void> {
   const studentId = await resolveMasterId(edge.student);
@@ -844,6 +938,11 @@ async function main() {
   console.log("\n→ Canonical primary edges (real shihō teachers, supersedes editorial bridges):");
   for (const edge of CANONICAL_PRIMARY_EDGES) {
     await ensureCanonicalPrimaryEdge(edge);
+  }
+
+  console.log("\n→ Extra secondary shihō edges (non-root-teacher transmissions):");
+  for (const edge of EXTRA_SECONDARY_SHIHO_EDGES) {
+    await ensureExtraSecondaryShihoEdge(edge);
   }
 
   console.log("\n→ Shihō edges (secondary, flagged 'Formal Dharma transmission'):");

@@ -1784,9 +1784,9 @@ Butsumon Sogaku is recorded in the historiography of the medieval / early-modern
 
 Shaku Sōen (釈宗演), often romanised in his lifetime as Soyen Shaku, was born on 10 January 1860 in Takahama, Fukui Prefecture, into the dying years of the Tokugawa shogunate. He entered monastic life as a boy at the Rinzai temple Myōshin-ji and trained under Ekkei Shuken before becoming the disciple of Imakita Kōsen at Engaku-ji in Kamakura. He received Dharma transmission (inka) from Kōsen at the unusually young age of twenty-five, an early recognition that marked him as one of the most promising Rinzai teachers of the Meiji era[1].
 
-### Niwa Butsuan
+### Niwa Butsuan Emyō
 
-- **Also known as:** Butsuan Niwa
+- **Also known as:** Niwa Butsuan, Butsuan Niwa, Butsuan Emyō
 - **Dates:** 1864 – 1937
 - **School:** Sōtō
 - **Teachers:** Kodo Sawaki
@@ -1872,7 +1872,7 @@ Sō-on was the adopted son of Butsumon Sogaku Suzuki, Shunryū's biological fath
 - **Dates:** 1880 – 1965
 - **School:** Sōtō
 - **Teachers:** Sawada Zenko
-- **Students:** Gudo Wafu Nishijima, Kosho Uchiyama, Taisen Deshimaru, Yūkō Okamoto, Kōjun Kishigami, Niwa Butsuan, Daichō Hayashi, Hōzan Kōei Chino
+- **Students:** Gudo Wafu Nishijima, Kosho Uchiyama, Taisen Deshimaru, Yūkō Okamoto, Kōjun Kishigami, Niwa Butsuan Emyō, Daichō Hayashi, Hōzan Kōei Chino
 
 Kōdō Sawaki (澤木 興道, 1880–1965), known throughout Japan as "Homeless Kōdō" (Yadonashi Kōdō), was the modern Sōtō master most responsible for severing the practice of zazen from the temple-funeral economy and restoring shikantaza as the living center of the school. He was born June 16, 1880 in Tsu, Mie Prefecture; orphaned by age seven, he was taken in by a lantern-maker named Bunkichi Sawaki whose home doubled as a gambling parlor — an upbringing he later credited with immunizing him against any romance about respectability[1]. At sixteen he ran away to Eihei-ji, found work as a temple servant, and at eighteen entered Sōshin-ji, where he was ordained in 1899 by Kōhō Sawada and received dharma transmission from Zenkō Sawada in 1906[1].
 
@@ -1885,6 +1885,16 @@ Kōdō Sawaki (澤木 興道, 1880–1965), known throughout Japan as "Homeless 
 - **Students:** Taizan Maezumi, Yamada Koun
 
 Hakuun Ryōkō Yasutani (安谷 白雲, 1885–1973) was the dharma heir of Harada Daiun Sogaku who carried the Harada-Yasutani method to Western lay students and, in doing so, became the most direct Japanese root of contemporary American Zen. He was born in 1885 in Shizuoka Prefecture and ordained at age thirteen at the Sōtō temple Teishin-ji, where he received the religious name Hakuun ("white cloud")[1]. After years of conventional Sōtō training and work as a schoolteacher, he married at thirty and had five children, only beginning serious kōan practice under Harada in 1925 at the age of forty; he reported kenshō under Harada in 1927 and received dharma transmission (inka shōmei) from him in 1943[1][2].
+
+### Yamada Reirin
+
+- **Also known as:** Reirin Yamada, Yamada Reirin Roshi
+- **Dates:** 1889 – 1979
+- **School:** Sōtō
+- **Teachers:** Keido Chisan
+- **Students:** Taisen Deshimaru
+
+Yamada Reirin (山田霊林, 1889–1979) was a senior twentieth-century Sōtō priest and Sōtōshū prelate, best known internationally as the master who in 1970 formally regularised Taisen Deshimaru's Sōtō status by conferring on him dharma transmission (shihō) — the Sōtōshū-registered transmission that the much-discussed 1965 deathbed entrustment from Kōdō Sawaki had not produced[1][2]. The Yamada Reirin transmission came after the then-abbot of Antai-ji had declined to regularise Deshimaru's status (citing Deshimaru's unwillingness to undertake the requisite Antai-ji formation time); Yamada provided the institutional bridge that brought the Paris mission inside Sōtōshū's recognised succession[2].
 
 ### Thích Tịnh Khiết
 
@@ -1971,12 +1981,10 @@ Shunryū Suzuki (born Toshitaka Suzuki, May 18, 1904, in Kanagawa Prefecture, Ja
 - **Also known as:** Renpō Niwa, Niwa Zenji
 - **Dates:** 1905 – 1993
 - **School:** Sōtō
-- **Teachers:** Niwa Butsuan
+- **Teachers:** Niwa Butsuan Emyō
 - **Students:** Etienne Mokusho Zeisler, Roland Rech, Stephane Kosen Thibaut
 
-Niwa Rempō Zenji (丹羽廉芳, 1905–1993) was a senior Japanese Sōtō master who served as the 77th abbot (kanchō) of Daihonzan Eihei-ji from 1985 until his death in 1993, after some five decades of monastic life at Eihei-ji proper[1]. Within twentieth-century Sōtōshū historiography he is remembered for two distinct things: his stewardship of Eihei-ji during the institutional consolidation of the modern Sōtō school, and his decisive role in formally authenticating Taisen Deshimaru's European mission after Deshimaru's 1982 death[1].
-
-In 1984, two years after Deshimaru died, Niwa Zenji conferred dharma transmission (shihō) on three of Deshimaru's closest French disciples — Étienne Mokushō Zeisler, Roland Yuno Rech, and Stéphane Kōsen Thibaut — at Eihei-ji[1][2].
+Niwa Rempō Zenji (丹羽廉芳, 1905–1993) was a senior Japanese Sōtō master who served as the 77th abbot (kanchō) of Daihonzan Eihei-ji from 1985 until his death in 1993, succeeding the 76th abbot Hata Egyoku Zenji[1]. He had been ordained at age 12 (1916) by his uncle Niwa Butsuan Emyō (丹羽佛庵慧明) at Tōkei-in in Shizuoka Prefecture and received Dharma transmission from him there in 1926[1]. Within twentieth-century Sōtōshū historiography he is remembered for two distinct things: his stewardship of Eihei-ji during the institutional consolidation of the modern Sōtō school, and his decisive role in formally authenticating Taisen Deshimaru's European mission after Deshimaru's 1982 death[1].
 
 ### Nakagawa Soen
 
@@ -2031,7 +2039,7 @@ Toeong Seongcheol (退翁性徹, 1912–1993) was the most influential Korean Se
 - **Also known as:** Deshimaru Roshi, Mokudo Taisen Deshimaru
 - **Dates:** 1914 – 1982
 - **School:** Sōtō
-- **Teachers:** Kodo Sawaki
+- **Teachers:** Kodo Sawaki, Yamada Reirin
 - **Students:** Stephane Kosen Thibaut, Etienne Mokusho Zeisler, Roland Rech, Raphaël Dōkō Triet, Philippe Reiryū Coupey, Olivier Reigen Wang-Genh, Michel Reikū Bovay, Évelyne Ekō de Smedt, Pierre Reigen Crépon, Jean-Pierre Genshū Faure, Vincent Keisen Vuillemin, Bárbara Kōsen Richaudeau, André Ryūjō Meissner, Hugues Yūsen Naas, Ingrid Gyū-Ji Igelnick, Françoise Jōmon Julien, Robert Livingston Roshi
 
 Mokudō Taisen Deshimaru (弟子丸泰仙, 1914–1982) was a Japanese Sōtō Zen monk and the principal figure in the establishment of European Sōtō Zen. Born in Saga Prefecture in southern Kyūshū to a Jōdo Shinshū household with samurai antecedents, he encountered the itinerant Sōtō teacher Kōdō Sawaki in the 1930s and remained Sawaki's lay disciple for the next three decades while working as a businessman in Tokyo and Kobe[1][2]. His attachment to Sawaki's signature teaching — zazen practised without object and without expectation of gain — shaped every later phase of his life and the tradition he transplanted to Europe[2].
@@ -3066,7 +3074,7 @@ Kaifu Daoning is recorded in the historiography of the post-Daitō / Myōshin-ji
 - **Dates:** Dates uncertain
 - **School:** Sōtō
 - **Teachers:** Keizan Jōkin
-- **Students:** Jiyu-Kennett, Baian Hakujun Kuroda, Dōshō Saikawa
+- **Students:** Jiyu-Kennett, Yamada Reirin, Baian Hakujun Kuroda, Dōshō Saikawa
 
 Keido Chisan is recorded in the historiography of the medieval / early-modern Japanese Sōtō branch-temple network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].
 
@@ -4900,7 +4908,7 @@ The Taego Order (太古宗, 태고종) is the second largest Buddhist order in K
 ### Sōtō
 
 - **Tradition:** Zen
-- **Masters:** 149
+- **Masters:** 150
 
 The Soto school (曹洞宗) is the Japanese continuation of the Chinese Caodong tradition, founded by Eihei Dogen (1200–1253) after his training with Tiantong Rujing in China[1]. It is the largest Zen denomination in Japan[2]. Soto's central practice is shikantaza ('just sitting')—zazen practiced as the direct expression of awakening itself, not as a means to attain enlightenment[3]. Dogen articulated this in his masterwork the Shobogenzo—which is itself largely composed of koan commentary and philosophical inquiry—and in his practical manual the Fukanzazengi[3]. The school's second great figure, Keizan Jokin (1264–1325), founded Sojiji Temple and made Soto practice accessible to a broad Japanese population through the integration of esoteric ritual and ancestor veneration[1]. Together, Eiheiji (Dogen's temple) and Sojiji serve as the school's two head monasteries. In the modern era, the Soto tradition has been carried to the West by teachers including Shunryu Suzuki (San Francisco Zen Center), Taisen Deshimaru (Association Zen Internationale, Europe), Taizan Maezumi (Zen Center of Los Angeles), and Dainin Katagiri (Minnesota Zen Center), establishing vibrant practice communities across North America and Europe[4].
 

@@ -112,7 +112,7 @@ const SOTO_PARENT_STUBS: KVMaster[] = [
     deathPrecision: "exact",
     deathConfidence: "high",
     biography:
-      "Niwa Rempō Zenji (丹羽廉芳, 1905–1993) was a senior Japanese Sōtō master who served as the 77th abbot (kanchō) of Daihonzan Eihei-ji from 1985 until his death in 1993, after some five decades of monastic life at Eihei-ji proper[1]. Within twentieth-century Sōtōshū historiography he is remembered for two distinct things: his stewardship of Eihei-ji during the institutional consolidation of the modern Sōtō school, and his decisive role in formally authenticating Taisen Deshimaru's European mission after Deshimaru's 1982 death[1].\n\nIn 1984, two years after Deshimaru died, Niwa Zenji conferred dharma transmission (shihō) on three of Deshimaru's closest French disciples — Étienne Mokushō Zeisler, Roland Yuno Rech, and Stéphane Kōsen Thibaut — at Eihei-ji[1][2]. That single act of triple shihō is the formal Japanese-Sōtō recognition by which the entire Association Zen Internationale (AZI) line in Europe is institutionally anchored: where Deshimaru had operated until 1982 as an ordained Sōtō monk but without himself being authorised to transmit, the 1984 shihō from Eihei-ji's incoming abbot brought his three senior heirs inside the regular Sōtōshū succession and made it possible for them, in turn, to transmit forward[1].",
+      "Niwa Rempō Zenji (丹羽廉芳, 1905–1993) was a senior Japanese Sōtō master who served as the 77th abbot (kanchō) of Daihonzan Eihei-ji from 1985 until his death in 1993, succeeding the 76th abbot Hata Egyoku Zenji[1]. He had been ordained at age 12 (1916) by his uncle Niwa Butsuan Emyō (丹羽佛庵慧明) at Tōkei-in in Shizuoka Prefecture and received Dharma transmission from him there in 1926[1]. Within twentieth-century Sōtōshū historiography he is remembered for two distinct things: his stewardship of Eihei-ji during the institutional consolidation of the modern Sōtō school, and his decisive role in formally authenticating Taisen Deshimaru's European mission after Deshimaru's 1982 death[1].\n\nIn 1984, two years after Deshimaru died, Niwa Zenji — then assistant abbot of Eihei-ji — travelled to France and conferred dharma transmission (shihō) on three of Deshimaru's closest disciples (Étienne Mokushō Zeisler, Roland Yuno Rech, and Stéphane Kōsen Thibaut) at Temple de la Gendronnière, the AZI mother monastery near Blois. Multiple independent AZI-line institutional sources — ABZE, Méditation Zen Narbonne, Zen Kannon Barcelona, and Dojo Zen Mokushō (Zeisler's successor temple) — locate the ceremony at La Gendronnière, with Niwa wearing a black kesa in mourning for Deshimaru[1][2]. The English-Wikipedia claim that the three disciples \"traveled to Japan\" for the ceremony is a downstream misreading; AZI's own references to \"Eiheiji\" refer to Niwa's institutional rank, not the venue. That single act of triple shihō is the formal Japanese-Sōtō recognition by which the entire Association Zen Internationale (AZI) line in Europe is institutionally anchored: where Deshimaru had operated until 1982 as an ordained Sōtō monk but without himself being authorised to transmit, the 1984 shihō from Eihei-ji's incoming abbot brought his three senior heirs inside the regular Sōtōshū succession and made it possible for them, in turn, to transmit forward[1].",
     citations: [
       {
         sourceId: "src_wikipedia",
@@ -276,9 +276,12 @@ const SOTO_PARENT_STUBS: KVMaster[] = [
     slug: "niwa-butsuan",
     schoolSlug: "soto",
     names: [
-      { locale: "en", nameType: "dharma", value: "Niwa Butsuan" },
+      { locale: "en", nameType: "dharma", value: "Niwa Butsuan Emyō" },
+      { locale: "en", nameType: "alias", value: "Niwa Butsuan" },
       { locale: "en", nameType: "alias", value: "Butsuan Niwa" },
-      { locale: "ja", nameType: "dharma", value: "丹羽佛庵" },
+      { locale: "en", nameType: "alias", value: "Butsuan Emyō" },
+      { locale: "ja", nameType: "dharma", value: "佛庵慧明" },
+      { locale: "ja", nameType: "alias", value: "丹羽佛庵" },
     ],
     birthYear: 1864,
     birthPrecision: "approximate",
@@ -379,6 +382,62 @@ const SOTO_PARENT_STUBS: KVMaster[] = [
         sourceIds: ["src_mnzencenter_katagiri_biography"],
         notes:
           "Editorial bridge: Daichō Hayashi's own teacher and predecessor at Taizō-in are not yet seeded in the DB. The edge to Sawaki Kōdō anchors him in the contemporary mid-Shōwa Sōtō world rather than the 13th-century Dōgen root. Pending Japanese-source research into the Taizō-in succession register.",
+      },
+    ],
+  },
+  {
+    slug: "yamada-reirin",
+    schoolSlug: "soto",
+    names: [
+      { locale: "en", nameType: "dharma", value: "Yamada Reirin" },
+      { locale: "en", nameType: "alias", value: "Reirin Yamada" },
+      { locale: "en", nameType: "alias", value: "Yamada Reirin Roshi" },
+      { locale: "ja", nameType: "dharma", value: "山田霊林" },
+    ],
+    birthYear: 1889,
+    birthPrecision: "exact",
+    birthConfidence: "medium",
+    deathYear: 1979,
+    deathPrecision: "exact",
+    deathConfidence: "medium",
+    biography:
+      "Yamada Reirin (山田霊林, 1889–1979) was a senior twentieth-century Sōtō priest and Sōtōshū prelate, best known internationally as the master who in 1970 formally regularised Taisen Deshimaru's Sōtō status by conferring on him dharma transmission (shihō) — the Sōtōshū-registered transmission that the much-discussed 1965 deathbed entrustment from Kōdō Sawaki had not produced[1][2]. The Yamada Reirin transmission came after the then-abbot of Antai-ji had declined to regularise Deshimaru's status (citing Deshimaru's unwillingness to undertake the requisite Antai-ji formation time); Yamada provided the institutional bridge that brought the Paris mission inside Sōtōshū's recognised succession[2]. Beyond the Deshimaru case, Yamada's own line and his predecessors within the Sōtōshū head-temple system are not yet seeded in this database, and a fuller portrait would require Japanese-language temple-register research.",
+    citations: [
+      {
+        sourceId: "src_wikipedia",
+        fieldName: "biography",
+        pageOrSection:
+          "en.wikipedia.org/wiki/Reirin_Yamada — Yamada Reirin (1889–1979), senior Sōtō priest who gave Taisen Deshimaru shihō in 1970.",
+      },
+      {
+        sourceId: "src_azi",
+        fieldName: "biography",
+        pageOrSection:
+          "zen-azi.org/en/taisen-deshimaru — \"In 1970, [Deshimaru] received Dharma transmission from Yamada Reirin Roshi.\"",
+      },
+    ],
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_wikipedia",
+        pageOrSection:
+          "en.wikipedia.org — Reirin Yamada (Sōtō prelate, 1889–1979); en.wikipedia.org — Taisen Deshimaru.",
+      },
+      {
+        index: 2,
+        sourceId: "src_azi",
+        pageOrSection:
+          "zen-azi.org/en/taisen-deshimaru — Yamada Reirin Roshi conferred shihō on Deshimaru in 1970 (also corroborated by Italian Sōtōshū scholarly source La Stella del Mattino, which dates the act 1974 and frames it as a normalization of Sōtōshū status post-Antaiji rejection).",
+      },
+    ],
+    transmissions: [
+      {
+        teacherSlug: "keido-chisan",
+        type: "dharma",
+        isPrimary: false,
+        sourceIds: ["src_wikipedia"],
+        notes:
+          "Editorial bridge: Yamada Reirin was a senior twentieth-century Sōtō prelate active in the Sōji-ji-line institutional world. His specific Dharma-transmission teacher and predecessors in the Sōtōshū head-temple system are not yet seeded; the edge to Kōhō Keidō Chisan (70th abbot of Sōji-ji) anchors him in the Sōji-ji-line milieu rather than the 13th-century Dōgen root.",
       },
     ],
   },

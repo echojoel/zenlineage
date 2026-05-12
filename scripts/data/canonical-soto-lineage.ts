@@ -473,7 +473,7 @@ export const CANONICAL_EDGES: CanonicalEdge[] = [
     teacher: "keizan-jokin",
     confidence: "high",
     notes:
-      "Founded the Meihō-ha; abbot of Yōkō-ji. The Meihō-ha eventually produced the Harada-Yasutani line and (through that) Maezumi's White Plum branch.",
+      "Founded the Meihō-ha; abbot of Yōkō-ji (installed in the 8th month of 1325, one week before Keizan's death) and of Daijō-ji from 1311. Per multiple sources cross-checked by the 24-agent pilot verification: Maezumi's White Plum line and the Suzuki SFZC line are *both* Gasan-ha, NOT Meihō-ha — Wikipedia Sōtō: \"In Western Zen, the two largest lineages, Maezumi's White Plum Asangha and Suzuki's San Francisco Zen Center lineage, are Gasan-ha.\" Modern Sōji-ji dominance is a late-14th-c. to Edo institutional consolidation; the clean two-ha (Meihō vs Gasan) binary erases four other extinct lines.",
     sources: [
       {
         url: "https://en.wikipedia.org/wiki/Keizan",
