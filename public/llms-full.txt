@@ -8,7 +8,7 @@ Zen Lineage maps the dharma transmission lineages connecting Buddhist masters
 from Shakyamuni Buddha through Bodhidharma to modern teachers. All content
 requires item-level citations from scholarly sources before publication.
 
-Generated: 2026-05-11
+Generated: 2026-05-12
 
 ---
 
@@ -967,7 +967,7 @@ Ejō's most enduring contribution to Sōtō literary culture is the *Shōbōgenz
 - **Dates:** 1200 – 1253
 - **School:** Sōtō
 - **Teachers:** Tiantong Rujing
-- **Students:** Koun Ejō
+- **Students:** Koun Ejō, Niwa Rempō Zenji, Yūkō Okamoto
 
 Eihei Dogen was the founder of the Soto school of Zen in Japan and one of the most profound religious philosophers in world history[1]. Born into a noble family in 1200, he entered the monastery as a child and came to question why, if all beings are originally endowed with Buddha nature, they still need to practice. Unable to find a satisfying answer in Japan, he traveled to China in 1223 and studied with Tiantong Rujing, under whom he experienced the moment of "dropping off body and mind."[2] He returned to Japan in 1227 and spent the rest of his life teaching, writing, and establishing the Soto monastic tradition[3].
 
@@ -1956,6 +1956,7 @@ Shunryū Suzuki (born Toshitaka Suzuki, May 18, 1904, in Kanagawa Prefecture, Ja
 - **Also known as:** Renpō Niwa, Niwa Zenji
 - **Dates:** 1905 – 1993
 - **School:** Sōtō
+- **Teachers:** Dōgen
 - **Students:** Etienne Mokusho Zeisler, Roland Rech, Stephane Kosen Thibaut
 
 Niwa Rempō Zenji (丹羽廉芳, 1905–1993) was a senior Japanese Sōtō master who served as the 77th abbot (kanchō) of Daihonzan Eihei-ji from 1985 until his death in 1993, after some five decades of monastic life at Eihei-ji proper[1]. Within twentieth-century Sōtōshū historiography he is remembered for two distinct things: his stewardship of Eihei-ji during the institutional consolidation of the modern Sōtō school, and his decisive role in formally authenticating Taisen Deshimaru's European mission after Deshimaru's 1982 death[1].
@@ -4412,6 +4413,7 @@ Vincent Keisen Vuillemin is a Swiss Sōtō Zen monk in the Deshimaru–Zeisler l
 - **Also known as:** Yuko Okamoto, Okamoto Roshi
 - **Dates:** Dates uncertain
 - **School:** Sōtō
+- **Teachers:** Dōgen
 - **Students:** Raphaël Dōkō Triet, Michel Reikū Bovay
 
 Yūkō Okamoto Roshi is a Japanese Sōtō master based at Teishōji and an intimate of Taisen Deshimaru's later generation of senior European disciples — described in the AZI biographical record of Raphaël Dōkō Triet as "a friend of Master Deshimaru"[1]. The publicly attested portion of his career runs principally through his role as a shihō-giving teacher for two of Deshimaru's senior heirs: he conferred dharma transmission on Raphaël Dōkō Triet in 1997[1], and on Michel Meihō Reikū Bovay at Teishōji in 1998[2]. Both transmissions anchor important branches of the AZI European Sōtō line — the Iberian / Andalusian Seikyūji and Lisbon networks (Triet) and the Swiss-German Zen Dōjō Zürich network (Bovay) — formally to the Japanese Sōtōshū through the Teishōji line.
