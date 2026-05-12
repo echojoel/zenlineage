@@ -1603,26 +1603,31 @@ a.footnote-source-link:hover {
  * wrapper is in real `:fullscreen` or MapLibre's iOS pseudo-fullscreen
  * fallback. On desktop the native ESC key remains the primary exit, but
  * we still show the button so the affordance is consistent across
- * devices. Styled to match `.maplibregl-popup-content` (paper background,
- * stone-tinted border, soft drop shadow) so it reads as a map label
- * rather than a chrome element. */
+ * devices. Styled to match `.maplibregl-ctrl-group` (the +/− and
+ * fullscreen-icon button group) — white background, no border, the
+ * same 2px translucent-black outline-shadow — so it reads as a map
+ * control. Theme-agnostic on purpose: the map's tile background does
+ * not change with the site theme, so neither does this button. */
 .practice-map-exit-fs {
   display: none;
   position: absolute;
   top: 0.75rem;
   left: 0.75rem;
-  z-index: 3;
+  z-index: 10;
   padding: 0.45rem 0.9rem;
   font-family: var(--font-inter), sans-serif;
   font-size: 0.85rem;
-  font-weight: 400;
+  font-weight: 500;
   letter-spacing: 0.01em;
-  color: var(--ink);
-  background: var(--paper);
-  border: 1px solid rgba(122, 106, 85, 0.25);
+  color: #333;
+  background: #fff;
+  border: 0;
   border-radius: 4px;
   cursor: pointer;
-  box-shadow: 0 2px 10px rgba(61, 53, 48, 0.18);
+  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.1);
+  /* Eliminate the iOS 300ms tap delay so the button feels native. */
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
 }
 .practice-map-wrapper:fullscreen .practice-map-exit-fs,
 .practice-map-wrapper.maplibregl-pseudo-fullscreen .practice-map-exit-fs {
@@ -1630,7 +1635,7 @@ a.footnote-source-link:hover {
 }
 .practice-map-exit-fs:hover,
 .practice-map-exit-fs:focus {
-  border-color: rgba(122, 106, 85, 0.5);
+  background: #f5f5f5;
   outline: none;
 }
 

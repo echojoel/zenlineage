@@ -416,8 +416,12 @@ export default function PracticeMap({ initialSchool, selectedSchool }: PracticeM
             } else {
               // Pseudo-fullscreen fallback (iOS): click MapLibre's own
               // button so its internal state and icon stay in sync.
+              // The class swaps to `.maplibregl-ctrl-shrink` while in
+              // pseudo-fullscreen, so we match both.
               containerRef.current
-                ?.querySelector<HTMLButtonElement>(".maplibregl-ctrl-fullscreen")
+                ?.querySelector<HTMLButtonElement>(
+                  ".maplibregl-ctrl-fullscreen, .maplibregl-ctrl-shrink",
+                )
                 ?.click();
             }
           }}
