@@ -1013,6 +1013,42 @@ const SOURCES = [
     publicationDate: null,
     reliability: "authoritative",
   },
+  {
+    id: "src_newworldlibrary_warner",
+    type: "website",
+    title: "New World Library — Brad Warner author page",
+    author: "New World Library",
+    url: "https://www.newworldlibrary.com/Authors/Detail/3070",
+    publicationDate: null,
+    reliability: "authoritative",
+  },
+  {
+    id: "src_wisdom_hardcore_zen",
+    type: "book",
+    title: "Hardcore Zen: Punk Rock, Monster Movies & the Truth About Reality",
+    author: "Brad Warner",
+    url: "https://wisdomexperience.org/product/hardcore-zen/",
+    publicationDate: "2003",
+    reliability: "primary",
+  },
+  {
+    id: "src_monkfish_publishing",
+    type: "website",
+    title: "Monkfish Book Publishing Company",
+    author: "Monkfish Book Publishing",
+    url: "https://monkfishpublishing.com/",
+    publicationDate: null,
+    reliability: "authoritative",
+  },
+  {
+    id: "src_hardcorezen_blog",
+    type: "website",
+    title: "Hardcore Zen — Brad Warner's personal site and blog",
+    author: "Brad Warner",
+    url: "https://hardcorezen.info/",
+    publicationDate: null,
+    reliability: "primary",
+  },
 ] as const;
 
 export default async function main() {

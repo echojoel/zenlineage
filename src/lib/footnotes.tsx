@@ -58,6 +58,11 @@ interface RenderOptions {
 
 const MARKER_RE = /\[(\d{1,3})\]/g;
 
+// Markdown-style external links: `[label](https://…)`. The capture groups
+// can't collide with the footnote MARKER_RE above because footnote markers
+// `[1]` aren't followed by an opening parenthesis.
+const LINK_RE = /\[([^\]]+)\]\((https?:\/\/[^\s)]+)\)/g;
+
 /**
  * Tracks every call-site (occurrence) of each footnote marker so the
  * note list can render Wikipedia-style backref arrows pointing to the
@@ -87,9 +92,10 @@ function renderParagraph(
   let key = 0;
   let counter = startCounter;
 
-  // Linkify a plain text segment (no footnote markers in it). Falls
-  // through to the raw string when no linkify table is supplied.
-  const pushPlain = (segment: string) => {
+  // Push a text run through the linkify table (master names / sūtra
+  // titles). Falls through to the raw string when no linkify table is
+  // supplied.
+  const pushLinkified = (segment: string) => {
     if (!segment) return;
     if (linkify && linkify.length > 0) {
       for (const node of linkifyText(segment, linkify)) {
@@ -98,6 +104,33 @@ function renderParagraph(
     } else {
       nodes.push(segment);
     }
+  };
+
+  // Linkify a plain text segment (no footnote markers in it). First
+  // splits on Markdown-style `[label](https://…)` links, which become
+  // external anchor tags; the remaining runs flow through the internal
+  // linkify table.
+  const pushPlain = (segment: string) => {
+    if (!segment) return;
+    let lastIdx = 0;
+    let m: RegExpExecArray | null;
+    LINK_RE.lastIndex = 0;
+    while ((m = LINK_RE.exec(segment)) !== null) {
+      if (m.index > lastIdx) pushLinkified(segment.slice(lastIdx, m.index));
+      nodes.push(
+        <a
+          key={`ml-${key++}`}
+          href={m[2]}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="bio-external-link"
+        >
+          {m[1]}
+        </a>
+      );
+      lastIdx = m.index + m[0].length;
+    }
+    if (lastIdx < segment.length) pushLinkified(segment.slice(lastIdx));
   };
 
   MARKER_RE.lastIndex = 0;

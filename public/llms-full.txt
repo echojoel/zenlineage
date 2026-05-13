@@ -1,7 +1,7 @@
 # Zen Lineage — Complete Reference
 
-> An open-source interactive encyclopedia of Zen Buddhism covering 510+ masters,
-> 25 schools, 550+ lineage transmissions, 795+ teachings, and 1,700+ scholarly
+> An open-source interactive encyclopedia of Zen Buddhism covering 520+ masters,
+> 25 schools, 560+ lineage transmissions, 805+ teachings, and 1,700+ scholarly
 > citations across 2,500 years of Chan, Zen, Seon, and Thien Buddhist history.
 
 Zen Lineage maps the dharma transmission lineages connecting Buddhist masters
@@ -1997,7 +1997,7 @@ Kōdō Sawaki (澤木 興道, 1880–1965), known throughout Japan as "Homeless 
 - **Dates:** 1885 – 1973
 - **School:** Sanbo-Zen
 - **Teachers:** Harada Daiun Sogaku
-- **Students:** Taizan Maezumi, Yamada Koun
+- **Students:** Taizan Maezumi, Yamada Koun, Kubota Ji'un
 
 Hakuun Ryōkō Yasutani (安谷 白雲, 1885–1973) was the dharma heir of Harada Daiun Sogaku who carried the Harada-Yasutani method to Western lay students and, in doing so, became the most direct Japanese root of contemporary American Zen. He was born in 1885 in Shizuoka Prefecture and ordained at age thirteen at the Sōtō temple Teishin-ji, where he received the religious name Hakuun ("white cloud")[1]. After years of conventional Sōtō training and work as a schoolteacher, he married at thirty and had five children, only beginning serious kōan practice under Harada in 1925 at the age of forty; he reported kenshō under Harada in 1927 and received dharma transmission (inka shōmei) from him in 1943[1][2].
 
@@ -2050,6 +2050,16 @@ Thích Quảng Đức (釋廣德, 1897–1963) is among the most internationally
 Baian Hakujun Kuroda (黒田白雲, 1898–1978) was a leading mid-twentieth-century Sōtō priest, abbot of Kōshin-ji / Kirigaya-ji in Tokyo and of his family temple in Ōtawara, Tochigi, and the father and Sōtō dharma transmitter of Hakuyū Taizan Maezumi. Within Western Zen he is most often encountered as the 'Hakujun' of 'Baian Hakujun Daiosho,' the dharma name from which the White Plum Asanga (白梅花) — the lineage federation of Maezumi's twelve American heirs — takes its identity[1].
 
 Kuroda was a working Sōtōshū abbot of the type that anchors mainstream Japanese Sōtō: he raised his family in the precincts of his own temple, sent his sons through both academic study and Sōji-ji training, and in due course transmitted his temple succession to one of them.
+
+### Hugo Enomiya-Lassalle
+
+- **Also known as:** Hugo Makibi Enomiya-Lassalle
+- **Dates:** 1898 – 1990
+- **School:** Sanbo-Zen
+- **Teachers:** Yamada Koun
+- **Students:** Willigis Jäger
+
+Hugo Makibi Enomiya-Lassalle SJ (1898–1990) was the German Jesuit missionary whose Hiroshima ministry and decades of Zen practice under Yasutani Hakuun and Yamada Kōun made him the most consequential bridge between Catholic contemplation and Sanbō Zen. Born on 11 November 1898 at Gut Externbrock near Nieheim in Westphalia and ordained a Jesuit priest, he was sent to Japan in 1929; from 1940 he served as superior of the Jesuit mission in Hiroshima and survived the atomic bombing on 6 August 1945, devoting much of the rest of his life to the city's rebuilding and to interreligious peace work[1]. He took Japanese citizenship in 1948 and adopted the surname Enomiya alongside his birth name Lassalle[1].
 
 ### Oda Sesso
 
@@ -2137,7 +2147,7 @@ Kyōzan Jōshū Sasaki (佐々木承周, 1907–2014) was the Japanese Rinzai ro
 - **Dates:** 1907 – 1989
 - **School:** Sanbo-Zen
 - **Teachers:** Yasutani Hakuun
-- **Students:** Robert Aitken, Ruben Habito, Taizan Maezumi
+- **Students:** Robert Aitken, Ruben Habito, Taizan Maezumi, Hugo Enomiya-Lassalle, Kubota Ji'un, Yamada Ryōun, Migaku Sato, Willigis Jäger, Joan Rieck
 
 Yamada Kōun (born Yamada Kiozo, 1907–1989) was the Japanese lay Zen master who shaped Sanbō Kyōdan (now Sanbō Zen) into an internationally accessible lineage and trained the first generation of Western teachers. Born in Nihonmatsu, Fukushima Prefecture, he attended Tokyo's elite Dai-Ichi High School together with the future Rinzai master Soen Nakagawa, then pursued a business career, working from 1941 as a labor supervisor for the Manchurian Mining Company and rising to deputy director of General Affairs by 1945[1]. He began Zen practice at age 38 in Manchuria and, after returning to Kamakura with his wife and three children, sat twice-daily dokusan with Asahina Sōgen Rōshi while serving as a managing director of a major Tokyo firm[1].
 
@@ -2245,6 +2255,17 @@ Thích Thanh Từ (1924–2022) was the principal architect of the modern reviva
 
 Sōkō Morinaga (盛永宗興, 2 August 1925 – 12 June 1995) was a Japanese Rinzai Zen master, abbot of Daishū-in in the Myōshin-ji / Ryōan-ji complex in Kyoto, and one of the principal twentieth-century bridges of Daitoku-ji Rinzai to the West[1]. Born in Uozu in Toyama Prefecture as the eldest son of a farming family, he was drafted into the Imperial Japanese Army in early 1945 at the age of nineteen; the war ended before he was deployed, but the dislocation of those final months — losing both parents and finding himself without home or vocation — provided the autobiographical frame for the English-language memoir he would later dictate as *Novice to Master*[2].
 
+### Willigis Jäger
+
+- **Also known as:** Ko-un Ken
+- **Dates:** 1925 – 2020
+- **School:** Sanbo-Zen
+- **Teachers:** Yamada Koun, Kubota Ji'un, Hugo Enomiya-Lassalle
+
+Willigis Jäger OSB (1925–2020) was a German Benedictine monk of Münsterschwarzach Abbey whose 1980 authorisation as a Sanbō Kyōdan *shōshike* — and 1996 *inka shōmei* from Kubota Ji'un — made him one of Europe's most widely-known Zen masters in the Yasutani-Yamada line, before his 2009 separation from Sanbō Zen and continued independent teaching from the Benediktushof he founded in 2003[1].
+
+Born on 7 March 1925 in Hösbach, Bavaria, he entered Münsterschwarzach Abbey in 1946 and was ordained a Catholic priest in 1952.
+
 ### Thích Nhất Hạnh
 
 - **Also known as:** Thay
@@ -2319,6 +2340,16 @@ John Daido Loori (大道, 14 June 1931 – 9 October 2009) was born in Jersey Ci
 - **Teachers:** Toeong Seongcheol
 
 Beopjeong (法頂, 1932–2010) is one of the most widely-read modern Korean Sŏn writers, a Jogye Order monk whose essays on simplicity, attentiveness, and the inseparability of practice from daily life shaped the religious imagination of two generations of Korean lay readers[1]. Ordained in 1956 under Hyobong, he spent decades in mountain hermitages — most famously Bulil Hermitage at Songgwangsa and Suryeon Hermitage on Mount Bongseon — and refused all institutional titles[1]. His best-known book, *Musoyu* ('Non-Possession', 1976), articulates a quiet ethic of voluntary simplicity that influenced Korean environmentalism and the country's late-twentieth-century critique of consumerism[2].
+
+### Kubota Ji'un
+
+- **Also known as:** Akira Kubota
+- **Dates:** 1932 – 2023
+- **School:** Sanbo-Zen
+- **Teachers:** Yamada Koun, Yasutani Hakuun
+- **Students:** Yamada Ryōun, Migaku Sato, Willigis Jäger, Joan Rieck
+
+Kubota Ji'un (久保田 慈雲, 1932–2023) was the third patriarch of Sanbō Zen, leading the lineage from 1989 until 2004 and overseeing its consolidation as an international order in the years following Yamada Kōun's death[1]. Born in Tokyo in 1932, he began zazen in his teens after the death of an older brother and entered formal practice under Yasutani Hakuun in 1949, continuing under Yamada Kōun from the early 1960s; he completed the full Sanbō Kyōdan kōan curriculum in 1970 and was confirmed as a Zen master (*shōshike*) in 1983[1][2].
 
 ### Robert Livingston Roshi
 
@@ -2397,6 +2428,18 @@ Bernie Tetsugen Glassman (哲玄, January 18, 1939 – November 4, 2018) was bor
 - **Students:** Jakushō Kwong, Sojun Mel Weitsman
 
 Hoitsu Suzuki (鈴木 法逸) is the eldest son and Dharma heir of Shunryū Suzuki, and the 28th abbot of Rinso-in, the family temple in Yaizu, Shizuoka, that Shunryū Suzuki had inherited from his own adoptive father Gyokujun So-on Suzuki[1]. Hoitsu received Dharma transmission from his father in 1963 — Shunryū's first transmission and the act that made it possible for him to depart for San Francisco in 1959 with the institutional question of Rinso-in's succession already resolved[1][2]. Hoitsu has subsequently played a quiet but significant role in the modern SFZC line by transmitting onward to several Western Sōtō teachers (Mel Weitsman, William Kwong, Les Kaye, Reb Anderson among others), each of whom is conventionally described as a 'second-generation' Suzuki line heir through this branch.
+
+### Yamada Ryōun
+
+- **Also known as:** Masamichi Yamada, Ryōun-ken
+- **Dates:** 1940 – null
+- **School:** Sanbo-Zen
+- **Teachers:** Yamada Koun, Kubota Ji'un
+- **Students:** Migaku Sato, Valerie Forstman, Henry Shukman
+
+Masamichi "Ryōun-ken" Yamada (山田 凌雲軒, b. 1940) is the fourth patriarch of Sanbō Zen and the current abbot of the San-un Zendō in Kamakura — the only patriarch in the lineage who is also a blood descendant of its founder generation, as the son of Yamada Kōun and Dr Kazue Yamada[1]. Born in Manchuria during his father's posting with the Manchurian Mining Company, he began sitting zazen under Yasutani Hakuun at sixteen and continued under his father, completing the Sanbō Kyōdan kōan curriculum in 1978 and receiving formal *shihō* from Yamada Kōun in 1985[1][2].
+
+Like his father he ran a parallel business career — first at Mitsubishi Bank, later as head of the Tokyo office-furniture firm Itoki Corporation — until his accession to the patriarchate on Kubota Ji'un's retirement in 2004[1].
 
 ### Kōjun Kishigami
 
@@ -2491,6 +2534,7 @@ Tony Bland (born 1946, Starkville, Mississippi) is a dharma heir of Robert Livin
 - **Dates:** 1947 – null
 - **School:** Sanbo-Zen
 - **Teachers:** Yamada Koun
+- **Students:** Valerie Forstman, Henry Shukman
 
 Rubén L. F. Habito (born c. 1947 in the Philippines) is a Filipino-American Sanbō Zen teacher and scholar of comparative religion who has done more than almost any other contemporary figure to articulate Zen practice for Christian practitioners. Trained as a Jesuit, he was sent to Japan as a missionary, where he undertook formal Zen training under Yamada Kōun Rōshi at the San-un Zendo in Kamakura. Yamada authorized him as a Zen teacher in 1988 and he received the dharma name Keiun-ken; the following year, 1989, he left the Society of Jesus[1][2].
 
@@ -2505,6 +2549,17 @@ Rubén L. F. Habito (born c. 1947 in the Philippines) is a Filipino-American San
 Shōhaku Okumura, born 22 June 1948 in Osaka, is a Sōtō Zen priest, translator, and the principal English-language disciple of Kōshō Uchiyama-roshi of Antaiji. He has done as much as any living teacher to make the writings of Eihei Dōgen accessible in idiomatic, philologically careful English[4].
 
 Okumura traces his vocation to a high-school encounter with Uchiyama's book *Self*. He went on to study Buddhism at Komazawa University in Tokyo, and on 8 December 1970 was ordained at Antaiji under Uchiyama, with whom he practiced until his teacher's retirement in 1975[1]. After Antaiji he co-founded Pioneer Valley Zendo in Massachusetts, where he taught until 1981, and later served as a teacher at Minnesota Zen Meditation Center (1993–1996, including a stint as interim abbot)[1].
+
+### Migaku Sato
+
+- **Also known as:** Kyūun-ken
+- **Dates:** 1948 – null
+- **School:** Sanbo-Zen
+- **Teachers:** Yamada Ryōun, Kubota Ji'un, Yamada Koun
+
+Sato Migaku "Kyūun-ken" (佐藤 究雲軒, b. 1948) is a Japanese New Testament scholar and Sanbō Zen *shōshike* — one of five senior Zen Masters appointed by Yamada Ryōun between 2009 and 2020, and the lineage's first European-resident Japanese teacher[1]. Born in 1948, he holds a doctorate in theology from the University of Bern (1985) and served as professor of New Testament studies at Rikkyo University in Tokyo, retiring as professor emeritus[1].
+
+He came to Zen in 1982 through contact with Hugo Enomiya-Lassalle and began formal practice with Yamada Kōun in 1985; after Yamada's death in 1989 he continued under Kubota Ji'un and, from 2004, under Yamada Ryōun. He was authorised to teach (*zenkyōshi*) in 2004 and conferred the rank of full Zen Master (*shōshike*) by Yamada Ryōun in August 2020[1].
 
 ### Jean-Pierre Genshū Faure
 
@@ -2630,6 +2685,15 @@ In the summer of 2015 Maquestieau received shihō from Roland Yuno Rech at La Ge
 Iván Denshō Quintero (b. 1961 in Bogotá, Colombia) is a Colombian Sōtō Zen monk and the founding abbot of Daishinji ("Templo Zen Mente Magnánima"), the principal Sōtōshū-recognised Zen temple in South America[1][2]. He began studying and practising Sōtō Zen in 1984 and travelled to Europe later that decade to train within the Association Zen Internationale founded by Taisen Deshimaru[3].
 
 He received his first monastic ordination in Paris in 1987 under the AZI, taking the religious name **Tendō**[3]. After settling back in Colombia, in 1989 he founded the meditation centre in Bogotá that would become the Comunidad Soto Zen de Colombia[2][4].
+
+### Henry Shukman
+
+- **Also known as:** Ryū'un-ken
+- **Dates:** 1962 – null
+- **School:** Sanbo-Zen
+- **Teachers:** Joan Rieck, Ruben Habito, Yamada Ryōun
+
+Henry "Ryū'un-ken" Shukman (龍雲軒, b. 1962) is a British-born poet, novelist, and Sanbō Zen *shōshike* — the highest rank in the lineage and, since his appointment by Yamada Ryōun in 2020, the first North-American-resident teacher to hold it in the Yasutani-Yamada line[1][2]. Born in Oxford in 1962, he had a spontaneous awakening experience at nineteen and pursued a literary career through his twenties and thirties — winning an Arts Council of England Award and a Guggenheim Fellowship for his poetry and fiction — before turning to formal Zen practice in his thirties[1].
 
 ### Toshiro Taigen Yamauchi
 
@@ -4639,6 +4703,29 @@ Charles Tenshin Fletcher (天心) is a White Plum dharma heir of Taizan Maezumi 
 
 Anne Seisen Saunders (正泉) is a White Plum dharma heir of Taizan Maezumi and abbot of Sweetwater Zen Center in National City, California, which she founded as a residential training community. She continues to teach actively in the Maezumi line[1].
 
+### Joan Rieck
+
+- **Also known as:** Jyō'un-an
+- **Dates:** Dates uncertain
+- **School:** Sanbo-Zen
+- **Teachers:** Yamada Koun, Kubota Ji'un
+- **Students:** Henry Shukman
+
+Joan "Jyō'un-an" Rieck (浄雲庵) is an American Sanbō Zen *junshike* — one of the senior Western teachers authorised within the lineage to lead the full kōan curriculum — and the primary training teacher of Henry Shukman at Mountain Cloud Zen Center[1]. She trained directly under Yamada Kōun at the San-un Zendō in Kamakura from 1971 until his death in 1989, completing the Sanbō Kyōdan kōan curriculum across nearly two decades of seasonal residential training in Japan[1].
+
+Authorised as a Zen teacher (*zenkyōshi*) in 1981 under Yamada Kōun, she was elevated to associate master (*junshike*) under Kubota Ji'un in 2001[1].
+
+### Valerie Forstman
+
+- **Also known as:** Meikō-an
+- **Dates:** Dates uncertain
+- **School:** Sanbo-Zen
+- **Teachers:** Ruben Habito, Yamada Ryōun
+
+Valerie "Meikō-an" Forstman (明光庵) is the current Guiding Teacher of Mountain Cloud Zen Center in Santa Fe, New Mexico, and a Sanbō Zen *junshike* authorised within the lineage of Rubén Habito's Maria Kannon Zen Center and the patriarchate of Yamada Ryōun[1]. A musician and theologian by training, she served on the faculty of Brite Divinity School at Texas Christian University, eventually as associate dean, before stepping into full-time Zen teaching[1].
+
+She began formal practice with Rubén Habito at the Maria Kannon Zen Center in Dallas, completing the Sanbō Zen kōan curriculum under him and receiving authorisation as a Zen teacher (*zenkyōshi*) in 2005. In 2015, after additional training under Yamada Ryōun in Kamakura, she was elevated to *junshike* (associate master)[1].
+
 ### Évelyne Ekō de Smedt
 
 - **Also known as:** Evelyne Eko de Smedt, Ekō de Smedt
@@ -5052,7 +5139,7 @@ Chan (禪) is the Chinese Buddhist meditation tradition that emerged from the en
 ### Sanbo-Zen
 
 - **Tradition:** Zen
-- **Masters:** 5
+- **Masters:** 13
 
 Sanbo-Zen (三宝禅, formerly Sanbo Kyodan, 'Three Treasures Association') is a modern Zen school founded by Yasutani Hakuun (1885–1973) that integrates Soto Zen's emphasis on shikantaza with the Rinzai tradition's systematic koan curriculum[1]. Yasutani's teacher, Harada Daiun Sogaku, had pioneered this synthesis by combining his Soto training with extensive Rinzai koan study under several masters[2]. The Sanbo-Zen approach offers practitioners both objectless sitting and a structured koan path, beginning with the Mu koan and progressing through the traditional Rinzai curriculum[1]. Under the leadership of Yamada Koun (1907–1989), the school became one of the most important vehicles for transmitting Zen to the West[3]. Yamada's radical openness—he trained Catholic priests and nuns, Protestant ministers, and practitioners of other faiths alongside traditional Buddhist students—transformed Zen from a Japanese cultural phenomenon into a genuinely international contemplative practice[3]. Robert Aitken (Diamond Sangha, Hawaii)[4] and Ruben Habito (Maria Kannon Zen Center, Dallas) are among the school's notable Western-based teachers. The school is headquartered in Kamakura, Japan.
 
@@ -11432,3 +11519,73 @@ A posthumous collection of one hundred and twenty classical Zen tales as told an
 - **Type:** work
 
 Thích Nhất Hạnh's 1973 introduction to Vietnamese Thiền, originally published in French as Clés pour le Zen. Distinct from his later mindfulness writings, it situates his teaching in the lineage of Linji and the Trúc Lâm tradition, and remains his clearest book-length account of kōan practice as a Mahāyāna inheritance.
+
+### Hardcore Zen: Punk Rock, Monster Movies & the Truth About Reality
+
+- **Attribution:** Brad Warner
+- **Type:** work
+
+Warner's 2003 debut: a memoir-cum-primer that runs from his Akron hardcore-punk youth and his Tokyo years at Tsuburaya Productions (Ultraman) to his ordination as a Sōtō priest under Gudō Wafu Nishijima. It introduced a generation of English-speaking readers to Nishijima's plain-spoken Dōgen and remains the standard entry point to Warner's work.
+
+### Sit Down and Shut Up: Punk Rock Commentaries on Buddha, God, Truth, Sex, Death, and Dōgen's Treasury of the Right Dharma Eye
+
+- **Attribution:** Brad Warner
+- **Type:** work
+
+Warner's 2007 follow-up to Hardcore Zen and his first sustained engagement with Dōgen's Shōbōgenzō, read fascicle by fascicle through a punk-rock lens. The book inaugurates the line of Dōgen-paraphrase writing that culminates in the Don't Be a Jerk / It Came from Beyond Zen / Other Side of Nothing trilogy.
+
+### Zen Wrapped in Karma Dipped in Chocolate: A Trip Through Death, Sex, Divorce, and Spiritual Celebrity in Search of the True Dharma
+
+- **Attribution:** Brad Warner
+- **Type:** work
+
+A memoir of the year Warner's marriage ended, his mother died, and his Tsuburaya Productions job collapsed — and what those losses revealed about the difference between Zen practice and Zen as performance. One of the few Western Zen books built around personal catastrophe rather than instruction.
+
+### Sex, Sin, and Zen: A Buddhist Exploration of Sex from Celibacy to Polyamory and Everything in Between
+
+- **Attribution:** Brad Warner
+- **Type:** work
+
+An extended treatment of the Buddhist precepts on sexual conduct from a contemporary Sōtō perspective, drawing on Dōgen, Warner's own teaching practice, and his correspondence with practitioners across orientations and arrangements. Written in the same plain-spoken register as the rest of the Hardcore Zen series.
+
+### Fundamental Wisdom of the Middle Way: Nāgārjuna's Mūlamadhyamakakārikā
+
+- **Attribution:** Brad Warner
+- **Type:** work
+
+A translation of and commentary on Nāgārjuna's foundational Madhyamaka verses, co-authored with Warner's teacher Gudō Wafu Nishijima. The volume is the principal English-language record of Nishijima's reading of Nāgārjuna alongside Dōgen, and the only Warner book co-authored with his teacher.
+
+### There Is No God and He Is Always With You: A Search for God in Odd Places
+
+- **Attribution:** Brad Warner
+- **Type:** work
+
+Warner's longest-running argument with theism and atheism alike: a sustained attempt to articulate a Zen non-theism that is also not a flat materialism. The book occasioned the Pirooz Kalayeh documentary Brad Warner's Hardcore Zen (2013).
+
+### Don't Be a Jerk: And Other Practical Advice from Dōgen, Japan's Greatest Zen Master
+
+- **Attribution:** Brad Warner
+- **Type:** work
+
+Volume one of Warner's plain-English paraphrase of Dōgen's Shōbōgenzō, working through selected fascicles with a running commentary. The book is the most accessible English-language entry into Shōbōgenzō currently in print and was followed by It Came from Beyond Zen! (2017) and The Other Side of Nothing (2022).
+
+### It Came from Beyond Zen! More Practical Advice from Dōgen, Japan's Greatest Zen Master
+
+- **Attribution:** Brad Warner
+- **Type:** work
+
+Volume two of the Shōbōgenzō paraphrase trilogy, continuing Warner's fascicle-by-fascicle reading of Dōgen. The book extends the Don't Be a Jerk format to a further set of Shōbōgenzō chapters, including the more philosophically demanding ones on time, being, and Buddha-nature.
+
+### Letters to a Dead Friend About Zen
+
+- **Attribution:** Brad Warner
+- **Type:** work
+
+An epistolary introduction to Zen practice and doctrine written as letters to Warner's recently deceased childhood friend Marky. The form lets Warner cover the foundations — sitting, the precepts, karma, the dharma of friendship — in a tone closer to private correspondence than to his earlier polemics.
+
+### The Other Side of Nothing: The Zen Ethics of Time, Space, and Being
+
+- **Attribution:** Brad Warner
+- **Type:** work
+
+Volume three of the Shōbōgenzō paraphrase trilogy, focused on the ethical implications of Dōgen's non-dual reading of time and being. Warner uses Uji, Genjōkōan, and related fascicles to develop a contemporary account of how non-duality grounds — rather than dissolves — ordinary moral life.

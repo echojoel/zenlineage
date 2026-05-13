@@ -644,4 +644,166 @@ export const WORKS: WorkSeed[] = [
     excerpt:
       "Zen Keys is Thich Nhat Hanh's introduction to Vietnamese Thiền, situating his teaching within the lineage of Linji and the Trúc Lâm tradition.",
   },
+  // ─── Brad Warner (Sōtō / Nishijima line, Contemporary) ───────────────────
+  {
+    slug: "hardcore-zen",
+    authorSlug: "brad-warner",
+    collection: "Hardcore Zen",
+    era: "Contemporary",
+    attributionStatus: "verified",
+    title: "Hardcore Zen: Punk Rock, Monster Movies & the Truth About Reality",
+    description:
+      "Warner's 2003 debut: a memoir-cum-primer that runs from his Akron hardcore-punk youth and his Tokyo years at Tsuburaya Productions (Ultraman) to his ordination as a Sōtō priest under Gudō Wafu Nishijima. It introduced a generation of English-speaking readers to Nishijima's plain-spoken Dōgen and remains the standard entry point to Warner's work.",
+    edition: "Wisdom Publications, 2003",
+    licenseStatus: "fair_use",
+    sourceId: "src_wisdom_hardcore_zen",
+    locator: "Wisdom Publications product page",
+    excerpt:
+      "Hardcore Zen is Brad Warner's memoir-primer on Sōtō Zen, written in the voice of a former hardcore-punk bassist who ended up as a dharma heir of Gudō Wafu Nishijima.",
+  },
+  {
+    slug: "sit-down-and-shut-up",
+    authorSlug: "brad-warner",
+    collection: "Hardcore Zen",
+    era: "Contemporary",
+    attributionStatus: "verified",
+    title: "Sit Down and Shut Up: Punk Rock Commentaries on Buddha, God, Truth, Sex, Death, and Dōgen's Treasury of the Right Dharma Eye",
+    description:
+      "Warner's 2007 follow-up to Hardcore Zen and his first sustained engagement with Dōgen's Shōbōgenzō, read fascicle by fascicle through a punk-rock lens. The book inaugurates the line of Dōgen-paraphrase writing that culminates in the Don't Be a Jerk / It Came from Beyond Zen / Other Side of Nothing trilogy.",
+    edition: "New World Library, 2007",
+    licenseStatus: "fair_use",
+    sourceId: "src_newworldlibrary_warner",
+    locator: "New World Library author page",
+    excerpt:
+      "Sit Down and Shut Up is Brad Warner's punk-rock commentary on Dōgen's Shōbōgenzō and his first book-length engagement with the text.",
+  },
+  {
+    slug: "zen-wrapped-in-karma-dipped-in-chocolate",
+    authorSlug: "brad-warner",
+    collection: "Hardcore Zen",
+    era: "Contemporary",
+    attributionStatus: "verified",
+    title: "Zen Wrapped in Karma Dipped in Chocolate: A Trip Through Death, Sex, Divorce, and Spiritual Celebrity in Search of the True Dharma",
+    description:
+      "A memoir of the year Warner's marriage ended, his mother died, and his Tsuburaya Productions job collapsed — and what those losses revealed about the difference between Zen practice and Zen as performance. One of the few Western Zen books built around personal catastrophe rather than instruction.",
+    edition: "New World Library, 2009",
+    licenseStatus: "fair_use",
+    sourceId: "src_newworldlibrary_warner",
+    locator: "New World Library author page",
+    excerpt:
+      "Zen Wrapped in Karma Dipped in Chocolate is Warner's memoir of the year his marriage, his mother, and his Japanese career all came apart.",
+  },
+  {
+    slug: "sex-sin-and-zen",
+    authorSlug: "brad-warner",
+    collection: "Hardcore Zen",
+    era: "Contemporary",
+    attributionStatus: "verified",
+    title: "Sex, Sin, and Zen: A Buddhist Exploration of Sex from Celibacy to Polyamory and Everything in Between",
+    description:
+      "An extended treatment of the Buddhist precepts on sexual conduct from a contemporary Sōtō perspective, drawing on Dōgen, Warner's own teaching practice, and his correspondence with practitioners across orientations and arrangements. Written in the same plain-spoken register as the rest of the Hardcore Zen series.",
+    edition: "New World Library, 2010",
+    licenseStatus: "fair_use",
+    sourceId: "src_newworldlibrary_warner",
+    locator: "New World Library author page",
+    excerpt:
+      "Sex, Sin, and Zen is Warner's book-length engagement with the Buddhist precepts on sexual conduct.",
+  },
+  {
+    slug: "fundamental-wisdom-of-the-middle-way",
+    authorSlug: "brad-warner",
+    collection: null,
+    era: "Contemporary",
+    attributionStatus: "verified",
+    title: "Fundamental Wisdom of the Middle Way: Nāgārjuna's Mūlamadhyamakakārikā",
+    description:
+      "A translation of and commentary on Nāgārjuna's foundational Madhyamaka verses, co-authored with Warner's teacher Gudō Wafu Nishijima. The volume is the principal English-language record of Nishijima's reading of Nāgārjuna alongside Dōgen, and the only Warner book co-authored with his teacher.",
+    translator: "Gudō Wafu Nishijima & Brad Warner",
+    edition: "Monkfish Book Publishing, 2011",
+    licenseStatus: "fair_use",
+    sourceId: "src_monkfish_publishing",
+    locator: "Monkfish catalogue",
+    excerpt:
+      "Nishijima and Warner's joint translation of and commentary on Nāgārjuna's Mūlamadhyamakakārikā.",
+  },
+  {
+    slug: "there-is-no-god-and-he-is-always-with-you",
+    authorSlug: "brad-warner",
+    collection: "Hardcore Zen",
+    era: "Contemporary",
+    attributionStatus: "verified",
+    title: "There Is No God and He Is Always With You: A Search for God in Odd Places",
+    description:
+      "Warner's longest-running argument with theism and atheism alike: a sustained attempt to articulate a Zen non-theism that is also not a flat materialism. The book occasioned the Pirooz Kalayeh documentary Brad Warner's Hardcore Zen (2013).",
+    edition: "New World Library, 2013",
+    licenseStatus: "fair_use",
+    sourceId: "src_newworldlibrary_warner",
+    locator: "New World Library author page",
+    excerpt:
+      "There Is No God and He Is Always With You is Warner's book-length engagement with the question of God from a Zen non-theist standpoint.",
+  },
+  {
+    slug: "dont-be-a-jerk",
+    authorSlug: "brad-warner",
+    collection: "Dōgen trilogy",
+    era: "Contemporary",
+    attributionStatus: "verified",
+    title: "Don't Be a Jerk: And Other Practical Advice from Dōgen, Japan's Greatest Zen Master",
+    description:
+      "Volume one of Warner's plain-English paraphrase of Dōgen's Shōbōgenzō, working through selected fascicles with a running commentary. The book is the most accessible English-language entry into Shōbōgenzō currently in print and was followed by It Came from Beyond Zen! (2017) and The Other Side of Nothing (2022).",
+    edition: "New World Library, 2016",
+    licenseStatus: "fair_use",
+    sourceId: "src_newworldlibrary_warner",
+    locator: "New World Library author page",
+    excerpt:
+      "Don't Be a Jerk is Warner's plain-English paraphrase of selected fascicles of Dōgen's Shōbōgenzō, volume one of a trilogy.",
+  },
+  {
+    slug: "it-came-from-beyond-zen",
+    authorSlug: "brad-warner",
+    collection: "Dōgen trilogy",
+    era: "Contemporary",
+    attributionStatus: "verified",
+    title: "It Came from Beyond Zen! More Practical Advice from Dōgen, Japan's Greatest Zen Master",
+    description:
+      "Volume two of the Shōbōgenzō paraphrase trilogy, continuing Warner's fascicle-by-fascicle reading of Dōgen. The book extends the Don't Be a Jerk format to a further set of Shōbōgenzō chapters, including the more philosophically demanding ones on time, being, and Buddha-nature.",
+    edition: "New World Library, 2017",
+    licenseStatus: "fair_use",
+    sourceId: "src_newworldlibrary_warner",
+    locator: "New World Library author page",
+    excerpt:
+      "It Came from Beyond Zen! is the second volume of Warner's Shōbōgenzō paraphrase trilogy.",
+  },
+  {
+    slug: "letters-to-a-dead-friend-about-zen",
+    authorSlug: "brad-warner",
+    collection: "Hardcore Zen",
+    era: "Contemporary",
+    attributionStatus: "verified",
+    title: "Letters to a Dead Friend About Zen",
+    description:
+      "An epistolary introduction to Zen practice and doctrine written as letters to Warner's recently deceased childhood friend Marky. The form lets Warner cover the foundations — sitting, the precepts, karma, the dharma of friendship — in a tone closer to private correspondence than to his earlier polemics.",
+    edition: "New World Library, 2019",
+    licenseStatus: "fair_use",
+    sourceId: "src_newworldlibrary_warner",
+    locator: "New World Library author page",
+    excerpt:
+      "Letters to a Dead Friend About Zen is Warner's epistolary introduction to Zen, written to a recently deceased childhood friend.",
+  },
+  {
+    slug: "the-other-side-of-nothing",
+    authorSlug: "brad-warner",
+    collection: "Dōgen trilogy",
+    era: "Contemporary",
+    attributionStatus: "verified",
+    title: "The Other Side of Nothing: The Zen Ethics of Time, Space, and Being",
+    description:
+      "Volume three of the Shōbōgenzō paraphrase trilogy, focused on the ethical implications of Dōgen's non-dual reading of time and being. Warner uses Uji, Genjōkōan, and related fascicles to develop a contemporary account of how non-duality grounds — rather than dissolves — ordinary moral life.",
+    edition: "New World Library, 2022",
+    licenseStatus: "fair_use",
+    sourceId: "src_newworldlibrary_warner",
+    locator: "New World Library author page",
+    excerpt:
+      "The Other Side of Nothing is the concluding volume of Warner's Shōbōgenzō paraphrase trilogy.",
+  },
 ];

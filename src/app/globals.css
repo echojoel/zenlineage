@@ -1311,7 +1311,8 @@ a.footnote-source-link:hover {
   color: var(--ink);
 }
 
-.detail-inline-link {
+.detail-inline-link,
+.bio-external-link {
   color: var(--ink);
   text-decoration: underline;
   text-decoration-thickness: 1px;
@@ -1321,11 +1322,14 @@ a.footnote-source-link:hover {
 }
 
 .detail-inline-link:hover,
-.detail-inline-link:focus-visible {
+.detail-inline-link:focus-visible,
+.bio-external-link:hover,
+.bio-external-link:focus-visible {
   text-decoration-thickness: 2px;
 }
 
-.detail-inline-link:focus-visible {
+.detail-inline-link:focus-visible,
+.bio-external-link:focus-visible {
   outline: 2px solid var(--ink-light);
   outline-offset: 2px;
   border-radius: 2px;
