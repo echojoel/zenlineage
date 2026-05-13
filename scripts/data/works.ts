@@ -36,11 +36,15 @@ export interface WorkSeed {
   sourceId: string;
   /** Where in that source the claim lives — page, section, URL fragment. */
   locator: string;
-  /** Brief excerpt from the source supporting the description. */
-  excerpt: string;
+  /** Optional brief excerpt from the source supporting the description.
+   *  Contemporary commercial works typically have just bibliographic
+   *  metadata + a publisher catalogue locator without a quotable excerpt. */
+  excerpt?: string;
 }
 
-export const WORKS: WorkSeed[] = [
+import { CONTEMPORARY_WORKS } from "./works-contemporary";
+
+const CLASSICAL_WORKS: WorkSeed[] = [
   // ─── Dōgen (Sōtō, Kamakura) ──────────────────────────────────────────────
   {
     slug: "shobogenzo",
@@ -807,3 +811,8 @@ export const WORKS: WorkSeed[] = [
       "The Other Side of Nothing is the concluding volume of Warner's Shōbōgenzō paraphrase trilogy.",
   },
 ];
+
+/** Canonical export: the classical-text WORKS plus the
+ *  contemporary-master entries authored in scripts/data/works-contemporary.ts.
+ *  The split is editorial only — seed-works.ts treats both as a single list. */
+export const WORKS: WorkSeed[] = [...CLASSICAL_WORKS, ...CONTEMPORARY_WORKS];
