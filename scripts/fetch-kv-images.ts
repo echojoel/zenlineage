@@ -72,6 +72,15 @@ const TARGETS: Record<string, string[]> = {
   "kobun-chino-otogawa": ["Kōbun Chino Otogawa", "Kobun Chino Otogawa"],
   "dainin-katagiri": ["Dainin Katagiri"],
   "taisen-deshimaru": ["Taisen Deshimaru"],
+
+  // Sanbō Zen continuation — verified Wikipedia pageimages (2026-05).
+  // Kubota Ji'un, Migaku Sato, Joan Rieck, and Valerie Forstman have
+  // no Wikipedia article and stay on the SVG placeholder pipeline.
+  "henry-shukman": ["Henry Shukman"],
+  "willigis-jager": ["Willigis Jäger"],
+  "hugo-enomiya-lassalle": ["Hugo Enomiya-Lassalle"],
+  "yamada-ryoun": ["Ryoun Yamada"],
+
   // Deshimaru disciples — only Philippe Coupey has an en.wiki page; the
   // others need EXTERNAL_PORTRAITS with verified Commons URLs (see below).
   "philippe-reiryu-coupey": ["Philippe Coupey"],
