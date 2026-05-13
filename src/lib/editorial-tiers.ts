@@ -62,6 +62,7 @@ export const TIER_1_ENTRIES: EditorialTierEntry[] = [
   { slug: "keizan-jokin", tier: "tier1", reason: "founder" },
   { slug: "hakuin-ekaku", tier: "tier1", reason: "modern_transmitter" },
   { slug: "yamada-koun", tier: "tier1", reason: "modern_transmitter" },
+  { slug: "yamada-ryoun", tier: "tier1", reason: "modern_transmitter" },
 
   // Korean Seon founders and transmitters
   { slug: "jinul", tier: "tier1", reason: "founder" },

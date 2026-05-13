@@ -5204,6 +5204,12 @@ His books, all centred on Zen practice in dialogue with Christianity and engaged
     ],
   },
 
+  // (Sanbō Zen continuation — patriarchate beyond Yamada Kōun, plus
+  //  European and American heirs — is authored in
+  //  scripts/data/sanbo-zen-lineage.ts as KVMaster entries, so that
+  //  the lineage seeder creates the master rows and biographies in
+  //  one pass. Do not duplicate those bios here.)
+
   // =========================================================================
   // Other, Jingzhong, and unschooled masters
   // =========================================================================

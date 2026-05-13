@@ -975,6 +975,44 @@ const SOURCES = [
     publicationDate: null,
     reliability: "authoritative",
   },
+
+  // ─── Sanbō Zen neighbourhood ───────────────────────────────────────────
+  {
+    id: "src_sanbozen",
+    type: "website",
+    title: "Sanbo Zen International — official site (history, teacher roster)",
+    author: "Sanbo Zen International",
+    url: "https://sanbo-zen-international.org/",
+    publicationDate: null,
+    reliability: "authoritative",
+  },
+  {
+    id: "src_mountaincloud",
+    type: "website",
+    title: "Mountain Cloud Zen Center — About / Teachers",
+    author: "Mountain Cloud Zen Center",
+    url: "https://www.mountaincloud.org/about/",
+    publicationDate: null,
+    reliability: "authoritative",
+  },
+  {
+    id: "src_benediktushof",
+    type: "website",
+    title: "Benediktushof — Centre for Meditation and Mindfulness (Willigis Jäger)",
+    author: "Benediktushof / West-Östliche Weisheit",
+    url: "https://www.benediktushof.de/",
+    publicationDate: null,
+    reliability: "authoritative",
+  },
+  {
+    id: "src_sandia_zendo",
+    type: "website",
+    title: "Sandia Zendo — Joan Rieck Rōshi",
+    author: "Sandia Zendo",
+    url: "http://www.sanbo-zen.org/master_e.html",
+    publicationDate: null,
+    reliability: "authoritative",
+  },
 ] as const;
 
 export default async function main() {
