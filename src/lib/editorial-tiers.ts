@@ -164,6 +164,8 @@ export const TIER_1_ENTRIES: EditorialTierEntry[] = [
   { slug: "richard-reishin-collins", tier: "tier1", reason: "modern_transmitter" },
   { slug: "tony-bland", tier: "tier1", reason: "modern_transmitter" },
   { slug: "monika-leibundgut", tier: "tier1", reason: "modern_transmitter" },
+  // — Daitoku-ji / Myōshin-ji Rinzai bridge to the West (Morinaga line)
+  { slug: "morinaga-soko", tier: "tier1", reason: "modern_transmitter" },
 ];
 
 const TIER_1_ENTRY_BY_SLUG = new Map(TIER_1_ENTRIES.map((entry) => [entry.slug, entry]));

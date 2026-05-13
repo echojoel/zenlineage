@@ -500,6 +500,47 @@
     ]
   },
   {
+    "id": "1aiXWrGrEZ4px1IuyAylI",
+    "slug": "morinaga-soko",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Morinaga Soko"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "盛永宗興"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Sōkō Morinaga"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Soko Morinaga"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Daigu Sōkō"
+      }
+    ],
+    "birth_year": 1925,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 1995,
+    "death_precision": "exact",
+    "death_confidence": "high",
+    "school": "Rinzai",
+    "source_ids": [
+      "src_originals_curated"
+    ]
+  },
+  {
     "id": "1aRVSJptwURPY9AZHpDGM",
     "slug": "jingzhong-shenhui",
     "names": [
@@ -2291,6 +2332,42 @@
     ]
   },
   {
+    "id": "aCrpqBzqi3TDBe_-Nwuh_",
+    "slug": "oda-sesso",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Oda Sesso"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "小田雪窓"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Sesso Oda"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Oda Sessō"
+      }
+    ],
+    "birth_year": 1901,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 1966,
+    "death_precision": "exact",
+    "death_confidence": "high",
+    "school": "Rinzai",
+    "source_ids": [
+      "src_originals_curated"
+    ]
+  },
+  {
     "id": "aGl-pgbWvFhOIti65cdiL",
     "slug": "fuden-gentotsu",
     "names": [
@@ -2892,6 +2969,42 @@
     "school": "Linji",
     "source_ids": [
       "src_chan_ancestors_pdf",
+      "src_originals_curated"
+    ]
+  },
+  {
+    "id": "bMxlEo7PHi_TSGM_5RYZh",
+    "slug": "shaku-sokatsu",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Shaku Sokatsu"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "釈宗活"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Tetsuo Sokatsu"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Sokatsu Shaku"
+      }
+    ],
+    "birth_year": 1870,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 1954,
+    "death_precision": "exact",
+    "death_confidence": "high",
+    "school": "Rinzai",
+    "source_ids": [
       "src_originals_curated"
     ]
   },
@@ -4200,6 +4313,37 @@
     "death_year": 1298,
     "death_precision": "exact",
     "death_confidence": "high",
+    "school": "Rinzai",
+    "source_ids": [
+      "src_originals_curated"
+    ]
+  },
+  {
+    "id": "EwdPeK9g-tEEPFkMQu-wD",
+    "slug": "shaku-daijo",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Shaku Daijo"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Shaku Daijō"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Daijo Shaku"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
     "school": "Rinzai",
     "source_ids": [
       "src_originals_curated"
@@ -5819,6 +5963,42 @@
     "school": "Linji",
     "source_ids": [
       "src_chan_ancestors_pdf",
+      "src_originals_curated"
+    ]
+  },
+  {
+    "id": "JpFZHPoPsrGWhE9u1CMYd",
+    "slug": "goto-zuigan",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Goto Zuigan"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "後藤瑞巌"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Gotō Zuigan"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Zuigan Goto"
+      }
+    ],
+    "birth_year": 1879,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 1965,
+    "death_precision": "exact",
+    "death_confidence": "high",
+    "school": "Rinzai",
+    "source_ids": [
       "src_originals_curated"
     ]
   },
@@ -8915,6 +9095,37 @@
     "death_precision": "exact",
     "death_confidence": "high",
     "school": "Sōtō",
+    "source_ids": [
+      "src_originals_curated"
+    ]
+  },
+  {
+    "id": "RGN0O93fq6wRVOVDDFa2Z",
+    "slug": "shaku-kojyu",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Shaku Kojyu"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Shaku Kōjyū"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Kojyu Shaku"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Rinzai",
     "source_ids": [
       "src_originals_curated"
     ]

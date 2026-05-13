@@ -397,6 +397,24 @@ export const SEED_TEMPLES: TempleSeed[] = [
       "Shōkoku-ji (相国寺) is head temple of the Shōkoku-ji branch of Rinzai Zen, founded 1382 by Ashikaga Yoshimitsu with Musō Soseki.",
     url: "https://www.shokoku-ji.jp/",
   },
+  {
+    slug: "daishu-in",
+    names: [
+      { locale: "en", value: "Daishū-in" },
+      { locale: "ja", value: "大珠院" },
+    ],
+    lat: 35.0349,
+    lng: 135.7194,
+    region: "Kyoto",
+    country: "Japan",
+    foundedYear: null,
+    foundedPrecision: null,
+    schoolSlug: "rinzai",
+    status: "active",
+    sourceId: "src_morinaga_wiki",
+    sourceExcerpt:
+      "Daishū-in (大珠院) — a sub-temple of Ryōan-ji in the Myōshin-ji complex, Kyoto. Sōkō Morinaga was ordained here by Gotō Zuigan in 1949 and served as its chief priest from 1963 until his death in 1995.",
+  },
 
   // ─── Japanese Ōbaku ──────────────────────────────────────────────────
   {
@@ -1296,6 +1314,43 @@ export const SEED_TEMPLES: TempleSeed[] = [
     url: "https://throssel.org.uk/",
   },
   {
+    slug: "shobo-an-london",
+    names: [
+      { locale: "en", value: "Shōbō-an / The Zen Centre" },
+      { locale: "ja", value: "正法庵" },
+    ],
+    lat: 51.5343,
+    lng: -0.1737,
+    region: "London",
+    country: "United Kingdom",
+    foundedYear: 1984,
+    foundedPrecision: "exact",
+    schoolSlug: "rinzai",
+    founderSlug: "morinaga-soko",
+    status: "active",
+    sourceId: "src_rinzai_zen_centre_uk",
+    sourceExcerpt:
+      "Shōbō-an ('Hermitage of the True Dharma') at 58 Marlborough Place, St John's Wood, London — Rinzai training hermitage consecrated by Sōkō Morinaga Rōshi in 1984 in the St John's Wood house bequeathed to The Zen Centre by Christmas Humphreys. Run by Myōkyō-ni (Irmgard Schloegl) from 1984 and her successors after 2007.",
+    url: "https://rinzaizencentre.org.uk/",
+  },
+  {
+    slug: "shobo-an-luton",
+    names: [{ locale: "en", value: "Shōbō-an Luton Training House (Fairlight)" }],
+    lat: 51.8787,
+    lng: -0.4200,
+    region: "Bedfordshire",
+    country: "United Kingdom",
+    foundedYear: 1996,
+    foundedPrecision: "exact",
+    schoolSlug: "rinzai",
+    founderSlug: "morinaga-soko",
+    status: "active",
+    sourceId: "src_rinzai_zen_centre_uk",
+    sourceExcerpt:
+      "Shōbō-an Luton (Fairlight) — second residential Rinzai training house in the Sōkō Morinaga line, opened April 1996 as a sister training house to the London Shōbō-an under The Zen Centre.",
+    url: "https://rinzaizencentre.org.uk/",
+  },
+  {
     slug: "berkeley-buddhist-priory",
     names: [{ locale: "en", value: "Berkeley Buddhist Priory" }],
     lat: 37.8707,
@@ -1935,6 +1990,23 @@ export const SEED_TEMPLES: TempleSeed[] = [
     sourceExcerpt:
       "Mount Baldy Zen Center, founded 1971 by Kyozan Joshu Sasaki Roshi — the principal Rinzai-ji training monastery in North America, set on a 99-year U.S. Forest Service lease in the San Gabriel Mountains.",
     url: "https://www.mbzc.org/",
+  },
+  {
+    slug: "daishu-in-west",
+    names: [{ locale: "en", value: "Daishu-in West" }],
+    lat: 40.0856,
+    lng: -123.9018,
+    region: "California",
+    country: "United States",
+    foundedYear: 1994,
+    foundedPrecision: "exact",
+    schoolSlug: "rinzai",
+    founderSlug: "morinaga-soko",
+    status: "active",
+    sourceId: "src_daishuin_west",
+    sourceExcerpt:
+      "Daishu-in West — a residential Rinzai monastery in Garberville, Humboldt County, California, co-founded in 1994 by Sōkō Morinaga Rōshi with Shaku Daijō and Ursula Jarand as a Western extension of Daishū-in (Kyoto). First abbot Shaku Daijō; current abbot Shaku Kōjyū (since 2018).",
+    url: "https://daishuinwest.org/",
   },
 
   // ─── Other major White Plum / lay Zen American centres ───────────────

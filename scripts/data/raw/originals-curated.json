@@ -3476,6 +3476,67 @@
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
   },
+  {
+    "name": "Shaku Sokatsu",
+    "names_cjk": "釈宗活",
+    "dates": "1870-1954",
+    "teachers": [{"name": "Soyen Shaku", "edge_type": "primary"}],
+    "school": "Rinzai",
+    "names_alt": ["Tetsuo Sokatsu", "Sokatsu Shaku"],
+    "source_id": "src_originals_curated",
+    "ingestion_run_id": "run_originals_curated_morinaga_20260513"
+  },
+  {
+    "name": "Goto Zuigan",
+    "names_cjk": "後藤瑞巌",
+    "dates": "1879-1965",
+    "teachers": [{"name": "Shaku Sokatsu", "edge_type": "primary"}],
+    "school": "Rinzai",
+    "names_alt": ["Gotō Zuigan", "Zuigan Goto"],
+    "source_id": "src_originals_curated",
+    "ingestion_run_id": "run_originals_curated_morinaga_20260513"
+  },
+  {
+    "name": "Oda Sesso",
+    "names_cjk": "小田雪窓",
+    "dates": "1901-1966",
+    "teachers": [{"name": "Goto Zuigan", "edge_type": "primary"}],
+    "school": "Rinzai",
+    "names_alt": ["Sesso Oda", "Oda Sessō"],
+    "source_id": "src_originals_curated",
+    "ingestion_run_id": "run_originals_curated_morinaga_20260513"
+  },
+  {
+    "name": "Morinaga Soko",
+    "names_cjk": "盛永宗興",
+    "dates": "1925-1995",
+    "teachers": [
+      {"name": "Oda Sesso", "edge_type": "primary"},
+      {"name": "Goto Zuigan", "edge_type": "secondary"}
+    ],
+    "school": "Rinzai",
+    "names_alt": ["Sōkō Morinaga", "Soko Morinaga", "Daigu Sōkō"],
+    "source_id": "src_originals_curated",
+    "ingestion_run_id": "run_originals_curated_morinaga_20260513"
+  },
+  {
+    "name": "Shaku Daijo",
+    "dates": "?-2018",
+    "teachers": [{"name": "Morinaga Soko", "edge_type": "primary"}],
+    "school": "Rinzai",
+    "names_alt": ["Shaku Daijō", "Daijo Shaku"],
+    "source_id": "src_originals_curated",
+    "ingestion_run_id": "run_originals_curated_morinaga_20260513"
+  },
+  {
+    "name": "Shaku Kojyu",
+    "dates": "n.d.",
+    "teachers": [{"name": "Shaku Daijo", "edge_type": "primary"}],
+    "school": "Rinzai",
+    "names_alt": ["Shaku Kōjyū", "Kojyu Shaku"],
+    "source_id": "src_originals_curated",
+    "ingestion_run_id": "run_originals_curated_morinaga_20260513"
+  },
 
   {
     "name": "Daisetsu Joen",

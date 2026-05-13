@@ -1,14 +1,14 @@
 # Zen Lineage — Complete Reference
 
-> An open-source interactive encyclopedia of Zen Buddhism covering 505+ masters,
-> 25 schools, 540+ lineage transmissions, 795+ teachings, and 1,700+ scholarly
+> An open-source interactive encyclopedia of Zen Buddhism covering 510+ masters,
+> 25 schools, 550+ lineage transmissions, 795+ teachings, and 1,700+ scholarly
 > citations across 2,500 years of Chan, Zen, Seon, and Thien Buddhist history.
 
 Zen Lineage maps the dharma transmission lineages connecting Buddhist masters
 from Shakyamuni Buddha through Bodhidharma to modern teachers. All content
 requires item-level citations from scholarly sources before publication.
 
-Generated: 2026-05-12
+Generated: 2026-05-13
 
 ---
 
@@ -1862,7 +1862,7 @@ Butsumon Sogaku is recorded in the historiography of the medieval / early-modern
 - **Dates:** 1860 – 1919
 - **School:** Rinzai
 - **Teachers:** Kosen Imakita
-- **Students:** D.T. Suzuki, Nyogen Senzaki
+- **Students:** D.T. Suzuki, Nyogen Senzaki, Shaku Sokatsu
 
 Shaku Sōen (釈宗演), often romanised in his lifetime as Soyen Shaku, was born on 10 January 1860 in Takahama, Fukui Prefecture, into the dying years of the Tokugawa shogunate. He entered monastic life as a boy at the Rinzai temple Myōshin-ji and trained under Ekkei Shuken before becoming the disciple of Imakita Kōsen at Engaku-ji in Kamakura. He received Dharma transmission (inka) from Kōsen at the unusually young age of twenty-five, an early recognition that marked him as one of the most promising Rinzai teachers of the Meiji era[1].
 
@@ -1904,6 +1904,18 @@ Gempō eventually settled in the orbit of Hakuin's old training temple Ryūtaku-
 - **Teachers:** Soyen Shaku
 
 Daisetsu Teitarō Suzuki (鈴木 大拙 貞太郎) was born on 18 October 1870 in Honda-machi, Kanazawa, in Japan's Ishikawa Prefecture, into a family of physicians of samurai descent that had been impoverished by the Meiji Restoration. He studied at Waseda University and the Imperial University of Tokyo, where he acquired the unusual command of Chinese, Sanskrit, Pāli, English, French, and German that would later define his career as a translator and interpreter of the Zen tradition for Western readers[1].
+
+### Shaku Sokatsu
+
+- **Also known as:** Tetsuo Sokatsu, Sokatsu Shaku
+- **Dates:** 1870 – 1954
+- **School:** Rinzai
+- **Teachers:** Soyen Shaku
+- **Students:** Goto Zuigan
+
+Tetsuō Sōkatsu (釈宗活, 1870–1954) was a Japanese Rinzai Zen rōshi and dharma heir of Shaku Sōen, ordained at Engaku-ji and confirmed as Sōen's successor at the close of the nineteenth century[1]. From his master he received responsibility for **Ryōmōkai** (Ryōmō-an), the lay-focused Tokyo hermitage through which Sōen had opened formal Zen training to non-monastics — a deliberate experiment in carrying the koan curriculum beyond the ordained sangha[2].
+
+In 1906, with a small party of disciples including Gotō Zuigan and Sokei-an Shigetsu Sasaki, Sōkatsu travelled to California in an early attempt to plant Rinzai practice on the Pacific coast, returning to Japan in 1910[1].
 
 ### Harada Daiun Sogaku
 
@@ -1956,6 +1968,18 @@ Seisetsu Genjyo is recorded in the historiography of the post-Daitō / Myōshin-
 Gyokujun Sō-on Suzuki (1877–1934) was the Sōtō Zen priest who made Shunryū Suzuki — and so, indirectly, made San Francisco Zen Center. The English-language record of his life is sparse and survives almost entirely through references in Shunryū's biography and in the histories of the temples he led; what follows is what can be verified against those sources[3].
 
 Sō-on was the adopted son of Butsumon Sogaku Suzuki, Shunryū's biological father and himself a Sōtō priest. That adoption made Sō-on Shunryū's Dharma elder brother by family and, eventually, his teacher.
+
+### Goto Zuigan
+
+- **Also known as:** Gotō Zuigan, Zuigan Goto
+- **Dates:** 1879 – 1965
+- **School:** Rinzai
+- **Teachers:** Shaku Sokatsu
+- **Students:** Oda Sesso, Morinaga Soko
+
+Gotō Zuigan (後藤瑞巌, 1879–1965) was a Japanese Rinzai Zen master in the Ōtōkan line through Engaku-ji, dharma heir of Tetsuō Sōkatsu, from whom he received transmission around 1916 after years of training in the Ryōmōkai lay sangha and at Engaku-ji[1]. As a young monk he had accompanied Sōkatsu on the 1906 expedition to California, an experience that gave him uncommon comfort with English and Western interlocutors for his generation[1].
+
+In the post-war reorganisation of Rinzai institutional life Zuigan served successively as chief abbot of **Myōshin-ji** and then of **Daitoku-ji**, the two great head temples of the Ōtōkan branch, and as president of **Hanazono University** in Kyoto[1].
 
 ### Kodo Sawaki
 
@@ -2026,6 +2050,18 @@ Thích Quảng Đức (釋廣德, 1897–1963) is among the most internationally
 Baian Hakujun Kuroda (黒田白雲, 1898–1978) was a leading mid-twentieth-century Sōtō priest, abbot of Kōshin-ji / Kirigaya-ji in Tokyo and of his family temple in Ōtawara, Tochigi, and the father and Sōtō dharma transmitter of Hakuyū Taizan Maezumi. Within Western Zen he is most often encountered as the 'Hakujun' of 'Baian Hakujun Daiosho,' the dharma name from which the White Plum Asanga (白梅花) — the lineage federation of Maezumi's twelve American heirs — takes its identity[1].
 
 Kuroda was a working Sōtōshū abbot of the type that anchors mainstream Japanese Sōtō: he raised his family in the precincts of his own temple, sent his sons through both academic study and Sōji-ji training, and in due course transmitted his temple succession to one of them.
+
+### Oda Sesso
+
+- **Also known as:** Sesso Oda, Oda Sessō
+- **Dates:** 1901 – 1966
+- **School:** Rinzai
+- **Teachers:** Goto Zuigan
+- **Students:** Morinaga Soko
+
+Oda Sessō (小田雪窓, 1901–1966) was a Japanese Rinzai Zen master, dharma heir of Gotō Zuigan in the Daitoku-ji Ōtōkan line and Zuigan's chosen successor at the head temple[1]. He became chief abbot of **Daitoku-ji in 1955**, on Zuigan's retirement, and served until his death in September 1966[1].
+
+At Zuigan's request Oda opened the Daitoku-ji sōdō to foreign students at an unusually early date, training a remarkable cohort of Western practitioners — among them the poet Gary Snyder, the writer Janwillem van de Wetering, the Austrian-born scholar Irmgard Schloegl (later Myōkyō-ni), and the Buddhologist Philip Yampolsky[1].
 
 ### Osaka Koryu
 
@@ -2198,6 +2234,16 @@ Hōun Jiyu-Kennett (born Peggy Teresa Nancy Kennett, 1 January 1924, St Leonards
 - **Teachers:** Liễu Quán
 
 Thích Thanh Từ (1924–2022) was the principal architect of the modern revival of Trúc Lâm Zen, the indigenous Vietnamese Thiền school founded by Emperor Trần Nhân Tông in the thirteenth century and largely dormant for some six hundred years[1]. He was born Trần Hữu Phước on 24 July 1924 in Tích Khánh hamlet, Thiện Mỹ commune, Trà Ôn district, Vĩnh Long province in the Mekong Delta[1]. Drawn to monastic life from his youth, he was ordained at Chùa Phật Quang on 15 July 1949 under the great southern reformer Thích Thiện Hoa as his root teacher (bổn sư), and received the full bhikṣu precepts in 1952 from Tổ Khánh Anh.
+
+### Morinaga Soko
+
+- **Also known as:** Sōkō Morinaga, Soko Morinaga, Daigu Sōkō
+- **Dates:** 1925 – 1995
+- **School:** Rinzai
+- **Teachers:** Oda Sesso, Goto Zuigan
+- **Students:** Shaku Daijo
+
+Sōkō Morinaga (盛永宗興, 2 August 1925 – 12 June 1995) was a Japanese Rinzai Zen master, abbot of Daishū-in in the Myōshin-ji / Ryōan-ji complex in Kyoto, and one of the principal twentieth-century bridges of Daitoku-ji Rinzai to the West[1]. Born in Uozu in Toyama Prefecture as the eldest son of a farming family, he was drafted into the Imperial Japanese Army in early 1945 at the age of nineteen; the war ended before he was deployed, but the dislocation of those final months — losing both parents and finding himself without home or vocation — provided the autobiographical frame for the English-language memoir he would later dictate as *Novice to Master*[2].
 
 ### Thích Nhất Hạnh
 
@@ -3281,6 +3327,18 @@ Taigu Puyu (太古普愚) — not to be confused with the better-known fourteent
 
 Kumu Facheng (枯木法成, fl. early 12th c.), the "Dead-Tree Master," was a Song-period Caodong-line teacher in the Furong Daokai stream whose nickname captured the *mòzhào* / silent-illumination style that the Caodong revival was systematising in his generation[1]. The "withered-tree" image — sitting with the apparent stillness of a dead trunk while remaining wakeful — descends from the *kūmù-tang* (枯木堂, "dead-tree hall") tradition established at Shishuang Qingzhu's late-Tang community and forwarded through the Caodong line[2].
 
+### Shaku Daijo
+
+- **Also known as:** Shaku Daijō, Daijo Shaku
+- **Dates:** Dates uncertain
+- **School:** Rinzai
+- **Teachers:** Morinaga Soko
+- **Students:** Shaku Kojyu
+
+Shaku Daijō (?–April 2018) was an American Rinzai Zen priest ordained by **Sōkō Morinaga** in 1979 and the co-founder of **Daishu-in West**, the residential Rinzai monastery established with Morinaga and Ursula Jarand in 1994 on a forested site in Garberville, Humboldt County, California[1]. The community was conceived as a Western extension of Morinaga's Kyoto temple, Daishū-in, and was staffed and trained according to the Daitoku-ji sōdō pattern Morinaga had himself received from Oda Sessō[1].
+
+Daijō served as Daishu-in West's first abbot from its founding until his death in April 2018, after which the abbotship passed to his student Shaku Kōjyū[1].
+
 ### Doushuai Congyue
 
 - **Also known as:** Tou-shuai Ts'ung-yüeh, Tosotsu Jûetsu
@@ -3998,6 +4056,15 @@ For twelve years he served as tenzo (kitchen master) of the Kosen Sangha ("Tenzo
 - **Students:** Wuzhun Shifan
 
 Po'an Zuxian (破菴祖先, 1136–1211) was a Yangqi-line Linji master of the Southern Song and the Dharma heir of Mi'an Xianjie; his Dharma in turn passed to Wuzhun Shifan, the major Jingshan-monastery teacher of the next generation[1]. The lamp records and the *Po'an Yulu* preserve a small but coherent body of his teaching, and his place in Chan history is principally that of the immediate link between Mi'an and the late-Song Yangqi resurgence under Wuzhun and his successors[2].
+
+### Shaku Kojyu
+
+- **Also known as:** Shaku Kōjyū, Kojyu Shaku
+- **Dates:** Dates uncertain
+- **School:** Rinzai
+- **Teachers:** Shaku Daijo
+
+Shaku Kōjyū is a Rinzai Zen priest ordained in Kyoto in 2008 in the Daishū-in line of Sōkō Morinaga, and since 2018 the second abbot of **Daishu-in West** in Garberville, California[1]. He succeeded the monastery's founder-abbot **Shaku Daijō** on Daijō's death in April 2018 and now leads the residential training schedule that Morinaga and Daijō established as a Western extension of the Daishū-in sōdō[1].
 
 ### Ryuko Ryoshu
 
@@ -5097,7 +5164,7 @@ The Soto school (曹洞宗) is the Japanese continuation of the Chinese Caodong 
 ### Rinzai
 
 - **Tradition:** Zen
-- **Masters:** 61
+- **Masters:** 67
 
 The Rinzai school (臨済宗) is the Japanese form of the Chinese Linji tradition, transmitted to Japan through multiple lineages during the Kamakura period (1185–1333)[1]. The school's defining figure is Hakuin Ekaku (1686–1769), who single-handedly revived and systematized Rinzai practice after a period of decline[2]. Hakuin developed the structured koan curriculum that remains standard today—beginning with the Mu koan or the sound of one hand clapping, then progressing through increasingly subtle layers of inquiry. His emphasis on 'great doubt, great faith, great determination' as the three pillars of practice became definitive[2]. The modern Rinzai school is organized primarily through the O-To-Kan lineage: Nanpo Jomyo (Daio Kokushi) received transmission from the Chinese master Xutang Zhiyu, transmitted to Shuho Myocho (Daito Kokushi, founder of Daitokuji), who transmitted to Kanzan Egen (founder of Myoshinji)[3]. These two temple complexes—Daitokuji and Myoshinji—and their extensive branch networks form the institutional backbone of modern Rinzai Zen. The school profoundly influenced Japanese culture, including the tea ceremony, calligraphy, ink painting, garden design, and the martial arts.
 

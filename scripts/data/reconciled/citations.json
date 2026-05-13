@@ -552,6 +552,46 @@
     "excerpt": "Xutang Zhiyu"
   },
   {
+    "id": "dmVSCNXBtHQYDMZTBZhc8",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "1aiXWrGrEZ4px1IuyAylI",
+    "field_name": "dates",
+    "excerpt": "1925-1995"
+  },
+  {
+    "id": "HgiKbtrFtSzBM870zLdvz",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "1aiXWrGrEZ4px1IuyAylI",
+    "field_name": "name",
+    "excerpt": "Morinaga Soko"
+  },
+  {
+    "id": "FYhqTdTYv8HTOYF_RVWGR",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "1aiXWrGrEZ4px1IuyAylI",
+    "field_name": "school",
+    "excerpt": "Rinzai"
+  },
+  {
+    "id": "ieCw6isE-PnERC4u3v-Ag",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "1aiXWrGrEZ4px1IuyAylI",
+    "field_name": "teachers",
+    "excerpt": "Oda Sesso"
+  },
+  {
+    "id": "ikRdkXQVetBq5qBioKdnT",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "1aiXWrGrEZ4px1IuyAylI",
+    "field_name": "teachers",
+    "excerpt": "Goto Zuigan"
+  },
+  {
     "id": "xkOLvZ-2nMy_YI0B7JWAd",
     "source_id": "src_chan_ancestors_pdf",
     "entity_type": "master",
@@ -2648,6 +2688,38 @@
     "excerpt": "Butsumon Sogaku"
   },
   {
+    "id": "Hb5fUMsdBblTEFu0dq--4",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "aCrpqBzqi3TDBe_-Nwuh_",
+    "field_name": "dates",
+    "excerpt": "1901-1966"
+  },
+  {
+    "id": "Nu7-S7RnpnhxAAKjmtCIO",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "aCrpqBzqi3TDBe_-Nwuh_",
+    "field_name": "name",
+    "excerpt": "Oda Sesso"
+  },
+  {
+    "id": "TB-OiSx2DsoeuFGms0o5y",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "aCrpqBzqi3TDBe_-Nwuh_",
+    "field_name": "school",
+    "excerpt": "Rinzai"
+  },
+  {
+    "id": "a2WVkMOMzDUTXaa_ZF0wg",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "aCrpqBzqi3TDBe_-Nwuh_",
+    "field_name": "teachers",
+    "excerpt": "Goto Zuigan"
+  },
+  {
     "id": "VRo939KemVgxJLBlX0ckG",
     "source_id": "src_sotozen_founders",
     "entity_type": "master",
@@ -3414,6 +3486,38 @@
     "entity_id": "BL41yC9VsAMM0TzssIEKP",
     "field_name": "teachers",
     "excerpt": "Wuzu Fayan"
+  },
+  {
+    "id": "COK8ViCxAPJIKszgKrN8u",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "bMxlEo7PHi_TSGM_5RYZh",
+    "field_name": "dates",
+    "excerpt": "1870-1954"
+  },
+  {
+    "id": "axlqExgYj4SHq8HvMADGW",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "bMxlEo7PHi_TSGM_5RYZh",
+    "field_name": "name",
+    "excerpt": "Shaku Sokatsu"
+  },
+  {
+    "id": "mSLiCBcoNZN4m-6TIadIf",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "bMxlEo7PHi_TSGM_5RYZh",
+    "field_name": "school",
+    "excerpt": "Rinzai"
+  },
+  {
+    "id": "UNessws7YOvE_hoAc6PKx",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "bMxlEo7PHi_TSGM_5RYZh",
+    "field_name": "teachers",
+    "excerpt": "Soyen Shaku"
   },
   {
     "id": "VZVzzoeJ6ya462YHSMc_j",
@@ -5006,6 +5110,38 @@
     "entity_id": "ET3P-pSO2rpgbD9_C1riq",
     "field_name": "teachers",
     "excerpt": "Wumen Huikai"
+  },
+  {
+    "id": "JOnj52Bahg9Fl3q8_VwOT",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "EwdPeK9g-tEEPFkMQu-wD",
+    "field_name": "dates",
+    "excerpt": "?-2018"
+  },
+  {
+    "id": "yTRj0veNsMqTkHB2Z_NLW",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "EwdPeK9g-tEEPFkMQu-wD",
+    "field_name": "name",
+    "excerpt": "Shaku Daijo"
+  },
+  {
+    "id": "Ti6KRldYoEOcF9hIMxW2I",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "EwdPeK9g-tEEPFkMQu-wD",
+    "field_name": "school",
+    "excerpt": "Rinzai"
+  },
+  {
+    "id": "AU2f2GCKXi6-bxA_hS9OU",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "EwdPeK9g-tEEPFkMQu-wD",
+    "field_name": "teachers",
+    "excerpt": "Morinaga Soko"
   },
   {
     "id": "UNU9sMHGTwLx5CrhV8qh0",
@@ -6870,6 +7006,38 @@
     "entity_id": "JFPJEb3YvLpKb-Lqi6QCA",
     "field_name": "teachers",
     "excerpt": "Guishan Lingyou"
+  },
+  {
+    "id": "T6sQWakW8LWIc_Zg7dbM5",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "JpFZHPoPsrGWhE9u1CMYd",
+    "field_name": "dates",
+    "excerpt": "1879-1965"
+  },
+  {
+    "id": "tMGNXu9corqLm8D60cDA4",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "JpFZHPoPsrGWhE9u1CMYd",
+    "field_name": "name",
+    "excerpt": "Goto Zuigan"
+  },
+  {
+    "id": "T8XjhZVrDUM34Qw0ljJ-b",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "JpFZHPoPsrGWhE9u1CMYd",
+    "field_name": "school",
+    "excerpt": "Rinzai"
+  },
+  {
+    "id": "VM2bVklwCKm4EYj7QBFCq",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "JpFZHPoPsrGWhE9u1CMYd",
+    "field_name": "teachers",
+    "excerpt": "Shaku Sokatsu"
   },
   {
     "id": "6wjPmO2RX7CadCOQyf-El",
@@ -10374,6 +10542,38 @@
     "entity_id": "Rd8vhm0HAiTRsNtcQoaQ6",
     "field_name": "teachers",
     "excerpt": "Meido Yuton (Terebess Harada profile - Dharma lineage)"
+  },
+  {
+    "id": "OLmfdR3bycgvqgU0KHjvp",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "RGN0O93fq6wRVOVDDFa2Z",
+    "field_name": "dates",
+    "excerpt": "n.d."
+  },
+  {
+    "id": "Ghh7FlTLCyipaoVVJONKX",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "RGN0O93fq6wRVOVDDFa2Z",
+    "field_name": "name",
+    "excerpt": "Shaku Kojyu"
+  },
+  {
+    "id": "omnt6CW7zM25jeLhfOlLe",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "RGN0O93fq6wRVOVDDFa2Z",
+    "field_name": "school",
+    "excerpt": "Rinzai"
+  },
+  {
+    "id": "QOkhYA6_41nNKI-4MSSH2",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "RGN0O93fq6wRVOVDDFa2Z",
+    "field_name": "teachers",
+    "excerpt": "Shaku Daijo"
   },
   {
     "id": "5iQohsDLU3AbIlsq6sPJx",

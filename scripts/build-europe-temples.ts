@@ -90,6 +90,8 @@ const DUP_PATTERNS: { pattern: RegExp; existingSlug: string }[] = [
   // slightly different slugs. Pattern matches the agent's full name so the
   // duplicate is dropped before slugification.
   { pattern: /throssel\s*hole/i, existingSlug: "throssel-hole-abbey" },
+  { pattern: /shobo-?an.*(hampstead|zen\s*centre)|the\s*zen\s*centre.*shobo/i, existingSlug: "shobo-an-london" },
+  { pattern: /shobo-?an\s*luton/i, existingSlug: "shobo-an-luton" },
   { pattern: /chogye\s*international/i, existingSlug: "chogye-international-nyc" },
   { pattern: /zen\s*center\s*of\s*las\s*vegas/i, existingSlug: "zen-center-las-vegas" },
   { pattern: /^dharma\s*zen\s*center$/i, existingSlug: "dharma-zen-center-la" },

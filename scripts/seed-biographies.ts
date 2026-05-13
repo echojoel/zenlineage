@@ -7218,6 +7218,130 @@ Since 2009 she has been the principal teacher at the Zen Dōjō Zürich and a re
       },
     ],
   },
+  {
+    slug: "shaku-sokatsu",
+    content: `Tetsuō Sōkatsu (釈宗活, 1870–1954) was a Japanese Rinzai Zen rōshi and dharma heir of Shaku Sōen, ordained at Engaku-ji and confirmed as Sōen's successor at the close of the nineteenth century[1]. From his master he received responsibility for **Ryōmōkai** (Ryōmō-an), the lay-focused Tokyo hermitage through which Sōen had opened formal Zen training to non-monastics — a deliberate experiment in carrying the koan curriculum beyond the ordained sangha[2].
+
+In 1906, with a small party of disciples including Gotō Zuigan and Sokei-an Shigetsu Sasaki, Sōkatsu travelled to California in an early attempt to plant Rinzai practice on the Pacific coast, returning to Japan in 1910[1]. Ryōmōkai continued in Tokyo until it was dissolved at the end of the Second World War, but the lineage Sōkatsu carried out of Engaku-ji passed onward through his two principal heirs: **Gotō Zuigan**, who became one of the most institutionally prominent Rinzai abbots of mid-twentieth-century Japan, and **Sokei-an Sasaki**, who founded the First Zen Institute of America in New York[2].`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_wiki_sokatsu",
+        pageOrSection: "Wikipedia — Tetsuo Sōkatsu, biographical summary",
+      },
+      {
+        index: 2,
+        sourceId: "src_terebess_sokatsu",
+        pageOrSection: "Terebess — Shaku Sōkatsu: Ryōmō-an / Ryōmōkyō-kai, 1906 California expedition, dharma heirs Gotō Zuigan and Sokei-an Sasaki",
+      },
+    ],
+  },
+  {
+    slug: "goto-zuigan",
+    content: `Gotō Zuigan (後藤瑞巌, 1879–1965) was a Japanese Rinzai Zen master in the Ōtōkan line through Engaku-ji, dharma heir of Tetsuō Sōkatsu, from whom he received transmission around 1916 after years of training in the Ryōmōkai lay sangha and at Engaku-ji[1]. As a young monk he had accompanied Sōkatsu on the 1906 expedition to California, an experience that gave him uncommon comfort with English and Western interlocutors for his generation[1].
+
+In the post-war reorganisation of Rinzai institutional life Zuigan served successively as chief abbot of **Myōshin-ji** and then of **Daitoku-ji**, the two great head temples of the Ōtōkan branch, and as president of **Hanazono University** in Kyoto[1]. He retired from the Daitoku-ji abbotship in 1955 in favour of his senior dharma successor **Oda Sessō**, but continued to teach until his death in 1965[2].
+
+Among his ordained successors the principal figures are Oda Sessō and **Morinaga Sōkō**, whom Zuigan ordained as a monk at Daishū-in in 1949 and entrusted to Oda for sōdō training[3]; among his lay students the philosopher **Huston Smith** worked with him for roughly fifteen years and credited him as his root teacher[1].`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_wiki_zuigan",
+        pageOrSection: "Wikipedia — Gotō Zuigan: dates, dharma transmission from Sōkatsu, 1906 California, Myōshin-ji and Daitoku-ji abbotships, Hanazono University, Huston Smith",
+      },
+      {
+        index: 2,
+        sourceId: "src_wiki_oda_sesso",
+        pageOrSection: "Wikipedia — Oda Sessō: succeeded Gotō Zuigan as Daitoku-ji chief abbot in 1955",
+      },
+      {
+        index: 3,
+        sourceId: "src_morinaga_wiki",
+        pageOrSection: "Wikipedia — Sōkō Morinaga: ordained at Daishū-in by Gotō Zuigan in 1949; trained under Oda Sessō at Daitoku-ji sōdō",
+      },
+    ],
+  },
+  {
+    slug: "oda-sesso",
+    content: `Oda Sessō (小田雪窓, 1901–1966) was a Japanese Rinzai Zen master, dharma heir of Gotō Zuigan in the Daitoku-ji Ōtōkan line and Zuigan's chosen successor at the head temple[1]. He became chief abbot of **Daitoku-ji in 1955**, on Zuigan's retirement, and served until his death in September 1966[1].
+
+At Zuigan's request Oda opened the Daitoku-ji sōdō to foreign students at an unusually early date, training a remarkable cohort of Western practitioners — among them the poet Gary Snyder, the writer Janwillem van de Wetering, the Austrian-born scholar Irmgard Schloegl (later Myōkyō-ni), and the Buddhologist Philip Yampolsky[1]. In 1963 he conferred **inka shōmei** on his dharma successor **Morinaga Sōkō**, completing the formal transmission that Zuigan had begun with Morinaga's ordination fourteen years earlier[2].`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_wiki_oda_sesso",
+        pageOrSection: "Wikipedia — Oda Sessō: dates, Daitoku-ji abbotship from 1955, opening of the sōdō to Western students (Snyder, Schloegl, van de Wetering, Yampolsky)",
+      },
+      {
+        index: 2,
+        sourceId: "src_morinaga_wiki",
+        pageOrSection: "Wikipedia — Sōkō Morinaga: inka shōmei from Oda Sessō, 1963",
+      },
+    ],
+  },
+  {
+    slug: "morinaga-soko",
+    content: `Sōkō Morinaga (盛永宗興, 2 August 1925 – 12 June 1995) was a Japanese Rinzai Zen master, abbot of Daishū-in in the Myōshin-ji / Ryōan-ji complex in Kyoto, and one of the principal twentieth-century bridges of Daitoku-ji Rinzai to the West[1]. Born in Uozu in Toyama Prefecture as the eldest son of a farming family, he was drafted into the Imperial Japanese Army in early 1945 at the age of nineteen; the war ended before he was deployed, but the dislocation of those final months — losing both parents and finding himself without home or vocation — provided the autobiographical frame for the English-language memoir he would later dictate as *Novice to Master*[2].
+
+In 1948–1949 he came to Daishū-in and was ordained as a monk by **Gotō Zuigan**, then chief abbot of Daitoku-ji, who sent him into the Daitoku-ji sōdō to train under his senior dharma heir **Oda Sessō**; Morinaga remained there until 1963, when Oda conferred **inka shōmei** on him and confirmed him as a teacher in the line[1]. He returned to Daishū-in as abbot and held that post until his death.
+
+From 1986 to 1994 he served as **president of Hanazono University**, the Rinzai-affiliated institution in Kyoto where his teacher Zuigan had also presided — an institutional role that placed him at the centre of Rinzai monastic education in the late twentieth century[1].
+
+In parallel he became a familiar figure in English-speaking Zen circles through his long relationship with **The Buddhist Society** in London under Christmas Humphreys: when Humphreys' St John's Wood house was bequeathed to the Society on his death in 1983, Morinaga travelled to London the following year to consecrate it as the Rinzai training hermitage **Shōbō-an**, and on the same 1984 trip presided at Chithurst over the ordination of Irmgard Schloegl as the Rinzai nun Myōkyō-ni[3]. In 1994 — the last year of his life — he co-founded **Daishu-in West**, a residential Rinzai monastery in Garberville, California, with the ordained American teacher Shaku Daijō and the German practitioner Ursula Jarand, formally extending the Daishū-in line to North America[4].
+
+Morinaga died at Daishū-in in June 1995 at the age of sixty-nine[2]. His best-known English-language work, *Novice to Master: An Ongoing Lesson in the Extent of My Own Stupidity*, was assembled from his teachings and published posthumously by Wisdom Publications in 2002 and remains a widely read introduction to post-war Rinzai practice in English[5].`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_morinaga_wiki",
+        pageOrSection: "Wikipedia — Sōkō Morinaga: dates, Uozu birthplace, 1949 ordination by Gotō Zuigan, training under Oda Sessō, inka 1963, Hanazono presidency 1986–1994, abbotship of Daishū-in",
+      },
+      {
+        index: 2,
+        sourceId: "src_zen_gateway_morinaga_memorial",
+        pageOrSection: "Soko Morinaga Roshi: A Memorial Talk — Martin Goodson, biographical reminiscence and death date 12 June 1995",
+      },
+      {
+        index: 3,
+        sourceId: "src_rinzai_zen_centre_uk",
+        pageOrSection: "Rinzai Zen Centre / Shōbō-an — About Us: Christmas Humphreys bequest, 1984 consecration of Shōbō-an by Morinaga Roshi, ordination of Myōkyō-ni",
+      },
+      {
+        index: 4,
+        sourceId: "src_daishuin_west",
+        pageOrSection: "Daishu-in West — founding by Sōkō Morinaga with Shaku Daijō and Ursula Jarand, 1994, Garberville, California",
+      },
+      {
+        index: 5,
+        sourceId: "src_wisdom_novice_to_master",
+        pageOrSection: "Wisdom Publications — *Novice to Master* (2002), translated by Belenda Attaway Yamakawa, posthumous English memoir",
+      },
+    ],
+  },
+  {
+    slug: "shaku-daijo",
+    content: `Shaku Daijō (?–April 2018) was an American Rinzai Zen priest ordained by **Sōkō Morinaga** in 1979 and the co-founder of **Daishu-in West**, the residential Rinzai monastery established with Morinaga and Ursula Jarand in 1994 on a forested site in Garberville, Humboldt County, California[1]. The community was conceived as a Western extension of Morinaga's Kyoto temple, Daishū-in, and was staffed and trained according to the Daitoku-ji sōdō pattern Morinaga had himself received from Oda Sessō[1].
+
+Daijō served as Daishu-in West's first abbot from its founding until his death in April 2018, after which the abbotship passed to his student Shaku Kōjyū[1].`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_daishuin_west",
+        pageOrSection: "Daishu-in West — history and abbatial succession: founding 1994 by Morinaga with Daijō and Jarand; first abbot Shaku Daijō (ordained 1979), succeeded by Shaku Kōjyū after Daijō's death in April 2018",
+      },
+    ],
+  },
+  {
+    slug: "shaku-kojyu",
+    content: `Shaku Kōjyū is a Rinzai Zen priest ordained in Kyoto in 2008 in the Daishū-in line of Sōkō Morinaga, and since 2018 the second abbot of **Daishu-in West** in Garberville, California[1]. He succeeded the monastery's founder-abbot **Shaku Daijō** on Daijō's death in April 2018 and now leads the residential training schedule that Morinaga and Daijō established as a Western extension of the Daishū-in sōdō[1].`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_daishuin_west",
+        pageOrSection: "Daishu-in West — current abbot Shaku Kōjyū, Kyoto ordination 2008, succession to Shaku Daijō after April 2018",
+      },
+    ],
+  },
 ];
 
 // ---------------------------------------------------------------------------
