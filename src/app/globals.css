@@ -2379,6 +2379,15 @@ a.footnote-source-link:hover {
   border-color: rgba(122, 106, 85, 0.4);
 }
 
+.practice-map-popup-image {
+  display: block;
+  width: calc(100% + 1.6rem);
+  margin: -0.85rem -0.85rem 0.6rem;
+  height: 110px;
+  object-fit: cover;
+  border-radius: 6px 6px 0 0;
+}
+
 .practice-map-popup h4 {
   /* Reserve space on the right so the maplibre close (×) button never
    * lands on top of long temple names. The ×'s hit area is ~1.6rem

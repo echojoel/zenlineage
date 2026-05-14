@@ -42,6 +42,12 @@ interface TempleFeature {
    * own. Guaranteed by the seed to be populated for every temple. */
   sourceUrl: string | null;
   sourceTitle: string | null;
+  /** Local thumbnail path under public/temples/ — usually a Wikipedia
+   *  pageimage transcoded to WebP. Null when no image is available
+   *  (most small dōjōs and centres have no Wikipedia article). */
+  imageUrl: string | null;
+  /** Alt text describing the temple in the image. */
+  imageAlt: string | null;
 }
 
 interface SchoolOption {
@@ -496,8 +502,15 @@ function renderPopupHTML(p: Record<string, unknown>): string {
     linkRow = `<p class="practice-map-popup-link"><a href="${escapeHtml(sourceUrl)}" target="_blank" rel="noopener noreferrer">${escapeHtml(label)} ↗</a></p>`;
   }
 
+  const imageUrl = typeof p.imageUrl === "string" ? p.imageUrl : null;
+  const imageAlt = typeof p.imageAlt === "string" ? p.imageAlt : (typeof p.name === "string" ? p.name : "Temple");
+  const imageBlock = imageUrl
+    ? `<img class="practice-map-popup-image" src="${escapeHtml(imageUrl)}" alt="${escapeHtml(imageAlt)}" loading="lazy" />`
+    : "";
+
   return `
     <div class="practice-map-popup">
+      ${imageBlock}
       <h4>${name}</h4>
       ${nativeName ? `<p class="practice-map-popup-native" lang="ja ko zh vi">${nativeName}</p>` : ""}
       ${location ? `<p class="practice-map-popup-meta">${location}</p>` : ""}

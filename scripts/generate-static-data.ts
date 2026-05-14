@@ -597,6 +597,23 @@ async function generateTemplesJson() {
     }
   }
 
+  // Temple portraits — Wikipedia pageimages fetched by
+  // scripts/fetch-temple-images.ts and stored as `media_assets` rows
+  // with entity_type='temple'. Only the famous head-temples have these;
+  // the popup falls back to text-only when no image is present.
+  const imageRows = await db
+    .select({
+      entityId: mediaAssets.entityId,
+      storagePath: mediaAssets.storagePath,
+      altText: mediaAssets.altText,
+    })
+    .from(mediaAssets)
+    .where(and(eq(mediaAssets.entityType, "temple"), inArray(mediaAssets.entityId, templeIds)));
+  const imageByTemple = new Map<string, { path: string; alt: string | null }>();
+  for (const r of imageRows) {
+    if (r.storagePath) imageByTemple.set(r.entityId, { path: r.storagePath, alt: r.altText });
+  }
+
   // Build lookup maps
   const englishName = new Map<string, string>();
   const nativeName = new Map<string, string>(); // any non-en locale, first wins
@@ -633,6 +650,7 @@ async function generateTemplesJson() {
     const schoolSlug = t.schoolId ? schoolSlugById.get(t.schoolId) ?? null : null;
     const schoolName = t.schoolId ? schoolNameById.get(t.schoolId) ?? null : null;
     const src = sourceByTemple.get(t.id) ?? null;
+    const img = imageByTemple.get(t.id) ?? null;
     return {
       slug: t.slug,
       name: englishName.get(t.id) ?? t.slug,
@@ -652,6 +670,8 @@ async function generateTemplesJson() {
       url: t.url ?? null,
       sourceUrl: src?.url ?? null,
       sourceTitle: src?.title ?? null,
+      imageUrl: img?.path ?? null,
+      imageAlt: img?.alt ?? null,
     };
   });
 
