@@ -284,6 +284,10 @@ interface PixiState {
   nodeContainers: Map<string, import("pixi.js").Container>;
   portraitStates: Map<string, NodePortraitState>;
   edgeGraphics: import("pixi.js").Graphics;
+  /** Overlay container for tier-D doubt glyphs. Rebuilt each redraw. */
+  doubtLayer: import("pixi.js").Container;
+  /** The Pixi module namespace, needed to construct new display objects in redraw. */
+  pixiModule: typeof import("pixi.js");
   nodes: GraphNode[];
   edges: GraphEdge[];
   positions: Map<string, { x: number; y: number }>;
@@ -373,7 +377,7 @@ export default function LineageGraph() {
     const pixi = pixiRef.current;
     if (!pixi) return;
 
-    const { nodeContainers, edgeGraphics, edges, positions } = pixi;
+    const { nodeContainers, edgeGraphics, doubtLayer, pixiModule, edges, positions } = pixi;
     const nodeById = new Map(pixi.nodes.map((node) => [node.id, node]));
     const schoolContextIds = getSchoolContextNodeIds(pixi.nodes, pixi.edges, pixi.schoolFilter);
 
@@ -409,6 +413,8 @@ export default function LineageGraph() {
     }
 
     edgeGraphics.clear();
+    // Tear down tier-D doubt glyphs from the previous frame and rebuild below.
+    doubtLayer.removeChildren();
     for (const edge of edges) {
       const src = positions.get(edge.source);
       const tgt = positions.get(edge.target);
@@ -440,8 +446,23 @@ export default function LineageGraph() {
       //   - Standard case (root teacher + shihō-giver)   → solid + dot
       //   - Deshimaru-line root teacher only             → solid, no dot
       //   - Niwa Zenji → Zeisler shihō (post-death)      → dashed + dot
-      const edgeWidth = edge.type === "primary" ? 1.5 : 0.8;
-      edgeGraphics.setStrokeStyle({ width: edgeWidth, color: edgeColor, alpha });
+
+      // Evidence tier: A = well-sourced, D = no/insufficient sources.
+      // Vary visual weight so under-sourced edges show visible doubt.
+      const tier = (edge.tier ?? "D") as "A" | "B" | "C" | "D";
+      const tierBaseWidth =
+        tier === "A" ? 1.5 :
+        tier === "B" ? 1.1 :
+        tier === "C" ? 0.9 :
+                       0.8;
+      const tierBaseAlpha =
+        tier === "A" ? 1.0 :
+        tier === "B" ? 0.9 :
+        tier === "C" ? 0.6 :
+                       0.4;
+      const edgeWidth = edge.type === "primary" ? tierBaseWidth : tierBaseWidth * 0.65;
+      const tierAlpha = alpha * tierBaseAlpha;
+      edgeGraphics.setStrokeStyle({ width: edgeWidth, color: edgeColor, alpha: tierAlpha });
 
       const isPrimary = edge.type === "primary";
       if (isPrimary) {
@@ -458,6 +479,23 @@ export default function LineageGraph() {
         drawCurvedDashed(edgeGraphics, src.x, src.y, tgt.x, tgt.y, 1.5, 4);
       }
       edgeGraphics.stroke();
+
+      // Tier-D doubt glyph: a small grey circle with a "?" at the midpoint
+      // signals this edge has no/insufficient sourcing.
+      if (tier === "D") {
+        const midX = (src.x + tgt.x) / 2;
+        const midY = (src.y + tgt.y) / 2;
+        const dot = new pixiModule.Graphics();
+        dot.circle(midX, midY, 4).fill({ color: 0xb0b0b0, alpha: 0.85 * tierBaseAlpha });
+        const question = new pixiModule.Text({
+          text: "?",
+          style: { fontFamily: "serif", fontSize: 8, fill: 0xffffff },
+        });
+        question.x = midX - question.width / 2;
+        question.y = midY - question.height / 2;
+        doubtLayer.addChild(dot);
+        doubtLayer.addChild(question);
+      }
 
       // Shihō marker — a small filled dot ~14 px short of the student
       // node, drawn in the edge color. Only when the edge explicitly
@@ -681,6 +719,12 @@ export default function LineageGraph() {
       edgeGraphics.eventMode = "none";
       stage.addChild(edgeGraphics);
 
+      // Doubt-glyph overlay — sits above edgeGraphics, below node containers.
+      // Rebuilt every redraw() call for tier-D edges.
+      const doubtLayer = new PIXI.Container();
+      doubtLayer.eventMode = "none";
+      stage.addChild(doubtLayer);
+
       // Ensure Cormorant Garamond is loaded before creating text nodes
       await document.fonts.ready;
 
@@ -890,6 +934,8 @@ export default function LineageGraph() {
         nodeContainers,
         portraitStates,
         edgeGraphics,
+        doubtLayer,
+        pixiModule: PIXI,
         nodes,
         edges,
         positions,
