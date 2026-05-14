@@ -21,6 +21,7 @@ export const SOURCE_DOMAINS: DomainEntry[] = [
   // --- institutional: traditions' own organisations ---
   { pattern: "global.sotozen-net.or.jp", class: "institutional", publisher: "Sōtōshū Shūmuchō (Soto Zen Buddhism)" },
   { pattern: "sotozen-net.or.jp", class: "institutional", publisher: "Sōtōshū Shūmuchō" },
+  { pattern: "sotozen.com", class: "institutional", publisher: "Sōtō Zen Buddhism (sotozen.com)" },
   { pattern: "whiteplum.org", class: "institutional", publisher: "White Plum Asanga" },
   { pattern: "sanboji.org", class: "institutional", publisher: "Sanbō Zen International" },
   { pattern: "sanbo-zen.org", class: "institutional", publisher: "Sanbō Zen International" },

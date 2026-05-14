@@ -9,9 +9,9 @@ reducer_notes: >
   — a reviewer must replace them with verbatim passages from the linked pages
   before this file can be promoted above tier D.
 sources:
-  - publisher: "Sōtō Zen — Sōtōshū global website (lineage and biographies)"
+  - publisher: "Sōtō Zen Buddhism (sotozen.com)"
     url: "https://www.sotozen.com/eng/"
-    domain_class: "unknown"
+    domain_class: "institutional"
     retrieved_on: "2026-05-14"
     quote: "(quote pending; imported from legacy citation — please paste verbatim passage that attests the transmission)"
 ---

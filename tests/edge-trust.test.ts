@@ -61,6 +61,17 @@ describe("computeTier", () => {
       ])
     ).toBe("B");
   });
+
+  it("collapses Wikipedia language editions to one source", () => {
+    // 0 institutional + en.wiki + ja.wiki = 1 canonical source (wikipedia.org)
+    // That's a single reference-class source → tier C, not tier B.
+    expect(
+      computeTier([
+        { publisher: "X", url: "https://en.wikipedia.org/wiki/A", domain_class: "reference", retrieved_on: "2026-01-01", quote: "qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq" },
+        { publisher: "Y", url: "https://ja.wikipedia.org/wiki/A", domain_class: "reference", retrieved_on: "2026-01-01", quote: "qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq" },
+      ])
+    ).toBe("C");
+  });
 });
 
 describe("validateEvidence", () => {

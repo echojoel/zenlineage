@@ -121,7 +121,7 @@ export function computeTier(sources: EvidenceSource[]): Tier {
   // Any sources with deny-list URLs override class to D
   if (sources.some((s) => PROMOTIONAL_DENY.some((re) => re.test(s.url)))) return "D";
 
-  const hosts = new Set(sources.map((s) => safeHost(s.url) || s.url));
+  const hosts = new Set(sources.map((s) => canonicalHost(s.url) || s.url));
   const independent = hosts.size;
 
   const counts: Record<DomainClass | "unknown", number> = {
@@ -157,6 +157,16 @@ function safeHost(url: string): string {
   } catch {
     return "";
   }
+}
+
+/** Collapse Wikipedia language editions to a single logical source.
+ *  The spec rule: "Wikipedia counts as one source max, regardless of how
+ *  many language editions cite it." e.g. en.wikipedia.org and
+ *  ja.wikipedia.org both canonicalise to "wikipedia.org". */
+function canonicalHost(url: string): string {
+  const h = safeHost(url);
+  if (/^[a-z-]+\.wikipedia\.org$/.test(h)) return "wikipedia.org";
+  return h;
 }
 
 export interface ValidationIssue {

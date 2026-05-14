@@ -59,6 +59,21 @@ function schoolColor(schoolSlug: string | null): number {
 const NON_PRIMARY_CURVATURE = 0.16;
 const BEZIER_SAMPLES = 48;
 
+// Shared TextStyle for the tier-D '?' glyph — created once per page load
+// (lazily on first redraw) so PIXI can dedup atlas glyphs across all
+// tier-D edges instead of allocating a fresh style object each time.
+let _tierDGlyphStyle: import("pixi.js").TextStyle | null = null;
+function getTierDGlyphStyle(pixiModule: typeof import("pixi.js")): import("pixi.js").TextStyle {
+  if (!_tierDGlyphStyle) {
+    _tierDGlyphStyle = new pixiModule.TextStyle({
+      fontFamily: "'Cormorant Garamond', Georgia, serif",
+      fontSize: 8,
+      fill: 0xffffff,
+    });
+  }
+  return _tierDGlyphStyle;
+}
+
 function bezierPoint(
   t: number,
   x1: number, y1: number,
@@ -429,8 +444,10 @@ export default function LineageGraph() {
 
     edgeGraphics.clear();
     // Tear down per-edge hit targets and tier-D doubt glyphs from the previous frame.
-    hitLayer.removeChildren();
-    doubtLayer.removeChildren();
+    // .destroy() frees GPU buffers (Graphics) and atlas glyphs (Text) so the
+    // time-scrubber doesn't accumulate ~448 leaked objects per redraw.
+    for (const c of hitLayer.removeChildren()) c.destroy();
+    for (const c of doubtLayer.removeChildren()) c.destroy();
     for (const edge of edges) {
       const src = positions.get(edge.source);
       const tgt = positions.get(edge.target);
@@ -546,7 +563,7 @@ export default function LineageGraph() {
         dot.circle(midX, midY, 4).fill({ color: 0xb0b0b0, alpha: 0.85 * tierBaseAlpha });
         const question = new pixiModule.Text({
           text: "?",
-          style: { fontFamily: "serif", fontSize: 8, fill: 0xffffff },
+          style: getTierDGlyphStyle(pixiModule),
         });
         question.x = midX - question.width / 2;
         question.y = midY - question.height / 2;
