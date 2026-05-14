@@ -1,12 +1,13 @@
 "use client";
 
-import { useEffect, useRef, useState, useCallback } from "react";
+import { useEffect, useRef, useState, useCallback, useMemo } from "react";
 import * as d3 from "d3";
 import Link from "next/link";
 import { useSearchParams } from "next/navigation";
 import type { GraphData, GraphNode, GraphEdge, GraphSchool } from "@/lib/graph-types";
 import { getSchoolContextNodeIds } from "@/lib/lineage-visibility";
 import { formatDateWithPrecision } from "@/lib/date-format";
+import EdgeProvenancePanel from "@/components/lineage/EdgeProvenancePanel";
 
 // ---------------------------------------------------------------------------
 // School colour palette (keyed by partial slug match)
@@ -284,6 +285,8 @@ interface PixiState {
   nodeContainers: Map<string, import("pixi.js").Container>;
   portraitStates: Map<string, NodePortraitState>;
   edgeGraphics: import("pixi.js").Graphics;
+  /** Invisible per-edge hit-target Graphics, rebuilt each redraw, for edge click. */
+  hitLayer: import("pixi.js").Container;
   /** Overlay container for tier-D doubt glyphs. Rebuilt each redraw. */
   doubtLayer: import("pixi.js").Container;
   /** The Pixi module namespace, needed to construct new display objects in redraw. */
@@ -354,12 +357,24 @@ export default function LineageGraph() {
   const [schoolList, setSchoolList] = useState<GraphSchool[]>([]);
   const [status, setStatus] = useState<"loading" | "ready" | "error">("loading");
   const [legendOpen, setLegendOpen] = useState(true);
+  const [selectedEdge, setSelectedEdge] = useState<GraphEdge | null>(null);
+  // Tracks graph nodes so the edge panel can resolve teacher/student names.
+  const [graphNodes, setGraphNodes] = useState<GraphNode[]>([]);
   const viewMode: ViewMode = "image";
+
+  // nodeById is used by EdgeProvenancePanel to resolve source/target names.
+  const nodeById = useMemo(
+    () => new Map(graphNodes.map((n) => [n.id, n])),
+    [graphNodes]
+  );
 
   const pixiRef = useRef<PixiState | null>(null);
   const fuseRef = useRef<import("fuse.js").default<GraphNode> | null>(null);
   const zoomRef = useRef<d3.ZoomBehavior<HTMLCanvasElement, unknown> | null>(null);
   const sidebarRef = useRef<HTMLElement | null>(null);
+  // Stable ref so the redraw callback (empty deps) can set selectedEdge.
+  const setSelectedEdgeRef = useRef<((e: GraphEdge | null) => void) | null>(null);
+  setSelectedEdgeRef.current = setSelectedEdge;
   // Set by node pointerdown handlers so the document-level outside-tap
   // listener can distinguish "tapped a node" from "tapped empty canvas".
   const nodeJustClickedRef = useRef(false);
@@ -377,7 +392,7 @@ export default function LineageGraph() {
     const pixi = pixiRef.current;
     if (!pixi) return;
 
-    const { nodeContainers, edgeGraphics, doubtLayer, pixiModule, edges, positions } = pixi;
+    const { nodeContainers, edgeGraphics, hitLayer, doubtLayer, pixiModule, edges, positions } = pixi;
     const nodeById = new Map(pixi.nodes.map((node) => [node.id, node]));
     const schoolContextIds = getSchoolContextNodeIds(pixi.nodes, pixi.edges, pixi.schoolFilter);
 
@@ -413,7 +428,8 @@ export default function LineageGraph() {
     }
 
     edgeGraphics.clear();
-    // Tear down tier-D doubt glyphs from the previous frame and rebuild below.
+    // Tear down per-edge hit targets and tier-D doubt glyphs from the previous frame.
+    hitLayer.removeChildren();
     doubtLayer.removeChildren();
     for (const edge of edges) {
       const src = positions.get(edge.source);
@@ -479,6 +495,47 @@ export default function LineageGraph() {
         drawCurvedDashed(edgeGraphics, src.x, src.y, tgt.x, tgt.y, 1.5, 4);
       }
       edgeGraphics.stroke();
+
+      // Per-edge invisible hit-target: a thick (6px) transparent line that
+      // receives pointer events so the user can click on any transmission.
+      // edgeGraphics is a single shared Graphics instance and cannot carry
+      // per-edge listeners, so each edge gets its own Graphics for hit-testing.
+      {
+        const setEdge = setSelectedEdgeRef.current;
+        if (setEdge) {
+          const hit = new pixiModule.Graphics();
+          hit.eventMode = "static";
+          hit.cursor = "pointer";
+          hit.setStrokeStyle({ width: 6, color: 0xffffff, alpha: 0 });
+          if (isPrimary) {
+            hit.moveTo(src.x, src.y);
+            hit.lineTo(tgt.x, tgt.y);
+          } else {
+            // Use the same control-point helper so the hit area follows the
+            // visible bezier curve rather than covering a straight chord.
+            const ctrl = curvedControlPoint(src.x, src.y, tgt.x, tgt.y, NON_PRIMARY_CURVATURE);
+            if (ctrl) {
+              // Approximate bezier with BEZIER_SAMPLES line segments so the
+              // thick hit-region tracks the visible curved line precisely.
+              let prev: [number, number] = [src.x, src.y];
+              for (let si = 1; si <= BEZIER_SAMPLES; si++) {
+                const t = si / BEZIER_SAMPLES;
+                const next = bezierPoint(t, src.x, src.y, ctrl.cx, ctrl.cy, tgt.x, tgt.y);
+                hit.moveTo(prev[0], prev[1]);
+                hit.lineTo(next[0], next[1]);
+                prev = next;
+              }
+            } else {
+              hit.moveTo(src.x, src.y);
+              hit.lineTo(tgt.x, tgt.y);
+            }
+          }
+          hit.stroke();
+          const capturedEdge = edge;
+          hit.on("pointertap", () => setEdge(capturedEdge));
+          hitLayer.addChild(hit);
+        }
+      }
 
       // Tier-D doubt glyph: a small grey circle with a "?" at the midpoint
       // signals this edge has no/insufficient sourcing.
@@ -557,6 +614,7 @@ export default function LineageGraph() {
 
       const { nodes, edges, schools } = data;
       setSchoolList(schools.sort((a, b) => a.name.localeCompare(b.name)));
+      setGraphNodes(nodes);
 
       const schoolBySlug = new Map(schools.map((school) => [school.slug, school]));
       if (initialSchoolSlug) {
@@ -718,6 +776,14 @@ export default function LineageGraph() {
       const edgeGraphics = new PIXI.Graphics();
       edgeGraphics.eventMode = "none";
       stage.addChild(edgeGraphics);
+
+      // Hit-target layer — invisible thick lines, one Graphics per edge,
+      // rebuilt every redraw(). This layer is above edgeGraphics but below
+      // doubt glyphs and node containers so clicks on edge hit-areas are
+      // not masked by node containers.
+      const hitLayer = new PIXI.Container();
+      hitLayer.eventMode = "static";
+      stage.addChild(hitLayer);
 
       // Doubt-glyph overlay — sits above edgeGraphics, below node containers.
       // Rebuilt every redraw() call for tier-D edges.
@@ -934,6 +1000,7 @@ export default function LineageGraph() {
         nodeContainers,
         portraitStates,
         edgeGraphics,
+        hitLayer,
         doubtLayer,
         pixiModule: PIXI,
         nodes,
@@ -1463,6 +1530,16 @@ export default function LineageGraph() {
             )}
           </div>
         </aside>
+      )}
+
+      {/* Edge provenance panel — shown when the user taps a transmission edge */}
+      {selectedEdge && (
+        <EdgeProvenancePanel
+          edge={selectedEdge}
+          teacher={nodeById.get(selectedEdge.source)}
+          student={nodeById.get(selectedEdge.target)}
+          onClose={() => setSelectedEdge(null)}
+        />
       )}
     </div>
   );
