@@ -77,7 +77,7 @@ const SCHOOL_PORTRAITS: PortraitMapping[] = [
   { schoolSlug: "qingyuan-line", masterSlug: "qingyuan-xingsi", rationale: "Head of the Qingyuan line" },
   { schoolSlug: "chan", masterSlug: "dajian-huineng", rationale: "Sixth Patriarch — face of mature Chan" },
   { schoolSlug: "early-chan", masterSlug: "puti-damo", rationale: "Bodhidharma — first Chinese patriarch" },
-  { schoolSlug: "indian-patriarchs", masterSlug: "puti-damo", rationale: "Bodhidharma — last Indian patriarch / first Chinese" },
+  { schoolSlug: "indian-patriarchs", masterSlug: "mahakashyapa", rationale: "Mahākāśyapa — first Indian patriarch, flower-sermon successor to Śākyamuni" },
   // Korean Seon
   { schoolSlug: "jogye", masterSlug: "jinul", rationale: "Pojo Jinul — restorer of Korean Seon" },
   { schoolSlug: "seon", masterSlug: "jinul", rationale: "Pojo Jinul — paradigmatic Seon master" },
