@@ -35,6 +35,7 @@
     "audit:transmissions": "DATABASE_URL=file:zen.db tsx scripts/audit-transmissions.ts",
     "audit:soto": "DATABASE_URL=file:zen.db tsx scripts/audit-soto-lineage.ts",
     "seed:evidence": "DATABASE_URL=file:zen.db tsx scripts/seed-transmission-evidence.ts",
+    "import:legacy-citations": "DATABASE_URL=file:zen.db tsx scripts/import-existing-citations-to-evidence.ts",
     "seed:temples": "DATABASE_URL=file:zen.db tsx scripts/seed-temples.ts",
     "seed:practices": "DATABASE_URL=file:zen.db tsx scripts/seed-school-practices.ts",
     "db:generate": "drizzle-kit generate",
