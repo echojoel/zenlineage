@@ -14,6 +14,8 @@ import {
   masterNames,
   masterTemples,
   masterTransmissions,
+  transmissionEvidence,
+  transmissionSources,
   mediaAssets,
   schools,
   schoolNames,
@@ -144,6 +146,39 @@ async function generateGraphData() {
       .from(mediaAssets)
       .where(eq(mediaAssets.entityType, "master")),
   ]);
+
+  const evidenceRows = await db
+    .select({
+      transmissionId: transmissionEvidence.transmissionId,
+      id: transmissionEvidence.id,
+      tier: transmissionEvidence.tier,
+    })
+    .from(transmissionEvidence);
+  const sourceRows = await db
+    .select({
+      evidenceId: transmissionSources.evidenceId,
+      publisher: transmissionSources.publisher,
+      url: transmissionSources.url,
+      domainClass: transmissionSources.domainClass,
+      quote: transmissionSources.quote,
+      retrievedOn: transmissionSources.retrievedOn,
+      sortOrder: transmissionSources.sortOrder,
+    })
+    .from(transmissionSources);
+  const sourcesByEvidence = new Map<string, typeof sourceRows>();
+  for (const s of sourceRows) {
+    const arr = sourcesByEvidence.get(s.evidenceId) ?? [];
+    arr.push(s);
+    sourcesByEvidence.set(s.evidenceId, arr);
+  }
+  const tierByTxId = new Map(evidenceRows.map((e) => [e.transmissionId, e.tier]));
+  const sourcesByTxId = new Map<string, typeof sourceRows>();
+  for (const e of evidenceRows) {
+    sourcesByTxId.set(e.transmissionId, sourcesByEvidence.get(e.id) ?? []);
+  }
+  const DOMAIN_ORDER: Record<string, number> = {
+    institutional: 0, academic: 1, sangha: 2, reference: 3, community: 4, unknown: 5, promotional: 6,
+  };
 
   const [biographyCitationRows, mediaCitationRows] = await Promise.all([
     bioRows.length > 0
@@ -285,6 +320,17 @@ async function generateGraphData() {
       type: t.type,
       isPrimary,
       shihoConferred,
+      tier: (tierByTxId.get(t.id) ?? "D") as "A" | "B" | "C" | "D",
+      sources: (sourcesByTxId.get(t.id) ?? [])
+        .slice()
+        .sort((a, b) => (DOMAIN_ORDER[a.domainClass] - DOMAIN_ORDER[b.domainClass]) || (a.sortOrder - b.sortOrder))
+        .map((s) => ({
+          publisher: s.publisher,
+          url: s.url,
+          domainClass: s.domainClass,
+          quote: s.quote,
+          retrievedOn: s.retrievedOn,
+        })),
     };
   });
 

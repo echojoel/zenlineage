@@ -22,6 +22,16 @@ export interface GraphNode {
   imageAttribution?: string | null;
 }
 
+export type EdgeTier = "A" | "B" | "C" | "D";
+
+export interface EdgeSource {
+  publisher: string;
+  url: string;
+  domainClass: string;
+  quote: string;
+  retrievedOn: string;
+}
+
 export interface GraphEdge {
   id: string;
   source: string;
@@ -37,6 +47,10 @@ export interface GraphEdge {
    *  shihoConferred false; the Niwa → Zeisler case (shihō but not
    *  the root teacher) has isPrimary false and shihoConferred true. */
   shihoConferred?: boolean;
+  /** Tier from transmission_evidence. "D" means no/insufficient sources. */
+  tier: EdgeTier;
+  /** Quotable sources, ordered institutional → academic → sangha → reference → community → unknown. */
+  sources: EdgeSource[];
 }
 
 export interface GraphSchool {
