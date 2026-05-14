@@ -548,7 +548,7 @@
   {
     "name": "Nanyue Huairang",
     "names_cjk": "",
-    "dates": "",
+    "dates": "677-744",
     "teachers": [
       {
         "name": "Dajian Huineng",
@@ -580,7 +580,8 @@
     "teachers": [
       {
         "name": "Nanyue Huairang",
-        "edge_type": "primary"
+        "edge_type": "primary",
+        "dates": "677-744"
       }
     ],
     "school": "",
@@ -800,7 +801,7 @@
   {
     "name": "Xitang Zhizang",
     "names_cjk": "",
-    "dates": "",
+    "dates": "735-814",
     "teachers": [
       {
         "name": "Mazu Daoyi",
@@ -814,7 +815,7 @@
   {
     "name": "Yanguan Qian",
     "names_cjk": "",
-    "dates": "",
+    "dates": "c. 750-842",
     "teachers": [
       {
         "name": "Mazu Daoyi",
@@ -912,7 +913,7 @@
   {
     "name": "Yuquan Shenxiu",
     "names_cjk": "",
-    "dates": "",
+    "dates": "c. 606-706",
     "teachers": [
       {
         "name": "Daman Hongren",
@@ -926,7 +927,7 @@
   {
     "name": "Songshan Puji",
     "names_cjk": "",
-    "dates": "",
+    "dates": "651-739",
     "teachers": [
       {
         "name": "Yuquan Shenxiu",
@@ -944,7 +945,8 @@
     "teachers": [
       {
         "name": "Yuquan Shenxiu",
-        "edge_type": "disputed"
+        "edge_type": "disputed",
+        "dates": "c. 606-706"
       }
     ],
     "school": "",
@@ -1010,7 +1012,7 @@
   {
     "name": "Heze Shenhui",
     "names_cjk": "",
-    "dates": "",
+    "dates": "684-758",
     "teachers": [
       {
         "name": "Dajian Huineng",
@@ -1304,7 +1306,7 @@
   {
     "name": "Nanyuan Huiyong",
     "names_cjk": "",
-    "dates": "",
+    "dates": "d. 930",
     "teachers": [
       {
         "name": "Xinghua Cunjiang",
@@ -1322,7 +1324,8 @@
     "teachers": [
       {
         "name": "Nanyuan Huiyong",
-        "edge_type": "primary"
+        "edge_type": "primary",
+        "dates": "d. 930"
       }
     ],
     "school": "",
@@ -1374,7 +1377,7 @@
   {
     "name": "Yangqi Fanghui",
     "names_cjk": "",
-    "dates": "",
+    "dates": "992-1049",
     "teachers": [
       {
         "name": "Shishuang Chuyuan",
@@ -1476,7 +1479,8 @@
     "teachers": [
       {
         "name": "Yangqi Fanghui",
-        "edge_type": "primary"
+        "edge_type": "primary",
+        "dates": "992-1049"
       }
     ],
     "school": "",
@@ -1486,7 +1490,7 @@
   {
     "name": "Wuzu Fayan",
     "names_cjk": "",
-    "dates": "",
+    "dates": "c. 1024-1104",
     "teachers": [
       {
         "name": "Baiyun Shouduan",
@@ -1504,7 +1508,8 @@
     "teachers": [
       {
         "name": "Wuzu Fayan",
-        "edge_type": "primary"
+        "edge_type": "primary",
+        "dates": "c. 1024-1104"
       }
     ],
     "school": "",
@@ -1514,7 +1519,7 @@
   {
     "name": "Yuanwu Keqin",
     "names_cjk": "",
-    "dates": "",
+    "dates": "1063-1135",
     "teachers": [
       {
         "name": "Wuzu Fayan",
@@ -1528,7 +1533,7 @@
   {
     "name": "Dahui Zonggao",
     "names_cjk": "",
-    "dates": "",
+    "dates": "1089-1163",
     "teachers": [
       {
         "name": "Yuanwu Keqin",
@@ -1546,7 +1551,8 @@
     "teachers": [
       {
         "name": "Dahui Zonggao",
-        "edge_type": "primary"
+        "edge_type": "primary",
+        "dates": "1089-1163"
       }
     ],
     "school": "",
@@ -1556,7 +1562,7 @@
   {
     "name": "Poan Zuxian",
     "names_cjk": "",
-    "dates": "",
+    "dates": "1136-1211",
     "teachers": [
       {
         "name": "Zhuan Shigui",
@@ -1570,7 +1576,7 @@
   {
     "name": "Wuzhun Shifan",
     "names_cjk": "",
-    "dates": "",
+    "dates": "1178-1249",
     "teachers": [
       {
         "name": "Poan Zuxian",
@@ -1588,7 +1594,8 @@
     "teachers": [
       {
         "name": "Wuzhun Shifan",
-        "edge_type": "primary"
+        "edge_type": "primary",
+        "dates": "1178-1249"
       }
     ],
     "school": "",
@@ -1598,7 +1605,7 @@
   {
     "name": "Wumen Huikai",
     "names_cjk": "",
-    "dates": "",
+    "dates": "1183-1260",
     "teachers": [
       {
         "name": "Yuelin Shiguan",
@@ -1752,7 +1759,7 @@
   {
     "name": "Changlu Qingliao",
     "names_cjk": "",
-    "dates": "",
+    "dates": "1089-1151",
     "teachers": [
       {
         "name": "Danxia Zichun",
@@ -1770,7 +1777,8 @@
     "teachers": [
       {
         "name": "Changlu Qingliao",
-        "edge_type": "primary"
+        "edge_type": "primary",
+        "dates": "1089-1151"
       }
     ],
     "school": "",
@@ -1794,7 +1802,7 @@
   {
     "name": "Tiantong Rujing",
     "names_cjk": "",
-    "dates": "",
+    "dates": "1163-1228",
     "teachers": [
       {
         "name": "Xuedou Zhijian",
@@ -1808,7 +1816,7 @@
   {
     "name": "Hongzhi Zhengjue",
     "names_cjk": "",
-    "dates": "",
+    "dates": "1091-1157",
     "teachers": [
       {
         "name": "Kumu Daocheng",
@@ -1822,8 +1830,13 @@
   {
     "name": "Muzhou Daoming",
     "names_cjk": "",
-    "dates": "",
-    "teachers": [{"name": "Huangbo Xiyun", "edge_type": "primary"}],
+    "dates": "780-877",
+    "teachers": [
+      {
+        "name": "Huangbo Xiyun",
+        "edge_type": "primary"
+      }
+    ],
     "school": "",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -1832,7 +1845,12 @@
     "name": "Zhangjing Huaiyun",
     "names_cjk": "",
     "dates": "",
-    "teachers": [{"name": "Mazu Daoyi", "edge_type": "primary"}],
+    "teachers": [
+      {
+        "name": "Mazu Daoyi",
+        "edge_type": "primary"
+      }
+    ],
     "school": "",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -1841,7 +1859,12 @@
     "name": "Lingyun Zhiqin",
     "names_cjk": "",
     "dates": "",
-    "teachers": [{"name": "Guishan Lingyou", "edge_type": "primary"}],
+    "teachers": [
+      {
+        "name": "Guishan Lingyou",
+        "edge_type": "primary"
+      }
+    ],
     "school": "",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -1850,7 +1873,12 @@
     "name": "Baoshou Yanzhao",
     "names_cjk": "",
     "dates": "",
-    "teachers": [{"name": "Linji Yixuan", "edge_type": "primary"}],
+    "teachers": [
+      {
+        "name": "Linji Yixuan",
+        "edge_type": "primary"
+      }
+    ],
     "school": "",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -1859,7 +1887,12 @@
     "name": "Changsha Jingcen",
     "names_cjk": "",
     "dates": "",
-    "teachers": [{"name": "Nanquan Puyuan", "edge_type": "primary"}],
+    "teachers": [
+      {
+        "name": "Nanquan Puyuan",
+        "edge_type": "primary"
+      }
+    ],
     "school": "",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -1868,7 +1901,12 @@
     "name": "Dayu Shouzhi",
     "names_cjk": "",
     "dates": "",
-    "teachers": [{"name": "Guishan Lingyou", "edge_type": "primary"}],
+    "teachers": [
+      {
+        "name": "Guishan Lingyou",
+        "edge_type": "primary"
+      }
+    ],
     "school": "",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -1877,7 +1915,12 @@
     "name": "Qinglin Shiqian",
     "names_cjk": "",
     "dates": "",
-    "teachers": [{"name": "Zhaozhou Congshen", "edge_type": "primary"}],
+    "teachers": [
+      {
+        "name": "Zhaozhou Congshen",
+        "edge_type": "primary"
+      }
+    ],
     "school": "",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -1886,7 +1929,12 @@
     "name": "Jingqing Daofu",
     "names_cjk": "",
     "dates": "",
-    "teachers": [{"name": "Xuefeng Yicun", "edge_type": "primary"}],
+    "teachers": [
+      {
+        "name": "Xuefeng Yicun",
+        "edge_type": "primary"
+      }
+    ],
     "school": "",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -1895,7 +1943,12 @@
     "name": "Yanyang Shanxin",
     "names_cjk": "",
     "dates": "",
-    "teachers": [{"name": "Zhaozhou Congshen", "edge_type": "primary"}],
+    "teachers": [
+      {
+        "name": "Zhaozhou Congshen",
+        "edge_type": "primary"
+      }
+    ],
     "school": "",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -1904,7 +1957,12 @@
     "name": "Baoen Xuanze",
     "names_cjk": "",
     "dates": "",
-    "teachers": [{"name": "Yunmen Wenyan", "edge_type": "primary"}],
+    "teachers": [
+      {
+        "name": "Yunmen Wenyan",
+        "edge_type": "primary"
+      }
+    ],
     "school": "",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -1913,7 +1971,12 @@
     "name": "Luoshan Daoxian",
     "names_cjk": "",
     "dates": "",
-    "teachers": [{"name": "Xuefeng Yicun", "edge_type": "primary"}],
+    "teachers": [
+      {
+        "name": "Xuefeng Yicun",
+        "edge_type": "primary"
+      }
+    ],
     "school": "",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -1922,7 +1985,12 @@
     "name": "Mingzhao Deqian",
     "names_cjk": "",
     "dates": "",
-    "teachers": [{"name": "Xuefeng Yicun", "edge_type": "primary"}],
+    "teachers": [
+      {
+        "name": "Xuefeng Yicun",
+        "edge_type": "primary"
+      }
+    ],
     "school": "",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -1931,7 +1999,12 @@
     "name": "Qingxi Hongjin",
     "names_cjk": "",
     "dates": "",
-    "teachers": [{"name": "Xuefeng Yicun", "edge_type": "primary"}],
+    "teachers": [
+      {
+        "name": "Xuefeng Yicun",
+        "edge_type": "primary"
+      }
+    ],
     "school": "",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -1940,7 +2013,12 @@
     "name": "Tianping Congyi",
     "names_cjk": "",
     "dates": "",
-    "teachers": [{"name": "Luoshan Daoxian", "edge_type": "primary"}],
+    "teachers": [
+      {
+        "name": "Luoshan Daoxian",
+        "edge_type": "primary"
+      }
+    ],
     "school": "",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -1949,7 +2027,12 @@
     "name": "Qinshan Wensui",
     "names_cjk": "",
     "dates": "",
-    "teachers": [{"name": "Dongshan Liangjie", "edge_type": "primary"}],
+    "teachers": [
+      {
+        "name": "Dongshan Liangjie",
+        "edge_type": "primary"
+      }
+    ],
     "school": "",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -1958,7 +2041,12 @@
     "name": "Shushan Kuangren",
     "names_cjk": "",
     "dates": "",
-    "teachers": [{"name": "Dongshan Liangjie", "edge_type": "primary"}],
+    "teachers": [
+      {
+        "name": "Dongshan Liangjie",
+        "edge_type": "primary"
+      }
+    ],
     "school": "",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -1967,7 +2055,12 @@
     "name": "Nanta Guangyong",
     "names_cjk": "",
     "dates": "",
-    "teachers": [{"name": "Shishuang Qingzhu", "edge_type": "primary"}],
+    "teachers": [
+      {
+        "name": "Shishuang Qingzhu",
+        "edge_type": "primary"
+      }
+    ],
     "school": "",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -1976,7 +2069,12 @@
     "name": "Jingzhao Mihu",
     "names_cjk": "",
     "dates": "",
-    "teachers": [{"name": "Yangshan Huiji", "edge_type": "primary"}],
+    "teachers": [
+      {
+        "name": "Yangshan Huiji",
+        "edge_type": "primary"
+      }
+    ],
     "school": "",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -1985,7 +2083,12 @@
     "name": "Guannan Daochang",
     "names_cjk": "",
     "dates": "",
-    "teachers": [{"name": "Shitou Xiqian", "edge_type": "primary"}],
+    "teachers": [
+      {
+        "name": "Shitou Xiqian",
+        "edge_type": "primary"
+      }
+    ],
     "school": "",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -1994,7 +2097,12 @@
     "name": "Xingyang Qingrang",
     "names_cjk": "",
     "dates": "",
-    "teachers": [{"name": "Guishan Lingyou", "edge_type": "primary"}],
+    "teachers": [
+      {
+        "name": "Guishan Lingyou",
+        "edge_type": "primary"
+      }
+    ],
     "school": "",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -2003,7 +2111,13 @@
     "name": "Wufeng Changguan",
     "names_cjk": "",
     "dates": "",
-    "teachers": [{"name": "Xitang Zhizang", "edge_type": "primary"}],
+    "teachers": [
+      {
+        "name": "Xitang Zhizang",
+        "edge_type": "primary",
+        "dates": "735-814"
+      }
+    ],
     "school": "",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -2012,7 +2126,12 @@
     "name": "Xiyuan Siming",
     "names_cjk": "",
     "dates": "",
-    "teachers": [{"name": "Baoshou Yanzhao", "edge_type": "primary"}],
+    "teachers": [
+      {
+        "name": "Baoshou Yanzhao",
+        "edge_type": "primary"
+      }
+    ],
     "school": "",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -2021,7 +2140,12 @@
     "name": "Huguo Shoucheng",
     "names_cjk": "",
     "dates": "",
-    "teachers": [{"name": "Xiangyan Zhixian", "edge_type": "primary"}],
+    "teachers": [
+      {
+        "name": "Xiangyan Zhixian",
+        "edge_type": "primary"
+      }
+    ],
     "school": "",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -2030,7 +2154,12 @@
     "name": "Baofeng Weizhao",
     "names_cjk": "",
     "dates": "",
-    "teachers": [{"name": "Xiangyan Zhixian", "edge_type": "primary"}],
+    "teachers": [
+      {
+        "name": "Xiangyan Zhixian",
+        "edge_type": "primary"
+      }
+    ],
     "school": "",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -2039,7 +2168,13 @@
     "name": "Kaifu Daoning",
     "names_cjk": "",
     "dates": "",
-    "teachers": [{"name": "Wuzu Fayan", "edge_type": "primary"}],
+    "teachers": [
+      {
+        "name": "Wuzu Fayan",
+        "edge_type": "primary",
+        "dates": "c. 1024-1104"
+      }
+    ],
     "school": "",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -2048,7 +2183,13 @@
     "name": "Yuean Shanguo",
     "names_cjk": "",
     "dates": "",
-    "teachers": [{"name": "Yuanwu Keqin", "edge_type": "primary"}],
+    "teachers": [
+      {
+        "name": "Yuanwu Keqin",
+        "edge_type": "primary",
+        "dates": "1063-1135"
+      }
+    ],
     "school": "",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -2057,7 +2198,12 @@
     "name": "Dahong Zuzheng",
     "names_cjk": "",
     "dates": "",
-    "teachers": [{"name": "Huanglong Huinan", "edge_type": "primary"}],
+    "teachers": [
+      {
+        "name": "Huanglong Huinan",
+        "edge_type": "primary"
+      }
+    ],
     "school": "",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -2066,7 +2212,12 @@
     "name": "Langye Huijue",
     "names_cjk": "",
     "dates": "",
-    "teachers": [{"name": "Shishuang Chuyuan", "edge_type": "primary"}],
+    "teachers": [
+      {
+        "name": "Shishuang Chuyuan",
+        "edge_type": "primary"
+      }
+    ],
     "school": "",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -2075,7 +2226,12 @@
     "name": "Cuiyan Kezhen",
     "names_cjk": "",
     "dates": "",
-    "teachers": [{"name": "Shishuang Chuyuan", "edge_type": "primary"}],
+    "teachers": [
+      {
+        "name": "Shishuang Chuyuan",
+        "edge_type": "primary"
+      }
+    ],
     "school": "",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -2084,7 +2240,12 @@
     "name": "Baoning Renyong",
     "names_cjk": "",
     "dates": "",
-    "teachers": [{"name": "Cuiyan Kezhen", "edge_type": "primary"}],
+    "teachers": [
+      {
+        "name": "Cuiyan Kezhen",
+        "edge_type": "primary"
+      }
+    ],
     "school": "",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -2093,7 +2254,12 @@
     "name": "Xita Guangmu",
     "names_cjk": "",
     "dates": "",
-    "teachers": [{"name": "Linji Yixuan", "edge_type": "primary"}],
+    "teachers": [
+      {
+        "name": "Linji Yixuan",
+        "edge_type": "primary"
+      }
+    ],
     "school": "",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -2102,7 +2268,12 @@
     "name": "Zifu Rubao",
     "names_cjk": "",
     "dates": "",
-    "teachers": [{"name": "Xita Guangmu", "edge_type": "primary"}],
+    "teachers": [
+      {
+        "name": "Xita Guangmu",
+        "edge_type": "primary"
+      }
+    ],
     "school": "",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -2111,7 +2282,12 @@
     "name": "Xingyang Qingpou",
     "names_cjk": "",
     "dates": "",
-    "teachers": [{"name": "Xianglin Chengyuan", "edge_type": "primary"}],
+    "teachers": [
+      {
+        "name": "Xianglin Chengyuan",
+        "edge_type": "primary"
+      }
+    ],
     "school": "",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -2120,7 +2296,12 @@
     "name": "Cizhou Faru",
     "names_cjk": "",
     "dates": "",
-    "teachers": [{"name": "Daman Hongren", "edge_type": "primary"}],
+    "teachers": [
+      {
+        "name": "Daman Hongren",
+        "edge_type": "primary"
+      }
+    ],
     "school": "",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -2129,7 +2310,12 @@
     "name": "Taiyuan Fu",
     "names_cjk": "",
     "dates": "",
-    "teachers": [{"name": "Shushan Kuangren", "edge_type": "primary"}],
+    "teachers": [
+      {
+        "name": "Shushan Kuangren",
+        "edge_type": "primary"
+      }
+    ],
     "school": "",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -2138,7 +2324,12 @@
     "name": "Changshui Zixuan",
     "names_cjk": "",
     "dates": "",
-    "teachers": [{"name": "Langye Huijue", "edge_type": "primary"}],
+    "teachers": [
+      {
+        "name": "Langye Huijue",
+        "edge_type": "primary"
+      }
+    ],
     "school": "",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -2147,7 +2338,12 @@
     "name": "Dagui Muzhe",
     "names_cjk": "",
     "dates": "",
-    "teachers": [{"name": "Furong Daokai", "edge_type": "primary"}],
+    "teachers": [
+      {
+        "name": "Furong Daokai",
+        "edge_type": "primary"
+      }
+    ],
     "school": "",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -2156,7 +2352,12 @@
     "name": "Bajiao Huiqing",
     "names_cjk": "",
     "dates": "",
-    "teachers": [{"name": "Nanta Guangyong", "edge_type": "primary"}],
+    "teachers": [
+      {
+        "name": "Nanta Guangyong",
+        "edge_type": "primary"
+      }
+    ],
     "school": "",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -2165,7 +2366,12 @@
     "name": "Shexian Guixing",
     "names_cjk": "",
     "dates": "",
-    "teachers": [{"name": "Fushan Fayuan", "edge_type": "primary"}],
+    "teachers": [
+      {
+        "name": "Fushan Fayuan",
+        "edge_type": "primary"
+      }
+    ],
     "school": "",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -2174,7 +2380,12 @@
     "name": "Deshan Yuanmi",
     "names_cjk": "",
     "dates": "",
-    "teachers": [{"name": "Dongshan Shouchu", "edge_type": "primary"}],
+    "teachers": [
+      {
+        "name": "Dongshan Shouchu",
+        "edge_type": "primary"
+      }
+    ],
     "school": "",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -2183,7 +2394,12 @@
     "name": "Guizong Cezhen",
     "names_cjk": "",
     "dates": "",
-    "teachers": [{"name": "Fayan Wenyi", "edge_type": "primary"}],
+    "teachers": [
+      {
+        "name": "Fayan Wenyi",
+        "edge_type": "primary"
+      }
+    ],
     "school": "",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -2192,7 +2408,12 @@
     "name": "Wang Yanbin",
     "names_cjk": "",
     "dates": "",
-    "teachers": [{"name": "Changqing Huileng", "edge_type": "primary"}],
+    "teachers": [
+      {
+        "name": "Changqing Huileng",
+        "edge_type": "primary"
+      }
+    ],
     "school": "",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -2201,7 +2422,12 @@
     "name": "Daguang Juhui",
     "names_cjk": "",
     "dates": "",
-    "teachers": [{"name": "Touzi Datong", "edge_type": "primary"}],
+    "teachers": [
+      {
+        "name": "Touzi Datong",
+        "edge_type": "primary"
+      }
+    ],
     "school": "",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -2210,7 +2436,12 @@
     "name": "Danxia Tianran",
     "names_cjk": "",
     "dates": "",
-    "teachers": [{"name": "Shitou Xiqian", "edge_type": "primary"}],
+    "teachers": [
+      {
+        "name": "Shitou Xiqian",
+        "edge_type": "primary"
+      }
+    ],
     "school": "",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -2219,7 +2450,12 @@
     "name": "Cuiwei Wuxue",
     "names_cjk": "",
     "dates": "",
-    "teachers": [{"name": "Danxia Tianran", "edge_type": "primary"}],
+    "teachers": [
+      {
+        "name": "Danxia Tianran",
+        "edge_type": "primary"
+      }
+    ],
     "school": "",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -2228,7 +2464,12 @@
     "name": "Touzi Datong",
     "names_cjk": "",
     "dates": "",
-    "teachers": [{"name": "Cuiwei Wuxue", "edge_type": "primary"}],
+    "teachers": [
+      {
+        "name": "Cuiwei Wuxue",
+        "edge_type": "primary"
+      }
+    ],
     "school": "",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -2237,7 +2478,12 @@
     "name": "Gaoan Dayu",
     "names_cjk": "",
     "dates": "",
-    "teachers": [{"name": "Deshan Xuanjian", "edge_type": "primary"}],
+    "teachers": [
+      {
+        "name": "Deshan Xuanjian",
+        "edge_type": "primary"
+      }
+    ],
     "school": "",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -2246,7 +2492,12 @@
     "name": "Jiufeng Qin",
     "names_cjk": "",
     "dates": "",
-    "teachers": [{"name": "Yunmen Wenyan", "edge_type": "primary"}],
+    "teachers": [
+      {
+        "name": "Yunmen Wenyan",
+        "edge_type": "primary"
+      }
+    ],
     "school": "",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -2255,7 +2506,12 @@
     "name": "Yuantong Fashen",
     "names_cjk": "",
     "dates": "",
-    "teachers": [{"name": "Fushan Fayuan", "edge_type": "primary"}],
+    "teachers": [
+      {
+        "name": "Fushan Fayuan",
+        "edge_type": "primary"
+      }
+    ],
     "school": "",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -2264,7 +2520,12 @@
     "name": "Longya Judun",
     "names_cjk": "",
     "dates": "",
-    "teachers": [{"name": "Dongshan Liangjie", "edge_type": "primary"}],
+    "teachers": [
+      {
+        "name": "Dongshan Liangjie",
+        "edge_type": "primary"
+      }
+    ],
     "school": "",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -2273,7 +2534,12 @@
     "name": "Moshan Liaoran",
     "names_cjk": "",
     "dates": "",
-    "teachers": [{"name": "Gaoan Dayu", "edge_type": "primary"}],
+    "teachers": [
+      {
+        "name": "Gaoan Dayu",
+        "edge_type": "primary"
+      }
+    ],
     "school": "",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -2282,7 +2548,12 @@
     "name": "Sansheng Huiran",
     "names_cjk": "",
     "dates": "",
-    "teachers": [{"name": "Linji Yixuan", "edge_type": "primary"}],
+    "teachers": [
+      {
+        "name": "Linji Yixuan",
+        "edge_type": "primary"
+      }
+    ],
     "school": "",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -2291,7 +2562,12 @@
     "name": "Sixin Wuxin",
     "names_cjk": "",
     "dates": "",
-    "teachers": [{"name": "Baiyun Shouduan", "edge_type": "primary"}],
+    "teachers": [
+      {
+        "name": "Baiyun Shouduan",
+        "edge_type": "primary"
+      }
+    ],
     "school": "",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -2300,7 +2576,12 @@
     "name": "Dasui Fazhen",
     "names_cjk": "",
     "dates": "",
-    "teachers": [{"name": "Guishan Daan", "edge_type": "primary"}],
+    "teachers": [
+      {
+        "name": "Guishan Daan",
+        "edge_type": "primary"
+      }
+    ],
     "school": "",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -2309,7 +2590,12 @@
     "name": "Guishan Daan",
     "names_cjk": "",
     "dates": "",
-    "teachers": [{"name": "Baizhang Huaihai", "edge_type": "primary"}],
+    "teachers": [
+      {
+        "name": "Baizhang Huaihai",
+        "edge_type": "primary"
+      }
+    ],
     "school": "",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -2318,7 +2604,12 @@
     "name": "Mingan Rongxi",
     "names_cjk": "",
     "dates": "",
-    "teachers": [{"name": "Xuan Huaichang", "edge_type": "primary"}],
+    "teachers": [
+      {
+        "name": "Xuan Huaichang",
+        "edge_type": "primary"
+      }
+    ],
     "school": "",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -2327,7 +2618,12 @@
     "name": "Jinhua Juzhi",
     "names_cjk": "",
     "dates": "",
-    "teachers": [{"name": "Hangzhou Tianlong", "edge_type": "primary"}],
+    "teachers": [
+      {
+        "name": "Hangzhou Tianlong",
+        "edge_type": "primary"
+      }
+    ],
     "school": "",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -2336,7 +2632,12 @@
     "name": "Hangzhou Tianlong",
     "names_cjk": "",
     "dates": "",
-    "teachers": [{"name": "Damei Fachang", "edge_type": "primary"}],
+    "teachers": [
+      {
+        "name": "Damei Fachang",
+        "edge_type": "primary"
+      }
+    ],
     "school": "",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -2345,7 +2646,13 @@
     "name": "Juefan Huihong",
     "names_cjk": "",
     "dates": "",
-    "teachers": [{"name": "Zhenjing Kewen", "edge_type": "primary"}],
+    "teachers": [
+      {
+        "name": "Zhenjing Kewen",
+        "edge_type": "primary",
+        "dates": "1025-1102"
+      }
+    ],
     "school": "",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -2354,7 +2661,13 @@
     "name": "Nanpu Shaoming",
     "names_cjk": "",
     "dates": "",
-    "teachers": [{"name": "Xutang Zhiyu", "edge_type": "primary"}],
+    "teachers": [
+      {
+        "name": "Xutang Zhiyu",
+        "edge_type": "primary",
+        "dates": "1185-1269"
+      }
+    ],
     "school": "",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -2363,7 +2676,12 @@
     "name": "Baizhang Niepan",
     "names_cjk": "",
     "dates": "",
-    "teachers": [{"name": "Linji Yixuan", "edge_type": "primary"}],
+    "teachers": [
+      {
+        "name": "Linji Yixuan",
+        "edge_type": "primary"
+      }
+    ],
     "school": "",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -2372,7 +2690,12 @@
     "name": "Chongshou Qichou",
     "names_cjk": "",
     "dates": "",
-    "teachers": [{"name": "Fayan Wenyi", "edge_type": "primary"}],
+    "teachers": [
+      {
+        "name": "Fayan Wenyi",
+        "edge_type": "primary"
+      }
+    ],
     "school": "",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -2381,7 +2704,12 @@
     "name": "Zizhou Zhishen",
     "names_cjk": "",
     "dates": "",
-    "teachers": [{"name": "Daman Hongren", "edge_type": "primary"}],
+    "teachers": [
+      {
+        "name": "Daman Hongren",
+        "edge_type": "primary"
+      }
+    ],
     "school": "",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -2390,7 +2718,12 @@
     "name": "Luzu Baoyun",
     "names_cjk": "",
     "dates": "",
-    "teachers": [{"name": "Mazu Daoyi", "edge_type": "primary"}],
+    "teachers": [
+      {
+        "name": "Mazu Daoyi",
+        "edge_type": "primary"
+      }
+    ],
     "school": "",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -2408,7 +2741,12 @@
     "name": "Longji Shaoxiu",
     "names_cjk": "",
     "dates": "",
-    "teachers": [{"name": "Cuiwei Wuxue", "edge_type": "primary"}],
+    "teachers": [
+      {
+        "name": "Cuiwei Wuxue",
+        "edge_type": "primary"
+      }
+    ],
     "school": "",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -2417,7 +2755,12 @@
     "name": "Fengxian Daochen",
     "names_cjk": "",
     "dates": "",
-    "teachers": [{"name": "Yunmen Wenyan", "edge_type": "primary"}],
+    "teachers": [
+      {
+        "name": "Yunmen Wenyan",
+        "edge_type": "primary"
+      }
+    ],
     "school": "",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -2426,7 +2769,12 @@
     "name": "Ruiyan Shiyan",
     "names_cjk": "",
     "dates": "",
-    "teachers": [{"name": "Yantou Quanhuo", "edge_type": "primary"}],
+    "teachers": [
+      {
+        "name": "Yantou Quanhuo",
+        "edge_type": "primary"
+      }
+    ],
     "school": "",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -2435,7 +2783,12 @@
     "name": "Wenshu Yingzhen",
     "names_cjk": "",
     "dates": "",
-    "teachers": [{"name": "Dongshan Liangjie", "edge_type": "primary"}],
+    "teachers": [
+      {
+        "name": "Dongshan Liangjie",
+        "edge_type": "primary"
+      }
+    ],
     "school": "",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -2444,7 +2797,12 @@
     "name": "Changfu Zhi",
     "names_cjk": "",
     "dates": "",
-    "teachers": [{"name": "Xuefeng Yicun", "edge_type": "primary"}],
+    "teachers": [
+      {
+        "name": "Xuefeng Yicun",
+        "edge_type": "primary"
+      }
+    ],
     "school": "",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -2453,7 +2811,12 @@
     "name": "Taigu Puyu",
     "names_cjk": "",
     "dates": "",
-    "teachers": [{"name": "Shiwu Qinggong", "edge_type": "primary"}],
+    "teachers": [
+      {
+        "name": "Shiwu Qinggong",
+        "edge_type": "primary"
+      }
+    ],
     "school": "",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -2462,7 +2825,12 @@
     "name": "Baofu Congzhan",
     "names_cjk": "",
     "dates": "",
-    "teachers": [{"name": "Xuefeng Yicun", "edge_type": "primary"}],
+    "teachers": [
+      {
+        "name": "Xuefeng Yicun",
+        "edge_type": "primary"
+      }
+    ],
     "school": "",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -2471,7 +2839,12 @@
     "name": "Zizhou Chuji",
     "names_cjk": "",
     "dates": "",
-    "teachers": [{"name": "Zizhou Zhishen", "edge_type": "primary"}],
+    "teachers": [
+      {
+        "name": "Zizhou Zhishen",
+        "edge_type": "primary"
+      }
+    ],
     "school": "",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -2480,7 +2853,12 @@
     "name": "Chengtian Chuanzong",
     "names_cjk": "",
     "dates": "",
-    "teachers": [{"name": "Yunmen Wenyan", "edge_type": "primary"}],
+    "teachers": [
+      {
+        "name": "Yunmen Wenyan",
+        "edge_type": "primary"
+      }
+    ],
     "school": "",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -2489,7 +2867,12 @@
     "name": "Dingzhou Shizang",
     "names_cjk": "",
     "dates": "",
-    "teachers": [{"name": "Shishuang Qingzhu", "edge_type": "primary"}],
+    "teachers": [
+      {
+        "name": "Shishuang Qingzhu",
+        "edge_type": "primary"
+      }
+    ],
     "school": "",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -2498,7 +2881,13 @@
     "name": "Danyuan Yingzhen",
     "names_cjk": "",
     "dates": "",
-    "teachers": [{"name": "Nanyue Daoxuan", "edge_type": "primary"}],
+    "teachers": [
+      {
+        "name": "Nanyue Daoxuan",
+        "edge_type": "primary",
+        "dates": "596-667"
+      }
+    ],
     "school": "",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -2507,7 +2896,12 @@
     "name": "Cuiyan Lingcan",
     "names_cjk": "",
     "dates": "",
-    "teachers": [{"name": "Xuefeng Yicun", "edge_type": "primary"}],
+    "teachers": [
+      {
+        "name": "Xuefeng Yicun",
+        "edge_type": "primary"
+      }
+    ],
     "school": "",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -2516,7 +2910,12 @@
     "name": "Yuezhou Qianfeng",
     "names_cjk": "",
     "dates": "",
-    "teachers": [{"name": "Dongshan Liangjie", "edge_type": "primary"}],
+    "teachers": [
+      {
+        "name": "Dongshan Liangjie",
+        "edge_type": "primary"
+      }
+    ],
     "school": "",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -2525,7 +2924,12 @@
     "name": "Pang Yun",
     "names_cjk": "",
     "dates": "",
-    "teachers": [{"name": "Mazu Daoyi", "edge_type": "primary"}],
+    "teachers": [
+      {
+        "name": "Mazu Daoyi",
+        "edge_type": "primary"
+      }
+    ],
     "school": "",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -2534,7 +2938,12 @@
     "name": "Wujiu Youxuan",
     "names_cjk": "",
     "dates": "",
-    "teachers": [{"name": "Mazu Daoyi", "edge_type": "primary"}],
+    "teachers": [
+      {
+        "name": "Mazu Daoyi",
+        "edge_type": "primary"
+      }
+    ],
     "school": "",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -2543,7 +2952,12 @@
     "name": "Yang Wuwei",
     "names_cjk": "",
     "dates": "",
-    "teachers": [{"name": "Furong Daokai", "edge_type": "primary"}],
+    "teachers": [
+      {
+        "name": "Furong Daokai",
+        "edge_type": "primary"
+      }
+    ],
     "school": "",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -2552,7 +2966,12 @@
     "name": "Liu Tiemo",
     "names_cjk": "",
     "dates": "",
-    "teachers": [{"name": "Guishan Lingyou", "edge_type": "primary"}],
+    "teachers": [
+      {
+        "name": "Guishan Lingyou",
+        "edge_type": "primary"
+      }
+    ],
     "school": "",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -2561,7 +2980,12 @@
     "name": "Zhongyi Hongen",
     "names_cjk": "",
     "dates": "",
-    "teachers": [{"name": "Mazu Daoyi", "edge_type": "primary"}],
+    "teachers": [
+      {
+        "name": "Mazu Daoyi",
+        "edge_type": "primary"
+      }
+    ],
     "school": "",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -2570,7 +2994,12 @@
     "name": "Yantou Quanhuo",
     "names_cjk": "",
     "dates": "",
-    "teachers": [{"name": "Deshan Xuanjian", "edge_type": "primary"}],
+    "teachers": [
+      {
+        "name": "Deshan Xuanjian",
+        "edge_type": "primary"
+      }
+    ],
     "school": "",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -2579,7 +3008,12 @@
     "name": "Huanglong Huiji",
     "names_cjk": "",
     "dates": "",
-    "teachers": [{"name": "Huanglong Huinan", "edge_type": "primary"}],
+    "teachers": [
+      {
+        "name": "Huanglong Huinan",
+        "edge_type": "primary"
+      }
+    ],
     "school": "",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -2588,7 +3022,12 @@
     "name": "Heshan Wuyin",
     "names_cjk": "",
     "dates": "",
-    "teachers": [{"name": "Jiufeng Daoqian", "edge_type": "primary"}],
+    "teachers": [
+      {
+        "name": "Jiufeng Daoqian",
+        "edge_type": "primary"
+      }
+    ],
     "school": "",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -2597,7 +3036,12 @@
     "name": "Baoci Xingyan",
     "names_cjk": "",
     "dates": "",
-    "teachers": [{"name": "Fayan Wenyi", "edge_type": "primary"}],
+    "teachers": [
+      {
+        "name": "Fayan Wenyi",
+        "edge_type": "primary"
+      }
+    ],
     "school": "",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -2606,7 +3050,12 @@
     "name": "Lianhua Fengxiang",
     "names_cjk": "",
     "dates": "",
-    "teachers": [{"name": "Xuefeng Yicun", "edge_type": "primary"}],
+    "teachers": [
+      {
+        "name": "Xuefeng Yicun",
+        "edge_type": "primary"
+      }
+    ],
     "school": "",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -2614,8 +3063,13 @@
   {
     "name": "Zhenjing Kewen",
     "names_cjk": "",
-    "dates": "",
-    "teachers": [{"name": "Huanglong Huinan", "edge_type": "primary"}],
+    "dates": "1025-1102",
+    "teachers": [
+      {
+        "name": "Huanglong Huinan",
+        "edge_type": "primary"
+      }
+    ],
     "school": "",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -2623,8 +3077,13 @@
   {
     "name": "Xutang Zhiyu",
     "names_cjk": "",
-    "dates": "",
-    "teachers": [{"name": "Wuzhun Shifan", "edge_type": "primary"}],
+    "dates": "1185-1269",
+    "teachers": [
+      {
+        "name": "Wuzhun Shifan",
+        "edge_type": "primary"
+      }
+    ],
     "school": "",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -2632,8 +3091,13 @@
   {
     "name": "Baotang Wuzhu",
     "names_cjk": "",
-    "dates": "",
-    "teachers": [{"name": "Jingzhong Wuxiang", "edge_type": "primary"}],
+    "dates": "714-774",
+    "teachers": [
+      {
+        "name": "Jingzhong Wuxiang",
+        "edge_type": "primary"
+      }
+    ],
     "school": "",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -2641,8 +3105,13 @@
   {
     "name": "Nanyue Daoxuan",
     "names_cjk": "",
-    "dates": "",
-    "teachers": [{"name": "Shitou Xiqian", "edge_type": "primary"}],
+    "dates": "596-667",
+    "teachers": [
+      {
+        "name": "Shitou Xiqian",
+        "edge_type": "primary"
+      }
+    ],
     "school": "",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -2651,9 +3120,18 @@
     "name": "Xueyan Zuqin",
     "names_cjk": "雪巖祖欽",
     "dates": "1216-1287",
-    "teachers": [{"name": "Wuzhun Shifan", "edge_type": "primary"}],
+    "teachers": [
+      {
+        "name": "Wuzhun Shifan",
+        "edge_type": "primary",
+        "dates": "1178-1249"
+      }
+    ],
     "school": "Yangqi line",
-    "names_alt": ["Hsüeh-yen Tsu-ch'in", "Setsugan Sokin"],
+    "names_alt": [
+      "Hsüeh-yen Tsu-ch'in",
+      "Setsugan Sokin"
+    ],
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
   },
@@ -2661,9 +3139,17 @@
     "name": "Gaofeng Yuanmiao",
     "names_cjk": "高峰原妙",
     "dates": "1238-1295",
-    "teachers": [{"name": "Xueyan Zuqin", "edge_type": "primary"}],
+    "teachers": [
+      {
+        "name": "Xueyan Zuqin",
+        "edge_type": "primary"
+      }
+    ],
     "school": "Yangqi line",
-    "names_alt": ["Kao-feng Yüan-miao", "Kōhō Genmyō"],
+    "names_alt": [
+      "Kao-feng Yüan-miao",
+      "Kōhō Genmyō"
+    ],
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
   },
@@ -2671,9 +3157,18 @@
     "name": "Ji'an Xin",
     "names_cjk": "及庵信",
     "dates": "",
-    "teachers": [{"name": "Gaofeng Yuanmiao", "edge_type": "primary", "notes": "Dharma heir of Gaofeng Yuanmiao. Resided at Xifeng in Jianyang, then Daochang Temple in Huzhou."}],
+    "teachers": [
+      {
+        "name": "Gaofeng Yuanmiao",
+        "edge_type": "primary",
+        "notes": "Dharma heir of Gaofeng Yuanmiao. Resided at Xifeng in Jianyang, then Daochang Temple in Huzhou."
+      }
+    ],
     "school": "Yangqi line",
-    "names_alt": ["Chi-an", "Jianyuan"],
+    "names_alt": [
+      "Chi-an",
+      "Jianyuan"
+    ],
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
   },
@@ -2681,7 +3176,13 @@
     "name": "Shiwu Qinggong",
     "names_cjk": "石屋清珙",
     "dates": "1272-1352",
-    "teachers": [{"name": "Ji'an Xin", "edge_type": "primary", "notes": "Studied under Ji'an Xin for six years, receiving dharma transmission."}],
+    "teachers": [
+      {
+        "name": "Ji'an Xin",
+        "edge_type": "primary",
+        "notes": "Studied under Ji'an Xin for six years, receiving dharma transmission."
+      }
+    ],
     "school": "Yangqi line",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -2690,7 +3191,12 @@
     "name": "Shuho Myocho",
     "names_cjk": "宗峰妙超",
     "dates": "1282-1337",
-    "teachers": [{"name": "Nanpu Shaoming", "edge_type": "primary"}],
+    "teachers": [
+      {
+        "name": "Nanpu Shaoming",
+        "edge_type": "primary"
+      }
+    ],
     "school": "Rinzai",
     "names_alt": [
       "Daito Kokushi"
@@ -2702,7 +3208,12 @@
     "name": "Kanzan Egen",
     "names_cjk": "関山慧玄",
     "dates": "1277-1360",
-    "teachers": [{"name": "Shuho Myocho", "edge_type": "primary"}],
+    "teachers": [
+      {
+        "name": "Shuho Myocho",
+        "edge_type": "primary"
+      }
+    ],
     "school": "Rinzai",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -2711,7 +3222,12 @@
     "name": "Juo Sohitsu",
     "names_cjk": "授翁宗弼",
     "dates": "1296-1380",
-    "teachers": [{"name": "Kanzan Egen", "edge_type": "primary"}],
+    "teachers": [
+      {
+        "name": "Kanzan Egen",
+        "edge_type": "primary"
+      }
+    ],
     "school": "Rinzai",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -2720,7 +3236,12 @@
     "name": "Muin Soin",
     "names_cjk": "無隠宗因",
     "dates": "1326-1410",
-    "teachers": [{"name": "Juo Sohitsu", "edge_type": "primary"}],
+    "teachers": [
+      {
+        "name": "Juo Sohitsu",
+        "edge_type": "primary"
+      }
+    ],
     "school": "Rinzai",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -2729,7 +3250,12 @@
     "name": "Nippo Soshun",
     "names_cjk": "日峰宗舜",
     "dates": "1367-1448",
-    "teachers": [{"name": "Muin Soin", "edge_type": "primary"}],
+    "teachers": [
+      {
+        "name": "Muin Soin",
+        "edge_type": "primary"
+      }
+    ],
     "school": "Rinzai",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -2738,7 +3264,12 @@
     "name": "Giten Gensho",
     "names_cjk": "義天玄承",
     "dates": "",
-    "teachers": [{"name": "Nippo Soshun", "edge_type": "primary"}],
+    "teachers": [
+      {
+        "name": "Nippo Soshun",
+        "edge_type": "primary"
+      }
+    ],
     "school": "Rinzai",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -2747,7 +3278,12 @@
     "name": "Sekko Soshin",
     "names_cjk": "雪江宗深",
     "dates": "1408-1486",
-    "teachers": [{"name": "Giten Gensho", "edge_type": "primary"}],
+    "teachers": [
+      {
+        "name": "Giten Gensho",
+        "edge_type": "primary"
+      }
+    ],
     "school": "Rinzai",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -2756,7 +3292,12 @@
     "name": "Toyo Eicho",
     "names_cjk": "東陽英朝",
     "dates": "1428-1504",
-    "teachers": [{"name": "Sekko Soshin", "edge_type": "primary"}],
+    "teachers": [
+      {
+        "name": "Sekko Soshin",
+        "edge_type": "primary"
+      }
+    ],
     "school": "Rinzai",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -2765,7 +3306,12 @@
     "name": "Taiga Tankyo",
     "names_cjk": "大極曇鏡",
     "dates": "",
-    "teachers": [{"name": "Toyo Eicho", "edge_type": "primary"}],
+    "teachers": [
+      {
+        "name": "Toyo Eicho",
+        "edge_type": "primary"
+      }
+    ],
     "school": "Rinzai",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -2774,7 +3320,12 @@
     "name": "Koho Genkun",
     "names_cjk": "古峰玄訓",
     "dates": "",
-    "teachers": [{"name": "Taiga Tankyo", "edge_type": "primary"}],
+    "teachers": [
+      {
+        "name": "Taiga Tankyo",
+        "edge_type": "primary"
+      }
+    ],
     "school": "Rinzai",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -2783,7 +3334,12 @@
     "name": "Ian Chisatsu",
     "names_cjk": "以安智察",
     "dates": "1514-1587",
-    "teachers": [{"name": "Koho Genkun", "edge_type": "primary"}],
+    "teachers": [
+      {
+        "name": "Koho Genkun",
+        "edge_type": "primary"
+      }
+    ],
     "school": "Rinzai",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -2792,7 +3348,12 @@
     "name": "Tozen Soshin",
     "names_cjk": "東漸宗震",
     "dates": "1532-1602",
-    "teachers": [{"name": "Ian Chisatsu", "edge_type": "primary"}],
+    "teachers": [
+      {
+        "name": "Ian Chisatsu",
+        "edge_type": "primary"
+      }
+    ],
     "school": "Rinzai",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -2801,7 +3362,12 @@
     "name": "Yozan Keiyo",
     "names_cjk": "養山敬陽",
     "dates": "1559-1629",
-    "teachers": [{"name": "Tozen Soshin", "edge_type": "primary"}],
+    "teachers": [
+      {
+        "name": "Tozen Soshin",
+        "edge_type": "primary"
+      }
+    ],
     "school": "Rinzai",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -2810,7 +3376,12 @@
     "name": "Gudo Toshoku",
     "names_cjk": "愚堂東寔",
     "dates": "1577-1661",
-    "teachers": [{"name": "Yozan Keiyo", "edge_type": "primary"}],
+    "teachers": [
+      {
+        "name": "Yozan Keiyo",
+        "edge_type": "primary"
+      }
+    ],
     "school": "Rinzai",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -2819,7 +3390,12 @@
     "name": "Shido Bunan",
     "names_cjk": "至道無難",
     "dates": "1603-1676",
-    "teachers": [{"name": "Gudo Toshoku", "edge_type": "primary"}],
+    "teachers": [
+      {
+        "name": "Gudo Toshoku",
+        "edge_type": "primary"
+      }
+    ],
     "school": "Rinzai",
     "names_alt": [
       "Shido Munan"
@@ -2831,11 +3407,13 @@
     "name": "Gasan Jito",
     "names_cjk": "峨山慈棹",
     "dates": "1727-1797",
-    "teachers": [{
-      "name": "Hakuin Ekaku",
-      "edge_type": "primary",
-      "locator": "Terebess Harada profile - Harada's Rinzai Lineage"
-    }],
+    "teachers": [
+      {
+        "name": "Hakuin Ekaku",
+        "edge_type": "primary",
+        "locator": "Terebess Harada profile - Harada's Rinzai Lineage"
+      }
+    ],
     "school": "Rinzai",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -2844,11 +3422,13 @@
     "name": "Takuju Kosen",
     "names_cjk": "卓洲胡僊",
     "dates": "1760-1833",
-    "teachers": [{
-      "name": "Gasan Jito",
-      "edge_type": "primary",
-      "locator": "Terebess Harada profile - Harada's Rinzai Lineage"
-    }],
+    "teachers": [
+      {
+        "name": "Gasan Jito",
+        "edge_type": "primary",
+        "locator": "Terebess Harada profile - Harada's Rinzai Lineage"
+      }
+    ],
     "school": "Rinzai",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -2857,11 +3437,13 @@
     "name": "Myoki Soseki",
     "names_cjk": "妙喜宗績",
     "dates": "1774-1848",
-    "teachers": [{
-      "name": "Takuju Kosen",
-      "edge_type": "primary",
-      "locator": "Terebess Harada profile - Harada's Rinzai Lineage"
-    }],
+    "teachers": [
+      {
+        "name": "Takuju Kosen",
+        "edge_type": "primary",
+        "locator": "Terebess Harada profile - Harada's Rinzai Lineage"
+      }
+    ],
     "school": "Rinzai",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -2870,11 +3452,13 @@
     "name": "Karyo Zuika",
     "names_cjk": "花陵瑞華",
     "dates": "1790-1859",
-    "teachers": [{
-      "name": "Myoki Soseki",
-      "edge_type": "primary",
-      "locator": "Terebess Harada profile - Harada's Rinzai Lineage"
-    }],
+    "teachers": [
+      {
+        "name": "Myoki Soseki",
+        "edge_type": "primary",
+        "locator": "Terebess Harada profile - Harada's Rinzai Lineage"
+      }
+    ],
     "school": "Rinzai",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -2883,11 +3467,13 @@
     "name": "Tankai Gensho",
     "names_cjk": "潭海玄昌",
     "dates": "1811-1898",
-    "teachers": [{
-      "name": "Karyo Zuika",
-      "edge_type": "primary",
-      "locator": "Terebess Harada profile - Harada's Rinzai Lineage"
-    }],
+    "teachers": [
+      {
+        "name": "Karyo Zuika",
+        "edge_type": "primary",
+        "locator": "Terebess Harada profile - Harada's Rinzai Lineage"
+      }
+    ],
     "school": "Rinzai",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -2896,11 +3482,13 @@
     "name": "Dokutan Sosan",
     "names_cjk": "独湛祖珊",
     "dates": "1840-1917",
-    "teachers": [{
-      "name": "Tankai Gensho",
-      "edge_type": "primary",
-      "locator": "Terebess Harada profile - Harada's Rinzai Lineage"
-    }],
+    "teachers": [
+      {
+        "name": "Tankai Gensho",
+        "edge_type": "primary",
+        "locator": "Terebess Harada profile - Harada's Rinzai Lineage"
+      }
+    ],
     "school": "Rinzai",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -2909,11 +3497,13 @@
     "name": "Meiho Sotetsu",
     "names_cjk": "明峰素哲",
     "dates": "1277-1350",
-    "teachers": [{
-      "name": "Keizan Jokin",
-      "edge_type": "primary",
-      "locator": "Terebess Harada profile - Dharma lineage"
-    }],
+    "teachers": [
+      {
+        "name": "Keizan Jokin",
+        "edge_type": "primary",
+        "locator": "Terebess Harada profile - Dharma lineage"
+      }
+    ],
     "school": "Soto",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -2922,11 +3512,13 @@
     "name": "Shugan Dochin",
     "names_cjk": "珠巌道珍",
     "dates": "d. 1387",
-    "teachers": [{
-      "name": "Meiho Sotetsu",
-      "edge_type": "primary",
-      "locator": "Terebess Harada profile - Dharma lineage"
-    }],
+    "teachers": [
+      {
+        "name": "Meiho Sotetsu",
+        "edge_type": "primary",
+        "locator": "Terebess Harada profile - Dharma lineage"
+      }
+    ],
     "school": "Soto",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -2935,11 +3527,13 @@
     "name": "Tessan Shikaku",
     "names_cjk": "徹山旨廓",
     "dates": "d. 1376",
-    "teachers": [{
-      "name": "Shugan Dochin",
-      "edge_type": "primary",
-      "locator": "Terebess Harada profile - Dharma lineage"
-    }],
+    "teachers": [
+      {
+        "name": "Shugan Dochin",
+        "edge_type": "primary",
+        "locator": "Terebess Harada profile - Dharma lineage"
+      }
+    ],
     "school": "Soto",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -2948,11 +3542,13 @@
     "name": "Keigan Eisho",
     "names_cjk": "桂巌英昌",
     "dates": "1321-1412",
-    "teachers": [{
-      "name": "Tessan Shikaku",
-      "edge_type": "primary",
-      "locator": "Terebess Harada profile - Dharma lineage"
-    }],
+    "teachers": [
+      {
+        "name": "Tessan Shikaku",
+        "edge_type": "primary",
+        "locator": "Terebess Harada profile - Dharma lineage"
+      }
+    ],
     "school": "Soto",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -2961,11 +3557,13 @@
     "name": "Chuzan Ryoun",
     "names_cjk": "籌山了運",
     "dates": "1350-1432",
-    "teachers": [{
-      "name": "Keigan Eisho",
-      "edge_type": "primary",
-      "locator": "Terebess Harada profile - Dharma lineage"
-    }],
+    "teachers": [
+      {
+        "name": "Keigan Eisho",
+        "edge_type": "primary",
+        "locator": "Terebess Harada profile - Dharma lineage"
+      }
+    ],
     "school": "Soto",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -2974,11 +3572,13 @@
     "name": "Gisan Tonin",
     "names_cjk": "義山等仁",
     "dates": "1386-1462",
-    "teachers": [{
-      "name": "Chuzan Ryoun",
-      "edge_type": "primary",
-      "locator": "Terebess Harada profile - Dharma lineage"
-    }],
+    "teachers": [
+      {
+        "name": "Chuzan Ryoun",
+        "edge_type": "primary",
+        "locator": "Terebess Harada profile - Dharma lineage"
+      }
+    ],
     "school": "Soto",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -2987,11 +3587,13 @@
     "name": "Shogaku Kenryu",
     "names_cjk": "紹嶽堅隆",
     "dates": "d. 1485",
-    "teachers": [{
-      "name": "Gisan Tonin",
-      "edge_type": "primary",
-      "locator": "Terebess Harada profile - Dharma lineage"
-    }],
+    "teachers": [
+      {
+        "name": "Gisan Tonin",
+        "edge_type": "primary",
+        "locator": "Terebess Harada profile - Dharma lineage"
+      }
+    ],
     "school": "Soto",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -3000,11 +3602,13 @@
     "name": "Kinen Horyu",
     "names_cjk": "幾年豊隆",
     "dates": "d. 1506",
-    "teachers": [{
-      "name": "Shogaku Kenryu",
-      "edge_type": "primary",
-      "locator": "Terebess Harada profile - Dharma lineage"
-    }],
+    "teachers": [
+      {
+        "name": "Shogaku Kenryu",
+        "edge_type": "primary",
+        "locator": "Terebess Harada profile - Dharma lineage"
+      }
+    ],
     "school": "Soto",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -3013,11 +3617,13 @@
     "name": "Daishitsu Chisen",
     "names_cjk": "提室智闡",
     "dates": "1461-1536",
-    "teachers": [{
-      "name": "Kinen Horyu",
-      "edge_type": "primary",
-      "locator": "Terebess Harada profile - Dharma lineage"
-    }],
+    "teachers": [
+      {
+        "name": "Kinen Horyu",
+        "edge_type": "primary",
+        "locator": "Terebess Harada profile - Dharma lineage"
+      }
+    ],
     "school": "Soto",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -3026,11 +3632,13 @@
     "name": "Kokei Shojun",
     "names_cjk": "虎渓正淳",
     "dates": "d. 1555",
-    "teachers": [{
-      "name": "Daishitsu Chisen",
-      "edge_type": "primary",
-      "locator": "Terebess Harada profile - Dharma lineage"
-    }],
+    "teachers": [
+      {
+        "name": "Daishitsu Chisen",
+        "edge_type": "primary",
+        "locator": "Terebess Harada profile - Dharma lineage"
+      }
+    ],
     "school": "Soto",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -3039,11 +3647,13 @@
     "name": "Sesso Yuho",
     "names_cjk": "雪窓祐輔",
     "dates": "d. 1576",
-    "teachers": [{
-      "name": "Kokei Shojun",
-      "edge_type": "primary",
-      "locator": "Terebess Harada profile - Dharma lineage"
-    }],
+    "teachers": [
+      {
+        "name": "Kokei Shojun",
+        "edge_type": "primary",
+        "locator": "Terebess Harada profile - Dharma lineage"
+      }
+    ],
     "school": "Soto",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -3052,11 +3662,13 @@
     "name": "Kaiten Genju",
     "names_cjk": "海天玄聚",
     "dates": "",
-    "teachers": [{
-      "name": "Sesso Yuho",
-      "edge_type": "primary",
-      "locator": "Terebess Harada profile - Dharma lineage"
-    }],
+    "teachers": [
+      {
+        "name": "Sesso Yuho",
+        "edge_type": "primary",
+        "locator": "Terebess Harada profile - Dharma lineage"
+      }
+    ],
     "school": "Soto",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -3065,11 +3677,13 @@
     "name": "Shuzan Shunsho",
     "names_cjk": "州山春昌",
     "dates": "1590-1647",
-    "teachers": [{
-      "name": "Kaiten Genju",
-      "edge_type": "primary",
-      "locator": "Terebess Harada profile - Dharma lineage"
-    }],
+    "teachers": [
+      {
+        "name": "Kaiten Genju",
+        "edge_type": "primary",
+        "locator": "Terebess Harada profile - Dharma lineage"
+      }
+    ],
     "school": "Soto",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -3078,11 +3692,13 @@
     "name": "Chozan Ginetsu",
     "names_cjk": "超山誾越",
     "dates": "1581-1672",
-    "teachers": [{
-      "name": "Shuzan Shunsho",
-      "edge_type": "primary",
-      "locator": "Terebess Harada profile - Dharma lineage"
-    }],
+    "teachers": [
+      {
+        "name": "Shuzan Shunsho",
+        "edge_type": "primary",
+        "locator": "Terebess Harada profile - Dharma lineage"
+      }
+    ],
     "school": "Soto",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -3091,11 +3707,13 @@
     "name": "Fukushu Kochi",
     "names_cjk": "福州光智",
     "dates": "",
-    "teachers": [{
-      "name": "Chozan Ginetsu",
-      "edge_type": "primary",
-      "locator": "Terebess Harada profile - Dharma lineage"
-    }],
+    "teachers": [
+      {
+        "name": "Chozan Ginetsu",
+        "edge_type": "primary",
+        "locator": "Terebess Harada profile - Dharma lineage"
+      }
+    ],
     "school": "Soto",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -3104,11 +3722,13 @@
     "name": "Meido Yuton",
     "names_cjk": "明堂雄暾",
     "dates": "",
-    "teachers": [{
-      "name": "Fukushu Kochi",
-      "edge_type": "primary",
-      "locator": "Terebess Harada profile - Dharma lineage"
-    }],
+    "teachers": [
+      {
+        "name": "Fukushu Kochi",
+        "edge_type": "primary",
+        "locator": "Terebess Harada profile - Dharma lineage"
+      }
+    ],
     "school": "Soto",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -3117,11 +3737,13 @@
     "name": "Hakuho Genteki",
     "names_cjk": "白峰玄滴",
     "dates": "1594-1670",
-    "teachers": [{
-      "name": "Meido Yuton",
-      "edge_type": "primary",
-      "locator": "Terebess Harada profile - Dharma lineage"
-    }],
+    "teachers": [
+      {
+        "name": "Meido Yuton",
+        "edge_type": "primary",
+        "locator": "Terebess Harada profile - Dharma lineage"
+      }
+    ],
     "school": "Soto",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -3130,11 +3752,13 @@
     "name": "Gesshu Soko",
     "names_cjk": "月舟宗胡",
     "dates": "1618-1696",
-    "teachers": [{
-      "name": "Hakuho Genteki",
-      "edge_type": "primary",
-      "locator": "Terebess Harada profile - Dharma lineage"
-    }],
+    "teachers": [
+      {
+        "name": "Hakuho Genteki",
+        "edge_type": "primary",
+        "locator": "Terebess Harada profile - Dharma lineage"
+      }
+    ],
     "school": "Soto",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -3143,11 +3767,13 @@
     "name": "Tokuo Ryoko",
     "names_cjk": "徳翁良高",
     "dates": "1649-1709",
-    "teachers": [{
-      "name": "Gesshu Soko",
-      "edge_type": "primary",
-      "locator": "Terebess Harada profile - Dharma lineage"
-    }],
+    "teachers": [
+      {
+        "name": "Gesshu Soko",
+        "edge_type": "primary",
+        "locator": "Terebess Harada profile - Dharma lineage"
+      }
+    ],
     "school": "Soto",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -3156,11 +3782,13 @@
     "name": "Hogen Soren",
     "names_cjk": "芳巖祖聯",
     "dates": "",
-    "teachers": [{
-      "name": "Tokuo Ryoko",
-      "edge_type": "primary",
-      "locator": "Terebess Harada profile - Dharma lineage"
-    }],
+    "teachers": [
+      {
+        "name": "Tokuo Ryoko",
+        "edge_type": "primary",
+        "locator": "Terebess Harada profile - Dharma lineage"
+      }
+    ],
     "school": "Soto",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -3169,11 +3797,13 @@
     "name": "Sekiso Tesshu",
     "names_cjk": "石叟哲周",
     "dates": "",
-    "teachers": [{
-      "name": "Hogen Soren",
-      "edge_type": "primary",
-      "locator": "Terebess Harada profile - Dharma lineage"
-    }],
+    "teachers": [
+      {
+        "name": "Hogen Soren",
+        "edge_type": "primary",
+        "locator": "Terebess Harada profile - Dharma lineage"
+      }
+    ],
     "school": "Soto",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -3182,11 +3812,13 @@
     "name": "Ryuko Ryoshu",
     "names_cjk": "隆孝楞洲",
     "dates": "",
-    "teachers": [{
-      "name": "Sekiso Tesshu",
-      "edge_type": "primary",
-      "locator": "Terebess Harada profile - Dharma lineage"
-    }],
+    "teachers": [
+      {
+        "name": "Sekiso Tesshu",
+        "edge_type": "primary",
+        "locator": "Terebess Harada profile - Dharma lineage"
+      }
+    ],
     "school": "Soto",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -3195,11 +3827,13 @@
     "name": "Renzan Soho",
     "names_cjk": "聯山祖芳",
     "dates": "",
-    "teachers": [{
-      "name": "Ryuko Ryoshu",
-      "edge_type": "primary",
-      "locator": "Terebess Harada profile - Dharma lineage"
-    }],
+    "teachers": [
+      {
+        "name": "Ryuko Ryoshu",
+        "edge_type": "primary",
+        "locator": "Terebess Harada profile - Dharma lineage"
+      }
+    ],
     "school": "Soto",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -3208,11 +3842,13 @@
     "name": "Motsugai Shido",
     "names_cjk": "物外志道",
     "dates": "",
-    "teachers": [{
-      "name": "Renzan Soho",
-      "edge_type": "primary",
-      "locator": "Terebess Harada profile - Dharma lineage"
-    }],
+    "teachers": [
+      {
+        "name": "Renzan Soho",
+        "edge_type": "primary",
+        "locator": "Terebess Harada profile - Dharma lineage"
+      }
+    ],
     "school": "Soto",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -3221,11 +3857,13 @@
     "name": "Gukei Youn",
     "names_cjk": "愚溪容雲",
     "dates": "",
-    "teachers": [{
-      "name": "Motsugai Shido",
-      "edge_type": "primary",
-      "locator": "Terebess Harada profile - Dharma lineage"
-    }],
+    "teachers": [
+      {
+        "name": "Motsugai Shido",
+        "edge_type": "primary",
+        "locator": "Terebess Harada profile - Dharma lineage"
+      }
+    ],
     "school": "Soto",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -3234,11 +3872,13 @@
     "name": "Harada Sodo Kakusho",
     "names_cjk": "嚇照祖道",
     "dates": "1844-1931",
-    "teachers": [{
-      "name": "Gukei Youn",
-      "edge_type": "primary",
-      "locator": "Terebess Harada profile - Dharma lineage"
-    }],
+    "teachers": [
+      {
+        "name": "Gukei Youn",
+        "edge_type": "primary",
+        "locator": "Terebess Harada profile - Dharma lineage"
+      }
+    ],
     "school": "Soto",
     "names_alt": [
       "Kakusho Sodo"
@@ -3303,14 +3943,22 @@
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
   },
-
   {
     "name": "Shinchi Kakushin",
     "names_cjk": "心地覚心",
     "dates": "1207-1298",
-    "teachers": [{"name": "Wumen Huikai", "edge_type": "primary"}],
+    "teachers": [
+      {
+        "name": "Wumen Huikai",
+        "edge_type": "primary",
+        "dates": "1183-1260"
+      }
+    ],
     "school": "Rinzai",
-    "names_alt": ["Muhon Kakushin", "National Teacher Hotto"],
+    "names_alt": [
+      "Muhon Kakushin",
+      "National Teacher Hotto"
+    ],
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
   },
@@ -3318,7 +3966,12 @@
     "name": "Koho Kakumyo",
     "names_cjk": "孤峰覚明",
     "dates": "1271-1361",
-    "teachers": [{"name": "Shinchi Kakushin", "edge_type": "primary"}],
+    "teachers": [
+      {
+        "name": "Shinchi Kakushin",
+        "edge_type": "primary"
+      }
+    ],
     "school": "Rinzai",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -3327,17 +3980,26 @@
     "name": "Bassui Tokusho",
     "names_cjk": "抜隊得勝",
     "dates": "1327-1387",
-    "teachers": [{"name": "Koho Kakumyo", "edge_type": "primary"}],
+    "teachers": [
+      {
+        "name": "Koho Kakumyo",
+        "edge_type": "primary"
+      }
+    ],
     "school": "Rinzai",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
   },
-
   {
     "name": "Tetto Giko",
     "names_cjk": "徹翁義亨",
     "dates": "1295-1369",
-    "teachers": [{"name": "Shuho Myocho", "edge_type": "primary"}],
+    "teachers": [
+      {
+        "name": "Shuho Myocho",
+        "edge_type": "primary"
+      }
+    ],
     "school": "Rinzai",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -3346,7 +4008,12 @@
     "name": "Gongai Sochu",
     "names_cjk": "言外宗忠",
     "dates": "1315-1390",
-    "teachers": [{"name": "Tetto Giko", "edge_type": "primary"}],
+    "teachers": [
+      {
+        "name": "Tetto Giko",
+        "edge_type": "primary"
+      }
+    ],
     "school": "Rinzai",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -3355,7 +4022,12 @@
     "name": "Kaso Sodon",
     "names_cjk": "華叟宗曇",
     "dates": "1352-1428",
-    "teachers": [{"name": "Gongai Sochu", "edge_type": "primary"}],
+    "teachers": [
+      {
+        "name": "Gongai Sochu",
+        "edge_type": "primary"
+      }
+    ],
     "school": "Rinzai",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -3364,18 +4036,29 @@
     "name": "Ikkyu Sojun",
     "names_cjk": "一休宗純",
     "dates": "1394-1481",
-    "teachers": [{"name": "Kaso Sodon", "edge_type": "primary"}],
+    "teachers": [
+      {
+        "name": "Kaso Sodon",
+        "edge_type": "primary"
+      }
+    ],
     "school": "Rinzai",
-    "names_alt": ["Ikkyu"],
+    "names_alt": [
+      "Ikkyu"
+    ],
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
   },
-
   {
     "name": "Umpo Zenjo",
     "names_cjk": "雲甫全祥",
     "dates": "?-1659",
-    "teachers": [{"name": "Gudo Toshoku", "edge_type": "primary"}],
+    "teachers": [
+      {
+        "name": "Gudo Toshoku",
+        "edge_type": "primary"
+      }
+    ],
     "school": "Rinzai",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -3384,18 +4067,29 @@
     "name": "Bankei Yotaku",
     "names_cjk": "盤珪永琢",
     "dates": "1622-1693",
-    "teachers": [{"name": "Umpo Zenjo", "edge_type": "primary"}],
+    "teachers": [
+      {
+        "name": "Umpo Zenjo",
+        "edge_type": "primary"
+      }
+    ],
     "school": "Rinzai",
-    "names_alt": ["Bankei Eitaku"],
+    "names_alt": [
+      "Bankei Eitaku"
+    ],
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
   },
-
   {
     "name": "Gessen Zenne",
     "names_cjk": "月船禅慧",
     "dates": "1702-1781",
-    "teachers": [{"name": "Shoju Rojin", "edge_type": "secondary"}],
+    "teachers": [
+      {
+        "name": "Shoju Rojin",
+        "edge_type": "secondary"
+      }
+    ],
     "school": "Rinzai",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -3404,19 +4098,30 @@
     "name": "Sengai Gibon",
     "names_cjk": "仙厓義梵",
     "dates": "1750-1837",
-    "teachers": [{"name": "Gessen Zenne", "edge_type": "primary"}],
+    "teachers": [
+      {
+        "name": "Gessen Zenne",
+        "edge_type": "primary"
+      }
+    ],
     "school": "Rinzai",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
   },
-
   {
     "name": "Inzan Ien",
     "names_cjk": "隠山惟琰",
     "dates": "1751-1814",
-    "teachers": [{"name": "Gasan Jito", "edge_type": "primary"}],
+    "teachers": [
+      {
+        "name": "Gasan Jito",
+        "edge_type": "primary"
+      }
+    ],
     "school": "Rinzai",
-    "names_alt": ["Inzan Itan"],
+    "names_alt": [
+      "Inzan Itan"
+    ],
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
   },
@@ -3424,7 +4129,12 @@
     "name": "Taigen Shigen",
     "names_cjk": "大元至元",
     "dates": "1768-1837",
-    "teachers": [{"name": "Inzan Ien", "edge_type": "primary"}],
+    "teachers": [
+      {
+        "name": "Inzan Ien",
+        "edge_type": "primary"
+      }
+    ],
     "school": "Rinzai",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -3433,7 +4143,12 @@
     "name": "Gisan Zenrai",
     "names_cjk": "儀山善来",
     "dates": "1802-1878",
-    "teachers": [{"name": "Taigen Shigen", "edge_type": "primary"}],
+    "teachers": [
+      {
+        "name": "Taigen Shigen",
+        "edge_type": "primary"
+      }
+    ],
     "school": "Rinzai",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -3442,9 +4157,16 @@
     "name": "Kosen Imakita",
     "names_cjk": "今北洪川",
     "dates": "1816-1892",
-    "teachers": [{"name": "Gisan Zenrai", "edge_type": "primary"}],
+    "teachers": [
+      {
+        "name": "Gisan Zenrai",
+        "edge_type": "primary"
+      }
+    ],
     "school": "Rinzai",
-    "names_alt": ["Imakita Kosen"],
+    "names_alt": [
+      "Imakita Kosen"
+    ],
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
   },
@@ -3452,18 +4174,33 @@
     "name": "Soyen Shaku",
     "names_cjk": "釈宗演",
     "dates": "1860-1919",
-    "teachers": [{"name": "Kosen Imakita", "edge_type": "primary"}],
+    "teachers": [
+      {
+        "name": "Kosen Imakita",
+        "edge_type": "primary"
+      }
+    ],
     "school": "Rinzai",
-    "names_alt": ["Shaku Soen"],
+    "names_alt": [
+      "Shaku Soen"
+    ],
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
   },
   {
     "name": "D.T. Suzuki",
     "dates": "1870-1966",
-    "teachers": [{"name": "Soyen Shaku", "edge_type": "secondary"}],
+    "teachers": [
+      {
+        "name": "Soyen Shaku",
+        "edge_type": "secondary"
+      }
+    ],
     "school": "Rinzai",
-    "names_alt": ["Daisetsu Teitaro Suzuki", "Suzuki Daisetsu"],
+    "names_alt": [
+      "Daisetsu Teitaro Suzuki",
+      "Suzuki Daisetsu"
+    ],
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
   },
@@ -3471,7 +4208,12 @@
     "name": "Nyogen Senzaki",
     "names_cjk": "如元先崎",
     "dates": "1876-1958",
-    "teachers": [{"name": "Soyen Shaku", "edge_type": "primary"}],
+    "teachers": [
+      {
+        "name": "Soyen Shaku",
+        "edge_type": "primary"
+      }
+    ],
     "school": "Rinzai",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -3480,9 +4222,17 @@
     "name": "Shaku Sokatsu",
     "names_cjk": "釈宗活",
     "dates": "1870-1954",
-    "teachers": [{"name": "Soyen Shaku", "edge_type": "primary"}],
+    "teachers": [
+      {
+        "name": "Soyen Shaku",
+        "edge_type": "primary"
+      }
+    ],
     "school": "Rinzai",
-    "names_alt": ["Tetsuo Sokatsu", "Sokatsu Shaku"],
+    "names_alt": [
+      "Tetsuo Sokatsu",
+      "Sokatsu Shaku"
+    ],
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_morinaga_20260513"
   },
@@ -3490,9 +4240,17 @@
     "name": "Goto Zuigan",
     "names_cjk": "後藤瑞巌",
     "dates": "1879-1965",
-    "teachers": [{"name": "Shaku Sokatsu", "edge_type": "primary"}],
+    "teachers": [
+      {
+        "name": "Shaku Sokatsu",
+        "edge_type": "primary"
+      }
+    ],
     "school": "Rinzai",
-    "names_alt": ["Gotō Zuigan", "Zuigan Goto"],
+    "names_alt": [
+      "Gotō Zuigan",
+      "Zuigan Goto"
+    ],
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_morinaga_20260513"
   },
@@ -3500,9 +4258,17 @@
     "name": "Oda Sesso",
     "names_cjk": "小田雪窓",
     "dates": "1901-1966",
-    "teachers": [{"name": "Goto Zuigan", "edge_type": "primary"}],
+    "teachers": [
+      {
+        "name": "Goto Zuigan",
+        "edge_type": "primary"
+      }
+    ],
     "school": "Rinzai",
-    "names_alt": ["Sesso Oda", "Oda Sessō"],
+    "names_alt": [
+      "Sesso Oda",
+      "Oda Sessō"
+    ],
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_morinaga_20260513"
   },
@@ -3511,38 +4277,68 @@
     "names_cjk": "盛永宗興",
     "dates": "1925-1995",
     "teachers": [
-      {"name": "Oda Sesso", "edge_type": "primary"},
-      {"name": "Goto Zuigan", "edge_type": "secondary"}
+      {
+        "name": "Oda Sesso",
+        "edge_type": "primary"
+      },
+      {
+        "name": "Goto Zuigan",
+        "edge_type": "secondary"
+      }
     ],
     "school": "Rinzai",
-    "names_alt": ["Sōkō Morinaga", "Soko Morinaga", "Daigu Sōkō"],
+    "names_alt": [
+      "Sōkō Morinaga",
+      "Soko Morinaga",
+      "Daigu Sōkō"
+    ],
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_morinaga_20260513"
   },
   {
     "name": "Shaku Daijo",
     "dates": "?-2018",
-    "teachers": [{"name": "Morinaga Soko", "edge_type": "primary"}],
+    "teachers": [
+      {
+        "name": "Morinaga Soko",
+        "edge_type": "primary"
+      }
+    ],
     "school": "Rinzai",
-    "names_alt": ["Shaku Daijō", "Daijo Shaku"],
+    "names_alt": [
+      "Shaku Daijō",
+      "Daijo Shaku"
+    ],
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_morinaga_20260513"
   },
   {
     "name": "Shaku Kojyu",
     "dates": "n.d.",
-    "teachers": [{"name": "Shaku Daijo", "edge_type": "primary"}],
+    "teachers": [
+      {
+        "name": "Shaku Daijo",
+        "edge_type": "primary"
+      }
+    ],
     "school": "Rinzai",
-    "names_alt": ["Shaku Kōjyū", "Kojyu Shaku"],
+    "names_alt": [
+      "Shaku Kōjyū",
+      "Kojyu Shaku"
+    ],
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_morinaga_20260513"
   },
-
   {
     "name": "Daisetsu Joen",
     "names_cjk": "大拙承演",
     "dates": "1797-1855",
-    "teachers": [{"name": "Taigen Shigen", "edge_type": "primary"}],
+    "teachers": [
+      {
+        "name": "Taigen Shigen",
+        "edge_type": "primary"
+      }
+    ],
     "school": "Rinzai",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -3551,7 +4347,12 @@
     "name": "Ogino Dokuen",
     "names_cjk": "荻野独園",
     "dates": "1819-1895",
-    "teachers": [{"name": "Daisetsu Joen", "edge_type": "primary"}],
+    "teachers": [
+      {
+        "name": "Daisetsu Joen",
+        "edge_type": "primary"
+      }
+    ],
     "school": "Rinzai",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -3559,7 +4360,12 @@
   {
     "name": "Banryo Zenso",
     "dates": "1849-1918",
-    "teachers": [{"name": "Ogino Dokuen", "edge_type": "primary"}],
+    "teachers": [
+      {
+        "name": "Ogino Dokuen",
+        "edge_type": "primary"
+      }
+    ],
     "school": "Rinzai",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -3567,9 +4373,16 @@
   {
     "name": "Joten Soko Miura",
     "dates": "1871-1958",
-    "teachers": [{"name": "Banryo Zenso", "edge_type": "primary"}],
+    "teachers": [
+      {
+        "name": "Banryo Zenso",
+        "edge_type": "primary"
+      }
+    ],
     "school": "Rinzai",
-    "names_alt": ["Joten Miura Roshi"],
+    "names_alt": [
+      "Joten Miura Roshi"
+    ],
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
   },
@@ -3577,18 +4390,29 @@
     "name": "Joshu Sasaki",
     "names_cjk": "佐々木承周",
     "dates": "1907-2014",
-    "teachers": [{"name": "Joten Soko Miura", "edge_type": "primary"}],
+    "teachers": [
+      {
+        "name": "Joten Soko Miura",
+        "edge_type": "primary"
+      }
+    ],
     "school": "Rinzai",
-    "names_alt": ["Kyozan Joshu Sasaki"],
+    "names_alt": [
+      "Kyozan Joshu Sasaki"
+    ],
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
   },
-
   {
     "name": "Tekisui Giboku",
     "names_cjk": "滴水宜牧",
     "dates": "1822-1899",
-    "teachers": [{"name": "Gisan Zenrai", "edge_type": "primary"}],
+    "teachers": [
+      {
+        "name": "Gisan Zenrai",
+        "edge_type": "primary"
+      }
+    ],
     "school": "Rinzai",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -3596,7 +4420,12 @@
   {
     "name": "Ryoen Genseki",
     "dates": "1843-1919",
-    "teachers": [{"name": "Tekisui Giboku", "edge_type": "primary"}],
+    "teachers": [
+      {
+        "name": "Tekisui Giboku",
+        "edge_type": "primary"
+      }
+    ],
     "school": "Rinzai",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -3604,7 +4433,12 @@
   {
     "name": "Seisetsu Genjyo",
     "dates": "1877-1945",
-    "teachers": [{"name": "Ryoen Genseki", "edge_type": "primary"}],
+    "teachers": [
+      {
+        "name": "Ryoen Genseki",
+        "edge_type": "primary"
+      }
+    ],
     "school": "Rinzai",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -3612,7 +4446,12 @@
   {
     "name": "Bokuo Soun",
     "dates": "1903-1991",
-    "teachers": [{"name": "Seisetsu Genjyo", "edge_type": "primary"}],
+    "teachers": [
+      {
+        "name": "Seisetsu Genjyo",
+        "edge_type": "primary"
+      }
+    ],
     "school": "Rinzai",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -3621,17 +4460,28 @@
     "name": "Omori Sogen",
     "names_cjk": "大森曹玄",
     "dates": "1904-1994",
-    "teachers": [{"name": "Bokuo Soun", "edge_type": "primary"}],
+    "teachers": [
+      {
+        "name": "Bokuo Soun",
+        "edge_type": "primary"
+      }
+    ],
     "school": "Rinzai",
-    "names_alt": ["Tekio Sogen"],
+    "names_alt": [
+      "Tekio Sogen"
+    ],
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
   },
-
   {
     "name": "Sohan Genyo",
     "dates": "1848-1922",
-    "teachers": [{"name": "Gisan Zenrai", "edge_type": "secondary"}],
+    "teachers": [
+      {
+        "name": "Gisan Zenrai",
+        "edge_type": "secondary"
+      }
+    ],
     "school": "Rinzai",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -3640,7 +4490,12 @@
     "name": "Yamamoto Gempo",
     "names_cjk": "山本玄峰",
     "dates": "1866-1961",
-    "teachers": [{"name": "Sohan Genyo", "edge_type": "primary"}],
+    "teachers": [
+      {
+        "name": "Sohan Genyo",
+        "edge_type": "primary"
+      }
+    ],
     "school": "Rinzai",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -3649,16 +4504,25 @@
     "name": "Nakagawa Soen",
     "names_cjk": "中川宋淵",
     "dates": "1907-1984",
-    "teachers": [{"name": "Yamamoto Gempo", "edge_type": "primary"}],
+    "teachers": [
+      {
+        "name": "Yamamoto Gempo",
+        "edge_type": "primary"
+      }
+    ],
     "school": "Rinzai",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
   },
-
   {
     "name": "Kono Bukai",
     "dates": "1854-1934",
-    "teachers": [{"name": "Tankai Gensho", "edge_type": "secondary"}],
+    "teachers": [
+      {
+        "name": "Tankai Gensho",
+        "edge_type": "secondary"
+      }
+    ],
     "school": "Rinzai",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -3667,7 +4531,12 @@
     "name": "Shibayama Zenkei",
     "names_cjk": "柴山全慶",
     "dates": "1894-1974",
-    "teachers": [{"name": "Kono Bukai", "edge_type": "primary"}],
+    "teachers": [
+      {
+        "name": "Kono Bukai",
+        "edge_type": "primary"
+      }
+    ],
     "school": "Rinzai",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"

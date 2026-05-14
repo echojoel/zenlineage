@@ -350,12 +350,12 @@
         "value": "Sûzan Fujaku"
       }
     ],
-    "birth_year": null,
-    "birth_precision": "unknown",
-    "birth_confidence": "low",
-    "death_year": null,
-    "death_precision": "unknown",
-    "death_confidence": "low",
+    "birth_year": 651,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 739,
+    "death_precision": "exact",
+    "death_confidence": "high",
     "school": "Early Chan",
     "source_ids": [
       "src_chan_ancestors_pdf",
@@ -1673,12 +1673,12 @@
         "value": "南嶽懷讓"
       }
     ],
-    "birth_year": null,
-    "birth_precision": "unknown",
-    "birth_confidence": "low",
-    "death_year": null,
-    "death_precision": "unknown",
-    "death_confidence": "low",
+    "birth_year": 677,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 744,
+    "death_precision": "exact",
+    "death_confidence": "high",
     "school": "Nanyue line",
     "source_ids": [
       "src_chan_ancestors_pdf",
@@ -2960,12 +2960,12 @@
         "value": "Engo Kokugon"
       }
     ],
-    "birth_year": null,
-    "birth_precision": "unknown",
-    "birth_confidence": "low",
-    "death_year": null,
-    "death_precision": "unknown",
-    "death_confidence": "low",
+    "birth_year": 1063,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 1135,
+    "death_precision": "exact",
+    "death_confidence": "high",
     "school": "Linji",
     "source_ids": [
       "src_chan_ancestors_pdf",
@@ -3092,12 +3092,12 @@
         "value": "Daie Sôkô"
       }
     ],
-    "birth_year": null,
-    "birth_precision": "unknown",
-    "birth_confidence": "low",
-    "death_year": null,
-    "death_precision": "unknown",
-    "death_confidence": "low",
+    "birth_year": 1089,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 1163,
+    "death_precision": "exact",
+    "death_confidence": "high",
     "school": "Linji",
     "source_ids": [
       "src_chan_ancestors_pdf",
@@ -3272,12 +3272,12 @@
         "value": "Mumon Ekai"
       }
     ],
-    "birth_year": null,
-    "birth_precision": "unknown",
-    "birth_confidence": "low",
-    "death_year": null,
-    "death_precision": "unknown",
-    "death_confidence": "low",
+    "birth_year": 1183,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 1260,
+    "death_precision": "exact",
+    "death_confidence": "high",
     "school": "Linji",
     "source_ids": [
       "src_chan_ancestors_pdf",
@@ -4217,12 +4217,12 @@
         "value": "Yôgi Hôe"
       }
     ],
-    "birth_year": null,
-    "birth_precision": "unknown",
-    "birth_confidence": "low",
-    "death_year": null,
-    "death_precision": "unknown",
-    "death_confidence": "low",
+    "birth_year": 992,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 1049,
+    "death_precision": "exact",
+    "death_confidence": "high",
     "school": "Yangqi line",
     "source_ids": [
       "src_chan_ancestors_pdf",
@@ -4518,9 +4518,9 @@
     "birth_year": null,
     "birth_precision": "unknown",
     "birth_confidence": "low",
-    "death_year": null,
-    "death_precision": "unknown",
-    "death_confidence": "low",
+    "death_year": 930,
+    "death_precision": "exact",
+    "death_confidence": "high",
     "school": "Linji",
     "source_ids": [
       "src_chan_ancestors_pdf",
@@ -4930,12 +4930,12 @@
         "value": "Zhenjing Kewen"
       }
     ],
-    "birth_year": null,
-    "birth_precision": "unknown",
-    "birth_confidence": "low",
-    "death_year": null,
-    "death_precision": "unknown",
-    "death_confidence": "low",
+    "birth_year": 1025,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 1102,
+    "death_precision": "exact",
+    "death_confidence": "high",
     "school": "Linji",
     "source_ids": [
       "src_originals_curated"
@@ -4992,12 +4992,12 @@
         "value": "Etienne Zeisler"
       }
     ],
-    "birth_year": null,
-    "birth_precision": "unknown",
-    "birth_confidence": "low",
-    "death_year": null,
-    "death_precision": "unknown",
-    "death_confidence": "low",
+    "birth_year": 1946,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 1990,
+    "death_precision": "exact",
+    "death_confidence": "high",
     "school": "Sōtō",
     "source_ids": [
       "src_zen_deshimaru_history"
@@ -5330,12 +5330,12 @@
         "value": "Xutang Zhiyu"
       }
     ],
-    "birth_year": null,
-    "birth_precision": "unknown",
-    "birth_confidence": "low",
-    "death_year": null,
-    "death_precision": "unknown",
-    "death_confidence": "low",
+    "birth_year": 1185,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 1269,
+    "death_precision": "exact",
+    "death_confidence": "high",
     "school": "Yangqi line",
     "source_ids": [
       "src_originals_curated"
@@ -5483,12 +5483,12 @@
         "value": "Bokushû Dômyô"
       }
     ],
-    "birth_year": null,
-    "birth_precision": "unknown",
-    "birth_confidence": "low",
-    "death_year": null,
-    "death_precision": "unknown",
-    "death_confidence": "low",
+    "birth_year": 780,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 877,
+    "death_precision": "exact",
+    "death_confidence": "high",
     "school": "Linji",
     "source_ids": [
       "src_chan_ancestors_pdf",
@@ -6326,12 +6326,12 @@
         "value": "Nanyue Daoxuan"
       }
     ],
-    "birth_year": null,
-    "birth_precision": "unknown",
-    "birth_confidence": "low",
-    "death_year": null,
-    "death_precision": "unknown",
-    "death_confidence": "low",
+    "birth_year": 596,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 667,
+    "death_precision": "exact",
+    "death_confidence": "high",
     "school": "Qingyuan line",
     "source_ids": [
       "src_originals_curated"
@@ -6494,9 +6494,9 @@
         "value": "Brad Warner"
       }
     ],
-    "birth_year": null,
-    "birth_precision": "unknown",
-    "birth_confidence": "low",
+    "birth_year": 1964,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
     "death_year": null,
     "death_precision": "unknown",
     "death_confidence": "low",
@@ -6951,12 +6951,12 @@
         "value": "Goso Hôen"
       }
     ],
-    "birth_year": null,
-    "birth_precision": "unknown",
-    "birth_confidence": "low",
-    "death_year": null,
-    "death_precision": "unknown",
-    "death_confidence": "low",
+    "birth_year": 1024,
+    "birth_precision": "circa",
+    "birth_confidence": "medium",
+    "death_year": 1104,
+    "death_precision": "circa",
+    "death_confidence": "medium",
     "school": "Linji",
     "source_ids": [
       "src_chan_ancestors_pdf",
@@ -7635,12 +7635,12 @@
         "value": "Changlu Qingliao"
       }
     ],
-    "birth_year": null,
-    "birth_precision": "unknown",
-    "birth_confidence": "low",
-    "death_year": null,
-    "death_precision": "unknown",
-    "death_confidence": "low",
+    "birth_year": 1089,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 1151,
+    "death_precision": "exact",
+    "death_confidence": "high",
     "school": "Caodong",
     "source_ids": [
       "src_originals_curated"
@@ -7666,12 +7666,12 @@
         "value": "Gyokusen Jinshû"
       }
     ],
-    "birth_year": null,
-    "birth_precision": "unknown",
-    "birth_confidence": "low",
-    "death_year": null,
-    "death_precision": "unknown",
-    "death_confidence": "low",
+    "birth_year": 606,
+    "birth_precision": "circa",
+    "birth_confidence": "medium",
+    "death_year": 706,
+    "death_precision": "circa",
+    "death_confidence": "medium",
     "school": "Early Chan",
     "source_ids": [
       "src_chan_ancestors_pdf",
@@ -8937,12 +8937,12 @@
         "value": "Poan Zuxian"
       }
     ],
-    "birth_year": null,
-    "birth_precision": "unknown",
-    "birth_confidence": "low",
-    "death_year": null,
-    "death_precision": "unknown",
-    "death_confidence": "low",
+    "birth_year": 1136,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 1211,
+    "death_precision": "exact",
+    "death_confidence": "high",
     "school": "Yangqi line",
     "source_ids": [
       "src_originals_curated"
@@ -9313,12 +9313,12 @@
         "value": "Wuzhun Shifan"
       }
     ],
-    "birth_year": null,
-    "birth_precision": "unknown",
-    "birth_confidence": "low",
-    "death_year": null,
-    "death_precision": "unknown",
-    "death_confidence": "low",
+    "birth_year": 1178,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 1249,
+    "death_precision": "exact",
+    "death_confidence": "high",
     "school": "Yangqi line",
     "source_ids": [
       "src_originals_curated"
@@ -9570,12 +9570,12 @@
         "value": "Stephane Thibaut"
       }
     ],
-    "birth_year": null,
-    "birth_precision": "unknown",
-    "birth_confidence": "low",
-    "death_year": null,
-    "death_precision": "unknown",
-    "death_confidence": "low",
+    "birth_year": 1950,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 2025,
+    "death_precision": "exact",
+    "death_confidence": "high",
     "school": "Sōtō",
     "source_ids": [
       "src_zen_deshimaru_history"
@@ -10429,12 +10429,12 @@
         "value": "Baotang Wuzhu"
       }
     ],
-    "birth_year": null,
-    "birth_precision": "unknown",
-    "birth_confidence": "low",
-    "death_year": null,
-    "death_precision": "unknown",
-    "death_confidence": "low",
+    "birth_year": 714,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 774,
+    "death_precision": "exact",
+    "death_confidence": "high",
     "school": "Early Chan",
     "source_ids": [
       "src_originals_curated"
@@ -11187,12 +11187,12 @@
         "value": "天童如淨"
       }
     ],
-    "birth_year": null,
-    "birth_precision": "unknown",
-    "birth_confidence": "low",
-    "death_year": null,
-    "death_precision": "unknown",
-    "death_confidence": "low",
+    "birth_year": 1163,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 1228,
+    "death_precision": "exact",
+    "death_confidence": "high",
     "school": "Caodong",
     "source_ids": [
       "src_chan_ancestors_pdf",
@@ -11503,12 +11503,12 @@
         "value": "Enkan Seian"
       }
     ],
-    "birth_year": null,
-    "birth_precision": "unknown",
-    "birth_confidence": "low",
-    "death_year": null,
-    "death_precision": "unknown",
-    "death_confidence": "low",
+    "birth_year": 750,
+    "birth_precision": "circa",
+    "birth_confidence": "medium",
+    "death_year": 842,
+    "death_precision": "circa",
+    "death_confidence": "medium",
     "school": "Nanyue line",
     "source_ids": [
       "src_chan_ancestors_pdf",
@@ -11535,12 +11535,12 @@
         "value": "Wanshi Shôgaku"
       }
     ],
-    "birth_year": null,
-    "birth_precision": "unknown",
-    "birth_confidence": "low",
-    "death_year": null,
-    "death_precision": "unknown",
-    "death_confidence": "low",
+    "birth_year": 1091,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 1157,
+    "death_precision": "exact",
+    "death_confidence": "high",
     "school": "Caodong",
     "source_ids": [
       "src_chan_ancestors_pdf",
@@ -11703,12 +11703,12 @@
         "value": "Seidô Chizô"
       }
     ],
-    "birth_year": null,
-    "birth_precision": "unknown",
-    "birth_confidence": "low",
-    "death_year": null,
-    "death_precision": "unknown",
-    "death_confidence": "low",
+    "birth_year": 735,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 814,
+    "death_precision": "exact",
+    "death_confidence": "high",
     "school": "Nanyue line",
     "source_ids": [
       "src_chan_ancestors_pdf",
@@ -11793,12 +11793,12 @@
         "value": "Kataku Jinne"
       }
     ],
-    "birth_year": null,
-    "birth_precision": "unknown",
-    "birth_confidence": "low",
-    "death_year": null,
-    "death_precision": "unknown",
-    "death_confidence": "low",
+    "birth_year": 684,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 758,
+    "death_precision": "exact",
+    "death_confidence": "high",
     "school": "Early Chan",
     "source_ids": [
       "src_chan_ancestors_pdf",

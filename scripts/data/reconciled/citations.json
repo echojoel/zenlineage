@@ -376,6 +376,14 @@
     "excerpt": "Tokuo Ryoko (Terebess Harada profile - Dharma lineage)"
   },
   {
+    "id": "-bmHL3FI0iQPx6TtFJ5Qi",
+    "source_id": "src_chan_ancestors_pdf",
+    "entity_type": "master",
+    "entity_id": "-x_tMuMjPp3DZQGCGA0zs",
+    "field_name": "dates",
+    "excerpt": "651-739"
+  },
+  {
     "id": "ryyaL4_MPjVEi7x8kWMxT",
     "source_id": "src_chan_ancestors_pdf",
     "entity_type": "master",
@@ -390,6 +398,14 @@
     "entity_id": "-x_tMuMjPp3DZQGCGA0zs",
     "field_name": "school",
     "excerpt": "Qingyuan line"
+  },
+  {
+    "id": "NA7wEmHEft7SIFc9tSccl",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "-x_tMuMjPp3DZQGCGA0zs",
+    "field_name": "dates",
+    "excerpt": "651-739"
   },
   {
     "id": "kaO1SnfUOlcN5xPgdhHtD",
@@ -1864,6 +1880,14 @@
     "excerpt": "Kinen Horyu (Terebess Harada profile - Dharma lineage)"
   },
   {
+    "id": "manOKm88Nb-OJJAWBRgv7",
+    "source_id": "src_chan_ancestors_pdf",
+    "entity_type": "master",
+    "entity_id": "6zL4JwcpRqL1Mw2kbnXyf",
+    "field_name": "dates",
+    "excerpt": "677-744"
+  },
+  {
     "id": "K-f51-xEpREej_B_z2okc",
     "source_id": "src_chan_ancestors_pdf",
     "entity_type": "master",
@@ -1878,6 +1902,14 @@
     "entity_id": "6zL4JwcpRqL1Mw2kbnXyf",
     "field_name": "school",
     "excerpt": "Linji"
+  },
+  {
+    "id": "pwodzVuqpKMNfP4eqYzH-",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "6zL4JwcpRqL1Mw2kbnXyf",
+    "field_name": "dates",
+    "excerpt": "677-744"
   },
   {
     "id": "au888D-T1qxtH_0P6P4nj",
@@ -3448,6 +3480,14 @@
     "excerpt": "Rempo Niwa"
   },
   {
+    "id": "0B_Y4wJaYvT8t7bd1-ofk",
+    "source_id": "src_chan_ancestors_pdf",
+    "entity_type": "master",
+    "entity_id": "BL41yC9VsAMM0TzssIEKP",
+    "field_name": "dates",
+    "excerpt": "1063-1135"
+  },
+  {
     "id": "eCFtwmbVJpGyyHemf7OmI",
     "source_id": "src_chan_ancestors_pdf",
     "entity_type": "master",
@@ -3470,6 +3510,14 @@
     "entity_id": "BL41yC9VsAMM0TzssIEKP",
     "field_name": "koan_refs",
     "excerpt": "See Note 2"
+  },
+  {
+    "id": "Mn9Go9SqtSQCQlU4Y6TId",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "BL41yC9VsAMM0TzssIEKP",
+    "field_name": "dates",
+    "excerpt": "1063-1135"
   },
   {
     "id": "wWVoc2Fd4mjMNSbG4zwpU",
@@ -3608,6 +3656,14 @@
     "excerpt": "Dongshan Liangjie"
   },
   {
+    "id": "u5xPErQRUkB8jnIzQhpD9",
+    "source_id": "src_chan_ancestors_pdf",
+    "entity_type": "master",
+    "entity_id": "BPzpMPUQxiKjZJ6mTBIPr",
+    "field_name": "dates",
+    "excerpt": "1089-1163"
+  },
+  {
     "id": "7Y8ELcQZMk4PpdbucR1O3",
     "source_id": "src_chan_ancestors_pdf",
     "entity_type": "master",
@@ -3622,6 +3678,14 @@
     "entity_id": "BPzpMPUQxiKjZJ6mTBIPr",
     "field_name": "school",
     "excerpt": "Linji"
+  },
+  {
+    "id": "VO7vtofdB_6v-k7jYwsGe",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "BPzpMPUQxiKjZJ6mTBIPr",
+    "field_name": "dates",
+    "excerpt": "1089-1163"
   },
   {
     "id": "a81XNAiv3JFm8SuJ62fY2",
@@ -3808,6 +3872,14 @@
     "excerpt": "Kokoku Soryu"
   },
   {
+    "id": "WZmtpVGvu8SpxtRSKQuH-",
+    "source_id": "src_chan_ancestors_pdf",
+    "entity_type": "master",
+    "entity_id": "C0r4GzBv7BEN2ZXFGLwo8",
+    "field_name": "dates",
+    "excerpt": "1183-1260"
+  },
+  {
     "id": "v0vl99_Um_WnvgG3QpQTi",
     "source_id": "src_chan_ancestors_pdf",
     "entity_type": "master",
@@ -3830,6 +3902,14 @@
     "entity_id": "C0r4GzBv7BEN2ZXFGLwo8",
     "field_name": "koan_refs",
     "excerpt": "See Note 3"
+  },
+  {
+    "id": "TqoUBee3unfStXGgzra6Q",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "C0r4GzBv7BEN2ZXFGLwo8",
+    "field_name": "dates",
+    "excerpt": "1183-1260"
   },
   {
     "id": "eZFdj8BFQ92DuBolJ7Irc",
@@ -5008,6 +5088,14 @@
     "excerpt": "Xinghua Cunjiang"
   },
   {
+    "id": "nJ7T_wx09_73zpB75m6st",
+    "source_id": "src_chan_ancestors_pdf",
+    "entity_type": "master",
+    "entity_id": "EMoIlVImDttpEYdxP41FA",
+    "field_name": "dates",
+    "excerpt": "992-1049"
+  },
+  {
     "id": "gqpY1AfLwWNxWZtdGLs-3",
     "source_id": "src_chan_ancestors_pdf",
     "entity_type": "master",
@@ -5022,6 +5110,14 @@
     "entity_id": "EMoIlVImDttpEYdxP41FA",
     "field_name": "school",
     "excerpt": "Linji/Yangqi"
+  },
+  {
+    "id": "5aBOhrnK8TfLY3ctY4XfP",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "EMoIlVImDttpEYdxP41FA",
+    "field_name": "dates",
+    "excerpt": "992-1049"
   },
   {
     "id": "GpNi28IA3Pg_htn5e-YBi",
@@ -5312,6 +5408,14 @@
     "excerpt": "Shuho Myocho"
   },
   {
+    "id": "34P-5pcU7B4UiSypRqnHo",
+    "source_id": "src_chan_ancestors_pdf",
+    "entity_type": "master",
+    "entity_id": "fFFRVZW-TlYc3imPU4ZMr",
+    "field_name": "dates",
+    "excerpt": "d. 930"
+  },
+  {
     "id": "Gk-Sa28DLMpymMTJ6uA_c",
     "source_id": "src_chan_ancestors_pdf",
     "entity_type": "master",
@@ -5326,6 +5430,14 @@
     "entity_id": "fFFRVZW-TlYc3imPU4ZMr",
     "field_name": "school",
     "excerpt": "Linji"
+  },
+  {
+    "id": "3ctrJaxYrmD6L9eq76Zfd",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "fFFRVZW-TlYc3imPU4ZMr",
+    "field_name": "dates",
+    "excerpt": "d. 930"
   },
   {
     "id": "-5kJAIgDYuN6bQFS86Eg9",
@@ -5824,6 +5936,14 @@
     "excerpt": "Kankai Tokuon"
   },
   {
+    "id": "045Ac2maMIbenTf9GZ8gu",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "gnKKjaZPBk0CIELCFqZJ6",
+    "field_name": "dates",
+    "excerpt": "1025-1102"
+  },
+  {
     "id": "GTG7mOz_d4BXLBrVC77D3",
     "source_id": "src_originals_curated",
     "entity_type": "master",
@@ -5877,7 +5997,7 @@
     "entity_type": "master",
     "entity_id": "gRxLrRlXmFidEMKEwCbSw",
     "field_name": "dates",
-    "excerpt": "n.d."
+    "excerpt": "1946-1990"
   },
   {
     "id": "9IKzhx_a3rLQrALH22qDL",
@@ -6256,6 +6376,14 @@
     "excerpt": "Furong Daokai"
   },
   {
+    "id": "KWqNMYdkdxnV_wTv405GZ",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "IgLEF6ibrtovkxxzFqR_l",
+    "field_name": "dates",
+    "excerpt": "1185-1269"
+  },
+  {
     "id": "4qC46RU0j6qKRdDMRoIPv",
     "source_id": "src_originals_curated",
     "entity_type": "master",
@@ -6440,6 +6568,14 @@
     "excerpt": "Nanyue Daoxuan"
   },
   {
+    "id": "7iwDFpU75yt7uKIUukiNb",
+    "source_id": "src_chan_ancestors_pdf",
+    "entity_type": "master",
+    "entity_id": "IjImAFg07jLpkiAfvrt0X",
+    "field_name": "dates",
+    "excerpt": "780-877"
+  },
+  {
     "id": "0vp2Mt51mo9INkQI3DMP9",
     "source_id": "src_chan_ancestors_pdf",
     "entity_type": "master",
@@ -6462,6 +6598,14 @@
     "entity_id": "IjImAFg07jLpkiAfvrt0X",
     "field_name": "koan_refs",
     "excerpt": "10"
+  },
+  {
+    "id": "8IQlrdtTY9mCQK4kIfiH1",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "IjImAFg07jLpkiAfvrt0X",
+    "field_name": "dates",
+    "excerpt": "780-877"
   },
   {
     "id": "Vww34_XNDcixp2mCrHNqz",
@@ -7376,6 +7520,14 @@
     "excerpt": "Longtan Chongxin"
   },
   {
+    "id": "J-Kg0Uu5MOQT6FGeSHGz9",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "K3tGdAxPeoVWOCN3DnRq9",
+    "field_name": "dates",
+    "excerpt": "596-667"
+  },
+  {
     "id": "GdNNA1o08xNwLeijL2jyc",
     "source_id": "src_originals_curated",
     "entity_type": "master",
@@ -7549,7 +7701,7 @@
     "entity_type": "master",
     "entity_id": "KL36wkGII0wQV0C5iLi83",
     "field_name": "dates",
-    "excerpt": "n.d."
+    "excerpt": "1964-"
   },
   {
     "id": "BMrfCyxwOckkC1TPPF43U",
@@ -8128,6 +8280,14 @@
     "excerpt": "Suizhou Daoyuan (Q11)"
   },
   {
+    "id": "8kQ7gb4w660IsuwdHQIac",
+    "source_id": "src_chan_ancestors_pdf",
+    "entity_type": "master",
+    "entity_id": "lZ4j8pOCblnrPvSG8faoi",
+    "field_name": "dates",
+    "excerpt": "c. 1024-1104"
+  },
+  {
     "id": "32qJegrZwDBr8EPVa01NO",
     "source_id": "src_chan_ancestors_pdf",
     "entity_type": "master",
@@ -8150,6 +8310,14 @@
     "entity_id": "lZ4j8pOCblnrPvSG8faoi",
     "field_name": "koan_refs",
     "excerpt": "35,36 38,45"
+  },
+  {
+    "id": "stiepatlayUwum7eT0fPp",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "lZ4j8pOCblnrPvSG8faoi",
+    "field_name": "dates",
+    "excerpt": "c. 1024-1104"
   },
   {
     "id": "T8mdoT-btkm123YLQc0-4",
@@ -8896,6 +9064,14 @@
     "excerpt": "Chozan Ginetsu (Terebess Harada profile - Dharma lineage)"
   },
   {
+    "id": "GR11JxWnR9tERe9OQZau9",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "NDmJFm_-4hx3eBqReWXWS",
+    "field_name": "dates",
+    "excerpt": "1089-1151"
+  },
+  {
     "id": "Qdk9oClfj7GfYUeJY6YlT",
     "source_id": "src_originals_curated",
     "entity_type": "master",
@@ -8912,6 +9088,14 @@
     "excerpt": "Danxia Zichun"
   },
   {
+    "id": "WZygCCVy3FKJMVdWidTgz",
+    "source_id": "src_chan_ancestors_pdf",
+    "entity_type": "master",
+    "entity_id": "NEAKNQoo_MlBKLBAQRXDI",
+    "field_name": "dates",
+    "excerpt": "c. 606-706"
+  },
+  {
     "id": "Nr_yY5HaJKxkIuMSQHvId",
     "source_id": "src_chan_ancestors_pdf",
     "entity_type": "master",
@@ -8926,6 +9110,14 @@
     "entity_id": "NEAKNQoo_MlBKLBAQRXDI",
     "field_name": "school",
     "excerpt": "Qingyuan line"
+  },
+  {
+    "id": "5apvrjIzvUxBUL8V7Nq3u",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "NEAKNQoo_MlBKLBAQRXDI",
+    "field_name": "dates",
+    "excerpt": "c. 606-706"
   },
   {
     "id": "l16gE0dUQri_T9ZQbyvvY",
@@ -10352,6 +10544,14 @@
     "excerpt": "Stephane Kosen Thibaut"
   },
   {
+    "id": "wBRDc10Kz5kq2r_yW2fvt",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "QNihLq7F6lFvXyy0FEUCI",
+    "field_name": "dates",
+    "excerpt": "1136-1211"
+  },
+  {
     "id": "_GM-Xihr1gvAQmauFGo62",
     "source_id": "src_originals_curated",
     "entity_type": "master",
@@ -10784,6 +10984,14 @@
     "excerpt": "Sawada Zenko"
   },
   {
+    "id": "qac8amnropECuBMkDuQnm",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "s6fg-VgmQx67L-78F45cW",
+    "field_name": "dates",
+    "excerpt": "1178-1249"
+  },
+  {
     "id": "QFnb2yOKL41t0CRqux4Ix",
     "source_id": "src_originals_curated",
     "entity_type": "master",
@@ -11109,7 +11317,7 @@
     "entity_type": "master",
     "entity_id": "sOpOQoTa6neVqPXdMRUF1",
     "field_name": "dates",
-    "excerpt": "n.d."
+    "excerpt": "1950-2025"
   },
   {
     "id": "hPA1Q1XRpQSKaHu4O7PZM",
@@ -12152,6 +12360,14 @@
     "excerpt": "Nippo Soshun"
   },
   {
+    "id": "VGCegUMjwCzqkfZfmto-F",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "UohqYd8v_T7T_hsfoUDav",
+    "field_name": "dates",
+    "excerpt": "714-774"
+  },
+  {
     "id": "2njeppT-IUof03CNq8sO4",
     "source_id": "src_originals_curated",
     "entity_type": "master",
@@ -13168,6 +13384,14 @@
     "excerpt": "Shoju Rojin"
   },
   {
+    "id": "ZEFnI9EoMALDM8FFY4A_Z",
+    "source_id": "src_chan_ancestors_pdf",
+    "entity_type": "master",
+    "entity_id": "wJOC19yTM2x4sP2cdxBch",
+    "field_name": "dates",
+    "excerpt": "1163-1228"
+  },
+  {
     "id": "lvqRPorKSh8gqhrVpzB4F",
     "source_id": "src_chan_ancestors_pdf",
     "entity_type": "master",
@@ -13182,6 +13406,14 @@
     "entity_id": "wJOC19yTM2x4sP2cdxBch",
     "field_name": "school",
     "excerpt": "Caodong"
+  },
+  {
+    "id": "A2AKQmH9zfxG9Xu7FGzUD",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "wJOC19yTM2x4sP2cdxBch",
+    "field_name": "dates",
+    "excerpt": "1163-1228"
   },
   {
     "id": "3gnjnvLzjszeKaYmiRmni",
@@ -13552,6 +13784,14 @@
     "excerpt": "Tokuo Ryoko"
   },
   {
+    "id": "N-_9XMVh60HvvCpahL09D",
+    "source_id": "src_chan_ancestors_pdf",
+    "entity_type": "master",
+    "entity_id": "xc5IW8qvtH_72qBONcm8D",
+    "field_name": "dates",
+    "excerpt": "c. 750-842"
+  },
+  {
     "id": "Y06_H2tIt0aFyej3DPI6A",
     "source_id": "src_chan_ancestors_pdf",
     "entity_type": "master",
@@ -13576,6 +13816,14 @@
     "excerpt": "91 25"
   },
   {
+    "id": "iR3SAqGADPmeYlw4Y2RUn",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "xc5IW8qvtH_72qBONcm8D",
+    "field_name": "dates",
+    "excerpt": "c. 750-842"
+  },
+  {
     "id": "3PWkWf4rmZTuFic8jZW2I",
     "source_id": "src_originals_curated",
     "entity_type": "master",
@@ -13590,6 +13838,14 @@
     "entity_id": "xc5IW8qvtH_72qBONcm8D",
     "field_name": "teachers",
     "excerpt": "Mazu Daoyi"
+  },
+  {
+    "id": "0Lj5USYTrbwYw1pFAT8pE",
+    "source_id": "src_chan_ancestors_pdf",
+    "entity_type": "master",
+    "entity_id": "XcZWOXq1P5YUGV8UKZXDN",
+    "field_name": "dates",
+    "excerpt": "1091-1157"
   },
   {
     "id": "Fbstz_5nhpj8H5jnVVjyg",
@@ -13614,6 +13870,14 @@
     "entity_id": "XcZWOXq1P5YUGV8UKZXDN",
     "field_name": "koan_refs",
     "excerpt": "See Note 1"
+  },
+  {
+    "id": "d8uS_3NqPslSVFhJ-Eqi6",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "XcZWOXq1P5YUGV8UKZXDN",
+    "field_name": "dates",
+    "excerpt": "1091-1157"
   },
   {
     "id": "wpRNM7GkoZVWeHVmBTKaC",
@@ -13792,6 +14056,14 @@
     "excerpt": "Michaka"
   },
   {
+    "id": "0_Sp1NuQ5mKCGX5fObvWq",
+    "source_id": "src_chan_ancestors_pdf",
+    "entity_type": "master",
+    "entity_id": "xvNlcBK2lf_-swgDoLjZg",
+    "field_name": "dates",
+    "excerpt": "735-814"
+  },
+  {
     "id": "v3IjpHJ3DBWf5uN58kt6h",
     "source_id": "src_chan_ancestors_pdf",
     "entity_type": "master",
@@ -13814,6 +14086,14 @@
     "entity_id": "xvNlcBK2lf_-swgDoLjZg",
     "field_name": "koan_refs",
     "excerpt": "73 6"
+  },
+  {
+    "id": "1wyuDnFLqEZG-Q4ValZxs",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "xvNlcBK2lf_-swgDoLjZg",
+    "field_name": "dates",
+    "excerpt": "735-814"
   },
   {
     "id": "335gQK-krAZDqIVS5yZ63",
@@ -13904,6 +14184,14 @@
     "excerpt": "Chuzan Ryoun (Terebess Harada profile - Dharma lineage)"
   },
   {
+    "id": "oyVbkkS5nQAWw1d5clqiX",
+    "source_id": "src_chan_ancestors_pdf",
+    "entity_type": "master",
+    "entity_id": "Y0knckXJi9kjRghDAvzgR",
+    "field_name": "dates",
+    "excerpt": "684-758"
+  },
+  {
     "id": "VC0NfTehRlXY1oGXrqkL4",
     "source_id": "src_chan_ancestors_pdf",
     "entity_type": "master",
@@ -13918,6 +14206,14 @@
     "entity_id": "Y0knckXJi9kjRghDAvzgR",
     "field_name": "school",
     "excerpt": "Qingyuan line"
+  },
+  {
+    "id": "HA8AMIOn5cHLyNZl9XQob",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "Y0knckXJi9kjRghDAvzgR",
+    "field_name": "dates",
+    "excerpt": "684-758"
   },
   {
     "id": "648xjtLdStzniAgBb7As4",

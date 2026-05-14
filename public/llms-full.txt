@@ -8,7 +8,7 @@ Zen Lineage maps the dharma transmission lineages connecting Buddhist masters
 from Shakyamuni Buddha through Bodhidharma to modern teachers. All content
 requires item-level citations from scholarly sources before publication.
 
-Generated: 2026-05-13
+Generated: 2026-05-14
 
 ---
 
@@ -371,6 +371,15 @@ Daoxin's teaching integrated sitting meditation with practical monastic work, a 
 
 Vinītaruci (d. 594) is the master whom the fourteenth-century Vietnamese hagiographical compendium Thiền Uyển Tập Anh names as the founder of Vietnamese Thiền[1]. According to that later source he was a South Indian monk who travelled to Chang'an and studied with the Third Patriarch Sengcan before continuing south, settling at Pháp Vân temple in what is now Bắc Ninh province, and founding a lineage of twenty-eight generations over the next six centuries[1]. Modern scholarship reads the Thiền Uyển Tập Anh's genealogy as a retrospective construction shaped by fourteenth-century doctrinal concerns rather than a contemporaneous record, but it preserves the earliest Vietnamese account of the tradition's beginning and remains its foundational text[2].
 
+### Nanyue Daoxuan
+
+- **Dates:** 596 – 667
+- **School:** Qingyuan line
+- **Teachers:** Shitou Xiqian
+- **Students:** Danyuan Yingzhen
+
+Nanyue Daoxuan (南嶽道宣, fl. mid-9th c.) is recorded in the *Jǐngdé Chuándēng Lù* as a Chan teacher of the Nanyue / Shitou region in modern Hunan — distinct from the much earlier Tang Vinaya master Daoxuan (596–667) who founded the Nanshan Vinaya school[1]. Beyond his placement among the second- or third-generation Shitou-line teachers, the surviving record preserves little of his individual story; he is one of the many figures who anchored the regional Chan network that radiated outward from Mount Nanyue through the late Tang[2].
+
 ### Daman Hongren
 
 - **Also known as:** Ta-man Hung-jên, Daiman Kônin, Huangmei, daiman kônin, ta-man hung-jên
@@ -382,6 +391,16 @@ Vinītaruci (d. 594) is the master whom the fourteenth-century Vietnamese hagiog
 Daman Hongren, the fifth Chinese Chan patriarch, continued and expanded the communal model of practice established by his teacher Dayi Daoxin on East Mountain[1]. Under Hongren's leadership, the East Mountain community became the preeminent center of Chan practice in Tang dynasty China, drawing students from throughout the country. His teaching emphasized the direct recognition of original mind as the ground of all practice and all merit[2].
 
 Hongren is particularly significant because among his many students he recognized the extraordinary capacity of Huineng, a young illiterate wood-seller from the south[3]. The story of their encounter is pivotal in Chan history. Hongren tested all his students by asking them to demonstrate their understanding in verse.
+
+### Yuquan Shenxiu
+
+- **Also known as:** Yü-Ch'uan Shên-hs'iu, Gyokusen Jinshû
+- **Dates:** c. 606 – c. 706
+- **School:** Early Chan
+- **Teachers:** Daman Hongren
+- **Students:** Jingzhong Wuxiang, Songshan Puji
+
+Yuquan Shenxiu (玉泉神秀, c. 606–706) was the senior disciple of the Fifth Patriarch Daman Hongren and the most prominent Chan teacher of his generation. Patronised by Empress Wu Zetian and her successors, he served as a *guóshī* (National Teacher) at the Tang court in Chang'an and Luoyang and received imperial honours on a scale unmatched by any other Chan teacher of his era[1]. The verse attributed to him in the *Platform Sūtra* — "The body is the Bodhi-tree, the mind is a bright mirror; constantly polish it, let no dust alight" — is read in that text as the gradual-cultivation foil for Huineng's sudden-awakening response[2].
 
 ### Jianzhi Sengcan
 
@@ -417,6 +436,17 @@ Dajian Huineng, the sixth and final patriarch of undivided Chinese Chan, was an 
 
 Huineng's central teaching was the direct, sudden recognition of original mind, which he called the "no-thought" or "no-mind" approach[4].
 
+### Songshan Puji
+
+- **Also known as:** Sung-shan P'u-chi, Sûzan Fujaku
+- **Dates:** 651 – 739
+- **School:** Early Chan
+- **Teachers:** Yuquan Shenxiu
+
+Songshan Puji (嵩山普寂, 651–739) was the principal Dharma heir of Yuquan Shenxiu and the most prominent representative of the Northern School in the first half of the eighth century[1]. He taught at Songyang-si on Mount Song (the central sacred mountain) and at the imperial capitals; like his teacher he received successive court honours, including the title *guóshī*, and his community was probably the most institutionally well-established Chan community of his generation before the rise of Heze Shenhui's polemic[2].
+
+After Shenhui's 732 attack at Huatai targeted Puji directly as the inheritor of an allegedly "gradual" line, Puji and the Northern School were progressively marginalised in subsequent Chan historiography.
+
 ### Zizhou Chuji
 
 - **Also known as:** Tsü-chou Ch'u-chi, Shishû Shojaku
@@ -426,6 +456,16 @@ Huineng's central teaching was the direct, sudden recognition of original mind, 
 - **Students:** Jingzhong Wuxiang
 
 Chuji (處寂, 669–736), known to later tradition as "Master Tang" because his lay surname was Tang, was the chief disciple of Zhishen at Dechun Temple in Zizhou and the link between the early Sichuan Chan generation and the Jingzhong school of Wuxiang[1]. Early-Chan sources recovered at Dunhuang — most importantly the *Lìdài Fǎbǎo Jì* — place him within the Hongren-descended Sichuan lineage and credit him with several decades of teaching and ordaining monks in the region[2].
+
+### Nanyue Huairang
+
+- **Also known as:** Nan-yüeh Huai-jang, Nangaku Ejô, nangaku ejô, nan-yüeh huai-jang
+- **Dates:** 677 – 744
+- **School:** Nanyue line
+- **Teachers:** Dajian Huineng
+- **Students:** Mazu Daoyi
+
+Nanyue Huairang (南嶽懷讓, 677–744) is traditionally treated, alongside Qingyuan Xingsi, as the senior Dharma heir of the Sixth Patriarch Huineng and the ancestor of the Hongzhou stream — and through Mazu Daoyi of the Linji house and Guiyang school of Tang Chan[1]. Like Qingyuan, his individual record is thin in early sources and his lineage role was largely constructed retrospectively by the lamp records to give the Hongzhou and Shitou streams parallel claim to direct Sixth-Patriarch descent[2].
 
 ### Jingzhong Wuxiang
 
@@ -438,6 +478,17 @@ Chuji (處寂, 669–736), known to later tradition as "Master Tang" because his
 Wuxiang (無相, Korean: Musang, 684–762) was a Silla prince who arrived in Tang Chang'an in 728, was received by Emperor Xuanzong, and eventually travelled to Sichuan, where he became the disciple and Dharma heir of Chuji at Dechun Temple in Zizhou[1]. He later settled at Jingzhong Temple (淨眾寺) in Chengdu, from which his lineage takes its name; tradition records that he taught a community of several thousand and conducted month-long retreats centred on collective recitation, repentance, and the threefold formula transmitted from Chuji — *wuyi*, *wunian*, *mowang* ("no-recollection, no-thought, no-forgetting")[2].
 
 Wuxiang is one of the only Korean monks named as a patriarch in any Chan transmission line.
+
+### Heze Shenhui
+
+- **Also known as:** Ho-tsê Shên-hui, Kataku Jinne
+- **Dates:** 684 – 758
+- **School:** Early Chan
+- **Teachers:** Dajian Huineng
+
+Heze Shenhui (荷澤神會, 684–758) was the Dharma heir of the Sixth Patriarch Huineng most directly responsible for the construction of the Southern-School orthodoxy of Chan. The decisive episode is the great debate at the Wuzhe assembly at Huatai in 732 (and again in 734), at which Shenhui publicly attacked the Northern-School teachers Shenxiu and Puji and argued that Huineng, not Shenxiu, was the true Sixth Patriarch and that *dùnwù* (sudden awakening) was the authentic doctrine[1]. The polemic effectively determined later official Chan historiography, including the framing of the *Platform Sūtra* itself[2].
+
+Shenhui's own line did not survive past a few generations and he was largely written out of subsequent Linji-house historiography.
 
 ### Shitou Xiqian
 
@@ -460,6 +511,16 @@ His most famous text, the Sandokai (Merging of Difference and Unity), is one of 
 
 Yongjia Xuanjue (永嘉玄覺, 665–713) was a Tiantai-trained monk who is said in the *Jǐngdé Chuándēng Lù* to have visited the Sixth Patriarch Huineng on his way back from a pilgrimage and to have received Huineng's seal of approval in the course of a single night, earning him the nickname "Yi-su Jue," "Overnight Awakening" (一宿覺)[1]. The episode is one of the foundational anecdotes of the Southern School's claim that realisation does not depend on long temple residence under a teacher[2].
 
+### Baotang Wuzhu
+
+- **Dates:** 714 – 774
+- **School:** Early Chan
+- **Teachers:** Jingzhong Wuxiang
+
+Wuzhu (無住, 714–774) was the founder of the Bao-Tang school of Chan in Sichuan and one of the most radical figures of the eighth-century proto-Chan movement[1]. Initially trained in the Northern-School lineage and then in the Sichuanese Jingzhong tradition of Wuxiang, he eventually established his own community at Bao-Tang temple (保唐寺) near Chengdu and propagated an aggressively iconoclastic teaching that rejected external practice — bowing, chanting, formal sūtra recitation, and even seated meditation — as forms of attachment[2].
+
+The Bao-Tang school is best known through the *Lìdài Fǎbǎo Jì* (歷代法寶記), a late-eighth-century Dunhuang text recovered in the early twentieth century and now central to the modern scholarly reconstruction of pre-Linji Chan.
+
 ### Jingzhong Shenhui
 
 - **Also known as:** Ching-Chung Shên-hui, Jôshu Jinne
@@ -469,6 +530,18 @@ Yongjia Xuanjue (永嘉玄覺, 665–713) was a Tiantai-trained monk who is said
 - **Students:** Shengshou Nanyin
 
 Jingzhong Shenhui (淨眾神會, 720–794) — not to be confused with the more famous Heze Shenhui (684–758) of the Southern School — was the successor of Wuxiang at Jingzhong Temple in Chengdu and the third-generation leader of the Sichuan Jingzhong lineage[1]. Early-Chan documentation, especially the Dunhuang *Lìdài Fǎbǎo Jì*, treats him as Wuxiang's principal heir and as a competing claimant in eighth-century debates over the criteria for orthodox Chan transmission[2].
+
+### Xitang Zhizang
+
+- **Also known as:** Hsi-t'ang Chih-tsang, Seidô Chizô
+- **Dates:** 735 – 814
+- **School:** Nanyue line
+- **Teachers:** Mazu Daoyi
+- **Students:** Wufeng Changguan, Doui, Hyech'ŏl
+
+Xitang Zhizang (西堂智藏, 735–814) was, with Baizhang Huaihai and Nanquan Puyuan, one of the three principal Dharma heirs of Mazu Daoyi who collectively defined the mature shape of the Hongzhou house[1]. He served as abbot at the Kaiyuan-si in Jiangxi, the very temple where Mazu had taught, and was for several decades the institutional anchor of the Mazu community after the founder's death in 788[2].
+
+Xitang is also the master through whom the Hongzhou line first reached Korea: the two future founders of Korean Nine-Mountain Schools, Tooui (doui, founder of Gajisan) and Hyech'ŏl (founder of Tongnisan), both received transmission from him in the early ninth century and carried his line back to Silla, making Xitang the proximate ancestor of two of the foundational Korean Seon schools[3].
 
 ### Danxia Tianran
 
@@ -516,6 +589,16 @@ Tianhuang Daowu (天皇道悟, 748–807) is recorded in the *Jǐngdé Chuándē
 
 Tianhuang's place in Chan history rests on a single decisive link: his transmission to Longtan Chongxin, the teacher of Deshan Xuanjian. Through Deshan and his student Xuefeng Yicun, the Tianhuang line gave rise to the Yunmen and Fayan houses, two of the canonical Five Houses of late-Tang and early-Song Chan[3].
 
+### Yanguan Qian
+
+- **Also known as:** Yen-kuan Ch'i-an, Enkan Seian
+- **Dates:** c. 750 – c. 842
+- **School:** Nanyue line
+- **Teachers:** Mazu Daoyi
+- **Students:** Pŏmil
+
+Yanguan Qi'an (鹽官齊安, c. 750–842) was a Dharma heir of Mazu Daoyi who taught at Haichang-yuan in Yanguan (modern Hangzhou region), the salt-administration town from which his sobriquet derives[1]. The lamp records preserve a number of his exchanges in the characteristic Hongzhou-line style and document his relatively long abbacy in the second half of the eighth and the first half of the ninth century[2].
+
 ### Yaoshan Weiyan
 
 - **Also known as:** Yao-shan Wei-yen, Yakusan Igen
@@ -556,6 +639,17 @@ Nanyang Huizhong (南陽慧忠, c. 675–775) is named in the lamp records as a 
 Zhaozhou Congshen was one of the greatest Tang dynasty Chan masters and the subject of more koans than perhaps any other figure in the tradition[1]. He was a student of Nanquan Puyuan and lived to the extraordinary age of one hundred and twenty, practicing and teaching for most of his long life. He is said to have first met Nanquan when he was a young monk and to have experienced his initial awakening in their first encounter[1].
 
 Zhaozhou's most famous teaching is recorded in the first case of the Gateless Barrier (Wumenguan): a monk asked him whether a dog has Buddha nature, and Zhaozhou replied "Mu" (No, or Nothing)[2]. This single syllable became the gateway koan of the Rinzai tradition, the first koan given to most students beginning formal koan practice[3].
+
+### Muzhou Daoming
+
+- **Also known as:** Mu-chou Tao-ming, Bokushû Dômyô
+- **Dates:** 780 – 877
+- **School:** Linji
+- **Teachers:** Huangbo Xiyun
+
+Muzhou Daoming (睦州道明, 780–877), also known as Chen Zunsu (陳尊宿) after the sandal-weaving lay-name he kept on after monastic retirement, was a Dharma heir of Huangbo Xiyun and one of the most demanding teachers of the late-Tang generation[1]. After many years at Kaiyuan Temple in Muzhou (modern Zhejiang) and a period of teaching activity, he retired into the city to weave straw sandals which he distributed anonymously to the poor — the practice from which his "Sandalweaver" nickname derives[2].
+
+Muzhou is best remembered as the master who broke open Yunmen Wenyan's training.
 
 ### Yunyan Tansheng
 
@@ -859,6 +953,18 @@ Dongshan Shouchu (洞山守初, 910–990) — distinct from the ninth-century D
 
 Baofu Congzhan (保福從展, d. 928) was a Dharma heir of Xuefeng Yicun who taught at Baofu Temple in modern Fujian and is paired in the lamp records most often with his fellow-student Changqing Huileng[1]. The two are the most frequently cited interlocutors in the Xuefeng-community dialogues that the *Bìyán Lù* and the *Cóngróng Lù* select as case material — a body of exchanges that, in McRae's reading, helped fix the genre of the "encounter dialogue" itself as the canonical literary form of Song-period Chan[2].
 
+### Nanyuan Huiyong
+
+- **Also known as:** Nan-yüan Hui-yung, Nan'in Egyô
+- **Dates:** null – 930
+- **School:** Linji
+- **Teachers:** Xinghua Cunjiang
+- **Students:** Fengxue Yanzhao
+
+Nanyuan Huiyong (南院慧顒, d. 930) was the Dharma heir of Xinghua Cunjiang and the second-generation transmitter of the Linji house. He taught at Nanyuan Temple in Ruzhou (modern Henan) during the disruptive late-Tang and early Five-Dynasties period, when many Chan communities collapsed; his survival of that era is one of the reasons the Linji line continued at all[1].
+
+The lamp records and the *Línjì Lù* supplementary materials preserve a small number of Nanyuan's exchanges, several of which use the characteristic Linji "guest and host" framework to test his students' understanding of standpoint and response[2].
+
 ### Khuông Việt
 
 - **Also known as:** Ngô Chân Lưu
@@ -903,6 +1009,16 @@ Guizong Cezhen (歸宗策真, d. 979) was an early Five-Dynasties / Northern-Son
 
 Xuedou Chongxian (雪竇重顯, 980–1052) was the most influential literary figure of the Yunmen house and one of the great Song-period stylists of Chan literature[1]. After training under Zhimen Guangzuo, he settled at Mount Xuedou in modern Ningbo, where he taught for over three decades. He selected the hundred encounter dialogues and composed for each a four-line verse (*sòng* 頌) — the collection that, with Yuanwu Keqin's commentaries and introductions added the next century, became the *Bìyán Lù* (碧巖錄, Blue Cliff Record)[2].
 
+### Yangqi Fanghui
+
+- **Also known as:** Yang-ch'i Fang-hui, Yôgi Hôe
+- **Dates:** 992 – 1049
+- **School:** Yangqi line
+- **Teachers:** Shishuang Chuyuan
+- **Students:** Baiyun Shouduan
+
+Yangqi Fanghui (楊岐方會, 992–1049) was a Dharma heir of Shishuang Chuyuan and the founder of the Yangqi (楊岐) sub-house of the Linji school, the one of the two Linji sub-lineages — alongside Huanglong Huinan's — which proved to be the more enduring[1]. He taught at Mount Yangqi in modern Jiangxi, where his small community produced the immediate ancestors of the great mid-eleventh- to twelfth-century Yangqi line: through his successor Baiyun Shouduan, the Yangqi line passed to Wuzu Fayan and then to the three masters who shaped the canonical form of late-imperial Linji practice — Yuanwu Keqin (compiler of the *Bìyán Lù*), Foyan Qingyuan, and through Yuanwu, Dahui Zonggao[2].
+
 ### Tianyi Yihuai
 
 - **Also known as:** T'ien-i I-huai, Tenne Gikai
@@ -921,6 +1037,76 @@ Tianyi Yihuai (天衣義懷, 993–1064) was a Yunmen-line Linji master of the N
 - **Students:** Huitang Zuxin, Mingan Rongxi, Dahong Zuzheng, Yunan Kewen, Huanglong Huiji, Zhenjing Kewen, Myoan Eisai
 
 Huanglong Huinan (黃龍慧南, 1002–1069) was a Dharma heir of Shishuang Chuyuan and the founder of the Huanglong (黃龍) sub-house of the Linji school, one of the two main sub-lineages — alongside Yangqi — into which the Song-period Linji line divided[1]. He settled at Mount Huanglong in modern Jiangxi, where his community attracted a generation of leading students; his Dharma was carried on through Huitang Zuxin, Hui'an Zhenru, and many others into the next century[2].
+
+### Wuzu Fayan
+
+- **Also known as:** Wu-tsu Fa-yen, Goso Hôen
+- **Dates:** c. 1024 – c. 1104
+- **School:** Linji
+- **Teachers:** Baiyun Shouduan
+- **Students:** Foyan Qingyuan, Kaifu Daoning, Yuanwu Keqin
+
+Wuzu Fayan (五祖法演, c. 1024–1104), the "Fifth Patriarch Fayan" — so called because he taught at the Dongshan-si on Mount East-Mountain (Wǔzǔ-shān), the same site where the Fifth Patriarch Hongren had taught some four centuries earlier, and not to be confused with the earlier Fayan Wenyi — was the major Yangqi-line Linji master of the late Northern Song[1]. He was the Dharma heir of Baiyun Shouduan and the teacher of three of the most consequential figures of Song-period Chan: Yuanwu Keqin, Foyan Qingyuan, and Foguo Weibai[2].
+
+Wuzu is one of the most cited teachers in the Song koan literature, and his recorded sayings — collected as the *Wǔzǔ Fǎyǎn Chánshī Yǔlù* — are characterised by terse, paradoxical formulations that refuse both affirmation and negation.
+
+### Zhenjing Kewen
+
+- **Dates:** 1025 – 1102
+- **School:** Linji
+- **Teachers:** Huanglong Huinan
+- **Students:** Juefan Huihong
+
+Zhenjing Kewen (真淨克文, 1025–1102) was a major Northern-Song Linji-Huanglong-line master, the principal Dharma heir of Huanglong Huinan after Huitang Zuxin and one of the most-cited teachers in the literary culture of the late-eleventh-century Linji house[1]. He served as abbot of a series of temples including Dongchan (洞山) in Yunyang and Cuiyan-si, and his recorded sayings and dialogues were collected into the *Zhenjing Yulu*[2].
+
+Kewen's chief Dharma heir Doushuai Congyue and others carried the Huanglong sub-line forward in the early twelfth century, and his teaching is generally read as the canonical statement of the literary-philosophical style that distinguished the Huanglong house from its eventual rival the Yangqi house[3].
+
+### Yuanwu Keqin
+
+- **Also known as:** Yüan-wu K'ê-ch'in, Engo Kokugon
+- **Dates:** 1063 – 1135
+- **School:** Linji
+- **Teachers:** Wuzu Fayan
+- **Students:** Dahui Zonggao, Yuean Shanguo
+
+Yuanwu Keqin (圜悟克勤, 1063–1135) was the principal Dharma heir of Wuzu Fayan and the foremost Yangqi-line Linji master of the early Southern Song[1]. He held abbacies at the major Linji monasteries of his generation, including Jiashan-si and Lingyin-si, and received the imperial title *Yuanwu Chánshī* from Emperor Gaozong[2].
+
+His most enduring contribution is the *Bìyán Lù* (碧巖錄, "Blue Cliff Record"): taking Xuedou Chongxian's earlier collection of one hundred cases with their verse-commentaries, Yuanwu added his own *chuíshì* (introductions), *zhuó-yǔ* (capping phrases), and prose commentaries on both case and verse, creating the multi-layered text that became the canonical koan collection of late-imperial East Asian Chan and Japanese Rinzai[3].
+
+### Dahui Zonggao
+
+- **Also known as:** Ta-hui Tsung-kao, Daie Sôkô
+- **Dates:** 1089 – 1163
+- **School:** Linji
+- **Teachers:** Yuanwu Keqin
+- **Students:** Zhuan Shigui
+
+Dahui Zonggao (大慧宗杲, 1089–1163) was the principal Dharma heir of Yuanwu Keqin and the master most responsible for the development of the *kānhuà chán* (看話禪, "investigating-the-phrase Chan") method that has dominated Linji-house and Rinzai practice ever since[1]. His teaching method concentrated the student on a single critical phrase from a koan — most paradigmatically Zhaozhou's "wu" 無 — held to the point of "great doubt" (*dàyí*) until conceptual thinking exhausts itself and gives way to direct insight[2].
+
+### Changlu Qingliao
+
+- **Dates:** 1089 – 1151
+- **School:** Caodong
+
+Changlu Qingliao (長蘆清了, 1089–1151), also styled Zhenxie Qingliao (真歇清了), was a Northern- and Southern-Song Caodong master in the line of Furong Daokai who held abbacies at Changlu (長蘆寺) and Tiantong, and one of the senior Caodong teachers of the *mòzhào* ("silent illumination") revival[1]. He is generally treated alongside his Dharma brother Hongzhi Zhengjue as a key architect of the twelfth-century Caodong renewal that prompted Dahui Zonggao's polemic against silent illumination[2].
+
+### Hongzhi Zhengjue
+
+- **Also known as:** Hung-chih Chêng-chüeh, Wanshi Shôgaku
+- **Dates:** 1091 – 1157
+- **School:** Caodong
+- **Teachers:** Danxia Zichun
+
+Hongzhi Zhengjue (宏智正覺, 1091–1157) was the great Southern-Song Caodong master and the foremost articulator of *mòzhào chán* (默照禪, "silent illumination Chan"). He served as abbot of Tiantong-si (天童寺) near Mingzhou for thirty years and built it into the major Caodong centre of the twelfth century[1]. His prose poem *Mòzhào Míng* (默照銘, "Silent-Illumination Inscription") and his hundred verse-comments on koan cases — preserved in the *Hongzhi Songgu* and later assembled by Wansong Xingxiu into the *Cóngróng Lù* (從容錄, "Book of Serenity") — are the canonical statements of the silent-illumination practice and the Caodong literary-koan tradition that paralleled the Linji *Bìyán Lù* line[2].
+
+### Poan Zuxian
+
+- **Dates:** 1136 – 1211
+- **School:** Yangqi line
+- **Teachers:** Zhuan Shigui
+- **Students:** Wuzhun Shifan
+
+Po'an Zuxian (破菴祖先, 1136–1211) was a Yangqi-line Linji master of the Southern Song and the Dharma heir of Mi'an Xianjie; his Dharma in turn passed to Wuzhun Shifan, the major Jingshan-monastery teacher of the next generation[1]. The lamp records and the *Po'an Yulu* preserve a small but coherent body of his teaching, and his place in Chan history is principally that of the immediate link between Mi'an and the late-Song Yangqi resurgence under Wuzhun and his successors[2].
 
 ### Myoan Eisai
 
@@ -941,6 +1127,27 @@ Myōan Eisai (明菴榮西, 1141–1215) is the monk traditionally credited with
 
 Bojo Jinul (普照知訥, 1158–1210) is the central figure of Korean Seon and the master whose synthesis of meditation and doctrinal study shaped all subsequent Korean Buddhism[1]. Denied access to a formal Seon teacher in the sectarian strife of late-Goryeo Korea, he awakened through reading the Platform Sutra, Li Tongxuan's Huayan commentary, and the Records of Dahui Zonggao — an intellectual lineage rather than a transmitted one[1]. Against the Chinese controversy between sudden and gradual awakening he taught sudden awakening followed by gradual cultivation (돈오점수 dono jeomsu), and against the sectarian split between Seon and Hwaeom he argued that meditation and doctrinal study illuminate one another[2].
 
+### Tiantong Rujing
+
+- **Also known as:** T'ien-t'ung Ju-ching, Tendô Nyojô, tendô nyojô, t'ien-t'ung ju-ching
+- **Dates:** 1163 – 1228
+- **School:** Caodong
+- **Teachers:** Xuedou Zhijian
+- **Students:** Dōgen, Jakuen
+
+Tiantong Rujing (天童如淨, 1163–1228) was the Caodong master under whom Dōgen received Dharma transmission at the Tiantong-si monastery near Mingzhou between 1223 and 1227, and is thus the figure through whom the Caodong stream entered Japan as Sōtō Zen[1]. He was a Dharma heir of Xuedou Zhijian (also known as Zu'an Zhijian, 1105–1192), held the abbacy at Tiantong from 1224 until his death, and counted at least six "intimate Dharma heirs" — best-documented among them Dōgen himself, Jakuen (whose heir Giun would become the 5th abbot of Eihei-ji in 1314), and the Chinese monk Wuwai Yiyuan who much later (1242) sent Dōgen's collected *yulu* to Eihei-ji as the principal Chinese sanctioning document for the Japanese line[1][2].
+
+### Wuzhun Shifan
+
+- **Dates:** 1178 – 1249
+- **School:** Yangqi line
+- **Teachers:** Poan Zuxian
+- **Students:** Yuelin Shiguan, Xutang Zhiyu, Xueyan Zuqin
+
+Wuzhun Shifan (無準師範, 1178–1249) was one of the most influential Linji-Yangqi-line masters of the late Southern Song and the abbot of the major Jingshan (徑山) monastery near Hangzhou under the patronage of Emperor Lizong[1]. His community drew students from across East Asia, including the Japanese monks Enni Ben'en and Mukan Fumon, both of whom returned to Japan after receiving his transmission and founded major Rinzai institutions there[2].
+
+The portrait of Wuzhun painted in 1238 and presented to Enni is the earliest dated *chinsō* (Chan-master portrait) preserved in Japan; it is held at Tōfuku-ji in Kyoto and designated a National Treasure, and it is one of the most reproduced single images of a Chan teacher in the iconographic tradition[3].
+
 ### Chin'gak Hyesim
 
 - **Also known as:** Jingak Hyesim
@@ -949,6 +1156,27 @@ Bojo Jinul (普照知訥, 1158–1210) is the central figure of Korean Seon and 
 - **Teachers:** Bojo Jinul
 
 Chin'gak Hyesim (眞覺慧諶, 1178–1234) was Jinul's principal disciple and successor at Songgwang-sa on Mount Jogye[1]. A former Confucian scholar who turned to Buddhism after his mother's death, he refined Korean huatou (화두 hwadu) practice into the disciplined investigation of a single critical phrase that still defines Korean meditation[1]. His Seonmun Yeomsong, an anthology of 1,125 koan cases with his verse and prose commentary, is the largest classical Korean Seon koan collection and remains a foundational training text. With Hyesim, the Korean tradition committed to keyword investigation as its primary meditative method — a commitment that continues unbroken in the seonbang today[2].
+
+### Wumen Huikai
+
+- **Also known as:** Wu-mên Hui-k'ai, Mumon Ekai
+- **Dates:** 1183 – 1260
+- **School:** Linji
+- **Teachers:** Yuelin Shiguan
+- **Students:** Shinchi Kakushin
+
+Wumen Huikai (無門慧開, 1183–1260) was a Yangqi-line Linji master in the line descending from Yuanwu Keqin and the compiler of the *Wúménguān* (無門關, "Gateless Barrier" / *Mumonkan*), the most widely-read koan collection in the world after the *Bìyán Lù*[1]. The standard biographical account preserved in the lamp records describes a six-year period during which he worked exclusively on the koan "wu" 無 (Case 1 of his own collection) before his decisive opening, after which he wrote the verse "*A thunderclap under the clear blue sky! All beings on earth open their eyes*"[2].
+
+### Xutang Zhiyu
+
+- **Dates:** 1185 – 1269
+- **School:** Yangqi line
+- **Teachers:** Wuzhun Shifan
+- **Students:** Nanpu Shaoming
+
+Xutang Zhiyu (虛堂智愚, 1185–1269) was one of the most influential late-Southern-Song Linji-Yangqi-line masters and the figure through whom the *Ōtōkan* line of Japanese Rinzai derives its Chinese transmission[1]. He held abbacies at the major Linji monasteries on Mount Jing and at Lingyin-si near Hangzhou, and his recorded sayings were widely circulated through the Song-period Linji house[2].
+
+Xutang's principal Japanese heir was Nanpo Jōmin (Daiō Kokushi), who studied with him in China between 1259 and 1267 and returned to found the line that subsequently produced Daitō Kokushi and Kanzan Egen — the Ōtōkan ("Daiō-Daitō-Kanzan") sequence from which essentially all modern Daitoku-ji- and Myōshin-ji-line Rinzai Zen descends[3].
 
 ### Koun Ejō
 
@@ -2521,6 +2749,18 @@ Yves Shōshin Crettaz (b. 1946, Switzerland) is a Sōtō Zen monk in the lineage
 
 Crettaz was ordained as a Zen monk in 1988 and trained for decades under his teacher Raphaël Dōkō Triet, a close disciple of Taisen Deshimaru. He received Dharma transmission (shihō) from Triet in 2013, confirming him as an authorised successor in the European Sōtō tradition[1][2]. In 1997 he moved to Portugal with Triet to establish Zen practice there; he has been responsible for the Lisbon dōjō since 2005[1][2].
 
+### Etienne Mokusho Zeisler
+
+- **Also known as:** Étienne Mokusho Zeisler, Mokusho Zeisler, Etienne Zeisler
+- **Dates:** 1946 – 1990
+- **School:** Sōtō
+- **Teachers:** Taisen Deshimaru, Niwa Rempō Zenji
+- **Students:** Vincent Keisen Vuillemin, Yvon Myōken Bec, Maria Teresa Shōgetsu Avila, Ionuț Koshin Nedelcu, László Toryu Kálmán
+
+Étienne Mokushō Zeisler (1946 – 7 June 1990) was a Hungarian-French Sōtō Zen monk and one of Taisen Deshimaru's three principal dharma heirs. He met Deshimaru in the years following the latter's 1967 arrival in Paris, was ordained as a monk, and became one of his closest disciples, working alongside the master at the founding generation of European Sōtō dōjōs. **In 1984, two years after Deshimaru's death, Niwa Rempō Zenji — abbot of Eihei-ji and the highest authority of Japanese Sōtō Zen — conferred dharma transmission (shihō) on Zeisler together with Stéphane Kōsen Thibaut and Roland Yuno Rech**, formally authenticating Deshimaru's mission in Europe[1].
+
+Zeisler's distinctive contribution was geographical.
+
 ### Tony Bland
 
 - **Dates:** 1946 – null
@@ -2595,6 +2835,16 @@ Before his death on 7 June 1990, Zeisler entrusted Bec with the mission of carry
 Raphaël Dōkō Triet (b. 1950, Paris) is a French Sōtō Zen monk in the lineage of Taisen Deshimaru and abbot of the Seikyūji temple near Morón de la Frontera, Andalusia[1]. He began practising zazen in 1971 at the Paris dōjō with Deshimaru, who ordained him as a monk in 1973, and became one of Deshimaru's close disciples in the founding Paris sangha[2][3].
 
 After Deshimaru's death in 1982, Triet helped continue the line of teaching Deshimaru had established in Europe. He served as president of the Paris dōjō from 1990 to 1995 and as editor-in-chief of the Revue Zen — the magazine of the Association Zen Internationale (AZI) — from around 1990 to 2002, shaping much of the written teaching available to the European sangha[3][6].
+
+### Stephane Kosen Thibaut
+
+- **Also known as:** Stéphane Kosen Thibaut, Kosen Thibaut, Stephane Thibaut
+- **Dates:** 1950 – 2025
+- **School:** Sōtō
+- **Teachers:** Taisen Deshimaru, Niwa Rempō Zenji
+- **Students:** Pierre Sōkō Leroux, Bárbara Kōsen Richaudeau, André Ryūjō Meissner, Yvon Myōken Bec, Christophe Ryūrin Desmur, Loïc Kōshō Vuillemin, Ingrid Gyū-Ji Igelnick, Françoise Jōmon Julien, Paula Reikiku Femenias, Ariadna Dōsei Labbate, Toshiro Taigen Yamauchi, Maria Teresa Shōgetsu Avila
+
+Stéphane Jacques Germain Thibaut, known under the religious name Kōsen, was born on 26 May 1950 in the 16th arrondissement of Paris and died on 21 September 2025 in Montpellier at the age of 75[1]. The son of the musician Gilles Thibaut and a teacher-psychologist mother, he studied theatre and mime at the École internationale Jacques Lecoq in Paris before, at nineteen, encountering Taisen Deshimaru, who was then introducing Sōtō Zen to Europe. He became Deshimaru's disciple, received the bodhisattva ordination under the name Kōsen, then the monastic ordination of a Zen monk in 1971, and practised at his master's side for some fifteen years until Deshimaru's death in 1982[1][3].
 
 ### Bárbara Kōsen Richaudeau
 
@@ -2706,6 +2956,16 @@ Toshiro Taigen Yamauchi was born in Buenos Aires on 27 October 1962 ("Nacido en 
 
 In 1994 he received bodhisattva ordination under the dharma name Taigen ("En 1994 recibe la ordenación de bodhisattva, con el nombre Taigen")[1], and in 1997 he received monk ordination under the dharma name Toshiro ("En 1997 recibe la ordenación de monje con el nombre Toshiro")[1].
 
+### Brad Warner
+
+- **Dates:** 1964 – null
+- **School:** Sōtō
+- **Teachers:** Gudo Wafu Nishijima
+
+Brad Warner (born 5 March 1964 in Hamilton, Ohio) is an American Sōtō Zen priest, author, blogger, documentarian, and punk-rock bass guitarist — the most widely-read English-language teacher in the lineage of Gudō Wafu Nishijima[1]. He grew up mainly near Akron, Ohio (with a stint in Nairobi as a child while his father worked abroad), attended Kent State University, and as a teenager joined the hardcore punk band Zero Defex on bass after a friend introduced him to the Akron scene[1]. He later played in the psychedelic band Dimentia 13, which released several albums on the New York label Midnight Records.
+
+Warner began Zen practice in Ohio under Tim McCarthy and later studied with the Jōdo Shinshū-influenced teacher Gyōmay Kubose[1].
+
 ### Lluis Nansen Salas
 
 - **Dates:** 1965 – null
@@ -2777,17 +3037,6 @@ Juefan Huihong is recorded in the historiography of the late-Tang / Song-period 
 - **Students:** Sekiso Tesshu
 
 Hogen Soren is recorded in the historiography of the medieval / early-modern Japanese Sōtō branch-temple network as an abbot in its transmission lineage. The surviving record preserves his lineage placement; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].
-
-### Songshan Puji
-
-- **Also known as:** Sung-shan P'u-chi, Sûzan Fujaku
-- **Dates:** Dates uncertain
-- **School:** Early Chan
-- **Teachers:** Yuquan Shenxiu
-
-Songshan Puji (嵩山普寂, 651–739) was the principal Dharma heir of Yuquan Shenxiu and the most prominent representative of the Northern School in the first half of the eighth century[1]. He taught at Songyang-si on Mount Song (the central sacred mountain) and at the imperial capitals; like his teacher he received successive court honours, including the title *guóshī*, and his community was probably the most institutionally well-established Chan community of his generation before the rise of Heze Shenhui's polemic[2].
-
-After Shenhui's 732 attack at Huatai targeted Puji directly as the inheritor of an allegedly "gradual" line, Puji and the Northern School were progressively marginalised in subsequent Chan historiography.
 
 ### Mazu Daoyi
 
@@ -2985,16 +3234,6 @@ Ken An Junsa is recorded in the historiography of the medieval / early-modern Ja
 
 Meido Yuton is recorded in the historiography of the medieval / early-modern Japanese Sōtō branch-temple network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].
 
-### Nanyue Huairang
-
-- **Also known as:** Nan-yüeh Huai-jang, Nangaku Ejô, nangaku ejô, nan-yüeh huai-jang
-- **Dates:** Dates uncertain
-- **School:** Nanyue line
-- **Teachers:** Dajian Huineng
-- **Students:** Mazu Daoyi
-
-Nanyue Huairang (南嶽懷讓, 677–744) is traditionally treated, alongside Qingyuan Xingsi, as the senior Dharma heir of the Sixth Patriarch Huineng and the ancestor of the Hongzhou stream — and through Mazu Daoyi of the Linji house and Guiyang school of Tang Chan[1]. Like Qingyuan, his individual record is thin in early sources and his lineage role was largely constructed retrospectively by the lamp records to give the Hongzhou and Shitou streams parallel claim to direct Sixth-Patriarch descent[2].
-
 ### Taiping Huiqin
 
 - **Also known as:** T'ai-p'ing Hui-ch'in, Taihei Egon
@@ -3133,18 +3372,6 @@ Wang Yanbin is recorded in the historiography of the late-Tang / Song-period Cha
 
 Yunan Kewen is recorded in the historiography of the late-Tang / Song-period Chan transmission network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].
 
-### Yuanwu Keqin
-
-- **Also known as:** Yüan-wu K'ê-ch'in, Engo Kokugon
-- **Dates:** Dates uncertain
-- **School:** Linji
-- **Teachers:** Wuzu Fayan
-- **Students:** Dahui Zonggao, Yuean Shanguo
-
-Yuanwu Keqin (圜悟克勤, 1063–1135) was the principal Dharma heir of Wuzu Fayan and the foremost Yangqi-line Linji master of the early Southern Song[1]. He held abbacies at the major Linji monasteries of his generation, including Jiashan-si and Lingyin-si, and received the imperial title *Yuanwu Chánshī* from Emperor Gaozong[2].
-
-His most enduring contribution is the *Bìyán Lù* (碧巖錄, "Blue Cliff Record"): taking Xuedou Chongxian's earlier collection of one hundred cases with their verse-commentaries, Yuanwu added his own *chuíshì* (introductions), *zhuó-yǔ* (capping phrases), and prose commentaries on both case and verse, creating the multi-layered text that became the canonical koan collection of late-imperial East Asian Chan and Japanese Rinzai[3].
-
 ### Ruiyan Shiyan
 
 - **Also known as:** Jui-yen Shih-yen, Zuigan Shigen
@@ -3162,16 +3389,6 @@ Ruiyan Shiyan is recorded in the historiography of the late-Tang / Song-period C
 - **Teachers:** Dongshan Liangjie
 
 Wenshu Yingzhen is recorded in the historiography of the late-Tang / Song-period Chan transmission network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].
-
-### Dahui Zonggao
-
-- **Also known as:** Ta-hui Tsung-kao, Daie Sôkô
-- **Dates:** Dates uncertain
-- **School:** Linji
-- **Teachers:** Yuanwu Keqin
-- **Students:** Zhuan Shigui
-
-Dahui Zonggao (大慧宗杲, 1089–1163) was the principal Dharma heir of Yuanwu Keqin and the master most responsible for the development of the *kānhuà chán* (看話禪, "investigating-the-phrase Chan") method that has dominated Linji-house and Rinzai practice ever since[1]. His teaching method concentrated the student on a single critical phrase from a koan — most paradigmatically Zhaozhou's "wu" 無 — held to the point of "great doubt" (*dàyí*) until conceptual thinking exhausts itself and gives way to direct insight[2].
 
 ### Shanglan Lingchao
 
@@ -3207,16 +3424,6 @@ Niutou Farong is recorded in the historiography of the late-Tang / Song-period C
 - **Students:** Ungai Kozan
 
 Rosetsu Ryuko is recorded in the historiography of the medieval / early-modern Japanese Sōtō branch-temple network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].
-
-### Wumen Huikai
-
-- **Also known as:** Wu-mên Hui-k'ai, Mumon Ekai
-- **Dates:** Dates uncertain
-- **School:** Linji
-- **Teachers:** Yuelin Shiguan
-- **Students:** Shinchi Kakushin
-
-Wumen Huikai (無門慧開, 1183–1260) was a Yangqi-line Linji master in the line descending from Yuanwu Keqin and the compiler of the *Wúménguān* (無門關, "Gateless Barrier" / *Mumonkan*), the most widely-read koan collection in the world after the *Bìyán Lù*[1]. The standard biographical account preserved in the lamp records describes a six-year period during which he worked exclusively on the koan "wu" 無 (Case 1 of his own collection) before his decisive opening, after which he wrote the verse "*A thunderclap under the clear blue sky! All beings on earth open their eyes*"[2].
 
 ### Shoun Hozui
 
@@ -3364,16 +3571,6 @@ Keido Chisan is recorded in the historiography of the medieval / early-modern Ja
 
 Yanyang Shanxin is recorded in the historiography of the late-Tang / Song-period Chan transmission network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].
 
-### Yangqi Fanghui
-
-- **Also known as:** Yang-ch'i Fang-hui, Yôgi Hôe
-- **Dates:** Dates uncertain
-- **School:** Yangqi line
-- **Teachers:** Shishuang Chuyuan
-- **Students:** Baiyun Shouduan
-
-Yangqi Fanghui (楊岐方會, 992–1049) was a Dharma heir of Shishuang Chuyuan and the founder of the Yangqi (楊岐) sub-house of the Linji school, the one of the two Linji sub-lineages — alongside Huanglong Huinan's — which proved to be the more enduring[1]. He taught at Mount Yangqi in modern Jiangxi, where his small community produced the immediate ancestors of the great mid-eleventh- to twelfth-century Yangqi line: through his successor Baiyun Shouduan, the Yangqi line passed to Wuzu Fayan and then to the three masters who shaped the canonical form of late-imperial Linji practice — Yuanwu Keqin (compiler of the *Bìyán Lù*), Foyan Qingyuan, and through Yuanwu, Dahui Zonggao[2].
-
 ### Taigu Puyu
 
 - **Also known as:** T’ai-ku P’u-yü, Taigo Pou
@@ -3421,18 +3618,6 @@ Doushuai Congyue is recorded in the historiography of the late-Tang / Song-perio
 - **Students:** Kodo Sawaki
 
 Sawada Zenko is recorded in the historiography of the medieval / early-modern Japanese Sōtō branch-temple network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].
-
-### Nanyuan Huiyong
-
-- **Also known as:** Nan-yüan Hui-yung, Nan'in Egyô
-- **Dates:** Dates uncertain
-- **School:** Linji
-- **Teachers:** Xinghua Cunjiang
-- **Students:** Fengxue Yanzhao
-
-Nanyuan Huiyong (南院慧顒, d. 930) was the Dharma heir of Xinghua Cunjiang and the second-generation transmitter of the Linji house. He taught at Nanyuan Temple in Ruzhou (modern Henan) during the disruptive late-Tang and early Five-Dynasties period, when many Chan communities collapsed; his survival of that era is one of the reasons the Linji line continued at all[1].
-
-The lamp records and the *Línjì Lù* supplementary materials preserve a small number of Nanyuan's exchanges, several of which use the characteristic Linji "guest and host" framework to test his students' understanding of standpoint and response[2].
 
 ### Xuedou Zhijian
 
@@ -3488,29 +3673,6 @@ Daiki Kyokan is recorded in the historiography of the medieval / early-modern Ja
 - **Students:** Gyakushitsu Sojun
 
 Kosen Baido is recorded in the historiography of the medieval / early-modern Japanese Sōtō branch-temple network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].
-
-### Zhenjing Kewen
-
-- **Dates:** Dates uncertain
-- **School:** Linji
-- **Teachers:** Huanglong Huinan
-- **Students:** Juefan Huihong
-
-Zhenjing Kewen (真淨克文, 1025–1102) was a major Northern-Song Linji-Huanglong-line master, the principal Dharma heir of Huanglong Huinan after Huitang Zuxin and one of the most-cited teachers in the literary culture of the late-eleventh-century Linji house[1]. He served as abbot of a series of temples including Dongchan (洞山) in Yunyang and Cuiyan-si, and his recorded sayings and dialogues were collected into the *Zhenjing Yulu*[2].
-
-Kewen's chief Dharma heir Doushuai Congyue and others carried the Huanglong sub-line forward in the early twelfth century, and his teaching is generally read as the canonical statement of the literary-philosophical style that distinguished the Huanglong house from its eventual rival the Yangqi house[3].
-
-### Etienne Mokusho Zeisler
-
-- **Also known as:** Étienne Mokusho Zeisler, Mokusho Zeisler, Etienne Zeisler
-- **Dates:** Dates uncertain
-- **School:** Sōtō
-- **Teachers:** Taisen Deshimaru, Niwa Rempō Zenji
-- **Students:** Vincent Keisen Vuillemin, Yvon Myōken Bec, Maria Teresa Shōgetsu Avila, Ionuț Koshin Nedelcu, László Toryu Kálmán
-
-Étienne Mokushō Zeisler (1946 – 7 June 1990) was a Hungarian-French Sōtō Zen monk and one of Taisen Deshimaru's three principal dharma heirs. He met Deshimaru in the years following the latter's 1967 arrival in Paris, was ordained as a monk, and became one of his closest disciples, working alongside the master at the founding generation of European Sōtō dōjōs. **In 1984, two years after Deshimaru's death, Niwa Rempō Zenji — abbot of Eihei-ji and the highest authority of Japanese Sōtō Zen — conferred dharma transmission (shihō) on Zeisler together with Stéphane Kōsen Thibaut and Roland Yuno Rech**, formally authenticating Deshimaru's mission in Europe[1].
-
-Zeisler's distinctive contribution was geographical.
 
 ### Dahong Zuzheng
 
@@ -3578,17 +3740,6 @@ Chengtian Chuanzong is recorded in the historiography of the late-Tang / Song-pe
 
 Danxia Zichun is recorded in the historiography of the medieval / early-modern Japanese Sōtō branch-temple network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].
 
-### Xutang Zhiyu
-
-- **Dates:** Dates uncertain
-- **School:** Yangqi line
-- **Teachers:** Wuzhun Shifan
-- **Students:** Nanpu Shaoming
-
-Xutang Zhiyu (虛堂智愚, 1185–1269) was one of the most influential late-Southern-Song Linji-Yangqi-line masters and the figure through whom the *Ōtōkan* line of Japanese Rinzai derives its Chinese transmission[1]. He held abbacies at the major Linji monasteries on Mount Jing and at Lingyin-si near Hangzhou, and his recorded sayings were widely circulated through the Song-period Linji house[2].
-
-Xutang's principal Japanese heir was Nanpo Jōmin (Daiō Kokushi), who studied with him in China between 1259 and 1267 and returned to found the line that subsequently produced Daitō Kokushi and Kanzan Egen — the Ōtōkan ("Daiō-Daitō-Kanzan") sequence from which essentially all modern Daitoku-ji- and Myōshin-ji-line Rinzai Zen descends[3].
-
 ### Dingzhou Shizang
 
 - **Also known as:** Ting-chou Shih-tsang, Jôshû Sekisô
@@ -3608,17 +3759,6 @@ Dingzhou Shizang (定州石藏, fl. early 9th c.) is named in the *Jǐngdé Chu�
 Danyuan Yingzhen (耽源應真, fl. mid-9th c.) was a Dharma heir of National Teacher Nanyang Huizhong and one of the few figures who carried Huizhong's eclectic Tang-court Chan into the second half of the ninth century[1]. He is best known from the koan-literature account of his role in the "seamless monument" episode preserved in the lamp records and recycled as *Bìyán Lù* Case 18[2].
 
 The episode is set after Nanyang Huizhong's death: a monk asks Danyuan what kind of monument should be built for the late National Teacher, and Danyuan recounts that Nanyang had asked the same question of Emperor Daizong and answered it himself by asking for a "seamless monument" (無縫塔), then sitting in silence — the seamless monument being the silence itself.
-
-### Muzhou Daoming
-
-- **Also known as:** Mu-chou Tao-ming, Bokushû Dômyô
-- **Dates:** Dates uncertain
-- **School:** Linji
-- **Teachers:** Huangbo Xiyun
-
-Muzhou Daoming (睦州道明, 780–877), also known as Chen Zunsu (陳尊宿) after the sandal-weaving lay-name he kept on after monastic retirement, was a Dharma heir of Huangbo Xiyun and one of the most demanding teachers of the late-Tang generation[1]. After many years at Kaiyuan Temple in Muzhou (modern Zhejiang) and a period of teaching activity, he retired into the city to weave straw sandals which he distributed anonymously to the poor — the practice from which his "Sandalweaver" nickname derives[2].
-
-Muzhou is best remembered as the master who broke open Yunmen Wenyan's training.
 
 ### Touzi Yiqing
 
@@ -3689,15 +3829,6 @@ Huangbo Xiyun was a student of Baizhang Huaihai and the teacher of Linji Yixuan,
 
 Huangbo's teaching on the One Mind is recorded in the Transmission of Mind, compiled by his student Pei Xiu: "All buddhas and all sentient beings are nothing but the One Mind, beside which nothing exists. This mind, which is without beginning, is unborn and indestructible. It is not green nor yellow, and has neither form nor appearance.
 
-### Nanyue Daoxuan
-
-- **Dates:** Dates uncertain
-- **School:** Qingyuan line
-- **Teachers:** Shitou Xiqian
-- **Students:** Danyuan Yingzhen
-
-Nanyue Daoxuan (南嶽道宣, fl. mid-9th c.) is recorded in the *Jǐngdé Chuándēng Lù* as a Chan teacher of the Nanyue / Shitou region in modern Hunan — distinct from the much earlier Tang Vinaya master Daoxuan (596–667) who founded the Nanshan Vinaya school[1]. Beyond his placement among the second- or third-generation Shitou-line teachers, the surviving record preserves little of his individual story; he is one of the many figures who anchored the regional Chan network that radiated outward from Mount Nanyue through the late Tang[2].
-
 ### Xingyang Qingpou
 
 - **Also known as:** Hsing-yang Ch'ing-p'ou, Kôyô Seibô
@@ -3729,16 +3860,6 @@ Baizhang also created the formal Dharma hall where the abbot teaches the communi
 Wufeng Changguan (五峰常觀, fl. early 9th c.) was a Dharma heir of Mazu Daoyi who taught at Mount Wufeng ("Five Peaks") in modern Jiangxi[1]. The lamp records preserve a small body of his exchanges, in which he uses the staff and the shout in the directly confrontational manner the Hongzhou line would pass on to the Linji house in the next generation[2].
 
 Although the bulk of Wufeng's specific record is preserved only in summary form, his name recurs in the genealogy of the Hongzhou community as one of the secondary Mazu heirs whose communities anchored the line's regional spread through Jiangxi and the middle Yangzi during the early ninth century — the institutional substrate from which the later Guishan, Linji and other Hongzhou-stream sub-lineages descend[3].
-
-### Brad Warner
-
-- **Dates:** Dates uncertain
-- **School:** Sōtō
-- **Teachers:** Gudo Wafu Nishijima
-
-Brad Warner (born 5 March 1964 in Hamilton, Ohio) is an American Sōtō Zen priest, author, blogger, documentarian, and punk-rock bass guitarist — the most widely-read English-language teacher in the lineage of Gudō Wafu Nishijima[1]. He grew up mainly near Akron, Ohio (with a stint in Nairobi as a child while his father worked abroad), attended Kent State University, and as a teenager joined the hardcore punk band Zero Defex on bass after a friend introduced him to the Akron scene[1]. He later played in the psychedelic band Dimentia 13, which released several albums on the New York label Midnight Records.
-
-Warner began Zen practice in Ohio under Tim McCarthy and later studied with the Jōdo Shinshū-influenced teacher Gyōmay Kubose[1].
 
 ### Sesso Hoseki
 
@@ -3822,18 +3943,6 @@ Sekiso Tesshu is recorded in the historiography of the medieval / early-modern J
 
 Guifeng Zongmi is recorded in the historiography of the late-Tang / Song-period Chan transmission network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].
 
-### Wuzu Fayan
-
-- **Also known as:** Wu-tsu Fa-yen, Goso Hôen
-- **Dates:** Dates uncertain
-- **School:** Linji
-- **Teachers:** Baiyun Shouduan
-- **Students:** Foyan Qingyuan, Kaifu Daoning, Yuanwu Keqin
-
-Wuzu Fayan (五祖法演, c. 1024–1104), the "Fifth Patriarch Fayan" — so called because he taught at the Dongshan-si on Mount East-Mountain (Wǔzǔ-shān), the same site where the Fifth Patriarch Hongren had taught some four centuries earlier, and not to be confused with the earlier Fayan Wenyi — was the major Yangqi-line Linji master of the late Northern Song[1]. He was the Dharma heir of Baiyun Shouduan and the teacher of three of the most consequential figures of Song-period Chan: Yuanwu Keqin, Foyan Qingyuan, and Foguo Weibai[2].
-
-Wuzu is one of the most cited teachers in the Song koan literature, and his recorded sayings — collected as the *Wǔzǔ Fǎyǎn Chánshī Yǔlù* — are characterised by terse, paradoxical formulations that refuse both affirmation and negation.
-
 ### Zhuan Shigui
 
 - **Also known as:** Chu-an Shih-kuei, Chikuan Shikei
@@ -3915,23 +4024,6 @@ Shaoshan Huanpu (韶山寰普, fl. mid-9th c.) is recorded in the *Jǐngdé Chu�
 - **Students:** Meido Yuton
 
 Fukushu Kochi is recorded in the historiography of the medieval / early-modern Japanese Sōtō branch-temple network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].
-
-### Changlu Qingliao
-
-- **Dates:** Dates uncertain
-- **School:** Caodong
-
-Changlu Qingliao (長蘆清了, 1089–1151), also styled Zhenxie Qingliao (真歇清了), was a Northern- and Southern-Song Caodong master in the line of Furong Daokai who held abbacies at Changlu (長蘆寺) and Tiantong, and one of the senior Caodong teachers of the *mòzhào* ("silent illumination") revival[1]. He is generally treated alongside his Dharma brother Hongzhi Zhengjue as a key architect of the twelfth-century Caodong renewal that prompted Dahui Zonggao's polemic against silent illumination[2].
-
-### Yuquan Shenxiu
-
-- **Also known as:** Yü-Ch'uan Shên-hs'iu, Gyokusen Jinshû
-- **Dates:** Dates uncertain
-- **School:** Early Chan
-- **Teachers:** Daman Hongren
-- **Students:** Jingzhong Wuxiang, Songshan Puji
-
-Yuquan Shenxiu (玉泉神秀, c. 606–706) was the senior disciple of the Fifth Patriarch Daman Hongren and the most prominent Chan teacher of his generation. Patronised by Empress Wu Zetian and her successors, he served as a *guóshī* (National Teacher) at the Tang court in Chang'an and Luoyang and received imperial honours on a scale unmatched by any other Chan teacher of his era[1]. The verse attributed to him in the *Platform Sūtra* — "The body is the Bodhi-tree, the mind is a bright mirror; constantly polish it, let no dust alight" — is read in that text as the gradual-cultivation foil for Huineng's sudden-awakening response[2].
 
 ### Baizan Monpon
 
@@ -4112,15 +4204,6 @@ Pierre Sōkō Leroux is a French-Catalan Sōtō Zen monk in the Deshimaru–Kōs
 
 For twelve years he served as tenzo (kitchen master) of the Kosen Sangha ("Tenzo — responsable de la comida del templo — de la Kosen Sangha durante doce años")[1]. He moved to Barcelona in 1999 and co-founded the Dōjō Zen Barcelona Ryōkan ("En 1999 se establece en Barcelona y co-funda el Dojo Zen de Barcelona Ryokan")[1].
 
-### Poan Zuxian
-
-- **Dates:** Dates uncertain
-- **School:** Yangqi line
-- **Teachers:** Zhuan Shigui
-- **Students:** Wuzhun Shifan
-
-Po'an Zuxian (破菴祖先, 1136–1211) was a Yangqi-line Linji master of the Southern Song and the Dharma heir of Mi'an Xianjie; his Dharma in turn passed to Wuzhun Shifan, the major Jingshan-monastery teacher of the next generation[1]. The lamp records and the *Po'an Yulu* preserve a small but coherent body of his teaching, and his place in Chan history is principally that of the immediate link between Mi'an and the late-Song Yangqi resurgence under Wuzhun and his successors[2].
-
 ### Shaku Kojyu
 
 - **Also known as:** Shaku Kōjyū, Kojyu Shaku
@@ -4166,17 +4249,6 @@ Zhongyi Hongen is recorded in the historiography of the modern Zen transmission 
 
 Tenyu Soen is recorded in the historiography of the medieval / early-modern Japanese Sōtō branch-temple network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].
 
-### Wuzhun Shifan
-
-- **Dates:** Dates uncertain
-- **School:** Yangqi line
-- **Teachers:** Poan Zuxian
-- **Students:** Yuelin Shiguan, Xutang Zhiyu, Xueyan Zuqin
-
-Wuzhun Shifan (無準師範, 1178–1249) was one of the most influential Linji-Yangqi-line masters of the late Southern Song and the abbot of the major Jingshan (徑山) monastery near Hangzhou under the patronage of Emperor Lizong[1]. His community drew students from across East Asia, including the Japanese monks Enni Ben'en and Mukan Fumon, both of whom returned to Japan after receiving his transmission and founded major Rinzai institutions there[2].
-
-The portrait of Wuzhun painted in 1238 and presented to Enni is the earliest dated *chinsō* (Chan-master portrait) preserved in Japan; it is held at Tōfuku-ji in Kyoto and designated a National Treasure, and it is one of the most reproduced single images of a Chan teacher in the iconographic tradition[3].
-
 ### Longya Judun
 
 - **Also known as:** Lung-ya Chü-tun, Ryûge Kodon
@@ -4194,16 +4266,6 @@ Longya Judun is recorded in the historiography of the late-Tang / Song-period Ch
 - **Students:** Jissan Mokuin
 
 Fuzan Shunki is recorded in the historiography of the medieval / early-modern Japanese Sōtō branch-temple network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].
-
-### Stephane Kosen Thibaut
-
-- **Also known as:** Stéphane Kosen Thibaut, Kosen Thibaut, Stephane Thibaut
-- **Dates:** Dates uncertain
-- **School:** Sōtō
-- **Teachers:** Taisen Deshimaru, Niwa Rempō Zenji
-- **Students:** Pierre Sōkō Leroux, Bárbara Kōsen Richaudeau, André Ryūjō Meissner, Yvon Myōken Bec, Christophe Ryūrin Desmur, Loïc Kōshō Vuillemin, Ingrid Gyū-Ji Igelnick, Françoise Jōmon Julien, Paula Reikiku Femenias, Ariadna Dōsei Labbate, Toshiro Taigen Yamauchi, Maria Teresa Shōgetsu Avila
-
-Stéphane Jacques Germain Thibaut, known under the religious name Kōsen, was born on 26 May 1950 in the 16th arrondissement of Paris and died on 21 September 2025 in Montpellier at the age of 75[1]. The son of the musician Gilles Thibaut and a teacher-psychologist mother, he studied theatre and mime at the École internationale Jacques Lecoq in Paris before, at nineteen, encountering Taisen Deshimaru, who was then introducing Sōtō Zen to Europe. He became Deshimaru's disciple, received the bodhisattva ordination under the name Kōsen, then the monastic ordination of a Zen monk in 1971, and practised at his master's side for some fifteen years until Deshimaru's death in 1982[1][3].
 
 ### Yantou Quanhuo
 
@@ -4316,16 +4378,6 @@ Xita Guangmu is recorded in the historiography of the late-Tang / Song-period Ch
 - **Students:** Sekko Soshin
 
 Giten Gensho is recorded in the historiography of the post-Daitō / Myōshin-ji Rinzai transmission lines as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].
-
-### Baotang Wuzhu
-
-- **Dates:** Dates uncertain
-- **School:** Early Chan
-- **Teachers:** Jingzhong Wuxiang
-
-Wuzhu (無住, 714–774) was the founder of the Bao-Tang school of Chan in Sichuan and one of the most radical figures of the eighth-century proto-Chan movement[1]. Initially trained in the Northern-School lineage and then in the Sichuanese Jingzhong tradition of Wuxiang, he eventually established his own community at Bao-Tang temple (保唐寺) near Chengdu and propagated an aggressively iconoclastic teaching that rejected external practice — bowing, chanting, formal sūtra recitation, and even seated meditation — as forms of attachment[2].
-
-The Bao-Tang school is best known through the *Lìdài Fǎbǎo Jì* (歷代法寶記), a late-eighth-century Dunhuang text recovered in the early twentieth century and now central to the modern scholarly reconstruction of pre-Linji Chan.
 
 ### Shexian Guixing
 
@@ -4460,16 +4512,6 @@ Dayang Jingxuan is recorded in the historiography of the late-Tang / Song-period
 
 Sessan Tetsuzen is recorded in the historiography of the medieval / early-modern Japanese Sōtō branch-temple network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].
 
-### Tiantong Rujing
-
-- **Also known as:** T'ien-t'ung Ju-ching, Tendô Nyojô, tendô nyojô, t'ien-t'ung ju-ching
-- **Dates:** Dates uncertain
-- **School:** Caodong
-- **Teachers:** Xuedou Zhijian
-- **Students:** Dōgen, Jakuen
-
-Tiantong Rujing (天童如淨, 1163–1228) was the Caodong master under whom Dōgen received Dharma transmission at the Tiantong-si monastery near Mingzhou between 1223 and 1227, and is thus the figure through whom the Caodong stream entered Japan as Sōtō Zen[1]. He was a Dharma heir of Xuedou Zhijian (also known as Zu'an Zhijian, 1105–1192), held the abbacy at Tiantong from 1224 until his death, and counted at least six "intimate Dharma heirs" — best-documented among them Dōgen himself, Jakuen (whose heir Giun would become the 5th abbot of Eihei-ji in 1314), and the Chinese monk Wuwai Yiyuan who much later (1242) sent Dōgen's collected *yulu* to Eihei-ji as the principal Chinese sanctioning document for the Japanese line[1][2].
-
 ### Yuantong Fashen
 
 - **Also known as:** Yüan-t'ung Fa-shên, Entsû Hôshû, Fayun
@@ -4489,25 +4531,6 @@ Yuantong Fashen is recorded in the historiography of the late-Tang / Song-period
 
 Tongan Daopi is recorded in the historiography of the late-Tang / Song-period Chan transmission network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].
 
-### Yanguan Qian
-
-- **Also known as:** Yen-kuan Ch'i-an, Enkan Seian
-- **Dates:** Dates uncertain
-- **School:** Nanyue line
-- **Teachers:** Mazu Daoyi
-- **Students:** Pŏmil
-
-Yanguan Qi'an (鹽官齊安, c. 750–842) was a Dharma heir of Mazu Daoyi who taught at Haichang-yuan in Yanguan (modern Hangzhou region), the salt-administration town from which his sobriquet derives[1]. The lamp records preserve a number of his exchanges in the characteristic Hongzhou-line style and document his relatively long abbacy in the second half of the eighth and the first half of the ninth century[2].
-
-### Hongzhi Zhengjue
-
-- **Also known as:** Hung-chih Chêng-chüeh, Wanshi Shôgaku
-- **Dates:** Dates uncertain
-- **School:** Caodong
-- **Teachers:** Danxia Zichun
-
-Hongzhi Zhengjue (宏智正覺, 1091–1157) was the great Southern-Song Caodong master and the foremost articulator of *mòzhào chán* (默照禪, "silent illumination Chan"). He served as abbot of Tiantong-si (天童寺) near Mingzhou for thirty years and built it into the major Caodong centre of the twelfth century[1]. His prose poem *Mòzhào Míng* (默照銘, "Silent-Illumination Inscription") and his hundred verse-comments on koan cases — preserved in the *Hongzhi Songgu* and later assembled by Wansong Xingxiu into the *Cóngróng Lù* (從容錄, "Book of Serenity") — are the canonical statements of the silent-illumination practice and the Caodong literary-koan tradition that paralleled the Linji *Bìyán Lù* line[2].
-
 ### Deshan Yuanmi
 
 - **Also known as:** Tê-shan Yüan-mi, Tokusan Emmitsu, Yuanming
@@ -4517,18 +4540,6 @@ Hongzhi Zhengjue (宏智正覺, 1091–1157) was the great Southern-Song Caodong
 
 Deshan Yuanmi is recorded in the historiography of the late-Tang / Song-period Chan transmission network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].
 
-### Xitang Zhizang
-
-- **Also known as:** Hsi-t'ang Chih-tsang, Seidô Chizô
-- **Dates:** Dates uncertain
-- **School:** Nanyue line
-- **Teachers:** Mazu Daoyi
-- **Students:** Wufeng Changguan, Doui, Hyech'ŏl
-
-Xitang Zhizang (西堂智藏, 735–814) was, with Baizhang Huaihai and Nanquan Puyuan, one of the three principal Dharma heirs of Mazu Daoyi who collectively defined the mature shape of the Hongzhou house[1]. He served as abbot at the Kaiyuan-si in Jiangxi, the very temple where Mazu had taught, and was for several decades the institutional anchor of the Mazu community after the founder's death in 788[2].
-
-Xitang is also the master through whom the Hongzhou line first reached Korea: the two future founders of Korean Nine-Mountain Schools, Tooui (doui, founder of Gajisan) and Hyech'ŏl (founder of Tongnisan), both received transmission from him in the early ninth century and carried his line back to Silla, making Xitang the proximate ancestor of two of the foundational Korean Seon schools[3].
-
 ### Zifu Rubao
 
 - **Also known as:** Tsü-fu Ju-pao, Shifuku Nyohô
@@ -4537,17 +4548,6 @@ Xitang is also the master through whom the Hongzhou line first reached Korea: th
 - **Teachers:** Xita Guangmu
 
 Zifu Rubao is recorded in the historiography of the late-Tang / Song-period Chan transmission network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].
-
-### Heze Shenhui
-
-- **Also known as:** Ho-tsê Shên-hui, Kataku Jinne
-- **Dates:** Dates uncertain
-- **School:** Early Chan
-- **Teachers:** Dajian Huineng
-
-Heze Shenhui (荷澤神會, 684–758) was the Dharma heir of the Sixth Patriarch Huineng most directly responsible for the construction of the Southern-School orthodoxy of Chan. The decisive episode is the great debate at the Wuzhe assembly at Huatai in 732 (and again in 734), at which Shenhui publicly attacked the Northern-School teachers Shenxiu and Puji and argued that Huineng, not Shenxiu, was the true Sixth Patriarch and that *dùnwù* (sudden awakening) was the authentic doctrine[1]. The polemic effectively determined later official Chan historiography, including the framing of the *Platform Sūtra* itself[2].
-
-Shenhui's own line did not survive past a few generations and he was largely written out of subsequent Linji-house historiography.
 
 ### Huoan Shiti
 
