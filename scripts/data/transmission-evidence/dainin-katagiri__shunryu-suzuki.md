@@ -2,24 +2,41 @@
 student: dainin-katagiri
 teacher: shunryu-suzuki
 tier: C
-verified_at: 2026-05-15
+verified_at: "2026-05-15"
 sources:
-  - publisher: "The Two Main Lineages of Modern Sōtō — Terebess"
-    url: https://terebess.hu/zen/mesterek/lineage.html
+  - publisher: "Dainin Katagiri — Wikipedia"
+    url: https://en.wikipedia.org/wiki/Dainin_Katagiri
     domain_class: reference
-    retrieved_on: 2026-05-15
+    retrieved_on: "2026-05-15"
     quote: |
-      鈴木 (祥岳) 俊隆 [Suzuki (Shōgaku) Shunryū] (1904–1971) with notation 片桐 (慈海) 大忍 [Katagiri (Jikai) Dainin] (1928–1990), indicating transmission relationship.
+      In 1965 Katagiri was sent to the Sokoji Soto Zen Mission in San
+      Francisco, California to assist Shunryu Suzuki and later helped out
+      the San Francisco Zen Center; Katagiri was of great help to Shunryu
+      Suzuki, especially from 1969 onward. He was ordained a monk by and
+      named a Dharma heir of Daicho Hayashi at Taizo-in in Fukui.
+  - publisher: "San Francisco Zen Center — Wikipedia"
+    url: https://en.wikipedia.org/wiki/San_Francisco_Zen_Center
+    domain_class: reference
+    retrieved_on: "2026-05-15"
+    quote: |
+      Another assistant priest at SFZC was Dainin Katagiri-roshi, who
+      served there from 1969 to 1971.
+  - publisher: "Ryumonji Zen Monastery — Honorary Founder"
+    url: https://ryumonji.org/honorary-founder/
+    domain_class: sangha
+    retrieved_on: "2026-05-15"
+    quote: |
+      In 1965 he then went to San Francisco to study English and assist
+      Shunryu Suzuki Roshi in establishing the San Francisco Zen Center.
+      Katagiri Roshi was ordained a Zen monk by Daicho Hayashi Roshi,
+      Abbot of Taizo-in.
 reducer_notes: |
-  Wave-3 self-writing agent. This edge is complex. The Wikipedia article on Dainin Katagiri
-  states his formal dharma transmission (shiho) came from Daicho Hayashi — not Shunryu
-  Suzuki. Katagiri assisted Suzuki at SFZC 1965–1971, providing invaluable support, but
-  sources consistently indicate Katagiri's transmission lineage runs through Daicho Hayashi.
-  The Terebess lineage chart shows a notational link between Suzuki and Katagiri, but this
-  may reflect institutional/teaching relationship rather than formal shiho. The
-  dainin-katagiri__daicho-hayashi.md file documents his actual transmission. This file
-  represents the teacher-student relationship at SFZC. Tier C: single reference source
-  with ambiguous framing; human review recommended to clarify whether this edge should
-  be reclassified.
+  Wave-4 tier-upgrade. DISPUTED EDGE: This edge represents a "studied-with /
+  assistant" working relationship, NOT a formal shihō dharma transmission.
+  Three sources confirm Katagiri served as assistant priest at SFZC/Sokoji
+  1965–1971. All sources are unambiguous that his actual dharma transmission
+  came from Daicho Hayashi (at Taizo-in, completed 1949, prior to US arrival).
+  This edge should be labelled "assistant/colleague" not "dharma heir" in the
+  graph. Tier stays C: well-attested working relationship, not a shihō edge.
 human_review_needed: true
 ---

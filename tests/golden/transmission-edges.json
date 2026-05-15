@@ -1,5 +1,5 @@
 {
-  "edge_count": 467,
+  "edge_count": 480,
   "captured_at": "2026-05-15",
   "note": "Locked-in transmission graph baseline. tests/transmission-graph-snapshot.test.ts fails if any of these rows disappears from master_transmissions. To intentionally change the graph, regenerate via this script and review the diff in your PR.",
   "edges": [
@@ -150,8 +150,8 @@
     {
       "teacher": "cuiyan-kezhen",
       "student": "baoning-renyong",
-      "type": "primary",
-      "isPrimary": true
+      "type": "disputed",
+      "isPrimary": false
     },
     {
       "teacher": "dahui-zonggao",
@@ -252,6 +252,12 @@
     {
       "teacher": "danxia-tianran",
       "student": "cuiwei-wuxue",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "danxia-zichun",
+      "student": "changlu-qingliao",
       "type": "primary",
       "isPrimary": true
     },
@@ -786,8 +792,8 @@
     {
       "teacher": "huanglong-huinan",
       "student": "huanglong-huiji",
-      "type": "primary",
-      "isPrimary": true
+      "type": "disputed",
+      "isPrimary": false
     },
     {
       "teacher": "huanglong-huinan",
@@ -952,6 +958,18 @@
       "isPrimary": true
     },
     {
+      "teacher": "kakuan-ryogu",
+      "student": "ryoka-daibai",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "kakujo-tosai",
+      "student": "kakuan-ryogu",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
       "teacher": "kankai-tokuon",
       "student": "kosen-baido",
       "type": "primary",
@@ -1055,6 +1073,12 @@
     },
     {
       "teacher": "kodo-sawaki",
+      "student": "kishigami-kojun",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "kodo-sawaki",
       "student": "kosho-uchiyama",
       "type": "primary",
       "isPrimary": true
@@ -1062,6 +1086,12 @@
     {
       "teacher": "kodo-sawaki",
       "student": "taisen-deshimaru",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "kodo-sawaki",
+      "student": "yuko-okamoto",
       "type": "primary",
       "isPrimary": true
     },
@@ -1110,6 +1140,12 @@
     {
       "teacher": "kosho-uchiyama",
       "student": "shohaku-okumura",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "koun-ejo",
+      "student": "jakuen",
       "type": "primary",
       "isPrimary": true
     },
@@ -1266,6 +1302,12 @@
     {
       "teacher": "manorhita",
       "student": "haklena",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "masuda-zuimyo",
+      "student": "niwa-bukkan",
       "type": "primary",
       "isPrimary": true
     },
@@ -1476,6 +1518,18 @@
     {
       "teacher": "nippo-soshun",
       "student": "giten-gensho",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "niwa-bukkan",
+      "student": "niwa-butsuan",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "niwa-butsuan",
+      "student": "niwa-rempo-zenji",
       "type": "primary",
       "isPrimary": true
     },
@@ -1842,7 +1896,7 @@
     {
       "teacher": "shoju-rojin",
       "student": "gessen-zenne",
-      "type": "secondary",
+      "type": "disputed",
       "isPrimary": false
     },
     {
@@ -1942,6 +1996,12 @@
       "isPrimary": true
     },
     {
+      "teacher": "sozan-chimon",
+      "student": "yozan-genki-hayashi",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
       "teacher": "sozan-genkyo",
       "student": "kasan-zenryo",
       "type": "primary",
@@ -1998,8 +2058,8 @@
     {
       "teacher": "taiping-huiqin",
       "student": "huguo-jingyuan",
-      "type": "primary",
-      "isPrimary": true
+      "type": "disputed",
+      "isPrimary": false
     },
     {
       "teacher": "taisen-deshimaru",
@@ -2590,6 +2650,12 @@
       "isPrimary": true
     },
     {
+      "teacher": "yangqi-fanghui",
+      "student": "baoning-renyong",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
       "teacher": "yangshan-huiji",
       "student": "jingzhao-mihu",
       "type": "disputed",
@@ -2650,6 +2716,12 @@
       "isPrimary": true
     },
     {
+      "teacher": "yozan-genki-hayashi",
+      "student": "daicho-hayashi",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
       "teacher": "yozan-keiyo",
       "student": "gudo-toshoku",
       "type": "primary",
@@ -2658,6 +2730,12 @@
     {
       "teacher": "yuanwu-keqin",
       "student": "dahui-zonggao",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "yuanwu-keqin",
+      "student": "huguo-jingyuan",
       "type": "primary",
       "isPrimary": true
     },
