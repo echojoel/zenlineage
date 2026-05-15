@@ -501,6 +501,30 @@ body {
   letter-spacing: 0.12em;
   text-transform: uppercase;
   color: var(--ink-light);
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+.lineage-legend-info {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  border: 1px solid color-mix(in srgb, var(--ink) 30%, transparent);
+  color: var(--ink-light);
+  font-size: 0.6rem;
+  line-height: 1;
+  font-weight: 600;
+  text-decoration: none;
+  letter-spacing: 0;
+  cursor: help;
+  transition: border-color 0.15s, color 0.15s;
+}
+.lineage-legend-info:hover {
+  color: var(--ink);
+  border-color: var(--ink);
 }
 .lineage-legend-list {
   list-style: none;

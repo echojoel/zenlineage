@@ -1,14 +1,14 @@
 # Zen Lineage — Complete Reference
 
-> An open-source interactive encyclopedia of Zen Buddhism covering 520+ masters,
-> 25 schools, 560+ lineage transmissions, 860+ teachings, and 1,700+ scholarly
+> An open-source interactive encyclopedia of Zen Buddhism covering 540+ masters,
+> 25 schools, 600+ lineage transmissions, 860+ teachings, and 1,700+ scholarly
 > citations across 2,500 years of Chan, Zen, Seon, and Thien Buddhist history.
 
 Zen Lineage maps the dharma transmission lineages connecting Buddhist masters
 from Shakyamuni Buddha through Bodhidharma to modern teachers. All content
 requires item-level citations from scholarly sources before publication.
 
-Generated: 2026-05-14
+Generated: 2026-05-15
 
 ---
 
@@ -625,6 +625,7 @@ Daowu Yuanzhi (道吾圓智, 769–835) was the Dharma heir of Yaoshan Weiyan an
 - **Dates:** null – 775
 - **School:** Early Chan
 - **Teachers:** Dajian Huineng
+- **Students:** Danyuan Yingzhen
 
 Nanyang Huizhong (南陽慧忠, c. 675–775) is named in the lamp records as a Dharma heir of the Sixth Patriarch Huineng who lived for some forty years as a hermit on Mount Baiya in Henan before being summoned to the Tang court, where he served as National Teacher (*guóshī*) under Emperors Suzong and Daizong[1]. His position is unusual within the Southern School: a hermit-turned-imperial-adviser whose long isolation gave him an authority distinct from the court-tied northern teachers of the same generation[2].
 
@@ -709,7 +710,7 @@ At that meeting Chuanzi, after a series of probing questions, capsized the boat 
 - **Dates:** 807 – 869
 - **School:** Qingyuan line
 - **Teachers:** Yunyan Tansheng
-- **Students:** Longya Judun, Qinshan Wensui, Caoshan Benji, Shushan Kuangren, Wenshu Yingzhen, Yuezhou Qianfeng, Yunju Daoying
+- **Students:** Longya Judun, Qinshan Wensui, Caoshan Benji, Shushan Kuangren, Wenshu Yingzhen, Yuezhou Qianfeng, Yunju Daoying, Qinglin Shiqian
 
 Dongshan Liangjie was the founder of the Caodong school of Chinese Chan, the tradition that later became the Japanese Soto school through Dogen[1]. He was a student of Yunyan Tansheng and is famous above all for his awakening experience while crossing a stream: seeing his reflection in the water, he suddenly understood the teaching that Yunyan had been pointing to. His verse on this moment begins: "Earnestly avoid seeking without, lest it recede far from you."[2]
 
@@ -721,7 +722,7 @@ Dongshan developed the teaching of the Five Ranks (Wuwei), a sophisticated schem
 - **Dates:** 807 – 888
 - **School:** Qingyuan line
 - **Teachers:** Daowu Yuanzhi
-- **Students:** Jiufeng Daoqian, Nanta Guangyong, Dingzhou Shizang, Yungai Zhiyuan
+- **Students:** Jiufeng Daoqian, Nanta Guangyong, Dingzhou Shizang, Yungai Zhiyuan, Daguang Juhui
 
 Shishuang Qingzhu (石霜慶諸, 807–888) was the Dharma heir of Daowu Yuanzhi and one of the most distinctive teachers of the late-Tang Yaoshan stream. The *Jǐngdé Chuándēng Lù* describes the community he established on Mount Shishuang (in modern Hunan) as the "withered-tree hall" (枯木堂), so called because its monks were trained to sit with such radical stillness that they were said to look like "dead trees and cold ashes" — a practice that prefigures the silent-illumination (*mòzhào chán*) of the later Caodong revival[1].
 
@@ -752,7 +753,7 @@ His recorded sayings, gathered in the *Touzi Datong Chánshī Yǔlù*, are spare
 - **Dates:** 822 – 908
 - **School:** Qingyuan line
 - **Teachers:** Deshan Xuanjian
-- **Students:** Jingqing Daofu, Lianhua Fengxiang, Luoshan Daoxian, Mingzhao Deqian, Qingxi Hongjin, Baofu Congzhan, Changqing Huileng, Cuiyan Lingcan, Xuansha Shibei, Yunmen Wenyan, Changfu Zhi
+- **Students:** Jingqing Daofu, Lianhua Fengxiang, Luoshan Daoxian, Mingzhao Deqian, Qingxi Hongjin, Baofu Congzhan, Changqing Huileng, Cuiyan Lingcan, Xuansha Shibei, Yunmen Wenyan, Changfu Zhi, Taiyuan Fu
 
 Xuefeng Yicun was a student of Deshan Xuanjian who traveled and practiced intensively for decades before his awakening, reportedly visiting his teacher Touzi Datong nine times and Dongshan Liangjie three times before his final awakening occurred with Deshan[1]. He founded a large monastic community on Xuefeng Mountain that attracted hundreds of students and became one of the major centers of Chan in the late Tang dynasty[2].
 
@@ -812,7 +813,7 @@ Xuansha Shibei (玄沙師備, 835–908) is recorded in the *Sòng Gāosēng Zhu
 - **Also known as:** Ta-kuang Chü-hui, Daikô Kokai
 - **Dates:** 837 – 903
 - **School:** Qingyuan line
-- **Teachers:** Touzi Datong
+- **Teachers:** Touzi Datong, Shishuang Qingzhu
 
 Daguang Juhui (大光居誨, 837–903) is recorded in the *Jǐngdé Chuándēng Lù* as a Dharma heir of Shishuang Qingzhu and one of the lesser-attested teachers of the late-Tang Yaoshan / Qingyuan-line stream[1]. He taught in the Tan-zhou region of modern Hunan, where Shishuang's "withered-tree hall" practice was being carried forward by a small number of successors[2].
 
@@ -867,7 +868,7 @@ Linji Yixuan founded one of the most dynamic and enduring of all Chan schools, t
 - **Dates:** 867 – 928
 - **School:** Qingyuan line
 - **Teachers:** Xuansha Shibei
-- **Students:** Fayan Wenyi
+- **Students:** Fayan Wenyi, Longji Shaoxiu, Qingxi Hongjin
 
 Luohan Guichen (羅漢桂琛, 867–928), also known as Dizang Guichen after his temple at Mount Dizang in Zhangzhou (Fujian), was the principal Dharma heir of Xuansha Shibei and the teacher of Fayan Wenyi[1]. The lamp records describe a probing, unhurried teaching style, characterised less by the abrupt shouts and strikes of the Linji line than by carefully turned questions that thrust the student back on their own resources[2].
 
@@ -890,7 +891,7 @@ The best-known of his exchanges is preserved as Case 46 of the *Bìyán Lù*: a 
 - **Dates:** 885 – 958
 - **School:** Fayan
 - **Teachers:** Luohan Guichen
-- **Students:** Guizong Cezhen, Baoci Xingyan, Chongshou Qichou, Tiantai Deshao
+- **Students:** Guizong Cezhen, Baoci Xingyan, Chongshou Qichou, Tiantai Deshao, Baoen Xuanze
 
 Fayan Wenyi (法眼文益, 885–958) was the founder of the Fayan house (法眼宗), the latest of the canonical Five Houses of Chan. He was a scholar-monk of unusual breadth before he turned to Chan: the *Sòng Gāosēng Zhuàn* records his early mastery of Huayan and Yogācāra philosophy, and the lamp records preserve his awakening under Luohan Guichen during a snowed-in pilgrimage when Luohan answered his "I don't know" with "Not knowing is most intimate"[1]. He went on to receive Dharma transmission from Luohan and was patronised by the kings of the Southern Tang at the Qingliang Temple in Jinling (modern Nanjing)[2].
 
@@ -921,7 +922,7 @@ Yunju's teaching emphasised the quiet, unadorned *zazen*-centered style that the
 - **Also known as:** Ch'ing-lin Shih-ch'ien, Seirin Shiken
 - **Dates:** null – 904
 - **School:** Nanyue line
-- **Teachers:** Zhaozhou Congshen
+- **Teachers:** Zhaozhou Congshen, Dongshan Liangjie
 
 Qinglin Shiqian is recorded in the historiography of the modern Zen transmission network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].
 
@@ -1015,7 +1016,7 @@ Xuedou Chongxian (雪竇重顯, 980–1052) was the most influential literary fi
 - **Dates:** 992 – 1049
 - **School:** Yangqi line
 - **Teachers:** Shishuang Chuyuan
-- **Students:** Baiyun Shouduan
+- **Students:** Baiyun Shouduan, Baoning Renyong
 
 Yangqi Fanghui (楊岐方會, 992–1049) was a Dharma heir of Shishuang Chuyuan and the founder of the Yangqi (楊岐) sub-house of the Linji school, the one of the two Linji sub-lineages — alongside Huanglong Huinan's — which proved to be the more enduring[1]. He taught at Mount Yangqi in modern Jiangxi, where his small community produced the immediate ancestors of the great mid-eleventh- to twelfth-century Yangqi line: through his successor Baiyun Shouduan, the Yangqi line passed to Wuzu Fayan and then to the three masters who shaped the canonical form of late-imperial Linji practice — Yuanwu Keqin (compiler of the *Bìyán Lù*), Foyan Qingyuan, and through Yuanwu, Dahui Zonggao[2].
 
@@ -1067,7 +1068,7 @@ Kewen's chief Dharma heir Doushuai Congyue and others carried the Huanglong sub-
 - **Dates:** 1063 – 1135
 - **School:** Linji
 - **Teachers:** Wuzu Fayan
-- **Students:** Dahui Zonggao, Yuean Shanguo
+- **Students:** Dahui Zonggao, Yuean Shanguo, Huguo Jingyuan
 
 Yuanwu Keqin (圜悟克勤, 1063–1135) was the principal Dharma heir of Wuzu Fayan and the foremost Yangqi-line Linji master of the early Southern Song[1]. He held abbacies at the major Linji monasteries of his generation, including Jiashan-si and Lingyin-si, and received the imperial title *Yuanwu Chánshī* from Emperor Gaozong[2].
 
@@ -1087,6 +1088,7 @@ Dahui Zonggao (大慧宗杲, 1089–1163) was the principal Dharma heir of Yuanw
 
 - **Dates:** 1089 – 1151
 - **School:** Caodong
+- **Teachers:** Danxia Zichun
 
 Changlu Qingliao (長蘆清了, 1089–1151), also styled Zhenxie Qingliao (真歇清了), was a Northern- and Southern-Song Caodong master in the line of Furong Daokai who held abbacies at Changlu (長蘆寺) and Tiantong, and one of the senior Caodong teachers of the *mòzhào* ("silent illumination") revival[1]. He is generally treated alongside his Dharma brother Hongzhi Zhengjue as a key architect of the twelfth-century Caodong renewal that prompted Dahui Zonggao's polemic against silent illumination[2].
 
@@ -1755,7 +1757,7 @@ Shidō Bunan (至道無難, 1603–1676) was the Dharma heir of Gudō Tōshoku a
 - **Dates:** 1618 – 1696
 - **School:** Sōtō
 - **Teachers:** Hakuho Genteki
-- **Students:** Tokuo Ryoko
+- **Students:** Tokuo Ryoko, Tenkei Denson, Tokuzui Tenrin
 
 Gesshū Sōko (月舟宗胡, 1618–1696) was an Edo-period Sōtō master who, with his Dharma heir Manzan Dōhaku, led the seventeenth-century *shūtō fukko* — the "restoration of the Sōtō lineage" — that returned the school to face-to-face Dharma transmission and to the textual study of Dōgen's *Shōbōgenzō* after several centuries in which both had eroded in favour of temple-tied lineage assignment (*garanbō*)[1]. Trained at Daijō-ji in Kaga, he served as abbot there from 1666 and used the temple as the institutional base from which the reform was launched[2].
 
@@ -1807,6 +1809,13 @@ Nguyên Thiều (元韶, 1648–1728) was the Cantonese Linji-Yangqi-line monk w
 
 He travelled to Đàng Trong (the Nguyễn-lord south of Đại Việt) in 1677, arriving during the political upheaval of the Qing conquest of the last Ming loyalists, and was received under the patronage of Lord Nguyễn Phúc Tần.
 
+### Tenkei Denson
+
+- **Dates:** 1648 – 1735
+- **School:** Sōtō
+- **Teachers:** Gesshu Soko
+- **Students:** Bokushitsu Bokushū
+
 ### Tokuo Ryoko
 
 - **Dates:** 1649 – 1709
@@ -1839,7 +1848,7 @@ Mokushi Soen (1673–1746) is recorded in the historiography of the medieval / e
 - **Dates:** 1683 – 1767
 - **School:** Sōtō
 - **Teachers:** Mokushi Soen
-- **Students:** Kokoku Soryu
+- **Students:** Kokoku Soryu, Gentō Sokuchū
 
 Gangoku Gankei (1683–1767) is recorded in the historiography of the medieval / early-modern Japanese Sōtō branch-temple network as an abbot in its transmission lineage. The surviving record preserves his lineage placement; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].
 
@@ -1882,6 +1891,14 @@ Gessen Zenne is recorded in the historiography of the post-Daitō / Myōshin-ji 
 
 Gasan Jito is recorded in the historiography of the post-Daitō / Myōshin-ji Rinzai transmission lines as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].
 
+### Gentō Sokuchū
+
+- **Also known as:** Gento Sokuchu
+- **Dates:** 1729 – 1807
+- **School:** Sōtō
+- **Teachers:** Gangoku Gankei
+- **Students:** Kyozan Baizen
+
 ### Sengai Gibon
 
 - **Dates:** 1750 – 1837
@@ -1905,7 +1922,7 @@ Inzan Ien is recorded in the historiography of the post-Daitō / Myōshin-ji Rin
 - **Dates:** 1760 – 1833
 - **School:** Rinzai
 - **Teachers:** Gasan Jito
-- **Students:** Myoki Soseki
+- **Students:** Myoki Soseki, Sosan Genkyō
 
 Takuju Kosen is recorded in the historiography of the post-Daitō / Myōshin-ji Rinzai transmission lines as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].
 
@@ -1944,6 +1961,14 @@ Karyō Zuika is recorded in the Myōshin-ji line documentation as a Rinzai abbot
 - **Students:** Ogino Dokuen
 
 Daisetsu Joen is recorded in the historiography of the post-Daitō / Myōshin-ji Rinzai transmission lines as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].
+
+### Sosan Genkyō
+
+- **Also known as:** Sozan Genkyō
+- **Dates:** 1798 – 1868
+- **School:** Rinzai
+- **Teachers:** Takuju Kosen
+- **Students:** Kasan Zenryō
 
 ### Gisan Zenrai
 
@@ -2052,7 +2077,7 @@ Gyeongheo Seongu (鏡虛惺牛, 1846–1912) single-handedly revived Korean Seon
 
 - **Dates:** 1848 – 1922
 - **School:** Rinzai
-- **Teachers:** Gisan Zenrai
+- **Teachers:** Gisan Zenrai, Kasan Zenryō
 - **Students:** Yamamoto Gempo
 
 Sohan Genyo is recorded in the historiography of the post-Daitō / Myōshin-ji Rinzai transmission lines as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].
@@ -2103,12 +2128,20 @@ Shaku Sōen (釈宗演), often romanised in his lifetime as Soyen Shaku, was bor
 
 Oka Sōtan (丘宗潭, 1860–1921) was a late-Meiji / Taishō Sōtō master, the founding (first) abbot of Antai-ji in northern Kyoto when it was constituted in 1921 as a *Shōbōgenzō*-study monastery, abbot of Daiji-ji, and president of the Sōtōshū / Komazawa University in 1918. He received Dharma transmission from Tōken Mitetsu, while undertaking *Shōbōgenzō* study under the great Meiji-era scholastic Nishiari Bokusan — Nishiari being a senior teacher and scholarly mentor rather than his shihō master, despite frequent loose conflation of the two roles in secondary sources[1][2].
 
+### Niwa Bukkan Myōkoku
+
+- **Also known as:** Bukkan Myōkoku, Niwa Bukkan
+- **Dates:** 1862 – 1904
+- **School:** Sōtō
+- **Teachers:** Masuda Zuimyō
+- **Students:** Niwa Butsuan Emyō
+
 ### Niwa Butsuan Emyō
 
 - **Also known as:** Niwa Butsuan, Butsuan Niwa, Butsuan Emyō
 - **Dates:** 1864 – 1937
 - **School:** Sōtō
-- **Teachers:** Kodo Sawaki
+- **Teachers:** Kodo Sawaki, Niwa Bukkan Myōkoku
 - **Students:** Niwa Rempō Zenji
 
 Niwa Butsuan (丹羽佛庵, c. 1864–1937) was a Japanese Sōtō priest and head of Tōkei-in in Shizuoka Prefecture in the late Meiji and early Shōwa periods. His chief historical importance is as the ordaining and Dharma-transmitting teacher of his nephew Niwa Rempō (the future 77th abbot of Eihei-ji): Rempō was ordained at age 12 (1916) under Butsuan at Tōkei-in and received Dharma transmission (shihō) from him in 1926[1]. Outside this transmission line, biographical information on Butsuan is sparse in English-language sources, and a fuller portrait would require Japanese-language primary materials from Tōkei-in's own succession registers[1][2].
@@ -2272,7 +2305,7 @@ Thích Quảng Đức (釋廣德, 1897–1963) is among the most internationally
 - **Also known as:** Hakujun Kuroda
 - **Dates:** 1898 – 1978
 - **School:** Sōtō
-- **Teachers:** Keido Chisan
+- **Teachers:** Keido Chisan, Guhaku Daiōshō
 - **Students:** Taizan Maezumi
 
 Baian Hakujun Kuroda (黒田白雲, 1898–1978) was a leading mid-twentieth-century Sōtō priest, abbot of Kōshin-ji / Kirigaya-ji in Tokyo and of his family temple in Ōtawara, Tochigi, and the father and Sōtō dharma transmitter of Hakuyū Taizan Maezumi. Within Western Zen he is most often encountered as the 'Hakujun' of 'Baian Hakujun Daiosho,' the dharma name from which the White Plum Asanga (白梅花) — the lineage federation of Maezumi's twelve American heirs — takes its identity[1].
@@ -2531,6 +2564,14 @@ Daehaeng Kun Sunim (大行, 1927–2012) is one of the most important Korean fem
 Jikai Dainin Katagiri (January 19, 1928 – March 1, 1990) was the Sōtō priest most responsible for establishing Zen practice across the American Midwest[1]. Born in Osaka, he was ordained in 1946 by Daichō Hayashi at Taizō-in in Fukui Prefecture, from whom he eventually received Dharma transmission; he then trained for three years under the famously severe Ekō Hashimoto at Eihei-ji before entering Komazawa University in Tokyo, where he majored in Buddhist studies[1]. After graduation he served at Eihei-ji and was assigned to North America by the Sōtōshū[1].
 
 Katagiri's American ministry began in 1963 at Zenshūji Sōtō Mission in Los Angeles.
+
+### Guhaku Daiōshō
+
+- **Also known as:** Guhaku
+- **Dates:** null – 1928
+- **School:** Sōtō
+- **Teachers:** Ryoka Daibai
+- **Students:** Baian Hakujun Kuroda
 
 ### Sojun Mel Weitsman
 
@@ -3146,7 +3187,7 @@ Baizhang Niepan is recorded in the historiography of the late-Tang / Song-period
 - **Also known as:** Ch'ing-hsi Hung-chin, Seikei Kôshin, Jinshan
 - **Dates:** Dates uncertain
 - **School:** Qingyuan line
-- **Teachers:** Xuefeng Yicun
+- **Teachers:** Xuefeng Yicun, Luohan Guichen
 
 Qingxi Hongjin is recorded in the historiography of the late-Tang / Song-period Chan transmission network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].
 
@@ -3185,7 +3226,7 @@ Suizhou Daoyuan (隨州道圓, fl. mid-9th c.) is recorded in the *Jǐngdé Chu�
 - **Dates:** Dates uncertain
 - **School:** Caodong
 - **Teachers:** Baizhang Huaihai
-- **Students:** Lingyun Zhiqin, Liu Tiemo, Dayu Shouzhi, Xiangyan Zhixian, Xingyang Qingrang, Yangshan Huiji
+- **Students:** Lingyun Zhiqin, Liu Tiemo, Dayu Shouzhi, Xiangyan Zhixian, Xingyang Qingrang, Yangshan Huiji, Jingzhao Mihu
 
 Guishan Lingyou is recorded in the historiography of the late-Tang / Song-period Chan transmission network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].
 
@@ -3277,7 +3318,7 @@ Guizong Zhichang is recorded in the historiography of the medieval / early-moder
 - **Also known as:** Ching-chao Mi-hu, Keichô Beiyu
 - **Dates:** Dates uncertain
 - **School:** Caodong
-- **Teachers:** Yangshan Huiji
+- **Teachers:** Yangshan Huiji, Guishan Lingyou
 
 Jingzhao Mihu is recorded in the historiography of the late-Tang / Song-period Chan transmission network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].
 
@@ -3286,7 +3327,7 @@ Jingzhao Mihu is recorded in the historiography of the late-Tang / Song-period C
 - **Also known as:** Kuan-nan Tao-ch'ang, Kannan Dôjô
 - **Dates:** Dates uncertain
 - **School:** Caodong
-- **Teachers:** Shitou Xiqian
+- **Teachers:** Shitou Xiqian, Baizhang Huaihai
 
 Guannan Daochang is recorded in the historiography of the late-Tang / Song-period Chan transmission network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].
 
@@ -3341,7 +3382,7 @@ Sengan Bonryu is recorded in the historiography of the medieval / early-modern J
 - **Also known as:** Lung-chi Shao-hsiu, Ryûsai Shôshû, Xiushan
 - **Dates:** Dates uncertain
 - **School:** Qingyuan line
-- **Teachers:** Cuiwei Wuxue
+- **Teachers:** Cuiwei Wuxue, Luohan Guichen
 
 Longji Shaoxiu (龍濟紹脩, fl. mid-10th c.) is named in the *Jǐngdé Chuándēng Lù* as a Dharma heir of Luohan Guichen and one of the second-generation Fayan-house teachers active in the Min and Wuyue regions of southeastern China[1]. The lamp records preserve a small number of his dialogues but little secure biographical detail beyond his lineage placement[2].
 
@@ -3467,7 +3508,7 @@ Fenyang Shanzhao is recorded in the historiography of the late-Tang / Song-perio
 - **Also known as:** Pao-ning Jên-yung, Honei Ninyû
 - **Dates:** Dates uncertain
 - **School:** Linji
-- **Teachers:** Cuiyan Kezhen
+- **Teachers:** Cuiyan Kezhen, Yangqi Fanghui
 
 Baoning Renyong is recorded in the historiography of the late-Tang / Song-period Chan transmission network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].
 
@@ -3644,7 +3685,7 @@ Ungai Kozan is recorded in the historiography of the medieval / early-modern Jap
 - **Dates:** Dates uncertain
 - **School:** Caodong
 - **Teachers:** Guishan Lingyou
-- **Students:** Jingzhao Mihu
+- **Students:** Jingzhao Mihu, Nanta Guangyong
 
 Yangshan Huiji is recorded in the historiography of the late-Tang / Song-period Chan transmission network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].
 
@@ -3707,7 +3748,7 @@ Shizan Tokuchu is recorded in the historiography of the medieval / early-modern 
 - **Also known as:** Nan-t'a Kuang-yung, Nantô Kôyû
 - **Dates:** Dates uncertain
 - **School:** Caodong
-- **Teachers:** Shishuang Qingzhu
+- **Teachers:** Shishuang Qingzhu, Yangshan Huiji
 - **Students:** Bajiao Huiqing
 
 Nanta Guangyong is recorded in the historiography of the late-Tang / Song-period Chan transmission network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].
@@ -3736,7 +3777,7 @@ Chengtian Chuanzong is recorded in the historiography of the late-Tang / Song-pe
 - **Dates:** Dates uncertain
 - **School:** Caodong
 - **Teachers:** Furong Daokai
-- **Students:** Zhenxie Qingliao, Hongzhi Zhengjue
+- **Students:** Zhenxie Qingliao, Hongzhi Zhengjue, Changlu Qingliao
 
 Danxia Zichun is recorded in the historiography of the medieval / early-modern Japanese Sōtō branch-temple network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].
 
@@ -3754,7 +3795,7 @@ Dingzhou Shizang (定州石藏, fl. early 9th c.) is named in the *Jǐngdé Chu�
 - **Also known as:** Tan-yüan Ying-chên, Tangen Ôshin
 - **Dates:** Dates uncertain
 - **School:** Qingyuan line
-- **Teachers:** Nanyue Daoxuan
+- **Teachers:** Nanyue Daoxuan, Nanyang Huizhong
 
 Danyuan Yingzhen (耽源應真, fl. mid-9th c.) was a Dharma heir of National Teacher Nanyang Huizhong and one of the few figures who carried Huizhong's eclectic Tang-court Chan into the second half of the ninth century[1]. He is best known from the koan-literature account of his role in the "seamless monument" episode preserved in the lamp records and recycled as *Bìyán Lù* Case 18[2].
 
@@ -3775,7 +3816,7 @@ Touzi Yiqing is recorded in the historiography of the late-Tang / Song-period Ch
 - **Also known as:** Hu-kuo Ching-yüan, Gokoku Keigen
 - **Dates:** Dates uncertain
 - **School:** Linji
-- **Teachers:** Taiping Huiqin
+- **Teachers:** Taiping Huiqin, Yuanwu Keqin
 - **Students:** Huoan Shiti
 
 Huguo Jingyuan is recorded in the historiography of the late-Tang / Song-period Chan transmission network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].
@@ -3844,7 +3885,7 @@ Xingyang Qingpou is recorded in the historiography of the late-Tang / Song-perio
 - **Dates:** Dates uncertain
 - **School:** Nanyue line
 - **Teachers:** Mazu Daoyi
-- **Students:** Guishan Daan, Guishan Lingyou, Huangbo Xiyun, Vô Ngôn Thông
+- **Students:** Guishan Daan, Guishan Lingyou, Huangbo Xiyun, Vô Ngôn Thông, Wufeng Changguan, Guannan Daochang
 
 Baizhang Huaihai was a disciple of Mazu Daoyi and one of the architects of Chan monastic culture[1]. He is famous above all for establishing the first specifically Chan monastic code, the Baizhang Qinggui (Pure Rules of Baizhang)[2]. Before Baizhang, Chan monks lived in Vinaya monasteries designed for a different kind of practice. Baizhang created a distinctly Chan institution in which practice, work, and communal life were fully integrated. His famous dictum—"A day without work is a day without eating"—set the tone for a monasticism in which manual labor was understood as inseparable from spiritual practice[1].
 
@@ -3855,7 +3896,7 @@ Baizhang also created the formal Dharma hall where the abbot teaches the communi
 - **Also known as:** Wu-fêng Ch'ang-kuan, Gohô Jôkan
 - **Dates:** Dates uncertain
 - **School:** Nanyue line
-- **Teachers:** Xitang Zhizang
+- **Teachers:** Xitang Zhizang, Baizhang Huaihai
 
 Wufeng Changguan (五峰常觀, fl. early 9th c.) was a Dharma heir of Mazu Daoyi who taught at Mount Wufeng ("Five Peaks") in modern Jiangxi[1]. The lamp records preserve a small body of his exchanges, in which he uses the staff and the shout in the directly confrontational manner the Hongzhou line would pass on to the Linji house in the next generation[2].
 
@@ -3894,7 +3935,7 @@ Renzan Soho is recorded in the historiography of the medieval / early-modern Jap
 - **Also known as:** Ming-chao Tê-ch'ien, Myôshô Tokken
 - **Dates:** Dates uncertain
 - **School:** Qingyuan line
-- **Teachers:** Xuefeng Yicun
+- **Teachers:** Xuefeng Yicun, Luoshan Daoxian
 
 Mingzhao Deqian is recorded in the historiography of the late-Tang / Song-period Chan transmission network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].
 
@@ -3976,8 +4017,8 @@ Yuezhou Qianfeng is recorded in the historiography of the late-Tang / Song-perio
 - **Also known as:** Lo-shan Tao-hsien, Razan Dôkan
 - **Dates:** Dates uncertain
 - **School:** Qingyuan line
-- **Teachers:** Xuefeng Yicun
-- **Students:** Tianping Congyi
+- **Teachers:** Xuefeng Yicun, Yantou Quanhuo
+- **Students:** Tianping Congyi, Mingzhao Deqian
 
 Luoshan Daoxian is recorded in the historiography of the late-Tang / Song-period Chan transmission network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].
 
@@ -4087,7 +4128,7 @@ Baofeng Weizhao is recorded in the historiography of the late-Tang / Song-period
 - **Also known as:** Pao-ên Hsüan-tsê, Hôon Gensoku
 - **Dates:** Dates uncertain
 - **School:** Nanyue line
-- **Teachers:** Yunmen Wenyan
+- **Teachers:** Yunmen Wenyan, Fayan Wenyi
 
 Baoen Xuanze is recorded in the historiography of the late-Tang / Song-period Chan transmission network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].
 
@@ -4273,7 +4314,7 @@ Fuzan Shunki is recorded in the historiography of the medieval / early-modern Ja
 - **Dates:** Dates uncertain
 - **School:** Qingyuan line
 - **Teachers:** Deshan Xuanjian
-- **Students:** Ruiyan Shiyan
+- **Students:** Ruiyan Shiyan, Luoshan Daoxian
 
 Yantou Quanhuo is recorded in the historiography of the post-Daitō / Myōshin-ji Rinzai transmission lines as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].
 
@@ -4356,7 +4397,7 @@ Taiei Zesho is recorded in the historiography of the medieval / early-modern Jap
 - **Also known as:** T'ai-yüan Fu, Taigen Fu
 - **Dates:** Dates uncertain
 - **School:** Qingyuan line
-- **Teachers:** Shushan Kuangren
+- **Teachers:** Shushan Kuangren, Xuefeng Yicun
 
 Taiyuan Fu is recorded in the historiography of the late-Tang / Song-period Chan transmission network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].
 
@@ -4785,7 +4826,7 @@ In 2001 he conferred dharma transmission (shihō) on the French monk Olivier Rei
 - **Also known as:** Daicho Hayashi, Hayashi Daichō
 - **Dates:** Dates uncertain
 - **School:** Sōtō
-- **Teachers:** Kodo Sawaki
+- **Teachers:** Kodo Sawaki, Yōzan Genki Hayashi
 - **Students:** Dainin Katagiri
 
 Daichō Hayashi (林大潮) was a Japanese Sōtō priest and head of Taizō-in in Fukui Prefecture in the mid-twentieth century. He is recorded in the Minnesota Zen Meditation Center's biographical materials on Dainin Katagiri as the master who ordained Katagiri as a monk at Taizō-in and named him Dharma heir on 24 December 1949 (denpō ceremony, Katagiri age 21)[1][2]. Outside this Katagiri-transmission act, English-language biographical information on Hayashi is sparse; the immediate teachers and predecessors in his own line at Taizō-in are not yet documented in publicly accessible sources, and would require Japanese-language temple records to seed accurately[2].
@@ -5118,6 +5159,99 @@ He founded the Zen-Dōjō Freiburg (Hō Un Dō) in Baden-Württemberg and led it
 
 Eishuku Monika Leibundgut is a Swiss Sōtō Zen nun in the Deshimaru lineage and the designated successor of Meihō Missen Michel Bovay at the Zen Dōjō Zürich. Bodhisattva-ordained in 1986 and ordained as a nun in 1988, she served as Bovay's assistant for more than two decades. After his serious illness in 2007 she took over leadership of the dōjō, supported by Bovay until his death in 2009. Her own dharma transmission follows the same pattern as her teacher's: Yūkō Okamoto Roshi of Teishōji invited her to perform the hossen-shiki at Teishōji in 2012 and conferred shihō in 2013, followed by zuise at Eihei-ji and Sōji-ji with the Zürich and Vienna sanghas in attendance.
 
+### Kasan Zenryō
+
+- **Dates:** Dates uncertain
+- **School:** Rinzai
+- **Teachers:** Sosan Genkyō
+- **Students:** Sohan Genyo
+
+### Ryoka Daibai
+
+- **Dates:** Dates uncertain
+- **School:** Sōtō
+- **Teachers:** Kakuan Ryogu
+- **Students:** Guhaku Daiōshō
+
+### Yōzan Genki Hayashi
+
+- **Also known as:** Yozan Hayashi
+- **Dates:** Dates uncertain
+- **School:** Sōtō
+- **Teachers:** Sozan Chimon
+- **Students:** Daichō Hayashi
+
+### Kakuan Ryogu
+
+- **Dates:** Dates uncertain
+- **School:** Sōtō
+- **Teachers:** Kakujo Tosai
+- **Students:** Ryoka Daibai
+
+### Masuda Zuimyō
+
+- **Dates:** Dates uncertain
+- **School:** Sōtō
+- **Teachers:** Shogaku Rinzui
+- **Students:** Niwa Bukkan Myōkoku
+
+### Sozan Chimon
+
+- **Dates:** Dates uncertain
+- **School:** Sōtō
+- **Teachers:** Kyozan Baizen
+- **Students:** Yōzan Genki Hayashi
+
+### Kakujo Tosai
+
+- **Dates:** Dates uncertain
+- **School:** Sōtō
+- **Teachers:** Reitan Roryu
+- **Students:** Kakuan Ryogu
+
+### Shogaku Rinzui
+
+- **Dates:** Dates uncertain
+- **School:** Sōtō
+- **Teachers:** Tokuzui Tenrin
+- **Students:** Masuda Zuimyō
+
+### Kyozan Baizen
+
+- **Dates:** Dates uncertain
+- **School:** Sōtō
+- **Teachers:** Gentō Sokuchū
+- **Students:** Sozan Chimon
+
+### Reitan Roryu
+
+- **Also known as:** Reitan Roryo
+- **Dates:** Dates uncertain
+- **School:** Sōtō
+- **Teachers:** Niken Sekiryō
+- **Students:** Kakujo Tosai
+
+### Niken Sekiryō
+
+- **Dates:** Dates uncertain
+- **School:** Sōtō
+- **Teachers:** Bokushitsu Bokushū
+- **Students:** Reitan Roryu
+
+### Bokushitsu Bokushū
+
+- **Dates:** Dates uncertain
+- **School:** Sōtō
+- **Teachers:** Tenkei Denson
+- **Students:** Niken Sekiryō
+
+### Tokuzui Tenrin
+
+- **Dates:** Dates uncertain
+- **School:** Sōtō
+- **Teachers:** Gesshu Soko
+- **Students:** Shogaku Rinzui
+
 ---
 
 ## Schools
@@ -5244,14 +5378,14 @@ The Taego Order (太古宗, 태고종) is the second largest Buddhist order in K
 ### Sōtō
 
 - **Tradition:** Zen
-- **Masters:** 169
+- **Masters:** 185
 
 The Soto school (曹洞宗) is the Japanese continuation of the Chinese Caodong tradition, founded by Eihei Dogen (1200–1253) after his training with Tiantong Rujing in China[1]. It is the largest Zen denomination in Japan[2]. Soto's central practice is shikantaza ('just sitting')—zazen practiced as the direct expression of awakening itself, not as a means to attain enlightenment[3]. Dogen articulated this in his masterwork the Shobogenzo—which is itself largely composed of koan commentary and philosophical inquiry—and in his practical manual the Fukanzazengi[3]. The school's second great figure, Keizan Jokin (1264–1325), founded Sojiji Temple and made Soto practice accessible to a broad Japanese population through the integration of esoteric ritual and ancestor veneration[1]. Together, Eiheiji (Dogen's temple) and Sojiji serve as the school's two head monasteries. In the modern era, the Soto tradition has been carried to the West by teachers including Shunryu Suzuki (San Francisco Zen Center), Taisen Deshimaru (Association Zen Internationale, Europe), Taizan Maezumi (Zen Center of Los Angeles), and Dainin Katagiri (Minnesota Zen Center), establishing vibrant practice communities across North America and Europe[4].
 
 ### Rinzai
 
 - **Tradition:** Zen
-- **Masters:** 67
+- **Masters:** 69
 
 The Rinzai school (臨済宗) is the Japanese form of the Chinese Linji tradition, transmitted to Japan through multiple lineages during the Kamakura period (1185–1333)[1]. The school's defining figure is Hakuin Ekaku (1686–1769), who single-handedly revived and systematized Rinzai practice after a period of decline[2]. Hakuin developed the structured koan curriculum that remains standard today—beginning with the Mu koan or the sound of one hand clapping, then progressing through increasingly subtle layers of inquiry. His emphasis on 'great doubt, great faith, great determination' as the three pillars of practice became definitive[2]. The modern Rinzai school is organized primarily through the O-To-Kan lineage: Nanpo Jomyo (Daio Kokushi) received transmission from the Chinese master Xutang Zhiyu, transmitted to Shuho Myocho (Daito Kokushi, founder of Daitokuji), who transmitted to Kanzan Egen (founder of Myoshinji)[3]. These two temple complexes—Daitokuji and Myoshinji—and their extensive branch networks form the institutional backbone of modern Rinzai Zen. The school profoundly influenced Japanese culture, including the tea ceremony, calligraphy, ink painting, garden design, and the martial arts.
 

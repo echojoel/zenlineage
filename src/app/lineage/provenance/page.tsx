@@ -130,6 +130,56 @@ export default function ProvenancePage() {
           </p>
         </section>
 
+        <section className="detail-card" id="methodology">
+          <h2 className="detail-section-title">Methodology</h2>
+          <p className="detail-muted" style={{ marginBottom: "0.75rem" }}>
+            In Zen, an incorrect or unsourced transmission claim can be read as
+            disrespect to a tradition. This site is built so every link on the
+            lineage graph can be defended with a quotable, classified source.
+          </p>
+          <p className="detail-muted" style={{ marginBottom: "0.75rem" }}>
+            <strong>Sources are classified by domain.</strong>{" "}
+            <em>Institutional</em> = the tradition&apos;s own publications
+            (Sōtōshū, White Plum Asanga, Sanbō Zen, Sōji-ji, Eihei-ji, etc.).{" "}
+            <em>Academic</em> = peer-reviewed scholarship and university
+            presses. <em>Reference</em> = Wikipedia (counts as one source
+            across all language editions). <em>Sangha</em> = dharma centres
+            with verifiable lineage. <em>Community</em> = blogs and personal
+            sites (corroborative only, never sole source). Anything matching
+            the <em>promotional</em> deny-list (Amazon, Goodreads, &amp;c.)
+            is rejected.
+          </p>
+          <p className="detail-muted" style={{ marginBottom: "0.75rem" }}>
+            <strong>Tiers compose from those sources:</strong>{" "}
+            <strong>A</strong> = at least one institutional source plus
+            independent corroboration.{" "}
+            <strong>B</strong> = two or more independent sources, at least
+            one of which is academic or institutional.{" "}
+            <strong>C</strong> = one credible source.{" "}
+            <strong>D</strong> = no evidence file, or sources we cannot
+            stand behind. Tier-D edges still render on the graph, but with
+            a <span aria-hidden>?</span> glyph at the midpoint — visible
+            doubt rather than silent omission.
+          </p>
+          <p className="detail-muted" style={{ marginBottom: "0.75rem" }}>
+            <strong>Verification ran through six waves</strong> of
+            independent multi-agent research. Each transmission was
+            assigned to three independent researchers working in isolation,
+            their findings merged by a deterministic reducer, then audited
+            by a reviewer that fetches each cited URL and checks the
+            verbatim quote actually appears on the page. Mis-attributions
+            are recorded as <code>type=&apos;disputed&apos;</code> in the
+            database with the original claim preserved alongside the
+            corrected primary edge — never silently deleted.
+          </p>
+          <p className="detail-muted">
+            Click any edge on the lineage graph to see its specific
+            sources. The lists below group every edge by its current tier;
+            click into any master to see the inbound and outbound
+            transmissions on their own detail page.
+          </p>
+        </section>
+
         {(["A", "B", "C", "D"] as const).map((tier) => {
           const edges = buckets[tier];
           return (
