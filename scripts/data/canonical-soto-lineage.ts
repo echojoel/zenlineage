@@ -540,13 +540,16 @@ export const CANONICAL_EDGES: CanonicalEdge[] = [
   },
   {
     student: "gudo-wafu-nishijima",
-    teacher: "kodo-sawaki",
+    teacher: "niwa-rempo-zenji",
+    shihoYear: 1977,
     confidence: "high",
+    notes:
+      "Nishijima was ordained by Niwa Rempō in 1973 and received shihō in 1977. He studied under Kōdō Sawaki from 1940 until Sawaki's death in 1965 — a formative training relationship — but Sawaki gave no formal shihō to Nishijima.",
     sources: [
       {
         url: "https://en.wikipedia.org/wiki/Gud%C5%8D_Wafu_Nishijima",
         quote:
-          "Nishijima Roshi was a Sōtō Zen priest in the lineage of Kōdō Sawaki.",
+          "Nishijima received dharma transmission from Rempo Niwa in 1977.",
         authority: "wikipedia",
       },
     ],

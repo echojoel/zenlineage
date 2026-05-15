@@ -14,18 +14,23 @@ sources:
       Whether the monk Damo mentioned in Mahāsattva Fu's entry is the same Bodhidharma
       remains unclear.
 reducer_notes: |
-  Wave-3 self-writing agent. Research confirms Mahasattva Fu (497–569) is a contemporary of
-  Bodhidharma (Puti Damo) and appears in early Chan/Zen lore. However, the teacher-student
-  relationship is historically contested. Academic sources note that Mahasattva Fu's mentor was
-  a monk named "Damo" who may or may not be the same as Bodhidharma/Putidamo. Mahasattva Fu is
-  typically described as an independent figure who attained enlightenment without a human teacher
-  ("responsive manifestation"), not as a dharma heir of Bodhidharma in any formal Chan lineage.
-  The terebess.hu slug "mahasattva-fu__puti-damo" may reflect an apocryphal traditional account.
-  No clear formal transmission evidence found. Tier D maintained.
+  Re-evaluated 2026-05-15. The academic literature unambiguously states the teacher-student
+  claim cannot be verified. The Tandfonline article (Chen Jinhua, 2015) investigates whether
+  the "Damo" who was Mahasattva Fu's mentor is the same as Bodhidharma (Puti Damo) and
+  concludes the identification is "hard, if not completely impossible" given current textual
+  and epigraphic evidence. The Wikipedia article on Fu Dashi (Fudaishi) states he is "popularly
+  revered alongside Bodhidharma and Baozhi as the Three Mahāsattvas of the Liang Dynasty" —
+  as contemporaries of similar stature, not as teacher and student. Mahasattva Fu is
+  typically described as a "responsive manifestation" who did not receive formal transmission
+  from a human teacher in the Chan sense. No second academic, institutional, or reference
+  source was found that positively identifies Damo as Bodhidharma. Tier D maintained.
+  The tandfonline.com source is preserved as documentary evidence that the edge is historically
+  contested, not confirmed.
 human_review_needed: true
 ---
 
 The purported teacher-student connection between Puti Damo (Bodhidharma) and Mahasattva Fu is
-historically uncertain. Academic scholarship raises doubts about whether the "Damo" mentioned as
-Fu's mentor is the same as Bodhidharma. Mahasattva Fu is typically presented as a self-enlightened
-figure rather than a formal dharma heir of Bodhidharma.
+historically uncertain. Academic scholarship (Chen Jinhua 2015) raises doubts about whether the
+"Damo" mentioned as Fu's mentor is the same as Bodhidharma. Mahasattva Fu is typically presented
+as a self-enlightened figure rather than a formal dharma heir of Bodhidharma. No source
+positively confirms the identification.

@@ -681,14 +681,8 @@ const SOTO_PARENT_STUBS: KVMaster[] = [
       { index: 2, sourceId: "src_bodiford_soto_medieval", pageOrSection: "Bodiford 1991 — isshi-injō reform" },
     ],
     transmissions: [
-      {
-        teacherSlug: "gasan-joseki",
-        type: "dharma",
-        isPrimary: false,
-        sourceIds: ["src_bodiford_soto_medieval"],
-        notes:
-          "Editorial bridge: Manzan received face-to-face Dharma succession from Gesshū Sōko (1618–1696) at Daijō-ji in 1680. Gesshū is in the Gasan-ha (Gasan Jōseki → Tsūgen Jakurei → … → Gesshū) but the intermediate Tokugawa-era abbots between Tsūgen and Gesshū are not yet seeded; the edge to Gasan anchors Manzan in the Gasan-ha rather than spanning 300 years to Keizan or Dōgen.",
-      },
+      // Manzan's direct shihō teacher was Gesshū Sōko (1618–1696) at Daijō-ji (1680); not yet seeded.
+      // Editorial bridge to gasan-joseki removed until Gesshū Sōko is seeded.
     ],
   },
   {
@@ -726,22 +720,9 @@ const SOTO_PARENT_STUBS: KVMaster[] = [
       { index: 2, sourceId: "src_bodiford_soto_medieval", pageOrSection: "Riggs biographical tradition (terebess + Oxford chapter)" },
     ],
     transmissions: [
-      {
-        teacherSlug: "gasan-joseki",
-        type: "dharma",
-        isPrimary: false,
-        sourceIds: ["src_wikipedia"],
-        notes:
-          "Editorial bridge: Menzan's Dharma-succession teacher Sonnō Shūeki (1649–1705) is not yet seeded; Menzan also trained under Manzan Dōhaku as a young monk. Sonnō and Manzan are both within the Gasan-ha; the edge to Gasan Jōseki anchors Menzan in the Gasan-ha rather than 400 years upstream.",
-      },
-      {
-        teacherSlug: "manzan-dohaku",
-        type: "secondary",
-        isPrimary: false,
-        sourceIds: ["src_wikipedia"],
-        notes:
-          "Earlier training under Manzan Dōhaku as a young monk; not the Dharma-succession relationship (Menzan was junior to Manzan; the 1705 transmission was from Sonnō Shūeki). Wikipedia tertiary sources sometimes incorrectly list Dōgen as Menzan's teacher — chronologically impossible.",
-      },
+      // Menzan's direct shihō teacher was Sonnō Shūeki (1649–1705); not yet seeded.
+      // He trained under Manzan Dōhaku as a young monk — a documented training relationship,
+      // not the formal Dharma-succession (shihō). Both edges removed until Sonnō Shūeki is seeded.
     ],
   },
   {
@@ -779,14 +760,8 @@ const SOTO_PARENT_STUBS: KVMaster[] = [
       { index: 2, sourceId: "src_terebess", pageOrSection: "terebess.hu — Nishiari + Kishizawa biographical entries" },
     ],
     transmissions: [
-      {
-        teacherSlug: "gasan-joseki",
-        type: "dharma",
-        isPrimary: false,
-        sourceIds: ["src_wikipedia"],
-        notes:
-          "Editorial bridge: Nishiari's Dharma-succession teacher Ansō Taizen (Ansu Taigen) of Hon-nen-ji in Edo, who conferred transmission on him in 1842, is not yet seeded in the DB. Ansō is in the Gasan-ha Sōji-ji line. The edge to Gasan Jōseki anchors Nishiari in the Gasan-ha rather than spanning ~500 years to Keizan or Dōgen.",
-      },
+      // Nishiari's direct shihō teacher was Ansō Taizen of Hon-nen-ji (shihō 1842); not yet seeded.
+      // Editorial bridge to gasan-joseki removed until Ansō Taizen is seeded.
     ],
   },
   {
@@ -824,22 +799,9 @@ const SOTO_PARENT_STUBS: KVMaster[] = [
       { index: 2, sourceId: "src_wikipedia", pageOrSection: "antaiji.org/en/history — Antai-ji founding" },
     ],
     transmissions: [
-      {
-        teacherSlug: "nishiari-bokusan",
-        type: "secondary",
-        isPrimary: false,
-        sourceIds: ["src_terebess"],
-        notes:
-          "Senior teacher and Shōbōgenzō scholarly mentor; not the shihō relationship. Frequently mis-recorded as Oka's transmission teacher in secondary sources, but cuke.com's primary-source-based biography distinguishes the two roles: shihō was from Tōken Mitetsu, scholarly mentorship from Nishiari.",
-      },
-      {
-        teacherSlug: "gasan-joseki",
-        type: "dharma",
-        isPrimary: false,
-        sourceIds: ["src_terebess"],
-        notes:
-          "Editorial bridge: Oka Sōtan's actual transmission teacher Tōken Mitetsu is not yet seeded in the DB. Tōken and his predecessors are in the Gasan-ha Sōji-ji line. The edge to Gasan Jōseki anchors Oka in the Gasan-ha rather than 500+ years upstream.",
-      },
+      // Oka's direct shihō teacher was Tōken Mitetsu (Gasan-ha Sōji-ji line); not yet seeded.
+      // Nishiari Bokusan was a scholarly mentor (Shōbōgenzō study), NOT the shihō teacher.
+      // Both edges removed until Tōken Mitetsu is seeded.
     ],
   },
   // ── Wave 5: Sawaki direct heirs + second-generation Suzuki/Baker line ──
@@ -1332,14 +1294,8 @@ const SOTO_PARENT_STUBS: KVMaster[] = [
       },
     ],
     transmissions: [
-      {
-        teacherSlug: "keido-chisan",
-        type: "dharma",
-        isPrimary: false,
-        sourceIds: ["src_wikipedia"],
-        notes:
-          "Editorial bridge: Yamada Reirin was a senior twentieth-century Sōtō prelate active in the Sōji-ji-line institutional world. His specific Dharma-transmission teacher and predecessors in the Sōtōshū head-temple system are not yet seeded; the edge to Kōhō Keidō Chisan (70th abbot of Sōji-ji) anchors him in the Sōji-ji-line milieu rather than the 13th-century Dōgen root.",
-      },
+      // Editorial bridge to keido-chisan removed. Yamada Reirin's actual Dharma-transmission
+      // teacher is not yet identified/seeded; he is orphaned until that lineage is traced.
     ],
   },
   {

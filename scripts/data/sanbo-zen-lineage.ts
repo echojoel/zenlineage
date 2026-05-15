@@ -176,13 +176,6 @@ export const SANBO_ZEN_MASTERS: KVMaster[] = [
         notes: "Father-to-son dharma transmission (shihō), 1985 at San-un Zendō, after Ryōun completed the Sanbō Kyōdan kōan curriculum in 1978.",
         sourceIds: ["src_wikipedia", "src_sanbozen"],
       },
-      {
-        teacherSlug: "kubota-jiun",
-        type: "secondary",
-        isPrimary: false,
-        notes: "Patriarchal succession: Yamada Ryōun took office as fourth patriarch of Sanbō Zen in 2004 upon Kubota Ji'un's retirement.",
-        sourceIds: ["src_sanbozen"],
-      },
     ],
   },
 
@@ -315,13 +308,6 @@ export const SANBO_ZEN_MASTERS: KVMaster[] = [
         type: "primary",
         isPrimary: true,
         notes: "Primary teacher 1971–1989; zenkyōshi 1981 under Yamada Kōun. Subsequently promoted to junshike (associate master) under Kubota Ji'un in 2001.",
-        sourceIds: ["src_sanbozen"],
-      },
-      {
-        teacherSlug: "kubota-jiun",
-        type: "secondary",
-        isPrimary: false,
-        notes: "Conferred junshike (associate master) rank, 2001, after Yamada Kōun's death.",
         sourceIds: ["src_sanbozen"],
       },
     ],
