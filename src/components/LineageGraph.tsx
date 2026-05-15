@@ -483,18 +483,21 @@ export default function LineageGraph() {
       //   - Niwa Zenji → Zeisler shihō (post-death)      → dashed + dot
 
       // Evidence tier: A = well-sourced, D = no/insufficient sources.
-      // Vary visual weight so under-sourced edges show visible doubt.
+      // Tier affects width and (gently) alpha. Even tier-D stays readable —
+      // visible doubt is signalled primarily by the "?" glyph at the
+      // midpoint and by the slightly lighter stroke, not by fading the
+      // line into invisibility.
       const tier = (edge.tier ?? "D") as "A" | "B" | "C" | "D";
       const tierBaseWidth =
         tier === "A" ? 1.5 :
-        tier === "B" ? 1.1 :
-        tier === "C" ? 0.9 :
-                       0.8;
+        tier === "B" ? 1.25 :
+        tier === "C" ? 1.05 :
+                       0.95;
       const tierBaseAlpha =
         tier === "A" ? 1.0 :
-        tier === "B" ? 0.9 :
-        tier === "C" ? 0.6 :
-                       0.4;
+        tier === "B" ? 0.95 :
+        tier === "C" ? 0.85 :
+                       0.72;
       const edgeWidth = edge.type === "primary" ? tierBaseWidth : tierBaseWidth * 0.65;
       const tierAlpha = alpha * tierBaseAlpha;
       edgeGraphics.setStrokeStyle({ width: edgeWidth, color: edgeColor, alpha: tierAlpha });
