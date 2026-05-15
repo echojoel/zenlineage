@@ -1,0 +1,94 @@
+{
+  "generated_at": "2026-05-15T08:42:55.611Z",
+  "filter": {
+    "waveSize": 5,
+    "edgesFile": "/tmp/wave-pilot-edges.txt"
+  },
+  "edges": [
+    {
+      "edgeId": "ZB8hgFWj8fyy2hk7eaNh4",
+      "studentSlug": "dogen",
+      "teacherSlug": "tiantong-rujing",
+      "studentLabel": "Dōgen",
+      "teacherLabel": "Tiantong Rujing",
+      "studentNative": [
+        "zh: 道元"
+      ],
+      "teacherNative": [
+        "zh: 天童如淨"
+      ],
+      "studentDates": "1200–1253",
+      "teacherDates": "1163–1228",
+      "schoolSlug": "soto",
+      "existingNotes": ""
+    },
+    {
+      "edgeId": "gSkWAW4fU5RMIoNkZ0HDk",
+      "studentSlug": "taizan-maezumi",
+      "teacherSlug": "yasutani-hakuun",
+      "studentLabel": "Taizan Maezumi",
+      "teacherLabel": "Yasutani Hakuun",
+      "studentNative": [
+        "zh: 前角泰山"
+      ],
+      "teacherNative": [
+        "zh: 安谷白雲"
+      ],
+      "studentDates": "1931–1995",
+      "teacherDates": "1885–1973",
+      "schoolSlug": "soto",
+      "existingNotes": "Formal Dharma transmission (inka) — Sanbō Zen line. The third of Maezumi's three transmissions, after Sōtō shihō from his father Hakujun Kuroda and Rinzai inka from Osaka Koryu."
+    },
+    {
+      "edgeId": "uqY0hVC0y0IHY_4772yTE",
+      "studentSlug": "koun-ejo",
+      "teacherSlug": "dogen",
+      "studentLabel": "Koun Ejō",
+      "teacherLabel": "Dōgen",
+      "studentNative": [
+        "zh: 孤雲懐奘"
+      ],
+      "teacherNative": [
+        "zh: 道元"
+      ],
+      "studentDates": "1198–1280",
+      "teacherDates": "1200–1253",
+      "schoolSlug": "soto",
+      "existingNotes": ""
+    },
+    {
+      "edgeId": "AXWji_HgLl-okCmOfftwO",
+      "studentSlug": "tettsu-gikai",
+      "teacherSlug": "koun-ejo",
+      "studentLabel": "Tettsū Gikai",
+      "teacherLabel": "Koun Ejō",
+      "studentNative": [
+        "zh: 徹通義介"
+      ],
+      "teacherNative": [
+        "zh: 孤雲懐奘"
+      ],
+      "studentDates": "1219–1309",
+      "teacherDates": "1198–1280",
+      "schoolSlug": "soto",
+      "existingNotes": ""
+    },
+    {
+      "edgeId": "MTqfWYItMJTOvLaHyDAMx",
+      "studentSlug": "bernie-tetsugen-glassman",
+      "teacherSlug": "taizan-maezumi",
+      "studentLabel": "Bernie Tetsugen Glassman",
+      "teacherLabel": "Taizan Maezumi",
+      "studentNative": [
+        "ja: 哲玄"
+      ],
+      "teacherNative": [
+        "zh: 前角泰山"
+      ],
+      "studentDates": "1939–2018",
+      "teacherDates": "1931–1995",
+      "schoolSlug": "white-plum-asanga",
+      "existingNotes": "First of Maezumi's American dharma heirs; transmission in 1976."
+    }
+  ]
+}

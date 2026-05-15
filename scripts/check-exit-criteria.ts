@@ -7,7 +7,7 @@
 
 import fs from "fs";
 import path from "path";
-import { inArray } from "drizzle-orm";
+import { eq, inArray } from "drizzle-orm";
 import { db } from "@/db";
 import {
   citations,
@@ -23,6 +23,7 @@ import {
   teachingContent,
   teachings,
   temples,
+  transmissionEvidence,
 } from "@/db/schema";
 import { getTier1Entry, getTier1Slugs, isTier1Master } from "@/lib/editorial-tiers";
 import { getSchoolDefinitions } from "@/lib/school-taxonomy";
@@ -951,6 +952,33 @@ async function main() {
     printMetric(
       "Provenance issues",
       `${provenanceWarnings.length + provenanceErrors.length} raw datasets need attention`
+    );
+  }
+
+  // ── Tier-D evidence budget gate ─────────────────────────────────────
+  // Tier-D rows represent transmissions that have no primary-source
+  // evidence yet (placeholder / inferred). The budget starts high enough
+  // to pass today; ratchet TIER_D_BUDGET down after each backfill wave
+  // to lock in progress without code edits.
+  const TIER_D_BUDGET = Number(process.env.TIER_D_BUDGET ?? 460);
+  const tierDRows = await db
+    .select({ id: transmissionEvidence.id })
+    .from(transmissionEvidence)
+    .where(eq(transmissionEvidence.tier, "D"));
+  const tierDCount = tierDRows.length;
+  if (tierDCount > TIER_D_BUDGET) {
+    console.error(
+      `✘ Tier-D edges (${tierDCount}) exceed budget (${TIER_D_BUDGET}). ` +
+        `Add evidence files or raise TIER_D_BUDGET temporarily.`,
+    );
+    process.exit(1);
+  }
+  if (tierDCount === 0) {
+    console.log("✓ Tier-D edges: 0 — every transmission has evidence.");
+  } else {
+    console.log(
+      `→ Tier-D edges: ${tierDCount} / budget ${TIER_D_BUDGET}. ` +
+        `Once you're ready to lock in progress, set TIER_D_BUDGET=${tierDCount}.`,
     );
   }
 

@@ -257,6 +257,138 @@ async function main() {
     }
   }
 
+  // ── Evidence-file walk ────────────────────────────────────────────
+  {
+    const fs = await import("fs");
+    const path = await import("path");
+    const { parseEvidenceFile, validateEvidence } = await import(
+      "@/lib/edge-trust"
+    );
+
+    const evidenceDir = path.resolve(
+      new URL(".", import.meta.url).pathname,
+      "data/transmission-evidence"
+    );
+
+    // Build a lookup: "studentSlug|teacherSlug" → edge
+    const edgeBySlugPair = new Map<string, (typeof allEdges)[number]>();
+    for (const e of allEdges) {
+      const sSlug = idToSlug.get(e.studentId);
+      const tSlug = idToSlug.get(e.teacherId);
+      if (sSlug && tSlug) {
+        edgeBySlugPair.set(`${sSlug}|${tSlug}`, e);
+      }
+    }
+
+    // Collect all *.md files, excluding dot-files and underscore-prefixed files.
+    let evidenceFiles: string[] = [];
+    try {
+      evidenceFiles = fs
+        .readdirSync(evidenceDir)
+        .filter(
+          (f) =>
+            f.endsWith(".md") && !f.startsWith(".") && !f.startsWith("_")
+        )
+        .map((f) => path.join(evidenceDir, f));
+    } catch {
+      // Directory doesn't exist yet — treat as empty.
+    }
+
+    // Track which edges have an evidence file.
+    const filesByEdgeId = new Set<string>();
+
+    for (const filePath of evidenceFiles) {
+      const fileName = path.basename(filePath);
+      let raw: string;
+      try {
+        raw = fs.readFileSync(filePath, "utf-8");
+      } catch (err) {
+        findings.push({
+          severity: "ERROR",
+          rule: "evidence-parse-error",
+          studentSlug: fileName,
+          teacherSlug: "(unknown)",
+          edgeType: "—",
+          isPrimary: false,
+          notes: null,
+          reason: `could not read file: ${(err as Error).message}`,
+        });
+        continue;
+      }
+
+      const result = parseEvidenceFile(raw);
+      if (!result.ok) {
+        findings.push({
+          severity: "ERROR",
+          rule: "evidence-parse-error",
+          studentSlug: fileName,
+          teacherSlug: "(unknown)",
+          edgeType: "—",
+          isPrimary: false,
+          notes: null,
+          reason: result.errors.join("; "),
+        });
+        continue;
+      }
+
+      const p = result.parsed;
+      const edge = edgeBySlugPair.get(`${p.student}|${p.teacher}`);
+      if (!edge) {
+        findings.push({
+          severity: "ERROR",
+          rule: "evidence-dangling-edge",
+          studentSlug: p.student,
+          teacherSlug: p.teacher,
+          edgeType: "—",
+          isPrimary: false,
+          notes: null,
+          reason: `file references ${p.teacher} → ${p.student} but no matching master_transmissions row found`,
+        });
+        continue;
+      }
+
+      filesByEdgeId.add(edge.id);
+
+      const issues = validateEvidence(p);
+      for (const issue of issues) {
+        let severity: Finding["severity"];
+        if (issue.kind === "promotional-source") {
+          severity = "ERROR";
+        } else if (issue.kind === "stale") {
+          severity = "INFO";
+        } else {
+          severity = "WARN";
+        }
+        findings.push({
+          severity,
+          rule: `evidence-${issue.kind}`,
+          studentSlug: idToSlug.get(edge.studentId) ?? `<missing:${edge.studentId}>`,
+          teacherSlug: idToSlug.get(edge.teacherId) ?? `<missing:${edge.teacherId}>`,
+          edgeType: edge.type,
+          isPrimary: edge.isPrimary ?? false,
+          notes: edge.notes,
+          reason: issue.detail,
+        });
+      }
+    }
+
+    // Every edge without an evidence file gets an INFO notice.
+    for (const e of allEdges) {
+      if (!filesByEdgeId.has(e.id)) {
+        findings.push({
+          severity: "INFO",
+          rule: "evidence-tier-d",
+          studentSlug: idToSlug.get(e.studentId) ?? `<missing:${e.studentId}>`,
+          teacherSlug: idToSlug.get(e.teacherId) ?? `<missing:${e.teacherId}>`,
+          edgeType: e.type,
+          isPrimary: e.isPrimary ?? false,
+          notes: e.notes,
+          reason: "no evidence file — rendered with visible doubt",
+        });
+      }
+    }
+  }
+
   // ── Orphan masters (no incoming edges) ────────────────────────────
   // Skip Shakyamuni — he's the root of the entire DAG.
   const expectedRoots = new Set(["shakyamuni-buddha"]);

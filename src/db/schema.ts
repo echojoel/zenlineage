@@ -1,9 +1,12 @@
+import { sql } from "drizzle-orm";
 import {
   sqliteTable,
   text,
   integer,
   real,
   primaryKey,
+  index,
+  check,
   type AnySQLiteColumn,
 } from "drizzle-orm/sqlite-core";
 
@@ -66,6 +69,47 @@ export const masterTransmissions = sqliteTable("master_transmissions", {
   isPrimary: integer("is_primary", { mode: "boolean" }),
   notes: text("notes"),
 });
+
+export const transmissionEvidence = sqliteTable(
+  "transmission_evidence",
+  {
+    id: text("id").primaryKey(),
+    transmissionId: text("transmission_id")
+      .notNull()
+      .unique()
+      .references(() => masterTransmissions.id, { onDelete: "cascade" }),
+    tier: text("tier").notNull(), // "A" | "B" | "C" | "D"
+    verifiedAt: text("verified_at"),
+    humanReviewNeeded: integer("human_review_needed", { mode: "boolean" })
+      .notNull()
+      .default(false),
+    reducerNotes: text("reducer_notes"),
+    reviewerNotes: text("reviewer_notes"),
+  },
+  (table) => [
+    index("idx_transmission_evidence_tier").on(table.tier),
+    check("transmission_evidence_tier_check", sql`${table.tier} IN ('A','B','C','D')`),
+  ],
+);
+
+export const transmissionSources = sqliteTable(
+  "transmission_sources",
+  {
+    id: text("id").primaryKey(),
+    evidenceId: text("evidence_id")
+      .notNull()
+      .references(() => transmissionEvidence.id, { onDelete: "cascade" }),
+    publisher: text("publisher").notNull(),
+    url: text("url").notNull(),
+    domainClass: text("domain_class").notNull(),
+    retrievedOn: text("retrieved_on").notNull(),
+    quote: text("quote").notNull(),
+    sortOrder: integer("sort_order").notNull().default(0),
+  },
+  (table) => [
+    index("idx_transmission_sources_evidence").on(table.evidenceId),
+  ],
+);
 
 export const masterNames = sqliteTable("master_names", {
   id: text("id").primaryKey(),
