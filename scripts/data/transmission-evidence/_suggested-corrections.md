@@ -1,57 +1,98 @@
 # Suggested transmission corrections
 
-Findings from the agent panel that an existing transmission edge in
-`master_transmissions` appears to be **wrong**, not just under-sourced.
-A human reviews each entry, decides whether to apply the change, and
-lands it as a normal PR editing the relevant seed-data file. The
-orchestrator NEVER auto-applies these.
+Findings from the agent panel where an edge in `master_transmissions` appears
+to need a topology change, not just better sources. A human reviews each
+entry, decides whether to apply the change, and lands it as a normal PR
+editing the relevant seed-data file. The orchestrator NEVER auto-applies
+these.
 
 ---
 
-## shunryu-suzuki → dainin-katagiri
+## shunryu-suzuki → dainin-katagiri — WITHDRAWN
 
 - **Date raised:** 2026-05-15
+- **Status (2026-05-15):** **Withdrawn — current graph is already correct.**
 - **Wave:** Wave-1B agent panel (3 independent researchers)
-- **Edge ID in DB:** `_dWSleTV3zOclZlg7eVVl`
-- **Claim made by the DB:** Shunryū Suzuki conferred Dharma transmission on Dainin Katagiri.
-- **Agent panel verdict:** All three researchers independently concluded this is **incorrect**.
 
-### Agent dissent (verbatim quotes)
+The agent panel correctly identified that **Suzuki did not confer shihō on
+Katagiri**. However, the current DB already represents this correctly:
 
-Researcher 1: *"No source found supporting a Dharma transmission from Shunryu Suzuki to Dainin Katagiri. All institutional, reference, and sangha sources consistently identify Daichō Hayashi at Taizo-in (Fukui) as Katagiri's transmission teacher."*
+- The **primary** transmission edge is `daicho-hayashi → dainin-katagiri`
+  (1949 denpō at Taizō-in, Fukui), already seeded with full notes citing
+  the MZMC biography and Wikipedia.
+- The `shunryu-suzuki → dainin-katagiri` edge in the DB is
+  `type='secondary'`, `is_primary=0` — i.e., a "studied with"
+  relationship documenting Katagiri's years assisting Suzuki at SFZC,
+  not a transmission. This is the project's standard pattern (see
+  Kwong, Weitsman, etc. in `deshimaru-lineage.ts`).
 
-Researcher 2: *"The claim that Shunryu Suzuki conferred Dharma transmission on Dainin Katagiri is not supported by any source found. ... Suzuki's only Western Dharma heir was Zentatsu Richard Baker (shihō 1971); his only other listed successor is his son Hoitsu Suzuki."*
+No action needed. The research the agents produced has been folded into
+the tier-A evidence file at
+`scripts/data/transmission-evidence/dainin-katagiri__daicho-hayashi.md`.
 
-Researcher 3: *"All authoritative sources agree Katagiri's transmission lineage runs through Daichō Hayashi (ordination/dharma heir at Taizo-in) and Hashimoto Ekō (Eiheiji/Zuiōji), not through Suzuki."*
+---
 
-### Cited sources (all three researchers converged)
+## shunryu-suzuki → kobun-chino-otogawa — needs primary edge added
 
-- Wikipedia — *Dainin Katagiri*: *"He was ordained a monk by and named a Dharma heir of Daichō Hayashi at Taizo-in in Fukui, and went on to study under Eko Hashimoto at Eiheiji for three years."* — <https://en.wikipedia.org/wiki/Dainin_Katagiri>
-- Wikipedia — *Shunryū Suzuki* (Successors section): *"Two main successors: Zentatsu Richard Baker (born 1936) shihō 1971, and Hoitsu Suzuki (born 1939)."* — <https://en.wikipedia.org/wiki/Shunry%C5%AB_Suzuki>
-- Minnesota Zen Meditation Center — Katagiri Project: *"After teaching at San Francisco Zen Center and Tassajara Zen Mountain Center as assistant to Shunryū Suzuki Roshi, he founded and taught at Minnesota Zen Meditation Center"* — <https://www.mnzencenter.org/katagiri-project.html>
-- Terebess — *The Two Main Lineages of Modern Sōtō*: *"Hashimoto (Rendō) Ekō (1890-1965) – abbot of Zuiōji — teacher of Dainin Katagiri"* — <https://terebess.hu/zen/mesterek/lineage.html>
-- Great Tree Temple — *Teachers Zen Lineage*: *"A disciple of Daichō Hayashi Roshi, he trained at Eiheiji Monastery for three years"* — <https://www.greattreetemple.org/teachers-zen-lineage>
+- **Date raised:** 2026-05-15
+- **Status:** **Action needed: seed Hozan Koei Chino + add primary edge.**
+- **Wave:** Wave-1C agent panel (3 independent researchers, all high
+  confidence)
 
-### Proposed correction
+### Finding
 
-1. **Remove** the `shunryu-suzuki → dainin-katagiri` row from
-   `master_transmissions` by editing the appropriate seed-data file
-   (likely `scripts/data/canonical-soto-lineage.ts` or a related
-   manually-authored lineage source).
-2. **Add** a `daicho-hayashi → dainin-katagiri` primary transmission edge
-   (Daichō Hayashi at Taizo-in in Fukui). This may require seeding
-   `daicho-hayashi` as a master if not already in the DB. Wikipedia
-   gives the ceremony date as **24 November 1949** with the dharma
-   name *Jikai Dainin*.
-3. **Keep** the historical association between Suzuki and Katagiri at
-   the bio / temple level — Katagiri served as Suzuki's assistant at
-   Sōkō-ji and SFZC from c. 1965–1971 — but this is a working
-   relationship, not a transmission lineage.
+The current DB has `shunryu-suzuki → kobun-chino-otogawa` as
+`type='secondary'`, `is_primary=0` — which correctly represents Kobun's
+role as Suzuki's invited senior monk at Tassajara (1967–1970), NOT a
+transmission. So far so good.
 
-### Open question for the editor
+**However, Kobun has no primary transmission edge** because his actual
+shihō teacher, **Hozan Koei Chino Roshi**, is not yet seeded as a master
+in the DB. As a result, Kobun appears in the public graph as a
+descendant of Suzuki via the secondary edge, which understates his
+actual lineage.
 
-The Sōtō shihō ceremony Katagiri performed for Sojun Mel Weitsman in
-1984 (referenced by R3) is a separate event from Katagiri's own
-transmission line and is not affected by this correction.
+### Cited sources (3 independent researchers converged)
+
+- **Jikoji Zen Center** (Kobun's institution): *"He received dharma
+  transmission from Koei Chino Roshi in Kamo in 1962."* —
+  <https://www.jikojizencenter.org/biography>
+- **Terebess** (academic): *"He received Dharma transmission from Koei
+  Chino Roshi in Kamo in l962."* —
+  <https://terebess.hu/zen/mesterek/otokawa.html>
+- **Floating Zendo** (Kobun lineage sangha): *"He was ordained at age
+  twelve, and adopted by a nearby priest in town, Hozan Koei Chino
+  Roshi. The following year he was given dharma transmission by Chino
+  Roshi."* — <https://floatingzendo.org/lineage/>
+- **Jakkoan Kobun archive** (sangha): *"He received dharma transmission
+  from Koei Chino Roshi in Kamo in 1962. He did his first Denpo
+  transmission in 1989 at Jikoji."* — <http://www.kobun.jikoji.org/dbio.html>
+
+### Proposed correction (paired edit)
+
+1. **Add master `hozan-koei-chino`** to the canonical Sōtō seed data with:
+   - Names: Hozan Koei Chino Roshi (法山宏文 知野), alias "Koei Chino"
+   - Role: Sōtō priest at Kamo, Japan; adoptive father and shihō
+     teacher of Kobun Chino Otogawa.
+2. **Add primary edge** `hozan-koei-chino → kobun-chino-otogawa` with
+   `shihoYear: 1962, notes: "Dharma transmission (shihō) 1962 at Kamo,
+   Japan, from his adoptive father Hozan Koei Chino Roshi."`
+3. **Keep** the existing `shunryu-suzuki → kobun-chino-otogawa`
+   `secondary` edge — it documents the 1967–1970 collaboration at
+   Tassajara/SFZC, which is real history.
+
+This pattern mirrors the resolution of the Katagiri case above: the
+secondary "studied with" edge stays, and a new primary edge anchors the
+shihō lineage. After applying, regenerate
+`tests/golden/transmission-edges.json` so the diff documents exactly
+what changed.
+
+### Note on Hozan Koei Chino himself
+
+The agents did not turn up biographical details on Koei Chino Roshi
+himself (dates, his own teacher, temple lineage). A follow-up
+researcher pass would establish his upstream lineage so Kobun connects
+back to the Shakyamuni root through Koei Chino rather than only via the
+Suzuki secondary edge.
 
 ---
