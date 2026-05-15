@@ -1182,15 +1182,15 @@ export default function LineageGraph() {
   }, []);
 
   // Outside-tap dismiss for the master sidebar on mobile (≤720px). Desktop
-  // keeps the sidebar pinned as a side rail; tapping the canvas there should
-  // not dismiss it.
+  // Dismiss the sidebar on outside-tap (any viewport) or Escape key. On
+  // desktop the sidebar was previously pinned as a side rail; users
+  // expect to be able to close it the same way they close the edge
+  // provenance panel, so outside-tap and Escape now work everywhere.
   useEffect(() => {
     if (!sidebar) return;
     if (typeof window === "undefined") return;
 
-    const mq = window.matchMedia("(max-width: 720px)");
-    const handler = (e: PointerEvent) => {
-      if (!mq.matches) return;
+    const pointerHandler = (e: PointerEvent) => {
       // A node-tap fires its PIXI pointerdown handler before the document
       // listener (the canvas is deeper in the tree), setting this flag. In
       // that case the new node is already being shown — don't dismiss, or
@@ -1203,10 +1203,15 @@ export default function LineageGraph() {
       if (target && sidebarRef.current && sidebarRef.current.contains(target)) return;
       setSidebar(null);
     };
+    const keyHandler = (e: KeyboardEvent) => {
+      if (e.key === "Escape") setSidebar(null);
+    };
 
-    document.addEventListener("pointerdown", handler);
+    document.addEventListener("pointerdown", pointerHandler);
+    document.addEventListener("keydown", keyHandler);
     return () => {
-      document.removeEventListener("pointerdown", handler);
+      document.removeEventListener("pointerdown", pointerHandler);
+      document.removeEventListener("keydown", keyHandler);
     };
   }, [sidebar]);
 

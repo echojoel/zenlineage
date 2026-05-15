@@ -623,14 +623,29 @@ body {
 
 .sidebar-close {
   position: absolute;
-  top: 1rem;
-  right: 1rem;
-  background: none;
-  border: none;
-  color: var(--ink-light);
-  font-size: 0.85rem;
+  top: 0.6rem;
+  right: 0.6rem;
+  width: 28px;
+  height: 28px;
+  background: color-mix(in srgb, var(--paper) 88%, transparent);
+  border: 1px solid color-mix(in srgb, var(--ink) 18%, transparent);
+  border-radius: 50%;
+  color: var(--ink);
+  font-size: 0.95rem;
+  line-height: 1;
   cursor: pointer;
-  padding: 0.2rem 0.4rem;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.15s, border-color 0.15s, color 0.15s;
+}
+.sidebar-close:hover,
+.sidebar-close:focus-visible {
+  background: var(--paper);
+  border-color: var(--ink);
+  color: var(--ink);
+  outline: none;
 }
 
 .sidebar-name {
