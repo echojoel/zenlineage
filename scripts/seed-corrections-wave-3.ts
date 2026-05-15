@@ -437,6 +437,154 @@ async function applyCorrection(c: Correction): Promise<{ disputed: boolean; adde
   return { disputed, added };
 }
 
+// ── Upstream connections for the four new masters seeded above ───────
+// These attach the newly-introduced teachers to the existing tree so
+// their students remain reachable from Shakyamuni Buddha on the public
+// graph.
+
+interface UpstreamConnection {
+  /** Master who is currently orphaned (no upstream edge). */
+  student: string;
+  /** Master who is the upstream teacher. */
+  teacher: string;
+  /** If the teacher isn't yet seeded, add them. */
+  seedTeacher?: NonNullable<Correction["seedCorrectTeacher"]>;
+  notes: string;
+}
+
+const UPSTREAM_CONNECTIONS: UpstreamConnection[] = [
+  // Bec ← Kosen Thibaut (transmission 2002). Thibaut already in DB
+  // (he is one of Deshimaru's heirs via Niwa Renpō Zenji).
+  {
+    student: "yvon-myoken-bec",
+    teacher: "stephane-kosen-thibaut",
+    notes:
+      "Dharma transmission (shihō) autumn 2002 from Stéphane Kōsen Thibaut, who himself received shihō from Niwa Renpō Zenji at Eihei-ji in 1984. Sources: Fundación Kannonji, Mokusho Zen House, Zen Universe, zen-deshimaru.com.",
+  },
+  // Kasan Zenryō ← Sozan Genkyō (a new master needing seeding).
+  // Sozan Genkyō's own teacher Takujū Kosen (1760-1833) is already in
+  // the DB, so seeding Sozan Genkyō connects the chain back to it.
+  {
+    student: "kasan-zenryo",
+    teacher: "sozan-genkyo",
+    seedTeacher: {
+      slug: "sozan-genkyo",
+      schoolSlug: "rinzai",
+      enName: "Sosan Genkyō",
+      aliases: ["Sosan Genkyō", "Sozan Genkyō"],
+      cjkName: "蘇山玄喬",
+      cjkLocale: "ja",
+      birthYear: 1798,
+      deathYear: 1868,
+      teacherSlug: "takuju-kosen",
+    },
+    notes:
+      "Sozan Genkyō (1798–1868) was the dharma successor of Takujū Kosen (1760–1833) in the Takuju sub-line of Hakuin's Rinzai. Per Terebess (chayat.html) and Shining Bright Lotus.",
+  },
+  // Guhaku Daiōshō ← Ryoka Daibai (a new master needing seeding).
+  // Ryoka Daibai's own teacher (Kakuan Ryogu) is not yet seeded so this
+  // chain has one more orphan in it — but Guhaku and Kuroda now route
+  // through Ryoka Daibai which is the best we can do with current data.
+  {
+    student: "guhaku-daioshou",
+    teacher: "ryoka-daibai",
+    seedTeacher: {
+      slug: "ryoka-daibai",
+      schoolSlug: "soto",
+      enName: "Ryoka Daibai",
+      cjkName: "了杲大梅",
+      cjkLocale: "ja",
+    },
+    notes:
+      "Ryoka Daibai (了杲大梅) is the predecessor of Guhaku Daiōshō in the Sōtō ancestor lineage chanted at Great Plains Zen Center, Sacramento Zen, and other White Plum / Maezumi-lineage centers.",
+  },
+  // Note on Hozan Koei Chino: agent search found no source identifying
+  // his upstream teacher. He remains orphaned for now; his student
+  // Kobun Chino Otogawa is still graph-reachable via the (disputed)
+  // Shunryū Suzuki edge until research surfaces Koei Chino's teacher.
+];
+
+async function applyUpstreamConnection(u: UpstreamConnection): Promise<boolean> {
+  const studentRow = await db
+    .select({ id: masters.id })
+    .from(masters)
+    .where(eq(masters.slug, u.student))
+    .limit(1);
+  if (studentRow.length === 0) {
+    console.warn(`  [skip-upstream] student ${u.student} not found`);
+    return false;
+  }
+  const studentId = studentRow[0].id;
+
+  let teacherId: string | null = null;
+  if (u.seedTeacher) {
+    teacherId = await ensureMaster(u.seedTeacher);
+    if (u.seedTeacher.teacherSlug) {
+      const upstreamRow = await db
+        .select({ id: masters.id })
+        .from(masters)
+        .where(eq(masters.slug, u.seedTeacher.teacherSlug))
+        .limit(1);
+      if (upstreamRow.length > 0) {
+        const exists = await db
+          .select({ id: masterTransmissions.id })
+          .from(masterTransmissions)
+          .where(
+            and(
+              eq(masterTransmissions.studentId, teacherId),
+              eq(masterTransmissions.teacherId, upstreamRow[0].id),
+            ),
+          )
+          .limit(1);
+        if (exists.length === 0) {
+          await db.insert(masterTransmissions).values({
+            id: nanoid(),
+            studentId: teacherId,
+            teacherId: upstreamRow[0].id,
+            type: "primary",
+            isPrimary: true,
+            notes:
+              `Upstream connection from canonical lineage (added by seed-corrections-wave-3.ts).`,
+          });
+        }
+      }
+    }
+  } else {
+    const teacherRow = await db
+      .select({ id: masters.id })
+      .from(masters)
+      .where(eq(masters.slug, u.teacher))
+      .limit(1);
+    if (teacherRow.length > 0) teacherId = teacherRow[0].id;
+  }
+  if (!teacherId) {
+    console.warn(`  [skip-upstream] teacher ${u.teacher} not available`);
+    return false;
+  }
+
+  const exists = await db
+    .select({ id: masterTransmissions.id })
+    .from(masterTransmissions)
+    .where(
+      and(
+        eq(masterTransmissions.studentId, studentId),
+        eq(masterTransmissions.teacherId, teacherId),
+      ),
+    )
+    .limit(1);
+  if (exists.length > 0) return false;
+
+  await db.insert(masterTransmissions).values({
+    id: nanoid(),
+    studentId,
+    teacherId,
+    type: "primary",
+    isPrimary: true,
+    notes: u.notes,
+  });
+  return true;
+}
+
 async function main() {
   let totalDisputed = 0;
   let totalAdded = 0;
@@ -451,10 +599,16 @@ async function main() {
       }`,
     );
   }
+  let upstreamAdded = 0;
+  for (const u of UPSTREAM_CONNECTIONS) {
+    const added = await applyUpstreamConnection(u);
+    if (added) upstreamAdded++;
+    console.log(`  ${added ? "UPSTREAM" : "noop"}        ${u.teacher} → ${u.student}`);
+  }
   console.log(
-    `[seed-corrections-wave-3] disputed=${totalDisputed} added=${totalAdded} of ${
+    `[seed-corrections-wave-3] disputed=${totalDisputed} added=${totalAdded} upstream=${upstreamAdded} of ${
       CORRECTIONS.length + SEEDED_CORRECTIONS.length
-    } corrections`,
+    } corrections + ${UPSTREAM_CONNECTIONS.length} upstream`,
   );
 }
 

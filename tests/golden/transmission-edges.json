@@ -1,5 +1,5 @@
 {
-  "edge_count": 463,
+  "edge_count": 467,
   "captured_at": "2026-05-15",
   "note": "Locked-in transmission graph baseline. tests/transmission-graph-snapshot.test.ts fails if any of these rows disappears from master_transmissions. To intentionally change the graph, regenerate via this script and review the diff in your PR.",
   "edges": [
@@ -1612,6 +1612,12 @@
       "isPrimary": true
     },
     {
+      "teacher": "ryoka-daibai",
+      "student": "guhaku-daioshou",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
       "teacher": "ryuko-ryoshu",
       "student": "renzan-soho",
       "type": "primary",
@@ -1936,8 +1942,20 @@
       "isPrimary": true
     },
     {
+      "teacher": "sozan-genkyo",
+      "student": "kasan-zenryo",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
       "teacher": "stephane-kosen-thibaut",
       "student": "pierre-soko-leroux",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "stephane-kosen-thibaut",
+      "student": "yvon-myoken-bec",
       "type": "primary",
       "isPrimary": true
     },
@@ -2124,6 +2142,12 @@
     {
       "teacher": "takuju-kosen",
       "student": "myoki-soseki",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "takuju-kosen",
+      "student": "sozan-genkyo",
       "type": "primary",
       "isPrimary": true
     },
