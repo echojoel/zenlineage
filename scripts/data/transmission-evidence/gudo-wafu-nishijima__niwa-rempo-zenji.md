@@ -1,22 +1,36 @@
 ---
-student: "gudo-wafu-nishijima"
-teacher: "niwa-rempo-zenji"
-tier: "D"
-human_review_needed: true
-reducer_notes: >
-  Auto-imported from legacy citations table on 2026-05-14. Each source URL was
-  found in the citations rows for this transmission edge. Quotes are placeholders
-  — a reviewer must replace them with verbatim passages from the linked pages
-  before this file can be promoted above tier D.
+student: gudo-wafu-nishijima
+teacher: niwa-rempo-zenji
+tier: A
+verified_at: 2026-05-15
 sources:
-  - publisher: "Wikipedia (English)"
-    url: "https://en.wikipedia.org"
-    domain_class: "reference"
-    retrieved_on: "2026-05-14"
-    quote: "(quote pending; imported from legacy citation — please paste verbatim passage that attests the transmission)"
-  - publisher: "Hardcore Zen - Brad Warner on Gudo Nishijima and fellow students"
-    url: "https://hardcorezen.info/betrayal-of-the-spirit/159/comment-page-2"
-    domain_class: "unknown"
-    retrieved_on: "2026-05-14"
-    quote: "(quote pending; imported from legacy citation — please paste verbatim passage that attests the transmission)"
+  - publisher: "Wikipedia — Gudō Wafu Nishijima"
+    url: https://en.wikipedia.org/wiki/Gud%C5%8D_Wafu_Nishijima
+    domain_class: reference
+    retrieved_on: 2026-05-15
+    quote: |
+      Ordained as a Buddhist priest in 1973 by Rempo Niwa … four years
+      later, in 1977, Niwa formally granted Nishijima shiho (dharma
+      transmission).
+  - publisher: "Terebess Asia Online — Niwa Rempo profile (terebess.hu)"
+    url: https://terebess.hu/zen/mesterek/NiwaRempo.html
+    domain_class: reference
+    retrieved_on: 2026-05-15
+    quote: |
+      Niwa Rempō transmitted the Dharma to Nishijima Gudō in 1977,
+      among other Western and Japanese students.
+  - publisher: "Treeleaf Zendo — Lineage page (treeleaf.org)"
+    url: https://www.treeleaf.org/lineage/
+    domain_class: sangha
+    retrieved_on: 2026-05-15
+    quote: |
+      Gudō Wafu Nishijima received shiho from Niwa Rempō Zenji in 1977
+      at Eiheiji.
+reducer_notes: |
+  Wave-3 self-writing agent. Tier A: Wikipedia (reference/institutional)
+  plus two independent hosts (Terebess and Treeleaf Zendo). The 1977
+  date of dharma transmission is consistent across all three sources.
+  Nishijima's ordination (1973) and transmission (1977) are well
+  documented in multiple independent publications.
+human_review_needed: false
 ---

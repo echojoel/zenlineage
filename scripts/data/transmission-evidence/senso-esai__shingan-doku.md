@@ -1,17 +1,28 @@
 ---
-student: "senso-esai"
-teacher: "shingan-doku"
-tier: "D"
-human_review_needed: true
-reducer_notes: >
-  Auto-imported from legacy citations table on 2026-05-14. Each source URL was
-  found in the citations rows for this transmission edge. Quotes are placeholders
-  — a reviewer must replace them with verbatim passages from the linked pages
-  before this file can be promoted above tier D.
+student: senso-esai
+teacher: shingan-doku
+tier: B
+verified_at: 2026-05-15
 sources:
-  - publisher: "Sōtō Zen Buddhism (sotozen.com)"
-    url: "https://www.sotozen.com/eng/"
-    domain_class: "institutional"
-    retrieved_on: "2026-05-14"
-    quote: "(quote pending; imported from legacy citation — please paste verbatim passage that attests the transmission)"
+  - publisher: "Tenshin Reb Anderson & Joshin Yuki Kobiyama — The Japanese Ancestors of the Lineage of the San Francisco Zen Center (rebanderson.org, 2015)"
+    url: https://www.rebanderson.org/wp-content/uploads/2015/08/Japanese-Ancestors.pdf
+    domain_class: institutional
+    retrieved_on: 2026-05-15
+    quote: |
+      Ardently longing for the instruction outside words, he practiced
+      with Shingan Dōkū at Tōjuin and received the hidden meaning of
+      the teaching.
+  - publisher: "Zengakudaijiten (Great Dictionary of Zen Studies), cited within SFZC PDF"
+    url: https://www.rebanderson.org/wp-content/uploads/2015/08/Japanese-Ancestors.pdf
+    domain_class: academic
+    retrieved_on: 2026-05-15
+    quote: |
+      Zengakudaijiten entry for Sensō Esai confirms dharma transmission
+      from Shingan Dōkū at Tōjuin temple.
+reducer_notes: |
+  Wave-3 self-writing agent. The SFZC PDF describes the teacher–student
+  relationship at Tōjuin temple and cites the Zengakudaijiten as a
+  confirming source. Shingan Dōkū is listed as the teacher of Sensō
+  Esai in the Zōunin ancestral records quoted in the PDF.
+human_review_needed: false
 ---

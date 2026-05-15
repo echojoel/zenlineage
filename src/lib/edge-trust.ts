@@ -105,7 +105,10 @@ export function parseEvidenceFile(raw: string): ParseResult {
       student: String(data.student),
       teacher: String(data.teacher),
       tier: tier as Tier,
-      verified_at: (data.verified_at as string) ?? null,
+      verified_at:
+        data.verified_at instanceof Date
+          ? data.verified_at.toISOString().slice(0, 10)
+          : ((data.verified_at as string) ?? null),
       sources,
       reducer_notes: (data.reducer_notes as string) ?? null,
       reviewer_notes: (data.reviewer_notes as string) ?? null,

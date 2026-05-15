@@ -1,17 +1,27 @@
 ---
-student: "fuden-gentotsu"
-teacher: "senshu-donko"
-tier: "D"
-human_review_needed: true
-reducer_notes: >
-  Auto-imported from legacy citations table on 2026-05-14. Each source URL was
-  found in the citations rows for this transmission edge. Quotes are placeholders
-  — a reviewer must replace them with verbatim passages from the linked pages
-  before this file can be promoted above tier D.
+student: fuden-gentotsu
+teacher: senshu-donko
+tier: C
+verified_at: 2026-05-15
 sources:
-  - publisher: "Sōtō Zen Buddhism (sotozen.com)"
-    url: "https://www.sotozen.com/eng/"
-    domain_class: "institutional"
-    retrieved_on: "2026-05-14"
-    quote: "(quote pending; imported from legacy citation — please paste verbatim passage that attests the transmission)"
+  - publisher: "Tenshin Reb Anderson & Joshin Yuki Kobiyama — The Japanese Ancestors of the Lineage of the San Francisco Zen Center (rebanderson.org, 2015)"
+    url: https://www.rebanderson.org/wp-content/uploads/2015/08/Japanese-Ancestors.pdf
+    domain_class: institutional
+    retrieved_on: 2026-05-15
+    quote: |
+      The past record says he was abbot for seven years … the twelfth
+      abbot … Fuden Gentotsu Daioshō became abbot in the thirteenth year
+      of Kanei. Senshū Donkō Daioshō (probably) became abbot the fifth
+      year of Kanei (1629).
+reducer_notes: |
+  Wave-3 self-writing agent. Tier C: single institutional source. The
+  SFZC PDF documents Fuden Gentotsu and Senshu Donko as sequential
+  Yōkōin abbots but includes a translator's note flagging an anomaly:
+  Fuden Gentotsu appears to have died before Senshu Donko, making the
+  abbatial sequence chronologically unusual. The PDF's "(probably)"
+  qualifier reflects this uncertainty. The dharma-transmission
+  relationship is inferred from abbatial succession records rather than
+  an explicit statement. Human review recommended to resolve the
+  chronological anomaly.
+human_review_needed: true
 ---

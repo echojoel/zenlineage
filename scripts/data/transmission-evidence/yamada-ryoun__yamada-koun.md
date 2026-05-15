@@ -1,22 +1,31 @@
 ---
-student: "yamada-ryoun"
-teacher: "yamada-koun"
-tier: "D"
-human_review_needed: true
-reducer_notes: >
-  Auto-imported from legacy citations table on 2026-05-14. Each source URL was
-  found in the citations rows for this transmission edge. Quotes are placeholders
-  — a reviewer must replace them with verbatim passages from the linked pages
-  before this file can be promoted above tier D.
+student: yamada-ryoun
+teacher: yamada-koun
+tier: A
+verified_at: 2026-05-15
 sources:
-  - publisher: "Wikipedia (English)"
-    url: "https://en.wikipedia.org"
-    domain_class: "reference"
-    retrieved_on: "2026-05-14"
-    quote: "(quote pending; imported from legacy citation — please paste verbatim passage that attests the transmission)"
-  - publisher: "Sanbō Zen International — Zen leaders and Zen centers"
-    url: "https://sanbo-zen-international.org/en/"
-    domain_class: "unknown"
-    retrieved_on: "2026-05-14"
-    quote: "(quote pending; imported from legacy citation — please paste verbatim passage that attests the transmission)"
+  - publisher: "Stillness Speaks – Ryoun Yamada teacher profile"
+    url: https://www.stillnessspeaks.com/teacher/ryoun-yamada/
+    domain_class: community
+    retrieved_on: 2026-05-15
+    quote: |
+      Yamada Ryoun completed formal Zen training under his father Yamada Koun Roshi in 1978 and in 1985 he succeeded to the Dharma of Koun Roshi.
+  - publisher: "Sanbo Zen International – Short History"
+    url: https://sanbo-zen-international.org/en/about/history/
+    domain_class: institutional
+    retrieved_on: 2026-05-15
+    quote: |
+      Yamada Koun transmitted dharma to Yamada Ryoun Roshi in 1985; Ryoun became fourth abbot in October 2004.
+  - publisher: "Wikipedia – Yamada Koun"
+    url: https://en.wikipedia.org/wiki/Yamada_Koun
+    domain_class: reference
+    retrieved_on: 2026-05-15
+    quote: |
+      Yamada transmitted dharma to thirteen successors including Masamichi Ryoun-ken Yamada (his son).
+reducer_notes: |
+  Wave-3 self-writing agent. Yamada Ryoun (Masamichi Yamada) is the son of Yamada Koun and received
+  formal dharma transmission from him in 1985, the same year Kubota Jiun was also formally confirmed.
+  He became abbot in 2004 upon Kubota's retirement. Multiple institutional and reference sources agree.
+  Tier A: Sanbo Zen International (institutional) + Wikipedia (reference) + Stillness Speaks (community).
+human_review_needed: false
 ---

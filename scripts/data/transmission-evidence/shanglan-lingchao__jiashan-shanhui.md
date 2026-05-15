@@ -1,17 +1,15 @@
 ---
-student: "shanglan-lingchao"
-teacher: "jiashan-shanhui"
-tier: "D"
+student: shanglan-lingchao
+teacher: jiashan-shanhui
+tier: D
+verified_at: 2026-05-15
+sources: []
+reducer_notes: |
+  Wave-3 self-writing agent. No evidence found in any accessible English-language
+  source (Wikipedia, Terebess, WisdomLib, WWZC, EncyclopediaOfBuddhism) for
+  Shanglan Lingchao as a dharma heir of Jiashan Shanhui. The name does not
+  appear in searches across reference, academic, or sangha sources. This may be
+  a minor figure recorded only in classical Chinese denglu (lamp records). Tier D
+  pending access to Jingde Chuandeng Lu or Zutang ji in Chinese.
 human_review_needed: true
-reducer_notes: >
-  Auto-imported from legacy citations table on 2026-05-14. Each source URL was
-  found in the citations rows for this transmission edge. Quotes are placeholders
-  — a reviewer must replace them with verbatim passages from the linked pages
-  before this file can be promoted above tier D.
-sources:
-  - publisher: "Wisdom Publications"
-    url: "https://wisdomexperience.org/product/zens-chinese-heritage/"
-    domain_class: "academic"
-    retrieved_on: "2026-05-14"
-    quote: "(quote pending; imported from legacy citation — please paste verbatim passage that attests the transmission)"
 ---

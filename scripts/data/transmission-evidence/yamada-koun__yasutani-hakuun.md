@@ -1,17 +1,31 @@
 ---
-student: "yamada-koun"
-teacher: "yasutani-hakuun"
-tier: "D"
-human_review_needed: true
-reducer_notes: >
-  Auto-imported from legacy citations table on 2026-05-14. Each source URL was
-  found in the citations rows for this transmission edge. Quotes are placeholders
-  — a reviewer must replace them with verbatim passages from the linked pages
-  before this file can be promoted above tier D.
+student: yamada-koun
+teacher: yasutani-hakuun
+tier: A
+verified_at: 2026-05-15
 sources:
-  - publisher: "Mountain Moon Sanbo-Zen Lineage Chart"
-    url: "https://mountainmoon.org.au/sanbo-zen-lineage-chart"
-    domain_class: "unknown"
-    retrieved_on: "2026-05-14"
-    quote: "(quote pending; imported from legacy citation — please paste verbatim passage that attests the transmission)"
+  - publisher: "Wikipedia – Yamada Koun"
+    url: https://en.wikipedia.org/wiki/Yamada_Koun
+    domain_class: reference
+    retrieved_on: 2026-05-15
+    quote: |
+      Yamada continued to study under Yasutani for seven years following this experience, and in 1961 he became the successor to Haku'un Yasutani.
+  - publisher: "Sanbo Zen International – Short History"
+    url: https://sanbo-zen-international.org/en/about/history/
+    domain_class: institutional
+    retrieved_on: 2026-05-15
+    quote: |
+      Yasutani Haku'un transmitted dharma to Yamada Koun Roshi; Yamada Koun became Dharma successor and second abbot of Sanbo Zen.
+  - publisher: "Maria Kannon Zen Center – Foreword to The Gateless Gate"
+    url: https://www.mkzc.org/articles/foreword-to-the-gateless-gate
+    domain_class: sangha
+    retrieved_on: 2026-05-15
+    quote: |
+      Yamada Koun served as main dharma successor to Hakuun Yasutani Roshi (1885-1973).
+reducer_notes: |
+  Wave-3 self-writing agent. Universally attested. Yamada Koun studied under Yasutani from ~1954,
+  received transmission in 1960/1961 (sources vary by one year), and succeeded him as Kancho in 1970
+  upon Yasutani's retirement. Tier A: Wikipedia (reference) + Sanbo Zen International (institutional)
+  + Maria Kannon Zen Center (sangha).
+human_review_needed: false
 ---

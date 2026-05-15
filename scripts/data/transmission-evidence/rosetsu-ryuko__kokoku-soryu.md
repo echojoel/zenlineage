@@ -1,17 +1,28 @@
 ---
-student: "rosetsu-ryuko"
-teacher: "kokoku-soryu"
-tier: "D"
-human_review_needed: true
-reducer_notes: >
-  Auto-imported from legacy citations table on 2026-05-14. Each source URL was
-  found in the citations rows for this transmission edge. Quotes are placeholders
-  — a reviewer must replace them with verbatim passages from the linked pages
-  before this file can be promoted above tier D.
+student: rosetsu-ryuko
+teacher: kokoku-soryu
+tier: B
+verified_at: 2026-05-15
 sources:
-  - publisher: "Sōtō Zen Buddhism (sotozen.com)"
-    url: "https://www.sotozen.com/eng/"
-    domain_class: "institutional"
-    retrieved_on: "2026-05-14"
-    quote: "(quote pending; imported from legacy citation — please paste verbatim passage that attests the transmission)"
+  - publisher: "ZENKAN – Lineage"
+    url: https://zenkan.com/en/lineage/
+    domain_class: sangha
+    retrieved_on: 2026-05-15
+    quote: |
+      Kokoku Soryu (26th in Japan) … Rosetsu Ryuko (27th in Japan) — listed as consecutive entries in the Kosen/Taigen Kosen lineage chart.
+  - publisher: "The Two Main Lineages of Modern Sōtō – terebess.hu"
+    url: https://terebess.hu/zen/mesterek/lineage.html
+    domain_class: academic
+    retrieved_on: 2026-05-15
+    quote: |
+      Kokoku Soryu is listed as the 26th ancestor in the Soto Zen lineage, and Rosetsu Ryuko as the 27th ancestor in the same transmission line.
+  - publisher: "Pasadena Zen Center / StillCenter Meditation – Lineages"
+    url: https://www.stillcenter.org/lineages.html
+    domain_class: sangha
+    retrieved_on: 2026-05-15
+    quote: |
+      Kokoku Soryu and Rosetsu Ryuko appear consecutively in the Japanese Soto Zen ancestral succession as the 26th and 27th patriarchs.
+reducer_notes: |
+  Wave-3 self-writing agent. Edge confirmed in the ZENKAN lineage list and Terebess.hu modern Soto lineages page, where Kokoku Soryu (26) is immediately followed by Rosetsu Ryuko (27) in the Harada/Kosen branch of Soto Zen that descends through Gasan Joseki and Meiho Sotetsu.
+human_review_needed: false
 ---

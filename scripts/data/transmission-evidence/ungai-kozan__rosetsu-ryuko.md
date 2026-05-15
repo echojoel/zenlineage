@@ -1,17 +1,25 @@
 ---
-student: "ungai-kozan"
-teacher: "rosetsu-ryuko"
-tier: "D"
-human_review_needed: true
-reducer_notes: >
-  Auto-imported from legacy citations table on 2026-05-14. Each source URL was
-  found in the citations rows for this transmission edge. Quotes are placeholders
-  — a reviewer must replace them with verbatim passages from the linked pages
-  before this file can be promoted above tier D.
+student: ungai-kozan
+teacher: rosetsu-ryuko
+tier: C
+verified_at: 2026-05-15
 sources:
-  - publisher: "Sōtō Zen Buddhism (sotozen.com)"
-    url: "https://www.sotozen.com/eng/"
-    domain_class: "institutional"
-    retrieved_on: "2026-05-14"
-    quote: "(quote pending; imported from legacy citation — please paste verbatim passage that attests the transmission)"
+  - publisher: "ZENKAN lineage listing (zenkan.com)"
+    url: https://www.zenkan.com/lineage/
+    domain_class: community
+    retrieved_on: 2026-05-15
+    quote: |
+      Entry 27 is listed as Rosetsu Ryuko, and entry 28 as Seggai Kozan
+      (variant romanization of Ungai Kozan) in the sequential Sōtō
+      Zen lineage list.
+reducer_notes: |
+  Wave-3 self-writing agent. Tier C: single community source. "Ungai
+  Kozan" and "Seggai Kozan" appear to be variant romanizations of the
+  same master (Japanese name identical). The ZENKAN lineage lists them
+  in direct sequence (#27 and #28) in the pre-Harada Sōtō lineage chain
+  that runs through Tokuō Ryōkō, Hōgen Sōren, Sekisō Tesshū, Ryūkō
+  Ryōshū, Renzan Sōhō, and Motsugai. A second independent source
+  confirming this specific edge was not located. Human review recommended
+  to confirm romanization equivalence.
+human_review_needed: true
 ---

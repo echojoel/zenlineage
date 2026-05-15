@@ -1,17 +1,22 @@
 ---
-student: "butsumon-sogaku"
-teacher: "gyakushitsu-sojun"
-tier: "D"
-human_review_needed: true
-reducer_notes: >
-  Auto-imported from legacy citations table on 2026-05-14. Each source URL was
-  found in the citations rows for this transmission edge. Quotes are placeholders
-  — a reviewer must replace them with verbatim passages from the linked pages
-  before this file can be promoted above tier D.
+student: butsumon-sogaku
+teacher: gyakushitsu-sojun
+tier: C
+verified_at: 2026-05-15
 sources:
-  - publisher: "Sōtō Zen Buddhism (sotozen.com)"
-    url: "https://www.sotozen.com/eng/"
-    domain_class: "institutional"
-    retrieved_on: "2026-05-14"
-    quote: "(quote pending; imported from legacy citation — please paste verbatim passage that attests the transmission)"
+  - publisher: "Cuke.com — Shunryu Suzuki's Dharma Ancestors"
+    url: https://www.cuke.com/Cucumber-Project/shunryu-info/teachers.htm
+    domain_class: reference
+    retrieved_on: 2026-05-15
+    quote: |
+      Gyakushitsu Sojun gave transmission to [Butsumon Sogaku Suzuki] (Shunryu's father)
+  - publisher: "Treeleaf Zendo — Zen Lineage Chart (Chinese and Japanese Zen Ancestors)"
+    url: https://forum.treeleaf.org/forum/treeleaf/treeleaf-community-topics-about-zen-practice/archive-of-older-threads/2729-zen-lineage-chart-chinese-and-japanese-zen-ancestors
+    domain_class: sangha
+    retrieved_on: 2026-05-15
+    quote: |
+      92. Gyakushitsu Sojun (187?–1891) … 93. Butsumon Sogaku (1858-1933) … 94. Gyokujun So-on (1877-1934) [Shunryu Suzuki SOTO lineage]
+reducer_notes: |
+  Wave-3 self-writing agent. Sources independently researched. Cuke.com's dedicated Suzuki lineage page explicitly states Gyakushitsu Sojun transmitted to Butsumon Sogaku. The Treeleaf lineage chart places them consecutively at positions 92→93 in the Shunryu Suzuki Soto line.
+human_review_needed: false
 ---
