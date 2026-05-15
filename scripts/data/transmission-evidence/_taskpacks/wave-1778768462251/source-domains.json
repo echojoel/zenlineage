@@ -1,0 +1,250 @@
+{
+  "SOURCE_DOMAINS": [
+    {
+      "pattern": "global.sotozen-net.or.jp",
+      "class": "institutional",
+      "publisher": "Sōtōshū Shūmuchō (Soto Zen Buddhism)"
+    },
+    {
+      "pattern": "sotozen-net.or.jp",
+      "class": "institutional",
+      "publisher": "Sōtōshū Shūmuchō"
+    },
+    {
+      "pattern": "whiteplum.org",
+      "class": "institutional",
+      "publisher": "White Plum Asanga"
+    },
+    {
+      "pattern": "sanboji.org",
+      "class": "institutional",
+      "publisher": "Sanbō Zen International"
+    },
+    {
+      "pattern": "sanbo-zen.org",
+      "class": "institutional",
+      "publisher": "Sanbō Zen International"
+    },
+    {
+      "pattern": "azi.org",
+      "class": "institutional",
+      "publisher": "Association Zen Internationale"
+    },
+    {
+      "pattern": "kosenrinzaiji.fr",
+      "class": "institutional",
+      "publisher": "Kōsen Rinzai-ji"
+    },
+    {
+      "pattern": "templekanshoji.com",
+      "class": "institutional",
+      "publisher": "Temple Kanshōji"
+    },
+    {
+      "pattern": "zenroad.org",
+      "class": "institutional",
+      "publisher": "Zen Road"
+    },
+    {
+      "pattern": "abze.org",
+      "class": "institutional",
+      "publisher": "Asociación Budista Zen España"
+    },
+    {
+      "pattern": "plumvillage.org",
+      "class": "institutional",
+      "publisher": "Plum Village"
+    },
+    {
+      "pattern": "kwanumzen.org",
+      "class": "institutional",
+      "publisher": "Kwan Um School of Zen"
+    },
+    {
+      "pattern": "diamond-sangha.org",
+      "class": "institutional",
+      "publisher": "Diamond Sangha"
+    },
+    {
+      "pattern": "mro.org",
+      "class": "institutional",
+      "publisher": "Mountains and Rivers Order"
+    },
+    {
+      "pattern": "zmm.org",
+      "class": "institutional",
+      "publisher": "Zen Mountain Monastery"
+    },
+    {
+      "pattern": "sfzc.org",
+      "class": "institutional",
+      "publisher": "San Francisco Zen Center"
+    },
+    {
+      "pattern": "zcla.org",
+      "class": "institutional",
+      "publisher": "Zen Center of Los Angeles"
+    },
+    {
+      "pattern": "shasta-abbey.org",
+      "class": "institutional",
+      "publisher": "Shasta Abbey"
+    },
+    {
+      "pattern": "rinnou.net",
+      "class": "institutional",
+      "publisher": "Rinzai-Ōbaku Zen"
+    },
+    {
+      "pattern": "obakusan.or.jp",
+      "class": "institutional",
+      "publisher": "Ōbaku Mampuku-ji"
+    },
+    {
+      "pattern": "eiheiji.jp",
+      "class": "institutional",
+      "publisher": "Eihei-ji"
+    },
+    {
+      "pattern": "sojiji.jp",
+      "class": "institutional",
+      "publisher": "Sōji-ji"
+    },
+    {
+      "pattern": "myoshin-ji.or.jp",
+      "class": "institutional",
+      "publisher": "Myōshin-ji"
+    },
+    {
+      "pattern": "daihonzan-eiheiji.com",
+      "class": "institutional",
+      "publisher": "Eihei-ji"
+    },
+    {
+      "pattern": "jstor.org",
+      "class": "academic",
+      "publisher": "JSTOR"
+    },
+    {
+      "pattern": "britannica.com",
+      "class": "academic",
+      "publisher": "Encyclopædia Britannica"
+    },
+    {
+      "pattern": "oxfordreference.com",
+      "class": "academic",
+      "publisher": "Oxford Reference"
+    },
+    {
+      "pattern": "cambridge.org",
+      "class": "academic",
+      "publisher": "Cambridge University Press"
+    },
+    {
+      "pattern": "academia.edu",
+      "class": "academic",
+      "publisher": "Academia.edu"
+    },
+    {
+      "pattern": "doi.org",
+      "class": "academic",
+      "publisher": "DOI"
+    },
+    {
+      "pattern": "muse.jhu.edu",
+      "class": "academic",
+      "publisher": "Project MUSE"
+    },
+    {
+      "pattern": "thezensite.com",
+      "class": "academic",
+      "publisher": "The Zen Site"
+    },
+    {
+      "pattern": "buddhistdoor.net",
+      "class": "academic",
+      "publisher": "Buddhistdoor Global"
+    },
+    {
+      "pattern": "press.uchicago.edu",
+      "class": "academic",
+      "publisher": "University of Chicago Press"
+    },
+    {
+      "pattern": "shambhala.com",
+      "class": "academic",
+      "publisher": "Shambhala (publisher)"
+    },
+    {
+      "pattern": "wisdomexperience.org",
+      "class": "academic",
+      "publisher": "Wisdom Publications"
+    },
+    {
+      "pattern": "terebess.hu",
+      "class": "academic",
+      "publisher": "Terebess Asia Online"
+    },
+    {
+      "pattern": "en.wikipedia.org",
+      "class": "reference",
+      "publisher": "Wikipedia (English)"
+    },
+    {
+      "pattern": "ja.wikipedia.org",
+      "class": "reference",
+      "publisher": "Wikipedia (Japanese)"
+    },
+    {
+      "pattern": "zh.wikipedia.org",
+      "class": "reference",
+      "publisher": "Wikipedia (Chinese)"
+    },
+    {
+      "pattern": "ko.wikipedia.org",
+      "class": "reference",
+      "publisher": "Wikipedia (Korean)"
+    },
+    {
+      "pattern": "vi.wikipedia.org",
+      "class": "reference",
+      "publisher": "Wikipedia (Vietnamese)"
+    },
+    {
+      "pattern": "treeleaf.org",
+      "class": "sangha",
+      "publisher": "Treeleaf Zendo"
+    },
+    {
+      "pattern": "upaya.org",
+      "class": "sangha",
+      "publisher": "Upaya Zen Center"
+    },
+    {
+      "pattern": "everydayzen.org",
+      "class": "sangha",
+      "publisher": "Everyday Zen Foundation"
+    },
+    {
+      "pattern": "openheartzen.com",
+      "class": "sangha",
+      "publisher": "Open Heart Zen"
+    },
+    {
+      "pattern": "blueheronsangha.org",
+      "class": "sangha",
+      "publisher": "Blue Heron Zen Community"
+    }
+  ],
+  "PROMOTIONAL_DENY": [
+    "(^|\\.)amazon\\.[a-z.]+\\/",
+    "(^|\\.)goodreads\\.com\\/",
+    "\\/dp\\/[A-Z0-9]+",
+    "\\/(buy|shop|store)(\\/|$)",
+    "(^|\\.)substack\\.com\\/p\\/",
+    "(^|\\.)patreon\\.com\\/",
+    "(\\?|&)tag=[^&]*-20(&|$)",
+    "(^|\\.)bookshop\\.org\\/",
+    "(^|\\.)abebooks\\.[a-z.]+\\/"
+  ]
+}

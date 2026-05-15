@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-05-14T14:21:02.251Z",
+  "filter": {
+    "waveSize": 3,
+    "tier": "D"
+  },
+  "edges": [
+    {
+      "edgeId": "11bNiqe5ivyoWAiBvr5LU",
+      "studentSlug": "dongshan-liangjie",
+      "teacherSlug": "yunyan-tansheng",
+      "studentLabel": "Dongshan Liangjie",
+      "teacherLabel": "Yunyan Tansheng",
+      "studentNative": [
+        "zh: 洞山良价"
+      ],
+      "teacherNative": [],
+      "studentDates": "807–869",
+      "teacherDates": "780–841",
+      "schoolSlug": "qingyuan-line",
+      "existingNotes": ""
+    },
+    {
+      "edgeId": "WwOFKkAOoM8jNvNawng0K",
+      "studentSlug": "dongshan-shouchu",
+      "teacherSlug": "yunmen-wenyan",
+      "studentLabel": "Dongshan Shouchu",
+      "teacherLabel": "Yunmen Wenyan",
+      "studentNative": [],
+      "teacherNative": [
+        "zh: 雲門文偃"
+      ],
+      "studentDates": "910–990",
+      "teacherDates": "864–949",
+      "schoolSlug": "nanyue-line",
+      "existingNotes": ""
+    },
+    {
+      "edgeId": "Ok1_KXX4u6E7565OCV_8T",
+      "studentSlug": "doushuai-congyue",
+      "teacherSlug": "huitang-zuxin",
+      "studentLabel": "Doushuai Congyue",
+      "teacherLabel": "Huitang Zuxin",
+      "studentNative": [],
+      "teacherNative": [],
+      "studentDates": "unknown",
+      "teacherDates": "unknown",
+      "schoolSlug": "linji",
+      "existingNotes": ""
+    }
+  ]
+}
