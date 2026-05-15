@@ -1,5 +1,5 @@
 {
-  "edge_count": 482,
+  "edge_count": 493,
   "captured_at": "2026-05-15",
   "note": "Locked-in transmission graph baseline. tests/transmission-graph-snapshot.test.ts fails if any of these rows disappears from master_transmissions. To intentionally change the graph, regenerate via this script and review the diff in your PR.",
   "edges": [
@@ -90,6 +90,12 @@
     {
       "teacher": "bokuo-soun",
       "student": "omori-sogen",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "bokushitsu-bokushu",
+      "student": "niken-sekiryo",
       "type": "primary",
       "isPrimary": true
     },
@@ -533,6 +539,12 @@
     },
     {
       "teacher": "gangoku-gankei",
+      "student": "gento-sokuchu",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "gangoku-gankei",
       "student": "kokoku-soryu",
       "type": "primary",
       "isPrimary": true
@@ -574,6 +586,12 @@
       "isPrimary": true
     },
     {
+      "teacher": "gento-sokuchu",
+      "student": "kyozan-baizen",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
       "teacher": "gessen-zenne",
       "student": "sengai-gibon",
       "type": "primary",
@@ -581,7 +599,19 @@
     },
     {
       "teacher": "gesshu-soko",
+      "student": "tenkei-denson",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "gesshu-soko",
       "student": "tokuo-ryoko",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "gesshu-soko",
+      "student": "tokuzui-tenrin",
       "type": "primary",
       "isPrimary": true
     },
@@ -1192,6 +1222,12 @@
       "isPrimary": true
     },
     {
+      "teacher": "kyozan-baizen",
+      "student": "sozan-chimon",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
       "teacher": "langye-huijue",
       "student": "changshui-zixuan",
       "type": "primary",
@@ -1522,6 +1558,12 @@
       "isPrimary": true
     },
     {
+      "teacher": "niken-sekiryo",
+      "student": "reitan-roryu",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
       "teacher": "nippo-soshun",
       "student": "giten-gensho",
       "type": "primary",
@@ -1638,6 +1680,12 @@
     {
       "teacher": "raphael-doko-triet",
       "student": "yves-shoshin-crettaz",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "reitan-roryu",
+      "student": "kakujo-tosai",
       "type": "primary",
       "isPrimary": true
     },
@@ -1896,6 +1944,12 @@
     {
       "teacher": "shogaku-kenryu",
       "student": "kinen-horyu",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "shogaku-rinzui",
+      "student": "masuda-zuimyo",
       "type": "primary",
       "isPrimary": true
     },
@@ -2242,6 +2296,12 @@
       "isPrimary": true
     },
     {
+      "teacher": "tenkei-denson",
+      "student": "bokushitsu-bokushu",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
       "teacher": "tenrin-kanshu",
       "student": "sessan-tetsuzen",
       "type": "primary",
@@ -2304,6 +2364,12 @@
     {
       "teacher": "tokuo-ryoko",
       "student": "mokushi-soen",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "tokuzui-tenrin",
+      "student": "shogaku-rinzui",
       "type": "primary",
       "isPrimary": true
     },

@@ -170,6 +170,68 @@ const ORPHAN_FIXES: OrphanFix[] = [
     notes:
       "Kakujo Tosai sits at position 82 in the Maezumi/White Plum Sōtō chant lineage, immediately preceding Kakuan Ryogu (position 83). Per Village Zendo, Treetop Zen Center, and Great Plains Zen Center liturgies.",
   },
+
+  // ── Phase 3: extend the chant chains one more hop upstream.
+  // Wave-6 research identified teachers for 3 of the 4 top orphans.
+
+  // Masuda Zuimyō ← Shogaku Rinzui (16th abbot of Hōzōji).
+  {
+    student: "masuda-zuimyo",
+    teacher: "shogaku-rinzui",
+    seedTeacher: {
+      slug: "shogaku-rinzui",
+      schoolSlug: "soto",
+      enName: "Shogaku Rinzui",
+      cjkName: "正覚隣瑞",
+      cjkLocale: "ja",
+    },
+    notes:
+      "Shogaku Rinzui was the 16th abbot of Hōzōji and dharma teacher of Masuda Butsuzan Zuimyō (17th abbot). Per Treeleaf 'Our Lineage: A Continuing History' and Treeleaf forum lineage chart.",
+  },
+  // Sozan Chimon ← Kyozan Baizen (NEW master, well-attested via Terebess + Wikipedia).
+  {
+    student: "sozan-chimon",
+    teacher: "kyozan-baizen",
+    seedTeacher: {
+      slug: "kyozan-baizen",
+      schoolSlug: "soto",
+      enName: "Kyozan Baizen",
+      cjkName: "恭山梅禪",
+      cjkLocale: "ja",
+    },
+    notes:
+      "Kyozan Baizen (恭山梅禪) sits at position 84 in the Katagiri/Maezumi Sōtō chant lineage, immediately preceding Sozan Chimon (position 85). Per Terebess Katagiri lineage page, Treeleaf forum chart, and Wikipedia Gentō Sokuchū (Kyozan's own teacher).",
+  },
+  // Kyozan Baizen ← Gentō Sokuchū (NEW master, has a Wikipedia article).
+  {
+    student: "kyozan-baizen",
+    teacher: "gento-sokuchu",
+    seedTeacher: {
+      slug: "gento-sokuchu",
+      schoolSlug: "soto",
+      enName: "Gentō Sokuchū",
+      aliases: ["Gento Sokuchu"],
+      cjkName: "玄透即中",
+      cjkLocale: "ja",
+      birthYear: 1729,
+      deathYear: 1807,
+    },
+    notes:
+      "Gentō Sokuchū (1729–1807) was the 50th abbot of Eihei-ji and a major Sōtō reformer. Per Wikipedia, his students included Kyozan Baizen, position 84 in the Katagiri lineage.",
+  },
+  // Kakujo Tosai ← Reitan Roryu (NEW master, position 81 in the chant).
+  {
+    student: "kakujo-tosai",
+    teacher: "reitan-roryu",
+    seedTeacher: {
+      slug: "reitan-roryu",
+      schoolSlug: "soto",
+      enName: "Reitan Roryu",
+      aliases: ["Reitan Roryo"],
+    },
+    notes:
+      "Reitan Roryu sits at position 81 in the Maezumi/White Plum Sōtō chant lineage, immediately preceding Kakujo Tosai (position 82). Per Great Plains Zen Center, Village Zendo, Sacramento Zen, and Treeleaf Zendo lineage chants.",
+  },
 ];
 
 // ── Wave-4 mis-attribution corrections (surfaced during tier upgrades).
