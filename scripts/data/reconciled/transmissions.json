@@ -101,16 +101,6 @@
     ]
   },
   {
-    "id": "MPuxTE1LFzG7e5q1rJJv4",
-    "student_id": "0q3Qprk3B6N7TFdNLpOUu",
-    "teacher_id": "K1yydEddrbjaksg2OxUo0",
-    "type": "primary",
-    "is_primary": true,
-    "source_ids": [
-      "src_originals_curated"
-    ]
-  },
-  {
     "id": "Qpt-MyUQ0QkG9piYOBb63",
     "student_id": "9p7AxxsAqoPi-TVU4ZnJj",
     "teacher_id": "6Zx-M-9YaM2MjXyrtcbze",
@@ -231,16 +221,6 @@
     ]
   },
   {
-    "id": "Hg9vV1Odt0gmMGNd-1isH",
-    "student_id": "iLU8eKYHP-kmxLSkg7hkW",
-    "teacher_id": "7bVq77ThGkOYeAitn6YRm",
-    "type": "primary",
-    "is_primary": true,
-    "source_ids": [
-      "src_originals_curated"
-    ]
-  },
-  {
     "id": "qKPePuXiXNMhubvX63qcQ",
     "student_id": "ZfmfYNCJD9rKOo9nvYUen",
     "teacher_id": "1RFyY3lzzzRYNuLT0eyeZ",
@@ -283,16 +263,6 @@
     ]
   },
   {
-    "id": "B5BMW4Kv0xytW_OT4Slcq",
-    "student_id": "93pix4g_RyHondNvLDSs3",
-    "teacher_id": "g4Bb_FEVtARNGbevC_YHt",
-    "type": "primary",
-    "is_primary": true,
-    "source_ids": [
-      "src_originals_curated"
-    ]
-  },
-  {
     "id": "NhlGZh-iTt0tJdey5QHvv",
     "student_id": "1aRVSJptwURPY9AZHpDGM",
     "teacher_id": "x6XSztbbcwA7zFayAkMSl",
@@ -310,16 +280,6 @@
     "is_primary": true,
     "source_ids": [
       "src_chan_ancestors_pdf"
-    ]
-  },
-  {
-    "id": "dQiZqhMNGt3RKIAm7ibmZ",
-    "student_id": "x6XSztbbcwA7zFayAkMSl",
-    "teacher_id": "NEAKNQoo_MlBKLBAQRXDI",
-    "type": "disputed",
-    "is_primary": false,
-    "source_ids": [
-      "src_originals_curated"
     ]
   },
   {
@@ -383,16 +343,6 @@
     ]
   },
   {
-    "id": "Xe7MhseLLPFLxP9ZLAjlg",
-    "student_id": "p4aJBzmNaNhr-KEdOwopR",
-    "teacher_id": "SJqI6-0JfxM5CcZmzmdA1",
-    "type": "primary",
-    "is_primary": true,
-    "source_ids": [
-      "src_originals_curated"
-    ]
-  },
-  {
     "id": "gH3Sg07XeSNwzX2H_Om5n",
     "student_id": "1L1RalHVjkUCvzsl46eE-",
     "teacher_id": "3A_xRCHtopdEAqNDz96Jv",
@@ -433,16 +383,6 @@
     ]
   },
   {
-    "id": "jWIOQkF0AHK2eYNTyGkAd",
-    "student_id": "aYZO7GDyEuLqUdNkSPYdL",
-    "teacher_id": "1qhC-vJBtbBQ4Cs_DcLfQ",
-    "type": "primary",
-    "is_primary": true,
-    "source_ids": [
-      "src_originals_curated"
-    ]
-  },
-  {
     "id": "kQoC8D6HI53ctDTN5bkWV",
     "student_id": "PkGHSIWJnE9AfaP0NJokD",
     "teacher_id": "Ypzz3R74TdOUZEc41CRhm",
@@ -476,16 +416,6 @@
     "id": "X-Q2SQjxweiK7pmHgzLPV",
     "student_id": "LhYc5nPmBBsyVh8kscU3Q",
     "teacher_id": "WTI-TCqjlDuEtaweyATXJ",
-    "type": "primary",
-    "is_primary": true,
-    "source_ids": [
-      "src_originals_curated"
-    ]
-  },
-  {
-    "id": "5v-D2QOl3mdFPwgRUIxuR",
-    "student_id": "mt7Wvlp1EHOHKUB1I3yk9",
-    "teacher_id": "SJqI6-0JfxM5CcZmzmdA1",
     "type": "primary",
     "is_primary": true,
     "source_ids": [
@@ -543,16 +473,6 @@
     ]
   },
   {
-    "id": "ZRuXY667RMQoEwBhA4fKz",
-    "student_id": "kVOPBQ_iEP7qwNlpMHYFm",
-    "teacher_id": "SJqI6-0JfxM5CcZmzmdA1",
-    "type": "primary",
-    "is_primary": true,
-    "source_ids": [
-      "src_originals_curated"
-    ]
-  },
-  {
     "id": "CDXmtz0Br5KTIDvTVtpgY",
     "student_id": "noj0soXZGkua0vO7MpOsD",
     "teacher_id": "0q3Qprk3B6N7TFdNLpOUu",
@@ -586,16 +506,6 @@
     "id": "NywRuVxmbIgooLlqJasca",
     "student_id": "98IxDskSL6L50q85UMiTm",
     "teacher_id": "0-ND3KJXjjf5gkb1aJbM_",
-    "type": "primary",
-    "is_primary": true,
-    "source_ids": [
-      "src_originals_curated"
-    ]
-  },
-  {
-    "id": "BsiEWEPgQ3l_5rZfsAdul",
-    "student_id": "hEOd5fdtLUK-0Fu15szpE",
-    "teacher_id": "XGgvvjlgSlpPY4huIWXjM",
     "type": "primary",
     "is_primary": true,
     "source_ids": [
@@ -673,26 +583,6 @@
     ]
   },
   {
-    "id": "xR2amNKdJnaPUOXMjKLIU",
-    "student_id": "CZsUYLmBsyccueFDgAzpT",
-    "teacher_id": "JushPmAcOEGPdJkilG8PY",
-    "type": "primary",
-    "is_primary": true,
-    "source_ids": [
-      "src_originals_curated"
-    ]
-  },
-  {
-    "id": "PIN7ibjA_evJhU7meE57G",
-    "student_id": "2ViXkfd-4_RKrlE_iGJFh",
-    "teacher_id": "SJqI6-0JfxM5CcZmzmdA1",
-    "type": "primary",
-    "is_primary": true,
-    "source_ids": [
-      "src_originals_curated"
-    ]
-  },
-  {
     "id": "JVN-gLZ8hN7-ppZKlLU9d",
     "student_id": "hQn9IHHluodNnkOCB-tVP",
     "teacher_id": "5Kv8dxTFFL0-h4GQnxz3t",
@@ -753,16 +643,6 @@
     ]
   },
   {
-    "id": "14hE0_iIZNks-EZyck-KM",
-    "student_id": "2le5Q31xg5eULcmP6E7pN",
-    "teacher_id": "TrVx3xDspTmjlxwCSUtfS",
-    "type": "primary",
-    "is_primary": true,
-    "source_ids": [
-      "src_originals_curated"
-    ]
-  },
-  {
     "id": "9-bvm-J9eZpCv4T_HttjA",
     "student_id": "Tm1rbdJAF98SEEdKOXmbZ",
     "teacher_id": "hEOd5fdtLUK-0Fu15szpE",
@@ -773,29 +653,9 @@
     ]
   },
   {
-    "id": "AHfFj0rVzVyoNthafSKpn",
-    "student_id": "MzsKL71HSAAVCzJred0Z3",
-    "teacher_id": "DuB_NWJfY_tzIKn62UjqY",
-    "type": "primary",
-    "is_primary": true,
-    "source_ids": [
-      "src_originals_curated"
-    ]
-  },
-  {
     "id": "ZiAJFBJ_PoV2z7sRp89WZ",
     "student_id": "ZMXzHZ8MwtS8wtG_jQCRc",
     "teacher_id": "DQ9EQl4GbqNIHOtcWsh_4",
-    "type": "primary",
-    "is_primary": true,
-    "source_ids": [
-      "src_originals_curated"
-    ]
-  },
-  {
-    "id": "FOTY34ftUPGKUVAssydYX",
-    "student_id": "oPsupmKZ_xN51oyqQdF0z",
-    "teacher_id": "-amvWaGTGKmxQyp14n6J2",
     "type": "primary",
     "is_primary": true,
     "source_ids": [
@@ -816,16 +676,6 @@
     "id": "PxN6S7aOdCX1r-lMuhrfu",
     "student_id": "GAlcbtrsjobgkFfMIAVh_",
     "teacher_id": "SJqI6-0JfxM5CcZmzmdA1",
-    "type": "primary",
-    "is_primary": true,
-    "source_ids": [
-      "src_originals_curated"
-    ]
-  },
-  {
-    "id": "LMlZIOIRpUaXN3IpuUlzp",
-    "student_id": "d22Ow-7bdbZI8jnr-Sfdf",
-    "teacher_id": "NVstWHNNQBh7pgteVGtDn",
     "type": "primary",
     "is_primary": true,
     "source_ids": [
@@ -1047,16 +897,6 @@
     ]
   },
   {
-    "id": "WiqYrh9fGAx4Fa3t0MEJ7",
-    "student_id": "iJ4NrYpW85olchICykpuy",
-    "teacher_id": "K3tGdAxPeoVWOCN3DnRq9",
-    "type": "primary",
-    "is_primary": true,
-    "source_ids": [
-      "src_originals_curated"
-    ]
-  },
-  {
     "id": "BVrNW6liZsdmcWmFpKp8_",
     "student_id": "upu2QpQ9LlFN3T-gwWP01",
     "teacher_id": "uu9qH9-9wD0oJeH7zP13h",
@@ -1099,16 +939,6 @@
     ]
   },
   {
-    "id": "oj-WYxY34VG00T8Iy_v-J",
-    "student_id": "JFPJEb3YvLpKb-Lqi6QCA",
-    "teacher_id": "4A53pDvtL9BDJW-hUjxnR",
-    "type": "primary",
-    "is_primary": true,
-    "source_ids": [
-      "src_originals_curated"
-    ]
-  },
-  {
     "id": "TzLVm9Azdt6yAr7M7stJD",
     "student_id": "7L-Z2ruVYWEy4KlNjMZaw",
     "teacher_id": "fHWr9ohlZyE4g7K3Wo0ad",
@@ -1123,26 +953,6 @@
     "id": "IuvjQv2ls8qj3Eq0lndSD",
     "student_id": "K1yydEddrbjaksg2OxUo0",
     "teacher_id": "PkGHSIWJnE9AfaP0NJokD",
-    "type": "primary",
-    "is_primary": true,
-    "source_ids": [
-      "src_originals_curated"
-    ]
-  },
-  {
-    "id": "NI7gTfIFUwjhLYA5LVqul",
-    "student_id": "XjAKbIvgYgUOotD4gqWCV",
-    "teacher_id": "DuB_NWJfY_tzIKn62UjqY",
-    "type": "primary",
-    "is_primary": true,
-    "source_ids": [
-      "src_originals_curated"
-    ]
-  },
-  {
-    "id": "YmzVEsISytaMTcIDG6eWD",
-    "student_id": "iHhoBfvtLlnWeY2l8owiE",
-    "teacher_id": "XGgvvjlgSlpPY4huIWXjM",
     "type": "primary",
     "is_primary": true,
     "source_ids": [
@@ -1270,16 +1080,6 @@
     ]
   },
   {
-    "id": "nMHNOA8nDt1VrL9ElGMsH",
-    "student_id": "tWIL3-PP9anYN53fH_WSh",
-    "teacher_id": "JBhPy4sLL_4OgCqT0G36B",
-    "type": "primary",
-    "is_primary": true,
-    "source_ids": [
-      "src_originals_curated"
-    ]
-  },
-  {
     "id": "S9EFgQtKCII4-FgzIFiLg",
     "student_id": "Ypzz3R74TdOUZEc41CRhm",
     "teacher_id": "6Zx-M-9YaM2MjXyrtcbze",
@@ -1374,36 +1174,6 @@
     "id": "swwM7Rf6pR-J2fRGnldr7",
     "student_id": "ilSQ1eOlSNCagZoG1W3Fv",
     "teacher_id": "7oTDRnVmrmHfaS9TyTy5u",
-    "type": "primary",
-    "is_primary": true,
-    "source_ids": [
-      "src_originals_curated"
-    ]
-  },
-  {
-    "id": "Y2oOgkK7jN8-7rUZxWAGL",
-    "student_id": "BF-2Vjqejpp-aUQU6JuKt",
-    "teacher_id": "X2ccK87D6xrnkZyp3yAtO",
-    "type": "primary",
-    "is_primary": true,
-    "source_ids": [
-      "src_originals_curated"
-    ]
-  },
-  {
-    "id": "n-vo-Ff0z7myuxZitHISe",
-    "student_id": "Bo97GCtM9BZ6e71TAMAdZ",
-    "teacher_id": "w_BH28jKXdxchcv4d0gGy",
-    "type": "primary",
-    "is_primary": true,
-    "source_ids": [
-      "src_originals_curated"
-    ]
-  },
-  {
-    "id": "9qgVIy4fS-I9cR1L6tR_s",
-    "student_id": "Kkq_46-Hh94BLD8RXPqxR",
-    "teacher_id": "xvNlcBK2lf_-swgDoLjZg",
     "type": "primary",
     "is_primary": true,
     "source_ids": [
@@ -1561,16 +1331,6 @@
     ]
   },
   {
-    "id": "lw5n2DTrmbr2lqFkX8gUC",
-    "student_id": "qB1m3MboCgq1YkbCWEWY6",
-    "teacher_id": "dajjMBPqxOv2QAYg5_1da",
-    "type": "primary",
-    "is_primary": true,
-    "source_ids": [
-      "src_originals_curated"
-    ]
-  },
-  {
     "id": "PcsSh9-vAbRsXgtsP3Ydt",
     "student_id": "EMoIlVImDttpEYdxP41FA",
     "teacher_id": "taa1SflJsFeSc5_-ahrX8",
@@ -1684,16 +1444,6 @@
     "id": "M2lv5gLgcdozf0stcqXRq",
     "student_id": "dO8iOgsAFRvx7lVlydPMO",
     "teacher_id": "BL41yC9VsAMM0TzssIEKP",
-    "type": "primary",
-    "is_primary": true,
-    "source_ids": [
-      "src_originals_curated"
-    ]
-  },
-  {
-    "id": "yB1gTG5FQn5H9SqyELIXW",
-    "student_id": "T5yC-lZjdEoiTetm3Rsfx",
-    "teacher_id": "s6fg-VgmQx67L-78F45cW",
     "type": "primary",
     "is_primary": true,
     "source_ids": [
@@ -1864,16 +1614,6 @@
     ]
   },
   {
-    "id": "oFx3o6I2zPvcAcroVt_Sy",
-    "student_id": "v5EyeUSr4kkYXdxVFIuTu",
-    "teacher_id": "1RFyY3lzzzRYNuLT0eyeZ",
-    "type": "primary",
-    "is_primary": true,
-    "source_ids": [
-      "src_originals_curated"
-    ]
-  },
-  {
     "id": "CptG1U8wyD2DuJnuEf0yb",
     "student_id": "yRkGCQqk0wCVaL-wdDNzh",
     "teacher_id": "iLU8eKYHP-kmxLSkg7hkW",
@@ -1937,16 +1677,6 @@
     "id": "YmiDuIn7Llknwb_kUVcj_",
     "student_id": "DODjkFbOBTItIJ8egKEhK",
     "teacher_id": "wSFA1nVSaVApOsSbwXxZG",
-    "type": "primary",
-    "is_primary": true,
-    "source_ids": [
-      "src_chan_ancestors_pdf"
-    ]
-  },
-  {
-    "id": "YymfKJS8cL77Y9j7eJqJn",
-    "student_id": "gaN8ndaUaEcnJDAxSZQm1",
-    "teacher_id": "XGgvvjlgSlpPY4huIWXjM",
     "type": "primary",
     "is_primary": true,
     "source_ids": [
@@ -2435,29 +2165,9 @@
     ]
   },
   {
-    "id": "1eCqizRJr7--5HAt4XPbo",
-    "student_id": "IgLEF6ibrtovkxxzFqR_l",
-    "teacher_id": "s6fg-VgmQx67L-78F45cW",
-    "type": "primary",
-    "is_primary": true,
-    "source_ids": [
-      "src_originals_curated"
-    ]
-  },
-  {
     "id": "X8DLyTNJw8GgLXJNErNG_",
     "student_id": "UohqYd8v_T7T_hsfoUDav",
     "teacher_id": "x6XSztbbcwA7zFayAkMSl",
-    "type": "primary",
-    "is_primary": true,
-    "source_ids": [
-      "src_originals_curated"
-    ]
-  },
-  {
-    "id": "OqAMh_s38yv7nLSuCxYpB",
-    "student_id": "K3tGdAxPeoVWOCN3DnRq9",
-    "teacher_id": "6Zx-M-9YaM2MjXyrtcbze",
     "type": "primary",
     "is_primary": true,
     "source_ids": [
@@ -3086,16 +2796,6 @@
     ]
   },
   {
-    "id": "i2hkQozxXR_fioxO5bZ1k",
-    "student_id": "wXD6XKGY5vxgsTu5U9QWs",
-    "teacher_id": "TsYO265GIyAiEWl-Gee2I",
-    "type": "secondary",
-    "is_primary": false,
-    "source_ids": [
-      "src_originals_curated"
-    ]
-  },
-  {
     "id": "pOJkzrUfdLN91tGinIqHP",
     "student_id": "TaVJGPbvurePmMWtq8P2m",
     "teacher_id": "wXD6XKGY5vxgsTu5U9QWs",
@@ -3341,16 +3041,6 @@
     "teacher_id": "MmEh0giNqQgCYsMnv834g",
     "type": "primary",
     "is_primary": true,
-    "source_ids": [
-      "src_originals_curated"
-    ]
-  },
-  {
-    "id": "q7OG6o_-_wDDmRJsG87Xp",
-    "student_id": "6Ht4O5eCUkrIsYMcDgqoo",
-    "teacher_id": "BAK9OnmPO4u7oTiU1_ORc",
-    "type": "secondary",
-    "is_primary": false,
     "source_ids": [
       "src_originals_curated"
     ]

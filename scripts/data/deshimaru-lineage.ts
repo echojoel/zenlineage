@@ -173,14 +173,8 @@ const SOTO_PARENT_STUBS: KVMaster[] = [
       { index: 2, sourceId: "src_dojo_lausanne", pageOrSection: "Muijoji / zen.ch — Michel Reikū Bovay biography (1998 transmission at Teishōji)" },
     ],
     transmissions: [
-      {
-        teacherSlug: "kodo-sawaki",
-        type: "dharma",
-        isPrimary: false,
-        sourceIds: ["src_azi", "src_dojo_lausanne"],
-        notes:
-          "Editorial bridge: Yūkō Okamoto Rōshi inherited Teishōji (Saku, Nagano) via the temple-family succession; his father (the prior Teishōji abbot, not yet seeded) was a personal friend of Sawaki Kōdō, who used Teishōji as a sesshin venue. The edge to Sawaki anchors Okamoto in the 20th-century Sōtō reform milieu through the documented Teishōji–Sawaki connection rather than the 13th-century Dōgen root.",
-      },
+      // Okamoto's predecessor at Teishōji (his father) is not yet seeded.
+      // The Teishōji–Sawaki connection is sesshin-venue hospitality, not shihō.
     ],
   },
   {
@@ -319,14 +313,8 @@ const SOTO_PARENT_STUBS: KVMaster[] = [
       },
     ],
     transmissions: [
-      {
-        teacherSlug: "kodo-sawaki",
-        type: "dharma",
-        isPrimary: false,
-        sourceIds: ["src_terebess"],
-        notes:
-          "Editorial bridge: Niwa Butsuan's own teacher in the Eihei-ji-line succession is not yet seeded in the DB. The edge to Sawaki Kōdō anchors him in the same late-Meiji / early-Shōwa Sōtō reform milieu rather than the 13th-century Dōgen root. Pending Japanese-source research into Tōkei-in's succession register.",
-      },
+      // Niwa Butsuan and Kodo Sawaki were contemporaries (both studied under Oka Sotan),
+      // not teacher-student. Butsuan's own upstream teacher is not yet seeded.
     ],
   },
   {
@@ -375,14 +363,8 @@ const SOTO_PARENT_STUBS: KVMaster[] = [
       },
     ],
     transmissions: [
-      {
-        teacherSlug: "kodo-sawaki",
-        type: "dharma",
-        isPrimary: false,
-        sourceIds: ["src_mnzencenter_katagiri_biography"],
-        notes:
-          "Editorial bridge: Daichō Hayashi's own teacher and predecessor at Taizō-in are not yet seeded in the DB. The edge to Sawaki Kōdō anchors him in the contemporary mid-Shōwa Sōtō world rather than the 13th-century Dōgen root. Pending Japanese-source research into the Taizō-in succession register.",
-      },
+      // Hayashi's predecessor at Taizō-in is not yet seeded.
+      // The Sawaki edge was an unsourced editorial bridge; remove until actual teacher found.
     ],
   },
   // ── Wave 2 (medieval Japanese Sōtō + Tokugawa-Meiji bridge) ──────────────
@@ -1407,14 +1389,8 @@ const SOTO_PARENT_STUBS: KVMaster[] = [
       },
     ],
     transmissions: [
-      {
-        teacherSlug: "kodo-sawaki",
-        type: "dharma",
-        isPrimary: false,
-        sourceIds: ["src_kobun_sama_biography"],
-        notes:
-          "Editorial bridge: Hōzan Kōei Chino's own teacher and predecessor at Jōkō-ji are not yet seeded. The edge to Sawaki Kōdō anchors him in the contemporary mid-Shōwa Sōtō world rather than the 13th-century Dōgen root. Pending Japanese-source research into the Jōkō-ji succession register.",
-      },
+      // Hōzan Kōei Chino's predecessor at Jōkō-ji is not yet seeded.
+      // Kōbun Chino trained with Sawaki, but that was Kōbun not his teacher Hōzan Kōei.
     ],
   },
 ];

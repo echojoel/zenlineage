@@ -916,14 +916,8 @@ export const KV_MASTERS: KVMaster[] = [
       { index: 2, sourceId: "src_princeton_dict_buddhism", pageOrSection: "s.v. \"Pŏpchŏng\" — Musoyu and Korean environmentalism" },
     ],
     transmissions: [
-      {
-        teacherSlug: "seongcheol",
-        type: "secondary",
-        isPrimary: false,
-        sourceIds: ["src_buswell_monastic"],
-        notes:
-          "Editorial bridge: Beopjeong's primary teacher was Hyobong (孝峰, 1888–1966, not yet seeded). The link to Seongcheol — both eminent twentieth-century Jogye masters — represents shared formation in the post-Imjin Songgwangsa hermitage tradition rather than a literal transmission.",
-      },
+      // Beopjeong's actual teacher was Hyobong Hangnul (孝峰, 1888–1966).
+      // Hyobong is not yet seeded; add edge here once seeded.
     ],
   },
   {
@@ -952,14 +946,8 @@ export const KV_MASTERS: KVMaster[] = [
       { index: 2, sourceId: "src_princeton_dict_buddhism", pageOrSection: "s.v. \"Daehaeng\" — Han Maeum (\"One Mind\") teaching" },
     ],
     transmissions: [
-      {
-        teacherSlug: "seongcheol",
-        type: "dharma",
-        isPrimary: false,
-        sourceIds: ["src_buswell_monastic"],
-        notes:
-          "Editorial bridge: Daehaeng was self-taught in the Sŏn idiom and received no formal teacher's transmission. The edge to Seongcheol marks shared mid-twentieth-century Jogye context rather than a literal transmission.",
-      },
+      // Daehaeng had no formal dharma transmission (Wikipedia / Hanmaum Seon Center confirm
+      // she was self-realized). Her ordination teacher was Hanam Jungwon (c. 1948), not yet seeded.
     ],
   },
   // ─── Vietnamese Thiền (additional) ──────────────────────────────────
