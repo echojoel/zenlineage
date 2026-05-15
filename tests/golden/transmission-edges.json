@@ -1,0 +1,2695 @@
+{
+  "edge_count": 448,
+  "captured_at": "2026-05-15",
+  "note": "Locked-in transmission graph baseline. Tests/transmission-graph-snapshot.test.ts fails if any of these rows disappears from master_transmissions. To intentionally change the graph, regenerate via npx tsx scripts/regenerate-graph-snapshot.ts and review the diff in your PR.",
+  "edges": [
+    {
+      "teacher": "ananda",
+      "student": "shanakavasa",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "aryadeva",
+      "student": "rahulata",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "ashvaghosha",
+      "student": "kapimala",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "baian-hakujun-kuroda",
+      "student": "taizan-maezumi",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "baiyun-shouduan",
+      "student": "sixin-wuxin",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "baiyun-shouduan",
+      "student": "wuzu-fayan",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "baizan-monpon",
+      "student": "jochu-tengin",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "baizhang-huaihai",
+      "student": "guishan-daan",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "baizhang-huaihai",
+      "student": "guishan-lingyou",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "baizhang-huaihai",
+      "student": "huangbo-xiyun",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "banryo-zenso",
+      "student": "joten-soko-miura",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "baoshou-yanzhao",
+      "student": "xiyuan-siming",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "bokuo-soun",
+      "student": "omori-sogen",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "buddhamitra",
+      "student": "parshva",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "buddhanandi",
+      "student": "buddhamitra",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "butsumon-sogaku",
+      "student": "gyokujun-so-on",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "changqing-huileng",
+      "student": "wang-yanbin",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "chokoku-koen",
+      "student": "senshu-donko",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "chozan-ginetsu",
+      "student": "fukushu-kochi",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "chuanzi-decheng",
+      "student": "jiashan-shanhui",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "chuzan-ryoun",
+      "student": "gisan-tonin",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "cuiwei-wuxue",
+      "student": "longji-shaoxiu",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "cuiwei-wuxue",
+      "student": "touzi-datong",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "cuiyan-kezhen",
+      "student": "baoning-renyong",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "dahui-zonggao",
+      "student": "zhuan-shigui",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "daicho-hayashi",
+      "student": "dainin-katagiri",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "daiki-kyokan",
+      "student": "enjo-gikan",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "daisetsu-joen",
+      "student": "ogino-dokuen",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "daishin-kan-yu",
+      "student": "tenrin-kanshu",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "daishitsu-chisen",
+      "student": "kokei-shojun",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "dajian-huineng",
+      "student": "heze-shenhui",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "dajian-huineng",
+      "student": "nanyang-huizhong",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "dajian-huineng",
+      "student": "nanyue-huairang",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "dajian-huineng",
+      "student": "qingyuan-xingsi",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "dajian-huineng",
+      "student": "yongjia-xuanjue",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "daman-hongren",
+      "student": "cizhou-faru",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "daman-hongren",
+      "student": "dajian-huineng",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "daman-hongren",
+      "student": "yuquan-shenxiu",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "daman-hongren",
+      "student": "zizhou-zhishen",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "damei-fachang",
+      "student": "hangzhou-tianlong",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "danxia-tianran",
+      "student": "cuiwei-wuxue",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "danxia-zichun",
+      "student": "hongzhi-zhengjue",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "danxia-zichun",
+      "student": "zhenxie-qingliao",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "daowu-yuanzhi",
+      "student": "shishuang-qingzhu",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "dayang-jingxuan",
+      "student": "fushan-fayuan",
+      "type": "dharma",
+      "isPrimary": false
+    },
+    {
+      "teacher": "dayi-daoxin",
+      "student": "daman-hongren",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "dayi-daoxin",
+      "student": "niutou-farong",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "dazu-huike",
+      "student": "jianzhi-sengcan",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "deshan-xuanjian",
+      "student": "gaoan-dayu",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "deshan-xuanjian",
+      "student": "xuefeng-yicun",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "deshan-xuanjian",
+      "student": "yantou-quanhuo",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "dhritaka",
+      "student": "michaka",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "dogen",
+      "student": "koun-ejo",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "dokutan-sosan",
+      "student": "harada-daiun-sogaku",
+      "type": "secondary",
+      "isPrimary": false
+    },
+    {
+      "teacher": "dongshan-liangjie",
+      "student": "caoshan-benji",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "dongshan-liangjie",
+      "student": "longya-judun",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "dongshan-liangjie",
+      "student": "qinshan-wensui",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "dongshan-liangjie",
+      "student": "shushan-kuangren",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "dongshan-liangjie",
+      "student": "wenshu-yingzhen",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "dongshan-liangjie",
+      "student": "yuezhou-qianfeng",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "dongshan-liangjie",
+      "student": "yunju-daoying",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "dongshan-shouchu",
+      "student": "baling-haojian",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "dongshan-shouchu",
+      "student": "deshan-yuanmi",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "dosho-saikawa",
+      "student": "olivier-reigen-wang-genh",
+      "type": "secondary",
+      "isPrimary": false
+    },
+    {
+      "teacher": "doushuai-congyue",
+      "student": "taiping-huiqin",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "enjo-gikan",
+      "student": "shoun-hozui",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "etienne-mokusho-zeisler",
+      "student": "vincent-keisen-vuillemin",
+      "type": "secondary",
+      "isPrimary": false
+    },
+    {
+      "teacher": "fayan-wenyi",
+      "student": "baoci-xingyan",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "fayan-wenyi",
+      "student": "chongshou-qichou",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "fayan-wenyi",
+      "student": "guizong-cezhen",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "fayan-wenyi",
+      "student": "tiantai-deshao",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "fengxue-yanzhao",
+      "student": "shoushan-xingnian",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "fenyang-shanzhao",
+      "student": "shishuang-chuyuan",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "fuden-gentotsu",
+      "student": "daishin-kan-yu",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "fukushu-kochi",
+      "student": "meido-yuton",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "furong-daokai",
+      "student": "dagui-muzhe",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "furong-daokai",
+      "student": "danxia-zichun",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "furong-daokai",
+      "student": "kumu-daocheng",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "furong-daokai",
+      "student": "yang-wuwei",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "fushan-fayuan",
+      "student": "shexian-guixing",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "fushan-fayuan",
+      "student": "touzi-yiqing",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "fushan-fayuan",
+      "student": "yuantong-fashen",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "fuzan-shunki",
+      "student": "jissan-mokuin",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "gangoku-gankei",
+      "student": "kokoku-soryu",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "gaoan-dayu",
+      "student": "moshan-liaoran",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "gaofeng-yuanmiao",
+      "student": "ji-an-xin",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "gasan-jito",
+      "student": "inzan-ien",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "gasan-jito",
+      "student": "takuju-kosen",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "gasan-joseki",
+      "student": "taigen-soshin",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "gayashata",
+      "student": "kumarata",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "gessen-zenne",
+      "student": "sengai-gibon",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "gesshu-soko",
+      "student": "tokuo-ryoko",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "gisan-tonin",
+      "student": "shogaku-kenryu",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "gisan-zenrai",
+      "student": "kosen-imakita",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "gisan-zenrai",
+      "student": "sohan-genyo",
+      "type": "secondary",
+      "isPrimary": false
+    },
+    {
+      "teacher": "gisan-zenrai",
+      "student": "tekisui-giboku",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "giten-gensho",
+      "student": "sekko-soshin",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "gongai-sochu",
+      "student": "kaso-sodon",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "goto-zuigan",
+      "student": "morinaga-soko",
+      "type": "secondary",
+      "isPrimary": false
+    },
+    {
+      "teacher": "goto-zuigan",
+      "student": "oda-sesso",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "gudo-toshoku",
+      "student": "shido-bunan",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "gudo-toshoku",
+      "student": "umpo-zenjo",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "gudo-wafu-nishijima",
+      "student": "brad-warner",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "gudo-wafu-nishijima",
+      "student": "mike-chodo-cross",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "guishan-daan",
+      "student": "dasui-fazhen",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "guishan-lingyou",
+      "student": "dayu-shouzhi",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "guishan-lingyou",
+      "student": "lingyun-zhiqin",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "guishan-lingyou",
+      "student": "liu-tiemo",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "guishan-lingyou",
+      "student": "xiangyan-zhixian",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "guishan-lingyou",
+      "student": "xingyang-qingrang",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "guishan-lingyou",
+      "student": "yangshan-huiji",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "gukei-youn",
+      "student": "harada-sodo-kakusho",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "gyakushitsu-sojun",
+      "student": "butsumon-sogaku",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "gyokujun-so-on",
+      "student": "shunryu-suzuki",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "haklena",
+      "student": "simha",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "hakuho-genteki",
+      "student": "gesshu-soko",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "hakuin-ekaku",
+      "student": "gasan-jito",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "hangzhou-tianlong",
+      "student": "jinhua-juzhi",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "harada-daiun-sogaku",
+      "student": "yasutani-hakuun",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "harada-sodo-kakusho",
+      "student": "harada-daiun-sogaku",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "hogen-soren",
+      "student": "sekiso-tesshu",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "huangbo-xiyun",
+      "student": "linji-yixuan",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "huangbo-xiyun",
+      "student": "muzhou-daoming",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "huanglong-huinan",
+      "student": "dahong-zuzheng",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "huanglong-huinan",
+      "student": "huanglong-huiji",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "huanglong-huinan",
+      "student": "huitang-zuxin",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "huanglong-huinan",
+      "student": "mingan-rongxi",
+      "type": "dharma",
+      "isPrimary": false
+    },
+    {
+      "teacher": "huanglong-huinan",
+      "student": "myoan-eisai",
+      "type": "dharma",
+      "isPrimary": false
+    },
+    {
+      "teacher": "huanglong-huinan",
+      "student": "yunan-kewen",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "huanglong-huinan",
+      "student": "zhenjing-kewen",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "hugo-enomiya-lassalle",
+      "student": "willigis-jager",
+      "type": "secondary",
+      "isPrimary": false
+    },
+    {
+      "teacher": "huguo-jingyuan",
+      "student": "huoan-shiti",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "huitang-zuxin",
+      "student": "doushuai-congyue",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "ian-chisatsu",
+      "student": "tozen-soshin",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "inzan-ien",
+      "student": "taigen-shigen",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "iyoku-choyu",
+      "student": "mugai-keigon",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "jayata",
+      "student": "vasubandhu",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "ji-an-xin",
+      "student": "shiwu-qinggong",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "jianzhi-sengcan",
+      "student": "dayi-daoxin",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "jiashan-shanhui",
+      "student": "luopu-yuanan",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "jiashan-shanhui",
+      "student": "shanglan-lingchao",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "jiashan-shanhui",
+      "student": "shaoshan-huanpu",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "jingzhong-shenhui",
+      "student": "shengshou-nanyin",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "jingzhong-wuxiang",
+      "student": "baotang-wuzhu",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "jingzhong-wuxiang",
+      "student": "jingzhong-shenhui",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "jissan-mokuin",
+      "student": "sengan-bonryu",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "jiufeng-daoqian",
+      "student": "heshan-wuyin",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "joan-rieck",
+      "student": "henry-shukman",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "jochu-tengin",
+      "student": "shingan-doku",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "joten-soko-miura",
+      "student": "joshu-sasaki",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "juo-sohitsu",
+      "student": "muin-soin",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "kaiten-genju",
+      "student": "shuzan-shunsho",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "kankai-tokuon",
+      "student": "kosen-baido",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "kanzan-egen",
+      "student": "juo-sohitsu",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "kapimala",
+      "student": "nagarjuna",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "karyo-zuika",
+      "student": "tankai-gensho",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "kaso-sodon",
+      "student": "ikkyu-sojun",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "keido-chisan",
+      "student": "baian-hakujun-kuroda",
+      "type": "dharma",
+      "isPrimary": false
+    },
+    {
+      "teacher": "keido-chisan",
+      "student": "dosho-saikawa",
+      "type": "dharma",
+      "isPrimary": false
+    },
+    {
+      "teacher": "keido-chisan",
+      "student": "jiyu-kennett",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "keigan-eisho",
+      "student": "chuzan-ryoun",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "keizan-jokin",
+      "student": "gasan-joseki",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "keizan-jokin",
+      "student": "keido-chisan",
+      "type": "dharma",
+      "isPrimary": false
+    },
+    {
+      "teacher": "keizan-jokin",
+      "student": "meiho-sotetsu",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "ken-an-junsa",
+      "student": "chokoku-koen",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "kinen-horyu",
+      "student": "daishitsu-chisen",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "kishigami-kojun",
+      "student": "philippe-reiryu-coupey",
+      "type": "secondary",
+      "isPrimary": false
+    },
+    {
+      "teacher": "kodo-sawaki",
+      "student": "gudo-wafu-nishijima",
+      "type": "secondary",
+      "isPrimary": false
+    },
+    {
+      "teacher": "kodo-sawaki",
+      "student": "kosho-uchiyama",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "kodo-sawaki",
+      "student": "taisen-deshimaru",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "koho-genkun",
+      "student": "ian-chisatsu",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "koho-kakumyo",
+      "student": "bassui-tokusho",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "kokei-shojun",
+      "student": "sesso-yuho",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "kokoku-soryu",
+      "student": "rosetsu-ryuko",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "kono-bukai",
+      "student": "shibayama-zenkei",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "kosen-baido",
+      "student": "gyakushitsu-sojun",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "kosen-imakita",
+      "student": "soyen-shaku",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "kosho-uchiyama",
+      "student": "shohaku-okumura",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "koun-ejo",
+      "student": "tettsu-gikai",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "kubota-jiun",
+      "student": "joan-rieck",
+      "type": "secondary",
+      "isPrimary": false
+    },
+    {
+      "teacher": "kubota-jiun",
+      "student": "migaku-sato",
+      "type": "secondary",
+      "isPrimary": false
+    },
+    {
+      "teacher": "kubota-jiun",
+      "student": "willigis-jager",
+      "type": "secondary",
+      "isPrimary": false
+    },
+    {
+      "teacher": "kubota-jiun",
+      "student": "yamada-ryoun",
+      "type": "secondary",
+      "isPrimary": false
+    },
+    {
+      "teacher": "kumarata",
+      "student": "jayata",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "langye-huijue",
+      "student": "changshui-zixuan",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "liangshan-yuanguan",
+      "student": "dayang-jingxuan",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "linji-yixuan",
+      "student": "baizhang-niepan",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "linji-yixuan",
+      "student": "baoshou-yanzhao",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "linji-yixuan",
+      "student": "ingen-ryuki",
+      "type": "dharma",
+      "isPrimary": false
+    },
+    {
+      "teacher": "linji-yixuan",
+      "student": "licun",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "linji-yixuan",
+      "student": "nguyen-thieu",
+      "type": "dharma",
+      "isPrimary": false
+    },
+    {
+      "teacher": "linji-yixuan",
+      "student": "osaka-koryu",
+      "type": "dharma",
+      "isPrimary": false
+    },
+    {
+      "teacher": "linji-yixuan",
+      "student": "sansheng-huiran",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "linji-yixuan",
+      "student": "tongfeng-anzhu",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "linji-yixuan",
+      "student": "xinghua-cunjiang",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "linji-yixuan",
+      "student": "xita-guangmu",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "longtan-chongxin",
+      "student": "deshan-xuanjian",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "luohan-guichen",
+      "student": "fayan-wenyi",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "luoshan-daoxian",
+      "student": "tianping-congyi",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "mahakashyapa",
+      "student": "ananda",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "manorhita",
+      "student": "haklena",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "mazu-daoyi",
+      "student": "baizhang-huaihai",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "mazu-daoyi",
+      "student": "damei-fachang",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "mazu-daoyi",
+      "student": "guizong-zhichang",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "mazu-daoyi",
+      "student": "luzu-baoyun",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "mazu-daoyi",
+      "student": "mayu-baoche",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "mazu-daoyi",
+      "student": "nanquan-puyuan",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "mazu-daoyi",
+      "student": "pang-yun",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "mazu-daoyi",
+      "student": "panshan-baoji",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "mazu-daoyi",
+      "student": "wujiu-youxuan",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "mazu-daoyi",
+      "student": "xitang-zhizang",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "mazu-daoyi",
+      "student": "yanguan-qian",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "mazu-daoyi",
+      "student": "zhangjing-huaiyun",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "mazu-daoyi",
+      "student": "zhongyi-hongen",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "meido-yuton",
+      "student": "hakuho-genteki",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "meiho-sotetsu",
+      "student": "shugan-dochin",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "michaka",
+      "student": "vasumitra",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "mokushi-soen",
+      "student": "gangoku-gankei",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "morinaga-soko",
+      "student": "shaku-daijo",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "motsugai-shido",
+      "student": "gukei-youn",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "mugai-keigon",
+      "student": "nenshitsu-yokaku",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "muin-soin",
+      "student": "nippo-soshun",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "myoki-soseki",
+      "student": "karyo-zuika",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "nagarjuna",
+      "student": "aryadeva",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "nampo-gentaku",
+      "student": "zoden-yoko",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "nanpu-shaoming",
+      "student": "shuho-myocho",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "nanquan-puyuan",
+      "student": "changsha-jingcen",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "nanquan-puyuan",
+      "student": "zhaozhou-congshen",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "nanso-shinshu",
+      "student": "kankai-tokuon",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "nanta-guangyong",
+      "student": "bajiao-huiqing",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "nanyuan-huiyong",
+      "student": "fengxue-yanzhao",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "nanyue-daoxuan",
+      "student": "danyuan-yingzhen",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "nanyue-huairang",
+      "student": "mazu-daoyi",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "nenshitsu-yokaku",
+      "student": "sesso-hoseki",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "nippo-soshun",
+      "student": "giten-gensho",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "niwa-rempo-zenji",
+      "student": "etienne-mokusho-zeisler",
+      "type": "secondary",
+      "isPrimary": false
+    },
+    {
+      "teacher": "niwa-rempo-zenji",
+      "student": "gudo-wafu-nishijima",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "niwa-rempo-zenji",
+      "student": "roland-rech",
+      "type": "secondary",
+      "isPrimary": false
+    },
+    {
+      "teacher": "niwa-rempo-zenji",
+      "student": "stephane-kosen-thibaut",
+      "type": "secondary",
+      "isPrimary": false
+    },
+    {
+      "teacher": "oda-sesso",
+      "student": "morinaga-soko",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "ogino-dokuen",
+      "student": "banryo-zenso",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "osaka-koryu",
+      "student": "taizan-maezumi",
+      "type": "secondary",
+      "isPrimary": false
+    },
+    {
+      "teacher": "parshva",
+      "student": "punyayashas",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "poan-zuxian",
+      "student": "wuzhun-shifan",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "prajnatara",
+      "student": "puti-damo",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "punyamitra",
+      "student": "prajnatara",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "punyayashas",
+      "student": "ashvaghosha",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "puti-damo",
+      "student": "dazu-huike",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "puti-damo",
+      "student": "mahasattva-fu",
+      "type": "secondary",
+      "isPrimary": false
+    },
+    {
+      "teacher": "qingyuan-xingsi",
+      "student": "shitou-xiqian",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "rahulata",
+      "student": "sanghanandi",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "raphael-doko-triet",
+      "student": "yves-shoshin-crettaz",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "renzan-soho",
+      "student": "motsugai-shido",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "rosetsu-ryuko",
+      "student": "ungai-kozan",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "ruben-habito",
+      "student": "henry-shukman",
+      "type": "secondary",
+      "isPrimary": false
+    },
+    {
+      "teacher": "ruben-habito",
+      "student": "valerie-forstman",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "ryoen-genseki",
+      "student": "seisetsu-genjyo",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "ryuko-ryoshu",
+      "student": "renzan-soho",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "sanghanandi",
+      "student": "gayashata",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "sawada-zenko",
+      "student": "kodo-sawaki",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "seisetsu-genjyo",
+      "student": "bokuo-soun",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "sekiso-tesshu",
+      "student": "ryuko-ryoshu",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "sekko-soshin",
+      "student": "toyo-eicho",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "sengan-bonryu",
+      "student": "daiki-kyokan",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "senshu-donko",
+      "student": "fuden-gentotsu",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "senso-esai",
+      "student": "iyoku-choyu",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "sessan-tetsuzen",
+      "student": "fuzan-shunki",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "sesso-hoseki",
+      "student": "taiei-zesho",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "sesso-yuho",
+      "student": "kaiten-genju",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "shaku-daijo",
+      "student": "shaku-kojyu",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "shaku-sokatsu",
+      "student": "goto-zuigan",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "shakyamuni-buddha",
+      "student": "mahakashyapa",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "shanakavasa",
+      "student": "upagupta",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "shengshou-nanyin",
+      "student": "suizhou-daoyuan",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "shido-bunan",
+      "student": "shoju-rojin",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "shinchi-kakushin",
+      "student": "koho-kakumyo",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "shingan-doku",
+      "student": "senso-esai",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "shishuang-chuyuan",
+      "student": "cuiyan-kezhen",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "shishuang-chuyuan",
+      "student": "huanglong-huinan",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "shishuang-chuyuan",
+      "student": "langye-huijue",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "shishuang-chuyuan",
+      "student": "yangqi-fanghui",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "shishuang-qingzhu",
+      "student": "dingzhou-shizang",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "shishuang-qingzhu",
+      "student": "jiufeng-daoqian",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "shishuang-qingzhu",
+      "student": "nanta-guangyong",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "shishuang-qingzhu",
+      "student": "yungai-zhiyuan",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "shitou-xiqian",
+      "student": "danxia-tianran",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "shitou-xiqian",
+      "student": "guannan-daochang",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "shitou-xiqian",
+      "student": "nanyue-daoxuan",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "shitou-xiqian",
+      "student": "tianhuang-daowu",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "shitou-xiqian",
+      "student": "yaoshan-weiyan",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "shiwu-qinggong",
+      "student": "taigu-puyu",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "shizan-tokuchu",
+      "student": "nanso-shinshu",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "shogaku-kenryu",
+      "student": "kinen-horyu",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "shohaku-okumura",
+      "student": "ivan-densho-quintero",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "shoju-rojin",
+      "student": "gessen-zenne",
+      "type": "secondary",
+      "isPrimary": false
+    },
+    {
+      "teacher": "shoju-rojin",
+      "student": "hakuin-ekaku",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "shoryu-koho",
+      "student": "sawada-zenko",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "shoun-hozui",
+      "student": "shizan-tokuchu",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "shoushan-xingnian",
+      "student": "fenyang-shanzhao",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "shugan-dochin",
+      "student": "tessan-shikaku",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "shuho-myocho",
+      "student": "kanzan-egen",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "shuho-myocho",
+      "student": "tetto-giko",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "shunryu-suzuki",
+      "student": "dainin-katagiri",
+      "type": "secondary",
+      "isPrimary": false
+    },
+    {
+      "teacher": "shunryu-suzuki",
+      "student": "kobun-chino-otogawa",
+      "type": "secondary",
+      "isPrimary": false
+    },
+    {
+      "teacher": "shushan-kuangren",
+      "student": "taiyuan-fu",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "shuzan-shunsho",
+      "student": "chozan-ginetsu",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "simha",
+      "student": "vasasita",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "sohan-genyo",
+      "student": "yamamoto-gempo",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "soyen-shaku",
+      "student": "d-t-suzuki",
+      "type": "secondary",
+      "isPrimary": false
+    },
+    {
+      "teacher": "soyen-shaku",
+      "student": "nyogen-senzaki",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "soyen-shaku",
+      "student": "shaku-sokatsu",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "stephane-kosen-thibaut",
+      "student": "pierre-soko-leroux",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "suizhou-daoyuan",
+      "student": "guifeng-zongmi",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "taiei-zesho",
+      "student": "nampo-gentaku",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "taiga-tankyo",
+      "student": "koho-genkun",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "taigen-shigen",
+      "student": "daisetsu-joen",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "taigen-shigen",
+      "student": "gisan-zenrai",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "taigen-soshin",
+      "student": "baizan-monpon",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "taiping-huiqin",
+      "student": "huguo-jingyuan",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "taisen-deshimaru",
+      "student": "etienne-mokusho-zeisler",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "taisen-deshimaru",
+      "student": "evelyne-eko-de-smedt",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "taisen-deshimaru",
+      "student": "jean-pierre-genshu-faure",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "taisen-deshimaru",
+      "student": "michel-reiku-bovay",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "taisen-deshimaru",
+      "student": "olivier-reigen-wang-genh",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "taisen-deshimaru",
+      "student": "philippe-reiryu-coupey",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "taisen-deshimaru",
+      "student": "pierre-reigen-crepon",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "taisen-deshimaru",
+      "student": "raphael-doko-triet",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "taisen-deshimaru",
+      "student": "roland-rech",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "taisen-deshimaru",
+      "student": "stephane-kosen-thibaut",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "taizan-maezumi",
+      "student": "alfred-jitsudo-ancheta",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "taizan-maezumi",
+      "student": "anne-seisen-saunders",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "taizan-maezumi",
+      "student": "bernie-tetsugen-glassman",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "taizan-maezumi",
+      "student": "charles-tenshin-fletcher",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "taizan-maezumi",
+      "student": "charlotte-joko-beck",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "taizan-maezumi",
+      "student": "dennis-genpo-merzel",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "taizan-maezumi",
+      "student": "gerry-shishin-wick",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "taizan-maezumi",
+      "student": "jan-chozen-bays",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "taizan-maezumi",
+      "student": "john-daido-loori",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "taizan-maezumi",
+      "student": "john-tesshin-sanderson",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "taizan-maezumi",
+      "student": "nicolee-jikyo-mccann",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "taizan-maezumi",
+      "student": "susan-myoyu-andersen",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "taizan-maezumi",
+      "student": "william-nyogen-yeo",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "takuju-kosen",
+      "student": "myoki-soseki",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "tankai-gensho",
+      "student": "dokutan-sosan",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "tankai-gensho",
+      "student": "kono-bukai",
+      "type": "secondary",
+      "isPrimary": false
+    },
+    {
+      "teacher": "tekisui-giboku",
+      "student": "ryoen-genseki",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "tenrin-kanshu",
+      "student": "sessan-tetsuzen",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "tenyu-soen",
+      "student": "ken-an-junsa",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "tessan-shikaku",
+      "student": "keigan-eisho",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "tetto-giko",
+      "student": "gongai-sochu",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "tettsu-gikai",
+      "student": "keizan-jokin",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "tianhuang-daowu",
+      "student": "longtan-chongxin",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "tiantai-deshao",
+      "student": "yongming-yanshou",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "tiantong-rujing",
+      "student": "dogen",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "tiantong-zongjue",
+      "student": "xuedou-zhijian",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "tokuo-ryoko",
+      "student": "hogen-soren",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "tokuo-ryoko",
+      "student": "mokushi-soen",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "tongan-daopi",
+      "student": "tongan-guanzhi",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "tongan-daopi",
+      "student": "yangshan-yong",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "tongan-guanzhi",
+      "student": "liangshan-yuanguan",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "touzi-datong",
+      "student": "daguang-juhui",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "touzi-yiqing",
+      "student": "furong-daokai",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "toyo-eicho",
+      "student": "taiga-tankyo",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "tozen-soshin",
+      "student": "yozan-keiyo",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "umpo-zenjo",
+      "student": "bankei-yotaku",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "ungai-kozan",
+      "student": "shoryu-koho",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "upagupta",
+      "student": "dhritaka",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "vasasita",
+      "student": "punyamitra",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "vasubandhu",
+      "student": "manorhita",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "vasumitra",
+      "student": "buddhanandi",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "wumen-huikai",
+      "student": "shinchi-kakushin",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "wuzhun-shifan",
+      "student": "xueyan-zuqin",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "wuzhun-shifan",
+      "student": "xutang-zhiyu",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "wuzhun-shifan",
+      "student": "yuelin-shiguan",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "wuzu-fayan",
+      "student": "foyan-qingyuan",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "wuzu-fayan",
+      "student": "kaifu-daoning",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "wuzu-fayan",
+      "student": "yuanwu-keqin",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "xianglin-chengyuan",
+      "student": "xingyang-qingpou",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "xianglin-chengyuan",
+      "student": "zhimen-guangzuo",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "xiangyan-zhixian",
+      "student": "baofeng-weizhao",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "xiangyan-zhixian",
+      "student": "huguo-shoucheng",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "xinghua-cunjiang",
+      "student": "nanyin-shourou",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "xinghua-cunjiang",
+      "student": "nanyuan-huiyong",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "xita-guangmu",
+      "student": "zifu-rubao",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "xitang-zhizang",
+      "student": "wufeng-changguan",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "xuansha-shibei",
+      "student": "luohan-guichen",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "xuedou-chongxian",
+      "student": "tianyi-yihuai",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "xuedou-zhijian",
+      "student": "tiantong-rujing",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "xuefeng-yicun",
+      "student": "baofu-congzhan",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "xuefeng-yicun",
+      "student": "changfu-zhi",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "xuefeng-yicun",
+      "student": "changqing-huileng",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "xuefeng-yicun",
+      "student": "cuiyan-lingcan",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "xuefeng-yicun",
+      "student": "jingqing-daofu",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "xuefeng-yicun",
+      "student": "lianhua-fengxiang",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "xuefeng-yicun",
+      "student": "luoshan-daoxian",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "xuefeng-yicun",
+      "student": "mingzhao-deqian",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "xuefeng-yicun",
+      "student": "qingxi-hongjin",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "xuefeng-yicun",
+      "student": "xuansha-shibei",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "xuefeng-yicun",
+      "student": "yunmen-wenyan",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "xueyan-zuqin",
+      "student": "gaofeng-yuanmiao",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "xutang-zhiyu",
+      "student": "nanpu-shaoming",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "yamada-koun",
+      "student": "hugo-enomiya-lassalle",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "yamada-koun",
+      "student": "joan-rieck",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "yamada-koun",
+      "student": "kubota-jiun",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "yamada-koun",
+      "student": "migaku-sato",
+      "type": "secondary",
+      "isPrimary": false
+    },
+    {
+      "teacher": "yamada-koun",
+      "student": "robert-aitken",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "yamada-koun",
+      "student": "ruben-habito",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "yamada-koun",
+      "student": "taizan-maezumi",
+      "type": "secondary",
+      "isPrimary": false
+    },
+    {
+      "teacher": "yamada-koun",
+      "student": "willigis-jager",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "yamada-koun",
+      "student": "yamada-ryoun",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "yamada-ryoun",
+      "student": "henry-shukman",
+      "type": "secondary",
+      "isPrimary": false
+    },
+    {
+      "teacher": "yamada-ryoun",
+      "student": "migaku-sato",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "yamada-ryoun",
+      "student": "valerie-forstman",
+      "type": "secondary",
+      "isPrimary": false
+    },
+    {
+      "teacher": "yamamoto-gempo",
+      "student": "nakagawa-soen",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "yangqi-fanghui",
+      "student": "baiyun-shouduan",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "yangshan-huiji",
+      "student": "jingzhao-mihu",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "yantou-quanhuo",
+      "student": "ruiyan-shiyan",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "yaoshan-weiyan",
+      "student": "chuanzi-decheng",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "yaoshan-weiyan",
+      "student": "daowu-yuanzhi",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "yaoshan-weiyan",
+      "student": "yunyan-tansheng",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "yasutani-hakuun",
+      "student": "kubota-jiun",
+      "type": "secondary",
+      "isPrimary": false
+    },
+    {
+      "teacher": "yasutani-hakuun",
+      "student": "taizan-maezumi",
+      "type": "secondary",
+      "isPrimary": false
+    },
+    {
+      "teacher": "yasutani-hakuun",
+      "student": "yamada-koun",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "yozan-keiyo",
+      "student": "gudo-toshoku",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "yuanwu-keqin",
+      "student": "dahui-zonggao",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "yuanwu-keqin",
+      "student": "yuean-shanguo",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "yuelin-shiguan",
+      "student": "wumen-huikai",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "yuko-okamoto",
+      "student": "michel-reiku-bovay",
+      "type": "secondary",
+      "isPrimary": false
+    },
+    {
+      "teacher": "yuko-okamoto",
+      "student": "raphael-doko-triet",
+      "type": "secondary",
+      "isPrimary": false
+    },
+    {
+      "teacher": "yunju-daoying",
+      "student": "tongan-daopi",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "yunmen-wenyan",
+      "student": "baoen-xuanze",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "yunmen-wenyan",
+      "student": "chengtian-chuanzong",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "yunmen-wenyan",
+      "student": "dongshan-shouchu",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "yunmen-wenyan",
+      "student": "fengxian-daochen",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "yunmen-wenyan",
+      "student": "jiufeng-qin",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "yunmen-wenyan",
+      "student": "xianglin-chengyuan",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "yunyan-tansheng",
+      "student": "dongshan-liangjie",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "yuquan-shenxiu",
+      "student": "jingzhong-wuxiang",
+      "type": "disputed",
+      "isPrimary": false
+    },
+    {
+      "teacher": "yuquan-shenxiu",
+      "student": "songshan-puji",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "zhaozhou-congshen",
+      "student": "qinglin-shiqian",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "zhaozhou-congshen",
+      "student": "yanyang-shanxin",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "zhenjing-kewen",
+      "student": "juefan-huihong",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "zhenxie-qingliao",
+      "student": "tiantong-zongjue",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "zhimen-guangzuo",
+      "student": "xuedou-chongxian",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "zhuan-shigui",
+      "student": "poan-zuxian",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "zizhou-chuji",
+      "student": "jingzhong-wuxiang",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "zizhou-zhishen",
+      "student": "zizhou-chuji",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "zoden-yoko",
+      "student": "tenyu-soen",
+      "type": "primary",
+      "isPrimary": true
+    }
+  ]
+}
