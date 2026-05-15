@@ -623,12 +623,18 @@ body {
 
 .sidebar-close {
   position: absolute;
-  top: 0.6rem;
-  right: 0.6rem;
+  /* Lifted into the corner gutter outside the image bleed so the button
+     reads as a chrome control rather than a marker on top of the
+     portrait. */
+  top: 0.5rem;
+  right: 0.5rem;
   width: 28px;
   height: 28px;
-  background: color-mix(in srgb, var(--paper) 88%, transparent);
-  border: 1px solid color-mix(in srgb, var(--ink) 18%, transparent);
+  /* Solid (not semi-transparent) so the X is legible against any
+     portrait, with a subtle shadow for separation from the image
+     beneath it. */
+  background: var(--paper);
+  border: 1px solid color-mix(in srgb, var(--ink) 22%, transparent);
   border-radius: 50%;
   color: var(--ink);
   font-size: 0.95rem;
@@ -638,14 +644,27 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: background-color 0.15s, border-color 0.15s, color 0.15s;
+  box-shadow: 0 1px 3px rgba(61, 53, 48, 0.18);
+  z-index: 2;
+  transition: background-color 0.15s, border-color 0.15s, color 0.15s, box-shadow 0.15s;
 }
 .sidebar-close:hover,
 .sidebar-close:focus-visible {
   background: var(--paper);
   border-color: var(--ink);
   color: var(--ink);
+  box-shadow: 0 2px 6px rgba(61, 53, 48, 0.25);
   outline: none;
+}
+
+/* Push the sidebar's first content block (usually the portrait) down so
+   it never overlaps the close button. The button sits in a 38px corner
+   gutter; the content starts after that. */
+.sidebar > :first-child:not(.sidebar-close) {
+  margin-top: 1.75rem;
+}
+.sidebar-close + * {
+  margin-top: 1.75rem;
 }
 
 .sidebar-name {
