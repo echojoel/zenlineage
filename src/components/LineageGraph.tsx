@@ -387,9 +387,11 @@ export default function LineageGraph() {
   const fuseRef = useRef<import("fuse.js").default<GraphNode> | null>(null);
   const zoomRef = useRef<d3.ZoomBehavior<HTMLCanvasElement, unknown> | null>(null);
   const sidebarRef = useRef<HTMLElement | null>(null);
-  // Stable ref so the redraw callback (empty deps) can set selectedEdge.
+  // Stable refs so the redraw callback (empty deps) can update React state.
   const setSelectedEdgeRef = useRef<((e: GraphEdge | null) => void) | null>(null);
   setSelectedEdgeRef.current = setSelectedEdge;
+  const setSidebarRef = useRef<((s: SidebarState | null) => void) | null>(null);
+  setSidebarRef.current = setSidebar;
   // Set by node pointerdown handlers so the document-level outside-tap
   // listener can distinguish "tapped a node" from "tapped empty canvas".
   const nodeJustClickedRef = useRef(false);
@@ -519,6 +521,7 @@ export default function LineageGraph() {
       // per-edge listeners, so each edge gets its own Graphics for hit-testing.
       {
         const setEdge = setSelectedEdgeRef.current;
+        const setSide = setSidebarRef.current;
         if (setEdge) {
           const hit = new pixiModule.Graphics();
           hit.eventMode = "static";
@@ -549,7 +552,12 @@ export default function LineageGraph() {
           }
           hit.stroke();
           const capturedEdge = edge;
-          hit.on("pointertap", () => setEdge(capturedEdge));
+          hit.on("pointertap", () => {
+            // Opening the edge provenance panel closes the master sidebar
+            // so the two never overlap in the top-right corner.
+            setSide?.(null);
+            setEdge(capturedEdge);
+          });
           hitLayer.addChild(hit);
         }
       }
@@ -980,9 +988,10 @@ export default function LineageGraph() {
         });
         c.on("pointerout", () => setTooltip(null));
 
-        // Click → sidebar
+        // Click → sidebar (and close any open edge panel)
         c.on("pointerdown", () => {
           nodeJustClickedRef.current = true;
+          setSelectedEdgeRef.current?.(null);
           setSidebar({
             node,
             schoolName: node.schoolName ?? undefined,
@@ -1065,6 +1074,7 @@ export default function LineageGraph() {
         const focusedNode = nodes.find((node) => node.slug === initialFocusSlug);
         const focusedPosition = focusedNode ? positions.get(focusedNode.id) : null;
         if (focusedNode && focusedPosition) {
+          setSelectedEdgeRef.current?.(null);
           setSidebar({
             node: focusedNode,
             schoolName: focusedNode.schoolName ?? undefined,
@@ -1207,6 +1217,7 @@ export default function LineageGraph() {
       const focusedPosition = focusedNode ? pixi.positions.get(focusedNode.id) : null;
 
       if (focusedNode && focusedPosition) {
+        setSelectedEdge(null);
         setSidebar({
           node: focusedNode,
           schoolName: focusedNode.schoolName ?? undefined,
