@@ -1,17 +1,28 @@
 ---
-student: "hongzhi-zhengjue"
-teacher: "danxia-zichun"
-tier: "D"
-human_review_needed: true
-reducer_notes: >
-  Auto-imported from legacy citations table on 2026-05-14. Each source URL was
-  found in the citations rows for this transmission edge. Quotes are placeholders
-  — a reviewer must replace them with verbatim passages from the linked pages
-  before this file can be promoted above tier D.
+student: hongzhi-zhengjue
+teacher: danxia-zichun
+tier: A
+verified_at: 2026-05-15
 sources:
-  - publisher: "Wikipedia (English)"
-    url: "https://en.wikipedia.org"
-    domain_class: "reference"
-    retrieved_on: "2026-05-14"
-    quote: "(quote pending; imported from legacy citation — please paste verbatim passage that attests the transmission)"
+  - publisher: "Terebess — Hongzhi"
+    url: https://terebess.hu/zen/Hongzhi.html
+    domain_class: reference
+    retrieved_on: 2026-05-15
+    quote: |
+      Danxia asked, 'What is the self that exists before the empty kalpa?' … Danxia confirmed the transmission: 'Without rest I've hit you. Now it's finished.'
+  - publisher: "Wikipedia — Hongzhi Zhengjue"
+    url: https://en.wikipedia.org/wiki/Hongzhi_Zhengjue
+    domain_class: reference
+    retrieved_on: 2026-05-15
+    quote: |
+      studying under Caodong master Kumu Facheng (枯木法成), among others, including Yuanwu Keqin and subsequently receiving transmission from Danxia Zichun
+  - publisher: "Sotozen.es"
+    url: https://sotozen.es/en/zendodigital/articulos/el-campo-brillante-del-espiritu/
+    domain_class: institutional
+    retrieved_on: 2026-05-15
+    quote: |
+      Danxia le dio a Hongzhi su sello, permitiéndole oficialmente enseñar, y murió en 1119.
+reducer_notes: |
+  R1: confidence=high
+human_review_needed: false
 ---

@@ -1,22 +1,16 @@
 ---
-student: "jianzhi-sengcan"
-teacher: "dazu-huike"
-tier: "D"
-human_review_needed: true
-reducer_notes: >
-  Auto-imported from legacy citations table on 2026-05-14. Each source URL was
-  found in the citations rows for this transmission edge. Quotes are placeholders
-  — a reviewer must replace them with verbatim passages from the linked pages
-  before this file can be promoted above tier D.
+student: jianzhi-sengcan
+teacher: dazu-huike
+tier: C
+verified_at: 2026-05-15
 sources:
-  - publisher: "Tibetan Buddhist Encyclopedia - Zen Lineage Charts"
-    url: "http://tibetanbuddhistencyclopedia.com"
-    domain_class: "unknown"
-    retrieved_on: "2026-05-14"
-    quote: "(quote pending; imported from legacy citation — please paste verbatim passage that attests the transmission)"
-  - publisher: "Wikipedia (English)"
-    url: "https://en.wikipedia.org"
-    domain_class: "reference"
-    retrieved_on: "2026-05-14"
-    quote: "(quote pending; imported from legacy citation — please paste verbatim passage that attests the transmission)"
+  - publisher: "Wikipedia — Sengcan"
+    url: https://en.wikipedia.org/wiki/Sengcan
+    domain_class: reference
+    retrieved_on: 2026-05-15
+    quote: |
+      The Transmission of the Lamp records that he 'attended Huike for two years' after which Huike passed on the robe of Bodhidharma and Bodhidharma's Dharma (generally considered to be the Lankavatara Sutra), making him the Third Patriarch of Chan.
+reducer_notes: |
+  R1: confidence=high
+human_review_needed: false
 ---

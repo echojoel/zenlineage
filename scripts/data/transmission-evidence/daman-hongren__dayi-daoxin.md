@@ -1,17 +1,28 @@
 ---
-student: "daman-hongren"
-teacher: "dayi-daoxin"
-tier: "D"
-human_review_needed: true
-reducer_notes: >
-  Auto-imported from legacy citations table on 2026-05-14. Each source URL was
-  found in the citations rows for this transmission edge. Quotes are placeholders
-  — a reviewer must replace them with verbatim passages from the linked pages
-  before this file can be promoted above tier D.
+student: daman-hongren
+teacher: dayi-daoxin
+tier: C
+verified_at: 2026-05-15
 sources:
-  - publisher: "Wikipedia (English)"
-    url: "https://en.wikipedia.org"
-    domain_class: "reference"
-    retrieved_on: "2026-05-14"
-    quote: "(quote pending; imported from legacy citation — please paste verbatim passage that attests the transmission)"
+  - publisher: "Wikipedia — Daman Hongren"
+    url: https://en.wikipedia.org/wiki/Daman_Hongren
+    domain_class: reference
+    retrieved_on: 2026-05-15
+    quote: |
+      Daoxin met Hongren on a road in Huangmei. Daoxin asked his name. Hongren replied, 'I have essence but it is not a common name.' With this, Daoxin passed on the teaching and the robe (making Hongren the next Patriarch of Chan).
+  - publisher: "Terebess Zen Archives"
+    url: https://terebess.hu/zen/daman.html
+    domain_class: sangha
+    retrieved_on: 2026-05-15
+    quote: |
+      Upon Master Daoxin's death, he was succeeded by his most important disciple, Daman Hongren, a native of the region who had been with Daoxin from the beginning.
+  - publisher: "New World Encyclopedia"
+    url: https://www.newworldencyclopedia.org/entry/Daman_Hongren
+    domain_class: reference
+    retrieved_on: 2026-05-15
+    quote: |
+      Hongren stayed with Daoxin until the latter's death in 651. The legendary account describes their meeting: 'Daoxin met Hongren on a road in Huangmei. Daoxin asked his name.'
+reducer_notes: |
+  R1: confidence=high
+human_review_needed: false
 ---

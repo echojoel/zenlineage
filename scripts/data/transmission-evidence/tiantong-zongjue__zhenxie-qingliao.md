@@ -1,17 +1,22 @@
 ---
-student: "tiantong-zongjue"
-teacher: "zhenxie-qingliao"
-tier: "D"
-human_review_needed: true
-reducer_notes: >
-  Auto-imported from legacy citations table on 2026-05-14. Each source URL was
-  found in the citations rows for this transmission edge. Quotes are placeholders
-  — a reviewer must replace them with verbatim passages from the linked pages
-  before this file can be promoted above tier D.
+student: tiantong-zongjue
+teacher: zhenxie-qingliao
+tier: C
+verified_at: 2026-05-15
 sources:
-  - publisher: "Wikipedia (English)"
-    url: "https://en.wikipedia.org"
-    domain_class: "reference"
-    retrieved_on: "2026-05-14"
-    quote: "(quote pending; imported from legacy citation — please paste verbatim passage that attests the transmission)"
+  - publisher: "Wikipedia — Tiantong Zongjue"
+    url: https://en.wikipedia.org/wiki/Tiantong_Zongjue
+    domain_class: reference
+    retrieved_on: 2026-05-15
+    quote: |
+      Zhenxie Qingliao of the Caodong/Sōtō School, who became the teacher that gave Zongjue dharma transmission.
+  - publisher: "Wikipedia — Zhenxie Qingliao"
+    url: https://en.wikipedia.org/wiki/Zhenxie_Qingliao
+    domain_class: reference
+    retrieved_on: 2026-05-15
+    quote: |
+      Successor: Tiantong Zongjue. Zichun had already given him dharma transmission.
+reducer_notes: |
+  R1: confidence=high
+human_review_needed: false
 ---

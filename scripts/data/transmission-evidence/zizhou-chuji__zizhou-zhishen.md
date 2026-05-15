@@ -1,17 +1,22 @@
 ---
-student: "zizhou-chuji"
-teacher: "zizhou-zhishen"
-tier: "D"
-human_review_needed: true
-reducer_notes: >
-  Auto-imported from legacy citations table on 2026-05-14. Each source URL was
-  found in the citations rows for this transmission edge. Quotes are placeholders
-  — a reviewer must replace them with verbatim passages from the linked pages
-  before this file can be promoted above tier D.
+student: zizhou-chuji
+teacher: zizhou-zhishen
+tier: C
+verified_at: 2026-05-15
 sources:
-  - publisher: "Wisdom Publications"
-    url: "https://wisdomexperience.org/product/zens-chinese-heritage/"
-    domain_class: "academic"
-    retrieved_on: "2026-05-14"
-    quote: "(quote pending; imported from legacy citation — please paste verbatim passage that attests the transmission)"
+  - publisher: "Encyclopedia of Buddhism — Lidai fabao ji"
+    url: https://encyclopediaofbuddhism.org/wiki/Lidai_fabao_ji
+    domain_class: reference
+    retrieved_on: 2026-05-15
+    quote: |
+      The text includes biographies of Zizhou Zhishen (609-702) and his successors Zizhou Chuji (Tang Chuji) (669-736).
+  - publisher: "Wikipedia — Baotang Wuzhu"
+    url: https://en.wikipedia.org/wiki/Baotang_Wuzhu
+    domain_class: reference
+    retrieved_on: 2026-05-15
+    quote: |
+      According to the Lidai fabao ji, Huineng had given Bodhidharma's robe to Empress Wu Zetian, who then passed it to Chan master Zhishen, grandfather-in-dharma to Wuxiang.
+reducer_notes: |
+  R1: confidence=high
+human_review_needed: false
 ---

@@ -1,17 +1,22 @@
 ---
-student: "dongshan-liangjie"
-teacher: "yunyan-tansheng"
-tier: "D"
-human_review_needed: true
-reducer_notes: >
-  Auto-imported from legacy citations table on 2026-05-14. Each source URL was
-  found in the citations rows for this transmission edge. Quotes are placeholders
-  — a reviewer must replace them with verbatim passages from the linked pages
-  before this file can be promoted above tier D.
+student: dongshan-liangjie
+teacher: yunyan-tansheng
+tier: C
+verified_at: 2026-05-15
 sources:
-  - publisher: "Wikipedia (English)"
-    url: "https://en.wikipedia.org"
-    domain_class: "reference"
-    retrieved_on: "2026-05-14"
-    quote: "(quote pending; imported from legacy citation — please paste verbatim passage that attests the transmission)"
+  - publisher: "Wikipedia — Dongshan Liangjie"
+    url: https://en.wikipedia.org/wiki/Dongshan_Liangjie
+    domain_class: reference
+    retrieved_on: 2026-05-15
+    quote: |
+      the teacher of preeminent influence was Master Yunyan Tansheng, of whom Dongshan became the dharma heir. Dongshan inherited from Yunyan Tansheng the knowledge of the Three Types of Leakage and the baojing sanmei.
+  - publisher: "Terebess — Dongshan"
+    url: https://terebess.hu/zen/dongshan-eng2.html
+    domain_class: reference
+    retrieved_on: 2026-05-15
+    quote: |
+      Liangjie was silent. Then Master Yunyan said, 'Venerable Jie, now that you have taken on this great matter, you must pay very careful attention.'
+reducer_notes: |
+  R1: confidence=high
+human_review_needed: false
 ---

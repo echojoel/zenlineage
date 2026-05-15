@@ -1,22 +1,28 @@
 ---
-student: "yunju-daoying"
-teacher: "dongshan-liangjie"
-tier: "D"
-human_review_needed: true
-reducer_notes: >
-  Auto-imported from legacy citations table on 2026-05-14. Each source URL was
-  found in the citations rows for this transmission edge. Quotes are placeholders
-  — a reviewer must replace them with verbatim passages from the linked pages
-  before this file can be promoted above tier D.
+student: yunju-daoying
+teacher: dongshan-liangjie
+tier: C
+verified_at: 2026-05-15
 sources:
-  - publisher: "Terebess Asia Online"
-    url: "https://terebess.hu/zen/"
-    domain_class: "academic"
-    retrieved_on: "2026-05-14"
-    quote: "(quote pending; imported from legacy citation — please paste verbatim passage that attests the transmission)"
-  - publisher: "Tibetan Buddhist Encyclopedia - Zen Lineage Charts"
-    url: "http://tibetanbuddhistencyclopedia.com"
-    domain_class: "unknown"
-    retrieved_on: "2026-05-14"
-    quote: "(quote pending; imported from legacy citation — please paste verbatim passage that attests the transmission)"
+  - publisher: "Terebess — Yunju Daoying"
+    url: https://terebess.hu/zen/mesterek/YunjuDaoying.html
+    domain_class: reference
+    retrieved_on: 2026-05-15
+    quote: |
+      YUNJU DAOYING (d. 902) was a disciple and Dharma heir of Dongshan Liangjie.
+  - publisher: "Wikipedia — Yunju Daoying"
+    url: https://en.wikipedia.org/wiki/Yunju_Daoying
+    domain_class: reference
+    retrieved_on: 2026-05-15
+    quote: |
+      After receiving dharma transmission from Dongshan, he went to a place called Three Peak Hermitage, and finally to Mount Yunju
+  - publisher: "Wikipedia — Dongshan Liangjie"
+    url: https://en.wikipedia.org/wiki/Dongshan_Liangjie
+    domain_class: reference
+    retrieved_on: 2026-05-15
+    quote: |
+      Yunju Daoying started a branch of Dongshan's lineage which lasted in China until the seventeenth century.
+reducer_notes: |
+  R1: confidence=high
+human_review_needed: false
 ---

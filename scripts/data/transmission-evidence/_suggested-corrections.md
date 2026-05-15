@@ -96,3 +96,13 @@ back to the Shakyamuni root through Koei Chino rather than only via the
 Suzuki secondary edge.
 
 ---
+
+<!-- Wave-2 batch findings appended 2026-05-15 -->
+
+## yuquan-shenxiu->jingzhong-wuxiang — flagged by Wave-2 agent panel
+
+- Confidence: low
+- Dissent: No source directly attests Shenxiu→Wuxiang transmission. The Lidai fabao ji traces Wuxiang's lineage through Zhishen and Chuji, NOT through Shenxiu. This edge may be mis-attributed in the DB.
+- Sources searched:
+  - Wikipedia — Kim Hwasang: <https://en.wikipedia.org/wiki/Kim_Ho-shang>
+
