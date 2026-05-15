@@ -1,5 +1,5 @@
 {
-  "edge_count": 480,
+  "edge_count": 482,
   "captured_at": "2026-05-15",
   "note": "Locked-in transmission graph baseline. tests/transmission-graph-snapshot.test.ts fails if any of these rows disappears from master_transmissions. To intentionally change the graph, regenerate via this script and review the diff in your PR.",
   "edges": [
@@ -42,6 +42,12 @@
     {
       "teacher": "baizan-monpon",
       "student": "jochu-tengin",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "baizhang-huaihai",
+      "student": "guannan-daochang",
       "type": "primary",
       "isPrimary": true
     },
@@ -396,8 +402,8 @@
     {
       "teacher": "dongshan-shouchu",
       "student": "deshan-yuanmi",
-      "type": "primary",
-      "isPrimary": true
+      "type": "disputed",
+      "isPrimary": false
     },
     {
       "teacher": "dosho-saikawa",
@@ -1817,6 +1823,12 @@
     },
     {
       "teacher": "shishuang-qingzhu",
+      "student": "daguang-juhui",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "shishuang-qingzhu",
       "student": "dingzhou-shizang",
       "type": "disputed",
       "isPrimary": false
@@ -1848,8 +1860,8 @@
     {
       "teacher": "shitou-xiqian",
       "student": "guannan-daochang",
-      "type": "primary",
-      "isPrimary": true
+      "type": "disputed",
+      "isPrimary": false
     },
     {
       "teacher": "shitou-xiqian",
@@ -2316,8 +2328,8 @@
     {
       "teacher": "touzi-datong",
       "student": "daguang-juhui",
-      "type": "primary",
-      "isPrimary": true
+      "type": "disputed",
+      "isPrimary": false
     },
     {
       "teacher": "touzi-yiqing",
