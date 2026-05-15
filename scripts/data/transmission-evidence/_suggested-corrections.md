@@ -106,3 +106,112 @@ Suzuki secondary edge.
 - Sources searched:
   - Wikipedia — Kim Hwasang: <https://en.wikipedia.org/wiki/Kim_Ho-shang>
 
+
+<!-- Wave-3 mass-research findings appended 2026-05-15 -->
+
+## Wave-3 mass-research mis-attribution summary
+
+The 14-agent Wave-3 batch surfaced numerous additional likely mis-attributions
+in the existing `master_transmissions` table. Listed below for human review.
+Each remains as `tier: D` in its evidence file with `human_review_needed: true`.
+
+### Chronologically impossible (cross-millennium)
+
+- `linji-yixuan -> osaka-koryu` — Linji died 866 CE, Koryū lived 1901–1985.
+  Edge encodes school-membership, not transmission. Koryū's actual teacher
+  was **Muso Joko Roshi** (Myōshin-ji line).
+- `linji-yixuan -> baizhang-niepan` — Baizhang Niepan was a student of
+  Baizhang Huaihai (a generation before Linji), died ~828 CE; Linji died
+  866 CE. Direction reversed at minimum.
+- `shishuang-qingzhu -> dingzhou-shizang` — Dingzhou Shizang dates (714-800)
+  predate Shishuang Qingzhu (807-888) by over a century.
+- `wuzhun-shifan -> yuelin-shiguan` — Yuelin (1143-1217) predates Wuzhun
+  (1178-1249); direction reversed.
+
+### Wrong teacher (real student, but different transmission teacher)
+
+- `dongshan-liangjie -> wenshu-yingzhen` — no source attests Wenshu Yingzhen
+  as Dongshan's student.
+- `shishuang-qingzhu -> nanta-guangyong` — Nanta Guangyong's actual teacher
+  was **Yangshan Huiji** (Guiyang school).
+- `tongan-daopi -> yangshan-yong` — no source attests this disciple.
+- `yangshan-huiji -> jingzhao-mihu` — Jingzhao Mihu's actual teacher was
+  **Guishan Lingyou** (Yangshan's master), not Yangshan himself.
+- `puti-damo -> mahasattva-fu` — no Chan source places Mahāsattva Fu as
+  Bodhidharma's dharma heir; the "Three Mahāsattvas of the Liang Dynasty"
+  grouping is honorific, not lineage.
+- `yuquan-shenxiu -> jingzhong-wuxiang` — Wuxiang's actual teacher was
+  **Zizhou Chuji** (Lidai fabao ji lineage), not Shenxiu.
+- `xitang-zhizang -> wufeng-changguan` — Wufeng's actual teacher was
+  **Baizhang Huaihai**, not Xitang Zhizang.
+- `yunmen-wenyan -> baoen-xuanze` — Baoen Xuanze's actual teacher was
+  **Fayan Wenyi**.
+- `zhaozhou-congshen -> qinglin-shiqian` — Qinglin Shiqian's actual teacher
+  was **Dongshan Liangjie** (Caodong founder).
+- `changqing-huileng -> wang-yanbin` — Wang Yanbin was the governor / lay
+  patron who built Changqing's stūpa, not a dharma heir.
+- `cuiwei-wuxue -> longji-shaoxiu` — Longji Shaoxiu's actual teacher was
+  **Luohan Guichen**, not Cuiwei Wuxue.
+- `nanyue-daoxuan -> danyuan-yingzhen` — Danyuan's actual teacher was
+  **Nanyang Huizhong** (National Teacher). "Nanyue Daoxuan" appears to be
+  a name confusion or non-existent figure.
+- `shitou-xiqian -> nanyue-daoxuan` — "Nanyue Daoxuan" doesn't appear in
+  any standard Chan reference as Shitou's heir. May be a conflation of
+  Shitou's Mt. Nanyue location with a personal name.
+- `shushan-kuangren -> taiyuan-fu` — Taiyuan Fu is described as a disciple
+  of **Xuefeng Yicun** (tenzo enlightenment story), not Shushan Kuangren.
+- `xuefeng-yicun -> luoshan-daoxian` — Luoshan's actual transmission was
+  from **Yantou Quanhuo** (Xuefeng's dharma brother).
+- `xuefeng-yicun -> mingzhao-deqian` — Mingzhao's actual teacher was
+  **Luoshan Daoxian** (two generations below Xuefeng via Yantou).
+- `xuefeng-yicun -> qingxi-hongjin` — Qingxi's actual teacher was
+  **Luohan Guichen** (Dizang); Xuefeng is great-grandteacher.
+- `gisan-zenrai -> sohan-genyo` — Sohan Genyō's actual teacher was
+  **Kasan Zenryō** (Takuju line); Gisan Zenrai was in the parallel
+  Inzan line.
+- `keido-chisan -> baian-hakujun-kuroda` — Kuroda's actual teacher per
+  ZenHub was **Guhaku Daiōshō** (died 1928), not Keido Chisan.
+- `keido-chisan -> dosho-saikawa` — no source attests this edge.
+- `etienne-mokusho-zeisler -> vincent-keisen-vuillemin` — Zeisler gave
+  Vuillemin **monk ordination** (1987); Vuillemin's actual shihō was
+  from **Yvon Myōken Bec** (4 June 2007).
+
+### Peer relationships mis-coded as transmission
+
+- `dongshan-shouchu -> deshan-yuanmi` — both were dharma heirs of
+  **Yunmen Wenyan**; siblings, not teacher-student.
+- `baling-haojian -> dongshan-shouchu` — both were Yunmen heirs.
+- `gaoan-dayu -> deshan-xuanjian` — different lineage branches (Mazu vs
+  Shitou); edge may be inverted.
+
+### Generation-skip / school-affiliation (not direct transmission)
+
+- `myoan-eisai -> huanglong-huinan` — Eisai received inka from
+  **Xu'an Huaichang** (8th-generation Huanglong heir), not directly from
+  Huinan who died over a century before Eisai was born.
+- `nguyen-thieu -> linji-yixuan` and `ingen-ryuki -> linji-yixuan` —
+  ~30 generations removed; encodes school affiliation, not direct edge.
+- `keizan-jokin -> keido-chisan` — ~15 generations apart; direct
+  teacher of Keido Chisan was **Koho Hakugan**.
+
+### Unverifiable in English-language sources
+
+- `xuefeng-yicun -> changfu-zhi`
+- `cuiwei-wuxue -> longji-shaoxiu`
+- `jiashan-shanhui -> shanglan-lingchao`
+- `jiashan-shanhui -> shaoshan-huanpu`
+- `shishuang-qingzhu -> yungai-zhiyuan`
+- `xiangyan-zhixian -> baofeng-weizhao`
+- `xiangyan-zhixian -> huguo-shoucheng`
+- `yunmen-wenyan -> jiufeng-qin`
+- `xutang-zhiyu -> wuzhun-shifan` — direction may be inverted
+- `dayu-shouzhi -> guishan-lingyou`
+- `licun -> linji-yixuan`
+- `furong-daokai -> yang-wuwei`
+- `xuefeng-yicun -> lianhua-fengxiang` — Lianhua was 2 generations below
+
+These edges may exist in Chinese-language lamp records (Jingde Chuandeng
+Lu, etc.) but are not surfaced in accessible English-language reference
+sources. A future pass with native-language sources would be needed.
+
+---
