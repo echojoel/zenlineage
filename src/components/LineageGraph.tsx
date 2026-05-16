@@ -774,7 +774,12 @@ export default function LineageGraph() {
       if (destroyed) return;
 
       const w = container.clientWidth || window.innerWidth;
-      const h = container.clientHeight || window.innerHeight;
+      // On mobile the scrubber + legend bar floats at the bottom of the wrapper.
+      // Reduce PIXI's render height so the graph never lays nodes out under those
+      // controls. PIXI's autoDensity will then set canvas.style.height to this
+      // smaller value, leaving a gap at the bottom where the controls sit.
+      const MOBILE_SAFE_BOTTOM = window.innerWidth <= 720 ? 72 : 0;
+      const h = (container.clientHeight || window.innerHeight) - MOBILE_SAFE_BOTTOM;
 
       const themeColors = readThemeColors();
 
