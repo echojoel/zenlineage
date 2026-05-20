@@ -27,7 +27,7 @@ sources:
       Taiga Tankyō and Kōho Genkun appear in the succession of the Myoshinji
       tradition during the 15th–16th centuries.
 reducer_notes: |
-  Wave-3 self-writing agent. The Taiga Tankyo → Koho Genkun transmission is
+  The Taiga Tankyo → Koho Genkun transmission is
   confirmed in the Wikipedia Rinzai lineage template and in an institutional
   Rinzai temple lineage page. The Myoshinji succession from Toyo Eicho through
   Taiga Tankyo to Koho Genkun is well-documented in multiple sources.

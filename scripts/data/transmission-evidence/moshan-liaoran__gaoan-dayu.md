@@ -23,7 +23,7 @@ sources:
     quote: |
       Moshan Liaoran (also spelled Mo-shan Liao-jan) was the dharma-heir of Gaoan Dayu, one of Linji's teachers, and was herself a teacher of Linji's disciple, Guanzhi Zhixian.
 reducer_notes: |
-  Wave-5 final tier-upgrade pass: upgraded C → B. Added Sparkzen community source
+  upgraded C → B. Added Sparkzen community source
   and Learn Religions reference source as two additional independent confirmations.
   Four independent sources now confirm the Gaoan Dayu → Moshan Liaoran transmission.
   Moshan Liaoran is consistently identified across all sources as the first woman

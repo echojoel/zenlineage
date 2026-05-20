@@ -23,7 +23,7 @@ sources:
     quote: |
       A Dharma-heir of Shitou Xiqian. His Dharma-heir was Cuiwei Wuxue and his second-generation successor was Touzi Datong. Originally he was a student of Mazu who sent him to Shitou.
 reducer_notes: |
-  Wave-5 final tier-upgrade pass. Three independent sources confirm Shitou Xiqian
+  Three independent sources confirm Shitou Xiqian
   as Danxia Tianran's formal dharma teacher: Wikipedia, Terebess, and WWZC.
   WWZC explicitly states "A Dharma-heir of Shitou Xiqian" and notes the path
   through Mazu who sent Danxia to Shitou. Upgraded from C to B: two independent

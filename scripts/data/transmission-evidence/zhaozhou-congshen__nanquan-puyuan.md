@@ -28,7 +28,7 @@ sources:
       "At the age of 18, he met Nánquán Pǔyuàn (748–835), a successor of
       Mǎzǔ Dàoyī, and eventually received the Dharma from him."
 reducer_notes: |
-  Wave-3 self-writing agent. Among the best-attested transmission edges in
+  Among the best-attested transmission edges in
   Tang Chan history. Three major reference sources independently confirm
   Zhaozhou as Nanquan's most famous dharma heir.
 human_review_needed: false

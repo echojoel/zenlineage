@@ -17,7 +17,7 @@ sources:
     quote: |
       "Hui-hong had like Zhan-tang also studied with Zhen-jing Ke-wen first at Mt. Jiu-feng in Jiangxi, then at Mt. Lu, and finally at the Bao-feng Monastery at Shi-men. He was Zhen-jing's Dharma-heir."
 reducer_notes: |
-  Wave-3 self-writing agent. Both sources explicitly confirm that Juefan Huihong (1071–1128) was the dharma heir of Zhenjing Kewen (1025–1102). The academic journal article (Chinese Buddhist Studies) provides the clearest statement: "He was Zhen-jing's Dharma-heir." Encyclopedia.com provides corroboration. Tier B: two independent sources including an academic journal.
+  Both sources explicitly confirm that Juefan Huihong (1071–1128) was the dharma heir of Zhenjing Kewen (1025–1102). The academic journal article (Chinese Buddhist Studies) provides the clearest statement: "He was Zhen-jing's Dharma-heir." Encyclopedia.com provides corroboration. Tier B: two independent sources including an academic journal.
 human_review_needed: false
 ---
 

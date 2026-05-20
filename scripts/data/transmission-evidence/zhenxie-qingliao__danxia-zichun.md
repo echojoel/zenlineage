@@ -35,7 +35,7 @@ sources:
     quote: |
       Scholar Morten Schlütter calls Qingliao, along with his fellow student Hongzhi Zhengjue, 'the most illustrious representative of the Caodong tradition in the Song Dynasty.'
 reducer_notes: |
-  Wave-5 final tier-upgrade pass: upgraded C → B. Added Encyclopedia of Buddhism
+  upgraded C → B. Added Encyclopedia of Buddhism
   (Caodong zong) and Soto Zen Community institutional source as two additional
   independent confirmations. The transmission Danxia Zichun → Zhenxie Qingliao is
   confirmed by three independent Wikipedia articles plus one encyclopedic reference

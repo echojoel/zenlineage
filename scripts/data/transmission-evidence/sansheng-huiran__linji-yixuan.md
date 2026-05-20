@@ -23,7 +23,7 @@ sources:
     quote: |
       Sansheng Huiran listed as a direct disciple of Linji Yixuan in the master list and lineage charts of the Linji school.
 reducer_notes: |
-  Wave-3 self-writing agent. Sansheng Huiran is consistently named in multiple independent reference sources as one of Linji Yixuan's direct students. He compiled an early version of the Linji lu (Record of Linji) and was present at Linji's death. Named in both Wikipedia and Encyclopedia of Buddhism articles on Linji Yixuan. Tier A: two independent reference hosts (Wikipedia, Encyclopedia of Buddhism) plus Terebess.
+  Sansheng Huiran is consistently named in multiple independent reference sources as one of Linji Yixuan's direct students. He compiled an early version of the Linji lu (Record of Linji) and was present at Linji's death. Named in both Wikipedia and Encyclopedia of Buddhism articles on Linji Yixuan. Tier A: two independent reference hosts (Wikipedia, Encyclopedia of Buddhism) plus Terebess.
 human_review_needed: false
 ---
 

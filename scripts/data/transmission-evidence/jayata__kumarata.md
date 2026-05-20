@@ -17,6 +17,5 @@ sources:
     quote: |
       Jayata was charmed with Kumarata's conversation about karma and rebirth, his doubts were dissipated, and he subsequently became the twentieth patriarch.
 reducer_notes: |
-  R1: confidence=high
 human_review_needed: false
 ---

@@ -23,6 +23,6 @@ sources:
     quote: |
       Two of his disciples, Shaku Daijo, who was ordained as a Zen monk in 1979, and Ursula Jarand, a long-term practitioner under the Roshi came to Humboldt County.
 reducer_notes: |
-  Wave-3 self-writing agent. Three independent sources (Wikipedia, institutional Daishu-in West, Terebess reference) confirm Shaku Daijo was ordained by and was a disciple of Morinaga Soko. Formal dharma transmission (inka shomei) beyond ordination is not explicitly stated in available sources, but the disciple relationship is firmly documented. Tier B: institutional + 2 independent hosts.
+  Three independent sources (Wikipedia, institutional Daishu-in West, Terebess reference) confirm Shaku Daijo was ordained by and was a disciple of Morinaga Soko. Formal dharma transmission (inka shomei) beyond ordination is not explicitly stated in available sources, but the disciple relationship is firmly documented. Tier B: institutional + 2 independent hosts.
 human_review_needed: false
 ---

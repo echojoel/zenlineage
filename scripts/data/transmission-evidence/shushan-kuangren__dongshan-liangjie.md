@@ -33,7 +33,7 @@ sources:
       Shushan Kuangren, Tang Dynasty Chan Master, "inherited the Dharma
       from Dongshan" and was known for eloquent debating skills.
 reducer_notes: |
-  Wave-3 self-writing agent. A-tier: Wikipedia (reference), encyclopediaofbuddhism.org
+  A-tier: Wikipedia (reference), encyclopediaofbuddhism.org
   (reference), wwzc.org (sangha), wisdomlib.org (reference). Four independent
   sources confirm Shushan Kuangren as dharma heir of Dongshan Liangjie.
 human_review_needed: false

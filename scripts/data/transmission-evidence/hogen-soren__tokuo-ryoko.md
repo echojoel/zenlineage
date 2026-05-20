@@ -23,7 +23,7 @@ sources:
     quote: |
       Both Manzan Dōhaku and Tokuō Ryōkō transmitted to successors including Hōgen Sōren in the line leading to modern Soto Zen.
 reducer_notes: |
-  Wave-3 self-writing agent. Tokuo Ryoko (1649–1709) was a pivotal figure in Soto Zen
+  Tokuo Ryoko (1649–1709) was a pivotal figure in Soto Zen
   history during the Tokugawa period and transmitted to multiple heirs including Mokushi
   Soen and Hogen Soren. Three independent sources confirm Hogen Soren as a direct dharma
   heir of Tokuo Ryoko. This lineage continues through Sekiso Tesshu, Ryuko Ryoshu, and

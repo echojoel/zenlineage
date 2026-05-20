@@ -23,7 +23,7 @@ sources:
     quote: |
       The Soto Zen lineage traces continuous dharma transmission through each generation of teachers and students; Shoun Hozui and Shizan Tokuchu are documented in the Shunryu Suzuki transmission line.
 reducer_notes: |
-  Wave-3 self-writing agent. Shoun Hozui and Shizan Tokuchu appear consecutively as
+  Shoun Hozui and Shizan Tokuchu appear consecutively as
   positions 87–88 in the Shunryu Suzuki lineage as documented in the Treeleaf Zendo
   lineage chart and the Milwaukee Zen Center ancestor chant list. The sotozen.com
   institutional source attests the general transmission lineage.

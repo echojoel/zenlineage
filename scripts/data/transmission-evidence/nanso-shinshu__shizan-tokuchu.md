@@ -19,7 +19,7 @@ sources:
       Zōunin records confirm sequential abbatial succession: Shizān
       Tokuchū (82nd ancestor) followed by Nansō Shinshū (83rd ancestor).
 reducer_notes: |
-  Wave-3 self-writing agent. The SFZC PDF documents this edge via Zōunin
+  The SFZC PDF documents this edge via Zōunin
   temple records. Shizān Tokuchū is the eighty-second ancestor; Nansō
   Shinshū is the eighty-third ancestor in the same temple line, confirming
   dharma transmission by sequential abbatial succession in the Sōtō school.

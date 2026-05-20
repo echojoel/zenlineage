@@ -23,7 +23,7 @@ sources:
     quote: |
       En 1984, le maître Niwa Zenji, autorité suprême du zen Sōtō au Japon, lui a accordé le shiho, certification de la transmission du Dharma, le faisant 83e successeur du Bouddha Shakyamuni dans la tradition Soto. [In 1984, Master Niwa Zenji granted him the shiho, making him the 83rd successor of Buddha Shakyamuni in the Soto tradition.]
 reducer_notes: |
-  Wave-3 self-writing agent. Stéphane Kosen Thibaut (born 1950) encountered Zen through
+  Stéphane Kosen Thibaut (born 1950) encountered Zen through
   Taisen Deshimaru in 1969 and was ordained as a Soto Zen monk in 1971. He was one of
   Deshimaru's three principal heirs; after Deshimaru's death, Niwa Rempo Zenji gave him
   formal shiho in 1984 making him the 83rd Soto patriarch. Tier A: institutional

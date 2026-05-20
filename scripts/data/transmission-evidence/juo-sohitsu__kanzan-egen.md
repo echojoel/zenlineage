@@ -29,7 +29,7 @@ sources:
     quote: |
       The line of Zen law that started from Nanpo Jomyo to Shuho Myocho and then to Kanzan Egen is called 'Otokan', and all the priests of Japanese Rinzai sect belong to this line.
 reducer_notes: |
-  Wave-3 self-writing agent. Kanzan Egen (1277–1360) → Juo Sohitsu (1296–1380) is the founding
+  Kanzan Egen (1277–1360) → Juo Sohitsu (1296–1380) is the founding
   transmission of the Myoshinji branch. The Japanese Wiki Corpus explicitly states Kanzan gave
   Juo Sohitsu an inkajo (certificate of enlightenment). Tier A: multiple reference sources
   across independent hosts, with institutional context from Myoshinji records.

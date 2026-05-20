@@ -29,7 +29,7 @@ sources:
       as a bridge between the clusters centered around Dongshan Liangjie,
       Shishuang, and other important figures.
 reducer_notes: |
-  Wave-3 self-writing agent. A-tier: sangha (wwzc.org), reference (terebess.hu),
+  A-tier: sangha (wwzc.org), reference (terebess.hu),
   academic peer-reviewed journal (MDPI Religions). Shishuang Qingzhu as
   dharma heir of Daowu Yuanzhi is well-established in Chan historiography.
 human_review_needed: false

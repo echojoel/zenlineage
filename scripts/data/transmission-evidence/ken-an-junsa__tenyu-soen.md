@@ -23,7 +23,7 @@ sources:
     quote: |
       Continuous dharma transmission sequence in Soto Zen; Ten'yu Soen and Ken'an Junsa are documented ancestors in the Soto transmission lineage.
 reducer_notes: |
-  Wave-3 self-writing agent. Tenyu Soen and Ken-an Junsa are documented consecutive
+  Tenyu Soen and Ken-an Junsa are documented consecutive
   dharma-transmission holders in the Soto Zen lineage, appearing at positions 74–75 in
   the ancestral chart. The full sequence Zoden Yoko → Tenyu Soen → Ken-an Junsa is
   confirmed by multiple lineage sources.

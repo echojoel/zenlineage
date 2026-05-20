@@ -23,6 +23,6 @@ sources:
     quote: |
       Manorata/Manorhita (摩拏羅) — Listed as the 22nd Indian Patriarch, succeeding Vasubandhu; each patriarch transmitted to the next in an unbroken lineage believed to originate from Shakyamuni Buddha.
 reducer_notes: |
-  Wave-4 tier-upgrade pass. Added terebess sequential listing as third independent host confirming Vasubandhu→Manorhita order. Already tier A (institutional + academic + reference).
+  Added terebess sequential listing as third independent host confirming Vasubandhu→Manorhita order. Already tier A (institutional + academic + reference).
 human_review_needed: false
 ---

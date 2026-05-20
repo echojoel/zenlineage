@@ -17,6 +17,5 @@ sources:
     quote: |
       Keizan begins with Shakyamuni … Following are Shanavasa, Upagupta, Dhritaka, Micchaka, Vasumitra, Buddhanandi, Buddhamitra (Punyamitra), Parshva, Punyayashas, Ashvaghosa, and Kapimala. Then comes Nagarjuna...
 reducer_notes: |
-  R1: confidence=high
 human_review_needed: false
 ---

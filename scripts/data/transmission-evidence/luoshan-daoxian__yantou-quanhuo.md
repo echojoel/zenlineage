@@ -29,7 +29,7 @@ sources:
     quote: |
       LUOSHAN Daoxian (Razan Dokan, b. ca. 860, 13th gen), disciple of Yantou
 reducer_notes: |
-  Wave-5 final tier-upgrade pass. Four independent sources confirm Yantou Quanhuo
+  Four independent sources confirm Yantou Quanhuo
   as Luoshan Daoxian's dharma teacher: Wikipedia Xuefeng article, WWZC Master
   List, Terebess Master List, and Bowzwestchester's Book of Serenity commentary.
   The Terebess entry is especially direct: "He gave transmission to Luoshan."

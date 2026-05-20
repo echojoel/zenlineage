@@ -23,7 +23,7 @@ sources:
     quote: |
       "Xinghua Cunjiang (830–888) transmitted dharma to Nanyuan Huiyong (d. 952), establishing the lineage succession."
 reducer_notes: |
-  Wave-3 self-writing agent. The Xinghua Cunjiang→Nanyuan Huiyong link is critical: it is the sole surviving transmission line from Linji Yixuan. Confirmed across Terebess, Wikipedia, and Encyclopedia of Buddhism. Tier A: multiple independent reference hosts.
+  The Xinghua Cunjiang→Nanyuan Huiyong link is critical: it is the sole surviving transmission line from Linji Yixuan. Confirmed across Terebess, Wikipedia, and Encyclopedia of Buddhism. Tier A: multiple independent reference hosts.
 human_review_needed: false
 ---
 

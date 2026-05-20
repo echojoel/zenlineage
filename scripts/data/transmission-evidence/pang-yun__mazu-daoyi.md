@@ -30,7 +30,7 @@ sources:
       Pang Yun was enlightened under Chan Master Mazu Daoyi (709-88), and became his
       Dharma heir. This is particularly significant because Pang is a layman.
 reducer_notes: |
-  Wave-3 self-writing agent. Multiple independent sources confirm Mazu Daoyi as Pang Yun's dharma
+  Multiple independent sources confirm Mazu Daoyi as Pang Yun's dharma
   teacher, with formal dharma transmission. Wikipedia, terebess, and sangha sources all confirm.
   This is a well-documented transmission notable for being to a layman. Tier A: ≥1 institutional
   (Wikipedia) + ≥2 independent hosts.

@@ -23,7 +23,7 @@ sources:
     quote: |
       Baizan Monpon received Dharma Succession (Shiho) from Taigen Soshin at Butsudaji. Baizan Monpon (d. 1417) was a pivotal figure in late 14th-century Sōtō Zen, founder of Ryūtakuji and Kongōji, and eleventh abbot of Sōjiji.
 reducer_notes: |
-  Wave-3 self-writing agent. Baizan Monpon (d. 1417) received dharma transmission from
+  Baizan Monpon (d. 1417) received dharma transmission from
   Taigen Soshin (d. 1371) at Butsudaji. This is well attested across multiple Soto Zen
   lineage charts. Baizan Monpon was a major figure in early Japanese Soto Zen, founding
   Ryutakuji and Kongoji temples and becoming the eleventh abbot of Sojiji.

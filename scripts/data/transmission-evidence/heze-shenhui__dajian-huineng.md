@@ -29,7 +29,7 @@ sources:
     quote: |
       Shenhui, founder of the Southern School of Chan, claimed discipleship under Huineng and championed the doctrine of sudden enlightenment. His aggressive promotion of Huineng's lineage reshaped the entire Chan patriarchal narrative.
 reducer_notes: |
-  Wave-5 final tier-upgrade pass. Added Encyclopedia of Buddhism Heze Shenhui
+  Added Encyclopedia of Buddhism Heze Shenhui
   article and University of Hawaii Press academic monograph as independent sources.
   Note: Shenhui's claimed discipleship under Huineng is self-promoted and partly
   fabricated according to modern scholarship (Wikipedia, UH Press), but the claim

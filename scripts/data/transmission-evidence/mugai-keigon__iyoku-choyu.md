@@ -23,6 +23,6 @@ sources:
     quote: |
       Iyoku Chōyū (67th generation) transmitted to Mugai Keigon (68th generation) in the broader Sōtō Zen lineage tracing back to Dōgen.
 reducer_notes: |
-  Wave-3 self-writing agent. Edge confirmed in the SFZC ancestral chant (Milwaukee Zen Center) and the SFZC historical lineage document. The rebanderson.org PDF provides a biographical quote confirming Mugai as dharma successor of Iyoku, noting he attained the Mind Seal at Tōjuji and became Iyoku's heir in 1489. Two independent hosts (institutional SFZC document + community lineage chart) plus the sangha chant list.
+  Edge confirmed in the SFZC ancestral chant (Milwaukee Zen Center) and the SFZC historical lineage document. The rebanderson.org PDF provides a biographical quote confirming Mugai as dharma successor of Iyoku, noting he attained the Mind Seal at Tōjuji and became Iyoku's heir in 1489. Two independent hosts (institutional SFZC document + community lineage chart) plus the sangha chant list.
 human_review_needed: false
 ---

@@ -17,7 +17,7 @@ sources:
     quote: |
       Migaku Sato (Kyûun-ken) — Appointed Zen Teacher in 2004; became Associate Zen Master in 2009; Zen Master 2020. Active in Germany, Japan, and Israel.
 reducer_notes: |
-  Wave-3 self-writing agent. Migaku Sato began studying under Yamada Koun in 1985 but Yamada died in
+  Migaku Sato began studying under Yamada Koun in 1985 but Yamada died in
   1989 before granting Sato a formal teaching license. His formal authorization (2004) and dharma
   transmission (2020) came under subsequent abbots. The edge yamada-koun→migaku-sato represents the
   initial student-teacher relationship, not a completed dharma transmission from Yamada Koun directly.

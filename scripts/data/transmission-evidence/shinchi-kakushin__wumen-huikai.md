@@ -32,7 +32,7 @@ sources:
       the vehicle through which Wumen's lineage and teachings were established
       in Japan.
 reducer_notes: |
-  Wave-3 self-writing agent. Minor discrepancy between sources: Terebess says
+  Minor discrepancy between sources: Terebess says
   transmission was after six months; Wikipedia says he studied for six years.
   The transmission itself is unanimously confirmed. Kakushin founded the Hōtō
   lineage in Japan and brought the Mumonkan koan collection to Japan.

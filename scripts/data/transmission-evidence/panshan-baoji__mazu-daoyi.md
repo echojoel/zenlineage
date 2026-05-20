@@ -29,7 +29,7 @@ sources:
       "Panshan Baoji (720?–814), a prominent Chan master from Youzhou, was
       himself a dharma heir in Mazu Daoyi's lineage."
 reducer_notes: |
-  Wave-3 self-writing agent. Panshan Baoji is confirmed as a Mazu dharma heir
+  Panshan Baoji is confirmed as a Mazu dharma heir
   by the Terebess page (explicit "disciple of the great Zen master Mazu Daoyi")
   and by the Wikipedia article on his own student Puhua. Mazu confirmed his
   awakening at a funeral experience, as recorded in the Terebess source.

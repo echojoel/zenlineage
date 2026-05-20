@@ -23,7 +23,7 @@ sources:
     quote: |
       Yunmen Wenyan founded the Yunmen school as dharma-heir of Xuefeng Yicun, one of the five major schools of Chán (Chinese Zen).
 reducer_notes: |
-  Wave-3 self-writing agent. Yunmen Wenyan (862/864-949) received dharma transmission from Xuefeng Yicun (822-908). This is confirmed by Wikipedia, Encyclopedia of Buddhism, and New World Encyclopedia. Tier A: multiple independent reference sources.
+  Yunmen Wenyan (862/864-949) received dharma transmission from Xuefeng Yicun (822-908). This is confirmed by Wikipedia, Encyclopedia of Buddhism, and New World Encyclopedia. Tier A: multiple independent reference sources.
 human_review_needed: false
 ---
 

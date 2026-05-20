@@ -23,7 +23,7 @@ sources:
     quote: |
       Henry Shukman received dharma transmission (inka shomei) from Yamada Ryo'un Roshi of the Sanbo Zen lineage.
 reducer_notes: |
-  Wave-3 self-writing agent. Henry Shukman received full dharma transmission (inka shomei) from Yamada
+  Henry Shukman received full dharma transmission (inka shomei) from Yamada
   Ryoun in August 2020, becoming Zen Master (Shoshike) of Sanbo Zen along with three others. This is
   precisely dated and confirmed by Sanbo Zen International and Upaya Zen Center (institutional sources)
   plus Wikipedia. Tier A: Wikipedia (reference) + Sanbo Zen International (institutional) + Upaya Zen

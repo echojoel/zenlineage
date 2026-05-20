@@ -17,6 +17,5 @@ sources:
     quote: |
       The Denkoroku gives 28 patriarchs in this transmission … beginning with Mahākāśyapa … continuing through … Dhṛṭaka, Miccaka, Vasumitra, Buddhanandi, Buddhamitra, Pārśva, Punyayaśas, Aśvaghoṣa, Kapimala, and Nāgārjuna as the 14th patriarch.
 reducer_notes: |
-  R1: confidence=high
 human_review_needed: false
 ---

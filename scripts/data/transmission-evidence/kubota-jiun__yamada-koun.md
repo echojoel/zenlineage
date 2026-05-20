@@ -23,7 +23,7 @@ sources:
     quote: |
       Kubota Ji'un Roshi trained under both Haku'un Roshi and Ko'un Roshi, eventually receiving Dharma transmission from both.
 reducer_notes: |
-  Wave-3 self-writing agent. Kubota Jiun received formal dharma transmission from Yamada Koun in 1983
+  Kubota Jiun received formal dharma transmission from Yamada Koun in 1983
   (made Shoshike) and assumed the Kancho role in 1989 after Yamada's death. This is the canonical
   transmission for Kubota's succession to the abbacy. Tier A: Wikipedia (reference) + Sanbo Zen
   International (institutional) + Mountain Cloud (sangha).

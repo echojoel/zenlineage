@@ -27,7 +27,7 @@ sources:
       Ivan Densho Quintero received dharma transmission from Shohaku
       Okumura at Sanshin Zen Community in March 2009.
 reducer_notes: |
-  Wave-3 self-writing agent. Tier A: one institutional source (Soto Zen
+  Tier A: one institutional source (Soto Zen
   Network directory, affiliated with Sōtōshū) plus two independent hosts
   (Soto Zen Colombia sangha site and Wikipedia). All three sources
   confirm the March 2009 date and Shohaku Okumura as the transmitting

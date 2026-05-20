@@ -23,6 +23,6 @@ sources:
     quote: |
       Jissan Mokuin appears as the 83rd patriarch in a Zen lineage chart, with Sengan Bonryo listed as the 84th successor.
 reducer_notes: |
-  Wave-3 self-writing agent. Edge confirmed in the SFZC ancestral chant list (Milwaukee Zen Center) where Jissan Mokuin (position 24) is immediately followed by Sengan Bonryu (position 25) in the formal Shunryu Suzuki lineage chant, Gasan-Joseki branch of Soto Zen. The rebanderson.org SFZC document provides institutional confirmation.
+  Edge confirmed in the SFZC ancestral chant list (Milwaukee Zen Center) where Jissan Mokuin (position 24) is immediately followed by Sengan Bonryu (position 25) in the formal Shunryu Suzuki lineage chant, Gasan-Joseki branch of Soto Zen. The rebanderson.org SFZC document provides institutional confirmation.
 human_review_needed: false
 ---

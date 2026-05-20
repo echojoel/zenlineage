@@ -29,6 +29,6 @@ sources:
     quote: |
       Xinghua Cunjiang was Linji's primary heir whose lineage survived and became the foundation of all subsequent Linji/Rinzai Zen.
 reducer_notes: |
-  Wave-3 self-writing agent. The Linji→Xinghua Cunjiang transmission is the pivotal survivorship edge in the entire Linji school — all surviving Linji lines trace through Cunjiang. Attested in Wikipedia, Encyclopedia of Buddhism, Wisdomlib, and an institutional source. Upgraded from legacy Tier D placeholder. Tier A.
+  The Linji→Xinghua Cunjiang transmission is the pivotal survivorship edge in the entire Linji school — all surviving Linji lines trace through Cunjiang. Attested in Wikipedia, Encyclopedia of Buddhism, Wisdomlib, and an institutional source. Upgraded from legacy Tier D placeholder. Tier A.
 human_review_needed: false
 ---

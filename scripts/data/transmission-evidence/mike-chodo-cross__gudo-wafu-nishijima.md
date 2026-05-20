@@ -23,6 +23,6 @@ sources:
     quote: |
       He formally received the Dharma in 1998 and in the following year established the Middle Way Re-education Centre.
 reducer_notes: |
-  Wave-3 self-writing agent. Sources independently researched. Wikipedia explicitly calls Cross Nishijima's "Dharma heir." Multiple sangha sites confirm he received dharma transmission from Nishijima in 1998. Note: one source (zenbuddhism.ie) initially listed Rempo Niwa as Cross's transmitter — this appears to be a confusion with Nishijima's own transmission lineage; the Wikipedia article and Zen Association Wales are definitive in naming Cross as Nishijima's dharma heir.
+  Sources independently researched. Wikipedia explicitly calls Cross Nishijima's "Dharma heir." Multiple sangha sites confirm he received dharma transmission from Nishijima in 1998. Note: one source (zenbuddhism.ie) initially listed Rempo Niwa as Cross's transmitter — this appears to be a confusion with Nishijima's own transmission lineage; the Wikipedia article and Zen Association Wales are definitive in naming Cross as Nishijima's dharma heir.
 human_review_needed: false
 ---

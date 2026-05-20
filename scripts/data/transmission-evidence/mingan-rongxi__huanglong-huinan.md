@@ -17,7 +17,7 @@ sources:
     quote: |
       Huanglong Huinan (1002-1069) is documented as having multiple named dharma successors in the Huanglong school lineage chart.
 reducer_notes: |
-  Wave-3 self-writing agent. Huanglong Huinan (1002–1069) had many dharma successors (up to 83
+  Huanglong Huinan (1002–1069) had many dharma successors (up to 83
   per the Xu Chuandenglu). The specific name "Mingan Rongxi" was not found by name in any
   English-language source retrieved. The slug "mingan-rongxi" may romanize a Chinese name such
   as 明菴榮西 — but Myōan Eisai (明菴榮西) is already a separate edge. Without a clear English-

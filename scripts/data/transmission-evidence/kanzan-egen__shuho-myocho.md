@@ -23,6 +23,6 @@ sources:
     quote: |
       Kanzan Egen (also Muso Daishi) (1277–1360) is listed as dharma successor in the formal lineage under Shuho Myocho.
 reducer_notes: |
-  Wave-3 self-writing agent. The Shuho Myocho → Kanzan Egen transmission is foundational to all modern Rinzai. Three Wikipedia articles confirm it. Kanzan Egen (1277–1360) was the third patriarch of the Otōkan line and founder of Myoshinji, the head temple of modern Rinzai. Tier A.
+  The Shuho Myocho → Kanzan Egen transmission is foundational to all modern Rinzai. Three Wikipedia articles confirm it. Kanzan Egen (1277–1360) was the third patriarch of the Otōkan line and founder of Myoshinji, the head temple of modern Rinzai. Tier A.
 human_review_needed: false
 ---

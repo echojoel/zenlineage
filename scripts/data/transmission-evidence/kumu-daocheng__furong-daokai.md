@@ -23,7 +23,7 @@ sources:
     quote: |
       Kumu Faqeng (1071-1128) was an eminent master of the chan school caodong. Hongzhi studied under Kumu for a few years, mastering immobile sitting meditation; the lineage was revived in the Song by Furong Daokai (1043–1118), whose disciples continued the Caodong tradition.
 reducer_notes: |
-  Wave-4 tier-upgrade pass: upgraded C → B. Wikipedia (Furong Daokai article) explicitly names
+  upgraded C → B. Wikipedia (Furong Daokai article) explicitly names
   "Kumu Facheng" in Furong's student list alongside the 93-student inscription. Wikipedia
   (Hongzhi) confirms Kumu as a Caodong master (implying Furong lineage). Soto Zen Community
   institutional source confirms Kumu as a Caodong master in the Furong-era Song revival.

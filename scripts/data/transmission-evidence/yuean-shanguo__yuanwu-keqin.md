@@ -29,7 +29,7 @@ sources:
     quote: |
       Dahui Zonggao was a student of Yuanwu Keqin and was the 12th generation of the Linji school of Chan Buddhism. After six months working with Yuanwu on a koan, Dahui achieved final breakthrough and was recognized as a Dharma-heir in the Linji tradition. Yuanwu had sixteen dharma heirs in total.
 reducer_notes: |
-  Wave-5 final tier-upgrade pass. Added Encyclopedia of Buddhism Dahui Zonggao article
+  Added Encyclopedia of Buddhism Dahui Zonggao article
   as a fourth independent source, all confirming the sixteen-heir framework. Yuean
   Shanguo (月庵善果) is not named in any English-language reference source consulted;
   the edge rests on the inference that he is one of Yuanwu's fourteen unlisted heirs.

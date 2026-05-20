@@ -23,7 +23,7 @@ sources:
     quote: |
       From Shitou's lineage, two major branches emerged: One branch was transmitted from Yaoshan Weiyan to Yunyan Tansheng, then to Dongshan Liangjie, and finally to Caoshan Benji, establishing the Caodong School.
 reducer_notes: |
-  Wave-5 final tier-upgrade pass. Three independent sources confirm Dongshan
+  Three independent sources confirm Dongshan
   Liangjie as Caoshan Benji's dharma teacher: Terebess naming them as joint
   founders of Ts'ao-tung (Caodong) Ch'an, Wikipedia identifying Caoshan as
   Dongshan's "most renowned student," and buddhisttemple.ca tracing the explicit

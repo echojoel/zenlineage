@@ -23,7 +23,7 @@ sources:
     quote: |
       Continuous dharma transmission sequence in Soto Zen; Tenrin Kanshu and Sessan Tetsuzen are documented ancestors in the Soto transmission lineage.
 reducer_notes: |
-  Wave-3 self-writing agent. Tenrin Kanshu and Sessan Tetsuzen are documented as
+  Tenrin Kanshu and Sessan Tetsuzen are documented as
   consecutive dharma-transmission holders in the Yokoin lineage of Soto Zen. Sessan
   Tetsuzen in turn transmitted to Fuzan Shunki. Multiple lineage charts from independent
   sangha sources confirm the succession at positions 74–75 / 80–81 (numbering varies by

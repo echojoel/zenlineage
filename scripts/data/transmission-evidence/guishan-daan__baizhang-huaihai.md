@@ -34,7 +34,7 @@ sources:
       "in 793, at age 23, Guishan Lingyou followed Zen Master Baizhang Huaihai,
       as his dharma heir disciple."
 reducer_notes: |
-  Wave-3 self-writing agent. Guishan Da'an and Changqing Da'an are the same
+  Guishan Da'an and Changqing Da'an are the same
   person (793–883). Multiple independent sources confirm his transmission from
   Baizhang Huaihai. Terebess provides an explicit "Dharma-heir of Baizhang
   Huaihai" statement. Wikipedia Hongzhou article names Baizhang teaching Da'an.

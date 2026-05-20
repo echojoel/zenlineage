@@ -19,7 +19,7 @@ sources:
       Seisen has been practicing and teaching Zen Buddhism for over 30 years...an active
       member of the White Plum Asanga, serving for 15 years in administration as secretary.
 reducer_notes: |
-  Wave-3 self-writing agent. Research confirms Anne Seisen Saunders was a student of Taizan Maezumi
+  Research confirms Anne Seisen Saunders was a student of Taizan Maezumi
   but did not receive formal dharma transmission directly from Maezumi (who died 1995). Her dharma
   transmission came from Tetsugen Bernard Glassman in 1996 within the Maezumi lineage. She is a
   member of the White Plum Asanga (Maezumi's lineage group) but is not listed among Maezumi's 12

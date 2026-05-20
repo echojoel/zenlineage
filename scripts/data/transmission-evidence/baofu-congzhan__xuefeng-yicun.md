@@ -26,7 +26,7 @@ sources:
       Changqing's dharma siblings included Cuiyan, Jingqing, Taiyuan, Xuansha,
       Baofu, and Yunmen — all dharma heirs of Xuefeng Yicun.
 reducer_notes: |
-  Wave-3 self-writing agent. A-tier: two Wikipedia reference entries and one
+  A-tier: two Wikipedia reference entries and one
   community source, all confirming Baofu Congzhan as direct dharma heir of
   Xuefeng Yicun. Well-attested edge.
 human_review_needed: false

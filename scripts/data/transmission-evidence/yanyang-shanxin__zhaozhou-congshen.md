@@ -20,7 +20,7 @@ sources:
       purges of Buddhism in China at the time, and cannot be documented
       beyond the year 1000."
 reducer_notes: |
-  Wave-3 self-writing agent. Yanyang Shanxin is attested as one of Zhaozhou's
+  Yanyang Shanxin is attested as one of Zhaozhou's
   two dharma heirs by the Terebess master list. The Zhaozhou Wikipedia article
   confirms his lineage was limited, consistent with only two documented heirs.
   Tier B: one reference-class source with explicit naming, one corroborating

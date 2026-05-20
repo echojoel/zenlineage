@@ -23,6 +23,5 @@ sources:
     quote: |
       Finally, Huike came forth, bowed deeply in silence and stood up straight. Bodhidharma said, 'You have attained my marrow.'
 reducer_notes: |
-  R1: confidence=high, dissent="The arm-cutting story and 'marrow' exchange are hagiographic."
 human_review_needed: false
 ---

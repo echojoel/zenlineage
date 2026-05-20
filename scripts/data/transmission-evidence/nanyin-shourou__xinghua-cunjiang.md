@@ -33,7 +33,7 @@ sources:
       Xinghua Cunjiang's most famous disciple was Nanyuan Huiyong,
       representing the transmission of the dharma in the Chan/Rinzai lineage.
 reducer_notes: |
-  Wave-3 self-writing agent. Upgrades placeholder file from tier D. The slug
+  Upgrades placeholder file from tier D. The slug
   "nanyin-shourou" corresponds to Nanyuan Huiyong (南院慧顒, J. Nan'in Egyō),
   also known as Nanyuan Huiyong "Baoying" (860–952 per some sources, 860–930
   per others). The transmission from Xinghua Cunjiang is confirmed by Terebess

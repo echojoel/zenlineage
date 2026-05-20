@@ -23,6 +23,6 @@ sources:
     quote: |
       According to his student Hakuin, who stayed with him for eight months, he emphasized the need for rigorous practice, instead of developing artistic skills or practicing the nembutsu.
 reducer_notes: |
-  Wave-3 self-writing agent. This is one of Rinzai's most discussed transmissions. Hakuin spent eight months with Shoju Rojin (Dokyu Etan) and in later life identified himself as Shoju's dharma heir — however formal inka was never given. Modern Rinzai tradition nonetheless treats this as the valid transmission, and all contemporary Rinzai lineages pass through Hakuin. Three Wikipedia articles consistently document this unconventional but now canonical teacher-student relationship.
+  This is one of Rinzai's most discussed transmissions. Hakuin spent eight months with Shoju Rojin (Dokyu Etan) and in later life identified himself as Shoju's dharma heir — however formal inka was never given. Modern Rinzai tradition nonetheless treats this as the valid transmission, and all contemporary Rinzai lineages pass through Hakuin. Three Wikipedia articles consistently document this unconventional but now canonical teacher-student relationship.
 human_review_needed: false
 ---

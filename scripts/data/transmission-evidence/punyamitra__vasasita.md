@@ -23,6 +23,6 @@ sources:
     quote: |
       Punyamitra (不如密多) — Listed as the 26th Indian Patriarch, succeeding Basiasita; each patriarch transmitted to the next in an unbroken lineage believed to originate from Shakyamuni Buddha.
 reducer_notes: |
-  Wave-4 tier-upgrade pass. Added wisdomlib explicit "Received transmission from Vasiasita" and terebess sequential listing as third independent host. Now has reference (Wikipedia) + academic (wisdomlib) + reference (terebess) = 3 independent hosts; qualifies for tier A by count but Wikipedia and terebess are both reference class; keeping B pending one more institutional source.
+  Added wisdomlib explicit "Received transmission from Vasiasita" and terebess sequential listing as third independent host. Now has reference (Wikipedia) + academic (wisdomlib) + reference (terebess) = 3 independent hosts; qualifies for tier A by count but Wikipedia and terebess are both reference class; keeping B pending one more institutional source.
 human_review_needed: false
 ---

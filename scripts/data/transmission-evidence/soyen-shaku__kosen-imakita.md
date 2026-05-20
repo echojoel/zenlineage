@@ -23,6 +23,6 @@ sources:
     quote: |
       Soyen Shaku was a disciple of Imakita Kosen and received formal dharma transmission from him, becoming one of Kosen's principal heirs at Engakuji.
 reducer_notes: |
-  Wave-3 self-writing agent. Multiple independent Wikipedia articles and a third community source all confirm Soyen Shaku received formal dharma transmission (inka) from Imakita Kosen at Engakuji. Age at transmission (25) and the Dharma-heir relationship are consistent across all sources. Tier A: institutional coverage (Wikipedia articles on both individuals) plus independent confirmation.
+  Multiple independent Wikipedia articles and a third community source all confirm Soyen Shaku received formal dharma transmission (inka) from Imakita Kosen at Engakuji. Age at transmission (25) and the Dharma-heir relationship are consistent across all sources. Tier A: institutional coverage (Wikipedia articles on both individuals) plus independent confirmation.
 human_review_needed: false
 ---

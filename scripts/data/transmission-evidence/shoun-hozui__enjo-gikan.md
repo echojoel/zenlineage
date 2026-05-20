@@ -17,6 +17,6 @@ sources:
     quote: |
       Fuzan Shunki Daiosho … Jissan Mokuin Daiosho … Baizan Mompon Daiosho … Jochu Tengin Daiosho … Butsumon Sogaku Daiosho [SFZC/Suzuki Roshi lineage ancestor list confirming the overall sequence]
 reducer_notes: |
-  Wave-3 self-writing agent. Sources independently researched. The Treeleaf lineage chart (Shunryu Suzuki Soto line) places Eno/Enjo Gikan at position 86 followed immediately by Shoun Hozui at 87, confirming teacher→student sequence. Milwaukee Zen Center corroborates the broader Suzuki lineage list.
+  Sources independently researched. The Treeleaf lineage chart (Shunryu Suzuki Soto line) places Eno/Enjo Gikan at position 86 followed immediately by Shoun Hozui at 87, confirming teacher→student sequence. Milwaukee Zen Center corroborates the broader Suzuki lineage list.
 human_review_needed: false
 ---

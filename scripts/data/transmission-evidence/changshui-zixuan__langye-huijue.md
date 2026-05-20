@@ -31,7 +31,7 @@ sources:
     quote: |
       Changshui Zixuan (964–1038) was one of the highly admired 'Two Shuis'; Langya Huijue was a student of Fenyang Shanzhao and the direct predecessor in the Linji lineage immediately before Changshui Zixuan.
 reducer_notes: |
-  Wave-5 final tier-upgrade pass: upgraded C → B. The Polish Wikipedia article
+  upgraded C → B. The Polish Wikipedia article
   provides the clearest direct statement: Changshui Zixuan became Langye Huijue's
   student because he admired the quality of his teaching. Combined with the
   consecutive-generation placement in Zen Ancestors chart (17th/18th gen) and

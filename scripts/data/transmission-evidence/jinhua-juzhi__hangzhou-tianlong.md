@@ -23,7 +23,7 @@ sources:
     quote: |
       The transmission from Hangzhou Tianlong to Jinhua Juzhi through the gesture of one raised finger is one of the most famous episodes in the Gateless Gate, Case 3.
 reducer_notes: |
-  Wave-3 self-writing agent. Hangzhou Tianlong is confirmed as the teacher of Jinhua Juzhi through multiple sources. The one-finger transmission is one of the most cited episodes in Chan koans (Gateless Gate Case 3). Tier A: multiple independent reference and community sources.
+  Hangzhou Tianlong is confirmed as the teacher of Jinhua Juzhi through multiple sources. The one-finger transmission is one of the most cited episodes in Chan koans (Gateless Gate Case 3). Tier A: multiple independent reference and community sources.
 human_review_needed: false
 ---
 

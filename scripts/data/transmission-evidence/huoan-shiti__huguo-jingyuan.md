@@ -23,6 +23,6 @@ sources:
     quote: |
       Huguo Jingyuan (Gokoku Keigen, 1094-1146) was a disciple of Yuanwu Foguo Keqin (1063-1135). Huoan Shiti (Wakuan Shitai, 1108-1179) was a dharma heir of Huguo Jingyuan, thus grandson in dharma of Yuanwu Keqin.
 reducer_notes: |
-  Wave-3 self-writing agent. The Huguo Jingyuan to Huoan Shiti transmission is confirmed by Terebess master list with explicit "Dharma-heir" language and dates (1108-1179), corroborated by the Ferguson lineage chart (cuke.com) which also confirms Huguo as Yuanwu Keqin's dharma heir. Two independent reference/sangha sources with substantive quotes. Upgraded from legacy Tier D placeholder. Tier B. No institutional source found.
+  The Huguo Jingyuan to Huoan Shiti transmission is confirmed by Terebess master list with explicit "Dharma-heir" language and dates (1108-1179), corroborated by the Ferguson lineage chart (cuke.com) which also confirms Huguo as Yuanwu Keqin's dharma heir. Two independent reference/sangha sources with substantive quotes. Upgraded from legacy Tier D placeholder. Tier B. No institutional source found.
 human_review_needed: false
 ---

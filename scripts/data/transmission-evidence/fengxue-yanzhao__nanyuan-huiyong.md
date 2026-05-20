@@ -29,7 +29,7 @@ sources:
     quote: |
       Fengxue Yanzhao (896–973 CE) identified as dharma-heir of Nanyuan Huiyong in the Records of the Transmission of the Lamp (Jingde chuandeng lu), entry 13.317.
 reducer_notes: |
-  Wave-3 self-writing agent. Exceptionally well attested: named in multiple Terebess pages, Wikipedia, and a dedicated academic ResearchGate publication translating the Song-dynasty Jingde chuandeng lu entry. Tier A: multiple independent hosts including academic source.
+  Exceptionally well attested: named in multiple Terebess pages, Wikipedia, and a dedicated academic ResearchGate publication translating the Song-dynasty Jingde chuandeng lu entry. Tier A: multiple independent hosts including academic source.
 human_review_needed: false
 ---
 

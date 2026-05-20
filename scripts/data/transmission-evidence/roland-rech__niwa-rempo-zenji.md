@@ -26,7 +26,7 @@ sources:
       En 1984, Roland Yuno Rech a reçu le shiho (transmission du
       Dharma) du Maître Niwa Rempō Zenji, abbé d'Eiheiji.
 reducer_notes: |
-  Wave-3 self-writing agent. Tier A: one institutional source (ABZE,
+  Tier A: one institutional source (ABZE,
   the European Zen Buddhism Association) plus two independent hosts
   (Zen Kannon sangha site and Terebess). All three sources agree on the
   1984 date. ABZE is a Sōtōshū-affiliated organization and constitutes

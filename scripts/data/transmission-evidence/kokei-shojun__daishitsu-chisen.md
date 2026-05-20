@@ -17,6 +17,6 @@ sources:
     quote: |
       70. Kokei Shojun … 71. Sesso Yuho … 72. Kaiten Genju [Dainin Katagiri SOTO lineage — Kokei is successor to Daishitsu Chisen in the broader Soto sequence]
 reducer_notes: |
-  Wave-3 self-writing agent. Sources independently researched. The Zen Center Athens Hosshin-ji list directly places Daishitsu Chisen (1461-1536) immediately before Kokei Shojun (?-1555), confirming teacher→student sequence. The Treeleaf chart corroborates Kokei Shojun's sequential position.
+  Sources independently researched. The Zen Center Athens Hosshin-ji list directly places Daishitsu Chisen (1461-1536) immediately before Kokei Shojun (?-1555), confirming teacher→student sequence. The Treeleaf chart corroborates Kokei Shojun's sequential position.
 human_review_needed: false
 ---

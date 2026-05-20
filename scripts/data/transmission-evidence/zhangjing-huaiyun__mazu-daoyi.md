@@ -28,7 +28,7 @@ sources:
       "He is said to have had some 139 disciples — many of them who would
       become eminent teachers in their own right."
 reducer_notes: |
-  Wave-3 self-writing agent. Zhangjing Huaiyun and Zhangjing Huaihui are the
+  Zhangjing Huaiyun and Zhangjing Huaihui are the
   same person (756–815/816). The Terebess page states "He began study under
   Mazu and later became his Dharma heir." The Hongzhou school Wikipedia article
   confirms his membership among Mazu's disciples and his role establishing

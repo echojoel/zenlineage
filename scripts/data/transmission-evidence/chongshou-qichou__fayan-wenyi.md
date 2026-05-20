@@ -14,7 +14,7 @@ sources:
       nobles alike," plus "forty-nine other disciples later made the Dharma
       available, each one propagating it in their respective region."
 reducer_notes: |
-  Wave-3 self-writing agent. C-tier: one credible source. Chongshou Qichou is
+  C-tier: one credible source. Chongshou Qichou is
   not explicitly named in accessible English-language sources as one of Fayan's
   heirs. The "Chongshou" prefix likely denotes residence at Chongshou Monastery
   in Linchuan where Fayan first taught. Fayan had 63 documented heirs (Jingde

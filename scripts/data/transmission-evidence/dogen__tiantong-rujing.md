@@ -41,7 +41,6 @@ sources:
     quote: |
       Between 1223 and 1227 he studied Zen meditation in China and gained enlightenment under the Zen master Ju-ching.
 reducer_notes: |
-  R1: confidence=high
   R2: confidence=high
   R3: confidence=high
 human_review_needed: false

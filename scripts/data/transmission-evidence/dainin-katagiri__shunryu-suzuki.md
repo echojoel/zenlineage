@@ -31,7 +31,7 @@ sources:
       Katagiri Roshi was ordained a Zen monk by Daicho Hayashi Roshi,
       Abbot of Taizo-in.
 reducer_notes: |
-  Wave-4 tier-upgrade. DISPUTED EDGE: This edge represents a "studied-with /
+  DISPUTED EDGE: This edge represents a "studied-with /
   assistant" working relationship, NOT a formal shihō dharma transmission.
   Three sources confirm Katagiri served as assistant priest at SFZC/Sokoji
   1965–1971. All sources are unambiguous that his actual dharma transmission

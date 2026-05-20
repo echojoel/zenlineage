@@ -17,6 +17,5 @@ sources:
     quote: |
       One night, Hongren received Huineng in his abode, and expounded the Diamond Sutra to him...He passed the robe and begging bowl as a symbol of the Dharma Seal of Sudden Enlightenment to Huineng.
 reducer_notes: |
-  R1: confidence=high
 human_review_needed: false
 ---

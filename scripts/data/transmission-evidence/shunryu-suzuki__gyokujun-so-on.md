@@ -23,6 +23,6 @@ sources:
     quote: |
       Nicknamed "crooked cucumber" by his teacher Gyokujun So-on Suzuki, Shunryu Suzuki Roshi is renowned for being one of the founding figures of American Zen Buddhism.
 reducer_notes: |
-  Wave-3 self-writing agent. Sources independently researched. Wikipedia provides exact date (August 26, 1926) and the ten'e ceremony of January 1930. Cuke.com's dedicated biographical page confirms the transmission. Encyclopedia of Buddhism independently corroborates the teacher-student relationship.
+  Sources independently researched. Wikipedia provides exact date (August 26, 1926) and the ten'e ceremony of January 1930. Cuke.com's dedicated biographical page confirms the transmission. Encyclopedia of Buddhism independently corroborates the teacher-student relationship.
 human_review_needed: false
 ---

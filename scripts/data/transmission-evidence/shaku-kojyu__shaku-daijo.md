@@ -25,7 +25,7 @@ sources:
       Daijo Osho died in April 2018 and is interred next to Morinaga Roshi
       at Daishu-in West.
 reducer_notes: |
-  Wave-4 tier-upgrade pass. Added Wikipedia Soko Morinaga article which
+  Added Wikipedia Soko Morinaga article which
   confirms: (1) Shaku Daijo (Thomas Minick) was ordained by and a student
   of Morinaga Roshi; (2) Morinaga Roshi founded Daishu-in; (3) Shaku Daijo
   died in 2018. Daishu-in West institutional page confirms Shaku Kojyu's

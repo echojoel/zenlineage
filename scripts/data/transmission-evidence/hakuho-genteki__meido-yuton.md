@@ -23,6 +23,6 @@ sources:
     quote: |
       Fukushū Kōchi → Meidō Yūton → Hakuhō Genteki — confirmed as consecutive transmission pair in the Hosshin-ji lineage chart.
 reducer_notes: |
-  Wave-3 self-writing agent. Edge confirmed in ZENKAN (positions 20 and 21), Dharma Rain institutional chant, and Zen Center Athens Hosshin-ji chart. Meido Yuton and Hakuho Genteki are consecutive in the Meiho Sotetsu branch; Hakuho Genteki (1594–1670) is a key figure who preceded Gesshu Soko and Manzan Dohaku's reform movement.
+  Edge confirmed in ZENKAN (positions 20 and 21), Dharma Rain institutional chant, and Zen Center Athens Hosshin-ji chart. Meido Yuton and Hakuho Genteki are consecutive in the Meiho Sotetsu branch; Hakuho Genteki (1594–1670) is a key figure who preceded Gesshu Soko and Manzan Dohaku's reform movement.
 human_review_needed: false
 ---

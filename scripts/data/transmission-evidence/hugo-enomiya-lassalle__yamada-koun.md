@@ -23,7 +23,7 @@ sources:
     quote: |
       In 1979 Hugo Enomiya-Lassalle was acknowledged as a Zen teacher by Koun Yamada Roshi within the Harada Yasutani Zen lineage.
 reducer_notes: |
-  Wave-3 self-writing agent. Enomiya-Lassalle initially trained under Harada Daiun Sogaku (1956-1961),
+  Enomiya-Lassalle initially trained under Harada Daiun Sogaku (1956-1961),
   then transferred to Yamada Koun after Harada's death. Yamada certified him as a teacher / roshi in
   the late 1960s (Patheos 2018 says 1979 for "acknowledged as teacher"). Wikipedia says late 1960s.
   The transmission is unambiguous; exact year varies by source. Tier A: Wikipedia (reference) +

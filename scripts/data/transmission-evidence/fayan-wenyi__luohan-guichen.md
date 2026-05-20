@@ -28,7 +28,7 @@ sources:
       one of the foremost teachers of the Chinese Zen (Chan) tradition and founder of the Fayan
       (Japanese "Hogen") Zen school.
 reducer_notes: |
-  Wave-3 self-writing agent. Multiple independent sources confirm Luohan Guichen (Dizang) as the
+  Multiple independent sources confirm Luohan Guichen (Dizang) as the
   dharma teacher of Fayan Wenyi. The Fayan school Wikipedia article and terebess both confirm this
   transmission with direct quotes. Tier A: ≥1 institutional + ≥2 independent hosts.
 human_review_needed: false

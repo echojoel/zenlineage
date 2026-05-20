@@ -23,7 +23,7 @@ sources:
     quote: |
       Chan Master Guangzuo (Zhimen Guangzuo) was Xuedou's teacher and spiritual leader of the Yunmen School in the early Song Dynasty; Xuedou received his seal of transmission.
 reducer_notes: |
-  Wave-3 self-writing agent. Xuedou Chongxian (980-1052) received dharma transmission from Zhimen Guangzuo after five years of study. Confirmed by Terebess, Wikipedia, and Oxford Reference. Tier A.
+  Xuedou Chongxian (980-1052) received dharma transmission from Zhimen Guangzuo after five years of study. Confirmed by Terebess, Wikipedia, and Oxford Reference. Tier A.
 human_review_needed: false
 ---
 

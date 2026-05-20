@@ -17,6 +17,5 @@ sources:
     quote: |
       Rujing studied under the master Zu'an Zhijian (1105–1192) and eventually became his dharma heir. Jian conferred upon Rujing the Dongshan lineage, profound and deep.
 reducer_notes: |
-  R1: confidence=high
 human_review_needed: false
 ---

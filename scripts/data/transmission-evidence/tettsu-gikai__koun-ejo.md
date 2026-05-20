@@ -29,7 +29,6 @@ sources:
     quote: |
       This mind of Dogen Zenji was then passed on to his successors: Koun Ejo Zenji, the second abbot of Daihonzan Eiheiji, and from Ejo Zenji, Tettsu Gikai Zenji who founded Daijoji in Kaga.
 reducer_notes: |
-  R1: confidence=high
   R2: confidence=high
   R3: confidence=high
 human_review_needed: false

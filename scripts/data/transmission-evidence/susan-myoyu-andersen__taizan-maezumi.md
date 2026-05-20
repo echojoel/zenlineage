@@ -23,7 +23,6 @@ sources:
     quote: |
       Susan Myoyu Andersen was the tenth person to whom Taizan Maezumi gave Dharma transmission.
 reducer_notes: |
-  R1: confidence=high
   R2: confidence=high
   R3: confidence=high
 human_review_needed: false

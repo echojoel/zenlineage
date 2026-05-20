@@ -23,7 +23,7 @@ sources:
     quote: |
       Tankai Genshō (1811–1898) was an ascetic Japanese Zen master of the Rinzai school who received transmission from Karyo Zuika in the Takuju lineage.
 reducer_notes: |
-  Wave-3 self-writing agent. Karyo Zuika (1790–1848) → Tankai Gensho (1811–1898) confirmed in
+  Karyo Zuika (1790–1848) → Tankai Gensho (1811–1898) confirmed in
   the Takuju Kosen sub-lineage by the Ciolek chart and Charles River Zen lineage. Tankai Gensho
   was renowned as an ascetic, and his well-trained students helped sustain Rinzai during the
   Meiji anti-Buddhist period. The line continues through Dokutan Sosan to Joshu Sasaki.

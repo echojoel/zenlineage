@@ -17,6 +17,5 @@ sources:
     quote: |
       The Takuju lineage chart shows Kasan Zenryō → Sohan Genyō → Yamamoto Gempō as the spine of one major Rinzai sub-branch.
 reducer_notes: |
-  R1: confidence=medium
 human_review_needed: false
 ---

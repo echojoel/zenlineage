@@ -32,7 +32,7 @@ sources:
       Suzuki Roshi first had Kobun spend two years helping develop Tassajara.
       Kobun received dharma transmission from Koei Chino Roshi in Kamo in 1962.
 reducer_notes: |
-  Wave-4 tier-upgrade. DISPUTED EDGE: This edge represents a "collaboration /
+  DISPUTED EDGE: This edge represents a "collaboration /
   invited assistant" relationship, NOT a formal shihō from Suzuki to Kobun.
   Three sources confirm Kobun came to Tassajara at Suzuki's invitation in 1967
   and served as assistant until 1970; collaboration continued until Suzuki's

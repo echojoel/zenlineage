@@ -30,7 +30,7 @@ sources:
       Xita Guangmu listed in the twelfth generation as his dharma teacher
       in the Chan transmission records.
 reducer_notes: |
-  Wave-4 tier-upgrade pass. Upgraded from tier C to tier B. Two independent
+  Upgraded from tier C to tier B. Two independent
   reference sources (Terebess dedicated page and Polish Wikipedia) explicitly
   name Xita Guangmu as Zifu Rubao's dharma teacher. The Guiyang school
   classification remains a note-worthy disambiguation — the broader lineage

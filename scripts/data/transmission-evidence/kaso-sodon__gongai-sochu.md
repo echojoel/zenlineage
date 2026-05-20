@@ -23,7 +23,7 @@ sources:
     quote: |
       Gongai Sochu (1315-1390) was a pupil of Tetto Giko who achieved enlightenment and subsequently became Tetto's primary successor at Daitokuji. The dharma succession in this line continued to Kaso Sodon.
 reducer_notes: |
-  Wave-3 self-writing agent. Gongai Sochu (1315–1390) → Kaso Sodon confirmed as successive abbots
+  Gongai Sochu (1315–1390) → Kaso Sodon confirmed as successive abbots
   in the Daitokuji Rinzai line. Gongai Sochu was the primary successor of Tetto Giko at Daitokuji.
   Direct documentary evidence of the Gongai-to-Kaso transmission step is present in lineage charts;
   no source found explicitly stating "Kaso received transmission from Gongai" by name, but multiple

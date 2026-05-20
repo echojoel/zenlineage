@@ -23,7 +23,7 @@ sources:
     quote: |
       he passed on this faith to the many disciples he had trained, some of whom he had designated as future masters [including Roland Rech, one of his closest disciples].
 reducer_notes: |
-  Wave-3 self-writing agent. Roland Yuno Rech was one of Taisen Deshimaru's closest
+  Roland Yuno Rech was one of Taisen Deshimaru's closest
   disciples and received dharma transmission from Niwa Rempo Zenji in 1984 in recognition
   of Deshimaru's lineage. His teacher-student relationship with Deshimaru is attested by
   Wikipedia, Zen Kannon Barcelona sangha, and AZI institutional source. Tier A: AZI

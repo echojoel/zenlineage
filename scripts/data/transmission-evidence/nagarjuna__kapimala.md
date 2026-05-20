@@ -17,6 +17,5 @@ sources:
     quote: |
       This jewel is the best in the world. Does it have a form or is it formless? [Kapimala's exchange with Nagarjuna in the Denkoroku, upon which Nagarjuna was deeply enlightened and received the transmission]
 reducer_notes: |
-  R1: confidence=high, dissent="The historical Nagarjuna (c. 150–250 CE) predates Bodhidharma by roughly three centuries; his placement in the 28-patriarch chain is universally regarded by scholars as retrospective hagiography."
 human_review_needed: false
 ---

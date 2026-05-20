@@ -41,7 +41,6 @@ sources:
     quote: |
       On the evening of his death, in the inka poem he wrote to Bernie Glassman, he said, Life after life, birth after birth Never Falter. Do not let die the Wisdom seed of the Buddhas and Ancestors. Truly! I implore you!
 reducer_notes: |
-  R1: confidence=high
   R2: confidence=high
   R3: confidence=high
 human_review_needed: false

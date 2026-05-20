@@ -17,6 +17,5 @@ sources:
     quote: |
       These two texts contain a short five-generation lineage, and have five patriarchs: 1) Mahākāśyapa 2) Ānanda, (Madhyāntika) 3) Śāṇakavāsin 4) Upagupta 5) Dhṛtaka (Dhītika).
 reducer_notes: |
-  R1: confidence=high
 human_review_needed: false
 ---

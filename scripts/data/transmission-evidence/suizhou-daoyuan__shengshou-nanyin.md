@@ -29,7 +29,7 @@ sources:
     quote: |
       Zongmi traced his Chan lineage to Shenhui (680–758) and the Sixth Patriarch, Huineng (638–713). Daoyuan was purportedly a fourth-generation lineage holder of the Heze line of Chan, with Suizhou Daoyuan as his immediate teacher.
 reducer_notes: |
-  Wave-5 final tier-upgrade pass. Added Wikipedia Heze School and Encyclopedia.com
+  Added Wikipedia Heze School and Encyclopedia.com
   as independent reference sources. Three reference-class sources plus one community
   source now confirm Suizhou Daoyuan as Shengshou Nanyin's student and the link
   between Nanyin and Zongmi. Note: only Zongmi's self-reported testimony is the

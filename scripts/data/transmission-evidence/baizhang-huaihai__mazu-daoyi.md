@@ -32,7 +32,7 @@ sources:
       of the aristocratic Wang clan of Taiyuan. Baizhang later came to be
       seen as Mazu's most important disciple."
 reducer_notes: |
-  Wave-3 self-writing agent. One of the most thoroughly attested transmission
+  One of the most thoroughly attested transmission
   edges in Tang Chan history. Multiple independent high-quality sources confirm
   it, including both Wikipedia and the Encyclopedia of Buddhism dedicated pages.
 human_review_needed: false

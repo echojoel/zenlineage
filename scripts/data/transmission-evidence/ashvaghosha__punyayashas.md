@@ -17,6 +17,5 @@ sources:
     quote: |
       Buddha → Mahākāśyapa → Ānanda → Śāṇakavāsin → Upagupta → Dhṛtaka → Vibhaga → Buddhanandi → Buddhamitra → Monk Pārśva → Puṇyayaśas → Aśvaghoṣa → Maśiva/Kapimala → Nāgārjuna...
 reducer_notes: |
-  R1: confidence=high, dissent="Modern scholarship identifies Ashvaghosha (c. 1st–2nd century CE) as a historical figure; his inclusion in the patriarchal list as 12th patriarch is a later hagiographic construction."
 human_review_needed: false
 ---

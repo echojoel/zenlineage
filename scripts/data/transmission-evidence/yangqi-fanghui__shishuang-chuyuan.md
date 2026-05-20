@@ -23,7 +23,7 @@ sources:
     quote: |
       Yangqi Fanghui listed as dharma heir of Shishuang Chuyuan in the Linji school lineage chart.
 reducer_notes: |
-  Wave-3 self-writing agent. Shishuang Chuyuan (986-1039) was the direct teacher of Yangqi Fanghui (992-1049). Their relationship is the branching point that gave rise to the Yangqi branch of the Linji school, one of the two major Song-dynasty Linji divisions. Multiple independent reference and institutional sources confirm this transmission. Tier A: multiple institutional and independent sources.
+  Shishuang Chuyuan (986-1039) was the direct teacher of Yangqi Fanghui (992-1049). Their relationship is the branching point that gave rise to the Yangqi branch of the Linji school, one of the two major Song-dynasty Linji divisions. Multiple independent reference and institutional sources confirm this transmission. Tier A: multiple institutional and independent sources.
 human_review_needed: false
 ---
 

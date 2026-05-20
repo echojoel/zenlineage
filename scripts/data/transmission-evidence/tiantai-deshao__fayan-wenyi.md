@@ -28,7 +28,7 @@ sources:
       kingdoms, especially Wuyue, where Tiantai Deshao (891–972) served as national preceptor
       to the Wuyue court.
 reducer_notes: |
-  Wave-3 self-writing agent. Multiple credible sources confirm Tiantai Deshao as a dharma heir of
+  Multiple credible sources confirm Tiantai Deshao as a dharma heir of
   Fayan Wenyi. Terebess describes him as "the most prominent" of Fayan's heirs. The Wikipedia Fayan
   school article confirms the transmission. Tier A: ≥1 institutional (Wikipedia) + ≥2 independent hosts.
 human_review_needed: false

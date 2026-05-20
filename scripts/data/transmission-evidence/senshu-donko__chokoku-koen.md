@@ -23,6 +23,6 @@ sources:
     quote: |
       Fuzan Shunki Daiosho … Jissan Mokuin Daiosho … Baizan Mompon Daiosho … Jochu Tengin Daiosho … Butsumon Sogaku Daiosho [Shunryu Suzuki lineage ancestor list]
 reducer_notes: |
-  Wave-3 self-writing agent. Sources independently researched. The Treeleaf lineage chart (Shunryu Suzuki Soto line) lists Chokoku Koen at position 76 followed immediately by Senshu Donko at 77, confirming teacher→student sequence. Multiple Soto center lineage pages corroborate this sequence.
+  Sources independently researched. The Treeleaf lineage chart (Shunryu Suzuki Soto line) lists Chokoku Koen at position 76 followed immediately by Senshu Donko at 77, confirming teacher→student sequence. Multiple Soto center lineage pages corroborate this sequence.
 human_review_needed: false
 ---

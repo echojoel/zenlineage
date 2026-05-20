@@ -32,7 +32,7 @@ sources:
       transmission from Umpo Zenjo, establishing his formal filiation to the
       main Myoshinji branch of Japan Rinzai Zen.
 reducer_notes: |
-  Wave-3 self-writing agent. The Umpo Zenjo → Bankei Yotaku transmission is
+  The Umpo Zenjo → Bankei Yotaku transmission is
   confirmed by Wikipedia and two independent sources. Note the complexity:
   Bankei also received transmission from the Chinese master Dosha Chogen, and
   formally became Umpo's dharma heir only posthumously (four years after

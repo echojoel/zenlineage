@@ -23,6 +23,6 @@ sources:
     quote: |
       Strasbourg Buddhist Zen Centre … Master: Olivier Reigen Wang-Genh [Soto Zen institutional listing confirming Wang-Genh as abbot]
 reducer_notes: |
-  Wave-3 self-writing agent. Sources independently researched. Two independent sources (AZI institutional page and meditation-zen.org) give the identical verbatim statement that Wang-Genh received dharma transmission from Dôshô Saikawa in 2001. The Sotozen.com institutional listing confirms Wang-Genh's standing as a Soto temple master.
+  Sources independently researched. Two independent sources (AZI institutional page and meditation-zen.org) give the identical verbatim statement that Wang-Genh received dharma transmission from Dôshô Saikawa in 2001. The Sotozen.com institutional listing confirms Wang-Genh's standing as a Soto temple master.
 human_review_needed: false
 ---

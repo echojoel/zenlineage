@@ -29,7 +29,7 @@ sources:
     quote: |
       Guifeng Zongmi was a Chinese Chan master and historian; putative fifth patriarch of the Huayan tradition and successor in the Heze school of Chan; best known for positing the fundamental harmony between the scriptural teachings of Buddhism and Chan practice.
 reducer_notes: |
-  Wave-5 final tier-upgrade pass. Added Stanford Encyclopedia of Philosophy (Huayan
+  Added Stanford Encyclopedia of Philosophy (Huayan
   Buddhism) and Tsadra Buddha-Nature Foundation as independent academic sources.
   Stanford SEP explicitly states Zongmi "received Chan transmission from Suizhou
   Daoyuan in 807." Two academic + one reference + one community source. Upgraded C → B.

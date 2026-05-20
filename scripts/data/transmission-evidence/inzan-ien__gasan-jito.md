@@ -29,7 +29,7 @@ sources:
     quote: |
       Hakuin E-kaku Zenji (1685~1768) => Gasan Jito Zenji listed in the direct lineage succession chart, with Inzan Ien as Gasan's primary heir.
 reducer_notes: |
-  Wave-3 self-writing agent. Gasan Jito (1727–1797) → Inzan Ien (1751–1814) is one of the two
+  Gasan Jito (1727–1797) → Inzan Ien (1751–1814) is one of the two
   defining transmission edges of modern Rinzai Buddhism, documented universally across Rinzai
   sources. Tier A: multiple institutional and reference-grade sources across independent hosts.
 human_review_needed: false

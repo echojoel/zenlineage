@@ -23,6 +23,6 @@ sources:
     quote: |
       Kodo Sawaki gave formal Dharma Transmission (Shihō) to five monks and three nuns. Kishigami Kojun received transmission one month before Sawaki's death in 1965. Coupey received dharma transmission from Master Kojun Kishigami on August 31, 2008, at the Dojo Zen de Paris.
 reducer_notes: |
-  Wave-3 self-writing agent. Edge confirmed with exact date: 31 August 2008 at Dojo Zen de Paris. French text from the Dojo Zen de Paris website gives verbatim confirmation. Philippe Coupey was a long-term disciple of Taisen Deshimaru but received formal transmission from Kishigami Kojun (one of Kodo Sawaki's five formal dharma heirs). Three independent sources.
+  Edge confirmed with exact date: 31 August 2008 at Dojo Zen de Paris. French text from the Dojo Zen de Paris website gives verbatim confirmation. Philippe Coupey was a long-term disciple of Taisen Deshimaru but received formal transmission from Kishigami Kojun (one of Kodo Sawaki's five formal dharma heirs). Three independent sources.
 human_review_needed: false
 ---

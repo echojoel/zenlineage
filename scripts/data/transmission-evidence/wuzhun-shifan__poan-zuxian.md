@@ -23,7 +23,7 @@ sources:
     quote: |
       Wuzhun Shifan succeeded Poan Zuxian as abbot and dharma heir in the Yangqi branch of the Linji school.
 reducer_notes: |
-  Wave-3 self-writing agent. Wuzhun Shifan (1178-1249) received dharma transmission from Poan Zuxian (1136-1211), continuing the Yangqi-Linji lineage. Wikipedia, Oxford Reference, and Grokipedia all confirm the direct succession. Tier B: multiple independent sources including academic reference.
+  Wuzhun Shifan (1178-1249) received dharma transmission from Poan Zuxian (1136-1211), continuing the Yangqi-Linji lineage. Wikipedia, Oxford Reference, and Grokipedia all confirm the direct succession. Tier B: multiple independent sources including academic reference.
 human_review_needed: false
 ---
 

@@ -26,7 +26,7 @@ sources:
       He received dharma transmission from Master Yvon Myoken Bec at
       Temples Taisen-ji and Hobo-ji in Hungary on June 4, 2007.
 reducer_notes: |
-  Wave-4 tier-upgrade. Three independent sources confirm the shihō from Yvon
+  Three independent sources confirm the shihō from Yvon
   Myōken Bec to Vincent Keisen Vuillemin on 4 June 2007 at Taisen-ji / Hobo-ji,
   Budapest. Tier upgraded to A: specific date, place, and two independent
   sangha sources plus Terebess reference all in agreement.

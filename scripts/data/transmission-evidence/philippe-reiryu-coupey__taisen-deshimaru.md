@@ -23,7 +23,7 @@ sources:
     quote: |
       Reiryu Philippe Coupey [listed among notable disciples of Taisen Deshimaru] … received the transmission of the Dharma on August 31, 2008, at the Zen Dojo of Paris from Master Kojun Kishigami.
 reducer_notes: |
-  Wave-3 self-writing agent. Philippe Coupey (Reiryu) met and was ordained by Taisen
+  Philippe Coupey (Reiryu) met and was ordained by Taisen
   Deshimaru starting in 1972. He is universally described as a monk "in the Sōtō line of
   Taisen Deshimaru." Formal dharma transmission (shiho) was later given by Kojun Kishigami
   in 2008 rather than directly by Deshimaru. However, the ordination and spiritual

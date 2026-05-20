@@ -36,7 +36,7 @@ sources:
       "Mazu Daoyi studied with Huairang (677–744), an obscure disciple of
       the 'Sixth Patriarch' Huineng (638–713), during the mid-730s."
 reducer_notes: |
-  Wave-3 self-writing agent. The Mazu→Nanyue transmission is among the
+  The Mazu→Nanyue transmission is among the
   most consequential and best-attested edges in all of Chan lineage history.
   Multiple independent Wikipedia and encyclopedia sources confirm it. The
   tile-polishing exchange between Nanyue and Mazu is among Chan's most

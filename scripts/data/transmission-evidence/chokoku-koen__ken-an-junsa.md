@@ -23,6 +23,6 @@ sources:
     quote: |
       Ken'an Junsa and Chokoku Koen appear in the Soto Zen lineage chart as the 75th and 76th ancestors in the Japanese Soto Zen transmission lineage.
 reducer_notes: |
-  Wave-3 self-writing agent. Edge confirmed in the SFZC ancestral chant (Milwaukee Zen Center, positions 16 and 17) and the SFZC historical document, which notes that Chōkoku Kōen was a disciple of Ken'An Junsa at Shinshōji. Three independent sources confirm the direct transmission.
+  Edge confirmed in the SFZC ancestral chant (Milwaukee Zen Center, positions 16 and 17) and the SFZC historical document, which notes that Chōkoku Kōen was a disciple of Ken'An Junsa at Shinshōji. Three independent sources confirm the direct transmission.
 human_review_needed: false
 ---

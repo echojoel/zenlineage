@@ -23,7 +23,7 @@ sources:
     quote: |
       The Lidai fabao ji presents the lineage: Zizhou Zhishen → Zizhou Chuji → Jingzhong Wuxiang (684–762), the Korean Chan master known as founder of the Jingzhong school of Chengdu, whose biography is given in detail including quotations from his Dharma sermons.
 reducer_notes: |
-  Wave-4 tier-upgrade pass: upgraded C → B. Added Columbia University Press academic source
+  upgraded C → B. Added Columbia University Press academic source
   (Wendi Adamek, 2007) and the Lidai fabao ji quote with the specific detail of Wuxiang burning
   his finger as an act of devotion before Chuji accepted him as a student for two years.
   This is the primary hagiographic source for this edge; all three sources ultimately trace

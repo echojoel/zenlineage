@@ -17,6 +17,5 @@ sources:
     quote: |
       Qingxi Jinshan Hongjin (893-954) descended from the lineage: Xuefeng Yicun → Xuansha → Luohan → Qingxi Hongjin.
 reducer_notes: |
-  R1: confidence=high
 human_review_needed: false
 ---

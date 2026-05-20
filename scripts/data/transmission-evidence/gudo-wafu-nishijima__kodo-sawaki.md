@@ -31,7 +31,7 @@ sources:
       was ordained as a Buddhist priest by Rempo Niwa. Four years later,
       Niwa gave him shiho, formally accepting him as one of his successors.
 reducer_notes: |
-  Wave-4 tier-upgrade. DISPUTED EDGE: Nishijima studied under Kodo Sawaki from
+  DISPUTED EDGE: Nishijima studied under Kodo Sawaki from
   1940 until Sawaki's death in 1965 — a 25-year training relationship. However,
   Sawaki gave NO formal shihō to Nishijima. Nishijima's actual dharma
   transmission came from Rempo Niwa (ordained 1973, shihō 1977). Three sources

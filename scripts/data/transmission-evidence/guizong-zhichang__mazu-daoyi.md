@@ -30,7 +30,7 @@ sources:
       of Chan Buddhism… Mazu had the largest number of close disciples among
       Chan teachers from the Tang period."
 reducer_notes: |
-  Wave-3 self-writing agent. Guizong Zhichang is consistently listed as a
+  Guizong Zhichang is consistently listed as a
   dharma heir of Mazu Daoyi across multiple independent sources. Huangbo's
   praise — "Great Teacher Ma brought forth eighty-four people… Only Guizong
   is up to snuff!" — is recorded on the Terebess page and in the Hongzhou

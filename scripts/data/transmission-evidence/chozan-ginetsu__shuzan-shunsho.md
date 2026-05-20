@@ -23,7 +23,7 @@ sources:
     quote: |
       Shuzan Shunshō (1590–1647) and Chōzan Gin'etsu (1581–1672) are successive dharma transmission holders in the Soto Zen lineage; Suzan Shunsho is followed by Chozan Ginetsu in the Zen lineage records.
 reducer_notes: |
-  Wave-3 self-writing agent. Shuzan Shunsho (1590–1647) and Chozan Ginetsu / Gin'etsu
+  Shuzan Shunsho (1590–1647) and Chozan Ginetsu / Gin'etsu
   (1581–1672) appear consecutively in multiple Soto Zen lineage charts. The ZENKAN chart
   lists them at positions 17–18. Note the overlap in dates (Gin'etsu born before Shunsho)
   is unusual; Chozan Gin'etsu lived longer (d. 1672) suggesting Shunsho ordained him as a

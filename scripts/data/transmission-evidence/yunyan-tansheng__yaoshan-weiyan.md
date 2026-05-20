@@ -23,7 +23,7 @@ sources:
     quote: |
       On the advice of his younger brother Daowu Yuanzhi he then studied with and received Transmission from Yaoshan Weiyan.
 reducer_notes: |
-  Wave-5 final tier-upgrade pass. Three independent sources confirm Yaoshan Weiyan
+  Three independent sources confirm Yaoshan Weiyan
   as Yunyan Tansheng's formal dharma teacher: Wikipedia, a community Zen blog,
   and WWZC. WWZC provides the clearest statement: "received Transmission from
   Yaoshan Weiyan." Upgraded from C to B: two independent hosts (en.wikipedia.org,

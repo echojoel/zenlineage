@@ -23,6 +23,6 @@ sources:
     quote: |
       Kōshō Uchiyama, Sawaki's closest disciple and dharma heir, further developed and clarified the spirit of lay-centered zazen practice. After Sawaki's death in 1965, Uchiyama Roshi became the abbot of Antai-ji.
 reducer_notes: |
-  Wave-3 self-writing agent. Edge firmly established by multiple Wikipedia sources and Terebess.hu. Uchiyama is consistently identified as Sawaki's primary dharma heir and successor at Antai-ji. Wikipedia confirms Sawaki gave formal transmission to eight students; Uchiyama is the most prominent among them.
+  Edge firmly established by multiple Wikipedia sources and Terebess.hu. Uchiyama is consistently identified as Sawaki's primary dharma heir and successor at Antai-ji. Wikipedia confirms Sawaki gave formal transmission to eight students; Uchiyama is the most prominent among them.
 human_review_needed: false
 ---

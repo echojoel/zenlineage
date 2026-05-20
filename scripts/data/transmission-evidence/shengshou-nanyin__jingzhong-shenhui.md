@@ -29,7 +29,7 @@ sources:
     quote: |
       Guifeng Zongmi was a Chinese Chan master; putative fifth patriarch of the Huayan tradition and successor in the Heze school of Chan. Zongmi traced his Chan lineage through Suizhou Daoyuan back to Shenhui (680–758) and the Sixth Patriarch, Huineng.
 reducer_notes: |
-  Wave-5 final tier-upgrade pass. Added Wikipedia Heze School article and
+  Added Wikipedia Heze School article and
   Tsadra Buddha-Nature Foundation as independent sources. The edge
   Shengshou Nanyin → Jingzhong Shenhui is part of the documented Heze
   school transmission chain attested by Broughton's scholarship. Note: there

@@ -35,7 +35,6 @@ sources:
     quote: |
       His dharma-successors, including Tetsugen Bernard Glassman, Dennis Merzel, John Daido Loori, Jan Chozen Bays, Gerry Shishin Wick, Joko Beck, William Nyogen Yeo, and Charles Tenshin Fletcher, have gone on to further develop western Zen with traditional Japanese influences.
 reducer_notes: |
-  R1: confidence=high
   R2: confidence=high
   R3: confidence=high
 human_review_needed: false

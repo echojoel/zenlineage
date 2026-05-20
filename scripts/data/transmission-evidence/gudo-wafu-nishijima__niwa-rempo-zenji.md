@@ -27,7 +27,7 @@ sources:
       Gudō Wafu Nishijima received shiho from Niwa Rempō Zenji in 1977
       at Eiheiji.
 reducer_notes: |
-  Wave-3 self-writing agent. Tier A: Wikipedia (reference/institutional)
+  Tier A: Wikipedia (reference/institutional)
   plus two independent hosts (Terebess and Treeleaf Zendo). The 1977
   date of dharma transmission is consistent across all three sources.
   Nishijima's ordination (1973) and transmission (1977) are well

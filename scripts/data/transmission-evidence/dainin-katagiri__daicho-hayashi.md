@@ -35,7 +35,6 @@ sources:
     quote: |
       Kaigai Daicho means 'Beyond the Ocean, Great Tides.' Hayashi Roshi was born into a wealthy and influential family. When Katagiri arrived in 1946, Daicho Roshi was happy to accept him, and Katagiri would become his only remaining disciple.
 reducer_notes: |
-  R1: confidence=high
   R2: confidence=high
   R3: confidence=high
 human_review_needed: false

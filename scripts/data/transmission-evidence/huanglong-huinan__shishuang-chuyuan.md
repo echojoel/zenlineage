@@ -23,7 +23,7 @@ sources:
     quote: |
       "By the Northern Song dynasty, the Linji School had been transmitted through six generations to Shishuang Chuyuan, where it split into two branches: the Huanglong School, founded by Huanglong Huinan, and the Yangqi School."
 reducer_notes: |
-  Wave-3 self-writing agent. Huanglong Huinan as disciple of Shishuang Chuyuan is established in Terebess, Oxford Reference, and Wikipedia. The transmission is foundational — Huinan founded the Huanglong branch of Linji from Chuyuan's teaching. Tier A: institutional (Oxford Reference), reference (Terebess, Wikipedia), multiple independent hosts.
+  Huanglong Huinan as disciple of Shishuang Chuyuan is established in Terebess, Oxford Reference, and Wikipedia. The transmission is foundational — Huinan founded the Huanglong branch of Linji from Chuyuan's teaching. Tier A: institutional (Oxford Reference), reference (Terebess, Wikipedia), multiple independent hosts.
 human_review_needed: false
 ---
 

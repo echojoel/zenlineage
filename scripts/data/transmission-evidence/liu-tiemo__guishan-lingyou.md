@@ -17,7 +17,7 @@ sources:
     quote: |
       Liu Tiemo listed among the dharma heirs of Guishan Lingyou in the Guiyang school.
 reducer_notes: |
-  Wave-3 self-writing agent. Liu Tiemo is explicitly named as a student and dharma successor of Guishan Lingyou in the Wikipedia article on the Guiyang school. Note: birth dates are inconsistent (Guishan d.854, Liu Tiemo b.871 per one source) — some sources give Liu Tiemo's dates as active around 820-880. The transmission is confirmed in multiple reference sources. Tier B.
+  Liu Tiemo is explicitly named as a student and dharma successor of Guishan Lingyou in the Wikipedia article on the Guiyang school. Note: birth dates are inconsistent (Guishan d.854, Liu Tiemo b.871 per one source) — some sources give Liu Tiemo's dates as active around 820-880. The transmission is confirmed in multiple reference sources. Tier B.
 human_review_needed: false
 ---
 

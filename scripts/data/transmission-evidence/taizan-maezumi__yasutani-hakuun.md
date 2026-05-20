@@ -35,7 +35,6 @@ sources:
     quote: |
       In 1970, he received Inka Shomei from Yasutani Roshi, and in 1973, from Koryu Roshi. Maezumi Roshi became one of very few teachers to receive Inka (final seal of approval as a teacher) in both the Inzan and Takuju Rinzai lineages, as well as Dharma Transmission in the Soto lineage.
 reducer_notes: |
-  R1: confidence=high
   R2: confidence=high
   R3: confidence=high
 human_review_needed: false

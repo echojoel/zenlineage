@@ -29,7 +29,7 @@ sources:
       Caodong/Soto lineage), Heze Shenhui, Nanzong Huizhong,
       and Yongjia Xuanjue."
 reducer_notes: |
-  Wave-3 self-writing agent. The traditional account — Huairang as Huineng's
+  The traditional account — Huairang as Huineng's
   dharma heir — is attested in the Jingde Chuandeng Lu and in all standard
   reference works. Scholarly skepticism (McRae) notes the oldest Platform Sutra
   manuscript (c.850) does not list Nanyue among Huineng's students, and suggests

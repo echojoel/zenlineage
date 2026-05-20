@@ -23,6 +23,6 @@ sources:
     quote: |
       Basiasita/Vasi Astia (婆舍斯多) — Listed as the 25th Indian Patriarch, following Aryasimha; each patriarch transmitted to the next in an unbroken lineage believed to originate from Shakyamuni Buddha.
 reducer_notes: |
-  Wave-4 tier-upgrade pass. Added wisdomlib explicit "Received transmission from Āryasiṃha" quote and terebess sequential listing confirming Simha→Vasasita order. Tier remains B (2 independent hosts + academic/sangha mix); note Simha's martyrdom is widely regarded as legendary by modern scholars.
+  Added wisdomlib explicit "Received transmission from Āryasiṃha" quote and terebess sequential listing confirming Simha→Vasasita order. Tier remains B (2 independent hosts + academic/sangha mix); note Simha's martyrdom is widely regarded as legendary by modern scholars.
 human_review_needed: false
 ---

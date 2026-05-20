@@ -23,7 +23,7 @@ sources:
     quote: |
       15. Sesso Yuho / 16. Kaiten Genju — consecutive entries in the ZENKAN Japan Sōtō lineage list
 reducer_notes: |
-  Wave-4 tier-upgrade pass. Now tier B: three independent hosts. Athens Zen Center
+  Now tier B: three independent hosts. Athens Zen Center
   (Hosshin-ji institutional lineage) provides dates for Sessō Yūho (?–1576) and the
   surrounding masters, confirming the generation placement. Treeleaf provides numbered
   entries 72 and 73 in the Katagiri Soto line, and ZENKAN provides entries 15 and 16.

@@ -23,7 +23,7 @@ sources:
       Taigu (Puyu) visited Shiwu Qinggong and received the dharma transmission, bringing the
       Linji lineage to Korea and becoming its first Korean master.
 reducer_notes: |
-  Wave-3 self-writing agent. The Jogye Order institutional source confirms Taigu Puyu as a dharma
+  The Jogye Order institutional source confirms Taigu Puyu as a dharma
   student of Shiwu Qinggong who received transmission (cassock and cane = dharma transmission
   objects) and brought the Linji lineage to Korea. Tier B: institutional + independent host.
 human_review_needed: false

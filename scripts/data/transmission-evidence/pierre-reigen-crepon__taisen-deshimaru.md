@@ -23,7 +23,7 @@ sources:
     quote: |
       Deshimaru trained many disciples … [Pierre Crépon] served as editor-in-chief of the "Zen" review of the AZI (Association Zen Internationale) from 1977 to 1987, helping organize summer sessions, and directing sesshins.
 reducer_notes: |
-  Wave-3 self-writing agent. Pierre Dokan Crépon was ordained as a Soto Zen monk by
+  Pierre Dokan Crépon was ordained as a Soto Zen monk by
   Taisen Deshimaru in 1975 and was one of his designated teaching successors. He later
   received formal dharma transmission (shiho) in 1998 from Master Shinzan Egawa, the
   kannin of Sojiji. The ordination/student relationship with Deshimaru is the edge

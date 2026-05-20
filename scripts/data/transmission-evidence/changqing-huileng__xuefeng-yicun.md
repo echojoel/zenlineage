@@ -27,7 +27,7 @@ sources:
       Changqing's dharma siblings included Cuiyan, Jingqing, Taiyuan, Xuansha,
       Baofu, and Yunmen — all dharma heirs of Xuefeng Yicun.
 reducer_notes: |
-  Wave-3 self-writing agent. A-tier: two reference sources (terebess.hu,
+  A-tier: two reference sources (terebess.hu,
   wikipedia.org) and one community source. Changqing Huileng as dharma heir
   of Xuefeng Yicun after 29 years of study is one of the best-attested
   Qingyuan-line transmission edges in English-language Chan literature.

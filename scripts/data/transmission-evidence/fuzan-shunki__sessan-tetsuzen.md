@@ -19,7 +19,7 @@ sources:
       Yōkōin records confirm Fuzan Shunki as the sixteenth-generation
       abbot, receiving the Dharma from Sessan Tetsuzen (fifteenth generation).
 reducer_notes: |
-  Wave-3 self-writing agent. The SFZC PDF contains the most explicit
+  The SFZC PDF contains the most explicit
   transmission statement in the entire document for this edge: "transmitted
   the Dharma to … Fuzan Shunki Daioshō." Sessan Tetsuzen is the
   seventy-fifth ancestor (fifteenth Yōkōin generation); Fuzan Shunki is

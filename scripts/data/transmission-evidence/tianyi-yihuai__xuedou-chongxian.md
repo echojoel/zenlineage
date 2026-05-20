@@ -23,7 +23,7 @@ sources:
     quote: |
       Tianyi Yihuai was Xuedou Chongxian's foremost dharma successor in the Yunmen school.
 reducer_notes: |
-  Wave-3 self-writing agent. Tianyi Yihuai (993-1064) received dharma transmission from Xuedou Chongxian (980-1052). Confirmed by Terebess, Wikipedia, and an academic MDPI source. Tier A.
+  Tianyi Yihuai (993-1064) received dharma transmission from Xuedou Chongxian (980-1052). Confirmed by Terebess, Wikipedia, and an academic MDPI source. Tier A.
 human_review_needed: false
 ---
 

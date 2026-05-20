@@ -25,7 +25,7 @@ sources:
     quote: |
       Soto Zen ancestral line includes Renzan Soho followed immediately by Motsugai Shido, then Gukei Youn, Kakusho Sodo, Daiun Sogaku in the pre-Harada lineage chain
 reducer_notes: |
-  Wave-4 tier-upgrade pass. Now tier B: three independent hosts with the Zen Center
+  Now tier B: three independent hosts with the Zen Center
   Athens being institutional (Hosshin-ji lineage monastery) and Terebess being an
   established academic reference. All three sources place Renzan Sohō immediately before
   Motsugai Shidō in the pre-Harada Sōtō chain. For tier A we would need a Sōtōshū

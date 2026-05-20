@@ -35,7 +35,6 @@ sources:
     quote: |
       In September 1980, a year after completing koan study, he became Maezumi Roshi's second Dharma successor.
 reducer_notes: |
-  R1: confidence=high
   R2: confidence=high
   R3: confidence=high
 human_review_needed: false

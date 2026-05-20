@@ -29,7 +29,7 @@ sources:
     quote: |
       The koan curriculum would be further refined by Gasan's primary heirs, Inzan Ien and Takuju Kosen.
 reducer_notes: |
-  Wave-3 self-writing agent. Gasan Jito (1727–1797) → Takuju Kosen (1760–1833) is one of the
+  Gasan Jito (1727–1797) → Takuju Kosen (1760–1833) is one of the
   two most fundamental transmission edges in all of modern Rinzai Buddhism. Documented by
   Wikipedia, Encyclopedia of Buddhism, and multiple institutional sources. Tier A given multiple
   independent hosts including institutional/academic-grade sources.

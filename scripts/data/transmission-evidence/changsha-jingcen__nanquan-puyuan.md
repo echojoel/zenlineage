@@ -23,6 +23,5 @@ sources:
     quote: |
       Nanquan had seventeen Dharma successors, the most famous of whom was Zhaozhou Congshen (J. Joshu)(778–897).
 reducer_notes: |
-  R1: confidence=high
 human_review_needed: false
 ---

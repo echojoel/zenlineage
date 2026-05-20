@@ -23,7 +23,7 @@ sources:
     quote: |
       "It was Zen master Yuelin Shiguan who gave Wumen the koan 'Zhaozhou's dog', with which Wu-men struggled for six years before he finally attained realization."
 reducer_notes: |
-  Wave-3 self-writing agent. Exceptionally well attested: Wikipedia's Wumen Huikai article, Terebess' Gateless Gate introduction, and Wikipedia's Gateless Barrier article all confirm Yuelin Shiguan as Wumen's dharma teacher. The transmission included the "Zhaozhou's dog" koan. Tier A: multiple independent reference hosts.
+  Exceptionally well attested: Wikipedia's Wumen Huikai article, Terebess' Gateless Gate introduction, and Wikipedia's Gateless Barrier article all confirm Yuelin Shiguan as Wumen's dharma teacher. The transmission included the "Zhaozhou's dog" koan. Tier A: multiple independent reference hosts.
 human_review_needed: false
 ---
 

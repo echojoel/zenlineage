@@ -23,6 +23,6 @@ sources:
     quote: |
       Kankai Tokuan and Kosen Baido appear in a documented Soto Zen lineage chart as successive generations, with Kosen Baido following Kankai Tokuon in the transmission line.
 reducer_notes: |
-  Wave-3 self-writing agent. Edge confirmed in both the SFZC ancestral chant (Milwaukee Zen Center, positions 31 and 32) and the SFZC historical document compiled with Suzuki Hoitsu Roshi's assistance. Kankai Tokuon and Kosen Baido are in the direct succession chain leading to Shunryu Suzuki Roshi.
+  Edge confirmed in both the SFZC ancestral chant (Milwaukee Zen Center, positions 31 and 32) and the SFZC historical document compiled with Suzuki Hoitsu Roshi's assistance. Kankai Tokuon and Kosen Baido are in the direct succession chain leading to Shunryu Suzuki Roshi.
 human_review_needed: false
 ---

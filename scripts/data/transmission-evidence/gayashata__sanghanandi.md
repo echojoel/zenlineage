@@ -17,6 +17,5 @@ sources:
     quote: |
       The ground of mind was never once created, This primal ground results from a concurrent cause.
 reducer_notes: |
-  R1: confidence=high
 human_review_needed: false
 ---

@@ -23,6 +23,6 @@ sources:
     quote: |
       [Shunryu Suzuki lineage] 85. Daiki Kyokan … 86. Eno Gikan … 87. Shoun Hozui … [ancestor list confirms Jochu Tengin in Soto patriarchal succession]
 reducer_notes: |
-  Wave-3 self-writing agent. Sources independently researched. Wikipedia's Jochū Tengin article directly names Baisan Monpon as his dharma teacher. Wikipedia's Baisan Monpon article confirms him as a Sōtō patriarch in this succession. The Treeleaf lineage chart corroborates the overall sequence. Baisan Monpon's own teacher was Gasan Jōseki (per Wikipedia), not Taigen Sōshin as some secondary summaries suggest.
+  Sources independently researched. Wikipedia's Jochū Tengin article directly names Baisan Monpon as his dharma teacher. Wikipedia's Baisan Monpon article confirms him as a Sōtō patriarch in this succession. The Treeleaf lineage chart corroborates the overall sequence. Baisan Monpon's own teacher was Gasan Jōseki (per Wikipedia), not Taigen Sōshin as some secondary summaries suggest.
 human_review_needed: false
 ---

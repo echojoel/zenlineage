@@ -17,7 +17,7 @@ sources:
     quote: |
       Dongshan Liangjie's disciples are listed as numbering between five hundred and one thousand; Yuezhou Qianfeng explicitly named as one of his students.
 reducer_notes: |
-  Wave-3 self-writing agent. Yuezhou Qianfeng is explicitly named as a disciple of Dongshan Liangjie in the Encyclopedia of Buddhism and Wikipedia. Biographical details for Yuezhou Qianfeng himself are sparse. Tier B: two independent reference sources.
+  Yuezhou Qianfeng is explicitly named as a disciple of Dongshan Liangjie in the Encyclopedia of Buddhism and Wikipedia. Biographical details for Yuezhou Qianfeng himself are sparse. Tier B: two independent reference sources.
 human_review_needed: false
 ---
 

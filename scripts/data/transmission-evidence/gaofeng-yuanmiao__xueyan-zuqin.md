@@ -23,7 +23,7 @@ sources:
     quote: |
       Gaofeng Yuanmiao (1238–1295) was a student of Xueyan Zuqin and one of the most influential Chan masters of the Yuan dynasty, known for his teachings on Huatou Chan.
 reducer_notes: |
-  Wave-3 self-writing agent. Gaofeng Yuanmiao (1238-1295) received dharma transmission from Xueyan Zuqin (1215-1287). Multiple institutional, reference, and sangha sources confirm this. The huatou interaction between them is one of the most cited episodes in Yuan-dynasty Chan literature. Tier A.
+  Gaofeng Yuanmiao (1238-1295) received dharma transmission from Xueyan Zuqin (1215-1287). Multiple institutional, reference, and sangha sources confirm this. The huatou interaction between them is one of the most cited episodes in Yuan-dynasty Chan literature. Tier A.
 human_review_needed: false
 ---
 

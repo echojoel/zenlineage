@@ -27,7 +27,7 @@ sources:
       The Fayan school was named after Chinese Zen Master Qingliang Wenyi
       (885–958), who had sixty-three Dharma heirs propagating the tradition.
 reducer_notes: |
-  Wave-3 self-writing agent. B-tier: two independent sources (sangha + reference)
+  B-tier: two independent sources (sangha + reference)
   plus a third corroborating. Guizong Cezhen (Hui Ch'ao) as Fayan's dharma heir
   is attested by the Blue Cliff Record case 7 commentary and the Terebess/Heritage
   text. The famous koan "What is Buddha?" / "You are Huichao" is canonical

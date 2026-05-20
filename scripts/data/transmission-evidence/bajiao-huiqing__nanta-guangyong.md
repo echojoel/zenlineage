@@ -17,6 +17,5 @@ sources:
     quote: |
       Bajiao Huiqing was a Korean Dharma-heir Master, and he belonged to the fifth generation of the Gui-Yang school.
 reducer_notes: |
-  R1: confidence=high
 human_review_needed: false
 ---

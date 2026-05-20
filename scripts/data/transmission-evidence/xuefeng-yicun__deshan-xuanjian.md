@@ -17,6 +17,5 @@ sources:
     quote: |
       Through his student Xuefeng Yicun, he is the ancestor to two of the Five Houses of Zen.
 reducer_notes: |
-  R1: confidence=high
 human_review_needed: false
 ---

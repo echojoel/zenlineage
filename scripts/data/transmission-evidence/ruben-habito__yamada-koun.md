@@ -23,7 +23,7 @@ sources:
     quote: |
       Ruben Habito (Keiun-ken) — Appointed Zen Teacher in 1988; became Associate Zen Master in 2003. Based in USA.
 reducer_notes: |
-  Wave-3 self-writing agent. Ruben Habito (dharma name Keiun-ken, "Grace Cloud") received dharma
+  Ruben Habito (dharma name Keiun-ken, "Grace Cloud") received dharma
   transmission from Yamada Koun in 1988. He subsequently left the Jesuit order (1989) and founded
   Maria Kannon Zen Center in Dallas (1991). Universally attested. Tier A: Wikipedia x2 (reference)
   + Sanbo Zen International (institutional).

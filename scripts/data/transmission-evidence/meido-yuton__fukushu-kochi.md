@@ -17,6 +17,6 @@ sources:
     quote: |
       75. Fukujo Kochi … 76. Myodo Yuton … 77. Hakuho Genteki [Dainin Katagiri SOTO lineage]
 reducer_notes: |
-  Wave-3 self-writing agent. Sources independently researched. Both the Zen Center Athens Hosshin-ji list and the Treeleaf Katagiri Soto lineage chart place Fukushu Kochi immediately before Meido Yuton, confirming teacher→student sequence.
+  Sources independently researched. Both the Zen Center Athens Hosshin-ji list and the Treeleaf Katagiri Soto lineage chart place Fukushu Kochi immediately before Meido Yuton, confirming teacher→student sequence.
 human_review_needed: false
 ---

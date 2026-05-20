@@ -23,6 +23,6 @@ sources:
     quote: |
       Meihō Sotetsu (1277–1350) is the fifth generation Sōtō Zen ancestor in Japan, following Dōgen, Ejō, Gikai, and Keizan. He practiced with Keizan Jōkin for twenty-nine years and ultimately became his primary successor.
 reducer_notes: |
-  Wave-3 self-writing agent. Edge thoroughly confirmed. Wikipedia, Dharma Rain institutional list, and Patheos academic article all confirm Meiho Sotetsu as Keizan Jokin's direct dharma successor. Sotetsu practiced with Keizan for twenty-nine years and became abbot of Yoko-ji after Keizan's death. Three independent sources (reference + institutional + academic).
+  Edge thoroughly confirmed. Wikipedia, Dharma Rain institutional list, and Patheos academic article all confirm Meiho Sotetsu as Keizan Jokin's direct dharma successor. Sotetsu practiced with Keizan for twenty-nine years and became abbot of Yoko-ji after Keizan's death. Three independent sources (reference + institutional + academic).
 human_review_needed: false
 ---

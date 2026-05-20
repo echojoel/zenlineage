@@ -23,6 +23,6 @@ sources:
     quote: |
       Shidō Bu'nan (1603–1676) had one heir — Dōkyō Etan (1642-1721), also known as Shoju Rojin "The Old Man of Shoju Hermitage."
 reducer_notes: |
-  Wave-3 self-writing agent. Three Wikipedia articles independently confirm Shido Bunan (1603–1676) transmitted inka to Shoju Rojin / Dokyo Etan (1642–1721). Note that Shoju Rojin received inka but declined to formally succeed Bunan as his dharma-successor — this is an unusual but well-documented transmission.
+  Three Wikipedia articles independently confirm Shido Bunan (1603–1676) transmitted inka to Shoju Rojin / Dokyo Etan (1642–1721). Note that Shoju Rojin received inka but declined to formally succeed Bunan as his dharma-successor — this is an unusual but well-documented transmission.
 human_review_needed: false
 ---

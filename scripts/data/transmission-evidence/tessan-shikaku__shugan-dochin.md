@@ -23,7 +23,7 @@ sources:
     quote: |
       Tessan Shikaku (?-1376) listed immediately after Shugan Dōchin (?-1387) in the Soto Zen dharma lineage of the Meihō line.
 reducer_notes: |
-  Wave-3 self-writing agent. Both names appear consecutively in every Soto Zen lineage
+  Both names appear consecutively in every Soto Zen lineage
   chart consulted (ZENKAN, Treeleaf, Zen Center Athens). Shugan Dochin (d. 1387) and
   Tessan Shikaku (d. 1376) are documented as successive dharma-transmission holders in
   the Meihō Sotetsu branch of Japanese Soto Zen. The dates as given in some sources

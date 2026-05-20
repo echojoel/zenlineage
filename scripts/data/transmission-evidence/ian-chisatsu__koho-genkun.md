@@ -23,6 +23,6 @@ sources:
     quote: |
       Rinzai lineage charts document successive transmissions in the Myoshin-ji branch from Kanzan Egen through the medieval period masters.
 reducer_notes: |
-  Wave-3 self-writing agent. Both Daiyuzenji (institutional Rinzai temple) and Shining Bright Lotus (independent sangha) independently list Koho Genkun directly before Ian Chisatsu in the Myoshin-ji transmission chain. Dates are consistent across sources.
+  Both Daiyuzenji (institutional Rinzai temple) and Shining Bright Lotus (independent sangha) independently list Koho Genkun directly before Ian Chisatsu in the Myoshin-ji transmission chain. Dates are consistent across sources.
 human_review_needed: false
 ---

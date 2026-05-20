@@ -17,6 +17,5 @@ sources:
     quote: |
       Keizan begins with Shakyamuni … Parshva, Punyayashas, Ashvaghosa (Ashvaghosha), and Kapimala. Then comes Nagarjuna...
 reducer_notes: |
-  R1: confidence=high
 human_review_needed: false
 ---

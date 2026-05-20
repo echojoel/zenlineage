@@ -17,6 +17,5 @@ sources:
     quote: |
       became a follower of Mahayana Buddhism under the twenty-seventh Patriarch Prajnatara, from whom he received the mind-to-mind transmission of enlightenment that is still a defining feature of the Zen tradition.
 reducer_notes: |
-  R1: confidence=medium, dissent="The entire Indian patriarchal lineage (including Prajnatara as 27th patriarch) is treated by modern scholars as a later Chan invention."
 human_review_needed: false
 ---

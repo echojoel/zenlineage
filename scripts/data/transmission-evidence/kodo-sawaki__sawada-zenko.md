@@ -26,7 +26,7 @@ sources:
       En 1906 recibió la transmisión del Dharma de Sawada Zenkō,
       siendo reconocido como maestro independiente del Zen Sōtō.
 reducer_notes: |
-  Wave-3 self-writing agent. Tier A: one institutional/reference source
+  Tier A: one institutional/reference source
   (Wikipedia) plus two independent hosts (Gyobutsuji sangha site and
   Soto Zen España). All three sources agree on the 1906 date and the
   Sawada Zenkō → Kōdō Sawaki transmission. This is one of the most

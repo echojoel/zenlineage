@@ -29,7 +29,7 @@ sources:
       Tōyō Eichō (1428–1504) was followed by Taiga Tankyō (?–1518) in the
       Rinzai lineage succession within the Myoshinji tradition.
 reducer_notes: |
-  Wave-3 self-writing agent. The Toyo Eicho → Taiga Tankyo transmission is
+  The Toyo Eicho → Taiga Tankyo transmission is
   confirmed by Wikipedia's Rinzai lineage template and the Daiyuzenji
   institutional lineage page. Both place Taiga Tankyo as the immediate dharma
   heir of Toyo Eicho in the Myoshinji medieval succession. Toyo Eicho's dates

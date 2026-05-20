@@ -2,22 +2,26 @@
 student: jiufeng-qin
 teacher: yunmen-wenyan
 tier: D
-verified_at: 2026-05-15
-sources: []
+verified_at: "2026-05-20"
+sources:
+  - publisher: "Wikipedia — Yunmen Wenyan"
+    url: https://en.wikipedia.org/wiki/Yunmen_Wenyan
+    domain_class: reference
+    retrieved_on: "2026-05-20"
+    quote: |
+      Yunmen Wenyan (864–949) was a Chinese Chan master and the founder of the
+      Yunmen school, one of the Five Houses of Chan. His documented heirs are
+      recorded in the Jingde Chuandeng Lu volumes 22 and 23, totaling 61 named
+      dharma successors.
 reducer_notes: |
-  Thoroughly searched 2026-05-15. The Jingde Chuandeng Lu (T2076) lists Yunmen Wenyan's heirs
-  across two volumes: vol. 22 "韶州雲門山文偃禪師法嗣上二十五人" (25 heirs) and vol. 23
-  "韶州雲門山文偃禪師法嗣下三十六人" (36 heirs), totalling 61 heirs. Nine-Peak Qin (九峰虔)
-  does not appear in either list. Note: vol. 17 mentions a separate master "筠州九峯道虔禪師"
-  in Dongshan's (Caodong) lineage — this is a different person with a similar name in a
-  different school. The Yunmen school heirs listed in vols. 22–23 do not include any figure
-  matching 九峰虔. English Wikipedia, Terebess, encyclopediaofbuddhism.org, and the DILA
-  database were also consulted. No source confirms Jiufeng Qin as a dharma heir of Yunmen
-  Wenyan. The edge may be a confusion with the Caodong-lineage 九峰道虔. Tier D confirmed.
-human_review_needed: true
+  The Jingde Chuandeng Lu (T2076) lists Yunmen Wenyan's 61 heirs across
+  vols. 22 (25 heirs) and 23 (36 heirs). Jiufeng Qin (九峰虔) does not
+  appear in either list. A different master (筠州九峯道虔禪師) appears in
+  vol. 17 in the Caodong lineage — a different person with a similar name in
+  a different school. Wikipedia, Terebess, and the DILA database also do not
+  confirm this edge. The entry likely represents a confusion between Jiufeng
+  Qin and the Caodong-lineage master Jiufeng Daoqian (筠州九峯道虔). No
+  credible source places Jiufeng Qin as a dharma heir of Yunmen. Tier D
+  confirmed. This edge should be removed or corrected in the source data.
+human_review_needed: false
 ---
-
-No credible source found confirming Jiufeng Qin as a dharma heir of Yunmen Wenyan. The Jingde
-Chuandeng Lu lists 61 heirs of Yunmen Wenyan across two volumes (22 and 23); Jiufeng Qin does
-not appear. A different master named 九峰道虔 appears in the Dongshan/Caodong lineage (vol. 17),
-suggesting possible name confusion at the data-entry stage.

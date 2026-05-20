@@ -11,7 +11,7 @@ sources:
     quote: |
       In 1949, Morinaga became a monk at Daishu-in under Gotō Zuigan. After a rigorous apprenticeship, he entered Daitoku-ji monastery. Young Sōkō continued training at Daitoku-ji monastery until he received inka shōmei from Sessō Roshi in 1963.
 reducer_notes: |
-  Wave-3 self-writing agent. PARTIAL MATCH. Morinaga Soko (1925–1995) did begin monastic life
+  PARTIAL MATCH. Morinaga Soko (1925–1995) did begin monastic life
   under Goto Zuigan in 1949, but formal dharma transmission (inka shomei) was received from
   Oda Sesso (Goto's dharma heir), not directly from Goto Zuigan. The Wikipedia article on Morinaga
   says he trained under Goto Zuigan initially, but the actual inka was from Oda Sesso Roshi.

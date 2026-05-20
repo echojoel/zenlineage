@@ -37,7 +37,7 @@ sources:
       establishing the Ōtōkan lineage that continues as the only existing
       line of dharma-transmission in Japanese Rinzai Zen today.
 reducer_notes: |
-  Wave-3 self-writing agent. The Xutang Zhiyu → Nanpu Shaoming transmission
+  The Xutang Zhiyu → Nanpu Shaoming transmission
   is one of the most historically significant and well-documented transmissions
   in Rinzai history: it is the origin of the Ōtōkan lineage, from which all
   contemporary Japanese Rinzai Zen descends. Confirmed by two independent

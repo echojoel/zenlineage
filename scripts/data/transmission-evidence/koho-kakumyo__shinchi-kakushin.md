@@ -23,6 +23,6 @@ sources:
     quote: |
       Shinchi Kakushin (1207–1298) transmitted the Hotto lineage to Koho Kakumyo (1271–1361) who continued the line.
 reducer_notes: |
-  Wave-3 self-writing agent. Terebess and Wikipedia both confirm that Koho Kakumyo (1271–1361) was a direct disciple of Shinchi Kakushin (Muhon Kakushin, 1207–1298). Kakumyo converted from Tendai to Zen under Kakushin, continuing the Hotto lineage.
+  Terebess and Wikipedia both confirm that Koho Kakumyo (1271–1361) was a direct disciple of Shinchi Kakushin (Muhon Kakushin, 1207–1298). Kakumyo converted from Tendai to Zen under Kakushin, continuing the Hotto lineage.
 human_review_needed: false
 ---

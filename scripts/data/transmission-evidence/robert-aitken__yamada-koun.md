@@ -23,7 +23,7 @@ sources:
     quote: |
       Robert Baker Aitken is listed among the Western dharma heirs of Yamada Koun Roshi, trained primarily under Yamada within the Sanbokyodan lineage.
 reducer_notes: |
-  Wave-3 self-writing agent. Aitken received permission to teach from Yamada Koun in 1974 and full
+  Aitken received permission to teach from Yamada Koun in 1974 and full
   dharma transmission in 1985. He founded the Diamond Sangha and is one of the most prominent Western
   heirs of Yamada Koun. Tier A: Wikipedia x2 (reference) + Sanbo Zen International (institutional).
 human_review_needed: false

@@ -20,7 +20,7 @@ sources:
       "Mazu had the largest number of close disciples (rushi dizi) among
       Chan teachers from the Tang period."
 reducer_notes: |
-  Wave-3 self-writing agent. Terebess provides an explicit "disciple of Mazu"
+  Terebess provides an explicit "disciple of Mazu"
   designation and confirms Luzu Baoyun as a dharma brother of Nanquan Puyuan,
   both under Mazu. The famous wall-facing koan ("Luzu faces the wall") is
   attributed to him in multiple sources. No dates of birth or death are recorded.

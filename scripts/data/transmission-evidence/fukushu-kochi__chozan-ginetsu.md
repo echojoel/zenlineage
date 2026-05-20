@@ -17,6 +17,6 @@ sources:
     quote: |
       74. Chozan Ginetsu … 75. Fukujo Kochi … 76. Myodo Yuton … 77. Hakuho Genteki [Dainin Katagiri SOTO lineage]
 reducer_notes: |
-  Wave-3 self-writing agent. Sources independently researched. Both the Zen Center Athens Hosshin-ji lineage list and the Treeleaf Katagiri Soto lineage chart place Chozan Gin'etsu immediately before Fukushu Kochi, confirming teacher→student sequence. Note: Treeleaf uses "Fukujo Kochi" which is the same master as "Fukushu Kochi" (variant romanization of 福昌光知 or similar).
+  Sources independently researched. Both the Zen Center Athens Hosshin-ji lineage list and the Treeleaf Katagiri Soto lineage chart place Chozan Gin'etsu immediately before Fukushu Kochi, confirming teacher→student sequence. Note: Treeleaf uses "Fukujo Kochi" which is the same master as "Fukushu Kochi" (variant romanization of 福昌光知 or similar).
 human_review_needed: false
 ---

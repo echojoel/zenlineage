@@ -29,7 +29,7 @@ sources:
     quote: |
       Shido Munan (or Bunan) was a 71st generation successor in the continuing Rinzai Zen line and a successor of the great master and national teacher, Gudo Toshoku.
 reducer_notes: |
-  Wave-3 self-writing agent. Gudo Toshoku (1577–1661) → Shido Bunan (1603–1676) is a well-
+  Gudo Toshoku (1577–1661) → Shido Bunan (1603–1676) is a well-
   attested transmission forming a critical link in the pre-Hakuin Myoshinji Rinzai lineage. Both
   Wikipedia articles for Gudo and for Shido Bunan confirm the relationship. Bunan later taught
   Shoju Rojin who taught Hakuin Ekaku.

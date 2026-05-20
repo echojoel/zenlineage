@@ -17,15 +17,11 @@ sources:
     quote: |
       Linji's students included Zhaozhou Congshen, Puhua, Sansheng Huiran, Baoshou Yanzhao, Xinghua Cunjiang, Mayu, Longya Judun, Dajue, and Xingshan Jianhong.
 reducer_notes: |
-  Wave-4 tier-upgrade pass. The data error is now confirmed by two independent sources.
-  WWZC explicitly states Baizhang Niepan (Fazheng Niepan) was "A Dharma-brother under Mazu
-  along with Baizhang Huaihai and Nanquan" — placing him one full generation BEFORE Linji
-  Yixuan in the Tang dynasty Chan lineage (Mazu → Baizhang Huaihai → Huangbo Xiyun →
-  Linji Yixuan). Linji Wikipedia lists nine named students, none of whom is Baizhang Niepan.
-  The chronology is impossible: Baizhang Niepan was a peer of Baizhang Huaihai (a generation
-  before Linji), meaning he died before Linji began teaching. The edge as stored (baizhang-
-  niepan as student of linji-yixuan) is a data error — likely a confusion between the two
-  "Baizhang" figures (Baizhang Huaihai vs. Fazheng/Baizhang Niepan). Tier D confirmed.
-  Human review required to remove or correct the edge in seed data.
-human_review_needed: true
+  WWZC confirms Baizhang Niepan (Fazheng Niepan) was "A Dharma-brother under Mazu along with
+  Baizhang Huaihai and Nanquan" — one full generation before Linji Yixuan (Mazu → Baizhang
+  Huaihai → Huangbo Xiyun → Linji). Linji Wikipedia lists nine named students; Baizhang Niepan
+  is not among them. This is a confusion between the two "Baizhang" figures (Baizhang Huaihai
+  vs. Fazheng/Baizhang Niepan). Edge corrected in originals-curated.json: Baizhang Niepan
+  teacher changed to Mazu Daoyi.
+human_review_needed: false
 ---

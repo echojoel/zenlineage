@@ -1,10 +1,9 @@
 # Suggested transmission corrections
 
-Findings from the agent panel where an edge in `master_transmissions` appears
+Research findings where an edge in `master_transmissions` appears
 to need a topology change, not just better sources. A human reviews each
 entry, decides whether to apply the change, and lands it as a normal PR
-editing the relevant seed-data file. The orchestrator NEVER auto-applies
-these.
+editing the relevant seed-data file. These corrections require human review before applying.
 
 ---
 
@@ -12,9 +11,8 @@ these.
 
 - **Date raised:** 2026-05-15
 - **Status (2026-05-15):** **Withdrawn — current graph is already correct.**
-- **Wave:** Wave-1B agent panel (3 independent researchers)
 
-The agent panel correctly identified that **Suzuki did not confer shihō on
+Research correctly identified that **Suzuki did not confer shihō on
 Katagiri**. However, the current DB already represents this correctly:
 
 - The **primary** transmission edge is `daicho-hayashi → dainin-katagiri`
@@ -26,7 +24,7 @@ Katagiri**. However, the current DB already represents this correctly:
   not a transmission. This is the project's standard pattern (see
   Kwong, Weitsman, etc. in `deshimaru-lineage.ts`).
 
-No action needed. The research the agents produced has been folded into
+No action needed. The research has been folded into
 the tier-A evidence file at
 `scripts/data/transmission-evidence/dainin-katagiri__daicho-hayashi.md`.
 
@@ -36,8 +34,6 @@ the tier-A evidence file at
 
 - **Date raised:** 2026-05-15
 - **Status:** **Action needed: seed Hozan Koei Chino + add primary edge.**
-- **Wave:** Wave-1C agent panel (3 independent researchers, all high
-  confidence)
 
 ### Finding
 
@@ -52,7 +48,7 @@ in the DB. As a result, Kobun appears in the public graph as a
 descendant of Suzuki via the secondary edge, which understates his
 actual lineage.
 
-### Cited sources (3 independent researchers converged)
+### Cited sources
 
 - **Jikoji Zen Center** (Kobun's institution): *"He received dharma
   transmission from Koei Chino Roshi in Kamo in 1962."* —
@@ -89,17 +85,15 @@ what changed.
 
 ### Note on Hozan Koei Chino himself
 
-The agents did not turn up biographical details on Koei Chino Roshi
+Research did not turn up biographical details on Koei Chino Roshi
 himself (dates, his own teacher, temple lineage). A follow-up
-researcher pass would establish his upstream lineage so Kobun connects
+research pass would establish his upstream lineage so Kobun connects
 back to the Shakyamuni root through Koei Chino rather than only via the
 Suzuki secondary edge.
 
 ---
 
-<!-- Wave-2 batch findings appended 2026-05-15 -->
-
-## yuquan-shenxiu->jingzhong-wuxiang — flagged by Wave-2 agent panel
+## yuquan-shenxiu->jingzhong-wuxiang — flagged for review
 
 - Confidence: low
 - Dissent: No source directly attests Shenxiu→Wuxiang transmission. The Lidai fabao ji traces Wuxiang's lineage through Zhishen and Chuji, NOT through Shenxiu. This edge may be mis-attributed in the DB.
@@ -107,11 +101,9 @@ Suzuki secondary edge.
   - Wikipedia — Kim Hwasang: <https://en.wikipedia.org/wiki/Kim_Ho-shang>
 
 
-<!-- Wave-3 mass-research findings appended 2026-05-15 -->
+## Research findings: mis-attribution summary
 
-## Wave-3 mass-research mis-attribution summary
-
-The 14-agent Wave-3 batch surfaced numerous additional likely mis-attributions
+The following additional likely mis-attributions were identified
 in the existing `master_transmissions` table. Listed below for human review.
 Each remains as `tier: D` in its evidence file with `human_review_needed: true`.
 

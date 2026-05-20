@@ -23,7 +23,7 @@ sources:
     quote: |
       Yamada authorized as many as a dozen westerners to teach Zen; Joan Rieck (Jo-un An) is listed among his recognized dharma heirs.
 reducer_notes: |
-  Wave-3 self-writing agent. Joan Rieck trained under Yamada Koun in Japan and received authorization
+  Joan Rieck trained under Yamada Koun in Japan and received authorization
   to teach in 1981 (Sanbo Zen International teacher list) or 1983 (German teachers page — possibly the
   date of independent teaching vs. initial appointment). She is listed among Yamada's dharma heirs in
   the via integralis memorial. Tier A: Sanbo Zen International institutional x2 + Wikipedia (reference).

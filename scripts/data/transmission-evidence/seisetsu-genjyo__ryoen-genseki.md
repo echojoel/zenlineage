@@ -23,6 +23,6 @@ sources:
     quote: |
       Tekisui Giboku → Ryoen Genseki → Seisetsu Genjyo → Bokuo Soun — transmission chain within the Inzan branch of modern Rinzai.
 reducer_notes: |
-  Wave-3 self-writing agent. Ryoen Genseki (1842/1843–1918/1919) as teacher of Seisetsu Genjyo (1877–1945) is confirmed by institutional temple lineage (Daiyuzenji), an independent sangha (One Drop Zen), and Wikipedia reference. The Tekisui Giboku antecedent is consistent across all sources.
+  Ryoen Genseki (1842/1843–1918/1919) as teacher of Seisetsu Genjyo (1877–1945) is confirmed by institutional temple lineage (Daiyuzenji), an independent sangha (One Drop Zen), and Wikipedia reference. The Tekisui Giboku antecedent is consistent across all sources.
 human_review_needed: false
 ---

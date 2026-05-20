@@ -23,7 +23,7 @@ sources:
     quote: |
       Tekisui Giboku later became the successor of Gisan Zenrai Zenji and returned to be abbot of Tenryuji.
 reducer_notes: |
-  Wave-3 self-writing agent. Gisan Zenrai (1802–1878) → Tekisui Giboku (1822–1899) confirmed by
+  Gisan Zenrai (1802–1878) → Tekisui Giboku (1822–1899) confirmed by
   Wikipedia and sangha lineage pages. The story of Tekisui's name change ("one drop") after being
   corrected about wasting water is a well-documented anecdote from this transmission. Tekisui
   became the 236th head abbot of Tenryu-ji.

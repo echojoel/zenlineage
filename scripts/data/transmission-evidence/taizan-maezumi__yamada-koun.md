@@ -23,7 +23,7 @@ sources:
     quote: |
       Maezumi studied koans with Hakuun Yasutani and lay-teacher Koryū Osaka; he also received inka from Yamada Koun as part of his koan training, combining Sōtō-style shikantaza with Harada Daiun Sogaku's kōan-curriculum.
 reducer_notes: |
-  Wave-3 self-writing agent. Taizan Maezumi received transmission from multiple teachers
+  Taizan Maezumi received transmission from multiple teachers
   including Yamada Koun, Hakuun Yasutani (inka 1970), and Koryu Osaka (inka 1973). The
   Yamada Koun transmission is documented by the Terebess lineage chart which lists Maezumi
   as a dharma heir of Yamada Koun. This was part of Maezumi's koan training in the

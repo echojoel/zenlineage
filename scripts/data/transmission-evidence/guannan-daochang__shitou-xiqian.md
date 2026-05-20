@@ -29,7 +29,7 @@ sources:
     quote: |
       GUISHAN LINGYOU · GUANNAN DAOCHANG · HANGZHOU TIANLONG · CHANGSHA JINGCEN, "TIGER CEN" · ZHAOZHOU CONGSHEN · YUNYAN TANSHENG · CHUANZI DECHENG · DAOWU YUANZHI
 reducer_notes: |
-  Wave-5 final tier-upgrade pass. CONFLICTING TEACHER ATTRIBUTION DETECTED.
+  CONFLICTING TEACHER ATTRIBUTION DETECTED.
   The current edge asserts Shitou Xiqian as teacher. However:
   - Terebess (GuannanDaochang.html) explicitly states: "GUANNAN DAOCHANG (n.d.)
     was a disciple of Baizhang Huaihai." This directly contradicts the edge.

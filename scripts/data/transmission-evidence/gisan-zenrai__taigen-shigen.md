@@ -37,7 +37,7 @@ sources:
       when his teacher Taigen Shigen Zenji died, Gisan Zenrai Zenji became
       abbot of Sogenji.
 reducer_notes: |
-  Wave-3 self-writing agent. Transmission is confirmed across multiple
+  Transmission is confirmed across multiple
   independent sources including two Wikipedia articles (Gisan Zenrai and
   Koryū Osaka), an institutional Rinzai temple site, and a sangha lineage
   page. The dates 1801 vs 1802 for Gisan's birth vary slightly across sources

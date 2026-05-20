@@ -23,7 +23,7 @@ sources:
     quote: |
       Jōshū Rōshi received his training in the Myōshinji lineage of Rinzai Zen under Jōten Sōko Miura.
 reducer_notes: |
-  Wave-3 self-writing agent. Banryo Zenso -> Joten Soko Miura transmission confirmed by multiple
+  Banryo Zenso -> Joten Soko Miura transmission confirmed by multiple
   independent sources including Wikipedia and the Rinzaiji institutional page. Miura became the
   624th kancho of Myoshin-ji as Banryo Zenso's dharma successor. Dates: Banryo Zenso (1848–1935),
   Joten Soko Miura (1871–1958).

@@ -17,6 +17,6 @@ sources:
     quote: |
       Fuzan Shunki Daiosho … Jissan Mokuin Daiosho … Baizan Mompon Daiosho … Jochu Tengin Daiosho … Butsumon Sogaku Daiosho [SFZC/Suzuki Roshi lineage ancestor list confirming this sequence]
 reducer_notes: |
-  Wave-3 self-writing agent. Sources independently researched. The Treeleaf lineage chart (Shunryu Suzuki Soto line) places Daishun Kan'yu at position 79 followed immediately by Tenrin Kanshu at 80, confirming teacher→student sequence.
+  Sources independently researched. The Treeleaf lineage chart (Shunryu Suzuki Soto line) places Daishun Kan'yu at position 79 followed immediately by Tenrin Kanshu at 80, confirming teacher→student sequence.
 human_review_needed: false
 ---

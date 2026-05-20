@@ -29,7 +29,7 @@ sources:
       Xuefeng; Jiufeng Daoqian was the dharma successor who preserved
       Shishuang's unique "dead tree" community tradition.
 reducer_notes: |
-  Wave-3 self-writing agent. B-tier: two community sources and one sangha source,
+  B-tier: two community sources and one sangha source,
   all independent. The teacher-student and eventual transmission relationship
   between Shishuang Qingzhu and Jiufeng Daoqian is documented in the koan
   literature (Book of Serenity case 66, Wild Fox Zen commentary). Jiufeng

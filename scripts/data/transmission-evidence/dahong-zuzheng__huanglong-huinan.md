@@ -29,7 +29,7 @@ sources:
     quote: |
       Dahong Zuzheng appears in lineage genealogies in the twenty-third generation of Chan transmission, placed within the Huanglong succession descending through Huitang Zuxin's line, not as a direct heir of Huanglong Huinan (d. 1069) himself.
 reducer_notes: |
-  Wave-5 final tier-upgrade pass. Added Academia.edu academic source (Dahui Zonggao
+  Added Academia.edu academic source (Dahui Zonggao
   and Zhang Shangying) which explicitly states Dahong Zuzheng "broadened his education
   with the Dharma-heirs of Huanglong Huinan" — confirming the Huanglong affiliation
   but not direct one-step transmission. No source found explicitly naming Dahong Zuzheng

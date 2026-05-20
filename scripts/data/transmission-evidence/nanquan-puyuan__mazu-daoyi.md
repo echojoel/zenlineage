@@ -29,7 +29,7 @@ sources:
       from the Tang period. Nanquan Puyuan and Baizhang Huaihai [were among]
       Mazu's disciples."
 reducer_notes: |
-  Wave-3 self-writing agent. Nanquan Puyuan (748–835) is one of the most
+  Nanquan Puyuan (748–835) is one of the most
   documented of Mazu's dharma heirs across multiple independent Wikipedia
   articles.
 human_review_needed: false

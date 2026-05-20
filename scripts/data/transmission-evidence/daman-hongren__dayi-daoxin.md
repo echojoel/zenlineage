@@ -23,6 +23,5 @@ sources:
     quote: |
       Hongren stayed with Daoxin until the latter's death in 651. The legendary account describes their meeting: 'Daoxin met Hongren on a road in Huangmei. Daoxin asked his name.'
 reducer_notes: |
-  R1: confidence=high
 human_review_needed: false
 ---

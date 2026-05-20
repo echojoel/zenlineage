@@ -23,7 +23,7 @@ sources:
     quote: |
       The Lidai fabao ji includes short biographies of Zizhou Zhishen (609-702) and his successor Zizhou Chuji (Tang Chuji) (669-736). Although Zhishen is actually a disciple of Hongren, he receives Huineng's robe and passes it on to Chuji.
 reducer_notes: |
-  Wave-4 tier-upgrade pass: upgraded C → B. Added Columbia University Press academic source
+  upgraded C → B. Added Columbia University Press academic source
   (Wendi Adamek, The Mystique of Transmission, 2007) which provides the clearest statement of
   the Zhishen → Chuji succession based on the Lidai fabao ji. Two academic sources + one
   Wikipedia reference confirm this edge. Tier B: 2 independent academic/institutional hosts

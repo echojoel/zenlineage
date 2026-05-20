@@ -21,7 +21,7 @@ sources:
       this temple's fifth generation, Taiei Zeshō, and the sixth generation,
       Nampo Gentaku Zenji.
 reducer_notes: |
-  Wave-3 self-writing agent. The SFZC PDF records both the date of
+  The SFZC PDF records both the date of
   Dharma succession (Temmon 8, 1539) and confirms Taiei Zeshō as
   fifth-generation Yōkōin abbot under Sessō Hōseki. The Yōkōin
   commemorative record (quoted in the PDF) explicitly names both

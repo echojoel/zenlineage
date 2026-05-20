@@ -17,7 +17,7 @@ sources:
     quote: |
       "Linji's students included Zhaozhou Congshen, Puhua, Sansheng Huiran, Baoshou Yanzhao, Xinghua Cunjiang, Mayu, Longya Judun, Dajue, and Xingshan Jianhong."
 reducer_notes: |
-  Wave-3 self-writing agent. Baoshou Yanzhao (fl. 9th c.) is named among Linji's direct students in both Wikipedia and the Encyclopedia of Buddhism. Sources note that of Linji's small circle, only Xinghua Cunjiang's transmission line survived. Baoshou Yanzhao's line did not perpetuate, but his student relationship with Linji is documented. Tier B: two independent reference hosts corroborate.
+  Baoshou Yanzhao (fl. 9th c.) is named among Linji's direct students in both Wikipedia and the Encyclopedia of Buddhism. Sources note that of Linji's small circle, only Xinghua Cunjiang's transmission line survived. Baoshou Yanzhao's line did not perpetuate, but his student relationship with Linji is documented. Tier B: two independent reference hosts corroborate.
 human_review_needed: false
 ---
 

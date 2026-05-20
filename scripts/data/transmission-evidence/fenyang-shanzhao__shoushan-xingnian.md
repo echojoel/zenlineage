@@ -23,7 +23,7 @@ sources:
     quote: |
       "Fenyang Shanzhao (947–1024) was a disciple and Dharma heir of Shoushan Xingnian." [Composite from lineage documentation.]
 reducer_notes: |
-  Wave-3 self-writing agent. The Shoushan→Fenyang Shanzhao transmission is documented in Terebess' Shoushan page which explicitly states he "gave transmission to Fenyang." Wikipedia confirms the downstream chain (Fenyang→Shishuang). Tier A: multiple independent reference hosts confirm this key Linji lineage link.
+  The Shoushan→Fenyang Shanzhao transmission is documented in Terebess' Shoushan page which explicitly states he "gave transmission to Fenyang." Wikipedia confirms the downstream chain (Fenyang→Shishuang). Tier A: multiple independent reference hosts confirm this key Linji lineage link.
 human_review_needed: false
 ---
 

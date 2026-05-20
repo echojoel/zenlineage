@@ -28,7 +28,7 @@ sources:
       Yanshou received confirmation of enlightenment, thus succeeding as the Fayan
       Tradition's Third Patriarch.
 reducer_notes: |
-  Wave-3 self-writing agent. Multiple independent sources confirm Tiantai Deshao as the dharma
+  Multiple independent sources confirm Tiantai Deshao as the dharma
   teacher of Yongming Yanshou. Wikipedia states Yanshou "is regarded as Deshao's successor in
   the Fayan lineage." Terebess and Pure Land Buddhism sources corroborate. Tier A: ≥1 institutional
   (Wikipedia) + ≥2 independent hosts.

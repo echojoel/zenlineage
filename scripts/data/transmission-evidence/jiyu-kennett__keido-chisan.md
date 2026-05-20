@@ -23,6 +23,6 @@ sources:
     quote: |
       Keido Chisan was a quiet but formidable champion of women's equality within the Soto organization in Japan; no foreigner and especially no woman had ever trained at this monastery.
 reducer_notes: |
-  Wave-3 self-writing agent. Edge thoroughly confirmed. Wikipedia gives exact transmission date (28 May 1963) and names Keido Chisan explicitly. Terebess.hu provides additional biographical detail. Dharma Rain provides institutional context. Three independent hosts (reference + academic/reference + institutional) meet tier A criteria.
+  Edge thoroughly confirmed. Wikipedia gives exact transmission date (28 May 1963) and names Keido Chisan explicitly. Terebess.hu provides additional biographical detail. Dharma Rain provides institutional context. Three independent hosts (reference + academic/reference + institutional) meet tier A criteria.
 human_review_needed: false
 ---

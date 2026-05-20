@@ -19,7 +19,7 @@ sources:
       Yōkōin records place Daiki Kyōkan as eighteenth-generation abbot
       succeeding Sengan Bonryū (seventeenth generation).
 reducer_notes: |
-  Wave-3 self-writing agent. The SFZC PDF explicitly affirms the
+  The SFZC PDF explicitly affirms the
   transmission with the endorsement of Hoitsu Suzuki Roshi, who served
   as a living authority consulted during the compilation of the document.
   Sengan Bonryū is the eighty-second ancestor (seventeenth Yōkōin

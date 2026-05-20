@@ -26,7 +26,7 @@ sources:
       Maître Niwa Zenji, la plus haute autorité du zen Soto au Japon,
       lui remet le shiho (transmission du Dharma) en 1984.
 reducer_notes: |
-  Wave-3 self-writing agent. Tier A: one reference source (Terebess,
+  Tier A: one reference source (Terebess,
   widely cited in Zen scholarship) plus two independent hosts (Zen Dojo
   Amsterdam sangha site and Zen-Deshimaru.com community site). All three
   sources consistently place the transmission in 1984 from Niwa Rempō

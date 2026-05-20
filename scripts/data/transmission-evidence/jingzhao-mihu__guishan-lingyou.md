@@ -17,6 +17,5 @@ sources:
     quote: |
       Mihu was an elder disciple of Guishan's named Mihu who was teaching in the capital.
 reducer_notes: |
-  R1: confidence=high
 human_review_needed: false
 ---

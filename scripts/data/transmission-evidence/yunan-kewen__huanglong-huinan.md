@@ -31,7 +31,7 @@ sources:
       dharma heirs. [Note: Baofeng Kewen = Zhenjing Kewen = likely same as
       Yunan Kewen; the slug 'yunan-kewen' may be an alternate title.]
 reducer_notes: |
-  Wave-4 tier-upgrade pass. Upgraded from tier C to tier B. Zhenjing Kewen
+  Upgraded from tier C to tier B. Zhenjing Kewen
   (真淨克文, 1025–1102), also known as Baofeng Kewen, is consistently named
   as a direct dharma heir of Huanglong Huinan across multiple independent
   sources. The slug 'yunan-kewen' likely refers to this same master under

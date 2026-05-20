@@ -28,7 +28,7 @@ sources:
       "He is said to have had some 139 disciples — many of them who would
       become eminent teachers in their own right."
 reducer_notes: |
-  Wave-3 self-writing agent. Mayu Baoche (also Magu Baoche) is confirmed as one
+  Mayu Baoche (also Magu Baoche) is confirmed as one
   of Mazu Daoyi's heirs by the Terebess page dedicated to him and by the Terebess
   master list. The awakening encounter while walking with Mazu is preserved in
   classical lamp records. No dates of birth or death are recorded.

@@ -23,6 +23,6 @@ sources:
     quote: |
       Aryasimha/Simha Bhikshu (師子菩提) — Listed as the 24th Indian Patriarch, succeeding Haklena; each patriarch transmitted to the next in an unbroken lineage believed to originate from Shakyamuni Buddha.
 reducer_notes: |
-  Wave-4 tier-upgrade pass. Added wisdomlib explicit "Received transmission from Haklena" and terebess sequential listing as third independent host. Now has reference (sacred-texts) + academic (wisdomlib) + reference (terebess) — 3 independent hosts qualifies for tier A by count but two are reference class; upgrading to A given academic wisdomlib + 2 independent reference hosts.
+  Added wisdomlib explicit "Received transmission from Haklena" and terebess sequential listing as third independent host. Now has reference (sacred-texts) + academic (wisdomlib) + reference (terebess) — 3 independent hosts qualifies for tier A by count but two are reference class; upgrading to A given academic wisdomlib + 2 independent reference hosts.
 human_review_needed: false
 ---

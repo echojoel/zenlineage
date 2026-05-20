@@ -17,6 +17,5 @@ sources:
     quote: |
       Miccaka transmitted his lineage to Vasumitra; the gatha records the teaching from the sixth patriarch to the seventh.
 reducer_notes: |
-  R1: confidence=high
 human_review_needed: false
 ---

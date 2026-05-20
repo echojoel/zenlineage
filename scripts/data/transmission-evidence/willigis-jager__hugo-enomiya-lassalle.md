@@ -17,7 +17,7 @@ sources:
     quote: |
       Willigis Jäger met the Jesuit priest and Zen teacher Hugo Enomiya-Lassalle and first began a deep investigation of Zen and the koan way with Father Lassalle, and then continued with Yamada Ko-Un Roshi.
 reducer_notes: |
-  Wave-3 self-writing agent. Enomiya-Lassalle introduced Jäger to Zen and the koan system, serving as
+  Enomiya-Lassalle introduced Jäger to Zen and the koan system, serving as
   his initial teacher from 1972. This is a teaching relationship rather than a full dharma transmission:
   Jäger's formal authorization came from Yamada Koun (1980) and his inka shomei from Kubota Jiun (1996).
   Enomiya-Lassalle's role here is as the entry point / early teacher. Tier B: Wikipedia (reference) +

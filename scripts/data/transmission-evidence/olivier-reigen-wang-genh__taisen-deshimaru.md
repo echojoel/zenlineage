@@ -23,7 +23,7 @@ sources:
     quote: |
       Olivier Wang-Genh — Ordained into Deshimaru's Soto-lineage in 1977; later became President of the Buddhist Union of France in 2016.
 reducer_notes: |
-  Wave-3 self-writing agent. Olivier Reigen Wang-Genh was ordained as a monk by Taisen
+  Olivier Reigen Wang-Genh was ordained as a monk by Taisen
   Deshimaru in 1977 and was one of his close disciples. After Deshimaru's death, he
   received formal dharma transmission (shiho) in 2001 from Dôshô Saikawa. The
   teacher-student and ordination edge is well attested by two institutional sources (AZI

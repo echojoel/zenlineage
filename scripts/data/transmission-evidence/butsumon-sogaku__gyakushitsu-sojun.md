@@ -29,7 +29,7 @@ sources:
     quote: |
       Butsumon Sogaku … 86th ancestor: Gyakushitsu Sojun … 87th ancestor: Butsumon Sogaku … showing the direct succession through this important line of teachers
 reducer_notes: |
-  Wave-4 tier-upgrade pass. Now tier A: three independent institutional/sangha hosts
+  Now tier A: three independent institutional/sangha hosts
   (Treeleaf, Milwaukee Zen Center, rebanderson.org/SFZC PDF) plus cuke.com reference.
   All four sources independently list Gyakushitsu Sojun immediately before Butsumon Sogaku
   in the Shunryu Suzuki Soto lineage. Milwaukee Zen Center is an institutional Soto Zen

@@ -36,7 +36,7 @@ sources:
       who then transmitted to Shido Bunan Zenji (1603~1676), the teacher of
       Shoju Rojin, who was the principal teacher of Hakuin Ekaku.
 reducer_notes: |
-  Wave-3 self-writing agent. The Yozan Keiyo → Gudo Toshoku transmission is
+  The Yozan Keiyo → Gudo Toshoku transmission is
   confirmed by two Wikipedia sources, the JapaneseWiki biographical article
   (which explicitly names the teacher and mentions inka at Shotaku-in, Myoshinji),
   and the Daiyuzenji institutional lineage. Gudo Toshoku's dates vary slightly

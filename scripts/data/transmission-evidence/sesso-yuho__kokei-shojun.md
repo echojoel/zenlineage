@@ -23,6 +23,6 @@ sources:
     quote: |
       Kokei Shojun Daiosho and Sesso Yuho Daiosho are listed sequentially as part of the dharma transmission chain in the Soto Zen ancestral lineage, with Kokei Shojun as the 71st generation teacher and Sesso Yuho as the 72nd.
 reducer_notes: |
-  Wave-3 self-writing agent. Edge confirmed in ZENKAN (positions 14 and 15), Dharma Rain institutional chant, and Treeleaf community lineage chart (positions 71 and 72 in the overall count). Kokei Shojun and Sesso Yuho appear consecutively in the Meiho Sotetsu branch of Soto Zen.
+  Edge confirmed in ZENKAN (positions 14 and 15), Dharma Rain institutional chant, and Treeleaf community lineage chart (positions 71 and 72 in the overall count). Kokei Shojun and Sesso Yuho appear consecutively in the Meiho Sotetsu branch of Soto Zen.
 human_review_needed: false
 ---

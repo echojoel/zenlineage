@@ -30,7 +30,7 @@ sources:
       Dongshan Liangjie, the last teacher he visited was Master Changqing
       Da'an who, at that time, was the abbot of Mt. Gui."
 reducer_notes: |
-  Wave-3 self-writing agent. Guishan Da'an and Changqing Da'an are the same
+  Guishan Da'an and Changqing Da'an are the same
   person. The Terebess master list entry for Dasui Fazhen explicitly names him
   "A Dharma-heir of Changqing Daan, grandchild in Dharma to Baizhang." The
   Dasui page preserves the transmission encounter. Note: some sources (Book of

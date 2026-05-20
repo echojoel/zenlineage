@@ -28,7 +28,7 @@ sources:
       Xiangyan heard the sound of a tile striking the ground and attained enlightenment. He was
       confirmed as a dharma heir of Guishan Lingyou.
 reducer_notes: |
-  Wave-3 self-writing agent. Multiple independent sources confirm Xiangyan Zhixian as a dharma heir
+  Multiple independent sources confirm Xiangyan Zhixian as a dharma heir
   of Guishan Lingyou. Wikipedia, Encyclopedia of Buddhism, and community sources all attest this
   transmission. Tier A: ≥1 institutional + ≥2 independent hosts.
 human_review_needed: false

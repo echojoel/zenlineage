@@ -17,7 +17,7 @@ sources:
     quote: |
       Jäger spent six years in Japan studying with Yamada Roshi; in 1996 received Inka Shomei from Kubota Roshi, confirming him as Zen master.
 reducer_notes: |
-  Wave-3 self-writing agent. Jäger received inka shomei (full dharma transmission confirmation) from
+  Jäger received inka shomei (full dharma transmission confirmation) from
   Kubota Jiun in 1996. This is distinct from his earlier teaching authorization from Yamada Koun in 1980.
   The inka from Kubota is the canonical "full" transmission within Sanbo Zen's hierarchy. Two independent
   community/blog sources corroborate; no institutional source found. Tier B: two independent hosts both

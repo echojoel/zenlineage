@@ -23,7 +23,6 @@ sources:
     quote: |
       In 1994, he received Dharma transmission (authorization to teach) in the White Plum lineage from Taizan Maezumi Rōshi.
 reducer_notes: |
-  R1: confidence=high
   R2: confidence=high
   R3: confidence=high
 human_review_needed: false

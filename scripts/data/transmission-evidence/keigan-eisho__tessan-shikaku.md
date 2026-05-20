@@ -23,7 +23,7 @@ sources:
     quote: |
       In the Meihō Line of Soto Zen, Tetsuzan Shikaku (d. 1376) is listed as predecessor to Keigan Eishō (d. 1412), who then transmitted to Chuzan Ryōun (1350–1432).
 reducer_notes: |
-  Wave-3 self-writing agent. Tessan Shikaku (d. 1376) and Keigan Eisho (1321–1412) are
+  Tessan Shikaku (d. 1376) and Keigan Eisho (1321–1412) are
   documented as consecutive dharma-transmission holders in the Meihō Sotetsu branch of
   Japanese Soto Zen. They appear at positions 7–8 in the ZENKAN lineage chart and are
   confirmed by Zen Center Athens and Wikipedia. The unusual date overlap (student born

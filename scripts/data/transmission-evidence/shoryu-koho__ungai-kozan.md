@@ -23,7 +23,7 @@ sources:
     quote: |
       Ungai Kozan / Seggai Kozan and Shoryu Koho documented as successive dharma holders in the Soto Zen lineage between Rosetsu Ryuko and Shokoku Zenko.
 reducer_notes: |
-  Wave-3 self-writing agent. Ungai Kozan (also rendered Seggai Kozan) and Shoryu Koho
+  Ungai Kozan (also rendered Seggai Kozan) and Shoryu Koho
   appear consecutively at positions 28–29 in the ZENKAN lineage chart. Multiple sources
   confirm Shoryu Koho received transmission from Ungai/Seggai Kozan. Note: the teacher
   slug "ungai-kozan" may be an alternate romanization of the same individual listed in

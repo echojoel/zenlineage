@@ -17,6 +17,6 @@ sources:
     quote: |
       66. Chuzan Ryoun … 67. Gizan Tonin … 68. Jogaku Kenryu [Dainin Katagiri SOTO lineage]
 reducer_notes: |
-  Wave-3 self-writing agent. Sources independently researched. Both the Zen Center Athens Hosshin-ji list and the Treeleaf Katagiri Soto lineage chart place Chuzan Ryoun immediately before Gisan Tonin, confirming teacher→student sequence. Dates: Chuzan Ryoun 1350-1432, Gisan Tonin 1386-1462.
+  Sources independently researched. Both the Zen Center Athens Hosshin-ji list and the Treeleaf Katagiri Soto lineage chart place Chuzan Ryoun immediately before Gisan Tonin, confirming teacher→student sequence. Dates: Chuzan Ryoun 1350-1432, Gisan Tonin 1386-1462.
 human_review_needed: false
 ---

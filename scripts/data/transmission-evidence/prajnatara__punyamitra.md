@@ -23,6 +23,5 @@ sources:
     quote: |
       she had a karmic connection with Punyamitra going back into past lives; he recognized her as a dharma vessel, and she eventually became his dharma heir.
 reducer_notes: |
-  R1: confidence=high, dissent="Prajnatara's gender is contested across sources."
 human_review_needed: false
 ---

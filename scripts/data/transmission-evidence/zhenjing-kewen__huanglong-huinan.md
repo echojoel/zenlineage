@@ -29,6 +29,6 @@ sources:
     quote: |
       Zhenjing Kewen (1025–1102) was a dharma heir of Huanglong Huinan and one of the most significant masters in the Huanglong branch of the Linji school during the Northern Song dynasty.
 reducer_notes: |
-  Wave-3 self-writing agent. The Huanglong Huinan→Zhenjing Kewen transmission is explicitly named in multiple sources: wisdomlib (with Chinese characters), the Chibs.edu.tw academic article, Wikipedia, and a HAL-SHS academic paper. Meets Tier A (≥1 institutional/academic + ≥2 independent hosts).
+  The Huanglong Huinan→Zhenjing Kewen transmission is explicitly named in multiple sources: wisdomlib (with Chinese characters), the Chibs.edu.tw academic article, Wikipedia, and a HAL-SHS academic paper. Meets Tier A (≥1 institutional/academic + ≥2 independent hosts).
 human_review_needed: false
 ---

@@ -17,6 +17,5 @@ sources:
     quote: |
       Successor: Tiantong Zongjue. Zichun had already given him dharma transmission.
 reducer_notes: |
-  R1: confidence=high
 human_review_needed: false
 ---

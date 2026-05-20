@@ -33,7 +33,7 @@ sources:
       He received certification as a Zen teacher, the first given to a
       Japanese monk in China.
 reducer_notes: |
-  Wave-4 tier-upgrade pass. Added Encyclopedia of Buddhism source confirming
+  Added Encyclopedia of Buddhism source confirming
   Xu'an Huaichang as Eisai's direct teacher. Three independent sources now
   confirm: Eisai received transmission from Xu'an Huaichang, who was the
   8th-generation Huanglong teacher descending from Huanglong Huinan. The

@@ -17,6 +17,5 @@ sources:
     quote: |
       When Zongjue was abbot of Tiantong Monastery, one day in the Dharma hall he raised up 'the World-Honored One had an intimate saying; Kashyapa did not conceal it.' Hearing this, Zhijian suddenly awakened to its profound meaning.
 reducer_notes: |
-  R1: confidence=high
 human_review_needed: false
 ---

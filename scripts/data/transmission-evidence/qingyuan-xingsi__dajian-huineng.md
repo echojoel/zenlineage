@@ -23,6 +23,5 @@ sources:
     quote: |
       it was Nanyue (Huairang) and Qingyuan (Xingsi) who attended upon Huineng the longest, completely attaining a state of unconditionality.
 reducer_notes: |
-  R1: confidence=medium
 human_review_needed: false
 ---

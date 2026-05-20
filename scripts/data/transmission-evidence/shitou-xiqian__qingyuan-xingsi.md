@@ -23,7 +23,7 @@ sources:
     quote: |
       He was accepted as a student by Huineng in 713. After Huineng died...he went to study with Qingyuan in Zhihzhou. He studied with Qingyuan for twelve years.
 reducer_notes: |
-  Wave-5 final tier-upgrade pass. Three independent sources confirm Qingyuan
+  Three independent sources confirm Qingyuan
   Xingsi as Shitou Xiqian's dharma teacher: Wikipedia explaining the historical
   necessity of Qingyuan as teacher after Huineng's early death, Encyclopedia of
   Buddhism stating Qingyuan "made Xiqian his principal dharma heir," and WWZC

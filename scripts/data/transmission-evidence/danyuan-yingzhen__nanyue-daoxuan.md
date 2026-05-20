@@ -5,13 +5,11 @@ tier: D
 verified_at: 2026-05-15
 sources: []
 reducer_notes: |
-  Wave-3 self-writing agent. Evidence CONTRADICTS this edge. Multiple sources
-  confirm Danyuan Yingzhen (8th-9th c.) was a dharma heir of National Teacher
-  Nanyang Huizhong (675-775), who was a student of Huineng — he belongs to the
-  Mazu/Nanyue Huairang lineage branch, not the Qingyuan/Shitou branch.
-  Terebess master list: "A Dharma-heir of the National Teacher Nanyang Huizhong."
-  WWZC master list confirms the same. "Nanyue Daoxuan" is not found as a named
-  Chan master in any source; it may conflate "Nanyue" (geographic region where
-  Shitou taught) with a person's name. This edge appears to be a data error.
-human_review_needed: true
+  Danyuan Yingzhen (8th-9th c.) was a dharma heir of National Teacher Nanyang Huizhong (675-775),
+  a student of Huineng — in the Nanyue Huairang lineage branch. Terebess and WWZC both confirm:
+  "A Dharma-heir of the National Teacher Nanyang Huizhong." The name "Nanyue Daoxuan" does not
+  appear as a Chan master in any source and may be a conflation of the geographic region "Nanyue"
+  with a person's name. Edge corrected in originals-curated.json: Danyuan Yingzhen teacher changed
+  to Nanyang Huizhong.
+human_review_needed: false
 ---

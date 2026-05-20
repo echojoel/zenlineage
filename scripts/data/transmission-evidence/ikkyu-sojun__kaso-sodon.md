@@ -29,7 +29,7 @@ sources:
     quote: |
       Kasō Sōdon, a master at Zenko-an, a branch temple of Daitoku-ji, gave him the name Ikkyū and confirmed his enlightenment, granting inka transmission.
 reducer_notes: |
-  Wave-3 self-writing agent. Kaso Sodon → Ikkyu Sojun (1394–1481) is one of the most famous
+  Kaso Sodon → Ikkyu Sojun (1394–1481) is one of the most famous
   transmissions in Rinzai history, documented in multiple independent sources. Ikkyu famously
   refused and burned the formal inka certificate, but inka was confirmed; the spiritual succession
   is universally attested. Tier A: multiple independent hosts including institutional sources.

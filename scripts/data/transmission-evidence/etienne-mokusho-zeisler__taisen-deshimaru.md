@@ -23,7 +23,7 @@ sources:
     quote: |
       After Master Deshimaru's death, three of his closest disciples, Etienne Zeisler, Roland Rech, and Kosen Thibaut, traveled to Japan to receive the shiho from the highest Soto authority, Master Rempo Niwa Zenji.
 reducer_notes: |
-  Wave-3 self-writing agent. Etienne Mokusho Zeisler (1946–1990) was ordained by Taisen
+  Etienne Mokusho Zeisler (1946–1990) was ordained by Taisen
   Deshimaru and was one of his two closest disciples. After Deshimaru's death, he received
   formal shiho from Niwa Rempo Zenji in 1984 together with Kosen Thibaut and Roland Rech.
   The ordination relationship with Deshimaru is confirmed by multiple sangha sources and

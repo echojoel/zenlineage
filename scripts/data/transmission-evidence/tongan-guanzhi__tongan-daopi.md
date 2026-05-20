@@ -29,7 +29,7 @@ sources:
     quote: |
       Traditionally, he is considered to be the student of Tongan Daopi; the connection is asserted in the Sengbao zhuan (1119) and the Caodong lineage consensus.
 reducer_notes: |
-  Wave-4 tier-upgrade pass: upgraded C → B. Four independent sources confirm the Tongan
+  upgraded C → B. Four independent sources confirm the Tongan
   Daopi → Tongan Guanzhi transmission as the canonical lineage position. Scholarly note:
   Morten Schlütter (How Zen Became Zen, 2010) argues the Transmission of the Lamp (c.1004)
   does NOT list Guanzhi as Daopi's student, and instead places Guanzhi under Tongan Wei

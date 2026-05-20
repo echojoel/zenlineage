@@ -29,7 +29,7 @@ sources:
     quote: |
       Deshan studied under the Zen teacher Longtan Chongxin, who is his dharma predecessor in the Shitou-Qingyuan lineage.
 reducer_notes: |
-  Wave-5 final tier-upgrade pass. Four sources confirm Longtan Chongxin as
+  Four sources confirm Longtan Chongxin as
   Deshan Xuanjian's dharma teacher: two Terebess pages narrating the famous
   lamp-blowing awakening scene, WWZC Master List, and Wikipedia. The lamp-blowing
   story is one of the most widely cited transmission events in Chan literature.

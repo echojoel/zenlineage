@@ -23,7 +23,7 @@ sources:
     quote: |
       Giten Genshō Sekkō Sōshin (1408–1486) Tōyō Eichō (1428-1504) listed as successive dharma heirs in the Otōkan lineage transmission.
 reducer_notes: |
-  Wave-3 self-writing agent. Giten Gensho (5th patriarch of Myoshinji, ~1393–1462) → Sekko Soshin
+  Giten Gensho (5th patriarch of Myoshinji, ~1393–1462) → Sekko Soshin
   (6th patriarch, 1408–1486) confirmed by Japanese Wiki Corpus and the Ciolek Hakuin lineage chart.
   Giten Gensho founded Ryoan-ji before his student Sekko Soshin became the next abbot in succession
   at Myoshinji.

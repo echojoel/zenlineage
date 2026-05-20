@@ -23,7 +23,7 @@ sources:
     quote: |
       Baiyun Shouduan was a Chan master of the Yangqi lineage of the Linji school in the Song dynasty, the Primary Dharma-heir of Yangqi Fanghui and teacher of Wuzu Fayan.
 reducer_notes: |
-  Wave-3 self-writing agent. Baiyun Shouduan (1025–1072) received dharma transmission from Yangqi Fanghui (992–1049). Widely confirmed across multiple independent sources including Terebess, Wikipedia, and institutional lineage charts. Tier A.
+  Baiyun Shouduan (1025–1072) received dharma transmission from Yangqi Fanghui (992–1049). Widely confirmed across multiple independent sources including Terebess, Wikipedia, and institutional lineage charts. Tier A.
 human_review_needed: false
 ---
 

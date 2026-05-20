@@ -26,7 +26,7 @@ sources:
       Étienne Zeisler a reçu le shiho de Niwa Rempō Zenji, abbé
       d'Eiheiji, en 1984 — reconnu comme maître Zen Sōtō.
 reducer_notes: |
-  Wave-3 self-writing agent. Tier A: one reference source (Terebess)
+  Tier A: one reference source (Terebess)
   plus two independent hosts (Dojo Zen Strasbourg sangha site and
   Méditation Zen Narbonne community site). All three sources agree on
   the 1984 date and identify the transmission as occurring at or from

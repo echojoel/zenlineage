@@ -23,6 +23,6 @@ sources:
     quote: |
       The Rinzai transmission line traces through Mukai Koryō (1864-1935) as a link in the Hakuin-descended lineage at Nanzenji.
 reducer_notes: |
-  Wave-3 self-writing agent. Shibayama Zenkei (1894–1974) trained under Kono Bukai at Nanzenji for over ten years and received dharma transmission from him. Terebess (reference database) and Wikipedia both document this as an institutional Rinzai transmission in the Takuju Kosen sub-lineage. Note: Kono Bukai is also rendered as Mukai Koryo / Nanshinken (1864–1935) in the lineage charts.
+  Shibayama Zenkei (1894–1974) trained under Kono Bukai at Nanzenji for over ten years and received dharma transmission from him. Terebess (reference database) and Wikipedia both document this as an institutional Rinzai transmission in the Takuju Kosen sub-lineage. Note: Kono Bukai is also rendered as Mukai Koryo / Nanshinken (1864–1935) in the lineage charts.
 human_review_needed: false
 ---

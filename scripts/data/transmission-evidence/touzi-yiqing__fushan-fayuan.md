@@ -36,7 +36,7 @@ sources:
       The Caodong-lineage that Dogen inherited through Rujing was passed on previously from the
       Caodong-master Dayang Jingxuan to Touzi Yiqing via the Rinzai-master Fushan Fayuan.
 reducer_notes: |
-  Wave-3 self-writing agent. Multiple independent sources confirm Fushan Fayuan as the direct
+  Multiple independent sources confirm Fushan Fayuan as the direct
   dharma teacher of Touzi Yiqing. This is a well-documented unusual transmission (Rinzai master
   carrying Caodong lineage essentials). Wikipedia and terebess both confirm with direct quotes.
   Tier A: ≥1 institutional (Wikipedia) + ≥2 independent hosts.

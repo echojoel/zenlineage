@@ -11,6 +11,5 @@ sources:
     quote: |
       DANYUAN YINGZHEN (n.d.) was an attendant and disciple of National Teacher Nanyang Huizhong.
 reducer_notes: |
-  R1: confidence=high
 human_review_needed: false
 ---

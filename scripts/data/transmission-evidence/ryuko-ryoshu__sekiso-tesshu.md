@@ -25,7 +25,7 @@ sources:
     quote: |
       Sekiso Tesshu was a Soto Zen master who received Dharma transmission from Hogan Soren and transmitted the Dharma to Ryuko Ryoshu
 reducer_notes: |
-  Wave-4 tier-upgrade pass. Now tier B: three independent sources. Nossacasa.net provides
+  Now tier B: three independent sources. Nossacasa.net provides
   an explicit statement naming both the teacher (Hōgan Sōren) and the student (Ryūkō
   Ryōshū) for Sekisō Tesshū. Athens Zen Center (Hosshin-ji institutional lineage) and
   Terebess reference both confirm the consecutive placement in the pre-Harada chain.

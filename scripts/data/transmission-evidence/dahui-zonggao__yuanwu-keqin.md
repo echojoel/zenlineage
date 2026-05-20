@@ -29,7 +29,7 @@ sources:
     quote: |
       "The two most important of his sixteen dharma heirs were Dahui Zonggao and Huqiu Shaolong."
 reducer_notes: |
-  Wave-3 self-writing agent. One of the most famous master-student pairs in Chan history. Attested across multiple Wikipedia articles (Yuanwu, Blue Cliff Record, Dahui Zonggao), Terebess, and further confirmed in the Elijah Interfaith resource. Tier A: institutional + multiple independent reference hosts.
+  One of the most famous master-student pairs in Chan history. Attested across multiple Wikipedia articles (Yuanwu, Blue Cliff Record, Dahui Zonggao), Terebess, and further confirmed in the Elijah Interfaith resource. Tier A: institutional + multiple independent reference hosts.
 human_review_needed: false
 ---
 

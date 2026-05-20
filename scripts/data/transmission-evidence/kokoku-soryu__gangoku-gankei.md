@@ -17,6 +17,6 @@ sources:
     quote: |
       Hōgen Soren … Sekisō Tesshū … Ryūkō Ryōshū … Renzan Sohō … Motsugai Shidō … Gukei Yōun … Kakushō Sodō (1844-1931) [Harada] [Hosshin-ji lineage sequence]
 reducer_notes: |
-  Wave-3 self-writing agent. Sources independently researched. The Treeleaf lineage chart (Dainin Katagiri Soto line) lists Gangoku Kankei at position 81 followed by Gento Sokuchu at 82. Note: the slug "kokoku-soryu" may correspond to Gento Sokuchu or a different romanization of the same master (Kōkoku Sōryū); both lineage charts place this master immediately after Gangoku in the Soto transmission sequence. Human review recommended to confirm romanization alignment.
+  Sources independently researched. The Treeleaf lineage chart (Dainin Katagiri Soto line) lists Gangoku Kankei at position 81 followed by Gento Sokuchu at 82. Note: the slug "kokoku-soryu" may correspond to Gento Sokuchu or a different romanization of the same master (Kōkoku Sōryū); both lineage charts place this master immediately after Gangoku in the Soto transmission sequence. Human review recommended to confirm romanization alignment.
 human_review_needed: true
 ---

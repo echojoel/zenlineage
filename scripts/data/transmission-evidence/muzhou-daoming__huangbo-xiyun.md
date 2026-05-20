@@ -23,6 +23,6 @@ sources:
     quote: |
       Linji Yixuan was directed by the head monk, Muzhou Daoming, to question Huangbo on the meaning of Buddhism. Before Huangbo died, he named thirteen successors.
 reducer_notes: |
-  Wave-3 self-writing agent. Muzhou Daoming's status as Huangbo's dharma heir is attested by Terebess ("became the disciple, and eventually the heir, of Huangbo") and corroborated by multiple encyclopaedic sources confirming his role as head monk at Huangbo's monastery. Wikipedia notes Huangbo named thirteen successors without listing all of them; Muzhou is consistently identified as among those heirs. Two independent reference hosts (Terebess + EncBuddhism) with substantive quotes meets Tier B. No institutional source found; capped at B.
+  Muzhou Daoming's status as Huangbo's dharma heir is attested by Terebess ("became the disciple, and eventually the heir, of Huangbo") and corroborated by multiple encyclopaedic sources confirming his role as head monk at Huangbo's monastery. Wikipedia notes Huangbo named thirteen successors without listing all of them; Muzhou is consistently identified as among those heirs. Two independent reference hosts (Terebess + EncBuddhism) with substantive quotes meets Tier B. No institutional source found; capped at B.
 human_review_needed: false
 ---

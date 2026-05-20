@@ -23,7 +23,7 @@ sources:
     quote: |
       Rosetsu Ryuko (27th generation) followed by Seggai Kozan (28th generation) in the documented Soto Zen lineage succession
 reducer_notes: |
-  Wave-4 tier-upgrade pass. Now tier B: three independent sources (ZENKAN, Athens Zen Center
+  Now tier B: three independent sources (ZENKAN, Athens Zen Center
   as Hosshin-ji institutional lineage, and sotozen.es) all place Rosetsu Ryuko immediately
   before Seggai Kozan in the Japan Sōtō lineage sequence. Romanization note: "Seggai Kozan"
   (ZENKAN) = "Ungai Kozan" — these are variant romanizations of the same master (the

@@ -23,7 +23,7 @@ sources:
     quote: |
       孤峰白岩 Kohō Hakugan directly preceding 莹堂智璨 Keidō Chisan (1879-1967) [孤峰禅師 Kohō zenji]; ancestry extending back through 卍山道白 Manzan Dōhaku (1635-1715) and 瑩山紹瑾 Keizan Jōkin (1268-1325) near the beginning of the recorded Soto Zen transmission chain
 reducer_notes: |
-  Wave-4 tier-upgrade pass. IMPORTANT FLAG: This edge represents a LINEAGE ANCESTRY
+  IMPORTANT FLAG: This edge represents a LINEAGE ANCESTRY
   connection, not a direct teacher-student transmission. Keizan Jokin (1268–1325) and
   Keido Chisan (1879–1967) are separated by approximately 15 generations and roughly
   600 years. The terebess.hu Jiyu-Kennett lineage chart explicitly shows the full chain:

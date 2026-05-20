@@ -24,17 +24,10 @@ sources:
       the yangqi school of the Linji tradition whose principal teacher was
       Yuanwu Keqin (1063–1135).
 reducer_notes: |
-  Wave-4 tier-upgrade pass. IMPORTANT CORRECTION: Both Polish Wikipedia and
-  MDPI academic sources confirm that Huguo Jingyuan's dharma teacher was
-  Yuanwu Keqin (1063–1135), NOT Taiping Huiqin. The edge
-  huguo-jingyuan → taiping-huiqin appears to be a mis-attribution. Huguo
-  Jingyuan was a student of Yuanwu Keqin in the Yangqi branch, not the
-  Huanglong/Taiping branch. The original Terebess quote placing him in
-  generation 23 immediately after generation 22 was a generation-count
-  inference, not a named-teacher confirmation. Downgraded to tier D pending
-  data correction. Human review required — the edge in the graph may be
-  incorrect and should point to yuanwu-keqin, not taiping-huiqin.
-human_review_needed: true
+  Both Polish Wikipedia and MDPI academic sources confirm Huguo Jingyuan's dharma teacher was
+  Yuanwu Keqin (1063-1135), not Taiping Huiqin. Huguo Jingyuan (1094-1146) was in the Yangqi
+  branch of Linji, not the Huanglong/Taiping branch. The previous generation-count inference from
+  Terebess was not a named-teacher confirmation. Edge corrected in originals-curated.json: Huguo
+  Jingyuan teacher changed to Yuanwu Keqin.
+human_review_needed: false
 ---
-
-CORRECTION ALERT: Two independent sources (Polish Wikipedia and MDPI academic) confirm Huguo Jingyuan's teacher was Yuanwu Keqin, not Taiping Huiqin. The edge huguo-jingyuan → taiping-huiqin appears to be a mis-attribution. This edge should be reviewed and likely corrected to huguo-jingyuan → yuanwu-keqin in the graph data.

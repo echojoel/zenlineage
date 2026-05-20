@@ -25,7 +25,7 @@ sources:
     quote: |
       Ryuko Ryoshu was a Soto Zen master who was the Dharma Heir of Sekiso Tesshu and transmitted the Dharma to Renzan Soho. Ryuko Ryoshu is of the 76th generation from Buddha, the 25th generation from Dogen, the 22nd generation of the Meiho Sotetsu lineage, and the 4th generation of the Three Treasures Lineage initiated by Tokuo Ryoko.
 reducer_notes: |
-  Wave-4 tier-upgrade pass. Now tier B: three independent sources. Nossacasa.net provides
+  Now tier B: three independent sources. Nossacasa.net provides
   an explicit statement that Ryūkō Ryōshū transmitted the Dharma to Renzan Sohō and
   also gives precise generational numbering. Athens Zen Center (Hosshin-ji institutional
   lineage) and Terebess reference both confirm the sequential placement. For tier A we

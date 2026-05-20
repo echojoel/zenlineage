@@ -29,7 +29,6 @@ sources:
     quote: |
       At age 32 he received Dharma transmission from Tettsū Gikai 徹通義介 (1219–1309), an heir to Dōgenʼs lineage who had converted Daijō Monastery 大乘寺 in Kaga into a Chinese style Zen monastery.
 reducer_notes: |
-  R1: confidence=high
   R2: confidence=high
   R3: confidence=high
 human_review_needed: false

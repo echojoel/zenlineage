@@ -17,7 +17,7 @@ sources:
     quote: |
       Ian Chisatsu (1514–1587) and Tōzen Sōshin (1532–1602) appear as successive masters in the Rinzai lineage chart, with the dharma descending from Ian Chisatsu to Tozen Soshin.
 reducer_notes: |
-  Wave-3 self-writing agent. Ian Chisatsu (1514–1587) → Tozen Soshin (1532–1602) confirmed by
+  Ian Chisatsu (1514–1587) → Tozen Soshin (1532–1602) confirmed by
   Daiyuzenji institutional lineage chart and Shining Bright Lotus sangha lineage. Both masters
   are in the Myoshinji Otōkan line. The transmission is documented in the Tenryuji/Myoshinji
   lineage descent eventually leading to Bokuo Soun and Omori Sogen.

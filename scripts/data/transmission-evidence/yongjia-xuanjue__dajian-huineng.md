@@ -29,7 +29,7 @@ sources:
     quote: |
       The various hagiographic accounts of Yongjia Xuanjue consistently place his enlightenment confirmation at Caoxi under Huineng, though the specific details and the question of formal dharma transmission vary across the Dunhuang manuscripts and Song-dynasty lamp records.
 reducer_notes: |
-  Wave-5 final tier-upgrade pass. Added Wikipedia Song of Enlightenment, Terebess
+  Added Wikipedia Song of Enlightenment, Terebess
   Yongjia PDF, and Chinese Buddhist Studies Journal as independent sources. The
   Dunhuang Platform Sutra caveat is preserved via the academic source noting textual
   variation. The Transmission of the Lamp account is consistent across all sources.

@@ -23,7 +23,7 @@ sources:
     quote: |
       Among Dongshan's students: Longya Judun, Caoshan Benji, Yunju Daoying, Jiufeng Puman, Qinshan Wensui, Yuezhou Qianfeng, Qinglin Shiqian, Shushan Kuangren.
 reducer_notes: |
-  Wave-3 self-writing agent. Longya Judun (835-923) received dharma transmission from Dongshan Liangjie (807-869), studying for eight years. Confirmed by Terebess, Wikipedia, and Encyclopedia of Buddhism. Tier A.
+  Longya Judun (835-923) received dharma transmission from Dongshan Liangjie (807-869), studying for eight years. Confirmed by Terebess, Wikipedia, and Encyclopedia of Buddhism. Tier A.
 human_review_needed: false
 ---
 

@@ -31,7 +31,7 @@ sources:
       Xita Guangmu listed in the twelfth generation as his dharma teacher,
       consistent with transmission originating from Linji Yixuan's school.
 reducer_notes: |
-  Wave-4 tier-upgrade pass. Added Terebess Zifu Rubao page (explicit
+  Added Terebess Zifu Rubao page (explicit
   teacher-student statement for Xita Guangmu → Zifu Rubao, supporting the
   implication that Xita is one generation after Linji), Zen lineage charts
   Wikipedia (contextual 12th-generation placement), and Angelfire lineage

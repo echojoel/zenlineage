@@ -23,6 +23,6 @@ sources:
     quote: |
       Kaiten Genju → Shūzan Shunshō — confirmed as consecutive transmission pair in the Hosshin-ji lineage chart (Harada Sogaku branch).
 reducer_notes: |
-  Wave-3 self-writing agent. Edge confirmed in three independent lineage documents: ZENKAN (positions 16 and 17 in Japan), Dharma Rain's institutional ancestral chant, and Zen Center Athens's Hosshin-ji lineage. Both Kaiten Genju (d. 1632) and Shuzan Shunsho (1590–1647) are placed consecutively in the Meiho Sotetsu branch of Soto Zen.
+  Edge confirmed in three independent lineage documents: ZENKAN (positions 16 and 17 in Japan), Dharma Rain's institutional ancestral chant, and Zen Center Athens's Hosshin-ji lineage. Both Kaiten Genju (d. 1632) and Shuzan Shunsho (1590–1647) are placed consecutively in the Meiho Sotetsu branch of Soto Zen.
 human_review_needed: false
 ---

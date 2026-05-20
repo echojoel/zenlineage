@@ -23,6 +23,5 @@ sources:
     quote: |
       Puji (651–739), a notable disciple of Shenxiu, traveled to Shaolin Monastery and established a 'Hall of the Seven Ancestors' to honor the six patriarchs of the Faru lineage plus his own teacher, Shenxiu.
 reducer_notes: |
-  R1: confidence=high
 human_review_needed: false
 ---

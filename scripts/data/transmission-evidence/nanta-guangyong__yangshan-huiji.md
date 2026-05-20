@@ -17,6 +17,5 @@ sources:
     quote: |
       The Guiyang lineage runs Guishan Lingyou → Yangshan Huiji → Nanta Guangyong → Bajiao Huiqing → Xingyang Qingrang.
 reducer_notes: |
-  R1: confidence=high
 human_review_needed: false
 ---

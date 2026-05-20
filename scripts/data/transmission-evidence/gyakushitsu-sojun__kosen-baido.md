@@ -23,6 +23,6 @@ sources:
     quote: |
       Kosen Baido and Gyakushitsu Sojun appear consecutively in the Soto Zen lineage chart, with Gyakushitsu Sojun as Kosen Baido's dharma heir in the Shunryu Suzuki transmission line.
 reducer_notes: |
-  Wave-3 self-writing agent. Edge confirmed in both the SFZC ancestral chant (Milwaukee Zen Center, positions 32 and 33) and the SFZC historical document noting Gyakushitsu Sojun's dates (187?–1891). The line continues through Butsumon Sogaku → Gyokujun So-on → Shunryu Suzuki.
+  Edge confirmed in both the SFZC ancestral chant (Milwaukee Zen Center, positions 32 and 33) and the SFZC historical document noting Gyakushitsu Sojun's dates (187?–1891). The line continues through Butsumon Sogaku → Gyokujun So-on → Shunryu Suzuki.
 human_review_needed: false
 ---

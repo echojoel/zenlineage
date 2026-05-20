@@ -33,7 +33,7 @@ sources:
       lack of pedigree made Senzaki and Suzuki perfect first emissaries to
       the United States.
 reducer_notes: |
-  Wave-4 tier-upgrade pass. Added Tricycle article and Soyen Shaku Wikipedia
+  Added Tricycle article and Soyen Shaku Wikipedia
   as additional independent sources. Three sources now confirm the
   teacher-student relationship while simultaneously affirming that no formal
   dharma transmission (inka) was given by Soyen Shaku to Nyogen Senzaki.

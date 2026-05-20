@@ -23,7 +23,7 @@ sources:
     quote: |
       Raphael Triet received the transmission of the Dharma from Master Yuko Okamoto in 1997–1998, who was a disciple of Kodo Sawaki and supporter of Deshimaru.
 reducer_notes: |
-  Wave-3 self-writing agent. Raphaël Doko Triet received dharma transmission (shiho) from
+  Raphaël Doko Triet received dharma transmission (shiho) from
   Yuko Okamoto Roshi in 1997. This is confirmed by three independent sources: the AZI
   institutional page, the Seikyuji sangha page, and the Dojo Zen de Paris sangha page.
   Tier A: institutional (AZI) + two independent sangha sources.

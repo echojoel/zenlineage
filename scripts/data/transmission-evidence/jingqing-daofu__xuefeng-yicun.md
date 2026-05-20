@@ -27,7 +27,7 @@ sources:
       of Xuefeng Yicun. Jingqing Daofu was a dharma sibling of the renowned
       Yunmen Wenyan, and with him a successor to Xuefeng Yicun."
 reducer_notes: |
-  Wave-3 self-writing agent. Jingqing Daofu (863–937) is confirmed as a
+  Jingqing Daofu (863–937) is confirmed as a
   dharma heir of Xuefeng Yicun by the Xuefeng Wikipedia lineage chart and
   independently by the WWZC master list. He is Yunmen Wenyan's dharma sibling,
   both being Xuefeng's students. He had five dharma successors. Appears in

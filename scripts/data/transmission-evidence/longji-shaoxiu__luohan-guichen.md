@@ -17,6 +17,5 @@ sources:
     quote: |
       Luohan Guichen's heirs included Fayan Wenyi and Longji Shaoxiu.
 reducer_notes: |
-  R1: confidence=medium
 human_review_needed: false
 ---

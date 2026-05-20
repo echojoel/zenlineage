@@ -11,6 +11,5 @@ sources:
     quote: |
       finally settling on Liangshan Yuanguan as his teacher
 reducer_notes: |
-  R1: confidence=high
 human_review_needed: false
 ---

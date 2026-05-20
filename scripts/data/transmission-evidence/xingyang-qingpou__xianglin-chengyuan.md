@@ -13,7 +13,7 @@ sources:
       Dongshan Shouchou. Both Xianglin Chengyuan and Xingyang Qingrang appear in lineage
       charts from the Literary Period (950-1260) of Chan Buddhism.
 reducer_notes: |
-  Wave-3 self-writing agent. The connection between Xianglin Chengyuan and Xingyang Qingpou is
+  The connection between Xianglin Chengyuan and Xingyang Qingpou is
   supported by lineage chart placement in the Yunmen school. Xianglin Chengyuan was a major heir
   of Yunmen Wenyan and had multiple dharma heirs including Zhimen Guangzuo. Xingyang Qingpou
   appears in lineage records as a successor in the Yunmen tradition. Note: the terebess master

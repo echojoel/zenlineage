@@ -19,7 +19,7 @@ sources:
       Yōkōin records list the sixth generation as Nampo Gentaku and the
       seventh generation as Zōden Yokō, confirming the abbatial succession.
 reducer_notes: |
-  Wave-3 self-writing agent. The SFZC PDF places Zōden Yokō as the
+  The SFZC PDF places Zōden Yokō as the
   seventh-generation Yōkōin abbot immediately following Nampo Gentaku
   (sixth generation). Sequential abbatial succession at a single temple
   in the Sōtō school is reliable evidence of dharma transmission; both

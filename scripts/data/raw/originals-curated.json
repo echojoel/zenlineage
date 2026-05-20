@@ -941,12 +941,11 @@
   {
     "name": "Jingzhong Wuxiang",
     "names_cjk": "",
-    "dates": "",
+    "dates": "684-762",
     "teachers": [
       {
-        "name": "Yuquan Shenxiu",
-        "edge_type": "disputed",
-        "dates": "c. 606-706"
+        "name": "Zizhou Chuji",
+        "edge_type": "primary"
       }
     ],
     "school": "",
@@ -1295,7 +1294,7 @@
     "dates": "",
     "teachers": [
       {
-        "name": "Dongshan Shouchu",
+        "name": "Yunmen Wenyan",
         "edge_type": "primary"
       }
     ],
@@ -1464,7 +1463,7 @@
     "dates": "",
     "teachers": [
       {
-        "name": "Taiping Huiqin",
+        "name": "Yuanwu Keqin",
         "edge_type": "primary"
       }
     ],
@@ -1591,13 +1590,7 @@
     "name": "Yuelin Shiguan",
     "names_cjk": "",
     "dates": "",
-    "teachers": [
-      {
-        "name": "Wuzhun Shifan",
-        "edge_type": "primary",
-        "dates": "1178-1249"
-      }
-    ],
+    "teachers": [],
     "school": "",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -1904,7 +1897,7 @@
     "teachers": [
       {
         "name": "Guishan Lingyou",
-        "edge_type": "primary"
+        "edge_type": "disputed"
       }
     ],
     "school": "",
@@ -1917,7 +1910,7 @@
     "dates": "",
     "teachers": [
       {
-        "name": "Zhaozhou Congshen",
+        "name": "Dongshan Liangjie",
         "edge_type": "primary"
       }
     ],
@@ -1959,7 +1952,7 @@
     "dates": "",
     "teachers": [
       {
-        "name": "Yunmen Wenyan",
+        "name": "Fayan Wenyi",
         "edge_type": "primary"
       }
     ],
@@ -1973,7 +1966,7 @@
     "dates": "",
     "teachers": [
       {
-        "name": "Xuefeng Yicun",
+        "name": "Yantou Quanhuo",
         "edge_type": "primary"
       }
     ],
@@ -1987,7 +1980,7 @@
     "dates": "",
     "teachers": [
       {
-        "name": "Xuefeng Yicun",
+        "name": "Luoshan Daoxian",
         "edge_type": "primary"
       }
     ],
@@ -2001,7 +1994,7 @@
     "dates": "",
     "teachers": [
       {
-        "name": "Xuefeng Yicun",
+        "name": "Luohan Guichen",
         "edge_type": "primary"
       }
     ],
@@ -2057,7 +2050,7 @@
     "dates": "",
     "teachers": [
       {
-        "name": "Shishuang Qingzhu",
+        "name": "Yangshan Huiji",
         "edge_type": "primary"
       }
     ],
@@ -2071,7 +2064,7 @@
     "dates": "",
     "teachers": [
       {
-        "name": "Yangshan Huiji",
+        "name": "Guishan Lingyou",
         "edge_type": "primary"
       }
     ],
@@ -2113,9 +2106,8 @@
     "dates": "",
     "teachers": [
       {
-        "name": "Xitang Zhizang",
-        "edge_type": "primary",
-        "dates": "735-814"
+        "name": "Baizhang Huaihai",
+        "edge_type": "primary"
       }
     ],
     "school": "",
@@ -2140,12 +2132,7 @@
     "name": "Huguo Shoucheng",
     "names_cjk": "",
     "dates": "",
-    "teachers": [
-      {
-        "name": "Xiangyan Zhixian",
-        "edge_type": "primary"
-      }
-    ],
+    "teachers": [],
     "school": "",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -2156,7 +2143,7 @@
     "dates": "",
     "teachers": [
       {
-        "name": "Xiangyan Zhixian",
+        "name": "Furong Daokai",
         "edge_type": "primary"
       }
     ],
@@ -2242,7 +2229,7 @@
     "dates": "",
     "teachers": [
       {
-        "name": "Cuiyan Kezhen",
+        "name": "Yangqi Fanghui",
         "edge_type": "primary"
       }
     ],
@@ -2312,7 +2299,7 @@
     "dates": "",
     "teachers": [
       {
-        "name": "Shushan Kuangren",
+        "name": "Xuefeng Yicun",
         "edge_type": "primary"
       }
     ],
@@ -2382,7 +2369,7 @@
     "dates": "",
     "teachers": [
       {
-        "name": "Dongshan Shouchu",
+        "name": "Yunmen Wenyan",
         "edge_type": "primary"
       }
     ],
@@ -2408,12 +2395,7 @@
     "name": "Wang Yanbin",
     "names_cjk": "",
     "dates": "",
-    "teachers": [
-      {
-        "name": "Changqing Huileng",
-        "edge_type": "primary"
-      }
-    ],
+    "teachers": [],
     "school": "",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -2480,7 +2462,7 @@
     "dates": "",
     "teachers": [
       {
-        "name": "Deshan Xuanjian",
+        "name": "Guizong Zhichang",
         "edge_type": "primary"
       }
     ],
@@ -2492,12 +2474,7 @@
     "name": "Jiufeng Qin",
     "names_cjk": "",
     "dates": "",
-    "teachers": [
-      {
-        "name": "Yunmen Wenyan",
-        "edge_type": "primary"
-      }
-    ],
+    "teachers": [],
     "school": "",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -2678,7 +2655,7 @@
     "dates": "",
     "teachers": [
       {
-        "name": "Linji Yixuan",
+        "name": "Mazu Daoyi",
         "edge_type": "primary"
       }
     ],
@@ -2743,7 +2720,7 @@
     "dates": "",
     "teachers": [
       {
-        "name": "Cuiwei Wuxue",
+        "name": "Luohan Guichen",
         "edge_type": "primary"
       }
     ],
@@ -2783,12 +2760,7 @@
     "name": "Wenshu Yingzhen",
     "names_cjk": "",
     "dates": "",
-    "teachers": [
-      {
-        "name": "Dongshan Liangjie",
-        "edge_type": "primary"
-      }
-    ],
+    "teachers": [],
     "school": "",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -2797,12 +2769,7 @@
     "name": "Changfu Zhi",
     "names_cjk": "",
     "dates": "",
-    "teachers": [
-      {
-        "name": "Xuefeng Yicun",
-        "edge_type": "primary"
-      }
-    ],
+    "teachers": [],
     "school": "",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -2867,12 +2834,7 @@
     "name": "Dingzhou Shizang",
     "names_cjk": "",
     "dates": "",
-    "teachers": [
-      {
-        "name": "Shishuang Qingzhu",
-        "edge_type": "primary"
-      }
-    ],
+    "teachers": [],
     "school": "",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -2883,9 +2845,8 @@
     "dates": "",
     "teachers": [
       {
-        "name": "Nanyue Daoxuan",
-        "edge_type": "primary",
-        "dates": "596-667"
+        "name": "Nanyang Huizhong",
+        "edge_type": "primary"
       }
     ],
     "school": "",
@@ -3052,7 +3013,7 @@
     "dates": "",
     "teachers": [
       {
-        "name": "Xuefeng Yicun",
+        "name": "Fengxian Daochen",
         "edge_type": "primary"
       }
     ],
@@ -3078,12 +3039,7 @@
     "name": "Xutang Zhiyu",
     "names_cjk": "",
     "dates": "1185-1269",
-    "teachers": [
-      {
-        "name": "Wuzhun Shifan",
-        "edge_type": "primary"
-      }
-    ],
+    "teachers": [],
     "school": "",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -3106,12 +3062,7 @@
     "name": "Nanyue Daoxuan",
     "names_cjk": "",
     "dates": "596-667",
-    "teachers": [
-      {
-        "name": "Shitou Xiqian",
-        "edge_type": "primary"
-      }
-    ],
+    "teachers": [],
     "school": "",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"

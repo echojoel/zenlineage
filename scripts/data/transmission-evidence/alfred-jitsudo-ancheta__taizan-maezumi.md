@@ -23,7 +23,6 @@ sources:
     quote: |
       He transmitted the Dharma to twelve successors: Bernard Tetsugen Glassman, Dennis Genpo Merzel, Charlotte Joko Beck, Jan Chozen Bays, John Daido Loori, Gerry Shishin Wick, John Tesshin Sanderson, Alfred Jitsudo Ancheta, Charles Tenshin Fletcher, Susan Myoyu Andersen, Nicolee Jikyo Miller, and William Nyogen Yeo.
 reducer_notes: |
-  R1: confidence=high
   R2: confidence=high
   R3: confidence=high
 human_review_needed: false

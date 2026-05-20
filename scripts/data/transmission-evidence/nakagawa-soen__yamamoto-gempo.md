@@ -38,7 +38,7 @@ sources:
       (1907–1984), who became abbot of Ryutaku-ji and is sometimes referred
       to as the twentieth-century transmitter of Rinzai Zen to the West.
 reducer_notes: |
-  Wave-3 self-writing agent. Transmission from Yamamoto Gempo to Nakagawa
+  Transmission from Yamamoto Gempo to Nakagawa
   Soen is confirmed by multiple independent sources including Wikipedia,
   institutional sangha pages, and Tricycle magazine. Nakagawa succeeded
   Yamamoto as abbot of Ryutaku-ji, one of the clearest institutional markers

@@ -28,7 +28,7 @@ sources:
       fundamental, constant principle?' and after Yantou's response about
       agreement and disagreement, Shiyan had a deep understanding."
 reducer_notes: |
-  Wave-3 self-writing agent. A-tier: two reference sources (Wikipedia, Terebess)
+  A-tier: two reference sources (Wikipedia, Terebess)
   and one community source. Ruiyan Shiyan as dharma heir of Yantou Quanhuo
   is well-documented in Chan lineage records.
 human_review_needed: false

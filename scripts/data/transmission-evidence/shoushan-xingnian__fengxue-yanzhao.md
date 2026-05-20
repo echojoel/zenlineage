@@ -29,6 +29,6 @@ sources:
     quote: |
       Shoushan Xingnian was the Dharma-heir of Fengxue Yanzhao and gave Transmission to Fenyang and Shexian Guisheng.
 reducer_notes: |
-  Wave-3 self-writing agent. The Fengxue→Shoushan transmission is multiply attested: Terebess (with the specific dharma-seal transmission anecdote from Wudeng Huiyuan), Encyclopedia of Buddhism, Wikipedia, and an academic ResearchGate entry translating the Records of the Transmission of the Lamp. All agree. Tier A.
+  The Fengxue→Shoushan transmission is multiply attested: Terebess (with the specific dharma-seal transmission anecdote from Wudeng Huiyuan), Encyclopedia of Buddhism, Wikipedia, and an academic ResearchGate entry translating the Records of the Transmission of the Lamp. All agree. Tier A.
 human_review_needed: false
 ---

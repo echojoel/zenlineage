@@ -23,6 +23,6 @@ sources:
     quote: |
       Kinen Horyu (?-1506) and Daishitsu Chisen (1461–1536) appear in the Soto lineage as successive dharma transmitters, with Kinen Horyu as number 69 and Daishitsu Chisen as number 70 in the succession of teachers.
 reducer_notes: |
-  Wave-3 self-writing agent. Edge confirmed in ZENKAN (positions 12 and 13), Dharma Rain institutional chant, and Treeleaf community lineage chart. Kinen Horyu (?–1506) and Daishitsu/Teishitsu Chisen (1461–1536) are consecutive in the Meiho Sotetsu branch of Soto Zen appearing in both the Harada/Kosen line and the Sojiji/Jiyu Kennett line.
+  Edge confirmed in ZENKAN (positions 12 and 13), Dharma Rain institutional chant, and Treeleaf community lineage chart. Kinen Horyu (?–1506) and Daishitsu/Teishitsu Chisen (1461–1536) are consecutive in the Meiho Sotetsu branch of Soto Zen appearing in both the Harada/Kosen line and the Sojiji/Jiyu Kennett line.
 human_review_needed: false
 ---

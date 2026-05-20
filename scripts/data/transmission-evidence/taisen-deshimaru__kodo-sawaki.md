@@ -35,7 +35,7 @@ sources:
       he died, Kodo Sawaki ordained him as a monk. He received dharma
       transmission from Yamada Reirin Roshi in 1970.
 reducer_notes: |
-  Wave-4 tier-upgrade. CLARIFICATION ON DISPUTED TRANSMISSION: Three sources
+  CLARIFICATION ON DISPUTED TRANSMISSION: Three sources
   confirm the 30-year training relationship (1935–1965) with Kodo Sawaki as
   Deshimaru's "spiritual master." The claimed deathbed shihō from Sawaki was
   never registered with the Sōtō school and is disputed. Deshimaru's

@@ -17,6 +17,6 @@ sources:
     quote: |
       67. Gizan Tonin … 68. Jogaku Kenryu … 69. Kinen Horyu [Dainin Katagiri SOTO lineage]
 reducer_notes: |
-  Wave-3 self-writing agent. Sources independently researched. Both the Zen Center Athens Hosshin-ji list and the Treeleaf Katagiri Soto lineage chart place Gisan Tonin immediately before Shogaku Kenryu, confirming teacher→student sequence.
+  Sources independently researched. Both the Zen Center Athens Hosshin-ji list and the Treeleaf Katagiri Soto lineage chart place Gisan Tonin immediately before Shogaku Kenryu, confirming teacher→student sequence.
 human_review_needed: false
 ---

@@ -23,7 +23,7 @@ sources:
     quote: |
       One branch was transmitted from Yaoshan Weiyan to Yunyan Tansheng, then to Dongshan Liangjie, and finally to Caoshan Benji, establishing the Caodong School.
 reducer_notes: |
-  Wave-5 final tier-upgrade pass. Three independent sources confirm Yunyan
+  Three independent sources confirm Yunyan
   Tansheng as Dongshan Liangjie's primary dharma teacher: Wikipedia with the
   explicit "dharma heir" language plus the key transmission of the baojing sanmei
   (Song of the Jewel Mirror Samadhi), Terebess narrating the transmission dialogue,

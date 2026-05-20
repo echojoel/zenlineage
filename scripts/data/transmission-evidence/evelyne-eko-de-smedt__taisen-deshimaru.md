@@ -23,7 +23,7 @@ sources:
     quote: |
       he passed on this faith to the many disciples he had trained during his time in Europe [including Evelyne de Smedt, who was] ordained as a nun [in 1975].
 reducer_notes: |
-  Wave-3 self-writing agent. Evelyne (Evelyn) de Smedt was ordained as a Soto Zen nun by
+  Evelyne (Evelyn) de Smedt was ordained as a Soto Zen nun by
   Taisen Deshimaru in March 1975. She was one of his closest disciples and remained at his
   side until his death in 1982. The specific channel of her formal dharma transmission
   (shiho) is not clearly documented in accessible online sources; she received a shusso

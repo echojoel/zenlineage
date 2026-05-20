@@ -12,7 +12,7 @@ sources:
       "Wujiu Youxuan (Wu-chiu Yu-hsuan, Ukyu Yugen) (n.d.): One of Mazu's
       eighty-four Dharma-heirs. He appears in Blue Cliff Records case 75."
 reducer_notes: |
-  Wave-3 self-writing agent. Wujiu Youxuan is attested only in the Terebess
+  Wujiu Youxuan is attested only in the Terebess
   master list as "One of Mazu's eighty-four Dharma-heirs." No dates, no
   biography, no independent second source found beyond Terebess. Tier C: one
   credible reference source with explicit statement.

@@ -28,7 +28,7 @@ sources:
       Tekisui Giboku Zenji (1822–1899) transmitted to Ryoen Genseki (1842–1918)
       within the Inzan line of Rinzai Zen stemming from Gisan Zenrai.
 reducer_notes: |
-  Wave-3 self-writing agent. The Tekisui Giboku → Ryoen Genseki transmission
+  The Tekisui Giboku → Ryoen Genseki transmission
   is confirmed by a German Zen reference database (explicit "Dharma-Übertragung"
   statement), an institutional Rinzai temple lineage page, and a sangha
   lineage source. Dates for Ryoen Genseki vary slightly (1842 vs. 1843) across

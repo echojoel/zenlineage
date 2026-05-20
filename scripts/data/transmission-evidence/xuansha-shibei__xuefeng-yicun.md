@@ -28,7 +28,7 @@ sources:
       Shibei, then Luohan Guichen, then Fayan Wenyi, establishing the Fayan
       school — one of the Five Houses of Chan.
 reducer_notes: |
-  Wave-3 self-writing agent. A-tier: three Wikipedia reference articles
+  A-tier: three Wikipedia reference articles
   independently confirm Xuansha Shibei as dharma heir of Xuefeng Yicun.
   This is a canonical transmission in Chan historiography.
 human_review_needed: false

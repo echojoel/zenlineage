@@ -35,7 +35,6 @@ sources:
     quote: |
       Koun Ejō (孤雲 懐奘 1198-1280) appearing immediately after Dōgen in the Japanese Sōtō Patriarchs section as Dōgen's direct heir in the Sōtō transmission lineage.
 reducer_notes: |
-  R1: confidence=high
   R2: confidence=high
   R3: confidence=high
 human_review_needed: false

@@ -23,7 +23,7 @@ sources:
     quote: |
       Yamada Koun served as main dharma successor to Hakuun Yasutani Roshi (1885-1973).
 reducer_notes: |
-  Wave-3 self-writing agent. Universally attested. Yamada Koun studied under Yasutani from ~1954,
+  Universally attested. Yamada Koun studied under Yasutani from ~1954,
   received transmission in 1960/1961 (sources vary by one year), and succeeded him as Kancho in 1970
   upon Yasutani's retirement. Tier A: Wikipedia (reference) + Sanbo Zen International (institutional)
   + Maria Kannon Zen Center (sangha).

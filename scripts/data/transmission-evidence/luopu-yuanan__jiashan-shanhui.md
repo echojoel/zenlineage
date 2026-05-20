@@ -28,7 +28,7 @@ sources:
       multiple students receiving dharma transmission at Mt. Jia, including
       Luopu Yuanan documented in classical Chan lamp records.
 reducer_notes: |
-  Wave-3 self-writing agent. A-tier: reference (terebess.hu), community
+  A-tier: reference (terebess.hu), community
   (bowzwestchester), sangha (westernchanfellowship.org). Luopu Yuanan as
   dharma heir of Jiashan Shanhui is well-established in Chan historiography.
   Terebess page explicitly states the teacher-student relationship.

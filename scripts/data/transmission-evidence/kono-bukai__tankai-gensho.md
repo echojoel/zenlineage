@@ -34,7 +34,7 @@ sources:
       shows Tankai Gensho's direct heir as Dokutan Sosan, with Kono Mukai
       in the next generation.
 reducer_notes: |
-  Wave-4 tier-upgrade pass. Added Dharma Wheel community lineage source and
+  Added Dharma Wheel community lineage source and
   Ciolek academic lineage chart. Both confirm that the lineage runs Tankai
   Gensho → Dokutan Sosan → Kono Mukai (Kono Bukai). This means Kono Bukai's
   direct dharma teacher was Dokutan Sosan, NOT Tankai Gensho. The edge

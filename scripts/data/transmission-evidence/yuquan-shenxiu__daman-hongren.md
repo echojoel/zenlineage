@@ -17,6 +17,5 @@ sources:
     quote: |
       The two most famous disciples of Hongren, Huineng and Yuquan Shenxiu, both continued the East Mountain teaching.
 reducer_notes: |
-  R1: confidence=high
 human_review_needed: false
 ---

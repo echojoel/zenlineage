@@ -17,6 +17,5 @@ sources:
     quote: |
       Liangshan Yuanguan was a disciple of the Caodong lineage master, Tongan Guanzhi.
 reducer_notes: |
-  R1: confidence=high
 human_review_needed: false
 ---

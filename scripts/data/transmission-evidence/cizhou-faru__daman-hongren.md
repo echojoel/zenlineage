@@ -29,7 +29,7 @@ sources:
     quote: |
       Faru taught at the Shaolin Monastery and developed a large following in northern China. Originally Faru too was credited to be the successor of Hongren, but he was not included within the canonical list of Chan Patriarchs.
 reducer_notes: |
-  Wave-5 final tier-upgrade pass. Already had 3 sources at C; restructured and
+  Already had 3 sources at C; restructured and
   added Terebess Precepts and Lineage PDF as a fourth independent source. The
   Faru stele is the earliest documentary evidence of dharma transmission lineage
   in Chan history. Three reference-class sources (2 Wikipedia, 1 EncBuddhism)

@@ -23,6 +23,6 @@ sources:
     quote: |
       Goto Zuigan (1879–1965) was a Rinzai master and former chief abbot of Myoshin-ji and of Daitoku-ji. He received his inka from Sokatsu in 1916.
 reducer_notes: |
-  Wave-3 self-writing agent. Two independent Wikipedia articles (one on Goto Zuigan, one on Tetsuo Sokatsu) and a third community source all confirm the formal inka shomei transmission from Shaku Sokatsu to Goto Zuigan in 1916. Tier A: institutional + multiple independent hosts.
+  Two independent Wikipedia articles (one on Goto Zuigan, one on Tetsuo Sokatsu) and a third community source all confirm the formal inka shomei transmission from Shaku Sokatsu to Goto Zuigan in 1916. Tier A: institutional + multiple independent hosts.
 human_review_needed: false
 ---

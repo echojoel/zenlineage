@@ -28,7 +28,7 @@ sources:
       "Xitang Zhizang" is listed among Mazu's known students in the
       lineage section of the article.
 reducer_notes: |
-  Wave-3 self-writing agent. Xitang Zhizang (735–814) is confirmed as a
+  Xitang Zhizang (735–814) is confirmed as a
   Mazu dharma heir by Terebess and the Hongzhou school Wikipedia article.
   Notably, after Mazu's death he led the main monastic community, attesting
   to his senior status among Mazu's heirs.

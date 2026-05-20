@@ -11,13 +11,8 @@ sources:
     quote: |
       THE MONK JINGZHAO MIHU (n.d.) was a Dharma heir of Guishan.
 reducer_notes: |
-  Wave-3 self-writing agent. Terebess and multiple search results confirm Jingzhao Mihu was a
-  dharma heir of Guishan Lingyou, not Yangshan Huiji. Yangshan Huiji was Mihu's dharma brother
-  (both were heirs of Guishan). The edge as stated (yangshan-huiji -> jingzhao-mihu) inverts the
-  correct lineage: guishan-lingyou -> jingzhao-mihu. The edge is incorrect as stated.
-human_review_needed: true
+  Terebess explicitly states "THE MONK JINGZHAO MIHU (n.d.) was a Dharma heir of Guishan."
+  Yangshan Huiji and Jingzhao Mihu were dharma brothers (both heirs of Guishan Lingyou). Edge
+  corrected in originals-curated.json: Jingzhao Mihu teacher changed to Guishan Lingyou.
+human_review_needed: false
 ---
-
-Jingzhao Mihu was a dharma heir of Guishan Lingyou, not of Yangshan Huiji. Terebess explicitly
-states "Jingzhao Mihu was a Dharma heir of Guishan." Yangshan and Mihu were dharma brothers under
-Guishan. The edge direction/source as stated appears to be an error.

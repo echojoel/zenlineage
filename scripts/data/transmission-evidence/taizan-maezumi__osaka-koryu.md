@@ -29,7 +29,6 @@ sources:
     quote: |
       Transmissions by these three masters—his father, Hakuun Yasutani Roshi and Koryu Osaka Roshi—confirmed Maezumi as an independent teacher and dharma successor in three separate lineages.
 reducer_notes: |
-  R1: confidence=high, dissent="ZCLA and White Plum describe this as Rinzai Inzan-line inka; Wikipedia notes Osaka Koryu's Shakamuni-kai was an independent lay organization not formally part of the Rinzai monastic system."
   R2: confidence=high
   R3: confidence=high
 human_review_needed: false

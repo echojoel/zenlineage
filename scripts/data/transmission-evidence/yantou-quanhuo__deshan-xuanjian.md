@@ -17,6 +17,5 @@ sources:
     quote: |
       Te-shan had only a few disciples, of whom two stood out: Yen-t'ou Ch'üan-huo (828-887) and Hsüeh-feng I-ts'un (822-908).
 reducer_notes: |
-  R1: confidence=high
 human_review_needed: false
 ---

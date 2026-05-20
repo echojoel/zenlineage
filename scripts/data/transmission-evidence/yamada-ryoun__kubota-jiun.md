@@ -23,7 +23,7 @@ sources:
     quote: |
       List of Dharma heirs includes: Masamichi Ryoun-ken Yamada.
 reducer_notes: |
-  Wave-4 tier-upgrade pass. Yamada Ryoun's documented primary dharma transmission was from
+  Yamada Ryoun's documented primary dharma transmission was from
   his father Yamada Koun in 1985 (shihō, confirmed by multiple sources including Wikipedia
   and Sanbo Zen International history). The kubota→ryoun edge in the database represents
   abbatial/patriarchal succession in 2004, when Kubota Ji'un retired and Ryoun took over as

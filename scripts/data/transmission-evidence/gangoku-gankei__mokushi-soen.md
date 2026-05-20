@@ -23,6 +23,6 @@ sources:
     quote: |
       Genkyoku Gankei was the Dharma Heir of Mokushi Soen and his successor at Daiojo-ji, with his name associated with one of the main lineages within Soto Zen.
 reducer_notes: |
-  Wave-3 self-writing agent. Edge confirmed in two independent lineage charts (ZENKAN and Terebess.hu) and a biographical source (nossacasa.net). Genkyoku/Gangoku Gankei is consistently listed as the direct dharma heir of Mokushi Soen in the Harada-Sawaki branch of Soto Zen.
+  Edge confirmed in two independent lineage charts (ZENKAN and Terebess.hu) and a biographical source (nossacasa.net). Genkyoku/Gangoku Gankei is consistently listed as the direct dharma heir of Mokushi Soen in the Harada-Sawaki branch of Soto Zen.
 human_review_needed: false
 ---

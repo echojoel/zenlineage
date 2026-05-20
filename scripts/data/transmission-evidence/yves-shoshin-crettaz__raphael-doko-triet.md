@@ -19,7 +19,7 @@ sources:
       Raphael Dōkō Triet's dharma heirs include Yves Shōshin Crettaz,
       who received transmission in 2013.
 reducer_notes: |
-  Wave-3 self-writing agent. Tier B: one institutional source (AZI,
+  Tier B: one institutional source (AZI,
   the Association Zen Internationale, a Sōtōshū-affiliated European
   organization founded by Taisen Deshimaru) plus one independent sangha
   source (Dojo Zen Strasbourg). Both sources confirm the 2013 date and

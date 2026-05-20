@@ -23,6 +23,6 @@ sources:
     quote: |
       Brad Warner got transmission from Gudo Wafu Nishijima, just like Jundo.
 reducer_notes: |
-  Wave-3 self-writing agent. Sources independently researched. Grokipedia states the transmission occurred in 2000; Wikipedia confirms Warner as president of Dogen Sangha International (Nishijima's organization). The Treeleaf forum post by a community member corroborates. Multiple sources converge on Nishijima→Warner transmission.
+  Sources independently researched. Grokipedia states the transmission occurred in 2000; Wikipedia confirms Warner as president of Dogen Sangha International (Nishijima's organization). The Treeleaf forum post by a community member corroborates. Multiple sources converge on Nishijima→Warner transmission.
 human_review_needed: false
 ---

@@ -26,7 +26,7 @@ sources:
       Cuiwei Wuxue gave Transmission to Touzi Datong; Touzi Datong was a
       Dharma-heir of Cuiwei Wuxue, two generations after Shitou's student Danxia.
 reducer_notes: |
-  Wave-3 self-writing agent. A-tier: two independent reference sources (terebess.hu
+  A-tier: two independent reference sources (terebess.hu
   twice) and one sangha source (wwzc.org) all confirm Touzi Datong received
   dharma transmission from Cuiwei Wuxue. Well-attested edge.
 human_review_needed: false

@@ -17,7 +17,7 @@ sources:
     quote: |
       Ruben Habito trained Henry Shukman on his path of awakening; Yamada Roshi ultimately appointed him a teacher in 2010.
 reducer_notes: |
-  Wave-3 self-writing agent. Ruben Habito is listed as one of Shukman's principal Zen teachers.
+  Ruben Habito is listed as one of Shukman's principal Zen teachers.
   As with Joan Rieck, this is a guiding/training relationship; formal dharma transmission came from
   Yamada Ryoun (2020). Habito's role was significant enough that Shukman names him alongside the
   abbots as a primary teacher. Tier B: Wikipedia (reference) + Mountain Cloud (sangha).

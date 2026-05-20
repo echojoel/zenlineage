@@ -17,7 +17,7 @@ sources:
     quote: |
       "Wuzu Fayan" listed in the twentieth generation, followed by "Yuanwu Keqin Taiping Huiqin Foyan Qingyuan Kaifu Daoning" in the twenty-first generation — all dharma heirs of Wuzu Fayan in the Yangqi lineage.
 reducer_notes: |
-  Wave-3 self-writing agent. Kaifu Daoning is placed in the same generation as Yuanwu Keqin in Chan lineage charts, all as dharma heirs of Wuzu Fayan. The Dharma Drum lineage chart explicitly lists him in generation 21 as a Wuzu heir. Terebess' Wuzu page names twenty-two heirs but names only the "Three Buddhas" explicitly; however other genealogical sources fill in Kaifu Daoning. Tier B: two independent documentary sources including an institutional lineage chart.
+  Kaifu Daoning is placed in the same generation as Yuanwu Keqin in Chan lineage charts, all as dharma heirs of Wuzu Fayan. The Dharma Drum lineage chart explicitly lists him in generation 21 as a Wuzu heir. Terebess' Wuzu page names twenty-two heirs but names only the "Three Buddhas" explicitly; however other genealogical sources fill in Kaifu Daoning. Tier B: two independent documentary sources including an institutional lineage chart.
 human_review_needed: false
 ---
 

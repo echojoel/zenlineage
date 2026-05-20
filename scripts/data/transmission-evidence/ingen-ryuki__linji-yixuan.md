@@ -22,7 +22,7 @@ sources:
       school since his student Yinyuan Longqi (Japanese: Ingen Ryūki, 1592–1673) was the
       founder of Ōbaku.
 reducer_notes: |
-  Wave-3 self-writing agent. The edge linji-yixuan -> ingen-ryuki represents ~700-year lineage
+  The edge linji-yixuan -> ingen-ryuki represents ~700-year lineage
   affiliation. Ingen Ryuki (Yinyuan Longqi, 1592-1673) received dharma transmission from Feiyin
   Tongrong (a disciple of Miyun Yuanwu) in the Linji school lineage. Wikipedia confirms his
   lineage is "Linji school." The edge represents Ingen as founder of Obaku Zen in Japan, which

@@ -23,7 +23,7 @@ sources:
     quote: |
       Taiun Jean-Pierre Faure was ordained a monk by Taisen Deshimaru Roshi and was certified as a Sôtô Zen teacher by Dônin Minamisawa Zenji. He is a kyoshi (certified teacher) of the Sôtô school.
 reducer_notes: |
-  Wave-3 self-writing agent. Jean-Pierre Taiun Faure was ordained as a Soto Zen monk by
+  Jean-Pierre Taiun Faure was ordained as a Soto Zen monk by
   Taisen Deshimaru in 1981. He later received formal dharma transmission (shiho) in 2003
   from Donin Minamizawa Roshi, vice-zenji of Eiheiji. Two AZI institutional pages and an
   IZAUK sangha page all confirm Deshimaru as ordination teacher. The edge here is the

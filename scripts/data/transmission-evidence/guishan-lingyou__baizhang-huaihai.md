@@ -29,7 +29,7 @@ sources:
     quote: |
       Guishan was one of the most prominent disciples of the Chan master Baizhang Huaihai (720–814). The Guiyang school was the first established school of the 'five houses of Chan'. Guiyang is named after master Guishan Lingyou (771–854)
 reducer_notes: |
-  Wave-5 final tier-upgrade pass: upgraded C → A. Four independent authoritative
+  upgraded C → A. Four independent authoritative
   reference sources (two from Encyclopedia of Buddhism, two Wikipedia articles) all
   explicitly name Guishan Lingyou as a dharma heir/disciple/transmitter of Baizhang
   Huaihai. The EoB entry gives the most detailed account: studied under Baizhang at

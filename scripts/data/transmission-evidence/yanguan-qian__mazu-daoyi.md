@@ -19,7 +19,7 @@ sources:
       "Yanguan was one of the disciples of Mazu who formed a community in
       Zhejiang, along with Dazhu Huihai and Damei Fachang."
 reducer_notes: |
-  Wave-3 self-writing agent. Yanguan Qian (d. 842) is attested as a Mazu
+  Yanguan Qian (d. 842) is attested as a Mazu
   dharma heir in the Terebess master list with the explicit statement "A
   Dharma-heir of Mazu." The Hongzhou school Wikipedia article places him
   among Mazu's Zhejiang-based disciples. Tier B: two independent sources,

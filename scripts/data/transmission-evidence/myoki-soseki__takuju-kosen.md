@@ -29,7 +29,7 @@ sources:
       continuing the Takuju branch of Rinzai Zen Buddhism within the lineage
       stemming from Hakuin Ekaku.
 reducer_notes: |
-  Wave-3 self-writing agent. The Takuju Kosen → Myoki Soseki link is
+  The Takuju Kosen → Myoki Soseki link is
   consistently attested in Rinzai lineage charts across institutional temple
   pages and the Ciolek Hakuin-school reference. Two independent sources plus
   an institutional temple site confirm. Myoki Soseki is sometimes given the

@@ -23,7 +23,7 @@ sources:
     quote: |
       Michel Bovay was a close student and assistant of Master Taisen Deshimaru, directing a collective work presenting the practice of Sōtō Zen in Europe and its tradition through the history and teachings of the great Zen masters.
 reducer_notes: |
-  Wave-3 self-writing agent. Michel Bovay was ordained as a Soto Zen monk by Taisen
+  Michel Bovay was ordained as a Soto Zen monk by Taisen
   Deshimaru. He was one of four close disciples appointed to receive confirmation of dharma
   transmission from the abbot of Eiheiji after Deshimaru's death, though he ultimately
   received formal shiho in 1998 from Yuko Okamoto Roshi of Teishoji. The Deshimaru-to-Bovay

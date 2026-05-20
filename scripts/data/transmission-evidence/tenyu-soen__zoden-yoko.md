@@ -23,7 +23,7 @@ sources:
     quote: |
       Continuous dharma transmission sequence in Soto Zen; Zoden Yoko and Ten'yu Soen are documented ancestors in the Soto transmission lineage.
 reducer_notes: |
-  Wave-3 self-writing agent. Zoden Yoko and Tenyu Soen appear consecutively in the
+  Zoden Yoko and Tenyu Soen appear consecutively in the
   Soto Zen ancestral lineage at positions 73–74. The full sequence Nampo Gentaku →
   Zoden Yoko → Tenyu Soen → Ken-an Junsa is confirmed by two independent Treeleaf Zendo
   sources and the sotozen.com institutional source.

@@ -32,7 +32,7 @@ sources:
       Takuju Kosen lineage context: Myōki Sōseki → Karyō Zuika →
       Tankai Genshō.
 reducer_notes: |
-  Wave-4 tier-upgrade pass. Upgraded from tier C to tier B. The Ciolek.com
+  Upgraded from tier C to tier B. The Ciolek.com
   academic lineage chart, Dharma Wheel community lineage source, and Terebess
   Shibayama page all independently confirm the Myoki Soseki → Karyo Zuika →
   Tankai Gensho chain in the Takuju Kosen branch. Two independent sources

@@ -23,7 +23,7 @@ sources:
     quote: |
       Sogaku Harada accepted the honor of becoming Dokutan's personal attendant and went to live at Nanzenji, where he applied himself intensively to zazen and completed all the koans.
 reducer_notes: |
-  Wave-3 self-writing agent. Harada received Soto dharma transmission from Harada Sodo Kakusho, then
+  Harada received Soto dharma transmission from Harada Sodo Kakusho, then
   completed Rinzai koan study under Dokutan Sosan at Nanzenji. Whether formal Rinzai inka was conferred
   is disputed: Maezumi Roshi stated there was no formal transmission (Harada declined to leave the Soto
   sect), while Harada Tangen Roshi and Yasutani both claimed Dokutan gave Harada inka privately.

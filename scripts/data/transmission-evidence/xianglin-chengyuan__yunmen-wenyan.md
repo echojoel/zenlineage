@@ -27,7 +27,7 @@ sources:
       Xianglin Chengyuan lived circa 908-987. He was a Dharma-heir of Yunmen Wenyen and Dharma
       brother of Dongshan Shouchou.
 reducer_notes: |
-  Wave-3 self-writing agent. Multiple independent sources confirm Xianglin Chengyuan as a dharma
+  Multiple independent sources confirm Xianglin Chengyuan as a dharma
   heir of Yunmen Wenyan. Wikipedia and terebess both attest to the 18-year attendant relationship
   and formal dharma transmission. Tier A: ≥1 institutional (Wikipedia) + ≥2 independent hosts.
 human_review_needed: false

@@ -19,7 +19,7 @@ sources:
       Yōkōin records identify Sessō Hōseki as the fourth-generation abbot,
       confirming succession from the third-generation abbot Nenshitsu Yokaku.
 reducer_notes: |
-  Wave-3 self-writing agent. The SFZC PDF explicitly cites the Nihon
+  The SFZC PDF explicitly cites the Nihon
   Tōjōrentōroku for this edge. Both sources (SFZC PDF and the Yōkōin
   commemorative record it quotes) confirm Sessō Hōseki as the fourth
   Yōkōin generation and Nenshitsu Yokaku as his teacher.

@@ -29,7 +29,7 @@ sources:
     quote: |
       Daokai revived the Caodong school and transmitted it to a wide circle of disciples, whose names are recorded in the Caodong lamp genealogies of the Northern Song.
 reducer_notes: |
-  Wave-5 final tier-upgrade pass. "Dagui Muzhe" does not appear by that romanisation
+  "Dagui Muzhe" does not appear by that romanisation
   in any accessible English-language source. The figure likely corresponds to a lesser-
   documented heir among Furong's 93 students, named in Chinese-language lamp records
   (Jingde Chuandeng Lu supplements) but not yet rendered in an authoritative

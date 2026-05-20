@@ -23,7 +23,7 @@ sources:
     quote: |
       List of Dharma heirs: Robert Chotan Gyoun Aitken, Niklaus Brantschen, Ruben Keiun-ken Habito, Willigis Jäger, Johannes Kopp, Akira Kubota, Victor Löw, Elaine MacInnes, Gundula Meyer, Ama Samy, Ana Maria Schlüter, Roselyn Stone, Masamichi Ryoun-ken Yamada.
 reducer_notes: |
-  Wave-4 tier-upgrade pass. Joan Rieck's primary dharma transmission was from Yamada Koun
+  Joan Rieck's primary dharma transmission was from Yamada Koun
   (zenkyōshi 1981). Her 2001 elevation to Associate Zen Master (junshike) occurred under
   Kubota Ji'un as third abbot (1989–2004), making this edge an institutional rank conferral
   rather than a separate dharma transmission ceremony. Notably, Joan Rieck does not appear

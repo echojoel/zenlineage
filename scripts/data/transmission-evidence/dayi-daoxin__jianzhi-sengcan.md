@@ -23,6 +23,5 @@ sources:
     quote: |
       By the late 8th century, under the influence of Huineng's student Shenhui, the traditional list of patriarchs of the Chan lineage had been established: Bodhidharma (c. 440–528), Dazu Huike (487–593), Sengcan (?–606), Dayi Daoxin (580–651), Daman Hongren (601–674), Huineng (638–713).
 reducer_notes: |
-  R1: confidence=high
 human_review_needed: false
 ---

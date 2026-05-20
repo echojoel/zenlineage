@@ -17,6 +17,5 @@ sources:
     quote: |
       The tenth patriarch was the Venerable Parsva, and when he met the Ninth Patriarch Buddhamitra, he left home and was transmitted the Buddha's mind seal Dharma door.
 reducer_notes: |
-  R1: confidence=high
 human_review_needed: false
 ---

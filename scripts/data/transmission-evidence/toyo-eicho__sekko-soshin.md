@@ -23,6 +23,6 @@ sources:
     quote: |
       Sekko Soshin (1408–1486) and Toyo Eicho (1429–1504) appear as consecutive dharma heirs in the Myoshin-ji branch of the Ōtōkan lineage.
 reducer_notes: |
-  Wave-3 self-writing agent. Sekko Soshin (1408–1486) and Toyo Eicho (1428/1429–1504) are listed consecutively in the Myoshin-ji branch transmission chain in three independent sources: an institutional temple lineage, an independent sangha, and Wikipedia. Dates have minor variation (1428 vs 1429 for Toyo Eicho) across sources but are within normal historical uncertainty.
+  Sekko Soshin (1408–1486) and Toyo Eicho (1428/1429–1504) are listed consecutively in the Myoshin-ji branch transmission chain in three independent sources: an institutional temple lineage, an independent sangha, and Wikipedia. Dates have minor variation (1428 vs 1429 for Toyo Eicho) across sources but are within normal historical uncertainty.
 human_review_needed: false
 ---

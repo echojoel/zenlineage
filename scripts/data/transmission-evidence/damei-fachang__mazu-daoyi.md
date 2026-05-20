@@ -25,7 +25,7 @@ sources:
       "Yanguan was one of the disciples of Mazu who formed a community in
       Zhejiang, along with Dazhu Huihai and Damei Fachang."
 reducer_notes: |
-  Wave-3 self-writing agent. Damei Fachang (752–839) is explicitly listed as a
+  Damei Fachang (752–839) is explicitly listed as a
   dharma heir of Mazu Daoyi on his Wikipedia page and in the Mazu article. The
   Hongzhou school article also groups him among Mazu's Zhejiang-based disciples.
 human_review_needed: false

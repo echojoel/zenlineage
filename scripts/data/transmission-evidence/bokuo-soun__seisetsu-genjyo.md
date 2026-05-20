@@ -23,6 +23,6 @@ sources:
     quote: |
       Bokuo Soun received inka from Seisetsu Genjyo and became abbot of Tenryu-ji. He was also a teacher of Omori Sogen after Seisetsu Genjyo Zenji passed on.
 reducer_notes: |
-  Wave-3 self-writing agent. Seisetsu Genjyo (1877–1945) transmitting to Bokuo Soun (1903–1991) is well-attested across an institutional temple lineage, an independent sangha lineage page, and Wikipedia. Bokuo Soun's subsequent role at Tenryu-ji and as teacher of Omori Sogen provides additional corroboration.
+  Seisetsu Genjyo (1877–1945) transmitting to Bokuo Soun (1903–1991) is well-attested across an institutional temple lineage, an independent sangha lineage page, and Wikipedia. Bokuo Soun's subsequent role at Tenryu-ji and as teacher of Omori Sogen provides additional corroboration.
 human_review_needed: false
 ---

@@ -23,7 +23,7 @@ sources:
     quote: |
       This curriculum would be further refined by his student Gasan Jito (1727-1797) and Gasan's primary heirs, Inzan Ien and Takuju Kosen.
 reducer_notes: |
-  Wave-3 self-writing agent. Hakuin Ekaku (1685/6–1769) → Gasan Jito (1727–1797) is attested
+  Hakuin Ekaku (1685/6–1769) → Gasan Jito (1727–1797) is attested
   by multiple Wikipedia articles. Note: the relationship is complex — Gasan studied with Hakuin
   and completed training under Tōrei Enji (Hakuin's primary heir). Wikipedia characterizes Gasan
   as a dharma heir of Hakuin, while acknowledging uncertainty about the formal inka. The edge is

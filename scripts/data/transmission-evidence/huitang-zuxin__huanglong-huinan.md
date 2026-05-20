@@ -29,6 +29,6 @@ sources:
     quote: |
       Zhenjing Kewen was one of Huanglong Huinan's dharma heirs, along with Donglin Changzong and Huitang Zuxin.
 reducer_notes: |
-  Wave-3 self-writing agent. The Huanglong Huinan→Huitang Zuxin transmission is well-documented across multiple independent sources: Terebess master list, wisdomlib, Terebess Huanglong page, and an academic source from the Chinese Buddhist Studies journal. Tier A.
+  The Huanglong Huinan→Huitang Zuxin transmission is well-documented across multiple independent sources: Terebess master list, wisdomlib, Terebess Huanglong page, and an academic source from the Chinese Buddhist Studies journal. Tier A.
 human_review_needed: false
 ---

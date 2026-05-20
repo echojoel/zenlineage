@@ -35,7 +35,6 @@ sources:
     quote: |
       Charlotte Joko Beck (1917-2011) was a Dharma heir of Hakuyu Taizan Maezumi and also studied with Haku'un Yasutani and Soen Nakagawa.
 reducer_notes: |
-  R1: confidence=high, dissent="White Plum says 1983 (year she became 3rd heir formally); Wikipedia and Lion's Roar both say 1978. Discrepancy noted; transmission itself is uncontested."
   R2: confidence=high
   R3: confidence=high
 human_review_needed: false

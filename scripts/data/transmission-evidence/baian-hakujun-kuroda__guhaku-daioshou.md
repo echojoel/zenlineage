@@ -31,7 +31,7 @@ sources:
       in 1955. Kuroda Roshi headed the Soto Sect Supreme Court and was one
       of the leading figures of Japanese Soto Zen.
 reducer_notes: |
-  Wave-4 tier-upgrade. Two independent reference sources (ZenHub Reference and
+  Two independent reference sources (ZenHub Reference and
   ZenHub Genealogy) explicitly identify Guhaku Daiosho as Kuroda's dharma
   teacher with a death date of 1928. The White Plum Asanga institutional source
   confirms Kuroda's seniority in the Sōtō establishment. Search results also

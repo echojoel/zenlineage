@@ -20,7 +20,7 @@ sources:
       Zengakudaijiten entry for Sensō Esai confirms dharma transmission
       from Shingan Dōkū at Tōjuin temple.
 reducer_notes: |
-  Wave-3 self-writing agent. The SFZC PDF describes the teacher–student
+  The SFZC PDF describes the teacher–student
   relationship at Tōjuin temple and cites the Zengakudaijiten as a
   confirming source. Shingan Dōkū is listed as the teacher of Sensō
   Esai in the Zōunin ancestral records quoted in the PDF.

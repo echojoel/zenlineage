@@ -17,6 +17,6 @@ sources:
     quote: |
       78. Ges-shu Soko … 79. Tokuo Ryoko … 80. Mokushi Soen [Dainin Katagiri SOTO lineage]
 reducer_notes: |
-  Wave-3 self-writing agent. Sources independently researched. Both the Zen Center Athens Hosshin-ji list and the Treeleaf Katagiri Soto lineage chart place Gesshu Soko immediately before Tokuo Ryoko, confirming teacher→student sequence. Dates: Gesshu Soko 1618-1696, Tokuo Ryoko 1649-1709.
+  Sources independently researched. Both the Zen Center Athens Hosshin-ji list and the Treeleaf Katagiri Soto lineage chart place Gesshu Soko immediately before Tokuo Ryoko, confirming teacher→student sequence. Dates: Gesshu Soko 1618-1696, Tokuo Ryoko 1649-1709.
 human_review_needed: false
 ---

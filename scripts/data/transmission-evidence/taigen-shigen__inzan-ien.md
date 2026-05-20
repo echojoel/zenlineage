@@ -23,7 +23,7 @@ sources:
     quote: |
       The lineage continued from Taigen Shigen Zenji through Gisan Zenrai Zenji (1801–1878) and subsequent dharma heirs in the Inzan sub-line.
 reducer_notes: |
-  Wave-3 self-writing agent. Inzan Ien (1751–1814) → Taigen Shigen (1768–1837) confirmed by
+  Inzan Ien (1751–1814) → Taigen Shigen (1768–1837) confirmed by
   the Ciolek Hakuin lineage chart and Daiyuzenji institutional lineage. Taigen Shigen is also
   known as Taigen Gisan in some sources (the name used for Gisan Zenrai's predecessor, not to be
   confused with Gisan Zenrai himself). Taigen Shigen became the key link transmitting the Inzan

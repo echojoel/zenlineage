@@ -23,7 +23,7 @@ sources:
     quote: |
       The Soto Zen tradition maintains detailed dharma-transmission records; Taiei Zesho and Nampo Gentaku are documented ancestors in the Soto transmission lineage.
 reducer_notes: |
-  Wave-3 self-writing agent. Taiei Zesho and Nampo Gentaku appear consecutively at
+  Taiei Zesho and Nampo Gentaku appear consecutively at
   positions 71–72 in the Katagiri/Maezumi lineage documented at Treeleaf Zendo. The full
   sequence Taiei Zesho → Nampo Gentaku → Zoden Yoko → Tenyu Soen → Ken-an Junsa is
   confirmed by multiple lineage chart sources.

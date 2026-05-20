@@ -29,7 +29,7 @@ sources:
     quote: |
       Hongren referred to Zhishen from Zizhou as one of the educated people among those who might transmit his methods in the future.
 reducer_notes: |
-  Wave-5 final tier-upgrade pass. Added Encyclopedia of Buddhism East Mountain Teaching
+  Added Encyclopedia of Buddhism East Mountain Teaching
   as a second independent reference confirming Zhishen as Hongren's disciple and
   founder of the Sichuan branch. Three independent references (Terebess, EncBuddhism
   Lidai fabao ji, EncBuddhism East Mountain Teaching) plus Wikipedia now confirm this

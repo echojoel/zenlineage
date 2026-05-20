@@ -37,7 +37,7 @@ sources:
       This lineage chart confirms the transmission from Tankai Gensho to
       Dokutan Sosan within the Takuju Rinzai line.
 reducer_notes: |
-  Wave-3 self-writing agent. Transmission is confirmed by multiple independent
+  Transmission is confirmed by multiple independent
   sources including Wikipedia (reference), an institutional temple, and the
   Terebess reference database. The Tankai Gensho → Dokutan Sosan link is a
   well-documented step in the Takuju lineage connecting through to Harada

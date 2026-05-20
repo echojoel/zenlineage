@@ -23,7 +23,7 @@ sources:
     quote: |
       Foyan Qingyuan was known as one of the 'three Buddhas of East Mountain' along with his dharma brothers Yuanwu Keqin and Taiping Huiqin, all heirs of Wuzu Fayan.
 reducer_notes: |
-  Wave-3 self-writing agent. Foyan Qingyuan (1067-1120) received dharma transmission from Wuzu Fayan (d.1104). Wikipedia, Terebess, and an academic MDPI journal all confirm this. Tier A: multiple independent sources including academic.
+  Foyan Qingyuan (1067-1120) received dharma transmission from Wuzu Fayan (d.1104). Wikipedia, Terebess, and an academic MDPI journal all confirm this. Tier A: multiple independent sources including academic.
 human_review_needed: false
 ---
 

@@ -23,6 +23,5 @@ sources:
     quote: |
       Guiyang is named after master Guishan Lingyou (771–854) (Kuei-shan Ling-yu, Jpn. Isan Reiyū) and his student, Yangshan Huiji (J. Kyōzan Ejaku).
 reducer_notes: |
-  R1: confidence=high
 human_review_needed: false
 ---

@@ -23,7 +23,7 @@ sources:
     quote: |
       Sengai Gibon received dharma transmission from Gessen Zenne. Following transmission, Sengai was appointed the 123rd abbot of Shōfuku-ji in Hakata.
 reducer_notes: |
-  Wave-3 self-writing agent. Gessen Zenne (Gessen Zen'e, 1702–1781) → Sengai Gibon (1750–1837)
+  Gessen Zenne (Gessen Zen'e, 1702–1781) → Sengai Gibon (1750–1837)
   confirmed by Wikipedia and Encyclopedia.com. Sengai trained under Gessen for 13 years before
   receiving inka. He subsequently became the 123rd abbot of Shōfuku-ji, the oldest Zen temple in
   Japan. Note: the slug uses "gessen-zenne" matching the romanization in the edge list.

@@ -23,7 +23,7 @@ sources:
     quote: |
       Raphael Triet received the transmission of the Dharma from Master Yuko Okamoto in 1998, who was a separate lineage holder ordained in Deshimaru's tradition.
 reducer_notes: |
-  Wave-3 self-writing agent. Raphaël Doko Triet was ordained as a Soto Zen monk by Taisen
+  Raphaël Doko Triet was ordained as a Soto Zen monk by Taisen
   Deshimaru in 1973 and was one of his disciples. After Deshimaru's death, he received
   formal dharma transmission (shiho) from Yuko Okamoto in 1997–1998 (dates vary by source).
   The ordination/student relationship with Deshimaru is the edge here, confirmed by AZI

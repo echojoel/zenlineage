@@ -23,6 +23,5 @@ sources:
     quote: |
       Danxia Zichun of Dengzhou succeeded Furong Daokai, and Zichun had two disciples: one was Qingliao (also known as Zhenxie), and the other was Zhengjue (also known as Hongzhi of Tiantong).
 reducer_notes: |
-  R1: confidence=high
 human_review_needed: false
 ---

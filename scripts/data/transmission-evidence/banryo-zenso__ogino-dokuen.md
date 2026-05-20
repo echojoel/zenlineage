@@ -23,6 +23,6 @@ sources:
     quote: |
       The lineage Ogino Dokuen => Banryo Zenso => Joten Soko Miura => Joshu Sasaki is chanted at zen centers under Joshu Sasaki Roshi.
 reducer_notes: |
-  Wave-3 self-writing agent. Ogino Dokuen (also written Dokuon Joshu, 1819–1895) transmitting to Banryo Zenso (1848–1935) is documented in the Inzan lineage records. Three independent sources confirm the chain. Both masters are noted as important figures during the Meiji-era Rinzai revival.
+  Ogino Dokuen (also written Dokuon Joshu, 1819–1895) transmitting to Banryo Zenso (1848–1935) is documented in the Inzan lineage records. Three independent sources confirm the chain. Both masters are noted as important figures during the Meiji-era Rinzai revival.
 human_review_needed: false
 ---

@@ -28,7 +28,7 @@ sources:
       transmission line documented from Dōgen onward; both listed with partial
       death-year data consistent with a one-generation gap.
 reducer_notes: |
-  Wave-4 tier-upgrade research. Three independent community/reference sources
+  tier-upgrade research. Three independent community/reference sources
   all list Shōgaku Kenryū (d. c. 1485) and Kinen Hōryū (d. c. 1506) in direct
   sequential transmission within the Hosshin-ji / Daijōji branch of Sōtō.
   Wikipedia search returns identified them as 9th and 10th abbots of Daijōji

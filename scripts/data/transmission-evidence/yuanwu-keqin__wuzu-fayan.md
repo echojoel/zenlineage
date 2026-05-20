@@ -29,7 +29,7 @@ sources:
     quote: |
       "Both Keqin and Daoning were disciples of the well-known master Wuzu Fayan (d. 1104)."
 reducer_notes: |
-  Wave-3 self-writing agent. One of the best-documented transmission edges in the Linji school. Confirmed across Wikipedia, Terebess (multiple pages), and Oxford Reference. Yuanwu is known as "Foguo Keqin" and listed as one of Wuzu's "Three Buddhas" heirs. Tier A: institutional (Oxford Reference) + multiple independent reference hosts.
+  One of the best-documented transmission edges in the Linji school. Confirmed across Wikipedia, Terebess (multiple pages), and Oxford Reference. Yuanwu is known as "Foguo Keqin" and listed as one of Wuzu's "Three Buddhas" heirs. Tier A: institutional (Oxford Reference) + multiple independent reference hosts.
 human_review_needed: false
 ---
 

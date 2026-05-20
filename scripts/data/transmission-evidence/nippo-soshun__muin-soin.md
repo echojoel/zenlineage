@@ -23,6 +23,6 @@ sources:
     quote: |
       The Rinzai Myoshin-ji line lists Muin Soin directly before Nippo Soshun in the transmission succession of the Otōkan lineage.
 reducer_notes: |
-  Wave-3 self-writing agent. Multiple sources (institutional temple, independent sangha, Wikipedia reference) consistently place Muin Soin (1326–1410) directly before Nippo Soshun (1367/1368–1448) in the Myoshin-ji branch of the Rinzai Otōkan lineage.
+  Multiple sources (institutional temple, independent sangha, Wikipedia reference) consistently place Muin Soin (1326–1410) directly before Nippo Soshun (1367/1368–1448) in the Myoshin-ji branch of the Rinzai Otōkan lineage.
 human_review_needed: false
 ---

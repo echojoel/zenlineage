@@ -19,7 +19,7 @@ sources:
       Among Mazu's immediate students were Baizhang Huaihai (720-814), Nanquan Puyuan
       (748-835), Fenzhou Wuye (760-821), Danxia Tianran (739-824), and Damei Fachang (752-839).
 reducer_notes: |
-  Wave-3 self-writing agent. Terebess explicitly states Hangzhou Tianlong was a dharma heir of
+  Terebess explicitly states Hangzhou Tianlong was a dharma heir of
   Damei Fachang. Damei Fachang himself was a dharma heir of Mazu Daoyi. The transmission
   Damei Fachang → Hangzhou Tianlong is documented in multiple Chan lineage sources with Tianlong
   then transmitting to Juzhi. Tier B: ≥2 independent sources (terebess + wikipedia lineage context).

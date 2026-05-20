@@ -17,7 +17,7 @@ sources:
     quote: |
       Heshan Wuyin was a Dharma-heir of Jiufeng Daoqian; Heshan received tonsure from Xuefeng Yicun and became a dharmaheir of Jiufeng Daoqian.
 reducer_notes: |
-  Wave-3 self-writing agent. Heshan Wuyin (884-960) received dharma transmission from Jiufeng Daoqian; this is confirmed by the Terebess entry for Heshan and commentaries on Blue Cliff Record Case 44 (in which Heshan appears). Jiufeng Daoqian was a student of Shishuang Qingzhu. Tier B: two independent sources.
+  Heshan Wuyin (884-960) received dharma transmission from Jiufeng Daoqian; this is confirmed by the Terebess entry for Heshan and commentaries on Blue Cliff Record Case 44 (in which Heshan appears). Jiufeng Daoqian was a student of Shishuang Qingzhu. Tier B: two independent sources.
 human_review_needed: false
 ---
 

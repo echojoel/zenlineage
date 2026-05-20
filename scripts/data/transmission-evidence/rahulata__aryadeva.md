@@ -23,6 +23,5 @@ sources:
     quote: |
       To explain the Dharma of concealing and revealing / The principle of liberation is now taught.
 reducer_notes: |
-  R1: confidence=high
 human_review_needed: false
 ---

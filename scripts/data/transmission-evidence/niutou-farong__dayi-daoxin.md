@@ -27,7 +27,7 @@ sources:
       school alongside the Northern and Southern schools, and later the connection between Daoxin
       and Farong was incorporated into orthodox Zen lineage accounts.
 reducer_notes: |
-  Wave-3 self-writing agent. Multiple sources confirm the traditional claim that Niutou Farong
+  Multiple sources confirm the traditional claim that Niutou Farong
   was a dharma heir of Dayi Daoxin. However, scholarship notes the connection is historically
   tenuous — the Oxhead school may have been originally independent, and the Daoxin-Farong link
   may have been a later hagiographic addition to the orthodox Chan genealogy. Wikipedia explicitly

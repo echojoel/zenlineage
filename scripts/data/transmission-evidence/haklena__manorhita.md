@@ -23,6 +23,6 @@ sources:
     quote: |
       Haklena/Haklenayashas (鶴勒那) — Listed as the 23rd Indian Patriarch, following Manorata; each patriarch transmitted to the next in an unbroken lineage believed to originate from Shakyamuni Buddha.
 reducer_notes: |
-  Wave-4 tier-upgrade pass. Added terebess sequential listing as third independent host confirming Manorhita→Haklena order. Already tier A (institutional + academic + reference, 3 independent hosts).
+  Added terebess sequential listing as third independent host confirming Manorhita→Haklena order. Already tier A (institutional + academic + reference, 3 independent hosts).
 human_review_needed: false
 ---

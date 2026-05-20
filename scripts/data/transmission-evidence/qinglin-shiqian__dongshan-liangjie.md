@@ -23,7 +23,7 @@ sources:
     quote: |
       Qinglin Shiqian (Ch'ing-lin Shih-ch'ien, Seirin Shiken), n.d. A Dharma-heir of Dongshan Liangjie. See Dongshan yulu 54, 55.
 reducer_notes: |
-  Wave-5 final tier-upgrade pass. Three independent sources confirm Dongshan
+  Three independent sources confirm Dongshan
   Liangjie as Qinglin Shiqian's dharma teacher: Encyclopedia of Buddhism listing
   Qinglin among Dongshan's named successors, Wikipedia, and the Terebess Master
   List with an explicit "A Dharma-heir of Dongshan Liangjie" statement referencing

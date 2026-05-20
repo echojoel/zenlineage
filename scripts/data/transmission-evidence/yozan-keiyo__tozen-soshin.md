@@ -29,7 +29,7 @@ sources:
       the Myoshinji lineage. This lineage is part of the Ōtōkan succession
       which is historically the most influential in Japanese Rinzai Zen.
 reducer_notes: |
-  Wave-3 self-writing agent. The Tozen Soshin → Yozan Keiyo transmission is
+  The Tozen Soshin → Yozan Keiyo transmission is
   confirmed by Wikipedia's Rinzai lineage template and the Daiyuzenji
   institutional lineage. Both sources place Yozan Keiyo between Tozen Soshin
   and Gudo Toshoku in the Myoshinji succession. Yozan Keiyo's dates (1559–1629)

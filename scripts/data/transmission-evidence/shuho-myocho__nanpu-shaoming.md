@@ -23,6 +23,6 @@ sources:
     quote: |
       He was the master of Kyōō Unryō and Shūhō Myōchō [listed as dharma successor].
 reducer_notes: |
-  Wave-3 self-writing agent. Well-documented transmission. Nanpo Shomyo (Nanpu Shaoming, 1235–1308) transmitted to Shuho Myocho (1282–1337) who became the second patriarch of the Otōkan lineage and founder of Daitokuji. Multiple Wikipedia articles confirm the direct dharma relationship.
+  Well-documented transmission. Nanpo Shomyo (Nanpu Shaoming, 1235–1308) transmitted to Shuho Myocho (1282–1337) who became the second patriarch of the Otōkan lineage and founder of Daitokuji. Multiple Wikipedia articles confirm the direct dharma relationship.
 human_review_needed: false
 ---

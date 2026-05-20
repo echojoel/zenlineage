@@ -23,7 +23,7 @@ sources:
     quote: |
       Michel Bovay accepted Dharma transmission in 1998 from Yuko Okamoto Roshi of the temple of Teishoji, who had been himself a disciple of Kodo Sawaki and a great supporter of Deshimaru.
 reducer_notes: |
-  Wave-3 self-writing agent. Michel Bovay received formal dharma transmission (shiho) from
+  Michel Bovay received formal dharma transmission (shiho) from
   Yuko Okamoto Roshi of Teishoji in 1998. This is confirmed by multiple Muijoji sangha
   pages. Yuko Okamoto (1935–2021) was the 32nd abbot of Teisho-ji and a disciple of
   Kodo Sawaki, as well as a supporter of Master Deshimaru. Tier B: two independent sangha

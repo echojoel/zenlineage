@@ -23,6 +23,5 @@ sources:
     quote: |
       He received Dharma transmission from Koei Chino Roshi in Kamo in 1962.
 reducer_notes: |
-  R1: confidence=high
 human_review_needed: false
 ---

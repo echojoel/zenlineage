@@ -24,18 +24,10 @@ sources:
     quote: |
       Deshan Yuanmi (Tokusan Emmitsu, 908-87, 14th generation) — lineage: Yunmen Wenyan → Deshan Yuanmi; dharma siblings with Dongshan Shouchu (910-90) in the same generation.
 reducer_notes: |
-  Wave-5 final tier-upgrade pass. Edge confirmed INCORRECT. Multiple independent
-  sources establish that both Deshan Yuanmi and Dongshan Shouchu were dharma heirs
-  of Yunmen Wenyan — they were dharma SIBLINGS, not teacher and student.
-  - Zen Apocrypha (Book of Serenity commentary): "Yuanmi succeeded to Yunmen."
-  - Terebess Master List: lists Deshan Yuanmi in the same 14th generation as
-    Dongshan Shouchu, both under Yunmen.
-  - Wikipedia (Dongshan Shouchu): "an heir to Yunmen Wenyan."
-  The edge deshan-yuanmi → dongshan-shouchu (student → teacher) inverts or
-  conflates the lineage. The correct edges are:
-    yunmen-wenyan → deshan-yuanmi
-    yunmen-wenyan → dongshan-shouchu
-  This edge should be removed from the graph and replaced with direct edges
-  from Yunmen. Tier D: edge is incorrect as stated.
-human_review_needed: true
+  Both Deshan Yuanmi and Dongshan Shouchu were dharma heirs of Yunmen Wenyan — dharma siblings,
+  not teacher and student. Terebess master list places both in the same 14th generation under
+  Yunmen. Wikipedia (Dongshan Shouchu): "an heir to Yunmen Wenyan." Book of Serenity commentary:
+  "Yuanmi succeeded to Yunmen." Edge corrected in originals-curated.json: Deshan Yuanmi teacher
+  changed to Yunmen Wenyan.
+human_review_needed: false
 ---

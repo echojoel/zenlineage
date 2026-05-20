@@ -36,7 +36,7 @@ sources:
       years and transmitted the dharma to Gongai Sōchū (1315–1390), who
       became his primary successor.
 reducer_notes: |
-  Wave-3 self-writing agent. The Tetto Giko → Gongai Sochu transmission is
+  The Tetto Giko → Gongai Sochu transmission is
   confirmed by two Wikipedia articles (Shuho Myocho and Otōkan), Wikiquote,
   and an institutional Rinzai temple lineage. Gongai achieved kensho during
   a 90-day training session under Tetto and became his principal successor

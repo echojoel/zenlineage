@@ -17,6 +17,5 @@ sources:
     quote: |
       The self-existing seed and ground of mind / Produce the sprout through a concurrent cause.
 reducer_notes: |
-  R1: confidence=high
 human_review_needed: false
 ---

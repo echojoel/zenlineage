@@ -29,12 +29,11 @@ sources:
       Taigen Shigen's dharma heir in the Inzan lineage, one generation before
       Gisan Zenrai.
 reducer_notes: |
-  Wave-4 tier-upgrade pass. Upgraded from tier C to tier B. The Ciolek
+  Upgraded from tier C to tier B. The Ciolek
   academic lineage chart explicitly lists Taigen Shigen (1768–1837) as the
   transmission teacher of Daisetsu Jo'en (1797–1855) in the Inzan lineage.
   The Daiyuzenji institutional chart confirms Taigen Shigen's placement
-  between Inzan Itan and Gisan Zenrai. The discrepancy noted in Wave-3
-  (Wikipedia Gisan article listing Daisetsu as Gisan's student) may reflect
+  between Inzan Itan and Gisan Zenrai. The discrepancy noted in (Wikipedia Gisan article listing Daisetsu as Gisan's student) may reflect
   Daisetsu having studied under Gisan as well as receiving formal transmission
   from Taigen Shigen; Gisan (1801–1878) was born after Daisetsu (1797), which
   makes it more likely Daisetsu was Gisan's dharma-brother or co-student under

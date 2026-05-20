@@ -21,7 +21,7 @@ sources:
       Lingyun Zhiqin was a disciple of Guishan who attained enlightenment after thirty years
       of practice upon seeing peach blossoms in bloom.
 reducer_notes: |
-  Wave-3 self-writing agent. Multiple sources confirm Lingyun Zhiqin as a dharma heir of Guishan
+  Multiple sources confirm Lingyun Zhiqin as a dharma heir of Guishan
   Lingyou in the Guiyang school. His famous enlightenment story upon seeing peach blossoms is
   well-documented. Tier B: ≥2 independent sources confirm the transmission.
 human_review_needed: false

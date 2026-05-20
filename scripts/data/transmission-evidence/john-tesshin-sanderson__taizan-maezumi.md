@@ -23,7 +23,6 @@ sources:
     quote: |
       He transmitted the Dharma to twelve successors: Bernard Tetsugen Glassman (NY), Dennis Genpo Merzel (UT & Europe), Charlotte Joko Beck (CA), Jan Chozen Bays (OR), John Daido Loori (NY), Gerry Shishin Wick (CO), John Tesshin Sanderson (Mexico), Alfred Jitsudo Ancheta (CA), Charles Tenshin Fletcher (CA), Susan Myoyu Andersen (IL), Nicolee Jikyo Miller (CA), and William Nyogen Yeo (CA).
 reducer_notes: |
-  R1: confidence=high
   R2: confidence=high
   R3: confidence=high
 human_review_needed: false

@@ -23,7 +23,6 @@ sources:
     quote: |
       Maezumi-roshi gave Dharma transmission to the following individuals: Tetsugen Bernard Glassman, Dennis Merzel, Joko Beck, Jan Chozen Bays, John Daido Loori, Gerry Shishin Wick, John Tesshin Sanderson, Alfred Jitsudo Ancheta, Charles Tenshin Fletcher, Susan Myoyu Andersen, Nicolee Jikyo McMahon, William Nyogen Yeo.
 reducer_notes: |
-  R1: confidence=high, dissent="Different sources use different surnames for the same person: McMahon (Encyclopedia of Buddhism, Wikipedia), Miller (White Plum), McCann (DB slug). All refer to the same student."
   R2: confidence=high, dissent="Different sources use different surnames for the same person: McMahon (Encyclopedia of Buddhism, Wikipedia), Miller (White Plum), McCann (DB slug). All refer to the same student."
   R3: confidence=high, dissent="Different sources use different surnames for the same person: McMahon (Encyclopedia of Buddhism, Wikipedia), Miller (White Plum), McCann (DB slug). All refer to the same student."
 human_review_needed: false

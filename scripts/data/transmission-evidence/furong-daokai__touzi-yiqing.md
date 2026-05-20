@@ -23,6 +23,5 @@ sources:
     quote: |
       Daokai and Bao'en were both successors of Touzi Yiqing (1032-1083).
 reducer_notes: |
-  R1: confidence=high
 human_review_needed: false
 ---

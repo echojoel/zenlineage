@@ -23,7 +23,7 @@ sources:
     quote: |
       Pierre Leroux encountered Zen in 1986 at Rennes and received the shiho from Kosen Thibaut in 2009.
 reducer_notes: |
-  Wave-3 self-writing agent. Pierre Soko Leroux received dharma transmission (shiho) from
+  Pierre Soko Leroux received dharma transmission (shiho) from
   Stéphane Kosen Thibaut in 2009 at the temple at Caroux. This is attested by two
   institutional sources on zen-deshimaru.com and by the French Wikipedia article on Kosen
   Thibaut. Tier A: two institutional sources plus a reference source.

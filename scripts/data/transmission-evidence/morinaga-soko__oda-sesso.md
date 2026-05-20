@@ -23,6 +23,6 @@ sources:
     quote: |
       Oda Sessō (1901–1966) was a Rinzai Rōshi and abbot of the Daitoku-ji in Kyoto, Japan, and a Dharma successor of Gotō Zuigan. Morinaga Sōkō received inka from him.
 reducer_notes: |
-  Wave-3 self-writing agent. Formal inka shomei (dharma transmission) from Oda Sesso to Morinaga Soko in 1963 is well-documented across Wikipedia, Terebess, and a third reference. Both master and student are individually well-attested at Daitokuji. Tier A confirmed.
+  Formal inka shomei (dharma transmission) from Oda Sesso to Morinaga Soko in 1963 is well-documented across Wikipedia, Terebess, and a third reference. Both master and student are individually well-attested at Daitokuji. Tier A confirmed.
 human_review_needed: false
 ---

@@ -17,6 +17,5 @@ sources:
     quote: |
       Shexian Guixing was a Dharma successor of Shoushan Xingian in the fifth generation after Linji — Fushan Fayuan listed among his successors.
 reducer_notes: |
-  R1: confidence=high
 human_review_needed: false
 ---

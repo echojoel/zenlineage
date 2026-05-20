@@ -13,7 +13,7 @@ sources:
       tracing: Luoshan Daoxian → Tianping Congyi, with Tianping later becoming
       an abbot and teaching about his encounter with master Xiyuan.
 reducer_notes: |
-  Wave-3 self-writing agent. C-tier: one credible source. The lineage Luoshan
+  C-tier: one credible source. The lineage Luoshan
   Daoxian → Tianping Congyi is mentioned in the search synthesis
   (bowzwestchester.org characters page), with Luoshan Daoxian identified as
   Tianping's teacher. However the terebess.hu master list (wwzc.org) notes

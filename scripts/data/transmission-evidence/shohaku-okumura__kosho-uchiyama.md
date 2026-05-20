@@ -23,6 +23,6 @@ sources:
     quote: |
       Shohaku Okumura listed as one of Uchiyama's dharma successors in the biographical information section.
 reducer_notes: |
-  Wave-3 self-writing agent. Edge thoroughly confirmed. Okumura received formal dharma transmission from Uchiyama in 1975 at Antai-ji after ordination in 1970. San Francisco Zen Center (institutional) gives exact year; Wikipedia confirms from both the student's and teacher's articles. Three independent sources.
+  Edge thoroughly confirmed. Okumura received formal dharma transmission from Uchiyama in 1975 at Antai-ji after ordination in 1970. San Francisco Zen Center (institutional) gives exact year; Wikipedia confirms from both the student's and teacher's articles. Three independent sources.
 human_review_needed: false
 ---

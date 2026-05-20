@@ -29,7 +29,7 @@ sources:
     quote: |
       Cuiyan Lingcan (Suigan Reisan, 850?-940?, 13th generation) was a disciple of Xuefeng and appears as protagonist in Blue Cliff Record Case 8 alongside fellow Xuefeng dharma heirs Baofu Congzhan, Changqing Huileng, and Yunmen Wenyan.
 reducer_notes: |
-  Wave-4 tier-upgrade pass: added WWZC sangha source and koan-commentary community source.
+  added WWZC sangha source and koan-commentary community source.
   Two independent reference hosts (Terebess + Wikipedia) plus WWZC sangha source meet tier B.
   Cuiyan's role as BCR Case 8 protagonist confirms prominent dharma-heir status under Xuefeng.
 human_review_needed: false

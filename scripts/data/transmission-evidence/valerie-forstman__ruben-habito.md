@@ -17,7 +17,7 @@ sources:
     quote: |
       Valerie Forstman (Meikô-an) — Appointed Zen Teacher in 2005; became Associate Zen Master in 2015. Active in USA and Germany.
 reducer_notes: |
-  Wave-3 self-writing agent. Valerie Forstman began Zen study with Ruben Habito Roshi in 1994 and
+  Valerie Forstman began Zen study with Ruben Habito Roshi in 1994 and
   he remains her first and continuing teacher. She received formal teaching appointment in 2005 and
   became Associate Zen Master in 2015. The 2005 appointment as Zen Teacher would have been under
   Yamada Ryoun's abbacy; Habito is her primary training relationship. Tier B: Mountain Cloud (sangha)

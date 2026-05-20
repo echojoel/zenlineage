@@ -17,6 +17,5 @@ sources:
     quote: |
       Fayan Wenyi's heirs included Baoen Xuanze, Guizong Cezhen, Baoci Xingyan, Chongshou Qichou and Tiantai Deshao.
 reducer_notes: |
-  R1: confidence=high
 human_review_needed: false
 ---

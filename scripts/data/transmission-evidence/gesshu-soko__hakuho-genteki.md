@@ -23,6 +23,6 @@ sources:
     quote: |
       Gesshū Sōkō Great Priest: 1618-1696; ordained at age of 11; great reformer of Sōtō school. … Hakuhō Genteki Great Priest: 1594-1670.
 reducer_notes: |
-  Wave-3 self-writing agent. Sources independently researched. Three independent Soto sangha lineage lists confirm Hakuho Genteki (1594-1670) as teacher of Gesshu Soko (1618-1696). The Zen Center Athens list is the most explicit, placing them sequentially. A search result also noted: "Gesshu Soko inherited the Dharma of Hakuhō Genteki, the 25th resident priest of Daijōji Temple."
+  Sources independently researched. Three independent Soto sangha lineage lists confirm Hakuho Genteki (1594-1670) as teacher of Gesshu Soko (1618-1696). The Zen Center Athens list is the most explicit, placing them sequentially. A search result also noted: "Gesshu Soko inherited the Dharma of Hakuhō Genteki, the 25th resident priest of Daijōji Temple."
 human_review_needed: false
 ---

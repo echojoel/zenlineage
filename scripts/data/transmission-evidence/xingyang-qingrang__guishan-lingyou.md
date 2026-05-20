@@ -11,7 +11,7 @@ sources:
     quote: |
       Xingyang Qingrang: Dharma-heir of Bajiao Huiqing. One of the last Masters of the Guiyang school.
 reducer_notes: |
-  Wave-3 self-writing agent. Terebess master list identifies Xingyang Qingrang as a dharma heir of
+  Terebess master list identifies Xingyang Qingrang as a dharma heir of
   Bajiao Huiqing, not Guishan Lingyou directly. Bajiao Huiqing is himself in the Guiyang lineage
   (heir of Yangshan Huiji). Guishan Lingyou's documented direct heirs are Yangshan Huiji, Xiangyan
   Zhixian, Lingyun Zhiqin, and Jingzhao Mihu. Xingyang Qingrang appears to be a later Guiyang

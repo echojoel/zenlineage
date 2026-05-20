@@ -23,7 +23,7 @@ sources:
     quote: |
       Tokuō Ryōkō (1649–1709) transmitted to successors including Mokushi Soen; in the last three hundred years since Tokuo, there have been nine successors in the Katagiri line.
 reducer_notes: |
-  Wave-3 self-writing agent. Tokuo Ryoko (1649–1709) and Mokushi Soen appear consecutively
+  Tokuo Ryoko (1649–1709) and Mokushi Soen appear consecutively
   at positions 23–24 in the ZENKAN lineage chart and 81–82 in the Treeleaf Zendo Katagiri
   lineage chart. Three independent sources confirm the transmission relationship.
 human_review_needed: false

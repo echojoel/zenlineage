@@ -17,7 +17,7 @@ sources:
     quote: |
       Migaku Sato (Kyûun-ken) — Appointed Zen Teacher in 2004; became Associate Zen Master in 2009; Zen Master 2020. Active in Germany, Japan, and Israel.
 reducer_notes: |
-  Wave-3 self-writing agent. After Yamada Koun's death in 1989, Migaku Sato continued Zen training
+  After Yamada Koun's death in 1989, Migaku Sato continued Zen training
   under Kubota Jiun until Kubota's retirement (2004). His 2004 Zen Teacher appointment was conferred
   during Yamada Ryoun's early abbacy, but Kubota was his active training teacher for most of the
   1989-2004 period. This is a training/teacher relationship; formal dharma transmission came from

@@ -11,7 +11,7 @@ sources:
     quote: |
       Sixin Wuxin (Ssu-hsin Wu-hsin, Shishin Goshin, 1044-1115) listed in lineage descending from Baiyun Shouduan in the Yangqi branch.
 reducer_notes: |
-  Wave-3 self-writing agent. Sixin Wuxin (1044-1115) appears in the Yangqi lineage charts as a dharma heir of Baiyun Shouduan (1025-1072), though Wikipedia attributes him as a dharma-heir of Huitang Zuxin (another Baiyun student). The lineage connection is reported in Terebess master lists but direct explicit sourcing in major encyclopedias is limited. The contemporaneity is consistent (Baiyun d.1072, Sixin b.1044). Tier C: one credible reference source; the Huitang-Zuxin attribution also present in some lists creates mild ambiguity.
+  Sixin Wuxin (1044-1115) appears in the Yangqi lineage charts as a dharma heir of Baiyun Shouduan (1025-1072), though Wikipedia attributes him as a dharma-heir of Huitang Zuxin (another Baiyun student). The lineage connection is reported in Terebess master lists but direct explicit sourcing in major encyclopedias is limited. The contemporaneity is consistent (Baiyun d.1072, Sixin b.1044). Tier C: one credible reference source; the Huitang-Zuxin attribution also present in some lists creates mild ambiguity.
 human_review_needed: true
 ---
 

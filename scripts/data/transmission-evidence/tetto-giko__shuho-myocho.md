@@ -23,6 +23,6 @@ sources:
     quote: |
       Shuho Myocho handed over the running of Daitokuji to his apprentice Tetto Giko before his death.
 reducer_notes: |
-  Wave-3 self-writing agent. Tetto Giko (1295–1369) was Shuho Myocho's direct successor and appointed abbot of Daitokuji. The transmission is confirmed across three independent reference sources. Tetto Giko served as abbot for 31 years, stabilizing Daitokuji's patronage. Tier A.
+  Tetto Giko (1295–1369) was Shuho Myocho's direct successor and appointed abbot of Daitokuji. The transmission is confirmed across three independent reference sources. Tetto Giko served as abbot for 31 years, stabilizing Daitokuji's patronage. Tier A.
 human_review_needed: false
 ---

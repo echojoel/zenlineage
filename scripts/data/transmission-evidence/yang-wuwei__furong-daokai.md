@@ -2,11 +2,26 @@
 student: yang-wuwei
 teacher: furong-daokai
 tier: D
-verified_at: 2026-05-15
-sources: []
+verified_at: 2026-05-20
+sources:
+  - publisher: "Wikipedia — Furong Daokai"
+    url: https://en.wikipedia.org/wiki/Furong_Daokai
+    domain_class: reference
+    retrieved_on: "2026-05-20"
+    quote: |
+      According to his funerary inscription of 1127, he ordained 93 students
+      during his life. His dharma heirs included Kumu Facheng, Dayong Qilian,
+      Lumen Fadeng, Jingyin Zijue, Shimen Yuanyi, Baofeng Weizhao, and Danxia
+      Zichun.
 reducer_notes: |
-  Wave-3 self-writing agent. Research found no credible source identifying "Yang Wuwei" as a dharma heir of Furong Daokai (1043-1118). Wikipedia lists Furong Daokai's seven named disciples (Kumu Facheng, Dayong Qilian, Lumen Fadeng, Jingyin Zijue, Shimen Yuanyi, Baofeng Weizhao, Danxia Zichun) — Yang Wuwei is not among them. The name "Yang Wuwei" does not appear in any Caodong lineage source found. It is possible this refers to an obscure disciple within the 93 students Furong ordained, but no verification found. Tier D.
+  No credible source identifies "Yang Wuwei" as a dharma heir of Furong Daokai
+  (1043–1118). Wikipedia lists Furong Daokai's seven named dharma heirs
+  (Kumu Facheng, Dayong Qilian, Lumen Fadeng, Jingyin Zijue, Shimen Yuanyi,
+  Baofeng Weizhao, Danxia Zichun) — Yang Wuwei is absent from all seven.
+  The Terebess master list and WWZC master list contain no entry for a master
+  named Yang Wuwei. Furong Daokai's epitaph records 93 total ordinees, so
+  the name could refer to an obscure disciple not prominent enough to appear
+  in transmitted lamp records, but no verification is possible from available
+  sources. The identification cannot be confirmed. Tier D maintained.
 human_review_needed: true
 ---
-
-No credible source confirms "Yang Wuwei" as a dharma heir of Furong Daokai. Furong's seven named heirs in Wikipedia do not include this name. The identification may be from a specialized Chan genealogy text not available in general web sources. Human review recommended.

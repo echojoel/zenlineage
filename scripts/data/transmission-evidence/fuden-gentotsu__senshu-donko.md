@@ -26,7 +26,7 @@ sources:
     quote: |
       Senshu Donko Daiosho / Fuden Gentotsu Daiosho / Daishun Kanyu Daiosho — consecutive entries in the Soto Zen ancestral lineage chanted at Milwaukee Zen Center (Shunryu Suzuki line)
 reducer_notes: |
-  Wave-4 tier-upgrade pass. Now tier B: two institutional sources (rebanderson.org/SFZC and
+  Now tier B: two institutional sources (rebanderson.org/SFZC and
   Milwaukee Zen Center) plus Treeleaf. All three place Senshu Donko immediately before Fuden
   Gentotsu in the Sōtō lineage. The SFZC PDF explicitly discusses both as sequential Yōkōin
   abbots with the "(probably)" qualifier reflecting a translator's uncertainty about abbatial
@@ -34,7 +34,7 @@ reducer_notes: |
   Treeleaf Katagiri line independently confirm the same sequential pair, indicating both
   main Soto lineage branches in the West chant these names in this order.
 
-  CHRONOLOGICAL NOTE: The original Wave-3 evidence flagged that the abbatial dates are
+  CHRONOLOGICAL NOTE: The original evidence flagged that the abbatial dates are
   unusual (Fuden Gentotsu may have predated Senshu Donko). This anomaly was present in
   the SFZC PDF's "(probably)" qualifier and warrants ongoing attention, but the lineage
   position (Senshu Donko → Fuden Gentotsu) is consistent across independent sources.

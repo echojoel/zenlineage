@@ -19,7 +19,7 @@ sources:
       Master Nguyen Thieu, of the Lin Chi tradition who had come from China, set up a new Zen
       school, with its headquarters at Thap Thap Temple in the province of Binh Dinh (built in 1683).
 reducer_notes: |
-  Wave-3 self-writing agent. The edge linji-yixuan -> nguyen-thieu represents a ~800-year lineage
+  The edge linji-yixuan -> nguyen-thieu represents a ~800-year lineage
   connection rather than a direct transmission. Nguyên Thiều (1648-1728) was a dharma heir of
   Muchen Daomin's disciple Kuang-yuan Benkao, representing the 34th or so generation after Linji
   Yixuan. The "teacher" here is the founder of the school, not a direct predecessor. Multiple sources

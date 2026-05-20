@@ -29,6 +29,6 @@ sources:
     quote: |
       Fenyang Shanzhao gave Transmission to Ciming Quyuan (= Chuyuan) and is thus the Ancestor of all surviving Linji Lineages.
 reducer_notes: |
-  Wave-3 self-writing agent. The Fenyang→Shishuang Chuyuan transmission is one of the most important edges in Linji history — Chuyuan (Ciming Quyuan) was the teacher of both Yangqi Fanghui and Huanglong Huinan, founders of the two surviving Linji branches. Attested in multiple authoritative independent sources. Tier A.
+  The Fenyang→Shishuang Chuyuan transmission is one of the most important edges in Linji history — Chuyuan (Ciming Quyuan) was the teacher of both Yangqi Fanghui and Huanglong Huinan, founders of the two surviving Linji branches. Attested in multiple authoritative independent sources. Tier A.
 human_review_needed: false
 ---

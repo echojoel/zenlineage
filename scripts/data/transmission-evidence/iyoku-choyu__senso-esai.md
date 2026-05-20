@@ -19,7 +19,7 @@ sources:
       Zōunin records list Iyoku Chōyū as the Dharma successor of
       Sensō Esai (seventh ancestor in the Zōunin line).
 reducer_notes: |
-  Wave-3 self-writing agent. The SFZC PDF explicitly states Iyoku Chōyū
+  The SFZC PDF explicitly states Iyoku Chōyū
   received dharma transmission from Sensō Esai at Tōjuin temple. The
   Zōunin ancestral records (cited in the PDF) confirm the lineage
   position. Both sources ultimately trace to the same PDF but represent

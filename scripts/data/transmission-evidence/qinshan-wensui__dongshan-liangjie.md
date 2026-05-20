@@ -20,7 +20,7 @@ sources:
       he was put in the infirmary. After this, he left to study with Dongshan and became abbot
       of Qinshan monastery.
 reducer_notes: |
-  Wave-3 self-writing agent. Terebess and Encyclopedia of Buddhism confirm Qinshan Wensui as a
+  Terebess and Encyclopedia of Buddhism confirm Qinshan Wensui as a
   dharma heir of Dongshan Liangjie. Note: the Encyclopedia of Buddhism entry distinguishes between
   dharma heirs (Caoshan Benji, Yunju Daoying) and "students (other than successors)" — Qinshan
   Wensui falls in the latter category in that source, but terebess explicitly calls him a

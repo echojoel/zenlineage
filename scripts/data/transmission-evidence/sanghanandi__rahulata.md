@@ -17,6 +17,5 @@ sources:
     quote: |
       Rahulata → Sanghanandi (17th): 'The Dharma does not realise a thing, / Nor can it be grasped or thrown away.'
 reducer_notes: |
-  R1: confidence=high
 human_review_needed: false
 ---

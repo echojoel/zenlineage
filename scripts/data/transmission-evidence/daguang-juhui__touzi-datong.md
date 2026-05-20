@@ -25,7 +25,7 @@ sources:
     quote: |
       Daguang Juhui Ta-kuang Chü-hui Daikô Kokai O12 93
 reducer_notes: |
-  Wave-5 final tier-upgrade pass. CONFLICTING TEACHER ATTRIBUTION DETECTED.
+  CONFLICTING TEACHER ATTRIBUTION DETECTED.
   The current edge asserts Touzi Datong as teacher. However:
   - Polish Wikipedia (pl.wikipedia.org/wiki/Daguang_Juhui) explicitly names
     Shishuang Qingzhu (805-889) as Daguang Juhui's teacher, citing a lineage

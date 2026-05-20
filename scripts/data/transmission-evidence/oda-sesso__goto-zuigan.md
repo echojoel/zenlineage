@@ -29,7 +29,7 @@ sources:
     quote: |
       Oda Sessō (1901–16 September 1966) was a Rinzai Rōshi and abbot of the Daitoku-ji in Kyoto, Japan, a Dharma successor of Gotō Zuigan. He was elected abbot of Daitokuji upon Goto's retirement from that post in 1955.
 reducer_notes: |
-  Wave-3 self-writing agent. Gotō Zuigan (1879–1965) → Oda Sessō (1901–1966) confirmed by
+  Gotō Zuigan (1879–1965) → Oda Sessō (1901–1966) confirmed by
   Wikipedia (both articles) and Infogalactic. Oda Sessō is unambiguously described as a "Dharma
   successor of Gotō Zuigan" across multiple independent sources.
 human_review_needed: false

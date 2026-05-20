@@ -23,7 +23,7 @@ sources:
     quote: |
       Harada Daiun Sogaku was a Sōtō Zen monk who trained under both Sōtō and Rinzai teachers. He studied under various Sōtō-priests such as Harada Sodo Kakusho.
 reducer_notes: |
-  Wave-3 self-writing agent. Harada Sodo Kakusho was Harada Daiun Sogaku's Soto ordination master
+  Harada Sodo Kakusho was Harada Daiun Sogaku's Soto ordination master
   and dharma transmission teacher within the Soto school. This is distinct from his later Rinzai
   koan training under Dokutan Sosan. All sources agree on this Soto transmission as the canonical
   lineage link. Tier A: Wikipedia (reference) + Sanbo Zen International (institutional) + Patheos (community).

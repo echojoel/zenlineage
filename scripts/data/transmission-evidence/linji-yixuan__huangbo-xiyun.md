@@ -29,6 +29,6 @@ sources:
     quote: |
       Linji Yixuan is his most celebrated successor. Three times Linji went to Huángbò and three times the only answer he got was a slap.
 reducer_notes: |
-  Wave-3 self-writing agent. The Huangbo→Linji transmission is the most historically pivotal edge in all of Chan Buddhism — it gave rise to the Linji school. Attested in every major encyclopaedic source with near-verbatim agreement. Tier A without question.
+  The Huangbo→Linji transmission is the most historically pivotal edge in all of Chan Buddhism — it gave rise to the Linji school. Attested in every major encyclopaedic source with near-verbatim agreement. Tier A without question.
 human_review_needed: false
 ---

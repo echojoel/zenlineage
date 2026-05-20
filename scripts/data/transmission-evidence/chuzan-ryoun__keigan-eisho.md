@@ -23,6 +23,6 @@ sources:
     quote: |
       Keigan Eishō (1321–1412) and Chuzan Ryōun (1350–1432) appear consecutively in the Soto Zen Meihō line; Chuzan Ryōun received dharma transmission from Keigan Eishō and served as abbot of Daijōji.
 reducer_notes: |
-  Wave-3 self-writing agent. Edge confirmed in three independent lineage sources. Keigan Eisho (1321–1412) and Chuzan Ryoun (1350–1432) are consecutive in both the ZENKAN chart and Dharma Rain institutional chant. The Sanbo-Zen lineage chart provides dates and identifies Chuzan Ryoun as Keigan's successor at Daijoji.
+  Edge confirmed in three independent lineage sources. Keigan Eisho (1321–1412) and Chuzan Ryoun (1350–1432) are consecutive in both the ZENKAN chart and Dharma Rain institutional chant. The Sanbo-Zen lineage chart provides dates and identifies Chuzan Ryoun as Keigan's successor at Daijoji.
 human_review_needed: false
 ---

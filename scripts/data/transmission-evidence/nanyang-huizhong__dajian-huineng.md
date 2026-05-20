@@ -29,7 +29,7 @@ sources:
     quote: |
       He is said to have studied under the sixth patriarch (Liuzu) Huineng (638–713) as a youth and to have eventually become one of his dharma successors. After Huineng's death, Huizhong lived itinerantly before settling into forty years of secluded practice in Nanyang.
 reducer_notes: |
-  Wave-5 final tier-upgrade pass. Added Oxford Reference and Tsadra Buddha-Nature
+  Added Oxford Reference and Tsadra Buddha-Nature
   Foundation as independent academic sources. Four independent sources across
   three domain classes now confirm this edge. Oxford Reference specifically states
   'receiving dharma transmission'; Tsadra states 'eventually became one of his

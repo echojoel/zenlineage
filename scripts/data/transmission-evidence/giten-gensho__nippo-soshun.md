@@ -23,6 +23,6 @@ sources:
     quote: |
       Giten Gensho was invited by Hosokawa Katsumoto in 1450 to transform a villa into a Zen temple, and while Gensho actually founded the temple himself (Ryoanji), he made his own master, Nippo Soshun, the official founder.
 reducer_notes: |
-  Wave-3 self-writing agent. The Ryoanji connection (Giten Gensho honoring his master Nippo Soshun by naming him the temple's official founder) is strong confirmatory evidence of the teacher-student relationship. Multiple sources list them consecutively in the Myoshin-ji transmission chain.
+  The Ryoanji connection (Giten Gensho honoring his master Nippo Soshun by naming him the temple's official founder) is strong confirmatory evidence of the teacher-student relationship. Multiple sources list them consecutively in the Myoshin-ji transmission chain.
 human_review_needed: false
 ---

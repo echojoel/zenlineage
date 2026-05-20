@@ -17,6 +17,5 @@ sources:
     quote: |
       Buddha → Mahākāśyapa → Ānanda → Śāṇakavāsin → Upagupta → Dhṛtaka → Vibhaga → Buddhanandi → Buddhamitra → Monk Pārśva → Puṇyayaśas → Aśvaghoṣa → Maśiva/Kapimala → Nāgārjuna...
 reducer_notes: |
-  R1: confidence=high
 human_review_needed: false
 ---

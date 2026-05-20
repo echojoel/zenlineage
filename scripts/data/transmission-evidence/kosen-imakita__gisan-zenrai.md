@@ -29,7 +29,7 @@ sources:
     quote: |
       Gisan Zenrai transmitted the dharma to Imakita Kosen and other masters at Sogen-ji in Okayama.
 reducer_notes: |
-  Wave-3 self-writing agent. Gisan Zenrai (1802–1878) → Imakita Kosen (1816–1892) confirmed by
+  Gisan Zenrai (1802–1878) → Imakita Kosen (1816–1892) confirmed by
   Wikipedia, Tibetan Buddhist Encyclopedia, and community sources. Imakita Kosen later became
   instrumental in bringing Zen to Western audiences; his heir Soyen Shaku attended the World
   Parliament of Religions in 1893.

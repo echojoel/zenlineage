@@ -29,7 +29,7 @@ sources:
     quote: |
       According to Broughton, Daoyuan's teacher, Yizhou Nanyin, the abbot of Shengshou Monastery, likely trained with Heze Shenhui and this other Shenhui of Sichuan — the Jingzhong Shenhui who was Wuxiang's direct successor at the Jingzhong monastery in Chengdu.
 reducer_notes: |
-  Wave-5 final tier-upgrade pass. Added Wikipedia Heze School article as a third
+  Added Wikipedia Heze School article as a third
   independent reference. The Jingzhong Shenhui (720–794) is a distinct figure from
   Heze Shenhui (684–758); his discipleship under Wuxiang at the Jingzhong monastery
   in Chengdu is attested by the Lidai fabao ji biography and Broughton's scholarship

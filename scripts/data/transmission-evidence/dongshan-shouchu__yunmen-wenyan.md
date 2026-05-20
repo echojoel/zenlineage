@@ -27,7 +27,7 @@ sources:
       (910–990), who inherited the abbotship of Yunmen Monastery upon
       the master's death."
 reducer_notes: |
-  Wave-3 self-writing agent. Dongshan Shouchu is confirmed as a dharma heir
+  Dongshan Shouchu is confirmed as a dharma heir
   and abbatial successor of Yunmen Wenyan by multiple Wikipedia sources.
   Note: there are conflicting dates (d. 900 vs. 910–990) across sources,
   suggesting possible confusion with another master or a transcription issue.

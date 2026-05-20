@@ -23,6 +23,6 @@ sources:
     quote: |
       Suzuki began studying under Soyen Shaku, newly installed as abbot, who gave the young scholar the koan Mu. Soyen Shaku served as Suzuki's primary Zen master following Imakita Kosen's death.
 reducer_notes: |
-  Wave-3 self-writing agent. The Soyen Shaku → D.T. Suzuki relationship is among the most historically documented in modern Zen. Two Wikipedia articles and Tricycle (major Buddhist institutional publication) all confirm Soyen Shaku gave Suzuki his Buddhist dharma name and was his primary Zen teacher. Note: the relationship was more scholarly/practice-based than a formal inka transmission — Suzuki was known primarily as a scholar rather than a transmitted teacher himself. Tier A.
+  The Soyen Shaku → D.T. Suzuki relationship is among the most historically documented in modern Zen. Two Wikipedia articles and Tricycle (major Buddhist institutional publication) all confirm Soyen Shaku gave Suzuki his Buddhist dharma name and was his primary Zen teacher. Note: the relationship was more scholarly/practice-based than a formal inka transmission — Suzuki was known primarily as a scholar rather than a transmitted teacher himself. Tier A.
 human_review_needed: false
 ---

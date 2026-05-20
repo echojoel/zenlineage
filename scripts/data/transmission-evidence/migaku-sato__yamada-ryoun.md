@@ -23,7 +23,7 @@ sources:
     quote: |
       Migaku Sato received Dharma transmission from Yamada Ryoun Roshi in August 2020 and was appointed Zen Master (Shoshike) of Sanbo Zen.
 reducer_notes: |
-  Wave-3 self-writing agent. Migaku Sato received formal full dharma transmission (inka shomei) from
+  Migaku Sato received formal full dharma transmission (inka shomei) from
   Yamada Ryoun in August 2020, making him Zen Master (Shoshike) of Sanbo Zen. This is precisely
   dated and multiply attested. Tier A: Sanbo Zen International (institutional) + Domicilium (sangha)
   + Wikipedia (reference).

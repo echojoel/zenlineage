@@ -35,7 +35,7 @@ sources:
       Xuansha Shibei (835-908), predecessor of the Fayan school, passed
       Mikkyo Teachings to Luohan Guichen who transmitted them to Fayan Wenyi.
 reducer_notes: |
-  Wave-3 self-writing agent. A-tier: two Wikipedia entries (reference), one
+  A-tier: two Wikipedia entries (reference), one
   community source, one Oxford Reference (institutional/academic). The
   Xuansha→Luohan Guichen→Fayan lineage is canonical and multiply attested.
 human_review_needed: false

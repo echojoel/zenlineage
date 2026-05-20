@@ -23,7 +23,6 @@ sources:
     quote: |
       She finished formal koan study in 1983 and she was given Dharma transmission (authorization to teach) that same year.
 reducer_notes: |
-  R1: confidence=high
   R2: confidence=high
   R3: confidence=high
 human_review_needed: false

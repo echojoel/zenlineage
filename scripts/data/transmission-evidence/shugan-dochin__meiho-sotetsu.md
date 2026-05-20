@@ -23,6 +23,6 @@ sources:
     quote: |
       Meiho Sotetsu (5th in Japan) … Shugan Dochin (6th in Japan) — listed as consecutive entries in the ZENKAN lineage chart.
 reducer_notes: |
-  Wave-3 self-writing agent. Edge thoroughly confirmed. Patheos/Dosho Port academic article explicitly names Shugan Dochin (d. 1387) as Meiho Sotetsu's dharma successor and next abbot of Daijoji. Dharma Rain institutional chant and ZENKAN both list them consecutively. Three independent sources (academic + institutional + sangha) meet tier A criteria.
+  Edge thoroughly confirmed. Patheos/Dosho Port academic article explicitly names Shugan Dochin (d. 1387) as Meiho Sotetsu's dharma successor and next abbot of Daijoji. Dharma Rain institutional chant and ZENKAN both list them consecutively. Three independent sources (academic + institutional + sangha) meet tier A criteria.
 human_review_needed: false
 ---

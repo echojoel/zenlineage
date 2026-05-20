@@ -23,6 +23,6 @@ sources:
     quote: |
       Kokoku Soryu and Rosetsu Ryuko appear consecutively in the Japanese Soto Zen ancestral succession as the 26th and 27th patriarchs.
 reducer_notes: |
-  Wave-3 self-writing agent. Edge confirmed in the ZENKAN lineage list and Terebess.hu modern Soto lineages page, where Kokoku Soryu (26) is immediately followed by Rosetsu Ryuko (27) in the Harada/Kosen branch of Soto Zen that descends through Gasan Joseki and Meiho Sotetsu.
+  Edge confirmed in the ZENKAN lineage list and Terebess.hu modern Soto lineages page, where Kokoku Soryu (26) is immediately followed by Rosetsu Ryuko (27) in the Harada/Kosen branch of Soto Zen that descends through Gasan Joseki and Meiho Sotetsu.
 human_review_needed: false
 ---

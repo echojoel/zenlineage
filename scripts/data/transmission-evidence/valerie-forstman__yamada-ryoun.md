@@ -17,7 +17,7 @@ sources:
     quote: |
       Valerie Forstman (Meikô-an) — Appointed Zen Teacher in 2005; became Associate Zen Master in 2015. Active in USA and Germany.
 reducer_notes: |
-  Wave-3 self-writing agent. Valerie Forstman has trained under Yamada Ryoun since 2003, in addition
+  Valerie Forstman has trained under Yamada Ryoun since 2003, in addition
   to her primary teacher Ruben Habito. Her institutional elevation (Zen Teacher 2005, Associate Zen
   Master 2015) would have been conferred by Yamada Ryoun as abbot. No source explicitly states a
   separate formal transmission ceremony from Yamada Ryoun; the relationship is ongoing training +

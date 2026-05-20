@@ -37,7 +37,7 @@ sources:
       Sōkatsu (1871–1954), establishing the continuation of his Rinzai Zen
       lineage.
 reducer_notes: |
-  Wave-3 self-writing agent. Transmission is multiply attested across
+  Transmission is multiply attested across
   Wikipedia (reference), a sangha site, and an independent community source.
   Sokatsu is the only person listed as Soyen Shaku's dharma heir on Wikipedia.
   Dates vary slightly across sources (1870 vs. 1871 birth year) but the

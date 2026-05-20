@@ -23,6 +23,6 @@ sources:
     quote: |
       Jochu Tengin (1363-1437), Japanese Zen monk, received dharma transmission from Baisan Monpon; his disciples Kisan Shosan and Shingan Doku started separate dharma lineages honored in different temples within the Soto school.
 reducer_notes: |
-  Wave-3 self-writing agent. Edge strongly confirmed. Wikipedia explicitly states Shingan Dōkū was Jochū Tengin's dharma successor who inherited Tōjuin Temple, the temple his master Jochū had founded. Milwaukee Zen Center lists them as consecutive ancestors in the formal Shunryu Suzuki lineage. SFZC institutional document provides corroboration (3 independent sources).
+  Edge strongly confirmed. Wikipedia explicitly states Shingan Dōkū was Jochū Tengin's dharma successor who inherited Tōjuin Temple, the temple his master Jochū had founded. Milwaukee Zen Center lists them as consecutive ancestors in the formal Shunryu Suzuki lineage. SFZC institutional document provides corroboration (3 independent sources).
 human_review_needed: false
 ---

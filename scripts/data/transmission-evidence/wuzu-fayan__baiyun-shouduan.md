@@ -29,6 +29,6 @@ sources:
     quote: |
       Wuzu Fayan received dharma transmission from Baiyun Shouduan within the Yangqi branch of the Linji school during the Song dynasty.
 reducer_notes: |
-  Wave-3 self-writing agent. Transmission from Baiyun Shouduan to Wuzu Fayan is one of the best-attested edges in the Yangqi branch of Linji Chan. Multiple independent sources confirm it: terebess.hu (two pages), Wikipedia, and the Encyclopedia of Buddhism. The awakening story (Baiyun's shout) is recounted on both Terebess pages. Wuzu Fayan went on to produce 22 dharma heirs including Yuanwu Keqin (compiler of the Blue Cliff Record).
+  Transmission from Baiyun Shouduan to Wuzu Fayan is one of the best-attested edges in the Yangqi branch of Linji Chan. Multiple independent sources confirm it: terebess.hu (two pages), Wikipedia, and the Encyclopedia of Buddhism. The awakening story (Baiyun's shout) is recounted on both Terebess pages. Wuzu Fayan went on to produce 22 dharma heirs including Yuanwu Keqin (compiler of the Blue Cliff Record).
 human_review_needed: false
 ---

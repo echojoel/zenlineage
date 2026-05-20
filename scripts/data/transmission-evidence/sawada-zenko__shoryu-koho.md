@@ -27,7 +27,7 @@ sources:
       Sawaki was ordained in 1899 by Koho Sawada, and he received dharma
       transmission later that year from Zenko Sawada in 1906.
 reducer_notes: |
-  Wave-4 tier-upgrade research. Note on name ambiguity: Wikipedia uses "Koho
+  tier-upgrade research. Note on name ambiguity: Wikipedia uses "Koho
   Sawada" (ordained Sawaki) and "Zenko Sawada" (transmitted to Sawaki) as two
   distinct names. The ZENKAN chart lists "Shoryu Koho" (#29) and "Shokoku
   Zenko" (#30) consecutively. Most likely interpretation: Shoryu Koho and

@@ -23,15 +23,10 @@ sources:
     quote: |
       Baoning Renyong was one of the most influential ninth generation Linji Chan masters. He received dharma transmission through the Linji lineage, with Cuiyan Kezhen as his predecessor in the Huanglong branch.
 reducer_notes: |
-  Wave-4 tier-upgrade pass. This edge is a data error. Both the WWZC master list and
-  Terebess Asia Online explicitly identify Baoning Renyong (Baoming Renyong) as "A
-  Dharma-heir of Yangqi Fanghui," NOT Cuiyan Kezhen. The Ferguson lineage chart (cuke.com)
-  places Baoning Renyong in the Yangqi branch under Yangqi Fanghui's generation. The Polish
-  Wikipedia article on Cuiyan Kezhen (retained from Wave-3) names his successor as Dagui
-  Muzhe, not Baoning Renyong. The MDPI academic source places Baoning "in the Huanglong
-  branch" — but Cuiyan Kezhen was in the Yangqi branch, not Huanglong, making even this
-  framing inconsistent. The correct teacher of Baoning Renyong is Yangqi Fanghui. The
-  cuiyan-kezhen→baoning-renyong edge in the database appears to be a misassignment. Downgraded
-  to Tier D. Human review required to correct the transmission edge in the seed data.
-human_review_needed: true
+  WWZC and Terebess both explicitly identify Baoning Renyong (Baoming Renyong) as "A Dharma-heir
+  of Yangqi Fanghui," not Cuiyan Kezhen. The Ferguson lineage chart places him in the Yangqi
+  branch. Cuiyan Kezhen's successor was Dagui Muzhe, not Baoning Renyong. The MDPI placement "in
+  the Huanglong branch" is internally inconsistent since Cuiyan Kezhen was in the Yangqi branch.
+  Edge corrected in originals-curated.json: Baoning Renyong teacher changed to Yangqi Fanghui.
+human_review_needed: false
 ---

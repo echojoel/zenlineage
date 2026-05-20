@@ -32,7 +32,7 @@ sources:
       He received dharma transmission from Master Yvon Myoken Bec at
       Temples Taisen-ji and Hobo-ji in Hungary on June 4, 2007.
 reducer_notes: |
-  Wave-4 tier-upgrade. IMPORTANT CLARIFICATION: Etienne Mokusho Zeisler gave
+  IMPORTANT CLARIFICATION: Etienne Mokusho Zeisler gave
   Vuillemin monastic ORDINATION (jukai/tokudo) in 1987 — not formal shihō
   dharma transmission. Zeisler died in 1990. Vuillemin's actual shihō came from
   Yvon Myoken Bec in 2007 (see vincent-keisen-vuillemin__yvon-myoken-bec.md).

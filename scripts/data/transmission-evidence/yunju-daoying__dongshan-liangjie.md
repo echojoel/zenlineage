@@ -23,6 +23,5 @@ sources:
     quote: |
       Yunju Daoying started a branch of Dongshan's lineage which lasted in China until the seventeenth century.
 reducer_notes: |
-  R1: confidence=high
 human_review_needed: false
 ---

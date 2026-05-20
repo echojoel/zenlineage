@@ -23,6 +23,5 @@ sources:
     quote: |
       he was born into a Brahmin family in south India and became the spiritual son of Nagarjuna. Aryadeva became so skilled in debate that he could defeat all his opponents.
 reducer_notes: |
-  R1: confidence=high
 human_review_needed: false
 ---

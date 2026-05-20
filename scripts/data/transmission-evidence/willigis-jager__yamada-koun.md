@@ -23,7 +23,7 @@ sources:
     quote: |
       Willigis Jäger (Ko-un Ken) — directs Zen groups in Germany; formally recognized as a dharma heir of Yamada Koun Roshi.
 reducer_notes: |
-  Wave-3 self-writing agent. Jäger trained under Yamada Koun from 1975, received teaching authorization
+  Jäger trained under Yamada Koun from 1975, received teaching authorization
   in 1980 (dharma name Koun-ken, "Cloud of the old one"), and later received inka shomei from Kubota Jiun
   in 1996. The Yamada Koun→Jäger link is unambiguous. Tier A: Wikipedia x2 (reference) + via integralis
   (sangha).

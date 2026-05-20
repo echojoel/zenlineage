@@ -23,7 +23,7 @@ sources:
     quote: |
       Disciple of Xuefeng awakened by a tenzo. Dogen refers to this story in Tenzo kyokun; see Cooking Zen.
 reducer_notes: |
-  Wave-5 final tier-upgrade pass. Three independent sources confirm Xuefeng Yicun
+  Three independent sources confirm Xuefeng Yicun
   as Taiyuan Fu's dharma teacher: Wikipedia listing Taiyuan Fu explicitly among
   Xuefeng's heirs, Terebess Master List, and WWZC. The Dōgen reference to the
   tenzo-awakening story (Tenzo kyokun) provides additional institutional

@@ -29,7 +29,7 @@ sources:
     quote: |
       The Lidai fabao ji presents the lineage Zizhou Zhishen → Zizhou Chuji → Jingzhong Wuxiang → Baotang Wuzhu; scholar Adamek demonstrates that the text strategically constructs Wuzhu's transmission from Wuxiang to legitimate the Baotang school's claim to Chan authority in Sichuan.
 reducer_notes: |
-  Wave-5 final tier-upgrade pass. Added Wikipedia Kim Hwasang article and
+  Added Wikipedia Kim Hwasang article and
   Columbia University Press (Wendi Adamek, 2007) as independent sources. The
   Adamek academic note is especially valuable because it provides the scholarly
   critique while still confirming the transmission claim as the operative

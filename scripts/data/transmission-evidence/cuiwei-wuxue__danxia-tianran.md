@@ -23,7 +23,7 @@ sources:
     quote: |
       Cuiwei Wuxue — A Dharma-heir of Danxia Tianran, gave Transmission to Touzi Datong.
 reducer_notes: |
-  Wave-4 tier-upgrade pass: upgraded from C to B. Three independent sources from two different
+  upgraded from C to B. Three independent sources from two different
   organisations (Terebess reference archive ×2, WWZC sangha). The Terebess-Danxia page provides
   the most explicit statement: Danxia is named as "the master of Ts'ui-wei Wu-hsueh", confirming
   direct teacher-student relationship. Tier B: ≥2 independent hosts + 1 institutional/reference.

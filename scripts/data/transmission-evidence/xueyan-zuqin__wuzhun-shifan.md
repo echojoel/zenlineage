@@ -23,7 +23,7 @@ sources:
     quote: |
       Wuzhun Shifan's disciples include Xueyan Zuqin, Duanqiao Miaolun, and the Japanese Enni Ben'en who established Tofukuji.
 reducer_notes: |
-  Wave-3 self-writing agent. Xueyan Zuqin (1206-1287) received dharma transmission from Wuzhun Shifan (1178-1249) and succeeded him as abbot of Jingshan. Confirmed by Wikipedia, Oxford Reference, and additional reference sources. Tier A.
+  Xueyan Zuqin (1206-1287) received dharma transmission from Wuzhun Shifan (1178-1249) and succeeded him as abbot of Jingshan. Confirmed by Wikipedia, Oxford Reference, and additional reference sources. Tier A.
 human_review_needed: false
 ---
 

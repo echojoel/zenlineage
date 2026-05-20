@@ -23,6 +23,5 @@ sources:
     quote: |
       Longtan Chongxin stayed with Chan Master Tianhuang Daowu for twenty years, yet during that time he did not feel that he had gained great understanding of the Dharma.
 reducer_notes: |
-  R1: confidence=high
 human_review_needed: false
 ---

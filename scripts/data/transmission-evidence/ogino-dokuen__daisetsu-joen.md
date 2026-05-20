@@ -23,7 +23,7 @@ sources:
     quote: |
       Daisetsu Jo'en (1797-1855) transmitted to Ogino Dokuen (1819-1895) in the Inzan lineage succession.
 reducer_notes: |
-  Wave-3 self-writing agent. Daisetsu Joen (1797–1855) → Ogino Dokuen (1819–1895) transmission
+  Daisetsu Joen (1797–1855) → Ogino Dokuen (1819–1895) transmission
   confirmed by the Ciolek Hakuin lineage chart and the Wikipedia Gisan Zenrai article. Note: the
   Ciolek chart shows Daisetsu Jo'en as a student of Gisan Zenrai, while Ogino Dokuen received
   transmission from Daisetsu Jo'en — the edge is confirmed as a one-generation step.

@@ -29,6 +29,6 @@ sources:
     quote: |
       From Baizhang, two major branches emerged: one lineage was transmitted from Huangbo Xiyun to Linji Yixuan, giving rise to the Linji School; the other was passed from Guishan Lingyou to Yangshan Huiji, forming the Guiyang School.
 reducer_notes: |
-  Wave-3 self-writing agent. The Baizhang→Huangbo transmission is one of the most thoroughly documented edges in all of Chan history, attested in every major reference source. Multiple independent encyclopaedic sources (Wikipedia, New World Encyclopedia, Encyclopedia of Buddhism) confirm it with explicit "received Dharma transmission" language. Tier A is secure.
+  The Baizhang→Huangbo transmission is one of the most thoroughly documented edges in all of Chan history, attested in every major reference source. Multiple independent encyclopaedic sources (Wikipedia, New World Encyclopedia, Encyclopedia of Buddhism) confirm it with explicit "received Dharma transmission" language. Tier A is secure.
 human_review_needed: false
 ---

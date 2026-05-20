@@ -29,7 +29,7 @@ sources:
     quote: |
       A Dharma-heir of Yaoshan Weiyan, a Dharma-brother to Yunyan Tansheng. Nicknamed 'the boatman,' he lived as a ferryman after the persecution of Buddhism in 842 in seclusion at Huating on the bank of the Wu river (near modern Shanghai).
 reducer_notes: |
-  Wave-5 final tier-upgrade pass. The teacher-student relationship is confirmed
+  The teacher-student relationship is confirmed
   by multiple independent sources: Terebess boatmonk.html and yaoshan.html
   (academic/reference), the WWZC Master List (institutional sangha), and the
   Terebess Master List of Masters. All four sources consistently identify

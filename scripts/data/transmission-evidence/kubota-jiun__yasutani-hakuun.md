@@ -23,7 +23,7 @@ sources:
     quote: |
       Kubota Ji'un Roshi trained under both Haku'un Roshi and Ko'un Roshi, eventually receiving Dharma transmission from both.
 reducer_notes: |
-  Wave-3 self-writing agent. Kubota Jiun trained under Yasutani from 1949 and received Soto dharma
+  Kubota Jiun trained under Yasutani from 1949 and received Soto dharma
   transmission from him; he also later received transmission from Yamada Koun. The Yasutani→Kubota edge
   is clearly documented even though Kubota is more commonly cited as Yamada Koun's successor.
   Tier A: Wikipedia (reference) + Sanbo Zen International (institutional) + Pathway Zen (sangha).

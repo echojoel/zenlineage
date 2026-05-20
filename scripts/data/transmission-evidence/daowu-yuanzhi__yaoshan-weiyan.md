@@ -23,7 +23,7 @@ sources:
     quote: |
       The Thirty-Sixth Ancestor. A Dharma-heir of Shitou Xiqian. His Dharma-heirs were Yunyan Tansheng and Daowu Yuanzhi.
 reducer_notes: |
-  Wave-5 final tier-upgrade pass. Three independent sources confirm Yaoshan
+  Three independent sources confirm Yaoshan
   Weiyan as Daowu Yuanzhi's dharma teacher: Wikipedia's Yunyan Tansheng article
   explicitly naming both as dharma heirs of Yaoshan, the Yorktown Zen sangha
   page giving dates and lineage, and WWZC listing both Yunyan Tansheng and

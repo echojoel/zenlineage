@@ -17,6 +17,5 @@ sources:
     quote: |
       Parsva attended the Venerable Buddhamitra for three years without ever sleeping … the master was awakened. The eleventh patriarch was Punyayasas, following Parshva.
 reducer_notes: |
-  R1: confidence=high
 human_review_needed: false
 ---

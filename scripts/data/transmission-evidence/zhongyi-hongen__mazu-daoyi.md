@@ -14,7 +14,7 @@ sources:
       Mazu's dharma siblings alongside masters such as Baizhang Huaihai,
       Xitang, Panshan, Nanquan Puyuan, and others."
 reducer_notes: |
-  Wave-3 self-writing agent. Zhongyi Hongen (also Zhongy Hongen) appears in
+  Zhongyi Hongen (also Zhongy Hongen) appears in
   lineage charts as a Mazu dharma heir but specific biographical details are
   almost entirely absent from publicly accessible English-language sources.
   Only one credible source found that places him in Mazu's orbit. Tier C:

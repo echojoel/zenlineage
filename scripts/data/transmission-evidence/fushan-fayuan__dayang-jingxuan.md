@@ -29,7 +29,7 @@ sources:
     quote: |
       Dayang and Fushan found that they were in harmonious accord. So Dayang offered Fushan his seal of transmission. Fushan offered to hold Dayang's Soto lineage in consignment. Should a suitable person come to Fushan, he offered to then remotely pass Dayang's Soto line to them.
 reducer_notes: |
-  Wave-4 tier-upgrade pass: upgraded C → B. Four independent sources confirm Fushan Fayuan
+  upgraded C → B. Four independent sources confirm Fushan Fayuan
   studied with Dayang Jingxuan. Key nuance: Fushan was a student of Dayang but did not
   receive formal dharma transmission (he held Dayang's lineage "in consignment" without
   himself being a proper heir). Morten Schlütter (How Zen Became Zen, 2010) notes this

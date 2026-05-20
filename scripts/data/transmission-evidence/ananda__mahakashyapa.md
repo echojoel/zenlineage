@@ -17,6 +17,5 @@ sources:
     quote: |
       In the past the Thus Come One transmitted the unsurpassed Dharma Eye to Kashyapa. It was passed down. Kasyapa gave it to Ananda, and Ananda gave it to me.
 reducer_notes: |
-  R1: confidence=high
 human_review_needed: false
 ---

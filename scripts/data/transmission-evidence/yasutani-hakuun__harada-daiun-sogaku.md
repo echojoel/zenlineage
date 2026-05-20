@@ -23,7 +23,7 @@ sources:
     quote: |
       Yasutani Haku'un (1885-1973) – Founded Sanbô Zen in 1954. Received Dharma transmission in 1943.
 reducer_notes: |
-  Wave-3 self-writing agent. Universally attested across multiple independent sources. Yasutani studied
+  Universally attested across multiple independent sources. Yasutani studied
   under Harada from 1925, attained kensho ~1927, and received formal Soto-tradition dharma transmission
   in 1943. He went on to found Sanbo Kyodan in 1954. Tier A: Wikipedia (reference) + Sanbo Zen
   International (institutional) + Pathway Zen (sangha).

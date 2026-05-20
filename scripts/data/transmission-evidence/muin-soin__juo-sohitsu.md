@@ -23,7 +23,7 @@ sources:
     quote: |
       Juō Sōhitsu (1296–1380) had Muin Sōin (1326–1410) as his dharma successor in the Otōkan lineage.
 reducer_notes: |
-  Wave-3 self-writing agent. Juo Sohitsu (1296–1380) → Muin Soin (1326–1410) confirmed as
+  Juo Sohitsu (1296–1380) → Muin Soin (1326–1410) confirmed as
   successive generations (4th and 5th) in the Otōkan / Myoshinji lineage by Wikipedia. These
   are early medieval Japanese Rinzai patriarchs in the unbroken line from Kanzan Egen.
 human_review_needed: false

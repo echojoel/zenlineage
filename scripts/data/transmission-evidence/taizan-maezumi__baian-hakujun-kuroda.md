@@ -29,7 +29,6 @@ sources:
     quote: |
       In 1955, he received dharma transmission from his father, Hakujun Kuroda Roshi.
 reducer_notes: |
-  R1: confidence=high
   R2: confidence=high
   R3: confidence=high
 human_review_needed: false

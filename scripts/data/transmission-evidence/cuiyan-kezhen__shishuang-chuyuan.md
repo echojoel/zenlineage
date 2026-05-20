@@ -17,7 +17,7 @@ sources:
     quote: |
       "Shishuang Chuyuan (986–1039) was a Chinese Chan master of the Linji school. Cuiyan Kezhen practiced Chan with the outstanding Chan master Ciming Chuyuan."
 reducer_notes: |
-  Wave-3 self-writing agent. Both Polish Wikipedia articles (Cuiyan Kezhen and Shishuang Chuyuan) confirm Cuiyan Kezhen as a dharma heir of Shishuang Chuyuan (also known as Ciming Chuyuan), alongside Yangqi Fanghui and Huanglong Huinan. Tier B: two independent Wikipedia language editions corroborate. No English Wikipedia article exists for Cuiyan Kezhen specifically.
+  Both Polish Wikipedia articles (Cuiyan Kezhen and Shishuang Chuyuan) confirm Cuiyan Kezhen as a dharma heir of Shishuang Chuyuan (also known as Ciming Chuyuan), alongside Yangqi Fanghui and Huanglong Huinan. Tier B: two independent Wikipedia language editions corroborate. No English Wikipedia article exists for Cuiyan Kezhen specifically.
 human_review_needed: false
 ---
 

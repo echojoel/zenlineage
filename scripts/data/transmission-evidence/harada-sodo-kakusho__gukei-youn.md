@@ -17,6 +17,6 @@ sources:
     quote: |
       He eventually studied under various Sōtō-priests such as Harada Sodo Kakusho, Oka Sotan, Akino Kodo, Adachi Tatsujun, Hoshimi Tenkai.
 reducer_notes: |
-  Wave-3 self-writing agent. Sources independently researched. The Zen Center Athens Hosshin-ji lineage list directly places Gukei Youn immediately before Kakusho Sodo (Harada Sodo Kakusho), confirming teacher→student sequence. Wikipedia's Harada Daiun Sogaku article confirms Harada Sodo Kakusho's role as a Soto priest teacher. Note: the Harada who received transmission from Gukei Youn is Harada Sodo Kakusho (1844-1931), distinct from the more famous Harada Daiun Sogaku (1871-1961) who was his student.
+  Sources independently researched. The Zen Center Athens Hosshin-ji lineage list directly places Gukei Youn immediately before Kakusho Sodo (Harada Sodo Kakusho), confirming teacher→student sequence. Wikipedia's Harada Daiun Sogaku article confirms Harada Sodo Kakusho's role as a Soto priest teacher. Note: the Harada who received transmission from Gukei Youn is Harada Sodo Kakusho (1844-1931), distinct from the more famous Harada Daiun Sogaku (1871-1961) who was his student.
 human_review_needed: false
 ---

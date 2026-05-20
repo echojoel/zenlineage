@@ -19,7 +19,7 @@ sources:
       Nihon Tōjōrentōroku confirms Nenshitsu Yokaku as third-generation
       Yōkōin abbot, Dharma heir of Mugai Keigon (second generation).
 reducer_notes: |
-  Wave-3 self-writing agent. Both sources derive from the SFZC PDF
+  Both sources derive from the SFZC PDF
   (rebanderson.org), which itself cites the Nihon Tōjōrentōroku and
   Yōkōin 500th anniversary commemorative record as primary Japanese
   sources. Mugai Keigon is the second-generation Yōkōin abbot;

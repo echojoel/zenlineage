@@ -23,7 +23,7 @@ sources:
     quote: |
       A Dharma-heir of Shitou Xiqian. The Fayen-zong (Hogen) and Yunmen-zong (Ummon) originated from this line.
 reducer_notes: |
-  Wave-5 final tier-upgrade pass. Three independent sources confirm Shitou Xiqian
+  Three independent sources confirm Shitou Xiqian
   as Tianhuang Daowu's dharma teacher: buddhisttemple.ca with explicit "Dharma-heir
   of Shitou Xiqian" and the downstream lineage through Longtan-Deshan-Xuefeng,
   Wikipedia lineage charts, and WWZC identifying both Fayen and Yunmen schools

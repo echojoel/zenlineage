@@ -17,7 +17,7 @@ sources:
     quote: |
       Dahui Zonggao (1089–1163) was a major Chinese Chan master; his sangha grew to two thousand and he transmitted dharma to a large number of students in the Linji tradition.
 reducer_notes: |
-  Wave-3 self-writing agent. Zhuan Shigui (Zhu'an Shigui, 1083-1146) collaborated with Dahui Zonggao on the Chanmen Baoxun, suggesting a close relationship. However, Dahui Zonggao (1089-1163) was six years younger than Zhuan, making a teacher→student direction from Dahui to Zhuan somewhat unlikely on dates alone (Zhuan b.1083, Dahui b.1089). The collaboration text and joint seniority suggest they may have been dharma brothers or peers rather than in a clear teacher-student relationship. This edge as specified (dahui-zonggao → zhuan-shigui) needs careful review — the direction may be incorrect. Tier C: one reference source with ambiguous relationship direction.
+  Zhuan Shigui (Zhu'an Shigui, 1083-1146) collaborated with Dahui Zonggao on the Chanmen Baoxun, suggesting a close relationship. However, Dahui Zonggao (1089-1163) was six years younger than Zhuan, making a teacher→student direction from Dahui to Zhuan somewhat unlikely on dates alone (Zhuan b.1083, Dahui b.1089). The collaboration text and joint seniority suggest they may have been dharma brothers or peers rather than in a clear teacher-student relationship. This edge as specified (dahui-zonggao → zhuan-shigui) needs careful review — the direction may be incorrect. Tier C: one reference source with ambiguous relationship direction.
 human_review_needed: true
 ---
 

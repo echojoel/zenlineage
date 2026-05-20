@@ -13,7 +13,7 @@ sources:
       by rulers and nobles alike," and "Longguan, Taiqin and forty-nine other
       disciples later made the Dharma available, each one propagating it."
 reducer_notes: |
-  Wave-3 self-writing agent. C-tier: one credible source. Baoci Xingyan appears
+  C-tier: one credible source. Baoci Xingyan appears
   in genealogical listings of Fayan's Chan lineage (sixteenth generation, per
   search synthesis) but is not explicitly named in any English-language accessible
   source as a dharma heir. Fayan had 63 documented heirs; Baoci Xingyan's

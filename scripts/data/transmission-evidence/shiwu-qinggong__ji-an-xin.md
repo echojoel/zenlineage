@@ -17,7 +17,7 @@ sources:
     quote: |
       The disciples of the school of Yuanmiao and Mingben included Tianruweize, Qianyanyuanchang, Wujianxiandu, Shiwuqinggong and Juechengbenyin — placing Shiwu firmly in the lineage descending from Gaofeng through Ji-an.
 reducer_notes: |
-  Wave-3 self-writing agent. Shiwu Qinggong (1272-1352) studied under Chi-an (Ji-an Xin) and received dharma transmission from him after being referred there by Gaofeng's circle. Wikipedia provides a detailed account of the teacher-student interaction. Academic conference paper confirms Shiwu in the Gaofeng/Mingben school. Tier B: Wikipedia plus academic source.
+  Shiwu Qinggong (1272-1352) studied under Chi-an (Ji-an Xin) and received dharma transmission from him after being referred there by Gaofeng's circle. Wikipedia provides a detailed account of the teacher-student interaction. Academic conference paper confirms Shiwu in the Gaofeng/Mingben school. Tier B: Wikipedia plus academic source.
 human_review_needed: false
 ---
 

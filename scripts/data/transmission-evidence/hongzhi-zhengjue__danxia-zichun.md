@@ -23,6 +23,5 @@ sources:
     quote: |
       Danxia le dio a Hongzhi su sello, permitiéndole oficialmente enseñar, y murió en 1119.
 reducer_notes: |
-  R1: confidence=high
 human_review_needed: false
 ---

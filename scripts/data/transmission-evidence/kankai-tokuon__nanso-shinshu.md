@@ -19,7 +19,7 @@ sources:
       Zōunin records confirm sequential abbatial succession: Nansō
       Shinshū (83rd ancestor) followed by Kankai Tokuon (84th ancestor).
 reducer_notes: |
-  Wave-3 self-writing agent. The SFZC PDF documents this edge via Zōunin
+  The SFZC PDF documents this edge via Zōunin
   temple records. Nansō Shinshū is the eighty-third ancestor; Kankai
   Tokuon is the eighty-fourth ancestor in the same Zōunin temple line.
   Sequential abbatial succession in the Sōtō school reliably indicates

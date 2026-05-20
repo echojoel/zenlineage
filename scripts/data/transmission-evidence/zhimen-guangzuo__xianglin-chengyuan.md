@@ -19,7 +19,7 @@ sources:
       Xuedou Chongxian studied under Zhimen Guangzuo, and after five years Xuedou received
       Zhimen's seal as an heir of the Yunmen lineage.
 reducer_notes: |
-  Wave-3 self-writing agent. Academic (MDPI) and community sources confirm Zhimen Guangzuo as a
+  Academic (MDPI) and community sources confirm Zhimen Guangzuo as a
   dharma heir of Xianglin Chengyuan in the Yunmen school. Xianglin Chengyuan was himself a 18-year
   attendant of Yunmen Wenyan before receiving transmission. Tier B: ≥2 independent sources including
   one academic source (MDPI journal).

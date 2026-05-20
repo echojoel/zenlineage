@@ -33,7 +33,7 @@ sources:
       Academic publication documenting the Chan transmission between Chuanzi
       Decheng and Jiashan Shanhui (Chia-shan Shan-hui).
 reducer_notes: |
-  Wave-3 self-writing agent. Strong A-tier: terebess.hu (reference), wisdomlib.org
+  Strong A-tier: terebess.hu (reference), wisdomlib.org
   (reference), westernchanfellowship.org (sangha), researchgate.net (academic).
   The transmission is one of the most famous in Chan history — the Boat Monk story —
   attested in multiple independent domains including an academic publication.

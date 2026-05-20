@@ -23,6 +23,6 @@ sources:
     quote: |
       62. Gasan Joseki (1276-1366) … 63. Taigen Soshin (d. 1371) [Gudo Nishijima SOTO lineage]
 reducer_notes: |
-  Wave-3 self-writing agent. Sources independently researched. Three independent sources confirm: Wikipedia Taigen Soshin article directly states he received transmission from Gasan Joseki; Wikipedia Gasan Joseki article lists Taigen Soshin as one of his students; Treeleaf chart places them consecutively at positions 62→63 in the Nishijima Soto lineage.
+  Sources independently researched. Three independent sources confirm: Wikipedia Taigen Soshin article directly states he received transmission from Gasan Joseki; Wikipedia Gasan Joseki article lists Taigen Soshin as one of his students; Treeleaf chart places them consecutively at positions 62→63 in the Nishijima Soto lineage.
 human_review_needed: false
 ---

@@ -23,6 +23,6 @@ sources:
     quote: |
       93. Butsumon Sogaku (1858-1933) 94. Gyokujun So-on (1877-1934) 95. Shogaku Shunryu (Suzuki, 1904-1971)
 reducer_notes: |
-  Wave-3 self-writing agent. Sources independently researched. Wikipedia's Shunryu Suzuki article confirms So-on was a disciple of Butsumon Sogaku. The cuke.com biographical source specifies So-on was Sogaku's adopted son and succeeded him at Zoun-in. The Treeleaf lineage chart places them consecutively (93→94) in the Soto transmission sequence.
+  Sources independently researched. Wikipedia's Shunryu Suzuki article confirms So-on was a disciple of Butsumon Sogaku. The cuke.com biographical source specifies So-on was Sogaku's adopted son and succeeded him at Zoun-in. The Treeleaf lineage chart places them consecutively (93→94) in the Soto transmission sequence.
 human_review_needed: false
 ---
