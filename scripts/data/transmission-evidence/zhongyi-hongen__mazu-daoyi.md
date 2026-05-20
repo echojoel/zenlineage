@@ -2,12 +2,12 @@
 student: zhongyi-hongen
 teacher: mazu-daoyi
 tier: C
-verified_at: 2026-05-15
+verified_at: 2026-05-20
 sources:
   - publisher: "Hongzhou school — Wikipedia"
     url: https://en.wikipedia.org/wiki/Hongzhou_school
     domain_class: reference
-    retrieved_on: 2026-05-15
+    retrieved_on: 2026-05-20
     quote: |
       "Zhongyi Hongen appears in the Chan lineage chart as a ninth-generation
       Chan master, listed among the descendants of Mazu Daoyi… listed among

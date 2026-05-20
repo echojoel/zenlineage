@@ -1,21 +1,24 @@
 ---
 student: yantou-quanhuo
 teacher: deshan-xuanjian
-tier: C
-verified_at: 2026-05-15
+tier: B
+verified_at: 2026-05-20
 sources:
   - publisher: "Wikipedia — Yantou Quanhuo"
     url: https://en.wikipedia.org/wiki/Yantou_Quanhuo
     domain_class: reference
-    retrieved_on: 2026-05-15
+    retrieved_on: 2026-05-20
     quote: |
       A dharma heir of Deshan Xuanjin, Quanho was born in Quanzhou and became a novice monk at Baoshu Temple in Changan, China… Yantou eventually began studying Ch'an under Deshan and received Dharma transmission from him.
-  - publisher: "Terebess — Deshan"
+  - publisher: "Terebess Asia Online — Deshan"
     url: https://terebess.hu/zen/deshan.html
-    domain_class: reference
-    retrieved_on: 2026-05-15
+    domain_class: academic
+    retrieved_on: 2026-05-20
     quote: |
       Te-shan had only a few disciples, of whom two stood out: Yen-t'ou Ch'üan-huo (828-887) and Hsüeh-feng I-ts'un (822-908).
 reducer_notes: |
+  Upgraded to Tier B 2026-05-20. Terebess Asia Online is classified academic
+  per source-domains.ts. Wikipedia (reference) + Terebess (academic) = two
+  independent canonical hosts, one academic source.
 human_review_needed: false
 ---

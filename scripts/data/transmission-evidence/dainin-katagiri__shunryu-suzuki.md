@@ -1,8 +1,8 @@
 ---
 student: dainin-katagiri
 teacher: shunryu-suzuki
-tier: C
-verified_at: "2026-05-15"
+tier: B
+verified_at: "2026-05-20"
 sources:
   - publisher: "Dainin Katagiri — Wikipedia"
     url: https://en.wikipedia.org/wiki/Dainin_Katagiri
@@ -31,12 +31,6 @@ sources:
       Katagiri Roshi was ordained a Zen monk by Daicho Hayashi Roshi,
       Abbot of Taizo-in.
 reducer_notes: |
-  DISPUTED EDGE: This edge represents a "studied-with /
-  assistant" working relationship, NOT a formal shihō dharma transmission.
-  Three sources confirm Katagiri served as assistant priest at SFZC/Sokoji
-  1965–1971. All sources are unambiguous that his actual dharma transmission
-  came from Daicho Hayashi (at Taizo-in, completed 1949, prior to US arrival).
-  This edge should be labelled "assistant/colleague" not "dharma heir" in the
-  graph. Tier stays C: well-attested working relationship, not a shihō edge.
+  DISPUTED EDGE: This edge represents a "studied-with / assistant" working relationship, NOT a formal shihō dharma transmission. Three sources confirm Katagiri served as assistant priest at SFZC/Sokoji 1965–1971; all sources agree his actual dharma transmission came from Daicho Hayashi (at Taizo-in, completed 1949). Two independent hostnames include one institutional: en.wikipedia.org (reference) and ryumonji.org (institutional — the Ryumonji Zen Monastery, a well-established Soto Zen monastery). Two independent hostnames with ≥1 institutional → Tier B. This edge should be labelled "assistant/colleague" not "dharma heir" in the graph. Upgraded from C to B.
 human_review_needed: true
 ---

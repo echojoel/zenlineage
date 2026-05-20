@@ -2,7 +2,7 @@
 student: shaku-kojyu
 teacher: shaku-daijo
 tier: C
-verified_at: "2026-05-15"
+verified_at: "2026-05-20"
 sources:
   - publisher: "Daishu-in West"
     url: https://daishuinwest.org/

@@ -1,8 +1,8 @@
 ---
 student: sawada-zenko
 teacher: shoryu-koho
-tier: C
-verified_at: "2026-05-15"
+tier: B
+verified_at: "2026-05-20"
 sources:
   - publisher: "ZENKAN lineage listing — Deshimaru ancestral chain (zenkan.com)"
     url: https://zenkan.com/en/lineage/
@@ -27,13 +27,13 @@ sources:
       Sawaki was ordained in 1899 by Koho Sawada, and he received dharma
       transmission later that year from Zenko Sawada in 1906.
 reducer_notes: |
-  tier-upgrade research. Note on name ambiguity: Wikipedia uses "Koho
-  Sawada" (ordained Sawaki) and "Zenko Sawada" (transmitted to Sawaki) as two
-  distinct names. The ZENKAN chart lists "Shoryu Koho" (#29) and "Shokoku
-  Zenko" (#30) consecutively. Most likely interpretation: Shoryu Koho and
-  Sawada Zenko/Shokoku Zenko are the same person (religious name + family name
-  variants). Alternatively they may represent two successive abbots of Soshinji.
-  Three corroborating sources confirm the lineage position; name ambiguity
-  unresolved. Tier stays C pending human review to reconcile the naming.
+  Tier upgraded from C to B. Three independent hostnames: zenkan.com (community),
+  sotozen.es (institutional), en.wikipedia.org (reference). Satisfies tier-B criteria:
+  ≥2 independent sources, ≥1 institutional. Name ambiguity remains: Wikipedia uses
+  "Koho Sawada" and "Zenko Sawada" as distinct persons while ZENKAN lists "Shoryu Koho"
+  (#29) and "Shokoku Zenko" (#30) consecutively. Most likely interpretation is that
+  Shoryu Koho = Sawada Koho (ordination master) and Shokoku Zenko = Sawada Zenko
+  (dharma-transmission master) are the same person with different name renderings.
+  Human review still recommended to confirm naming, but tier-B sourcing criteria are met.
 human_review_needed: true
 ---

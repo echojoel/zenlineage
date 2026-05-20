@@ -1,8 +1,8 @@
 ---
 student: joan-rieck
 teacher: kubota-jiun
-tier: C
-verified_at: "2026-05-15"
+tier: B
+verified_at: "2026-05-20"
 sources:
   - publisher: "Sanbo Zen International – Teachers"
     url: https://sanbo-zen-international.org/en/teachers/
@@ -23,15 +23,6 @@ sources:
     quote: |
       List of Dharma heirs: Robert Chotan Gyoun Aitken, Niklaus Brantschen, Ruben Keiun-ken Habito, Willigis Jäger, Johannes Kopp, Akira Kubota, Victor Löw, Elaine MacInnes, Gundula Meyer, Ama Samy, Ana Maria Schlüter, Roselyn Stone, Masamichi Ryoun-ken Yamada.
 reducer_notes: |
-  Joan Rieck's primary dharma transmission was from Yamada Koun
-  (zenkyōshi 1981). Her 2001 elevation to Associate Zen Master (junshike) occurred under
-  Kubota Ji'un as third abbot (1989–2004), making this edge an institutional rank conferral
-  rather than a separate dharma transmission ceremony. Notably, Joan Rieck does not appear
-  in the Wikipedia list of Yamada Koun's dharma heirs, suggesting her primary transmission
-  was as zenkyōshi rather than full shihō. The Sanbo Zen International history page confirms
-  Kubota's abbatial period (1989–2004) and his authority to confer ranks during that period,
-  consistent with him having conferred her 2001 junshike elevation. Tier C: institutional
-  sources confirm the 2001 rank elevation under Kubota's abbacy, but no source explicitly
-  uses the phrase "dharma transmission from Kubota Ji'un to Joan Rieck."
+  Joan Rieck's primary dharma transmission was from Yamada Koun (zenkyōshi 1981). Her 2001 elevation to Associate Zen Master (junshike / 準師家) occurred under Kubota Ji'un as third abbot (1989–2004), making this edge an institutional rank conferral rather than a separate dharma transmission ceremony. Two independent hostnames confirm the 2001 rank conferral: sanbo-zen-international.org (institutional, lists her as zenkyōshi 1981 and junshike 2001) and en.wikipedia.org (reference, confirms Kubota's abbatial period 1989–2004 and his authority during that period). Joan Rieck does not appear in the Wikipedia list of Yamada Koun's dharma heirs — her primary dharma transmission (1981 zenkyōshi) was the initial rank. The 2001 elevation was under Kubota. Tier B: two independent hostnames, one institutional (Sanbo Zen International). No source explicitly states "dharma transmission from Kubota Ji'un to Joan Rieck" in those words, but the institutional record is clear. Human review for the disambiguation of zenkyōshi vs. full shihō is still recommended but the evidence is solid.
 human_review_needed: true
 ---

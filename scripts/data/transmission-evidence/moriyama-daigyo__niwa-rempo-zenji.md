@@ -2,15 +2,21 @@
 student: moriyama-daigyo
 teacher: niwa-rempo-zenji
 tier: C
-verified_at: 2026-05-15
+verified_at: 2026-05-20
 sources:
-  - publisher: "Wikipedia — Taisen Deshimaru"
-    url: https://en.wikipedia.org/wiki/Taisen_Deshimaru
+  - publisher: "Wikipedia — Rempo Niwa"
+    url: https://en.wikipedia.org/wiki/Rempo_Niwa
     domain_class: reference
-    retrieved_on: 2026-05-15
+    retrieved_on: 2026-05-20
     quote: |
-      After Deshimaru's death, three of his closest disciples, Etienne Zeisler, Roland Rech, and Kosen Thibaut, traveled to Japan to receive the shiho from the highest Soto authority, Master Rempo Niwa Zenji.
+      His dharma heirs include Gudō Wafu Nishijima and Moriyama Daigyo as well as several teachers affiliated with the Taisen Deshimaru Lineage in Europe.
+  - publisher: "Terebess Asia Online — Moriyama Hōrin Daigyō biographical page"
+    url: https://terebess.hu/zen/mesterek/MoriyamaDaigyo.html
+    domain_class: reference
+    retrieved_on: 2026-05-20
+    quote: |
+      Moriyama rōshi (dharma name: Hōrin Daigyō) inherited the dharma of both 1) Noiri rōshi (dharma name: Hakusan Kōjun) & 2) Niwa zenji (dharma name: Zuigaku Rempō).
 reducer_notes: |
-  Niwa Rempō Zenji (丹羽廉芳, 1905-1993) was the head of Eiheiji and the highest Soto authority of his era; the Wikipedia article on Taisen Deshimaru confirms that Niwa Rempo gave dharma transmission (shiho) to multiple Western students after Deshimaru's death in 1982. However, no Wikipedia article or other source found during this research session specifically names Moriyama Daigyo (森山大行) as one of Niwa Rempo's transmission recipients. The Deshimaru article names three recipients (Zeisler, Rech, Thibaut) but not Moriyama. Tier C assigned on the strength of Niwa Rempo's documented role as a transmission-giver and the general institutional pattern, but the specific edge Moriyama → Niwa Rempo requires a dedicated source. Human review strongly recommended; additional research into Moriyama Daigyo's specific dharma lineage documentation is needed.
-human_review_needed: true
+  Two independent reference-class hostnames now confirm the Moriyama Daigyo → Niwa Rempō dharma transmission: en.wikipedia.org (Rempo Niwa article explicitly lists Moriyama Daigyo among his dharma heirs) and terebess.hu (the Terebess Asia Online Zen lineage database, which provides Moriyama's dharma name "Hōrin Daigyō" and explicitly states he "inherited the dharma of both Noiri Roshi and Niwa Zenji"). This confirms Moriyama received transmission from TWO teachers, with Niwa Zenji as the second. However, neither Wikipedia nor terebess.hu qualifies as institutional or academic under the tier rules — both are reference class. Tier B requires ≥1 institutional/academic source, which is not yet satisfied. Tier C applies: two independent reference-class sources document the specific edge. Human review can now be resolved — the edge is confirmed, though no institutional source yet located.
+human_review_needed: false
 ---

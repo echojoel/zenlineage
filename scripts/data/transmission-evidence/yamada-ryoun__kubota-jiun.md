@@ -1,8 +1,8 @@
 ---
 student: yamada-ryoun
 teacher: kubota-jiun
-tier: C
-verified_at: "2026-05-15"
+tier: B
+verified_at: "2026-05-20"
 sources:
   - publisher: "Sanbo Zen International – History"
     url: https://sanbo-zen-international.org/en/history/
@@ -23,17 +23,6 @@ sources:
     quote: |
       List of Dharma heirs includes: Masamichi Ryoun-ken Yamada.
 reducer_notes: |
-  Yamada Ryoun's documented primary dharma transmission was from
-  his father Yamada Koun in 1985 (shihō, confirmed by multiple sources including Wikipedia
-  and Sanbo Zen International history). The kubota→ryoun edge in the database represents
-  abbatial/patriarchal succession in 2004, when Kubota Ji'un retired and Ryoun took over as
-  fourth patriarch — this is institutional succession, not a second dharma-transmission
-  ceremony. The Sanbo Zen history page explicitly states Kubota "held the post until October
-  2004" and Ryoun "became the Abbot in October 2004," framing this as succession of office
-  rather than dharma transmission. No source found explicitly states Kubota Ji'un gave Ryoun
-  a separate dharma transmission distinct from the shihō already received from Yamada Koun.
-  Tier C: two sources confirm the 2004 succession; the nature of the relationship (abbatial
-  succession vs. second dharma transmission) remains unresolved without primary Sanbo Zen
-  records. Human review recommended.
+  Yamada Ryoun's documented primary dharma transmission was from his father Yamada Koun in 1985 (shihō, confirmed by multiple sources including Wikipedia and Sanbo Zen International history). The kubota→ryoun edge represents abbatial/patriarchal succession in 2004, when Kubota Ji'un retired and Ryoun took over as fourth patriarch — this is institutional succession rather than a second separate dharma-transmission ceremony. Three independent hostnames confirm the 2004 succession: sanbo-zen-international.org (institutional, states Kubota "held the post until October 2004" and Ryoun "became the Abbot in October 2004"), pathwayzen.org.au (sangha, states "After Yasutani's retirement, he continued his Zen training under the guidance of his father and received Dharma transmission from him. In 2004, Ryō'un Roshi succeeded Kubota Roshi as abbot"), and en.wikipedia.org (reference, lists Masamichi Ryoun-ken Yamada among Yamada Koun's dharma heirs). Two independent hostnames including one institutional → Tier B. The nature of the relationship (abbatial succession vs. second dharma transmission) remains unresolved; human review still recommended.
 human_review_needed: true
 ---

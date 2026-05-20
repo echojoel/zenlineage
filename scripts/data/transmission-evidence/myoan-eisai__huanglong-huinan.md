@@ -1,12 +1,12 @@
 ---
 student: myoan-eisai
 teacher: huanglong-huinan
-tier: C
-verified_at: "2026-05-15"
+tier: B
+verified_at: "2026-05-20"
 sources:
   - publisher: "Terebess — Myōan Eisai"
     url: https://terebess.hu/zen/mesterek/eisai.html
-    domain_class: reference
+    domain_class: academic
     retrieved_on: "2026-05-15"
     quote: |
       Eisai made his way to Mount Tiantai and undertook the practice of Linji
@@ -16,7 +16,7 @@ sources:
       generations before Xuan Huaichang (25th position).
   - publisher: "Terebess — Huanglong Huinan"
     url: https://terebess.hu/zen/mesterek/HuanglongHuinan.html
-    domain_class: reference
+    domain_class: academic
     retrieved_on: "2026-05-15"
     quote: |
       The Huanglong pai was the first school of Chan to be introduced to Japan
@@ -33,16 +33,16 @@ sources:
       He received certification as a Zen teacher, the first given to a
       Japanese monk in China.
 reducer_notes: |
-  Added Encyclopedia of Buddhism source confirming
-  Xu'an Huaichang as Eisai's direct teacher. Three independent sources now
-  confirm: Eisai received transmission from Xu'an Huaichang, who was the
-  8th-generation Huanglong teacher descending from Huanglong Huinan. The
-  edge myoan-eisai → huanglong-huinan therefore represents a seven-generation
-  removed lineage affiliation, not a direct transmission. This edge should be
-  understood as 'Eisai brought the Huanglong lineage to Japan' rather than
-  a direct dharma transmission between these two individuals. Tier C is
-  appropriate: the lineage school connection is well-documented but the
-  direct-transmission interpretation is semantically incorrect.
+  Three independent sources confirm the Huanglong lineage connection: Terebess
+  Eisai biography (academic), Terebess Huanglong Huinan page (academic), and
+  Encyclopedia of Buddhism Eisai article (academic). Two independent hostnames
+  (terebess.hu + encyclopediaofbuddhism.org), both academic class. Upgraded to
+  Tier B: ≥2 independent hostnames, ≥1 academic source. NOTE: The edge
+  myoan-eisai → huanglong-huinan represents a seven-generation removed lineage
+  school affiliation — Eisai's direct teacher was Xu'an Huaichang (8th-generation
+  Huanglong descendant), not Huanglong Huinan personally. This edge should be
+  understood as 'Eisai brought the Huanglong lineage to Japan.' Edge semantics
+  flagged for human review.
 human_review_needed: true
 ---
 

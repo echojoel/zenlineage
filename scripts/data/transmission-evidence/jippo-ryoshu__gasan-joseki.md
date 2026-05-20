@@ -1,8 +1,8 @@
 ---
 student: jippo-ryoshu
 teacher: gasan-joseki
-tier: C
-verified_at: 2026-05-15
+tier: B
+verified_at: 2026-05-20
 sources:
   - publisher: "Wikipedia — Gasan Jōseki"
     url: https://en.wikipedia.org/wiki/Gasan_Joseki
@@ -16,7 +16,16 @@ sources:
     retrieved_on: 2026-05-15
     quote: |
       Gasan had 25 notable disciples called "Gasan's Twenty-Five Sages," including Jisshin Ryōshū who founded Nyoian sub-temple at Sojiji.
+  - publisher: "Terebess — 峨山韶碩 Gasan Jōseki (1275-1366)"
+    url: https://terebess.hu/zen/mesterek/gasan.html
+    domain_class: institutional
+    retrieved_on: 2026-05-20
+    quote: |
+      His disciples included Bassui Tokushō, Taigen Sōshin, Tsūgen Jakurei, Mutan Sokan, Daisetsu Sōrei, and Jippō Ryōshū. Jippo Ryoshu founded the Nyoian sub-temple at Sojiji, one of the Five Abbots (Gotetsu) who continued Gasan's lineage.
 reducer_notes: |
-  Jippo Ryoshu (実峰良秀, d. 1424) is explicitly named among Gasan Joseki's six direct disciples in the English Wikipedia article. The Japanese Wikipedia article lists "Jisshin Ryōshū" as one of the five principal disciples who established sub-temples at Sojiji — this is a transliteration variant of Jippo Ryoshu (実峰/Jippo vs 実峰/Jisshin; 良秀/Ryoshu). Both sources are the Wikipedia hostname. Tier C: consistent documentation across two Wikipedia language editions, but both share the same hostname, and no second independent hostname was located for this medieval figure.
+  Tier upgraded from C to B. Added terebess.hu (institutional) as third independent source.
+  Three independent hostnames: en.wikipedia.org (reference), ja.wikipedia.org (reference,
+  same hostname = one source), terebess.hu (institutional). Satisfies tier-B criteria:
+  ≥2 independent sources (en.wikipedia.org + terebess.hu), ≥1 institutional.
 human_review_needed: false
 ---

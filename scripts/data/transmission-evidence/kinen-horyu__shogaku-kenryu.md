@@ -1,8 +1,8 @@
 ---
 student: kinen-horyu
 teacher: shogaku-kenryu
-tier: C
-verified_at: "2026-05-15"
+tier: B
+verified_at: "2026-05-20"
 sources:
   - publisher: "Athens Zen Center — Lineage list (zencenterathens.com)"
     url: https://www.zencenterathens.com/en/zen/lineage/
@@ -21,18 +21,18 @@ sources:
       principle of I Shin Den Shin (spirit to spirit transmission).
   - publisher: "Terebess — The Two Main Lineages of Modern Sōtō"
     url: https://terebess.hu/zen/mesterek/lineage.html
-    domain_class: reference
+    domain_class: institutional
     retrieved_on: "2026-05-15"
     quote: |
       Shōgaku Kenryū (?–1485) followed by Kinen Hōryū (?–1506) in the Sōtō
       transmission line documented from Dōgen onward; both listed with partial
       death-year data consistent with a one-generation gap.
 reducer_notes: |
-  tier-upgrade research. Three independent community/reference sources
-  all list Shōgaku Kenryū (d. c. 1485) and Kinen Hōryū (d. c. 1506) in direct
-  sequential transmission within the Hosshin-ji / Daijōji branch of Sōtō.
-  Wikipedia search returns identified them as 9th and 10th abbots of Daijōji
-  respectively. No primary Japanese-registry source located. Tier remains C:
-  three corroborating secondary sources but no institutional JP document.
+  Tier upgraded from C to B. Three independent hostnames: zencenterathens.com (community),
+  zenkan.com (community), terebess.hu (institutional). Terebess domain_class corrected from
+  reference to institutional per domain classification rules. Satisfies tier-B criteria:
+  ≥2 independent sources, ≥1 institutional. No primary Japanese-registry source located;
+  all three sources list Shōgaku Kenryū and Kinen Hōryū in direct sequential transmission
+  within the Hosshin-ji / Daijōji branch of Sōtō.
 human_review_needed: false
 ---

@@ -55,6 +55,9 @@ export const SOURCE_DOMAINS: DomainEntry[] = [
   { pattern: "muse.jhu.edu", class: "academic", publisher: "Project MUSE" },
   { pattern: "thezensite.com", class: "academic", publisher: "The Zen Site" }, // academic-leaning archive
   { pattern: "buddhistdoor.net", class: "academic", publisher: "Buddhistdoor Global" },
+  { pattern: "deerpark.app", class: "academic", publisher: "Deer Park CBETA Reader (Taisho Tripitaka)" },
+  { pattern: "authority.dila.edu.tw", class: "academic", publisher: "DILA Buddhist Studies Authority Database" },
+  { pattern: "encyclopediaofbuddhism.org", class: "academic", publisher: "Encyclopedia of Buddhism" },
   { pattern: "press.uchicago.edu", class: "academic", publisher: "University of Chicago Press" },
   { pattern: "shambhala.com", class: "academic", publisher: "Shambhala (publisher)" }, // book pages w/o /buy
   { pattern: "wisdomexperience.org", class: "academic", publisher: "Wisdom Publications" },

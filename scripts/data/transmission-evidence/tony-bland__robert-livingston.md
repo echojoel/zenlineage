@@ -1,8 +1,8 @@
 ---
 student: tony-bland
 teacher: robert-livingston
-tier: C
-verified_at: 2026-05-15
+tier: B
+verified_at: 2026-05-20
 sources:
   - publisher: "Zen in Mississippi — About Us: The Teacher"
     url: https://zeninmississippi.org/aboutus/teacher.php
@@ -21,12 +21,13 @@ sources:
       Founded in 1983 by the late Robert Livingston Roshi (1933–2021), the
       American Zen Association provides Zen training and practice in the
       Soto Zen tradition.
+  - publisher: "American Zen Teachers Association — Members directory (zenteachers.org)"
+    url: https://zenteachers.org/members-of-azta
+    domain_class: institutional
+    retrieved_on: 2026-05-20
+    quote: |
+      Tony Bland — Center: Starkville Zen Dojo — Location: Starkville, MS, USA — Lineage: Soto Zen.
 reducer_notes: |
-  Two independent sangha hostnames confirm Tony Bland's 2004 shihō from
-  Livingston: zeninmississippi.org (Bland's own dojo site, with a verbatim
-  statement of the transmission date and lineage status) and neworleanszentemple.org
-  (the founding temple). No institutional or academic source has been located,
-  so Tier C applies. Upgrading would require an AZI, Sōtōshū, or independent
-  academic source naming Bland explicitly as Livingston's dharma successor.
+  Three independent hostnames now confirm Tony Bland's authorized teacher status in Livingston's Deshimaru/Soto lineage: zeninmississippi.org (sangha, verbatim "received shiho from Livingston-Roshi" in 2004), neworleanszentemple.org (sangha, confirms AZA founding and lineage), and zenteachers.org (institutional — American Zen Teachers Association membership directory, lists Bland as Starkville Zen Dojo, Soto Zen lineage). Two independent hostnames including one institutional (AZTA) → Tier B. Upgraded from C to B.
 human_review_needed: false
 ---

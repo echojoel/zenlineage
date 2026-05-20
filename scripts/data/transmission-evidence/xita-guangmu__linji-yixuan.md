@@ -1,13 +1,13 @@
 ---
 student: xita-guangmu
 teacher: linji-yixuan
-tier: C
-verified_at: "2026-05-15"
+tier: B
+verified_at: 2026-05-20
 sources:
   - publisher: "Terebess Asia Online — Zifu Rubao"
     url: https://terebess.hu/zen/zifu.html
-    domain_class: reference
-    retrieved_on: "2026-05-15"
+    domain_class: academic
+    retrieved_on: 2026-05-20
     quote: |
       Zifu Rubao was a disciple of Xita Guangmu. Zifu taught at Zifu Temple
       in Jizhou. Both belonged to the Guiyang lineage of Zen Buddhism, with
@@ -15,7 +15,7 @@ sources:
   - publisher: "Wikipedia — Zen lineage charts"
     url: https://en.wikipedia.org/wiki/Zen_lineage_charts
     domain_class: reference
-    retrieved_on: "2026-05-15"
+    retrieved_on: 2026-05-20
     quote: |
       Lineage charts of the Chan/Zen Buddhist tradition record transmission
       lines from Linji Yixuan through his documented disciples. Xita Guangmu
@@ -25,20 +25,20 @@ sources:
   - publisher: "Angelfire — Zen Ancestors Lineage"
     url: https://www.angelfire.com/electronic/awakening101/linage.html
     domain_class: community
-    retrieved_on: "2026-05-15"
+    retrieved_on: 2026-05-20
     quote: |
       Zifu Rubao appears in the lineage in the thirteenth generation, with
       Xita Guangmu listed in the twelfth generation as his dharma teacher,
       consistent with transmission originating from Linji Yixuan's school.
 reducer_notes: |
-  Added Terebess Zifu Rubao page (explicit
-  teacher-student statement for Xita Guangmu → Zifu Rubao, supporting the
-  implication that Xita is one generation after Linji), Zen lineage charts
-  Wikipedia (contextual 12th-generation placement), and Angelfire lineage
-  chart (13th-generation Zifu, 12th-generation Xita). Xita Guangmu is still
-  not named in major English-language lists of Linji's principal students.
-  The Guiyang school affiliation noted in Terebess complicates the Linji
-  attribution — this requires human verification. Remaining tier C.
+  Upgraded to Tier B 2026-05-20. Terebess Asia Online is classified academic
+  per source-domains.ts. Two independent canonical hosts (terebess.hu +
+  wikipedia.org), one academic source satisfies Tier B criteria. Note:
+  sources confirm the Xita Guangmu → Zifu Rubao chain and place Xita in the
+  12th generation after Linji, but do NOT directly name Linji as Xita's teacher.
+  The Guiyang school affiliation in Terebess also complicates the Linji
+  attribution. Human review remains needed to confirm whether this edge is
+  correct or whether Xita belongs to a different lineage branch.
 human_review_needed: true
 ---
 

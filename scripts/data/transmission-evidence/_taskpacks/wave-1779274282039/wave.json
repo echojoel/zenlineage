@@ -1,0 +1,361 @@
+{
+  "generated_at": "2026-05-20T10:51:22.039Z",
+  "filter": {
+    "waveSize": 25
+  },
+  "edges": [
+    {
+      "edgeId": "MPuxTE1LFzG7e5q1rJJv4",
+      "studentSlug": "gaoan-dayu",
+      "teacherSlug": "deshan-xuanjian",
+      "studentLabel": "Gaoan Dayu",
+      "teacherLabel": "Deshan Xuanjian",
+      "studentNative": [],
+      "teacherNative": [
+        "zh: 德山宣鑒"
+      ],
+      "studentDates": "unknown",
+      "teacherDates": "782–865",
+      "schoolSlug": "yunmen",
+      "existingNotes": ""
+    },
+    {
+      "edgeId": "IuAaEFpix6TPYjUw0Dmy4",
+      "studentSlug": "huguo-shoucheng",
+      "teacherSlug": "xiangyan-zhixian",
+      "studentLabel": "Huguo Shoucheng",
+      "teacherLabel": "Xiangyan Zhixian",
+      "studentNative": [],
+      "teacherNative": [],
+      "studentDates": "unknown",
+      "teacherDates": "unknown",
+      "schoolSlug": "guiyang",
+      "existingNotes": ""
+    },
+    {
+      "edgeId": "Hg9vV1Odt0gmMGNd-1isH",
+      "studentSlug": "huguo-jingyuan",
+      "teacherSlug": "taiping-huiqin",
+      "studentLabel": "Huguo Jingyuan",
+      "teacherLabel": "Taiping Huiqin",
+      "studentNative": [],
+      "teacherNative": [],
+      "studentDates": "unknown",
+      "teacherDates": "unknown",
+      "schoolSlug": "linji",
+      "existingNotes": "DISPUTED — Wave-4: Huguo Jingyuan's actual teacher was Yuanwu Keqin, not Taiping Huiqin."
+    },
+    {
+      "edgeId": "B5BMW4Kv0xytW_OT4Slcq",
+      "studentSlug": "jingzhao-mihu",
+      "teacherSlug": "yangshan-huiji",
+      "studentLabel": "Jingzhao Mihu",
+      "teacherLabel": "Yangshan Huiji",
+      "studentNative": [],
+      "teacherNative": [
+        "zh: 仰山慧寂"
+      ],
+      "studentDates": "unknown",
+      "teacherDates": "unknown",
+      "schoolSlug": "caodong",
+      "existingNotes": "DISPUTED — Wave-3 agent panel: Jingzhao Mihu's actual teacher per Terebess and the Guiyang-school lineage was Guishan Lingyou, not Yangshan Huiji (Yangshan was Mihu's dharma brother). Original Yangshan edge preserved as disputed historical claim."
+    },
+    {
+      "edgeId": "dQiZqhMNGt3RKIAm7ibmZ",
+      "studentSlug": "jingzhong-wuxiang",
+      "teacherSlug": "yuquan-shenxiu",
+      "studentLabel": "Jingzhong Wuxiang",
+      "teacherLabel": "Yuquan Shenxiu",
+      "studentNative": [
+        "zh: 無相"
+      ],
+      "teacherNative": [],
+      "studentDates": "684–762",
+      "teacherDates": "606–706",
+      "schoolSlug": "early-chan",
+      "existingNotes": ""
+    },
+    {
+      "edgeId": "VAAdz2sFiOGhJxmx9qx1x",
+      "studentSlug": "jiufeng-qin",
+      "teacherSlug": "yunmen-wenyan",
+      "studentLabel": "Jiufeng Qin",
+      "teacherLabel": "Yunmen Wenyan",
+      "studentNative": [],
+      "teacherNative": [
+        "zh: 雲門文偃"
+      ],
+      "studentDates": "unknown",
+      "teacherDates": "864–949",
+      "schoolSlug": "guiyang",
+      "existingNotes": ""
+    },
+    {
+      "edgeId": "Xe7MhseLLPFLxP9ZLAjlg",
+      "studentSlug": "lianhua-fengxiang",
+      "teacherSlug": "xuefeng-yicun",
+      "studentLabel": "Lianhua Fengxiang",
+      "teacherLabel": "Xuefeng Yicun",
+      "studentNative": [],
+      "teacherNative": [
+        "zh: 雪峰義存"
+      ],
+      "studentDates": "unknown",
+      "teacherDates": "822–908",
+      "schoolSlug": "yunmen",
+      "existingNotes": ""
+    },
+    {
+      "edgeId": "jWIOQkF0AHK2eYNTyGkAd",
+      "studentSlug": "longji-shaoxiu",
+      "teacherSlug": "cuiwei-wuxue",
+      "studentLabel": "Longji Shaoxiu",
+      "teacherLabel": "Cuiwei Wuxue",
+      "studentNative": [],
+      "teacherNative": [],
+      "studentDates": "unknown",
+      "teacherDates": "unknown",
+      "schoolSlug": "qingyuan-line",
+      "existingNotes": "DISPUTED — Wave-3 agent panel: Longji Shaoxiu's actual transmission was from Luohan Guichen (Dizang). Cuiwei Wuxue's documented heir was Touzi Datong, not Longji."
+    },
+    {
+      "edgeId": "5v-D2QOl3mdFPwgRUIxuR",
+      "studentSlug": "luoshan-daoxian",
+      "teacherSlug": "xuefeng-yicun",
+      "studentLabel": "Luoshan Daoxian",
+      "teacherLabel": "Xuefeng Yicun",
+      "studentNative": [],
+      "teacherNative": [
+        "zh: 雪峰義存"
+      ],
+      "studentDates": "unknown",
+      "teacherDates": "822–908",
+      "schoolSlug": "qingyuan-line",
+      "existingNotes": "DISPUTED — Wave-3 agent panel: Luoshan Daoxian studied with Xuefeng but received dharma transmission from Xuefeng's dharma brother Yantou Quanhuo. The Xuefeng→Luoshan edge conflates study-visit with transmission."
+    },
+    {
+      "edgeId": "pzd-ZKScpsZ6bP5jWn-wi",
+      "studentSlug": "mahasattva-fu",
+      "teacherSlug": "puti-damo",
+      "studentLabel": "Mahasattva Fu",
+      "teacherLabel": "Bodhidharma",
+      "studentNative": [],
+      "teacherNative": [
+        "zh: 菩提達摩",
+        "zh: 達磨"
+      ],
+      "studentDates": "497–569",
+      "teacherDates": "?–536",
+      "schoolSlug": "early-chan",
+      "existingNotes": "DISPUTED — Wave-3 agent panel: no Chan source places Mahāsattva Fu (Fu Dashi, 497–569) as Bodhidharma's dharma heir in any formal transmission sense. The 'Three Mahāsattvas of the Liang Dynasty' grouping is honorific, not lineage. Per academic study (Tandfonline 2015), a 'Damo' mentioned in Fu's biography may be a different person later conflated with Bodhidharma."
+    },
+    {
+      "edgeId": "ZRuXY667RMQoEwBhA4fKz",
+      "studentSlug": "mingzhao-deqian",
+      "teacherSlug": "xuefeng-yicun",
+      "studentLabel": "Mingzhao Deqian",
+      "teacherLabel": "Xuefeng Yicun",
+      "studentNative": [],
+      "teacherNative": [
+        "zh: 雪峰義存"
+      ],
+      "studentDates": "unknown",
+      "teacherDates": "822–908",
+      "schoolSlug": "qingyuan-line",
+      "existingNotes": "DISPUTED — Wave-3 agent panel: Mingzhao Deqian's teacher was Luoshan Daoxian, not Xuefeng directly. He sits in the Yantou Quanhuo sub-branch of Deshan's lineage."
+    },
+    {
+      "edgeId": "BsiEWEPgQ3l_5rZfsAdul",
+      "studentSlug": "nanta-guangyong",
+      "teacherSlug": "shishuang-qingzhu",
+      "studentLabel": "Nanta Guangyong",
+      "teacherLabel": "Shishuang Qingzhu",
+      "studentNative": [],
+      "teacherNative": [],
+      "studentDates": "unknown",
+      "teacherDates": "807–888",
+      "schoolSlug": "caodong",
+      "existingNotes": "DISPUTED — Wave-3 agent panel: Nanta Guangyong was a Guiyang-school heir of Yangshan Huiji, not a heir of Shishuang Qingzhu (who was in the parallel Daowu/Yaoshan branch)."
+    },
+    {
+      "edgeId": "xR2amNKdJnaPUOXMjKLIU",
+      "studentSlug": "qinglin-shiqian",
+      "teacherSlug": "zhaozhou-congshen",
+      "studentLabel": "Qinglin Shiqian",
+      "teacherLabel": "Zhaozhou Congshen",
+      "studentNative": [],
+      "teacherNative": [
+        "zh: 趙州從諗"
+      ],
+      "studentDates": "?–904",
+      "teacherDates": "778–897",
+      "schoolSlug": "nanyue-line",
+      "existingNotes": "DISPUTED — Wave-3 agent panel: Qinglin Shiqian was a Caodong heir of Dongshan Liangjie, not a heir of Zhaozhou Congshen (whose lineage died out quickly). Zhaozhou's own Wikipedia article notes he had no surviving direct heir."
+    },
+    {
+      "edgeId": "PIN7ibjA_evJhU7meE57G",
+      "studentSlug": "qingxi-hongjin",
+      "teacherSlug": "xuefeng-yicun",
+      "studentLabel": "Qingxi Hongjin",
+      "teacherLabel": "Xuefeng Yicun",
+      "studentNative": [],
+      "teacherNative": [
+        "zh: 雪峰義存"
+      ],
+      "studentDates": "unknown",
+      "teacherDates": "822–908",
+      "schoolSlug": "qingyuan-line",
+      "existingNotes": "DISPUTED — Wave-3 agent panel: Qingxi Hongjin's direct teacher was Luohan Guichen, not Xuefeng. He is Xuefeng's great-grand-student through Xuansha Shibei → Luohan Guichen."
+    },
+    {
+      "edgeId": "14hE0_iIZNks-EZyck-KM",
+      "studentSlug": "baizhang-niepan",
+      "teacherSlug": "linji-yixuan",
+      "studentLabel": "Baizhang Niepan",
+      "teacherLabel": "Linji Yixuan",
+      "studentNative": [],
+      "teacherNative": [
+        "zh: 臨濟義玄",
+        "zh: 臨済義玄"
+      ],
+      "studentDates": "unknown",
+      "teacherDates": "?–866",
+      "schoolSlug": "linji",
+      "existingNotes": "DISPUTED — Wave-3 agent panel: Baizhang Niepan (died ~828 CE) predates Linji Yixuan (died 866 CE) and was a student of Baizhang Huaihai, a generation earlier. The transmission as coded is chronologically impossible."
+    },
+    {
+      "edgeId": "AHfFj0rVzVyoNthafSKpn",
+      "studentSlug": "baling-haojian",
+      "teacherSlug": "dongshan-shouchu",
+      "studentLabel": "Baling Haojian",
+      "teacherLabel": "Dongshan Shouchu",
+      "studentNative": [],
+      "teacherNative": [],
+      "studentDates": "unknown",
+      "teacherDates": "910–990",
+      "schoolSlug": "yunmen",
+      "existingNotes": ""
+    },
+    {
+      "edgeId": "FOTY34ftUPGKUVAssydYX",
+      "studentSlug": "baoen-xuanze",
+      "teacherSlug": "yunmen-wenyan",
+      "studentLabel": "Baoen Xuanze",
+      "teacherLabel": "Yunmen Wenyan",
+      "studentNative": [],
+      "teacherNative": [
+        "zh: 雲門文偃"
+      ],
+      "studentDates": "unknown",
+      "teacherDates": "864–949",
+      "schoolSlug": "nanyue-line",
+      "existingNotes": "DISPUTED — Wave-3 agent panel: Baoen Xuanze was a Fayan-school heir; his enlightenment dialogue ('the fire boy comes seeking fire') is with Fayan Wenyi, not Yunmen Wenyan."
+    },
+    {
+      "edgeId": "oKulb0AGTClxxJeiElbHy",
+      "studentSlug": "baofeng-weizhao",
+      "teacherSlug": "xiangyan-zhixian",
+      "studentLabel": "Baofeng Weizhao",
+      "teacherLabel": "Xiangyan Zhixian",
+      "studentNative": [],
+      "teacherNative": [],
+      "studentDates": "unknown",
+      "teacherDates": "unknown",
+      "schoolSlug": "guiyang",
+      "existingNotes": ""
+    },
+    {
+      "edgeId": "LMlZIOIRpUaXN3IpuUlzp",
+      "studentSlug": "baoning-renyong",
+      "teacherSlug": "cuiyan-kezhen",
+      "studentLabel": "Baoning Renyong",
+      "teacherLabel": "Cuiyan Kezhen",
+      "studentNative": [],
+      "teacherNative": [],
+      "studentDates": "unknown",
+      "teacherDates": "unknown",
+      "schoolSlug": "linji",
+      "existingNotes": "DISPUTED — Wave-4: Baoning Renyong's actual teacher was Yangqi Fanghui, not Cuiyan Kezhen."
+    },
+    {
+      "edgeId": "WiqYrh9fGAx4Fa3t0MEJ7",
+      "studentSlug": "danyuan-yingzhen",
+      "teacherSlug": "nanyue-daoxuan",
+      "studentLabel": "Danyuan Yingzhen",
+      "teacherLabel": "Nanyue Daoxuan",
+      "studentNative": [],
+      "teacherNative": [],
+      "studentDates": "unknown",
+      "teacherDates": "596–667",
+      "schoolSlug": "qingyuan-line",
+      "existingNotes": "DISPUTED — Wave-3 agent panel: Danyuan Yingzhen's actual teacher was Nanyang Huizhong. 'Nanyue Daoxuan' does not appear in any Chan reference as Danyuan's teacher; this is likely a name conflation."
+    },
+    {
+      "edgeId": "oj-WYxY34VG00T8Iy_v-J",
+      "studentSlug": "dayu-shouzhi",
+      "teacherSlug": "guishan-lingyou",
+      "studentLabel": "Dayu Shouzhi",
+      "teacherLabel": "Guishan Lingyou",
+      "studentNative": [],
+      "teacherNative": [
+        "zh: 潙山靈祐"
+      ],
+      "studentDates": "unknown",
+      "teacherDates": "unknown",
+      "schoolSlug": "linji",
+      "existingNotes": ""
+    },
+    {
+      "edgeId": "NI7gTfIFUwjhLYA5LVqul",
+      "studentSlug": "deshan-yuanmi",
+      "teacherSlug": "dongshan-shouchu",
+      "studentLabel": "Deshan Yuanmi",
+      "teacherLabel": "Dongshan Shouchu",
+      "studentNative": [],
+      "teacherNative": [],
+      "studentDates": "unknown",
+      "teacherDates": "910–990",
+      "schoolSlug": "caodong",
+      "existingNotes": "DISPUTED — Wave-5: Deshan Yuanmi and Dongshan Shouchu were both dharma heirs of Yunmen Wenyan — dharma siblings, not teacher-student. Per Zen Apocrypha, Terebess, Wikipedia."
+    },
+    {
+      "edgeId": "YmzVEsISytaMTcIDG6eWD",
+      "studentSlug": "dingzhou-shizang",
+      "teacherSlug": "shishuang-qingzhu",
+      "studentLabel": "Dingzhou Shizang",
+      "teacherLabel": "Shishuang Qingzhu",
+      "studentNative": [],
+      "teacherNative": [],
+      "studentDates": "unknown",
+      "teacherDates": "807–888",
+      "schoolSlug": "qingyuan-line",
+      "existingNotes": "DISPUTED — Wave-3 agent panel: Dingzhou Shizang's recorded dates (714–800) place him a century before Shishuang Qingzhu (807–888). The transmission is chronologically impossible."
+    },
+    {
+      "edgeId": "nMHNOA8nDt1VrL9ElGMsH",
+      "studentSlug": "taiyuan-fu",
+      "teacherSlug": "shushan-kuangren",
+      "studentLabel": "Taiyuan Fu",
+      "teacherLabel": "Shushan Kuangren",
+      "studentNative": [],
+      "teacherNative": [],
+      "studentDates": "unknown",
+      "teacherDates": "unknown",
+      "schoolSlug": "qingyuan-line",
+      "existingNotes": "DISPUTED — Wave-3 agent panel: Taiyuan Fu was a Xuefeng heir, attested in the Jingde Chuandeng lu with the famous tenzo enlightenment. No source links him to Shushan Kuangren."
+    },
+    {
+      "edgeId": "Y2oOgkK7jN8-7rUZxWAGL",
+      "studentSlug": "wang-yanbin",
+      "teacherSlug": "changqing-huileng",
+      "studentLabel": "Wang Yanbin",
+      "teacherLabel": "Changqing Huileng",
+      "studentNative": [],
+      "teacherNative": [],
+      "studentDates": "unknown",
+      "teacherDates": "854–932",
+      "schoolSlug": "qingyuan-line",
+      "existingNotes": "DISPUTED — Wave-3 agent panel: Wang Yanbin was the governor of Fuzhou who invited Changqing Huileng to head a monastery and later built his memorial stūpa. A lay-patron relationship, not dharma transmission."
+    }
+  ]
+}

@@ -2,16 +2,36 @@
 student: sixin-wuxin
 teacher: baiyun-shouduan
 tier: C
-verified_at: 2026-05-15
+verified_at: 2026-05-20
 sources:
   - publisher: "Terebess Asia Online – Master List"
     url: https://terebess.hu/english/master.html
-    domain_class: reference
+    domain_class: academic
     retrieved_on: 2026-05-15
     quote: |
       Sixin Wuxin (Ssu-hsin Wu-hsin, Shishin Goshin, 1044-1115) listed in lineage descending from Baiyun Shouduan in the Yangqi branch.
+  - publisher: "Terebess — Sixin Wuxin biography"
+    url: https://terebess.hu/zen/mesterek/SixinWuxin.html
+    domain_class: academic
+    retrieved_on: 2026-05-20
+    quote: |
+      SIXIN WUXIN (1044–1115) was a disciple of Huitang Zuxin. He came from Shaozhou.
+  - publisher: "Terebess — Huitang Zuxin"
+    url: https://terebess.hu/zen/mesterek/HuitangZuxin.html
+    domain_class: academic
+    retrieved_on: 2026-05-20
+    quote: |
+      Governor Wang then spoke to Huitang's senior disciple, Sixin, saying, 'The master is waiting for our senior brother to light the fire.'
 reducer_notes: |
-  Sixin Wuxin (1044-1115) appears in the Yangqi lineage charts as a dharma heir of Baiyun Shouduan (1025-1072), though Wikipedia attributes him as a dharma-heir of Huitang Zuxin (another Baiyun student). The lineage connection is reported in Terebess master lists but direct explicit sourcing in major encyclopedias is limited. The contemporaneity is consistent (Baiyun d.1072, Sixin b.1044). Tier C: one credible reference source; the Huitang-Zuxin attribution also present in some lists creates mild ambiguity.
+  CONFLICTING ATTRIBUTION: The Terebess Master List places Sixin Wuxin in the
+  lineage descending from Baiyun Shouduan (1025-1072), but the dedicated Terebess
+  biography of Sixin Wuxin explicitly states "SIXIN WUXIN (1044–1115) was a disciple
+  of Huitang Zuxin," and the Huitang Zuxin article confirms Sixin as Huitang's
+  "senior disciple." Huitang Zuxin was himself a dharma heir of Baiyun Shouduan
+  (via Huanglong Huinan), making Sixin technically a grandson-in-dharma of Baiyun,
+  not a direct heir. The edge baiyun-shouduan→sixin-wuxin appears incorrect if
+  Sixin's direct teacher was Huitang Zuxin. Tier C retained pending human review.
+  This edge should likely be changed to huitang-zuxin→sixin-wuxin.
 human_review_needed: true
 ---
 

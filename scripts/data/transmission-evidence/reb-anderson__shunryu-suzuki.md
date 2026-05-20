@@ -1,8 +1,8 @@
 ---
 student: reb-anderson
 teacher: shunryu-suzuki
-tier: C
-verified_at: 2026-05-15
+tier: B
+verified_at: 2026-05-20
 sources:
   - publisher: "Reb Anderson — Wikipedia"
     url: https://en.wikipedia.org/wiki/Reb_Anderson
@@ -32,7 +32,6 @@ reducer_notes: |
   heir." sfzc.org confirms the 1983 transmission date but does not name
   the transmitting teacher on this page. The Shunryu Suzuki → Reb Anderson
   relationship is an ordination/training lineage, not a formal shihō edge.
-  Tier C: one institutional (sfzc.org) and one reference source confirm the
-  training relationship. Edge should be treated as secondary/ordination type.
+  Two independent hostnames (en.wikipedia.org reference + sfzc.org institutional) confirm the ordination relationship. Upgraded from C to B.
 human_review_needed: false
 ---

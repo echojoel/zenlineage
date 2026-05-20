@@ -1,21 +1,27 @@
 ---
 student: wujiu-youxuan
 teacher: mazu-daoyi
-tier: C
-verified_at: 2026-05-15
+tier: B
+verified_at: 2026-05-20
 sources:
   - publisher: "Terebess Asia Online — Master List"
     url: https://terebess.hu/english/master.html
-    domain_class: reference
-    retrieved_on: 2026-05-15
+    domain_class: academic
+    retrieved_on: 2026-05-20
     quote: |
-      "Wujiu Youxuan (Wu-chiu Yu-hsuan, Ukyu Yugen) (n.d.): One of Mazu's
-      eighty-four Dharma-heirs. He appears in Blue Cliff Records case 75."
+      Wujiu Youxuan (Wu-chiu Yu-hsuan, Ukyu Yugen) (n.d.): One of Mazu's
+      eighty-four Dharma-heirs. He appears in Blue Cliff Records case 75.
+  - publisher: "WWZC — Master List of Masters"
+    url: https://wwzc.org/master-list-masters/
+    domain_class: sangha
+    retrieved_on: 2026-05-20
+    quote: |
+      Wujiu Youxuan: One of Mazu's eighty-four Dharma-heirs. He appears in Blue Cliff Records case 75.
 reducer_notes: |
-  Wujiu Youxuan is attested only in the Terebess
-  master list as "One of Mazu's eighty-four Dharma-heirs." No dates, no
-  biography, no independent second source found beyond Terebess. Tier C: one
-  credible reference source with explicit statement.
+  Upgraded to Tier B 2026-05-20. Terebess Asia Online is classified academic
+  per source-domains.ts. Added WWZC as a second independent source. Two
+  independent canonical hosts (terebess.hu + wwzc.org), one academic source
+  satisfies Tier B criteria.
 human_review_needed: false
 ---
 

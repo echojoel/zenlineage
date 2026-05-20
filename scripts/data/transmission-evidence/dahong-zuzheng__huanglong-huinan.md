@@ -2,7 +2,7 @@
 student: dahong-zuzheng
 teacher: huanglong-huinan
 tier: C
-verified_at: "2026-05-15"
+verified_at: "2026-05-20"
 sources:
   - publisher: "Wisdomlib — Huang Long"
     url: https://www.wisdomlib.org/definition/huang-long
@@ -12,7 +12,7 @@ sources:
       His dharma heirs include Zhenjing Kewen (真淨之克文), Donglin Changzong (東林之常總), and Huitang Zuxin (晦堂之祖心), among others.
   - publisher: "Terebess Asia Online — Huanglong Huinan"
     url: https://terebess.hu/zen/mesterek/HuanglongHuinan.html
-    domain_class: reference
+    domain_class: academic
     retrieved_on: "2026-05-15"
     quote: |
       The Huanglong pai did not survive as a separate lineage in either country long after the twelfth century. Named second-generation heirs include Baofeng Kewen (1025–1102), Donglin Changzong (1025–1091), and Huitang Zuxin. Dahong Zuzheng is not named among direct heirs.

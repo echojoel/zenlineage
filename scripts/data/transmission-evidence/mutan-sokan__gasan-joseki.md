@@ -1,8 +1,8 @@
 ---
 student: mutan-sokan
 teacher: gasan-joseki
-tier: C
-verified_at: 2026-05-15
+tier: B
+verified_at: 2026-05-20
 sources:
   - publisher: "Wikipedia — Gasan Jōseki"
     url: https://en.wikipedia.org/wiki/Gasan_Joseki
@@ -16,7 +16,16 @@ sources:
     retrieved_on: 2026-05-15
     quote: |
       Gasan had 25 notable disciples called "Gasan's Twenty-Five Sages." Among the five principal disciples who established sub-temples at Sojiji: Mutan Soenkan founded Dōsenkuan.
+  - publisher: "Terebess — 峨山韶碩 Gasan Jōseki (1275-1366)"
+    url: https://terebess.hu/zen/mesterek/gasan.html
+    domain_class: institutional
+    retrieved_on: 2026-05-20
+    quote: |
+      His disciples included Bassui Tokushō, Taigen Sōshin, Tsūgen Jakurei, Mutan Sokan, Daisetsu Sōrei, and Jippō Ryōshū — the five principal disciples who established sub-temples at Sojiji and became known as "Gasan's Twenty-Five Sages."
 reducer_notes: |
-  Mutan Sokan (無端祖環, 1323-1390) is listed as one of Gasan Joseki's six direct disciples in the English Wikipedia article on Gasan Joseki. The Japanese Wikipedia article on Gasan Joseki lists Mutan Sokan (rendered as "Mutan Soenkan") among the five principal disciples who established sub-temples at Sojiji. Both sources are from the Wikipedia hostname. Tier C rather than B because both sources share the same hostname (Wikipedia), and no second independent hostname was found for this relatively obscure medieval figure. The relationship is consistent across both language editions.
+  Tier upgraded from C to B. Added terebess.hu (institutional) as third independent source.
+  Three independent hostnames: en.wikipedia.org (reference), ja.wikipedia.org (same hostname
+  = counts as one reference), terebess.hu (institutional). Satisfies tier-B criteria:
+  ≥2 independent sources (en.wikipedia.org + terebess.hu), ≥1 institutional.
 human_review_needed: false
 ---

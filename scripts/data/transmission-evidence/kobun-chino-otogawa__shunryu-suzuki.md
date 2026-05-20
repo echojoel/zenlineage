@@ -1,8 +1,8 @@
 ---
 student: kobun-chino-otogawa
 teacher: shunryu-suzuki
-tier: C
-verified_at: "2026-05-15"
+tier: B
+verified_at: "2026-05-20"
 sources:
   - publisher: "Kōbun Chino Otogawa — Wikipedia"
     url: https://en.wikipedia.org/wiki/K%C5%8Dbun_Chino_Otogawa
@@ -32,13 +32,6 @@ sources:
       Suzuki Roshi first had Kobun spend two years helping develop Tassajara.
       Kobun received dharma transmission from Koei Chino Roshi in Kamo in 1962.
 reducer_notes: |
-  DISPUTED EDGE: This edge represents a "collaboration /
-  invited assistant" relationship, NOT a formal shihō from Suzuki to Kobun.
-  Three sources confirm Kobun came to Tassajara at Suzuki's invitation in 1967
-  and served as assistant until 1970; collaboration continued until Suzuki's
-  death in 1971. All sources agree Kobun's actual dharma transmission came from
-  Koei Chino Roshi in Kamo in 1962 — five years before arriving in California.
-  This edge should be labelled "invited assistant/colleague" not "dharma heir."
-  Tier stays C: well-attested collaboration, not a shihō edge.
+  DISPUTED EDGE: This edge represents a "collaboration / invited assistant" relationship, NOT a formal shihō from Suzuki to Kobun. Three sources confirm Kobun came to Tassajara at Suzuki's invitation in 1967 and served as assistant until 1970; all sources agree Kobun's actual dharma transmission came from Koei Chino Roshi in Kamo in 1962. Two independent hostnames include one institutional: en.wikipedia.org (reference) and jikojizencenter.org (institutional — Jikoji Zen Center, the center Kobun founded). Two independent hostnames with ≥1 institutional → Tier B. This edge should be labelled "invited assistant/colleague" not "dharma heir." Upgraded from C to B.
 human_review_needed: true
 ---

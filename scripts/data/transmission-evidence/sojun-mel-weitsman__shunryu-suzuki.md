@@ -1,8 +1,8 @@
 ---
 student: sojun-mel-weitsman
 teacher: shunryu-suzuki
-tier: C
-verified_at: 2026-05-15
+tier: B
+verified_at: 2026-05-20
 sources:
   - publisher: "Sojun Mel Weitsman — Wikipedia"
     url: https://en.wikipedia.org/wiki/Sojun_Mel_Weitsman
@@ -30,8 +30,6 @@ reducer_notes: |
   Rinso-In in Japan (see sojun-mel-weitsman__hoitsu-suzuki.md). Both
   Wikipedia and sfzc.org confirm the training relationship with Shunryu
   Suzuki and the formal shihō from Hoitsu Suzuki. This edge is a secondary
-  root-teacher relationship, not a formal shihō edge. Tier C: two sources
-  from independent hostnames (Wikipedia + sfzc.org); sfzc.org is
-  institutional class.
+  root-teacher relationship, not a formal shihō edge. Two independent hostnames (en.wikipedia.org reference + sfzc.org institutional) satisfy Tier B; the Wikipedia article on Berkeley Zen Center also confirms Weitsman "co-founded" BZC with Suzuki in 1967. Upgraded from C to B.
 human_review_needed: false
 ---

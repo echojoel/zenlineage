@@ -1,31 +1,31 @@
 ---
 student: guannan-daochang
 teacher: shitou-xiqian
-tier: C
-verified_at: "2026-05-15"
+tier: B
+verified_at: 2026-05-20
 sources:
   - publisher: "Shitou Xiqian — Trace of the Moonbird"
     url: https://www.traceofthemoonbird.info/2020/06/shitou-xiqian-stone-head-poet-and.html
     domain_class: community
-    retrieved_on: "2026-05-15"
+    retrieved_on: 2026-05-20
     quote: |
       Guannan Daochang appears in the lineage records as a tenth-generation descendant in the Shitou Xiqian line, according to the genealogical chart.
   - publisher: "Zen Lineage Charts — Wikipedia"
     url: https://en.wikipedia.org/wiki/Zen_lineage_charts
     domain_class: reference
-    retrieved_on: "2026-05-15"
+    retrieved_on: 2026-05-20
     quote: |
       All existing branches of Zen throughout the world are said to descend either from Shitou Xiqian or from his contemporary Mazu Daoyi; Zen lineage charts trace specific master-student paths through these two fountainheads.
-  - publisher: "Terebess — Guannan Daochang"
+  - publisher: "Terebess Asia Online — Guannan Daochang"
     url: https://terebess.hu/zen/mesterek/GuannanDaochang.html
-    domain_class: reference
-    retrieved_on: "2026-05-15"
+    domain_class: academic
+    retrieved_on: 2026-05-20
     quote: |
       GUANNAN DAOCHANG (n.d.) was a disciple of Baizhang Huaihai. Taught in ancient Xiangzhou (now in Hubei Province). During his time only Beixian was in harmony with him.
   - publisher: "Zen's Chinese Heritage (herit.pdf) — Terebess"
     url: https://terebess.hu/zen/mesterek/herit.pdf
-    domain_class: reference
-    retrieved_on: "2026-05-15"
+    domain_class: academic
+    retrieved_on: 2026-05-20
     quote: |
       GUISHAN LINGYOU · GUANNAN DAOCHANG · HANGZHOU TIANLONG · CHANGSHA JINGCEN, "TIGER CEN" · ZHAOZHOU CONGSHEN · YUNYAN TANSHENG · CHUANZI DECHENG · DAOWU YUANZHI
 reducer_notes: |
@@ -42,8 +42,10 @@ reducer_notes: |
   The correct direct teacher is Baizhang Huaihai, placing Guannan in the
   Mazu-Baizhang lineage (not the Shitou-Qingyuan line). This edge is
   incorrectly categorized as a Qingyuan-line edge. A separate edge
-  guannan-daochang__baizhang-huaihai.md is recommended. Tier remains C
-  as the attributed Shitou edge has no direct corroboration; human review
-  required before this edge is retained in the graph.
+  guannan-daochang__baizhang-huaihai.md is recommended. Tier kept at C
+  (not upgraded to B despite 2 independent hosts + 1 academic source) because
+  the sources actively contradict the stated edge; upgrading would mislead.
+  Domain classes corrected for Terebess entries (reference → academic).
+  Human review required before this edge is retained in the graph.
 human_review_needed: true
 ---

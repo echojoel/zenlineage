@@ -2,7 +2,7 @@
 student: thich-quang-duc
 teacher: lieu-quan
 tier: C
-verified_at: 2026-05-15
+verified_at: 2026-05-20
 sources:
   - publisher: "Wikipedia — Thích Quảng Đức"
     url: https://en.wikipedia.org/wiki/Thích_Quảng_Đức
@@ -28,7 +28,8 @@ reducer_notes: |
   ordination in that region, the Liễu Quán affiliation is historically plausible
   but not directly attested in fetched sources. Wikipedia is the only fetched
   source with content about him. Tier C assigned for Wikipedia as a credible
-  reference-class source confirming ordination context. Human review recommended
-  to verify the specific lineage affiliation claim.
+  reference-class source confirming ordination context. Human review strongly
+  recommended to verify the specific lineage affiliation claim before treating
+  this edge as verified.
 human_review_needed: true
 ---

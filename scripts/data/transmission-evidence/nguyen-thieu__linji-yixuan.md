@@ -1,8 +1,8 @@
 ---
 student: nguyen-thieu
 teacher: linji-yixuan
-tier: C
-verified_at: 2026-05-15
+tier: B
+verified_at: 2026-05-20
 sources:
   - publisher: "Wikipedia — Buddhism in Vietnam"
     url: https://en.wikipedia.org/wiki/Buddhism_in_Vietnam
@@ -18,14 +18,21 @@ sources:
     quote: |
       Master Nguyen Thieu, of the Lin Chi tradition who had come from China, set up a new Zen
       school, with its headquarters at Thap Thap Temple in the province of Binh Dinh (built in 1683).
+  - publisher: "Terebess — Vietnamese Zen Masters"
+    url: https://terebess.hu/zen/viet.html
+    domain_class: academic
+    retrieved_on: 2026-05-20
+    quote: |
+      Nguyên Thiều 元韶 (1648-1728), aka Siêu Bạch, Hoán Bích, established a vigorous Lâm Tế school derived from the Linji lineage, which mixed Chan and Pure Land Buddhism.
 reducer_notes: |
   The edge linji-yixuan -> nguyen-thieu represents a ~800-year lineage
   connection rather than a direct transmission. Nguyên Thiều (1648-1728) was a dharma heir of
   Muchen Daomin's disciple Kuang-yuan Benkao, representing the 34th or so generation after Linji
-  Yixuan. The "teacher" here is the founder of the school, not a direct predecessor. Multiple sources
-  confirm Nguyen Thieu was in the Linji (Lam Te) tradition. Tier C: credible sources confirm his
-  lineage traces to the Linji school, though the edge represents school affiliation rather than
-  one-hop transmission.
+  Yixuan. The "teacher" here is the founder of the school, not a direct predecessor. Three independent
+  sources across three hostnames confirm Nguyen Thieu was in the Linji (Lam Te) tradition.
+  Upgraded to Tier B: Wikipedia (reference) + Parallax Press (sangha) + Terebess (academic),
+  all three are independent hostnames. The edge represents school affiliation rather than one-hop
+  transmission.
 human_review_needed: false
 ---
 

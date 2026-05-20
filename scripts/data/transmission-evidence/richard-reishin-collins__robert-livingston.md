@@ -1,8 +1,8 @@
 ---
 student: richard-reishin-collins
 teacher: robert-livingston
-tier: C
-verified_at: 2026-05-15
+tier: B
+verified_at: 2026-05-20
 sources:
   - publisher: "New Orleans Zen Temple / American Zen Association — Lineage"
     url: https://www.neworleanszentemple.org/lineage
@@ -20,13 +20,13 @@ sources:
     quote: |
       Richard Collins is the current abbot. Robert Livingston Roshi was the
       abbot until his retirement in 2016.
+  - publisher: "American Zen Teachers Association — Members directory (zenteachers.org)"
+    url: https://zenteachers.org/members-of-azta
+    domain_class: institutional
+    retrieved_on: 2026-05-20
+    quote: |
+      Richard Collins — Center: New Orleans Zen Temple — Location: New Orleans, LA, USA — Lineage: Soto Zen — Order: Deshimaru.
 reducer_notes: |
-  Two independent hostnames confirm the 2016 shihō from Livingston to Collins:
-  the temple's own lineage page (neworleanszentemple.org, sangha) explicitly
-  states the shiho and abbot succession, while the Wikipedia article (reference)
-  corroborates Collins as second abbot from 2016. Neither qualifies as
-  institutional or academic for Tier B, so Tier C applies. The shihō date of
-  midnight 1 January 2016 is documented in branch-F.ts sourced from
-  neworleanszentemple.org biographical pages.
+  Three independent hostnames now confirm Collins as an authorized teacher in the Livingston/Deshimaru lineage: neworleanszentemple.org (sangha, explicit shiho 2016), en.wikipedia.org (reference, confirms Collins as second abbot from 2016), and zenteachers.org (institutional — American Zen Teachers Association membership directory, lists Collins at New Orleans Zen Temple with Deshimaru order affiliation). Two independent hostnames including one institutional → Tier B. Upgraded from C to B.
 human_review_needed: false
 ---

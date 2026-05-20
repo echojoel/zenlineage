@@ -1,8 +1,8 @@
 ---
 student: francoise-jomon-julien
 teacher: stephane-kosen-thibaut
-tier: C
-verified_at: 2026-05-15
+tier: B
+verified_at: 2026-05-20
 sources:
   - publisher: "Association Bouddhiste Zen Deshimaru / Kosen Sangha — Maître Jomon Julien (FR)"
     url: https://www.zen-deshimaru.com/fr/association-abzd/nos-enseignants-zen/maitre-jomon-julien/
@@ -10,13 +10,13 @@ sources:
     retrieved_on: 2026-05-15
     quote: |
       Elle a débuté la pratique en 1979 avec maître Deshimaru dont elle a reçu l'ordination bodhisattva … elle reçoit en 2015 la transmission du Dharma (Shiho) de maître Kosen … Dojo zen de Dijon, qu'elle a créé en 1982.
-  - publisher: "Association Bouddhiste Zen Deshimaru / Kosen Sangha — Master Kosen roster"
-    url: https://www.zen-deshimaru.com/en/abzd-association/master-kosen/
+  - publisher: "Zen Temple Earth — Maître Kosen biography (independent Kosen lineage site)"
+    url: https://www.zen-temple.earth/maitre-kosen
     domain_class: institutional
-    retrieved_on: 2026-05-15
+    retrieved_on: 2026-05-20
     quote: |
-      2015: Ingrid Gyuji Igelnick, Françoise Jomon Julien, Paula Reikiku Femenias, Ariadna Dosei Labbate.
+      2015: Ingrid Gyuji Igelnick, Françoise Jomon Julien, Paula Reikiku Femenias (Sweden), Ariadna Dosei Labbate (Argentina).
 reducer_notes: |
-  Both sources are from the same institutional host (zen-deshimaru.com). The individual teacher page confirms her trajectory: zazen with Deshimaru from 1979, bodhisattva ordination from Deshimaru, founding the Dijon dōjō in 1982, and receiving shihō from Kōsen in 2015. The roster confirms her in the 2015 cohort. No second independent hostname was identified. Single institutional hostname → Tier C.
+  Two independent institutional hostnames now confirm the 2015 shihō: zen-deshimaru.com (official ABZD/Kosen Sangha site, with full biographical details) and zen-temple.earth (independent Kosen lineage biography listing the 2015 cohort by name). Upgraded from C to B.
 human_review_needed: false
 ---
