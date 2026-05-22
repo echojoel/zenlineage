@@ -302,16 +302,7 @@ export const KV_MASTERS: KVMaster[] = [
       { index: 1, sourceId: "src_buswell_formation", pageOrSection: "pp. 41–74 — Naong's Yuan-China training and Linji transmission" },
       { index: 2, sourceId: "src_buswell_monastic", pageOrSection: "pp. 21–41 — Muhak Jacho and the late-Goryeo Linji line into the early Joseon" },
     ],
-    transmissions: [
-      {
-        teacherSlug: "taego-bou",
-        type: "dharma",
-        isPrimary: false,
-        sourceIds: ["src_buswell_formation"],
-        notes:
-          "Editorial bridge: Naong and Taego Bou were contemporaries who both received Yuan-Chinese Linji transmission and served as Royal Preceptor under King Gongmin. The edge captures the late-Goryeo Linji cohort to which Naong belongs; his direct teacher Pingshan Chulin is not yet seeded.",
-      },
-    ],
+    transmissions: [],
   },
   {
     slug: "gihwa",

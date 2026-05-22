@@ -6051,21 +6051,6 @@
         "locale": "en",
         "name_type": "alias",
         "value": "Myôan Eisai"
-      },
-      {
-        "locale": "en",
-        "name_type": "alias",
-        "value": "Myoan Eisai"
-      },
-      {
-        "locale": "en",
-        "name_type": "alias",
-        "value": "Myoan Yosai"
-      },
-      {
-        "locale": "en",
-        "name_type": "alias",
-        "value": "Eisai"
       }
     ],
     "birth_year": null,
@@ -6077,7 +6062,6 @@
     "school": "Rinzai",
     "source_ids": [
       "src_chan_ancestors_pdf",
-      "src_agent_review",
       "src_originals_curated"
     ]
   },
@@ -7679,57 +7663,6 @@
     ]
   },
   {
-    "id": "NEuR76w8oHToQv7ZPyugY",
-    "slug": "myoan-eisai",
-    "names": [
-      {
-        "locale": "en",
-        "name_type": "dharma",
-        "value": "Myoan Eisai"
-      },
-      {
-        "locale": "zh",
-        "name_type": "alias",
-        "value": "明菴栄西"
-      },
-      {
-        "locale": "en",
-        "name_type": "alias",
-        "value": "Eisai"
-      },
-      {
-        "locale": "en",
-        "name_type": "alias",
-        "value": "Yōsai"
-      },
-      {
-        "locale": "en",
-        "name_type": "alias",
-        "value": "Eisai Zenji"
-      },
-      {
-        "locale": "en",
-        "name_type": "alias",
-        "value": "Myōan Eisai"
-      },
-      {
-        "locale": "en",
-        "name_type": "honorific",
-        "value": "Founder of Japanese Rinzai"
-      }
-    ],
-    "birth_year": 1141,
-    "birth_precision": "exact",
-    "birth_confidence": "high",
-    "death_year": 1215,
-    "death_precision": "exact",
-    "death_confidence": "high",
-    "school": "Rinzai",
-    "source_ids": [
-      "src_wikipedia"
-    ]
-  },
-  {
     "id": "NFvAfHLeEZtDf1niYKBMN",
     "slug": "daman-hongren",
     "names": [
@@ -8337,6 +8270,47 @@
     ]
   },
   {
+    "id": "OzJOHhJYYTfiCt3fdM9MM",
+    "slug": "baofeng-kewen",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Baofeng Kewen"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "寶峰克文"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Zhenjing Kewen"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Pao-feng K'o-wen"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Hōhō Kokubun"
+      }
+    ],
+    "birth_year": 1025,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 1102,
+    "death_precision": "exact",
+    "death_confidence": "high",
+    "school": "Linji",
+    "source_ids": [
+      "src_originals_curated"
+    ]
+  },
+  {
     "id": "p0c-cSI8lQQjhQQJKRRXq",
     "slug": "koho-kakumyo",
     "names": [
@@ -8887,6 +8861,42 @@
     "death_precision": "unknown",
     "death_confidence": "low",
     "school": "Indian Patriarchs",
+    "source_ids": [
+      "src_originals_curated"
+    ]
+  },
+  {
+    "id": "QL0AeNoJ8inoU6W9ykktR",
+    "slug": "mian-xianjie",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Mian Xianjie"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "密菴咸傑"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Mittan Kanketsu"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Mi-an Xian-jie"
+      }
+    ],
+    "birth_year": 1118,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 1186,
+    "death_precision": "exact",
+    "death_confidence": "high",
+    "school": "Linji",
     "source_ids": [
       "src_originals_curated"
     ]
@@ -10563,6 +10573,42 @@
     ]
   },
   {
+    "id": "ut0BCrCvc1bnWG4l8veYC",
+    "slug": "kogetsu-zenzai",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Kogetsu Zenzai"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "虎渓禅材"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Kogetsu Zenjai"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Kogetsu Zen'ai"
+      }
+    ],
+    "birth_year": 1667,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 1751,
+    "death_precision": "exact",
+    "death_confidence": "high",
+    "school": "Rinzai",
+    "source_ids": [
+      "src_originals_curated"
+    ]
+  },
+  {
     "id": "uu9qH9-9wD0oJeH7zP13h",
     "slug": "yaoshan-weiyan",
     "names": [
@@ -11576,6 +11622,47 @@
     "school": "Qingyuan line",
     "source_ids": [
       "src_chan_ancestors_pdf",
+      "src_originals_curated"
+    ]
+  },
+  {
+    "id": "xH5ad9S8fIqw_KBZDQUH5",
+    "slug": "xuan-huaichang",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Xuan Huaichang"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "虛庵懷敞"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Xu'an Huaichang"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Kyōan Esho"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Koan Esho"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Linji",
+    "source_ids": [
       "src_originals_curated"
     ]
   },

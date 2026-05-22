@@ -1,20 +1,5 @@
 [
   {
-    "name": "Mingan Rongxi",
-    "names_cjk": "",
-    "dates": "",
-    "teachers": [
-      {
-        "name": "Huanglong Huinan",
-        "edge_type": "dharma",
-        "notes": "Editorial bridge for Eisai's Huanglong lineage when the direct teacher Xuan Huaichang is not yet in the canonical corpus."
-      }
-    ],
-    "school": "Rinzai",
-    "source_id": "src_agent_review",
-    "ingestion_run_id": "run_lineage_fixes_curated_20260407"
-  },
-  {
     "name": "Taizan Maezumi",
     "names_cjk": "",
     "dates": "1931-1995",
@@ -127,31 +112,6 @@
       "Fu Dashi",
       "Fu Xi",
       "Fu Ta-shih"
-    ]
-  },
-  {
-    "name": "Myoan Eisai",
-    "names_cjk": "明菴栄西",
-    "dates": "1141-1215",
-    "teachers": [
-      {
-        "name": "Xuan Huaichang",
-        "edge_type": "primary",
-        "notes": "Eisai received Linji (Rinzai) transmission from the Chinese master Xuan Huaichang (Hsü-an Huai-ch'ang, 虚庵懐敞) at Mount Tiantai during his second journey to China (1187-1191). Wikipedia: Eisai."
-      }
-    ],
-    "school": "Rinzai",
-    "source_id": "src_wikipedia",
-    "ingestion_run_id": "run_lineage_fixes_curated_20260506",
-    "names_alt": [
-      "Eisai",
-      "Yōsai",
-      "Eisai Zenji",
-      "Myōan Eisai"
-    ],
-    "nicknames": [
-      "Eisai",
-      "Founder of Japanese Rinzai"
     ]
   },
   {

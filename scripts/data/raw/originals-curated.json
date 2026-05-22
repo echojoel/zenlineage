@@ -1435,7 +1435,7 @@
     "dates": "",
     "teachers": [
       {
-        "name": "Huitang Zuxin",
+        "name": "Baofeng Kewen",
         "edge_type": "primary"
       }
     ],
@@ -1449,7 +1449,7 @@
     "dates": "",
     "teachers": [
       {
-        "name": "Doushuai Congyue",
+        "name": "Wuzu Fayan",
         "edge_type": "primary"
       }
     ],
@@ -1549,9 +1549,8 @@
     "dates": "",
     "teachers": [
       {
-        "name": "Dahui Zonggao",
-        "edge_type": "primary",
-        "dates": "1089-1163"
+        "name": "Foyan Qingyuan",
+        "edge_type": "primary"
       }
     ],
     "school": "",
@@ -1564,7 +1563,7 @@
     "dates": "1136-1211",
     "teachers": [
       {
-        "name": "Zhuan Shigui",
+        "name": "Mian Xianjie",
         "edge_type": "primary"
       }
     ],
@@ -1896,8 +1895,8 @@
     "dates": "",
     "teachers": [
       {
-        "name": "Guishan Lingyou",
-        "edge_type": "disputed"
+        "name": "Fenyang Shanzhao",
+        "edge_type": "primary"
       }
     ],
     "school": "",
@@ -2172,9 +2171,8 @@
     "dates": "",
     "teachers": [
       {
-        "name": "Yuanwu Keqin",
-        "edge_type": "primary",
-        "dates": "1063-1135"
+        "name": "Kaifu Daoning",
+        "edge_type": "primary"
       }
     ],
     "school": "",
@@ -2327,7 +2325,7 @@
     "dates": "",
     "teachers": [
       {
-        "name": "Furong Daokai",
+        "name": "Changshui Zixuan",
         "edge_type": "primary"
       }
     ],
@@ -2406,7 +2404,7 @@
     "dates": "",
     "teachers": [
       {
-        "name": "Touzi Datong",
+        "name": "Shishuang Qingzhu",
         "edge_type": "primary"
       }
     ],
@@ -3108,13 +3106,7 @@
     "name": "Ji'an Xin",
     "names_cjk": "及庵信",
     "dates": "",
-    "teachers": [
-      {
-        "name": "Gaofeng Yuanmiao",
-        "edge_type": "primary",
-        "notes": "Dharma heir of Gaofeng Yuanmiao. Resided at Xifeng in Jianyang, then Daochang Temple in Huzhou."
-      }
-    ],
+    "teachers": [],
     "school": "Yangqi line",
     "names_alt": [
       "Chi-an",
@@ -4004,12 +3996,7 @@
     "name": "Umpo Zenjo",
     "names_cjk": "雲甫全祥",
     "dates": "?-1659",
-    "teachers": [
-      {
-        "name": "Gudo Toshoku",
-        "edge_type": "primary"
-      }
-    ],
+    "teachers": [],
     "school": "Rinzai",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
@@ -4037,8 +4024,8 @@
     "dates": "1702-1781",
     "teachers": [
       {
-        "name": "Shoju Rojin",
-        "edge_type": "secondary"
+        "name": "Kogetsu Zenzai",
+        "edge_type": "primary"
       }
     ],
     "school": "Rinzai",
@@ -4465,8 +4452,8 @@
     "dates": "1854-1934",
     "teachers": [
       {
-        "name": "Tankai Gensho",
-        "edge_type": "secondary"
+        "name": "Dokutan Sosan",
+        "edge_type": "primary"
       }
     ],
     "school": "Rinzai",
@@ -4486,5 +4473,64 @@
     "school": "Rinzai",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"
+  },
+  {
+    "name": "Baofeng Kewen",
+    "names_cjk": "寶峰克文",
+    "dates": "1025-1102",
+    "teachers": [
+      {
+        "name": "Huanglong Huinan",
+        "edge_type": "primary"
+      }
+    ],
+    "school": "Linji",
+    "source_id": "src_originals_curated",
+    "ingestion_run_id": "run_originals_curated_20260522",
+    "names_alt": [
+      "Zhenjing Kewen",
+      "Pao-feng K'o-wen",
+      "Hōhō Kokubun"
+    ]
+  },
+  {
+    "name": "Mian Xianjie",
+    "names_cjk": "密菴咸傑",
+    "dates": "1118-1186",
+    "teachers": [],
+    "school": "Linji",
+    "source_id": "src_originals_curated",
+    "ingestion_run_id": "run_originals_curated_20260522",
+    "names_alt": [
+      "Mittan Kanketsu",
+      "Mi-an Xian-jie"
+    ]
+  },
+  {
+    "name": "Kogetsu Zenzai",
+    "names_cjk": "虎渓禅材",
+    "dates": "1667-1751",
+    "teachers": [],
+    "school": "Rinzai",
+    "source_id": "src_originals_curated",
+    "ingestion_run_id": "run_originals_curated_20260522",
+    "names_alt": [
+      "Kogetsu Zenjai",
+      "Kogetsu Zen'ai"
+    ]
+  },
+  {
+    "name": "Xuan Huaichang",
+    "names_cjk": "虛庵懷敞",
+    "dates": "fl. 1180s",
+    "teachers": [],
+    "school": "Linji",
+    "source_id": "src_originals_curated",
+    "ingestion_run_id": "run_originals_curated_20260522",
+    "names_alt": [
+      "Xu'an Huaichang",
+      "Kyōan Esho",
+      "Koan Esho"
+    ]
   }
 ]

@@ -17082,69 +17082,6 @@
     "token_type": "alias"
   },
   {
-    "id": "u9v6iqSbouOXqWM-3j4Ed",
-    "entity_type": "master",
-    "entity_id": "jSeppG7S9SGrEIWFq3DpX",
-    "token": "myoan eisai",
-    "original": "Myoan Eisai",
-    "locale": "en",
-    "token_type": "alias"
-  },
-  {
-    "id": "2z2j39Uqkjs6Pc6nHTZ5S",
-    "entity_type": "master",
-    "entity_id": "jSeppG7S9SGrEIWFq3DpX",
-    "token": "myoan",
-    "original": "Myoan Eisai",
-    "locale": "en",
-    "token_type": "alias"
-  },
-  {
-    "id": "afKas_aXyaI97cE581ajw",
-    "entity_type": "master",
-    "entity_id": "jSeppG7S9SGrEIWFq3DpX",
-    "token": "eisai",
-    "original": "Myoan Eisai",
-    "locale": "en",
-    "token_type": "alias"
-  },
-  {
-    "id": "DazJaQrsTjHKz0H27Y7sR",
-    "entity_type": "master",
-    "entity_id": "jSeppG7S9SGrEIWFq3DpX",
-    "token": "myoan yosai",
-    "original": "Myoan Yosai",
-    "locale": "en",
-    "token_type": "alias"
-  },
-  {
-    "id": "2z2j39Uqkjs6Pc6nHTZ5S",
-    "entity_type": "master",
-    "entity_id": "jSeppG7S9SGrEIWFq3DpX",
-    "token": "myoan",
-    "original": "Myoan Yosai",
-    "locale": "en",
-    "token_type": "alias"
-  },
-  {
-    "id": "R7_jG8Q-ixxxQ1Deg_Nct",
-    "entity_type": "master",
-    "entity_id": "jSeppG7S9SGrEIWFq3DpX",
-    "token": "yosai",
-    "original": "Myoan Yosai",
-    "locale": "en",
-    "token_type": "alias"
-  },
-  {
-    "id": "afKas_aXyaI97cE581ajw",
-    "entity_type": "master",
-    "entity_id": "jSeppG7S9SGrEIWFq3DpX",
-    "token": "eisai",
-    "original": "Eisai",
-    "locale": "en",
-    "token_type": "alias"
-  },
-  {
     "id": "B0jEUvS5_h_N-v9j9y7ka",
     "entity_type": "master",
     "entity_id": "Jt-vBi3SoRwXz9Ormya9w",
@@ -21699,168 +21636,6 @@
     "token_type": "alias"
   },
   {
-    "id": "qVv8KtCU6v_xAKQ37noZm",
-    "entity_type": "master",
-    "entity_id": "NEuR76w8oHToQv7ZPyugY",
-    "token": "myoan eisai",
-    "original": "Myoan Eisai",
-    "locale": "en",
-    "token_type": "name"
-  },
-  {
-    "id": "X-BHn1uOwrcTc7cl3WwKz",
-    "entity_type": "master",
-    "entity_id": "NEuR76w8oHToQv7ZPyugY",
-    "token": "myoan",
-    "original": "Myoan Eisai",
-    "locale": "en",
-    "token_type": "name"
-  },
-  {
-    "id": "QbnX-q384vu29C3DAkl_x",
-    "entity_type": "master",
-    "entity_id": "NEuR76w8oHToQv7ZPyugY",
-    "token": "eisai",
-    "original": "Myoan Eisai",
-    "locale": "en",
-    "token_type": "name"
-  },
-  {
-    "id": "f1byAjhYvBL2LGbRsluwX",
-    "entity_type": "master",
-    "entity_id": "NEuR76w8oHToQv7ZPyugY",
-    "token": "ming an rong xi",
-    "original": "明菴栄西",
-    "locale": "zh",
-    "token_type": "romanization"
-  },
-  {
-    "id": "-XxJrjGj6Lxr-TTDmjr5E",
-    "entity_type": "master",
-    "entity_id": "NEuR76w8oHToQv7ZPyugY",
-    "token": "minganrongxi",
-    "original": "明菴栄西",
-    "locale": "zh",
-    "token_type": "romanization"
-  },
-  {
-    "id": "_iSr-ovDN8naU4drf5KZw",
-    "entity_type": "master",
-    "entity_id": "NEuR76w8oHToQv7ZPyugY",
-    "token": "eisai",
-    "original": "Eisai",
-    "locale": "en",
-    "token_type": "alias"
-  },
-  {
-    "id": "re2iJ76wBBYlHRBS5vHqX",
-    "entity_type": "master",
-    "entity_id": "NEuR76w8oHToQv7ZPyugY",
-    "token": "yosai",
-    "original": "Yōsai",
-    "locale": "en",
-    "token_type": "alias"
-  },
-  {
-    "id": "jV2f8VQ4f5ZNJB8R6WcoS",
-    "entity_type": "master",
-    "entity_id": "NEuR76w8oHToQv7ZPyugY",
-    "token": "eisai zenji",
-    "original": "Eisai Zenji",
-    "locale": "en",
-    "token_type": "alias"
-  },
-  {
-    "id": "_iSr-ovDN8naU4drf5KZw",
-    "entity_type": "master",
-    "entity_id": "NEuR76w8oHToQv7ZPyugY",
-    "token": "eisai",
-    "original": "Eisai Zenji",
-    "locale": "en",
-    "token_type": "alias"
-  },
-  {
-    "id": "iik81tztREd0OZrluG38J",
-    "entity_type": "master",
-    "entity_id": "NEuR76w8oHToQv7ZPyugY",
-    "token": "zenji",
-    "original": "Eisai Zenji",
-    "locale": "en",
-    "token_type": "alias"
-  },
-  {
-    "id": "e94KKcXUYtwlczXX7yMV1",
-    "entity_type": "master",
-    "entity_id": "NEuR76w8oHToQv7ZPyugY",
-    "token": "myoan eisai",
-    "original": "Myōan Eisai",
-    "locale": "en",
-    "token_type": "alias"
-  },
-  {
-    "id": "-S-hVfePKKdZ9zHUwhOnL",
-    "entity_type": "master",
-    "entity_id": "NEuR76w8oHToQv7ZPyugY",
-    "token": "myoan",
-    "original": "Myōan Eisai",
-    "locale": "en",
-    "token_type": "alias"
-  },
-  {
-    "id": "_iSr-ovDN8naU4drf5KZw",
-    "entity_type": "master",
-    "entity_id": "NEuR76w8oHToQv7ZPyugY",
-    "token": "eisai",
-    "original": "Myōan Eisai",
-    "locale": "en",
-    "token_type": "alias"
-  },
-  {
-    "id": "C1cr7b41p3YxtDDmZ6iTc",
-    "entity_type": "master",
-    "entity_id": "NEuR76w8oHToQv7ZPyugY",
-    "token": "founder of japanese rinzai",
-    "original": "Founder of Japanese Rinzai",
-    "locale": "en",
-    "token_type": "name"
-  },
-  {
-    "id": "E8qaZCBgKCWSDgHMGy0SL",
-    "entity_type": "master",
-    "entity_id": "NEuR76w8oHToQv7ZPyugY",
-    "token": "founder",
-    "original": "Founder of Japanese Rinzai",
-    "locale": "en",
-    "token_type": "name"
-  },
-  {
-    "id": "zhVkI-9cnqMmUhgvHhpmH",
-    "entity_type": "master",
-    "entity_id": "NEuR76w8oHToQv7ZPyugY",
-    "token": "of",
-    "original": "Founder of Japanese Rinzai",
-    "locale": "en",
-    "token_type": "name"
-  },
-  {
-    "id": "X_8c1sW4szFa2noBj7Kpv",
-    "entity_type": "master",
-    "entity_id": "NEuR76w8oHToQv7ZPyugY",
-    "token": "japanese",
-    "original": "Founder of Japanese Rinzai",
-    "locale": "en",
-    "token_type": "name"
-  },
-  {
-    "id": "Kuqhq-dbk4TE49dPn6aCR",
-    "entity_type": "master",
-    "entity_id": "NEuR76w8oHToQv7ZPyugY",
-    "token": "rinzai",
-    "original": "Founder of Japanese Rinzai",
-    "locale": "en",
-    "token_type": "name"
-  },
-  {
     "id": "b6yIkgb9geMTThQBT7geF",
     "entity_type": "master",
     "entity_id": "NFvAfHLeEZtDf1niYKBMN",
@@ -23607,6 +23382,159 @@
     "token_type": "name"
   },
   {
+    "id": "aGTERDkZDJMJk2D5F6Ijt",
+    "entity_type": "master",
+    "entity_id": "OzJOHhJYYTfiCt3fdM9MM",
+    "token": "baofeng kewen",
+    "original": "Baofeng Kewen",
+    "locale": "en",
+    "token_type": "name"
+  },
+  {
+    "id": "oB8nkkBNqP2HBHKOnHFH-",
+    "entity_type": "master",
+    "entity_id": "OzJOHhJYYTfiCt3fdM9MM",
+    "token": "baofeng",
+    "original": "Baofeng Kewen",
+    "locale": "en",
+    "token_type": "name"
+  },
+  {
+    "id": "x3MIhi33_7wwMFHnKVrPq",
+    "entity_type": "master",
+    "entity_id": "OzJOHhJYYTfiCt3fdM9MM",
+    "token": "kewen",
+    "original": "Baofeng Kewen",
+    "locale": "en",
+    "token_type": "name"
+  },
+  {
+    "id": "PbnPQncz2a3cpapc7eJAa",
+    "entity_type": "master",
+    "entity_id": "OzJOHhJYYTfiCt3fdM9MM",
+    "token": "bao feng ke wen",
+    "original": "寶峰克文",
+    "locale": "zh",
+    "token_type": "romanization"
+  },
+  {
+    "id": "nssiwHAg8tD4Ks3pURK2k",
+    "entity_type": "master",
+    "entity_id": "OzJOHhJYYTfiCt3fdM9MM",
+    "token": "baofengkewen",
+    "original": "寶峰克文",
+    "locale": "zh",
+    "token_type": "romanization"
+  },
+  {
+    "id": "bHSB5oSwuJ-79hMepooQS",
+    "entity_type": "master",
+    "entity_id": "OzJOHhJYYTfiCt3fdM9MM",
+    "token": "zhenjing kewen",
+    "original": "Zhenjing Kewen",
+    "locale": "en",
+    "token_type": "alias"
+  },
+  {
+    "id": "e2sPWUgrvPDoV6gPx2Dwc",
+    "entity_type": "master",
+    "entity_id": "OzJOHhJYYTfiCt3fdM9MM",
+    "token": "zhenjing",
+    "original": "Zhenjing Kewen",
+    "locale": "en",
+    "token_type": "alias"
+  },
+  {
+    "id": "Mabc537b1gYlM2H9pk_ec",
+    "entity_type": "master",
+    "entity_id": "OzJOHhJYYTfiCt3fdM9MM",
+    "token": "kewen",
+    "original": "Zhenjing Kewen",
+    "locale": "en",
+    "token_type": "alias"
+  },
+  {
+    "id": "oxjv_Jvf6h4k_mc92cHNl",
+    "entity_type": "master",
+    "entity_id": "OzJOHhJYYTfiCt3fdM9MM",
+    "token": "pao-feng k'o-wen",
+    "original": "Pao-feng K'o-wen",
+    "locale": "en",
+    "token_type": "alias"
+  },
+  {
+    "id": "5swMai3-YZnzYUUAvo16W",
+    "entity_type": "master",
+    "entity_id": "OzJOHhJYYTfiCt3fdM9MM",
+    "token": "pao-feng",
+    "original": "Pao-feng K'o-wen",
+    "locale": "en",
+    "token_type": "alias"
+  },
+  {
+    "id": "fo3eqhQniIky0vIXonNrn",
+    "entity_type": "master",
+    "entity_id": "OzJOHhJYYTfiCt3fdM9MM",
+    "token": "k'o-wen",
+    "original": "Pao-feng K'o-wen",
+    "locale": "en",
+    "token_type": "alias"
+  },
+  {
+    "id": "LFD989NmUa2jofVOct-Cf",
+    "entity_type": "master",
+    "entity_id": "OzJOHhJYYTfiCt3fdM9MM",
+    "token": "paofeng kowen",
+    "original": "Pao-feng K'o-wen",
+    "locale": "en",
+    "token_type": "alias"
+  },
+  {
+    "id": "sYuKdhlz5OQJGUGhxduHV",
+    "entity_type": "master",
+    "entity_id": "OzJOHhJYYTfiCt3fdM9MM",
+    "token": "paofeng",
+    "original": "Pao-feng K'o-wen",
+    "locale": "en",
+    "token_type": "alias"
+  },
+  {
+    "id": "eQlM6ZvC9Wm1DXwwFwYn1",
+    "entity_type": "master",
+    "entity_id": "OzJOHhJYYTfiCt3fdM9MM",
+    "token": "kowen",
+    "original": "Pao-feng K'o-wen",
+    "locale": "en",
+    "token_type": "alias"
+  },
+  {
+    "id": "YrFAleSlIveyX254Cq4KV",
+    "entity_type": "master",
+    "entity_id": "OzJOHhJYYTfiCt3fdM9MM",
+    "token": "hoho kokubun",
+    "original": "Hōhō Kokubun",
+    "locale": "en",
+    "token_type": "alias"
+  },
+  {
+    "id": "KAI1QPgUMbYBmziqG6LMc",
+    "entity_type": "master",
+    "entity_id": "OzJOHhJYYTfiCt3fdM9MM",
+    "token": "hoho",
+    "original": "Hōhō Kokubun",
+    "locale": "en",
+    "token_type": "alias"
+  },
+  {
+    "id": "2g3zxCQ4Vtll-jQrIRO6k",
+    "entity_type": "master",
+    "entity_id": "OzJOHhJYYTfiCt3fdM9MM",
+    "token": "kokubun",
+    "original": "Hōhō Kokubun",
+    "locale": "en",
+    "token_type": "alias"
+  },
+  {
     "id": "UD-YcApcVclVYKUdKauo2",
     "entity_type": "master",
     "entity_id": "p0c-cSI8lQQjhQQJKRRXq",
@@ -25097,6 +25025,132 @@
     "entity_id": "QL__3DUEKp2S2_iQgrq48",
     "token": "micchaka",
     "original": "Micchaka",
+    "locale": "en",
+    "token_type": "alias"
+  },
+  {
+    "id": "gQU1Plwl56jqeOUzS7b7O",
+    "entity_type": "master",
+    "entity_id": "QL0AeNoJ8inoU6W9ykktR",
+    "token": "mian xianjie",
+    "original": "Mian Xianjie",
+    "locale": "en",
+    "token_type": "name"
+  },
+  {
+    "id": "qLaYsKbOgHLG2FdvpyPb1",
+    "entity_type": "master",
+    "entity_id": "QL0AeNoJ8inoU6W9ykktR",
+    "token": "mian",
+    "original": "Mian Xianjie",
+    "locale": "en",
+    "token_type": "name"
+  },
+  {
+    "id": "aC6jAPPzZop2OTy-TwwEG",
+    "entity_type": "master",
+    "entity_id": "QL0AeNoJ8inoU6W9ykktR",
+    "token": "xianjie",
+    "original": "Mian Xianjie",
+    "locale": "en",
+    "token_type": "name"
+  },
+  {
+    "id": "e77gD_Iv2_Pt64g9ubxTb",
+    "entity_type": "master",
+    "entity_id": "QL0AeNoJ8inoU6W9ykktR",
+    "token": "mi an xian jie",
+    "original": "密菴咸傑",
+    "locale": "zh",
+    "token_type": "romanization"
+  },
+  {
+    "id": "FJ3d5YfgQJZklNa7r6KqP",
+    "entity_type": "master",
+    "entity_id": "QL0AeNoJ8inoU6W9ykktR",
+    "token": "mianxianjie",
+    "original": "密菴咸傑",
+    "locale": "zh",
+    "token_type": "romanization"
+  },
+  {
+    "id": "t2EwkqgW4RxwD0bhy0PRn",
+    "entity_type": "master",
+    "entity_id": "QL0AeNoJ8inoU6W9ykktR",
+    "token": "mittan kanketsu",
+    "original": "Mittan Kanketsu",
+    "locale": "en",
+    "token_type": "alias"
+  },
+  {
+    "id": "imBxo3rZnKWdDc1J7l7fQ",
+    "entity_type": "master",
+    "entity_id": "QL0AeNoJ8inoU6W9ykktR",
+    "token": "mittan",
+    "original": "Mittan Kanketsu",
+    "locale": "en",
+    "token_type": "alias"
+  },
+  {
+    "id": "1pVP0rjSMxfnu4Rogz3iH",
+    "entity_type": "master",
+    "entity_id": "QL0AeNoJ8inoU6W9ykktR",
+    "token": "kanketsu",
+    "original": "Mittan Kanketsu",
+    "locale": "en",
+    "token_type": "alias"
+  },
+  {
+    "id": "_fCwSW_TGqudpXKyJsKWY",
+    "entity_type": "master",
+    "entity_id": "QL0AeNoJ8inoU6W9ykktR",
+    "token": "mi-an xian-jie",
+    "original": "Mi-an Xian-jie",
+    "locale": "en",
+    "token_type": "alias"
+  },
+  {
+    "id": "9KNFkCYhqTEtW_u_eIZiB",
+    "entity_type": "master",
+    "entity_id": "QL0AeNoJ8inoU6W9ykktR",
+    "token": "mi-an",
+    "original": "Mi-an Xian-jie",
+    "locale": "en",
+    "token_type": "alias"
+  },
+  {
+    "id": "CnSQ3Bw60-wS0ES0RKJ8r",
+    "entity_type": "master",
+    "entity_id": "QL0AeNoJ8inoU6W9ykktR",
+    "token": "xian-jie",
+    "original": "Mi-an Xian-jie",
+    "locale": "en",
+    "token_type": "alias"
+  },
+  {
+    "id": "ev_h79yZiHMBGhIjzrDyU",
+    "entity_type": "master",
+    "entity_id": "QL0AeNoJ8inoU6W9ykktR",
+    "token": "mian xianjie",
+    "original": "Mi-an Xian-jie",
+    "locale": "en",
+    "token_type": "alias"
+  },
+  {
+    "id": "9xSPMG31MegIItMjlI5-I",
+    "entity_type": "master",
+    "entity_id": "QL0AeNoJ8inoU6W9ykktR",
+    "token": "mian",
+    "original": "Mi-an Xian-jie",
+    "locale": "en",
+    "token_type": "alias"
+  },
+  {
+    "id": "-zJgaCAZIB1ma3g0aBvzO",
+    "entity_type": "master",
+    "entity_id": "QL0AeNoJ8inoU6W9ykktR",
+    "token": "xianjie",
+    "original": "Mi-an Xian-jie",
     "locale": "en",
     "token_type": "alias"
   },
@@ -29799,6 +29853,123 @@
     "token_type": "romanization"
   },
   {
+    "id": "YnAaZmGorUnBdNCFwupeA",
+    "entity_type": "master",
+    "entity_id": "ut0BCrCvc1bnWG4l8veYC",
+    "token": "kogetsu zenzai",
+    "original": "Kogetsu Zenzai",
+    "locale": "en",
+    "token_type": "name"
+  },
+  {
+    "id": "JuU54FzGErhfdeNGH_hXd",
+    "entity_type": "master",
+    "entity_id": "ut0BCrCvc1bnWG4l8veYC",
+    "token": "kogetsu",
+    "original": "Kogetsu Zenzai",
+    "locale": "en",
+    "token_type": "name"
+  },
+  {
+    "id": "VGdf0UWZWcRxQ6hLcQm0w",
+    "entity_type": "master",
+    "entity_id": "ut0BCrCvc1bnWG4l8veYC",
+    "token": "zenzai",
+    "original": "Kogetsu Zenzai",
+    "locale": "en",
+    "token_type": "name"
+  },
+  {
+    "id": "__An1y4TgShiStrRpd2D5",
+    "entity_type": "master",
+    "entity_id": "ut0BCrCvc1bnWG4l8veYC",
+    "token": "hu xi chan cai",
+    "original": "虎渓禅材",
+    "locale": "zh",
+    "token_type": "romanization"
+  },
+  {
+    "id": "iTHPUoY3-nuUOh7TZHikq",
+    "entity_type": "master",
+    "entity_id": "ut0BCrCvc1bnWG4l8veYC",
+    "token": "huxichancai",
+    "original": "虎渓禅材",
+    "locale": "zh",
+    "token_type": "romanization"
+  },
+  {
+    "id": "XMYFNI5quCSq_g09Nb175",
+    "entity_type": "master",
+    "entity_id": "ut0BCrCvc1bnWG4l8veYC",
+    "token": "kogetsu zenjai",
+    "original": "Kogetsu Zenjai",
+    "locale": "en",
+    "token_type": "alias"
+  },
+  {
+    "id": "87C7FvUPEkpawNJ08ngJM",
+    "entity_type": "master",
+    "entity_id": "ut0BCrCvc1bnWG4l8veYC",
+    "token": "kogetsu",
+    "original": "Kogetsu Zenjai",
+    "locale": "en",
+    "token_type": "alias"
+  },
+  {
+    "id": "c4QTgLjmots7421KiZLar",
+    "entity_type": "master",
+    "entity_id": "ut0BCrCvc1bnWG4l8veYC",
+    "token": "zenjai",
+    "original": "Kogetsu Zenjai",
+    "locale": "en",
+    "token_type": "alias"
+  },
+  {
+    "id": "948Zs9ZZ6gUYorHkd4H0V",
+    "entity_type": "master",
+    "entity_id": "ut0BCrCvc1bnWG4l8veYC",
+    "token": "kogetsu zen'ai",
+    "original": "Kogetsu Zen'ai",
+    "locale": "en",
+    "token_type": "alias"
+  },
+  {
+    "id": "87C7FvUPEkpawNJ08ngJM",
+    "entity_type": "master",
+    "entity_id": "ut0BCrCvc1bnWG4l8veYC",
+    "token": "kogetsu",
+    "original": "Kogetsu Zen'ai",
+    "locale": "en",
+    "token_type": "alias"
+  },
+  {
+    "id": "EzpxFGHP4tEsq2ArscXgx",
+    "entity_type": "master",
+    "entity_id": "ut0BCrCvc1bnWG4l8veYC",
+    "token": "zen'ai",
+    "original": "Kogetsu Zen'ai",
+    "locale": "en",
+    "token_type": "alias"
+  },
+  {
+    "id": "o91p2TR1KSVvLynLD3WBs",
+    "entity_type": "master",
+    "entity_id": "ut0BCrCvc1bnWG4l8veYC",
+    "token": "kogetsu zenai",
+    "original": "Kogetsu Zen'ai",
+    "locale": "en",
+    "token_type": "alias"
+  },
+  {
+    "id": "cukysMi3ug-EJ3p5-d5bJ",
+    "entity_type": "master",
+    "entity_id": "ut0BCrCvc1bnWG4l8veYC",
+    "token": "zenai",
+    "original": "Kogetsu Zen'ai",
+    "locale": "en",
+    "token_type": "alias"
+  },
+  {
     "id": "oj2jF4575djl-IiaxwPom",
     "entity_type": "master",
     "entity_id": "uu9qH9-9wD0oJeH7zP13h",
@@ -32783,6 +32954,150 @@
     "entity_id": "XGgvvjlgSlpPY4huIWXjM",
     "token": "keisho",
     "original": "Sekisô Keisho",
+    "locale": "en",
+    "token_type": "alias"
+  },
+  {
+    "id": "6IvQe7mI8AriPLCLzZBGN",
+    "entity_type": "master",
+    "entity_id": "xH5ad9S8fIqw_KBZDQUH5",
+    "token": "xuan huaichang",
+    "original": "Xuan Huaichang",
+    "locale": "en",
+    "token_type": "name"
+  },
+  {
+    "id": "KES6Rj7cztHlgxi3NV9PB",
+    "entity_type": "master",
+    "entity_id": "xH5ad9S8fIqw_KBZDQUH5",
+    "token": "xuan",
+    "original": "Xuan Huaichang",
+    "locale": "en",
+    "token_type": "name"
+  },
+  {
+    "id": "wsdV_KOdYBwg9j15lenYc",
+    "entity_type": "master",
+    "entity_id": "xH5ad9S8fIqw_KBZDQUH5",
+    "token": "huaichang",
+    "original": "Xuan Huaichang",
+    "locale": "en",
+    "token_type": "name"
+  },
+  {
+    "id": "m-7foDgZNqLDBN5wfEFhA",
+    "entity_type": "master",
+    "entity_id": "xH5ad9S8fIqw_KBZDQUH5",
+    "token": "xu an huai chang",
+    "original": "虛庵懷敞",
+    "locale": "zh",
+    "token_type": "romanization"
+  },
+  {
+    "id": "ZCPp913fpiVgHK330mRsS",
+    "entity_type": "master",
+    "entity_id": "xH5ad9S8fIqw_KBZDQUH5",
+    "token": "xuanhuaichang",
+    "original": "虛庵懷敞",
+    "locale": "zh",
+    "token_type": "romanization"
+  },
+  {
+    "id": "8xNMpcO9DCnHpcLQ5JPxm",
+    "entity_type": "master",
+    "entity_id": "xH5ad9S8fIqw_KBZDQUH5",
+    "token": "xu'an huaichang",
+    "original": "Xu'an Huaichang",
+    "locale": "en",
+    "token_type": "alias"
+  },
+  {
+    "id": "sSrYWu6zrh95GgjtY95ce",
+    "entity_type": "master",
+    "entity_id": "xH5ad9S8fIqw_KBZDQUH5",
+    "token": "xu'an",
+    "original": "Xu'an Huaichang",
+    "locale": "en",
+    "token_type": "alias"
+  },
+  {
+    "id": "yGMtyf-K_Fw1Dd2_3yy5R",
+    "entity_type": "master",
+    "entity_id": "xH5ad9S8fIqw_KBZDQUH5",
+    "token": "huaichang",
+    "original": "Xu'an Huaichang",
+    "locale": "en",
+    "token_type": "alias"
+  },
+  {
+    "id": "7ApYeVjHfcjvrL1tShws-",
+    "entity_type": "master",
+    "entity_id": "xH5ad9S8fIqw_KBZDQUH5",
+    "token": "xuan huaichang",
+    "original": "Xu'an Huaichang",
+    "locale": "en",
+    "token_type": "alias"
+  },
+  {
+    "id": "FheQzwBq_po6BJMnr97X4",
+    "entity_type": "master",
+    "entity_id": "xH5ad9S8fIqw_KBZDQUH5",
+    "token": "xuan",
+    "original": "Xu'an Huaichang",
+    "locale": "en",
+    "token_type": "alias"
+  },
+  {
+    "id": "4-JDFiaaIlf3BpN6ORud5",
+    "entity_type": "master",
+    "entity_id": "xH5ad9S8fIqw_KBZDQUH5",
+    "token": "kyoan esho",
+    "original": "Kyōan Esho",
+    "locale": "en",
+    "token_type": "alias"
+  },
+  {
+    "id": "hB1SnkQJRqbPgtwGrR9bJ",
+    "entity_type": "master",
+    "entity_id": "xH5ad9S8fIqw_KBZDQUH5",
+    "token": "kyoan",
+    "original": "Kyōan Esho",
+    "locale": "en",
+    "token_type": "alias"
+  },
+  {
+    "id": "-SpZdn_iqgCAP33XCmA9F",
+    "entity_type": "master",
+    "entity_id": "xH5ad9S8fIqw_KBZDQUH5",
+    "token": "esho",
+    "original": "Kyōan Esho",
+    "locale": "en",
+    "token_type": "alias"
+  },
+  {
+    "id": "56JlWxOA1g_EkAojJH2rP",
+    "entity_type": "master",
+    "entity_id": "xH5ad9S8fIqw_KBZDQUH5",
+    "token": "koan esho",
+    "original": "Koan Esho",
+    "locale": "en",
+    "token_type": "alias"
+  },
+  {
+    "id": "jdpbWuASweYnND0v9GYZA",
+    "entity_type": "master",
+    "entity_id": "xH5ad9S8fIqw_KBZDQUH5",
+    "token": "koan",
+    "original": "Koan Esho",
+    "locale": "en",
+    "token_type": "alias"
+  },
+  {
+    "id": "-SpZdn_iqgCAP33XCmA9F",
+    "entity_type": "master",
+    "entity_id": "xH5ad9S8fIqw_KBZDQUH5",
+    "token": "esho",
+    "original": "Koan Esho",
     "locale": "en",
     "token_type": "alias"
   },
