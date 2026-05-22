@@ -2,7 +2,7 @@
 student: keido-chisan
 teacher: keizan-jokin
 tier: C
-verified_at: "2026-05-15"
+verified_at: "2026-05-22"
 sources:
   - publisher: "Dharma Rain Zen Center – Traditional Line of Dharma Ancestors"
     url: https://dharma-rain.org/about/our-teachers/our-lineage/
@@ -37,6 +37,15 @@ reducer_notes: |
   reviewed — if it encodes lineage ancestry rather than direct transmission, it should
   be annotated as such or the edge type changed.
 
-  Tier B/A upgrade blocked by the fundamental non-directness of this transmission.
+  Additional source confirmed 2026-05-22: Bright Way Zen lineage page
+  (brightwayzen.org) identifies Keido Chisan Koho Zenji (1879–1967) as
+  "abbot of one of the two head training monasteries of the Soto Zen
+  Buddhism sect in Japan," confirming his role at Sojiji. No new source
+  narrows the direct transmission teacher — Koho Hakugan remains the
+  documented direct teacher.
+
+  Searched sotozen-net.or.jp for Keido Chisan: no directly retrievable
+  English-language page found. Tier B/A upgrade blocked by the fundamental
+  non-directness of this transmission edge.
 human_review_needed: true
 ---

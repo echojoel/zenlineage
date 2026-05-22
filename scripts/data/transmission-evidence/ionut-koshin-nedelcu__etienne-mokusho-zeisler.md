@@ -2,7 +2,7 @@
 student: ionut-koshin-nedelcu
 teacher: etienne-mokusho-zeisler
 tier: C
-verified_at: 2026-05-15
+verified_at: 2026-05-22
 sources:
   - publisher: "Mokushō Zen House — Our Story (lineage timeline)"
     url: https://www.mokushozen.hu/en/sample-page/our-story/
@@ -17,6 +17,9 @@ reducer_notes: |
   successors in "the Deshimaru-Zeisler lineage", placing him in Zeisler's
   transmission line. His formal shihō was conferred by Yvon Myoken Bec in 2016
   (see ionut-koshin-nedelcu__yvon-myoken-bec.md); this edge reflects the
-  Zeisler-lineage discipleship of record. Single sangha source; tier is C.
+  Zeisler-lineage discipleship of record. Search conducted 2026-05-22: checked
+  fundacionkannonji.org (Avila only), terebess.hu (no Nedelcu page), mokushozen.ro
+  (no named teacher/lineage data in accessible English pages). No second
+  independent hostname found. Single sangha source; tier remains C.
 human_review_needed: false
 ---

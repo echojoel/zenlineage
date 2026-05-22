@@ -17,6 +17,17 @@ sources:
     quote: |
       In 2007 he handed over responsibility to his eldest student, the Zen nun Eishuku Monika Leibundgut. Bovay continued supporting her and the dojo until his death in 2009.
 reducer_notes: |
-  Both zen.ch pages are subpages of the same hostname, counting as one independent host under tier rules. The two pages together give a clear picture: Leibundgut was Bovay's assistant for 20+ years, was designated his successor in 2007 when he fell ill, and received formal shihō from Yuko Okamoto at Teishoji in May 2012. This edge documents the designated-successor/discipleship relationship between Bovay and Leibundgut; the formal transmission was from Okamoto. Note: zen.ch is the correct canonical URL (previously listed as muijoji.ch — corrected). No second independent hostname was found for the Bovay→Leibundgut succession specifically; AZI (zen-azi.org) does not list Leibundgut in the teachers roster. Single hostname (zen.ch sangha) → Tier C. URL and quote are now verified from the live pages.
+  Both zen.ch pages are subpages of the same hostname, counting as one independent
+  host under tier rules. The two pages together give a clear picture: Leibundgut
+  was Bovay's assistant for 20+ years, was designated his successor in 2007 when
+  he fell ill, and received formal shihō from Yuko Okamoto at Teishoji in May 2012.
+  This edge documents the designated-successor/discipleship relationship between
+  Bovay and Leibundgut; the formal transmission was from Okamoto. Note: zen.ch is
+  the correct canonical URL (previously listed as muijoji.ch — corrected). Search
+  conducted 2026-05-22: checked terebess.hu (no Leibundgut or Bovay pages found),
+  zen-deshimaru.com (no Leibundgut or Swiss dojo pages accessible), AZI
+  (azi.org teachers pages return empty/JS-rendered content). No second independent
+  hostname found for the Bovay→Leibundgut succession. Single hostname (zen.ch
+  sangha) → Tier C.
 human_review_needed: false
 ---

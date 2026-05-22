@@ -1,32 +1,47 @@
 ---
 student: mingan-rongxi
 teacher: huanglong-huinan
-tier: C
-verified_at: 2026-05-20
+tier: D
+verified_at: 2026-05-22
 sources:
-  - publisher: "Terebess — Huanglong Huinan"
-    url: https://terebess.hu/zen/mesterek/HuanglongHuinan.html
-    domain_class: academic
-    retrieved_on: 2026-05-15
-    quote: |
-      The Jiatai Pudenglu records 23 of Huinan's important inheritance disciples, while the Xu Chuandenglu lists as many as 83 of Huinan's inheritance disciples.
-  - publisher: "Guiyang School lineage chart — Cuke.com"
-    url: https://www.cuke.com/pdf-2015/lineage-chart-zen-masters-ferguson.pdf
+  - publisher: "Terebess Asia Online — Master List of Masters (Myōan Eisai entry)"
+    url: https://terebess.hu/english/master.html
     domain_class: reference
-    retrieved_on: 2026-05-15
+    retrieved_on: 2026-05-22
     quote: |
-      Huanglong Huinan (1002-1069) is documented as having multiple named dharma successors in the Huanglong school lineage chart.
+      During his second trip in 1187 he received inka from Xu'an Huaichang (Hsu-an Huai-ch'ang, Kian Esho) as an heir in the Huanglong (Oryu) stream of the Linji House.
+  - publisher: "Terebess Asia Online — Myōan Eisai (明菴栄西, 1141–1215)"
+    url: https://terebess.hu/zen/mesterek/eisai.html
+    domain_class: reference
+    retrieved_on: 2026-05-22
+    quote: |
+      Eisai undertook the practice of Linji (Rinzai) Zen with the Huanglong (Oryo) 黄龍 lineage master Xuan Huaichang 虚庵懷敞 (J., Koan Esho; n.d.), under whom he studied both Tendai and Rinzai teachings, and managed to receive the seal of enlightenment before returning to Japan in 1191.
+  - publisher: "Wikipedia — Eisai"
+    url: https://en.wikipedia.org/wiki/Eisai
+    domain_class: reference
+    retrieved_on: 2026-05-22
+    quote: |
+      He spent only six months in China on this first trip, but returned in 1187 for a longer stay as a disciple of Xuan Huaichang, a master in the Linji (Rinzai) line, at Jingde Si (Ching-te-ssu, 景德寺) monastery.
 reducer_notes: |
-  Huanglong Huinan (1002–1069) had many dharma successors (up to 83 per the Xu
-  Chuandenglu). The specific name "Mingan Rongxi" was not found by name in any
-  English-language source retrieved. Caution: the romanization "Mingan Rongxi"
-  could conceivably romanize 明菴榮西 (Myōan Eisai), but Myōan Eisai is already a
-  separate edge and his transmission was through intermediate generations. Without
-  a clear English-language or Japanese source identifying "Mingan Rongxi" as a named
-  direct disciple of Huanglong Huinan, only indirect lineage-context sources are
-  available. Tier C: Huanglong Huinan's lineage context confirmed but this specific
-  individual is not documented in fetched sources. Domain classes updated: Terebess
-  reclassified to academic. Human review strongly recommended to verify the identity
-  of "mingan-rongxi" and whether this edge should be retained or removed.
+  EDITORIAL BRIDGE EDGE — tier downgraded to D. Research has clarified:
+
+  "Mingan Rongxi" (明菴栄西) is Myōan Eisai (1141–1215). Three independent reference
+  sources confirm that Eisai's actual dharma teacher was Xuan Huaichang (虛庵懷敞,
+  fl. 1180s), a Huanglong-lineage master at Jingde Si on Mt. Tiantai. Huanglong
+  Huinan (1002–1069) died roughly 140 years before Eisai's transmission. The edge
+  mingan-rongxi → huanglong-huinan is not a direct teacher-student transmission —
+  it skips at least 7 documented generations.
+
+  The Terebess lineage chart for Eisai shows Xuan Huaichang as the 25th patriarch
+  and Eisai as the 26th, with Huanglong Huinan listed as the 18th. Intermediate
+  figures between Huanglong Huinan and Xuan Huaichang are documented but not yet
+  seeded.
+
+  RECOMMENDED ACTION: Replace this edge with mingan-rongxi → xuan-huaichang
+  (Xu'an Huaichang, slug: xuan-huaichang), which is the actual direct transmission.
+  The connection to Huanglong Huinan is a lineage ancestry claim (7+ generations
+  removed) not a direct dharma transmission. The note that "Eisai's actual teacher
+  Xuan Huaichang is not yet seeded" in the task description confirms this edge is
+  an acknowledged placeholder that should be corrected.
 human_review_needed: true
 ---

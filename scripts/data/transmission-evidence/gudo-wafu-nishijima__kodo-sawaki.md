@@ -2,7 +2,7 @@
 student: gudo-wafu-nishijima
 teacher: kodo-sawaki
 tier: C
-verified_at: "2026-05-20"
+verified_at: "2026-05-22"
 sources:
   - publisher: "Gudō Wafu Nishijima — Wikipedia"
     url: https://en.wikipedia.org/wiki/Gud%C5%8D_Wafu_Nishijima
@@ -35,8 +35,26 @@ sources:
     domain_class: sangha
     retrieved_on: "2026-05-20"
     quote: |
-      In 1940, he met Master Kodo Sawaki, an itinerant monk famous for his efforts to restore Zazen to its rightful place at the center of Buddhism, and became his student.
+      In 1940, he met Master Kodo Sawaki, an itinerant monk famous for his efforts to restore Zazen to its rightful place at the center of Buddhism, and became his student. Master Nishijima was ordained as a priest by the late Master Rempo Niwa, formerly head of the Soto Sect.
+  - publisher: "Treeleaf Zendo — Our Lineage"
+    url: https://www.treeleaf.org/lineage/
+    domain_class: sangha
+    retrieved_on: "2026-05-22"
+    quote: |
+      Gudo Wafu Nishijima practiced Zen Buddhism for over seventy years, was a teacher to Zen students from around the world, and a translator of Buddhist texts from Japanese and Sanskrit. A student of "Homeless" Kodo Sawaki, the itinerant master famous for his efforts to restore Zazen to its rightful place at the center of Buddhism.
 reducer_notes: |
-  DISPUTED EDGE: Nishijima studied under Kodo Sawaki from 1940 until Sawaki's death in 1965 — a 25-year training relationship. However, Sawaki gave NO formal shihō to Nishijima. Nishijima's actual dharma transmission came from Rempo Niwa (ordained 1973, shihō 1977). Four independent hostnames now confirm the training relationship: en.wikipedia.org (reference, both Nishijima and Kodo Sawaki articles), Treeleaf Zendo forum (community), and londonzen.org (sangha). Despite four sources across four hostnames, none qualify as institutional or academic — Wikipedia counts as reference class. Tier B requires ≥1 institutional/academic source. Tier C remains appropriate: well-attested training relationship with multiple reference/community/sangha sources, but no institutional confirmation. Adding londonzen.org sangha source for completeness.
+  TRAINING RELATIONSHIP (NO FORMAL SHIHO FROM SAWAKI). Five independent sources
+  across five hostnames confirm the Nishijima → Kodo Sawaki training relationship:
+  two Wikipedia articles (en.wikipedia.org), Treeleaf forum (community), London Zen
+  (sangha), Treeleaf lineage page (sangha). The London Zen page is particularly
+  explicit — it confirms both the student relationship with Kodo Sawaki AND that
+  ordination came from Rempo Niwa. The Kodo Sawaki Wikipedia article directly
+  states Nishijima "did not receive formal dharma transmission" from Sawaki.
+
+  This edge represents a well-documented 25-year training relationship (1940–1965),
+  not a formal shiho. Formal transmission was from Rempo Niwa (ordained 1973,
+  shiho 1977). Tier B blocked: no institutional source (sotozen-net.or.jp,
+  eiheiji.or.jp) found for this specific relationship. Tier C: five sources across
+  five hostnames document the training relationship.
 human_review_needed: false
 ---

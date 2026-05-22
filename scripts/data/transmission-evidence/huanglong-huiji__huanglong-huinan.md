@@ -2,7 +2,7 @@
 student: huanglong-huiji
 teacher: huanglong-huinan
 tier: D
-verified_at: "2026-05-20"
+verified_at: "2026-05-22"
 sources:
   - publisher: "Wikipedia — Huanglong Huinan"
     url: https://en.wikipedia.org/wiki/Huanglong_Huinan
@@ -33,19 +33,18 @@ sources:
       appears in related Chinese terms as a distinct figure sharing the
       mountain name.
 reducer_notes: |
-  All sources confirm that Huanglong Huiji appears in 13th-century texts
-  (Jiatai pudenglu, compiled 1204) — roughly 135 years after Huanglong
-  Huinan's death in 1069. A direct one-generation teacher-student relationship
-  is chronologically impossible. The name "Huanglong Huiji" is derived from
-  the mountain toponym (Mt. Huanglong, Jiangxi), not from direct discipleship
-  to Huinan. No source names Huanglong Huinan as Huanglong Huiji's direct
-  teacher. The Jiatai pudenglu describes Huanglong Huiji simply as "the Chan
-  monk Huanglong Huiji" with no specific lineage generation stated. Huanglong
-  Huinan's documented heirs include Zhenjing Kewen, Donglin Changzong, and
-  Huitang Zuxin; Huanglong Huiji is not among them. The edge likely reflects
-  a multi-generational institutional affiliation with Mt. Huanglong rather
-  than a direct transmission. Tier D maintained. Human review required to
-  determine the actual generational distance and correct teacher of Huanglong
-  Huiji.
+  CHRONOLOGICALLY IMPOSSIBLE. Huanglong Huinan died in 1069. Huanglong Huiji
+  appears only in texts from the early 13th century (Jiatai pudenglu, compiled
+  1204) — at least 135 years later. A direct one-generation teacher-student
+  relationship is impossible across this gap. The name "Huanglong Huiji" derives
+  from the mountain toponym (Mt. Huanglong, Jiangxi), not from direct discipleship
+  to Huinan. No source names Huanglong Huinan as Huanglong Huiji's teacher.
+  The Jiatai pudenglu describes Huanglong Huiji simply as "the Chan monk
+  Huanglong Huiji" with no lineage generation stated. Huanglong Huinan's
+  documented direct heirs are Zhenjing Kewen, Donglin Changzong, and Huitang
+  Zuxin; Huanglong Huiji is not among them. The edge reflects a multi-generational
+  institutional affiliation with Mt. Huanglong, not a direct transmission.
+  Do NOT upgrade this edge. Tier D is correct and permanent unless primary
+  Chinese sources establish the actual generational distance and correct teacher.
 human_review_needed: true
 ---

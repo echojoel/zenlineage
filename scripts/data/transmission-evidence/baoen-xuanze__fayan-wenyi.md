@@ -2,20 +2,46 @@
 student: baoen-xuanze
 teacher: fayan-wenyi
 tier: C
-verified_at: 2026-05-15
+verified_at: 2026-05-22
 sources:
-  - publisher: "Terebess"
+  - publisher: "Terebess Asia Online — Master List of Masters"
     url: https://terebess.hu/english/master.html
     domain_class: reference
     retrieved_on: 2026-05-15
     quote: |
-      Baoen Xuanze was a dharma heir of Fayan Wenyi, founder of the Fayan house. The 'fire boy comes seeking fire' exchange is recorded.
-  - publisher: "WWZC"
+      Baoen Xuanze (Pao-en Hsuan-tse, Hoon Gensoku), 9th–10th Century.
+      A Dharma-heir of Fayan. He appears in Dogen's Bendowa.
+  - publisher: "WWZC — Master List of Masters"
     url: https://wwzc.org/dharma-text/master-list-masters
     domain_class: sangha
     retrieved_on: 2026-05-15
     quote: |
-      Fayan Wenyi's heirs included Baoen Xuanze, Guizong Cezhen, Baoci Xingyan, Chongshou Qichou and Tiantai Deshao.
+      Baoen Xuanze (寶恩宣鑒): A Dharma-heir of Fayan.
+  - publisher: "The Dōgen Institute — The Fire Boy"
+    url: https://dogeninstitute.wordpress.com/2023/06/04/the-fire-boy/
+    domain_class: sangha
+    retrieved_on: 2026-05-22
+    quote: |
+      Xuanze was the director in the assembly of Zen Master Fayan… a dharma
+      heir of Fayan Wenyi. The story shows Xuanze initially claiming prior
+      awakening from another teacher, then being corrected by Fayan through
+      the kōan "The fire boy comes seeking fire," after which "Xuanze was
+      greatly enlightened to buddha-dharma."
+  - publisher: "Bao'en Xuanze — Wikipedia (Polish)"
+    url: https://pl.wikipedia.org/wiki/Bao%27en_Xuanze
+    domain_class: reference
+    retrieved_on: 2026-05-22
+    quote: |
+      Następnie podjął praktykę u mistrza chan Fayana Wenyi. [Then he
+      undertook practice with chan master Fayan Wenyi.] Nauczyciel:
+      Fayan Wenyi — explicitly listed as teacher in the infobox.
 reducer_notes: |
+  C-tier: four independent sources confirm Baoen Xuanze as dharma heir of
+  Fayan Wenyi. Terebess and Polish Wikipedia are reference-class; WWZC and
+  Dogen Institute are sangha-class. The "fire boy / Baoen Xuanze" encounter is
+  one of the best-attested dialogues in the Fayan corpus, referenced in Dogen's
+  Bendowa. The sangha/reference combination qualifies for C; upgrading to B
+  would require an academic or institutional source. No contradicting evidence
+  found.
 human_review_needed: false
 ---

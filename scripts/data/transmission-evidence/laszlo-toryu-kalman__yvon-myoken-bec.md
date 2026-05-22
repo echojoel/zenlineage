@@ -2,7 +2,7 @@
 student: laszlo-toryu-kalman
 teacher: yvon-myoken-bec
 tier: C
-verified_at: 2026-05-15
+verified_at: 2026-05-22
 sources:
   - publisher: "Mokushō Zen House — Our Story (lineage timeline)"
     url: https://www.mokushozen.hu/en/sample-page/our-story/
@@ -15,7 +15,9 @@ sources:
 reducer_notes: |
   The Mokushō Zen House canonical lineage page explicitly records that Yvon Myoken
   Bec gave dharma transmission to László Toryu Kálmán in 2016, alongside Avila
-  and Nedelcu. No second independent hostname was identified for this specific
-  transmission event. Single sangha source; tier is C.
+  and Nedelcu. Search conducted 2026-05-22: checked fundacionkannonji.org (Avila
+  only), terebess.hu (no Kálmán page), zen-deshimaru.com (no Kálmán profile found).
+  No second independent hostname found for this specific transmission. Single
+  sangha source; tier remains C.
 human_review_needed: false
 ---

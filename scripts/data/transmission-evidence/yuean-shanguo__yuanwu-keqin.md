@@ -1,40 +1,38 @@
 ---
 student: yuean-shanguo
 teacher: yuanwu-keqin
-tier: C
-verified_at: "2026-05-15"
+tier: D
+verified_at: "2026-05-22"
 sources:
+  - publisher: "Terebess Asia Online — Wuzu Fayan"
+    url: https://terebess.hu/zen/wuzu.html
+    domain_class: academic
+    retrieved_on: "2026-05-22"
+    quote: |
+      Among Wuzu's twenty-two Dharma heirs were the acclaimed 'Three Buddhas,' the monks Foyan Qingyuan, Foguo Keqin, and Fojian Huiqin. [Fojian Huiqin = Taiping Huiqin, 1059-1117.]
+  - publisher: "Gateless Gate 8 — Hotetsu's Zen Blog"
+    url: https://www.bowzwestchester.org/2020/01/gateless-gate-8.html
+    domain_class: community
+    retrieved_on: "2026-05-22"
+    quote: |
+      Yuean Shanguo (Gettan Zenka, 1079-1152, 22nd gen) was a disciple of Kaifu Daoning. Yuean was a teacher in the Linji lineage and a dharma ancestor of Wumen who compiled the Gateless Gate.
   - publisher: "Terebess Asia Online — Yuanwu Keqin"
     url: https://terebess.hu/zen/Yuanwu.html
-    domain_class: reference
-    retrieved_on: "2026-05-15"
-    quote: |
-      The two most important of his sixteen dharma heirs were Dahui Zonggao and Huqiu Shaolong 虎丘紹隆 (1077–1136), whose line includes all Japanese Rinzai Zen masters. [Yuanwu had sixteen dharma heirs total; Yuean Shanguo is among the fourteen less-named ones.]
-  - publisher: "Wikipedia — Yuanwu Keqin"
-    url: https://en.wikipedia.org/wiki/Yuanwu_Keqin
-    domain_class: reference
-    retrieved_on: "2026-05-15"
-    quote: |
-      Keqin had sixteen Dharma heirs; of these the two most important were Dahui Zonggao and Huqiu Shaolong (1077–1136), whose line includes all Japanese Rinzai Zen masters.
-  - publisher: "Brill — Encyclopedia of Buddhism: Yuanwu Keqin"
-    url: https://referenceworks.brillonline.com/entries/encyclopedia-of-buddhism/yuanwu-keqin-COM_2118
     domain_class: academic
-    retrieved_on: "2026-05-15"
+    retrieved_on: "2026-05-22"
     quote: |
-      Yuanwu Keqin (1063–1135) is documented to have had sixteen dharma heirs. Only Dahui Zonggao and Huqiu Shaolong are consistently named in major sources; the remaining fourteen heirs are attested in Song-dynasty transmission records but rarely appear in Western reference literature.
-  - publisher: "Encyclopedia of Buddhism — Dahui Zonggao"
-    url: https://encyclopediaofbuddhism.org/wiki/Dahui_Zonggao
-    domain_class: reference
-    retrieved_on: "2026-05-15"
-    quote: |
-      Dahui Zonggao was a student of Yuanwu Keqin and was the 12th generation of the Linji school of Chan Buddhism. After six months working with Yuanwu on a koan, Dahui achieved final breakthrough and was recognized as a Dharma-heir in the Linji tradition. Yuanwu had sixteen dharma heirs in total.
+      The two most important of his sixteen dharma heirs were Dahui Zonggao and Huqiu Shaolong 虎丘紹隆 (1077–1136), whose line includes all Japanese Rinzai Zen masters. [Yuean Shanguo is not named among any of Yuanwu's sixteen heirs in this source.]
 reducer_notes: |
-  Added Encyclopedia of Buddhism Dahui Zonggao article
-  as a fourth independent source, all confirming the sixteen-heir framework. Yuean
-  Shanguo (月庵善果) is not named in any English-language reference source consulted;
-  the edge rests on the inference that he is one of Yuanwu's fourteen unlisted heirs.
-  Chinese primary sources (Xu Chuandeng lu, Jiatai Pudenglu) would be needed for
-  positive identification. Tier C retained — four sources confirm the sixteen-heir
-  framework but none name Yuean Shanguo specifically.
+  CONFIRMED DATA ERROR. Yuean Shanguo (月庵善果, 1079-1152) was a disciple of Kaifu
+  Daoning — not a direct heir of Yuanwu Keqin. The lineage chain runs:
+  Wuzu Fayan → Taiping Huiqin (Fojian Huiqin, 1059-1117) → Kaifu Daoning (d. 1113)
+  → Yuean Shanguo (1079-1152). This places Yuean two generations downstream of Wuzu
+  Fayan via the Taiping Huiqin branch, which is a parallel line to Yuanwu Keqin's
+  branch (Wuzu Fayan → Yuanwu Keqin). Both Taiping Huiqin and Yuanwu Keqin were
+  dharma siblings (both heirs of Wuzu Fayan), but Yuean Shanguo was in Taiping's
+  lineage, not Yuanwu's. No source names Yuean Shanguo among Yuanwu Keqin's sixteen
+  dharma heirs. The correct edge is kaifu-daoning → yuean-shanguo.
+  The edge as coded (yuanwu-keqin → yuean-shanguo) is wrong. Tier D.
+  Human review required to correct the edge in the lineage data.
 human_review_needed: true
 ---

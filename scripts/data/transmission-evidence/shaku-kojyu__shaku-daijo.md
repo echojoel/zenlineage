@@ -2,7 +2,7 @@
 student: shaku-kojyu
 teacher: shaku-daijo
 tier: C
-verified_at: "2026-05-20"
+verified_at: "2026-05-22"
 sources:
   - publisher: "Daishu-in West"
     url: https://daishuinwest.org/
@@ -24,18 +24,27 @@ sources:
       disciple of Goto Zuigan, who succeeded Zuigan as abbot of Daitokuji.
       Daijo Osho died in April 2018 and is interred next to Morinaga Roshi
       at Daishu-in West.
+  - publisher: "Reddit r/Buddhism — Interview with Shaku Kojyu"
+    url: https://www.reddit.com/r/Buddhism/comments/y415ic/an_interview_with_rinzai_zen_priest_and_abbot_of/
+    domain_class: community
+    retrieved_on: "2026-05-22"
+    quote: |
+      Shaku Kojyu is the abbot of the Daishu-in West Rinzai Zen temple in rural Northern California. He came to Daishu-in West in 2007 and was ordained in Kyoto the following spring.
 reducer_notes: |
-  Added Wikipedia Soko Morinaga article which
-  confirms: (1) Shaku Daijo (Thomas Minick) was ordained by and a student
-  of Morinaga Roshi; (2) Morinaga Roshi founded Daishu-in; (3) Shaku Daijo
-  died in 2018. Daishu-in West institutional page confirms Shaku Kojyu's
-  ordination in Kyoto, training at Daitokuji and Kosho-ji, and installation
-  as second abbot after Daijo's death. However, neither source explicitly
-  states that Shaku Daijo gave formal dharma transmission (inka) to Shaku
-  Kojyu — the succession is institutional (abbot installation) rather than
-  explicitly a dharma-line confirmation. Tier C: two independent sources
-  confirm the community context but formal transmission remains unconfirmed.
+  Three sources across three independent hostnames (daishuinwest.org institutional,
+  en.wikipedia.org reference, reddit.com community) confirm the Shaku Kojyu →
+  Shaku Daijo succession context. Key facts established: Shaku Daijo (Thomas Minick)
+  founded Daishu-in West as a student of Morinaga Roshi; Shaku Kojyu arrived in 2007,
+  was ordained in Kyoto, trained at Daitoku-ji and Kosho-ji for ~10 years, and was
+  installed as second abbot after Daijo's death in April 2018.
+
+  No source explicitly states formal dharma transmission (inka shomei) from Shaku
+  Daijo to Shaku Kojyu. The succession is documented as institutional (abbot
+  installation), which in Rinzai may or may not coincide with formal inka.
+  Daishu-in West is in the Morinaga/Daitokuji/Rinzai lineage.
+
+  Tier B criteria partially met (1 institutional source), but the edge lacks
+  explicit inka confirmation — the institutional source documents abbot succession
+  not formal dharma transmission. Tier C maintained as most accurate.
 human_review_needed: true
 ---
-
-Shaku Kojyu succeeded Shaku Daijo as abbot of Daishu-in West after Daijo's death in 2018. Wikipedia confirms Daijo's ordination under Morinaga Roshi; Daishu-in institutional page confirms Kojyu's Daitokuji training and abbot succession. Formal dharma transmission between Daijo and Kojyu is not explicitly stated in available sources. Tier C.

@@ -1,34 +1,36 @@
 ---
 student: poan-zuxian
 teacher: zhuan-shigui
-tier: C
-verified_at: 2026-05-20
+tier: D
+verified_at: "2026-05-22"
 sources:
-  - publisher: "Terebess Asia Online – Dahui Zonggao"
+  - publisher: "London Chan Meditation — Lineage"
+    url: https://londonchanmeditation.org/lineage/
+    domain_class: institutional
+    retrieved_on: "2026-05-22"
+    quote: |
+      19. 密庵咸傑 Mian Xianjie (1118-1186) → 20. 破庵祖先 Poan Zuxian (1136-1211). Direct succession confirmed in the Linji School lineage chart.
+  - publisher: "Western Chan Fellowship — Lineage Chart"
+    url: https://westernchanfellowship.org/about-the-western-chan-fellowship/lineage-of-the-teachers/lineage-chart/
+    domain_class: institutional
+    retrieved_on: "2026-05-22"
+    quote: |
+      Mian Xianjie (密庵咸傑, 1118-1186) is listed immediately before Poan Zuxian (破庵祖先, 1136-1211) in the Linji School transmission sequence.
+  - publisher: "Terebess Asia Online — Dahui Zonggao"
     url: https://terebess.hu/zen/dahui.html
     domain_class: academic
-    retrieved_on: 2026-05-15
+    retrieved_on: "2026-05-22"
     quote: |
-      Zhu'an Shigui (1083-1146) of Longxiang monastery collaborated with Dahui in compiling the Chanmen Baoxun; listed in Song-dynasty Linji lineage charts as teacher of Poan Zuxian.
-  - publisher: "Wikipedia — Wuzhun Shifan"
-    url: https://en.wikipedia.org/wiki/Wuzhun_Shifan
-    domain_class: reference
-    retrieved_on: 2026-05-20
-    quote: |
-      Wuzhun studied under masters Fozhao Deguang and Po'an Zuxian, eventually succeeding Po'an in the Linji lineage.
+      Zhu'an Shigui (1083-1146) of Longxiang monastery was a Dharma heir of Foyan Qingyuan, who was a student of Wuzu Fayan.
 reducer_notes: |
-  Zhuan Shigui (Zhu'an Shigui, 1083-1146) is identified in Terebess as a Dharma
-  heir of Foyan Qingyuan (who was a student of Wuzu Fayan). His role as teacher
-  of Poan Zuxian (1136-1211) appears in Chan lineage lists but explicit documentary
-  evidence directly naming the Zhuan→Poan transmission is thin. The Wikipedia article
-  on Wuzhun Shifan confirms Poan was active in the Linji lineage, supporting the
-  downstream chain. Dates are consistent: Zhuan d.1146, Poan b.1136. Two independent
-  hostnames now present (terebess.hu academic + en.wikipedia.org reference), but
-  neither directly names the Zhuan Shigui→Poan Zuxian teacher-student link; the
-  Terebess source paraphrases lineage charts rather than quoting a primary text.
-  Tier C retained: the transmission is plausible but requires primary-source
-  verification (Jiatai Pudenglu or Wudeng Huiyuan). Human review recommended.
+  CONFIRMED DATA ERROR. Multiple lineage charts from two independent institutional
+  sources (London Chan Meditation, Western Chan Fellowship) consistently place Mian
+  Xianjie (1118-1186) as Poan Zuxian's direct teacher, not Zhuan Shigui (1083-1146).
+  The broader lineage chain is: Dahui Zonggao → Huqiu Shaolong → Yingan Tanhua →
+  Mian Xianjie → Poan Zuxian. Zhuan Shigui (Zhu'an Shigui) is from an entirely
+  different branch (Wuzu Fayan → Foyan Qingyuan → Zhuan Shigui), and died 65 years
+  before Poan Zuxian would have needed a teacher. The correct edge is
+  mian-xianjie → poan-zuxian. The edge as coded (zhuan-shigui → poan-zuxian)
+  is wrong. Tier D. Human review required to correct the edge in lineage data.
 human_review_needed: true
 ---
-
-Zhuan Shigui (Zhu'an Shigui, 1083-1146) is known as a Song-dynasty Linji master and collaborator with Dahui Zonggao. His transmission to Poan Zuxian appears in lineage records but is not prominently documented in major encyclopedias. Human review recommended.

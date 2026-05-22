@@ -2,7 +2,7 @@
 student: patrick-ferrieux
 teacher: philippe-reiryu-coupey
 tier: C
-verified_at: 2026-05-15
+verified_at: 2026-05-22
 sources:
   - publisher: "Dojo Zen de Paris — Qui sommes-nous?"
     url: https://dojozenparis.com/qui-sommes-nous/
@@ -21,9 +21,13 @@ sources:
 reducer_notes: |
   Two independent sangha hostnames confirm the 2021 shihō from Coupey to Ferrieux:
   the Dojo Zen de Paris teachers roster (dojozenparis.com) with explicit French text,
-  and a Zen Road / Sangha Sans Demeure publication (zen-road.org). No institutional
-  or academic source explicitly names this transmission, so Tier B cannot be reached.
-  Upgrading to Tier B would require an AZI or Sōtōshū entry on a separate institutional
-  hostname naming Ferrieux as Coupey's successor.
+  and a Zen Road / Sangha Sans Demeure sesshin flyer PDF (zen-road.org). The
+  dojozenparis.com homepage also lists "Patrick Kankyo Ferrieux" as a teacher leading
+  zazen sessions, consistent with his role as a dharma heir. Search conducted
+  2026-05-22: checked AZI (azi.org — JS-rendered, no usable content), terebess.hu
+  (no Ferrieux or Coupey pages), zen-deshimaru.com (no Ferrieux or Coupey profiles
+  accessible), Wikipedia (Philippe Coupey article does not list dharma heirs). No
+  institutional or academic source was found naming Ferrieux as Coupey's successor.
+  Tier B would require an AZI or Sōtōshū institutional entry. Tier C.
 human_review_needed: false
 ---

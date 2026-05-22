@@ -2,7 +2,7 @@
 student: daguang-juhui
 teacher: touzi-datong
 tier: C
-verified_at: "2026-05-15"
+verified_at: "2026-05-22"
 sources:
   - publisher: "Terebess Asia Online — Zen's Chinese Heritage (herit.pdf)"
     url: https://terebess.hu/zen/mesterek/herit.pdf
@@ -20,26 +20,48 @@ sources:
       Daguang Juhui (ur. 836, zm. 903; chiń. 大光居誨) — chiński mistrz chan z tradycji południowej szkoły chan.
   - publisher: "Ferguson Lineage Chart of the Zen Ancestors in China — Scribd mirror"
     url: https://www.scribd.com/doc/251590366/Ferguson-Lineage-Chart-of-the-Zen-Ancestors-in-China
-    domain_class: academic
+    domain_class: reference
     retrieved_on: "2026-05-15"
     quote: |
       Daguang Juhui Ta-kuang Chü-hui Daikô Kokai O12 93
+  - publisher: "Wikipedia (Polish) — Daguang Juhui"
+    url: https://pl.wikipedia.org/wiki/Daguang_Juhui
+    domain_class: reference
+    retrieved_on: "2026-05-22"
+    quote: |
+      Nauczyciel: Shishuang Qingzhu [Teacher: Shishuang Qingzhu]. The lineage
+      chart shows Daguang Juhui at generation 39/12, positioned as a student of
+      Shishuang Qingzhu (generation 38/11, 805–889).
+  - publisher: "Wikipedia (Polish) — Shishuang Qingzhu"
+    url: https://pl.wikipedia.org/wiki/Shishuang_Qingzhu
+    domain_class: reference
+    retrieved_on: "2026-05-22"
+    quote: |
+      Jego najwybitniejszymi uczniami byli Jiufeng Daoqian, Daguang Juhui,
+      Yungai Yuanquan. [His most prominent disciples were Jiufeng Daoqian,
+      Daguang Juhui, Yungai Yuanquan.]
 reducer_notes: |
-  CONFLICTING TEACHER ATTRIBUTION DETECTED.
-  The current edge asserts Touzi Datong as teacher. However:
-  - Polish Wikipedia (pl.wikipedia.org/wiki/Daguang_Juhui) explicitly names
-    Shishuang Qingzhu (805-889) as Daguang Juhui's teacher, citing a lineage
-    chart showing Daguang as generation 39/12 under Shishuang Qingzhu (38/11).
-  - Zen's Chinese Heritage (herit.pdf) lists Daguang Juhui in the 12th-generation
-    section following Jiufeng Daoqian — both are consistent with Shishuang Qingzhu
-    lineage, not the Touzi Datong sub-branch.
-  - Ferguson chart codes Daguang as O12 (Caodong 12th generation); Touzi Datong
-    is also O11 but in a different sub-branch (Cuiwei Wuxue line via Danxia Tianran),
-    while Shishuang Qingzhu is O11 via Daowu Yuanzhi and Yunyan Tansheng.
-  The correct direct teacher is almost certainly Shishuang Qingzhu, not Touzi
-  Datong. This edge should be re-evaluated; a separate edge
-  daguang-juhui__shishuang-qingzhu.md may be needed. Tier remains C as the
-  attributed edge (→Touzi Datong) lacks a confirmed direct source.
-  Human review required to correct the teacher before this edge is used in the graph.
+  CONFIRMED WRONG EDGE. Daguang Juhui's teacher is Shishuang Qingzhu, not
+  Touzi Datong. This edge should be removed from the lineage graph.
+
+  Evidence confirming Shishuang Qingzhu as the correct teacher:
+  - Polish Wikipedia on Daguang Juhui explicitly lists "Nauczyciel: Shishuang
+    Qingzhu" in the infobox. No mention of Touzi Datong anywhere.
+  - Polish Wikipedia on Shishuang Qingzhu names Daguang Juhui among the three
+    most prominent disciples.
+  - Zen's Chinese Heritage (herit.pdf) groups Jiufeng Daoqian and Daguang Juhui
+    together in the 12th generation section, both in the Shishuang Qingzhu
+    sub-branch, not in the Touzi Datong sub-branch.
+  - Ferguson chart codes Daguang as O12; Touzi Datong is O11 but in the
+    Cuiwei Wuxue line (via Danxia Tianran), whereas Shishuang Qingzhu is O11
+    via the Daowu Yuanzhi / Yunyan Tansheng line. The O-column (Caodong) places
+    Daguang Juhui as a descendant of Shishuang Qingzhu.
+  - Terebess page on Shishuang Qingzhu (drawing on Chuandeng Lu records)
+    includes dialogues with Daguang Juhui as a student of the community.
+
+  The original edge to Touzi Datong is a data error. A replacement edge
+  daguang-juhui__shishuang-qingzhu.md should be created and verified.
+  Tier C maintained only because two reference sources exist; the edge itself
+  is contradicted and should not be used in graph rendering.
 human_review_needed: true
 ---

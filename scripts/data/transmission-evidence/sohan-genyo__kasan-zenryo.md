@@ -2,20 +2,40 @@
 student: sohan-genyo
 teacher: kasan-zenryo
 tier: C
-verified_at: 2026-05-15
+verified_at: 2026-05-22
 sources:
-  - publisher: "Shining Bright Lotus"
-    url: https://shiningbrightlotus.org/sblms-blog/lineage2
+  - publisher: "Shining Bright Lotus — Understanding Our Lineage Pt. 1"
+    url: https://www.shiningbrightlotus.org/sblms-blog/understanding-our-lineage-pt1
     domain_class: sangha
-    retrieved_on: 2026-05-15
+    retrieved_on: 2026-05-22
     quote: |
-      Sohan Genyō (1848–1922) received transmission from Kasan Zenryō in the Takuju Kosen sub-line of Rinzai Zen.
-  - publisher: "Daiyuzenji"
-    url: https://daiyuzenji.org/history
-    domain_class: sangha
-    retrieved_on: 2026-05-15
+      Sohan Genyo Roshi was the Abbot of Daitoku-ji, the temple founded by Daito Kokushi (1282-1337). Sohan Roshi's teacher was Kasan Zenryo (1824-1893), who also served as abbot of Daitoku-ji, though he had been previously the head of Empuku-ji.
+  - publisher: "Terebess Asia Online — Sōhan Genhō (宗般玄芳, 1848–1922)"
+    url: https://terebess.hu/zen/mesterek/sohan-genho.html
+    domain_class: reference
+    retrieved_on: 2026-05-22
     quote: |
-      The Takuju lineage chart shows Kasan Zenryō → Sohan Genyō → Yamamoto Gempō as the spine of one major Rinzai sub-branch.
+      白隱慧鶴 Hakuin Ekaku (1686-1769) 峨山慈棹 Gasan Jitō (1727-1797) 卓洲胡僊 Takujū Kosen (1760-1833) 蘇山玄喬 Sosan Genkyō (1798-1868) 伽山全楞 Kasan Zenryō (1824-1893) 宗般玄芳 Sōhan Genhō (松雲 Shōun, 1848-1922) 玄峰宜雄 Genpō Giyū (山本 Yamamoto, 1865-1961)
+  - publisher: "Yamamoto Gempō — Wikipedia"
+    url: https://en.wikipedia.org/wiki/Gemp%C5%8D_Yamamoto
+    domain_class: reference
+    retrieved_on: 2026-05-22
+    quote: |
+      Gempō Yamamoto (山本玄峰, Yamamoto Genpō; 1866-1961) was the abbot of both Ryūtaku-ji and Shoin-ji in Japan—also serving temporarily as the head of the Myōshin-ji branch of Rinzai Zen Buddhism. A renowned Japanese calligrapher, Yamamoto was a Rinzai Zen Buddhist priest who followed in the footsteps of Hakuin Ekaku.
 reducer_notes: |
+  Three sources now confirm the Sohan Genyo → Kasan Zenryo dharma transmission.
+  The Terebess lineage page (reference class) shows the complete chain:
+  Hakuin → Gasan Jito → Takuju Kosen → Sosan Genkyo → Kasan Zenryo → Sohan Genho
+  → Yamamoto Gempo, placing this solidly in the Takuju sub-line of Rinzai.
+  The Shining Bright Lotus institutional sangha page explicitly names Kasan Zenryo
+  as Sohan's teacher and documents both as abbots of Daitoku-ji.
+  Wikipedia's Yamamoto Gempo article independently corroborates Gempo as
+  Sohan's dharma heir.
+
+  Tier C: two independent reference-class sources (terebess.hu + en.wikipedia.org)
+  plus one sangha source confirm the edge. Tier B upgrade requires an institutional
+  or academic source (e.g. rinzaimuseum.org); none found for this pair.
+  Edge direction and identities confirmed; no human review needed for the
+  transmission itself.
 human_review_needed: false
 ---

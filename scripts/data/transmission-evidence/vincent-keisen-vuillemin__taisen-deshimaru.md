@@ -2,7 +2,7 @@
 student: vincent-keisen-vuillemin
 teacher: taisen-deshimaru
 tier: C
-verified_at: 2026-05-15
+verified_at: 2026-05-22
 sources:
   - publisher: "Zen-Deshimaru.com — Maître Keisen Vuillemin"
     url: https://www.zen-deshimaru.com/fr/zen/maitre-keisen-vuillemin
@@ -32,20 +32,22 @@ sources:
       death in 1982 he pursued his deeper formation as a disciple of Étienne
       Mokushō Zeisler.
 reducer_notes: |
-  ORDINATION / TRAINING RELATIONSHIP — NOT A DIRECT SHIHŌ EDGE.
-  The seed data in deshimaru-lineage.ts (original entry) records that
-  Vuillemin "was ordained by Taisen Deshimaru in the late 1970s" — placing
-  him in Deshimaru's direct disciple circle before Deshimaru's death in 1982.
-  However, his formal dharma transmission (shihō) was NOT from Deshimaru;
-  it was conferred by Yvon Myōken Bec on June 4, 2007 (see the evidence file
-  vincent-keisen-vuillemin__etienne-mokusho-zeisler.md and the Mokushō Zen
-  House confirmation). Deshimaru's own shihō came from Yamada Reirin in 1970
-  (not from Sawaki), and Deshimaru never personally transmitted shihō to
-  Vuillemin before his 1982 death. This edge represents Vuillemin's monastic
-  ordination/initial training under Deshimaru's direct influence — comparable
-  to the taisen-deshimaru__kodo-sawaki training-relationship edge.
-  Tier C: one institutional source (zen-deshimaru.com) confirms the
-  Deshimaru-tradition connection; the relationship is ordination/training
-  rather than formal shihō.
-human_review_needed: false
+  ORDINATION / TRAINING RELATIONSHIP — NOT A DIRECT SHIHŌ EDGE. CONFLICTING
+  SEED-DATA CLAIM: The seed data in deshimaru-lineage.ts records that Vuillemin
+  "was ordained by Taisen Deshimaru in the late 1970s," but THREE independent
+  sources (terebess.hu, fundacionkannonji.org, zen-deshimaru.com — all in the
+  vincent-keisen-vuillemin__etienne-mokusho-zeisler.md file) consistently state
+  that Zeisler, not Deshimaru, gave Vuillemin his ordination in 1987. Deshimaru
+  died April 30, 1982, and Vuillemin's ordination was in 1987. The terebess.hu
+  entry is explicit: "Il est à l'origine l'un des disciples d'Etienne Mokusho
+  Zeisler qui lui donna l'ordination." The Mokushō Zen House Our Story page (2007
+  entry) calls him "disciple of master Zeisler." The source in this file at
+  mokushozenhousebudapest.com also places him as "disciple of master Zeisler."
+  The zen-deshimaru.com source only says he is "a Zen master in the tradition of
+  Taisen Deshimaru" — a lineage affiliation, not a personal ordination by Deshimaru.
+  This edge should be flagged for review: it may represent an incorrect or
+  over-literal reading of tradition-membership vs. direct ordination.
+  Search conducted 2026-05-22: no additional sources found confirming Deshimaru
+  personally ordained Vuillemin. Tier C pending human review.
+human_review_needed: true
 ---

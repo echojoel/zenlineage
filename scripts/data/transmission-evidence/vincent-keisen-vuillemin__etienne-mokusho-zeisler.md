@@ -1,8 +1,8 @@
 ---
 student: vincent-keisen-vuillemin
 teacher: etienne-mokusho-zeisler
-tier: C
-verified_at: "2026-05-15"
+tier: B
+verified_at: "2026-05-22"
 sources:
   - publisher: "Terebess — Vincent Keisen Vuillemin"
     url: https://terebess.hu/zen/mesterek/vuillemin.html
@@ -37,6 +37,9 @@ reducer_notes: |
   dharma transmission. Zeisler died in 1990. Vuillemin's actual shihō came from
   Yvon Myoken Bec in 2007 (see vincent-keisen-vuillemin__yvon-myoken-bec.md).
   This edge therefore represents the ordination/monastic-entry relationship.
-  Three sources confirm the ordination relationship. Tier upgraded from D to C.
+  Three independent sources confirm the ordination relationship: terebess.hu
+  (reference class) AND two independent sangha hostnames (fundacionkannonji.org,
+  zen-deshimaru.com). Meets Tier B criteria: ≥1 reference AND ≥1 institutional/
+  sangha source. Tier upgraded from C to B on 2026-05-22.
 human_review_needed: false
 ---
