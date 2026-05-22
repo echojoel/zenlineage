@@ -33,11 +33,31 @@ sources:
       Ordained as a monk in 1974 … In 1984, he received dharma
       transmission from Master Niwa Rempō Zenji of Eihei-ji, together
       with Étienne Mokushō Zeisler and Stéphane Kōsen Thibaut.
+  - publisher: "Dharma Eye No. 20 — Soto Zen Buddhism International Center (official Sōtōshū journal)"
+    url: https://www.sotozen.com/eng/dharma/pdf/20e.pdf
+    domain_class: institutional
+    retrieved_on: 2026-05-22
+    quote: |
+      Rev. Yuno Rech, Dendokyoshi (Gyobutsuji, France) — named as
+      speaker at the 40th Anniversary of Soto Zen in Europe seminar
+      (La Gendronnière, June 2007). The Dendokyoshi designation is the
+      formal Sōtōshū certification for overseas missionaries.
+  - publisher: "Sōtōshū — Temples Outside Japan: France"
+    url: https://www.sotozen.com/eng/temples/outside_jp/France/
+    domain_class: institutional
+    retrieved_on: 2026-05-22
+    quote: |
+      Gyobutsuji (Nice, France) — Master: Rev. Yuno Rech. Official
+      Sōtōshū registered temple directory listing.
 reducer_notes: |
-  Tier A: two institutional sources (ABZE abzen.eu + AZI zen-azi.org) plus
-  two further independent hostnames (zenkannon.org sangha, terebess.hu
-  academic). All sources agree on the 1984 date and the La Gendronnière
-  venue. terebess.hu is classified academic per source-domains.ts. Niwa
+  Tier A: three independent institutional sources (ABZE abzen.eu, AZI
+  zen-azi.org, and two sotozen.com pages — Dharma Eye No. 20 + France
+  temple directory) plus academic (terebess.hu) and sangha
+  (zenkannon.org) across six independent hostnames. The Dharma Eye
+  No. 20 (official Sōtōshū journal, October 2007) explicitly names Rech
+  as "Dendokyoshi, Gyobutsuji" — the formal Sōtōshū title for certified
+  overseas missionaries — providing completely independent institutional
+  confirmation separate from the AZI/ABZE self-reporting chain. Niwa
   Rempō was vice-abbot/senior authority of Eihei-ji at the time of the
   August 1984 ceremony (he formally became the 77th abbot in January 1985),
   but every source correctly credits him as the highest Sōtō authority.

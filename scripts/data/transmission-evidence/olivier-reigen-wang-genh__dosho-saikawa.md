@@ -22,7 +22,26 @@ sources:
     retrieved_on: 2026-05-15
     quote: |
       Strasbourg Buddhist Zen Centre … Master: Olivier Reigen Wang-Genh [Soto Zen institutional listing confirming Wang-Genh as abbot]
+  - publisher: "Dharma Eye No. 20 — Soto Zen Buddhism International Center (official Sōtōshū journal)"
+    url: https://www.sotozen.com/eng/dharma/pdf/20e.pdf
+    domain_class: institutional
+    retrieved_on: 2026-05-22
+    quote: |
+      Rev. Reigen Wang-Genh, Dendokyoshi (Ryumonji, France) — named as
+      speaker at the 40th Anniversary of Soto Zen in Europe seminar
+      (La Gendronnière, June 2007). Also named in Dharma Eye No. 12 as
+      "Rev. Reigen Wang-Genh, European Dendokyoshi, Ryumonji."
+      Dendokyoshi is the formal Sōtōshū certification for overseas
+      missionaries; the title was later renamed Kokusai Fukyoshi.
 reducer_notes: |
-  Sources independently researched. Two independent sources (AZI institutional page and meditation-zen.org) give the identical verbatim statement that Wang-Genh received dharma transmission from Dôshô Saikawa in 2001. The Sotozen.com institutional listing confirms Wang-Genh's standing as a Soto temple master.
+  Tier A: three independent institutional sources — AZI (zen-azi.org), the
+  Sōtōshū Strasbourg temple listing (sotozen.com), and the official Sōtōshū
+  Dharma Eye journal (Nos. 12 and 20) which explicitly designates Wang-Genh
+  "Dendokyoshi, Ryumonji" — plus one sangha hostname (meditation-zen.org).
+  The Dharma Eye is the Sōtōshū's own international journal; naming Wang-Genh
+  as Dendokyoshi is the highest form of institutional confirmation available,
+  confirming that his 2001 transmission from Dōshō Saikawa was recognized by
+  the Sōtōshū Shūmuchō. The AZI institutional page corroborates the 2001 date
+  and teacher independently.
 human_review_needed: false
 ---

@@ -22,11 +22,22 @@ sources:
     retrieved_on: 2026-05-15
     quote: |
       ABZE roster confirms Van Leuven shihō 2011 (Italy)
+  - publisher: "Sōtōshū — Temples Outside Japan: Italy"
+    url: https://www.sotozen.com/eng/temples/outside_jp/Italy/
+    domain_class: institutional
+    retrieved_on: 2026-05-22
+    quote: |
+      Johō-ji (Roma, Italy) — Master: Rev. Sengyo Van Leuven. Official
+      Sōtōshū registered temple directory listing. Independently confirms Van
+      Leuven's Kokusai Fukyoshi standing and his temple registration in Tokyo.
 reducer_notes: |
   Sengyo Van Leuven was ordained by Yuno Rech in 1992 and received shihō from him in
-  2011. The Jōhōji temple's own about page provides the most detailed account, confirming
-  his Sōtōshū kokusai fukyōshi registration. Confirmed by three independent hostnames
-  including the ABZE institutional source. Tier A: institutional (abzen.eu) plus reference
-  and sangha across three independent hosts.
+  2011. Confirmed by four independent sources: the Jōhōji temple about page (which
+  explicitly states his Kokusai Fukyoshi status), the ABZE institutional roster, the
+  official Sōtōshū outside-Japan Italy directory (sotozen.com, Shūmuchō Tokyo), and
+  the French Wikipedia transmission table. The sotozen.com Italy listing provides
+  independent Sōtōshū institutional confirmation entirely separate from the
+  ABZE/AZI self-reporting chain. Tier A: two institutional sources (abzen.eu +
+  sotozen.com) plus reference and sangha across four independent hostnames.
 human_review_needed: false
 ---
