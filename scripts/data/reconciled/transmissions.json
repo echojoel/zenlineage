@@ -856,9 +856,9 @@
     ]
   },
   {
-    "id": "SUEAyE0NTpXCaCndVNPft",
+    "id": "iEwono7a09l51q_Czvurj",
     "student_id": "HWwmjVp87R6TwGIfyzzDB",
-    "teacher_id": "-amvWaGTGKmxQyp14n6J2",
+    "teacher_id": "oPsupmKZ_xN51oyqQdF0z",
     "type": "primary",
     "is_primary": true,
     "source_ids": [
@@ -947,9 +947,9 @@
     ]
   },
   {
-    "id": "5yrb5Dm4YnD_emaJonDCV",
+    "id": "9a38XaXEDZ0XjErJvfBZr",
     "student_id": "GsCXe4WfiV06Y4-TUjdKM",
-    "teacher_id": "1RFyY3lzzzRYNuLT0eyeZ",
+    "teacher_id": "FhsJ0vhiUvvvghy9ys7Jr",
     "type": "primary",
     "is_primary": true,
     "source_ids": [
@@ -1251,9 +1251,9 @@
     ]
   },
   {
-    "id": "yDb9_Xnz-TAjnE7x1uodW",
+    "id": "Qnk34_tWB45pLUIvz9nyD",
     "student_id": "Rwko-GTEayENS1Q0lSgRs",
-    "teacher_id": "mt7Wvlp1EHOHKUB1I3yk9",
+    "teacher_id": "2ViXkfd-4_RKrlE_iGJFh",
     "type": "primary",
     "is_primary": true,
     "source_ids": [
@@ -1905,11 +1905,11 @@
     ]
   },
   {
-    "id": "bqjutzgfwUXixQlDFEpNZ",
+    "id": "LRAl8cDLPrxQDRu_hqks9",
     "student_id": "DYsioznzNhmyRundt6JLP",
-    "teacher_id": "mYg9M1wh-alZRKv2NrUp_",
-    "type": "dharma",
-    "is_primary": false,
+    "teacher_id": "Y0r_jEbOwa2k5Txs2gR6J",
+    "type": "primary",
+    "is_primary": true,
     "source_ids": [
       "src_obcon_founding_teachers"
     ]

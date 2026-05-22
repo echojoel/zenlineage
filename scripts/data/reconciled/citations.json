@@ -4784,6 +4784,14 @@
     "excerpt": "Vasumitra"
   },
   {
+    "id": "ea4-NNzAWDFIu-SnaGNus",
+    "source_id": "src_obcon_founding_teachers",
+    "entity_type": "master",
+    "entity_id": "DYsioznzNhmyRundt6JLP",
+    "field_name": "dates",
+    "excerpt": "1879-1967"
+  },
+  {
     "id": "tswpQT4IkgoznZcKWNUTD",
     "source_id": "src_obcon_founding_teachers",
     "entity_type": "master",
@@ -4800,12 +4808,12 @@
     "excerpt": "Soto"
   },
   {
-    "id": "k7xptHzxnx7Wwl-4lxp6o",
+    "id": "VG4tF1aZZbeIbfPcMluEi",
     "source_id": "src_obcon_founding_teachers",
     "entity_type": "master",
     "entity_id": "DYsioznzNhmyRundt6JLP",
     "field_name": "teachers",
-    "excerpt": "Keizan Jokin"
+    "excerpt": "Koho Hakugan"
   },
   {
     "id": "bdTul-7lLX0evu_F-p4aT",
@@ -6000,12 +6008,12 @@
     "excerpt": "Dahong Zuzheng"
   },
   {
-    "id": "2bXE8IYC6otXnm768ft3V",
+    "id": "AEOqpXoPNWkyof5du6B6J",
     "source_id": "src_originals_curated",
     "entity_type": "master",
     "entity_id": "GsCXe4WfiV06Y4-TUjdKM",
     "field_name": "teachers",
-    "excerpt": "Huanglong Huinan"
+    "excerpt": "Xuedou Zhijian"
   },
   {
     "id": "Z8GV_5tICiLcsr8GAnDx_",
@@ -6280,12 +6288,12 @@
     "excerpt": "Chengtian Chuanzong"
   },
   {
-    "id": "0FEoW5gvkXyGU_X9MIHsp",
+    "id": "Cu-ej_SOkEZuDzXjq6f47",
     "source_id": "src_originals_curated",
     "entity_type": "master",
     "entity_id": "HWwmjVp87R6TwGIfyzzDB",
     "field_name": "teachers",
-    "excerpt": "Yunmen Wenyan"
+    "excerpt": "Baoen Xuanze"
   },
   {
     "id": "UZ1143PEYr4pQJWNCaXVa",
@@ -10752,12 +10760,12 @@
     "excerpt": "Tianping Congyi"
   },
   {
-    "id": "UFra50INtvNa-LXWuYdsv",
+    "id": "lxODGKgrvDNENL890t9KR",
     "source_id": "src_originals_curated",
     "entity_type": "master",
     "entity_id": "Rwko-GTEayENS1Q0lSgRs",
     "field_name": "teachers",
-    "excerpt": "Luoshan Daoxian"
+    "excerpt": "Qingxi Hongjin"
   },
   {
     "id": "hbtAL8u3fW7dvTfp62r4m",
@@ -14198,6 +14206,22 @@
     "entity_id": "Y0knckXJi9kjRghDAvzgR",
     "field_name": "teachers",
     "excerpt": "Dajian Huineng"
+  },
+  {
+    "id": "2fzxBhpYWVr5Mg1y1PkFD",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "Y0r_jEbOwa2k5Txs2gR6J",
+    "field_name": "name",
+    "excerpt": "Koho Hakugan"
+  },
+  {
+    "id": "vziQtQUa2EnjGu6RDKrs0",
+    "source_id": "src_originals_curated",
+    "entity_type": "master",
+    "entity_id": "Y0r_jEbOwa2k5Txs2gR6J",
+    "field_name": "school",
+    "excerpt": "Soto"
   },
   {
     "id": "fDP4Hx1ECI-ZkCV9ry4Kj",

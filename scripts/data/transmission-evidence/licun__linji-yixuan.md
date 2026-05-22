@@ -21,6 +21,15 @@ sources:
       Linji left behind a small body of disciples, of which only Xinghua
       Cunjiang's line of transmission survived. Linji's twenty-odd spiritual
       successors are obscure and his lineage did not flourish initially.
+  - publisher: "Encyclopedia of Buddhism — Linji zong"
+    url: https://encyclopediaofbuddhism.org/wiki/Linji_zong
+    domain_class: academic
+    retrieved_on: "2026-05-22"
+    quote: |
+      Of Linji's small body of disciples, only Xinghua Cunjiang's line of
+      transmission survived. Very little is known of Cunjiang's heir Nanyuan
+      Huiyong. The three succeeding figures from Nanyuan were Fengxue Yanzhao,
+      Shoushan Shengnian, and Fenyang Shanzhao.
 reducer_notes: |
   Tier D confirmed after comprehensive search. The Jingde Chuandeng Lu
   (T2076) vol. 12 lists Linji Yixuan's dharma heirs under
@@ -37,13 +46,13 @@ reducer_notes: |
   of the 22 JDCDL names and is absent from Wikipedia, New World Encyclopedia,
   Encyclopedia of Buddhism, and Terebess/WWZC master lists.
 
-  Either way: no independent source positively identifies a named disciple
-  "Licun" transmitting Linji's dharma in a form that constitutes a live
-  lineage. The New World Encyclopedia confirms Linji's ~22 successors are
-  "obscure" and that the lineage did not flourish. Tier D confirmed. This
-  edge must be reviewed against the Chinese JDCDL T2076.12 to determine
-  whether the intended node is 歷村 (anonymous hermitage master) or a
-  different figure. If 歷村, the edge is technically supportable from the
-  lamp record but the master is completely anonymous.
+  Three independent reference/academic sources confirm that Linji Yixuan's
+  ~22 successors are "obscure" and that only Xinghua Cunjiang's line survived.
+  No independent source positively identifies a named disciple "Licun"
+  transmitting Linji's dharma in a form that constitutes a live lineage.
+  Tier D confirmed. This edge must be reviewed against the Chinese JDCDL
+  T2076.12 to determine whether the intended node is 歷村 (anonymous hermitage
+  master) or a different figure. If 歷村, the edge is technically supportable
+  from the lamp record but the master is completely anonymous.
 human_review_needed: true
 ---

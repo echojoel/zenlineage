@@ -58,12 +58,12 @@
   {
     "name": "Keido Chisan",
     "names_cjk": "",
-    "dates": "",
+    "dates": "1879-1967",
     "teachers": [
       {
-        "name": "Keizan Jokin",
-        "edge_type": "dharma",
-        "notes": "The Order of Buddhist Contemplatives presents Keido Chisan Koho Zenji within the transmitted Soto lineage that continues through Keizan, Dogen, Bodhidharma, and Shakyamuni Buddha. This is a reviewed backbone anchor pending a fuller direct Japanese succession chain."
+        "name": "Koho Hakugan",
+        "edge_type": "primary",
+        "notes": "Keido Chisan was ordained by Kohō Hakugan (孤峰白岩) at Yokoji, Hakui, Ishikawa Prefecture ca. 1889. The Terebess Jiyu-Kennett lineage chart explicitly places Kohō Hakugan immediately before Keidō Chisan. The Keizan Study PDF (SZBA 2010) states: 'Yokoji is the temple where Keido Chisan was ordained by Koho Hakugan.' Keizan Jokin (1268–1325) is an ancestor 15 generations back, not a direct teacher."
       }
     ],
     "school": "Soto",

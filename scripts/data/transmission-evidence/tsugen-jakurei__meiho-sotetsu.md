@@ -29,22 +29,28 @@ sources:
     quote: |
       However, the system had broken down by 1379, and from that year the next ten abbots of Yōkōji were all descendants of Meihō's lineage. This appears to have been part of a heated rivalry for control of the Sōtō school between Meihō's line with the temples Yōkōji and Daijōji under their control on the one hand, and Gasan Jōseki's line, which control the temple Sōjiji, on the other.
 reducer_notes: |
-  TRAINING RELATIONSHIP — NOT THE FORMAL DHARMA TRANSMISSION. Three independent
-  reference-class sources now confirm: Tsugen Jakurei studied at Daijo-ji under
-  Meiho Sotetsu (from ca. 1340), but received formal dharma transmission from
-  Gasan Joseki at Soji-ji (1352). The Terebess biographical page explicitly calls
-  Tsugen "the best known of the five chief disciples of Gasan," and the Wikipedia
-  Gasan Joseki article lists Tsugen Jakurei among his dharma students.
+  TRAINING RELATIONSHIP — NOT THE FORMAL DHARMA TRANSMISSION.
 
-  Meiho Sotetsu's Wikipedia article does not list Tsugen among Meiho's formal
-  successors — Meiho's line and Gasan's line were rival factions in the Soto school.
-  The edge in the database captures the training relationship at Daijo-ji (formative
-  but not the formal transmission); the formal transmission edge should be
-  tsugen-jakurei → gasan-joseki.
+  Four independent reference-class sources consistently establish:
+  (1) Tsugen Jakurei trained at Daijo-ji under Meiho Sotetsu from ca. 1340 (10+ years).
+  (2) Formal dharma transmission was received from Gasan Joseki at Soji-ji in 1352.
+  (3) Tsugen is universally identified as "one of the five chief disciples of Gasan"
+      (Terebess, Gasan Wikipedia, etc.); Meiho's Wikipedia lists only Daichi Sokei
+      and Shugan Dochin as Meiho's dharma heirs — Tsugen Jakurei is absent.
 
-  Tier C: three reference-class sources consistently document the training
-  relationship but confirm that formal dharma transmission came from Gasan Joseki.
-  Tier B blocked because this is a training-teacher edge and no institutional source
-  confirms it as a formal transmission edge.
+  The two lineages (Meiho's line / Gasan's line) were rival factions in the Soto
+  school competing for control of Yokoji and Daijoji (Meiho) vs. Sojiji (Gasan).
+  Tsugen aligned with Gasan's line and succeeded Gasan at Sojiji.
+
+  This edge captures the documented training relationship at Daijo-ji (formative
+  and historically important) but NOT the formal dharma transmission. The correct
+  formal-transmission edge is tsugen-jakurei → gasan-joseki.
+
+  Tier C: three reference-class sources from two hostnames (wikipedia.org,
+  terebess.hu) document the training relationship. Tier B is blocked because
+  no institutional source confirms even a training relationship, and the formal
+  transmission edge is to a different teacher (Gasan Joseki). The edge type in
+  the database should be reconsidered: mark as training-teacher rather than
+  dharma-transmission, or replace with tsugen-jakurei → gasan-joseki.
 human_review_needed: true
 ---

@@ -1,6 +1,6 @@
 # Zen Lineage — Complete Reference
 
-> An open-source interactive encyclopedia of Zen Buddhism covering 540+ masters,
+> An open-source interactive encyclopedia of Zen Buddhism covering 545+ masters,
 > 25 schools, 560+ lineage transmissions, 860+ teachings, and 1,700+ scholarly
 > citations across 2,500 years of Chan, Zen, Seon, and Thien Buddhist history.
 
@@ -367,7 +367,7 @@ Daoxin's teaching integrated sitting meditation with practical monastic work, a 
 - **Dates:** null – 594
 - **School:** Thiền
 - **Teachers:** Jianzhi Sengcan
-- **Students:** Trần Nhân Tông, Vạn Hạnh
+- **Students:** Vạn Hạnh
 
 Vinītaruci (d. 594) is the master whom the fourteenth-century Vietnamese hagiographical compendium Thiền Uyển Tập Anh names as the founder of Vietnamese Thiền[1]. According to that later source he was a South Indian monk who travelled to Chang'an and studied with the Third Patriarch Sengcan before continuing south, settling at Pháp Vân temple in what is now Bắc Ninh province, and founding a lineage of twenty-eight generations over the next six centuries[1]. Modern scholarship reads the Thiền Uyển Tập Anh's genealogy as a retrospective construction shaped by fourteenth-century doctrinal concerns rather than a contemporaneous record, but it preserves the earliest Vietnamese account of the tradition's beginning and remains its foundational text[2].
 
@@ -842,7 +842,7 @@ His awakening, recorded in the *Jǐngdé Chuándēng Lù*, came on the morning h
 - **Dates:** 864 – 949
 - **School:** Yunmen
 - **Teachers:** Xuefeng Yicun
-- **Students:** Dongshan Shouchu, Fengxian Daochen, Baling Haojian, Chengtian Chuanzong, Deshan Yuanmi, Xianglin Chengyuan
+- **Students:** Dongshan Shouchu, Fengxian Daochen, Baling Haojian, Deshan Yuanmi, Xianglin Chengyuan
 
 Yunmen Wenyan was the founder of the Yunmen school, one of the Five Houses of Tang and Song dynasty Chan[1]. He was a student of Xuefeng Yicun and is renowned for the extraordinary economy and precision of his teaching language. His responses were often one word, and these single-word responses—called "one-word barrier" answers—became some of the most studied koans in the tradition[2]. His famous saying "Every day is a good day" appears as case 6 in the Blue Cliff Record and has been contemplated by practitioners for a thousand years[3].
 
@@ -854,7 +854,7 @@ Yunmen's teaching style was demanding and unsparing.
 - **Dates:** null – 866
 - **School:** Linji
 - **Teachers:** Huangbo Xiyun
-- **Students:** Sansheng Huiran, Baoshou Yanzhao, Xinghua Cunjiang, Xita Guangmu, Licun, Tongfeng Anzhu, Liễu Quán, Hương Hải, Ingen Ryuki, Nguyen Thieu, Osaka Koryu
+- **Students:** Sansheng Huiran, Baoshou Yanzhao, Xinghua Cunjiang, Xita Guangmu, Licun, Tongfeng Anzhu, Liễu Quán, Ingen Ryuki, Nguyen Thieu, Osaka Koryu
 
 Linji Yixuan founded one of the most dynamic and enduring of all Chan schools, the Linji school, which later became the Rinzai school of Japanese Zen[1]. He was a student of Huangbo Xiyun who underwent an extremely severe training. Three times he asked Huangbo the fundamental meaning of Buddhism, and three times Huangbo struck him without speaking. Linji left in confusion, and Huangbo sent him to consult the master Dayu. When Linji told Dayu what had happened, Dayu said: "Huangbo was so grandmotherly for you!" At this moment Linji had a sudden awakening and said: "There's not much to Huangbo's Buddha Dharma!" When Dayu grabbed him and demanded an explanation, Linji struck Dayu three times in the ribs. This exchange is one of the most analyzed in the entire koan literature[2].
 
@@ -1030,7 +1030,7 @@ Tianyi Yihuai (天衣義懷, 993–1064) was a Yunmen-line Linji master of the N
 - **Dates:** 1002 – 1069
 - **School:** Linji
 - **Teachers:** Shishuang Chuyuan
-- **Students:** Huitang Zuxin, Dahong Zuzheng, Yunan Kewen, Huanglong Huiji, Zhenjing Kewen, Baofeng Kewen
+- **Students:** Huitang Zuxin, Yunan Kewen, Huanglong Huiji, Zhenjing Kewen, Baofeng Kewen
 
 Huanglong Huinan (黃龍慧南, 1002–1069) was a Dharma heir of Shishuang Chuyuan and the founder of the Huanglong (黃龍) sub-house of the Linji school, one of the two main sub-lineages — alongside Yangqi — into which the Song-period Linji line divided[1]. He settled at Mount Huanglong in modern Jiangxi, where his community attracted a generation of leading students; his Dharma was carried on through Huitang Zuxin, Hui'an Zhenru, and many others into the next century[2].
 
@@ -1242,6 +1242,14 @@ Xueyan Zuqin (雪巖祖欽, 1216–1287) was a Yangqi-line Linji master of the l
 
 Tettsū Gikai (徹通義介, 1219–1309) entered the early Dōgen community in 1241 with the survivors of the suppressed Daruma-shū around Kakuzen Ekan, received Dōgen's bodhisattva precepts in 1242, and remained at Eihei-ji as a senior monk under Koun Ejō until being installed as third abbot in 1267[1]. His tenure became the immediate trigger for the *Sandai sōron* (三代相論, "third-generation dispute"), the early Sōtō controversy over whether his selective integration of esoteric ritual and lay-funeral observance into Eihei-ji practice constituted a betrayal of Dōgen's austere standard. Around 1272 he stepped aside and Ejō resumed the abbacy; Gikai eventually left Eihei-ji and re-settled at Daijō-ji in Kaga[2].
 
+### Tuệ Trung Thượng Sĩ
+
+- **Dates:** 1230 – 1291
+- **School:** Trúc Lâm
+- **Students:** Trần Nhân Tông
+
+Tuệ Trung Thượng Sĩ (慧中上士, 1230–1291) was a Vietnamese lay Zen master of the Trần dynasty and the direct spiritual teacher of Emperor Trần Nhân Tông, who abdicated the throne in 1299 to found the Trúc Lâm school[1]. A member of the royal family and elder brother of the empress, he remained a householder throughout his life — an unusual model for the emperor-turned-monk who succeeded him. The Wikipedia article on Tuệ Trung explicitly names Trần Nhân Tông as his spiritual heir; the Parallax Press account confirms Nhân Tông 'became a disciple of Master Tue Trung'[1]. His own teacher was Thiền Sư Tiêu Dao, placing him in the Vô Ngôn Thông lineage of Vietnamese Buddhism[1].
+
 ### Gaofeng Yuanmiao
 
 - **Also known as:** Kao-feng Yüan-miao, Kōhō Genmyō
@@ -1266,7 +1274,7 @@ Huyền Quang (玄光, 1254–1334) was the third and last patriarch of the medi
 - **Also known as:** Điều Ngự Giác Hoàng
 - **Dates:** 1258 – 1308
 - **School:** Trúc Lâm
-- **Teachers:** Vinītaruci
+- **Teachers:** Tuệ Trung Thượng Sĩ
 - **Students:** Pháp Loa, Huyền Quang
 
 Trần Nhân Tông (陳仁宗, 1258–1308) was the third emperor of the Trần dynasty, personally led Đại Việt to victory against the second and third Mongol invasions of Vietnam (1285 and 1287–1288), and then — at the height of his political power — abdicated the throne to become a monk[1]. Retiring to Yên Tử Mountain, he synthesized the earlier Vinītaruci, Vô Ngôn Thông, and Thảo Đường streams into a new school he named Trúc Lâm (竹林, Bamboo Grove) in 1299[1]. The school's emphasis on 'knowing the mind, seeing the nature' (tri tâm kiến tánh), its Sino-Vietnamese literary culture, and its accommodation of Confucian ethics made it the most distinctly Vietnamese articulation of Thiền in the medieval period. Trần Nhân Tông is the only Zen school founder known to have been a reigning emperor[2].
@@ -1277,7 +1285,7 @@ Trần Nhân Tông (陳仁宗, 1258–1308) was the third emperor of the Trần 
 - **Dates:** 1264 – 1325
 - **School:** Sōtō
 - **Teachers:** Tettsū Gikai
-- **Students:** Keido Chisan, Meiho Sotetsu, Gasan Joseki, Daichi Sokei
+- **Students:** Meiho Sotetsu, Gasan Joseki, Daichi Sokei
 
 Keizan Jōkin (1264–1325) is conventionally treated in modern Sōtō Zen as the school's "second founder" (*taiso*), complementing Dōgen's role as philosophical founder, and is sometimes called "the Great Popularizer" for his role in extending Sōtō practice beyond the small monastic milieu of Eihei-ji[1]. This two-founder designation, however, dates only from the late nineteenth century — it is a Meiji-era Sōtōshū institutional codification that consolidated the Sōtō school's modern self-image around the parity of Eihei-ji and Sōji-ji[2]. The earlier birth-year of 1268 still appears in some institutional sources, but Bodiford's Encyclopedia of Religion entry corrects this: "Born in 1264 (not 1268 as previously assumed)"[2].
 
@@ -1384,7 +1392,6 @@ Juō Sohitsu (1296–1380) is recorded in the Daitoku-ji documentation as a four
 - **Dates:** 1301 – 1382
 - **School:** Taego Order
 - **Teachers:** Shiwu Qinggong
-- **Students:** Seosan Hyujeong
 
 Taego Bou (太古普愚, 1301–1382) is the master through whom Chinese Linji dharma transmission entered Korea, making him a pivotal figure in the formation of later Korean Seon orthodoxy[1]. In 1347 he travelled to Yuan China and received transmission from the Yangqi-line master Shiwu Qinggong (Stonehouse), the hermit-poet whose poems survive today largely through this very transmission[1]. On returning to Korea he served as royal preceptor under King Gongmin and, at the king's request, undertook to unify the Nine Mountain Schools of Seon into a single order organized around Linji koan practice. His legacy is twofold: the modern Taego Order takes him as its eponymous founder, while the Jogye Order also reads its Linji-centered transmission through him[2].
 
@@ -1630,6 +1637,14 @@ Daishitsu Chisen (1461–1536) is recorded in the historiography of the medieval
 
 Shogaku Kenryu (d. 1485) is recorded in the historiography of the medieval / early-modern Japanese Sōtō branch-temple network as an abbot in its transmission lineage. The surviving record preserves his lineage placement; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].
 
+### Buyong Yeonggwan
+
+- **Dates:** 1485 – c. 1571
+- **School:** Seon
+- **Students:** Seosan Hyujeong
+
+Buyong Yeonggwan (芙蓉靈觀, 1485–1571) was a Korean Seon master of the mid-Joseon period and the direct dharma teacher of Seosan Hyujeong (1520–1604)[1]. His position in the Korean Seon lineage: Byeoksong Jieom (1464–1534) → Buyong Yeonggwan (1485–1571) → Seosan Hyujeong (1520–1604). Hyujeong himself acknowledged the line: 'Byeoksong [Jieom] is my grandfather, Buyong [Yeonggwan] is my father'[1].
+
 ### Kinen Horyu
 
 - **Dates:** null – 1506
@@ -1653,7 +1668,7 @@ Ian Chisatsu (1514–1587) is recorded in the Myōshin-ji documentation as a six
 - **Also known as:** Sosan Taesa
 - **Dates:** 1520 – 1604
 - **School:** Seon
-- **Teachers:** Taego Bou
+- **Teachers:** Buyong Yeonggwan
 - **Students:** Gyeongheo Seongu
 
 Seosan Hyujeong (西山休靜, 1520–1604) was the pre-eminent Korean master of the Joseon dynasty, a period during which Neo-Confucian governance had driven Buddhism into the mountains and outlawed its public practice in the capital[1]. When Toyotomi Hideyoshi's forces invaded Korea in 1592, the seventy-two-year-old Seosan left his mountain temple and organized monastic militias (승병 seungbyeong) in the country's defense — a politically consequential gesture that led to the partial rehabilitation of Buddhism at court[1]. His Seongamnok (Mirror of Seon, 선가귀감) became the standard Joseon-dynasty handbook of Korean monastic practice, articulating a synthesis of hwadu meditation, sutra study, and Pure Land recitation that shaped Korean Buddhism into the modern era[2].
@@ -1771,7 +1786,7 @@ Bankei Yōtaku (盤珪永琢, 1622–1693) was one of the most distinctive Rinza
 
 - **Dates:** 1628 – 1715
 - **School:** Lâm Tế
-- **Teachers:** Linji Yixuan
+- **Teachers:** Viên Cảnh
 
 Hương Hải (香海, 1628–1715) is the central figure of the seventeenth-century Vietnamese Thiền revival[1]. Born in the southern Đàng Trong region during the long Trịnh-Nguyễn split, he served briefly as a court mandarin before ordaining and travelling north to study under the Chinese Lâm Tế (Linji) master Trí Giáo Nhất Cú at Phật Tích temple[1]. He returned south, established a hermitage on Mount Tiêu Dao, and from there reformed Vietnamese Thiền practice along the lines of Ming-dynasty Linji discipline — a recovery, after centuries of decline, of the rigorous training that had defined the Trúc Lâm period.
 
@@ -1832,7 +1847,7 @@ Tokuo Ryoko (1649–1709) is recorded in the historiography of the medieval / ea
 - **Dates:** 1670 – 1742
 - **School:** Lâm Tế
 - **Teachers:** Linji Yixuan
-- **Students:** Thích Thanh Từ, Thích Nhất Hạnh, Thích Tịnh Khiết, Thích Quảng Đức
+- **Students:** Thích Nhất Hạnh, Thích Tịnh Khiết
 
 Liễu Quán (了觀, 1670–1742) is the master who Vietnamized the Lâm Tế (Linji) tradition[1]. Where earlier Vietnamese Lâm Tế transmission had been carried by Chinese émigré monks — notably Nguyên Thiều, who arrived from Guangdong c. 1665 — Liễu Quán was the first Vietnamese-born heir, receiving transmission from the Chinese master Tử Dung Minh Hoằng[1]. The dharma line he established, known as the Liễu Quán branch, became the dominant Buddhist lineage in central and southern Vietnam and remains so today. Thích Nhất Hạnh's Plum Village tradition descends through this line as its 42nd generation, making Liễu Quán the ancestor of the global Vietnamese Zen tradition as it is now practiced worldwide[2].
 
@@ -2228,6 +2243,16 @@ Gyokujun Sō-on Suzuki (1877–1934) was the Sōtō Zen priest who made Shunryū
 
 Sō-on was the adopted son of Butsumon Sogaku Suzuki, Shunryū's biological father and himself a Sōtō priest. That adoption made Sō-on Shunryū's Dharma elder brother by family and, eventually, his teacher.
 
+### Keido Chisan
+
+- **Also known as:** Keido Chisan Koho Zenji, Koho Keido Chisan
+- **Dates:** 1879 – 1967
+- **School:** Sōtō
+- **Teachers:** Koho Hakugan
+- **Students:** Jiyu-Kennett, Baian Hakujun Kuroda, Dōshō Saikawa
+
+Keido Chisan is recorded in the historiography of the medieval / early-modern Japanese Sōtō branch-temple network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].
+
 ### Goto Zuigan
 
 - **Also known as:** Gotō Zuigan, Zuigan Goto
@@ -2293,7 +2318,7 @@ Shibayama rose to the highest institutional position in his school: he became ab
 - **Also known as:** Lâm Văn Túc
 - **Dates:** 1897 – 1963
 - **School:** Thiền
-- **Teachers:** Liễu Quán
+- **Teachers:** Thích Hoằng Thâm
 
 Thích Quảng Đức (釋廣德, 1897–1963) is among the most internationally recognised Vietnamese Buddhists of the twentieth century[1]. Ordained at age fifteen in the Lâm Tế-derived Liễu Quán tradition, he spent four decades in monastic obscurity — restoring more than thirty pagodas across central Vietnam, supervising the construction of the Quan Âm Pagoda in Saigon, and serving as chairman of the Vietnamese Buddhist Sangha's monastic discipline panel[1]. His name became known worldwide on 11 June 1963, when he sat in lotus posture at the intersection of Phan Đình Phùng and Lê Văn Duyệt streets in Saigon, was doused in petrol by fellow monks, lit a match, and burned to death without moving — an act of protest against the Diệm government's persecution of Buddhists.
 
@@ -2445,7 +2470,7 @@ Toeong Seongcheol (退翁性徹, 1912–1993) was the most influential Korean Se
 - **Dates:** 1914 – 1982
 - **School:** Sōtō
 - **Teachers:** Kodo Sawaki, Yamada Reirin
-- **Students:** Stephane Kosen Thibaut, Etienne Mokusho Zeisler, Roland Rech, Raphaël Dōkō Triet, Philippe Reiryū Coupey, Olivier Reigen Wang-Genh, Michel Reikū Bovay, Évelyne Ekō de Smedt, Pierre Reigen Crépon, Jean-Pierre Genshū Faure, Vincent Keisen Vuillemin, Bárbara Kōsen Richaudeau, André Ryūjō Meissner, Hugues Yūsen Naas, Ingrid Gyū-Ji Igelnick, Françoise Jōmon Julien, Robert Livingston Roshi
+- **Students:** Stephane Kosen Thibaut, Etienne Mokusho Zeisler, Roland Rech, Raphaël Dōkō Triet, Philippe Reiryū Coupey, Olivier Reigen Wang-Genh, Michel Reikū Bovay, Évelyne Ekō de Smedt, Pierre Reigen Crépon, Jean-Pierre Genshū Faure, Bárbara Kōsen Richaudeau, André Ryūjō Meissner, Hugues Yūsen Naas, Ingrid Gyū-Ji Igelnick, Françoise Jōmon Julien, Robert Livingston Roshi, Vincent Keisen Vuillemin
 
 Mokudō Taisen Deshimaru (弟子丸泰仙, 1914–1982) was a Japanese Sōtō Zen monk and the principal figure in the establishment of European Sōtō Zen. Born in Saga Prefecture in southern Kyūshū to a Jōdo Shinshū household with samurai antecedents, he encountered the itinerant Sōtō teacher Kōdō Sawaki in the 1930s and remained Sawaki's lay disciple for the next three decades while working as a businessman in Tokyo and Kobe[1][2]. His attachment to Sawaki's signature teaching — zazen practised without object and without expectation of gain — shaped every later phase of his life and the tradition he transplanted to Europe[2].
 
@@ -2475,6 +2500,14 @@ Robert Baker Aitken (19 June 1917 – 5 August 2010) was the dean of American Ze
 
 Charlotte Joko Beck (常湖, 27 March 1917 – 15 June 2011) was an American Zen teacher whose blunt, psychologically literate style produced one of the first distinctly Western Zen schools. Born in New Jersey, she trained as a classical pianist at the Oberlin Conservatory of Music, married, raised four children, and supported herself in turn as a piano teacher, secretary, and university department assistant before encountering Zen in her forties. She began practice with Hakuyu Taizan Maezumi at the Zen Center of Los Angeles, with additional study under Hakuun Yasutani and Soen Nakagawa, and received dharma transmission from Maezumi in 1978[1].
 
+### Thích Thiện Hoa
+
+- **Dates:** 1918 – 1973
+- **School:** Thiền
+- **Students:** Thích Thanh Từ
+
+Thích Thiện Hoa (1918–1973) was a leading Vietnamese Lâm Tế master of the twentieth century and the root ordination teacher (bổn sư) of Thích Thanh Từ, who later revived the Trúc Lâm Zen school[1]. He ordained Thích Thanh Từ at Phật Quang Pagoda on 15 July 1949, giving him the dharma name Thanh Tư[1]. As a Pure Land practitioner within the Lâm Tế tradition, his lineage anchors the southern Vietnamese Buddhist current from which Thích Thanh Từ eventually departed to revive the indigenous Trúc Lâm practice.
+
 ### Gudo Wafu Nishijima
 
 - **Also known as:** Gudō Wafu Nishijima, Nishijima Roshi
@@ -2498,7 +2531,7 @@ Hōun Jiyu-Kennett (born Peggy Teresa Nancy Kennett, 1 January 1924, St Leonards
 
 - **Dates:** 1924 – null
 - **School:** Trúc Lâm
-- **Teachers:** Liễu Quán
+- **Teachers:** Thích Thiện Hoa
 
 Thích Thanh Từ (1924–2022) was the principal architect of the modern revival of Trúc Lâm Zen, the indigenous Vietnamese Thiền school founded by Emperor Trần Nhân Tông in the thirteenth century and largely dormant for some six hundred years[1]. He was born Trần Hữu Phước on 24 July 1924 in Tích Khánh hamlet, Thiện Mỹ commune, Trà Ôn district, Vĩnh Long province in the Mekong Delta[1]. Drawn to monastic life from his youth, he was ordained at Chùa Phật Quang on 15 July 1949 under the great southern reformer Thích Thiện Hoa as his root teacher (bổn sư), and received the full bhikṣu precepts in 1952 from Tổ Khánh Anh.
 
@@ -2790,7 +2823,7 @@ Crettaz was ordained as a Zen monk in 1988 and trained for decades under his tea
 - **Dates:** 1946 – 1990
 - **School:** Sōtō
 - **Teachers:** Taisen Deshimaru, Niwa Rempō Zenji
-- **Students:** Vincent Keisen Vuillemin, Yvon Myōken Bec, Maria Teresa Shōgetsu Avila, Ionuț Koshin Nedelcu, László Toryu Kálmán
+- **Students:** Yvon Myōken Bec, Vincent Keisen Vuillemin, Maria Teresa Shōgetsu Avila, Ionuț Koshin Nedelcu, László Toryu Kálmán
 
 Étienne Mokushō Zeisler (1946 – 7 June 1990) was a Hungarian-French Sōtō Zen monk and one of Taisen Deshimaru's three principal dharma heirs. He met Deshimaru in the years following the latter's 1967 arrival in Paris, was ordained as a monk, and became one of his closest disciples, working alongside the master at the founding generation of European Sōtō dōjōs. **In 1984, two years after Deshimaru's death, Niwa Rempō Zenji — abbot of Eihei-ji and the highest authority of Japanese Sōtō Zen — conferred dharma transmission (shihō) on Zeisler together with Stéphane Kōsen Thibaut and Roland Yuno Rech**, formally authenticating Deshimaru's mission in Europe[1].
 
@@ -3182,6 +3215,7 @@ Baizhang Niepan is recorded in the historiography of the late-Tang / Song-period
 - **Dates:** Dates uncertain
 - **School:** Qingyuan line
 - **Teachers:** Luohan Guichen
+- **Students:** Tianping Congyi
 
 Qingxi Hongjin is recorded in the historiography of the late-Tang / Song-period Chan transmission network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].
 
@@ -3585,16 +3619,6 @@ Yangshan Yong is recorded in the historiography of the late-Tang / Song-period C
 
 Kaifu Daoning is recorded in the historiography of the post-Daitō / Myōshin-ji Rinzai transmission lines as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].
 
-### Keido Chisan
-
-- **Also known as:** Keido Chisan Koho Zenji, Koho Keido Chisan
-- **Dates:** Dates uncertain
-- **School:** Sōtō
-- **Teachers:** Keizan Jōkin
-- **Students:** Jiyu-Kennett, Baian Hakujun Kuroda, Dōshō Saikawa
-
-Keido Chisan is recorded in the historiography of the medieval / early-modern Japanese Sōtō branch-temple network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].
-
 ### Yanyang Shanxin
 
 - **Also known as:** Yen-yang Shan-hsin, Genyô Zenshin
@@ -3657,7 +3681,7 @@ Sawada Zenko is recorded in the historiography of the medieval / early-modern Ja
 - **Dates:** Dates uncertain
 - **School:** Caodong
 - **Teachers:** Tiantong Zongjue
-- **Students:** Tiantong Rujing
+- **Students:** Dahong Zuzheng, Tiantong Rujing
 
 Xuedou Zhijian is recorded in the historiography of the late-Tang / Song-period Chan transmission network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].
 
@@ -3711,7 +3735,7 @@ Kosen Baido is recorded in the historiography of the medieval / early-modern Jap
 - **Also known as:** Ta-hung Tsu-Chêng, Daikô Soshô
 - **Dates:** Dates uncertain
 - **School:** Linji
-- **Teachers:** Huanglong Huinan
+- **Teachers:** Xuedou Zhijian
 
 Dahong Zuzheng is recorded in the historiography of the late-Tang / Song-period Chan transmission network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].
 
@@ -3757,7 +3781,7 @@ Umpo Zenjo is recorded in the historiography of the post-Daitō / Myōshin-ji Ri
 - **Also known as:** Ch'eng-t'ien Ch'uan-tsung, Jôten Denshû
 - **Dates:** Dates uncertain
 - **School:** Yunmen
-- **Teachers:** Yunmen Wenyan
+- **Teachers:** Baoen Xuanze
 
 Chengtian Chuanzong is recorded in the historiography of the late-Tang / Song-period Chan transmission network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].
 
@@ -4005,7 +4029,7 @@ Yuezhou Qianfeng is recorded in the historiography of the late-Tang / Song-perio
 - **Dates:** Dates uncertain
 - **School:** Qingyuan line
 - **Teachers:** Yantou Quanhuo
-- **Students:** Mingzhao Deqian, Tianping Congyi
+- **Students:** Mingzhao Deqian
 
 Luoshan Daoxian is recorded in the historiography of the late-Tang / Song-period Chan transmission network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].
 
@@ -4115,6 +4139,7 @@ Baofeng Weizhao is recorded in the historiography of the late-Tang / Song-period
 - **Dates:** Dates uncertain
 - **School:** Nanyue line
 - **Teachers:** Fayan Wenyi
+- **Students:** Chengtian Chuanzong
 
 Baoen Xuanze is recorded in the historiography of the late-Tang / Song-period Chan transmission network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].
 
@@ -4254,7 +4279,7 @@ Ryuko Ryoshu is recorded in the historiography of the medieval / early-modern Ja
 - **Also known as:** T'ien-p'ing Ts'ung-i, Tempyô Jûi
 - **Dates:** Dates uncertain
 - **School:** Qingyuan line
-- **Teachers:** Luoshan Daoxian
+- **Teachers:** Qingxi Hongjin
 
 Tianping Congyi is recorded in the historiography of the late-Tang / Song-period Chan transmission network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].
 
@@ -4584,6 +4609,13 @@ Deshan Yuanmi is recorded in the historiography of the late-Tang / Song-period C
 
 Zifu Rubao is recorded in the historiography of the late-Tang / Song-period Chan transmission network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].
 
+### Koho Hakugan
+
+- **Also known as:** Kohō Hakugan, Koho zenji
+- **Dates:** Dates uncertain
+- **School:** Sōtō
+- **Students:** Keido Chisan
+
 ### Huoan Shiti
 
 - **Dates:** Dates uncertain
@@ -4684,6 +4716,22 @@ Panshan Baoji is recorded in the historiography of the late-Tang / Song-period C
 
 Guishan Daan is recorded in the historiography of the late-Tang / Song-period Chan transmission network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].
 
+### Viên Cảnh
+
+- **Dates:** Dates uncertain
+- **School:** Lâm Tế
+- **Students:** Hương Hải
+
+Viên Cảnh (圓鏡, fl. 1640s–1660s) was a Chinese Lâm Tế Chan master teaching in Quảng Trị province in seventeenth-century Vietnam[1]. He ordained Hương Hải (1628–1715) in 1655, giving him the dharma name Huyền Cơ Thiện Giác and the lineage title Minh Châu Hương Hải — making Hương Hải the central figure of the Vietnamese Thiền revival of that century[1].
+
+### Thích Hoằng Thâm
+
+- **Dates:** Dates uncertain
+- **School:** Thiền
+- **Students:** Thích Quảng Đức
+
+Thích Hoằng Thâm (fl. early–mid twentieth century) was a Vietnamese Buddhist master in the Lâm Tế tradition and the direct ordination teacher of Thích Quảng Đức (1897–1963)[1]. He was Thích Quảng Đức's maternal uncle and spiritual master; the young Lâm Văn Túc entered religious life under him at age seven, took novice vows at fifteen, and received full bhikṣu ordination at age twenty[1].
+
 ### Nicolee Jikyo McMahon
 
 - **Also known as:** Nicolee Jikyo Miller, Nicolee Jikyo McCann, Jikyo Roshi
@@ -4780,16 +4828,6 @@ Her most consequential contribution to Deshimaru's western mission was as a co-a
 Pierre Reigen / Dōkan Crépon is a French Sōtō Zen monk in the Deshimaru lineage and the principal historian-biographer of Taisen Deshimaru in French. He is listed on the Association Zen Internationale teacher directory as Maître Pierre Dōkan Crépon (Dōkan being his Sōtō dharma name; Reigen the form preserved in older AZI records). Ordained by Deshimaru, he has taught within AZI for several decades[1].
 
 Crépon's enduring contribution is on the page. His long-form essay Maître Taisen Deshimaru et l'arrivée du zen en Europe — published on zen-azi.org and cited by the French Wikipedia article on Deshimaru as the canonical French-language source on the master's life — is the standard AZI account of Deshimaru's 1967 arrival in Paris and the founding decade of European Zen.
-
-### Vincent Keisen Vuillemin
-
-- **Also known as:** Keisen Vuillemin, Vincent Vuillemin
-- **Dates:** Dates uncertain
-- **School:** Sōtō
-- **Teachers:** Taisen Deshimaru, Etienne Mokusho Zeisler, Yvon Myōken Bec
-- **Students:** Loïc Kōshō Vuillemin
-
-Vincent Keisen Vuillemin is a Swiss Sōtō Zen monk in the Deshimaru–Zeisler lineage, based in Geneva. He was a direct disciple of Étienne Mokushō Zeisler in the years immediately before Zeisler's death in 1990, and the canonical Mokushō Zen House Budapest lineage record names him explicitly as "Vincent Keisen Vuillemin, from Geneve, disciple of master Zeisler." After Zeisler's death he continued his training under Yvon Myōken Bec, the monk to whom Zeisler had entrusted the Eastern European mission, and on 25 March 2007 Master Myōken conferred dharma transmission (shihō) on him — the first shihō Myōken granted, completing the Deshimaru → Zeisler → Bec → Vuillemin line[1].
 
 ### Yūkō Okamoto
 
@@ -5089,6 +5127,16 @@ Claus Heiki Bockbreder is a German Sōtō Zen monk and physician, godo of Zendo 
 
 The AZI / ABZE registry records that Bockbreder received shihō from Roland Yuno Rech in 2024[1][2], formally placing the Melle and Osnabrück dōjōs in the Yuno Rech line and extending the German wing of the second-generation AZI sangha alongside Heinz-Jürgen Metzger in Solingen / Cologne and Eveline Kogen Pascual / Silvia Hoju Leyer in Aachen[1].
 
+### Vincent Keisen Vuillemin
+
+- **Also known as:** Keisen Vuillemin, Vincent Vuillemin
+- **Dates:** Dates uncertain
+- **School:** Sōtō
+- **Teachers:** Etienne Mokusho Zeisler, Yvon Myōken Bec, Taisen Deshimaru
+- **Students:** Loïc Kōshō Vuillemin
+
+Vincent Keisen Vuillemin is a Swiss Sōtō Zen monk in the Deshimaru–Zeisler lineage, based in Geneva. He was a direct disciple of Étienne Mokushō Zeisler in the years immediately before Zeisler's death in 1990, and the canonical Mokushō Zen House Budapest lineage record names him explicitly as "Vincent Keisen Vuillemin, from Geneve, disciple of master Zeisler." After Zeisler's death he continued his training under Yvon Myōken Bec, the monk to whom Zeisler had entrusted the Eastern European mission, and on 25 March 2007 Master Myōken conferred dharma transmission (shihō) on him — the first shihō Myōken granted, completing the Deshimaru → Zeisler → Bec → Vuillemin line[1].
+
 ### Maria Teresa Shōgetsu Avila
 
 - **Also known as:** Maria Teresa Shogetsu Avila, Shōgetsu Avila
@@ -5299,14 +5347,14 @@ The Nanyue line descends from Nanyue Huairang, a student of the Sixth Patriarch 
 ### Thiền
 
 - **Tradition:** Thiền
-- **Masters:** 6
+- **Masters:** 8
 
 Thiền (禪) is the Vietnamese tradition of Chan Buddhism, brought to Vietnam through multiple transmissions from China beginning as early as the sixth century[1]. The first Thiền school was founded by Vinitaruci (d. 594), an Indian monk who had studied with the Third Patriarch Sengcan before traveling to Vietnam[2]. The second school was established by Vô Ngôn Thông (d. 826), a Chinese disciple of Baizhang Huaihai[3]. Vietnamese Thiền developed a distinctive character, readily combining meditation practice with Pure Land devotion, Confucian ethics, and indigenous Vietnamese spirituality[1]. The tradition produced several uniquely Vietnamese developments, including the Trúc Lâm (Bamboo Forest) school founded by Emperor Trần Nhân Tông in 1299[4], and the Liễu Quán dharma line of the Lâm Tế school, which became the dominant lineage in central and southern Vietnam[5].
 
 ### Seon
 
 - **Tradition:** Seon
-- **Masters:** 8
+- **Masters:** 9
 
 Seon (禪, 선) is the Korean tradition of Chan Buddhism, introduced to the Korean peninsula beginning in the seventh century by monks who had studied in Tang dynasty China[1]. The earliest transmissions came through figures like Toui, who received dharma transmission from Baizhang Huaihai's lineage and established the first Seon school upon returning to Korea[2]. During the Goryeo dynasty, Bojo Jinul (1158–1210) became the tradition's most influential reformer, synthesizing Seon meditation with Hwaeom (Huayan) doctrinal study and establishing the Jogye Order, which remains the dominant Buddhist institution in Korea today[3]. Korean Seon developed a distinctive character: it preserved the intensity of Tang dynasty Chan practice—particularly the hwadu (huatou) method of koan investigation—while integrating it with a broader Buddhist framework[1]. The tradition also maintained a strong emphasis on extended silent retreat, culminating in the modern Korean practice of three-month intensive meditation seasons (kyolche)[1]. Major modern figures include Gyeongheo, who revived the dying Seon tradition in the late nineteenth century[4], and Seongcheol, who insisted on sudden awakening as the only authentic path[5].
 
@@ -5348,7 +5396,7 @@ The Guiyang school (潙仰宗) was the earliest of the Five Houses of Chan to be
 ### Trúc Lâm
 
 - **Tradition:** Thiền
-- **Masters:** 4
+- **Masters:** 5
 
 The Trúc Lâm (竹林, Bamboo Forest) school is the only indigenous Vietnamese Zen tradition, founded in 1299 by Trần Nhân Tông (1258–1308), the third emperor of the Trần dynasty who abdicated the throne to become a monk[1]. After personally leading Vietnam to victory in the second and third Mongol invasions (1285 and 1288), Trần Nhân Tông retired to Yên Tử Mountain and unified the three existing Vietnamese Thiền schools—the Vinitaruci, Vô Ngôn Thông, and Thảo Đường lineages—into a single school[1][2]. The Trúc Lâm tradition was continued by two more patriarchs, Pháp Loa (1284–1330) and Huyền Quang (1254–1334), before gradually declining as a distinct school[2]. It was revived in the twentieth century by Thích Thanh Từ as a modern Vietnamese contemplative movement with monasteries across the country[3].
 
@@ -5369,7 +5417,7 @@ The Taego Order (太古宗, 태고종) is the second largest Buddhist order in K
 ### Sōtō
 
 - **Tradition:** Zen
-- **Masters:** 185
+- **Masters:** 186
 
 The Soto school (曹洞宗) is the Japanese continuation of the Chinese Caodong tradition, founded by Eihei Dogen (1200–1253) after his training with Tiantong Rujing in China[1]. It is the largest Zen denomination in Japan[2]. Soto's central practice is shikantaza ('just sitting')—zazen practiced as the direct expression of awakening itself, not as a means to attain enlightenment[3]. Dogen articulated this in his masterwork the Shobogenzo—which is itself largely composed of koan commentary and philosophical inquiry—and in his practical manual the Fukanzazengi[3]. The school's second great figure, Keizan Jokin (1264–1325), founded Sojiji Temple and made Soto practice accessible to a broad Japanese population through the integration of esoteric ritual and ancestor veneration[1]. Together, Eiheiji (Dogen's temple) and Sojiji serve as the school's two head monasteries. In the modern era, the Soto tradition has been carried to the West by teachers including Shunryu Suzuki (San Francisco Zen Center), Taisen Deshimaru (Association Zen Internationale, Europe), Taizan Maezumi (Zen Center of Los Angeles), and Dainin Katagiri (Minnesota Zen Center), establishing vibrant practice communities across North America and Europe[4].
 
@@ -5390,7 +5438,7 @@ The Yangqi line is the dominant sub-branch of the Linji school, founded by Yangq
 ### Lâm Tế
 
 - **Tradition:** Thiền
-- **Masters:** 3
+- **Masters:** 4
 
 The Lâm Tế school is the Vietnamese form of the Chinese Linji tradition, formally established in Vietnam during the seventeenth century by Chinese monks carrying the late-Ming Linji revival lineage of Miyun Yuanwu[1]. The most important transmission was through Nguyên Thiều (1648–1728), a Chinese monk from Guangdong who arrived in Vietnam around 1665–1677 and established the Linji lineage in the central and southern regions[2]. His dharma grandson Liễu Quán (1670–1742) became the first native Vietnamese to receive Linji dharma transmission, founding the Liễu Quán dharma line that 'Vietnamized' the tradition and remains the dominant Buddhist lineage in central Vietnam to this day[3]. Thích Nhất Hạnh (1926–2022), the globally influential Zen teacher and peace activist, was the 42nd generation of the Lâm Tế school and 8th generation of the Liễu Quán line[4].
 

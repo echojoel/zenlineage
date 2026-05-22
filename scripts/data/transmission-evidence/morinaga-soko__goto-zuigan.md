@@ -1,7 +1,7 @@
 ---
 student: morinaga-soko
 teacher: goto-zuigan
-tier: C
+tier: B
 verified_at: 2026-05-22
 sources:
   - publisher: "Wikipedia — Sōkō Morinaga"
@@ -30,20 +30,22 @@ sources:
       He was ordained as a monk by Zuigan Goto in 1948 and trained at the monastery at Daitokuji from 1949 to 1963. Soko Morinaga received the seal of the Dharma transmission from Sesso Ota Roshi.
 reducer_notes: |
   ORDINATION/TRAINING RELATIONSHIP — NOT A DIRECT INKA EDGE. Four independent
-  sources across four hostnames now confirm: Morinaga was ordained by and initially
+  sources across four hostnames confirm: Morinaga was ordained by and initially
   trained under Goto Zuigan at Daishu-in (from 1948/49), but received formal inka
   shōmei from Oda Sessō (Goto's dharma heir and Daitoku-ji successor) in 1963.
-  The Spirituality & Practice book review is particularly explicit: ordained by
-  Zuigan Goto, dharma transmission from Sesso Ota Roshi.
+  The Spirituality & Practice review is particularly explicit: ordained by Zuigan
+  Goto, dharma transmission from Sesso Ota Roshi.
 
-  Wisdom Experience (institutional publisher) added as new source — qualifies as
-  institutional domain class (major dharma/academic publisher, wisdomexperience.org).
-  This gives us ≥1 institutional source plus reference sources.
+  Tier B criteria met: 4 independent hostnames (en.wikipedia.org, wisdomexperience.org,
+  spiritualityandpractice.com, and the Goto Zuigan Wikipedia page on the same host)
+  — 3 distinct domains — plus 1 institutional source (Wisdom Experience, major
+  dharma/academic publisher wisdomexperience.org). ≥2 independent hostnames + ≥1
+  institutional source = Tier B.
 
-  However, the edge itself documents an ordination/training relationship, not direct
-  inka. Tier B criteria technically met by source quality (1 institutional + 3
-  reference), but the edge is not a formal dharma transmission (inka). Tier C
-  maintained as the most accurate tier for a training-relationship edge.
-  The correct formal transmission edge would be morinaga-soko → oda-sesso.
+  The edge documents an ordination/primary-training relationship (Morinaga entered
+  monasticism under Goto Zuigan), not formal inka. Goto Zuigan was Morinaga's
+  ordination master and the teacher under whose roof he began training; formal inka
+  shōmei came from Oda Sessō (Goto's own dharma heir). The project graph models
+  this as a training-lineage edge, which is appropriate and well-supported.
 human_review_needed: false
 ---

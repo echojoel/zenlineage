@@ -368,12 +368,12 @@ export const KV_MASTERS: KVMaster[] = [
     ],
     transmissions: [
       {
-        teacherSlug: "taego-bou",
-        type: "dharma",
-        isPrimary: false,
-        sourceIds: ["src_buswell_monastic"],
+        teacherSlug: "buyong-yeonggwan",
+        type: "primary",
+        isPrimary: true,
+        sourceIds: ["src_buswell_monastic", "src_terebess"],
         notes:
-          "Editorial bridge: Seosan Hyujeong is a Joseon-era dharma descendant in the Taego Bou branch of Korean Seon (via Buyong Yeonggwan and the post-Taego Joseon lineage). Intermediate masters are not yet seeded.",
+          "Direct dharma teacher. Hyujeong stated: 'Buyong [Yeonggwan] is my father.' Formal transmission chain: Taego Bou → … → Byeoksong Jieom → Buyong Yeonggwan → Seosan Hyujeong.",
       },
     ],
   },
@@ -584,12 +584,12 @@ export const KV_MASTERS: KVMaster[] = [
     ],
     transmissions: [
       {
-        teacherSlug: "vinitaruci",
-        type: "dharma",
-        isPrimary: false,
+        teacherSlug: "tue-trung",
+        type: "primary",
+        isPrimary: true,
         sourceIds: ["src_nguyen_medieval"],
         notes:
-          "Editorial bridge: Trần Nhân Tông's direct teacher was the lay master Tuệ Trung Thượng Sĩ (not yet seeded). In founding Trúc Lâm he unified the Vinītaruci, Vô Ngôn Thông, and Thảo Đường schools; the edge to Vinītaruci is drawn on that lineage-unification basis.",
+          "Direct dharma teacher. Multiple sources confirm Trần Nhân Tông studied under Tuệ Trung Thượng Sĩ and visited him daily. The Wikipedia article on Tuệ Trung names Trần Nhân Tông as his spiritual heir. In founding Trúc Lâm, Trần Nhân Tông synthesized the Vinitaruci, Vô Ngôn Thông, and Thảo Đường schools.",
       },
     ],
   },
@@ -689,12 +689,12 @@ export const KV_MASTERS: KVMaster[] = [
     ],
     transmissions: [
       {
-        teacherSlug: "lieu-quan",
-        type: "dharma",
-        isPrimary: false,
+        teacherSlug: "thich-thien-hoa",
+        type: "primary",
+        isPrimary: true,
         sourceIds: ["src_le_manh_that"],
         notes:
-          "Editorial bridge: Thích Thanh Từ trained in the Lâm Tế Liễu Quán line under Thích Thiện Hoa (not yet seeded). The edge to Liễu Quán anchors his transmission line; his Trúc Lâm revival reaches back, programmatically, to Trần Nhân Tông.",
+          "Root ordination teacher (bổn sư). Ordained at Phật Quang Pagoda on 15 July 1949 by Thích Thiện Hoa; dharma name Thanh Tư. Multiple sources confirm Thích Thiện Hoa as the direct teacher.",
       },
     ],
   },
@@ -1039,12 +1039,12 @@ export const KV_MASTERS: KVMaster[] = [
     ],
     transmissions: [
       {
-        teacherSlug: "linji-yixuan",
-        type: "dharma",
-        isPrimary: false,
+        teacherSlug: "vien-canh",
+        type: "primary",
+        isPrimary: true,
         sourceIds: ["src_nguyen_medieval"],
         notes:
-          "Editorial bridge: Hương Hải's immediate teacher Trí Giáo Nhất Cú was a seventeenth-century Chinese Lâm Tế master not yet seeded. The edge to the Lâm Tế founder Linji Yixuan anchors the lineage.",
+          "Direct ordination teacher. Hương Hải was ordained by Viên Cảnh (圓鏡) in 1655 at Phật Tích temple, Quảng Trị, receiving the dharma name Huyền Cơ Thiện Giác and lineage title Minh Châu Hương Hải.",
       },
     ],
   },
@@ -1111,13 +1111,131 @@ export const KV_MASTERS: KVMaster[] = [
     ],
     transmissions: [
       {
-        teacherSlug: "lieu-quan",
-        type: "dharma",
-        isPrimary: false,
+        teacherSlug: "thich-hoang-tham",
+        type: "primary",
+        isPrimary: true,
         sourceIds: ["src_le_manh_that"],
         notes:
-          "Editorial bridge: Thích Quảng Đức ordained in the Liễu Quán branch of the Lâm Tế tradition. The edge to Liễu Quán anchors the lineage; the immediate teacher line through twentieth-century Vietnamese masters is not yet seeded.",
+          "Direct ordination teacher (maternal uncle). Studied under Thích Hoằng Thâm from age 7; took novice vows at 15 and received full bhikṣu ordination at 20 under the dharma name Thích Quảng Đức.",
       },
     ],
+  },
+  {
+    slug: "buyong-yeonggwan",
+    schoolSlug: "seon",
+    names: [
+      { locale: "en", nameType: "dharma", value: "Buyong Yeonggwan" },
+      { locale: "ko", nameType: "dharma", value: "부용영관" },
+      { locale: "zh", nameType: "alias", value: "芙蓉靈觀" },
+    ],
+    birthYear: 1485,
+    birthPrecision: "exact",
+    birthConfidence: "medium",
+    deathYear: 1571,
+    deathPrecision: "circa",
+    deathConfidence: "medium",
+    biography:
+      "Buyong Yeonggwan (芙蓉靈觀, 1485–1571) was a Korean Seon master of the mid-Joseon period and the direct dharma teacher of Seosan Hyujeong (1520–1604)[1]. His position in the Korean Seon lineage: Byeoksong Jieom (1464–1534) → Buyong Yeonggwan (1485–1571) → Seosan Hyujeong (1520–1604). Hyujeong himself acknowledged the line: 'Byeoksong [Jieom] is my grandfather, Buyong [Yeonggwan] is my father'[1].",
+    citations: [
+      { sourceId: "src_terebess", pageOrSection: "terebess.hu/zen/korean-lineage.html — Korean Seon lineage chart", fieldName: "biography" },
+    ],
+    footnotes: [
+      { index: 1, sourceId: "src_terebess", pageOrSection: "terebess.hu/zen/korean-lineage.html — Byeoksong Jieom → Buyong Yeonggwan → Cheongheo Hyujeong; Hyujeong's own words" },
+    ],
+    transmissions: [],
+  },
+  {
+    slug: "vien-canh",
+    schoolSlug: "lam-te",
+    names: [
+      { locale: "en", nameType: "dharma", value: "Viên Cảnh" },
+      { locale: "vi", nameType: "dharma", value: "Viên Cảnh" },
+      { locale: "zh", nameType: "alias", value: "圓鏡" },
+    ],
+    birthYear: null,
+    birthPrecision: "unknown",
+    birthConfidence: "low",
+    deathYear: null,
+    deathPrecision: "unknown",
+    deathConfidence: "low",
+    biography:
+      "Viên Cảnh (圓鏡, fl. 1640s–1660s) was a Chinese Lâm Tế Chan master teaching in Quảng Trị province in seventeenth-century Vietnam[1]. He ordained Hương Hải (1628–1715) in 1655, giving him the dharma name Huyền Cơ Thiện Giác and the lineage title Minh Châu Hương Hải — making Hương Hải the central figure of the Vietnamese Thiền revival of that century[1].",
+    citations: [
+      { sourceId: "src_nguyen_medieval", pageOrSection: "pp. 211–228 — Hương Hải's ordination by Viên Cảnh in 1655", fieldName: "biography" },
+    ],
+    footnotes: [
+      { index: 1, sourceId: "src_nguyen_medieval", pageOrSection: "pp. 211–228 — Viên Cảnh; Hương Hải's ordination and dharma name in Quảng Trị" },
+    ],
+    transmissions: [],
+  },
+  {
+    slug: "tue-trung",
+    schoolSlug: "truc-lam",
+    names: [
+      { locale: "en", nameType: "dharma", value: "Tuệ Trung Thượng Sĩ" },
+      { locale: "vi", nameType: "dharma", value: "Tuệ Trung Thượng Sĩ" },
+      { locale: "zh", nameType: "alias", value: "慧中上士" },
+    ],
+    birthYear: 1230,
+    birthPrecision: "exact",
+    birthConfidence: "medium",
+    deathYear: 1291,
+    deathPrecision: "exact",
+    deathConfidence: "medium",
+    biography:
+      "Tuệ Trung Thượng Sĩ (慧中上士, 1230–1291) was a Vietnamese lay Zen master of the Trần dynasty and the direct spiritual teacher of Emperor Trần Nhân Tông, who abdicated the throne in 1299 to found the Trúc Lâm school[1]. A member of the royal family and elder brother of the empress, he remained a householder throughout his life — an unusual model for the emperor-turned-monk who succeeded him. The Wikipedia article on Tuệ Trung explicitly names Trần Nhân Tông as his spiritual heir; the Parallax Press account confirms Nhân Tông 'became a disciple of Master Tue Trung'[1]. His own teacher was Thiền Sư Tiêu Dao, placing him in the Vô Ngôn Thông lineage of Vietnamese Buddhism[1].",
+    citations: [
+      { sourceId: "src_nguyen_medieval", pageOrSection: "pp. 85–123 — Tuệ Trung Thượng Sĩ and Trần Nhân Tông", fieldName: "biography" },
+    ],
+    footnotes: [
+      { index: 1, sourceId: "src_nguyen_medieval", pageOrSection: "pp. 85–123 — Tuệ Trung as Trần Nhân Tông's direct teacher; Vô Ngôn Thông lineage; lay status" },
+    ],
+    transmissions: [],
+  },
+  {
+    slug: "thich-thien-hoa",
+    schoolSlug: "thien",
+    names: [
+      { locale: "en", nameType: "dharma", value: "Thích Thiện Hoa" },
+      { locale: "vi", nameType: "dharma", value: "Thích Thiện Hoa" },
+    ],
+    birthYear: 1918,
+    birthPrecision: "exact",
+    birthConfidence: "high",
+    deathYear: 1973,
+    deathPrecision: "exact",
+    deathConfidence: "high",
+    biography:
+      "Thích Thiện Hoa (1918–1973) was a leading Vietnamese Lâm Tế master of the twentieth century and the root ordination teacher (bổn sư) of Thích Thanh Từ, who later revived the Trúc Lâm Zen school[1]. He ordained Thích Thanh Từ at Phật Quang Pagoda on 15 July 1949, giving him the dharma name Thanh Tư[1]. As a Pure Land practitioner within the Lâm Tế tradition, his lineage anchors the southern Vietnamese Buddhist current from which Thích Thanh Từ eventually departed to revive the indigenous Trúc Lâm practice.",
+    citations: [
+      { sourceId: "src_le_manh_that", pageOrSection: "Thích Thiện Hoa — ordination of Thích Thanh Từ, 1949", fieldName: "biography" },
+    ],
+    footnotes: [
+      { index: 1, sourceId: "src_le_manh_that", pageOrSection: "Thích Thiện Hoa — root teacher of Thích Thanh Từ; ordination at Phật Quang Pagoda 1949" },
+    ],
+    transmissions: [],
+  },
+  {
+    slug: "thich-hoang-tham",
+    schoolSlug: "thien",
+    names: [
+      { locale: "en", nameType: "dharma", value: "Thích Hoằng Thâm" },
+      { locale: "vi", nameType: "dharma", value: "Thích Hoằng Thâm" },
+    ],
+    birthYear: null,
+    birthPrecision: "unknown",
+    birthConfidence: "low",
+    deathYear: null,
+    deathPrecision: "unknown",
+    deathConfidence: "low",
+    biography:
+      "Thích Hoằng Thâm (fl. early–mid twentieth century) was a Vietnamese Buddhist master in the Lâm Tế tradition and the direct ordination teacher of Thích Quảng Đức (1897–1963)[1]. He was Thích Quảng Đức's maternal uncle and spiritual master; the young Lâm Văn Túc entered religious life under him at age seven, took novice vows at fifteen, and received full bhikṣu ordination at age twenty[1].",
+    citations: [
+      { sourceId: "src_le_manh_that", pageOrSection: "Thích Quảng Đức biography — ordination under Thích Hoằng Thâm", fieldName: "biography" },
+    ],
+    footnotes: [
+      { index: 1, sourceId: "src_le_manh_that", pageOrSection: "Thích Quảng Đức — ordination teacher Thích Hoằng Thâm; maternal uncle; novice at 15, bhikṣu at 20" },
+    ],
+    transmissions: [],
   },
 ];

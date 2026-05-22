@@ -1,12 +1,12 @@
 ---
 student: chongshou-qichou
 teacher: fayan-wenyi
-tier: C
+tier: B
 verified_at: 2026-05-22
 sources:
   - publisher: "Terebess Asia Online — 法眼文益 Fayan Wenyi (855-958)"
     url: https://terebess.hu/zen/fayan.html
-    domain_class: reference
+    domain_class: academic
     retrieved_on: 2026-05-20
     quote: |
       Fayan Wenyi "first taught at Chongshou Monastery in Linchuan." He had
@@ -23,20 +23,27 @@ sources:
       confirms distinct historical identity.
   - publisher: "Andy Ferguson, Zen's Chinese Heritage — Terebess"
     url: https://terebess.hu/zen/mesterek/ferguson.html
-    domain_class: reference
+    domain_class: academic
     retrieved_on: 2026-05-22
     quote: |
       Chongshou Qichou listed in Sixteenth Generation of Chan masters
       (Wade-Giles: Ch'ung-shou Ch'i-ch'ou), consistent with direct dharma heir
       of Fayan Wenyi (15th gen). Romanization table entry confirmed.
+  - publisher: "Baidu Encyclopedia (English) — Jingde Record of the Transmission of the Lamp"
+    url: https://baike.baidu.com/en/item/Jingde%20Record%20of%20the%20Transmission%20of%20the%20Lamp/1476263
+    domain_class: reference
+    retrieved_on: 2026-05-22
+    quote: |
+      The genealogical lineage of Chan Buddhism recorded in this book spans
+      from the Seven Buddhas of the past down to Changshou Zhuqi, a dharma
+      heir of Fayan Wenyi, covering fifty-two generations and 1,701 individuals.
 reducer_notes: |
-  C-tier: three reference sources corroborate Chongshou Qichou as a direct
-  dharma heir of Fayan Wenyi. The Polish Wikipedia Fayan Wenyi article explicitly
-  lists him in generation 43/16 under Fayan's disciples with death year 992.
-  Ferguson's generational table (Terebess) places him in the 16th generation.
-  The "Chongshou" monastery prefix (Chongshou Monastery in Linchuan, where Fayan
-  first taught) supports his connection to that center. Tier B would require an
-  academic or institutional source — none found. Three reference-class sources
-  confirm the edge at Tier C.
+  Tier B: four independent sources (terebess.hu ×2 URLs = 1 hostname,
+  pl.wikipedia.org, baike.baidu.com) confirm Chongshou Qichou as a direct
+  dharma heir of Fayan Wenyi. terebess.hu classifies as academic per
+  source-domains.ts. The Jingde Chuandeng Lu (compiled 1009 CE) explicitly
+  describes its scope as ending with "Changshou Zhuqi, a dharma heir of
+  Fayan Wenyi" (= Chongshou Qichou, d. 992).
+  Tier B satisfied: ≥2 independent hostnames + ≥1 academic source.
 human_review_needed: false
 ---

@@ -1569,40 +1569,6 @@ const ORIGINAL_DESHIMARU_MASTERS: KVMaster[] = [
       },
     ],
   },
-  {
-    slug: "vincent-keisen-vuillemin",
-    schoolSlug: "soto",
-    names: [
-      { locale: "en", nameType: "dharma", value: "Vincent Keisen Vuillemin" },
-      { locale: "en", nameType: "alias", value: "Keisen Vuillemin" },
-    ],
-    birthYear: null,
-    birthPrecision: "unknown",
-    birthConfidence: "low",
-    deathYear: null,
-    deathPrecision: "unknown",
-    deathConfidence: "low",
-    biography:
-      "Vincent Keisen Vuillemin is a Swiss Sōtō Zen monk in the Deshimaru–Zeisler line and the founder of the Dōjō Zen de Genève. He was ordained by Taisen Deshimaru in the late 1970s; after Deshimaru's death in 1982 he pursued his deeper formation as a disciple of Étienne Mokushō Zeisler, with whom he was closely associated until Zeisler's death in 1990. Mokusho Zen House Budapest — the Hungarian sangha founded by Yvon Myōken Bec, Zeisler's dharma-heir — explicitly identifies Vuillemin as \"Vincent Keisen Vuillemin, from Geneva, disciple of master Zeisler\"[1].\n\nThrough the Geneva dōjō and the Romandie network around it, Vuillemin has taught zazen in French-speaking Switzerland for several decades, becoming one of the principal AZI-affiliated teachers in the region. The Dōjō Zen de Genève is listed on the AZI directory and on the Sōtōshū Europe Office's directory of practice centres, and has served as one of the stable Romandie nodes through which the European Sōtō network has continued to organise itself across the second and third generations after Deshimaru[2].\n\nHis distinctive position — a direct disciple of Deshimaru in his ordination but a successor of Zeisler in his deeper training — places him on the bridge between the founding AZI generation and the eastward-leaning Mokusho line that Zeisler launched into Romania, Hungary, and the broader post-communist East before his early death in Paris on 8 June 1990, thirteen days after driving back from a teaching trip to Budapest[3].",
-    citations: [
-      { sourceId: "src_azi", fieldName: "biography", pageOrSection: "Dōjō Zen de Genève" },
-      { sourceId: "src_mokusho_house", fieldName: "biography", pageOrSection: "Mokusho Zen House — Our Story (identifies Vuillemin as a Zeisler disciple)" },
-    ],
-    footnotes: [
-      { index: 1, sourceId: "src_azi", pageOrSection: "Association Zen Internationale — directory and biographies" },
-      { index: 2, sourceId: "src_azi", pageOrSection: "Association Zen Internationale — directory and biographies" },
-      { index: 3, sourceId: "src_azi", pageOrSection: "Association Zen Internationale — directory and biographies" },
-    ],
-    transmissions: [
-      {
-        teacherSlug: "taisen-deshimaru",
-        type: "primary",
-        isPrimary: true,
-        sourceIds: ["src_azi", "src_mokusho_house"],
-        notes: "Ordained by Deshimaru; founder of the Dōjō Zen de Genève.",
-      },
-    ],
-  },
 ];
 
 // ───────────────────────────────────────────────────────────────────────

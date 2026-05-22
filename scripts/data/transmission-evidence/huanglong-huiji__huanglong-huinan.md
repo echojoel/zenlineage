@@ -32,6 +32,14 @@ sources:
       of Huanglong Huinan (1002–1069) and subsequent abbots. Huanglong Huiji
       appears in related Chinese terms as a distinct figure sharing the
       mountain name.
+  - publisher: "Terebess Asia Online — Master List"
+    url: https://terebess.hu/english/master.html
+    domain_class: reference
+    retrieved_on: "2026-05-22"
+    quote: |
+      Huanglong Huinan's direct dharma heirs are identified as Zhenjing Kewen,
+      Donglin Changzong, and Huitang Zuxin. Huanglong Huiji does not appear
+      among the listed dharma heirs of Huanglong Huinan.
 reducer_notes: |
   CHRONOLOGICALLY IMPOSSIBLE. Huanglong Huinan died in 1069. Huanglong Huiji
   appears only in texts from the early 13th century (Jiatai pudenglu, compiled

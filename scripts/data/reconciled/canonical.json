@@ -4023,12 +4023,12 @@
         "value": "Koho Keido Chisan"
       }
     ],
-    "birth_year": null,
-    "birth_precision": "unknown",
-    "birth_confidence": "low",
-    "death_year": null,
-    "death_precision": "unknown",
-    "death_confidence": "low",
+    "birth_year": 1879,
+    "birth_precision": "exact",
+    "birth_confidence": "high",
+    "death_year": 1967,
+    "death_precision": "exact",
+    "death_confidence": "high",
     "school": "Sōtō",
     "source_ids": [
       "src_obcon_founding_teachers"
@@ -11889,6 +11889,42 @@
     "school": "Early Chan",
     "source_ids": [
       "src_chan_ancestors_pdf",
+      "src_originals_curated"
+    ]
+  },
+  {
+    "id": "Y0r_jEbOwa2k5Txs2gR6J",
+    "slug": "koho-hakugan",
+    "names": [
+      {
+        "locale": "en",
+        "name_type": "dharma",
+        "value": "Koho Hakugan"
+      },
+      {
+        "locale": "zh",
+        "name_type": "alias",
+        "value": "孤峰白岩"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Kohō Hakugan"
+      },
+      {
+        "locale": "en",
+        "name_type": "alias",
+        "value": "Koho zenji"
+      }
+    ],
+    "birth_year": null,
+    "birth_precision": "unknown",
+    "birth_confidence": "low",
+    "death_year": null,
+    "death_precision": "unknown",
+    "death_confidence": "low",
+    "school": "Sōtō",
+    "source_ids": [
       "src_originals_curated"
     ]
   },

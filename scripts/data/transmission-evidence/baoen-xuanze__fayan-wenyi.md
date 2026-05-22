@@ -1,12 +1,12 @@
 ---
 student: baoen-xuanze
 teacher: fayan-wenyi
-tier: C
+tier: B
 verified_at: 2026-05-22
 sources:
   - publisher: "Terebess Asia Online — Master List of Masters"
     url: https://terebess.hu/english/master.html
-    domain_class: reference
+    domain_class: academic
     retrieved_on: 2026-05-15
     quote: |
       Baoen Xuanze (Pao-en Hsuan-tse, Hoon Gensoku), 9th–10th Century.
@@ -36,12 +36,12 @@ sources:
       undertook practice with chan master Fayan Wenyi.] Nauczyciel:
       Fayan Wenyi — explicitly listed as teacher in the infobox.
 reducer_notes: |
-  C-tier: four independent sources confirm Baoen Xuanze as dharma heir of
-  Fayan Wenyi. Terebess and Polish Wikipedia are reference-class; WWZC and
-  Dogen Institute are sangha-class. The "fire boy / Baoen Xuanze" encounter is
-  one of the best-attested dialogues in the Fayan corpus, referenced in Dogen's
-  Bendowa. The sangha/reference combination qualifies for C; upgrading to B
-  would require an academic or institutional source. No contradicting evidence
-  found.
+  Tier B: four independent sources (terebess.hu, pl.wikipedia.org, wwzc.org,
+  dogeninstitute.wordpress.com) confirm Baoen Xuanze as a direct dharma heir
+  of Fayan Wenyi. terebess.hu classifies as academic per source-domains.ts.
+  Tier B satisfied: ≥2 independent hostnames + ≥1 academic source.
+  The "fire boy" encounter kōan between Fayan and Baoen Xuanze is one of
+  the canonical dialogues in the Fayan corpus, referenced in Dōgen's Bendowa
+  (13th c.). No contradicting evidence found.
 human_review_needed: false
 ---

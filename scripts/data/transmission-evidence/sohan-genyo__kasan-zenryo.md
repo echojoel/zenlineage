@@ -23,19 +23,26 @@ sources:
     quote: |
       Gempō Yamamoto (山本玄峰, Yamamoto Genpō; 1866-1961) was the abbot of both Ryūtaku-ji and Shoin-ji in Japan—also serving temporarily as the head of the Myōshin-ji branch of Rinzai Zen Buddhism. A renowned Japanese calligrapher, Yamamoto was a Rinzai Zen Buddhist priest who followed in the footsteps of Hakuin Ekaku.
 reducer_notes: |
-  Three sources now confirm the Sohan Genyo → Kasan Zenryo dharma transmission.
-  The Terebess lineage page (reference class) shows the complete chain:
+  THREE SOURCES — PRIMARY TRAINING RELATIONSHIP CONFIRMED; INKA FROM NANTENBŌ.
+  The Terebess lineage page (reference class) shows the transmission chain:
   Hakuin → Gasan Jito → Takuju Kosen → Sosan Genkyo → Kasan Zenryo → Sohan Genho
   → Yamamoto Gempo, placing this solidly in the Takuju sub-line of Rinzai.
-  The Shining Bright Lotus institutional sangha page explicitly names Kasan Zenryo
-  as Sohan's teacher and documents both as abbots of Daitoku-ji.
-  Wikipedia's Yamamoto Gempo article independently corroborates Gempo as
-  Sohan's dharma heir.
+
+  IMPORTANT NUANCE: Terebess also reports that Sohan Genho (also known as Shoun)
+  entered Empuku-ji in 1880 to train under Kasan Zenryo, but received formal inka
+  shōmei from Nantenbō at Dorin-ji in Tokyo, before returning to study further with
+  Kasan. This mirrors the Morinaga/Goto Zuigan pattern: a primary training relationship
+  with one master, formal inka from another in the same line. The edge in the project
+  graph documents the primary training relationship, which is well-confirmed.
+
+  The Shining Bright Lotus sangha page explicitly names Kasan Zenryo as Sohan's
+  teacher and documents both as abbots of Daitoku-ji. Wikipedia's Yamamoto Gempo
+  article independently corroborates Gempo as Sohan's dharma heir.
 
   Tier C: two independent reference-class sources (terebess.hu + en.wikipedia.org)
   plus one sangha source confirm the edge. Tier B upgrade requires an institutional
-  or academic source (e.g. rinzaimuseum.org); none found for this pair.
-  Edge direction and identities confirmed; no human review needed for the
-  transmission itself.
+  or academic source (e.g. rinzaimuseum.org, encyclopediaofbuddhism.org); none found
+  for this pair. encyclopediaofbuddhism.org pages returned empty during 2026-05-22
+  research session (site blocking automated fetches).
 human_review_needed: false
 ---

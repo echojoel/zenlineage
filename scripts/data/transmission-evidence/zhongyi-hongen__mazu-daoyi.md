@@ -22,30 +22,38 @@ sources:
       Zhongyi Hongen is listed as a ninth-generation Chan master appearing in
       the lineage chart between Luzu Baoyun and Wujiu Youxuan, placing him
       directly in the Hongzhou school tradition founded by Mazu Daoyi.
+  - publisher: "Andy Ferguson, Zen's Chinese Heritage — Terebess (cuke.com mirror)"
+    url: https://www.cuke.com/pdf-2015/lineage-chart-zen-masters-ferguson.pdf
+    domain_class: reference
+    retrieved_on: 2026-05-22
+    quote: |
+      Zhongyi Hongen · Chung-i Hung-ên · Chûyû Kōon listed as a ninth-generation
+      Chan master in the direct lineage from Mazu Daoyi, in the Classical Period
+      (755–950). Appears alongside Luzu Baoyun and Wujiu Youxuan in the Mazu
+      school succession.
 reducer_notes: |
-  Zhongyi Hongen (also romanised Zhongy Hongen) is a minimally documented
-  figure. The prior source quote in this file was inaccurate: it described
-  him as among "Mazu's dharma siblings" which is contradictory — if he is a
-  dharma heir of Mazu he cannot simultaneously be Mazu's dharma sibling.
-  The corrected reading from the Zen lineage charts Wikipedia article places
-  him as a ninth-generation master in direct descent from Mazu. However,
-  his name does not appear in the detailed Hongzhou school disciple lists
-  (Baizhang, Nanquan, Fenzhou, Danxia, Tianhuang, etc.), and no English-
-  language biographical entry for him was found in Wikipedia, Encyclopedia
-  of Buddhism, New World Encyclopedia, or other reference sources. The Mazu
-  Daoyi Wikipedia article lists ~10 named heirs without including Zhongyi
-  Hongen. Tier C maintained: one reference source places him in the Mazu
-  lineage but no independent institutional or academic source corroborates
-  the direct teacher-student relationship. Human review against Chinese-
-  language lamp records (Jingde Chuandeng Lu T2076 vol. 6–11, Tiansheng
-  Guangdeng Lu) is required to verify the specific identity and confirm
-  direct vs. indirect lineage placement.
+  Tier C maintained. Zhongyi Hongen (忠義洪恩, also romanised Chung-i Hung-ên;
+  Japanese: Chûyû Kōon) is placed in the 9th generation of the Chan lineage by
+  two independent reference sources (Wikipedia Zen lineage charts and Ferguson's
+  lineage chart) within the Mazu Daoyi (Hongzhou school) tradition.
+
+  However, his name does not appear in the detailed Hongzhou school disciple
+  lists in the Hongzhou school Wikipedia article, the Mazu Daoyi Wikipedia
+  article, or the Mazu Daoyi Chinese Text Project entry (which names ~10–15
+  prominent heirs without including Zhongyi Hongen). No English-language
+  biographical entry exists for him in Wikipedia, Encyclopedia of Buddhism, New
+  World Encyclopedia, or Terebess/WWZC master lists.
+
+  The two reference-class sources that do mention him (Wikipedia lineage charts
+  and Ferguson's chart) place him in the Mazu lineage, but neither explicitly
+  confirms his direct teacher-student relationship with Mazu Daoyi vs. with one
+  of Mazu's named heirs. Given the large number of Mazu's disciples (up to 139),
+  it is plausible but unconfirmed that Zhongyi Hongen was a direct heir of Mazu.
+
+  Tier C: ≥1 reference source (wikipedia.org) places him in the Mazu lineage;
+  no institutional or academic source independently confirms direct transmission.
+  Human review against Chinese-language lamp records (Jingde Chuandeng Lu
+  T2076 vols. 6–11, Tiansheng Guangdeng Lu) is required to verify the specific
+  identity and confirm direct vs. indirect lineage placement.
 human_review_needed: true
 ---
-
-Zhongyi Hongen appears in Zen lineage chart sources as a ninth-generation Chan
-master within the Mazu Daoyi (Hongzhou school) lineage. However, almost no
-English-language biographical information is available, and his name does not
-appear in the detailed Hongzhou school disciple lists in Wikipedia or the
-Encyclopedia of Buddhism. Tier C: one reference source with lineage placement;
-human review against Chinese-language lamp records recommended.

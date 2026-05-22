@@ -53,8 +53,12 @@ reducer_notes: |
 
   This edge represents a well-documented 25-year training relationship (1940–1965),
   not a formal shiho. Formal transmission was from Rempo Niwa (ordained 1973,
-  shiho 1977). Tier B blocked: no institutional source (sotozen-net.or.jp,
-  eiheiji.or.jp) found for this specific relationship. Tier C: five sources across
-  five hostnames document the training relationship.
+  shiho 1977).
+
+  Tier B upgrade attempted 2026-05-22: encyclopediaofbuddhism.org searched but
+  returned empty content (site blocking automated fetches); sotozen-net.or.jp and
+  eiheiji.or.jp searched but no page for this specific relationship found. Tier C
+  confirmed: five sources across five hostnames document the training relationship,
+  but no institutional or academic source found for this specific edge.
 human_review_needed: false
 ---

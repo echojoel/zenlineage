@@ -2007,8 +2007,9 @@
     "dates": "",
     "teachers": [
       {
-        "name": "Luoshan Daoxian",
-        "edge_type": "primary"
+        "name": "Qingxi Hongjin",
+        "edge_type": "primary",
+        "notes": "Ferguson lineage chart and angelfire lineage place Luoshan Daoxian at 14th gen, Qingxi Hongjin at 15th gen, and Tianping Congyi at 16th gen. The direct teacher is Qingxi Hongjin, not Luoshan Daoxian."
       }
     ],
     "school": "",
@@ -2185,8 +2186,9 @@
     "dates": "",
     "teachers": [
       {
-        "name": "Huanglong Huinan",
-        "edge_type": "primary"
+        "name": "Xuedou Zhijian",
+        "edge_type": "primary",
+        "notes": "Ferguson lineage chart places Dahong Zuzheng at 23rd generation (Caodong), while Huanglong Huinan died 1069 at 11th generation — a 12-generation gap making direct transmission impossible. Xuedou Zhijian (祖菴智鑑, 1105–1192) is the correct direct teacher per Wikipedia's Xuedou Zhijian article."
       }
     ],
     "school": "",
@@ -2820,8 +2822,9 @@
     "dates": "",
     "teachers": [
       {
-        "name": "Yunmen Wenyan",
-        "edge_type": "primary"
+        "name": "Baoen Xuanze",
+        "edge_type": "primary",
+        "notes": "Spatial analysis of Ferguson PDF chart places Chengtian Chuanzong in the Fayan school column (x≈450) directly below Baoen Xuanze, not in the Yunmen column (x≈612). Yunmen Wenyan (13th gen) is 4 generations above Chengtian (17th gen) — too many intermediate steps for a direct edge."
       }
     ],
     "school": "",
@@ -4531,6 +4534,19 @@
       "Xu'an Huaichang",
       "Kyōan Esho",
       "Koan Esho"
+    ]
+  },
+  {
+    "name": "Koho Hakugan",
+    "names_cjk": "孤峰白岩",
+    "dates": "",
+    "teachers": [],
+    "school": "Soto",
+    "source_id": "src_terebess",
+    "ingestion_run_id": "run_originals_curated_20260522",
+    "names_alt": [
+      "Kohō Hakugan",
+      "Koho zenji"
     ]
   }
 ]
