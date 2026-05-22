@@ -147,15 +147,18 @@ const SOTO_PARENT_STUBS: KVMaster[] = [
       { locale: "en", nameType: "dharma", value: "Yūkō Okamoto" },
       { locale: "en", nameType: "alias", value: "Yuko Okamoto" },
       { locale: "en", nameType: "alias", value: "Okamoto Roshi" },
+      { locale: "en", nameType: "alias", value: "Gu'en Yūkō Okamoto" },
+      { locale: "ja", nameType: "dharma", value: "岡本有光" },
+      { locale: "ja", nameType: "alias", value: "弘圓" },
     ],
-    birthYear: null,
-    birthPrecision: "unknown",
-    birthConfidence: "low",
-    deathYear: null,
-    deathPrecision: "unknown",
-    deathConfidence: "low",
+    birthYear: 1935,
+    birthPrecision: "decade",
+    birthConfidence: "medium",
+    deathYear: 2021,
+    deathPrecision: "exact",
+    deathConfidence: "high",
     biography:
-      "Yūkō Okamoto Roshi is a Japanese Sōtō master based at Teishōji and an intimate of Taisen Deshimaru's later generation of senior European disciples — described in the AZI biographical record of Raphaël Dōkō Triet as \"a friend of Master Deshimaru\"[1]. The publicly attested portion of his career runs principally through his role as a shihō-giving teacher for two of Deshimaru's senior heirs: he conferred dharma transmission on Raphaël Dōkō Triet in 1997[1], and on Michel Meihō Reikū Bovay at Teishōji in 1998[2]. Both transmissions anchor important branches of the AZI European Sōtō line — the Iberian / Andalusian Seikyūji and Lisbon networks (Triet) and the Swiss-German Zen Dōjō Zürich network (Bovay) — formally to the Japanese Sōtōshū through the Teishōji line.",
+      "Gu'en Yūkō Okamoto (岡本有光, c. 1935 – 16 April 2021) was a Japanese Sōtō master and the 32nd abbot of Teishōji (貞祥寺) in Saku, Nagano Prefecture. His dharma name was Gu'en (弘圓)[2]. He succeeded his father Okamoto Taihō, the 31st abbot, who had maintained a close personal friendship with Kōdō Sawaki Zenji — a connection that brought Sawaki regularly to Teishōji for sesshin and that led the young Yūkō to train and practice with Sawaki during his formative years as a monk[2][3].\n\nThrough Sawaki's orbit he came to know Taisen Deshimaru, and over decades he became one of the principal Japanese supporters of Deshimaru's European mission — described in the AZI biographical record of Raphaël Dōkō Triet as \"a friend of Master Deshimaru\"[1]. Okamoto played an active behind-the-scenes role: he helped Deshimaru obtain the formal Sōtō shihō he required from Yamada Reirin Roshi of Sōjiji, assisted in securing Seikyūji as Deshimaru's Japanese temple, and officiated at the Hossenshiki ceremony for Deshimaru's European disciples[2][3]. When he later transmitted to the next generation of European teachers, he characteristically said: \"I don't want you to become my disciples; I help you as I once helped Master Deshimaru\" — framing the entire relationship as institutional continuity rather than personal lineage[3].\n\nFrom 1997 onward Okamoto conferred shihō on a sequence of senior Deshimaru-line European teachers, each of whom performed the Zuise visits at Eihei-ji and Sōji-ji to complete their formal Sōtōshū recognition: Raphaël Dōkō Triet (1997)[1], Michel Meihō Reikū Bovay (1998)[2], Simone Jikō Wolf (2004), Gérard Chinrei Pilet (2009), and Eishuku Monika Leibundgut (Hossenshiki 2012, shihō 2013)[2]. These five transmissions anchor the Iberian/Andalusian Seikyūji and Lisbon networks (Triet), the Swiss-German Zen Dōjō Zürich network (Bovay → Leibundgut), and the Italian-Swiss Sanbō Dōjō network (Wolf) formally to the Japanese Sōtōshū through the Teishōji line. Master Deshimaru's principal tomb is located at Teishōji, and annual memorial sesshins were held there as long as Okamoto's health permitted[2].",
     citations: [
       {
         sourceId: "src_azi",
@@ -165,16 +168,24 @@ const SOTO_PARENT_STUBS: KVMaster[] = [
       {
         sourceId: "src_dojo_lausanne",
         fieldName: "biography",
-        pageOrSection: "Muijoji / zen.ch — Michel Reikū Bovay biography: \"shihō 1998 from Yūkō Okamoto Roshi at Teishōji\"",
+        pageOrSection: "Muijoji / zen.ch — Gu'en Yūkō Okamoto obituary (zen.ch/guen-yuko-okamoto-3/): death 16 April 2021; dharma name Gu'en; 32nd abbot of Teishōji; trained with Kōdō Sawaki; shihō heirs Bovay (1998), Leibundgut (2013); Deshimaru's tomb at Teishōji",
+      },
+      {
+        sourceId: "src_azi",
+        fieldName: "biography",
+        pageOrSection: "seikyuji.org — Maître Okamoto (written by Triet): Sawaki–father friendship, Okamoto's role in Deshimaru's shihō and Seikyūji, his statement about not wanting disciples",
       },
     ],
     footnotes: [
       { index: 1, sourceId: "src_azi", pageOrSection: "zen-azi.org — Raphaël Dōkō Triet biography (1997 transmission from Okamoto)" },
-      { index: 2, sourceId: "src_dojo_lausanne", pageOrSection: "Muijoji / zen.ch — Michel Reikū Bovay biography (1998 transmission at Teishōji)" },
+      { index: 2, sourceId: "src_dojo_lausanne", pageOrSection: "Muijoji / zen.ch — Gu'en Yūkō Okamoto obituary (zen.ch/guen-yuko-okamoto-3/)" },
+      { index: 3, sourceId: "src_azi", pageOrSection: "seikyuji.org — Maître Okamoto, written by Raphaël Triet (Sawaki connection, hossenshiki role, shihō statement)" },
     ],
     transmissions: [
-      // Okamoto's predecessor at Teishōji (his father) is not yet seeded.
-      // The Teishōji–Sawaki connection is sesshin-venue hospitality, not shihō.
+      // Okamoto's formal shihō teacher is not documented in any public source.
+      // He trained with Kōdō Sawaki as a young monk but is not on Sawaki's
+      // confirmed shihō-heirs list. His own teacher within the Sōtōshū hierarchy
+      // remains unknown from public records.
     ],
   },
   {
