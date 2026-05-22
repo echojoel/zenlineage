@@ -21,7 +21,7 @@ sources:
     domain_class: institutional
     retrieved_on: 2026-05-15
     quote: |
-      ABZE roster confirms Fabra shihō 2014
+      ABZE roster page confirms Fabra received shihō 2014
 reducer_notes: |
   Michel Jigen Fabra received shihō from Roland Yuno Rech in August 2014 and subsequently
   completed zuise at both Eihei-ji and Sōji-ji, confirmed by the Poitiers dōjō's own about

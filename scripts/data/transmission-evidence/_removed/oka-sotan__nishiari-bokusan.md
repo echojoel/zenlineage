@@ -18,5 +18,6 @@ sources:
       Sawaki spent a three-month practice period studying Dōgen with Oka Sotan.
 reducer_notes: |
   Two independent Wikipedia articles confirm that Oka Sotan (岡素担, 1860-1921) was a student of Nishiari Bokusan and that Oka Sotan was the teacher of Kodo Sawaki. The Nishiari Bokusan article names Oka Sotan as a principal disciple and first abbot of Antaiji; the Kodo Sawaki article confirms Sawaki studied with Oka Sotan. Both sources are the Wikipedia hostname. Tier B: two corroborating Wikipedia articles document the relationship from both the teacher's and the student's downstream perspectives. This transmission line (Nishiari → Oka Sotan → Sawaki) is well-documented in Soto scholarship.
-human_review_needed: false
+human_review_needed: true
+human_review_note: "Sources document scholarly mentorship (Shobogenzo study), not shiho. Oka Sotan's actual shiho teacher was Token Mitetsu. deshimaru-lineage.ts intentionally leaves this blank. Do NOT apply edge to graph."
 ---

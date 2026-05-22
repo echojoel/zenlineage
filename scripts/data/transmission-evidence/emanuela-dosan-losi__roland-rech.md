@@ -21,7 +21,7 @@ sources:
     domain_class: institutional
     retrieved_on: 2026-05-15
     quote: |
-      ABZE roster confirms Losi shihō 2012
+      ABZE roster page confirms Losi received shihō 2012
 reducer_notes: |
   Emanuela Dōsan Losi was the first woman to receive shihō from Roland Yuno Rech,
   confirmed by the fr.wikipedia.org transmission table and two ABZE institutional

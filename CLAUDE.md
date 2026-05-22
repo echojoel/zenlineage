@@ -3,6 +3,19 @@
 This file is project-level guidance for Claude Code / agents working in the
 `zen` repo (zenlineage.org). Read before making changes.
 
+## Deployment platform
+
+This project is deployed on **Cloudflare Pages** (not Vercel). Do not suggest
+Vercel products, `vercel` CLI commands, or Vercel-specific configuration.
+
+- Runtime: `@opennextjs/cloudflare` (OpenNext adapter)
+- Deploy command: `npm run build && wrangler pages deploy out --project-name=zenlineage`
+- Config: `wrangler.toml`
+- Types: `@cloudflare/workers-types`
+
+To deploy: run the deploy command above, or push to the linked branch and let
+Cloudflare Pages CI pick it up.
+
 ## Data flow and the "seed data is truth" rule
 
 The runtime database (`zen.db` at the repo root) is **ephemeral**. It is

@@ -4427,12 +4427,7 @@
   {
     "name": "Sohan Genyo",
     "dates": "1848-1922",
-    "teachers": [
-      {
-        "name": "Gisan Zenrai",
-        "edge_type": "secondary"
-      }
-    ],
+    "teachers": [],
     "school": "Rinzai",
     "source_id": "src_originals_curated",
     "ingestion_run_id": "run_originals_curated_20260314"

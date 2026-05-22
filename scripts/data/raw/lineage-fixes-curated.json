@@ -12,12 +12,7 @@
     ],
     "school": "Rinzai",
     "source_id": "src_agent_review",
-    "ingestion_run_id": "run_lineage_fixes_curated_20260407",
-    "names_alt": [
-      "Myoan Eisai",
-      "Myoan Yosai",
-      "Eisai"
-    ]
+    "ingestion_run_id": "run_lineage_fixes_curated_20260407"
   },
   {
     "name": "Taizan Maezumi",
