@@ -1,7 +1,7 @@
 # Zen Lineage — Complete Reference
 
 > An open-source interactive encyclopedia of Zen Buddhism covering 550+ masters,
-> 25 schools, 560+ lineage transmissions, 910+ teachings, and 1,700+ scholarly
+> 25 schools, 570+ lineage transmissions, 910+ teachings, and 1,700+ scholarly
 > citations across 2,500 years of Chan, Zen, Seon, and Thien Buddhist history.
 
 Zen Lineage maps the dharma transmission lineages connecting Buddhist masters
@@ -440,6 +440,7 @@ Huineng's central teaching was the direct, sudden recognition of original mind, 
 - **Dates:** 651 – 739
 - **School:** Early Chan
 - **Teachers:** Yuquan Shenxiu
+- **Students:** Dingzhou Shizang
 
 Songshan Puji (嵩山普寂, 651–739) was the principal Dharma heir of Yuquan Shenxiu and the most prominent representative of the Northern School in the first half of the eighth century[1]. He taught at Songyang-si on Mount Song (the central sacred mountain) and at the imperial capitals; like his teacher he received successive court honours, including the title *guóshī*, and his community was probably the most institutionally well-established Chan community of his generation before the rise of Heze Shenhui's polemic[2].
 
@@ -696,7 +697,7 @@ Muyŏm (無染, 800–888) is the founder of the Sŏngjusan school, one of the N
 - **Dates:** 805 – 881
 - **School:** Qingyuan line
 - **Teachers:** Chuanzi Decheng
-- **Students:** Luopu Yuanan, Shanglan Lingchao, Shaoshan Huanpu
+- **Students:** Luopu Yuanan, Shanglan Lingchao, Shaoshan Huanpu, Changfu Zhi
 
 Jiashan Shanhui (夾山善會, 805–881) is recorded in the *Jǐngdé Chuándēng Lù* and the *Zǔtáng Jí* as a former lecturer-monk whose merely intellectual understanding was exposed by Daowu Yuanzhi: when Jiashan, then well known for his expositions, claimed that "the Dharmakāya has no marks; the Dharma-eye has no flaw," Daowu directed him to seek out the ferryman Chuanzi Decheng on the Huating River[1].
 
@@ -3242,6 +3243,7 @@ He is one of the founding-generation Linji teachers from whom the school traces 
 - **Also known as:** Hu-kuo Shou-chêng, Gokoku Shuchô
 - **Dates:** Dates uncertain
 - **School:** Guiyang
+- **Teachers:** Qinshan Wensui
 
 Huguo Shoucheng is recorded in the historiography of the late-Tang / Song-period Chan transmission network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].
 
@@ -3438,6 +3440,7 @@ Fuden Gentotsu is recorded in the historiography of the medieval / early-modern 
 - **Dates:** Dates uncertain
 - **School:** Guiyang
 - **Teachers:** Dongshan Liangjie
+- **Students:** Huguo Shoucheng
 
 Qinshan Wensui is recorded in the historiography of the late-Tang / Song-period Chan transmission network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].
 
@@ -3552,6 +3555,7 @@ Shoun Hozui is recorded in the historiography of the medieval / early-modern Jap
 - **Also known as:** Chiu-fêng Ch’in, Kyûhô Gon
 - **Dates:** Dates uncertain
 - **School:** Guiyang
+- **Teachers:** Zhimen Guangzuo
 
 Jiufeng Qin is recorded in the historiography of the late-Tang / Song-period Chan transmission network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].
 
@@ -3616,6 +3620,7 @@ Furong Daokai is recorded in the historiography of the medieval / early-modern J
 
 - **Dates:** Dates uncertain
 - **School:** Qingyuan line
+- **Teachers:** Jiashan Shanhui
 
 Changfu Zhi is recorded in the historiography of the late-Tang / Song-period Chan transmission network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].
 
@@ -3845,6 +3850,7 @@ Danxia Zichun is recorded in the historiography of the medieval / early-modern J
 - **Also known as:** Ting-chou Shih-tsang, Jôshû Sekisô
 - **Dates:** Dates uncertain
 - **School:** Qingyuan line
+- **Teachers:** Songshan Puji
 
 Dingzhou Shizang (定州石藏, fl. early 9th c.) is named in the *Jǐngdé Chuándēng Lù* as a Dharma heir of Nanquan Puyuan and one of the secondary Mazu-line teachers active in the Dingzhou region of modern Hebei[1]. The lamp records preserve a small body of his exchanges in the characteristic Hongzhou-line style of action-as-answer, though the surviving record places him in the lineage without preserving extensive biographical detail[2].
 
@@ -3974,7 +3980,7 @@ Sesso Hoseki is recorded in the historiography of the medieval / early-modern Ja
 - **Dates:** Dates uncertain
 - **School:** Guiyang
 - **Teachers:** Xianglin Chengyuan
-- **Students:** Xuedou Chongxian
+- **Students:** Xuedou Chongxian, Jiufeng Qin
 
 Zhimen Guangzuo is recorded in the historiography of the late-Tang / Song-period Chan transmission network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].
 
