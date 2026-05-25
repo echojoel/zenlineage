@@ -50,9 +50,12 @@ reducer_notes: |
   ~22 successors are "obscure" and that only Xinghua Cunjiang's line survived.
   No independent source positively identifies a named disciple "Licun"
   transmitting Linji's dharma in a form that constitutes a live lineage.
-  Tier D confirmed. This edge must be reviewed against the Chinese JDCDL
-  T2076.12 to determine whether the intended node is 歷村 (anonymous hermitage
-  master) or a different figure. If 歷村, the edge is technically supportable
-  from the lamp record but the master is completely anonymous.
+
+  2026-05-25 re-search: Terebess master.html and WWZC master list do not
+  contain any entry for Licun. Wikipedia Linji Yixuan article does not list
+  歷村. English and European-language web searches return no usable result
+  for this anonymous figure. Tier D confirmed. Resolution requires primary-text
+  pass of JDCDL T2076.12 via CBETA (cbetaonline.dila.edu.tw), which requires
+  manual browsing of the Chinese text.
 human_review_needed: true
 ---

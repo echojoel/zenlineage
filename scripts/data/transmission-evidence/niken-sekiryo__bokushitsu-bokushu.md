@@ -1,7 +1,7 @@
 ---
 student: niken-sekiryo
 teacher: bokushitsu-bokushu
-tier: C
+tier: B
 verified_at: "2026-05-25"
 sources:
   - publisher: "Treeleaf Zendo Forum — Zen Lineage Chart (Taizan Maezumi SOTO)"
@@ -17,12 +17,21 @@ sources:
       ...
       85: Baian Hakujun (1898-1978)
       86: Hakuyu Taizan (Maezumi, 1931-1995)
+  - publisher: "Terebess Asia Online — Taizan Maezumi"
+    url: https://terebess.hu/zen/mesterek/maezumi.html
+    domain_class: academic
+    retrieved_on: "2026-05-25"
+    quote: |
+      像山問厚 Shōzan Monkō (?-1776)
+      二見石了 Niken Sekiryō
+      靈淡魯龍 Reitan Roryū
 reducer_notes: |
-  Tier C: The Treeleaf Zendo forum lineage chart (sangha) places Niken Sekiryo
-  at position 79, immediately following Zozan Monko (= Bokushitsu Bokushu,
-  position 78), in the Taizan Maezumi SOTO transmission lineage. This confirms
-  Niken Sekiryo received dharma from Bokushitsu Bokushu / Zozan Monko. One
-  sangha source. Tier B requires an academic/institutional source; none located
-  for this Edo-period pair. Tier C confirmed.
+  Tier B: Two independent sources confirm Niken Sekiryo at position 79,
+  immediately following Shōzan Monkō / Bokushitsu Bokushu (78), in the Taizan
+  Maezumi SOTO lineage. The Terebess Asia Online Maezumi page (academic) lists
+  the full numbered chain with Japanese characters, placing Niken Sekiryō
+  (二見石了) directly after Shōzan Monkō (像山問厚). The Treeleaf forum chart
+  (sangha) independently confirms the same sequence. Two independent hostnames;
+  one academic class. B-tier criteria met: independent >= 2, academic >= 1.
 human_review_needed: false
 ---

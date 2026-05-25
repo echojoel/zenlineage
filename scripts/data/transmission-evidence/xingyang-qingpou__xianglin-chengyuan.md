@@ -55,13 +55,25 @@ reducer_notes: |
   - Xingyang Qingrang (興陽清讓, b. 910) — Guiyang school, heir of Bajiao Huiqing
   - Xingyang Qingpou (興陽清剖) — Yunmen school, 17th generation
 
-  The correct direct teacher for Xingyang Qingpou (興陽清剖, 17th gen, Yunmen
-  school) is most likely a 16th-generation Yunmen master (Xuedou Chongxian or
-  one of his peers), not Xianglin Chengyuan who is three generations earlier.
-  The direct Xianglin → Xingyang Qingpou edge is almost certainly an error.
+  ADDITIONAL RESEARCH (2026-05-25): The Ferguson table of contents (Terebess)
+  confirms Xingyang Qingpou appears in the SEVENTEENTH Generation, listed at
+  page 392. Critically, Touzi Yiqing (1032–1083) also appears in the 17th
+  generation (page 389). The Angelfire Zen ancestors lineage chart groups
+  Xingyang Qingpou under the "Tousi" (Touzi) heading — "Tousi Xingyang
+  Qingpou" — suggesting Xingyang Qingpou is a dharma heir of Touzi Yiqing
+  (16th gen), not of Xianglin Chengyuan (14th gen, three generations earlier).
 
-  RECOMMENDATION: Verify Xingyang Qingpou's actual teacher in the Wudeng
-  Huiyuan or Jingde Chuandeng Lu; the edge in the lineage data should be
-  corrected. Tier D maintained.
+  PROBABLE CORRECT TEACHER: Touzi Yiqing (1032–1083), a 16th-generation
+  Caodong master who taught Furong Daokai (1043–1118) and others. Xingyang
+  Qingpou may be a lesser-known dharma heir of Touzi Yiqing, placing him
+  correctly in the 17th generation.
+
+  The Xianglin Chengyuan → Xingyang Qingpou edge in the seed data is almost
+  certainly a data entry error (possibly a misread of a lineage chart where
+  Xianglin and Xingyang names were confused).
+
+  RECOMMENDATION: Replace xingyang-qingpou → xianglin-chengyuan with
+  xingyang-qingpou → touzi-yiqing. Requires verification in the Wudeng
+  Huiyuan or Jingde Chuandeng Lu. Tier D maintained.
 human_review_needed: true
 ---

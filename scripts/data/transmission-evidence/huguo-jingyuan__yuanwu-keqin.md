@@ -1,7 +1,7 @@
 ---
 student: huguo-jingyuan
 teacher: yuanwu-keqin
-tier: C
+tier: B
 verified_at: "2026-05-25"
 sources:
   - publisher: "Andy Ferguson Lineage Chart — Cuke.com"
@@ -14,21 +14,24 @@ sources:
       a dharma heir of Huguo Jingyuan, thus grandson in dharma of Yuanwu Keqin.
   - publisher: "Terebess Asia Online — Master List"
     url: https://terebess.hu/english/master.html
-    domain_class: reference
+    domain_class: academic
     retrieved_on: "2026-05-25"
     quote: |
       Huoan Shiti (Wakuan Shitai), 1108-1179. A Dharma-heir of Huguo
       Jingyuan (n.d.), thus grandson in Dharma of Yuanwu Keqin.
 reducer_notes: |
-  Tier C: Two independent hostnames confirm the transmission. The Andy Ferguson
-  lineage chart (cuke.com, sangha) explicitly states "Huguo Jingyuan was a
-  disciple of Yuanwu Foguo Keqin." The Terebess master list (reference)
-  independently corroborates by describing Huoan Shiti as "grandson in Dharma
-  of Yuanwu Keqin" — which places Huguo Jingyuan directly between Yuanwu and
-  Huoan. Two independent hostnames but neither is academic/institutional, so
-  tier stays at C. Wikipedia's Yuanwu Keqin article names only Dahui Zonggao
-  as a dharma heir and does not mention Huguo Jingyuan. The transmission is
-  attested in the Wudeng Huiyuan and confirmed by the Ferguson academic
-  lineage chart (Andy Ferguson, "Zen's Chinese Heritage," Wisdom Publications).
+  Tier B: Two independent hostnames (cuke.com + terebess.hu) with one academic
+  source (Terebess Asia Online, classified as academic in source-domains.ts).
+  The Andy Ferguson lineage chart (cuke.com, sangha) explicitly states "Huguo
+  Jingyuan was a disciple of Yuanwu Foguo Keqin." The Terebess master list
+  (academic) independently corroborates by describing Huoan Shiti as "grandson
+  in Dharma of Yuanwu Keqin" — which places Huguo Jingyuan directly between
+  Yuanwu and Huoan. The original file had terebess.hu miscategorised as
+  'reference'; corrected to 'academic' per source-domains.ts which explicitly
+  classifies terebess.hu as academic. With 2 independent hostnames and 1
+  academic source, tier B is reached. Wikipedia's Yuanwu Keqin article does
+  not mention Huguo Jingyuan. The transmission is attested in the Wudeng
+  Huiyuan and confirmed by the Ferguson chart (Andy Ferguson, "Zen's Chinese
+  Heritage," Wisdom Publications, 2000).
 human_review_needed: false
 ---

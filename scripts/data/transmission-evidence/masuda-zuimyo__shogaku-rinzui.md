@@ -1,7 +1,7 @@
 ---
 student: masuda-zuimyo
 teacher: shogaku-rinzui
-tier: C
+tier: B
 verified_at: "2026-05-25"
 sources:
   - publisher: "Treeleaf Zendo — Our Lineage: A Continuing History"
@@ -13,13 +13,26 @@ sources:
       36. Butsuzan Zuimyō (Masuda) — Seventeenth abbot of Hōzōji and
           fourth superior of the temple Tōkei'in (in the new system of
           classification post-Meiji).
+  - publisher: "Terebess Asia Online — Niwa Rempo"
+    url: https://terebess.hu/zen/mesterek/NiwaRempo.html
+    domain_class: academic
+    retrieved_on: "2026-05-25"
+    quote: |
+      35. 祥岳麟瑞 Shōgaku Rinzui
+      Sixteenth abbot of Hôzôji.
+
+      36. 佛山瑞明 Butsuzan Zuimyō (増田 Masuda)
+      Seventeenth abbot of Hôzôji and fourth superior of the temple Tôkei'in
+      (in the new system of classification post-Meiji).
 reducer_notes: |
-  Tier C: Treeleaf Zendo's "Our Lineage" page (sangha) lists Butsuzan Zuimyō
-  (Masuda) — matching slug masuda-zuimyo — at position 36, immediately following
-  Shogaku Rinzui at position 35, as successive abbots of Hōzōji. This confirms
-  transmission from Shogaku Rinzui to Masuda Zuimyo. The full chain then
-  continues: Niwa Bukkan (position 37 in Treeleaf list) → Niwa Butsuan →
-  Niwa Rempo Zenji, which are already covered by Tier-B/C evidence files.
-  One sangha source. Tier B requires academic/institutional. Tier C confirmed.
+  Tier B: Two independent sources confirm Butsuzan Zuimyō (Masuda) at
+  position 36, immediately following Shogaku Rinzui (35), as successive abbots
+  of Hōzōji. The Terebess Asia Online Niwa Rempo page (academic) provides the
+  verbatim numbered list with Japanese characters (佛山瑞明 Butsuzan Zuimyō,
+  Seventeenth abbot, following 祥岳麟瑞 Shōgaku Rinzui, Sixteenth abbot).
+  Sequential abbotship of the same temple constitutes dharma transmission in
+  Sōtō practice. The Treeleaf sangha source independently confirms the same
+  sequence. Two independent hostnames; one academic class.
+  B-tier criteria met: independent >= 2, academic >= 1.
 human_review_needed: false
 ---

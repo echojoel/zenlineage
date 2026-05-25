@@ -49,9 +49,16 @@ reducer_notes: |
   an obscure disciple not prominent enough to appear in transmitted lamp records,
   but no verification is possible from available sources.
 
-  Extensive web search (2026-05-22) returned zero results for "Yang Wuwei" in any
-  Chan Buddhism context. The identification cannot be confirmed. Tier D maintained.
+  ADDITIONAL RESEARCH (2026-05-25): The Ferguson/Terebess romanization table
+  includes an entry "Yang Wu-wei • Yō Mui" without any teacher or generation
+  annotation. This confirms the name exists in the Zen master list database, but
+  the generation, lineage school, and teacher are not given. A Brave web search
+  for "Yang Wuwei" in any Chan Buddhism context returned zero relevant results.
+  Terebess has no dedicated master page for Yang Wuwei (404). The identification
+  cannot be confirmed from any accessible English-language source.
+
   The edge may be a data entry error or based on an unverifiable Chinese-language
-  source not accessible through English/Polish search.
+  source (e.g., a transmission lamp record not available in Western databases).
+  Tier D maintained.
 human_review_needed: true
 ---

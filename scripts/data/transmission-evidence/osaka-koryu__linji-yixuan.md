@@ -25,39 +25,42 @@ sources:
       and this emphasis on the validity and importance of lay practice continues
       at Great Wave today.
 reducer_notes: |
-  EDGE IS WRONG AS MODELED — confirmed D-tier.
+  EDGE IS WRONG AS MODELED — confirmed D-tier. This is an intentional
+  editorial ORPHAN_ANCHOR bridge, not a factual transmission claim.
 
-  IDENTITY: Koryū Osaka (大阪孤柳, 1901–1985) is a Japanese lay Rinzai master,
-  not Korean or Vietnamese. He taught the Inzan koan-curriculum and was one of
-  Taizan Maezumi's three dharma teachers.
+  IDENTITY: Koryū Osaka (大阪孤柳, 1901–1985) is a Japanese lay Rinzai master.
+  He taught the Inzan koan-curriculum and was one of Taizan Maezumi's three
+  dharma teachers.
 
   TEMPORAL GAP: Linji Yixuan died in 866 CE; Koryū Osaka lived 1901–1985 — a
   gap of over 1,000 years. No source documents any direct teacher-student
   relationship between them.
 
-  DIRECT TEACHER: Wikipedia confirms Koryū Osaka's direct teacher was Muso Joko
-  Roshi (夢窓成空 / Hannyakutsu Jōkō, 1884–1948), a Shingon priest who practiced
-  the Rinzai koan curriculum. Muso Joko received from Muchaku Kaikō, who received
-  from Kazan Genku, continuing the Inzan branch of Hakuin's lineage back to
-  Shoju Rojin and ultimately to Linji.
+  DIRECT TEACHER (confirmed 2026-05-25): Wikipedia (en.wikipedia.org/wiki/Koryū_Osaka)
+  and multiple sangha sites (greatwave.org, hazymoon.com, zenpeacemakers.org)
+  confirm that Koryū Osaka's direct teacher was Muso Jōkō Roshi (無相定光,
+  also called Hannyakutsu Jōkō, 1884–1949), a Shingon priest who practiced
+  the Inzan Rinzai koan curriculum. Wikipedia gives the full lineage chain:
+  Shoju Rojin → Hakuin Ekaku → Tōrei Enji → Gasan Jitō → Inzan Ien →
+  Taigen Shigen → Gisan Zenrai → Ekkei Shuken → Kazan Genku →
+  Muchaku Kaikō → Muso Jōkō → Koryū Osaka (1901–1985).
 
-  ORIGIN OF ERROR: The osaka-koryu→linji-yixuan edge is an intentional editorial
-  bridge in scripts/seed-shiho-corrections.ts (ORPHAN_ANCHORS array) installed
-  because the intermediate master muso-joko has not yet been seeded as a master
-  entity. This is a placeholder, not a factual transmission claim.
+  ORIGIN OF BRIDGE: The osaka-koryu→linji-yixuan edge is an intentional
+  editorial bridge in scripts/seed-shiho-corrections.ts (ORPHAN_ANCHORS
+  array) installed because the intermediate master muso-joko has not yet
+  been seeded as a master entity.
 
-  CORRECT EDGE: seosan-koryu → muso-joko (direct teacher).
-  ACTION REQUIRED: Add Muso Joko Roshi (1884–1948) as a master entry, then
-  replace the linji-yixuan ORPHAN_ANCHOR with a proper muso-joko edge in
-  maezumi-lineage.ts.
+  CORRECT EDGE: osaka-koryu → muso-joko (direct teacher).
+  ACTION REQUIRED: Add Muso Joko Roshi (1884–1949) as a master entity, then
+  replace the linji-yixuan ORPHAN_ANCHOR with a proper muso-joko edge.
 correction_applied: false
-correction_date: 2026-05-22
+correction_date: 2026-05-25
 correction_notes: |
   muso-joko does NOT exist in scripts/data/reconciled/canonical.json as of
-  2026-05-22. The osaka-koryu→linji-yixuan editorial-bridge edge is defined in
-  scripts/seed-shiho-corrections.ts (ORPHAN_ANCHORS array) and is intentional
-  until Muso Joko is seeded. The osaka-koryu entry in maezumi-lineage.ts has
-  transmissions: [] — no teacherSlug is set there. The Rinzai root anchor
-  (linji-yixuan) comes from seed-shiho-corrections.ts.
+  2026-05-25. The osaka-koryu→linji-yixuan editorial-bridge edge is defined
+  in scripts/seed-shiho-corrections.ts (ORPHAN_ANCHORS array) and is
+  intentional until Muso Joko is seeded. The osaka-koryu entry in
+  maezumi-lineage.ts has transmissions: [] — no teacherSlug is set there.
+  The Rinzai root anchor (linji-yixuan) comes from seed-shiho-corrections.ts.
 human_review_needed: true
 ---
