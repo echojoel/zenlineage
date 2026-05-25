@@ -695,6 +695,7 @@ const SOTO_PARENT_STUBS: KVMaster[] = [
       {
         teacherSlug: "gesshu-soko",
         type: "primary",
+        isPrimary: true,
         sourceIds: ["src_wikipedia", "src_bodiford_soto_medieval"],
         notes:
           "Manzan received menju shihō (face-to-face transmission) from Gesshū Sōko at Daijō-ji in 1680 and became Daijō-ji's 27th abbot the same year. Bodiford (Monumenta Nipponica 46:4, 1991) and Wikipedia both confirm this as the authoritative shihō relationship.",
