@@ -1,7 +1,7 @@
 # Zen Lineage — Complete Reference
 
 > An open-source interactive encyclopedia of Zen Buddhism covering 555+ masters,
-> 25 schools, 570+ lineage transmissions, 965+ teachings, and 1,700+ scholarly
+> 25 schools, 570+ lineage transmissions, 1020+ teachings, and 1,700+ scholarly
 > citations across 2,500 years of Chan, Zen, Seon, and Thien Buddhist history.
 
 Zen Lineage maps the dharma transmission lineages connecting Buddhist masters
@@ -1395,7 +1395,9 @@ Tettō Gikō (徹翁義亨, 1295–1369) was the principal Dharma heir of Shūh�
 - **Teachers:** Kanzan Egen
 - **Students:** Muin Soin
 
-Juō Sohitsu (1296–1380) is recorded in the Daitoku-ji documentation as a fourteenth-century Dharma heir within the Ōtōkan / Daitō-line transmission, one of the secondary teachers around the early Daitoku-ji community. The surviving record preserves his lineage placement; little distinctive doctrinal material from his teaching is preserved in the modern Rinzai-shū historiography[1].
+Juō Sohitsu (1296–1380) was a fourteenth-century Rinzai master in the Myōshin-ji line of the Ōtōkan transmission, the Dharma heir of Kanzan Egen (1277–1360) — the founding abbot of Myōshin-ji — and the teacher who transmitted to Muin Soin (1326–1410). He thus stood in the first generation after Myōshin-ji's founding (1342), responsible for carrying Kanzan's austere, anti-Gozan practice ethic into the next decades[1].
+
+As Kanzan's heir, Juō inhabited the difficult position of preserving a newly established temple's distinctive character in the face of the Gozan system's administrative dominance.
 
 ### Taego Bou
 
@@ -1421,7 +1423,7 @@ Gongai Sōchū (言外宗忠, 1315–1390) was the Dharma heir of Tettō Gikō a
 - **School:** Sōtō
 - **Teachers:** Gasan Joseki
 
-Jippō Ryōshū (実峰良秀, 1318–1405) was one of Gasan Jōseki's five great heirs (*Gasan-go-tetsu*) and the founder of Nyoi-an (如意庵), one of the five sub-temples (Goin) of Sōji-ji whose abbots rotated as the head-temple priest, and a member of the *Gasan ni-jū-go-tetsu* (twenty-five major Gasan heirs)[1]. English-language biographical detail beyond his institutional position is sparse; the Jippō-ha sub-lineage label is plausible but unverified in accessible sources.
+Jippō Ryōshū (実峰良秀, 1318–1405) was one of Gasan Jōseki's five great heirs (*Gasan-go-tetsu*) and the founder of Nyoi-an (如意庵), one of the five sub-temples (Goin) of Sōji-ji whose abbots rotated as the head-temple priest, and a member of the *Gasan ni-jū-go-tetsu* (twenty-five major Gasan heirs)[1]. Along with Tsūgen Jakurei, Daitetsu Sōrei, Mutan Sokan, and Mugai Enshō, he constituted the founding cohort responsible for maintaining Sōji-ji as the institutional centre of the growing Sōtō school in the early Muromachi period — a period when the school needed strong institutional anchoring to resist the cultural dominance of Rinzai's Gozan system.
 
 ### Naong Hyegeun
 
@@ -1439,7 +1441,9 @@ Naong Hyegeun (懶翁惠勤, 1320–1376) was — alongside Taego Bou — the se
 - **Teachers:** Tessan Shikaku
 - **Students:** Chuzan Ryoun
 
-Keigan Eisho (1321–1412) is recorded in the historiography of the medieval / early-modern Japanese Sōtō branch-temple network as an abbot in its transmission lineage. The surviving record preserves his lineage placement; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].
+Keigan Eisho (1321–1412) held an important position in the provincial Sōtō transmission network of the early Muromachi period, serving as the Dharma heir of Tessan Shikaku (d. 1376) and the teacher who passed the line to Chuzan Ryoun (1350–1432). His long life of over ninety years spanned the tumultuous Nanbokuchō civil wars and the first decades of Ashikaga rule — a period in which the Sōtōshū's provincial temple network faced intense competition from the Gozan system patronised by the shogunate[1].
+
+Keigan belonged to the generation of masters who had to maintain Sōtō's distinctive practice culture — rooted in Keizan Jōkin's synthesis of Dōgen's zazen and esoteric ritual — without the political sponsorship available to Rinzai's Five Mountains.
 
 ### Tsūgen Jakurei
 
@@ -1459,7 +1463,7 @@ Tsūgen served as the 5th abbot of Sōji-ji from 1368 (with later returns in 138
 - **Teachers:** Juo Sohitsu
 - **Students:** Nippo Soshun
 
-Muin Soin (1326–1410) is recorded in the Daitoku-ji documentation as a fourteenth-century Rinzai abbot in the Daitō line. The surviving record preserves his lineage placement; little distinctive doctrinal material from his teaching is preserved in the modern Rinzai-shū historiography[1].
+Muin Soin (1326–1410) was a Rinzai master in the Myōshin-ji line of the Ōtōkan stream who received Dharma transmission from Juō Sohitsu, the Dharma heir of Myōshin-ji's founder Kanzan Egen, and transmitted to Nippō Soshun (1367–1448). He practiced through a period of intense political turbulence in Japan — the Nanbokuchō civil wars between the Northern and Southern imperial courts (1336–1392) and the consolidation of Ashikaga authority in Kyoto — during which Buddhist institutions had to navigate competing demands from rival imperial and military patrons[1].
 
 ### Bassui Tokusho
 
@@ -1476,7 +1480,7 @@ Bassui Tokushō (拔隊得勝, 1327–1387) was a fourteenth-century Japanese Ze
 - **School:** Sōtō
 - **Teachers:** Gasan Joseki
 
-Daitetsu Sōrei (大徹宗令, 1333–1408, also rendered Daisetsu Sōrei or Daitetsu Sōryō) was one of Gasan Jōseki's five great heirs (*Gasan-go-tetsu*) and the founder of Denpōan (伝法庵), one of the five sub-temples (Goin) of Sōji-ji that rotated as the head-temple abbacy[1]. The earlier date attribution "d. 1386" found in some derivative sources appears to be a confusion with his fellow Gotetsu Mutan Sokan (d. 1387); the consistent date in Japanese Sōtōshū sources is 1333–1408.
+Daitetsu Sōrei (大徹宗令, 1333–1408, also rendered Daisetsu Sōrei or Daitetsu Sōryō) was one of Gasan Jōseki's five great heirs (*Gasan-go-tetsu*) and the founder of Denpōan (伝法庵), one of the five sub-temples (Goin) of Sōji-ji whose abbots rotated as the head-temple priest. He held Sōji-ji's abbatial office in the decades following Gasan's death, helping stabilise the institution during the early Muromachi period when the Ashikaga shogunate's patronage of Rinzai's Five Mountains put significant competitive pressure on Sōtō[1]. The earlier date attribution "d. 1386" found in some derivative sources appears to be a confusion with his fellow Gotetsu Mutan Sokan (d. 1387); the consistent date in Japanese Sōtōshū sources is 1333–1408.
 
 ### Chuzan Ryoun
 
@@ -1485,7 +1489,9 @@ Daitetsu Sōrei (大徹宗令, 1333–1408, also rendered Daisetsu Sōrei or Dai
 - **Teachers:** Keigan Eisho
 - **Students:** Gisan Tonin
 
-Chuzan Ryoun (1350–1432) is recorded in the historiography of the medieval / early-modern Japanese Sōtō branch-temple network as an abbot in its transmission lineage. The surviving record preserves his lineage placement; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].
+Chuzan Ryoun (1350–1432) was a Sōtō master of the late-Nanbokuchō and early-Muromachi period, receiving Dharma transmission from Keigan Eisho and passing it to Gisan Tonin (1386–1462). He practiced and taught through the reunification of the Northern and Southern imperial courts in 1392 and the early decades of Ashikaga dominance — a period when the Sōtō school's provincial character became increasingly distinct from the Gozan system that absorbed state patronage[1].
+
+Chuzan's position in the lineage made him a relay figure in what Bodiford identifies as the critical provincial network of Sōtō: the chain of masters running from Keizan Jōkin's circle through Gasan Jōseki's twenty-five heirs and then into the branches that eventually reached Gesshū Sōko's reform movement.
 
 ### Kaso Sodon
 
@@ -1503,7 +1509,9 @@ Kasō Sōdon (華叟宗曇, 1352–1428) was a Daitoku-ji-line Rinzai master in 
 - **Teachers:** Baizan Monpon
 - **Students:** Shingan Doku
 
-Jochu Tengin (1363–1437) is recorded in the historiography of the medieval / early-modern Japanese Sōtō branch-temple network as an abbot in its transmission lineage. The surviving record preserves his lineage placement; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].
+Jochū Tengin (如仲天誾, 1363–1437) was a Sōtō master of the early Muromachi period, receiving Dharma transmission from Baizan Monpon (梅山聞本) and transmitting it to Shingan Doku (真厳道空, 1374–1449). He taught through the reunification of the divided courts in 1392 and the cultural consolidation of the Ashikaga shogunate's Higashiyama aesthetic, a period that saw Rinzai temples receiving the lion's share of shogunal patronage while Sōtō maintained its rural base[1].
+
+Jochū's lineage branch — running from Baizan Monpon down through Shingan Doku, Senso Esai, Iyoku Choyu, and Mugai Keigon — represents one of the enduring sub-threads of the post-Keizan Sōtō provincial network.
 
 ### Nippo Soshun
 
@@ -1512,7 +1520,7 @@ Jochu Tengin (1363–1437) is recorded in the historiography of the medieval / e
 - **Teachers:** Muin Soin
 - **Students:** Giten Gensho
 
-Nippō Soshun (1367–1448) is recorded in the Myōshin-ji line documentation as a fifteenth-century Rinzai abbot in the Ōtōkan stream. The surviving record preserves his lineage placement; little distinctive doctrinal material from his teaching is preserved in the modern Rinzai-shū historiography[1].
+Nippō Soshun (1367–1448) was a Rinzai master in the Myōshin-ji line of the Ōtōkan stream, receiving Dharma transmission from Muin Soin and transmitting to Giten Genshō. He practiced through the transition from the Nanbokuchō wars to the period of early Ashikaga cultural stability under Yoshimitsu and Yoshimochi — decades in which Rinzai's Gozan system achieved its greatest literary and artistic prestige while Myōshin-ji's more austere branch deliberately kept its distance from that court culture[1].
 
 ### Shingan Doku
 
@@ -1521,7 +1529,9 @@ Nippō Soshun (1367–1448) is recorded in the Myōshin-ji line documentation as
 - **Teachers:** Jochu Tengin
 - **Students:** Senso Esai
 
-Shingan Doku (1374–1449) is recorded in the historiography of the medieval / early-modern Japanese Sōtō branch-temple network as an abbot in its transmission lineage. The surviving record preserves his lineage placement; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].
+Shingan Doku (真厳道空, 1374–1449) was a Sōtō master of the mid-Muromachi period who received Dharma transmission from Jochū Tengin (如仲天誾) and transmitted to Senso Esai (1409–1475). He practiced through the long reign of the Ashikaga shoguns Yoshimitsu and Yoshinori — the period of the Gozan system's cultural efflorescence in Kyoto and the simultaneous growth of Sōtō's provincial network beyond the reach of that court patronage[1].
+
+The *Sōtō* masters of Shingan's generation inhabited a world in which Rinzai's Five Mountains absorbed the prestige and the artistic culture of the Ashikaga court while Sōtō consolidated its very different position: the school of the rural warrior household, the village temple, the ancestral memorial.
 
 ### Tessan Shikaku
 
@@ -1548,7 +1558,7 @@ Hamheo Gihwa (涵虛己和, 1376–1433) was the leading philosophical voice of 
 - **Teachers:** Chuzan Ryoun
 - **Students:** Shogaku Kenryu
 
-Gisan Tonin (1386–1462) is recorded in the historiography of the medieval / early-modern Japanese Sōtō branch-temple network as an abbot in its transmission lineage. The surviving record preserves his lineage placement; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].
+Gisan Tonin (1386–1462) was a mid-Muromachi Sōtō master who received Dharma transmission from Chuzan Ryoun and in turn transmitted to Shōgaku Kenryū, maintaining the unbroken lineage chain that ran from Keizan Jōkin (d. 1325) forward through the generations toward Gesshū Sōko (1618–1696). He lived through the height of the Ōnin War's antecedents and the collapse of stable central authority, a period when provincial Sōtō temples operated with considerable autonomy from both the shogunate and the head-temple network[1].
 
 ### Shugan Dochin
 
@@ -1592,7 +1602,7 @@ Sekkō Sōshin (1408–1486) is recorded in the Myōshin-ji line documentation a
 - **Teachers:** Shingan Doku
 - **Students:** Iyoku Choyu
 
-Senso Esai (1409–1475) is recorded in the historiography of the medieval / early-modern Japanese Sōtō branch-temple network as an abbot in its transmission lineage. The surviving record preserves his lineage placement; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].
+Senso Esai (1409–1475) was a mid-Muromachi Sōtō master who received Dharma transmission from Shingan Doku (真厳道空, 1374–1449) and transmitted to Iyoku Choyu (1416–1502). He lived through the political high-water mark of the Ashikaga shogunate under Yoshinori and Yoshimasa, and through the Ōnin War (1467–1477) that began the shogunate's irreversible decline — a conflict whose devastation of Kyoto's Gozan temples paradoxically demonstrated the comparative resilience of Sōtō's more dispersed provincial structure[1].
 
 ### Iyoku Choyu
 
@@ -1601,7 +1611,7 @@ Senso Esai (1409–1475) is recorded in the historiography of the medieval / ear
 - **Teachers:** Senso Esai
 - **Students:** Mugai Keigon
 
-Iyoku Choyu (1416–1502) is recorded in the historiography of the medieval / early-modern Japanese Sōtō branch-temple network as an abbot in its transmission lineage. The surviving record preserves his lineage placement; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].
+Iyoku Choyu (1416–1502) was a late-Muromachi Sōtō master who received Dharma transmission from Senso Esai and transmitted to Mugai Keigon (1436–1517), carrying the lineage through the catastrophic Ōnin War (1467–1477) and the subsequent decades of widespread civil strife. His long life of eighty-six years — spanning the full arc of the later Muromachi period — meant that he bore witness to both the cultural heights of Ashikaga aesthetic patronage and the violent breakdown of central authority that followed[1].
 
 ### Toyo Eicho
 
@@ -1628,7 +1638,7 @@ Mugai Keigon (1436–1517) is recorded in the historiography of the medieval / e
 - **Teachers:** Mugai Keigon
 - **Students:** Sesso Hoseki
 
-Nenshitsu Yokaku (1440–1516) is recorded in the historiography of the medieval / early-modern Japanese Sōtō branch-temple network as an abbot in its transmission lineage. The surviving record preserves his lineage placement; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].
+Nenshitsu Yokaku (1440–1516) was a late-Muromachi Sōtō master who received Dharma transmission from Mugai Keigon (1436–1517) and passed it to Sesso Hoseki, bridging two decades of the *Sengoku* civil wars era. His years of active teaching — roughly the last quarter of the fifteenth century into the early sixteenth — coincided with the period of maximum political fragmentation in Japan, when provincial warlords displaced the Ashikaga shogunate's authority and Buddhist temples had to negotiate survival within a landscape of constant military competition[1].
 
 ### Daishitsu Chisen
 
@@ -1637,7 +1647,9 @@ Nenshitsu Yokaku (1440–1516) is recorded in the historiography of the medieval
 - **Teachers:** Kinen Horyu
 - **Students:** Kokei Shojun
 
-Daishitsu Chisen (1461–1536) is recorded in the historiography of the medieval / early-modern Japanese Sōtō branch-temple network as an abbot in its transmission lineage. The surviving record preserves his lineage placement; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].
+Daishitsu Chisen (1461–1536) was a Sōtō master of the late-Muromachi and early-Sengoku period who received Dharma transmission from Kinen Horyu and passed it to Kōkei Shōjun, maintaining a thread of the Sōtō lineage through the most turbulent decades of the civil wars era. He lived through the Ōnin War's devastation of Kyoto (1467–1477), the breakdown of Ashikaga authority, and the rise of regional warlords — a period when many Buddhist temples were burned, abandoned, or co-opted into the patronage networks of competing military powers[1].
+
+In this environment, the preservation of authentic Dharma transmission required not institutional strength but the personal commitment of individual abbots willing to carry the lineage without the support of strong central authority.
 
 ### Shogaku Kenryu
 
@@ -1672,7 +1684,9 @@ Kinen Horyu (d. 1506) is recorded in the historiography of the medieval / early-
 - **Teachers:** Koho Genkun
 - **Students:** Tozen Soshin
 
-Ian Chisatsu (1514–1587) is recorded in the Myōshin-ji documentation as a sixteenth-century Rinzai abbot in the Myōshin-ji line of the Ōtōkan stream. The surviving record preserves his lineage placement; little distinctive doctrinal material from his teaching survives in the modern Rinzai-shū historiography[1].
+Ian Chisatsu (1514–1587) was a sixteenth-century Rinzai master in the Myōshin-ji line of the Ōtōkan stream, receiving Dharma transmission from Kōhō Genkun and transmitting to Tōzen Sōshin (1532–1602). He lived through the entire arc of the Sengoku period — the era of warring states that consumed most of the sixteenth century — and practiced through the successive attempts at national unification under Oda Nobunaga and Toyotomi Hideyoshi[1].
+
+For Myōshin-ji's transmission line, the Sengoku decades were a time of both vulnerability and opportunity: the temple had been destroyed in the Ōnin War and slowly rebuilt, and masters like Ian Chisatsu operated in an institutional environment that depended heavily on the patronage of regional warlords.
 
 ### Seosan Hyujeong
 
@@ -1691,7 +1705,9 @@ Seosan Hyujeong (西山休靜, 1520–1604) was the pre-eminent Korean master of
 - **Teachers:** Ian Chisatsu
 - **Students:** Yozan Keiyo
 
-Tōzen Sōshin (1532–1602) is recorded in the Myōshin-ji line documentation as a sixteenth-century Rinzai abbot in the Ōtōkan stream, in the Sengoku-period generations preceding Gudō Tōshoku's seventeenth-century revival of Myōshin-ji. The surviving record preserves his lineage placement; little distinctive doctrinal material from his teaching is preserved in the modern Rinzai-shū historiography[1].
+Tōzen Sōshin (1532–1602) was a Rinzai master in the Myōshin-ji line of the Ōtōkan stream, receiving Dharma transmission from Ian Chisatsu (1514–1587) and transmitting to Yōzan Keiyō (1559–1629), placing him one generation before Gudō Tōshoku (1577–1661) — the master who comprehensively revived Myōshin-ji in the early Edo period. Tōzen practiced through the final decades of the Sengoku wars, through Oda Nobunaga's unification campaigns, and into the first years of Tokugawa Ieyasu's regime[1].
+
+His years coincided with one of the most violent and transformative eras in Japanese history, and also with one of the most consequential institutional moments for Rinzai: the gradual re-emergence of Myōshin-ji as a significant religious force after the devastation of the Ōnin War.
 
 ### Kokei Shojun
 
@@ -1709,7 +1725,9 @@ Kokei Shojun (d. 1555) is recorded in the historiography of the medieval / early
 - **Teachers:** Tozen Soshin
 - **Students:** Gudo Toshoku
 
-Yōzan Keiyō (1559–1629) is recorded in the Myōshin-ji line documentation as a Rinzai abbot in the Ōtōkan stream at the close of the Sengoku period. The surviving record preserves his lineage placement; little distinctive doctrinal material from his teaching is preserved in the modern Rinzai-shū historiography[1].
+Yōzan Keiyō (1559–1629) was a Rinzai master in the Myōshin-ji line of the Ōtōkan stream, receiving Dharma transmission from Tōzen Sōshin (1532–1602) and transmitting it directly to Gudō Tōshoku (1577–1661) — the master who would launch the decisive seventeenth-century revival of Myōshin-ji and reshape the character of Edo-period Rinzai. Yōzan was thus the immediate teacher of the man Dumoulin calls "the outstanding Rinzai master of the early Edo period" and "the most important Rinzai master between Kanzan and Hakuin[1]."
+
+His career straddled the end of the Sengoku period and the first decades of Tokugawa stability: he received transmission in the era of Toyotomi Hideyoshi's final campaigns and died a decade into the settled Tokugawa peace.
 
 ### Miyun Yuanwu
 
@@ -1744,7 +1762,7 @@ Gudō Tōshoku (愚堂東寔, 1577–1661) was the most important Rinzai master 
 - **Teachers:** Shuzan Shunsho
 - **Students:** Fukushu Kochi
 
-Chozan Ginetsu (1581–1672) is recorded in the historiography of the medieval / early-modern Japanese Sōtō branch-temple network as an abbot in its transmission lineage. The surviving record preserves his lineage placement; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].
+Chozan Ginetsu (1581–1672) was a long-lived early-Edo Sōtō master who received Dharma transmission from Shuzan Shunsho and passed it to Fukushu Kochi. His near-century of life (1581–1672) spanned the late Sengoku chaos, the Sekigahara unification, the Shimabara Rebellion, and the consolidation of the Tokugawa peace — virtually the entire formative period of the Edo-period Buddhist institutional order. He thus carried the Sōtō transmission through one of the most politically volatile eras in Japanese history before the school's internal reform movement gathered force under Gesshū Sōko[1].
 
 ### Shuzan Shunsho
 
@@ -1753,7 +1771,9 @@ Chozan Ginetsu (1581–1672) is recorded in the historiography of the medieval /
 - **Teachers:** Kaiten Genju
 - **Students:** Chozan Ginetsu
 
-Shuzan Shunsho (1590–1647) is recorded in the historiography of the medieval / early-modern Japanese Sōtō branch-temple network as an abbot in its transmission lineage. The surviving record preserves his lineage placement; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].
+Shuzan Shunsho (1590–1647) was an early-Edo Sōtō abbot who received transmission from Kaiten Genju and passed it to Chozan Ginetsu (1581–1672). He lived through the consolidation of the Tokugawa shogunate — the period in which the *terauke* (temple-registration) system bound nearly all Japanese households to a local Buddhist temple, dramatically expanding the administrative responsibilities of Sōtō abbots while simultaneously placing pressure on the practice standards that Dōgen's original teaching had demanded[1].
+
+Shuzan occupied the link in the transmission chain through which the Sōtō line passed southward and westward from the Keizan-Gasan nexus around Sōji-ji toward the network of provincial temples that would sustain the school through the Edo period.
 
 ### Ingen Ryuki
 
@@ -1779,7 +1799,7 @@ Ingen Ryūki (隠元隆琦, Chinese: Yǐnyuán Lóngqí, 1592–1673) was a late
 - **Teachers:** Meido Yuton
 - **Students:** Gesshu Soko
 
-Hakuho Genteki (1594–1670) is recorded in the historiography of the medieval / early-modern Japanese Sōtō branch-temple network as an abbot in its transmission lineage. The surviving record preserves his lineage placement; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].
+Hakuho Genteki (1594–1670) was an early-Edo Sōtō master who received transmission from Meido Yuton and passed it directly to Gesshū Sōko (1618–1696), the reformer who would launch the *shūtō fukko* — the seventeenth-century restoration of authentic face-to-face Dharma transmission in the Sōtō school. Hakuho thus stands immediately before one of the most consequential reforms in Japanese Zen history, and his role was to preserve the living transmission under conditions that Bodiford characterises as increasingly compromised by the *garanbō* ("temple-family") system, in which abbatial positions were inherited by temple-family members rather than awarded on the basis of genuine Dharma confirmation[1].
 
 ### Shido Bunan
 
@@ -1861,7 +1881,7 @@ He travelled to Đàng Trong (the Nguyễn-lord south of Đại Việt) in 1677,
 - **Teachers:** Gesshu Soko
 - **Students:** Hogen Soren, Mokushi Soen
 
-Tokuo Ryoko (1649–1709) is recorded in the historiography of the medieval / early-modern Japanese Sōtō branch-temple network as an abbot in its transmission lineage. The surviving record preserves his lineage placement; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].
+Tokuo Ryoko (1649–1709) was an early-Edo Sōtō master who received Dharma transmission directly from Gesshū Sōko (1618–1696) — the reformer who launched the *shūtō fukko*, the seventeenth-century restoration of face-to-face transmission in the Sōtō school — and transmitted it to both Hogen Soren and Mokushi Soen (1673–1746). As a first-generation Dharma heir of Gesshū, Tokuo occupied a critical position in the reformed lineage: it was through figures like him that the institutional correction Gesshū had demanded was carried forward into the next generation[1].
 
 ### Kogetsu Zenzai
 
@@ -1888,7 +1908,9 @@ Liễu Quán (了觀, 1670–1742) is the master who Vietnamized the Lâm Tế (
 - **Teachers:** Tokuo Ryoko
 - **Students:** Gangoku Gankei
 
-Mokushi Soen (1673–1746) is recorded in the historiography of the medieval / early-modern Japanese Sōtō branch-temple network as an abbot in its transmission lineage. The surviving record preserves his lineage placement; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].
+Mokushi Soen (1673–1746) was an early-to-mid-Edo Sōtō master who received transmission from Tokuo Ryoko and passed it to Gangoku Gankei (1683–1767). His career unfolded in the immediate aftermath of the *shūtō fukko* — the restoration movement led by Gesshū Sōko and Manzan Dōhaku that in 1703–1704 obtained shogunal recognition for the principle that Sōtō Dharma transmission must be face-to-face and cannot be assigned by temple-family inheritance[1].
+
+Mokushi thus lived through the critical decades when the Manzan reforms were being institutionalised across the Sōtō school. His teacher Tokuo Ryoko stood in the direct lineage of Gesshū Sōko himself, making Mokushi a second-generation heir of the reformed transmission.
 
 ### Gangoku Gankei
 
@@ -1897,7 +1919,9 @@ Mokushi Soen (1673–1746) is recorded in the historiography of the medieval / e
 - **Teachers:** Mokushi Soen
 - **Students:** Kokoku Soryu, Gentō Sokuchū
 
-Gangoku Gankei (1683–1767) is recorded in the historiography of the medieval / early-modern Japanese Sōtō branch-temple network as an abbot in its transmission lineage. The surviving record preserves his lineage placement; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].
+Gangoku Gankei (1683–1767) was a mid-Edo Sōtō master who received transmission from Mokushi Soen and transmitted to Kokoku Soryu and Gento Sokuchu, active during the generation following the *shūtō fukko* reforms of Gesshū Sōko and Manzan Dōhaku. His career thus unfolded in the period when those reforms — which restored face-to-face Dharma transmission and revived study of Dōgen's *Shōbōgenzō* — were being consolidated and disseminated through the Sōtō institution[1].
+
+The reform movement launched by Gesshū and Manzan had, by Gangoku's generation, achieved sufficient institutional authority that the *garanbō* (hereditary transmission) system it had attacked was significantly curtailed.
 
 ### Menzan Zuihō
 
@@ -6352,6 +6376,239 @@ Keizan's verse: The gem shines outward— / but what shines inside the gem? / As
 
 Before Prajñātāra died, he spoke to Bodhidharma: 'You have completely understood the Dharma. Do not stay in India—the conditions here are fulfilled. Travel east, beyond the great sea, to the land of Han. There the Way will flourish in ways I have not seen in this land. Do not go quickly; wait sixty-seven years after I am gone. The time will be ready then.' Bodhidharma kept this instruction in his heart for the remainder of his life in India.
 
+### On the Original Face and Ritual Observance
+
+- **Attribution:** Tettsū Gikai
+- **Type:** sermon
+
+Some say that the original face has no form and therefore needs no ritual to express it. But what is this 'no form'? Is it a vacant field? Is it a white wall? The sky does not refuse to bear clouds because it is empty. The bell does not refuse to ring because metal has no inherent sound.
+
+Dōgen himself said: 'The way of the Buddha is to know the self.' To know the self is not to strip away all expression. It is to let each act be an act of the dharma-body itself. When we chant, the dharma-body chants. When we offer incense, the dharma-body makes offering.
+
+### On the Nature of True Practice
+
+- **Attribution:** Tettsū Gikai
+- **Type:** saying
+
+A student challenged Gikai: 'Those who oppose you say you have departed from Dōgen's teaching. What do you say?'
+
+Gikai replied: 'Dōgen's teaching is zazen. Have I stopped sitting? Have I told you to stop? Whatever else I have done, I have not removed a single cushion from this hall. Go sit. The dispute will settle itself.'
+
+Later he added: 'Practice that cannot hold the complexity of a living community is not yet fully matured. A hermit's purity is pure, but it does not plant the rice that feeds the province.'
+
+### Death Verse of Meihō Sotetsu
+
+- **Attribution:** Meiho Sotetsu
+- **Type:** verse
+
+Seventy-four years, this borrowed lantern.
+Now I return it to Keizan's hands.
+Where the flame went — do not ask.
+The room has never been dark.
+
+### The Two Heirs of Keizan
+
+- **Attribution:** Meiho Sotetsu
+- **Type:** dialogue
+
+A monk asked: 'They say you and Gasan are the two heirs of Keizan — the right hand and the left. Which is which?'
+
+Meihō said: 'I am the hand that holds the brush. Gasan is the hand that rings the bell. Together we write and ring. But Keizan's calligraphy and Keizan's sound — those we did not make.'
+
+Monk: 'Then what did you receive?'
+
+Meihō raised his right hand and his left hand simultaneously.
+
+Monk: 'I do not understand.'
+
+Meihō: 'Good. Misunderstanding would be much worse.'
+
+### The Quiet Middle Mountain
+
+- **Attribution:** Chuzan Ryoun
+- **Type:** saying
+
+When a monk observed that Chuzan was not widely known outside his own region, the master replied: 'The middle of the mountain is not the peak and not the valley, and so it goes unnoticed by both climbers and pilgrims. This suits the dharma well. The dharma does not require to be seen from a distance. It requires to be practiced up close. Come close. Sit. That is all I have to offer, and it is everything.'
+
+### Death Verse of Chuzan Ryoun
+
+- **Attribution:** Chuzan Ryoun
+- **Type:** verse
+
+Eighty-two years, a middling peak.
+Neither summit nor valley had my name.
+The practice does not need a famous place —
+wherever you sit, it is already the center.
+
+### On Maintaining the Thread
+
+- **Attribution:** Keigan Eisho
+- **Type:** saying
+
+Keigan told his assembly: 'In the Muromachi era a temple's survival requires negotiation with warriors and merchants. Do not be ashamed of this. What is shameful is to negotiate away the practice itself. Trim the ceremony if you must. Reduce the staff if circumstances demand. But do not reduce the sitting. The sitting is the thread. If it is cut, we have a beautiful empty hall and nothing inside it. Maintain the thread, and the thread will maintain everything else.'
+
+### On What Was Entrusted
+
+- **Attribution:** Keigan Eisho
+- **Type:** dialogue
+
+Asked what it meant to be in the Jippō line, Keigan said: 'It means I inherited a careful man's careful practice. Jippō Ryōshū did not seek wide renown; he sought sincerity. I try to pass on sincerity. Whether my heirs become famous is not in my hands. Whether they are sincere — I can at least point at that.'
+
+### On Holding Three Transmissions
+
+- **Attribution:** Koho Kakumyo
+- **Type:** dialogue
+
+A monk asked: 'You received transmission in three lines — Hottō, Zhongfeng's Chinese Yangqi, and Keizan's Sōtō. Which do you teach?'
+
+Kōhō said: 'When it rains, you do not ask which cloud the water came from. You open your mouth.'
+
+Monk: 'But which lineage do you formally hold?'
+
+Kōhō: 'The one that does not need a name. If you need a name, go to the registry office. If you want the teaching, sit down and close your eyes.'
+
+### Confirming Bassui's Awakening
+
+- **Attribution:** Koho Kakumyo
+- **Type:** dialogue
+
+When the young Bassui Tokushō came to Kōhō and spoke of the doubt that had consumed him for years — the great doubt about the master of seeing and hearing — Kōhō pressed him with a series of questions. Bassui answered each without hesitation.
+
+At the end Kōhō said: 'What you have found cannot be taken from you. But do not mistake the finding for the end. What you have now is a clear eye. You still need to grow the feet to walk with it. Go. Walk with it. Come back when the feet are tired.'
+
+Bassui bowed and left without another word.
+
+### The Crow and the Confirmation
+
+- **Attribution:** Kaso Sodon
+- **Type:** dialogue
+
+Ikkyū had been meditating alone in a small boat on Lake Biwa when a crow suddenly cried in the dark. In that instant the whole question broke open. He hurried back to Kasō's hermitage before dawn and reported the experience.
+
+Kasō listened, then said: 'This is the awakening of a beginner, not a master.'
+
+Ikkyū, without flinching, said: 'I did not say I was a master. I said: the crow cried and the thing broke open.'
+
+Kasō paused, then struck his knee. 'A true man of the Way stands unshaken even when the master dismisses him.' He looked at Ikkyū steadily. 'What you have found is genuine.
+
+### The Certificate Ikkyū Would Not Take
+
+- **Attribution:** Kaso Sodon
+- **Type:** dialogue
+
+After formally acknowledging Ikkyū's attainment, Kasō prepared a certificate of awakening and offered it to him. Ikkyū refused to accept it, saying he wanted no document.
+
+Kasō said: 'You refuse my certificate. Do you also refuse the dharma?'
+
+Ikkyū said: 'I refuse the paper. The dharma I cannot refuse — it already has me.'
+
+Kasō looked at him for a long moment. 'Then you understand the certificate better than those who accept it,' he said. He set the document aside. It was never given to anyone else.
+
+### Why the Hermitage at Katada
+
+- **Attribution:** Kaso Sodon
+- **Type:** saying
+
+Someone asked Kasō why he had withdrawn from Daitoku-ji to the small hermitage at Katada by Lake Biwa rather than taking a prominent abbacy.
+
+Kasō said: 'At Daitoku-ji I could hear Kyoto. Kyoto is a beautiful city. But you cannot hear the dharma over Kyoto. At Katada I can hear the lake. The lake has better manners than Kyoto. It does not tell you what to think. It just keeps being water.'
+
+### The One Matter
+
+- **Attribution:** Muin Soin
+- **Type:** saying
+
+Muin addressed his students: 'All the questions that Rinzai masters have ever asked — the mu, the sound of one hand, who was your face before your parents were born — these are not many questions. They are one question wearing many costumes. Learn to recognize the costume and you will never answer the question. Stop recognizing it and the question may answer you.'
+
+### On the Kanzan Tradition
+
+- **Attribution:** Muin Soin
+- **Type:** dialogue
+
+A student asked Muin: 'The Kanzan line at Myōshin-ji is said to be purer than the Daitō line at Daitoku-ji. What do you say?'
+
+Muin said: 'Kanzan Egen was a great monk. So was Daitō Kokushi. They drank from the same spring in China and came back and poured it into different jars. The water is the same. Whether the jar is purer — go ask the jar.'
+
+Student: 'Then what is the teaching of this line?'
+
+Muin: 'The teaching of this line is to stop asking lines to teach you.'
+
+### On Preserving the Line in Difficult Times
+
+- **Attribution:** Juo Sohitsu
+- **Type:** saying
+
+During a period of political disruption that threatened the Daitoku-ji community's stability, Juō told the assembly: 'A flame does not become less fire because the wind is strong. It may become smaller. It may move sideways. But if it does not go out, it is still fire, and fire is what matters. Survive. Practice. Pass it on. The great teachers did not live in peaceful times either.'
+
+### On the Ōtōkan Bone
+
+- **Attribution:** Juo Sohitsu
+- **Type:** dialogue
+
+A monk asked Juō: 'What is the essential teaching of the Ōtōkan line?'
+
+Juō held up his fist.
+
+Monk: 'And if I open the fist?'
+
+Juō opened his hand, then closed it again.
+
+Monk: 'I still do not see it.'
+
+Juō: 'Then you have seen something more important: your own not-seeing. Start from there.'
+
+### What Tettō Left
+
+- **Attribution:** Gongai Sochu
+- **Type:** dialogue
+
+After Tettō Gikō died, Gongai inherited not only the abbacy of Daitoku-ji but an institution fragile and politically exposed. A senior monk came to him and said: 'The temple is half empty and the bakufu is indifferent to us. What do you intend to do?'
+
+Gongai said: 'Tettō left me a lamp and a platform. The lamp is still lit. The platform is still level. Let the political wind blow. When the wind stops, people always come looking for a lit lamp. Until then: keep the practice; maintain the form; do not beg and do not boast. The dharma has survived worse indifference than the bakufu's.'
+
+### Verse on Calligraphy
+
+- **Attribution:** Gongai Sochu
+- **Type:** verse
+
+The brush does not know what it writes.
+The hand does not choose the meaning.
+The mind empties into the ink —
+and then, somehow, the character appears.
+
+This is also how the dharma moves:
+not by deciding, but by clearing.
+Not by grasping, but by letting
+the brush find its natural stroke.
+
+### The Living Word and the Dead Word
+
+- **Attribution:** Xinghua Cunjiang
+- **Type:** dialogue
+
+Xinghua Cunjiang taught in the assembly: 'There is the living word and the dead word. The dead word is the word that can be understood by thinking. When you hear it, you grasp it with your intellect, file it away, and call it understanding. It is dead because the moment you grasp it, it no longer functions. The living word is the word that cannot be caught by thinking. It strikes, and thinking stops. Understanding cannot follow it. Yet it illuminates everything thinking could not touch.'
+
+A monk asked: 'How do we know which is which?'
+
+Xinghua raised his staff and struck the monk once.
+
+### Carrying the Blow Forward
+
+- **Attribution:** Xinghua Cunjiang
+- **Type:** dialogue
+
+Xinghua Cunjiang received the seal of Linji Yixuan through the blow of the stick. After Linji's death, a student came to Xinghua and said: 'Linji hit people to teach them. But Linji is gone. Who will do the hitting now?'
+
+Xinghua said: 'I will.'
+
+The student said: 'What gives you the right?'
+
+Xinghua struck him once with his staff.
+
+The student said: 'That is just copying Linji. It is not real.'
+
+Xinghua said: 'Correct. Come back when you find the difference between a copy and the original.' He turned and walked away.
+
 ### Joshu's Dog
 
 - **Attribution:** Zhaozhou Congshen
@@ -9716,6 +9973,364 @@ When the Patriarch arrived at Po-lam Monastery, Prefect Wei and other officials 
 *From* The Sutra of Wei Lang (Hui-neng) — Sutra Spoken by the Sixth Patriarch on the High Seat of the Treasure of the Law, *translated by Wong Mou-Lam, Shanghai 1930.*
 
 Once, when the Patriarch had arrived at Pao Lin Monastery, Prefect Wei Ch'ü of Shao Chou and other officials went there to ask him to deliver public lectures on Buddhism in the hall of Ta Fan Temple in the City (of Canton).
+
+### Zazen Is the Dharma of All Buddhas
+
+- **Attribution:** Jakuen
+- **Type:** saying
+
+When a monk asked Jakuen what teaching he had received from Rujing at Tiantong-shan, Jakuen said: 'The great master Rujing said: zazen is the dharma of all buddhas. It is not a method, not a technique, not a stage on a path. When you sit, all dharmas sit with you. When you arise, nothing has moved. This I received, and this I give.'
+
+Monk: 'Is there anything beyond sitting?'
+
+Jakuen: 'Try standing up without moving.'
+
+### Two Streams, One Source
+
+- **Attribution:** Jakuen
+- **Type:** dialogue
+
+A monk from Eihei-ji came to Hōkyō-ji and said: 'They say your transmission comes through Ejō, not through Dōgen directly. Is your Dharma therefore lesser?'
+
+Jakuen held up his robe and said: 'Look. Rujing sewed this cloth. Does it matter which needle he used?'
+
+The monk was silent.
+
+Jakuen said: 'At Tiantong-shan, Dōgen and I sat side by side on the same platform. The snow fell the same on both our heads. Why do you now ask which snow is higher?'
+
+### Death Verse of Jakuen
+
+- **Attribution:** Jakuen
+- **Type:** verse
+
+Ninety-three years — what a long dream.
+Now I drop the robe of Tiantong-shan.
+Rujing is there already;
+I do not need to hurry.
+
+### On Refusing the Abbacy
+
+- **Attribution:** Daichi Sokei
+- **Type:** dialogue
+
+When the Kikuchi clan invited Daichi to accept the permanent abbacy of Shōgo-ji with generous patronage, Daichi replied:
+
+'An abbot's seat is an excellent thing — for the one who can sit still in it. I have never been still for long. The mountains call. If I accept your kind seat, in six months you will find it empty and I will be halfway up some ridge in the rain. Better to let a steadier man have it. Give me a hut and a bowl, and let me go where the practice needs me.'
+
+### In the Mountain Hut
+
+- **Attribution:** Daichi Sokei
+- **Type:** verse
+
+Pine needles cover the old roof.
+The valley stream asks nothing of me.
+I went to China to find the great teaching —
+I found it here, on the way down from the mountain.
+
+Buddha-nature does not require a hall.
+The rain knows this already.
+Sit in the rain, then.
+Sit until the rain agrees.
+
+### Return to the Original Style
+
+- **Attribution:** Tsūgen Jakurei
+- **Type:** sermon
+
+In the Dharma hall, Tsūgen addressed the assembled monks:
+
+'What did Dōgen bring from China? Not Chinese manners. Not Sung dynasty taste. He brought the marrow that Bodhidharma brought from India. He brought seated buddha. If your Zen looks increasingly like a Gozan poetry salon, examine whether Dōgen's marrow is still in it. If it is, the poetry is fine. If it is not, no amount of elegant verse will substitute for it.
+
+Our task is not novelty. Our task is fidelity — to what was transmitted before there was a school, before there was a name, before there was a robe. Sit.
+
+### Death Verse of Tsūgen Jakurei
+
+- **Attribution:** Tsūgen Jakurei
+- **Type:** verse
+
+Seventy years — in and out of the monastery gate.
+Gasan gave me everything; I gave it away.
+The ten heirs will carry what I could not finish.
+The gate stands. Walk through.
+
+### On What a Temple Is For
+
+- **Attribution:** Jippō Ryōshū
+- **Type:** saying
+
+When asked what he hoped Nyoi-an would become, Jippō said: 'A place where monks forget what century it is. The Muromachi, the Kamakura — these are names we give to our confusions. The dharma does not observe our calendar. If Nyoi-an can produce one person who sits as Dōgen sat, it will have done enough. If it produces none, no number of roofbeams will compensate.'
+
+### What Gasan Gave
+
+- **Attribution:** Jippō Ryōshū
+- **Type:** dialogue
+
+A student of Jippō asked: 'Of the five great heirs of Gasan, what did each receive that the others did not?'
+
+Jippō was silent for a moment, then said: 'We all received the same bowl. What we put in it — that is different. Tsūgen filled his with thousands of temple affiliates. I filled mine with this small hut and ten sincere students. When Gasan looks down, I do not know which bowl pleases him more. Perhaps both. Perhaps neither. Perhaps the bowl itself was the teaching.'
+
+### On Strict Practice
+
+- **Attribution:** Daitetsu Sōrei
+- **Type:** saying
+
+Daisetsu told his monks: 'Do not think that because Gasan's line has spread to many provinces, the practice has become easier. Numbers do not dilute the dharma. But laziness does. If you rise from sitting and do not know whether you were awake or asleep, that is not samādhi — that is exhaustion with pretensions. Come back to the breath. Come back to the upright spine. The ancestors are not impressed by volume; they are moved by precision.'
+
+### Death Verse of Daisetsu Sōrei
+
+- **Attribution:** Daitetsu Sōrei
+- **Type:** verse
+
+Seventy-five years walking this ground.
+I found no secret in any corner.
+Gasan's face fills the whole hall;
+I blow out the lamp and join the brightness.
+
+### No Dharma Apart from This
+
+- **Attribution:** Hyech'ŏl
+- **Type:** saying
+
+When Hyecheol returned from China and established his seat at Donam Hermitage on Dongni-san, a monk asked: 'You received the seal from Xitang in Tang China. What did you bring back?'
+
+Hyecheol said: 'Xitang did not give me anything.'
+
+The monk asked: 'Then where is the teaching?'
+
+Hyecheol said: 'Right where you are standing. There has never been a different place.'
+
+### Founding the First Mountain School
+
+- **Attribution:** Hyech'ŏl
+- **Type:** dialogue
+
+After Hyecheol returned from Tang China carrying the Dharma of Xitang Zhizang, the students gathered around him numbered in the hundreds. A court official came and asked on behalf of the king: 'Why do you settle in the mountain wilderness rather than the capital, where your teaching could reach more people?'
+
+Hyecheol replied: 'The mountain is not far from anyone. Mind is not far from anyone. When a person comes here with a sincere question, they have already traveled the whole distance.
+
+### The Teaching of No-Mind
+
+- **Attribution:** Muyŏm
+- **Type:** saying
+
+Muyeom taught: 'When there is no mind (무심, 無心), there is also no dharma to seek and no ignorance to remove. This is not a vacancy or a blankness. It is like a great mirror that reflects everything without clinging to any image. Mountains appear; the mirror does not become a mountain. Waters appear; the mirror does not become water. This is no-mind. This is the original face of all beings. Do not add understanding on top of it — understanding is the screen that hides it.'
+
+### The Transmission from Magu Baoche
+
+- **Attribution:** Muyŏm
+- **Type:** dialogue
+
+When Muyeom studied under Magu Baoche in Tang China, he came one day and bowed three times before the master. Magu said: 'Why do you bow?'
+
+Muyeom said: 'Out of respect for the Dharma.'
+
+Magu said: 'Where is the Dharma?'
+
+Muyeom was silent for a long time, then said: 'I cannot find it anywhere.'
+
+Magu said: 'Precisely. Now go wash your bowl.'
+
+At that moment Muyeom understood and composed himself. Later, when he returned to Silla and was asked about the transmission, he said: 'Magu gave me bowl-washing. I gave him my three bows. Both sides are empty-handed. That is the transmission.'
+
+### Verse on Original Nature
+
+- **Attribution:** Pŏmil
+- **Type:** verse
+
+The autumn moon rises without invitation.
+The mountain stream flows without effort.
+Where is the original nature?
+Asking is already arriving.
+
+### Between the Court and the Mountain
+
+- **Attribution:** Pŏmil
+- **Type:** dialogue
+
+The King of Silla sent a royal messenger to Beomil at굴산사 (Gulsan-sa) with an invitation to come to the capital and serve as royal teacher. Beomil received the messenger courteously and replied:
+
+'The king's mind and this mountain mind are not two minds. If the king wishes to study this mountain mind, let him sit quietly in the palace for one hour each day without affairs. The teaching will come of itself. If I were to come to the capital, I would bring the mountain with me, and the palace would become a mountain monastery.
+
+### Verse on the Dharma Body
+
+- **Attribution:** Naong Hyegeun
+- **Type:** verse
+
+Blue mountains do not move;
+white clouds come and go.
+The dharma body is just this —
+neither coming nor going.
+
+Students chase the clouds,
+not seeing the mountains.
+Stop chasing. Look directly.
+The mountains have never moved.
+
+### Meeting Zhikong in Yuan China
+
+- **Attribution:** Naong Hyegeun
+- **Type:** dialogue
+
+When Naong Hyegeun went to study in Yuan dynasty China, he sought out the Indian master Zhikong (Indicaprabha) at the capital. At their first meeting, Zhikong said: 'Where do you come from?'
+
+Naong said: 'From Goryeo, in the east.'
+
+Zhikong said: 'How far is that?'
+
+Naong said: 'Not a single step away.'
+
+Zhikong said: 'And what teaching did you bring?'
+
+Naong held out his empty hands.
+
+Zhikong smiled and said: 'Goryeo is indeed not far. Sit down.'
+
+After many months of study, Zhikong gave Naong a formal gāthā of transmission, pronouncing him fit to carry the Linji school back to his homeland.
+
+### On the Impermanence of Dynasties
+
+- **Attribution:** Vạn Hạnh
+- **Type:** verse
+
+Flashing lightning is existence;
+flickering cloud-light is non-existence.
+The affairs of the world are just like this —
+do not trouble your heart over their rise and fall.
+
+The ten thousand affairs arise and disperse
+like dew on the morning grass.
+Power and glory are a single night's dream;
+do not mistake the dream for the morning.
+
+### The Prophecy of the Lý Founder
+
+- **Attribution:** Vạn Hạnh
+- **Type:** dialogue
+
+Vạn Hạnh served as advisor to the courts of Đinh and Tiền Lê. When the power of the Tiền Lê dynasty was failing, Vạn Hạnh said to the general Lý Công Uẩn: 'The omens all point toward you. But kingship is not a prize to seek — it is a burden that falls upon the one who cannot refuse it. Act only when it is undeniable. Do not seize; receive.'
+
+Lý Công Uẩn said: 'I am a soldier, not a king.'
+
+Vạn Hạnh said: 'A soldier who knows this is already the king that is needed.' When Lý Công Uẩn was crowned and founded the Lý dynasty in 1009, he named Vạn Hạnh as the spiritual father of the new realm.
+
+### The Illusory Nature of Power
+
+- **Attribution:** Vạn Hạnh
+- **Type:** sermon
+
+Vạn Hạnh taught the court nobles: 'You ask me to bless the kingdom so that it will last forever. But I cannot do that, because nothing lasts forever — and the teaching of emptiness is not a teaching of despair. It is a teaching of freedom. When you know that this dynasty, like all dynasties, arises and passes away like lightning, you are freed from the prison of clinging to it. Then you can govern with clear eyes, because you are not governing for eternity — you are governing for this moment, this people, this season. That is what the dharma asks of you: not permanence, but presence.'
+
+### Verse Composed in Vietnamese (Chữ Nôm)
+
+- **Attribution:** Khuông Việt
+- **Type:** verse
+
+The Buddha's name fills heaven and earth;
+the dharma's light touches every corner.
+Why seek enlightenment in a distant land
+when the pure land is this very ground?
+
+The mind that calls upon the Buddha
+and the Buddha that is called —
+they are not two.
+This is the first teaching in our own tongue.
+
+### The Duty of the National Preceptor
+
+- **Attribution:** Khuông Việt
+- **Type:** dialogue
+
+When Khuông Việt was appointed National Preceptor (Quốc Sư) of Đại Cồ Việt, a visiting monk from China asked him: 'You are both a meditator and a minister. How do you hold both without one corrupting the other?'
+
+Khuông Việt said: 'In the meditation hall, there are no affairs. In the court, there is no meditator. When I sit in the hall, the affairs of the realm do not enter. When I stand in the court, the hall does not move.'
+
+The monk said: 'Is this not suppression? Do the affairs not press on the meditation?'
+
+Khuông Việt said: 'Let them press.
+
+### Chan and Pure Land Are One Vehicle
+
+- **Attribution:** Tuệ Trung Thượng Sĩ
+- **Type:** verse
+
+People say: recite the name, do not investigate.
+People say: investigate, do not recite the name.
+Both roads point to the same mountain.
+Why quarrel on the road about the road?
+
+When the mind is empty of clinging,
+each recitation is a wordless question.
+When the question dissolves completely,
+what remains is the pure land — here, now.
+
+### Teaching the Future King
+
+- **Attribution:** Tuệ Trung Thượng Sĩ
+- **Type:** dialogue
+
+Trần Nhân Tông, before he became king and later a monk, studied with his elder brother Tuệ Trung Thượng Sĩ. One day he asked: 'Elder brother, you are a man of great position and a lay practitioner. How do you practice without a monastery?'
+
+Tuệ Trung said: 'I eat when I am hungry. I sleep when I am tired.'
+
+Trần Nhân Tông said: 'But everyone does that.'
+
+Tuệ Trung said: 'Not so. When the ordinary person eats, they think of a hundred other things. When they sleep, they plan the next day. When I eat, I eat. When I sleep, I sleep. This is practice.'
+
+Trần Nhân Tông bowed.
+
+### Why I Refused Official Position
+
+- **Attribution:** Tuệ Trung Thượng Sĩ
+- **Type:** saying
+
+When the Trần court offered Tuệ Trung high administrative office, he declined and later explained to his students: 'The dharma asks one thing of us — that we be fully present for this life, not managing the lives of thousands while losing our own. A minister's mind must always be in the future, planning and preventing. A practitioner's mind must always be here. I chose here. This is not indifference to the kingdom. It is my service to the kingdom: to show that the present moment is not a luxury but the foundation of all wise action.'
+
+### The Autumn Pond
+
+- **Attribution:** Huyền Quang
+- **Type:** verse
+
+Autumn water so clear the bottom shows;
+a white bird lands and does not know its own reflection.
+The monk on the bank does not move —
+both bird and water forget they are being seen.
+
+When thought does not stir the surface,
+heaven and earth appear as they are.
+This is the meditation the patriarchs could not describe:
+the pond, the bird, and the monk — just as they are.
+
+### The King Tests the Third Patriarch
+
+- **Attribution:** Huyền Quang
+- **Type:** dialogue
+
+King Trần Minh Tông, wishing to know whether Huyền Quang's meditative realization was genuine, arranged for a beautiful court woman to approach the master late at night and attempt to disturb his equanimity. She came, sang, and offered wine.
+
+Huyền Quang sat unmoved and composed a verse:
+
+'The lotus grows from the muddy pond
+yet no mud clings to the flower.
+
+### Discipline Is the Dharma Body
+
+- **Attribution:** Pháp Loa
+- **Type:** sermon
+
+Pháp Loa, as second patriarch of Trúc Lâm, systematized the monastic code for his generation of practitioners. In his teaching on discipline he said:
+
+'People sometimes say: the patriarch Trần Nhân Tông taught spontaneity and ease. They use this to excuse carelessness. But the patriarch also lived by strict discipline from his youth until his final crossing. Spontaneity without discipline is only habit wearing the robe of freedom. True spontaneity — the kind that comes from realization — does not relax discipline. It fulfills discipline so completely that there is no effort left in it.
+
+### On Receiving the Succession
+
+- **Attribution:** Pháp Loa
+- **Type:** dialogue
+
+When Trần Nhân Tông named Pháp Loa as his successor, a senior monk in the assembly said: 'Pháp Loa is young. The Trúc Lâm school is young. This may be too much responsibility for one who has not yet seasoned.'
+
+Pháp Loa replied: 'You are right that I am young. You are right that this is great responsibility. These two facts are precisely why the founder placed this weight here — not to crush me, but to season me. A sword is tested by cutting, not by resting in the scabbard.'
+
+Trần Nhân Tông, hearing this, smiled and said: 'The sword is already sharp.
 
 ### This Very Mind Is Buddha
 

@@ -3754,9 +3754,11 @@ Gasan's institutional work — combining Dōgen's *zazen*-centred orthodoxy with
   },
   {
     slug: "tokuo-ryoko",
-    content: `Tokuo Ryoko (1649–1709) is recorded in the historiography of the medieval / early-modern Japanese Sōtō branch-temple network as an abbot in its transmission lineage. The surviving record preserves his lineage placement; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
-      footnotes: [
-      { index: 1, sourceId: "src_bodiford_soto_medieval", pageOrSection: "ch. on the post-Keizan Sōtō branch network" },
+    content: `Tokuo Ryoko (1649–1709) was an early-Edo Sōtō master who received Dharma transmission directly from Gesshū Sōko (1618–1696) — the reformer who launched the *shūtō fukko*, the seventeenth-century restoration of face-to-face transmission in the Sōtō school — and transmitted it to both Hogen Soren and Mokushi Soen (1673–1746). As a first-generation Dharma heir of Gesshū, Tokuo occupied a critical position in the reformed lineage: it was through figures like him that the institutional correction Gesshū had demanded was carried forward into the next generation[1].
+
+The *shūtō fukko* culminated in 1703–1704 when Manzan Dōhaku, Gesshū's most eminent student, obtained shogunal recognition for the ban on hereditary temple-assignment (*garanbō*) transmission — a ruling that formally required genuine face-to-face Dharma confirmation. Tokuo died in 1709, just after this ruling took effect, and his students would carry the reformed standard through the eighteenth century. His lineage through Mokushi Soen to Gangoku Gankei and Gento Sokuchu represents one of the main conduits of post-reform Sōtō into the period of Menzan Zuihō's great editorial revival of Dōgen's texts[1].`,
+    footnotes: [
+      { index: 1, sourceId: "src_bodiford_soto_medieval", pageOrSection: "Conclusion — the Gesshū line and the post-shūtō-fukko transmission" },
     ],
   },
   {
@@ -3784,9 +3786,11 @@ Gesshū's emphasis on Dōgen's *zazen* practice as the heart of Sōtō, against 
   },
   {
     slug: "gisan-tonin",
-    content: `Gisan Tonin (1386–1462) is recorded in the historiography of the medieval / early-modern Japanese Sōtō branch-temple network as an abbot in its transmission lineage. The surviving record preserves his lineage placement; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
-      footnotes: [
-      { index: 1, sourceId: "src_bodiford_soto_medieval", pageOrSection: "ch. on the medieval Sōtō branch temples" },
+    content: `Gisan Tonin (1386–1462) was a mid-Muromachi Sōtō master who received Dharma transmission from Chuzan Ryoun and in turn transmitted to Shōgaku Kenryū, maintaining the unbroken lineage chain that ran from Keizan Jōkin (d. 1325) forward through the generations toward Gesshū Sōko (1618–1696). He lived through the height of the Ōnin War's antecedents and the collapse of stable central authority, a period when provincial Sōtō temples operated with considerable autonomy from both the shogunate and the head-temple network[1].
+
+His life coincided with the era that Bodiford's study describes as the "crystallization" of Sōtō's provincial character: while the Rinzai Gozan engaged in Chinese-style literary and administrative culture, masters like Gisan maintained a more austere, practice-centred temple life focused on zazen and memorial ritual — the combination that gave Sōtō its broad appeal among rural warrior and farming populations throughout the Muromachi period[1].`,
+    footnotes: [
+      { index: 1, sourceId: "src_bodiford_soto_medieval", pageOrSection: "chs. 3–5 — the mid-Muromachi Sōtō provincial network and temple-family transmission" },
     ],
   },
   {
@@ -3813,9 +3817,11 @@ The relationship culminated in formal Dharma transmission. "On August 26, 1926, 
   },
   {
     slug: "hakuho-genteki",
-    content: `Hakuho Genteki (1594–1670) is recorded in the historiography of the medieval / early-modern Japanese Sōtō branch-temple network as an abbot in its transmission lineage. The surviving record preserves his lineage placement; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
-      footnotes: [
-      { index: 1, sourceId: "src_bodiford_soto_medieval", pageOrSection: "ch. on the seventeenth-century Sōtō transmission" },
+    content: `Hakuho Genteki (1594–1670) was an early-Edo Sōtō master who received transmission from Meido Yuton and passed it directly to Gesshū Sōko (1618–1696), the reformer who would launch the *shūtō fukko* — the seventeenth-century restoration of authentic face-to-face Dharma transmission in the Sōtō school. Hakuho thus stands immediately before one of the most consequential reforms in Japanese Zen history, and his role was to preserve the living transmission under conditions that Bodiford characterises as increasingly compromised by the *garanbō* ("temple-family") system, in which abbatial positions were inherited by temple-family members rather than awarded on the basis of genuine Dharma confirmation[1].
+
+His life and career unfolded under the early Tokugawa *terauke* (temple-registration) system, which stabilised Buddhist institutions administratively but also incentivised the hereditary transmission practices that Gesshū and his student Manzan Dōhaku would later dismantle. That Hakuho transmitted authentically to Gesshū, and that Gesshū recognised the problem and addressed it from within, suggests that at least one strand of the Sōtō line had preserved genuine practice-centred transmission through the critical seventeenth century[1].`,
+    footnotes: [
+      { index: 1, sourceId: "src_bodiford_soto_medieval", pageOrSection: "Conclusion and ch. 7 — the garanbō system and the Gesshū reform" },
     ],
   },
   {
@@ -3841,9 +3847,11 @@ The relationship culminated in formal Dharma transmission. "On August 26, 1926, 
   },
   {
     slug: "keigan-eisho",
-    content: `Keigan Eisho (1321–1412) is recorded in the historiography of the medieval / early-modern Japanese Sōtō branch-temple network as an abbot in its transmission lineage. The surviving record preserves his lineage placement; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
-      footnotes: [
-      { index: 1, sourceId: "src_bodiford_soto_medieval", pageOrSection: "ch. on the medieval Sōtō branch network" },
+    content: `Keigan Eisho (1321–1412) held an important position in the provincial Sōtō transmission network of the early Muromachi period, serving as the Dharma heir of Tessan Shikaku (d. 1376) and the teacher who passed the line to Chuzan Ryoun (1350–1432). His long life of over ninety years spanned the tumultuous Nanbokuchō civil wars and the first decades of Ashikaga rule — a period in which the Sōtōshū's provincial temple network faced intense competition from the Gozan system patronised by the shogunate[1].
+
+Keigan belonged to the generation of masters who had to maintain Sōtō's distinctive practice culture — rooted in Keizan Jōkin's synthesis of Dōgen's zazen and esoteric ritual — without the political sponsorship available to Rinzai's Five Mountains. William Bodiford's study of medieval Sōtō documents how abbots like Keigan served as nodes in a branching network of regional temples that preserved the school's transmission through institutional autonomy rather than court favour, ensuring that Dōgen's line reached the Edo-period reformers intact[1].`,
+    footnotes: [
+      { index: 1, sourceId: "src_bodiford_soto_medieval", pageOrSection: "chs. 2–4 — the post-Keizan provincial network and the Muromachi Sōtō branch-temple system" },
     ],
   },
   {
@@ -3953,9 +3961,11 @@ His lectures, edited by Trudy Dixon and Marian Derby, were published as *Zen Min
   },
   {
     slug: "shuzan-shunsho",
-    content: `Shuzan Shunsho (1590–1647) is recorded in the historiography of the medieval / early-modern Japanese Sōtō branch-temple network as an abbot in its transmission lineage. The surviving record preserves his lineage placement; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
-      footnotes: [
-      { index: 1, sourceId: "src_bodiford_soto_medieval", pageOrSection: "ch. on the early-Edo Sōtō transmission" },
+    content: `Shuzan Shunsho (1590–1647) was an early-Edo Sōtō abbot who received transmission from Kaiten Genju and passed it to Chozan Ginetsu (1581–1672). He lived through the consolidation of the Tokugawa shogunate — the period in which the *terauke* (temple-registration) system bound nearly all Japanese households to a local Buddhist temple, dramatically expanding the administrative responsibilities of Sōtō abbots while simultaneously placing pressure on the practice standards that Dōgen's original teaching had demanded[1].
+
+Shuzan occupied the link in the transmission chain through which the Sōtō line passed southward and westward from the Keizan-Gasan nexus around Sōji-ji toward the network of provincial temples that would sustain the school through the Edo period. The early Tokugawa generation of Sōtō abbots — of whom Shuzan was representative — had to balance the institutional demands of the new registration system against the preservation of the meditative and ritual forms that distinguished Sōtō from its Rinzai and Pure Land rivals[1].`,
+    footnotes: [
+      { index: 1, sourceId: "src_bodiford_soto_medieval", pageOrSection: "ch. 7 — Sōtō in the early Edo period and the terauke system" },
     ],
   },
   {
@@ -4025,23 +4035,29 @@ His Dharma was carried forward by a generation of European successors — Étien
   },
   {
     slug: "chozan-ginetsu",
-    content: `Chozan Ginetsu (1581–1672) is recorded in the historiography of the medieval / early-modern Japanese Sōtō branch-temple network as an abbot in its transmission lineage. The surviving record preserves his lineage placement; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
-      footnotes: [
-      { index: 1, sourceId: "src_bodiford_soto_medieval", pageOrSection: "ch. on the early-Edo Sōtō transmission" },
+    content: `Chozan Ginetsu (1581–1672) was a long-lived early-Edo Sōtō master who received Dharma transmission from Shuzan Shunsho and passed it to Fukushu Kochi. His near-century of life (1581–1672) spanned the late Sengoku chaos, the Sekigahara unification, the Shimabara Rebellion, and the consolidation of the Tokugawa peace — virtually the entire formative period of the Edo-period Buddhist institutional order. He thus carried the Sōtō transmission through one of the most politically volatile eras in Japanese history before the school's internal reform movement gathered force under Gesshū Sōko[1].
+
+The longevity of abbots like Chozan was itself important for the continuity of the medieval Sōtō lines: in a transmission system that depended on personal confirmation between teacher and student, a master who lived into his nineties could bridge two or even three generations of institutional change. Bodiford's analysis of the provincial Sōtō network emphasises that such long-lived abbots often served as memory and embodied authority in communities where documentary transmission records were sparse[1].`,
+    footnotes: [
+      { index: 1, sourceId: "src_bodiford_soto_medieval", pageOrSection: "ch. 7 — early-Edo Sōtō abbots and the provincial temple network" },
     ],
   },
   {
     slug: "chuzan-ryoun",
-    content: `Chuzan Ryoun (1350–1432) is recorded in the historiography of the medieval / early-modern Japanese Sōtō branch-temple network as an abbot in its transmission lineage. The surviving record preserves his lineage placement; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
-      footnotes: [
-      { index: 1, sourceId: "src_bodiford_soto_medieval", pageOrSection: "ch. on the medieval Sōtō branch network" },
+    content: `Chuzan Ryoun (1350–1432) was a Sōtō master of the late-Nanbokuchō and early-Muromachi period, receiving Dharma transmission from Keigan Eisho and passing it to Gisan Tonin (1386–1462). He practiced and taught through the reunification of the Northern and Southern imperial courts in 1392 and the early decades of Ashikaga dominance — a period when the Sōtō school's provincial character became increasingly distinct from the Gozan system that absorbed state patronage[1].
+
+Chuzan's position in the lineage made him a relay figure in what Bodiford identifies as the critical provincial network of Sōtō: the chain of masters running from Keizan Jōkin's circle through Gasan Jōseki's twenty-five heirs and then into the branches that eventually reached Gesshū Sōko's reform movement. In the absence of detailed sectarian records for this generation, his significance lies in the unbroken continuity of personal transmission he maintained between teacher and student, ensuring that the embodied teaching practice survived the prolonged institutional instability of the Muromachi era[1].`,
+    footnotes: [
+      { index: 1, sourceId: "src_bodiford_soto_medieval", pageOrSection: "chs. 3–4 — the Muromachi Sōtō network and the post-Keizan transmission lines" },
     ],
   },
   {
     slug: "daishitsu-chisen",
-    content: `Daishitsu Chisen (1461–1536) is recorded in the historiography of the medieval / early-modern Japanese Sōtō branch-temple network as an abbot in its transmission lineage. The surviving record preserves his lineage placement; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
-      footnotes: [
-      { index: 1, sourceId: "src_bodiford_soto_medieval", pageOrSection: "ch. on the medieval Sōtō branch network" },
+    content: `Daishitsu Chisen (1461–1536) was a Sōtō master of the late-Muromachi and early-Sengoku period who received Dharma transmission from Kinen Horyu and passed it to Kōkei Shōjun, maintaining a thread of the Sōtō lineage through the most turbulent decades of the civil wars era. He lived through the Ōnin War's devastation of Kyoto (1467–1477), the breakdown of Ashikaga authority, and the rise of regional warlords — a period when many Buddhist temples were burned, abandoned, or co-opted into the patronage networks of competing military powers[1].
+
+In this environment, the preservation of authentic Dharma transmission required not institutional strength but the personal commitment of individual abbots willing to carry the lineage without the support of strong central authority. Daishitsu's generation represents Sōtō at its most dispersed and provincial: no longer anchored to a powerful patron, the school's survival depended on the network of small regional temples whose abbots practiced and transmitted without benefit of Gozan prestige or shogunal sponsorship[1].`,
+    footnotes: [
+      { index: 1, sourceId: "src_bodiford_soto_medieval", pageOrSection: "chs. 5–6 — Sōtō in the Sengoku period and the provincial temple network" },
     ],
   },
   {
@@ -4122,9 +4138,11 @@ His published teachings, all edited from talks he gave in Minnesota and at Hōky
   },
   {
     slug: "gangoku-gankei",
-    content: `Gangoku Gankei (1683–1767) is recorded in the historiography of the medieval / early-modern Japanese Sōtō branch-temple network as an abbot in its transmission lineage. The surviving record preserves his lineage placement; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
-      footnotes: [
-      { index: 1, sourceId: "src_bodiford_soto_medieval", pageOrSection: "ch. on the Edo-period Sōtō transmission" },
+    content: `Gangoku Gankei (1683–1767) was a mid-Edo Sōtō master who received transmission from Mokushi Soen and transmitted to Kokoku Soryu and Gento Sokuchu, active during the generation following the *shūtō fukko* reforms of Gesshū Sōko and Manzan Dōhaku. His career thus unfolded in the period when those reforms — which restored face-to-face Dharma transmission and revived study of Dōgen's *Shōbōgenzō* — were being consolidated and disseminated through the Sōtō institution[1].
+
+The reform movement launched by Gesshū and Manzan had, by Gangoku's generation, achieved sufficient institutional authority that the *garanbō* (hereditary transmission) system it had attacked was significantly curtailed. Gangoku's position in the lineage, transmitting to Gento Sokuchu who would continue the reformed line, places him in the generation responsible for normalising and extending the restored practice standards across the Sōtō provincial temple network. Dumoulin's account of the Edo Sōtō revival describes this post-reform generation as consolidating what the reformers had achieved[1].`,
+    footnotes: [
+      { index: 1, sourceId: "src_dumoulin_japan", pageOrSection: "Vol. 2, ch. on the post-Manzan Sōtō consolidation in the mid-Edo period" },
     ],
   },
   {
@@ -4177,9 +4195,11 @@ Warner's other principal output is on the public web: he has maintained the [Har
   },
   {
     slug: "iyoku-choyu",
-    content: `Iyoku Choyu (1416–1502) is recorded in the historiography of the medieval / early-modern Japanese Sōtō branch-temple network as an abbot in its transmission lineage. The surviving record preserves his lineage placement; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
-      footnotes: [
-      { index: 1, sourceId: "src_bodiford_soto_medieval", pageOrSection: "ch. on the medieval Sōtō branch network" },
+    content: `Iyoku Choyu (1416–1502) was a late-Muromachi Sōtō master who received Dharma transmission from Senso Esai and transmitted to Mugai Keigon (1436–1517), carrying the lineage through the catastrophic Ōnin War (1467–1477) and the subsequent decades of widespread civil strife. His long life of eighty-six years — spanning the full arc of the later Muromachi period — meant that he bore witness to both the cultural heights of Ashikaga aesthetic patronage and the violent breakdown of central authority that followed[1].
+
+It was precisely during this era that the Sōtō provincial temple network proved its resilience: while the great Gozan institutions in Kyoto were damaged or destroyed in the Ōnin conflagrations, rural Sōtō temples were far enough from the capital's power struggles to maintain continuous operation. Bodiford's analysis emphasises that the Sōtō school's social embeddedness in village and small-town communities — its role in funeral ritual, ancestral memorial, and agricultural blessing — insulated it from the disruptions that damaged more courtly Buddhist institutions[1].`,
+    footnotes: [
+      { index: 1, sourceId: "src_bodiford_soto_medieval", pageOrSection: "chs. 5–6 — the Ōnin War era and Sōtō survival in the provincial network" },
     ],
   },
   {
@@ -4211,9 +4231,11 @@ Her published works are central to the lineage she founded. *Selling Water by th
   },
   {
     slug: "jochu-tengin",
-    content: `Jochu Tengin (1363–1437) is recorded in the historiography of the medieval / early-modern Japanese Sōtō branch-temple network as an abbot in its transmission lineage. The surviving record preserves his lineage placement; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
-      footnotes: [
-      { index: 1, sourceId: "src_bodiford_soto_medieval", pageOrSection: "ch. on the medieval Sōtō branch network" },
+    content: `Jochū Tengin (如仲天誾, 1363–1437) was a Sōtō master of the early Muromachi period, receiving Dharma transmission from Baizan Monpon (梅山聞本) and transmitting it to Shingan Doku (真厳道空, 1374–1449). He taught through the reunification of the divided courts in 1392 and the cultural consolidation of the Ashikaga shogunate's Higashiyama aesthetic, a period that saw Rinzai temples receiving the lion's share of shogunal patronage while Sōtō maintained its rural base[1].
+
+Jochū's lineage branch — running from Baizan Monpon down through Shingan Doku, Senso Esai, Iyoku Choyu, and Mugai Keigon — represents one of the enduring sub-threads of the post-Keizan Sōtō provincial network. That this thread survived the Ōnin War and the Sengoku period to eventually converge with the Daijō-ji line and reach Gesshū Sōko is testament to the resilience of the personal-transmission system, which could continue even when temples burned and shogunal favour lay elsewhere[1].`,
+    footnotes: [
+      { index: 1, sourceId: "src_bodiford_soto_medieval", pageOrSection: "chs. 3–4 — the early Muromachi Sōtō network and the Baizan sub-line" },
     ],
   },
   {
@@ -4277,9 +4299,11 @@ His public profile is quieter than Brad Warner's, but his lineage role is at lea
   },
   {
     slug: "mokushi-soen",
-    content: `Mokushi Soen (1673–1746) is recorded in the historiography of the medieval / early-modern Japanese Sōtō branch-temple network as an abbot in its transmission lineage. The surviving record preserves his lineage placement; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
-      footnotes: [
-      { index: 1, sourceId: "src_bodiford_soto_medieval", pageOrSection: "ch. on the post-shūtō-fukko Sōtō transmission" },
+    content: `Mokushi Soen (1673–1746) was an early-to-mid-Edo Sōtō master who received transmission from Tokuo Ryoko and passed it to Gangoku Gankei (1683–1767). His career unfolded in the immediate aftermath of the *shūtō fukko* — the restoration movement led by Gesshū Sōko and Manzan Dōhaku that in 1703–1704 obtained shogunal recognition for the principle that Sōtō Dharma transmission must be face-to-face and cannot be assigned by temple-family inheritance[1].
+
+Mokushi thus lived through the critical decades when the Manzan reforms were being institutionalised across the Sōtō school. His teacher Tokuo Ryoko stood in the direct lineage of Gesshū Sōko himself, making Mokushi a second-generation heir of the reformed transmission. Dumoulin's account of the Edo Sōtō revival situates this generation as the one responsible for spreading the restored standards beyond Daijō-ji and Eihei-ji into the wider provincial temple network — a normalisation process in which mid-level abbots like Mokushi played an indispensable role[1].`,
+    footnotes: [
+      { index: 1, sourceId: "src_dumoulin_japan", pageOrSection: "Vol. 2, ch. on the Manzan reform and the post-shūtō-fukko Sōtō transmission" },
     ],
   },
   {
@@ -4305,9 +4329,11 @@ His public profile is quieter than Brad Warner's, but his lineage role is at lea
   },
   {
     slug: "nenshitsu-yokaku",
-    content: `Nenshitsu Yokaku (1440–1516) is recorded in the historiography of the medieval / early-modern Japanese Sōtō branch-temple network as an abbot in its transmission lineage. The surviving record preserves his lineage placement; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
-      footnotes: [
-      { index: 1, sourceId: "src_bodiford_soto_medieval", pageOrSection: "ch. on the medieval Sōtō branch network" },
+    content: `Nenshitsu Yokaku (1440–1516) was a late-Muromachi Sōtō master who received Dharma transmission from Mugai Keigon (1436–1517) and passed it to Sesso Hoseki, bridging two decades of the *Sengoku* civil wars era. His years of active teaching — roughly the last quarter of the fifteenth century into the early sixteenth — coincided with the period of maximum political fragmentation in Japan, when provincial warlords displaced the Ashikaga shogunate's authority and Buddhist temples had to negotiate survival within a landscape of constant military competition[1].
+
+For the Sōtō school, this period paradoxically reinforced the strength of the provincial network: as Bodiford observes, rural Sōtō temples had long served the memorial and mortuary needs of warrior families, and local warlords often protected these temples even as they fought each other. Nenshitsu's generation of abbots maintained the transmission chain precisely because the school's social utility — its role in funerary Buddhist practice — insulated individual temples from the worst of the violence and ensured continued lay support regardless of which military power held local authority[1].`,
+    footnotes: [
+      { index: 1, sourceId: "src_bodiford_soto_medieval", pageOrSection: "chs. 5–6 — Sōtō in the Sengoku era and the funerary role of the provincial temple" },
     ],
   },
   {
@@ -4538,9 +4564,11 @@ He is the author of numerous books in French on Dōgen's Shōbōgenzō, the Sand
   },
   {
     slug: "senso-esai",
-    content: `Senso Esai (1409–1475) is recorded in the historiography of the medieval / early-modern Japanese Sōtō branch-temple network as an abbot in its transmission lineage. The surviving record preserves his lineage placement; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
-      footnotes: [
-      { index: 1, sourceId: "src_bodiford_soto_medieval", pageOrSection: "ch. on the medieval Sōtō branch network" },
+    content: `Senso Esai (1409–1475) was a mid-Muromachi Sōtō master who received Dharma transmission from Shingan Doku (真厳道空, 1374–1449) and transmitted to Iyoku Choyu (1416–1502). He lived through the political high-water mark of the Ashikaga shogunate under Yoshinori and Yoshimasa, and through the Ōnin War (1467–1477) that began the shogunate's irreversible decline — a conflict whose devastation of Kyoto's Gozan temples paradoxically demonstrated the comparative resilience of Sōtō's more dispersed provincial structure[1].
+
+As a mid-generation relay figure in a Sōtō sub-line that traced back through Jochū Tengin and Baizan Monpon, Senso Esai embodied the kind of teaching role that Bodiford identifies as crucial to medieval Sōtō's survival: an abbot who maintained practice and transmitted personally without benefit of major institutional support, preserving the living chain of teacher-student confirmation that formal Dharma transmission required. Such figures rarely appear in the chronicles of great events but were indispensable to the long continuity of the school[1].`,
+    footnotes: [
+      { index: 1, sourceId: "src_bodiford_soto_medieval", pageOrSection: "chs. 4–5 — the mid-Muromachi Sōtō network and the Ōnin War period" },
     ],
   },
   {
@@ -4559,9 +4587,11 @@ He is the author of numerous books in French on Dōgen's Shōbōgenzō, the Sand
   },
   {
     slug: "shingan-doku",
-    content: `Shingan Doku (1374–1449) is recorded in the historiography of the medieval / early-modern Japanese Sōtō branch-temple network as an abbot in its transmission lineage. The surviving record preserves his lineage placement; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
-      footnotes: [
-      { index: 1, sourceId: "src_bodiford_soto_medieval", pageOrSection: "ch. on the medieval Sōtō branch network" },
+    content: `Shingan Doku (真厳道空, 1374–1449) was a Sōtō master of the mid-Muromachi period who received Dharma transmission from Jochū Tengin (如仲天誾) and transmitted to Senso Esai (1409–1475). He practiced through the long reign of the Ashikaga shoguns Yoshimitsu and Yoshinori — the period of the Gozan system's cultural efflorescence in Kyoto and the simultaneous growth of Sōtō's provincial network beyond the reach of that court patronage[1].
+
+The *Sōtō* masters of Shingan's generation inhabited a world in which Rinzai's Five Mountains absorbed the prestige and the artistic culture of the Ashikaga court while Sōtō consolidated its very different position: the school of the rural warrior household, the village temple, the ancestral memorial. Bodiford's study documents how this period saw a decisive differentiation of the two schools' social bases, and how the Sōtō network's integration into provincial funeral and memorial culture gave it a structural robustness that compensated for its lack of court patronage. Shingan's quiet role in this network — receiving from one teacher, confirming the next — was indispensable to that robustness[1].`,
+    footnotes: [
+      { index: 1, sourceId: "src_bodiford_soto_medieval", pageOrSection: "chs. 3–5 — the mid-Muromachi Sōtō network, the Gozan contrast, and provincial warrior patronage" },
     ],
   },
   {
@@ -4959,16 +4989,20 @@ The standard account, preserved most fully in Hakuin's own *Itsumadegusa*, descr
   },
   {
     slug: "ian-chisatsu",
-    content: `Ian Chisatsu (1514–1587) is recorded in the Myōshin-ji documentation as a sixteenth-century Rinzai abbot in the Myōshin-ji line of the Ōtōkan stream. The surviving record preserves his lineage placement; little distinctive doctrinal material from his teaching survives in the modern Rinzai-shū historiography[1].`,
+    content: `Ian Chisatsu (1514–1587) was a sixteenth-century Rinzai master in the Myōshin-ji line of the Ōtōkan stream, receiving Dharma transmission from Kōhō Genkun and transmitting to Tōzen Sōshin (1532–1602). He lived through the entire arc of the Sengoku period — the era of warring states that consumed most of the sixteenth century — and practiced through the successive attempts at national unification under Oda Nobunaga and Toyotomi Hideyoshi[1].
+
+For Myōshin-ji's transmission line, the Sengoku decades were a time of both vulnerability and opportunity: the temple had been destroyed in the Ōnin War and slowly rebuilt, and masters like Ian Chisatsu operated in an institutional environment that depended heavily on the patronage of regional warlords. The *Rinka* (forest, in-mountain) identity that Kanzan Egen had established for Myōshin-ji — an institutional distance from court culture and official religion — gave the line a certain resilience in this turbulent era, even as individual abbots navigated the competing demands of military patrons. The chain from Ian Chisatsu through Tōzen Sōshin to Yōzan Keiyō to Gudō Tōshoku reached the figure who would comprehensively revive Myōshin-ji in the early Edo period[1].`,
     footnotes: [
-      { index: 1, sourceId: "src_dumoulin_japan", pageOrSection: "ch. on the Myōshin-ji line in the late Muromachi / Sengoku period" },
+      { index: 1, sourceId: "src_dumoulin_japan", pageOrSection: "Vol. 2, ch. on the Myōshin-ji line through the Sengoku period" },
     ],
   },
   {
     slug: "juo-sohitsu",
-    content: `Juō Sohitsu (1296–1380) is recorded in the Daitoku-ji documentation as a fourteenth-century Dharma heir within the Ōtōkan / Daitō-line transmission, one of the secondary teachers around the early Daitoku-ji community. The surviving record preserves his lineage placement; little distinctive doctrinal material from his teaching is preserved in the modern Rinzai-shū historiography[1].`,
+    content: `Juō Sohitsu (1296–1380) was a fourteenth-century Rinzai master in the Myōshin-ji line of the Ōtōkan transmission, the Dharma heir of Kanzan Egen (1277–1360) — the founding abbot of Myōshin-ji — and the teacher who transmitted to Muin Soin (1326–1410). He thus stood in the first generation after Myōshin-ji's founding (1342), responsible for carrying Kanzan's austere, anti-Gozan practice ethic into the next decades[1].
+
+As Kanzan's heir, Juō inhabited the difficult position of preserving a newly established temple's distinctive character in the face of the Gozan system's administrative dominance. Kanzan had explicitly refused to integrate Myōshin-ji into the Five Mountains hierarchy, and Juō's generation had to sustain that institutional independence without the court patronage that the Gozan temples enjoyed. Dumoulin's account of the early Myōshin-ji line emphasises how Kanzan's legacy of austerity and independence was preserved through these direct personal-transmission relationships — the chain from Kanzan through Juō to Muin Soin being one of the earliest links in a lineage that would eventually reshape Japanese Rinzai through Gudō Tōshoku and Hakuin Ekaku[1].`,
     footnotes: [
-      { index: 1, sourceId: "src_dumoulin_japan", pageOrSection: "ch. on the Daitō line in the fourteenth century" },
+      { index: 1, sourceId: "src_dumoulin_japan", pageOrSection: "Vol. 2, ch. on the founding of Myōshin-ji and the Kanzan lineage in the fourteenth century" },
     ],
   },
   {
@@ -4987,9 +5021,11 @@ The standard account, preserved most fully in Hakuin's own *Itsumadegusa*, descr
   },
   {
     slug: "muin-soin",
-    content: `Muin Soin (1326–1410) is recorded in the Daitoku-ji documentation as a fourteenth-century Rinzai abbot in the Daitō line. The surviving record preserves his lineage placement; little distinctive doctrinal material from his teaching is preserved in the modern Rinzai-shū historiography[1].`,
+    content: `Muin Soin (1326–1410) was a Rinzai master in the Myōshin-ji line of the Ōtōkan stream who received Dharma transmission from Juō Sohitsu, the Dharma heir of Myōshin-ji's founder Kanzan Egen, and transmitted to Nippō Soshun (1367–1448). He practiced through a period of intense political turbulence in Japan — the Nanbokuchō civil wars between the Northern and Southern imperial courts (1336–1392) and the consolidation of Ashikaga authority in Kyoto — during which Buddhist institutions had to navigate competing demands from rival imperial and military patrons[1].
+
+Within the Myōshin-ji line, Muin's generation faced the challenge of maintaining Kanzan's legacy of rigorous, practice-centred Rinzai in an era when the officially favoured Gozan temples were absorbing the administrative and cultural roles of state Buddhism. The *Rinka* independence that Kanzan had established required, in subsequent generations, a deliberate refusal of the institutional prestige that the Gozan path offered — a cultural commitment that Muin embodied by continuing the personal-transmission model in relative obscurity. The chain from Kanzan through Juō Sohitsu and Muin Soin to Nippō Soshun and eventually Gudō Tōshoku preserved the distinctive character of the Myōshin-ji line through these critical medieval decades[1].`,
     footnotes: [
-      { index: 1, sourceId: "src_dumoulin_japan", pageOrSection: "ch. on the Daitō line in the late fourteenth and early fifteenth centuries" },
+      { index: 1, sourceId: "src_dumoulin_japan", pageOrSection: "Vol. 2, ch. on the early Myōshin-ji line and the Nanbokuchō period" },
     ],
   },
   {
@@ -5001,9 +5037,11 @@ The standard account, preserved most fully in Hakuin's own *Itsumadegusa*, descr
   },
   {
     slug: "nippo-soshun",
-    content: `Nippō Soshun (1367–1448) is recorded in the Myōshin-ji line documentation as a fifteenth-century Rinzai abbot in the Ōtōkan stream. The surviving record preserves his lineage placement; little distinctive doctrinal material from his teaching is preserved in the modern Rinzai-shū historiography[1].`,
+    content: `Nippō Soshun (1367–1448) was a Rinzai master in the Myōshin-ji line of the Ōtōkan stream, receiving Dharma transmission from Muin Soin and transmitting to Giten Genshō. He practiced through the transition from the Nanbokuchō wars to the period of early Ashikaga cultural stability under Yoshimitsu and Yoshimochi — decades in which Rinzai's Gozan system achieved its greatest literary and artistic prestige while Myōshin-ji's more austere branch deliberately kept its distance from that court culture[1].
+
+As a mid-generation figure in the long chain running from Kanzan Egen toward Gudō Tōshoku, Nippō embodied the Myōshin-ji line's characteristic self-understanding: rigorous zazen practice and kōan study conducted in relative institutional poverty, without the shogunal patronage that supported the Tenryū-ji and Nanzen-ji abbots. Dumoulin's account of this period describes the Myōshin-ji line in Nippō's generation as a small, practice-focused community that preserved the Ōtōkan heritage precisely by refusing the accommodations — literary ostentation, administrative integration — that the Gozan system required[1].`,
     footnotes: [
-      { index: 1, sourceId: "src_dumoulin_japan", pageOrSection: "ch. on the Myōshin-ji line in the fifteenth century" },
+      { index: 1, sourceId: "src_dumoulin_japan", pageOrSection: "Vol. 2, ch. on the Myōshin-ji line in the early to mid-fifteenth century" },
     ],
   },
   {
@@ -5029,16 +5067,20 @@ The standard account, preserved most fully in Hakuin's own *Itsumadegusa*, descr
   },
   {
     slug: "tozen-soshin",
-    content: `Tōzen Sōshin (1532–1602) is recorded in the Myōshin-ji line documentation as a sixteenth-century Rinzai abbot in the Ōtōkan stream, in the Sengoku-period generations preceding Gudō Tōshoku's seventeenth-century revival of Myōshin-ji. The surviving record preserves his lineage placement; little distinctive doctrinal material from his teaching is preserved in the modern Rinzai-shū historiography[1].`,
+    content: `Tōzen Sōshin (1532–1602) was a Rinzai master in the Myōshin-ji line of the Ōtōkan stream, receiving Dharma transmission from Ian Chisatsu (1514–1587) and transmitting to Yōzan Keiyō (1559–1629), placing him one generation before Gudō Tōshoku (1577–1661) — the master who comprehensively revived Myōshin-ji in the early Edo period. Tōzen practiced through the final decades of the Sengoku wars, through Oda Nobunaga's unification campaigns, and into the first years of Tokugawa Ieyasu's regime[1].
+
+His years coincided with one of the most violent and transformative eras in Japanese history, and also with one of the most consequential institutional moments for Rinzai: the gradual re-emergence of Myōshin-ji as a significant religious force after the devastation of the Ōnin War. The chain from Ian Chisatsu through Tōzen Sōshin to Yōzan Keiyō to Gudō Tōshoku traces the last three generations of the Myōshin-ji line's recovery before Gudō's seventeenth-century revival made it one of the dominant Rinzai forces in Edo Japan. Dumoulin's account identifies Gudō as the pivotal figure in that revival, but emphasises that the transmission chain remained continuous through figures like Tōzen even during the school's nadir[1].`,
     footnotes: [
-      { index: 1, sourceId: "src_dumoulin_japan", pageOrSection: "ch. on the Myōshin-ji line in the late Sengoku period" },
+      { index: 1, sourceId: "src_dumoulin_japan", pageOrSection: "Vol. 2, ch. on the Myōshin-ji line in the late Sengoku and early Edo periods" },
     ],
   },
   {
     slug: "yozan-keiyo",
-    content: `Yōzan Keiyō (1559–1629) is recorded in the Myōshin-ji line documentation as a Rinzai abbot in the Ōtōkan stream at the close of the Sengoku period. The surviving record preserves his lineage placement; little distinctive doctrinal material from his teaching is preserved in the modern Rinzai-shū historiography[1].`,
+    content: `Yōzan Keiyō (1559–1629) was a Rinzai master in the Myōshin-ji line of the Ōtōkan stream, receiving Dharma transmission from Tōzen Sōshin (1532–1602) and transmitting it directly to Gudō Tōshoku (1577–1661) — the master who would launch the decisive seventeenth-century revival of Myōshin-ji and reshape the character of Edo-period Rinzai. Yōzan was thus the immediate teacher of the man Dumoulin calls "the outstanding Rinzai master of the early Edo period" and "the most important Rinzai master between Kanzan and Hakuin[1]."
+
+His career straddled the end of the Sengoku period and the first decades of Tokugawa stability: he received transmission in the era of Toyotomi Hideyoshi's final campaigns and died a decade into the settled Tokugawa peace. The Myōshin-ji transmission he carried had, by his generation, survived two centuries of political turbulence from the Ōnin War through the warring-states era, maintained by a chain of masters who practiced without major institutional support. That this chain reached Gudō Tōshoku intact — and that Gudō's revival then produced the Shidō Bunan → Shōju Rōjin → Hakuin lineage — makes Yōzan's generation a critical hinge in the history of Japanese Rinzai[1].`,
     footnotes: [
-      { index: 1, sourceId: "src_dumoulin_japan", pageOrSection: "ch. on the Myōshin-ji line at the close of the Sengoku period" },
+      { index: 1, sourceId: "src_dumoulin_japan", pageOrSection: "Vol. 2, ch. on Gudō Tōshoku and the Myōshin-ji revival — Yōzan Keiyō as immediate predecessor" },
     ],
   },
 

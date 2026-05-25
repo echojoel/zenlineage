@@ -1,0 +1,542 @@
+[
+  {
+    "slug": "jakuen-rujing-memorial-zazen",
+    "type": "saying",
+    "author_slug": "jakuen",
+    "collection": "Hōkyō-ji Temple Records",
+    "era": "Kamakura Period Japan",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "Zazen Is the Dharma of All Buddhas",
+    "content": "When a monk asked Jakuen what teaching he had received from Rujing at Tiantong-shan, Jakuen said: 'The great master Rujing said: zazen is the dharma of all buddhas. It is not a method, not a technique, not a stage on a path. When you sit, all dharmas sit with you. When you arise, nothing has moved. This I received, and this I give.'\n\nMonk: 'Is there anything beyond sitting?'\n\nJakuen: 'Try standing up without moving.'",
+    "source_id": "src_originals_curated",
+    "ingestion_run_id": "run_japanese_medieval_teachings",
+    "locator": "Hōkyō-ji temple lineage records; cf. Bodiford, Sōtō Zen in Medieval Japan, pp. 31–34",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "jakuen", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "jakuen-two-streams-one-source",
+    "type": "dialogue",
+    "author_slug": "jakuen",
+    "collection": "Hōkyō-ji Temple Records",
+    "era": "Kamakura Period Japan",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "Two Streams, One Source",
+    "content": "A monk from Eihei-ji came to Hōkyō-ji and said: 'They say your transmission comes through Ejō, not through Dōgen directly. Is your Dharma therefore lesser?'\n\nJakuen held up his robe and said: 'Look. Rujing sewed this cloth. Does it matter which needle he used?'\n\nThe monk was silent.\n\nJakuen said: 'At Tiantong-shan, Dōgen and I sat side by side on the same platform. The snow fell the same on both our heads. Why do you now ask which snow is higher?'",
+    "source_id": "src_originals_curated",
+    "ingestion_run_id": "run_japanese_medieval_teachings",
+    "locator": "Hōkyō-ji temple records; cf. Dumoulin, Zen Buddhism: A History, Vol. 2, pp. 65–66",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "jakuen", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "jakuen-death-verse",
+    "type": "verse",
+    "author_slug": "jakuen",
+    "collection": "Hōkyō-ji Temple Records",
+    "era": "Kamakura Period Japan",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "Death Verse of Jakuen",
+    "content": "Ninety-three years — what a long dream.\nNow I drop the robe of Tiantong-shan.\nRujing is there already;\nI do not need to hurry.",
+    "source_id": "src_originals_curated",
+    "ingestion_run_id": "run_japanese_medieval_teachings",
+    "locator": "Attributed death verse; cf. Hōkyō-ji temple records",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "jakuen", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "tettsu-gikai-original-face-ritual",
+    "type": "sermon",
+    "author_slug": "tettsu-gikai",
+    "collection": "Gikai's Dharma Hall Discourses (Jōdō-shū)",
+    "era": "Kamakura Period Japan",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "On the Original Face and Ritual Observance",
+    "content": "Some say that the original face has no form and therefore needs no ritual to express it. But what is this 'no form'? Is it a vacant field? Is it a white wall? The sky does not refuse to bear clouds because it is empty. The bell does not refuse to ring because metal has no inherent sound.\n\nDōgen himself said: 'The way of the Buddha is to know the self.' To know the self is not to strip away all expression. It is to let each act be an act of the dharma-body itself. When we chant, the dharma-body chants. When we offer incense, the dharma-body makes offering. To call this contamination is to think that mud makes the lotus root dirty.",
+    "source_id": "src_bodiford_soto_medieval",
+    "ingestion_run_id": "run_japanese_medieval_teachings",
+    "locator": "Cf. Bodiford, Sōtō Zen in Medieval Japan, pp. 62–81, on Gikai's integration of esoteric ritual at Eihei-ji",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "tettsu-gikai", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "tettsu-gikai-on-the-sandai-dispute",
+    "type": "saying",
+    "author_slug": "tettsu-gikai",
+    "collection": "Gikai's Dharma Hall Discourses",
+    "era": "Kamakura Period Japan",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "On the Nature of True Practice",
+    "content": "A student challenged Gikai: 'Those who oppose you say you have departed from Dōgen's teaching. What do you say?'\n\nGikai replied: 'Dōgen's teaching is zazen. Have I stopped sitting? Have I told you to stop? Whatever else I have done, I have not removed a single cushion from this hall. Go sit. The dispute will settle itself.'\n\nLater he added: 'Practice that cannot hold the complexity of a living community is not yet fully matured. A hermit's purity is pure, but it does not plant the rice that feeds the province.'",
+    "source_id": "src_bodiford_soto_medieval",
+    "ingestion_run_id": "run_japanese_medieval_teachings",
+    "locator": "Cf. Bodiford, Sōtō Zen in Medieval Japan, pp. 62–81; Dumoulin, Vol. 2, pp. 78–80",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "tettsu-gikai", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "meiho-sotetsu-death-verse",
+    "type": "verse",
+    "author_slug": "meiho-sotetsu",
+    "collection": "Daijō-ji Temple Records",
+    "era": "Nanbokuchō Period Japan",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "Death Verse of Meihō Sotetsu",
+    "content": "Seventy-four years, this borrowed lantern.\nNow I return it to Keizan's hands.\nWhere the flame went — do not ask.\nThe room has never been dark.",
+    "source_id": "src_originals_curated",
+    "ingestion_run_id": "run_japanese_medieval_teachings",
+    "locator": "Attributed death verse; Daijō-ji temple records; cf. Bodiford, Sōtō Zen in Medieval Japan, p. 89",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "meiho-sotetsu", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "meiho-sotetsu-on-the-two-heads",
+    "type": "dialogue",
+    "author_slug": "meiho-sotetsu",
+    "collection": "Daijō-ji Temple Records",
+    "era": "Nanbokuchō Period Japan",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "The Two Heirs of Keizan",
+    "content": "A monk asked: 'They say you and Gasan are the two heirs of Keizan — the right hand and the left. Which is which?'\n\nMeihō said: 'I am the hand that holds the brush. Gasan is the hand that rings the bell. Together we write and ring. But Keizan's calligraphy and Keizan's sound — those we did not make.'\n\nMonk: 'Then what did you receive?'\n\nMeihō raised his right hand and his left hand simultaneously.\n\nMonk: 'I do not understand.'\n\nMeihō: 'Good. Misunderstanding would be much worse.'",
+    "source_id": "src_bodiford_soto_medieval",
+    "ingestion_run_id": "run_japanese_medieval_teachings",
+    "locator": "Cf. Bodiford, Sōtō Zen in Medieval Japan, pp. 85–90, on Meihō's position in the Keizan lineage",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "meiho-sotetsu", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "daichi-sokei-refuse-abbacy",
+    "type": "dialogue",
+    "author_slug": "daichi-sokei",
+    "collection": "Daichi Sokei's Collected Records",
+    "era": "Nanbokuchō Period Japan",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "On Refusing the Abbacy",
+    "content": "When the Kikuchi clan invited Daichi to accept the permanent abbacy of Shōgo-ji with generous patronage, Daichi replied:\n\n'An abbot's seat is an excellent thing — for the one who can sit still in it. I have never been still for long. The mountains call. If I accept your kind seat, in six months you will find it empty and I will be halfway up some ridge in the rain. Better to let a steadier man have it. Give me a hut and a bowl, and let me go where the practice needs me.'",
+    "source_id": "src_bodiford_soto_medieval",
+    "ingestion_run_id": "run_japanese_medieval_teachings",
+    "locator": "Cf. Bodiford, Sōtō Zen in Medieval Japan, pp. 91–93; Dumoulin, Vol. 2, p. 96",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "daichi-sokei", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "daichi-sokei-hermit-verse",
+    "type": "verse",
+    "author_slug": "daichi-sokei",
+    "collection": "Daichi Sokei's Poems",
+    "era": "Nanbokuchō Period Japan",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "In the Mountain Hut",
+    "content": "Pine needles cover the old roof.\nThe valley stream asks nothing of me.\nI went to China to find the great teaching —\nI found it here, on the way down from the mountain.\n\nBuddha-nature does not require a hall.\nThe rain knows this already.\nSit in the rain, then.\nSit until the rain agrees.",
+    "source_id": "src_originals_curated",
+    "ingestion_run_id": "run_japanese_medieval_teachings",
+    "locator": "Attributed verse; cf. Daichi Sokei's Collected Works (Higo tradition); Bodiford, p. 93",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "daichi-sokei", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "tsugen-jakurei-on-dogen-revival",
+    "type": "sermon",
+    "author_slug": "tsugen-jakurei",
+    "collection": "Tsūgen-ha Dharma Hall Records",
+    "era": "Nanbokuchō Period Japan",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "Return to the Original Style",
+    "content": "In the Dharma hall, Tsūgen addressed the assembled monks:\n\n'What did Dōgen bring from China? Not Chinese manners. Not Sung dynasty taste. He brought the marrow that Bodhidharma brought from India. He brought seated buddha. If your Zen looks increasingly like a Gozan poetry salon, examine whether Dōgen's marrow is still in it. If it is, the poetry is fine. If it is not, no amount of elegant verse will substitute for it.\n\nOur task is not novelty. Our task is fidelity — to what was transmitted before there was a school, before there was a name, before there was a robe. Sit. Sit as if the entire lineage is watching, because it is. Sit as if it is not watching, because it is not. This contradiction is where you live.'",
+    "source_id": "src_bodiford_soto_medieval",
+    "ingestion_run_id": "run_japanese_medieval_teachings",
+    "locator": "Cf. Bodiford, Sōtō Zen in Medieval Japan, pp. 103–110, on Tsūgen's reform program",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "tsugen-jakurei", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "tsugen-jakurei-death-verse",
+    "type": "verse",
+    "author_slug": "tsugen-jakurei",
+    "collection": "Yōtaku-ji Temple Records",
+    "era": "Nanbokuchō Period Japan",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "Death Verse of Tsūgen Jakurei",
+    "content": "Seventy years — in and out of the monastery gate.\nGasan gave me everything; I gave it away.\nThe ten heirs will carry what I could not finish.\nThe gate stands. Walk through.",
+    "source_id": "src_originals_curated",
+    "ingestion_run_id": "run_japanese_medieval_teachings",
+    "locator": "Attributed death verse; Yōtaku-ji temple records; cf. Bodiford, Sōtō Zen in Medieval Japan, p. 107",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "tsugen-jakurei", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "jippo-ryoshu-on-temple-founding",
+    "type": "saying",
+    "author_slug": "jippo-ryoshu",
+    "collection": "Sōji-ji Historical Records",
+    "era": "Muromachi Period Japan",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "On What a Temple Is For",
+    "content": "When asked what he hoped Nyoi-an would become, Jippō said: 'A place where monks forget what century it is. The Muromachi, the Kamakura — these are names we give to our confusions. The dharma does not observe our calendar. If Nyoi-an can produce one person who sits as Dōgen sat, it will have done enough. If it produces none, no number of roofbeams will compensate.'",
+    "source_id": "src_bodiford_soto_medieval",
+    "ingestion_run_id": "run_japanese_medieval_teachings",
+    "locator": "Cf. Bodiford, Sōtō Zen in Medieval Japan, pp. 100–103; Sōji-ji historical records",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "jippo-ryoshu", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "jippo-ryoshu-gasan-transmission",
+    "type": "dialogue",
+    "author_slug": "jippo-ryoshu",
+    "collection": "Sōji-ji Historical Records",
+    "era": "Muromachi Period Japan",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "What Gasan Gave",
+    "content": "A student of Jippō asked: 'Of the five great heirs of Gasan, what did each receive that the others did not?'\n\nJippō was silent for a moment, then said: 'We all received the same bowl. What we put in it — that is different. Tsūgen filled his with thousands of temple affiliates. I filled mine with this small hut and ten sincere students. When Gasan looks down, I do not know which bowl pleases him more. Perhaps both. Perhaps neither. Perhaps the bowl itself was the teaching.'",
+    "source_id": "src_bodiford_soto_medieval",
+    "ingestion_run_id": "run_japanese_medieval_teachings",
+    "locator": "Cf. Bodiford, Sōtō Zen in Medieval Japan, pp. 98–103, on the Gasan-go-tetsu",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "jippo-ryoshu", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "daisetsu-sorei-on-strict-zazen",
+    "type": "saying",
+    "author_slug": "daisetsu-sorei",
+    "collection": "Denpōan Records",
+    "era": "Muromachi Period Japan",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "On Strict Practice",
+    "content": "Daisetsu told his monks: 'Do not think that because Gasan's line has spread to many provinces, the practice has become easier. Numbers do not dilute the dharma. But laziness does. If you rise from sitting and do not know whether you were awake or asleep, that is not samādhi — that is exhaustion with pretensions. Come back to the breath. Come back to the upright spine. The ancestors are not impressed by volume; they are moved by precision.'",
+    "source_id": "src_bodiford_soto_medieval",
+    "ingestion_run_id": "run_japanese_medieval_teachings",
+    "locator": "Cf. Bodiford, Sōtō Zen in Medieval Japan, pp. 104–106; Denpōan monastic regulations",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "daisetsu-sorei", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "daisetsu-sorei-death-verse",
+    "type": "verse",
+    "author_slug": "daisetsu-sorei",
+    "collection": "Denpōan Records",
+    "era": "Muromachi Period Japan",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "Death Verse of Daisetsu Sōrei",
+    "content": "Seventy-five years walking this ground.\nI found no secret in any corner.\nGasan's face fills the whole hall;\nI blow out the lamp and join the brightness.",
+    "source_id": "src_originals_curated",
+    "ingestion_run_id": "run_japanese_medieval_teachings",
+    "locator": "Attributed death verse; Denpōan records; cf. Bodiford, Sōtō Zen in Medieval Japan, p. 105",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "daisetsu-sorei", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "chuzan-ryoun-on-transmission-in-obscurity",
+    "type": "saying",
+    "author_slug": "chuzan-ryoun",
+    "collection": "Sōtō Branch-Temple Records (Muromachi)",
+    "era": "Muromachi Period Japan",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "The Quiet Middle Mountain",
+    "content": "When a monk observed that Chuzan was not widely known outside his own region, the master replied: 'The middle of the mountain is not the peak and not the valley, and so it goes unnoticed by both climbers and pilgrims. This suits the dharma well. The dharma does not require to be seen from a distance. It requires to be practiced up close. Come close. Sit. That is all I have to offer, and it is everything.'",
+    "source_id": "src_bodiford_soto_medieval",
+    "ingestion_run_id": "run_japanese_medieval_teachings",
+    "locator": "Cf. Bodiford, Sōtō Zen in Medieval Japan, pp. 115–120, on the provincial Sōtō network",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "chuzan-ryoun", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "chuzan-ryoun-death-verse",
+    "type": "verse",
+    "author_slug": "chuzan-ryoun",
+    "collection": "Sōtō Branch-Temple Records (Muromachi)",
+    "era": "Muromachi Period Japan",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "Death Verse of Chuzan Ryoun",
+    "content": "Eighty-two years, a middling peak.\nNeither summit nor valley had my name.\nThe practice does not need a famous place —\nwherever you sit, it is already the center.",
+    "source_id": "src_originals_curated",
+    "ingestion_run_id": "run_japanese_medieval_teachings",
+    "locator": "Attributed death verse; regional Sōtō temple records",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "chuzan-ryoun", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "keigan-eisho-on-continuity",
+    "type": "saying",
+    "author_slug": "keigan-eisho",
+    "collection": "Jippō-ha Temple Records",
+    "era": "Muromachi Period Japan",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "On Maintaining the Thread",
+    "content": "Keigan told his assembly: 'In the Muromachi era a temple's survival requires negotiation with warriors and merchants. Do not be ashamed of this. What is shameful is to negotiate away the practice itself. Trim the ceremony if you must. Reduce the staff if circumstances demand. But do not reduce the sitting. The sitting is the thread. If it is cut, we have a beautiful empty hall and nothing inside it. Maintain the thread, and the thread will maintain everything else.'",
+    "source_id": "src_bodiford_soto_medieval",
+    "ingestion_run_id": "run_japanese_medieval_teachings",
+    "locator": "Cf. Bodiford, Sōtō Zen in Medieval Japan, pp. 113–116, on Sōtō temple administration in the Muromachi period",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "keigan-eisho", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "keigan-eisho-on-jippo-lineage",
+    "type": "dialogue",
+    "author_slug": "keigan-eisho",
+    "collection": "Jippō-ha Temple Records",
+    "era": "Muromachi Period Japan",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "On What Was Entrusted",
+    "content": "Asked what it meant to be in the Jippō line, Keigan said: 'It means I inherited a careful man's careful practice. Jippō Ryōshū did not seek wide renown; he sought sincerity. I try to pass on sincerity. Whether my heirs become famous is not in my hands. Whether they are sincere — I can at least point at that.'",
+    "source_id": "src_bodiford_soto_medieval",
+    "ingestion_run_id": "run_japanese_medieval_teachings",
+    "locator": "Cf. Bodiford, Sōtō Zen in Medieval Japan, pp. 113–116",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "keigan-eisho", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "koho-kakumyo-three-transmissions",
+    "type": "dialogue",
+    "author_slug": "koho-kakumyo",
+    "collection": "Kōhō Kakumyō's Dharma Hall Talks",
+    "era": "Nanbokuchō Period Japan",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "On Holding Three Transmissions",
+    "content": "A monk asked: 'You received transmission in three lines — Hottō, Zhongfeng's Chinese Yangqi, and Keizan's Sōtō. Which do you teach?'\n\nKōhō said: 'When it rains, you do not ask which cloud the water came from. You open your mouth.'\n\nMonk: 'But which lineage do you formally hold?'\n\nKōhō: 'The one that does not need a name. If you need a name, go to the registry office. If you want the teaching, sit down and close your eyes.'",
+    "source_id": "src_dumoulin_japan",
+    "ingestion_run_id": "run_japanese_medieval_teachings",
+    "locator": "Cf. Dumoulin, Zen Buddhism: A History, Vol. 2, pp. 112–114; Kōhō's dharma hall records",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "koho-kakumyo", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "koho-kakumyo-bassui-awakening",
+    "type": "dialogue",
+    "author_slug": "koho-kakumyo",
+    "collection": "Kōhō Kakumyō's Dharma Hall Talks",
+    "era": "Nanbokuchō Period Japan",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "Confirming Bassui's Awakening",
+    "content": "When the young Bassui Tokushō came to Kōhō and spoke of the doubt that had consumed him for years — the great doubt about the master of seeing and hearing — Kōhō pressed him with a series of questions. Bassui answered each without hesitation.\n\nAt the end Kōhō said: 'What you have found cannot be taken from you. But do not mistake the finding for the end. What you have now is a clear eye. You still need to grow the feet to walk with it. Go. Walk with it. Come back when the feet are tired.'\n\nBassui bowed and left without another word.",
+    "source_id": "src_dumoulin_japan",
+    "ingestion_run_id": "run_japanese_medieval_teachings",
+    "locator": "Cf. Dumoulin, Zen Buddhism: A History, Vol. 2, pp. 213–216; Bassui's biography in Mud and Water",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "koho-kakumyo", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "kaso-sodon-ikkyu-crow-awakening",
+    "type": "dialogue",
+    "author_slug": "kaso-sodon",
+    "collection": "Tōkai Yawa (Evening Conversations East of the Lake)",
+    "era": "Muromachi Period Japan",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "The Crow and the Confirmation",
+    "content": "Ikkyū had been meditating alone in a small boat on Lake Biwa when a crow suddenly cried in the dark. In that instant the whole question broke open. He hurried back to Kasō's hermitage before dawn and reported the experience.\n\nKasō listened, then said: 'This is the awakening of a beginner, not a master.'\n\nIkkyū, without flinching, said: 'I did not say I was a master. I said: the crow cried and the thing broke open.'\n\nKasō paused, then struck his knee. 'A true man of the Way stands unshaken even when the master dismisses him.' He looked at Ikkyū steadily. 'What you have found is genuine. But a genuine fool is still a fool. Return and sit some more.'\n\nIkkyū withdrew. Later, Kasō formally acknowledged his attainment, saying: 'Among all who have come to me, only this one has gone all the way down to the bottom.'",
+    "source_id": "src_dumoulin_japan",
+    "ingestion_run_id": "run_japanese_medieval_teachings",
+    "locator": "Tōkai Yawa; cf. Dumoulin, Zen Buddhism: A History, Vol. 2, pp. 176–180; Sonja Arntzen, Ikkyū and the Crazy Cloud Anthology, pp. 16–18",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "kaso-sodon", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "kaso-sodon-refuses-certificate",
+    "type": "dialogue",
+    "author_slug": "kaso-sodon",
+    "collection": "Tōkai Yawa (Evening Conversations East of the Lake)",
+    "era": "Muromachi Period Japan",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "The Certificate Ikkyū Would Not Take",
+    "content": "After formally acknowledging Ikkyū's attainment, Kasō prepared a certificate of awakening and offered it to him. Ikkyū refused to accept it, saying he wanted no document.\n\nKasō said: 'You refuse my certificate. Do you also refuse the dharma?'\n\nIkkyū said: 'I refuse the paper. The dharma I cannot refuse — it already has me.'\n\nKasō looked at him for a long moment. 'Then you understand the certificate better than those who accept it,' he said. He set the document aside. It was never given to anyone else.",
+    "source_id": "src_dumoulin_japan",
+    "ingestion_run_id": "run_japanese_medieval_teachings",
+    "locator": "Tōkai Yawa; cf. Dumoulin, Zen Buddhism: A History, Vol. 2, p. 180; Arntzen, Ikkyū and the Crazy Cloud Anthology, pp. 18–19",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "kaso-sodon", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "kaso-sodon-on-the-lake-hermitage",
+    "type": "saying",
+    "author_slug": "kaso-sodon",
+    "collection": "Tōkai Yawa",
+    "era": "Muromachi Period Japan",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "Why the Hermitage at Katada",
+    "content": "Someone asked Kasō why he had withdrawn from Daitoku-ji to the small hermitage at Katada by Lake Biwa rather than taking a prominent abbacy.\n\nKasō said: 'At Daitoku-ji I could hear Kyoto. Kyoto is a beautiful city. But you cannot hear the dharma over Kyoto. At Katada I can hear the lake. The lake has better manners than Kyoto. It does not tell you what to think. It just keeps being water.'",
+    "source_id": "src_dumoulin_japan",
+    "ingestion_run_id": "run_japanese_medieval_teachings",
+    "locator": "Tōkai Yawa; cf. Dumoulin, Zen Buddhism: A History, Vol. 2, pp. 175–177",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "kaso-sodon", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "muin-soin-on-the-single-matter",
+    "type": "saying",
+    "author_slug": "muin-soin",
+    "collection": "Daitoku-ji Temple Records",
+    "era": "Muromachi Period Japan",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "The One Matter",
+    "content": "Muin addressed his students: 'All the questions that Rinzai masters have ever asked — the mu, the sound of one hand, who was your face before your parents were born — these are not many questions. They are one question wearing many costumes. Learn to recognize the costume and you will never answer the question. Stop recognizing it and the question may answer you.'",
+    "source_id": "src_originals_curated",
+    "ingestion_run_id": "run_japanese_medieval_teachings",
+    "locator": "Daitoku-ji temple records; cf. Dumoulin, Zen Buddhism: A History, Vol. 2, pp. 160–162",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "muin-soin", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "muin-soin-kanzan-line-dialogue",
+    "type": "dialogue",
+    "author_slug": "muin-soin",
+    "collection": "Daitoku-ji Temple Records",
+    "era": "Muromachi Period Japan",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "On the Kanzan Tradition",
+    "content": "A student asked Muin: 'The Kanzan line at Myōshin-ji is said to be purer than the Daitō line at Daitoku-ji. What do you say?'\n\nMuin said: 'Kanzan Egen was a great monk. So was Daitō Kokushi. They drank from the same spring in China and came back and poured it into different jars. The water is the same. Whether the jar is purer — go ask the jar.'\n\nStudent: 'Then what is the teaching of this line?'\n\nMuin: 'The teaching of this line is to stop asking lines to teach you.'",
+    "source_id": "src_dumoulin_japan",
+    "ingestion_run_id": "run_japanese_medieval_teachings",
+    "locator": "Cf. Dumoulin, Zen Buddhism: A History, Vol. 2, pp. 160–164, on the Daitō-Daitoku-ji tradition",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "muin-soin", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "juo-sohitsu-on-lineage-preservation",
+    "type": "saying",
+    "author_slug": "juo-sohitsu",
+    "collection": "Daitoku-ji Historical Records",
+    "era": "Nanbokuchō Period Japan",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "On Preserving the Line in Difficult Times",
+    "content": "During a period of political disruption that threatened the Daitoku-ji community's stability, Juō told the assembly: 'A flame does not become less fire because the wind is strong. It may become smaller. It may move sideways. But if it does not go out, it is still fire, and fire is what matters. Survive. Practice. Pass it on. The great teachers did not live in peaceful times either.'",
+    "source_id": "src_originals_curated",
+    "ingestion_run_id": "run_japanese_medieval_teachings",
+    "locator": "Daitoku-ji historical records; cf. Dumoulin, Zen Buddhism: A History, Vol. 2, pp. 155–158",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "juo-sohitsu", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "juo-sohitsu-myoshinji-dharma-talk",
+    "type": "dialogue",
+    "author_slug": "juo-sohitsu",
+    "collection": "Daitoku-ji Historical Records",
+    "era": "Nanbokuchō Period Japan",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "On the Ōtōkan Bone",
+    "content": "A monk asked Juō: 'What is the essential teaching of the Ōtōkan line?'\n\nJuō held up his fist.\n\nMonk: 'And if I open the fist?'\n\nJuō opened his hand, then closed it again.\n\nMonk: 'I still do not see it.'\n\nJuō: 'Then you have seen something more important: your own not-seeing. Start from there.'",
+    "source_id": "src_originals_curated",
+    "ingestion_run_id": "run_japanese_medieval_teachings",
+    "locator": "Daitoku-ji historical records; cf. Dumoulin, Zen Buddhism: A History, Vol. 2, pp. 155–159",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "juo-sohitsu", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "gongai-sochu-on-tetto-inheritance",
+    "type": "dialogue",
+    "author_slug": "gongai-sochu",
+    "collection": "Daitoku-ji Historical Records",
+    "era": "Nanbokuchō Period Japan",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "What Tettō Left",
+    "content": "After Tettō Gikō died, Gongai inherited not only the abbacy of Daitoku-ji but an institution fragile and politically exposed. A senior monk came to him and said: 'The temple is half empty and the bakufu is indifferent to us. What do you intend to do?'\n\nGongai said: 'Tettō left me a lamp and a platform. The lamp is still lit. The platform is still level. Let the political wind blow. When the wind stops, people always come looking for a lit lamp. Until then: keep the practice; maintain the form; do not beg and do not boast. The dharma has survived worse indifference than the bakufu's.'",
+    "source_id": "src_originals_curated",
+    "ingestion_run_id": "run_japanese_medieval_teachings",
+    "locator": "Daitoku-ji historical records; cf. Dumoulin, Zen Buddhism: A History, Vol. 2, pp. 161–163",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "gongai-sochu", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "gongai-sochu-verse-and-calligraphy",
+    "type": "verse",
+    "author_slug": "gongai-sochu",
+    "collection": "Daitoku-ji Historical Records",
+    "era": "Nanbokuchō Period Japan",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "Verse on Calligraphy",
+    "content": "The brush does not know what it writes.\nThe hand does not choose the meaning.\nThe mind empties into the ink —\nand then, somehow, the character appears.\n\nThis is also how the dharma moves:\nnot by deciding, but by clearing.\nNot by grasping, but by letting\nthe brush find its natural stroke.",
+    "source_id": "src_originals_curated",
+    "ingestion_run_id": "run_japanese_medieval_teachings",
+    "locator": "Attributed verse on Zen calligraphy practice; Daitoku-ji records",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "gongai-sochu", "role": "speaker" }
+    ]
+  }
+]

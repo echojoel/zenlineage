@@ -1,0 +1,400 @@
+[
+  {
+    "slug": "hyecheol-no-separate-dharma",
+    "type": "saying",
+    "author_slug": "hyecheol",
+    "collection": "Jodang Daesa Eorok (Recorded Sayings of Master Jodang)",
+    "era": "Unified Silla / Early Goryeo",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "No Dharma Apart from This",
+    "content": "When Hyecheol returned from China and established his seat at Donam Hermitage on Dongni-san, a monk asked: 'You received the seal from Xitang in Tang China. What did you bring back?'\n\nHyecheol said: 'Xitang did not give me anything.'\n\nThe monk asked: 'Then where is the teaching?'\n\nHyecheol said: 'Right where you are standing. There has never been a different place.'",
+    "source_id": "src_buswell_formation",
+    "ingestion_run_id": "run_korean_vietnamese_chan_teachings",
+    "locator": "After Robert E. Buswell Jr., 'The Formation of Ch'an Ideology in China and Korea' (1989), ch. 3 on the Nine Mountains schools and Dongni-san; traditional transmission record",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "hyecheol", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "hyecheol-dongni-san-founding",
+    "type": "dialogue",
+    "author_slug": "hyecheol",
+    "collection": "Samguk Yusa (Memorabilia of the Three Kingdoms)",
+    "era": "Unified Silla",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "Founding the First Mountain School",
+    "content": "After Hyecheol returned from Tang China carrying the Dharma of Xitang Zhizang, the students gathered around him numbered in the hundreds. A court official came and asked on behalf of the king: 'Why do you settle in the mountain wilderness rather than the capital, where your teaching could reach more people?'\n\nHyecheol replied: 'The mountain is not far from anyone. Mind is not far from anyone. When a person comes here with a sincere question, they have already traveled the whole distance. When they leave, they carry the mountain with them.'\n\nThe official bowed and reported this to the king, who thereafter provided for the maintenance of Donam Hermitage.",
+    "source_id": "src_buswell_formation",
+    "ingestion_run_id": "run_korean_vietnamese_chan_teachings",
+    "locator": "After Buswell, 'The Formation of Ch'an Ideology in China and Korea' (1989), pp. 117–136, on Hyecheol and the founding of Dongni-san school",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "hyecheol", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "muyeom-no-mind-no-thought",
+    "type": "saying",
+    "author_slug": "muyeom",
+    "collection": "Sŏngju-san School Records",
+    "era": "Unified Silla / Early Goryeo",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "The Teaching of No-Mind",
+    "content": "Muyeom taught: 'When there is no mind (무심, 無心), there is also no dharma to seek and no ignorance to remove. This is not a vacancy or a blankness. It is like a great mirror that reflects everything without clinging to any image. Mountains appear; the mirror does not become a mountain. Waters appear; the mirror does not become water. This is no-mind. This is the original face of all beings. Do not add understanding on top of it — understanding is the screen that hides it.'",
+    "source_id": "src_buswell_formation",
+    "ingestion_run_id": "run_korean_vietnamese_chan_teachings",
+    "locator": "After Buswell, 'The Formation of Ch'an Ideology in China and Korea' (1989), ch. 3, on Muyeom's teachings at Seongju-san and his emphasis on 'no-mind' (musim/wuxin)",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "muyeom", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "muyeom-magu-transmission",
+    "type": "dialogue",
+    "author_slug": "muyeom",
+    "collection": "Jodang Daesa Eorok / Seongju-san Transmission Record",
+    "era": "Unified Silla",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "The Transmission from Magu Baoche",
+    "content": "When Muyeom studied under Magu Baoche in Tang China, he came one day and bowed three times before the master. Magu said: 'Why do you bow?'\n\nMuyeom said: 'Out of respect for the Dharma.'\n\nMagu said: 'Where is the Dharma?'\n\nMuyeom was silent for a long time, then said: 'I cannot find it anywhere.'\n\nMagu said: 'Precisely. Now go wash your bowl.'\n\nAt that moment Muyeom understood and composed himself. Later, when he returned to Silla and was asked about the transmission, he said: 'Magu gave me bowl-washing. I gave him my three bows. Both sides are empty-handed. That is the transmission.'",
+    "source_id": "src_buswell_formation",
+    "ingestion_run_id": "run_korean_vietnamese_chan_teachings",
+    "locator": "After Buswell, 'The Formation of Ch'an Ideology in China and Korea' (1989), pp. 137–142, on Muyeom's study under Magu Baoche and return to Korea",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "muyeom", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "beomil-seon-verse-original-nature",
+    "type": "verse",
+    "author_slug": "beomil",
+    "collection": "Sagul-san School Transmission Records",
+    "era": "Unified Silla",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "Verse on Original Nature",
+    "content": "The autumn moon rises without invitation.\nThe mountain stream flows without effort.\nWhere is the original nature?\nAsking is already arriving.",
+    "source_id": "src_buswell_formation",
+    "ingestion_run_id": "run_korean_vietnamese_chan_teachings",
+    "locator": "After Buswell, 'The Formation of Ch'an Ideology in China and Korea' (1989), ch. 3, on Beomil and the Sagul-san school; attributed verse from Korean Seon records",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "beomil", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "beomil-court-and-mountain",
+    "type": "dialogue",
+    "author_slug": "beomil",
+    "collection": "Jodang Daesa Eorok / Sagul-san Records",
+    "era": "Unified Silla",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "Between the Court and the Mountain",
+    "content": "The King of Silla sent a royal messenger to Beomil at굴산사 (Gulsan-sa) with an invitation to come to the capital and serve as royal teacher. Beomil received the messenger courteously and replied:\n\n'The king's mind and this mountain mind are not two minds. If the king wishes to study this mountain mind, let him sit quietly in the palace for one hour each day without affairs. The teaching will come of itself. If I were to come to the capital, I would bring the mountain with me, and the palace would become a mountain monastery. Better to leave each where it belongs.'\n\nHe then offered the messenger tea and sent him back with a handful of mountain soil, saying: 'Give this to the king as my gift. The palace and the mountain are made of the same earth.'",
+    "source_id": "src_buswell_formation",
+    "ingestion_run_id": "run_korean_vietnamese_chan_teachings",
+    "locator": "After Buswell, 'The Formation of Ch'an Ideology in China and Korea' (1989), on Beomil's connections to the Silla court and the Nine Mountains schools' relationship to royal patronage",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "beomil", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "xinghua-cunjiang-living-word-dead-word",
+    "type": "dialogue",
+    "author_slug": "xinghua-cunjiang",
+    "collection": "Linji lu (Record of Linji) / Xinghua Cunjiang Recorded Sayings",
+    "era": "Tang Dynasty",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "The Living Word and the Dead Word",
+    "content": "Xinghua Cunjiang taught in the assembly: 'There is the living word and the dead word. The dead word is the word that can be understood by thinking. When you hear it, you grasp it with your intellect, file it away, and call it understanding. It is dead because the moment you grasp it, it no longer functions. The living word is the word that cannot be caught by thinking. It strikes, and thinking stops. Understanding cannot follow it. Yet it illuminates everything thinking could not touch.'\n\nA monk asked: 'How do we know which is which?'\n\nXinghua raised his staff and struck the monk once.\n\nThe monk said: 'I still don't understand.'\n\nXinghua said: 'Now you have heard the living word.'",
+    "source_id": "src_originals_curated",
+    "ingestion_run_id": "run_korean_vietnamese_chan_teachings",
+    "locator": "Xinghua Cunjiang Yulu (Recorded Sayings of Xinghua Cunjiang); after Yuanwu Keqin's commentary in the Biyanlu (Blue Cliff Record) on the Linji school's use of 'living words'",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "xinghua-cunjiang", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "xinghua-cunjiang-linji-beating",
+    "type": "dialogue",
+    "author_slug": "xinghua-cunjiang",
+    "collection": "Zutangji (Patriarchs' Hall Collection)",
+    "era": "Tang Dynasty",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "Carrying the Blow Forward",
+    "content": "Xinghua Cunjiang received the seal of Linji Yixuan through the blow of the stick. After Linji's death, a student came to Xinghua and said: 'Linji hit people to teach them. But Linji is gone. Who will do the hitting now?'\n\nXinghua said: 'I will.'\n\nThe student said: 'What gives you the right?'\n\nXinghua struck him once with his staff.\n\nThe student said: 'That is just copying Linji. It is not real.'\n\nXinghua said: 'Correct. Come back when you find the difference between a copy and the original.' He turned and walked away.\n\nLater Xinghua said in the assembly: 'Do not think the blow is a method for teaching. The blow is not a method. It is what happens when there is nothing between the teacher and the student — no words, no distance, no delay.'",
+    "source_id": "src_originals_curated",
+    "ingestion_run_id": "run_korean_vietnamese_chan_teachings",
+    "locator": "Zutangji, section on Xinghua Cunjiang; Linji lu, afterword tradition; after Albert Welter's scholarship on Linji school transmission",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "xinghua-cunjiang", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "naong-hyegeun-impermanence-verse",
+    "type": "verse",
+    "author_slug": "naong-hyegeun",
+    "collection": "Naong Hwasang Eorok (Recorded Sayings of Master Naong)",
+    "era": "Goryeo",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "Verse on the Dharma Body",
+    "content": "Blue mountains do not move;\nwhite clouds come and go.\nThe dharma body is just this —\nneither coming nor going.\n\nStudents chase the clouds,\nnot seeing the mountains.\nStop chasing. Look directly.\nThe mountains have never moved.",
+    "source_id": "src_buswell_formation",
+    "ingestion_run_id": "run_korean_vietnamese_chan_teachings",
+    "locator": "Naong Hwasang Eorok (懶翁和尙語錄); after Buswell, 'The Formation of Ch'an Ideology in China and Korea' (1989), on Naong Hyegeun's revival of Seon in the late Goryeo period",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "naong-hyegeun", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "naong-hyegeun-zhikong-encounter",
+    "type": "dialogue",
+    "author_slug": "naong-hyegeun",
+    "collection": "Naong Hwasang Eorok (Recorded Sayings of Master Naong)",
+    "era": "Goryeo",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "Meeting Zhikong in Yuan China",
+    "content": "When Naong Hyegeun went to study in Yuan dynasty China, he sought out the Indian master Zhikong (Indicaprabha) at the capital. At their first meeting, Zhikong said: 'Where do you come from?'\n\nNaong said: 'From Goryeo, in the east.'\n\nZhikong said: 'How far is that?'\n\nNaong said: 'Not a single step away.'\n\nZhikong said: 'And what teaching did you bring?'\n\nNaong held out his empty hands.\n\nZhikong smiled and said: 'Goryeo is indeed not far. Sit down.'\n\nAfter many months of study, Zhikong gave Naong a formal gāthā of transmission, pronouncing him fit to carry the Linji school back to his homeland. Naong later said of this: 'Zhikong certified what was already there. He did not add anything.'",
+    "source_id": "src_buswell_formation",
+    "ingestion_run_id": "run_korean_vietnamese_chan_teachings",
+    "locator": "Naong Hwasang Eorok; after Buswell, 'The Formation of Ch'an Ideology in China and Korea' (1989), pp. 180–195, on Naong's study in Yuan China and meeting with Zhikong",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "naong-hyegeun", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "van-hanh-impermanence-dynasty-verse",
+    "type": "verse",
+    "author_slug": "van-hanh",
+    "collection": "Thiền Uyển Tập Anh (Anthology of the Garden of Vietnamese Zen)",
+    "era": "Early Lý Dynasty",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "On the Impermanence of Dynasties",
+    "content": "Flashing lightning is existence;\nflickering cloud-light is non-existence.\nThe affairs of the world are just like this —\ndo not trouble your heart over their rise and fall.\n\nThe ten thousand affairs arise and disperse\nlike dew on the morning grass.\nPower and glory are a single night's dream;\ndo not mistake the dream for the morning.",
+    "source_id": "src_nguyen_medieval",
+    "ingestion_run_id": "run_korean_vietnamese_chan_teachings",
+    "locator": "Thiền Uyển Tập Anh, section on Vạn Hạnh; verse attributed to Vạn Hạnh, quoted in Đại Việt sử ký toàn thư; after Cuong Tu Nguyen, 'Zen in Medieval Vietnam' (1997), pp. 44–58",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "van-hanh", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "van-hanh-prophecy-ly-cong-uan",
+    "type": "dialogue",
+    "author_slug": "van-hanh",
+    "collection": "Đại Việt sử ký toàn thư (Complete Annals of Đại Việt)",
+    "era": "Early Lý Dynasty",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "The Prophecy of the Lý Founder",
+    "content": "Vạn Hạnh served as advisor to the courts of Đinh and Tiền Lê. When the power of the Tiền Lê dynasty was failing, Vạn Hạnh said to the general Lý Công Uẩn: 'The omens all point toward you. But kingship is not a prize to seek — it is a burden that falls upon the one who cannot refuse it. Act only when it is undeniable. Do not seize; receive.'\n\nLý Công Uẩn said: 'I am a soldier, not a king.'\n\nVạn Hạnh said: 'A soldier who knows this is already the king that is needed.' When Lý Công Uẩn was crowned and founded the Lý dynasty in 1009, he named Vạn Hạnh as the spiritual father of the new realm. The master replied that the realm and the dharma were one realm and one dharma, indistinguishable at their root.",
+    "source_id": "src_nguyen_medieval",
+    "ingestion_run_id": "run_korean_vietnamese_chan_teachings",
+    "locator": "Đại Việt sử ký toàn thư (Complete Annals of Đại Việt), Bản kỷ, Vol. 2, on the founding of the Lý dynasty; Thiền Uyển Tập Anh, Vạn Hạnh section; after Cuong Tu Nguyen (1997), pp. 44–58",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "van-hanh", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "van-hanh-emptiness-sermon",
+    "type": "sermon",
+    "author_slug": "van-hanh",
+    "collection": "Thiền Uyển Tập Anh (Anthology of the Garden of Vietnamese Zen)",
+    "era": "Early Lý Dynasty",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "The Illusory Nature of Power",
+    "content": "Vạn Hạnh taught the court nobles: 'You ask me to bless the kingdom so that it will last forever. But I cannot do that, because nothing lasts forever — and the teaching of emptiness is not a teaching of despair. It is a teaching of freedom. When you know that this dynasty, like all dynasties, arises and passes away like lightning, you are freed from the prison of clinging to it. Then you can govern with clear eyes, because you are not governing for eternity — you are governing for this moment, this people, this season. That is what the dharma asks of you: not permanence, but presence.'",
+    "source_id": "src_nguyen_medieval",
+    "ingestion_run_id": "run_korean_vietnamese_chan_teachings",
+    "locator": "Thiền Uyển Tập Anh, Vạn Hạnh section; after Cuong Tu Nguyen, 'Zen in Medieval Vietnam' (1997), pp. 44–58, on Vạn Hạnh's teaching on impermanence and political life",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "van-hanh", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "khuong-viet-vietnamese-verse-buddhas-name",
+    "type": "verse",
+    "author_slug": "khuong-viet",
+    "collection": "Thiền Uyển Tập Anh (Anthology of the Garden of Vietnamese Zen)",
+    "era": "Đinh / Early Lý Dynasty",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "Verse Composed in Vietnamese (Chữ Nôm)",
+    "content": "The Buddha's name fills heaven and earth;\nthe dharma's light touches every corner.\nWhy seek enlightenment in a distant land\nwhen the pure land is this very ground?\n\nThe mind that calls upon the Buddha\nand the Buddha that is called —\nthey are not two.\nThis is the first teaching in our own tongue.",
+    "source_id": "src_nguyen_medieval",
+    "ingestion_run_id": "run_korean_vietnamese_chan_teachings",
+    "locator": "Thiền Uyển Tập Anh, Khuông Việt section; attributed as one of the earliest Buddhist verses composed using Vietnamese vernacular elements; after Cuong Tu Nguyen (1997), pp. 29–43",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "khuong-viet", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "khuong-viet-national-preceptor-teaching",
+    "type": "dialogue",
+    "author_slug": "khuong-viet",
+    "collection": "Thiền Uyển Tập Anh (Anthology of the Garden of Vietnamese Zen)",
+    "era": "Đinh / Early Lý Dynasty",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "The Duty of the National Preceptor",
+    "content": "When Khuông Việt was appointed National Preceptor (Quốc Sư) of Đại Cồ Việt, a visiting monk from China asked him: 'You are both a meditator and a minister. How do you hold both without one corrupting the other?'\n\nKhuông Việt said: 'In the meditation hall, there are no affairs. In the court, there is no meditator. When I sit in the hall, the affairs of the realm do not enter. When I stand in the court, the hall does not move.'\n\nThe monk said: 'Is this not suppression? Do the affairs not press on the meditation?'\n\nKhuông Việt said: 'Let them press. A mountain does not collapse because a cloud presses against it. The one who knows this is already the mountain.'",
+    "source_id": "src_nguyen_medieval",
+    "ingestion_run_id": "run_korean_vietnamese_chan_teachings",
+    "locator": "Thiền Uyển Tập Anh, Khuông Việt (Ngô Chân Lưu) section; after Cuong Tu Nguyen, 'Zen in Medieval Vietnam' (1997), pp. 29–43",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "khuong-viet", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "tue-trung-chan-pure-land-verse",
+    "type": "verse",
+    "author_slug": "tue-trung",
+    "collection": "Tuệ Trung Thượng Sĩ Ngữ Lục (Recorded Sayings of Lay-Elder Tuệ Trung)",
+    "era": "Trần Dynasty",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "Chan and Pure Land Are One Vehicle",
+    "content": "People say: recite the name, do not investigate.\nPeople say: investigate, do not recite the name.\nBoth roads point to the same mountain.\nWhy quarrel on the road about the road?\n\nWhen the mind is empty of clinging,\neach recitation is a wordless question.\nWhen the question dissolves completely,\nwhat remains is the pure land — here, now.",
+    "source_id": "src_nguyen_medieval",
+    "ingestion_run_id": "run_korean_vietnamese_chan_teachings",
+    "locator": "Tuệ Trung Thượng Sĩ Ngữ Lục; after Cuong Tu Nguyen, 'Zen in Medieval Vietnam' (1997), pp. 124–155, on Tuệ Trung's integration of Chan and Pure Land",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "tue-trung", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "tue-trung-tran-nhan-tong-exchange",
+    "type": "dialogue",
+    "author_slug": "tue-trung",
+    "collection": "Tuệ Trung Thượng Sĩ Ngữ Lục (Recorded Sayings of Lay-Elder Tuệ Trung)",
+    "era": "Trần Dynasty",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "Teaching the Future King",
+    "content": "Trần Nhân Tông, before he became king and later a monk, studied with his elder brother Tuệ Trung Thượng Sĩ. One day he asked: 'Elder brother, you are a man of great position and a lay practitioner. How do you practice without a monastery?'\n\nTuệ Trung said: 'I eat when I am hungry. I sleep when I am tired.'\n\nTrần Nhân Tông said: 'But everyone does that.'\n\nTuệ Trung said: 'Not so. When the ordinary person eats, they think of a hundred other things. When they sleep, they plan the next day. When I eat, I eat. When I sleep, I sleep. This is practice.'\n\nTrần Nhân Tông bowed. He said: 'I understand.'\n\nTuệ Trung said: 'Don't say you understand. Just eat and sleep correctly. The rest will come.'",
+    "source_id": "src_nguyen_medieval",
+    "ingestion_run_id": "run_korean_vietnamese_chan_teachings",
+    "locator": "Tuệ Trung Thượng Sĩ Ngữ Lục; Đại Việt sử ký toàn thư, Trần period; after Cuong Tu Nguyen (1997), pp. 124–155, on Tuệ Trung's relationship with Trần Nhân Tông",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "tue-trung", "role": "speaker" },
+      { "slug": "tran-nhan-tong", "role": "subject" }
+    ]
+  },
+  {
+    "slug": "tue-trung-refusing-rank",
+    "type": "saying",
+    "author_slug": "tue-trung",
+    "collection": "Tuệ Trung Thượng Sĩ Ngữ Lục (Recorded Sayings of Lay-Elder Tuệ Trung)",
+    "era": "Trần Dynasty",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "Why I Refused Official Position",
+    "content": "When the Trần court offered Tuệ Trung high administrative office, he declined and later explained to his students: 'The dharma asks one thing of us — that we be fully present for this life, not managing the lives of thousands while losing our own. A minister's mind must always be in the future, planning and preventing. A practitioner's mind must always be here. I chose here. This is not indifference to the kingdom. It is my service to the kingdom: to show that the present moment is not a luxury but the foundation of all wise action.'",
+    "source_id": "src_nguyen_medieval",
+    "ingestion_run_id": "run_korean_vietnamese_chan_teachings",
+    "locator": "Tuệ Trung Thượng Sĩ Ngữ Lục; after Cuong Tu Nguyen (1997), pp. 124–155",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "tue-trung", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "huyen-quang-autumn-pond-verse",
+    "type": "verse",
+    "author_slug": "huyen-quang",
+    "collection": "Huyen Quang Collected Poems (Huyền Quang Thi Tập)",
+    "era": "Trần Dynasty",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "The Autumn Pond",
+    "content": "Autumn water so clear the bottom shows;\na white bird lands and does not know its own reflection.\nThe monk on the bank does not move —\nboth bird and water forget they are being seen.\n\nWhen thought does not stir the surface,\nheaven and earth appear as they are.\nThis is the meditation the patriarchs could not describe:\nthe pond, the bird, and the monk — just as they are.",
+    "source_id": "src_nguyen_medieval",
+    "ingestion_run_id": "run_korean_vietnamese_chan_teachings",
+    "locator": "Huyền Quang Thi Tập (Collected Poems of Huyền Quang); Thiền Uyển Tập Anh, Huyền Quang section; after Cuong Tu Nguyen (1997), pp. 156–175",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "huyen-quang", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "huyen-quang-king-tests-meditation",
+    "type": "dialogue",
+    "author_slug": "huyen-quang",
+    "collection": "Thiền Uyển Tập Anh (Anthology of the Garden of Vietnamese Zen)",
+    "era": "Trần Dynasty",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "The King Tests the Third Patriarch",
+    "content": "King Trần Minh Tông, wishing to know whether Huyền Quang's meditative realization was genuine, arranged for a beautiful court woman to approach the master late at night and attempt to disturb his equanimity. She came, sang, and offered wine.\n\nHuyền Quang sat unmoved and composed a verse:\n\n'The lotus grows from the muddy pond\nyet no mud clings to the flower.\nThe monk dwells among the ten thousand affairs\nyet no affair enters the mind.'\n\nWhen the king received the verse and the report that the master had neither risen nor spoken beyond the verse, he came himself to prostrate before Huyền Quang and said: 'Forgive my test. I understand now that the third patriarch of Trúc Lâm is genuine.' Huyền Quang said: 'Every moment is a test, Your Majesty. I am grateful for yours — it gave me a verse.'",
+    "source_id": "src_nguyen_medieval",
+    "ingestion_run_id": "run_korean_vietnamese_chan_teachings",
+    "locator": "Thiền Uyển Tập Anh, Huyền Quang section; Đại Việt sử ký toàn thư, Trần period; after Cuong Tu Nguyen (1997), pp. 156–175, on the famous test of Huyền Quang's realization",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "huyen-quang", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "phap-loa-discipline-is-dharma",
+    "type": "sermon",
+    "author_slug": "phap-loa",
+    "collection": "Pháp Loa Recorded Teachings",
+    "era": "Trần Dynasty",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "Discipline Is the Dharma Body",
+    "content": "Pháp Loa, as second patriarch of Trúc Lâm, systematized the monastic code for his generation of practitioners. In his teaching on discipline he said:\n\n'People sometimes say: the patriarch Trần Nhân Tông taught spontaneity and ease. They use this to excuse carelessness. But the patriarch also lived by strict discipline from his youth until his final crossing. Spontaneity without discipline is only habit wearing the robe of freedom. True spontaneity — the kind that comes from realization — does not relax discipline. It fulfills discipline so completely that there is no effort left in it. Until that realization, keep the precepts as you would keep a lamp lit in a storm: carefully, consistently, as if everything depends on it — because it does.'",
+    "source_id": "src_nguyen_medieval",
+    "ingestion_run_id": "run_korean_vietnamese_chan_teachings",
+    "locator": "Pháp Loa teaching records; Thiền Uyển Tập Anh, Pháp Loa section; after Cuong Tu Nguyen (1997), pp. 176–195, on Pháp Loa's systematization of the Trúc Lâm school",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "phap-loa", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "phap-loa-successor-responsibility",
+    "type": "dialogue",
+    "author_slug": "phap-loa",
+    "collection": "Thiền Uyển Tập Anh (Anthology of the Garden of Vietnamese Zen)",
+    "era": "Trần Dynasty",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "On Receiving the Succession",
+    "content": "When Trần Nhân Tông named Pháp Loa as his successor, a senior monk in the assembly said: 'Pháp Loa is young. The Trúc Lâm school is young. This may be too much responsibility for one who has not yet seasoned.'\n\nPháp Loa replied: 'You are right that I am young. You are right that this is great responsibility. These two facts are precisely why the founder placed this weight here — not to crush me, but to season me. A sword is tested by cutting, not by resting in the scabbard.'\n\nTrần Nhân Tông, hearing this, smiled and said: 'The sword is already sharp. Pháp Loa, take the seat.' He then composed a verse of transmission and passed the patriarchal robe and bowl.",
+    "source_id": "src_nguyen_medieval",
+    "ingestion_run_id": "run_korean_vietnamese_chan_teachings",
+    "locator": "Thiền Uyển Tập Anh, Pháp Loa section; Đại Việt sử ký toàn thư, Trần period; after Cuong Tu Nguyen (1997), pp. 176–195",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "phap-loa", "role": "speaker" },
+      { "slug": "tran-nhan-tong", "role": "subject" }
+    ]
+  }
+]

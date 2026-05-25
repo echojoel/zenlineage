@@ -120,6 +120,23 @@ const TARGETS: Record<string, string[]> = {
   // Iván Densho Quintero — no Wikipedia article in any language; portrait
   // comes from the Sōtōshū 120th-anniversary site via EXTERNAL_PORTRAITS.
   "ivan-densho-quintero": [],
+
+  // Classical Tang/Song/Ming Chan masters.
+  // Research pass 2026-05-25: checked en.wikipedia pageimage API for all
+  // masters currently showing placeholder SVG name-cards. Only Miyun Yuanwu
+  // has a confirmed infobox portrait; the remaining classical Chan masters
+  // (Xitang Zhizang, Yanguan Qian, Daowu Yuanzhi, Jiashan Shanhui,
+  // Shishuang Qingzhu, Touzi Datong, Changqing Huileng, Jingqing Daofu,
+  // Dongshan Shouchu, Tianyi Yihuai, Baofeng Kewen, Zhenjing Kewen,
+  // Mian Xianjie, Changlu Qingliao, Poan Zuxian, Juefan Huihong,
+  // Jinhua Juzhi, Gaoan Dayu, Langye Huijue, Cuiwei Wuxue,
+  // Baizhang Niepan, Fushan Fayuan, Guizong Zhichang, Feiyin Tongrong)
+  // either have no Wikipedia article or their article carries no infobox
+  // portrait; all remain on the SVG placeholder pipeline.
+  // Korean Nine Mountains masters (Hyecheol, Muyeom, Beomil, Manhwa Suil,
+  // Chingak Hyesim) and Vietnamese ancestors (Van Hanh, Khuong Viet)
+  // similarly have no Wikipedia pageimage at this time.
+  "miyun-yuanwu": ["Miyun Yuanwu"],
 };
 
 async function smartFetch(url: string, retries = 3): Promise<Response> {
