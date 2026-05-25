@@ -32,6 +32,8 @@ interface OrphanFix {
   teacher: string;
   seedTeacher?: SeedMaster;
   notes: string;
+  /** Override edge type when the relationship is not a formal shihō. Defaults to "primary". */
+  edgeType?: "primary" | "secondary" | "dharma" | "disputed";
 }
 
 const ORPHAN_FIXES: OrphanFix[] = [
@@ -74,12 +76,17 @@ const ORPHAN_FIXES: OrphanFix[] = [
     notes:
       "Yōzan Genki Hayashi was abbot of the original Taizō-in in Fukui City and took Daichō Hayashi in as a monk-novice. Daichō took the Hayashi surname from him and later moved the Taizō-in name to a small Kitada village temple. Per Andrea Martin, 'Ceaseless Effort: The Life of Dainin Katagiri' (MZMC) and Patheos / Great Tree Temple.",
   },
-  // Yūkō Okamoto ← Kōdō Sawaki (already in DB).
+  // Yūkō Okamoto ← Kōdō Sawaki — training relationship, NOT formal shihō.
+  // Sawaki's documented shihō heirs are exactly 8 (5 monks + 3 nuns);
+  // Yūkō Okamoto is absent from every canonical list. His formal shihō
+  // teacher is undocumented in public sources. Edge type is "dharma"
+  // (formation/training) not "primary" (which implies formal shihō).
   {
     student: "yuko-okamoto",
     teacher: "kodo-sawaki",
+    edgeType: "dharma",
     notes:
-      "Yūkō Okamoto practised with Kōdō Sawaki as a young monk at Teishōji (Sawaki's training base). Note: while Okamoto is consistently described as Sawaki's student, the institutional shihō pathway may differ — Sawaki's 5+3 named shihō recipients do not include Yūkō; the formal shihō may have come via Yamada Reirin or Niwa Rempō. Per Muijoji Zen Dōjō Zürich and Seikyuji.",
+      "Yūkō Okamoto trained under Kōdō Sawaki as a young monk at Teishōji — his father Okamoto Taihō's close friendship with Sawaki brought Sawaki regularly to Teishōji for sesshin. This is a training/dharma relationship, NOT a formal shihō: Sawaki is documented to have given shihō to exactly 8 disciples (Narita, Uchiyama, Yokoyama, Myōshin, Kishigami + 3 nuns) and Yūkō Okamoto does not appear on any list. His formal shihō teacher is undocumented. Sources: Muijoji / zen.ch obituary; seikyuji.org (Triet); PeoplePill / Zen genealogy.",
   },
   // Kōjun Kishigami ← Kōdō Sawaki (already in DB).
   {
@@ -432,8 +439,11 @@ async function applyFix(f: OrphanFix): Promise<"added" | "noop"> {
     return "noop";
   }
 
+  const targetType = f.edgeType ?? "primary";
+  const isPrimary = targetType === "primary";
+
   const exists = await db
-    .select({ id: masterTransmissions.id })
+    .select({ id: masterTransmissions.id, type: masterTransmissions.type })
     .from(masterTransmissions)
     .where(
       and(
@@ -442,14 +452,23 @@ async function applyFix(f: OrphanFix): Promise<"added" | "noop"> {
       ),
     )
     .limit(1);
-  if (exists.length > 0) return "noop";
+  if (exists.length > 0) {
+    if (exists[0].type !== targetType) {
+      await db
+        .update(masterTransmissions)
+        .set({ type: targetType, isPrimary, notes: f.notes })
+        .where(eq(masterTransmissions.id, exists[0].id));
+      return "updated" as any;
+    }
+    return "noop";
+  }
 
   await db.insert(masterTransmissions).values({
     id: nanoid(),
     studentId,
     teacherId,
-    type: "primary",
-    isPrimary: true,
+    type: targetType,
+    isPrimary,
     notes: f.notes,
   });
   return "added";
