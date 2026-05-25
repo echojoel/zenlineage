@@ -1,0 +1,1055 @@
+[
+  {
+    "slug": "yuquan-shenxiu-bright-mirror-verse",
+    "type": "verse",
+    "author_slug": "yuquan-shenxiu",
+    "collection": "Platform Sutra",
+    "era": "Tang Dynasty",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "The Bright Mirror Verse",
+    "content": "The body is the bodhi tree,\nthe mind is like a bright mirror stand.\nAt all times we must strive to polish it,\nand must not let dust alight.",
+    "source_id": "src_originals_curated",
+    "ingestion_run_id": "run_chinese_chan_teachings",
+    "locator": "Platform Sutra, verse competition episode; Jingde Chuandenglu, Vol. 4, Shenxiu chapter",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "yuquan-shenxiu", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "yuquan-shenxiu-on-gradual-practice",
+    "type": "sermon",
+    "author_slug": "yuquan-shenxiu",
+    "collection": "Jingde Chuandenglu",
+    "era": "Tang Dynasty",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "On Gradual Cultivation",
+    "content": "Shenxiu instructed his students: \"All deluded thoughts are dust. When dust does not arise, that is the original radiance. You must not allow the dust of deluded thinking to cover the mirror of mind. Therefore I say: at all times, keep polishing. Do not think this effort is in opposition to the sudden teaching. The sudden and the gradual do not fight each other—the sudden is the destination, the gradual is the road. Who reaches the destination without walking the road?\"",
+    "source_id": "src_originals_curated",
+    "ingestion_run_id": "run_chinese_chan_teachings",
+    "locator": "Jingde Chuandenglu, Vol. 4, Shenxiu chapter; Lengqie Shizi Ji",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "yuquan-shenxiu", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "yuquan-shenxiu-northern-teaching",
+    "type": "saying",
+    "author_slug": "yuquan-shenxiu",
+    "collection": "Jingde Chuandenglu",
+    "era": "Tang Dynasty",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "Watch the Mind",
+    "content": "Shenxiu's essential teaching was summarized in four characters: \"Watch the mind\" (kanxin). He taught: \"Watching the mind does not mean looking at something. It means recognizing the one who looks. Rest in that recognition. This is the gate of liberation.\"",
+    "source_id": "src_originals_curated",
+    "ingestion_run_id": "run_chinese_chan_teachings",
+    "locator": "Jingde Chuandenglu, Vol. 4, Shenxiu chapter; Guanxin Lun (attributed)",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "yuquan-shenxiu", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "heze-shenhui-sudden-enlightenment",
+    "type": "sermon",
+    "author_slug": "heze-shenhui",
+    "collection": "Jingde Chuandenglu",
+    "era": "Tang Dynasty",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "On Sudden Enlightenment",
+    "content": "Shenhui said to the assembly: \"The Northern School teaches gradual purification and thereby falls into the error of stages. The Sixth Patriarch's teaching is sudden enlightenment: the self-nature is originally pure, and this original purity does not require polishing. To polish what is already pure is to add dust. When you know in one instant that your original nature is free from the beginning—this is what is meant by sudden enlightenment. It is not that you become enlightened suddenly, but that you see what was never obscured.\"",
+    "source_id": "src_originals_curated",
+    "ingestion_run_id": "run_chinese_chan_teachings",
+    "locator": "Shenhui Yulu (Discourses of Shenhui); Jingde Chuandenglu, Vol. 5",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "heze-shenhui", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "heze-shenhui-debate-at-huatai",
+    "type": "dialogue",
+    "author_slug": "heze-shenhui",
+    "collection": "Jingde Chuandenglu",
+    "era": "Tang Dynasty",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "The Debate at Huatai",
+    "content": "At the great assembly at Huatai, Shenhui challenged the followers of the Northern School: \"When Shenxiu says 'at all times, keep polishing'—who is it that polishes? If the mirror-mind is fundamentally pure, then polishing is unnecessary. If it is impure, then polishing is futile because the impurity is not in the mirror but in the one who looks for impurity. The Sixth Patriarch's verse says: fundamentally there is not a single thing—where could dust alight? This is not a denial of practice. It is an affirmation of the ground on which all practice rests.\"\n\nThe assembly fell silent. Shenhui said: \"Your silence is a better answer than your debate was.\"",
+    "source_id": "src_originals_curated",
+    "ingestion_run_id": "run_chinese_chan_teachings",
+    "locator": "Shenhui Yulu; Jingde Chuandenglu, Vol. 5, Shenhui chapter",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "heze-shenhui", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "tianhuang-daowu-bowl-washing",
+    "type": "dialogue",
+    "author_slug": "tianhuang-daowu",
+    "collection": "Blue Cliff Record",
+    "era": "Tang Dynasty",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "Tianhuang's Bowl Washing",
+    "content": "Lungtan asked Tianhuang Daowu, \"I have been here some time now, but you have never pointed out the heart of mind to me.\" Tianhuang said, \"Ever since you arrived, I have been pointing out the heart of mind to you.\" Lungtan said, \"Where have you pointed it out?\" Tianhuang said, \"When you brought me tea, did I not receive it? When you served me food, did I not eat it? When you bowed, did I not nod? Where is the pointing-out not happening?\" Lungtan hung his head in thought. Tianhuang said, \"To see, you must see directly. If you deliberate, it is already gone.\" At these words, Lungtan was opened.",
+    "source_id": "src_originals_curated",
+    "ingestion_run_id": "run_chinese_chan_teachings",
+    "locator": "Blue Cliff Record, Case 28; Jingde Chuandenglu, Tianhuang chapter",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "tianhuang-daowu", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "tianhuang-daowu-original-face",
+    "type": "saying",
+    "author_slug": "tianhuang-daowu",
+    "collection": "Jingde Chuandenglu",
+    "era": "Tang Dynasty",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "Before Thinking Arises",
+    "content": "Tianhuang Daowu said: \"Before a single thought arises—that is your original face. After a thought arises, you are looking at its reflection. Practice is not the creation of an original face. It is the relinquishment of the habit of mistaking reflections for reality.\"",
+    "source_id": "src_originals_curated",
+    "ingestion_run_id": "run_chinese_chan_teachings",
+    "locator": "Jingde Chuandenglu, Vol. 14, Tianhuang Daowu chapter",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "tianhuang-daowu", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "yanguan-qian-rhinoceros-fan",
+    "type": "dialogue",
+    "author_slug": "yanguan-qian",
+    "collection": "Blue Cliff Record",
+    "era": "Tang Dynasty",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "The Rhinoceros Fan",
+    "content": "One day Yanguan called to his attendant, \"Bring me the rhinoceros-horn fan.\" The attendant said, \"The fan is broken.\" Yanguan said, \"If the fan is broken, then bring me the rhinoceros!\" The attendant had no reply.\n\nXuansha later commented: \"I can bring the rhinoceros. But the trouble is, there is only the horn, and there is no rhinoceros.\" Yunmen held up his staff and said, \"Here is the rhinoceros.\"",
+    "source_id": "src_originals_curated",
+    "ingestion_run_id": "run_chinese_chan_teachings",
+    "locator": "Blue Cliff Record, Case 91; Jingde Chuandenglu, Yanguan chapter",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "yanguan-qian", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "yanguan-qian-on-mind",
+    "type": "saying",
+    "author_slug": "yanguan-qian",
+    "collection": "Jingde Chuandenglu",
+    "era": "Tang Dynasty",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "The One Who Has No Rank",
+    "content": "Yanguan Qian said: \"There is one who has always been present in your own house, who has no rank and no title, who does not appear on any genealogy. Do you know this one? If you know this one, all the Buddhas and patriarchs become your servants. If you do not know this one, you will wander through the three worlds seeking what was never lost.\"",
+    "source_id": "src_originals_curated",
+    "ingestion_run_id": "run_chinese_chan_teachings",
+    "locator": "Jingde Chuandenglu, Vol. 6, Yanguan Qian chapter",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "yanguan-qian", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "yaoshan-dont-think",
+    "type": "dialogue",
+    "author_slug": "yaoshan-weiyan",
+    "collection": "Blue Cliff Record",
+    "era": "Tang Dynasty",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "Don't Think",
+    "content": "Yaoshan was sitting in meditation. A monk asked, \"What are you thinking, sitting there so still?\" Yaoshan said, \"I'm thinking of not-thinking.\" The monk said, \"How do you think of not-thinking?\" Yaoshan said, \"Non-thinking.\"\n\nXuedou's verse: Not-thinking! What kind of thinking is this? A crane stands in the snow—it's not the same color. A bright moon, a reed flower—each has its own appearance. Non-thinking! All Zen students—understand for yourselves!",
+    "source_id": "src_originals_curated",
+    "ingestion_run_id": "run_chinese_chan_teachings",
+    "locator": "Blue Cliff Record, Case 72; Jingde Chuandenglu, Yaoshan chapter",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "yaoshan-weiyan", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "yaoshan-archery-on-high",
+    "type": "dialogue",
+    "author_slug": "yaoshan-weiyan",
+    "collection": "Jingde Chuandenglu",
+    "era": "Tang Dynasty",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "The Arrow on High",
+    "content": "Yaoshan called the assembly together and said, \"I have an arrow here that has been set aside for a long time. Today I intend to release it.\" A monk said, \"What is the target?\" Yaoshan descended from his seat, seized the monk, and said, \"What do you call a target?\" The monk could make no reply. Yaoshan released him and said, \"Go—you have lost the arrow.\"",
+    "source_id": "src_originals_curated",
+    "ingestion_run_id": "run_chinese_chan_teachings",
+    "locator": "Jingde Chuandenglu, Vol. 14, Yaoshan Weiyan chapter",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "yaoshan-weiyan", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "yaoshan-meeting-liji",
+    "type": "dialogue",
+    "author_slug": "yaoshan-weiyan",
+    "collection": "Jingde Chuandenglu",
+    "era": "Tang Dynasty",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "Meeting the Poet Li Ji",
+    "content": "The poet-official Li Ji visited Yaoshan and asked, \"What is the Way?\" Yaoshan pointed upward and then downward and said, \"Do you understand?\" Li Ji said, \"No.\" Yaoshan said, \"The clouds in the sky, the water in the jug.\" Li Ji composed a verse in praise. Yaoshan glanced at it and said, \"The clouds in the sky and the water in the jug—you have written about them very well. But where is the one who pointed up and then down?\" Li Ji could make no reply.",
+    "source_id": "src_originals_curated",
+    "ingestion_run_id": "run_chinese_chan_teachings",
+    "locator": "Jingde Chuandenglu, Vol. 14, Yaoshan Weiyan chapter",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "yaoshan-weiyan", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "daowu-yuanzhi-condolence-visit",
+    "type": "dialogue",
+    "author_slug": "daowu-yuanzhi",
+    "collection": "Blue Cliff Record",
+    "era": "Tang Dynasty",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "The Condolence Visit",
+    "content": "Daowu and Jianyuan went to a house to express condolences. Jianyuan struck the coffin and said, \"Alive or dead?\" Daowu said, \"I won't say alive, I won't say dead.\" Jianyuan said, \"Why won't you say?\" Daowu said, \"I won't say, I won't say.\"\n\nOn the way back, Jianyuan said, \"Please tell me right now, Teacher. If you don't tell me, I'll hit you.\" Daowu said, \"You can hit me if you like, but I still won't say.\" Jianyuan struck him. Later, after Daowu had passed away, Jianyuan went to Shishuang and asked about the same matter. Shishuang said, \"I won't say alive, I won't say dead.\" At these words Jianyuan was awakened.",
+    "source_id": "src_originals_curated",
+    "ingestion_run_id": "run_chinese_chan_teachings",
+    "locator": "Blue Cliff Record, Case 55; Jingde Chuandenglu, Daowu chapter",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "daowu-yuanzhi", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "daowu-yuanzhi-seamless-tower",
+    "type": "dialogue",
+    "author_slug": "daowu-yuanzhi",
+    "collection": "Blue Cliff Record",
+    "era": "Tang Dynasty",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "The Seamless Tower",
+    "content": "A government official asked Daowu, \"What is the essential teaching of Buddhism?\" Daowu said nothing and used his whisk to wipe the official's face. The official said, \"Is this all?\" Daowu said, \"What more did you want?\"\n\nLater Daowu said to his assembly: \"When asked about the essential teaching, use neither words nor silence. Use the whole body. And when you use the whole body, do not think that you are doing something. The Dharma seal does not rest in the palm—it cannot be located.\"",
+    "source_id": "src_originals_curated",
+    "ingestion_run_id": "run_chinese_chan_teachings",
+    "locator": "Jingde Chuandenglu, Vol. 14, Daowu Yuanzhi chapter",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "daowu-yuanzhi", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "yunyan-hands-and-eyes",
+    "type": "dialogue",
+    "author_slug": "yunyan-tansheng",
+    "collection": "Book of Serenity",
+    "era": "Tang Dynasty",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "The Bodhisattva's Hands and Eyes",
+    "content": "Daowu asked Yunyan, \"What does the Bodhisattva of Great Compassion do with so many hands and eyes?\" Yunyan said, \"It is like a person in the night reaching back for a pillow.\" Daowu said, \"I understand.\" Yunyan said, \"What do you understand?\" Daowu said, \"All over the body are hands and eyes.\" Yunyan said, \"That is well said, but it only expresses eight-tenths of it.\" Daowu said, \"Then what do you say, elder brother?\" Yunyan said, \"Throughout the body are hands and eyes.\"",
+    "source_id": "src_originals_curated",
+    "ingestion_run_id": "run_chinese_chan_teachings",
+    "locator": "Book of Serenity, Case 54; Jingde Chuandenglu, Yunyan chapter",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "yunyan-tansheng", "role": "speaker" },
+      { "slug": "daowu-yuanzhi", "role": "respondent" }
+    ]
+  },
+  {
+    "slug": "yunyan-just-this",
+    "type": "dialogue",
+    "author_slug": "yunyan-tansheng",
+    "collection": "Jingde Chuandenglu",
+    "era": "Tang Dynasty",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "Just This Is It",
+    "content": "When Dongshan was about to leave Yunyan, he asked, \"After you have passed away, if someone asks me to describe your teaching, what shall I say?\" Yunyan was silent for a long time. Then he said, \"Just this is it.\" Dongshan fell into thought. Yunyan said, \"You must be very careful with this great matter.\" Dongshan remained doubtful. Later, as he was crossing a stream, he saw his own reflection and was greatly awakened. He composed a verse: \"Avoid seeking it elsewhere, for that is far from the self.\"",
+    "source_id": "src_originals_curated",
+    "ingestion_run_id": "run_chinese_chan_teachings",
+    "locator": "Jingde Chuandenglu, Vol. 15, Yunyan Tansheng chapter",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "yunyan-tansheng", "role": "speaker" },
+      { "slug": "dongshan-liangjie", "role": "respondent" }
+    ]
+  },
+  {
+    "slug": "shishuang-cold-ashes",
+    "type": "saying",
+    "author_slug": "shishuang-qingzhu",
+    "collection": "Jingde Chuandenglu",
+    "era": "Tang Dynasty",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "Cold Ashes, Dead Tree",
+    "content": "Shishuang taught his monks: \"Cease all agitation. Cease all involvement. Be cold ashes. Be a dead tree. Be a strip of white silk. Be a censer in an ancient ruined shrine.\" He called this the practice of \"ten thousand years in one thought\"—not the obliteration of thought, but the return to a stillness so complete that time itself dissolves.",
+    "source_id": "src_originals_curated",
+    "ingestion_run_id": "run_chinese_chan_teachings",
+    "locator": "Jingde Chuandenglu, Vol. 15, Shishuang Qingzhu chapter",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "shishuang-qingzhu", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "shishuang-alive-dead-sitting",
+    "type": "dialogue",
+    "author_slug": "shishuang-qingzhu",
+    "collection": "Blue Cliff Record",
+    "era": "Tang Dynasty",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "Alive or Dead in Sitting",
+    "content": "Jianyuan came to Shishuang and told him of his encounter with Daowu at the condolence visit, where Daowu had refused to say whether the corpse was alive or dead. Jianyuan asked, \"Why did he refuse?\" Shishuang said, \"I won't say alive, I won't say dead.\" Jianyuan said, \"Why won't you say?\" Shishuang said, \"I won't say, I won't say.\" At these words, Jianyuan suddenly understood and bowed.\n\nShishuang said: \"The one who understands alive-or-dead without choosing either—that one sits in the monastery of the ten directions without moving.\"",
+    "source_id": "src_originals_curated",
+    "ingestion_run_id": "run_chinese_chan_teachings",
+    "locator": "Blue Cliff Record, Case 55 commentary; Jingde Chuandenglu, Shishuang chapter",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "shishuang-qingzhu", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "touzi-buddha-sound",
+    "type": "dialogue",
+    "author_slug": "touzi-datong",
+    "collection": "Blue Cliff Record",
+    "era": "Tang Dynasty",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "All Sounds Are Buddha-Sound",
+    "content": "A monk asked Touzi, \"All sounds are the sounds of Buddha—right or wrong?\" Touzi said, \"Right.\" The monk said, \"Teacher, does your ass not make wind?\" Touzi struck him.\n\nAnother monk asked, \"What is the Buddha?\" Touzi said, \"Buddha.\" The monk said, \"What is the Dharma?\" Touzi said, \"Dharma.\" The monk said, \"What is the Sangha?\" Touzi said, \"Sangha.\"\n\nXuedou commented: \"Three answers, three arrows. But Touzi, where are you hiding?\"",
+    "source_id": "src_originals_curated",
+    "ingestion_run_id": "run_chinese_chan_teachings",
+    "locator": "Blue Cliff Record, Case 79; Jingde Chuandenglu, Touzi Datong chapter",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "touzi-datong", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "touzi-all-three-bodies",
+    "type": "dialogue",
+    "author_slug": "touzi-datong",
+    "collection": "Blue Cliff Record",
+    "era": "Tang Dynasty",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "All Three Bodies of Buddha",
+    "content": "A monk asked Touzi, \"The Dharma body—can it preach the Dharma?\" Touzi said, \"I don't preach to the Dharma body. I only preach to you.\" The monk said, \"What do you preach?\" Touzi said, \"Pick up your bowl and go eat.\"\n\nA monk asked, \"What is a Buddha who has not yet attained Buddhahood?\" Touzi said, \"Buddha.\" The monk said, \"Then what is a Buddha who has attained Buddhahood?\" Touzi said, \"Buddha.\"",
+    "source_id": "src_originals_curated",
+    "ingestion_run_id": "run_chinese_chan_teachings",
+    "locator": "Blue Cliff Record, Cases 79–80; Jingde Chuandenglu, Touzi Datong chapter",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "touzi-datong", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "luopu-yuanan-linji-encounter",
+    "type": "dialogue",
+    "author_slug": "luopu-yuanan",
+    "collection": "Jingde Chuandenglu",
+    "era": "Tang Dynasty",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "The Encounter with Linji",
+    "content": "When Luopu was studying with Linji, he asked, \"What is the fundamental teaching of Buddhism?\" Linji raised his fist. Luopu approached and Linji struck him. Luopu stood still. Linji said, \"You can stand there all day—you still haven't answered.\" Luopu then went to study with Yangshan.\n\nYangshan asked, \"Where have you come from?\" Luopu said, \"From Linji.\" Yangshan said, \"What did Linji teach?\" Luopu raised his fist. Yangshan said, \"Is this Linji's fist or your own?\" Luopu said, \"Both.\" Yangshan said, \"Linji should be informed that there is such a fellow in his family.\"",
+    "source_id": "src_originals_curated",
+    "ingestion_run_id": "run_chinese_chan_teachings",
+    "locator": "Jingde Chuandenglu, Vol. 16, Luopu Yuanan chapter",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "luopu-yuanan", "role": "speaker" },
+      { "slug": "linji-yixuan", "role": "respondent" }
+    ]
+  },
+  {
+    "slug": "luopu-yuanan-end-of-summer",
+    "type": "dialogue",
+    "author_slug": "luopu-yuanan",
+    "collection": "Blue Cliff Record",
+    "era": "Tang Dynasty",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "End-of-Summer Address",
+    "content": "At the end of the summer retreat, Luopu said to the assembly: \"All summer I have been talking for your benefit. Look—are my eyebrows still there?\" Baofu said to Changqing, \"The one who feels remorse—his eyebrows are growing.\" Changqing said, \"The one who gives life—his eyebrows are falling off.\"\n\nYunmen said: \"The barrier!\"\n\nXuedou commented: \"Baofu and Changqing each expressed one side. Neither expressed the whole. Yunmen expressed the whole—but where are his eyebrows?\"",
+    "source_id": "src_originals_curated",
+    "ingestion_run_id": "run_chinese_chan_teachings",
+    "locator": "Blue Cliff Record, Case 8 (cf. commentary); Jingde Chuandenglu, Luopu chapter",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "luopu-yuanan", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "xuansha-three-barriers",
+    "type": "dialogue",
+    "author_slug": "xuansha-shibei",
+    "collection": "Jingde Chuandenglu",
+    "era": "Tang Dynasty",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "The Three Barriers",
+    "content": "Xuansha said to his assembly: \"The teachers in all directions say they are going to help living beings. Now suppose a blind person comes to you—how will you teach him with form? Suppose a deaf person comes—how will you teach him with sound? Suppose a mute person comes—how will you have him express himself? If you cannot help these three kinds of people, what is the use of your teaching?\" The assembly had no reply. Xuansha said: \"If you cannot pass through the door of the blind, the deaf, and the mute, your understanding has not yet reached the gate.\"",
+    "source_id": "src_originals_curated",
+    "ingestion_run_id": "run_chinese_chan_teachings",
+    "locator": "Jingde Chuandenglu, Vol. 18, Xuansha Shibei chapter",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "xuansha-shibei", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "xuansha-whole-world-one-eye",
+    "type": "saying",
+    "author_slug": "xuansha-shibei",
+    "collection": "Jingde Chuandenglu",
+    "era": "Tang Dynasty",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "The Whole World Is One Bright Pearl",
+    "content": "Xuansha said: \"The whole world in all ten directions is one bright pearl.\" A monk said, \"I heard you once said, 'The whole world in all ten directions is one bright pearl.' How am I to understand that?\" Xuansha said, \"The whole world in all ten directions is one bright pearl—what is there to understand?\"\n\nThe next day Xuansha asked the monk, \"The whole world in all ten directions is one bright pearl—how do you understand that?\" The monk said, \"The whole world in all ten directions is one bright pearl—what is there to understand?\" Xuansha said, \"I see you are making your living in a demon's cave.\"",
+    "source_id": "src_originals_curated",
+    "ingestion_run_id": "run_chinese_chan_teachings",
+    "locator": "Jingde Chuandenglu, Vol. 18, Xuansha Shibei chapter; Shobogenzo Ikka Myoju",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "xuansha-shibei", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "daguang-juhui-laughing",
+    "type": "dialogue",
+    "author_slug": "daguang-juhui",
+    "collection": "Blue Cliff Record",
+    "era": "Tang Dynasty",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "Daguang's Laughing",
+    "content": "A monk asked Daguang, \"A master of dance has finished her performance. Where has she gone?\" Daguang said, \"Spring breeze has not yet warmed enough.\" The monk pressed, \"When does spring breeze warm enough?\" Daguang said, \"The hibiscus at Shoshan.\" The monk said, \"I don't understand.\" Daguang laughed out loud.\n\nYunmen commented: \"One laugh from Daguang contains a thousand teachings. But where in the laugh do the teachings live?\"",
+    "source_id": "src_originals_curated",
+    "ingestion_run_id": "run_chinese_chan_teachings",
+    "locator": "Blue Cliff Record, Case 42; Jingde Chuandenglu, Daguang Juhui chapter",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "daguang-juhui", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "daguang-juhui-meeting-xuefeng",
+    "type": "dialogue",
+    "author_slug": "daguang-juhui",
+    "collection": "Jingde Chuandenglu",
+    "era": "Tang Dynasty",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "Meeting Xuefeng",
+    "content": "When Daguang Juhui first came to Xuefeng, Xuefeng asked him, \"Where have you come from?\" Daguang said, \"From the south.\" Xuefeng said, \"What teaching is going on in the south?\" Daguang made a gesture of spreading his hands. Xuefeng said, \"That is what goes on here too.\" Daguang bowed. Xuefeng said, \"What are you bowing for?\" Daguang said, \"I am thanking the teacher for the gracious teaching.\"",
+    "source_id": "src_originals_curated",
+    "ingestion_run_id": "run_chinese_chan_teachings",
+    "locator": "Jingde Chuandenglu, Vol. 18, Daguang Juhui chapter",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "daguang-juhui", "role": "speaker" },
+      { "slug": "xuefeng-yicun", "role": "respondent" }
+    ]
+  },
+  {
+    "slug": "jingqing-sound-of-raindrops",
+    "type": "dialogue",
+    "author_slug": "jingqing-daofu",
+    "collection": "Blue Cliff Record",
+    "era": "Five Dynasties",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "The Sound of Raindrops",
+    "content": "Jingqing asked a monk, \"What sound is that outside?\" The monk said, \"The sound of raindrops.\" Jingqing said, \"Sentient beings are inverted. They lose themselves and follow things.\" The monk said, \"What about you, Teacher?\" Jingqing said, \"I almost lose myself.\" The monk asked, \"What do you mean, 'almost lose yourself'?\" Jingqing said, \"To be free from losing oneself is still easy enough. To express it completely is difficult.\"",
+    "source_id": "src_originals_curated",
+    "ingestion_run_id": "run_chinese_chan_teachings",
+    "locator": "Blue Cliff Record, Case 46; Jingde Chuandenglu, Jingqing chapter",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "jingqing-daofu", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "jingqing-original-sound",
+    "type": "dialogue",
+    "author_slug": "jingqing-daofu",
+    "collection": "Jingde Chuandenglu",
+    "era": "Five Dynasties",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "What Is Your Original Sound?",
+    "content": "A monk said to Jingqing, \"I have entered the gate—please show me the way.\" Jingqing said, \"Do you hear the sound of the valley stream?\" The monk said, \"I hear it.\" Jingqing said, \"Enter from there.\"\n\nLater Xuansha heard this story and said, \"What if the monk could not hear the valley stream? The gate would be closed to him.\" Jingqing said, \"If he could not hear it, there would be no problem at all.\"",
+    "source_id": "src_originals_curated",
+    "ingestion_run_id": "run_chinese_chan_teachings",
+    "locator": "Jingde Chuandenglu, Vol. 18, Jingqing Daofu chapter",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "jingqing-daofu", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "luohan-guichen-dizang-closeness",
+    "type": "dialogue",
+    "author_slug": "luohan-guichen",
+    "collection": "Blue Cliff Record",
+    "era": "Five Dynasties",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "Dizang's Closeness",
+    "content": "Fayan asked Dizang (Luohan Guichen), \"Where are you going?\" Fayan said, \"I am going on pilgrimage.\" Dizang said, \"What is the purpose of pilgrimage?\" Fayan said, \"I don't know.\" Dizang said, \"Not knowing is most intimate.\"\n\nXuedou's verse: The road of pilgrimage stretches ten thousand li. / Who has gone there, who has returned? / \"I don't know\"—three words. / From this, mountains and rivers are vast.",
+    "source_id": "src_originals_curated",
+    "ingestion_run_id": "run_chinese_chan_teachings",
+    "locator": "Blue Cliff Record, Case 20; Jingde Chuandenglu, Luohan Guichen chapter",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "luohan-guichen", "role": "speaker" },
+      { "slug": "fayan-wenyi", "role": "respondent" }
+    ]
+  },
+  {
+    "slug": "luohan-guichen-buddha-dharma",
+    "type": "saying",
+    "author_slug": "luohan-guichen",
+    "collection": "Jingde Chuandenglu",
+    "era": "Five Dynasties",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "The Ground Under Your Feet",
+    "content": "Dizang said to his assembly: \"When you look for Buddha, you push Buddha away. When you look for Dharma, you obscure Dharma. What is left when you stop looking? The ground under your feet. Have you examined this ground? You have been standing on it since before you were born.\"",
+    "source_id": "src_originals_curated",
+    "ingestion_run_id": "run_chinese_chan_teachings",
+    "locator": "Jingde Chuandenglu, Vol. 20, Luohan Guichen chapter",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "luohan-guichen", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "tiantai-deshao-reviving-tiantai",
+    "type": "dialogue",
+    "author_slug": "tiantai-deshao",
+    "collection": "Jingde Chuandenglu",
+    "era": "Five Dynasties",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "Chan and Doctrine Are Not Two",
+    "content": "When Deshao had established himself on Mount Tiantai, a student asked him, \"You are a Chan master—why do you study and teach the Tiantai doctrinal commentaries?\" Deshao said, \"The mind that understands Chan and the mind that understands doctrine: is there a difference?\" The student said, \"I don't know.\" Deshao said, \"That is because you have not yet understood either one.\"",
+    "source_id": "src_originals_curated",
+    "ingestion_run_id": "run_chinese_chan_teachings",
+    "locator": "Jingde Chuandenglu, Vol. 25, Tiantai Deshao chapter",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "tiantai-deshao", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "tiantai-deshao-korean-transmission",
+    "type": "saying",
+    "author_slug": "tiantai-deshao",
+    "collection": "Jingde Chuandenglu",
+    "era": "Five Dynasties",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "On Teaching Foreign Monks",
+    "content": "When the Korean monk Gyunyeo came to study with Deshao, seeking Tiantai texts that had been lost in Korea, Deshao said to him: \"The texts were never lost in Korea. They were always in your heart. What you seek from me is confirmation that the Dharma does not belong to one country or one mountain. Take the books—and take this: the Dharma of the texts and the Dharma of the mountain are the same Dharma.\"",
+    "source_id": "src_originals_curated",
+    "ingestion_run_id": "run_chinese_chan_teachings",
+    "locator": "Jingde Chuandenglu, Vol. 25, Tiantai Deshao chapter; Song Gaoseng Zhuan",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "tiantai-deshao", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "yongming-yanshou-chan-pure-land",
+    "type": "sermon",
+    "author_slug": "yongming-yanshou",
+    "collection": "Zongjing lu",
+    "era": "Five Dynasties",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "Chan and Pure Land Together",
+    "content": "Yanshou taught: \"If you have Chan and Pure Land together, you are like a tiger with horns—in the present life a teacher of men, in the future life a Buddha or patriarch. If you have Chan but no Pure Land, nine out of ten will go astray—if the bardo death comes on you, you will follow your karma wherever it leads. If you have Pure Land but no Chan, ten thousand practice, ten thousand go—if you see Amitabha, why worry about not awakening? But if you have neither Chan nor Pure Land—iron bed, bronze pillars—ten thousand kalpas, a thousand births, there is nothing to rely on.\"",
+    "source_id": "src_originals_curated",
+    "ingestion_run_id": "run_chinese_chan_teachings",
+    "locator": "Yongming Yanshou, Four-Line Verse on Chan and Pure Land; Zongjing lu",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "yongming-yanshou", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "yongming-yanshou-one-hundred-acts",
+    "type": "saying",
+    "author_slug": "yongming-yanshou",
+    "collection": "Zongjing lu",
+    "era": "Five Dynasties",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "One Hundred Acts of Virtue",
+    "content": "Yanshou is said to have performed one hundred acts of virtue every day, including reciting the names of Buddhas, practicing meditation, releasing living creatures, copying sutras, worshipping at stupas, giving food to the hungry, and offering incense. He said: \"Each act by itself is a drop of water. Only when the sea is filled drop by drop does the ship of liberation sail. Do not ask which drop was final—every drop was necessary.\"",
+    "source_id": "src_originals_curated",
+    "ingestion_run_id": "run_chinese_chan_teachings",
+    "locator": "Song Gaoseng Zhuan, Yongming Yanshou chapter; Zongjing lu",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "yongming-yanshou", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "dongshan-shouchu-three-pounds-of-flax",
+    "type": "dialogue",
+    "author_slug": "dongshan-shouchu",
+    "collection": "Blue Cliff Record",
+    "era": "Five Dynasties",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "Three Pounds of Hemp",
+    "content": "A monk asked Dongshan Shouchu, \"What is Buddha?\" Dongshan said, \"Three pounds of hemp.\"\n\nXuedou's verse: Three pounds of hemp—\nthe word is straight, the meaning is deep.\nHigh and low together discuss this,\nbut the one who knows is rare.\nThe clouds over the valley stream are white,\nthe moon on the mountain peak is bright.\nWhose hand brings forth the bright pearl?\nWho recognizes the bright pearl?",
+    "source_id": "src_originals_curated",
+    "ingestion_run_id": "run_chinese_chan_teachings",
+    "locator": "Blue Cliff Record, Case 12; Mumonkan, Case 18",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "dongshan-shouchu", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "dongshan-shouchu-meeting-fayan",
+    "type": "dialogue",
+    "author_slug": "dongshan-shouchu",
+    "collection": "Jingde Chuandenglu",
+    "era": "Five Dynasties",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "Meeting Fayan",
+    "content": "Dongshan Shouchu went to visit Fayan Wenyi. Fayan asked, \"Where have you come from?\" Dongshan said, \"From Touzi.\" Fayan said, \"What is Touzi's essential teaching?\" Dongshan said, \"Three pounds of hemp.\" Fayan said, \"That's your essential teaching—what is mine?\" Dongshan said, \"I don't know.\" Fayan said, \"Good. You have saved yourself a question.\"",
+    "source_id": "src_originals_curated",
+    "ingestion_run_id": "run_chinese_chan_teachings",
+    "locator": "Jingde Chuandenglu, Vol. 25, Dongshan Shouchu chapter",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "dongshan-shouchu", "role": "speaker" },
+      { "slug": "fayan-wenyi", "role": "respondent" }
+    ]
+  },
+  {
+    "slug": "xuedou-verse-bodhidharma",
+    "type": "verse",
+    "author_slug": "xuedou-chongxian",
+    "collection": "Blue Cliff Record",
+    "era": "Song Dynasty",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "Verse on Bodhidharma's Vast Emptiness",
+    "content": "Vast emptiness, nothing holy—\nhow will you identify it?\nHe passed before the emperor's face;\nstill people search.\nHe crosses the Yangzi with one reed,\ncreates a whirlwind wherever he walks.\nNationwide the people search—\nwhere has he gone?",
+    "source_id": "src_originals_curated",
+    "ingestion_run_id": "run_chinese_chan_teachings",
+    "locator": "Blue Cliff Record, Case 1, Xuedou's verse",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "xuedou-chongxian", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "xuedou-verse-mazu-sun-face",
+    "type": "verse",
+    "author_slug": "xuedou-chongxian",
+    "collection": "Blue Cliff Record",
+    "era": "Song Dynasty",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "Verse on Sun-Face Buddha",
+    "content": "Sun-face Buddha, Moon-face Buddha—\nWhat kind of person is this?\nThrough twenty years of bittersweet experience,\nthe dragon king is subdued.\nIf you want to know the sword\nthat gives life and the sword that takes—\nhere, look between these two blades.",
+    "source_id": "src_originals_curated",
+    "ingestion_run_id": "run_chinese_chan_teachings",
+    "locator": "Blue Cliff Record, Case 3, Xuedou's verse",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "xuedou-chongxian", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "xuedou-verse-every-day-good-day",
+    "type": "verse",
+    "author_slug": "xuedou-chongxian",
+    "collection": "Blue Cliff Record",
+    "era": "Song Dynasty",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "Verse on Every Day Is a Good Day",
+    "content": "He has flung away and covered up—\nwhat principle is this?\nClouds in the north, rain in the south?\nbut that is already a second view.\nEvery day is a good day—\nhear these words and be careful.\nWhen the swan soars ten thousand feet,\nthe blue sky has not moved.",
+    "source_id": "src_originals_curated",
+    "ingestion_run_id": "run_chinese_chan_teachings",
+    "locator": "Blue Cliff Record, Case 6, Xuedou's verse",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "xuedou-chongxian", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "huanglong-huinan-three-barriers-full",
+    "type": "dialogue",
+    "author_slug": "huanglong-huinan",
+    "collection": "Jingde Chuandenglu",
+    "era": "Song Dynasty",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "Huanglong's Three Barriers",
+    "content": "Huanglong Huinan asked every monk who came to him three questions that he called his three turning words. He would ask: \"Everyone has a birthplace—what is your birthplace?\" Then: \"My hand resembles the Buddha's hand—why?\" Then: \"My leg resembles a donkey's leg—why?\"\n\nNo student was ever able to pass through all three barriers to Huanglong's satisfaction. He said: \"I am not withholding an answer. I am waiting for the question that does not need an answer.\"",
+    "source_id": "src_originals_curated",
+    "ingestion_run_id": "run_chinese_chan_teachings",
+    "locator": "Jingde Chuandenglu, Song supplement; Wudenghuiyuan, Huanglong chapter",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "huanglong-huinan", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "huanglong-huinan-spring-grass",
+    "type": "saying",
+    "author_slug": "huanglong-huinan",
+    "collection": "Wudenghuiyuan",
+    "era": "Song Dynasty",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "The Way of the Patriarchs",
+    "content": "Huanglong said: \"The way of the patriarchs does not lie in the books, does not lie in the words, does not lie in sitting still. It lies in this very moment of meeting. When you and I are face to face right now and the question arises between us—that is the patriarchs' way. Do not look for it in the past. The past is already the past. Do not look for it in the future. The spring grass grows without anyone planting it.\"",
+    "source_id": "src_originals_curated",
+    "ingestion_run_id": "run_chinese_chan_teachings",
+    "locator": "Wudenghuiyuan, Vol. 17, Huanglong Huinan chapter",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "huanglong-huinan", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "changlu-qingliao-silent-illumination-verse",
+    "type": "verse",
+    "author_slug": "changlu-qingliao",
+    "collection": "Wudenghuiyuan",
+    "era": "Song Dynasty",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "On Silent Illumination",
+    "content": "Sitting still in the great stillness,\nnot seeking, not striving, not thinking.\nThe ten thousand things return to the one—\nand the one opens into the ten thousand.\nThis is the teaching of silent illumination:\nnot dead emptiness but living clarity,\nnot suppression but the natural cessation of agitation,\nnot achievement but recognition.",
+    "source_id": "src_originals_curated",
+    "ingestion_run_id": "run_chinese_chan_teachings",
+    "locator": "Wudenghuiyuan, Vol. 14, Changlu Qingliao chapter; Caodong silent-illumination lineage",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "changlu-qingliao", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "changlu-qingliao-zazen-instructions",
+    "type": "sermon",
+    "author_slug": "changlu-qingliao",
+    "collection": "Wudenghuiyuan",
+    "era": "Song Dynasty",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "Instructions for Zazen",
+    "content": "Changlu Qingliao compiled instructions for seated meditation that Dogen would later draw upon in his own Fukan Zazengi. Qingliao wrote: \"Have a thick, square cushion. Sit in the half or full lotus position. Straighten the body and sit upright. Do not lean left or right, forward or back. The ears should be in line with the shoulders; the nose in line with the navel. Place the tongue against the roof of the mouth. The lips and teeth should be closed. Keep the eyes slightly open. Breathe softly through the nose. Having settled the body and breath, release all concerns. Do not think good, do not think bad. Have no grasping, no rejecting. Do not try to make the mind work—allow thought to cease of itself.\"",
+    "source_id": "src_originals_curated",
+    "ingestion_run_id": "run_chinese_chan_teachings",
+    "locator": "Changlu Zongjze, Zuochan Yi (Instructions for Zazen); Wudenghuiyuan, Changlu chapter",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "changlu-qingliao", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "wuzhun-shifan-meeting-enni",
+    "type": "dialogue",
+    "author_slug": "wuzhun-shifan",
+    "collection": "Wudenghuiyuan",
+    "era": "Song Dynasty",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "Teaching the Japanese Monk",
+    "content": "When the Japanese monk Enni Ben'en came to study with Wuzhun Shifan at Jingshan, Wuzhun asked him, \"What did you come here to seek?\" Enni said, \"The Dharma of the patriarchs.\" Wuzhun said, \"The Dharma of the patriarchs is already in Japan—why did you cross the sea?\" Enni said, \"I came to verify what I already have.\" Wuzhun said, \"A good answer. Now let us see if what you have is genuine.\"",
+    "source_id": "src_originals_curated",
+    "ingestion_run_id": "run_chinese_chan_teachings",
+    "locator": "Wudenghuiyuan, Vol. 20, Wuzhun Shifan chapter; Enni Ben'en hagiography",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "wuzhun-shifan", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "wuzhun-shifan-mountain-gate",
+    "type": "saying",
+    "author_slug": "wuzhun-shifan",
+    "collection": "Wudenghuiyuan",
+    "era": "Song Dynasty",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "The Gate of Jingshan",
+    "content": "Wuzhun said to his assembly at Jingshan: \"The gate of this mountain is open to everyone. But to enter the gate, you must leave everything outside it. Your learning, your merit, your rank—all outside. Your concepts of Buddha, Dharma, and Sangha—outside. Even your concept of leaving things outside must be left outside. When there is nothing left to leave, then you have entered. And then you will find that the gate was never there.\"",
+    "source_id": "src_originals_curated",
+    "ingestion_run_id": "run_chinese_chan_teachings",
+    "locator": "Wudenghuiyuan, Vol. 20, Wuzhun Shifan chapter",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "wuzhun-shifan", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "wumen-huikai-gateless-barrier",
+    "type": "sermon",
+    "author_slug": "wumen-huikai",
+    "collection": "Wumenguan",
+    "era": "Song Dynasty",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "The Gateless Barrier (Preface)",
+    "content": "Buddhism makes mind its foundation and no-gate its gate. Now, how do you pass through this no-gate? It is said that things coming in through the gate can never be your own treasures. What is gained from external circumstances will perish in the end. However, such a saying is already raising waves when there is no wind. It is cutting unblemished skin. As for those who try to understand through other people's words, they are striking at the moon with a stick; scratching a shoe when the foot itches. What concern have they with the truth?",
+    "source_id": "src_originals_curated",
+    "ingestion_run_id": "run_chinese_chan_teachings",
+    "locator": "Wumenguan (Mumonkan), Preface",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "wumen-huikai", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "wumen-huikai-verse-on-joshu-mu",
+    "type": "verse",
+    "author_slug": "wumen-huikai",
+    "collection": "Wumenguan",
+    "era": "Song Dynasty",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "Verse on Zhaozhou's Mu",
+    "content": "Dog—Buddha nature!\nThe full presentation of the whole truth.\nIf you add or subtract even a hair,\nyou lose your body and life.\n\nWumen's comment: For the practice of Zen it is imperative that you pass through the barrier set up by the patriarchs. For this, your intention should be concentrated in one spot to the extent that it pervades every moment of your life. Concentrate on this one word 'Mu.' Carry it continuously day and night. Do not form a nihilistic conception of vacancy, or a relative conception of 'has' or 'has not.' It will be just as if you swallow a red-hot iron ball, which you cannot spit out even if you try.",
+    "source_id": "src_originals_curated",
+    "ingestion_run_id": "run_chinese_chan_teachings",
+    "locator": "Wumenguan (Mumonkan), Case 1 — Verse and Commentary",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "wumen-huikai", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "wumen-huikai-finger-and-ox",
+    "type": "verse",
+    "author_slug": "wumen-huikai",
+    "collection": "Wumenguan",
+    "era": "Song Dynasty",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "Verse on Juzhi's Finger",
+    "content": "Old Juzhi made a fool of Kotan,\nbut the sharp blade couldn't be stopped.\nThe deity raised his hand—\nand suddenly the mountain was divided into many folds.\n\nWumen's comment: The enlightenment of Juzhi and the boy were alike, but not the same. If you want to know the difference, just hold up a single finger.",
+    "source_id": "src_originals_curated",
+    "ingestion_run_id": "run_chinese_chan_teachings",
+    "locator": "Wumenguan (Mumonkan), Case 3 — Verse and Commentary",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "wumen-huikai", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "muzhou-daoming-abrupt-methods",
+    "type": "dialogue",
+    "author_slug": "muzhou-daoming",
+    "collection": "Jingde Chuandenglu",
+    "era": "Tang Dynasty",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "The Door-Kicking Master",
+    "content": "Muzhou Daoming was famous for his abrupt methods. When a monk arrived at the monastery gate, Muzhou would call out from inside, \"Who is it?\" When the monk answered, Muzhou would shout, \"Wrong!\" and slam the door.\n\nYunmen came to study with Muzhou and knocked at the gate three times. Each time Muzhou opened the gate a crack and then slammed it. On the third day, when Yunmen knocked, Muzhou opened the gate, seized Yunmen, and demanded: \"Speak! Speak!\" As Yunmen hesitated, Muzhou shoved him out and slammed the gate on his leg. Yunmen cried out in pain—and in that moment was awakened.",
+    "source_id": "src_originals_curated",
+    "ingestion_run_id": "run_chinese_chan_teachings",
+    "locator": "Jingde Chuandenglu, Vol. 12, Muzhou Daoming chapter; Record of Yunmen",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "muzhou-daoming", "role": "speaker" },
+      { "slug": "yunmen-wenyan", "role": "respondent" }
+    ]
+  },
+  {
+    "slug": "muzhou-daoming-linji-encounter",
+    "type": "dialogue",
+    "author_slug": "muzhou-daoming",
+    "collection": "Jingde Chuandenglu",
+    "era": "Tang Dynasty",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "Sending Linji to Huangbo",
+    "content": "When Linji Yixuan came to study with Muzhou, Muzhou recognized his potential but directed him elsewhere. He said to Linji: \"You have some understanding, but you have not yet reached the bottom. Go to Huangbo—his style of teaching may break through what my style cannot.\" Linji said, \"How will I know when I have reached the bottom?\" Muzhou said, \"When you stop asking questions like that.\"",
+    "source_id": "src_originals_curated",
+    "ingestion_run_id": "run_chinese_chan_teachings",
+    "locator": "Jingde Chuandenglu, Vol. 12, Muzhou Daoming chapter; Record of Linji",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "muzhou-daoming", "role": "speaker" },
+      { "slug": "linji-yixuan", "role": "respondent" }
+    ]
+  },
+  {
+    "slug": "jiashan-shanhui-boat-monk-koan",
+    "type": "dialogue",
+    "author_slug": "jiashan-shanhui",
+    "collection": "Blue Cliff Record",
+    "era": "Tang Dynasty",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "Jiashan and the Boat Monk",
+    "content": "The Boat Monk Chuanzi met Jiashan at a river crossing. He asked Jiashan, \"In what temple do you stay?\" Jiashan said, \"I don't stay in a temple. Where I stay is not like anything.\" The Boat Monk said, \"Not like anything—like what?\" Jiashan said, \"Not the Dharma before your eyes.\" The Boat Monk said, \"A single phrase and you go on elaborating. Quick, get out!\" And he capsized the boat. When Jiashan climbed back, the Boat Monk shouted, \"Speak! Speak!\" As Jiashan was about to open his mouth, the Boat Monk struck him with his oar. At this Jiashan was deeply awakened.\n\nAfterward Jiashan said: \"I had a thousand sayings on the tip of my tongue. One blow from an oar—and they all became one.\"",
+    "source_id": "src_originals_curated",
+    "ingestion_run_id": "run_chinese_chan_teachings",
+    "locator": "Blue Cliff Record, Case 23; Jingde Chuandenglu, Jiashan chapter",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "jiashan-shanhui", "role": "speaker" },
+      { "slug": "chuanzi-decheng", "role": "respondent" }
+    ]
+  },
+  {
+    "slug": "jiashan-shanhui-no-dwelling",
+    "type": "saying",
+    "author_slug": "jiashan-shanhui",
+    "collection": "Jingde Chuandenglu",
+    "era": "Tang Dynasty",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "The Place That Is Not Like Anything",
+    "content": "After his awakening, Jiashan taught: \"The place where I dwell is not a temple, not a mountain, not a city. It has no walls and no floor. It cannot be pointed to and cannot be missed. When a student asks me where it is, I say: right here. When the student looks, I say: already gone. This is the place that is not like anything—and it is the only place you have ever actually lived.\"",
+    "source_id": "src_originals_curated",
+    "ingestion_run_id": "run_chinese_chan_teachings",
+    "locator": "Jingde Chuandenglu, Vol. 16, Jiashan Shanhui chapter",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "jiashan-shanhui", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "baofu-congzhan-cuiyans-eyebrows",
+    "type": "dialogue",
+    "author_slug": "baofu-congzhan",
+    "collection": "Blue Cliff Record",
+    "era": "Tang Dynasty",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "Cuiyan's Eyebrows",
+    "content": "At the end of the summer retreat, Cuiyan said to the assembly: \"All summer I have been talking for your benefit. Look—are Cuiyan's eyebrows still there?\" Baofu said to Changqing, \"The one who steals feels his heart beat fast.\" Changqing said, \"They are growing.\" Yunmen said, \"The barrier!\"\n\nLater Baofu said: \"People ask whether the eyebrows grew or fell out. The real question is: who is looking?\"",
+    "source_id": "src_originals_curated",
+    "ingestion_run_id": "run_chinese_chan_teachings",
+    "locator": "Blue Cliff Record, Case 8; Jingde Chuandenglu, Baofu Congzhan chapter",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "baofu-congzhan", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "baofu-congzhan-great-way",
+    "type": "dialogue",
+    "author_slug": "baofu-congzhan",
+    "collection": "Jingde Chuandenglu",
+    "era": "Tang Dynasty",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "The Great Way Is Before Your Eyes",
+    "content": "A monk asked Baofu, \"What is the Great Way?\" Baofu said, \"It is right before your eyes.\" The monk said, \"Why can't I see it?\" Baofu said, \"Because you have a self, you cannot see it.\" The monk asked, \"Can a person who has no self see it?\" Baofu said, \"There is no such person to ask.\"",
+    "source_id": "src_originals_curated",
+    "ingestion_run_id": "run_chinese_chan_teachings",
+    "locator": "Jingde Chuandenglu, Vol. 19, Baofu Congzhan chapter",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "baofu-congzhan", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "guizong-zhichang-forest-of-brambles",
+    "type": "dialogue",
+    "author_slug": "guizong-zhichang",
+    "collection": "Blue Cliff Record",
+    "era": "Tang Dynasty",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "The Forest of Brambles",
+    "content": "A monk asked Guizong, \"What is Buddha?\" Guizong said, \"I will tell you, but I am afraid you won't believe it.\" The monk said, \"How could I not believe the teacher's sincere words?\" Guizong said, \"You—you yourself are it.\" The monk said, \"How can I preserve it?\" Guizong said, \"When your eye has the slightest fault, flowers fall from the sky.\"\n\nXuedou later commented: \"A forest of brambles—and yet right through it is the ancient road.\"",
+    "source_id": "src_originals_curated",
+    "ingestion_run_id": "run_chinese_chan_teachings",
+    "locator": "Blue Cliff Record, Case 17 (commentary); Jingde Chuandenglu, Guizong chapter",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "guizong-zhichang", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "guizong-zhichang-killing-a-snake",
+    "type": "dialogue",
+    "author_slug": "guizong-zhichang",
+    "collection": "Jingde Chuandenglu",
+    "era": "Tang Dynasty",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "Guizong Kills a Snake",
+    "content": "Guizong was hoeing in the garden when he killed a snake with his hoe. A monk who was watching was horrified and said, \"Master, you preach compassion and yet you kill living beings.\" Guizong held up the hoe and said, \"Speak—did I kill it or not?\" The monk had no reply. Guizong said: \"The compassion that avoids all contact with the world is not the compassion of the Buddhas. The compassion of the Buddhas does not flinch from contact.\"",
+    "source_id": "src_originals_curated",
+    "ingestion_run_id": "run_chinese_chan_teachings",
+    "locator": "Jingde Chuandenglu, Vol. 7, Guizong Zhichang chapter",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "guizong-zhichang", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "langye-huijue-spring-comes-grass-grows",
+    "type": "verse",
+    "author_slug": "langye-huijue",
+    "collection": "Wudenghuiyuan",
+    "era": "Song Dynasty",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "Spring Comes, Grass Grows Naturally",
+    "content": "When spring comes, the grass grows naturally.\nWhen autumn comes, the dew becomes frost.\nThis is not something arranged.\nThis is not something practiced.\nThe ten thousand things arise and cease\naccording to their nature—\nand the Dharma that underlies them all\narises and ceases with nothing.",
+    "source_id": "src_originals_curated",
+    "ingestion_run_id": "run_chinese_chan_teachings",
+    "locator": "Wudenghuiyuan, Langye Huijue chapter; associated verse tradition",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "langye-huijue", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "langye-huijue-vast-empty-sky",
+    "type": "dialogue",
+    "author_slug": "langye-huijue",
+    "collection": "Wudenghuiyuan",
+    "era": "Song Dynasty",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "The Vast Empty Sky",
+    "content": "A monk asked Langye, \"What is the state before a thought arises?\" Langye said, \"The vast empty sky.\" The monk asked, \"What is the state after a thought arises?\" Langye said, \"The vast empty sky.\" The monk said, \"How is it possible that the sky is the same before and after?\" Langye said, \"How is it possible that you think it would be different?\"",
+    "source_id": "src_originals_curated",
+    "ingestion_run_id": "run_chinese_chan_teachings",
+    "locator": "Wudenghuiyuan, Langye Huijue chapter",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "langye-huijue", "role": "speaker" }
+    ]
+  }
+]

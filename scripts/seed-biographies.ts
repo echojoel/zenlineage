@@ -2061,7 +2061,9 @@ After leaving Linji's community Luopu turned south to Jiashan, who reportedly re
   },
   {
     slug: "guizong-cezhen",
-    content: `Guizong Cezhen (歸宗策真, d. 979) was an early Five-Dynasties / Northern-Song Fayan-house teacher in the line descending from Fayan Wenyi, abbot of Guizong-si on Mount Lu in modern Jiangxi[1]. He is to be distinguished from the earlier and better-attested Guizong Zhichang of the mid-eighth century, a Mazu disciple at the same temple; lamp records and modern reconstructions both treat the two figures as separate, though they share the temple-name epithet[2].`,
+    content: `Guizong Cezhen (歸宗策真, d. 979) was an early Five-Dynasties / Northern-Song Fayan-house teacher in the line descending from Fayan Wenyi, abbot of Guizong-si on Mount Lu in modern Jiangxi[1]. He is to be distinguished from the earlier and better-attested Guizong Zhichang of the mid-eighth century, a Mazu disciple at the same temple; lamp records and modern reconstructions both treat the two figures as separate, though they share the temple-name epithet[2].
+
+The Guizong-si on Mount Lu (Lushan, in modern Jiangxi) was one of the most historically layered Chan sites in China, having housed generations of teachers across multiple lineages. Cezhen's abbacy there in the second half of the tenth century placed him within the Fayan house's most active period of expansion from its base in the Wuyue and Southern Tang kingdoms[3]. The Fayan house under Fayan Wenyi and his heirs Tiantai Deshao and Yongming Yanshou cultivated a notably ecumenical approach — engaging Huayan philosophy and, in Yanshou's case, Pure Land practice — and Cezhen's tenure at the storied Guizong-si reflects the house's broad institutional reach in the generation before the Song reunification absorbed the Five-Dynasties polities[4].`,
     footnotes: [
       {
         index: 1,
@@ -2072,6 +2074,16 @@ After leaving Linji's community Luopu turned south to Jiashan, who reportedly re
         index: 2,
         sourceId: "src_dumoulin_india_china",
         pageOrSection: "Vol. 1, ch. on Mount Lu Chan and the Guizong-si succession",
+      },
+      {
+        index: 3,
+        sourceId: "src_dumoulin_india_china",
+        pageOrSection: "Vol. 1, ch. on the Fayan house in the Five Dynasties period",
+      },
+      {
+        index: 4,
+        sourceId: "src_wikipedia",
+        pageOrSection: "Fayan Wenyi — Fayan school and its ecumenical synthesis",
       },
     ],
   },
@@ -2780,9 +2792,30 @@ The lamp records and the *Línjì Lù* supplementary materials preserve a small 
   },
   {
     slug: "langye-huijue",
-    content: `Langye Huijue is recorded in the historiography of the late-Tang / Song-period Chan transmission network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].`,
+    content: `Langye Huijue (琅琊慧覺, fl. late 10th – early 11th c.) was a Linji-line Chan master of the early Northern Song and a Dharma heir of Fenyang Shanzhao, one of the most important transmitters of the Linji house after the turbulence of the Five Dynasties period[1]. He settled at Langye Mountain in modern Anhui, where his community became one of the few significant Linji teaching centres of the early Song outside Fenyang Shanzhao's home base at Fenzhou[2].
+
+Huijue is among the teachers recorded in the *Jǐngdé Chuándēng Lù* continuation-records and the *Wudeng Huiyuan* for small collections of encounter dialogues in the characteristic Linji style — terse exchanges using the shout, the staff, and sharp reversals of question and answer. Although his individual line did not give rise to any of the canonical sub-houses, his community helped sustain the Linji house during the Northern Song generation before Shishuang Chuyuan's heirs Yangqi Fanghui and Huanglong Huinan restructured it into the two sub-lineages that would dominate the Southern Song period[3]. Several Song-era lamp records cite him alongside Fenyang's other students as proof that the Linji line had revived from near-extinction across the Five Dynasties interregnum[4].`,
       footnotes: [
-      { index: 1, sourceId: "src_dumoulin_india_china", pageOrSection: "Vol. 1, ch. on the late-Tang / Song-period Chan transmission" },
+      {
+        index: 1,
+        sourceId: "src_dumoulin_india_china",
+        pageOrSection: "Vol. 1, ch. on the Linji line through the Five Dynasties and early Song",
+      },
+      {
+        index: 2,
+        sourceId: "src_ferguson_zen_chinese_heritage",
+        pageOrSection: "Langye Huijue — biographical entry; Langye Mountain community",
+      },
+      {
+        index: 3,
+        sourceId: "src_dumoulin_india_china",
+        pageOrSection: "Vol. 1, ch. on the Song division of the Linji line into Yangqi and Huanglong sub-houses",
+      },
+      {
+        index: 4,
+        sourceId: "src_wikipedia",
+        pageOrSection: "Fenyang Shanzhao — Linji heirs and the early Song revival",
+      },
     ],
   },
   {
@@ -5469,7 +5502,9 @@ The Kumu circle and the wider *mòzhào* revival became the focal point of Dahui
   },
   {
     slug: "poan-zuxian",
-    content: `Po'an Zuxian (破菴祖先, 1136–1211) was a Yangqi-line Linji master of the Southern Song and the Dharma heir of Mi'an Xianjie; his Dharma in turn passed to Wuzhun Shifan, the major Jingshan-monastery teacher of the next generation[1]. The lamp records and the *Po'an Yulu* preserve a small but coherent body of his teaching, and his place in Chan history is principally that of the immediate link between Mi'an and the late-Song Yangqi resurgence under Wuzhun and his successors[2].`,
+    content: `Po'an Zuxian (破菴祖先, 1136–1211) was a Yangqi-line Linji master of the Southern Song and the Dharma heir of Mi'an Xianjie; his Dharma in turn passed to Wuzhun Shifan, the major Jingshan-monastery teacher of the next generation[1]. The lamp records and the *Po'an Yulu* preserve a small but coherent body of his teaching, and his place in Chan history is principally that of the immediate link between Mi'an and the late-Song Yangqi resurgence under Wuzhun and his successors[2].
+
+Po'an held abbacies at several important Southern Song temples — including Dalong-si in Suzhou — and his administrative career overlapped with the imperial "public-monastery" (shifang) system that made abbatial appointments a matter of court patronage[3]. The *Po'an Yulu* records his characteristic teaching style as direct and unhurried: where Mi'an Xianjie had been noted for a sharp, combative approach to koan exchange, Po'an leaned toward the patient, probing method that would mark Wuzhun Shifan's long abbacy at Jingshan as well. The line from Mi'an through Po'an to Wuzhun thus represents a subtle tonal shift within the Yangqi house — from the vigorous confrontational mode of the high-Northern-Song toward the more institutional, literati-oriented Chan of the late Southern Song that would pass its culture directly to the Kamakura Rinzai institutions through Wuzhun's Japanese students[4].`,
     footnotes: [
       {
         index: 1,
@@ -5480,6 +5515,16 @@ The Kumu circle and the wider *mòzhào* revival became the focal point of Dahui
         index: 2,
         sourceId: "src_dumoulin_japan",
         pageOrSection: "ch. on the late-Song Yangqi line and the transmission to Japan",
+      },
+      {
+        index: 3,
+        sourceId: "src_schlutter_dahui",
+        pageOrSection: "ch. on the shifang public-monastery system and Southern Song abbatial patronage",
+      },
+      {
+        index: 4,
+        sourceId: "src_dumoulin_japan",
+        pageOrSection: "ch. on Song literary and institutional Chan transmitted to Kamakura Japan",
       },
     ],
   },

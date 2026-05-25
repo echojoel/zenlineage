@@ -11,7 +11,7 @@
   <rect width="600" height="600" fill="url(#paper)"/>
   <g transform="translate(300 280)">
     <circle r="200" fill="none" stroke="hsl(10, 25%, 35%)" stroke-width="10" stroke-linecap="round" stroke-dasharray="1230 30" transform="rotate(-18)" opacity="0.85"/>
-    <text y="28" text-anchor="middle" font-family="Cormorant Garamond, serif" font-size="120" fill="hsl(10, 20%, 22%)" style="font-weight:500; letter-spacing:6px;">SG</text>
+    <text y="36.666666666666664" text-anchor="middle" font-family="Songti SC, STSong, Noto Serif CJK TC, serif" font-size="110" fill="hsl(10, 20%, 22%)" style="font-weight:500;">宗般玄芳</text>
   </g>
   <text x="300" y="530" text-anchor="middle" font-family="Cormorant Garamond, serif" font-size="26" fill="hsl(10, 20%, 22%)" style="font-weight:500;">Sohan Genyo</text>
   <text x="300" y="562" text-anchor="middle" font-family="Cormorant Garamond, serif" font-size="16" fill="hsl(10, 15%, 50%)" style="letter-spacing:1px;">1848–1922</text>
