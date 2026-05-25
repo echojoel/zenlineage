@@ -1,0 +1,632 @@
+[
+  {
+    "slug": "shanakavasa-hemp-robe-transmission",
+    "type": "dialogue",
+    "author_slug": "shanakavasa",
+    "collection": "Denkoroku",
+    "era": "Ancient India",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "The Robe That Never Wears Out",
+    "content": "When Ānanda was about to transmit the Dharma, Śāṇavāsa asked him: 'What did the World-Honored One transmit to Mahākāśyapa besides the robe and bowl?' Ānanda descended from his seat, stood upright, and folded his hands. Śāṇavāsa said: 'I understand.' Ānanda said: 'What have you understood?' Śāṇavāsa said: 'It is just this—nothing hidden, nothing added.'\n\nKeizan's verse: The hemp robe worn since birth / never tears and never frays. / What is this robe? / Search the ten directions—nothing lacks it.",
+    "source_id": "src_originals_curated",
+    "ingestion_run_id": "run_patriarchs_teachings",
+    "locator": "Denkoroku, Case 4",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "shanakavasa", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "shanakavasa-born-robed",
+    "type": "saying",
+    "author_slug": "shanakavasa",
+    "collection": "Jingde Chuandenglu",
+    "era": "Ancient India",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "Born Already Robed",
+    "content": "Śāṇavāsa is said to have been born wearing a hempen robe, the same robe he wore throughout his practice and in which he entered nirvāṇa. When asked about this wonder, he said: 'This robe is not mine alone. Every being is born already wearing it. The only question is whether you know you have it on.'",
+    "source_id": "src_originals_curated",
+    "ingestion_run_id": "run_patriarchs_teachings",
+    "locator": "Jingde Chuandenglu, Vol. 1, Shanakavasa chapter",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "shanakavasa", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "upagupta-no-flowers-no-fragrance",
+    "type": "dialogue",
+    "author_slug": "upagupta",
+    "collection": "Denkoroku",
+    "era": "Ancient India",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "The Fragrance Without a Flower",
+    "content": "When Śāṇavāsa was about to transmit the Dharma, he asked Upagupta: 'Can you hold the formless?' Upagupta held up his empty hand. Śāṇavāsa said: 'What is in your hand?' Upagupta said: 'Ask what is not in it.' Śāṇavāsa said: 'I transmit to you this flower without fragrance, this fragrance without a flower.'\n\nKeizan's verse: No root, no stem, no petal— / yet the whole garden fills with scent. / This is the flower transmitted / from mind to mind since ancient times.",
+    "source_id": "src_originals_curated",
+    "ingestion_run_id": "run_patriarchs_teachings",
+    "locator": "Denkoroku, Case 5",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "upagupta", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "upagupta-mara-converted",
+    "type": "dialogue",
+    "author_slug": "upagupta",
+    "collection": "Jingde Chuandenglu",
+    "era": "Ancient India",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "Converting Māra",
+    "content": "Upagupta is said to have tamed Māra, the embodiment of delusion, through the power of samādhi. When Māra appeared in a radiant form to seduce practitioners, Upagupta placed the rotting corpses of a dog, a snake, and a human being around Māra's neck. Māra, unable to remove them, begged for release. Upagupta said: 'Bow to the Buddha.' Māra said: 'The Buddha is long gone.' Upagupta said: 'This form I put on you—is it gone?'",
+    "source_id": "src_originals_curated",
+    "ingestion_run_id": "run_patriarchs_teachings",
+    "locator": "Jingde Chuandenglu, Vol. 1, Upagupta chapter; Ashokavadana",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "upagupta", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "dhritaka-mind-like-space",
+    "type": "dialogue",
+    "author_slug": "dhritaka",
+    "collection": "Denkoroku",
+    "era": "Ancient India",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "The Mind That Is Like Space",
+    "content": "When Upagupta was about to transmit the Dharma, he asked Dhṛtaka: 'My mind is at peace. Is yours?' Dhṛtaka said: 'Your mind is at peace, and so all minds are at peace.' Upagupta said: 'Where does this peace come from?' Dhṛtaka said: 'It comes from nowhere. That is why it is peace.'\n\nKeizan's verse: Sky above, sky below— / the mountain sits without moving. / This peace was never disturbed. / Who told you it needed to be found?",
+    "source_id": "src_originals_curated",
+    "ingestion_run_id": "run_patriarchs_teachings",
+    "locator": "Denkoroku, Case 6",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "dhritaka", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "michaka-the-auspicious-omen",
+    "type": "dialogue",
+    "author_slug": "michaka",
+    "collection": "Denkoroku",
+    "era": "Ancient India",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "The Auspicious Cloud",
+    "content": "As Dhṛtaka approached a city, an auspicious cloud appeared in the sky above it. A man named Mīcaka came forward and said: 'I saw this cloud in a dream three days ago. In the dream an elder came from afar carrying the sun in his hands.' Dhṛtaka said: 'Who told you it was in his hands?' Mīcaka said: 'Where else would it be?' Dhṛtaka said: 'Good. You have already answered your own question.'\n\nKeizan's verse: Three days before the meeting / the dream had already passed. / Do not look for the sun— / you are standing in its light.",
+    "source_id": "src_originals_curated",
+    "ingestion_run_id": "run_patriarchs_teachings",
+    "locator": "Denkoroku, Case 7",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "michaka", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "michaka-the-wandering-master",
+    "type": "saying",
+    "author_slug": "michaka",
+    "collection": "Jingde Chuandenglu",
+    "era": "Ancient India",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "On the Practice of Non-Dwelling",
+    "content": "Mīcaka was known for his continuous wandering across central India, never residing long in one place. He said to his students: 'The Dharma is not found in one place. It is not found in many places. When you understand this, every step is already home, and every place is the place of practice.'",
+    "source_id": "src_originals_curated",
+    "ingestion_run_id": "run_patriarchs_teachings",
+    "locator": "Jingde Chuandenglu, Vol. 1, Michaka chapter",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "michaka", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "vasumitra-wine-jar-dharma",
+    "type": "dialogue",
+    "author_slug": "vasumitra",
+    "collection": "Denkoroku",
+    "era": "Ancient India",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "The Wine Jar and the Dharma",
+    "content": "Vasumitra was known to frequent wine shops without drinking wine, appearing in the midst of ordinary life. When Mīcaka found him and asked: 'You dwell among the impure—how is your mind?' Vasumitra said: 'You are the one who judges pure and impure. My mind judges nothing.' Mīcaka said: 'And the Dharma?' Vasumitra said: 'It has been sitting here in the wine shop all along.'\n\nKeizan's verse: The master enters the wine shop / and the wine shop becomes a monastery. / Not because he purifies it— / he simply sees what was always there.",
+    "source_id": "src_originals_curated",
+    "ingestion_run_id": "run_patriarchs_teachings",
+    "locator": "Denkoroku, Case 8",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "vasumitra", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "buddhanandi-north-star-dharma",
+    "type": "dialogue",
+    "author_slug": "buddhanandi",
+    "collection": "Denkoroku",
+    "era": "Ancient India",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "The Star That Does Not Move",
+    "content": "When Vasumitra was about to transmit the Dharma, he asked Buddhanandi: 'A star shines in the north that does not move while all other stars revolve around it. What is this star?' Buddhanandi said: 'Every star is that star.' Vasumitra said: 'And what revolves around you?' Buddhanandi said: 'Nothing has ever moved.'\n\nKeizan's verse: The pole star holds its place / not through effort but through stillness. / Ten thousand thoughts arise and pass— / the one who watches does not stir.",
+    "source_id": "src_originals_curated",
+    "ingestion_run_id": "run_patriarchs_teachings",
+    "locator": "Denkoroku, Case 9",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "buddhanandi", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "buddhanandi-sound-of-the-bell",
+    "type": "saying",
+    "author_slug": "buddhanandi",
+    "collection": "Jingde Chuandenglu",
+    "era": "Ancient India",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "Where Does the Bell Sound Go?",
+    "content": "A student asked Buddhanandi: 'When the bell is struck, where does the sound go?' Buddhanandi said: 'Ask where it came from.' The student was silent. Buddhanandi said: 'You hear the silence now. Has it gone anywhere?'",
+    "source_id": "src_originals_curated",
+    "ingestion_run_id": "run_patriarchs_teachings",
+    "locator": "Jingde Chuandenglu, Vol. 1, Buddhanandi chapter",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "buddhanandi", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "buddhamitra-householder-gate",
+    "type": "dialogue",
+    "author_slug": "buddhamitra",
+    "collection": "Denkoroku",
+    "era": "Ancient India",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "Entering the Gate as a Householder",
+    "content": "Buddhamitra did not enter the saṅgha until late in life. When asked how he had practiced before becoming a monk, he said: 'Every meal I prepared was an offering. Every word I spoke to my family was a teaching. Every time I laid down to sleep I entered the great stillness. The gate of the Dharma is not at the monastery entrance—it is wherever you stand right now.'\n\nKeizan's verse: Forty years in the household— / not one day apart from the Way. / The monk shaves his head and robes himself. / The householder was already wearing the robe.",
+    "source_id": "src_originals_curated",
+    "ingestion_run_id": "run_patriarchs_teachings",
+    "locator": "Denkoroku, Case 10",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "buddhamitra", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "parshva-the-elder-who-never-lay-down",
+    "type": "dialogue",
+    "author_slug": "parshva",
+    "collection": "Denkoroku",
+    "era": "Ancient India",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "The Vow of Pārśva",
+    "content": "When Pārśva was ordained at the age of sixty, he made a vow never to lay his side (*pārśva*) upon a bed until he had fully realized liberation. A young monk asked him: 'Is this austerity not simply attachment to practice?' Pārśva said: 'You speak of attachment and non-attachment as though they were two things. My vow is not the door—it is the fire that burns the door away.'\n\nKeizan's verse: Sixty years of ordinary life— / then one night, no more lying down. / The body is like a standing mountain. / What is it that never sleeps?",
+    "source_id": "src_originals_curated",
+    "ingestion_run_id": "run_patriarchs_teachings",
+    "locator": "Denkoroku, Case 11",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "parshva", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "parshva-on-the-meaning-of-buddha",
+    "type": "saying",
+    "author_slug": "parshva",
+    "collection": "Jingde Chuandenglu",
+    "era": "Ancient India",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "What Does 'Buddha' Mean?",
+    "content": "Pārśva said: 'People ask what the word Buddha means. It means awakened. Then they ask: awakened to what? To this—to what is here right now, before the question arose. The word is just a finger pointing at your own face.'",
+    "source_id": "src_originals_curated",
+    "ingestion_run_id": "run_patriarchs_teachings",
+    "locator": "Jingde Chuandenglu, Vol. 1, Parshva chapter",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "parshva", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "punyayashas-converting-ashvaghosha",
+    "type": "dialogue",
+    "author_slug": "punyayashas",
+    "collection": "Denkoroku",
+    "era": "Ancient India",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "The Debate That Ended Without Debate",
+    "content": "Aśvaghoṣa was a renowned brahmin philosopher who had defeated sixty Buddhist teachers in debate. When Puṇyayaśas came to his city, Aśvaghoṣa challenged him: 'I will debate you on the question of what is a Buddha.' Puṇyayaśas said: 'I do not debate.' Aśvaghoṣa said: 'Then you have already lost.' Puṇyayaśas said: 'Yes. I lost long ago, and since then I have known great peace.'\n\nAśvaghoṣa fell silent. Then he bowed.",
+    "source_id": "src_originals_curated",
+    "ingestion_run_id": "run_patriarchs_teachings",
+    "locator": "Denkoroku, Case 12; Jingde Chuandenglu, Punyayashas chapter",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "punyayashas", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "kapimala-southern-gateway",
+    "type": "dialogue",
+    "author_slug": "kapimala",
+    "collection": "Denkoroku",
+    "era": "Ancient India",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "Meeting Nāgārjuna",
+    "content": "When Kapimala first came to the land of western India, the nāga (dragon) king of a great lake emerged from the water to greet him. Kapimala said: 'This body of yours that fills the lake—is this your true body or your transformed body?' The nāga king said: 'There is no difference.' Kapimala said: 'Who told you so?' The nāga king was silent. Kapimala said: 'The one who is silent—that is the answer.'\n\nKeizan's verse: The dragon enters the water / and the water becomes the dragon. / Why look for a border / between what moves and what is still?",
+    "source_id": "src_originals_curated",
+    "ingestion_run_id": "run_patriarchs_teachings",
+    "locator": "Denkoroku, Case 14",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "kapimala", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "kapimala-fire-in-the-seed",
+    "type": "saying",
+    "author_slug": "kapimala",
+    "collection": "Jingde Chuandenglu",
+    "era": "Ancient India",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "Fire Hidden in the Seed",
+    "content": "Kapimala said: 'The potential for awakening is like fire hidden within a seed. The fire does not know it is there; the seed does not know it contains fire. Yet when the right conditions arise—warmth, moisture, contact—the sprout emerges, and eventually burns bright. Do not ask whether you have Buddha-nature. Ask only: what are your conditions right now?'",
+    "source_id": "src_originals_curated",
+    "ingestion_run_id": "run_patriarchs_teachings",
+    "locator": "Jingde Chuandenglu, Vol. 1, Kapimala chapter",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "kapimala", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "rahulata-hymn-to-prajnaparamita",
+    "type": "verse",
+    "author_slug": "rahulata",
+    "collection": "Denkoroku",
+    "era": "Ancient India",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "In Praise of the Perfection of Wisdom",
+    "content": "The Perfection of Wisdom:\nnot born, not destroyed,\nnot defiled, not pure,\nnot increasing, not decreasing.\nThose who seek her with concepts\nare like those who try to grasp the wind.\nThose who abandon all seeking\nfind she was never absent.\n\nKeizan's verse: Rāhulabhadra sings the praise / of what cannot be praised. / The song itself is the teaching— / hear it without ears.",
+    "source_id": "src_originals_curated",
+    "ingestion_run_id": "run_patriarchs_teachings",
+    "locator": "Denkoroku, Case 17; attributed Prajnaparamita-stotra",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "rahulata", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "rahulata-the-master-without-fixed-abode",
+    "type": "saying",
+    "author_slug": "rahulata",
+    "collection": "Jingde Chuandenglu",
+    "era": "Ancient India",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "No Fixed Abode",
+    "content": "Rāhulata said: 'My teacher taught me: the Dharma is like a great river. A river has no fixed dwelling. It flows wherever the land allows. If you dam it up in one place, calling it your own, you have made a pond—not a river.' He himself moved continuously, staying nowhere long enough to be called a resident.",
+    "source_id": "src_originals_curated",
+    "ingestion_run_id": "run_patriarchs_teachings",
+    "locator": "Jingde Chuandenglu, Vol. 1, Rahulata chapter",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "rahulata", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "sanghanandi-wind-bell-transmission",
+    "type": "dialogue",
+    "author_slug": "sanghanandi",
+    "collection": "Denkoroku",
+    "era": "Ancient India",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "The Bell That Speaks Without Wind",
+    "content": "When Saṃghanandi was dwelling in a stone cave, a wind-bell rang in the doorway. Saṃghayaśas asked him: 'Is it the bell ringing, or the wind ringing?' Saṃghanandi said: 'Neither the bell nor the wind—it is the mind ringing.' Saṃghayaśas said: 'And the mind?' Saṃghanandi said: 'Hear it yourself.'\n\nKeizan's verse: Wind or bell—the argument is endless. / The one who argues does not hear. / Right now, in the stillness before thought— / is there any sound at all?",
+    "source_id": "src_originals_curated",
+    "ingestion_run_id": "run_patriarchs_teachings",
+    "locator": "Denkoroku, Case 18",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "sanghanandi", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "sanghanandi-royal-renunciation",
+    "type": "saying",
+    "author_slug": "sanghanandi",
+    "collection": "Jingde Chuandenglu",
+    "era": "Ancient India",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "The Kingdom Left Behind",
+    "content": "When Saṃghanandi renounced his royal inheritance to enter the saṅgha, his father asked: 'What will become of the kingdom?' Saṃghanandi said: 'The same thing that became of every kingdom before it.' His father wept. Saṃghanandi said: 'You see—this is why I am going. I do not wish to be the cause of that kind of sorrow for the rest of my life.'",
+    "source_id": "src_originals_curated",
+    "ingestion_run_id": "run_patriarchs_teachings",
+    "locator": "Jingde Chuandenglu, Vol. 1, Sanghanandi chapter",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "sanghanandi", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "gayashata-the-wind-bell-answer",
+    "type": "dialogue",
+    "author_slug": "gayashata",
+    "collection": "Denkoroku",
+    "era": "Ancient India",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "What the Wind-Bell Answers",
+    "content": "Saṃghayaśas heard a wind-bell ringing outside the window of a house he passed, and paused. A young brahmin came out and said: 'Why have you stopped?' Saṃghayaśas said: 'What is ringing?' The brahmin said: 'Wind and metal.' Saṃghayaśas said: 'And deeper than wind and metal?' The brahmin was silent, then said: 'I do not know.' Saṃghayaśas said: 'That silence is the answer. Come with me.'\n\nKeizan's verse: The bell does not know it rings. / The wind does not know it blows. / Somewhere between knowing and not knowing / the Dharma passes from hand to hand.",
+    "source_id": "src_originals_curated",
+    "ingestion_run_id": "run_patriarchs_teachings",
+    "locator": "Denkoroku, Case 19",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "gayashata", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "kumarata-stories-as-dharma-gates",
+    "type": "saying",
+    "author_slug": "kumarata",
+    "collection": "Denkoroku",
+    "era": "Ancient India",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "The Story Is the Teaching",
+    "content": "Kumārata was known for teaching through narrative examples rather than abstract doctrine. He said: 'The people who come to me are not philosophers. They are farmers and merchants, mothers and soldiers. A story enters the heart where an argument cannot. I am not betraying the Dharma by telling stories—I am finding its shortest road.'\n\nKeizan's verse: The master opens his mouth / and a thousand worlds appear. / Which word is the Dharma? / All of them. None of them.",
+    "source_id": "src_originals_curated",
+    "ingestion_run_id": "run_patriarchs_teachings",
+    "locator": "Denkoroku, Case 20",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "kumarata", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "kumarata-meeting-jayata",
+    "type": "dialogue",
+    "author_slug": "kumarata",
+    "collection": "Jingde Chuandenglu",
+    "era": "Ancient India",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "Recognizing the Successor",
+    "content": "When Kumārata arrived in northern India, he saw an auspicious radiance rising from a certain household. He inquired and was told that a man of great virtue named Jayata lived there. Kumārata knocked at the gate. Jayata came out and said: 'What does the elder seek?' Kumārata said: 'Not what I am seeking—what is seeking me.' Jayata bowed and opened the gate.",
+    "source_id": "src_originals_curated",
+    "ingestion_run_id": "run_patriarchs_teachings",
+    "locator": "Jingde Chuandenglu, Vol. 1, Kumarata chapter",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "kumarata", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "jayata-the-incense-smoke",
+    "type": "dialogue",
+    "author_slug": "jayata",
+    "collection": "Denkoroku",
+    "era": "Ancient India",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "The Incense That Never Burns Out",
+    "content": "Jayata said to a skeptic who questioned the value of meditation: 'Light a stick of incense. Watch the smoke rise and disappear. Now tell me: where did it go?' The skeptic said: 'Into the air—into nothing.' Jayata said: 'And the sitting—where does it go?' The skeptic fell silent. Jayata said: 'Now you are beginning to understand sitting.'\n\nKeizan's verse: The smoke rises and is gone— / yet the fragrance fills the room. / Where does practice go / when the sitting ends?",
+    "source_id": "src_originals_curated",
+    "ingestion_run_id": "run_patriarchs_teachings",
+    "locator": "Denkoroku, Case 21",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "jayata", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "jayata-vasubandhu-encounter",
+    "type": "dialogue",
+    "author_slug": "jayata",
+    "collection": "Jingde Chuandenglu",
+    "era": "Ancient India",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "The Debate with the Abhidharma Masters",
+    "content": "When Jayata arrived in the land where Vasubandhu's followers flourished, the senior monks sent a message: 'Our practice is to analyze the constituents of mind and body in careful detail. We have no interest in the wordless transmission.' Jayata sent back this reply: 'The constituents of mind and body—who is doing the analyzing?' When no answer came, Jayata entered the community and taught.",
+    "source_id": "src_originals_curated",
+    "ingestion_run_id": "run_patriarchs_teachings",
+    "locator": "Jingde Chuandenglu, Vol. 1, Jayata chapter",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "jayata", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "manorhita-the-lamp-without-oil",
+    "type": "dialogue",
+    "author_slug": "manorhita",
+    "collection": "Denkoroku",
+    "era": "Ancient India",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "The Lamp That Needs No Oil",
+    "content": "When Manorhita was about to transmit the Dharma, Haklenayaśas asked: 'I understand that you carry a lamp. But I see no oil and no flame. How does it burn?' Manorhita said: 'All the lamps in the world need oil and flame. This lamp is lit by neither.' Haklenayaśas said: 'Then how do I light it?' Manorhita said: 'It is already lit. It lit itself before you were born.'\n\nKeizan's verse: Before oil was pressed from seeds, / before the flame learned to burn— / that light was already everywhere. / Who turned it on?",
+    "source_id": "src_originals_curated",
+    "ingestion_run_id": "run_patriarchs_teachings",
+    "locator": "Denkoroku, Case 23",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "manorhita", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "haklena-the-cranes-return",
+    "type": "dialogue",
+    "author_slug": "haklena",
+    "collection": "Denkoroku",
+    "era": "Ancient India",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "Where the Cranes Gather",
+    "content": "Haklenayaśas taught in a region where cranes were said to follow him, gathering wherever he stopped to speak. A minister of the king asked: 'Why do cranes follow a monk?' Haklenayaśas said: 'Why does a monk follow the Dharma?' The minister said: 'Because it is beneficial.' Haklenayaśas said: 'Ask the cranes.'\n\nKeizan's verse: Birds of the air know something / that scholars argue about all day. / Not by reading or debating / but by gathering where the stillness is.",
+    "source_id": "src_originals_curated",
+    "ingestion_run_id": "run_patriarchs_teachings",
+    "locator": "Denkoroku, Case 24",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "haklena", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "haklena-recognizing-simha",
+    "type": "dialogue",
+    "author_slug": "haklena",
+    "collection": "Jingde Chuandenglu",
+    "era": "Ancient India",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "The Lion Among Students",
+    "content": "When Haklenayaśas first saw Siṃha Bhikṣu among a group of young men, he said to a companion: 'That young man carries the lion's roar. He does not yet know it.' The companion said: 'How can you tell?' Haklenayaśas said: 'The same way the lion knows the lion—not by looking, but by something older than looking.'",
+    "source_id": "src_originals_curated",
+    "ingestion_run_id": "run_patriarchs_teachings",
+    "locator": "Jingde Chuandenglu, Vol. 1, Haklena chapter",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "haklena", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "simha-milk-from-the-neck",
+    "type": "dialogue",
+    "author_slug": "simha",
+    "collection": "Denkoroku",
+    "era": "Ancient India",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "The Final Transmission",
+    "content": "As Siṃha Bhikṣu was about to be executed by the order of King Mihirakula, he asked Vasiṣṭha to come close. He said: 'The king takes my head. Does the Dharma also lose its head?' Vasiṣṭha said: 'The Dharma has no head to lose.' Siṃha said: 'Then nothing is lost today.' And he placed his neck before the sword.\n\nKeizan's verse: The sword severs the neck / but cannot touch what was never born. / Milk pours from the wound / and the ground knows what blood never could.",
+    "source_id": "src_originals_curated",
+    "ingestion_run_id": "run_patriarchs_teachings",
+    "locator": "Denkoroku, Case 25; Fù Fǎ Zàng Yīnyuán Zhuàn",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "simha", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "simha-the-lions-roar",
+    "type": "saying",
+    "author_slug": "simha",
+    "collection": "Jingde Chuandenglu",
+    "era": "Ancient India",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "The Lion's Roar",
+    "content": "Siṃha Bhikṣu said: 'The lion does not announce before it roars. The roar simply comes, and everything in the forest becomes still. When you have truly entered the Dharma, your very presence becomes a lion's roar. Not that you shout—but that around you, distractions become still.'",
+    "source_id": "src_originals_curated",
+    "ingestion_run_id": "run_patriarchs_teachings",
+    "locator": "Jingde Chuandenglu, Vol. 1, Simha chapter",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "simha", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "vasasita-dharma-survives-persecution",
+    "type": "dialogue",
+    "author_slug": "vasasita",
+    "collection": "Denkoroku",
+    "era": "Ancient India",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "What Kings Cannot Destroy",
+    "content": "After receiving the transmission from Siṃha Bhikṣu under conditions of persecution, Vasiṣṭha wandered in hiding. A student found him and asked: 'If the king destroys the Dharma, what do we do?' Vasiṣṭha said: 'The king cannot destroy the Dharma. He can destroy monasteries and books and monks. But that which is transmitted from mind to mind—he has never seen it and does not know where it lives.'\n\nKeizan's verse: The dynasty crumbles to dust. / The monasteries burn to ash. / That which was transmitted before words— / it was never in the building.",
+    "source_id": "src_originals_curated",
+    "ingestion_run_id": "run_patriarchs_teachings",
+    "locator": "Denkoroku, Case 26",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "vasasita", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "punyamitra-the-prince-who-became-a-monk",
+    "type": "dialogue",
+    "author_slug": "punyamitra",
+    "collection": "Denkoroku",
+    "era": "Ancient India",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "Why Did You Become a Monk?",
+    "content": "Puṇyamitra was said to be of royal birth who renounced his position to seek the Dharma. When Vasiṣṭha asked him upon their first meeting: 'Why did you leave the palace?' Puṇyamitra said: 'I saw that the palace was built on sand, and the sand was built on nothing. I wanted to find what the nothing was built on.' Vasiṣṭha said: 'And have you found it?' Puṇyamitra said: 'I am standing on it.'\n\nKeizan's verse: Palace walls rise and fall— / a lifetime of sand-building. / One morning, the question arises: / What holds up the ground itself?",
+    "source_id": "src_originals_curated",
+    "ingestion_run_id": "run_patriarchs_teachings",
+    "locator": "Denkoroku, Case 27",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "punyamitra", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "punyamitra-recognizing-prajnatara",
+    "type": "dialogue",
+    "author_slug": "punyamitra",
+    "collection": "Jingde Chuandenglu",
+    "era": "Ancient India",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "The Third Son's Understanding",
+    "content": "Puṇyamitra held up a jewel before three princes and asked each one: 'What is this?' The first said: 'A precious gem.' The second said: 'A gift beyond price.' The third—who would become Prajñātāra—said: 'This is the form of the formless, and the name of the nameless.' Puṇyamitra said: 'The other two answered what it is. You answered what it points to.'",
+    "source_id": "src_originals_curated",
+    "ingestion_run_id": "run_patriarchs_teachings",
+    "locator": "Jingde Chuandenglu, Vol. 1, Punyamitra chapter",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "punyamitra", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "prajnatara-the-diamond-sutra-dialogue",
+    "type": "dialogue",
+    "author_slug": "prajnatara",
+    "collection": "Denkoroku",
+    "era": "Ancient India",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "Before the Diamond Sutra, After It",
+    "content": "Prajñātāra tested the young prince Bodhidharma by placing a jewel before him and asking: 'Of all things, what is most luminous?' The other princes named the jewel. Bodhidharma said: 'The Dharma is most luminous.' Prajñātāra asked: 'Of all things, what is most vast?' The others named the sky. Bodhidharma said: 'The nature of mind is most vast, for it contains the sky.' Prajñātāra said: 'This one alone has turned the jewel's light back on itself.'\n\nKeizan's verse: The gem shines outward— / but what shines inside the gem? / Ask the prince with the quiet eyes. / He knows where the light was born.",
+    "source_id": "src_originals_curated",
+    "ingestion_run_id": "run_patriarchs_teachings",
+    "locator": "Denkoroku, Case 28; Jingde Chuandenglu, Prajnatara chapter",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "prajnatara", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "prajnatara-eastward-prophecy",
+    "type": "saying",
+    "author_slug": "prajnatara",
+    "collection": "Jingde Chuandenglu",
+    "era": "Ancient India",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "The Prophecy of the Eastern Transmission",
+    "content": "Before Prajñātāra died, he spoke to Bodhidharma: 'You have completely understood the Dharma. Do not stay in India—the conditions here are fulfilled. Travel east, beyond the great sea, to the land of Han. There the Way will flourish in ways I have not seen in this land. Do not go quickly; wait sixty-seven years after I am gone. The time will be ready then.' Bodhidharma kept this instruction in his heart for the remainder of his life in India.",
+    "source_id": "src_originals_curated",
+    "ingestion_run_id": "run_patriarchs_teachings",
+    "locator": "Jingde Chuandenglu, Vol. 1, Prajnatara chapter; Baolin Zhuan",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "prajnatara", "role": "attributed_to" }
+    ]
+  }
+]

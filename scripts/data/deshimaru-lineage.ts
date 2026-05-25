@@ -692,8 +692,13 @@ const SOTO_PARENT_STUBS: KVMaster[] = [
       { index: 2, sourceId: "src_bodiford_soto_medieval", pageOrSection: "Bodiford 1991 — isshi-injō reform" },
     ],
     transmissions: [
-      // Manzan's direct shihō teacher was Gesshū Sōko (1618–1696) at Daijō-ji (1680); not yet seeded.
-      // Editorial bridge to gasan-joseki removed until Gesshū Sōko is seeded.
+      {
+        teacherSlug: "gesshu-soko",
+        type: "primary",
+        sourceIds: ["src_wikipedia", "src_bodiford_soto_medieval"],
+        notes:
+          "Manzan received menju shihō (face-to-face transmission) from Gesshū Sōko at Daijō-ji in 1680 and became Daijō-ji's 27th abbot the same year. Bodiford (Monumenta Nipponica 46:4, 1991) and Wikipedia both confirm this as the authoritative shihō relationship.",
+      },
     ],
   },
   {

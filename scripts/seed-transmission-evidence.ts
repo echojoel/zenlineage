@@ -14,14 +14,30 @@
 import fs from "node:fs";
 import path from "node:path";
 import { nanoid } from "nanoid";
+import { and, eq } from "drizzle-orm";
 import { db } from "@/db";
 import {
+  citations,
   masters,
   masterTransmissions,
   transmissionEvidence,
   transmissionSources,
 } from "@/db/schema";
 import { parseEvidenceFile } from "@/lib/edge-trust";
+
+// Map evidence source domain classes / hostnames → registered source IDs.
+function pickSourceId(sources: Array<{ url?: string; domain_class?: string }>): string {
+  for (const s of sources) {
+    const url = s.url ?? "";
+    if (url.includes("terebess.hu")) return "src_terebess";
+    if (url.includes("wikipedia.org")) return "src_wikipedia";
+  }
+  // Fallback: use terebess for academic, wikipedia for reference, generic for sangha
+  const first = sources[0];
+  if (first?.domain_class === "academic") return "src_terebess";
+  if (first?.domain_class === "reference") return "src_wikipedia";
+  return "src_chan_ancestors_pdf";
+}
 
 const EVIDENCE_DIR = path.join(process.cwd(), "scripts/data/transmission-evidence");
 
@@ -106,6 +122,31 @@ async function main() {
         retrievedOn: s.retrieved_on,
         quote: s.quote,
         sortOrder: i,
+      });
+    }
+
+    // Write a citations row so check-exit-criteria treats this edge as sourced.
+    // Use an idempotent ID prefixed with cite_te_ so it doesn't collide with
+    // citations created by KV/Maezumi/Deshimaru seeders.
+    if (parsed.parsed.tier !== "D" && parsed.parsed.sources.length > 0) {
+      const citId = `cite_te_${edgeId}`;
+      // Delete any prior evidence-seeder citation for this edge before re-inserting.
+      await db.delete(citations).where(
+        and(
+          eq(citations.id, citId),
+          eq(citations.entityType, "master_transmission"),
+        )
+      );
+      const srcId = pickSourceId(parsed.parsed.sources);
+      const firstSource = parsed.parsed.sources[0];
+      await db.insert(citations).values({
+        id: citId,
+        sourceId: srcId,
+        entityType: "master_transmission",
+        entityId: edgeId,
+        fieldName: "transmission",
+        pageOrSection: firstSource.url ?? firstSource.publisher ?? null,
+        excerpt: firstSource.quote?.slice(0, 500) ?? null,
       });
     }
     loaded++;

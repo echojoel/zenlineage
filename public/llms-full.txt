@@ -1,7 +1,7 @@
 # Zen Lineage — Complete Reference
 
-> An open-source interactive encyclopedia of Zen Buddhism covering 545+ masters,
-> 25 schools, 560+ lineage transmissions, 860+ teachings, and 1,700+ scholarly
+> An open-source interactive encyclopedia of Zen Buddhism covering 550+ masters,
+> 25 schools, 560+ lineage transmissions, 445+ teachings, and 1,700+ scholarly
 > citations across 2,500 years of Chan, Zen, Seon, and Thien Buddhist history.
 
 Zen Lineage maps the dharma transmission lineages connecting Buddhist masters
@@ -854,7 +854,7 @@ Yunmen's teaching style was demanding and unsparing.
 - **Dates:** null – 866
 - **School:** Linji
 - **Teachers:** Huangbo Xiyun
-- **Students:** Sansheng Huiran, Baoshou Yanzhao, Xinghua Cunjiang, Xita Guangmu, Licun, Tongfeng Anzhu, Liễu Quán, Ingen Ryuki, Nguyen Thieu, Osaka Koryu
+- **Students:** Sansheng Huiran, Baoshou Yanzhao, Xinghua Cunjiang, Xita Guangmu, Licun, Tongfeng Anzhu, Liễu Quán, Ingen Ryuki, Nguyen Thieu
 
 Linji Yixuan founded one of the most dynamic and enduring of all Chan schools, the Linji school, which later became the Rinzai school of Japanese Zen[1]. He was a student of Huangbo Xiyun who underwent an extremely severe training. Three times he asked Huangbo the fundamental meaning of Buddhism, and three times Huangbo struck him without speaking. Linji left in confusion, and Huangbo sent him to consult the master Dayu. When Linji told Dayu what had happened, Dayu said: "Huangbo was so grandmotherly for you!" At this moment Linji had a sudden awakening and said: "There's not much to Huangbo's Buddha Dharma!" When Dayu grabbed him and demanded an explanation, Linji struck Dayu three times in the ribs. This exchange is one of the most analyzed in the entire koan literature[2].
 
@@ -1065,6 +1065,10 @@ Kewen's chief Dharma heir Doushuai Congyue and others carried the Huanglong sub-
 - **Teachers:** Huanglong Huinan
 - **Students:** Doushuai Congyue
 
+Baofeng Kewen (宝峰克文, also Zhenjing Kewen, 1025–1102) was a Chinese Chan master of the Huanglong branch of the Linji school, one of the most prominent dharma heirs of the great Song teacher Huanglong Huinan[1]. Born in Shanfu, in present-day Henan province, he received novice ordination in his youth and traveled south to study Chan under a succession of teachers, finally receiving dharma transmission in the Huanglong line. He served as abbot of Baofeng Monastery (宝峰寺) on Mount Shimen in northern Jiangxi, from which his most common honorific derives, and later at other major monastic centers[2].
+
+Kewen was celebrated in Song dynasty Chan circles for his role in transmitting the Huanglong style of encounter dialogue and koan-like exchange that characterized this branch of the Linji school.
+
 ### Yuanwu Keqin
 
 - **Also known as:** Yüan-wu K'ê-ch'in, Engo Kokugon
@@ -1109,6 +1113,8 @@ Hongzhi Zhengjue (宏智正覺, 1091–1157) was the great Southern-Song Caodong
 - **Dates:** 1118 – 1186
 - **School:** Linji
 - **Students:** Poan Zuxian
+
+Mian Xianjie (密菴咸傑, Japanese: Mittan Kanketsu, 1118–1186) was a Chinese Chan master of the Southern Song dynasty whose dharma lineage became one of the most consequential transmissions in the subsequent history of Rinzai Zen in Japan[1]. He received dharma transmission in the Linji school through the line descending from Yuanwu Keqin (the compiler of the *Blue Cliff Record*) through Huqiu Shaolong (1077–1136) and Yingan Tanhua (1103–1163). Mian served as abbot at a succession of major Song dynasty Chan monasteries, including Tiantong, Lingyin, and Jing'an, exercising the highest abbatial offices of the "five mountains" system that organized institutional Chan in the Southern Song period[1][2].
 
 ### Poan Zuxian
 
@@ -1769,7 +1775,7 @@ Shidō Bunan (至道無難, 1603–1676) was the Dharma heir of Gudō Tōshoku a
 - **Dates:** 1618 – 1696
 - **School:** Sōtō
 - **Teachers:** Hakuho Genteki
-- **Students:** Tokuo Ryoko, Tenkei Denson, Tokuzui Tenrin
+- **Students:** Tokuo Ryoko, Tenkei Denson, Tokuzui Tenrin, Manzan Dōhaku
 
 Gesshū Sōko (月舟宗胡, 1618–1696) was an Edo-period Sōtō master who, with his Dharma heir Manzan Dōhaku, led the seventeenth-century *shūtō fukko* — the "restoration of the Sōtō lineage" — that returned the school to face-to-face Dharma transmission and to the textual study of Dōgen's *Shōbōgenzō* after several centuries in which both had eroded in favour of temple-tied lineage assignment (*garanbō*)[1]. Trained at Daijō-ji in Kaga, he served as abbot there from 1666 and used the temple as the institutional base from which the reform was launched[2].
 
@@ -1795,6 +1801,7 @@ Hương Hải (香海, 1628–1715) is the central figure of the seventeenth-cen
 - **Also known as:** Manzan Dohaku
 - **Dates:** 1636 – 1715
 - **School:** Sōtō
+- **Teachers:** Gesshu Soko
 
 Manzan Dōhaku (卍山道白, 1636–1715) was the central Tokugawa-era Sōtō reformer, the figure who codified the *isshi-injō* (single-master / face-to-face certification) standard for Dharma transmission that has defined modern Sōtō institutional practice since[1]. He was tonsured at age 10 under Dōhan Issen at Ryūkō-ji, trained under Bunshun Kōshū and Tokuō Ryōkō, and received *menju shihō* (face-to-face transmission) from Gesshū Sōko at Daijō-ji in 1680, becoming Daijō-ji's 27th abbot the same year. In 1694 he converted Genkō-an in Kyoto from Rinzai to Sōtō.
 
@@ -1841,6 +1848,8 @@ Tokuo Ryoko (1649–1709) is recorded in the historiography of the medieval / ea
 - **Dates:** 1667 – 1751
 - **School:** Rinzai
 - **Students:** Gessen Zenne
+
+Kogetsu Zenzai (虎渓禅材, 1667–1751) was a Japanese Rinzai Zen master who played a central role in absorbing Ōbaku influences into the mainstream of the Japanese Rinzai tradition during the Edo period[1]. Born in Miyazaki prefecture, he trained under Kengan Zen'etsu (1618–1696), whose own teachers had trained with the Chinese Ōbaku masters who came to Japan in the mid-seventeenth century. Kogetsu absorbed the more rigorous Chinese monastic style — including strict application of the Vinaya, Chinese-style chanting, and a demanding approach to koan practice — that the Ōbaku mission brought, and he propagated these elements throughout the Rinzai network from his base at Daiko-ji temple where he served as head monk[1][2].
 
 ### Liễu Quán
 
@@ -1991,9 +2000,17 @@ Daisetsu Joen is recorded in the historiography of the post-Daitō / Myōshin-ji
 - **Dates:** 1802 – 1878
 - **School:** Rinzai
 - **Teachers:** Taigen Shigen
-- **Students:** Kosen Imakita, Tekisui Giboku
+- **Students:** Kosen Imakita, Tekisui Giboku, Ekkei Shuken
 
 Gisan Zenrai is recorded in the historiography of the post-Daitō / Myōshin-ji Rinzai transmission lines as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].
+
+### Ekkei Shuken
+
+- **Also known as:** Ekkei Shūken
+- **Dates:** 1810 – 1884
+- **School:** Rinzai
+- **Teachers:** Gisan Zenrai
+- **Students:** Kazan Genku
 
 ### Tankai Gensho
 
@@ -2212,6 +2229,14 @@ Jōten Sōkō Miura (Miura Isshū) was a Rinzai Zen master of the Daitoku-ji lin
 
 Miura's tenure as resident roshi at the First Zen Institute of America in New York was uneasy.
 
+### Muchaku Kaiko
+
+- **Also known as:** Muchaku Kaikō Roshi
+- **Dates:** 1871 – 1928
+- **School:** Rinzai
+- **Teachers:** Kazan Genku
+- **Students:** Muso Joko
+
 ### Nyogen Senzaki
 
 - **Dates:** 1876 – 1958
@@ -2274,6 +2299,14 @@ In the post-war reorganisation of Rinzai institutional life Zuigan served succes
 - **Students:** Gudo Wafu Nishijima, Kosho Uchiyama, Taisen Deshimaru, Kōjun Kishigami, Shūyū Narita, Sodō Yokoyama, Yūkō Okamoto
 
 Kōdō Sawaki (澤木 興道, 1880–1965), known throughout Japan as "Homeless Kōdō" (Yadonashi Kōdō), was the modern Sōtō master most responsible for severing the practice of zazen from the temple-funeral economy and restoring shikantaza as the living center of the school. He was born June 16, 1880 in Tsu, Mie Prefecture; orphaned by age seven, he was taken in by a lantern-maker named Bunkichi Sawaki whose home doubled as a gambling parlor — an upbringing he later credited with immunizing him against any romance about respectability[1]. At sixteen he ran away to Eihei-ji, found work as a temple servant, and at eighteen entered Sōshin-ji, where he was ordained in 1899 by Kōhō Sawada and received dharma transmission from Zenkō Sawada in 1906[1].
+
+### Muso Joko
+
+- **Also known as:** Muso Jōkō Roshi, Hannyakutsu Jōkō Roshi, Hannyakutsu Joko Roshi
+- **Dates:** 1884 – 1949
+- **School:** Rinzai
+- **Teachers:** Muchaku Kaiko
+- **Students:** Osaka Koryu
 
 ### Yasutani Hakuun
 
@@ -2361,7 +2394,7 @@ At Zuigan's request Oda opened the Daitoku-ji sōdō to foreign students at an u
 - **Also known as:** Koryu Osaka Roshi
 - **Dates:** 1901 – 1985
 - **School:** Rinzai
-- **Teachers:** Linji Yixuan
+- **Teachers:** Muso Joko
 - **Students:** Taizan Maezumi
 
 Kōryū Osaka (1901–1985), born Kōryū Matsumoto and later adopted into the Osaka family, was a Japanese lay Zen teacher in the Rinzai koan tradition and one of the three transmitters in the unusual triple-lineage of Taizan Maezumi Roshi, founder of the Zen Center of Los Angeles. From the 1930s onwards he directed the Hannya Dōjō (般若道場) in Tokyo — a lay zazen training hall founded by his own teacher Mushō Jōkō Roshi (1884–1949), a Shingon priest who had completed Rinzai koan study and who established the Shakyamuni-kai as a lay Rinzai community based at Hannya Dōjō with a mountain training centre, Hannya Fuji Dōjō, on Mt. Fuji.
@@ -3832,7 +3865,7 @@ The episode is set after Nanyang Huizhong's death: a monk asks Danyuan what kind
 - **Dates:** Dates uncertain
 - **School:** Caodong
 - **Teachers:** Fushan Fayuan
-- **Students:** Furong Daokai
+- **Students:** Furong Daokai, Xingyang Qingpou
 
 Touzi Yiqing is recorded in the historiography of the late-Tang / Song-period Chan transmission network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].
 
@@ -3899,7 +3932,7 @@ Huangbo's teaching on the One Mind is recorded in the Transmission of Mind, comp
 - **Also known as:** Hsing-yang Ch'ing-p'ou, Kôyô Seibô
 - **Dates:** Dates uncertain
 - **School:** Guiyang
-- **Teachers:** Xianglin Chengyuan
+- **Teachers:** Xianglin Chengyuan, Touzi Yiqing
 
 Xingyang Qingpou is recorded in the historiography of the late-Tang / Song-period Chan transmission network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].
 
@@ -4264,9 +4297,9 @@ Changsha Jingcen is recorded in the historiography of the medieval / early-moder
 - **School:** Sōtō
 - **Teachers:** Stephane Kosen Thibaut
 
-Pierre Sōkō Leroux is a French-Catalan Sōtō Zen monk in the Deshimaru–Kōsen line and the co-founder of the Dōjō Zen Barcelona Ryōkan[1]. He encountered zazen in 1986 in Rennes ("encuentra el zen en 1986 en Rennes, Francia")[1], and in 1991 Stéphane Kōsen Thibaut ordained him as a Sōtō monk at La Gendronnière, the AZI mother temple founded by Deshimaru ("En 1991 el Maestro Kosen lo ordena monje zen en el Templo zen La Gendronnière")[1].
+Pierre Sōkō Leroux is a French Sōtō Zen monk in the Deshimaru lineage and one of the seven dharma-heirs (shihō recipients) of Stéphane Kōsen Thibaut[1][2]. He resides and teaches in Barcelona, where he is the founding teacher of the Zan Mai Zen network — a Sōtō Zen association in the Iberian peninsula descended, through Thibaut, from Taisen Deshimaru's Paris work[3].
 
-For twelve years he served as tenzo (kitchen master) of the Kosen Sangha ("Tenzo — responsable de la comida del templo — de la Kosen Sangha durante doce años")[1]. He moved to Barcelona in 1999 and co-founded the Dōjō Zen Barcelona Ryōkan ("En 1999 se establece en Barcelona y co-funda el Dojo Zen de Barcelona Ryokan")[1].
+From Barcelona, Leroux directs and supervises practice across a cluster of Spanish and Portuguese dōjōs, ordains monks and nuns, and conducts sesshin in the kusen tradition transmitted to him by Kōsen Thibaut[3].
 
 ### Shaku Kojyu
 
@@ -4603,6 +4636,8 @@ Tongan Daopi is recorded in the historiography of the late-Tang / Song-period Ch
 - **School:** Linji
 - **Students:** Mingan Rongxi
 
+Xu'an Huaichang (虛庵懷敞, Japanese: Kyōan Eshō, fl. late 12th century) was a Chinese Chan master of the Huanglong branch of the Linji school during the Southern Song dynasty, remembered above all as the teacher who transmitted the Zen patriarchal certification to the Japanese monk Eisai Myōan, thereby initiating the formal transmission of Rinzai Zen to Japan[1]. Xu'an practiced and taught in the tradition that descended from Huanglong Huinan through several generations, incorporating elements of Daoist esoteric practice alongside Chan teaching in the syncretic style characteristic of late Song Buddhism. He was active at monasteries in Fujian and Zhejiang provinces[1][2].
+
 ### Deshan Yuanmi
 
 - **Also known as:** Tê-shan Yüan-mi, Tokusan Emmitsu, Yuanming
@@ -4627,6 +4662,8 @@ Zifu Rubao is recorded in the historiography of the late-Tang / Song-period Chan
 - **Dates:** Dates uncertain
 - **School:** Sōtō
 - **Students:** Keido Chisan
+
+Koho Hakugan (孤峰白岩, dates uncertain) was a Japanese Sōtō Zen master whose name appears in the lineage records of the Sōtōshū, associated with the transmission line descending from the major Edo-period Sōtō reformers. The name *Kohō* ("lone peak") is a dharma name in the classical Chinese tradition, and *Hakugan* ("white cliff") designates his temple designation or honorific[1]. His position in the lineage chart places him in the post-Gesshū Sōko reform movement that sought to restore a stricter fidelity to Dōgen's monastic code and the Shōbōgenzō in the eighteenth century[1][2].
 
 ### Huoan Shiti
 
@@ -5293,6 +5330,13 @@ Eishuku Monika Leibundgut is a Swiss Sōtō Zen nun in the Deshimaru lineage and
 - **Teachers:** Gesshu Soko
 - **Students:** Shogaku Rinzui
 
+### Kazan Genku
+
+- **Dates:** Dates uncertain
+- **School:** Rinzai
+- **Teachers:** Ekkei Shuken
+- **Students:** Muchaku Kaiko
+
 ---
 
 ## Schools
@@ -5426,7 +5470,7 @@ The Soto school (曹洞宗) is the Japanese continuation of the Chinese Caodong 
 ### Rinzai
 
 - **Tradition:** Zen
-- **Masters:** 69
+- **Masters:** 73
 
 The Rinzai school (臨済宗) is the Japanese form of the Chinese Linji tradition, transmitted to Japan through multiple lineages during the Kamakura period (1185–1333)[1]. The school's defining figure is Hakuin Ekaku (1686–1769), who single-handedly revived and systematized Rinzai practice after a period of decline[2]. Hakuin developed the structured koan curriculum that remains standard today—beginning with the Mu koan or the sound of one hand clapping, then progressing through increasingly subtle layers of inquiry. His emphasis on 'great doubt, great faith, great determination' as the three pillars of practice became definitive[2]. The modern Rinzai school is organized primarily through the O-To-Kan lineage: Nanpo Jomyo (Daio Kokushi) received transmission from the Chinese master Xutang Zhiyu, transmitted to Shuho Myocho (Daito Kokushi, founder of Daitokuji), who transmitted to Kanzan Egen (founder of Myoshinji)[3]. These two temple complexes—Daitokuji and Myoshinji—and their extensive branch networks form the institutional backbone of modern Rinzai Zen. The school profoundly influenced Japanese culture, including the tea ceremony, calligraphy, ink painting, garden design, and the martial arts.
 
@@ -6825,12 +6869,12 @@ Do not think you will necessarily be aware of your own enlightenment.
 
 Continuous practice, day after day, is the most appropriate way of expressing gratitude.
 
-### Flowers Fall, Weeds Spring
+### Flowers Fall
 
 - **Attribution:** Dōgen
 - **Type:** proverb
 
-Flowers fall amid our longing; weeds spring up amid our aversion. Both belong to the same garden, and the garden does not consult us about its arrangement.
+Flowers fall amid our longing, and weeds spring up amid our antipathy.
 
 ### Your Original Face
 
@@ -8841,6 +8885,479 @@ When the Patriarch arrived at Po-lam Monastery, Prefect Wei and other officials 
 
 Once, when the Patriarch had arrived at Pao Lin Monastery, Prefect Wei Ch'ü of Shao Chou and other officials went there to ask him to deliver public lectures on Buddhism in the hall of Ta Fan Temple in the City (of Canton).
 
+### The Robe That Never Wears Out
+
+- **Attribution:** Shanakavasa
+- **Type:** dialogue
+
+When Ānanda was about to transmit the Dharma, Śāṇavāsa asked him: 'What did the World-Honored One transmit to Mahākāśyapa besides the robe and bowl?' Ānanda descended from his seat, stood upright, and folded his hands. Śāṇavāsa said: 'I understand.' Ānanda said: 'What have you understood?' Śāṇavāsa said: 'It is just this—nothing hidden, nothing added.'
+
+Keizan's verse: The hemp robe worn since birth / never tears and never frays. / What is this robe? / Search the ten directions—nothing lacks it.
+
+### Born Already Robed
+
+- **Attribution:** Shanakavasa
+- **Type:** saying
+
+Śāṇavāsa is said to have been born wearing a hempen robe, the same robe he wore throughout his practice and in which he entered nirvāṇa. When asked about this wonder, he said: 'This robe is not mine alone. Every being is born already wearing it. The only question is whether you know you have it on.'
+
+### The Fragrance Without a Flower
+
+- **Attribution:** Upagupta
+- **Type:** dialogue
+
+When Śāṇavāsa was about to transmit the Dharma, he asked Upagupta: 'Can you hold the formless?' Upagupta held up his empty hand. Śāṇavāsa said: 'What is in your hand?' Upagupta said: 'Ask what is not in it.' Śāṇavāsa said: 'I transmit to you this flower without fragrance, this fragrance without a flower.'
+
+Keizan's verse: No root, no stem, no petal— / yet the whole garden fills with scent. / This is the flower transmitted / from mind to mind since ancient times.
+
+### Converting Māra
+
+- **Attribution:** Upagupta
+- **Type:** dialogue
+
+Upagupta is said to have tamed Māra, the embodiment of delusion, through the power of samādhi. When Māra appeared in a radiant form to seduce practitioners, Upagupta placed the rotting corpses of a dog, a snake, and a human being around Māra's neck. Māra, unable to remove them, begged for release. Upagupta said: 'Bow to the Buddha.' Māra said: 'The Buddha is long gone.' Upagupta said: 'This form I put on you—is it gone?'
+
+### The Mind That Is Like Space
+
+- **Attribution:** Dhritaka
+- **Type:** dialogue
+
+When Upagupta was about to transmit the Dharma, he asked Dhṛtaka: 'My mind is at peace. Is yours?' Dhṛtaka said: 'Your mind is at peace, and so all minds are at peace.' Upagupta said: 'Where does this peace come from?' Dhṛtaka said: 'It comes from nowhere. That is why it is peace.'
+
+Keizan's verse: Sky above, sky below— / the mountain sits without moving. / This peace was never disturbed. / Who told you it needed to be found?
+
+### The Auspicious Cloud
+
+- **Attribution:** Michaka
+- **Type:** dialogue
+
+As Dhṛtaka approached a city, an auspicious cloud appeared in the sky above it. A man named Mīcaka came forward and said: 'I saw this cloud in a dream three days ago. In the dream an elder came from afar carrying the sun in his hands.' Dhṛtaka said: 'Who told you it was in his hands?' Mīcaka said: 'Where else would it be?' Dhṛtaka said: 'Good. You have already answered your own question.'
+
+Keizan's verse: Three days before the meeting / the dream had already passed. / Do not look for the sun— / you are standing in its light.
+
+### On the Practice of Non-Dwelling
+
+- **Attribution:** Michaka
+- **Type:** saying
+
+Mīcaka was known for his continuous wandering across central India, never residing long in one place. He said to his students: 'The Dharma is not found in one place. It is not found in many places. When you understand this, every step is already home, and every place is the place of practice.'
+
+### The Wine Jar and the Dharma
+
+- **Attribution:** Vasumitra
+- **Type:** dialogue
+
+Vasumitra was known to frequent wine shops without drinking wine, appearing in the midst of ordinary life. When Mīcaka found him and asked: 'You dwell among the impure—how is your mind?' Vasumitra said: 'You are the one who judges pure and impure. My mind judges nothing.' Mīcaka said: 'And the Dharma?' Vasumitra said: 'It has been sitting here in the wine shop all along.'
+
+Keizan's verse: The master enters the wine shop / and the wine shop becomes a monastery. / Not because he purifies it— / he simply sees what was always there.
+
+### The Star That Does Not Move
+
+- **Attribution:** Buddhanandi
+- **Type:** dialogue
+
+When Vasumitra was about to transmit the Dharma, he asked Buddhanandi: 'A star shines in the north that does not move while all other stars revolve around it. What is this star?' Buddhanandi said: 'Every star is that star.' Vasumitra said: 'And what revolves around you?' Buddhanandi said: 'Nothing has ever moved.'
+
+Keizan's verse: The pole star holds its place / not through effort but through stillness. / Ten thousand thoughts arise and pass— / the one who watches does not stir.
+
+### Where Does the Bell Sound Go?
+
+- **Attribution:** Buddhanandi
+- **Type:** saying
+
+A student asked Buddhanandi: 'When the bell is struck, where does the sound go?' Buddhanandi said: 'Ask where it came from.' The student was silent. Buddhanandi said: 'You hear the silence now. Has it gone anywhere?'
+
+### Entering the Gate as a Householder
+
+- **Attribution:** Buddhamitra
+- **Type:** dialogue
+
+Buddhamitra did not enter the saṅgha until late in life. When asked how he had practiced before becoming a monk, he said: 'Every meal I prepared was an offering. Every word I spoke to my family was a teaching. Every time I laid down to sleep I entered the great stillness. The gate of the Dharma is not at the monastery entrance—it is wherever you stand right now.'
+
+Keizan's verse: Forty years in the household— / not one day apart from the Way. / The monk shaves his head and robes himself. / The householder was already wearing the robe.
+
+### The Vow of Pārśva
+
+- **Attribution:** Parshva
+- **Type:** dialogue
+
+When Pārśva was ordained at the age of sixty, he made a vow never to lay his side (*pārśva*) upon a bed until he had fully realized liberation. A young monk asked him: 'Is this austerity not simply attachment to practice?' Pārśva said: 'You speak of attachment and non-attachment as though they were two things. My vow is not the door—it is the fire that burns the door away.'
+
+Keizan's verse: Sixty years of ordinary life— / then one night, no more lying down. / The body is like a standing mountain. / What is it that never sleeps?
+
+### What Does 'Buddha' Mean?
+
+- **Attribution:** Parshva
+- **Type:** saying
+
+Pārśva said: 'People ask what the word Buddha means. It means awakened. Then they ask: awakened to what? To this—to what is here right now, before the question arose. The word is just a finger pointing at your own face.'
+
+### The Debate That Ended Without Debate
+
+- **Attribution:** Punyayashas
+- **Type:** dialogue
+
+Aśvaghoṣa was a renowned brahmin philosopher who had defeated sixty Buddhist teachers in debate. When Puṇyayaśas came to his city, Aśvaghoṣa challenged him: 'I will debate you on the question of what is a Buddha.' Puṇyayaśas said: 'I do not debate.' Aśvaghoṣa said: 'Then you have already lost.' Puṇyayaśas said: 'Yes. I lost long ago, and since then I have known great peace.'
+
+Aśvaghoṣa fell silent. Then he bowed.
+
+### Meeting Nāgārjuna
+
+- **Attribution:** Kapimala
+- **Type:** dialogue
+
+When Kapimala first came to the land of western India, the nāga (dragon) king of a great lake emerged from the water to greet him. Kapimala said: 'This body of yours that fills the lake—is this your true body or your transformed body?' The nāga king said: 'There is no difference.' Kapimala said: 'Who told you so?' The nāga king was silent. Kapimala said: 'The one who is silent—that is the answer.'
+
+Keizan's verse: The dragon enters the water / and the water becomes the dragon. / Why look for a border / between what moves and what is still?
+
+### Fire Hidden in the Seed
+
+- **Attribution:** Kapimala
+- **Type:** saying
+
+Kapimala said: 'The potential for awakening is like fire hidden within a seed. The fire does not know it is there; the seed does not know it contains fire. Yet when the right conditions arise—warmth, moisture, contact—the sprout emerges, and eventually burns bright. Do not ask whether you have Buddha-nature. Ask only: what are your conditions right now?'
+
+### In Praise of the Perfection of Wisdom
+
+- **Attribution:** Rahulata
+- **Type:** verse
+
+The Perfection of Wisdom:
+not born, not destroyed,
+not defiled, not pure,
+not increasing, not decreasing.
+Those who seek her with concepts
+are like those who try to grasp the wind.
+Those who abandon all seeking
+find she was never absent.
+
+Keizan's verse: Rāhulabhadra sings the praise / of what cannot be praised. / The song itself is the teaching— / hear it without ears.
+
+### No Fixed Abode
+
+- **Attribution:** Rahulata
+- **Type:** saying
+
+Rāhulata said: 'My teacher taught me: the Dharma is like a great river. A river has no fixed dwelling. It flows wherever the land allows. If you dam it up in one place, calling it your own, you have made a pond—not a river.' He himself moved continuously, staying nowhere long enough to be called a resident.
+
+### The Bell That Speaks Without Wind
+
+- **Attribution:** Sanghanandi
+- **Type:** dialogue
+
+When Saṃghanandi was dwelling in a stone cave, a wind-bell rang in the doorway. Saṃghayaśas asked him: 'Is it the bell ringing, or the wind ringing?' Saṃghanandi said: 'Neither the bell nor the wind—it is the mind ringing.' Saṃghayaśas said: 'And the mind?' Saṃghanandi said: 'Hear it yourself.'
+
+Keizan's verse: Wind or bell—the argument is endless. / The one who argues does not hear. / Right now, in the stillness before thought— / is there any sound at all?
+
+### The Kingdom Left Behind
+
+- **Attribution:** Sanghanandi
+- **Type:** saying
+
+When Saṃghanandi renounced his royal inheritance to enter the saṅgha, his father asked: 'What will become of the kingdom?' Saṃghanandi said: 'The same thing that became of every kingdom before it.' His father wept. Saṃghanandi said: 'You see—this is why I am going. I do not wish to be the cause of that kind of sorrow for the rest of my life.'
+
+### What the Wind-Bell Answers
+
+- **Attribution:** Gayashata
+- **Type:** dialogue
+
+Saṃghayaśas heard a wind-bell ringing outside the window of a house he passed, and paused. A young brahmin came out and said: 'Why have you stopped?' Saṃghayaśas said: 'What is ringing?' The brahmin said: 'Wind and metal.' Saṃghayaśas said: 'And deeper than wind and metal?' The brahmin was silent, then said: 'I do not know.' Saṃghayaśas said: 'That silence is the answer. Come with me.'
+
+Keizan's verse: The bell does not know it rings. / The wind does not know it blows. / Somewhere between knowing and not knowing / the Dharma passes from hand to hand.
+
+### The Story Is the Teaching
+
+- **Attribution:** Kumarata
+- **Type:** saying
+
+Kumārata was known for teaching through narrative examples rather than abstract doctrine. He said: 'The people who come to me are not philosophers. They are farmers and merchants, mothers and soldiers. A story enters the heart where an argument cannot. I am not betraying the Dharma by telling stories—I am finding its shortest road.'
+
+Keizan's verse: The master opens his mouth / and a thousand worlds appear. / Which word is the Dharma? / All of them. None of them.
+
+### Recognizing the Successor
+
+- **Attribution:** Kumarata
+- **Type:** dialogue
+
+When Kumārata arrived in northern India, he saw an auspicious radiance rising from a certain household. He inquired and was told that a man of great virtue named Jayata lived there. Kumārata knocked at the gate. Jayata came out and said: 'What does the elder seek?' Kumārata said: 'Not what I am seeking—what is seeking me.' Jayata bowed and opened the gate.
+
+### The Incense That Never Burns Out
+
+- **Attribution:** Jayata
+- **Type:** dialogue
+
+Jayata said to a skeptic who questioned the value of meditation: 'Light a stick of incense. Watch the smoke rise and disappear. Now tell me: where did it go?' The skeptic said: 'Into the air—into nothing.' Jayata said: 'And the sitting—where does it go?' The skeptic fell silent. Jayata said: 'Now you are beginning to understand sitting.'
+
+Keizan's verse: The smoke rises and is gone— / yet the fragrance fills the room. / Where does practice go / when the sitting ends?
+
+### The Debate with the Abhidharma Masters
+
+- **Attribution:** Jayata
+- **Type:** dialogue
+
+When Jayata arrived in the land where Vasubandhu's followers flourished, the senior monks sent a message: 'Our practice is to analyze the constituents of mind and body in careful detail. We have no interest in the wordless transmission.' Jayata sent back this reply: 'The constituents of mind and body—who is doing the analyzing?' When no answer came, Jayata entered the community and taught.
+
+### The Lamp That Needs No Oil
+
+- **Attribution:** Manorhita
+- **Type:** dialogue
+
+When Manorhita was about to transmit the Dharma, Haklenayaśas asked: 'I understand that you carry a lamp. But I see no oil and no flame. How does it burn?' Manorhita said: 'All the lamps in the world need oil and flame. This lamp is lit by neither.' Haklenayaśas said: 'Then how do I light it?' Manorhita said: 'It is already lit. It lit itself before you were born.'
+
+Keizan's verse: Before oil was pressed from seeds, / before the flame learned to burn— / that light was already everywhere. / Who turned it on?
+
+### Where the Cranes Gather
+
+- **Attribution:** Haklena
+- **Type:** dialogue
+
+Haklenayaśas taught in a region where cranes were said to follow him, gathering wherever he stopped to speak. A minister of the king asked: 'Why do cranes follow a monk?' Haklenayaśas said: 'Why does a monk follow the Dharma?' The minister said: 'Because it is beneficial.' Haklenayaśas said: 'Ask the cranes.'
+
+Keizan's verse: Birds of the air know something / that scholars argue about all day. / Not by reading or debating / but by gathering where the stillness is.
+
+### The Lion Among Students
+
+- **Attribution:** Haklena
+- **Type:** dialogue
+
+When Haklenayaśas first saw Siṃha Bhikṣu among a group of young men, he said to a companion: 'That young man carries the lion's roar. He does not yet know it.' The companion said: 'How can you tell?' Haklenayaśas said: 'The same way the lion knows the lion—not by looking, but by something older than looking.'
+
+### The Final Transmission
+
+- **Attribution:** Simha
+- **Type:** dialogue
+
+As Siṃha Bhikṣu was about to be executed by the order of King Mihirakula, he asked Vasiṣṭha to come close. He said: 'The king takes my head. Does the Dharma also lose its head?' Vasiṣṭha said: 'The Dharma has no head to lose.' Siṃha said: 'Then nothing is lost today.' And he placed his neck before the sword.
+
+Keizan's verse: The sword severs the neck / but cannot touch what was never born. / Milk pours from the wound / and the ground knows what blood never could.
+
+### The Lion's Roar
+
+- **Attribution:** Simha
+- **Type:** saying
+
+Siṃha Bhikṣu said: 'The lion does not announce before it roars. The roar simply comes, and everything in the forest becomes still. When you have truly entered the Dharma, your very presence becomes a lion's roar. Not that you shout—but that around you, distractions become still.'
+
+### What Kings Cannot Destroy
+
+- **Attribution:** Vasasita
+- **Type:** dialogue
+
+After receiving the transmission from Siṃha Bhikṣu under conditions of persecution, Vasiṣṭha wandered in hiding. A student found him and asked: 'If the king destroys the Dharma, what do we do?' Vasiṣṭha said: 'The king cannot destroy the Dharma. He can destroy monasteries and books and monks. But that which is transmitted from mind to mind—he has never seen it and does not know where it lives.'
+
+Keizan's verse: The dynasty crumbles to dust. / The monasteries burn to ash. / That which was transmitted before words— / it was never in the building.
+
+### Why Did You Become a Monk?
+
+- **Attribution:** Punyamitra
+- **Type:** dialogue
+
+Puṇyamitra was said to be of royal birth who renounced his position to seek the Dharma. When Vasiṣṭha asked him upon their first meeting: 'Why did you leave the palace?' Puṇyamitra said: 'I saw that the palace was built on sand, and the sand was built on nothing. I wanted to find what the nothing was built on.' Vasiṣṭha said: 'And have you found it?' Puṇyamitra said: 'I am standing on it.'
+
+Keizan's verse: Palace walls rise and fall— / a lifetime of sand-building. / One morning, the question arises: / What holds up the ground itself?
+
+### The Third Son's Understanding
+
+- **Attribution:** Punyamitra
+- **Type:** dialogue
+
+Puṇyamitra held up a jewel before three princes and asked each one: 'What is this?' The first said: 'A precious gem.' The second said: 'A gift beyond price.' The third—who would become Prajñātāra—said: 'This is the form of the formless, and the name of the nameless.' Puṇyamitra said: 'The other two answered what it is. You answered what it points to.'
+
+### Before the Diamond Sutra, After It
+
+- **Attribution:** Prajnatara
+- **Type:** dialogue
+
+Prajñātāra tested the young prince Bodhidharma by placing a jewel before him and asking: 'Of all things, what is most luminous?' The other princes named the jewel. Bodhidharma said: 'The Dharma is most luminous.' Prajñātāra asked: 'Of all things, what is most vast?' The others named the sky. Bodhidharma said: 'The nature of mind is most vast, for it contains the sky.' Prajñātāra said: 'This one alone has turned the jewel's light back on itself.'
+
+Keizan's verse: The gem shines outward— / but what shines inside the gem? / Ask the prince with the quiet eyes. / He knows where the light was born.
+
+### The Prophecy of the Eastern Transmission
+
+- **Attribution:** Prajnatara
+- **Type:** saying
+
+Before Prajñātāra died, he spoke to Bodhidharma: 'You have completely understood the Dharma. Do not stay in India—the conditions here are fulfilled. Travel east, beyond the great sea, to the land of Han. There the Way will flourish in ways I have not seen in this land. Do not go quickly; wait sixty-seven years after I am gone. The time will be ready then.' Bodhidharma kept this instruction in his heart for the remainder of his life in India.
+
+### This Very Mind Is Buddha
+
+- **Attribution:** Bojo Jinul
+- **Type:** saying
+
+If you want to know the Buddha, know that there is nothing apart from this mind. This very mind is the Buddha. This very mind is the dharma. The mind is not somewhere far away, to be sought through practice. It is closer than your own breath. Searching elsewhere, you miss what is already here. Returning, you find it has never been lost.
+
+### Encouragement to Practice
+
+- **Attribution:** Bojo Jinul
+- **Type:** verse
+
+Those who awaken to their original mind all at once
+still carry old habits that cannot be shed in a day.
+Like a sick man who suddenly knows himself cured
+but whose body has not yet regained full strength,
+you must go on eating and taking medicine.
+Do not sit idle thinking the work is done.
+Awakening is the gate; cultivation is the road.
+Step through the gate — and then walk.
+
+### On Investigating the Hwadu
+
+- **Attribution:** Chin'gak Hyesim
+- **Type:** saying
+
+Take up a single phrase — not many. Let it be the phrase that cannot be answered by thinking, the phrase that cuts off every road of reasoning. Press it day and night. Press it while walking and sitting. Press it when you are delighted and when you are exhausted. Do not look for the answer somewhere outside the phrase itself. When doubt becomes so thick that the phrase and the doubter are one single mass, and then that mass breaks open — that is the place the patriarchs could not describe.
+
+### Song of Mind (太古心歌)
+
+- **Attribution:** Taego Bou
+- **Type:** verse
+
+Mind, mind — this mind is Buddha.
+Buddha, Buddha — this Buddha is mind.
+When mind and Buddha are not two,
+where do you look for the ancient face?
+
+The ten thousand dharmas return to the one.
+Where does the one return?
+Pressing this question with your whole body,
+suddenly — a flower opens on a withered tree.
+
+### Seon and Pure Land Are One Gate
+
+- **Attribution:** Seosan Hyujeong
+- **Type:** saying
+
+Some say Seon is the gate of the patriarchs and Pure Land is the gate of the ordinary person. But the original mind that Seon investigates and the mind that calls upon Amitabha are not two minds. When sitting, investigate 'What is this?' When walking, recite the name of Amitabha with the same one-pointedness. Whether the wave of mind rises as a question or as a name, it is the same ocean. Do not set up a boundary between stillness and devotion, between the wordless and the word.
+
+### Gyeongheo's Awakening at Cheonjang-sa
+
+- **Attribution:** Gyeongheo Seongu
+- **Type:** dialogue
+
+On the road to Donghak-sa, Gyeongheo arrived at a village that cholera had emptied of the living. He had been teaching sutras with the confidence of a scholar; now he stood in a village of the dead, and every teaching he knew fell away. He returned to Cheonjang-sa and sat before the phrase: 'A man without nostrils is led about by a bull.' Three days passed. On the third day the mass of doubt broke, and he composed a verse:
+
+'I had heard that yellow-faced Gautama
+could save all living beings from suffering.
+
+### Awakening Must Be Complete
+
+- **Attribution:** Toeong Seongcheol
+- **Type:** saying
+
+If you say 'I have awakened, but I still have habits to clean up,' you have not awakened. True awakening (悟) is the full and sudden opening in which there is nothing left over, nothing to be gradually removed afterward. What Jinul called 'gradual cultivation after awakening' is the cultivation of someone who has not yet awakened. A person who has truly seen their own nature is like a lamp that illuminates the whole room the instant it is lit. There is no half-lit room. Either the lamp is on, or it is not.
+
+### What Are You?
+
+- **Attribution:** Seung Sahn
+- **Type:** koan
+
+A student asked Seung Sahn: 'The dog has Buddha-nature or not? Zhaozhou said Mu. What does Mu mean?'
+
+Seung Sahn held up his Zen stick and said: 'You already understand Mu perfectly. What are you?'
+
+The student was silent.
+
+Seung Sahn said: 'This silence is not enough. Open your mouth.'
+
+The student said: 'I don't know.'
+
+Seung Sahn said: 'Only don't know! That is Mu. That is Buddha-nature. That is your correct situation. Don't lose it.'
+
+### Four Questions That Are One
+
+- **Attribution:** Seung Sahn
+- **Type:** saying
+
+Seung Sahn taught that all the questions of Zen resolve into four, which are themselves one. What am I? Where do I come from? Where am I going? How shall I help others? When the first question is answered completely, not by thinking but by your whole life, the other three answer themselves. This is why practice cannot be only sitting. Every moment of your life — getting on the bus, chopping vegetables, meeting someone who is angry — is asking the first question. The complete answer is a complete human being.
+
+### The Dharma Is Not Separate from Mind
+
+- **Attribution:** Vinītaruci
+- **Type:** dialogue
+
+When Vinītaruci arrived in Vietnam and settled at Pháp Vân temple, the monk Pháp Hiền came to him and asked: 'What is the teaching the Third Patriarch transmitted to you in China?'
+
+Vinītaruci said: 'The Third Patriarch said nothing to me.'
+
+Pháp Hiền said: 'Then what did you bring south?'
+
+Vinītaruci held up one finger.
+
+Pháp Hiền bowed and asked: 'Is this the dharma?'
+
+Vinītaruci said: 'The dharma is this; your mind is this. Where is the gap?'
+
+### Silent Transmission
+
+- **Attribution:** Vô Ngôn Thông
+- **Type:** dialogue
+
+Vô Ngôn Thông — whose dharma name means 'No-Word Understanding' — arrived at Kiến Sơ temple in Vietnam late in his life and spent years in silent meditation without giving formal instruction. The monk Cảm Thành came daily and sat beside him. One morning Cảm Thành asked: 'What teaching did you bring from Master Baizhang?'
+
+Vô Ngôn Thông did not answer. Cảm Thành sat. The silence held for a long moment.
+
+Vô Ngôn Thông smiled and said: 'You already received it.'
+
+### Cư trần lạc đạo — Living Among People, Enjoying the Way
+
+- **Attribution:** Trần Nhân Tông
+- **Type:** verse
+
+Living among people, enjoy the way.
+Hungry — eat. Tired — sleep.
+The household treasure is right here;
+why search peak after peak for a teacher?
+
+When mind is still, the ten directions open.
+When thought arises, close the gate again.
+Buddha is not far:
+the one who sees this, sees the Buddha.
+
+### Verse on Receiving Transmission
+
+- **Attribution:** Liễu Quán
+- **Type:** verse
+
+For thirty years the path has been this single phrase:
+Who is the one who recites the Buddha's name?
+
+This morning the phrase asked itself —
+and the one who recites disappeared.
+
+From now on, north, south, east, west:
+each direction is the gate.
+
+### Please Call Me by My True Names
+
+- **Attribution:** Thích Nhất Hạnh
+- **Type:** verse
+
+I am the mayfly metamorphosing
+on the surface of the river,
+and I am the bird
+that swoops down to swallow the mayfly.
+
+I am the frog swimming happily
+in the clear water of a pond,
+and I am the grass snake
+that silently feeds itself on the frog.
+
+I am the child in Uganda, all skin and bones,
+my legs as thin as bamboo sticks.
+And I am the arms merchant,
+selling deadly weapons to Uganda.
+
+Please call me by my true names,
+so I can hear all my cries and my laughter at once,
+so I can see that my joy and pain are one.
+
+### The Present Moment Is the Only Moment
+
+- **Attribution:** Thích Nhất Hạnh
+- **Type:** saying
+
+The present moment is the only moment available to us, and it is the door to all moments. Each breath, each step, each bite of food — these are not preparations for life. These are life. When we walk, we touch the earth with each step, and if we can touch it in full awareness, the earth becomes real, we become real, and the connection between us and all things becomes real. Mindfulness is the miracle by which we can call back our dispersed mind and restore it to wholeness.
+
 ### Sudden Awakening, Gradual Cultivation
 
 - **Attribution:** Bojo Jinul
@@ -8894,3244 +9411,3 @@ Trần Nhân Tông, founder of the Trúc Lâm school of Vietnamese Thiền, taug
 Thích Nhất Hạnh framed practice as the conscious unification of body and mind through the breath. The first instruction is the simplest: 'Breathing in, I know I am breathing in. Breathing out, I know I am breathing out.' Awareness rides on the breath; the breath, when noticed, slows and deepens of itself.
 
 From that base he taught the gathas — short verses spoken silently with each breath ('Breathing in, I calm my body; breathing out, I smile') — and walking meditation, in which each step is taken in full awareness of contact with the earth.
-
-### The Mind Is Buddha
-
-- **Attribution:** Bojo Jinul
-- **Type:** proverb
-
-Outside of this mind there is no Buddha. Outside of this nature there is no dharma. Look for Buddha apart from your own mind, and you will not find him in a thousand kalpas.
-
-### Sudden Awakening, Gradual Cultivation
-
-- **Attribution:** Bojo Jinul
-- **Type:** proverb
-
-Though one has awakened all at once to the same nature as the Buddhas, beginningless habit-energies remain; and so practice must still gradually purify what awakening has already seen.
-
-### Tracing Back the Radiance
-
-- **Attribution:** Bojo Jinul
-- **Type:** proverb
-
-Trace back the radiance of your own mind. Do not chase after it outside — there is nothing outside to find.
-
-### What Is This?
-
-- **Attribution:** Chin'gak Hyesim
-- **Type:** proverb
-
-Take up the phrase and hold it with great doubt — as if you had swallowed a red-hot iron ball and can neither vomit it out nor swallow it down. When the doubt mass breaks, that is your real face.
-
-### Silence Speaks the Dharma
-
-- **Attribution:** Chin'gak Hyesim
-- **Type:** proverb
-
-The sound of the stream in the night valley — that voice has been preaching for thousands of years, and no one has yet heard the end of its sermon.
-
-### Hold the Phrase Like a Mosquito Biting Iron
-
-- **Attribution:** Seosan Hyujeong
-- **Type:** proverb
-
-Work on the critical phrase as a mosquito works on an iron ox — at a point where it cannot sting, let it bore in with its whole body. In one instant, body and life fall away together.
-
-### Do Not Be Deceived
-
-- **Attribution:** Toeong Seongcheol
-- **Type:** proverb
-
-When an awakening is genuine, it is complete of itself — nothing remains to be accumulated. Do not be deceived by a clear moment and call it the path. Walk the path until the path itself can be set down.
-
-### Only Don't Know
-
-- **Attribution:** Seung Sahn
-- **Type:** proverb
-
-Before thinking, what are you? Keep that question. Don't know — that mind is clear like space. In the don't-know, all beings are already saved.
-
-### Knowing the Mind, Seeing the Nature
-
-- **Attribution:** Trần Nhân Tông
-- **Type:** proverb
-
-Buddha is not somewhere else. Go back into your own mind and see clearly — there the Buddha has been waiting all along. Search outside, and you will run to exhaustion and not arrive.
-
-### Living Carefree According to Conditions
-
-- **Attribution:** Trần Nhân Tông
-- **Type:** proverb
-
-When hungry, eat. When tired, rest. When things come, respond. When they go, let them pass. The Way is not rare — only the willingness to meet it plainly.
-
-### One Breath
-
-- **Attribution:** Liễu Quán
-- **Type:** proverb
-
-In one breath, a student of the Way lives and dies a thousand times. The teacher who stays with that breath, neither grasping nor pushing it away, has nothing more to teach.
-
-### The Mind-Seal Has No Form
-
-- **Attribution:** Vinītaruci
-- **Type:** proverb
-
-The mind-seal has no form, yet it is not hidden. It is nearer than your own hand, yet it cannot be grasped. Hand it on and it is not diminished; receive it and it is not increased.
-
-### The Present Moment
-
-- **Attribution:** Thích Nhất Hạnh
-- **Type:** proverb
-
-The present moment is the only moment available to us, and it is the door to all moments. When you touch the present deeply, you touch the past and the future at the same place.
-
-### Interbeing
-
-- **Attribution:** Thích Nhất Hạnh
-- **Type:** proverb
-
-If you are a poet, you will see clearly that there is a cloud floating in this sheet of paper. Without a cloud, there will be no rain; without rain, the trees cannot grow; and without trees, we cannot make paper. The cloud and the paper inter-are.
-
-### Wordless
-
-- **Attribution:** Vô Ngôn Thông
-- **Type:** proverb
-
-The one who speaks the dharma most completely has not opened his mouth. The student who hears it most clearly has not pricked up his ears.
-
-### One Mind, Nothing Else
-
-- **Attribution:** Huangbo Xiyun
-- **Type:** proverb
-
-All the Buddhas and all sentient beings are nothing but the One Mind — there is no other dharma. This mind has been there from the beginning. It is not born and does not die.
-
-### This Very Mind Is Buddha
-
-- **Attribution:** Mazu Daoyi
-- **Type:** proverb
-
-This very mind is Buddha. When someone asks for the teaching outside this mind, he is like a man riding an ox looking for an ox.
-
-### Host Within Host
-
-- **Attribution:** Dongshan Liangjie
-- **Type:** proverb
-
-When the host sees the guest, that is still a division. When the host sees the host, the whole household falls silent.
-
-### The Gateless Barrier
-
-- **Attribution:** Wumen Huikai
-- **Type:** proverb
-
-The Great Way has no gate — a thousand paths enter it. Once you pass through the barrier, you walk freely between heaven and earth.
-
-### The Undivided Field
-
-- **Attribution:** Yuanwu Keqin
-- **Type:** proverb
-
-A single phrase can block off ten thousand gates. A single glance can open the whole field. Where is the one not yet divided? Answer before you open your mouth.
-
-### Practice Is Realization
-
-- **Attribution:** Dōgen
-- **Type:** proverb
-
-To study the Buddha Way is to study the self. To study the self is to forget the self. To forget the self is to be verified by the ten thousand dharmas.
-
-### The Unborn Buddha-Mind
-
-- **Attribution:** Bankei Yotaku
-- **Type:** proverb
-
-Your mind, as you were born with it, is the Unborn buddha-mind — marvelously illuminating, unmistaken. Simply not making anything of it, you abide where everything is complete.
-
-### All Beings Are Originally Buddha
-
-- **Attribution:** Hakuin Ekaku
-- **Type:** proverb
-
-All beings are originally Buddha, as water and ice — apart from water no ice, apart from beings no Buddha. How sad that beings seek afar and do not know what is at hand.
-
-### Flower and Smile
-
-- **Attribution:** Mahakashyapa
-- **Type:** proverb
-
-On Vulture Peak the World-Honored One held up a flower; the assembly was silent; only Mahākāśyapa smiled. The flower has not stopped being held up; the smile has not stopped traveling.
-
-### Why Mahākāśyapa Smiled
-
-- **Attribution:** Mahakashyapa
-- **Type:** proverb
-
-He smiled not because he understood, but because there was nothing left to misunderstand. To smile in that way once is to have transmission already.
-
-### Three Robes and a Bowl
-
-- **Attribution:** Mahakashyapa
-- **Type:** proverb
-
-Three robes and a bowl are enough for a monk. If you cannot live within those four objects, no fifth object will save you.
-
-### Ascetic Discipline
-
-- **Attribution:** Mahakashyapa
-- **Type:** proverb
-
-Some called my discipline severe. I never asked the body for more than the body could give; I asked it not to bargain. The bargaining is the only severe thing.
-
-### First Council
-
-- **Attribution:** Mahakashyapa
-- **Type:** proverb
-
-After the World-Honored One died, we gathered to remember his words. Memory was the first sangha; the rules were a fence around the memory; the practice was the field inside the fence.
-
-### Thus Have I Heard
-
-- **Attribution:** Ananda
-- **Type:** proverb
-
-Every sutra begins: thus have I heard. I was the one who heard. Memory is the first ferry; do not curse the ferryman.
-
-### Women as Equals
-
-- **Attribution:** Ananda
-- **Type:** proverb
-
-I asked the World-Honored One whether women could awaken as men do. He said: yes. I asked again, in case he had not heard me. He said: yes again. The dharma did not need a third asking — but the world did.
-
-### Knock Down the Pole
-
-- **Attribution:** Ananda
-- **Type:** proverb
-
-Mahākāśyapa told me: knock down the pole at the gate. I did so, and only then was I admitted to the council. The robe and the memorizing were not enough; the gate too had to be released.
-
-### Twenty-Five Years as Attendant
-
-- **Attribution:** Ananda
-- **Type:** proverb
-
-I was the World-Honored One's attendant for twenty-five years. The dharma I learned was not in the talks I overheard; it was in the way the bowl was washed after each meal.
-
-### Late Arahantship
-
-- **Attribution:** Ananda
-- **Type:** proverb
-
-I attained arahantship the night before the council, after years of being told I was not yet ready. Whoever has been told he is not ready: that telling itself is the door.
-
-### Emptiness Is the Medicine
-
-- **Attribution:** Nagarjuna
-- **Type:** proverb
-
-If you grasp emptiness as a thing, the medicine becomes a sickness. The Buddha gave emptiness as the medicine for all views; do not let it become another view.
-
-### Two Truths
-
-- **Attribution:** Nagarjuna
-- **Type:** proverb
-
-There is conventional truth and there is ultimate truth. Without the conventional, the ultimate cannot be taught; without the ultimate, the conventional becomes a prison. Walk on both feet.
-
-### Eight Negations
-
-- **Attribution:** Nagarjuna
-- **Type:** proverb
-
-No arising, no ceasing; no permanence, no annihilation; no coming, no going; no one, no many. From this eightfold no, the world arises freshly each instant.
-
-### Snake and Rope
-
-- **Attribution:** Nagarjuna
-- **Type:** proverb
-
-In the dim light, the rope looked like a snake. Once the lamp was brought, neither the snake nor the rope was as you had supposed. Bring the lamp, and your problems re-introduce themselves.
-
-### Friendly Letter to a King
-
-- **Attribution:** Nagarjuna
-- **Type:** proverb
-
-I wrote to a king: rule with patience as if the kingdom were your own body, and not as if your body were the kingdom. The king who confuses these orders ends up wounded by his own taxes.
-
-### Without a Thesis of My Own
-
-- **Attribution:** Nagarjuna
-- **Type:** proverb
-
-I have no thesis of my own. I take up your thesis, follow it through, and let it dissolve at its own end. Whoever calls me a teacher of nothing has heard me correctly.
-
-### Thirty Verses on Consciousness
-
-- **Attribution:** Vasubandhu
-- **Type:** proverb
-
-Mind makes the world; the world makes the mind. Stand at the seam of these two, and the whole loom shows itself.
-
-### Changed His Mind
-
-- **Attribution:** Vasubandhu
-- **Type:** proverb
-
-I taught the doctrine of one school for thirty years and then changed my mind. The students who refused to change with me lost more than I did.
-
-### Storehouse Consciousness
-
-- **Attribution:** Vasubandhu
-- **Type:** proverb
-
-The seeds of all your acts are stored in a hidden room of the mind. Each act planted today is a fruit you will eat tomorrow — be careful what you sow even when no one is looking.
-
-### Three Natures
-
-- **Attribution:** Vasubandhu
-- **Type:** proverb
-
-The imagined, the dependent, the perfected — three natures of one experience. The imagined hides the dependent; the dependent hides the perfected; remove the imagined, and the rest is already shining.
-
-### Life of the Buddha
-
-- **Attribution:** Ashvaghosha
-- **Type:** proverb
-
-I wrote the life of the Buddha as a poet. Whoever reads only the doctrine misses the body of the man who carried it; whoever reads only the man misses the doctrine he carried.
-
-### Awakening of Faith
-
-- **Attribution:** Ashvaghosha
-- **Type:** proverb
-
-Faith is not belief in a thing; faith is the willingness to keep sitting when the belief in sitting has gone. The dharma waits for the second kind.
-
-### Poet and Monk
-
-- **Attribution:** Ashvaghosha
-- **Type:** proverb
-
-The poet hopes for a perfect verse and grieves the imperfect one. The monk practices the imperfect verse and lets the perfect one go.
-
-### Four Hundred Stanzas
-
-- **Attribution:** Aryadeva
-- **Type:** proverb
-
-First I refute the wrong views; then I plant the right; then I let go of the right view too. Without the third step, the second is just another wrong view in disguise.
-
-### Debate Without Pride
-
-- **Attribution:** Aryadeva
-- **Type:** proverb
-
-Win the debate, and the dharma loses. Lose the debate, and the dharma loses. Sit in the debate without preference, and the dharma stands up at the end and walks home.
-
-### Clear Water Holds the Sky
-
-- **Attribution:** Aryadeva
-- **Type:** proverb
-
-Clear water holds the sky without effort. Stir it, and the sky breaks into pieces. Practice is the not-stirring.
-
-### No Need to Recite
-
-- **Attribution:** Prajnatara
-- **Type:** proverb
-
-Other monks recited the sutras at the donor's house; I sat. The donor asked: why do you not recite? I answered: when I breathe in, I do not consort with the world of beings; when I breathe out, I do not consort with the world of senses. So am I always reciting the sutra of all the buddhas.
-
-### Send Bodhidharma North
-
-- **Attribution:** Prajnatara
-- **Type:** proverb
-
-Sixty years after I am gone, you will go to a country to the north. Do not stay in our temple; the dharma in this place is well kept and needs no more keeping. The country to the north needs you more than we do.
-
-### No Pride of Lineage
-
-- **Attribution:** Prajnatara
-- **Type:** proverb
-
-I am the twenty-seventh patriarch only because someone wrote it down. The number does not bow when I bow; it does not eat when I eat; it has nothing to do with the sitting.
-
-### Walk, Do Not Talk
-
-- **Attribution:** Punyamitra
-- **Type:** proverb
-
-I walked a long way for this dharma; I do not propose to talk it back into a cage. Whoever wants to know what I know should walk too.
-
-### Old Age Teaches by Itself
-
-- **Attribution:** Punyamitra
-- **Type:** proverb
-
-Old age teaches by itself if you let it. Do not race against your wrinkles; let them be the third teacher in the room, after your master and your hut.
-
-### Do Not Pity Yourself
-
-- **Attribution:** Punyamitra
-- **Type:** proverb
-
-Self-pity is the sickness that disguises itself as the cure. Cut it cleanly; you will be surprised how light the body becomes when you are no longer carrying yourself.
-
-### Find the Old King
-
-- **Attribution:** Buddhamitra
-- **Type:** proverb
-
-I told my disciple: there is a son of an old king walking in the marketplace, and he does not yet know who he is. Find him; remind him; and the kingdom is reset by a single sentence.
-
-### Old and Young
-
-- **Attribution:** Buddhamitra
-- **Type:** proverb
-
-An old monk and a young monk study the same dharma differently. The old monk has less time; the young monk has less hurry. Both must learn the other's gift.
-
-### Counted Stones
-
-- **Attribution:** Upagupta
-- **Type:** proverb
-
-I asked each new student to bring a small stone for every passion that arose. The cave filled with stones; the passions did not. Then we built a wall around the cave with the stones, and used it as a meditation hall.
-
-### Lay Merchant Awakens
-
-- **Attribution:** Upagupta
-- **Type:** proverb
-
-A wealthy merchant came to me wanting to leave the world. I told him: stay in the world and trade fairly; the dharma is in the weighing of the goods. He returned a year later and said: the scales have been my master.
-
-### No Merit
-
-- **Attribution:** Bodhidharma
-- **Type:** proverb
-
-Emperor Wu asked: how much merit have I gained from building temples? I said: no merit. Real virtue does not count itself; the moment you keep score, you have walked out of it.
-
-### Vast Emptiness, Nothing Holy
-
-- **Attribution:** Bodhidharma
-- **Type:** proverb
-
-He asked: what is the highest meaning of the holy truth? I answered: vast emptiness, nothing holy. He could not understand. I crossed the river and went north.
-
-### Bring Me Your Mind
-
-- **Attribution:** Bodhidharma
-- **Type:** proverb
-
-Huike said: my mind is not at peace. I said: bring me your mind, and I will pacify it. He searched and could not find it. I said: there — I have pacified it for you.
-
-### Skin, Flesh, Bone, Marrow
-
-- **Attribution:** Bodhidharma
-- **Type:** proverb
-
-I told my four students each to speak the Way. Daofu received my skin. Zongchi received my flesh. Daoyu received my bone. Huike received my marrow. The four divisions were one body; the dharma is whole even when described in pieces.
-
-### There Is No Mirror Stand
-
-- **Attribution:** Dajian Huineng
-- **Type:** proverb
-
-Originally there is not a single thing — where could dust alight? Polish a mirror that is not there, and you make new dust by polishing.
-
-### Self-Nature Suffices
-
-- **Attribution:** Dajian Huineng
-- **Type:** proverb
-
-How marvelous: self-nature is originally pure. How marvelous: self-nature is originally unborn. How marvelous: self-nature is originally complete. How marvelous: self-nature is originally unmoving. How marvelous: from self-nature, the ten thousand things arise.
-
-### Without Thinking Good or Evil
-
-- **Attribution:** Dajian Huineng
-- **Type:** proverb
-
-Without thinking good or evil, what is your original face — the face you had before your father and mother were born?
-
-### An Illiterate Patriarch
-
-- **Attribution:** Dajian Huineng
-- **Type:** proverb
-
-I cannot read the sutra you hold; please read it aloud. The sutra is not in the words on the paper. It rises only in the place where listening is empty enough to receive.
-
-### Not the Flag, Not the Wind
-
-- **Attribution:** Dajian Huineng
-- **Type:** proverb
-
-Two monks argued: one said the flag moves, the other said the wind moves. I said: it is not the flag and not the wind — it is your minds that move.
-
-### Not Difficult
-
-- **Attribution:** Jianzhi Sengcan
-- **Type:** proverb
-
-The Great Way is not difficult for those who hold no preferences. When love and hate are both absent, everything stands forth, transparent and undisguised.
-
-### The Tiniest Distinction
-
-- **Attribution:** Jianzhi Sengcan
-- **Type:** proverb
-
-Make the slightest distinction, and heaven and earth are set infinitely apart. Drop the distinction, and they meet in the palm of your hand.
-
-### Do Not Search for the Truth
-
-- **Attribution:** Jianzhi Sengcan
-- **Type:** proverb
-
-Do not search for the truth — only cease to cherish opinions. The truth has been waiting in your kitchen the whole time.
-
-### Guard the One Mind
-
-- **Attribution:** Daman Hongren
-- **Type:** proverb
-
-Guard the one mind through all twelve hours of the day. The chickens scatter, the visitors come and go; if the one mind is guarded, none of them disturb the household.
-
-### True Pearl in Muddy Water
-
-- **Attribution:** Daman Hongren
-- **Type:** proverb
-
-Stir the muddy water and the pearl is hidden. Sit still, and the mud settles, and the pearl appears — not because you have created it but because you have stopped disturbing it.
-
-### Two Verses, One Field
-
-- **Attribution:** Daman Hongren
-- **Type:** proverb
-
-Shenxiu wrote of polishing the mirror. Huineng wrote that there is no mirror. The robe went south; the polishing did not stop. Both verses were correct, in different rooms of the same house.
-
-### Mountains Are Mountains Again
-
-- **Attribution:** Qingyuan Xingsi
-- **Type:** proverb
-
-Before I studied Chan, mountains were mountains and rivers were rivers. After studying Chan, mountains were no longer mountains and rivers no longer rivers. Now, after thirty years, mountains are again mountains and rivers again rivers — but with fewer feet of mine in the way.
-
-### Cutting an Axe-Handle
-
-- **Attribution:** Qingyuan Xingsi
-- **Type:** proverb
-
-To cut an axe-handle, the model is in your hand. To pass on the dharma, the model is in your life. Look closely at the model; if it has a chip in it, the new handle will too.
-
-### No Marvels at the Hermitage
-
-- **Attribution:** Qingyuan Xingsi
-- **Type:** proverb
-
-There are no marvels at this hermitage. We sweep, we cook, we sit. If you wanted marvels, you should have gone to the city — they sell them cheap there, and they break before you reach home.
-
-### Sound of Grass
-
-- **Attribution:** Qingyuan Xingsi
-- **Type:** proverb
-
-If you cannot hear the sound of grass growing, you are not yet quiet enough. Sit until you hear it, and you will not be tempted to mistake your speech for teaching.
-
-### Polishing a Tile
-
-- **Attribution:** Nanyue Huairang
-- **Type:** proverb
-
-I polished a tile in front of him until he asked what I was doing. I said: making a mirror. He laughed: a tile cannot be polished into a mirror. I said: nor can sitting be polished into a Buddha — if you are sitting in order to become one.
-
-### Cart or Ox?
-
-- **Attribution:** Nanyue Huairang
-- **Type:** proverb
-
-If a cart is stuck, do you whip the cart or the ox? If you sit in order to make the body still and the mind goes on as before, you have whipped the cart and not the ox.
-
-### Eight Years to Speak
-
-- **Attribution:** Nanyue Huairang
-- **Type:** proverb
-
-Mazu studied with me for eight years before I asked him a single question. The answer that came was already an old answer when it came. The eight years had not been spent on a question — they had been spent on the mouth.
-
-### Ordinary Mind Is the Way
-
-- **Attribution:** Mazu Daoyi
-- **Type:** proverb
-
-What is the Way? Ordinary mind is the Way. What is ordinary mind? Hungry, eat. Tired, sleep. Foolishness arises only when we add anything else.
-
-### A Shout That Deafens
-
-- **Attribution:** Mazu Daoyi
-- **Type:** proverb
-
-I shouted at Baizhang, and his ears rang for three days. The shout was not punishment — it was the doorway. Three days of deafness is a small price for the silence that follows.
-
-### Not Mind, Not Buddha
-
-- **Attribution:** Mazu Daoyi
-- **Type:** proverb
-
-Yesterday I said: this very mind is Buddha. Today I say: not mind, not Buddha. The teaching shifts; the student who clings to either statement misses both.
-
-### Trample the Buddha
-
-- **Attribution:** Mazu Daoyi
-- **Type:** proverb
-
-When you walk through the gate, leave the Buddha outside. If you carry him in, he becomes a stone in your shoe.
-
-### Eighty-Four Students
-
-- **Attribution:** Mazu Daoyi
-- **Type:** proverb
-
-I had eighty-four enlightened students, and not one of them taught the same thing. The dharma is wide enough to give each of them a different door, and narrow enough that all those doors open onto the same yard.
-
-### Wild Fox
-
-- **Attribution:** Mazu Daoyi
-- **Type:** proverb
-
-If you say a great practitioner does not fall under cause and effect, you become a wild fox for five hundred lives. If you say he is not blind to cause and effect, the wild fox is freed at once. Watch the difference of one syllable.
-
-### The Tile and the Tile-Maker
-
-- **Attribution:** Mazu Daoyi
-- **Type:** proverb
-
-Nanyue polished a tile to make a mirror; I polished sitting to make a Buddha. He laughed; I laughed back. From that day, I sat for the sake of sitting, and a Buddha appeared without anyone making one.
-
-### A Day Without Work
-
-- **Attribution:** Baizhang Huaihai
-- **Type:** proverb
-
-A day without work is a day without food. When my disciples hid my tools, I sat at the table and pushed the bowl away. They returned the tools the next morning.
-
-### The Pure Rule
-
-- **Attribution:** Baizhang Huaihai
-- **Type:** proverb
-
-I wrote down the rules of the monastery so that no master after me could be tempted to make himself a king. Read the rules; they will outlast my voice. The voice was only there to write them.
-
-### Hoe and Sutra Together
-
-- **Attribution:** Baizhang Huaihai
-- **Type:** proverb
-
-Bring the sutra to the field, and the field to the sutra. The two were never apart; only our habits make them seem so.
-
-### Three Pounds of Flax
-
-- **Attribution:** Baizhang Huaihai
-- **Type:** proverb
-
-What is Buddha? Three pounds of flax. The student who finds this strange has not yet weighed his own questions.
-
-### Fox in the Audience
-
-- **Attribution:** Baizhang Huaihai
-- **Type:** proverb
-
-An old man came to my talks for many years, sitting at the back. He told me he had been a wild fox for five hundred lives because of one wrong word. We buried the fox with monks' rites. The wrong word, properly answered, frees not only the answerer.
-
-### Step Out of the Doorway
-
-- **Attribution:** Baizhang Huaihai
-- **Type:** proverb
-
-Stand in the doorway and the wind cannot enter. Step into the room and the wind cannot enter. Step out, and the room and the wind both pass through you.
-
-### What Is Extraordinary
-
-- **Attribution:** Baizhang Huaihai
-- **Type:** proverb
-
-What is extraordinary? Sitting alone on the great peak. The peak does not feel extraordinary about itself; that is its secret.
-
-### Wash Your Bowl
-
-- **Attribution:** Baizhang Huaihai
-- **Type:** proverb
-
-After breakfast, what should I do? Wash your bowl. After washing the bowl, what should I do? Set it down. After setting it down, what should I do? You are already doing it.
-
-### Mind Is Empty Like Space
-
-- **Attribution:** Huangbo Xiyun
-- **Type:** proverb
-
-The mind is like empty space — and yet it is full of every star. To find the stars, you do not need to leave the space; only to stop looking elsewhere.
-
-### Beyond the Mind, No Buddha
-
-- **Attribution:** Huangbo Xiyun
-- **Type:** proverb
-
-There is no Buddha outside the mind. To search for a Buddha is to lose your Buddha. The search itself is the only thing in the way.
-
-### Cold Pierces the Bone
-
-- **Attribution:** Huangbo Xiyun
-- **Type:** proverb
-
-If the cold did not pierce the bone, how would the plum blossom be so fragrant? Practice without difficulty is fragrance without flower.
-
-### Striking the Emperor
-
-- **Attribution:** Huangbo Xiyun
-- **Type:** proverb
-
-When the future emperor questioned me sloppily, I struck him with my staff. He went on to rule the empire; he never asked a sloppy question again. The staff has many jobs.
-
-### No Grades Among Buddhas
-
-- **Attribution:** Huangbo Xiyun
-- **Type:** proverb
-
-There are no grades among Buddhas; you are not closer or farther by years of sitting. The day you forget the question of distance, you have arrived.
-
-### Give Up Words and Reach Beyond
-
-- **Attribution:** Huangbo Xiyun
-- **Type:** proverb
-
-Give up words, give up thinking, and stretch out to the place where words and thinking cannot reach. There you will meet me — not as a teacher, but as the same hand you use to hold this cup.
-
-### Six Realms, One Mind
-
-- **Attribution:** Huangbo Xiyun
-- **Type:** proverb
-
-Heaven, hell, animal, hungry ghost, human, demigod — six realms, one mind. The mind that wakes from one to the next is the same mind in different clothes.
-
-### The True Person of No Rank
-
-- **Attribution:** Linji Yixuan
-- **Type:** proverb
-
-There is a true person of no rank, always coming in and going out through the gate of the senses. Those who have not yet seen this person — look! Look!
-
-### Kill the Buddha, Kill the Patriarchs
-
-- **Attribution:** Linji Yixuan
-- **Type:** proverb
-
-If you meet the Buddha on the road, kill the Buddha. If you meet a patriarch, kill the patriarch. Only by killing the images that walk in front of you do you free the original face that has been walking with you all along.
-
-### Four Kinds of Shout
-
-- **Attribution:** Linji Yixuan
-- **Type:** proverb
-
-Sometimes I shout like a king's sword. Sometimes like a lion crouching. Sometimes like a fishing pole probing the waters. Sometimes a shout that is not a shout. The student who learns to tell them apart is already half-free.
-
-### Four Relations of Host and Guest
-
-- **Attribution:** Linji Yixuan
-- **Type:** proverb
-
-Sometimes the host examines the guest, sometimes the guest examines the host, sometimes guest and host examine each other, sometimes host and guest forget themselves. Be all four; do not become attached to any of them.
-
-### Do Not Borrow Eyes
-
-- **Attribution:** Linji Yixuan
-- **Type:** proverb
-
-Do not borrow the patriarchs' eyes. The eyes you have are already the patriarchs' eyes; the borrowing is what makes them seem someone else's.
-
-### Three Mysterious Gates
-
-- **Attribution:** Linji Yixuan
-- **Type:** proverb
-
-In one phrase, three mysterious gates. In one mysterious gate, three essentials. In one essential, ten thousand returns. The student who insists on counting them does not pass through any of them.
-
-### Followers of the Way
-
-- **Attribution:** Linji Yixuan
-- **Type:** proverb
-
-Followers of the Way: do not let yourself be turned by circumstances. Wherever you are, simply be the host. Then circumstances cannot help being true.
-
-### No Affair to Take Up
-
-- **Attribution:** Linji Yixuan
-- **Type:** proverb
-
-When there is no affair to take up, do not take one up. When there is one, take it up without leaning on it. Then your day's work and your day's idleness are equally Buddha-work.
-
-### Mu
-
-- **Attribution:** Zhaozhou Congshen
-- **Type:** proverb
-
-Does a dog have Buddha-nature? Mu. Three years on this one syllable, and the syllable will pour back through your life and rinse it clean.
-
-### Have You Eaten? Wash Your Bowl
-
-- **Attribution:** Zhaozhou Congshen
-- **Type:** proverb
-
-A monk said: I have just entered the monastery; please instruct me. Have you eaten breakfast? Yes. Then go and wash your bowl. The monk woke up.
-
-### Cypress Tree in the Garden
-
-- **Attribution:** Zhaozhou Congshen
-- **Type:** proverb
-
-What is the meaning of the patriarch's coming from the west? The cypress tree in the garden. Do not look elsewhere — there is no elsewhere.
-
-### Have a Cup of Tea
-
-- **Attribution:** Zhaozhou Congshen
-- **Type:** proverb
-
-A new monk arrived; I told him to have a cup of tea. An old monk arrived; I told him to have a cup of tea. The temple steward asked: why the same answer? I told him to have a cup of tea.
-
-### Three Pounds, One Mountain
-
-- **Attribution:** Zhaozhou Congshen
-- **Type:** proverb
-
-Some teacher said: three pounds of flax. Some teacher said: a dry shit-stick. I say: a stone bridge. Cross all three, and you arrive at the same village.
-
-### Even Now, Not Yet
-
-- **Attribution:** Zhaozhou Congshen
-- **Type:** proverb
-
-I am eighty years old, and even now I have not finished my study. The day I finish, I will sit down and rest; until then, the work continues whether or not I am tired.
-
-### The Stone Bridge
-
-- **Attribution:** Zhaozhou Congshen
-- **Type:** proverb
-
-I have heard about the famous stone bridge of Zhaozhou — but I see only a single log. The stone bridge crosses both donkeys and horses; the single log only crosses you.
-
-### Old Buddha, Old Cup
-
-- **Attribution:** Zhaozhou Congshen
-- **Type:** proverb
-
-What is Zhaozhou? An old Buddha. What is the old Buddha? An old cup. The cup is not less because it is old; tea fills it as it always did.
-
-### Song of the Grass Hut
-
-- **Attribution:** Shitou Xiqian
-- **Type:** proverb
-
-I have built a grass hut in which there is nothing of value. After eating, I'm ready for a nap. When the world looks for me, I'm not here — though I never went anywhere.
-
-### Merging of Difference and Sameness
-
-- **Attribution:** Shitou Xiqian
-- **Type:** proverb
-
-Brightness and darkness are like the front and back foot in walking. The light is not above the dark; both are needed for the next step.
-
-### Stone Head
-
-- **Attribution:** Shitou Xiqian
-- **Type:** proverb
-
-They call me Stone Head. A stone has no opinion of itself, no preference for sun or rain, no plan for tomorrow. If only my students were as steady.
-
-### Do Not Think About the Roof
-
-- **Attribution:** Shitou Xiqian
-- **Type:** proverb
-
-When sitting in your hut, do not think about whether the roof will leak. If it leaks, you will know. The thought beforehand only takes the place of the seat.
-
-### Trickle and River
-
-- **Attribution:** Shitou Xiqian
-- **Type:** proverb
-
-A trickle and a great river — the trickle does not envy the river, the river does not despise the trickle. Both flow downhill toward the same sea.
-
-### Five Ranks of Lord and Vassal
-
-- **Attribution:** Dongshan Liangjie
-- **Type:** proverb
-
-There is the apparent within the real; the real within the apparent; coming from within the real; arriving in mutual integration; arrival in unity. Five ranks, one lord — the names change, the lord does not.
-
-### Where Cold Cannot Reach
-
-- **Attribution:** Dongshan Liangjie
-- **Type:** proverb
-
-A monk asked: when cold and heat come, how can we escape them? Why not go to a place where there is no cold and no heat? Where is such a place? Where the cold kills you, the heat kills you.
-
-### Seeing My Reflection in the Stream
-
-- **Attribution:** Dongshan Liangjie
-- **Type:** proverb
-
-Crossing the stream I saw my own face in the water — and there it was at last, looking back. He is exactly me, but I am not him; the meeting is the meaning.
-
-### Not a Stranger
-
-- **Attribution:** Dongshan Liangjie
-- **Type:** proverb
-
-If you go to find this person, you will fail; the going makes him a stranger. Sit still where you are; soon he will sit down across from you, and you will not be able to tell which is the host.
-
-### Snow Falls into the Silver Bowl
-
-- **Attribution:** Dongshan Liangjie
-- **Type:** proverb
-
-Snow falls into a silver bowl: the white touches the white, and yet it is two. So with the meeting of the apparent and the real — they are not one, and not two, and not somewhere in between.
-
-### Last Sickness
-
-- **Attribution:** Dongshan Liangjie
-- **Type:** proverb
-
-Even a sickness can be the teaching. When my last sickness came, my students wept. I said: this body is not yours to mourn. Mourn the day you cannot tell whose body it is.
-
-### Wine of Jade
-
-- **Attribution:** Caoshan Benji
-- **Type:** proverb
-
-There is a wine of jade in this house — invisible, scentless, intoxicating. The student who reaches for the cup misses it; the student who simply sits at the table is already drinking.
-
-### Loyal Vassal
-
-- **Attribution:** Caoshan Benji
-- **Type:** proverb
-
-A loyal vassal speaks bluntly, even to the lord. So a real student answers his master plainly — the loyalty is in the bluntness, not in the bow.
-
-### Painting the Five Positions
-
-- **Attribution:** Caoshan Benji
-- **Type:** proverb
-
-I drew circles for the five positions, partly black, partly white. A picture is only paint; the positions are in the way you stand up from the cushion.
-
-### Blind Donkey
-
-- **Attribution:** Caoshan Benji
-- **Type:** proverb
-
-Beware of being a blind donkey, dragged by the lead. The lead is your own habit, dressed up as the dharma. Cut it, and the road is yours.
-
-### Dry Shit-Stick
-
-- **Attribution:** Yunmen Wenyan
-- **Type:** proverb
-
-What is Buddha? A dry shit-stick. The blunt phrase is the medicine for the polished mind.
-
-### Every Day Is a Good Day
-
-- **Attribution:** Yunmen Wenyan
-- **Type:** proverb
-
-What about before the fifteenth of the month? I will not ask. After the fifteenth? Every day is a good day. The good is not in the calendar but in the willingness to meet whatever shows up.
-
-### One-Word Barrier
-
-- **Attribution:** Yunmen Wenyan
-- **Type:** proverb
-
-What is the dharma? Suitable. What is the practice? Through. What is the highest matter? Look. One word, one barrier; pass it, and you walk.
-
-### Three Statements of Yunmen
-
-- **Attribution:** Yunmen Wenyan
-- **Type:** proverb
-
-A statement that meets heaven and earth; a statement that follows the waves; a statement that cuts off all streams. Use them in turn — never as a formula, always as a fit.
-
-### Bell and Robe
-
-- **Attribution:** Yunmen Wenyan
-- **Type:** proverb
-
-When the bell rings, why do you put on the seven-piece robe? The bell does not require the robe; the robe does not require the bell. Yet when the bell rings, the robe goes on. That is the practice.
-
-### Medicine and Sickness Cure One Another
-
-- **Attribution:** Yunmen Wenyan
-- **Type:** proverb
-
-Medicine and sickness cure one another. The whole earth is medicine; the whole earth is also sickness. Where is the patient?
-
-### Burning the Commentaries
-
-- **Attribution:** Deshan Xuanjian
-- **Type:** proverb
-
-I carried my commentaries on the Diamond Sutra over the mountains; I burned them in front of the master's gate. The fire warmed my hands. The teaching has not needed a footnote since.
-
-### Thirty Blows
-
-- **Attribution:** Deshan Xuanjian
-- **Type:** proverb
-
-If you can speak, thirty blows. If you cannot speak, thirty blows. Why? Because the blow is not punishment; it is the part of the teaching that words cannot take over.
-
-### Grandmother on the Road
-
-- **Attribution:** Deshan Xuanjian
-- **Type:** proverb
-
-An old woman selling rice cakes asked me which mind I wished to refresh — past, present, or future? I had no answer; my commentaries were no use. From that day my mouth grew quieter.
-
-### Blow Out the Candle
-
-- **Attribution:** Deshan Xuanjian
-- **Type:** proverb
-
-Longtan blew out the candle as I left his room. My eyes were full of dark, and I bowed: the dark was the candle.
-
-### Tile Striking the Bamboo
-
-- **Attribution:** Xiangyan Zhixian
-- **Type:** proverb
-
-Sweeping the path, a piece of tile struck the bamboo. The sound emptied my whole search of thirty years; I bowed in the direction of my old master and said: had he answered me then, I would never have arrived here.
-
-### A Man Up a Tree
-
-- **Attribution:** Xiangyan Zhixian
-- **Type:** proverb
-
-A man hangs from a tree by his teeth. Hands cannot hold a branch, feet cannot reach a limb. Someone asks the meaning of the patriarch's coming from the west. If he opens his mouth, he loses his life. If he does not open it, he fails to answer. What does he do?
-
-### Sweep the Path
-
-- **Attribution:** Xiangyan Zhixian
-- **Type:** proverb
-
-Sweep the path. Sweep it again. Sweep it for thirty years. One day the broom will sweep the sweeper; and you will hear what tile-on-bamboo means without anyone striking either.
-
-### One Blow Forgets All Previous Knowledge
-
-- **Attribution:** Xiangyan Zhixian
-- **Type:** proverb
-
-One blow, and all previous knowledge is forgotten. Then there is no need for tactics or rules; the body practices on its own; the day's work is enough.
-
-### After Death, a Water Buffalo
-
-- **Attribution:** Guishan Lingyou
-- **Type:** proverb
-
-When this old monk dies, I will be reborn as a water buffalo at the foot of the mountain. The buffalo will have my name on its flank, and you will not be confused about who is teaching you.
-
-### Broken Pot
-
-- **Attribution:** Guishan Lingyou
-- **Type:** proverb
-
-A monk broke a clay pot at my door and apologized. I said: do not apologize to me; apologize to the pot for asking it to be a pot all those years.
-
-### A Lifetime on One Mountain
-
-- **Attribution:** Guishan Lingyou
-- **Type:** proverb
-
-Forty years on this mountain. The trees know me; the path knows me. The student who can stay on one mountain for a lifetime has already left it.
-
-### Admonitions
-
-- **Attribution:** Guishan Lingyou
-- **Type:** proverb
-
-If you join this assembly, do not waste your robes. Idleness in robes is theft from the donor; sleep in robes is theft from yourself.
-
-### Great and Small
-
-- **Attribution:** Guishan Lingyou
-- **Type:** proverb
-
-What is great is great in being small; what is small is small in being great. Do not measure the practice by the size of the temple.
-
-### Circle on the Ground
-
-- **Attribution:** Yangshan Huiji
-- **Type:** proverb
-
-I drew a circle on the ground; my master stood inside it. We could not have spoken any plainer with a thousand words.
-
-### Where Are You From?
-
-- **Attribution:** Yangshan Huiji
-- **Type:** proverb
-
-A monk arrived. Where are you from? From the mountains. Which mountain? The student who answers any mountain has not yet been on it.
-
-### Sigil and Letter
-
-- **Attribution:** Yangshan Huiji
-- **Type:** proverb
-
-Some teachers transmit by letters; my school transmits by sigils. The sigil is not pretty; it is meant to be unrepeatable, like the moment it was drawn.
-
-### Brief Dharma Talk
-
-- **Attribution:** Yangshan Huiji
-- **Type:** proverb
-
-Today's dharma talk: bow when you enter, bow when you leave, and try not to fall asleep in the middle. Tomorrow's dharma talk will be the same.
-
-### Everything Is the Flower
-
-- **Attribution:** Yangshan Huiji
-- **Type:** proverb
-
-When the master holds up the flower, the flower is the master. When the master sets it down, the master is the flower. The misunderstanding is to think only the holding-up counts.
-
-### Concentrate on Mu
-
-- **Attribution:** Wumen Huikai
-- **Type:** proverb
-
-Concentrate yourself into this Mu. Day and night without ceasing. When you reach the moment when concentrating itself drops, the gateless gate has opened.
-
-### Bare Sword
-
-- **Attribution:** Wumen Huikai
-- **Type:** proverb
-
-Make your whole body into a great mass of doubt. Then bring out the sword called Mu. When the sword cuts cleanly, you cannot tell it from the cut.
-
-### No Snowflake Falls in the Wrong Place
-
-- **Attribution:** Wumen Huikai
-- **Type:** proverb
-
-When the willow does not yet bend, the wind has not yet blown. Yet a single bend tells of the whole wind, and a single snowflake tells of the whole sky. Nothing is in the wrong place.
-
-### A Painted Cake Will Not Satisfy Hunger
-
-- **Attribution:** Wumen Huikai
-- **Type:** proverb
-
-A painted cake does not satisfy hunger. So the koan repeated to others does not feed the one who repeats it. Eat the cake yourself; the hunger does the rest.
-
-### No Wonder Is Needed
-
-- **Attribution:** Wumen Huikai
-- **Type:** proverb
-
-If you tell me the rain has fallen, I do not need a wonder. The wonder is the rain. The wonder is also the telling.
-
-### Pivoting on the Jewel-Mirror
-
-- **Attribution:** Yuanwu Keqin
-- **Type:** proverb
-
-All hundred koans pivot on the jewel-mirror. Each koan is a different angle of the same light; you do not need to collect them all to see what is shown.
-
-### Pointer and Verse
-
-- **Attribution:** Yuanwu Keqin
-- **Type:** proverb
-
-Xuedou wrote the verse. I add the pointer. The pointer is for the student who has not yet noticed where to look; the verse is for the student who has been looking too long.
-
-### Incense Stick on the Iron Anvil
-
-- **Attribution:** Yuanwu Keqin
-- **Type:** proverb
-
-An incense stick struck against an iron anvil sends up no smoke worth speaking of. Yet a single sneeze in the meditation hall is talked about for years. Why? Because the sneeze was honest.
-
-### Passing On
-
-- **Attribution:** Yuanwu Keqin
-- **Type:** proverb
-
-I passed the dharma to Dahui as one passes a lit candle in a windy hall. The candle does not belong to me, and once it is lit in his hand, it does not belong to him either.
-
-### Pivot Word
-
-- **Attribution:** Yuanwu Keqin
-- **Type:** proverb
-
-There is a pivot word at the heart of every koan. Find it, and the rest of the case turns easily. Miss it, and the case becomes a stone in your pocket.
-
-### Burning the Blue Cliff Record
-
-- **Attribution:** Dahui Zonggao
-- **Type:** proverb
-
-I burned the wood-blocks of my master's record because students were memorizing the cases instead of meeting them. The fire that destroyed the book preserved the dharma.
-
-### Against Mere Silent Illumination
-
-- **Attribution:** Dahui Zonggao
-- **Type:** proverb
-
-Some teachers tell you to sit until the mind is bright like a clear pond. I tell you: bring up the hwadu and let it cut through the pond. A pond untouched by a stone does not yet show its bottom.
-
-### Letters to Lay Students
-
-- **Attribution:** Dahui Zonggao
-- **Type:** proverb
-
-I write to officials and merchants the same way I speak to monks. The dharma is not embarrassed by the marketplace; the marketplace is the place where it is most needed.
-
-### Great Mass of Doubt
-
-- **Attribution:** Dahui Zonggao
-- **Type:** proverb
-
-Stir up a great mass of doubt about the hwadu. Stir until the doubt becomes the only thing in your day. The day the doubt cracks, the day cracks too.
-
-### Householders Practice Hardest
-
-- **Attribution:** Dahui Zonggao
-- **Type:** proverb
-
-The householder's practice is the hardest. Children cry, debts arrive, work waits. Nobody rings a bell to begin or end. Whoever practices well in this is already an old master.
-
-### Quietude Is Not the Goal
-
-- **Attribution:** Dahui Zonggao
-- **Type:** proverb
-
-If quietude were the goal, every stone would be a Buddha. Quietude is the chair the practice sits in; it is not the practice itself.
-
-### Snowy Cliff
-
-- **Attribution:** Xuedou Chongxian
-- **Type:** proverb
-
-I sit on a snowy cliff and write verses for old cases. The cases are old; the snow is new. The two are arranged so that you cannot read one without seeing the other.
-
-### Hundred Cases, Hundred Verses
-
-- **Attribution:** Xuedou Chongxian
-- **Type:** proverb
-
-I selected one hundred cases and wrote one hundred verses. The reader who runs through them in a day has read nothing. Sit with one for a year, and the other ninety-nine open.
-
-### Poet-Monk
-
-- **Attribution:** Xuedou Chongxian
-- **Type:** proverb
-
-Some say I am too much a poet to be a real Chan master. The Chan that fits inside a poem fits everywhere. The Chan that does not is too small to be the dharma.
-
-### Only One Thing to Settle
-
-- **Attribution:** Xuedou Chongxian
-- **Type:** proverb
-
-Settle this one thing, and the ten thousand affairs settle themselves. Refuse to settle it, and the ten thousand affairs become ten thousand small stones in your shoe.
-
-### Cold Pond and Bright Moon
-
-- **Attribution:** Xuedou Chongxian
-- **Type:** proverb
-
-The cold pond and the bright moon — neither is master, neither is guest. They simply meet, and the meeting is enough. Practice is the same.
-
-### Silent Illumination
-
-- **Attribution:** Hongzhi Zhengjue
-- **Type:** proverb
-
-Sitting silently, the mind illumines without reaching. Illuminating without reaching, the world arises in the silence — not added on, not pushed away.
-
-### Empty Field
-
-- **Attribution:** Hongzhi Zhengjue
-- **Type:** proverb
-
-Cultivate the empty field. Do not till it; do not seed it; do not weed it. Yet from the empty field, every grain of rice we eat at this monastery has come.
-
-### Wide Pond, Single Reed
-
-- **Attribution:** Hongzhi Zhengjue
-- **Type:** proverb
-
-A wide pond and a single reed at its edge — that is the proper proportion of the meditation hall. Too many reeds and the pond is hidden; too wide a pond and the reed is forgotten.
-
-### Do Not Grasp Stillness
-
-- **Attribution:** Hongzhi Zhengjue
-- **Type:** proverb
-
-If you sit and grasp at stillness, the stillness becomes another form of activity. Sit and let stillness arrive; do not invite it; do not refuse it; serve it tea when it comes.
-
-### Moon and Pond
-
-- **Attribution:** Hongzhi Zhengjue
-- **Type:** proverb
-
-When the bright moon enters the pond, the pond is not deeper for it. When the moon leaves, the pond is not shallower. The pond's practice is to receive without recording.
-
-### Now Is the Instant
-
-- **Attribution:** Foyan Qingyuan
-- **Type:** proverb
-
-Practice cannot be saved for tomorrow. Even today is too late if you wait until evening. Now is the instant — the only one available.
-
-### Do Not Cling to the Moment
-
-- **Attribution:** Foyan Qingyuan
-- **Type:** proverb
-
-If you cling to this moment, it becomes a moment ago and you have already missed it. Hold it loose enough that the next one finds your hand still open.
-
-### What Has Not Yet Been Spoken
-
-- **Attribution:** Foyan Qingyuan
-- **Type:** proverb
-
-The most important sentence in the dharma has not yet been spoken — and it is being spoken now. The student who waits for the famous sentences will hear only the echoes.
-
-### Iron Mountain Pass
-
-- **Attribution:** Foyan Qingyuan
-- **Type:** proverb
-
-There is an iron mountain pass through which the patriarchs walked. From a distance, the pass looks impossible; up close, the road runs straight through. The fear was the only obstacle.
-
-### Overnight Guest
-
-- **Attribution:** Yongjia Xuanjue
-- **Type:** proverb
-
-I came to Huineng for confirmation; we spoke a single night and I was confirmed. They have called me the Overnight Guest ever since. The night was long because nothing was held back.
-
-### Walking Is Zen, Sitting Is Zen
-
-- **Attribution:** Yongjia Xuanjue
-- **Type:** proverb
-
-Walking is Zen, sitting is Zen. Speaking and silent, moving and still — the body's nature stands serene, even in rough country.
-
-### Dragon Girl Becomes Buddha
-
-- **Attribution:** Yongjia Xuanjue
-- **Type:** proverb
-
-The dragon girl became Buddha in a single moment. The patriarchs took many lifetimes. Both stories are true; both are reminders not to keep score.
-
-### Mind Is the Faculty, Things Are the Object
-
-- **Attribution:** Yongjia Xuanjue
-- **Type:** proverb
-
-Mind is the faculty, things are the object — like two knife blades striking sparks. To stop the sparks, do not put away the knives; learn the angle.
-
-### The Time-Being
-
-- **Attribution:** Dōgen
-- **Type:** proverb
-
-Time is the thing, and the thing is time. The pine is time; the bamboo is time. To say I am wasting time is to admit you are waiting for time to be elsewhere; it never is.
-
-### Firewood Does Not Become Ash
-
-- **Attribution:** Dōgen
-- **Type:** proverb
-
-Firewood does not become ash. Firewood is firewood completely; ash is ash completely. To say one becomes the other is to step over the moment in which each one stands alone.
-
-### Fish in Water, Bird in Sky
-
-- **Attribution:** Dōgen
-- **Type:** proverb
-
-When the fish swims, the water has no edges for the fish; when the bird flies, the sky has no edges for the bird. Each fully fills its element. So we, when we sit, fill the sitting.
-
-### Just Sit (Shikantaza)
-
-- **Attribution:** Dōgen
-- **Type:** proverb
-
-Sit without a single goal. If a goal sneaks in, sit with the goal as another visitor. The sitting that has no purpose is the sitting that completes its purpose.
-
-### Mountains Walking
-
-- **Attribution:** Dōgen
-- **Type:** proverb
-
-Mountains are walking. Those who do not see this say: how could a mountain walk? Those who see it say: how could a mountain not walk?
-
-### Instructions to the Cook
-
-- **Attribution:** Dōgen
-- **Type:** proverb
-
-When you wash the rice, do not separate the work from yourself. Do not separate yourself from the work. Cook with great mind, parental mind, joyful mind. The meal is the dharma; you are the menu.
-
-### Body and Mind Falling Away
-
-- **Attribution:** Dōgen
-- **Type:** proverb
-
-Body and mind fall away; fallen-away body and mind. The student who hears this and sets out to make body and mind fall away has reattached them with both hands.
-
-### Sound of One Hand
-
-- **Attribution:** Hakuin Ekaku
-- **Type:** proverb
-
-What is the sound of one hand clapping? Listen until the listening becomes the only sound in the room.
-
-### Great Doubt, Great Awakening
-
-- **Attribution:** Hakuin Ekaku
-- **Type:** proverb
-
-If your doubt is great, your awakening will be great. If your doubt is small, your awakening will be small. If you do not doubt at all, you will not awaken at all.
-
-### Soft-Butter Method
-
-- **Attribution:** Hakuin Ekaku
-- **Type:** proverb
-
-When the body grows ill from too-tight practice, place an imagined ball of soft butter on the crown of the head. Let it melt down through every joint and organ. The body returns; the practice continues without breaking the body it depends on.
-
-### Is That So?
-
-- **Attribution:** Hakuin Ekaku
-- **Type:** proverb
-
-When the village accused me of fathering the child, I said: is that so? When they brought the child for me to raise, I said: is that so? When they came years later to apologize, I said: is that so? The dharma was not different in any of the three rooms.
-
-### Frog of Hakuin
-
-- **Attribution:** Hakuin Ekaku
-- **Type:** proverb
-
-Sit with such concentration that even a frog is your teacher. The frog jumps when it must; you sit when you must; the koan is the same in both.
-
-### Laypeople Can Awaken Too
-
-- **Attribution:** Hakuin Ekaku
-- **Type:** proverb
-
-Some say only monks awaken. I have known farmers, weavers, and an old fishwife who saw their nature without ever entering a monastery. Whoever doubts greatly awakens greatly — robes are no shortcut.
-
-### After Satori, More Practice
-
-- **Attribution:** Hakuin Ekaku
-- **Type:** proverb
-
-After the great awakening, the practice does not stop. It continues for the rest of one's life — but now it is the practice of being grateful, not the practice of catching up.
-
-### Hell Is Made of Self
-
-- **Attribution:** Hakuin Ekaku
-- **Type:** proverb
-
-Whoever has not seen self-nature has not yet escaped hell. Hell is not a place beneath the world; it is the room of self, and the door opens inward.
-
-### Do Not Fight the Anger
-
-- **Attribution:** Bankei Yotaku
-- **Type:** proverb
-
-Do not fight the anger that arises. Do not water it; do not feed it; do not push it away. The Unborn buddha-mind does the rest while you sit still.
-
-### No Special Rules
-
-- **Attribution:** Bankei Yotaku
-- **Type:** proverb
-
-I make no special rules for my students. Live as you live; only do not separate yourself from the Unborn. When the bell rings, come; when it is time to leave, go.
-
-### Plain Words for Ordinary People
-
-- **Attribution:** Bankei Yotaku
-- **Type:** proverb
-
-I speak the dharma in plain Japanese, not borrowed Chinese. The dharma is not a foreign letter you must memorize; it is your own grandmother's tongue, used carefully.
-
-### Quarrelsome Monk
-
-- **Attribution:** Bankei Yotaku
-- **Type:** proverb
-
-A monk came to me complaining that he could not stop quarreling. I said: bring me your quarrel-mind, and I will sit on it. He could not find it. I told him: when next it arises, neither push nor cling — and you will find it has no resting place to be.
-
-### Do Not Borrow Anguish
-
-- **Attribution:** Bankei Yotaku
-- **Type:** proverb
-
-If anguish does not arise from this moment, do not borrow it from the past. Memory is a useful servant; do not let it become the master of the meditation hall.
-
-### Snoring Monks
-
-- **Attribution:** Bankei Yotaku
-- **Type:** proverb
-
-Some teachers strike snoring monks with the kyosaku. I let them snore — the body needs sleep, and the Unborn does not mind a snore. The next morning, the monk who slept practices freshly.
-
-### Attention. Attention.
-
-- **Attribution:** Ikkyu Sojun
-- **Type:** proverb
-
-A pilgrim asked me to write a single phrase of the highest wisdom. I wrote: Attention. He said: that is all? I wrote: Attention, Attention. He said: but they look the same. I wrote: Attention, Attention, Attention.
-
-### Skull on a Stick
-
-- **Attribution:** Ikkyu Sojun
-- **Type:** proverb
-
-On New Year's Day I walked through the city with a skull on a stick, calling: beware! beware! The crowd said I was insane. The crowd had not noticed they too had a skull beneath the face.
-
-### Brothel and Temple
-
-- **Attribution:** Ikkyu Sojun
-- **Type:** proverb
-
-I drank in the brothel and meditated in the temple — and the brothel did not lower the meditation, and the meditation did not raise the brothel. Both belong to the dharma; only my embarrassment did not.
-
-### Poems of Rage
-
-- **Attribution:** Ikkyu Sojun
-- **Type:** proverb
-
-I have written poems angry at corrupt monks; I have written poems tender to small children; I have written poems on the bellies of women. The dharma was in all three brushstrokes; it does not care about my reputation.
-
-### Cloud-Water Monk
-
-- **Attribution:** Ikkyu Sojun
-- **Type:** proverb
-
-I am a cloud-water monk. The cloud has nowhere to live; the water has nowhere to stay. Whoever calls me his teacher must be willing to walk after the wind.
-
-### Bow to a Cherry Blossom
-
-- **Attribution:** Ikkyu Sojun
-- **Type:** proverb
-
-Bow to a cherry blossom and the blossom does not return the bow; yet some part of the bow is returned, in the body, days later. Practice in this way.
-
-### Broad Seat
-
-- **Attribution:** Keizan Jōkin
-- **Type:** proverb
-
-Spread the seat of the practice broadly. Do not gather the dharma into a narrow line of monks; let nuns sit, let the children sit, let the donor sit beside the abbot. The seat that excludes is too small for the buddhas.
-
-### Record of the Transmission of Light
-
-- **Attribution:** Keizan Jōkin
-- **Type:** proverb
-
-I write this Record because the lamp must not be left in only one hand. Each face in the lineage held the lamp differently; only by writing them down do we see the family resemblance.
-
-### Women Too
-
-- **Attribution:** Keizan Jōkin
-- **Type:** proverb
-
-If the dharma stops at the gate of the nuns' hall, it is no longer the dharma. I built temples open to women practitioners. Some called me lax. The dharma called me back to my work.
-
-### Three Poisons in One Cup
-
-- **Attribution:** Keizan Jōkin
-- **Type:** proverb
-
-Greed, anger, ignorance — three poisons in one cup. To drink them is hell; to refuse them is hell; to look at the cup until the cup itself becomes empty is the practice.
-
-### Ground of Being
-
-- **Attribution:** Keizan Jōkin
-- **Type:** proverb
-
-The ground of being is not below your feet; it is what your feet are pressed into and out of, breath by breath. To practice is to learn how to step on it without forgetting.
-
-### Who Is the One Who Hears?
-
-- **Attribution:** Bassui Tokusho
-- **Type:** proverb
-
-Who is hearing this voice? Sit with that question through every cough, every footfall, every bell. The one who hears does not have a name — and yet you have been answering for him all your life.
-
-### Mind Without Form
-
-- **Attribution:** Bassui Tokusho
-- **Type:** proverb
-
-Mind has no form, no color, no weight. Yet it is heavier than the mountain when burdened, lighter than the cloud when free. Find the place where it is neither, and the mountain bows.
-
-### Letter to a Dying Layman
-
-- **Attribution:** Bassui Tokusho
-- **Type:** proverb
-
-I wrote to a dying layman: do not seek the Buddha outside this body. The body that is dying is the body that has been studying its whole life. Trust it, and the breath that leaves it last carries the answer.
-
-### Mud and Water
-
-- **Attribution:** Bassui Tokusho
-- **Type:** proverb
-
-Mud and water are not enemies; mix them, and the field grows rice. The mind and its troubles are likewise — separated, both starve; together, they feed.
-
-### Nothing to Find Outside
-
-- **Attribution:** Bassui Tokusho
-- **Type:** proverb
-
-If you search for Buddha outside, you will find a stranger. If you search inside, you will find no one. Stop searching, and the meeting is unavoidable.
-
-### River Monk
-
-- **Attribution:** Gasan Jito
-- **Type:** proverb
-
-I sit by the river that flows past the temple. The river does not ask whether I am a monk; it does not bow when I bow. Yet whenever I rise, I rise from a longer rest than I started with.
-
-### Bow Deep, Stand Slow
-
-- **Attribution:** Gasan Jito
-- **Type:** proverb
-
-Bow deep, stand slow. The bow is not for me; it is for the body to remember that the floor exists. The slow standing is not for show; it is for the body to remember that the air exists.
-
-### Old Pillow
-
-- **Attribution:** Gasan Jito
-- **Type:** proverb
-
-An old pillow is the best pillow for sleep, and the best pillow for kōan. The shape of the dreamer has worn into it; nothing in it argues back.
-
-### Five Hindrances on the Cushion
-
-- **Attribution:** Gasan Joseki
-- **Type:** proverb
-
-Greed, ill-will, sleepiness, restlessness, doubt — five visitors at every sitting. Greet each by name when it arrives; bow when each leaves. After enough visits, they stop ringing the bell.
-
-### Passing Down a Living Lineage
-
-- **Attribution:** Gasan Joseki
-- **Type:** proverb
-
-The lineage I pass down is alive only because each receiver is willing to let it kill the part of him that wants to keep it.
-
-### Hidden Temple
-
-- **Attribution:** Gasan Joseki
-- **Type:** proverb
-
-A temple hidden in the trees teaches you to walk in. A temple at the head of the road teaches you to walk past. The dharma is in either, depending on the kind of legs you arrive on.
-
-### Circle, Triangle, Square
-
-- **Attribution:** Sengai Gibon
-- **Type:** proverb
-
-I painted a circle, a triangle, and a square. Some called this the universe, the dharma, the Buddha. I called it: ink, ink, and a little more ink. The interpretation is the viewer's body.
-
-### Old Man Laughs
-
-- **Attribution:** Sengai Gibon
-- **Type:** proverb
-
-An old man laughs at his own paintings, and the paintings do not mind. So practice — laughed at by the years, the practice does not lose its smile.
-
-### Three Friends
-
-- **Attribution:** Sengai Gibon
-- **Type:** proverb
-
-Pine, bamboo, plum — three friends of winter. Each holds firm in a different way: the pine by not letting go, the bamboo by bending, the plum by blooming. Choose your way of holding.
-
-### Do Not Leave the Painting
-
-- **Attribution:** Sengai Gibon
-- **Type:** proverb
-
-Do not finish a painting and leave it behind. Carry it in your eye. The next painting begins where the last one's ink dries.
-
-### Compiling the Zen Forest
-
-- **Attribution:** Toyo Eicho
-- **Type:** proverb
-
-I gathered capping phrases as a forester gathers cuttings — not because the trees needed gathering, but so that students who could not climb would still hear the wind in the branches.
-
-### Only the Tree Knows
-
-- **Attribution:** Toyo Eicho
-- **Type:** proverb
-
-A capping phrase is a leaf detached from the tree. To know what the leaf says, return it to the tree of your own practice. Only the tree knows where each leaf belongs.
-
-### Use the Anthology Sparingly
-
-- **Attribution:** Toyo Eicho
-- **Type:** proverb
-
-Do not memorize the whole anthology and quote it at others; that is parrot work. Carry one phrase in the body for a month, and you have done more than reciting a hundred.
-
-### Flag on the Mountain
-
-- **Attribution:** Tetto Giko
-- **Type:** proverb
-
-Plant the lineage flag on the mountain. The wind will tear it; rebuild it. The students who stay are the ones who can patch a flag in a storm.
-
-### Small Temple
-
-- **Attribution:** Tetto Giko
-- **Type:** proverb
-
-Better a small temple where the floor is swept than a large one where the doctrine is admired. A swept floor is itself a doctrine.
-
-### Night Bell
-
-- **Attribution:** Tetto Giko
-- **Type:** proverb
-
-The night bell rings for those who are still awake. The dharma rings for those who are willing to be woken. Both rings are a single sound.
-
-### Blind Eyes See
-
-- **Attribution:** Yamamoto Gempo
-- **Type:** proverb
-
-I went blind young, and the world arrived through other senses. The dharma was not less for it — perhaps more, since I could no longer be distracted by the appearance of the dharma.
-
-### Bow to the Condemned
-
-- **Attribution:** Yamamoto Gempo
-- **Type:** proverb
-
-When asked to certify the death-sentence document, I refused. I bow to a man who is about to die; I do not certify his end. The bow was the dharma; the certificate would have been the law.
-
-### Survival of Rinzai
-
-- **Attribution:** Yamamoto Gempo
-- **Type:** proverb
-
-After the war, when temples were reduced to ashes, the dharma was reduced to its essentials. We rebuilt smaller buildings around the same emptiness, and the practice was unbroken.
-
-### Old Temple, New Bell
-
-- **Attribution:** Nampo Gentaku
-- **Type:** proverb
-
-An old temple sometimes needs a new bell. The bronze remembers the casting; the air remembers the ringing. The students hear only the ringing — and that is enough.
-
-### Flute and Zen
-
-- **Attribution:** Shinchi Kakushin
-- **Type:** proverb
-
-I brought the shakuhachi back from China alongside the dharma. The flute and the koan are not different practices — both ask you to stop talking long enough to hear the next note.
-
-### Fuke Zen Origins
-
-- **Attribution:** Shinchi Kakushin
-- **Type:** proverb
-
-I traced the line of Fuke back to a wandering Tang monk who rang a small bell through the marketplace. The bell was the only sutra he carried; everyone who heard it was instructed.
-
-### The Three Mysterious Gates
-
-- **Attribution:** Bojo Jinul
-- **Type:** proverb
-
-The first gate is the word; the second gate is the meaning; the third gate is the body and life. The student who passes the first stops at the word; the second stops at the meaning. Only the third sets down both word and meaning together.
-
-### An Ox on the Mountain
-
-- **Attribution:** Bojo Jinul
-- **Type:** proverb
-
-Practitioners are like an ox on the mountain: from a distance the ox seems to walk along the path of clouds, yet at every moment its hooves are on the dirt. Awakening does not lift you off the ground — it sets you firmly on it.
-
-### No Doctrine Outside the Mind
-
-- **Attribution:** Bojo Jinul
-- **Type:** proverb
-
-If you take the scriptures as the highest, the mind is buried under words. If you take the mind as the highest and abandon the scriptures, you cut yourself off from the past masters. Practice with both, and neither becomes a cage.
-
-### Householder and Mountain Monk
-
-- **Attribution:** Bojo Jinul
-- **Type:** proverb
-
-The mountain monk who congratulates himself on having left the world has not yet left himself. The householder who is empty in the marketplace is already in the mountains.
-
-### Do Not Grasp Your Own Awakening
-
-- **Attribution:** Bojo Jinul
-- **Type:** proverb
-
-When awakening comes, do not grasp it. When it goes, do not chase it. Both grasping and chasing arise from the same restless habit. Sit until even the joy of seeing becomes another thing to release.
-
-### Samādhi and Prajñā in One Practice
-
-- **Attribution:** Bojo Jinul
-- **Type:** proverb
-
-Samādhi without prajñā becomes dullness; prajñā without samādhi becomes scattering. Hold them as two wings of one bird, and the bird neither falls into stupor nor blows away in the wind.
-
-### No Ground to Stand On
-
-- **Attribution:** Chin'gak Hyesim
-- **Type:** proverb
-
-The hwadu pulls the ground from under your feet. If at that moment you reach for a wall, you have already missed it. Fall straight through, and you will find your old life waiting for you, only without the one who used to live it.
-
-### Poetry and the Great Doubt
-
-- **Attribution:** Chin'gak Hyesim
-- **Type:** proverb
-
-I have written verses for thirty years and never once captured the moon. The student who works with the hwadu day and night, and gives up the hope of capturing it, will one day notice that the moon has been writing the verses through him.
-
-### The Broken Monk
-
-- **Attribution:** Chin'gak Hyesim
-- **Type:** proverb
-
-A monk who has been broken by his practice — broken in pride, broken in plans — is finally fit to teach. A monk still whole is still hiding.
-
-### Three Questions, One Throat
-
-- **Attribution:** Chin'gak Hyesim
-- **Type:** proverb
-
-Who is hearing this voice? Who is asking who hears? Who is the one who asks who asks? When the three questions arise from one throat and go nowhere, the throat itself opens.
-
-### Not a Thing to Hand Over
-
-- **Attribution:** Chin'gak Hyesim
-- **Type:** proverb
-
-If I had something to hand you, you would not need me. Because I have nothing to hand over, I will sit with you until you discover what you already have.
-
-### The Hwadu Is Not an Answer
-
-- **Attribution:** Chin'gak Hyesim
-- **Type:** proverb
-
-The hwadu is not an answer waiting to be found. It is a wedge driven into the seam of your habits. When the wedge is fully in, the habits split — not the hwadu.
-
-### Five Houses, One River
-
-- **Attribution:** Taego Bou
-- **Type:** proverb
-
-The five houses of Chan are five fords on one river. Cross at any of them and you reach the same farther shore. Argue about which ford is best, and you stand on this side until you die.
-
-### The Pure Rule for One Person
-
-- **Attribution:** Taego Bou
-- **Type:** proverb
-
-The Pure Rule of the assembly was written for many; the pure rule for one person is written every morning before the bell. Fold the robe straight, sweep the cloister, sit.
-
-### King and Monk
-
-- **Attribution:** Taego Bou
-- **Type:** proverb
-
-The king came to ask about the dharma. I said: take off the crown for an hour, and your question will answer itself. He laughed; I laughed. The hour passed, and we both stood up changed.
-
-### No Back, No Front
-
-- **Attribution:** Taego Bou
-- **Type:** proverb
-
-When you face the cushion, the cushion is in front. When you face the marketplace, the marketplace is in front. The seat that has no back and no front is the one you carry between them.
-
-### Mountain of Gold, Mountain of Mist
-
-- **Attribution:** Taego Bou
-- **Type:** proverb
-
-If a mountain of gold stood at the door, students would line up to climb it. A mountain of mist costs nothing, contains nothing, and only the sincere try to enter it.
-
-### Three Bodies, One Sword
-
-- **Attribution:** Seosan Hyujeong
-- **Type:** proverb
-
-Doctrine is the dharma body, meditation is the reward body, conduct is the manifestation body. The Sŏn student wields all three with one sword — and the sword cuts only delusion, never the dharma.
-
-### Warrior-Monk
-
-- **Attribution:** Seosan Hyujeong
-- **Type:** proverb
-
-A monk who takes up the bow does not become a soldier; he becomes a monk in armour. The arrow loosed from the dharma is the first one; the second is the body that loosed it. Both must return to the bow.
-
-### Three Religions, One Mind
-
-- **Attribution:** Seosan Hyujeong
-- **Type:** proverb
-
-Confucius works on the village; Laozi works on the body; the Buddha works on the mind. Where the three meet, no priest is needed — the work is already done.
-
-### An Empty Temple
-
-- **Attribution:** Seosan Hyujeong
-- **Type:** proverb
-
-An empty temple is not a failed temple. The bell still rings on the empty hour, and the monks on the road carry the temple inside their robes.
-
-### After the Mosquito Has Bored In
-
-- **Attribution:** Seosan Hyujeong
-- **Type:** proverb
-
-After the mosquito has bored into the iron ox, the question becomes: where is the mosquito now? Find that mosquito, and the iron ox stands up and walks.
-
-### No Need to Leave the World
-
-- **Attribution:** Gyeongheo Seongu
-- **Type:** proverb
-
-When the world is on fire, monks discuss whether to leave it. While they discuss, the world goes on burning. Sit down where you are; the fire becomes light, and the light shows the road.
-
-### Reviving What Never Died
-
-- **Attribution:** Gyeongheo Seongu
-- **Type:** proverb
-
-Some say I revived the Korean Sŏn. The Sŏn was never dead; only the people sleeping in front of it were. To revive them was simpler than they thought, and harder than I thought.
-
-### Cholera and the Mountain
-
-- **Attribution:** Gyeongheo Seongu
-- **Type:** proverb
-
-When the cholera came, I went into the village instead of the mountain. The mountain has been there a thousand years; it can wait. The dying cannot.
-
-### No Difference Between High and Low
-
-- **Attribution:** Gyeongheo Seongu
-- **Type:** proverb
-
-I have eaten at the table of the king and at the table of the leper. The mouth that opened was the same mouth, and what entered it became the same body of the Way.
-
-### Sermon of the Meadow
-
-- **Attribution:** Gyeongheo Seongu
-- **Type:** proverb
-
-The meadow has not asked any of these wildflowers to bloom. The wildflowers have not asked the meadow to hold them. So a teacher and a student are when nothing is asked.
-
-### Do Not Leave the Mountain
-
-- **Attribution:** Toeong Seongcheol
-- **Type:** proverb
-
-I did not leave Haeinsa for ten years. Some called this attachment. Whoever cannot sit through one full season on one cushion will not understand what was being held.
-
-### Three Thousand Bows
-
-- **Attribution:** Toeong Seongcheol
-- **Type:** proverb
-
-If you wish to study with me, do three thousand bows first. Not as a test of devotion, but so the body learns to lower itself before the mind has its say.
-
-### The Mountain Is the Wave
-
-- **Attribution:** Toeong Seongcheol
-- **Type:** proverb
-
-The Diamond Sūtra says all conditioned things are like dreams, like dew. I add: the mountain is also a slow wave. Sit with the wave at its slowest, and the speed of your own life appears.
-
-### Not a Celebrity
-
-- **Attribution:** Toeong Seongcheol
-- **Type:** proverb
-
-When laypeople come to make me into a celebrity, I send them home. A monk who collects admirers has lost the only audience that mattered: the morning bell, ringing whether anyone listens or not.
-
-### Sudden Awakening, Sudden Cultivation
-
-- **Attribution:** Toeong Seongcheol
-- **Type:** proverb
-
-Some teachers say sudden awakening, gradual cultivation. I say if the awakening is genuine, the cultivation has already happened — the work that remains is only to stop pretending it has not.
-
-### Just Do It
-
-- **Attribution:** Seung Sahn
-- **Type:** proverb
-
-When you eat, just eat. When you sit, just sit. When you read this, just read it. Do not save anything for later — there is no later.
-
-### Vow Before Wisdom
-
-- **Attribution:** Seung Sahn
-- **Type:** proverb
-
-First the great vow, then the great doubt, then the great courage. Wisdom is the smallest of these; without the vow, wisdom is only cleverness.
-
-### Open Mouth, Already a Mistake
-
-- **Attribution:** Seung Sahn
-- **Type:** proverb
-
-Open your mouth, already a mistake. So why do I speak? Because the mistake is sometimes the medicine.
-
-### Three Kinds of Students
-
-- **Attribution:** Seung Sahn
-- **Type:** proverb
-
-First-class student: hears one word, gets it, goes to work. Second-class student: hears one word, asks ten more, gets it, goes to work. Third-class student: hears ten words, takes notes, never goes to work. Be the first kind, even on the days you are the third.
-
-### Throw It All Away
-
-- **Attribution:** Seung Sahn
-- **Type:** proverb
-
-Whatever you have, throw it away. Then whatever throws it away, throw that away too. When there is nothing left to throw, you have arrived where you always were.
-
-### Nothing to Attain
-
-- **Attribution:** Vinītaruci
-- **Type:** proverb
-
-If there were a thing to attain, you would lose it again at death. Because there is nothing to attain, what you find now you can never lose.
-
-### Language Beyond Language
-
-- **Attribution:** Vinītaruci
-- **Type:** proverb
-
-Sanskrit, Chinese, Vietnamese — three rivers, one ocean. The student who waits for the perfect translation will die thirsty on the riverbank.
-
-### Pass On Without Words
-
-- **Attribution:** Vinītaruci
-- **Type:** proverb
-
-What I bring from the south of India is not a doctrine, not a name, not a robe. It is a silence that travels with the breath, and is given again whenever the breath reaches the next breath.
-
-### Wall-Gazing in Vietnam
-
-- **Attribution:** Vô Ngôn Thông
-- **Type:** proverb
-
-Bodhidharma sat facing a wall in China. I sit facing the wall of the heart in Vietnam. The wall has not changed; only the country and the century around it.
-
-### School of No Words
-
-- **Attribution:** Vô Ngôn Thông
-- **Type:** proverb
-
-The school I founded was named for the silence I came in. If you wish to study with me, study the silences in your speaking. Study them long enough, and the speaking arranges itself.
-
-### When the Emperor Asked
-
-- **Attribution:** Vô Ngôn Thông
-- **Type:** proverb
-
-The emperor asked: what is the great meaning? I bowed and said nothing. He pressed me three times; three times I bowed and said nothing. On the fourth, he bowed too. That was the answer.
-
-### Three Mountains, One House
-
-- **Attribution:** Trần Nhân Tông
-- **Type:** proverb
-
-On Yên Tử there are three peaks. The Trúc Lâm school stands on all three at once. A teaching that fits only one peak is not yet a teaching.
-
-### King Today, Monk Tomorrow
-
-- **Attribution:** Trần Nhân Tông
-- **Type:** proverb
-
-I sat on the throne for many years. The day I left it was no different from any other day — the morning bell rang, the rice cooked, the body bowed. Only the crown stopped being mistaken for the head.
-
-### Buddha in the House
-
-- **Attribution:** Trần Nhân Tông
-- **Type:** proverb
-
-There is a Buddha in your house — kindly do not invite a stranger. Sit at your own hearth, light your own lamp; the Buddha will recognize his own light burning.
-
-### Fields and Altars
-
-- **Attribution:** Trần Nhân Tông
-- **Type:** proverb
-
-When the rice fields are well kept, the altars take care of themselves. When the altars are well kept, the rice fields take care of themselves. The Way is the same farmer in different clothes.
-
-### When the Mountain Becomes the Master
-
-- **Attribution:** Liễu Quán
-- **Type:** proverb
-
-I went to the mountain to find a master and waited many years. One morning the mountain said: you have become my student already; the looking around for me was the lesson.
-
-### Twelve Disciples in Twelve Provinces
-
-- **Attribution:** Liễu Quán
-- **Type:** proverb
-
-Send each disciple to a different province, and the dharma will outlive the teacher. Keep them all in one temple, and the temple will outlive only itself.
-
-### Ancestral Question
-
-- **Attribution:** Liễu Quán
-- **Type:** proverb
-
-What is the meaning of the patriarch coming from the west? I answer with a Vietnamese mouth and a Chinese sutra and an Indian silence — and the answer is none of those, and all of them.
-
-### Light from a Bowl of Rice
-
-- **Attribution:** Liễu Quán
-- **Type:** proverb
-
-Eat your bowl of rice slowly enough, and you will see light coming out of it. The student who has not seen this light has not yet eaten — only swallowed.
-
-### Washing Dishes to Wash Dishes
-
-- **Attribution:** Thích Nhất Hạnh
-- **Type:** proverb
-
-There are two ways to wash the dishes: to wash them in order to have clean dishes, and to wash them in order to wash them. The second is the practice. The first is only a chore.
-
-### No Mud, No Lotus
-
-- **Attribution:** Thích Nhất Hạnh
-- **Type:** proverb
-
-There is no lotus without mud. The wise gardener does not wash the mud away — she invites it close enough to feed the flower.
-
-### Anger Like a Baby
-
-- **Attribution:** Thích Nhất Hạnh
-- **Type:** proverb
-
-When anger arises, do not push it away. Hold it like a baby crying in your arms. The baby does not know why it cries; it only knows that it must be held until it does not.
-
-### Walking as If Kissing the Earth
-
-- **Attribution:** Thích Nhất Hạnh
-- **Type:** proverb
-
-Walk as if you are kissing the earth with your feet. The earth has been waiting for that kiss for a very long time, and most of us pass over it without ever noticing.
-
-### Deep Listening
-
-- **Attribution:** Thích Nhất Hạnh
-- **Type:** proverb
-
-Listen with the ear of the heart. The other person is speaking from a wound you cannot see; if you hear only the words, you will quarrel with the bandage.
-
-### Engaged Buddhism
-
-- **Attribution:** Thích Nhất Hạnh
-- **Type:** proverb
-
-When the village is on fire, do not stay in the meditation hall. Go out, carry water, comfort the children. The hall will be there when you return — and you will sit better in it for having gone.
-
-### A Cloud Never Dies
-
-- **Attribution:** Thích Nhất Hạnh
-- **Type:** proverb
-
-A cloud cannot die. It can only become rain, become river, become sea. So with you. The form is borrowed; the water is what you are.
-
-### Smile at the Source
-
-- **Attribution:** Thích Nhất Hạnh
-- **Type:** proverb
-
-Breathe in, calm body. Breathe out, smile. The smile is not for show; it is the body's way of telling itself that the storm has passed and it is safe to come outside.
-
-### Beginner's Mind
-
-- **Attribution:** Shunryu Suzuki
-- **Type:** proverb
-
-In the beginner's mind there are many possibilities; in the expert's mind there are few. Bring the beginner with you to the cushion every morning, and the morning is wide.
-
-### Perfect, and Could Use a Little Improvement
-
-- **Attribution:** Shunryu Suzuki
-- **Type:** proverb
-
-Each of you is perfect the way you are — and you can use a little improvement. Both are true at once; neither cancels the other.
-
-### Not Deeper, Just Here
-
-- **Attribution:** Shunryu Suzuki
-- **Type:** proverb
-
-If your sitting feels shallow today, do not look for deeper sitting. Look for being here. The deepening will follow you in without an invitation.
-
-### Mushotoku — Without Goal
-
-- **Attribution:** Taisen Deshimaru
-- **Type:** proverb
-
-Sit without goal — mushotoku. The student who sits to attain has already left the cushion. Drop the goal, and the cushion attains the student.
-
-### Here and Now
-
-- **Attribution:** Taisen Deshimaru
-- **Type:** proverb
-
-The dojo is here, the cushion is here, the breath is here. There is no Japan, no robe, no master that is not also here. Practice in the place you are.
-
-### Back Straight, Mind Loose
-
-- **Attribution:** Taisen Deshimaru
-- **Type:** proverb
-
-Stretch the spine; loosen the mind. The spine is the discipline of the body; the loose mind is the discipline of the discipline. Both belong to the same Zen.
-
-### Way of the Warrior, Way of Zen
-
-- **Attribution:** Taisen Deshimaru
-- **Type:** proverb
-
-The way of the warrior and the way of Zen meet on the same cushion. Both ask you to drop the fear of dying. The warrior drops it for one battle; the Zen student drops it for every breath.
-
-### Appreciate Your Life
-
-- **Attribution:** Taizan Maezumi
-- **Type:** proverb
-
-Appreciate your life — this very life, with its fatigue, its mistakes, its small kindnesses. The Buddha did not promise a different life; only this one fully met.
-
-### Three Pillars of Practice
-
-- **Attribution:** Taizan Maezumi
-- **Type:** proverb
-
-Sitting, study, and work — three pillars of one practice. Drop one and the roof leans; drop two and it falls; carry all three and the temple is strong even in storms.
-
-### One Master, No Master
-
-- **Attribution:** Taizan Maezumi
-- **Type:** proverb
-
-Take one master in this life and listen to him fully — and after listening, take no master at all. Without the first, the second is laziness; without the second, the first is idolatry.
-
-### Be Yourself
-
-- **Attribution:** Taizan Maezumi
-- **Type:** proverb
-
-Be yourself, completely yourself. The Buddha had no other plan for you. The trying-to-be-someone-else is the only thing he ever asked us to give up.
-
-### Imperfect Teacher
-
-- **Attribution:** Taizan Maezumi
-- **Type:** proverb
-
-I am an imperfect teacher; I have stumbled in plain sight. Do not study my stumble — study the way I rose. The dharma is in the rising, even when the stumble was clearly mine.
-
-### The Eight Gates
-
-- **Attribution:** John Daido Loori
-- **Type:** proverb
-
-Zazen, study, liturgy, art practice, body practice, work practice, the precepts, and right action — eight gates leading to one yard. Walk through each at your own pace.
-
-### Mountain and Monastery
-
-- **Attribution:** John Daido Loori
-- **Type:** proverb
-
-The mountain has been at this practice longer than any teacher in the building. When the bell rings, listen for the way the mountain sits beneath it.
-
-### Camera as Cushion
-
-- **Attribution:** John Daido Loori
-- **Type:** proverb
-
-Photographing the river, I sat with the river for hours. The shutter clicked once. The picture was good; the morning was the practice.
-
-### Koan and Creativity
-
-- **Attribution:** John Daido Loori
-- **Type:** proverb
-
-Painting, calligraphy, theater — each can be a koan if you let the work cut you. The cut is not destruction; it is the doorway through which you stop being separate from the work.
-
-### Everyday Zen
-
-- **Attribution:** Charlotte Joko Beck
-- **Type:** proverb
-
-There is no special place for practice. The kitchen, the office, the traffic jam — these are the meditation hall. The cushion is only for rehearsal.
-
-### Stop Fixing Yourself
-
-- **Attribution:** Charlotte Joko Beck
-- **Type:** proverb
-
-Practice is not the work of fixing yourself. It is the work of seeing what is, including the wish to fix. Once the wish is seen clearly, the fixing-energy returns to the body as ordinary attention.
-
-### No Magic
-
-- **Attribution:** Charlotte Joko Beck
-- **Type:** proverb
-
-There is no magic in this practice. There is only the willingness to feel what you are already feeling, and not run. After many years, the not-running becomes ordinary.
-
-### Relationships as Practice
-
-- **Attribution:** Charlotte Joko Beck
-- **Type:** proverb
-
-Your most difficult relationship is your most reliable teacher. The cushion has been preparing you for it; the temple has only been a rehearsal.
-
-### Bearing Witness
-
-- **Attribution:** Bernie Tetsugen Glassman
-- **Type:** proverb
-
-First, do not know. Second, bear witness. Third, take action. The order is not optional; if action comes first, you become only another opinion in the world.
-
-### Street Retreat
-
-- **Attribution:** Bernie Tetsugen Glassman
-- **Type:** proverb
-
-We sat on the streets of the city without money, without robes. People passed us; nobody bowed. The dharma was on the sidewalk all the same.
-
-### Not-Knowing as a Vow
-
-- **Attribution:** Bernie Tetsugen Glassman
-- **Type:** proverb
-
-Not-knowing is not ignorance. It is a vow not to fix the situation in advance with the answers you brought from yesterday.
-
-### Returning to Silence
-
-- **Attribution:** Dainin Katagiri
-- **Type:** proverb
-
-Silence is not the absence of sound; it is the place from which sounds arise. Return to it through the day, and the day stops being a chain of noises.
-
-### Each Moment Is the Universe
-
-- **Attribution:** Dainin Katagiri
-- **Type:** proverb
-
-Each moment is the entire universe. There is nothing outside this breath; nothing outside this footstep. To search for more is to stand on the universe and ask where it has gone.
-
-### You Have to Say Something
-
-- **Attribution:** Dainin Katagiri
-- **Type:** proverb
-
-Sooner or later, you have to say something. Silence is the start of practice; speech is its responsibility. Choose what to say after long sitting; it will be the right thing.
-
-### Spirit of Practice
-
-- **Attribution:** Dainin Katagiri
-- **Type:** proverb
-
-Practice with the spirit of an apprentice and the patience of a craftsman. The apprentice can ask any question; the craftsman keeps working through the unanswered ones.
-
-### Mind of Clover
-
-- **Attribution:** Robert Aitken
-- **Type:** proverb
-
-The bodhisattva's mind is the mind of clover — small leaves, intricate, modest, useful, growing in places no one chose. Be useful in the unchosen places.
-
-### Precepts as Practice
-
-- **Attribution:** Robert Aitken
-- **Type:** proverb
-
-The precepts are not laws to obey but practices to undertake. Each one is a koan in the body — solved by the way you live, not by the way you think about it.
-
-### Engaged Citizen
-
-- **Attribution:** Robert Aitken
-- **Type:** proverb
-
-A Zen student is also a citizen. Sit in the morning; vote in the afternoon; protest in the evening if needed. The cushion does not absolve us from the polis.
-
-### Zen Is Eternal Life
-
-- **Attribution:** Jiyu-Kennett
-- **Type:** proverb
-
-There is no death in this practice — only the falling away of forms. The form falls; the practice continues in another form. Whoever has truly sat knows there has never been a death.
-
-### Monastery Rule for One
-
-- **Attribution:** Jiyu-Kennett
-- **Type:** proverb
-
-If you cannot live by the monastery rule, write a monastery rule for one — and live by it as if a hundred others were watching. They are not, but the dharma is.
-
-### Female Master
-
-- **Attribution:** Jiyu-Kennett
-- **Type:** proverb
-
-I was the first Western woman to be transmitted in our line. They said I would not last. The dharma did not consult them, and I am still here.
-
-### Archery Without Arrow
-
-- **Attribution:** Kobun Chino Otogawa
-- **Type:** proverb
-
-Draw the bow without an arrow. The bow is heaviest then. After many drawings, the bow becomes part of the arm; only then is the arrow placed.
-
-### Zazen as Poetry
-
-- **Attribution:** Kobun Chino Otogawa
-- **Type:** proverb
-
-Zazen is the body's poetry. It is written without ink, read without eyes, and yet a careful student can recognize the lines years later in the way the body sits.
-
-### Do Not Imitate Your Teacher
-
-- **Attribution:** Kobun Chino Otogawa
-- **Type:** proverb
-
-Do not imitate your teacher's posture, voice, or favorite cup. Imitate his willingness to sit. The rest will fit your body in its own way.
-
-### Zen Without Country
-
-- **Attribution:** Philippe Reiryū Coupey
-- **Type:** proverb
-
-Zen has no country. It puts on the language of the people in front of it. We sit in French, in Italian, in Polish — and the dharma sits in all of them, and asks for none.
-
-### Living the Questions
-
-- **Attribution:** Philippe Reiryū Coupey
-- **Type:** proverb
-
-Live the questions for which there is no answer. The right answer would only end the question; living it brings the question itself into the breath.
-
-### Sitting in Strasbourg
-
-- **Attribution:** Olivier Reigen Wang-Genh
-- **Type:** proverb
-
-On winter mornings the dojo in Strasbourg is colder than the streets. We sit in coats; we sit anyway. The cold is part of the morning; the morning is part of the practice.
-
-### Care and Precepts
-
-- **Attribution:** Susan Myoyu Andersen
-- **Type:** proverb
-
-The precepts are not a set of laws but a practice of care. To take a precept is to take responsibility for a kind of attention; to break a precept is to take responsibility for the breaking.
-
-### Mindful Eating
-
-- **Attribution:** Jan Chozen Bays
-- **Type:** proverb
-
-Sit with one raisin. Look at it; smell it; chew it slowly. After one raisin, the rest of the meal becomes a teacher. After many meals, the day becomes the cushion.
-
-### Pediatrician's Practice
-
-- **Attribution:** Jan Chozen Bays
-- **Type:** proverb
-
-I have practiced as a pediatrician and as a Zen teacher. The two practices wash the hands of the same person; the children have not noticed any difference.
-
-### Painted Rice Cake
-
-- **Attribution:** Dōgen
-- **Type:** proverb
-
-Without painted rice cakes, there is no remedy for hunger. The image of awakening is not opposed to awakening; the painting and the eating belong to one kitchen.
-
-### Mountains and Rivers Sutra
-
-- **Attribution:** Dōgen
-- **Type:** proverb
-
-The blue mountains, the running rivers — these are not the setting for the sutra. They are the sutra. Those who can read in this way do not need a printed page.
-
-### Letter to Young Monks
-
-- **Attribution:** Hakuin Ekaku
-- **Type:** proverb
-
-Sit in the burning house and do not run. The flames will become the wind that fans your practice. The student who runs out has only escaped a fire that was about to teach.
-
-### Women and Children Sit Too
-
-- **Attribution:** Keizan Jōkin
-- **Type:** proverb
-
-Whenever I built a hall, I made sure the women and children could sit there. The dharma had no robe of its own; it accepted any size.
-
-### Old Woman in the Audience
-
-- **Attribution:** Bankei Yotaku
-- **Type:** proverb
-
-An old woman heard one of my talks and went home and began to practice in her kitchen. Years later her son told me she had become a Buddha there. I never knew her name; the dharma did.
-
-### Do Not Fear Doubt
-
-- **Attribution:** Bassui Tokusho
-- **Type:** proverb
-
-Doubt is the lamp; certainty is the candlestick. Without the lamp, the candlestick is decorative. Without the candlestick, the lamp burns the floor. Carry both.
-
-### Walking with the Buddha
-
-- **Attribution:** Thích Nhất Hạnh
-- **Type:** proverb
-
-When you walk, walk as though the Buddha walks with you. After many walks, you will notice that the Buddha walks because you do — and that he never had any other legs.
-
-### Drinking Tea
-
-- **Attribution:** Thích Nhất Hạnh
-- **Type:** proverb
-
-Drink your tea slowly and reverently, as if it is the axis on which the world turns — slowly, evenly, without rushing toward the future. Live the actual moment; only this moment is life.
-
-### After the Throne
-
-- **Attribution:** Trần Nhân Tông
-- **Type:** proverb
-
-After leaving the throne I lived in the mountains, and many came to ask for guidance. I told them: do as I did, but in your own house. Whatever throne you sit upon, leave it daily — and return to it in service.
-
-### Nirvana, a Name
-
-- **Attribution:** Baizhang Niepan
-- **Type:** proverb
-
-Nirvana is a name. Do not put on the name as a robe. Sit in the body that wears no name, and you will find what the word was pointing to.
-
-### Six Attributes of One House
-
-- **Attribution:** Fayan Wenyi
-- **Type:** proverb
-
-Universal and particular, identical and different, integration and disintegration — six attributes of one house. The student who lives in the house need not name them; the rooms work whether or not he has the words.
-
-### Three Statements of Fenyang
-
-- **Attribution:** Fenyang Shanzhao
-- **Type:** proverb
-
-When the host is the host, the guest is the guest. When the host is the guest, the guest is the host. When neither is host nor guest, dinner has begun.
-
-### Wuzu's Encouragement
-
-- **Attribution:** Wuzu Fayan
-- **Type:** proverb
-
-I told Yuanwu: do not measure your awakening against another's. Each awakening is a particular voice; the chorus only sings if every voice keeps its own pitch.
-
-### Body and Mind Drop Away
-
-- **Attribution:** Tiantong Rujing
-- **Type:** proverb
-
-Body and mind drop away — that is the practice. The student who tries to drop them on purpose finds them stuck more firmly. Sit until the body forgets itself; the rest is automatic.
-
-### Do Not Burn Incense for Show
-
-- **Attribution:** Tiantong Rujing
-- **Type:** proverb
-
-Do not burn incense for show, do not bow for show, do not chant for show. The dharma does not need an audience; you need a few honest mornings.
-
-### Shōbōgenzō (Treasury of the True Dharma Eye)
-
-- **Attribution:** Dōgen
-- **Type:** work
-
-Dōgen's central work: a collection of 95 fascicles composed between 1231 and 1253, written in vernacular Japanese rather than classical Chinese. Each fascicle is a stand-alone meditation on practice, perception, language, or doctrine — Genjōkōan, Bendōwa, Uji, Sansuikyō, Busshō, and others have circulated independently for centuries. The text is the foundational scripture of Sōtō Zen and one of the most commented-on works of medieval Japanese Buddhism.
-
-### Fukanzazengi (Universal Recommendation for Zazen)
-
-- **Attribution:** Dōgen
-- **Type:** work
-
-Dōgen's earliest extant work and his foundational practice manual, drafted in 1227 shortly after his return from China and revised in 1233. In a few hundred characters it lays out the rationale, posture, breathing, and inner orientation of zazen — the seated meditation he treats not as a means to enlightenment but as its very expression. Read in Sōtō zendos worldwide as the canonical "how-to" of shikantaza.
-
-### Eihei Kōroku (Dōgen's Extensive Record)
-
-- **Attribution:** Dōgen
-- **Type:** work
-
-A ten-volume record of Dōgen's later teaching at Eihei-ji, compiled by his successors. It collects formal jōdō (Dharma hall discourses), shōsan (informal talks), kōan commentaries, and Chinese-style verse — the documentary counterpart to Shōbōgenzō. The Leighton & Okumura translation makes the full Chinese-language record available in English for the first time.
-
-### Tenzo Kyōkun (Instructions for the Cook)
-
-- **Attribution:** Dōgen
-- **Type:** work
-
-Dōgen's 1237 essay on the vocation of the monastery cook, drawing on encounters with two old tenzos he met in China. Although the surface subject is kitchen work, the text develops Dōgen's account of how attentiveness in everyday tasks is itself the unfolding of practice — and is widely read today outside the monastic context.
-
-### Gakudō Yōjinshū (Points to Watch in Buddhist Practice)
-
-- **Attribution:** Dōgen
-- **Type:** work
-
-Ten short admonitions for practitioners, composed around 1234. Each point — arousing the way-seeking mind, taking refuge, reading sutras, sitting zazen — is presented as an instruction to be turned over and embodied rather than merely understood. One of the most accessible entry points into Dōgen for new practitioners.
-
-### Orategama (The Embossed Tea-Kettle)
-
-- **Attribution:** Hakuin Ekaku
-- **Type:** work
-
-A three-part collection of letters by Hakuin (1751) addressed to a daimyō, a nun, and a fellow Zen master. The Orategama lays out Hakuin's mature account of kōan introspection (kanna-zen), naijikan energy practice, and the necessity of post-satori cultivation — the framework that shapes modern Rinzai training to this day.
-
-### Zazen Wasan (Song of Zazen)
-
-- **Attribution:** Hakuin Ekaku
-- **Type:** work
-
-Hakuin's short verse-hymn in the vernacular, chanted at the close of zazen sessions in Rinzai temples worldwide. "All beings by nature are Buddha, as ice by nature is water" — its forty-four lines compress Hakuin's teaching that practice and realization are not separate, intended to be memorised by lay practitioners.
-
-### Keisō Dokuzui (Poison-Stamens of a Thicket of Thorns)
-
-- **Attribution:** Hakuin Ekaku
-- **Type:** work
-
-Hakuin's most demanding kōan-commentary collection: dense, allusive verses and prose responses to traditional cases. The title — "poison-stamens" — flags Hakuin's view that genuine kōan study demands the ingestion of something dangerous to the conventional self. Selectively translated; remains a touchstone for Rinzai kōan curriculum.
-
-### Denkōroku (The Record of the Transmission of the Light)
-
-- **Attribution:** Keizan Jōkin
-- **Type:** work
-
-Keizan's record of the lineage from Śākyamuni through fifty-two generations of Indian, Chinese, and Japanese ancestors down to Ejō, his teacher. Each chapter pairs an awakening dialogue with Keizan's commentary and verse. Together with the Shōbōgenzō it forms one of the two foundational texts of Sōtō Zen.
-
-### Zazen Yōjinki (Notes on What to Be Aware of in Zazen)
-
-- **Attribution:** Keizan Jōkin
-- **Type:** work
-
-Keizan's practical complement to Dōgen's Fukanzazengi: a detailed handbook on posture, attention, the management of drowsiness and distraction, and the integration of zazen into daily life. Often the second text a Sōtō student is given after the Fukanzazengi.
-
-### Platform Sutra of the Sixth Patriarch (Liùzǔ Tánjīng)
-
-- **Attribution:** Dajian Huineng
-- **Type:** work
-
-The only Chinese text outside the imported Indian canon to be called a sūtra. Framed as Huineng's autobiography and sermons at Dafan-si, surviving in a Dunhuang manuscript (~780 CE) and a longer Yuan-dynasty redaction. It establishes the Southern School's signature teachings — sudden awakening, the inseparability of meditation and wisdom, and the seeing of one's own nature — and is the single most influential Chan text after the canonical sūtras.
-
-### Linji Lu (Record of Linji)
-
-- **Attribution:** Linji Yixuan
-- **Type:** work
-
-Compiled by Linji's heirs and reaching its present form under Yuanjue Zongyan in 1120, the Linji Lu collects the master's discourses, encounter dialogues, and travel records. It is the source text for the four shouts, the four classifications of subject and object, and "the true person of no rank" — the rhetorical devices around which the entire Linji/Rinzai school subsequently organised itself.
-
-### Chuánxīn Fǎyào (Essentials of Mind Transmission)
-
-- **Attribution:** Huangbo Xiyun
-- **Type:** work
-
-Huangbo's teachings as recorded by the Tang official and lay disciple Pei Xiu in 857. The text is a sustained treatise on the One Mind that is identical with all buddhas — no graduated practice, no entry from outside, only direct seeing. Read together with Huangbo's later "Wanling Record," it became one of the most concise statements of Hongzhou-school teaching to enter the standard Chan canon.
-
-### Blue Cliff Record (Bìyán Lù)
-
-- **Attribution:** Yuanwu Keqin
-- **Type:** work
-
-A Song-dynasty kōan collection: 100 cases originally selected and versed by Xuedou Chongxian (980–1052), each surrounded by Yuanwu's pointer, capping phrases, and prose commentary (compiled c. 1125). Its dense layering of citation and poetry is the model for the entire kōan-commentary genre. Reportedly burned by Yuanwu's heir Dahui Zonggao to discourage formulaic study, then reconstructed in 1300.
-
-### Wúménguān (The Gateless Barrier / Mumonkan)
-
-- **Attribution:** Wumen Huikai
-- **Type:** work
-
-Wumen Huikai's 1228 collection of forty-eight kōans, each followed by his prose comment and a verse. Compact, demotic, and unornamented compared with the Blue Cliff Record, it became the standard kōan textbook of the Japanese Rinzai school and remains the entry point for most Western kōan curricula. Cases 1 ("Zhaozhou's dog"), 7 ("Zhaozhou's bowl"), and 19 ("Ordinary mind is the way") are among the best-known.
-
-### Book of Serenity (Cóngróng Lù)
-
-- **Attribution:** Hongzhi Zhengjue
-- **Type:** work
-
-Hongzhi Zhengjue (1091–1157) selected and versed 100 kōans; a generation later Wansong Xingxiu added prose commentary, producing the Caodong/Sōtō counterpart to the Blue Cliff Record. The collection emphasises silent illumination (mòzhào) and the subtle dialectic of Caodong rather than dramatic encounter, and circulates today as the standard kōan curriculum on the Sōtō side of the lineage.
-
-### Sandōkai (Harmony of Difference and Equality)
-
-- **Attribution:** Shitou Xiqian
-- **Type:** work
-
-Shitou Xiqian's short Tang-dynasty verse on the interpenetration of the relative and the absolute — "the spiritual source shines clear in the light; the branching streams flow on in the dark." Forty-four lines, chanted daily in Sōtō zendos along with Dongshan's Jewel Mirror Samādhi, and one of the doctrinal seeds of the Caodong/Sōtō "five ranks."
-
-### Song of the Grass-Roof Hermitage (Cǎo'ān Gē)
-
-- **Attribution:** Shitou Xiqian
-- **Type:** work
-
-A Tang-dynasty hermit-song attributed to Shitou: thirty-two lines that describe a grass-thatched hut as both a literal dwelling and the unhoused Mind. Re-introduced into the modern Sōtō repertoire largely through Daniel Leighton's translation work; quietly influential on the contemporary American "hermit" practice imaginary.
-
-### Five Ranks of Lord and Vassal (Wǔwèi Jūnchén)
-
-- **Attribution:** Dongshan Liangjie
-- **Type:** work
-
-Dongshan's dialectical schema of the relationship between the absolute (zhèng, "upright") and the relative (piān, "inclined"). The five positions — relative within the absolute, absolute within the relative, coming from the absolute, going within both, arriving in both — became the doctrinal backbone of Caodong/Sōtō and a major kōan-curriculum object in later Rinzai training.
-
-### Song of the Jewel Mirror Samādhi (Bǎojìng Sānmèi Gē)
-
-- **Attribution:** Dongshan Liangjie
-- **Type:** work
-
-Dongshan's verse compendium, transmitted from his teacher Yunyan, that compresses the entire Caodong account of practice into ninety-six lines. Chanted in Sōtō morning service worldwide alongside the Sandōkai. Notable for its treatment of the relationship between teacher and student as a single mirror reflecting itself.
-
-### Susimgyŏl (Secrets on Cultivating the Mind)
-
-- **Attribution:** Bojo Jinul
-- **Type:** work
-
-A short tract by Pojo Chinul (1158–1210) framed as a question-and-answer manual for the new practitioner. It introduces the formula "sudden awakening followed by gradual cultivation" (頓悟漸修) that became the doctrinal signature of the Korean Jogye order. Read today as the first text any Korean Seon student studies.
-
-### Excerpts from the Dharma Collection and Special Practice Record
-
-- **Attribution:** Bojo Jinul
-- **Type:** work
-
-Chinul's substantial commentary on Zongmi's Chan-doctrinal compendium, the longest of his works. It systematises the relationship between Hwaŏm philosophy and Seon practice, defending kanhwa (kōan) practice in the lineage of Dahui while preserving the Korean integration of doctrinal study with meditative cultivation.
-
-### Sŏn'ga Kwigam (Mirror of Seon)
-
-- **Attribution:** Seosan Hyujeong
-- **Type:** work
-
-Seosan Hyujeong's 1564 anthology — short passages drawn from sūtras and Chan masters and stitched together with his own commentary — designed as a complete Seon training manual for monks during the Joseon suppression. It is the most-read Korean Buddhist primer of the early-modern period and shaped the curriculum of the Jogye order down to the present.
-
-### The Miracle of Mindfulness
-
-- **Attribution:** Thích Nhất Hạnh
-- **Type:** work
-
-Originally a long letter (1974) from Thích Nhất Hạnh to Brother Quang of the School of Youth for Social Service in Saigon, written during the Vietnam War. Translated by Mobi Ho and published by Beacon Press in 1975, it became the seminal English-language introduction to mindfulness practice — its descriptions of washing dishes, drinking tea, and walking shaped the secular mindfulness movement that followed.
-
-### The Zen Way to the Martial Arts (Zen et Arts Martiaux)
-
-- **Attribution:** Taisen Deshimaru
-- **Type:** work
-
-Deshimaru's most widely read book in English: a sustained meditation, originally published in French in 1977 as Zen et Arts Martiaux, on the shared root of zazen and bushidō. Drawing on his Saga upbringing and on kendō and judō practice with his European students, he frames the martial arts as a particular case of mushotoku attention — concentration without goal, action without ego — and uses them to explicate posture, breathing, and the quality of mind he called hishiryo. The standard introductory volume to his teaching for non-French readers.
-
-### Questions to a Zen Master (Questions à un maître zen)
-
-- **Attribution:** Taisen Deshimaru
-- **Type:** work
-
-A book-length transcript of Deshimaru's mondō — the question-and-answer sessions held after zazen at the Paris dōjō and at sesshin across Europe. Originally published as Questions à un maître zen (Pierre Belfond, 1981) and translated into English by Nancy Amphoux for E. P. Dutton in 1985, it preserves the unedited interrogative texture of his teaching: students asking about karma, sex, money, fear of death, and the nature of mind, and Deshimaru responding in compact, idiomatic French. One of the most accessible primary sources for his oral style.
-
-### The Voice of the Valley: Zen Teachings
-
-- **Attribution:** Taisen Deshimaru
-- **Type:** work
-
-An English-language compilation of Deshimaru's kusen prepared by his American disciple Philippe Reiryū Coupey, drawing on the dōjō transcripts of the late 1970s. The volume's title alludes to Dōgen's keisei sanshoku ("valley sounds, mountain colours") and frames Deshimaru's instruction as a contemporary continuation of the Sōtō tradition's attention to ordinary perception. Read alongside Sit and Mushotoku Mind, it is the principal English access point to his kusen.
-
-### The Ring of the Way (L'Anneau de la Voie)
-
-- **Attribution:** Taisen Deshimaru
-- **Type:** work
-
-A late-period volume co-authored with Évelyne Ekō de Smedt, in which Deshimaru comments verse-by-verse on classical Sōtō texts (the Hannya Shingyō, the Sandōkai, fragments of the Shōbōgenzō) interleaved with first-person reflection on practice and lineage. Published in French in 1982, the year of his death, and translated into English in 1983, it is the most explicit statement of his understanding of the transmission line he was inserting Europe into.
-
-### Sit: Zen Teachings of Master Taisen Deshimaru
-
-- **Attribution:** Taisen Deshimaru
-- **Type:** work
-
-A posthumous English-language anthology of Deshimaru's kusen, edited by Philippe Reiryū Coupey at the Paris dōjō from transcripts of zazen sessions held at the AZI in the late 1970s and early 1980s. The book is organised around fundamental Sōtō themes — the posture, breath, the bodhisattva precepts, the relation of zazen to ordinary life — and is widely used as the introductory English text in Deshimaru-line dōjōs.
-
-### Mushotoku Mind: The Heart of the Heart Sutra
-
-- **Attribution:** Taisen Deshimaru
-- **Type:** work
-
-A book-length kusen-commentary on the Hannya Shingyō (Heart Sutra), assembled by Philippe Reiryū Coupey from Deshimaru's oral teachings at the Paris dōjō. The volume threads Deshimaru's signature term — mushotoku, the mind without gaining idea — through the sutra's negation formulas ("no eye, no ear, no nose…"), reading the Heart Sutra not as a metaphysical thesis but as the description of the consciousness that arises in shikantaza.
-
-### Vrai Zen: Source vivante, racines profondes
-
-- **Attribution:** Taisen Deshimaru
-- **Type:** work
-
-Deshimaru's running French commentary on Dōgen's Shōbōgenzō, transcribed from teisho given at La Gendronnière. The volume is the closest he came to producing a sustained doctrinal exposition rather than situational kusen, and it shows him reading Dōgen line-by-line in French for an audience that had no access to the Japanese original. A central reference for the AZI's understanding of its Sōtō pedigree.
-
-### Le Bol et le Bâton: 120 contes zen
-
-- **Attribution:** Taisen Deshimaru
-- **Type:** work
-
-A posthumous collection of one hundred and twenty classical Zen tales as told and commented on by Deshimaru in the dōjō, prepared from kusen transcripts. The cases run from the Tang encounter dialogues through Dōgen's Shōbōgenzō anecdotes, each followed by Deshimaru's compact French commentary. Functions as the AZI's working koan-anthology in the absence of a formal Rinzai-style curriculum.
-
-### Zen Keys: A Guide to Zen Practice
-
-- **Attribution:** Thích Nhất Hạnh
-- **Type:** work
-
-Thích Nhất Hạnh's 1973 introduction to Vietnamese Thiền, originally published in French as Clés pour le Zen. Distinct from his later mindfulness writings, it situates his teaching in the lineage of Linji and the Trúc Lâm tradition, and remains his clearest book-length account of kōan practice as a Mahāyāna inheritance.
-
-### Hardcore Zen: Punk Rock, Monster Movies & the Truth About Reality
-
-- **Attribution:** Brad Warner
-- **Type:** work
-
-Warner's 2003 debut: a memoir-cum-primer that runs from his Akron hardcore-punk youth and his Tokyo years at Tsuburaya Productions (Ultraman) to his ordination as a Sōtō priest under Gudō Wafu Nishijima. It introduced a generation of English-speaking readers to Nishijima's plain-spoken Dōgen and remains the standard entry point to Warner's work.
-
-### Sit Down and Shut Up: Punk Rock Commentaries on Buddha, God, Truth, Sex, Death, and Dōgen's Treasury of the Right Dharma Eye
-
-- **Attribution:** Brad Warner
-- **Type:** work
-
-Warner's 2007 follow-up to Hardcore Zen and his first sustained engagement with Dōgen's Shōbōgenzō, read fascicle by fascicle through a punk-rock lens. The book inaugurates the line of Dōgen-paraphrase writing that culminates in the Don't Be a Jerk / It Came from Beyond Zen / Other Side of Nothing trilogy.
-
-### Zen Wrapped in Karma Dipped in Chocolate: A Trip Through Death, Sex, Divorce, and Spiritual Celebrity in Search of the True Dharma
-
-- **Attribution:** Brad Warner
-- **Type:** work
-
-A memoir of the year Warner's marriage ended, his mother died, and his Tsuburaya Productions job collapsed — and what those losses revealed about the difference between Zen practice and Zen as performance. One of the few Western Zen books built around personal catastrophe rather than instruction.
-
-### Sex, Sin, and Zen: A Buddhist Exploration of Sex from Celibacy to Polyamory and Everything in Between
-
-- **Attribution:** Brad Warner
-- **Type:** work
-
-An extended treatment of the Buddhist precepts on sexual conduct from a contemporary Sōtō perspective, drawing on Dōgen, Warner's own teaching practice, and his correspondence with practitioners across orientations and arrangements. Written in the same plain-spoken register as the rest of the Hardcore Zen series.
-
-### Fundamental Wisdom of the Middle Way: Nāgārjuna's Mūlamadhyamakakārikā
-
-- **Attribution:** Brad Warner
-- **Type:** work
-
-A translation of and commentary on Nāgārjuna's foundational Madhyamaka verses, co-authored with Warner's teacher Gudō Wafu Nishijima. The volume is the principal English-language record of Nishijima's reading of Nāgārjuna alongside Dōgen, and the only Warner book co-authored with his teacher.
-
-### There Is No God and He Is Always With You: A Search for God in Odd Places
-
-- **Attribution:** Brad Warner
-- **Type:** work
-
-Warner's longest-running argument with theism and atheism alike: a sustained attempt to articulate a Zen non-theism that is also not a flat materialism. The book occasioned the Pirooz Kalayeh documentary Brad Warner's Hardcore Zen (2013).
-
-### Don't Be a Jerk: And Other Practical Advice from Dōgen, Japan's Greatest Zen Master
-
-- **Attribution:** Brad Warner
-- **Type:** work
-
-Volume one of Warner's plain-English paraphrase of Dōgen's Shōbōgenzō, working through selected fascicles with a running commentary. The book is the most accessible English-language entry into Shōbōgenzō currently in print and was followed by It Came from Beyond Zen! (2017) and The Other Side of Nothing (2022).
-
-### It Came from Beyond Zen! More Practical Advice from Dōgen, Japan's Greatest Zen Master
-
-- **Attribution:** Brad Warner
-- **Type:** work
-
-Volume two of the Shōbōgenzō paraphrase trilogy, continuing Warner's fascicle-by-fascicle reading of Dōgen. The book extends the Don't Be a Jerk format to a further set of Shōbōgenzō chapters, including the more philosophically demanding ones on time, being, and Buddha-nature.
-
-### Letters to a Dead Friend About Zen
-
-- **Attribution:** Brad Warner
-- **Type:** work
-
-An epistolary introduction to Zen practice and doctrine written as letters to Warner's recently deceased childhood friend Marky. The form lets Warner cover the foundations — sitting, the precepts, karma, the dharma of friendship — in a tone closer to private correspondence than to his earlier polemics.
-
-### The Other Side of Nothing: The Zen Ethics of Time, Space, and Being
-
-- **Attribution:** Brad Warner
-- **Type:** work
-
-Volume three of the Shōbōgenzō paraphrase trilogy, focused on the ethical implications of Dōgen's non-dual reading of time and being. Warner uses Uji, Genjōkōan, and related fascicles to develop a contemporary account of how non-duality grounds — rather than dissolves — ordinary moral life.
-
-### One Blade of Grass: Finding the Old Road of the Heart, A Zen Memoir
-
-- **Attribution:** Henry Shukman
-- **Type:** work
-
-Shukman's spiritual memoir recounting his early awakening at nineteen, decades of severe eczema and depression, and the long path through Sanbō Zen training that became formal study under Joan Rieck, Rubén Habito, and Yamada Ryōun. Named a Times Literary Supplement Book of the Year on UK publication.
-
-### Original Love: The Four Inns on the Path of Awakening
-
-- **Attribution:** Henry Shukman
-- **Type:** work
-
-Shukman's structured introduction to the Sanbō Zen path organised around four progressive stages — Mindfulness, Support, Absorption, and Awakening. Develops the curriculum behind the Original Love meditation programme he began articulating in 2021.
-
-### The Way — meditation app
-
-- **Attribution:** Henry Shukman
-- **Type:** work
-
-A subscription meditation app co-founded and led by Shukman, released in February 2024 on iOS and Android. Structured around a single curriculum that takes practitioners from breath counting through kōan introspection in the Sanbō Zen style, with a free introductory course of twelve sessions.
-
-### In Dr No's Garden
-
-- **Attribution:** Henry Shukman
-- **Type:** work
-
-Shukman's first poetry collection. Won the Jerwood Aldeburgh First Collection Prize; shortlisted for the Forward First Collection Prize; The Times and Guardian Book of the Year.
-
-### Archangel
-
-- **Attribution:** Henry Shukman
-- **Type:** work
-
-A poetry collection centred on a long sequence about Anglo-Jewish men sent from Britain back to Russia in 1917 to fight in the First World War — based on research by his father, the historian Harold Shukman.
-
-### Sandstorm
-
-- **Attribution:** Henry Shukman
-- **Type:** work
-
-Shukman's first novel; won the UK Authors' Club Best First Novel Award.
-
-### The Lost City
-
-- **Attribution:** Henry Shukman
-- **Type:** work
-
-Shukman's second novel; a Guardian and Times Book of the Year, and a National Geographic Book of the Month in the US.
-
-### henryshukman.com — official site
-
-- **Attribution:** Henry Shukman
-- **Type:** work
-
-Shukman's personal website carrying his book list, retreat schedule, the Notes from Henry newsletter, and a media archive of podcast interviews and press features.
-
-### Living Zen, Loving God
-
-- **Attribution:** Ruben Habito
-- **Type:** work
-
-Habito's first major statement of the Christian-Zen path as a single integrated practice rather than two parallel disciplines. Draws on his completed Sanbō Zen kōan training under Yamada Kōun and his Jesuit theological formation.
-
-### Healing Breath: Zen for Christians and Buddhists in a Wounded World
-
-- **Attribution:** Ruben Habito
-- **Type:** work
-
-A practice handbook for breath-based meditation framed through both Sanbō Zen kōan introspection and Christian contemplative theology; addresses social and ecological dimensions of practice.
-
-### Experiencing Buddhism: Ways of Wisdom and Compassion
-
-- **Attribution:** Ruben Habito
-- **Type:** work
-
-An introductory survey of Buddhist traditions written for graduate religious-studies audiences; reflects Habito's joint career as Perkins School of Theology faculty and Sanbō Zen junshike.
-
-### Zen and the Spiritual Exercises: Paths of Awakening and Transformation
-
-- **Attribution:** Ruben Habito
-- **Type:** work
-
-Habito's most sustained dialogue between Sanbō Zen kōan introspection and the Ignatian Spiritual Exercises — the Jesuit retreat curriculum he himself completed before leaving the Society of Jesus in 1989.
-
-### Be Still and Know: Zen and the Bible
-
-- **Attribution:** Ruben Habito
-- **Type:** work
-
-A reading of selected Biblical passages through Sanbō Zen contemplative method; aimed at Christian practitioners encountering Zen practice for the first time.
-
-### Total Liberation: Zen Spirituality and the Social Dimension
-
-- **Attribution:** Ruben Habito
-- **Type:** work
-
-Habito's earliest book-length treatment of the social-ethical dimension of Sanbō Zen — bodhisattva compassion as economic, ecological, and political solidarity.
-
-### Maria Kannon Zen Center — YouTube channel
-
-- **Attribution:** Ruben Habito
-- **Type:** work
-
-The Maria Kannon Zen Center YouTube channel (@ZenNDCity) publishes Habito's dharma talks, chanting recordings, and orientation sessions for the Dallas sangha.
-
-### Zen: The Authentic Gate (Yamada Kōun) — co-translation
-
-- **Attribution:** Joan Rieck
-- **Type:** work
-
-Rieck's co-translation, with Henry Shukman, Paul Shepherd, and Migaku Sato, of Yamada Kōun's posthumously compiled introductory dharma talks — the closest thing to an authorised English-language statement of the Sanbō Zen curriculum.
-
-### Mountain Cloud Zen Center — YouTube channel
-
-- **Attribution:** Valerie Forstman
-- **Type:** work
-
-The Mountain Cloud Zen Center YouTube channel publishes weekly Thursday-evening dharma talks led by Forstman as Guiding Teacher, plus occasional sesshin teisho and orientation sessions.
-
-### In the Cloud — Mountain Cloud Zen Center podcast
-
-- **Attribution:** Valerie Forstman
-- **Type:** work
-
-Weekly teisho podcast from Mountain Cloud Zen Center, hosted by Forstman with periodic Path(less) guest-conversation episodes. Distributes the centre's dharma talks beyond the Santa Fe sangha.
-
-### ZAZEN: Eine Einführung in Zen / An Introduction to Zen
-
-- **Attribution:** Migaku Sato
-- **Type:** work
-
-A bilingual German–English introduction to zazen practice in the Sanbō Zen lineage, drawn from Sato's teisho at the Sanbō Zendō Weyarn (Domicilium) retreat centre in Bavaria.
-
-### Q und Prophetie: Studien zur Gattungs- und Traditionsgeschichte der Quelle Q
-
-- **Attribution:** Migaku Sato
-- **Type:** work
-
-Sato's University of Bern doctoral monograph on the synoptic sayings-source (Q) — a standard reference in German New Testament scholarship that pre-dates his Sanbō Zen teaching career.
-
-### Zen — Way to Enlightenment
-
-- **Attribution:** Hugo Enomiya-Lassalle
-- **Type:** work
-
-The book that introduced a generation of European Catholics to Zen practice as a discipline compatible with Christian contemplation. Reflects Lassalle's training under Harada, Yasutani, and Yamada Kōun.
-
-### Zen Meditation for Christians
-
-- **Attribution:** Hugo Enomiya-Lassalle
-- **Type:** work
-
-The most widely-translated of Lassalle's Christian-Zen handbooks; gave practical sitting instruction within a Catholic frame at a moment when no other Western Catholic priest had completed full Sanbō Zen training.
-
-### Living in the New Consciousness
-
-- **Attribution:** Hugo Enomiya-Lassalle
-- **Type:** work
-
-A late-career synthesis weaving Zen non-duality with Jean Gebser's structures-of-consciousness framework — the most philosophically expansive of Lassalle's English-language books.
-
-### Zen und christliche Mystik
-
-- **Attribution:** Hugo Enomiya-Lassalle
-- **Type:** work
-
-Lassalle's sustained German-language essay on the structural parallels between Zen kenshō and the apophatic strand of Catholic mystical theology (Meister Eckhart, John of the Cross).
-
-### The Way to Contemplation: Encountering God Today
-
-- **Attribution:** Willigis Jäger
-- **Type:** work
-
-Jäger's first English-language book; introduces silent contemplation as practiced at Münsterschwarzach Abbey to a Catholic readership, drawing on his Sanbō Zen training under Yamada Kōun.
-
-### Contemplation: A Christian Path
-
-- **Attribution:** Willigis Jäger
-- **Type:** work
-
-Shorter practice handbook on silent prayer and zazen as complementary disciplines; remains widely used in German-speaking Catholic retreat programmes.
-
-### Search for the Meaning of Life: Essays and Reflections on the Mystical Experience
-
-- **Attribution:** Willigis Jäger
-- **Type:** work
-
-Essay collection mapping the contemplative life across Christian and Zen registers; the English translation of his German *Suche nach dem Sinn des Lebens*.
-
-### Mysticism for Modern Times: Conversations with Willigis Jäger
-
-- **Attribution:** Willigis Jäger
-- **Type:** work
-
-Long-form interview series with Christoph Quarch covering Jäger's break with institutional Catholic teaching authority (2002) and the founding of the Benediktushof.
-
-### Westöstliche Weisheit: Visionen einer integralen Spiritualität
-
-- **Attribution:** Willigis Jäger
-- **Type:** work
-
-Jäger's manifesto for an integral contemplative spirituality drawing on both Christian mysticism and Zen; gave the name to the West-Östliche Weisheit foundation he established in 2007.
-
-### Benediktushof — Centre for Meditation and Mindfulness
-
-- **Attribution:** Willigis Jäger
-- **Type:** work
-
-The Holzkirchen retreat centre Jäger founded in 2003 after leaving Münsterschwarzach Abbey; the largest German-language interfaith contemplation centre. Operated as a Sanbō Zen-affiliated facility until 2009, then independently.
-
-### West-Östliche Weisheit Willigis Jäger Stiftung — foundation & archive
-
-- **Attribution:** Willigis Jäger
-- **Type:** work
-
-The foundation Jäger established in 2007 to carry forward his teaching beyond his 2020 death; maintains the canonical archive of his written and recorded teisho and curates the Benediktushof's training programme.
-
-### Zen Mind, Beginner's Mind
-
-- **Attribution:** Shunryu Suzuki
-- **Type:** work
-
-The founding text of American Sōtō Zen as a popular tradition. A collection of Suzuki Rōshi's dharma talks at the Los Altos zendo, edited by Trudy Dixon and Richard Baker after Suzuki's transcribed teisho and informal Q&A. Has remained in print continuously since 1970 and is the single most widely-read Zen book in English.
-
-### Branching Streams Flow in the Darkness: Zen Talks on the Sandokai
-
-- **Attribution:** Shunryu Suzuki
-- **Type:** work
-
-Suzuki's sustained 1970 lecture series on Sekitō Kisen's Sandōkai (Identity of Relative and Absolute), edited from transcript by Mel Weitsman and Michael Wenger and published posthumously.
-
-### Not Always So: Practicing the True Spirit of Zen
-
-- **Attribution:** Shunryu Suzuki
-- **Type:** work
-
-A second posthumous collection of Suzuki's dharma talks, edited by Edward Espe Brown, covering his later years at Tassajara and San Francisco.
-
-### Returning to Silence: Zen Practice in Daily Life
-
-- **Attribution:** Dainin Katagiri
-- **Type:** work
-
-Katagiri's first published collection of dharma talks, drawn from his teaching at the Minnesota Zen Meditation Center; introduces his characteristic emphasis on the koan of ordinary daily activity.
-
-### You Have to Say Something: Manifesting Zen Insight
-
-- **Attribution:** Dainin Katagiri
-- **Type:** work
-
-Posthumous collection edited by Steve Hagen of Katagiri's teisho on the necessity of articulating realisation within ordinary life and language.
-
-### Each Moment Is the Universe: Zen and the Way of Being Time
-
-- **Attribution:** Dainin Katagiri
-- **Type:** work
-
-Posthumous collection edited by Andrea Martin focused on Katagiri's reading of Dōgen's Uji (Being-Time) and the practice of being-in-time.
-
-### Being Upright: Zen Meditation and the Bodhisattva Precepts
-
-- **Attribution:** Tenshin Reb Anderson
-- **Type:** work
-
-Anderson's most widely-used book; teaches zazen and the sixteen bodhisattva precepts as a single integrated practice — the framework of jukai ceremonies at San Francisco Zen Center.
-
-### Warm Smiles from Cold Mountains: Dharma Talks on Zen Meditation
-
-- **Attribution:** Tenshin Reb Anderson
-- **Type:** work
-
-A collection of Anderson's teisho on zazen at SFZC and the Green Gulch Farm Zen Center, edited by Susan Moon.
-
-### The Third Turning of the Wheel: Wisdom of the Samdhinirmocana Sutra
-
-- **Attribution:** Tenshin Reb Anderson
-- **Type:** work
-
-A teisho-based commentary on the Samdhinirmocana Sutra, the foundational Yogācāra scripture of Mahāyāna Buddhism; Anderson's most scholarly book.
-
-### The Zen Way to the Martial Arts
-
-- **Attribution:** Taisen Deshimaru
-- **Type:** work
-
-Deshimaru's most-translated book; develops the relationship between zazen, the bushidō tradition, and the somatic discipline of the Japanese martial arts. Originally published in French as *Zen et arts martiaux* (Seghers, 1977).
-
-### La pratique du Zen
-
-- **Attribution:** Taisen Deshimaru
-- **Type:** work
-
-The most accessible French-language introduction to zazen as taught by Deshimaru — drawn from his Paris dōjō teisho of the 1970s.
-
-### Mushotoku Mind
-
-- **Attribution:** Taisen Deshimaru
-- **Type:** work
-
-Posthumous English-language collection of Deshimaru's teisho on the Hokyo Zanmai, transcribed and edited by Philippe Reiryū Coupey.
-
-### Questions to a Zen Master
-
-- **Attribution:** Taisen Deshimaru
-- **Type:** work
-
-Question-and-answer format collection drawn from Deshimaru's Paris dōjō sessions; the format that most preserves his characteristic spoken voice in English translation.
-
-### Sit: Zen Teachings of Master Taisen Deshimaru
-
-- **Attribution:** Philippe Reiryū Coupey
-- **Type:** work
-
-Coupey's compiled and edited edition of Deshimaru's English-language dharma talks — the most-used reference for the Deshimaru lineage's English-language students.
-
-### Association Zen Internationale — zen-azi.org
-
-- **Attribution:** Taisen Deshimaru
-- **Type:** work
-
-The official site of the Association Zen Internationale, the federation Deshimaru founded in Paris in 1970; carries the dōjō directory, teaching schedule, and a substantial archive of Deshimaru's teisho transcripts.
-
-### Association Bouddhiste Zen d'Europe (ABZE) — abzen.eu
-
-- **Attribution:** Roland Rech
-- **Type:** work
-
-The European Buddhist Zen Association founded by Roland Yuno Rech as the umbrella organisation for the dōjōs in his branch of the AZI federation; carries his teisho archive and the network's calendar.
-
-### Kanshōji Zen Buddhist Monastery — kanshoji.org
-
-- **Attribution:** Stephane Kosen Thibaut
-- **Type:** work
-
-Kanshōji, founded by Stéphane Kōsen Thibaut in 2002 in the Dordogne, the principal residential training centre of the Kōsen Sangha branch of AZI. Site carries the daily ango schedule and Kōsen-line teisho archive.
-
-### Dōjō Zen de Paris — dojozen.fr
-
-- **Attribution:** Philippe Reiryū Coupey
-- **Type:** work
-
-The Paris dōjō founded by Deshimaru in 1972 at 175 rue de Tolbiac, which Coupey led from the late 1990s until his 2024 death; the historical seat of the AZI's English-language sangha.
-
-### Selling Water by the River: A Manual of Zen Training
-
-- **Attribution:** Jiyu-Kennett
-- **Type:** work
-
-Kennett's first major book; the foundational manual of the Order of Buddhist Contemplatives' Sōtō training. Later reissued under the title *Zen is Eternal Life* (Shasta Abbey Press) after her break with the institutional Sōtōshū.
-
-### Roar of the Tigress (Vols. I–II)
-
-- **Attribution:** Jiyu-Kennett
-- **Type:** work
-
-Two-volume posthumous collection of Kennett's dharma talks at Shasta Abbey, transcribed and edited by her OBC successors after her 1996 death.
-
-### How to Grow a Lotus Blossom: Or How a Zen Buddhist Prepares for Death
-
-- **Attribution:** Jiyu-Kennett
-- **Type:** work
-
-Kennett's account of the extended visionary experience she went through in 1976–77 during a serious illness, framed as preparation for death and a sustained meditation on Buddhist eschatology.
-
-### Shasta Abbey — shastaabbey.org
-
-- **Attribution:** Jiyu-Kennett
-- **Type:** work
-
-The Shasta Abbey monastic training centre in Mount Shasta, California, which Jiyu-Kennett founded in 1970 as the head temple of the Order of Buddhist Contemplatives; carries the abbey's training schedule and the Shasta Abbey Press catalogue.

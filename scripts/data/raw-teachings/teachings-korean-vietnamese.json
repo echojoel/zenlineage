@@ -1,0 +1,287 @@
+[
+  {
+    "slug": "jinul-own-mind-is-buddha",
+    "type": "saying",
+    "author_slug": "jinul",
+    "collection": "Susimkyŏl (Secrets on Cultivating the Mind)",
+    "era": "Goryeo",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "This Very Mind Is Buddha",
+    "content": "If you want to know the Buddha, know that there is nothing apart from this mind. This very mind is the Buddha. This very mind is the dharma. The mind is not somewhere far away, to be sought through practice. It is closer than your own breath. Searching elsewhere, you miss what is already here. Returning, you find it has never been lost.",
+    "source_id": "src_jinul_susimkyol",
+    "ingestion_run_id": "run_korean_vietnamese_teachings",
+    "locator": "Susimkyŏl, section on the nature of mind as Buddha",
+    "translator": "After Robert E. Buswell Jr., 'Tracing Back the Radiance' (1991), pp. 143–159",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "jinul", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "jinul-sudden-awakening-verse",
+    "type": "verse",
+    "author_slug": "jinul",
+    "collection": "Kwŏnsu chŏnghye kyŏlsa mun (Encouragement to Practice)",
+    "era": "Goryeo",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "Encouragement to Practice",
+    "content": "Those who awaken to their original mind all at once\nstill carry old habits that cannot be shed in a day.\nLike a sick man who suddenly knows himself cured\nbut whose body has not yet regained full strength,\nyou must go on eating and taking medicine.\nDo not sit idle thinking the work is done.\nAwakening is the gate; cultivation is the road.\nStep through the gate — and then walk.",
+    "source_id": "src_jinul_susimkyol",
+    "ingestion_run_id": "run_korean_vietnamese_teachings",
+    "locator": "Kwŏnsu chŏnghye kyŏlsa mun (Encouragement to Practice), on sudden awakening and gradual cultivation",
+    "translator": "After Robert E. Buswell Jr., 'Tracing Back the Radiance' (1991), pp. 91–97",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "jinul", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "chingak-hyesim-hwadu-investigation",
+    "type": "saying",
+    "author_slug": "chingak-hyesim",
+    "collection": "Seonmun Yeomsong (Anthology of the Seon Gate)",
+    "era": "Goryeo",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "On Investigating the Hwadu",
+    "content": "Take up a single phrase — not many. Let it be the phrase that cannot be answered by thinking, the phrase that cuts off every road of reasoning. Press it day and night. Press it while walking and sitting. Press it when you are delighted and when you are exhausted. Do not look for the answer somewhere outside the phrase itself. When doubt becomes so thick that the phrase and the doubter are one single mass, and then that mass breaks open — that is the place the patriarchs could not describe.",
+    "source_id": "src_buswell_radiance",
+    "ingestion_run_id": "run_korean_vietnamese_teachings",
+    "locator": "After Buswell, 'Tracing Back the Radiance' (1991), pp. 98–130, on Hyesim and hwadu investigation",
+    "translator": "Zen Lineage editorial reconstruction, after scholarly sources on Hyesim's method",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "chingak-hyesim", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "taego-bou-song-of-mind",
+    "type": "verse",
+    "author_slug": "taego-bou",
+    "collection": "Taego Hwasang Eorok (Recorded Sayings of Taego)",
+    "era": "Goryeo",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "Song of Mind (太古心歌)",
+    "content": "Mind, mind — this mind is Buddha.\nBuddha, Buddha — this Buddha is mind.\nWhen mind and Buddha are not two,\nwhere do you look for the ancient face?\n\nThe ten thousand dharmas return to the one.\nWhere does the one return?\nPressing this question with your whole body,\nsuddenly — a flower opens on a withered tree.",
+    "source_id": "src_buswell_formation",
+    "ingestion_run_id": "run_korean_vietnamese_teachings",
+    "locator": "Taego Hwasang Eorok — 'Taego Simga' (Song of Mind), attributed to Taego Bou",
+    "translator": "After scholarly reconstructions of the Taego Simga; traditional rendering",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "taego-bou", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "seosan-seon-pure-land-one-gate",
+    "type": "saying",
+    "author_slug": "seosan-hyujeong",
+    "collection": "Sŏn'ga kwigam (Mirror of Seon)",
+    "era": "Joseon",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "Seon and Pure Land Are One Gate",
+    "content": "Some say Seon is the gate of the patriarchs and Pure Land is the gate of the ordinary person. But the original mind that Seon investigates and the mind that calls upon Amitabha are not two minds. When sitting, investigate 'What is this?' When walking, recite the name of Amitabha with the same one-pointedness. Whether the wave of mind rises as a question or as a name, it is the same ocean. Do not set up a boundary between stillness and devotion, between the wordless and the word.",
+    "source_id": "src_seosan_mirror_of_seon",
+    "ingestion_run_id": "run_korean_vietnamese_teachings",
+    "locator": "Sŏn'ga kwigam, section on the unity of Seon and Pure Land practice",
+    "translator": "After Hyujeong's Mirror of Seon; scholarly rendering after Buswell",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "seosan-hyujeong", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "gyeongheo-death-and-awakening",
+    "type": "dialogue",
+    "author_slug": "gyeongheo-seongu",
+    "collection": "Traditional Accounts of Gyeongheo",
+    "era": "Modern",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "Gyeongheo's Awakening at Cheonjang-sa",
+    "content": "On the road to Donghak-sa, Gyeongheo arrived at a village that cholera had emptied of the living. He had been teaching sutras with the confidence of a scholar; now he stood in a village of the dead, and every teaching he knew fell away. He returned to Cheonjang-sa and sat before the phrase: 'A man without nostrils is led about by a bull.' Three days passed. On the third day the mass of doubt broke, and he composed a verse:\n\n'I had heard that yellow-faced Gautama\ncould save all living beings from suffering.\nBut today I see that the true saving\nis the very suffering itself — nothing is left out.'\n\nFrom that night he abandoned the lectern and travelled from monastery to monastery restoring the meditation halls that three centuries of suppression had closed.",
+    "source_id": "src_buswell_monastic",
+    "ingestion_run_id": "run_korean_vietnamese_teachings",
+    "locator": "After Robert E. Buswell Jr., 'The Zen Monastic Experience' (1992), pp. 21–41, on Gyeongheo's awakening",
+    "translator": "Zen Lineage editorial reconstruction of traditional account",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "gyeongheo-seongu", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "seongcheol-sudden-complete",
+    "type": "saying",
+    "author_slug": "seongcheol",
+    "collection": "Seonmun Jeongno (Correct Path of the Seon School)",
+    "era": "Modern",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "Awakening Must Be Complete",
+    "content": "If you say 'I have awakened, but I still have habits to clean up,' you have not awakened. True awakening (悟) is the full and sudden opening in which there is nothing left over, nothing to be gradually removed afterward. What Jinul called 'gradual cultivation after awakening' is the cultivation of someone who has not yet awakened. A person who has truly seen their own nature is like a lamp that illuminates the whole room the instant it is lit. There is no half-lit room. Either the lamp is on, or it is not.",
+    "source_id": "src_seongcheol_dharma_talks",
+    "ingestion_run_id": "run_korean_vietnamese_teachings",
+    "locator": "Seonmun Jeongno (선문정로), 1981; Hundred-Day Dharma Talks on sudden awakening, sudden cultivation",
+    "translator": "After Seongcheol, 'Seonmun Jeongno' (1981); English rendering from Haein-sa sources",
+    "license_status": "rights_reserved",
+    "master_roles": [
+      { "slug": "seongcheol", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "seung-sahn-what-am-i-koan",
+    "type": "koan",
+    "author_slug": "seung-sahn",
+    "collection": "Dropping Ashes on the Buddha",
+    "era": "Modern",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "What Are You?",
+    "content": "A student asked Seung Sahn: 'The dog has Buddha-nature or not? Zhaozhou said Mu. What does Mu mean?'\n\nSeung Sahn held up his Zen stick and said: 'You already understand Mu perfectly. What are you?'\n\nThe student was silent.\n\nSeung Sahn said: 'This silence is not enough. Open your mouth.'\n\nThe student said: 'I don't know.'\n\nSeung Sahn said: 'Only don't know! That is Mu. That is Buddha-nature. That is your correct situation. Don't lose it.'",
+    "source_id": "src_kwan_um_teachings",
+    "ingestion_run_id": "run_korean_vietnamese_teachings",
+    "locator": "Kwan Um School — Dharma exchange on 'What are you?' and Zhaozhou's Mu",
+    "translator": "Traditional dharma exchange, reconstructed from Kwan Um School teaching records",
+    "license_status": "fair_use",
+    "master_roles": [
+      { "slug": "seung-sahn", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "seung-sahn-compass-four-questions",
+    "type": "saying",
+    "author_slug": "seung-sahn",
+    "collection": "The Compass of Zen",
+    "era": "Modern",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "Four Questions That Are One",
+    "content": "Seung Sahn taught that all the questions of Zen resolve into four, which are themselves one. What am I? Where do I come from? Where am I going? How shall I help others? When the first question is answered completely, not by thinking but by your whole life, the other three answer themselves. This is why practice cannot be only sitting. Every moment of your life — getting on the bus, chopping vegetables, meeting someone who is angry — is asking the first question. The complete answer is a complete human being.",
+    "source_id": "src_seungsahn_compass_zen",
+    "ingestion_run_id": "run_korean_vietnamese_teachings",
+    "locator": "The Compass of Zen (Shambhala, 1997), opening framework on the four questions",
+    "translator": "After Seung Sahn, 'The Compass of Zen' (1997), ed. Hyon Gak Sunim",
+    "license_status": "fair_use",
+    "master_roles": [
+      { "slug": "seung-sahn", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "vinitaruci-mind-dharma-dialogue",
+    "type": "dialogue",
+    "author_slug": "vinitaruci",
+    "collection": "Thiền Uyển Tập Anh (Anthology of the Garden of Vietnamese Zen)",
+    "era": "Early Vietnamese",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "The Dharma Is Not Separate from Mind",
+    "content": "When Vinītaruci arrived in Vietnam and settled at Pháp Vân temple, the monk Pháp Hiền came to him and asked: 'What is the teaching the Third Patriarch transmitted to you in China?'\n\nVinītaruci said: 'The Third Patriarch said nothing to me.'\n\nPháp Hiền said: 'Then what did you bring south?'\n\nVinītaruci held up one finger.\n\nPháp Hiền bowed and asked: 'Is this the dharma?'\n\nVinītaruci said: 'The dharma is this; your mind is this. Where is the gap?'",
+    "source_id": "src_nguyen_medieval",
+    "ingestion_run_id": "run_korean_vietnamese_teachings",
+    "locator": "Thiền Uyển Tập Anh, section on Vinītaruci and the founding of Vietnamese Thiền; after Cuong Tu Nguyen (1997), pp. 9–25",
+    "translator": "Traditional exchange reconstructed from the Thiền Uyển Tập Anh; after Cuong Tu Nguyen's translation (1997)",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "vinitaruci", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "vo-ngon-thong-silence-transmission",
+    "type": "dialogue",
+    "author_slug": "vo-ngon-thong",
+    "collection": "Thiền Uyển Tập Anh (Anthology of the Garden of Vietnamese Zen)",
+    "era": "Early Vietnamese",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "Silent Transmission",
+    "content": "Vô Ngôn Thông — whose dharma name means 'No-Word Understanding' — arrived at Kiến Sơ temple in Vietnam late in his life and spent years in silent meditation without giving formal instruction. The monk Cảm Thành came daily and sat beside him. One morning Cảm Thành asked: 'What teaching did you bring from Master Baizhang?'\n\nVô Ngôn Thông did not answer. Cảm Thành sat. The silence held for a long moment.\n\nVô Ngôn Thông smiled and said: 'You already received it.'",
+    "source_id": "src_nguyen_medieval",
+    "ingestion_run_id": "run_korean_vietnamese_teachings",
+    "locator": "Thiền Uyển Tập Anh, section on Vô Ngôn Thông; after Cuong Tu Nguyen (1997), pp. 26–42",
+    "translator": "Traditional exchange reconstructed from the Thiền Uyển Tập Anh; after Cuong Tu Nguyen's translation (1997)",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "vo-ngon-thong", "role": "speaker" }
+    ]
+  },
+  {
+    "slug": "tran-nhan-tong-cu-tran-lac-dao-verse",
+    "type": "verse",
+    "author_slug": "tran-nhan-tong",
+    "collection": "Cư trần lạc đạo phú (Rhapsody on Living Among People, Enjoying the Way)",
+    "era": "Trần",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "Cư trần lạc đạo — Living Among People, Enjoying the Way",
+    "content": "Living among people, enjoy the way.\nHungry — eat. Tired — sleep.\nThe household treasure is right here;\nwhy search peak after peak for a teacher?\n\nWhen mind is still, the ten directions open.\nWhen thought arises, close the gate again.\nBuddha is not far:\nthe one who sees this, sees the Buddha.",
+    "source_id": "src_nguyen_medieval",
+    "ingestion_run_id": "run_korean_vietnamese_teachings",
+    "locator": "Cư trần lạc đạo phú (Living Among People, Enjoying the Way) — verses attributed to Trần Nhân Tông; after Cuong Tu Nguyen (1997), pp. 85–123",
+    "translator": "After Cuong Tu Nguyen, 'Zen in Medieval Vietnam' (1997); traditional verse rendering",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "tran-nhan-tong", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "lieu-quan-enlightenment-verse",
+    "type": "verse",
+    "author_slug": "lieu-quan",
+    "collection": "Recorded Sayings of Liễu Quán",
+    "era": "Nguyễn",
+    "attribution_status": "traditional",
+    "locale": "en",
+    "title": "Verse on Receiving Transmission",
+    "content": "For thirty years the path has been this single phrase:\nWho is the one who recites the Buddha's name?\n\nThis morning the phrase asked itself —\nand the one who recites disappeared.\n\nFrom now on, north, south, east, west:\neach direction is the gate.",
+    "source_id": "src_nguyen_medieval",
+    "ingestion_run_id": "run_korean_vietnamese_teachings",
+    "locator": "Traditional transmission verse attributed to Liễu Quán; after Vietnamese Buddhist records of the Liễu Quán lineage",
+    "translator": "Traditional verse rendering from Vietnamese Thiền records",
+    "license_status": "public_domain",
+    "master_roles": [
+      { "slug": "lieu-quan", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "thich-nhat-hanh-interbeing-verse",
+    "type": "verse",
+    "author_slug": "thich-nhat-hanh",
+    "collection": "Call Me by My True Names",
+    "era": "Modern",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "Please Call Me by My True Names",
+    "content": "I am the mayfly metamorphosing\non the surface of the river,\nand I am the bird\nthat swoops down to swallow the mayfly.\n\nI am the frog swimming happily\nin the clear water of a pond,\nand I am the grass snake\nthat silently feeds itself on the frog.\n\nI am the child in Uganda, all skin and bones,\nmy legs as thin as bamboo sticks.\nAnd I am the arms merchant,\nselling deadly weapons to Uganda.\n\nPlease call me by my true names,\nso I can hear all my cries and my laughter at once,\nso I can see that my joy and pain are one.",
+    "source_id": "src_plumvillage_books",
+    "ingestion_run_id": "run_korean_vietnamese_teachings",
+    "locator": "Call Me by My True Names: The Collected Poems of Thich Nhat Hanh (Parallax Press, 1999); also in 'Being Peace' (1987)",
+    "translator": "Thích Nhất Hạnh (original English composition)",
+    "license_status": "fair_use",
+    "master_roles": [
+      { "slug": "thich-nhat-hanh", "role": "attributed_to" }
+    ]
+  },
+  {
+    "slug": "thich-nhat-hanh-this-moment",
+    "type": "saying",
+    "author_slug": "thich-nhat-hanh",
+    "collection": "Being Peace",
+    "era": "Modern",
+    "attribution_status": "verified",
+    "locale": "en",
+    "title": "The Present Moment Is the Only Moment",
+    "content": "The present moment is the only moment available to us, and it is the door to all moments. Each breath, each step, each bite of food — these are not preparations for life. These are life. When we walk, we touch the earth with each step, and if we can touch it in full awareness, the earth becomes real, we become real, and the connection between us and all things becomes real. Mindfulness is the miracle by which we can call back our dispersed mind and restore it to wholeness.",
+    "source_id": "src_plumvillage_books",
+    "ingestion_run_id": "run_korean_vietnamese_teachings",
+    "locator": "Being Peace (Parallax Press, 1987); The Miracle of Mindfulness (Beacon Press, 1975)",
+    "translator": "Thích Nhất Hạnh (original English composition)",
+    "license_status": "fair_use",
+    "master_roles": [
+      { "slug": "thich-nhat-hanh", "role": "attributed_to" }
+    ]
+  }
+]

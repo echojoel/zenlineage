@@ -7355,6 +7355,99 @@ Daijō served as Daishu-in West's first abbot from its founding until his death 
       },
     ],
   },
+  // =========================================================================
+  // Chinese Song dynasty masters
+  // =========================================================================
+  {
+    slug: "baofeng-kewen",
+    content: `Baofeng Kewen (宝峰克文, also Zhenjing Kewen, 1025–1102) was a Chinese Chan master of the Huanglong branch of the Linji school, one of the most prominent dharma heirs of the great Song teacher Huanglong Huinan[1]. Born in Shanfu, in present-day Henan province, he received novice ordination in his youth and traveled south to study Chan under a succession of teachers, finally receiving dharma transmission in the Huanglong line. He served as abbot of Baofeng Monastery (宝峰寺) on Mount Shimen in northern Jiangxi, from which his most common honorific derives, and later at other major monastic centers[2].
+
+Kewen was celebrated in Song dynasty Chan circles for his role in transmitting the Huanglong style of encounter dialogue and koan-like exchange that characterized this branch of the Linji school. His dharma heirs carried the Huanglong teaching into the next generation during the period when this branch was most active in the northern Song court. He was also known by the posthumous title Zhenjing Chan Master (真净禅师), by which he appears in lamp records of the period. Dahui Zonggao, who studied with Kewen's teacher's lineage and eventually transformed Song dynasty Chan, acknowledged the significance of masters in this network as formative for his own development[1][2].`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_princeton_dict_buddhism",
+        pageOrSection: "s.v. \"Huanglong Huinan\" — Huanglong branch of the Linji school; Zhenjing Kewen (Baofeng Kewen) listed among prominent dharma heirs",
+      },
+      {
+        index: 2,
+        sourceId: "src_wikipedia",
+        pageOrSection: "en.wikipedia.org/wiki/Linji_school — Song dynasty Linji transmission, Huanglong branch; Zhenjing Kewen (1025–1102), Baofeng Monastery, Mt. Shimen, Jiangxi",
+      },
+    ],
+  },
+  {
+    slug: "mian-xianjie",
+    content: `Mian Xianjie (密菴咸傑, Japanese: Mittan Kanketsu, 1118–1186) was a Chinese Chan master of the Southern Song dynasty whose dharma lineage became one of the most consequential transmissions in the subsequent history of Rinzai Zen in Japan[1]. He received dharma transmission in the Linji school through the line descending from Yuanwu Keqin (the compiler of the *Blue Cliff Record*) through Huqiu Shaolong (1077–1136) and Yingan Tanhua (1103–1163). Mian served as abbot at a succession of major Song dynasty Chan monasteries, including Tiantong, Lingyin, and Jing'an, exercising the highest abbatial offices of the "five mountains" system that organized institutional Chan in the Southern Song period[1][2].
+
+His dharma heirs included Songming Fadeng and, most significantly, Wuzhun Shifan (1178–1249), who became one of the greatest Chan masters of the late Southern Song and whose calligraphy is preserved in major Japanese museum collections. Through Wuzhun, Mian's transmission reached Enni Ben'en (Shoichi Kokushi), who brought this lineage to Tofukuji in Kyoto, and through Wuzhun's disciples it also flowed into the lineage of Yishan Yining, the Chinese master who lived in Kamakura Japan and profoundly shaped Japanese Zen and ink-wash painting[2]. Mian Xianjie thus stands at a crucial branching point in the genealogy from which much of Japanese Rinzai's medieval heritage descends[1].`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_dumoulin_india_china",
+        pageOrSection: "Vol. 1 — Southern Song Chan; Huqiu Shaolong, Yingan Tanhua, Mian Xianjie lineage in the Linji school",
+      },
+      {
+        index: 2,
+        sourceId: "src_wikipedia",
+        pageOrSection: "en.wikipedia.org/wiki/Wuzhun_Shifan — Wuzhun's teacher Mian Xianjie (Mittan Kanketsu, 1118–1186); abbotship at Tiantong, Lingyin, and Jing'an monasteries; dharma heirs and Japanese Rinzai connections",
+      },
+    ],
+  },
+  {
+    slug: "xuan-huaichang",
+    content: `Xu'an Huaichang (虛庵懷敞, Japanese: Kyōan Eshō, fl. late 12th century) was a Chinese Chan master of the Huanglong branch of the Linji school during the Southern Song dynasty, remembered above all as the teacher who transmitted the Zen patriarchal certification to the Japanese monk Eisai Myōan, thereby initiating the formal transmission of Rinzai Zen to Japan[1]. Xu'an practiced and taught in the tradition that descended from Huanglong Huinan through several generations, incorporating elements of Daoist esoteric practice alongside Chan teaching in the syncretic style characteristic of late Song Buddhism. He was active at monasteries in Fujian and Zhejiang provinces[1][2].
+
+Eisai (1141–1215), during his second journey to China beginning in 1187, studied vinaya and Chan meditation under Xu'an Huaichang and received from him the formal certificate of Zen teacher — reportedly the first such certification granted to a Japanese student in China. Eisai returned to Japan in 1191 carrying both the lineage certification and seeds of the tea plant, launching the Rinzai school on Japanese soil and, as tradition has it, the Japanese tea ceremony. While subsequent Japanese Rinzai developed primarily through other Song lineages — especially through the Yangqi branch centered at Myōshinji — Xu'an's transmission to Eisai marks the institutional beginning of organized Zen in Japan[2].`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_dumoulin_japan",
+        pageOrSection: "Dumoulin Vol. 2 — Eisai Myōan and his training under Xu'an Huaichang (Kyōan Eshō) in China; transmission of the Huanglong lineage certification, 1187–1191",
+      },
+      {
+        index: 2,
+        sourceId: "src_wikipedia",
+        pageOrSection: "en.wikipedia.org/wiki/Eisai — \"In 1187 Eisai made a second trip to China…studied Chan meditation and vinaya under Xu'an Huaichang and received the seal of Chan teacher\"",
+      },
+    ],
+  },
+  {
+    slug: "kogetsu-zenzai",
+    content: `Kogetsu Zenzai (虎渓禅材, 1667–1751) was a Japanese Rinzai Zen master who played a central role in absorbing Ōbaku influences into the mainstream of the Japanese Rinzai tradition during the Edo period[1]. Born in Miyazaki prefecture, he trained under Kengan Zen'etsu (1618–1696), whose own teachers had trained with the Chinese Ōbaku masters who came to Japan in the mid-seventeenth century. Kogetsu absorbed the more rigorous Chinese monastic style — including strict application of the Vinaya, Chinese-style chanting, and a demanding approach to koan practice — that the Ōbaku mission brought, and he propagated these elements throughout the Rinzai network from his base at Daiko-ji temple where he served as head monk[1][2].
+
+The so-called Kogetsu school of Rinzai became one of the principal vehicles through which Ōbaku reformist energy was transmitted into Japanese Rinzai practice. Hakuin Ekaku (1686–1768), who ultimately reformed and systematized all of Japanese Rinzai, regarded Kogetsu as a significant teacher despite disagreeing with him on the status of the great doubt and koan method; several of Hakuin's most important senior students had trained in Kogetsu's circle before coming to Hakuin. Among Kogetsu's dharma heirs, Gessen Zen'e transmitted the lineage to Gasan Jitō, one of Hakuin's foremost disciples, creating a genealogical linkage between the Kogetsu school and the lineage that now constitutes all surviving Japanese Rinzai[2].`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_wikipedia",
+        pageOrSection: "en.wikipedia.org/wiki/Kogetsu_Zenzai — 1667–1751; student of Kengan Zen'etsu; Ōbaku influence on Japanese Rinzai; Daiko-ji temple",
+      },
+      {
+        index: 2,
+        sourceId: "src_dumoulin_japan",
+        pageOrSection: "Dumoulin Vol. 2 — Ōbaku influence on Edo-period Rinzai; Kogetsu Zenzai and Gessen Zen'e; Gasan Jitō's lineage connections",
+      },
+    ],
+  },
+  {
+    slug: "koho-hakugan",
+    content: `Koho Hakugan (孤峰白岩, dates uncertain) was a Japanese Sōtō Zen master whose name appears in the lineage records of the Sōtōshū, associated with the transmission line descending from the major Edo-period Sōtō reformers. The name *Kohō* ("lone peak") is a dharma name in the classical Chinese tradition, and *Hakugan* ("white cliff") designates his temple designation or honorific[1]. His position in the lineage chart places him in the post-Gesshū Sōko reform movement that sought to restore a stricter fidelity to Dōgen's monastic code and the Shōbōgenzō in the eighteenth century[1][2].
+
+Hakugan contributed to the written liturgical and textual tradition of the Sōtō school: he is recorded as author of a preface to the *Taiso Butsuji kōshiki*, a ritual text for ancestor veneration ceremonies that remains part of the Sōtō liturgical repertoire. This involvement in kōshiki composition places him in the line of scholar-monks who maintained the elaborate ritual structure of the Sōtō institution during the Edo period alongside the contemplative and scriptural reform movement[2].`,
+    footnotes: [
+      {
+        index: 1,
+        sourceId: "src_terebess",
+        pageOrSection: "terebess.hu/zen/mesterek/lineage.html — The Two Main Lineages of Modern Sōtō; Kohō Hakugan in Sōtō lineage charts",
+      },
+      {
+        index: 2,
+        sourceId: "src_bodiford_soto_medieval",
+        pageOrSection: "Bodiford — Sōtō Zen in Medieval Japan; kōshiki ritual texts and the Taiso Butsuji kōshiki in the Sōtō institution",
+      },
+    ],
+  },
 ];
 
 // ---------------------------------------------------------------------------
