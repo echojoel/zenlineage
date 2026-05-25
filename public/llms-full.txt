@@ -2249,7 +2249,7 @@ Sō-on was the adopted son of Butsumon Sogaku Suzuki, Shunryū's biological fath
 - **Dates:** 1879 – 1967
 - **School:** Sōtō
 - **Teachers:** Koho Hakugan
-- **Students:** Jiyu-Kennett, Baian Hakujun Kuroda, Dōshō Saikawa
+- **Students:** Jiyu-Kennett, Dōshō Saikawa
 
 Keido Chisan is recorded in the historiography of the medieval / early-modern Japanese Sōtō branch-temple network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].
 
@@ -2327,7 +2327,7 @@ Thích Quảng Đức (釋廣德, 1897–1963) is among the most internationally
 - **Also known as:** Hakujun Kuroda
 - **Dates:** 1898 – 1978
 - **School:** Sōtō
-- **Teachers:** Keido Chisan, Guhaku Daiōshō
+- **Teachers:** Guhaku Daiōshō
 - **Students:** Taizan Maezumi
 
 Baian Hakujun Kuroda (黒田白雲, 1898–1978) was a leading mid-twentieth-century Sōtō priest, abbot of Kōshin-ji / Kirigaya-ji in Tokyo and of his family temple in Ōtawara, Tochigi, and the father and Sōtō dharma transmitter of Hakuyū Taizan Maezumi. Within Western Zen he is most often encountered as the 'Hakujun' of 'Baian Hakujun Daiosho,' the dharma name from which the White Plum Asanga (白梅花) — the lineage federation of Maezumi's twelve American heirs — takes its identity[1].
@@ -3217,7 +3217,7 @@ Huguo Shoucheng is recorded in the historiography of the late-Tang / Song-period
 - **Also known as:** Pai-chang Nieh-p'an, Hyakujô Nehan
 - **Dates:** Dates uncertain
 - **School:** Linji
-- **Teachers:** Mazu Daoyi
+- **Teachers:** Mazu Daoyi, Baizhang Huaihai
 
 Baizhang Niepan is recorded in the historiography of the late-Tang / Song-period Chan transmission network as a transmission figure in its lineage. The surviving record preserves his place in the line; little distinctive doctrinal material from his teaching is preserved in modern scholarship[1].
 
@@ -3909,7 +3909,7 @@ Xingyang Qingpou is recorded in the historiography of the late-Tang / Song-perio
 - **Dates:** Dates uncertain
 - **School:** Nanyue line
 - **Teachers:** Mazu Daoyi
-- **Students:** Guannan Daochang, Guishan Daan, Guishan Lingyou, Huangbo Xiyun, Wufeng Changguan, Vô Ngôn Thông
+- **Students:** Guannan Daochang, Guishan Daan, Guishan Lingyou, Huangbo Xiyun, Wufeng Changguan, Vô Ngôn Thông, Baizhang Niepan
 
 Baizhang Huaihai was a disciple of Mazu Daoyi and one of the architects of Chan monastic culture[1]. He is famous above all for establishing the first specifically Chan monastic code, the Baizhang Qinggui (Pure Rules of Baizhang)[2]. Before Baizhang, Chan monks lived in Vinaya monasteries designed for a different kind of practice. Baizhang created a distinctly Chan institution in which practice, work, and communal life were fully integrated. His famous dictum—"A day without work is a day without eating"—set the tone for a monasticism in which manual labor was understood as inseparable from spiritual practice[1].
 
