@@ -1,7 +1,7 @@
 ---
 student: baoning-renyong
 teacher: yangqi-fanghui
-tier: C
+tier: B
 verified_at: "2026-05-25"
 sources:
   - publisher: "Terebess Asia Online — Master List of Zen Masters"

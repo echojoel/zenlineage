@@ -1,7 +1,7 @@
 ---
 student: sixin-wuxin
 teacher: huitang-zuxin
-tier: C
+tier: B
 verified_at: "2026-05-25"
 sources:
   - publisher: "Terebess Asia Online — Sixin Wuxin"
@@ -21,15 +21,22 @@ sources:
       saying, "The master is waiting for our senior brother to light
       the fire." This establishes Sixin Wuxin as Huitang Zuxin's
       senior disciple and dharma heir at Huitang's cremation ceremony.
+  - publisher: "Who's Who in Zen (WWZC) — Master List"
+    url: https://wwzc.org/master-list-masters/
+    domain_class: sangha
+    retrieved_on: "2026-05-25"
+    quote: |
+      Sixin Wuxin 死心悟新 (Ssu-hsin Wu-hsin, Shishin Goshin) 1044-1115.
+      A Dharma-heir of Huitang Zuxin in the Linji Lineage.
 reducer_notes: |
-  Tier C: Terebess Asia Online (academic) corroborates in two independent
-  pages. The SixinWuxin.html page gives the direct statement "a disciple of
-  Huitang Zuxin." The HuitangZuxin.html page confirms the relationship from
-  the teacher's side, identifying Sixin as "Huitang's senior disciple" at
-  the cremation ceremony, marking him as the primary dharma heir. Both pages
-  are on terebess.hu (same hostname), so the independence count remains 1
-  — tier B requires a second independent hostname. Wikipedia for both
-  Huitang Zuxin and Sixin Wuxin returns 404; encyclopediaofbuddhism.org
-  returns 404; buddhistdoor.net returns 404. Tier C confirmed.
+  Tier B: 2 independent hostnames (terebess.hu + wwzc.org), 2 academic sources
+  (both Terebess pages). Terebess Asia Online (academic) corroborates in two
+  independent pages: SixinWuxin.html gives the direct statement "a disciple of
+  Huitang Zuxin"; HuitangZuxin.html confirms the relationship from the teacher's
+  side, identifying Sixin as "Huitang's senior disciple" at the cremation
+  ceremony. Who's Who in Zen (wwzc.org, sangha) independently confirms him as
+  "A Dharma-heir of Huitang Zuxin in the Linji Lineage." The WWZC source is on
+  a different hostname, bringing the independent hostname count to 2 and satisfying
+  the B-tier requirement.
 human_review_needed: false
 ---

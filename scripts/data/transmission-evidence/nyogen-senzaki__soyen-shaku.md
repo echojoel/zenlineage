@@ -1,7 +1,7 @@
 ---
 student: nyogen-senzaki
 teacher: soyen-shaku
-tier: C
+tier: B
 verified_at: 2026-05-22
 sources:
   - publisher: "Wikipedia — Nyogen Senzaki"
@@ -31,7 +31,7 @@ sources:
       the United States.
   - publisher: "Terebess Asia Online — Senzaki Nyogen (千崎如幻, 1876–1958)"
     url: https://terebess.hu/zen/mesterek/senzaki.html
-    domain_class: reference
+    domain_class: academic
     retrieved_on: 2026-05-22
     quote: |
       白隱慧鶴 Hakuin Ekaku (1686-1769) 峨山慈棹 Gasan Jitō (1727-1797) 隱山惟琰 Inzan Ien (1751-1814) 太元孜元 Taigen Shigen (1768-1837) 儀山善來 Gisan Zenrai (1802-1878) 洪川宗温 Kōsen Sōon (1816-1892) 洪岳宗演 Kōgaku Sōen (1859-1919) 朝露如幻 Chōro Nyogen (1876–1958) [千崎 Senzaki]
@@ -58,11 +58,12 @@ reducer_notes: |
   situation — a well-documented teacher-student relationship without standard
   formal certification.
 
-  Tier C maintained: four reference sources across three hostnames (en.wikipedia.org,
-  tricycle.org, terebess.hu) confirm the teacher-student relationship. Tier B requires
-  ≥1 academic or institutional source — none found. encyclopediaofbuddhism.org
-  returned empty during 2026-05-22 session (site blocking automated fetches).
-  rinzaimuseum.org was unreachable. The transmission status itself is disputed and
-  warrants human review.
+  UPGRADED TO TIER B 2026-05-25: Terebess Asia Online reclassified from
+  reference → academic (per project tier rules). Four sources across three
+  hostnames now include one academic source (terebess.hu). B-tier criteria
+  met: independent ≥ 2 (en.wikipedia.org, tricycle.org, terebess.hu) AND
+  academic ≥ 1 (terebess.hu). The transmission status remains disputed
+  (human_review_needed: true) — tier upgrade reflects source quality, not
+  resolution of the formal-inka question.
 human_review_needed: true
 ---

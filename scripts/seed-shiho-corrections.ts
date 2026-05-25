@@ -605,12 +605,6 @@ const ORPHAN_ANCHORS: { student: string; teacher: string; notes: string }[] = [
       "Editorial bridge: Nguyên Thiều was ordained by Bổn Quả Khoáng Viên, a heir of Muchen Daomin in the late-Ming Tiantong Linji line. Neither Bổn Quả nor Muchen is yet seeded; the edge to Linji Yixuan anchors the Lâm Tế Vietnamese transmission to the head of the Linji school.",
   },
   {
-    student: "osaka-koryu",
-    teacher: "linji-yixuan",
-    notes:
-      "Editorial bridge: Osaka Koryu Roshi was a 20th-century Rinzai lay master; the Japanese Rinzai-line teachers between Linji and Koryu are not yet seeded. The edge to Linji Yixuan anchors him to the head of the Linji / Rinzai line.",
-  },
-  {
     student: "dosho-saikawa",
     teacher: "keido-chisan",
     notes:

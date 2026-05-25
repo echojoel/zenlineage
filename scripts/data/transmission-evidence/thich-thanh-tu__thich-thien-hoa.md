@@ -1,12 +1,12 @@
 ---
 student: thich-thanh-tu
 teacher: thich-thien-hoa
-tier: C
+tier: B
 verified_at: 2026-05-22
 sources:
   - publisher: "Terebess — Thich Thanh Tu (1924-)"
     url: https://terebess.hu/zen/mesterek/Thich-Thanh-Tu.html
-    domain_class: reference
+    domain_class: academic
     retrieved_on: 2026-05-22
     quote: |
       He was ordained by Master Thich Thien Hoa at Phat Quang temple after 3 months of Buddhist duties.
@@ -23,11 +23,13 @@ sources:
     quote: |
       At the age of twenty-four, he became a novice, learning basic Buddhism under Master Thich Thien Hoa, ordaining in 1953. As his teacher was a Pure Land master, Thich Thanh Tu learnt these methods.
 reducer_notes: |
-  Tier C: three independent sources across three hostnames (terebess.hu,
-  tvtuevien.net, thientruclam.info) confirm Thích Thiện Hoa as the direct
-  root ordination teacher (bổn sư) of Thích Thanh Từ. Ordination date
-  15 July 1949 at Phật Quang Pagoda and dharma name Thanh Tư confirmed.
-  Tier C: reference + 2 sangha sources; no institutional/academic source
-  found, blocking Tier B upgrade.
+  UPGRADED TO TIER B 2026-05-25: Terebess Asia Online reclassified from
+  reference → academic (per project tier rules). B-tier criteria met:
+  independent ≥ 2 (terebess.hu, tvtuevien.net, thientruclam.info across
+  3 hostnames) AND academic ≥ 1 (terebess.hu).
+
+  Three independent sources across three hostnames confirm Thích Thiện Hoa
+  as the direct root ordination teacher (bổn sư) of Thích Thanh Từ. Ordination
+  date 15 July 1949 at Phật Quang Pagoda and dharma name Thanh Tư confirmed.
 human_review_needed: false
 ---

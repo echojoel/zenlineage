@@ -40,9 +40,15 @@ sources:
       when he traveled to Yizhou. Starting during the Song Dynasty, all apprentices
       of Yunmen School regarded Guangzuo as the ancestor of Yunmen School.
 reducer_notes: |
-  LIKELY DATA ERROR — wrong teacher identified. The three-generation gap
-  between Xianglin Chengyuan (14th gen) and Xingyang Qingpou (17th gen)
-  makes a direct teacher–student relationship highly implausible.
+  DATA CORRECTION IN PROGRESS: Wave-7 script (scripts/seed-corrections-wave-7.ts)
+  marks this edge as disputed and adds xingyang-qingpou → touzi-yiqing as the
+  probable correct teacher. The xianglin-chengyuan edge is disputed. See
+  seed-corrections-wave-7.ts.
+
+  ORIGINAL RESEARCH: LIKELY DATA ERROR — wrong teacher identified. The
+  three-generation gap between Xianglin Chengyuan (14th gen) and Xingyang
+  Qingpou (17th gen) makes a direct teacher–student relationship highly
+  implausible.
 
   Polish Wikipedia confirms that Xianglin Chengyuan's documented dharma heir
   is Zhimen Guangzuo (d. 1031), not Xingyang Qingpou. The Yunmen school
@@ -55,25 +61,14 @@ reducer_notes: |
   - Xingyang Qingrang (興陽清讓, b. 910) — Guiyang school, heir of Bajiao Huiqing
   - Xingyang Qingpou (興陽清剖) — Yunmen school, 17th generation
 
-  ADDITIONAL RESEARCH (2026-05-25): The Ferguson table of contents (Terebess)
-  confirms Xingyang Qingpou appears in the SEVENTEENTH Generation, listed at
-  page 392. Critically, Touzi Yiqing (1032–1083) also appears in the 17th
-  generation (page 389). The Angelfire Zen ancestors lineage chart groups
-  Xingyang Qingpou under the "Tousi" (Touzi) heading — "Tousi Xingyang
-  Qingpou" — suggesting Xingyang Qingpou is a dharma heir of Touzi Yiqing
-  (16th gen), not of Xianglin Chengyuan (14th gen, three generations earlier).
-
-  PROBABLE CORRECT TEACHER: Touzi Yiqing (1032–1083), a 16th-generation
-  Caodong master who taught Furong Daokai (1043–1118) and others. Xingyang
-  Qingpou may be a lesser-known dharma heir of Touzi Yiqing, placing him
-  correctly in the 17th generation.
+  The Angelfire Zen ancestors lineage chart groups Xingyang Qingpou under the
+  "Tousi" (Touzi) heading — "Tousi Xingyang Qingpou" — indicating Xingyang
+  Qingpou is a dharma heir of Touzi Yiqing (16th gen), not of Xianglin
+  Chengyuan (14th gen, three generations earlier).
 
   The Xianglin Chengyuan → Xingyang Qingpou edge in the seed data is almost
   certainly a data entry error (possibly a misread of a lineage chart where
-  Xianglin and Xingyang names were confused).
-
-  RECOMMENDATION: Replace xingyang-qingpou → xianglin-chengyuan with
-  xingyang-qingpou → touzi-yiqing. Requires verification in the Wudeng
-  Huiyuan or Jingde Chuandeng Lu. Tier D maintained.
+  Xianglin and Xingyang names were confused). Requires confirmation in primary
+  sources (Wudeng Huiyuan, Jingde Chuandeng Lu). Tier D maintained.
 human_review_needed: true
 ---

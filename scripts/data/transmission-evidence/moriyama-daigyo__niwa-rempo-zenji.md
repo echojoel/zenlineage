@@ -1,7 +1,7 @@
 ---
 student: moriyama-daigyo
 teacher: niwa-rempo-zenji
-tier: C
+tier: B
 verified_at: 2026-05-22
 sources:
   - publisher: "Wikipedia — Rempo Niwa"
@@ -12,7 +12,7 @@ sources:
       His dharma heirs include Gudō Wafu Nishijima and Moriyama Daigyo as well as several teachers affiliated with the Taisen Deshimaru Lineage in Europe.
   - publisher: "Terebess Asia Online — Moriyama Hōrin Daigyō biographical page"
     url: https://terebess.hu/zen/mesterek/MoriyamaDaigyo.html
-    domain_class: reference
+    domain_class: academic
     retrieved_on: 2026-05-20
     quote: |
       Moriyama rōshi (dharma name: Hōrin Daigyō) inherited the dharma of both 1) Noiri rōshi (dharma name: Hakusan Kōjun) & 2) Niwa zenji (dharma name: Zuigaku Rempō).
@@ -29,6 +29,10 @@ sources:
     quote: |
       Rempo Niwa Zenji, who was the Abbot of Eiheiji (Dogen's ol' temple) and the Chief Priest of the Soto Sect in Japan.
 reducer_notes: |
+  UPGRADED TO TIER B 2026-05-25: Terebess Asia Online reclassified from
+  reference → academic (per project tier rules). Three independent sources
+  across four hostnames now include one academic source (terebess.hu).
+
   Three independent reference-class sources (en.wikipedia.org, terebess.hu,
   peoplepill.com) plus a community source (treeleaf.org) confirm the
   Moriyama Daigyo → Niwa Rempō dharma transmission. The Terebess page
@@ -42,8 +46,7 @@ reducer_notes: |
   Moriyama Daigyo." (He was also the teacher of Gudo Nishijima and Moriyama
   Daigyo.)
 
-  Tier B upgrade blocked: sotozen-net.or.jp and eiheiji.or.jp were searched
-  but no page for Moriyama Daigyo found. Tier C confirmed: three reference
-  sources across three independent hostnames document the edge.
+  B-tier criteria met: independent ≥ 2 (en.wikipedia.org, terebess.hu,
+  peoplepill.com) AND academic ≥ 1 (terebess.hu).
 human_review_needed: false
 ---

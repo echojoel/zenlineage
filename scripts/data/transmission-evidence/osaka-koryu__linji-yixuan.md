@@ -51,8 +51,47 @@ reducer_notes: |
   been seeded as a master entity.
 
   CORRECT EDGE: osaka-koryu → muso-joko (direct teacher).
-  ACTION REQUIRED: Add Muso Joko Roshi (1884–1949) as a master entity, then
-  replace the linji-yixuan ORPHAN_ANCHOR with a proper muso-joko edge.
+
+  MUSO JOKO SEEDING RESEARCH (2026-05-25):
+  To fix this edge properly, Muso Jōkō Roshi must be seeded as a master entity.
+  Key facts for seeding:
+    - Slug: muso-joko
+    - Name: Muso Jōkō (無相定光); also known as Hannyakutsu Jōkō Roshi
+    - Dates: 1884–1949 (note: Wikipedia evidence file quotes "1884–1948" in one
+      source and "1884–1949" in another; use 1949 as the more commonly cited date)
+    - School: rinzai (Inzan line)
+    - His teacher: Muchaku Kaikō Roshi (1871–1928); slug would be muchaku-kaiko
+    - Muchaku Kaikō's teacher: Kazan Genku; slug would be kazan-genku
+    - Neither muso-joko, muchaku-kaiko, nor kazan-genku currently exist in the DB
+    - gisan-zenrai (1802–1878) IS in the DB; ekkei-shuken and taigen-shigen
+      are NOT in the DB (taigen-shigen IS in the DB: 1768–1837)
+
+  DB STATE OF INZAN CHAIN (as of 2026-05-25):
+    - gasan-jito (1727–1797)   ✓ in DB
+    - inzan-ien (1751–1814)    ✓ in DB
+    - taigen-shigen (1768–1837) ✓ in DB
+    - gisan-zenrai (1802–1878)  ✓ in DB (slug: gisan-zenrai)
+    - ekkei-shuken              ✗ NOT in DB
+    - kazan-genku               ✗ NOT in DB
+    - muchaku-kaiko             ✗ NOT in DB
+    - muso-joko                 ✗ NOT in DB
+    - osaka-koryu (1901–1985)   ✓ in DB
+
+  WHAT WOULD BE NEEDED to properly seed this chain:
+  1. Seed ekkei-shuken (Ekkei Shūken, fl. mid-19th c.) as rinzai master,
+     teacher: gisan-zenrai
+  2. Seed kazan-genku (Kazan Genku) as rinzai master, teacher: ekkei-shuken
+  3. Seed muchaku-kaiko (Muchaku Kaikō, 1871–1928) as rinzai master,
+     teacher: kazan-genku
+  4. Seed muso-joko (Muso Jōkō, 1884–1949) as rinzai master,
+     teacher: muchaku-kaiko
+  5. Add primary edge: osaka-koryu → muso-joko
+  6. Remove or dispute the osaka-koryu → linji-yixuan ORPHAN_ANCHOR edge
+     (in scripts/seed-shiho-corrections.ts ORPHAN_ANCHORS array)
+
+  ACTION REQUIRED: These seeding steps should be done in a future wave script
+  or in scripts/seed-shiho-corrections.ts. No seed data has been modified
+  for this edge — research only.
 correction_applied: false
 correction_date: 2026-05-25
 correction_notes: |

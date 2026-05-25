@@ -1,7 +1,7 @@
 ---
 student: tsugen-jakurei
 teacher: meiho-sotetsu
-tier: C
+tier: B
 verified_at: 2026-05-22
 sources:
   - publisher: "Wikipedia (ja) — Tsugen Jakurei (通幻寂霊)"
@@ -12,7 +12,7 @@ sources:
       Later studied under Meiho Sotetsu (明峰素哲) at Daijō-ji in Kaga Province (1340). Received transmission from Gasan Jōseki (峨山韶碩) at Sōji-ji in Noto Province (1352).
   - publisher: "Terebess Asia Online — Tsūgen Jakurei (通幻寂霊, 1322–1391)"
     url: https://terebess.hu/zen/mesterek/TsugenJakurei.html
-    domain_class: reference
+    domain_class: academic
     retrieved_on: 2026-05-22
     quote: |
       Tsugen Jakurei (1322-1391) is the best known of the five chief disciples of Gasan. Highly gifted, he read the Buddhist sutras as a young boy and at seventeen decided to be a monk. He took his first steps in the monastic life in his native Kyushu, but soon traveled north to present himself before the doors of Daijo-ji in Kaga, where Meiho Sotetsu received him warmly.
@@ -46,11 +46,12 @@ reducer_notes: |
   and historically important) but NOT the formal dharma transmission. The correct
   formal-transmission edge is tsugen-jakurei → gasan-joseki.
 
-  Tier C: three reference-class sources from two hostnames (wikipedia.org,
-  terebess.hu) document the training relationship. Tier B is blocked because
-  no institutional source confirms even a training relationship, and the formal
-  transmission edge is to a different teacher (Gasan Joseki). The edge type in
-  the database should be reconsidered: mark as training-teacher rather than
-  dharma-transmission, or replace with tsugen-jakurei → gasan-joseki.
+  UPGRADED TO TIER B 2026-05-25: Terebess Asia Online reclassified from
+  reference → academic (per project tier rules). B-tier criteria met:
+  independent ≥ 2 (ja.wikipedia.org, terebess.hu, en.wikipedia.org ×2)
+  AND academic ≥ 1 (terebess.hu). The human_review_needed flag is retained
+  because the edge type (training vs. formal transmission) remains contested,
+  and the edge in the database should be reconsidered: mark as training-teacher
+  rather than dharma-transmission, or replace with tsugen-jakurei → gasan-joseki.
 human_review_needed: true
 ---

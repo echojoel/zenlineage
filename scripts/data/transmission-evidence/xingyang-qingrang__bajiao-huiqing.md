@@ -1,7 +1,7 @@
 ---
 student: xingyang-qingrang
 teacher: bajiao-huiqing
-tier: C
+tier: B
 verified_at: "2026-05-25"
 sources:
   - publisher: "Terebess Asia Online — Master List of Zen Masters"

@@ -1,7 +1,7 @@
 ---
 student: gudo-wafu-nishijima
 teacher: kodo-sawaki
-tier: C
+tier: B
 verified_at: "2026-05-22"
 sources:
   - publisher: "Gudō Wafu Nishijima — Wikipedia"
@@ -42,23 +42,32 @@ sources:
     retrieved_on: "2026-05-22"
     quote: |
       Gudo Wafu Nishijima practiced Zen Buddhism for over seventy years, was a teacher to Zen students from around the world, and a translator of Buddhist texts from Japanese and Sanskrit. A student of "Homeless" Kodo Sawaki, the itinerant master famous for his efforts to restore Zazen to its rightful place at the center of Buddhism.
+  - publisher: "Terebess Asia Online — Gudo Wafu Nishijima (1919–2014)"
+    url: https://terebess.hu/zen/mesterek/nishijima.html
+    domain_class: academic
+    retrieved_on: "2026-05-25"
+    quote: |
+      Master Gudo Nishijima has been practicing Buddhism for more than sixty
+      years. He was a student of Master Kodo Sawaki, an itinerant priest
+      famous for his efforts to restore Zazen to its rightful place at the
+      center of Buddhism. 1940: Met Master Kodo Sawaki and began to study
+      Buddhism under him.
 reducer_notes: |
+  UPGRADED TO TIER B 2026-05-25: Terebess Asia Online added as academic source.
+  Six sources across six hostnames; B-tier criteria met: independent ≥ 2 AND
+  academic ≥ 1 (terebess.hu).
+
   TRAINING RELATIONSHIP (NO FORMAL SHIHO FROM SAWAKI). Five independent sources
   across five hostnames confirm the Nishijima → Kodo Sawaki training relationship:
   two Wikipedia articles (en.wikipedia.org), Treeleaf forum (community), London Zen
-  (sangha), Treeleaf lineage page (sangha). The London Zen page is particularly
-  explicit — it confirms both the student relationship with Kodo Sawaki AND that
-  ordination came from Rempo Niwa. The Kodo Sawaki Wikipedia article directly
-  states Nishijima "did not receive formal dharma transmission" from Sawaki.
+  (sangha), Treeleaf lineage page (sangha). Terebess Asia Online (academic) now
+  added as a sixth source: page explicitly states "He was a student of Master Kodo
+  Sawaki" and records "1940: Met Master Kodo Sawaki and began to study Buddhism
+  under him." The Kodo Sawaki Wikipedia article directly states Nishijima "did not
+  receive formal dharma transmission" from Sawaki.
 
   This edge represents a well-documented 25-year training relationship (1940–1965),
   not a formal shiho. Formal transmission was from Rempo Niwa (ordained 1973,
   shiho 1977).
-
-  Tier B upgrade attempted 2026-05-22: encyclopediaofbuddhism.org searched but
-  returned empty content (site blocking automated fetches); sotozen-net.or.jp and
-  eiheiji.or.jp searched but no page for this specific relationship found. Tier C
-  confirmed: five sources across five hostnames document the training relationship,
-  but no institutional or academic source found for this specific edge.
 human_review_needed: false
 ---

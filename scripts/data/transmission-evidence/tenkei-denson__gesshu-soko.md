@@ -1,7 +1,7 @@
 ---
 student: tenkei-denson
 teacher: gesshu-soko
-tier: C
+tier: B
 verified_at: "2026-05-25"
 sources:
   - publisher: "Terebess Asia Online — Outside of a Small Circle: Sōtō Zen Commentaries on Dōgen's Shōbōgenzō (PDF)"
