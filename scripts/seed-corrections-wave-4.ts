@@ -95,13 +95,16 @@ const ORPHAN_FIXES: OrphanFix[] = [
     notes:
       "Dharma transmission (shihō) from Kōdō Sawaki in 1965, approximately one month before Sawaki's death on 21 December 1965. Kishigami is one of five monks who received transmission from Sawaki. Per Terebess Kishigami biography, English Wikipedia Sawaki article, and German Wikipedia Kishigami article.",
   },
-  // Jakuen ← Koun Ejō (already in DB) — direct disciple of Rujing who
-  // received Japan-side shihō from Dōgen's heir.
+  // Jakuen ← Koun Ejō (already in DB as secondary) — Japan-side shihō
+  // from Dōgen's heir; primary discipleship is under Tiantong Rujing.
+  // edgeType: "secondary" keeps is_primary=false, consistent with the
+  // deshimaru-lineage.ts seeder, and corrects any accidental promotion.
   {
     student: "jakuen",
     teacher: "koun-ejo",
+    edgeType: "secondary",
     notes:
-      "Jakuen (寂円, 1207–1299) trained under Tiantong Rujing in China alongside Dōgen, came to Japan with Dōgen, and received shihō from Dōgen's heir Koun Ejō after Dōgen's death (1253). Founded Hōkyōji temple in Echizen. Per ja.wikipedia.org/wiki/寂円, en.wikipedia.org/wiki/Jakuen, and Japanese Wiki Corpus.",
+      "Jakuen (寂円, 1207–1299) trained under Tiantong Rujing in China alongside Dōgen, came to Japan with Dōgen, and received shihō from Dōgen's heir Koun Ejō after Dōgen's death (1253). Secondary edge — primary discipleship is under Tiantong Rujing. Per ja.wikipedia.org/wiki/寂円, en.wikipedia.org/wiki/Jakuen, and Japanese Wiki Corpus.",
   },
   // Ryoka Daibai ← Kakuan Ryogu (NEW master).
   {
@@ -453,7 +456,8 @@ async function applyFix(f: OrphanFix): Promise<"added" | "noop"> {
     )
     .limit(1);
   if (exists.length > 0) {
-    if (exists[0].type !== targetType) {
+    // Only update when edgeType is explicitly given and differs from current.
+    if (f.edgeType && exists[0].type !== targetType) {
       await db
         .update(masterTransmissions)
         .set({ type: targetType, isPrimary, notes: f.notes })
