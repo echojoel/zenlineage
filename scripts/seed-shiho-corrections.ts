@@ -605,12 +605,6 @@ const ORPHAN_ANCHORS: { student: string; teacher: string; notes: string }[] = [
       "Editorial bridge: Nguyên Thiều was ordained by Bổn Quả Khoáng Viên, a heir of Muchen Daomin in the late-Ming Tiantong Linji line. Neither Bổn Quả nor Muchen is yet seeded; the edge to Linji Yixuan anchors the Lâm Tế Vietnamese transmission to the head of the Linji school.",
   },
   {
-    student: "baian-hakujun-kuroda",
-    teacher: "keido-chisan",
-    notes:
-      "Editorial bridge: Baian Hakujun Kuroda (1898–1978) was the 36th abbot of Kōshin-ji in the Sōji-ji-line succession, a contemporary of Kōhō Keidō Chisan (70th abbot of Sōji-ji). His immediate Kuroda-family predecessor at Kōshin-ji is not yet seeded; the edge to Keidō Chisan anchors him in the 20th-century Sōji-ji prelate world rather than the 13th-century Dōgen root.",
-  },
-  {
     student: "osaka-koryu",
     teacher: "linji-yixuan",
     notes:

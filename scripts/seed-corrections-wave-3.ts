@@ -162,9 +162,12 @@ const CORRECTIONS: Correction[] = [
   // ── Mark disputed without replacement (no clear correct teacher) ─────
   {
     student: "baizhang-niepan",
-    wrongTeacher: "linji-yixuan",
+    wrongTeacher: "mazu-daoyi",
+    correctTeacher: "baizhang-huaihai",
+    newEdgeNotes:
+      "Baizhang Niepan was a student of Baizhang Huaihai, not Mazu Daoyi. Per Terebess Asia Online (mesterek/GuannanDaochang.html context) and Chan lamp records: Baizhang Niepan belongs to the generation trained by Baizhang Huaihai, with Mazu Daoyi being one generation earlier as Huaihai's own teacher. The originals-curated.json had the wrong generation — Niepan is Huaihai's student, not Mazu's.",
     disputedNotes:
-      "DISPUTED — Wave-3 agent panel: Baizhang Niepan (died ~828 CE) predates Linji Yixuan (died 866 CE) and was a student of Baizhang Huaihai, a generation earlier. The transmission as coded is chronologically impossible.",
+      "DISPUTED — Wave-3 correction 2026-05-25: Mazu Daoyi (709-788) was Baizhang Huaihai's teacher, one generation before Baizhang Niepan. The correct teacher for Baizhang Niepan is Baizhang Huaihai (720-814). The original edge from originals-curated.json skipped a generation.",
   },
   {
     student: "yuelin-shiguan",
