@@ -54,8 +54,18 @@ reducer_notes: |
   2026-05-25 re-search: Terebess master.html and WWZC master list do not
   contain any entry for Licun. Wikipedia Linji Yixuan article does not list
   歷村. English and European-language web searches return no usable result
-  for this anonymous figure. Tier D confirmed. Resolution requires primary-text
-  pass of JDCDL T2076.12 via CBETA (cbetaonline.dila.edu.tw), which requires
-  manual browsing of the Chinese text.
+  for this anonymous figure.
+
+  Japanese Wikipedia 臨済義玄 article names only 興化存奨 (Xinghua Cunjiang)
+  and 三聖慧然 (Sansheng Huiran) as explicit dharma heirs; does not list 歷村.
+  Chinese Wikipedia 臨濟義玄 article mentions "興化存獎、三聖慧然、灌谿志閑等
+  二十二人" (Xinghua Cunzhang, Sansheng Huiran, Guanxi Zhixian and 22 others)
+  but does not enumerate the full 22; 歷村 does not appear by name.
+
+  Tier D confirmed. Resolution requires primary-text pass of JDCDL T2076.12
+  via CBETA (cbetaonline.dila.edu.tw), which requires manual browsing of the
+  Chinese text. Sources tried 2026-05-25: ja.wikipedia.org/wiki/臨済義玄,
+  zh.wikipedia.org/wiki/臨濟義玄, terebess.hu/zen/mesterek/LinjiYixuan.html
+  (404), cbetaonline.dila.edu.tw (interactive reader, not directly queryable).
 human_review_needed: true
 ---

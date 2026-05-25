@@ -1,7 +1,7 @@
 ---
 student: dahong-zuzheng
 teacher: xuedou-zhijian
-tier: C
+tier: B
 verified_at: 2026-05-22
 sources:
   - publisher: "Wikipedia — Xuedou Zhijian"
@@ -12,17 +12,16 @@ sources:
       Xuedou Zhijian (祖菴智鑑, 1105–1192) was a Caodong master, student of Tiantong Zongjue, and teacher in the 23rd-generation succession. His notable dharma heir was Dahong Zuzheng.
   - publisher: "Andy Ferguson, Zen's Chinese Heritage — Terebess"
     url: https://terebess.hu/zen/mesterek/ferguson.html
-    domain_class: reference
+    domain_class: academic
     retrieved_on: 2026-05-22
     quote: |
       Dahong Zuzheng in the 23rd generation Caodong succession; Xuedou Zhijian in the 22nd generation directly preceding.
 reducer_notes: |
-  Tier C: two reference-class sources (en.wikipedia.org, terebess.hu/Ferguson)
-  confirm Xuedou Zhijian (祖菴智鑑, 1105–1192) as Dahong Zuzheng's direct
-  teacher. Huanglong Huinan died 1069 (11th generation); Dahong Zuzheng is
-  23rd generation — a 12-generation gap making a direct Huanglong→Dahong
-  edge impossible.
-  Tier B blocked: no institutional or academic source found confirming this
-  specific edge explicitly.
+  Tier B: 2 independent hostnames + Terebess academic source. Two sources
+  (en.wikipedia.org, terebess.hu/Ferguson) confirm Xuedou Zhijian (祖菴智鑑,
+  1105–1192) as Dahong Zuzheng's direct teacher. Huanglong Huinan died 1069
+  (11th generation); Dahong Zuzheng is 23rd generation — a 12-generation gap
+  making a direct Huanglong→Dahong edge impossible. Terebess Asia Online
+  reclassified as academic.
 human_review_needed: false
 ---

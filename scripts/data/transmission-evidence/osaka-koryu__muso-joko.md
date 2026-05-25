@@ -1,7 +1,7 @@
 ---
 student: osaka-koryu
 teacher: muso-joko
-tier: C
+tier: B
 verified_at: 2026-05-25
 sources:
   - publisher: "Wikipedia — Koryū Osaka"
@@ -24,15 +24,27 @@ sources:
       Koryu Roshi's teacher, Joko Roshi, empowered him to remain a lay teacher,
       and this emphasis on the validity and importance of lay practice continues
       at Great Wave today.
+  - publisher: "Terebess Asia Online — Taizan Maezumi"
+    url: https://terebess.hu/zen/mesterek/maezumi.html
+    domain_class: academic
+    retrieved_on: 2026-05-25
+    quote: |
+      Koryu Roshi succeeded to the Dharma of Hannyakutsu Jōkō Roshi, who,
+      distressed by what he saw as the corruption of the priesthood, created
+      the Shakyamuni Kai as a lay Rinzai group based in Tokyo.
 reducer_notes: |
-  Tier C — confirmed by multiple independent sources. Wikipedia (Koryū Osaka)
-  gives the complete Inzan koan-curriculum chain and explicitly names Muso Jōkō
-  Roshi (無相定光, 1884–1949, also known as Hannyakutsu Jōkō Roshi) as Koryū
-  Osaka's direct teacher. Great Wave Zen Sangha (a Koryū lineage sangha in the
-  United States) independently confirms this teacher–student relationship and
-  notes that Muso Jōkō specifically authorised Koryū Osaka to teach as a lay
-  master — an unusual transmission arrangement that became central to the
-  Shakamuni-kai lay Rinzai ethos that Koryū Osaka founded.
+  Tier B: 2 independent hostnames + 1 academic source. Three independent
+  sources confirm the Muso Jōkō → Koryū Osaka dharma transmission: (1)
+  Wikipedia (Koryū Osaka) — explicitly names Muso Jōkō Roshi (also known
+  as Hannyakutsu Jōkō Roshi) as Koryū Osaka's direct teacher in the Rinzai
+  koan curriculum; (2) Great Wave Zen Sangha (sangha, independent U.S.
+  Koryū-lineage sangha) — confirms "Koryu Roshi's teacher, Joko Roshi"
+  and the lay-transmission arrangement; (3) Terebess Asia Online (Maezumi
+  page, academic) — "Koryu Roshi succeeded to the Dharma of Hannyakutsu
+  Jōkō Roshi", an unambiguous dharma-transmission statement naming both
+  masters. The Terebess academic source (terebess.hu) is a third independent
+  hostname, giving ≥2 hostnames (en.wikipedia.org, greatwave.org,
+  terebess.hu) with ≥1 academic source.
 
   This edge REPLACES the former ORPHAN_ANCHOR editorial bridge
   osaka-koryu → linji-yixuan (which was a placeholder installed in

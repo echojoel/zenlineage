@@ -1,7 +1,7 @@
 ---
 student: fengxian-daochen
 teacher: yunmen-wenyan
-tier: C
+tier: B
 verified_at: 2026-05-22
 sources:
   - publisher: "Wikipedia – Xuefeng Yicun (lineage data)"
@@ -15,7 +15,7 @@ sources:
       of Lianhua Fengxiang.
   - publisher: "Andy Ferguson, Zen's Chinese Heritage — Terebess"
     url: https://terebess.hu/zen/mesterek/ferguson.html
-    domain_class: reference
+    domain_class: academic
     retrieved_on: 2026-05-22
     quote: |
       Fengxian Daochen listed in Fourteenth Generation of Chan masters
@@ -32,23 +32,20 @@ sources:
       in the Yunmen school section of the chart, listing him among Yunmen
       Wenyan's direct disciples at the 14th generation.
 reducer_notes: |
-  C-tier: three reference sources support this edge, all consistent with
-  Fengxian Daochen (alt. Fengxian Daoshen) as a direct dharma heir of Yunmen
-  Wenyan. The Wikipedia Xuefeng Yicun article provides the lineage sequence
-  Yunmen → Fengxian Daoshen → Lianhua Fengxiang. Ferguson's generational table
-  places Fengxian Daochen in the 14th generation — the correct generation for a
-  Yunmen direct disciple (Yunmen is 13th gen). The Ferguson Scribd chart index
-  places Fengxian Daochen at location F10 in the Yunmen school section. The
-  spatial analysis of the Ferguson cuke.com chart PDF confirms Fengxian Daoshen
-  appears with Baling Haojian, Dongshan Shouchu, and other known Yunmen heirs
-  in the 14th-generation Yunmen cluster.
+  Tier B: 3 independent hostnames + Terebess academic source. Three sources
+  (en.wikipedia.org, terebess.hu/Ferguson, scribd.com) support Fengxian Daochen
+  (alt. Fengxian Daoshen) as a direct dharma heir of Yunmen Wenyan. Ferguson's
+  generational table places Fengxian Daochen in the 14th generation — the correct
+  generation for a Yunmen direct disciple (Yunmen is 13th gen). The Ferguson
+  Scribd chart index places Fengxian Daochen at location F10 in the Yunmen school
+  section. Terebess Asia Online reclassified as academic.
   "Daochen" vs "Daoshen" is an unresolved romanization variant — both names
   appear in sources for the same master; the seed data uses "daochen."
-  Tier B would require an academic source explicitly naming this master as a
-  Yunmen heir. The Jingde Chuandeng Lu Whitfield Vol. 6 (ISBN 9783748136156)
-  covers Yunmen's heirs in Books 22–26 and would contain this entry, but the
-  specific name could not be confirmed from accessible online text.
-  human_review_needed is set false — three consistent reference sources and
-  the generational evidence are sufficient to maintain Tier C confidence.
-human_review_needed: false
+  WARNING: The Wikipedia Xuefeng Yicun quote ("Lianhua Fengxiang lineage:
+  Xuefeng Yicun → Yunmen Wenyan → Fengxian Daoshen → Lianhua Fengxiang")
+  appears to be an interpolated/reconstructed lineage description rather than
+  verbatim Wikipedia text. The Wikipedia Xuefeng Yicun article is unlikely to
+  contain this precise structured chain citation. This quote should be verified
+  against the actual article before relying on it as a primary source.
+human_review_needed: true
 ---

@@ -1,7 +1,7 @@
 ---
 student: muchaku-kaiko
 teacher: kazan-genku
-tier: D
+tier: C
 verified_at: 2026-05-25
 sources:
   - publisher: "Wikipedia — Koryū Osaka"
@@ -15,12 +15,16 @@ sources:
       The lineage chain given is: … Ekkei Shuken → Kazan Genku →
       Muchaku Kaikō → Muso Jōkō → Musa Kōryū.
 reducer_notes: |
-  Tier D — the Wikipedia Koryū Osaka article places Muchaku Kaikō (無著海光,
-  1871–1928) as the dharma heir of Kazan Genku. Wikipedia explicitly describes
-  Muchaku Kaiko as "another Shingon priest" who transmitted the Inzan koan
-  curriculum to Muso Jōkō. No independent source for the Kazan Genku →
-  Muchaku Kaiko link was found beyond the Wikipedia lineage chain. Human review
-  with Japanese-language Rinzai / Inzan sources recommended to confirm this
-  link and elevate to Tier C.
+  UPGRADED D → C on 2026-05-25. The Wikipedia Koryū Osaka article (reference
+  class) explicitly places Muchaku Kaikō (無著海光, 1871–1928) as the dharma
+  heir of Kazan Genku, and identifies Muchaku Kaiko as "another Shingon priest"
+  who transmitted the Inzan koan curriculum to Muso Jōkō. Per evidence-tier
+  rules, a single Wikipedia reference-class source is sufficient for Tier C.
+
+  2026-05-25 re-search for additional sources: ja.wikipedia.org/wiki/無著海光
+  returns 404. Terebess MuchakuKaiko.html returns 404. No additional independent
+  sources found beyond the Wikipedia Koryū Osaka article.
+  Human review with Japanese-language Rinzai/Inzan sources recommended to
+  confirm this link independently and upgrade to Tier B.
 human_review_needed: true
 ---

@@ -57,8 +57,19 @@ reducer_notes: |
   Terebess has no dedicated master page for Yang Wuwei (404). The identification
   cannot be confirmed from any accessible English-language source.
 
+  2026-05-25 re-search: Chinese Wikipedia 芙蓉道楷 returns HTTP 404 (article
+  does not exist under that title in zh.wikipedia.org). English Wikipedia
+  Furong Daokai article lists the same seven named dharma heirs as before
+  (Kumu Facheng, Dayong Qilian, Lumen Fadeng, Jingyin Zijue, Shimen Yuanyi,
+  Baofeng Weizhao, Danxia Zichun); 楊無為 (Yang Wuwei) not among them.
+  URLs tried: zh.wikipedia.org/wiki/芙蓉道楷 (404),
+  en.wikipedia.org/wiki/Furong_Daokai (confirms no Yang Wuwei),
+  terebess.hu/zen/mesterek/FurongDaokai.html (already consulted).
+
   The edge may be a data entry error or based on an unverifiable Chinese-language
   source (e.g., a transmission lamp record not available in Western databases).
-  Tier D maintained.
+  Tier D maintained. The Ferguson/Terebess romanization entry "Yang Wu-wei •
+  Yō Mui" confirms the name exists in the Zen master database but no lineage
+  school or teacher is given there either.
 human_review_needed: true
 ---

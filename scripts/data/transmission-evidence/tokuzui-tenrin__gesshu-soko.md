@@ -33,8 +33,19 @@ reducer_notes: |
   branch) would be consistent with Tokuzui Tenrin as a downstream heir
   rather than a direct student of Gesshū.
 
-  Resolution: A Japanese-language primary source (Hōzōji temple records or
-  Sōtōshū registry) is needed to confirm or correct this edge. Tier D
-  maintained pending human review.
+  2026-05-25 re-search: Japanese Wikipedia 月舟宗光 returns HTTP 404 (article
+  does not exist under that title). Japanese Wikipedia 月舟宗胡 (note: 胡 not
+  光 in this article) is a stub listing only Manzan Dohaku (卍山道白) as
+  Soko's dharma heir; does not mention 徳水天淋 (Tokuzui Tenrin).
+  Japanese Wikipedia 徳水天淋 returns HTTP 404. Japanese Wikipedia 法蔵寺(岡崎市)
+  describes a Pure Land temple with no Soto lineage connection.
+  Terebess GesshuSoko.html (404), TokuzuiTenrin.html (404).
+  The GesshuSoko page at terebess.hu/zen/mesterek/GesshuSoko.html is
+  accessible and confirms only Manzan Dohaku as the named dharma heir.
+
+  Tier D maintained. Resolution requires a Japanese-language primary source
+  (Hōzōji temple records or Sōtōshū registry). The alternative hypothesis
+  (Tokuzui Tenrin as student of Tokuho Ryoko rather than Gesshu directly)
+  remains unverified in either direction.
 human_review_needed: true
 ---
