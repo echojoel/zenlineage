@@ -133,9 +133,8 @@ export default function ProvenancePage() {
         <section className="detail-card" id="methodology">
           <h2 className="detail-section-title">Methodology</h2>
           <p className="detail-muted" style={{ marginBottom: "0.75rem" }}>
-            In Zen, an incorrect or unsourced transmission claim can be read as
-            disrespect to a tradition. This site is built so every link on the
-            lineage graph can be defended with a quotable, classified source.
+            This site is built so every link on the lineage graph can be
+            defended with a quotable, classified source.
           </p>
           <p className="detail-muted" style={{ marginBottom: "0.75rem" }}>
             <strong>Sources are classified by domain.</strong>{" "}
