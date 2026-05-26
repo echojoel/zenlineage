@@ -484,7 +484,9 @@ export default async function TeachingDetailPage({
 
         {enContent?.content && (
           <section className="detail-card">
-            <h3 className="detail-section-title">Text</h3>
+            <h3 className="detail-section-title">
+              {teaching.type === "koan" ? "Koan" : "Text"}
+            </h3>
             <p className="detail-summary">{enContent.content}</p>
             {(enContent.translator || enContent.edition) && (
               <p className="detail-list-meta">

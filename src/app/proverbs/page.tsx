@@ -22,6 +22,7 @@ export interface KoanEntry {
   slug: string;
   caseNumber: string | null;
   title: string | null;
+  content: string | null;
   masterSlug: string | null;
   masterName: string | null;
 }
@@ -307,6 +308,7 @@ export default async function ProverbsPage() {
       caseNumber: teachings.caseNumber,
       authorId: teachings.authorId,
       title: teachingContent.title,
+      content: teachingContent.content,
     })
     .from(teachings)
     .leftJoin(
@@ -342,6 +344,7 @@ export default async function ProverbsPage() {
           slug: k.slug,
           caseNumber: k.caseNumber,
           title: k.title,
+          content: k.content ?? null,
           masterSlug: speakerMaster?.slug ?? null,
           masterName: speakerId ? masterNameMap.get(speakerId) ?? null : null,
         };

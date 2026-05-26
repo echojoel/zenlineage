@@ -2938,15 +2938,28 @@ a.footnote-source-link:hover {
 }
 
 .koans-entry {
-  display: flex;
-  align-items: baseline;
-  gap: 0.875rem;
-  padding: 0.55rem 0;
   border-bottom: 1px solid rgba(122, 106, 85, 0.08);
 }
 
 .koans-entry:first-child {
   border-top: 1px solid rgba(122, 106, 85, 0.08);
+}
+
+.koans-entry-row {
+  display: flex;
+  align-items: baseline;
+  gap: 0.875rem;
+  width: 100%;
+  padding: 0.6rem 0;
+  background: none;
+  border: none;
+  cursor: pointer;
+  text-align: left;
+  transition: opacity 0.15s;
+}
+
+.koans-entry-row:hover {
+  opacity: 0.7;
 }
 
 .koans-case {
@@ -2965,12 +2978,6 @@ a.footnote-source-link:hover {
   font-size: 0.87rem;
   color: var(--ink);
   flex: 1;
-  text-decoration: none;
-  transition: opacity 0.15s;
-}
-
-.koans-title:hover {
-  opacity: 0.65;
 }
 
 .koans-master {
@@ -2978,12 +2985,48 @@ a.footnote-source-link:hover {
   font-size: 0.65rem;
   color: var(--ink-light);
   flex-shrink: 0;
-  text-decoration: none;
-  transition: opacity 0.15s;
 }
 
-.koans-master:hover {
-  opacity: 0.65;
+.koans-chevron {
+  font-family: var(--font-inter), sans-serif;
+  font-size: 0.75rem;
+  color: var(--ink-light);
+  opacity: 0.5;
+  flex-shrink: 0;
+  line-height: 1;
+}
+
+.koans-expanded {
+  padding: 0.25rem 0 1.25rem 4.125rem;
+}
+
+.koans-expanded-text {
+  font-family: Georgia, serif;
+  font-size: 0.84rem;
+  line-height: 1.75;
+  color: var(--ink);
+  white-space: pre-line;
+  margin-bottom: 1rem;
+}
+
+.koans-expanded-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.koans-full-link {
+  font-family: var(--font-inter), sans-serif;
+  font-size: 0.65rem;
+  letter-spacing: 0.06em;
+  color: var(--ink-light);
+  text-decoration: none;
+  transition: color 0.15s;
+}
+
+.koans-full-link:hover {
+  color: var(--ink);
 }
 
 @media (max-width: 720px) {

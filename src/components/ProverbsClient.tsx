@@ -274,14 +274,21 @@ export default function ProverbsClient({
 }
 
 function KoanBrowser({ collections }: { collections: KoansCollection[] }) {
+  const [expanded, setExpanded] = useState<Set<string>>(new Set());
+
+  function toggle(id: string) {
+    setExpanded((prev) => {
+      const next = new Set(prev);
+      next.has(id) ? next.delete(id) : next.add(id);
+      return next;
+    });
+  }
+
   return (
     <div className="koans-browser">
       <nav className="koans-jump-nav">
         {collections.map((col) => (
-          <a
-            key={col.name}
-            href={`#koan-${col.name.toLowerCase().replace(/\s+/g, "-")}`}
-          >
+          <a key={col.name} href={`#koan-${col.name.toLowerCase().replace(/\s+/g, "-")}`}>
             {col.name}
           </a>
         ))}
@@ -296,30 +303,52 @@ function KoanBrowser({ collections }: { collections: KoansCollection[] }) {
           <div className="koans-collection-header">
             <h2 className="koans-collection-title">{col.name}</h2>
             {col.altName && <p className="koans-collection-alt">{col.altName}</p>}
-            <p className="koans-collection-meta">
-              {col.compiler} · {col.era}
-            </p>
+            <p className="koans-collection-meta">{col.compiler} · {col.era}</p>
             <p className="koans-collection-desc">{col.description}</p>
           </div>
 
           <ul className="koans-list">
-            {col.entries.map((entry) => (
-              <li key={entry.id} className="koans-entry">
-                <span className="koans-case">
-                  {entry.caseNumber ? `Case ${entry.caseNumber}` : ""}
-                </span>
-                <Link href={`/teachings/${entry.slug}`} className="koans-title">
-                  {entry.title ?? entry.slug}
-                </Link>
-                {entry.masterSlug ? (
-                  <Link href={`/masters/${entry.masterSlug}`} className="koans-master">
-                    {entry.masterName}
-                  </Link>
-                ) : entry.masterName ? (
-                  <span className="koans-master">{entry.masterName}</span>
-                ) : null}
-              </li>
-            ))}
+            {col.entries.map((entry) => {
+              const isOpen = expanded.has(entry.id);
+              return (
+                <li key={entry.id} className={`koans-entry${isOpen ? " koans-entry--open" : ""}`}>
+                  <button
+                    className="koans-entry-row"
+                    onClick={() => toggle(entry.id)}
+                    aria-expanded={isOpen}
+                  >
+                    <span className="koans-case">
+                      {entry.caseNumber ? `Case ${entry.caseNumber}` : ""}
+                    </span>
+                    <span className="koans-title">{entry.title ?? entry.slug}</span>
+                    {entry.masterName && (
+                      <span className="koans-master">{entry.masterName}</span>
+                    )}
+                    <span className="koans-chevron" aria-hidden="true">
+                      {isOpen ? "−" : "+"}
+                    </span>
+                  </button>
+
+                  {isOpen && (
+                    <div className="koans-expanded">
+                      {entry.content && (
+                        <div className="koans-expanded-text">{entry.content}</div>
+                      )}
+                      <div className="koans-expanded-footer">
+                        {entry.masterSlug && (
+                          <Link href={`/masters/${entry.masterSlug}`} className="detail-inline-link">
+                            {entry.masterName}
+                          </Link>
+                        )}
+                        <Link href={`/teachings/${entry.slug}`} className="koans-full-link">
+                          Full details →
+                        </Link>
+                      </div>
+                    </div>
+                  )}
+                </li>
+              );
+            })}
           </ul>
         </section>
       ))}
