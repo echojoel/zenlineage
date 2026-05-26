@@ -134,8 +134,8 @@ body {
 }
 
 .spotlight-card {
-  background: rgba(255, 255, 255, 0.45);
-  border: 1px solid rgba(0, 0, 0, 0.07);
+  background: var(--paper-warm);
+  border: 1px solid rgba(122, 106, 85, 0.18);
   border-radius: 8px;
   padding: 20px 24px;
   text-align: center;
@@ -148,7 +148,7 @@ body {
 .spotlight-eyebrow {
   display: block;
   font-family: var(--font-inter), sans-serif;
-  font-size: 0.46rem;
+  font-size: 0.6rem;
   letter-spacing: 0.18em;
   text-transform: uppercase;
   color: var(--ink-light);
@@ -175,7 +175,7 @@ body {
 
 .spotlight-body {
   font-family: Georgia, serif;
-  font-size: 0.54rem;
+  font-size: 0.65rem;
   color: var(--ink-light);
   line-height: 1.7;
   margin-bottom: 12px;
@@ -200,6 +200,8 @@ body {
   display: flex;
   gap: 6px;
   justify-content: center;
+  align-items: center;
+  min-height: 24px;
   margin-top: 12px;
   padding: 4px 0;
 }
@@ -208,15 +210,29 @@ body {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #c0b0a0;
+  background: var(--ink-light);
+  opacity: 0.35;
   border: none;
   cursor: pointer;
   padding: 0;
+  position: relative;
   transition: background 0.3s ease;
 }
 
 .spotlight-dot--active {
   background: var(--ink);
+}
+
+.spotlight-dot::after {
+  content: "";
+  position: absolute;
+  inset: -10px;
+}
+
+.spotlight-card:focus-visible,
+.spotlight-dot:focus-visible {
+  outline: 2px solid rgba(139, 107, 74, 0.6);
+  outline-offset: 2px;
 }
 
 @media (max-width: 480px) {
