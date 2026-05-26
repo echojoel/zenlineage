@@ -90,9 +90,10 @@ export default function FeatureSpotlight() {
   }, [navigateTo]);
 
   const startTimer = useCallback(() => {
+    if (prefersReduced) return;
     if (timerRef.current) clearInterval(timerRef.current);
     timerRef.current = setInterval(advance, INTERVAL_MS);
-  }, [advance]);
+  }, [advance, prefersReduced]);
 
   const stopTimer = useCallback(() => {
     if (timerRef.current) {
