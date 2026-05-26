@@ -32,7 +32,7 @@ const FEATURE_ITEMS: FeatureItem[] = [
     content:
       "The Mumonkan, Blue Cliff Record, and Denkoroku — 136 cases, expanded with master cross-references.",
     attribution: "Open the koan browser →",
-    href: "/proverbs",
+    href: "/proverbs?mode=koans",
   },
   {
     type: "feature",

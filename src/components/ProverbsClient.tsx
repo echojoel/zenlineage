@@ -60,6 +60,12 @@ export default function ProverbsClient({
     ]);
   }, [proverbs]);
 
+  useEffect(() => {
+    if (typeof window === "undefined") return;
+    const params = new URLSearchParams(window.location.search);
+    if (params.get("mode") === "koans") setMode("koans");
+  }, []);
+
   const handleShuffle = useCallback(() => {
     setOrder(shuffle(order));
     setVisibleCount(BATCH_SIZE);
