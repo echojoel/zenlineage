@@ -664,6 +664,52 @@ export default async function MasterDetailPage({ params }: { params: Promise<{ s
           )
       : [];
 
+  // Cross-reference: koans and dialogues where this master appears via
+  // teaching_master_roles but did NOT author the teaching (authorId != master.id).
+  // These are cross-collection appearances — e.g. Zhaozhou appearing as
+  // questioner in a Nanquan koan, or Wumen appearing as commentator.
+  const crossRefRaw = await db
+    .select({
+      id: teachings.id,
+      slug: teachings.slug,
+      type: teachings.type,
+      title: teachingContent.title,
+      collection: teachings.collection,
+      caseNumber: teachings.caseNumber,
+      role: teachingMasterRoles.role,
+    })
+    .from(teachingMasterRoles)
+    .innerJoin(teachings, and(eq(teachings.id, teachingMasterRoles.teachingId), inArray(teachings.type, ["koan", "dialogue"])))
+    .leftJoin(
+      teachingContent,
+      and(eq(teachingContent.teachingId, teachings.id), eq(teachingContent.locale, "en"))
+    )
+    .where(eq(teachingMasterRoles.masterId, master.id));
+
+  // Exclude authored teachings (already shown in Teachings section)
+  const authoredIdSet = new Set(teachingRows.map((t) => t.id));
+  // Deduplicate by teaching ID (same teaching may have multiple role rows)
+  const crossRefById = new Map<string, typeof crossRefRaw[0]>();
+  for (const row of crossRefRaw) {
+    if (!authoredIdSet.has(row.id) && !crossRefById.has(row.id)) {
+      crossRefById.set(row.id, row);
+    }
+  }
+  const uniqueCrossRefs = Array.from(crossRefById.values());
+
+  const crossRefCitationRows =
+    uniqueCrossRefs.length > 0
+      ? await db
+          .select({ entityType: citations.entityType, entityId: citations.entityId })
+          .from(citations)
+          .where(
+            and(
+              eq(citations.entityType, "teaching"),
+              inArray(citations.entityId, uniqueCrossRefs.map((t) => t.id))
+            )
+          )
+      : [];
+
   const sourceIds = Array.from(new Set(citationRows.map((citation) => citation.sourceId)));
   const sourceRows =
     sourceIds.length > 0
@@ -681,6 +727,7 @@ export default async function MasterDetailPage({ params }: { params: Promise<{ s
   const itemCitationKeys = buildCitationKeySet([
     ...biographyCitationRows,
     ...teachingCitationRows,
+    ...crossRefCitationRows,
     ...mediaCitationRows,
   ]);
   const publishedBiography =
@@ -709,6 +756,9 @@ export default async function MasterDetailPage({ params }: { params: Promise<{ s
   const publishedTeachings = publishedTeachingsAll.filter((t) => t.type !== "work");
   const withheldTeachingCount =
     teachingRows.length - publishedTeachingsAll.length;
+  const publishedCrossRefs = uniqueCrossRefs.filter((t) =>
+    isPublishedTeaching({ id: t.id }, itemCitationKeys)
+  );
   const publishedImage = getPublishedImageAsset(mediaRows, itemCitationKeys);
 
   // Sibling masters — others in the same school, excluding the current
@@ -1148,6 +1198,36 @@ export default async function MasterDetailPage({ params }: { params: Promise<{ s
                 })}
               </ul>
             )}
+          </section>
+        )}
+
+        {publishedCrossRefs.length > 0 && (
+          <section className="detail-card">
+            <h3 className="detail-section-title">Featured in</h3>
+            <ul className="detail-source-list">
+              {publishedCrossRefs.map((ref) => {
+                const badge =
+                  ref.type === "koan" && ref.collection && ref.caseNumber
+                    ? `${ref.collection} Case ${ref.caseNumber}`
+                    : ref.collection ?? null;
+                const roleLabel = ref.role
+                  ? ref.role.split("_").map((p) => p.charAt(0).toUpperCase() + p.slice(1)).join(" ")
+                  : null;
+                return (
+                  <li key={ref.id}>
+                    <div className="detail-source-heading">
+                      {badge && <span>{badge}</span>}
+                      <Link href={`/teachings/${ref.slug}`} className="detail-inline-link">
+                        {ref.title ?? ref.slug}
+                      </Link>
+                    </div>
+                    {roleLabel && (
+                      <p className="detail-list-meta">{roleLabel}</p>
+                    )}
+                  </li>
+                );
+              })}
+            </ul>
           </section>
         )}
 

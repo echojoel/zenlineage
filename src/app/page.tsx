@@ -228,6 +228,7 @@ export default async function Home() {
       >
         {[
           { label: "Proverbs", href: "/proverbs" },
+          { label: "Koans", href: "/koans" },
           { label: "Masters", href: "/masters" },
           { label: "Lineage", href: "/lineage" },
           { label: "Schools", href: "/schools" },
