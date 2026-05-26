@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import ThemeToggle from "@/components/ThemeToggle";
-import FeatureSpotlight from "@/components/FeatureSpotlight";
+import HomeProverbRotator from "@/components/HomeProverbRotator";
 
 export const metadata: Metadata = {
   title: "Zen Lineage",
@@ -244,47 +244,7 @@ export default async function Home() {
         ))}
       </nav>
 
-      <FeatureSpotlight />
-
-      {/* Random proverb — between nav and footer */}
-      {randomProverb && (
-        <Link
-          href={`/proverbs?highlight=${randomProverb.slug}`}
-          className="home-proverb-link"
-          style={{
-            display: "block",
-            maxWidth: "380px",
-            textDecoration: "none",
-            textAlign: "center",
-          }}
-        >
-          <p
-            style={{
-              fontFamily: "Georgia, 'Times New Roman', serif",
-              fontStyle: "italic",
-              fontSize: "0.78rem",
-              lineHeight: 1.7,
-              color: "var(--ink-light)",
-              whiteSpace: "pre-line",
-              marginBottom: "0.35rem",
-            }}
-          >
-            {randomProverb.content}
-          </p>
-          <span
-            style={{
-              fontFamily: "var(--font-inter), sans-serif",
-              fontSize: "0.6rem",
-              letterSpacing: "0.06em",
-              fontVariant: "small-caps",
-              color: "var(--ink-light)",
-              opacity: 0.55,
-            }}
-          >
-            {randomProverb.authorName ?? "Traditional Zen Proverb"}
-          </span>
-        </Link>
-      )}
+      <HomeProverbRotator proverb={randomProverb} />
 
       {/* Stats — each metric links to its index page */}
       <p
