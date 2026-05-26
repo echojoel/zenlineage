@@ -183,7 +183,7 @@ body {
 
 .spotlight-cta {
   font-family: var(--font-inter), sans-serif;
-  font-size: 0.46rem;
+  font-size: 0.6rem;
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: var(--ink-light);
@@ -221,6 +221,7 @@ body {
 
 .spotlight-dot--active {
   background: var(--ink);
+  opacity: 1;
 }
 
 .spotlight-dot::after {
