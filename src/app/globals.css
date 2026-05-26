@@ -2983,9 +2983,6 @@ a.footnote-source-link:hover {
   letter-spacing: 0.06em;
   color: var(--ink-light);
   opacity: 0.5;
-  min-width: 3.25rem;
-  text-align: right;
-  flex-shrink: 0;
 }
 
 .koans-title {

@@ -323,10 +323,12 @@ function KoanBrowser({ collections }: { collections: KoansCollection[] }) {
                     onClick={() => toggle(entry.id)}
                     aria-expanded={isOpen}
                   >
-                    <span className="koans-case">
-                      {entry.caseNumber ? `Case ${entry.caseNumber}` : ""}
+                    <span className="koans-title">
+                      {entry.title ?? entry.slug}
+                      {entry.caseNumber && (
+                        <span className="koans-case"> (Case {entry.caseNumber})</span>
+                      )}
                     </span>
-                    <span className="koans-title">{entry.title ?? entry.slug}</span>
                     {entry.masterName && (
                       <span className="koans-master">{entry.masterName}</span>
                     )}
