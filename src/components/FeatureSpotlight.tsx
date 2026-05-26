@@ -58,11 +58,16 @@ const INTERVAL_MS = 5000;
 const FADE_MS = 400;
 
 export default function FeatureSpotlight() {
+  const prefersReduced =
+    typeof window !== "undefined" &&
+    window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
   const [current, setCurrent] = useState(0);
   const [visible, setVisible] = useState(true);
   const timerRef = useRef<ReturnType<typeof setInterval> | null>(null);
   const fadingRef = useRef(false);
   const currentRef = useRef(0);
+  const fadeTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   useEffect(() => {
     currentRef.current = current;
@@ -72,7 +77,8 @@ export default function FeatureSpotlight() {
     if (fadingRef.current) return;
     fadingRef.current = true;
     setVisible(false);
-    setTimeout(() => {
+    if (fadeTimerRef.current) clearTimeout(fadeTimerRef.current);
+    fadeTimerRef.current = setTimeout(() => {
       setCurrent(index);
       setVisible(true);
       fadingRef.current = false;
@@ -93,14 +99,19 @@ export default function FeatureSpotlight() {
       clearInterval(timerRef.current);
       timerRef.current = null;
     }
+    if (fadeTimerRef.current) {
+      clearTimeout(fadeTimerRef.current);
+      fadeTimerRef.current = null;
+    }
   }, []);
 
   useEffect(() => {
-    startTimer();
+    if (!prefersReduced) startTimer();
     return stopTimer;
-  }, [startTimer, stopTimer]);
+  }, [startTimer, stopTimer, prefersReduced]);
 
   const handleDotClick = (index: number) => {
+    if (index === current) return;
     navigateTo(index);
     startTimer();
   };
@@ -120,7 +131,16 @@ export default function FeatureSpotlight() {
     >
       <div
         className="spotlight-card"
+        role="button"
+        tabIndex={0}
+        aria-label="Next feature"
         onClick={handleCardClick}
+        onKeyDown={(e) => {
+          if (e.key === "Enter" || e.key === " ") {
+            e.preventDefault();
+            handleCardClick();
+          }
+        }}
         style={{
           opacity: visible ? 1 : 0,
           transition: `opacity ${FADE_MS}ms ease`,
@@ -135,7 +155,7 @@ export default function FeatureSpotlight() {
           className="spotlight-cta"
           onClick={(e) => e.stopPropagation()}
         >
-          {card.cta} →
+          {card.cta} <span aria-hidden="true">→</span>
         </Link>
       </div>
 
@@ -143,6 +163,8 @@ export default function FeatureSpotlight() {
         {CARDS.map((c, i) => (
           <button
             key={c.label}
+            type="button"
+            aria-pressed={i === current}
             className={`spotlight-dot${i === current ? " spotlight-dot--active" : ""}`}
             onClick={(e) => {
               e.stopPropagation();

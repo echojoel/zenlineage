@@ -236,6 +236,10 @@ body {
   outline-offset: 2px;
 }
 
+@media (prefers-reduced-motion: reduce) {
+  .spotlight-card { transition: none; }
+}
+
 @media (max-width: 480px) {
   .feature-spotlight {
     padding: 0 0.5rem;
