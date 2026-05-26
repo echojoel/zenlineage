@@ -106,7 +106,7 @@ export default function FeatureSpotlight() {
   };
 
   const handleCardClick = () => {
-    navigateTo((currentRef.current + 1) % CARDS.length);
+    advance();
     startTimer();
   };
 
