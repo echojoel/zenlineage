@@ -3,45 +3,36 @@
 import { useState, useEffect, useRef, useCallback } from "react";
 import Link from "next/link";
 
-interface FeatureItem {
-  type: "feature";
+interface RotatorItem {
+  title: string;
   content: string;
   attribution: string;
   href: string;
 }
 
-interface ProverbItem {
-  type: "proverb";
-  content: string;
-  attribution: string;
-  href: string;
-}
-
-type RotatorItem = ProverbItem | FeatureItem;
-
-const FEATURE_ITEMS: FeatureItem[] = [
+const FEATURE_ITEMS: RotatorItem[] = [
   {
-    type: "feature",
+    title: "Lineage",
     content:
       "578 dharma transmissions — from Śākyamuni Buddha through the Tang dynasty masters to teachers alive today.",
     attribution: "Explore the lineage graph →",
     href: "/lineage",
   },
   {
-    type: "feature",
+    title: "Koans",
     content:
       "The Mumonkan, Blue Cliff Record, and Denkoroku — 136 cases, expanded with master cross-references.",
     attribution: "Open the koan browser →",
     href: "/proverbs?mode=koans",
   },
   {
-    type: "feature",
+    title: "Practice centers",
     content: "1,657 active dōjō, monasteries, and sanghas across 51 countries.",
     attribution: "Find a place to sit →",
     href: "/practice",
   },
   {
-    type: "feature",
+    title: "Masters",
     content:
       "556 teachers. 25 schools. 2,500 years of Chan and Zen history, with sourced biographies and portraits.",
     attribution: "Browse the masters →",
@@ -63,6 +54,17 @@ const textStyle: React.CSSProperties = {
   marginBottom: "0.35rem",
 };
 
+const titleStyle: React.CSSProperties = {
+  fontFamily: "var(--font-inter), sans-serif",
+  fontSize: "0.5rem",
+  letterSpacing: "0.2em",
+  textTransform: "uppercase",
+  color: "var(--ink-light)",
+  opacity: 0.45,
+  display: "block",
+  marginBottom: "0.55rem",
+};
+
 const attributionStyle: React.CSSProperties = {
   fontFamily: "var(--font-inter), sans-serif",
   fontSize: "0.6rem",
@@ -81,7 +83,7 @@ export default function HomeProverbRotator({ proverb }: Props) {
     ...(proverb
       ? [
           {
-            type: "proverb" as const,
+            title: "Proverb of the day",
             content: proverb.content,
             attribution: proverb.authorName ?? "Traditional Zen Proverb",
             href: `/proverbs?highlight=${proverb.slug}`,
@@ -195,6 +197,7 @@ export default function HomeProverbRotator({ proverb }: Props) {
           transition: `opacity ${FADE_MS}ms ease`,
         }}
       >
+        <span style={titleStyle}>{item.title}</span>
         <p style={textStyle}>{item.content}</p>
         <span style={attributionStyle}>{item.attribution}</span>
       </Link>
