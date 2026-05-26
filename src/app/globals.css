@@ -3012,7 +3012,7 @@ a.footnote-source-link:hover {
 }
 
 .koans-expanded {
-  padding: 0.25rem 0 1.25rem 4.125rem;
+  padding: 0.25rem 0 1.25rem 0;
 }
 
 .koans-expanded-text {
