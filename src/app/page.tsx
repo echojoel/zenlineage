@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import ThemeToggle from "@/components/ThemeToggle";
+import FeatureSpotlight from "@/components/FeatureSpotlight";
 
 export const metadata: Metadata = {
   title: "Zen Lineage",
@@ -242,6 +243,8 @@ export default async function Home() {
           </Link>
         ))}
       </nav>
+
+      <FeatureSpotlight />
 
       {/* Random proverb — between nav and footer */}
       {randomProverb && (
