@@ -137,7 +137,18 @@ export default function AboutPage() {
           </figure>
           <p className="detail-eyebrow">Introduction</p>
           <h2 className="detail-title">What is Zen Lineage?</h2>
-          <p className="detail-subtitle">An open encyclopedia of Chan and Zen history</p>
+          <p className="detail-subtitle">
+            An{" "}
+            <a
+              href="https://github.com/echojoel/zenlineage"
+              target="_blank"
+              rel="noreferrer"
+              className="detail-inline-link"
+            >
+              open source
+            </a>{" "}
+            encyclopedia of Chan and Zen history
+          </p>
         </section>
 
         {/* Pick-Your-Path: three equal doors. The lineage graph is
