@@ -3,15 +3,15 @@
 import { useState, useEffect, useRef, useCallback } from "react";
 import Link from "next/link";
 
-interface ProverbItem {
-  type: "proverb";
+interface FeatureItem {
+  type: "feature";
   content: string;
   attribution: string;
   href: string;
 }
 
-interface FeatureItem {
-  type: "feature";
+interface ProverbItem {
+  type: "proverb";
   content: string;
   attribution: string;
   href: string;
@@ -51,6 +51,7 @@ const FEATURE_ITEMS: FeatureItem[] = [
 
 const INTERVAL_MS = 10000;
 const FADE_MS = 500;
+const SWIPE_THRESHOLD = 50;
 
 const textStyle: React.CSSProperties = {
   fontFamily: "Georgia, 'Times New Roman', serif",
@@ -96,6 +97,7 @@ export default function HomeProverbRotator({ proverb }: Props) {
   const fadeTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
   const fadingRef = useRef(false);
   const currentRef = useRef(0);
+  const touchStartX = useRef<number | null>(null);
 
   const prefersReduced =
     typeof window !== "undefined" &&
@@ -105,23 +107,24 @@ export default function HomeProverbRotator({ proverb }: Props) {
     currentRef.current = current;
   }, [current]);
 
-  const navigateTo = useCallback(
-    (index: number) => {
-      if (fadingRef.current) return;
-      fadingRef.current = true;
-      setVisible(false);
-      if (fadeTimerRef.current) clearTimeout(fadeTimerRef.current);
-      fadeTimerRef.current = setTimeout(() => {
-        setCurrent(index);
-        setVisible(true);
-        fadingRef.current = false;
-      }, FADE_MS);
-    },
-    []
-  );
+  const navigateTo = useCallback((index: number) => {
+    if (fadingRef.current) return;
+    fadingRef.current = true;
+    setVisible(false);
+    if (fadeTimerRef.current) clearTimeout(fadeTimerRef.current);
+    fadeTimerRef.current = setTimeout(() => {
+      setCurrent(index);
+      setVisible(true);
+      fadingRef.current = false;
+    }, FADE_MS);
+  }, []);
 
   const advance = useCallback(() => {
     navigateTo((currentRef.current + 1) % items.length);
+  }, [navigateTo, items.length]);
+
+  const goBack = useCallback(() => {
+    navigateTo((currentRef.current - 1 + items.length) % items.length);
   }, [navigateTo, items.length]);
 
   const startTimer = useCallback(() => {
@@ -146,24 +149,64 @@ export default function HomeProverbRotator({ proverb }: Props) {
     return stopTimer;
   }, [startTimer, stopTimer]);
 
+  const handlePrev = () => { goBack(); startTimer(); };
+  const handleNext = () => { advance(); startTimer(); };
+
+  const handleTouchStart = (e: React.TouchEvent) => {
+    touchStartX.current = e.touches[0].clientX;
+  };
+
+  const handleTouchEnd = (e: React.TouchEvent) => {
+    if (touchStartX.current === null) return;
+    const delta = e.changedTouches[0].clientX - touchStartX.current;
+    touchStartX.current = null;
+    if (Math.abs(delta) < SWIPE_THRESHOLD) return;
+    if (delta < 0) handleNext();
+    else handlePrev();
+  };
+
   const item = items[current];
   if (!item) return null;
 
   return (
-    <Link
-      href={item.href}
+    <div
       className="home-proverb-link"
-      style={{
-        display: "block",
-        maxWidth: "380px",
-        textDecoration: "none",
-        textAlign: "center",
-        opacity: visible ? 1 : 0,
-        transition: `opacity ${FADE_MS}ms ease`,
-      }}
+      style={{ display: "flex", alignItems: "center" }}
+      onTouchStart={handleTouchStart}
+      onTouchEnd={handleTouchEnd}
     >
-      <p style={textStyle}>{item.content}</p>
-      <span style={attributionStyle}>{item.attribution}</span>
-    </Link>
+      <button
+        type="button"
+        className="rotator-arrow"
+        onClick={handlePrev}
+        aria-label="Previous"
+      >
+        ‹
+      </button>
+
+      <Link
+        href={item.href}
+        style={{
+          display: "block",
+          maxWidth: "380px",
+          textDecoration: "none",
+          textAlign: "center",
+          opacity: visible ? 1 : 0,
+          transition: `opacity ${FADE_MS}ms ease`,
+        }}
+      >
+        <p style={textStyle}>{item.content}</p>
+        <span style={attributionStyle}>{item.attribution}</span>
+      </Link>
+
+      <button
+        type="button"
+        className="rotator-arrow"
+        onClick={handleNext}
+        aria-label="Next"
+      >
+        ›
+      </button>
+    </div>
   );
 }

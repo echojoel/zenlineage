@@ -124,6 +124,21 @@ body {
   }
 }
 
+.rotator-arrow {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--ink-light);
+  opacity: 0.3;
+  font-size: 1.1rem;
+  padding: 0 0.6rem;
+  line-height: 1;
+  flex-shrink: 0;
+  user-select: none;
+  transition: opacity 0.2s ease;
+}
+.rotator-arrow:hover { opacity: 0.7; }
+
 /* Homepage footer — stats line reads as a true bottom-of-page footer
  * on every viewport. Pinned flush to the bottom edge with internal
  * padding so spacing is consistent rather than a floating row hovering
