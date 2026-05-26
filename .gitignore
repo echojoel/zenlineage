@@ -68,3 +68,4 @@ d1-export*.sql
 /reports/*
 !/reports/accuracy-report.md
 !/reports/accuracy-report.csv
+.superpowers/

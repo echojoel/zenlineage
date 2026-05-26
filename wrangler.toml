@@ -3,7 +3,3 @@
 name = "zenlineage"
 compatibility_date = "2025-03-14"
 pages_build_output_dir = "out"
-
-[[analytics_engine_datasets]]
-binding = "AE"
-dataset = "page_views"
