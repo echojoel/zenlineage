@@ -12,10 +12,28 @@ import {
   schoolNames as schoolNamesTable,
   citations,
 } from "@/db/schema";
-import { eq, and } from "drizzle-orm";
+import { eq, and, inArray } from "drizzle-orm";
 import Link from "next/link";
 import ProverbsClient from "@/components/ProverbsClient";
 import { buildCitationKeySet, isPublishedTeaching } from "@/lib/publishable-content";
+
+export interface KoanEntry {
+  id: string;
+  slug: string;
+  caseNumber: string | null;
+  title: string | null;
+  masterSlug: string | null;
+  masterName: string | null;
+}
+
+export interface KoansCollection {
+  name: string;
+  altName: string;
+  compiler: string;
+  era: string;
+  description: string;
+  entries: KoanEntry[];
+}
 
 export interface ProverbListItem {
   id: string;
@@ -251,6 +269,90 @@ export default async function ProverbsPage() {
     ];
   }
 
+  // 11. Fetch koan/dialogue entries from canonical collections
+  const KOAN_COLLECTIONS = ["Mumonkan", "Blue Cliff Record", "Denkoroku", "Jingde Chuandenglu"];
+  const COLLECTION_META: Record<string, Omit<KoansCollection, "entries" | "name">> = {
+    Mumonkan: {
+      altName: "The Gateless Gate",
+      compiler: "Wumen Huikai",
+      era: "Song dynasty, 1228",
+      description: "Forty-eight koans compiled by Wumen Huikai with verse and prose commentary. The most widely studied koan collection in Western Zen.",
+    },
+    "Blue Cliff Record": {
+      altName: "Biyanlu 碧巖錄",
+      compiler: "Yuanwu Keqin",
+      era: "Song dynasty, 1125",
+      description: "One hundred cases from the Tang masters, with verse by Xuedou Chongxian and commentary by Yuanwu Keqin. The oldest major koan anthology.",
+    },
+    Denkoroku: {
+      altName: "Record of Transmitting the Light",
+      compiler: "Keizan Jōkin",
+      era: "Kamakura period, c. 1300",
+      description: "Fifty-two transmission cases from the Indian and Chinese patriarchs, compiled by Keizan Jōkin as a Sōtō Zen awakening record.",
+    },
+    "Jingde Chuandenglu": {
+      altName: "Transmission of the Lamp 景德傳燈錄",
+      compiler: "Daoyuan",
+      era: "Song dynasty, 1004",
+      description: "Thirty volumes documenting over 1,700 Chan masters. The foundational genealogical text of the Chan tradition.",
+    },
+  };
+
+  const koanRows = await db
+    .select({
+      id: teachings.id,
+      slug: teachings.slug,
+      type: teachings.type,
+      collection: teachings.collection,
+      caseNumber: teachings.caseNumber,
+      authorId: teachings.authorId,
+      title: teachingContent.title,
+    })
+    .from(teachings)
+    .leftJoin(
+      teachingContent,
+      and(eq(teachingContent.teachingId, teachings.id), eq(teachingContent.locale, "en"))
+    )
+    .where(
+      and(
+        inArray(teachings.collection, KOAN_COLLECTIONS),
+        inArray(teachings.type, ["koan", "dialogue"])
+      )
+    );
+
+  const publishedKoans = koanRows.filter((k) => isPublishedTeaching({ id: k.id }, citationKeys));
+
+  // Fetch the primary speaker for each koan via master_roles
+  const koanIds = publishedKoans.map((k) => k.id);
+  const koanRoleRows =
+    koanIds.length > 0
+      ? (roleRows).filter((r) => koanIds.includes(r.teachingId) && r.role === "speaker")
+      : [];
+
+  const koanCollections: KoansCollection[] = KOAN_COLLECTIONS.map((colName) => {
+    const entries = publishedKoans
+      .filter((k) => k.collection === colName)
+      .sort((a, b) => parseInt(a.caseNumber ?? "999") - parseInt(b.caseNumber ?? "999"))
+      .map((k): KoanEntry => {
+        const speakerRole = koanRoleRows.find((r) => r.teachingId === k.id);
+        const speakerId = speakerRole?.masterId ?? k.authorId;
+        const speakerMaster = speakerId ? masterMap.get(speakerId) : null;
+        return {
+          id: k.id,
+          slug: k.slug,
+          caseNumber: k.caseNumber,
+          title: k.title,
+          masterSlug: speakerMaster?.slug ?? null,
+          masterName: speakerId ? masterNameMap.get(speakerId) ?? null : null,
+        };
+      });
+    return {
+      name: colName,
+      ...COLLECTION_META[colName]!,
+      entries,
+    };
+  }).filter((c) => c.entries.length > 0);
+
   const breadcrumbJsonLd = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
@@ -284,6 +386,7 @@ export default async function ProverbsPage() {
         allThemes={allThemes}
         schoolNames={schoolNameRecord}
         highlightSlug={highlightSlug}
+        koanCollections={koanCollections}
       />
     </div>
   );

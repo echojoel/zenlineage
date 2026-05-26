@@ -3,7 +3,7 @@
 import { useState, useMemo, useCallback, useEffect } from "react";
 import Fuse from "fuse.js";
 import Link from "next/link";
-import type { ProverbListItem } from "@/app/proverbs/page";
+import type { ProverbListItem, KoansCollection } from "@/app/proverbs/page";
 
 const BATCH_SIZE = 12;
 
@@ -23,6 +23,7 @@ interface Props {
   /** Slug of the proverb to feature at the top, set when the user
    *  arrived from a homepage proverb click (`/proverbs?highlight=…`). */
   highlightSlug?: string | null;
+  koanCollections: KoansCollection[];
 }
 
 export default function ProverbsClient({
@@ -30,7 +31,9 @@ export default function ProverbsClient({
   allThemes,
   schoolNames,
   highlightSlug = null,
+  koanCollections,
 }: Props) {
+  const [mode, setMode] = useState<"proverbs" | "koans">("proverbs");
   const [order, setOrder] = useState(proverbs);
   const [activeHighlight, setActiveHighlight] = useState<string | null>(
     highlightSlug ?? null
@@ -135,6 +138,29 @@ export default function ProverbsClient({
 
   return (
     <div className="proverbs-page">
+      {/* Mode toggle */}
+      <div className="proverbs-mode-toggle">
+        <button
+          className={`proverbs-mode-btn${mode === "proverbs" ? " active" : ""}`}
+          onClick={() => setMode("proverbs")}
+        >
+          Proverbs
+        </button>
+        <button
+          className={`proverbs-mode-btn${mode === "koans" ? " active" : ""}`}
+          onClick={() => setMode("koans")}
+        >
+          Koans
+        </button>
+      </div>
+
+      {/* Koan browser — shown when mode === "koans" */}
+      {mode === "koans" && (
+        <KoanBrowser collections={koanCollections} />
+      )}
+
+      {/* Proverbs view — hidden when in koans mode */}
+      {mode === "proverbs" && <>
       {/* Controls */}
       <div className="proverbs-controls">
         <input
@@ -242,6 +268,61 @@ export default function ProverbsClient({
           </button>
         </div>
       )}
+      </>}
+    </div>
+  );
+}
+
+function KoanBrowser({ collections }: { collections: KoansCollection[] }) {
+  return (
+    <div className="koans-browser">
+      <nav className="koans-jump-nav">
+        {collections.map((col) => (
+          <a
+            key={col.name}
+            href={`#koan-${col.name.toLowerCase().replace(/\s+/g, "-")}`}
+          >
+            {col.name}
+          </a>
+        ))}
+      </nav>
+
+      {collections.map((col) => (
+        <section
+          key={col.name}
+          id={`koan-${col.name.toLowerCase().replace(/\s+/g, "-")}`}
+          className="koans-collection"
+        >
+          <div className="koans-collection-header">
+            <h2 className="koans-collection-title">{col.name}</h2>
+            {col.altName && <p className="koans-collection-alt">{col.altName}</p>}
+            <p className="koans-collection-meta">
+              {col.compiler} · {col.era}
+            </p>
+            <p className="koans-collection-desc">{col.description}</p>
+          </div>
+
+          <ul className="koans-list">
+            {col.entries.map((entry) => (
+              <li key={entry.id} className="koans-entry">
+                <span className="koans-case">
+                  {entry.caseNumber ? `Case ${entry.caseNumber}` : ""}
+                </span>
+                <Link href={`/teachings/${entry.slug}`} className="koans-title">
+                  {entry.title ?? entry.slug}
+                </Link>
+                {entry.masterSlug ? (
+                  <Link href={`/masters/${entry.masterSlug}`} className="koans-master">
+                    {entry.masterName}
+                  </Link>
+                ) : entry.masterName ? (
+                  <span className="koans-master">{entry.masterName}</span>
+                ) : null}
+              </li>
+            ))}
+          </ul>
+        </section>
+      ))}
     </div>
   );
 }
