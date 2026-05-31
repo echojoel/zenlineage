@@ -41,7 +41,7 @@
     "db:generate": "drizzle-kit generate",
     "db:migrate": "drizzle-kit migrate",
     "validate-graph": "tsx scripts/validate-graph.ts",
-    "deploy": "npm run build && wrangler pages deploy out --project-name=zenlineage",
+    "deploy": "npm run build && rm -rf out-cf && rsync -a --exclude='*.txt' out/ out-cf/ && cp out/robots.txt out-cf/ && cp out/llms.txt out-cf/ && cp out/llms-full.txt out-cf/ && wrangler pages deploy out-cf --project-name=zenlineage --commit-dirty=true",
     "seed:corrections-w3": "DATABASE_URL=file:zen.db tsx scripts/seed-corrections-wave-3.ts",
     "seed:corrections-w4": "DATABASE_URL=file:zen.db tsx scripts/seed-corrections-wave-4.ts",
     "seed:corrections-w5": "DATABASE_URL=file:zen.db tsx scripts/seed-corrections-wave-5.ts",

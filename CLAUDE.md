@@ -9,7 +9,7 @@ This project is deployed on **Cloudflare Pages** (not Vercel). Do not suggest
 Vercel products, `vercel` CLI commands, or Vercel-specific configuration.
 
 - Runtime: `@opennextjs/cloudflare` (OpenNext adapter)
-- Deploy command: `npm run build && wrangler pages deploy out --project-name=zenlineage`
+- Deploy command: `npm run deploy` (builds, strips RSC `.txt` files into `out-cf/` to stay under CF Pages' 20k file limit, then deploys)
 - Config: `wrangler.toml`
 - Types: `@cloudflare/workers-types`
 
