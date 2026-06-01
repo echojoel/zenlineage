@@ -1152,6 +1152,27 @@ export default function LineageGraph() {
 
     init();
 
+    // Keep the GL surface sized to its container. PIXI sizes the canvas once
+    // at init; without this the graph stays at its original pixel dimensions
+    // after a viewport resize or device rotation. We resize the renderer only
+    // (the d3-zoom transform on the stage is preserved, so pan/zoom survive).
+    let resizeTimer: ReturnType<typeof setTimeout> | null = null;
+    const handleResize = () => {
+      if (resizeTimer) clearTimeout(resizeTimer);
+      resizeTimer = setTimeout(() => {
+        const pixi = pixiRef.current;
+        const el = containerRef.current;
+        if (!pixi || !el) return;
+        const w = el.clientWidth || window.innerWidth;
+        const mobileSafeBottom = window.innerWidth <= 720 ? 72 : 0;
+        const h = (el.clientHeight || window.innerHeight) - mobileSafeBottom;
+        if (w > 0 && h > 0) pixi.app.renderer.resize(w, h);
+      }, 150);
+    };
+    if (typeof window !== "undefined") {
+      window.addEventListener("resize", handleResize);
+    }
+
     // Re-sync the PIXI canvas with the active reading-mode whenever the
     // theme toggle flips `data-theme` on <html>. The DOM-rendered chrome
     // tracks CSS variables automatically; the GL surface needs an explicit
@@ -1176,6 +1197,10 @@ export default function LineageGraph() {
     return () => {
       destroyed = true;
       themeObserver.disconnect();
+      if (typeof window !== "undefined") {
+        window.removeEventListener("resize", handleResize);
+      }
+      if (resizeTimer) clearTimeout(resizeTimer);
       if (zoomRef.current && canvasEl) {
         d3.select(canvasEl).on(".zoom", null);
       }

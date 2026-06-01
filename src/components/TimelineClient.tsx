@@ -258,6 +258,8 @@ export default function TimelineClient({
 
   const activeEra = eras.find((e) => e.id === activeEraId) ?? eras[0];
 
+  if (!activeEra) return null;
+
   return (
     <div className={`timeline-container${enhanced ? " timeline-enhanced" : ""}`}>
       <div className="timeline-era-indicator">

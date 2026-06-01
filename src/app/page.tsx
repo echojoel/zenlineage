@@ -22,7 +22,7 @@ export const metadata: Metadata = {
       "An interactive encyclopedia of Zen Buddhism across 2,500 years of Chan and Zen history.",
   },
 };
-import { sql, eq, and } from "drizzle-orm";
+import { sql, eq, and, inArray } from "drizzle-orm";
 import { db } from "@/db";
 import {
   masters,
@@ -73,6 +73,26 @@ export default async function Home() {
   const publishedProverbs = proverbRows.filter((p) =>
     isPublishedTeaching({ id: p.id }, citationKeys)
   );
+
+  // Koan-browser count — mirror the selection in /proverbs (mode=koans) so the
+  // homepage figure can never drift from what that page actually renders.
+  const KOAN_COLLECTIONS = ["Mumonkan", "Blue Cliff Record", "Denkoroku", "Jingde Chuandenglu"];
+  const koanCountRows = await db
+    .select({ id: teachings.id })
+    .from(teachings)
+    .where(
+      and(
+        inArray(teachings.collection, KOAN_COLLECTIONS),
+        inArray(teachings.type, ["koan", "dialogue"])
+      )
+    );
+  const koanCount = koanCountRows.filter((k) => isPublishedTeaching({ id: k.id }, citationKeys)).length;
+
+  // Distinct countries that have at least one place of practice.
+  const countryRows = await db
+    .selectDistinct({ country: temples.country })
+    .from(temples);
+  const countryCount = countryRows.filter((r) => r.country).length;
 
   const randomPick =
     publishedProverbs.length > 0
@@ -149,6 +169,8 @@ export default async function Home() {
     schools: schoolRow[0]?.count ?? 0,
     transmissions: transmissionRow[0]?.count ?? 0,
     temples: templeRow[0]?.count ?? 0,
+    koans: koanCount,
+    countries: countryCount,
   };
 
   const websiteJsonLd = {
@@ -244,7 +266,17 @@ export default async function Home() {
         ))}
       </nav>
 
-      <HomeProverbRotator proverb={randomProverb} />
+      <HomeProverbRotator
+        proverb={randomProverb}
+        stats={{
+          transmissions: counts.transmissions,
+          koans: counts.koans,
+          temples: counts.temples,
+          countries: counts.countries,
+          masters: counts.masters,
+          schools: counts.schools,
+        }}
+      />
 
       {/* Stats — each metric links to its index page */}
       <p

@@ -170,6 +170,8 @@ export default function PracticeMap({ initialSchool, selectedSchool }: PracticeM
             url: t.url,
             sourceUrl: t.sourceUrl,
             sourceTitle: t.sourceTitle,
+            imageUrl: t.imageUrl,
+            imageAlt: t.imageAlt,
           },
         }));
 

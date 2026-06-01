@@ -10,35 +10,44 @@ interface RotatorItem {
   href: string;
 }
 
-const FEATURE_ITEMS: RotatorItem[] = [
-  {
-    title: "Lineage",
-    content:
-      "578 dharma transmissions — from Śākyamuni Buddha through the Tang dynasty masters to teachers alive today.",
-    attribution: "Explore the lineage graph →",
-    href: "/lineage",
-  },
-  {
-    title: "Koans",
-    content:
-      "The Mumonkan, Blue Cliff Record, and Denkoroku — 136 cases, expanded with master cross-references.",
-    attribution: "Open the koan browser →",
-    href: "/proverbs?mode=koans",
-  },
-  {
-    title: "Practice centers",
-    content: "1,657 active dōjō, monasteries, and sanghas across 51 countries.",
-    attribution: "Find a place to sit →",
-    href: "/practice",
-  },
-  {
-    title: "Masters",
-    content:
-      "556 teachers. 25 schools. 2,500 years of Chan and Zen history, with sourced biographies and portraits.",
-    attribution: "Browse the masters →",
-    href: "/masters",
-  },
-];
+interface RotatorStats {
+  transmissions: number;
+  koans: number;
+  temples: number;
+  countries: number;
+  masters: number;
+  schools: number;
+}
+
+function buildFeatureItems(s: RotatorStats): RotatorItem[] {
+  const n = (v: number) => v.toLocaleString("en-US");
+  return [
+    {
+      title: "Lineage",
+      content: `${n(s.transmissions)} dharma transmissions — from Śākyamuni Buddha through the Tang dynasty masters to teachers alive today.`,
+      attribution: "Explore the lineage graph →",
+      href: "/lineage",
+    },
+    {
+      title: "Koans",
+      content: `The Mumonkan, Blue Cliff Record, Denkōroku, and Transmission of the Lamp — ${n(s.koans)} cases, expanded with master cross-references.`,
+      attribution: "Open the koan browser →",
+      href: "/proverbs?mode=koans",
+    },
+    {
+      title: "Practice centers",
+      content: `${n(s.temples)} active dōjō, monasteries, and sanghas across ${n(s.countries)} countries.`,
+      attribution: "Find a place to sit →",
+      href: "/practice",
+    },
+    {
+      title: "Masters",
+      content: `${n(s.masters)} teachers. ${n(s.schools)} schools. 2,500 years of Chan and Zen history, with sourced biographies and portraits.`,
+      attribution: "Browse the masters →",
+      href: "/masters",
+    },
+  ];
+}
 
 const INTERVAL_MS = 10000;
 const FADE_MS = 500;
@@ -60,7 +69,7 @@ const titleStyle: React.CSSProperties = {
   letterSpacing: "0.2em",
   textTransform: "uppercase",
   color: "var(--ink-light)",
-  opacity: 0.45,
+  opacity: 0.75,
   display: "block",
   marginBottom: "0.55rem",
 };
@@ -71,14 +80,15 @@ const attributionStyle: React.CSSProperties = {
   letterSpacing: "0.06em",
   fontVariant: "small-caps",
   color: "var(--ink-light)",
-  opacity: 0.55,
+  opacity: 0.9,
 };
 
 interface Props {
   proverb: { content: string; authorName: string | null; slug: string } | null;
+  stats: RotatorStats;
 }
 
-export default function HomeProverbRotator({ proverb }: Props) {
+export default function HomeProverbRotator({ proverb, stats }: Props) {
   const items: RotatorItem[] = [
     ...(proverb
       ? [
@@ -90,7 +100,7 @@ export default function HomeProverbRotator({ proverb }: Props) {
           },
         ]
       : []),
-    ...FEATURE_ITEMS,
+    ...buildFeatureItems(stats),
   ];
 
   const [current, setCurrent] = useState(0);

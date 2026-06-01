@@ -107,6 +107,10 @@ export default async function SchoolsPage() {
       masterCount: countMap.get(s.id) ?? 0,
       image: schoolImageMap.get(s.id) ?? null,
     }))
+    // Hide umbrella/taxonomy schools that have no masters assigned directly
+    // (e.g. the "Chan" root, whose masters live in its child schools) so the
+    // index never shows a "0 masters" card.
+    .filter((s) => s.masterCount > 0)
     .sort((a, b) => b.masterCount - a.masterCount);
 
   const breadcrumbJsonLd = {

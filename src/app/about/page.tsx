@@ -1,6 +1,9 @@
 import Link from "next/link";
 import Image from "next/image";
 import type { Metadata } from "next";
+import { sql } from "drizzle-orm";
+import { db } from "@/db";
+import { masters, temples } from "@/db/schema";
 import { FootnoteList, FootnoteRef, type FootnoteRef as FN } from "@/lib/footnotes";
 import PathDoor from "@/components/PathDoor";
 
@@ -100,7 +103,14 @@ const breadcrumbJsonLd = {
   ],
 };
 
-export default function AboutPage() {
+export default async function AboutPage() {
+  const [masterRow, countryRows] = await Promise.all([
+    db.select({ count: sql<number>`count(*)` }).from(masters),
+    db.selectDistinct({ country: temples.country }).from(temples),
+  ]);
+  const masterCount = masterRow[0]?.count ?? 0;
+  const countryCount = countryRows.filter((r) => r.country).length;
+
   return (
     <main className="detail-page">
       <script
@@ -153,7 +163,7 @@ export default function AboutPage() {
 
         {/* Pick-Your-Path: three equal doors. The lineage graph is
          *  surfaced first because it is the unique artefact of this
-         *  site — 425 masters, 2,500 years, one navigable diagram —
+         *  site — the full master roster across 2,500 years in one navigable diagram —
          *  but the three doors are visually equal so a reader who
          *  arrives wanting to find a hall, or to read the Heart
          *  Sūtra, lands somewhere useful in the same glance.
@@ -165,7 +175,7 @@ export default function AboutPage() {
             <PathDoor
               eyebrow="History"
               title="The lineage graph"
-              lede="A single navigable diagram of 425 masters across 2,500 years, from Shakyamuni Buddha through Bodhidharma to the contemporary teachers of Chan, Sŏn, Thiền, and Zen. Every other index on this site is a slice of this same graph — the unique artefact you won't find elsewhere."
+              lede={`A single navigable diagram of ${masterCount.toLocaleString("en-US")} masters across 2,500 years, from Shakyamuni Buddha through Bodhidharma to the contemporary teachers of Chan, Sŏn, Thiền, and Zen. Every other index on this site is a slice of this same graph — the unique artefact you won't find elsewhere.`}
               href="/lineage"
               glyph="禅"
               glyphLang="ja"
@@ -173,7 +183,7 @@ export default function AboutPage() {
             <PathDoor
               eyebrow="Practice"
               title="Find a hall"
-              lede="1,650+ practice centres mapped across 60+ countries — Sōtō, Rinzai, Plum Village, Kwan Um, Order of Buddhist Contemplatives, and more. Search by tradition, by country, by language."
+              lede={`1,650+ practice centres mapped across ${countryCount}+ countries — Sōtō, Rinzai, Plum Village, Kwan Um, Order of Buddhist Contemplatives, and more. Search by tradition, by country, by language.`}
               href="/practice"
               glyph="坐"
               glyphLang="ja"
