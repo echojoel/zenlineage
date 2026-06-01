@@ -335,7 +335,7 @@ export const CURATED_PROVERBS: CuratedProverb[] = [
       "A single phrase can block off ten thousand gates. A single glance can open the whole field. Where is the one not yet divided? Answer before you open your mouth.",
     era: "Song",
     attributedMasterSlug: "yuanwu-keqin",
-    collection: "Blue Cliff Record (Biyan Lu)",
+    collection: "Blue Cliff Record",
     licenseStatus: "cc_by",
     citations: [
       { sourceId: "src_blue_cliff_record_shaw_1961" },

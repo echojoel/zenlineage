@@ -90,6 +90,23 @@ function hashShort(value: string): string {
   return Math.abs(h).toString(36);
 }
 
+// Canonicalise country names so the same nation can't appear under two
+// spellings (which would split the /practice/by-country pages, sitemap, and
+// per-school country groupings). Add aliases here rather than fixing one-off
+// rows in the seed lists.
+const COUNTRY_ALIASES: Record<string, string> = {
+  UK: "United Kingdom",
+  "U.K.": "United Kingdom",
+  USA: "United States",
+  "U.S.A.": "United States",
+  "U.S.": "United States",
+  US: "United States",
+};
+
+function normalizeCountry(country: string): string {
+  return COUNTRY_ALIASES[country.trim()] ?? country;
+}
+
 async function ensureTempleSchema(): Promise<void> {
   // Idempotent schema evolution — in-place add of the `url` column so a
   // dev machine that already has zen.db doesn't need a separate
@@ -644,7 +661,7 @@ async function upsertTemple(seed: TempleSeed): Promise<{ id: string; inserted: b
     lat: seed.lat,
     lng: seed.lng,
     region: seed.region,
-    country: seed.country,
+    country: normalizeCountry(seed.country),
     foundedYear: seed.foundedYear,
     foundedPrecision: seed.foundedPrecision,
     foundedConfidence: "high" as const,

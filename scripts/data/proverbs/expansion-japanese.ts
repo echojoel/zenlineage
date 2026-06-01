@@ -311,7 +311,7 @@ export const JAPANESE_PROVERBS: CuratedProverb[] = [
       "I write this Record because the lamp must not be left in only one hand. Each face in the lineage held the lamp differently; only by writing them down do we see the family resemblance.",
     era: "Kamakura",
     attributedMasterSlug: "keizan-jokin",
-    collection: "Denkōroku",
+    collection: "Denkoroku",
     licenseStatus: "cc_by",
     citations: [{ sourceId: "src_bodiford_soto_medieval" }],
   },

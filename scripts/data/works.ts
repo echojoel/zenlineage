@@ -231,7 +231,7 @@ const CLASSICAL_WORKS: WorkSeed[] = [
   {
     slug: "platform-sutra",
     authorSlug: "dajian-huineng",
-    collection: "Platform Sutra",
+    collection: "Platform Sūtra",
     era: "Tang",
     attributionStatus: "traditional",
     title: "Platform Sutra of the Sixth Patriarch (Liùzǔ Tánjīng)",
