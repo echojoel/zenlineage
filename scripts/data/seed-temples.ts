@@ -414,6 +414,8 @@ export const SEED_TEMPLES: TempleSeed[] = [
     sourceId: "src_morinaga_wiki",
     sourceExcerpt:
       "Daishū-in (大珠院) — a sub-temple of Ryōan-ji in the Myōshin-ji complex, Kyoto. Sōkō Morinaga was ordained here by Gotō Zuigan in 1949 and served as its chief priest from 1963 until his death in 1995.",
+    // Daishū-in has no website of its own; link the article documenting it.
+    url: "https://en.wikipedia.org/wiki/Soko_Morinaga",
   },
 
   // ─── Japanese Ōbaku ──────────────────────────────────────────────────

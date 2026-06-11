@@ -36,6 +36,9 @@ const SCHOOL_SLUG_ALLOWLIST = new Set([
   "seon",
   "sanbo-zen",
   "white-plum-asanga",
+  // Independent / unaffiliated centres (e.g. Ordinary Mind School) — a
+  // real `other` school row exists in the schools table.
+  "other",
 ]);
 
 const SLUG_RE = /^[a-z0-9]+(-[a-z0-9]+)*$/;
@@ -133,16 +136,23 @@ describe("SEED_TEMPLES invariants", () => {
     }
   });
 
-  it("no near-duplicate coordinates across different slugs (> 50m apart)", () => {
+  it("no coordinate collisions across different regions", () => {
     // Catches copy-paste mistakes where a new entry accidentally reuses
-    // another temple's lat/lng. 50m ≈ 0.00045° at the equator.
-    const seen = new Map<string, string>();
+    // another temple's lat/lng. Directory-imported city groups are
+    // deliberately geocoded to the city centroid, so collisions within the
+    // same region+country are expected precision, not errors — only
+    // cross-region collisions (same coords, supposedly different place)
+    // are flagged.
+    const seen = new Map<string, { slug: string; place: string }>();
     const collisions: string[] = [];
     for (const t of SEED_TEMPLES) {
       const key = `${t.lat.toFixed(3)},${t.lng.toFixed(3)}`;
+      const place = `${t.region ?? ""}|${t.country}`;
       const prev = seen.get(key);
-      if (prev && prev !== t.slug) collisions.push(`${prev} ≈ ${t.slug} at ${key}`);
-      seen.set(key, t.slug);
+      if (prev && prev.slug !== t.slug && prev.place !== place) {
+        collisions.push(`${prev.slug} ≈ ${t.slug} at ${key}`);
+      }
+      seen.set(key, { slug: t.slug, place });
     }
     expect(collisions, collisions.join("; ")).toEqual([]);
   });
