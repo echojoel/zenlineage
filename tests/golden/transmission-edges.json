@@ -1,6 +1,6 @@
 {
-  "edge_count": 493,
-  "captured_at": "2026-05-15",
+  "edge_count": 578,
+  "captured_at": "2026-06-11",
   "note": "Locked-in transmission graph baseline. tests/transmission-graph-snapshot.test.ts fails if any of these rows disappears from master_transmissions. To intentionally change the graph, regenerate via this script and review the diff in your PR.",
   "edges": [
     {
@@ -29,12 +29,6 @@
     },
     {
       "teacher": "baiyun-shouduan",
-      "student": "sixin-wuxin",
-      "type": "primary",
-      "isPrimary": true
-    },
-    {
-      "teacher": "baiyun-shouduan",
       "student": "wuzu-fayan",
       "type": "primary",
       "isPrimary": true
@@ -42,6 +36,12 @@
     {
       "teacher": "baizan-monpon",
       "student": "jochu-tengin",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "baizhang-huaihai",
+      "student": "baizhang-niepan",
       "type": "primary",
       "isPrimary": true
     },
@@ -71,13 +71,37 @@
     },
     {
       "teacher": "baizhang-huaihai",
+      "student": "vo-ngon-thong",
+      "type": "dharma",
+      "isPrimary": false
+    },
+    {
+      "teacher": "baizhang-huaihai",
       "student": "wufeng-changguan",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "bajiao-huiqing",
+      "student": "xingyang-qingrang",
       "type": "primary",
       "isPrimary": true
     },
     {
       "teacher": "banryo-zenso",
       "student": "joten-soko-miura",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "baoen-xuanze",
+      "student": "chengtian-chuanzong",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "baofeng-kewen",
+      "student": "doushuai-congyue",
       "type": "primary",
       "isPrimary": true
     },
@@ -118,10 +142,16 @@
       "isPrimary": true
     },
     {
-      "teacher": "changqing-huileng",
-      "student": "wang-yanbin",
-      "type": "disputed",
-      "isPrimary": false
+      "teacher": "buyong-yeonggwan",
+      "student": "seosan-hyujeong",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "changshui-zixuan",
+      "student": "dagui-muzhe",
+      "type": "primary",
+      "isPrimary": true
     },
     {
       "teacher": "chokoku-koen",
@@ -149,25 +179,7 @@
     },
     {
       "teacher": "cuiwei-wuxue",
-      "student": "longji-shaoxiu",
-      "type": "disputed",
-      "isPrimary": false
-    },
-    {
-      "teacher": "cuiwei-wuxue",
       "student": "touzi-datong",
-      "type": "primary",
-      "isPrimary": true
-    },
-    {
-      "teacher": "cuiyan-kezhen",
-      "student": "baoning-renyong",
-      "type": "disputed",
-      "isPrimary": false
-    },
-    {
-      "teacher": "dahui-zonggao",
-      "student": "zhuan-shigui",
       "type": "primary",
       "isPrimary": true
     },
@@ -206,6 +218,12 @@
       "student": "heze-shenhui",
       "type": "primary",
       "isPrimary": true
+    },
+    {
+      "teacher": "dajian-huineng",
+      "student": "jinul",
+      "type": "dharma",
+      "isPrimary": false
     },
     {
       "teacher": "dajian-huineng",
@@ -317,12 +335,6 @@
     },
     {
       "teacher": "deshan-xuanjian",
-      "student": "gaoan-dayu",
-      "type": "primary",
-      "isPrimary": true
-    },
-    {
-      "teacher": "deshan-xuanjian",
       "student": "xuefeng-yicun",
       "type": "primary",
       "isPrimary": true
@@ -350,6 +362,12 @@
       "student": "harada-daiun-sogaku",
       "type": "secondary",
       "isPrimary": false
+    },
+    {
+      "teacher": "dokutan-sosan",
+      "student": "kono-bukai",
+      "type": "primary",
+      "isPrimary": true
     },
     {
       "teacher": "dongshan-liangjie",
@@ -383,12 +401,6 @@
     },
     {
       "teacher": "dongshan-liangjie",
-      "student": "wenshu-yingzhen",
-      "type": "disputed",
-      "isPrimary": false
-    },
-    {
-      "teacher": "dongshan-liangjie",
       "student": "yuezhou-qianfeng",
       "type": "primary",
       "isPrimary": true
@@ -400,26 +412,14 @@
       "isPrimary": true
     },
     {
-      "teacher": "dongshan-shouchu",
-      "student": "baling-haojian",
-      "type": "primary",
-      "isPrimary": true
-    },
-    {
-      "teacher": "dongshan-shouchu",
-      "student": "deshan-yuanmi",
-      "type": "disputed",
-      "isPrimary": false
-    },
-    {
       "teacher": "dosho-saikawa",
       "student": "olivier-reigen-wang-genh",
       "type": "secondary",
       "isPrimary": false
     },
     {
-      "teacher": "doushuai-congyue",
-      "student": "taiping-huiqin",
+      "teacher": "ekkei-shuken",
+      "student": "kazan-genku",
       "type": "primary",
       "isPrimary": true
     },
@@ -431,9 +431,33 @@
     },
     {
       "teacher": "etienne-mokusho-zeisler",
+      "student": "ionut-koshin-nedelcu",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "etienne-mokusho-zeisler",
+      "student": "laszlo-toryu-kalman",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "etienne-mokusho-zeisler",
+      "student": "maria-teresa-shogetsu-avila",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "etienne-mokusho-zeisler",
       "student": "vincent-keisen-vuillemin",
       "type": "disputed",
       "isPrimary": false
+    },
+    {
+      "teacher": "etienne-mokusho-zeisler",
+      "student": "yvon-myoken-bec",
+      "type": "primary",
+      "isPrimary": true
     },
     {
       "teacher": "fayan-wenyi",
@@ -466,6 +490,18 @@
       "isPrimary": true
     },
     {
+      "teacher": "feiyin-tongrong",
+      "student": "ingen-ryuki",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "fengxian-daochen",
+      "student": "lianhua-fengxiang",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
       "teacher": "fengxue-yanzhao",
       "student": "shoushan-xingnian",
       "type": "primary",
@@ -473,7 +509,19 @@
     },
     {
       "teacher": "fenyang-shanzhao",
+      "student": "dayu-shouzhi",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "fenyang-shanzhao",
       "student": "shishuang-chuyuan",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "foyan-qingyuan",
+      "student": "zhuan-shigui",
       "type": "primary",
       "isPrimary": true
     },
@@ -491,7 +539,7 @@
     },
     {
       "teacher": "furong-daokai",
-      "student": "dagui-muzhe",
+      "student": "baofeng-weizhao",
       "type": "primary",
       "isPrimary": true
     },
@@ -556,12 +604,6 @@
       "isPrimary": true
     },
     {
-      "teacher": "gaofeng-yuanmiao",
-      "student": "ji-an-xin",
-      "type": "primary",
-      "isPrimary": true
-    },
-    {
       "teacher": "gasan-jito",
       "student": "inzan-ien",
       "type": "primary",
@@ -575,7 +617,31 @@
     },
     {
       "teacher": "gasan-joseki",
+      "student": "daisetsu-sorei",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "gasan-joseki",
+      "student": "jippo-ryoshu",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "gasan-joseki",
+      "student": "mutan-sokan",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "gasan-joseki",
       "student": "taigen-soshin",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "gasan-joseki",
+      "student": "tsugen-jakurei",
       "type": "primary",
       "isPrimary": true
     },
@@ -594,6 +660,12 @@
     {
       "teacher": "gessen-zenne",
       "student": "sengai-gibon",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "gesshu-soko",
+      "student": "manzan-dohaku",
       "type": "primary",
       "isPrimary": true
     },
@@ -623,15 +695,15 @@
     },
     {
       "teacher": "gisan-zenrai",
-      "student": "kosen-imakita",
+      "student": "ekkei-shuken",
       "type": "primary",
       "isPrimary": true
     },
     {
       "teacher": "gisan-zenrai",
-      "student": "sohan-genyo",
-      "type": "disputed",
-      "isPrimary": false
+      "student": "kosen-imakita",
+      "type": "primary",
+      "isPrimary": true
     },
     {
       "teacher": "gisan-zenrai",
@@ -670,12 +742,6 @@
       "isPrimary": true
     },
     {
-      "teacher": "gudo-toshoku",
-      "student": "umpo-zenjo",
-      "type": "primary",
-      "isPrimary": true
-    },
-    {
       "teacher": "gudo-wafu-nishijima",
       "student": "brad-warner",
       "type": "primary",
@@ -696,12 +762,6 @@
     {
       "teacher": "guishan-daan",
       "student": "dasui-fazhen",
-      "type": "primary",
-      "isPrimary": true
-    },
-    {
-      "teacher": "guishan-lingyou",
-      "student": "dayu-shouzhi",
       "type": "primary",
       "isPrimary": true
     },
@@ -731,13 +791,13 @@
     },
     {
       "teacher": "guishan-lingyou",
-      "student": "xingyang-qingrang",
+      "student": "yangshan-huiji",
       "type": "primary",
       "isPrimary": true
     },
     {
-      "teacher": "guishan-lingyou",
-      "student": "yangshan-huiji",
+      "teacher": "guizong-zhichang",
+      "student": "gaoan-dayu",
       "type": "primary",
       "isPrimary": true
     },
@@ -752,6 +812,18 @@
       "student": "butsumon-sogaku",
       "type": "primary",
       "isPrimary": true
+    },
+    {
+      "teacher": "gyeongheo-seongu",
+      "student": "seongcheol",
+      "type": "dharma",
+      "isPrimary": false
+    },
+    {
+      "teacher": "gyeongheo-seongu",
+      "student": "seung-sahn",
+      "type": "dharma",
+      "isPrimary": false
     },
     {
       "teacher": "gyokujun-so-on",
@@ -802,6 +874,18 @@
       "isPrimary": true
     },
     {
+      "teacher": "hoitsu-suzuki",
+      "student": "jakusho-kwong",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "hoitsu-suzuki",
+      "student": "sojun-mel-weitsman",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
       "teacher": "hozan-koei-chino",
       "student": "kobun-chino-otogawa",
       "type": "primary",
@@ -821,7 +905,7 @@
     },
     {
       "teacher": "huanglong-huinan",
-      "student": "dahong-zuzheng",
+      "student": "baofeng-kewen",
       "type": "primary",
       "isPrimary": true
     },
@@ -836,18 +920,6 @@
       "student": "huitang-zuxin",
       "type": "primary",
       "isPrimary": true
-    },
-    {
-      "teacher": "huanglong-huinan",
-      "student": "mingan-rongxi",
-      "type": "dharma",
-      "isPrimary": false
-    },
-    {
-      "teacher": "huanglong-huinan",
-      "student": "myoan-eisai",
-      "type": "dharma",
-      "isPrimary": false
     },
     {
       "teacher": "huanglong-huinan",
@@ -875,7 +947,7 @@
     },
     {
       "teacher": "huitang-zuxin",
-      "student": "doushuai-congyue",
+      "student": "sixin-wuxin",
       "type": "primary",
       "isPrimary": true
     },
@@ -916,6 +988,18 @@
       "isPrimary": true
     },
     {
+      "teacher": "jianzhi-sengcan",
+      "student": "vinitaruci",
+      "type": "dharma",
+      "isPrimary": false
+    },
+    {
+      "teacher": "jiashan-shanhui",
+      "student": "changfu-zhi",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
       "teacher": "jiashan-shanhui",
       "student": "luopu-yuanan",
       "type": "primary",
@@ -952,6 +1036,12 @@
       "isPrimary": true
     },
     {
+      "teacher": "jinul",
+      "student": "chingak-hyesim",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
       "teacher": "jissan-mokuin",
       "student": "sengan-bonryu",
       "type": "primary",
@@ -984,6 +1074,12 @@
     {
       "teacher": "juo-sohitsu",
       "student": "muin-soin",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "kaifu-daoning",
+      "student": "yuean-shanguo",
       "type": "primary",
       "isPrimary": true
     },
@@ -1042,10 +1138,10 @@
       "isPrimary": true
     },
     {
-      "teacher": "keido-chisan",
-      "student": "baian-hakujun-kuroda",
-      "type": "disputed",
-      "isPrimary": false
+      "teacher": "kazan-genku",
+      "student": "muchaku-kaiko",
+      "type": "primary",
+      "isPrimary": true
     },
     {
       "teacher": "keido-chisan",
@@ -1067,15 +1163,15 @@
     },
     {
       "teacher": "keizan-jokin",
-      "student": "gasan-joseki",
-      "type": "primary",
-      "isPrimary": true
+      "student": "daichi-sokei",
+      "type": "secondary",
+      "isPrimary": false
     },
     {
       "teacher": "keizan-jokin",
-      "student": "keido-chisan",
-      "type": "dharma",
-      "isPrimary": false
+      "student": "gasan-joseki",
+      "type": "primary",
+      "isPrimary": true
     },
     {
       "teacher": "keizan-jokin",
@@ -1121,6 +1217,18 @@
     },
     {
       "teacher": "kodo-sawaki",
+      "student": "shuyu-narita",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "kodo-sawaki",
+      "student": "sodo-yokoyama",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "kodo-sawaki",
       "student": "taisen-deshimaru",
       "type": "primary",
       "isPrimary": true
@@ -1128,12 +1236,24 @@
     {
       "teacher": "kodo-sawaki",
       "student": "yuko-okamoto",
+      "type": "dharma",
+      "isPrimary": false
+    },
+    {
+      "teacher": "kogetsu-zenzai",
+      "student": "gessen-zenne",
       "type": "primary",
       "isPrimary": true
     },
     {
       "teacher": "koho-genkun",
       "student": "ian-chisatsu",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "koho-hakugan",
+      "student": "keido-chisan",
       "type": "primary",
       "isPrimary": true
     },
@@ -1182,20 +1302,14 @@
     {
       "teacher": "koun-ejo",
       "student": "jakuen",
-      "type": "primary",
-      "isPrimary": true
+      "type": "secondary",
+      "isPrimary": false
     },
     {
       "teacher": "koun-ejo",
       "student": "tettsu-gikai",
       "type": "primary",
       "isPrimary": true
-    },
-    {
-      "teacher": "kubota-jiun",
-      "student": "joan-rieck",
-      "type": "secondary",
-      "isPrimary": false
     },
     {
       "teacher": "kubota-jiun",
@@ -1206,12 +1320,6 @@
     {
       "teacher": "kubota-jiun",
       "student": "willigis-jager",
-      "type": "secondary",
-      "isPrimary": false
-    },
-    {
-      "teacher": "kubota-jiun",
-      "student": "yamada-ryoun",
       "type": "secondary",
       "isPrimary": false
     },
@@ -1240,10 +1348,16 @@
       "isPrimary": true
     },
     {
-      "teacher": "linji-yixuan",
-      "student": "baizhang-niepan",
-      "type": "disputed",
+      "teacher": "lieu-quan",
+      "student": "thich-nhat-hanh",
+      "type": "dharma",
       "isPrimary": false
+    },
+    {
+      "teacher": "lieu-quan",
+      "student": "thich-tinh-khiet",
+      "type": "dharma",
+      "isPrimary": true
     },
     {
       "teacher": "linji-yixuan",
@@ -1254,7 +1368,7 @@
     {
       "teacher": "linji-yixuan",
       "student": "ingen-ryuki",
-      "type": "dharma",
+      "type": "disputed",
       "isPrimary": false
     },
     {
@@ -1265,14 +1379,20 @@
     },
     {
       "teacher": "linji-yixuan",
-      "student": "nguyen-thieu",
+      "student": "lieu-quan",
       "type": "dharma",
       "isPrimary": false
     },
     {
       "teacher": "linji-yixuan",
-      "student": "osaka-koryu",
-      "type": "disputed",
+      "student": "miyun-yuanwu",
+      "type": "dharma",
+      "isPrimary": false
+    },
+    {
+      "teacher": "linji-yixuan",
+      "student": "nguyen-thieu",
+      "type": "dharma",
       "isPrimary": false
     },
     {
@@ -1330,14 +1450,14 @@
       "isPrimary": true
     },
     {
-      "teacher": "luoshan-daoxian",
-      "student": "tianping-congyi",
+      "teacher": "mahakashyapa",
+      "student": "ananda",
       "type": "primary",
       "isPrimary": true
     },
     {
-      "teacher": "mahakashyapa",
-      "student": "ananda",
+      "teacher": "manhwa-suil",
+      "student": "gyeongheo-seongu",
       "type": "primary",
       "isPrimary": true
     },
@@ -1358,6 +1478,12 @@
       "student": "baizhang-huaihai",
       "type": "primary",
       "isPrimary": true
+    },
+    {
+      "teacher": "mazu-daoyi",
+      "student": "baizhang-niepan",
+      "type": "disputed",
+      "isPrimary": false
     },
     {
       "teacher": "mazu-daoyi",
@@ -1382,6 +1508,12 @@
       "student": "mayu-baoche",
       "type": "primary",
       "isPrimary": true
+    },
+    {
+      "teacher": "mazu-daoyi",
+      "student": "muyeom",
+      "type": "dharma",
+      "isPrimary": false
     },
     {
       "teacher": "mazu-daoyi",
@@ -1439,13 +1571,43 @@
     },
     {
       "teacher": "meiho-sotetsu",
+      "student": "daichi-sokei",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "meiho-sotetsu",
       "student": "shugan-dochin",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "meiho-sotetsu",
+      "student": "tsugen-jakurei",
+      "type": "secondary",
+      "isPrimary": false
+    },
+    {
+      "teacher": "mian-xianjie",
+      "student": "poan-zuxian",
       "type": "primary",
       "isPrimary": true
     },
     {
       "teacher": "michaka",
       "student": "vasumitra",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "michel-reiku-bovay",
+      "student": "monika-leibundgut",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "miyun-yuanwu",
+      "student": "feiyin-tongrong",
       "type": "primary",
       "isPrimary": true
     },
@@ -1468,6 +1630,12 @@
       "isPrimary": true
     },
     {
+      "teacher": "muchaku-kaiko",
+      "student": "muso-joko",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
       "teacher": "mugai-keigon",
       "student": "nenshitsu-yokaku",
       "type": "primary",
@@ -1476,6 +1644,12 @@
     {
       "teacher": "muin-soin",
       "student": "nippo-soshun",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "muso-joko",
+      "student": "osaka-koryu",
       "type": "primary",
       "isPrimary": true
     },
@@ -1540,16 +1714,16 @@
       "isPrimary": true
     },
     {
-      "teacher": "nanyue-daoxuan",
-      "student": "danyuan-yingzhen",
-      "type": "disputed",
-      "isPrimary": false
-    },
-    {
       "teacher": "nanyue-huairang",
       "student": "mazu-daoyi",
       "type": "primary",
       "isPrimary": true
+    },
+    {
+      "teacher": "naong-hyegeun",
+      "student": "gihwa",
+      "type": "dharma",
+      "isPrimary": false
     },
     {
       "teacher": "nenshitsu-yokaku",
@@ -1595,6 +1769,12 @@
     },
     {
       "teacher": "niwa-rempo-zenji",
+      "student": "moriyama-daigyo",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "niwa-rempo-zenji",
       "student": "roland-rech",
       "type": "secondary",
       "isPrimary": false
@@ -1618,6 +1798,12 @@
       "isPrimary": true
     },
     {
+      "teacher": "olivier-reigen-wang-genh",
+      "student": "konrad-tenkan-beck",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
       "teacher": "osaka-koryu",
       "student": "taizan-maezumi",
       "type": "secondary",
@@ -1626,6 +1812,12 @@
     {
       "teacher": "parshva",
       "student": "punyayashas",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "philippe-reiryu-coupey",
+      "student": "patrick-ferrieux",
       "type": "primary",
       "isPrimary": true
     },
@@ -1666,8 +1858,20 @@
       "isPrimary": false
     },
     {
+      "teacher": "qingxi-hongjin",
+      "student": "tianping-congyi",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
       "teacher": "qingyuan-xingsi",
       "student": "shitou-xiqian",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "qinshan-wensui",
+      "student": "huguo-shoucheng",
       "type": "primary",
       "isPrimary": true
     },
@@ -1676,6 +1880,24 @@
       "student": "sanghanandi",
       "type": "primary",
       "isPrimary": true
+    },
+    {
+      "teacher": "raphael-doko-triet",
+      "student": "alfonso-sengen-fernandez",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "raphael-doko-triet",
+      "student": "begona-kaido-agiriano",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "raphael-doko-triet",
+      "student": "hugues-yusen-naas",
+      "type": "secondary",
+      "isPrimary": false
     },
     {
       "teacher": "raphael-doko-triet",
@@ -1692,6 +1914,150 @@
     {
       "teacher": "renzan-soho",
       "student": "motsugai-shido",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "richard-zentatsu-baker",
+      "student": "reb-anderson",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "robert-livingston",
+      "student": "richard-reishin-collins",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "robert-livingston",
+      "student": "tony-bland",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "roland-rech",
+      "student": "alonso-taikai-ufano",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "roland-rech",
+      "student": "antoine-charlot",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "roland-rech",
+      "student": "antonio-taishin-arana",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "roland-rech",
+      "student": "beppe-mokuza-signoritti",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "roland-rech",
+      "student": "claude-emon-cannizzo",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "roland-rech",
+      "student": "claus-heiki-bockbreder",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "roland-rech",
+      "student": "emanuela-dosan-losi",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "roland-rech",
+      "student": "eveline-kogen-pascual",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "roland-rech",
+      "student": "heinz-juergen-metzger",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "roland-rech",
+      "student": "huguette-moku-myo-sirejol",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "roland-rech",
+      "student": "jean-pierre-reiseki-romain",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "roland-rech",
+      "student": "konrad-kosan-maquestieau",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "roland-rech",
+      "student": "lluis-nansen-salas",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "roland-rech",
+      "student": "luc-sojo-bordes",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "roland-rech",
+      "student": "marc-chigen-esteban",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "roland-rech",
+      "student": "michel-jigen-fabra",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "roland-rech",
+      "student": "pascal-olivier-reynaud",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "roland-rech",
+      "student": "patrick-pargnien",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "roland-rech",
+      "student": "sengyo-van-leuven",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "roland-rech",
+      "student": "sergio-gyoho-gurevich",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "roland-rech",
+      "student": "silvia-hoju-leyer",
       "type": "primary",
       "isPrimary": true
     },
@@ -1778,6 +2144,18 @@
       "student": "iyoku-choyu",
       "type": "primary",
       "isPrimary": true
+    },
+    {
+      "teacher": "seosan-hyujeong",
+      "student": "gyeongheo-seongu",
+      "type": "dharma",
+      "isPrimary": false
+    },
+    {
+      "teacher": "seosan-hyujeong",
+      "student": "manhwa-suil",
+      "type": "dharma",
+      "isPrimary": false
     },
     {
       "teacher": "sessan-tetsuzen",
@@ -1877,21 +2255,9 @@
     },
     {
       "teacher": "shishuang-qingzhu",
-      "student": "dingzhou-shizang",
-      "type": "disputed",
-      "isPrimary": false
-    },
-    {
-      "teacher": "shishuang-qingzhu",
       "student": "jiufeng-daoqian",
       "type": "primary",
       "isPrimary": true
-    },
-    {
-      "teacher": "shishuang-qingzhu",
-      "student": "nanta-guangyong",
-      "type": "disputed",
-      "isPrimary": false
     },
     {
       "teacher": "shishuang-qingzhu",
@@ -1907,18 +2273,6 @@
     },
     {
       "teacher": "shitou-xiqian",
-      "student": "guannan-daochang",
-      "type": "disputed",
-      "isPrimary": false
-    },
-    {
-      "teacher": "shitou-xiqian",
-      "student": "nanyue-daoxuan",
-      "type": "disputed",
-      "isPrimary": false
-    },
-    {
-      "teacher": "shitou-xiqian",
       "student": "tianhuang-daowu",
       "type": "primary",
       "isPrimary": true
@@ -1926,6 +2280,12 @@
     {
       "teacher": "shitou-xiqian",
       "student": "yaoshan-weiyan",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "shiwu-qinggong",
+      "student": "taego-bou",
       "type": "primary",
       "isPrimary": true
     },
@@ -1958,12 +2318,6 @@
       "student": "ivan-densho-quintero",
       "type": "primary",
       "isPrimary": true
-    },
-    {
-      "teacher": "shoju-rojin",
-      "student": "gessen-zenne",
-      "type": "disputed",
-      "isPrimary": false
     },
     {
       "teacher": "shoju-rojin",
@@ -2015,14 +2369,44 @@
     },
     {
       "teacher": "shunryu-suzuki",
+      "student": "hoitsu-suzuki",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "shunryu-suzuki",
+      "student": "jakusho-kwong",
+      "type": "secondary",
+      "isPrimary": false
+    },
+    {
+      "teacher": "shunryu-suzuki",
       "student": "kobun-chino-otogawa",
       "type": "disputed",
       "isPrimary": false
     },
     {
-      "teacher": "shushan-kuangren",
-      "student": "taiyuan-fu",
-      "type": "disputed",
+      "teacher": "shunryu-suzuki",
+      "student": "reb-anderson",
+      "type": "secondary",
+      "isPrimary": false
+    },
+    {
+      "teacher": "shunryu-suzuki",
+      "student": "richard-zentatsu-baker",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "shunryu-suzuki",
+      "student": "shoko-okamoto",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "shunryu-suzuki",
+      "student": "sojun-mel-weitsman",
+      "type": "secondary",
       "isPrimary": false
     },
     {
@@ -2040,6 +2424,12 @@
     {
       "teacher": "sohan-genyo",
       "student": "yamamoto-gempo",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "songshan-puji",
+      "student": "dingzhou-shizang",
       "type": "primary",
       "isPrimary": true
     },
@@ -2075,15 +2465,75 @@
     },
     {
       "teacher": "stephane-kosen-thibaut",
+      "student": "andre-ryujo-meissner",
+      "type": "secondary",
+      "isPrimary": false
+    },
+    {
+      "teacher": "stephane-kosen-thibaut",
+      "student": "ariadna-dosei-labbate",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "stephane-kosen-thibaut",
+      "student": "barbara-kosen-richaudeau",
+      "type": "secondary",
+      "isPrimary": false
+    },
+    {
+      "teacher": "stephane-kosen-thibaut",
+      "student": "christophe-ryurin-desmur",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "stephane-kosen-thibaut",
+      "student": "francoise-jomon-julien",
+      "type": "secondary",
+      "isPrimary": false
+    },
+    {
+      "teacher": "stephane-kosen-thibaut",
+      "student": "ingrid-gyuji-igelnick",
+      "type": "secondary",
+      "isPrimary": false
+    },
+    {
+      "teacher": "stephane-kosen-thibaut",
+      "student": "loic-kosho-vuillemin",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "stephane-kosen-thibaut",
+      "student": "maria-teresa-shogetsu-avila",
+      "type": "secondary",
+      "isPrimary": false
+    },
+    {
+      "teacher": "stephane-kosen-thibaut",
+      "student": "paula-reikiku-femenias",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "stephane-kosen-thibaut",
       "student": "pierre-soko-leroux",
       "type": "primary",
       "isPrimary": true
     },
     {
       "teacher": "stephane-kosen-thibaut",
-      "student": "yvon-myoken-bec",
+      "student": "toshiro-taigen-yamauchi",
       "type": "primary",
       "isPrimary": true
+    },
+    {
+      "teacher": "stephane-kosen-thibaut",
+      "student": "yvon-myoken-bec",
+      "type": "secondary",
+      "isPrimary": false
     },
     {
       "teacher": "suizhou-daoyuan",
@@ -2122,10 +2572,16 @@
       "isPrimary": true
     },
     {
-      "teacher": "taiping-huiqin",
-      "student": "huguo-jingyuan",
-      "type": "disputed",
-      "isPrimary": false
+      "teacher": "taisen-deshimaru",
+      "student": "andre-ryujo-meissner",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "taisen-deshimaru",
+      "student": "barbara-kosen-richaudeau",
+      "type": "primary",
+      "isPrimary": true
     },
     {
       "teacher": "taisen-deshimaru",
@@ -2136,6 +2592,24 @@
     {
       "teacher": "taisen-deshimaru",
       "student": "evelyne-eko-de-smedt",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "taisen-deshimaru",
+      "student": "francoise-jomon-julien",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "taisen-deshimaru",
+      "student": "hugues-yusen-naas",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "taisen-deshimaru",
+      "student": "ingrid-gyuji-igelnick",
       "type": "primary",
       "isPrimary": true
     },
@@ -2177,6 +2651,12 @@
     },
     {
       "teacher": "taisen-deshimaru",
+      "student": "robert-livingston",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "taisen-deshimaru",
       "student": "roland-rech",
       "type": "primary",
       "isPrimary": true
@@ -2184,6 +2664,12 @@
     {
       "teacher": "taisen-deshimaru",
       "student": "stephane-kosen-thibaut",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "taisen-deshimaru",
+      "student": "vincent-keisen-vuillemin",
       "type": "primary",
       "isPrimary": true
     },
@@ -2284,12 +2770,6 @@
       "isPrimary": true
     },
     {
-      "teacher": "tankai-gensho",
-      "student": "kono-bukai",
-      "type": "secondary",
-      "isPrimary": false
-    },
-    {
       "teacher": "tekisui-giboku",
       "student": "ryoen-genseki",
       "type": "primary",
@@ -2332,6 +2812,18 @@
       "isPrimary": true
     },
     {
+      "teacher": "thich-hoang-tham",
+      "student": "thich-quang-duc",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "thich-thien-hoa",
+      "student": "thich-thanh-tu",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
       "teacher": "tianhuang-daowu",
       "student": "longtan-chongxin",
       "type": "primary",
@@ -2346,6 +2838,12 @@
     {
       "teacher": "tiantong-rujing",
       "student": "dogen",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "tiantong-rujing",
+      "student": "jakuen",
       "type": "primary",
       "isPrimary": true
     },
@@ -2392,14 +2890,14 @@
       "isPrimary": true
     },
     {
-      "teacher": "touzi-datong",
-      "student": "daguang-juhui",
-      "type": "disputed",
-      "isPrimary": false
+      "teacher": "touzi-yiqing",
+      "student": "furong-daokai",
+      "type": "primary",
+      "isPrimary": true
     },
     {
       "teacher": "touzi-yiqing",
-      "student": "furong-daokai",
+      "student": "xingyang-qingpou",
       "type": "primary",
       "isPrimary": true
     },
@@ -2412,6 +2910,24 @@
     {
       "teacher": "tozen-soshin",
       "student": "yozan-keiyo",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "tran-nhan-tong",
+      "student": "huyen-quang",
+      "type": "dharma",
+      "isPrimary": false
+    },
+    {
+      "teacher": "tran-nhan-tong",
+      "student": "phap-loa",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "tue-trung",
+      "student": "tran-nhan-tong",
       "type": "primary",
       "isPrimary": true
     },
@@ -2452,6 +2968,30 @@
       "isPrimary": true
     },
     {
+      "teacher": "vien-canh",
+      "student": "huong-hai",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "vincent-keisen-vuillemin",
+      "student": "loic-kosho-vuillemin",
+      "type": "secondary",
+      "isPrimary": false
+    },
+    {
+      "teacher": "vinitaruci",
+      "student": "van-hanh",
+      "type": "dharma",
+      "isPrimary": true
+    },
+    {
+      "teacher": "vo-ngon-thong",
+      "student": "khuong-viet",
+      "type": "dharma",
+      "isPrimary": true
+    },
+    {
       "teacher": "wumen-huikai",
       "student": "shinchi-kakushin",
       "type": "primary",
@@ -2462,18 +3002,6 @@
       "student": "xueyan-zuqin",
       "type": "primary",
       "isPrimary": true
-    },
-    {
-      "teacher": "wuzhun-shifan",
-      "student": "xutang-zhiyu",
-      "type": "primary",
-      "isPrimary": true
-    },
-    {
-      "teacher": "wuzhun-shifan",
-      "student": "yuelin-shiguan",
-      "type": "disputed",
-      "isPrimary": false
     },
     {
       "teacher": "wuzu-fayan",
@@ -2489,6 +3017,12 @@
     },
     {
       "teacher": "wuzu-fayan",
+      "student": "taiping-huiqin",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "wuzu-fayan",
       "student": "yuanwu-keqin",
       "type": "primary",
       "isPrimary": true
@@ -2496,24 +3030,12 @@
     {
       "teacher": "xianglin-chengyuan",
       "student": "xingyang-qingpou",
-      "type": "primary",
-      "isPrimary": true
+      "type": "disputed",
+      "isPrimary": false
     },
     {
       "teacher": "xianglin-chengyuan",
       "student": "zhimen-guangzuo",
-      "type": "primary",
-      "isPrimary": true
-    },
-    {
-      "teacher": "xiangyan-zhixian",
-      "student": "baofeng-weizhao",
-      "type": "primary",
-      "isPrimary": true
-    },
-    {
-      "teacher": "xiangyan-zhixian",
-      "student": "huguo-shoucheng",
       "type": "primary",
       "isPrimary": true
     },
@@ -2537,9 +3059,21 @@
     },
     {
       "teacher": "xitang-zhizang",
-      "student": "wufeng-changguan",
-      "type": "disputed",
-      "isPrimary": false
+      "student": "hyecheol",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "xitang-zhizang",
+      "student": "toui",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "xuan-huaichang",
+      "student": "mingan-rongxi",
+      "type": "primary",
+      "isPrimary": true
     },
     {
       "teacher": "xuansha-shibei",
@@ -2555,6 +3089,12 @@
     },
     {
       "teacher": "xuedou-zhijian",
+      "student": "dahong-zuzheng",
+      "type": "primary",
+      "isPrimary": true
+    },
+    {
+      "teacher": "xuedou-zhijian",
       "student": "tiantong-rujing",
       "type": "primary",
       "isPrimary": true
@@ -2562,12 +3102,6 @@
     {
       "teacher": "xuefeng-yicun",
       "student": "baofu-congzhan",
-      "type": "primary",
-      "isPrimary": true
-    },
-    {
-      "teacher": "xuefeng-yicun",
-      "student": "changfu-zhi",
       "type": "primary",
       "isPrimary": true
     },
@@ -2588,30 +3122,6 @@
       "student": "jingqing-daofu",
       "type": "primary",
       "isPrimary": true
-    },
-    {
-      "teacher": "xuefeng-yicun",
-      "student": "lianhua-fengxiang",
-      "type": "primary",
-      "isPrimary": true
-    },
-    {
-      "teacher": "xuefeng-yicun",
-      "student": "luoshan-daoxian",
-      "type": "disputed",
-      "isPrimary": false
-    },
-    {
-      "teacher": "xuefeng-yicun",
-      "student": "mingzhao-deqian",
-      "type": "disputed",
-      "isPrimary": false
-    },
-    {
-      "teacher": "xuefeng-yicun",
-      "student": "qingxi-hongjin",
-      "type": "disputed",
-      "isPrimary": false
     },
     {
       "teacher": "xuefeng-yicun",
@@ -2698,6 +3208,12 @@
       "isPrimary": true
     },
     {
+      "teacher": "yamada-reirin",
+      "student": "taisen-deshimaru",
+      "type": "secondary",
+      "isPrimary": false
+    },
+    {
       "teacher": "yamada-ryoun",
       "student": "henry-shukman",
       "type": "secondary",
@@ -2735,13 +3251,13 @@
     },
     {
       "teacher": "yangshan-huiji",
-      "student": "jingzhao-mihu",
-      "type": "disputed",
-      "isPrimary": false
+      "student": "nanta-guangyong",
+      "type": "primary",
+      "isPrimary": true
     },
     {
-      "teacher": "yangshan-huiji",
-      "student": "nanta-guangyong",
+      "teacher": "yanguan-qian",
+      "student": "beomil",
       "type": "primary",
       "isPrimary": true
     },
@@ -2818,12 +3334,6 @@
       "isPrimary": true
     },
     {
-      "teacher": "yuanwu-keqin",
-      "student": "yuean-shanguo",
-      "type": "primary",
-      "isPrimary": true
-    },
-    {
       "teacher": "yuelin-shiguan",
       "student": "wumen-huikai",
       "type": "primary",
@@ -2849,13 +3359,13 @@
     },
     {
       "teacher": "yunmen-wenyan",
-      "student": "baoen-xuanze",
-      "type": "disputed",
-      "isPrimary": false
+      "student": "baling-haojian",
+      "type": "primary",
+      "isPrimary": true
     },
     {
       "teacher": "yunmen-wenyan",
-      "student": "chengtian-chuanzong",
+      "student": "deshan-yuanmi",
       "type": "primary",
       "isPrimary": true
     },
@@ -2873,12 +3383,6 @@
     },
     {
       "teacher": "yunmen-wenyan",
-      "student": "jiufeng-qin",
-      "type": "primary",
-      "isPrimary": true
-    },
-    {
-      "teacher": "yunmen-wenyan",
       "student": "xianglin-chengyuan",
       "type": "primary",
       "isPrimary": true
@@ -2891,26 +3395,32 @@
     },
     {
       "teacher": "yuquan-shenxiu",
-      "student": "jingzhong-wuxiang",
-      "type": "disputed",
-      "isPrimary": false
-    },
-    {
-      "teacher": "yuquan-shenxiu",
       "student": "songshan-puji",
       "type": "primary",
       "isPrimary": true
     },
     {
       "teacher": "yvon-myoken-bec",
-      "student": "vincent-keisen-vuillemin",
-      "type": "primary",
-      "isPrimary": true
+      "student": "ionut-koshin-nedelcu",
+      "type": "secondary",
+      "isPrimary": false
     },
     {
-      "teacher": "zhaozhou-congshen",
-      "student": "qinglin-shiqian",
-      "type": "disputed",
+      "teacher": "yvon-myoken-bec",
+      "student": "laszlo-toryu-kalman",
+      "type": "secondary",
+      "isPrimary": false
+    },
+    {
+      "teacher": "yvon-myoken-bec",
+      "student": "maria-teresa-shogetsu-avila",
+      "type": "secondary",
+      "isPrimary": false
+    },
+    {
+      "teacher": "yvon-myoken-bec",
+      "student": "vincent-keisen-vuillemin",
+      "type": "secondary",
       "isPrimary": false
     },
     {
@@ -2933,13 +3443,13 @@
     },
     {
       "teacher": "zhimen-guangzuo",
-      "student": "xuedou-chongxian",
+      "student": "jiufeng-qin",
       "type": "primary",
       "isPrimary": true
     },
     {
-      "teacher": "zhuan-shigui",
-      "student": "poan-zuxian",
+      "teacher": "zhimen-guangzuo",
+      "student": "xuedou-chongxian",
       "type": "primary",
       "isPrimary": true
     },
