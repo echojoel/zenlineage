@@ -9,10 +9,11 @@ import {
   citations,
 } from "@/db/schema";
 import { eq, and, inArray } from "drizzle-orm";
-import Link from "next/link";
+import Link from "@/components/Link";
 import type { Metadata } from "next";
 import TimelineClient from "@/components/TimelineClient";
 import type { ResolvedMaster, ResolvedSchool } from "@/components/TimelineClient";
+import { masterThumbPath } from "@/lib/master-thumbs";
 import { TIMELINE_ERAS, BIBLIOGRAPHY } from "@/lib/timeline-editorial";
 
 export const metadata: Metadata = {
@@ -130,7 +131,8 @@ export default async function TimelinePage() {
       const imageByMaster = new Map<string, string>();
       for (const row of imageRows) {
         if (row.storagePath && citedImageIds.has(row.id)) {
-          imageByMaster.set(row.entityId, row.storagePath);
+          // Rendered as 28px avatars — the 96px thumb covers 2x density.
+          imageByMaster.set(row.entityId, masterThumbPath(row.storagePath, 96)!);
         }
       }
 

@@ -10,8 +10,9 @@ import {
 } from "@/db/schema";
 import { eq, and, inArray } from "drizzle-orm";
 import MastersClient from "@/components/MastersClient";
-import Link from "next/link";
+import Link from "@/components/Link";
 import type { MasterListItem } from "@/lib/master-list";
+import { masterThumbPath } from "@/lib/master-thumbs";
 
 export const metadata: Metadata = {
   title: "Masters",
@@ -107,7 +108,8 @@ export default async function MastersPage() {
   const imageMap = new Map<string, string>();
   for (const row of imageRows) {
     if (row.storagePath && citedImageIds.has(row.id)) {
-      imageMap.set(row.entityId, row.storagePath);
+      // Grid cards are small — serve the 200px thumbnail, not the original.
+      imageMap.set(row.entityId, masterThumbPath(row.storagePath, 200)!);
     }
   }
 

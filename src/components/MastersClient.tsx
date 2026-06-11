@@ -2,7 +2,7 @@
 
 import { useState, useMemo } from "react";
 import Fuse from "fuse.js";
-import Link from "next/link";
+import Link from "@/components/Link";
 import { formatDateWithPrecision } from "@/lib/date-format";
 import type { MasterListItem } from "@/lib/master-list";
 
@@ -188,6 +188,10 @@ function MasterCard({
           src={master.imagePath}
           alt={master.primaryName}
           className="master-card-image"
+          width={200}
+          height={267}
+          loading="lazy"
+          decoding="async"
         />
       )}
       <div className="master-card-name">{master.primaryName}</div>
