@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from "@/components/Link";
 import Image from "next/image";
 import type { Metadata } from "next";
 import { sql } from "drizzle-orm";

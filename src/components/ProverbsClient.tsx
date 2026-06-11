@@ -2,7 +2,7 @@
 
 import { useState, useMemo, useCallback, useEffect } from "react";
 import Fuse from "fuse.js";
-import Link from "next/link";
+import Link from "@/components/Link";
 import type { ProverbListItem, KoansCollection } from "@/app/proverbs/page";
 
 const BATCH_SIZE = 12;

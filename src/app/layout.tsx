@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next";
 import { Cormorant_Garamond, Inter } from "next/font/google";
 import "./globals.css";
 import SiteSearch from "@/components/SiteSearch";
+import NavProgress from "@/components/NavProgress";
 import {
   jsonLdString,
   organizationSchema,
@@ -104,6 +105,7 @@ export default function RootLayout({
             __html: jsonLdString([organizationSchema(), websiteSchema()]),
           }}
         />
+        <NavProgress />
         {children}
         <SiteSearch />
       </body>

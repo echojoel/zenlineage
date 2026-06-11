@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import fs from "fs";
 import path from "path";
-import Link from "next/link";
+import Link from "@/components/Link";
 
 export const metadata: Metadata = {
   title: "Provenance — Zen Lineage",

@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import Link from "next/link";
+import Link from "@/components/Link";
 import { Suspense } from "react";
 import { db } from "@/db";
 import { schoolNames, schools, temples } from "@/db/schema";

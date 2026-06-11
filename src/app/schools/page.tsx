@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { db } from "@/db";
 import { schools, schoolNames, masters, mediaAssets, citations } from "@/db/schema";
 import { eq, and, count, inArray } from "drizzle-orm";
-import Link from "next/link";
+import Link from "@/components/Link";
 
 export const metadata: Metadata = {
   title: "Schools",

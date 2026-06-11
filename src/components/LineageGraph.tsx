@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState, useCallback, useMemo } from "react";
 import * as d3 from "d3";
-import Link from "next/link";
+import Link from "@/components/Link";
 import { useSearchParams } from "next/navigation";
 import type { GraphData, GraphNode, GraphEdge, GraphSchool } from "@/lib/graph-types";
 import { getSchoolContextNodeIds } from "@/lib/lineage-visibility";

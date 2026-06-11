@@ -14,7 +14,7 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import dynamic from "next/dynamic";
-import Link from "next/link";
+import Link from "@/components/Link";
 
 const PracticeMap = dynamic(() => import("@/components/PracticeMap"), {
   ssr: false,

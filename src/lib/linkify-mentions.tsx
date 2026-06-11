@@ -1,5 +1,5 @@
 import React, { type ReactNode } from "react";
-import Link from "next/link";
+import Link from "@/components/Link";
 import { getSutraRegistry } from "./sutra-registry";
 import { buildGlossary, termAnchorId } from "./glossary-data";
 

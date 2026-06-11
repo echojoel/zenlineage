@@ -13,7 +13,7 @@ import {
   citations,
 } from "@/db/schema";
 import { eq, and, inArray } from "drizzle-orm";
-import Link from "next/link";
+import Link from "@/components/Link";
 import ProverbsClient from "@/components/ProverbsClient";
 import { buildCitationKeySet, isPublishedTeaching } from "@/lib/publishable-content";
 
