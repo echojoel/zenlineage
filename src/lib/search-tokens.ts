@@ -38,10 +38,11 @@ function containsKana(s: string): boolean {
 // Normalisation helpers
 // ---------------------------------------------------------------------------
 
-/** Strip combining diacritical marks (ō→o, ü→u, ê→e, …). */
-export function stripDiacritics(s: string): string {
-  return s.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
-}
+// Lives in its own module so client-reachable code can use it without
+// dragging the `pinyin` dictionary into a browser bundle. Re-exported here
+// for existing importers.
+export { stripDiacritics } from "./strip-diacritics";
+import { stripDiacritics } from "./strip-diacritics";
 
 /** Lowercase + strip diacritics. */
 function normalizeToken(s: string): string {

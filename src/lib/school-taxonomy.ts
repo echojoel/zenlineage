@@ -1,4 +1,4 @@
-import { stripDiacritics } from "./search-tokens";
+import { stripDiacritics } from "./strip-diacritics";
 
 export interface SchoolKeyText {
   /** English title of the text (e.g. "Shōbōgenzō"). */
