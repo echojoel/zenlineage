@@ -9,9 +9,18 @@ This project is deployed on **Cloudflare Pages** (not Vercel). Do not suggest
 Vercel products, `vercel` CLI commands, or Vercel-specific configuration.
 
 - Runtime: `@opennextjs/cloudflare` (OpenNext adapter)
-- Deploy command: `npm run deploy` (builds, strips RSC `.txt` files into `out-cf/` to stay under CF Pages' 20k file limit, then deploys)
+- Deploy command: `npm run deploy` (builds, packages `out-cf/`, then deploys)
 - Config: `wrangler.toml`
 - Types: `@cloudflare/workers-types`
+
+Packaging (`npm run package:cf`) keeps the route-level RSC payloads
+(`<route>.txt`) but strips the per-segment `__next.*.txt` prefetch files to
+stay under CF Pages' 20,000-file limit (`scripts/check-cf-filecount.ts`
+guards this). Client-side navigation works through the route payloads;
+viewport prefetching is disabled site-wide via `src/components/Link.tsx`
+(a lint rule forbids importing `next/link` directly), which also drives
+the `<NavProgress>` loading bar. Do not reintroduce blanket `*.txt`
+stripping — it 404s every navigation fetch and forces full page reloads.
 
 To deploy: run the deploy command above, or push to the linked branch and let
 Cloudflare Pages CI pick it up.

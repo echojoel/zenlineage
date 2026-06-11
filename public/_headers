@@ -1,0 +1,23 @@
+# Cloudflare Pages header rules (Netlify-style _headers).
+#
+# Patterns deliberately avoid catching HTML routes: `/masters/*` would also
+# match the exported page at /masters/<slug>, so only asset-only directories
+# get long-lived caching. Hashed Next assets are immutable by construction.
+
+/_next/static/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/masters/thumb/*
+  Cache-Control: public, max-age=604800, stale-while-revalidate=86400
+
+/temples/*
+  Cache-Control: public, max-age=604800, stale-while-revalidate=86400
+
+/audio/*
+  Cache-Control: public, max-age=2592000
+
+/data/*
+  Cache-Control: public, max-age=3600, stale-while-revalidate=86400
+
+/api/*
+  Cache-Control: public, max-age=3600, stale-while-revalidate=86400
