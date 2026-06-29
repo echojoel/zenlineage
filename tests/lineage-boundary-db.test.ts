@@ -2,6 +2,8 @@ import { describe, expect, it } from "vitest";
 import { eq } from "drizzle-orm";
 import { db } from "@/db";
 import { masters } from "@/db/schema";
+import fs from "node:fs";
+import path from "node:path";
 
 // Reads the seeded zen.db. Run `npm run boundary:compute` first if stale.
 describe("lineage boundary (seeded DB)", () => {
@@ -44,5 +46,17 @@ describe("lineage boundary (seeded DB)", () => {
     expect(pub.length).toBeLessThan(510);
     expect(archived.length).toBeGreaterThan(60);
     expect(archived.length).toBeLessThan(130);
+  });
+});
+
+describe("graph.json reflects the boundary", () => {
+  it("excludes archived masters and includes a founder", () => {
+    const file = path.join(process.cwd(), "public/data/graph.json");
+    const graph = JSON.parse(fs.readFileSync(file, "utf8")) as { nodes: { slug: string }[] };
+    const slugs = new Set(graph.nodes.map((n) => n.slug));
+    expect(slugs.has("olivier-reigen-wang-genh")).toBe(false); // living
+    expect(slugs.has("bernie-tetsugen-glassman")).toBe(false); // post-founder successor
+    expect(slugs.has("taisen-deshimaru")).toBe(true); // founder
+    expect(slugs.has("shakyamuni-buddha")).toBe(true); // root
   });
 });

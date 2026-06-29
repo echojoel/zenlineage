@@ -95,6 +95,7 @@ async function generateGraphData() {
         birthPrecision: masters.birthPrecision,
         deathYear: masters.deathYear,
         deathPrecision: masters.deathPrecision,
+        published: masters.published,
       })
       .from(masters),
     db
@@ -368,9 +369,16 @@ async function generateGraphData() {
     }
   }
 
-  const publicNodes = nodes.filter((node) => reachableFromShakyamuni.has(node.id));
+  const publishedNodeIds = new Set(mastersData.filter((m) => m.published).map((m) => m.id));
+  const publicNodes = nodes.filter(
+    (node) => reachableFromShakyamuni.has(node.id) && publishedNodeIds.has(node.id),
+  );
   const publicEdges = edges.filter(
-    (edge) => reachableFromShakyamuni.has(edge.source) && reachableFromShakyamuni.has(edge.target)
+    (edge) =>
+      reachableFromShakyamuni.has(edge.source) &&
+      reachableFromShakyamuni.has(edge.target) &&
+      publishedNodeIds.has(edge.source) &&
+      publishedNodeIds.has(edge.target),
   );
 
   const orphanCount = nodes.length - nodes.filter((n) => connectedIds.has(n.id)).length;
@@ -421,7 +429,8 @@ async function generateMastersJson() {
           deathYear: masters.deathYear,
           deathPrecision: masters.deathPrecision,
         })
-        .from(masters),
+        .from(masters)
+        .where(eq(masters.published, true)),
       db
         .select({
           masterId: masterNames.masterId,
@@ -687,8 +696,17 @@ async function generateTemplesJson() {
     if (!foundedBy.has(row.templeId)) foundedBy.set(row.templeId, row.masterId);
   }
 
+  // Suppress founder links to unpublished (living / post-founder) masters.
+  const publishedMasterRows = await db
+    .select({ id: masters.id, published: masters.published })
+    .from(masters);
+  const publishedFounderIds = new Set(
+    publishedMasterRows.filter((m) => m.published).map((m) => m.id),
+  );
+
   const features = templeRows.map((t) => {
-    const effectiveFounderId = t.founderId ?? foundedBy.get(t.id) ?? null;
+    const rawFounderId = t.founderId ?? foundedBy.get(t.id) ?? null;
+    const effectiveFounderId = rawFounderId && publishedFounderIds.has(rawFounderId) ? rawFounderId : null;
     const founderSlug = effectiveFounderId ? founderSlugById.get(effectiveFounderId) ?? null : null;
     const founderName = effectiveFounderId
       ? founderDharmaName.get(effectiveFounderId) ?? founderAnyName.get(effectiveFounderId) ?? null
@@ -795,7 +813,8 @@ async function generateSearchIndexJson(
       slug: masters.slug,
       schoolId: masters.schoolId,
     })
-    .from(masters);
+    .from(masters)
+    .where(eq(masters.published, true));
 
   const masterNameRows = await db
     .select({
