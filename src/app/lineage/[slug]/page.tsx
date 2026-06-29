@@ -22,7 +22,7 @@ const ANCESTOR_DEPTH = 12; // walk up the entire chain — Zen lineages
 const DESCENDANT_DEPTH = 3; // tree expands fast going down; cap to 3
 
 export async function generateStaticParams() {
-  const all = await db.select({ slug: masters.slug }).from(masters);
+  const all = await db.select({ slug: masters.slug }).from(masters).where(eq(masters.published, true));
   return all.map((m) => ({ slug: m.slug }));
 }
 
@@ -42,7 +42,7 @@ async function getMasterBySlug(slug: string): Promise<MasterRow | null> {
       deathYear: masters.deathYear,
     })
     .from(masters)
-    .where(eq(masters.slug, slug))
+    .where(and(eq(masters.slug, slug), eq(masters.published, true)))
     .limit(1);
   return row[0] ?? null;
 }
@@ -57,7 +57,7 @@ async function getMastersByIds(ids: string[]): Promise<MasterRow[]> {
       deathYear: masters.deathYear,
     })
     .from(masters)
-    .where(inArray(masters.id, ids));
+    .where(and(inArray(masters.id, ids), eq(masters.published, true)));
 }
 
 async function getDharmaNames(ids: string[]): Promise<Map<string, string>> {

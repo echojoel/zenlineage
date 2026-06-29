@@ -133,7 +133,7 @@ export async function generateMetadata({
       deathYear: masters.deathYear,
     })
     .from(masters)
-    .where(eq(masters.slug, slug))
+    .where(and(eq(masters.slug, slug), eq(masters.published, true)))
     .limit(1);
 
   const master = rows[0];
@@ -317,7 +317,7 @@ export async function generateMetadata({
 }
 
 export async function generateStaticParams() {
-  const allMasters = await db.select({ slug: masters.slug }).from(masters);
+  const allMasters = await db.select({ slug: masters.slug }).from(masters).where(eq(masters.published, true));
   return allMasters.map((m) => ({ slug: m.slug }));
 }
 
@@ -337,7 +337,7 @@ export default async function MasterDetailPage({ params }: { params: Promise<{ s
       deathConfidence: masters.deathConfidence,
     })
     .from(masters)
-    .where(eq(masters.slug, slug));
+    .where(and(eq(masters.slug, slug), eq(masters.published, true)));
 
   const master = rows[0];
   if (!master) notFound();
@@ -437,7 +437,7 @@ export default async function MasterDetailPage({ params }: { params: Promise<{ s
     })
     .from(masterTransmissions)
     .innerJoin(masters, eq(masters.id, masterTransmissions.teacherId))
-    .where(eq(masterTransmissions.studentId, master.id));
+    .where(and(eq(masterTransmissions.studentId, master.id), eq(masters.published, true)));
 
   const students = await db
     .select({
@@ -452,7 +452,7 @@ export default async function MasterDetailPage({ params }: { params: Promise<{ s
     })
     .from(masterTransmissions)
     .innerJoin(masters, eq(masters.id, masterTransmissions.studentId))
-    .where(eq(masterTransmissions.teacherId, master.id));
+    .where(and(eq(masterTransmissions.teacherId, master.id), eq(masters.published, true)));
 
   const relatedMasterIds = Array.from(
     new Set([
@@ -775,7 +775,7 @@ export default async function MasterDetailPage({ params }: { params: Promise<{ s
             deathYear: masters.deathYear,
           })
           .from(masters)
-          .where(eq(masters.schoolId, master.schoolId))
+          .where(and(eq(masters.schoolId, master.schoolId), eq(masters.published, true)))
       )
         .filter((m) => m.id !== master.id)
         .sort((a, b) => (a.birthYear ?? 9999) - (b.birthYear ?? 9999))

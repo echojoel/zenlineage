@@ -45,7 +45,8 @@ export default async function MastersPage() {
       deathYear: masters.deathYear,
       deathPrecision: masters.deathPrecision,
     })
-    .from(masters);
+    .from(masters)
+    .where(eq(masters.published, true));
 
   // Fetch primary English names
   const namesData = await db

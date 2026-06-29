@@ -79,7 +79,8 @@ async function main() {
         deathYear: masters.deathYear,
         deathPrecision: masters.deathPrecision,
       })
-      .from(masters),
+      .from(masters)
+      .where(eq(masters.published, true)),
     db
       .select({ masterId: masterNames.masterId, value: masterNames.value, nameType: masterNames.nameType })
       .from(masterNames)

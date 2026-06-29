@@ -10,7 +10,7 @@ export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
 export async function generateStaticParams() {
-  const all = await db.select({ slug: masters.slug }).from(masters);
+  const all = await db.select({ slug: masters.slug }).from(masters).where(eq(masters.published, true));
   return all.map((m) => ({ slug: m.slug }));
 }
 
@@ -29,7 +29,7 @@ export default async function MasterOpenGraphImage({
       deathYear: masters.deathYear,
     })
     .from(masters)
-    .where(eq(masters.slug, slug))
+    .where(and(eq(masters.slug, slug), eq(masters.published, true)))
     .limit(1);
 
   const master = masterRows[0];

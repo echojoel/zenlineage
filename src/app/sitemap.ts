@@ -24,7 +24,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const lastModified = new Date();
 
   const [allMasters, allSchools, allTeachings] = await Promise.all([
-    db.select({ slug: masters.slug }).from(masters),
+    db.select({ slug: masters.slug }).from(masters).where(eq(masters.published, true)),
     db.select({ id: schools.id, slug: schools.slug }).from(schools),
     db.select({ id: teachings.id, slug: teachings.slug }).from(teachings),
   ]);
