@@ -1,2 +1,2 @@
-ALTER TABLE `masters` ADD COLUMN `living` integer DEFAULT false NOT NULL;--> statement-breakpoint
-ALTER TABLE `masters` ADD COLUMN `published` integer DEFAULT true NOT NULL;
+ALTER TABLE `masters` ADD `living` integer DEFAULT false NOT NULL;--> statement-breakpoint
+ALTER TABLE `masters` ADD `published` integer DEFAULT true NOT NULL;

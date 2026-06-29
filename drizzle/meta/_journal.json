@@ -43,6 +43,13 @@
       "when": 1778765736908,
       "tag": "0005_transmission_evidence",
       "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "6",
+      "when": 1782737501148,
+      "tag": "0006_lineage_boundary",
+      "breakpoints": true
     }
   ]
 }
