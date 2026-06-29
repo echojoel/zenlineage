@@ -132,21 +132,40 @@ export function computeLineageBoundary(
     masters.map((m) => m.id).filter((id) => !archivedIds.has(id)),
   );
 
-  // Connectivity: BFS from root over published-only edges.
+  // Connectivity. Two BFS walks from the root: one over ALL edges (the graph
+  // universe — masters that appear in the public lineage graph today), one over
+  // published-only edges. Masters that were never reachable from the root are
+  // excluded from the graph elsewhere (and keep their detail pages), so they are
+  // NOT flagged here. We only flag a published master that IS part of the graph
+  // (reachable via all edges) but whose path to the root was severed by archiving
+  // (no longer reachable via published-only edges) — those would otherwise become
+  // isolated roots and break the single-root invariant.
   const rootId = idBySlug.get(rootSlug);
-  const reachable = new Set<string>();
-  if (rootId && publishedIds.has(rootId)) {
-    const q = [rootId];
-    while (q.length) {
-      const cur = q.shift() as string;
-      if (reachable.has(cur)) continue;
-      reachable.add(cur);
-      for (const c of childrenByTeacher.get(cur) ?? []) {
-        if (publishedIds.has(c)) q.push(c);
+  const reachableAll = new Set<string>();
+  const reachablePublished = new Set<string>();
+  if (rootId) {
+    const qAll = [rootId];
+    while (qAll.length) {
+      const cur = qAll.shift() as string;
+      if (reachableAll.has(cur)) continue;
+      reachableAll.add(cur);
+      for (const c of childrenByTeacher.get(cur) ?? []) qAll.push(c);
+    }
+    if (publishedIds.has(rootId)) {
+      const qPub = [rootId];
+      while (qPub.length) {
+        const cur = qPub.shift() as string;
+        if (reachablePublished.has(cur)) continue;
+        reachablePublished.add(cur);
+        for (const c of childrenByTeacher.get(cur) ?? []) {
+          if (publishedIds.has(c)) qPub.push(c);
+        }
       }
     }
   }
-  const disconnectedPublishedIds = [...publishedIds].filter((id) => !reachable.has(id));
+  const disconnectedPublishedIds = [...publishedIds].filter(
+    (id) => reachableAll.has(id) && !reachablePublished.has(id),
+  );
 
   return { livingIds, archivedIds, publishedIds, disconnectedPublishedIds };
 }

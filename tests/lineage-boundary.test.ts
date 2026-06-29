@@ -84,4 +84,15 @@ describe("computeLineageBoundary", () => {
     expect(r.publishedIds.has("orphan")).toBe(true);
     expect(r.disconnectedPublishedIds).toContain("orphan");
   });
+  it("does NOT flag a published node in a separate component never reachable from the root", () => {
+    // island/islandChild form a component with no path from the root at all.
+    // They are excluded from the graph elsewhere (and keep detail pages), so the
+    // boundary must not treat them as a connectivity break.
+    const m4 = [...masters, { id: "island", slug: "island" }, { id: "islandChild", slug: "islandChild" }];
+    const e4 = [...edges, { teacherId: "island", studentId: "islandChild" }];
+    const r = computeLineageBoundary(m4, e4, opts);
+    expect(r.publishedIds.has("island")).toBe(true);
+    expect(r.disconnectedPublishedIds).not.toContain("island");
+    expect(r.disconnectedPublishedIds).not.toContain("islandChild");
+  });
 });
