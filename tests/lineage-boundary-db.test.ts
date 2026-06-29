@@ -6,16 +6,12 @@ import { masters } from "@/db/schema";
 // Reads the seeded zen.db. Run `npm run boundary:compute` first if stale.
 describe("lineage boundary (seeded DB)", () => {
   it("never publishes a living master", async () => {
-    const rows = await db
-      .select({ slug: masters.slug })
-      .from(masters)
-      .where(eq(masters.living, true));
-    const published = await db
+    const living = await db
       .select({ slug: masters.slug, published: masters.published })
       .from(masters)
       .where(eq(masters.living, true));
-    expect(rows.length).toBeGreaterThanOrEqual(30);
-    expect(published.every((m) => m.published === false)).toBe(true);
+    expect(living.length).toBeGreaterThanOrEqual(30);
+    expect(living.every((m) => m.published === false)).toBe(true);
   });
 
   it("publishes shakyamuni-buddha as a published root", async () => {

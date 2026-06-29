@@ -1,7 +1,7 @@
 import { inArray } from "drizzle-orm";
 import { db } from "@/db";
 import { masters, masterTransmissions } from "@/db/schema";
-import { computeLineageBoundary, LIVING_SLUGS } from "@/lib/lineage-boundary";
+import { computeLineageBoundary, LIVING_SLUGS, ROOT_SLUG } from "@/lib/lineage-boundary";
 import { ensureMasterSchema } from "./ensure-master-schema";
 
 async function main() {
@@ -12,13 +12,19 @@ async function main() {
     .select({ teacherId: masterTransmissions.teacherId, studentId: masterTransmissions.studentId })
     .from(masterTransmissions);
 
+  // The connectivity guard is meaningless if the root is absent (a failed seed):
+  // both BFS sets would be empty and the check would silently pass. Fail loudly.
+  if (!masterRows.some((m) => m.slug === ROOT_SLUG)) {
+    throw new Error(`Root master "${ROOT_SLUG}" not found — cannot compute lineage boundary.`);
+  }
+
   const result = computeLineageBoundary(masterRows, edgeRows);
 
   if (result.disconnectedPublishedIds.length > 0) {
     const slugById = new Map(masterRows.map((m) => [m.id, m.slug]));
     const offenders = result.disconnectedPublishedIds.map((id) => slugById.get(id) ?? id);
     throw new Error(
-      `Lineage boundary would orphan ${offenders.length} published master(s) from ${"shakyamuni-buddha"}: ${offenders.join(", ")}. ` +
+      `Lineage boundary would orphan ${offenders.length} published master(s) from ${ROOT_SLUG}: ${offenders.join(", ")}. ` +
         `Add a founder/living entry in src/lib/lineage-boundary.ts to resolve.`,
     );
   }
