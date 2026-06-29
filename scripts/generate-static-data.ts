@@ -924,10 +924,19 @@ async function generateSearchIndexJson(
       )
     );
 
+  // Published master id set for the author-segment gate below.
+  const publishedMasterIds = new Set(masterRows.map((m) => m.id));
+
   for (const t of teachingRows) {
     if (!t.title) continue;
     if (!isPublishedTeaching({ id: t.id }, citationKeys)) continue;
-    const authorName = t.authorId ? enNameByMaster.get(t.authorId) : undefined;
+    // Only show the author name in the secondary segment when the author master
+    // is published (lineage-boundary gate — living masters must not appear as
+    // structured authors in the search index).
+    const authorName =
+      t.authorId && publishedMasterIds.has(t.authorId)
+        ? enNameByMaster.get(t.authorId)
+        : undefined;
     const secondaryParts: string[] = [];
     if (t.collection) secondaryParts.push(t.collection);
     if (authorName) secondaryParts.push(authorName);

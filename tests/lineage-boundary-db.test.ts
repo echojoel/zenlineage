@@ -49,6 +49,26 @@ describe("lineage boundary (seeded DB)", () => {
   });
 });
 
+describe("public artifacts never present a living master as a structured author", () => {
+  const livingAuthors = ["Brad Warner", "Henry Shukman", "Ruben Habito", "Jan Chozen Bays"];
+  it("llms-full.txt has no Attribution line naming a living author", () => {
+    const txt = fs.readFileSync(path.join(process.cwd(), "public/llms-full.txt"), "utf8");
+    for (const n of livingAuthors) {
+      expect(txt.includes(`**Attribution:** ${n}`)).toBe(false);
+    }
+  });
+  it("search-index.json has no secondary author segment naming a living author", () => {
+    const json = fs.readFileSync(path.join(process.cwd(), "public/data/search-index.json"), "utf8");
+    for (const n of livingAuthors) {
+      expect(json.includes(`· ${n}"`)).toBe(false);
+    }
+  });
+  it("preserves deceased heirs named in editorial prose (no over-redaction)", () => {
+    const txt = fs.readFileSync(path.join(process.cwd(), "public/llms-full.txt"), "utf8");
+    expect(txt.includes("Bernie Tetsugen Glassman")).toBe(true);
+  });
+});
+
 describe("graph.json reflects the boundary", () => {
   it("excludes archived masters and includes a founder", () => {
     const file = path.join(process.cwd(), "public/data/graph.json");

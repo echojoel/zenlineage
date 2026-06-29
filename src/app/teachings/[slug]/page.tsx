@@ -524,18 +524,19 @@ export default async function TeachingDetailPage({
             <ul className="detail-link-list">
               {roleRows.map((r, i) => {
                 const master = roleMasterBySlug.get(r.masterId);
-                const name = masterDharmaName.get(r.masterId) ?? master?.slug ?? r.masterId;
+                // Gate: only render a structured attribution entry for published
+                // masters. Unpublished (living / archived) masters are silently
+                // omitted — their names must not appear as a structured author/
+                // speaker UI item.
+                if (!master) return null;
+                const name = masterDharmaName.get(r.masterId) ?? master.slug;
                 return (
                   <li key={`${r.role}-${r.masterId}-${i}`}>
                     <span className="detail-list-meta">{roleLabel(r.role)}</span>
                     <br />
-                    {master ? (
-                      <Link className="detail-inline-link" href={`/masters/${master.slug}`}>
-                        {name}
-                      </Link>
-                    ) : (
-                      <span>{name}</span>
-                    )}
+                    <Link className="detail-inline-link" href={`/masters/${master.slug}`}>
+                      {name}
+                    </Link>
                   </li>
                 );
               })}

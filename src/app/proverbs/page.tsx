@@ -340,6 +340,9 @@ export default async function ProverbsPage() {
         const speakerRole = koanRoleRows.find((r) => r.teachingId === k.id);
         const speakerId = speakerRole?.masterId ?? k.authorId;
         const speakerMaster = speakerId ? masterMap.get(speakerId) : null;
+        // Gate both masterSlug and masterName on the published speaker map:
+        // speakerMaster is null when the speaker is unpublished (living / archived),
+        // so we omit the structured attribution entirely in that case.
         return {
           id: k.id,
           slug: k.slug,
@@ -347,7 +350,7 @@ export default async function ProverbsPage() {
           title: k.title,
           content: k.content ?? null,
           masterSlug: speakerMaster?.slug ?? null,
-          masterName: speakerId ? masterNameMap.get(speakerId) ?? null : null,
+          masterName: speakerMaster ? masterNameMap.get(speakerMaster.id) ?? null : null,
         };
       });
     return {

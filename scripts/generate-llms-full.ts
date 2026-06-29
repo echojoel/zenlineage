@@ -148,6 +148,9 @@ async function main() {
     if (!primaryNameMap.has(n.masterId)) primaryNameMap.set(n.masterId, n.value);
   }
 
+  // Published master ids (mastersData is already filtered to published=true)
+  const publishedIds = new Set(mastersData.map((m) => m.id));
+
   // Slug map: masterId -> slug
   const slugMap = new Map(mastersData.map((m) => [m.id, m.slug]));
 
@@ -189,10 +192,11 @@ async function main() {
   const teachingContentMap = new Map(teachingContentData.map((tc) => [tc.teachingId, tc]));
 
   // Teaching roles map: teachingId -> master names (attributed_to / speaker)
+  // Only resolve the author name when the master is published (lineage-boundary gate).
   const teachingAuthorMap = new Map<string, string>();
   for (const role of teachingRolesData) {
     if (role.role === "attributed_to" || role.role === "speaker") {
-      if (!teachingAuthorMap.has(role.teachingId)) {
+      if (!teachingAuthorMap.has(role.teachingId) && publishedIds.has(role.masterId)) {
         teachingAuthorMap.set(role.teachingId, primaryNameMap.get(role.masterId) ?? role.masterId);
       }
     }
@@ -335,9 +339,13 @@ async function main() {
       if (!content) continue;
 
       const title = content.title;
+      // Gate the author name on the published set — never emit a structured
+      // Attribution line for a living or archived master.
       const authorName =
         teachingAuthorMap.get(teaching.id) ??
-        (teaching.authorId ? (primaryNameMap.get(teaching.authorId) ?? null) : null);
+        (teaching.authorId && publishedIds.has(teaching.authorId)
+          ? (primaryNameMap.get(teaching.authorId) ?? null)
+          : null);
 
       lines.push(`### ${title}`);
       lines.push("");
