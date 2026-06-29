@@ -13,6 +13,7 @@
 
 import fs from "fs";
 import path from "path";
+import { ensureMasterSchema } from "./ensure-master-schema";
 import { and, eq, inArray, ne, sql } from "drizzle-orm";
 import { db } from "@/db";
 import {
@@ -318,6 +319,8 @@ async function seedSearchTokens(tokens: CanonicalSearchToken[]): Promise<void> {
 
 async function main(): Promise<void> {
   console.log("=== Zen Encyclopedia DB Seeding ===\n");
+
+  await ensureMasterSchema();
 
   // Initialize DB schema (create tables if not exist)
   try {

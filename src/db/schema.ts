@@ -55,6 +55,8 @@ export const masters = sqliteTable("masters", {
   ordinationPrecision: text("ordination_precision"),
   schoolId: text("school_id").references(() => schools.id),
   generation: integer("generation"),
+  living: integer("living", { mode: "boolean" }).notNull().default(false),
+  published: integer("published", { mode: "boolean" }).notNull().default(true),
 });
 
 export const masterTransmissions = sqliteTable("master_transmissions", {
