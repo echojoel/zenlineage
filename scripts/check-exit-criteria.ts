@@ -311,13 +311,15 @@ interface BiographyAuditOffender {
  * Paragraph-density gate for master biographies. Every
  * `\n\n`-separated paragraph in `content` must carry at least one `[N]`
  * marker, and every `[N]` referenced in prose must resolve to an entry in
- * `footnotes`. Runs against ALL biographies; the audit prints tier-1
- * offenders and the full-corpus count separately so editorial work can
- * prioritise tier-1 without hiding the wider backlog.
+ * `footnotes`. Runs against published biographies only (slug must be in
+ * `publishedSlugs`); the audit prints tier-1 offenders and the full-corpus
+ * count separately so editorial work can prioritise tier-1 without hiding
+ * the wider backlog.
  */
-function auditBiographyCitations(): BiographyAuditOffender[] {
+function auditBiographyCitations(publishedSlugs: Set<string>): BiographyAuditOffender[] {
   const offenders: BiographyAuditOffender[] = [];
   for (const bio of BIOGRAPHIES) {
+    if (!publishedSlugs.has(bio.slug)) continue;
     const tier1 = isTier1Master(bio.slug);
     const known = new Set((bio.footnotes ?? []).map((f) => f.index));
     const uncitedParagraphs = findUncitedParagraphs(bio.content);
@@ -342,7 +344,7 @@ function auditBiographyCitations(): BiographyAuditOffender[] {
 
 async function main() {
   const [
-    allMasters,
+    allMastersRaw,
     allCitations,
     allTokens,
     allSources,
@@ -359,6 +361,7 @@ async function main() {
         slug: masters.slug,
         birthYear: masters.birthYear,
         deathYear: masters.deathYear,
+        published: masters.published,
       })
       .from(masters),
     db
@@ -413,26 +416,42 @@ async function main() {
       .from(sourceSnapshots),
   ]);
 
+  const allMasters = allMastersRaw.filter((m) => m.published);
+  const publishedIds = new Set(allMasters.map((m) => m.id));
+  const publishedSlugs = new Set(allMasters.map((m) => m.slug));
+
   const totalMasters = allMasters.length;
   const tier1Slugs = new Set(getTier1Slugs());
   const tier1Masters = allMasters.filter((master) => tier1Slugs.has(master.slug));
   const citedIds = new Set(
     allCitations
-      .filter((citation) => citation.entityType === "master")
+      .filter(
+        (citation) =>
+          citation.entityType === "master" && publishedIds.has(citation.entityId)
+      )
       .map((citation) => citation.entityId)
   );
   const citationKeys = new Set(
     allCitations.map((citation) => `${citation.entityType}:${citation.entityId}`)
   );
-  const tokenIds = new Set(allTokens.map((token) => token.entityId));
-  const biographyIds = new Set(allBiographies.map((bio) => bio.masterId));
+  const tokenIds = new Set(
+    allTokens.map((token) => token.entityId).filter((id) => publishedIds.has(id))
+  );
+  const biographyIds = new Set(
+    allBiographies
+      .filter((bio) => publishedIds.has(bio.masterId))
+      .map((bio) => bio.masterId)
+  );
   const teachingAuthorIds = new Set(
     allTeachings
       .map((teaching) => teaching.authorId)
       .filter((authorId): authorId is string => Boolean(authorId))
+      .filter((authorId) => publishedIds.has(authorId))
   );
   const mediaMasterIds = new Set(
-    allMedia.filter((asset) => asset.entityType === "master").map((asset) => asset.entityId)
+    allMedia
+      .filter((asset) => asset.entityType === "master" && publishedIds.has(asset.entityId))
+      .map((asset) => asset.entityId)
   );
 
   const imageIds = new Set([...mediaMasterIds]);
@@ -445,18 +464,29 @@ async function main() {
   const citedImageMasterIds = new Set(
     allMedia
       .filter(
-        (asset) => asset.entityType === "master" && citedMediaAssetIds.has(asset.id)
+        (asset) =>
+          asset.entityType === "master" &&
+          publishedIds.has(asset.entityId) &&
+          citedMediaAssetIds.has(asset.id)
       )
       .map((asset) => asset.entityId)
   );
   const portraitMediaIds = new Set(
     allMedia
-      .filter((asset) => asset.entityType === "master" && asset.type === "image")
+      .filter(
+        (asset) =>
+          asset.entityType === "master" &&
+          publishedIds.has(asset.entityId) &&
+          asset.type === "image"
+      )
       .map((asset) => asset.entityId)
   );
 
-  const studentIds = new Set(allTransmissions.map((edge) => edge.studentId));
-  const teacherIds = new Set(allTransmissions.map((edge) => edge.teacherId));
+  const publishedTransmissions = allTransmissions.filter(
+    (e) => publishedIds.has(e.studentId) && publishedIds.has(e.teacherId)
+  );
+  const studentIds = new Set(publishedTransmissions.map((edge) => edge.studentId));
+  const teacherIds = new Set(publishedTransmissions.map((edge) => edge.teacherId));
   const orphanMasters = allMasters
     .filter((master) => !studentIds.has(master.id) && !teacherIds.has(master.id))
     .map((master) => master.slug)
@@ -513,7 +543,8 @@ async function main() {
     .filter((master) => !imageIds.has(master.id))
     .map((master) => master.slug)
     .sort();
-  const uncitedBiographyRows = allBiographies.filter(
+  const publishedBiographies = allBiographies.filter((bio) => publishedIds.has(bio.masterId));
+  const uncitedBiographyRows = publishedBiographies.filter(
     (bio) => !citationKeys.has(`master_biography:${bio.id}`)
   );
   const uncitedTeachings = allTeachings.filter(
@@ -626,7 +657,7 @@ async function main() {
   printMetric("Suspicious short slugs", suspiciousSlugs.length);
   printMetric(
     "Biographies lacking citations",
-    `${uncitedBiographyRows.length} / ${allBiographies.length}`
+    `${uncitedBiographyRows.length} / ${publishedBiographies.length}`
   );
   printMetric("Teachings lacking citations", `${uncitedTeachings.length} / ${allTeachings.length}`);
   printMetric(
@@ -796,7 +827,7 @@ async function main() {
   // must have at least one citation row.
   const schoolOffenders = auditSchoolCitations();
   const timelineOffenders = auditTimelineCitations();
-  const biographyOffenders = auditBiographyCitations();
+  const biographyOffenders = auditBiographyCitations(publishedSlugs);
   const transmissionCitedKeys = new Set(
     allCitations
       .filter((citation) => citation.entityType === "master_transmission")
@@ -829,7 +860,10 @@ async function main() {
       preview(timelineOffenders.map((o) => `${o.id} — ${o.reason}`))
     );
   }
-  const tier1BioCount = BIOGRAPHIES.filter((b) => isTier1Master(b.slug)).length;
+  const publishedBioCount = BIOGRAPHIES.filter((b) => publishedSlugs.has(b.slug)).length;
+  const tier1BioCount = BIOGRAPHIES.filter(
+    (b) => isTier1Master(b.slug) && publishedSlugs.has(b.slug)
+  ).length;
   const tier1BioOffenders = biographyOffenders.filter((o) => o.tier1);
   printMetric(
     "Tier-1 bios with uncited paragraphs",
@@ -843,7 +877,7 @@ async function main() {
   }
   printMetric(
     "All bios with uncited paragraphs",
-    `${biographyOffenders.length} (of ${BIOGRAPHIES.length} biographies)`
+    `${biographyOffenders.length} (of ${publishedBioCount} published biographies)`
   );
   if (biographyOffenders.length > tier1BioOffenders.length) {
     printMetric(

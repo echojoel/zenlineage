@@ -4,6 +4,7 @@
 // Exit 0 if valid (warnings allowed), exit 1 if any errors.
 // ---------------------------------------------------------------------------
 
+import { eq } from "drizzle-orm";
 import { db } from "@/db";
 import { masters, masterTransmissions } from "@/db/schema";
 import { validateDAG, type TransmissionEdge, type MasterDates } from "@/lib/dag-validation";
@@ -11,8 +12,11 @@ import { validateDAG, type TransmissionEdge, type MasterDates } from "@/lib/dag-
 async function main() {
   console.log("Loading masters and transmissions from database...\n");
 
-  const allMasters = await db.select().from(masters);
-  const allTransmissions = await db.select().from(masterTransmissions);
+  const allMasters = await db.select().from(masters).where(eq(masters.published, true));
+  const publishedIds = new Set(allMasters.map((m) => m.id));
+  const allTransmissions = (await db.select().from(masterTransmissions)).filter(
+    (t) => publishedIds.has(t.teacherId) && publishedIds.has(t.studentId),
+  );
   const masterSlugById = new Map(allMasters.map((master) => [master.id, master.slug]));
 
   const masterIds = allMasters.map((m) => m.id);
