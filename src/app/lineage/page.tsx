@@ -51,6 +51,11 @@ export default async function LineagePage() {
           Click any node to focus that master&rsquo;s neighborhood, or
           jump straight to a school below.
         </p>
+        <p className="detail-muted">
+          This atlas charts the ancestral lineage up to the teachers who carried these
+          traditions out of Asia. Their living successors continue a living tradition we
+          do not attempt to chart here.
+        </p>
         <h2>Branches</h2>
         <ul>
           {rootSchools.map((s) => (

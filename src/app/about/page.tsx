@@ -709,6 +709,11 @@ export default async function AboutPage() {
                 (pixiduc), Paris 2006, CC BY-SA 2.0 via Wikimedia Commons.
               </figcaption>
             </figure>
+            <p className="detail-list-meta">
+              This atlas charts the ancestral lineage up to the teachers who carried these
+              traditions out of Asia. Their living successors continue a living tradition we
+              do not attempt to chart here.
+            </p>
           </div>
           <div className="detail-actions" style={{ justifyContent: "flex-start", marginTop: "1rem" }}>
             <Link className="detail-button" href="/timeline">
