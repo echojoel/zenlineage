@@ -99,7 +99,7 @@ export default async function TraditionLanding({
       ? await db
           .select({ count: sql<number>`count(*)` })
           .from(masters)
-          .where(inArray(masters.schoolId, traditionSchoolIds))
+          .where(and(inArray(masters.schoolId, traditionSchoolIds), eq(masters.published, true)))
       : [{ count: 0 }];
   const masterCount = masterCountRow[0]?.count ?? 0;
 
@@ -111,7 +111,7 @@ export default async function TraditionLanding({
             min: sql<number | null>`MIN(${masters.birthYear})`,
           })
           .from(masters)
-          .where(inArray(masters.schoolId, traditionSchoolIds))
+          .where(and(inArray(masters.schoolId, traditionSchoolIds), eq(masters.published, true)))
       : [{ min: null as number | null }];
   const earliestYear = earliestRow[0]?.min ?? null;
 
@@ -142,7 +142,7 @@ export default async function TraditionLanding({
             deathYear: masters.deathYear,
           })
           .from(masters)
-          .where(inArray(masters.schoolId, traditionSchoolIds))
+          .where(and(inArray(masters.schoolId, traditionSchoolIds), eq(masters.published, true)))
       : [];
 
   const featuredMasterRows = allTraditionMasters

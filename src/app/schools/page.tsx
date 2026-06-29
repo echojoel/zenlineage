@@ -51,6 +51,7 @@ export default async function SchoolsPage() {
       count: count(),
     })
     .from(masters)
+    .where(eq(masters.published, true))
     .groupBy(masters.schoolId);
 
   const countMap = new Map(

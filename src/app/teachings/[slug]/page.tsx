@@ -230,7 +230,7 @@ export default async function TeachingDetailPage({
       ? await db
           .select({ id: masters.id, slug: masters.slug, schoolId: masters.schoolId })
           .from(masters)
-          .where(inArray(masters.id, roleMasterIds))
+          .where(and(inArray(masters.id, roleMasterIds), eq(masters.published, true)))
       : [];
   const roleMasterBySlug = new Map(roleMasterRows.map((m) => [m.id, m]));
 

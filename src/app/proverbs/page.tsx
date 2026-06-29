@@ -124,7 +124,8 @@ export default async function ProverbsPage() {
       slug: masters.slug,
       schoolId: masters.schoolId,
     })
-    .from(masters);
+    .from(masters)
+    .where(eq(masters.published, true));
   const masterMap = new Map(masterRows.map((m) => [m.id, m]));
 
   // 4. Fetch master names

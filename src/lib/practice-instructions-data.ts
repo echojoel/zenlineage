@@ -103,7 +103,7 @@ export async function loadPracticeInstructions(
       ? await db
           .select({ id: masters.id, slug: masters.slug })
           .from(masters)
-          .where(inArray(masters.id, authorIds))
+          .where(and(inArray(masters.id, authorIds), eq(masters.published, true)))
       : [];
   const authorSlugById = new Map(authorRows.map((m) => [m.id, m.slug]));
 

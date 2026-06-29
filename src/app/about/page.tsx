@@ -1,7 +1,7 @@
 import Link from "@/components/Link";
 import Image from "next/image";
 import type { Metadata } from "next";
-import { sql } from "drizzle-orm";
+import { sql, eq } from "drizzle-orm";
 import { db } from "@/db";
 import { masters, temples } from "@/db/schema";
 import { FootnoteList, FootnoteRef, type FootnoteRef as FN } from "@/lib/footnotes";
@@ -105,7 +105,7 @@ const breadcrumbJsonLd = {
 
 export default async function AboutPage() {
   const [masterRow, countryRows] = await Promise.all([
-    db.select({ count: sql<number>`count(*)` }).from(masters),
+    db.select({ count: sql<number>`count(*)` }).from(masters).where(eq(masters.published, true)),
     db.selectDistinct({ country: temples.country }).from(temples),
   ]);
   const masterCount = masterRow[0]?.count ?? 0;

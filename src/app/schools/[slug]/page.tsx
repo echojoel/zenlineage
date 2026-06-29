@@ -91,7 +91,7 @@ export async function generateMetadata({
   const masterCountRow = await db
     .select({ count: sql<number>`count(*)` })
     .from(masters)
-    .where(eq(masters.schoolId, school.id));
+    .where(and(eq(masters.schoolId, school.id), eq(masters.published, true)));
   const masterCount = masterCountRow[0]?.count ?? 0;
 
   const templeCountRow = await db
@@ -201,7 +201,7 @@ export default async function SchoolDetailPage({ params }: { params: Promise<{ s
       deathPrecision: masters.deathPrecision,
     })
     .from(masters)
-    .where(eq(masters.schoolId, school.id));
+    .where(and(eq(masters.schoolId, school.id), eq(masters.published, true)));
 
   const masterIds = schoolMasters.map((master) => master.id);
   const masterNamesRows =

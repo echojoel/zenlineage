@@ -40,7 +40,7 @@ import { buildCitationKeySet, isPublishedTeaching } from "@/lib/publishable-cont
 export default async function Home() {
   // Counts
   const [masterRow, schoolRow, transmissionRow, templeRow] = await Promise.all([
-    db.select({ count: sql<number>`count(*)` }).from(masters),
+    db.select({ count: sql<number>`count(*)` }).from(masters).where(eq(masters.published, true)),
     db.select({ count: sql<number>`count(*)` }).from(schools),
     db.select({ count: sql<number>`count(*)` }).from(masterTransmissions),
     db.select({ count: sql<number>`count(*)` }).from(temples),
@@ -128,7 +128,7 @@ export default async function Home() {
       const masterRow = await db
         .select({ slug: masters.slug })
         .from(masters)
-        .where(eq(masters.id, masterId))
+        .where(and(eq(masters.id, masterId), eq(masters.published, true)))
         .limit(1);
 
       if (masterRow.length > 0 && !placeholderSlugs.has(masterRow[0].slug)) {

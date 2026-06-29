@@ -60,7 +60,7 @@ export default async function TimelinePage() {
     const mastersData = await db
       .select({ id: masters.id, slug: masters.slug })
       .from(masters)
-      .where(inArray(masters.slug, slugArr));
+      .where(and(inArray(masters.slug, slugArr), eq(masters.published, true)));
 
     const masterIds = mastersData.map((m) => m.id);
     const slugById = new Map(mastersData.map((m) => [m.id, m.slug]));

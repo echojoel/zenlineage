@@ -95,7 +95,7 @@ async function loadTheme(slug: string) {
     const masterRows = await db
       .select({ id: masters.id, slug: masters.slug })
       .from(masters)
-      .where(inArray(masters.id, authorIds));
+      .where(and(inArray(masters.id, authorIds), eq(masters.published, true)));
     const nameRows = await db
       .select({
         masterId: masterNames.masterId,
