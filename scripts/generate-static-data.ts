@@ -382,13 +382,22 @@ async function generateGraphData() {
   );
 
   const orphanCount = nodes.length - nodes.filter((n) => connectedIds.has(n.id)).length;
-  const disconnectedCount = nodes.length - publicNodes.length - orphanCount;
+  const reachableCount = nodes.filter((n) => reachableFromShakyamuni.has(n.id)).length;
+  // Reachable from the backbone but withheld by the lineage-boundary publish gate
+  // (living + post-founder successors). Distinct from "not connected".
+  const archivedExcludedCount = reachableCount - publicNodes.length;
+  const disconnectedCount = nodes.length - reachableCount - orphanCount;
   if (orphanCount > 0) {
     console.log(`  -> Excluded ${orphanCount} orphan masters (no lineage edges) from graph`);
   }
   if (disconnectedCount > 0) {
     console.log(
       `  -> Excluded ${disconnectedCount} masters not yet connected to the Shakyamuni lineage backbone`
+    );
+  }
+  if (archivedExcludedCount > 0) {
+    console.log(
+      `  -> Excluded ${archivedExcludedCount} archived masters (living or post-founder successors) from graph`
     );
   }
 
