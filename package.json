@@ -42,7 +42,7 @@
     "db:migrate": "drizzle-kit migrate",
     "validate-graph": "tsx scripts/validate-graph.ts",
     "deploy": "npm run build && npm run package:cf && wrangler pages deploy out-cf --project-name=zenlineage --commit-dirty=true",
-    "package:cf": "rm -rf out-cf && rsync -a --exclude='__next.*.txt' out/ out-cf/ && tsx scripts/check-cf-filecount.ts out-cf",
+    "package:cf": "rm -rf out-cf && rsync -a --exclude='__next.*.txt' out/ out-cf/ && DATABASE_URL=file:zen.db tsx scripts/generate-unpublished-master-worker.ts out-cf && tsx scripts/check-cf-filecount.ts out-cf",
     "seed:corrections-w3": "DATABASE_URL=file:zen.db tsx scripts/seed-corrections-wave-3.ts",
     "seed:corrections-w4": "DATABASE_URL=file:zen.db tsx scripts/seed-corrections-wave-4.ts",
     "seed:corrections-w5": "DATABASE_URL=file:zen.db tsx scripts/seed-corrections-wave-5.ts",
