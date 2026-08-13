@@ -372,7 +372,9 @@ const MANUAL_COORDS: Record<string, [number, number]> = {
   "Puguang Meditation Center (Chung Tai Chan Monastery Hong Kong Branch)": [22.278, 114.1747], // Wanchai
   "Dharma Drum Mountain Hong Kong Center (DDM Hong Kong)": [22.3373, 114.1467], // Lai Chi Kok, Kowloon
   "Po Lam Monastery (Po Lam Chan Monastery)": [22.2783, 113.9381], // Tei Tong Tsai, Lantau
-  "Chan Retreat Center Hartovski Vrh (Dharmaloka)": [45.7833, 15.3667], // Žumberak Nature Park
+  // Was [45.7833, 15.3667], which is over the border in Slovenia — the park
+  // straddles it. OSM centroid for the Croatian park polygon.
+  "Chan Retreat Center Hartovski Vrh (Dharmaloka)": [45.7487977, 15.4331647], // Žumberak Nature Park, HR
   "Bodhi Zendo": [10.241, 77.504], // Perumalmalai, near Kodaikanal
   "Dharma Drum Mountain Malaysia Centre": [3.175, 101.565], // Kwasa Damansara
   "Zen Peacemakers Lage Landen (ZPLL)": [52.1326, 5.2913], // NL centroid (NL/BE network)
@@ -385,6 +387,33 @@ const MANUAL_COORDS: Record<string, [number, number]> = {
   "Plum Village Swiss Inter-Sangha": [46.948, 7.4474], // Swiss centroid (Bern); national network
   "Community of Mindfulness in Israel (Plum Village)": [32.0853, 34.7818], // Tel Aviv (national network)
   "Sangha Amsterdam Oost - Diemen (Plum Village)": [52.3439, 4.9619], // Amsterdam-Oost / Diemen
+  // GB entries whose street address Nominatim could not resolve, so the
+  // pin silently fell back to a city centroid — which lands in the wrong
+  // place entirely when the city name is ambiguous ("Hayes") or huge
+  // ("London"). Coordinates below are the Royal Mail postcode centroids
+  // for the address each group publishes, via api.postcodes.io (all
+  // quality=1, i.e. exact unit-postcode match).
+  "StoneWater Zen Kent": [51.377278, 0.010525], // BR2 7EH — Hayes, Bromley (NOT Hayes, Hillingdon)
+  "Kwan Um London Zen Centre": [51.572172, -0.118631], // N4 4BY — Crouch Hill, Islington
+  "Wake Up London": [51.510773, -0.126639], // WC2N 4EH — Hop Gardens, Westminster
+  "Telford Buddhist Priory": [52.682995, -2.470188], // TF3 5BH — The Rock, Telford
+  // Nominatim used to resolve these three and no longer does, so a plain
+  // re-run silently replaced good pins with city centroids (both Obama
+  // temples collapsing onto one shared point). Pinned here to the values
+  // OSM itself still returns for the temple nodes, so the generated file
+  // is stable across upstream drift rather than degrading each rebuild.
+  "Hosshin-ji (Reishō-zan Hosshin-ji)": [35.4885764, 135.7426698], // OSM node 発心寺, Obama
+  "Bukkoku-ji": [35.4883639, 135.7463069], // OSM node 佛国寺, Obama
+  // Both CDMX entries fall back to the Mexico City centroid (the Zócalo):
+  // Dhammapada publishes no street address at all, and Nominatim cannot
+  // resolve Centro Zen's. Pinned to the neighbourhood each one actually
+  // names — they are ~11km apart and were previously stacked on one point.
+  "Dhammapada Budismo Zen — Dōjō Zen México": [19.2633607, -99.1047377], // Xochimilco, per its own listing
+  "El Centro Zen de México, A.R.": [19.3358444, -99.133589], // Col. Educación, CP 04400, Coyoacán
+  // Both fell back to the Haenam County centroid, so two temples ~20km apart
+  // shared one pin. OSM nodes for 대흥사 / 미황사.
+  "Daeheung-sa": [34.4763626, 126.6159543], // Samsan-myeon, Haenam
+  "Mihwang-sa": [34.3825907, 126.5775436], // Songji-myeon, Dalmasan, Haenam
 };
 
 type Cache = Record<string, [number, number] | null>;
@@ -438,11 +467,24 @@ async function geocodeOne(
   return result;
 }
 
+function hasStreetAddress(p: RawPlace): boolean {
+  return Boolean(p.address && p.address.length > 5);
+}
+
 function buildQueries(p: RawPlace, country: string): string[] {
   const queries: string[] = [];
   // Drop region parentheticals for cleaner queries.
   const cleanRegion = p.region.replace(/\s*\([^)]+\)/g, "").trim();
-  if (p.address && p.address.length > 5) {
+  // NOTE: a few `address` values already end in their own country, so this
+  // emits "…, United Kingdom, United Kingdom", which Nominatim often fails
+  // to match. Stripping the duplicate looks like an obvious fix but is not:
+  // it changes the cache key for ~66 entries and re-resolves them, which
+  // measurably helped some (street-level hits) and hurt others (queries that
+  // previously matched now fall back to a bare city centroid — Dhammapada
+  // Zen México landed on the Zócalo, and Bukkoku-ji / Hosshin-ji collapsed
+  // onto one shared pin). Correct individual pins via MANUAL_COORDS instead,
+  // where the coordinate is explicit and can be checked against a source.
+  if (hasStreetAddress(p)) {
     queries.push(`${p.address}, ${country}`);
   }
   if (cleanRegion) queries.push(`${p.city}, ${cleanRegion}, ${country}`);
@@ -472,6 +514,7 @@ async function main(): Promise<void> {
   let skippedCurated = 0;
   let skippedNoCoords = 0;
   const failed: string[] = [];
+  const centroidFallbacks: string[] = [];
 
   console.log(`Loaded ${curatedSlugs.size} curated slugs to protect.`);
 
@@ -513,9 +556,21 @@ async function main(): Promise<void> {
       // Geocode — manual override first, then Nominatim queries.
       let coords: [number, number] | null = MANUAL_COORDS[p.name] ?? null;
       if (!coords) {
-        for (const q of buildQueries(p, country)) {
+        const queries = buildQueries(p, country);
+        for (const [i, q] of queries.entries()) {
           coords = await geocodeOne(q, cache, cc);
-          if (coords) break;
+          if (!coords) continue;
+          // A place that published a street address but only resolved via a
+          // later (city-level) query is pinned to a centroid, not to itself.
+          // That is how StoneWater Zen Kent ended up on the wrong "Hayes" —
+          // 33km away in West London. Surface it so it can be corrected with
+          // a MANUAL_COORDS entry instead of shipping a plausible-looking
+          // pin in the wrong town.
+          if (i > 0 && hasStreetAddress(p)) {
+            centroidFallbacks.push(`${cc}: ${p.name} — "${p.address}"`);
+            console.log(`  ⚠ centroid fallback: ${p.name} (${p.city})`);
+          }
+          break;
         }
       }
       if (!coords) {
@@ -584,6 +639,18 @@ ${lines.join("\n")}
   if (failed.length) {
     console.log(`  failures:`);
     for (const n of failed) console.log(`    - ${n}`);
+  }
+  if (centroidFallbacks.length) {
+    console.log(
+      `\n  ⚠ pinned to a city centroid despite having a street address (${centroidFallbacks.length}).`,
+    );
+    console.log(
+      `    These pins are only as precise as the town name — and land in the`,
+    );
+    console.log(
+      `    wrong town when it is ambiguous. Add a MANUAL_COORDS entry for each:`,
+    );
+    for (const n of centroidFallbacks) console.log(`    - ${n}`);
   }
 }
 
