@@ -30,6 +30,26 @@
       "url": "https://www.fgsmalaysia.org/",
       "source_url": "https://www.fgs.org.tw/",
       "notes": "Foguangshan branch monastery in Malaysia."
+    },
+    {
+      "name": "KYCL International Zen Centre",
+      "city": "Pengerang",
+      "region": "Johor",
+      "lineage": "Kwan Um School of Zen (Korean Seon kong-an practice)",
+      "address": null,
+      "url": "https://www.kyclzen.org/",
+      "source_url": "https://en.wikipedia.org/wiki/Kwan_Yin_Chan_Lin",
+      "notes": "Retreat centre at Pengerang, Desaru, Johor — the Malaysian international centre of Kwan Yin Chan Lin, whose main house is in Singapore. No street address published."
+    },
+    {
+      "name": "Fu Hui Yuan",
+      "city": "Muar",
+      "region": "Johor",
+      "lineage": "Kwan Um School of Zen (Korean Seon kong-an practice)",
+      "address": null,
+      "url": "https://www.kyclzen.org/",
+      "source_url": "https://en.wikipedia.org/wiki/Kwan_Yin_Chan_Lin",
+      "notes": "Kwan Yin Chan Lin centre in Muar, Johor, inaugurated 2018. No street address published."
     }
   ]
 }

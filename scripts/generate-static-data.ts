@@ -578,6 +578,7 @@ async function generateTemplesJson() {
       schoolId: temples.schoolId,
       founderId: temples.founderId,
       url: temples.url,
+      geoPrecision: temples.geoPrecision,
     })
     .from(temples)
     .where(and(isNotNull(temples.lat), isNotNull(temples.lng)));
@@ -745,6 +746,7 @@ async function generateTemplesJson() {
       sourceTitle: src?.title ?? null,
       imageUrl: img?.path ?? null,
       imageAlt: img?.alt ?? null,
+      geoPrecision: t.geoPrecision ?? "exact",
     };
   });
 

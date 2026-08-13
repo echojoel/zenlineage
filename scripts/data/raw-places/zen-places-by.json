@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "country": "Belarus",
+    "researched": "2026-08-13",
+    "notes": "The Kwan Um School of Zen Europe lists one Belarusian group, in Minsk."
+  },
+  "places": [
+    {
+      "name": "Minsk Zen Group",
+      "city": "Minsk",
+      "region": "Minsk",
+      "lineage": "Kwan Um School of Zen (Korean Seon, Seung Sahn lineage)",
+      "address": "Koltsova st. 28/3, Minsk 220131, Belarus",
+      "url": "http://kwanumzen.by",
+      "source_url": "https://www.kwanumeurope.org/locations/minsk-zen-group/",
+      "notes": "Kwan Um School of Zen group listed by the school's European office."
+    }
+  ]
+}

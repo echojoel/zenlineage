@@ -40,7 +40,9 @@ interface RawPlace {
   region: string;
   lineage: string;
   address: string | null;
-  url: string;
+  /** The place's own site. Null when it publishes none — several sanghas
+   * are listed only through a directory or a contact email. */
+  url: string | null;
   source_url: string;
   notes?: string;
 }
@@ -112,6 +114,65 @@ const DUP_PATTERNS: { pattern: RegExp; existingSlug: string }[] = [
     pattern: /(chua\s*tu\s*dam|tu\s*dam\s*pagoda)/i,
     existingSlug: "tu-dam-pagoda",
   },
+  // "Tổ đình Từ Hiếu" is the curated tu-hieu-temple — Thích Nhất Hạnh's
+  // root temple in Huế, where he ordained in 1942 and later returned. It
+  // was seeded twice: once curated, once from the Làng Mai listing, with
+  // the second copy stranded on the Huế city centroid ~4km away.
+  // Anchored on the "tổ đình" (root temple) prefix or a Huế qualifier: the
+  // Plum Village lineage has Từ Hiếu-named branch temples abroad, and a bare
+  // /tu\s*hieu/ would silently discard the first one anybody adds.
+  {
+    pattern: /(to\s*dinh\s*tu\s*hieu|tu\s*hieu.*hue|hue.*tu\s*hieu)/i,
+    existingSlug: "tu-hieu-temple",
+  },
+  // Chùa Vĩnh Nghiêm at 339 Nam Kỳ Khởi Nghĩa, District 3, HCMC is the
+  // curated vinh-nghiem-pagoda. The duplicate also disagreed on school
+  // (truc-lam vs lam-te) and sat ~9km away on a centroid. Anchored to the
+  // Sài Gòn parenthetical so the distinct Bắc Giang temple of the same
+  // name — the medieval Trúc Lâm seat — is still imported.
+  {
+    pattern: /chua\s*vinh\s*nghiem\s*\(\s*sai\s*gon\s*\)/i,
+    existingSlug: "vinh-nghiem-pagoda",
+  },
+  // 南華寺 on Mount Caoxi — Huineng's monastery, and the one place this
+  // atlas can least afford to double-count. It was seeded twice under two
+  // schools (early-chan vs chan) and two coordinates, both wrong; once
+  // each was corrected to the Wikipedia infobox they landed on the same
+  // point, which is what confirmed them as one temple.
+  {
+    pattern: /nanhua\s*(chan\s*)?temple|nanhua\s*si/i,
+    existingSlug: "nanhua-temple",
+  },
+  // Busshinji, Rua São Joaquim 285 in Liberdade — the Sōtōshū's South
+  // America head temple, seeded once curated and once from the sect
+  // listing under its full institutional name. Anchored on "América do
+  // Sul" so the separate Dōkōzan Busshinji at Rolândia, Paraná survives.
+  {
+    pattern: /busshinji.*am[ée]rica\s*do\s*sul|am[ée]rica\s*do\s*sul.*busshinji/i,
+    existingSlug: "templo-busshinji-sao-paulo",
+  },
+  // Mosteiro Zen Morro da Vargem at Ibiraçu, ES — seeded twice, and both
+  // copies were ~5km off the monastery in different directions. The
+  // curated row now carries the OSM node.
+  {
+    pattern: /morro\s*da\s*vargem/i,
+    existingSlug: "mosteiro-zen-morro-da-vargem",
+  },
+  // Three more places seeded both by hand and again from a directory
+  // listing, under a slightly longer name each time. Found by sweeping
+  // for same-country pairs under 2km apart whose names share most of
+  // their distinctive words.
+  // Anchored on Berkeley: the Kwan Um network also runs Empty Gate
+  // centres in Santa Clara and Boise, which are separate sanghas.
+  {
+    pattern: /empty\s*gate\s*zen\s*center\s*[-–—]?\s*berkeley/i,
+    existingSlug: "empty-gate-berkeley",
+  },
+  {
+    pattern: /boundless\s*way\s*zen\s*temple/i,
+    existingSlug: "boundless-way-zen-temple",
+  },
+  { pattern: /sanb[oō]\s*zend[oō]\s*weyarn/i, existingSlug: "domicilium-weyarn" },
 ];
 
 function isDuplicate(name: string): string | null {
@@ -121,6 +182,38 @@ function isDuplicate(name: string): string | null {
   const ascii = stripDiacritics(name).toLowerCase();
   for (const { pattern, existingSlug } of DUP_PATTERNS) {
     if (pattern.test(name) || pattern.test(ascii)) return existingSlug;
+  }
+  return null;
+}
+
+/**
+ * Places a research pass collected that do not belong on this map.
+ *
+ * This atlas charts Chan / Seon / Thiền / Zen places of practice. A temple
+ * of another tradition is not a lesser thing — it simply is not what this
+ * map is about, and filing it under a Zen school puts a lineage claim on a
+ * community that never made one. Removing it respects both traditions more
+ * than an incorrect label would.
+ *
+ * Keyed by the raw `name`; the reason is required so nothing is ever
+ * dropped silently or without an argument attached.
+ */
+const NOT_A_ZEN_PLACE: { pattern: RegExp; reason: string }[] = [
+  {
+    pattern: /phước\s*hải|phuoc\s*hai|ngọc\s*hoàng|ngoc\s*hoang|jade\s*emperor/i,
+    reason:
+      "Chùa Ngọc Hoàng / Phước Hải Tự, 73 Mai Thị Lựu, HCMC — the Jade Emperor Pagoda. " +
+      "Founded 1909 by the Cantonese merchant Liu Daoyuan and dedicated to the Jade " +
+      "Emperor; Wikipedia, the listing's own source, describes it as a Taoist, Buddhist " +
+      "and Confucian temple. It is a syncretic Taoist foundation, not a Thiền practice " +
+      "centre, and the raw entry's 'Lâm Tế-affiliated' note is unsupported.",
+  },
+];
+
+function notAZenPlace(name: string): string | null {
+  const ascii = stripDiacritics(name).toLowerCase();
+  for (const { pattern, reason } of NOT_A_ZEN_PLACE) {
+    if (pattern.test(name) || pattern.test(ascii)) return reason;
   }
   return null;
 }
@@ -201,6 +294,24 @@ function canonicalizeLineage(rawLineage: string, school: string): string {
 }
 
 // Lineage free-text → school slug (must match a row in `schools`).
+/**
+ * Free-text lineage → school slug.
+ *
+ * Two rules govern this map, both learned the hard way:
+ *
+ * 1. **Never assert an affiliation the listing does not evidence.** The
+ *    fallback is `"other"`, not `"soto"`. A sangha that describes itself as
+ *    "Zen (lineage not specified)" is not Sōtō, and filing it under Sōtō
+ *    puts a made-up institutional claim on someone else's practice. Sōtō is
+ *    returned only when a Sōtō marker is actually present.
+ *
+ * 2. **Order is load-bearing, because names collide.** "Harada" is two
+ *    different lineages: Harada Daiun Sōgaku founded the Harada–Yasutani
+ *    stream, while Shōdō Harada Rōshi teaches Rinzai at Sōgen-ji. Matching
+ *    bare "harada" files a dozen One Drop Rinzai dōjō under Sanbō Zen. Match
+ *    "yasutani" instead, and let the specific networks win before the
+ *    tradition-level fallbacks.
+ */
 function lineageToSchoolSlug(lineage: string): string {
   const l = lineage.toLowerCase();
   // Korean orders — check specific orders before the generic "seon" fallback.
@@ -208,7 +319,22 @@ function lineageToSchoolSlug(lineage: string): string {
   if (l.includes("jogye") || l.includes("chogye")) return "jogye";
   if (l.includes("taego")) return "taego-order";
   if (l.includes("cheontae") || l.includes("tiantai")) return "other";
-  if (l.includes("seon")) return "jogye"; // generic Korean Seon → default to Jogye (largest order)
+  // Independent Korean orders and teachers who are emphatically not Jogye:
+  // Samu Sunim's Buddhist Society for Compassionate Wisdom, and the Yun Hwa
+  // order of Ji Kwang Dae Poep Sa Nim. Naming either as Jogye asserts a
+  // membership that does not exist.
+  if (
+    l.includes("samu sunim") ||
+    l.includes("compassionate wisdom") ||
+    l.includes("yun hwa") ||
+    l.includes("world social buddhism")
+  )
+    return "seon";
+  // Generic Korean Seon with no order named → the tradition bucket, which is
+  // true of every Korean Seon group, rather than the largest order, which is
+  // a guess about who they belong to.
+  if (l.includes("seon") || l.includes("sŏn") || l.includes("son buddhism"))
+    return "seon";
   // Vietnamese Thiền — check specific schools before generic Plum Village fallback.
   if (l.includes("trúc lâm") || l.includes("truc lam")) return "truc-lam";
   if (l.includes("lâm tế") || l.includes("lam te")) return "lam-te";
@@ -222,23 +348,116 @@ function lineageToSchoolSlug(lineage: string): string {
   // Generic Vietnamese Thiền with no subschool marker — bucket as "other"
   // rather than blindly assigning Plum Village.
   if (l.includes("thiền") || l.includes("thien")) return "other";
-  if (l.includes("sanbō zen") || l.includes("sanbo zen")) return "sanbo-zen";
+
+  // Rinzai networks that carry a colliding name. These MUST resolve before
+  // the Harada–Yasutani rule below, or the wrong pattern claims them.
+  //   · Shōdō Harada Rōshi of Sōgen-ji and the One Drop sangha — "harada"
+  //     here is not Harada Daiun Sōgaku of the Harada–Yasutani stream.
+  //   · Daishin Zen — Hinnerk Polenski's order, an independent Rinzai line
+  //     founded in 1998 with Reiko Mukai Rōshi, who holds Dharma succession
+  //     from Oi Saidan Rōshi of Hōkō-ji. Not to be confused with Willigis
+  //     Jäger's Sanbō-Kyōdan-derived German network, which goes by Leere
+  //     Wolke / West-östliche Weisheit and is matched further down.
+  if (
+    l.includes("one drop") ||
+    l.includes("sogenji") ||
+    l.includes("sōgen-ji") ||
+    l.includes("shodo harada") ||
+    l.includes("shōdō harada") ||
+    l.includes("daishin zen") ||
+    l.includes("polenski") ||
+    /\bmukai\b/.test(l)
+  )
+    return "rinzai";
+
   // White Plum / Maezumi descendants and Bernie Glassman's Zen Peacemakers.
-  // MUST come before "rinzai" / "soto" fallbacks: many White Plum entries
-  // tag themselves "Sōtō / White Plum (Maezumi)" — without this check they
-  // fall to the Sōtō default and the white-plum-asanga school stays empty.
+  // MUST come before the Sanbō and Sōtō rules: White Plum entries tag
+  // themselves "Sōtō / White Plum (Maezumi)" or "Sōtō / Harada-Yasutani /
+  // Tetsugen Serra", and either fallback would swallow them.
+  //   · Mountains and Rivers Order — Daido Loori, a Maezumi Dharma heir.
+  //   · Ordinary Mind Zen School — Joko Beck, a Maezumi Dharma heir.
+  //   · Tetsugen Serra — Dharma heir of Tetsugen Bernie Glassman.
   if (
     l.includes("white plum") ||
     l.includes("maezumi") ||
-    l.includes("peacemaker")
+    l.includes("peacemaker") ||
+    l.includes("mountains and rivers") ||
+    l.includes("mountains & rivers") ||
+    l.includes("loori") ||
+    l.includes("ordinary mind") ||
+    l.includes("joko beck") ||
+    l.includes("tetsugen serra")
   )
     return "white-plum-asanga";
+
+  // The Harada–Yasutani stream: Sanbō Kyōdan and everything that grew out of
+  // it. These are lay-ordination koan lineages descending from Harada Daiun
+  // Sōgaku through Yasutani Haku'un — not Sōtō parish Zen, which is where
+  // they all landed before this rule existed.
+  //   · Diamond Sangha — Robert Aitken.
+  //   · Cloud-Water Sangha / Rochester — Philip Kapleau, Bodhin Kjolhede.
+  //   · Leere Wolke — Willigis Jäger, authorised by Yamada Kōun. (His German
+  //     network, distinct from Polenski's Rinzai "Daishin Zen" above.)
+  //   · Zendo Betania / Enomiya-Lassalle — the Christian-Zen line.
+  //   · Pacific Zen Institute — John Tarrant, Aitken's first heir.
+  //   · Bodhi Sangha — Ama Samy, ex-Sanbō Kyōdan.
+  if (
+    l.includes("sanbō") ||
+    l.includes("sanbo") ||
+    l.includes("yasutani") ||
+    l.includes("diamond sangha") ||
+    l.includes("kapleau") ||
+    l.includes("kjolhede") ||
+    l.includes("cloud-water") ||
+    l.includes("rochester") ||
+    l.includes("willigis") ||
+    l.includes("jäger") ||
+    l.includes("leere wolke") ||
+    l.includes("lassalle") ||
+    l.includes("betania") ||
+    l.includes("pacific zen") ||
+    l.includes("tarrant") ||
+    l.includes("ama samy")
+  )
+    return "sanbo-zen";
+
   if (l.includes("rinzai")) return "rinzai";
   if (l.includes("ōbaku") || l.includes("obaku")) return "obaku";
   if (l.includes("chan") || l.includes("ch'an")) return "chan";
-  // Sōtō covers AZI/Deshimaru, Kosen Sangha, Kanshoji, Sotoshu, Dogen Sangha,
-  // Moriyama/Aoyama, Nishijima, etc.
-  return "soto";
+
+  // Sōtō — only on an explicit marker. Covers the Sōtōshū itself and the
+  // teacher-networks that descend from it: AZI/Deshimaru, Kosen Sangha,
+  // Kanshōji, Zen Road, ABZE, Dōgen Sangha, Moriyama, Aoyama, Nishijima,
+  // Antaiji, Suzuki/SFZC, Katagiri, and Jiyu-Kennett's OBC.
+  if (
+    l.includes("sōtō") ||
+    l.includes("soto") ||
+    l.includes("dōgen") ||
+    l.includes("dogen") ||
+    l.includes("deshimaru") ||
+    /\bazi\b/.test(l) ||
+    l.includes("kosen") ||
+    l.includes("kanshoji") ||
+    l.includes("kanshōji") ||
+    l.includes("zen road") ||
+    l.includes("abze") ||
+    l.includes("nishijima") ||
+    l.includes("moriyama") ||
+    l.includes("aoyama") ||
+    l.includes("antaiji") ||
+    l.includes("shasta") ||
+    l.includes("kennett") ||
+    l.includes("contemplatives") ||
+    l.includes("suzuki") ||
+    l.includes("sfzc") ||
+    l.includes("katagiri") ||
+    l.includes("szba")
+  )
+    return "soto";
+
+  // Nothing in the listing evidences a school. Say so, rather than filing
+  // the sangha under whichever tradition happens to be the biggest.
+  return "other";
 }
 
 // Source URL host → registered sourceId.
@@ -334,6 +553,7 @@ function pickSourceId(sourceUrl: string, lineage: string): string {
   if (u.includes("uniaobudista.pt")) return "src_ubp";
   if (u.includes("bouddhisme-france.org")) return "src_bouddhisme_france";
 
+  if (u.includes("budismo.com")) return "src_budismo_com";
   if (u.includes("wikipedia.org")) return "src_wikipedia"; // any-language Wikipedia
 
   // ── Lineage-based fallbacks ─────────────────────────────────────────
@@ -362,13 +582,10 @@ function pickSourceId(sourceUrl: string, lineage: string): string {
 const MANUAL_COORDS: Record<string, ManualCoord> = {
   "Jikishoan Zen Buddhist Community": [-37.7434, 144.9988], // Preston VIC 3072
   "Melbourne Zen Group": [-37.7589, 144.9876], // CERES Environment Park, Brunswick East
-  "Centrum Oko Lesa (Sandō Kaisen — retreat)": [49.8175, 15.473], // Czech centroid (rural retreat, exact loc not public)
+  "Centrum Oko Lesa (Sandō Kaisen — retreat)": [49.8175, 15.473, "city"], // Czech centroid (rural retreat, exact loc not public)
   "Europäisches Zentrum für Meditation und Begegnung Neumühle": [49.4756, 6.5697], // Mettlach-Tünsdorf 66693
   "Sangha Aman à Breman (Plougiel)": [48.7833, -3.2667], // Plougiel, Côtes-d'Armor
-  "Shawbottom Farm Retreat": [52.45, -2.75], // Shropshire approx (WCF retreat venue)
-  "Asian Institute of Applied Buddhism (AIAB) – Lotus Pond Temple": [22.2553, 113.905], // Ngong Ping, Lantau
-  "Dharma Drum Mountain Hong Kong Centre": [22.3373, 114.1467], // Lai Chi Kok, Kowloon
-  "Pu Guang Meditation Center (Chung Tai HK)": [22.278, 114.1747], // Wanchai
+  "Shawbottom Farm Retreat": [52.45, -2.75, "city"], // Shropshire approx (WCF retreat venue)
   "Po Lin Monastery (Po Lin Chansi)": [22.2548, 113.9051], // Ngong Ping plateau, Lantau
   "Lotus Pond Temple (Plum Village Hong Kong, Asian Institute of Applied Buddhism)": [22.2553, 113.905], // Ngong Ping, Lantau
   "Su Bong Zen Monastery": [22.2780, 114.1841], // Causeway Bay, Leighton Rd
@@ -381,15 +598,14 @@ const MANUAL_COORDS: Record<string, ManualCoord> = {
   "Chan Retreat Center Hartovski Vrh (Dharmaloka)": [45.7487977, 15.4331647], // Žumberak Nature Park, HR
   "Bodhi Zendo": [10.241, 77.504], // Perumalmalai, near Kodaikanal
   "Dharma Drum Mountain Malaysia Centre": [3.175, 101.565], // Kwasa Damansara
-  "Zen Peacemakers Lage Landen (ZPLL)": [52.1326, 5.2913], // NL centroid (NL/BE network)
+  "Zen Peacemakers Lage Landen (ZPLL)": [52.1326, 5.2913, "city"], // NL centroid (NL/BE network)
   "Grupa Zen Kwan Um Płock": [52.5468, 19.7064], // Płock
   "Almond Blossom Sangha (Sangha Flor de Amêndoeira)": [37.0194, -7.9304], // Faro, Algarve
   Zengården: [59.45, 15.65], // Finnåker near Arboga
   "Pu Men Temple Hong Kong (Foguangshan)": [22.2757, 114.173], // Wan Chai
-  "Po Lin Monastery": [22.2553, 113.905], // Ngong Ping, Lantau
   "Chi Lin Nunnery": [22.3408, 114.2025], // Diamond Hill, Kowloon
-  "Plum Village Swiss Inter-Sangha": [46.948, 7.4474], // Swiss centroid (Bern); national network
-  "Community of Mindfulness in Israel (Plum Village)": [32.0853, 34.7818], // Tel Aviv (national network)
+  "Plum Village Swiss Inter-Sangha": [46.948, 7.4474, "city"], // Swiss centroid (Bern); national network
+  "Community of Mindfulness in Israel (Plum Village)": [32.0853, 34.7818, "city"], // Tel Aviv (national network)
   "Sangha Amsterdam Oost - Diemen (Plum Village)": [52.3439, 4.9619], // Amsterdam-Oost / Diemen
   // GB entries whose street address Nominatim could not resolve, so the
   // pin silently fell back to a city centroid — which lands in the wrong
@@ -418,6 +634,60 @@ const MANUAL_COORDS: Record<string, ManualCoord> = {
   // shared one pin. OSM nodes for 대흥사 / 미황사.
   "Daeheung-sa": [34.4763626, 126.6159543], // Samsan-myeon, Haenam
   "Mihwang-sa": [34.3825907, 126.5775436], // Songji-myeon, Dalmasan, Haenam
+
+  // ── Ancestral seats pinned to their town, sometimes tens of km away ──
+  // Each pair below shared a single county or city centroid, so two
+  // temples that are a mountain range apart drew one marker. Coordinates
+  // are the Wikipedia infobox value for the temple, cross-checked against
+  // the OSM node for its native name where one exists.
+  //
+  // Hangzhou centroid (30.2489634, 120.2052342) held both of these:
+  "Lingyin Temple": [30.24277778, 120.09666667], // 灵隐寺, Lingyin Rd — ~10km W of the centroid
+  "Jingci Temple": [30.2295, 120.149], // 净慈寺, foot of Nanping Hill by West Lake
+  // Yangzhou centroid (32.3968554, 119.4077658) held both of these:
+  "Daming Temple": [32.42166667, 119.40833333], // 大明寺, middle peak of Shugang Hill
+  "Gaomin Temple": [32.32666667, 119.41277778], // 高旻寺, Hanjiang District — ~10km S of Daming
+  "Guoqing Temple": [29.173141, 121.042594], // 国清寺, Mount Tiantai
+  "Zhenru Chan Temple (Yunju Shan)": [29.097687, 115.591501], // 真如禅寺, Mount Yunju — was ~10km E
+  // Kamakura centroid (35.3192808, 139.5469627) held both of these. They
+  // are the first- and second-ranked temples of the Kamakura Gozan and sit
+  // about 1.5km apart, not on top of one another.
+  "Kenchō-ji": [35.33178889, 139.55534722], // 建長寺, Yamanouchi
+  "Engaku-ji": [35.3377, 139.5475], // 円覚寺, Yamanouchi — north of Kenchō-ji
+  "Daihonzan Sōji-ji Sōin": [37.28638889, 136.77055556], // 總持寺祖院, Monzen, Wajima — was ~16km NE
+  // Daegu centroid (35.8760013, 128.5960548) held both Palgongsan temples:
+  "Donghwa-sa": [35.99305556, 128.70416667], // 동화사, Palgongsan
+  "Pagye-sa": [36.0011, 128.6411], // 파계사, Palgongsan — ~9km W of Donghwa-sa
+  // Gimcheon centroid (36.1398035, 128.1139534) held both of these:
+  "Jikji-sa": [36.1165, 128.00433333], // 직지사, Hwangaksan
+  // Mungyeong centroid (36.5858541, 128.1870612) held both of these:
+  "Bongam-sa": [36.699813, 128.008054], // 봉암사, Huiyangsan — seat of the 1947 Seon reform
+  "Daeseung-sa": [36.749427, 128.272005], // 대승사, Sabulsan — ~24km NE of Bongam-sa
+  // Huế centroid (16.4639321, 107.5863388) held four separate temples:
+  "Chùa Thiên Mụ (Linh Mụ)": [16.453599, 107.544812], // Đồi Hà Khê, Hương Long
+  "Chùa Quốc Ân": [16.442934, 107.587712], // Đặng Huy Trứ, Thuận Hóa
+  "Chùa Báo Quốc": [16.454268, 107.579662], // Bảo Quốc, Thuận Hóa
+
+  // ── 2026-08-13 coverage pass: gap countries ─────────────────────────
+  // Each of these publishes a street address that Nominatim resolved only
+  // to the capital's centroid, so the pin was landing tens of km from the
+  // sangha. Values below are the OSM node for the address itself.
+  "Templo Ryūzan Zuihōji": [-12.127935, -77.020262], // OSM node "Templo Zuihoji", Calle Julián Arias Aragüez 652, Miraflores
+  "Minsk Zen Group": [53.953531, 27.603486], // вуліца Кальцова 28, Sielhaspasiolak, Minsk 220131
+  "One Drop Zen Latvia": [56.956569, 24.126809], // Tērbatas iela 49/51, Centrs, Rīga LV-1011
+  // Dunajska cesta 102 resolves to the SGGOŠ school building — which is
+  // exactly where the sangha says it sits, in the school's dance hall.
+  "One Drop Zendo Slovenija": [46.07314, 14.51343], // SGGOŠ, Dunajska cesta 102, Bežigrad
+  "Comunidad Zen de los Andes": [4.704874, -74.126102], // Carrera 107C at ~#142, Engativá, Bogotá
+  // Ama Samy's newer foundation shares the hill village of Perumalmalai
+  // with Bodhi Zendo; the village, not the building, is what is knowable
+  // from published sources, so this pin says so.
+  "Kanzeon Zendo": [10.265243, 77.547472, "city"], // Perumalmalai, Kodaikanal 624101
+  // Five Trúc Lâm monasteries in Phước Thái, Đồng Nai were stacked on one
+  // provincial centroid. OSM has nodes for two of them; the rest keep a
+  // town-level pin, which the map now labels as approximate.
+  "Thiền viện Thường Chiếu": [10.684166, 107.026441], // Ấp 1C, Xã Phước Thái
+  "Thiền viện Linh Chiếu": [10.685185, 107.024108], // Hiền Đức, Xã Phước Thái
 };
 
 type Cache = Record<string, [number, number] | null>;
@@ -456,7 +726,7 @@ interface GeneratedEntry {
   schoolSlug: string;
   sourceId: string;
   sourceExcerpt: string;
-  url: string;
+  url: string | null;
   geoPrecision: GeoPrecision;
   /** Precision came from an explicit MANUAL_COORDS annotation, so the
    * shared-pin reconciliation below leaves it alone. */
@@ -650,9 +920,12 @@ async function main(): Promise<void> {
   let skippedDup = 0;
   let skippedCurated = 0;
   let skippedNoCoords = 0;
+  let skippedNotZen = 0;
+  const excluded: string[] = [];
   const failed: string[] = [];
   const centroidFallbacks: string[] = [];
   const lock = loadCoordinateLock();
+  const seenRawNames = new Set<string>();
   const moved: string[] = [];
   let lockedCount = 0;
 
@@ -671,10 +944,19 @@ async function main(): Promise<void> {
       `\n=== ${filePath} → country=${country} cc=${cc} (${raw.places.length} places) ===`
     );
     for (const p of raw.places) {
+      seenRawNames.add(p.name);
       const dup = isDuplicate(p.name);
       if (dup) {
         skippedDup++;
         console.log(`  skip (dup of ${dup}): ${p.name}`);
+        continue;
+      }
+
+      const notZen = notAZenPlace(p.name);
+      if (notZen) {
+        skippedNotZen++;
+        excluded.push(`${cc}: ${p.name} — ${notZen}`);
+        console.log(`  skip (not a Zen place): ${p.name}`);
         continue;
       }
 
@@ -775,7 +1057,7 @@ async function main(): Promise<void> {
         sourceExcerpt: excerptCanonical,
         url: p.url,
         geoPrecision,
-        precisionPinned: Boolean(manual && manual[2]),
+        precisionPinned: Boolean(manual),
       });
       kept++;
       console.log(`  ✓ ${slug} [${coords[0].toFixed(4)}, ${coords[1].toFixed(4)}]`);
@@ -797,8 +1079,12 @@ async function main(): Promise<void> {
     schoolSlug: ${JSON.stringify(e.schoolSlug)},
     status: "active",
     sourceId: ${JSON.stringify(e.sourceId)},
-    sourceExcerpt: ${JSON.stringify(e.sourceExcerpt)},
-    url: ${JSON.stringify(e.url)},
+    sourceExcerpt: ${JSON.stringify(e.sourceExcerpt)},${
+      // TempleSeed.url is optional, not nullable — a listing with no site
+      // of its own omits the field so the popup falls back to the
+      // directory that lists it.
+      e.url ? `\n    url: ${JSON.stringify(e.url)},` : ""
+    }
     geoPrecision: ${JSON.stringify(e.geoPrecision)},
   },`,
   );
@@ -844,6 +1130,7 @@ ${lines.join("\n")}
   );
   console.log(`  skipped (curated):  ${skippedCurated}`);
   console.log(`  skipped (pattern):  ${skippedDup}`);
+  console.log(`  skipped (not Zen):  ${skippedNotZen}`);
   console.log(`  skipped (geocode):  ${skippedNoCoords}`);
   if (failed.length) {
     console.log(`  failures:`);
@@ -860,6 +1147,25 @@ ${lines.join("\n")}
       `    wrong town when it is ambiguous. Add a MANUAL_COORDS entry for each:`,
     );
     for (const n of centroidFallbacks) console.log(`    - ${n}`);
+  }
+  // MANUAL_COORDS is keyed on the exact raw `name`. When a raw file renames
+  // a place, its override silently stops applying and the hand-verified
+  // coordinate quietly reverts to whatever the geocoder says — which is how
+  // four Hong Kong corrections went dead when their entries were renamed.
+  // The coordinate lock hides this until the generated file is rebuilt from
+  // nothing, so surface it every run.
+  const unusedManual = Object.keys(MANUAL_COORDS).filter(
+    (k) => !seenRawNames.has(k),
+  );
+  if (unusedManual.length) {
+    console.log(
+      `\n  ⚠ MANUAL_COORDS keys matching no raw entry (${unusedManual.length}).`,
+    );
+    console.log(
+      `    Each is a hand-verified coordinate that is no longer being applied —`,
+    );
+    console.log(`    the place was probably renamed. Re-key or delete:`);
+    for (const k of unusedManual) console.log(`    - "${k}"`);
   }
   if (moved.length) {
     console.log(

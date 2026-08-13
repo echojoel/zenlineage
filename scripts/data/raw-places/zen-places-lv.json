@@ -1,14 +1,19 @@
 {
   "_meta": {
     "country": "Latvia",
-    "collectedAt": "2026-05-05",
-    "method": "Web search of Kwan Um Europe directory and Plum Village mindfulness resources",
-    "coverageEstimate": "Very low — Latvia does not appear on major Zen federation directories",
-    "knownGaps": [
-      "Past Plum Village retreat activity in Riga / Jūrmala (mid-1990s, with Arnie Kotler and the 'Jonathan' organization) but no current standing sangha verified",
-      "No Kwan Um Latvia center on kwanumeurope.org",
-      "No active AZI / Sōtō dojo verified"
-    ]
+    "researched": "2026-08-13",
+    "notes": "Latvia's Zen presence is the One Drop Zen sangha in Riga, in Shōdō Harada Rōshi's Rinzai line. Harada Rōshi has led sesshin in Latvia repeatedly since 2006."
   },
-  "places": []
+  "places": [
+    {
+      "name": "One Drop Zen Latvia",
+      "city": "Riga",
+      "region": "Riga",
+      "lineage": "Rinzai (One Drop Zen / Sōgen-ji; Shōdō Harada Rōshi)",
+      "address": "Tērbatas iela 49/51-10, Riga, Latvia",
+      "url": "http://onedropzen.lv/",
+      "source_url": "https://onedropzen.net/",
+      "notes": "Meets at the Anahata studio on Tērbatas iela. Shōdō Harada Rōshi has led mini-sesshin in Latvia in 2006, 2008, 2011, 2014 and 2019."
+    }
+  ]
 }

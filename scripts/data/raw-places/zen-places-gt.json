@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "country": "Guatemala",
+    "researched": "2026-08-13",
+    "notes": "One Zen sangha listed for Guatemala, in the Vietnamese Thiền tradition, at Antigua."
+  },
+  "places": [
+    {
+      "name": "Antigua Sangha",
+      "city": "Antigua Guatemala",
+      "region": "Sacatepéquez",
+      "lineage": "Vietnamese Thiền",
+      "address": "4a Calle Oriente #14, Antigua Guatemala, Guatemala",
+      "url": null,
+      "source_url": "https://www.budismo.com/directorios/guatemala.php",
+      "notes": "Vietnamese Zen sangha meeting c/o Conexión on 4a Calle Oriente; contact Mary Thompson."
+    }
+  ]
+}

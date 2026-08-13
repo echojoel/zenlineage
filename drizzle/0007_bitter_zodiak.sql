@@ -1,0 +1,15 @@
+-- Records what a temple's coordinate actually means.
+--
+-- Roughly half the places of practice have no published street address, so
+-- their pin is the centroid of the town they sit in. Eight London sanghas
+-- shared a point on Charing Cross; Kenchō-ji and Engaku-ji shared one pin in
+-- Kamakura. Without this column the map presents every one of those as the
+-- place's own location.
+--
+-- "exact" — the coordinate is the place itself (its published address, an
+--           OSM node for the temple, or a Wikipedia infobox).
+-- "city"  — a town-level centroid standing in for an address we do not have.
+--
+-- NULL is read as "exact" so hand-curated rows seeded before this column
+-- existed keep their meaning.
+ALTER TABLE `temples` ADD `geo_precision` text;

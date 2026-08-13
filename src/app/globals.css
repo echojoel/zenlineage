@@ -1168,6 +1168,30 @@ body {
   margin: 0.7rem 0 0;
 }
 
+/* Running prose in a detail hero — the sentence naming a master's actual
+   teachers and school on /lineage/<slug>. Reads as body text rather than
+   metadata, so it takes the serif face at a comfortable measure. */
+.detail-prose {
+  margin: 0.9rem 0 0;
+  max-width: 62ch;
+  font-family: var(--font-cormorant), Georgia, serif;
+  font-size: 1.02rem;
+  line-height: 1.6;
+  color: var(--ink);
+}
+
+/* The single line of formal transmission, root first. Numbered but without
+   list markers — the numerals are rendered inline so the generation index
+   sits with the name rather than in a hanging gutter. */
+.lineage-succession {
+  list-style: none;
+  padding-left: 0;
+}
+
+.lineage-succession li {
+  padding: 0.18rem 0;
+}
+
 /* Quiet page-level note — used for the single-sentence "Corrections
    welcome — open an issue." line on detail/index pages. Sits below the
    subtitle, smaller and softer; no chrome, no separator, no icon. */
@@ -2485,6 +2509,18 @@ a.footnote-source-link:hover {
   font-size: 0.75rem;
   letter-spacing: 0.04em;
   color: var(--ink-light);
+}
+
+/* Marks a pin that shows a town centroid rather than the place itself.
+   Deliberately quiet — it is a caveat on the marker, not a warning about
+   the sangha. */
+.practice-map-popup-approx {
+  margin: 0.1rem 0;
+  font-size: 0.7rem;
+  letter-spacing: 0.04em;
+  font-style: italic;
+  color: var(--ink-lighter, var(--ink-light));
+  opacity: 0.85;
 }
 
 .practice-map-popup-link {

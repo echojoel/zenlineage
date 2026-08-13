@@ -5600,5 +5600,94 @@
   "us-sb:Tallahassee, Florida, United States": [
     30.4380832,
     -84.2809332
+  ],
+  "by:Koltsova st. 28/3, Minsk 220131, Belarus, Belarus": null,
+  "by:Minsk, Minsk, Belarus": [
+    53.9154649,
+    27.5508093
+  ],
+  "cl:Carmen 110, Santiago, Chile, Chile": [
+    -33.4446753,
+    -70.6428234
+  ],
+  "co:Carrera 107c #142-75, Bogotá, Colombia, Colombia": null,
+  "cr:Santo Domingo de Heredia, Heredia, Costa Rica": [
+    9.9805903,
+    -84.0907228
+  ],
+  "gt:4a Calle Oriente #14, Antigua Guatemala, Guatemala, Guatemala": [
+    14.5574092,
+    -90.7317969
+  ],
+  "in:Kanzeon Zendo, Perumalmalai, Kodaikanal, Tamil Nadu 624101, India, India": null,
+  "in:Tamsi, Adilabad, Telangana, India": [
+    19.6878291,
+    78.4226954
+  ],
+  "lv:Tērbatas iela 49/51-10, Riga, Latvia, Latvia": null,
+  "lv:Riga, Riga, Latvia": [
+    56.9410379,
+    24.0967724
+  ],
+  "mx:Mérida, Yucatán, Mexico": [
+    20.9670759,
+    -89.6237402
+  ],
+  "my:Pengerang, Johor, Malaysia": [
+    1.3944226,
+    104.2154903
+  ],
+  "my:Muar, Johor, Malaysia": [
+    2.05,
+    102.5666667
+  ],
+  "pe:Julián Arias Aragüez 652, Miraflores, Lima 18, Peru, Peru": null,
+  "pe:Lima, Lima, Peru": [
+    -12.0459808,
+    -77.0305912
+  ],
+  "pe:San Vicente de Cañete, Lima, Peru": [
+    -13.077767,
+    -76.3874465
+  ],
+  "pe:Cusco, Cusco, Peru": [
+    -13.5170887,
+    -71.9785356
+  ],
+  "sg:21 Lorong 25 Geylang, Singapore, Singapore": [
+    1.3153584,
+    103.8824768
+  ],
+  "si:Dunajska cesta 102, 1000 Ljubljana, Slovenia, Slovenia": null,
+  "si:Ljubljana, Ljubljana, Slovenia": [
+    46.0500268,
+    14.5069289
+  ],
+  "ua:Odesa, Odesa Oblast, Ukraine": [
+    46.4843023,
+    30.7322878
+  ],
+  "uy:Hugo Pratto 2212, Montevideo, Uruguay, Uruguay": null,
+  "uy:Montevideo, Montevideo, Uruguay": [
+    -34.9058916,
+    -56.1913095
+  ],
+  "uy:Rambla Concepción del Uruguay esquina Espuelitas, Malvín, Montevideo, Uruguay, Uruguay": null,
+  "uy:Instituto Artigas Sun Yat-Sen, 8 de Octubre 2661, Montevideo, Uruguay, Uruguay": null,
+  "ve:4ta Avenida entre 8va y 9na transversal de Los Palos Grandes, Caracas 1060, Venezuela, Venezuela": null,
+  "ve:Caracas, Distrito Capital, Venezuela": [
+    10.5060934,
+    -66.9146008
+  ],
+  "ve:Avenida Cumanagoto, Quinta Mary Jane, Urbanización Macaracuay, Zona J, Caracas, Venezuela, Venezuela": null,
+  "ve:Calle 64 entre Avenida 4 (Bella Vista) y Santa Rita, Edificio Luis Parejo, Apartamento A9, Planta Baja, Maracaibo, Venezuela, Venezuela": null,
+  "ve:Maracaibo, Zulia, Venezuela": [
+    10.6498095,
+    -71.6443596
+  ],
+  "ve:Urbanización Loma del Este 112-126, Quinta Ruth, Calle Los Geranios, Valencia, Carabobo, Venezuela, Venezuela": null,
+  "ve:Valencia, Carabobo, Venezuela": [
+    10.170026,
+    -68.0003987
   ]
 }

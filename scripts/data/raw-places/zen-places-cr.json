@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "country": "Costa Rica",
+    "researched": "2026-08-13",
+    "notes": "Casa Zen is the long-standing Zen presence in Costa Rica. It publishes a postal box rather than a street address, so the pin resolves only to Santo Domingo de Heredia."
+  },
+  "places": [
+    {
+      "name": "Casa Zen de Costa Rica",
+      "city": "Santo Domingo de Heredia",
+      "region": "Heredia",
+      "lineage": "Zen",
+      "address": null,
+      "url": "http://www.casazen.org/",
+      "source_url": "https://www.budismo.com/directorios/costarica.php",
+      "notes": "Listed with a postal box (Apartado Postal 260-3100) rather than a street address, so the marker shows the town only."
+    }
+  ]
+}

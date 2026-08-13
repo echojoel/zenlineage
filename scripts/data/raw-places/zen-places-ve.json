@@ -1,0 +1,49 @@
+{
+  "_meta": {
+    "country": "Venezuela",
+    "researched": "2026-08-13",
+    "notes": "Venezuelan Zen is predominantly Sōtō, through AZI/Deshimaru-derived groups in Caracas, Maracaibo and Valencia."
+  },
+  "places": [
+    {
+      "name": "Centro Zen Bodaishin",
+      "city": "Caracas",
+      "region": "Distrito Capital",
+      "lineage": "Sōtō",
+      "address": "4ta Avenida entre 8va y 9na transversal de Los Palos Grandes, Caracas 1060, Venezuela",
+      "url": null,
+      "source_url": "https://www.budismo.com/directorios/venezuela.php",
+      "notes": "Sōtō Zen centre in the Los Palos Grandes district of Caracas."
+    },
+    {
+      "name": "Caracas Sōtō Zen",
+      "city": "Caracas",
+      "region": "Distrito Capital",
+      "lineage": "Sōtō",
+      "address": "Avenida Cumanagoto, Quinta Mary Jane, Urbanización Macaracuay, Zona J, Caracas, Venezuela",
+      "url": null,
+      "source_url": "https://www.budismo.com/directorios/venezuela.php",
+      "notes": "Sōtō Zen practice group in the Macaracuay district of Caracas."
+    },
+    {
+      "name": "Grupo Zen AZI Maracaibo",
+      "city": "Maracaibo",
+      "region": "Zulia",
+      "lineage": "Sōtō / Deshimaru (AZI)",
+      "address": "Calle 64 entre Avenida 4 (Bella Vista) y Santa Rita, Edificio Luis Parejo, Apartamento A9, Planta Baja, Maracaibo, Venezuela",
+      "url": null,
+      "source_url": "https://www.budismo.com/directorios/venezuela.php",
+      "notes": "Association Zen Internationale group in Maracaibo."
+    },
+    {
+      "name": "Grupo Zen AZI Valencia",
+      "city": "Valencia",
+      "region": "Carabobo",
+      "lineage": "Sōtō / Deshimaru (AZI)",
+      "address": "Urbanización Loma del Este 112-126, Quinta Ruth, Calle Los Geranios, Valencia, Carabobo, Venezuela",
+      "url": null,
+      "source_url": "https://www.budismo.com/directorios/venezuela.php",
+      "notes": "Association Zen Internationale group in Valencia, Carabobo state."
+    }
+  ]
+}

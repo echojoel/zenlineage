@@ -7,7 +7,8 @@
     "knownGaps": [
       "No standing Plum Village monastery in India verified; Plum Village India activity is limited to occasional retreats and lay sanghas.",
       "Buddha-vacana Zen India referenced in brief not located via sourced URL.",
-      "No Sotoshu-listed Soto Zen temple in India found in official directory."
+      "No Sotoshu-listed Soto Zen temple in India found in official directory.",
+      "Groups trading as 'Zen' in Mumbai and Bangalore (Samurai Zen, and various Meetup circles) are secular mindfulness or martial-arts businesses with no Zen Buddhist lineage or transmission, and are deliberately excluded — 2026-08-13."
     ]
   },
   "places": [
@@ -20,6 +21,26 @@
       "url": "https://www.bodhizendo.org/",
       "source_url": "https://en.wikipedia.org/wiki/Ama_Samy",
       "notes": "Sanbo Zen monastery founded 1996 by AMA Samy (Yamada Koun Roshi-authorized teacher, 1982). Long and short sesshin in the Sanbo Kyodan tradition; integrates Christian, Buddhist and Advaita strands."
+    },
+    {
+      "name": "Kanzeon Zendo",
+      "city": "Perumalmalai (near Kodaikanal)",
+      "region": "Tamil Nadu",
+      "lineage": "Sanbo Zen (Sanbo Kyodan; Ama Samy)",
+      "address": "Kanzeon Zendo, Perumalmalai, Kodaikanal, Tamil Nadu 624101, India",
+      "url": "https://kanzeonzendo.in/",
+      "source_url": "https://kanzeonzendo.in/",
+      "notes": "Established 2022 by Ama Samy, who had founded Bodhi Zendo in 1996 and handed it to his successor Fr. Cyril Mathew. A distinct foundation in the same hill village; his teaching draws on both Sōtō and Rinzai."
+    },
+    {
+      "name": "Indozan Sogenji",
+      "city": "Tamsi, Adilabad",
+      "region": "Telangana",
+      "lineage": "Rinzai (One Drop Zen / Sōgen-ji; Shōdō Harada Rōshi)",
+      "address": null,
+      "url": "https://zenmonasteryindia.weebly.com/about.html",
+      "source_url": "https://onedropzen.net/",
+      "notes": "Rinzai monastery in the hills of Adilabad, established by Harada Rōshi's Indian student Bodhidhamma Osho; Shōdō Harada and Bodhidhamma became co-abbots on 25 August 2016. One of the four monasteries of the One Drop Zen community, with Sōgen-ji (Japan), Tahoma (USA) and Hokuozan (Germany). No street address is published."
     }
   ]
 }

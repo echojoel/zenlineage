@@ -48,6 +48,12 @@ interface TempleFeature {
   imageUrl: string | null;
   /** Alt text describing the temple in the image. */
   imageAlt: string | null;
+  /** "city" when the pin is a town-level centroid standing in for an
+   * address we do not have, rather than the place itself. The popup says
+   * so — a sitting group that meets in a rented hall is not located at the
+   * town hall, and sending someone to the wrong door is worse than
+   * admitting we only know the town. */
+  geoPrecision: string | null;
 }
 
 interface SchoolOption {
@@ -172,6 +178,7 @@ export default function PracticeMap({ initialSchool, selectedSchool }: PracticeM
             sourceTitle: t.sourceTitle,
             imageUrl: t.imageUrl,
             imageAlt: t.imageAlt,
+            geoPrecision: t.geoPrecision,
           },
         }));
 
@@ -479,6 +486,9 @@ function renderPopupHTML(p: Record<string, unknown>): string {
   const region = p.region ? escapeHtml(p.region) : null;
   const country = p.country ? escapeHtml(p.country) : null;
   const location = [region, country].filter(Boolean).join(", ");
+  // A centroid pin is the town, not the place. Say which, so nobody plans a
+  // journey to a coordinate we never claimed to know.
+  const approximate = p.geoPrecision === "city";
   const founded = p.foundedYear
     ? `${p.foundedPrecision === "circa" ? "c. " : ""}${p.foundedYear}`
     : null;
@@ -516,6 +526,9 @@ function renderPopupHTML(p: Record<string, unknown>): string {
       <h4>${name}</h4>
       ${nativeName ? `<p class="practice-map-popup-native" lang="ja ko zh vi">${nativeName}</p>` : ""}
       ${location ? `<p class="practice-map-popup-meta">${location}</p>` : ""}
+      ${approximate
+        ? `<p class="practice-map-popup-approx" title="This place has not published a street address we could verify, so the marker shows its town rather than the building.">Approximate location — town only</p>`
+        : ""}
       ${founded ? `<p class="practice-map-popup-meta">Founded ${founded}</p>` : ""}
       ${schoolSlug && schoolName
         ? `<p class="practice-map-popup-link"><a href="/schools/${schoolSlug}">${schoolName}</a></p>`

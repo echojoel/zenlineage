@@ -50,6 +50,13 @@
       "when": 1782737501148,
       "tag": "0006_lineage_boundary",
       "breakpoints": true
+    },
+    {
+      "idx": 7,
+      "version": "6",
+      "when": 1786656973007,
+      "tag": "0007_bitter_zodiak",
+      "breakpoints": true
     }
   ]
 }

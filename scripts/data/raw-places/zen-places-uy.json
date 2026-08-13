@@ -1,0 +1,39 @@
+{
+  "_meta": {
+    "country": "Uruguay",
+    "researched": "2026-08-13",
+    "notes": "Uruguayan Zen is Sōtō, split between an AZI/Deshimaru-derived dōjō and the Asociación Zen del Uruguay."
+  },
+  "places": [
+    {
+      "name": "Asociación Zen del Uruguay — Zendo de los Tres Tesoros",
+      "city": "Montevideo",
+      "region": "Montevideo",
+      "lineage": "Sōtō",
+      "address": "Hugo Pratto 2212, Montevideo, Uruguay",
+      "url": "https://www.mapeosociedadcivil.uy/organizaciones/centro-zen-de-montevideo/",
+      "source_url": "https://www.budismo.com/directorios/uruguay.php",
+      "notes": "Sōtō Zen association in Montevideo; the Zendo de los Tres Tesoros is its practice hall."
+    },
+    {
+      "name": "Dōjō Zen de Montevideo",
+      "city": "Montevideo",
+      "region": "Montevideo",
+      "lineage": "Sōtō / Deshimaru (Kosen Sangha)",
+      "address": "Rambla Concepción del Uruguay esquina Espuelitas, Malvín, Montevideo, Uruguay",
+      "url": "https://www.zen-deshimaru.com/es/dojos/dojo-zen-de-montevideo",
+      "source_url": "https://zen-deshimaru.com.ar/dojo-zen-de-montevideo/",
+      "notes": "Daily zazen in the Malvín district; introduction to zazen every Monday. Part of the Deshimaru-lineage network."
+    },
+    {
+      "name": "Grupo Zen A.Z.I. Montevideo",
+      "city": "Montevideo",
+      "region": "Montevideo",
+      "lineage": "Sōtō / Deshimaru (AZI)",
+      "address": "Instituto Artigas Sun Yat-Sen, 8 de Octubre 2661, Montevideo, Uruguay",
+      "url": null,
+      "source_url": "https://www.budismo.com/directorios/uruguay.php",
+      "notes": "Association Zen Internationale group meeting at the Instituto Artigas Sun Yat-Sen."
+    }
+  ]
+}

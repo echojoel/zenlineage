@@ -1,14 +1,19 @@
 {
   "_meta": {
     "country": "Slovenia",
-    "collectedAt": "2026-05-05",
-    "method": "Web search of Kwan Um Europe directory and Plum Village resources",
-    "coverageEstimate": "Low — Slovenia does not appear on Kwan Um Europe centers directory (May 2026)",
-    "knownGaps": [
-      "No Kwan Um Slovenia center listed on kwanumeurope.org locations page",
-      "No Plum Village Slovenia lay sangha verified with stable URL",
-      "No active Sōtō / AZI dojo verified in Ljubljana or Maribor"
-    ]
+    "researched": "2026-08-13",
+    "notes": "Slovenia's Zen presence is the One Drop Zen sangha in Ljubljana, in Shōdō Harada Rōshi's Rinzai line; he visits several times a year to lead sesshin."
   },
-  "places": []
+  "places": [
+    {
+      "name": "One Drop Zendo Slovenija",
+      "city": "Ljubljana",
+      "region": "Ljubljana",
+      "lineage": "Rinzai (One Drop Zen / Sōgen-ji; Shōdō Harada Rōshi)",
+      "address": "Dunajska cesta 102, 1000 Ljubljana, Slovenia",
+      "url": "http://www.zendo.si/",
+      "source_url": "https://onedropzen.net/",
+      "notes": "Practises in the dance hall of the SGGOŠ on Dunajska cesta. Shōdō Harada Rōshi visits five to six times a year to lead sesshin."
+    }
+  ]
 }

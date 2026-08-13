@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "country": "Ukraine",
+    "researched": "2026-08-13",
+    "notes": "The Kwan Um School of Zen Europe lists one Ukrainian group, in Odesa. It publishes a contact email but no street address, so the marker resolves to the city only."
+  },
+  "places": [
+    {
+      "name": "Odesa Zen Group",
+      "city": "Odesa",
+      "region": "Odesa Oblast",
+      "lineage": "Kwan Um School of Zen (Korean Seon, Seung Sahn lineage)",
+      "address": null,
+      "url": "https://www.kwanumeurope.org/locations/odessa/",
+      "source_url": "https://www.kwanumeurope.org/locations/odessa/",
+      "notes": "Kwan Um School of Zen group listed by the school's European office; contact is by email only, with no published practice address."
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "_meta": {
+    "country": "Peru",
+    "researched": "2026-08-13",
+    "notes": "Sōtō Zen reached Peru with Japanese immigration; Taiheizan Jionji (1907) is the oldest Zen temple in Latin America. The Comunidad Budista Sōtō Zenshū del Perú is the Sōtōshū-affiliated body."
+  },
+  "places": [
+    {
+      "name": "Templo Ryūzan Zuihōji",
+      "city": "Lima",
+      "region": "Lima",
+      "lineage": "Sōtō (Comunidad Budista Sōtō Zenshū del Perú)",
+      "address": "Julián Arias Aragüez 652, Miraflores, Lima 18, Peru",
+      "url": "https://www.sotozenperu.com/",
+      "source_url": "https://www.budismo.com/directorios/peru.php",
+      "notes": "Founded 2005 in Miraflores; the urban temple of the Comunidad Budista Sōtō Zenshū del Perú and its main zazen venue."
+    },
+    {
+      "name": "Templo Taiheizan Jionji",
+      "city": "San Vicente de Cañete",
+      "region": "Lima",
+      "lineage": "Sōtō (Sōtōshū)",
+      "address": null,
+      "url": "https://www.sotozenperu.com/la-comunidad-zen",
+      "source_url": "https://espanol.buddhistdoor.net/el-templo-taiheizan-jionji-en-lima-peru-el-mas-antiguo-de-latinoamerica/",
+      "notes": "Founded 1907, ~140km south of Lima — the oldest Zen temple in Latin America, established by the Japanese immigrant community. Hosts intensive zazen and baika chanting."
+    },
+    {
+      "name": "Espacio de Práctica Zen Cusco",
+      "city": "Cusco",
+      "region": "Cusco",
+      "lineage": "Sōtō (Comunidad Budista Sōtō Zenshū del Perú)",
+      "address": null,
+      "url": "https://www.sotozenperu.com/la-comunidad-zen",
+      "source_url": "https://www.sotozenperu.com/la-comunidad-zen",
+      "notes": "Practice space opened 2012; the Andean branch of the Peruvian Sōtō community."
+    }
+  ]
+}

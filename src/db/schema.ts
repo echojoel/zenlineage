@@ -141,6 +141,11 @@ export const temples = sqliteTable("temples", {
   slug: text("slug").notNull().unique(),
   lat: real("lat"),
   lng: real("lng"),
+  /** What the pin means: "exact" is the place itself, "city" is a
+   * town-level centroid standing in for an address we do not have.
+   * Rendered as an "approximate location" note so a centroid is never
+   * presented as a temple's own location. See TempleSeed.geoPrecision. */
+  geoPrecision: text("geo_precision"),
   region: text("region"),
   country: text("country"),
   foundedYear: integer("founded_year"),
