@@ -3,6 +3,17 @@
  * Source: scripts/data/raw/zen-places-*.json. Do not hand-edit; re-run
  * the builder after editing the raw JSON or the lineage→slug mapping.
  *
+ * Coordinates are LOCKED: on each run the builder reads the pins already
+ * committed here and reuses them, because Nominatim's answers drift and a
+ * plain re-run would otherwise downgrade street-level pins to town
+ * centroids. To move a pin, add a MANUAL_COORDS entry in the builder —
+ * that is the only path that records why it moved.
+ *
+ * `geoPrecision` says what the pin means: "exact" is the place itself,
+ * "city" is a town-level centroid standing in for an address we do not
+ * have. The map labels the latter as approximate rather than presenting
+ * a guess as a temple's location.
+ *
  * Coordinates: OpenStreetMap Nominatim — street address when supplied
  * by the source listing, falling back to commune centroid. Multiple
  * dojos in the same commune may share a pin until we have street
@@ -26,6 +37,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sotozen_jp",
     sourceExcerpt: "Nanzenji — Asociación de Budismo Sōtō Zen de Argentina (Comunidad Zen del Sur) — listed at www.sotozen.com (Sōtō (Sōtōshū-affiliated)). Founded 2005. Argentina's primary Sōtōshū-affiliated zen community (Comunidad Zen del Sur, Asociación Civil).",
     url: "https://www.nanzenji.com.ar/",
+    geoPrecision: "city",
   },
   {
     slug: "dojo-zen-de-buenos-aires-ho-sen",
@@ -41,6 +53,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_kosen_sangha",
     sourceExcerpt: "Dōjō Zen de Buenos Aires — 'Ho Sen' — listed at www.zen-deshimaru.com (Sōtō / Deshimaru (Kosen Sangha; Maestro Tai Gen Yamauchi)). Urban dōjō of the Kosen Sangha in Buenos Aires.",
     url: "https://dojozenbuenosaires.com.ar/",
+    geoPrecision: "city",
   },
   {
     slug: "ermita-de-paja-centro-de-practica-zen",
@@ -56,6 +69,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Ermita de Paja — Centro de Práctica Zen — listed at www.budismo.com (Sōtō Zen (Ryūnan Jorge Bustamante)). Founded 1992 by monk Ryūnan Jorge Bustamante; spacious facility for regular zazen and intensive sesshin.",
     url: "https://www.zazen.com.ar/",
+    geoPrecision: "exact",
   },
   {
     slug: "dojo-zen-rosario",
@@ -71,6 +85,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_kosen_sangha",
     sourceExcerpt: "Dōjō Zen Rosario — listed at zen-deshimaru.com.ar (Sōtō / Deshimaru (Kosen Sangha)). Kosen Sangha Argentine dōjō network.",
     url: "https://zen-deshimaru.com.ar/dojos/",
+    geoPrecision: "city",
   },
   {
     slug: "dojo-zen-cordoba",
@@ -86,6 +101,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_kosen_sangha",
     sourceExcerpt: "Dōjō Zen Córdoba — listed at zen-deshimaru.com.ar (Sōtō / Deshimaru (Kosen Sangha)). Kosen Sangha Argentine dōjō network.",
     url: "https://zen-deshimaru.com.ar/dojos/",
+    geoPrecision: "city",
   },
   {
     slug: "dojo-zen-la-plata",
@@ -101,6 +117,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_kosen_sangha",
     sourceExcerpt: "Dōjō Zen La Plata — listed at zen-deshimaru.com.ar (Sōtō / Deshimaru (Kosen Sangha)). Kosen Sangha Argentine dōjō network.",
     url: "https://zen-deshimaru.com.ar/dojos/",
+    geoPrecision: "city",
   },
   {
     slug: "dojo-zen-mar-del-plata",
@@ -116,6 +133,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_kosen_sangha",
     sourceExcerpt: "Dōjō Zen Mar del Plata — listed at zen-deshimaru.com.ar (Sōtō / Deshimaru (Kosen Sangha)). Kosen Sangha Argentine dōjō network.",
     url: "https://zen-deshimaru.com.ar/dojos/",
+    geoPrecision: "city",
   },
   {
     slug: "dojo-zen-salta",
@@ -131,6 +149,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_kosen_sangha",
     sourceExcerpt: "Dōjō Zen Salta — listed at zen-deshimaru.com.ar (Sōtō / Deshimaru (Kosen Sangha)). Kosen Sangha Argentine dōjō network.",
     url: "https://zen-deshimaru.com.ar/dojos/",
+    geoPrecision: "city",
   },
   {
     slug: "dojo-zen-neuquen",
@@ -146,6 +165,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_kosen_sangha",
     sourceExcerpt: "Dōjō Zen Neuquén — listed at zen-deshimaru.com.ar (Sōtō / Deshimaru (Kosen Sangha)). Kosen Sangha Argentine dōjō network.",
     url: "https://zen-deshimaru.com.ar/dojos/",
+    geoPrecision: "city",
   },
   {
     slug: "dojo-zen-trelew",
@@ -161,6 +181,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_kosen_sangha",
     sourceExcerpt: "Dōjō Zen Trelew — listed at zen-deshimaru.com.ar (Sōtō / Deshimaru (Kosen Sangha)). Kosen Sangha Argentine dōjō network.",
     url: "https://zen-deshimaru.com.ar/dojos/",
+    geoPrecision: "city",
   },
   {
     slug: "zen-dojo-internacional-de-buenos-aires",
@@ -176,6 +197,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Zen Dōjō Internacional de Buenos Aires — listed at www.budismo.com (Rinzai (Tenryū-ji, Kyoto; Seizan Feijoo)). Argentina's principal Rinzai practice site; affiliated with Tenryū-ji line. Director: Seizan Feijoo.",
     url: "https://www.budismo.com/directorios/argentina2.php",
+    geoPrecision: "exact",
   },
   {
     slug: "bodhidharma-zendo-wien",
@@ -191,6 +213,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_obr",
     sourceExcerpt: "Bodhidharma Zendo Wien — listed at buddhismus-austria.at (Rinzai (Joshu Sasaki Roshi / Rinzai-ji line)). Founded 1979. Abbot Seigaku Kigen Osho. ÖBR-registered. Headquarters of an association with affiliated zendos in Graz and Klagenfurt and a country retreat (BergZendo).",
     url: "https://bodhidharmazendo.at/",
+    geoPrecision: "city",
   },
   {
     slug: "bodhidharma-zendo-graz",
@@ -206,6 +229,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_obr",
     sourceExcerpt: "Bodhidharma Zendo Graz — listed at buddhismus-austria.at (Rinzai (Joshu Sasaki Roshi / Rinzai-ji line)). Affiliated branch of Bodhidharma Zendo (Vienna). Distinct from the Soto/Deshimaru Zen Dojo Graz at Werkraum.",
     url: "https://bodhidharmazendo.at/",
+    geoPrecision: "city",
   },
   {
     slug: "zen-zentrum-klagenfurt",
@@ -221,6 +245,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_obr",
     sourceExcerpt: "Zen Zentrum Klagenfurt (Bodhidharma Zendo) — listed at buddhismus-austria.at (Rinzai (Joshu Sasaki Roshi / Rinzai-ji line)). Klagenfurt branch of Bodhidharma Zendo. Zazen Wed 18:00-21:00 and Fri 06:30-08:00.",
     url: "https://www.zenklagenfurt.at/",
+    geoPrecision: "city",
   },
   {
     slug: "hyakujogan-zendo",
@@ -236,6 +261,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Hyakujōgan Zendo (BergZendo) — listed at bergzendo.at (Rinzai (Bodhidharma Zendo / Sasaki line)). Country retreat zendo of Bodhidharma Zendo Wien at ~900m elevation; hosts sesshins and zazenkais.",
     url: "https://bergzendo.at/",
+    geoPrecision: "exact",
   },
   {
     slug: "zen-dojo-wien-mushoju",
@@ -251,6 +277,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_azi",
     sourceExcerpt: "Zen Dojo Wien Mushoju — listed at www.zen-azi.org (Sōtō / Deshimaru (AZI)). Daily zazen in the Soto line; affiliated with Association Zen Internationale (AZI) founded by Taisen Deshimaru.",
     url: "https://zen.wien/",
+    geoPrecision: "exact",
   },
   {
     slug: "zen-dojo-graz",
@@ -266,6 +293,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_azi",
     sourceExcerpt: "Zen Dojo Graz (Werkraumtheater) — listed at www.zen-azi.org (Sōtō / Deshimaru (AZI)). Soto Zen in the Deshimaru lineage; led by Franz Blauensteiner and Rezka Kanzian. AZI-affiliated. AZI office address listed as Weißeneggergasse 3, 8020 Graz.",
     url: "https://www.werkraumtheater.at/zen-dojo-graz/",
+    geoPrecision: "city",
   },
   {
     slug: "zengruppe-wien-zendo-rosinagasse",
@@ -281,6 +309,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Zengruppe Wien / Zendo Rosinagasse — listed at www.zengruppe-wien.at (Zen (Willigis Jäger / Hsin Tao line, Soto-Sanbo hybrid)). Christoph Singer, authorized as Zen teacher by Willigis Jäger and by Hsin Tao (Taiwan). Hosts sesshins at Stift Reichersberg, Maria Luggau, Stift Zwettl and other venues.",
     url: "https://www.zengruppe-wien.at/",
+    geoPrecision: "exact",
   },
   {
     slug: "zen-zentrum-mishoan",
@@ -296,6 +325,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_obr",
     sourceExcerpt: "Zen Zentrum Mishoan — listed at www.buddhismus-austria.at (Rinzai (Chinese/Japanese Rinzai tradition)). Founded 2006 by Dr. Fleur Sakura Wöss and Mag. Paul Hogen Matusek. ÖBR-registered Zen order; own 120m² zendo since 2008.",
     url: "https://mishoan.at/",
+    geoPrecision: "exact",
   },
   {
     slug: "vienna-zen-center",
@@ -311,6 +341,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_kwanum",
     sourceExcerpt: "Vienna Zen Center (Kwan Um School of Zen) — listed at www.kwanumeurope.org (Kwan Um School of Zen (Korean Seon)). Kwan Um School of Zen Austria, founded 1994; ÖBR-registered order.",
     url: "https://www.zen-meditation.wien/",
+    geoPrecision: "city",
   },
   {
     slug: "puregg-haus-der-stille",
@@ -326,6 +357,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_obr",
     sourceExcerpt: "Puregg – Haus der Stille (Jakkoji) — listed at buddhismus-austria.at (Sōtō (Kobun Chino Roshi line / Phoenix Cloud Sangha)). Mountain retreat at ~1300m, active since 1989. Co-founded by Brother David Steindl-Rast and Vanja Palmers. Direction: Angelika Genshin Eller. Note: country brief suggested Sanbō Zen affiliation, but operator and ÖBR list it as Soto/Kobun-Phoenix Cloud.",
     url: "https://www.puregg.at/",
+    geoPrecision: "exact",
   },
   {
     slug: "sanbo-zendo-hallein",
@@ -341,6 +373,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sanbozen",
     sourceExcerpt: "SANBO ZENDO Hallein — listed at www.facebook.com (Sanbō Zen International). Led by Claudia Petschnig. Affiliated with Sanbō Zen International (Yasutani / Yamada Koun line).",
     url: "https://sanbo-zendo-hallein.at/",
+    geoPrecision: "city",
   },
   {
     slug: "zendo-innsbruck",
@@ -356,6 +389,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_iriz_hanazono",
     sourceExcerpt: "Zendo Innsbruck (Bodhidharma) — listed at iriz.hanazono.ac.jp (Rinzai (Joshu Sasaki Roshi line)). Rinzai zendo in Innsbruck listed historically under Herbert Koudela; affiliated with the Bodhidharma/Sasaki line.",
     url: "https://bodhidharmazendo.at/",
+    geoPrecision: "exact",
   },
   {
     slug: "kannon-do-zen-buddhistisches-zentrum-innsbruck",
@@ -371,6 +405,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_iriz_hanazono",
     sourceExcerpt: "Kannon-Do Zen-Buddhistisches Zentrum Innsbruck — listed at iriz.hanazono.ac.jp (Sōtō (Kobun Chino Otogawa Roshi line)). Teacher Peter Chikurin Pfötscher; Soto in the Kobun Chino line.",
     url: "http://www.kannon-do.at/",
+    geoPrecision: "city",
   },
   {
     slug: "zen-gruppe-salzburg",
@@ -386,6 +421,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_iriz_hanazono",
     sourceExcerpt: "Zen Gruppe Salzburg — listed at iriz.hanazono.ac.jp (Rinzai (Joshu Sasaki Roshi line)). Salzburg Rinzai group; teacher Herbert Koudela in the Sasaki/Bodhidharma Zendo network.",
     url: "https://bodhidharmazendo.at/",
+    geoPrecision: "exact",
   },
   {
     slug: "zen-gruppe-linz",
@@ -401,6 +437,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_buddhanet",
     sourceExcerpt: "Zen Gruppe Linz — listed at buddhanet.info (Rinzai (Joshu Sasaki Roshi line)). Linz Rinzai group, teacher Herbert Koudela; part of the Sasaki/Bodhidharma Zendo network.",
     url: "https://bodhidharmazendo.at/",
+    geoPrecision: "exact",
   },
   {
     slug: "zendo-wien",
@@ -416,6 +453,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Zendo Wien (Karl Obermayer) — listed at zendowien.org (Zen (Willigis-Jäger inspired ecumenical Zen)). Vienna Zen group around teacher Karl Obermayer; sesshin venues include Sonnenhofgasse 3.",
     url: "https://zendowien.org/",
+    geoPrecision: "city",
   },
   {
     slug: "stille-in-wien-zen-meditation",
@@ -431,6 +469,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Stille in Wien – Zen-Meditation — listed at www.stille-in-wien.at (Christian-Zen (Hugo Enomiya-Lassalle / Sansui-an / Zendo Betania line)). Zen practice with Dr. Ursula Baatz (Sansui-an, Escuela Zen 'Zendo Betania') in the Lassalle line. Hosted at Kardinal König Haus.",
     url: "https://www.stille-in-wien.at/gebet/zen/",
+    geoPrecision: "city",
   },
   {
     slug: "intersein-sangha-wien",
@@ -446,6 +485,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_obr",
     sourceExcerpt: "Intersein Sangha Wien — listed at www.buddhistisch.at (Plum Village (Thích Nhất Hạnh)). Active since 1998. Weekly Thursday practice 17:30. Part of the Intersein/Plum Village Dhyana School.",
     url: "https://interseinwien.jimdofree.com/",
+    geoPrecision: "city",
   },
   {
     slug: "wake-up-wien",
@@ -461,6 +501,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Wake Up Wien — listed at wkup.org (Plum Village (Thích Nhất Hạnh)). Young-adults sangha (~18-35) in the Plum Village tradition. Address shared on request.",
     url: "https://wkup.org/meetings/wake-up-vienna-wien/",
+    geoPrecision: "city",
   },
   {
     slug: "plum-village-sangha-innsbruck",
@@ -476,6 +517,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_obr",
     sourceExcerpt: "Plum Village Sangha Innsbruck — listed at www.buddhistisch.at (Plum Village (Thích Nhất Hạnh)). Active since 2019. Meets Thursdays 18:00–19:30 at Yoga Mitte.",
     url: "https://sanghainnsbruck.at/",
+    geoPrecision: "exact",
   },
   {
     slug: "intersein-sangha-hall-in-tirol",
@@ -491,6 +533,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Intersein Sangha Hall in Tirol — listed at interseinwien.jimdofree.com (Plum Village (Thích Nhất Hạnh)). Tyrolean Intersein/Plum Village group listed on the Intersein Wien links page.",
     url: "https://interseinwien.jimdofree.com/links/",
+    geoPrecision: "city",
   },
   {
     slug: "sydney-zen-centre",
@@ -506,6 +549,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Sydney Zen Centre — listed at szc.org.au (Diamond Sangha (Aitken / Harada-Yasutani lay Zen)). Founded 1979; affiliated with Diamond Sangha founded by Robert Aitken Roshi. Resident teachers include Subhana Barzaghi Roshi, Paul Maloney Roshi, Maggie Gluek, Jane Andino, Allan Marett.",
     url: "https://szc.org.au/",
+    geoPrecision: "exact",
   },
   {
     slug: "brisbane-zen-group",
@@ -521,6 +565,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_diamond_sangha",
     sourceExcerpt: "Brisbane Zen Group (formerly Brisbane Diamond Sangha) — listed at diamondsangha.org (Diamond Sangha). Brisbane Diamond Sangha presence with Arthur Wells Roshi (now also resident in Brisbane). Listed on diamondsangha.org links page; meets in private homes.",
     url: "https://diamondsangha.org/resources-2/links/",
+    geoPrecision: "city",
   },
   {
     slug: "zen-group-of-western-australia",
@@ -536,6 +581,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Zen Group of Western Australia — listed at www.zgwa.org.au (Diamond Sangha). Founded 1982; resident teacher Ross Bolleter Roshi (transmission from Aitken & Tarrant 1997), co-teacher Mari Rhydwen Roshi.",
     url: "https://www.zgwa.org.au/",
+    geoPrecision: "city",
   },
   {
     slug: "kuan-yin-meditation-centre",
@@ -551,6 +597,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Kuan Yin Meditation Centre — listed at www.kuanyinmeditationcentre.org (Diamond Sangha + Insight (Subhana Barzaghi Roshi)). Purpose-built dojo established by Subhana Barzaghi Roshi; described as the first Zen temple in Australia. Hosts weekly Zen on Mondays.",
     url: "https://www.kuanyinmeditationcentre.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "plum-village-australia",
@@ -566,6 +613,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Plum Village Australia (Stream Entering Monastery / Nhap Luu) — listed at plumvillage.org (Plum Village (Thích Nhất Hạnh)). Nunnery in Plum Village tradition founded 2010 (originally at Beaufort VIC; relocated June 2021). Sisters host Days of Mindfulness every Sunday.",
     url: "https://en.nhapluu.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "open-way-zen-brisbane",
@@ -581,6 +629,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Open Way Zen Brisbane — listed at www.openway.org.au (Soto Zen (lineage of Daido Hogen Yamahata)). Supports the Australian teachings of the late Zen Master Daido Hogen Yamahata (d. 2024); regular Wednesday evening sittings.",
     url: "https://www.openway.org.au/",
+    geoPrecision: "city",
   },
   {
     slug: "open-way-zen-byron-bay",
@@ -596,6 +645,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Open Way Zen Byron Bay — listed at www.openway.org.au (Soto Zen (Daido Hogen Yamahata lineage)). Sitting group affiliated with Open Way Zen network; longstanding Hogen-san practice centre region.",
     url: "https://www.openway.org.au/",
+    geoPrecision: "city",
   },
   {
     slug: "open-way-zen-murwillumbah",
@@ -611,6 +661,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Open Way Zen Murwillumbah — listed at www.openway.org.au (Soto Zen (Daido Hogen Yamahata lineage)). Open Way Zen sitting group in northern NSW Tweed Valley.",
     url: "https://www.openway.org.au/",
+    geoPrecision: "city",
   },
   {
     slug: "adelaide-zen-group",
@@ -626,6 +677,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Adelaide Zen Group — listed at sites.google.com (Diamond Sangha). Established 1970s; revitalised 1991. Ross Bolleter Roshi visiting teacher; resident teachers Bob Joyner Roshi, Imelda Carson Roshi (2024), Steve Wigg Roshi (2025); Allan Marett Roshi senior teacher.",
     url: "https://www.azg.org.au/",
+    geoPrecision: "city",
   },
   {
     slug: "melbourne-zen-group",
@@ -641,6 +693,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Melbourne Zen Group — listed at mzg.org.au (Diamond Sangha). Formed 1985 around Robert Aitken Roshi's visits. Visiting teachers Subhana Barzaghi Roshi, Susan Murphy Roshi; local teacher Kirk Fisher Roshi (authorised 2023).",
     url: "https://mzg.org.au/",
+    geoPrecision: "exact",
   },
   {
     slug: "mountains-rivers-zen",
@@ -656,6 +709,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Mountains & Rivers Zen (Hobart) — listed at zenhobart.com (Diamond Sangha (Murphy / Sutherland / Fisher)). Diamond Sangha lineage; teachers Susan Murphy Roshi, Kirk Fisher Sensei, Kynan Sutherland Sensei. Sangha 30+ years old.",
     url: "https://zenhobart.com/",
+    geoPrecision: "city",
   },
   {
     slug: "castlemaine-zen",
@@ -671,6 +725,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Castlemaine Zen — listed at castlemainezen.com.au (Diamond Sangha). Established 2009 by Kynan Sutherland Roshi (transmission from Susan Murphy Roshi 2023) and Chris Barker.",
     url: "https://castlemainezen.com.au/",
+    geoPrecision: "city",
   },
   {
     slug: "mildura-zen-group",
@@ -686,6 +741,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Mildura Zen Group — listed at mildurazengroup.org (Diamond Sangha). Lay Diamond Sangha community in NW Victoria; guiding teacher Wayne Rankin (authorised by Subhana Barzaghi Roshi).",
     url: "https://mildurazengroup.org/",
+    geoPrecision: "city",
   },
   {
     slug: "geelong-zen-group",
@@ -701,6 +757,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Geelong Zen Group — listed at mzg.org.au (Diamond Sangha). Small Diamond Sangha group; meets first Friday of each month 7:30-9:30pm. Linked via Melbourne Zen Group.",
     url: "https://mzg.org.au/links/",
+    geoPrecision: "city",
   },
   {
     slug: "forest-way-zen",
@@ -716,6 +773,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Forest Way Zen — listed at forestwayzen.com.au (Diamond Sangha). Founded 1989 by Barry Farrin Roshi (Sensei 2004, Roshi 2015 in Diamond Sangha). Weekly sittings, regular Zazenkai and 5-day Sesshin.",
     url: "https://forestwayzen.com.au/",
+    geoPrecision: "city",
   },
   {
     slug: "darwin-zen-group",
@@ -731,6 +789,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Darwin Zen Group — listed at dzg.org.au (Diamond Sangha). Resident teacher Justine Mayer Roshi (Mugen Kai), full transmission 2017.",
     url: "https://dzg.org.au/",
+    geoPrecision: "city",
   },
   {
     slug: "black-mountain-zen-group",
@@ -746,6 +805,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Black Mountain Zen Group — listed at blackmountainzen.com (Diamond Sangha). Formerly Canberra Zen Group. Teacher Jeff Ward Roshi, transmission 2017 from Subhana Barzaghi and Paul Maloney.",
     url: "https://blackmountainzen.com/",
+    geoPrecision: "city",
   },
   {
     slug: "twining-vines-zen-centre",
@@ -761,6 +821,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Twining Vines Zen Centre (Katto-an Temple) — listed at netiparekh.com (Soto Zen (Suzuki / Henkel) + Diamond Sangha). Soto Zen temple founded by Rev. Neti Mushin Parekh, ordained 2017, full Soto transmission 2021. Combined Soto Zen / Diamond Sangha sangha.",
     url: "https://netiparekh.com/",
+    geoPrecision: "exact",
   },
   {
     slug: "canberra-soto-zen-group",
@@ -776,6 +837,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Canberra Soto Zen Group — listed at canberrasotozengroup.wixsite.com (Soto Zen (Jikishoan / Korematsu lineage)). Weekly Zazenkai under guidance of Ekai Korematsu Osho (Jikishoan). Sundays 7:30-9:30am, Thursdays 6-8pm.",
     url: "https://www.canberrasotozen.com/",
+    geoPrecision: "exact",
   },
   {
     slug: "bodhimount-zendo",
@@ -791,6 +853,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Bodhimount Zendo — listed at www.bodhizendo.org (Bodhi Sangha (Ama Samy lineage; ex-Sanbo Kyodan)). Established 2015 by Carl Hooper Roshi (independent master under Ama Samy 2016). Bodhi Sangha lineage descended from Yamada Koun / Sanbo Kyodan.",
     url: "http://bodhimountzendo.blogspot.com/",
+    geoPrecision: "exact",
   },
   {
     slug: "mountain-moon-zen-sangha",
@@ -806,6 +869,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sanbozen",
     sourceExcerpt: "Mountain Moon Zen Sangha — listed at mountainmoon.org.au (Sanbo Zen (Sanbo Kyodan)). Founded 1993 by Sei'un An Roselyn Stone Roshi (Sanbo Kyodan authorisation). Active teachers include Liyea Bretz.",
     url: "https://mountainmoon.org.au/",
+    geoPrecision: "exact",
   },
   {
     slug: "sun-mountain-zen",
@@ -821,6 +885,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sanbozen",
     sourceExcerpt: "Sun Mountain Zen — listed at sunmountainzen.org.au (Sanbo Zen). Founded 2003 by Mervyn Lander Roshi (Goun Ken) and Cecilie Lander Roshi (Goen An), Sanbo Zen authorisation. Multiple authorised teachers.",
     url: "https://sunmountainzen.org.au/",
+    geoPrecision: "exact",
   },
   {
     slug: "phoenix-zen-centre",
@@ -836,6 +901,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_kwanum",
     sourceExcerpt: "Phoenix Zen Centre — listed at www.phoenixzencentre.org (Kwan Um School of Zen (Korean Seon)). Opened February 2016. Successor to Queensland Zen Centre (Dae Kwang Sa) opened by Seung Sahn 1994. Mon/Wed/Sun practice schedule.",
     url: "https://www.phoenixzencentre.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "kwan-um-school-of-zen-australia",
@@ -851,6 +917,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_kwanum",
     sourceExcerpt: "Kwan Um School of Zen Australia (Bellbowrie) — listed at kwanumzen.com.au (Kwan Um School of Zen (Korean Seon)). Kwan Um Australia branch group; Thursdays 6:30-8:30pm.",
     url: "https://kwanumzen.com.au/",
+    geoPrecision: "exact",
   },
   {
     slug: "kwan-um-school-of-zen-australia-deception-bay",
@@ -866,6 +933,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_kwanum",
     sourceExcerpt: "Kwan Um School of Zen Australia (Deception Bay) — listed at kwanumzen.com.au (Kwan Um School of Zen (Korean Seon)). Kwan Um Australia branch group; Tuesdays 7-9pm.",
     url: "https://kwanumzen.com.au/",
+    geoPrecision: "exact",
   },
   {
     slug: "kwan-um-school-of-zen-australia-runaway-bay-gold-coast",
@@ -881,6 +949,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_kwanum",
     sourceExcerpt: "Kwan Um School of Zen Australia (Gold Coast) — listed at kwanumzen.com.au (Kwan Um School of Zen (Korean Seon)). Kwan Um Australia Gold Coast branch; Wed & Sat 7am-9pm.",
     url: "https://kwanumzen.com.au/",
+    geoPrecision: "exact",
   },
   {
     slug: "ordinary-mind-zen-brisbane",
@@ -896,6 +965,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Ordinary Mind Zen Brisbane — listed at www.ordinarymind.org.au (Ordinary Mind Zen School (Joko Beck)). Co-founded 1981 by Gregg Howard, who studied with Charlotte Joko Beck. Ordinary Mind Zen School lineage.",
     url: "https://www.ordinarymind.org.au/",
+    geoPrecision: "city",
   },
   {
     slug: "ordinary-mind-zen-melbourne",
@@ -911,6 +981,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Ordinary Mind Zen Melbourne — listed at www.zenmelbourne.com (Ordinary Mind Zen School (Joko Beck / Geoff Dawson)). Teacher Geoff Dawson, Dharma successor of Charlotte Joko Beck (transmission 2003). Began Sydney/Melbourne work in 1998.",
     url: "https://www.zenmelbourne.com/",
+    geoPrecision: "city",
   },
   {
     slug: "ozzen",
@@ -926,6 +997,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "OzZen (Australian Ordinary Mind Zen School) — listed at ordinarymind.com.au (Ordinary Mind Zen School (Magid / Joko Beck)). Founded 2015 by Andrew Sono Tootell (denbo transmission from Barry Magid 2019). Mid-North Coast NSW.",
     url: "https://ordinarymind.com.au/",
+    geoPrecision: "city",
   },
   {
     slug: "blue-mountains-zen-group",
@@ -941,6 +1013,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Blue Mountains Zen Group — listed at szc.org.au (Diamond Sangha). Sangha began 2006; teacher Paul Maloney Roshi from 2011; coordinator/teacher Jane Andino Roshi (transmission 2022). Meets 2nd & 4th Sunday afternoons.",
     url: "https://szc.org.au/other-groups/",
+    geoPrecision: "city",
   },
   {
     slug: "clifton-hill-zendo",
@@ -956,6 +1029,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Clifton Hill Zendo — listed at mzg.org.au (Soto Zen / Mahayana (independent)). Independent sitting community. Sesshins led by visiting Soto Zen teacher Robert Rosenbaum. Regular weekly zazen.",
     url: "https://www.facebook.com/CliftonHillZendo/",
+    geoPrecision: "exact",
   },
   {
     slug: "the-friends-dojo",
@@ -971,6 +1045,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "The Friends Dojo — listed at szc.org.au (Diamond Sangha). Diamond Sangha sitting group with Maggie Gluek (Sydney Zen Centre senior teacher).",
     url: "https://szc.org.au/other-groups/",
+    geoPrecision: "exact",
   },
   {
     slug: "wake-up-melbourne",
@@ -986,6 +1061,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Wake Up Melbourne (Plum Village) — listed at en.nhapluu.org (Plum Village (Thích Nhất Hạnh)). Plum Village Wake Up sangha; meets online Thursdays 7-8:15pm with occasional in-person events. Lay sangha under Nhap Luu monastic guidance.",
     url: "https://wkup.org/",
+    geoPrecision: "city",
   },
   {
     slug: "wake-up-sydney",
@@ -1001,6 +1077,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Wake Up Sydney — listed at wkup.org (Plum Village (Thích Nhất Hạnh)). Wake Up sangha for young adults in Sydney practicing mindfulness in the Plum Village tradition; meets in person on the 1st and 3rd Sunday from 5:00–7:00 p.m. at the Buddhist Library, 90 Church Street, Camperdown, sharing space with all-ages sister sangha Lotus Buds. Group began after Plum Village monastics encouraged local practitioners on retreat to form an Australian Wake Up community.",
     url: "https://wkup.org/meetings/wake-up-sydney/",
+    geoPrecision: "city",
   },
   {
     slug: "kannon-dojo-zen-de-bruxelles",
@@ -1016,6 +1093,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_abze",
     sourceExcerpt: "Kannon Dojo Zen de Bruxelles — listed at abzen.eu (Sōtō / Deshimaru (AZI / AZB)). Founded by former disciples of Maître Deshimaru; responsible: Vinciane Mignolet; AZI / AZB / ABZE-affiliated.",
     url: "http://www.zazen-bru.be/",
+    geoPrecision: "exact",
   },
   {
     slug: "shodo-dojo",
@@ -1031,6 +1109,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_azi",
     sourceExcerpt: "Shodo Dojo (Brussels — Tour à Plomb / Hageltoren) — listed at www.zen-azi.org (Sōtō / Deshimaru (AZI / AZB)). Konrad Kosan Maquestieau and Annemie Genshin Van Attenhoven; sister dojo of Shodo Dojo Halle; affiliated with Ryumonji (Yuno Rech).",
     url: "https://shododojo.be/",
+    geoPrecision: "city",
   },
   {
     slug: "centre-bouddhiste-zen-des-pagodes",
@@ -1046,6 +1125,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Centre Bouddhiste Zen des Pagodes — listed at www.centre-bouddhiste-zen-des-pagodes.be (Sōtō). Active since 2008; weekly zazen Wednesday evenings.",
     url: "https://www.centre-bouddhiste-zen-des-pagodes.be/",
+    geoPrecision: "exact",
   },
   {
     slug: "brussels-zen-center",
@@ -1061,6 +1141,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_kwanum",
     sourceExcerpt: "Brussels Zen Center (Kwan Um School of Zen) — listed at www.kwanumeurope.org (Kwan Um School of Zen (Korean Seon)). Founded 1985; guiding teacher Zen Master Bon Yo; founder Zen Master Seung Sahn; contact Koen Vermeulen.",
     url: "https://www.kwanumzen.be/",
+    geoPrecision: "exact",
   },
   {
     slug: "daisen-centre-zen-bruxelles",
@@ -1076,6 +1157,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Daisen Centre Zen Bruxelles — listed at www.daisen.eu (Sōtō (Didier Ryugen Airvault)). Affiliated with Daisen Centre Zen network; teacher Didier Ryugen Airvault; UBB-registered.",
     url: "https://www.daisen.eu/",
+    geoPrecision: "city",
   },
   {
     slug: "daisen-liege",
@@ -1091,6 +1173,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Daisen-Liège — listed at www.daisen.eu (Sōtō (Didier Ryugen Airvault)). Mondays 12:00; UBB-registered.",
     url: "https://www.daisen.eu/daisen-liege",
+    geoPrecision: "city",
   },
   {
     slug: "daisen-de-panne",
@@ -1106,6 +1189,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Daisen-De Panne — listed at www.daisen.eu (Sōtō (Didier Ryugen Airvault)). Coastal Flanders branch of Daisen Centre Zen.",
     url: "https://www.daisen.eu/",
+    geoPrecision: "city",
   },
   {
     slug: "centre-bouddhiste-zen-du-brabant-wallon-jigendo",
@@ -1121,6 +1205,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_azi",
     sourceExcerpt: "Centre Bouddhiste Zen du Brabant Wallon \"Jigendô\" — listed at azb.be (Sōtō / Deshimaru (AZI / AZB)). AZI Spiritual-Council recognised dojo.",
     url: "https://zenbrabant.be/",
+    geoPrecision: "exact",
   },
   {
     slug: "doshin-dojo-de-charleroi",
@@ -1136,6 +1221,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_azi",
     sourceExcerpt: "Doshin Dojo de Charleroi — listed at azb.be (Sōtō / Deshimaru (AZI / AZB)). Contact Jean-Luc Courbot, 071 51 97 28.",
     url: "http://azb.be/fr/info/dojolist.html",
+    geoPrecision: "exact",
   },
   {
     slug: "groupe-zen-voie-charleroi",
@@ -1151,6 +1237,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_azi",
     sourceExcerpt: "Groupe Zen Voie Charleroi (Sangha de la Voie Zen) — listed at www.zen-azi.org (Sōtō / Deshimaru (AZI)). AZI-listed Charleroi group, distinct from Doshin Dojo.",
     url: "https://www.zen-azi.org/lieudepratiquelist?country=be",
+    geoPrecision: "exact",
   },
   {
     slug: "groupe-zen-de-tournai",
@@ -1166,6 +1253,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_azi",
     sourceExcerpt: "Groupe Zen de Tournai — listed at azb.be (Sōtō / Deshimaru (AZI / AZB)). Contact Guy Muller; affiliated AZB; AZI.",
     url: "https://www.buddhism.be/centreswallonie-fr-1/zen-dojo-tournai",
+    geoPrecision: "exact",
   },
   {
     slug: "groupe-de-liege",
@@ -1181,6 +1269,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_azi",
     sourceExcerpt: "Groupe de Liège (Centre Zen de l'Harmonie Paisible / Seiwa Zendo) — listed at azb.be (Sōtō / Deshimaru (AZI / AZB)). AZB-affiliated; phone 04 223 45 68; zensoto.liege@gmail.com.",
     url: "https://www.facebook.com/seiwazendo/",
+    geoPrecision: "exact",
   },
   {
     slug: "dojo-zen-mons",
@@ -1196,6 +1285,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_azi",
     sourceExcerpt: "Dôjô Zen Mons — listed at www.zen-azi.org (Sōtō / Deshimaru (AZI)). AZI Belgium listing; Sōtō / Deshimaru lineage.",
     url: "https://www.zen-azi.org/lieudepratiquelist?country=be",
+    geoPrecision: "exact",
   },
   {
     slug: "centre-shikantaza-mons",
@@ -1211,6 +1301,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Centre Shikantaza Mons — listed at www.shikantaza.be (Sōtō). Hybrid online + in-person Soto Zen practice in Mons.",
     url: "http://www.shikantaza.be/",
+    geoPrecision: "city",
   },
   {
     slug: "zen-dogen-sangha-belgique-la-hulpe",
@@ -1226,6 +1317,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Zen Dogen Sangha Belgique — La Hulpe — listed at www.zendogensangha.be (Sōtō (Dogen)). Sundays 10:30; first Sunday of month full-day; UBB-registered.",
     url: "https://www.zendogensangha.be/",
+    geoPrecision: "city",
   },
   {
     slug: "zen-dogen-sangha-belgique-louvain-la-neuve",
@@ -1241,6 +1333,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Zen Dogen Sangha Belgique — Louvain-la-Neuve — listed at www.zendogensangha.be (Sōtō (Dogen)). Mondays 10:00–11:30.",
     url: "https://www.zendogensangha.be/",
+    geoPrecision: "city",
   },
   {
     slug: "komyodo-zenboeddhistisch-centrum-leuven",
@@ -1256,6 +1349,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_kanshoji",
     sourceExcerpt: "Komyodo — Zenboeddhistisch Centrum Leuven — listed at www.zendojoleuven.be (Sōtō (Kanshoji / Taiun Faure)). Referent Taiun Jean-Pierre Faure (Kanshoji); UBB-affiliated; six zazen sessions/week.",
     url: "https://www.zendojoleuven.be/",
+    geoPrecision: "exact",
   },
   {
     slug: "zen-sangha-zendo-gent",
@@ -1271,6 +1365,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_whiteplum",
     sourceExcerpt: "Zen Sangha — Zendo Gent (White Plum) — listed at www.zensangha.be (Sōtō / White Plum Asanga (Frank De Waele Roshi)). Frank De Waele Roshi, Dharma successor of Genno Pagès and Bernie Glassman; main zendo of the Zen Sangha network.",
     url: "https://www.zensangha.be/",
+    geoPrecision: "exact",
   },
   {
     slug: "zen-sangha-local-group-antwerpen",
@@ -1286,6 +1381,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_whiteplum",
     sourceExcerpt: "Zen Sangha — local group Antwerpen — listed at www.zensangha.be (Sōtō / White Plum Asanga (Frank De Waele Roshi)). Antwerp local group of Frank De Waele Roshi's sangha; meets weekly.",
     url: "https://www.zensangha.be/",
+    geoPrecision: "exact",
   },
   {
     slug: "zen-sangha-local-group-brussel-bruxelles",
@@ -1301,6 +1397,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_whiteplum",
     sourceExcerpt: "Zen Sangha — local group Brussel/Bruxelles — listed at www.zensangha.be (Sōtō / White Plum Asanga (Frank De Waele Roshi)). Brussels local group of the Zen Sangha (Frank De Waele Roshi).",
     url: "https://www.zensangha.be/",
+    geoPrecision: "exact",
   },
   {
     slug: "zen-sangha-local-group-brugge",
@@ -1316,6 +1413,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_whiteplum",
     sourceExcerpt: "Zen Sangha — local group Brugge — listed at www.zensangha.be (Sōtō / White Plum Asanga (Frank De Waele Roshi)). Bruges local group of Zen Sangha.",
     url: "https://www.zensangha.be/",
+    geoPrecision: "exact",
   },
   {
     slug: "zen-sangha-local-group-mol",
@@ -1331,6 +1429,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_whiteplum",
     sourceExcerpt: "Zen Sangha — local group Mol — listed at www.zensangha.be (Sōtō / White Plum Asanga (Frank De Waele Roshi)). Mol local group of Zen Sangha.",
     url: "https://www.zensangha.be/",
+    geoPrecision: "city",
   },
   {
     slug: "zen-sangha-local-group-lier",
@@ -1346,6 +1445,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_whiteplum",
     sourceExcerpt: "Zen Sangha — local group Lier — listed at www.zensangha.be (Sōtō / White Plum Asanga (Frank De Waele Roshi)). Lier local group of Zen Sangha.",
     url: "https://www.zensangha.be/",
+    geoPrecision: "city",
   },
   {
     slug: "zen-sangha-local-group-ronse",
@@ -1361,6 +1461,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_whiteplum",
     sourceExcerpt: "Zen Sangha — local group Ronse — listed at www.zensangha.be (Sōtō / White Plum Asanga (Frank De Waele Roshi)). Ronse local group of Zen Sangha.",
     url: "https://www.zensangha.be/",
+    geoPrecision: "city",
   },
   {
     slug: "zen-sangha-local-group-zottegem",
@@ -1376,6 +1477,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_whiteplum",
     sourceExcerpt: "Zen Sangha — local group Zottegem — listed at www.zensangha.be (Sōtō / White Plum Asanga (Frank De Waele Roshi)). Zottegem local group of Zen Sangha.",
     url: "https://www.zensangha.be/",
+    geoPrecision: "exact",
   },
   {
     slug: "zen-sangha-local-group-jodoigne",
@@ -1391,6 +1493,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_whiteplum",
     sourceExcerpt: "Zen Sangha — local group Jodoigne — listed at www.zensangha.be (Sōtō / White Plum Asanga (Frank De Waele Roshi)). Walloon local group of the Zen Sangha.",
     url: "https://www.zensangha.be/",
+    geoPrecision: "exact",
   },
   {
     slug: "zenboeddhistisch-centrum-wolk-en-water-brugge",
@@ -1406,6 +1509,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_azi",
     sourceExcerpt: "Zenboeddhistisch Centrum Wolk en Water — Brugge — listed at wolkenwater.be (Sōtō / Deshimaru (AZI / AZB / ABZEN)). Sundays 10:30; Maria van Bourgondiëlaan 60 also listed (8000 Brugge); affiliated AZB/AZI/ABZEN/UBB.",
     url: "https://wolkenwater.be/",
+    geoPrecision: "exact",
   },
   {
     slug: "zenboeddhistisch-centrum-wolk-en-water-oostende",
@@ -1421,6 +1525,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_azi",
     sourceExcerpt: "Zenboeddhistisch Centrum Wolk en Water — Oostende (Kompas) — listed at wolkenwater.be (Sōtō / Deshimaru (AZI / AZB)). Thursdays 19:00; sister of Brugge dojo.",
     url: "https://wolkenwater.be/",
+    geoPrecision: "exact",
   },
   {
     slug: "ho-sen-dojo-antwerpen",
@@ -1436,6 +1541,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_azi",
     sourceExcerpt: "Ho Sen Dojo Antwerpen — listed at zenantwerpen.be (Sōtō / Deshimaru (AZI / Yuno Rech)). Founded late 1980s by Mia Casteleyn (close student of Roland Yuno Rech); zazen 5×/week.",
     url: "https://zenantwerpen.be/",
+    geoPrecision: "exact",
   },
   {
     slug: "zen-voor-a",
@@ -1451,6 +1557,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_azi",
     sourceExcerpt: "Zen voor A (ZenvoorA) — listed at azb.be (Sōtō / Deshimaru (AZB / Yuno Rech)). Roland Yuno Rech lineage; AZB-listed.",
     url: "https://zenvoora.be/",
+    geoPrecision: "exact",
   },
   {
     slug: "ei-gen-zendojo-gent",
@@ -1466,6 +1573,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_azi",
     sourceExcerpt: "Ei Gen Zendojo Gent — listed at www.zazengent.be (Sōtō / Deshimaru (Yuno Rech)). Founded 1975 — first Zen dojo in Flanders; Yuno Rech sangha.",
     url: "http://www.zazengent.be/",
+    geoPrecision: "city",
   },
   {
     slug: "zendo-gyoji",
@@ -1481,6 +1589,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Zendo Gyoji — listed at zenmeditatiehasselt.be (Sōtō). Mondays zazen; phone 0475 40 73 83.",
     url: "http://zenmeditatiehasselt.be/",
+    geoPrecision: "exact",
   },
   {
     slug: "shodo-dojo-halle",
@@ -1496,6 +1605,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_azi",
     sourceExcerpt: "Shodo Dojo Halle (Pavilion of Silence) — listed at azb.be (Sōtō / Deshimaru (AZI / AZB)). Founded 1989; on the Heulenberg; Annemie Genshin Van Attenhoven.",
     url: "https://shododojo.be/",
+    geoPrecision: "exact",
   },
   {
     slug: "zen-dojo-lier",
@@ -1511,6 +1621,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_azi",
     sourceExcerpt: "Zen Dojo Lier — listed at azb.be (Sōtō / Deshimaru (AZB)). Contact Dirk Verbruggen; AZB-affiliated.",
     url: "https://www.zenlier.be/",
+    geoPrecision: "city",
   },
   {
     slug: "groep-van-kortrijk",
@@ -1526,6 +1637,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_azi",
     sourceExcerpt: "Groep van Kortrijk (AZB) — listed at azb.be (Sōtō / Deshimaru (AZI / AZB)). Contact William Van Gaver.",
     url: "http://azb.be/fr/info/dojolist.html",
+    geoPrecision: "city",
   },
   {
     slug: "groep-van-turnhout",
@@ -1541,6 +1653,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_azi",
     sourceExcerpt: "Groep van Turnhout (AZB) — listed at azb.be (Sōtō / Deshimaru (AZI / AZB)). zazenturnhout@gmail.com.",
     url: "http://azb.be/fr/info/dojolist.html",
+    geoPrecision: "exact",
   },
   {
     slug: "zazen-groep-vilvoorde",
@@ -1556,6 +1669,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_azi",
     sourceExcerpt: "Zazen Groep Vilvoorde — listed at azb.be (Sōtō / Deshimaru (AZB)). zenvilvoorde@telenet.be.",
     url: "http://azb.be/fr/info/dojolist.html",
+    geoPrecision: "exact",
   },
   {
     slug: "sangha-de-lotusknop-antwerpen",
@@ -1571,6 +1685,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha De Lotusknop Antwerpen — listed at aandacht.net (Plum Village (Thích Nhất Hạnh)). Lotusknop sangha; Plum Village lay community.",
     url: "https://aandacht.net/meditatiegroepen/sangha-vinden2/item/antwerpen",
+    geoPrecision: "exact",
   },
   {
     slug: "sangha-gent",
@@ -1586,6 +1701,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha Gent (Plum Village) — listed at aandacht.net (Plum Village (Thích Nhất Hạnh)). 1st Wednesday & 3rd Sunday monthly.",
     url: "https://aandacht.net/meditatiegroepen/sangha-vinden2/item/gent-3",
+    geoPrecision: "city",
   },
   {
     slug: "wake-up-sangha-gent",
@@ -1601,6 +1717,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Wake Up Sangha Gent — listed at aandacht.net (Plum Village (Thích Nhất Hạnh)). Wake Up youth sangha — Plum Village lineage.",
     url: "https://www.facebook.com/groups/1326268917442845/",
+    geoPrecision: "city",
   },
   {
     slug: "wake-up-brussels",
@@ -1616,6 +1733,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Wake Up Brussels — listed at aandacht.net (Plum Village (Thích Nhất Hạnh)). Thursday evenings; young-adult Plum Village sangha.",
     url: "https://aandacht.net/meditatiegroepen/sangha-vinden2/item/wake-up-brussels",
+    geoPrecision: "city",
   },
   {
     slug: "wake-up-leuven",
@@ -1631,6 +1749,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Wake Up Leuven — listed at aandacht.net (Plum Village (Thích Nhất Hạnh)). Wake Up youth sangha Leuven.",
     url: "https://wkup.org/wake-up-leuven/",
+    geoPrecision: "city",
   },
   {
     slug: "sangha-le",
@@ -1646,6 +1765,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha Le(u)ven in Aandacht — listed at aandacht.net (Plum Village (Thích Nhất Hạnh)). Plum Village adult sangha Leuven.",
     url: "https://aandacht.net/meditatiegroepen/sangha-vinden2",
+    geoPrecision: "city",
   },
   {
     slug: "sangha-baardegem",
@@ -1661,6 +1781,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha Baardegem (Aalst) — listed at aandacht.net (Plum Village (Thích Nhất Hạnh)). Includes adult sangha and KINDERsangha (children 9–12).",
     url: "https://aandacht.net/meditatiegroepen/sangha-vinden2",
+    geoPrecision: "exact",
   },
   {
     slug: "sangha-mimosa-oostende",
@@ -1676,6 +1797,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha Mimosa Oostende — listed at aandacht.net (Plum Village (Thích Nhất Hạnh)). Plum Village Ostend sangha.",
     url: "https://aandacht.net/meditatiegroepen/sangha-vinden2",
+    geoPrecision: "city",
   },
   {
     slug: "sangha-aan-zee-oostende",
@@ -1691,6 +1813,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha Aan Zee Oostende — listed at aandacht.net (Plum Village (Thích Nhất Hạnh)). Coastal Plum Village sangha.",
     url: "https://aandacht.net/meditatiegroepen/sangha-vinden2",
+    geoPrecision: "city",
   },
   {
     slug: "sangha-pepingen",
@@ -1706,6 +1829,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha Pepingen — listed at aandacht.net (Plum Village (Thích Nhất Hạnh)). Plum Village local sangha.",
     url: "https://aandacht.net/meditatiegroepen/sangha-vinden2",
+    geoPrecision: "exact",
   },
   {
     slug: "sangha-landen",
@@ -1721,6 +1845,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha Landen (Neerwinden) — listed at aandacht.net (Plum Village (Thích Nhất Hạnh)). Plum Village local sangha in Hageland.",
     url: "https://aandacht.net/meditatiegroepen/sangha-vinden2",
+    geoPrecision: "exact",
   },
   {
     slug: "interzijn-in-aandacht-turnhout",
@@ -1736,6 +1861,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Interzijn in Aandacht Turnhout — listed at aandacht.net (Plum Village (Thích Nhất Hạnh)). Plum Village sangha — Kempen region.",
     url: "https://aandacht.net/meditatiegroepen/sangha-vinden2",
+    geoPrecision: "exact",
   },
   {
     slug: "mokusho-zen-house-bulgaria",
@@ -1751,6 +1877,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_azi",
     sourceExcerpt: "Mokusho Zen House Bulgaria — listed at www.facebook.com (Sōtō Zen (Deshimaru-Zeisler line)). Bulgarian branch of the Eastern European Mokusho Zen network (Monk Myoken lineage). Regular zazen and sesshins (e.g. Vratsa).",
     url: "https://www.facebook.com/mokushozen.bg/",
+    geoPrecision: "city",
   },
   {
     slug: "bulgarian-plum-village-sangha",
@@ -1766,6 +1893,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Bulgarian Plum Village Sangha — listed at www.relight.one (Plum Village (Thích Nhất Hạnh)). Active community of mindfulness practitioners in the Plum Village tradition; meets in Sofia.",
     url: "https://www.relight.one/places/bulgarian-plum-village-sangha",
+    geoPrecision: "city",
   },
   {
     slug: "comunidade-budista-soto-zenshu-da-america-do-sul-busshinji",
@@ -1781,6 +1909,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sotozen_jp",
     sourceExcerpt: "Comunidade Budista Sōtō Zenshū da América do Sul — Busshinji — listed at www.sotozen.com (Sōtō (Sōtōshū South America headquarters)). Founded 1956. Official headquarters of Sōtōshū for South America. Hosts the Sul-Americano regional office.",
     url: "http://www.sotozen.org.br",
+    geoPrecision: "exact",
   },
   {
     slug: "comunidade-zen-budista-zendo-brasil-taikozan-tenzuizenji",
@@ -1796,6 +1925,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sotozen_jp",
     sourceExcerpt: "Comunidade Zen Budista Zendo Brasil — Taikōzan Tenzuizenji — listed at www.sotozen.com (Sōtō (Sōtōshū; Monja Coen Rōshi)). Founded by Monja Coen Rōshi. Sōtōshū-registered. Building a permanent temple in Campos do Jordão.",
     url: "https://www.zendobrasil.org.br/",
+    geoPrecision: "exact",
   },
   {
     slug: "daissen-ji-comunidade-zen-budista-de-florianopolis",
@@ -1811,6 +1941,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sotozen_jp",
     sourceExcerpt: "Daissen-ji — Comunidade Zen Budista de Florianópolis — listed at www.sotozen.com (Sōtō (Sōtōshū; Saikawa Rōshi / Gensho Rōshi)). Main seat of the Daissen Zen-Buddhist community network. Linktree: linktr.ee/zendaissen.",
     url: "https://www.daissen.org.br/",
+    geoPrecision: "exact",
   },
   {
     slug: "dojo-daiji-do",
@@ -1826,6 +1957,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sotozen_jp",
     sourceExcerpt: "Dōjō Daiji-dō — listed at www.sotozen.com (Sōtō (Sōtōshū)). Sōtōshū-registered dōjō. Contact: bmitih@gmail.com.",
     url: "https://www.sotozen.com/eng/temples/outside_jp/Brazil/index.html",
+    geoPrecision: "exact",
   },
   {
     slug: "mosteiro-zen-morro-da-vargem-zenkoji",
@@ -1841,6 +1973,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sotozen_jp",
     sourceExcerpt: "Mosteiro Zen Morro da Vargem — Zenkōji — listed at www.sotozen.com (Sōtō (Sōtōshū; Daigyo Moriyama Rōshi lineage)). Long-standing residential monastery with environmental and forest-restoration mission.",
     url: "https://mosteirozen.com.br/",
+    geoPrecision: "city",
   },
   {
     slug: "organizacao-religiosa-budista-zenguenji-do-brasil",
@@ -1856,6 +1989,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sotozen_jp",
     sourceExcerpt: "Organização Religiosa Budista Zenguenji do Brasil — listed at www.sotozen.com (Sōtō (Sōtōshū; Japanese-Brazilian community temple)). Sōtōshū-registered diaspora temple.",
     url: "https://www.sotozen.com/eng/temples/outside_jp/Brazil/index.html",
+    geoPrecision: "city",
   },
   {
     slug: "templo-budista-de-rolandia-dokozan-busshinji-do-brasil",
@@ -1871,6 +2005,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sotozen_jp",
     sourceExcerpt: "Templo Budista de Rolândia — Dōkōzan Busshinji do Brasil — listed at www.sotozen.com (Sōtō (Sōtōshū)). Sōtōshū-registered diaspora temple. Contact: doko-bushin@uol.com.br.",
     url: "https://www.sotozen.com/eng/temples/outside_jp/Brazil/index.html",
+    geoPrecision: "city",
   },
   {
     slug: "templo-enkoji",
@@ -1886,6 +2021,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sotozen_jp",
     sourceExcerpt: "Templo Enkōji — listed at www.sotozen.com (Sōtō (Sōtōshū)). Sōtōshū-registered.",
     url: "https://temploenkoji.org.br/",
+    geoPrecision: "city",
   },
   {
     slug: "templo-zen-das-alterosas-kogakuzenji",
@@ -1901,6 +2037,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sotozen_jp",
     sourceExcerpt: "Templo Zen das Alterosas — Kogakuzenji — listed at www.sotozen.com (Sōtō (Sōtōshū)). Belo Horizonte's Sōtōshū-registered temple.",
     url: "https://www.zen.org.br/",
+    geoPrecision: "exact",
   },
   {
     slug: "templo-zen-taikanji",
@@ -1916,6 +2053,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sotozen_jp",
     sourceExcerpt: "Templo Zen Taikanji — listed at www.sotozen.com (Sōtō (Sōtōshū)). Rural training temple.",
     url: "https://www.taikanji.com.br/",
+    geoPrecision: "city",
   },
   {
     slug: "mosteiro-zen-budista-eishoji-horyuzan",
@@ -1931,6 +2069,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Mosteiro Zen Budista Eishōji — Hōryūzan — listed at www.mosteiroeishoji.org (Sōtō (Tokuda Igarashi Rōshi lineage)). Founded 2001 by Mestre Ryōtan Tokuda Igarashi. 900-hectare ecological sanctuary at 1,200 m altitude.",
     url: "https://www.mosteiroeishoji.org/",
+    geoPrecision: "city",
   },
   {
     slug: "zendo-curitiba",
@@ -1946,6 +2085,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Zendo Curitiba — listed at zendocuritiba.com.br (Sōtō (Sōtōshū; Monja Coen lineage — Ryuzan & Mui Sato)). Founded 3 September 2013 by Ryuzan and Mui Sato, disciples of Monja Coen Rōshi. Affiliated with Zendo Brasil.",
     url: "https://zendocuritiba.com.br/",
+    geoPrecision: "city",
   },
   {
     slug: "via-zen-centro-de-pratica-porto-alegre",
@@ -1961,6 +2101,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Via Zen — Centro de Prática Porto Alegre — listed at www.viazen.org.br (Sōtō (Sōtōshū; Petrópolis sangha lineage)). Founded 1996 (roots in 1970s Porto Alegre zazen group). Affiliated with Eiheiji/Sōjiji headquarters. Contact: secretariaviazen@gmail.com.",
     url: "https://www.viazen.org.br/",
+    geoPrecision: "city",
   },
   {
     slug: "pasargada-ecovillage-sangha-plum-village-brasil",
@@ -1976,6 +2117,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Pasargada Ecovillage — Sangha Plum Village Brasil — listed at www.aoutramargem.org (Plum Village (Thích Nhất Hạnh)). Reference centre for Plum Village tradition in Brazil; sustainability + mindfulness ecovillage.",
     url: "https://www.pasargadaecovillage.com/",
+    geoPrecision: "city",
   },
   {
     slug: "wake-up-sao-paulo-plum-village-young-adults-sangha",
@@ -1991,6 +2133,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Wake Up São Paulo — Plum Village young-adults sangha — listed at plumvillage.org (Plum Village (Thích Nhất Hạnh)). Wake Up sangha for practitioners aged 18-35 in Plum Village tradition.",
     url: "https://wakeupsaopaulo.webnode.page/",
+    geoPrecision: "city",
   },
   {
     slug: "mountain-rain-zen-community",
@@ -2006,6 +2149,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_szba",
     sourceExcerpt: "Mountain Rain Zen Community — listed at www.szba.org (Sōtō (Suzuki Roshi / Everyday Zen / Zoketsu Norman Fischer); SZBA member). Guiding teachers Myoshin Kate McCandless and Shinmon Michael Newton. Wall Street Zendo and Bright Stream Temple (Koryuji).",
     url: "https://www.mountainrainzen.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "zenwest-buddhist-society",
@@ -2021,6 +2165,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Zenwest Buddhist Society — listed at northwestdharma.org (Rinzai (Hakuin lineage; formerly Rinzai-ji, now training under Cho Bo Zen Ji Seattle)). Founded 1980 as Victoria Zen Centre; renamed 2013. Abbot Kosen Eshu Martin Osho (returned 2025). Activities in Victoria, Sooke and Nanaimo.",
     url: "https://www.zenwest.ca/",
+    geoPrecision: "exact",
   },
   {
     slug: "penticton-zen-centre",
@@ -2036,6 +2181,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sanbozen",
     sourceExcerpt: "Penticton Zen Centre — listed at sanbo-zen-international.org (Sanbō Zen (Kamakura, Japan)). Founded 2008 with support of Sister Elaine MacInnes Roshi. Member of Sanbo Zen International.",
     url: "https://pentictonzen.org/",
+    geoPrecision: "city",
   },
   {
     slug: "waves-and-water-sangha",
@@ -2051,6 +2197,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Waves and Water Sangha — listed at wavesandwater.org (Plum Village (Thích Nhất Hạnh)). Weekly Sunday Zoom plus hybrid in-person on last Sunday of month at Mountain Rain Zen.",
     url: "https://wavesandwater.org/site/",
+    geoPrecision: "city",
   },
   {
     slug: "mindfulness-practice-community-of-vancouver",
@@ -2066,6 +2213,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Mindfulness Practice Community of Vancouver — listed at mindfulnessvancouver.org (Plum Village (Thích Nhất Hạnh)). Second Sunday of each month, 6:30-8:30pm.",
     url: "http://mindfulnessvancouver.org/",
+    geoPrecision: "city",
   },
   {
     slug: "calgary-soto-zen",
@@ -2081,6 +2229,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Calgary Sōtō Zen — listed at calgarysotozen.org (Sōtō (Shunryu Suzuki / Everyday Zen / Zoketsu Norman Fischer)). Affiliated with Norman Fischer's Everyday Zen Foundation.",
     url: "http://calgarysotozen.org/",
+    geoPrecision: "city",
   },
   {
     slug: "avatamsaka-monastery",
@@ -2096,6 +2245,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_wikipedia",
     sourceExcerpt: "Avatamsaka Monastery — listed at en.wikipedia.org (Mahayana Chan/Zen (Vietnamese-Chinese hybrid; Five Schools tradition)). Founded 1986; Chan practice within multi-school Mahayana monastery.",
     url: "https://www.avatamsaka.ca/",
+    geoPrecision: "exact",
   },
   {
     slug: "rocky-mountain-zen-edmonton",
@@ -2111,6 +2261,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Rocky Mountain Zen — Edmonton — listed at zenpeacemakers.org (Sōtō (Gyokei Yokoyama, SZBNA)). Founded 2021. Facilitator Ryugen Roth, ordained under Rev. Gyokei Yokoyama (Soto Zen Buddhism North America Office).",
     url: "https://rockymountainzen.weebly.com/",
+    geoPrecision: "city",
   },
   {
     slug: "rocky-mountain-zen-lethbridge",
@@ -2126,6 +2277,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Rocky Mountain Zen — Lethbridge — listed at zenpeacemakers.org (Sōtō (Gyokei Yokoyama, SZBNA)). Sister group to Rocky Mountain Zen Edmonton; same teacher and lineage.",
     url: "https://rockymountainzen.weebly.com/",
+    geoPrecision: "city",
   },
   {
     slug: "serene-reflections",
@@ -2141,6 +2293,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_buddhanet",
     sourceExcerpt: "Serene Reflections (Edmonton) — listed at www.buddhanet.info (Sōtō / Serene Reflection Meditation (OBC, Shasta Abbey lineage)). Lay group affiliated with the Order of Buddhist Contemplatives.",
     url: "https://obcon.org/",
+    geoPrecision: "city",
   },
   {
     slug: "truc-lam-monastery",
@@ -2156,6 +2309,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Trúc Lâm Monastery (Bamboo Forest Monastery) — listed at www.truclam.ca (Vietnamese Thiền (Trúc Lâm; close ties to Plum Village tradition)). Home of Edmonton Buddhist Research Institute; Most Ven. Thích Thiện Tâm and Ven. Abbot Thích Pháp Hòa. Vietnamese Thien with Pure Land elements.",
     url: "https://www.truclam.ca/truclam",
+    geoPrecision: "exact",
   },
   {
     slug: "tay-thien-westlock-meditation-centre",
@@ -2171,6 +2325,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Tây Thiên / Westlock Meditation Centre — listed at www.truclam.ca (Vietnamese Thiền (Trúc Lâm)). Retreat center ~50km northwest of Edmonton, sister site to Trúc Lâm Monastery.",
     url: "https://www.truclam.ca/taythien",
+    geoPrecision: "city",
   },
   {
     slug: "clear-way-zen",
@@ -2186,6 +2341,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Clear Way Zen (formerly Regina Zen Sangha) — listed at www.clearwayzen.ca (Vietnamese Rinzai / Lâm Tế (Nguyên Thiều lineage)). Guided by Zen Teacher Lotus Vu, 43rd generation of the Vietnamese Thiền Lâm Tế Lineage.",
     url: "https://www.clearwayzen.ca/",
+    geoPrecision: "exact",
   },
   {
     slug: "toronto-zen-centre",
@@ -2201,6 +2357,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_wikipedia",
     sourceExcerpt: "Toronto Zen Centre — listed at en.wikipedia.org (Sanbō Kyodan / Kapleau lineage (Soto–Rinzai hybrid)). Founded 1967 by Roshi Philip Kapleau. Current teacher Roshi Taigen Henderson.",
     url: "https://torontozen.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "zen-buddhist-temple-toronto",
@@ -2216,6 +2373,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Zen Buddhist Temple — Toronto — listed at www.zenbuddhisttemple.org (Korean Sŏn / Buddhist Society for Compassionate Wisdom (Samu Sunim)). Founded by Ven. Samu Sunim (1941–2022). Part of BSCW (originally Zen Lotus Society).",
     url: "https://www.zenbuddhisttemple.org/toronto",
+    geoPrecision: "exact",
   },
   {
     slug: "mountain-moon-sangha-toronto",
@@ -2231,6 +2389,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sanbozen",
     sourceExcerpt: "Mountain Moon Sangha — Toronto — listed at sanbo-zen-international.org (Sanbō Zen (Yamada Koun lineage; Sei'un An Roselyn Stone Roshi)). Toronto zendo established 1994. Guided by Sei'un An Roselyn Stone Roshi, authorized Sanbō-Zen master.",
     url: "http://www.amtelecom.net/~dragan/MMS/MMS1.html",
+    geoPrecision: "city",
   },
   {
     slug: "three-treasures-zen-oak-tree-in-the-garden",
@@ -2246,6 +2405,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sanbozen",
     sourceExcerpt: "Three Treasures Zen / Oak Tree in the Garden — listed at www.3-treasures-toronto.com (Sanbō Zen (Yamada Ryoun Roshi; Patrick Gallagher)). Principal teacher Patrick Gallagher, also leads Hamilton and Ottawa groups.",
     url: "https://www.ttzc.org/",
+    geoPrecision: "city",
   },
   {
     slug: "toronto-zendo",
@@ -2261,6 +2421,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sanbozen",
     sourceExcerpt: "Toronto Zendo — listed at sanbo-zen-international.org (Sanbō Zen). Small sitting group associated with Sanbo Zen lineage.",
     url: "http://www.torontozendo.ca/",
+    geoPrecision: "city",
   },
   {
     slug: "mindfulness-practice-community-of-toronto",
@@ -2276,6 +2437,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Mindfulness Practice Community of Toronto — listed at mindfulnesspracticecommunity.org (Plum Village (Thích Nhất Hạnh)). Weekly sittings, in-person Saturdays.",
     url: "https://mindfulnesspracticecommunity.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "wake-up-toronto",
@@ -2291,6 +2453,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Wake Up Toronto — listed at wkup.org (Plum Village (Thích Nhất Hạnh)). Plum Village young-adult sangha, founded 2012.",
     url: "https://www.wakeuptoronto.ca/",
+    geoPrecision: "city",
   },
   {
     slug: "ontario-zen-center",
@@ -2306,6 +2469,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_kwanum",
     sourceExcerpt: "Ontario Zen Center (Kwan Um) — listed at americas.kwanumzen.org (Kwan Um School of Zen (Korean Seon)). Kwan Um School of Zen affiliate.",
     url: "https://kwanumzen.org/zen-centers/",
+    geoPrecision: "exact",
   },
   {
     slug: "toronto-zen-circle-group",
@@ -2321,6 +2485,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_kwanum",
     sourceExcerpt: "Toronto Zen Circle Group (Kwan Um) — listed at americas.kwanumzen.org (Kwan Um School of Zen (Korean Seon)). Kwan Um School of Zen affiliate.",
     url: "https://kwanumzen.org/zen-centers/",
+    geoPrecision: "exact",
   },
   {
     slug: "london-zen-centre",
@@ -2336,6 +2501,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "London Zen Centre — listed at londonzencentre.org (Sanbō Kyodan / Pacific Zen lineage (Aitken–Tarrant)). Director Roshi Guy Gaudry; trained in Sanbo Kyodan stream that straddles Soto and Rinzai.",
     url: "https://londonzencentre.org/",
+    geoPrecision: "city",
   },
   {
     slug: "three-treasures-hamilton",
@@ -2351,6 +2517,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sanbozen",
     sourceExcerpt: "Three Treasures Hamilton (Patrick Gallagher group) — listed at rbmcdaniel.ca (Sanbō Zen). Hamilton sitting group under Patrick Gallagher Sensei.",
     url: "https://www.ttzc.org/",
+    geoPrecision: "city",
   },
   {
     slug: "white-wind-zen-community-zen-centre-of-ottawa",
@@ -2366,6 +2533,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_wikipedia",
     sourceExcerpt: "White Wind Zen Community / Zen Centre of Ottawa (Honzan Dainen-ji) — listed at en.wikipedia.org (Sōtō / Anzan Hoshin Roshi (Dogen lineage)). Founded 1985. Led by Ven. Anzan Hoshin Roshi. 9,700 sq ft heritage building.",
     url: "https://wwzc.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "zen-ottawa-flowing-bridge-sangha",
@@ -2381,6 +2549,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sanbozen",
     sourceExcerpt: "Zen Ottawa / Flowing Bridge Sangha — listed at www.zenottawa.com (Sanbō Zen (Patrick Gallagher Sensei; Theresa Redmond founder)). Founded 2006 as Flowing Bridge Sangha.",
     url: "https://www.zenottawa.com/",
+    geoPrecision: "city",
   },
   {
     slug: "mountain-moon-sangha-of-ottawa",
@@ -2396,6 +2565,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sanbozen",
     sourceExcerpt: "Mountain Moon Sangha of Ottawa — listed at mountainmoonottawa.org (Sanbō Zen / Mountain Moon (Sei'un An Roshi; teacher Carolyn Seburn)). Carolyn Seburn, authorized Zen teacher in Mountain Moon lineage.",
     url: "https://mountainmoonottawa.org/",
+    geoPrecision: "city",
   },
   {
     slug: "guelph-zazenkai",
@@ -2411,6 +2581,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Guelph Zazenkai (White Wind) — listed at wwzc.org (Sōtō / Anzan Hoshin (White Wind Zen Community)). Branch practice hall of WWZC under Anzan Hoshin Roshi.",
     url: "https://wwzc.org/centres/",
+    geoPrecision: "city",
   },
   {
     slug: "montreal-zen-center-centre-zen-de-montreal",
@@ -2426,6 +2597,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Montreal Zen Center / Centre Zen de Montréal — listed at www.zenmontreal.ca (Sōtō–Rinzai hybrid (Kapleau / Albert Low lineage)). Founded 1979 under Albert Low (1928–2016). Lay community drawing on both Soto and Rinzai.",
     url: "https://www.zenmontreal.ca/",
+    geoPrecision: "exact",
   },
   {
     slug: "association-zen-de-montreal",
@@ -2441,6 +2613,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_azi",
     sourceExcerpt: "Association Zen de Montréal (Dojo Zen de Montréal) — listed at www.zenmontreal.org (Sōtō (Taisen Deshimaru / AZI lineage)). Affiliated with Soto School / Association Zen Internationale.",
     url: "https://www.zenmontreal.org/",
+    geoPrecision: "city",
   },
   {
     slug: "enpuku-ji-zen-centre",
@@ -2456,6 +2629,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_rinzaiji",
     sourceExcerpt: "Enpuku-ji Zen Centre — listed at www.rinzaiji.org (Rinzai (Joshu Sasaki Roshi / Rinzai-ji)). Affiliate of Rinzai-ji Los Angeles. Resident abbot Zengetsu Myōkyō.",
     url: "https://enpuku-ji.org/",
+    geoPrecision: "city",
   },
   {
     slug: "wake-up-montreal",
@@ -2471,6 +2645,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Wake Up Montréal — listed at wkup.org (Plum Village (Thích Nhất Hạnh)). Young-adult Plum Village sangha; revived after hiatus.",
     url: "https://wkup.org/sangha-of-the-month/wake-up-montreal/",
+    geoPrecision: "city",
   },
   {
     slug: "maple-village",
@@ -2486,6 +2661,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Maple Village (Village d'Érable) — listed at wkup.org (Plum Village (Thích Nhất Hạnh)). Zen meditation retreat center in tradition of Thich Nhat Hanh, Eastern Townships, QC.",
     url: "https://www.facebook.com/maplevillagesangha/",
+    geoPrecision: "city",
   },
   {
     slug: "kingston-zen-group",
@@ -2501,6 +2677,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_iriz_hanazono",
     sourceExcerpt: "Kingston Zen Group (affiliated with Montreal Zen Center) — listed at iriz.hanazono.ac.jp (Sōtō–Rinzai hybrid (Kapleau / Albert Low)). Satellite sitting group of Montreal Zen Center.",
     url: "https://www.zenmontreal.ca/",
+    geoPrecision: "city",
   },
   {
     slug: "thousand-harbours-zen",
@@ -2516,6 +2693,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sotozen_jp",
     sourceExcerpt: "Thousand Harbours Zen (Sensōji) — listed at www.sotozen.com (Sōtō (SZBA / SOTOZEN.COM listed); Rev. Koun Franz). Founded 2014 (formerly Zen Nova Scotia); hybrid online + in-person Tuesday evenings.",
     url: "https://thousandharbourszen.com/",
+    geoPrecision: "exact",
   },
   {
     slug: "atlantic-soto-zen-centre",
@@ -2531,6 +2709,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Atlantic Sōtō Zen Centre — listed at www.yelp.ca (Sōtō). Traditional Soto Zen service: zazen, kinhin, dharma study, sesshin.",
     url: "http://atlanticsotozencenter.com/",
+    geoPrecision: "city",
   },
   {
     slug: "wolfville-zazenkai",
@@ -2546,6 +2725,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Wolfville Zazenkai (White Wind) — listed at wwzc.org (Sōtō / Anzan Hoshin (White Wind Zen Community)). Established August 1990 as branch of Anzan Hoshin's WWZC.",
     url: "https://wwzc.org/centres/",
+    geoPrecision: "city",
   },
   {
     slug: "sanbo-zen-saint-john-meditation-group",
@@ -2561,6 +2741,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sanbozen",
     sourceExcerpt: "Sanbo Zen Saint John Meditation Group — listed at sanbo-zen-international.org (Sanbō Zen). Small Sanbo Zen meditation group.",
     url: "https://www.facebook.com/groups/277664696226474/",
+    geoPrecision: "city",
   },
   {
     slug: "dharma-drum-mountain-vancouver-centre",
@@ -2576,6 +2757,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_dharmadrum",
     sourceExcerpt: "Dharma Drum Mountain Vancouver Centre — listed at www.chancenter.org (Chan (Dharma Drum / Sheng Yen)). Dharma Drum branch in Greater Vancouver.",
     url: "https://www.ddmba.ca/",
+    geoPrecision: "city",
   },
   {
     slug: "bendoji",
@@ -2591,6 +2773,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sotozen_jp",
     sourceExcerpt: "Bendōji — listed at www.sotozen.com (Sōtō (Sōtōshū / Soto Zen Schweizerische Vereinigung)). Listed as the official Sōtōshū-registered temple in Switzerland.",
     url: "https://www.sotozen.ch/",
+    geoPrecision: "exact",
   },
   {
     slug: "muijoji-zen-dojo-zurich",
@@ -2606,6 +2789,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sotozen_jp",
     sourceExcerpt: "Muijōji – Zen Dōjō Zürich — listed at www.sotozen.com (Sōtō / Deshimaru (AZI)). Founded 1975 by Taisen Deshimaru; 'Muijō' = Fortress of Non-Fear. Also listed by Sōtōshū outside-Japan directory.",
     url: "https://zen.ch/",
+    geoPrecision: "exact",
   },
   {
     slug: "mushin-zen-dojo-zurich",
@@ -2621,6 +2805,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_azi",
     sourceExcerpt: "Mushin Zen Dōjō Zürich — listed at zen-zurich.ch (Sōtō / Deshimaru (AZI)). Affiliated with Association Zen Internationale; Dōgen-Deshimaru transmission line.",
     url: "https://zen-zurich.ch/",
+    geoPrecision: "exact",
   },
   {
     slug: "dojo-zen-de-lausanne",
@@ -2636,6 +2821,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sotozen_jp",
     sourceExcerpt: "Dōjō Zen de Lausanne — listed at www.sotozen.com (Sōtō / Deshimaru (AZI)). Member of AZI since founding in 1980; also SBU member.",
     url: "http://www.zenlausanne.ch/",
+    geoPrecision: "city",
   },
   {
     slug: "dojo-zen-sansui",
@@ -2651,6 +2837,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_abze",
     sourceExcerpt: "Dōjō Zen Sansui — listed at abzen.eu (Sōtō / Deshimaru (AZI)). Opened 1992 in Vevey, moved to Clarens; directed by Chantal Baiettini (ordained by Roland Yuno Rech).",
     url: "https://www.dojozensansui.ch/",
+    geoPrecision: "exact",
   },
   {
     slug: "dojo-zen-de-geneve",
@@ -2666,6 +2853,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_azi",
     sourceExcerpt: "Dōjō Zen de Genève (AZI / Groupe de Zazen) — listed at www.bouddha.ch (Sōtō / Deshimaru (AZI)). AZI affiliate; SBU member.",
     url: "https://www.zazen.ch/",
+    geoPrecision: "city",
   },
   {
     slug: "prieure-soto-zen-du-sermon-sur-la-montagne",
@@ -2681,6 +2869,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Prieuré Sōtō Zen du Sermon sur la Montagne — listed at www.bouddha.ch (Sōtō Zen). Independent Sōtō priory.",
     url: "https://www.zen-geneve.ch/",
+    geoPrecision: "exact",
   },
   {
     slug: "ryukai-dojo-zen",
@@ -2696,6 +2885,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_kosen_sangha",
     sourceExcerpt: "Ryūkai Dōjō Zen (Kosen Sangha Genève) — listed at www.bouddha.ch (Sōtō / Deshimaru (Kosen Sangha)). Kosen Sangha (Stéphane Kosen Thibaut) lineage; rooted in Deshimaru transmission.",
     url: "https://zen-deshimaru.ch/",
+    geoPrecision: "exact",
   },
   {
     slug: "temple-zen-suimei-shoja",
@@ -2711,6 +2901,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Temple Zen Suimei Shōja — listed at www.bouddha.ch (Sōtō Zen (Kōsetsu-ji network)). Operated under the Kōsetsu-ji monastic federation.",
     url: "https://zen-soto.ch/",
+    geoPrecision: "city",
   },
   {
     slug: "kobokudo-centre-zen-de-la-chaux-de-fonds",
@@ -2726,6 +2917,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sotozen_jp",
     sourceExcerpt: "Kōbokudō – Centre Zen de La Chaux-de-Fonds — listed at www.sotozen.com (Sōtō Zen (Kōsetsu-ji)). Urban centre attached to Kōsetsu-ji monastery; SBU member.",
     url: "https://zen-soto.ch/",
+    geoPrecision: "exact",
   },
   {
     slug: "kosetsu-ji-monastere-bouddhiste-soto-zen",
@@ -2741,6 +2933,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sotozen_jp",
     sourceExcerpt: "Kōsetsu-ji – Monastère Bouddhiste Sōtō Zen — listed at www.sotozen.com (Sōtō Zen). Residential Sōtō monastery in the Jura; flagship of zen-soto.ch network.",
     url: "https://zen-soto.ch/",
+    geoPrecision: "exact",
   },
   {
     slug: "kosetsu-ji-zazen-gruppe-freiburg",
@@ -2756,6 +2949,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sbu",
     sourceExcerpt: "Kōsetsu-ji – Zazen-Gruppe Freiburg — listed at www.sbu.net (Sōtō Zen (Kōsetsu-ji)). Satellite zazen group of Kōsetsu-ji monastery; SBU member.",
     url: "https://zen-soto.ch/",
+    geoPrecision: "city",
   },
   {
     slug: "groupe-de-zazen-d-yverdon",
@@ -2771,6 +2965,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Groupe de Zazen d'Yverdon — listed at www.bouddha.ch (Sōtō Zen (Kōsetsu-ji network)). Affiliated to the zen-soto.ch / Kōsetsu-ji federation.",
     url: "https://zen-soto.ch/",
+    geoPrecision: "exact",
   },
   {
     slug: "zen-dojo-mokushinzan",
@@ -2786,6 +2981,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sbu",
     sourceExcerpt: "Zen Dōjō Mokushinzan — listed at www.sbu.net (Sōtō / Deshimaru (AZI)). Basel zazen group; SBU member.",
     url: "https://www.sbu.net/mitglieder/zen-dojo-mokushinzan",
+    geoPrecision: "city",
   },
   {
     slug: "groupe-zen-de-conthey",
@@ -2801,6 +2997,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_azi",
     sourceExcerpt: "Groupe Zen de Conthey (Dōjō Zen Valais) — listed at www.bouddha.ch (Sōtō / Deshimaru (AZI)). Valais regional dōjō.",
     url: "https://www.dojo-zen.ch/",
+    geoPrecision: "exact",
   },
   {
     slug: "dojo-zen-de-savagnier",
@@ -2816,6 +3013,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Dōjō Zen de Savagnier — listed at www.bouddha.ch (Rinzai). One of the rare Rinzai-tradition dōjōs in Switzerland; listed in bouddha.ch national directory.",
     url: "http://www.bouddha.ch/adresses_suisse.htm",
+    geoPrecision: "exact",
   },
   {
     slug: "stiftung-felsentor-hoshinji",
@@ -2831,6 +3029,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_felsentor",
     sourceExcerpt: "Stiftung Felsentor / Hōshinji — listed at www.felsentor.ch (Sōtō / Kobun Chino lineage). Founded by Vanja Palmers in lineage of Kobun Chino Otogawa Roshi; mountainside retreat centre.",
     url: "https://www.felsentor.ch/",
+    geoPrecision: "exact",
   },
   {
     slug: "zendo-am-fluss",
@@ -2846,6 +3045,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Zendo am Fluss — listed at www.zendoamfluss.ch (Sōtō / Kobun Chino lineage (Kobun–David Steindl-Rast–Vanja Palmers)). Urban sister-zendo of Felsentor; founded with Vanja Palmers.",
     url: "https://www.zendoamfluss.ch/",
+    geoPrecision: "exact",
   },
   {
     slug: "zen-zentrum-im-grunen-ring",
@@ -2861,6 +3061,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_whiteplum",
     sourceExcerpt: "Zen-Zentrum im Grünen Ring — listed at zen-imgruenenring.ch (Zen Peacemakers (Bernie Glassman)). Identifies with Zen Peacemakers (Bernie Glassman / White Plum descent).",
     url: "https://zen-imgruenenring.ch/",
+    geoPrecision: "city",
   },
   {
     slug: "kwan-um-zen-schweiz-head-temple-zurich",
@@ -2876,6 +3077,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_buddhanet",
     sourceExcerpt: "Kwan Um Zen Schweiz – Head Temple Zürich — listed at www.buddhanet.info (Kwan Um School of Zen (Korean Seon)). Listed as Kwan Um Switzerland head temple; guiding teacher historically Zen Master Wu Bong.",
     url: "https://www.kwanumeurope.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "plum-village-swiss-inter-sangha",
@@ -2891,6 +3093,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Plum Village Swiss Inter-Sangha — listed at plumvillage.org (Plum Village (Thích Nhất Hạnh)). Umbrella for Plum Village lay sanghas across Switzerland; coordinates national days of mindfulness.",
     url: "https://www.facebook.com/PlumVillageSwissInterSangha/",
+    geoPrecision: "exact",
   },
   {
     slug: "sho-den-dojo-zen-de-santiago",
@@ -2906,6 +3109,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_kosen_sangha",
     sourceExcerpt: "Sho Den Dōjō Zen de Santiago — listed at tricycle.org (Sōtō / Deshimaru (Kosen Sangha)). Opened August 2002; named 'Sho Den' (The Exact Transmission) by Master Kosen. Approx. 20 regular practitioners.",
     url: "https://www.zen-deshimaru.com/es/dojos/dojo-zen-de-santiago",
+    geoPrecision: "exact",
   },
   {
     slug: "maitreya-comunidad-dojo-urbano-santiago",
@@ -2921,6 +3125,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Maitreya Comunidad — Dōjō Urbano Santiago — listed at www.maitreyazen.cl (Sōtō Zen (urban dōjō)). Urban Zen practice community in the Los Domínicos area; weekly zazen Tuesdays/Thursdays.",
     url: "https://www.maitreyazen.cl/",
+    geoPrecision: "city",
   },
   {
     slug: "sangha-zen-zendo-tunquen",
@@ -2936,6 +3141,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Sangha Zen — Zendo Tunquén — listed at www.sanghazen.cl (Sōtō Zen). Coastal residential zendo near Algarrobo/Casablanca, paired with an urban Santiago practice site.",
     url: "http://www.sanghazen.cl/web/",
+    geoPrecision: "city",
   },
   {
     slug: "centro-zen-chile-zenchile-cl",
@@ -2951,6 +3157,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Centro Zen Chile — zenchile.cl — listed at www.zenchile.cl (Sōtō Zen). Santiago-based Zen practice community; site lists 'Quienes Somos' and weekly schedule.",
     url: "https://www.zenchile.cl/",
+    geoPrecision: "city",
   },
   {
     slug: "dojo-zen-valdivia",
@@ -2966,6 +3173,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_kosen_sangha",
     sourceExcerpt: "Dōjō Zen Valdivia — listed at www.zen-deshimaru.com (Sōtō / Deshimaru (Kosen Sangha)). Southern-Chile Kosen Sangha dōjō.",
     url: "https://www.zen-deshimaru.com/es/dojos-zen",
+    geoPrecision: "city",
   },
   {
     slug: "dojo-zen-pucon",
@@ -2981,6 +3189,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_kosen_sangha",
     sourceExcerpt: "Dōjō Zen Pucón — listed at www.zen-deshimaru.com (Sōtō / Deshimaru (Kosen Sangha)). Kosen Sangha lakeside dōjō.",
     url: "https://www.zen-deshimaru.com/es/dojos-zen",
+    geoPrecision: "city",
   },
   {
     slug: "linji-temple",
@@ -2996,6 +3205,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_wikipedia",
     sourceExcerpt: "Linji Temple (Linji Yuan) — listed at en.wikipedia.org (Chinese Chan (Linji — ancestral seat of the Linji house)). Founding monastery of the Linji school of Chan, where Linji Yixuan taught in the 9th century. Restored in the 1980s and again under Master Jing Hui; the Chenglin Pagoda dates to the 9th century.",
     url: "http://www.linjisi.com/",
+    geoPrecision: "exact",
   },
   {
     slug: "bailin-chan-temple",
@@ -3011,6 +3221,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_wikipedia",
     sourceExcerpt: "Bailin Chan Temple — listed at en.wikipedia.org (Chinese Chan (Linji — modern revival)). Where Zhaozhou Congshen taught for 40 years in the 9th century. Major modern Chan-revival training monastery rebuilt under Master Jing Hui (Jinghui) from 1988; flagship of the 'Living Chan' movement.",
     url: "https://www.bailinsi.net/",
+    geoPrecision: "exact",
   },
   {
     slug: "zhenru-chan-temple",
@@ -3026,6 +3237,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_wikipedia",
     sourceExcerpt: "Zhenru Chan Temple (Yunju Shan) — listed at en.wikipedia.org (Chinese Chan (Caodong — modern training monastery)). Largest active Caodong training monastery in China; site of Daoying Yu's 9th-century Daoying Chansi and continuously a Caodong seat since. Rebuilt under Master Xuyun in the 1950s.",
     url: "http://www.yunjushan.org/",
+    geoPrecision: "city",
   },
   {
     slug: "tiantong-temple",
@@ -3041,6 +3253,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_wikipedia",
     sourceExcerpt: "Tiantong Temple — listed at en.wikipedia.org (Chinese Chan (Caodong — historic — where Dōgen received transmission)). Major Caodong ancestral temple founded 300 CE. Where Tiantong Rujing taught Dōgen 1223–1227, transmitting the Sōtō line to Japan. Active Chan training monastery.",
     url: "http://www.tiantongsi.cn/",
+    geoPrecision: "exact",
   },
   {
     slug: "asoka-temple",
@@ -3056,6 +3269,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_wikipedia",
     sourceExcerpt: "Asoka Temple (Ayuwang) — listed at en.wikipedia.org (Chinese Chan (Linji — historic — where Eisai studied)). Founded 282 CE; one of the Five Mountain Chan temples of southern Song China. Where Myōan Eisai studied Linji Chan before establishing Rinzai in Japan.",
     url: "https://www.ayw.com.cn/",
+    geoPrecision: "city",
   },
   {
     slug: "lingyin-temple",
@@ -3071,6 +3285,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_wikipedia",
     sourceExcerpt: "Lingyin Temple — listed at en.wikipedia.org (Chinese Chan (Linji — major historic Chan temple)). Founded 328 CE; one of the wealthiest and largest Chan temples in China. Listed among the Five Mountains of southern Song Chan.",
     url: "https://www.lingyinsi.com/",
+    geoPrecision: "city",
   },
   {
     slug: "jingci-temple",
@@ -3086,6 +3301,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_wikipedia",
     sourceExcerpt: "Jingci Temple — listed at en.wikipedia.org (Chinese Chan (Linji — Five Mountains historic temple)). Founded 954 CE; one of the original Five Mountains of Linji Chan in Southern Song China.",
     url: "https://www.jingcisi.cn/",
+    geoPrecision: "city",
   },
   {
     slug: "jinshan-temple",
@@ -3101,6 +3317,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_wikipedia",
     sourceExcerpt: "Jinshan Temple — listed at en.wikipedia.org (Chinese Chan (Linji — historic training monastery)). Founded 4th century; major Linji training monastery of late imperial China. Source of one of two main Chan training rule traditions ('Jinshan style').",
     url: "https://www.jinshansi.com/",
+    geoPrecision: "exact",
   },
   {
     slug: "gaomin-temple",
@@ -3116,6 +3333,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_wikipedia",
     sourceExcerpt: "Gaomin Temple — listed at en.wikipedia.org (Chinese Chan (Linji — modern training monastery)). Founded Sui dynasty; revived by Master Laiguo in the 20th century. One of the most rigorous active Chan training monasteries in China; Sheng Yen trained here.",
     url: "http://www.china-gaominsi.com/",
+    geoPrecision: "city",
   },
   {
     slug: "putuoshan-puji-temple",
@@ -3131,6 +3349,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_wikipedia",
     sourceExcerpt: "Putuoshan Puji Temple — listed at en.wikipedia.org (Chinese Chan (Linji — major historic mountain temple)). Main monastery on Mount Putuo, one of the Four Sacred Mountains of Chinese Buddhism (Avalokiteśvara's bodhimanḍa). Historically Linji training site.",
     url: "https://www.putuoshan.org.cn/",
+    geoPrecision: "exact",
   },
   {
     slug: "xuedou-temple",
@@ -3146,6 +3365,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_wikipedia",
     sourceExcerpt: "Xuedou Temple — listed at en.wikipedia.org (Chinese Chan (Yunmen — historic training site)). Where Xuedou Chongxian (980–1052) compiled the Hekiganroku (Blue Cliff Record) base verses. Yunmen-school heritage temple.",
     url: "https://www.xuedousi.com/",
+    geoPrecision: "city",
   },
   {
     slug: "daming-temple",
@@ -3161,6 +3381,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_wikipedia",
     sourceExcerpt: "Daming Temple — listed at en.wikipedia.org (Chinese Chan (historic — Jianzhen / Ganjin)). Founded 5th century; where Jianzhen (Ganjin) lived before founding Tōshōdai-ji in Japan. Active monastery.",
     url: "https://www.damingsi.com/",
+    geoPrecision: "city",
   },
   {
     slug: "donglin-temple",
@@ -3176,6 +3397,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_wikipedia",
     sourceExcerpt: "Donglin Temple — listed at en.wikipedia.org (Chinese Chan (historic Mount Lu)). Founded 386 CE on Mount Lu; one of the most historically significant Chan-Pure Land temples in China.",
     url: "https://www.donglin.org/",
+    geoPrecision: "city",
   },
   {
     slug: "guoqing-temple",
@@ -3191,6 +3413,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_wikipedia",
     sourceExcerpt: "Guoqing Temple — listed at en.wikipedia.org (Chinese Chan (Tiantai school home temple — historic)). Founded 598 CE; founding seat of the Tiantai school. Active monastery; Saichō transmitted Tiantai (Tendai) to Japan from here.",
     url: "https://www.guoqingsi.com/",
+    geoPrecision: "exact",
   },
   {
     slug: "hanshan-temple",
@@ -3206,6 +3429,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_wikipedia",
     sourceExcerpt: "Hanshan Temple — listed at en.wikipedia.org (Chinese Chan (Linji — historic literary association)). Founded 6th century; named for Tang-era Chan poet Hanshan. Active Linji-affiliated monastery in Suzhou's old city.",
     url: "https://www.hanshansi.org/",
+    geoPrecision: "city",
   },
   {
     slug: "caotang-temple",
@@ -3221,6 +3445,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_wikipedia",
     sourceExcerpt: "Caotang Temple — listed at en.wikipedia.org (Chinese Chan (historic — Kumarajiva)). Founded 401 CE; where Kumarajiva translated the Lotus Sutra. Active Buddhist monastery; key proto-Chan textual heritage site.",
     url: "https://www.caotangsi.org.cn/",
+    geoPrecision: "city",
   },
   {
     slug: "nanhua-chan-temple",
@@ -3236,6 +3461,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Nanhua Chan Temple (Nanhua Si) — listed at gs.ctrip.com (Chan (Nanhua Chan Temple, Sixth Patriarch Huineng)). Historic Chan monastery regarded as an ancestral home of Chinese Chan (Zen), where the Sixth Patriarch Huineng taught for decades. Founded in 502 CE by the Indian monk Zhiyao Sanzang and renamed Nanhua Chan Temple in 968 under Song Emperor Taizu. The temple complex covers over 40 hectares and remains an active pilgrimage and practice site for Chan Buddhists. Native: 南华禅寺 (Nánhuá Chán Sì).",
     url: "https://nhcs.cn",
+    geoPrecision: "city",
   },
   {
     slug: "daishinji-templo-zen-mente-magnanima",
@@ -3251,6 +3477,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Daishinji — Templo Zen Mente Magnánima — listed at espanol.buddhistdoor.net (Sōtō (Sōtōshū; Densho Quintero, dharma heir of Shōhaku Okumura Rōshi)). Proclaimed a Sōtōshū South America temple. Led by Ven. Densho Quintero (ordained at Antaiji, Japan).",
     url: "https://sotozencolombia.org/",
+    geoPrecision: "city",
   },
   {
     slug: "montana-de-silencio-sofu-ji",
@@ -3266,6 +3493,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Montaña de Silencio — Sōfū-ji — listed at www.montanadesilencio.org (Sōtō Zen). Main seat of the Montaña de Silencio Sōtō Zen community; daily zazen schedule plus virtual sessions.",
     url: "https://www.montanadesilencio.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "fundacion-zen-de-colombia-templo-gen-to-la-tierra",
@@ -3281,6 +3509,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Fundación Zen de Colombia — Templo Gen To 'La Tierra' — listed at www.fundacionzen.org (Sōtō (Reitai Lemort)). Rural retreat temple near Cachipay run by monk Reitai Lemort; urban practice groups via fundacion@fundacionzen.org.",
     url: "https://www.fundacionzen.org/",
+    geoPrecision: "city",
   },
   {
     slug: "sangha-bogota-tradicion-thich-nhat-hanh",
@@ -3296,6 +3525,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha Bogotá — Tradición Thich Nhat Hanh — listed at plumvillage.org (Plum Village (Thích Nhất Hạnh)). Active Plum Village sangha in Bogotá; hosted Plum Village monastics during 2023 and 2025 Colombia tours. Contact: sangha.bogota@gmail.com.",
     url: "https://www.facebook.com/sangha.bogota/",
+    geoPrecision: "city",
   },
   {
     slug: "dojo-v-proudu",
@@ -3311,6 +3541,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Dojo V Proudu (Soto Zen Praha) — listed at www.zazen.cz (Sōtō (Japanese)). Open Sōtō Zen group practicing zazen Mon/Tue/Thu at Lotus Center; info@zazen.cz, +420 774 223 606.",
     url: "http://www.zazen.cz/",
+    geoPrecision: "city",
   },
   {
     slug: "myogenji",
@@ -3326,6 +3557,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_azi",
     sourceExcerpt: "Myogenji (Centrum Praha — Sandō Kaisen) — listed at www.zenkaisen.cz (Sōtō (Sandō Kaisen / Deshimaru lineage)). Buddha sitting Mondays 7 p.m.; part of Buddhovo sezení z. s. (Master Sandō Kaisen network).",
     url: "https://www.zenkaisen.cz/en/centres/myogenji-prague/",
+    geoPrecision: "exact",
   },
   {
     slug: "myoji",
@@ -3341,6 +3573,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_azi",
     sourceExcerpt: "Myoji (Centrum Brno — Sandō Kaisen) — listed at www.zenkaisen.cz (Sōtō (Kaisen / Deshimaru)). Brno Kaisen-lineage center.",
     url: "https://www.zenkaisen.cz/en/centres/myoji-brno/",
+    geoPrecision: "city",
   },
   {
     slug: "zanmaiji",
@@ -3356,6 +3589,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_azi",
     sourceExcerpt: "Zanmaiji (Centrum Ostrava — Sandō Kaisen) — listed at www.zenkaisen.cz (Sōtō (Kaisen / Deshimaru)). Ostrava Kaisen-lineage center.",
     url: "https://www.zenkaisen.cz/en/centres/zanmaiji-ostrava/",
+    geoPrecision: "exact",
   },
   {
     slug: "mushinji",
@@ -3371,6 +3605,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_azi",
     sourceExcerpt: "Mushinji (Centrum Plzeň — Sandō Kaisen) — listed at www.zenkaisen.cz (Sōtō (Kaisen / Deshimaru)). Teacher Sei Yu Debailly; Plzeň Kaisen dojo.",
     url: "https://www.zenkaisen.cz/en/centres/mushinji-pilsen/",
+    geoPrecision: "exact",
   },
   {
     slug: "kansorin",
@@ -3386,6 +3621,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_azi",
     sourceExcerpt: "Kansorin (Centrum Litvínov — Sandō Kaisen) — listed at www.zenkaisen.cz (Sōtō (Kaisen / Deshimaru)). Litvínov Kaisen-lineage center.",
     url: "https://www.zenkaisen.cz/en/centres/kansorin-litvinov/",
+    geoPrecision: "city",
   },
   {
     slug: "centrum-kladno",
@@ -3401,6 +3637,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_azi",
     sourceExcerpt: "Centrum Kladno (Sandō Kaisen) — listed at www.zenkaisen.cz (Sōtō (Kaisen / Deshimaru)). Kladno group, Buddhovo sezení z. s.",
     url: "https://www.zenkaisen.cz/en/centres/centre-kladno/",
+    geoPrecision: "city",
   },
   {
     slug: "centrum-oko-lesa",
@@ -3416,6 +3653,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_azi",
     sourceExcerpt: "Centrum Oko Lesa (Sandō Kaisen — retreat) — listed at www.zenkaisen.cz (Sōtō (Kaisen / Deshimaru)). Buddhovo sezení retreat center; specific city not given on directory page.",
     url: "https://www.zenkaisen.cz/centra/oko-lesa/",
+    geoPrecision: "exact",
   },
   {
     slug: "prazsky-zenovy-centrum-kvan-um",
@@ -3431,6 +3669,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_kwanum",
     sourceExcerpt: "Pražský Zenový Centrum Kvan Um (Praha) — listed at www.kwanumeurope.org (Kwan Um School of Zen (Korean Seon)). Hlavní český Kwan Um center; kwanumpraha@gmail.com; +420 602 796 371 (L. Kohoutová).",
     url: "https://www.kwanumzen.cz/praha",
+    geoPrecision: "city",
   },
   {
     slug: "kwan-um-brno",
@@ -3446,6 +3685,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_kwanum",
     sourceExcerpt: "Kwan Um Brno — listed at www.kwanumzen.cz (Kwan Um School of Zen (Korean Seon)). Czech Kwan Um group in Brno.",
     url: "https://www.kwanumzen.cz/brno",
+    geoPrecision: "city",
   },
   {
     slug: "kwan-um-decin",
@@ -3461,6 +3701,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_kwanum",
     sourceExcerpt: "Kwan Um Děčín — listed at www.kwanumzen.cz (Kwan Um School of Zen (Korean Seon)). Děčín Kwan Um sitting group.",
     url: "https://www.kwanumzen.cz/decin",
+    geoPrecision: "city",
   },
   {
     slug: "kwan-um-hodonin",
@@ -3476,6 +3717,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_kwanum",
     sourceExcerpt: "Kwan Um Hodonín — listed at www.kwanumzen.cz (Kwan Um School of Zen (Korean Seon)). Hodonín Kwan Um group.",
     url: "https://www.kwanumzen.cz/hodonin",
+    geoPrecision: "city",
   },
   {
     slug: "kwan-um-liberec",
@@ -3491,6 +3733,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_kwanum",
     sourceExcerpt: "Kwan Um Liberec — listed at www.kwanumzen.cz (Kwan Um School of Zen (Korean Seon)). Liberec Kwan Um group.",
     url: "https://www.kwanumzen.cz/liberec",
+    geoPrecision: "city",
   },
   {
     slug: "kwan-um-olomouc",
@@ -3506,6 +3749,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_kwanum",
     sourceExcerpt: "Kwan Um Olomouc — listed at www.kwanumzen.cz (Kwan Um School of Zen (Korean Seon)). Olomouc Kwan Um group.",
     url: "https://www.kwanumzen.cz/olomouc",
+    geoPrecision: "city",
   },
   {
     slug: "kwan-um-tabor",
@@ -3521,6 +3765,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_kwanum",
     sourceExcerpt: "Kwan Um Tábor — listed at www.kwanumzen.cz (Kwan Um School of Zen (Korean Seon)). Tábor Kwan Um group.",
     url: "https://www.kwanumzen.cz/tabor",
+    geoPrecision: "city",
   },
   {
     slug: "kwan-um-vrazne",
@@ -3536,6 +3781,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_kwanum",
     sourceExcerpt: "Kwan Um Vrážné (Centrum) — listed at www.kwanumeurope.org (Kwan Um School of Zen (Korean Seon)). Rural Kwan Um centre / retreat hub for Czech sangha.",
     url: "https://www.kwanumzen.cz/vrazne",
+    geoPrecision: "exact",
   },
   {
     slug: "kwan-um-zlin",
@@ -3551,6 +3797,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_kwanum",
     sourceExcerpt: "Kwan Um Zlín — listed at www.kwanumzen.cz (Kwan Um School of Zen (Korean Seon)). Zlín Kwan Um group.",
     url: "https://www.kwanumzen.cz/zlin",
+    geoPrecision: "city",
   },
   {
     slug: "plum-village-czech-republic",
@@ -3566,6 +3813,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Plum Village Czech Republic (Praha) — listed at www.facebook.com (Plum Village (Thích Nhất Hạnh)). Plum Village lay sangha based in Prague; only public presence is the FB page.",
     url: "https://www.facebook.com/PlumVillageCzechRepublic/",
+    geoPrecision: "city",
   },
   {
     slug: "european-institute-of-applied-buddhism",
@@ -3581,6 +3829,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "European Institute of Applied Buddhism (EIAB) — listed at plumvillage.org (Plum Village (Thích Nhất Hạnh)). Largest Plum Village monastic centre in Europe; founded 2008 by Thich Nhat Hanh; ~40 resident monastics.",
     url: "https://www.eiab.eu/",
+    geoPrecision: "exact",
   },
   {
     slug: "zen-kloster-daihizan-fumonji",
@@ -3596,6 +3845,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_zen_guide_de",
     sourceExcerpt: "Zen-Kloster Daihizan Fumonji (Zen-Zentrum Eisenbuch) — listed at www.zen-guide.de (Sōtō (Nakagawa Roshi)). First (and long the only) authorized Sōtō Zen monastery in Europe; founded 1996, consecrated 2006; abbot Fumon S. Nakagawa Roshi.",
     url: "https://www.eisenbuch.de/",
+    geoPrecision: "exact",
   },
   {
     slug: "sanbo-zendo-weyarn",
@@ -3611,6 +3861,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sanbozen",
     sourceExcerpt: "Sanbo Zendo Weyarn (Domicilium) — listed at domicilium.de (Sanbō Zen). Sanbō Zen-authorized zendo south of Munich; teacher Prof. Migaku Sato (Sanbō Zen Master since 2020).",
     url: "https://domicilium.de/sanbo-zendo/",
+    geoPrecision: "exact",
   },
   {
     slug: "benediktushof-holzkirchen",
@@ -3626,6 +3877,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_wikipedia",
     sourceExcerpt: "Benediktushof Holzkirchen — listed at en.wikipedia.org (Leere Wolke (Willigis Jäger lineage; ex-Sanbō Kyōdan / Western Zen)). Founded 2003 by Willigis Jäger; one of Europe's largest centres for Zen and contemplation.",
     url: "https://www.benediktushof-holzkirchen.de/",
+    geoPrecision: "exact",
   },
   {
     slug: "daishin-zen-kloster-buchenberg",
@@ -3641,6 +3893,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Daishin Zen Kloster Buchenberg — listed at daishinzen.de (Daishin Zen (Rinzai-derived; Hinnerk Polenski)). Headquarters of the Daishin-Zen school.",
     url: "https://zen-kloster.de/",
+    geoPrecision: "exact",
   },
   {
     slug: "choka-sangha-e-v",
@@ -3656,6 +3909,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_zen_guide_de",
     sourceExcerpt: "Choka Sangha e.V. — listed at www.zen-guide.de (Rinzai (Hokoji line; Christoph Rei Ho Hatlapa)). Zen and permaculture teaching farm; dharma succession from Oi Saidan Roshi (Hokoji-Hamamatsu).",
     url: "https://choka-sangha.de/",
+    geoPrecision: "exact",
   },
   {
     slug: "kakunen-ji-zen-tempel-offene-weite",
@@ -3671,6 +3925,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_zen_guide_de",
     sourceExcerpt: "Kakunen-ji – Zen-Tempel Offene Weite — listed at www.zen-guide.de (Sōtō (Taiku Güttler Roshi)). Founded 1998/99 in a converted castle; bridges Christian contemplation and Zen.",
     url: "https://www.kakunen-zen.de/newsite/",
+    geoPrecision: "exact",
   },
   {
     slug: "erste-berliner-zen-gemeinschaft-mumon-kai",
@@ -3686,6 +3941,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_zen_guide_de",
     sourceExcerpt: "Erste Berliner Zen-Gemeinschaft – Mumon-Kai — listed at www.zen-guide.de (Rinzai). Berlin's oldest Zen community (1971); KIN-MŌ-ZENDŌ hall opened 1978.",
     url: "https://www.zen-gemeinschaft-berlin.de/",
+    geoPrecision: "exact",
   },
   {
     slug: "dojo-fuku-gen-e-v",
@@ -3701,6 +3957,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_zen_guide_de",
     sourceExcerpt: "Dojo Fuku Gen e.V. (Fuku Gen Zen-Dojo) — listed at www.zen-guide.de (Sōtō / Deshimaru (AZI)). AZI-affiliated dojo in the Deshimaru line.",
     url: "https://fukugen.de/",
+    geoPrecision: "exact",
   },
   {
     slug: "zen-dojo-berlin-e-v",
@@ -3716,6 +3973,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_zen_guide_de",
     sourceExcerpt: "Zen Dojo Berlin e.V. — listed at www.zen-guide.de (Sōtō / Deshimaru (AZI)). AZI line.",
     url: "https://www.zen-dojo-berlin.de/",
+    geoPrecision: "exact",
   },
   {
     slug: "zen-vereinigung-berlin-e-v",
@@ -3731,6 +3989,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_zen_guide_de",
     sourceExcerpt: "Zen-Vereinigung Berlin e.V. — listed at www.zen-guide.de (Sōtō / Deshimaru (AZI; ZVD)). Zen-Vereinigung Deutschland headquarters.",
     url: "https://www.zen-vereinigung.de/",
+    geoPrecision: "exact",
   },
   {
     slug: "akazienzendo-berlin",
@@ -3746,6 +4005,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_zen_guide_de",
     sourceExcerpt: "Akazienzendo Berlin — listed at www.zen-guide.de (Sōtō).",
     url: "https://www.akazienzendo.de/",
+    geoPrecision: "exact",
   },
   {
     slug: "zen-zentrum-berlin",
@@ -3761,6 +4021,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_zen_guide_de",
     sourceExcerpt: "Zen-Zentrum Berlin (Kwan Um Zen Schule) — listed at www.zen-guide.de (Kwan Um School of Zen (Korean Seon)). Kwan Um Zen Schule Deutschland headquarters.",
     url: "https://www.kwanumzen.de/",
+    geoPrecision: "exact",
   },
   {
     slug: "quelle-des-mitgefuhls",
@@ -3776,6 +4037,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Quelle des Mitgefühls — listed at intersein.de (Plum Village (Thích Nhất Hạnh)). Lay practice centre in the Plum Village tradition.",
     url: "https://www.quelle-des-mitgefuehls.de/",
+    geoPrecision: "exact",
   },
   {
     slug: "wake-up-berlin",
@@ -3791,6 +4053,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Wake Up Berlin — listed at intersein.de (Plum Village (Thích Nhất Hạnh)). Young-adult Plum Village sangha.",
     url: "https://wakeupberlin.org/",
+    geoPrecision: "city",
   },
   {
     slug: "sangha-kreuzberg",
@@ -3806,6 +4069,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha Kreuzberg — listed at intersein.de (Plum Village (Thích Nhất Hạnh)).",
     url: "https://sangha-kreuzberg.jimdofree.com/",
+    geoPrecision: "exact",
   },
   {
     slug: "daishin-zen-berlin",
@@ -3821,6 +4085,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_zen_guide_de",
     sourceExcerpt: "Daishin Zen Berlin — listed at www.zen-guide.de (Daishin Zen).",
     url: "https://daishinzen.de/",
+    geoPrecision: "exact",
   },
   {
     slug: "zendo-hen-kai-pan",
@@ -3836,6 +4101,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_zen_guide_de",
     sourceExcerpt: "Zendo Hen Kai Pan — listed at www.zen-guide.de (Sōtō).",
     url: "https://henkaipan.de/",
+    geoPrecision: "exact",
   },
   {
     slug: "antai-an-zen-dojo-tegel",
@@ -3851,6 +4117,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_zen_guide_de",
     sourceExcerpt: "Antai-An Zen Dojo Tegel — listed at www.zen-guide.de (Sōtō / Deshimaru (AZI)).",
     url: "https://www.antai-an.de/",
+    geoPrecision: "exact",
   },
   {
     slug: "zen-dojo-hamburg-e-v",
@@ -3866,6 +4133,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_zen_guide_de",
     sourceExcerpt: "Zen Dojo Hamburg e.V. — listed at www.zen-guide.de (Sōtō / Deshimaru (AZI)).",
     url: "https://www.zen-dojo-hamburg.de/",
+    geoPrecision: "exact",
   },
   {
     slug: "zen-kreis-hamburg-e-v-linko-zen-kutsu",
@@ -3881,6 +4149,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_zen_guide_de",
     sourceExcerpt: "Zen Kreis Hamburg e.V. – Linkô Zen Kutsu — listed at www.zen-guide.de (Rinzai).",
     url: "https://www.zenkreis-hamburg.de/",
+    geoPrecision: "city",
   },
   {
     slug: "zengemeinschaft-des-stillen-wassers",
@@ -3896,6 +4165,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_zen_guide_de",
     sourceExcerpt: "Zengemeinschaft des Stillen Wassers — listed at www.zen-guide.de (Sōtō).",
     url: "https://www.stilles-wasser.de/",
+    geoPrecision: "city",
   },
   {
     slug: "internationales-zen-institut-deutschland",
@@ -3911,6 +4181,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_zen_guide_de",
     sourceExcerpt: "Internationales Zen-Institut Deutschland (IZID) — listed at www.zen-guide.de (Rinzai (Joshu Sasaki Roshi line)).",
     url: "https://www.zeninstitut.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "zen-sangha-genjoan-e-v",
@@ -3926,6 +4197,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_zen_guide_de",
     sourceExcerpt: "Zen Sangha GenjoAn e.V. — listed at www.zen-guide.de (Sōtō).",
     url: "https://www.genjoan.de/",
+    geoPrecision: "exact",
   },
   {
     slug: "kirche-der-stille",
@@ -3941,6 +4213,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Kirche der Stille (Daishin Zen Hamburg-Altona) — listed at daishinzen.de (Daishin Zen).",
     url: "https://www.zen-nord.de/",
+    geoPrecision: "exact",
   },
   {
     slug: "zen-gruppe-hamburg",
@@ -3956,6 +4229,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_zen_guide_de",
     sourceExcerpt: "Zen-Gruppe Hamburg (Kwan Um Zen Schule) — listed at www.zen-guide.de (Kwan Um School of Zen (Korean Seon)).",
     url: "https://www.kwanumzen.de/",
+    geoPrecision: "exact",
   },
   {
     slug: "intersein-hamburg",
@@ -3971,6 +4245,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Intersein Hamburg — listed at intersein.de (Plum Village (Thích Nhất Hạnh)).",
     url: "https://intersein-hamburg.net/",
+    geoPrecision: "exact",
   },
   {
     slug: "thich-nhat-hanh-hamburg",
@@ -3986,6 +4261,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Thich Nhat Hanh Hamburg — listed at intersein.de (Plum Village (Thích Nhất Hạnh)).",
     url: "https://thich-nhat-hanh-hamburg.de/",
+    geoPrecision: "exact",
   },
   {
     slug: "zen-dojo-ryosan-do-hannover",
@@ -4001,6 +4277,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_zen_guide_de",
     sourceExcerpt: "Zen-Dojo Ryosan Do Hannover — listed at www.zen-guide.de (Sōtō / Deshimaru (AZI)).",
     url: "https://www.ryosando.de/",
+    geoPrecision: "exact",
   },
   {
     slug: "zen-dojo-shobogendo",
@@ -4016,6 +4293,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_dbu",
     sourceExcerpt: "Zen Dojo Shobogendo — listed at buddhismus-deutschland.de (Sōtō (Dagmar Doko Waskönig)).",
     url: "https://www.shobogendo.de/",
+    geoPrecision: "exact",
   },
   {
     slug: "zendo-koln-e-v",
@@ -4031,6 +4309,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_zen_guide_de",
     sourceExcerpt: "Zendo Köln e.V. — listed at www.zen-guide.de (Sōtō / Deshimaru (AZI)).",
     url: "https://www.zendo-koeln.de/",
+    geoPrecision: "exact",
   },
   {
     slug: "daishin-zen-koln",
@@ -4046,6 +4325,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Daishin Zen Köln — listed at daishinzen.de (Daishin Zen).",
     url: "https://daishinzen-koeln.de/",
+    geoPrecision: "city",
   },
   {
     slug: "zen-gruppe-koln",
@@ -4061,6 +4341,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_zen_guide_de",
     sourceExcerpt: "Zen-Gruppe Köln (Kwan Um Zen Schule) — listed at www.zen-guide.de (Kwan Um School of Zen (Korean Seon)).",
     url: "https://www.kwanumzen.de/",
+    geoPrecision: "city",
   },
   {
     slug: "stadtraum-koln",
@@ -4076,6 +4357,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Stadtraum Köln (Plum Village Sangha) — listed at intersein.de (Plum Village (Thích Nhất Hạnh)). Werner Heidenreich (Dharma Teacher).",
     url: "https://www.stadtraum.de/",
+    geoPrecision: "exact",
   },
   {
     slug: "zen-zentrum-dusseldorf-wolken-und-wasser-zen-zentrum",
@@ -4091,6 +4373,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_zen_guide_de",
     sourceExcerpt: "Zen Zentrum Düsseldorf / Wolken und Wasser Zen-Zentrum — listed at www.zen-guide.de (Rinzai (Diamond Sangha-related, Genro Koudela)).",
     url: "https://www.wolkenundwasser.de/",
+    geoPrecision: "exact",
   },
   {
     slug: "daishin-zen-dusseldorf",
@@ -4106,6 +4389,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Daishin Zen Düsseldorf (Zendo Düsseldorf) — listed at daishinzen.de (Daishin Zen).",
     url: "https://daishinzen.de/",
+    geoPrecision: "exact",
   },
   {
     slug: "keizankai-dusseldorf-dojo",
@@ -4121,6 +4405,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_zen_guide_de",
     sourceExcerpt: "Keizankai-Düsseldorf Dojo — listed at www.zen-guide.de (Sōtō / Deshimaru (AZI)).",
     url: "https://www.keizankai.de/",
+    geoPrecision: "exact",
   },
   {
     slug: "zen-zentrum-solingen",
@@ -4136,6 +4421,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_zen_guide_de",
     sourceExcerpt: "Zen-Zentrum Solingen — listed at www.zen-guide.de (Sōtō / Deshimaru (AZI)).",
     url: "https://www.zen-solingen.de/",
+    geoPrecision: "exact",
   },
   {
     slug: "zendo-wuppertal-e-v",
@@ -4151,6 +4437,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_zen_guide_de",
     sourceExcerpt: "Zendo Wuppertal e.V. — listed at www.zen-guide.de (Sōtō / Deshimaru (AZI)).",
     url: "https://www.zendo-wuppertal.de/",
+    geoPrecision: "exact",
   },
   {
     slug: "zen-dojo-dorsten",
@@ -4166,6 +4453,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_zen_guide_de",
     sourceExcerpt: "Zen-Dojo Dorsten — listed at www.zen-guide.de (Sōtō).",
     url: "https://www.zen-dorsten.de/",
+    geoPrecision: "exact",
   },
   {
     slug: "eido-ji-temple",
@@ -4181,6 +4469,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_zen_guide_de",
     sourceExcerpt: "Eido-Ji Temple — listed at www.zen-guide.de (Sōtō).",
     url: "https://www.eido-ji.de/",
+    geoPrecision: "exact",
   },
   {
     slug: "zendo-essen",
@@ -4196,6 +4485,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_zen_guide_de",
     sourceExcerpt: "Zendo Essen (E Sen Dojo) — listed at www.zen-guide.de (Sōtō / Deshimaru (AZI)).",
     url: "https://www.zendo-essen.de/",
+    geoPrecision: "exact",
   },
   {
     slug: "zen-institut-munster-e-v",
@@ -4211,6 +4501,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_zen_guide_de",
     sourceExcerpt: "Zen Institut Münster e.V. — listed at www.zen-guide.de (Sōtō).",
     url: "https://www.zen-institut.de/",
+    geoPrecision: "exact",
   },
   {
     slug: "kanjizai-dojo-zendo-aachen-e-v",
@@ -4226,6 +4517,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_zen_guide_de",
     sourceExcerpt: "Kanjizai-Dojo / Zendo Aachen e.V. — listed at www.zen-guide.de (Sōtō / Deshimaru (AZI)).",
     url: "https://www.zendo-aachen.de/",
+    geoPrecision: "city",
   },
   {
     slug: "bambushain-sangha-zhulinci-tempel",
@@ -4241,6 +4533,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_zen_guide_de",
     sourceExcerpt: "Bambushain Sangha – Zhulinci Tempel — listed at www.zen-guide.de (Chinese Chan / Zen).",
     url: "https://www.bambushain.de/",
+    geoPrecision: "city",
   },
   {
     slug: "zen-dojo-bonn-e-v-san-bo-dojo",
@@ -4256,6 +4549,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_zen_guide_de",
     sourceExcerpt: "Zen Dojo Bonn e.V. – San Bo Dojo — listed at www.zen-guide.de (Sōtō / Deshimaru (AZI)).",
     url: "https://www.zen-bonn.de/",
+    geoPrecision: "exact",
   },
   {
     slug: "white-light-zendo",
@@ -4271,6 +4565,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_zen_guide_de",
     sourceExcerpt: "White Light Zendo (Zaltho-Sangha e.V.) — listed at www.zen-guide.de (White Plum Asanga (Maezumi lineage)).",
     url: "https://www.zaltho.de/",
+    geoPrecision: "exact",
   },
   {
     slug: "zen-dojo-trier-e-v",
@@ -4286,6 +4581,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_zen_guide_de",
     sourceExcerpt: "Zen-Dojo Trier e.V. — listed at www.zen-guide.de (Sōtō / Deshimaru (AZI)).",
     url: "https://www.zen-trier.de/",
+    geoPrecision: "exact",
   },
   {
     slug: "zen-dojo-ho-rin-ji",
@@ -4301,6 +4597,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_zen_guide_de",
     sourceExcerpt: "Zen-Dojo Ho Rin Ji — listed at www.zen-guide.de (Sōtō / Deshimaru (AZI)).",
     url: "https://www.zen-saarbruecken.de/",
+    geoPrecision: "exact",
   },
   {
     slug: "zendojo-un-ryu-do",
@@ -4316,6 +4613,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_zen_guide_de",
     sourceExcerpt: "Zendojo Ûn ryu dô — listed at www.zen-guide.de (Sōtō / Deshimaru (AZI)).",
     url: "https://www.unryudo.de/",
+    geoPrecision: "exact",
   },
   {
     slug: "daishin-zen-saarbrucken",
@@ -4331,6 +4629,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Daishin Zen Saarbrücken (Zendo Saar) — listed at daishinzen.de (Daishin Zen).",
     url: "https://zendo-saar.de/",
+    geoPrecision: "exact",
   },
   {
     slug: "europaisches-zentrum-fur-meditation-und-begegnung-neumuhle",
@@ -4346,6 +4645,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_zen_guide_de",
     sourceExcerpt: "Europäisches Zentrum für Meditation und Begegnung Neumühle — listed at www.zen-guide.de (Christlich-buddhistisch / Zen).",
     url: "https://www.neumuehle.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "zen-zentrum-mainz",
@@ -4361,6 +4661,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_zen_guide_de",
     sourceExcerpt: "Zen-Zentrum Mainz — listed at www.zen-guide.de (Sōtō).",
     url: "https://www.zen-mainz.de/",
+    geoPrecision: "exact",
   },
   {
     slug: "zen-meditation-im-kloster-jakobsberg",
@@ -4376,6 +4677,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Zen Meditation im Kloster Jakobsberg — listed at daishinzen.de (Daishin Zen / Zen Frankfurt City).",
     url: "https://zen-frankfurt-city.de/",
+    geoPrecision: "exact",
   },
   {
     slug: "zen-dojo-kaiserslautern",
@@ -4391,6 +4693,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_zen_guide_de",
     sourceExcerpt: "Zen Dojo Kaiserslautern — listed at www.zen-guide.de (Sōtō / Deshimaru (AZI)).",
     url: "https://www.zen-kl.de/",
+    geoPrecision: "exact",
   },
   {
     slug: "zen-dojo-mannheim",
@@ -4406,6 +4709,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_zen_guide_de",
     sourceExcerpt: "Zen-Dojo Mannheim — listed at www.zen-guide.de (Sōtō / Deshimaru (AZI)).",
     url: "https://www.zen-mannheim.de/",
+    geoPrecision: "exact",
   },
   {
     slug: "zengemeinschaft-frankfurt",
@@ -4421,6 +4725,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_zen_guide_de",
     sourceExcerpt: "Zengemeinschaft Frankfurt — listed at www.zen-guide.de (Sōtō).",
     url: "https://www.zengemeinschaft-frankfurt.de/",
+    geoPrecision: "exact",
   },
   {
     slug: "pagode-phat-hue",
@@ -4436,6 +4741,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_zen_guide_de",
     sourceExcerpt: "Pagode Phat Hue — listed at www.zen-guide.de (Vietnamese Thiền (Lâm Tế / Linji)). Vietnamese Linji-Lin lineage Buddhist temple in Frankfurt.",
     url: "https://www.phathue.de/",
+    geoPrecision: "exact",
   },
   {
     slug: "zen-frankfurt-city",
@@ -4451,6 +4757,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Zen Frankfurt City (Daishin Zen) — listed at daishinzen.de (Daishin Zen).",
     url: "https://zen-frankfurt-city.de/",
+    geoPrecision: "exact",
   },
   {
     slug: "frankfurt-zen",
@@ -4466,6 +4773,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_kwanum",
     sourceExcerpt: "Frankfurt Zen (Kwan Um) — listed at kwanumeurope.org (Kwan Um School of Zen (Korean Seon)).",
     url: "https://www.kwanumzen.de/",
+    geoPrecision: "exact",
   },
   {
     slug: "zen-gruppe-darmstadt",
@@ -4481,6 +4789,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_zen_guide_de",
     sourceExcerpt: "Zen-Gruppe Darmstadt — listed at www.zen-guide.de (Sōtō / Deshimaru (AZI)).",
     url: "https://www.zen-darmstadt.de/",
+    geoPrecision: "exact",
   },
   {
     slug: "zen-meditation-im-kloster-oberzell",
@@ -4496,6 +4805,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Zen Meditation im Kloster Oberzell — listed at daishinzen.de (Daishin Zen / Zen Frankfurt City).",
     url: "https://zen-frankfurt-city.de/",
+    geoPrecision: "exact",
   },
   {
     slug: "zen-do-kai-e-v-munchen",
@@ -4511,6 +4821,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_zen_guide_de",
     sourceExcerpt: "Zen-Do-Kai e.V. München — listed at www.zen-guide.de (Sōtō / Deshimaru (AZI)).",
     url: "https://www.zendokai.de/",
+    geoPrecision: "city",
   },
   {
     slug: "onedropzendo-munchen",
@@ -4526,6 +4837,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_zen_guide_de",
     sourceExcerpt: "OneDropZendo München — listed at www.zen-guide.de (Rinzai (One Drop Zen / Shodo Harada)).",
     url: "https://www.onedropzendo-muenchen.de/",
+    geoPrecision: "city",
   },
   {
     slug: "ryu-un-zendo",
@@ -4541,6 +4853,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_zen_guide_de",
     sourceExcerpt: "Ryû-Un-Zendô — listed at www.zen-guide.de (Rinzai).",
     url: "https://www.ryuunzendo.de/",
+    geoPrecision: "exact",
   },
   {
     slug: "bodhidharma-tempel-munchen",
@@ -4556,6 +4869,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_zen_guide_de",
     sourceExcerpt: "Bodhidharma Tempel München — listed at www.zen-guide.de (Chan / Zen (Bodhidharma)).",
     url: "https://www.bodhidharma-tempel.de/",
+    geoPrecision: "exact",
   },
   {
     slug: "hannya-kai-zen-gemeinschaft-e-v",
@@ -4571,6 +4885,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_zen_guide_de",
     sourceExcerpt: "Hannya-Kai Zen-Gemeinschaft e.V. — listed at www.zen-guide.de (Sōtō).",
     url: "https://www.hannyakai.de/",
+    geoPrecision: "exact",
   },
   {
     slug: "zendo-munchen",
@@ -4586,6 +4901,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Zendo München (Daishin Zen) — listed at daishinzen.de (Daishin Zen).",
     url: "https://zendo-muenchen.com/",
+    geoPrecision: "exact",
   },
   {
     slug: "soto-zen-in-konigsdorf",
@@ -4601,6 +4917,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_zen_guide_de",
     sourceExcerpt: "Soto Zen in Königsdorf — listed at www.zen-guide.de (Sōtō (Antaiji-related)).",
     url: "https://www.zenkoenigsdorf.de/",
+    geoPrecision: "exact",
   },
   {
     slug: "achtsamkeitszentrum-munchen",
@@ -4616,6 +4933,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Achtsamkeitszentrum München (GAL Bayern) — listed at intersein.de (Plum Village (Thích Nhất Hạnh)).",
     url: "https://www.gal-bayern.de/",
+    geoPrecision: "exact",
   },
   {
     slug: "zen-dojo-do-now-e-v",
@@ -4631,6 +4949,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_zen_guide_de",
     sourceExcerpt: "Zen Dojo Dô-Now e.V. — listed at www.zen-guide.de (Rinzai).",
     url: "https://www.do-now.de/",
+    geoPrecision: "city",
   },
   {
     slug: "intersein-sangha-regensburg",
@@ -4646,6 +4965,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Intersein-Sangha Regensburg — listed at intersein.de (Plum Village (Thích Nhất Hạnh)).",
     url: "https://intersein-sangha-regensburg.de/",
+    geoPrecision: "city",
   },
   {
     slug: "zen-in-augsburg",
@@ -4661,6 +4981,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_zen_guide_de",
     sourceExcerpt: "Zen in Augsburg — listed at www.zen-guide.de (Rinzai).",
     url: "https://www.zen-augsburg.de/",
+    geoPrecision: "exact",
   },
   {
     slug: "zendo-augsburg",
@@ -4676,6 +4997,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Zendo Augsburg (Daishin Zen) — listed at daishinzen.de (Daishin Zen).",
     url: "https://www.zendo-augsburg.de/",
+    geoPrecision: "exact",
   },
   {
     slug: "tao-bamberg",
@@ -4691,6 +5013,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_zen_guide_de",
     sourceExcerpt: "TAO Bamberg — listed at www.zen-guide.de (Rinzai).",
     url: "https://www.tao-bamberg.de/",
+    geoPrecision: "exact",
   },
   {
     slug: "bodhidharma-tempel-nurnberg",
@@ -4706,6 +5029,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_zen_guide_de",
     sourceExcerpt: "Bodhidharma Tempel Nürnberg — listed at www.zen-guide.de (Chan / Zen).",
     url: "https://www.bodhidharma-tempel.de/",
+    geoPrecision: "exact",
   },
   {
     slug: "zendo-stuttgart",
@@ -4721,6 +5045,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_zen_guide_de",
     sourceExcerpt: "Zendo Stuttgart — listed at www.zen-guide.de (Sōtō / Deshimaru (AZI)).",
     url: "https://www.zendo-stuttgart.de/",
+    geoPrecision: "exact",
   },
   {
     slug: "daishin-zen-zendo-stuttgart",
@@ -4736,6 +5061,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Daishin Zen Zendo Stuttgart — listed at daishinzen.de (Daishin Zen).",
     url: "https://daishinzen.de/",
+    geoPrecision: "exact",
   },
   {
     slug: "hi-gi-zen-dojo-karlsruhe",
@@ -4751,6 +5077,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_zen_guide_de",
     sourceExcerpt: "Hi Gi Zen Dojo Karlsruhe — listed at www.zen-guide.de (Sōtō / Deshimaru (AZI)).",
     url: "https://www.zen-karlsruhe.de/",
+    geoPrecision: "exact",
   },
   {
     slug: "hei-jo-zen-dojo-e-v",
@@ -4766,6 +5093,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_zen_guide_de",
     sourceExcerpt: "Hei Jô Zen Dojo e.V. — listed at www.zen-guide.de (Sōtō / Deshimaru (AZI)).",
     url: "https://www.heijo-zen.de/",
+    geoPrecision: "exact",
   },
   {
     slug: "zen-dojo-weingarten",
@@ -4781,6 +5109,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_zen_guide_de",
     sourceExcerpt: "Zen-Dojo Weingarten — listed at www.zen-guide.de (Sōtō / Deshimaru (AZI)).",
     url: "https://www.zen-weingarten.de/",
+    geoPrecision: "exact",
   },
   {
     slug: "ho-un-do-zen-dojo-freiburg",
@@ -4796,6 +5125,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_zen_guide_de",
     sourceExcerpt: "HO UN DO Zen-Dojo Freiburg — listed at www.zen-guide.de (Sōtō / Deshimaru (AZI)).",
     url: "https://www.zen-freiburg.de/",
+    geoPrecision: "exact",
   },
   {
     slug: "sonnenhof-zentrum-fur-zen-und-kontemplation",
@@ -4811,6 +5141,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_zen_guide_de",
     sourceExcerpt: "Sonnenhof – Zentrum für Zen und Kontemplation — listed at www.zen-guide.de (Leere Wolke (Willigis Jäger lineage)).",
     url: "https://www.sonnenhof-aitern.de/",
+    geoPrecision: "exact",
   },
   {
     slug: "buddhistisches-studienzentrum-ggmbh",
@@ -4826,6 +5157,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_zen_guide_de",
     sourceExcerpt: "Buddhistisches Studienzentrum gGmbH (Zen Buddhistisches Zentrum Schwarzwald) — listed at www.zen-guide.de (Sōtō).",
     url: "https://www.bsz-schwarzwald.de/",
+    geoPrecision: "exact",
   },
   {
     slug: "zendojo-konstanz",
@@ -4841,6 +5173,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_zen_guide_de",
     sourceExcerpt: "Zendojo Konstanz — listed at www.zen-guide.de (Sōtō / Deshimaru (AZI)).",
     url: "https://www.zendojo-konstanz.de/",
+    geoPrecision: "exact",
   },
   {
     slug: "bodhidharma-zen-gemeinschaft",
@@ -4856,6 +5189,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_zen_guide_de",
     sourceExcerpt: "Bodhidharma Zen-Gemeinschaft — listed at www.zen-guide.de (Chan / Zen).",
     url: "https://www.bodhidharma-zen.de/",
+    geoPrecision: "exact",
   },
   {
     slug: "zen-in-ravensburg-e-v",
@@ -4871,6 +5205,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_zen_guide_de",
     sourceExcerpt: "ZEN in Ravensburg e.V. — listed at www.zen-guide.de (Sōtō).",
     url: "https://www.zen-ravensburg.de/",
+    geoPrecision: "exact",
   },
   {
     slug: "daishin-zen-heilbronn-e-v",
@@ -4886,6 +5221,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_zen_guide_de",
     sourceExcerpt: "Daishin Zen Heilbronn e.V. — listed at www.zen-guide.de (Daishin Zen).",
     url: "https://daishinzen.de/",
+    geoPrecision: "exact",
   },
   {
     slug: "furnace-mountain-zen-schule-tubingen",
@@ -4901,6 +5237,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_zen_guide_de",
     sourceExcerpt: "Furnace Mountain Zen-Schule Tübingen — listed at www.zen-guide.de (Korean Seon (Jogye Order)).",
     url: "https://www.furnacemountain.de/",
+    geoPrecision: "exact",
   },
   {
     slug: "daishin-zen-ulm",
@@ -4916,6 +5253,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Daishin Zen Ulm — listed at daishinzen.de (Daishin Zen).",
     url: "https://www.daishin-zen-ulm.de/",
+    geoPrecision: "exact",
   },
   {
     slug: "zen-auf-der-alb",
@@ -4931,6 +5269,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Zen auf der Alb (Daishin Zen Blaustein) — listed at daishinzen.de (Daishin Zen).",
     url: "https://zen-alb.de/",
+    geoPrecision: "city",
   },
   {
     slug: "zenhof-rodental-e-v",
@@ -4946,6 +5285,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_zen_guide_de",
     sourceExcerpt: "Zenhof Rödental e.V. — listed at www.zen-guide.de (Sōtō).",
     url: "https://www.zenhof-roedental.de/",
+    geoPrecision: "exact",
   },
   {
     slug: "zen-kreis-kassel-toku-ko-kai",
@@ -4961,6 +5301,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_zen_guide_de",
     sourceExcerpt: "Zen-Kreis-Kassel Toku Ko Kai — listed at www.zen-guide.de (Rinzai).",
     url: "https://www.zenkreis-kassel.de/",
+    geoPrecision: "exact",
   },
   {
     slug: "lebendiges-zen-gottingen",
@@ -4976,6 +5317,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_zen_guide_de",
     sourceExcerpt: "Lebendiges Zen Göttingen — listed at www.zen-guide.de (Sōtō).",
     url: "https://www.lebendiges-zen.de/",
+    geoPrecision: "exact",
   },
   {
     slug: "jikai-zen-kutsu-zen-kreis-bremen",
@@ -4991,6 +5333,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_zen_guide_de",
     sourceExcerpt: "Jikai Zen Kutsu – Zen-Kreis Bremen — listed at www.zen-guide.de (Rinzai).",
     url: "https://www.zenkreis-bremen.de/",
+    geoPrecision: "exact",
   },
   {
     slug: "ho-kyo-zen-kutsu",
@@ -5006,6 +5349,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_zen_guide_de",
     sourceExcerpt: "Ho Kyo Zen Kutsu — listed at www.zen-guide.de (Rinzai).",
     url: "https://www.zen-kreis-kiel.de/",
+    geoPrecision: "exact",
   },
   {
     slug: "zen-zentrum-schonboken-mokushozan-jakkoji",
@@ -5021,6 +5365,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_zen_guide_de",
     sourceExcerpt: "Zen Zentrum Schönböken Mokushôzan Jakkôji — listed at www.zen-guide.de (Sōtō (Zen-Vereinigung Deutschland)). Country zendo of the Zen-Vereinigung Deutschland.",
     url: "https://www.zen-vereinigung.de/",
+    geoPrecision: "exact",
   },
   {
     slug: "zendo-dresden",
@@ -5036,6 +5381,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_zen_guide_de",
     sourceExcerpt: "Zendo Dresden (I shin den shin Zen Dojo) — listed at www.zen-guide.de (Sōtō / Deshimaru (AZI)).",
     url: "https://www.zen-dresden.de/",
+    geoPrecision: "exact",
   },
   {
     slug: "zen-dojo-leipzig",
@@ -5051,6 +5397,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_zen_guide_de",
     sourceExcerpt: "Zen Dojo Leipzig — listed at www.zen-guide.de (Sōtō / Deshimaru (AZI)).",
     url: "https://www.zen-dojo-leipzig.de/",
+    geoPrecision: "exact",
   },
   {
     slug: "wolkentor-zen-tempel",
@@ -5066,6 +5413,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_zen_guide_de",
     sourceExcerpt: "Wolkentor Zen-Tempel — listed at www.zen-guide.de (Sōtō).",
     url: "https://www.wolkentor.de/",
+    geoPrecision: "exact",
   },
   {
     slug: "zen-dojo-rostock",
@@ -5081,6 +5429,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_zen_guide_de",
     sourceExcerpt: "Zen-Dojo Rostock — listed at www.zen-guide.de (Sōtō / Deshimaru (AZI)).",
     url: "https://www.zen-rostock.de/",
+    geoPrecision: "exact",
   },
   {
     slug: "zen-forderverein-cottbus",
@@ -5096,6 +5445,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_zen_guide_de",
     sourceExcerpt: "Zen-Förderverein Cottbus — listed at www.zen-guide.de (Sōtō).",
     url: "https://www.zen-cottbus.de/",
+    geoPrecision: "exact",
   },
   {
     slug: "sangha-potsdam",
@@ -5111,6 +5461,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha Potsdam (Plum Village) — listed at intersein.de (Plum Village (Thích Nhất Hạnh)).",
     url: "https://benjaminjoon.de/sangha-potsdam.html",
+    geoPrecision: "exact",
   },
   {
     slug: "leben-aus-zen-leipzig",
@@ -5126,6 +5477,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Leben aus Zen Leipzig (Plum Village) — listed at intersein.de (Plum Village (Thích Nhất Hạnh)).",
     url: "https://lebenauszen.humorsamkeit.de/",
+    geoPrecision: "exact",
   },
   {
     slug: "intersein-sangha-wurzburg",
@@ -5141,6 +5493,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Intersein-Sangha Würzburg — listed at intersein.de (Plum Village (Thích Nhất Hạnh)).",
     url: "https://intersein-sangha-wuerzburg.de/",
+    geoPrecision: "exact",
   },
   {
     slug: "intersein-zentrum",
@@ -5156,6 +5509,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Intersein Zentrum (Plum Village Hohenau) — listed at intersein.de (Plum Village (Thích Nhất Hạnh)). Lay practice centre in the Bavarian Forest in the Plum Village tradition.",
     url: "https://www.intersein-zentrum.de/",
+    geoPrecision: "exact",
   },
   {
     slug: "havredal-zendo",
@@ -5171,6 +5525,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_wikipedia",
     sourceExcerpt: "Havredal Zendo (Buddhistisk Samfund) — listed at en.wikipedia.org (Rinzai Zen). First Zen temple building in Denmark, founded by Choan Denko Mokudo Bertelsen; current leadership Shuho Seishin Sommerhall; HQ of Buddhistisk Samfund (buddhistisksamfund.dk)",
     url: "https://havredalzendo.dk/",
+    geoPrecision: "exact",
   },
   {
     slug: "zen-buddhistisk-forening",
@@ -5186,6 +5541,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Zen-Buddhistisk Forening (Hokori Sangha) — listed at www.zenbuddhistiskforening.dk (Rinzai (Sogenji / Shodo Harada Roshi affiliation)). Independent group with affiliation to Sogenji monastery and Shodo Harada Roshi; meets in central Copenhagen by arrangement",
     url: "https://www.zenbuddhistiskforening.dk/",
+    geoPrecision: "city",
   },
   {
     slug: "one-drop-zendo-k-benhavn",
@@ -5201,6 +5557,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_onedropzen",
     sourceExcerpt: "One Drop Zendo København — listed at onedropzendo.dk (Rinzai (Shodo Harada Roshi / Sogenji / One Drop Zen)). Contact Peter Daiko Skovgaard; meets Sundays 17:30-19:30 at FOF facilities (currently displaced after building fire)",
     url: "https://onedropzendo.dk/",
+    geoPrecision: "city",
   },
   {
     slug: "one-drop-zendo-odense",
@@ -5216,6 +5573,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_onedropzen",
     sourceExcerpt: "One Drop Zendo Odense (Ten Chi Dojo) — listed at onedropzendo.dk (Rinzai (Shodo Harada Roshi / Sogenji / One Drop Zen)). Practicing zazen since 2001; meets first Wednesday of month 18:00; connection to Shodo Harada Roshi and One Drop Zendo community",
     url: "https://onedropzendo.dk/zen-i-odense/",
+    geoPrecision: "city",
   },
   {
     slug: "boundless-way-zen-copenhagen",
@@ -5231,6 +5589,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Boundless Way Zen Copenhagen — listed at copenhagenzen.com (Soto/Harada-Yasutani koan curriculum + Korean Linji (Boundless Way Zen)). Led by Esther Sorgenfrei (Dharma Holder, Denkai Aug 2025), student of David Dae An Rynick Roshi and Melissa Moyzen Blacker Roshi; weekly Monday evening practice",
     url: "https://copenhagenzen.com/",
+    geoPrecision: "city",
   },
   {
     slug: "big-heart-zen-copenhagen",
@@ -5246,6 +5605,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_whiteplum",
     sourceExcerpt: "Big Heart Zen Copenhagen — listed at www.meetup.com (White Plum Asanga (Maezumi lineage)). Led by Birgitte Myoin, ordained Zen Monk and long-term student of Soten Genpo Roshi; donation-based, online and in-person",
     url: "https://www.meetup.com/zazen-copenhagen/",
+    geoPrecision: "city",
   },
   {
     slug: "soto-zen-aarhus",
@@ -5261,6 +5621,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Sōtō Zen Aarhus — listed at www.facebook.com (Soto Zen). Sōtō Zen practice group in Aarhus",
     url: "https://www.facebook.com/sotozenaarhus/",
+    geoPrecision: "city",
   },
   {
     slug: "aarhus-zendo",
@@ -5276,6 +5637,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_buddhanet",
     sourceExcerpt: "Aarhus Zendo (Øsal Ling) — listed at www.buddhanet.info (Zen / Dzogchen (Nyingma) hybrid). Teacher Denko John Mortensen; combines Zen and Dzogchen; included as hybrid Zen presence; also hosts Interbeing Denmark Plum Village days monthly",
     url: "http://www.buddhanet.info/wbd/country.php?country_id=60",
+    geoPrecision: "exact",
   },
   {
     slug: "interbeing-denmark",
@@ -5291,6 +5653,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Interbeing Denmark (Plum Village Copenhagen Sangha) — listed at interbeing.dk (Plum Village (Thích Nhất Hạnh)). Plum Village tradition mindfulness sangha in Denmark; Tuesday evening meets at Det Åbne Rum or Naturcenter Vestamager; monthly mindfulness day at Chùa Liễu Quán Vietnamese temple in Glostrup, led by Br. Thay Phap Tru",
     url: "https://interbeing.dk/",
+    geoPrecision: "city",
   },
   {
     slug: "templo-zen-luz-serena",
@@ -5306,6 +5669,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sotozen_es",
     sourceExcerpt: "Templo Zen Luz Serena — listed at sotozen.es (Sōtō / Comunidad Buddhista Soto Zen (Dokushô Villalba)). Spiritual and administrative headquarters of CBSZ; main residential monastery in Spain.",
     url: "https://sotozen.es/",
+    geoPrecision: "exact",
   },
   {
     slug: "asociacion-zen-de-galicia",
@@ -5321,6 +5685,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sotozen_es",
     sourceExcerpt: "Asociación Zen de Galicia — listed at sotozen.es (Sōtō / Comunidad Buddhista Soto Zen). CBSZ integrated center; instructor Uxío Outeiro Lojo.",
     url: "https://galicia.sotozen.es/",
+    geoPrecision: "city",
   },
   {
     slug: "asociacion-zen-de-mallorca",
@@ -5336,6 +5701,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sotozen_es",
     sourceExcerpt: "Asociación Zen de Mallorca — listed at sotozen.es (Sōtō / Comunidad Buddhista Soto Zen). CBSZ integrated center.",
     url: "https://mallorca.sotozen.es/",
+    geoPrecision: "city",
   },
   {
     slug: "asociacion-zen-de-valencia",
@@ -5351,6 +5717,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sotozen_es",
     sourceExcerpt: "Asociación Zen de Valencia (Ananda Dharma) — listed at sotozen.es (Sōtō / Comunidad Buddhista Soto Zen). CBSZ integrated urban center.",
     url: "https://valencia.sotozen.es/",
+    geoPrecision: "city",
   },
   {
     slug: "grupo-zen-monte-moncayo",
@@ -5366,6 +5733,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sotozen_es",
     sourceExcerpt: "Grupo Zen Monte Moncayo — listed at sotozen.es (Sōtō / Comunidad Buddhista Soto Zen). CBSZ integrated center; instructor Agustín Vázquez.",
     url: "https://montemoncayo.sotozen.es/",
+    geoPrecision: "city",
   },
   {
     slug: "asociacion-zen-gran-canaria",
@@ -5381,6 +5749,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sotozen_es",
     sourceExcerpt: "Asociación Zen Gran Canaria — listed at sotozen.es (Sōtō / Comunidad Buddhista Soto Zen). CBSZ integrated center; instructor Víctor Basanta.",
     url: "https://grancanaria.sotozen.es/",
+    geoPrecision: "exact",
   },
   {
     slug: "templo-seikyuji",
@@ -5396,6 +5765,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sotozen_jp",
     sourceExcerpt: "Templo Seikyuji — listed at www.sotozen.com (Sōtō / AZI - Seikyuji (Raphaël Doko Triet)). Officially registered Sōtōshū temple outside Japan; main Andalusian residential temple.",
     url: "https://www.seikyuji.org/",
+    geoPrecision: "city",
   },
   {
     slug: "centro-zen-abhirati-buda-dharma-zen",
@@ -5411,6 +5781,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sotozen_jp",
     sourceExcerpt: "Centro Zen Abhirati / Buda Dharma Zen — listed at www.sotozen.com (Sōtō / Sōtōshū Europe). Listed in Sōtōshū Europe registry.",
     url: "https://budadharmazen.org/",
+    geoPrecision: "city",
   },
   {
     slug: "keiryuji",
@@ -5426,6 +5797,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sotozen_jp",
     sourceExcerpt: "Keiryuji — listed at www.sotozen.com (Sōtō / Sōtōshū Europe). Mountain temple in the Catalan Pyrenees, registered with Sōtōshū.",
     url: "https://www.keiryuji.org/",
+    geoPrecision: "city",
   },
   {
     slug: "shorin-ji-templo-zen",
@@ -5441,6 +5813,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_kosen_sangha",
     sourceExcerpt: "Shorin-ji Templo Zen — listed at zenkan.com (Sōtō / AZI - Kosen Sangha (Bárbara Kosen)). Forest temple founded 2001 by Bárbara Kosen, first Western woman to receive Shiho.",
     url: "https://zenkan.com/en/shorinji-zen-temple/",
+    geoPrecision: "city",
   },
   {
     slug: "mokusan-dojo",
@@ -5456,6 +5829,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_kosen_sangha",
     sourceExcerpt: "Mokusan Dojo — listed at zenkan.com (Sōtō / AZI - Kosen Sangha (Bárbara Kosen)). Headquarters dojo of Asociación Zen Taisen Deshimaru in Madrid.",
     url: "https://zenkan.com/mokusan-dojo/",
+    geoPrecision: "city",
   },
   {
     slug: "getsuko-dojo",
@@ -5471,6 +5845,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_kosen_sangha",
     sourceExcerpt: "Getsuko Dojo — listed at zenkan.com (Sōtō / AZI - Kosen Sangha). Kosen Sangha network.",
     url: "https://zenkan.com/getsuko-dojo-zen/",
+    geoPrecision: "city",
   },
   {
     slug: "sokai-dojo",
@@ -5486,6 +5861,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_kosen_sangha",
     sourceExcerpt: "Sokai Dojo — listed at zenkan.com (Sōtō / AZI - Kosen Sangha).",
     url: "https://zenkan.com/sokai-dojo/",
+    geoPrecision: "city",
   },
   {
     slug: "ryusansui-dojo",
@@ -5501,6 +5877,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_kosen_sangha",
     sourceExcerpt: "Ryusansui Dojo — listed at zenkan.com (Sōtō / AZI - Kosen Sangha).",
     url: "https://zenkan.com/ryusansui-dojo/",
+    geoPrecision: "city",
   },
   {
     slug: "grupo-zen-de-cantabria-dojo-zen-santander",
@@ -5516,6 +5893,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_kosen_sangha",
     sourceExcerpt: "Grupo Zen de Cantabria / Dojo Zen Santander — listed at zenkan.com (Sōtō / AZI - Kosen Sangha). Practices Mondays and Saturdays.",
     url: "https://zazencantabria.wixsite.com/zazencantabria",
+    geoPrecision: "city",
   },
   {
     slug: "grupo-zen-de-zarzalejo",
@@ -5531,6 +5909,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_kosen_sangha",
     sourceExcerpt: "Grupo Zen de Zarzalejo — listed at zenkan.com (Sōtō / AZI - Kosen Sangha).",
     url: "https://zenkan.com/grupos-de-zazen/",
+    geoPrecision: "city",
   },
   {
     slug: "grupo-zen-de-huesca",
@@ -5546,6 +5925,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_kosen_sangha",
     sourceExcerpt: "Grupo Zen de Huesca — listed at zenkan.com (Sōtō / AZI - Kosen Sangha).",
     url: "https://zenkan.com/grupos-de-zazen/",
+    geoPrecision: "city",
   },
   {
     slug: "dojo-zen-de-barcelona",
@@ -5561,6 +5941,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_kosen_sangha",
     sourceExcerpt: "Dojo Zen de Barcelona (Ryokan) — listed at www.zen-deshimaru.com (Sōtō / AZI - Deshimaru (San Pai Sobel)). Listed in AZI international where-to-practice directory.",
     url: "https://zen-barcelona.com/es/",
+    geoPrecision: "city",
   },
   {
     slug: "dojo-zen-sevilla-kaiko",
@@ -5576,6 +5957,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Dojo Zen Sevilla Kaiko — listed at www.seikyuji.org (Sōtō / AZI - Seikyuji). Affiliated with Templo Seikyuji.",
     url: "https://www.dojozensevillakaiko.es/",
+    geoPrecision: "city",
   },
   {
     slug: "granada-zen",
@@ -5591,6 +5973,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Granada Zen — listed at www.seikyuji.org (Sōtō / AZI - Seikyuji).",
     url: "https://www.granadazen.com/",
+    geoPrecision: "city",
   },
   {
     slug: "dojo-zen-de-algeciras",
@@ -5606,6 +5989,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Dojo Zen de Algeciras — listed at www.seikyuji.org (Sōtō / AZI - Seikyuji).",
     url: "https://www.dojozendealgeciras.com/",
+    geoPrecision: "city",
   },
   {
     slug: "dojo-zen-de-malaga",
@@ -5621,6 +6005,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Dojo Zen de Málaga — listed at www.seikyuji.org (Sōtō / AZI - Seikyuji).",
     url: "https://dojozendemalaga.com/",
+    geoPrecision: "city",
   },
   {
     slug: "zen-jaen",
@@ -5636,6 +6021,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Zen Jaén — listed at www.seikyuji.org (Sōtō / AZI - Seikyuji). Email-only contact via Seikyuji directory.",
     url: "https://www.seikyuji.org/donde-practicar/",
+    geoPrecision: "city",
   },
   {
     slug: "zendo-utrera",
@@ -5651,6 +6037,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Zendo Utrera — listed at www.seikyuji.org (Sōtō / AZI - Seikyuji).",
     url: "https://www.zendoutrera.com/",
+    geoPrecision: "city",
   },
   {
     slug: "dojo-zen-madrid",
@@ -5666,6 +6053,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Dojo Zen Madrid (Soto Hidalgo) — listed at www.seikyuji.org (Sōtō / AZI - Seikyuji). Listed via Seikyuji affiliate directory.",
     url: "https://www.seikyuji.org/donde-practicar/",
+    geoPrecision: "city",
   },
   {
     slug: "zen-sierra-de-madrid",
@@ -5681,6 +6069,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Zen Sierra de Madrid (Bai San) — listed at www.seikyuji.org (Sōtō / AZI - Seikyuji).",
     url: "https://www.zensierra.com/",
+    geoPrecision: "exact",
   },
   {
     slug: "dojo-zen-de-vitoria-gasteiz",
@@ -5696,6 +6085,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Dojo Zen de Vitoria-Gasteiz — listed at www.seikyuji.org (Sōtō / AZI - Seikyuji).",
     url: "https://zenvitoriagasteiz.com/",
+    geoPrecision: "city",
   },
   {
     slug: "dojo-zen-de-bilbao",
@@ -5711,6 +6101,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Dojo Zen de Bilbao — listed at www.seikyuji.org (Sōtō / AZI - Seikyuji).",
     url: "http://dojozendebilbao.blogspot.com/",
+    geoPrecision: "city",
   },
   {
     slug: "dojo-zen-de-donostia",
@@ -5726,6 +6117,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Dojo Zen de Donostia — listed at www.seikyuji.org (Sōtō / AZI - Seikyuji).",
     url: "https://www.zendonostia.com/",
+    geoPrecision: "city",
   },
   {
     slug: "zen-pamplona",
@@ -5741,6 +6133,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Zen Pamplona — listed at www.seikyuji.org (Sōtō / AZI - Seikyuji). Email-only contact.",
     url: "https://www.seikyuji.org/donde-practicar/",
+    geoPrecision: "city",
   },
   {
     slug: "zen-valladolid",
@@ -5756,6 +6149,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Zen Valladolid — listed at www.seikyuji.org (Sōtō / AZI - Seikyuji).",
     url: "https://www.seikyuji.org/donde-practicar/",
+    geoPrecision: "city",
   },
   {
     slug: "dojo-zen-mataro",
@@ -5771,6 +6165,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Dojo Zen Mataró — listed at espanol.buddhistdoor.net (Sōtō / AZI - Seikyuji). Also listed in BuddhistDoor Catalonia directory.",
     url: "https://www.zenmataro.com/",
+    geoPrecision: "exact",
   },
   {
     slug: "zen-cuenca",
@@ -5786,6 +6181,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Zen Cuenca — listed at www.seikyuji.org (Sōtō / AZI - Seikyuji).",
     url: "https://www.seikyuji.org/donde-practicar/",
+    geoPrecision: "city",
   },
   {
     slug: "zendo-betania",
@@ -5801,6 +6197,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Zendo Betania (Barcelona) — listed at espanol.buddhistdoor.net (Sōtō / Soto Zen Catalunya). Catalan zendo network (distinct from Zendo Betania Brihuega/Sanbo).",
     url: "https://www.zendobetania.com/",
+    geoPrecision: "city",
   },
   {
     slug: "zendo-betania-moia",
@@ -5816,6 +6213,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Zendo Betania Moià — listed at espanol.buddhistdoor.net (Sōtō / Soto Zen Catalunya).",
     url: "https://www.zendobetania.com/",
+    geoPrecision: "exact",
   },
   {
     slug: "centro-zen-barcelona",
@@ -5831,6 +6229,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Centro Zen Barcelona — listed at espanol.buddhistdoor.net (Sōtō).",
     url: "https://www.zenbarcelona.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "dojo-zen-barcelona-kannon",
@@ -5846,6 +6245,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_azi",
     sourceExcerpt: "Dojo Zen Barcelona Kannon — listed at espanol.buddhistdoor.net (Sōtō / Deshimaru).",
     url: "https://zenkannon.org/",
+    geoPrecision: "city",
   },
   {
     slug: "dojo-zen-lleida",
@@ -5861,6 +6261,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Dojo Zen Lleida — listed at espanol.buddhistdoor.net (Sōtō).",
     url: "https://meditaciozenlleida.wordpress.com/",
+    geoPrecision: "exact",
   },
   {
     slug: "dojo-keisei-ji",
@@ -5876,6 +6277,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Dojo Keisei-ji — listed at espanol.buddhistdoor.net (Sōtō).",
     url: "https://zazen.cat/",
+    geoPrecision: "city",
   },
   {
     slug: "nalanda-dojo-zen",
@@ -5891,6 +6293,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Nalanda Dojo Zen — listed at espanol.buddhistdoor.net (Sōtō).",
     url: "https://www.nalanda.cat/",
+    geoPrecision: "exact",
   },
   {
     slug: "tenryuji",
@@ -5906,6 +6309,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Tenryuji — listed at espanol.buddhistdoor.net (Sōtō).",
     url: "https://sotozencatalunya.wordpress.com/",
+    geoPrecision: "exact",
   },
   {
     slug: "azc-azi-dojo-zen-de-girona",
@@ -5921,6 +6325,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "AZC-AZI Dojo Zen de Girona — listed at espanol.buddhistdoor.net (Sōtō / AZI).",
     url: "https://www.zengirona.net/",
+    geoPrecision: "city",
   },
   {
     slug: "azc-azi-grupo-de-zen-de-reus",
@@ -5936,6 +6341,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "AZC-AZI Grupo de Zen de Reus — listed at espanol.buddhistdoor.net (Sōtō / AZI). AZI affiliate group.",
     url: "https://espanol.buddhistdoor.net/directorio-de-entidades-budistas-en-cataluna-e-islas-baleares-espana/",
+    geoPrecision: "city",
   },
   {
     slug: "asai-dojo",
@@ -5951,6 +6357,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Asai Dojo — listed at espanol.buddhistdoor.net (Sōtō).",
     url: "https://www.dojoasai.com/",
+    geoPrecision: "exact",
   },
   {
     slug: "un-sui-zen",
@@ -5966,6 +6373,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Un Sui Zen — listed at www.unsuizen.es (Sōtō). Multipurpose zendo / martial arts dojo in Madrid; resident monk Bion.",
     url: "https://www.unsuizen.es/",
+    geoPrecision: "exact",
   },
   {
     slug: "dojo-zen-sakura",
@@ -5981,6 +6389,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Dojo Zen Sakura — listed at dojozensakura.blogspot.com (Sōtō (Roshi Soko Daidó Yoza, lineage of Shuyu Narita / Todenji)). Sierra de Madrid; transmitted via Shuyu Narita Roshi (Todenji).",
     url: "https://dojozensakura.blogspot.com/",
+    geoPrecision: "city",
   },
   {
     slug: "dojo-zen-nakama-madrid",
@@ -5996,6 +6405,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Dojo Zen Nakama Madrid — listed at dojozenmadrid.wordpress.com (Sōtō).",
     url: "https://dojozenmadrid.wordpress.com/",
+    geoPrecision: "city",
   },
   {
     slug: "zendo-betania-brihuega",
@@ -6011,6 +6421,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sanbozen",
     sourceExcerpt: "Zendo Betania Brihuega — listed at zendobetania.com (Sanbō Zen (Sanbo Kyodan, Yamada Kōun line; Ana María Schlüter Rodés)). Founded 1986; main Sanbō Zen hub in Spain. Christian-Zen dialogue tradition.",
     url: "https://www.zendobetania.com/",
+    geoPrecision: "exact",
   },
   {
     slug: "bori-centre-zen-barcelona",
@@ -6026,6 +6437,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_kwanum",
     sourceExcerpt: "Bori Centre Zen Barcelona — listed at www.kwanumeurope.org (Kwan Um School of Zen (Korean Seon)). Main Kwan Um center in Spain.",
     url: "https://boricentro.kwanumzen.es/",
+    geoPrecision: "city",
   },
   {
     slug: "bori-sa-centre-de-retirs",
@@ -6041,6 +6453,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_kwanum",
     sourceExcerpt: "Bori Sa Centre de Retirs — listed at boricentro.kwanumzen.es (Kwan Um School of Zen (Korean Seon)). Mountain retreat affiliated with Bori Centre Zen Barcelona.",
     url: "https://boricentro.kwanumzen.es/",
+    geoPrecision: "city",
   },
   {
     slug: "centro-zen-palma",
@@ -6056,6 +6469,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_kwanum",
     sourceExcerpt: "Centro Zen Palma — listed at espanol.buddhistdoor.net (Kwan Um School of Zen (Korean Seon)).",
     url: "https://www.centrozenpalma.org/",
+    geoPrecision: "city",
   },
   {
     slug: "dojo-zen-de-alicante",
@@ -6071,6 +6485,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Dojo Zen de Alicante (Camino Medio) — listed at caminomedio.org (Sōtō / Camino Medio). Local sangha of Comunidad Soto Zen Camino Medio.",
     url: "https://caminomedio.org/alicante/",
+    geoPrecision: "city",
   },
   {
     slug: "dojo-zen-de-elche",
@@ -6086,6 +6501,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Dojo Zen de Elche (Camino Medio) — listed at caminomedio.org (Sōtō / Camino Medio).",
     url: "https://caminomedio.org/elche/",
+    geoPrecision: "city",
   },
   {
     slug: "dojo-zen-de-murcia",
@@ -6101,6 +6517,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Dojo Zen de Murcia (Camino Medio) — listed at caminomedio.org (Sōtō / Camino Medio).",
     url: "https://caminomedio.org/murcia/",
+    geoPrecision: "city",
   },
   {
     slug: "grupo-zen-de-valencia",
@@ -6116,6 +6533,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Grupo Zen de Valencia (Camino Medio) — listed at caminomedio.org (Sōtō / Camino Medio).",
     url: "https://caminomedio.org/valencia/",
+    geoPrecision: "city",
   },
   {
     slug: "meditacion-zen-cantabria",
@@ -6131,6 +6549,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Meditación Zen Cantabria (IIZE) — listed at meditacionzenspain.com (Vietnamese Lam Te (Rinzai) / Instituto Internacional Zen España (Jiun Hogen Roshi)). IIZE local group; Lâm Tế / Rinzai lineage.",
     url: "https://www.meditacionzencantabria.es/",
+    geoPrecision: "city",
   },
   {
     slug: "meditacion-zen-alicante",
@@ -6146,6 +6565,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Meditación Zen Alicante (IIZE) — listed at meditacionzenspain.com (Vietnamese Lam Te (Rinzai) / Instituto Internacional Zen España).",
     url: "https://meditacionzenalicante.com/",
+    geoPrecision: "city",
   },
   {
     slug: "meditacion-zen-la-rioja",
@@ -6161,6 +6581,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Meditación Zen La Rioja (IIZE) — listed at meditacionzenspain.com (Vietnamese Lam Te (Rinzai) / Instituto Internacional Zen España). Group covers La Rioja, Navarra and Álava (Elciego, Viana, Logroño).",
     url: "https://www.meditacionzenlarioja.com/",
+    geoPrecision: "city",
   },
   {
     slug: "meditacion-zen-donostia",
@@ -6176,6 +6597,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Meditación Zen Donostia (IIZE) — listed at meditacionzenspain.com (Vietnamese Lam Te (Rinzai) / Instituto Internacional Zen España).",
     url: "https://www.meditacionzendonostia.com/",
+    geoPrecision: "city",
   },
   {
     slug: "sangha-interser-valencia",
@@ -6191,6 +6613,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha Interser Valencia — listed at tnhspain.com (Plum Village (Thích Nhất Hạnh)). Plum Village lay sangha in Valencia.",
     url: "https://tnhspain.com/",
+    geoPrecision: "city",
   },
   {
     slug: "sangha-del-pi",
@@ -6206,6 +6629,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha del Pi (Barcelona) — listed at tnhspain.com (Plum Village (Thích Nhất Hạnh)). Plum Village lay sangha in Barcelona.",
     url: "https://tnhspain.com/",
+    geoPrecision: "city",
   },
   {
     slug: "sangha-de-barcelona-con-gracia",
@@ -6221,6 +6645,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha de Barcelona con Gracia — listed at tnhspain.com (Plum Village (Thích Nhất Hạnh)).",
     url: "https://tnhspain.com/",
+    geoPrecision: "city",
   },
   {
     slug: "sangha-de-l-harmonia",
@@ -6236,6 +6661,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha de l'Harmonia (Sant Pere de Ribes) — listed at tnhspain.com (Plum Village (Thích Nhất Hạnh)). Garraf area sangha referenced in Plum Village Spain history.",
     url: "https://tnhspain.com/",
+    geoPrecision: "city",
   },
   {
     slug: "sangha-karuna-de-l-emporda",
@@ -6251,6 +6677,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha Karuna de l'Empordà — listed at tnhspain.com (Plum Village (Thích Nhất Hạnh)).",
     url: "https://tnhspain.com/",
+    geoPrecision: "city",
   },
   {
     slug: "sangha-amanecer-madrid",
@@ -6266,6 +6693,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha Amanecer Madrid — listed at tnhspain.com (Plum Village (Thích Nhất Hạnh)). Sol-Tirso de Molina.",
     url: "https://tnhspain.com/",
+    geoPrecision: "city",
   },
   {
     slug: "sangha-maitri-karuna",
@@ -6281,6 +6709,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha Maitri Karuna (Aravaca) — listed at tnhspain.com (Plum Village (Thích Nhất Hạnh)). Aravaca district.",
     url: "https://tnhspain.com/",
+    geoPrecision: "city",
   },
   {
     slug: "sangha-de-la-luz",
@@ -6296,6 +6725,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha de la Luz — listed at tnhspain.com (Plum Village (Thích Nhất Hạnh)).",
     url: "https://tnhspain.com/",
+    geoPrecision: "city",
   },
   {
     slug: "sangha-gades",
@@ -6311,6 +6741,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha Gades — listed at tnhspain.com (Plum Village (Thích Nhất Hạnh)).",
     url: "https://tnhspain.com/",
+    geoPrecision: "city",
   },
   {
     slug: "sangha-la-barca-de-buda-sevilla",
@@ -6326,6 +6757,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha la Barca de Buda Sevilla — listed at tnhspain.com (Plum Village (Thích Nhất Hạnh)).",
     url: "https://tnhspain.com/",
+    geoPrecision: "city",
   },
   {
     slug: "sangha-bambu",
@@ -6341,6 +6773,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha Bambú — listed at tnhspain.com (Plum Village (Thích Nhất Hạnh)). Málaga province.",
     url: "https://tnhspain.com/",
+    geoPrecision: "city",
   },
   {
     slug: "sangha-respira-zaragoza",
@@ -6356,6 +6789,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha Respira Zaragoza — listed at tnhspain.com (Plum Village (Thích Nhất Hạnh)).",
     url: "https://tnhspain.com/",
+    geoPrecision: "city",
   },
   {
     slug: "el-camino-del-medio",
@@ -6371,6 +6805,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "El Camino del Medio (Asturias) — listed at tnhspain.com (Plum Village (Thích Nhất Hạnh)). Regional Plum Village sangha in Asturias.",
     url: "https://tnhspain.com/",
+    geoPrecision: "city",
   },
   {
     slug: "sangha-nubes-blancas-mallorca",
@@ -6386,6 +6821,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha Nubes Blancas Mallorca — listed at tnhspain.com (Plum Village (Thích Nhất Hạnh)).",
     url: "https://tnhspain.com/",
+    geoPrecision: "city",
   },
   {
     slug: "plum-village-gran-canaria-sangha",
@@ -6401,6 +6837,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Plum Village Gran Canaria Sangha — listed at tnhspain.com (Plum Village (Thích Nhất Hạnh)).",
     url: "https://tnhspain.com/",
+    geoPrecision: "city",
   },
   {
     slug: "sangha-de-tenerife",
@@ -6416,6 +6853,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha de Tenerife — listed at tnhspain.com (Plum Village (Thích Nhất Hạnh)).",
     url: "https://tnhspain.com/",
+    geoPrecision: "city",
   },
   {
     slug: "sangha-eguzkilore",
@@ -6431,6 +6869,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha Eguzkilore — listed at tnhspain.com (Plum Village (Thích Nhất Hạnh)). Flor de Sol; Pamplona-based.",
     url: "https://tnhspain.com/",
+    geoPrecision: "city",
   },
   {
     slug: "sangha-uxilkide",
@@ -6446,6 +6885,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha Uxilkide — listed at tnhspain.com (Plum Village (Thích Nhất Hạnh)).",
     url: "https://tnhspain.com/",
+    geoPrecision: "city",
   },
   {
     slug: "sangha-lasaibizi",
@@ -6461,6 +6901,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha Lasaibizi — listed at tnhspain.com (Plum Village (Thích Nhất Hạnh)). Vizcaya.",
     url: "https://tnhspain.com/",
+    geoPrecision: "city",
   },
   {
     slug: "sangha-del-camino-logrono",
@@ -6476,6 +6917,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha del Camino Logroño — listed at tnhspain.com (Plum Village (Thích Nhất Hạnh)).",
     url: "https://tnhspain.com/",
+    geoPrecision: "city",
   },
   {
     slug: "sangha-terra-de-presenza",
@@ -6491,6 +6933,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha Terra de Presenza — listed at tnhspain.com (Plum Village (Thích Nhất Hạnh)). Pontevedra province.",
     url: "https://terradepresencia.org/",
+    geoPrecision: "city",
   },
   {
     slug: "sangha-luna-nueva-burgos",
@@ -6506,6 +6949,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha Luna Nueva Burgos — listed at tnhspain.com (Plum Village (Thích Nhất Hạnh)).",
     url: "https://tnhspain.com/",
+    geoPrecision: "city",
   },
   {
     slug: "sangha-de-murcia",
@@ -6521,6 +6965,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha de Murcia — listed at tnhspain.com (Plum Village (Thích Nhất Hạnh)).",
     url: "https://tnhspain.com/",
+    geoPrecision: "city",
   },
   {
     slug: "sangha-madre-tierra-castellon",
@@ -6536,6 +6981,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha Madre Tierra Castellón — listed at tnhspain.com (Plum Village (Thích Nhất Hạnh)). Castellón province.",
     url: "https://tnhspain.com/",
+    geoPrecision: "city",
   },
   {
     slug: "helsinki-zen-center",
@@ -6551,6 +6997,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Helsinki Zen Center — listed at helsinki.zazen.fi (Cloud-Water Sangha (Kapleau / Kjolhede / Yasutani-Harada lineage)). Weekly zazen in Helsinki since 1997; teacher Sangen Salo Sensei (resides at Sanneji); Yasutani-Kapleau line via Zenbuddhistiska Samfundet network",
     url: "https://helsinki.zazen.fi/",
+    geoPrecision: "city",
   },
   {
     slug: "sanneji-zen-temple",
@@ -6566,6 +7013,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Sanneji Zen Temple — listed at sanneji.zazen.fi (Cloud-Water Sangha (Kapleau / Kjolhede / Yasutani-Harada lineage)). Residential Zen temple in Karjaa; Sangen Salo Sensei resides here; full-time practice and sesshin retreats; maintained by Sanneji Zen ry",
     url: "https://sanneji.zazen.fi/en/",
+    geoPrecision: "city",
   },
   {
     slug: "sanneji-zendo-turku",
@@ -6581,6 +7029,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Sanneji Zendo Turku — listed at helsinki.zazen.fi (Cloud-Water Sangha (Kapleau / Kjolhede)). Affiliated zendo of Sanneji / Helsinki Zen Center network",
     url: "https://turku.zazen.fi/",
+    geoPrecision: "city",
   },
   {
     slug: "tampere-zen-center",
@@ -6596,6 +7045,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Tampere Zen Center — listed at uskonnot.fi (Yasutani-Kapleau / Cloud-Water Sangha). Tampere Zen Center ry, registered association founded 2007; ~30 members (2024); led by Sensei Mitra Virtaperko (sensei since 2021 in Yasutani-Kapleau line); zazen 3-4x/week",
     url: "https://tzc.fi/",
+    geoPrecision: "city",
   },
   {
     slug: "sydanmieli-zen-helsinki",
@@ -6611,6 +7061,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Sydänmieli Zen Helsinki — listed at sydanmieli.tzc.fi (Yasutani-Kapleau / Cloud-Water Sangha). Connected to Tampere Zen Center; led by Sensei Mitra Virtaperko; regular meditation, weekend retreats, sesshin",
     url: "https://sydanmieli.tzc.fi/",
+    geoPrecision: "exact",
   },
   {
     slug: "kajo-zendo-turku",
@@ -6626,6 +7077,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Kajo Zendo Turku — listed at kajozendo.wordpress.com (Zen (independent practice group)). Zen practice group in Turku",
     url: "https://kajozendo.wordpress.com/",
+    geoPrecision: "city",
   },
   {
     slug: "groupe-de-deauville",
@@ -6641,6 +7093,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_azi",
     sourceExcerpt: "Groupe de Deauville — listed at www.zen-azi.org (Sōtō / Deshimaru (AZI)). AZI groupe; Calvados coast.",
     url: "https://www.zen-azi.org/fr/node/4252",
+    geoPrecision: "city",
   },
   {
     slug: "correspondant-d-agen",
@@ -6656,6 +7109,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_azi",
     sourceExcerpt: "Correspondant d'Agen — listed at www.zen-azi.org (Sōtō / Deshimaru (AZI)). AZI correspondant (separate from the Kanshoji Agen group).",
     url: "https://www.zen-azi.org/en/node/450",
+    geoPrecision: "exact",
   },
   {
     slug: "dojo-zen-d-amiens",
@@ -6671,6 +7125,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_azi",
     sourceExcerpt: "Dojo zen d'Amiens — listed at www.zen-azi.org (Sōtō / Deshimaru (AZI)). AZI dojo (dojozenamiens.org).",
     url: "https://www.zen-azi.org/en/node/421",
+    geoPrecision: "city",
   },
   {
     slug: "groupe-d-amphion",
@@ -6686,6 +7141,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_azi",
     sourceExcerpt: "Groupe d'Amphion — listed at www.zen-azi.org (Sōtō / Deshimaru (AZI)). AZI groupe; Haute-Savoie.",
     url: "https://www.zen-azi.org/en/node/3559",
+    geoPrecision: "city",
   },
   {
     slug: "groupe-d-andernos",
@@ -6701,6 +7157,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_azi",
     sourceExcerpt: "Groupe d'Andernos — listed at www.zen-azi.org (Sōtō / Deshimaru (AZI)). AZI groupe; bassin d'Arcachon.",
     url: "https://www.zen-azi.org/fr/node/4318",
+    geoPrecision: "city",
   },
   {
     slug: "dojo-d-asquins",
@@ -6716,6 +7173,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_azi",
     sourceExcerpt: "Dojo d'Asquins — listed at www.zen-azi.org (Sōtō / Deshimaru (AZI)). AZI dojo near Vézelay (Yonne).",
     url: "https://www.zen-azi.org/en/node/3293",
+    geoPrecision: "city",
   },
   {
     slug: "dojo-d-aubagne",
@@ -6731,6 +7189,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_azi",
     sourceExcerpt: "Dojo d'Aubagne — listed at www.zen-azi.org (Sōtō / Deshimaru (AZI)). AZI dojo, Bouches-du-Rhône.",
     url: "https://www.zen-azi.org/fr/node/451",
+    geoPrecision: "exact",
   },
   {
     slug: "groupe-de-bedarrides",
@@ -6746,6 +7205,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_azi",
     sourceExcerpt: "Groupe de Bedarrides — listed at www.zen-azi.org (Sōtō / Deshimaru (AZI)). AZI groupe; Vaucluse.",
     url: "https://www.zen-azi.org/en/node/418",
+    geoPrecision: "city",
   },
   {
     slug: "dojo-zen-de-nevers",
@@ -6761,6 +7221,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_azi",
     sourceExcerpt: "Dojo zen de Nevers — listed at www.zen-azi.org (Sōtō / Deshimaru (AZI)). AZI dojo, Nièvre.",
     url: "https://www.zen-azi.org/node/488",
+    geoPrecision: "city",
   },
   {
     slug: "groupe-de-bourg-en-bresse",
@@ -6776,6 +7237,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_azi",
     sourceExcerpt: "Groupe de Bourg-en-Bresse — listed at www.zen-azi.org (Sōtō / Deshimaru (AZI)). AZI groupe, Ain.",
     url: "https://www.zen-azi.org/en/node/1434",
+    geoPrecision: "city",
   },
   {
     slug: "groupe-de-saint-brieuc",
@@ -6791,6 +7253,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_azi",
     sourceExcerpt: "Groupe de Saint-Brieuc — listed at www.zen-azi.org (Sōtō / Deshimaru (AZI)). AZI groupe; Lundi 19h, Sam 9h sous l'église Saint-Paul.",
     url: "https://www.zen-azi.org/fr/node/1799",
+    geoPrecision: "exact",
   },
   {
     slug: "dojo-zen-de-quimper",
@@ -6806,6 +7269,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_azi",
     sourceExcerpt: "Dojo zen de Quimper — listed at www.zen-azi.org (Sōtō / Deshimaru (AZI)). Association Zen de Cornouaille (AZI); 35+ year history.",
     url: "https://www.dojozenquimper.fr/",
+    geoPrecision: "exact",
   },
   {
     slug: "dojo-zen-de-tarbes",
@@ -6821,6 +7285,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_azi",
     sourceExcerpt: "Dojo zen de Tarbes — listed at www.zen-azi.org (Sōtō / Deshimaru (AZI)). AZI dojo, Hautes-Pyrénées.",
     url: "https://www.zen-azi.org/fr/node/506",
+    geoPrecision: "city",
   },
   {
     slug: "association-zen-du-pays-de-lorient",
@@ -6836,6 +7301,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_azi",
     sourceExcerpt: "Association Zen du Pays de Lorient (A.Z.P.L) — listed at www.zen-azi.org (Sōtō / Deshimaru (AZI)). AZI-affiliated dojo, Morbihan.",
     url: "https://zen-lorient.weebly.com/",
+    geoPrecision: "city",
   },
   {
     slug: "groupe-de-belfort",
@@ -6851,6 +7317,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_azi",
     sourceExcerpt: "Groupe de Belfort — listed at www.zen-azi.org (Sōtō / Deshimaru (AZI)). AZI groupe, Territoire de Belfort.",
     url: "https://www.zen-azi.org/fr/node/688",
+    geoPrecision: "city",
   },
   {
     slug: "association-zen-de-besancon",
@@ -6866,6 +7333,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_azi",
     sourceExcerpt: "Association Zen de Besançon — listed at dojozenbesancon.org (Sōtō / Deshimaru (AZI)). References AZI; Doubs.",
     url: "https://dojozenbesancon.org/",
+    geoPrecision: "city",
   },
   {
     slug: "dojo-zen-de-nimes",
@@ -6881,6 +7349,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_azi",
     sourceExcerpt: "Dojo zen de Nîmes — listed at www.zen-azi.org (Sōtō / Deshimaru (AZI)). AZI groupe; teacher Jean-Charles Bouchoux.",
     url: "http://www.dojozennimes.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "ko-un-dojo-zen-de-toulon",
@@ -6896,6 +7365,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_azi",
     sourceExcerpt: "Ko Un - Dojo Zen de Toulon — listed at bouddha.ch (Sōtō / Deshimaru (AZI)). AZI dojo; teacher Armand Saliba.",
     url: "https://ovoia.com/dojo-zen-toulon/c/lien/dojo-zen-de-n%C3%AEmes-shikantaza",
+    geoPrecision: "exact",
   },
   {
     slug: "groupe-zen-de-romans-valence",
@@ -6911,6 +7381,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_azi",
     sourceExcerpt: "Groupe Zen de Romans-Valence — listed at www.drome-cestmanature.com (Sōtō / Deshimaru (AZI)). AZI-affiliated zazen; Drôme.",
     url: "https://groupezazenromans-valence.jimdofree.com/",
+    geoPrecision: "city",
   },
   {
     slug: "groupe-zen-de-caen",
@@ -6926,6 +7397,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_azi",
     sourceExcerpt: "Groupe Zen de Caen — listed at www.zen-azi.org (Sōtō / Deshimaru (AZI)). AZI groupe; Mondays 19h, Saturdays 9h beneath Saint-Paul Church.",
     url: "https://www.zen-azi.org/en/temple/groupe-de-caen",
+    geoPrecision: "exact",
   },
   {
     slug: "dojo-zen-d-angers",
@@ -6941,6 +7413,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_azi",
     sourceExcerpt: "Dojo zen d'Angers — listed at bouddha.ch (Sōtō / Deshimaru (AZI)). AZI dojo, Maine-et-Loire.",
     url: "https://dojozenangers.weebly.com/",
+    geoPrecision: "exact",
   },
   {
     slug: "groupe-d-auxerre",
@@ -6956,6 +7429,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_azi",
     sourceExcerpt: "Groupe d'Auxerre — listed at bouddha.ch (Sōtō / Deshimaru (AZI)). AZI groupe, Yonne.",
     url: "https://www.zen-azi.org/en/recherche-lieux-meditation",
+    geoPrecision: "exact",
   },
   {
     slug: "groupe-zen-de-chalon-sur-saone",
@@ -6971,6 +7445,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_azi",
     sourceExcerpt: "Groupe Zen de Châlon-sur-Saône (Châtelet) — listed at www.zen-azi.org (Sōtō / Deshimaru (AZI)). AZI groupe; Saône-et-Loire.",
     url: "https://www.zen-azi.org/fr/node/460",
+    geoPrecision: "exact",
   },
   {
     slug: "groupe-zen-d-epinal",
@@ -6986,6 +7461,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_azi",
     sourceExcerpt: "Groupe zen d'Épinal — listed at bouddha.ch (Sōtō / Deshimaru (AZI)). AZI groupe, Vosges.",
     url: "https://www.zen-azi.org/en/recherche-lieux-meditation",
+    geoPrecision: "city",
   },
   {
     slug: "groupe-zen-de-saint-quentin",
@@ -7001,6 +7477,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_azi",
     sourceExcerpt: "Groupe zen de Saint-Quentin — listed at bouddha.ch (Sōtō / Deshimaru (AZI)). AZI groupe, Aisne.",
     url: "https://www.zen-azi.org/en/recherche-lieux-meditation",
+    geoPrecision: "exact",
   },
   {
     slug: "groupe-zen-de-charleville-mezieres",
@@ -7016,6 +7493,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_azi",
     sourceExcerpt: "Groupe zen de Charleville-Mézières — listed at bouddha.ch (Sōtō / Deshimaru (AZI)). AZI groupe, Ardennes.",
     url: "https://www.zen-azi.org/en/recherche-lieux-meditation",
+    geoPrecision: "city",
   },
   {
     slug: "groupe-zen-de-carcassonne",
@@ -7031,6 +7509,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_azi",
     sourceExcerpt: "Groupe zen de Carcassonne — listed at bouddha.ch (Sōtō / Deshimaru (AZI)). AZI groupe, Aude.",
     url: "https://www.zen-azi.org/en/recherche-lieux-meditation",
+    geoPrecision: "city",
   },
   {
     slug: "groupe-zen-de-reims",
@@ -7046,6 +7525,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_azi",
     sourceExcerpt: "Groupe zen de Reims — listed at bouddha.ch (Sōtō / Deshimaru (AZI)). AZI groupe (third Reims sangha alongside Shoshin and Sanko).",
     url: "https://www.zen-azi.org/en/recherche-lieux-meditation",
+    geoPrecision: "exact",
   },
   {
     slug: "groupe-zen-de-saint-pol-sur-ternoise",
@@ -7061,6 +7541,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_azi",
     sourceExcerpt: "Groupe Zen de Saint-Pol-sur-Ternoise — listed at bouddha.ch (Sōtō / Deshimaru (AZI)). AZI groupe, Pas-de-Calais.",
     url: "https://www.zen-azi.org/en/recherche-lieux-meditation",
+    geoPrecision: "city",
   },
   {
     slug: "groupe-zen-d-augerolles",
@@ -7076,6 +7557,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_azi",
     sourceExcerpt: "Groupe Zen d'Augerolles — listed at bouddha.ch (Sōtō / Deshimaru (AZI)). AZI groupe, Puy-de-Dôme.",
     url: "https://www.zen-azi.org/en/recherche-lieux-meditation",
+    geoPrecision: "exact",
   },
   {
     slug: "groupe-zen-de-bayonne",
@@ -7091,6 +7573,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_azi",
     sourceExcerpt: "Groupe Zen de Bayonne (24 rue Marengo) — listed at bouddha.ch (Sōtō / Deshimaru (AZI)). AZI groupe (separate from Anglet/Pays Basque dojo).",
     url: "https://www.zen-azi.org/en/node/514",
+    geoPrecision: "exact",
   },
   {
     slug: "dojo-zen-d-ales",
@@ -7106,6 +7589,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_azi",
     sourceExcerpt: "Dojo Zen d'Alès — listed at bouddha.ch (Sōtō / Deshimaru (AZI)). AZI dojo, Gard.",
     url: "https://www.zen-azi.org/en/recherche-lieux-meditation",
+    geoPrecision: "exact",
   },
   {
     slug: "groupe-zen-de-rabastens",
@@ -7121,6 +7605,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_azi",
     sourceExcerpt: "Groupe Zen de Rabastens — listed at bouddha.ch (Sōtō / Deshimaru (AZI)). AZI groupe, Tarn.",
     url: "https://www.zen-azi.org/en/recherche-lieux-meditation",
+    geoPrecision: "city",
   },
   {
     slug: "groupe-zen-de-grimaud",
@@ -7136,6 +7621,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_azi",
     sourceExcerpt: "Groupe Zen de Grimaud — listed at bouddha.ch (Sōtō / Deshimaru (AZI)). AZI groupe, Var.",
     url: "https://www.zen-azi.org/en/recherche-lieux-meditation",
+    geoPrecision: "city",
   },
   {
     slug: "groupe-zen-du-castellet",
@@ -7151,6 +7637,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_azi",
     sourceExcerpt: "Groupe Zen du Castellet — listed at bouddha.ch (Sōtō / Deshimaru (AZI)). AZI groupe, Var.",
     url: "https://www.zen-azi.org/en/recherche-lieux-meditation",
+    geoPrecision: "exact",
   },
   {
     slug: "groupe-zen-d-orange",
@@ -7166,6 +7653,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_azi",
     sourceExcerpt: "Groupe Zen d'Orange — listed at bouddha.ch (Sōtō / Deshimaru (AZI)). AZI groupe, Vaucluse.",
     url: "https://www.zen-azi.org/en/recherche-lieux-meditation",
+    geoPrecision: "exact",
   },
   {
     slug: "groupe-zen-de-chatenay-malabry",
@@ -7181,6 +7669,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_azi",
     sourceExcerpt: "Groupe Zen de Châtenay-Malabry — listed at bouddha.ch (Sōtō / Deshimaru (AZI)). AZI groupe, Hauts-de-Seine.",
     url: "https://www.zen-azi.org/en/recherche-lieux-meditation",
+    geoPrecision: "exact",
   },
   {
     slug: "dojo-zen-hannya",
@@ -7196,6 +7685,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_azi",
     sourceExcerpt: "Dojo zen Hannya (Paris 14e) — listed at bouddha.ch (Sōtō / Deshimaru (AZI)). Independent AZI dojo in 14e arrondissement.",
     url: "https://www.zen-azi.org/en/recherche-lieux-meditation",
+    geoPrecision: "exact",
   },
   {
     slug: "centre-zen-maha-muni-paris",
@@ -7211,6 +7701,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_bouddhisme_france",
     sourceExcerpt: "Centre Zen Maha Muni Paris — listed at www.bouddhisme-france.org (Sōtō / Deshimaru lineage). UBF member; Mahamuni zendo, Paris 14e.",
     url: "https://www.bouddhisme-france.org/centres-de-pratique/annuaire-des-membres/article/centre-zen-maha-muni-paris",
+    geoPrecision: "exact",
   },
   {
     slug: "centre-du-mont-thabor",
@@ -7226,6 +7717,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_azi",
     sourceExcerpt: "Centre du Mont Thabor — listed at bouddha.ch (Sōtō (Deshimaru / independent)). Long-running Paris 6e zen sitting.",
     url: "https://bouddha.ch/adresses_france.htm",
+    geoPrecision: "exact",
   },
   {
     slug: "le-zen-de-kaisen",
@@ -7241,6 +7733,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_azi",
     sourceExcerpt: "Le Zen de Kaisen — listed at bouddha.ch (Sōtō / Deshimaru (Kaisen lineage)). Kaisen Krystyna Pawlak heir; Deshimaru side-line.",
     url: "https://bouddha.ch/adresses_france.htm",
+    geoPrecision: "exact",
   },
   {
     slug: "centre-zazen-de-versailles",
@@ -7256,6 +7749,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Centre Zazen de Versailles — listed at bouddha.ch (Sōtō zen). Yvelines independent zazen group.",
     url: "https://bouddha.ch/adresses_france.htm",
+    geoPrecision: "exact",
   },
   {
     slug: "centre-zen-de-neuilly-sur-seine",
@@ -7271,6 +7765,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Centre Zen de Neuilly-sur-Seine — listed at bouddha.ch (Sōtō zen). Hauts-de-Seine independent zen center.",
     url: "https://bouddha.ch/adresses_france.htm",
+    geoPrecision: "exact",
   },
   {
     slug: "centre-zen-issy-les-moulineaux",
@@ -7286,6 +7781,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Centre Zen Issy-les-Moulineaux — listed at bouddha.ch (Sōtō zen). Hauts-de-Seine zen sitting.",
     url: "https://bouddha.ch/adresses_france.htm",
+    geoPrecision: "exact",
   },
   {
     slug: "centre-zen-de-montlignon",
@@ -7301,6 +7797,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Centre Zen de Montlignon — listed at bouddha.ch (Sōtō zen). Val-d'Oise zen group.",
     url: "https://bouddha.ch/adresses_france.htm",
+    geoPrecision: "exact",
   },
   {
     slug: "maison-de-tobie-zen-sambe-choisy",
@@ -7316,6 +7813,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sanbozen",
     sourceExcerpt: "Maison de Tobie - Zen Sambé Choisy — listed at bouddha.ch (Sambō Kyōdan / Sanbō Zen lineage). Sambé/Sanbō Zen affiliated, Val-de-Marne.",
     url: "https://bouddha.ch/adresses_france.htm",
+    geoPrecision: "exact",
   },
   {
     slug: "centre-zen-de-bourges",
@@ -7331,6 +7829,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_azi",
     sourceExcerpt: "Centre Zen de Bourges (route de Lazenay) — listed at bouddha.ch (Sōtō / Deshimaru (AZI)). AZI groupe (separate facility from Dojo Zen de Bourges).",
     url: "https://www.zen-azi.org/fr/node/426",
+    geoPrecision: "exact",
   },
   {
     slug: "centre-zen-de-chateauroux",
@@ -7346,6 +7845,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_azi",
     sourceExcerpt: "Centre Zen de Châteauroux — listed at bouddha.ch (Sōtō / Deshimaru (AZI)). AZI groupe, Indre.",
     url: "https://www.zen-azi.org/en/recherche-lieux-meditation",
+    geoPrecision: "exact",
   },
   {
     slug: "bonzazen-meditation-zen-chartres",
@@ -7361,6 +7861,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Bonzazen - Méditation Zen Chartres — listed at bonzazen.wordpress.com (Plum Village (Thích Nhất Hạnh)). Weekly zen meditation group, Eure-et-Loir & Sarthe.",
     url: "https://bonzazen.wordpress.com/",
+    geoPrecision: "city",
   },
   {
     slug: "centre-zazen-tours-nord",
@@ -7376,6 +7877,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Centre Zazen Tours-Nord — listed at bouddha.ch (Sōtō zen). Independent zazen group, Indre-et-Loire.",
     url: "https://bouddha.ch/adresses_france.htm",
+    geoPrecision: "city",
   },
   {
     slug: "centre-zen-de-bergerac",
@@ -7391,6 +7893,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Centre Zen de Bergerac — listed at bouddha.ch (Sōtō zen). Dordogne zen group.",
     url: "https://bouddha.ch/adresses_france.htm",
+    geoPrecision: "exact",
   },
   {
     slug: "monastere-zen-du-sermon-de-la-riviere",
@@ -7406,6 +7909,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Monastère Zen du Sermon de la Rivière — listed at bouddha.ch (Sōtō zen (independent)). Small Sōtō monastery in Périgord.",
     url: "https://bouddha.ch/adresses_france.htm",
+    geoPrecision: "exact",
   },
   {
     slug: "groupe-zen-de-bordeaux",
@@ -7421,6 +7925,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_azi",
     sourceExcerpt: "Groupe Zen de Bordeaux (Pierre Noguey) — listed at www.zen-azi.org (Sōtō / Deshimaru (AZI)). AZI groupe (separate from Nuage et Eau ABZE center).",
     url: "https://www.zen-azi.org/fr/node/679",
+    geoPrecision: "exact",
   },
   {
     slug: "correspondante-de-foix",
@@ -7436,6 +7941,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_azi",
     sourceExcerpt: "Correspondante de Foix — listed at www.zen-azi.org (Sōtō / Deshimaru (AZI)). AZI correspondante, Ariège.",
     url: "https://www.zen-azi.org/en/temple/correspondante-%C3%A0-foix",
+    geoPrecision: "city",
   },
   {
     slug: "groupe-d-auch",
@@ -7451,6 +7957,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_azi",
     sourceExcerpt: "Groupe d'Auch — listed at bouddha.ch (Sōtō / Deshimaru (AZI)). AZI groupe, Gers.",
     url: "https://www.zen-azi.org/en/recherche-lieux-meditation",
+    geoPrecision: "exact",
   },
   {
     slug: "groupe-de-cahors",
@@ -7466,6 +7973,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_azi",
     sourceExcerpt: "Groupe de Cahors — listed at bouddha.ch (Sōtō / Deshimaru (AZI)). AZI groupe (separate from the Cieurac dojo), Lot.",
     url: "https://www.zen-azi.org/en/recherche-lieux-meditation",
+    geoPrecision: "exact",
   },
   {
     slug: "groupe-de-montauban",
@@ -7481,6 +7989,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_azi",
     sourceExcerpt: "Groupe de Montauban — listed at www.zen-azi.org (Sōtō / Deshimaru (AZI)). AZI groupe, Tarn-et-Garonne.",
     url: "https://www.zen-azi.org/en/node/1895",
+    geoPrecision: "exact",
   },
   {
     slug: "centre-zazen-de-beziers",
@@ -7496,6 +8005,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Centre Zazen de Béziers — listed at bouddha.ch (Sōtō zen). Independent zen group, Hérault.",
     url: "https://bouddha.ch/adresses_france.htm",
+    geoPrecision: "exact",
   },
   {
     slug: "meditation-zen-sete",
@@ -7511,6 +8021,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Méditation Zen Sète — listed at zensete.free.fr (Sōtō zen). Hérault zen meditation group.",
     url: "http://zensete.free.fr/contact.html",
+    geoPrecision: "city",
   },
   {
     slug: "se-un-zendo",
@@ -7526,6 +8037,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Sé-un Zendo (Cambous) — listed at bouddha.ch (Sōtō zen (independent)). Hérault rural zendo.",
     url: "https://bouddha.ch/adresses_france.htm",
+    geoPrecision: "exact",
   },
   {
     slug: "meditations-zen-soto-marseille",
@@ -7541,6 +8053,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Méditations Zen Sōtō Marseille (Uchiyama) — listed at bouddha.ch (Sōtō (Uchiyama Kōshō line)). Uchiyama Roshi heir; non-Deshimaru Sōtō.",
     url: "https://bouddha.ch/adresses_france.htm",
+    geoPrecision: "exact",
   },
   {
     slug: "dojo-zen-de-la-ciotat",
@@ -7556,6 +8069,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Dojo Zen de La Ciotat — listed at bouddha.ch (Sōtō zen). Bouches-du-Rhône zen center.",
     url: "https://bouddha.ch/adresses_france.htm",
+    geoPrecision: "exact",
   },
   {
     slug: "dojo-zen-de-tourrettes-sur-loup",
@@ -7571,6 +8085,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Dojo Zen de Tourrettes-sur-Loup — listed at bouddha.ch (Sōtō zen). Alpes-Maritimes zen dojo.",
     url: "https://bouddha.ch/adresses_france.htm",
+    geoPrecision: "city",
   },
   {
     slug: "dojo-zen-de-manosque",
@@ -7586,6 +8101,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Dojo Zen de Manosque — listed at bouddha.ch (Sōtō zen). Alpes-de-Haute-Provence zen dojo.",
     url: "https://bouddha.ch/adresses_france.htm",
+    geoPrecision: "exact",
   },
   {
     slug: "dojo-zen-de-halluin",
@@ -7601,6 +8117,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_azi",
     sourceExcerpt: "Dojo Zen de Halluin — listed at bouddha.ch (Sōtō / Deshimaru). Nord (Lille metro) Deshimaru-line dojo.",
     url: "https://bouddha.ch/adresses_france.htm",
+    geoPrecision: "exact",
   },
   {
     slug: "dojo-zen-de-bernay",
@@ -7616,6 +8133,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Dojo Zen de Bernay — listed at bouddha.ch (Sōtō zen). Eure zen dojo.",
     url: "https://bouddha.ch/adresses_france.htm",
+    geoPrecision: "exact",
   },
   {
     slug: "centre-zen-d-evreux",
@@ -7631,6 +8149,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Centre Zen d'Évreux — listed at bouddha.ch (Sōtō zen). Eure independent zen center.",
     url: "https://bouddha.ch/adresses_france.htm",
+    geoPrecision: "city",
   },
   {
     slug: "centre-zen-de-cherbourg-octeville",
@@ -7646,6 +8165,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Centre Zen de Cherbourg-Octeville — listed at bouddha.ch (Sōtō zen). Manche zen group.",
     url: "https://bouddha.ch/adresses_france.htm",
+    geoPrecision: "exact",
   },
   {
     slug: "centre-zen-de-plouigneau",
@@ -7661,6 +8181,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Centre Zen de Plouigneau (Morlaix) — listed at bouddha.ch (Sōtō zen). Pays de Morlaix zen group.",
     url: "https://bouddha.ch/adresses_france.htm",
+    geoPrecision: "exact",
   },
   {
     slug: "association-zen-cornouailles",
@@ -7676,6 +8197,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_azi",
     sourceExcerpt: "Association Zen Cornouailles (Bénodet) — listed at bouddha.ch (Sōtō / Deshimaru (AZI)). AZI cell, Finistère sud.",
     url: "https://www.dojozenquimper.fr/",
+    geoPrecision: "city",
   },
   {
     slug: "centre-tchenrezik",
@@ -7691,6 +8213,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_azi",
     sourceExcerpt: "Centre Tchenrezik (Zen Occidental) — listed at bouddha.ch (Sōtō / Deshimaru (Zen Occidental, Eric Rommeluère)). Loire-Atlantique; Zen Occidental network.",
     url: "http://www.zen-occidental.net/",
+    geoPrecision: "exact",
   },
   {
     slug: "association-zen-de-loire-atlantique-cho-on-ji",
@@ -7706,6 +8229,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_bouddhisme_france",
     sourceExcerpt: "Association zen de Loire-Atlantique Chô On-Ji — listed at www.bouddhisme-france.org (Sōtō zen). UBF Zen member temple, Loire-Atlantique.",
     url: "https://www.bouddhisme-france.org/centres-de-pratique/annuaire-des-membres/article/association-zen-de-loire-atlantique-cho-on-ji",
+    geoPrecision: "city",
   },
   {
     slug: "ten-bo-rin-centre-zen-de-lanau",
@@ -7721,6 +8245,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_bouddhisme_france",
     sourceExcerpt: "Ten Bô Rin - Centre zen de Lanau — listed at www.bouddhisme-france.org (Sōtō zen). Cantal zen center; UBF member.",
     url: "https://www.bouddhisme-france.org/centres-de-pratique/annuaire-des-membres/article/ten-bo-rin-centre-zen-de-lanau",
+    geoPrecision: "exact",
   },
   {
     slug: "centre-zen-martinique",
@@ -7736,6 +8261,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Centre Zen Martinique (Schoelcher) — listed at bouddha.ch (Sōtō zen (Denshinji-affiliated)). French overseas Sōtō group; Denshinji Blois affiliate.",
     url: "https://denshinji.fr/",
+    geoPrecision: "exact",
   },
   {
     slug: "dogen-sangha-martinique",
@@ -7751,6 +8277,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Dogen Sangha Martinique — listed at bouddha.ch (Sōtō / Nishijima (Dogen Sangha)). Nishijima/Dogen Sangha branch in Martinique.",
     url: "https://dogensangha-martinique.org/",
+    geoPrecision: "city",
   },
   {
     slug: "groupe-zen-de-guadeloupe",
@@ -7766,6 +8293,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Groupe Zen de Guadeloupe (Le Gosier) — listed at bouddha.ch (Sōtō zen). French overseas zen group.",
     url: "https://bouddha.ch/adresses_france.htm",
+    geoPrecision: "city",
   },
   {
     slug: "sangha-fleurs-de-vacuite",
@@ -7781,6 +8309,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha Fleurs de Vacuité — listed at plumvillage.org (Plum Village (Thích Nhất Hạnh)). Christine et Jérôme Treiber; Alpes-Maritimes.",
     url: "http://www.fleursdevacuite.org",
+    geoPrecision: "city",
   },
   {
     slug: "sangha-de-l-ardeche",
@@ -7796,6 +8325,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha de l'Ardèche — listed at plumvillage.org (Plum Village (Thích Nhất Hạnh)). Geneviève et Michel Walzer.",
     url: "http://sanghardeche.pagespersoorange.fr/Sangha_de_lArdeche/Accueil.html",
+    geoPrecision: "city",
   },
   {
     slug: "sangha-joie-et-conscience",
@@ -7811,6 +8341,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha Joie et Conscience — listed at plumvillage.org (Plum Village (Thích Nhất Hạnh)). Françoise Janin; Ardèche.",
     url: "https://plumvillage.org/community/international-sangha-directory",
+    geoPrecision: "city",
   },
   {
     slug: "sangha-les-jardins-du-coeur",
@@ -7826,6 +8357,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha Les Jardins du coeur (Foix) — listed at plumvillage.org (Plum Village (Thích Nhất Hạnh)). Sangha de Foix, Ariège.",
     url: "https://plumvillage.org/community/international-sangha-directory",
+    geoPrecision: "city",
   },
   {
     slug: "sangha-ile-interieure-carcassonne",
@@ -7841,6 +8373,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha Île Intérieure Carcassonne — listed at plumvillage.org (Plum Village (Thích Nhất Hạnh)). Anne Drieux; Aude.",
     url: "https://sites.google.com/site/sanghalileinterieure",
+    geoPrecision: "city",
   },
   {
     slug: "sangha-sud-aveyron",
@@ -7856,6 +8389,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha Sud Aveyron — listed at plumvillage.org (Plum Village (Thích Nhất Hạnh)). Vallée du Tarn.",
     url: "https://plumvillage.org/community/international-sangha-directory",
+    geoPrecision: "city",
   },
   {
     slug: "sangha-chemin-du-c-ur",
@@ -7871,6 +8405,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha Chemin du Cœur — listed at plumvillage.org (Plum Village (Thích Nhất Hạnh)). Aveyron Nord-Ouest.",
     url: "https://plumvillage.org/community/international-sangha-directory",
+    geoPrecision: "city",
   },
   {
     slug: "groupe-des-sanghas-marseille-provence",
@@ -7886,6 +8421,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Groupe des Sanghas Marseille Provence — listed at plumvillage.org (Plum Village (Thích Nhất Hạnh)). Henri Duffaud; umbrella for Marseille area.",
     url: "https://plumvillage.org/community/international-sangha-directory",
+    geoPrecision: "city",
   },
   {
     slug: "sangha-sainte-baume",
@@ -7901,6 +8437,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha Sainte Baume — listed at plumvillage.org (Plum Village (Thích Nhất Hạnh)). Bouches-du-Rhône.",
     url: "https://plumvillage.org/community/international-sangha-directory",
+    geoPrecision: "city",
   },
   {
     slug: "sangha-marseille-centre",
@@ -7916,6 +8453,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha Marseille-Centre — listed at plumvillage.org (Plum Village (Thích Nhất Hạnh)). Pietro Ruzzier / Yves Vors.",
     url: "https://plumvillage.org/community/international-sangha-directory",
+    geoPrecision: "city",
   },
   {
     slug: "sangha-franco-vietnamienne-de-marseille",
@@ -7931,6 +8469,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha Franco-Vietnamienne de Marseille — listed at plumvillage.org (Plum Village (Thích Nhất Hạnh)). Guylène Deligny N'guyen.",
     url: "https://plumvillage.org/community/international-sangha-directory",
+    geoPrecision: "exact",
   },
   {
     slug: "sangha-du-pays-d-aix-soleil-interieur",
@@ -7946,6 +8485,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha du Pays d'Aix - Soleil Intérieur — listed at plumvillage.org (Plum Village (Thích Nhất Hạnh)). Bouches-du-Rhône.",
     url: "https://soleilinterieur.over-blog.com",
+    geoPrecision: "city",
   },
   {
     slug: "sangha-bulles-de-lune",
@@ -7961,6 +8501,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha Bulles de Lune (Caen) — listed at plumvillage.org (Plum Village (Thích Nhất Hạnh)). Basse Normandie / Calvados.",
     url: "https://plumvillage.org/community/international-sangha-directory",
+    geoPrecision: "city",
   },
   {
     slug: "sangha-jardins-de-paix",
@@ -7976,6 +8517,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha Jardins de Paix (Angoulême) — listed at plumvillage.org (Plum Village (Thích Nhất Hạnh)). Charente.",
     url: "https://plumvillage.org/community/international-sangha-directory",
+    geoPrecision: "city",
   },
   {
     slug: "sangha-la-ressource",
@@ -7991,6 +8533,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha La Ressource (Royan) — listed at plumvillage.org (Plum Village (Thích Nhất Hạnh)). Charente-Maritime.",
     url: "https://plumvillage.org/community/international-sangha-directory",
+    geoPrecision: "city",
   },
   {
     slug: "sangha-de-bourges",
@@ -8006,6 +8549,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha de Bourges (Plum Village (Thích Nhất Hạnh)) — listed at plumvillage.org (Plum Village). Cher; Françoise Claudin.",
     url: "https://plumvillage.org/community/international-sangha-directory",
+    geoPrecision: "city",
   },
   {
     slug: "sangha-collines",
@@ -8021,6 +8565,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha Collines (Dijon sud) — listed at plumvillage.org (Plum Village (Thích Nhất Hạnh)). Côte-d'Or.",
     url: "https://plumvillage.org/community/international-sangha-directory",
+    geoPrecision: "city",
   },
   {
     slug: "sangha-aman-a-breman",
@@ -8036,6 +8581,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha Aman à Breman (Plougiel) — listed at plumvillage.org (Plum Village (Thích Nhất Hạnh)). Côtes-d'Armor.",
     url: "https://plumvillage.org/community/international-sangha-directory",
+    geoPrecision: "exact",
   },
   {
     slug: "sangha-fleur-de-l-instant",
@@ -8051,6 +8597,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha Fleur de l'Instant (Yffiniac) — listed at plumvillage.org (Plum Village (Thích Nhất Hạnh)). Côtes-d'Armor.",
     url: "https://plumvillage.org/community/international-sangha-directory",
+    geoPrecision: "city",
   },
   {
     slug: "sangha-limousin",
@@ -8066,6 +8613,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha Limousin (Champagnat-Saint-Moreil) — listed at plumvillage.org (Plum Village (Thích Nhất Hạnh)). Creuse.",
     url: "https://plumvillage.org/community/international-sangha-directory",
+    geoPrecision: "city",
   },
   {
     slug: "sangha-ile-aux-lumieres",
@@ -8081,6 +8629,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha Île aux Lumières (Bergerac) — listed at plumvillage.org (Plum Village (Thích Nhất Hạnh)). Dordogne.",
     url: "https://plumvillage.org/community/international-sangha-directory",
+    geoPrecision: "city",
   },
   {
     slug: "sangha-de-fleurac",
@@ -8096,6 +8645,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha de Fleurac — listed at plumvillage.org (Plum Village (Thích Nhất Hạnh)). Dordogne.",
     url: "https://plumvillage.org/community/international-sangha-directory",
+    geoPrecision: "city",
   },
   {
     slug: "sangha-porte-du-soleil",
@@ -8111,6 +8661,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha Porte du Soleil (Montélimar) — listed at plumvillage.org (Plum Village (Thích Nhất Hạnh)). Drôme.",
     url: "https://plumvillage.org/community/international-sangha-directory",
+    geoPrecision: "city",
   },
   {
     slug: "sangha-de-valence",
@@ -8126,6 +8677,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha de Valence — listed at plumvillage.org (Plum Village (Thích Nhất Hạnh)). Drôme.",
     url: "https://sanghadevalence.jimdofree.com",
+    geoPrecision: "city",
   },
   {
     slug: "sangha-vagues-de-l-ocean",
@@ -8141,6 +8693,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha Vagues de l'Océan (Quimper) — listed at plumvillage.org (Plum Village (Thích Nhất Hạnh)). Finistère.",
     url: "https://plumvillage.org/community/international-sangha-directory",
+    geoPrecision: "city",
   },
   {
     slug: "sangha-metamorphose-en-soi",
@@ -8156,6 +8709,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha Métamorphose en Soi (Loctudy) — listed at plumvillage.org (Plum Village (Thích Nhất Hạnh)). Finistère.",
     url: "https://plumvillage.org/community/international-sangha-directory",
+    geoPrecision: "city",
   },
   {
     slug: "sangha-ile-interieure-toulouse",
@@ -8171,6 +8725,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha Île Intérieure Toulouse — listed at plumvillage.org (Plum Village (Thích Nhất Hạnh)). Haute-Garonne.",
     url: "https://sites.google.com/site/sanghalileinterieure",
+    geoPrecision: "city",
   },
   {
     slug: "sangha-montbrun-bocage",
@@ -8186,6 +8741,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha Montbrun-Bocage — listed at plumvillage.org (Plum Village (Thích Nhất Hạnh)). Haute-Garonne.",
     url: "https://plumvillage.org/community/international-sangha-directory",
+    geoPrecision: "city",
   },
   {
     slug: "sangha-son-de-la-maree-montante",
@@ -8201,6 +8757,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha Son de la Marée Montante — listed at plumvillage.org (Plum Village (Thích Nhất Hạnh)). Gironde, bassin d'Arcachon.",
     url: "https://plumvillage.org/community/international-sangha-directory",
+    geoPrecision: "city",
   },
   {
     slug: "sangha-pluie-du-dharma",
@@ -8216,6 +8773,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha Pluie du Dharma (Bordeaux/Pessac) — listed at plumvillage.org (Plum Village (Thích Nhất Hạnh)). Gironde.",
     url: "http://www.lapluiedudharma.fr/",
+    geoPrecision: "city",
   },
   {
     slug: "sangha-precieux-chemin",
@@ -8231,6 +8789,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha Précieux Chemin (Gradignan) — listed at plumvillage.org (Plum Village (Thích Nhất Hạnh)). Gironde.",
     url: "https://plumvillage.org/community/international-sangha-directory",
+    geoPrecision: "city",
   },
   {
     slug: "sangha-inter-sangha-des-cistes",
@@ -8246,6 +8805,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha Inter-Sangha des Cistes (Montpellier) — listed at plumvillage.org (Plum Village (Thích Nhất Hạnh)). Hérault umbrella.",
     url: "https://plumvillage.org/community/international-sangha-directory",
+    geoPrecision: "city",
   },
   {
     slug: "sangha-fleurs-de-prunier",
@@ -8261,6 +8821,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha Fleurs de Prunier (Rennes) — listed at plumvillage.org (Plum Village (Thích Nhất Hạnh)). Ille-et-Vilaine.",
     url: "http://fleursdeprunier-rennes.blogspot.com",
+    geoPrecision: "city",
   },
   {
     slug: "sangha-des-hirondelles",
@@ -8276,6 +8837,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha des Hirondelles (Tours) — listed at plumvillage.org (Plum Village (Thích Nhất Hạnh)). Indre-et-Loire.",
     url: "https://plumvillage.org/community/international-sangha-directory",
+    geoPrecision: "city",
   },
   {
     slug: "sangha-cercle-des-montagnes",
@@ -8291,6 +8853,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha Cercle des Montagnes (Crolles) — listed at plumvillage.org (Plum Village (Thích Nhất Hạnh)). Isère.",
     url: "https://plumvillage.org/community/international-sangha-directory",
+    geoPrecision: "city",
   },
   {
     slug: "sangha-riviere-du-coeur",
@@ -8306,6 +8869,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha Rivière du Coeur (Grenoble) — listed at plumvillage.org (Plum Village (Thích Nhất Hạnh)). Isère.",
     url: "https://plumvillage.org/community/international-sangha-directory",
+    geoPrecision: "city",
   },
   {
     slug: "sangha-vague-joyeuse",
@@ -8321,6 +8885,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha Vague Joyeuse (Capbreton) — listed at plumvillage.org (Plum Village (Thích Nhất Hạnh)). Landes.",
     url: "https://plumvillage.org/community/international-sangha-directory",
+    geoPrecision: "city",
   },
   {
     slug: "sangha-fleurs-de-pommier",
@@ -8336,6 +8901,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha Fleurs de Pommier (Blois) — listed at plumvillage.org (Plum Village (Thích Nhất Hạnh)). Loir-et-Cher.",
     url: "https://plumvillage.org/community/international-sangha-directory",
+    geoPrecision: "city",
   },
   {
     slug: "sangha-moment-present",
@@ -8351,6 +8917,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha Moment Présent (Roanne) — listed at plumvillage.org (Plum Village (Thích Nhất Hạnh)). Loire.",
     url: "https://plumvillage.org/community/international-sangha-directory",
+    geoPrecision: "city",
   },
   {
     slug: "sangha-graines-de-pratique-chemin-d-eveil",
@@ -8366,6 +8933,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha Graines de Pratique - Chemin d'Eveil (Saint-Étienne) — listed at plumvillage.org (Plum Village (Thích Nhất Hạnh)). Loire.",
     url: "http://chemindeveil.overblog.com",
+    geoPrecision: "city",
   },
   {
     slug: "sangha-cedres-bleus",
@@ -8381,6 +8949,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha Cèdres Bleus (Seauve-sur-Semene) — listed at plumvillage.org (Plum Village (Thích Nhất Hạnh)). Haute-Loire residential center.",
     url: "https://maisonauxcedresbleus.com",
+    geoPrecision: "exact",
   },
   {
     slug: "sangha-inter-etre",
@@ -8396,6 +8965,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha Inter-être (Le Puy-en-Velay) — listed at plumvillage.org (Plum Village (Thích Nhất Hạnh)). Haute-Loire.",
     url: "https://plumvillage.org/community/international-sangha-directory",
+    geoPrecision: "city",
   },
   {
     slug: "sangha-d-une-rive-a-l-autre",
@@ -8411,6 +8981,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha D'une Rive à l'Autre (Ancenis) — listed at plumvillage.org (Plum Village (Thích Nhất Hạnh)). Loire-Atlantique.",
     url: "https://plumvillage.org/community/international-sangha-directory",
+    geoPrecision: "city",
   },
   {
     slug: "sangha-petits-cailloux",
@@ -8426,6 +8997,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha Petits Cailloux (Couëron) — listed at plumvillage.org (Plum Village (Thích Nhất Hạnh)). Loire-Atlantique.",
     url: "https://plumvillage.org/community/international-sangha-directory",
+    geoPrecision: "city",
   },
   {
     slug: "sangha-terre-de-tilleuls",
@@ -8441,6 +9013,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha Terre de Tilleuls (Nantes) — listed at plumvillage.org (Plum Village (Thích Nhất Hạnh)). Loire-Atlantique.",
     url: "https://plumvillage.org/community/international-sangha-directory",
+    geoPrecision: "city",
   },
   {
     slug: "sangha-petits-pas",
@@ -8456,6 +9029,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha Petits Pas (Orléans) — listed at plumvillage.org (Plum Village (Thích Nhất Hạnh)). Loiret.",
     url: "https://plumvillage.org/community/international-sangha-directory",
+    geoPrecision: "city",
   },
   {
     slug: "sangha-des-tournesols",
@@ -8471,6 +9045,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha des Tournesols (Loubès-Bernac) — listed at plumvillage.org (Plum Village (Thích Nhất Hạnh)). Lot-et-Garonne; near Plum Village.",
     url: "https://plumvillage.org/community/international-sangha-directory",
+    geoPrecision: "city",
   },
   {
     slug: "sangha-parfums-du-dharma",
@@ -8486,6 +9061,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha Parfums du Dharma (Tonneins) — listed at plumvillage.org (Plum Village (Thích Nhất Hạnh)). Lot-et-Garonne.",
     url: "https://plumvillage.org/community/international-sangha-directory",
+    geoPrecision: "city",
   },
   {
     slug: "sangha-les-trois-rivieres",
@@ -8501,6 +9077,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha Les Trois Rivières (Angers) — listed at plumvillage.org (Plum Village (Thích Nhất Hạnh)). Maine-et-Loire.",
     url: "https://plumvillage.org/community/international-sangha-directory",
+    geoPrecision: "city",
   },
   {
     slug: "sangha-53",
@@ -8516,6 +9093,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha 53 (Mayenne) — listed at plumvillage.org (Plum Village (Thích Nhất Hạnh)). Mayenne.",
     url: "https://plumvillage.org/community/international-sangha-directory",
+    geoPrecision: "city",
   },
   {
     slug: "sangha-belle-ile-en-mer",
@@ -8531,6 +9109,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha Belle-Île-en-Mer — listed at plumvillage.org (Plum Village (Thích Nhất Hạnh)). Morbihan island.",
     url: "https://plumvillage.org/community/international-sangha-directory",
+    geoPrecision: "city",
   },
   {
     slug: "sangha-de-vannes",
@@ -8546,6 +9125,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha de Vannes (Plum Village (Thích Nhất Hạnh)) — listed at plumvillage.org (Plum Village). Morbihan; Sylvie Zanella.",
     url: "https://plumvillage.org/community/international-sangha-directory",
+    geoPrecision: "city",
   },
   {
     slug: "sangha-ile-de-la-pleine-conscience",
@@ -8561,6 +9141,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha Île de la Pleine Conscience (Lille) — listed at plumvillage.org (Plum Village (Thích Nhất Hạnh)). Nord; umbrella for Hauts-de-France.",
     url: "https://contact79094.wixsite.com/sanghadelille",
+    geoPrecision: "city",
   },
   {
     slug: "sangha-chocolat",
@@ -8576,6 +9157,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha Chocolat (Fournes-en-Weppes) — listed at plumvillage.org (Plum Village (Thích Nhất Hạnh)). Nord; one of the Hauts-de-France 'Chocolat' cells.",
     url: "https://contact79094.wixsite.com/sanghadelille/sanghas-hauts-de-france",
+    geoPrecision: "city",
   },
   {
     slug: "sangha-noisette",
@@ -8591,6 +9173,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha Noisette (Beauvais) — listed at plumvillage.org (Plum Village (Thích Nhất Hạnh)). Oise.",
     url: "https://plumvillage.org/community/international-sangha-directory",
+    geoPrecision: "city",
   },
   {
     slug: "sangha-collines-alencon",
@@ -8606,6 +9189,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha Collines (Orne) — listed at plumvillage.org (Plum Village (Thích Nhất Hạnh)). Basse Normandie / Orne.",
     url: "https://plumvillage.org/community/international-sangha-directory",
+    geoPrecision: "city",
   },
   {
     slug: "sangha-cote-d-opale",
@@ -8621,6 +9205,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha Côte d'Opale (Calais) — listed at plumvillage.org (Plum Village (Thích Nhất Hạnh)). Pas-de-Calais.",
     url: "https://plumvillage.org/community/international-sangha-directory",
+    geoPrecision: "city",
   },
   {
     slug: "sangha-chocolat-bethune",
@@ -8636,6 +9221,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha Chocolat (Béthune) — listed at plumvillage.org (Plum Village (Thích Nhất Hạnh)). Pas-de-Calais.",
     url: "https://contact79094.wixsite.com/sanghadelille/sanghas-hauts-de-france",
+    geoPrecision: "city",
   },
   {
     slug: "sangha-clermont-ferrand",
@@ -8651,6 +9237,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha Clermont-Ferrand (Plum Village (Thích Nhất Hạnh)) — listed at plumvillage.org (Plum Village). Puy-de-Dôme.",
     url: "https://plumvillage.org/community/international-sangha-directory",
+    geoPrecision: "city",
   },
   {
     slug: "sangha-de-bayonne",
@@ -8666,6 +9253,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha de Bayonne (Plum Village (Thích Nhất Hạnh)) — listed at plumvillage.org (Plum Village). Pyrénées-Atlantiques.",
     url: "https://plumvillage.org/community/international-sangha-directory",
+    geoPrecision: "city",
   },
   {
     slug: "sangha-les-marmottes",
@@ -8681,6 +9269,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha Les Marmottes (Pau-Oloron-Gan) — listed at plumvillage.org (Plum Village (Thích Nhất Hạnh)). Pyrénées-Atlantiques + Hautes-Pyrénées; Christine Jouandet.",
     url: "https://plumvillage.org/community/international-sangha-directory",
+    geoPrecision: "city",
   },
   {
     slug: "sangha-ocean-de-l-eveil",
@@ -8696,6 +9285,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha Océan de l'Éveil (Côte Basque) — listed at plumvillage.org (Plum Village (Thích Nhất Hạnh)). Pyrénées-Atlantiques côte basque.",
     url: "https://plumvillage.org/community/international-sangha-directory",
+    geoPrecision: "city",
   },
   {
     slug: "sangha-un-lotus-s-epanouit",
@@ -8711,6 +9301,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha Un Lotus s'épanouit (Perpignan) — listed at plumvillage.org (Plum Village (Thích Nhất Hạnh)). Pyrénées-Orientales.",
     url: "https://unlotussepanouitaperpignan.blogspot.com/",
+    geoPrecision: "city",
   },
   {
     slug: "sangha-jardin-aux-mille-petales",
@@ -8726,6 +9317,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha Jardin aux Mille Pétales (Strasbourg) — listed at plumvillage.org (Plum Village (Thích Nhất Hạnh)). Bas-Rhin.",
     url: "https://sites.google.com/view/coeur-des-sanghas-alsace/accueil",
+    geoPrecision: "city",
   },
   {
     slug: "sangha-des-colibris",
@@ -8741,6 +9333,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha des Colibris (Strasbourg) — listed at plumvillage.org (Plum Village (Thích Nhất Hạnh)). Bas-Rhin.",
     url: "https://sites.google.com/view/coeur-des-sanghas-alsace/accueil",
+    geoPrecision: "city",
   },
   {
     slug: "sangha-riviere-du-dharma",
@@ -8756,6 +9349,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha Rivière du Dharma (Haguenau) — listed at plumvillage.org (Plum Village (Thích Nhất Hạnh)). Bas-Rhin / Neubourg.",
     url: "https://sites.google.com/view/coeur-des-sanghas-alsace/accueil",
+    geoPrecision: "city",
   },
   {
     slug: "sangha-fleurs-de-zen",
@@ -8771,6 +9365,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha Fleurs de Zen (Mulhouse) — listed at plumvillage.org (Plum Village (Thích Nhất Hạnh)). Haut-Rhin.",
     url: "https://sites.google.com/view/coeur-des-sanghas-alsace/accueil",
+    geoPrecision: "city",
   },
   {
     slug: "sangha-trois-chenes",
@@ -8786,6 +9381,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha Trois Chênes (Mulhouse) — listed at plumvillage.org (Plum Village (Thích Nhất Hạnh)). Haut-Rhin (banlieue).",
     url: "https://sites.google.com/view/coeur-des-sanghas-alsace/accueil",
+    geoPrecision: "city",
   },
   {
     slug: "sangha-parfum-d-eveil",
@@ -8801,6 +9397,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha Parfum d'Éveil (Amplepuis) — listed at plumvillage.org (Plum Village (Thích Nhất Hạnh)). Rhône.",
     url: "https://plumvillage.org/community/international-sangha-directory",
+    geoPrecision: "city",
   },
   {
     slug: "sangha-des-marronniers",
@@ -8816,6 +9413,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha des Marronniers (Lyon) — listed at plumvillage.org (Plum Village (Thích Nhất Hạnh)). Rhône.",
     url: "http://chemindeveil.overblog.com",
+    geoPrecision: "city",
   },
   {
     slug: "sangha-lotus-des-montagnes",
@@ -8831,6 +9429,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha Lotus des Montagnes (Chambéry) — listed at plumvillage.org (Plum Village (Thích Nhất Hạnh)). Savoie.",
     url: "https://plumvillage.org/community/international-sangha-directory",
+    geoPrecision: "city",
   },
   {
     slug: "sangha-constellation-du-lac",
@@ -8846,6 +9445,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha Constellation du Lac (Annecy) — listed at plumvillage.org (Plum Village (Thích Nhất Hạnh)). Haute-Savoie.",
     url: "https://plumvillage.org/community/international-sangha-directory",
+    geoPrecision: "city",
   },
   {
     slug: "sangha-jardin-de-l-instant",
@@ -8861,6 +9461,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha Jardin de l'Instant (Paris) — listed at plumvillage.org (Plum Village (Thích Nhất Hạnh)). Île-de-France umbrella sangha.",
     url: "http://lejardindelinstant.jimdo.com",
+    geoPrecision: "city",
   },
   {
     slug: "sangha-queer-paris",
@@ -8876,6 +9477,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha Queer Paris — listed at plumvillage.org (Plum Village (Thích Nhất Hạnh)). LGBTIQ+ Plum Village sangha.",
     url: "https://meditationlgbtiqparis.jimdosite.com",
+    geoPrecision: "city",
   },
   {
     slug: "sangha-pluie-qui-fleurit",
@@ -8891,6 +9493,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha Pluie qui Fleurit (Rouen) — listed at plumvillage.org (Plum Village (Thích Nhất Hạnh)). Seine-Maritime.",
     url: "https://www.pluiequifleurit.net",
+    geoPrecision: "city",
   },
   {
     slug: "sangha-de-l-ouest",
@@ -8906,6 +9509,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha de l'Ouest (La Celle-Saint-Cloud) — listed at plumvillage.org (Plum Village (Thích Nhất Hạnh)). Yvelines.",
     url: "https://plumvillage.org/community/international-sangha-directory",
+    geoPrecision: "city",
   },
   {
     slug: "sangha-du-souffle",
@@ -8921,6 +9525,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha du Souffle (Niort) — listed at plumvillage.org (Plum Village (Thích Nhất Hạnh)). Deux-Sèvres.",
     url: "https://plumvillage.org/community/international-sangha-directory",
+    geoPrecision: "city",
   },
   {
     slug: "sangha-ile-interieure",
@@ -8936,6 +9541,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha Île Intérieure (Albi-Gaillac-Graulhet) — listed at plumvillage.org (Plum Village (Thích Nhất Hạnh)). Tarn.",
     url: "https://sites.google.com/site/sanghalileinterieure",
+    geoPrecision: "city",
   },
   {
     slug: "sangha-ile-interieure-lavaur",
@@ -8951,6 +9557,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha Île Intérieure (Lavaur) — listed at plumvillage.org (Plum Village (Thích Nhất Hạnh)). Tarn.",
     url: "https://sites.google.com/site/sanghalileinterieure",
+    geoPrecision: "city",
   },
   {
     slug: "sangha-ile-interieure-montauban",
@@ -8966,6 +9573,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha Île Intérieure (Montauban) — listed at plumvillage.org (Plum Village (Thích Nhất Hạnh)). Tarn-et-Garonne.",
     url: "https://sites.google.com/site/sanghalileinterieure",
+    geoPrecision: "city",
   },
   {
     slug: "sangha-fleur-de-tamaris",
@@ -8981,6 +9589,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha Fleur de Tamaris (La Seyne-sur-Mer) — listed at plumvillage.org (Plum Village (Thích Nhất Hạnh)). Var.",
     url: "https://plumvillage.org/community/international-sangha-directory",
+    geoPrecision: "city",
   },
   {
     slug: "sangha-arc-en-ciel",
@@ -8996,6 +9605,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha Arc-en-Ciel (Fréjus-Saint-Raphaël) — listed at plumvillage.org (Plum Village (Thích Nhất Hạnh)). Var.",
     url: "https://www.facebook.com/profile.php?id=61550837412930",
+    geoPrecision: "city",
   },
   {
     slug: "sangha-des-aubepines",
@@ -9011,6 +9621,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha des Aubépines (Avignon) — listed at plumvillage.org (Plum Village (Thích Nhất Hạnh)). Vaucluse.",
     url: "https://plumvillage.org/community/international-sangha-directory",
+    geoPrecision: "city",
   },
   {
     slug: "sangha-jardin-d-eveil-du-pays-d-aigues",
@@ -9026,6 +9637,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha Jardin d'Éveil du Pays d'Aigues — listed at plumvillage.org (Plum Village (Thích Nhất Hạnh)). Vaucluse.",
     url: "https://plumvillage.org/community/international-sangha-directory",
+    geoPrecision: "city",
   },
   {
     slug: "sangha-ocean",
@@ -9041,6 +9653,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha Océan (Challans) — listed at plumvillage.org (Plum Village (Thích Nhất Hạnh)). Vendée.",
     url: "https://plumvillage.org/community/international-sangha-directory",
+    geoPrecision: "city",
   },
   {
     slug: "sangha-de-poitiers",
@@ -9056,6 +9669,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha de Poitiers (Plum Village (Thích Nhất Hạnh)) — listed at plumvillage.org (Plum Village). Vienne.",
     url: "https://plumvillage.org/community/international-sangha-directory",
+    geoPrecision: "city",
   },
   {
     slug: "sangha-la-maison-qui-sourit",
@@ -9071,6 +9685,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha La Maison qui Sourit (Verrières-le-Buisson) — listed at plumvillage.org (Plum Village (Thích Nhất Hạnh)). Essonne (separate from ABZensoto Kanshoji group).",
     url: "https://plumvillage.org/community/international-sangha-directory",
+    geoPrecision: "city",
   },
   {
     slug: "sangha-grain-letchis",
@@ -9086,6 +9701,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha Grain Letchis (La Réunion) — listed at plumvillage.org (Plum Village (Thích Nhất Hạnh)). Indian Ocean overseas Plum Village sangha.",
     url: "https://plumvillage.org/community/international-sangha-directory",
+    geoPrecision: "city",
   },
   {
     slug: "sangha-de-chetenay-malabry",
@@ -9101,6 +9717,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha de Chêtenay-Malabry (Plum Village (Thích Nhất Hạnh)) — listed at bouddha.ch (Plum Village). Hauts-de-Seine Thich Nhat Hanh group.",
     url: "https://plumvillage.org/community/international-sangha-directory",
+    geoPrecision: "city",
   },
   {
     slug: "sangha-de-toulouse",
@@ -9116,6 +9733,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha de Toulouse (Plum Village - 6 avril 1944) — listed at bouddha.ch (Plum Village (Thích Nhất Hạnh)). Distinct from Île Intérieure Toulouse.",
     url: "https://plumvillage.org/community/international-sangha-directory",
+    geoPrecision: "exact",
   },
   {
     slug: "sangha-de-beuzec-cap-sizun",
@@ -9131,6 +9749,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha de Beuzec Cap Sizun — listed at bouddha.ch (Plum Village (Thích Nhất Hạnh)). Finistère ouest.",
     url: "https://plumvillage.org/community/international-sangha-directory",
+    geoPrecision: "exact",
   },
   {
     slug: "inter-sanghas-lyon",
@@ -9146,6 +9765,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Inter-Sanghas Lyon (Francheville) — listed at bouddha.ch (Plum Village (Thích Nhất Hạnh)). Rhône umbrella sangha.",
     url: "https://plumvillage.org/community/international-sangha-directory",
+    geoPrecision: "exact",
   },
   {
     slug: "centre-europeen-du-bouddhisme-soto-zen",
@@ -9161,6 +9781,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sotozen_jp",
     sourceExcerpt: "Centre Européen du Bouddhisme Sōtō Zen (Sotoshu Europe Office) — listed at www.sotozen.com (Sōtō (Sotoshu official EU bureau)). Official European administrative office of Sōtō Zen (Japan).",
     url: "https://www.sotozen.eu/",
+    geoPrecision: "exact",
   },
   {
     slug: "bukkoku-zenji",
@@ -9176,6 +9797,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sotozen_jp",
     sourceExcerpt: "Bukkoku Zenji (Dojo Zen de Paris) — listed at www.sotozen.com (Sōtō / Deshimaru (AZI)). Historic AZI dojo; one of Deshimaru's original Paris locations.",
     url: "https://www.zen-azi.org/en/node/3674",
+    geoPrecision: "exact",
   },
   {
     slug: "dojo-zen-de-l-ile-de-la-cite",
@@ -9191,6 +9813,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_zen_road",
     sourceExcerpt: "Dojo Zen de l'Île de la Cité — listed at zen-road.org (Sōtō / Deshimaru (AZI / Roland Yuno Rech)). Central-Paris dojo, Zen Road network.",
     url: "https://www.dojo-zen.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "dojo-seine-zen",
@@ -9206,6 +9829,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_zen_road",
     sourceExcerpt: "Dojo Seine Zen — listed at zen-road.org (Sōtō / Deshimaru (AZI / Zen Road)). Listed in Zen Road dojo directory.",
     url: "https://seinezen-paris.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "dojo-zen-d-avron",
@@ -9221,6 +9845,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_zen_road",
     sourceExcerpt: "Dojo Zen d'Avron — listed at zen-road.org (Sōtō / Deshimaru (AZI / Zen Road)). Tel +33 6 75 20 86 06.",
     url: "https://zen-road.org/en/dojos/",
+    geoPrecision: "exact",
   },
   {
     slug: "dojo-zen-de-pelleport",
@@ -9236,6 +9861,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_azi",
     sourceExcerpt: "Dojo Zen de Pelleport — listed at dojozenparis.com (Sōtō / Deshimaru (AZI)). Tel 06 75 20 86 06; listed by Dojo Zen de Paris IDF directory.",
     url: "https://dojozenparis.com/dojos-en-ile-de-france/",
+    geoPrecision: "exact",
   },
   {
     slug: "dojo-zen-de-paris",
@@ -9251,6 +9877,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_kosen_sangha",
     sourceExcerpt: "Dojo Zen de Paris (Kosen Sangha) — listed at www.zen-deshimaru.com (Sōtō / Deshimaru (Kosen Sangha)). Kosen Thibaut lineage; separate from AZI.",
     url: "https://www.zen-paris.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "dojo-zen-genji-kokyo",
@@ -9266,6 +9893,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_kosen_sangha",
     sourceExcerpt: "Dojo Zen Genji Kōkyō — listed at www.zen-deshimaru.com (Sōtō / Deshimaru (Kosen Sangha)). Kosen Sangha dojo, Île-de-France.",
     url: "https://www.zen-deshimaru.com/fr/dojos/dojo-zen-genji-kokyo-nanterre",
+    geoPrecision: "exact",
   },
   {
     slug: "dojo-zen-de-boulogne",
@@ -9281,6 +9909,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_zen_road",
     sourceExcerpt: "Dojo Zen de Boulogne — listed at zen-road.org (Sōtō / Deshimaru (AZI / Zen Road)). Zen Road network.",
     url: "https://meditation-zen-boulogne.com/",
+    geoPrecision: "exact",
   },
   {
     slug: "dojo-zen-de-cergy",
@@ -9296,6 +9925,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_zen_road",
     sourceExcerpt: "Dojo Zen de Cergy — listed at zen-road.org (Sōtō / Deshimaru (AZI / Zen Road)). Val-d'Oise.",
     url: "https://dojozencergy.fr/",
+    geoPrecision: "city",
   },
   {
     slug: "dojo-zen-de-margency",
@@ -9311,6 +9941,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_azi",
     sourceExcerpt: "Dojo Zen de Margency — listed at dojozenparis.com (Sōtō / Deshimaru (AZI)). Val-d'Oise; listed by Paris IDF dojo directory.",
     url: "https://dojozenmargency.com/",
+    geoPrecision: "city",
   },
   {
     slug: "dojo-zen-de-garches",
@@ -9326,6 +9957,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_azi",
     sourceExcerpt: "Dojo Zen de Garches — listed at dojozenparis.com (Sōtō / Deshimaru (AZI)). Hauts-de-Seine.",
     url: "https://dojozengarches.wixsite.com/",
+    geoPrecision: "city",
   },
   {
     slug: "dojo-zen-de-sceaux",
@@ -9341,6 +9973,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_azi",
     sourceExcerpt: "Dojo Zen de Sceaux — listed at dojozenparis.com (Sōtō / Deshimaru (AZI)). Hauts-de-Seine.",
     url: "https://meditation-zen-dojo92sceaux.org/",
+    geoPrecision: "city",
   },
   {
     slug: "dojo-de-l-elephant-blanc",
@@ -9356,6 +9989,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_azi",
     sourceExcerpt: "Dojo de l'Éléphant Blanc (Montreuil) — listed at www.zen-azi.org (Sōtō / Deshimaru (AZI)). Seine-Saint-Denis.",
     url: "https://dojodelelephantblanc.fr/",
+    geoPrecision: "city",
   },
   {
     slug: "centre-zen-de-bondy",
@@ -9371,6 +10005,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_abze",
     sourceExcerpt: "Centre Zen de Bondy — listed at abzen.eu (Sōtō / Deshimaru (AZI)). Antoine Charlot, ABZE-affiliated teacher.",
     url: "https://abzen.eu/les-enseignants/",
+    geoPrecision: "city",
   },
   {
     slug: "groupe-zen-de-verrieres-le-buisson",
@@ -9386,6 +10021,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_kanshoji",
     sourceExcerpt: "Groupe Zen de Verrières-le-Buisson (ABZensoto) — listed at www.kanshoji.org (Sōtō / Kanshoji). Kanshoji-affiliated; Essonne.",
     url: "https://abzensoto.org/",
+    geoPrecision: "city",
   },
   {
     slug: "dojo-zen-sud-seine-et-marne",
@@ -9401,6 +10037,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_azi",
     sourceExcerpt: "Dojo Zen Sud Seine-et-Marne (Fontainebleau) — listed at dojozenparis.com (Sōtō / Deshimaru (AZI)). Seine-et-Marne.",
     url: "https://dojozensud77.my.canva.site/",
+    geoPrecision: "city",
   },
   {
     slug: "dojo-zen-de-champs-sur-marne",
@@ -9416,6 +10053,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_azi",
     sourceExcerpt: "Dojo Zen de Champs-sur-Marne — listed at dojozenparis.com (Sōtō / Deshimaru (AZI)). Marne-la-Vallée.",
     url: "https://zenmlv.fr/",
+    geoPrecision: "city",
   },
   {
     slug: "groupe-zen-de-nandy",
@@ -9431,6 +10069,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_azi",
     sourceExcerpt: "Groupe Zen de Nandy — listed at dojozenparis.com (Sōtō / Deshimaru (AZI)). Seine-et-Marne.",
     url: "https://groupe-zen-nandy.fr/",
+    geoPrecision: "city",
   },
   {
     slug: "doujian-zen-group",
@@ -9446,6 +10085,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sotozen_jp",
     sourceExcerpt: "Doujian Zen Group — listed at www.sotozen.com (Sōtō (Sotoshu)). Sotoshu-registered; Seine-et-Marne.",
     url: "https://www.sotozen.com/fre/temples/outside_jp/France/",
+    geoPrecision: "exact",
   },
   {
     slug: "groupe-zen-de-tremblay-sur-mauldre",
@@ -9461,6 +10101,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_zen_road",
     sourceExcerpt: "Groupe Zen de Tremblay-sur-Mauldre — listed at zen-road.org (Sōtō / Deshimaru (AZI / Zen Road)). Yvelines (Pontchartrain area).",
     url: "https://zen-road.org/en/dojos/",
+    geoPrecision: "city",
   },
   {
     slug: "groupe-zen-les-ulis",
@@ -9476,6 +10117,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_zen_road",
     sourceExcerpt: "Groupe Zen Les Ulis — listed at zen-road.org (Sōtō / Deshimaru (AZI / Zen Road)). Essonne.",
     url: "https://zen-road.org/en/dojos/",
+    geoPrecision: "city",
   },
   {
     slug: "groupe-zen-de-rosny-sous-bois",
@@ -9491,6 +10133,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_azi",
     sourceExcerpt: "Groupe Zen de Rosny-sous-Bois — listed at dojozenparis.com (Sōtō / Deshimaru (AZI)). Seine-Saint-Denis.",
     url: "https://azs93.fr/",
+    geoPrecision: "city",
   },
   {
     slug: "strasbourg-zen-center",
@@ -9506,6 +10149,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sotozen_jp",
     sourceExcerpt: "Strasbourg Zen Center (Centre Zen de Strasbourg) — listed at www.sotozen.com (Sōtō / Deshimaru (AZI)). Sister center of Ryumonji; Wang-Genh lineage.",
     url: "https://meditation-zen.org/en/presentation-zen-centre-strasbourg",
+    geoPrecision: "exact",
   },
   {
     slug: "dojo-zen-de-mulhouse",
@@ -9521,6 +10165,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_azi",
     sourceExcerpt: "Dojo Zen de Mulhouse (Butsu Shin Zendo) — listed at www.zen-azi.org (Sōtō / Deshimaru (AZI)). Teacher: Claude Emon Cannizzo (ABZE).",
     url: "https://www.zen-azi.org/node/436",
+    geoPrecision: "exact",
   },
   {
     slug: "dojo-zen-de-colmar",
@@ -9536,6 +10181,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_azi",
     sourceExcerpt: "Dojo Zen de Colmar — listed at www.zen-azi.org (Sōtō / Deshimaru (AZI)). Wang-Genh-affiliated; established 1987.",
     url: "https://www.zen-azi.org/fr/node/461",
+    geoPrecision: "exact",
   },
   {
     slug: "dojo-zen-de-nancy",
@@ -9551,6 +10197,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_azi",
     sourceExcerpt: "Dojo Zen de Nancy (Groupe Zen Sōtō de Nancy) — listed at www.zen-azi.org (Sōtō / Deshimaru (AZI)). Affiliated with AZI.",
     url: "https://dojo-zen-soto-nancy.com/",
+    geoPrecision: "exact",
   },
   {
     slug: "zendo-de-metz",
@@ -9566,6 +10213,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_azi",
     sourceExcerpt: "Zendo de Metz — listed at meditation-zen.org (Sōtō / Deshimaru (AZI)). Founded early 1970s by Deshimaru disciple from Strasbourg.",
     url: "http://zendo-metz.gyptis.org/",
+    geoPrecision: "city",
   },
   {
     slug: "shoshin-dojo",
@@ -9581,6 +10229,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_abze",
     sourceExcerpt: "Shoshin Dojo (Zen Sōtō Reims) — listed at abzen.eu (Sōtō / Deshimaru (AZI / ABZE)). ABZE & AZI.",
     url: "https://zensotoreims.fr/",
+    geoPrecision: "exact",
   },
   {
     slug: "sanko-dojo-zen-soto-de-reims",
@@ -9596,6 +10245,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Sanko – Dojo Zen Sōtō de Reims — listed at sites.google.com (Sōtō). Small home-dojo; secondary Reims sangha.",
     url: "https://sanko-dojozen.over-blog.com/",
+    geoPrecision: "exact",
   },
   {
     slug: "dojo-bouddhiste-zen-de-lyon",
@@ -9611,6 +10261,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_zen_road",
     sourceExcerpt: "Dojo Bouddhiste Zen de Lyon — listed at zen-road.org (Sōtō / Deshimaru (AZI / Zen Road)). Largest AZI dojo in Lyon area.",
     url: "https://www.dojo-bouddhiste-zen-lyon.fr/",
+    geoPrecision: "city",
   },
   {
     slug: "temple-zen-lyon-villeurbanne",
@@ -9626,6 +10277,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Temple Zen Lyon-Villeurbanne (Dogen Sangha / Gudo-Ji) — listed at dogensangha.fr (Sōtō / Nishijima (Dogen Sangha)). Founded by Jean-Marc Bazy, Nishijima dharma heir.",
     url: "https://dogensangha.fr/",
+    geoPrecision: "city",
   },
   {
     slug: "dojo-zen-de-lyon",
@@ -9641,6 +10293,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_kosen_sangha",
     sourceExcerpt: "Dojo Zen de Lyon (Kosen Sangha) — listed at www.zen-deshimaru.com (Sōtō / Deshimaru (Kosen Sangha)). Teacher: Maître Ryurin Desmur.",
     url: "https://dojozen-lyon.fr/",
+    geoPrecision: "exact",
   },
   {
     slug: "la-demeure-sans-limites",
@@ -9656,6 +10309,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sotozen_jp",
     sourceExcerpt: "La Demeure sans Limites (Hōkaiji) — listed at www.sotozen.com (Sōtō (Moriyama / Aoyama line)). Founded by Joshin Luce Bachoux; transmission to Jokei-ni Lambert in 2018.",
     url: "https://www.larbredeleveil.org/lademeuresanslimites/",
+    geoPrecision: "exact",
   },
   {
     slug: "sendanzenji",
@@ -9671,6 +10325,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sotozen_jp",
     sourceExcerpt: "Sendanzenji — listed at www.sotozen.com (Sōtō (Sotoshu)). Sotoshu-registered.",
     url: "http://www.kanjizai.fr/",
+    geoPrecision: "exact",
   },
   {
     slug: "dojo-zen-de-saint-etienne",
@@ -9686,6 +10341,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_kosen_sangha",
     sourceExcerpt: "Dojo Zen de Saint-Étienne (Kosen Sangha) — listed at www.zen-deshimaru.com (Sōtō / Deshimaru (Kosen Sangha)). Kosen Sangha; Deshimaru tradition.",
     url: "https://www.zen-saint-etienne.fr/",
+    geoPrecision: "exact",
   },
   {
     slug: "ho-san-dojo-de-clermont-ferrand",
@@ -9701,6 +10357,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_azi",
     sourceExcerpt: "Ho San Dojo de Clermont-Ferrand — listed at www.zen-azi.org (Sōtō / Deshimaru (AZI)). AZI dojo.",
     url: "https://www.zen-azi.org/node/428",
+    geoPrecision: "city",
   },
   {
     slug: "groupe-zen-de-grenoble",
@@ -9716,6 +10373,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_azi",
     sourceExcerpt: "Groupe Zen de Grenoble — listed at www.zen-azi.org (Sōtō / Deshimaru (AZI)). AZI; dojo-zen-grenoble@outlook.fr; +33 7 86 72 32 89.",
     url: "https://www.zen-azi.org/node/468",
+    geoPrecision: "exact",
   },
   {
     slug: "dojo-zen-de-dijon",
@@ -9731,6 +10389,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_kosen_sangha",
     sourceExcerpt: "Dojo Zen de Dijon — listed at www.zen-deshimaru.com (Sōtō / Deshimaru (Kosen Sangha)). Teacher: Maître Jomon Julien.",
     url: "https://www.zen-deshimaru-dijon.com/",
+    geoPrecision: "exact",
   },
   {
     slug: "dojo-zen-de-chalon-sur-saone",
@@ -9746,6 +10405,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_abze",
     sourceExcerpt: "Dojo Zen de Chalon-sur-Saône — listed at abzen.eu (Sōtō / Deshimaru (AZI / ABZE)). Teacher: Marc Chigen Estéban (ABZE).",
     url: "https://abzen.eu/les-enseignants/",
+    geoPrecision: "city",
   },
   {
     slug: "association-zen-soto-myo-unji",
@@ -9761,6 +10421,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sotozen_jp",
     sourceExcerpt: "Association Zen Sōtō Myō-Unji — listed at www.sotozen.com (Sōtō (Sotoshu)). Sotoshu-registered.",
     url: "https://www.sotozen.com/fre/temples/outside_jp/France/",
+    geoPrecision: "city",
   },
   {
     slug: "denshinji",
@@ -9776,6 +10437,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sotozen_jp",
     sourceExcerpt: "Denshinji — listed at www.sotozen.com (Sōtō (Sotoshu)). Near La Gendronnière; Sotoshu-registered.",
     url: "http://www.denshinji.fr/",
+    geoPrecision: "exact",
   },
   {
     slug: "dojo-zen-de-tours-josen",
@@ -9791,6 +10453,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_azi",
     sourceExcerpt: "Dojo Zen de Tours Josen — listed at www.zen-azi.org (Sōtō / Deshimaru (AZI)). AZI.",
     url: "https://www.zen-azi.org/fr/node/650",
+    geoPrecision: "exact",
   },
   {
     slug: "dojo-zen-d-orleans",
@@ -9806,6 +10469,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_azi",
     sourceExcerpt: "Dojo Zen d'Orléans — listed at www.zen-azi.org (Sōtō / Deshimaru (AZI)). AZI.",
     url: "https://www.zen-azi.org/fr/node/439",
+    geoPrecision: "exact",
   },
   {
     slug: "dojo-zen-de-bourges",
@@ -9821,6 +10485,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_azi",
     sourceExcerpt: "Dojo Zen de Bourges — listed at dojozendebourges.fr (Sōtō / Deshimaru (AZI)). Sōtō dojo.",
     url: "https://dojozendebourges.fr/",
+    geoPrecision: "city",
   },
   {
     slug: "groupe-zen-de-saint-amand",
@@ -9836,6 +10501,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_kanshoji",
     sourceExcerpt: "Groupe Zen de Saint-Amand — listed at www.kanshoji.org (Sōtō / Kanshoji). Kanshoji-affiliated.",
     url: "https://centrezen.wixsite.com/centrezen18200",
+    geoPrecision: "city",
   },
   {
     slug: "centre-zen-de-limoges",
@@ -9851,6 +10517,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sotozen_jp",
     sourceExcerpt: "Centre Zen de Limoges — listed at www.sotozen.com (Sōtō / Kanshoji). Kanshoji-affiliated; Sotoshu-registered.",
     url: "http://www.zenlimoges.fr/",
+    geoPrecision: "exact",
   },
   {
     slug: "zendo-de-limoges",
@@ -9866,6 +10533,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_azi",
     sourceExcerpt: "Zendo de Limoges — listed at zendolimoges.fr (Sōtō / Deshimaru (AZI)). AZI-affiliated.",
     url: "https://zendolimoges.fr/",
+    geoPrecision: "city",
   },
   {
     slug: "nuage-et-eau-centre-de-meditation-zen-de-bordeaux",
@@ -9881,6 +10549,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_abze",
     sourceExcerpt: "Nuage et Eau – Centre de méditation zen de Bordeaux — listed at abzen.eu (Sōtō / Deshimaru (AZI / ABZE)). Teacher: Patrick Pargnien (ABZE), founded 2005.",
     url: "http://nuageeteau.fr/",
+    geoPrecision: "city",
   },
   {
     slug: "centre-zen-de-pau",
@@ -9896,6 +10565,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_azi",
     sourceExcerpt: "Centre Zen de Pau — listed at www.zen-azi.org (Sōtō / Kanshoji). Listed by both Kanshoji and AZI.",
     url: "https://centre-zen-de-pau.com/",
+    geoPrecision: "exact",
   },
   {
     slug: "association-zen-du-pays-basque",
@@ -9911,6 +10581,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_azi",
     sourceExcerpt: "Association Zen du Pays Basque (Dojo Zen Anglet/Bayonne) — listed at www.lezenpyreneen.org (Sōtō / Deshimaru (AZI; Roland Yuno Rech ref.)). AZI.",
     url: "https://dojo-zen-anglet.over-blog.com/",
+    geoPrecision: "exact",
   },
   {
     slug: "groupe-zen-d-angouleme",
@@ -9926,6 +10597,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_kanshoji",
     sourceExcerpt: "Groupe Zen d'Angoulême — listed at www.kanshoji.org (Sōtō / Kanshoji). Kanshoji-affiliated.",
     url: "https://www.zen-azi.org/en/node/643",
+    geoPrecision: "city",
   },
   {
     slug: "dojo-zen-de-brive",
@@ -9941,6 +10613,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_kanshoji",
     sourceExcerpt: "Dojo Zen de Brive — listed at www.kanshoji.org (Sōtō / Kanshoji). Kanshoji-affiliated.",
     url: "https://dojo-zen-brive.blogspot.fr/",
+    geoPrecision: "city",
   },
   {
     slug: "dojo-zen-de-coutras",
@@ -9956,6 +10629,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_kanshoji",
     sourceExcerpt: "Dojo Zen de Coutras — listed at www.kanshoji.org (Sōtō / Kanshoji). Kanshoji-affiliated.",
     url: "https://dojozencoutras.canalblog.com/",
+    geoPrecision: "city",
   },
   {
     slug: "groupe-zen-d-agen",
@@ -9971,6 +10645,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_kanshoji",
     sourceExcerpt: "Groupe Zen d'Agen — listed at www.kanshoji.org (Sōtō / Kanshoji). Kanshoji-affiliated.",
     url: "https://www.kanshoji.org/places-of-practice/?lang=en",
+    geoPrecision: "city",
   },
   {
     slug: "dojo-zen-de-cieurac",
@@ -9986,6 +10661,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_zen_road",
     sourceExcerpt: "Dojo Zen de Cieurac (Cahors) — listed at zen-road.org (Sōtō / Deshimaru (AZI / Zen Road)). Teacher contact Michael Weill.",
     url: "https://dojozencieurac.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "groupe-zen-des-monedieres",
@@ -10001,6 +10677,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_kanshoji",
     sourceExcerpt: "Groupe Zen des Monédières — listed at www.kanshoji.org (Sōtō / Kanshoji). Kanshoji-affiliated; Corrèze (Monédières area).",
     url: "https://www.kanshoji.org/places-of-practice/?lang=en",
+    geoPrecision: "city",
   },
   {
     slug: "zendo-du-boulay",
@@ -10016,6 +10693,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sotozen_jp",
     sourceExcerpt: "Zendo du Boulay — listed at www.sotozen.com (Sōtō (Sotoshu)). Sotoshu-registered.",
     url: "https://www.zen-boulay.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "dojo-de-la-rochelle",
@@ -10031,6 +10709,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_azi",
     sourceExcerpt: "Dojo de La Rochelle — listed at www.zen-azi.org (Sōtō / Deshimaru (AZI)). AZI.",
     url: "https://www.zen-azi.org/fr/node/623",
+    geoPrecision: "city",
   },
   {
     slug: "dojo-de-poitiers",
@@ -10046,6 +10725,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_azi",
     sourceExcerpt: "Dojo de Poitiers — listed at www.zen-azi.org (Sōtō / Deshimaru (AZI)). AZI.",
     url: "https://www.zen-azi.org/en/node/3273",
+    geoPrecision: "city",
   },
   {
     slug: "temple-zen-yujo-nyusanji",
@@ -10061,6 +10741,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_kosen_sangha",
     sourceExcerpt: "Temple Zen Yujo Nyusanji — listed at www.zen-deshimaru.com (Sōtō / Deshimaru (Kosen Sangha)). Main monastery of Kosen Sangha; Master Kosen Thibaut.",
     url: "https://www.zen-deshimaru.com/fr/dojos/temple-zen-yujo-nyusanji",
+    geoPrecision: "city",
   },
   {
     slug: "dojo-zen-de-montpellier",
@@ -10076,6 +10757,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_kosen_sangha",
     sourceExcerpt: "Dojo Zen de Montpellier (Kosen Sangha) — listed at www.zen-deshimaru.com (Sōtō / Deshimaru (Kosen Sangha)). Master Kosen teaches here.",
     url: "https://zen-montpellier.fr/",
+    geoPrecision: "city",
   },
   {
     slug: "zendo-des-trois-rivieres",
@@ -10091,6 +10773,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sanbozen",
     sourceExcerpt: "Zendo des Trois Rivières — listed at sanbo-zen-international.org (Sanbō Zen (Bruce Harris Roshi)). France's main Sanbō Zen residence; Bruce Harris received Dharma 2020.",
     url: "https://sanbo-zen-international.org/",
+    geoPrecision: "city",
   },
   {
     slug: "meditation-zen-narbonne",
@@ -10106,6 +10789,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_abze",
     sourceExcerpt: "Méditation Zen Narbonne — listed at abzen.eu (Sōtō / Deshimaru (AZI / ABZE)). Teacher: Pascal-Olivier Kyōsei Reynaud.",
     url: "https://meditation-zen-narbonne.fr/",
+    geoPrecision: "city",
   },
   {
     slug: "dojo-de-toulouse",
@@ -10121,6 +10805,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_azi",
     sourceExcerpt: "Dojo de Toulouse — listed at www.zen-azi.org (Sōtō / Deshimaru (AZI)). Teacher: Huguette Moku Myo Siréjol.",
     url: "https://www.zen-azi.org/fr/node/446",
+    geoPrecision: "exact",
   },
   {
     slug: "dojo-de-saint-gaudens",
@@ -10136,6 +10821,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_azi",
     sourceExcerpt: "Dojo de Saint-Gaudens — listed at www.zen-azi.org (Sōtō / Deshimaru (AZI / Zen Road)). AZI.",
     url: "https://zen-road.org/en/dojos/",
+    geoPrecision: "exact",
   },
   {
     slug: "groupe-zen-de-saint-clar-de-riviere",
@@ -10151,6 +10837,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_zen_road",
     sourceExcerpt: "Groupe Zen de Saint-Clar-de-Rivière — listed at zen-road.org (Sōtō / Deshimaru (AZI / Zen Road)). Zen Road network.",
     url: "https://zen-road.org/en/dojos/",
+    geoPrecision: "exact",
   },
   {
     slug: "correspondant-zen-de-perpignan",
@@ -10166,6 +10853,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_azi",
     sourceExcerpt: "Correspondant Zen de Perpignan — listed at www.zen-azi.org (Sōtō / Deshimaru (AZI)). AZI correspondent group.",
     url: "https://www.zen-azi.org/node/521",
+    geoPrecision: "exact",
   },
   {
     slug: "dojo-zen-d-anduze",
@@ -10181,6 +10869,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_azi",
     sourceExcerpt: "Dojo Zen d'Anduze — listed at www.zen-azi.org (Sōtō / Deshimaru (AZI)). AZI.",
     url: "https://zen-anduze.org/",
+    geoPrecision: "city",
   },
   {
     slug: "dojo-zen-carpentras",
@@ -10196,6 +10885,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_abze",
     sourceExcerpt: "Dojo Zen Carpentras — listed at abzen.eu (Sōtō / Deshimaru (AZI / ABZE)). Teacher: Michel Jigen Fabra (ABZE).",
     url: "https://abzen.eu/les-enseignants/",
+    geoPrecision: "city",
   },
   {
     slug: "dojo-zen-d-avignon",
@@ -10211,6 +10901,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_azi",
     sourceExcerpt: "Dojo Zen d'Avignon — listed at www.zen-azi.org (Sōtō / Deshimaru (AZI)). AZI; dojozenavignon@orange.fr.",
     url: "https://www.zen-azi.org/node/423",
+    geoPrecision: "exact",
   },
   {
     slug: "dojo-zen-so-shin",
@@ -10226,6 +10917,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_azi",
     sourceExcerpt: "Dojo Zen So Shin (Marseille) — listed at www.zen-azi.org (Sōtō / Deshimaru (AZI)). AZI.",
     url: "https://www.zen-azi.org/fr/node/434",
+    geoPrecision: "exact",
   },
   {
     slug: "dojo-zen-ko-gen",
@@ -10241,6 +10933,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_azi",
     sourceExcerpt: "Dojo Zen Ko Gen (Aix-en-Provence) — listed at www.zen-azi.org (Sōtō / Deshimaru (AZI)). AZI.",
     url: "https://www.dojo-zen-aix-en-provence.com/",
+    geoPrecision: "exact",
   },
   {
     slug: "temple-zen-de-nice",
@@ -10256,6 +10949,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sotozen_jp",
     sourceExcerpt: "Temple Zen de Nice (Gyobutsuji) — listed at www.sotozen.com (Sōtō / Deshimaru (AZI; Roland Yuno Rech)). Major AZI temple in PACA; tel 04 93 80 81 49.",
     url: "https://zen-nice.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "eitaiji-le-rocher-de-la-baume",
@@ -10271,6 +10965,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sotozen_jp",
     sourceExcerpt: "Eitaiji – Le Rocher de la Baume — listed at www.sotozen.com (Sōtō (Sotoshu)). Sotoshu-registered.",
     url: "https://www.sotozen.com/fre/temples/outside_jp/France/",
+    geoPrecision: "city",
   },
   {
     slug: "dojo-zen-six-fours",
@@ -10286,6 +10981,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_kanshoji",
     sourceExcerpt: "Dojo Zen Six-Fours — listed at www.kanshoji.org (Sōtō / Kanshoji). Kanshoji-affiliated.",
     url: "https://dojozen.sixfours.free.fr/",
+    geoPrecision: "city",
   },
   {
     slug: "groupe-zen-de-lorgues",
@@ -10301,6 +10997,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_zen_road",
     sourceExcerpt: "Groupe Zen de Lorgues — listed at zen-road.org (Sōtō / Deshimaru (AZI / Zen Road)). Zen Road network.",
     url: "https://zen-road.org/en/dojos/",
+    geoPrecision: "exact",
   },
   {
     slug: "dojo-de-nantes",
@@ -10316,6 +11013,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_azi",
     sourceExcerpt: "Dojo de Nantes — listed at www.zen-azi.org (Sōtō / Deshimaru (AZI / Zen Road)). Director: François Lang.",
     url: "https://dojozennantes.wordpress.com/",
+    geoPrecision: "exact",
   },
   {
     slug: "groupe-zen-de-montaigu",
@@ -10331,6 +11029,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_kanshoji",
     sourceExcerpt: "Groupe Zen de Montaigu — listed at www.kanshoji.org (Sōtō / Kanshoji). Kanshoji-affiliated.",
     url: "https://dojo-zen-montaigu.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "dojo-zen-de-rennes",
@@ -10346,6 +11045,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_azi",
     sourceExcerpt: "Dojo Zen de Rennes — listed at www.zen-azi.org (Sōtō / Deshimaru (AZI)). AZI.",
     url: "https://www.zen-azi.org/fr/node/441",
+    geoPrecision: "exact",
   },
   {
     slug: "groupe-zen-de-brest",
@@ -10361,6 +11061,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_azi",
     sourceExcerpt: "Groupe Zen de Brest — listed at www.zen-azi.org (Sōtō / Deshimaru (AZI)). AZI group.",
     url: "https://www.zen-azi.org/fr/node/455",
+    geoPrecision: "city",
   },
   {
     slug: "dojo-zen-dinan",
@@ -10376,6 +11077,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_zen_road",
     sourceExcerpt: "Dojo Zen Dinan — listed at zen-road.org (Sōtō / Deshimaru (AZI / Zen Road)). Zen Road network.",
     url: "https://zen-road.org/en/dojos/",
+    geoPrecision: "exact",
   },
   {
     slug: "dojo-zen-vagabond",
@@ -10391,6 +11093,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_zen_road",
     sourceExcerpt: "Dojo Zen Vagabond — listed at zen-road.org (Sōtō / Deshimaru (AZI / Zen Road)). Travelling group across southern Finistère.",
     url: "https://zenvagabond.net/",
+    geoPrecision: "city",
   },
   {
     slug: "temple-zen-kokaiji",
@@ -10406,6 +11109,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sotozen_jp",
     sourceExcerpt: "Temple Zen Kokaiji — listed at www.sotozen.com (Sōtō (Sotoshu)). Sotoshu-registered.",
     url: "https://templezen-kokaiji.org/",
+    geoPrecision: "city",
   },
   {
     slug: "centre-zen-du-perche",
@@ -10421,6 +11125,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sotozen_jp",
     sourceExcerpt: "Centre Zen du Perche — listed at www.sotozen.com (Sōtō (Sotoshu)). Sotoshu-registered.",
     url: "https://zennormandie.fr/",
+    geoPrecision: "exact",
   },
   {
     slug: "dojo-zen-de-rouen",
@@ -10436,6 +11141,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_azi",
     sourceExcerpt: "Dojo Zen de Rouen — listed at www.zen-azi.org (Sōtō / Deshimaru (AZI / Zen Road)). AZI.",
     url: "https://zenrouen.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "groupe-zen-du-robec",
@@ -10451,6 +11157,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_zen_road",
     sourceExcerpt: "Groupe Zen du Robec — listed at zen-road.org (Sōtō / Deshimaru (AZI / Zen Road)). Secondary Rouen group.",
     url: "https://zen-road.org/en/dojos/",
+    geoPrecision: "exact",
   },
   {
     slug: "dojo-zen-le-havre",
@@ -10466,6 +11173,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_zen_road",
     sourceExcerpt: "Dojo Zen Le Havre — listed at zen-road.org (Sōtō / Deshimaru (AZI / Zen Road)). Zen Road network.",
     url: "https://zenlehavre.blogspot.com/",
+    geoPrecision: "exact",
   },
   {
     slug: "dojo-zen-de-vernon",
@@ -10481,6 +11189,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_abze",
     sourceExcerpt: "Dojo Zen de Vernon — listed at abzen.eu (Sōtō / Deshimaru (AZI / ABZE)). Teacher: Luc Sojo Bordes (ABZE).",
     url: "https://abzen.eu/les-enseignants/",
+    geoPrecision: "city",
   },
   {
     slug: "dojo-de-lille",
@@ -10496,6 +11205,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_azi",
     sourceExcerpt: "Dojo de Lille — listed at www.zen-azi.org (Sōtō / Deshimaru (AZI)). AZI.",
     url: "https://www.zen-azi.org/fr/node/433",
+    geoPrecision: "exact",
   },
   {
     slug: "dojo-zen-de-valenciennes",
@@ -10511,6 +11221,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_zen_road",
     sourceExcerpt: "Dojo Zen de Valenciennes — listed at zen-road.org (Sōtō / Deshimaru (AZI / Zen Road)). Zen Road; zenval@laposte.net.",
     url: "https://zen-road.org/en/dojos/",
+    geoPrecision: "exact",
   },
   {
     slug: "groupe-zen-de-dunkerque",
@@ -10526,6 +11237,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_kanshoji",
     sourceExcerpt: "Groupe Zen de Dunkerque — listed at www.kanshoji.org (Sōtō / Kanshoji). Kanshoji-affiliated.",
     url: "https://www.kanshoji.org/places-of-practice/?lang=en",
+    geoPrecision: "city",
   },
   {
     slug: "groupe-zen-de-mametz",
@@ -10541,6 +11253,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_kanshoji",
     sourceExcerpt: "Groupe Zen de Mametz — listed at www.kanshoji.org (Sōtō / Kanshoji). Kanshoji-affiliated.",
     url: "https://www.kanshoji.org/places-of-practice/?lang=en",
+    geoPrecision: "city",
   },
   {
     slug: "paris-zen-group",
@@ -10556,6 +11269,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_kwanum",
     sourceExcerpt: "Paris Zen Group (Kwan Um) — listed at www.kwanumeurope.org (Kwan Um School of Zen (Korean Seon)). Only Kwan Um group listed in France; small.",
     url: "https://www.kwanumeurope.org/zen-centers/",
+    geoPrecision: "city",
   },
   {
     slug: "telford-buddhist-priory",
@@ -10571,6 +11285,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_obc",
     sourceExcerpt: "Telford Buddhist Priory — listed at obcon.org (Sōtō / OBC). Resident OBC priory.",
     url: "https://www.tbpriory.org.uk/",
+    geoPrecision: "exact",
   },
   {
     slug: "norwich-zen-buddhist-priory",
@@ -10586,6 +11301,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_wikipedia",
     sourceExcerpt: "Norwich Zen Buddhist Priory — listed at en.wikipedia.org (Sōtō / OBC). Soto Zen priory in west Norwich.",
     url: "https://norwichzen.org.uk/",
+    geoPrecision: "city",
   },
   {
     slug: "dragon-bell-temple",
@@ -10601,6 +11317,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Dragon Bell Temple — listed at www.tbpriory.org.uk (Sōtō / OBC). OBC temple in the South West.",
     url: "http://www.dragonbelltemple.org.uk/",
+    geoPrecision: "city",
   },
   {
     slug: "turning-wheel-buddhist-temple",
@@ -10616,6 +11333,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Turning Wheel Buddhist Temple — listed at www.tbpriory.org.uk (Sōtō / OBC). OBC temple, East Midlands.",
     url: "https://www.turningwheel.org.uk/",
+    geoPrecision: "city",
   },
   {
     slug: "portobello-buddhist-priory",
@@ -10631,6 +11349,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Portobello Buddhist Priory — listed at www.tbpriory.org.uk (Sōtō / OBC). Scotland's OBC priory.",
     url: "http://www.portobellobuddhist.org.uk/",
+    geoPrecision: "exact",
   },
   {
     slug: "the-place-of-peace-dharma-house",
@@ -10646,6 +11365,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "The Place of Peace Dharma House — listed at www.tbpriory.org.uk (Sōtō / OBC). Welsh OBC dharma house.",
     url: "https://www.placeofpeacewales.org.uk/",
+    geoPrecision: "city",
   },
   {
     slug: "cambridge-serene-reflection-meditation-group",
@@ -10661,6 +11381,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Cambridge Serene Reflection Meditation Group — listed at www.tbpriory.org.uk (Sōtō / OBC (lay group)). OBC lay meditation group.",
     url: "https://sites.google.com/site/cambsrmgroup/",
+    geoPrecision: "city",
   },
   {
     slug: "lancaster-serene-reflection-meditation-group",
@@ -10676,6 +11397,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Lancaster Serene Reflection Meditation Group — listed at www.tbpriory.org.uk (Sōtō / OBC (lay group)). OBC lay group, North West.",
     url: "http://www.lancasterserenereflection.org.uk/",
+    geoPrecision: "city",
   },
   {
     slug: "newcastle-serene-reflection-meditation-group",
@@ -10691,6 +11413,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Newcastle Serene Reflection Meditation Group — listed at www.tbpriory.org.uk (Sōtō / OBC (lay group)). OBC lay group serving Newcastle.",
     url: "http://www.northeastserenereflection.org.uk/newcastle",
+    geoPrecision: "city",
   },
   {
     slug: "nottingham-serene-reflection-meditation-group",
@@ -10706,6 +11429,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Nottingham Serene Reflection Meditation Group — listed at www.tbpriory.org.uk (Sōtō / OBC (lay group)). OBC lay group.",
     url: "http://www.notts-serenereflection.org.uk/",
+    geoPrecision: "city",
   },
   {
     slug: "sheffield-zen",
@@ -10721,6 +11445,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Sheffield Zen — listed at www.tbpriory.org.uk (Sōtō / OBC (lay group)). OBC-affiliated Sheffield meditation group.",
     url: "http://www.zensheffield.org/",
+    geoPrecision: "city",
   },
   {
     slug: "teesside-serene-reflection-meditation-group",
@@ -10736,6 +11461,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Teesside Serene Reflection Meditation Group — listed at www.tbpriory.org.uk (Sōtō / OBC (lay group)). OBC Teesside lay group.",
     url: "http://www.northeastserenereflection.org.uk/teesside",
+    geoPrecision: "city",
   },
   {
     slug: "izauk-bradford-dojo",
@@ -10751,6 +11477,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_izauk",
     sourceExcerpt: "IZAUK Bradford Dojo — listed at izauk.org (Sōtō / Deshimaru (IZAUK / AZI)). Full member group of International Zen Association UK (Deshimaru lineage, AZI).",
     url: "https://www.izauk.org/zen-groups-in-uk/bradford/",
+    geoPrecision: "city",
   },
   {
     slug: "izauk-brighton-dojo",
@@ -10766,6 +11493,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_izauk",
     sourceExcerpt: "IZAUK Brighton Dojo — listed at izauk.org (Sōtō / Deshimaru (IZAUK / AZI)). IZAUK full member.",
     url: "https://www.izauk.org/zen-groups-in-uk/brighton/",
+    geoPrecision: "city",
   },
   {
     slug: "izauk-bristol-dojo",
@@ -10781,6 +11509,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_izauk",
     sourceExcerpt: "IZAUK Bristol Dojo — listed at izauk.org (Sōtō / Deshimaru (IZAUK / AZI)). IZAUK full member.",
     url: "https://www.izauk.org/zen-groups-in-uk/bristol/",
+    geoPrecision: "city",
   },
   {
     slug: "izauk-leeds-dojo",
@@ -10796,6 +11525,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_izauk",
     sourceExcerpt: "IZAUK Leeds Dojo — listed at izauk.org (Sōtō / Deshimaru (IZAUK / AZI)). IZAUK full member.",
     url: "https://www.izauk.org/zen-groups-in-uk/leeds/",
+    geoPrecision: "city",
   },
   {
     slug: "izauk-london-north-dojo",
@@ -10811,6 +11541,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_izauk",
     sourceExcerpt: "IZAUK London North Dojo (Caledonian Road) — listed at izauk.org (Sōtō / Deshimaru (IZAUK / AZI)). IZAUK full member, central London dojo.",
     url: "https://www.izauk.org/zen-groups-in-uk/london-north/",
+    geoPrecision: "exact",
   },
   {
     slug: "izauk-london-south-brockley-dojo",
@@ -10826,6 +11557,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_izauk",
     sourceExcerpt: "IZAUK London South / Brockley Dojo — listed at izauk.org (Sōtō / Deshimaru (IZAUK / AZI)). IZAUK full member, south-east London.",
     url: "https://www.izauk.org/zen-groups-in-uk/london-southeast/",
+    geoPrecision: "city",
   },
   {
     slug: "izauk-manchester-dojo",
@@ -10841,6 +11573,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_izauk",
     sourceExcerpt: "IZAUK Manchester Dojo — listed at izauk.org (Sōtō / Deshimaru (IZAUK / AZI)). IZAUK full member.",
     url: "https://www.izauk.org/zen-groups-in-uk/manchester/",
+    geoPrecision: "city",
   },
   {
     slug: "izauk-norwich-dojo",
@@ -10856,6 +11589,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_izauk",
     sourceExcerpt: "IZAUK Norwich Dojo — listed at izauk.org (Sōtō / Deshimaru (IZAUK / AZI)). IZAUK full member; distinct from OBC priory in Norwich.",
     url: "https://www.izauk.org/zen-groups-in-uk/norwich/",
+    geoPrecision: "city",
   },
   {
     slug: "izauk-wells-next-the-sea-dojo",
@@ -10871,6 +11605,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_izauk",
     sourceExcerpt: "IZAUK Wells-Next-The-Sea Dojo — listed at izauk.org (Sōtō / Deshimaru (IZAUK / AZI)). IZAUK full member, north Norfolk coast.",
     url: "https://www.izauk.org/zen-groups-in-uk/wells-next-the-sea/",
+    geoPrecision: "city",
   },
   {
     slug: "izauk-godalming-group",
@@ -10886,6 +11621,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_izauk",
     sourceExcerpt: "IZAUK Godalming Group — listed at izauk.org (Sōtō / Deshimaru (IZAUK / AZI)). IZAUK correspondent group, Surrey.",
     url: "https://www.izauk.org/zen-groups-in-uk/godalming-correspondent/",
+    geoPrecision: "city",
   },
   {
     slug: "izauk-cardiff-group",
@@ -10901,6 +11637,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_izauk",
     sourceExcerpt: "IZAUK Cardiff Group — listed at izauk.org (Sōtō / Deshimaru (IZAUK / AZI)). IZAUK correspondent, Wales.",
     url: "https://www.izauk.org/zen-groups-in-uk/cardiff/",
+    geoPrecision: "city",
   },
   {
     slug: "izauk-milford-haven-group",
@@ -10916,6 +11653,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_izauk",
     sourceExcerpt: "IZAUK Milford Haven Group — listed at izauk.org (Sōtō / Deshimaru (IZAUK / AZI)). IZAUK correspondent, west Wales.",
     url: "https://www.izauk.org/zen-groups-in-uk/milford-haven-correspondent/",
+    geoPrecision: "city",
   },
   {
     slug: "maenllwyd-retreat-centre",
@@ -10931,6 +11669,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_western_chan_fellowship",
     sourceExcerpt: "Maenllwyd Retreat Centre — listed at westernchanfellowship.org (Chan (Western Chan Fellowship — Sheng Yen / Hsu Yun lineage)). WCF retreat centre in mid-Wales; remote farm-building hosting Chan retreats since the 1970s under John Crook then successors.",
     url: "https://www.maenllwyd.org/",
+    geoPrecision: "city",
   },
   {
     slug: "shawbottom-farm-retreat",
@@ -10946,6 +11685,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_western_chan_fellowship",
     sourceExcerpt: "Shawbottom Farm Retreat — listed at westernchanfellowship.org (Chan (Western Chan Fellowship)). WCF retreat venue, England.",
     url: "https://westernchanfellowship.org/events-and-retreats/venues-chan-and-zen-retreats/shawbottom/",
+    geoPrecision: "exact",
   },
   {
     slug: "birmingham-chan-group",
@@ -10961,6 +11701,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_western_chan_fellowship",
     sourceExcerpt: "Birmingham Chan Group — listed at westernchanfellowship.org (Chan (Western Chan Fellowship)). WCF affiliated Chan meditation group.",
     url: "https://westernchanfellowship.org/chan-meditation-groups/birmingham-chan-group/",
+    geoPrecision: "city",
   },
   {
     slug: "bristol-chan-group",
@@ -10976,6 +11717,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_western_chan_fellowship",
     sourceExcerpt: "Bristol Chan Group — listed at westernchanfellowship.org (Chan (Western Chan Fellowship)). WCF affiliated Chan meditation group.",
     url: "https://westernchanfellowship.org/chan-meditation-groups/bristol-chan-group/",
+    geoPrecision: "city",
   },
   {
     slug: "cardiff-chan-group",
@@ -10991,6 +11733,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_western_chan_fellowship",
     sourceExcerpt: "Cardiff Chan Group — listed at westernchanfellowship.org (Chan (Western Chan Fellowship)). WCF affiliated.",
     url: "https://westernchanfellowship.org/chan-meditation-groups/cardiff-chan-group/",
+    geoPrecision: "city",
   },
   {
     slug: "derbyshire-dales-chan-group",
@@ -11006,6 +11749,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_western_chan_fellowship",
     sourceExcerpt: "Derbyshire Dales Chan Group — listed at westernchanfellowship.org (Chan (Western Chan Fellowship)). WCF affiliated.",
     url: "https://westernchanfellowship.org/chan-meditation-groups/derbyshire-dales-chan-group/",
+    geoPrecision: "city",
   },
   {
     slug: "forest-of-dean-chan-meditation-group",
@@ -11021,6 +11765,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_western_chan_fellowship",
     sourceExcerpt: "Forest of Dean Chan Meditation Group — listed at westernchanfellowship.org (Chan (Western Chan Fellowship)). WCF affiliated.",
     url: "https://westernchanfellowship.org/chan-meditation-groups/forest-of-dean-chan-meditation-group/",
+    geoPrecision: "city",
   },
   {
     slug: "glastonbury-chan-group",
@@ -11036,6 +11781,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_western_chan_fellowship",
     sourceExcerpt: "Glastonbury Chan Group — listed at westernchanfellowship.org (Chan (Western Chan Fellowship)). WCF affiliated.",
     url: "https://westernchanfellowship.org/chan-meditation-groups/glastonbury-chan-group/",
+    geoPrecision: "city",
   },
   {
     slug: "hatfield-welwyn-garden-city-chan-group",
@@ -11051,6 +11797,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_western_chan_fellowship",
     sourceExcerpt: "Hatfield / Welwyn Garden City Chan Group — listed at westernchanfellowship.org (Chan (Western Chan Fellowship)). WCF affiliated.",
     url: "https://westernchanfellowship.org/chan-meditation-groups/hatfield-welwyn-garden-city-chan-group/",
+    geoPrecision: "city",
   },
   {
     slug: "kent-chan-group",
@@ -11066,6 +11813,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_western_chan_fellowship",
     sourceExcerpt: "Kent Chan Group — listed at westernchanfellowship.org (Chan (Western Chan Fellowship)). WCF affiliated.",
     url: "https://westernchanfellowship.org/chan-meditation-groups/kent-chan-group/",
+    geoPrecision: "city",
   },
   {
     slug: "the-lizard-chan-group",
@@ -11081,6 +11829,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_western_chan_fellowship",
     sourceExcerpt: "The Lizard Chan Group — listed at westernchanfellowship.org (Chan (Western Chan Fellowship)). WCF affiliated, Cornwall.",
     url: "https://westernchanfellowship.org/chan-meditation-groups/the-lizard-chan-group/",
+    geoPrecision: "city",
   },
   {
     slug: "london-chan-group",
@@ -11096,6 +11845,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_western_chan_fellowship",
     sourceExcerpt: "London Chan Group — listed at westernchanfellowship.org (Chan (Western Chan Fellowship)). WCF affiliated London Chan group.",
     url: "https://westernchanfellowship.org/chan-meditation-groups/",
+    geoPrecision: "city",
   },
   {
     slug: "manchester-chan-group",
@@ -11111,6 +11861,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_western_chan_fellowship",
     sourceExcerpt: "Manchester Chan Group — listed at westernchanfellowship.org (Chan (Western Chan Fellowship)). WCF affiliated.",
     url: "https://westernchanfellowship.org/chan-meditation-groups/manchester-chan-group/",
+    geoPrecision: "city",
   },
   {
     slug: "mid-wales-chan-group",
@@ -11126,6 +11877,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_western_chan_fellowship",
     sourceExcerpt: "Mid-Wales Chan Group — listed at westernchanfellowship.org (Chan (Western Chan Fellowship)). WCF affiliated.",
     url: "https://westernchanfellowship.org/chan-meditation-groups/mid-wales-chan-group/",
+    geoPrecision: "city",
   },
   {
     slug: "newbury-meditation-group",
@@ -11141,6 +11893,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_western_chan_fellowship",
     sourceExcerpt: "Newbury Meditation Group — listed at westernchanfellowship.org (Chan (Western Chan Fellowship)). WCF affiliated.",
     url: "https://westernchanfellowship.org/chan-meditation-groups/newbury-meditation-group/",
+    geoPrecision: "city",
   },
   {
     slug: "nottingham-chan-group",
@@ -11156,6 +11909,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_western_chan_fellowship",
     sourceExcerpt: "Nottingham Chan Group — listed at westernchanfellowship.org (Chan (Western Chan Fellowship)). WCF affiliated.",
     url: "https://westernchanfellowship.org/chan-meditation-groups/nottingham-chan-group/",
+    geoPrecision: "city",
   },
   {
     slug: "portsmouth-meditation-group",
@@ -11171,6 +11925,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_western_chan_fellowship",
     sourceExcerpt: "Portsmouth Meditation Group — listed at westernchanfellowship.org (Chan (Western Chan Fellowship)). WCF affiliated.",
     url: "https://westernchanfellowship.org/chan-meditation-groups/portsmouth-meditation-group/",
+    geoPrecision: "city",
   },
   {
     slug: "scottish-chan",
@@ -11186,6 +11941,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_western_chan_fellowship",
     sourceExcerpt: "Scottish Chan — listed at westernchanfellowship.org (Chan (Western Chan Fellowship)). WCF affiliated Scotland-wide group.",
     url: "https://westernchanfellowship.org/chan-meditation-groups/scottish-chan/",
+    geoPrecision: "city",
   },
   {
     slug: "south-devon-chan-group",
@@ -11201,6 +11957,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_western_chan_fellowship",
     sourceExcerpt: "South Devon Chan Group — listed at westernchanfellowship.org (Chan (Western Chan Fellowship)). WCF affiliated.",
     url: "https://westernchanfellowship.org/chan-meditation-groups/south-devon-chan-group/",
+    geoPrecision: "city",
   },
   {
     slug: "winscombe-chan-group",
@@ -11216,6 +11973,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_western_chan_fellowship",
     sourceExcerpt: "Winscombe Chan Group — listed at westernchanfellowship.org (Chan (Western Chan Fellowship)). WCF affiliated, Somerset.",
     url: "https://westernchanfellowship.org/chan-meditation-groups/winscombe-chan-group/",
+    geoPrecision: "city",
   },
   {
     slug: "stonewater-zen-liverpool",
@@ -11231,6 +11989,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_whiteplum",
     sourceExcerpt: "StoneWater Zen Liverpool — listed at whiteplum.org (White Plum Asanga (Maezumi lineage)). Main StoneWater Zen Centre; led by Keizan Scott Roshi (White Plum Europe rep).",
     url: "https://www.stonewaterzen.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "stonewater-zen-northampton",
@@ -11246,6 +12005,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_stonewater_zen",
     sourceExcerpt: "StoneWater Zen Northampton — listed at www.stonewaterzen.org (White Plum Asanga (Maezumi lineage)). StoneWater satellite group.",
     url: "http://swz-northampton.blogspot.com/",
+    geoPrecision: "exact",
   },
   {
     slug: "stonewater-zen-north-london",
@@ -11261,6 +12021,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_stonewater_zen",
     sourceExcerpt: "StoneWater Zen North London (Hampstead) — listed at www.stonewaterzen.org (White Plum Asanga (Maezumi lineage)). Led by Manu Bazzano.",
     url: "https://www.manubazzano.com/",
+    geoPrecision: "exact",
   },
   {
     slug: "stonewater-zen-south-london",
@@ -11276,6 +12037,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_stonewater_zen",
     sourceExcerpt: "StoneWater Zen South London — listed at www.stonewaterzen.org (White Plum Asanga (Maezumi lineage)). Meets at Streatham/Brixton Quaker Meeting House.",
     url: "https://www.stonewaterzen.org/stonewater/local-groups/",
+    geoPrecision: "city",
   },
   {
     slug: "stonewater-zen-kent",
@@ -11291,6 +12053,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_stonewater_zen",
     sourceExcerpt: "StoneWater Zen Kent — listed at www.stonewaterzen.org (White Plum Asanga (Maezumi lineage)). Kent satellite of StoneWater Zen.",
     url: "https://www.stonewaterzen.org/stonewater/local-groups/",
+    geoPrecision: "exact",
   },
   {
     slug: "stonewater-zen-wells",
@@ -11306,6 +12069,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_stonewater_zen",
     sourceExcerpt: "StoneWater Zen Wells — listed at www.stonewaterzen.org (White Plum Asanga (Maezumi lineage)). Somerset StoneWater group.",
     url: "http://www.wellszen.org/",
+    geoPrecision: "city",
   },
   {
     slug: "woodchester-valley-zendo",
@@ -11321,6 +12085,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_stonewater_zen",
     sourceExcerpt: "Woodchester Valley Zendo (StoneWater Zen Woodchester) — listed at www.stonewaterzen.org (White Plum Asanga (Maezumi lineage)). Cotswolds zendo affiliated to StoneWater.",
     url: "https://www.woodchestervalleyzendo.co.uk/",
+    geoPrecision: "exact",
   },
   {
     slug: "wholehearted-zen-sangha",
@@ -11336,6 +12101,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_whiteplum",
     sourceExcerpt: "Wholehearted Zen Sangha — listed at whiteplum.org (White Plum Asanga (Maezumi lineage)). Independent White Plum sangha in south-west London suburbs.",
     url: "https://wholeheartedzensangha.uk/about/",
+    geoPrecision: "city",
   },
   {
     slug: "oxford-zen-centre",
@@ -11351,6 +12117,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sanbozen",
     sourceExcerpt: "Oxford Zen Centre — listed at sanbo-zen-international.org (Sanbō Zen (Yamada Ryoun line)). Sanbo Zen sangha led by Sandy Chubb; Thursday evening Oxford zazen.",
     url: "https://oxfordzencentre.org.uk/",
+    geoPrecision: "city",
   },
   {
     slug: "london-jizo-zen-centre",
@@ -11366,6 +12133,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sanbozen",
     sourceExcerpt: "London Jizo Zen Centre — listed at sanbo-zen-international.org (Sanbō Zen (Yamada Ryoun line)). London arm of Oxford Zen Centre sangha, led by Sandy Chubb; meets Tuesday evenings.",
     url: "https://oxfordzencentre.org.uk/",
+    geoPrecision: "city",
   },
   {
     slug: "kwan-um-london-zen-centre",
@@ -11381,6 +12149,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_kwanum",
     sourceExcerpt: "Kwan Um London Zen Centre — listed at www.kwanumeurope.org (Kwan Um School of Zen (Korean Seon)). UK affiliate of Kwan Um School of Zen Europe.",
     url: "https://london-zen-centre.weebly.com/",
+    geoPrecision: "exact",
   },
   {
     slug: "the-buddhist-society",
@@ -11396,6 +12165,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_buddhist_society_uk",
     sourceExcerpt: "The Buddhist Society (Zen programme) — listed at thebuddhistsociety.org (Rinzai-leaning ecumenical (Christmas Humphreys legacy)). Hosts long-running Zen Meditation, Fundamentals of Zen, and Zen Sundays alongside other traditions; founded 1924.",
     url: "https://thebuddhistsociety.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "touching-the-earth-sangha",
@@ -11411,6 +12181,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Touching The Earth Sangha (Aberdeen) — listed at plumvillage.uk (Plum Village (Thích Nhất Hạnh)). Plum Village UK in-person sangha.",
     url: "https://plumvillage.uk/practice-groups/find-a-group/",
+    geoPrecision: "city",
   },
   {
     slug: "still-waters-sangha",
@@ -11426,6 +12197,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Still Waters Sangha — listed at plumvillage.uk (Plum Village (Thích Nhất Hạnh)). Lake District sangha.",
     url: "https://plumvillage.uk/practice-groups/find-a-group/",
+    geoPrecision: "city",
   },
   {
     slug: "birmingham-sangha",
@@ -11441,6 +12213,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Birmingham Sangha — listed at plumvillage.uk (Plum Village (Thích Nhất Hạnh)). Plum Village UK group.",
     url: "https://plumvillage.uk/practice-groups/find-a-group/",
+    geoPrecision: "city",
   },
   {
     slug: "floating-cloud-sangha",
@@ -11456,6 +12229,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Floating Cloud Sangha — listed at plumvillage.uk (Plum Village (Thích Nhất Hạnh)). Plum Village UK group, Wiltshire.",
     url: "https://plumvillage.uk/practice-groups/find-a-group/",
+    geoPrecision: "city",
   },
   {
     slug: "pebbles-sangha",
@@ -11471,6 +12245,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Pebbles Sangha — listed at plumvillage.uk (Plum Village (Thích Nhất Hạnh)). Plum Village UK group.",
     url: "https://plumvillage.uk/practice-groups/find-a-group/",
+    geoPrecision: "city",
   },
   {
     slug: "white-clouds-sangha-bristol",
@@ -11486,6 +12261,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "White Clouds Sangha Bristol — listed at plumvillage.uk (Plum Village (Thích Nhất Hạnh)). Plum Village UK group.",
     url: "https://plumvillage.uk/practice-groups/find-a-group/",
+    geoPrecision: "city",
   },
   {
     slug: "cambridge-interbeing-sangha",
@@ -11501,6 +12277,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Cambridge Interbeing Sangha — listed at plumvillage.uk (Plum Village (Thích Nhất Hạnh)). Plum Village UK group.",
     url: "https://plumvillage.uk/practice-groups/find-a-group/",
+    geoPrecision: "city",
   },
   {
     slug: "daffodil-sangha",
@@ -11516,6 +12293,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Daffodil Sangha — listed at plumvillage.uk (Plum Village (Thích Nhất Hạnh)). Plum Village UK group, Wales.",
     url: "https://plumvillage.uk/practice-groups/find-a-group/",
+    geoPrecision: "city",
   },
   {
     slug: "heart-of-london-sangha",
@@ -11531,6 +12309,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Heart of London Sangha — listed at plumvillage.uk (Plum Village (Thích Nhất Hạnh)). Central London Plum Village sangha.",
     url: "https://plumvillage.uk/practice-groups/find-a-group/",
+    geoPrecision: "city",
   },
   {
     slug: "north-london-sangha",
@@ -11546,6 +12325,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "North London Sangha — listed at plumvillage.uk (Plum Village (Thích Nhất Hạnh)). Plum Village UK group.",
     url: "https://plumvillage.uk/practice-groups/find-a-group/",
+    geoPrecision: "city",
   },
   {
     slug: "seven-sisters-sangha",
@@ -11561,6 +12341,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Seven Sisters Sangha — listed at plumvillage.uk (Plum Village (Thích Nhất Hạnh)). Plum Village UK group.",
     url: "https://plumvillage.uk/practice-groups/find-a-group/",
+    geoPrecision: "exact",
   },
   {
     slug: "mai-blossom-uk",
@@ -11576,6 +12357,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Mai Blossom UK (Vietnamese-language sangha) — listed at plumvillage.uk (Plum Village (Thích Nhất Hạnh)). Vietnamese Plum Village sangha in London.",
     url: "https://plumvillage.uk/practice-groups/find-a-group/",
+    geoPrecision: "city",
   },
   {
     slug: "wild-geese-sangha",
@@ -11591,6 +12373,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Wild Geese Sangha — listed at plumvillage.uk (Plum Village (Thích Nhất Hạnh)). Plum Village UK group.",
     url: "https://plumvillage.uk/practice-groups/find-a-group/",
+    geoPrecision: "city",
   },
   {
     slug: "dear-green-sangha",
@@ -11606,6 +12389,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Dear Green Sangha — listed at plumvillage.uk (Plum Village (Thích Nhất Hạnh)). Plum Village UK group.",
     url: "https://plumvillage.uk/practice-groups/find-a-group/",
+    geoPrecision: "city",
   },
   {
     slug: "northern-lights-sangha",
@@ -11621,6 +12405,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Northern Lights Sangha — listed at plumvillage.uk (Plum Village (Thích Nhất Hạnh)). Plum Village sangha in Findhorn community area.",
     url: "https://plumvillage.uk/practice-groups/find-a-group/",
+    geoPrecision: "city",
   },
   {
     slug: "heart-of-manchester-sangha",
@@ -11636,6 +12421,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Heart of Manchester Sangha — listed at plumvillage.uk (Plum Village (Thích Nhất Hạnh)). Plum Village UK group.",
     url: "https://plumvillage.uk/practice-groups/find-a-group/",
+    geoPrecision: "city",
   },
   {
     slug: "heart-of-liverpool-sangha",
@@ -11651,6 +12437,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Heart of Liverpool Sangha — listed at plumvillage.uk (Plum Village (Thích Nhất Hạnh)). Plum Village UK group.",
     url: "https://plumvillage.uk/practice-groups/find-a-group/",
+    geoPrecision: "city",
   },
   {
     slug: "northern-lotus-sangha",
@@ -11666,6 +12453,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Northern Lotus Sangha — listed at plumvillage.uk (Plum Village (Thích Nhất Hạnh)). Plum Village UK group.",
     url: "https://plumvillage.uk/practice-groups/find-a-group/",
+    geoPrecision: "city",
   },
   {
     slug: "oxford-sangha",
@@ -11681,6 +12469,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Oxford Sangha — listed at plumvillage.uk (Plum Village (Thích Nhất Hạnh)). Plum Village UK group.",
     url: "https://plumvillage.uk/practice-groups/find-a-group/",
+    geoPrecision: "city",
   },
   {
     slug: "two-rivers-sangha",
@@ -11696,6 +12485,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Two Rivers Sangha — listed at plumvillage.uk (Plum Village (Thích Nhất Hạnh)). Plum Village UK group.",
     url: "https://plumvillage.uk/practice-groups/find-a-group/",
+    geoPrecision: "city",
   },
   {
     slug: "heart-of-the-forest-sangha",
@@ -11711,6 +12501,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Heart of the Forest Sangha — listed at plumvillage.uk (Plum Village (Thích Nhất Hạnh)). Plum Village UK group, East Sussex.",
     url: "https://plumvillage.uk/practice-groups/find-a-group/",
+    geoPrecision: "city",
   },
   {
     slug: "swallowtail-sangha",
@@ -11726,6 +12517,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Swallowtail Sangha — listed at plumvillage.uk (Plum Village (Thích Nhất Hạnh)). Plum Village UK group.",
     url: "https://plumvillage.uk/practice-groups/find-a-group/",
+    geoPrecision: "city",
   },
   {
     slug: "deep-roots-sangha",
@@ -11741,6 +12533,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Deep Roots Sangha — listed at plumvillage.uk (Plum Village (Thích Nhất Hạnh)). Plum Village UK group.",
     url: "https://plumvillage.uk/practice-groups/find-a-group/",
+    geoPrecision: "city",
   },
   {
     slug: "leeds-interbeing-sangha",
@@ -11756,6 +12549,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Leeds InterBeing Sangha — listed at plumvillage.uk (Plum Village (Thích Nhất Hạnh)). Plum Village UK group.",
     url: "https://plumvillage.uk/practice-groups/find-a-group/",
+    geoPrecision: "city",
   },
   {
     slug: "york-sangha",
@@ -11771,6 +12565,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "York Sangha — listed at plumvillage.uk (Plum Village (Thích Nhất Hạnh)). Plum Village UK group.",
     url: "https://plumvillage.uk/practice-groups/find-a-group/",
+    geoPrecision: "city",
   },
   {
     slug: "mynydd-cadarn",
@@ -11786,6 +12581,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Mynydd Cadarn (Solid Mountain) Sangha — listed at plumvillage.uk (Plum Village (Thích Nhất Hạnh)). Plum Village UK group, south Wales.",
     url: "https://plumvillage.uk/practice-groups/find-a-group/",
+    geoPrecision: "city",
   },
   {
     slug: "heart-of-transformation-sangha",
@@ -11801,6 +12597,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Heart of Transformation Sangha — listed at plumvillage.uk (Plum Village (Thích Nhất Hạnh)). Plum Village UK group, north Wales.",
     url: "https://plumvillage.uk/practice-groups/find-a-group/",
+    geoPrecision: "city",
   },
   {
     slug: "open-waves-sangha",
@@ -11816,6 +12613,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Open Waves Sangha — listed at plumvillage.uk (Plum Village (Thích Nhất Hạnh)). Plum Village UK group, Pembrokeshire.",
     url: "https://plumvillage.uk/practice-groups/find-a-group/",
+    geoPrecision: "city",
   },
   {
     slug: "red-valley-sangha",
@@ -11831,6 +12629,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Red Valley Sangha — listed at plumvillage.uk (Plum Village (Thích Nhất Hạnh)). Plum Village UK group, Rhondda.",
     url: "https://plumvillage.uk/practice-groups/find-a-group/",
+    geoPrecision: "city",
   },
   {
     slug: "tall-trees-sangha",
@@ -11846,6 +12645,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Tall Trees Sangha — listed at plumvillage.uk (Plum Village (Thích Nhất Hạnh)). Plum Village UK group, NI.",
     url: "https://plumvillage.uk/practice-groups/find-a-group/",
+    geoPrecision: "city",
   },
   {
     slug: "gaiatree-family-sangha",
@@ -11861,6 +12661,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Gaiatree Family Sangha — listed at plumvillage.uk (Plum Village (Thích Nhất Hạnh)). Plum Village UK group, Co. Down.",
     url: "https://plumvillage.uk/practice-groups/find-a-group/",
+    geoPrecision: "city",
   },
   {
     slug: "wake-up-london",
@@ -11876,6 +12677,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Wake Up London — listed at plumvillage.uk (Plum Village (Thích Nhất Hạnh)). Wake Up sangha for under-35s in London practicing mindfulness in the Plum Village tradition; meets in person weekly near Leicester Square, including a joint Wednesday evening session at 8 Hop Gardens with Heart of London Sangha and a Saturday Afternoon of Mindfulness for young adults. Activities follow Thich Nhat Hanh teachings and the Five Mindfulness Trainings with guided meditation, walking, relaxation, and Dharma sharing.",
     url: "https://plumvillage.uk/practice-groups/find-a-group/wake-up-uk/",
+    geoPrecision: "exact",
   },
   {
     slug: "zen-center-athens",
@@ -11891,6 +12693,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Zen Center Athens (Saikenji) — listed at www.zencenterathens.com (Sōtō Zen (Koten Roshi line)). Founded 2013 by Konstantinos Sgoubopoulos, dharma heir of Koten Roshi. Moved to permanent Saikenji Temple location December 2024.",
     url: "https://www.zencenterathens.com/en/",
+    geoPrecision: "exact",
   },
   {
     slug: "tao-s-center",
@@ -11906,6 +12709,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_wikipedia",
     sourceExcerpt: "Tao's Center — listed at en.wikipedia.org (Sōtō Zen (Nishijima line) / Korean Zen (Seung Sahn line)). Founded 2001 by Sōtō Zen master Nissim Amon (Dharma transmission from Gudo Wafu Nishijima; previously ordained by Seung Sahn). Retreat and meditation center.",
     url: "https://taos-greece.com/",
+    geoPrecision: "city",
   },
   {
     slug: "po-lin-monastery",
@@ -11921,6 +12725,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Po Lin Monastery (Po Lin Chansi) — listed at intotravelchina.com (Chan (Chinese Zen, Po Lin Monastery)). Major Chan Buddhist monastery on Ngong Ping Plateau, often described as one of Hong Kong's foremost Zen monasteries and part of the 'Southern Buddhist Realm'. Founded in 1906 by three monks from Jiangsu; it grew from a remote hermitage ('Big Hut') into one of Hong Kong's largest Buddhist complexes and a key center of Chan practice. Adjacent to the Tian Tan (Big) Buddha and offering daily services, vegetarian meals, and pilgrimage facilities for practitioners and visitors. Native: 寶蓮禪寺 (Bǎolián Chán Sì).",
     url: "https://plm.org.hk",
+    geoPrecision: "exact",
   },
   {
     slug: "lotus-pond-temple",
@@ -11936,6 +12741,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Lotus Pond Temple (Plum Village Hong Kong, Asian Institute of Applied Buddhism) — listed at plumvillage.org (Plum Village (Thích Nhất Hạnh)). Monastic practice centre of the Plum Village tradition in Hong Kong, known as the Asian Institute of Applied Buddhism (AIAB), located at Lotus Pond Temple on Lantau Island. Hosts a resident community of monks and nuns who lead retreats and mindfulness programs in Thich Nhat Hanh's engaged Zen lineage. Recognized by Plum Village as the home of Plum Village in Hong Kong and part of its international network of practice centres. Native: 蓮池寺 / 亞洲應用佛學院 (Liánchí Sì / Yàzhōu Yìngyòng Fóxuéyuàn).",
     url: "https://www.pvfhk.org",
+    geoPrecision: "exact",
   },
   {
     slug: "su-bong-zen-monastery",
@@ -11951,6 +12757,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_buddhanet",
     sourceExcerpt: "Su Bong Zen Monastery — listed at www.buddhanet.info (Kwan Um School of Zen (Korean Seon)). Urban Zen center founded in 1992 and named after Zen Master Su Bong, serving as the main Kwan Um School of Zen monastery in Hong Kong. Offers zazen, kong-an (koan) interviews, retreats, and regular group practice under teachers authorized in the Kwan Um School lineage of Seung Sahn. Listed in the BuddhaNet World Buddhist Directory as a Mahayana center in the Kwan Um School of Zen, with Zen Master Dae Kwan as resident teacher. Native: 秀峰禪院 (Xiùfēng Chán Yuàn).",
     url: "https://www.subong.org.hk/en/content/introduction",
+    geoPrecision: "exact",
   },
   {
     slug: "gak-su-temple-international-zen-center",
@@ -11966,6 +12773,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_buddhanet",
     sourceExcerpt: "Gak Su Temple International Zen Center — listed at www.buddhanet.info (Kwan Um School of Zen (Korean Seon)). Mountain Zen temple and retreat center of Su Bong Zen Monastery, located in Luk Wu on Lantau Island, an area with a 130-year history of Buddhist hermitages. Identified by BuddhaNet as 'Gak Su Mountain Temple', a Mahayana center in the Kwan Um School of Zen founded by Zen Master Seung Sahn with Zen Master Dae Kwan as teacher. Hosts intensive Kyol Che retreats and residential practice periods for monks, nuns, and lay practitioners following Kwan Um School forms. Native: 覺修禪寺 (Juéxiū Chán Sì).",
     url: "https://www.subong.org.hk/en/content/gak-su-temple",
+    geoPrecision: "exact",
   },
   {
     slug: "puguang-meditation-center",
@@ -11981,6 +12789,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_buddhanet",
     sourceExcerpt: "Puguang Meditation Center (Chung Tai Chan Monastery Hong Kong Branch) — listed at www.buddhanet.info (Chan / Linji (Chung Tai Chan Monastery)). Urban Chan meditation center functioning as the Hong Kong branch of Chung Tai Chan Monastery, a major contemporary Chan organization. BuddhaNet lists Puguang Meditation Center as a Mahayana Linji Chan center affiliated with Chung Tai Chan Monastery, providing contact details and location in Hong Kong. Chung Tai's global directory notes Hong Kong among its overseas branches, with Puguang as its local meditation center serving city practitioners. Native: 普光精舍 (Pǔguāng Jīngshè).",
     url: "http://www.ctworld.org/108/puguang3/index.htm",
+    geoPrecision: "exact",
   },
   {
     slug: "dharma-drum-mountain-hong-kong-center",
@@ -11996,6 +12805,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_buddhanet",
     sourceExcerpt: "Dharma Drum Mountain Hong Kong Center (DDM Hong Kong) — listed at www.buddhanet.info (Chan / Sheng-yen (Dharma Drum Mountain)). City practice center of Dharma Drum Mountain founded by Chan Master Sheng Yen, listed by BuddhaNet as a Mahayana Chinese Chan (Zen) organization in Lai Chi Kok, Kowloon. DDM's global affiliates and related listings confirm DDM Hong Kong as an official branch offering Chan meditation, Dharma classes, and community programs in the Dharma Drum lineage. Registered locally as Dharma Drum Mountain Foundation (Hong Kong Branch) with the same Wing Hong Street address and website. Native: 法鼓山香港道場 (Fǎgǔshān Xiānggǎng Dàochǎng).",
     url: "https://www.ddmhk.org.hk",
+    geoPrecision: "exact",
   },
   {
     slug: "po-lam-monastery",
@@ -12011,6 +12821,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_buddhanet",
     sourceExcerpt: "Po Lam Monastery (Po Lam Chan Monastery) — listed at www.buddhanet.info (Chan (Chinese Mahayana, Xuyun lineage)). Forest-style Chan monastery at Tei Tong Tsai on Lantau Island, described in BuddhaNet as Po Lam Forest Monastery providing regular zazen, with facilities for monastics and lay meditators who follow the temple routine. Western Chan Fellowship accounts depict Po Lam Chan Monastery as a traditional Chinese Chan monastery with strict retreat forms, connected through its abbots to the Xuyun lineage and neighboring Nanhua-related teachers. The surrounding Tei Tong Tsai area is recognized in local heritage and hiking guides as a historic Buddhist village with Po Lam Monastery as one of the key surviving hermitages. Native: 寶林寺 (Bǎolín Sì).",
     url: "https://westernchanfellowship.org/dharma/library/article/life-at-po-lam-chan-monastery-hong-kong/",
+    geoPrecision: "exact",
   },
   {
     slug: "pu-men-temple-hong-kong",
@@ -12026,6 +12837,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Pu Men Temple Hong Kong (Foguangshan) — listed at www.fgs.org.tw (Chan / Linji (Foguangshan)). Foguangshan's main branch in Hong Kong; offers public Chan practice and Sunday classes.",
     url: "https://www.fgs.org.hk/",
+    geoPrecision: "exact",
   },
   {
     slug: "chi-lin-nunnery",
@@ -12041,6 +12853,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_wikipedia",
     sourceExcerpt: "Chi Lin Nunnery — listed at en.wikipedia.org (Chinese Chan (Chinese Buddhist nunnery)). Founded 1934, rebuilt 1990s in Tang-dynasty wooden architecture. Active Chan-affiliated nunnery in central Kowloon.",
     url: "http://www.chilin.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "chan-retreat-center-hartovski-vrh",
@@ -12056,6 +12869,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Chan Retreat Center Hartovski Vrh (Dharmaloka) — listed at chan.hr (Chinese Chan (Sheng Yen / Dharma Drum line)). Residential Chan/Zen retreat center founded 2019 by Žarko Andričević, Dharma heir of Master Sheng Yen. Hosts Dharmaloka community.",
     url: "https://chan.hr/en/",
+    geoPrecision: "exact",
   },
   {
     slug: "mokusho-zen-dojo-zagreb",
@@ -12071,6 +12885,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_azi",
     sourceExcerpt: "Mokusho Zen Dojo Zagreb — listed at www.mokushozen.hu (Sōtō Zen (Deshimaru-Zeisler line)). Founded by Monk Myoken (also founder of Bucharest Mokusho dojo). Eastern European Mokusho Zen network branch.",
     url: "https://www.mokushozen.hu/en/",
+    geoPrecision: "city",
   },
   {
     slug: "a-tan-kapuja-zen-kozosseg",
@@ -12086,6 +12901,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "A Tan Kapuja Zen Közösség (Dharma-terem) — listed at www.buddhapest.hu (Zen (Tan Kapuja Buddhista Egyház — eclectic Zen)). Hungary's oldest Zen community, founded 1989; weekly Wednesday meditation 18:00; +36-1-280-6712, info@zen.hu. Affiliated with the Tan Kapuja Buddhist Church (Dharma Gate).",
     url: "https://zen.hu/",
+    geoPrecision: "city",
   },
   {
     slug: "eredeti-feny-zen-kozosseg-buddhapesti-zen-kozpont",
@@ -12101,6 +12917,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_kwanum",
     sourceExcerpt: "Eredeti Fény Zen Közösség — Buddhapesti Zen Központ — listed at www.buddhapest.hu (Kwan Um School of Zen (Korean Seon)). Main Hungarian Kwan Um-lineage Zen center; abbot Chong An Sunim; +36-20-550-1769, eredetifeny@gmail.com.",
     url: "https://eredetifeny.hu/",
+    geoPrecision: "city",
   },
   {
     slug: "eredeti-feny-budapest-gazdagret-csoport",
@@ -12116,6 +12933,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_kwanum",
     sourceExcerpt: "Eredeti Fény — Budapest Gazdagrét csoport — listed at eredetifeny.hu (Kwan Um School of Zen (Korean Seon)). Gazdagrét district sitting group.",
     url: "https://eredetifeny.hu/zen-csoportok/",
+    geoPrecision: "city",
   },
   {
     slug: "eredeti-feny-budapest-zuglo-csoport",
@@ -12131,6 +12949,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_kwanum",
     sourceExcerpt: "Eredeti Fény — Budapest Zugló csoport — listed at eredetifeny.hu (Kwan Um School of Zen (Korean Seon)). Zugló district sitting group.",
     url: "https://eredetifeny.hu/zen-csoportok/",
+    geoPrecision: "city",
   },
   {
     slug: "eredeti-feny-esztergom-fotemplom",
@@ -12146,6 +12965,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_kwanum",
     sourceExcerpt: "Eredeti Fény — Esztergom Főtemplom (Sosei Zen kolostor projekt) — listed at eredetifeny.hu (Kwan Um School of Zen (Korean Seon)). Main rural temple address listed for Eredeti Fény; +36-20-257-3857.",
     url: "https://eredetifeny.hu/",
+    geoPrecision: "city",
   },
   {
     slug: "egy-csepp-szangha-one-drop-zen-kozpont",
@@ -12161,6 +12981,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Egy Csepp Szangha — One Drop Zen Központ — listed at www.buddhapest.hu (Rinzai (Sogenji / Shōdō Harada Roshi lineage)). Hungarian One Drop Zen affiliate of Sogenji (Okayama, Japan); led by Halász 'Tokusho' Attila; onedropzendo@gmail.com; +36-30-466-2871.",
     url: "https://onedropzen.hu/",
+    geoPrecision: "city",
   },
   {
     slug: "one-drop-zen-budapest-xix-kerulet",
@@ -12176,6 +12997,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_onedropzen",
     sourceExcerpt: "One Drop Zen — Budapest XIX. kerület — listed at onedropzen.hu (Rinzai (Sogenji / One Drop)). Budapest 19th-district satellite of One Drop Zen.",
     url: "https://onedropzen.hu/",
+    geoPrecision: "city",
   },
   {
     slug: "one-drop-zen-garuda-kozpont-szekesfehervar",
@@ -12191,6 +13013,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_onedropzen",
     sourceExcerpt: "One Drop Zen — Garuda központ Székesfehérvár — listed at onedropzen.hu (Rinzai (Sogenji / One Drop)). Székesfehérvár One Drop Zen group.",
     url: "https://onedropzen.hu/",
+    geoPrecision: "exact",
   },
   {
     slug: "one-drop-zen-jogahaz-pecs",
@@ -12206,6 +13029,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_onedropzen",
     sourceExcerpt: "One Drop Zen — Jógaház Pécs — listed at onedropzen.hu (Rinzai (Sogenji / One Drop)). Pécs One Drop Zen group.",
     url: "https://onedropzen.hu/",
+    geoPrecision: "exact",
   },
   {
     slug: "one-drop-zen-nadorvaros-gyor",
@@ -12221,6 +13045,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_onedropzen",
     sourceExcerpt: "One Drop Zen — Nádorváros Győr — listed at onedropzen.hu (Rinzai (Sogenji / One Drop)). Győr (Nádorváros) One Drop Zen group.",
     url: "https://onedropzen.hu/",
+    geoPrecision: "city",
   },
   {
     slug: "one-drop-zen-miskolc",
@@ -12236,6 +13061,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_onedropzen",
     sourceExcerpt: "One Drop Zen — Miskolc (Görgey utca) — listed at onedropzen.hu (Rinzai (Sogenji / One Drop)). Miskolc One Drop Zen group.",
     url: "https://onedropzen.hu/",
+    geoPrecision: "exact",
   },
   {
     slug: "kvanumzen-budapesti-zen-kozpont",
@@ -12251,6 +13077,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_kwanum",
     sourceExcerpt: "Kvanumzen — Budapesti Zen Központ — listed at kvanumzen.hu (Kwan Um School of Zen (Korean Seon)). Hungarian Kwan Um School of Zen — Budapest main center; guiding teacher Jo Potter JDPS; +36-70-457-0486.",
     url: "https://kvanumzen.hu/en/budapesti-zen-kozpont/",
+    geoPrecision: "city",
   },
   {
     slug: "kvanumzen-szegedi-zen-kozpont",
@@ -12266,6 +13093,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_kwanum",
     sourceExcerpt: "Kvanumzen — Szegedi Zen Központ — listed at kvanumzen.hu (Kwan Um School of Zen (Korean Seon)). Szeged Kwan Um group.",
     url: "https://kvanumzen.hu/en/szegedi-zen-kozpont/",
+    geoPrecision: "city",
   },
   {
     slug: "kvanumzen-bajai-zen-kozpont",
@@ -12281,6 +13109,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_kwanum",
     sourceExcerpt: "Kvanumzen — Bajai Zen Központ — listed at kvanumzen.hu (Kwan Um School of Zen (Korean Seon)). Baja Kwan Um group; meets at accessible visitor center.",
     url: "https://kvanumzen.hu/en/bajai-zen-kozpont/",
+    geoPrecision: "city",
   },
   {
     slug: "to-hi-gan-zendo",
@@ -12296,6 +13125,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sanbozen",
     sourceExcerpt: "To Hi Gan Zendo (Át a túlsó partra) — listed at www.buddhapest.hu (Sanbō Zen / Willigis Jäger (Ko-Un Roshi) lineage). Zazen and ceremonial forms after Willigis Jäger (Sanbō Kyodan offshoot); +36-1-337-7353.",
     url: "https://zendobudapest.hu/Sessions/",
+    geoPrecision: "city",
   },
   {
     slug: "budapest-zen-dojo",
@@ -12311,6 +13141,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_kosen_sangha",
     sourceExcerpt: "Budapest Zen Dojo (Taisen-ji) — listed at www.zen-deshimaru.com (Sōtō (Deshimaru lineage; Zen Deshimaru Buddhist Association)). Master Myoken; +36-70-386-2002; founded by Myoken who also leads Hôbo-ji nearby.",
     url: "https://www.zen-deshimaru.com/en/dojos/budapest-zen-dojo",
+    geoPrecision: "exact",
   },
   {
     slug: "mokuso-zen-haz",
@@ -12326,6 +13157,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Mokusó Zen Ház — listed at www.buddhapest.hu (Zen (Hungarian — affiliation undocumented in public sources)). Listed in Buddhapest community directory; specific lineage and address not published in this pass.",
     url: "https://mokushozen.hu/",
+    geoPrecision: "city",
   },
   {
     slug: "plum-village-indonesia",
@@ -12341,6 +13173,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_wikipedia",
     sourceExcerpt: "Plum Village Indonesia (Order of Interbeing Indonesia) — listed at en.wikipedia.org (Plum Village (Thích Nhất Hạnh)). Lay community of Plum Village practitioners and Order of Interbeing in Indonesia; coordinates retreats with Thai Plum Village monastics.",
     url: "https://www.instagram.com/plumvillageindonesia/",
+    geoPrecision: "city",
   },
   {
     slug: "vihara-mahavira",
@@ -12356,6 +13189,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Vihara Mahavira (Foguangshan Indonesia) — listed at www.fgs.org.tw (Chan / Linji (Foguangshan)). Foguangshan branch monastery in Indonesia.",
     url: "https://ibps.id/",
+    geoPrecision: "city",
   },
   {
     slug: "dublin-zen-centre",
@@ -12371,6 +13205,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Dublin Zen Centre (Zen Buddhism Ireland) — listed at www.zenbuddhism.ie (Sōtō (Nishijima Roshi lineage; teacher Rev. Myōzan Kōdō Kilroy, dharma heir of Taigu Turlur)). Ireland's first dedicated Zen centre, opened April 2022. Registered charity 20155384. Soto Zen Buddhist Association affiliate.",
     url: "https://www.zenbuddhism.ie/",
+    geoPrecision: "exact",
   },
   {
     slug: "earth-sky-zen-dublin-dojo",
@@ -12386,6 +13221,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_whiteplum",
     sourceExcerpt: "Earth+Sky Zen — Dublin Dojo — listed at zenireland.com (White Plum Asanga (Maezumi lineage)). Dublin Dojo founded 1996 by Alain Tainan Liebmann (Deshimaru lineage, AZI). Now under Mary Laheen Roshi (Roshi 2025); spans AZI/Sotoshu and White Plum Asanga.",
     url: "https://zenireland.com/",
+    geoPrecision: "city",
   },
   {
     slug: "grey-heron-zen",
@@ -12401,6 +13237,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_whiteplum",
     sourceExcerpt: "Grey Heron Zen — listed at greyheronzen.ie (Zen Peacemakers (Bernie Glassman)). Active in Dublin since September 2011. Co-founded with Mary McGrane Sensei. Joint sesshins with Earth+Sky Zendo.",
     url: "https://greyheronzen.ie/",
+    geoPrecision: "city",
   },
   {
     slug: "cork-zen-dojo",
@@ -12416,6 +13253,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_azi",
     sourceExcerpt: "Cork Zen Dojo — listed at www.facebook.com (Sōtō / Deshimaru (Association Zen Internationale, AZI)). Founded by Alain Tainan Liebmann after 1991. Core group running monthly zazen since 2012; visiting AZI teachers.",
     url: "http://corkzen.ie/",
+    geoPrecision: "exact",
   },
   {
     slug: "galway-zen-dojo",
@@ -12431,6 +13269,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_azi",
     sourceExcerpt: "Galway Zen Dojo — listed at zengalway.ie (Sōtō / Deshimaru (Association Zen Internationale, AZI)). Founded 1993 by Alain Tainan Liebmann. Currently led by Tom Jikai Cleary. Weekly zazen plus annual Aran Islands summer camp; sesshins at Esker Monastery.",
     url: "https://zengalway.ie/",
+    geoPrecision: "exact",
   },
   {
     slug: "open-heart-sangha",
@@ -12446,6 +13285,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Open Heart Sangha — listed at www.mindfulnessireland.ie (Plum Village (Thích Nhất Hạnh)). Tuesdays 19:30–21:00. Listed on Mindfulness Ireland (Plum Village Ireland umbrella).",
     url: "https://www.mindfulnessireland.ie/sanghas-local-sanghas-across-ireland/",
+    geoPrecision: "city",
   },
   {
     slug: "wake-up-dublin",
@@ -12461,6 +13301,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Wake-Up Dublin — listed at www.mindfulnessireland.ie (Plum Village (Thích Nhất Hạnh)). Sundays 19:00–21:00. Part of the global Wake Up sangha network.",
     url: "https://www.mindfulnessireland.ie/sanghas-local-sanghas-across-ireland/",
+    geoPrecision: "city",
   },
   {
     slug: "sonas-sangha",
@@ -12476,6 +13317,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sonas Sangha (Mindfulness for Children) — listed at www.mindfulnessireland.ie (Plum Village (Thích Nhất Hạnh)). Family/children's sangha; first Sunday of each month 14:00–16:00.",
     url: "https://www.mindfulnessireland.ie/sanghas-local-sanghas-across-ireland/",
+    geoPrecision: "exact",
   },
   {
     slug: "red-robin-sangha",
@@ -12491,6 +13333,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Red Robin Sangha — listed at www.mindfulnessireland.ie (Plum Village (Thích Nhất Hạnh)). Tuesday evenings 19:30–20:45.",
     url: "https://www.mindfulnessireland.ie/sanghas-local-sanghas-across-ireland/",
+    geoPrecision: "exact",
   },
   {
     slug: "the-peace-of-wild-things-family-sangha",
@@ -12506,6 +13349,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "The Peace of Wild Things Family Sangha — listed at www.mindfulnessireland.ie (Plum Village (Thích Nhất Hạnh)). Outdoor family sangha; second Sunday of each month.",
     url: "https://www.mindfulnessireland.ie/sanghas-local-sanghas-across-ireland/",
+    geoPrecision: "exact",
   },
   {
     slug: "solas-gheal-sangha",
@@ -12521,6 +13365,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Solas Gheal Sangha — listed at www.mindfulnessireland.ie (Plum Village (Thích Nhất Hạnh)). Mondays 19:00–20:30.",
     url: "https://www.mindfulnessireland.ie/sanghas-local-sanghas-across-ireland/",
+    geoPrecision: "exact",
   },
   {
     slug: "flowing-as-a-river-sangha",
@@ -12536,6 +13381,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Flowing as a River Sangha — listed at www.mindfulnessireland.ie (Plum Village (Thích Nhất Hạnh)). Monthly Sundays.",
     url: "https://www.mindfulnessireland.ie/sanghas-local-sanghas-across-ireland/",
+    geoPrecision: "city",
   },
   {
     slug: "still-water-sangha",
@@ -12551,6 +13397,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Still Water Sangha — listed at www.mindfulnessireland.ie (Plum Village (Thích Nhất Hạnh)). Wednesdays 19:00–20:30.",
     url: "https://www.mindfulnessireland.ie/sanghas-local-sanghas-across-ireland/",
+    geoPrecision: "exact",
   },
   {
     slug: "full-moon-sangha",
@@ -12566,6 +13413,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Full Moon Sangha — listed at www.mindfulnessireland.ie (Plum Village (Thích Nhất Hạnh)). Thursdays 19:30–21:30.",
     url: "https://www.mindfulnessireland.ie/sanghas-local-sanghas-across-ireland/",
+    geoPrecision: "city",
   },
   {
     slug: "old-heart-new-heart-sangha",
@@ -12581,6 +13429,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Old Heart New Heart Sangha — listed at www.mindfulnessireland.ie (Plum Village (Thích Nhất Hạnh)). Third Sunday of month, 11:30–16:30.",
     url: "https://www.mindfulnessireland.ie/sanghas-local-sanghas-across-ireland/",
+    geoPrecision: "city",
   },
   {
     slug: "tel-aviv-zen-group",
@@ -12596,6 +13445,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_kwanum",
     sourceExcerpt: "Tel Aviv Zen Group (Kwan Um) — listed at www.kwanumeurope.org (Kwan Um School of Zen (Korean Seon)). Founded January 1999 by Revital Dan, who trained directly with Zen Master Seung Sahn in Korea. The principal Kwan Um center in Israel; serves as hub for the smaller Israeli Kwan Um groups.",
     url: "https://www.kwanumeurope.org/locations/tel-aviv-zen-group/",
+    geoPrecision: "city",
   },
   {
     slug: "jerusalem-zen-center",
@@ -12611,6 +13461,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Jerusalem Zen Center — listed at jerusalemzencenter.org (Soto / Rinzai (mixed Japanese Zen, lay-led)). Founded 2003; co-founder and teacher Daniel Stambler trained in both Soto and Rinzai traditions in Asia and the West. Lay-led; weekly Sunday evening zazen.",
     url: "https://jerusalemzencenter.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "sanbo-zen-israel",
@@ -12626,6 +13477,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sanbozen",
     sourceExcerpt: "Sanbo-Zen Israel — listed at sanbo-zen-international.org (Sanbo Zen (Sanbo Kyodan, Yasutani-Yamada line)). Israeli affiliate of Sanbo Zen International. Teaching link is to Migaku Sato Roshi (Kyuun-ken), whose countries of activity include Israel; local contact Anders Englund Weiss. Activity coordinated via Facebook page.",
     url: "https://www.facebook.com/sanbozenIL/",
+    geoPrecision: "city",
   },
   {
     slug: "zen-in-daily-life",
@@ -12641,6 +13493,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Zen in Daily Life (Soto, Danny Waxman) — listed at www.zenki.com (Soto Zen (Masunaga Reiho line)). Layman Soto-Zen teacher Danny Waxman, indoor disciple of Prof. Masunaga Reiho; trained in Japan 1958-1971. Zazen meetings and Zen-Judo/martial-arts sessions in Ramat-Hen, Ramat Gan.",
     url: "http://www.zenki.com/",
+    geoPrecision: "city",
   },
   {
     slug: "community-of-mindfulness-in-israel",
@@ -12656,6 +13509,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Community of Mindfulness in Israel (Plum Village) — listed at mindfulness-israel.org (Plum Village (Thích Nhất Hạnh)). Active national Plum Village community with weekly local sanghas in Ein Hod, Hadera, Haifa, Jerusalem (3), Mevasseret, Netanya, Rehovot, and Tel Aviv (2 + youth), plus two online sanghas. Days of mindfulness every ~6 weeks; two annual retreats. Listed on Plum Village's international community pages.",
     url: "https://mindfulness-israel.org/en/",
+    geoPrecision: "exact",
   },
   {
     slug: "hasharon-zen-center",
@@ -12671,6 +13525,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_wikipedia",
     sourceExcerpt: "Hasharon Zen Center (Kwan Um) — listed at en.wikipedia.org (Kwan Um School of Zen (Korean Seon)). One of the four Kwan Um groups in Israel listed in the Kwan Um School of Zen Wikipedia article and Kwan Um Europe directory. Standalone website not currently resolving; activity coordinated through the Kwan Um Israel network.",
     url: "https://www.kwanumeurope.org/centers-groups/",
+    geoPrecision: "city",
   },
   {
     slug: "pardes-hanna-zen-centre",
@@ -12686,6 +13541,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_wikipedia",
     sourceExcerpt: "Pardes Hanna Zen Centre (Kwan Um) — listed at en.wikipedia.org (Kwan Um School of Zen (Korean Seon)). One of four Israeli Kwan Um groups identified in the Kwan Um School of Zen Wikipedia entry; organisationally part of the Kwan Um Europe & Israel region.",
     url: "https://www.kwanumeurope.org/centers-groups/",
+    geoPrecision: "city",
   },
   {
     slug: "ramat-gan-zen-group",
@@ -12701,6 +13557,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_wikipedia",
     sourceExcerpt: "Ramat Gan Zen Group (Kwan Um) — listed at en.wikipedia.org (Kwan Um School of Zen (Korean Seon)). Smallest of the Israeli Kwan Um groups per Wikipedia; satellite sitting group in the Tel Aviv metro area associated with the Tel Aviv Zen Center.",
     url: "https://www.kwanumeurope.org/centers-groups/",
+    geoPrecision: "city",
   },
   {
     slug: "bodhi-zendo",
@@ -12716,6 +13573,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_wikipedia",
     sourceExcerpt: "Bodhi Zendo — listed at en.wikipedia.org (Sanbo Zen (Sanbo Kyodan)). Sanbo Zen monastery founded 1996 by AMA Samy (Yamada Koun Roshi-authorized teacher, 1982). Long and short sesshin in the Sanbo Kyodan tradition; integrates Christian, Buddhist and Advaita strands.",
     url: "https://www.bodhizendo.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "zen-a-islandi-natthagi",
@@ -12731,6 +13589,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Zen á Íslandi – Nátthagi (Night Pasture) — listed at www.zen.is (Sōtō Zen (Sonoma Mountain — Jakusho Kwong-roshi line)). Founded 1986 after Jakusho Kwong-roshi visited Iceland. Current teachers Ástvaldur Zenki and Helga Kimyo. Officially recognised religious community since 1999.",
     url: "https://www.zen.is/",
+    geoPrecision: "city",
   },
   {
     slug: "centro-zen-anshin-pace-del-cuore",
@@ -12746,6 +13605,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sotozen_jp",
     sourceExcerpt: "Centro Zen Anshin – Pace del Cuore — listed at www.sotozen.com (Sōtō / Uchiyama (Antaiji) line). Sōtōshū-registered temple in Italy. Resident teacher Rev. Doryu Cappelli. UBI member.",
     url: "https://anshin.it/",
+    geoPrecision: "exact",
   },
   {
     slug: "tempio-buddhista-zen-johoji",
@@ -12761,6 +13621,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sotozen_jp",
     sourceExcerpt: "Tempio Buddhista Zen Jōhōji — listed at www.sotozen.com (Sōtō / Deshimaru (AZI)). Sōtōshū-registered. Associazione Buddhista Zen Soto Buppo, Rev. Sengyo Van Leuven. AZI Italia.",
     url: "https://tempiozenroma.it/",
+    geoPrecision: "exact",
   },
   {
     slug: "centro-zen-firenze-tempio-shinnyo-ji",
@@ -12776,6 +13637,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sotozen_jp",
     sourceExcerpt: "Centro Zen Firenze – Tempio Shinnyo-ji — listed at www.sotozen.com (Sōtō / Daijō-ji (Kanazawa) line). Sōtōshū-registered. Resident teacher Rev. Shinnyo Marradi. UBI member.",
     url: "https://www.zenfirenze.it/",
+    geoPrecision: "exact",
   },
   {
     slug: "enkuji-il-cerchio-vuoto",
@@ -12791,6 +13653,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sotozen_jp",
     sourceExcerpt: "Enkuji – Il Cerchio Vuoto — listed at www.sotozen.com (Sōtō). Sōtōshū-registered. Resident teacher Rev. Seishin Viviani. UBI member.",
     url: "https://www.ilcerchiovuoto.it/",
+    geoPrecision: "exact",
   },
   {
     slug: "monastero-zen-enso-ji-il-cerchio",
@@ -12806,6 +13669,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sotozen_jp",
     sourceExcerpt: "Monastero Zen Enso-ji Il Cerchio — listed at www.sotozen.com (Sōtō / Harada-Yasutani / Tetsugen Serra). Sōtōshū-registered as Ensoji. Founder/abbot Carlo Tetsugen Serra. UBI member.",
     url: "https://www.monasterozen.it/",
+    geoPrecision: "exact",
   },
   {
     slug: "istituto-italiano-zen-soto-shobozan-fudenji",
@@ -12821,6 +13685,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sotozen_jp",
     sourceExcerpt: "Istituto Italiano Zen Sōtō Shōbōzan Fudenji — listed at www.sotozen.com (Sōtō). Sōtōshū-registered residential monastery, founded by Fausto Taiten Guareschi. UBI member.",
     url: "https://www.fudenji.it/",
+    geoPrecision: "city",
   },
   {
     slug: "san-shin-zen-center",
@@ -12836,6 +13701,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sotozen_jp",
     sourceExcerpt: "San-shin Zen Center — listed at www.sotozen.com (Sōtō). Sōtōshū-registered. Resident teacher Rev. Myosen Rovesti. No standalone website; entry points to Sōtōshū directory.",
     url: "https://www.sotozen.com/eng/temples/outside_jp/Italy/",
+    geoPrecision: "city",
   },
   {
     slug: "sanboji-eremo-dei-tre-gioielli",
@@ -12851,6 +13717,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sotozen_jp",
     sourceExcerpt: "Sanboji – Eremo dei Tre Gioielli — listed at www.sotozen.com (Sōtō / Harada-Yasutani / Tetsugen Serra). Sōtōshū-registered mountain hermitage of Enso-ji Il Cerchio.",
     url: "https://monasterozen.it/centri/zen-parma-berceto-sanboji-tempio-dei-tre-gioielli/",
+    geoPrecision: "city",
   },
   {
     slug: "tenmonzan-seihoji",
@@ -12866,6 +13733,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sotozen_jp",
     sourceExcerpt: "Tenmonzan Seihoji — listed at www.sotozen.com (Sōtō). Sōtōshū-registered. Resident teacher Rev. Taigo Fumagalli.",
     url: "https://www.sotozen.com/eng/temples/outside_jp/Italy/",
+    geoPrecision: "city",
   },
   {
     slug: "zen-komyoji-temple",
@@ -12881,6 +13749,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sotozen_jp",
     sourceExcerpt: "Zen Komyoji Temple — listed at www.sotozen.com (Sōtō). Sōtōshū-registered. Resident teacher Rev. Kengaku Pinciara.",
     url: "https://www.sotozen.com/eng/temples/outside_jp/Italy/",
+    geoPrecision: "exact",
   },
   {
     slug: "centro-buddhista-zen-gyosho-tempio-gyosho",
@@ -12896,6 +13765,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_ubi",
     sourceExcerpt: "Centro Buddhista Zen Gyosho – Tempio Gyosho — listed at unionebuddhistaitaliana.it (Sōtō / Harada-Yasutani / Tetsugen Serra). UBI-registered. Affiliated to Enso-ji Il Cerchio.",
     url: "https://www.centrogyosho.it/",
+    geoPrecision: "exact",
   },
   {
     slug: "tempio-zen-ten-shin-cuore-di-cielo-puro",
@@ -12911,6 +13781,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_ubi",
     sourceExcerpt: "Tempio Zen Ten Shin – Cuore di Cielo Puro — listed at unionebuddhistaitaliana.it (Sōtō / Harada-Yasutani / Tetsugen Serra). UBI-registered. Affiliated to Enso-ji Il Cerchio.",
     url: "https://www.tenshin.it/",
+    geoPrecision: "exact",
   },
   {
     slug: "tempio-zen-sokuzen",
@@ -12926,6 +13797,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Tempio Zen Sokuzen (Orazen) — listed at monasterozen.it (Sōtō / Harada-Yasutani / Tetsugen Serra). Affiliated to Enso-ji Il Cerchio.",
     url: "https://monasterozen.it/centri/zen-padova/",
+    geoPrecision: "city",
   },
   {
     slug: "tempio-unsui",
@@ -12941,6 +13813,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Tempio Unsui — listed at monasterozen.it (Sōtō / Harada-Yasutani / Tetsugen Serra). Affiliated to Enso-ji Il Cerchio.",
     url: "https://monasterozen.it/centri/unsui-centro-zen-pesaro/",
+    geoPrecision: "city",
   },
   {
     slug: "centro-zen-milano-l20",
@@ -12956,6 +13829,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Centro Zen Milano L20 — listed at monasterozen.it (Sōtō / Harada-Yasutani / Tetsugen Serra). Urban affiliate of Enso-ji Il Cerchio.",
     url: "https://monasterozen.it/centri/l20-centro-zen-milano/",
+    geoPrecision: "city",
   },
   {
     slug: "tempio-buddhista-zenshinji-di-scaramuccia",
@@ -12971,6 +13845,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_ubi",
     sourceExcerpt: "Tempio Buddhista Zenshinji di Scaramuccia — listed at unionebuddhistaitaliana.it (Rinzai / Yamada Mumon (Engaku Taino)). Founded by Engaku Taino (Mario Luigi). UBI member; principal Rinzai monastery in Italy.",
     url: "https://zenshinji.org/",
+    geoPrecision: "city",
   },
   {
     slug: "centro-di-meditazione-shiguseigan-zen-rinzai",
@@ -12986,6 +13861,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Centro di Meditazione Shiguseigan Zen Rinzai — listed at zenshinji.org (Rinzai / Yamada Mumon (Scaramuccia)). Affiliated to Zenshinji Scaramuccia.",
     url: "https://zenshinji.org/centro-di-meditazione-shiguseigan-zen-rinzai/",
+    geoPrecision: "city",
   },
   {
     slug: "chudo-la-via-di-mezzo",
@@ -13001,6 +13877,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Chudo – La Via di Mezzo — listed at zenshinji.org (Rinzai / Yamada Mumon (Scaramuccia)). Teacher M° Tullio Giraldi. Affiliated to Zenshinji Scaramuccia.",
     url: "https://zenshinji.org/centri-affiliati-2/",
+    geoPrecision: "exact",
   },
   {
     slug: "tora-kan-zen-dojo",
@@ -13016,6 +13893,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Tora Kan Zen Dōjō — listed at www.torakanzendojo.org (Sōtō / Nishijima – Jōkō). Lineage of Gudo Wafu Nishijima → Federico Dainin Jōkō → Paolo Taigō Kōnin (Dharma transmission 2020).",
     url: "https://www.torakanzendojo.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "sanbo-dojo-roma",
@@ -13031,6 +13909,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_azi",
     sourceExcerpt: "Sanbō Dojo Roma — listed at sanbodojo.it (Sōtō / Deshimaru (AZI)). Guided by Rev. Jikō Simone Wolf (disciple of Taisen Deshimaru). AZI Italia.",
     url: "https://sanbodojo.it/",
+    geoPrecision: "exact",
   },
   {
     slug: "dojo-zen-hodo",
@@ -13046,6 +13925,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_azi",
     sourceExcerpt: "Dojo Zen Hodo — listed at www.mokusho.it (Sōtō / Deshimaru (AZI)). AZI Italia.",
     url: "http://www.centrohodo.com/",
+    geoPrecision: "city",
   },
   {
     slug: "meditazione-zen-roma",
@@ -13061,6 +13941,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_azi",
     sourceExcerpt: "Meditazione Zen Roma — listed at www.mokusho.it (Sōtō / Deshimaru (AZI)). AZI Italia.",
     url: "http://www.zenroma.it/",
+    geoPrecision: "city",
   },
   {
     slug: "anri-zendo",
@@ -13076,6 +13957,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_azi",
     sourceExcerpt: "Anri Zendo — listed at www.mokusho.it (Sōtō / Deshimaru (AZI)). AZI Italia.",
     url: "http://www.zazenladispoli.it/",
+    geoPrecision: "city",
   },
   {
     slug: "dojo-zen-higan-l-altra-riva",
@@ -13091,6 +13973,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_azi",
     sourceExcerpt: "Dojo Zen Higan – L'altra Riva — listed at www.mokusho.it (Sōtō / Deshimaru (AZI)). AZI Italia.",
     url: "https://www.zenhiganmilano.it/",
+    geoPrecision: "city",
   },
   {
     slug: "gruppo-zen-di-milano",
@@ -13106,6 +13989,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_azi",
     sourceExcerpt: "Gruppo Zen di Milano — listed at www.mokusho.it (Sōtō / Deshimaru (AZI)). AZI Italia.",
     url: "http://www.meditazionezenmilano.com/",
+    geoPrecision: "city",
   },
   {
     slug: "gruppo-zen-shiroi-karasu",
@@ -13121,6 +14005,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_azi",
     sourceExcerpt: "Gruppo Zen Shiroi Karasu — listed at www.mokusho.it (Sōtō / Deshimaru (AZI)). AZI Italia.",
     url: "http://www.shiroikarasu.org/",
+    geoPrecision: "city",
   },
   {
     slug: "gruppo-zen-di-udine",
@@ -13136,6 +14021,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_azi",
     sourceExcerpt: "Gruppo Zen di Udine — listed at www.mokusho.it (Sōtō / Deshimaru (AZI)). AZI Italia.",
     url: "https://sites.google.com/site/zenudine/",
+    geoPrecision: "city",
   },
   {
     slug: "gruppo-zen-di-savona",
@@ -13151,6 +14037,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_azi",
     sourceExcerpt: "Gruppo Zen di Savona — listed at www.mokusho.it (Sōtō / Deshimaru (AZI)). AZI Italia.",
     url: "http://www.zensavona.it/",
+    geoPrecision: "city",
   },
   {
     slug: "dojo-zen-sanrin",
@@ -13166,6 +14053,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_ubi",
     sourceExcerpt: "Dojo Zen Sanrin — listed at unionebuddhistaitaliana.it (Sōtō / Deshimaru (AZI)). AZI Italia. UBI-registered.",
     url: "https://www.sanrin.it/",
+    geoPrecision: "exact",
   },
   {
     slug: "dojo-zen-bodai-associazione-zen-bodai-dojo",
@@ -13181,6 +14069,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_ubi",
     sourceExcerpt: "Dojo Zen Bodai – Associazione Zen Bodai Dojo — listed at unionebuddhistaitaliana.it (Sōtō / Deshimaru (AZI)). Founded 2009 by Beppe Mokuza. UBI member since 2021. AZI/ABZE affiliate.",
     url: "http://www.bodai.it/",
+    geoPrecision: "exact",
   },
   {
     slug: "tempio-zen-gyogenji",
@@ -13196,6 +14085,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_azi",
     sourceExcerpt: "Tempio Zen Gyogenji — listed at zentemple.it (Sōtō / Deshimaru (AZI)). Sōtō lineage Sawaki → Deshimaru → Niwa → Roland Yūnō Rech. New rural temple of the Bodai Dojo community.",
     url: "https://zentemple.it/",
+    geoPrecision: "city",
   },
   {
     slug: "casa-mushin-zen",
@@ -13211,6 +14101,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_azi",
     sourceExcerpt: "Casa Mushin Zen — listed at www.mokusho.it (Sōtō / Deshimaru (AZI)). AZI Italia.",
     url: "http://www.casamushin.it/",
+    geoPrecision: "city",
   },
   {
     slug: "dojo-zen-mokusho-associazione-hokuzenko",
@@ -13226,6 +14117,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_ubi",
     sourceExcerpt: "Dojo Zen Mokusho – Associazione Hokuzenko — listed at unionebuddhistaitaliana.it (Sōtō / Deshimaru (AZI)). AZI Italia. UBI-registered. Coordinates the AZI sangha map for Italy.",
     url: "https://www.mokusho.it/",
+    geoPrecision: "exact",
   },
   {
     slug: "shobogendo-dojo-zen-soto-di-novara",
@@ -13241,6 +14133,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Shōbōgendō Dōjō Zen Sōtō di Novara — listed at praticazen.org (Sōtō / Fudenji). Founded 2000 by Giulio Taizen Alliaudi. Affiliated to Shōbōzan Fudenji.",
     url: "https://praticazen.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "centro-zen-l-arco",
@@ -13256,6 +14149,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Centro Zen L'Arco — listed at cesnur.com (Sōtō / San Francisco Zen Center (Suzuki)). Affiliated with San Francisco Zen Center (Shunryu Suzuki line).",
     url: "https://www.romazen.it/",
+    geoPrecision: "city",
   },
   {
     slug: "centro-italiano-zen-soto",
@@ -13271,6 +14165,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Centro Italiano Zen Sōtō — listed at cesnur.com (Sōtō). Listed in CESNUR survey of Italian Zen schools.",
     url: "https://www.centroitalianozen.it/",
+    geoPrecision: "city",
   },
   {
     slug: "centro-zen-d-occidente-associazione-arete",
@@ -13286,6 +14181,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Centro Zen d'Occidente – Associazione Aretè — listed at cesnur.com (Indipendente / Zen d'Occidente). Independent Italian Zen lineage with multiple satellite groups.",
     url: "https://www.zendoccidente.org/",
+    geoPrecision: "city",
   },
   {
     slug: "casa-zen-scuola-delle-quattro-foglie",
@@ -13301,6 +14197,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Casa Zen – Scuola delle Quattro Foglie — listed at cesnur.com (Rinzai / Kyudo). Integrates Kyūdō and Rinzai Zen practice.",
     url: "https://www.kyudo.net/",
+    geoPrecision: "city",
   },
   {
     slug: "stella-del-mattino-gruppo-zazen-di-torino",
@@ -13316,6 +14213,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Stella del Mattino – Gruppo zazen di Torino — listed at www.lastelladelmattino.org (Sōtō / Antaiji (Watanabe / Forzani-Marassi)). Local sangha of La Stella del Mattino community (founded by Italian-Japanese Antaiji monks).",
     url: "https://www.lastelladelmattino.org/vita-della-comunita/gruppo-zazen-di-torino/",
+    geoPrecision: "city",
   },
   {
     slug: "stella-del-mattino-gruppo-zazen-di-fano",
@@ -13331,6 +14229,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Stella del Mattino – Gruppo zazen di Fano — listed at www.lastelladelmattino.org (Sōtō / Antaiji (Watanabe / Forzani-Marassi)). Local sangha of La Stella del Mattino.",
     url: "https://www.lastelladelmattino.org/vita-della-comunita/gruppo-zazen-di-fano/",
+    geoPrecision: "city",
   },
   {
     slug: "stella-del-mattino-gruppo-zazen-di-livorno",
@@ -13346,6 +14245,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Stella del Mattino – Gruppo zazen di Livorno — listed at www.lastelladelmattino.org (Sōtō / Antaiji (Watanabe / Forzani-Marassi)). Local sangha of La Stella del Mattino.",
     url: "https://www.lastelladelmattino.org/vita-della-comunita/gruppo-zazen-di-livorno/",
+    geoPrecision: "city",
   },
   {
     slug: "stella-del-mattino-zazen-a-pescara",
@@ -13361,6 +14261,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Stella del Mattino – Zazen a Pescara — listed at www.lastelladelmattino.org (Sōtō / Antaiji (Watanabe / Forzani-Marassi)). Local sangha of La Stella del Mattino.",
     url: "https://www.lastelladelmattino.org/zazen-a-pescara",
+    geoPrecision: "city",
   },
   {
     slug: "associazione-essere-pace",
@@ -13376,6 +14277,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Associazione Essere Pace — listed at cesnur.com (Plum Village (Thích Nhất Hạnh)). Founded 1996; Italian umbrella for Plum Village / Order of Interbeing sanghas; coordinates retreats and the Italian sangha map.",
     url: "https://www.esserepace.org/",
+    geoPrecision: "city",
   },
   {
     slug: "comunita-italiana-dell-interessere",
@@ -13391,6 +14293,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Comunità italiana dell'Interessere — listed at www.interessere.it (Plum Village (Thích Nhất Hạnh)). Italian-language Plum Village hub; maintains national directory of practice groups.",
     url: "https://www.interessere.it/",
+    geoPrecision: "city",
   },
   {
     slug: "musangam-eremo-bodhidharma",
@@ -13406,6 +14309,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_kwanum",
     sourceExcerpt: "Musangam – Eremo Bodhidharma — listed at cesnur.com (Korean Seon (Jogye Order)). Korean Chogye-affiliated Zen/Seon hermitage in Lerici (La Spezia); maintains relations with Songgwangsa (Korea) and Sheng Jue Si (Taiwan).",
     url: "https://www.bodhidharma.info/",
+    geoPrecision: "city",
   },
   {
     slug: "kencho-ji",
@@ -13421,6 +14325,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_rinnou",
     sourceExcerpt: "Kenchō-ji — listed at zen.rinnou.net (Rinzai-shū Kenchō-ji-ha). Head temple of the Kenchō-ji branch of Rinzai Zen and first of the Kamakura Gozan, founded in 1253 by Rankei Dōryū under Hōjō Tokiyori's patronage.",
     url: "https://www.kenchoji.com/",
+    geoPrecision: "city",
   },
   {
     slug: "engaku-ji",
@@ -13436,6 +14341,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_rinnou",
     sourceExcerpt: "Engaku-ji — listed at zen.rinnou.net (Rinzai-shū Engaku-ji-ha). Head temple of the Engaku-ji branch, founded in 1282 by Hōjō Tokimune and Chinese master Wuxue Zuyuan; a major Kamakura Gozan monastery with active zazen training.",
     url: "https://www.engakuji.or.jp/",
+    geoPrecision: "city",
   },
   {
     slug: "eigen-ji",
@@ -13451,6 +14357,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_rinnou",
     sourceExcerpt: "Eigen-ji — listed at zen.rinnou.net (Rinzai-shū Eigen-ji-ha). Head temple of the Eigen-ji branch, founded in 1361 by Sasaki Ujiyori with Jakushitsu Genkō as founding abbot; still operates a sōdō (training monastery) for monks.",
     url: "https://eigenji-t.jp/en/tour/",
+    geoPrecision: "city",
   },
   {
     slug: "hoko-ji",
@@ -13466,6 +14373,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_rinnou",
     sourceExcerpt: "Hōkō-ji — listed at zen.rinnou.net (Rinzai-shū Hōkō-ji-ha). Mountain monastery north of Hamamatsu and head of the Hōkō-ji branch, founded in 1371 by Mumon Gensen; maintains a large rural training complex for Rinzai monks.",
     url: "https://www.houkouji.or.jp/",
+    geoPrecision: "city",
   },
   {
     slug: "kogaku-ji",
@@ -13481,6 +14389,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_rinnou",
     sourceExcerpt: "Kōgaku-ji — listed at zen.rinnou.net (Rinzai-shū Kōgaku-ji-ha). Head temple of the Kōgaku-ji branch, founded in 1380 for Bassui Tokushō; a mountain Rinzai monastery with limited public access but active monastic training.",
     url: "https://rekishinomichi-yamanashi.jp/en/spot/3-22.html",
+    geoPrecision: "city",
   },
   {
     slug: "buttsu-ji",
@@ -13496,6 +14405,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_rinnou",
     sourceExcerpt: "Buttsū-ji — listed at zen.rinnou.net (Rinzai-shū Buttsū-ji-ha). Head temple of the Buttsū-ji branch in rural Hiroshima, established in the late 14th century; today a large forested Rinzai training monastery open for zazen visits.",
     url: "https://www.dive-hiroshima.com/en/explore/91/",
+    geoPrecision: "city",
   },
   {
     slug: "kokutai-ji",
@@ -13511,6 +14421,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_rinnou",
     sourceExcerpt: "Kokutai-ji — listed at zen.rinnou.net (Rinzai-shū Kokutai-ji-ha). Head temple of the Kokutai-ji branch in Toyama, housing one of the largest Zen monasteries in the Hokuriku region; active Rinzai training center.",
     url: "https://www.trip.com/travel-guide/attraction/takaoka/kokutaiji-58325444/",
+    geoPrecision: "city",
   },
   {
     slug: "ryutaku-ji",
@@ -13526,6 +14437,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_wikipedia",
     sourceExcerpt: "Ryūtaku-ji — listed at en.wikipedia.org (Rinzai-shū Myōshin-ji-ha (Ryūtaku-ji)). Rinzai monastery of the Myōshin-ji branch in Mishima, long associated with Hakuun Yasutani and western students; retains an active rural training sōdō.",
     url: "https://en.wikipedia.org/wiki/Ry%C5%ABtaku-ji",
+    geoPrecision: "city",
   },
   {
     slug: "kokeizan-eiho-ji",
@@ -13541,6 +14453,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Kokeizan Eihō-ji — listed at visitgifu.com (Rinzai-shū (Kokeizan Eiho-ji)). Historic Rinzai temple in Tajimi known for early-morning zazen and sutra-copying; cited as a major training monastery in the contemporary Rinzai network.",
     url: "https://kokeizan.or.jp/en/pages/4/",
+    geoPrecision: "city",
   },
   {
     slug: "daihonzan-eihei-ji-betsuin-chokoku-ji",
@@ -13556,6 +14469,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sotozen_jp",
     sourceExcerpt: "Daihonzan Eihei-ji Betsuin Chōkoku-ji (Hase-dera) — listed at www.sotozen-net.or.jp (Sōtō (Eihei-ji Betsuin, senmon sōdō)). Tokyo branch temple of Daihonzan Eihei-ji, recognized by Sōtōshū as a specialized training monastery (senmon sōdō) for monks in Nishi-Azabu.",
     url: "https://chokokuji.jiin.com/",
+    geoPrecision: "city",
   },
   {
     slug: "daihonzan-soji-ji-soin",
@@ -13571,6 +14485,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sotozen_jp",
     sourceExcerpt: "Daihonzan Sōji-ji Sōin — listed at www.sotozen-net.or.jp (Sōtō (Sōji-ji Sōin, former head temple)). Former head temple of Sōtō Zen founded by Keizan Jōkin in 1321; now the Sōji-ji Sōin training monastery and major pilgrimage site on the Noto Peninsula.",
     url: "https://noto-soin.jp/",
+    geoPrecision: "city",
   },
   {
     slug: "daiyuzan-saijo-ji",
@@ -13586,6 +14501,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sotozen_jp",
     sourceExcerpt: "Daiyūzan Saijō-ji — listed at www.sotozen-net.or.jp (Sōtō (Daiyūzan Saijō-ji, senmon sōdō)). Large mountain Sōtō monastery near Hakone, one of the sect's three great prayer temples and an officially designated specialized training sōdō.",
     url: "https://daiyuuzan.or.jp/",
+    geoPrecision: "city",
   },
   {
     slug: "kasuisai",
@@ -13601,6 +14517,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sotozen_jp",
     sourceExcerpt: "Kasuisai (Banshōzan Kasuisai) — listed at www.sotozen-net.or.jp (Sōtō (Kasuisai, senmon sōdō)). Historic Sōtō temple and fire-ritual center (Akiba Sōhonden) in Fukuroi, operating a recognized training sōdō and lay zazen/temple-stay programs.",
     url: "https://www.kasuisai.or.jp/",
+    geoPrecision: "city",
   },
   {
     slug: "kakuozan-nittai-ji",
@@ -13616,6 +14533,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sotozen_jp",
     sourceExcerpt: "Kakuōzan Nittai-ji — listed at www.sotozen-net.or.jp (Multi-sect, Sōtō training sōdō (Nittai-ji)). Inter-sectarian temple housing Śākyamuni relics in Nagoya; Sōtōshū designates a specialized training sōdō within Nittai-ji for Sōtō monks.",
     url: "https://www.nittaiji.or.jp/",
+    geoPrecision: "city",
   },
   {
     slug: "aichi-senmon-nisodo",
@@ -13631,6 +14549,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sotozen_jp",
     sourceExcerpt: "Aichi Senmon Nisōdō (Shōbō-ji) — listed at www.sotozen-net.or.jp (Sōtō (Aichi Senmon Nisōdō, nuns' training sōdō)). Main Sōtō training monastery for nuns in Japan, located at Shōbō-ji in Nagoya; led for decades by Aoyama Shundō Rōshi.",
     url: "https://shoboji.net/",
+    geoPrecision: "city",
   },
   {
     slug: "tosho-ji",
@@ -13646,6 +14565,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sotozen_jp",
     sourceExcerpt: "Tōshō-ji (Dōmatsu-ji senmon sōdō) — listed at www.sotozen-net.or.jp (Sōtō (Tōshō-ji, senmon sōdō)). Rural Sōtō monastery in Yakage with an officially recognized training sōdō; noted for traditional zen dō (meditation hall) architecture.",
     url: "https://sotozen-navi.com/detail/index_330028.html",
+    geoPrecision: "city",
   },
   {
     slug: "zuio-ji",
@@ -13661,6 +14581,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sotozen_jp",
     sourceExcerpt: "Zuio-ji (Bukkokusan Zuio-ji) — listed at www.sotozen-net.or.jp (Sōtō (Zuio-ji, senmon sōdō)). Major Sōtō training monastery in Shikoku, known for its large ginkgo tree and status as the only specialized sōdō in the Shikoku region.",
     url: "https://zuioji.jp/",
+    geoPrecision: "city",
   },
   {
     slug: "ankoku-ji",
@@ -13676,6 +14597,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sotozen_jp",
     sourceExcerpt: "Ankoku-ji (Daiko-zan Ankoku-ji) — listed at www.sotozen-net.or.jp (Sōtō (Ankoku-ji, senmon sōdō)). Urban Sōtō training monastery in central Fukuoka (Tenjin), balancing rigorous monastic training with lay zazen offerings in a downtown setting.",
     url: "https://sotozen-navi.com/detail/index_400003.html",
+    geoPrecision: "city",
   },
   {
     slug: "kotai-ji",
@@ -13691,6 +14613,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sotozen_jp",
     sourceExcerpt: "Kōtai-ji (Kōtai-ji Senmon Sōdō) — listed at www.sotozen-net.or.jp (Sōtō (Kōtai-ji, senmon sōdō)). Historic Sōtō temple in Nagasaki's Teramachi, designated by Sōtōshū as a specialized training sōdō and known as one of the city's three great temples.",
     url: "https://sotozen-navi.com/detail/index_420001.html",
+    geoPrecision: "city",
   },
   {
     slug: "gotanjo-ji",
@@ -13706,6 +14629,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sotozen_jp",
     sourceExcerpt: "Gotanjo-ji — listed at www.sotozen-net.or.jp (Sōtō (Gotanjo-ji, senmon sōdō)). Modern Sōtō monastery on the birthplace site of Keizan Jōkin, functioning since 2009 as a specialized training sōdō and popularly known as the 'cat temple.'",
     url: "https://www.gotanjoji.com/",
+    geoPrecision: "city",
   },
   {
     slug: "shobo-ji",
@@ -13721,6 +14645,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sotozen_jp",
     sourceExcerpt: "Shōbō-ji (Ōshū Shōbō-ji) — listed at www.sotozen-net.or.jp (Sōtō (Shōbō-ji, senmon sōdō)). Historic Sōtō monastery in southern Iwate, once counted with Eihei-ji and Sōji-ji as a leading northern Sōtō center; maintains a large thatched-hall training complex.",
     url: "https://shoboji.net/",
+    geoPrecision: "city",
   },
   {
     slug: "zenpo-ji",
@@ -13736,6 +14661,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sotozen_jp",
     sourceExcerpt: "Zenpō-ji (Ryūtaku-zan Zenpō-ji) — listed at www.sotozen-net.or.jp (Sōtō (Zenpō-ji, senmon sōdō)). Major Sōtō pilgrimage temple near Sakata, famed for dragon-king rites and designated as a specialized training monastery attracting monk-trainees and lay pilgrims.",
     url: "http://ryuoson.jp",
+    geoPrecision: "city",
   },
   {
     slug: "chuo-ji",
@@ -13751,6 +14677,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sotozen_jp",
     sourceExcerpt: "Chūō-ji (Jissō-zan Chūō-ji) — listed at www.sotozen-net.or.jp (Sōtō (Chūō-ji, senmon sōdō)). Central Sapporo Sōtō temple established 1874, hosting a specialized training sōdō and regular public zazen sessions near Susukino entertainment district.",
     url: "http://www.chuouji.or.jp/",
+    geoPrecision: "city",
   },
   {
     slug: "joko-ji",
@@ -13766,6 +14693,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sotozen_jp",
     sourceExcerpt: "Jōkō-ji (Jōkō-ji Senmon Sōdō) — listed at www.sotozen-net.or.jp (Sōtō (Jōkō-ji, senmon sōdō)). Sōtō temple in Kushiro's historic port district, designated as a specialized training sōdō and noted for educating clergy serving Hokkaidō parishes.",
     url: "https://sotozen-navi.com/spn/detail/index.cfm?cl_id=10195",
+    geoPrecision: "city",
   },
   {
     slug: "hosshin-ji",
@@ -13781,6 +14709,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_wikipedia",
     sourceExcerpt: "Hosshin-ji (Reishō-zan Hosshin-ji) — listed at en.wikipedia.org (Sōtō (Hosshin-ji, training monastery)). Sōtō training temple in Obama known for rigorous winter takuhatsu; Harada Sekkei Rōshi served as abbot, leading intensive zazen practice for Japanese and foreign monks.",
     url: "https://www.fuku-e.com/spot/detail_1109.html",
+    geoPrecision: "exact",
   },
   {
     slug: "daijo-ji",
@@ -13796,6 +14725,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sotozen_jp",
     sourceExcerpt: "Daijō-ji (Daijō-ji Zen Monastery, Kanazawa) — listed at www.sotozen.com (Sōtō (Daijō-ji, foreigner-training temple)). Mountain Sōtō monastery on Mt. Nodayama above Kanazawa, offering daily early-morning zazen and overnight training programs for lay visitors and overseas practitioners.",
     url: "http://www.daijoji.or.jp/",
+    geoPrecision: "city",
   },
   {
     slug: "shogo-ji",
@@ -13811,6 +14741,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_iriz_hanazono",
     sourceExcerpt: "Shōgō-ji (Hōzan Dōjō Shōgō-ji) — listed at iriz.hanazono.ac.jp (Sōtō (Shōgō-ji, international training ango)). Remote Sōtō monastery in the mountains of Kumamoto operating the Hōzan Dōjō and long-running international ango (practice period) for foreign and Japanese practitioners.",
     url: "http://shogoji.com/",
+    geoPrecision: "city",
   },
   {
     slug: "hofuku-ji",
@@ -13826,6 +14757,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_wikipedia",
     sourceExcerpt: "Hōfuku-ji — listed at en.wikipedia.org (Rinzai (Hōfuku-ji-ha head temple, honzan)). Founded 1242; head temple of the Hōfuku-ji branch of Rinzai. Sesshū studied here in his youth.",
     url: "https://www.hofuku-ji.org/",
+    geoPrecision: "city",
   },
   {
     slug: "bukkoku-ji",
@@ -13841,6 +14773,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_wikipedia",
     sourceExcerpt: "Bukkoku-ji — listed at en.wikipedia.org (Sōtō (small training temple — Tangen Roshi line)). Small intensive Sōtō training temple founded by Harada Tangen Roshi; long-standing destination for Western Zen practitioners.",
     url: "https://bukkokuji.com/",
+    geoPrecision: "exact",
   },
   {
     slug: "shofuku-ji",
@@ -13856,6 +14789,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_wikipedia",
     sourceExcerpt: "Shōfuku-ji — listed at en.wikipedia.org (Rinzai (senmon-sōdō / training monastery — Myōshin-ji-ha)). Rinzai senmon-sōdō led for many years by Yamada Mumon Rōshi; major training destination in Kobe.",
     url: "https://www.zen-shofukuji.jp/",
+    geoPrecision: "city",
   },
   {
     slug: "toko-ji",
@@ -13871,6 +14805,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sotozen_navi",
     sourceExcerpt: "Tōkō-ji — listed at sotozen-navi.com (Sōtō (parish temple welcoming foreign practitioners)). Listed in Sōtōshū's official directory of temples that welcome foreign zazen practitioners (外国人参禅).",
     url: "https://sotozen-navi.com/",
+    geoPrecision: "exact",
   },
   {
     slug: "unsei-ji",
@@ -13886,6 +14821,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sotozen_navi",
     sourceExcerpt: "Unsei-ji — listed at sotozen-navi.com (Sōtō (parish temple welcoming foreign practitioners)). Gesshōzan Unsei-ji; listed in Sōtōshū's official directory of foreign-zazen-friendly temples.",
     url: "https://sotozen-navi.com/",
+    geoPrecision: "city",
   },
   {
     slug: "zensho-ji-nakatsugawa",
@@ -13901,6 +14837,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sotozen_navi",
     sourceExcerpt: "Zenshō-ji Nakatsugawa — listed at sotozen-navi.com (Sōtō (parish temple welcoming foreign practitioners)). Listed in Sōtōshū's official directory of foreign-zazen-friendly temples.",
     url: "https://sotozen-navi.com/",
+    geoPrecision: "exact",
   },
   {
     slug: "dairyu-ji-oga",
@@ -13916,6 +14853,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sotozen_navi",
     sourceExcerpt: "Dairyū-ji Oga — listed at sotozen-navi.com (Sōtō (parish temple welcoming foreign practitioners)). Kaizōzan Dairyū-ji; listed in Sōtōshū's official directory of foreign-zazen-friendly temples.",
     url: "https://sotozen-navi.com/",
+    geoPrecision: "city",
   },
   {
     slug: "toyokawa-ji-hiratsuka",
@@ -13931,6 +14869,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sotozen_navi",
     sourceExcerpt: "Toyokawa-ji Hiratsuka — listed at sotozen-navi.com (Sōtō (parish temple welcoming foreign practitioners)). Hiratsukazan Toyokawa-ji; listed in Sōtōshū's official directory of foreign-zazen-friendly temples.",
     url: "https://sotozen-navi.com/",
+    geoPrecision: "city",
   },
   {
     slug: "anraku-ji-yamanashi",
@@ -13946,6 +14885,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sotozen_navi",
     sourceExcerpt: "Anraku-ji Yamanashi — listed at sotozen-navi.com (Sōtō (parish temple welcoming foreign practitioners)). Hōfuzan Anraku-ji; listed in Sōtōshū's official directory of foreign-zazen-friendly temples.",
     url: "https://sotozen-navi.com/",
+    geoPrecision: "exact",
   },
   {
     slug: "fusai-ji-murakami",
@@ -13961,6 +14901,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sotozen_navi",
     sourceExcerpt: "Fusai-ji Murakami — listed at sotozen-navi.com (Sōtō (parish temple welcoming foreign practitioners)). Taiyōzan Fusai-ji; listed in Sōtōshū's official directory of foreign-zazen-friendly temples.",
     url: "https://sotozen-navi.com/",
+    geoPrecision: "city",
   },
   {
     slug: "kentoku-ji-nakagawa",
@@ -13976,6 +14917,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sotozen_navi",
     sourceExcerpt: "Kentoku-ji Nakagawa — listed at sotozen-navi.com (Sōtō (parish temple welcoming foreign practitioners)). Ryūtakuzan Kentoku-ji; listed in Sōtōshū's official directory of foreign-zazen-friendly temples.",
     url: "https://sotozen-navi.com/",
+    geoPrecision: "city",
   },
   {
     slug: "jurin-ji-fujinomiya",
@@ -13991,6 +14933,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sotozen_navi",
     sourceExcerpt: "Jūrin-ji Fujinomiya — listed at sotozen-navi.com (Sōtō (parish temple welcoming foreign practitioners)). Fujisan Jūrin-ji; listed in Sōtōshū's official directory of foreign-zazen-friendly temples.",
     url: "https://sotozen-navi.com/",
+    geoPrecision: "city",
   },
   {
     slug: "daiun-ji-sakuragawa",
@@ -14006,6 +14949,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sotozen_navi",
     sourceExcerpt: "Daiun-ji Sakuragawa — listed at sotozen-navi.com (Sōtō (parish temple welcoming foreign practitioners)). Tomiyasan Daiun-ji; listed in Sōtōshū's official directory of foreign-zazen-friendly temples.",
     url: "https://sotozen-navi.com/",
+    geoPrecision: "exact",
   },
   {
     slug: "chosen-ji-nakagawa",
@@ -14021,6 +14965,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sotozen_navi",
     sourceExcerpt: "Chōsen-ji Nakagawa — listed at sotozen-navi.com (Sōtō (parish temple welcoming foreign practitioners)). Shirakusan Chōsen-ji; listed in Sōtōshū's official directory of foreign-zazen-friendly temples.",
     url: "https://sotozen-navi.com/",
+    geoPrecision: "city",
   },
   {
     slug: "chuo-in-tomakomai",
@@ -14036,6 +14981,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sotozen_navi",
     sourceExcerpt: "Chūō-in Tomakomai — listed at sotozen-navi.com (Sōtō (parish temple welcoming foreign practitioners)). Jitsuhōzan Chūō-in; listed in Sōtōshū's official directory of foreign-zazen-friendly temples.",
     url: "https://sotozen-navi.com/",
+    geoPrecision: "exact",
   },
   {
     slug: "jojo-ji-izumo",
@@ -14051,6 +14997,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sotozen_navi",
     sourceExcerpt: "Jōjō-ji Izumo — listed at sotozen-navi.com (Sōtō (parish temple welcoming foreign practitioners)). Tentokuzan Jōjō-ji; listed in Sōtōshū's official directory of foreign-zazen-friendly temples.",
     url: "https://sotozen-navi.com/",
+    geoPrecision: "city",
   },
   {
     slug: "eirin-ji-ogi",
@@ -14066,6 +15013,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sotozen_navi",
     sourceExcerpt: "Eirin-ji Ogi — listed at sotozen-navi.com (Sōtō (parish temple welcoming foreign practitioners)). Listed in Sōtōshū's official directory of foreign-zazen-friendly temples.",
     url: "https://sotozen-navi.com/",
+    geoPrecision: "city",
   },
   {
     slug: "shokaku-ji-hanno",
@@ -14081,6 +15029,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sotozen_navi",
     sourceExcerpt: "Shōkaku-ji Hannō — listed at sotozen-navi.com (Sōtō (parish temple welcoming foreign practitioners)). Fukuōzan Shōkaku-ji; listed in Sōtōshū's official directory of foreign-zazen-friendly temples.",
     url: "https://sotozen-navi.com/",
+    geoPrecision: "city",
   },
   {
     slug: "taihei-ji-nagoya",
@@ -14096,6 +15045,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sotozen_navi",
     sourceExcerpt: "Taihei-ji Nagoya — listed at sotozen-navi.com (Sōtō (parish temple welcoming foreign practitioners)). Listed in Sōtōshū's official directory of foreign-zazen-friendly temples.",
     url: "https://sotozen-navi.com/",
+    geoPrecision: "exact",
   },
   {
     slug: "dairyu-ji-shinjuku",
@@ -14111,6 +15061,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sotozen_navi",
     sourceExcerpt: "Dairyū-ji Shinjuku — listed at sotozen-navi.com (Sōtō (parish temple welcoming foreign practitioners)). Kiunzan Dairyū-ji; listed in Sōtōshū's official directory of foreign-zazen-friendly temples (central Tokyo).",
     url: "https://sotozen-navi.com/",
+    geoPrecision: "exact",
   },
   {
     slug: "zenfuku-ji-harima",
@@ -14126,6 +15077,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sotozen_navi",
     sourceExcerpt: "Zenfuku-ji Harima — listed at sotozen-navi.com (Sōtō (parish temple welcoming foreign practitioners)). Ōsawa Banshōzan Zenfuku-ji; listed in Sōtōshū's official directory of foreign-zazen-friendly temples.",
     url: "https://sotozen-navi.com/",
+    geoPrecision: "city",
   },
   {
     slug: "sudeok-sa",
@@ -14141,6 +15093,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_wikipedia",
     sourceExcerpt: "Sudeok-sa — listed at en.wikipedia.org (Korean Seon (Jogye Order — Chongnim, 7th district head temple)). Native: 修德寺 / 수덕사. 'Deoksung Chongnim'. Associated with Mangong, Hyewol; 20th-c. Korean Seon revival lineage.",
     url: "http://www.sudeoksa.com/",
+    geoPrecision: "city",
   },
   {
     slug: "baekyang-sa",
@@ -14156,6 +15109,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_wikipedia",
     sourceExcerpt: "Baekyang-sa — listed at en.wikipedia.org (Korean Seon (Jogye Order — Chongnim, 18th district head temple)). Native: 白羊寺 / 백양사. 'Goburi Chongnim' (also rendered Baegyang Chongnim). Founded 632. UNESCO Sansa.",
     url: "http://www.baekyangsa.com/",
+    geoPrecision: "city",
   },
   {
     slug: "donghwa-sa",
@@ -14171,6 +15125,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_wikipedia",
     sourceExcerpt: "Donghwa-sa — listed at en.wikipedia.org (Korean Seon (Jogye Order — Chongnim, 9th district head temple)). Native: 桐華寺 / 동화사. 'Palgong Chongnim'. Founded 493 (refounded 832). Mt. Palgongsan.",
     url: "http://www.donghwasa.net/",
+    geoPrecision: "city",
   },
   {
     slug: "ssanggye-sa",
@@ -14186,6 +15141,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_wikipedia",
     sourceExcerpt: "Ssanggye-sa — listed at en.wikipedia.org (Korean Seon (Jogye Order — Chongnim, 13th district head temple)). Native: 雙磎寺 / 쌍계사. 'Ssanggye Chongnim'. Founded 722; associated with Master Hyeso (Jingam) and the introduction of beompae chant.",
     url: "http://www.ssanggyesa.net/",
+    geoPrecision: "exact",
   },
   {
     slug: "yongju-sa",
@@ -14201,6 +15157,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_wikipedia",
     sourceExcerpt: "Yongju-sa — listed at en.wikipedia.org (Korean Seon (Jogye Order — 2nd district head temple)). Native: 龍珠寺 / 용주사. Refounded 1790 by King Jeongjo as a memorial for Crown Prince Sado.",
     url: "http://www.yongjoosa.or.kr/",
+    geoPrecision: "exact",
   },
   {
     slug: "sinheung-sa",
@@ -14216,6 +15173,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_wikipedia",
     sourceExcerpt: "Sinheung-sa — listed at en.wikipedia.org (Korean Seon (Jogye Order — 3rd district head temple)). Native: 新興寺 / 신흥사. Founded 653; Mt. Seoraksan.",
     url: "http://www.sinheungsa.kr/",
+    geoPrecision: "city",
   },
   {
     slug: "woljeong-sa",
@@ -14231,6 +15189,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_wikipedia",
     sourceExcerpt: "Woljeong-sa — listed at en.wikipedia.org (Korean Seon (Jogye Order — 4th district head temple)). Native: 月精寺 / 월정사. Founded 643 by Jajang on Mt. Odaesan.",
     url: "http://www.woljeongsa.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "beopju-sa",
@@ -14246,6 +15205,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_wikipedia",
     sourceExcerpt: "Beopju-sa — listed at en.wikipedia.org (Korean Seon (Jogye Order — 5th district head temple)). Native: 法住寺 / 법주사. Founded 553. Mt. Songnisan. UNESCO Sansa.",
     url: "http://www.beopjusa.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "magok-sa",
@@ -14261,6 +15221,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_wikipedia",
     sourceExcerpt: "Magok-sa — listed at en.wikipedia.org (Korean Seon (Jogye Order — 6th district head temple)). Native: 麻谷寺 / 마곡사. Founded 643 by Jajang. UNESCO Sansa.",
     url: "http://www.magoksa.or.kr/",
+    geoPrecision: "exact",
   },
   {
     slug: "jikji-sa",
@@ -14276,6 +15237,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_wikipedia",
     sourceExcerpt: "Jikji-sa — listed at en.wikipedia.org (Korean Seon (Jogye Order — 8th district head temple)). Native: 直指寺 / 직지사. Founded 418. Mt. Hwangaksan.",
     url: "http://www.jikjisa.or.kr/",
+    geoPrecision: "city",
   },
   {
     slug: "eunhae-sa",
@@ -14291,6 +15253,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_wikipedia",
     sourceExcerpt: "Eunhae-sa — listed at en.wikipedia.org (Korean Seon (Jogye Order — 10th district head temple)). Native: 銀海寺 / 은해사. Founded 809. Mt. Palgongsan.",
     url: "http://www.eunhae-sa.org/",
+    geoPrecision: "city",
   },
   {
     slug: "goun-sa",
@@ -14306,6 +15269,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_wikipedia",
     sourceExcerpt: "Goun-sa — listed at en.wikipedia.org (Korean Seon (Jogye Order — 16th district head temple)). Native: 孤雲寺 / 고운사. Founded 681 by Uisang.",
     url: "http://www.gounsa.net/",
+    geoPrecision: "city",
   },
   {
     slug: "geumsan-sa",
@@ -14321,6 +15285,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_wikipedia",
     sourceExcerpt: "Geumsan-sa — listed at en.wikipedia.org (Korean Seon (Jogye Order — 17th district head temple)). Native: 金山寺 / 금산사. Founded 599. Mt. Moaksan.",
     url: "http://www.geumsansa.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "hwaeom-sa",
@@ -14336,6 +15301,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_wikipedia",
     sourceExcerpt: "Hwaeom-sa — listed at en.wikipedia.org (Korean Seon (Jogye Order — 19th district head temple)). Native: 華嚴寺 / 화엄사. Founded 544. Mt. Jirisan. UNESCO Sansa.",
     url: "http://www.hwaeomsa.com/",
+    geoPrecision: "exact",
   },
   {
     slug: "daeheung-sa",
@@ -14351,6 +15317,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_wikipedia",
     sourceExcerpt: "Daeheung-sa — listed at en.wikipedia.org (Korean Seon (Jogye Order — 22nd district head temple)). Native: 大興寺 / 대흥사. Mt. Duryunsan. UNESCO Sansa. Associated with Cho-ui (tea master) and Seosan Hyujeong's relics.",
     url: "http://www.daeheungsa.co.kr/",
+    geoPrecision: "exact",
   },
   {
     slug: "gwaneum-sa",
@@ -14366,6 +15333,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_wikipedia",
     sourceExcerpt: "Gwaneum-sa — listed at en.wikipedia.org (Korean Seon (Jogye Order — 23rd district head temple)). Native: 觀音寺 / 관음사. Mt. Hallasan; head temple of Jeju district.",
     url: "http://www.jejugwaneumsa.or.kr/",
+    geoPrecision: "city",
   },
   {
     slug: "seonun-sa",
@@ -14381,6 +15349,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_wikipedia",
     sourceExcerpt: "Seonun-sa — listed at en.wikipedia.org (Korean Seon (Jogye Order — 24th district head temple)). Native: 禪雲寺 / 선운사. Founded 577. Mt. Seonunsan.",
     url: "http://www.seonunsa.org/",
+    geoPrecision: "city",
   },
   {
     slug: "bongseon-sa",
@@ -14396,6 +15365,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_wikipedia",
     sourceExcerpt: "Bongseon-sa — listed at en.wikipedia.org (Korean Seon (Jogye Order — 25th district head temple)). Native: 奉先寺 / 봉선사. Founded 969; rebuilt 1469 as a royal memorial temple.",
     url: "http://www.bongsunsa.net/",
+    geoPrecision: "exact",
   },
   {
     slug: "bongam-sa",
@@ -14411,6 +15381,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_wikipedia",
     sourceExcerpt: "Bongam-sa — listed at en.wikipedia.org (Korean Seon (Jogye Order — designated Seon-only training temple)). Native: 鳳巖寺 / 봉암사. Founded 879. Designated 1982 by the Jogye Order as an exclusive Seon practice center; closed to public except Buddha's Birthday. Site of the 1947 Bongamsa Reform Movement (Seongcheol et al.).",
     url: "https://www.templestay.com/temple_info.asp?t_id=bongamsa",
+    geoPrecision: "city",
   },
   {
     slug: "bongwon-sa",
@@ -14426,6 +15397,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_wikipedia",
     sourceExcerpt: "Bongwon-sa — listed at en.wikipedia.org (Korean Seon (Taego Order — Headquarters)). Native: 奉元寺 / 봉원사. Founded 889. Administrative HQ of the Taego Order; site of the annual Yeongsanjae ceremony.",
     url: "http://www.bongwonsa.or.kr/",
+    geoPrecision: "exact",
   },
   {
     slug: "guin-sa",
@@ -14441,6 +15413,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_wikipedia",
     sourceExcerpt: "Guin-sa — listed at en.wikipedia.org (Cheontae Order — Headquarters). Native: 救仁寺 / 구인사. Founded 1945 by Sangwol Wongak; HQ of the modern Cheontae Order (re-established 1967). Mt. Sobaeksan.",
     url: "http://www.guinsa.org/",
+    geoPrecision: "city",
   },
   {
     slug: "mu-sang-sa",
@@ -14456,6 +15429,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_wikipedia",
     sourceExcerpt: "Mu Sang Sa — listed at en.wikipedia.org (Kwan Um School of Zen (Korean Seon)). Native: 無上寺 / 무상사. Founded 2000 by Zen Master Seung Sahn. International Seon training center for foreign monastics; runs summer/winter Kyol Che.",
     url: "https://musangsa.org/",
+    geoPrecision: "city",
   },
   {
     slug: "international-seon-center",
@@ -14471,6 +15445,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_wikipedia",
     sourceExcerpt: "International Seon Center — listed at en.wikipedia.org (Korean Seon (Jogye Order — Seon outreach center)). Native: 국제선센터 / 國際禪센터. Opened 2010 by the Jogye Order to provide Seon programs in English for international practitioners.",
     url: "http://seoncenter.or.kr/",
+    geoPrecision: "city",
   },
   {
     slug: "lotus-lantern-international-meditation-center",
@@ -14486,6 +15461,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_kwanum",
     sourceExcerpt: "Lotus Lantern International Meditation Center — listed at www.lotuslantern.net (Korean Seon (Jogye Order — international branch of Jeondeungsa)). Native: 연등국제선원 / 蓮燈國際禪院. English-language Seon retreat center on Ganghwa Island affiliated with Jeondeungsa.",
     url: "http://www.lotuslantern.net/",
+    geoPrecision: "exact",
   },
   {
     slug: "jeondeung-sa",
@@ -14501,6 +15477,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_wikipedia",
     sourceExcerpt: "Jeondeung-sa — listed at en.wikipedia.org (Korean Seon (Jogye Order — historic head temple of Ganghwa)). Native: 傳燈寺 / 전등사. Founded 381; Mt. Jeongjoksan. Historically one of the oldest temples in Korea.",
     url: "http://www.jeondeungsa.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "naewon-sa",
@@ -14516,6 +15493,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_wikipedia",
     sourceExcerpt: "Naewon-sa — listed at en.wikipedia.org (Korean Seon (Jogye Order — major bhikshuni seonwon)). Native: 內院寺 / 내원사. Founded 673. Major nuns' Seon training monastery.",
     url: "https://www.templestay.com/temple_info.asp?t_id=naewonsa",
+    geoPrecision: "city",
   },
   {
     slug: "unmun-sa",
@@ -14531,6 +15509,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_wikipedia",
     sourceExcerpt: "Unmun-sa — listed at en.wikipedia.org (Korean Seon (Jogye Order — largest bhikshuni gangwon/seonwon)). Native: 雲門寺 / 운문사. Founded 560. Korea's largest training monastery for Buddhist nuns.",
     url: "http://www.unmunsa.or.kr/",
+    geoPrecision: "city",
   },
   {
     slug: "bongnyeong-sa",
@@ -14546,6 +15525,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_wikipedia",
     sourceExcerpt: "Bongnyeong-sa — listed at en.wikipedia.org (Korean Seon (Jogye Order — bhikshuni seonwon)). Native: 奉寧寺 / 봉녕사. Major nuns' Vinaya and Seon center.",
     url: "http://www.bongnyeongsa.org/",
+    geoPrecision: "city",
   },
   {
     slug: "donghak-sa",
@@ -14561,6 +15541,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_wikipedia",
     sourceExcerpt: "Donghak-sa — listed at en.wikipedia.org (Korean Seon (Jogye Order — bhikshuni gangwon)). Native: 東鶴寺 / 동학사. Mt. Gyeryongsan. Notable nuns' monastic college.",
     url: "http://www.donghaksa.kr/",
+    geoPrecision: "exact",
   },
   {
     slug: "beomeo-sa-geumjeong-seonwon",
@@ -14576,6 +15557,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_wikipedia",
     sourceExcerpt: "Beomeo-sa Geumjeong Seonwon — listed at en.wikipedia.org (Korean Seon (Jogye Order — Seon meditation hall of Beomeosa)). Native: 금정총림 선원 / 金井叢林 禪院. The Seon hall component of Geumjeong Chongnim — central kyolche venue in southeastern Korea.",
     url: "http://www.beomeosa.co.kr/",
+    geoPrecision: "exact",
   },
   {
     slug: "mihwang-sa",
@@ -14591,6 +15573,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_wikipedia",
     sourceExcerpt: "Mihwang-sa — listed at en.wikipedia.org (Korean Seon (Jogye Order — Templestay flagship)). Native: 美黃寺 / 미황사. Founded 749. Korea's southernmost mainland temple; well-known templestay & Seon retreat venue.",
     url: "http://www.mihwangsa.com/",
+    geoPrecision: "exact",
   },
   {
     slug: "daewon-sa",
@@ -14606,6 +15589,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_wikipedia",
     sourceExcerpt: "Daewon-sa — listed at en.wikipedia.org (Korean Seon (Jogye Order — Seon practice hall)). Native: 大源寺 / 대원사. Mt. Jirisan. Major bhikshuni Seonwon.",
     url: "http://www.daewonsa.net/",
+    geoPrecision: "exact",
   },
   {
     slug: "baengnyeon-sa",
@@ -14621,6 +15605,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_wikipedia",
     sourceExcerpt: "Baengnyeon-sa — listed at en.wikipedia.org (Korean Seon (Jogye Order — historic Seon-Pure Land society site)). Native: 白蓮寺 / 백련사. Site of Yose's 13th-c. White Lotus Society; later seat of Cho-ui's Seon-tea revival together with Daeheungsa.",
     url: "http://www.baekryunsa.net/",
+    geoPrecision: "city",
   },
   {
     slug: "hae-un-jeongsa",
@@ -14636,6 +15621,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_wikipedia",
     sourceExcerpt: "Hae-un-jeongsa (Tongyeong) — listed at en.wikipedia.org (Korean Seon (Jogye Order — Seongcheol's hermitage tradition)). Native: 해운정사 / 海雲精舍. Linked to the lineage of Seongcheol; smaller meditation site within Yeongchuk Chongnim sphere.",
     url: "https://www.templestay.com/",
+    geoPrecision: "exact",
   },
   {
     slug: "anguk-sa",
@@ -14651,6 +15637,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_wikipedia",
     sourceExcerpt: "Anguk-sa — listed at en.wikipedia.org (Cheontae Order — major branch temple). Native: 安國寺 / 안국사. Cheontae Order training affiliate near Guinsa.",
     url: "http://www.cheontae.org/",
+    geoPrecision: "city",
   },
   {
     slug: "gwanchok-sa",
@@ -14666,6 +15653,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_wikipedia",
     sourceExcerpt: "Gwanchok-sa — listed at en.wikipedia.org (Korean Seon (Jogye Order — historic Seon-practice temple)). Native: 灌燭寺 / 관촉사. Founded 968. Houses giant stone Maitreya.",
     url: "http://www.gwanchoksa.org/",
+    geoPrecision: "city",
   },
   {
     slug: "naeso-sa",
@@ -14681,6 +15669,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_wikipedia",
     sourceExcerpt: "Naeso-sa — listed at en.wikipedia.org (Korean Seon (Jogye Order — branch of Geumsansa, Templestay site)). Native: 來蘇寺 / 내소사. Founded 633. Major regional Seon practice hall and templestay venue.",
     url: "http://www.naesosa.org/",
+    geoPrecision: "city",
   },
   {
     slug: "bulyeong-sa",
@@ -14696,6 +15685,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_wikipedia",
     sourceExcerpt: "Bulyeong-sa — listed at en.wikipedia.org (Korean Seon (Jogye Order — branch of Bulguksa)). Native: 佛影寺 / 불영사. Founded 651. Notable bhikshuni Seon practice site.",
     url: "https://www.templestay.com/temple_info.asp?t_id=bulyeongsa",
+    geoPrecision: "city",
   },
   {
     slug: "buseok-sa",
@@ -14711,6 +15701,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_wikipedia",
     sourceExcerpt: "Buseok-sa — listed at en.wikipedia.org (Korean Seon (Jogye Order — Hwaeom heritage temple, branch of Gounsa)). Native: 浮石寺 / 부석사. Founded 676 by Uisang. UNESCO Sansa.",
     url: "http://www.pusoksa.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "daeseung-sa",
@@ -14726,6 +15717,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_wikipedia",
     sourceExcerpt: "Daeseung-sa — listed at en.wikipedia.org (Korean Seon (Jogye Order — branch of Jikjisa)). Native: 大乘寺 / 대승사. Founded 587. Active Seon practice center.",
     url: "http://www.daeseungsa.or.kr/",
+    geoPrecision: "city",
   },
   {
     slug: "hwaun-sa",
@@ -14741,6 +15733,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_wikipedia",
     sourceExcerpt: "Hwaun-sa — listed at en.wikipedia.org (Korean Seon (Jogye Order — branch of Beopjusa)). Native: 화운사 / 華雲寺. Affiliate Seon site under Beopjusa parish.",
     url: "https://www.templestay.com/",
+    geoPrecision: "city",
   },
   {
     slug: "tapsa",
@@ -14756,6 +15749,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_wikipedia",
     sourceExcerpt: "Tapsa — listed at en.wikipedia.org (Korean Seon (Jogye Order — branch of Geumsansa)). Native: 塔寺 / 탑사. Mt. Maisan; small but active practice temple known for stone pagoda complex.",
     url: "http://www.maisantapsa.com/",
+    geoPrecision: "city",
   },
   {
     slug: "bohyeon-sa",
@@ -14771,6 +15765,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_wikipedia",
     sourceExcerpt: "Bohyeon-sa — listed at en.wikipedia.org (Korean Seon (Jogye Order — branch of Eunhaesa)). Native: 普賢寺 / 보현사. Affiliate Seon site under Eunhaesa parish (Mt. Bohyeonsan; not to be confused with North Korea's Bohyeonsa).",
     url: "https://www.templestay.com/",
+    geoPrecision: "exact",
   },
   {
     slug: "heungguk-sa",
@@ -14786,6 +15781,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_wikipedia",
     sourceExcerpt: "Heungguk-sa — listed at en.wikipedia.org (Korean Seon (Jogye Order — branch of Hwaeomsa)). Native: 興國寺 / 흥국사. Founded 1195. Historic Imjin War 'monk-soldier' (uibyeong) base; active templestay and Seon hall.",
     url: "http://www.hkksa.or.kr/",
+    geoPrecision: "exact",
   },
   {
     slug: "pagye-sa",
@@ -14801,6 +15797,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_wikipedia",
     sourceExcerpt: "Pagye-sa — listed at en.wikipedia.org (Korean Seon (Jogye Order — branch of Donghwasa, Mt. Palgongsan)). Native: 把溪寺 / 파계사. Founded 804. Active Seon practice hall under Palgong Chongnim.",
     url: "https://www.templestay.com/temple_info.asp?t_id=pagyesa",
+    geoPrecision: "city",
   },
   {
     slug: "girim-sa",
@@ -14816,6 +15813,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_wikipedia",
     sourceExcerpt: "Girim-sa — listed at en.wikipedia.org (Korean Seon (Jogye Order — branch of Bulguksa)). Native: 祇林寺 / 기림사. Founded 643. One of the larger temples east of Mt. Tohamsan.",
     url: "http://www.kirimsa.com/",
+    geoPrecision: "city",
   },
   {
     slug: "borim-sa",
@@ -14831,6 +15829,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_wikipedia",
     sourceExcerpt: "Borim-sa — listed at en.wikipedia.org (Korean Seon (Jogye Order — historic Gaji-san school seat)). Native: 寶林寺 / 보림사. Founded 759; Doui's seat — first of the Nine Mountain Seon Schools (Gusan Seonmun: Gajisan school).",
     url: "http://www.borimsa.org/",
+    geoPrecision: "city",
   },
   {
     slug: "sudo-sa",
@@ -14846,6 +15845,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_wikipedia",
     sourceExcerpt: "Sudo-sa — listed at en.wikipedia.org (Korean Seon (Jogye Order — branch of Jikjisa)). Native: 修道寺 / 수도사. Mt. Sudosan. Notable bhikshuni Seon training hall.",
     url: "http://www.sudosa.or.kr/",
+    geoPrecision: "city",
   },
   {
     slug: "yeongguk-sa",
@@ -14861,6 +15861,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_wikipedia",
     sourceExcerpt: "Yeongguk-sa — listed at en.wikipedia.org (Korean Seon (Jogye Order — branch of Beopjusa)). Native: 寧國寺 / 영국사. Founded c. 1052. Historic regional Seon temple; active templestay.",
     url: "https://www.templestay.com/temple_info.asp?t_id=yeongguksa",
+    geoPrecision: "city",
   },
   {
     slug: "vilnius-zen-center-ko-bong-sa",
@@ -14876,6 +15877,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_kwanum",
     sourceExcerpt: "Vilnius Zen Center – Ko Bong Sa — listed at www.kwanumeurope.org (Kwan Um School of Zen (Korean Seon)). Main Kwan Um center in Lithuania; affiliated with Kwan Um School of Zen Europe.",
     url: "https://www.zen.lt/",
+    geoPrecision: "city",
   },
   {
     slug: "kaunas-zen-center",
@@ -14891,6 +15893,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_kwanum",
     sourceExcerpt: "Kaunas Zen Center — listed at www.kwanumeurope.org (Kwan Um School of Zen (Korean Seon)). Kwan Um Lithuania regional center.",
     url: "https://www.zen.lt/",
+    geoPrecision: "city",
   },
   {
     slug: "sakiai-zen-center",
@@ -14906,6 +15909,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_kwanum",
     sourceExcerpt: "Šakiai Zen Center — listed at www.kwanumeurope.org (Kwan Um School of Zen (Korean Seon)). Smaller Kwan Um center in southwestern Lithuania.",
     url: "https://www.zen.lt/",
+    geoPrecision: "city",
   },
   {
     slug: "el-centro-zen-de-mexico-a-r",
@@ -14921,6 +15925,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_szba",
     sourceExcerpt: "El Centro Zen de México, A.R. — listed at www.szba.org (White Plum Asanga (Maezumi lineage)). Established when Maezumi Rōshi sent senior disciple Tesshin Sanderson as Zen instructor in 1986; Tesshin received Dharma Transmission and was named Zen Master in 1991. SZBA-affiliated.",
     url: "https://sites.google.com/site/czenmx/",
+    geoPrecision: "exact",
   },
   {
     slug: "dojo-zen-mon-ko-zen-mexico",
@@ -14936,6 +15941,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_kosen_sangha",
     sourceExcerpt: "Dōjō Zen Mon Kō — Zen México — listed at www.zen-deshimaru.com (Sōtō / Deshimaru (Kosen Sangha)). Main dōjō of the Zen México non-profit (Kosen Sangha / Taisen Deshimaru lineage).",
     url: "https://zenmexico.org/",
+    geoPrecision: "city",
   },
   {
     slug: "grupo-zen-monterrey-zen-mexico",
@@ -14951,6 +15957,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_kosen_sangha",
     sourceExcerpt: "Grupo Zen Monterrey — Zen México — listed at www.zen-deshimaru.com (Sōtō / Deshimaru (Kosen Sangha)). Monterrey practice group of the Kosen Sangha network.",
     url: "https://zenmexico.org/",
+    geoPrecision: "city",
   },
   {
     slug: "mar-de-jade-silent-zen-meditation-retreat-center",
@@ -14966,6 +15973,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Mar de Jade — Silent Zen Meditation Retreat Center — listed at mardejade.com (Sōtō / Chan (bilingual sesshin host; Laura del Valle)). Has hosted annual Zen and Chan sesshins for 30+ years; founded by long-time Zen practitioner Dr. Laura del Valle.",
     url: "https://mardejade.com/",
+    geoPrecision: "city",
   },
   {
     slug: "casa-zen-mexico",
@@ -14981,6 +15989,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Casa Zen México — listed at www.facebook.com (Sōtō (lay Zen community, Coyoacán)). Lay Zen practice community in Coyoacán. Primary online presence is Facebook.",
     url: "https://www.facebook.com/casazenmexico/",
+    geoPrecision: "exact",
   },
   {
     slug: "dharma-sangha-mexico",
@@ -14996,6 +16005,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Dharma Sangha México — listed at www.budismo.com (Sōtō (Suzuki Rōshi → Richard Baker Rōshi lineage)). Mexican branch of Richard Baker Rōshi's Dharma Sangha (Crestone, CO / Johanneshof). Cuernavaca residential practice.",
     url: "https://dharma-sangha.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "dhammapada-budismo-zen-dojo-zen-mexico",
@@ -15011,6 +16021,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Dhammapada Budismo Zen — Dōjō Zen México — listed at budismozen.org (Sōtō Zen (lay community)). Weekly Zen practice and seminars open to public; located in Xochimilco, CDMX.",
     url: "https://budismozen.org/mx1/",
+    geoPrecision: "exact",
   },
   {
     slug: "dharma-drum-mountain-malaysia-centre",
@@ -15026,6 +16037,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Dharma Drum Mountain Malaysia Centre — listed at ddmmy.org (Chan / Sheng-yen (Dharma Drum Mountain)). Malaysian branch of Dharma Drum Mountain; new five-story centre with meditation hall and rooftop walking-meditation space, 30 minutes from KL.",
     url: "https://ddmmy.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "foguangshan-bandar-saujana-putra",
@@ -15041,6 +16053,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Foguangshan Bandar Saujana Putra — listed at www.fgs.org.tw (Chan / Linji (Foguangshan)). Foguangshan branch monastery in Malaysia.",
     url: "https://www.fgsmalaysia.org/",
+    geoPrecision: "city",
   },
   {
     slug: "international-zen-center-noorder-poort",
@@ -15056,6 +16069,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "International Zen Center Noorder Poort — listed at zeninstitute.org (Rinzai (International Zen Institute / Gesshin Prabhasa Dharma → Jiun Hogen)). ~24-acre rural retreat center founded 1996; current spiritual leader Jiun Hogen Roshi.",
     url: "https://zeninstitute.org/zen-center/",
+    geoPrecision: "city",
   },
   {
     slug: "zen-centrum-amsterdam",
@@ -15071,6 +16085,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_bun",
     sourceExcerpt: "Zen Centrum Amsterdam — listed at boeddhisme.nl (White Plum Asanga (Maezumi lineage)). Lead teacher Nico Tenko Tydeman Roshi; both Sōtō and Rinzai influences via Maezumi.",
     url: "https://zenamsterdam.nl/",
+    geoPrecision: "exact",
   },
   {
     slug: "zen-dojo-amsterdam",
@@ -15086,6 +16101,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_bun",
     sourceExcerpt: "Zen Dojo Amsterdam (European Zen Center) — listed at boeddhisme.nl (Sōtō / Deshimaru (Kosen line)). Deshimaru → Kosen lineage; affiliated with European Zen Center / Zen Deshimaru network.",
     url: "https://zendojoamsterdam.nl/",
+    geoPrecision: "exact",
   },
   {
     slug: "mei-ran-zen-dojo-amsterdam",
@@ -15101,6 +16117,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_kosen_sangha",
     sourceExcerpt: "Mei Ran Zen Dojo Amsterdam — listed at www.zen-deshimaru.com (Sōtō / Deshimaru (Kosen line)). Second Amsterdam Deshimaru-Kosen dojo.",
     url: "https://www.zen-deshimaru.com/en/dojos/mei-ran-zen-dojo-amsterdam",
+    geoPrecision: "city",
   },
   {
     slug: "stichting-duizend-handen",
@@ -15116,6 +16133,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_bun",
     sourceExcerpt: "Stichting Duizend Handen — listed at boeddhisme.nl (Zen Peacemakers (Bernie Glassman)). BUN-affiliated zen group in Amsterdam; engaged-Buddhism orientation.",
     url: "https://duizendhanden.nl/",
+    geoPrecision: "city",
   },
   {
     slug: "zen-aan-de-amstel",
@@ -15131,6 +16149,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Zen aan de Amstel (Maha Karuna Ch'an Amsterdam) — listed at mahakarunachan.nl (Maha Karuna Ch'an (Lathouwers, Chinese Lin-chi line)). Local Maha Karuna Ch'an sit group; Mondays 19:30-21:30.",
     url: "https://www.zenaandeamstel.nl/",
+    geoPrecision: "exact",
   },
   {
     slug: "zenpunt-meditatiecentrum-haarlem",
@@ -15146,6 +16165,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_whiteplum",
     sourceExcerpt: "ZenPunt Meditatiecentrum Haarlem — listed at www.zenpunt.nl (White Plum Asanga (Maezumi lineage)). Teachers Joke Dajun Huiberts, Daan de Bruin, Jacky Demmers, Tine Proper.",
     url: "https://zenpunt.nl/",
+    geoPrecision: "exact",
   },
   {
     slug: "zen-heart-sangha",
@@ -15161,6 +16181,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_bun",
     sourceExcerpt: "Zen Heart Sangha — listed at boeddhisme.nl (White Plum Asanga (Maezumi lineage)). Den Haag White Plum sangha.",
     url: "https://www.zenheart.nl/",
+    geoPrecision: "exact",
   },
   {
     slug: "kanzeon-zen-centrum-rotterdam",
@@ -15176,6 +16197,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_bun",
     sourceExcerpt: "Kanzeon Zen Centrum Rotterdam — listed at boeddhisme.nl (White Plum Asanga (Maezumi lineage)). Located at Grote Kerk plein in Rotterdam center.",
     url: "https://www.zenrotterdam.nl/",
+    geoPrecision: "exact",
   },
   {
     slug: "zen-rotterdam",
@@ -15191,6 +16213,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Zen Rotterdam (Kloostertuin / Maha Karuna Ch'an) — listed at mahakarunachan.nl (Maha Karuna Ch'an (Lathouwers)). Maha Karuna Ch'an local group, contact Elsbeth Wolf.",
     url: "https://kloostertuinrotterdam.nl/zenmeditatie/",
+    geoPrecision: "city",
   },
   {
     slug: "zentrum-utrecht",
@@ -15206,6 +16229,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_bun",
     sourceExcerpt: "Zentrum Utrecht — listed at boeddhisme.nl (White Plum Asanga (Maezumi lineage)). Founded 1990s; four officially authorized zen teachers.",
     url: "https://zentrum.nl/",
+    geoPrecision: "exact",
   },
   {
     slug: "stichting-izen-utrecht",
@@ -15221,6 +16245,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_whiteplum",
     sourceExcerpt: "Stichting Izen Utrecht — listed at bigmind.org (White Plum Asanga (Maezumi lineage)). Maurice Knegtel Roshi; Dharma transmission 2009, Inka 2018.",
     url: "https://www.izen.nl/",
+    geoPrecision: "city",
   },
   {
     slug: "stichting-zen-nl-nederland",
@@ -15236,6 +16261,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Stichting Zen.nl Nederland (Nijmegen HQ) — listed at www.zen.nl (Rinzai-inspired (independent Dutch school of Rients Ritskes)). National headquarters; Zen.nl operates 40+ local meditation course centers across NL (Alkmaar, Amsterdam, Arnhem, Breda, Den Haag, Eindhoven, etc.).",
     url: "https://www.zen.nl/",
+    geoPrecision: "city",
   },
   {
     slug: "zen-centrum-nijmegen",
@@ -15251,6 +16277,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_bun",
     sourceExcerpt: "Zen Centrum Nijmegen (Lotus Zen Centra) — listed at boeddhisme.nl (Zen (Lotus Zen Centra Nederland network)). Led by Dick Verstegen; affiliated with Lotus Zen Centra cooperative.",
     url: "https://www.zennijmegen.nl/",
+    geoPrecision: "exact",
   },
   {
     slug: "zen-spirit-arnhem",
@@ -15266,6 +16293,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_bun",
     sourceExcerpt: "Zen Spirit Arnhem — listed at boeddhisme.nl (Zen Peacemakers (Bernie Glassman)). Led by Irène Bakker Roshi; Zen Peacemakers Lage Landen co-leader.",
     url: "https://www.zenspirit.nl/",
+    geoPrecision: "exact",
   },
   {
     slug: "zen-centrum-arnhem",
@@ -15281,6 +16309,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Zen Centrum Arnhem (Lotus Zen Centra) — listed at www.lotuszencentra.nl (Zen (Lotus Zen Centra Nederland network)). Lotus Zen Centra Nederland member.",
     url: "https://www.zencentrumarnhem.nl/",
+    geoPrecision: "city",
   },
   {
     slug: "zen-centrum-eindhoven",
@@ -15296,6 +16325,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Zen Centrum Eindhoven (Lotus Zen Centra) — listed at www.lotuszencentra.nl (Mahayana / Zen (Lotus Zen Centra Nederland network)). Led by Wanda Sluyter; founded 2003; Lotus Zen Centra member.",
     url: "https://www.zeneindhoven.nl/",
+    geoPrecision: "city",
   },
   {
     slug: "zen-den-bosch",
@@ -15311,6 +16341,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Zen Den Bosch (Lotus Zen Centra) — listed at www.lotuszencentra.nl (Zen (Lotus Zen Centra Nederland network)). Lotus Zen Centra Nederland member.",
     url: "https://www.zendenbosch.nl/",
+    geoPrecision: "city",
   },
   {
     slug: "zen-eemland",
@@ -15326,6 +16357,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Zen Eemland (Lotus Zen Centra) — listed at www.lotuszencentra.nl (Zen (Lotus Zen Centra Nederland network)). Eemland region group, part of Lotus Zen Centra.",
     url: "https://www.zeneemland.nl/",
+    geoPrecision: "city",
   },
   {
     slug: "zen-groningen",
@@ -15341,6 +16373,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Zen Groningen (Lotus Zen Centra) — listed at www.lotuszencentra.nl (Zen (Lotus Zen Centra Nederland network)). Lotus Zen Centra Nederland member.",
     url: "https://www.zengroningen.nl/",
+    geoPrecision: "city",
   },
   {
     slug: "ki-zen-meerlo",
@@ -15356,6 +16389,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Ki-Zen Meerlo — listed at www.lotuszencentra.nl (Zen (Lotus Zen Centra Nederland network)). Lotus Zen Centra Nederland member; rural Limburg location.",
     url: "https://www.ki-zen.nl/",
+    geoPrecision: "city",
   },
   {
     slug: "zen-in-salland",
@@ -15371,6 +16405,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_bun",
     sourceExcerpt: "Zen in Salland — listed at boeddhisme.nl (White Plum Asanga (Maezumi lineage)). Founded by Jan Mukan Hogen Klungers Roshi; Tydeman lineage.",
     url: "https://www.zen-in-salland.nl/",
+    geoPrecision: "exact",
   },
   {
     slug: "ming-zen-centrum",
@@ -15386,6 +16421,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_bun",
     sourceExcerpt: "Ming Zen Centrum — listed at boeddhisme.nl (White Plum Asanga (Maezumi lineage)). Led by Willem Scheepers Sensei.",
     url: "https://www.zen-training.nl/",
+    geoPrecision: "exact",
   },
   {
     slug: "zen-peacemakers-lage-landen",
@@ -15401,6 +16437,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_bun",
     sourceExcerpt: "Zen Peacemakers Lage Landen (ZPLL) — listed at boeddhisme.nl (Zen Peacemakers (Bernie Glassman)). Network led by Frank De Waele Roshi & Irène Bakker Roshi.",
     url: "https://zenpeacemakers.nl/",
+    geoPrecision: "exact",
   },
   {
     slug: "zengroep-breda",
@@ -15416,6 +16453,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Zengroep Breda (Maha Karuna Ch'an) — listed at mahakarunachan.nl (Maha Karuna Ch'an (Lathouwers)). Contact Mayke Haarhuis; tel 076-5201741.",
     url: "https://www.zengroepbreda.nl/",
+    geoPrecision: "city",
   },
   {
     slug: "zengroep-doetinchem",
@@ -15431,6 +16469,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Zengroep Doetinchem (Maha Karuna Ch'an / Sint Willibrordsabdij) — listed at mahakarunachan.nl (Maha Karuna Ch'an (Lathouwers)). Sits Mon 19:00-20:00 and Fri 8:00-9:00 at Benedictine abbey zendo.",
     url: "https://mahakarunachan.nl/mediteren/lokale-zengroepen/",
+    geoPrecision: "city",
   },
   {
     slug: "zengroep-hengelo",
@@ -15446,6 +16485,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Zengroep Hengelo (Maha Karuna Ch'an) — listed at mahakarunachan.nl (Maha Karuna Ch'an (Lathouwers)). Mondays 20:00-21:00.",
     url: "https://www.zengroephengelo.nl/",
+    geoPrecision: "exact",
   },
   {
     slug: "zengroep-leudal",
@@ -15461,6 +16501,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Zengroep Leudal (Maha Karuna Ch'an) — listed at mahakarunachan.nl (Maha Karuna Ch'an (Lathouwers)). Tuesday evenings; meets at De Vlindertuin retreat.",
     url: "https://www.de-vlindertuin.nl/",
+    geoPrecision: "city",
   },
   {
     slug: "zengroep-terneuzen",
@@ -15476,6 +16517,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Zengroep Terneuzen (Maha Karuna Ch'an) — listed at mahakarunachan.nl (Maha Karuna Ch'an (Lathouwers)). Monday evenings 17:30-18:30; contact Ann Lanckriet.",
     url: "https://mahakarunachan.nl/mediteren/lokale-zengroepen/",
+    geoPrecision: "city",
   },
   {
     slug: "kenkon-wageningen",
@@ -15491,6 +16533,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Kenkon Wageningen (Maha Karuna Ch'an) — listed at mahakarunachan.nl (Maha Karuna Ch'an / Chinese Lin-chi). Spiritual center combining martial arts and Chinese-line zen; Wed 20:00-21:30.",
     url: "https://www.kenkon.org/zen/",
+    geoPrecision: "city",
   },
   {
     slug: "welcoming-joy-sangha",
@@ -15506,6 +16549,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Welcoming Joy Sangha (Plum Village Amsterdam Centrum) — listed at aandacht.net (Plum Village (Thích Nhất Hạnh)). Plum Village Amsterdam center sangha.",
     url: "https://aandacht.net/meditatiegroepen/sangha-vinden2/item/sangha-amsterdam-centrum-plum-village-traditie",
+    geoPrecision: "city",
   },
   {
     slug: "sangha-leven-in-aandacht-amsterdam",
@@ -15521,6 +16565,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha Leven in Aandacht Amsterdam — listed at aandacht.net (Plum Village (Thích Nhất Hạnh)). Plum Village national-foundation flagship sangha.",
     url: "https://aandacht.net/meditatiegroepen/sangha-vinden2/item/amsterdam-2",
+    geoPrecision: "city",
   },
   {
     slug: "sangha-amsterdam-oost-diemen",
@@ -15536,6 +16581,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha Amsterdam Oost - Diemen (Plum Village) — listed at aandacht.net (Plum Village (Thích Nhất Hạnh)). Plum Village local sangha.",
     url: "https://aandacht.net/meditatiegroepen/sangha-vinden2/item/thich-nhat-hanh-sangha-amsterdam-oost-en-diemen",
+    geoPrecision: "exact",
   },
   {
     slug: "open-hart-sangha-alkmaar-bergen",
@@ -15551,6 +16597,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Open Hart Sangha Alkmaar/Bergen (Plum Village) — listed at aandacht.net (Plum Village (Thích Nhất Hạnh)). Plum Village sangha.",
     url: "https://aandacht.net/meditatiegroepen/sangha-vinden2/item/alkmaar-bergen-2",
+    geoPrecision: "city",
   },
   {
     slug: "sangha-amersfoort",
@@ -15566,6 +16613,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha Amersfoort (Plum Village) — listed at aandacht.net (Plum Village (Thích Nhất Hạnh)). Plum Village local sangha.",
     url: "https://aandacht.net/meditatiegroepen/sangha-vinden2/item/amersfoort-2",
+    geoPrecision: "city",
   },
   {
     slug: "metta-sangha-arnhem",
@@ -15581,6 +16629,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Metta Sangha Arnhem (Plum Village) — listed at aandacht.net (Plum Village (Thích Nhất Hạnh)). Plum Village local sangha.",
     url: "https://aandacht.net/meditatiegroepen/sangha-vinden2/item/arnhem-2",
+    geoPrecision: "city",
   },
   {
     slug: "sangha-baarn-soest",
@@ -15596,6 +16645,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha Baarn-Soest (Plum Village) — listed at aandacht.net (Plum Village (Thích Nhất Hạnh)). Plum Village local sangha.",
     url: "https://aandacht.net/meditatiegroepen/sangha-vinden2/item/soest-2",
+    geoPrecision: "city",
   },
   {
     slug: "sangha-breda",
@@ -15611,6 +16661,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha Breda (Plum Village) — listed at aandacht.net (Plum Village (Thích Nhất Hạnh)). Plum Village local sangha.",
     url: "https://aandacht.net/meditatiegroepen/sangha-vinden2/item/breda",
+    geoPrecision: "city",
   },
   {
     slug: "sangha-den-haag",
@@ -15626,6 +16677,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha Den Haag (Plum Village) — listed at aandacht.net (Plum Village (Thích Nhất Hạnh)). Plum Village local sangha.",
     url: "https://aandacht.net/meditatiegroepen/sangha-vinden2/item/den-haag-3",
+    geoPrecision: "city",
   },
   {
     slug: "sangha-deventer",
@@ -15641,6 +16693,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha Deventer (Plum Village) — listed at aandacht.net (Plum Village (Thích Nhất Hạnh)). Plum Village local sangha.",
     url: "https://aandacht.net/meditatiegroepen/sangha-vinden2/item/deventer-3",
+    geoPrecision: "city",
   },
   {
     slug: "sangha-van-het-licht",
@@ -15656,6 +16709,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha van het Licht (Plum Village Eindhoven) — listed at aandacht.net (Plum Village (Thích Nhất Hạnh)). Plum Village local sangha.",
     url: "https://aandacht.net/meditatiegroepen/sangha-vinden2/item/eindhoven-sangha-van-het-licht-3",
+    geoPrecision: "city",
   },
   {
     slug: "sangha-groningen",
@@ -15671,6 +16725,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha Groningen (Plum Village) — listed at aandacht.net (Plum Village (Thích Nhất Hạnh)). Plum Village local sangha.",
     url: "https://aandacht.net/meditatiegroepen/sangha-vinden2/item/groningen-3",
+    geoPrecision: "city",
   },
   {
     slug: "sangha-de-witte-wolk-haarlem",
@@ -15686,6 +16741,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha De Witte Wolk Haarlem (Plum Village) — listed at aandacht.net (Plum Village (Thích Nhất Hạnh)). Plum Village local sangha; includes Sangha Verspronck.",
     url: "https://aandacht.net/meditatiegroepen/sangha-vinden2/item/haarlem-3",
+    geoPrecision: "city",
   },
   {
     slug: "sangha-de-zonnestraal-hilversum",
@@ -15701,6 +16757,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha De Zonnestraal Hilversum (Plum Village) — listed at aandacht.net (Plum Village (Thích Nhất Hạnh)). Plum Village local sangha.",
     url: "https://aandacht.net/meditatiegroepen/sangha-vinden2/item/hilversum-3",
+    geoPrecision: "city",
   },
   {
     slug: "sangha-westfriesland",
@@ -15716,6 +16773,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha Westfriesland (Plum Village Hoorn) — listed at aandacht.net (Plum Village (Thích Nhất Hạnh)). Plum Village local sangha.",
     url: "https://aandacht.net/meditatiegroepen/sangha-vinden2/item/hoorn-3",
+    geoPrecision: "city",
   },
   {
     slug: "sangha-zuid-limburg-hulsberg",
@@ -15731,6 +16789,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha Zuid-Limburg Hulsberg (Plum Village) — listed at aandacht.net (Plum Village (Thích Nhất Hạnh)). Plum Village local sangha.",
     url: "https://aandacht.net/meditatiegroepen/sangha-vinden2/item/hulsberg-3",
+    geoPrecision: "city",
   },
   {
     slug: "sangha-ijsselstein",
@@ -15746,6 +16805,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha IJsselstein (Plum Village) — listed at aandacht.net (Plum Village (Thích Nhất Hạnh)). Plum Village local sangha.",
     url: "https://aandacht.net/meditatiegroepen/sangha-vinden2/item/ijsselstein-3",
+    geoPrecision: "city",
   },
   {
     slug: "sangha-kloosterburen",
@@ -15761,6 +16821,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha Kloosterburen (Plum Village) — listed at aandacht.net (Plum Village (Thích Nhất Hạnh)). Plum Village local sangha; rural northern Groningen.",
     url: "https://aandacht.net/meditatiegroepen/sangha-vinden2/item/kloosterburen-3",
+    geoPrecision: "city",
   },
   {
     slug: "sangha-leeuwarden",
@@ -15776,6 +16837,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha Leeuwarden (Plum Village) — listed at aandacht.net (Plum Village (Thích Nhất Hạnh)). Plum Village local sangha.",
     url: "https://aandacht.net/meditatiegroepen/sangha-vinden2/item/leeuwarden-3",
+    geoPrecision: "city",
   },
   {
     slug: "cordium-sangha-nijmegen",
@@ -15791,6 +16853,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Cordium Sangha Nijmegen (Plum Village) — listed at aandacht.net (Plum Village (Thích Nhất Hạnh)). Plum Village local sangha.",
     url: "https://aandacht.net/meditatiegroepen/sangha-vinden2/item/nijmegen-cordium-3",
+    geoPrecision: "city",
   },
   {
     slug: "sangha-phuong-boi-sittard",
@@ -15806,6 +16869,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha Phuong Boi Sittard (Plum Village) — listed at aandacht.net (Plum Village (Thích Nhất Hạnh)). Vietnamese-named Plum Village sangha in Limburg.",
     url: "https://aandacht.net/meditatiegroepen/sangha-vinden2/item/sittard-3",
+    geoPrecision: "city",
   },
   {
     slug: "sangha-tilburg",
@@ -15821,6 +16885,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha Tilburg (Plum Village) — listed at aandacht.net (Plum Village (Thích Nhất Hạnh)). Plum Village local sangha.",
     url: "https://aandacht.net/meditatiegroepen/sangha-vinden2/item/tilburg-3",
+    geoPrecision: "city",
   },
   {
     slug: "sangha-hart-van-nederland-utrecht",
@@ -15836,6 +16901,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha Hart van Nederland Utrecht (Plum Village) — listed at aandacht.net (Plum Village (Thích Nhất Hạnh)). Plum Village local sangha.",
     url: "https://aandacht.net/meditatiegroepen/sangha-vinden2/item/utrecht-9",
+    geoPrecision: "city",
   },
   {
     slug: "sangha-wageningen-e-o",
@@ -15851,6 +16917,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha Wageningen e.o. (Plum Village) — listed at aandacht.net (Plum Village (Thích Nhất Hạnh)). Plum Village local sangha.",
     url: "https://aandacht.net/meditatiegroepen/sangha-vinden2/item/wageningen-3",
+    geoPrecision: "city",
   },
   {
     slug: "sangha-het-symbool-venlo",
@@ -15866,6 +16933,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha Het Symbool Venlo (Plum Village) — listed at aandacht.net (Plum Village (Thích Nhất Hạnh)). Plum Village local sangha.",
     url: "https://aandacht.net/meditatiegroepen/sangha-vinden2/item/venlo-2",
+    geoPrecision: "city",
   },
   {
     slug: "middle-way-sangha-den-haag",
@@ -15881,6 +16949,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Middle Way Sangha Den Haag (Plum Village) — listed at aandacht.net (Plum Village (Thích Nhất Hạnh)). Plum Village local sangha.",
     url: "https://aandacht.net/meditatiegroepen/sangha-vinden2/item/middle-way-den-haag",
+    geoPrecision: "city",
   },
   {
     slug: "sangha-rotterdam",
@@ -15896,6 +16965,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha Rotterdam (Plum Village) — listed at aandacht.net (Plum Village (Thích Nhất Hạnh)). Plum Village local sangha.",
     url: "https://aandacht.net/meditatiegroepen/sangha-vinden2/item/rotterdam-3",
+    geoPrecision: "city",
   },
   {
     slug: "bugakuji-zen-tempel",
@@ -15911,6 +16981,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sotozen_jp",
     sourceExcerpt: "Bugakuji Zen-tempel (Den norske Sotozen Buddhistorden) — listed at www.sotozen.com (Soto Zen). Headquarters of Den norske Sotozen Buddhistorden (Norwegian Soto Zen Buddhist Order); Rev. Sozen Kusano Larsen abbot; listed on Sotoshu Europe directory",
     url: "https://www.sotozen.no/",
+    geoPrecision: "exact",
   },
   {
     slug: "bergen-zen-senter",
@@ -15926,6 +16997,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Bergen Zen Senter (Regndråpe Sangha) — listed at bergenzensenter.no (Soto Zen). U ryu så - Regndråpe Sangha, Sotozen fellowship in Bergen; weekly Thursday zazen 19:30-21:00; affiliated with Sotozenordenen",
     url: "https://bergenzensenter.no/",
+    geoPrecision: "exact",
   },
   {
     slug: "haugesund-zen-senter",
@@ -15941,6 +17013,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Haugesund Zen-senter (Stille Sinn Sangha) — listed at www.sotozen.no (Soto Zen). Affiliated with Den norske Sotozen Buddhistorden; led by Lars-Eivind Haukaas",
     url: "http://www.haugesundzensenter.com/",
+    geoPrecision: "city",
   },
   {
     slug: "sandnes-stavanger-zen-senter",
@@ -15956,6 +17029,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Sandnes/Stavanger Zen-senter — listed at www.sotozen.no (Soto Zen). Affiliated with Den norske Sotozen Buddhistorden; led by Chirin (Bente Grønn); currently on pause per sotozen.no",
     url: "https://www.sotozen.no/sotozen-i-norge",
+    geoPrecision: "city",
   },
   {
     slug: "t-nsberg-zen-gruppe",
@@ -15971,6 +17045,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Tønsberg Zen-gruppe — listed at www.sotozen.no (Soto Zen). Affiliated with Den norske Sotozen Buddhistorden; led by Djien (Dorthe Leth)",
     url: "https://dortheleth.no/",
+    geoPrecision: "city",
   },
   {
     slug: "rinzai-zen-senter-oslo",
@@ -15986,6 +17061,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_iriz_hanazono",
     sourceExcerpt: "Rinzai Zen-senter Oslo — listed at iriz.hanazono.ac.jp (Rinzai (Joshu Sasaki Roshi / Rinzai-ji lineage)). Originally Oslo Zazenkai; renamed Rinzai Zen Senter Oslo 1996; teacher Herbert Koudela (Genro Seiun Osho); morning and evening zazen",
     url: "https://www.facebook.com/rinzaizensenter/",
+    geoPrecision: "city",
   },
   {
     slug: "sangha-of-floating-clouds",
@@ -16001,6 +17077,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha of Floating Clouds (Drivende Skyer) — listed at www.spiritualityandpractice.com (Plum Village (Thích Nhất Hạnh)). Vietnamese Zen / Plum Village sangha in Oslo, founded by Svein Myreng (Order of Interbeing); Bjørn Petter Hernes contact",
     url: "http://iriz.hanazono.ac.jp/zen_centers/centers_data/norway.htm",
+    geoPrecision: "city",
   },
   {
     slug: "auckland-zen-centre",
@@ -16016,6 +17093,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Auckland Zen Centre — listed at www.aucklandzen.org.nz (Sanbo Kyodan / Kapleau (Cloud-Water Sangha; Bodhin Kjolhede line)). Founded 2003/2004 by Amala Wrightson Roshi and Richard von Sturmer Sensei (authorised 2024 by Bodhin Kjolhede Roshi). Member of Cloud-Water Sangha (Rochester Zen Center / Kapleau lineage).",
     url: "https://www.aucklandzen.org.nz/",
+    geoPrecision: "city",
   },
   {
     slug: "diamond-sangha-christchurch",
@@ -16031,6 +17109,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Diamond Sangha Christchurch (Otautahi) Zen Group — listed at www.zendo.org.nz (Diamond Sangha). Lay Diamond Sangha group led by Arthur Wells Roshi, Sean Weaver Sensei, Shona Pierce Sensei. Meets Mondays 7pm at Shona Pierce's home.",
     url: "http://www.zendo.org.nz/",
+    geoPrecision: "exact",
   },
   {
     slug: "maitai-zendo",
@@ -16046,6 +17125,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Maitai Zendo (Diamond Sangha Nelson) — listed at www.zendo.org.nz (Diamond Sangha). Founded 1993 by Mary Jaksch Roshi (NZ's first Zen Master, transmission 2004 from Ross Bolleter Roshi). Ross Bolleter visiting teacher.",
     url: "http://www.zendo.org.nz/",
+    geoPrecision: "exact",
   },
   {
     slug: "diamond-sangha-wellington-sitting-group",
@@ -16061,6 +17141,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Diamond Sangha Wellington Sitting Group — listed at www.zendo.org.nz (Diamond Sangha). Diamond Sangha NZ Wellington sitting group; coordinated via Sean Weaver Sensei. Visiting teacher Ross Bolleter Roshi.",
     url: "http://www.zendo.org.nz/",
+    geoPrecision: "city",
   },
   {
     slug: "dunedin-zen",
@@ -16076,6 +17157,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Dunedin Zen (Diamond Sangha) — listed at www.zendo.org.nz (Diamond Sangha). Resident teacher Glenn Wallis Roshi (transmission 2010 from Ross Bolleter Roshi). Regular sittings; sesshins yearly.",
     url: "https://dunedinzen.wordpress.com/",
+    geoPrecision: "city",
   },
   {
     slug: "green-mountain-zen",
@@ -16091,6 +17173,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_whiteplum",
     sourceExcerpt: "Green Mountain Zen — listed at greenmountainzen.org.nz (White Plum Asanga (Maezumi lineage)). Led by Philip Shinko Squire Roshi, authorised teacher in White Plum tradition; successor of Charles Tenshin Fletcher Roshi (Yokoji Zen Mountain Center). Trained 1994-2003 at Yokoji.",
     url: "https://greenmountainzen.org.nz/",
+    geoPrecision: "city",
   },
   {
     slug: "auckland-mro-sitting-group",
@@ -16106,6 +17189,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Auckland MRO Sitting Group — listed at www.zen.org.nz (Mountains and Rivers Order (Daido Loori lineage)). MRO Auckland sitting group, part of Zen Institute of NZ (ZENZ). Maezumi/Daido Loori White Plum-adjacent lineage.",
     url: "https://www.zen.org.nz/auckland.html",
+    geoPrecision: "city",
   },
   {
     slug: "wellington-mro-sitting-group",
@@ -16121,6 +17205,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Wellington MRO Sitting Group — listed at www.zen.org.nz (Mountains and Rivers Order (Daido Loori lineage)). MRO Wellington sitting group; weekly zazen offered, part of national ZENZ network.",
     url: "https://www.zen.org.nz/wellington.html",
+    geoPrecision: "city",
   },
   {
     slug: "christchurch",
@@ -16136,6 +17221,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Christchurch (Otautahi) MRO Sitting Group — listed at www.zen.org.nz (Mountains and Rivers Order (Daido Loori lineage)). MRO Otautahi-Christchurch sitting group; weekly meditation.",
     url: "https://www.zen.org.nz/",
+    geoPrecision: "city",
   },
   {
     slug: "nelson-mro-sitting-group",
@@ -16151,6 +17237,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Nelson MRO Sitting Group — listed at www.zen.org.nz (Mountains and Rivers Order (Daido Loori lineage)). MRO Nelson sitting group, listed as one of six NZ MRO sitting groups.",
     url: "https://www.zen.org.nz/",
+    geoPrecision: "city",
   },
   {
     slug: "manawatu-mro-sitting-group",
@@ -16166,6 +17253,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Manawatu MRO Sitting Group — listed at www.zen.org.nz (Mountains and Rivers Order (Daido Loori lineage)). MRO Manawatu sitting group; central North Island.",
     url: "https://www.zen.org.nz/",
+    geoPrecision: "city",
   },
   {
     slug: "rotorua-mro-sitting-group",
@@ -16181,6 +17269,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Rotorua MRO Sitting Group — listed at www.zen.org.nz (Mountains and Rivers Order (Daido Loori lineage)). MRO Rotorua sitting group; one of six listed NZ MRO sitting groups.",
     url: "https://www.zen.org.nz/",
+    geoPrecision: "city",
   },
   {
     slug: "dharma-gaia",
@@ -16196,6 +17285,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Dharma Gaia — listed at www.dharmagaia.org (Plum Village (Thích Nhất Hạnh)). Mindfulness practice and retreat centre rooted in Plum Village tradition; entrusted to Sister Shalom and lay practitioners. Located on the Coromandel Peninsula.",
     url: "https://www.dharmagaia.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "zen-center-manila",
@@ -16211,6 +17301,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sanbozen",
     sourceExcerpt: "Zen Center Manila (Heroes Hill Zendo) — listed at zencentermanila.wordpress.com (Sanbo Zen (Sanbo Kyodan)). Sanbo Zen lineage center founded by Sr. Elaine MacInnes OLM with Yamada Koun Roshi (1976); regular Zazenkai at Heroes Hill Zendo.",
     url: "https://zencentermanila.wordpress.com/",
+    geoPrecision: "city",
   },
   {
     slug: "baguio-zen-center",
@@ -16226,6 +17317,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sanbozen",
     sourceExcerpt: "Baguio Zen Center (Mountain Sangha) — listed at baguiozencenter.wordpress.com (Sanbo Zen (Sanbo Kyodan)). Mountain Sangha affiliate of the Zen Center Philippines / Sanbo Zen lineage in Baguio.",
     url: "https://baguiozencenter.wordpress.com/",
+    geoPrecision: "city",
   },
   {
     slug: "zen-philippines",
@@ -16241,6 +17333,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sanbozen",
     sourceExcerpt: "Zen Philippines (Zen Center of Oriental Spirituality) — listed at www.zenphilippines.org.ph (Sanbo Zen (Sanbo Kyodan)). Founding Sanbo Zen sangha in the Philippines (1976) under Sr. Elaine MacInnes / Yamada Koun Roshi lineage; community of zen practitioners.",
     url: "https://www.zenphilippines.org.ph/",
+    geoPrecision: "city",
   },
   {
     slug: "iloilo-zen-center",
@@ -16256,6 +17349,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sanbozen",
     sourceExcerpt: "Iloilo Zen Center — listed at zencentermanila.wordpress.com (Sanbo Zen (Sanbo Kyodan)). Sanbo Zen affiliate consolidated under Zen Center Manila by Elda Paz Perez, 2014.",
     url: "https://zencentermanila.wordpress.com/",
+    geoPrecision: "city",
   },
   {
     slug: "davao-zen-center",
@@ -16271,6 +17365,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sanbozen",
     sourceExcerpt: "Davao Zen Center — listed at zencentermanila.wordpress.com (Sanbo Zen (Sanbo Kyodan)). Sanbo Zen affiliate consolidated under Zen Center Manila by Elda Paz Perez, 2014.",
     url: "https://zencentermanila.wordpress.com/",
+    geoPrecision: "city",
   },
   {
     slug: "ocean-sky-chan-monastery",
@@ -16286,6 +17381,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Ocean Sky Chan Monastery (Chung Tai Philippines) — listed at www.ctworld.org.tw (Chan / Linji (Chung Tai Shan)). Philippine branch monastery of Chung Tai Chan; full Chan meditation curriculum.",
     url: "https://www.ctworld.org/",
+    geoPrecision: "city",
   },
   {
     slug: "foguangshan-ibps-manila",
@@ -16301,6 +17397,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Foguangshan IBPS Manila (Mabuhay Temple) — listed at www.fgs.org.tw (Chan / Linji (Foguangshan)). Foguangshan IBPS branch monastery serving the Philippines.",
     url: "https://www.ibps.ph/",
+    geoPrecision: "city",
   },
   {
     slug: "swiatynia-wu-bong-sa",
@@ -16316,6 +17413,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_kwanum",
     sourceExcerpt: "Świątynia Wu Bong Sa (Warszawski Ośrodek Zen Kwan Um — Świątynia Główna) — listed at www.kwanumeurope.org (Kwan Um School of Zen (Korean Seon)). Main temple of Kwan Um School of Zen in Poland; founded 1982; combines Sōtō / Rinzai forms within the Korean Sŏn tradition.",
     url: "https://zen.pl/",
+    geoPrecision: "city",
   },
   {
     slug: "warsaw-city-center",
@@ -16331,6 +17429,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_kwanum",
     sourceExcerpt: "Warsaw City Center (Kwan Um School of Zen (Korean Seon)) — Centrum miejskie — listed at zen.pl (Kwan Um). Downtown Kwan Um practice space; complements Falenica main temple.",
     url: "https://zen.pl/",
+    geoPrecision: "city",
   },
   {
     slug: "gdanski-osrodek-zen-kwan-um",
@@ -16346,6 +17445,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_kwanum",
     sourceExcerpt: "Gdański Ośrodek Zen Kwan Um — listed at zen.pl (Kwan Um School of Zen (Korean Seon)). gdansk.zen@gmail.com; +48 792 702 963.",
     url: "https://www.kwanumeurope.org/locations/gdansk-zen-center/",
+    geoPrecision: "city",
   },
   {
     slug: "odzki-osrodek-zen-kwan-um",
@@ -16361,6 +17461,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_kwanum",
     sourceExcerpt: "Łódzki Ośrodek Zen Kwan Um — listed at zen.pl (Kwan Um School of Zen (Korean Seon)). lodz@zen.pl; +48 509 241 097.",
     url: "https://www.kwanumeurope.org/locations/lodz-zen-center/",
+    geoPrecision: "city",
   },
   {
     slug: "krakowski-osrodek-zen-kwan-um",
@@ -16376,6 +17477,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_kwanum",
     sourceExcerpt: "Krakowski Ośrodek Zen Kwan Um — listed at zen.pl (Kwan Um School of Zen (Korean Seon)). krakow@zen.pl.",
     url: "https://www.kwanumeurope.org/locations/krakow-zen-center-krakowski-osrodek-zen/",
+    geoPrecision: "city",
   },
   {
     slug: "katowicki-osrodek-zen-kwan-um",
@@ -16391,6 +17493,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_kwanum",
     sourceExcerpt: "Katowicki Ośrodek Zen Kwan Um — listed at zen.pl (Kwan Um School of Zen (Korean Seon)). Phones +48 501 430 062 (Waldek), +48 510 017 276 (Jurek).",
     url: "https://www.kwanumeurope.org/locations/katowice-zen-center-katowicki-osrodek-zen/",
+    geoPrecision: "city",
   },
   {
     slug: "grupa-zen-kwan-um-p-ock",
@@ -16406,6 +17509,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_kwanum",
     sourceExcerpt: "Grupa Zen Kwan Um Płock — listed at zen.pl (Kwan Um School of Zen (Korean Seon)). Contact: +48 886 605 089, piaskowski@wp.pl.",
     url: "https://zen.pl/osrodki-i-grupy-zen/",
+    geoPrecision: "exact",
   },
   {
     slug: "grupa-zen-kwan-um-poznan",
@@ -16421,6 +17525,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_kwanum",
     sourceExcerpt: "Grupa Zen Kwan Um Poznań — listed at zen.pl (Kwan Um School of Zen (Korean Seon)). kwanum.poznan@gmail.com; +48 600 650 501.",
     url: "https://zen.pl/osrodki-i-grupy-zen/",
+    geoPrecision: "city",
   },
   {
     slug: "grupa-zen-kwan-um-wa-brzych",
@@ -16436,6 +17541,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_kwanum",
     sourceExcerpt: "Grupa Zen Kwan Um Wałbrzych — listed at zen.pl (Kwan Um School of Zen (Korean Seon)). walbrzych@zen.pl.",
     url: "https://zen.pl/osrodki-i-grupy-zen/",
+    geoPrecision: "city",
   },
   {
     slug: "grupa-zen-kwan-um-wroc-aw",
@@ -16451,6 +17557,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_kwanum",
     sourceExcerpt: "Grupa Zen Kwan Um Wrocław — listed at zen.pl (Kwan Um School of Zen (Korean Seon)). zen.wroclaw@gmail.com; +48 501 410 838.",
     url: "https://zen.pl/osrodki-i-grupy-zen/",
+    geoPrecision: "city",
   },
   {
     slug: "grupa-zen-kwan-um-rzeszow",
@@ -16466,6 +17573,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_kwanum",
     sourceExcerpt: "Grupa Zen Kwan Um Rzeszów — listed at zen.pl (Kwan Um School of Zen (Korean Seon)). rzeszow@zen.pl.",
     url: "https://zen.pl/osrodki-i-grupy-zen/",
+    geoPrecision: "city",
   },
   {
     slug: "grupa-zen-kwan-um-szczecin",
@@ -16481,6 +17589,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_kwanum",
     sourceExcerpt: "Grupa Zen Kwan Um Szczecin — listed at zen.pl (Kwan Um School of Zen (Korean Seon)). kwanum.szczecin@gmail.com; +48 601 694 000.",
     url: "https://zen.pl/osrodki-i-grupy-zen/",
+    geoPrecision: "city",
   },
   {
     slug: "grupa-zen-kwan-um-torun",
@@ -16496,6 +17605,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_kwanum",
     sourceExcerpt: "Grupa Zen Kwan Um Toruń — listed at www.kwanumeurope.org (Kwan Um School of Zen (Korean Seon)). Listed in Kwan Um Europe directory.",
     url: "https://www.kwanumeurope.org/locations/",
+    geoPrecision: "city",
   },
   {
     slug: "grupa-zen-kwan-um-g-ogow",
@@ -16511,6 +17621,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_kwanum",
     sourceExcerpt: "Grupa Zen Kwan Um Głogów — listed at www.kwanumeurope.org (Kwan Um School of Zen (Korean Seon)). Listed in Kwan Um Europe directory.",
     url: "https://www.kwanumeurope.org/locations/",
+    geoPrecision: "city",
   },
   {
     slug: "unsuam",
@@ -16526,6 +17637,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_kwanum",
     sourceExcerpt: "Unsuam (klasztor / fundacja) — listed at zen.pl (Kwan Um School of Zen (Korean Seon)). fundacja.unsu@gmail.com; Korean Zen monastery project under Chon Mun Sunim, Wisła Cieńków.",
     url: "https://zen.pl/osrodki-i-grupy-zen/",
+    geoPrecision: "city",
   },
   {
     slug: "original-buddha-temple",
@@ -16541,6 +17653,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_kwanum",
     sourceExcerpt: "Original Buddha Temple (Wisła) — listed at zen.pl (Kwan Um School of Zen (Korean Seon)). obt@originalbuddhatemple.org; sister project to Unsuam in Wisła Beskids.",
     url: "https://zen.pl/osrodki-i-grupy-zen/",
+    geoPrecision: "city",
   },
   {
     slug: "polska-sangha-kanzeon",
@@ -16556,6 +17669,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_whiteplum",
     sourceExcerpt: "Polska Sangha Kanzeon (Warszawa) — listed at katalog.opengarden.org.pl (White Plum Asanga (Maezumi lineage)). Roshi Getsugen; Hoshi Hanna Janicka; Kanzeon is registered religious association with ~127 members and 5 temples per GUS data; organizes annual Auschwitz Bearing Witness retreats.",
     url: "https://kanzeon.pl/",
+    geoPrecision: "city",
   },
   {
     slug: "sangha-kanzeon-bydgoszcz",
@@ -16571,6 +17685,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_whiteplum",
     sourceExcerpt: "Sangha Kanzeon Bydgoszcz — listed at katalog.opengarden.org.pl (White Plum Asanga (Maezumi lineage)). Listed as second Kanzeon practice center per Open Garden / Polska Unia Buddyjska directory.",
     url: "https://kanzeon.pl/",
+    geoPrecision: "city",
   },
   {
     slug: "pusta-chmura-warszawa",
@@ -16586,6 +17701,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sanbozen",
     sourceExcerpt: "Pusta Chmura — Warszawa (zazen) — listed at pustachmura.org (Sanbō Zen / Empty Cloud (Willigis Jäger Kyo-un Roshi → Alexander Poraj-Żakiej)). Founded 2009; offshoot of Sanbō-Kyōdan via Benediktushof tradition.",
     url: "https://pustachmura.org/zen/medytacja-zen-warszawa/",
+    geoPrecision: "city",
   },
   {
     slug: "pusta-chmura-wroc-aw",
@@ -16601,6 +17717,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sanbozen",
     sourceExcerpt: "Pusta Chmura — Wrocław (zazen) — listed at pustachmura.org (Sanbō Zen / Empty Cloud). Regular zazen sittings.",
     url: "https://pustachmura.org/zen/medytacja-zen-wroclaw/",
+    geoPrecision: "city",
   },
   {
     slug: "pusta-chmura-krakow",
@@ -16616,6 +17733,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sanbozen",
     sourceExcerpt: "Pusta Chmura — Kraków (zazen) — listed at pustachmura.org (Sanbō Zen / Empty Cloud). Regular zazen sittings; also Katowice satellite.",
     url: "https://pustachmura.org/zen/medytacja-zen-krakow/",
+    geoPrecision: "city",
   },
   {
     slug: "pusta-chmura-katowice",
@@ -16631,6 +17749,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sanbozen",
     sourceExcerpt: "Pusta Chmura — Katowice (zazen wspólna) — listed at pustachmura.org (Sanbō Zen / Empty Cloud). Group sitting in Katowice.",
     url: "https://pustachmura.org/zazen-wspolna-medytacja-katowice/",
+    geoPrecision: "city",
   },
   {
     slug: "buddyjska-wspolnota-zen-kannon-warszawa",
@@ -16646,6 +17765,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Buddyjska Wspólnota Zen Kannon — Warszawa — listed at www.kannon.pl (Sōtō (Suzuki Roshi / Kwong Roshi lineage)). Roshi Mikołaj Uji Markiewicz; Polish branch of Suzuki/Kwong tradition.",
     url: "https://www.kannon.pl/warszawa/",
+    geoPrecision: "city",
   },
   {
     slug: "wspolnota-zen-kannon-kaciki",
@@ -16661,6 +17781,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Wspólnota Zen Kannon — Kąciki (ośrodek odosobnień) — listed at www.kannon.pl (Sōtō (Suzuki / Kwong)). Kannon retreat center near Warsaw.",
     url: "https://www.kannon.pl/kaciki-pod-warszawa/",
+    geoPrecision: "city",
   },
   {
     slug: "wspolnota-zen-kannon-trojmiasto",
@@ -16676,6 +17797,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Wspólnota Zen Kannon — Trójmiasto (Gdańsk) — listed at www.kannon.pl (Sōtō (Suzuki / Kwong)). Tri-City group.",
     url: "https://www.kannon.pl/gdansk2/",
+    geoPrecision: "city",
   },
   {
     slug: "wspolnota-zen-kannon-poznan",
@@ -16691,6 +17813,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Wspólnota Zen Kannon — Poznań — listed at www.kannon.pl (Sōtō (Suzuki / Kwong)). Poznań sitting group.",
     url: "https://www.kannon.pl/medytacja-poznan/",
+    geoPrecision: "city",
   },
   {
     slug: "wspolnota-zen-kannon-torun",
@@ -16706,6 +17829,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Wspólnota Zen Kannon — Toruń — listed at www.kannon.pl (Sōtō (Suzuki / Kwong)). Toruń sitting group.",
     url: "https://www.kannon.pl/torun/",
+    geoPrecision: "city",
   },
   {
     slug: "wspolnota-zen-kannon-zielona-gora",
@@ -16721,6 +17845,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Wspólnota Zen Kannon — Zielona Góra — listed at www.kannon.pl (Sōtō (Suzuki / Kwong)). Zielona Góra sitting group.",
     url: "https://www.kannon.pl/zielona-gora/",
+    geoPrecision: "city",
   },
   {
     slug: "wspolnota-zen-kannon-wroc-aw",
@@ -16736,6 +17861,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Wspólnota Zen Kannon — Wrocław — listed at www.kannon.pl (Sōtō (Suzuki / Kwong)). Wrocław sitting group.",
     url: "https://www.kannon.pl/wroclaw/",
+    geoPrecision: "city",
   },
   {
     slug: "sangha-dogen-zenji-osrodek-warszawa",
@@ -16751,6 +17877,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_kwanum",
     sourceExcerpt: "Sangha Dogen Zenji — Ośrodek Warszawa — listed at zazen.pl (Sōtō (Sandō Kaisen lineage / Deshimaru)). Polish branch of Master Kaisen's Sōtō Zen network; reg. religious association no. 170.",
     url: "https://zazen.pl/osrodki/warszawa/",
+    geoPrecision: "city",
   },
   {
     slug: "sangha-dogen-zenji-osrodek-krakow",
@@ -16766,6 +17893,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_kwanum",
     sourceExcerpt: "Sangha Dogen Zenji — Ośrodek Kraków — listed at zazen.pl (Sōtō (Kaisen / Deshimaru)). Master Kaisen's Polish lineage.",
     url: "https://zazen.pl/osrodki/krakow/",
+    geoPrecision: "city",
   },
   {
     slug: "sangha-dogen-zenji-osrodek-wroc-aw",
@@ -16781,6 +17909,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_kwanum",
     sourceExcerpt: "Sangha Dogen Zenji — Ośrodek Wrocław — listed at zazen.pl (Sōtō (Kaisen / Deshimaru)). Master Kaisen's Polish lineage.",
     url: "https://zazen.pl/osrodki/wroclaw/",
+    geoPrecision: "city",
   },
   {
     slug: "sangha-dogen-zenji-osrodek-katowice",
@@ -16796,6 +17925,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_kwanum",
     sourceExcerpt: "Sangha Dogen Zenji — Ośrodek Katowice — listed at zazen.pl (Sōtō (Kaisen / Deshimaru)). Silesian center.",
     url: "https://zazen.pl/osrodki/katowice/",
+    geoPrecision: "city",
   },
   {
     slug: "sangha-dogen-zenji-osrodek-gliwice",
@@ -16811,6 +17941,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_kwanum",
     sourceExcerpt: "Sangha Dogen Zenji — Ośrodek Gliwice — listed at zazen.pl (Sōtō (Kaisen / Deshimaru)). Silesian center.",
     url: "https://zazen.pl/osrodki/gliwice/",
+    geoPrecision: "city",
   },
   {
     slug: "sangha-dogen-zenji-osrodek-myslenice",
@@ -16826,6 +17957,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_kwanum",
     sourceExcerpt: "Sangha Dogen Zenji — Ośrodek Myślenice — listed at zazen.pl (Sōtō (Kaisen / Deshimaru)). Małopolska center.",
     url: "https://zazen.pl/osrodki/myslenice/",
+    geoPrecision: "city",
   },
   {
     slug: "ogolnopolski-osrodek-medytacji-zen-w-turzy",
@@ -16841,6 +17973,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_kwanum",
     sourceExcerpt: "Ogólnopolski Ośrodek Medytacji Zen w Turzy — listed at zazen.pl (Sōtō (Kaisen / Deshimaru)). National-level retreat center for Sangha Dogen Zenji (Kaisen).",
     url: "https://zazen.pl/osrodek-w-turzy/",
+    geoPrecision: "city",
   },
   {
     slug: "zwiazek-buddystow-zen-bodhidharma-osrodek-falenica",
@@ -16856,6 +17989,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Związek Buddystów Zen \"Bodhidharma\" — Ośrodek Falenica — listed at religie.wiara.pl (Sanbō / Three Pillars (Philip Kapleau lineage; Sunya Kjolhede / Rochester)). Founded 1975; ~70 members across 2 centers; Polish branch overseen from Rochester (NY) Zen Center; combines Sōtō and Rinzai forms (Three Pillars of Zen lineage).",
     url: "https://www.buddyzmzen.pl/",
+    geoPrecision: "exact",
   },
   {
     slug: "sangha-usmiech-buddy",
@@ -16871,6 +18005,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha Uśmiech Buddy (Plum Village Warszawa) — listed at artofmindfulness.pl (Plum Village (Thích Nhất Hạnh)). Cited as oldest Plum Village lay sangha in Poland; meets in Warsaw.",
     url: "https://artofmindfulness.pl/powstaje-sangha-cud-uwaznosci/",
+    geoPrecision: "city",
   },
   {
     slug: "sangha-cud-uwaznosci",
@@ -16886,6 +18021,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha Cud Uważności (Plum Village Wrocław) — listed at artofmindfulness.pl (Plum Village (Thích Nhất Hạnh)). Wrocław Plum Village lay sangha (Sangha Uśmiech Radości / Cud Uważności).",
     url: "https://sangha.wroclaw.pl/",
+    geoPrecision: "city",
   },
   {
     slug: "grupo-zen-do-porto",
@@ -16901,6 +18037,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_azi",
     sourceExcerpt: "Grupo Zen do Porto — listed at www.zen-azi.org (Sōtō / Deshimaru (AZI)). AZI dojo group, oriented by Dojo Zen de Lisboa. Saturday zazen 10h50.",
     url: "https://www.grupozenporto.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "grupo-zen-de-aveiro",
@@ -16916,6 +18053,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_ubp",
     sourceExcerpt: "Grupo Zen de Aveiro — listed at uniaobudista.pt (Sōtō / Deshimaru (AZI)). Oriented by Dojo Zen de Lisboa; UBP member.",
     url: "https://www.grupozenaveiro.org/",
+    geoPrecision: "city",
   },
   {
     slug: "grupo-zen-de-montemor-o-novo",
@@ -16931,6 +18069,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_ubp",
     sourceExcerpt: "Grupo Zen de Montemor-o-Novo — listed at uniaobudista.pt (Sōtō / Deshimaru (AZI)). Affiliated with Dojo Zen de Lisboa / AZI; UBP member. No standalone website — UBP directory is canonical listing.",
     url: "https://uniaobudista.pt/membros/grupos-em-portugal",
+    geoPrecision: "exact",
   },
   {
     slug: "zen-dojo-tai-ku-an",
@@ -16946,6 +18085,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_azi",
     sourceExcerpt: "Zen Dojo Tai Ku An — listed at www.zendojotaikuan.org (Sōtō / Deshimaru (AZI)). Founded 1988 by Betty Pujol and Carl Zimmerling, both disciples of Taisen Deshimaru Roshi. Practice in Barão (Tue/Thu) and Lagos (Wed at Espaço Ahimsa).",
     url: "https://zendojotaikuan.org/",
+    geoPrecision: "city",
   },
   {
     slug: "dojo-zen-basho-an",
@@ -16961,6 +18101,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_azi",
     sourceExcerpt: "Dojo Zen Bashô-An (ZaZen Setúbal) — listed at zanmaizen.org (Sōtō / Deshimaru (via Master Pierre Soko Leroux, Barcelona)). Hombu-dojo of the Zan Mai Zen network. Teacher: Manuel Toei Simões.",
     url: "https://zanmaizen.org/dojo-zen-setubal/",
+    geoPrecision: "city",
   },
   {
     slug: "zazen-montijo",
@@ -16976,6 +18117,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_azi",
     sourceExcerpt: "ZaZen Montijo (Zendō) — listed at olharbudista.com (Sōtō / Deshimaru (Zan Mai Zen network)). Founded 2020 by Manuel Toei Simões. Part of Zan Mai Zen.",
     url: "https://www.zazen-montijo.pt/",
+    geoPrecision: "city",
   },
   {
     slug: "dojo-da-via-autentica",
@@ -16991,6 +18133,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_azi",
     sourceExcerpt: "Dojo da Via Autêntica (Dojo Zen da Caparica) — listed at zanmaizen.org (Sōtō / Deshimaru (Zan Mai Zen network)). Founded 2024. Part of Zan Mai Zen network.",
     url: "https://zanmaizen.org/dojo-zen-caparica/",
+    geoPrecision: "city",
   },
   {
     slug: "dojo-zen-pinhal-novo",
@@ -17006,6 +18149,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_azi",
     sourceExcerpt: "Dojo Zen Pinhal Novo — listed at zanmaizen.org (Sōtō / Deshimaru (Zan Mai Zen network)). Founded 2023 within Zan Mai Zen. Teacher: Manuel Toei Simões.",
     url: "https://zanmaizen.org/",
+    geoPrecision: "city",
   },
   {
     slug: "dojo-zen-de-mertola",
@@ -17021,6 +18165,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_azi",
     sourceExcerpt: "Dojo Zen de Mértola — listed at zanmaizen.org (Sōtō / Deshimaru (Zan Mai Zen network)). Founded 2025. Part of Zan Mai Zen network.",
     url: "https://zanmaizen.org/",
+    geoPrecision: "city",
   },
   {
     slug: "zan-mai-zen-dojo-zen-da-perfeita-tranquilidade",
@@ -17036,6 +18181,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_azi",
     sourceExcerpt: "Zan Mai Zen — Dojo Zen da Perfeita Tranquilidade (sede) — listed at zanmaizen.org (Sōtō / Deshimaru (Zan Mai Zen network)). Headquarters of the Zan Mai Zen association. Teacher: Manuel Toei Simões, ordained 2012 by Master Pierre Soko Leroux.",
     url: "https://zanmaizen.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "wild-flower-zen-coimbra-group",
@@ -17051,6 +18197,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_whiteplum",
     sourceExcerpt: "Wild Flower Zen — Coimbra group — listed at olharbudista.com (White Plum Asanga (Maezumi lineage)). Local Coimbra practice group of Sangha Zen Flor Silvestre; Thursday zazen 19:30–20:30. Annual retreats hosted at Instituto Secular Servas do Apostolado, Coimbra.",
     url: "https://sanghazenpt.org/",
+    geoPrecision: "city",
   },
   {
     slug: "plum-village-porto-sangha",
@@ -17066,6 +18213,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Plum Village Porto Sangha — listed at plumvillage.org (Plum Village (Thích Nhất Hạnh)). Lay sangha in Thich Nhat Hanh tradition; weekly mindfulness meditation in Matosinhos.",
     url: "https://plumvillageporto.org/",
+    geoPrecision: "city",
   },
   {
     slug: "almond-blossom-sangha",
@@ -17081,6 +18229,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Almond Blossom Sangha (Sangha Flor de Amêndoeira) — listed at olharbudista.com (Plum Village (Thích Nhất Hạnh)). Monthly Mindfulness Day in the Algarve in Plum Village tradition; English and Portuguese.",
     url: "https://algarvesangha.wordpress.com/",
+    geoPrecision: "exact",
   },
   {
     slug: "mokushozen-ji",
@@ -17096,6 +18245,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_azi",
     sourceExcerpt: "Mokushozen-ji (Mokusho Zen House București) — listed at mokushozen.ro (Sōtō Zen (Deshimaru-Zeisler line)). First Eastern European Zen dojo (1993), founded by Monk Myoken. Named 'Temple of Silent Illumination Zen.' Daily zazen, eight sessions per week.",
     url: "https://mokushozen.ro/",
+    geoPrecision: "exact",
   },
   {
     slug: "mokusho-zen-dojo-brasov",
@@ -17111,6 +18261,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_azi",
     sourceExcerpt: "Mokusho Zen Dojo Brașov — listed at mokushozen.ro (Sōtō Zen (Deshimaru-Zeisler line)). Branch of Mokusho Zen House Romania. Morning and evening zazen sessions weekly.",
     url: "https://mokushozen.ro/",
+    geoPrecision: "city",
   },
   {
     slug: "zen-centar-beograd",
@@ -17126,6 +18277,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Zen Centar Beograd — listed at www.facebook.com (Zen (lineage not specified publicly)). Active Belgrade Zen group. Self-description: 'sit, walk, be what you are.' Phone +381 64 0762604.",
     url: "https://www.facebook.com/p/Zen-Centar-Beograd-100064712765042/",
+    geoPrecision: "exact",
   },
   {
     slug: "dzen-tsentr-khram-serediny-zemli",
@@ -17141,6 +18293,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sando_kaisen",
     sourceExcerpt: "Dzen-tsentr 'Khram Serediny Zemli' — listed at zen-kaisen.ru (Sōtō / Deshimaru (Sando Kaisen, Zazen International)). Native: Дзен-центр «Храм середины земли». Urban dojo of the Russian sangha of Zen master Sando Kaisen, offering regular zazen on Wednesdays and Sundays in central Moscow; practice follows the Deshimaru/Sawaki Sōtō lineage with mokushō (silent illumination) emphasis. Status: appears active as of 2025; in-person meetings may be affected by Moscow's political climate post-2022—check schedule before visiting.",
     url: "https://zen-kaisen.ru/zen-in-russia",
+    geoPrecision: "city",
   },
   {
     slug: "dzen-tsentr-v-kaliningrade",
@@ -17156,6 +18309,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sando_kaisen",
     sourceExcerpt: "Dzen-tsentr v Kaliningrade — listed at zen-kaisen.ru (Sōtō / Deshimaru (Sando Kaisen, Zazen International)). Native: Дзен-центр в Калининграде. Regional dojo of Sando Kaisen's sangha meeting Sunday afternoons at the 'Zhivoe' space on Parkovaya Alleya; schedule and suggested donations are listed on the sangha website. Status: listed as active on the Russian sangha site; local conditions and travel restrictions may change quickly—verify locally.",
     url: "https://zen-kaisen.ru/zen-in-russia",
+    geoPrecision: "city",
   },
   {
     slug: "dzen-tsentr-dodzho-vecherney-luny",
@@ -17171,6 +18325,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sando_kaisen",
     sourceExcerpt: "Dzen-tsentr 'Dodzho vecherney luny' — listed at zen-kaisen.ru (Sōtō / Deshimaru (Sando Kaisen, Zazen International)). Native: Дзен-центр «Додзё вечерней луны». Small residential dojo in Zelenograd led by nun Kan Dzi (Антонина Миронова-Тихомирова), offering mid-week and Saturday zazen in the Deshimaru/Sando Kaisen lineage. Status: appears active with contact phone and Telegram on sangha media; confirm details before traveling.",
     url: "https://zen-kaisen.ru/zen-in-russia",
+    geoPrecision: "city",
   },
   {
     slug: "dzen-tsentr-koraifu-ji",
@@ -17186,6 +18341,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sando_kaisen",
     sourceExcerpt: "Dzen-tsentr 'Koraifu-ji' (Samara) — listed at zen-kaisen.ru (Sōtō / Deshimaru (Sando Kaisen, Zazen International)). Native: Дзен-центр «Кораифу Дзи» («Храм ни прихода ни ухода»). Samara dojo of the Sando Kaisen sangha, holding weekly zazen at creative cluster Dom 77 on Leningradskaya Street; instruction and schedule are provided for newcomers. Status: listed as active; regional economic and transport disruption after 2022 may affect access.",
     url: "https://zen-kaisen.ru/zen-in-russia",
+    geoPrecision: "city",
   },
   {
     slug: "dzen-tsentr-v-chelyabinske",
@@ -17201,6 +18357,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sando_kaisen",
     sourceExcerpt: "Dzen-tsentr v Chelyabinske — listed at zen-kaisen.ru (Sōtō / Deshimaru (Sando Kaisen, Zazen International)). Native: Дзен-центр в Челябинске. Official dojo of Sando Kaisen's sangha in Chelyabinsk under nun Shitsu Ho (Мария Шишкина), offering twice-weekly zazen and introductory instruction for beginners. Status: appears active per local VK community; long-distance travel and public meetings in Russia remain sensitive—verify current arrangements.",
     url: "https://zen-kaisen.ru/zen-in-russia",
+    geoPrecision: "city",
   },
   {
     slug: "moskovskiy-dzen-tsentr-kwan-um",
@@ -17216,6 +18373,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_kwanum",
     sourceExcerpt: "Moskovskiy Dzen-tsentr 'Kwan Um' — listed at center-zen.narod.ru (Kwan Um School of Zen (Korean Seon)). Native: Московский дзэн-центр школы «Кван Ум». Moscow Zen Center associated with the international Kwan Um School of Zen, teaching Seung Sahn's Korean Seon with weekly evening practice at the Korean temple on Kedrova Street. Status: website and contact details remain online but on an old hosting platform; post-2022 openness of public practice for foreign-linked Buddhist groups is uncertain—contact by phone or email first.",
     url: "https://center-zen.narod.ru/index_en.html",
+    geoPrecision: "city",
   },
   {
     slug: "saint-petersburg-zen-center",
@@ -17231,6 +18389,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_kwanum",
     sourceExcerpt: "Saint Petersburg Zen Center (Kwan Um) — listed at www.kwanumeurope.org (Kwan Um School of Zen (Korean Seon)). Native: Санкт-Петербургский дзэн-центр (школа «Кван Ум»). Kwan Um Zen group in Saint Petersburg meeting for meditation at the Tibetan Buddhist temple Datsan Gunzechoinei on Primorsky prospekt, under the European region of the Kwan Um School. Status: Kwan Um Europe still lists this center, but foreign-linked religious activity in Russia has tightened since 2022; verify by phone/email before attending.",
     url: "https://www.kwanumeurope.org/locations/saint-petersburg-zen-center/",
+    geoPrecision: "city",
   },
   {
     slug: "ulianovsk-zen-center",
@@ -17246,6 +18405,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_iriz_hanazono",
     sourceExcerpt: "Ulianovsk Zen Center (Kwan Um) — listed at iriz.hanazono.ac.jp (Kwan Um School of Zen (Korean Seon)). Native: Ульяновский дзэн-центр. Listed by IRIZ as a Kwan Um School of Zen center in Ulyanovsk affiliated with Korean Chogye Order teacher Wu Bong; holds zazen and retreats in the Seung Sahn lineage. Status: IRIZ entry last updated 2003; no recent web presence could be verified, so physical activity and location after 2022 are highly uncertain.",
     url: "http://iriz.hanazono.ac.jp/zen_centers/centers_data/russia.htm",
+    geoPrecision: "city",
   },
   {
     slug: "velikiy-novgorod-meditation-center",
@@ -17261,6 +18421,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_iriz_hanazono",
     sourceExcerpt: "Velikiy Novgorod Meditation Center (Kwan Um) — listed at iriz.hanazono.ac.jp (Kwan Um School of Zen (Korean Seon)). Native: Медитационный центр в Великом Новгороде. IRIZ lists this as a Kwan Um–affiliated meditation center in Bronnitsa near Veliky Novgorod, in the Seung Sahn Korean Zen lineage. Status: only attested in the early-2000s IRIZ database; current existence of a local Kwan Um group at this address is unknown and should be treated as archival information.",
     url: "http://iriz.hanazono.ac.jp/zen_centers/centers_data/russia.htm",
+    geoPrecision: "city",
   },
   {
     slug: "moscow-sangha",
@@ -17276,6 +18437,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_iriz_hanazono",
     sourceExcerpt: "Moscow Sangha (Thich Nhat Hanh tradition) — listed at iriz.hanazono.ac.jp (Plum Village (Thích Nhất Hạnh)). Native: Московская сангха (традиция Тик Нат Ханя). Listed by IRIZ as a lay sangha in the Vietnamese Zen/Plum Village tradition under Boris Orion, meeting for mindfulness practice and zazen in Moscow apartments. Status: no current dedicated website in 2026; given IRIZ's last update in 2003 and Russia's political climate, the sangha's location and public activity are highly uncertain—contact through newer Plum Village networks if possible.",
     url: "http://iriz.hanazono.ac.jp/zen_centers/centers_data/russia.htm",
+    geoPrecision: "city",
   },
   {
     slug: "bodhisattva-truth-center",
@@ -17291,6 +18453,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_iriz_hanazono",
     sourceExcerpt: "Bodhisattva Truth Center (Moscow) — listed at iriz.hanazono.ac.jp (Plum Village (Thích Nhất Hạnh)). Native: Центр «Истина Бодхисаттвы». Early Moscow Vietnamese Zen group in Thich Nhat Hanh's lineage listed by IRIZ under several local teachers, practicing sitting and walking meditation. Status: directory entry dates from 2003; no reliable post-2010 web traces were found, and the group's survival in Moscow after 2022 is doubtful without direct confirmation.",
     url: "http://iriz.hanazono.ac.jp/zen_centers/centers_data/russia.htm",
+    geoPrecision: "city",
   },
   {
     slug: "zengarden",
@@ -17306,6 +18469,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Zengården — listed at www.zazen.se (Sanbo / Cloud-Water Sangha (Kapleau / Bodhin Kjolhede / Yasutani-Harada lineage)). Head temple and residential retreat center of Zenbuddhistiska Samfundet; full-time training year-round since 1995; teachers Sante Poromaa Roshi and Kanja Odland Roshi",
     url: "https://zentraining.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "stockholm-zen-center",
@@ -17321,6 +18485,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Stockholm Zen Center — listed at www.zazen.se (Cloud-Water Sangha (Kapleau / Kjolhede)). City temple of Zenbuddhistiska Samfundet on Södermalm",
     url: "http://stockholmzencenter.se/",
+    geoPrecision: "exact",
   },
   {
     slug: "goteborg-zen-center",
@@ -17336,6 +18501,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Göteborg Zen Center — listed at www.zazen.se (Cloud-Water Sangha (Kapleau / Kjolhede)). City temple of Zenbuddhistiska Samfundet; teacher Dharman Ödman-sensei (appointed 2019)",
     url: "https://www.goteborgzencenter.se/",
+    geoPrecision: "exact",
   },
   {
     slug: "lund-zen-center",
@@ -17351,6 +18517,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Lund Zen Center — listed at www.zazen.se (Cloud-Water Sangha (Kapleau / Kjolhede)). City temple of Zenbuddhistiska Samfundet",
     url: "https://www.lundzencenter.se/",
+    geoPrecision: "exact",
   },
   {
     slug: "umea-zengrupp",
@@ -17366,6 +18533,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Umeå Zengrupp — listed at www.zazen.se (Cloud-Water Sangha (Kapleau / Kjolhede)). Affiliated sitting group of Zenbuddhistiska Samfundet",
     url: "https://www.zengu.se/",
+    geoPrecision: "city",
   },
   {
     slug: "uppsala-zengrupp",
@@ -17381,6 +18549,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Uppsala Zengrupp — listed at www.zazen.se (Cloud-Water Sangha (Kapleau / Kjolhede)). Affiliated sitting group of Zenbuddhistiska Samfundet",
     url: "https://www.zazen.se/aboutus_en.php",
+    geoPrecision: "city",
   },
   {
     slug: "lunds-zendojo",
@@ -17396,6 +18565,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_azi",
     sourceExcerpt: "Lunds Zendojo (AZI) — listed at www.zen-azi.org (Soto Zen (Deshimaru / Association Zen Internationale)). AZI dojo; responsible Charlotte Laurell; daily zazen schedule",
     url: "http://www.soto-zen.se/",
+    geoPrecision: "exact",
   },
   {
     slug: "so-gyo-zen-dojo-goteborg",
@@ -17411,6 +18581,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_azi",
     sourceExcerpt: "So Gyo Zen Dojo Göteborg — listed at zen-goteborg.se (Soto Zen (Deshimaru / Kosen lineage)). Led by Zen nun Rei Kiku Femenias (dharma transmission from Master Kosen, 2015)",
     url: "https://zen-goteborg.se/",
+    geoPrecision: "exact",
   },
   {
     slug: "goteborg-zen-dojo",
@@ -17426,6 +18597,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sanbozen",
     sourceExcerpt: "Göteborg Zen Dojo (Sanbo) — listed at sanbodojo.se (Sanbo Zen). Sanbo Zen-affiliated dojo in Göteborg; contact senshin.mats@icloud.com; monthly introductions first Wednesday at 17:30",
     url: "https://sanbodojo.se/",
+    geoPrecision: "city",
   },
   {
     slug: "svalornas-sangha",
@@ -17441,6 +18613,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_whiteplum",
     sourceExcerpt: "Svalornas Sangha (Zen Peacemakers Sweden) — listed at zenpeacemakers.org (Zen Peacemakers (Bernie Glassman)). Engaged Buddhism Zen group, ZPI affiliate",
     url: "https://www.svalornassangha.org/",
+    geoPrecision: "city",
   },
   {
     slug: "plum-village-traditionen-sverige",
@@ -17456,6 +18629,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Plum Village-traditionen Sverige — listed at plumvillage-traditionen.se (Plum Village (Thích Nhất Hạnh)). National umbrella for Plum Village sanghas in Sweden, formed 2021",
     url: "https://plumvillage-traditionen.se/",
+    geoPrecision: "city",
   },
   {
     slug: "sangha-malmo",
@@ -17471,6 +18645,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sangha Malmö (Plum Village) — listed at plumvillage-traditionen.se (Plum Village (Thích Nhất Hạnh)). Plum Village tradition sangha",
     url: "https://www.facebook.com/groups/1006148160066045/",
+    geoPrecision: "city",
   },
   {
     slug: "rosensanghan",
@@ -17486,6 +18661,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Rosensanghan — listed at plumvillage-traditionen.se (Plum Village (Thích Nhất Hạnh)). Plum Village tradition sangha",
     url: "https://rosensanghan.weebly.com/",
+    geoPrecision: "city",
   },
   {
     slug: "fikussanghan",
@@ -17501,6 +18677,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Fikussanghan — listed at plumvillage-traditionen.se (Plum Village (Thích Nhất Hạnh)). Plum Village tradition sangha",
     url: "https://www.facebook.com/groups/529472283212936/",
+    geoPrecision: "city",
   },
   {
     slug: "sollandet-sangha",
@@ -17516,6 +18693,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Sollandet Sangha — listed at plumvillage-traditionen.se (Plum Village (Thích Nhất Hạnh)). Plum Village tradition sangha",
     url: "https://plumvillage-traditionen.se/sollandet",
+    geoPrecision: "city",
   },
   {
     slug: "wake-up-stockholm",
@@ -17531,6 +18709,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Wake Up Stockholm — listed at plumvillage-traditionen.se (Plum Village (Thích Nhất Hạnh)). Plum Village 'Wake Up' young adult sangha",
     url: "https://www.facebook.com/groups/698508990644945/",
+    geoPrecision: "city",
   },
   {
     slug: "wake-up-lund",
@@ -17546,6 +18725,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Wake Up Lund — listed at plumvillage-traditionen.se (Plum Village (Thích Nhất Hạnh)). Plum Village 'Wake Up' young adult sangha",
     url: "https://www.facebook.com/groups/2106143476284454",
+    geoPrecision: "city",
   },
   {
     slug: "wake-up-malmo",
@@ -17561,6 +18741,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Wake Up Malmö — listed at plumvillage-traditionen.se (Plum Village (Thích Nhất Hạnh)). Plum Village 'Wake Up' young adult sangha",
     url: "https://www.facebook.com/groups/668787381473803",
+    geoPrecision: "city",
   },
   {
     slug: "wake-up-gothenburg",
@@ -17576,6 +18757,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Wake Up Gothenburg — listed at plumvillage-traditionen.se (Plum Village (Thích Nhất Hạnh)). Plum Village 'Wake Up' young adult sangha",
     url: "https://plumvillage-traditionen.se/wake-up-gothenburg",
+    geoPrecision: "city",
   },
   {
     slug: "gladjens-kalla-sangha",
@@ -17591,6 +18773,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Glädjens källa Sangha — listed at plumvillage-traditionen.se (Plum Village (Thích Nhất Hạnh)). Plum Village tradition sangha (online + Stockholm)",
     url: "https://www.gladjenskalla.se/",
+    geoPrecision: "city",
   },
   {
     slug: "stockholms-zengrupp",
@@ -17606,6 +18789,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Stockholms Zengrupp (Ordinary Mind Zen) — listed at ordinarymind.se (Ordinary Mind Zen (Joko Beck lineage)). Ordinary Mind Zen Stockholm group",
     url: "https://zenstockholm.nu/",
+    geoPrecision: "city",
   },
   {
     slug: "joyful-garden-sangha",
@@ -17621,6 +18805,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Joyful Garden Sangha — listed at www.parallax.org (Plum Village (Thích Nhất Hạnh)). Lay Plum Village sangha established 2008; monthly Days of Mindfulness in the tradition of Thich Nhat Hanh.",
     url: "https://www.joyfulgarden.sg/",
+    geoPrecision: "city",
   },
   {
     slug: "nihonji-soto-zen-temple",
@@ -17636,6 +18821,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sotozen_jp",
     sourceExcerpt: "Nihonji Soto Zen Temple — listed at www.sotozen.com (Soto Zen (Sotoshu)). Sole Sotoshu-listed Soto Zen temple in Singapore, per official Sotoshu international temple directory.",
     url: "https://www.sotozen.com/eng/temples/outside_jp/Singapore/",
+    geoPrecision: "exact",
   },
   {
     slug: "dharma-drum-mountain-singapore",
@@ -17651,6 +18837,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Dharma Drum Mountain Singapore — listed at ddsingapore.org (Chan / Sheng-yen (Dharma Drum Mountain)). Singapore branch of Dharma Drum Mountain Buddhist Association; offers Chan meditation classes and Sheng-yen lineage teachings.",
     url: "https://ddsingapore.org/en",
+    geoPrecision: "city",
   },
   {
     slug: "awaken-mindfulness-centre-singapore",
@@ -17666,6 +18853,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Awaken Mindfulness Centre Singapore — listed at plumvillage.org (Plum Village (Thích Nhất Hạnh)). Plum Village-aligned mindfulness sangha and practice centre in Singapore. Coordinates approximate Singapore centre.",
     url: "https://www.awaken.sg/",
+    geoPrecision: "city",
   },
   {
     slug: "foguang-shan-singapore",
@@ -17681,6 +18869,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Foguang Shan Singapore — listed at www.fgs.org.tw (Chan / Linji (Foguangshan)). Foguangshan branch in Singapore. Coordinates approximate Singapore centre.",
     url: "https://www.fgs.sg/",
+    geoPrecision: "city",
   },
   {
     slug: "chung-tai-chan-monastery-singapore",
@@ -17696,6 +18885,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Chung Tai Chan Monastery Singapore — listed at www.ctworld.org.tw (Chan / Linji (Chung Tai Shan)). Chung Tai branch in Singapore. Coordinates approximate Singapore centre.",
     url: "https://www.chungtai.org.sg/",
+    geoPrecision: "city",
   },
   {
     slug: "bratislava-zen-center",
@@ -17711,6 +18901,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_kwanum",
     sourceExcerpt: "Bratislava Zen Center (Slovenská zenová škola Kwan Um) — listed at kwanumzen.sk (Kwan Um School of Zen (Korean Seon)). Main Kwan Um center in Slovakia. Slovak Kwan Um school established 1990; celebrated 20 years in 2010.",
     url: "https://www.bratislavazen.sk/",
+    geoPrecision: "exact",
   },
   {
     slug: "kosice-zen-center",
@@ -17726,6 +18917,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_kwanum",
     sourceExcerpt: "Košice Zen Center — listed at www.kwanumeurope.org (Kwan Um School of Zen (Korean Seon)). Eastern Slovakia Kwan Um center. Wednesday evening sessions 18:30-20:30.",
     url: "https://www.kwanumeurope.org/locations/kosice-zen-center/",
+    geoPrecision: "exact",
   },
   {
     slug: "thai-plum-village-international-practice-center",
@@ -17741,6 +18933,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Thai Plum Village International Practice Center — listed at plumvillage.org (Plum Village (Thích Nhất Hạnh)). Plum Village monastery founded 2008; current campus near Khao Yai National Park since 2013, ~240 km NE of Bangkok. Trilingual programs (Vietnamese/English/Thai).",
     url: "https://www.thaiplumvillage.org/",
+    geoPrecision: "city",
   },
   {
     slug: "great-buddha-monastery",
@@ -17756,6 +18949,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Great Buddha Monastery (Chung Tai Thailand) — listed at www.ctworld.org.tw (Chan / Linji (Chung Tai Shan)). Thai branch monastery of Chung Tai Chan Monastery.",
     url: "https://www.ctworld.org/",
+    geoPrecision: "city",
   },
   {
     slug: "istanbul-yun-hwa-dharma-sah",
@@ -17771,6 +18965,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Istanbul Yun Hwa Dharma Sah — listed at yunhwasangha.org (Korean Zen (Yun Hwa / World Social Buddhism — Ji Kwang Dae Poep Sa Nim)). First Yun Hwa Dharma Sah in Asia; opened 7 September 2013. Phone +90 543 965 41 77.",
     url: "https://yunhwasangha.org/centers/istanbul/",
+    geoPrecision: "city",
   },
   {
     slug: "istanbul-lotus-river-sangha",
@@ -17786,6 +18981,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Istanbul Lotus River Sangha — listed at www.relight.one (Plum Village (Thích Nhất Hạnh)). Plum Village mindfulness sangha in Istanbul. Active community of practitioners.",
     url: "https://www.facebook.com/groups/1211436302248039/",
+    geoPrecision: "city",
   },
   {
     slug: "cem-sen-sangha",
@@ -17801,6 +18997,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Cem Şen Sangha (Turkish Buddhist Sangha) — listed at tricycle.org (Zen (formal Zen training since 1989; founder student of İlhan Güngören)). Turkey's principal Zen-trained Buddhist sangha. Founder Cem Şen (b. 1968, İzmir) began Zen training in 1989. Tricycle profile (2024) describes ~350 devotees over a decade.",
     url: "https://cemsen.com/?lang=en",
+    geoPrecision: "city",
   },
   {
     slug: "dharma-drum-mountain-world-center-for-buddhist-education",
@@ -17816,6 +19013,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_wikipedia",
     sourceExcerpt: "Dharma Drum Mountain World Center for Buddhist Education — listed at en.wikipedia.org (Chan / Sheng-yen (Dharma Drum Mountain)). International headquarters and main monastery of the Dharma Drum Mountain organization founded by Chan Master Sheng-yen; one of the Four Great Mountains of Taiwanese Buddhism.",
     url: "https://www.dharmadrum.org/",
+    geoPrecision: "city",
   },
   {
     slug: "nung-chan-monastery",
@@ -17831,6 +19029,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_wikipedia",
     sourceExcerpt: "Nung Chan Monastery (Water-Moon Dharma Center) — listed at en.wikipedia.org (Chan / Sheng-yen (Dharma Drum Mountain)). Principal Taipei branch of Dharma Drum Mountain, founded 1975 by Master Dongchu; site of Sheng-yen's early teaching. Famed Water-Moon Dharma Center hall.",
     url: "https://www.ddm.org.tw/",
+    geoPrecision: "city",
   },
   {
     slug: "chung-tai-chan-monastery",
@@ -17846,6 +19045,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_wikipedia",
     sourceExcerpt: "Chung Tai Chan Monastery — listed at en.wikipedia.org (Chan / Linji (Chung Tai Shan)). Main monastery of Chung Tai Shan (Linji Chan), founded by Wei Chueh in 1987; 136 m tall, parent of 108 affiliated Chan meditation centers.",
     url: "https://www.ctworld.org/",
+    geoPrecision: "city",
   },
   {
     slug: "fo-guang-shan-monastery",
@@ -17861,6 +19061,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_wikipedia",
     sourceExcerpt: "Fo Guang Shan Monastery (Chan Hall) — listed at en.wikipedia.org (Chan / Linji (Fo Guang Shan, Humanistic Buddhism)). Headquarters of Fo Guang Shan, founded 1967 by Hsing Yun; Chan Hall behind Main Shrine on third floor of Tathagata Building, capacity 400+.",
     url: "https://www.fgs.org.tw/",
+    geoPrecision: "city",
   },
   {
     slug: "linji-huguo-chan-temple",
@@ -17876,6 +19077,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_wikipedia",
     sourceExcerpt: "Linji Huguo Chan Temple — listed at en.wikipedia.org (Rinzai / Linji). Historic Japanese-built Rinzai temple (1900-1911), now affiliated with Fo Guang Shan; weekly Sunday Chan meditation sessions.",
     url: "https://www.fgs.org.tw/",
+    geoPrecision: "city",
   },
   {
     slug: "dharma-drum-retreat-center",
@@ -17891,6 +19093,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_dharmadrum",
     sourceExcerpt: "Dharma Drum Retreat Center (Sanyi Branch) — listed at www.dharmadrum.org (Chan / Sheng-yen (Dharma Drum Mountain)). Dharma Drum branch retreat / DILA campus; one of multiple DDM education centers across Taiwan.",
     url: "https://www.ddm.org.tw/",
+    geoPrecision: "city",
   },
   {
     slug: "bo-hyun-sa",
@@ -17906,6 +19109,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_kwanum",
     sourceExcerpt: "Bo Hyun Sa — listed at southfloridazen.org (Korean Seon (Jogye / Chogye Order)). Korean Buddhist temple of the Chogye Order serving the Korean Buddhist community of Fort Lauderdale, Miami, and West Palm Beach. Hosts the South Florida Zen Group (Kwan Um) for Saturday-morning practice. The Kwan Um sangha itself is captured separately in the main us.json file.",
     url: "https://southfloridazen.org/locations/bo-hyun-sa-temple/",
+    geoPrecision: "city",
   },
   {
     slug: "plum-blossom-sangha",
@@ -17921,6 +19125,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Plum Blossom Sangha — listed at www.gosit.org (Plum Village (Thích Nhất Hạnh)). Weekly hybrid practice in the Plum Village tradition every Sunday 4:00–6:00 p.m. at Flow Yoga Westgate, with sitting, walking meditation, readings from Thich Nhat Hanh, and Dharma sharing. Founded in the late 1990s as a Mindfulness Practice Community and continues to host retreats and Days of Mindfulness with Plum Village Dharma teachers.",
     url: "https://plumblossomsangha.org",
+    geoPrecision: "city",
   },
   {
     slug: "wake-up-new-york",
@@ -17936,6 +19141,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Wake Up New York — listed at wkup.org (Plum Village (Thích Nhất Hạnh)). Young-adult Wake Up sangha in Manhattan practicing in the Plum Village tradition; meets in person every Friday 7:30–9:30 p.m. at Still Mind Zendo with sitting and walking meditation, readings, and Dharma sharing. The group formed around 2011 after a Wake Up tour by Plum Village monastics and has since become a long-standing Wake Up hub for New York City.",
     url: "https://wakeupnewyork.org",
+    geoPrecision: "city",
   },
   {
     slug: "wake-up-san-diego",
@@ -17951,6 +19157,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Wake Up San Diego — listed at wkup.org (Plum Village (Thích Nhất Hạnh)). Wake Up sangha for young adults in the Plum Village tradition; holds in-person practice on Sundays at 4:00 p.m. at the WorldBeat Center in Balboa Park together with WorldBeat / HeartBeat Sangha, including meditation, walking, and sharing. The group grew out of earlier Heart Beat / World Beat PV practice in San Diego and has featured repeatedly in Wake Up's global communications as a model community.",
     url: "https://www.wakeupsandiego.org",
+    geoPrecision: "city",
   },
   {
     slug: "vermont-zen-center",
@@ -17966,6 +19173,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sanbozen",
     sourceExcerpt: "Vermont Zen Center — listed at www.vermontzen.org (Sanbō Zen–influenced (Kapleau / Harada–Yasutani)). Founded in 1988 by Roshi Sunyana Graef, a Dharma heir of Philip Kapleau in the Harada–Yasutani line. The Vermont Zen Center maintains daily sittings, introductory workshops, sesshin, and a solo retreat cabin on its wooded property. Training combines Sōtō-style shikantaza and koan practice resembling Sanbō Zen's Harada–Yasutani stream.",
     url: "https://www.vermontzen.org",
+    geoPrecision: "city",
   },
   {
     slug: "chan-meditation-center",
@@ -17981,6 +19189,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_dharmadrum",
     sourceExcerpt: "Chan Meditation Center (Dharma Drum Mountain New York) — listed at dharmadrumretreat.org (Chan / Sheng-yen (Dharma Drum Mountain)). Chan Meditation Center is the main US city temple of Dharma Drum Mountain, founded by Chan Master Sheng Yen in Queens; offers weekly group meditation, Dharma talks, and classes in English and Chinese. Headquarters of Dharma Drum Mountain Buddhist Association (DDMBA) America and coordinates affiliates across North America.",
     url: "https://chancenter.org",
+    geoPrecision: "city",
   },
   {
     slug: "dharma-drum-retreat-center-pine-bush",
@@ -17996,6 +19205,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_dharmadrum",
     sourceExcerpt: "Dharma Drum Retreat Center (DDRC) — listed at dharmadrumretreat.org (Chan / Sheng-yen (Dharma Drum Mountain)). DDRC is the North American retreat center of Dharma Drum Mountain, founded by Master Sheng Yen to host silent meditation retreats from beginner instruction to advanced Chan methods such as silent illumination and huatou. Year-round retreats at its rural campus in Pine Bush, New York.",
     url: "https://dharmadrumretreat.org",
+    geoPrecision: "city",
   },
   {
     slug: "ddm-los-angeles-center",
@@ -18011,6 +19221,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_dharmadrum",
     sourceExcerpt: "DDM Los Angeles Center — listed at dharmadrumretreat.org (Chan / Sheng-yen (Dharma Drum Mountain)). Regional Dharma Drum Mountain center for Southern California, offering regular meditation practice, Dharma classes, and retreats in the Chan tradition. Directed by Chang Tong Fashi and affiliated with Chan Meditation Center and DDMBA.",
     url: "https://www.ddmbala.org",
+    geoPrecision: "city",
   },
   {
     slug: "ddm-massachusetts-buddhist-association",
@@ -18026,6 +19237,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_dharmadrum",
     sourceExcerpt: "DDM Massachusetts Buddhist Association — listed at dharmadrumretreat.org (Chan / Sheng-yen (Dharma Drum Mountain)). Dharma Drum center in Lexington providing group meditation, Dharma talks, and retreats; led by Chang Xuan Fashi as Associate Director within the DDM global network. Serves practitioners in the Greater Boston area in Master Sheng Yen's Chan lineage.",
     url: "https://www.ddmmba.org",
+    geoPrecision: "city",
   },
   {
     slug: "ddm-san-francisco-bay-area-center",
@@ -18041,6 +19253,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_dharmadrum",
     sourceExcerpt: "DDM San Francisco Bay Area Center — listed at dharmadrumretreat.org (Chan / Sheng-yen (Dharma Drum Mountain)). Bay Area Dharma Drum center in Fremont offering Chan meditation, Dharma classes, and retreats under Director Chang Xiang Fashi, connected with CMC and DDRC in the broader DDM network.",
     url: "https://www.ddmbasf.org",
+    geoPrecision: "city",
   },
   {
     slug: "ddm-seattle-center",
@@ -18056,6 +19269,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_dharmadrum",
     sourceExcerpt: "DDM Seattle Center — listed at dharmadrumretreat.org (Chan / Sheng-yen (Dharma Drum Mountain)). Dharma Drum Mountain Seattle center in suburban Woodinville, directed by Joyce Chen, providing weekly meditation practice, Dharma teaching, and retreats in the Chan tradition.",
     url: "https://www.ddmbaseattle.org",
+    geoPrecision: "city",
   },
   {
     slug: "tallahassee-chan-center",
@@ -18071,6 +19285,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_dharmadrum",
     sourceExcerpt: "Tallahassee Chan Center — listed at www.dharmadrum.org (Chan / Sheng-yen (Dharma Drum Chan lineage)). Founded by Guo Gu (Jimmy Yu), one of Master Sheng Yen's closest disciples. Tallahassee Chan Center is a major Western Chan hub offering weekly group meditation, workshops, and intensive retreats in the Dharma Drum Chan lineage. Recognized as a DDMBA chapter listed among Dharma Drum's North American centers, emphasizing both Linji and Caodong Chan methods for English-speaking practitioners.",
     url: "https://tallahasseechan.org",
+    geoPrecision: "city",
   },
   {
     slug: "upright-noble-zen",
@@ -18086,6 +19301,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_szba",
     sourceExcerpt: "Upright Noble Zen — listed at www.szba.org (Sōtō (SZBA)). SZBA member; small Soto sitting group in Anchorage.",
     url: "https://uprightnoblezen.org/",
+    geoPrecision: "city",
   },
   {
     slug: "anchorage-zen-community",
@@ -18101,6 +19317,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sotozen_jp",
     sourceExcerpt: "Anchorage Zen Community — listed at www.sotozen.com (Sōtō (Sōtōshū North America)). Sōtōshū North America-listed Soto Zen community in Anchorage.",
     url: "http://www.anchoragezen.com/",
+    geoPrecision: "city",
   },
   {
     slug: "cold-mountain-zen-center",
@@ -18116,6 +19333,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_kwanum",
     sourceExcerpt: "Cold Mountain Zen Center — listed at americas.kwanumzen.org (Kwan Um School of Zen (Korean Seon)). Kwan Um School of Zen affiliate in interior Alaska.",
     url: "https://coldmountainzencenter.org/",
+    geoPrecision: "city",
   },
   {
     slug: "myung-wol-zen-center",
@@ -18131,6 +19349,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_kwanum",
     sourceExcerpt: "Myung Wol Zen Center — listed at americas.kwanumzen.org (Kwan Um School of Zen (Korean Seon)). Kwan Um affiliate; no standalone site listed in directory.",
     url: "https://americas.kwanumzen.org/zen-centers",
+    geoPrecision: "city",
   },
   {
     slug: "cochise-zen-center",
@@ -18146,6 +19365,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_kwanum",
     sourceExcerpt: "Cochise Zen Center — listed at americas.kwanumzen.org (Kwan Um School of Zen (Korean Seon)). Kwan Um affiliate in Old Bisbee.",
     url: "https://cochisezencenter.org/",
+    geoPrecision: "city",
   },
   {
     slug: "haku-un-ji-zen-center",
@@ -18161,6 +19381,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_rinzaiji",
     sourceExcerpt: "Haku-un-ji Zen Center — listed at www.rinzaiji.org (Rinzai (Rinzai-ji / Joshu Sasaki lineage)). Rinzai-ji affiliate; Phoenix-area Sasaki Roshi sangha.",
     url: "https://zenarizona.com/",
+    geoPrecision: "city",
   },
   {
     slug: "upaya-sangha-of-tucson",
@@ -18176,6 +19397,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_whiteplum",
     sourceExcerpt: "Upaya Sangha of Tucson — listed at whiteplum.org (White Plum Asanga (Maezumi lineage)). White Plum Asanga affiliate; teacher Alfred Genkai Kaszniak.",
     url: "https://upayatucson.org/",
+    geoPrecision: "city",
   },
   {
     slug: "zen-desert-sangha",
@@ -18191,6 +19413,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_diamond_sangha",
     sourceExcerpt: "Zen Desert Sangha — listed at diamondsangha.org (Diamond Sangha (Aitken)). Diamond Sangha affiliate.",
     url: "https://www.zendesertsangha.org/",
+    geoPrecision: "city",
   },
   {
     slug: "little-rock-zen-group",
@@ -18206,6 +19429,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_kwanum",
     sourceExcerpt: "Little Rock Zen Group — listed at americas.kwanumzen.org (Kwan Um School of Zen (Korean Seon)). Kwan Um sitting group at Ecumenical Buddhist Society.",
     url: "https://ebslr.org/kwan-um-zen",
+    geoPrecision: "city",
   },
   {
     slug: "morning-star-zen-center",
@@ -18221,6 +19445,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_kwanum",
     sourceExcerpt: "Morning Star Zen Center — listed at americas.kwanumzen.org (Kwan Um School of Zen (Korean Seon)). Kwan Um School of Zen affiliate.",
     url: "https://americas.kwanumzen.org/zen-centers",
+    geoPrecision: "city",
   },
   {
     slug: "gyobutsuji-zen-monastery",
@@ -18236,6 +19461,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sotozen_jp",
     sourceExcerpt: "Gyobutsuji Zen Monastery — listed at www.sotozen.com (Sōtō (Sōtōshū North America)). Soto Zen monastery in Ozarks.",
     url: "https://gyobutsuji.org/",
+    geoPrecision: "city",
   },
   {
     slug: "arcata-zen-group-rinshinji",
@@ -18251,6 +19477,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_szba",
     sourceExcerpt: "Arcata Zen Group / Rinshinji — listed at www.szba.org (Sōtō (SZBA)). SZBA-affiliated Soto group in Humboldt County.",
     url: "https://arcatazengroup.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "bamboo-in-the-wind-zen-center",
@@ -18266,6 +19493,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_szba",
     sourceExcerpt: "Bamboo in the Wind Zen Center — listed at www.szba.org (Sōtō (SZBA)). SZBA member.",
     url: "https://bamboointhewind.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "beginner-s-mind-zen-center",
@@ -18281,6 +19509,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_szba",
     sourceExcerpt: "Beginner's Mind Zen Center — listed at www.szba.org (Sōtō (SZBA)). SZBA-listed Soto sitting community.",
     url: "https://beginnersmindzc.org/",
+    geoPrecision: "city",
   },
   {
     slug: "boundless-mind-sangha",
@@ -18296,6 +19525,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_szba",
     sourceExcerpt: "Boundless Mind Sangha — listed at www.szba.org (Sōtō (SZBA)). SZBA member.",
     url: "https://boundlessmindsangha.org/",
+    geoPrecision: "city",
   },
   {
     slug: "santa-barbara-zen-center",
@@ -18311,6 +19541,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_szba",
     sourceExcerpt: "Santa Barbara Zen Center — listed at www.szba.org (Sōtō (SZBA)). SZBA member.",
     url: "https://santabarbarazen.org/",
+    geoPrecision: "city",
   },
   {
     slug: "three-treasures-zen-community-joren-temple",
@@ -18326,6 +19557,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_szba",
     sourceExcerpt: "Three Treasures Zen Community / JoRen Temple — listed at www.szba.org (Sōtō (SZBA)). SZBA member.",
     url: "https://threetreasureszen.org/",
+    geoPrecision: "city",
   },
   {
     slug: "dragons-leap-meditation-center",
@@ -18341,6 +19573,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_szba",
     sourceExcerpt: "Dragons Leap Meditation Center — listed at www.szba.org (Sōtō (SZBA)). SZBA member; Sunset District sitting community.",
     url: "https://dragonsleap.org/",
+    geoPrecision: "city",
   },
   {
     slug: "empty-moon-zen-network",
@@ -18356,6 +19589,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_szba",
     sourceExcerpt: "Empty Moon Zen Network — listed at www.szba.org (Sōtō (SZBA)). SZBA member; James Ishmael Ford lineage network.",
     url: "https://emptymoonzen.org/",
+    geoPrecision: "city",
   },
   {
     slug: "everyday-dharma-zen-center",
@@ -18371,6 +19605,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_szba",
     sourceExcerpt: "Everyday Dharma Zen Center — listed at www.szba.org (Sōtō (SZBA)). SZBA member.",
     url: "https://everydaydharma.org/",
+    geoPrecision: "city",
   },
   {
     slug: "everyday-zen-foundation",
@@ -18386,6 +19621,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_szba",
     sourceExcerpt: "Everyday Zen Foundation — listed at www.szba.org (Sōtō (Norman Fischer / SFZC line)). Founded by Norman Fischer; multiple satellite communities.",
     url: "https://www.everydayzen.org/",
+    geoPrecision: "city",
   },
   {
     slug: "floating-zendo",
@@ -18401,6 +19637,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_szba",
     sourceExcerpt: "Floating Zendo — listed at www.szba.org (Sōtō (SZBA)). SZBA member.",
     url: "https://floatingzendo.org/",
+    geoPrecision: "city",
   },
   {
     slug: "jikoji-zen-center",
@@ -18416,6 +19653,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_szba",
     sourceExcerpt: "Jikoji Zen Center — listed at www.szba.org (Sōtō (Suzuki Roshi / Kobun Chino lineage)). Founded under Kobun Chino Roshi; Santa Cruz Mountains.",
     url: "https://jikoji.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "marin-zen-meditation",
@@ -18431,6 +19669,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_szba",
     sourceExcerpt: "Marin Zen Meditation — listed at www.szba.org (Sōtō (SZBA)). SZBA member.",
     url: "https://marinzen.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "middle-way-zen-san-jose-zendo",
@@ -18446,6 +19685,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_szba",
     sourceExcerpt: "Middle Way Zen / San Jose Zendo — listed at www.szba.org (Sōtō (SZBA)). SZBA member.",
     url: "https://middlewayzen.org/",
+    geoPrecision: "city",
   },
   {
     slug: "mill-valley-zen",
@@ -18461,6 +19701,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_szba",
     sourceExcerpt: "Mill Valley Zen — listed at www.szba.org (Sōtō (SZBA)). SZBA member.",
     url: "https://millvalleyzen.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "modesto-zen-center",
@@ -18476,6 +19717,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_szba",
     sourceExcerpt: "Modesto Zen Center — listed at www.szba.org (Sōtō (SZBA)). SZBA member.",
     url: "https://modestozen.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "monterey-bay-zen-center",
@@ -18491,6 +19733,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_szba",
     sourceExcerpt: "Monterey Bay Zen Center — listed at www.szba.org (Sōtō (SZBA)). SZBA member.",
     url: "https://montereybayzen.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "mt-diablo-zen-group",
@@ -18506,6 +19749,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_szba",
     sourceExcerpt: "Mt. Diablo Zen Group — listed at www.szba.org (Sōtō (SZBA)). SZBA member; East Bay sitting group.",
     url: "https://mtdiablozen.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "occidental-laguna-sangha",
@@ -18521,6 +19765,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_szba",
     sourceExcerpt: "Occidental Laguna Sangha — listed at www.szba.org (Sōtō (SZBA)). SZBA member; West Sonoma County.",
     url: "https://www.szba.org/zen-centers-by-state",
+    geoPrecision: "city",
   },
   {
     slug: "ocean-gate-zen-center",
@@ -18536,6 +19781,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sotozen_jp",
     sourceExcerpt: "Ocean Gate Zen Center — listed at www.sotozen.com (Sōtō (Sōtōshū North America)). Soto Zen temple in Capitola.",
     url: "https://www.oceangatezen.org/",
+    geoPrecision: "city",
   },
   {
     slug: "presidio-hill-zen-group",
@@ -18551,6 +19797,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_szba",
     sourceExcerpt: "Presidio Hill Zen Group — listed at www.szba.org (Sōtō (SZBA)). SZBA member; Richmond District.",
     url: "https://presidiohillzen.org/",
+    geoPrecision: "city",
   },
   {
     slug: "russian-river-zendo",
@@ -18566,6 +19813,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_szba",
     sourceExcerpt: "Russian River Zendo — listed at www.szba.org (Sōtō (SZBA)). SZBA member.",
     url: "https://russianriverzendo.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "santa-cruz-zen-center",
@@ -18581,6 +19829,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_szba",
     sourceExcerpt: "Santa Cruz Zen Center — listed at www.szba.org (Sōtō (SZBA)). SZBA member.",
     url: "https://santacruzzen.org/",
+    geoPrecision: "city",
   },
   {
     slug: "sonoma-valley-zen-group",
@@ -18596,6 +19845,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_szba",
     sourceExcerpt: "Sonoma Valley Zen Group — listed at www.szba.org (Sōtō (SZBA)). SZBA member.",
     url: "https://sonomavalleyzen.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "stone-creek-zen-center-sekisen-an",
@@ -18611,6 +19861,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sotozen_jp",
     sourceExcerpt: "Stone Creek Zen Center / Sekisen-an — listed at www.sotozen.com (Sōtō (Suzuki Roshi lineage)). Founded by Jakusho Kwong-style Sonoma sangha lineage.",
     url: "https://stonecreekzencenter.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "sonoma-mountain-zen-center-genjoji",
@@ -18626,6 +19877,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sotozen_jp",
     sourceExcerpt: "Sonoma Mountain Zen Center / Genjoji — listed at www.sotozen.com (Sōtō (Jakusho Kwong / Suzuki Roshi lineage)). Founded by Jakusho Kwong Roshi, Suzuki Roshi disciple.",
     url: "https://www.smzc.org/",
+    geoPrecision: "city",
   },
   {
     slug: "vallejo-zen-center-clear-water-temple",
@@ -18641,6 +19893,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_szba",
     sourceExcerpt: "Vallejo Zen Center / Clear Water Temple — listed at www.szba.org (Sōtō (SZBA)). SZBA member.",
     url: "https://clearwaterzen.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "zen-center-fresno",
@@ -18656,6 +19909,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_szba",
     sourceExcerpt: "Zen Center Fresno — listed at www.szba.org (Sōtō (SZBA)). SZBA member.",
     url: "https://zencenterfresno.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "zen-heart-sangha-woodside",
@@ -18671,6 +19925,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_szba",
     sourceExcerpt: "Zen Heart Sangha — listed at www.szba.org (Sōtō (SZBA)). SZBA member.",
     url: "https://zenheartsangha.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "kojin-an-zendo-oakland-zen-center",
@@ -18686,6 +19941,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sotozen_jp",
     sourceExcerpt: "Kojin-an Zendo / Oakland Zen Center — listed at www.sotozen.com (Sōtō (Sōtōshū North America)). Soto Zen temple in Oakland.",
     url: "http://oaklandzencenter.org/",
+    geoPrecision: "city",
   },
   {
     slug: "long-beach-buddhist-church",
@@ -18701,6 +19957,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sotozen_jp",
     sourceExcerpt: "Long Beach Buddhist Church — listed at www.sotozen.com (Sōtō (Sōtōshū North America)). Japanese-American Soto Zen temple.",
     url: "https://longbeachbuddhistchurch.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "montebello-sozenji-buddhist-temple",
@@ -18716,6 +19973,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sotozen_jp",
     sourceExcerpt: "Montebello Sozenji Buddhist Temple — listed at www.sotozen.com (Sōtō (Sōtōshū North America)). Soto Zen temple in Greater Los Angeles.",
     url: "https://sozenjibuddhisttemple.weebly.com/",
+    geoPrecision: "exact",
   },
   {
     slug: "soto-mission-of-san-francisco-sokoji",
@@ -18731,6 +19989,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sotozen_jp",
     sourceExcerpt: "Soto Mission of San Francisco / Sokoji — listed at www.sotozen.com (Sōtō (Sōtōshū North America)). Historic Soto temple where Suzuki Roshi served before founding SFZC.",
     url: "https://sokoji.org/",
+    geoPrecision: "city",
   },
   {
     slug: "zenshuji-soto-mission",
@@ -18746,6 +20005,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sotozen_jp",
     sourceExcerpt: "Zenshuji Soto Mission — listed at www.sotozen.com (Sōtō (Sōtōshū North America headquarters)). Sotoshu North America office; Little Tokyo.",
     url: "http://www.zenshuji.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "sweetwater-zen-center-kosen-in",
@@ -18761,6 +20021,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_whiteplum",
     sourceExcerpt: "Sweetwater Zen Center / Kosen-in — listed at whiteplum.org (White Plum Asanga (Maezumi lineage)). White Plum Asanga; Zen Peacemakers affiliate.",
     url: "http://www.swzc.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "bay-zen-center",
@@ -18776,6 +20037,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_whiteplum",
     sourceExcerpt: "Bay Zen Center — listed at whiteplum.org (White Plum Asanga (Maezumi lineage)). White Plum Asanga member.",
     url: "https://bayzen.org/",
+    geoPrecision: "city",
   },
   {
     slug: "san-luis-obispo-zen-circle",
@@ -18791,6 +20053,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_whiteplum",
     sourceExcerpt: "San Luis Obispo Zen Circle — listed at whiteplum.org (White Plum Asanga (Maezumi lineage)). White Plum Asanga member.",
     url: "https://slozc.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "citrus-zen-yokoji-long-beach-group",
@@ -18806,6 +20069,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_whiteplum",
     sourceExcerpt: "Citrus Zen / Yokoji Long Beach Group — listed at whiteplum.org (White Plum Asanga (Maezumi lineage)). Yokoji affiliate sangha in Inland Empire.",
     url: "https://citruszen.com/",
+    geoPrecision: "exact",
   },
   {
     slug: "wild-river-zen-circle",
@@ -18821,6 +20085,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_whiteplum",
     sourceExcerpt: "Wild River Zen Circle — listed at whiteplum.org (White Plum Asanga (Maezumi lineage)). White Plum Asanga member.",
     url: "https://wildriverzen.org/",
+    geoPrecision: "city",
   },
   {
     slug: "santa-rosa-zen-group",
@@ -18836,6 +20101,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_whiteplum",
     sourceExcerpt: "Santa Rosa Zen Group — listed at whiteplum.org (White Plum Asanga (Maezumi lineage)). White Plum Asanga member.",
     url: "https://santarosazengroup.org/",
+    geoPrecision: "city",
   },
   {
     slug: "lost-coin-zen",
@@ -18851,6 +20117,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_whiteplum",
     sourceExcerpt: "Lost Coin Zen — listed at whiteplum.org (White Plum Asanga (Maezumi lineage)). White Plum Asanga; teacher Daniel Doen Silberberg.",
     url: "https://lostcoinzen.com/",
+    geoPrecision: "city",
   },
   {
     slug: "freeway-zen",
@@ -18866,6 +20133,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_whiteplum",
     sourceExcerpt: "Freeway Zen — listed at whiteplum.org (White Plum Asanga (Maezumi lineage)). White Plum Asanga member.",
     url: "https://freewayzen.org/",
+    geoPrecision: "city",
   },
   {
     slug: "empty-gate-zen-center-berkeley",
@@ -18881,6 +20149,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_kwanum",
     sourceExcerpt: "Empty Gate Zen Center - Berkeley — listed at americas.kwanumzen.org (Kwan Um School of Zen (Korean Seon)). Kwan Um School of Zen Berkeley center.",
     url: "https://emptygatezen.com/",
+    geoPrecision: "city",
   },
   {
     slug: "empty-gate-zen-center-santa-clara",
@@ -18896,6 +20165,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_kwanum",
     sourceExcerpt: "Empty Gate Zen Center - Santa Clara — listed at americas.kwanumzen.org (Kwan Um School of Zen (Korean Seon)). Kwan Um affiliate in South Bay.",
     url: "https://emptygatezen.com/",
+    geoPrecision: "city",
   },
   {
     slug: "ring-of-bone-zendo",
@@ -18911,6 +20181,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_diamond_sangha",
     sourceExcerpt: "Ring of Bone Zendo — listed at diamondsangha.org (Diamond Sangha (Aitken)). Founded with poet Gary Snyder; Diamond Sangha affiliate.",
     url: "https://ringofbonezendo.org/",
+    geoPrecision: "city",
   },
   {
     slug: "rocks-and-cloud-zendo",
@@ -18926,6 +20197,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_diamond_sangha",
     sourceExcerpt: "Rocks and Cloud Zendo — listed at diamondsangha.org (Diamond Sangha (Aitken)). Diamond Sangha affiliate.",
     url: "https://rocksandclouds.org/",
+    geoPrecision: "city",
   },
   {
     slug: "deep-streams-zen-institute",
@@ -18941,6 +20213,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_diamond_sangha",
     sourceExcerpt: "Deep Streams Zen Institute — listed at diamondsangha.org (Diamond Sangha (Aitken)). Diamond Sangha affiliate.",
     url: "https://deepstreams.org/",
+    geoPrecision: "city",
   },
   {
     slug: "pine-mountain-buddhist-temple",
@@ -18956,6 +20229,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Pine Mountain Buddhist Temple — listed at berkeleybuddhistpriory.org (Sōtō (OBC, Serene Reflection / Jiyu-Kennett)). OBC retreat temple in central coast mountains.",
     url: "http://www.pinemtnbuddhisttemple.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "redding-zen-buddhist-priory",
@@ -18971,6 +20245,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Redding Zen Buddhist Priory — listed at berkeleybuddhistpriory.org (Sōtō (OBC, Serene Reflection / Jiyu-Kennett)). OBC priory in Northern California.",
     url: "https://reddingzen.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "silent-shin",
@@ -18986,6 +20261,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_rinzaiji",
     sourceExcerpt: "Silent Shin — listed at www.rinzaiji.org (Rinzai (Rinzai-ji / Joshu Sasaki)). Rinzai-ji Berkeley affiliate.",
     url: "https://silentshin.rinzaiji.org/",
+    geoPrecision: "city",
   },
   {
     slug: "yokoji-long-beach-meditation-group",
@@ -19001,6 +20277,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_szba",
     sourceExcerpt: "Yokoji Long Beach Meditation Group — listed at www.szba.org (White Plum Asanga (Maezumi lineage)). Yokoji Zen Mountain Center satellite.",
     url: "https://yokoji.org/long-beach/",
+    geoPrecision: "city",
   },
   {
     slug: "stanford-university-zen-group",
@@ -19016,6 +20293,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_szba",
     sourceExcerpt: "Stanford University Zen Group — listed at www.szba.org (Sōtō (SFZC affiliate)). Campus sitting group affiliated with SFZC.",
     url: "https://www.szba.org/zen-centers-by-state",
+    geoPrecision: "exact",
   },
   {
     slug: "kannon-do-zen-meditation-center",
@@ -19031,6 +20309,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_szba",
     sourceExcerpt: "Kannon Do Zen Meditation Center — listed at www.szba.org (Sōtō (Suzuki Roshi lineage)). Founded by Les Kaye Roshi, Suzuki Roshi disciple.",
     url: "https://kannondo.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "boulder-zen-center",
@@ -19046,6 +20325,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_szba",
     sourceExcerpt: "Boulder Zen Center — listed at www.szba.org (Sōtō (SZBA)). SZBA member.",
     url: "https://boulderzen.org/",
+    geoPrecision: "city",
   },
   {
     slug: "prairie-mountain-zen-center",
@@ -19061,6 +20341,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_szba",
     sourceExcerpt: "Prairie Mountain Zen Center — listed at www.szba.org (Sōtō (SZBA)). SZBA member.",
     url: "https://prairiemountainzen.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "hakubai-zen-center",
@@ -19076,6 +20357,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sotozen_jp",
     sourceExcerpt: "Hakubai Zen Center — listed at www.sotozen.com (Sōtō (Sōtōshū North America)). Soto Zen temple.",
     url: "https://www.hakubai.org/",
+    geoPrecision: "city",
   },
   {
     slug: "eon-zen-center",
@@ -19091,6 +20373,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_whiteplum",
     sourceExcerpt: "Eon Zen Center — listed at whiteplum.org (White Plum Asanga (Maezumi lineage)). White Plum Asanga member.",
     url: "https://eonzen.org/",
+    geoPrecision: "city",
   },
   {
     slug: "zen-center-of-denver",
@@ -19106,6 +20389,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_diamond_sangha",
     sourceExcerpt: "Zen Center of Denver — listed at diamondsangha.org (White Plum Asanga (Maezumi lineage)). Diamond Sangha and White Plum affiliate; Karin Ryuku Kempe.",
     url: "https://zencenterofdenver.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "great-mountain-zen-center",
@@ -19121,6 +20405,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_whiteplum",
     sourceExcerpt: "Great Mountain Zen Center — listed at zenpeacemakers.org (White Plum Asanga (Maezumi lineage)). Zen Peacemakers affiliate.",
     url: "https://greatmountainzen.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "hogaku-ji",
@@ -19136,6 +20421,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_rinzaiji",
     sourceExcerpt: "Hogaku-ji (Dharma Mountain Zen Center) — listed at www.rinzaiji.org (Rinzai (Rinzai-ji / Joshu Sasaki)). Rinzai-ji affiliate in Grand Valley.",
     url: "https://dharmamountain.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "willow-farm-contemplative-center",
@@ -19151,6 +20437,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_whiteplum",
     sourceExcerpt: "Willow Farm Contemplative Center — listed at zenpeacemakers.org (Zen Peacemakers (Bernie Glassman)). Zen Peacemakers affiliate.",
     url: "https://willowfarmretreat.org/",
+    geoPrecision: "city",
   },
   {
     slug: "rocky-mountain-ecodharma-retreat-center",
@@ -19166,6 +20453,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_whiteplum",
     sourceExcerpt: "Rocky Mountain Ecodharma Retreat Center — listed at zenpeacemakers.org (Zen Peacemakers (Bernie Glassman)). Zen Peacemakers affiliate.",
     url: "https://rockymountainecodharma.org/",
+    geoPrecision: "city",
   },
   {
     slug: "delaware-valley-zen-center",
@@ -19181,6 +20469,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_kwanum",
     sourceExcerpt: "Delaware Valley Zen Center — listed at americas.kwanumzen.org (Kwan Um School of Zen (Korean Seon)). Kwan Um School of Zen affiliate.",
     url: "https://dvzc.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "joyful-mind-zendo",
@@ -19196,6 +20485,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_whiteplum",
     sourceExcerpt: "Joyful Mind Zendo — listed at whiteplum.org (White Plum Asanga (Maezumi lineage)). White Plum Asanga member.",
     url: "https://joyfulmindzendo.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "sky-above-great-wind",
@@ -19211,6 +20501,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_whiteplum",
     sourceExcerpt: "Sky Above Great Wind — listed at whiteplum.org (White Plum Asanga (Maezumi lineage)). White Plum Asanga; teacher Susan KoDo Efird.",
     url: "https://skyabove.org/",
+    geoPrecision: "city",
   },
   {
     slug: "all-beings-zen-sangha",
@@ -19226,6 +20517,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_szba",
     sourceExcerpt: "All Beings Zen Sangha — listed at www.szba.org (Sōtō (SZBA)). SZBA member; DC area.",
     url: "https://allbeingszen.org/",
+    geoPrecision: "city",
   },
   {
     slug: "brevard-zen-center-kuge-in-temple",
@@ -19241,6 +20533,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_szba",
     sourceExcerpt: "Brevard Zen Center / Kuge-in Temple — listed at www.szba.org (Sōtō (SZBA)). SZBA member.",
     url: "https://www.brevardzen.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "cypress-tree-zen-group",
@@ -19256,6 +20549,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_kwanum",
     sourceExcerpt: "Cypress Tree Zen Group — listed at americas.kwanumzen.org (Kwan Um School of Zen (Korean Seon)). Kwan Um School affiliate.",
     url: "https://webdharma.com/",
+    geoPrecision: "city",
   },
   {
     slug: "the-gateless-gate-zen-center",
@@ -19271,6 +20565,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_kwanum",
     sourceExcerpt: "The Gateless Gate Zen Center — listed at americas.kwanumzen.org (Kwan Um School of Zen (Korean Seon)). Kwan Um affiliate.",
     url: "https://gatelessgate.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "orlando-zen-center",
@@ -19286,6 +20581,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_kwanum",
     sourceExcerpt: "Orlando Zen Center — listed at americas.kwanumzen.org (Kwan Um School of Zen (Korean Seon)). Kwan Um affiliate.",
     url: "https://orlandozen.com/",
+    geoPrecision: "exact",
   },
   {
     slug: "south-florida-zen-group",
@@ -19301,6 +20597,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_kwanum",
     sourceExcerpt: "South Florida Zen Group — listed at americas.kwanumzen.org (Kwan Um School of Zen (Korean Seon)). Kwan Um affiliate.",
     url: "https://southfloridazen.org/",
+    geoPrecision: "city",
   },
   {
     slug: "hokori-zen-center",
@@ -19316,6 +20613,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_whiteplum",
     sourceExcerpt: "Hokori Zen Center — listed at whiteplum.org (White Plum Asanga (Maezumi lineage)). White Plum Asanga; teacher Lou Mitsunen Nordstrom.",
     url: "https://hokorizencenter.org/",
+    geoPrecision: "city",
   },
   {
     slug: "open-mind-zen",
@@ -19331,6 +20629,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_whiteplum",
     sourceExcerpt: "Open Mind Zen — listed at whiteplum.org (White Plum Asanga (Maezumi lineage)). White Plum Asanga; teacher Michael Jiun Stamper.",
     url: "https://openmindzen.com/",
+    geoPrecision: "city",
   },
   {
     slug: "palmetto-zendo",
@@ -19346,6 +20645,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_whiteplum",
     sourceExcerpt: "Palmetto Zendo — listed at whiteplum.org (White Plum Asanga (Maezumi lineage)). White Plum Asanga; teacher Andy Hoseki Solis.",
     url: "https://palmettozendo.org/",
+    geoPrecision: "city",
   },
   {
     slug: "florida-sanbo-zen",
@@ -19361,6 +20661,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sanbozen",
     sourceExcerpt: "Florida Sanbo Zen — listed at floridasanbozen.com (Sanbō Zen). Sanbo Zen satellite of Mountain Cloud Zen Center.",
     url: "https://floridasanbozen.com/",
+    geoPrecision: "city",
   },
   {
     slug: "atlanta-soto-zen-center",
@@ -19376,6 +20677,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_szba",
     sourceExcerpt: "Atlanta Soto Zen Center — listed at www.szba.org (Sōtō (SZBA)). SZBA member; Taiun Michael Elliston lineage.",
     url: "https://aszc.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "daifukuji-soto-mission",
@@ -19391,6 +20693,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sotozen_jp",
     sourceExcerpt: "Daifukuji Soto Mission — listed at www.sotozen.com (Sōtō (Sōtōshū Hawaii)). Historic Big Island Soto temple.",
     url: "https://www.daifukuji.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "alaneo-zendo",
@@ -19406,6 +20709,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sotozen_jp",
     sourceExcerpt: "'Alaneo Zendo — listed at www.sotozen.com (Sōtō (Sōtōshū Hawaii)). SZBA-listed Big Island zendo.",
     url: "https://www.szba.org/zen-centers-by-state",
+    geoPrecision: "city",
   },
   {
     slug: "guzeiji-soto-mission-of-molokai",
@@ -19421,6 +20725,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sotozen_jp",
     sourceExcerpt: "Guzeiji Soto Mission of Molokai — listed at www.sotozen.com (Sōtō (Sōtōshū Hawaii)). Molokai Soto temple.",
     url: "https://www.sotozen.com/eng/temples/outside_jp/Hawaii/",
+    geoPrecision: "exact",
   },
   {
     slug: "kauai-soto-zen-temple-zenshuji",
@@ -19436,6 +20741,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sotozen_jp",
     sourceExcerpt: "Kauai Soto Zen Temple Zenshuji — listed at www.sotozen.com (Sōtō (Sōtōshū Hawaii)). Kauai Soto temple.",
     url: "https://www.sotozen.com/eng/temples/outside_jp/Hawaii/",
+    geoPrecision: "exact",
   },
   {
     slug: "mantokuji-soto-mission-of-paia",
@@ -19451,6 +20757,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sotozen_jp",
     sourceExcerpt: "Mantokuji Soto Mission of Paia — listed at www.sotozen.com (Sōtō (Sōtōshū Hawaii)). Maui Soto temple.",
     url: "http://www.paiamantokuji.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "soto-mission-of-aiea-taiheiji",
@@ -19466,6 +20773,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sotozen_jp",
     sourceExcerpt: "Soto Mission of Aiea / Taiheiji — listed at www.sotozen.com (Sōtō (Sōtōshū Hawaii)). Oahu Soto temple.",
     url: "http://www.sotomission.com/",
+    geoPrecision: "exact",
   },
   {
     slug: "soto-mission-of-hawaii-shoboji",
@@ -19481,6 +20789,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sotozen_jp",
     sourceExcerpt: "Soto Mission of Hawaii / Shoboji — listed at www.sotozen.com (Sōtō (Sōtōshū Hawaii regional headquarters)). Hawaii Soto regional office.",
     url: "https://www.sotomission.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "taishoji-soto-mission",
@@ -19496,6 +20805,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sotozen_jp",
     sourceExcerpt: "Taishoji Soto Mission — listed at www.sotozen.com (Sōtō (Sōtōshū Hawaii)). Big Island Soto temple.",
     url: "http://www.taishoji.org/",
+    geoPrecision: "city",
   },
   {
     slug: "wahiawa-ryusenji-soto-mission",
@@ -19511,6 +20821,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sotozen_jp",
     sourceExcerpt: "Wahiawa Ryusenji Soto Mission — listed at www.sotozen.com (Sōtō (Sōtōshū Hawaii)). Oahu Soto temple.",
     url: "https://www.sotozen.com/eng/temples/outside_jp/Hawaii/",
+    geoPrecision: "exact",
   },
   {
     slug: "waipahu-soto-zen-temple-taiyoji",
@@ -19526,6 +20837,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sotozen_jp",
     sourceExcerpt: "Waipahu Soto Zen Temple Taiyoji — listed at www.sotozen.com (Sōtō (Sōtōshū Hawaii)). Oahu Soto temple.",
     url: "https://www.sotozen.com/eng/temples/outside_jp/Hawaii/",
+    geoPrecision: "exact",
   },
   {
     slug: "hilo-zen-circle",
@@ -19541,6 +20853,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_diamond_sangha",
     sourceExcerpt: "Hilo Zen Circle — listed at diamondsangha.org (Diamond Sangha (Aitken)). Diamond Sangha affiliate; contact via diamondsangha.org.",
     url: "https://diamondsangha.org/resources-2/links/",
+    geoPrecision: "city",
   },
   {
     slug: "empty-gate-zen-center-boise",
@@ -19556,6 +20869,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_kwanum",
     sourceExcerpt: "Empty Gate Zen Center - Boise — listed at americas.kwanumzen.org (Kwan Um School of Zen (Korean Seon)). Kwan Um affiliate.",
     url: "https://emptygatezen.com/",
+    geoPrecision: "exact",
   },
   {
     slug: "palouse-zen-community",
@@ -19571,6 +20885,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_diamond_sangha",
     sourceExcerpt: "Palouse Zen Community — listed at diamondsangha.org (Diamond Sangha (Aitken)). Diamond Sangha affiliate.",
     url: "https://palousezen.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "ancient-dragon-zen-gate",
@@ -19586,6 +20901,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_szba",
     sourceExcerpt: "Ancient Dragon Zen Gate — listed at www.szba.org (Sōtō (Suzuki Roshi lineage / SZBA)). SZBA member; Taigen Dan Leighton.",
     url: "https://www.ancientdragon.org/",
+    geoPrecision: "city",
   },
   {
     slug: "chicago-zen-meditation-community",
@@ -19601,6 +20917,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_szba",
     sourceExcerpt: "Chicago Zen Meditation Community — listed at www.szba.org (Sōtō (SZBA)). SZBA member.",
     url: "https://chicagozen.org/",
+    geoPrecision: "city",
   },
   {
     slug: "udumbara-zen-center",
@@ -19616,6 +20933,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_szba",
     sourceExcerpt: "Udumbara Zen Center — listed at www.szba.org (Sōtō (SZBA)). SZBA member.",
     url: "https://udumbarafoundation.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "ten-directions-zen-community",
@@ -19631,6 +20949,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_kwanum",
     sourceExcerpt: "Ten Directions Zen Community — listed at americas.kwanumzen.org (Kwan Um School of Zen (Korean Seon)). Kwan Um affiliate.",
     url: "https://tendirectionszen.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "ten-directions-bronzeville-sitting-group",
@@ -19646,6 +20965,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_kwanum",
     sourceExcerpt: "Ten Directions Bronzeville Sitting Group — listed at americas.kwanumzen.org (Kwan Um School of Zen (Korean Seon)). Kwan Um Bronzeville sub-group.",
     url: "https://tendirectionszen.org/",
+    geoPrecision: "city",
   },
   {
     slug: "zen-life-meditation-center-of-chicago",
@@ -19661,6 +20981,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_whiteplum",
     sourceExcerpt: "Zen Life & Meditation Center of Chicago — listed at whiteplum.org (White Plum Asanga (Maezumi lineage)). White Plum Asanga; teacher Robert Joshin Althouse.",
     url: "https://zlmc.org/",
+    geoPrecision: "city",
   },
   {
     slug: "prairie-zen-center",
@@ -19676,6 +20997,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_whiteplum",
     sourceExcerpt: "Prairie Zen Center — listed at whiteplum.org (White Plum Asanga (Maezumi lineage)). White Plum Asanga; teacher Elihu Genmyo Smith.",
     url: "https://prairiezen.org/",
+    geoPrecision: "city",
   },
   {
     slug: "one-river-zen",
@@ -19691,6 +21013,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_whiteplum",
     sourceExcerpt: "One River Zen — listed at zenpeacemakers.org (Zen Peacemakers (Bernie Glassman)). Zen Peacemakers affiliate.",
     url: "https://onerivercenter.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "empty-circle-nw-indiana-zen-group",
@@ -19706,6 +21029,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_kwanum",
     sourceExcerpt: "Empty Circle - NW Indiana Zen Group — listed at americas.kwanumzen.org (Kwan Um School of Zen (Korean Seon)). Kwan Um affiliate.",
     url: "https://emptycirclezen.com/",
+    geoPrecision: "exact",
   },
   {
     slug: "sanshin-zen-community-sanshinji",
@@ -19721,6 +21045,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sotozen_jp",
     sourceExcerpt: "Sanshin Zen Community / Sanshinji — listed at www.sotozen.com (Sōtō (Shohaku Okumura)). Founded by Shohaku Okumura Roshi; major Dogen scholarship center.",
     url: "https://www.sanshinji.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "sophia-zen-temple",
@@ -19736,6 +21061,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_szba",
     sourceExcerpt: "Sophia Zen Temple — listed at www.szba.org (Sōtō (SZBA)). SZBA member.",
     url: "https://sophiazentemple.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "joshu-zen-temple",
@@ -19751,6 +21077,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_rinzaiji",
     sourceExcerpt: "Joshu Zen Temple — listed at www.rinzaiji.org (Rinzai (Rinzai-ji / Joshu Sasaki)). Rinzai-ji affiliate.",
     url: "https://joshuzentemple.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "cedar-rapids-zen-center-jikyoji",
@@ -19766,6 +21093,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_szba",
     sourceExcerpt: "Cedar Rapids Zen Center / Jikyoji — listed at www.szba.org (Sōtō (SZBA)). SZBA member.",
     url: "http://www.cedarrapidszencenter.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "decorah-zen-center",
@@ -19781,6 +21109,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_szba",
     sourceExcerpt: "Decorah Zen Center — listed at www.szba.org (Sōtō (SZBA)). SZBA member.",
     url: "https://decorahzen.com/",
+    geoPrecision: "exact",
   },
   {
     slug: "zen-fields",
@@ -19796,6 +21125,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_szba",
     sourceExcerpt: "Zen Fields — listed at www.szba.org (Sōtō (SZBA)). SZBA member.",
     url: "https://zenfields.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "des-moines-zen-center-shinsenji",
@@ -19811,6 +21141,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sotozen_jp",
     sourceExcerpt: "Des Moines Zen Center / Shinsenji — listed at www.sotozen.com (Sōtō (Sōtōshū North America)). Soto Zen temple.",
     url: "https://dmzencenter.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "kansas-zen-center",
@@ -19826,6 +21157,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_kwanum",
     sourceExcerpt: "Kansas Zen Center — listed at americas.kwanumzen.org (Kwan Um School of Zen (Korean Seon)). Kwan Um regional flagship.",
     url: "https://kansaszencenter.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "prairyerth-zen-center",
@@ -19841,6 +21173,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_kwanum",
     sourceExcerpt: "Prairyerth Zen Center — listed at americas.kwanumzen.org (Kwan Um School of Zen (Korean Seon)). Kwan Um affiliate.",
     url: "https://prairyerthzen.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "northern-light-zen-center",
@@ -19856,6 +21189,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_kwanum",
     sourceExcerpt: "Northern Light Zen Center — listed at americas.kwanumzen.org (Kwan Um School of Zen (Korean Seon)). Kwan Um affiliate.",
     url: "https://nlzc.info/",
+    geoPrecision: "exact",
   },
   {
     slug: "treetop-zen-center",
@@ -19871,6 +21205,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_szba",
     sourceExcerpt: "Treetop Zen Center — listed at www.szba.org (White Plum Asanga (Maezumi lineage)). SZBA + White Plum; teacher Peter Seishin Wohl.",
     url: "https://treetopzencenter.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "zen-downeast",
@@ -19886,6 +21221,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_szba",
     sourceExcerpt: "Zen DownEast — listed at www.szba.org (Sōtō (SZBA)). SZBA member; coastal Maine Soto group.",
     url: "https://zendowneast.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "howling-dragon-zen-at-morgan-bay-zendo",
@@ -19901,6 +21237,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_whiteplum",
     sourceExcerpt: "Howling Dragon Zen at Morgan Bay Zendo — listed at whiteplum.org (White Plum Asanga (Maezumi lineage)). White Plum Asanga; teacher Jim Daikan Bastien.",
     url: "https://howlingdragon.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "mindfulness-practice-group-of-annapolis",
@@ -19916,6 +21253,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Mindfulness Practice Group of Annapolis — listed at zenpeacemakers.org (Plum Village (Thích Nhất Hạnh)). Plum Village-style sangha; also Zen Peacemakers affiliate.",
     url: "https://annapolismindfulness.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "silver-spring-zendo-one-heart-sangha",
@@ -19931,6 +21269,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_whiteplum",
     sourceExcerpt: "Silver Spring Zendo / One Heart Sangha — listed at zenpeacemakers.org (Zen Peacemakers (Bernie Glassman)). Zen Peacemakers affiliate.",
     url: "https://silverspringzendo.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "cape-cod-zen-center",
@@ -19946,6 +21285,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_kwanum",
     sourceExcerpt: "Cape Cod Zen Center — listed at americas.kwanumzen.org (Kwan Um School of Zen (Korean Seon)). Kwan Um affiliate.",
     url: "https://capecodzen.com/",
+    geoPrecision: "exact",
   },
   {
     slug: "open-meadow-zen-group",
@@ -19961,6 +21301,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_kwanum",
     sourceExcerpt: "Open Meadow Zen Group — listed at americas.kwanumzen.org (Kwan Um School of Zen (Korean Seon)). Kwan Um affiliate.",
     url: "https://openmeadowzen.com/",
+    geoPrecision: "city",
   },
   {
     slug: "plymouth-zen-group",
@@ -19976,6 +21317,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_kwanum",
     sourceExcerpt: "Plymouth Zen Group — listed at americas.kwanumzen.org (Kwan Um School of Zen (Korean Seon)). Kwan Um affiliate.",
     url: "https://plymouthzen.com/",
+    geoPrecision: "exact",
   },
   {
     slug: "one-heart-zen",
@@ -19991,6 +21333,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_szba",
     sourceExcerpt: "One Heart Zen — listed at www.szba.org (Sōtō (SZBA)). SZBA member.",
     url: "https://oneheartzen.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "zen-center-north-shore",
@@ -20006,6 +21349,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_szba",
     sourceExcerpt: "Zen Center North Shore — listed at www.szba.org (Sōtō (SZBA)). SZBA member.",
     url: "https://zcns.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "boundless-way-zen-temple-mugendo-ji",
@@ -20021,6 +21365,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_szba",
     sourceExcerpt: "Boundless Way Zen Temple / Mugendo-ji — listed at www.szba.org (Sōtō / Diamond Sangha (combined)). SZBA member; James Ishmael Ford lineage.",
     url: "https://boundlesswayzen.org/",
+    geoPrecision: "city",
   },
   {
     slug: "valley-zendo",
@@ -20036,6 +21381,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sotozen_jp",
     sourceExcerpt: "Valley Zendo — listed at www.sotozen.com (Sōtō (Suzuki Roshi lineage)). Soto Zen monastic-style center in Pioneer Valley.",
     url: "https://valleyzendo.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "oxbow-zen",
@@ -20051,6 +21397,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_whiteplum",
     sourceExcerpt: "Oxbow Zen — listed at whiteplum.org (White Plum Asanga (Maezumi lineage)). White Plum Asanga; teacher Lisa Soshin Dufour.",
     url: "https://oxbowzen.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "two-streams-zen",
@@ -20066,6 +21413,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_whiteplum",
     sourceExcerpt: "Two Streams Zen — listed at whiteplum.org (White Plum Asanga (Maezumi lineage)). White Plum Asanga; teacher Catherine Anraku Hondorp.",
     url: "https://twostreamszen.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "green-river-zen-center",
@@ -20081,6 +21429,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_whiteplum",
     sourceExcerpt: "Green River Zen Center — listed at whiteplum.org (White Plum Asanga (Maezumi lineage)). White Plum Asanga; teacher Sally Sonen Kealy.",
     url: "https://greenriverzen.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "day-star-sangha",
@@ -20096,6 +21445,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_whiteplum",
     sourceExcerpt: "Day Star Sangha — listed at whiteplum.org (White Plum Asanga (Maezumi lineage)). White Plum Asanga; teacher Kevin Jiun Hunt.",
     url: "https://kevinhuntsensei.org/",
+    geoPrecision: "city",
   },
   {
     slug: "full-moon-zen",
@@ -20111,6 +21461,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_whiteplum",
     sourceExcerpt: "Full Moon Zen — listed at whiteplum.org (White Plum Asanga (Maezumi lineage)). White Plum Asanga; teacher Jeff Kogen Seul.",
     url: "https://fullmoonzen.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "houn-an-charles-river-zen",
@@ -20126,6 +21477,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_rinzaiji",
     sourceExcerpt: "Hōun-an / Charles River Zen — listed at www.rinzaiji.org (Rinzai (Rinzai-ji / Joshu Sasaki)). Rinzai-ji Boston-area affiliate.",
     url: "https://charlesriverzen.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "east-rock-sangha",
@@ -20141,6 +21493,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_diamond_sangha",
     sourceExcerpt: "East Rock Sangha — listed at diamondsangha.org (Diamond Sangha (Aitken)). Diamond Sangha affiliate spanning MA/CT.",
     url: "https://eastrocksangha.org/",
+    geoPrecision: "city",
   },
   {
     slug: "awakening-dharma",
@@ -20156,6 +21509,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_whiteplum",
     sourceExcerpt: "Awakening Dharma — listed at whiteplum.org (White Plum Asanga (Maezumi lineage)). White Plum Asanga; teacher Stephen Mugen Snyder.",
     url: "https://awakeningdharma.org/",
+    geoPrecision: "city",
   },
   {
     slug: "great-wave-zen-sangha",
@@ -20171,6 +21525,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_whiteplum",
     sourceExcerpt: "Great Wave Zen Sangha — listed at whiteplum.org (White Plum Asanga (Maezumi lineage)). White Plum Asanga; teacher John Gendo Wolff.",
     url: "https://greatwave.org/",
+    geoPrecision: "city",
   },
   {
     slug: "linh-son-detroit",
@@ -20186,6 +21541,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Linh Son Detroit — listed at linhsondetroit.net (Vietnamese Thiền (Linh Son network / Lâm Tế)). Vietnamese Thiền temple; 43rd-generation Lâm Tế.",
     url: "https://linhsondetroit.net/",
+    geoPrecision: "exact",
   },
   {
     slug: "clouds-in-water-zen-center",
@@ -20201,6 +21557,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_szba",
     sourceExcerpt: "Clouds in Water Zen Center — listed at www.szba.org (Sōtō (Katagiri / Suzuki lineage)). SZBA member.",
     url: "https://www.cloudsinwater.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "dharma-dance-sangha",
@@ -20216,6 +21573,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_szba",
     sourceExcerpt: "Dharma Dance Sangha — listed at www.szba.org (Sōtō (SZBA)). SZBA member.",
     url: "https://dharmadancesangha.org/",
+    geoPrecision: "city",
   },
   {
     slug: "hokyoji-zen-practice-community",
@@ -20231,6 +21589,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_szba",
     sourceExcerpt: "Hokyoji Zen Practice Community — listed at www.szba.org (Sōtō (Katagiri / Suzuki lineage)). Catpath retreat monastery in southeastern MN.",
     url: "https://www.hokyoji.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "minnesota-zen-meditation-center-ganshoji",
@@ -20246,6 +21605,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_szba",
     sourceExcerpt: "Minnesota Zen Meditation Center / Ganshoji — listed at www.szba.org (Sōtō (Katagiri lineage)). Founded by Dainin Katagiri Roshi.",
     url: "https://www.mnzencenter.org/",
+    geoPrecision: "city",
   },
   {
     slug: "mountains-and-waters-zen-group",
@@ -20261,6 +21621,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_szba",
     sourceExcerpt: "Mountains and Waters Zen Group — listed at www.szba.org (Sōtō (SZBA)). SZBA member.",
     url: "https://mountainsandwaterszen.com/",
+    geoPrecision: "exact",
   },
   {
     slug: "compassionate-ocean-dharma-center-jikaiji",
@@ -20276,6 +21637,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sotozen_jp",
     sourceExcerpt: "Compassionate Ocean Dharma Center / Jikaiji — listed at www.sotozen.com (Sōtō (Katagiri lineage)). Joen and Michael O'Neal lineage.",
     url: "https://www.oceanzen.org/",
+    geoPrecision: "city",
   },
   {
     slug: "confluence-zen-center-housenji",
@@ -20291,6 +21653,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_szba",
     sourceExcerpt: "Confluence Zen Center / Housenji — listed at www.szba.org (Sōtō (SZBA)). SZBA member.",
     url: "https://www.confluencezen.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "missouri-zen-center-buppozan-zengenji",
@@ -20306,6 +21669,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_szba",
     sourceExcerpt: "Missouri Zen Center / Buppozan Zengenji — listed at www.szba.org (Sōtō (SZBA)). SZBA member.",
     url: "http://www.missourizencenter.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "kansas-zen-center-kansas-city",
@@ -20321,6 +21685,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_kwanum",
     sourceExcerpt: "Kansas Zen Center - Kansas City — listed at americas.kwanumzen.org (Kwan Um School of Zen (Korean Seon)). Kwan Um KC satellite of Kansas Zen Center.",
     url: "https://kansaszencenter.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "hokoku-an",
@@ -20336,6 +21701,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_rinzaiji",
     sourceExcerpt: "Hokoku-An — listed at www.rinzaiji.org (Rinzai (Rinzai-ji / Joshu Sasaki)). Rinzai-ji affiliate.",
     url: "https://www.rinzaiji.org/affiliated-centers/",
+    geoPrecision: "exact",
   },
   {
     slug: "mission-mountain-zen",
@@ -20351,6 +21717,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_szba",
     sourceExcerpt: "Mission Mountain Zen — listed at www.szba.org (Sōtō (SZBA)). SZBA member.",
     url: "https://missionmountainzen.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "nebraska-zen-center-heartland-temple",
@@ -20366,6 +21733,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_szba",
     sourceExcerpt: "Nebraska Zen Center / Heartland Temple — listed at www.szba.org (Sōtō (Katagiri lineage)). SZBA member.",
     url: "https://nebraskazencenter.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "empty-bowl-zendo",
@@ -20381,6 +21749,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_whiteplum",
     sourceExcerpt: "Empty Bowl Zendo — listed at whiteplum.org (White Plum Asanga (Maezumi lineage)). White Plum Asanga member.",
     url: "https://emptybowlzendo.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "heart-circle-sangha",
@@ -20396,6 +21765,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_whiteplum",
     sourceExcerpt: "Heart Circle Sangha — listed at whiteplum.org (White Plum Asanga (Maezumi lineage)). White Plum Asanga; teachers Joan Hogetsu Hoeberichts and Mark Eko Morris.",
     url: "https://heartcirclesangha.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "morning-star-zendo",
@@ -20411,6 +21781,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_whiteplum",
     sourceExcerpt: "Morning Star Zendo — listed at whiteplum.org (White Plum Asanga (Maezumi lineage)). White Plum Asanga; teacher Robert Jinsen Kennedy.",
     url: "https://morningstarzen.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "princeton-area-zen-group",
@@ -20426,6 +21797,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_rinzaiji",
     sourceExcerpt: "Princeton Area Zen Group — listed at www.rinzaiji.org (Rinzai (Rinzai-ji / Joshu Sasaki)). Rinzai-ji affiliate.",
     url: "https://www.rinzaiji.org/affiliated-centers/",
+    geoPrecision: "exact",
   },
   {
     slug: "albuquerque-open-sky-zen-group",
@@ -20441,6 +21813,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_kwanum",
     sourceExcerpt: "Albuquerque Open Sky Zen Group — listed at americas.kwanumzen.org (Kwan Um School of Zen (Korean Seon)). Kwan Um affiliate.",
     url: "https://americas.kwanumzen.org/zen-centers",
+    geoPrecision: "city",
   },
   {
     slug: "hokoji-zendo",
@@ -20456,6 +21829,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_szba",
     sourceExcerpt: "Hokoji Zendo — listed at www.szba.org (Sōtō (SZBA)). SZBA member; northern NM.",
     url: "https://hokoji.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "bodhi-manda-zen-center",
@@ -20471,6 +21845,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_rinzaiji",
     sourceExcerpt: "Bodhi Manda Zen Center — listed at www.rinzaiji.org (Rinzai (Rinzai-ji / Joshu Sasaki)). Rinzai-ji training center founded 1973.",
     url: "https://bmzc.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "no-gate-zen-center",
@@ -20486,6 +21861,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_whiteplum",
     sourceExcerpt: "No Gate Zen Center — listed at whiteplum.org (White Plum Asanga (Maezumi lineage)). White Plum Asanga; teacher Issan Mugai Elkin.",
     url: "https://nogatezencenter.org/",
+    geoPrecision: "city",
   },
   {
     slug: "sage-institute-for-creativity-and-consciousness",
@@ -20501,6 +21877,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_whiteplum",
     sourceExcerpt: "Sage Institute for Creativity and Consciousness — listed at whiteplum.org (White Plum Asanga (Maezumi lineage)). White Plum Asanga; teacher Sean Tetsudo Murphy.",
     url: "https://sagetaos.com/",
+    geoPrecision: "exact",
   },
   {
     slug: "eighthwave",
@@ -20516,6 +21893,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_whiteplum",
     sourceExcerpt: "Eighthwave — listed at zenpeacemakers.org (Zen Peacemakers (Bernie Glassman)). Zen Peacemakers affiliate.",
     url: "https://eighthwave.org/",
+    geoPrecision: "city",
   },
   {
     slug: "order-of-clear-mind-zen",
@@ -20531,6 +21909,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_whiteplum",
     sourceExcerpt: "Order of Clear Mind Zen — listed at zenpeacemakers.org (Zen Peacemakers (Bernie Glassman)). Zen Peacemakers affiliate; Daiho Hilbert.",
     url: "https://clearmindzen.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "beacon-zen-temple",
@@ -20546,6 +21925,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sotozen_jp",
     sourceExcerpt: "Beacon Zen Temple — listed at www.sotozen.com (Sōtō (Sōtōshū North America)). Soto Zen temple in Hudson Valley.",
     url: "https://www.beaconzen.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "brooklyn-zen-center",
@@ -20561,6 +21941,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_szba",
     sourceExcerpt: "Brooklyn Zen Center — listed at www.szba.org (Sōtō (SFZC affiliate / SZBA)). Major NYC sangha; Greg Snyder lineage.",
     url: "https://brooklynzen.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "tetsugyuji-zen-temple",
@@ -20576,6 +21957,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_szba",
     sourceExcerpt: "Tetsugyuji Zen Temple — listed at www.szba.org (Sōtō (SZBA)). SZBA member.",
     url: "https://tetsugyuji.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "twining-vines-sangha",
@@ -20591,6 +21973,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_szba",
     sourceExcerpt: "Twining Vines Sangha — listed at www.szba.org (Sōtō / Hollow Bones (combined)). SZBA member.",
     url: "https://twiningvinessangha.com/",
+    geoPrecision: "exact",
   },
   {
     slug: "two-rivers-zen-community",
@@ -20606,6 +21989,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_szba",
     sourceExcerpt: "Two Rivers Zen Community — listed at www.szba.org (Sōtō (SZBA)). SZBA member.",
     url: "https://tworiverszen.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "yorktown-zen",
@@ -20621,6 +22005,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sotozen_jp",
     sourceExcerpt: "Yorktown Zen — listed at www.sotozen.com (Sōtō (Sōtōshū North America)). Soto Zen temple in Westchester County.",
     url: "http://www.yorktownzen.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "no-traces-zendo",
@@ -20636,6 +22021,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_whiteplum",
     sourceExcerpt: "No Traces Zendo — listed at whiteplum.org (White Plum Asanga (Maezumi lineage)). White Plum Asanga; teacher Nancy Mujo Baker.",
     url: "https://notraceszendo.com/",
+    geoPrecision: "city",
   },
   {
     slug: "zen-community-of-staten-island",
@@ -20651,6 +22037,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_whiteplum",
     sourceExcerpt: "Zen Community of Staten Island — listed at whiteplum.org (White Plum Asanga (Maezumi lineage)). White Plum Asanga; teacher Ken Tetsuji Byalin.",
     url: "https://zencommunitysi.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "ocean-zendo",
@@ -20666,6 +22053,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_whiteplum",
     sourceExcerpt: "Ocean Zendo — listed at whiteplum.org (White Plum Asanga (Maezumi lineage)). White Plum Asanga; teacher Michel Engu Dobbs.",
     url: "https://oceanzendo.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "empty-hand-zen-center",
@@ -20681,6 +22069,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_whiteplum",
     sourceExcerpt: "Empty Hand Zen Center — listed at whiteplum.org (White Plum Asanga (Maezumi lineage)). White Plum Asanga; teacher Randall Ryotan Eiger.",
     url: "https://emptyhandzen.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "pamsula-zen-center",
@@ -20696,6 +22085,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_whiteplum",
     sourceExcerpt: "Pamsula Zen Center — listed at whiteplum.org (White Plum Asanga (Maezumi lineage)). White Plum Asanga; teacher Craig Daiken Nelson.",
     url: "https://pamsulazen.org/",
+    geoPrecision: "city",
   },
   {
     slug: "dragon-s-eye-zendo",
@@ -20711,6 +22101,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_whiteplum",
     sourceExcerpt: "Dragon's Eye Zendo — listed at whiteplum.org (White Plum Asanga (Maezumi lineage)). White Plum Asanga; teacher Michael Koryu Holleran.",
     url: "https://michaelkholleran.org/",
+    geoPrecision: "city",
   },
   {
     slug: "three-jewels-binghamton-zen-group",
@@ -20726,6 +22117,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_kwanum",
     sourceExcerpt: "Three Jewels Binghamton Zen Group — listed at americas.kwanumzen.org (Kwan Um School of Zen (Korean Seon)). Kwan Um affiliate.",
     url: "https://thethreejewelsbinghamton.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "three-treasures-zen-center-of-oneonta",
@@ -20741,6 +22133,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_kwanum",
     sourceExcerpt: "Three Treasures Zen Center of Oneonta — listed at americas.kwanumzen.org (Kwan Um School of Zen (Korean Seon)). Kwan Um affiliate.",
     url: "https://threetreasureszencenter.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "ithaca-zen-center",
@@ -20756,6 +22149,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_rinzaiji",
     sourceExcerpt: "Ithaca Zen Center — listed at www.rinzaiji.org (Rinzai (Rinzai-ji / Joshu Sasaki)). Rinzai-ji affiliate.",
     url: "https://ithacazencenter.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "long-island-rinzai-ji-group",
@@ -20771,6 +22165,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_rinzaiji",
     sourceExcerpt: "Long Island Rinzai-ji Group — listed at www.rinzaiji.org (Rinzai (Rinzai-ji / Joshu Sasaki)). Rinzai-ji affiliate sitting group.",
     url: "https://www.rinzaiji.org/affiliated-centers/",
+    geoPrecision: "exact",
   },
   {
     slug: "buffalo-zen-dharma-community",
@@ -20786,6 +22181,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_mountains_rivers",
     sourceExcerpt: "Buffalo Zen Dharma Community — listed at zmm.org (Sōtō (Mountains and Rivers Order)). Mountains and Rivers Order formal affiliate.",
     url: "https://www.buffalozen.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "hudson-river-peacemaker-center",
@@ -20801,6 +22197,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_whiteplum",
     sourceExcerpt: "Hudson River Peacemaker Center — listed at zenpeacemakers.org (Zen Peacemakers (Bernie Glassman)). Zen Peacemakers affiliate; Bernie Glassman lineage.",
     url: "https://hudsonriverpeacemakercenter.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "hudson-river-zen-center",
@@ -20816,6 +22213,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_whiteplum",
     sourceExcerpt: "Hudson River Zen Center — listed at zenpeacemakers.org (Zen Peacemakers (Bernie Glassman)). Zen Peacemakers affiliate.",
     url: "https://hudsonriverzencenter.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "chapel-hill-zen-center",
@@ -20831,6 +22229,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_szba",
     sourceExcerpt: "Chapel Hill Zen Center — listed at www.szba.org (Sōtō (SFZC affiliate)). SFZC Suzuki Roshi lineage; Josho Pat Phelan.",
     url: "http://www.chzc.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "great-tree-zen-temple-daijuji",
@@ -20846,6 +22245,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_szba",
     sourceExcerpt: "Great Tree Zen Temple / Daijuji — listed at www.szba.org (Sōtō (women's training temple)). SZBA member; women-led Soto temple.",
     url: "https://www.greattreetemple.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "zen-center-of-asheville-magnanimous-mind",
@@ -20861,6 +22261,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_szba",
     sourceExcerpt: "Zen Center of Asheville / Magnanimous Mind — listed at www.szba.org (Sōtō (SZBA)). SZBA member.",
     url: "https://zencenterofasheville.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "crooked-river-zen-center",
@@ -20876,6 +22277,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_szba",
     sourceExcerpt: "Crooked River Zen Center — listed at www.szba.org (Sōtō (SZBA)). SZBA member.",
     url: "https://crookedriverzen.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "yellow-springs-dharma-center-zen-group",
@@ -20891,6 +22293,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_diamond_sangha",
     sourceExcerpt: "Yellow Springs Dharma Center Zen Group — listed at diamondsangha.org (Diamond Sangha (Aitken)). Diamond Sangha affiliate; shares Yellow Springs Dharma Center.",
     url: "https://ysdharma.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "the-lotus-institute",
@@ -20906,6 +22309,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_whiteplum",
     sourceExcerpt: "The Lotus Institute — listed at zenpeacemakers.org (Zen Peacemakers (Bernie Glassman)). Zen Peacemakers affiliate.",
     url: "https://thelotusinstitute.org/",
+    geoPrecision: "city",
   },
   {
     slug: "interiority-wellness-sangha",
@@ -20921,6 +22325,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_whiteplum",
     sourceExcerpt: "Interiority Wellness Sangha — listed at zenpeacemakers.org (Zen Peacemakers (Bernie Glassman)). Zen Peacemakers affiliate.",
     url: "https://interiority.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "linh-son-a-di-da-vien",
@@ -20936,6 +22341,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Linh Sơn A Di Đà Viện — listed at linhsonamida.org (Vietnamese Thiền (Linh Son network)). Vietnamese Thiền temple; Linh Son lineage.",
     url: "https://linhsonamida.org/",
+    geoPrecision: "city",
   },
   {
     slug: "ashland-zen-center-siskiyou-sansui-do",
@@ -20951,6 +22357,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_szba",
     sourceExcerpt: "Ashland Zen Center / Siskiyou Sansui Do — listed at www.szba.org (Sōtō (SFZC affiliate)). SZBA member.",
     url: "https://ashlandzencenter.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "bird-haven-zendo",
@@ -20966,6 +22373,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_szba",
     sourceExcerpt: "Bird Haven Zendo — listed at www.szba.org (Sōtō (SZBA)). SZBA member.",
     url: "https://birdhavenzendo.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "bright-way-zen",
@@ -20981,6 +22389,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_szba",
     sourceExcerpt: "Bright Way Zen — listed at www.szba.org (Sōtō (SZBA)). SZBA member.",
     url: "https://brightwayzen.org/",
+    geoPrecision: "city",
   },
   {
     slug: "buddha-eye-temple-butsugenji",
@@ -20996,6 +22405,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_szba",
     sourceExcerpt: "Buddha Eye Temple / Butsugenji — listed at www.szba.org (Sōtō (Sōtōshū North America)). Soto temple; Edward Kakushin Brown.",
     url: "https://www.buddhaeye.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "dharma-rain-zen-center",
@@ -21011,6 +22421,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_szba",
     sourceExcerpt: "Dharma Rain Zen Center — listed at www.szba.org (Sōtō (SZBA)). Major Portland Soto residential center.",
     url: "https://dharma-rain.org/",
+    geoPrecision: "city",
   },
   {
     slug: "great-vow-zen-monastery-daiganzenji",
@@ -21026,6 +22437,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_szba",
     sourceExcerpt: "Great Vow Zen Monastery / Daiganzenji — listed at www.szba.org (White Plum Asanga (Maezumi lineage)). Jan Chozen Bays / Hogen Bays White Plum monastery.",
     url: "https://www.zendust.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "heart-of-wisdom-zen-temple",
@@ -21041,6 +22453,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_szba",
     sourceExcerpt: "Heart of Wisdom Zen Temple — listed at www.szba.org (White Plum Asanga (Maezumi lineage)). Zen Community of Oregon Portland temple.",
     url: "https://zendust.org/zen-temple/",
+    geoPrecision: "city",
   },
   {
     slug: "wallowa-buddhist-temple",
@@ -21056,6 +22469,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Wallowa Buddhist Temple — listed at berkeleybuddhistpriory.org (Sōtō (OBC, Serene Reflection / Jiyu-Kennett)). OBC temple in eastern Oregon; Reverend Master Meido Tuttle.",
     url: "http://www.wallowabuddhisttemple.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "ring-of-moss-zendo",
@@ -21071,6 +22485,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_diamond_sangha",
     sourceExcerpt: "Ring of Moss Zendo — listed at diamondsangha.org (Diamond Sangha (Aitken)). Diamond Sangha affiliate.",
     url: "https://ringofmoss.org/",
+    geoPrecision: "city",
   },
   {
     slug: "seven-thunders",
@@ -21086,6 +22501,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_diamond_sangha",
     sourceExcerpt: "Seven Thunders — listed at diamondsangha.org (Diamond Sangha (Aitken)). Diamond Sangha affiliate.",
     url: "https://seventhunders.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "soji-zen-center",
@@ -21101,6 +22517,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_szba",
     sourceExcerpt: "Soji Zen Center — listed at www.szba.org (Sōtō (SZBA)). SZBA member.",
     url: "https://sojizen.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "two-rivers-zen-community-honesdale",
@@ -21116,6 +22533,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_szba",
     sourceExcerpt: "Two Rivers Zen Community (PA) — listed at www.szba.org (Sōtō (SZBA)). SZBA member; sister community to NY group.",
     url: "https://tworiverszen.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "zen-center-of-pittsburgh-deep-spring-temple",
@@ -21131,6 +22549,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_szba",
     sourceExcerpt: "Zen Center of Pittsburgh / Deep Spring Temple — listed at www.szba.org (Sōtō (SZBA)). Soto temple west of Pittsburgh.",
     url: "https://www.deepspringzen.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "zen-group-of-pittsburgh",
@@ -21146,6 +22565,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_kwanum",
     sourceExcerpt: "Zen Group of Pittsburgh — listed at americas.kwanumzen.org (Kwan Um School of Zen (Korean Seon)). Kwan Um affiliate.",
     url: "https://zengrouppgh.com/",
+    geoPrecision: "exact",
   },
   {
     slug: "flowing-river-sangha",
@@ -21161,6 +22581,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_whiteplum",
     sourceExcerpt: "Flowing River Sangha — listed at whiteplum.org (White Plum Asanga (Maezumi lineage)). White Plum Asanga; teacher Courtney Gessho Burgess-Michak.",
     url: "https://flowingriversangha.com/",
+    geoPrecision: "exact",
   },
   {
     slug: "zen-group-of-reading",
@@ -21176,6 +22597,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_diamond_sangha",
     sourceExcerpt: "Zen Group of Reading — listed at diamondsangha.org (Diamond Sangha (Aitken)). Diamond Sangha affiliate.",
     url: "https://zen-group-of-reading-pa.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "dragonfly-sangha",
@@ -21191,6 +22613,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_whiteplum",
     sourceExcerpt: "Dragonfly Sangha — listed at zenpeacemakers.org (Zen Peacemakers (Bernie Glassman)). Zen Peacemakers affiliate.",
     url: "https://dragonflysangha.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "columbia-zen-buddhist-priory",
@@ -21206,6 +22629,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Columbia Zen Buddhist Priory — listed at berkeleybuddhistpriory.org (Sōtō (OBC, Serene Reflection / Jiyu-Kennett)). OBC priory; Reverend Master Rokuzan Kroenke.",
     url: "http://columbiazen.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "genkai-ji-zen-center",
@@ -21221,6 +22645,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_rinzaiji",
     sourceExcerpt: "Genkai-ji Zen Center — listed at www.rinzaiji.org (Rinzai (Rinzai-ji / Joshu Sasaki)). Rinzai-ji affiliate.",
     url: "https://tnzen.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "appamada",
@@ -21236,6 +22661,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_szba",
     sourceExcerpt: "Appamada — listed at www.szba.org (Sōtō (SZBA)). SZBA member.",
     url: "https://appamada.org/",
+    geoPrecision: "city",
   },
   {
     slug: "austin-zen-center-zenkeiji",
@@ -21251,6 +22677,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_szba",
     sourceExcerpt: "Austin Zen Center / Zenkeiji — listed at www.szba.org (Sōtō (SFZC affiliate)). SFZC Suzuki Roshi lineage.",
     url: "https://austinzencenter.org/",
+    geoPrecision: "city",
   },
   {
     slug: "houston-zen-center-shounji",
@@ -21266,6 +22693,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_szba",
     sourceExcerpt: "Houston Zen Center / Shounji — listed at www.szba.org (Sōtō (SFZC affiliate)). SFZC affiliate; Gaelyn Godwin.",
     url: "https://houstonzen.org/",
+    geoPrecision: "city",
   },
   {
     slug: "san-antonio-zen-center",
@@ -21281,6 +22709,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_szba",
     sourceExcerpt: "San Antonio Zen Center — listed at www.szba.org (Sōtō (SZBA)). SZBA member.",
     url: "https://sanantoniozencenter.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "hidden-mountain-zendo",
@@ -21296,6 +22725,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_whiteplum",
     sourceExcerpt: "Hidden Mountain Zendo — listed at whiteplum.org (White Plum Asanga (Maezumi lineage)). White Plum Asanga; teacher Eric Kishin Arbiter.",
     url: "https://hiddenmountainzendo.org/",
+    geoPrecision: "city",
   },
   {
     slug: "living-water-zen-community",
@@ -21311,6 +22741,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_whiteplum",
     sourceExcerpt: "Living Water Zen Community — listed at whiteplum.org (White Plum Asanga (Maezumi lineage)). White Plum Asanga; teacher Cuca Kosen Montecel.",
     url: "https://livingwaterzen.com/",
+    geoPrecision: "city",
   },
   {
     slug: "chua-linh-son-austin",
@@ -21326,6 +22757,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_wikipedia",
     sourceExcerpt: "Chùa Linh-Sơn Austin — listed at en.wikipedia.org (Vietnamese Thiền (Linh Son network)). Vietnamese Thiền temple.",
     url: "http://www.linhsonaustin.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "linh-son-temple-dickinson",
@@ -21341,6 +22773,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Linh Son Temple Dickinson — listed at www.linhsondickinson.org (Vietnamese Thiền (Linh Son network)). Vietnamese Thiền temple in Galveston County.",
     url: "https://www.linhsondickinson.org/",
+    geoPrecision: "city",
   },
   {
     slug: "two-arrows-zen",
@@ -21356,6 +22789,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_szba",
     sourceExcerpt: "Two Arrows Zen — listed at www.szba.org (White Plum Asanga (Maezumi lineage)). White Plum / SZBA; teachers Diane Musho Hamilton, Michael Mugaku Zimmerman.",
     url: "https://twoarrowszen.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "bread-loaf-mountain-zen-community",
@@ -21371,6 +22805,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_whiteplum",
     sourceExcerpt: "Bread Loaf Mountain Zen Community — listed at whiteplum.org (White Plum Asanga (Maezumi lineage)). White Plum Asanga; teachers Brian Joshin Byrnes, Peggy Genshin Kendo Murray, Eishō Sinclair.",
     url: "https://breadloafmountainzen.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "shao-shan-temple",
@@ -21386,6 +22821,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sotozen_jp",
     sourceExcerpt: "Shao Shan Temple — listed at www.sotozen.com (Sōtō (Sōtōshū North America)). Soto Zen temple; Taihaku Priest.",
     url: "https://www.shaoshantemple.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "upper-valley-zen-center",
@@ -21401,6 +22837,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_rinzaiji",
     sourceExcerpt: "Upper Valley Zen Center — listed at www.rinzaiji.org (Rinzai (Rinzai-ji / Joshu Sasaki)). Rinzai-ji affiliate.",
     url: "https://uvzc.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "new-england-council-collective",
@@ -21416,6 +22853,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_whiteplum",
     sourceExcerpt: "New England Council Collective — listed at zenpeacemakers.org (Zen Peacemakers (Bernie Glassman)). Zen Peacemakers affiliate.",
     url: "https://newenglandcouncilcollective.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "dassanaya-buddhist-community",
@@ -21431,6 +22869,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_szba",
     sourceExcerpt: "Dassanāya Buddhist Community — listed at www.szba.org (Sōtō (SZBA)). SZBA member.",
     url: "https://dassanaya.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "deep-ocean-zendo",
@@ -21446,6 +22885,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_szba",
     sourceExcerpt: "Deep Ocean Zendo — listed at www.szba.org (Zen Peacemakers (Bernie Glassman)). SZBA member; Zen Peacemakers affiliate.",
     url: "https://deepoceanzendo.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "new-river-zen-community",
@@ -21461,6 +22901,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_whiteplum",
     sourceExcerpt: "New River Zen Community — listed at whiteplum.org (White Plum Asanga (Maezumi lineage)). White Plum Asanga; teachers Charles Shinkai Birx and Ellen Jikai Birx.",
     url: "https://newriverzen.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "clear-springs-sangha",
@@ -21476,6 +22917,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_diamond_sangha",
     sourceExcerpt: "Clear Springs Sangha — listed at diamondsangha.org (Diamond Sangha (Aitken)). Diamond Sangha affiliate.",
     url: "https://clearspringzen.org/",
+    geoPrecision: "city",
   },
   {
     slug: "blue-ridge-zen-group",
@@ -21491,6 +22933,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_rinzaiji",
     sourceExcerpt: "Blue Ridge Zen Group — listed at www.rinzaiji.org (Rinzai (Rinzai-ji / Joshu Sasaki)). Rinzai-ji affiliate.",
     url: "https://brzen.org/",
+    geoPrecision: "city",
   },
   {
     slug: "joyous-refuge",
@@ -21506,6 +22949,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_szba",
     sourceExcerpt: "Joyous Refuge — listed at www.szba.org (Sōtō (SZBA)). SZBA member.",
     url: "https://joyousrefuge.org/",
+    geoPrecision: "city",
   },
   {
     slug: "olympia-zen-center-ryoko-an",
@@ -21521,6 +22965,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_sotozen_jp",
     sourceExcerpt: "Olympia Zen Center / Ryoko-an — listed at www.sotozen.com (Sōtō (Sōtōshū North America)). Soto Zen center.",
     url: "https://www.olympiazencenter.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "red-cedar-zen-community",
@@ -21536,6 +22981,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_szba",
     sourceExcerpt: "Red Cedar Zen Community — listed at www.szba.org (Sōtō (SZBA)). SZBA member.",
     url: "https://redcedarzen.org/",
+    geoPrecision: "city",
   },
   {
     slug: "seattle-soto-zen",
@@ -21551,6 +22997,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_szba",
     sourceExcerpt: "Seattle Soto Zen — listed at www.szba.org (Sōtō (SZBA)). SZBA member.",
     url: "https://seattlesotozen.org/",
+    geoPrecision: "city",
   },
   {
     slug: "three-treasures-sangha",
@@ -21566,6 +23013,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_diamond_sangha",
     sourceExcerpt: "Three Treasures Sangha — listed at diamondsangha.org (Diamond Sangha (Aitken)). Diamond Sangha affiliate.",
     url: "https://three-treasures-sangha.org/",
+    geoPrecision: "city",
   },
   {
     slug: "mountain-lamp",
@@ -21581,6 +23029,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_diamond_sangha",
     sourceExcerpt: "Mountain Lamp — listed at diamondsangha.org (Diamond Sangha (Aitken)). Diamond Sangha retreat center.",
     url: "https://mountainlamp.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "zen-center-of-spokane",
@@ -21596,6 +23045,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_diamond_sangha",
     sourceExcerpt: "Zen Center of Spokane — listed at diamondsangha.org (Diamond Sangha (Aitken)). Diamond Sangha affiliate.",
     url: "https://zencenterspokane.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "no-sangha",
@@ -21611,6 +23061,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_diamond_sangha",
     sourceExcerpt: "No Sangha — listed at diamondsangha.org (Diamond Sangha (Aitken)). Diamond Sangha affiliate.",
     url: "https://nosangha.org/",
+    geoPrecision: "city",
   },
   {
     slug: "ocean-light-zen-center",
@@ -21626,6 +23077,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_kwanum",
     sourceExcerpt: "Ocean Light Zen Center — listed at americas.kwanumzen.org (Kwan Um School of Zen (Korean Seon)). Kwan Um affiliate.",
     url: "https://oceanlightzen.org/",
+    geoPrecision: "city",
   },
   {
     slug: "trikaya-zen-center",
@@ -21641,6 +23093,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_whiteplum",
     sourceExcerpt: "Trikaya Zen Center — listed at whiteplum.org (White Plum Asanga (Maezumi lineage)). White Plum Asanga; teacher Rich Taido Christofferson.",
     url: "https://trikayazencenter.org/",
+    geoPrecision: "city",
   },
   {
     slug: "banyan-dharma-house",
@@ -21656,6 +23109,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_whiteplum",
     sourceExcerpt: "Banyan Dharma House — listed at whiteplum.org (White Plum Asanga (Maezumi lineage)). White Plum Asanga; teacher Jeana Teiju Moore.",
     url: "https://whiteplum.org/membership-list-public/user/443",
+    geoPrecision: "city",
   },
   {
     slug: "tahoma-one-drop-zen-monastery",
@@ -21671,6 +23125,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_onedropzen",
     sourceExcerpt: "Tahoma One Drop Zen Monastery — listed at onedropzen.net (Rinzai (One Drop Zen / Shodo Harada)). Shodo Harada Roshi US training monastery.",
     url: "https://www.tahomazenmonastery.com/",
+    geoPrecision: "exact",
   },
   {
     slug: "entsu-an-zen",
@@ -21686,6 +23141,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_rinzaiji",
     sourceExcerpt: "Entsu-an Zen — listed at www.rinzaiji.org (Rinzai (Rinzai-ji / Joshu Sasaki)). Rinzai-ji affiliate.",
     url: "https://entsuan-zen.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "dai-bai-zan-cho-bo-zen-ji",
@@ -21701,6 +23157,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Dai Bai Zan Cho Bo Zen Ji — listed at zenpeacemakers.org (Rinzai (Genjo Marinello / Choboji)). Rinzai temple; Zen Peacemakers affiliate.",
     url: "https://choboji.org/",
+    geoPrecision: "city",
   },
   {
     slug: "interfaith-enlightenment-center",
@@ -21716,6 +23173,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_whiteplum",
     sourceExcerpt: "Interfaith Enlightenment Center — listed at zenpeacemakers.org (Zen Peacemakers (Bernie Glassman)). Zen Peacemakers affiliate.",
     url: "https://interfaithenlightenment.org/",
+    geoPrecision: "city",
   },
   {
     slug: "mt-adams-zen-buddhist-temple",
@@ -21731,6 +23189,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Mt. Adams Zen Buddhist Temple — listed at mtadamsbuddhisttemple.org (Vietnamese Thiền + Northern Chan). Country temple offering Vietnamese Thien and Chinese Chan.",
     url: "https://mtadamsbuddhisttemple.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "southern-west-virginia-zen-group",
@@ -21746,6 +23205,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_whiteplum",
     sourceExcerpt: "Southern West Virginia Zen Group — listed at whiteplum.org (White Plum Asanga (Maezumi lineage)). White Plum Asanga; teacher Jenny Yuan Shan Boyd.",
     url: "https://southernwvzen.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "boundless-sky-temple",
@@ -21761,6 +23221,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_szba",
     sourceExcerpt: "Boundless Sky Temple — listed at www.szba.org (Sōtō (SZBA)). SZBA member.",
     url: "https://boundlessskytemple.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "milwaukee-zen-center-kokyo-an",
@@ -21776,6 +23237,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_szba",
     sourceExcerpt: "Milwaukee Zen Center / Kokyo-an — listed at www.szba.org (Sōtō (Katagiri lineage)). Soto Zen center.",
     url: "http://mkzen.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "great-lake-zen-center",
@@ -21791,6 +23253,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_kwanum",
     sourceExcerpt: "Great Lake Zen Center — listed at americas.kwanumzen.org (Kwan Um School of Zen (Korean Seon)). Kwan Um affiliate.",
     url: "https://glzc.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "isthmus-zen-community",
@@ -21806,6 +23269,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_kwanum",
     sourceExcerpt: "Isthmus Zen Community — listed at americas.kwanumzen.org (Kwan Um School of Zen (Korean Seon)). Kwan Um affiliate.",
     url: "https://isthmuszencommunity.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "korinji-monastery",
@@ -21821,6 +23285,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_wikipedia",
     sourceExcerpt: "Korinji Monastery — listed at en.wikipedia.org (Rinzai (Daiyuzenji lineage)). Rinzai monastery in southwestern Wisconsin.",
     url: "https://www.korinji.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "twining-vines-zen",
@@ -21836,6 +23301,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Twining Vines Zen (Baraboo) — listed at hollowboneszen.org (Hollow Bones / Rinzai (Junpo Roshi lineage)). Hollow Bones Zen Order in-person sangha.",
     url: "https://twiningvinessangha.com/",
+    geoPrecision: "exact",
   },
   {
     slug: "green-bay-zen-center",
@@ -21851,6 +23317,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Green Bay Zen Center — listed at greenbayzencenter.org (Hollow Bones / Rinzai (Junpo Roshi lineage)). Hollow Bones Zen Order affiliate.",
     url: "https://greenbayzencenter.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "thien-vien-truc-lam-yen-tu",
@@ -21866,6 +23333,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Thiền viện Trúc Lâm Yên Tử — listed at ngaoduthegioi.com.vn (Trúc Lâm Yên Tử). Modern center of the Trúc Lâm Yên Tử Zen school, rebuilt on the historic chùa Lân / Long Động Tự where King Trần Nhân Tông taught in the 13th century.",
     url: "http://www.truclamyentu.com.vn",
+    geoPrecision: "city",
   },
   {
     slug: "thien-vien-truc-lam-tay-thien",
@@ -21881,6 +23349,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Thiền viện Trúc Lâm Tây Thiên — listed at www.ivivu.com (Trúc Lâm Yên Tử). One of the three largest Trúc Lâm Zen monasteries, built 2004–2005 near the ancient Tây Thiên sacred site; functions as a training center for Trúc Lâm monks and lay practitioners.",
     url: "https://vi.wikipedia.org/wiki/Thi%E1%BB%81n_vi%E1%BB%87n_Tr%C3%BAc_L%C3%A2m_T%C3%A2y_Thi%C3%AAn",
+    geoPrecision: "city",
   },
   {
     slug: "thien-vien-truc-lam-bach-ma",
@@ -21896,6 +23365,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_wikipedia",
     sourceExcerpt: "Thiền viện Trúc Lâm Bạch Mã — listed at vi.wikipedia.org (Trúc Lâm Yên Tử). First Trúc Lâm monastery in central Việt Nam, founded by Hòa thượng Thích Thanh Từ; construction began in 2006 on Linh Sơn hill above Truồi Lake and includes separate ngoại viện, tăng viện, and ni viện.",
     url: "http://www.truclambachma.net",
+    geoPrecision: "city",
   },
   {
     slug: "thien-vien-truc-lam-phung-hoang",
@@ -21911,6 +23381,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Thiền viện Trúc Lâm Phụng Hoàng — listed at thegioiphatgiao.net (Trúc Lâm Yên Tử). Trúc Lâm monastery established in 1993 in Đà Lạt; viện trưởng is Hòa thượng Thích Thanh Từ, with Thích Thông Phương as tăng trụ trì and Thích Nữ Như Tâm leading the nuns.",
     url: "https://thegioiphatgiao.net/viet-nam/lam-dong/thien-vien-truc-lam-phung-hoang-da-lat.html",
+    geoPrecision: "city",
   },
   {
     slug: "thien-vien-truc-lam-phuong-nam",
@@ -21926,6 +23397,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Thiền viện Trúc Lâm Phương Nam — listed at www.ivivu.com (Trúc Lâm Yên Tử). Largest Trúc Lâm Zen monastery in the Mekong Delta, built 2013–2014 on 38,000 m² with Lý–Trần style architecture; serves as a major regional practice and pilgrimage site.",
     url: "https://vi.wikipedia.org/wiki/Thi%E1%BB%81n_vi%E1%BB%87n_Tr%C3%BAc_L%C3%A2m_Ph%C6%B0%C6%A1ng_Nam",
+    geoPrecision: "city",
   },
   {
     slug: "thien-vien-thuong-chieu",
@@ -21941,6 +23413,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Thiền viện Thường Chiếu — listed at www.traveloka.com (Trúc Lâm (Thiền phái Trúc Lâm Việt Nam)). One of the earliest Trúc Lâm monasteries founded by Hòa thượng Thích Thanh Từ in 1974 on a 13-hectare site near Quốc lộ 51; now the administrative and training center of the Thiền phái Trúc Lâm network in southern Việt Nam.",
     url: "http://thuongchieu.net",
+    geoPrecision: "city",
   },
   {
     slug: "thien-vien-linh-chieu",
@@ -21956,6 +23429,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Thiền viện Linh Chiếu — listed at accdongnai.vn (Trúc Lâm (ni thiền viện)). Nuns' monastery in the Trúc Lâm system, founded April 1980 by Hòa thượng Thích Thanh Từ and entrusted to Ni trưởng Thích Nữ Như Hạnh and other senior nuns; located adjacent to Thường Chiếu.",
     url: "http://thuongchieu.net/index.php/thienvien/2-uncategorised/365-thin-vin-linh-chiu",
+    geoPrecision: "city",
   },
   {
     slug: "thien-vien-vien-chieu",
@@ -21971,6 +23445,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Thiền viện Viên Chiếu — listed at anphat.org (Trúc Lâm (ni thiền viện)). Large Trúc Lâm nuns' monastery founded April 1975 on roughly 8 hectares near Long Thành; current trụ trì is Ni sư Thích Nữ Như Đức and the community follows Thanh Từ's Trúc Lâm thiền regulations.",
     url: "http://thuongchieu.net/index.php/thienvien/2-uncategorised/365-thin-vin-vien-chiu",
+    geoPrecision: "city",
   },
   {
     slug: "thien-vien-truc-lam-tri-duc",
@@ -21986,6 +23461,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_giacngo_vn",
     sourceExcerpt: "Thiền viện Trúc Lâm Trí Đức — listed at giacngo.vn (Trúc Lâm Yên Tử). Trúc Lâm monastery on 10.5 hectares in An Phước, Long Thành; construction began 2009 and was inaugurated in 2011 with Hòa thượng Thích Thanh Từ presiding over the ceremony.",
     url: "https://giacngo.vn/dong-nai-khanh-thanh-thien-vien-truc-lam-tri-duc-huyen-long-thanh-post11744.html",
+    geoPrecision: "city",
   },
   {
     slug: "thien-vien-truc-lam-long-duc",
@@ -22001,6 +23477,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_giacngo_vn",
     sourceExcerpt: "Thiền viện Trúc Lâm Long Đức — listed at giacngo.vn (Trúc Lâm Yên Tử). Trúc Lâm Long Đức in Long Thành was offered as a 2-hectare temple complex to Thiền viện Trúc Lâm Trí Đức; Hòa thượng Thích Nhật Quang, head of the Trúc Lâm Việt Nam board, serves as trụ trì.",
     url: "https://giacngo.vn/",
+    geoPrecision: "city",
   },
   {
     slug: "thien-vien-truc-lam-hau-giang",
@@ -22016,6 +23493,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Thiền viện Trúc Lâm Hậu Giang — listed at www.thegioiphatgiao.net (Trúc Lâm Yên Tử). Provincial Trúc Lâm Zen monastery in Hậu Giang, part of the wider Trúc Lâm network in the Mekong Delta.",
     url: "https://www.thegioiphatgiao.net/viet-nam/hau-giang/thien-vien-truc-lam-hau-giang-long-my.html",
+    geoPrecision: "city",
   },
   {
     slug: "thien-vien-truc-lam-tay-ninh",
@@ -22031,6 +23509,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Thiền viện Trúc Lâm Tây Ninh — listed at baomoi.com (Trúc Lâm Yên Tử). New Trúc Lâm monastery in Tây Ninh; ground-breaking for the main hall and tổ đường was held in 2026 with the Thiền phái Trúc Lâm Việt Nam board presiding.",
     url: "https://baomoi.com/le-cau-nguyen-khoi-cong-xay-dung-ngoi-chanh-dien-thien-vien-truc-lam-tay-ninh-c54191077.epi",
+    geoPrecision: "city",
   },
   {
     slug: "to-dinh-tu-hieu",
@@ -22046,6 +23525,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Tổ đình Từ Hiếu — listed at langmai.org (Thiền tông (Lâm Tế / Liễu Quán; root temple of Plum Village / Làng Mai)). 19th-century root temple where Thiền sư Thích Nhất Hạnh ordained in 1942; now maintained by the Plum Village Community as Tu Hieu Root Temple and central ancestral temple for the Làng Mai sangha.",
     url: "https://langmai.org/cong-tam-quan/cac-tu-vien/to-dinh-tu-hieu/",
+    geoPrecision: "city",
   },
   {
     slug: "chua-quoc-an",
@@ -22061,6 +23541,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_wikipedia",
     sourceExcerpt: "Chùa Quốc Ân — listed at vi.wikipedia.org (Lâm Tế (Nguyên Thiều lineage, early Lâm Tế tổ đình in Huế)). Founded around 1682–1684 by Thiền sư Nguyên Thiều as Vĩnh Ân; recognized as the first tổ đình of the Lâm Tế Zen school in central Việt Nam and key node of the Liễu Quán lineage.",
     url: "http://www.chuaviettoancau.com/chua-mien-trung/chua-quoc-an-ngoi-to-dinh-thien-phai-lam-te-o-hue-chua-dang-dai-trung-tu-751.html",
+    geoPrecision: "city",
   },
   {
     slug: "chua-bao-quoc",
@@ -22076,6 +23557,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Chùa Báo Quốc — listed at tapchinghiencuuphathoc.vn (Lâm Tế / Liễu Quán (training center of the Liễu Quán branch)). Historic Lâm Tế temple on Hàm Long hill, associated with Tổ Liễu Quán and later used as a major Buddhist academy and training center for central Vietnamese clergy.",
     url: "https://quangduc.com/a69323/to-dinh-bao-quoc-hue-mot-trung-tam-dao-tao-tang-tai-cua-pgvn",
+    geoPrecision: "city",
   },
   {
     slug: "chua-thien-mu",
@@ -22091,6 +23573,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Chùa Thiên Mụ (Linh Mụ) — listed at quangduc.com (Lâm Tế (Huế Lâm Tế / Liễu Quán tradition)). Iconic riverside pagoda founded in 1601 by chúa Nguyễn Hoàng; later integrated into the Lâm Tế / Liễu Quán Zen network and remains a key practice and pilgrimage site in Huế.",
     url: "https://vi.wikipedia.org/wiki/Ch%C3%B9a_Thi%C3%AAn_M%E1%BB%A5",
+    geoPrecision: "city",
   },
   {
     slug: "chua-long-son",
@@ -22106,6 +23589,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_giacngo_vn",
     sourceExcerpt: "Chùa Long Sơn — listed at giacngo.vn (Lâm Tế (Đằng Long Tự, Lâm Tế đời 39)). Provincial head temple and seat of the Buddhist Sangha in Khánh Hòa; founded by a Lâm Tế lineage master (Ngộ Trí / Ngộ Chí), later rebuilt at the foot of Trại Thủy hill and hosting a large seated Buddha.",
     url: "https://vi.wikipedia.org/wiki/Ch%C3%B9a_Long_S%C6%A1n_(Nha_Trang)",
+    geoPrecision: "city",
   },
   {
     slug: "chua-vinh-nghiem",
@@ -22121,6 +23605,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_phatgiao_vn",
     sourceExcerpt: "Chùa Vĩnh Nghiêm (Bắc Giang) — listed at phatgiao.org.vn (Trúc Lâm (historic center) with later Lâm Tế connections). Famous Đức La / Vĩnh Nghiêm temple at the confluence of the Thương and Lục Nam rivers; medieval center of the Trúc Lâm school where Trần Nhân Tông and Pháp Loa taught, now recognized as a national special relic with UNESCO-listed woodblock canon.",
     url: "https://bacgiang.gov.vn/chi-tiet-tin-tuc/-/asset_publisher/St1DaeZNsp94/content/chua-vinh-nghiem-bac-giang",
+    geoPrecision: "city",
   },
   {
     slug: "chua-vinh-nghiem-thanh-pho-ho-chi-minh",
@@ -22136,6 +23621,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Chùa Vĩnh Nghiêm (Sài Gòn) — listed at www.ivivu.com (Bắc Tông / Trúc Lâm–Lâm Tế tradition (modeled on Vĩnh Nghiêm Bắc Giang)). Large urban pagoda built 1964–1971 in Sài Gòn, architecturally modeled on the Bắc Giang Vĩnh Nghiêm temple and serving as a major Trúc Lâm–inspired Bắc Tông practice center.",
     url: "https://vinwonders.com/vi/wonderpedia/news/chua-vinh-nghiem-sai-gon/",
+    geoPrecision: "city",
   },
   {
     slug: "truc-lam-chanh-giac-zen-monastery",
@@ -22151,6 +23637,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_wikipedia",
     sourceExcerpt: "Trúc Lâm Chánh Giác Zen Monastery — listed at en.wikipedia.org (Vietnamese Thiền (Trúc Lâm)). Large Trúc Lâm monastery in the Mekong Delta region of southern Vietnam.",
     url: "https://thienvientruclamchanhgiac.com/",
+    geoPrecision: "city",
   },
   {
     slug: "truc-lam-sung-phuc-zen-monastery",
@@ -22166,6 +23653,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_wikipedia",
     sourceExcerpt: "Trúc Lâm Sùng Phúc Zen Monastery — listed at en.wikipedia.org (Vietnamese Thiền (Trúc Lâm)). Trúc Lâm monastery in the Long Biên district of Hanoi.",
     url: "https://thienviensungphuc.net/",
+    geoPrecision: "exact",
   },
   {
     slug: "truc-lam-ham-rong-zen-monastery",
@@ -22181,6 +23669,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_wikipedia",
     sourceExcerpt: "Trúc Lâm Hàm Rồng Zen Monastery — listed at en.wikipedia.org (Vietnamese Thiền (Trúc Lâm)). Trúc Lâm monastery on Hàm Rồng (Dragon's Jaw) mountain in north-central Vietnam.",
     url: "https://truclamhamrong.com/",
+    geoPrecision: "city",
   },
   {
     slug: "truc-lam-tue-duc-zen-monastery",
@@ -22196,6 +23685,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_wikipedia",
     sourceExcerpt: "Trúc Lâm Tuệ Đức Zen Monastery — listed at en.wikipedia.org (Vietnamese Thiền (Trúc Lâm)). Trúc Lâm monastery in Vĩnh Phúc province, northern Vietnam.",
     url: "https://truclamtueduc.com/",
+    geoPrecision: "city",
   },
   {
     slug: "dieu-tram-monastery",
@@ -22211,6 +23701,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_plumvillage_monastic",
     sourceExcerpt: "Diệu Trạm Monastery — listed at plumvillage.org (Plum Village (Thích Nhất Hạnh)). Sister monastery of Từ Hiếu in Huế, home to Plum Village nuns and bhikshunis in the Thich Nhat Hanh tradition.",
     url: "https://langmai.org/",
+    geoPrecision: "exact",
   },
   {
     slug: "quan-su-pagoda",
@@ -22226,6 +23717,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_wikipedia",
     sourceExcerpt: "Quán Sứ Pagoda — listed at en.wikipedia.org (Vietnamese Thiền (Lâm Tế / Vietnamese Buddhist Sangha HQ)). Headquarters of the Vietnam Buddhist Sangha; major active pagoda in central Hanoi.",
     url: "https://giacngo.vn/",
+    geoPrecision: "exact",
   },
   {
     slug: "giac-lam-pagoda",
@@ -22241,6 +23733,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_wikipedia",
     sourceExcerpt: "Giác Lâm Pagoda — listed at en.wikipedia.org (Vietnamese Thiền (Lâm Tế)). Founded 1744; one of the oldest Lâm Tế temples in southern Vietnam.",
     url: "https://chuagiaclam.vn/",
+    geoPrecision: "exact",
   },
   {
     slug: "phuoc-hai-pagoda",
@@ -22256,6 +23749,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_wikipedia",
     sourceExcerpt: "Phước Hải Pagoda — listed at en.wikipedia.org (Vietnamese Thiền (Lâm Tế)). Also known as Ngọc Hoàng (Jade Emperor) Pagoda; Lâm Tế-affiliated active temple in central HCMC.",
     url: "https://chuangochoangphuochai.vn/",
+    geoPrecision: "city",
   },
   {
     slug: "vinh-trang-pagoda",
@@ -22271,6 +23765,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_wikipedia",
     sourceExcerpt: "Vĩnh Tràng Pagoda — listed at en.wikipedia.org (Vietnamese Thiền (Lâm Tế)). Founded early 19th century; large Lâm Tế pagoda combining Vietnamese, Khmer, and European architecture.",
     url: "https://chuavinhtrang.com/",
+    geoPrecision: "city",
   },
   {
     slug: "the-dharma-centre",
@@ -22286,6 +23781,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_kwanum",
     sourceExcerpt: "The Dharma Centre (Robertson) — listed at dharmacentre.org.za (Kwan Um School of Zen (Korean Seon)). Founded 1981 (Somerset West) by Heila and Rodney Downey; relocated to Robertson 1994. Heila Downey received inka from Zen Master Seung Sahn in April 1996 (first African Ji Do Poep Sa Nim). Adopted Kwan Um teaching style in 1989; subsequently became independent. Described as 'home of contemporary Zen in Africa.' Phone (083) 703-3160; email heila.downey@gmail.com.",
     url: "https://dharmacentre.org.za/",
+    geoPrecision: "exact",
   },
   {
     slug: "the-dharma-centre-cape-town",
@@ -22301,6 +23797,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_kwanum",
     sourceExcerpt: "The Dharma Centre — Cape Town (Newlands) — listed at dharmacentre.org.za (Kwan Um School of Zen (Korean Seon)). Urban Cape Town centre of The Dharma Centre, established 1994 in Rondebosch and relocated in 2018 to the Sufi Temple in Newlands. Weekly Monday-evening sitting (chanting, two 30-minute zazen rounds, walking meditation, dharma reading).",
     url: "https://dharmacentre.org.za/",
+    geoPrecision: "city",
   },
   {
     slug: "knysna-zen-centre",
@@ -22316,6 +23813,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_kwanum",
     sourceExcerpt: "Knysna Zen Centre — listed at dharmacentre.org.za (Korean Seon (Jogye Order)). Knysna sitting group within The Dharma Centre network; administered from the Robertson office (PO Box 795, Robertson 6705). Phone (083) 703-3160; email heila.downey@gmail.com.",
     url: "https://dharmacentre.org.za/",
+    geoPrecision: "city",
   },
   {
     slug: "stoepzen-at-poplar-grove",
@@ -22331,6 +23829,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_kwanum",
     sourceExcerpt: "StoepZen at Poplar Grove — listed at www.stoepzen.co.za (Korean Seon (Jogye Order)). Karoo farm zendo run by Antony and Margie Osler. Hosts approximately four formal Zen retreats per year for up to ~15 practitioners; also offers self-catering hermitages and a barn zendo with morning/evening practice. Booking via margie@stoepzen.co.za.",
     url: "https://www.stoepzen.co.za/",
+    geoPrecision: "city",
   },
   {
     slug: "born-as-the-earth-zen-academy",
@@ -22346,6 +23845,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_whiteplum",
     sourceExcerpt: "Born As The Earth Zen Academy (BEZA) — listed at bornastheearth.com (White Plum Asanga (Maezumi lineage)). Cape Town-based Zen academy, registered NPC #K2024636180. Active 2025-2026 programming including the Grounded EARTH Module (May-June 2026). Self-describes as the first school on the African continent merging Zen Buddhism and Earth-based wisdom.",
     url: "https://bornastheearth.com/",
+    geoPrecision: "city",
   },
   {
     slug: "jung-shim-zen-centre-garden-route-zen-centre",
@@ -22361,6 +23861,7 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_kwanum",
     sourceExcerpt: "Jung Shim Zen Centre / Garden Route Zen Centre — listed at www.facebook.com (Kwan Um School of Zen (Korean Seon)). Garden Route sitting group in Sedgefield (Knysna municipality), Western Cape, affiliated with the Heila Downey / Dharma Centre Korean Zen network.",
     url: "http://www.jungshimzen.co.za/",
+    geoPrecision: "city",
   },
   {
     slug: "buddhist-retreat-centre-ixopo",
@@ -22376,5 +23877,6 @@ export const EUROPE_TEMPLE_SEEDS: TempleSeed[] = [
     sourceId: "src_eu_zen_research",
     sourceExcerpt: "Buddhist Retreat Centre, Ixopo — listed at www.brcixopo.co.za (Non-sectarian Buddhist retreat venue; primary host of Zen retreats in KZN (Stoep Zen, Dharma Centre teachers, and visiting Soto/Rinzai/Korean teachers regularly lead programmes here)). 300-acre retreat centre on a ridge above the Umkomaas valley, founded 1980. Not a resident Zen sangha but the country's principal Zen retreat venue, with Zen gardens and a long history of hosting Korean / Soto / Rinzai-led sesshin and zazenkai. GPS 30deg06'15.4\"S 30deg02'46.6\"E.",
     url: "http://www.brcixopo.co.za/",
+    geoPrecision: "city",
   },
 ];

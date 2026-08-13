@@ -354,8 +354,12 @@ function pickSourceId(sourceUrl: string, lineage: string): string {
 
 // Manual coordinate overrides for places where Nominatim fails (rural retreats,
 // PO-box addresses, networks without a single physical location, etc.).
-// Keyed by the raw `name` field. Values are [lat, lng].
-const MANUAL_COORDS: Record<string, [number, number]> = {
+// Keyed by the raw `name` field. Values are [lat, lng] — or
+// [lat, lng, precision] when the coordinate is deliberately approximate
+// (a national network with no single site, a retreat whose location the
+// community does not publish). Omitting the third element means "exact":
+// this pin is the place itself, verified against a named source.
+const MANUAL_COORDS: Record<string, ManualCoord> = {
   "Jikishoan Zen Buddhist Community": [-37.7434, 144.9988], // Preston VIC 3072
   "Melbourne Zen Group": [-37.7589, 144.9876], // CERES Environment Park, Brunswick East
   "Centrum Oko Lesa (Sandō Kaisen — retreat)": [49.8175, 15.473], // Czech centroid (rural retreat, exact loc not public)
@@ -417,6 +421,106 @@ const MANUAL_COORDS: Record<string, [number, number]> = {
 };
 
 type Cache = Record<string, [number, number] | null>;
+
+/**
+ * Committed coordinates, read back from the generated file before it is
+ * overwritten.
+ *
+ * The builder is otherwise NOT idempotent: Nominatim's answers drift, so
+ * addresses that resolved when the file was last generated can come back
+ * `null` today and silently downgrade a good street-level pin to a town
+ * centroid. That is how Bukkoku-ji and Hosshin-ji once collapsed onto a
+ * single shared point in Obama. Locking the committed coordinate means a
+ * regeneration done for an unrelated reason — a lineage remap, a new
+ * country file — cannot move a pin that nobody asked to move.
+ *
+ * Precedence: MANUAL_COORDS (explicit, source-checked) > lock > geocoder.
+ * To move a locked pin, add a MANUAL_COORDS entry; that is the only path
+ * that records *why* the coordinate changed.
+ */
+type GeoPrecision = "exact" | "city";
+type ManualCoord = [number, number] | [number, number, GeoPrecision];
+interface LockedPin {
+  lat: number;
+  lng: number;
+  geoPrecision: GeoPrecision;
+}
+
+interface GeneratedEntry {
+  slug: string;
+  name: string;
+  lat: number;
+  lng: number;
+  region: string;
+  country: string;
+  schoolSlug: string;
+  sourceId: string;
+  sourceExcerpt: string;
+  url: string;
+  geoPrecision: GeoPrecision;
+  /** Precision came from an explicit MANUAL_COORDS annotation, so the
+   * shared-pin reconciliation below leaves it alone. */
+  precisionPinned: boolean;
+}
+
+/**
+ * Two places cannot occupy one point.
+ *
+ * When several entries land on the same coordinate it is a town centroid
+ * standing in for addresses we do not have, whatever the per-entry evidence
+ * suggested — so mark the whole cluster approximate. Co-located sanghas
+ * that really do share a hall lose a little precision here; that is the
+ * right direction to err, because the alternative is asserting an exact
+ * location for a place that is not there.
+ *
+ * Entries whose precision was pinned by hand in MANUAL_COORDS are left as
+ * they are: those coordinates were checked against a source, and some
+ * deliberately co-locate (two listings for one Ngong Ping temple).
+ */
+function reconcileSharedPins(entries: GeneratedEntry[]): number {
+  const byCoord = new Map<string, GeneratedEntry[]>();
+  for (const e of entries) {
+    const key = `${e.lat},${e.lng}`;
+    byCoord.set(key, [...(byCoord.get(key) ?? []), e]);
+  }
+  let downgraded = 0;
+  for (const cluster of byCoord.values()) {
+    if (cluster.length < 2) continue;
+    for (const e of cluster) {
+      if (e.precisionPinned || e.geoPrecision === "city") continue;
+      e.geoPrecision = "city";
+      downgraded++;
+    }
+  }
+  return downgraded;
+}
+
+function loadCoordinateLock(): Map<string, LockedPin> {
+  const lock = new Map<string, LockedPin>();
+  if (!existsSync(OUT_PATH)) return lock;
+  const src = readFileSync(OUT_PATH, "utf-8");
+  // Split on the emitted entry boundary and read each block on its own, so
+  // a malformed or hand-edited block can never bleed into its neighbour the
+  // way one big lazy regex would.
+  for (const block of src.split(/\n\s{2}\{\n/).slice(1)) {
+    const body = block.slice(0, block.indexOf("\n  },"));
+    const slug = /slug:\s*"([^"]+)"/.exec(body)?.[1];
+    const lat = /\blat:\s*(-?[\d.]+)/.exec(body)?.[1];
+    const lng = /\blng:\s*(-?[\d.]+)/.exec(body)?.[1];
+    if (!slug || !lat || !lng) continue;
+    const precision = /geoPrecision:\s*"(exact|city)"/.exec(body)?.[1];
+    lock.set(slug, {
+      lat: parseFloat(lat),
+      lng: parseFloat(lng),
+      // Files generated before geoPrecision existed carry no marker. Treat
+      // them as "city" only if they share a coordinate with another entry
+      // (resolved by the caller, which can see the whole set); default here
+      // to "exact" and let that pass refine it.
+      geoPrecision: (precision as GeoPrecision) ?? "exact",
+    });
+  }
+  return lock;
+}
 
 function loadCache(): Cache {
   if (!existsSync(CACHE_PATH)) return {};
@@ -492,6 +596,39 @@ function buildQueries(p: RawPlace, country: string): string[] {
   return [...new Set(queries)];
 }
 
+/**
+ * Decide whether a committed pin is the place itself or a town centroid.
+ *
+ * Reads the geocode cache rather than the network, so this is free and
+ * deterministic. The cache records what each query returned; if the pin
+ * matches what the *address* query returned it is the place, and if it
+ * matches a later town/region query it is a centroid.
+ */
+function derivePrecision(
+  p: RawPlace,
+  country: string,
+  cc: string,
+  coords: [number, number],
+  cache: Cache,
+): GeoPrecision {
+  const queries = buildQueries(p, country);
+  const same = (r: [number, number] | null | undefined) =>
+    Boolean(r && r[0] === coords[0] && r[1] === coords[1]);
+
+  for (const [i, q] of queries.entries()) {
+    const hit = cache[`${cc}:${q}`];
+    if (!same(hit)) continue;
+    // Query 0 is the street address only when the listing published one;
+    // otherwise the first query is already a town name.
+    return i === 0 && hasStreetAddress(p) ? "exact" : "city";
+  }
+  // No cache entry explains this pin — it came from a hand-verified source
+  // (a MANUAL_COORDS entry since removed, or a corrected commit). Trust it
+  // if the listing has an address to have been verified against, and treat
+  // a bare town name as approximate.
+  return hasStreetAddress(p) ? "exact" : "city";
+}
+
 function buildExcerpt(p: RawPlace): string {
   const host = (() => {
     try {
@@ -508,15 +645,19 @@ async function main(): Promise<void> {
   const cache = loadCache();
   const curatedSlugs = loadCuratedSlugs();
   const seenSlugs = new Set<string>();
-  const lines: string[] = [];
+  const entries: GeneratedEntry[] = [];
   let kept = 0;
   let skippedDup = 0;
   let skippedCurated = 0;
   let skippedNoCoords = 0;
   const failed: string[] = [];
   const centroidFallbacks: string[] = [];
+  const lock = loadCoordinateLock();
+  const moved: string[] = [];
+  let lockedCount = 0;
 
   console.log(`Loaded ${curatedSlugs.size} curated slugs to protect.`);
+  console.log(`Loaded ${lock.size} committed pins to hold steady.`);
 
   for (const filePath of RAW_PATHS) {
     const raw = JSON.parse(readFileSync(filePath, "utf-8")) as RawFile;
@@ -553,22 +694,54 @@ async function main(): Promise<void> {
       }
       seenSlugs.add(slug);
 
-      // Geocode — manual override first, then Nominatim queries.
-      let coords: [number, number] | null = MANUAL_COORDS[p.name] ?? null;
-      if (!coords) {
+      // Resolve a pin. Precedence: MANUAL_COORDS (explicit and
+      // source-checked) > the committed pin > the geocoder. Anything already
+      // committed is held steady so an unrelated rebuild cannot move it —
+      // see loadCoordinateLock().
+      let coords: [number, number] | null = null;
+      let geoPrecision: GeoPrecision = "exact";
+      const manual = MANUAL_COORDS[p.name];
+      const locked = lock.get(slug);
+
+      if (manual) {
+        coords = [manual[0], manual[1]];
+        geoPrecision = manual[2] ?? "exact";
+        if (
+          locked &&
+          (locked.lat !== coords[0] || locked.lng !== coords[1])
+        ) {
+          moved.push(
+            `${slug}: [${locked.lat}, ${locked.lng}] → [${coords[0]}, ${coords[1]}] (MANUAL_COORDS)`,
+          );
+        }
+      } else if (locked) {
+        coords = [locked.lat, locked.lng];
+        // The coordinate is locked; its precision is not. Re-derive it from
+        // the geocode cache every run, so files written before the field
+        // existed get an honest value and a later address fix upgrades the
+        // label without anyone having to remember to.
+        geoPrecision = derivePrecision(p, country, cc, coords, cache);
+        lockedCount++;
+      } else {
         const queries = buildQueries(p, country);
         for (const [i, q] of queries.entries()) {
           coords = await geocodeOne(q, cache, cc);
           if (!coords) continue;
-          // A place that published a street address but only resolved via a
-          // later (city-level) query is pinned to a centroid, not to itself.
-          // That is how StoneWater Zen Kent ended up on the wrong "Hayes" —
-          // 33km away in West London. Surface it so it can be corrected with
-          // a MANUAL_COORDS entry instead of shipping a plausible-looking
-          // pin in the wrong town.
-          if (i > 0 && hasStreetAddress(p)) {
-            centroidFallbacks.push(`${cc}: ${p.name} — "${p.address}"`);
-            console.log(`  ⚠ centroid fallback: ${p.name} (${p.city})`);
+          // Only the first query is the place itself; every later one is a
+          // town or region name, so the pin is a centroid rather than the
+          // address. Record that as `geoPrecision: "city"` so the map can
+          // say so instead of presenting a guess as the temple's location.
+          if (i > 0) {
+            geoPrecision = "city";
+            // Publishing a street address that still resolved only at town
+            // level is the dangerous case — it lands in the wrong town when
+            // the name is ambiguous, which is how StoneWater Zen Kent ended
+            // up 33km away in the other Hayes. Surface those for a
+            // MANUAL_COORDS fix.
+            if (hasStreetAddress(p)) {
+              centroidFallbacks.push(`${cc}: ${p.name} — "${p.address}"`);
+              console.log(`  ⚠ centroid fallback: ${p.name} (${p.city})`);
+            }
           }
           break;
         }
@@ -590,32 +763,61 @@ async function main(): Promise<void> {
           ? excerpt
           : excerpt.replace(`(${p.lineage})`, `(${canonicalLineage})`);
 
-      lines.push(
-        `  {
-    slug: ${JSON.stringify(slug)},
-    names: [{ locale: "en", value: ${JSON.stringify(p.name)} }],
-    lat: ${coords[0]},
-    lng: ${coords[1]},
-    region: ${JSON.stringify(region)},
-    country: ${JSON.stringify(country)},
-    foundedYear: null,
-    foundedPrecision: null,
-    schoolSlug: ${JSON.stringify(schoolSlug)},
-    status: "active",
-    sourceId: ${JSON.stringify(sourceId)},
-    sourceExcerpt: ${JSON.stringify(excerptCanonical)},
-    url: ${JSON.stringify(p.url)},
-  },`
-      );
+      entries.push({
+        slug,
+        name: p.name,
+        lat: coords[0],
+        lng: coords[1],
+        region,
+        country,
+        schoolSlug,
+        sourceId,
+        sourceExcerpt: excerptCanonical,
+        url: p.url,
+        geoPrecision,
+        precisionPinned: Boolean(manual && manual[2]),
+      });
       kept++;
       console.log(`  ✓ ${slug} [${coords[0].toFixed(4)}, ${coords[1].toFixed(4)}]`);
     }
   }
 
+  const downgraded = reconcileSharedPins(entries);
+
+  const lines = entries.map(
+    (e) => `  {
+    slug: ${JSON.stringify(e.slug)},
+    names: [{ locale: "en", value: ${JSON.stringify(e.name)} }],
+    lat: ${e.lat},
+    lng: ${e.lng},
+    region: ${JSON.stringify(e.region)},
+    country: ${JSON.stringify(e.country)},
+    foundedYear: null,
+    foundedPrecision: null,
+    schoolSlug: ${JSON.stringify(e.schoolSlug)},
+    status: "active",
+    sourceId: ${JSON.stringify(e.sourceId)},
+    sourceExcerpt: ${JSON.stringify(e.sourceExcerpt)},
+    url: ${JSON.stringify(e.url)},
+    geoPrecision: ${JSON.stringify(e.geoPrecision)},
+  },`,
+  );
+
   const file = `/**
  * Europe temple seeds — GENERATED by scripts/build-europe-temples.ts.
  * Source: scripts/data/raw/zen-places-*.json. Do not hand-edit; re-run
  * the builder after editing the raw JSON or the lineage→slug mapping.
+ *
+ * Coordinates are LOCKED: on each run the builder reads the pins already
+ * committed here and reuses them, because Nominatim's answers drift and a
+ * plain re-run would otherwise downgrade street-level pins to town
+ * centroids. To move a pin, add a MANUAL_COORDS entry in the builder —
+ * that is the only path that records why it moved.
+ *
+ * \`geoPrecision\` says what the pin means: "exact" is the place itself,
+ * "city" is a town-level centroid standing in for an address we do not
+ * have. The map labels the latter as approximate rather than presenting
+ * a guess as a temple's location.
  *
  * Coordinates: OpenStreetMap Nominatim — street address when supplied
  * by the source listing, falling back to commune centroid. Multiple
@@ -633,6 +835,13 @@ ${lines.join("\n")}
 
   console.log(`\n=== Summary ===`);
   console.log(`  written:            ${kept} → ${OUT_PATH}`);
+  console.log(`  held at locked pin: ${lockedCount}`);
+  console.log(
+    `  exact pins:         ${entries.filter((e) => e.geoPrecision === "exact").length}`,
+  );
+  console.log(
+    `  approximate pins:   ${entries.filter((e) => e.geoPrecision === "city").length} (${downgraded} downgraded for sharing a point)`,
+  );
   console.log(`  skipped (curated):  ${skippedCurated}`);
   console.log(`  skipped (pattern):  ${skippedDup}`);
   console.log(`  skipped (geocode):  ${skippedNoCoords}`);
@@ -651,6 +860,16 @@ ${lines.join("\n")}
       `    wrong town when it is ambiguous. Add a MANUAL_COORDS entry for each:`,
     );
     for (const n of centroidFallbacks) console.log(`    - ${n}`);
+  }
+  if (moved.length) {
+    console.log(
+      `\n  ⚑ pins moved off their committed coordinate (${moved.length}).`,
+    );
+    console.log(
+      `    Each is an explicit MANUAL_COORDS decision — check the diff says`,
+    );
+    console.log(`    what you meant it to say:`);
+    for (const n of moved) console.log(`    - ${n}`);
   }
 }
 

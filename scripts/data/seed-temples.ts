@@ -40,6 +40,24 @@ export interface TempleSeed {
    * itself maintains (sangha / temple / dōjō), not a third-party directory.
    * Omit when no canonical site is known. */
   url?: string;
+  /**
+   * What the pin actually means.
+   *
+   * `"exact"` — this coordinate is the place itself, taken from its own
+   * published address, an OSM node for the temple, or a Wikipedia infobox.
+   * `"city"` — a town-level centroid standing in for an address we do not
+   * have. Several sanghas in one city then share a point, and the pin is
+   * only as precise as the town name.
+   *
+   * The distinction is not cosmetic: a sitting group that meets in a rented
+   * hall is not located at the town hall, and a map that says otherwise
+   * sends someone to the wrong door. Surfaced in the UI as an "approximate"
+   * marker so a centroid is never presented as a temple's location.
+   *
+   * Defaults to `"exact"` when omitted — hand-curated rows below carry
+   * coordinates checked against a named source.
+   */
+  geoPrecision?: "exact" | "city";
 }
 
 /** Shared source id used when the citation target is Wikipedia's
