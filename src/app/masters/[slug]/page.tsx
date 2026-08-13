@@ -37,6 +37,7 @@ import {
   jsonLdString,
   personSchema,
 } from "@/lib/seo/jsonld";
+import { sameAsFor } from "@/lib/seo/master-sameas";
 
 type Confidence = "high" | "medium" | "low" | null;
 
@@ -833,6 +834,10 @@ export default async function MasterDetailPage({ params }: { params: Promise<{ s
       slug: s.counterpartSlug,
       name: nameMap.get(s.counterpartId) ?? s.counterpartSlug,
     })),
+    // Ties this page to the master as a knowledge-graph entity rather than
+    // a name that happens to match. Empty for masters with no confirmed
+    // article — see src/lib/seo/master-sameas.ts.
+    sameAs: sameAsFor(master.slug),
   });
 
   const breadcrumbLd = breadcrumbSchema([

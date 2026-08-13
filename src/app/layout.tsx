@@ -75,7 +75,27 @@ export const metadata: Metadata = {
     index: true,
     follow: true,
   },
+  // Search Console ownership. Set NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION to the
+  // token from the "HTML tag" verification method; the tag is omitted entirely
+  // when unset, so an unconfigured build ships no stray empty meta.
+  ...(process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION
+    ? {
+        verification: {
+          google: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION,
+        },
+      }
+    : {}),
 };
+
+/**
+ * Cloudflare Web Analytics beacon token.
+ *
+ * Cookieless and collects no personal data, so it needs no consent banner —
+ * which is why it was chosen over GA4 for a site meant to stay quiet. Gated
+ * on the env var: with no token configured the site loads zero third-party
+ * script, rather than a beacon that silently 404s.
+ */
+const CF_BEACON_TOKEN = process.env.NEXT_PUBLIC_CF_BEACON_TOKEN;
 
 export const viewport: Viewport = {
   themeColor: "#faf9f7",
@@ -108,6 +128,13 @@ export default function RootLayout({
         <NavProgress />
         {children}
         <SiteSearch />
+        {CF_BEACON_TOKEN && (
+          <script
+            defer
+            src="https://static.cloudflareinsights.com/beacon.min.js"
+            data-cf-beacon={JSON.stringify({ token: CF_BEACON_TOKEN })}
+          />
+        )}
       </body>
     </html>
   );

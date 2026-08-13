@@ -25,6 +25,37 @@ stripping — it 404s every navigation fetch and forces full page reloads.
 To deploy: run the deploy command above, or push to the linked branch and let
 Cloudflare Pages CI pick it up.
 
+### Build-time environment variables
+
+Both are optional and read at build time. Set them in the Cloudflare Pages
+project settings (Settings → Environment variables) so production builds pick
+them up — a local `.env` only affects local builds. Each is gated: when unset,
+the corresponding tag or script is omitted entirely rather than emitted empty.
+
+| Variable | Purpose |
+| --- | --- |
+| `NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION` | Google Search Console ownership token (the "HTML tag" method — the token only, not the whole tag). Without it, Search Console cannot be verified and we have no indexation data. |
+| `NEXT_PUBLIC_CF_BEACON_TOKEN` | Cloudflare Web Analytics beacon token. Cookieless and collects no personal data, so no consent banner is required. Leave unset to ship zero third-party script. |
+
+## SEO invariants
+
+- **Never `Disallow: /data/`** (or any path under it) in `src/app/robots.ts`.
+  Those JSON files are content, not private data: `/lineage` fetches
+  `/data/graph.json`, `/practice` fetches `/data/temples.json`, and site
+  search fetches `/data/search-index.json`, all client-side. Googlebot
+  renders JavaScript but will not fetch a robots-forbidden resource, so
+  disallowing `/data/` leaves those pages permanently empty to crawlers. It
+  also contradicts `/llms.txt`, which points agents at `/data/graph.json`.
+- **Don't put link lists in permanently-hidden containers.** `.lineage-seo-intro`
+  is `clip: rect(0,0,0,0)` and `.lineage-page` is `height:100vh; overflow:hidden`.
+  A few hundred links no user can reach reads as a hidden-link scheme whichever
+  mechanism hides them. Every master is already reachable via `/masters`, and
+  each `/masters/<slug>` links to its `/lineage/<slug>`.
+- Master lineage pages (`/lineage/[slug]`, ~466 of them) must carry content
+  specific to their subject — the succession chain, the named teacher, the
+  attributed teachings. They were once ~143 templated words each, which at
+  that scale reads as near-duplicate boilerplate.
+
 ## Data flow and the "seed data is truth" rule
 
 The runtime database (`zen.db` at the repo root) is **ephemeral**. It is

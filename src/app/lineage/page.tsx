@@ -25,6 +25,12 @@ export default async function LineagePage() {
     .where(isNull(schools.parentId))
     .orderBy(schools.tradition, schools.slug);
 
+  // NOTE: a full master roster was considered here and deliberately left
+  // out. `.lineage-page` is `height: 100vh; overflow: hidden`, so anything
+  // below the graph is clipped and unreachable — and a few hundred links no
+  // user can reach is the hidden-link pattern, whichever CSS hides them.
+  // The crawl path already exists without it: /masters lists every master,
+  // and each /masters/<slug> links to its /lineage/<slug>.
   return (
     <main className="lineage-page">
       <nav className="lineage-nav">
@@ -65,6 +71,7 @@ export default async function LineagePage() {
             </li>
           ))}
         </ul>
+
       </div>
 
       <LineageGraphClient />

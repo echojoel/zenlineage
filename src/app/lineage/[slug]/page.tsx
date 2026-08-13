@@ -16,6 +16,12 @@ import {
   breadcrumbSchema,
   jsonLdString,
 } from "@/lib/seo/jsonld";
+import {
+  getLineageGraph,
+  successionChain,
+  type LineageMaster,
+  type LineageTeaching,
+} from "@/lib/lineage-context";
 
 const ANCESTOR_DEPTH = 12; // walk up the entire chain — Zen lineages
                            // are deep but finite (~28 patriarchs)
@@ -80,10 +86,21 @@ async function getDharmaNames(ids: string[]): Promise<Map<string, string>> {
   return out;
 }
 
-async function walkAncestors(rootId: string, maxDepth: number): Promise<MasterRow[][]> {
-  // Returns layers: [direct teachers, grand-teachers, ...]. BFS up the
+/**
+ * A generation of the walk. `depth` is the true distance from the subject,
+ * carried explicitly because empty generations are dropped from the list:
+ * traversal continues through masters outside the published set, but they
+ * must not appear, so array position no longer equals generation number.
+ */
+interface Generation {
+  depth: number;
+  masters: MasterRow[];
+}
+
+async function walkAncestors(rootId: string, maxDepth: number): Promise<Generation[]> {
+  // Returns generations: [direct teachers, grand-teachers, ...]. BFS up the
   // graph through master_transmissions where root is the student.
-  const layers: MasterRow[][] = [];
+  const layers: Generation[] = [];
   let frontier = [rootId];
   const seen = new Set<string>([rootId]);
   for (let depth = 0; depth < maxDepth && frontier.length > 0; depth++) {
@@ -97,14 +114,18 @@ async function walkAncestors(rootId: string, maxDepth: number): Promise<MasterRo
     if (nextIds.length === 0) break;
     nextIds.forEach((id) => seen.add(id));
     const masters = await getMastersByIds(nextIds);
-    layers.push(masters);
+    // Keep walking past a generation with nothing published — an unpublished
+    // teacher between two published ones must not truncate the chain — but
+    // never emit the empty generation itself, which rendered as a bare
+    // "N generations above" heading with no names beneath it.
+    if (masters.length > 0) layers.push({ depth: depth + 1, masters });
     frontier = nextIds;
   }
   return layers;
 }
 
-async function walkDescendants(rootId: string, maxDepth: number): Promise<MasterRow[][]> {
-  const layers: MasterRow[][] = [];
+async function walkDescendants(rootId: string, maxDepth: number): Promise<Generation[]> {
+  const layers: Generation[] = [];
   let frontier = [rootId];
   const seen = new Set<string>([rootId]);
   for (let depth = 0; depth < maxDepth && frontier.length > 0; depth++) {
@@ -118,7 +139,7 @@ async function walkDescendants(rootId: string, maxDepth: number): Promise<Master
     if (nextIds.length === 0) break;
     nextIds.forEach((id) => seen.add(id));
     const masters = await getMastersByIds(nextIds);
-    layers.push(masters);
+    if (masters.length > 0) layers.push({ depth: depth + 1, masters });
     frontier = nextIds;
   }
   return layers;
@@ -142,7 +163,7 @@ async function loadLineage(slug: string) {
 
   const allIds = new Set<string>([master.id]);
   for (const layer of [...ancestorLayers, ...descendantLayers]) {
-    for (const m of layer) allIds.add(m.id);
+    for (const m of layer.masters) allIds.add(m.id);
   }
   const nameMap = await getDharmaNames(Array.from(allIds));
 
@@ -176,7 +197,55 @@ async function loadLineage(slug: string) {
     }
   }
 
-  return { master, ancestorLayers, descendantLayers, nameMap, schoolInfo };
+  const graph = await getLineageGraph();
+  const chain = successionChain(graph, master.id);
+  const teachingList = graph.teachingsByAuthor.get(master.id) ?? [];
+  const successorsOutOfScope = graph.successorsBeyondScope.has(master.id);
+
+  return {
+    master,
+    ancestorLayers,
+    descendantLayers,
+    nameMap,
+    schoolInfo,
+    chain,
+    teachingList,
+    successorsOutOfScope,
+  };
+}
+
+/**
+ * A sentence naming the actual people in this master's line.
+ *
+ * These 466 pages previously shared one templated skeleton and ~143 words,
+ * which reads to a search engine as near-duplicate boilerplate at scale.
+ * Naming the immediate teacher, the depth of the succession and the root it
+ * descends from makes each page's prose genuinely about its own subject.
+ */
+function successionSentence(
+  name: string,
+  chain: LineageMaster[],
+  schoolName: string | null
+): string | null {
+  if (chain.length === 0) return null;
+
+  const root = chain[0];
+  const teacher = chain[chain.length - 1];
+  const school = schoolName ? ` in the ${schoolName} line` : "";
+
+  if (chain.length === 1) {
+    return `${name} received transmission from ${root.name}${school}.`;
+  }
+  return (
+    `${name} stands ${chain.length} generation${chain.length === 1 ? "" : "s"} ` +
+    `from ${root.name}${school}, receiving transmission from ${teacher.name}` +
+    `${formatDates(teacher) ? ` (${formatDates(teacher)})` : ""}. ` +
+    `The line above runs back through ${chain
+      .slice(1, -1)
+      .slice(-3)
+      .map((m) => m.name)
+      .join(", ")}${chain.length > 4 ? " and their predecessors" : ""} to ${root.name}.`
+  );
 }
 
 export async function generateMetadata({
@@ -190,16 +259,26 @@ export async function generateMetadata({
   const { master, ancestorLayers, descendantLayers, nameMap, schoolInfo } = data;
   const name = nameMap.get(master.id) ?? master.slug;
 
-  const ancestorCount = ancestorLayers.flat().length;
-  const descendantCount = descendantLayers.flat().length;
+  const ancestorCount = ancestorLayers.reduce((n, l) => n + l.masters.length, 0);
+  const descendantCount = descendantLayers.reduce((n, l) => n + l.masters.length, 0);
   const dates = formatDates(master);
-  const description = `Dharma lineage of ${name}${dates ? ` (${dates})` : ""}${
-    schoolInfo ? `, ${schoolInfo.name}` : ""
-  } — ${ancestorCount} teachers and ancestors, ${descendantCount} students and descendants traced through transmission.`;
+  const teacher = data.chain.length > 0 ? data.chain[data.chain.length - 1] : null;
+  // Naming the teacher keeps these 466 descriptions distinct from one
+  // another and matches how people actually search ("<master> lineage",
+  // "who was <master>'s teacher").
+  const description =
+    `Dharma lineage of ${name}${dates ? ` (${dates})` : ""}${
+      schoolInfo ? `, ${schoolInfo.name}` : ""
+    }${teacher ? ` — transmission received from ${teacher.name}` : ""}. ` +
+    `${ancestorCount} teachers and ancestors, ${descendantCount} students and descendants traced through transmission.`;
 
   const canonicalUrl = abs(`/lineage/${slug}`);
   return {
-    title: `Lineage of ${name}`,
+    // `absolute` rather than a plain string: the parent /lineage layout sets
+    // its own title, and the root template was not reaching this route (built
+    // pages emitted a bare "Lineage of X"). Stating the final string outright
+    // means the brand is present without risking a doubled suffix.
+    title: { absolute: `Lineage of ${name} — Zen Lineage` },
     description,
     alternates: { canonical: canonicalUrl },
     openGraph: {
@@ -224,8 +303,18 @@ export default async function MasterLineagePage({
   const { slug } = await params;
   const data = await loadLineage(slug);
   if (!data) notFound();
-  const { master, ancestorLayers, descendantLayers, nameMap, schoolInfo } = data;
+  const {
+    master,
+    ancestorLayers,
+    descendantLayers,
+    nameMap,
+    schoolInfo,
+    chain,
+    teachingList,
+    successorsOutOfScope,
+  } = data;
   const name = nameMap.get(master.id) ?? master.slug;
+  const prose = successionSentence(name, chain, schoolInfo?.name ?? null);
 
   const canonicalUrl = abs(`/lineage/${slug}`);
 
@@ -268,10 +357,21 @@ export default async function MasterLineagePage({
           <p className="detail-eyebrow">Dharma transmission</p>
           <h2 className="detail-title">Lineage of {name}</h2>
           <p className="detail-subtitle">
-            {ancestorLayers.flat().length} teachers and ancestors,{" "}
-            {descendantLayers.flat().length} students and descendants traced
+            {ancestorLayers.reduce((n, l) => n + l.masters.length, 0)} teachers and
+            ancestors,{" "}
+            {descendantLayers.reduce((n, l) => n + l.masters.length, 0)} students and
+            descendants traced
             through transmission.
           </p>
+          {prose && <p className="detail-prose">{prose}</p>}
+          {schoolInfo && (
+            <p className="detail-prose">
+              This line belongs to{" "}
+              <Link href={`/schools/${schoolInfo.slug}`}>{schoolInfo.name}</Link>.
+              Every name below links to that master&rsquo;s own record, with the
+              sources for each transmission.
+            </p>
+          )}
           <div className="detail-actions">
             <Link
               className="detail-button"
@@ -290,20 +390,63 @@ export default async function MasterLineagePage({
           </div>
         </section>
 
+        {chain.length > 0 && (
+          <section className="detail-card">
+            <h3 className="detail-section-title">
+              Line of succession to {name}
+            </h3>
+            <p className="detail-muted">
+              The single line of formal transmission, root first. Where a master
+              had several teachers this follows the one carrying the succession;
+              the fuller set of ancestors is listed below.
+            </p>
+            <ol className="detail-link-list lineage-succession">
+              {chain.map((m, i) => (
+                <li key={m.id}>
+                  <span className="detail-list-meta">{i + 1}.</span>{" "}
+                  <Link href={`/masters/${m.slug}`}>{m.name}</Link>
+                  <span className="detail-list-meta">{formatDates(m)}</span>
+                </li>
+              ))}
+              <li>
+                <span className="detail-list-meta">{chain.length + 1}.</span>{" "}
+                <strong>{name}</strong>
+                <span className="detail-list-meta">{formatDates(master)}</span>
+              </li>
+            </ol>
+          </section>
+        )}
+
+        {teachingList.length > 0 && (
+          <section className="detail-card">
+            <h3 className="detail-section-title">
+              Teachings attributed to {name}
+            </h3>
+            <ul className="detail-link-list">
+              {teachingList.map((t: LineageTeaching) => (
+                <li key={t.slug}>
+                  <Link href={`/teachings/${t.slug}`}>{t.title}</Link>
+                  {t.type && <span className="detail-list-meta">{t.type}</span>}
+                </li>
+              ))}
+            </ul>
+          </section>
+        )}
+
         {ancestorsTopDown.length > 0 && (
           <section className="detail-card">
             <h3 className="detail-section-title">
               Ancestors of {name}
             </h3>
             <ol className="detail-link-list">
-              {ancestorsTopDown.map((layer, i) => (
-                <li key={`anc-${i}`}>
+              {ancestorsTopDown.map((layer) => (
+                <li key={`anc-${layer.depth}`}>
                   <p className="detail-list-meta">
-                    {ancestorsTopDown.length - i} generation
-                    {ancestorsTopDown.length - i === 1 ? "" : "s"} above
+                    {layer.depth} generation
+                    {layer.depth === 1 ? "" : "s"} above
                   </p>
                   <ul className="detail-link-list" style={{ marginTop: "0.4rem" }}>
-                    {layer
+                    {layer.masters
                       .slice()
                       .sort((a, b) => (a.birthYear ?? 9999) - (b.birthYear ?? 9999))
                       .map((m) => (
@@ -327,13 +470,13 @@ export default async function MasterLineagePage({
               Disciples and descendants of {name}
             </h3>
             <ol className="detail-link-list">
-              {descendantLayers.map((layer, i) => (
-                <li key={`desc-${i}`}>
+              {descendantLayers.map((layer) => (
+                <li key={`desc-${layer.depth}`}>
                   <p className="detail-list-meta">
-                    {i + 1} generation{i === 0 ? "" : "s"} below
+                    {layer.depth} generation{layer.depth === 1 ? "" : "s"} below
                   </p>
                   <ul className="detail-link-list" style={{ marginTop: "0.4rem" }}>
-                    {layer
+                    {layer.masters
                       .slice()
                       .sort((a, b) => (a.birthYear ?? 9999) - (b.birthYear ?? 9999))
                       .map((m) => (
@@ -351,15 +494,31 @@ export default async function MasterLineagePage({
           </section>
         )}
 
-        {ancestorLayers.length === 0 && descendantLayers.length === 0 && (
+        {descendantLayers.length === 0 && successorsOutOfScope && (
           <section className="detail-card">
+            <h3 className="detail-section-title">
+              Successors of {name}
+            </h3>
             <p className="detail-muted">
-              No transmission edges recorded for {name} yet — this master
-              appears in the encyclopedia but their lineage links are not
-              yet in the dataset.
+              {name} transmitted the dharma onward, but this atlas charts the
+              ancestral lineage up to the teachers who carried these traditions
+              out of Asia. Their successors continue a living tradition we do
+              not attempt to chart here, so no descendants are shown.
             </p>
           </section>
         )}
+
+        {ancestorLayers.length === 0 &&
+          descendantLayers.length === 0 &&
+          !successorsOutOfScope && (
+            <section className="detail-card">
+              <p className="detail-muted">
+                No transmission edges recorded for {name} yet — this master
+                appears in the encyclopedia but their lineage links are not
+                yet in the dataset.
+              </p>
+            </section>
+          )}
       </div>
     </main>
   );
