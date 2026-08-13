@@ -1099,9 +1099,14 @@ export default async function AboutPage() {
               Joel Pestana
             </a>
             , student of{" "}
-            <Link className="detail-inline-link" href="/masters/yves-shoshin-crettaz">
+            <a
+              href="https://dojozenlisboa.com/"
+              className="detail-inline-link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Yves Shoshin Crettaz
-            </Link>
+            </a>
             .
           </p>
         </footer>
