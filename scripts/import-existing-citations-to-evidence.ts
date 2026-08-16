@@ -140,7 +140,7 @@ async function main() {
     // that haven't been verified against the actual page content. A future
     // pass replaces the placeholder with the real verbatim quote, at which
     // point the audit + a re-seed will compute the real tier.
-    const tier: "D" = "D";
+    const tier = "D" as const;
 
     // Serialize sources as YAML list entries.
     const sourcesYaml = evSources

@@ -328,7 +328,7 @@ async function main() {
   );
 
   let fetched = 0;
-  let missing: string[] = [];
+  const missing: string[] = [];
 
   for (const master of slice) {
     const outPath = path.join(PUBLIC_MASTERS_DIR, `${master.slug}.webp`);

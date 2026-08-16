@@ -102,6 +102,10 @@ export default function PracticeMap({ initialSchool, selectedSchool }: PracticeM
   // state in sync so the existing filter useEffect re-applies.
   useEffect(() => {
     if (selectedSchool === undefined) return;
+    // The filter is dual-controlled: the parent drives it from the URL, and
+    // the in-map dropdown drives it locally. Mirroring the prop is what lets
+    // both write to one piece of state.
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setSchoolFilter(selectedSchool && selectedSchool.length > 0 ? selectedSchool : "all");
   }, [selectedSchool]);
 

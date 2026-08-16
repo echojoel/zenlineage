@@ -32,7 +32,7 @@ export default function SiteSearch() {
   const router = useRouter();
   const [open, setOpen] = useState(false);
   const [query, setQuery] = useState("");
-  const [highlight, setHighlight] = useState(0);
+  const [highlightRaw, setHighlight] = useState(0);
   const [entries, setEntries] = useState<SearchEntry[] | null>(null);
   const inputRef = useRef<HTMLInputElement | null>(null);
   const listRef = useRef<HTMLUListElement | null>(null);
@@ -78,6 +78,9 @@ export default function SiteSearch() {
     const params = new URLSearchParams(window.location.search);
     const q = params.get("q");
     if (q && q.trim().length > 0) {
+      // `?q=` is invisible to the static prerender, so the SearchAction
+      // landing can only be honoured after mount.
+      // eslint-disable-next-line react-hooks/set-state-in-effect
       setQuery(q);
       setOpen(true);
     }
@@ -118,6 +121,10 @@ export default function SiteSearch() {
     if (open) {
       // Small timeout so the dialog mounts before focus.
       const t = window.setTimeout(() => inputRef.current?.focus(), 30);
+      // The dialog is opened from five call sites (button, Cmd+K, `/`, the
+      // open event, the `?q=` landing); resetting the cursor here keeps that
+      // in one place rather than duplicating it across every trigger.
+      // eslint-disable-next-line react-hooks/set-state-in-effect
       setHighlight(0);
       return () => window.clearTimeout(t);
     }
@@ -157,10 +164,15 @@ export default function SiteSearch() {
     return fuse.search(query, { limit: 30 }).map((r) => r.item);
   }, [fuse, entries, query]);
 
-  // Keep highlight in valid range and scroll into view.
-  useEffect(() => {
-    if (highlight >= results.length) setHighlight(0);
-  }, [results, highlight]);
+  // Clamp into range at read time rather than correcting it in an effect.
+  // The result list shrinks as the user types, so a stored index goes stale
+  // on almost every keystroke; clamping in render keeps it valid without
+  // the extra render pass (and the frame of "nothing highlighted") that
+  // setting state from an effect would cost.
+  const highlight =
+    highlightRaw >= 0 && highlightRaw < results.length ? highlightRaw : 0;
+
+  // Scroll the highlighted row into view.
   useEffect(() => {
     if (!listRef.current) return;
     const el = listRef.current.querySelector<HTMLElement>(
@@ -182,10 +194,10 @@ export default function SiteSearch() {
     (e: React.KeyboardEvent<HTMLDivElement>) => {
       if (e.key === "ArrowDown") {
         e.preventDefault();
-        setHighlight((h) => Math.min(results.length - 1, h + 1));
+        setHighlight(Math.min(results.length - 1, highlight + 1));
       } else if (e.key === "ArrowUp") {
         e.preventDefault();
-        setHighlight((h) => Math.max(0, h - 1));
+        setHighlight(Math.max(0, highlight - 1));
       } else if (e.key === "Enter" && results[highlight]) {
         e.preventDefault();
         navigateTo(results[highlight]);

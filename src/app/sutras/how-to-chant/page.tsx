@@ -43,7 +43,7 @@ export default function HowToChantPage() {
           <h2 className="detail-title">Breath, tempo, instruments</h2>
           <div className="detail-summary">
             <p>
-              You don't need to read Chinese characters to chant in a
+              You don&rsquo;t need to read Chinese characters to chant in a
               Zen meditation hall. The texts are sounded, not parsed.
               The practice is more like rowing in a crew than
               reciting a poem: everyone keeps the same beat, breathes
@@ -51,7 +51,7 @@ export default function HowToChantPage() {
             </p>
             <p>
               This guide is for visitors and beginners. It assumes
-              you've found a hall (the practice directory under{" "}
+              you&rsquo;ve found a hall (the practice directory under{" "}
               <Link className="detail-inline-link" href="/practice">
                 /practice
               </Link>{" "}
@@ -95,14 +95,15 @@ export default function HowToChantPage() {
               You take a breath where you need to, but most chanters
               learn to inhale at the natural pause between <em>shōji</em>{" "}
               (sentence) units. In the Heart Sūtra those are the
-              short lines like <em lang="ja-Latn">"shiki soku ze kū"</em>{" "}
+              short lines like{" "}
+              <em lang="ja-Latn">&ldquo;shiki soku ze kū&rdquo;</em>{" "}
               (form is precisely emptiness): a quick breath in, then
               ride the next phrase out on the exhale.
             </p>
             <p>
-              When you don't know the words, the rule is simple — keep
+              When you don&rsquo;t know the words, the rule is simple — keep
               the beat with the rest of the room and hum or move your
-              lips. Don't try to chase a phrase you've missed; pick
+              lips. Don&rsquo;t try to chase a phrase you&rsquo;ve missed; pick
               up at the next clear word.
             </p>
           </div>
@@ -112,11 +113,11 @@ export default function HowToChantPage() {
           <h3 className="detail-section-title">The instruments</h3>
           <div className="detail-summary">
             <p>
-              The <em lang="ja-Latn">mokugyō</em> (木魚, "wooden
-              fish") is the round wooden drum struck with a padded
+              The <em lang="ja-Latn">mokugyō</em> (木魚, &ldquo;wooden
+              fish&rdquo;) is the round wooden drum struck with a padded
               mallet. It carries the beat under the chant — one
               strike per syllable, at the pace the lead chanter sets.
-              When you're new, listen to the <em>mokugyō</em> first;
+              When you&rsquo;re new, listen to the <em>mokugyō</em> first;
               the words come second.
             </p>
             <p>
@@ -124,9 +125,9 @@ export default function HowToChantPage() {
               the larger <em lang="ja-Latn">keisu</em> (磬子, sitting
               bowl-bell) mark structural breaks: the start of a
               chant, the end of a chant, dedications, and bows. A
-              long ringing tone usually means "stop chanting" or
-              "bow now"; a short crisp strike usually means "begin"
-              or "next section."
+              long ringing tone usually means &ldquo;stop chanting&rdquo; or
+              &ldquo;bow now&rdquo;; a short crisp strike usually means{" "}
+              &ldquo;begin&rdquo; or &ldquo;next section.&rdquo;
             </p>
             <p>
               Visitors are not expected to play any of these. The{" "}
@@ -148,30 +149,32 @@ export default function HowToChantPage() {
             <ul className="detail-link-list" style={{ marginTop: "0.5rem" }}>
               <li>
                 <strong lang="ja-Latn">a, i, u, e, o</strong> — pure
-                Italian-style vowels. <em lang="ja-Latn">"a"</em> as
+                Italian-style vowels. <em lang="ja-Latn">&ldquo;a&rdquo;</em> as
                 in <em>father</em>, never as in <em>cat</em>.
               </li>
               <li>
                 <strong lang="ja-Latn">ō, ū</strong> — the same vowel
-                held twice as long. <em lang="ja-Latn">"hō"</em> is
-                "ho-o," not a different sound.
+                held twice as long. <em lang="ja-Latn">&ldquo;hō&rdquo;</em> is
+                &ldquo;ho-o,&rdquo; not a different sound.
               </li>
               <li>
                 <strong lang="ja-Latn">double consonants (kk, ss,
-                tt)</strong> — held a beat. <em lang="ja-Latn">"is-sai"</em>{" "}
-                is "iss—sai," with a tiny silence between the
+                tt)</strong> — held a beat.{" "}
+                <em lang="ja-Latn">&ldquo;is-sai&rdquo;</em> is
+                &ldquo;iss—sai,&rdquo; with a tiny silence between the
                 consonants.
               </li>
               <li>
                 <strong lang="ja-Latn">n at the end of a syllable</strong>{" "}
-                — held briefly, like the n in "sing." <em lang="ja-Latn">"shin"</em>{" "}
-                is one full beat, not the English word "shin."
+                — held briefly, like the n in &ldquo;sing.&rdquo;{" "}
+                <em lang="ja-Latn">&ldquo;shin&rdquo;</em> is one full beat,
+                not the English word &ldquo;shin.&rdquo;
               </li>
               <li>
                 <strong lang="ja-Latn">hyphens</strong> in the
                 transcription mark syllable boundaries inside a
                 Sino-Japanese compound:{" "}
-                <em lang="ja-Latn">"hannya haramita shingyō"</em> is
+                <em lang="ja-Latn">&ldquo;hannya haramita shingyō&rdquo;</em> is
                 four units, not one breath.
               </li>
             </ul>
@@ -183,10 +186,10 @@ export default function HowToChantPage() {
           <div className="detail-summary">
             <p>
               When you start out, the chants will sound like syllables
-              in a language you don't speak — because that's exactly
+              in a language you don&rsquo;t speak — because that&rsquo;s exactly
               what they are. The Sino-Japanese reading is a stylised
               pronunciation of medieval Chinese; even native Japanese
-              speakers don't parse it as ordinary Japanese. The
+              speakers don&rsquo;t parse it as ordinary Japanese. The
               translations on this site are how you learn what the
               words mean.
             </p>
@@ -195,7 +198,7 @@ export default function HowToChantPage() {
               text many times until it sits in the body, then read a
               translation, then return to the chant a few months
               later and find that the meaning has crept in
-              underneath the syllables. That's the practice working
+              underneath the syllables. That&rsquo;s the practice working
               on you.
             </p>
           </div>

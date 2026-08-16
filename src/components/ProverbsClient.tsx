@@ -53,6 +53,9 @@ export default function ProverbsClient({
     const slug = params.get("highlight");
     if (!slug) return;
     if (!proverbs.some((p) => p.slug === slug)) return;
+    // See above: the query string is invisible to the static prerender, so
+    // the deep-link can only be resolved after mount.
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setActiveHighlight(slug);
     setOrder((prev) => [
       ...prev.filter((p) => p.slug === slug),
@@ -63,6 +66,8 @@ export default function ProverbsClient({
   useEffect(() => {
     if (typeof window === "undefined") return;
     const params = new URLSearchParams(window.location.search);
+    // `?mode=` is not available during the static prerender; adopt it here.
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     if (params.get("mode") === "koans") setMode("koans");
   }, []);
 

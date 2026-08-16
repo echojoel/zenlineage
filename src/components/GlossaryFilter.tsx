@@ -49,6 +49,10 @@ export default function GlossaryFilter() {
   useEffect(() => {
     const param = (searchParams.get("tradition") as Tradition | null) ?? "all";
     if (ORDER.includes(param as Tradition) && param !== active) {
+      // Mirrors an external source (browser history). The static prerender
+      // always emits the "all" state, so deriving this during render would
+      // desync markup from state on any deep-linked `?tradition=` URL.
+      // eslint-disable-next-line react-hooks/set-state-in-effect
       setActive(param as Tradition);
     }
   }, [searchParams, active]);

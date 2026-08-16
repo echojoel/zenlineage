@@ -7,13 +7,24 @@ const eslintConfig = defineConfig([
   ...nextVitals,
   ...nextTs,
   prettierConfig,
-  // Override default ignores of eslint-config-next.
+  // Override default ignores of eslint-config-next. Replacing the defaults
+  // means every build artefact has to be listed here explicitly — anything
+  // omitted gets linted, and bundled/minified output produces thousands of
+  // spurious errors that bury the real ones.
   globalIgnores([
     // Default ignores of eslint-config-next:
     ".next/**",
     "out/**",
     "build/**",
     "next-env.d.ts",
+    // Cloudflare build artefacts (see .gitignore): the OpenNext bundle and
+    // the packaged Pages output are generated, minified JS — never linted.
+    ".open-next/**",
+    ".wrangler/**",
+    "out-cf/**",
+    // Generated static data + coverage output.
+    "public/data/**",
+    "coverage/**",
   ]),
   {
     // App code must use the project Link wrapper (prefetch disabled — the

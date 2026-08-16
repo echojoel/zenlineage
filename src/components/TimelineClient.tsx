@@ -212,6 +212,9 @@ export default function TimelineClient({
     ).matches;
     if (prefersReducedMotion) return;
 
+    // Progressive enhancement: the motion preference is a client-only media
+    // query, so the prerendered markup ships un-enhanced and opts in here.
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setEnhanced(true);
 
     // Era observer — update sticky indicator

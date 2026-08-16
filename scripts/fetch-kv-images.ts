@@ -481,7 +481,7 @@ async function main() {
 
   let fetched = 0;
   let skipped = 0;
-  let missing: string[] = [];
+  const missing: string[] = [];
 
   for (const [slug, titles] of Object.entries(TARGETS)) {
     const outPath = path.join(PUBLIC_MASTERS_DIR, `${slug}.webp`);

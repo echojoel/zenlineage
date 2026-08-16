@@ -502,7 +502,7 @@ async function main() {
 
   let fetched = 0;
   let skipped = 0;
-  let missing: string[] = [];
+  const missing: string[] = [];
 
   for (const [slug, ti] of Object.entries(TARGETS)) {
     const [templeRow] = await db

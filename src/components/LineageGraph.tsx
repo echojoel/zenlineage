@@ -1511,14 +1511,14 @@ export default function LineageGraph() {
             </button>
             <p className="lineage-legend-title">
               Transmission lines{" "}
-              <a
+              <Link
                 href="/lineage/provenance#methodology"
                 className="lineage-legend-info"
                 title="Each line is graded A–D by source quality. Tier A is corroborated by an institutional source; tier D has no verified source and renders with a ? at the midpoint. Click for the full methodology."
                 aria-label="About transmission line methodology"
               >
                 ?
-              </a>
+              </Link>
             </p>
             <ul className="lineage-legend-list">
               <li className="lineage-legend-item">

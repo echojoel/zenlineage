@@ -199,6 +199,9 @@ export default function SutraReader({
     const wantCompare = params.get("compare");
     const wantPassage = params.get("passage");
     if (wantTranslator && validSlugs.has(wantTranslator)) {
+      // The `?translator=` / `?compare=` deep-links are invisible to the
+      // static prerender, so the reader adopts them after mount.
+      // eslint-disable-next-line react-hooks/set-state-in-effect
       setActiveSlug(wantTranslator);
     }
     if (wantCompare && validSlugs.has(wantCompare) && wantCompare !== wantTranslator) {

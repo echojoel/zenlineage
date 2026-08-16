@@ -117,6 +117,10 @@ export default function ThemeToggle() {
       stored === "sepia" || stored === "dark" || stored === "day"
         ? stored
         : "day";
+    // localStorage is unreadable during the static prerender, so the stored
+    // theme can only be adopted after mount. Reading it during render would
+    // desync markup from state and trip a hydration mismatch.
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setTheme(initial);
     applyTheme(initial);
     setHydrated(true);

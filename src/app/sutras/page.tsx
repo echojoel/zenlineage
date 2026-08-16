@@ -126,13 +126,13 @@ export default async function SutrasIndexPage() {
           <div className="detail-summary">
             <p>
               The Sino-Japanese chant (Hannya Shingyō, Kannon-gyō)
-              sits as a chip on each sūtra's page — alongside the
-              translations. If you're new to chanting, the{" "}
+              sits as a chip on each sūtra&rsquo;s page — alongside the
+              translations. If you&rsquo;re new to chanting, the{" "}
               <Link className="detail-inline-link" href="/sutras/how-to-chant">
                 how-to-chant guide
               </Link>{" "}
               walks through breath, tempo, the <em>mokugyō</em>, and
-              what to do when you don't know the words yet.
+              what to do when you don&rsquo;t know the words yet.
             </p>
           </div>
         </section>
@@ -152,18 +152,18 @@ export default async function SutrasIndexPage() {
               The Heart Sūtra is given in full in every language. The
               Diamond, Platform, and Lotus are presented as faithful
               selections from the canonical public-domain editions
-              (Müller's SBE for Sanskrit; the Taishō Tripiṭaka for
-              Chinese; Kern–Nanjio's Bibliotheca Buddhica for the Lotus
+              (Müller&rsquo;s SBE for Sanskrit; the Taishō Tripiṭaka for
+              Chinese; Kern–Nanjio&rsquo;s Bibliotheca Buddhica for the Lotus
               Sanskrit), with each section linked back to the
               authoritative full text on the Internet Archive.
             </p>
             <p>
               French and German coverage rests on three nineteenth-century
               orientalists whose work is now in the public domain: Eugène
-              Burnouf's <em>Lotus de la Bonne Loi</em> (1852, the first
-              Western Lotus), Léon Feer's <em>L'essence de la science
-              transcendante</em> (1866) and Charles de Harlez's{" "}
-              <em>Vajracchedikā</em> (1892), and Max Walleser's{" "}
+              Burnouf&rsquo;s <em>Lotus de la Bonne Loi</em> (1852, the first
+              Western Lotus), Léon Feer&rsquo;s <em>L&rsquo;essence de la science
+              transcendante</em> (1866) and Charles de Harlez&rsquo;s{" "}
+              <em>Vajracchedikā</em> (1892), and Max Walleser&rsquo;s{" "}
               <em>Prajñāpāramitā</em> (1914). Spanish, Portuguese,
               Vietnamese, Korean, and modern East-Asian vernacular
               renderings of these sūtras are nearly all under copyright;

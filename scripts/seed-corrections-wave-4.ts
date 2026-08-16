@@ -414,7 +414,7 @@ async function ensureMaster(seed: SeedMaster): Promise<string> {
   return id;
 }
 
-async function applyFix(f: OrphanFix): Promise<"added" | "noop"> {
+async function applyFix(f: OrphanFix): Promise<"added" | "updated" | "noop"> {
   const studentRow = await db
     .select({ id: masters.id })
     .from(masters)
@@ -462,7 +462,7 @@ async function applyFix(f: OrphanFix): Promise<"added" | "noop"> {
         .update(masterTransmissions)
         .set({ type: targetType, isPrimary, notes: f.notes })
         .where(eq(masterTransmissions.id, exists[0].id));
-      return "updated" as any;
+      return "updated";
     }
     return "noop";
   }
@@ -480,9 +480,11 @@ async function applyFix(f: OrphanFix): Promise<"added" | "noop"> {
 
 async function main() {
   let added = 0;
+  let updated = 0;
   for (const fix of ORPHAN_FIXES) {
     const result = await applyFix(fix);
     if (result === "added") added++;
+    if (result === "updated") updated++;
     console.log(`  ${result.padEnd(7)} ${fix.teacher} → ${fix.student}`);
   }
   let disputed = 0;
@@ -501,7 +503,7 @@ async function main() {
     );
   }
   console.log(
-    `[seed-corrections-wave-4] orphan_added=${added} of ${ORPHAN_FIXES.length}, disputed=${disputed}, replacements_added=${disputedAdded}`,
+    `[seed-corrections-wave-4] orphan_added=${added} of ${ORPHAN_FIXES.length}, orphan_updated=${updated}, disputed=${disputed}, replacements_added=${disputedAdded}`,
   );
 }
 
