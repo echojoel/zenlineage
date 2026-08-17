@@ -10,6 +10,7 @@ Vercel products, `vercel` CLI commands, or Vercel-specific configuration.
 
 - Runtime: `@opennextjs/cloudflare` (OpenNext adapter)
 - Deploy command: `npm run deploy` (builds, packages `out-cf/`, then deploys)
+- Publish-only: `npm run deploy:cf` (skips the build, ships existing `out-cf/`)
 - Config: `wrangler.toml`
 - Types: `@cloudflare/workers-types`
 
@@ -24,6 +25,23 @@ stripping — it 404s every navigation fetch and forces full page reloads.
 
 To deploy: run the deploy command above, or push to the linked branch and let
 Cloudflare Pages CI pick it up.
+
+### Deploy credentials
+
+`wrangler pages deploy` authenticates from the process environment, and npm
+scripts do not load `.env`. The publish step therefore goes through
+`scripts/deploy-cf.sh`, which exports `CLOUDFLARE_API_TOKEN` from `.env`
+when it is not already set, and stops with a readable message when no token
+is available at all.
+
+Do not call `wrangler pages deploy` directly. Without the token in its
+environment wrangler silently falls back to the OAuth token cached in
+`~/.wrangler`, and once that stops refreshing it fails with a bare
+`Failed to fetch auth token: 400 Bad Request` — which reads like a
+Cloudflare outage rather than "the API key is sitting in `.env`".
+
+An already-exported `CLOUDFLARE_API_TOKEN` takes precedence over `.env`, so
+CI can supply its own. `.env` is gitignored; keep it that way.
 
 ### Build-time environment variables
 
