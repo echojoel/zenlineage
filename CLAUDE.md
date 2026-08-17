@@ -190,6 +190,30 @@ after any substantive data change. Target state:
 - 100% biographies cited
 - 100% teachings cited
 - 0 uncited temples
+- 0 duplicate suspects (see below)
 - 0 schools / timeline events with uncited paragraphs
 - Transmissions lacking citation rows: bounded (canonical-imported
   edges may still trail; track is moving toward 0)
+
+### One place, one pin
+
+`scripts/check-temple-duplicates.ts` (also surfaced in the audit as
+"Duplicate suspects") flags the same place of practice seeded twice.
+Nothing else reconciles the hand-curated rows in `seed-temples.ts`
+against the rows generated from `raw-places/*.json`, and slugs are the
+primary key, so `templo-seikyuji` and `seikyuji-sevilla` both shipped —
+one in its olive grove, one in the middle of Seville, 57km apart.
+
+When it flags a cluster, do one of two things — never silence it:
+
+1. **One place.** Add a `DUP_PATTERNS` entry in
+   `scripts/build-europe-temples.ts` so the generated copy defers to the
+   curated row, then re-run the builder. Anchor the pattern tightly: a
+   bare `/il cerchio/` also swallows Enkuji Il Cerchio Vuoto, and a bare
+   `/ens[oō]ji/` swallows anything ending in -sōji.
+2. **Two places.** Add the pair to `VERIFIED_DISTINCT` in
+   `scripts/temple-duplicates.ts` **with the reason**. An entry without an
+   argument attached is indistinguishable from a duplicate someone muted.
+
+Two `city` pins sharing a town centroid is expected and is not flagged;
+two `exact` pins on one doorstep is.

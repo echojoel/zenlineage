@@ -1107,8 +1107,9 @@ export const SEED_TEMPLES: TempleSeed[] = [
       { locale: "en", value: "European Institute of Applied Buddhism" },
       { locale: "de", value: "Europäisches Institut für Angewandten Buddhismus" },
     ],
-    lat: 50.8738,
-    lng: 7.5990,
+    // Schaumburgweg 3, 51545 Waldbröl.
+    lat: 50.87839,
+    lng: 7.62665,
     region: "North Rhine-Westphalia",
     country: "Germany",
     foundedYear: 2008,
@@ -2407,8 +2408,9 @@ export const SEED_TEMPLES: TempleSeed[] = [
       { locale: "it", value: "Monastero Zen Fudenji" },
       { locale: "ja", value: "普伝寺" },
     ],
-    lat: 44.8169,
-    lng: 9.9878,
+    // Strada Comunale Bargone 113, 43039 Salsomaggiore Terme (PR).
+    lat: 44.82625,
+    lng: 10.02969,
     region: "Emilia-Romagna",
     country: "Italy",
     foundedYear: 1983,
@@ -2427,8 +2429,9 @@ export const SEED_TEMPLES: TempleSeed[] = [
       { locale: "it", value: "Monastero Zen Ensō-ji Il Cerchio" },
       { locale: "ja", value: "円相寺" },
     ],
-    lat: 45.4781,
-    lng: 9.2247,
+    // Via dei Crollalanza 9, 20143 Milano.
+    lat: 45.44574,
+    lng: 9.16539,
     region: "Milan",
     country: "Italy",
     foundedYear: 1988,
@@ -2469,8 +2472,9 @@ export const SEED_TEMPLES: TempleSeed[] = [
       { locale: "en", value: "Centro Zen Abhirati" },
       { locale: "es", value: "Centro Zen Abhirati" },
     ],
-    lat: 39.4753,
-    lng: -0.3878,
+    // C/ Palleter 36, 2º, 46008 Valencia.
+    lat: 39.47110,
+    lng: -0.38770,
     region: "Valencia",
     country: "Spain",
     foundedYear: null,
@@ -2483,14 +2487,14 @@ export const SEED_TEMPLES: TempleSeed[] = [
     url: "https://budadharmazen.org/",
   },
   {
-    slug: "seikyuji-sevilla",
+    slug: "seikyuji-moron",
     names: [
       { locale: "en", value: "Seikyūji" },
       { locale: "es", value: "Templo Zen Seikyūji" },
       { locale: "ja", value: "聖丘寺" },
     ],
-    lat: 37.3886,
-    lng: -5.9823,
+    lat: 37.12153,
+    lng: -5.45596,
     region: "Andalusia",
     country: "Spain",
     foundedYear: 2009,
@@ -2499,8 +2503,15 @@ export const SEED_TEMPLES: TempleSeed[] = [
     status: "active",
     sourceId: SRC_SOTOZEN_EUROPE,
     sourceExcerpt:
-      "Templo Zen Seikyūji near Seville — a Sōtō Zen monastery listed in the Sōtōshū Europe directory, under the direction of Raphaël Dōkō Triet Rōshi (who also founded the Centre Zen de Lisboa). Ascribed to the Association Zen Internationale in the Deshimaru lineage.",
+      "Templo Zen Seikyūji, Carretera Marchena–Morón de la Frontera km 8.8, 41530 Morón de la Frontera (Sevilla) — a Sōtō Zen monastery on the Finca La Morejona, listed in the Sōtōshū Europe directory, under the direction of Raphaël Dōkō Triet Rōshi (who also founded the Centre Zen de Lisboa). Ascribed to the Association Zen Internationale in the Deshimaru lineage.",
     url: "https://www.seikyuji.org/",
+    // The monastery stands "in the heart of a large olive grove" reached by
+    // a dirt track off the Marchena–Morón road; no gazetteer carries the
+    // finca, and OSM has no node for it. Pinned to the town it gives as its
+    // postal address and marked approximate, rather than asserting a
+    // doorstep we cannot source. It is emphatically not in Seville: the row
+    // previously sat on the Seville city centroid, 57km north-west.
+    geoPrecision: "city",
   },
   {
     slug: "keiryuji-camprodon",
@@ -2509,8 +2520,9 @@ export const SEED_TEMPLES: TempleSeed[] = [
       { locale: "es", value: "Templo Keiryūji" },
       { locale: "ja", value: "渓流寺" },
     ],
-    lat: 42.3194,
-    lng: 2.3657,
+    // La Masó de Bolòs 1, 17867 Camprodon — the hamlet east of the town centre.
+    lat: 42.30366,
+    lng: 2.42313,
     region: "Catalonia",
     country: "Spain",
     foundedYear: null,
@@ -2881,8 +2893,11 @@ export const SEED_TEMPLES: TempleSeed[] = [
   {
     slug: "indianapolis-zen-center",
     names: [{ locale: "en", value: "Indianapolis Zen Center" }],
-    lat: 39.7684,
-    lng: -86.1581,
+    // 3703 N Washington Blvd, Indianapolis IN 46205. The old pin was the
+    // downtown centroid, which it shared with Joshu Zen Temple — a Rinzai
+    // temple 28km away in Fishers that had landed on the same point.
+    lat: 39.82365,
+    lng: -86.15166,
     region: "Indiana",
     country: "United States",
     foundedYear: null,
@@ -3034,8 +3049,9 @@ export const SEED_TEMPLES: TempleSeed[] = [
       { locale: "en", value: "Tahomasan Sogenji Monastery" },
       { locale: "ja", value: "太邦山曹源寺" },
     ],
-    lat: 48.2530,
-    lng: -122.5833,
+    // 6499 Wahl Rd, Freeland WA 98249, Whidbey Island.
+    lat: 47.97670,
+    lng: -122.53422,
     region: "Washington",
     country: "United States",
     foundedYear: 1999,
@@ -3071,8 +3087,10 @@ export const SEED_TEMPLES: TempleSeed[] = [
   {
     slug: "onedropzen-dublin",
     names: [{ locale: "en", value: "One Drop Zen Dublin" }],
-    lat: 53.3498,
-    lng: -6.2603,
+    // 15 Heytesbury Street, Dublin 8. The old pin was a Dublin centroid
+    // shared with three unrelated sanghas.
+    lat: 53.33511,
+    lng: -6.26912,
     region: "Dublin",
     country: "Ireland",
     foundedYear: null,
@@ -3088,8 +3106,9 @@ export const SEED_TEMPLES: TempleSeed[] = [
   {
     slug: "onedropzen-copenhagen",
     names: [{ locale: "en", value: "One Drop Zendo Copenhagen" }],
-    lat: 55.6761,
-    lng: 12.5683,
+    // Samuelsgården, Rådmandsgade 31, 2200 København N.
+    lat: 55.69980,
+    lng: 12.55042,
     region: "Copenhagen",
     country: "Denmark",
     foundedYear: null,
@@ -3131,8 +3150,9 @@ export const SEED_TEMPLES: TempleSeed[] = [
       { locale: "en", value: "Beginner's Mind Temple" },
       { locale: "ja", value: "発心寺" },
     ],
-    lat: 37.7757,
-    lng: -122.4239,
+    // 300 Page Street, San Francisco CA 94102.
+    lat: 37.77391,
+    lng: -122.42612,
     region: "California",
     country: "United States",
     foundedYear: 1969,
@@ -3278,6 +3298,11 @@ export const SEED_TEMPLES: TempleSeed[] = [
     sourceExcerpt:
       "Pacific Zen Institute, founded 1987 in Santa Rosa, California by John Tarrant Roshi (the first Dharma heir of Robert Aitken). The school of choice for koan-based contemporary Zen practice on the West Coast.",
     url: "https://www.pacificzen.org/",
+    // PZI registers only a Santa Rosa PO box and runs most of its
+    // programme online; it publishes no room you can turn up to. The pin
+    // stands for the city, not a door — and previously sat 10m from the
+    // Santa Rosa Zen Group, which does have a hall, in Kenwood.
+    geoPrecision: "city",
   },
   {
     slug: "mountain-cloud-zen-center",
@@ -3318,8 +3343,9 @@ export const SEED_TEMPLES: TempleSeed[] = [
       { locale: "en", value: "Benediktushof" },
       { locale: "de", value: "Benediktushof Holzkirchen" },
     ],
-    lat: 49.7950,
-    lng: 9.7522,
+    // Klosterstraße 10, 97292 Holzkirchen bei Würzburg.
+    lat: 49.78040,
+    lng: 9.68150,
     region: "Bavaria",
     country: "Germany",
     foundedYear: 2003,
@@ -3330,7 +3356,10 @@ export const SEED_TEMPLES: TempleSeed[] = [
     sourceId: SRC_SANBOZEN,
     sourceExcerpt:
       "Benediktushof at Holzkirchen near Würzburg — founded 2003 by Willigis Jäger OSB, the largest German-language interfaith contemplation centre. Operated within Sanbō Zen until Jäger's 2009 withdrawal from the lineage; thereafter under the West-Östliche Weisheit foundation.",
-    url: "https://www.benediktushof.de/",
+    // NOT benediktushof.de — that domain belongs to Benediktushof gGmbH in
+    // Reken, a disability-services provider 400km north with no connection
+    // to this centre. The retreat centre publishes Klosterstraße 10 here.
+    url: "https://www.benediktushof-holzkirchen.de/",
   },
 
   // ─── Rochester / Kapleau lineage ─────────────────────────────────────
@@ -3411,8 +3440,10 @@ export const SEED_TEMPLES: TempleSeed[] = [
   {
     slug: "boundless-way-zen-temple",
     names: [{ locale: "en", value: "Boundless Way Zen Temple" }],
-    lat: 42.2625,
-    lng: -71.8023,
+    // 1030 Pleasant Street, Worcester MA 01602 — the temple's published
+    // address. The old pin sat ~4km east, in the wrong part of the city.
+    lat: 42.27874,
+    lng: -71.84607,
     region: "Massachusetts",
     country: "United States",
     foundedYear: 2011,
@@ -3445,8 +3476,9 @@ export const SEED_TEMPLES: TempleSeed[] = [
   {
     slug: "stonewater-zen",
     names: [{ locale: "en", value: "StoneWater Zen Sangha" }],
-    lat: 53.4084,
-    lng: -2.9916,
+    // 13 Hope Street, Liverpool L1 9BQ.
+    lat: 53.40277,
+    lng: -2.96952,
     region: "Liverpool",
     country: "United Kingdom",
     foundedYear: 2002,
@@ -4399,8 +4431,9 @@ export const SEED_TEMPLES: TempleSeed[] = [
   {
     slug: "greyston-foundation",
     names: [{ locale: "en", value: "Greyston Foundation" }],
-    lat: 40.9312,
-    lng: -73.8987,
+    // 20 South Broadway, 12th Floor, Yonkers NY 10701.
+    lat: 40.93306,
+    lng: -73.89823,
     region: "New York",
     country: "United States",
     foundedYear: 1982,
@@ -4446,6 +4479,10 @@ export const SEED_TEMPLES: TempleSeed[] = [
     sourceExcerpt:
       "Caminho de Luz — Brazilian Zen Peacemakers affiliate in São Paulo; listed on zenpeacemakers.org affiliate roster.",
     url: "https://zenpeacemakers.org/",
+    // The roster gives a city, not an address, and this coordinate is the
+    // Praça da Sé — São Paulo's conventional centre point — to five
+    // decimals. Labelling it "exact" claimed a doorstep nobody published.
+    geoPrecision: "city",
   },
   {
     slug: "la-rete-di-indra",
@@ -4465,6 +4502,8 @@ export const SEED_TEMPLES: TempleSeed[] = [
     sourceExcerpt:
       "La Rete di Indra — Italian Zen Peacemakers affiliate in Rome; listed on zenpeacemakers.org affiliate roster.",
     url: "https://zenpeacemakers.org/",
+    // Same as Caminho de Luz above: this is Rome's centroid, not a venue.
+    geoPrecision: "city",
   },
 
   // ─── Mountains and Rivers Order (Daido Loori) ─ Brooklyn satellite ───
@@ -4521,8 +4560,11 @@ export const SEED_TEMPLES: TempleSeed[] = [
   {
     slug: "chan-bern",
     names: [{ locale: "en", value: "Chan-Bern" }],
-    lat: 46.9479,
-    lng: 7.4474,
+    // Brunngasshalde 37, 3011 Bern — the meditation room the group publishes.
+    // The old pin was the Bern city centroid, which it shared with the
+    // unrelated Plum Village Swiss inter-sangha entry 11m away.
+    lat: 46.94910,
+    lng: 7.44987,
     region: "Bern",
     country: "Switzerland",
     foundedYear: null,
@@ -4638,8 +4680,11 @@ export const SEED_TEMPLES: TempleSeed[] = [
   {
     slug: "dancing-crane-zen-center",
     names: [{ locale: "en", value: "Dancing Crane Zen Center" }],
-    lat: 29.6516,
-    lng: -82.3248,
+    // Karuna Cottage, 3215 NW 17th Street, Gainesville FL 32605. The old
+    // pin was the Gainesville centroid, shared with the unrelated Kwan Um
+    // Gateless Gate Zen Center.
+    lat: 29.68209,
+    lng: -82.34484,
     region: "Florida",
     country: "United States",
     foundedYear: null,

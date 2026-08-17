@@ -31,6 +31,8 @@ import { TIMELINE_ERAS } from "@/lib/timeline-editorial";
 import { getRawDatasetConfig, getRawTeachingDatasetConfig } from "./raw-dataset-config";
 import { assessCoverageAudit } from "./coverage-audit-status";
 import { BIOGRAPHIES } from "./seed-biographies";
+import { SEED_TEMPLES } from "./data/seed-temples";
+import { findDuplicateSuspects } from "./temple-duplicates";
 
 const RAW_DIR = path.join(process.cwd(), "scripts/data/raw");
 const PREVIEW_LIMIT = 10;
@@ -975,6 +977,19 @@ async function main() {
   }
   if (unresolvedSchoolSlugs.length > 0) {
     printMetric("Unresolved school slugs", preview(unresolvedSchoolSlugs));
+  }
+
+  // Two rows for one place put the same temple on the map twice, usually
+  // with one copy stranded on a city centroid far from the real building.
+  // Read from the seed lists, not the DB, because that is where the fix
+  // goes. See scripts/check-temple-duplicates.ts for the full report.
+  const duplicateSuspects = findDuplicateSuspects(SEED_TEMPLES);
+  printMetric("Duplicate suspects", `${duplicateSuspects.length}`);
+  if (duplicateSuspects.length > 0) {
+    printMetric(
+      "Duplicate suspect clusters",
+      preview(duplicateSuspects.map((c) => `${c.signal}:${c.slugs.join("+")}`))
+    );
   }
 
   console.log("\nStatus");

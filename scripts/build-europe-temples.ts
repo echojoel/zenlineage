@@ -68,6 +68,12 @@ function loadCuratedSlugs(): Set<string> {
 // Patterns that mean an agent-provided entry is the same place we already
 // have hardcoded in seed-temples.ts. When a pattern matches, we drop the
 // entry so we don't fight the canonical row.
+//
+// `existingSlug` names the row that survives — normally a curated one, but
+// occasionally a generated sibling, when two directory listings describe one
+// place and neither has a hand-written counterpart. It is only reported in
+// the skip log, so it does not have to resolve to a curated row; what it has
+// to do is tell the next reader where the dropped entry went.
 const DUP_PATTERNS: { pattern: RegExp; existingSlug: string }[] = [
   { pattern: /gendronni[èe]re/i, existingSlug: "la-gendronniere" },
   { pattern: /ryumonji/i, existingSlug: "ryumonji-alsace" },
@@ -173,6 +179,63 @@ const DUP_PATTERNS: { pattern: RegExp; existingSlug: string }[] = [
     existingSlug: "boundless-way-zen-temple",
   },
   { pattern: /sanb[oō]\s*zend[oō]\s*weyarn/i, existingSlug: "domicilium-weyarn" },
+
+  // ── 2026-08-16 duplicate sweep ──────────────────────────────────────
+  // Ten more places seeded twice: once curated, once from a sect or
+  // network directory under a longer or more formal name. Each pair was
+  // checked against the place's own contact page and a second source, and
+  // each resolved to a single postal address. Found by
+  // scripts/check-temple-duplicates.ts — run it after adding places.
+  //
+  // Reported by a reader: Seikyūji sits in an olive grove off the
+  // Marchena–Morón road, but the curated row had it in the middle of
+  // Seville, 57km away, alongside this second copy. Only one "Seikyuji"
+  // exists; the affiliated Andalusian dōjōs are named for their own towns.
+  { pattern: /seikyuji/i, existingSlug: "seikyuji-moron" },
+  // "Istituto Italiano Zen Sōtō Shōbōzan Fudenji" is the institute's
+  // registered name; "Fudenji" is the monastery it names. One address at
+  // Strada Comunale Bargone 113, Salsomaggiore Terme.
+  { pattern: /fudenji/i, existingSlug: "fudenji" },
+  // Anchored on the Waldbröl institute itself. EIAB runs no second campus.
+  {
+    pattern: /european\s*institute\s*of\s*applied\s*buddhism|\beiab\b/i,
+    existingSlug: "eiab-germany",
+  },
+  { pattern: /benediktushof/i, existingSlug: "benediktushof" },
+  { pattern: /keiry[uū]ji/i, existingSlug: "keiryuji-camprodon" },
+  // The monastery's own masthead reads "Tahoma Zen Monastery — Tahoma-san
+  // Sogen-ji", both names for 6499 Wahl Rd, Freeland WA.
+  {
+    pattern: /tahoma[\s-]*(san)?[\s-]*(sogen-?ji|one\s*drop|zen\s*monastery)/i,
+    existingSlug: "tahomasan-sogenji",
+  },
+  { pattern: /abhirati/i, existingSlug: "centro-zen-abhirati" },
+  // Both halves of the name are required. monasterozen.it also hosts
+  // Sanboji, Tempio Zen Sokuzen, Tempio Unsui and Centro Zen Milano L20;
+  // a bare /il cerchio/ additionally swallows Enkuji – Il Cerchio Vuoto,
+  // and a bare /ens[oō]ji/ swallows anything ending in -sōji (Sensōji).
+  {
+    pattern: /ens[oō]-?\s*ji\s*[-–—]?\s*il\s*cerchio/i,
+    existingSlug: "ensoji-il-cerchio",
+  },
+  // Anchored on Liverpool: StoneWater also runs South London and Kent
+  // groups, and two rural retreat centres, all distinct.
+  { pattern: /stonewater\s*zen\s*liverpool/i, existingSlug: "stonewater-zen" },
+  // Anchored on Copenhagen: the Danish network's Odense zendo is separate.
+  {
+    pattern: /one\s*drop\s*zend[oō]\s*(k[oø]benhavn|copenhagen)/i,
+    existingSlug: "onedropzen-copenhagen",
+  },
+  // Two Rivers Zen Community was listed under both of its homes at once.
+  // The group's own site says it "practiced at Bendowa Temple in
+  // Narrowsburg, N.Y." before moving online, and its Honesdale venue —
+  // Court Street Zendo — is the earlier address it left, still carried by
+  // a stale directory. One community, one (now dormant) temple; the "(PA)"
+  // listing is the superseded one.
+  {
+    pattern: /two\s*rivers\s*zen\s*community\s*\(\s*pa\s*\)/i,
+    existingSlug: "two-rivers-zen-community",
+  },
 ];
 
 function isDuplicate(name: string): string | null {
@@ -688,6 +751,69 @@ const MANUAL_COORDS: Record<string, ManualCoord> = {
   // town-level pin, which the map now labels as approximate.
   "Thiền viện Thường Chiếu": [10.684166, 107.026441], // Ấp 1C, Xã Phước Thái
   "Thiền viện Linh Chiếu": [10.685185, 107.024108], // Hiền Đức, Xã Phước Thái
+
+  // ── 2026-08-16 address audit ────────────────────────────────────────
+  // Each of these publishes a street address the geocoder resolved only to
+  // its town, so the pin sat anywhere from a few hundred metres to 30km
+  // from the door. Addresses re-read from each sangha's own site and
+  // cross-checked against a second source before moving the pin.
+  "Sonoma Mountain Zen Center / Genjoji": [38.36694, -122.57833], // 6367 Sonoma Mountain Road, Santa Rosa CA 95404
+  "Kansas Zen Center - Kansas City": [39.0347, -94.5904], // Unity Temple on the Plaza, 707 W 47th St, Kansas City MO
+  "Morning Star Zendo": [40.72721, -74.06934], // 50 Glenwood Ave, Jersey City NJ 07306
+  "Beginner's Mind Zen Center": [34.23998, -118.51279], // 9325 Lasaine Ave, Northridge CA 91325
+  "Association Zen de Montréal (Dojo Zen de Montréal)": [45.52878, -73.5832], // 982 rue Gilford, Plateau-Mont-Royal
+  "Chùa Long Sơn": [12.2508, 109.1804], // 22 đường 23 Tháng 10, Phương Sơn, Nha Trang — foot of Trại Thủy hill
+  "StoneWater Zen South London": [51.4459, -0.1189], // Streatham & Brixton Quaker Meeting House, Brixton Hill
+  "Shodo Dojo Halle (Pavilion of Silence)": [50.72484, 4.21454], // Edingensesteenweg 455-457, 1500 Halle
+  "Zen Dogen Sangha Belgique — La Hulpe": [50.72935, 4.47785], // Centre Oxyzen, 55 av. Reine Astrid, 1310 La Hulpe
+  "Zen Dogen Sangha Belgique — Louvain-la-Neuve": [50.6674, 4.6099], // Centre Reliance, 14 rue Basse, 1348 LLN
+  "Eredeti Fény — Esztergom Főtemplom (Sosei Zen kolostor projekt)": [47.78758, 18.79438], // Búbosbanka u. 61, Esztergom
+  "Two Rivers Zen Community": [41.60834, -75.06144], // Bendowa Temple, 76 Main St, Narrowsburg NY 12764
+  // Three where the extract's own address was wrong, so a correct geocode
+  // of it still produced a wrong pin. Raw records corrected alongside.
+  // 祥福寺 is in Gomiya-chō, not Hirano-chō: OSM's node for the temple, the
+  // ja.wikipedia infobox and the NAVITIME listing all agree.
+  "Shōfuku-ji": [34.693532, 135.169869], // 22-17 五宮町, Hyōgo-ku, Kobe 652-0007
+  // Filed under Nantes, but the AZI dojo directory gives the group a
+  // purpose-built temple 65km west on the coast — its own domain reads
+  // "zensotolabaule".
+  "Association zen de Loire-Atlantique Chô On-Ji": [47.28962, -2.3673], // 65 av. Guy de La Morandais, 44500 La Baule-Escoublac
+  // Five pairs that had collapsed onto one town centroid each, so two
+  // unrelated sanghas drew a single marker. Splitting them apart: the one
+  // with a published venue gets it; the one that only names a city keeps a
+  // centroid, now explicitly marked approximate rather than inherited.
+  "Bo Hyun Sa": [26.03105, -80.39124], // 7110 SW 182nd Way, Southwest Ranches FL 33331
+  "South Florida Zen Group": [26.05865, -80.33815, "city"], // Kwan Um sangha; sits at Bo Hyun Sa and a Dania Beach venue
+  "Birmingham Chan Group": [52.46953, -1.91592], // Friends Meeting House, St James Rd, Edgbaston B15 1JP
+  "Birmingham Sangha": [52.42964, -1.89932], // Kings Heath Meeting House, 17 Colmore Rd, B14 7PE
+  "Santa Rosa Zen Group": [38.41041, -122.55013], // The Kenwood Depot, 314 Warm Springs Rd, Kenwood CA 95452
+  "Hudson River Peacemaker Center": [40.93121, -73.89875, "city"], // Yonkers; no venue published separately from Greyston
+  "The Gateless Gate Zen Center": [29.65197, -82.32498, "city"], // Gainesville FL; Kwan Um group, no published venue
+  // The only address anyone publishes for Joshu Zen Temple is its founder's
+  // house — the address Indiana denied a religious exemption to in 2015 —
+  // and its own domain is dead. We are not putting a private home on a
+  // public map to gain 28km of precision. Left on the Indianapolis pin it
+  // already had, now honestly labelled. Previously "exact", which also put
+  // it 23m from the unrelated Indianapolis Zen Center.
+  "Joshu Zen Temple": [39.7683331, -86.1583502, "city"],
+
+  // ── Second pass: venues published by the group, pin on the town ─────
+  // Each of these names a hall on its own site or its network's contact
+  // page, while the pin sat on a city centroid — in Sandnes's case 40km
+  // inland from the town it is named after.
+  "Sandnes/Stavanger Zen-senter": [58.86627, 5.73077], // Varatun Gård, Varatunhagen 51, 4317 Sandnes
+  "Centre Zen Maha Muni Paris": [48.85048, 2.40191], // 31 rue de Buzenval, 75020 — moved from rue de Seine, 6e
+  "Zen Gruppe Salzburg": [47.92893, 13.12241], // Yoga Vidya-Zentrum, Zaisberg 7, 5201 Seekirchen am Wallersee
+  "Dōjō Zen Mon Kō — Zen México": [19.38189, -99.18912], // Ingres 127, Col. Nonoalco, Benito Juárez, CDMX
+  "Mokusho Zen Dojo Zagreb": [45.81468, 15.93614], // Ilica 231, 10000 Zagreb
+  "Zen-Gruppe Hamburg (Kwan Um Zen Schule)": [53.55095, 9.92779], // Rothestraße 62, 22765 Hamburg-Ottensen
+  "Zen-Gruppe Köln (Kwan Um Zen Schule)": [50.97445, 6.95078], // Aikido Centrum Köln, Neusser Str. 478, 50733
+  "Frankfurt Zen (Kwan Um)": [50.11816, 8.64192], // Hamburger Allee 96, Hinterhof, 60486 Frankfurt
+  "Guelph Zazenkai (White Wind)": [43.56044, -80.24750], // 102–351 Eramosa Road, Guelph ON N1E 2N1
+  // The Sufi Temple at 183 Campground Road, Newlands — the group names the
+  // venue, but no geocoder resolves that street number, so this is the
+  // right road rather than the right door.
+  "The Dharma Centre — Cape Town (Newlands)": [-33.97301, 18.47085, "city"],
 };
 
 type Cache = Record<string, [number, number] | null>;
