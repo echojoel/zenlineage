@@ -17,6 +17,7 @@ import Link from "@/components/Link";
 import ProverbsClient from "@/components/ProverbsClient";
 import { buildCitationKeySet, isPublishedTeaching } from "@/lib/publishable-content";
 import { FEATURED_ENCOUNTER_SLUGS, featuredEncounterOrder } from "@/lib/featured-encounters";
+import { publishedMasterPortraits } from "@/lib/published-master-portraits";
 
 export interface KoanEntry {
   id: string;
@@ -26,6 +27,7 @@ export interface KoanEntry {
   content: string | null;
   masterSlug: string | null;
   masterName: string | null;
+  portraitSrc?: string | null;
 }
 
 export interface KoansCollection {
@@ -378,12 +380,19 @@ export default async function ProverbsPage() {
     )
     .where(and(eq(teachings.type, "dialogue"), inArray(teachings.slug, [...FEATURED_ENCOUNTER_SLUGS])));
 
-  const encounters: KoanEntry[] = encounterRows
-    .filter((item) => isPublishedTeaching({ id: item.id }, citationKeys))
+  const publishedEncounters = encounterRows.filter((item) => isPublishedTeaching({ id: item.id }, citationKeys));
+  const encounterMasterIds = new Map(publishedEncounters.map((item) => {
+    const speaker = roleRows.find((role) => role.teachingId === item.id && role.role === "speaker");
+    return [item.id, speaker?.masterId ?? item.authorId] as const;
+  }));
+  const encounterPortraits = await publishedMasterPortraits(
+    [...encounterMasterIds.values()].filter((id): id is string => Boolean(id && masterMap.has(id)))
+  );
+
+  const encounters: KoanEntry[] = publishedEncounters
     .sort((a, b) => (featuredEncounterOrder.get(a.slug) ?? 999) - (featuredEncounterOrder.get(b.slug) ?? 999))
     .map((item) => {
-      const speaker = roleRows.find((role) => role.teachingId === item.id && role.role === "speaker");
-      const masterId = speaker?.masterId ?? item.authorId;
+      const masterId = encounterMasterIds.get(item.id);
       const master = masterId ? masterMap.get(masterId) : null;
       return {
         id: item.id,
@@ -393,6 +402,7 @@ export default async function ProverbsPage() {
         content: item.content,
         masterSlug: master?.slug ?? null,
         masterName: master ? masterNameMap.get(master.id) ?? null : null,
+        portraitSrc: master ? encounterPortraits.get(master.id) ?? null : null,
       };
     });
 

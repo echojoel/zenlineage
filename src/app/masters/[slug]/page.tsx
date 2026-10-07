@@ -39,6 +39,7 @@ import {
 } from "@/lib/seo/jsonld";
 import { sameAsFor } from "@/lib/seo/master-sameas";
 import { featuredEncounterOrder } from "@/lib/featured-encounters";
+import EncounterText from "@/components/EncounterText";
 
 type Confidence = "high" | "medium" | "low" | null;
 
@@ -1159,12 +1160,11 @@ export default async function MasterDetailPage({ params }: { params: Promise<{ s
                         </Link>
                       </div>
                       {encounter.content && (
-                        <p className="detail-source-excerpt">
-                          {encounter.content.length > 280
-                            ? `${encounter.content.slice(0, 280).trimEnd()}…`
-                            : encounter.content}
-                        </p>
+                        <EncounterText content={encounter.content} maxBlocks={2} />
                       )}
+                      <Link href={`/teachings/${encounter.slug}`} className="detail-inline-link">
+                        Read full exchange →
+                      </Link>
                     </li>
                   ))}
                 </ul>

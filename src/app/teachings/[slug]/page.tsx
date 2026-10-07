@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import Link from "@/components/Link";
+import Image from "next/image";
+import EncounterText from "@/components/EncounterText";
 import { notFound } from "next/navigation";
 import { and, eq, inArray } from "drizzle-orm";
 import { db } from "@/db";
@@ -17,7 +19,6 @@ import {
 } from "@/db/schema";
 import {
   buildCitationKeySet,
-  hasItemCitation,
   isPublishedTeaching,
 } from "@/lib/publishable-content";
 import { AccuracyFooter } from "@/components/AccuracyFooter";
@@ -28,6 +29,8 @@ import {
   jsonLdString,
   teachingSchema,
 } from "@/lib/seo/jsonld";
+import { publishedMasterPortraits } from "@/lib/published-master-portraits";
+import { featuredEncounterOrder } from "@/lib/featured-encounters";
 
 export async function generateStaticParams() {
   const allTeachings = await db.select({ slug: teachings.slug }).from(teachings);
@@ -261,6 +264,10 @@ export default async function TeachingDetailPage({
 
   // Author's school (shown as the teaching's lineage context)
   const authorMaster = teaching.authorId ? roleMasterBySlug.get(teaching.authorId) : null;
+  const isFeaturedEncounter = teaching.type === "dialogue" && featuredEncounterOrder.has(teaching.slug);
+  const authorPortrait = authorMaster && isFeaturedEncounter
+    ? (await publishedMasterPortraits([authorMaster.id])).get(authorMaster.id) ?? null
+    : null;
   const authorSchoolRow =
     authorMaster?.schoolId
       ? (
@@ -484,10 +491,38 @@ export default async function TeachingDetailPage({
 
         {enContent?.content && (
           <section className="detail-card">
-            <h3 className="detail-section-title">
-              {teaching.type === "koan" ? "Koan" : "Text"}
-            </h3>
-            <p className="detail-summary">{enContent.content}</p>
+            {isFeaturedEncounter ? (
+              <>
+                <div className="encounter-detail-heading">
+                  {authorPortrait && (
+                    <Image
+                      src={authorPortrait}
+                      alt=""
+                      width={48}
+                      height={48}
+                      unoptimized
+                      className="encounter-portrait"
+                    />
+                  )}
+                  <div>
+                    <h3 className="detail-section-title">Encounter dialogue · Mondō</h3>
+                    {authorMaster && (
+                      <Link href={`/masters/${authorMaster.slug}`} className="detail-inline-link">
+                        {masterDharmaName.get(authorMaster.id) ?? authorMaster.slug}
+                      </Link>
+                    )}
+                  </div>
+                </div>
+                <EncounterText content={enContent.content} />
+              </>
+            ) : (
+              <>
+                <h3 className="detail-section-title">
+                  {teaching.type === "koan" ? "Koan" : "Text"}
+                </h3>
+                <p className="detail-summary">{enContent.content}</p>
+              </>
+            )}
             {(enContent.translator || enContent.edition) && (
               <p className="detail-list-meta">
                 {enContent.translator && `tr. ${enContent.translator}`}

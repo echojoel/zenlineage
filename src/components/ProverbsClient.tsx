@@ -3,6 +3,8 @@
 import { useState, useMemo, useCallback, useEffect } from "react";
 import Fuse from "fuse.js";
 import Link from "@/components/Link";
+import Image from "next/image";
+import EncounterText from "@/components/EncounterText";
 import type { ProverbListItem, KoansCollection, KoanEntry } from "@/app/proverbs/page";
 
 const BATCH_SIZE = 12;
@@ -45,6 +47,12 @@ export default function ProverbsClient({
   const [selectedSchool, setSelectedSchool] = useState("all");
   const [selectedEra, setSelectedEra] = useState("all");
   const [visibleCount, setVisibleCount] = useState(BATCH_SIZE);
+  const [encounterQuery, setEncounterQuery] = useState("");
+  const filteredEncounters = encounters.filter((entry) =>
+    `${entry.title ?? ""} ${entry.masterName ?? ""} ${entry.content ?? ""}`
+      .toLocaleLowerCase()
+      .includes(encounterQuery.trim().toLocaleLowerCase())
+  );
 
   // Static export can't see ?highlight= server-side, so the homepage
   // deep-link is resolved here instead. Float the highlighted proverb
@@ -189,14 +197,25 @@ export default function ProverbsClient({
             Short exchanges between Zen teachers and their questioners. Open an encounter to read
             the dialogue, then follow its source and participant links on the teaching page.
           </p>
+          <div className="encounter-controls">
+            <input
+              type="search"
+              className="masters-search"
+              value={encounterQuery}
+              onChange={(event) => setEncounterQuery(event.target.value)}
+              placeholder="Search encounters or teachers…"
+              aria-label="Search encounter dialogues"
+            />
+            <span className="masters-count">{filteredEncounters.length} encounters</span>
+          </div>
           <KoanBrowser collections={[{
             name: "Selected encounter dialogues",
             altName: "Mondō · 問答",
             compiler: "",
             era: "",
             description: "",
-            entries: encounters,
-          }]} showJumpNav={false} />
+            entries: filteredEncounters,
+          }]} showJumpNav={false} renderEncounterText />
         </div>
       )}
 
@@ -314,7 +333,7 @@ export default function ProverbsClient({
   );
 }
 
-function KoanBrowser({ collections, showJumpNav = true }: { collections: KoansCollection[]; showJumpNav?: boolean }) {
+function KoanBrowser({ collections, showJumpNav = true, renderEncounterText = false }: { collections: KoansCollection[]; showJumpNav?: boolean; renderEncounterText?: boolean }) {
   const [expanded, setExpanded] = useState<Set<string>>(new Set());
 
   function toggle(id: string) {
@@ -359,6 +378,16 @@ function KoanBrowser({ collections, showJumpNav = true }: { collections: KoansCo
                     onClick={() => toggle(entry.id)}
                     aria-expanded={isOpen}
                   >
+                    {entry.portraitSrc && (
+                      <Image
+                        src={entry.portraitSrc}
+                        alt=""
+                        width={42}
+                        height={42}
+                        unoptimized
+                        className="encounter-portrait"
+                      />
+                    )}
                     <span className="koans-title">
                       {entry.title ?? entry.slug}
                       {entry.caseNumber && (
@@ -376,7 +405,9 @@ function KoanBrowser({ collections, showJumpNav = true }: { collections: KoansCo
                   {isOpen && (
                     <div className="koans-expanded">
                       {entry.content && (
-                        <div className="koans-expanded-text">{entry.content}</div>
+                        renderEncounterText
+                          ? <EncounterText content={entry.content} />
+                          : <div className="koans-expanded-text">{entry.content}</div>
                       )}
                       <div className="koans-expanded-footer">
                         {entry.masterSlug && (
