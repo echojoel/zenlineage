@@ -3,7 +3,7 @@
 import { useState, useMemo, useCallback, useEffect } from "react";
 import Fuse from "fuse.js";
 import Link from "@/components/Link";
-import type { ProverbListItem, KoansCollection } from "@/app/proverbs/page";
+import type { ProverbListItem, KoansCollection, KoanEntry } from "@/app/proverbs/page";
 
 const BATCH_SIZE = 12;
 
@@ -24,6 +24,7 @@ interface Props {
    *  arrived from a homepage proverb click (`/proverbs?highlight=…`). */
   highlightSlug?: string | null;
   koanCollections: KoansCollection[];
+  encounters: KoanEntry[];
 }
 
 export default function ProverbsClient({
@@ -32,8 +33,9 @@ export default function ProverbsClient({
   schoolNames,
   highlightSlug = null,
   koanCollections,
+  encounters,
 }: Props) {
-  const [mode, setMode] = useState<"proverbs" | "koans">("proverbs");
+  const [mode, setMode] = useState<"proverbs" | "koans" | "encounters">("proverbs");
   const [order, setOrder] = useState(proverbs);
   const [activeHighlight, setActiveHighlight] = useState<string | null>(
     highlightSlug ?? null
@@ -67,8 +69,11 @@ export default function ProverbsClient({
     if (typeof window === "undefined") return;
     const params = new URLSearchParams(window.location.search);
     // `?mode=` is not available during the static prerender; adopt it here.
-    // eslint-disable-next-line react-hooks/set-state-in-effect
-    if (params.get("mode") === "koans") setMode("koans");
+    const requestedMode = params.get("mode");
+    if (requestedMode === "koans" || requestedMode === "encounters") {
+      // eslint-disable-next-line react-hooks/set-state-in-effect
+      setMode(requestedMode);
+    }
   }, []);
 
   const handleShuffle = useCallback(() => {
@@ -163,11 +168,36 @@ export default function ProverbsClient({
         >
           Koans
         </button>
+        {encounters.length > 0 && (
+          <button
+            className={`proverbs-mode-btn${mode === "encounters" ? " active" : ""}`}
+            onClick={() => setMode("encounters")}
+          >
+            Encounters · Mondō
+          </button>
+        )}
       </div>
 
       {/* Koan browser — shown when mode === "koans" */}
       {mode === "koans" && (
         <KoanBrowser collections={koanCollections} />
+      )}
+
+      {mode === "encounters" && (
+        <div className="koans-browser">
+          <p className="koans-collection-desc">
+            Short exchanges between Zen teachers and their questioners. Open an encounter to read
+            the dialogue, then follow its source and participant links on the teaching page.
+          </p>
+          <KoanBrowser collections={[{
+            name: "Selected encounter dialogues",
+            altName: "Mondō · 問答",
+            compiler: "",
+            era: "",
+            description: "",
+            entries: encounters,
+          }]} showJumpNav={false} />
+        </div>
       )}
 
       {/* Proverbs view — hidden when in koans mode */}
@@ -284,26 +314,27 @@ export default function ProverbsClient({
   );
 }
 
-function KoanBrowser({ collections }: { collections: KoansCollection[] }) {
+function KoanBrowser({ collections, showJumpNav = true }: { collections: KoansCollection[]; showJumpNav?: boolean }) {
   const [expanded, setExpanded] = useState<Set<string>>(new Set());
 
   function toggle(id: string) {
     setExpanded((prev) => {
       const next = new Set(prev);
-      next.has(id) ? next.delete(id) : next.add(id);
+      if (next.has(id)) next.delete(id);
+      else next.add(id);
       return next;
     });
   }
 
   return (
     <div className="koans-browser">
-      <nav className="koans-jump-nav">
+      {showJumpNav && <nav className="koans-jump-nav">
         {collections.map((col) => (
           <a key={col.name} href={`#koan-${col.name.toLowerCase().replace(/\s+/g, "-")}`}>
             {col.name}
           </a>
         ))}
-      </nav>
+      </nav>}
 
       {collections.map((col) => (
         <section
@@ -314,8 +345,8 @@ function KoanBrowser({ collections }: { collections: KoansCollection[] }) {
           <div className="koans-collection-header">
             <h2 className="koans-collection-title">{col.name}</h2>
             {col.altName && <p className="koans-collection-alt">{col.altName}</p>}
-            <p className="koans-collection-meta">{col.compiler} · {col.era}</p>
-            <p className="koans-collection-desc">{col.description}</p>
+            {(col.compiler || col.era) && <p className="koans-collection-meta">{[col.compiler, col.era].filter(Boolean).join(" · ")}</p>}
+            {col.description && <p className="koans-collection-desc">{col.description}</p>}
           </div>
 
           <ul className="koans-list">

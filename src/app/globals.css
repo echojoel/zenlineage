@@ -1558,6 +1558,18 @@ a.footnote-source-link:hover {
   overflow-wrap: anywhere;
 }
 
+.detail-featured-encounters {
+  margin-bottom: 1.5rem;
+  padding-bottom: 1.25rem;
+  border-bottom: 1px solid rgba(122, 106, 85, 0.12);
+}
+
+.detail-featured-encounters > .detail-inline-link {
+  display: inline-block;
+  margin-top: 0.8rem;
+  font-size: 0.75rem;
+}
+
 /* ===== About page ===== */
 .about-section-image {
   display: block;

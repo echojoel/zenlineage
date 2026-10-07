@@ -38,6 +38,7 @@ import {
   personSchema,
 } from "@/lib/seo/jsonld";
 import { sameAsFor } from "@/lib/seo/master-sameas";
+import { featuredEncounterOrder } from "@/lib/featured-encounters";
 
 type Confidence = "high" | "medium" | "low" | null;
 
@@ -675,6 +676,7 @@ export default async function MasterDetailPage({ params }: { params: Promise<{ s
       slug: teachings.slug,
       type: teachings.type,
       title: teachingContent.title,
+      content: teachingContent.content,
       collection: teachings.collection,
       caseNumber: teachings.caseNumber,
       role: teachingMasterRoles.role,
@@ -760,6 +762,13 @@ export default async function MasterDetailPage({ params }: { params: Promise<{ s
   const publishedCrossRefs = uniqueCrossRefs.filter((t) =>
     isPublishedTeaching({ id: t.id }, itemCitationKeys)
   );
+  const featuredEncounters = [...publishedTeachings, ...publishedCrossRefs]
+    .filter((t) => t.type === "dialogue" && featuredEncounterOrder.has(t.slug))
+    .sort((a, b) => (featuredEncounterOrder.get(a.slug) ?? 999) - (featuredEncounterOrder.get(b.slug) ?? 999))
+    .slice(0, 2);
+  const featuredEncounterIds = new Set(featuredEncounters.map((t) => t.id));
+  const remainingTeachings = publishedTeachings.filter((t) => !featuredEncounterIds.has(t.id));
+  const remainingCrossRefs = publishedCrossRefs.filter((t) => !featuredEncounterIds.has(t.id));
   const publishedImage = getPublishedImageAsset(mediaRows, itemCitationKeys);
 
   // Sibling masters — others in the same school, excluding the current
@@ -1134,17 +1143,44 @@ export default async function MasterDetailPage({ params }: { params: Promise<{ s
           </section>
         )}
 
-        {(publishedTeachings.length > 0 || withheldTeachingCount > 0) && (
+        {(publishedTeachings.length > 0 || featuredEncounters.length > 0 || withheldTeachingCount > 0) && (
           <section className="detail-card">
             <h3 className="detail-section-title">Teachings</h3>
-            {publishedTeachings.length === 0 ? (
+            {featuredEncounters.length > 0 && (
+              <div className="detail-featured-encounters">
+                <h4 className="detail-subsection-title">Encounter dialogues · Mondō</h4>
+                <ul className="detail-source-list">
+                  {featuredEncounters.map((encounter) => (
+                    <li key={encounter.id}>
+                      <div className="detail-source-heading">
+                        <span>Dialogue</span>
+                        <Link href={`/teachings/${encounter.slug}`} className="detail-inline-link">
+                          {encounter.title ?? encounter.slug}
+                        </Link>
+                      </div>
+                      {encounter.content && (
+                        <p className="detail-source-excerpt">
+                          {encounter.content.length > 280
+                            ? `${encounter.content.slice(0, 280).trimEnd()}…`
+                            : encounter.content}
+                        </p>
+                      )}
+                    </li>
+                  ))}
+                </ul>
+                <Link href="/proverbs?mode=encounters" className="detail-inline-link">
+                  Explore encounter dialogues →
+                </Link>
+              </div>
+            )}
+            {publishedTeachings.length === 0 && featuredEncounters.length === 0 ? (
               <p className="detail-muted">
                 Teaching records exist for this master, but they are withheld until item-level
                 citations are attached.
               </p>
-            ) : (
+            ) : remainingTeachings.length > 0 ? (
               <ul className="detail-source-list">
-                {publishedTeachings.map((teaching) => {
+                {remainingTeachings.map((teaching) => {
                   const roles = rolesByTeachingId.get(teaching.id) ?? [];
                   const collectionBadge =
                     teaching.type === "koan" && teaching.collection && teaching.caseNumber
@@ -1202,15 +1238,15 @@ export default async function MasterDetailPage({ params }: { params: Promise<{ s
                   );
                 })}
               </ul>
-            )}
+            ) : null}
           </section>
         )}
 
-        {publishedCrossRefs.length > 0 && (
+        {remainingCrossRefs.length > 0 && (
           <section className="detail-card">
             <h3 className="detail-section-title">Featured in</h3>
             <ul className="detail-source-list">
-              {publishedCrossRefs.map((ref) => {
+              {remainingCrossRefs.map((ref) => {
                 const badge =
                   ref.type === "koan" && ref.collection && ref.caseNumber
                     ? `${ref.collection} Case ${ref.caseNumber}`

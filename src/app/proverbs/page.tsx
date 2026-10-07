@@ -16,6 +16,7 @@ import { eq, and, inArray } from "drizzle-orm";
 import Link from "@/components/Link";
 import ProverbsClient from "@/components/ProverbsClient";
 import { buildCitationKeySet, isPublishedTeaching } from "@/lib/publishable-content";
+import { FEATURED_ENCOUNTER_SLUGS, featuredEncounterOrder } from "@/lib/featured-encounters";
 
 export interface KoanEntry {
   id: string;
@@ -360,6 +361,41 @@ export default async function ProverbsPage() {
     };
   }).filter((c) => c.entries.length > 0);
 
+  // Mondō are browsed alongside koans, but retain their dialogue type and
+  // their own source records rather than being recast as collection cases.
+  const encounterRows = await db
+    .select({
+      id: teachings.id,
+      slug: teachings.slug,
+      authorId: teachings.authorId,
+      title: teachingContent.title,
+      content: teachingContent.content,
+    })
+    .from(teachings)
+    .innerJoin(
+      teachingContent,
+      and(eq(teachingContent.teachingId, teachings.id), eq(teachingContent.locale, "en"))
+    )
+    .where(and(eq(teachings.type, "dialogue"), inArray(teachings.slug, [...FEATURED_ENCOUNTER_SLUGS])));
+
+  const encounters: KoanEntry[] = encounterRows
+    .filter((item) => isPublishedTeaching({ id: item.id }, citationKeys))
+    .sort((a, b) => (featuredEncounterOrder.get(a.slug) ?? 999) - (featuredEncounterOrder.get(b.slug) ?? 999))
+    .map((item) => {
+      const speaker = roleRows.find((role) => role.teachingId === item.id && role.role === "speaker");
+      const masterId = speaker?.masterId ?? item.authorId;
+      const master = masterId ? masterMap.get(masterId) : null;
+      return {
+        id: item.id,
+        slug: item.slug,
+        caseNumber: null,
+        title: item.title,
+        content: item.content,
+        masterSlug: master?.slug ?? null,
+        masterName: master ? masterNameMap.get(master.id) ?? null : null,
+      };
+    });
+
   const breadcrumbJsonLd = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
@@ -394,6 +430,7 @@ export default async function ProverbsPage() {
         schoolNames={schoolNameRecord}
         highlightSlug={highlightSlug}
         koanCollections={koanCollections}
+        encounters={encounters}
       />
     </div>
   );
