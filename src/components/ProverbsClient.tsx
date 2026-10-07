@@ -8,6 +8,7 @@ import EncounterText from "@/components/EncounterText";
 import type { ProverbListItem, KoansCollection, KoanEntry } from "@/app/proverbs/page";
 
 const BATCH_SIZE = 12;
+type BrowseMode = "proverbs" | "koans" | "encounters";
 
 function shuffle<T>(array: T[]): T[] {
   const arr = [...array];
@@ -37,7 +38,7 @@ export default function ProverbsClient({
   koanCollections,
   encounters,
 }: Props) {
-  const [mode, setMode] = useState<"proverbs" | "koans" | "encounters">("proverbs");
+  const [mode, setMode] = useState<BrowseMode>("proverbs");
   const [order, setOrder] = useState(proverbs);
   const [activeHighlight, setActiveHighlight] = useState<string | null>(
     highlightSlug ?? null
@@ -75,14 +76,26 @@ export default function ProverbsClient({
 
   useEffect(() => {
     if (typeof window === "undefined") return;
-    const params = new URLSearchParams(window.location.search);
-    // `?mode=` is not available during the static prerender; adopt it here.
-    const requestedMode = params.get("mode");
-    if (requestedMode === "koans" || requestedMode === "encounters") {
-      // eslint-disable-next-line react-hooks/set-state-in-effect
-      setMode(requestedMode);
-    }
+    const readMode = (): BrowseMode => {
+      const requested = new URLSearchParams(window.location.search).get("mode");
+      return requested === "koans" || requested === "encounters" ? requested : "proverbs";
+    };
+    const onPopState = () => setMode(readMode());
+    // `?mode=` is unavailable during static prerendering; adopt it on mount.
+    // eslint-disable-next-line react-hooks/set-state-in-effect
+    setMode(readMode());
+    window.addEventListener("popstate", onPopState);
+    return () => window.removeEventListener("popstate", onPopState);
   }, []);
+
+  const changeMode = (nextMode: BrowseMode) => {
+    if (nextMode === mode) return;
+    const url = new URL(window.location.href);
+    if (nextMode === "proverbs") url.searchParams.delete("mode");
+    else url.searchParams.set("mode", nextMode);
+    window.history.pushState(null, "", url);
+    setMode(nextMode);
+  };
 
   const handleShuffle = useCallback(() => {
     setOrder(shuffle(order));
@@ -166,20 +179,20 @@ export default function ProverbsClient({
       <div className="proverbs-mode-toggle">
         <button
           className={`proverbs-mode-btn${mode === "proverbs" ? " active" : ""}`}
-          onClick={() => setMode("proverbs")}
+          onClick={() => changeMode("proverbs")}
         >
           Proverbs
         </button>
         <button
           className={`proverbs-mode-btn${mode === "koans" ? " active" : ""}`}
-          onClick={() => setMode("koans")}
+          onClick={() => changeMode("koans")}
         >
           Koans
         </button>
         {encounters.length > 0 && (
           <button
             className={`proverbs-mode-btn${mode === "encounters" ? " active" : ""}`}
-            onClick={() => setMode("encounters")}
+            onClick={() => changeMode("encounters")}
           >
             Encounters · Mondō
           </button>
@@ -193,6 +206,7 @@ export default function ProverbsClient({
 
       {mode === "encounters" && (
         <div className="koans-browser">
+          <h2 className="koans-collection-title">Encounter dialogues</h2>
           <p className="koans-collection-desc">
             Short exchanges between Zen teachers and their questioners. Open an encounter to read
             the dialogue, then follow its source and participant links on the teaching page.
@@ -361,40 +375,38 @@ function KoanBrowser({ collections, showJumpNav = true, renderEncounterText = fa
           id={`koan-${col.name.toLowerCase().replace(/\s+/g, "-")}`}
           className="koans-collection"
         >
-          <div className="koans-collection-header">
+          {!renderEncounterText && <div className="koans-collection-header">
             <h2 className="koans-collection-title">{col.name}</h2>
             {col.altName && <p className="koans-collection-alt">{col.altName}</p>}
             {(col.compiler || col.era) && <p className="koans-collection-meta">{[col.compiler, col.era].filter(Boolean).join(" · ")}</p>}
             {col.description && <p className="koans-collection-desc">{col.description}</p>}
-          </div>
+          </div>}
 
           <ul className="koans-list">
-            {col.entries.map((entry) => {
+            {col.entries.map((entry, index) => {
               const isOpen = expanded.has(entry.id);
               return (
                 <li key={entry.id} className={`koans-entry${isOpen ? " koans-entry--open" : ""}`}>
                   <button
-                    className="koans-entry-row"
+                    className={`koans-entry-row${renderEncounterText ? " koans-entry-row--encounter" : ""}`}
                     onClick={() => toggle(entry.id)}
                     aria-expanded={isOpen}
                   >
-                    {entry.portraitSrc && (
-                      <Image
-                        src={entry.portraitSrc}
-                        alt=""
-                        width={42}
-                        height={42}
-                        unoptimized
-                        className="encounter-portrait"
-                      />
+                    {renderEncounterText && (
+                      <span className="encounter-index" aria-hidden="true">
+                        {String(index + 1).padStart(2, "0")}
+                      </span>
                     )}
                     <span className="koans-title">
                       {entry.title ?? entry.slug}
                       {entry.caseNumber && (
                         <span className="koans-case"> (Case {entry.caseNumber})</span>
                       )}
+                      {renderEncounterText && entry.masterName && (
+                        <span className="encounter-row-master">{entry.masterName}</span>
+                      )}
                     </span>
-                    {entry.masterName && (
+                    {!renderEncounterText && entry.masterName && (
                       <span className="koans-master">{entry.masterName}</span>
                     )}
                     <span className="koans-chevron" aria-hidden="true">
@@ -411,9 +423,21 @@ function KoanBrowser({ collections, showJumpNav = true, renderEncounterText = fa
                       )}
                       <div className="koans-expanded-footer">
                         {entry.masterSlug && (
-                          <Link href={`/masters/${entry.masterSlug}`} className="detail-inline-link">
-                            {entry.masterName}
-                          </Link>
+                          <span className="encounter-attribution">
+                            {entry.portraitSrc && (
+                              <Image
+                                src={entry.portraitSrc}
+                                alt=""
+                                width={38}
+                                height={38}
+                                unoptimized
+                                className="encounter-portrait"
+                              />
+                            )}
+                            <Link href={`/masters/${entry.masterSlug}`} className="detail-inline-link">
+                              {entry.masterName}
+                            </Link>
+                          </span>
                         )}
                         <Link href={`/teachings/${entry.slug}`} className="koans-full-link">
                           Full details →

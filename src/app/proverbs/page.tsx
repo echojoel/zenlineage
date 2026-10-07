@@ -334,6 +334,10 @@ export default async function ProverbsPage() {
     koanIds.length > 0
       ? (roleRows).filter((r) => koanIds.includes(r.teachingId) && r.role === "speaker")
       : [];
+  const koanSpeakerIds = publishedKoans
+    .map((item) => koanRoleRows.find((role) => role.teachingId === item.id)?.masterId ?? item.authorId)
+    .filter((id): id is string => Boolean(id && masterMap.has(id)));
+  const koanPortraits = await publishedMasterPortraits(koanSpeakerIds);
 
   const koanCollections: KoansCollection[] = KOAN_COLLECTIONS.map((colName) => {
     const entries = publishedKoans
@@ -354,6 +358,7 @@ export default async function ProverbsPage() {
           content: k.content ?? null,
           masterSlug: speakerMaster?.slug ?? null,
           masterName: speakerMaster ? masterNameMap.get(speakerMaster.id) ?? null : null,
+          portraitSrc: speakerMaster ? koanPortraits.get(speakerMaster.id) ?? null : null,
         };
       });
     return {
