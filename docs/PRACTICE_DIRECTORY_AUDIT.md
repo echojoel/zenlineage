@@ -9,20 +9,20 @@ establish a group's current activity, lineage, or safeguarding.
 
 | Check | Result |
 |---|---:|
-| Place records | 1,698 |
-| Distinct preferred URLs checked | 1,332 |
-| URLs returning 2xx/3xx | 1,082 |
-| URLs returning 404/410 | 24 (used by 29 records) |
+| Place records | 1,697 |
+| Distinct preferred URLs checked | 1,331 |
+| URLs returning 2xx/3xx | 1,083 |
+| URLs returning 404/410 | 22 (used by 27 records) |
 | URLs blocked or rate limited | 19 (used by 21 records) |
 | URLs with inconclusive network/server results | 207 (used by 215 records) |
 | Records with no preferred URL | 18 |
-| Records with only a `popular`-class citation | 537 |
-| Records queued to check first (overlapping signals combined) | 561 |
-| City-level, approximate map pins | 874 |
+| Records with only a `popular`-class citation | 536 |
+| Records queued to check first (overlapping signals combined) | 559 |
+| City-level, approximate map pins | 873 |
 
 Every remaining place has exactly one citation, currently attached to `coordinates`.
 That citation alone cannot establish affiliation, an active schedule, or a
-safeguarding process. The seed labels all 1,698 places `active`, but it has no
+safeguarding process. The seed labels all 1,697 places `active`, but it has no
 per-place last-checked date. The public map and exported JSON no longer expose
 that seed status as a verified claim.
 
@@ -52,11 +52,18 @@ similarly. A failed URL is evidence about this check, not about the group.
 - The map can show optional visitor details with a source and check date.
   The first example uses Zen Mountain Monastery's
   [visitor information](https://zmm.org/visiting-the-monastery/).
+- Guin-sa was removed because the temple's
+  [own temple-stay listing](https://eng.templestay.com/en/MI000000000000000062/temple/introView.do?pageIndex=1&searchKeyword=guinsa&templeIdTmp=Guinsa)
+  identifies it as the Cheontae Order's headquarters, outside this
+  Zen/Seon directory's scope. This is a classification correction, not a
+  safeguarding judgment.
+- Heart of Wisdom Zen Temple now links to its
+  [current temple page](https://zendust.org/heart-of-wisdom-zen-temple/).
 
 ## Next review work
 
-Start with the 29 records whose preferred URL returned 404/410 and the 18
-without a preferred URL. Then review the 537 `popular`-only citations against
+Start with the 27 records whose preferred URL returned 404/410 and the 18
+without a preferred URL. Then review the 536 `popular`-only citations against
 the underlying group or institutional directories. For each correction, update
 the canonical seed or raw place data, cite the direct source, and rerun the
 seed and audit. Do not infer misconduct from missing websites or policies.
