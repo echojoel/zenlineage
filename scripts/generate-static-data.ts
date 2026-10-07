@@ -40,6 +40,8 @@ import { getSchoolDefinitions } from "@/lib/school-taxonomy";
 import { buildGlossary, termAnchorId } from "@/lib/glossary-data";
 import { countryToSlug } from "@/lib/seo/country-slug";
 import type { SearchEntry } from "@/lib/search-types";
+import { sourcedPracticeDetails } from "@/lib/practice-details";
+import { SEED_TEMPLES } from "./data/seed-temples";
 
 const OUT_DIR = path.join(process.cwd(), "public", "data");
 
@@ -713,6 +715,9 @@ async function generateTemplesJson() {
     publishedMasterRows.filter((m) => m.published).map((m) => m.id),
   );
 
+  const practiceDetailsBySlug = new Map(
+    SEED_TEMPLES.map((seed) => [seed.slug, sourcedPracticeDetails(seed.practiceDetails)])
+  );
   const features = templeRows.map((t) => {
     const rawFounderId = t.founderId ?? foundedBy.get(t.id) ?? null;
     const effectiveFounderId = rawFounderId && publishedFounderIds.has(rawFounderId) ? rawFounderId : null;
@@ -745,6 +750,8 @@ async function generateTemplesJson() {
       imageUrl: img?.path ?? null,
       imageAlt: img?.alt ?? null,
       geoPrecision: t.geoPrecision ?? "exact",
+      // Undefined fields are omitted from JSON; absent details stay unknown.
+      practiceDetails: practiceDetailsBySlug.get(t.slug),
     };
   });
 

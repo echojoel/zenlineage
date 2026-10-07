@@ -18,6 +18,11 @@ import maplibregl, {
   type Map as MapLibreMap,
 } from "maplibre-gl";
 import "maplibre-gl/dist/maplibre-gl.css";
+import {
+  PRACTICE_DETAIL_LABELS,
+  sourcedPracticeDetails,
+  type PracticeDetails,
+} from "@/lib/practice-details";
 
 interface TempleFeature {
   slug: string;
@@ -53,6 +58,7 @@ interface TempleFeature {
    * town hall, and sending someone to the wrong door is worse than
    * admitting we only know the town. */
   geoPrecision: string | null;
+  practiceDetails?: PracticeDetails;
 }
 
 interface SchoolOption {
@@ -182,6 +188,8 @@ export default function PracticeMap({ initialSchool, selectedSchool }: PracticeM
             imageUrl: t.imageUrl,
             imageAlt: t.imageAlt,
             geoPrecision: t.geoPrecision,
+            // GeoJSON feature properties arrive from MapLibre as strings.
+            practiceDetails: t.practiceDetails ? JSON.stringify(t.practiceDetails) : null,
           },
         }));
 
@@ -508,19 +516,35 @@ function renderPopupHTML(p: Record<string, unknown>): string {
   let linkRow = "";
   if (listingUrl) {
     linkRow = `<p class="practice-map-popup-link"><a href="${escapeHtml(listingUrl)}" target="_blank" rel="noopener noreferrer">Website or listing ↗</a></p>`;
-  } else if (sourceUrl) {
-    // Show *which* directory we're linking to, not a generic label, so
-    // practitioners know whether they're heading to Sōtōshū, AZI, etc.
-    const label = sourceTitle
-      ? sourceTitle.split(" — ")[0] || sourceTitle
-      : "Directory listing";
-    linkRow = `<p class="practice-map-popup-link"><a href="${escapeHtml(sourceUrl)}" target="_blank" rel="noopener noreferrer">${escapeHtml(label)} ↗</a></p>`;
   }
+  // The citation identifies the location record's source; it does not
+  // establish that a group's current meeting arrangements were checked.
+  const sourceRow = sourceUrl
+    ? `<p class="practice-map-popup-link">Location source: <a href="${escapeHtml(sourceUrl)}" target="_blank" rel="noopener noreferrer">${escapeHtml(sourceTitle || "Source listing")} ↗</a></p>`
+    : "";
 
   const imageUrl = typeof p.imageUrl === "string" ? p.imageUrl : null;
   const imageAlt = typeof p.imageAlt === "string" ? p.imageAlt : (typeof p.name === "string" ? p.name : "Temple");
   const imageBlock = imageUrl
     ? `<img class="practice-map-popup-image" src="${escapeHtml(imageUrl)}" alt="${escapeHtml(imageAlt)}" loading="lazy" />`
+    : "";
+
+  let practiceDetails: PracticeDetails | undefined;
+  try {
+    practiceDetails = sourcedPracticeDetails(
+      typeof p.practiceDetails === "string" ? JSON.parse(p.practiceDetails) : p.practiceDetails
+    );
+  } catch {
+    // Old payloads or malformed details leave the visitor section absent.
+  }
+  const detailRows = practiceDetails
+    ? (Object.keys(PRACTICE_DETAIL_LABELS) as (keyof PracticeDetails)[])
+        .map((key) => {
+          const detail = practiceDetails[key];
+          if (!detail) return "";
+          return `<p class="practice-map-popup-meta"><strong>${PRACTICE_DETAIL_LABELS[key]}:</strong> ${escapeHtml(detail.value)} <a href="${escapeHtml(detail.sourceUrl)}" target="_blank" rel="noopener noreferrer" title="Checked ${escapeHtml(detail.checkedOn)}">Source ↗</a> <span>(checked ${escapeHtml(detail.checkedOn)})</span></p>`;
+        })
+        .join("")
     : "";
 
   return `
@@ -540,6 +564,8 @@ function renderPopupHTML(p: Record<string, unknown>): string {
         ? `<p class="practice-map-popup-link">Founder: <a href="/masters/${founderSlug}">${founderName}</a></p>`
         : ""}
       ${linkRow}
+      ${sourceRow}
+      ${detailRows}
     </div>
   `;
 }

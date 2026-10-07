@@ -9,6 +9,7 @@
  */
 
 import { EUROPE_TEMPLE_SEEDS } from "./seed-temples-europe";
+import type { PracticeDetails } from "../../src/lib/practice-details";
 
 export interface TempleSeed {
   /** Stable kebab-case slug; used as DB primary key. */
@@ -57,6 +58,11 @@ export interface TempleSeed {
    * coordinates checked against a named source.
    */
   geoPrecision?: "exact" | "city";
+  /** Optional current visitor information. Each field needs a source URL
+   * and the date it was checked. Omit unknown details; do not infer them
+   * from a school's customs or a place's name. Exported directly from
+   * this canonical seed to the practice map, without a DB migration. */
+  practiceDetails?: PracticeDetails;
 }
 
 /** Shared source id used when the citation target is Wikipedia's
@@ -2942,6 +2948,23 @@ export const SEED_TEMPLES: TempleSeed[] = [
     sourceExcerpt:
       "Zen Mountain Monastery in the Catskills — founded 1980 by John Daido Loori, a dharma heir of Taizan Maezumi. One of the largest residential Zen training monasteries in the United States.",
     url: "https://zmm.org/",
+    practiceDetails: {
+      meetingFormat: {
+        value: "Sunday program on site by advance registration; beginning instruction is also offered online.",
+        sourceUrl: "https://zmm.org/visiting-the-monastery/",
+        checkedOn: "2026-10-07",
+      },
+      schedule: {
+        value: "Public Sunday program; regular morning and evening sitting for returning visitors except during sesshin. Check current dates before visiting.",
+        sourceUrl: "https://zmm.org/visiting-the-monastery/",
+        checkedOn: "2026-10-07",
+      },
+      cost: {
+        value: "Suggested $5 donation for the Sunday program.",
+        sourceUrl: "https://zmm.org/visiting-the-monastery/",
+        checkedOn: "2026-10-07",
+      },
+    },
   },
   {
     slug: "upaya-zen-center",
