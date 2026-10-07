@@ -188,7 +188,6 @@ export default async function TeachingDetailPage({
       content: teachingContent.content,
       translator: teachingContent.translator,
       edition: teachingContent.edition,
-      licenseStatus: teachingContent.licenseStatus,
     })
     .from(teachingContent)
     .where(eq(teachingContent.teachingId, teaching.id));
@@ -529,9 +528,6 @@ export default async function TeachingDetailPage({
                 {enContent.translator && enContent.edition ? ", " : ""}
                 {enContent.edition}
               </p>
-            )}
-            {enContent.licenseStatus && (
-              <p className="detail-list-meta">license: {enContent.licenseStatus}</p>
             )}
           </section>
         )}
