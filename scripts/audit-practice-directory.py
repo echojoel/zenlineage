@@ -39,7 +39,7 @@ def main() -> None:
     connection.close()
 
     queue = []
-    counts = {"high": 0, "medium": 0}
+    counts = {"check_first": 0, "routine": 0}
     for row in rows:
         reasons = []
         if not row["url"]:
@@ -48,17 +48,12 @@ def main() -> None:
             reasons.append("no_citation")
         elif row["source_classes"] == "popular":
             reasons.append("popular_source_only")
-        if row["status"] == "active":
-            reasons.append("current_activity_unverified")
-        # The existing citations cover coordinates. No field currently records
-        # affiliation review, safeguarding review, or a last-checked date.
-        reasons.extend(("affiliation_unreviewed", "safeguarding_unreviewed"))
         priority = (
-            "high"
+            "check_first"
             if any(reason in reasons for reason in (
                 "no_place_website", "no_citation", "popular_source_only"
             ))
-            else "medium"
+            else "routine"
         )
         counts[priority] += 1
         queue.append({
@@ -75,11 +70,11 @@ def main() -> None:
             "review_reasons": ";".join(reasons),
         })
 
-    queue.sort(key=lambda item: (item["priority"] != "high", item["country"] or "", item["name"]))
+    queue.sort(key=lambda item: (item["priority"] != "check_first", item["country"] or "", item["name"]))
     writer = csv.DictWriter(sys.stdout, fieldnames=list(queue[0]) if queue else ["priority", "slug"])
     writer.writeheader()
     writer.writerows(queue)
-    print(f"{len(queue)} listings: {counts['high']} high priority, {counts['medium']} medium priority", file=sys.stderr)
+    print(f"{len(queue)} listings: {counts['check_first']} to check first, {counts['routine']} routine", file=sys.stderr)
     print("Priority signals are evidence gaps, not adverse findings about organizations.", file=sys.stderr)
 
 

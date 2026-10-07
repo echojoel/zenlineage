@@ -221,66 +221,41 @@ useful.
 
 ## 9. Practice directory admission and review
 
-The practice map is a directory of places, not a certification of teachers or
-an assurance of safety. A coordinate citation establishes only the cited
-location claim. It does not establish current activity, affiliation, or
-safeguarding. Do not call an organization fraudulent or unsafe because its
-record lacks evidence.
+The practice map helps people discover groups; it is not a certification of
+teachers or a guarantee of safety. A coordinate citation supports a location,
+not every claim about a group.
 
-Before newly admitting a current practice group or recommending an existing
-one, record evidence for each of these separate claims:
+Before adding a current practice group, check that a working site or an
+institutional directory shows that it exists and offers practice. Link the
+source. Check any claimed formal affiliation against the named institution;
+if it cannot be confirmed, omit or qualify that claim. An independent group
+can be listed; describe it as independent rather than inventing a lineage.
+Mark approximate locations clearly and do not pin an online-only group to a
+street address. If even the group's identity or activity cannot be checked,
+leave it out until there is a usable source.
 
-1. **Identity and activity:** a current page or direct confirmation identifies
-   the group, contact route, and how to join practice. Record the check date.
-2. **Affiliation and lineage:** verify any claimed affiliation against the
-   named institution's directory or direct confirmation. If independent, say
-   so and document the teacher's stated training without inventing a formal
-   transmission. Independent lay groups are eligible when described honestly.
-3. **Location:** cite the address or label a city-level marker as approximate.
-   Online-only groups must not receive a physical pin.
-4. **Safeguarding:** locate the group's written conduct policy and a grievance
-   route that does not depend solely on the person complained about. Record
-   both sources and the check date. If either cannot be verified, do not admit
-   or recommend the group. A policy's existence does not prove that conduct is
-   safe.
+Link a conduct policy or reporting route when one is available. Its presence
+does not prove a group is safe, and its absence alone does not prove misconduct.
+If a specific, credible safeguarding concern arises, pause the listing while
+checking the evidence. Keep private reports private, avoid publishing
+unverified allegations, and allow the group to respond to factual errors.
 
-Keep the evidence URLs and excerpts, reviewer identity, review date, and next
-review date with the editorial record. Two human reviewers must approve both
-new directory admission and recommendation. Recheck current activity and
-contact details at least every 12 months and immediately when a credible
-correction arrives. A first-party source can establish the group's own
-identity, activity, and published safeguarding provisions. Claimed affiliation
-requires confirmation from the named institution; describe self-reported
-training as such. Do not treat an AI summary, Wikipedia entry, or directory
-pin as verification of all four claims.
-
-An unresolved evidence gap means **unreviewed**, not approved. Do not add new
-unreviewed groups to practice recommendations. The existing map predates this
-policy; its entries may remain sourced location records but must not be marked
-as reviewed or recommended until individually approved. Do not expand the
-directory until the admission gate is enforced in code. Use
+The maintainer records the key source links and check date, and revisits
+listings as time allows or when a correction arrives. Do not present an entry
+as "verified" or "safe." The existing map is a collection of sourced location
+records, not a set of endorsements. Use
 `python3 scripts/audit-practice-directory.py > /tmp/practice-review.csv` to
-produce the deterministic queue. Its priority flags identify missing evidence,
-not misconduct.
+find entries with obvious evidence gaps. A missing source is a prompt to check,
+not a judgment about an organization.
 
-Provide a private reporting route before publishing approved recommendations;
-the public GitHub issue form is for factual corrections, not sensitive reports.
-For a safeguarding report with specific, assessable information, pause
-recommendation while two reviewers assess the evidence. Document the reasons
-for pausing and require both reviewers to approve restoration with supporting
-evidence. Keep private reports confidential, distinguish allegations from
-findings, and provide a route for correction or appeal. Public wording must
-describe only what can be supported and must never claim that a group has been
-certified safe.
+The public GitHub issue form is for factual corrections. Use the private form
+for sensitive reports once it is active.
 
 ### Model-assisted review budget
 
 Generate the queue with the local audit script; it requires no model calls.
-For batches of at most ten records, give GPT-6 Luna only the existing record
-and ask it to extract missing fields and source URLs. Give GPT-6.1 Sol only
-the specific claims and source excerpts to draft an evidence assessment.
-Reserve GPT-6 Astra for genuinely conflicting evidence. Keep each model run
-read-only, time-limited, and confined to the supplied batch; record token use
-and stop if a run begins reading unrelated files. Model output is a reviewer
-worksheet, not a publication decision. Two humans still approve every
-admission or recommendation.
+For small batches, use GPT-6 Luna to extract fields and source URLs. Use
+GPT-6.1 Sol when a claim needs closer reading, and reserve GPT-6 Astra for
+genuinely conflicting evidence. Keep model runs read-only and time-limited.
+The maintainer makes the publication decision from the sources, not from a
+model's verdict.

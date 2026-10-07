@@ -115,9 +115,8 @@ export default async function PracticePage() {
             Temples, zendōs, seonbangs, and Thiền centers around the world.
           </p>
           <p className="detail-page-note">
-            Map entries are sourced location records, not endorsements. We are
-            reviewing current activity, lineage claims, and safeguarding
-            information. Check a group’s own details before visiting.
+            Map entries are sourced location records, not endorsements. Check
+            a group’s current details before visiting.
           </p>
           <p className="detail-page-note">
             Factual corrections welcome —{" "}
