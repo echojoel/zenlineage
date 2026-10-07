@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import Link from "@/components/Link";
 import ThemeToggle from "@/components/ThemeToggle";
 import HomeProverbRotator from "@/components/HomeProverbRotator";
+import fs from "fs";
+import path from "path";
 
 export const metadata: Metadata = {
   title: "Zen Lineage",
@@ -27,7 +29,6 @@ import { db } from "@/db";
 import {
   masters,
   masterNames,
-  masterTransmissions,
   schools,
   teachings,
   teachingContent,
@@ -39,12 +40,14 @@ import { buildCitationKeySet, isPublishedTeaching } from "@/lib/publishable-cont
 
 export default async function Home() {
   // Counts
-  const [masterRow, schoolRow, transmissionRow, templeRow] = await Promise.all([
+  const [masterRow, schoolRow, templeRow] = await Promise.all([
     db.select({ count: sql<number>`count(*)` }).from(masters).where(eq(masters.published, true)),
     db.select({ count: sql<number>`count(*)` }).from(schools),
-    db.select({ count: sql<number>`count(*)` }).from(masterTransmissions),
     db.select({ count: sql<number>`count(*)` }).from(temples),
   ]);
+  const graph = JSON.parse(
+    fs.readFileSync(path.join(process.cwd(), "public", "data", "graph.json"), "utf-8")
+  ) as { edges: unknown[] };
 
   // Random proverb
   const proverbRows = await db
@@ -167,7 +170,7 @@ export default async function Home() {
   const counts = {
     masters: masterRow[0]?.count ?? 0,
     schools: schoolRow[0]?.count ?? 0,
-    transmissions: transmissionRow[0]?.count ?? 0,
+    transmissions: graph.edges.length,
     temples: templeRow[0]?.count ?? 0,
     koans: koanCount,
     countries: countryCount,
@@ -178,7 +181,7 @@ export default async function Home() {
     "@type": "WebSite",
     name: "Zen Lineage",
     url: "https://zenlineage.org",
-    description: `An interactive encyclopedia of Zen Buddhism covering ${counts.masters} masters, ${counts.schools} schools, ${counts.transmissions} lineage transmissions, and ${counts.temples} active places of practice across 2,500 years of Chan and Zen history.`,
+    description: `An interactive encyclopedia of Zen Buddhism covering ${counts.masters} masters, ${counts.schools} schools, ${counts.transmissions} teacher–student links in the published graph, and ${counts.temples} listed places of practice across 2,500 years of Chan and Zen history.`,
     potentialAction: {
       "@type": "SearchAction",
       target: "https://zenlineage.org/masters?q={search_term_string}",
@@ -299,7 +302,7 @@ export default async function Home() {
         </Link>
         {" · "}
         <Link href="/lineage" className="home-stats-link">
-          {counts.transmissions} transmissions
+          {counts.transmissions} lineage links
         </Link>
         {" · "}
         <Link href="/practice" className="home-stats-link">

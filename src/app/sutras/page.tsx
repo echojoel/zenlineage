@@ -10,12 +10,12 @@ import { abs } from "@/lib/seo/jsonld";
 export const metadata: Metadata = {
   title: "Sūtras",
   description:
-    "The core Mahāyāna sūtras of Zen practice — Heart, Diamond, Platform, and Lotus — read side-by-side in English, Sanskrit, Chinese, and the Sino-Japanese chant. Every translation public domain or CC-licensed.",
+    "Read editions and selections of the Heart, Diamond, Platform, and Lotus sūtras in the languages available for each text. Every edition is public domain or CC-licensed.",
   alternates: { canonical: abs("/sutras") },
   openGraph: {
     title: "Sūtras — Zen Lineage",
     description:
-      "Read the Heart, Diamond, Platform, and Lotus sūtras side-by-side in English, Sanskrit, Chinese, and the chanted Japanese form.",
+      "Read editions and selections of the Heart, Diamond, Platform, and Lotus sūtras side by side.",
     url: abs("/sutras"),
     type: "website",
   },
@@ -77,16 +77,15 @@ export default async function SutrasIndexPage() {
               The four gathered here circulate through nearly every Zen,
               Chan, Sŏn, and Thiền hall. The Heart and Diamond carry the
               prajñāpāramitā teaching of emptiness; the Platform Sūtra
-              records the dharma of the Sixth Patriarch Huineng — the
-              only sūtra composed in China; the Lotus, especially its
-              Universal Gate chapter (Kannon-gyō), is the most-chanted
-              passage in Sōtō and Rinzai daily liturgy.
+              presents teachings attributed to the Sixth Patriarch
+              Huineng and was composed in China; the Lotus, especially
+              its Universal Gate chapter (Kannon-gyō), also has a place
+              in Zen liturgy.
             </p>
             <p>
-              Each is offered here in multiple editions: the original
-              Sanskrit, the canonical Chinese (Xuanzang, Kumārajīva,
-              Zongbao), the Sino-Japanese chant, and several
-              translations into European languages. The switcher above
+              Each is offered here in multiple editions. Depending on the
+              text, these include Sanskrit, Chinese, a Sino-Japanese
+              chant, and translations into European languages. The switcher above
               each text keeps the reader anchored at the same passage
               when you flip between languages.
             </p>
@@ -125,9 +124,9 @@ export default async function SutrasIndexPage() {
           <h3 className="detail-section-title">Practical: how to chant</h3>
           <div className="detail-summary">
             <p>
-              The Sino-Japanese chant (Hannya Shingyō, Kannon-gyō)
-              sits as a chip on each sūtra&rsquo;s page — alongside the
-              translations. If you&rsquo;re new to chanting, the{" "}
+              Sino-Japanese chants for the Heart Sūtra (Hannya Shingyō)
+              and the Lotus Sūtra&rsquo;s Universal Gate chapter (Kannon-gyō)
+              appear alongside their other editions. If you&rsquo;re new to chanting, the{" "}
               <Link className="detail-inline-link" href="/sutras/how-to-chant">
                 how-to-chant guide
               </Link>{" "}

@@ -1,14 +1,14 @@
 # Zen Lineage — Complete Reference
 
-> An open-source interactive encyclopedia of Zen Buddhism covering 465+ masters,
-> 25 schools, 570+ lineage transmissions, 1020+ teachings, and 1,700+ scholarly
-> citations across 2,500 years of Chan, Zen, Seon, and Thien Buddhist history.
+> An open-source interactive encyclopedia of Zen Buddhism covering 465 published master profiles,
+> 25 schools, 358 teacher–student links in the published graph, and 1021 cited teachings
+> across 2,500 years of Chán, Zen, Sŏn, and Thiền Buddhist history.
 
-Zen Lineage maps the dharma transmission lineages connecting Buddhist masters
-from Shakyamuni Buddha through Bodhidharma to modern teachers. All content
-requires item-level citations from scholarly sources before publication.
+Zen Lineage maps teacher–student relationships connecting Buddhist masters
+from Shakyamuni Buddha through Bodhidharma to modern teachers. The site
+records citations and marks uncertain lineage links for further review.
 
-Generated: 2026-08-17
+Generated: 2026-10-07
 
 ---
 
@@ -7583,7 +7583,6 @@ In the beginner's mind there are many possibilities, but in the expert's mind th
 
 ### Chop Wood, Carry Water
 
-- **Attribution:** Bodhidharma
 - **Type:** proverb
 
 Before enlightenment, chop wood, carry water. After enlightenment, chop wood, carry water.

@@ -223,6 +223,15 @@ const SOURCES = [
     reliability: "secondary",
   },
   {
+    id: "src_zen_forest",
+    type: "book",
+    title: "A Zen Forest: Sayings of the Masters",
+    author: "Sōiku Shigematsu (compiler and translator)",
+    url: "https://ndlsearch.ndl.go.jp/books/R100000002-I000001548504",
+    publicationDate: "1981",
+    reliability: "secondary",
+  },
+  {
     id: "src_dumoulin_india_china",
     type: "book",
     title: "Zen Buddhism: A History, Volume 1 — India and China",

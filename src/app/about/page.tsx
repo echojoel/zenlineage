@@ -90,7 +90,6 @@ const articleJsonLd = {
     name: "Zen Lineage",
     url: "https://zenlineage.org",
   },
-  datePublished: "2025-01-01",
   inLanguage: "en",
 };
 
@@ -104,12 +103,14 @@ const breadcrumbJsonLd = {
 };
 
 export default async function AboutPage() {
-  const [masterRow, countryRows] = await Promise.all([
+  const [masterRow, countryRows, templeRow] = await Promise.all([
     db.select({ count: sql<number>`count(*)` }).from(masters).where(eq(masters.published, true)),
     db.selectDistinct({ country: temples.country }).from(temples),
+    db.select({ count: sql<number>`count(*)` }).from(temples),
   ]);
   const masterCount = masterRow[0]?.count ?? 0;
   const countryCount = countryRows.filter((r) => r.country).length;
+  const templeCount = templeRow[0]?.count ?? 0;
 
   return (
     <main className="detail-page">
@@ -175,7 +176,7 @@ export default async function AboutPage() {
             <PathDoor
               eyebrow="History"
               title="The lineage graph"
-              lede={`A single navigable diagram of ${masterCount.toLocaleString("en-US")} masters across 2,500 years, from Shakyamuni Buddha through Bodhidharma to the contemporary teachers of Chan, Sŏn, Thiền, and Zen. Every other index on this site is a slice of this same graph — the unique artefact you won't find elsewhere.`}
+              lede={`Explore connections among masters across 2,500 years, from Shakyamuni Buddha through Bodhidharma to modern teachers of Chan, Sŏn, Thiền, and Zen. Browse ${masterCount.toLocaleString("en-US")} published master profiles across the site.`}
               href="/lineage"
               glyph="禅"
               glyphLang="ja"
@@ -183,7 +184,7 @@ export default async function AboutPage() {
             <PathDoor
               eyebrow="Practice"
               title="Find a hall"
-              lede={`1,650+ practice centres mapped across ${countryCount}+ countries — Sōtō, Rinzai, Plum Village, Kwan Um, Order of Buddhist Contemplatives, and more. Search by tradition, by country, by language.`}
+              lede={`${templeCount.toLocaleString("en-US")} listed practice centres across ${countryCount} countries — Sōtō, Rinzai, Plum Village, Kwan Um, Order of Buddhist Contemplatives, and more. Search by tradition, country, or language.`}
               href="/practice"
               glyph="坐"
               glyphLang="ja"
@@ -191,7 +192,7 @@ export default async function AboutPage() {
             <PathDoor
               eyebrow="Texts"
               title="Read the sūtras"
-              lede="Heart, Diamond, Platform, and Lotus — read in English, Sanskrit, Chinese, the Sino-Japanese chant, French, and German, side-by-side, with audio recordings of the Hannya Shingyō. Every translation public-domain."
+              lede="Heart, Diamond, Platform, and Lotus — read available editions side by side in English, Sanskrit, Chinese, the Sino-Japanese chant, French, and German. The Heart Sūtra includes a recording of the Hannya Shingyō. Editions are public domain or offered under a Creative Commons licence."
               href="/sutras"
               glyph="心"
               glyphLang="zh"
@@ -242,13 +243,13 @@ export default async function AboutPage() {
               <em>Zen Buddhism: A History, Vol. 1</em>, 2005, pp. 9&ndash;13).
             </p>
 
-            <h4 className="detail-subsection-title">One tradition, four schools, four names</h4>
+            <h4 className="detail-subsection-title">One family of traditions, four regional names</h4>
             <p>
               <strong>Chán</strong>, <strong>Seon</strong>, <strong>Thiền</strong>, and{" "}
-              <strong>Zen</strong> are the same tradition as it took root in China, Korea,
-              Vietnam, and Japan. The doctrinal core is identical: direct pointing at the mind,
-              transmission outside the scriptures, awakening as recognition of one&rsquo;s own
-              nature. What diverges is style. Chinese{" "}
+              <strong>Zen</strong> name related traditions as they took root in China, Korea,
+              Vietnam, and Japan. They share ideas about meditation, awakening, and the
+              teacher-student relationship, while their teachings and practices also differ.
+              Chinese{" "}
               <Link className="detail-inline-link" href="/schools">
                 Chán
               </Link>{" "}
@@ -361,8 +362,8 @@ export default async function AboutPage() {
           <h3 className="detail-section-title">Definition</h3>
           <div className="detail-summary">
             <p>
-              Zen is a school of Mahāyāna Buddhism that originated in China during the Tang dynasty
-              (618&ndash;907 CE) and subsequently spread to Korea, Japan, and Vietnam. It emphasises
+              Chan developed in China and flourished during the Tang dynasty
+              (618&ndash;907 CE), later spreading to Korea, Vietnam, and Japan. It emphasises
               meditation practice (<em>zuòchán</em> / <em>zazen</em>) and direct, experiential
               insight into one&rsquo;s own nature (<em>jiànxìng</em> 見性, Japanese <em>kenshō</em>)
               as the primary path to awakening, rather than sole reliance on doctrinal study or
@@ -427,8 +428,7 @@ export default async function AboutPage() {
               &ldquo;sitting dhyāna&rdquo;). In the Sōtō school, this takes the form of{" "}
               <em>shikantaza</em>
               (&ldquo;just sitting&rdquo;), a practice of objectless awareness in which the
-              practitioner sits upright, following the breath without pursuing or suppressing
-              thoughts.{" "}
+              practitioner sits upright without pursuing or suppressing thoughts.{" "}
               <Link className="detail-inline-link" href="/masters/dogen">
                 Dōgen Zenji
               </Link>{" "}
@@ -633,7 +633,7 @@ export default async function AboutPage() {
           <h3 className="detail-section-title">Historical Development</h3>
           <div className="detail-summary">
             <p>
-              Zen&rsquo;s lineage stretches from fifth-century India, through Tang-dynasty China,
+              Zen&rsquo;s traditional lineage begins with the Buddha in ancient India, passes through Tang-dynasty China,
               and onward into Korea (as <em>Seon</em>), Japan (as <em>Zen</em>), Vietnam (as{" "}
               <em>Thiền</em>), and &mdash; over the past century &mdash; the rest of the world. The
               tradition frames itself as a mind-to-mind transmission running from the historical
@@ -665,8 +665,8 @@ export default async function AboutPage() {
                 Thích Nhất Hạnh
               </Link>{" "}
               (1926&ndash;2022), who founded Plum Village in the Dordogne in 1982 and reformulated
-              practice as &ldquo;engaged Buddhism&rdquo; &mdash; the same zazen, recast as
-              mindful daily action in the world.
+              practice through engaged Buddhism, bringing mindfulness and compassionate
+              action into daily life.
             </p>
             <figure className="about-figure">
               <Image

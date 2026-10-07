@@ -228,7 +228,7 @@ export const TIMELINE_ERAS: TimelineEra[] = [
     yearStart: -500,
     yearEnd: 500,
     introduction:
-      "The Zen tradition traces its lineage to Shakyamuni Buddha and the wordless transmission to Mahakashyapa — a founding narrative that, while largely legendary, established the principle of mind-to-mind awakening outside scripture.[1]\n\nThrough twenty-eight Indian patriarchs the dharma moved westward, culminating in Bodhidharma's crossing to China.[2]",
+      "The Zen tradition traces its lineage to Shakyamuni Buddha and the wordless transmission to Mahakashyapa — a founding narrative that, while largely legendary, established the principle of mind-to-mind awakening outside scripture.[1]\n\nIn the traditional account, the dharma passed through twenty-eight Indian patriarchs before Bodhidharma travelled east to China.[2]",
     citations: [
       { index: 1, key: "dumoulin-china", pages: "pp. 7–29" },
       { index: 2, key: "mcrae", pages: "pp. 1–21" },

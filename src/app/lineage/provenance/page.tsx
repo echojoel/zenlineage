@@ -48,17 +48,17 @@ interface GraphData {
 // ---------------------------------------------------------------------------
 
 const TIER_LABEL: Record<string, string> = {
-  A: "Tier A — Primary source",
-  B: "Tier B — Secondary source",
-  C: "Tier C — Tertiary / indirect",
-  D: "Tier D — Unverified / imported",
+  A: "Tier A — Institutional and corroborated",
+  B: "Tier B — Independently corroborated",
+  C: "Tier C — Limited corroboration",
+  D: "Tier D — No accepted evidence",
 };
 
 const TIER_BLURB: Record<string, string> = {
-  A: "At least one contemporary or near-contemporary primary source names the transmission directly — for example a deed of succession (shihōjō), an official lineage register, or a first-hand account by the student or a close disciple.",
-  B: "The transmission is attested in a reputable secondary scholarly work — monographs, peer-reviewed articles, or well-sourced encyclopaedias — but no primary deed has been located or digitised.",
-  C: "The edge rests on a tertiary source (encyclopedia entry, survey text, or aggregated lineage chart) or on indirect evidence such as the master being listed as a dharma heir without further detail. Treat with appropriate scepticism.",
-  D: "No source record has been entered yet. The edge was imported from the canonical dataset but has not yet been audited. Contributions and corrections are welcome.",
+  A: "At least one institutional source and corroboration from an independent source. This grade records the mix of sources in the evidence file; it does not by itself establish that a contemporary primary document survives.",
+  B: "At least two independent sources, including an academic or institutional source, without meeting the Tier A criterion.",
+  C: "At least one accepted academic, institutional, sangha, or reference source supports the connection, without enough independent sources for Tier B. Further corroboration would strengthen it.",
+  D: "No accepted academic, institutional, sangha, or reference source is recorded for this edge. Contributions and corrections are welcome.",
 };
 
 // ---------------------------------------------------------------------------
@@ -122,10 +122,10 @@ export default function ProvenancePage() {
           <p className="detail-eyebrow">Source quality</p>
           <h2 className="detail-title">Transmission provenance</h2>
           <p className="detail-subtitle">
-            Every dharma-transmission edge in the lineage graph — {totalEdges} in
+            Every teacher–student edge in the lineage graph — {totalEdges} in
             total — is graded A through D according to how well it is documented.
-            Tier A rests on primary sources; Tier D marks edges imported without
-            a source record. Use this index to find under-documented transmissions
+            Tier A has institutional and independent support; Tier D marks edges
+            without accepted evidence. Use this index to find under-documented transmissions
             or to check the evidence behind any specific connection.
           </p>
         </section>
@@ -133,8 +133,8 @@ export default function ProvenancePage() {
         <section className="detail-card" id="methodology">
           <h2 className="detail-section-title">Methodology</h2>
           <p className="detail-muted" style={{ marginBottom: "0.75rem" }}>
-            This site is built so every link on the lineage graph can be
-            defended with a quotable, classified source.
+            This site records the available evidence for links on the lineage graph
+            and shows where further verification is needed.
           </p>
           <p className="detail-muted" style={{ marginBottom: "0.75rem" }}>
             <strong>Sources are classified by domain.</strong>{" "}
@@ -154,7 +154,7 @@ export default function ProvenancePage() {
             independent corroboration.{" "}
             <strong>B</strong> = two or more independent sources, at least
             one of which is academic or institutional.{" "}
-            <strong>C</strong> = one credible source.{" "}
+            <strong>C</strong> = at least one credible source without enough independent corroboration for Tier B.{" "}
             <strong>D</strong> = no evidence file, or sources we cannot
             stand behind. Tier-D edges still render on the graph, but with
             a <span aria-hidden>?</span> glyph at the midpoint — visible

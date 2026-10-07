@@ -132,6 +132,10 @@ async function main() {
   // -------------------------------------------------------------------------
 
   const allCitationKeys = buildCitationKeySet([...bioCitationRows, ...teachingCitationRows]);
+  const publishedTeachings = teachingsData.filter((t) => isPublishedTeaching(t, allCitationKeys));
+  const graph = JSON.parse(
+    fs.readFileSync(path.join(process.cwd(), "public", "data", "graph.json"), "utf8")
+  ) as { edges: unknown[] };
 
   // Master primary name (dharma > any)
   const primaryNameMap = new Map<string, string>();
@@ -222,23 +226,17 @@ async function main() {
 
   const lines: string[] = [];
 
-  // Round-down hundreds for "X+" labels so the count rolls forward as the
-  // dataset grows, but the published number stays a stable lower bound.
-  const masterFloor = Math.floor(mastersData.length / 5) * 5;
-  const transmissionFloor = Math.floor(transmissionsData.length / 10) * 10;
-  const teachingFloor = Math.floor(teachingsData.length / 5) * 5;
-
   lines.push("# Zen Lineage — Complete Reference");
   lines.push("");
-  lines.push(`> An open-source interactive encyclopedia of Zen Buddhism covering ${masterFloor}+ masters,`);
+  lines.push(`> An open-source interactive encyclopedia of Zen Buddhism covering ${mastersData.length} published master profiles,`);
   lines.push(
-    `> ${schoolsData.length} schools, ${transmissionFloor}+ lineage transmissions, ${teachingFloor}+ teachings, and 1,700+ scholarly`
+    `> ${schoolsData.length} schools, ${graph.edges.length} teacher–student links in the published graph, and ${publishedTeachings.length} cited teachings`
   );
-  lines.push("> citations across 2,500 years of Chan, Zen, Seon, and Thien Buddhist history.");
+  lines.push("> across 2,500 years of Chán, Zen, Sŏn, and Thiền Buddhist history.");
   lines.push("");
-  lines.push("Zen Lineage maps the dharma transmission lineages connecting Buddhist masters");
-  lines.push("from Shakyamuni Buddha through Bodhidharma to modern teachers. All content");
-  lines.push("requires item-level citations from scholarly sources before publication.");
+  lines.push("Zen Lineage maps teacher–student relationships connecting Buddhist masters");
+  lines.push("from Shakyamuni Buddha through Bodhidharma to modern teachers. The site");
+  lines.push("records citations and marks uncertain lineage links for further review.");
   lines.push("");
   lines.push(`Generated: ${new Date().toISOString().slice(0, 10)}`);
   lines.push("");
@@ -325,8 +323,6 @@ async function main() {
   // -------------------------------------------------------------------------
   // 4c. Teachings & Proverbs
   // -------------------------------------------------------------------------
-
-  const publishedTeachings = teachingsData.filter((t) => isPublishedTeaching(t, allCitationKeys));
 
   if (publishedTeachings.length > 0) {
     lines.push("---");

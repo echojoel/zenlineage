@@ -6,7 +6,7 @@
  * pulling in the database client.
  */
 
-import { eq } from "drizzle-orm";
+import { and, eq } from "drizzle-orm";
 import { db } from "@/db";
 import { masterNames, masters } from "@/db/schema";
 import type { LinkTerm } from "./linkify-mentions";
@@ -47,7 +47,7 @@ export async function loadMasterLinkTerms(opts?: {
     })
     .from(masterNames)
     .innerJoin(masters, eq(masters.id, masterNames.masterId))
-    .where(eq(masterNames.locale, "en"));
+    .where(and(eq(masterNames.locale, "en"), eq(masters.published, true)));
 
   const bestBySlug = new Map<string, { value: string; rank: number }>();
   for (const row of rows) {

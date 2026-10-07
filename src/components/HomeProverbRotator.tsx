@@ -24,7 +24,7 @@ function buildFeatureItems(s: RotatorStats): RotatorItem[] {
   return [
     {
       title: "Lineage",
-      content: `${n(s.transmissions)} dharma transmissions — from Śākyamuni Buddha through the Tang dynasty masters to teachers alive today.`,
+      content: `${n(s.transmissions)} teacher–student connections in the published graph, from Śākyamuni Buddha through the Tang dynasty to modern teachers.`,
       attribution: "Explore the lineage graph →",
       href: "/lineage",
     },
@@ -36,13 +36,13 @@ function buildFeatureItems(s: RotatorStats): RotatorItem[] {
     },
     {
       title: "Practice centers",
-      content: `${n(s.temples)} active dōjō, monasteries, and sanghas across ${n(s.countries)} countries.`,
+      content: `${n(s.temples)} listed dōjō, monasteries, and sanghas across ${n(s.countries)} countries.`,
       attribution: "Find a place to sit →",
       href: "/practice",
     },
     {
       title: "Masters",
-      content: `${n(s.masters)} teachers. ${n(s.schools)} schools. 2,500 years of Chan and Zen history, with sourced biographies and portraits.`,
+      content: `${n(s.masters)} teachers. ${n(s.schools)} schools. 2,500 years of Chan and Zen history, with sourced biographies and images.`,
       attribution: "Browse the masters →",
       href: "/masters",
     },
