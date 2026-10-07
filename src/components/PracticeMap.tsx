@@ -29,13 +29,12 @@ interface TempleFeature {
   country: string | null;
   foundedYear: number | null;
   foundedPrecision: string | null;
-  status: string | null;
   schoolSlug: string | null;
   schoolName: string | null;
   schoolColor: string;
   founderSlug: string | null;
   founderName: string | null;
-  /** Place's own website — preferred link surface. */
+  /** Place website or third-party listing — preferred link surface. */
   url: string | null;
   /** Directory/source URL (SOTOZEN Europe, AZI, Wikipedia, etc.) used
    * as the popup's secondary link when a place has no website of its
@@ -501,14 +500,14 @@ function renderPopupHTML(p: Record<string, unknown>): string {
   const founderSlug = p.founderSlug ? escapeHtml(p.founderSlug) : null;
   const founderName = p.founderName ? escapeHtml(p.founderName) : null;
 
-  // Prefer the place's own website; fall back to the authoritative
-  // directory that lists it (SOTOZEN Europe, AZI, Wikipedia, etc.).
-  const officialUrl = safeExternalUrl(p.url);
+  // The primary URL can be the group's site or a third-party listing.
+  // Do not present it as an official site without checking its ownership.
+  const listingUrl = safeExternalUrl(p.url);
   const sourceUrl = safeExternalUrl(p.sourceUrl);
   const sourceTitle = typeof p.sourceTitle === "string" ? p.sourceTitle : null;
   let linkRow = "";
-  if (officialUrl) {
-    linkRow = `<p class="practice-map-popup-link"><a href="${escapeHtml(officialUrl)}" target="_blank" rel="noopener noreferrer">Official website ↗</a></p>`;
+  if (listingUrl) {
+    linkRow = `<p class="practice-map-popup-link"><a href="${escapeHtml(listingUrl)}" target="_blank" rel="noopener noreferrer">Website or listing ↗</a></p>`;
   } else if (sourceUrl) {
     // Show *which* directory we're linking to, not a generic label, so
     // practitioners know whether they're heading to Sōtōshū, AZI, etc.

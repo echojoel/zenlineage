@@ -40,8 +40,8 @@ interface RawPlace {
   region: string;
   lineage: string;
   address: string | null;
-  /** The place's own site. Null when it publishes none — several sanghas
-   * are listed only through a directory or a contact email. */
+  /** Preferred visitor link. Some raw entries use a third-party directory;
+   * null means the source listing is the only available link. */
   url: string | null;
   source_url: string;
   notes?: string;

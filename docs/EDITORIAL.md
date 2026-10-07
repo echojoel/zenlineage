@@ -248,6 +248,11 @@ records, not a set of endorsements. Use
 find entries with obvious evidence gaps. A missing source is a prompt to check,
 not a judgment about an organization.
 
+An optional link-health pass is:
+`python3 scripts/check-practice-links.py --output /tmp/practice-links.csv`.
+Then pass `--links /tmp/practice-links.csv` to the review-queue script.
+HTTP errors are clues to investigate; some sites block automated requests.
+
 The public GitHub issue form is for factual corrections. Use the private form
 for sensitive reports once it is active.
 

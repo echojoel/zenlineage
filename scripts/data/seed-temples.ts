@@ -35,10 +35,9 @@ export interface TempleSeed {
   sourceId: string;
   /** Short citation excerpt from the source. */
   sourceExcerpt: string;
-  /** Official website — practitioners looking for practice details, schedules,
-   * or retreat signups follow this link. Must resolve to a page the place
-   * itself maintains (sangha / temple / dōjō), not a third-party directory.
-   * Omit when no canonical site is known. */
+  /** Website or listing that helps visitors find current details. Some
+   * existing records point to third-party directories or encyclopedias;
+   * never label this field as the place's official website without review. */
   url?: string;
   /**
    * What the pin actually means.
@@ -257,7 +256,7 @@ export const TEMPLE_SOURCES: {
   type: string;
   title: string;
   author: string;
-  url: string;
+  url: string | null;
   publicationDate: string;
   reliability: string;
 }[] = [
@@ -683,10 +682,10 @@ export const TEMPLE_SOURCES: {
     },
     {
       id: SRC_EU_ZEN_RESEARCH,
-      type: "website",
-      title: "European Zen places research bundle (2026-05-05)",
+      type: "editorial",
+      title: "European Zen places research notes (2026-05-05)",
       author: "zenlineage.org research",
-      url: "https://zenlineage.org/practice",
+      url: null,
       publicationDate: "2026",
       reliability: "popular",
     },
@@ -750,10 +749,10 @@ export const TEMPLE_SOURCES: {
     },
     {
       id: SRC_GLOBAL_ZEN_RESEARCH,
-      type: "website",
-      title: "Global Zen practice-centre research bundle (2026-05-06)",
+      type: "editorial",
+      title: "Global Zen practice-centre research notes (2026-05-06)",
       author: "zenlineage.org research",
-      url: "https://zenlineage.org/practice",
+      url: null,
       publicationDate: "2026",
       reliability: "popular",
     },

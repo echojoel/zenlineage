@@ -962,7 +962,7 @@ async function main() {
     )})`
   );
   printMetric(
-    "With official URL",
+    "With website/listing URL",
     `${withUrl.length} / ${templeRows.length} (${formatPercent(
       withUrl.length,
       templeRows.length

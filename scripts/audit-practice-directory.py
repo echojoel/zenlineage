@@ -5,6 +5,7 @@ Usage: python3 scripts/audit-practice-directory.py > /tmp/practice-review.csv
 The queue identifies missing evidence; it makes no judgment about a group.
 """
 
+import argparse
 import csv
 import sqlite3
 import sys
@@ -15,8 +16,16 @@ DATABASE = Path(__file__).resolve().parents[1] / "zen.db"
 
 
 def main() -> None:
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--links", type=Path, help="CSV from check-practice-links.py")
+    args = parser.parse_args()
     if not DATABASE.exists():
         raise SystemExit(f"Missing {DATABASE}; run the seed pipeline first")
+
+    link_results = {}
+    if args.links:
+        with args.links.open(newline="") as stream:
+            link_results = {row["url"]: row for row in csv.DictReader(stream)}
 
     connection = sqlite3.connect(f"file:{DATABASE}?mode=ro", uri=True)
     connection.row_factory = sqlite3.Row
@@ -43,15 +52,18 @@ def main() -> None:
     for row in rows:
         reasons = []
         if not row["url"]:
-            reasons.append("no_place_website")
+            reasons.append("no_preferred_url")
         if row["citation_count"] == 0:
             reasons.append("no_citation")
         elif row["source_classes"] == "popular":
             reasons.append("popular_source_only")
+        link = link_results.get(row["url"]) if row["url"] else None
+        if link and link["category"] == "missing":
+            reasons.append("listed_url_returns_404_or_410")
         priority = (
             "check_first"
             if any(reason in reasons for reason in (
-                "no_place_website", "no_citation", "popular_source_only"
+                "no_preferred_url", "no_citation", "popular_source_only", "listed_url_returns_404_or_410"
             ))
             else "routine"
         )
@@ -64,6 +76,7 @@ def main() -> None:
             "region": row["region"],
             "status": row["status"],
             "place_url": row["url"],
+            "link_result": link["category"] if link else "not_checked",
             "source_urls": row["source_urls"],
             "source_classes": row["source_classes"],
             "cited_fields": row["cited_fields"],

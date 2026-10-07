@@ -157,7 +157,8 @@ Image **provenance rules:**
   `entity_type`. The seed-db reset is responsible for clearing dangling
   citations for any entity it wipes.
 - Every temple has a `url` field; the `/practice` popup always offers a
-  link, either to the temple's own site or to the directory that lists it.
+  website or directory link. Do not label an unreviewed `url` as official:
+  some entries point to Wikipedia or third-party directories.
 - The public `/lineage` graph must have exactly one topological root —
   `shakyamuni-buddha`. Masters not reachable from that root through
   transmission edges are excluded from the graph (and printed in the

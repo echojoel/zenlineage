@@ -113,12 +113,11 @@ describe("SEED_TEMPLES invariants", () => {
   it("every temple gives the popup a link to offer", () => {
     // The invariant practitioners actually depend on is that no marker is a
     // dead end — CLAUDE.md states it as "the /practice popup always offers a
-    // link, either to the temple's own site or to the directory that lists
-    // it". `url` carries the first, `sourceId` the second, and
+    // link, either to a website or to the directory that lists it".
+    // `url` carries the preferred link, `sourceId` the fallback, and
     // renderPopupHTML falls back from one to the other.
     //
-    // So `url` may be absent: TempleSeed documents it as "omit when no
-    // canonical site is known", and a good number of sanghas — village
+    // So `url` may be absent: a good number of sanghas — village
     // temples in Jiangxi, AZI groups in Maracaibo — are listed only through
     // a directory or a contact email. Requiring a URL for those would push
     // whoever adds them into inventing one, which is how a temple ends up
