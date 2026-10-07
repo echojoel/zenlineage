@@ -1202,6 +1202,51 @@ body {
   letter-spacing: 0.04em;
 }
 
+.safeguarding-form {
+  display: grid;
+  gap: 0.7rem;
+  max-width: 38rem;
+}
+
+.safeguarding-form label {
+  margin-top: 0.7rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.safeguarding-form input,
+.safeguarding-form textarea {
+  width: 100%;
+  padding: 0.7rem;
+  border: 1px solid var(--ink-light);
+  border-radius: 3px;
+  color: var(--ink);
+  background: var(--paper);
+  font: inherit;
+}
+
+.safeguarding-form textarea {
+  resize: vertical;
+}
+
+.safeguarding-form button {
+  justify-self: start;
+  cursor: pointer;
+}
+
+.safeguarding-form button:disabled {
+  cursor: wait;
+  opacity: 0.65;
+}
+
+.safeguarding-honeypot {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+}
+
 .detail-native-names {
   margin: 0.5rem 0 0;
   font-family: var(--font-cormorant), Georgia, serif;

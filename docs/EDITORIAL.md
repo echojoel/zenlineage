@@ -218,3 +218,69 @@ Categories reported:
 The site is built in public and open to correction. Readers will email.
 Log their corrections against the record and cite the correspondence where
 useful.
+
+## 9. Practice directory admission and review
+
+The practice map is a directory of places, not a certification of teachers or
+an assurance of safety. A coordinate citation establishes only the cited
+location claim. It does not establish current activity, affiliation, or
+safeguarding. Do not call an organization fraudulent or unsafe because its
+record lacks evidence.
+
+Before newly admitting a current practice group or recommending an existing
+one, record evidence for each of these separate claims:
+
+1. **Identity and activity:** a current page or direct confirmation identifies
+   the group, contact route, and how to join practice. Record the check date.
+2. **Affiliation and lineage:** verify any claimed affiliation against the
+   named institution's directory or direct confirmation. If independent, say
+   so and document the teacher's stated training without inventing a formal
+   transmission. Independent lay groups are eligible when described honestly.
+3. **Location:** cite the address or label a city-level marker as approximate.
+   Online-only groups must not receive a physical pin.
+4. **Safeguarding:** locate the group's written conduct policy and a grievance
+   route that does not depend solely on the person complained about. Record
+   both sources and the check date. If either cannot be verified, do not admit
+   or recommend the group. A policy's existence does not prove that conduct is
+   safe.
+
+Keep the evidence URLs and excerpts, reviewer identity, review date, and next
+review date with the editorial record. Two human reviewers must approve both
+new directory admission and recommendation. Recheck current activity and
+contact details at least every 12 months and immediately when a credible
+correction arrives. A first-party source can establish the group's own
+identity, activity, and published safeguarding provisions. Claimed affiliation
+requires confirmation from the named institution; describe self-reported
+training as such. Do not treat an AI summary, Wikipedia entry, or directory
+pin as verification of all four claims.
+
+An unresolved evidence gap means **unreviewed**, not approved. Do not add new
+unreviewed groups to practice recommendations. The existing map predates this
+policy; its entries may remain sourced location records but must not be marked
+as reviewed or recommended until individually approved. Do not expand the
+directory until the admission gate is enforced in code. Use
+`python3 scripts/audit-practice-directory.py > /tmp/practice-review.csv` to
+produce the deterministic queue. Its priority flags identify missing evidence,
+not misconduct.
+
+Provide a private reporting route before publishing approved recommendations;
+the public GitHub issue form is for factual corrections, not sensitive reports.
+For a safeguarding report with specific, assessable information, pause
+recommendation while two reviewers assess the evidence. Document the reasons
+for pausing and require both reviewers to approve restoration with supporting
+evidence. Keep private reports confidential, distinguish allegations from
+findings, and provide a route for correction or appeal. Public wording must
+describe only what can be supported and must never claim that a group has been
+certified safe.
+
+### Model-assisted review budget
+
+Generate the queue with the local audit script; it requires no model calls.
+For batches of at most ten records, give GPT-6 Luna only the existing record
+and ask it to extract missing fields and source URLs. Give GPT-6.1 Sol only
+the specific claims and source excerpts to draft an evidence assessment.
+Reserve GPT-6 Astra for genuinely conflicting evidence. Keep each model run
+read-only, time-limited, and confined to the supplied batch; record token use
+and stop if a run begins reading unrelated files. Model output is a reviewer
+worksheet, not a publication decision. Two humans still approve every
+admission or recommendation.

@@ -110,12 +110,17 @@ export default async function PracticePage() {
       <div className="detail-layout detail-layout--practice">
         <section className="detail-hero" style={{ paddingBottom: "1rem" }}>
           <p className="detail-eyebrow">Places of practice</p>
-          <h2 className="detail-title">Where to sit</h2>
+          <h2 className="detail-title">Practice directory</h2>
           <p className="detail-subtitle">
             Temples, zendōs, seonbangs, and Thiền centers around the world.
           </p>
           <p className="detail-page-note">
-            Corrections welcome —{" "}
+            Map entries are sourced location records, not endorsements. We are
+            reviewing current activity, lineage claims, and safeguarding
+            information. Check a group’s own details before visiting.
+          </p>
+          <p className="detail-page-note">
+            Factual corrections welcome —{" "}
             <a
               href="https://github.com/echojoel/zenlineage/issues/new?labels=data-correction&title=Correction:%20temple/"
               className="detail-inline-link"
@@ -126,6 +131,15 @@ export default async function PracticePage() {
             </a>
             .
           </p>
+          {process.env.NEXT_PUBLIC_SAFEGUARDING_FORM_ENABLED === "1" && (
+            <p className="detail-page-note">
+              For a sensitive concern, use the{" "}
+              <Link href="/safeguarding-report" className="detail-inline-link">
+                private reporting form
+              </Link>
+              .
+            </p>
+          )}
         </section>
 
         {totalTemples > 0 ? (
