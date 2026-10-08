@@ -9,27 +9,27 @@ establish a group's current activity, lineage, or safeguarding.
 
 | Check | Result |
 |---|---:|
-| Place records | 1,619 |
-| Distinct preferred URLs checked | 1,345 |
-| URLs returning 2xx/3xx | 1,160 (used by 1,423 records) |
+| Place records | 1,617 |
+| Distinct preferred URLs checked | 1,346 |
+| URLs returning 2xx/3xx | 1,165 (used by 1,425 records) |
 | URLs returning 404/410 | 2 (used by 2 records) |
 | URLs blocked or rate limited | 20 (used by 21 records) |
-| URLs with inconclusive network/server results | 163 (used by 173 records) |
+| URLs with inconclusive network/server results | 159 (used by 169 records) |
 | Records with no preferred URL | 0 |
-| Records with only a `popular`-class citation | 198 |
-| Records needing an item-level check because their sole citation is broad | 34 |
-| Records queued to check first (overlapping signals combined) | 234 |
-| City-level, approximate map pins | 821 |
+| Records with only a `popular`-class citation | 157 |
+| Records needing an item-level check because their sole citation is broad | 21 |
+| Records queued to check first (overlapping signals combined) | 180 |
+| City-level, approximate map pins | 817 |
 
 Every remaining place has exactly one citation, currently attached to `coordinates`.
 That citation alone cannot establish affiliation, an active schedule, or a
-safeguarding process. The seed labels all 1,619 places `active`, but it has no
+safeguarding process. The seed labels all 1,617 places `active`, but it has no
 per-place last-checked date. The public map and exported JSON no longer expose
 that seed status as a verified claim.
 
-The 34 broad-page citations comprise 31 rows citing Plum Village's
+The 21 broad-page citations comprise 14 rows citing Plum Village's
 [monastic centres page](https://plumvillage.org/community/monastic-practice-centres)
-and 3 citing the [White Plum founder page](https://whiteplum.org/founder/).
+and 7 citing the [White Plum founder page](https://whiteplum.org/founder/).
 Those pages do not individually support all the lay groups assigned to them.
 The review queue now flags each for a direct group or institutional listing.
 This is a limitation of our citations, not a claim that any group has doubtful
@@ -274,7 +274,7 @@ Batch 23 replaced popular-only citations for 42 records in South Korea, Germany,
 
 ## Next review work
 
-Start with the 2 records whose preferred URL returned 404/410. Then review the 198 `popular`-only citations and 34
+Start with the 2 records whose preferred URL returned 404/410. Then review the 157 `popular`-only citations and 21
 broad-page citations against direct group or institutional pages. For each correction, update
 the canonical seed or raw place data, cite the direct source, and rerun the
 seed and audit. Do not infer misconduct from missing websites or policies.
@@ -285,3 +285,9 @@ To reproduce the URL and priority reports locally:
 python3 scripts/check-practice-links.py --output /tmp/practice-links.csv
 python3 scripts/audit-practice-directory.py --links /tmp/practice-links.csv > /tmp/practice-review.csv
 ```
+
+Batch 24 reviewed 17 French Plum Village community records that had relied on the broad monastic-centres page. Fifteen retained records now cite the 8 June 2025 French-speaking sangha roster at the individual group level, with corrected regional identities for the Ardèche, Bayonne/Côte Basque, the Île Intérieure network, and other listed communities. The roster does not provide dependable current schedules or fixed public venues, so these remain explicitly unverified and pins stay at city precision. Vannes and Poitiers were removed from the current-practice map because the roster explicitly marks them paused; this is a status decision, not evidence of closure or misconduct. See `scripts/data/raw/france-batch24-2026-10-08.md` for the evidence map.
+
+Batch 24 also replaced broad or popular citations for 30 records in Italy, the Netherlands, and South Korea. Direct center, lineage-network, Korean Tourism Organization, municipal, and Jogye Order sources corrected names, venues, lineages, and visitor context. Korean descriptions now separate historic or institutional Seon identity, templestay access, and public visitor information from a verified recurring meditation schedule. No organization was removed on the basis of missing information.
+
+Batch 25 reviewed 45 further records across Germany, South Korea, Spain, and the United Kingdom. Direct organization and institutional pages corrected current identities and venues, including Zen Dojo Berlin, Zen-Dôjô Hôkyô, Korean visitor and monastic institutions, Spanish practice centers, and British Serene Reflection and OBC groups. The records use narrow claims where sources establish heritage, monastic training, or visitor programming without a recurring public Zen schedule. The combined priority queue fell from 234 to 180 records. Evidence maps are stored with the canonical raw data.

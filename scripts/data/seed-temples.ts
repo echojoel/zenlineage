@@ -281,6 +281,21 @@ export const SRC_KTO_SILSANGSA = "src_kto_silsangsa";
 export const SRC_KTO_SANGWONSA = "src_kto_sangwonsa";
 export const SRC_KTO_SEONAMSA = "src_kto_seonamsa";
 export const SRC_KTO_JOGYESA = "src_kto_jogyesa";
+export const SRC_KTO_SUDEOKSA = "src_kto_sudeoksa";
+export const SRC_KTO_DONGHWASA = "src_kto_donghwasa";
+export const SRC_KTO_SSANGGYE_SA = "src_kto_ssanggyesa";
+export const SRC_KTO_YONGJUSA = "src_kto_yongjusa";
+export const SRC_KTO_SINHEUNGSA = "src_kto_sinheungsa";
+export const SRC_KTO_JIKJISA = "src_kto_jikjisa";
+export const SRC_KTO_EUNHAESA = "src_kto_eunhaesa";
+export const SRC_KTO_BULGUKSA_OFFICIAL = "src_kto_bulguksa_official";
+export const SRC_KTO_GOUNSA = "src_kto_gounsa";
+export const SRC_KTO_GEUMSANSA = "src_kto_geumsansa";
+export const SRC_KTO_HWAEOMSA = "src_kto_hwaeomsa";
+export const SRC_NYJ_BONGSEONSA = "src_nyj_bongseonsa";
+export const SRC_JOGYE_BONGAMSA = "src_jogye_bongamsa";
+export const SRC_KTO_BONGWONSA = "src_kto_bongwonsa";
+export const SRC_KTO_JEONDEUNGSA = "src_kto_jeondeungsa";
 
 // ─── Catch-all for the long tail of small directory citations ──────────
 /** EU Zen places research bundle — generic citation source for entries
@@ -549,6 +564,14 @@ export const SRC_DAISEN = "src_daisen";
 export const SRC_ZEN_DOGEN_BELGIUM = "src_zen_dogen_belgium";
 export const SRC_GYOJI = "src_gyoji";
 export const SRC_EISHOJI = "src_eishoji";
+export const SRC_GYOSHO_IT = "src_gyosho_it";
+export const SRC_TENSHIN_IT = "src_tenshin_it";
+export const SRC_ZENSHINJI_IT = "src_zenshinji_it";
+export const SRC_ZENTRUM_NL = "src_zentrum_nl";
+export const SRC_ZEN_NIJMEGEN = "src_zen_nijmegen";
+export const SRC_ZEN_BONN = "src_zen_bonn";
+export const SRC_SHOBOGENDO_DE = "src_shobogendo_de";
+export const SRC_ZEN_KREIS_HAMBURG = "src_zen_kreis_hamburg";
 export const SRC_VIA_ZEN_BR = "src_via_zen_br";
 export const SRC_ZENDO_CURITIBA = "src_zendo_curitiba";
 export const SRC_ATLANTIC_SOTO = "src_atlantic_soto";
@@ -1885,6 +1908,14 @@ export const TEMPLE_SOURCES: {
     { id: SRC_ZEN_DOGEN_BELGIUM, type: "website", title: "Zen Dogen Sangha Belgium — practice locations", author: "Zen Dogen Sangha Belgium", url: "https://www.zendogensangha.be/", publicationDate: "", reliability: "authoritative" },
     { id: SRC_GYOJI, type: "website", title: "Zendo Gyoji — practice and teachers", author: "Zendo Gyoji", url: "https://zenmeditatiehasselt.be/", publicationDate: "", reliability: "authoritative" },
     { id: SRC_EISHOJI, type: "website", title: "Eishoji Monastery — practice and access", author: "Mosteiro Zen Budista Eishoji", url: "https://www.mosteiroeishoji.org/mosteiro", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_GYOSHO_IT, type: "website", title: "Centro Zen Gyosho — Zen practice", author: "Centro Zen Gyosho", url: "https://www.centrogyosho.it/la-pratica-dello-zen/", publicationDate: "", reliability: "primary" },
+    { id: SRC_TENSHIN_IT, type: "website", title: "Tempio Zen Ten Shin — community and teachers", author: "Tempio Zen Ten Shin", url: "https://www.tenshin.it/il-tempio-zen-ten-shin/chi-siamo/", publicationDate: "", reliability: "primary" },
+    { id: SRC_ZENSHINJI_IT, type: "website", title: "Bukkosan Zenshinji — monastery and affiliated practice", author: "Bukkosan Zenshinji", url: "https://zenshinji.org/", publicationDate: "", reliability: "primary" },
+    { id: SRC_ZENTRUM_NL, type: "website", title: "Zentrum Utrecht — teachers and transmission", author: "Zentrum Utrecht", url: "https://zentrum.nl/leraren/", publicationDate: "", reliability: "primary" },
+    { id: SRC_ZEN_NIJMEGEN, type: "website", title: "Zen Centrum Nijmegen — contact and venues", author: "Zen Centrum Nijmegen", url: "https://zennijmegen.nl/contact/", publicationDate: "", reliability: "primary" },
+    { id: SRC_ZEN_BONN, type: "website", title: "Zen Dojo Bonn — venue and practice", author: "Zen Dojo Bonn", url: "https://www.zen-bonn.de/kontakt/", publicationDate: "", reliability: "primary" },
+    { id: SRC_SHOBOGENDO_DE, type: "website", title: "Zen Dojo Shobogendo — practice and teacher", author: "Zen Dojo Shobogendo", url: "https://www.shobogendo.de/", publicationDate: "", reliability: "primary" },
+    { id: SRC_ZEN_KREIS_HAMBURG, type: "website", title: "Zen-Kreis Hamburg — practice and lineage", author: "Zen-Kreis Hamburg", url: "https://zen-kreis-hamburg.de/", publicationDate: "", reliability: "primary" },
     { id: SRC_VIA_ZEN_BR, type: "website", title: "Via Zen Porto Alegre — practice and lineage", author: "Via Zen", url: "https://www.viazen.org.br/centro-de-pratica-porto-alegre", publicationDate: "", reliability: "authoritative" },
     { id: SRC_ZENDO_CURITIBA, type: "website", title: "Zendo Curitiba — practice and lineage", author: "Zendo Curitiba", url: "https://zendocuritiba.com.br/", publicationDate: "", reliability: "authoritative" },
     { id: SRC_ATLANTIC_SOTO, type: "website", title: "Silent Thunder Order — Atlantic Soto Zen", author: "Silent Thunder Order", url: "https://storder.org/centers/", publicationDate: "", reliability: "authoritative" },
@@ -1918,6 +1949,11 @@ export const TEMPLE_SOURCES: {
     { id: SRC_PLUIE_DHARMA, type: "website", title: "Pluie du Dharma — locations and practice", author: "Sangha Pluie du Dharma", url: "https://www.lapluiedudharma.fr/page-list/coordonnees", publicationDate: "", reliability: "authoritative" },
     { id: SRC_PLUIE_FLEURIT, type: "website", title: "Pluie qui Fleurit — Rouen sangha", author: "Sangha Pluie qui Fleurit", url: "https://www.pluiequifleurit.net/", publicationDate: "", reliability: "authoritative" },
     { id: SRC_ALSACE_RIVIERE, type: "website", title: "Rivière du Dharma — current practice", author: "Cœur des Sanghas Alsace", url: "https://sites.google.com/view/coeur-des-sanghas-alsace/les-sanghas/rivi%C3%A8re-du-dharma", publicationDate: "", reliability: "authoritative" },
+    { id: "src_camino_medio", type: "website", title: "Comunidad Soto Zen Camino Medio — practice locations, lineage and schedules", author: "Comunidad Soto Zen Camino Medio", url: "https://caminomedio.org/comunidad/", publicationDate: "2026", reliability: "primary" },
+    { id: "src_nalanda_centre", type: "website", title: "Centre Zen Nalanda — location, practice and Soto Zen lineage", author: "Associació Nalanda", url: "https://nalanda.cat/", publicationDate: "2026", reliability: "primary" },
+    { id: "src_cambridge_srm_group", type: "website", title: "Cambridge Serene Reflection Meditation Group — practice and OBC affiliation", author: "Cambridge Serene Reflection Meditation Group", url: "https://sites.google.com/site/cambsrmgroup/", publicationDate: "2026", reliability: "primary" },
+    { id: "src_lancaster_srm_group", type: "website", title: "Lancaster Serene Reflection Meditation Group — group identity and affiliation", author: "Lancaster Serene Reflection Meditation Group", url: "https://www.lancasterserenereflection.org.uk/", publicationDate: "", reliability: "primary" },
+    { id: "src_london_fgs", type: "website", title: "London Fo Guang Shan Temple — visitor location and hours", author: "International Buddhist Progress Society UK", url: "https://www.londonfgs.org.uk/where-to-find-us", publicationDate: "2025", reliability: "primary" },
     { id: SRC_UN_LOTUS_PERPIGNAN, type: "website", title: "Un Lotus s’épanouit — Perpignan sangha", author: "Un Lotus s’épanouit", url: "https://unlotussepanouitaperpignan.blogspot.com/", publicationDate: "", reliability: "authoritative" },
     { id: SRC_ZENCARE, type: "website", title: "New York Zen Center for Contemplative Care — lineage and practice", author: "New York Zen Center for Contemplative Care", url: "https://zencare.org/meditation-practice", publicationDate: "", reliability: "authoritative" },
     { id: SRC_STILL_MIND, type: "website", title: "Still Mind Zendo — lineage and schedule", author: "Still Mind Zendo", url: "https://www.stillmindzendo.org/meditation-schedule", publicationDate: "", reliability: "authoritative" },
@@ -2034,6 +2070,21 @@ export const TEMPLE_SOURCES: {
     { id: SRC_KTO_SANGWONSA, type: "website", title: "VisitKorea — Sangwonsa Temple", author: "Korea Tourism Organization", url: "https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=111277", publicationDate: "", reliability: "authoritative" },
     { id: SRC_KTO_SEONAMSA, type: "website", title: "VisitKorea — Seonamsa Temple", author: "Korea Tourism Organization", url: "https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?menuSn=351&vcontsId=110583", publicationDate: "", reliability: "authoritative" },
     { id: SRC_KTO_JOGYESA, type: "website", title: "VisitKorea — Jogyesa Temple", author: "Korea Tourism Organization", url: "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=111552", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_KTO_SUDEOKSA, type: "website", title: "Sudeoksa Temple", author: "Korea Tourism Organization", url: "https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=96644", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_KTO_DONGHWASA, type: "website", title: "Donghwasa Temple", author: "Korea Tourism Organization", url: "https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=110571", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_KTO_SSANGGYE_SA, type: "website", title: "Ssanggyesa Temple", author: "Korea Tourism Organization", url: "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=111834", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_KTO_YONGJUSA, type: "website", title: "Yongjusa Temple", author: "Korea Tourism Organization", url: "https://english.visitkorea.or.kr/svc/contents/contentsView.do?menuSn=351&vcontsId=95143", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_KTO_SINHEUNGSA, type: "website", title: "Sinheungsa Temple", author: "Korea Tourism Organization", url: "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=110707", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_KTO_JIKJISA, type: "website", title: "Jikjisa Temple", author: "Korea Tourism Organization", url: "https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=94392", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_KTO_EUNHAESA, type: "website", title: "Eunhaesa Temple", author: "Korea Tourism Organization", url: "https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=89729", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_KTO_BULGUKSA_OFFICIAL, type: "website", title: "Bulguksa Temple", author: "Korea Tourism Organization", url: "https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=94395", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_KTO_GOUNSA, type: "website", title: "Gounsa Temple", author: "Korea Tourism Organization", url: "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=90655", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_KTO_GEUMSANSA, type: "website", title: "Geumsansa Temple", author: "Korea Tourism Organization", url: "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=93836", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_KTO_HWAEOMSA, type: "website", title: "Hwaeomsa Temple", author: "Korea Tourism Organization", url: "https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=111755", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_NYJ_BONGSEONSA, type: "website", title: "Namyangju City — Bongseonsa Temple", author: "Namyangju City", url: "https://www.nyj.go.kr/eng/contents.do?key=4417", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_JOGYE_BONGAMSA, type: "website", title: "Jogye Order — Seon centers, including Bongamsa", author: "Jogye Order of Korean Buddhism", url: "https://jokb.org/bbs/content.php?co_id=3040", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_KTO_BONGWONSA, type: "website", title: "Bongwonsa Temple", author: "Korea Tourism Organization", url: "https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=89961", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_KTO_JEONDEUNGSA, type: "website", title: "Jeondeungsa Temple", author: "Korea Tourism Organization", url: "https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?menuSn=351&vcontsId=110726", publicationDate: "", reliability: "authoritative" },
     { id: SRC_JOCHIJI_SITE, type: "website", title: "Jōchi-ji — official visitor information", author: "Jōchi-ji", url: "https://jochiji.com/en/en", publicationDate: "", reliability: "authoritative" },
     { id: SRC_KENNINJI_SITE, type: "website", title: "Kennin-ji — zazen experience", author: "Kennin-ji", url: "https://www.kenninji.jp/experience/", publicationDate: "", reliability: "authoritative" },
     { id: SRC_HOFUKUJI_OKAYAMA, type: "website", title: "Okayama official tourism — Hōfuku-ji", author: "Okayama Prefecture Tourism Federation", url: "https://www.okayama-japan.jp/en/spot/10606", publicationDate: "", reliability: "authoritative" },
@@ -5855,18 +5906,18 @@ export const SEED_TEMPLES: TempleSeed[] = [
       { locale: "en", value: "London Fo Guang Shan Temple" },
       { locale: "zh", value: "倫敦佛光山" },
     ],
-    lat: 51.5180,
-    lng: -0.1396,
+    lat: 51.5170869,
+    lng: -0.1381865,
     region: "England",
     country: "United Kingdom",
-    foundedYear: 1992,
-    foundedPrecision: "exact",
+    foundedYear: null,
+    foundedPrecision: null,
     schoolSlug: "chan",
     status: "active",
-    sourceId: SRC_WIKIPEDIA,
+    sourceId: "src_london_fgs",
     sourceExcerpt:
-      "London Fo Guang Shan Temple at 84 Margaret Street, London W1W 8TD; established 1992 in a former Butterfield-designed Church House (1868–70). One of two UK branches of Fo Guang Shan.",
-    url: "https://www.londonfgs.org.uk/",
+      "The temple’s own current visitor page gives 84 Margaret Street, London W1W 8TD and opening hours. It describes the London temple as part of Fo Guang Shan and dedicated to Humanistic Buddhism. No founding year or recurring Chan schedule is asserted.",
+    url: "https://www.londonfgs.org.uk/where-to-find-us",
   },
   {
     slug: "ibps-manchester",

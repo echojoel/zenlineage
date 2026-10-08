@@ -1,8 +1,8 @@
 {
   "_meta": {
     "country": "United Kingdom",
-    "collectedAt": "2026-05-05",
-    "method": "Pulled from canonical UK Zen network directories: OBC (obcon.org), IZAUK (izauk.org), Western Chan Fellowship (westernchanfellowship.org), Plum Village UK (plumvillage.uk), StoneWater Zen (stonewaterzen.org), Sanbo Zen (Oxford Zen Centre), The Zen Centre London / Shobo-an (rinzaizencentre.org.uk), Kwan Um Europe, Buddhist Society UK. Cross-checked names/addresses against priory and group home pages.",
+    "collectedAt": "2026-10-08",
+    "method": "Pulled from canonical UK Zen network directories: OBC (obcon.org), IZAUK (izauk.org), Western Chan Fellowship (westernchanfellowship.org), Plum Village UK (plumvillage.uk), StoneWater Zen (stonewaterzen.org), Sanbo Zen (Oxford Zen Centre), The Zen Centre London / Shobo-an (rinzaizencentre.org.uk), Kwan Um Europe, Buddhist Society UK. Cross-checked names/addresses against priory and group home pages. Batch25 (2026-10-08): item-level verification of selected high-priority Spain/UK records against AZI, Camino Medio, Nalanda, OBC, Cambridge/Lancaster group pages, and London Fo Guang Shan; see scripts/data/raw/spain-uk-batch25-2026-10-08.md.",
     "coverageEstimate": "Strong coverage of OBC priories, IZAUK dojos, WCF Chan groups, StoneWater groups, the two Rinzai/Sanbo houses, Kwan Um London, and the Plum Village UK in-person sangha network. Plum Village figures dominate the count; smaller informal sitting groups, individual dharma-successor home dojos, and Channel Islands sanghas are partially included. Soto-shu Europe directory and obcon.org/temples/ both returned 403/404 at fetch time, but list was reconstructed from tbpriory.org.uk's OBC links page.",
     "knownGaps": [
       "Plum Village UK address detail: in-person groups list city/region but rarely give street addresses on the public directory; URLs default to plumvillage.uk find-a-group entries",
@@ -50,29 +50,29 @@
       "region": "England",
       "lineage": "Sōtō / OBC",
       "address": null,
-      "url": "https://norwichzen.org.uk/",
-      "source_url": "https://en.wikipedia.org/wiki/Norwich_Zen_Buddhist_Priory",
-      "notes": "Soto Zen priory in west Norwich."
+      "url": "https://obcon.org/norwich-zen-buddhist-priory/",
+      "source_url": "https://obcon.org/norwich-zen-buddhist-priory/",
+      "notes": "The Order of Buddhist Contemplatives directory lists this priory in Norwich, Norfolk. It gives no street address; retain city precision and do not infer a visitor schedule. Checked 2026-10-08."
     },
     {
       "name": "Dragon Bell Temple",
       "city": "Exeter",
       "region": "England",
       "lineage": "Sōtō / OBC",
-      "address": null,
-      "url": "http://www.dragonbelltemple.org.uk/",
-      "source_url": "https://www.tbpriory.org.uk/order-of-buddhist-contemplatives-websites/",
-      "notes": "OBC temple in the South West."
+      "address": "7 The Willows, Shillingford St George, Exeter, Devon EX2 9QS",
+      "url": "https://obcon.org/dragon-bell-temple/",
+      "source_url": "https://obcon.org/dragon-bell-temple/",
+      "notes": "Current OBC UK temple directory gives this address. OpenStreetMap address match: 50.6804400, -3.5552578. OBC listing confirms institutional affiliation; no visitor schedule inferred. Checked 2026-10-08."
     },
     {
       "name": "Turning Wheel Buddhist Temple",
       "city": "Leicester",
       "region": "England",
       "lineage": "Sōtō / OBC",
-      "address": null,
-      "url": "https://www.turningwheel.org.uk/",
-      "source_url": "https://www.tbpriory.org.uk/order-of-buddhist-contemplatives-websites/",
-      "notes": "OBC temple, East Midlands."
+      "address": "7 Chadderton Close, West Knighton, Leicester LE2 6GZ",
+      "url": "https://obcon.org/turning-wheel-buddhist-temple/",
+      "source_url": "https://obcon.org/turning-wheel-buddhist-temple/",
+      "notes": "Current OBC directory gives this address. OpenStreetMap address match: 52.6038724, -1.1240838. OBC listing confirms institutional affiliation; no visitor schedule inferred. Checked 2026-10-08."
     },
     {
       "name": "Portobello Buddhist Priory",
@@ -80,9 +80,9 @@
       "region": "Scotland",
       "lineage": "Sōtō / OBC",
       "address": "27 Brighton Place, Portobello, Edinburgh EH15 1LL",
-      "url": "http://www.portobellobuddhist.org.uk/",
-      "source_url": "https://www.tbpriory.org.uk/order-of-buddhist-contemplatives-websites/",
-      "notes": "Scotland's OBC priory."
+      "url": "https://obcon.org/portobello-buddhist-priory/",
+      "source_url": "https://obcon.org/portobello-buddhist-priory/",
+      "notes": "Current OBC directory gives 27 Brighton Place, Portobello, Edinburgh EH15 1LL, matching the existing point. OBC listing confirms affiliation; no visitor schedule inferred. Checked 2026-10-08."
     },
     {
       "name": "The Place of Peace Dharma House",
@@ -90,29 +90,29 @@
       "region": "Wales",
       "lineage": "Sōtō / OBC",
       "address": null,
-      "url": "https://www.placeofpeacewales.org.uk/",
-      "source_url": "https://www.tbpriory.org.uk/order-of-buddhist-contemplatives-websites/",
-      "notes": "Welsh OBC dharma house."
+      "url": "https://obcon.org/temples-and-meditation-groups/uk-temple-locations/",
+      "source_url": "https://obcon.org/temples-and-meditation-groups/uk-temple-locations/",
+      "notes": "OBC directory lists this Welsh temple at Aberystwyth but supplies only a post-office box, not a public visitor address. Keep city precision; no current visitor schedule inferred. Checked 2026-10-08."
     },
     {
       "name": "Cambridge Serene Reflection Meditation Group",
       "city": "Cambridge",
       "region": "England",
-      "lineage": "Sōtō / OBC (lay group)",
+      "lineage": "Sōtō Zen / OBC Serene Reflection Meditation (lay group)",
       "address": null,
       "url": "https://sites.google.com/site/cambsrmgroup/",
-      "source_url": "https://www.tbpriory.org.uk/order-of-buddhist-contemplatives-websites/",
-      "notes": "OBC lay meditation group."
+      "source_url": "https://sites.google.com/site/cambsrmgroup/",
+      "notes": "The group’s own site states its Serene Reflection tradition and OBC affiliation. Its news page mentions meeting the Norwich Priory in autumn 2026. A location page lists Friends Meeting House, 91–93 Hartington Grove, for twice-monthly meetings, but the dates page is blank; current venue and schedule remain unconfirmed. Checked 2026-10-08."
     },
     {
       "name": "Lancaster Serene Reflection Meditation Group",
       "city": "Lancaster",
       "region": "England",
-      "lineage": "Sōtō / OBC (lay group)",
+      "lineage": "Sōtō Zen / OBC Serene Reflection Meditation (lay group)",
       "address": null,
-      "url": "http://www.lancasterserenereflection.org.uk/",
-      "source_url": "https://www.tbpriory.org.uk/order-of-buddhist-contemplatives-websites/",
-      "notes": "OBC lay group, North West."
+      "url": "https://www.lancasterserenereflection.org.uk/",
+      "source_url": "https://www.lancasterserenereflection.org.uk/",
+      "notes": "The group’s own site identifies its Soto Zen practice and OBC affiliation and offers introductory instruction by arrangement. The pages checked do not establish a current regular schedule or venue. Checked 2026-10-08."
     },
     {
       "name": "Newcastle Serene Reflection Meditation Group",
@@ -933,6 +933,16 @@
       "url": "https://wakeuplondon.org/",
       "source_url": "https://plumvillage.uk/group/wake-up-london/",
       "notes": "The group site and Plum Village UK profile confirm a young-adult Plum Village community and Saturday afternoon practice; check for current dates (checked 2026-10-08)."
+    },
+    {
+      "name": "London Fo Guang Shan Temple",
+      "city": "London",
+      "region": "England",
+      "lineage": "Fo Guang Shan / Humanistic Buddhism (Chan schedule unverified)",
+      "address": "84 Margaret Street, London W1W 8TD",
+      "url": "https://www.londonfgs.org.uk/where-to-find-us",
+      "source_url": "https://www.londonfgs.org.uk/where-to-find-us",
+      "notes": "The temple’s current visitor page gives its address and opening hours and describes it as part of Fo Guang Shan, dedicated to Humanistic Buddhism. No founding year or recurring Chan practice schedule is asserted. OpenStreetMap address match: 51.5170869, -0.1381865. Checked 2026-10-08."
     }
   ]
 }

@@ -122,18 +122,18 @@
       "lineage": "Sōtō / Harada-Yasutani / Tetsugen Serra",
       "address": "Via Marrucci 58/A, 57023 Cecina (LI)",
       "url": "https://www.centrogyosho.it/",
-      "source_url": "https://unionebuddhistaitaliana.it/en/centers/complete-list/",
-      "notes": "UBI-registered. Affiliated to Enso-ji Il Cerchio."
+      "source_url": "https://www.centrogyosho.it/la-pratica-dello-zen/",
+      "notes": "The center’s own practice page lists Monday and Friday zazen at 20:00, with reservation required. Its location page lists the same address and links it with Enso-ji Il Cerchio. Checked 2026-10-08."
     },
     {
       "name": "Tempio Zen Ten Shin – Cuore di Cielo Puro",
       "city": "Napoli",
       "region": "Campania",
-      "lineage": "Sōtō / Harada-Yasutani / Tetsugen Serra",
-      "address": "Via Terracina 429, Napoli",
+      "lineage": "Sōtō Zen / Fudenji (Taiten Guareschi); Tetsugen Serra line",
+      "address": "Via Terracina 429, 80125 Napoli",
       "url": "https://www.tenshin.it/",
-      "source_url": "https://unionebuddhistaitaliana.it/en/centers/complete-list/",
-      "notes": "UBI-registered. Affiliated to Enso-ji Il Cerchio."
+      "source_url": "https://www.tenshin.it/il-tempio-zen-ten-shin/chi-siamo/",
+      "notes": "The temple identifies Taiku Rossi and Myoei Di Perna as its practice leaders. Taiku received Dharma-teacher ordination from Carlo Tetsugen Serra in 2022; Myoei received novice nun ordination in the Sōtō school in 2019. The official calendar lists weekly zazen; contact the temple to confirm the next session. Checked 2026-10-08."
     },
     {
       "name": "Tempio Zen Sokuzen (Orazen)",
@@ -166,14 +166,14 @@
       "notes": "Urban affiliate of Enso-ji Il Cerchio."
     },
     {
-      "name": "Tempio Buddhista Zenshinji di Scaramuccia",
+      "name": "Bukkosan Zenshinji – Scaramuccia",
       "city": "Orvieto",
       "region": "Umbria",
       "lineage": "Rinzai / Yamada Mumon (Engaku Taino)",
-      "address": "Località Pian del Vantaggio 64, 05019 Orvieto (TR)",
+      "address": "Località Pian del Vantaggio 64, 05018 Orvieto (TR)",
       "url": "https://zenshinji.org/",
-      "source_url": "https://unionebuddhistaitaliana.it/en/centers/complete-list/",
-      "notes": "Founded by Engaku Taino (Mario Luigi). UBI member; principal Rinzai monastery in Italy."
+      "source_url": "https://zenshinji.org/wp-content/uploads/Archivi/ArchivioNotiziari/233.pdf",
+      "notes": "The monastery’s own site identifies Scaramuccia as a Lin-chi/Chan (Rinzai Zen) practice place, founded by Engaku Taino; it names Alvise Ryuichi Mario as director and successor in teaching. Its official 2022 newsletter gives the address and postcode. Checked 2026-10-08."
     },
     {
       "name": "Centro di Meditazione Shiguseigan Zen Rinzai",
@@ -182,8 +182,8 @@
       "lineage": "Rinzai / Yamada Mumon (Scaramuccia)",
       "address": null,
       "url": "https://zenshinji.org/centro-di-meditazione-shiguseigan-zen-rinzai/",
-      "source_url": "https://zenshinji.org/centri-affiliati-2/",
-      "notes": "Affiliated to Zenshinji Scaramuccia."
+      "source_url": "https://zenshinji.org/centro-di-meditazione-shiguseigan-zen-rinzai/",
+      "notes": "Listed by its parent monastery, Bukkosan Zenshinji – Scaramuccia, as its affiliated Rinzai practice group in Rome. No street address is published on the linked group page. Checked 2026-10-08."
     },
     {
       "name": "Chudo – La Via di Mezzo",
@@ -299,21 +299,21 @@
       "name": "Dojo Zen Sanrin",
       "city": "Fossano",
       "region": "Piemonte",
-      "lineage": "Sōtō / Deshimaru (AZI)",
+      "lineage": "Sōtō Zen / Taisen Deshimaru – Roland Yuno Rech (AZI / ABZE)",
       "address": "Via Don Minzoni 12, 12045 Fossano (CN)",
       "url": "https://www.sanrin.it/",
-      "source_url": "https://unionebuddhistaitaliana.it/en/centers/complete-list/",
-      "notes": "AZI Italia. UBI-registered."
+      "source_url": "https://www.sanrin.it/dojo.html",
+      "notes": "The dojo’s own site states that Roland Yuno Rech formally recognized the Fossano group as Dojo Zen Sanrin in 1995 and entrusted it to Lucio Yushin Morra; it confirms the address and AZI affiliation. Its published weekly timetable is on the site; confirm before visiting. Checked 2026-10-08."
     },
     {
-      "name": "Dojo Zen Bodai – Associazione Zen Bodai Dojo",
+      "name": "Dojo Zen Bodai",
       "city": "Alba",
       "region": "Piemonte",
-      "lineage": "Sōtō / Deshimaru (AZI)",
-      "address": "Via Fratelli Ambrogio 25, Alba (CN)",
-      "url": "http://www.bodai.it/",
-      "source_url": "https://unionebuddhistaitaliana.it/centri/associazione-zen-bodai-dojo/",
-      "notes": "Founded 2009 by Beppe Mokuza. UBI member since 2021. AZI/ABZE affiliate."
+      "lineage": "Sōtō Zen / Sawaki – Deshimaru – Niwa – Roland Yuno Rech – Giuseppe Mokuza Signoritti",
+      "address": "Via Fratelli Ambrogio 25, 12051 Alba (CN)",
+      "url": "https://www.bodai.it/",
+      "source_url": "https://www.bodai.it/dojo_dojo.asp?pagina=dojo&sezione=dojo",
+      "notes": "The dojo’s own page identifies Beppe Mokuza Signoritti as its director and Roland Yuno Rech as his teacher, and gives the Alba address. The association page describes its Soto Zen tradition and AZI/ABZE affiliations. Checked 2026-10-08."
     },
     {
       "name": "Tempio Zen Gyogenji",
@@ -336,14 +336,14 @@
       "notes": "AZI Italia."
     },
     {
-      "name": "Dojo Zen Mokusho – Associazione Hokuzenko",
+      "name": "Dojo Zen Mokusho",
       "city": "Torino",
       "region": "Piemonte",
-      "lineage": "Sōtō / Deshimaru (AZI)",
+      "lineage": "Sōtō Zen / Taisen Deshimaru – Roland Yuno Rech (AZI / ABZE)",
       "address": "Via Principe Amedeo 37, 10123 Torino",
       "url": "https://www.mokusho.it/",
-      "source_url": "https://unionebuddhistaitaliana.it/en/centers/complete-list/",
-      "notes": "AZI Italia. UBI-registered. Coordinates the AZI sangha map for Italy."
+      "source_url": "https://www.mokusho.it/dojo/",
+      "notes": "The dojo’s own history page states it began in 1988 under Ezio Tenryu Zanin, a disciple of Roland Yuno Rech, and confirms AZI and UBI affiliation. Its current site lists practice Tuesday 19:00–20:10 and Saturday 09:00–10:30 at Via Principe Amedeo 37. Checked 2026-10-08."
     },
     {
       "name": "Shōbōgendō Dōjō Zen Sōtō di Novara",

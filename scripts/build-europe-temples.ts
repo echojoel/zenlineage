@@ -310,6 +310,15 @@ function nameForSlug(fullName: string): string {
   return before.length >= 4 ? before : fullName;
 }
 
+// Preserve existing public slugs when an official directory supplies a
+// corrected display name. London is already a curated seed row.
+const STABLE_PLACE_SLUGS: Record<string, string> = {
+  "Dojo zen de Girona": "azc-azi-dojo-zen-de-girona",
+  "Centre zen de Barcelona": "centro-zen-barcelona",
+  "Centre Zen Nalanda": "nalanda-dojo-zen",
+  "London Fo Guang Shan Temple": "ibps-london",
+};
+
 // Two-letter Australian state codes used inconsistently by some agents.
 const AU_STATE_NAMES: Record<string, string> = {
   ACT: "Australian Capital Territory",
@@ -529,6 +538,12 @@ function lineageToSchoolSlug(lineage: string): string {
 function pickSourceId(sourceUrl: string, lineage: string): string {
   const u = sourceUrl.toLowerCase();
 
+  if (u.includes("caminomedio.org")) return "src_camino_medio";
+  if (u.includes("nalanda.cat")) return "src_nalanda_centre";
+  if (u.includes("sites.google.com/site/cambsrmgroup")) return "src_cambridge_srm_group";
+  if (u.includes("lancasterserenereflection.org.uk")) return "src_lancaster_srm_group";
+  if (u.includes("londonfgs.org.uk")) return "src_london_fgs";
+
   // Direct Europe and East Asia sources from the 2026 source refresh.
   if (u.includes("eisenbuch.de")) return "src_eisenbuch_fumonji";
   if (u.includes("zen-vereinigung-berlin.de")) return "src_zenvereinigung_berlin";
@@ -561,6 +576,22 @@ function pickSourceId(sourceUrl: string, lineage: string): string {
   if (u.includes("zuiganji.or.jp")) return "src_zuiganji_site";
   if (u.includes("baekdamsa.templestay.com")) return "src_baekdamsa_templestay";
   if (u.includes("visitkorea.or.kr") && (u.includes("vcontsid=104966") || u.includes("baekyangsa"))) return "src_baekyangsa_visitkorea";
+  // South Korea Batch 24 institutional destination evidence.
+  if (u.includes("vcontsid=96644")) return "src_kto_sudeoksa";
+  if (u.includes("vcontsid=110571")) return "src_kto_donghwasa";
+  if (u.includes("vcontsid=111834")) return "src_kto_ssanggyesa";
+  if (u.includes("vcontsid=95143")) return "src_kto_yongjusa";
+  if (u.includes("vcontsid=110707")) return "src_kto_sinheungsa";
+  if (u.includes("vcontsid=94392")) return "src_kto_jikjisa";
+  if (u.includes("vcontsid=89729")) return "src_kto_eunhaesa";
+  if (u.includes("vcontsid=94395")) return "src_kto_bulguksa_official";
+  if (u.includes("vcontsid=90655")) return "src_kto_gounsa";
+  if (u.includes("vcontsid=93836")) return "src_kto_geumsansa";
+  if (u.includes("vcontsid=111755")) return "src_kto_hwaeomsa";
+  if (u.includes("vcontsid=89961")) return "src_kto_bongwonsa";
+  if (u.includes("vcontsid=110726")) return "src_kto_jeondeungsa";
+  if (u.includes("nyj.go.kr/eng/contents.do?key=4417")) return "src_nyj_bongseonsa";
+  if (u.includes("jokb.org/bbs/content.php?co_id=3040")) return "src_jogye_bongamsa";
   if (u.includes("beomeo.kr/about/sub9.php")) return "src_beomeosa_site";
   if (u.includes("beopjusa.org") || (u.includes("jogye") && u.includes("beopjusa"))) return "src_beopjusa_jogye";
   if (u.includes("buddhism.or.kr/jongdan/sub1/sub1-9-2-5.php")) return "src_jogye_order";
@@ -925,6 +956,14 @@ function pickSourceId(sourceUrl: string, lineage: string): string {
   if (u.includes("bouddhisme-thich-nhat-hanh-angers.blogspot.com"))
     return "src_angers_sangha";
   if (u.includes("chemindeveil.over-blog.com")) return "src_chemin_eveil";
+  if (u.includes("centrogyosho.it")) return "src_gyosho_it";
+  if (u.includes("tenshin.it")) return "src_tenshin_it";
+  if (u.includes("zenshinji.org")) return "src_zenshinji_it";
+  if (u.includes("zentrum.nl")) return "src_zentrum_nl";
+  if (u.includes("zennijmegen.nl")) return "src_zen_nijmegen";
+  if (u.includes("zen-bonn.de")) return "src_zen_bonn";
+  if (u.includes("shobogendo.de")) return "src_shobogendo_de";
+  if (u.includes("zen-kreis-hamburg.de")) return "src_zen_kreis_hamburg";
   if (u.includes("avatamsaka.ca")) return "src_avatamsaka_ca";
   if (u.includes("calgarysotozen.org")) return "src_calgary_soto";
   if (u.includes("clearwayzen.ca")) return "src_clear_way_ca";
@@ -1584,7 +1623,7 @@ async function main(): Promise<void> {
       }
 
       // Slug — parenthetical-stripped name, deduped within batch.
-      const baseSlug = slugify(nameForSlug(p.name));
+      const baseSlug = STABLE_PLACE_SLUGS[p.name] ?? slugify(nameForSlug(p.name));
       let slug = baseSlug;
       if (curatedSlugs.has(slug)) {
         skippedCurated++;

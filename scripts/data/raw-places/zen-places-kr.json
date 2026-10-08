@@ -11,7 +11,17 @@
       "Newer urban Seon meditation centers without English-language sources",
       "Several nun-only seonwons (e.g. Unmunsa, Bongnyeongsa) included; comprehensive nun-monastery list may have additional entries",
       "Naewonsa (Yangsan) included from secondary sources; a primary jogyeorder.org listing was not located in English"
-    ]
+    ],
+    "batch24": {
+      "checkedAt": "2026-10-08",
+      "scope": "15 high-priority Korean Seon temple records refreshed from popular-only Wikipedia sources",
+      "interpretation": "Historical lineage, institutional Seon practice, visitor access, templestay listings, and recurring public practice are recorded separately. Missing public schedule evidence is uncertainty, not evidence that a place is inactive or outside scope."
+    },
+    "batch25": {
+      "checkedAt": "2026-10-08",
+      "scope": "17 remaining high-priority South Korea practice-directory records checked against KTO, municipal, Jogye Order, or official temple/Templestay sources",
+      "interpretation": "Historical identity, institutional monastic practice, visitor access, templestay or retreat programming, and recurring public practice are recorded separately. Missing schedule evidence is uncertainty, not evidence of inactivity or misconduct."
+    }
   },
   "places": [
     {
@@ -51,8 +61,8 @@
       "lineage": "Korean Seon (Jogye Order — Chongnim, 7th district head temple)",
       "address": "79 Sudeoksa-an-gil, Deoksan-myeon, Yesan-gun, Chungcheongnam-do",
       "url": "http://www.sudeoksa.com/",
-      "source_url": "https://en.wikipedia.org/wiki/Sudeoksa",
-      "notes": "Native: 修德寺 / 수덕사. 'Deoksung Chongnim'. Associated with Mangong, Hyewol; 20th-c. Korean Seon revival lineage."
+      "source_url": "https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=96644",
+      "notes": "Sudeoksa is a historically important Buddhist temple; VisitKorea gives its heritage, address, open hours, and templestay availability. Its historic association with the Korean Seon training tradition is separate from these visitor facts. A templestay listing does not establish recurring public Seon practice; no recurring public schedule was verified."
     },
     {
       "name": "Baekyang-sa",
@@ -71,8 +81,8 @@
       "lineage": "Korean Seon (Jogye Order — Chongnim, 9th district head temple)",
       "address": "1 Donghwasa 1-gil, Dohak-dong, Dong-gu, Daegu",
       "url": "http://www.donghwasa.net/",
-      "source_url": "https://en.wikipedia.org/wiki/Donghwasa",
-      "notes": "Native: 桐華寺 / 동화사. 'Palgong Chongnim'. Founded 493 (refounded 832). Mt. Palgongsan."
+      "source_url": "https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=110571",
+      "notes": "VisitKorea describes Donghwasa’s foundation, address, year-round visitor access, and templestay program. The temple’s Jogye parish and Seon training role are institutional context; no recurring public Seon schedule was verified."
     },
     {
       "name": "Ssanggye-sa",
@@ -81,8 +91,8 @@
       "lineage": "Korean Seon (Jogye Order — Chongnim, 13th district head temple)",
       "address": "59 Ssanggyesa-gil, Hwagae-myeon, Hadong-gun, Gyeongsangnam-do",
       "url": "http://www.ssanggyesa.net/",
-      "source_url": "https://en.wikipedia.org/wiki/Ssanggyesa",
-      "notes": "Native: 雙磎寺 / 쌍계사. 'Ssanggye Chongnim'. Founded 722; associated with Master Hyeso (Jingam) and the introduction of beompae chant."
+      "source_url": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=111834",
+      "notes": "VisitKorea documents Ssanggye-sa’s history, address, visiting hours, and templestay. Historical Seon lineage association is not evidence of a current recurring public practice schedule; none was verified."
     },
     {
       "name": "Beomeo-sa",
@@ -111,8 +121,8 @@
       "lineage": "Korean Seon (Jogye Order — 2nd district head temple)",
       "address": "136 Yongju-ro, Songsan-dong, Hwaseong-si, Gyeonggi-do",
       "url": "http://www.yongjoosa.or.kr/",
-      "source_url": "https://en.wikipedia.org/wiki/Yongjusa",
-      "notes": "Native: 龍珠寺 / 용주사. Refounded 1790 by King Jeongjo as a memorial for Crown Prince Sado."
+      "source_url": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?menuSn=351&vcontsId=95143",
+      "notes": "VisitKorea describes Yongjusa’s history, address, heritage, and visitor access. Its Jogye Order parish status is institutional context; no recurring public Seon schedule or templestay listing was verified on this page."
     },
     {
       "name": "Sinheung-sa",
@@ -121,8 +131,8 @@
       "lineage": "Korean Seon (Jogye Order — 3rd district head temple)",
       "address": "1137 Seoraksan-ro, Seorak-dong, Sokcho-si, Gangwon-do",
       "url": "http://www.sinheungsa.kr/",
-      "source_url": "https://en.wikipedia.org/wiki/Sinheungsa",
-      "notes": "Native: 新興寺 / 신흥사. Founded 653; Mt. Seoraksan."
+      "source_url": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=110707",
+      "notes": "VisitKorea identifies Sinheungsa as a Jogye temple, gives its address and all-year access, and describes its templestay. This verifies visitor programming, not recurring public Seon sitting."
     },
     {
       "name": "Woljeong-sa",
@@ -161,8 +171,8 @@
       "lineage": "Korean Seon (Jogye Order — 8th district head temple)",
       "address": "95 Jikjisa-gil, Daehang-myeon, Gimcheon-si, Gyeongsangbuk-do",
       "url": "http://www.jikjisa.or.kr/",
-      "source_url": "https://en.wikipedia.org/wiki/Jikjisa",
-      "notes": "Native: 直指寺 / 직지사. Founded 418. Mt. Hwangaksan."
+      "source_url": "https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=94392",
+      "notes": "VisitKorea describes Jikjisa’s history, address, open-year-round access, and links its templestay program. Historical Seon associations are distinct from visitor access; no recurring public Seon schedule was verified."
     },
     {
       "name": "Eunhae-sa",
@@ -171,8 +181,8 @@
       "lineage": "Korean Seon (Jogye Order — 10th district head temple)",
       "address": "300 Chiil-ro, Cheongtong-myeon, Yeongcheon-si, Gyeongsangbuk-do",
       "url": "http://www.eunhae-sa.org/",
-      "source_url": "https://en.wikipedia.org/wiki/Eunhaesa",
-      "notes": "Native: 銀海寺 / 은해사. Founded 809. Mt. Palgongsan."
+      "source_url": "https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=89729",
+      "notes": "VisitKorea documents Eunhaesa’s history, address, Buddhist university, visitor information, and templestay experiences. These establish institutional and visitor context, not a recurring public Seon schedule."
     },
     {
       "name": "Bulguk-sa",
@@ -181,8 +191,8 @@
       "lineage": "Korean Seon (Jogye Order — 11th district head temple)",
       "address": "385 Bulguk-ro, Jinhyeon-dong, Gyeongju-si, Gyeongsangbuk-do",
       "url": "http://www.bulguksa.or.kr/",
-      "source_url": "https://en.wikipedia.org/wiki/Bulguksa",
-      "notes": "Native: 佛國寺 / 불국사. Founded 528, rebuilt 751. UNESCO World Heritage (separate Bulguksa/Seokguram listing)."
+      "source_url": "https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=94395",
+      "notes": "VisitKorea describes Bulguksa’s heritage, address, hours, and visitor access. The listing does not establish a current recurring public Seon schedule or templestay practice details."
     },
     {
       "name": "Goun-sa",
@@ -191,8 +201,8 @@
       "lineage": "Korean Seon (Jogye Order — 16th district head temple)",
       "address": "415 Gounsa-gil, Danchon-myeon, Uiseong-gun, Gyeongsangbuk-do",
       "url": "http://www.gounsa.net/",
-      "source_url": "https://en.wikipedia.org/wiki/Gounsa",
-      "notes": "Native: 孤雲寺 / 고운사. Founded 681 by Uisang."
+      "source_url": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=90655",
+      "notes": "VisitKorea identifies Gounsa as a Jogye parish temple, gives its history and visitor details. This establishes institutional affiliation and destination context, not a recurring public Seon schedule."
     },
     {
       "name": "Geumsan-sa",
@@ -201,8 +211,8 @@
       "lineage": "Korean Seon (Jogye Order — 17th district head temple)",
       "address": "1 Geumsan-ri, Geumsan-myeon, Gimje-si, Jeollabuk-do",
       "url": "http://www.geumsansa.org/",
-      "source_url": "https://en.wikipedia.org/wiki/Geumsansa",
-      "notes": "Native: 金山寺 / 금산사. Founded 599. Mt. Moaksan."
+      "source_url": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=93836",
+      "notes": "VisitKorea describes Geumsansa’s history, heritage, address, visitor hours, and templestay link. The source does not establish a recurring public Seon practice schedule."
     },
     {
       "name": "Hwaeom-sa",
@@ -211,8 +221,8 @@
       "lineage": "Korean Seon (Jogye Order — 19th district head temple)",
       "address": "539 Hwaeomsa-ro, Masan-myeon, Gurye-gun, Jeollanam-do",
       "url": "http://www.hwaeomsa.com/",
-      "source_url": "https://en.wikipedia.org/wiki/Hwaeomsa",
-      "notes": "Native: 華嚴寺 / 화엄사. Founded 544. Mt. Jirisan. UNESCO Sansa."
+      "source_url": "https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=111755",
+      "notes": "VisitKorea documents Hwaeomsa’s history, address, year-round visitor access, and templestay link. Its historic temple identity is not current public Seon practice evidence; no recurring public schedule was verified."
     },
     {
       "name": "Daeheung-sa",
@@ -229,10 +239,10 @@
       "city": "Jeju City",
       "region": "Jeju Special Self-Governing Province",
       "lineage": "Korean Seon (Jogye Order — 23rd district head temple)",
-      "address": "583 Sallok-ro, Ara-il-dong, Jeju-si, Jeju-do",
+      "address": "660 Sallokbuk-ro, Jeju-si, Jeju-do",
       "url": "http://www.jejugwaneumsa.or.kr/",
-      "source_url": "https://en.wikipedia.org/wiki/Gwaneumsa_(Jeju)",
-      "notes": "Native: 觀音寺 / 관음사. Mt. Hallasan; head temple of Jeju district."
+      "source_url": "https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=90109",
+      "notes": "VisitKorea describes Gwaneumsa as a historic temple on Hallasan, gives its address and year-round access, and lists templestay, meditation, and mandala experiences. This verifies visitor programming; it does not establish a recurring public Seon schedule."
     },
     {
       "name": "Seonun-sa",
@@ -242,7 +252,7 @@
       "address": "250 Seonunsa-ro, Asan-myeon, Gochang-gun, Jeollabuk-do",
       "url": "http://www.seonunsa.org/",
       "source_url": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=139770",
-      "notes": "VisitKorea’s current templestay directory lists Seonunsa with its address and temple website. This verifies a visitor program listing, not recurring public Seon practice."
+      "notes": "VisitKorea’s templestay directory lists Seonunsa, its address, and temple website. This establishes a visitor program listing; no recurring public Seon schedule was verified."
     },
     {
       "name": "Bongseon-sa",
@@ -251,8 +261,8 @@
       "lineage": "Korean Seon (Jogye Order — 25th district head temple)",
       "address": "32 Bongseonsa-gil, Jinjeop-eup, Namyangju-si, Gyeonggi-do",
       "url": "http://www.bongsunsa.net/",
-      "source_url": "https://en.wikipedia.org/wiki/Bongseonsa",
-      "notes": "Native: 奉先寺 / 봉선사. Founded 969; rebuilt 1469 as a royal memorial temple."
+      "source_url": "https://www.nyj.go.kr/eng/contents.do?key=4417",
+      "notes": "Namyangju City identifies Bongseonsa as the Jogye Order’s 25th parish headquarters and gives visitor location information. This supports institutional affiliation and destination context; no recurring public Seon schedule was verified."
     },
     {
       "name": "Bongam-sa",
@@ -261,8 +271,8 @@
       "lineage": "Korean Seon (Jogye Order — designated Seon-only training temple)",
       "address": "313 Wonbuk-gil, Gaeun-eup, Mungyeong-si, Gyeongsangbuk-do",
       "url": "https://www.templestay.com/temple_info.asp?t_id=bongamsa",
-      "source_url": "https://en.wikipedia.org/wiki/Bongamsa",
-      "notes": "Native: 鳳巖寺 / 봉암사. Founded 879. Designated 1982 by the Jogye Order as an exclusive Seon practice center; closed to public except Buddha's Birthday. Site of the 1947 Bongamsa Reform Movement (Seongcheol et al.)."
+      "source_url": "https://jokb.org/bbs/content.php?co_id=3040",
+      "notes": "The Jogye Order identifies Bongamsa as a special Seon practice center and names Taego Seonwon there. This supports institutional monastic Seon practice; public access and a recurring public schedule are not established."
     },
     {
       "name": "Bongwon-sa",
@@ -271,8 +281,8 @@
       "lineage": "Korean Seon (Taego Order — Headquarters)",
       "address": "120 Bongwonsa-gil, Bongwon-dong, Seodaemun-gu, Seoul",
       "url": "http://www.bongwonsa.or.kr/",
-      "source_url": "https://en.wikipedia.org/wiki/Bongwonsa",
-      "notes": "Native: 奉元寺 / 봉원사. Founded 889. Administrative HQ of the Taego Order; site of the annual Yeongsanjae ceremony."
+      "source_url": "https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=89961",
+      "notes": "VisitKorea identifies Bongwonsa with the Taego Order, gives visitor information, and describes the annual Yeongsanjae ceremony. These support institutional affiliation, visitor access, and an annual public event, not recurring Seon meditation."
     },
     {
       "name": "Seonam-sa",
@@ -281,18 +291,18 @@
       "lineage": "Korean Seon (Taego Order — primary spiritual seat)",
       "address": "450 Seonamsa-gil, Seungju-eup, Suncheon-si, Jeollanam-do",
       "url": "http://www.seonamsa.net/",
-      "source_url": "https://en.wikipedia.org/wiki/Seonamsa",
-      "notes": "Native: 仙巖寺 / 선암사. Founded 529, rebuilt 861 by Doseon. UNESCO Sansa. Major monastic seat of the Taego Order on Mt. Jogyesan."
+      "source_url": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=110583",
+      "notes": "VisitKorea documents Seonamsa as a UNESCO-listed historic temple and gives its address and visitor access. This supports heritage and visitor context; it does not establish current Seon training or recurring public practice."
     },
     {
       "name": "Mu Sang Sa",
       "city": "Gyeryong",
       "region": "Chungcheong-namdo",
       "lineage": "Kwan Um School of Zen (Korea HQ — Asian head temple)",
-      "address": "off Gyeryongsan, Gyeryong-si, Chungcheongnam-do (Gyeryong-myeon)",
+      "address": "129 Hyangjeoksan-gil, Eomsa-myeon, Gyeryong-si, Chungcheongnam-do",
       "url": "https://musangsa.org/",
-      "source_url": "https://en.wikipedia.org/wiki/Musangsa",
-      "notes": "Native: 無上寺 / 무상사. Founded 2000 by Zen Master Seung Sahn. International Seon training center for foreign monastics; runs summer/winter Kyol Che."
+      "source_url": "https://musangsa.org/en/about-musangsa/",
+      "notes": "Musangsa’s official site describes it as the Asian head temple of the Kwan Um School, reports year-round group practice including sitting meditation, and says much of the schedule is open through specific programs. This supports current institutional practice and program-based public participation; confirm current dates and access directly."
     },
     {
       "name": "Hwagye-sa",
@@ -301,28 +311,28 @@
       "lineage": "Korean Seon (Jogye Order — Seoul International Zen Center)",
       "address": "117 Hwagyesa-gil, Suyu-dong, Gangbuk-gu, Seoul",
       "url": "http://www.hwagyesa.org/",
-      "source_url": "https://en.wikipedia.org/wiki/Hwagyesa",
-      "notes": "Native: 華溪寺 / 화계사. Founded 1522. Houses the Seoul International Zen Center founded by Seung Sahn; long-time foreign-monastic practice site (Hyon Gak, etc.)."
+      "source_url": "https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=90168",
+      "notes": "VisitKorea gives Hwagyesa’s history, address, year-round visitor access, and templestay programs. This supports historic and visitor/program context, not a recurring public Seon schedule."
     },
     {
       "name": "International Seon Center",
       "city": "Seoul",
       "region": "Seoul Special City",
       "lineage": "Korean Seon (Jogye Order — Seon outreach center)",
-      "address": "167 Yangcheon-ro, Sinjeong 6-dong, Yangcheon-gu, Seoul",
+      "address": "167 Mokdongdong-ro, Yangcheon-gu, Seoul",
       "url": "http://seoncenter.or.kr/",
-      "source_url": "https://en.wikipedia.org/wiki/International_Seon_Center",
-      "notes": "Native: 국제선센터 / 國際禪센터. Opened 2010 by the Jogye Order to provide Seon programs in English for international practitioners."
+      "source_url": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=200583",
+      "notes": "VisitKorea identifies the center as Jogye Order operated and lists Ganwha Seon meditation classes, templestay, Seon culture classes, and a regular Sunday ceremony with a bilingual Dharma talk. This supports current institutional and visitor programming and a recurring public ceremony; it does not establish a recurring public meditation class timetable."
     },
     {
       "name": "Lotus Lantern International Meditation Center",
       "city": "Ganghwa County",
       "region": "Incheon Metropolitan City",
       "lineage": "Korean Seon (Jogye Order — international branch of Jeondeungsa)",
-      "address": "1232-30 Gilsang-ro, Gilsang-myeon, Ganghwa-gun, Incheon",
+      "address": "349-60 Ganghwadong-ro, Gilsang-myeon, Ganghwa-gun, Incheon",
       "url": "http://www.lotuslantern.net/",
-      "source_url": "https://www.lotuslantern.net/",
-      "notes": "Native: 연등국제선원 / 蓮燈國際禪院. English-language Seon retreat center on Ganghwa Island affiliated with Jeondeungsa."
+      "source_url": "https://www.templestay.com/en/MI000000000000000062/temple/introView.do?areaCd=CD00000299&templeId=LotusLanternInternationalMeditationCenter",
+      "notes": "The official Templestay directory lists a 2-day/1-night Seon meditation experience and a 3-night/4-day intensive Seon retreat held once a month, with program dates listed through 2026-11-30. This supports recurring retreat programming for participants, not an open weekly public practice schedule."
     },
     {
       "name": "Jeondeung-sa",
@@ -331,8 +341,8 @@
       "lineage": "Korean Seon (Jogye Order — historic head temple of Ganghwa)",
       "address": "37-41 Jeondeungsa-ro, Gilsang-myeon, Ganghwa-gun, Incheon",
       "url": "http://www.jeondeungsa.org/",
-      "source_url": "https://en.wikipedia.org/wiki/Jeondeungsa",
-      "notes": "Native: 傳燈寺 / 전등사. Founded 381; Mt. Jeongjoksan. Historically one of the oldest temples in Korea."
+      "source_url": "https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?menuSn=351&vcontsId=110726",
+      "notes": "VisitKorea documents Jeondeungsa’s heritage, location, and visitor access. This supports historical and visitor context; no recurring public Seon schedule was verified."
     },
     {
       "name": "Naewon-sa",
@@ -341,8 +351,8 @@
       "lineage": "Korean Seon (Jogye Order — major bhikshuni seonwon)",
       "address": "207 Naewonsa-gil, Habuk-myeon, Yangsan-si, Gyeongsangnam-do",
       "url": "https://www.templestay.com/temple_info.asp?t_id=naewonsa",
-      "source_url": "https://en.wikipedia.org/wiki/Naewonsa",
-      "notes": "Native: 內院寺 / 내원사. Founded 673. Major nuns' Seon training monastery."
+      "source_url": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=188781",
+      "notes": "VisitKorea identifies Naewonsa in Cheonseongsan National Park, describes its historic Buddha image and temple buildings, and gives visitor information. This does not independently establish its reported bhikshuni training role or public Seon practice schedule."
     },
     {
       "name": "Unmun-sa",
@@ -351,18 +361,18 @@
       "lineage": "Korean Seon (Jogye Order — largest bhikshuni gangwon/seonwon)",
       "address": "264 Unmunsa-gil, Unmun-myeon, Cheongdo-gun, Gyeongsangbuk-do",
       "url": "http://www.unmunsa.or.kr/",
-      "source_url": "https://en.wikipedia.org/wiki/Unmunsa",
-      "notes": "Native: 雲門寺 / 운문사. Founded 560. Korea's largest training monastery for Buddhist nuns."
+      "source_url": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=94547",
+      "notes": "VisitKorea identifies Unmunsa as Korea’s largest Buddhist nunnery and describes a roughly 260-member bhikkhuni community in four-year terms. This supports institutional monastic training context; it does not establish public access or a recurring public Seon schedule."
     },
     {
       "name": "Bongnyeong-sa",
       "city": "Suwon",
       "region": "Gyeonggi-do",
       "lineage": "Korean Seon (Jogye Order — bhikshuni seonwon)",
-      "address": "150 Changnyongdaero 236beon-gil, Yeongtong-gu, Suwon-si, Gyeonggi-do",
+      "address": "236-54 Changnyong-daero, Paldal-gu, Suwon-si, Gyeonggi-do",
       "url": "http://www.bongnyeongsa.org/",
-      "source_url": "https://en.wikipedia.org/wiki/Bongnyeongsa",
-      "notes": "Native: 奉寧寺 / 봉녕사. Major nuns' Vinaya and Seon center."
+      "source_url": "https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=219075",
+      "notes": "VisitKorea describes Bongnyeongsa’s meditation spaces and lists templestay activities including meditation, prayer, temple food, and tea. This supports institutional facilities and visitor programming; it does not establish recurring public Seon practice."
     },
     {
       "name": "Donghak-sa",
@@ -371,8 +381,8 @@
       "lineage": "Korean Seon (Jogye Order — bhikshuni gangwon)",
       "address": "462 Donghaksa 1-ro, Banpo-myeon, Gongju-si, Chungcheongnam-do",
       "url": "http://www.donghaksa.kr/",
-      "source_url": "https://en.wikipedia.org/wiki/Donghaksa",
-      "notes": "Native: 東鶴寺 / 동학사. Mt. Gyeryongsan. Notable nuns' monastic college."
+      "source_url": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=86466",
+      "notes": "VisitKorea describes Donghaksa as an academic institute for female monks and reports about 150 monks studying and practicing Buddhism, alongside year-round visitor access. This supports institutional monastic education and visitor context; it does not establish public recurring Seon sessions."
     },
     {
       "name": "Mihwang-sa",
@@ -381,8 +391,8 @@
       "lineage": "Korean Seon (Jogye Order — Templestay flagship)",
       "address": "164 Mihwangsa-gil, Songji-myeon, Haenam-gun, Jeollanam-do",
       "url": "http://www.mihwangsa.com/",
-      "source_url": "https://en.wikipedia.org/wiki/Mihwangsa",
-      "notes": "Native: 美黃寺 / 미황사. Founded 749. Korea's southernmost mainland temple; well-known templestay & Seon retreat venue."
+      "source_url": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=66916",
+      "notes": "VisitKorea documents Mihwangsa’s history, address, visitor access, and a reservable one-day temple experience. This supports historical and visitor-program context; no recurring public Seon schedule was verified."
     },
     {
       "name": "Daewon-sa",
@@ -391,8 +401,8 @@
       "lineage": "Korean Seon (Jogye Order — Seon practice hall)",
       "address": "455 Daewonsa-gil, Samjang-myeon, Sancheong-gun, Gyeongsangnam-do",
       "url": "http://www.daewonsa.net/",
-      "source_url": "https://en.wikipedia.org/wiki/Daewonsa",
-      "notes": "Native: 大源寺 / 대원사. Mt. Jirisan. Major bhikshuni Seonwon."
+      "source_url": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=93645",
+      "notes": "VisitKorea documents Daewonsa’s history, address, visitor access, and advises checking the official site for program hours. This supports historical and visitor context; no recurring public Seon schedule was verified."
     },
     {
       "name": "Baengnyeon-sa",

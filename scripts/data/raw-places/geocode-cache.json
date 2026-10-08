@@ -5741,5 +5741,25 @@
   "de:Grünewalder Straße 68, 42657 Solingen, Germany": [
     51.1598612,
     7.0759163
+  ],
+  "it:Località Pian del Vantaggio 64, 05018 Orvieto (TR), Italy": [
+    42.7562495,
+    12.116395
+  ],
+  "it:Via Fratelli Ambrogio 25, 12051 Alba (CN), Italy": [
+    44.6973124,
+    8.0399859
+  ],
+  "nl:Barentszplein 65, 1013 NJ Amsterdam, Netherlands": [
+    52.3890058,
+    4.8900758
+  ],
+  "nl:Basisschool De Sterrenkring, Blekerstraat 2, 6828 EW Arnhem, Netherlands": [
+    51.9813838,
+    5.9165951
+  ],
+  "de:Große Brunnenstraße 55a, 22763 Hamburg, Germany": [
+    53.5516921,
+    9.925063
   ]
 }

@@ -2,7 +2,7 @@
   "_meta": {
     "country": "Spain",
     "collectedAt": "2026-10-08",
-    "method": "Web research across the official directories of Comunidad Buddhista Soto Zen (sotozen.es), Sotoshu Europe (sotozen.com), Asociación Zen Internacional / Kosen Sangha (zen-deshimaru.com, zenkan.com), Templo Seikyuji affiliates, Camino Medio (caminomedio.org), Instituto Internacional Zen de España (Lam Te / Rinzai), Kwan Um Europe (kwanumeurope.org, boricentro.kwanumzen.es), Comunidad Budista del Interser (tnhspain.com), Buddhistdoor en Español Catalonia/Balearic directory, and the IRIZ Hanazono University zen centers list. Each entry was cross-verified against at least one institutional/network directory. Batch23: checked Seikyuji-affiliated local dojos against the current Seikyuji dojos directory on 2026-10-08; the directory is the item-level source for affiliation and addresses.",
+    "method": "Web research across the official directories of Comunidad Buddhista Soto Zen (sotozen.es), Sotoshu Europe (sotozen.com), Asociación Zen Internacional / Kosen Sangha (zen-deshimaru.com, zenkan.com), Templo Seikyuji affiliates, Camino Medio (caminomedio.org), Instituto Internacional Zen de España (Lam Te / Rinzai), Kwan Um Europe (kwanumeurope.org, boricentro.kwanumzen.es), Comunidad Budista del Interser (tnhspain.com), Buddhistdoor en Español Catalonia/Balearic directory, and the IRIZ Hanazono University zen centers list. Each entry was cross-verified against at least one institutional/network directory. Batch23: checked Seikyuji-affiliated local dojos against the current Seikyuji dojos directory on 2026-10-08; the directory is the item-level source for affiliation and addresses. Batch25 (2026-10-08): item-level verification of selected high-priority Spain/UK records against AZI, Camino Medio, Nalanda, OBC, Cambridge/Lancaster group pages, and London Fo Guang Shan; see scripts/data/raw/spain-uk-batch25-2026-10-08.md.",
     "coverageEstimate": "Strong coverage of the four main networks (Sōtō CBSZ, AZI/Kosen-Deshimaru, Seikyuji/Camino Medio, Kwan Um) and the Plum Village lay sangha network. Sanbō Zen presence in Spain is a single hub (Zendo Betania + offshoots). Rinzai presence is limited (Vietnamese Lam Te lineage via IIZE). No active Ōbaku presence located. Plum Village lay sanghas are listed selectively (representative subset of ~50 groups; many are home-based without a fixed dojo).",
     "knownGaps": [
       "Some Plum Village 'sanghas' meet in private homes without a fixed practice place — not all are listed",
@@ -372,14 +372,14 @@
       "notes": null
     },
     {
-      "name": "Centro Zen Barcelona",
+      "name": "Centre zen de Barcelona",
       "city": "Barcelona",
       "region": "Cataluña",
       "lineage": "Sōtō",
       "address": "C/ Bacardí 10, Sants, 08028 Barcelona",
-      "url": "https://www.zenbarcelona.org/",
-      "source_url": "https://espanol.buddhistdoor.net/directorio-de-entidades-budistas-en-cataluna-e-islas-baleares-espana/",
-      "notes": null
+      "url": "https://www.zen-azi.org/en/node/568",
+      "source_url": "https://www.zen-azi.org/en/node/568",
+      "notes": "The Association Zen Internationale listing gives the current center name and Calle Bacardí 10, baixos, 08028 Barcelona. Retain city precision because the address was not matched confidently to a mapped point. Checked 2026-10-08."
     },
     {
       "name": "Dojo Zen Barcelona Kannon",
@@ -424,14 +424,14 @@
       "notes": null
     },
     {
-      "name": "Nalanda Dojo Zen",
+      "name": "Centre Zen Nalanda",
       "city": "Barcelona",
       "region": "Cataluña",
       "lineage": "Sōtō",
       "address": "C/ Agregació 44, 08041 Barcelona",
-      "url": "https://www.nalanda.cat/",
-      "source_url": "https://espanol.buddhistdoor.net/directorio-de-entidades-budistas-en-cataluna-e-islas-baleares-espana/",
-      "notes": null
+      "url": "https://nalanda.cat/el-centre-de-practica/",
+      "source_url": "https://nalanda.cat/el-centre-de-practica/",
+      "notes": "Current practice page gives Carrer Agregació 44, 08041 Barcelona; about/history pages identify its practice as Soto Zen inspired by Taisen Deshimaru. Exact address matches the existing point. Checked 2026-10-08."
     },
     {
       "name": "Tenryuji",
@@ -444,14 +444,14 @@
       "notes": null
     },
     {
-      "name": "AZC-AZI Dojo Zen de Girona",
+      "name": "Dojo zen de Girona",
       "city": "Girona",
       "region": "Cataluña",
       "lineage": "Sōtō / AZI",
       "address": "Gran Via Jaume I 44, 3er 2ª B, 17001 Girona",
-      "url": "https://www.zengirona.net/",
-      "source_url": "https://espanol.buddhistdoor.net/directorio-de-entidades-budistas-en-cataluna-e-islas-baleares-espana/",
-      "notes": null
+      "url": "https://www.zen-azi.org/en/node/640",
+      "source_url": "https://www.zen-azi.org/en/node/640",
+      "notes": "The current Association Zen Internationale listing gives Avda. Jaume I 44, 3rd floor, 2B, 17001 Girona and links the dojo site. Supports AZI association and Sōtō practice; no current schedule is asserted. Checked 2026-10-08."
     },
     {
       "name": "AZC-AZI Grupo de Zen de Reus",
@@ -547,41 +547,41 @@
       "name": "Dojo Zen de Alicante (Camino Medio)",
       "city": "Alicante",
       "region": "Comunidad Valenciana",
-      "lineage": "Sōtō / Camino Medio",
-      "address": null,
+      "lineage": "Sōtō Zen / Comunidad Soto Zen Camino Medio",
+      "address": "Calle Angelita Rodríguez Preciado 3, esc. 2, entlo. A, 03012 Alicante",
       "url": "https://caminomedio.org/alicante/",
-      "source_url": "https://caminomedio.org/",
-      "notes": "Local sangha of Comunidad Soto Zen Camino Medio."
+      "source_url": "https://caminomedio.org/comunidad/",
+      "notes": "Current Camino Medio pages identify an in-person Soto Zen group and give this address. Its dojo page and community summary differ on schedule details, so no schedule is copied. Checked 2026-10-08."
     },
     {
       "name": "Dojo Zen de Elche (Camino Medio)",
       "city": "Elche",
       "region": "Comunidad Valenciana",
-      "lineage": "Sōtō / Camino Medio",
+      "lineage": "Sōtō Zen / Comunidad Soto Zen Camino Medio",
       "address": null,
       "url": "https://caminomedio.org/elche/",
-      "source_url": "https://caminomedio.org/",
-      "notes": null
+      "source_url": "https://caminomedio.org/comunidad/",
+      "notes": "Current Camino Medio pages identify an in-person Soto Zen group in Elche. The dojo and community pages give conflicting street addresses; keep the city-level location and leave the visitor address unverified. Checked 2026-10-08."
     },
     {
       "name": "Dojo Zen de Murcia (Camino Medio)",
       "city": "Murcia",
       "region": "Región de Murcia",
-      "lineage": "Sōtō / Camino Medio",
-      "address": null,
+      "lineage": "Sōtō Zen / Comunidad Soto Zen Camino Medio",
+      "address": "Calle de la Gloria 59, Murcia",
       "url": "https://caminomedio.org/murcia/",
-      "source_url": "https://caminomedio.org/",
-      "notes": null
+      "source_url": "https://caminomedio.org/murcia/",
+      "notes": "Current dojo page identifies an in-person Soto Zen group and gives Calle de la Gloria 59. Group and community summaries differ on schedule details, so no schedule is copied. Checked 2026-10-08."
     },
     {
       "name": "Grupo Zen de Valencia (Camino Medio)",
       "city": "Valencia",
       "region": "Comunidad Valenciana",
-      "lineage": "Sōtō / Camino Medio",
-      "address": null,
+      "lineage": "Sōtō Zen / Comunidad Soto Zen Camino Medio",
+      "address": "Espai Navia, Plaza Alcalde Domingo Torres 4, Valencia",
       "url": "https://caminomedio.org/valencia/",
-      "source_url": "https://caminomedio.org/",
-      "notes": null
+      "source_url": "https://caminomedio.org/valencia/",
+      "notes": "Current group page identifies a Soto Zen practice group and meeting venue. Visitors are asked to contact the group to arrange a session; no standing schedule is asserted. Checked 2026-10-08."
     },
     {
       "name": "Meditación Zen Cantabria (IIZE)",
