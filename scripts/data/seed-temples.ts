@@ -371,6 +371,32 @@ export const SRC_LOST_COIN = "src_lost_coin";
 export const SRC_NEW_RIVER = "src_new_river";
 export const SRC_ANGERS_SANGHA = "src_angers_sangha";
 export const SRC_CHEMIN_EVEIL = "src_chemin_eveil";
+export const SRC_AVATAMSAKA_CA = "src_avatamsaka_ca";
+export const SRC_CALGARY_SOTO = "src_calgary_soto";
+export const SRC_CLEAR_WAY_CA = "src_clear_way_ca";
+export const SRC_FGS_TORONTO = "src_fgs_toronto";
+export const SRC_LONDON_ZEN_CA = "src_london_zen_ca";
+export const SRC_MONTREAL_ZEN = "src_montreal_zen";
+export const SRC_ROCKY_MOUNTAIN_CA = "src_rocky_mountain_ca";
+export const SRC_TORONTO_ZEN = "src_toronto_zen";
+export const SRC_WHITE_WIND = "src_white_wind";
+export const SRC_ZEN_BUDDHIST_TORONTO = "src_zen_buddhist_toronto";
+export const SRC_ZENWEST = "src_zenwest";
+export const SRC_PLUIE_DHARMA = "src_pluie_dharma";
+export const SRC_PLUIE_FLEURIT = "src_pluie_fleurit";
+export const SRC_ALSACE_RIVIERE = "src_alsace_riviere";
+export const SRC_UN_LOTUS_PERPIGNAN = "src_un_lotus_perpignan";
+export const SRC_ZENCARE = "src_zencare";
+export const SRC_STILL_MIND = "src_still_mind";
+export const SRC_OPEN_MIND_ZEN = "src_open_mind_zen";
+export const SRC_VILLAGE_ZENDO_AFFILIATES = "src_village_zendo_affiliates";
+export const SRC_PRAIRIE_ZEN = "src_prairie_zen";
+export const SRC_RMERC = "src_rmerc";
+export const SRC_SAGE_TAOS = "src_sage_taos";
+export const SRC_SLO_ZEN = "src_slo_zen";
+export const SRC_SANTA_ROSA_ZEN = "src_santa_rosa_zen";
+export const SRC_SOUTHERN_WV_ZEN = "src_southern_wv_zen";
+export const SRC_SWEETWATER_ZEN = "src_sweetwater_zen";
 
 /** Global Zen practice-centre research bundle — fallback citation for the
  * Gemini Deep Research 2026-05 ingest where the row's primary directory
@@ -1495,6 +1521,32 @@ export const TEMPLE_SOURCES: {
     { id: SRC_NEW_RIVER, type: "website", title: "New River Zen Community — current schedule", author: "New River Zen Community", url: "https://newriverzen.org/schedule/", publicationDate: "", reliability: "authoritative" },
     { id: SRC_ANGERS_SANGHA, type: "website", title: "Les Trois Rivières — group updates", author: "Sangha Les Trois Rivières", url: "https://bouddhisme-thich-nhat-hanh-angers.blogspot.com/", publicationDate: "", reliability: "authoritative" },
     { id: SRC_CHEMIN_EVEIL, type: "website", title: "Chemin d’Éveil — Amplepuis practice", author: "Chemin d’Éveil", url: "https://chemindeveil.over-blog.com/page/8", publicationDate: "2025-08", reliability: "authoritative" },
+    { id: SRC_AVATAMSAKA_CA, type: "website", title: "Avatamsaka Monastery — daily schedule", author: "Avatamsaka Monastery", url: "https://www.avatamsaka.ca/daily-schedule.html", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_CALGARY_SOTO, type: "website", title: "Calgary Sōtō Zen — current schedule", author: "Calgary Sōtō Zen", url: "https://calgarysotozen.org/schedule", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_CLEAR_WAY_CA, type: "website", title: "Clear Way Zen — history and practice", author: "Clear Way Zen", url: "https://www.clearwayzen.ca/our-history/", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_FGS_TORONTO, type: "website", title: "Fo Guang Shan Temple of Toronto — temple and programs", author: "Fo Guang Shan Temple of Toronto", url: "https://www.fgs.ca/", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_LONDON_ZEN_CA, type: "website", title: "London Zen Centre — current events", author: "London Zen Centre", url: "https://londonzencentre.org/events", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_MONTREAL_ZEN, type: "website", title: "Montreal Zen Center — current calendar", author: "Montreal Zen Center", url: "https://zenmontreal.org/calendar.html", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_ROCKY_MOUNTAIN_CA, type: "website", title: "Rocky Mountain Zen — current practice", author: "Rocky Mountain Zen", url: "https://rockymountainzen.weebly.com/", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_TORONTO_ZEN, type: "website", title: "Toronto Zen Centre — current schedule", author: "Toronto Zen Centre", url: "https://torontozen.org/schedule.html", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_WHITE_WIND, type: "website", title: "White Wind Zen Community — centres and schedules", author: "White Wind Zen Community", url: "https://wwzc.org/daily-schedules/", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_ZEN_BUDDHIST_TORONTO, type: "website", title: "Zen Buddhist Temple Toronto — practice", author: "Zen Buddhist Temple", url: "https://www.zenbuddhisttemple.org/toronto", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_ZENWEST, type: "website", title: "Zenwest Buddhist Society — practice and history", author: "Zenwest Buddhist Society", url: "https://www.zenwest.ca/", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_PLUIE_DHARMA, type: "website", title: "Pluie du Dharma — locations and practice", author: "Sangha Pluie du Dharma", url: "https://www.lapluiedudharma.fr/page-list/coordonnees", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_PLUIE_FLEURIT, type: "website", title: "Pluie qui Fleurit — Rouen sangha", author: "Sangha Pluie qui Fleurit", url: "https://www.pluiequifleurit.net/", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_ALSACE_RIVIERE, type: "website", title: "Rivière du Dharma — current practice", author: "Cœur des Sanghas Alsace", url: "https://sites.google.com/view/coeur-des-sanghas-alsace/les-sanghas/rivi%C3%A8re-du-dharma", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_UN_LOTUS_PERPIGNAN, type: "website", title: "Un Lotus s’épanouit — Perpignan sangha", author: "Un Lotus s’épanouit", url: "https://unlotussepanouitaperpignan.blogspot.com/", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_ZENCARE, type: "website", title: "New York Zen Center for Contemplative Care — lineage and practice", author: "New York Zen Center for Contemplative Care", url: "https://zencare.org/meditation-practice", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_STILL_MIND, type: "website", title: "Still Mind Zendo — lineage and schedule", author: "Still Mind Zendo", url: "https://www.stillmindzendo.org/meditation-schedule", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_OPEN_MIND_ZEN, type: "website", title: "Open Mind Zen — current events", author: "Open Mind Zen", url: "https://openmindzen.com/upcoming-events/", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_VILLAGE_ZENDO_AFFILIATES, type: "website", title: "Village Zendo lineage centers", author: "Village Zendo", url: "https://villagezendo.org/zen-centers-in-the-village-zendo-lineage/", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_PRAIRIE_ZEN, type: "website", title: "Prairie Zen Center — current schedule", author: "Prairie Zen Center", url: "https://prairiezen.org/Schedules.html", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_RMERC, type: "website", title: "Rocky Mountain Ecodharma Retreat Center — calendar", author: "Rocky Mountain Ecodharma Retreat Center", url: "https://rmerc.org/calendar/", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_SAGE_TAOS, type: "website", title: "Sage Institute — mission and programs", author: "Sage Institute", url: "https://www.sagetaos.com/about", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_SLO_ZEN, type: "website", title: "San Luis Obispo Zen Circle — practice", author: "San Luis Obispo Zen Circle", url: "https://www.slozc.org/home", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_SANTA_ROSA_ZEN, type: "website", title: "Santa Rosa Zen Group — practice and identity", author: "Santa Rosa Zen Group", url: "https://www.santarosazengroup.org/about", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_SOUTHERN_WV_ZEN, type: "website", title: "Southern West Virginia Zen Group — current practice", author: "Southern West Virginia Zen Group", url: "https://southernwvzen.org/index.php/how-to-practice-zazen/", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_SWEETWATER_ZEN, type: "website", title: "Sweetwater Zen Center — current schedule", author: "Sweetwater Zen Center", url: "https://www.swzc.org/visit-us/event-schedule", publicationDate: "", reliability: "authoritative" },
     {
       id: SRC_FOGUANG,
       type: "website",
@@ -3835,33 +3887,33 @@ export const SEED_TEMPLES: TempleSeed[] = [
   {
     slug: "still-mind-zendo",
     names: [{ locale: "en", value: "Still Mind Zendo" }],
-    lat: 40.7265,
-    lng: -73.9942,
+    lat: 40.7372304,
+    lng: -73.9949422,
     region: "New York",
     country: "United States",
     foundedYear: null,
     foundedPrecision: null,
     schoolSlug: "white-plum-asanga",
     status: "active",
-    sourceId: SRC_WHITEPLUM,
+    sourceId: SRC_STILL_MIND,
     sourceExcerpt:
-      "Still Mind Zendo in Manhattan — a White Plum Asanga affiliated Zen centre.",
+      "Still Mind Zendo at 34 West 15th Street in Manhattan publishes current in-person and online practice and identifies its Maezumi/White Plum lineage.",
     url: "https://stillmindzendo.org/",
   },
   {
     slug: "ny-zen-center-contemplative-care",
     names: [{ locale: "en", value: "New York Zen Center for Contemplative Care" }],
-    lat: 40.7549,
-    lng: -73.9840,
+    lat: 40.7435881,
+    lng: -73.9933365,
     region: "New York",
     country: "United States",
     foundedYear: 2007,
     foundedPrecision: "circa",
     schoolSlug: "white-plum-asanga",
     status: "active",
-    sourceId: SRC_WHITEPLUM,
+    sourceId: SRC_ZENCARE,
     sourceExcerpt:
-      "New York Zen Center for Contemplative Care — a White Plum Asanga affiliated centre specialising in contemplative end-of-life and caregiving training.",
+      "New York Zen Center for Contemplative Care at 119 West 23rd Street publishes current in-person and online meditation and identifies its Sōtō/White Plum lineage.",
     url: "https://zencare.org/",
   },
 
@@ -5029,9 +5081,9 @@ export const SEED_TEMPLES: TempleSeed[] = [
     foundedPrecision: "exact",
     schoolSlug: "chan",
     status: "active",
-    sourceId: SRC_WIKIPEDIA,
+    sourceId: SRC_FGS_TORONTO,
     sourceExcerpt:
-      "Fo Guang Shan Temple of Toronto at 6525 Millcreek Drive, Mississauga, ON L5N 7K6; planning began 1991, land purchased 1992, 50,000 sq ft temple completed 1997.",
+      "Fo Guang Shan Temple of Toronto at 6525 Millcreek Drive, Mississauga, is a Humanistic Buddhist temple with Chan meditation among its programs; the official site publishes current services and classes.",
     url: "https://www.fgs.ca/",
   },
   {

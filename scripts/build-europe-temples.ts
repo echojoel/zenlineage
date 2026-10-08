@@ -661,6 +661,33 @@ function pickSourceId(sourceUrl: string, lineage: string): string {
   if (u.includes("bouddhisme-thich-nhat-hanh-angers.blogspot.com"))
     return "src_angers_sangha";
   if (u.includes("chemindeveil.over-blog.com")) return "src_chemin_eveil";
+  if (u.includes("avatamsaka.ca")) return "src_avatamsaka_ca";
+  if (u.includes("calgarysotozen.org")) return "src_calgary_soto";
+  if (u.includes("clearwayzen.ca")) return "src_clear_way_ca";
+  if (u.includes("londonzencentre.org")) return "src_london_zen_ca";
+  if (u.includes("zenmontreal.org/calendar")) return "src_montreal_zen";
+  if (u.includes("rockymountainzen.weebly.com")) return "src_rocky_mountain_ca";
+  if (u.includes("torontozen.org")) return "src_toronto_zen";
+  if (u.includes("wwzc.org")) return "src_white_wind";
+  if (u.includes("zenbuddhisttemple.org/toronto"))
+    return "src_zen_buddhist_toronto";
+  if (u.includes("zenwest.ca")) return "src_zenwest";
+  if (u.includes("lapluiedudharma.fr")) return "src_pluie_dharma";
+  if (u.includes("pluiequifleurit.net")) return "src_pluie_fleurit";
+  if (u.includes("coeur-des-sanghas-alsace/les-sanghas/rivi"))
+    return "src_alsace_riviere";
+  if (u.includes("unlotussepanouitaperpignan.blogspot.com"))
+    return "src_un_lotus_perpignan";
+  if (u.includes("openmindzen.com")) return "src_open_mind_zen";
+  if (u.includes("villagezendo.org/zen-centers"))
+    return "src_village_zendo_affiliates";
+  if (u.includes("prairiezen.org")) return "src_prairie_zen";
+  if (u.includes("rmerc.org")) return "src_rmerc";
+  if (u.includes("sagetaos.com")) return "src_sage_taos";
+  if (u.includes("slozc.org")) return "src_slo_zen";
+  if (u.includes("santarosazengroup.org")) return "src_santa_rosa_zen";
+  if (u.includes("southernwvzen.org")) return "src_southern_wv_zen";
+  if (u.includes("swzc.org")) return "src_sweetwater_zen";
 
   // ── North-American sect umbrellas ───────────────────────────────────
   if (u.includes("szba.org")) return "src_szba";

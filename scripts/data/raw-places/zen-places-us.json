@@ -472,10 +472,10 @@
       "city": "National City",
       "region": "California",
       "lineage": "White Plum (Maezumi/Bernie Glassman lineage)",
-      "address": "National City, CA",
+      "address": "2727 Highland Avenue, National City, CA",
       "url": "http://www.swzc.org/",
-      "source_url": "https://whiteplum.org/membership-list-public/",
-      "notes": "White Plum Asanga; Zen Peacemakers affiliate."
+      "source_url": "https://www.swzc.org/visit-us/event-schedule",
+      "notes": "Active urban temple affiliated with White Plum, Sōtō and Zen Peacemakers. The official site publishes weekday and Sunday practice plus current events."
     },
     {
       "name": "Bay Zen Center",
@@ -492,10 +492,10 @@
       "city": "Los Osos",
       "region": "California",
       "lineage": "White Plum (Maezumi lineage)",
-      "address": "Los Osos, CA",
-      "url": "https://slozc.org/",
-      "source_url": "https://whiteplum.org/membership-map/",
-      "notes": "White Plum Asanga member."
+      "address": "465 Los Osos Valley Road, Los Osos, CA",
+      "url": "https://www.slozc.org/home",
+      "source_url": "https://www.slozc.org/home",
+      "notes": "Active ZCLA-affiliated White Plum practice group led by Mark Shōgen Bloodgood; consult its current program before visiting."
     },
     {
       "name": "Citrus Zen",
@@ -524,8 +524,8 @@
       "lineage": "White Plum (Maezumi lineage)",
       "address": "Santa Rosa, CA",
       "url": "https://santarosazengroup.org/",
-      "source_url": "https://whiteplum.org/membership-list-public/",
-      "notes": "White Plum Asanga member."
+      "source_url": "https://www.santarosazengroup.org/about",
+      "notes": "Active meditation group with weekly Wednesday, weekday morning and Sunday practice. A teacher appears in the White Plum member list; the group describes itself as primarily Zen meditation and not Buddhist."
     },
     {
       "name": "Lost Coin Zen",
@@ -771,11 +771,11 @@
       "name": "Rocky Mountain Ecodharma Retreat Center",
       "city": "Boulder County",
       "region": "Colorado",
-      "lineage": "Zen Peacemakers / EcoDharma",
-      "address": null,
+      "lineage": "Buddhist ecodharma retreat center; hosts Zen and other traditions",
+      "address": "8941 Overland Road, Ward, CO",
       "url": "https://rmerc.org/",
-      "source_url": "https://zenpeacemakers.org/membership/affiliate-network/",
-      "notes": "Zen Peacemakers affiliate; the center's own site lists 2026 retreats. Published street addresses conflict, so contact the center before visiting (checked 2026-10-08)."
+      "source_url": "https://rmerc.org/calendar/",
+      "notes": "Active retreat venue with a current Buddhist and ecodharma calendar. No item-level White Plum affiliation was found; Zen retreats are among its programs."
     },
     {
       "name": "New Haven Zen Center",
@@ -813,9 +813,9 @@
       "region": "District of Columbia",
       "lineage": "White Plum (Maezumi lineage)",
       "address": "Washington, DC",
-      "url": "https://skyabove.org/",
+      "url": "https://www.skyabovezen.org/",
       "source_url": "https://whiteplum.org/membership-list-public/",
-      "notes": "White Plum Asanga; teacher Susan KoDo Efird."
+      "notes": "White Plum member directory associates Susan KoDo Efird with this Washington, DC group. The current group domain resolves, but venue and schedule remain to be confirmed."
     },
     {
       "name": "All Beings Zen Sangha",
@@ -901,8 +901,8 @@
       "lineage": "White Plum (Maezumi lineage)",
       "address": null,
       "url": "https://openmindzen.com/",
-      "source_url": "https://whiteplum.org/membership-list-public/",
-      "notes": "White Plum Asanga; teacher Michael Jiun Stamper."
+      "source_url": "https://openmindzen.com/upcoming-events/",
+      "notes": "Active lay Zen community with weekly online practice, monthly day retreats and residential retreats; current White Plum members are listed for the organization."
     },
     {
       "name": "Palmetto Zendo",
@@ -1139,10 +1139,10 @@
       "city": "Champaign",
       "region": "Illinois",
       "lineage": "White Plum (Maezumi lineage)",
-      "address": null,
+      "address": "515 S Prospect Avenue, Champaign, IL",
       "url": "https://prairiezen.org/",
-      "source_url": "https://whiteplum.org/membership-list-public/",
-      "notes": "White Plum Asanga; teacher Elihu Genmyo Smith."
+      "source_url": "https://prairiezen.org/Schedules.html",
+      "notes": "Active Ordinary Mind/Joko Beck lineage center with weekday, Thursday and Sunday practice, including Zoom; guided by Elihu Genmyo Smith and Ed Mushin Russell."
     },
     {
       "name": "One River Zen",
@@ -1416,13 +1416,13 @@
     },
     {
       "name": "Oxbow Zen",
-      "city": "Florence",
+      "city": "Northampton",
       "region": "Massachusetts",
       "lineage": "White Plum (Maezumi lineage)",
-      "address": "Florence, MA",
+      "address": "Northampton, MA",
       "url": "https://oxbowzen.org/",
-      "source_url": "https://whiteplum.org/membership-list-public/",
-      "notes": "White Plum Asanga; teacher Lisa Soshin Dufour."
+      "source_url": "https://villagezendo.org/zen-centers-in-the-village-zendo-lineage/",
+      "notes": "Current Village Zendo lineage affiliate led by Lisa Soshin Dufour and others; confirm the local venue and schedule before visiting."
     },
     {
       "name": "Two Streams Zen",
@@ -1752,11 +1752,11 @@
       "name": "Sage Institute for Creativity and Consciousness",
       "city": "Taos",
       "region": "New Mexico",
-      "lineage": "White Plum (Maezumi lineage)",
+      "lineage": "White Plum-associated meditation education",
       "address": "Taos, NM",
-      "url": "https://sagetaos.com/",
-      "source_url": "https://whiteplum.org/membership-list-public/",
-      "notes": "White Plum Asanga; teacher Sean Tetsudo Murphy."
+      "url": "https://www.sagetaos.com/",
+      "source_url": "https://www.sagetaos.com/about",
+      "notes": "Meditation education nonprofit founded by White Plum teacher Sean Tetsudo Murphy, with classes, retreats and online training; no standing public weekly zendo was verified."
     },
     {
       "name": "Mountain Cloud Zen Center",
@@ -1853,10 +1853,10 @@
       "city": "New York",
       "region": "New York",
       "lineage": "White Plum (Maezumi lineage)",
-      "address": "New York, NY",
+      "address": null,
       "url": "https://notraceszendo.com/",
       "source_url": "https://whiteplum.org/membership-list-public/",
-      "notes": "White Plum Asanga; teacher Nancy Mujo Baker."
+      "notes": "White Plum member Nancy Mujo Baker is associated with this small New York and virtual sitting group. Its former website no longer resolves and current cadence remains unconfirmed."
     },
     {
       "name": "Zen Community of Staten Island",
@@ -1873,10 +1873,10 @@
       "city": "Bridgehampton",
       "region": "New York",
       "lineage": "White Plum (Maezumi lineage)",
-      "address": "Bridgehampton, NY",
+      "address": null,
       "url": "https://oceanzendo.org/",
       "source_url": "https://whiteplum.org/membership-list-public/",
-      "notes": "White Plum Asanga; teacher Michel Engu Dobbs."
+      "notes": "White Plum member Michel Engu Dobbs is associated with Ocean Zendo in New York. The former website no longer resolves and current venue and schedule remain unconfirmed."
     },
     {
       "name": "Empty Hand Zen Center",
@@ -2610,13 +2610,13 @@
     },
     {
       "name": "Southern West Virginia Zen Group",
-      "city": "Lewisburg",
+      "city": "Fayetteville",
       "region": "West Virginia",
       "lineage": "White Plum (Maezumi lineage)",
-      "address": "Lewisburg, WV",
+      "address": "Fayetteville, WV",
       "url": "https://southernwvzen.org/",
-      "source_url": "https://whiteplum.org/membership-list-public/",
-      "notes": "White Plum Asanga; teacher Jenny Yuan Shan Boyd."
+      "source_url": "https://southernwvzen.org/index.php/how-to-practice-zazen/",
+      "notes": "Active Monday evening hybrid practice facilitated by White Plum member Jenny Yuan Shan Boyd; contact the group for the current venue."
     },
     {
       "name": "Boundless Sky Temple",

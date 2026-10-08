@@ -9,27 +9,27 @@ establish a group's current activity, lineage, or safeguarding.
 
 | Check | Result |
 |---|---:|
-| Place records | 1,688 |
+| Place records | 1,684 |
 | Distinct preferred URLs checked | 1,358 |
-| URLs returning 2xx/3xx | 1,134 |
-| URLs returning 404/410 | 10 (used by 11 records) |
-| URLs blocked or rate limited | 21 (used by 23 records) |
-| URLs with inconclusive network/server results | 193 (used by 205 records) |
+| URLs returning 2xx/3xx | 1,140 |
+| URLs returning 404/410 | 5 (used by 6 records) |
+| URLs blocked or rate limited | 20 (used by 22 records) |
+| URLs with inconclusive network/server results | 193 (used by 206 records) |
 | Records with no preferred URL | 9 |
-| Records with only a `popular`-class citation | 477 |
-| Records needing an item-level check because their sole citation is broad | 232 |
-| Records queued to check first (overlapping signals combined) | 716 |
-| City-level, approximate map pins | 854 |
+| Records with only a `popular`-class citation | 462 |
+| Records needing an item-level check because their sole citation is broad | 203 |
+| Records queued to check first (overlapping signals combined) | 671 |
+| City-level, approximate map pins | 852 |
 
 Every remaining place has exactly one citation, currently attached to `coordinates`.
 That citation alone cannot establish affiliation, an active schedule, or a
-safeguarding process. The seed labels all 1,688 places `active`, but it has no
+safeguarding process. The seed labels all 1,684 places `active`, but it has no
 per-place last-checked date. The public map and exported JSON no longer expose
 that seed status as a verified claim.
 
-The 232 broad-page citations comprise 185 rows citing Plum Village's
+The 203 broad-page citations comprise 168 rows citing Plum Village's
 [monastic centres page](https://plumvillage.org/community/monastic-practice-centres)
-and 47 citing the [White Plum founder page](https://whiteplum.org/founder/).
+and 35 citing the [White Plum founder page](https://whiteplum.org/founder/).
 Those pages do not individually support all the lay groups assigned to them.
 The review queue now flags each for a direct group or institutional listing.
 This is a limitation of our citations, not a claim that any group has doubtful
@@ -237,10 +237,23 @@ removed because their current public work does not establish a standing Zen
 practice place. Two French sanghas explicitly marked paused were removed from
 the active map. These scope and status decisions are not conduct findings.
 
+A further cohort replaced generic citations for Canadian Zen groups, French
+Plum Village communities, and White Plum related practices with current group
+pages, schedules, member profiles, and exact venues. The review corrected the
+Montreal Zen Center venue, several Canadian schedules, and current locations
+for Prairie Zen, San Luis Obispo Zen Circle, Sweetwater, Still Mind, and the
+New York Zen Center for Contemplative Care. Rocky Mountain Ecodharma is now
+described as a multi-tradition retreat venue because no item-level White Plum
+affiliation was found. The duplicate Centro Zen Chile and unsupported
+Bydgoszcz Kanzeon satellite were consolidated into their current canonical
+organizations. Centre Tchenrezik and the obsolete Sittard listing were removed
+after their old links disappeared and no current practice-place evidence was
+found. Missing evidence remains an uncertainty, not a conduct finding.
+
 ## Next review work
 
-Start with the 11 records whose preferred URL returned 404/410 and the 9
-without a preferred URL. Then review the 477 `popular`-only citations and 232
+Start with the 6 records whose preferred URL returned 404/410 and the 9
+without a preferred URL. Then review the 462 `popular`-only citations and 203
 broad-page citations against direct group or institutional pages. For each correction, update
 the canonical seed or raw place data, cite the direct source, and rerun the
 seed and audit. Do not infer misconduct from missing websites or policies.
