@@ -291,6 +291,30 @@ export const SRC_YOKOJI_CENTER = "src_yokoji_zen_center";
 export const SRC_VILLAGE_ZENDO = "src_village_zendo";
 export const SRC_ZEN_ALKMAAR = "src_zen_alkmaar";
 export const SRC_YORK_ZEN = "src_york_zen_group";
+export const SRC_DOJO_ZEN_BUENOS_AIRES = "src_dojo_zen_buenos_aires";
+export const SRC_MAITREYA_CHILE = "src_maitreya_zen_chile";
+export const SRC_ZENDO_TUNQUEN = "src_zendo_tunquen";
+export const SRC_MONTANA_SILENCIO = "src_montana_silencio";
+export const SRC_CASA_ZEN_COSTA_RICA = "src_casa_zen_costa_rica";
+export const SRC_CASA_ZEN_MEXICO = "src_casa_zen_mexico";
+export const SRC_DHAMMAPADA_MEXICO = "src_dhammapada_mexico";
+export const SRC_MAR_DE_JADE = "src_mar_de_jade";
+export const SRC_SOTO_ZEN_PERU = "src_soto_zen_peru";
+export const SRC_SOTOZEN_PERU_OFFICIAL = "src_sotozen_peru_official";
+export const SRC_URUGUAY_CIVIL_MAP = "src_uruguay_civil_society_map";
+export const SRC_DHARMALOKA_CROATIA = "src_dharmaloka_croatia";
+export const SRC_HAVREDAL_ZENDO = "src_havredal_zendo";
+export const SRC_SANNEJI_FINLAND = "src_sanneji_zen_finland";
+export const SRC_KAJO_ZENDO = "src_kajo_zendo";
+export const SRC_SYDANMIELI_ZEN = "src_sydanmieli_zen";
+export const SRC_TAMPERE_ZEN = "src_tampere_zen";
+export const SRC_TAN_KAPUJA_ZEN = "src_tan_kapuja_zen";
+export const SRC_FUKU_GEN_BERLIN = "src_fuku_gen_berlin";
+export const SRC_AUCKLAND_ZEN_CENTER = "src_auckland_zen_center";
+export const SRC_DUNEDIN_ZEN = "src_dunedin_zen";
+export const SRC_BODHIMOUNT_TEACHER = "src_bodhimount_teacher";
+export const SRC_MELBOURNE_ZEN_GROUPS = "src_melbourne_zen_groups";
+export const SRC_MILDURA_ZEN = "src_mildura_zen";
 export const SRC_RIEB_VENEZUELA = "src_rieb_venezuela_directory";
 export const SRC_DE_BERKELEY = "src_de_berkeley_zen";
 export const SRC_VIA_ZEN_COMMUNITIES = "src_via_zen_communities";
@@ -1746,6 +1770,30 @@ export const TEMPLE_SOURCES: {
     { id: SRC_VILLAGE_ZENDO, type: "website", title: "Village Zendo — practice and lineage", author: "Village Zendo", url: "https://villagezendo.org/", publicationDate: "", reliability: "authoritative" },
     { id: SRC_ZEN_ALKMAAR, type: "website", title: "Zen Alkmaar — practice and teachers", author: "Zen Alkmaar", url: "https://zenalkmaar.nl/", publicationDate: "", reliability: "authoritative" },
     { id: SRC_YORK_ZEN, type: "website", title: "York Zen Group — practice and lineage", author: "York Zen Group", url: "https://www.yorkzengroupwgzs.org/", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_DOJO_ZEN_BUENOS_AIRES, type: "website", title: "Dojo Zen Buenos Aires — schedule and lineage", author: "Dojo Zen Buenos Aires", url: "https://dojozenbuenosaires.com.ar/horarios/", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_MAITREYA_CHILE, type: "website", title: "Maitreya Comunidad — practice and teachers", author: "Maitreya Comunidad", url: "https://www.maitreyazen.cl/", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_ZENDO_TUNQUEN, type: "website", title: "Zendo Tunquén — residential practice", author: "El Zendo", url: "https://elzendo.com/wiken-zen/", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_MONTANA_SILENCIO, type: "website", title: "Montaña de Silencio — current program", author: "Montaña de Silencio", url: "https://www.montanadesilencio.org/programacion/", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_CASA_ZEN_COSTA_RICA, type: "website", title: "Casa Zen de Costa Rica — community and practice", author: "Casa Zen de Costa Rica", url: "https://www.casazen.org/", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_CASA_ZEN_MEXICO, type: "website", title: "Casa Zen México — community and lineage", author: "Casa Zen México", url: "https://casazenmexico.com/", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_DHAMMAPADA_MEXICO, type: "website", title: "Dhammapada Budismo Zen — weekly practice", author: "Sangha Dhammapada", url: "https://budismozen.org/mx/practica-semanal/", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_MAR_DE_JADE, type: "website", title: "Mar de Jade — retreat calendar", author: "Mar de Jade", url: "https://mardejade.com/", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_SOTO_ZEN_PERU, type: "website", title: "Comunidad Budista Sōtō Zenshū del Perú", author: "Sōtō Zen Perú", url: "https://www.sotozenperu.com/la-comunidad-zen", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_SOTOZEN_PERU_OFFICIAL, type: "website", title: "Sōtōshū temples outside Japan — Peru", author: "Sōtōshū Shūmuchō", url: "https://www.sotozen.com/eng/temples/outside_jp/Peru/", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_URUGUAY_CIVIL_MAP, type: "website", title: "Uruguay civil-society map — Asociación Zen del Uruguay", author: "Mapeo de la Sociedad Civil", url: "https://www.mapeosociedadcivil.uy/organizaciones/asociacion-zen-del-uruguay-zendo-de-los-tres-tesoros/", publicationDate: "2024", reliability: "secondary" },
+    { id: SRC_DHARMALOKA_CROATIA, type: "website", title: "Dharmaloka Chan Retreat Center — programs", author: "Dharmaloka", url: "https://chan.hr/en/programs/", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_HAVREDAL_ZENDO, type: "website", title: "Havredal Zendo — current program", author: "Havredal Zendo", url: "https://havredalzendo.dk/program", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_SANNEJI_FINLAND, type: "website", title: "Sanneji Zen — centers and practice", author: "Sanneji Zen", url: "https://zazen.fi/en/zen-centers/", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_KAJO_ZENDO, type: "website", title: "Kajo Zendo Turku — current practice", author: "Kajo Zendo", url: "https://kajozendo.wordpress.com/turku/", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_SYDANMIELI_ZEN, type: "website", title: "Sydänmieli Zen — practice and teacher", author: "Sydänmieli Zen", url: "https://sydanmieli.tzc.fi/", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_TAMPERE_ZEN, type: "website", title: "Tampere Zen Center — current schedule", author: "Tampere Zen Center", url: "https://tzc.fi/category/aikataulu/", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_TAN_KAPUJA_ZEN, type: "website", title: "A Tan Kapuja Zen Közösség — current practice", author: "A Tan Kapuja Zen Közösség", url: "https://zen.hu/", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_FUKU_GEN_BERLIN, type: "website", title: "Fuku Gen Zen Dojo — current information", author: "Fuku Gen Zen Dojo", url: "https://fukugen.de/infos/", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_AUCKLAND_ZEN_CENTER, type: "website", title: "Auckland Zen Centre — current sitting schedule", author: "Auckland Zen Centre", url: "https://www.aucklandzen.org.nz/sitting-schedule", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_DUNEDIN_ZEN, type: "website", title: "Dunedin Zen — local practice", author: "Dunedin Zen", url: "https://dunedinzen.wordpress.com/", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_BODHIMOUNT_TEACHER, type: "website", title: "Bodhi Zendo — Carl Hooper profile", author: "Bodhi Zendo", url: "https://www.bodhizendo.org/index.php/en/zen-teachers/carl-hooper-engl", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_MELBOURNE_ZEN_GROUPS, type: "website", title: "Melbourne Zen Group — other Victorian groups", author: "Melbourne Zen Group", url: "https://mzg.org.au/links/other-zen-groups/", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_MILDURA_ZEN, type: "website", title: "Mildura Zen Group — community and lineage", author: "Mildura Zen Group", url: "https://mildurazengroup.org/about-us/", publicationDate: "", reliability: "authoritative" },
     { id: SRC_PRAIRIE_ZEN, type: "website", title: "Prairie Zen Center — current schedule", author: "Prairie Zen Center", url: "https://prairiezen.org/Schedules.html", publicationDate: "", reliability: "authoritative" },
     { id: SRC_RMERC, type: "website", title: "Rocky Mountain Ecodharma Retreat Center — calendar", author: "Rocky Mountain Ecodharma Retreat Center", url: "https://rmerc.org/calendar/", publicationDate: "", reliability: "authoritative" },
     { id: SRC_SAGE_TAOS, type: "website", title: "Sage Institute — mission and programs", author: "Sage Institute", url: "https://www.sagetaos.com/about", publicationDate: "", reliability: "authoritative" },

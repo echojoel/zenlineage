@@ -17,10 +17,10 @@
       "city": "Auckland",
       "region": "North Island",
       "lineage": "Sanbo Kyodan / Kapleau (Cloud-Water Sangha; Bodhin Kjolhede line)",
-      "address": null,
+      "address": "52 Princes Street, Onehunga, Auckland, New Zealand",
       "url": "https://www.aucklandzen.org.nz/",
-      "source_url": "https://www.aucklandzen.org.nz/our-lineage",
-      "notes": "Founded 2003/2004 by Amala Wrightson Roshi and Richard von Sturmer Sensei (authorised 2024 by Bodhin Kjolhede Roshi). Member of Cloud-Water Sangha (Rochester Zen Center / Kapleau lineage)."
+      "source_url": "https://www.aucklandzen.org.nz/sitting-schedule",
+      "notes": "The center’s current page lists Tuesday, Thursday, and Sunday sittings at 52 Princes Street and publishes 2026 activities. Its lineage page describes its Sanbō/Kapleau and Cloud-Water connection."
     },
     {
       "name": "Diamond Sangha Christchurch (Otautahi) Zen Group",
@@ -28,19 +28,19 @@
       "region": "South Island",
       "lineage": "Diamond Sangha",
       "address": "53 Heathcote Street, Woolston, Christchurch",
-      "url": "http://www.zendo.org.nz/",
-      "source_url": "http://www.zendo.org.nz/contacts.html",
-      "notes": "Lay Diamond Sangha group led by Arthur Wells Roshi, Sean Weaver Sensei, Shona Pierce Sensei. Meets Mondays 7pm at Shona Pierce's home."
+      "url": "https://www.zendo.org.nz/",
+      "source_url": "https://www.zendo.org.nz/",
+      "notes": "The current group page lists Tuesday evening practice at 53 Heathcote Street, plus weekday online sittings and 2026 retreats. It explicitly identifies the Diamond Sangha lineage."
     },
     {
       "name": "Maitai Zendo (Diamond Sangha Nelson)",
       "city": "Nelson",
       "region": "South Island",
       "lineage": "Diamond Sangha",
-      "address": "4 Mayroyd Terrace, Nelson",
+      "address": null,
       "url": "http://www.zendo.org.nz/",
-      "source_url": "http://www.zendo.org.nz/lineage.html",
-      "notes": "Founded 1993 by Mary Jaksch Roshi (NZ's first Zen Master, transmission 2004 from Ross Bolleter Roshi). Ross Bolleter visiting teacher."
+      "source_url": "https://www.zendo.org.nz/teachers.html",
+      "notes": "The current Diamond Sangha NZ teacher page identifies Mary Jaksch as Nelson-based and supports the lineage connection. It does not confirm that Maitai Zendo still meets under this name or at its former address; current venue and schedule remain unverified."
     },
     {
       "name": "Diamond Sangha Wellington Sitting Group",
@@ -49,18 +49,18 @@
       "lineage": "Diamond Sangha",
       "address": null,
       "url": "http://www.zendo.org.nz/",
-      "source_url": "http://www.zendo.org.nz/lineage.html",
-      "notes": "Diamond Sangha NZ Wellington sitting group; coordinated via Sean Weaver Sensei. Visiting teacher Ross Bolleter Roshi."
+      "source_url": "https://diamondsangha.org/resources-2/links/",
+      "notes": "The international Diamond Sangha centers page lists a New Zealand presence in Wellington but provides no current local schedule or venue. Retained for follow-up without asserting current meetings."
     },
     {
       "name": "Dunedin Zen (Diamond Sangha)",
       "city": "Dunedin",
       "region": "South Island",
       "lineage": "Diamond Sangha",
-      "address": "Conscious Living Centre, 6a Carroll Street, Dunedin",
+      "address": "Quaker Meeting House, 15 Park Street, Dunedin, New Zealand",
       "url": "https://dunedinzen.wordpress.com/",
-      "source_url": "http://www.zendo.org.nz/dunedin.html",
-      "notes": "Resident teacher Glenn Wallis Roshi (transmission 2010 from Ross Bolleter Roshi). Regular sittings; sesshins yearly."
+      "source_url": "https://dunedinzen.wordpress.com/",
+      "notes": "The group’s site publishes Thursday evening practice at the Quaker Meeting House, though that recurring page is dated. Diamond Sangha NZ lists current 2026 retreats involving Dunedin teachers; confirm the weekly venue before attending."
     },
     {
       "name": "Green Mountain Zen",
@@ -84,10 +84,10 @@
       "city": "Auckland",
       "region": "North Island",
       "lineage": "Mountains and Rivers Order (Daido Loori lineage)",
-      "address": null,
+      "address": "Nyima Tashi Buddhist Centre, 1066 Great North Road, Point Chevalier, Auckland, New Zealand",
       "url": "https://www.zen.org.nz/auckland.html",
-      "source_url": "https://www.zen.org.nz/",
-      "notes": "MRO Auckland sitting group, part of Zen Institute of NZ (ZENZ). Maezumi/Daido Loori White Plum-adjacent lineage."
+      "source_url": "https://www.zen.org.nz/auckland.html",
+      "notes": "The official MRO New Zealand page lists Wednesday evening zazen at Nyima Tashi Buddhist Centre and explicitly identifies Mountains and Rivers Order practice."
     },
     {
       "name": "Wellington MRO Sitting Group",
@@ -96,28 +96,28 @@
       "lineage": "Mountains and Rivers Order (Daido Loori lineage)",
       "address": null,
       "url": "https://www.zen.org.nz/wellington.html",
-      "source_url": "https://www.zen.org.nz/",
-      "notes": "MRO Wellington sitting group; weekly zazen offered, part of national ZENZ network."
+      "source_url": "https://www.zen.org.nz/wellington.html",
+      "notes": "The official page lists Monday evening practice on The Terrace, but its prose and schedule block conflict about weekly versus first-Monday cadence. Current 2026 retreat evidence supports the group; confirm cadence and exact venue."
     },
     {
       "name": "Christchurch (Otautahi) MRO Sitting Group",
       "city": "Christchurch",
       "region": "South Island",
       "lineage": "Mountains and Rivers Order (Daido Loori lineage)",
-      "address": null,
-      "url": "https://www.zen.org.nz/",
-      "source_url": "https://www.zen.org.nz/",
-      "notes": "MRO Otautahi-Christchurch sitting group; weekly meditation."
+      "address": "Opawa Zendo, 4 Kennedy Place, Hillsborough, Christchurch, New Zealand",
+      "url": "https://www.zen.org.nz/christchurch.html",
+      "source_url": "https://www.zen.org.nz/christchurch.html",
+      "notes": "The official MRO page lists Sunday morning and Tuesday evening practice at Opawa Zendo, with beginner instruction by appointment."
     },
     {
       "name": "Nelson MRO Sitting Group",
       "city": "Nelson",
       "region": "South Island",
       "lineage": "Mountains and Rivers Order (Daido Loori lineage)",
-      "address": null,
-      "url": "https://www.zen.org.nz/",
-      "source_url": "https://www.zen.org.nz/",
-      "notes": "MRO Nelson sitting group, listed as one of six NZ MRO sitting groups."
+      "address": "Southern Skies Zendo, 180 Kawai Street, Nelson, New Zealand",
+      "url": "https://www.zen.org.nz/nelson.html",
+      "source_url": "https://www.zen.org.nz/nelson.html",
+      "notes": "The official page lists weekday morning, Monday evening, and monthly half-day practice at Southern Skies Zendo. The network’s current 2026 events include Nelson programs."
     },
     {
       "name": "Manawatu MRO Sitting Group",
@@ -125,9 +125,9 @@
       "region": "North Island",
       "lineage": "Mountains and Rivers Order (Daido Loori lineage)",
       "address": null,
-      "url": "https://www.zen.org.nz/",
-      "source_url": "https://www.zen.org.nz/",
-      "notes": "MRO Manawatu sitting group; central North Island."
+      "url": "https://www.zen.org.nz/manawatu.html",
+      "source_url": "https://www.zen.org.nz/manawatu.html",
+      "notes": "The official page lists Sunday evening zazen and kinhin in Palmerston North and a local contact, but no street venue."
     },
     {
       "name": "Rotorua MRO Sitting Group",
@@ -135,19 +135,19 @@
       "region": "North Island",
       "lineage": "Mountains and Rivers Order (Daido Loori lineage)",
       "address": null,
-      "url": "https://www.zen.org.nz/",
-      "source_url": "https://www.zen.org.nz/",
-      "notes": "MRO Rotorua sitting group; one of six listed NZ MRO sitting groups."
+      "url": "https://www.zen.org.nz/rotorua.html",
+      "source_url": "https://www.zen.org.nz/rotorua.html",
+      "notes": "The official page lists Monday and Sunday practice in Glenholme, Rotorua, but contains older event copy. Treat the published schedule as needing direct confirmation."
     },
     {
       "name": "Dharma Gaia",
       "city": "Coromandel",
       "region": "North Island",
       "lineage": "Plum Village (Thich Nhat Hanh, Vietnamese Thien)",
-      "address": "608 Manaia Road, Coromandel",
+      "address": "608 Manaia Road RD1, Coromandel 3581, New Zealand",
       "url": "https://www.dharmagaia.org/",
       "source_url": "https://www.dharmagaia.org/",
-      "notes": "Active Coromandel mindfulness and retreat centre rooted in the Plum Village tradition. Its site lists 2026 events, monthly practice days, and regular sitting; check the current calendar before visiting."
+      "notes": "Active Coromandel retreat and practice community rooted in the Plum Village tradition. Its current site advertises 2026 programs and says visits are by arrangement; it does not present a weekly public drop-in schedule."
     }
   ]
 }

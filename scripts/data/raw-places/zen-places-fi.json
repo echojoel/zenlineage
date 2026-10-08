@@ -19,29 +19,29 @@
       "region": "Uusimaa",
       "lineage": "Cloud-Water Sangha (Kapleau / Kjolhede / Yasutani-Harada lineage)",
       "address": "Pääskylänrinne 3, sisäpiha, 00500 Helsinki",
-      "url": "https://helsinki.zazen.fi/",
-      "source_url": "https://helsinki.zazen.fi/english/",
-      "notes": "Weekly zazen in Helsinki since 1997; teacher Sangen Salo Sensei (resides at Sanneji); Yasutani-Kapleau line via Zenbuddhistiska Samfundet network"
+      "url": "https://zazen.fi/en/zen-centers/helsinki/",
+      "source_url": "https://zazen.fi/en/zen-centers/helsinki/",
+      "notes": "The official Sanneji Zen page lists guided meditation four to five times weekly, a current weekly schedule, and 2026 events at Pääskylänrinne 3. Its tradition page describes the Harada–Yasutani line."
     },
     {
       "name": "Sanneji Zen Temple",
       "city": "Karjaa (Karis)",
       "region": "Uusimaa",
       "lineage": "Cloud-Water Sangha (Kapleau / Kjolhede / Yasutani-Harada lineage)",
-      "address": null,
-      "url": "https://sanneji.zazen.fi/en/",
-      "source_url": "https://sanneji.zazen.fi/en/visiting-sanneji/",
-      "notes": "Residential Zen temple in Karjaa; Sangen Salo Sensei resides here; full-time practice and sesshin retreats; maintained by Sanneji Zen ry"
+      "address": "Sannäsintie 418, 10300 Karjaa, Finland",
+      "url": "https://zazen.fi/harjoituspaikat/sanneji/",
+      "source_url": "https://zazen.fi/harjoituspaikat/sanneji/",
+      "notes": "Official pages describe a year-round residential practice and retreat center, visitor participation, and a current October 2026 sesshin. The tradition page describes Harada–Yasutani roots."
     },
     {
       "name": "Sanneji Zendo Turku",
       "city": "Turku",
       "region": "Varsinais-Suomi",
       "lineage": "Cloud-Water Sangha (Kapleau / Kjolhede)",
-      "address": null,
-      "url": "https://turku.zazen.fi/",
-      "source_url": "https://helsinki.zazen.fi/english/",
-      "notes": "Affiliated zendo of Sanneji / Helsinki Zen Center network"
+      "address": "Käsityöläiskatu 5 b, 3rd floor, Turku, Finland",
+      "url": "https://zazen.fi/en/zen-centers/turku/",
+      "source_url": "https://zazen.fi/en/zen-centers/turku/",
+      "notes": "The current official page lists Tuesday and Thursday evening and Sunday morning zazen at Käsityöläiskatu 5 b. This Sanneji group is distinct from Kajo Zendo Turku."
     },
     {
       "name": "Tampere Zen Center",
@@ -50,28 +50,28 @@
       "lineage": "Yasutani-Kapleau / Cloud-Water Sangha",
       "address": null,
       "url": "https://tzc.fi/",
-      "source_url": "https://uskonnot.fi/yhteiso/tampere-zen-ry/",
-      "notes": "Tampere Zen Center ry, registered association founded 2007; ~30 members (2024); led by Sensei Mitra Virtaperko (sensei since 2021 in Yasutani-Kapleau line); zazen 3-4x/week"
+      "source_url": "https://tzc.fi/category/aikataulu/",
+      "notes": "The official site publishes 2026 practice and retreat dates and identifies its Yasutani–Kapleau tradition and teacher Mitra Virtaperko. Consult the current schedule for venue details."
     },
     {
       "name": "Sydänmieli Zen Helsinki",
       "city": "Helsinki",
       "region": "Uusimaa",
       "lineage": "Yasutani-Kapleau / Cloud-Water Sangha",
-      "address": "Albertinkatu, Punavuori, Helsinki",
+      "address": "Albertinkatu 17, Helsinki, Finland",
       "url": "https://sydanmieli.tzc.fi/",
       "source_url": "https://sydanmieli.tzc.fi/",
-      "notes": "Connected to Tampere Zen Center; led by Sensei Mitra Virtaperko; regular meditation, weekend retreats, sesshin"
+      "notes": "The official site lists regular meditation, retreats, and its Albertinkatu address. Its teacher page describes the Yasutani–Kapleau tradition and Mitra Virtaperko’s 2026 teaching authorization."
     },
     {
       "name": "Kajo Zendo Turku",
       "city": "Turku",
       "region": "Varsinais-Suomi",
-      "lineage": "Zen (independent practice group)",
+      "lineage": "Sōtō Zen (independent practice group)",
       "address": null,
-      "url": "https://kajozendo.wordpress.com/",
-      "source_url": "https://kajozendo.wordpress.com/in-english/",
-      "notes": "Zen practice group in Turku"
+      "url": "https://kajozendo.wordpress.com/turku/",
+      "source_url": "https://kajozendo.wordpress.com/turku/",
+      "notes": "The group’s current page lists Thursday 17:30 Sōtō zazen and 2026 zazenkai dates. It asks newcomers to contact the group and does not publish a current street address."
     }
   ]
 }

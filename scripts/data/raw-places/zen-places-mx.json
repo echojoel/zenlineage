@@ -46,21 +46,21 @@
       "name": "Mar de Jade — Silent Zen Meditation Retreat Center",
       "city": "Chacala",
       "region": "Nayarit",
-      "lineage": "Sōtō / Chan (bilingual sesshin host; Laura del Valle)",
+      "lineage": "Multi-tradition retreat venue (hosts Zen retreats)",
       "address": "Chacala, Riviera Nayarit (90 min north of Puerto Vallarta), Mexico",
       "url": "https://mardejade.com/",
-      "source_url": "https://mardejade.com/about/our-story/",
-      "notes": "Has hosted annual Zen and Chan sesshins for 30+ years; founded by long-time Zen practitioner Dr. Laura del Valle."
+      "source_url": "https://mardejade.com/",
+      "notes": "Retreat venue in Chacala that currently advertises a Rohatsu Zen retreat for 28 November–5 December 2026 with Zoketsu Norman Fischer. It is a host venue rather than a local Zen organization with its own regular lineage or weekly schedule."
     },
     {
       "name": "Casa Zen México",
       "city": "Ciudad de México",
       "region": "Ciudad de México",
       "lineage": "Sōtō (lay Zen community, Coyoacán)",
-      "address": "Dr. Vértiz 1418, Col. Vértiz Narvarte, 03310 Ciudad de México, CDMX",
-      "url": "https://www.facebook.com/casazenmexico/",
-      "source_url": "https://www.facebook.com/casazenmexico/",
-      "notes": "Lay Zen practice community in Coyoacán. Primary online presence is Facebook."
+      "address": null,
+      "url": "https://casazenmexico.com/",
+      "source_url": "https://casazenmexico.com/",
+      "notes": "The official site describes a Mexico City Zen community meeting at multiple venues and traces its practice through the Rochester Zen Center tradition. It does not currently publish a street address or timetable; contact the group before attending."
     },
     {
       "name": "Dharma Sangha México",
@@ -70,17 +70,17 @@
       "address": "Eulalio Pedroza 122, Cuernavaca, Morelos",
       "url": "https://dharma-sangha.org/",
       "source_url": "https://www.budismo.com/directorios/mexico.php",
-      "notes": "Mexican branch of Richard Baker Rōshi's Dharma Sangha (Crestone, CO / Johanneshof). Cuernavaca residential practice."
+      "notes": "Older secondary material associates a Cuernavaca group with Richard Baker’s Dharma Sangha, but no current direct site, schedule, address, or organizational listing was verified. Retained for follow-up without asserting current activity."
     },
     {
       "name": "Dhammapada Budismo Zen — Dōjō Zen México",
       "city": "Ciudad de México",
-      "region": "Ciudad de México (Xochimilco)",
-      "lineage": "Sōtō Zen (lay community)",
-      "address": null,
-      "url": "https://budismozen.org/mx1/",
-      "source_url": "https://budismozen.org/mx/seminario-meditacion-zen/",
-      "notes": "Weekly Zen practice and seminars open to public; located in Xochimilco, CDMX."
+      "region": "Ciudad de México",
+      "lineage": "Zen (Sangha Dhammapada)",
+      "address": "Las Huertas 107, interior 1010, Actipan, Benito Juárez, Ciudad de México",
+      "url": "https://budismozen.org/mx/",
+      "source_url": "https://budismozen.org/mx/practica-semanal/",
+      "notes": "The group’s current page lists Tuesday evening public practice at its Actipan address. Its own pages identify Sangha Dhammapada and Zen practice; a narrower school affiliation is not asserted."
     },
     {
       "name": "One Drop Zen Mexico",

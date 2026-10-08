@@ -613,6 +613,42 @@ function pickSourceId(sourceUrl: string, lineage: string): string {
   if (u.includes("tnhspain.com")) return "src_tnh_spain";
   if (u.includes("joyfulgarden.sg")) return "src_joyful_garden_sg";
   if (u.includes("pvfhk.org")) return "src_plum_village_hong_kong";
+  if (u.includes("dojozenbuenosaires.com.ar")) return "src_dojo_zen_buenos_aires";
+  if (u.includes("maitreyazen.cl")) return "src_maitreya_zen_chile";
+  if (u.includes("elzendo.com")) return "src_zendo_tunquen";
+  if (u.includes("montanadesilencio.org")) return "src_montana_silencio";
+  if (u.includes("casazen.org")) return "src_casa_zen_costa_rica";
+  if (u.includes("casazenmexico.com")) return "src_casa_zen_mexico";
+  if (u.includes("budismozen.org/mx")) return "src_dhammapada_mexico";
+  if (u.includes("mardejade.com")) return "src_mar_de_jade";
+  if (u.includes("sotozenperu.com")) return "src_soto_zen_peru";
+  if (u.includes("sotozen.com/eng/temples/outside_jp/peru"))
+    return "src_sotozen_peru_official";
+  if (u.includes("mapeosociedadcivil.uy/organizaciones/asociacion-zen-del-uruguay"))
+    return "src_uruguay_civil_society_map";
+  if (u.includes("linztermine.at/event/722866")) return "src_zen_gruppe_linz";
+  if (u.includes("zendowien.org")) return "src_zendo_wien_site";
+  if (u.includes("zengruppe-wien.at")) return "src_zengruppe_wien";
+  if (u.includes("chan.hr")) return "src_dharmaloka_croatia";
+  if (u.includes("havredalzendo.dk")) return "src_havredal_zendo";
+  if (u.includes("zazen.fi")) return "src_sanneji_zen_finland";
+  if (u.includes("kajozendo.wordpress.com")) return "src_kajo_zendo";
+  if (u.includes("sydanmieli.tzc.fi")) return "src_sydanmieli_zen";
+  if (u.includes("tzc.fi")) return "src_tampere_zen";
+  if (u.includes("zen.hu")) return "src_tan_kapuja_zen";
+  if (u.includes("onedropzen.hu")) return "src_onedropzen";
+  if (u.includes("mokushozen.hu")) return "src_mokusho_house";
+  if (u.includes("fukugen.de")) return "src_fuku_gen_berlin";
+  if (u.includes("zen.org.nz")) return "src_mountains_rivers";
+  if (u.includes("zendo.org.nz") || u.includes("diamondsangha.org/resources"))
+    return "src_diamond_sangha";
+  if (u.includes("aucklandzen.org.nz")) return "src_auckland_zen_center";
+  if (u.includes("dunedinzen.wordpress.com")) return "src_dunedin_zen";
+  if (u.includes("bodhizendo.org") && u.includes("carl-hooper"))
+    return "src_bodhimount_teacher";
+  if (u.includes("mzg.org.au/links/other-zen-groups"))
+    return "src_melbourne_zen_groups";
+  if (u.includes("mildurazengroup.org")) return "src_mildura_zen";
   if (u.includes("greenmountainzen.org.nz")) return "src_green_mountain_zen_site";
   if (u.includes("greenriverzen.org")) return "src_green_river_zen_site";
   if (u.includes("greyheronzen.ie")) return "src_grey_heron_zen_site";
@@ -876,6 +912,7 @@ function pickSourceId(sourceUrl: string, lineage: string): string {
 // community does not publish). Omitting the third element means "exact":
 // this pin is the place itself, verified against a named source.
 const MANUAL_COORDS: Record<string, ManualCoord> = {
+  "Taisenji — Mokusho Zen House": [47.5186097, 19.1621857], // OSM place of worship, Rákosi út 77
   // Current meeting addresses resolved in OpenStreetMap on 2026-10-08.
   "Great Wave Zen Sangha": [43.9580256, -86.4493713],
   "Empty Bowl Zendo": [40.7956144, -74.4794622],

@@ -10,20 +10,20 @@
       "city": "Lima",
       "region": "Lima",
       "lineage": "Sōtō (Comunidad Budista Sōtō Zenshū del Perú)",
-      "address": "Julián Arias Aragüez 652, Miraflores, Lima 18, Peru",
-      "url": "https://www.sotozenperu.com/",
-      "source_url": "https://www.budismo.com/directorios/peru.php",
-      "notes": "Founded 2005 in Miraflores; the urban temple of the Comunidad Budista Sōtō Zenshū del Perú and its main zazen venue."
+      "address": "Julián Arias Aragüez 652, San Antonio, Miraflores, Lima 15047, Peru",
+      "url": "https://www.sotozenperu.com/actividades-zuihoji",
+      "source_url": "https://www.sotozen.com/eng/temples/outside_jp/Peru/",
+      "notes": "The official Sōtōshū directory confirms the Miraflores address and the Peruvian community’s site describes zazen, ceremonies, and other temple activities. Contact the temple for the current program."
     },
     {
       "name": "Templo Taiheizan Jionji",
       "city": "San Vicente de Cañete",
       "region": "Lima",
       "lineage": "Sōtō (Sōtōshū)",
-      "address": null,
-      "url": "https://www.sotozenperu.com/la-comunidad-zen",
-      "source_url": "https://espanol.buddhistdoor.net/el-templo-taiheizan-jionji-en-lima-peru-el-mas-antiguo-de-latinoamerica/",
-      "notes": "Founded 1907, ~140km south of Lima — the oldest Zen temple in Latin America, established by the Japanese immigrant community. Hosts intensive zazen and baika chanting."
+      "address": "Calle Almirante Grau 697, San Vicente de Cañete, Lima 15701, Peru",
+      "url": "https://www.sotozenperu.com/templo-jionji",
+      "source_url": "https://www.sotozen.com/eng/temples/outside_jp/Peru/",
+      "notes": "The official Sōtōshū directory confirms the Cañete address. The temple’s page describes intensive zazen, baika classes, and ceremonies; contact it for current dates."
     },
     {
       "name": "Espacio de Práctica Zen Cusco",
@@ -33,7 +33,7 @@
       "address": null,
       "url": "https://www.sotozenperu.com/la-comunidad-zen",
       "source_url": "https://www.sotozenperu.com/la-comunidad-zen",
-      "notes": "Practice space opened 2012; the Andean branch of the Peruvian Sōtō community."
+      "notes": "The official Peruvian Sōtō community identifies a Cusco practice space founded in 2012. A current detailed schedule and venue are not published; contact the community before attending."
     }
   ]
 }
