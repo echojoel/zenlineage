@@ -11,16 +11,16 @@ establish a group's current activity, lineage, or safeguarding.
 | Check | Result |
 |---|---:|
 | Place records | 1,696 |
-| Distinct preferred URLs checked | 1,343 |
-| URLs returning 2xx/3xx | 1,099 |
-| URLs returning 404/410 | 17 (used by 20 records) |
+| Distinct preferred URLs checked | 1,346 |
+| URLs returning 2xx/3xx | 1,105 |
+| URLs returning 404/410 | 13 (used by 16 records) |
 | URLs blocked or rate limited | 20 (used by 22 records) |
-| URLs with inconclusive network/server results | 207 (used by 215 records) |
-| Records with no preferred URL | 13 |
-| Records with only a `popular`-class citation | 530 |
-| Records needing an item-level check because their sole citation is broad | 359 |
-| Records queued to check first (overlapping signals combined) | 904 |
-| City-level, approximate map pins | 871 |
+| URLs with inconclusive network/server results | 208 (used by 216 records) |
+| Records with no preferred URL | 10 |
+| Records with only a `popular`-class citation | 526 |
+| Records needing an item-level check because their sole citation is broad | 357 |
+| Records queued to check first (overlapping signals combined) | 896 |
+| City-level, approximate map pins | 870 |
 
 Every remaining place has exactly one citation, currently attached to `coordinates`.
 That citation alone cannot establish affiliation, an active schedule, or a
@@ -28,9 +28,9 @@ safeguarding process. The seed labels all 1,696 places `active`, but it has no
 per-place last-checked date. The public map and exported JSON no longer expose
 that seed status as a verified claim.
 
-The 359 broad-page citations comprise 259 rows citing Plum Village's
+The 357 broad-page citations comprise 259 rows citing Plum Village's
 [monastic centres page](https://plumvillage.org/community/monastic-practice-centres)
-and 100 citing the [White Plum founder page](https://whiteplum.org/founder/).
+and 98 citing the [White Plum founder page](https://whiteplum.org/founder/).
 Those pages do not individually support all the lay groups assigned to them.
 The review queue now flags each for a direct group or institutional listing.
 This is a limitation of our citations, not a claim that any group has doubtful
@@ -45,6 +45,10 @@ The automated client also received a 404 from AZI's
 [Mulhouse group page](https://www.zen-azi.org/fr/node/436), which opened in
 a browser. The separate domain linked from that AZI page currently presents
 unrelated wellness articles; the directory therefore uses the AZI listing.
+The automated client likewise returned a 404 from Sōtōshū's
+[Aichi Senmon Nisōdō page](https://www.sotozen.com/ita/temples/jp/shoboji.html),
+which opened in a browser. Its old English path was broken; the official
+Italian-language page is the current preferred link.
 
 ## Corrections made during this pass
 
@@ -102,6 +106,26 @@ unrelated wellness articles; the directory therefore uses the AZI listing.
   [Chilbulsa](https://chilbul.or.kr/doc/0102.php). Chilbulsa's precise
   first-century founding date was removed because its temple page presents
   the origin as a traditional account.
+- Sōtōshū's [Aichi Senmon Nisōdō page](https://www.sotozen.com/ita/temples/jp/shoboji.html),
+  [Sho Den's practice page](https://www.zenchile.cl/projects-6), and
+  [Kannon Polska's Kąciki page](https://www.kannon.pl/centrum-zen-kaciki/)
+  replaced stale links. The last two supplied visitor details and a corrected
+  approximate Kąciki pin. [Kwan Um Hungary](https://www.kvanumzen.hu/en/community-sangha)
+  and [Rocky Mountain Ecodharma](https://rmerc.org/) also now have current
+  preferred links; conflicting RMERC street addresses remain unconfirmed.
+- [Great Wave Zen Sangha](https://greatwave.org/locations/) identifies its
+  Ludington temple at 315 N. Rath, so its incorrect Ann Arbor pin and city
+  were corrected. Its [lineage page](https://greatwave.org/the-lineage-of-teachers/)
+  names White Plum membership. [White Plum's Empty Bowl profile](https://whiteplum.org/membership-list-mobile/user/460/)
+  supports that zendo's Morristown address; its pin was corrected to the
+  named venue.
+- Three Chinese historical temples with no preferred link now point to
+  institutionally maintained pages: [Sizu Temple](https://www.hmszs.org/110/2013/03/20130327288.html),
+  [Baizhang Temple](https://www.jxrd.gov.cn/system/2012/11/23/012188560.shtml),
+  and [Caoshan Baoji Temple](https://www.jxsfjxh.cn/a/1602486239564070914).
+  The Sizu and Baizhang founding years were removed because these pages did
+  not support their precise dates. Baizhang's page is historical, so current
+  visiting arrangements remain unconfirmed.
 
 Bounded research batches examined 40 alphabetical Plum Village lay-group
 candidates and 24 apparently missing preferred links. Individual names on
@@ -118,10 +142,19 @@ and [Zendo Mãos Vazias](https://whiteplum.org/membership-map/) on White Plum's
 member pages; those pages do not verify the Belgian local subgroups or their
 meeting addresses. Their review flags remain in place.
 
+Another bounded pass examined 13 missing preferred links, ten broken-link
+candidates outside Belgium and France, and 12 White Plum-sourced records. It
+did not conflate the older Caracas Sōtō Zen listing with a different current
+Caracas group, or infer closure from an inaccessible page. Historical directory
+mentions for Antigua, Montevideo, and several small groups still need current
+group or network confirmation. The White Plum sample found more direct member
+and own-site evidence; entries without a published meeting place or clear
+affiliation remain in the review queue.
+
 ## Next review work
 
-Start with the 20 records whose preferred URL returned 404/410 and the 13
-without a preferred URL. Then review the 530 `popular`-only citations and 359
+Start with the 16 records whose preferred URL returned 404/410 and the 10
+without a preferred URL. Then review the 526 `popular`-only citations and 357
 broad-page citations against direct group or institutional pages. For each correction, update
 the canonical seed or raw place data, cite the direct source, and rerun the
 seed and audit. Do not infer misconduct from missing websites or policies.

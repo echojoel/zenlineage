@@ -773,9 +773,9 @@
       "region": "Colorado",
       "lineage": "Zen Peacemakers / EcoDharma",
       "address": null,
-      "url": "https://rockymountainecodharma.org/",
+      "url": "https://rmerc.org/",
       "source_url": "https://zenpeacemakers.org/membership/affiliate-network/",
-      "notes": "Zen Peacemakers affiliate."
+      "notes": "Zen Peacemakers affiliate; the center's own site lists 2026 retreats. Published street addresses conflict, so contact the center before visiting (checked 2026-10-08)."
     },
     {
       "name": "New Haven Zen Center",
@@ -1489,13 +1489,13 @@
     },
     {
       "name": "Great Wave Zen Sangha",
-      "city": "Ann Arbor",
+      "city": "Ludington",
       "region": "Michigan",
       "lineage": "White Plum (Maezumi lineage)",
-      "address": null,
-      "url": "https://greatwave.org/",
-      "source_url": "https://whiteplum.org/membership-list-public/",
-      "notes": "White Plum Asanga; teacher John Gendo Wolff."
+      "address": "Myogenji Temple, 315 N. Rath Avenue, Ludington, MI 49431",
+      "url": "https://greatwave.org/locations/",
+      "source_url": "https://greatwave.org/locations/",
+      "notes": "The sangha's current locations page lists Myogenji Temple in Ludington and asks first-time visitors to arrange an orientation; its lineage page states White Plum membership (checked 2026-10-08)."
     },
     {
       "name": "Linh Son Detroit",
@@ -1652,10 +1652,10 @@
       "city": "Morristown",
       "region": "New Jersey",
       "lineage": "White Plum (Maezumi lineage)",
-      "address": "Morristown, NJ",
+      "address": "36 South Street, Morristown, NJ 07960",
       "url": "https://emptybowlzendo.org/",
-      "source_url": "https://whiteplum.org/membership-map/",
-      "notes": "White Plum Asanga member."
+      "source_url": "https://whiteplum.org/membership-list-mobile/user/460/",
+      "notes": "White Plum's member profile identifies the zendo and its Morristown address (checked 2026-10-08)."
     },
     {
       "name": "Heart Circle Sangha",

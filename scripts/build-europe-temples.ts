@@ -535,6 +535,16 @@ function pickSourceId(sourceUrl: string, lineage: string): string {
   if (u.includes("kwanumeurope.org/locations/glogow-zen-group")) return "src_kwanum_glogow";
   if (u.includes("aandacht.net/meditatiegroepen/sangha-vinden2/item/"))
     return "src_leven_in_aandacht_sanghas";
+  if (u.includes("zenchile.cl/projects-6")) return "src_shoden_chile_site";
+  if (u.includes("kannon.pl/centrum-zen-kaciki"))
+    return "src_kannon_kaciki_site";
+  if (u.includes("greatwave.org/locations")) return "src_great_wave_site";
+  if (u.includes("whiteplum.org/membership-list-mobile/user/460"))
+    return "src_empty_bowl_whiteplum";
+  if (u.includes("kvanumzen.hu/en/community-sangha"))
+    return "src_kwanum_hungary_community";
+  if (u.includes("sotozen.com/ita/temples/jp/shoboji"))
+    return "src_aichi_nisodo_soto";
 
   // ── North-American sect umbrellas ───────────────────────────────────
   if (u.includes("szba.org")) return "src_szba";
@@ -652,6 +662,13 @@ function pickSourceId(sourceUrl: string, lineage: string): string {
 // community does not publish). Omitting the third element means "exact":
 // this pin is the place itself, verified against a named source.
 const MANUAL_COORDS: Record<string, ManualCoord> = {
+  // Current meeting addresses resolved in OpenStreetMap on 2026-10-08.
+  "Great Wave Zen Sangha": [43.9580256, -86.4493713],
+  "Empty Bowl Zendo": [40.7956144, -74.4794622],
+  // OSM resolves the Kąciki street, but not house number 5.
+  "Wspólnota Zen Kannon — Kąciki (ośrodek odosobnień)": [
+    51.9851677, 21.4447928, "city",
+  ],
   // These current venue addresses are published by Leven in Aandacht and
   // resolved to the named house or venue in OpenStreetMap on 2026-10-08.
   "Sangha De Lotusknop Antwerpen": [51.2086559, 4.4805551],

@@ -17,9 +17,16 @@
       "region": "Región Metropolitana",
       "lineage": "Sōtō / Deshimaru (Kosen Sangha)",
       "address": "Martín Alonso Pinzón 5882, Las Condes, Santiago",
-      "url": "https://www.zen-deshimaru.com/es/dojos/dojo-zen-de-santiago",
-      "source_url": "https://tricycle.org/article/meet-sangha-dojo-zen-de-santiago-chile/",
-      "notes": "Opened August 2002; named 'Sho Den' (The Exact Transmission) by Master Kosen. Approx. 20 regular practitioners."
+      "url": "https://www.zenchile.cl/projects-6",
+      "source_url": "https://www.zenchile.cl/projects-6",
+      "notes": "The dojo's current practice page gives the Las Condes address and weekly sitting times; confirm before visiting (checked 2026-10-08).",
+      "practiceDetails": {
+        "schedule": {
+          "value": "Zazen Monday and Wednesday at 19:00, Tuesday at 07:00, Thursday at 07:00 and 19:00, Saturday at 11:00; Saturday introduction at 10:00. Confirm before visiting.",
+          "sourceUrl": "https://www.zenchile.cl/projects-6",
+          "checkedOn": "2026-10-08"
+        }
+      }
     },
     {
       "name": "Maitreya Comunidad — Dōjō Urbano Santiago",

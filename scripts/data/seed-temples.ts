@@ -245,6 +245,15 @@ export const SRC_YOKOJI_SOTO_OFFICE = "src_yokoji_soto_office";
 export const SRC_HOKYOJI_ONO_CITY = "src_hokyoji_ono_city";
 export const SRC_ZUISHOJI_CULTURAL_AGENCY = "src_zuishoji_cultural_agency";
 export const SRC_CHILBULSA_SITE = "src_chilbulsa_site";
+export const SRC_SIZU_TEMPLE_SITE = "src_sizu_temple_site";
+export const SRC_BAIZHANG_JIANGXI_GOV = "src_baizhang_jiangxi_gov";
+export const SRC_CAOSHAN_JIANGXI_BUDDHIST = "src_caoshan_jiangxi_buddhist";
+export const SRC_SHODEN_CHILE_SITE = "src_shoden_chile_site";
+export const SRC_KANNON_KACIKI_SITE = "src_kannon_kaciki_site";
+export const SRC_GREAT_WAVE_SITE = "src_great_wave_site";
+export const SRC_EMPTY_BOWL_WHITEPLUM = "src_empty_bowl_whiteplum";
+export const SRC_KWANUM_HUNGARY_COMMUNITY = "src_kwanum_hungary_community";
+export const SRC_AICHI_NISODO_SOTO = "src_aichi_nisodo_soto";
 
 /** Global Zen practice-centre research bundle — fallback citation for the
  * Gemini Deep Research 2026-05 ingest where the row's primary directory
@@ -792,6 +801,87 @@ export const TEMPLE_SOURCES: {
       title: "Chilbulsa — temple introduction",
       author: "Chilbulsa",
       url: "https://chilbul.or.kr/doc/0102.php",
+      publicationDate: "",
+      reliability: "authoritative",
+    },
+    {
+      id: SRC_SIZU_TEMPLE_SITE,
+      type: "website",
+      title: "Sizu Temple — history",
+      author: "Sizu Temple",
+      url: "https://www.hmszs.org/110/2013/03/20130327288.html",
+      publicationDate: "2013",
+      reliability: "authoritative",
+    },
+    {
+      id: SRC_BAIZHANG_JIANGXI_GOV,
+      type: "website",
+      title: "Jiangxi People's Congress — Fengxin tourism and Baizhang Temple",
+      author: "Fengxin County People's Congress",
+      url: "https://www.jxrd.gov.cn/system/2012/11/23/012188560.shtml",
+      publicationDate: "2012",
+      reliability: "authoritative",
+    },
+    {
+      id: SRC_CAOSHAN_JIANGXI_BUDDHIST,
+      type: "website",
+      title: "Jiangxi Buddhist Association — Caoshan Baoji Temple",
+      author: "Jiangxi Buddhist Association",
+      url: "https://www.jxsfjxh.cn/a/1602486239564070914",
+      publicationDate: "",
+      reliability: "authoritative",
+    },
+    {
+      id: SRC_SHODEN_CHILE_SITE,
+      type: "website",
+      title: "Sho Den Dojo Zen de Santiago — practice locations",
+      author: "Sho Den Dojo Zen de Santiago",
+      url: "https://www.zenchile.cl/projects-6",
+      publicationDate: "",
+      reliability: "authoritative",
+    },
+    {
+      id: SRC_KANNON_KACIKI_SITE,
+      type: "website",
+      title: "Kannon Polska — Centrum Zen Kąciki",
+      author: "Kannon Polska",
+      url: "https://www.kannon.pl/centrum-zen-kaciki/",
+      publicationDate: "",
+      reliability: "authoritative",
+    },
+    {
+      id: SRC_GREAT_WAVE_SITE,
+      type: "website",
+      title: "Great Wave Zen Sangha — locations",
+      author: "Great Wave Zen Sangha",
+      url: "https://greatwave.org/locations/",
+      publicationDate: "",
+      reliability: "authoritative",
+    },
+    {
+      id: SRC_EMPTY_BOWL_WHITEPLUM,
+      type: "website",
+      title: "White Plum Asanga — Empty Bowl Zendo member profile",
+      author: "White Plum Asanga",
+      url: "https://whiteplum.org/membership-list-mobile/user/460/",
+      publicationDate: "",
+      reliability: "authoritative",
+    },
+    {
+      id: SRC_KWANUM_HUNGARY_COMMUNITY,
+      type: "website",
+      title: "Kwan Um Hungary — Community",
+      author: "Kwan Um Zen Hungary",
+      url: "https://www.kvanumzen.hu/en/community-sangha",
+      publicationDate: "",
+      reliability: "authoritative",
+    },
+    {
+      id: SRC_AICHI_NISODO_SOTO,
+      type: "website",
+      title: "Sōtōshū — Aichi Senmon Nisōdō",
+      author: "Sōtōshū",
+      url: "https://www.sotozen.com/ita/temples/jp/shoboji.html",
       publicationDate: "",
       reliability: "authoritative",
     },
@@ -1553,14 +1643,15 @@ export const SEED_TEMPLES: TempleSeed[] = [
     lng: 115.792178,
     region: "Hubei",
     country: "China",
-    foundedYear: 624,
-    foundedPrecision: "circa",
+    foundedYear: null,
+    foundedPrecision: null,
     schoolSlug: "early-chan",
     founderSlug: "dayi-daoxin",
     status: "active",
-    sourceId: SRC_WIKIPEDIA,
+    sourceId: SRC_SIZU_TEMPLE_SITE,
     sourceExcerpt:
-      "Sizu Temple (四祖寺) on Shuangfeng Mountain, Huangmei County, Hubei — the seat of the Fourth Patriarch Dayi Daoxin, who gathered the first settled Chan community there rather than continuing the wandering ascetic pattern of his predecessors.",
+      "Sizu Temple's own history describes the Huangmei monastery and its rebuilding. This historical page does not confirm a current visitor schedule (checked 2026-10-08).",
+    url: "https://www.hmszs.org/110/2013/03/20130327288.html",
     geoPrecision: "exact",
   },
   {
@@ -1698,14 +1789,15 @@ export const SEED_TEMPLES: TempleSeed[] = [
     lng: 114.791099,
     region: "Jiangxi",
     country: "China",
-    foundedYear: 814,
-    foundedPrecision: "circa",
+    foundedYear: null,
+    foundedPrecision: null,
     schoolSlug: "nanyue-line",
     founderSlug: "baizhang-huaihai",
     status: "active",
-    sourceId: SRC_WIKIPEDIA,
+    sourceId: SRC_BAIZHANG_JIANGXI_GOV,
     sourceExcerpt:
-      "Baizhang Temple (百丈寺) on Mount Baizhang, Fengxin County, Yichun, Jiangxi — the seat of Baizhang Huaihai, to whom the first Chan monastic code and the maxim 'a day without work is a day without food' are attributed.",
+      "A 2012 Fengxin County People's Congress account identifies Baizhang Temple as a Chan ancestral site and reports its reopening to visitors in 2011; current visiting arrangements remain unconfirmed (checked 2026-10-08).",
+    url: "https://www.jxrd.gov.cn/system/2012/11/23/012188560.shtml",
     geoPrecision: "exact",
   },
   {
@@ -1745,9 +1837,10 @@ export const SEED_TEMPLES: TempleSeed[] = [
     schoolSlug: "caodong",
     founderSlug: "caoshan-benji",
     status: "active",
-    sourceId: SRC_WIKIPEDIA,
+    sourceId: SRC_CAOSHAN_JIANGXI_BUDDHIST,
     sourceExcerpt:
-      "Caoshan Baoji Temple (曹山寶積寺), Xiangshan, Yihuang County, Jiangxi — the seat of Caoshan Benji, Dongshan's heir. The house's name Caodong joins his mountain to his teacher's.",
+      "The Jiangxi Buddhist Association identifies Caoshan Baoji Temple in Yihuang as a Caodong ancestral temple and gives its contact details (checked 2026-10-08).",
+    url: "https://www.jxsfjxh.cn/a/1602486239564070914",
     geoPrecision: "exact",
   },
   {
