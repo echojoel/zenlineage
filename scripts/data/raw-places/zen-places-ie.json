@@ -39,8 +39,15 @@
       "lineage": "White Plum Asanga (teacher Miriam Healy Roshi, dharma transmission from Robert Kennedy Roshi 2014); also Zen Peacemaker Order",
       "address": "Dominican Retreat House, Tallaght Village, Dublin 24",
       "url": "https://greyheronzen.ie/",
-      "source_url": "https://greyheronzen.ie/about/",
-      "notes": "Active in Dublin since September 2011. Co-founded with Mary McGrane Sensei. Joint sesshins with Earth+Sky Zendo."
+      "source_url": "https://greyheronzen.ie/zen-meditation-sittings-dublin/",
+      "notes": "The group's 2026 page lists online sittings and retreats at the Dominican Retreat Centre in Tallaght (checked 2026-10-08).",
+      "practiceDetails": {
+        "schedule": {
+          "value": "Online Wednesday 19:30–20:30 and Monday, Tuesday, Thursday and Friday 08:00–08:30; 2026 retreats are listed separately. Confirm before visiting.",
+          "sourceUrl": "https://greyheronzen.ie/zen-meditation-sittings-dublin/",
+          "checkedOn": "2026-10-08"
+        }
+      }
     },
     {
       "name": "OneDropZen Dublin",

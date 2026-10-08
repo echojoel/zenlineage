@@ -11,16 +11,16 @@ establish a group's current activity, lineage, or safeguarding.
 | Check | Result |
 |---|---:|
 | Place records | 1,696 |
-| Distinct preferred URLs checked | 1,346 |
-| URLs returning 2xx/3xx | 1,105 |
-| URLs returning 404/410 | 13 (used by 16 records) |
+| Distinct preferred URLs checked | 1,348 |
+| URLs returning 2xx/3xx | 1,107 |
+| URLs returning 404/410 | 13 (used by 15 records) |
 | URLs blocked or rate limited | 20 (used by 22 records) |
 | URLs with inconclusive network/server results | 208 (used by 216 records) |
-| Records with no preferred URL | 10 |
-| Records with only a `popular`-class citation | 526 |
-| Records needing an item-level check because their sole citation is broad | 357 |
-| Records queued to check first (overlapping signals combined) | 896 |
-| City-level, approximate map pins | 870 |
+| Records with no preferred URL | 9 |
+| Records with only a `popular`-class citation | 525 |
+| Records needing an item-level check because their sole citation is broad | 351 |
+| Records queued to check first (overlapping signals combined) | 888 |
+| City-level, approximate map pins | 872 |
 
 Every remaining place has exactly one citation, currently attached to `coordinates`.
 That citation alone cannot establish affiliation, an active schedule, or a
@@ -28,9 +28,9 @@ safeguarding process. The seed labels all 1,696 places `active`, but it has no
 per-place last-checked date. The public map and exported JSON no longer expose
 that seed status as a verified claim.
 
-The 357 broad-page citations comprise 259 rows citing Plum Village's
+The 351 broad-page citations comprise 259 rows citing Plum Village's
 [monastic centres page](https://plumvillage.org/community/monastic-practice-centres)
-and 98 citing the [White Plum founder page](https://whiteplum.org/founder/).
+and 92 citing the [White Plum founder page](https://whiteplum.org/founder/).
 Those pages do not individually support all the lay groups assigned to them.
 The review queue now flags each for a direct group or institutional listing.
 This is a limitation of our citations, not a claim that any group has doubtful
@@ -119,6 +119,9 @@ Italian-language page is the current preferred link.
   names White Plum membership. [White Plum's Empty Bowl profile](https://whiteplum.org/membership-list-mobile/user/460/)
   supports that zendo's Morristown address; its pin was corrected to the
   named venue.
+- [Doshin Dojo de Charleroi](https://www.zen-azi.org/index.php/fr/node/3053)
+  now points to its individual AZI listing, which confirms the rue de Montigny
+  address and current contact instead of relying on the obsolete AZB directory.
 - Three Chinese historical temples with no preferred link now point to
   institutionally maintained pages: [Sizu Temple](https://www.hmszs.org/110/2013/03/20130327288.html),
   [Baizhang Temple](https://www.jxrd.gov.cn/system/2012/11/23/012188560.shtml),
@@ -151,10 +154,28 @@ group or network confirmation. The White Plum sample found more direct member
 and own-site evidence; entries without a published meeting place or clear
 affiliation remain in the review queue.
 
+A third 12-record White Plum batch replaced six broad citations with current
+group pages. [Green Mountain Zen](https://greenmountainzen.org.nz/the-teacher/),
+[Green River Zen](https://www.greenriverzen.org/),
+[Grey Heron Zen](https://greyheronzen.ie/zen-meditation-sittings-dublin/),
+[Heart Circle Zen](https://heartcirclezen.org/events-2),
+[Hokori Zen Center](https://www.hokorizencenter.org/schedule), and
+[Joyful Mind](https://www.joyfulmindzendo.org/) now have directly sourced
+locations or schedules. This corrected Heart Circle from Ridgewood to
+Hackensack, Hokori from Boca Raton to Lakeland, Green River from Greenfield to
+South Deerfield, and Joyful Mind from Delaware to Rockville, Maryland. The
+remaining six records lacked enough current, item-level evidence and remain
+queued without an adverse finding.
+
+The source seed is now deterministic: maintained practice-directory metadata
+overrides generic historical stubs. Before this fix, running the teaching seed
+after the temple seed silently changed source reliability and made the review
+queue vary by seed order.
+
 ## Next review work
 
-Start with the 16 records whose preferred URL returned 404/410 and the 10
-without a preferred URL. Then review the 526 `popular`-only citations and 357
+Start with the 15 records whose preferred URL returned 404/410 and the 9
+without a preferred URL. Then review the 525 `popular`-only citations and 351
 broad-page citations against direct group or institutional pages. For each correction, update
 the canonical seed or raw place data, cite the direct source, and rerun the
 seed and audit. Do not infer misconduct from missing websites or policies.

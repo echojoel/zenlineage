@@ -799,13 +799,13 @@
     },
     {
       "name": "Joyful Mind Zendo",
-      "city": "Rehoboth Beach",
-      "region": "Delaware",
+      "city": "Rockville",
+      "region": "Maryland",
       "lineage": "White Plum (Maezumi lineage)",
-      "address": "Rehoboth Beach, DE",
-      "url": "https://joyfulmindzendo.org/",
-      "source_url": "https://whiteplum.org/membership-map/",
-      "notes": "White Plum Asanga member."
+      "address": "Rockville, MD 20853",
+      "url": "https://www.joyfulmindzendo.org/",
+      "source_url": "https://www.joyfulmindzendo.org/",
+      "notes": "The community's current site places it in Rockville and identifies its teacher's White Plum transmission; an older White Plum member listing associated the name with Delaware (checked 2026-10-08)."
     },
     {
       "name": "Sky Above Great Wind",
@@ -879,13 +879,14 @@
     },
     {
       "name": "Hokori Zen Center",
-      "city": "Boca Raton",
+      "city": "Lakeland",
       "region": "Florida",
       "lineage": "White Plum (Maezumi lineage)",
       "address": null,
-      "url": "https://hokorizencenter.org/",
-      "source_url": "https://whiteplum.org/membership-list-public/",
-      "notes": "White Plum Asanga; teacher Lou Mitsunen Nordstrom."
+      "url": "https://www.hokorizencenter.org/schedule",
+      "source_url": "https://www.hokorizencenter.org/schedule",
+      "notes": "The center's own pages identify its Lakeland community and current Saturday practice (checked 2026-10-08).",
+      "practiceDetails": { "schedule": { "value": "Saturday at 09:00; beginner instruction by appointment. Confirm before visiting.", "sourceUrl": "https://www.hokorizencenter.org/schedule", "checkedOn": "2026-10-08" } }
     },
     {
       "name": "Open Mind Zen",
@@ -1429,13 +1430,14 @@
     },
     {
       "name": "Green River Zen Center",
-      "city": "Greenfield",
+      "city": "South Deerfield",
       "region": "Massachusetts",
       "lineage": "White Plum (Maezumi lineage)",
-      "address": "Greenfield, MA",
-      "url": "https://greenriverzen.org/",
-      "source_url": "https://whiteplum.org/membership-list-public/",
-      "notes": "White Plum Asanga; teacher Sally Sonen Kealy."
+      "address": "Windhorse Hill Retreat Center, 595B River Road, South Deerfield, MA",
+      "url": "https://www.greenriverzen.org/",
+      "source_url": "https://www.greenriverzen.org/",
+      "notes": "The center's own page identifies its White Plum lineage and current South Deerfield meeting place (checked 2026-10-08).",
+      "practiceDetails": { "schedule": { "value": "Weekday mornings 06:00–07:00 online; Tuesday 18:00–19:30 online; Saturday 08:30–10:00 in person and online. Confirm before visiting.", "sourceUrl": "https://www.greenriverzen.org/", "checkedOn": "2026-10-08" } }
     },
     {
       "name": "Day Star Sangha",
@@ -1659,13 +1661,14 @@
     },
     {
       "name": "Heart Circle Sangha",
-      "city": "Ridgewood",
+      "city": "Hackensack",
       "region": "New Jersey",
       "lineage": "White Plum (Maezumi lineage)",
-      "address": "Ridgewood, NJ",
-      "url": "https://heartcirclesangha.org/",
-      "source_url": "https://whiteplum.org/membership-list-public/",
-      "notes": "White Plum Asanga; teachers Joan Hogetsu Hoeberichts and Mark Eko Morris."
+      "address": "185 Linden Street, Hackensack, NJ 07601",
+      "url": "https://heartcirclezen.org/events-2",
+      "source_url": "https://heartcirclezen.org/events-2",
+      "notes": "The current Heart Circle Zen site gives the Hackensack address and weekly practice; White Plum's member profile still lists an older Ridgewood address (checked 2026-10-08).",
+      "practiceDetails": { "schedule": { "value": "Sunday 09:30–12:30 in person and online. Confirm before visiting.", "sourceUrl": "https://heartcirclezen.org/events-2", "checkedOn": "2026-10-08" } }
     },
     {
       "name": "Morning Star Zendo",

@@ -11,6 +11,7 @@ import { db } from "@/db";
 import { sources } from "@/db/schema";
 import { BIOGRAPHY_EDITORIAL_SOURCE } from "./biography-citations";
 import { TEACHING_EDITORIAL_SOURCE } from "./teaching-citations";
+import { TEMPLE_SOURCES } from "./data/seed-temples";
 
 const SOURCES = [
   {
@@ -1229,7 +1230,13 @@ const SOURCES = [
 export default async function main() {
   console.log("Seeding sources…");
 
-  for (const src of SOURCES) {
+  // The historical source catalogue contains generic stubs for several
+  // practice-directory sources. Prefer the directory's maintained metadata
+  // so a later teaching seed cannot erase its URL, title, or reliability.
+  const mergedSources = new Map(SOURCES.map((source) => [source.id, source]));
+  for (const source of TEMPLE_SOURCES) mergedSources.set(source.id, source);
+
+  for (const src of mergedSources.values()) {
     await db
       .insert(sources)
       .values(src)
@@ -1248,7 +1255,7 @@ export default async function main() {
     console.log(`  ✓ ${src.id}`);
   }
 
-  console.log(`\nSeeded ${SOURCES.length} sources.`);
+  console.log(`\nSeeded ${mergedSources.size} sources.`);
 }
 
 if (process.argv[1] && process.argv[1].endsWith("seed-sources.ts")) {

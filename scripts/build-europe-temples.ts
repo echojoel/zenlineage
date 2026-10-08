@@ -530,6 +530,7 @@ function pickSourceId(sourceUrl: string, lineage: string): string {
   const u = sourceUrl.toLowerCase();
 
   if (u.includes("zenlleida.org/dojo")) return "src_dojo_zen_lleida";
+  if (u.includes("zen-azi.org/index.php/fr/node/3053")) return "src_azi_charleroi";
   if (u.includes("zen-azi.org/fr/node/456")) return "src_azi_caen";
   if (u.includes("kwanumeurope.org/locations/torun-zen-group")) return "src_kwanum_torun";
   if (u.includes("kwanumeurope.org/locations/glogow-zen-group")) return "src_kwanum_glogow";
@@ -545,6 +546,12 @@ function pickSourceId(sourceUrl: string, lineage: string): string {
     return "src_kwanum_hungary_community";
   if (u.includes("sotozen.com/ita/temples/jp/shoboji"))
     return "src_aichi_nisodo_soto";
+  if (u.includes("greenmountainzen.org.nz")) return "src_green_mountain_zen_site";
+  if (u.includes("greenriverzen.org")) return "src_green_river_zen_site";
+  if (u.includes("greyheronzen.ie")) return "src_grey_heron_zen_site";
+  if (u.includes("heartcirclezen.org")) return "src_heart_circle_zen_site";
+  if (u.includes("hokorizencenter.org")) return "src_hokori_zen_site";
+  if (u.includes("joyfulmindzendo.org")) return "src_joyful_mind_zendo_site";
 
   // ── North-American sect umbrellas ───────────────────────────────────
   if (u.includes("szba.org")) return "src_szba";
@@ -665,6 +672,12 @@ const MANUAL_COORDS: Record<string, ManualCoord> = {
   // Current meeting addresses resolved in OpenStreetMap on 2026-10-08.
   "Great Wave Zen Sangha": [43.9580256, -86.4493713],
   "Empty Bowl Zendo": [40.7956144, -74.4794622],
+  "Heart Circle Sangha": [40.8981078, -74.0409353],
+  // These sources identify the current city or street, but OSM does not
+  // resolve a specific entrance for the published place.
+  "Green River Zen Center": [42.472974, -72.5832895, "city"],
+  "Joyful Mind Zendo": [39.0817985, -77.1516844, "city"],
+  "Hokori Zen Center": [28.0394654, -81.9498042, "city"],
   // OSM resolves the Kąciki street, but not house number 5.
   "Wspólnota Zen Kannon — Kąciki (ośrodek odosobnień)": [
     51.9851677, 21.4447928, "city",

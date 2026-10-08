@@ -254,6 +254,14 @@ export const SRC_GREAT_WAVE_SITE = "src_great_wave_site";
 export const SRC_EMPTY_BOWL_WHITEPLUM = "src_empty_bowl_whiteplum";
 export const SRC_KWANUM_HUNGARY_COMMUNITY = "src_kwanum_hungary_community";
 export const SRC_AICHI_NISODO_SOTO = "src_aichi_nisodo_soto";
+export const SRC_DONGSHAN_JIANGXI_BUDDHIST = "src_dongshan_jiangxi_buddhist";
+export const SRC_GREEN_MOUNTAIN_ZEN_SITE = "src_green_mountain_zen_site";
+export const SRC_GREEN_RIVER_ZEN_SITE = "src_green_river_zen_site";
+export const SRC_GREY_HERON_ZEN_SITE = "src_grey_heron_zen_site";
+export const SRC_HEART_CIRCLE_ZEN_SITE = "src_heart_circle_zen_site";
+export const SRC_HOKORI_ZEN_SITE = "src_hokori_zen_site";
+export const SRC_JOYFUL_MIND_ZENDO_SITE = "src_joyful_mind_zendo_site";
+export const SRC_AZI_CHARLEROI = "src_azi_charleroi";
 
 /** Global Zen practice-centre research bundle — fallback citation for the
  * Gemini Deep Research 2026-05 ingest where the row's primary directory
@@ -882,6 +890,78 @@ export const TEMPLE_SOURCES: {
       title: "Sōtōshū — Aichi Senmon Nisōdō",
       author: "Sōtōshū",
       url: "https://www.sotozen.com/ita/temples/jp/shoboji.html",
+      publicationDate: "",
+      reliability: "authoritative",
+    },
+    {
+      id: SRC_DONGSHAN_JIANGXI_BUDDHIST,
+      type: "website",
+      title: "Jiangxi Buddhist Association — Dongshan Puli Temple",
+      author: "Jiangxi Buddhist Association",
+      url: "https://www.jxsfjxh.cn/a/1625134274018217986",
+      publicationDate: "",
+      reliability: "authoritative",
+    },
+    {
+      id: SRC_GREEN_MOUNTAIN_ZEN_SITE,
+      type: "website",
+      title: "Green Mountain Zen — teacher, lineage and schedule",
+      author: "Green Mountain Zen",
+      url: "https://greenmountainzen.org.nz/the-teacher/",
+      publicationDate: "",
+      reliability: "authoritative",
+    },
+    {
+      id: SRC_GREEN_RIVER_ZEN_SITE,
+      type: "website",
+      title: "Green River Zen Center — practice and lineage",
+      author: "Green River Zen Center",
+      url: "https://www.greenriverzen.org/",
+      publicationDate: "",
+      reliability: "authoritative",
+    },
+    {
+      id: SRC_GREY_HERON_ZEN_SITE,
+      type: "website",
+      title: "Grey Heron Zen — Dublin sittings",
+      author: "Grey Heron Zen",
+      url: "https://greyheronzen.ie/zen-meditation-sittings-dublin/",
+      publicationDate: "",
+      reliability: "authoritative",
+    },
+    {
+      id: SRC_HEART_CIRCLE_ZEN_SITE,
+      type: "website",
+      title: "Heart Circle Zen — practice schedule",
+      author: "Heart Circle Zen",
+      url: "https://heartcirclezen.org/events-2",
+      publicationDate: "",
+      reliability: "authoritative",
+    },
+    {
+      id: SRC_HOKORI_ZEN_SITE,
+      type: "website",
+      title: "Hokori Zen Center — practice schedule",
+      author: "Hokori Zen Center",
+      url: "https://www.hokorizencenter.org/schedule",
+      publicationDate: "",
+      reliability: "authoritative",
+    },
+    {
+      id: SRC_JOYFUL_MIND_ZENDO_SITE,
+      type: "website",
+      title: "Joyful Mind Zen Community",
+      author: "Joyful Mind Zen Community",
+      url: "https://www.joyfulmindzendo.org/",
+      publicationDate: "",
+      reliability: "authoritative",
+    },
+    {
+      id: SRC_AZI_CHARLEROI,
+      type: "website",
+      title: "Association Zen Internationale — Dojo de Charleroi",
+      author: "Association Zen Internationale",
+      url: "https://www.zen-azi.org/index.php/fr/node/3053",
       publicationDate: "",
       reliability: "authoritative",
     },
@@ -1810,14 +1890,15 @@ export const SEED_TEMPLES: TempleSeed[] = [
     lng: 114.86078,
     region: "Jiangxi",
     country: "China",
-    foundedYear: 860,
-    foundedPrecision: "circa",
+    foundedYear: 859,
+    foundedPrecision: "exact",
     schoolSlug: "caodong",
     founderSlug: "dongshan-liangjie",
     status: "active",
-    sourceId: SRC_WIKIPEDIA,
+    sourceId: SRC_DONGSHAN_JIANGXI_BUDDHIST,
     sourceExcerpt:
-      "Dongshan Puli Temple (洞山普利禪寺) at Dongshan, Tong'an Township, Yifeng County, Jiangxi — the seat of Dongshan Liangjie and the ancestral temple of the Caodong house, which reached Japan as Sōtō. Rebuilt in 2010.",
+      "The Jiangxi Buddhist Association identifies Dongshan Puli Temple in Yifeng as the Caodong ancestral temple, founded by Dongshan Liangjie in 859 and rebuilt from 2010 (checked 2026-10-08).",
+    url: "https://www.jxsfjxh.cn/a/1625134274018217986",
     // OSM resolves 洞山 only to the village that takes its name from the
     // mountain; the temple sits in that village, ~21km from Yifeng town.
     geoPrecision: "city",
