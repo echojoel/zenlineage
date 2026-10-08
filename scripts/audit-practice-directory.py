@@ -32,14 +32,20 @@ def main() -> None:
     rows = connection.execute(
         """
         SELECT t.slug,
-               COALESCE(n.value, t.slug) AS name,
+               COALESCE((
+                   SELECT n.value
+                   FROM temple_names n
+                   WHERE n.temple_id = t.id AND n.locale = 'en'
+                   ORDER BY n.value, n.id
+                   LIMIT 1
+               ), t.slug) AS name,
                t.country, t.region, t.status, t.url, t.geo_precision,
                COUNT(c.id) AS citation_count,
                GROUP_CONCAT(DISTINCT c.field_name) AS cited_fields,
                GROUP_CONCAT(DISTINCT s.reliability) AS source_classes,
+               GROUP_CONCAT(DISTINCT c.source_id) AS source_ids,
                GROUP_CONCAT(DISTINCT s.url) AS source_urls
         FROM temples t
-        LEFT JOIN temple_names n ON n.temple_id = t.id AND n.locale = 'en'
         LEFT JOIN citations c ON c.entity_type = 'temple' AND c.entity_id = t.id
         LEFT JOIN sources s ON s.id = c.source_id
         GROUP BY t.id
@@ -57,13 +63,18 @@ def main() -> None:
             reasons.append("no_citation")
         elif row["source_classes"] == "popular":
             reasons.append("popular_source_only")
+        # These shared pages cover only a subset of the groups assigned to
+        # them. Queue an item-level source check; do not judge the group.
+        if row["source_ids"] in ("src_plumvillage_monastic", "src_whiteplum"):
+            reasons.append("broad_source_requires_item_check")
         link = link_results.get(row["url"]) if row["url"] else None
         if link and link["category"] == "missing":
             reasons.append("listed_url_returns_404_or_410")
         priority = (
             "check_first"
             if any(reason in reasons for reason in (
-                "no_preferred_url", "no_citation", "popular_source_only", "listed_url_returns_404_or_410"
+                "no_preferred_url", "no_citation", "popular_source_only", "listed_url_returns_404_or_410",
+                "broad_source_requires_item_check",
             ))
             else "routine"
         )
@@ -79,6 +90,7 @@ def main() -> None:
             "link_result": link["category"] if link else "not_checked",
             "source_urls": row["source_urls"],
             "source_classes": row["source_classes"],
+            "source_ids": row["source_ids"],
             "cited_fields": row["cited_fields"],
             "review_reasons": ";".join(reasons),
         })

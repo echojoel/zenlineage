@@ -19,6 +19,7 @@
 import { existsSync, readdirSync, readFileSync, writeFileSync } from "node:fs";
 import path from "node:path";
 import { setTimeout as sleep } from "node:timers/promises";
+import { sourcedPracticeDetails, type PracticeDetails } from "../src/lib/practice-details";
 
 const RAW_DIR = "scripts/data/raw-places";
 const CACHE_PATH = path.join(RAW_DIR, "geocode-cache.json");
@@ -45,6 +46,7 @@ interface RawPlace {
   url: string | null;
   source_url: string;
   notes?: string;
+  practiceDetails?: PracticeDetails;
 }
 
 interface RawFile {
@@ -527,6 +529,11 @@ function lineageToSchoolSlug(lineage: string): string {
 function pickSourceId(sourceUrl: string, lineage: string): string {
   const u = sourceUrl.toLowerCase();
 
+  if (u.includes("zenlleida.org/dojo")) return "src_dojo_zen_lleida";
+  if (u.includes("zen-azi.org/fr/node/456")) return "src_azi_caen";
+  if (u.includes("kwanumeurope.org/locations/torun-zen-group")) return "src_kwanum_torun";
+  if (u.includes("kwanumeurope.org/locations/glogow-zen-group")) return "src_kwanum_glogow";
+
   // ── North-American sect umbrellas ───────────────────────────────────
   if (u.includes("szba.org")) return "src_szba";
   if (u.includes("sfzc.org")) return "src_sfzc";
@@ -643,6 +650,10 @@ function pickSourceId(sourceUrl: string, lineage: string): string {
 // community does not publish). Omitting the third element means "exact":
 // this pin is the place itself, verified against a named source.
 const MANUAL_COORDS: Record<string, ManualCoord> = {
+  // The dojo's old Anselm Clavé pin is obsolete. Its current site gives
+  // Torres de Sanui 5; OSM resolves the street but not that doorway, so
+  // keep the marker approximate until the entrance is independently mapped.
+  "Dojo Zen Lleida": [41.6177135, 0.619223, "city"],
   "Jikishoan Zen Buddhist Community": [-37.7434, 144.9988], // Preston VIC 3072
   "Melbourne Zen Group": [-37.7589, 144.9876], // CERES Environment Park, Brunswick East
   "Centrum Oko Lesa (Sandō Kaisen — retreat)": [49.8175, 15.473, "city"], // Czech centroid (rural retreat, exact loc not public)
@@ -853,6 +864,7 @@ interface GeneratedEntry {
   sourceId: string;
   sourceExcerpt: string;
   url: string | null;
+  practiceDetails?: PracticeDetails;
   geoPrecision: GeoPrecision;
   /** Precision came from an explicit MANUAL_COORDS annotation, so the
    * shared-pin reconciliation below leaves it alone. */
@@ -1182,6 +1194,7 @@ async function main(): Promise<void> {
         sourceId,
         sourceExcerpt: excerptCanonical,
         url: p.url,
+        practiceDetails: sourcedPracticeDetails(p.practiceDetails),
         geoPrecision,
         precisionPinned: Boolean(manual),
       });
@@ -1210,6 +1223,8 @@ async function main(): Promise<void> {
       // of its own omits the field so the popup falls back to the
       // directory that lists it.
       e.url ? `\n    url: ${JSON.stringify(e.url)},` : ""
+    }${
+      e.practiceDetails ? `\n    practiceDetails: ${JSON.stringify(e.practiceDetails)},` : ""
     }
     geoPrecision: ${JSON.stringify(e.geoPrecision)},
   },`,

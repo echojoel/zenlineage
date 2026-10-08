@@ -1,30 +1,40 @@
-# Practice directory audit — 7 October 2026
+# Practice directory audit — 8 October 2026
 
 This is a **triage pass**, not a claim that every place has been personally
 verified. It combines a fresh seed of the canonical place records with a
-read-only HTTP check of every distinct preferred URL. HTTP results do not
+read-only HTTP check of every distinct preferred URL on 7 October, plus a check
+of four new preferred URLs on 8 October. HTTP results do not
 establish a group's current activity, lineage, or safeguarding.
 
 ## Coverage
 
 | Check | Result |
 |---|---:|
-| Place records | 1,697 |
+| Place records | 1,696 |
 | Distinct preferred URLs checked | 1,331 |
-| URLs returning 2xx/3xx | 1,083 |
-| URLs returning 404/410 | 22 (used by 27 records) |
+| URLs returning 2xx/3xx | 1,086 |
+| URLs returning 404/410 | 19 (used by 23 records) |
 | URLs blocked or rate limited | 19 (used by 21 records) |
 | URLs with inconclusive network/server results | 207 (used by 215 records) |
 | Records with no preferred URL | 18 |
-| Records with only a `popular`-class citation | 536 |
-| Records queued to check first (overlapping signals combined) | 559 |
+| Records with only a `popular`-class citation | 535 |
+| Records needing an item-level check because their sole citation is broad | 371 |
+| Records queued to check first (overlapping signals combined) | 924 |
 | City-level, approximate map pins | 873 |
 
 Every remaining place has exactly one citation, currently attached to `coordinates`.
 That citation alone cannot establish affiliation, an active schedule, or a
-safeguarding process. The seed labels all 1,697 places `active`, but it has no
+safeguarding process. The seed labels all 1,696 places `active`, but it has no
 per-place last-checked date. The public map and exported JSON no longer expose
 that seed status as a verified claim.
+
+The 371 broad-page citations comprise 271 rows citing Plum Village's
+[monastic centres page](https://plumvillage.org/community/monastic-practice-centres)
+and 100 citing the [White Plum founder page](https://whiteplum.org/founder/).
+Those pages do not individually support all the lay groups assigned to them.
+The review queue now flags each for a direct group or institutional listing.
+This is a limitation of our citations, not a claim that any group has doubtful
+origins.
 
 The 404/410 set needs human confirmation before changing or removing entries.
 For example, the automated client received a 404 from the
@@ -59,12 +69,29 @@ similarly. A failed URL is evidence about this check, not about the group.
   safeguarding judgment.
 - Heart of Wisdom Zen Temple now links to its
   [current temple page](https://zendust.org/heart-of-wisdom-zen-temple/).
+- [Dojo Zen Lleida](https://zenlleida.org/dojo/) now has its current address,
+  approximate map pin, schedule and regular-practice cost details, each checked
+  against its own site. The former Anselm Clavé address was obsolete.
+- [Groupe Zen de Caen](https://www.zen-azi.org/fr/node/456),
+  [Toruń](https://www.kwanumeurope.org/locations/torun-zen-group/) and
+  [Głogów](https://www.kwanumeurope.org/locations/glogow-zen-group/) now link
+  to individual pages maintained by their respective Zen associations.
+- Awaken Mindfulness Centre Singapore was removed pending a current source:
+  its preferred domain now presents a counselling service, while the broad
+  Plum Village page cited in the seed does not identify that specific sangha.
+  This is a listing-evidence decision, not a conduct finding.
+
+Bounded research batches examined 40 alphabetical Plum Village lay-group
+candidates and 24 apparently missing preferred links. Individual names on
+institutional lists or working group sites were useful evidence of identity;
+they did not establish current meetings or safeguarding for all 64 records.
+Automated link failures were not treated as proof that a group closed.
 
 ## Next review work
 
-Start with the 27 records whose preferred URL returned 404/410 and the 18
-without a preferred URL. Then review the 536 `popular`-only citations against
-the underlying group or institutional directories. For each correction, update
+Start with the 23 records whose preferred URL returned 404/410 and the 18
+without a preferred URL. Then review the 535 `popular`-only citations and 371
+broad-page citations against direct group or institutional pages. For each correction, update
 the canonical seed or raw place data, cite the direct source, and rerun the
 seed and audit. Do not infer misconduct from missing websites or policies.
 

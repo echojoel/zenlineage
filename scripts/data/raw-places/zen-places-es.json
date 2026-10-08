@@ -389,10 +389,22 @@
       "city": "Lleida",
       "region": "Cataluña",
       "lineage": "Sōtō",
-      "address": "Anselm Clavé 16, 25007 Lleida",
-      "url": "https://meditaciozenlleida.wordpress.com/",
-      "source_url": "https://espanol.buddhistdoor.net/directorio-de-entidades-budistas-en-cataluna-e-islas-baleares-espana/",
-      "notes": null
+      "address": "Carrer de les Torres de Sanui 5, entresòl 3er-esq., 25006 Lleida",
+      "url": "https://zenlleida.org/dojo/",
+      "source_url": "https://zenlleida.org/dojo/",
+      "notes": "Current practice address and AZI affiliation stated on the dojo's own page (checked 2026-10-08).",
+      "practiceDetails": {
+        "schedule": {
+          "value": "Zazen Tuesday and Thursday at 07:00 and 19:00; check the current calendar before visiting.",
+          "sourceUrl": "https://zenlleida.org/",
+          "checkedOn": "2026-10-08"
+        },
+        "cost": {
+          "value": "Sitting and teaching are free; participants share general expenses.",
+          "sourceUrl": "https://zenlleida.org/dojo/",
+          "checkedOn": "2026-10-08"
+        }
+      }
     },
     {
       "name": "Dojo Keisei-ji",

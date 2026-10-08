@@ -235,6 +235,10 @@ export const SRC_CHOZEN_JI = "src_chozen_ji";
  * `sourceExcerpt` of each citation preserves the original source URL so
  * per-entry provenance is auditable. */
 export const SRC_EU_ZEN_RESEARCH = "src_eu_zen_research";
+export const SRC_DOJO_ZEN_LLEIDA = "src_dojo_zen_lleida";
+export const SRC_AZI_CAEN = "src_azi_caen";
+export const SRC_KWANUM_TORUN = "src_kwanum_torun";
+export const SRC_KWANUM_GLOGOW = "src_kwanum_glogow";
 
 /** Global Zen practice-centre research bundle — fallback citation for the
  * Gemini Deep Research 2026-05 ingest where the row's primary directory
@@ -694,6 +698,42 @@ export const TEMPLE_SOURCES: {
       url: null,
       publicationDate: "2026",
       reliability: "popular",
+    },
+    {
+      id: SRC_DOJO_ZEN_LLEIDA,
+      type: "website",
+      title: "Dojo Zen Lleida — Dojo",
+      author: "Associació Cultural Zen de Lleida",
+      url: "https://zenlleida.org/dojo/",
+      publicationDate: "",
+      reliability: "primary",
+    },
+    {
+      id: SRC_AZI_CAEN,
+      type: "website",
+      title: "Association Zen Internationale — Groupe de Caen",
+      author: "Association Zen Internationale",
+      url: "https://www.zen-azi.org/fr/node/456",
+      publicationDate: "",
+      reliability: "authoritative",
+    },
+    {
+      id: SRC_KWANUM_TORUN,
+      type: "website",
+      title: "Kwan Um School of Zen Europe — Toruń Zen Group",
+      author: "Kwan Um School of Zen Europe",
+      url: "https://www.kwanumeurope.org/locations/torun-zen-group/",
+      publicationDate: "",
+      reliability: "authoritative",
+    },
+    {
+      id: SRC_KWANUM_GLOGOW,
+      type: "website",
+      title: "Kwan Um School of Zen Europe — Głogów Zen Group",
+      author: "Kwan Um School of Zen Europe",
+      url: "https://www.kwanumeurope.org/locations/glogow-zen-group/",
+      publicationDate: "",
+      reliability: "authoritative",
     },
     {
       id: SRC_FOGUANG,
