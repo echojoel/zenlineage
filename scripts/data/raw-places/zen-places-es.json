@@ -435,13 +435,13 @@
     },
     {
       "name": "Tenryuji",
-      "city": "Llardecans",
+      "city": "La Granadella",
       "region": "Cataluña",
-      "lineage": "Sōtō",
-      "address": "St. Pere 5, 25186 Llardecans, Lleida",
+      "lineage": "Sōtō / Taisen Deshimaru – Kōdō Sawaki – Kojun Kishigami",
+      "address": null,
       "url": "https://sotozencatalunya.wordpress.com/",
-      "source_url": "https://espanol.buddhistdoor.net/directorio-de-entidades-budistas-en-cataluna-e-islas-baleares-espana/",
-      "notes": null
+      "source_url": "https://sotozencatalunya.wordpress.com/tenryu-ji-ermita-zen-drac-del-cel/",
+      "notes": "Official Soto Zen Catalunya site identifies Tenryū-ji / Ermita del Drac del Cel as located in La Granadella, founded in 2007, and gives its stated lineage. Removed the prior Llardecans street address because the direct temple page places Tenryū-ji in La Granadella; current operating schedule remains unverified (reviewed 2026-10-08)."
     },
     {
       "name": "Dojo zen de Girona",
@@ -481,7 +481,7 @@
       "address": "Calle Valderribas 30, 28007 Madrid",
       "url": "https://www.unsuizen.es/",
       "source_url": "https://www.unsuizen.es/",
-      "notes": "Multipurpose zendo / martial arts dojo in Madrid; resident monk Bion."
+      "notes": "Official site confirms a Soto Zen zendo in Madrid, gives the street address, and lists current in-person weekly and twice-monthly zazen (reviewed 2026-10-08)."
     },
     {
       "name": "Dojo Zen Sakura",
@@ -491,17 +491,17 @@
       "address": null,
       "url": "https://dojozensakura.blogspot.com/",
       "source_url": "https://dojozensakura.blogspot.com/p/dojo-zen-sakura.html",
-      "notes": "Sierra de Madrid; transmitted via Shuyu Narita Roshi (Todenji)."
+      "notes": "Official page identifies the El Boalo practice group, Sōtō lineage through Soko Daidō Yoza and Shuyu Narita, monthly Saturday meetings at Centro de Meditación Vidayoga, and seasonal sesshin. No street address published (reviewed 2026-10-08)."
     },
     {
       "name": "Dojo Zen Nakama Madrid",
       "city": "Madrid",
       "region": "Comunidad de Madrid",
       "lineage": "Sōtō",
-      "address": null,
+      "address": "Calle Soto Hidalgo 22, Local 30, Madrid",
       "url": "https://dojozenmadrid.wordpress.com/",
       "source_url": "https://dojozenmadrid.wordpress.com/donde-estamos/",
-      "notes": null
+      "notes": "Official site identifies a Soto Zen dojo linked to Seikyuji and gives its address and weekly Monday, Tuesday, Thursday, and Saturday sitting schedule. Recent posts on the same site continue through August 2026 (reviewed 2026-10-08)."
     },
     {
       "name": "Zendo Betania Brihuega",
@@ -585,13 +585,13 @@
     },
     {
       "name": "Meditación Zen Cantabria (IIZE)",
-      "city": "Santander",
+      "city": "Marina de Cudeyo",
       "region": "Cantabria",
       "lineage": "Vietnamese Lam Te (Rinzai) / Instituto Internacional Zen España (Jiun Hogen Roshi)",
-      "address": null,
+      "address": "Edificio Las Escuelas, Setién, Carretera Rubayo–Agüero CA-421, Marina de Cudeyo",
       "url": "https://www.meditacionzencantabria.es/",
-      "source_url": "https://meditacionzenspain.com/grupos/",
-      "notes": "IIZE local group; Lâm Tế / Rinzai lineage."
+      "source_url": "https://meditacionzencantabria.es/cuando-y-donde-practicar/",
+      "notes": "Official local group page identifies the group as part of Instituto Internacional Zen de España and gives weekly Tuesday practice plus monthly Saturday sittings (September–June) at the municipal Edificio Las Escuelas in Setién (reviewed 2026-10-08)."
     },
     {
       "name": "Meditación Zen Alicante (IIZE)",
@@ -610,8 +610,8 @@
       "lineage": "Vietnamese Lam Te (Rinzai) / Instituto Internacional Zen España",
       "address": null,
       "url": "https://www.meditacionzenlarioja.com/",
-      "source_url": "https://meditacionzenspain.com/grupos/",
-      "notes": "Group covers La Rioja, Navarra and Álava (Elciego, Viana, Logroño)."
+      "source_url": "https://meditacionzenlarioja.com/cuando-y-donde-practicar/",
+      "notes": "Official local group page identifies Instituto Internacional Zen de España practice in Logroño from October to June on Fridays, by prior consultation, and seasonal linked groups in Elciego and Viana. Logroño venue is not published; do not infer an address (reviewed 2026-10-08)."
     },
     {
       "name": "Meditación Zen Donostia (IIZE)",

@@ -149,6 +149,14 @@ export const SRC_BOUDDHISME_FRANCE = "src_bouddhisme_france";
 // ─── Country-specific Zen guides ────────────────────────────────────────
 /** zen-guide.de — public-facing DE Zen-place catalogue. */
 export const SRC_ZEN_GUIDE_DE = "src_zen_guide_de";
+/** First-party pages for reviewed European practice places. */
+export const SRC_ZEN_MAINZ = "src_zen_mainz";
+export const SRC_ZEN_DARMSTADT = "src_zen_darmstadt";
+export const SRC_ZEN_RYUMONJI_DOJO = "src_zen_ryumonji_dojo";
+export const SRC_ZEN_EINDHOVEN = "src_zen_eindhoven";
+export const SRC_ZEN_ROTTERDAM = "src_zen_rotterdam";
+export const SRC_MAHA_KARUNA_CHAN = "src_maha_karuna_chan";
+export const SRC_ZEN_HEILBRONN = "src_zen_heilbronn";
 
 // ─── UK-specific networks ───────────────────────────────────────────────
 /** Western Chan Fellowship — Chan/Zen UK network (Hsu Yun lineage). */
@@ -265,6 +273,33 @@ export const SRC_BEOMEOSA_SITE = "src_beomeosa_site";
 export const SRC_BEOPJUSA_JOGYE = "src_beopjusa_jogye";
 export const SRC_JOGYE_ORDER = "src_jogye_order";
 export const SRC_NAGASAKI_CITY_ZEN = "src_nagasaki_city_zen";
+
+// Batch 27 primary/institutional evidence for Japan and South Korea review.
+export const SRC_DAISHUIN_MYOSHINJI_MAP = "src_daishuin_myoshinji_map";
+export const SRC_KINKAKUJI_SHOKOKU = "src_kinkakuji_shokoku";
+export const SRC_KODAIJI_OFFICIAL = "src_kodaiji_official";
+export const SRC_KOFUKUJI_NAGASAKI_CITY = "src_kofukuji_nagasaki_city";
+export const SRC_MANPUKUJI_OFFICIAL = "src_manpukuji_official";
+export const SRC_MEIGETSUIN_JNTO = "src_meigetsuin_jnto";
+export const SRC_MYOSHINJI_PUBLIC_ZAZEN = "src_myoshinji_public_zazen";
+export const SRC_NANZENJI_OFFICIAL = "src_nanzenji_official";
+export const SRC_RYOANJI_OFFICIAL = "src_ryoanji_official";
+export const SRC_RYUTAKUJI_MISHIMA_CITY = "src_ryutakuji_mishima_city";
+export const SRC_SANUN_ZENDO_SANBO = "src_sanun_zendo_sanbo";
+export const SRC_SHOFUKUJI_KOBE_OFFICIAL = "src_shofukuji_kobe_official";
+export const SRC_SHOFUKUJI_NAGASAKI_CITY = "src_shofukuji_nagasaki_city";
+export const SRC_BORIMSA_OFFICIAL = "src_borimsa_official";
+export const SRC_KTO_BULYEONGSA = "src_kto_bulyeongsa";
+export const SRC_KTO_DAESEUNGSA = "src_kto_daeseungsa";
+export const SRC_KTO_GIRIMSA = "src_kto_girimsa";
+export const SRC_KTO_GWANCHOKSA = "src_kto_gwanchoksa";
+export const SRC_KTO_HEUNGGUKSA = "src_kto_heungguksa";
+export const SRC_KTO_HWAGYESA = "src_kto_hwagyesa";
+export const SRC_KTO_NAESOSA = "src_kto_naesosa";
+export const SRC_DAEGU_PAGYESA = "src_daegu_pagyesa";
+export const SRC_SUDOSA_OFFICIAL = "src_sudosa_official";
+export const SRC_TAPSA_OFFICIAL = "src_tapsa_official";
+export const SRC_KTO_YEONGGUKSA = "src_kto_yeongguksa";
 // Korea Tourism Organization destination records used in South Korea batch 23.
 export const SRC_KTO_SONGGWANGSA = "src_kto_songgwangsa";
 export const SRC_KTO_HAEINSA = "src_kto_haeinsa";
@@ -303,6 +338,15 @@ export const SRC_KTO_JEONDEUNGSA = "src_kto_jeondeungsa";
  * `sourceExcerpt` of each citation preserves the original source URL so
  * per-entry provenance is auditable. */
 export const SRC_EU_ZEN_RESEARCH = "src_eu_zen_research";
+export const SRC_ITALY_MONASTEROZEN_DIRECT = "src_italy_monasterozen_direct";
+export const SRC_ITALY_PRACTICAZEN = "src_italy_praticazen";
+export const SRC_ITALY_ZENDOCCIDENTE = "src_italy_zendoccidente";
+export const SRC_SPAIN_NAKAMA = "src_spain_nakama";
+export const SRC_SPAIN_SAKURA = "src_spain_sakura";
+export const SRC_SPAIN_UNSUI = "src_spain_unsui";
+export const SRC_SPAIN_IIZE_CANTABRIA = "src_spain_iize_cantabria";
+export const SRC_SPAIN_IIZE_LARIOJA = "src_spain_iize_larioja";
+export const SRC_SPAIN_SOTOZEN_CATALUNYA = "src_spain_sotozen_catalunya";
 export const SRC_DOJO_ZEN_LLEIDA = "src_dojo_zen_lleida";
 export const SRC_AZI_CAEN = "src_azi_caen";
 export const SRC_KWANUM_TORUN = "src_kwanum_torun";
@@ -884,6 +928,13 @@ export const TEMPLE_SOURCES: {
       publicationDate: "2026",
       reliability: "popular",
     },
+    { id: SRC_ZEN_MAINZ, type: "website", title: "Zen-Zentrum Mainz — current practice and contact information", author: "Zen-Zentrum Mainz", url: "https://www.zen-mainz.de/", publicationDate: "2026", reliability: "primary" },
+    { id: SRC_ZEN_DARMSTADT, type: "website", title: "Zen in Darmstadt — group identity and AZI affiliation", author: "Zen in Darmstadt", url: "https://zen-darmstadt.de/", publicationDate: "2026", reliability: "primary" },
+    { id: SRC_ZEN_RYUMONJI_DOJO, type: "website", title: "Taikosan Ryūmonji — European dojo practice network", author: "Taikosan Ryūmonji", url: "https://meditation-zen.org/de/dojo-essen", publicationDate: "2026", reliability: "authoritative" },
+    { id: SRC_ZEN_EINDHOVEN, type: "website", title: "Zen Centrum Eindhoven — contact and venue", author: "Zen Centrum Eindhoven", url: "https://www.zeneindhoven.nl/contact/", publicationDate: "2026", reliability: "primary" },
+    { id: SRC_ZEN_ROTTERDAM, type: "website", title: "Zen Centrum Rotterdam — contact and current program", author: "Zen Centrum Rotterdam", url: "https://www.zenrotterdam.nl/contact", publicationDate: "2026", reliability: "primary" },
+    { id: SRC_MAHA_KARUNA_CHAN, type: "website", title: "Maha Karuna Ch’an — local Zen group directory", author: "Maha Karuna Ch’an", url: "https://mahakarunachan.nl/mediteren/lokale-zengroepen/", publicationDate: "2026", reliability: "authoritative" },
+    { id: SRC_ZEN_HEILBRONN, type: "website", title: "Zen-Meditationszentrum Heilbronn — current official site", author: "Zen-Meditationszentrum Heilbronn", url: "https://zen-heilbronn.app/", publicationDate: "2026", reliability: "primary" },
     {
       id: SRC_WESTERN_CHAN_FELLOWSHIP,
       type: "website",
@@ -1076,6 +1127,87 @@ export const TEMPLE_SOURCES: {
       url: null,
       publicationDate: "2026",
       reliability: "popular",
+    },
+    {
+      id: SRC_ITALY_MONASTEROZEN_DIRECT,
+      type: "website",
+      title: "Il Cerchio — official centers directory and center pages",
+      author: "Il Cerchio / Monastero Zen Ensoji",
+      url: "https://monasterozen.it/centri/",
+      publicationDate: "",
+      reliability: "primary",
+    },
+    {
+      id: SRC_ITALY_PRACTICAZEN,
+      type: "website",
+      title: "Shōbōgendō Dōjō Zen Sōtō di Novara — official site",
+      author: "Shōbōgendō Dōjō Zen Sōtō di Novara ETS / APS",
+      url: "https://praticazen.org/it/",
+      publicationDate: "2026",
+      reliability: "primary",
+    },
+    {
+      id: SRC_ITALY_ZENDOCCIDENTE,
+      type: "website",
+      title: "Centro Zen Vicenza — official site",
+      author: "Associazione Areté / Centro Zen Vicenza",
+      url: "https://www.zendoccidente.org/",
+      publicationDate: "2026",
+      reliability: "primary",
+    },
+    {
+      id: SRC_SPAIN_NAKAMA,
+      type: "website",
+      title: "Dojo Zen Nakama — location and practice information",
+      author: "Dojo Zen Nakama Madrid",
+      url: "https://dojozenmadrid.wordpress.com/donde-estamos/",
+      publicationDate: "2026",
+      reliability: "primary",
+    },
+    {
+      id: SRC_SPAIN_SAKURA,
+      type: "website",
+      title: "Dojo Zen Sakura — official practice information",
+      author: "Dojo Zen Sakura",
+      url: "https://dojozensakura.blogspot.com/p/dojo-zen-sakura.html",
+      publicationDate: "2026",
+      reliability: "primary",
+    },
+    {
+      id: SRC_SPAIN_UNSUI,
+      type: "website",
+      title: "Unsui Zen — official zendo and practice information",
+      author: "Unsui Zen",
+      url: "https://www.unsuizen.es/",
+      publicationDate: "2026",
+      reliability: "primary",
+    },
+    {
+      id: SRC_SPAIN_IIZE_CANTABRIA,
+      type: "website",
+      title: "Meditación Zen Cantabria — official local practice information",
+      author: "Instituto Internacional Zen de España, Cantabria group",
+      url: "https://meditacionzencantabria.es/cuando-y-donde-practicar/",
+      publicationDate: "2026",
+      reliability: "primary",
+    },
+    {
+      id: SRC_SPAIN_IIZE_LARIOJA,
+      type: "website",
+      title: "Meditación Zen La Rioja — official local practice information",
+      author: "Instituto Internacional Zen de España, La Rioja group",
+      url: "https://meditacionzenlarioja.com/cuando-y-donde-practicar/",
+      publicationDate: "2026",
+      reliability: "primary",
+    },
+    {
+      id: SRC_SPAIN_SOTOZEN_CATALUNYA,
+      type: "website",
+      title: "Temple Zen Catalunya — Tenryū-ji official information",
+      author: "Associació Soto Zen de Catalunya",
+      url: "https://sotozencatalunya.wordpress.com/tenryu-ji-ermita-zen-drac-del-cel/",
+      publicationDate: "2026",
+      reliability: "primary",
     },
     {
       id: SRC_DOJO_ZEN_LLEIDA,
@@ -2082,6 +2214,32 @@ export const TEMPLE_SOURCES: {
     { id: SRC_JOGYE_ORDER, type: "website", title: "Jogye Order — Beopjusa directory", author: "Jogye Order of Korean Buddhism", url: "https://www.buddhism.or.kr/jongdan/sub1/sub1-9-2-5.php", publicationDate: "", reliability: "authoritative" },
     { id: SRC_NAGASAKI_CITY_ZEN, type: "website", title: "Nagasaki City — official temple information", author: "Nagasaki City", url: "https://en.at-nagasaki.jp/spot/96", publicationDate: "", reliability: "authoritative" },
     { id: "src_seikyuji_dojos", type: "website", title: "Seikyuji — dojos and Zen groups linked to the temple", author: "Templo Zen Seikyuji", url: "https://www.seikyuji.org/donde-practicar/", publicationDate: "", reliability: "authoritative" },
+
+    { id: SRC_DAISHUIN_MYOSHINJI_MAP, type: "website", title: "Myōshin-ji — official precinct map", author: "Myōshin-ji", url: "https://www.myoshinji.or.jp/application/files/9316/4249/3315/myoshinji_map_new.pdf", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_KINKAKUJI_SHOKOKU, type: "website", title: "Shōkoku-ji — official Rokuon-ji history", author: "Shōkoku-ji", url: "https://www.shokoku-ji.jp/en/kinkakuji/about/", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_KODAIJI_OFFICIAL, type: "website", title: "Kōdai-ji — official temple site", author: "Kōdai-ji", url: "https://www.kodaiji.com/", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_KOFUKUJI_NAGASAKI_CITY, type: "website", title: "Nagasaki City — Kōfuku-ji visitor information", author: "Nagasaki City", url: "https://en.at-nagasaki.jp/barrierfree/64161", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_MANPUKUJI_OFFICIAL, type: "website", title: "Manpuku-ji — official Ōbaku temple site", author: "Manpuku-ji", url: "https://www.obakusan.or.jp/en/", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_MEIGETSUIN_JNTO, type: "website", title: "Japan National Tourism Organization — Meigetsu-in", author: "Japan National Tourism Organization", url: "https://www.japan.travel/en/spot/1583/", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_MYOSHINJI_PUBLIC_ZAZEN, type: "website", title: "Myōshin-ji — public zazen information", author: "Myōshin-ji", url: "https://www.myoshinji.or.jp/english/zen/info.html", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_NANZENJI_OFFICIAL, type: "website", title: "Nanzen-ji — official visiting information", author: "Nanzen-ji", url: "https://nanzenji.or.jp/about_rinzaishu/visit", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_RYOANJI_OFFICIAL, type: "website", title: "Ryōan-ji — official visitor information", author: "Ryōan-ji", url: "https://www.ryoanji.jp/smph/eng/rode/index.html", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_RYUTAKUJI_MISHIMA_CITY, type: "website", title: "Izu official tourism — Ryūtaku-ji", author: "Beautiful Izu regional tourism portal", url: "https://b-izu.com/spot/post-4909/", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_SANUN_ZENDO_SANBO, type: "website", title: "Sanbo Zen International — San'un Zendo", author: "Sanbo Zen International", url: "https://sanbo-zen-international.org/en/sanun-zendo/", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_SHOFUKUJI_KOBE_OFFICIAL, type: "website", title: "Shōfuku-ji, Kobe — official temple site", author: "Shōfuku-ji", url: "https://www.zen-shofukuji.jp/", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_SHOFUKUJI_NAGASAKI_CITY, type: "website", title: "Nagasaki City — Shōfuku-ji visitor information", author: "Nagasaki City", url: "https://en.at-nagasaki.jp/barrierfree/64117", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_BORIMSA_OFFICIAL, type: "website", title: "Borimsa — official temple site", author: "Borimsa", url: "https://www.borimsa.org/", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_KTO_BULYEONGSA, type: "website", title: "VisitKorea — Bulyeongsa Temple", author: "Korea Tourism Organization", url: "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=94557", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_KTO_DAESEUNGSA, type: "website", title: "VisitKorea — Daeseungsa Temple", author: "Korea Tourism Organization", url: "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=91058", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_KTO_GIRIMSA, type: "website", title: "VisitKorea — Girimsa Temple", author: "Korea Tourism Organization", url: "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=92300", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_KTO_GWANCHOKSA, type: "website", title: "VisitKorea — Gwanchoksa Temple", author: "Korea Tourism Organization", url: "https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=95051", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_KTO_HEUNGGUKSA, type: "website", title: "VisitKorea — Heungguksa Temple", author: "Korea Tourism Organization", url: "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=84111", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_KTO_HWAGYESA, type: "website", title: "VisitKorea — Hwagyesa Temple", author: "Korea Tourism Organization", url: "https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=90168", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_KTO_NAESOSA, type: "website", title: "VisitKorea — Naesosa Temple", author: "Korea Tourism Organization", url: "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=110754", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_DAEGU_PAGYESA, type: "website", title: "Daegu Tourism — Pagye Temple", author: "Daegu Foundation for Culture & Arts", url: "https://en.visitdaegu.or.kr/company/9?page=2&sca=%EC%9C%A0%EB%A3%8C%C2%B7%EC%B2%B4%ED%97%98%EA%B4%80%EA%B4%91", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_SUDOSA_OFFICIAL, type: "website", title: "Sudo-sa — official temple site", author: "Sudo-sa", url: "http://www.sudosa.or.kr/", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_TAPSA_OFFICIAL, type: "website", title: "Tapsa — official temple site", author: "Tapsa", url: "http://www.maisantapsa.com/", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_KTO_YEONGGUKSA, type: "website", title: "VisitKorea — Yeongguksa Temple", author: "Korea Tourism Organization", url: "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=73758", publicationDate: "", reliability: "authoritative" },
     { id: SRC_KTO_SONGGWANGSA, type: "website", title: "VisitKorea — Songgwangsa Temple", author: "Korea Tourism Organization", url: "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=110711", publicationDate: "", reliability: "authoritative" },
     { id: SRC_KTO_HAEINSA, type: "website", title: "VisitKorea — Haeinsa Temple", author: "Korea Tourism Organization", url: "https://english.visitkorea.or.kr/svc/contents/contentsView.do?menuSn=351&vcontsId=111156", publicationDate: "", reliability: "authoritative" },
     { id: SRC_KTO_TONGDOSA, type: "website", title: "VisitKorea — Tongdosa Temple", author: "Korea Tourism Organization", url: "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=110668", publicationDate: "", reliability: "authoritative" },
@@ -2554,10 +2712,10 @@ export const SEED_TEMPLES: TempleSeed[] = [
     foundedPrecision: "exact",
     schoolSlug: "rinzai",
     status: "active",
-    sourceId: SRC_WIKIPEDIA,
-    sourceExcerpt:
-      "Myōshin-ji (妙心寺) is the head temple of the largest Rinzai branch, founded 1342 by Kanzan Egen.",
-    url: "https://zen.rinnou.net/head_temples/01myoshin.html",
+    sourceId: SRC_MYOSHINJI_PUBLIC_ZAZEN,
+    sourceExcerpt: "Myōshin-ji’s official page confirms monthly public Zendō-kai on the 7th and 8th, with zazen and teishō, plus selected Saturday sessions. Reservations/capacity, Japanese-language instruction, and schedule exceptions apply; confirm dates with the temple.",
+    url: "https://www.myoshinji.or.jp/english/zen/info.html",
+    practiceDetails: { schedule: { value: "Public Zendō-kai monthly on the 7th and 8th (zazen and teishō); selected Saturday zazenkai also offered. Advance reservation and capacity limits apply; Japanese-language instruction only. Confirm dates with the temple.", sourceUrl: "https://www.myoshinji.or.jp/english/zen/info.html", checkedOn: "2026-10-08" } },
   },
   {
     slug: "tofuku-ji",
@@ -2592,10 +2750,9 @@ export const SEED_TEMPLES: TempleSeed[] = [
     foundedPrecision: "exact",
     schoolSlug: "rinzai",
     status: "active",
-    sourceId: SRC_WIKIPEDIA,
-    sourceExcerpt:
-      "Nanzen-ji (南禅寺) is the head temple of the Nanzen-ji branch of Rinzai Zen, founded 1291 by Emperor Kameyama's abdication residence.",
-    url: "http://www.nanzen.net/english/",
+    sourceId: SRC_NANZENJI_OFFICIAL,
+    sourceExcerpt: "Nanzen-ji’s official site provides current visiting hours and admission and confirms visitor access to temple areas. No recurring public zazen schedule is established by the reviewed official information.",
+    url: "https://nanzenji.or.jp/about_rinzaishu/visit",
   },
   {
     slug: "kennin-ji",
@@ -2668,11 +2825,10 @@ export const SEED_TEMPLES: TempleSeed[] = [
     foundedPrecision: null,
     schoolSlug: "rinzai",
     status: "active",
-    sourceId: "src_morinaga_wiki",
-    sourceExcerpt:
-      "Daishū-in (大珠院) — a sub-temple of Ryōan-ji in the Myōshin-ji complex, Kyoto. Sōkō Morinaga was ordained here by Gotō Zuigan in 1949 and served as its chief priest from 1963 until his death in 1995.",
+    sourceId: SRC_DAISHUIN_MYOSHINJI_MAP,
+    sourceExcerpt: "Myōshin-ji’s official precinct map places Daishū-in among the complex subtemples. Sōkō Morinaga’s biography is historical context; neither source establishes public access to this subtemple or a recurring practice schedule.",
     // Daishū-in has no website of its own; link the article documenting it.
-    url: "https://en.wikipedia.org/wiki/Soko_Morinaga",
+    url: "https://www.myoshinji.or.jp/application/files/9316/4249/3315/myoshinji_map_new.pdf",
   },
 
   // ─── Japanese Ōbaku ──────────────────────────────────────────────────
@@ -2690,10 +2846,9 @@ export const SEED_TEMPLES: TempleSeed[] = [
     foundedPrecision: "exact",
     schoolSlug: "obaku",
     status: "active",
-    sourceId: SRC_WIKIPEDIA,
-    sourceExcerpt:
-      "Manpuku-ji (萬福寺) is the head temple of the Ōbaku school, founded 1661 by the Chinese Chan master Ingen Ryūki (Yinyuan Longqi).",
-    url: "https://www.obakusan.or.jp/",
+    sourceId: SRC_MANPUKUJI_OFFICIAL,
+    sourceExcerpt: "Manpuku-ji’s official site identifies the Ōbaku head temple and offers visitor-facing information. Heritage and visitor access do not establish a recurring public zazen schedule.",
+    url: "https://www.obakusan.or.jp/en/",
   },
 
   // ─── Sanbo-Zen ───────────────────────────────────────────────────────
@@ -2712,9 +2867,8 @@ export const SEED_TEMPLES: TempleSeed[] = [
     schoolSlug: "sanbo-zen",
     founderSlug: "yamada-koun",
     status: "active",
-    sourceId: SRC_WIKIPEDIA,
-    sourceExcerpt:
-      "San'un Zendō (三雲禅堂) in Kamakura is the central dōjō of Sanbō-Zen, built in 1970 by Yamada Kōun Roshi in his family compound. 'San'un' ('three clouds') refers to Harada Daiun, Yasutani Hakuun, and Yamada Kōun.",
+    sourceId: SRC_SANUN_ZENDO_SANBO,
+    sourceExcerpt: "Sanbo Zen International identifies San’un Zendo in Kamakura as its headquarters and central dojo. This confirms institutional identity; current public visitor access and recurring open sessions were not established in the reviewed material.",
     url: "https://sanbo-zen-international.org/en/sanun-zendo/",
   },
 
@@ -3041,9 +3195,9 @@ export const SEED_TEMPLES: TempleSeed[] = [
     foundedPrecision: "exact",
     schoolSlug: "kwan-um",
     status: "active",
-    sourceId: SRC_WIKIPEDIA,
+    sourceId: SRC_KTO_HWAGYESA,
     sourceExcerpt:
-      "Hwagye-sa (화계사) in Seoul — the mother temple of the Kwan Um School of Zen; Seung Sahn's home monastery.",
+      "VisitKorea supports Hwagyesa’s identity, address, visitor information and templestay context. This does not establish current monastic training access or a recurring public Seon schedule.",
     url: "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=90168",
   },
   {
@@ -3540,10 +3694,9 @@ export const SEED_TEMPLES: TempleSeed[] = [
     foundedPrecision: "exact",
     schoolSlug: "obaku",
     status: "active",
-    sourceId: SRC_WIKIPEDIA,
-    sourceExcerpt:
-      "Tōmeizan Kōfuku-ji (東明山興福寺), Nagasaki — an Ōbaku Zen temple established in 1624 and the first of the Chinese temples of Nagasaki. Ingen Ryūki was invited to it in 1654, the arrival that brought the Ōbaku school to Japan.",
-    url: "https://en.wikipedia.org/wiki/K%C5%8Dfuku-ji_(Nagasaki)",
+    sourceId: SRC_KOFUKUJI_NAGASAKI_CITY,
+    sourceExcerpt: "Nagasaki City identifies Kōfuku-ji as Japan’s first Ōbaku temple and publishes its address, visitor hours and admission. No recurring public meditation schedule is listed.",
+    url: "https://en.at-nagasaki.jp/barrierfree/64161",
     geoPrecision: "exact",
   },
 
@@ -3564,10 +3717,9 @@ export const SEED_TEMPLES: TempleSeed[] = [
     foundedPrecision: "exact",
     schoolSlug: "obaku",
     status: "active",
-    sourceId: SRC_WIKIPEDIA,
-    sourceExcerpt:
-      "Shōfuku-ji (聖福寺), Nagasaki — an Ōbaku Zen temple and the last of the four great Chinese temples of Nagasaki to be founded. Not to be confused with the Rinzai Shōfuku-ji of Hyōgo.",
-    url: "https://en.wikipedia.org/wiki/Sh%C5%8Dfuku-ji_(Nagasaki)",
+    sourceId: SRC_SHOFUKUJI_NAGASAKI_CITY,
+    sourceExcerpt: "Nagasaki City’s official tourism source identifies the temple and provides visitor context. It does not establish public recurring Zen practice.",
+    url: "https://en.at-nagasaki.jp/barrierfree/64117",
     geoPrecision: "exact",
   },
   {
@@ -3646,10 +3798,9 @@ export const SEED_TEMPLES: TempleSeed[] = [
     foundedPrecision: "circa",
     schoolSlug: "rinzai",
     status: "active",
-    sourceId: SRC_WIKIPEDIA,
-    sourceExcerpt:
-      "Fugenzan Meigetsu-in (福源山明月院), Kamakura — a Rinzai Zen temple of the Kenchō-ji school, the surviving sub-temple of the former Zenkō-ji.",
-    url: "https://en.wikipedia.org/wiki/Meigetsu-in",
+    sourceId: SRC_MEIGETSUIN_JNTO,
+    sourceExcerpt: "Japan National Tourism Organization identifies Meigetsu-in as a Rinzai temple and provides location and visitor context. This does not establish monastic training access or recurring public Zen practice.",
+    url: "https://www.japan.travel/en/spot/1583/",
     geoPrecision: "exact",
   },
   {
@@ -3706,10 +3857,9 @@ export const SEED_TEMPLES: TempleSeed[] = [
     foundedPrecision: "exact",
     schoolSlug: "rinzai",
     status: "active",
-    sourceId: SRC_WIKIPEDIA,
-    sourceExcerpt:
-      "Ryōan-ji (龍安寺), Kyoto — a Rinzai temple of the Myōshin-ji branch, and the site of the best-known karesansui rock garden in Japan. A UNESCO World Heritage Site.",
-    url: "https://en.wikipedia.org/wiki/Ry%C5%8Dan-ji",
+    sourceId: SRC_RYOANJI_OFFICIAL,
+    sourceExcerpt: "Ryōan-ji’s official site provides access information for the temple and gardens. The visitor information does not establish recurring public Zen practice.",
+    url: "https://www.ryoanji.jp/smph/eng/rode/index.html",
     geoPrecision: "exact",
   },
   {
@@ -3726,10 +3876,9 @@ export const SEED_TEMPLES: TempleSeed[] = [
     foundedPrecision: "exact",
     schoolSlug: "rinzai",
     status: "active",
-    sourceId: SRC_WIKIPEDIA,
-    sourceExcerpt:
-      "Rokuon-ji (鹿苑寺), known as Kinkaku-ji, Kyoto — a Rinzai Zen temple of the Shōkoku-ji branch, converted from Ashikaga Yoshimitsu's retirement villa in 1397. A UNESCO World Heritage Site.",
-    url: "https://en.wikipedia.org/wiki/Kinkaku-ji",
+    sourceId: SRC_KINKAKUJI_SHOKOKU,
+    sourceExcerpt: "Shōkoku-ji identifies Rokuon-ji as the official name of Kinkaku-ji, a Rinzai branch temple and UNESCO site. The reviewed official page gives historical and visiting context, not a recurring public zazen schedule.",
+    url: "https://www.shokoku-ji.jp/en/kinkakuji/about/",
     geoPrecision: "exact",
   },
   {
@@ -3766,10 +3915,9 @@ export const SEED_TEMPLES: TempleSeed[] = [
     foundedPrecision: "exact",
     schoolSlug: "rinzai",
     status: "active",
-    sourceId: SRC_WIKIPEDIA,
-    sourceExcerpt:
-      "Kōdai-ji (高台寺), Higashiyama, Kyoto — a Rinzai temple of the Kennin-ji branch, founded 1606 by Nene in memory of her husband Toyotomi Hideyoshi.",
-    url: "https://en.wikipedia.org/wiki/K%C5%8Ddai-ji",
+    sourceId: SRC_KODAIJI_OFFICIAL,
+    sourceExcerpt: "Kōdai-ji’s official site supports the temple identity and publishes visitor information and a zazen experience offering. A one-off experience listing does not establish a recurring public practice timetable.",
+    url: "https://www.kodaiji.com/",
     geoPrecision: "exact",
   },
   {
@@ -4070,9 +4218,9 @@ export const SEED_TEMPLES: TempleSeed[] = [
     schoolSlug: "rinzai",
     founderSlug: "harada-sodo-kakusho",
     status: "active",
-    sourceId: SRC_WIKIPEDIA,
+    sourceId: SRC_ONEDROP,
     sourceExcerpt:
-      "Hokuozan Sōgenji in Asendorf — a Rinzai Zen monastery opened under Shōdō Harada Rōshi; described as the first European Zen monastery in the Japanese Rinzai lineage. It is the central place for One Drop Zen (Harada Rōshi's global sangha) throughout Europe.",
+      "One Drop Zen identifies Hokuozan Sōgenji as its central European Rinzai monastery in Asendorf and names Taikan ShoE Roshi as its teacher; its lineage page describes it as a central practice place for intensive retreats.",
     url: "https://onedropzen.net/",
   },
   {
@@ -5735,9 +5883,9 @@ export const SEED_TEMPLES: TempleSeed[] = [
     foundedPrecision: "exact",
     schoolSlug: "chan",
     status: "active",
-    sourceId: SRC_WIKIPEDIA,
+    sourceId: SRC_FOGUANG,
     sourceExcerpt:
-      "He Hua Temple — Fo Guang Shan's Amsterdam temple at Zeedijk 106–118 in Chinatown; officially completed September 2000. Largest Buddhist temple in Europe in traditional Chinese palace style.",
+      "Fo Guang Shan He Hua Temple’s official site confirms the temple at Zeedijk 106–118, Amsterdam, its Ch’an hall and regular visitor information, and its September 2000 opening.",
     url: "https://www.ibps.nl/",
   },
   {

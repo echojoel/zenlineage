@@ -140,10 +140,10 @@
       "city": "Padova",
       "region": "Veneto",
       "lineage": "Sōtō / Harada-Yasutani / Tetsugen Serra",
-      "address": null,
+      "address": "Via Beata Eustochio 2A/2B, 35124 Padova (PD)",
       "url": "https://monasterozen.it/centri/zen-padova/",
-      "source_url": "https://monasterozen.it/centri/",
-      "notes": "Affiliated to Enso-ji Il Cerchio."
+      "source_url": "https://monasterozen.it/centri/zen-padova/",
+      "notes": "Affiliated to Enso-ji Il Cerchio. Official page confirms temple status, weekly zazen, address, and current Monday/Thursday sitting schedule (reviewed 2026-10-08)."
     },
     {
       "name": "Tempio Unsui",
@@ -152,18 +152,18 @@
       "lineage": "Sōtō / Harada-Yasutani / Tetsugen Serra",
       "address": null,
       "url": "https://monasterozen.it/centri/unsui-centro-zen-pesaro/",
-      "source_url": "https://monasterozen.it/centri/",
-      "notes": "Affiliated to Enso-ji Il Cerchio."
+      "source_url": "https://monasterozen.it/centri/unsui-centro-zen-pesaro/",
+      "notes": "Affiliated to Enso-ji Il Cerchio. Its temple page reports a 2024 move to Via Montegrappa 7/1 and weekly zazen; the parent organization contact page currently lists a different meeting venue. Current physical venue unresolved (reviewed 2026-10-08)."
     },
     {
       "name": "Centro Zen Milano L20",
       "city": "Milano",
       "region": "Lombardia",
       "lineage": "Sōtō / Harada-Yasutani / Tetsugen Serra",
-      "address": null,
+      "address": "Viale Liguria 20, 20143 Milano (MI)",
       "url": "https://monasterozen.it/centri/l20-centro-zen-milano/",
-      "source_url": "https://monasterozen.it/centri/",
-      "notes": "Urban affiliate of Enso-ji Il Cerchio."
+      "source_url": "https://monasterozen.it/centri/l20-centro-zen-milano/",
+      "notes": "Urban affiliate of Enso-ji Il Cerchio. Official page confirms current center, address, Monday/Tuesday/Wednesday zazen, and affiliation with UBI/EBU (reviewed 2026-10-08)."
     },
     {
       "name": "Bukkosan Zenshinji – Scaramuccia",
@@ -350,10 +350,10 @@
       "city": "Novara",
       "region": "Piemonte",
       "lineage": "Sōtō / Fudenji",
-      "address": "Piazzale Giuseppe Fortina 6/A, 28100 Novara",
+      "address": "Via Antonio Rosmini 1/A, 28100 Novara",
       "url": "https://praticazen.org/",
       "source_url": "https://praticazen.org/it/",
-      "notes": "Founded 2000 by Giulio Taizen Alliaudi. Affiliated to Shōbōzan Fudenji."
+      "notes": "Affiliated to Shōbōzan Fudenji. Official site announces practice at this new address every Monday 20:30–23:00 from 2026-09-07; temporary 2026-07-27–2026-08-31 location at Via Tadini 23 (reviewed 2026-10-08)."
     },
     {
       "name": "Centro Zen L'Arco",
@@ -379,11 +379,11 @@
       "name": "Centro Zen d'Occidente – Associazione Aretè",
       "city": "Vicenza",
       "region": "Veneto",
-      "lineage": "Indipendente / Zen d'Occidente",
-      "address": null,
+      "lineage": "Sōtō / Deshimaru lineage; independent since 2009",
+      "address": "Via Edmondo de Amicis 9/11, 36100 Vicenza",
       "url": "https://www.zendoccidente.org/",
-      "source_url": "https://cesnur.com/il-buddhismo-in-italia/le-scuole-zen/",
-      "notes": "Independent Italian Zen lineage with multiple satellite groups."
+      "source_url": "https://www.zendoccidente.org/",
+      "notes": "Official Centro Zen Vicenza / Associazione Aretè site gives current address and weekly Tuesday, Wednesday, Thursday, and Sunday zazen; its history identifies Deshimaru-lineage Sōtō origins and independence since 2009 (reviewed 2026-10-08)."
     },
     {
       "name": "Casa Zen – Scuola delle Quattro Foglie",

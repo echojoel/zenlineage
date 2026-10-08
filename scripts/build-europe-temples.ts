@@ -538,6 +538,17 @@ function lineageToSchoolSlug(lineage: string): string {
 function pickSourceId(sourceUrl: string, lineage: string): string {
   const u = sourceUrl.toLowerCase();
 
+  // Batch 27: direct Italian and Spanish organization sources.
+  if (u.includes("monasterozen.it/centri/")) return "src_italy_monasterozen_direct";
+  if (u.includes("praticazen.org/it")) return "src_italy_praticazen";
+  if (u.includes("zendoccidente.org")) return "src_italy_zendoccidente";
+  if (u.includes("dojozenmadrid.wordpress.com")) return "src_spain_nakama";
+  if (u.includes("dojozensakura.blogspot.com")) return "src_spain_sakura";
+  if (u.includes("unsuizen.es")) return "src_spain_unsui";
+  if (u.includes("meditacionzencantabria.es")) return "src_spain_iize_cantabria";
+  if (u.includes("meditacionzenlarioja.com")) return "src_spain_iize_larioja";
+  if (u.includes("sotozencatalunya.wordpress.com")) return "src_spain_sotozen_catalunya";
+
   if (u.includes("caminomedio.org")) return "src_camino_medio";
   if (u.includes("nalanda.cat")) return "src_nalanda_centre";
   if (u.includes("sites.google.com/site/cambsrmgroup")) return "src_cambridge_srm_group";
@@ -576,6 +587,34 @@ function pickSourceId(sourceUrl: string, lineage: string): string {
   if (u.includes("zuiganji.or.jp")) return "src_zuiganji_site";
   if (u.includes("baekdamsa.templestay.com")) return "src_baekdamsa_templestay";
   if (u.includes("visitkorea.or.kr") && (u.includes("vcontsid=104966") || u.includes("baekyangsa"))) return "src_baekyangsa_visitkorea";
+  // Batch 27 official and institutional sources for Japan and South Korea.
+  if (u.includes("myoshinji.or.jp/application/files/9316/4249/3315")) return "src_daishuin_myoshinji_map";
+  if (u.includes("shokoku-ji.jp/en/kinkakuji/about")) return "src_kinkakuji_shokoku";
+  if (u.includes("kodaiji.com")) return "src_kodaiji_official";
+  if (u.includes("at-nagasaki.jp/barrierfree/64161")) return "src_kofukuji_nagasaki_city";
+  if (u.includes("obakusan.or.jp")) return "src_manpukuji_official";
+  if (u.includes("japan.travel/en/spot/1583")) return "src_meigetsuin_jnto";
+  if (u.includes("myoshinji.or.jp/english/zen/info.html")) return "src_myoshinji_public_zazen";
+  if (u.includes("nanzenji.or.jp/about_rinzaishu/visit")) return "src_nanzenji_official";
+  if (u.includes("ryoanji.jp/smph/eng/rode")) return "src_ryoanji_official";
+  if (u.includes("city.mishima.shizuoka.jp/kanko_content001236")) return "src_ryutakuji_mishima_city";
+  if (u.includes("b-izu.com/spot/post-4909")) return "src_ryutakuji_mishima_city";
+  if (u.includes("sanbo-zen-international.org/en/sanun-zendo")) return "src_sanun_zendo_sanbo";
+  if (u.includes("zen-shofukuji.jp")) return "src_shofukuji_kobe_official";
+  if (u.includes("at-nagasaki.jp/barrierfree/64117")) return "src_shofukuji_nagasaki_city";
+  if (u.includes("borimsa.org")) return "src_borimsa_official";
+  if (u.includes("vcontsid=94557")) return "src_kto_bulyeongsa";
+  if (u.includes("vcontsid=91058")) return "src_kto_daeseungsa";
+  if (u.includes("vcontsid=92300")) return "src_kto_girimsa";
+  if (u.includes("vcontsid=95051")) return "src_kto_gwanchoksa";
+  if (u.includes("vcontsid=84111")) return "src_kto_heungguksa";
+  if (u.includes("vcontsid=90168")) return "src_kto_hwagyesa";
+  if (u.includes("vcontsid=110754")) return "src_kto_naesosa";
+  if (u.includes("en.visitdaegu.or.kr/company/9")) return "src_daegu_pagyesa";
+  if (u.includes("sudosa.or.kr")) return "src_sudosa_official";
+  if (u.includes("maisantapsa.com")) return "src_tapsa_official";
+  if (u.includes("vcontsid=73758")) return "src_kto_yeongguksa";
+
   // South Korea Batch 24 institutional destination evidence.
   if (u.includes("vcontsid=96644")) return "src_kto_sudeoksa";
   if (u.includes("vcontsid=110571")) return "src_kto_donghwasa";
@@ -1061,6 +1100,14 @@ function pickSourceId(sourceUrl: string, lineage: string): string {
   )
     return "src_dharmadrum";
   if (u.includes("zen-azi.org")) return "src_azi";
+  if (u.includes("meditation-zen.org")) return "src_zen_ryumonji_dojo";
+  if (u.includes("zen-mainz.de")) return "src_zen_mainz";
+  if (u.includes("zen-darmstadt.de")) return "src_zen_darmstadt";
+  if (u.includes("zeneindhoven.nl")) return "src_zen_eindhoven";
+  if (u.includes("zenrotterdam.nl")) return "src_zen_rotterdam";
+  if (u.includes("mahakarunachan.nl")) return "src_maha_karuna_chan";
+  if (u.includes("zen-heilbronn.app")) return "src_zen_heilbronn";
+  if (u.includes("ibps.nl")) return "src_foguang";
   if (u.includes("sanbo-zen")) return "src_sanbozen";
   if (u.includes("onedropzen")) return "src_onedropzen";
   if (u.includes("whiteplum.org")) return "src_whiteplum";

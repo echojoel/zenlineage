@@ -8,7 +8,12 @@
       "Sōtōshū foreign-friendly directory pages 2-12 (~209 more parish temples)",
       "Many Rinzai sub-honzan and bekkaku jiin",
       "Korean Seon, Vietnamese Thiền, and Chan/Zen hybrid centers inside Japan are not yet surveyed"
-    ]
+    ],
+    "batch27": {
+      "checkedAt": "2026-10-08",
+      "scope": "Japan check_first records from practice evidence review batch26b; two generated records are updated here, curated records in seed-temples.ts",
+      "interpretation": "Institutional identity, heritage, visitor access, monastic training, and recurring public Zen practice are recorded separately. Missing evidence is uncertainty, not misconduct."
+    }
   },
   "places": [
     {
@@ -157,9 +162,9 @@
       "region": "Shizuoka Prefecture",
       "lineage": "Rinzai-shū Myōshin-ji-ha (Ryūtaku-ji)",
       "address": "326 Sawaji, Mishima-shi, Shizuoka 411-0043, Japan",
-      "url": "https://en.wikipedia.org/wiki/Ry%C5%ABtaku-ji",
-      "source_url": "https://en.wikipedia.org/wiki/Ry%C5%ABtaku-ji",
-      "notes": "Rinzai monastery of the Myōshin-ji branch in Mishima, long associated with Hakuun Yasutani and western students; retains an active rural training sōdō."
+      "url": "https://b-izu.com/spot/post-4909/",
+      "source_url": "https://b-izu.com/spot/post-4909/",
+      "notes": "Izu’s official regional tourism portal identifies Ryūtaku-ji as a Rinzai Myōshin-ji temple in Mishima and provides visitor context. This institutional source does not establish lay admission to monastic training or a recurring public zazen schedule. Checked 2026-10-08."
     },
     {
       "name": "Kokeizan Eihō-ji",
@@ -378,8 +383,8 @@
       "lineage": "Rinzai (senmon-sōdō / training monastery — Myōshin-ji-ha)",
       "address": "22-17 Gomiya-chō, Hyōgo-ku, Kobe, Hyōgo 652-0007",
       "url": "https://www.zen-shofukuji.jp/",
-      "source_url": "https://en.wikipedia.org/wiki/Sh%C5%8Dfuku-ji_(Kobe)",
-      "notes": "Rinzai senmon-sōdō led for many years by Yamada Mumon Rōshi; major training destination in Kobe."
+      "source_url": "https://www.zen-shofukuji.jp/",
+      "notes": "The official temple site supports Shōfuku-ji’s institutional identity. Its reviewed pages did not establish recurring public zazen access; monastic training and visitor access should be confirmed with the temple. Checked 2026-10-08."
     },
     {
       "name": "Tōkō-ji",
