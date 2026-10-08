@@ -171,7 +171,7 @@
       "address": "Rue des Forgerons 1, 2065 Savagnier",
       "url": "http://www.bouddha.ch/adresses_suisse.htm",
       "source_url": "http://www.bouddha.ch/adresses_suisse.htm",
-      "notes": "One of the rare Rinzai-tradition dōjōs in Switzerland; listed in bouddha.ch national directory."
+      "notes": "Batch 29 (2026-10-08): unresolved. The available Swiss directory entry is third-party and no current official source for the group, venue, Rinzai affiliation, or public schedule was found. The old address is unverified."
     },
     {
       "name": "Stiftung Felsentor / Hōshinji",
@@ -212,16 +212,6 @@
       "url": "https://www.kwanumeurope.org/",
       "source_url": "https://www.kwanumeurope.org/centers-groups/",
       "notes": "Listed as Kwan Um Switzerland head temple; guiding teacher historically Zen Master Wu Bong. Direct-source review 2026-10-08: current organization or network page supports the listed Zen group and its locality; retained only details stated on that page."
-    },
-    {
-      "name": "Plum Village Swiss Inter-Sangha",
-      "city": "Lausanne (national network)",
-      "region": "Vaud",
-      "lineage": "Plum Village / Vietnamese Thiền (Thich Nhat Hanh)",
-      "address": null,
-      "url": "https://www.facebook.com/PlumVillageSwissInterSangha/",
-      "source_url": "https://plumvillage.org/community/international-sangha-directory",
-      "notes": "Umbrella for Plum Village lay sanghas across Switzerland; coordinates national days of mindfulness."
     }
   ]
 }

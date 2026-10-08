@@ -175,7 +175,6 @@ describe("SEED_TEMPLES invariants", () => {
     // exempt — they are deliberately pinned to a capital that also holds a
     // local sangha filed under a different administrative region.
     const NATIONAL_NETWORK_PINS = new Set([
-      "plum-village-swiss-inter-sangha", // pinned to Bern; NL/CH-wide network
       "community-of-mindfulness-in-israel", // pinned to Tel Aviv; nationwide
       "zen-peacemakers-lage-landen", // pinned to the NL centroid
     ]);

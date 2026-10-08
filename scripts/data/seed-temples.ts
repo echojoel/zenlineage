@@ -333,12 +333,27 @@ export const SRC_NYJ_BONGSEONSA = "src_nyj_bongseonsa";
 export const SRC_JOGYE_BONGAMSA = "src_jogye_bongamsa";
 export const SRC_KTO_BONGWONSA = "src_kto_bongwonsa";
 export const SRC_KTO_JEONDEUNGSA = "src_kto_jeondeungsa";
+export const SRC_AKS_HAEUNJEONGSA = "src_aks_haeunjeongsa";
+export const SRC_BUSAN_HAEUNJEONGSA = "src_busan_haeunjeongsa";
+export const SRC_KTO_HWAUNSA_YONGIN = "src_kto_hwaunsa_yongin";
+export const SRC_YONGJUSA_HWAUNSA = "src_yongjusa_hwaunsa";
+export const SRC_LANGMAI_TU_HIEU = "src_langmai_tu_hieu";
+export const SRC_VIETNAM_TOURISM_VINH_TRANG = "src_vietnam_tourism_vinh_trang";
+export const SRC_VIETNAM_ADMIN_REORG_2025 = "src_vietnam_admin_reorg_2025";
+export const SRC_HUE_CITY_REORG_2025 = "src_hue_city_reorg_2025";
 
 // ─── Catch-all for the long tail of small directory citations ──────────
 /** EU Zen places research bundle — generic citation source for entries
  * surfaced by directories not individually registered above. The
  * `sourceExcerpt` of each citation preserves the original source URL so
  * per-entry provenance is auditable. */
+export const SRC_ZEN_HEART_NL_SITE = "src_zen_heart_nl_site";
+export const SRC_ZEN_SPIRIT_ARNHEM_SITE = "src_zen_spirit_arnhem_site";
+export const SRC_PLUM_VILLAGE_PORTO_SITE = "src_plum_village_porto_site";
+export const SRC_YUN_HWA_ISTANBUL_SITE = "src_yun_hwa_istanbul_site";
+export const SRC_IIZE_DONOSTIA_SITE = "src_iize_donostia_site";
+export const SRC_BUDDHISTDOOR_CATALUNYA = "src_buddhistdoor_catalunya";
+export const SRC_STELLA_DEL_MATTINO = "src_stella_del_mattino";
 export const SRC_EU_ZEN_RESEARCH = "src_eu_zen_research";
 export const SRC_CH_ZEN_GENEVE = "src_ch_zen_geneve";
 export const SRC_CH_SOTOZEN_DIRECTORY = "src_ch_sotozen_directory";
@@ -1147,6 +1162,13 @@ export const TEMPLE_SOURCES: {
       publicationDate: "2026",
       reliability: "authoritative",
     },
+    { id: SRC_ZEN_HEART_NL_SITE, type: "website", title: "Zen Heart Sangha Nederland — official site", author: "Zen Heart Sangha Nederland", url: "https://www.zenheart.nl/", publicationDate: "", reliability: "primary" },
+    { id: SRC_ZEN_SPIRIT_ARNHEM_SITE, type: "website", title: "Zen Spirit — 2026 agenda", author: "Zen Spirit", url: "https://zenspirit.nl/meditatie-agenda/", publicationDate: "2026", reliability: "primary" },
+    { id: SRC_PLUM_VILLAGE_PORTO_SITE, type: "website", title: "Plum Village Porto Sangha — official site", author: "Plum Village Porto Sangha", url: "https://plumvillageporto.org/", publicationDate: "", reliability: "primary" },
+    { id: SRC_YUN_HWA_ISTANBUL_SITE, type: "website", title: "Yun Hwa Sangha — Istanbul center", author: "Yun Hwa Denomination of World Social Buddhism", url: "https://yunhwasangha.org/centers/istanbul/", publicationDate: "", reliability: "primary" },
+    { id: SRC_IIZE_DONOSTIA_SITE, type: "website", title: "Instituto Internacional Zen de España — Donostia practice times", author: "Donostia Zen group", url: "https://www.meditacionzendonostia.com/cuando-y-donde-practicar/", publicationDate: "", reliability: "primary" },
+    { id: SRC_BUDDHISTDOOR_CATALUNYA, type: "website", title: "Buddhistdoor en Español — Buddhist entities in Catalonia and Balearic Islands", author: "Buddhistdoor en Español", url: "https://espanol.buddhistdoor.net/directorio-de-entidades-budistas-en-cataluna-e-islas-baleares-espana/", publicationDate: "2025-12-17", reliability: "secondary" },
+    { id: SRC_STELLA_DEL_MATTINO, type: "website", title: "La Stella del Mattino — local zazen groups", author: "La Stella del Mattino", url: "https://www.lastelladelmattino.org/vita-della-comunita", publicationDate: "", reliability: "primary" },
     {
       id: SRC_EU_ZEN_RESEARCH,
       type: "editorial",
@@ -1155,6 +1177,33 @@ export const TEMPLE_SOURCES: {
       url: null,
       publicationDate: "2026",
       reliability: "popular",
+    },
+    {
+      id: "src_norwegian_sotozen",
+      type: "website",
+      title: "Den norske Sotozen Buddhistorden — current Norwegian practice centres",
+      author: "Den norske Sotozen Buddhistorden",
+      url: "https://www.sotozen.no/aktuelt/22-1-2026-sammen-for-et-strre-tempel",
+      publicationDate: "2026",
+      reliability: "authoritative",
+    },
+    {
+      id: "src_bodhidharma_poland",
+      type: "website",
+      title: "Związek Buddystów Zen Bodhidharma — 2026 practice notices",
+      author: "Związek Buddystów Zen Bodhidharma",
+      url: "https://www.buddyzmzen.pl/",
+      publicationDate: "2026",
+      reliability: "primary",
+    },
+    {
+      id: "src_zenki_israel",
+      type: "website",
+      title: "Zen in Daily Life — learning Zen in Israel",
+      author: "Zen in Daily Life / Danny Waxman and Ofer Cohen",
+      url: "https://www.zenki.com/index.php?lang=en&page=AboutlearningZeninIsrael",
+      publicationDate: "",
+      reliability: "primary",
     },
     {
       id: SRC_ITALY_MONASTEROZEN_DIRECT,
@@ -2298,6 +2347,14 @@ export const TEMPLE_SOURCES: {
     { id: SRC_JOGYE_BONGAMSA, type: "website", title: "Jogye Order — Seon centers, including Bongamsa", author: "Jogye Order of Korean Buddhism", url: "https://jokb.org/bbs/content.php?co_id=3040", publicationDate: "", reliability: "authoritative" },
     { id: SRC_KTO_BONGWONSA, type: "website", title: "Bongwonsa Temple", author: "Korea Tourism Organization", url: "https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=89961", publicationDate: "", reliability: "authoritative" },
     { id: SRC_KTO_JEONDEUNGSA, type: "website", title: "Jeondeungsa Temple", author: "Korea Tourism Organization", url: "https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?menuSn=351&vcontsId=110726", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_AKS_HAEUNJEONGSA, type: "website", title: "Academy of Korean Studies — Haeunjeongsa Transmission Verses", author: "Academy of Korean Studies", url: "https://encykorea.aks.ac.kr/Article/E0078098", publicationDate: "2024", reliability: "authoritative" },
+    { id: SRC_BUSAN_HAEUNJEONGSA, type: "website", title: "Busan Metropolitan Government — Haeunjeongsa and Jangji Park", author: "Busan Metropolitan Government", url: "https://www.busan.go.kr/nbtnewsBU/1390050", publicationDate: "2019", reliability: "authoritative" },
+    { id: SRC_KTO_HWAUNSA_YONGIN, type: "website", title: "VisitKorea — Hwaunsa (Yongin)", author: "Korea Tourism Organization", url: "https://korean.visitkorea.or.kr/detail/ms_detail.do?cotid=83cf15f4-ce7d-4d70-a4d3-b4b7171506a8", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_YONGJUSA_HWAUNSA, type: "website", title: "Yongjusa — parish temples directory, Hwaunsa", author: "Yongjusa, Jogye Order", url: "https://yongjoosa.org/pages/s1_5.php", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_LANGMAI_TU_HIEU, type: "website", title: "Làng Mai — Tổ đình Từ Hiếu", author: "Plum Village Community of Engaged Buddhism", url: "https://langmai.org/cong-tam-quan/cac-tu-vien/to-dinh-tu-hieu/", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_VIETNAM_TOURISM_VINH_TRANG, type: "website", title: "Vietnam National Authority of Tourism — Vĩnh Tràng Pagoda", author: "Vietnam National Authority of Tourism", url: "https://vietnamtourism.vn/en/index.php/tourism/items/3073", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_VIETNAM_ADMIN_REORG_2025, type: "website", title: "Government of Vietnam — 2025 provincial administrative reorganization", author: "Government of Vietnam", url: "https://xaydungchinhsach.chinhphu.vn/quoc-hoi-thong-qua-nghi-quyet-sap-xep-don-vi-hanh-chinh-cap-tinh-119250612101356465.htm", publicationDate: "2025", reliability: "authoritative" },
+    { id: SRC_HUE_CITY_REORG_2025, type: "website", title: "Government of Vietnam — establishment of Huế City", author: "Government of Vietnam", url: "https://xaydungchinhsach.chinhphu.vn/nghi-quyet-so-175-2024-qh15-thanh-lap-thanh-pho-hue-truc-thuoc-trung-uong-119241205102339073.htm", publicationDate: "2024", reliability: "authoritative" },
     { id: SRC_JOCHIJI_SITE, type: "website", title: "Jōchi-ji — official visitor information", author: "Jōchi-ji", url: "https://jochiji.com/en/en", publicationDate: "", reliability: "authoritative" },
     { id: SRC_KENNINJI_SITE, type: "website", title: "Kennin-ji — zazen experience", author: "Kennin-ji", url: "https://www.kenninji.jp/experience/", publicationDate: "", reliability: "authoritative" },
     { id: SRC_HOFUKUJI_OKAYAMA, type: "website", title: "Okayama official tourism — Hōfuku-ji", author: "Okayama Prefecture Tourism Federation", url: "https://www.okayama-japan.jp/en/spot/10606", publicationDate: "", reliability: "authoritative" },
@@ -3038,13 +3095,13 @@ export const SEED_TEMPLES: TempleSeed[] = [
     // previous pin sat ~1.9km west, in open ground short of the temple.
     lat: 16.43891,
     lng: 107.571989,
-    region: "Huế",
+    region: "Huế City",
     country: "Vietnam",
     foundedYear: 1843,
     foundedPrecision: "exact",
     schoolSlug: "lam-te",
     status: "active",
-    sourceId: SRC_PLUMVILLAGE_MONASTIC,
+    sourceId: SRC_LANGMAI_TU_HIEU,
     sourceExcerpt:
       "Plum Village’s official Từ Hiếu page identifies the temple as its Vietnamese root temple. This supports institutional identity and heritage context; no recurring public practice timetable was confirmed (checked 2026-10-08).",
     url: "https://langmai.org/cong-tam-quan/cac-tu-vien/to-dinh-tu-hieu/",
@@ -3067,6 +3124,27 @@ export const SEED_TEMPLES: TempleSeed[] = [
     sourceExcerpt:
       "Huế tourism authority identifies Từ Đàm as a historic Buddhist center and visitor destination; this is heritage/visitor evidence, not a published recurring practice schedule (checked 2026-10-08).",
     url: "https://visithue.vn/chua-tu-dam-co-kinh-giua-long-co-do/?pid=MjI5ODF8Y3NkbGRs0",
+  },
+  {
+    slug: "vinh-trang-pagoda",
+    names: [
+      { locale: "en", value: "Vĩnh Tràng Pagoda" },
+      { locale: "vi", value: "Chùa Vĩnh Tràng" },
+    ],
+    // OSM node for Chùa Vĩnh Tràng, Nguyễn Trung Trực Street, Mỹ Tho.
+    lat: 10.3628375,
+    lng: 106.3735689,
+    region: "Đồng Tháp (former Tiền Giang)",
+    country: "Vietnam",
+    foundedYear: 1849,
+    foundedPrecision: "exact",
+    schoolSlug: "lam-te",
+    status: "active",
+    sourceId: SRC_VIETNAM_TOURISM_VINH_TRANG,
+    sourceExcerpt:
+      "The Vietnam National Authority of Tourism's item-specific profile identifies Vĩnh Tràng Pagoda on Nguyễn Trung Trực Street in Mỹ Tho and as a national historical-cultural relic. Its administrative labels predate the 2025 merger of Tiền Giang into Đồng Tháp. This supports institutional, heritage, and visitor context; no recurring public Zen schedule is claimed.",
+    url: "https://vietnamtourism.vn/en/index.php/tourism/items/3073",
+    geoPrecision: "exact",
   },
   {
     slug: "truc-lam-dalat",
@@ -4020,6 +4098,46 @@ export const SEED_TEMPLES: TempleSeed[] = [
     sourceId: SRC_KTO_SILSANGSA,
     sourceExcerpt: "VisitKorea describes Silsangsa as a historic temple associated with the Nine Mountain Seon temples, gives visitor access details and address. This historical connection does not establish recurring public Seon practice.",
     url: "https://en.wikipedia.org/wiki/Silsangsa",
+    geoPrecision: "exact",
+  },
+  {
+    slug: "hae-un-jeongsa",
+    names: [
+      { locale: "en", value: "Hae-un-jeongsa (Busan)" },
+      { locale: "ko", value: "해운정사" },
+    ],
+    lat: 35.1682,
+    lng: 129.1588,
+    region: "Busan Metropolitan City",
+    country: "South Korea",
+    foundedYear: null,
+    foundedPrecision: null,
+    schoolSlug: "other",
+    status: "active",
+    sourceId: SRC_AKS_HAEUNJEONGSA,
+    sourceExcerpt:
+      "The Academy of Korean Studies identifies Haeunjeongsa in Haeundae-gu, Busan, and gives the address 40-6 Udong 2-ro. Busan Metropolitan Government separately identifies it as a Seonhakwon foundation in U-dong, Haeundae-gu. This corrects the unsupported Tongyeong location; no recurring public schedule is claimed.",
+    url: "https://encykorea.aks.ac.kr/Article/E0078098",
+    geoPrecision: "exact",
+  },
+  {
+    slug: "hwaun-sa",
+    names: [
+      { locale: "en", value: "Hwaun-sa (Yongin)" },
+      { locale: "ko", value: "화운사" },
+    ],
+    lat: 37.25111,
+    lng: 127.16083,
+    region: "Gyeonggi-do",
+    country: "South Korea",
+    foundedYear: null,
+    foundedPrecision: null,
+    schoolSlug: "jogye",
+    status: "active",
+    sourceId: SRC_KTO_HWAUNSA_YONGIN,
+    sourceExcerpt:
+      "VisitKorea identifies the Hwaunsa in Yongin, Gyeonggi-do and reports templestay operation; the Jogye Order's Yongjusa parish directory gives the temple's address and branch affiliation. This corrects the unsupported Yeongdong location and Beopjusa affiliation. Templestay evidence does not establish a recurring public Zen schedule.",
+    url: "https://korean.visitkorea.or.kr/detail/ms_detail.do?cotid=83cf15f4-ce7d-4d70-a4d3-b4b7171506a8",
     geoPrecision: "exact",
   },
   {
@@ -5387,9 +5505,9 @@ export const SEED_TEMPLES: TempleSeed[] = [
     foundedPrecision: "exact",
     schoolSlug: "other",
     status: "active",
-    sourceId: SRC_WIKIPEDIA,
+    sourceId: SRC_WESTERN_CHAN_FELLOWSHIP,
     sourceExcerpt:
-      "Western Chan Fellowship — UK Chan charity in the Sheng Yen lineage, founded 1997 by Dr John Crook (first Western Dharma heir of Sheng Yen). The Maenllwyd retreat centre in mid-Wales is its principal site.",
+      "The Western Chan Fellowship’s official 2026 newsletter announces a Maenllwyd memorial day that includes meditation and an invitation to attend, confirming current practice use of the retreat venue.",
     url: "https://westernchanfellowship.org/",
   },
 

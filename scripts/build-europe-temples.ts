@@ -542,6 +542,15 @@ function lineageToSchoolSlug(lineage: string): string {
 function pickSourceId(sourceUrl: string, lineage: string): string {
   const u = sourceUrl.toLowerCase();
 
+  // Batch 29: direct current sources for Dutch, Portuguese, Spanish, Turkish, and Italian groups.
+  if (u.includes("zenheart.nl")) return "src_zen_heart_nl_site";
+  if (u.includes("zenspirit.nl")) return "src_zen_spirit_arnhem_site";
+  if (u.includes("plumvillageporto.org")) return "src_plum_village_porto_site";
+  if (u.includes("yunhwasangha.org/centers/istanbul")) return "src_yun_hwa_istanbul_site";
+  if (u.includes("meditacionzendonostia.com/cuando-y-donde-practicar")) return "src_iize_donostia_site";
+  if (u.includes("buddhistdoor.net/directorio-de-entidades-budistas-en-cataluna")) return "src_buddhistdoor_catalunya";
+  if (u.includes("lastelladelmattino.org/vita-della-comunita")) return "src_stella_del_mattino";
+
   // Batch 28: direct Swiss, Polish, Swedish, and Norwegian organization sources.
   if (u.includes("zen-geneve.ch")) return "src_ch_zen_geneve";
   if (u.includes("zen-soto.ch")) return "src_ch_sotozen_directory";
@@ -648,6 +657,14 @@ function pickSourceId(sourceUrl: string, lineage: string): string {
   if (u.includes("vcontsid=93836")) return "src_kto_geumsansa";
   if (u.includes("vcontsid=111755")) return "src_kto_hwaeomsa";
   if (u.includes("vcontsid=89961")) return "src_kto_bongwonsa";
+
+  // Batch 29 item-level sources for corrected Korean entities and Vietnam sites.
+  if (u.includes("encykorea.aks.ac.kr/article/e0078098")) return "src_aks_haeunjeongsa";
+  if (u.includes("busan.go.kr/nbtnewsbu/1390050")) return "src_busan_haeunjeongsa";
+  if (u.includes("korean.visitkorea.or.kr/detail/ms_detail.do?cotid=83cf15f4-ce7d-4d70-a4d3-b4b7171506a8")) return "src_kto_hwaunsa_yongin";
+  if (u.includes("yongjoosa.org/pages/s1_5.php")) return "src_yongjusa_hwaunsa";
+  if (u.includes("langmai.org/cong-tam-quan/cac-tu-vien/to-dinh-tu-hieu")) return "src_langmai_tu_hieu";
+  if (u.includes("vietnamtourism.vn/en/index.php/tourism/items/3073")) return "src_vietnam_tourism_vinh_trang";
   if (u.includes("vcontsid=110726")) return "src_kto_jeondeungsa";
   if (u.includes("nyj.go.kr/eng/contents.do?key=4417")) return "src_nyj_bongseonsa";
   if (u.includes("jokb.org/bbs/content.php?co_id=3040")) return "src_jogye_bongamsa";
@@ -877,6 +894,9 @@ function pickSourceId(sourceUrl: string, lineage: string): string {
   if (u.includes("linhsondetroit.net")) return "src_linh_son_detroit";
   if (u.includes("linhsondickinson.org")) return "src_linh_son_dickinson";
   if (u.includes("sotozen-navi.com")) return "src_sotozen_navi";
+  if (u.includes("sotozen.no/aktuelt/22-1-2026")) return "src_norwegian_sotozen";
+  if (u.includes("buddyzmzen.pl/2026/")) return "src_bodhidharma_poland";
+  if (u.includes("zenki.com/index.php")) return "src_zenki_israel";
   if (u.includes("okayama-japan.jp/en/spot/10606")) return "src_hofukuji_okayama";
   if (u.includes("greenmountainzen.org.nz")) return "src_green_mountain_zen_site";
   if (u.includes("greenriverzen.org")) return "src_green_river_zen_site";
@@ -1165,7 +1185,12 @@ function pickSourceId(sourceUrl: string, lineage: string): string {
   if (u.includes("sotozen.es")) return "src_sotozen_es";
 
   // ── UK networks ─────────────────────────────────────────────────────
-  if (u.includes("obcon.org") || u.includes("throsselhole")) return "src_obc";
+  if (
+    u.includes("obcon.org") ||
+    u.includes("throsselhole") ||
+    u.includes("tbpriory.org.uk/order-of-buddhist-contemplatives-websites")
+  )
+    return "src_obc";
   if (u.includes("westernchanfellowship") || u.includes("w-c-f.org"))
     return "src_western_chan_fellowship";
   if (u.includes("stonewaterzen.org")) return "src_stonewater_zen";
@@ -1304,7 +1329,6 @@ const MANUAL_COORDS: Record<string, ManualCoord> = {
   "Grupa Zen Kwan Um Płock": [52.5468, 19.7064], // Płock
   "Almond Blossom Sangha (Sangha Flor de Amêndoeira)": [37.0194, -7.9304], // Faro, Algarve
   Zengården: [59.45, 15.65], // Finnåker near Arboga
-  "Plum Village Swiss Inter-Sangha": [46.948, 7.4474, "city"], // Swiss centroid (Bern); national network
   "Community of Mindfulness in Israel (Plum Village)": [32.0853, 34.7818, "city"], // Tel Aviv (national network)
   "Sangha Amsterdam Oost - Diemen (Plum Village)": [52.3439, 4.9619], // Amsterdam-Oost / Diemen
   // GB entries whose street address Nominatim could not resolve, so the

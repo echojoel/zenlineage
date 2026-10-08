@@ -203,7 +203,7 @@
       "address": "Via di Selva Candida 45/C, Roma",
       "url": "https://www.torakanzendojo.org/",
       "source_url": "https://www.torakanzendojo.org/dojo.htm",
-      "notes": "Lineage of Gudo Wafu Nishijima → Federico Dainin Jōkō → Paolo Taigō Kōnin (Dharma transmission 2020)."
+      "notes": "Batch 29 (2026-10-08): unresolved. The official site describes a Zen Soto section and regular Tuesday evening and Friday morning practice, but no date or current schedule is published on the accessible page (last indexed several years ago). Current timetable and visitor access should be confirmed before travel."
     },
     {
       "name": "Sanbō Dojo Roma",
@@ -363,7 +363,7 @@
       "address": null,
       "url": "https://www.romazen.it/",
       "source_url": "https://cesnur.com/il-buddhismo-in-italia/le-scuole-zen/",
-      "notes": "Affiliated with San Francisco Zen Center (Shunryu Suzuki line)."
+      "notes": "Batch 29 (2026-10-08): unresolved. The listed first-party domain did not yield verifiable current activity or a practice schedule in targeted checks. Current meeting place and schedule remain unconfirmed."
     },
     {
       "name": "Centro Italiano Zen Sōtō",
@@ -373,7 +373,7 @@
       "address": null,
       "url": "https://www.centroitalianozen.it/",
       "source_url": "https://cesnur.com/il-buddhismo-in-italia/le-scuole-zen/",
-      "notes": "Listed in CESNUR survey of Italian Zen schools."
+      "notes": "Batch 29 (2026-10-08): unresolved. The official website returned a fetch error; municipal Milan documents from 2014–2017 identify a Buddhist temple under this name but do not establish current activity, schedule, or address. Retain only as an unresolved historical identity."
     },
     {
       "name": "Centro Zen d'Occidente – Associazione Aretè",
@@ -386,54 +386,14 @@
       "notes": "Official Centro Zen Vicenza / Associazione Aretè site gives current address and weekly Tuesday, Wednesday, Thursday, and Sunday zazen; its history identifies Deshimaru-lineage Sōtō origins and independence since 2009 (reviewed 2026-10-08)."
     },
     {
-      "name": "Casa Zen – Scuola delle Quattro Foglie",
-      "city": "Gazzuolo",
-      "region": "Lombardia",
-      "lineage": "Rinzai / Kyudo",
-      "address": null,
-      "url": "https://www.kyudo.net/",
-      "source_url": "https://cesnur.com/il-buddhismo-in-italia/le-scuole-zen/",
-      "notes": "Integrates Kyūdō and Rinzai Zen practice."
-    },
-    {
       "name": "Stella del Mattino – Gruppo zazen di Torino",
       "city": "Torino",
       "region": "Piemonte",
       "lineage": "Sōtō / Antaiji (Watanabe / Forzani-Marassi)",
       "address": null,
       "url": "https://www.lastelladelmattino.org/vita-della-comunita/gruppo-zazen-di-torino/",
-      "source_url": "https://www.lastelladelmattino.org/vita-della-comunita",
-      "notes": "Local sangha of La Stella del Mattino community (founded by Italian-Japanese Antaiji monks)."
-    },
-    {
-      "name": "Stella del Mattino – Gruppo zazen di Fano",
-      "city": "Fano",
-      "region": "Marche",
-      "lineage": "Sōtō / Antaiji (Watanabe / Forzani-Marassi)",
-      "address": null,
-      "url": "https://www.lastelladelmattino.org/vita-della-comunita/gruppo-zazen-di-fano/",
-      "source_url": "https://www.lastelladelmattino.org/vita-della-comunita",
-      "notes": "Local sangha of La Stella del Mattino."
-    },
-    {
-      "name": "Stella del Mattino – Gruppo zazen di Livorno",
-      "city": "Livorno",
-      "region": "Toscana",
-      "lineage": "Sōtō / Antaiji (Watanabe / Forzani-Marassi)",
-      "address": null,
-      "url": "https://www.lastelladelmattino.org/vita-della-comunita/gruppo-zazen-di-livorno/",
-      "source_url": "https://www.lastelladelmattino.org/vita-della-comunita",
-      "notes": "Local sangha of La Stella del Mattino."
-    },
-    {
-      "name": "Stella del Mattino – Zazen a Pescara",
-      "city": "Pescara",
-      "region": "Abruzzo",
-      "lineage": "Sōtō / Antaiji (Watanabe / Forzani-Marassi)",
-      "address": null,
-      "url": "https://www.lastelladelmattino.org/zazen-a-pescara",
-      "source_url": "https://www.lastelladelmattino.org/vita-della-comunita",
-      "notes": "Local sangha of La Stella del Mattino."
+      "source_url": "https://www.lastelladelmattino.org/vita-della-comunita/gruppo-zazen-di-torino",
+      "notes": "Official Stella del Mattino page reports weekly Tuesday practice at Ludoteca Cuqu, Via Saluzzo 30, during 2023/24. That schedule is stale for this review; no 2026 schedule or venue update was found. Identity is supported, but current public practice and venue remain unresolved. Source: https://www.lastelladelmattino.org/vita-della-comunita/gruppo-zazen-di-torino"
     },
     {
       "name": "Musangam – Eremo Bodhidharma",

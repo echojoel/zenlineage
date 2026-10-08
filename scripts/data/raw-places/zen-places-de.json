@@ -192,7 +192,7 @@
       "address": "12459 Berlin",
       "url": "https://henkaipan.de/",
       "source_url": "https://www.zen-guide.de/zen/zentren/id/386",
-      "notes": "Still queued: the linked first-party site was not accessible in this review, and no current institutional directory entry confirming the practice venue or schedule was found. Current activity, address, and lineage remain uncertain. Reviewed 2026-10-08."
+      "notes": "Batch 29 (2026-10-08): unresolved. Targeted search did not surface a current accessible first-party or institutional page tying this name and Berlin address to a present practice group. Retain the identity and address as unverified."
     },
     {
       "name": "Antai-An Zen Dojo Tegel",
@@ -232,7 +232,7 @@
       "address": "22337 Hamburg",
       "url": "https://www.stilles-wasser.de/",
       "source_url": "https://www.zen-guide.de/zen/zentren/id/125",
-      "notes": "Still queued: the linked first-party site could not be accessed reliably in this review and no independent institutional listing confirmed current venue or schedule. Those fields remain uncertain. Reviewed 2026-10-08."
+      "notes": "Batch 29 (2026-10-08): unresolved. The first-party domain could not be accessed reliably; no current institutional listing confirmed the Hamburg venue or schedule. No inference about closure is made."
     },
     {
       "name": "Internationales Zen-Institut Deutschland (IZID)",
@@ -302,7 +302,7 @@
       "address": "30163 Hannover",
       "url": "https://www.ryosando.de/",
       "source_url": "https://www.zen-guide.de/zen/zentren/id/66",
-      "notes": "Still queued: the available Zen-Guide record is editable third-party material, and the linked first-party domain could not be reached in this review. Address, schedule, and current practice require direct confirmation. Reviewed 2026-10-08."
+      "notes": "Batch 29 (2026-10-08): unresolved. The linked first-party domain could not be verified through targeted current searches; the available Zen-Guide record is third-party. Current venue, schedule, and lineage remain unconfirmed."
     },
     {
       "name": "Zen Dojo Shobogendo",
@@ -572,7 +572,7 @@
       "address": "60325 Frankfurt am Main",
       "url": "https://www.zengemeinschaft-frankfurt.de/",
       "source_url": "https://www.zen-guide.de/zen/zentren/id/170",
-      "notes": "Still queued: the AZI institutional listing for a Frankfurt group gives a different district and address from this raw record, so identity cannot safely be reconciled. The linked site could not be reached in this review. Do not merge the two listings without confirmation. Reviewed 2026-10-08."
+      "notes": "Batch 29 (2026-10-08): unresolved. An AZI Frankfurt listing identifies a group at a different district/address, so it cannot safely be merged with this record. The linked first-party site could not be verified. Current identity and venue remain uncertain."
     },
     {
       "name": "Pagode Phat Hue",
@@ -712,7 +712,7 @@
       "address": "Regensburg",
       "url": "https://www.zen-guide.de/zen/zentren/id/567%26titel%3DZen%2BDojo%2BD%C3%B4-Now%2Be.V.",
       "source_url": "https://www.zen-guide.de/zen/zentren/id/567%26titel%3DZen%2BDojo%2BD%C3%B4-Now%2Be.V.",
-      "notes": "Still queued: the only accessible record located in this review is an editable Zen-Guide listing. It reports a former/currently unconfirmed Regensburg address and schedule; no first-party or institutional source for present activity or location was found. Do not infer inactivity or wrongdoing. Reviewed 2026-10-08."
+      "notes": "Batch 29 (2026-10-08): unresolved. The accessible Zen-Guide entry is explicitly an editable community portal and no present first-party or institutional confirmation of this Regensburg group, address, or sitting schedule was found. Retain as unresolved; do not treat this evidence gap as closure."
     },
     {
       "name": "Intersein-Sangha Regensburg",
@@ -812,7 +812,7 @@
       "address": "76356 Weingarten",
       "url": "https://www.zen-weingarten.de/",
       "source_url": "https://www.zen-guide.de/zen/zentren/id/271",
-      "notes": "Still queued: the first-party website could not be reached and the address and schedule found in secondary listings may be stale. Current operation, meeting venue, and lineage need direct or institutional confirmation. Reviewed 2026-10-08."
+      "notes": "Batch 29 (2026-10-08): unresolved. The linked first-party site was not retrievable and no current institutional listing confirmed the venue or schedule. The city-level identity remains plausible but is not established by current direct evidence."
     },
     {
       "name": "HO UN DO Zen-Dojo Freiburg",
@@ -902,7 +902,7 @@
       "address": "96472 Rödental",
       "url": "https://www.zenhof-roedental.de/",
       "source_url": "https://www.zen-guide.de/zen/zentren/id/350",
-      "notes": "Still queued: the first-party site could not be reached in this review, and the current Zen-Guide entry alone does not verify the present practice venue or schedule. Current activity, address, and lineage remain uncertain. Reviewed 2026-10-08."
+      "notes": "Batch 29 (2026-10-08): unresolved. The first-party domain could not be reached and the accessible Zen-Guide listing alone does not establish a current practice venue or schedule. Current activity remains unverified."
     },
     {
       "name": "Zen-Kreis-Kassel e.V. (Toku Ko Kai)",

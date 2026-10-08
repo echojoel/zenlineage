@@ -10,7 +10,11 @@
       "Plum Village lay sanghas (Sangha Uśmiech Buddy Warsaw, Sangha Cud Uważności Wrocław) — partial; full national Plum Village directory not exhaustively scraped.",
       "Bodhidharma association has 2 centers per public registry but only Falenica address is publicly listed; second center not enumerated.",
       "Mu Sang Sa Polska / Korean Zen monastery in Wisła Cieńków under construction at time of collection."
-    ]
+    ],
+    "batch29ExcludedFromCurrentMap": [
+      "Sangha Uśmiech Buddy (Plum Village Warszawa)"
+    ],
+    "batch29Decision": "Reviewed 2026-10-08: Bodhidharma Falenica retained with the organization’s October 2026 in-person zazen retreat notice. Sangha Uśmiech Buddy remains identifiable as a Plumline Polish support centre, but no current local Warsaw practice activity or venue was established, so it was removed from the local current-practice map. This is a map-scope decision and does not imply dissolution or misconduct."
   },
   "places": [
     {
@@ -370,18 +374,8 @@
       "lineage": "Sanbō / Three Pillars (Philip Kapleau lineage; Sunya Kjolhede / Rochester)",
       "address": "Warszawa-Falenica",
       "url": "https://www.buddyzmzen.pl/",
-      "source_url": "https://religie.wiara.pl/doc/471885.buddysci-w-polsce/2",
-      "notes": "Founded 1975; ~70 members across 2 centers; Polish branch overseen from Rochester (NY) Zen Center; combines Sōtō and Rinzai forms (Three Pillars of Zen lineage)."
-    },
-    {
-      "name": "Sangha Uśmiech Buddy (Plum Village Warszawa)",
-      "city": "Warszawa",
-      "region": "mazowieckie",
-      "lineage": "Vietnamese Thiền / Plum Village (Thich Nhat Hanh)",
-      "address": null,
-      "url": "https://artofmindfulness.pl/powstaje-sangha-cud-uwaznosci/",
-      "source_url": "https://artofmindfulness.pl/powstaje-sangha-cud-uwaznosci/",
-      "notes": "Cited as oldest Plum Village lay sangha in Poland; meets in Warsaw."
+      "source_url": "https://www.buddyzmzen.pl/2026/08/7-11-x-2025-czterodniowe-jesienne-zazen.html?m=0",
+      "notes": "The organization’s own notice announces an in-person group zazen retreat at its Warsaw-Falenica center for 7–11 October 2026, including practice details and the venue at Filmowa 32. Current institutional identity, locality, and a dated practice event are established; this notice does not establish a recurring weekly schedule. Checked 2026-10-08."
     },
     {
       "name": "Sangha Drugi Brzeg (Wrocław)",

@@ -359,7 +359,7 @@
       "address": null,
       "url": "https://www.zendobetania.com/",
       "source_url": "https://espanol.buddhistdoor.net/directorio-de-entidades-budistas-en-cataluna-e-islas-baleares-espana/",
-      "notes": "Catalan zendo network (distinct from Zendo Betania Brihuega/Sanbo)."
+      "notes": "The 17 Dec 2025 Buddhistdoor directory identifies Betania, zendo Barcelona, as Soto/Rinzai and links zendobetania.com. The first-party site could not be fetched; no current local schedule or public meeting venue was verified. Retain as unresolved. Source: https://espanol.buddhistdoor.net/directorio-de-entidades-budistas-en-cataluna-e-islas-baleares-espana/"
     },
     {
       "name": "Zendo Betania Moià",
@@ -369,7 +369,7 @@
       "address": "Moià, Barcelona",
       "url": "https://www.zendobetania.com/",
       "source_url": "https://espanol.buddhistdoor.net/directorio-de-entidades-budistas-en-cataluna-e-islas-baleares-espana/",
-      "notes": null
+      "notes": "The 17 Dec 2025 Buddhistdoor directory identifies Betania, zendo Moià, as Soto/Rinzai, but does not provide a current meeting address or schedule. The first-party site could not be fetched. Retain at city precision with current public practice unresolved. Source: https://espanol.buddhistdoor.net/directorio-de-entidades-budistas-en-cataluna-e-islas-baleares-espana/"
     },
     {
       "name": "Centre zen de Barcelona",
@@ -421,7 +421,7 @@
       "address": "Calle Sant Joan 1, 08392 Sant Andreu de Llavaneres",
       "url": "https://zazen.cat/",
       "source_url": "https://espanol.buddhistdoor.net/directorio-de-entidades-budistas-en-cataluna-e-islas-baleares-espana/",
-      "notes": null
+      "notes": "Batch 29 (2026-10-08): unresolved. The linked site zazen.cat was inaccessible and no recent item-level source verified the claimed Sant Andreu de Llavaneres venue or current activity. Retain as unresolved."
     },
     {
       "name": "Centre Zen Nalanda",
@@ -461,7 +461,7 @@
       "address": "Navarra 9, 1er 1ª, Reus, Tarragona",
       "url": "https://espanol.buddhistdoor.net/directorio-de-entidades-budistas-en-cataluna-e-islas-baleares-espana/",
       "source_url": "https://espanol.buddhistdoor.net/directorio-de-entidades-budistas-en-cataluna-e-islas-baleares-espana/",
-      "notes": "AZI affiliate group."
+      "notes": "The 17 Dec 2025 Buddhistdoor directory lists this as an AZC-AZI Sōtō group at Navarra 9, 1er 1ª, Reus. This is recent directory evidence of identity and address, not a first-party schedule. Current recurring meetings remain unresolved. Source: https://espanol.buddhistdoor.net/directorio-de-entidades-budistas-en-cataluna-e-islas-baleares-espana/"
     },
     {
       "name": "Asai Dojo",
@@ -471,7 +471,7 @@
       "address": "Vallcanera 28, 17410 Sils, Girona",
       "url": "https://www.dojoasai.com/",
       "source_url": "https://espanol.buddhistdoor.net/directorio-de-entidades-budistas-en-cataluna-e-islas-baleares-espana/",
-      "notes": null
+      "notes": "The 17 Dec 2025 Buddhistdoor directory lists ASAI dojo at Vallcanera 28, Sils. The first-party site was inaccessible in targeted checks, and no current schedule was verified. Retain identity/address with current public activity explicitly unresolved. Source: https://espanol.buddhistdoor.net/directorio-de-entidades-budistas-en-cataluna-e-islas-baleares-espana/"
     },
     {
       "name": "Un Sui Zen",
@@ -601,7 +601,7 @@
       "address": null,
       "url": "https://meditacionzenalicante.com/",
       "source_url": "https://meditacionzenspain.com/grupos/",
-      "notes": null
+      "notes": "Batch 29 (2026-10-08): unresolved. The linked first-party site and the national IIZE group page were not accessible in targeted checks. No current venue or meeting schedule was confirmed."
     },
     {
       "name": "Meditación Zen La Rioja (IIZE)",
@@ -620,8 +620,8 @@
       "lineage": "Vietnamese Lam Te (Rinzai) / Instituto Internacional Zen España",
       "address": null,
       "url": "https://www.meditacionzendonostia.com/",
-      "source_url": "https://meditacionzenspain.com/grupos/",
-      "notes": null
+      "source_url": "https://www.meditacionzendonostia.com/cuando-y-donde-practicar/",
+      "notes": "The group’s own site identifies it as a Donostia Zen meditation group affiliated with the International Zen Institute and publishes Wednesday 10:00–12:00 practice at Centro de Psicoterapia CPH Bidean, Illunbe 7. The schedule page is undated and states a seasonal July–September break; current dates should be reconfirmed before visiting. Source: https://www.meditacionzendonostia.com/cuando-y-donde-practicar/"
     },
     {
       "name": "Sangha Interser Valencia",

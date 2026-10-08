@@ -8,7 +8,12 @@
       "Smaller Trúc Lâm thiền viện in less-prominent provinces",
       "Hundreds of village-level Lâm Tế pagodas without standalone English-language sources",
       "Most Quán Âm / Pure Land-leaning pagodas (out of scope: not primarily Zen practice)"
-    ]
+    ],
+    "batch29": {
+      "checkedAt": "2026-10-08",
+      "scope": "Item-level authoritative evidence check for Tổ đình Từ Hiếu and Vĩnh Tràng Pagoda from practice evidence review Batch 29",
+      "interpretation": "Official temple/community or national tourism pages support each named entity and location. Current administrative naming for Vĩnh Tràng reflects the 2025 Tiền Giang–Đồng Tháp provincial merger, while the tourism profile retains historical labels. Heritage and institutional evidence do not establish recurring public Zen practice; missing schedule evidence is uncertainty, not evidence of misconduct or inactivity."
+    }
   },
   "places": [
     {
@@ -144,12 +149,12 @@
     {
       "name": "Tổ đình Từ Hiếu",
       "city": "Huế",
-      "region": "Thừa Thiên Huế Province",
+      "region": "Huế City",
       "lineage": "Thiền tông (Lâm Tế / Liễu Quán; root temple of Plum Village / Làng Mai)",
-      "address": "Thôn Dương Xuân Thượng III, phường Thủy Xuân, thành phố Huế, tỉnh Thừa Thiên Huế, Việt Nam",
+      "address": "Dương Xuân Thượng III, phường Thủy Xuân, thành phố Huế, Việt Nam",
       "url": "https://langmai.org/cong-tam-quan/cac-tu-vien/to-dinh-tu-hieu/",
       "source_url": "https://langmai.org/cong-tam-quan/cac-tu-vien/to-dinh-tu-hieu/",
-      "notes": "Plum Village’s official site identifies Từ Hiếu as its root temple; its contact page provides a direct temple contact route. This supports institutional identity and heritage context, not a published recurring public practice timetable. Checked 2026-10-08."
+      "notes": "Plum Village's item-specific official Tổ đình Từ Hiếu page identifies the Huế temple as its Vietnamese root temple, with an adjacent official contact page. Its address retains the stable Dương Xuân Thượng III / Thủy Xuân locality; Huế became a centrally administered city on 2025-01-01 (Government of Vietnam, https://xaydungchinhsach.chinhphu.vn/nghi-quyet-so-175-2024-qh15-thanh-lap-thanh-pho-hue-truc-thuoc-trung-uong-119241205102339073.htm). This supports institutional identity and heritage context, not a published recurring public practice timetable. Checked 2026-10-08."
     },
     {
       "name": "Chùa Quốc Ân",
@@ -284,12 +289,12 @@
     {
       "name": "Vĩnh Tràng Pagoda",
       "city": "Mỹ Tho",
-      "region": "Tiền Giang",
+      "region": "Đồng Tháp (former Tiền Giang)",
       "lineage": "Vietnamese Thiền (Lâm Tế)",
-      "address": "60 Nguyễn Trung Trực, Mỹ Tho, Tiền Giang",
+      "address": "Nguyễn Trung Trực Street, Mỹ Tho (Mỹ Phong in the tourism listing)",
       "url": "https://vietnamtourism.vn/en/index.php/tourism/items/3073",
-      "source_url": "https://csdl.vietnamtourism.gov.vn/dest/?item=120",
-      "notes": "Vietnam National Authority of Tourism identifies Vĩnh Tràng Pagoda in Mỹ Tho and its national historical-cultural relic status. This is heritage/visitor evidence; no recurring public Zen practice schedule was confirmed. Checked 2026-10-08."
+      "source_url": "https://vietnamtourism.vn/en/index.php/tourism/items/3073",
+      "notes": "The item-specific Vietnam National Authority of Tourism profile identifies Vĩnh Tràng Pagoda on Nguyễn Trung Trực Street in Mỹ Tho and its national historical-cultural relic status. The profile uses pre-2025 Tiền Giang/Mỹ Phong administrative labels; Tiền Giang was merged into Đồng Tháp in 2025 (Government of Vietnam, https://xaydungchinhsach.chinhphu.vn/quoc-hoi-thong-qua-nghi-quyet-sap-xep-don-vi-hanh-chinh-cap-tinh-119250612101356465.htm). Heritage/visitor evidence does not establish recurring public Zen practice. Checked 2026-10-08."
     }
   ]
 }

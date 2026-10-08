@@ -26,6 +26,11 @@
       "checkedAt": "2026-10-08",
       "scope": "14 South Korea check_first records from practice evidence review batch26b",
       "interpretation": "Official institutional identity, heritage, visitor access, monastic training, templestay/retreat programming, and recurring public Zen practice are separated. Missing evidence is uncertainty; it is not evidence of misconduct or inactivity. Hwaun-sa and Hae-un-jeongsa remain unresolved."
+    },
+    "batch29": {
+      "checkedAt": "2026-10-08",
+      "scope": "Final adjudication of Hae-un-jeongsa and Hwaun-sa from practice evidence review batch28b",
+      "interpretation": "Corrected Hae-un-jeongsa to the Busan Haeundae temple and Hwaun-sa to the Yongin temple using government, heritage, tourism, and Jogye parish sources. Temple identity, location, lineage affiliation, templestay, and recurring public practice remain distinct evidence claims; missing schedule evidence is uncertainty, not evidence of misconduct or inactivity."
     }
   },
   "places": [
@@ -420,14 +425,14 @@
       "notes": "Native: 白蓮寺 / 백련사. The temple's first-party site is available; venue, lineage, and current public practice schedule remain unverified."
     },
     {
-      "name": "Hae-un-jeongsa (Tongyeong)",
-      "city": "Tongyeong",
-      "region": "Gyeongsang-namdo",
-      "lineage": "Korean Seon (Jogye Order — Seongcheol's hermitage tradition)",
-      "address": "Mireuk-do, Tongyeong-si, Gyeongsangnam-do",
-      "url": "https://www.templestay.com/",
-      "source_url": "https://en.wikipedia.org/wiki/Seongcheol",
-      "notes": "Official sources sufficient to verify this Tongyeong entity, location, current visitor access, or practice program were not located. The prior Seongcheol biography is historical context only; current identity and public access remain unresolved. Checked 2026-10-08."
+      "name": "Hae-un-jeongsa (Busan)",
+      "city": "Busan (Haeundae-gu)",
+      "region": "Busan Metropolitan City",
+      "lineage": "Korean Seon (Haeunjeongsa; Seonhakwon affiliation)",
+      "address": "40-6 Udong 2-ro, Haeundae-gu, Busan",
+      "url": "https://www.busan.go.kr/nbtnewsBU/1390050",
+      "source_url": "https://encykorea.aks.ac.kr/Article/E0078098",
+      "notes": "The Academy of Korean Studies identifies Haeunjeongsa in Haeundae-gu, Busan, and gives the address 40-6 Udong 2-ro. Busan Metropolitan Government identifies the temple and its Seonhakwon foundation in U-dong, Haeundae-gu. This is a Busan temple, not a Tongyeong site; the previous Tongyeong/Seongcheol hermitage association was unsupported. No recurring public schedule is claimed. Checked 2026-10-08."
     },
     {
       "name": "Gwanchok-sa",
@@ -481,13 +486,13 @@
     },
     {
       "name": "Hwaun-sa",
-      "city": "Yeongdong County",
-      "region": "Chungcheong-bukdo",
-      "lineage": "Korean Seon (Jogye Order — branch of Beopjusa)",
-      "address": "Mt. Cheonbongsan, Yeongdong-gun, Chungcheongbuk-do",
-      "url": "https://www.templestay.com/",
-      "source_url": "https://en.wikipedia.org/wiki/Beopjusa",
-      "notes": "Unresolved identity/location mismatch: the official Korea Templestay Hwaunsa page (https://hwaunsa.templestay.com/) identifies a Hwaunsa in Yongin, Gyeonggi-do, while this raw record places Hwaun-sa in Yeongdong County. No official source was found tying this record to the claimed Yeongdong location; do not merge the two identities. Checked 2026-10-08."
+      "city": "Yongin (Cheoin-gu)",
+      "region": "Gyeonggi-do",
+      "lineage": "Korean Seon (Jogye Order; branch temple of Yongjusa)",
+      "address": "111-14 Dongbaekjukjeon-daero, Cheoin-gu, Yongin, Gyeonggi-do",
+      "url": "https://hwaunsa.templestay.com/",
+      "source_url": "https://korean.visitkorea.or.kr/detail/ms_detail.do?cotid=83cf15f4-ce7d-4d70-a4d3-b4b7171506a8",
+      "notes": "Korea Tourism Organization's VisitKorea identifies Hwaunsa as the temple in Yongin and says it operates templestay; the Jogye Order's Yongjusa parish directory gives its address and branch affiliation. This substantiates the Yongin entity and does not support the former Yeongdong location or Beopjusa branch claim. Templestay evidence does not establish recurring public Zen practice. Checked 2026-10-08."
     },
     {
       "name": "Tapsa",

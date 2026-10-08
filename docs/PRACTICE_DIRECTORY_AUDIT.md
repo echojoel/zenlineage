@@ -9,44 +9,29 @@ establish a group's current activity, lineage, or safeguarding.
 
 | Check | Result |
 |---|---:|
-| Place records | 1,614 |
-| Distinct preferred URLs checked | 1,345 |
-| URLs returning 2xx/3xx | 1,174 (used by 1,433 records) |
+| Place records | 1,598 |
+| Distinct preferred URLs checked | 1,333 |
+| URLs returning 2xx/3xx | 1,163 (used by 1,418 records) |
 | URLs returning 404/410 | 0 |
-| URLs blocked or rate limited | 22 (used by 23 records) |
-| URLs with inconclusive network/server results | 149 (used by 158 records) |
+| URLs blocked or rate limited | 21 (used by 21 records) |
+| URLs with inconclusive network/server results | 149 (used by 159 records) |
 | Records with no preferred URL | 0 |
-| Records with only a `popular`-class citation | 43 |
-| Records needing an item-level check because their sole citation is broad | 7 |
-| Records queued to check first (overlapping signals combined) | 50 |
-| City-level, approximate map pins | 822 |
+| Records with only a `popular`-class citation | 12 |
+| Records needing an item-level check because their sole citation is broad | 0 |
+| Records queued to check first (overlapping signals combined) | 12 |
+| City-level, approximate map pins | 807 |
 
 Every remaining place has exactly one citation, currently attached to `coordinates`.
 That citation alone cannot establish affiliation, an active schedule, or a
-safeguarding process. The seed labels all 1,614 places `active`, but it has no
+safeguarding process. The seed labels all 1,598 places `active`, but it has no
 per-place last-checked date. The public map and exported JSON no longer expose
 that seed status as a verified claim.
 
-The 7 broad-page citations comprise 5 rows citing Plum Village's
-[monastic centres page](https://plumvillage.org/community/monastic-practice-centres)
-and 2 citing the [White Plum founder page](https://whiteplum.org/founder/).
-Those pages do not individually support all the lay groups assigned to them.
-The review queue now flags each for a direct group or institutional listing.
-This is a limitation of our citations, not a claim that any group has doubtful
-origins.
-
-The 404/410 set needs human confirmation before changing or removing entries.
-For example, the automated client received a 404 from the
-[Sōtōshū Shōbōji page](https://www.sotozen.com/eng/temples/jp/shoboji.html),
-which remains accessible in a browser and in search. Some other sites may behave
-similarly. A failed URL is evidence about this check, not about the group.
-The other automated 404 came from Plum Village UK's
-[Two Rivers Sangha page](https://plumvillage.uk/group/two-rivers-sangha/),
-which remains indexed and available through the site in a browser. The
-automated client likewise returned a 404 from Sōtōshū's
-[Aichi Senmon Nisōdō page](https://www.sotozen.com/ita/temples/jp/shoboji.html),
-which opened in a browser. Its old English path was broken; the official
-Italian-language page is the current preferred link.
+No broad-page-only citations or preferred URLs returning 404/410 remain. The
+12 queued records are individually documented cases where direct evidence was
+unavailable, inaccessible, stale, or insufficient to verify a current venue,
+schedule, or identity. They remain explicit evidence gaps rather than adverse
+findings about the organizations.
 
 ## Corrections made during this pass
 
@@ -274,9 +259,12 @@ Batch 23 replaced popular-only citations for 42 records in South Korea, Germany,
 
 ## Next review work
 
-Review the 43 `popular`-only citations and 7 broad-page citations against direct group or institutional pages. For each correction, update
-the canonical seed or raw place data, cite the direct source, and rerun the
-seed and audit. Do not infer misconduct from missing websites or policies.
+Recheck the 12 remaining `popular`-only citations when new direct group or
+institutional evidence becomes available. Their individual review decisions
+are recorded in `scripts/data/raw-places/BATCH29-review-2026-10-08.md`. For
+each future correction, update the canonical seed or raw place data, cite the
+direct source, and rerun the seed and audit. Do not infer misconduct from
+missing websites or policies.
 
 To reproduce the URL and priority reports locally:
 
@@ -296,3 +284,5 @@ Batch 26 reviewed 55 records across Germany, France, the Netherlands, Japan, Vie
 Batch 27 reviewed all queued records in Germany, Italy, Spain, Japan, and South Korea, plus selected Netherlands records. Fifty-six records left the priority queue after direct group, sect, temple, government, tourism, or institutional sources replaced generic citations. Claims remain narrow where evidence establishes only heritage, monastic identity, visitor access, or a one-time program. Records whose sites were inaccessible or whose current entity, venue, or institutional identity could not be resolved remain queued. The updated crawl has no preferred URLs returning 404/410, and the priority queue fell from 141 to 85 records.
 
 Batch 28 reviewed all 85 queued records across Europe, Asia, Israel, South Africa, and the United States. Thirty-five records left the queue after direct group, national network, sect, government, tourism, or institutional sources replaced generic or broad citations. Trúc Lâm Phụng Hoàng was consolidated with the existing Đà Lạt monastery because the provincial source identifies Phụng Hoàng as its location rather than a separate institution. Sandnes/Stavanger Zen-senter was removed from the current-practice map because the official national Sōtō network explicitly marks it paused; this is a status decision, not evidence of closure or misconduct. Fifty unresolved records remain queued where current identity, location, schedule, or item-level affiliation could not be established. The crawl has no preferred URLs returning 404/410.
+
+Batch 29 adjudicated all 50 remaining queued records, plus three related secondary-source records. Current direct or institutional evidence corrected locations and affiliations in South Korea, current administrative names and evidence boundaries in Vietnam, and source attribution for British OBC and Western Chan records. Sixteen records were removed where the evidence did not support a current local practice-place pin, a Zen-specific identity, or an active public venue; those are scope and evidence decisions rather than findings of closure or misconduct. Twenty-two retained records moved to authoritative, primary, or secondary item-level sources. The final 12 records remain queued because their current identity, venue, schedule, or direct source could not be verified after targeted review. No broad-page-only citations, missing preferred URLs, or 404/410 results remain.

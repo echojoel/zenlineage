@@ -12,7 +12,22 @@
       "Kwan Um School: no Norwegian center listed in Kwan Um Europe directory",
       "Norsk Zen Forbund referenced in prompt - not located as a separate organization; may refer to Sotozenordenen"
     ],
-    "batch28Decision": "Sandnes/Stavanger Zen-senter removed from the current-practice map on 2026-10-08 because the official national Sōtō network explicitly says it is currently paused. This is a status decision, not evidence of closure or misconduct."
+    "batch28Decision": "Sandnes/Stavanger Zen-senter removed from the current-practice map on 2026-10-08 because the official national Sōtō network explicitly says it is currently paused. This is a status decision, not evidence of closure or misconduct.",
+    "batch29ExcludedFromCurrentMap": [
+      {
+        "name": "Tønsberg Zen-gruppe",
+        "reviewedAt": "2026-10-08",
+        "decision": "excluded_from_current_map_evidence_scope",
+        "reason": "The current Den norske Sotozen Buddhistorden list omits Tønsberg; targeted review of its claimed group site yielded no current item-level evidence. Removed from current map for evidence scope only; this does not establish closure or misconduct."
+      },
+      {
+        "name": "Sangha of Floating Clouds (Drivende Skyer)",
+        "reviewedAt": "2026-10-08",
+        "decision": "excluded_from_current_map_evidence_scope",
+        "reason": "Evidence found was an older IRIZ directory and secondary reference; the current Plum Village practice-center and local-group routes reviewed did not substantiate this Oslo group. Removed from current map for evidence scope only; this does not establish closure or misconduct."
+      }
+    ],
+    "batch29Decision": "Reviewed 2026-10-08: Bergen Zen Senter retained with current national-order evidence; Tønsberg Zen-gruppe and Sangha of Floating Clouds excluded from the current map because current group identity/activity was not substantiated. These are evidence-scope decisions, not closure or misconduct findings."
   },
   "places": [
     {
@@ -30,10 +45,10 @@
       "city": "Bergen",
       "region": "Vestland",
       "lineage": "Soto Zen",
-      "address": "Håsteins gate 3, 5160 Laksevåg",
+      "address": null,
       "url": "https://bergenzensenter.no/",
-      "source_url": "https://bergenzensenter.no/",
-      "notes": "U ryu så - Regndråpe Sangha, Sotozen fellowship in Bergen; weekly Thursday zazen 19:30-21:00; affiliated with Sotozenordenen Direct-source review 2026-10-08: linked organization domain could not be retrieved for content review; current activity not independently established."
+      "source_url": "https://www.sotozen.no/aktuelt/22-1-2026-sammen-for-et-strre-tempel",
+      "notes": "Den norske Sotozen Buddhistorden’s current organization page identifies Bergen among its current zen centres. A 2025 Bergen retreat is also reported by the order. The cited current network page does not establish the former address or weekly schedule; those details are not asserted here. Checked 2026-10-08."
     },
     {
       "name": "Haugesund Zen-senter (Stille Sinn Sangha)",
@@ -46,16 +61,6 @@
       "notes": "Affiliated with Den norske Sotozen Buddhistorden; led by Lars-Eivind Haukaas Direct-source review 2026-10-08: current organization or network page supports the listed Zen group and its locality; retained only details stated on that page."
     },
     {
-      "name": "Tønsberg Zen-gruppe",
-      "city": "Tønsberg",
-      "region": "Vestfold",
-      "lineage": "Soto Zen",
-      "address": null,
-      "url": "https://dortheleth.no/",
-      "source_url": "https://www.sotozen.no/sotozen-i-norge",
-      "notes": "Affiliated with Den norske Sotozen Buddhistorden; led by Djien (Dorthe Leth)"
-    },
-    {
       "name": "Rinzai Zen-senter Oslo",
       "city": "Oslo",
       "region": "Oslo",
@@ -64,16 +69,6 @@
       "url": "https://www.facebook.com/rinzaizensenter/",
       "source_url": "http://iriz.hanazono.ac.jp/zen_centers/centers_data/norway.htm",
       "notes": "Originally Oslo Zazenkai; renamed Rinzai Zen Senter Oslo 1996; teacher Herbert Koudela (Genro Seiun Osho); morning and evening zazen"
-    },
-    {
-      "name": "Sangha of Floating Clouds (Drivende Skyer)",
-      "city": "Oslo",
-      "region": "Oslo",
-      "lineage": "Plum Village / Thiền (Thich Nhat Hanh)",
-      "address": null,
-      "url": "http://iriz.hanazono.ac.jp/zen_centers/centers_data/norway.htm",
-      "source_url": "https://www.spiritualityandpractice.com/book-reviews/view/1661/plum-poems",
-      "notes": "Vietnamese Zen / Plum Village sangha in Oslo, founded by Svein Myreng (Order of Interbeing); Bjørn Petter Hernes contact"
     }
   ]
 }
