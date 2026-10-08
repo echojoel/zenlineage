@@ -10,16 +10,16 @@ establish a group's current activity, lineage, or safeguarding.
 | Check | Result |
 |---|---:|
 | Place records | 1,693 |
-| Distinct preferred URLs checked | 1,354 |
-| URLs returning 2xx/3xx | 1,125 |
+| Distinct preferred URLs checked | 1,357 |
+| URLs returning 2xx/3xx | 1,130 |
 | URLs returning 404/410 | 10 (used by 11 records) |
-| URLs blocked or rate limited | 20 (used by 22 records) |
-| URLs with inconclusive network/server results | 199 (used by 211 records) |
+| URLs blocked or rate limited | 19 (used by 21 records) |
+| URLs with inconclusive network/server results | 198 (used by 210 records) |
 | Records with no preferred URL | 9 |
-| Records with only a `popular`-class citation | 502 |
-| Records needing an item-level check because their sole citation is broad | 277 |
-| Records queued to check first (overlapping signals combined) | 787 |
-| City-level, approximate map pins | 870 |
+| Records with only a `popular`-class citation | 492 |
+| Records needing an item-level check because their sole citation is broad | 255 |
+| Records queued to check first (overlapping signals combined) | 755 |
+| City-level, approximate map pins | 865 |
 
 Every remaining place has exactly one citation, currently attached to `coordinates`.
 That citation alone cannot establish affiliation, an active schedule, or a
@@ -27,9 +27,9 @@ safeguarding process. The seed labels all 1,694 places `active`, but it has no
 per-place last-checked date. The public map and exported JSON no longer expose
 that seed status as a verified claim.
 
-The 277 broad-page citations comprise 211 rows citing Plum Village's
+The 255 broad-page citations comprise 199 rows citing Plum Village's
 [monastic centres page](https://plumvillage.org/community/monastic-practice-centres)
-and 66 citing the [White Plum founder page](https://whiteplum.org/founder/).
+and 56 citing the [White Plum founder page](https://whiteplum.org/founder/).
 Those pages do not individually support all the lay groups assigned to them.
 The review queue now flags each for a direct group or institutional listing.
 This is a limitation of our citations, not a claim that any group has doubtful
@@ -208,6 +208,18 @@ Danish, and French network pages replaced another set of broad citations.
 The review queue fell by 42 records while uncertain current activity remained
 explicitly unresolved.
 
+The next batch checked popular-only Australian and Austrian records and the
+next Plum Village and White Plum cohorts. Current group pages supplied venues,
+schedules, lineage descriptions, or 2026 activity for Ermita de Paja, five
+Australian groups, BergZendo, Stille in Wien, Izen Utrecht, Zen Tree, Zen
+Alkmaar, Kanzeon Warsaw, Svalornas, Wholehearted Zen, and several French
+sanghas. Born As The Earth was corrected to its stated Sōtō lineage because
+its direct site did not support the prior White Plum classification. The
+Coimbra Wild Flower entry now describes the current association's online and
+retreat program without claiming a standing weekly Coimbra group. A suspected
+Pasargada/A Outra Margem conflation and unsupported local Kanzeon branches
+remain queued. This reduced the priority queue by another 32 records.
+
 The source seed is now deterministic: maintained practice-directory metadata
 overrides generic historical stubs. Before this fix, running the teaching seed
 after the temple seed silently changed source reliability and made the review
@@ -216,7 +228,7 @@ queue vary by seed order.
 ## Next review work
 
 Start with the 11 records whose preferred URL returned 404/410 and the 9
-without a preferred URL. Then review the 502 `popular`-only citations and 277
+without a preferred URL. Then review the 492 `popular`-only citations and 255
 broad-page citations against direct group or institutional pages. For each correction, update
 the canonical seed or raw place data, cite the direct source, and rerun the
 seed and audit. Do not infer misconduct from missing websites or policies.

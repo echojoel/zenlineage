@@ -610,6 +610,31 @@ function pickSourceId(sourceUrl: string, lineage: string): string {
   if (u.includes("riviereducoeur.webnode.fr")) return "src_riviere_coeur";
   if (u.includes("contact79094.wixsite.com/sanghadelille"))
     return "src_hauts_france_pv";
+  if (u.includes("zazen.com.ar")) return "src_ermita_paja";
+  if (u.includes("ordinarymind.org.au")) return "src_ordinary_mind_au";
+  if (u.includes("zenmelbourne.com")) return "src_zen_melbourne";
+  if (u.includes("ordinarymind.com.au")) return "src_ozzen";
+  if (u.includes("szc.org.au")) return "src_sydney_zen";
+  if (u.includes("netiparekh.com")) return "src_twining_vines_au";
+  if (u.includes("zgwa.org.au")) return "src_zgwa";
+  if (u.includes("bergzendo.at")) return "src_bergzendo";
+  if (u.includes("stille-in-wien.at")) return "src_stille_wien";
+  if (u.includes("izen.nl")) return "src_izen";
+  if (u.includes("zenpunt.nl")) return "src_zenpunt";
+  if (u.includes("kanzeon.pl")) return "src_kanzeon_poland";
+  if (u.includes("bornastheearth.com")) return "src_born_earth";
+  if (u.includes("svalornassangha.org")) return "src_svalornas";
+  if (u.includes("wholeheartedzensangha.uk")) return "src_wholehearted_zen";
+  if (u.includes("sanghazenpt.org")) return "src_wild_flower_pt";
+  if (u.includes("constellationdulac.wixsite.com")) return "src_constellation_lac";
+  if (u.includes("maisonauxcedresbleus.com")) return "src_cedres_bleus";
+  if (u.includes("sanghasduvillagedespruniersenprovence.over-blog.com"))
+    return "src_fleur_tamaris";
+  if (u.includes("fleurdelinstant.fr")) return "src_fleur_instant";
+  if (u.includes("fleursdeprunier-rennes.blogspot.com")) return "src_fleurs_prunier";
+  if (u.includes("fleursdevacuite.org")) return "src_fleurs_vacuite";
+  if (u.includes("coeur-des-sanghas-alsace/les-sanghas/fleurs-de-zen"))
+    return "src_fleurs_zen";
 
   // ── North-American sect umbrellas ───────────────────────────────────
   if (u.includes("szba.org")) return "src_szba";
@@ -751,6 +776,14 @@ const MANUAL_COORDS: Record<string, ManualCoord> = {
   "Big Heart Zen Copenhagen": [55.6469240, 12.5553160],
   "Earth+Sky Zen — Dublin Dojo": [53.3590102, -6.2619679, "city"], // OSM resolves Gardiner Street, not number 1
   "Sangha Cercle des Montagnes (Crolles)": [45.2840499, 5.8825027], // MJC de Crolles
+  "Ermita de Paja — Centro de Práctica Zen": [-34.5774619, -58.4654197],
+  "Zen Group of Western Australia": [-32.0644694, 115.7574431],
+  "Twining Vines Zen Centre (Katto-an Temple)": [-35.2451460, 149.1250813],
+  "OzZen (Australian Ordinary Mind Zen School)": [-30.3670637, 153.0997172],
+  "The Friends Dojo": [-33.7062100, 151.1254040],
+  "Stichting Izen Utrecht": [52.0882281, 5.1246622],
+  "Sangha Constellation du Lac (Annecy)": [45.9262322, 6.0616577],
+  "Sangha Fleurs de Prunier (Rennes)": [48.1030356, -1.6348873],
   // These sources identify the current city or street, but OSM does not
   // resolve a specific entrance for the published place.
   "Green River Zen Center": [42.472974, -72.5832895, "city"],

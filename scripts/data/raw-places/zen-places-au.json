@@ -27,7 +27,7 @@
       "city": "Brisbane",
       "region": "QLD",
       "lineage": "Diamond Sangha",
-      "address": null,
+      "address": "St Paul's Anglican Church Hall, 162 Hampton Road, Beaconsfield WA 6162",
       "url": "https://diamondsangha.org/resources-2/links/",
       "source_url": "https://diamondsangha.org/resources-2/links/",
       "notes": "Brisbane Diamond Sangha presence with Arthur Wells Roshi (now also resident in Brisbane). Listed on diamondsangha.org links page; meets in private homes."
@@ -50,7 +50,7 @@
       "address": null,
       "url": "https://www.zgwa.org.au/",
       "source_url": "https://www.zgwa.org.au/history",
-      "notes": "Founded 1982; resident teacher Ross Bolleter Roshi (transmission from Aitken & Tarrant 1997), co-teacher Mari Rhydwen Roshi."
+      "notes": "The current site lists Thursday practice at this address and 2026 online zazenkai. Its history page documents Diamond Sangha affiliation."
     },
     {
       "name": "Zen Open Circle",
@@ -194,13 +194,13 @@
     },
     {
       "name": "Twining Vines Zen Centre (Katto-an Temple)",
-      "city": "Canberra (Fraser)",
+      "city": "Canberra (Lyneham)",
       "region": "ACT",
       "lineage": "Soto Zen (Suzuki / Henkel) + Diamond Sangha",
-      "address": "Fraser ACT",
+      "address": "Sakyamuni Centre, 32 Archibald Street, Lyneham ACT 2602",
       "url": "https://netiparekh.com/",
       "source_url": "https://netiparekh.com/zen-study-offerings/",
-      "notes": "Soto Zen temple founded by Rev. Neti Mushin Parekh, ordained 2017, full Soto transmission 2021. Combined Soto Zen / Diamond Sangha sangha."
+      "notes": "The current site lists Saturday zazen and talks at Sakyamuni Centre plus online sittings, and describes its combined Sōtō and Diamond Sangha lineage."
     },
     {
       "name": "Canberra Soto Zen Group",
@@ -287,30 +287,30 @@
       "city": "Brisbane",
       "region": "QLD",
       "lineage": "Ordinary Mind Zen School (Joko Beck)",
-      "address": null,
+      "address": "Bardon, Brisbane QLD, Australia",
       "url": "https://www.ordinarymind.org.au/",
       "source_url": "https://www.ordinarymind.org.au/",
-      "notes": "Co-founded 1981 by Gregg Howard, who studied with Charlotte Joko Beck. Ordinary Mind Zen School lineage."
+      "notes": "The current site lists Sunday 18:30–20:00 practice in Bardon and on Zoom. Gregg Howard received Dharma transmission from Charlotte Joko Beck."
     },
     {
       "name": "Ordinary Mind Zen Melbourne",
-      "city": "Melbourne",
+      "city": "Kangaroo Ground (Melbourne region)",
       "region": "VIC",
       "lineage": "Ordinary Mind Zen School (Joko Beck / Geoff Dawson)",
-      "address": null,
+      "address": "Kangaroo Ground VIC, Australia",
       "url": "https://www.zenmelbourne.com/",
       "source_url": "https://www.zenmelbourne.com/our-teacher-and-group/",
-      "notes": "Teacher Geoff Dawson, Dharma successor of Charlotte Joko Beck (transmission 2003). Began Sydney/Melbourne work in 1998."
+      "notes": "The current site identifies Geoff Dawson as Joko Beck's Dharma successor, places practice near Eltham and Warrandyte, and lists an October 2026 zazenkai."
     },
     {
       "name": "OzZen (Australian Ordinary Mind Zen School)",
-      "city": "Bellingen",
+      "city": "Sawtell",
       "region": "NSW",
       "lineage": "Ordinary Mind Zen School (Magid / Joko Beck)",
-      "address": "Bellingen / Coffs Harbour / Sawtell NSW",
-      "url": "https://ordinarymind.com.au/",
-      "source_url": "https://ordinarymind.com.au/teacher/",
-      "notes": "Founded 2015 by Andrew Sono Tootell (denbo transmission from Barry Magid 2019). Mid-North Coast NSW."
+      "address": "CWA Hall, 21 Elizabeth Street, Sawtell NSW, Australia",
+      "url": "https://ordinarymind.com.au/schedule/",
+      "source_url": "https://ordinarymind.com.au/schedule/",
+      "notes": "The current schedule lists online sittings through the week, monthly zazenkai, and this local zendo venue."
     },
     {
       "name": "Blue Mountains Zen Group",
@@ -337,10 +337,10 @@
       "city": "Sydney (Wahroonga)",
       "region": "NSW",
       "lineage": "Diamond Sangha",
-      "address": "Wahroonga NSW",
+      "address": "Quaker Meeting House, 59 Boundary Road, Wahroonga NSW, Australia",
       "url": "https://szc.org.au/other-groups/",
       "source_url": "https://szc.org.au/other-groups/",
-      "notes": "Diamond Sangha sitting group with Maggie Gluek (Sydney Zen Centre senior teacher)."
+      "notes": "Sydney Zen Centre's current groups page lists second- and fourth-Thursday practice from 19:00–21:00 at this address."
     },
     {
       "name": "Wake Up Melbourne (Plum Village)",

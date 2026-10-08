@@ -34,8 +34,8 @@
     },
     {
       "name": "Göteborg Zen Center",
-      "city": "Göteborg",
-      "region": "Västra Götaland",
+      "city": "Göteborg / Malmö / Slöinge",
+      "region": "Multi-location Sweden",
       "lineage": "Cloud-Water Sangha (Kapleau / Kjolhede)",
       "address": "Masthuggsterrassen 4 B, Göteborg",
       "url": "https://www.goteborgzencenter.se/",
@@ -109,8 +109,8 @@
       "lineage": "Zen Peacemakers / White Plum Asanga (Bernie Glassman lineage)",
       "address": null,
       "url": "https://www.svalornassangha.org/",
-      "source_url": "https://zenpeacemakers.org/zpi-publishing/introducing-zpi-affiliate-group-svalornas-sangha-peacemakers-sweden/",
-      "notes": "Engaged Buddhism Zen group, ZPI affiliate"
+      "source_url": "https://www.svalornassangha.org/",
+      "notes": "The current site lists practice in Göteborg, Malmö and Slöinge, online sessions and a 2026 sesshin. Its teacher page describes Pake Daigen Hall's Zen Peacemaker and White Plum traditions."
     },
     {
       "name": "Plum Village-traditionen Sverige",

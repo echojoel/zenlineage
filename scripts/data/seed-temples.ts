@@ -322,6 +322,31 @@ export const SRC_WAKE_UP_DIRECTORY = "src_wake_up_directory";
 export const SRC_INTERSEIN_GERMANY = "src_intersein_germany";
 export const SRC_RIVIERE_COEUR = "src_riviere_coeur";
 export const SRC_HAUTS_FRANCE_PV = "src_hauts_france_pv";
+export const SRC_ERMITA_PAJA = "src_ermita_paja";
+export const SRC_ORDINARY_MIND_AU = "src_ordinary_mind_au";
+export const SRC_ZEN_MELBOURNE = "src_zen_melbourne";
+export const SRC_OZZEN = "src_ozzen";
+export const SRC_SYDNEY_ZEN = "src_sydney_zen";
+export const SRC_TWINING_VINES_AU = "src_twining_vines_au";
+export const SRC_ZGWA = "src_zgwa";
+export const SRC_BERGZENDO = "src_bergzendo";
+export const SRC_STILLE_WIEN = "src_stille_wien";
+export const SRC_IZEN = "src_izen";
+export const SRC_ZEN_TREE = "src_zen_tree";
+export const SRC_ZENPUNT = "src_zenpunt";
+export const SRC_KANZEON_POLAND = "src_kanzeon_poland";
+export const SRC_BORN_EARTH = "src_born_earth";
+export const SRC_SVALORNAS = "src_svalornas";
+export const SRC_OFFENER_KREIS_LUZERN = "src_offener_kreis_luzern";
+export const SRC_WHOLEHEARTED_ZEN = "src_wholehearted_zen";
+export const SRC_WILD_FLOWER_PT = "src_wild_flower_pt";
+export const SRC_CONSTELLATION_LAC = "src_constellation_lac";
+export const SRC_CEDRES_BLEUS = "src_cedres_bleus";
+export const SRC_FLEUR_TAMARIS = "src_fleur_tamaris";
+export const SRC_FLEUR_INSTANT = "src_fleur_instant";
+export const SRC_FLEURS_PRUNIER = "src_fleurs_prunier";
+export const SRC_FLEURS_VACUITE = "src_fleurs_vacuite";
+export const SRC_FLEURS_ZEN = "src_fleurs_zen";
 
 /** Global Zen practice-centre research bundle — fallback citation for the
  * Gemini Deep Research 2026-05 ingest where the row's primary directory
@@ -1397,6 +1422,31 @@ export const TEMPLE_SOURCES: {
     {
       id: SRC_HAUTS_FRANCE_PV, type: "website", title: "Hauts-de-France sanghas in the Plum Village tradition", author: "Sangha de Lille", url: "https://contact79094.wixsite.com/sanghadelille/sanghas-hauts-de-france", publicationDate: "", reliability: "authoritative",
     },
+    { id: SRC_ERMITA_PAJA, type: "website", title: "Ermita de Paja — practice and lineage", author: "Ermita de Paja", url: "https://www.zazen.com.ar/index-mobile.php", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_ORDINARY_MIND_AU, type: "website", title: "Ordinary Mind Zen Brisbane — practice and lineage", author: "Ordinary Mind Zen Brisbane", url: "https://www.ordinarymind.org.au/", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_ZEN_MELBOURNE, type: "website", title: "Ordinary Mind Zen Melbourne — practice and lineage", author: "Ordinary Mind Zen Melbourne", url: "https://www.zenmelbourne.com/", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_OZZEN, type: "website", title: "OzZen — schedule and lineage", author: "OzZen", url: "https://ordinarymind.com.au/schedule/", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_SYDNEY_ZEN, type: "website", title: "Sydney Zen Centre — practice, groups and lineage", author: "Sydney Zen Centre", url: "https://szc.org.au/", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_TWINING_VINES_AU, type: "website", title: "Twining Vines Zen Centre — practice and lineage", author: "Twining Vines Zen Centre", url: "https://netiparekh.com/", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_ZGWA, type: "website", title: "Zen Group of Western Australia — practice and history", author: "Zen Group of Western Australia", url: "https://www.zgwa.org.au/", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_BERGZENDO, type: "website", title: "BergZendo — retreat centre", author: "Hyakujōgan Zendo", url: "https://bergzendo.at/", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_STILLE_WIEN, type: "website", title: "Stille in Wien — Zen program", author: "Kardinal König Haus", url: "https://www.stille-in-wien.at/gebet/zen/", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_IZEN, type: "website", title: "Izen — Zen practice and lineage", author: "Stichting Izen", url: "https://www.izen.nl/zen-meditatie/", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_ZEN_TREE, type: "website", title: "Zen Tree — practice and lineage", author: "Zen Tree", url: "https://zentree.nl/", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_ZENPUNT, type: "website", title: "ZenPunt Haarlem — program and teachers", author: "ZenPunt", url: "https://zenpunt.nl/", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_KANZEON_POLAND, type: "website", title: "Kanzeon Poland — centers, teachers and practice", author: "Polska Sangha Kanzeon", url: "https://kanzeon.pl/", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_BORN_EARTH, type: "website", title: "Born As The Earth — practice and lineage", author: "Born As The Earth Zen Academy", url: "https://bornastheearth.com/", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_SVALORNAS, type: "website", title: "Svalornas Sangha — schedule and lineage", author: "Svalornas Sangha", url: "https://www.svalornassangha.org/", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_OFFENER_KREIS_LUZERN, type: "website", title: "Zen Zentrum Offener Kreis Luzern — practice", author: "Zen Zentrum Offener Kreis", url: "https://www.zenzentrum-offenerkreis.ch/luzern.html", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_WHOLEHEARTED_ZEN, type: "website", title: "Wholehearted Zen Sangha — practice and lineage", author: "Wholehearted Zen Sangha", url: "https://wholeheartedzensangha.uk/", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_WILD_FLOWER_PT, type: "website", title: "Associação Zen Flor Silvestre — 2026–27 program", author: "Associação Zen Flor Silvestre", url: "https://sanghazenpt.org/2026/10/03/programa-de-atividades-2026-2027/", publicationDate: "2026-10-03", reliability: "authoritative" },
+    { id: SRC_CONSTELLATION_LAC, type: "website", title: "Constellation du Lac — current practice", author: "Sangha Constellation du Lac", url: "https://constellationdulac.wixsite.com/sangha-annecy", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_CEDRES_BLEUS, type: "website", title: "Maison aux Cèdres Bleus — practice and retreats", author: "Maison aux Cèdres Bleus", url: "https://maisonauxcedresbleus.com/session-hebdomadaire/", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_FLEUR_TAMARIS, type: "website", title: "Provence Plum Village sanghas — Fleur de Tamaris", author: "Sanghas du Village des Pruniers en Provence", url: "https://sanghasduvillagedespruniersenprovence.over-blog.com/", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_FLEUR_INSTANT, type: "website", title: "Fleur de l’Instant — association and practice", author: "Sangha Fleur de l’Instant", url: "https://www.fleurdelinstant.fr/", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_FLEURS_PRUNIER, type: "website", title: "Fleurs de Prunier Rennes — current practice", author: "Sangha Fleurs de Prunier", url: "https://fleursdeprunier-rennes.blogspot.com/", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_FLEURS_VACUITE, type: "website", title: "Fleurs de Vacuité — current practice", author: "Sangha Fleurs de Vacuité", url: "https://www.fleursdevacuite.org/", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_FLEURS_ZEN, type: "website", title: "Fleurs de Zen Mulhouse — current practice", author: "Cœur des Sanghas Alsace", url: "https://sites.google.com/view/coeur-des-sanghas-alsace/les-sanghas/fleurs-de-zen", publicationDate: "", reliability: "authoritative" },
     {
       id: SRC_FOGUANG,
       type: "website",
@@ -4210,9 +4260,9 @@ export const SEED_TEMPLES: TempleSeed[] = [
     foundedPrecision: "circa",
     schoolSlug: "white-plum-asanga",
     status: "active",
-    sourceId: SRC_WHITEPLUM,
+    sourceId: SRC_STONEWATER_ZEN,
     sourceExcerpt:
-      "StoneWater Zen Sangha in Liverpool — a UK White Plum Asanga sangha in the Maezumi lineage led by Dr David Keizan Scott Roshi.",
+      "StoneWater's current site describes an active UK-wide and online sangha, publishes Liverpool and online schedules, and identifies David Keizan Scott Roshi and its White Plum lineage.",
     url: "https://www.stonewaterzen.org/",
   },
   {
@@ -4382,7 +4432,7 @@ export const SEED_TEMPLES: TempleSeed[] = [
     foundedPrecision: "exact",
     schoolSlug: "white-plum-asanga",
     status: "active",
-    sourceId: SRC_WHITEPLUM,
+    sourceId: SRC_ZEN_TREE,
     sourceExcerpt:
       "Zen Tree — White Plum Asanga zendō at Lange Haven 98, Schiedam, established 2022 by Jeroen Bosch Sensei (shihō 2025 from Michel Plein Ciel Roshi; Genno Pagès → Maezumi lineage). Sister sangha to Zen Heart Sangha (Den Haag).",
     url: "https://zentree.nl/",
@@ -4464,7 +4514,7 @@ export const SEED_TEMPLES: TempleSeed[] = [
     foundedPrecision: "exact",
     schoolSlug: "white-plum-asanga",
     status: "active",
-    sourceId: SRC_WHITEPLUM,
+    sourceId: SRC_OFFENER_KREIS_LUZERN,
     sourceExcerpt:
       "Zen Zentrum Offener Kreis Luzern — White Plum Asanga interreligious meditation center founded 2006 at Bürgenstrasse 36, 6005 Luzern, led by Anna Myōan Gamma Roshi (Katharina-Werk). Sister centre to Zendo Offener Kreis Freiburg (DE).",
     url: "https://www.zenzentrum-offenerkreis.ch/",
