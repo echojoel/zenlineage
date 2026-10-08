@@ -37,9 +37,9 @@
       "region": "Jiangxi",
       "lineage": "Chinese Chan (Caodong — modern training monastery)",
       "address": "Yunju Mountain, Yongxiu County, Jiujiang, Jiangxi",
-      "url": "http://www.yunjushan.org/",
-      "source_url": "https://en.wikipedia.org/wiki/Yunju_Mountain",
-      "notes": "Largest active Caodong training monastery in China; site of Daoying Yu's 9th-century Daoying Chansi and continuously a Caodong seat since. Rebuilt under Master Xuyun in the 1950s."
+      "url": "https://yjsfj.pusa123.com/pusa/cxb/",
+      "source_url": "https://yjsfj.pusa123.com/pusa/cxb/",
+      "notes": "The monastery’s official site publishes its International Chan Training Institute and retreat notices; consult the current calendar because no later 2026 retreat date was confirmed (checked 2026-10-08)."
     },
     {
       "name": "Tiantong Temple",
@@ -48,8 +48,8 @@
       "lineage": "Chinese Chan (Caodong — historic — where Dōgen received transmission)",
       "address": "Yinzhou District, Ningbo, Zhejiang 315133",
       "url": "http://www.tiantongsi.cn/",
-      "source_url": "https://en.wikipedia.org/wiki/Tiantong_Temple",
-      "notes": "Major Caodong ancestral temple founded 300 CE. Where Tiantong Rujing taught Dōgen 1223–1227, transmitting the Sōtō line to Japan. Active Chan training monastery."
+      "source_url": "https://www.fjdh.cn/bnznews/2016/03/151505346042.html",
+      "notes": "Current visitor information supports the Ningbo monastery and older Buddhist reporting documents Chan retreat activity; no current public practice timetable was verified (checked 2026-10-08)."
     },
     {
       "name": "Asoka Temple (Ayuwang)",
@@ -102,24 +102,14 @@
       "notes": "Founded Sui dynasty; revived by Master Laiguo in the 20th century. One of the most rigorous active Chan training monasteries in China; Sheng Yen trained here."
     },
     {
-      "name": "Putuoshan Puji Temple",
-      "city": "Putuo Mountain",
-      "region": "Zhejiang",
-      "lineage": "Chinese Chan (Linji — major historic mountain temple)",
-      "address": "Putuoshan, Zhoushan, Zhejiang 316107",
-      "url": "https://www.putuoshan.org.cn/",
-      "source_url": "https://en.wikipedia.org/wiki/Mount_Putuo",
-      "notes": "Main monastery on Mount Putuo, one of the Four Sacred Mountains of Chinese Buddhism (Avalokiteśvara's bodhimanḍa). Historically Linji training site."
-    },
-    {
       "name": "Xuedou Temple",
       "city": "Fenghua",
       "region": "Zhejiang",
       "lineage": "Chinese Chan (Yunmen — historic training site)",
       "address": "Xuedou Mountain, Xikou Town, Fenghua District, Ningbo",
       "url": "https://www.xuedousi.com/",
-      "source_url": "https://en.wikipedia.org/wiki/Xuedou_Temple",
-      "notes": "Where Xuedou Chongxian (980–1052) compiled the Hekiganroku (Blue Cliff Record) base verses. Yunmen-school heritage temple."
+      "source_url": "https://www.zjfjxh.com/Public/NewsInfo.aspx?id=0171fa3c-40d7-48e1-917d-15ba54d67e43&type=1",
+      "notes": "The Zhejiang Buddhist Association identifies this active Fenghua temple, its historic Chan affiliation, and Buddhist academy. No current public zazen timetable was verified (checked 2026-10-08)."
     },
     {
       "name": "Daming Temple",
@@ -158,8 +148,8 @@
       "lineage": "Chan (Nanhua Chan Temple, Sixth Patriarch Huineng)",
       "address": "Caoxi, 7 km southeast of Maba Town, Qujiang District, Shaoguan, Guangdong, China",
       "url": "https://nhcs.cn",
-      "source_url": "https://gs.ctrip.com/html5/you/sight/shaoguan222/11562.html",
-      "notes": "Historic Chan monastery regarded as an ancestral home of Chinese Chan (Zen), where the Sixth Patriarch Huineng taught for decades. Founded in 502 CE by the Indian monk Zhiyao Sanzang and renamed Nanhua Chan Temple in 968 under Song Emperor Taizu. The temple complex covers over 40 hectares and remains an active pilgrimage and practice site for Chan Buddhists. Native: 南华禅寺 (Nánhuá Chán Sì)."
+      "source_url": "https://www.sg.gov.cn/sgly/yzsg/msgj/content/post_1960276.html",
+      "notes": "Shaoguan government identifies this active Caoxi monastery with Huineng and Southern Chan heritage. No current public meditation timetable was verified (checked 2026-10-08)."
     }
   ]
 }

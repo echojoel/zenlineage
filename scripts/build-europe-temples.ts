@@ -536,6 +536,8 @@ function pickSourceId(sourceUrl: string, lineage: string): string {
   if (u.includes("kwanumeurope.org/locations/glogow-zen-group")) return "src_kwanum_glogow";
   if (u.includes("aandacht.net/meditatiegroepen/sangha-vinden2/item/"))
     return "src_leven_in_aandacht_sanghas";
+  if (u.includes("aandacht.net/meditatiegroepen/sangha-vinden2"))
+    return "src_leven_in_aandacht_sanghas";
   if (u.includes("zenchile.cl/projects-6")) return "src_shoden_chile_site";
   if (u.includes("kannon.pl/centrum-zen-kaciki"))
     return "src_kannon_kaciki_site";
@@ -554,6 +556,10 @@ function pickSourceId(sourceUrl: string, lineage: string): string {
     return "src_mindfulness_ireland_sanghas";
   if (u.includes("plumvillage-traditionen.se/sollandet"))
     return "src_sollandet_sangha";
+  if (u.includes("plumvillage-traditionen.se/"))
+    return "src_swedish_plum_village_groups";
+  if (u.includes("plumvillage.org/practice-centre/plum-village-thailand"))
+    return "src_thai_plum_village";
   if (u.includes("trikayazencenter.org")) return "src_trikaya_zen";
   if (u.includes("twostreamszen.org")) return "src_two_streams_zen";
   if (u.includes("upaya.org/about/affiliates")) return "src_upaya_affiliates";
@@ -591,6 +597,22 @@ function pickSourceId(sourceUrl: string, lineage: string): string {
   if (u.includes("zen-imgruenenring.ch")) return "src_green_ring_zen";
   if (u.includes("boundlessway.org/weekly-practice")) return "src_boundless_way";
   if (u.includes("bupponansen.org")) return "src_buppo_valencia";
+  if (u.includes("sg.gov.cn/sgly/yzsg/msgj/content/post_1960276"))
+    return "src_nanhua_shaoguan_government";
+  if (u.includes("fjdh.cn/bnznews/2016/03/151505346042"))
+    return "src_tiantong_fjdh";
+  if (u.includes("zjfjxh.com") && u.includes("0171fa3c"))
+    return "src_xuedou_zhejiang_buddhist";
+  if (u.includes("yjsfj.pusa123.com/pusa/cxb"))
+    return "src_zhenru_chan_training";
+  if (u.includes("sotozencolombia.org")) return "src_sotozen_colombia";
+  if (u.includes("algarvesangha.wordpress.com")) return "src_almond_blossom_sangha";
+  if (u.includes("mindfulness-israel.org")) return "src_mindfulness_israel";
+  if (u.includes("dharmagaia.org")) return "src_dharma_gaia";
+  if (u.includes("langmai.org")) return "src_langmai_vietnam";
+  if (u.includes("tnhspain.com")) return "src_tnh_spain";
+  if (u.includes("joyfulgarden.sg")) return "src_joyful_garden_sg";
+  if (u.includes("pvfhk.org")) return "src_plum_village_hong_kong";
   if (u.includes("greenmountainzen.org.nz")) return "src_green_mountain_zen_site";
   if (u.includes("greenriverzen.org")) return "src_green_river_zen_site";
   if (u.includes("greyheronzen.ie")) return "src_grey_heron_zen_site";
@@ -830,7 +852,11 @@ function pickSourceId(sourceUrl: string, lineage: string): string {
   const l = lineage.toLowerCase();
   if (l.includes("kanshoji")) return "src_kanshoji";
   if (l.includes("kosen sangha")) return "src_kosen_sangha";
-  if (l.includes("plum village") || l.includes("thiền") || l.includes("thien"))
+  if (
+    l.includes("plum village") ||
+    l.includes("thich nhat hanh") ||
+    l.includes("thích nhất hạnh")
+  )
     return "src_plumvillage_monastic";
   if (l.includes("kwan um") || l.includes("seon")) return "src_kwanum";
   if (l.includes("sanbō zen") || l.includes("sanbo zen")) return "src_sanbozen";

@@ -278,6 +278,19 @@ export const SRC_WILD_GEESE = "src_wild_geese_sangha";
 export const SRC_TULLIO_GIRALDI_CHUDO = "src_tullio_giraldi_chudo";
 export const SRC_BUDDHISTDOOR_VENEZUELA = "src_buddhistdoor_venezuela";
 export const SRC_SOTOZEN_COLOMBIA_DOKAN = "src_sotozen_colombia_dokan";
+export const SRC_ALMOND_BLOSSOM = "src_almond_blossom_sangha";
+export const SRC_MINDFULNESS_ISRAEL = "src_mindfulness_israel";
+export const SRC_DHARMA_GAIA = "src_dharma_gaia";
+export const SRC_LANGMAI_VIETNAM = "src_langmai_vietnam";
+export const SRC_TNH_SPAIN = "src_tnh_spain";
+export const SRC_JOYFUL_GARDEN_SG = "src_joyful_garden_sg";
+export const SRC_PV_HONG_KONG = "src_plum_village_hong_kong";
+export const SRC_UPAYA_CENTER = "src_upaya_zen_center";
+export const SRC_ZEN_DUST = "src_zen_community_oregon";
+export const SRC_YOKOJI_CENTER = "src_yokoji_zen_center";
+export const SRC_VILLAGE_ZENDO = "src_village_zendo";
+export const SRC_ZEN_ALKMAAR = "src_zen_alkmaar";
+export const SRC_YORK_ZEN = "src_york_zen_group";
 export const SRC_RIEB_VENEZUELA = "src_rieb_venezuela_directory";
 export const SRC_DE_BERKELEY = "src_de_berkeley_zen";
 export const SRC_VIA_ZEN_COMMUNITIES = "src_via_zen_communities";
@@ -287,6 +300,18 @@ export const SRC_BREAD_LOAF_ZEN = "src_bread_loaf_zen";
 export const SRC_GREAT_PLAINS_ZEN = "src_great_plains_zen";
 export const SRC_GREEN_RING_ZEN = "src_green_ring_zen";
 export const SRC_BUPPO_VALENCIA = "src_buppo_valencia";
+export const SRC_MIYIN_HUNAN = "src_miyin_hunan_government";
+export const SRC_NANTAI_HENGYANG = "src_nantai_hengyang_government";
+export const SRC_PUTONG_FODIZI = "src_putong_fodizi";
+export const SRC_SANZU_FOJIAOWANG = "src_sanzu_fojiaowang";
+export const SRC_SHAOLIN_ZHENGZHOU = "src_shaolin_zhengzhou_government";
+export const SRC_WUZU_HUBEI = "src_wuzu_hubei_buddhist";
+export const SRC_YONGQUAN_FUZHOU = "src_yongquan_fuzhou_government";
+export const SRC_YUNMEN_SHAOGUAN = "src_yunmen_shaoguan_government";
+export const SRC_NANHUA_SHAOGUAN = "src_nanhua_shaoguan_government";
+export const SRC_TIANTONG_FJDH = "src_tiantong_fjdh";
+export const SRC_XUEDOU_ZHEJIANG = "src_xuedou_zhejiang_buddhist";
+export const SRC_ZHENRU_OFFICIAL = "src_zhenru_chan_training";
 export const SRC_DONGSHAN_JIANGXI_BUDDHIST = "src_dongshan_jiangxi_buddhist";
 export const SRC_GREEN_MOUNTAIN_ZEN_SITE = "src_green_mountain_zen_site";
 export const SRC_GREEN_RIVER_ZEN_SITE = "src_green_river_zen_site";
@@ -1161,6 +1186,42 @@ export const TEMPLE_SOURCES: {
       id: SRC_BUPPO_VALENCIA, type: "website", title: "Centro Zen Buppo Valencia — practice and lineage", author: "Centro Zen Buppo Valencia", url: "https://www.bupponansen.org/", publicationDate: "", reliability: "primary",
     },
     {
+      id: SRC_MIYIN_HUNAN, type: "website", title: "Hunan culture and tourism authority — Miyin Temple", author: "Hunan Provincial Department of Culture and Tourism", url: "https://whhlyt.hunan.gov.cn/whhlyt/news/sxxw/201909/t20190910_5466705.html", publicationDate: "2019", reliability: "authoritative",
+    },
+    {
+      id: SRC_NANTAI_HENGYANG, type: "website", title: "Hengyang government — Nantai Temple", author: "Hengyang Municipal Government", url: "https://www.hengyang.gov.cn/hyly/hyly/xx/20200111/i56156.html", publicationDate: "", reliability: "authoritative",
+    },
+    {
+      id: SRC_PUTONG_FODIZI, type: "website", title: "Fodizi Buddhist dictionary — Yangqi Putong Temple", author: "Fodizi", url: "https://m.fodizi.tw/f05/77644.html", publicationDate: "", reliability: "popular",
+    },
+    {
+      id: SRC_SANZU_FOJIAOWANG, type: "website", title: "Fojiaowang — Sanzu Temple history", author: "Fojiaowang", url: "https://fojiaowang.com.cn/plus/view.php?aid=4127", publicationDate: "", reliability: "popular",
+    },
+    {
+      id: SRC_SHAOLIN_ZHENGZHOU, type: "website", title: "Zhengzhou government — Shaolin Temple", author: "Zhengzhou Municipal Government", url: "https://www.zhengzhou.gov.cn/view42204/6498142.jhtml", publicationDate: "", reliability: "authoritative",
+    },
+    {
+      id: SRC_WUZU_HUBEI, type: "website", title: "Hubei Buddhist Association — Wuzu Temple", author: "Hubei Buddhist Association", url: "https://www.hbsfjxh.cn/article.html?id=6964749192627490816", publicationDate: "", reliability: "authoritative",
+    },
+    {
+      id: SRC_YONGQUAN_FUZHOU, type: "website", title: "Fuzhou Guling tourism authority — Yongquan Temple", author: "Fuzhou Guling Tourism Authority", url: "https://gl.fuzhou.gov.cn/zjgl/lyjd/jdjs/gspqgcmyggq/201405/t20140509_892653.htm", publicationDate: "", reliability: "authoritative",
+    },
+    {
+      id: SRC_YUNMEN_SHAOGUAN, type: "website", title: "Shaoguan government — Yunmen Temple", author: "Shaoguan Municipal Government", url: "https://www.sg.gov.cn/sgly/yzsg/msgj/content/post_1962120.html", publicationDate: "", reliability: "authoritative",
+    },
+    {
+      id: SRC_NANHUA_SHAOGUAN, type: "website", title: "Shaoguan government — Nanhua Chan Temple", author: "Shaoguan Municipal Government", url: "https://www.sg.gov.cn/sgly/yzsg/msgj/content/post_1960276.html", publicationDate: "", reliability: "authoritative",
+    },
+    {
+      id: SRC_TIANTONG_FJDH, type: "website", title: "Buddhist news archive — Tiantong Temple Chan activity", author: "Fojiao Daohang", url: "https://www.fjdh.cn/bnznews/2016/03/151505346042.html", publicationDate: "2016", reliability: "secondary",
+    },
+    {
+      id: SRC_XUEDOU_ZHEJIANG, type: "website", title: "Zhejiang Buddhist Association — Xuedou Temple", author: "Zhejiang Buddhist Association", url: "https://www.zjfjxh.com/Public/NewsInfo.aspx?id=0171fa3c-40d7-48e1-917d-15ba54d67e43&type=1", publicationDate: "", reliability: "authoritative",
+    },
+    {
+      id: SRC_ZHENRU_OFFICIAL, type: "website", title: "Zhenru Chan Temple — International Chan Training Institute", author: "Zhenru Chan Temple", url: "https://yjsfj.pusa123.com/pusa/cxb/", publicationDate: "", reliability: "primary",
+    },
+    {
       id: SRC_DONGSHAN_JIANGXI_BUDDHIST,
       type: "website",
       title: "Jiangxi Buddhist Association — Dongshan Puli Temple",
@@ -1672,6 +1733,19 @@ export const TEMPLE_SOURCES: {
     { id: SRC_STILL_MIND, type: "website", title: "Still Mind Zendo — lineage and schedule", author: "Still Mind Zendo", url: "https://www.stillmindzendo.org/meditation-schedule", publicationDate: "", reliability: "authoritative" },
     { id: SRC_OPEN_MIND_ZEN, type: "website", title: "Open Mind Zen — current events", author: "Open Mind Zen", url: "https://openmindzen.com/upcoming-events/", publicationDate: "", reliability: "authoritative" },
     { id: SRC_VILLAGE_ZENDO_AFFILIATES, type: "website", title: "Village Zendo lineage centers", author: "Village Zendo", url: "https://villagezendo.org/zen-centers-in-the-village-zendo-lineage/", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_ALMOND_BLOSSOM, type: "website", title: "Almond Blossom Sangha — Algarve practice", author: "Almond Blossom Sangha", url: "https://algarvesangha.wordpress.com/", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_MINDFULNESS_ISRAEL, type: "website", title: "Community of Mindfulness in Israel", author: "Community of Mindfulness in Israel", url: "https://mindfulness-israel.org/en/", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_DHARMA_GAIA, type: "website", title: "Dharma Gaia — practice and retreats", author: "Dharma Gaia", url: "https://www.dharmagaia.org/", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_LANGMAI_VIETNAM, type: "website", title: "Làng Mai Vietnam — monastic communities", author: "Làng Mai", url: "https://langmai.org/", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_TNH_SPAIN, type: "website", title: "Thich Nhat Hanh Spain — sangha directory", author: "Comunidad del Interser", url: "https://tnhspain.com/sangha/buscar-sanghas-para-practicar/", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_JOYFUL_GARDEN_SG, type: "website", title: "Joyful Garden Sangha — current practice", author: "Joyful Garden Sangha", url: "https://www.joyfulgarden.sg/", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_PV_HONG_KONG, type: "website", title: "Plum Village Hong Kong — Lotus Pond Temple", author: "Plum Village Hong Kong", url: "https://www.pvfhk.org/", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_UPAYA_CENTER, type: "website", title: "Upaya Zen Center — daily practice", author: "Upaya Zen Center", url: "https://www.upaya.org/temple/", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_ZEN_DUST, type: "website", title: "Zen Community of Oregon — community and lineage", author: "Zen Community of Oregon", url: "https://zendust.org/", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_YOKOJI_CENTER, type: "website", title: "Yokoji Zen Mountain Center — programs", author: "Yokoji Zen Mountain Center", url: "https://zmc.org/", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_VILLAGE_ZENDO, type: "website", title: "Village Zendo — practice and lineage", author: "Village Zendo", url: "https://villagezendo.org/", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_ZEN_ALKMAAR, type: "website", title: "Zen Alkmaar — practice and teachers", author: "Zen Alkmaar", url: "https://zenalkmaar.nl/", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_YORK_ZEN, type: "website", title: "York Zen Group — practice and lineage", author: "York Zen Group", url: "https://www.yorkzengroupwgzs.org/", publicationDate: "", reliability: "authoritative" },
     { id: SRC_PRAIRIE_ZEN, type: "website", title: "Prairie Zen Center — current schedule", author: "Prairie Zen Center", url: "https://prairiezen.org/Schedules.html", publicationDate: "", reliability: "authoritative" },
     { id: SRC_RMERC, type: "website", title: "Rocky Mountain Ecodharma Retreat Center — calendar", author: "Rocky Mountain Ecodharma Retreat Center", url: "https://rmerc.org/calendar/", publicationDate: "", reliability: "authoritative" },
     { id: SRC_SAGE_TAOS, type: "website", title: "Sage Institute — mission and programs", author: "Sage Institute", url: "https://www.sagetaos.com/about", publicationDate: "", reliability: "authoritative" },
@@ -2386,9 +2460,9 @@ export const SEED_TEMPLES: TempleSeed[] = [
     schoolSlug: "early-chan",
     founderSlug: "puti-damo",
     status: "active",
-    sourceId: SRC_WIKIPEDIA,
+    sourceId: SRC_SHAOLIN_ZHENGZHOU,
     sourceExcerpt:
-      "Shaolin Monastery (少林寺) on Mount Song, Henan; founded 495 CE, traditionally the monastery where Bodhidharma is said to have practiced nine years of wall-gazing.",
+      "Zhengzhou government identifies Shaolin as a historic Chan monastery and visitor site in Dengfeng. Published opening hours are visitor hours, not a public meditation schedule (checked 2026-10-08).",
     // The historical official domain shaolin.org.cn no longer resolves
     // reliably and there is no stable English-language site for the
     // Henan monastery itself; point at the Wikipedia article so the
@@ -2463,10 +2537,10 @@ export const SEED_TEMPLES: TempleSeed[] = [
     schoolSlug: "early-chan",
     founderSlug: "daman-hongren",
     status: "active",
-    sourceId: SRC_WIKIPEDIA,
+    sourceId: SRC_WUZU_HUBEI,
     sourceExcerpt:
-      "Wuzu Temple (五祖寺) on the Eastern Mountain, Wuzu Town, Huangmei County, Hubei — the seat of the Fifth Patriarch Daman Hongren and the 'East Mountain Teaching'. Traditionally where Huineng worked in the threshing room and received the robe and bowl.",
-    url: "https://en.wikipedia.org/wiki/Wuzu_Temple",
+      "The Hubei Buddhist Association identifies Wuzu Temple in Huangmei with Fifth Patriarch Hongren and the East Mountain Chan tradition. No current public practice schedule was verified (checked 2026-10-08).",
+    url: "https://www.hbsfjxh.cn/article.html?id=6964749192627490816",
     geoPrecision: "exact",
   },
   {
@@ -2484,10 +2558,10 @@ export const SEED_TEMPLES: TempleSeed[] = [
     schoolSlug: "early-chan",
     founderSlug: "jianzhi-sengcan",
     status: "active",
-    sourceId: SRC_WIKIPEDIA,
+    sourceId: SRC_SANZU_FOJIAOWANG,
     sourceExcerpt:
-      "Sanzu Temple (三祖寺) on Mount Tianzhu, Qianshan, Anhui — founded 505 CE and associated with the Third Patriarch Jianzhi Sengcan, to whom the Xinxin Ming is attributed.",
-    url: "https://en.wikipedia.org/wiki/Sanzu_Temple",
+      "Buddhist historical material identifies Sanzu Temple on Mount Tianzhu with Third Patriarch Sengcan. Reports of lectures and Chan retreats are old, so current public practice remains unverified (checked 2026-10-08).",
+    url: "https://fojiaowang.com.cn/plus/view.php?aid=4127",
     geoPrecision: "exact",
   },
   {
@@ -2567,10 +2641,10 @@ export const SEED_TEMPLES: TempleSeed[] = [
     schoolSlug: "qingyuan-line",
     founderSlug: "shitou-xiqian",
     status: "active",
-    sourceId: SRC_WIKIPEDIA,
+    sourceId: SRC_NANTAI_HENGYANG,
     sourceExcerpt:
-      "Nantai Temple (南臺寺) on Mount Heng, Nanyue District, Hengyang, Hunan — where Shitou Xiqian, author of the Sandokai, kept his hut on the rock. Wikipedia records it as 'the ancestral temple of Caodong school, Fayan school and Yunmen school'.",
-    url: "https://en.wikipedia.org/wiki/Nantai_Temple",
+      "Hengyang government identifies Nantai Temple on Mount Heng with Shitou Xiqian and the Caodong, Yunmen, and Fayan Chan lineages. No current public practice schedule was verified (checked 2026-10-08).",
+    url: "https://www.hengyang.gov.cn/hyly/hyly/xx/20200111/i56156.html",
     geoPrecision: "exact",
   },
   {
@@ -2653,10 +2727,10 @@ export const SEED_TEMPLES: TempleSeed[] = [
     schoolSlug: "guiyang",
     founderSlug: "guishan-lingyou",
     status: "active",
-    sourceId: SRC_WIKIPEDIA,
+    sourceId: SRC_MIYIN_HUNAN,
     sourceExcerpt:
-      "Miyin Temple (密印寺) in Weishan Township, Ningxiang, Hunan — the seat of Guishan Lingyou on Mount Gui and the ancestral temple of the Guiyang house, the first of the five houses of Chan to take shape.",
-    url: "https://en.wikipedia.org/wiki/Miyin_Temple",
+      "Hunan's culture and tourism authority identifies Weishan Miyin Temple as the ancestral temple of the Guiyang Chan school. No current public meditation schedule was verified (checked 2026-10-08).",
+    url: "https://whhlyt.hunan.gov.cn/whhlyt/news/sxxw/201909/t20190910_5466705.html",
     geoPrecision: "exact",
   },
   {
@@ -2674,10 +2748,10 @@ export const SEED_TEMPLES: TempleSeed[] = [
     schoolSlug: "yangqi-line",
     founderSlug: "yangqi-fanghui",
     status: "active",
-    sourceId: SRC_WIKIPEDIA,
+    sourceId: SRC_PUTONG_FODIZI,
     sourceExcerpt:
-      "Putong Temple (普通寺) on Mount Yangqi, Shangli County, Jiangxi — founded 753 and 'the cradle of the Yangqi sect of Linji school'. The Yangqi branch is the line through which Linji Chan reached Japan as Rinzai.",
-    url: "https://en.wikipedia.org/wiki/Putong_Temple",
+      "Buddhist reference material identifies Putong Temple on Mount Yangqi as the ancestral temple of the Linji Yangqi branch. Current public access and practice schedules remain unverified (checked 2026-10-08).",
+    url: "https://m.fodizi.tw/f05/77644.html",
     geoPrecision: "exact",
   },
   {
@@ -2694,10 +2768,10 @@ export const SEED_TEMPLES: TempleSeed[] = [
     foundedPrecision: "exact",
     schoolSlug: "chan",
     status: "active",
-    sourceId: SRC_WIKIPEDIA,
+    sourceId: SRC_YONGQUAN_FUZHOU,
     sourceExcerpt:
-      "Yongquan Temple (湧泉寺) on Gushan (Drum Mountain), Jin'an District, Fuzhou, Fujian — first built in 783. One of the monasteries restored by Xuyun, the figure most responsible for the survival of Chan practice into the twentieth century.",
-    url: "https://en.wikipedia.org/wiki/Yongquan_Temple_(Fuzhou)",
+      "Fuzhou's Guling tourism authority documents Yongquan Temple on Gushan. A September 2026 closure notice affected the scenic area, so current access should be confirmed (checked 2026-10-08).",
+    url: "https://gl.fuzhou.gov.cn/zjgl/lyjd/jdjs/gspqgcmyggq/201405/t20140509_892653.htm",
     geoPrecision: "exact",
   },
 
@@ -3254,10 +3328,10 @@ export const SEED_TEMPLES: TempleSeed[] = [
     foundedPrecision: "exact",
     schoolSlug: "yunmen",
     status: "active",
-    sourceId: SRC_WIKIPEDIA,
+    sourceId: SRC_YUNMEN_SHAOGUAN,
     sourceExcerpt:
-      "Yunmen Temple (雲門寺), founded 923 CE; the ancestral temple of the Yunmen school of Chan, associated with the Tang master Yunmen Wenyan.",
-    url: "https://en.wikipedia.org/wiki/Yunmen_Temple",
+      "Shaoguan government identifies Yunmen Dajue Chan Temple near Ruyuan as the ancestral temple of the Yunmen school and describes its active monastic community. No public lay schedule was verified (checked 2026-10-08).",
+    url: "https://www.sg.gov.cn/sgly/yzsg/msgj/content/post_1962120.html",
   },
 
   // ─── European Sōtō Zen — AZI / Deshimaru lineage ─────────────────────
@@ -3945,9 +4019,9 @@ export const SEED_TEMPLES: TempleSeed[] = [
     schoolSlug: "white-plum-asanga",
     founderSlug: "john-daido-loori",
     status: "active",
-    sourceId: SRC_WHITEPLUM,
+    sourceId: SRC_MRO,
     sourceExcerpt:
-      "Zen Mountain Monastery in the Catskills — founded 1980 by John Daido Loori, a dharma heir of Taizan Maezumi. One of the largest residential Zen training monasteries in the United States.",
+      "Zen Mountain Monastery’s current visitor page lists its public Sunday program and on-site practice; the Mountains and Rivers Order documents the monastery’s Daido Loori lineage.",
     url: "https://zmm.org/",
     practiceDetails: {
       meetingFormat: {
@@ -3978,9 +4052,9 @@ export const SEED_TEMPLES: TempleSeed[] = [
     foundedPrecision: "exact",
     schoolSlug: "white-plum-asanga",
     status: "active",
-    sourceId: SRC_WHITEPLUM,
+    sourceId: SRC_UPAYA_CENTER,
     sourceExcerpt:
-      "Upaya Zen Center in Santa Fe — founded 1990 by Joan Halifax Rōshi, a White Plum Asanga affiliated residential practice centre known for its chaplaincy program.",
+      "Upaya Zen Center’s official site documents its Santa Fe temple and current daily meditation schedule (checked 2026-10-08).",
     url: "https://www.upaya.org/",
   },
   {
@@ -3995,9 +4069,9 @@ export const SEED_TEMPLES: TempleSeed[] = [
     schoolSlug: "white-plum-asanga",
     founderSlug: "jan-chozen-bays",
     status: "active",
-    sourceId: SRC_WHITEPLUM,
+    sourceId: SRC_ZEN_DUST,
     sourceExcerpt:
-      "Zen Community of Oregon (Great Vow Zen Monastery) — a White Plum Asanga residential centre led by Chozen Bays Rōshi and Hōgen Bays Rōshi.",
+      "Zen Community of Oregon’s official site describes its White Plum lineage and multiple Oregon practice locations, including Great Vow Zen Monastery; this record represents the wider community.",
     url: "https://zendust.org/",
   },
   {
@@ -4251,9 +4325,9 @@ export const SEED_TEMPLES: TempleSeed[] = [
     schoolSlug: "white-plum-asanga",
     founderSlug: "taizan-maezumi",
     status: "active",
-    sourceId: SRC_WHITEPLUM,
+    sourceId: SRC_YOKOJI_CENTER,
     sourceExcerpt:
-      "Yokoji Zen Mountain Center, founded 1981 by Taizan Maezumi Roshi in the San Jacinto Mountains; Tenshin Fletcher Roshi serves as abbot.",
+      "Yokoji’s official site documents its San Jacinto Mountain training center, current Sunday program, and membership in the White Plum Asanga (checked 2026-10-08).",
     url: "https://zmc.org/",
   },
 
@@ -4648,9 +4722,9 @@ export const SEED_TEMPLES: TempleSeed[] = [
     foundedPrecision: "exact",
     schoolSlug: "white-plum-asanga",
     status: "active",
-    sourceId: SRC_WHITEPLUM,
+    sourceId: SRC_VILLAGE_ZENDO,
     sourceExcerpt:
-      "Village Zendo — Tribeca-based White Plum Asanga and Zen Peacemakers sangha founded 1986 by Pat Enkyo O'Hara Roshi (Maezumi → Glassman lineage). Currently at 260 W Broadway #1G, Manhattan.",
+      "Village Zendo’s official site lists its Tribeca address, current daily and weekly practice, and White Plum connections (checked 2026-10-08).",
     url: "https://villagezendo.org/",
   },
   {
@@ -4680,9 +4754,9 @@ export const SEED_TEMPLES: TempleSeed[] = [
     foundedPrecision: null,
     schoolSlug: "soto",
     status: "active",
-    sourceId: SRC_WHITEPLUM,
+    sourceId: SRC_ZEN_ALKMAAR,
     sourceExcerpt:
-      "Zen Alkmaar — Sōtō Zen sangha at Curaçaostraat 8, Alkmaar, led by B.G. Faber. Listed on the White Plum Asanga roster though specific Maezumi-line shihō affiliation is not publicly declared on the sangha site.",
+      "Zen Alkmaar’s official site lists its Alkmaar practice groups and zazenkai and describes its Maezumi-line teachers through Genpo Merzel, Nico Tydeman, and Gretha Aerts (checked 2026-10-08).",
     url: "https://zenalkmaar.nl/",
   },
   {
@@ -4762,9 +4836,9 @@ export const SEED_TEMPLES: TempleSeed[] = [
     foundedPrecision: null,
     schoolSlug: "white-plum-asanga",
     status: "active",
-    sourceId: SRC_WHITEPLUM,
+    sourceId: SRC_YORK_ZEN,
     sourceExcerpt:
-      "York Zen Group (WGZS — Wild Goose Zen Sangha satellite) — White Plum Asanga group in York, led by Rev. Christopher Ryushin Collingwood Roshi (Canon Chancellor of York Minster; transmission via Patrick Kundo Eastman → Robert Jinsen Kennedy → Glassman/Maezumi). Distinct from Anzan Hoshin's White Wind Zen Sangha (Ottawa).",
+      "York Zen Group’s official site identifies the group with the White Plum Asanga and lists Monday 18:30–20:00 practice at St Bede’s, 21 Blossom Street, York (checked 2026-10-08).",
     url: "https://www.yorkzengroupwgzs.org/",
   },
   {

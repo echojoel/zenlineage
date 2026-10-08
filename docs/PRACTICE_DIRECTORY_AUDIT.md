@@ -9,27 +9,27 @@ establish a group's current activity, lineage, or safeguarding.
 
 | Check | Result |
 |---|---:|
-| Place records | 1,663 |
-| Distinct preferred URLs checked | 1,353 |
-| URLs returning 2xx/3xx | 1,144 |
+| Place records | 1,653 |
+| Distinct preferred URLs checked | 1,346 |
+| URLs returning 2xx/3xx | 1,143 (used by 1,437 records) |
 | URLs returning 404/410 | 2 (used by 2 records) |
-| URLs blocked or rate limited | 21 (used by 23 records) |
-| URLs with inconclusive network/server results | 186 (used by 209 records) |
+| URLs blocked or rate limited | 20 (used by 22 records) |
+| URLs with inconclusive network/server results | 181 (used by 192 records) |
 | Records with no preferred URL | 0 |
-| Records with only a `popular`-class citation | 446 |
-| Records needing an item-level check because their sole citation is broad | 124 |
-| Records queued to check first (overlapping signals combined) | 572 |
-| City-level, approximate map pins | 835 |
+| Records with only a `popular`-class citation | 439 |
+| Records needing an item-level check because their sole citation is broad | 50 |
+| Records queued to check first (overlapping signals combined) | 491 |
+| City-level, approximate map pins | 830 |
 
 Every remaining place has exactly one citation, currently attached to `coordinates`.
 That citation alone cannot establish affiliation, an active schedule, or a
-safeguarding process. The seed labels all 1,663 places `active`, but it has no
+safeguarding process. The seed labels all 1,653 places `active`, but it has no
 per-place last-checked date. The public map and exported JSON no longer expose
 that seed status as a verified claim.
 
-The 124 broad-page citations comprise 109 rows citing Plum Village's
+The 50 broad-page citations comprise 45 rows citing Plum Village's
 [monastic centres page](https://plumvillage.org/community/monastic-practice-centres)
-and 15 citing the [White Plum founder page](https://whiteplum.org/founder/).
+and 5 citing the [White Plum founder page](https://whiteplum.org/founder/).
 Those pages do not individually support all the lay groups assigned to them.
 The review queue now flags each for a direct group or institutional listing.
 This is a limitation of our citations, not a claim that any group has doubtful
@@ -40,11 +40,10 @@ For example, the automated client received a 404 from the
 [Sōtōshū Shōbōji page](https://www.sotozen.com/eng/temples/jp/shoboji.html),
 which remains accessible in a browser and in search. Some other sites may behave
 similarly. A failed URL is evidence about this check, not about the group.
-The automated client also received a 404 from AZI's
-[Mulhouse group page](https://www.zen-azi.org/fr/node/436), which opened in
-a browser. The separate domain linked from that AZI page currently presents
-unrelated wellness articles; the directory therefore uses the AZI listing.
-The automated client likewise returned a 404 from Sōtōshū's
+The other automated 404 came from Plum Village UK's
+[Two Rivers Sangha page](https://plumvillage.uk/group/two-rivers-sangha/),
+which remains indexed and available through the site in a browser. The
+automated client likewise returned a 404 from Sōtōshū's
 [Aichi Senmon Nisōdō page](https://www.sotozen.com/ita/temples/jp/shoboji.html),
 which opened in a browser. Its old English path was broken; the official
 Italian-language page is the current preferred link.
@@ -254,9 +253,11 @@ Batch 13 checked current item-level evidence for 15 Plum Village groups, 15 Whit
 
 Batch 14 replaced generic network citations with current local evidence for practice groups in the United Kingdom, Ireland, Sweden, the Netherlands, Brazil, Switzerland, the United States, Venezuela, and Vietnam. The review removed fifteen mapped records whose old organization name, geography, or current operation could not be substantiated, while adding the currently documented Sangha Dōkan and Centro Zen Buppo communities in Venezuela. No record now lacks a preferred URL. The citation audit also stopped treating a teacher’s White Plum membership as proof that the teacher’s organization is institutionally affiliated. Current direct sources reduced the broad-source queue from 197 to 124 records.
 
+Batch 15 reviewed the remaining broad-citation cohorts alongside historic Chan temples in China and two Colombian records. Direct group, monastery, government, and Buddhist-association sources replaced generic citations for Plum Village and White Plum related communities and for Nanhua, Tiantong, Xuedou, Zhenru, Daishinji, and other Chinese heritage temples. Generic Vietnamese Thiền records are no longer classified as Plum Village unless their evidence names that tradition. Putuoshan Puji was removed as a Guanyin pilgrimage temple outside the directory's Zen scope; the former Fundación Zen “Templo Gen To” venue was removed because the organization says activity there ended in 2018. Six additional groups were removed where their own current description documented closure or where current evidence did not support presenting an active public practice place. Two Italian national networks were also removed because city pins would misrepresent them as local venues; the Israeli umbrella record is explicitly described as a national network. The broad-source queue fell from 124 to 50, and every removal remains a scope or current-evidence decision rather than a conduct finding.
+
 ## Next review work
 
-Start with the 2 records whose preferred URL returned 404/410. Then review the 446 `popular`-only citations and 124
+Start with the 2 records whose preferred URL returned 404/410. Then review the 439 `popular`-only citations and 50
 broad-page citations against direct group or institutional pages. For each correction, update
 the canonical seed or raw place data, cite the direct source, and rerun the
 seed and audit. Do not infer misconduct from missing websites or policies.

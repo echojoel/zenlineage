@@ -795,7 +795,7 @@
       "address": "Washington, DC",
       "url": "https://www.skyabovezen.org/",
       "source_url": "https://whiteplum.org/membership-list-public/",
-      "notes": "White Plum member directory associates Susan KoDo Efird with this Washington, DC group. The current group domain resolves, but venue and schedule remain to be confirmed."
+      "notes": "White Plum’s member directory associates teacher Susan KoDo Efird with this Washington, DC group. The group domain resolves, but a current public venue and schedule remain unconfirmed."
     },
     {
       "name": "All Beings Zen Sangha",
@@ -1826,7 +1826,7 @@
       "address": null,
       "url": "https://notraceszendo.com/",
       "source_url": "https://whiteplum.org/membership-list-public/",
-      "notes": "White Plum member Nancy Mujo Baker is associated with this small New York and virtual sitting group. Its former website no longer resolves and current cadence remains unconfirmed."
+      "notes": "Small household and online sitting group associated with White Plum teacher Nancy Mujo Baker. A 2022 profile described weekly household practice; the former group website no longer resolves, so current public access and cadence remain unconfirmed."
     },
     {
       "name": "Zen Community of Staten Island",
@@ -1845,8 +1845,8 @@
       "lineage": "White Plum (Maezumi lineage)",
       "address": null,
       "url": "https://oceanzendo.org/",
-      "source_url": "https://whiteplum.org/membership-list-public/",
-      "notes": "White Plum member Michel Engu Dobbs is associated with Ocean Zendo in New York. The former website no longer resolves and current venue and schedule remain unconfirmed."
+      "source_url": "https://zenpeacemakers.org/membership/affiliate-network/",
+      "notes": "Zen Peacemakers currently lists Ocean Zendo in Bridgehampton. The former group website no longer resolves, so a current public schedule and exact venue remain unconfirmed."
     },
     {
       "name": "Empty Hand Zen Center",
@@ -1987,16 +1987,6 @@
       "url": "https://ysdharma.org/",
       "source_url": "https://diamondsangha.org/resources-2/links/",
       "notes": "Diamond Sangha affiliate; shares Yellow Springs Dharma Center."
-    },
-    {
-      "name": "Interiority Wellness Sangha",
-      "city": "West Chester",
-      "region": "Ohio",
-      "lineage": "Zen Peacemakers",
-      "address": "West Chester, OH",
-      "url": "https://interiority.org/",
-      "source_url": "https://zenpeacemakers.org/membership/affiliate-network/",
-      "notes": "Zen Peacemakers affiliate."
     },
     {
       "name": "Linh Sơn A Di Đà Viện",
@@ -2249,16 +2239,6 @@
       "notes": "SZBA member."
     },
     {
-      "name": "Living Water Zen Community",
-      "city": "San Antonio",
-      "region": "Texas",
-      "lineage": "White Plum (Maezumi lineage)",
-      "address": "San Antonio, TX",
-      "url": "https://livingwaterzen.com/",
-      "source_url": "https://whiteplum.org/membership-list-mobile/user/319/",
-      "notes": "White Plum community founded by Cuca Kosen Montecel in the Robert Jinsen Kennedy lineage. Current local venue and independent schedule remain unverified."
-    },
-    {
       "name": "Chùa Linh-Sơn Austin",
       "city": "Austin",
       "region": "Texas",
@@ -2497,16 +2477,6 @@
       "url": "https://choboji.org/",
       "source_url": "https://zenpeacemakers.org/membership/affiliate-network/",
       "notes": "Rinzai temple; Zen Peacemakers affiliate."
-    },
-    {
-      "name": "Interfaith Enlightenment Center",
-      "city": "Seattle",
-      "region": "Washington",
-      "lineage": "Zen Peacemakers",
-      "address": "Seattle, WA",
-      "url": "https://interfaithenlightenment.org/",
-      "source_url": "https://zenpeacemakers.org/membership/affiliate-network/",
-      "notes": "Zen Peacemakers affiliate."
     },
     {
       "name": "Mt. Adams Zen Buddhist Temple",
