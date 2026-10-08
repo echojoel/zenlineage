@@ -157,6 +157,8 @@ export const SRC_ZEN_EINDHOVEN = "src_zen_eindhoven";
 export const SRC_ZEN_ROTTERDAM = "src_zen_rotterdam";
 export const SRC_MAHA_KARUNA_CHAN = "src_maha_karuna_chan";
 export const SRC_ZEN_HEILBRONN = "src_zen_heilbronn";
+export const SRC_LOTUS_ZEN_CENTRA = "src_lotus_zen_centra_nederland";
+export const SRC_ZEN_CENTER_ATHENS = "src_zen_center_athens";
 
 // ─── UK-specific networks ───────────────────────────────────────────────
 /** Western Chan Fellowship — Chan/Zen UK network (Hsu Yun lineage). */
@@ -338,6 +340,18 @@ export const SRC_KTO_JEONDEUNGSA = "src_kto_jeondeungsa";
  * `sourceExcerpt` of each citation preserves the original source URL so
  * per-entry provenance is auditable. */
 export const SRC_EU_ZEN_RESEARCH = "src_eu_zen_research";
+export const SRC_CH_ZEN_GENEVE = "src_ch_zen_geneve";
+export const SRC_CH_SOTOZEN_DIRECTORY = "src_ch_sotozen_directory";
+export const SRC_CH_ZENDO_AM_FLUSS = "src_ch_zendo_am_fluss";
+export const SRC_CH_KWAN_UM_EUROPE = "src_ch_kwan_um_europe";
+export const SRC_PL_KANNON = "src_pl_kannon";
+export const SRC_SE_ZENGARDEN = "src_se_zengarden";
+export const SRC_SE_STOCKHOLM_ZEN = "src_se_stockholm_zen";
+export const SRC_SE_GOTEBORG_ZEN = "src_se_goteborg_zen";
+export const SRC_SE_LUND_ZEN = "src_se_lund_zen";
+export const SRC_SE_UMEA_ZENGRUPP = "src_se_umea_zengrupp";
+export const SRC_SE_ZENBUDDHISTISKA = "src_se_zenbuddhistiska";
+export const SRC_NO_HAUGESUND_ZEN = "src_no_haugesund_zen";
 export const SRC_ITALY_MONASTEROZEN_DIRECT = "src_italy_monasterozen_direct";
 export const SRC_ITALY_PRACTICAZEN = "src_italy_praticazen";
 export const SRC_ITALY_ZENDOCCIDENTE = "src_italy_zendoccidente";
@@ -485,6 +499,12 @@ export const SRC_WUZU_HUBEI = "src_wuzu_hubei_buddhist";
 export const SRC_YONGQUAN_FUZHOU = "src_yongquan_fuzhou_government";
 export const SRC_YUNMEN_SHAOGUAN = "src_yunmen_shaoguan_government";
 export const SRC_NANHUA_SHAOGUAN = "src_nanhua_shaoguan_government";
+export const SRC_VIETNAMTOURISM = "src_vietnam_national_tourism";
+export const SRC_VISITHUE_TUDAM = "src_visithue_tu_dam";
+export const SRC_BRC_IXOPO = "src_brc_ixopo_official";
+export const SRC_NANHUA_SOUTH_AFRICA = "src_nanhua_south_africa_official";
+export const SRC_WHITEPLUM_MEMBERS = "src_whiteplum_membership";
+export const SRC_ZEN_PEACEMAKERS_AFFILIATES = "src_zen_peacemakers_affiliates";
 export const SRC_TIANTONG_FJDH = "src_tiantong_fjdh";
 export const SRC_XUEDOU_ZHEJIANG = "src_xuedou_zhejiang_buddhist";
 export const SRC_ZHENRU_OFFICIAL = "src_zhenru_chan_training";
@@ -935,6 +955,8 @@ export const TEMPLE_SOURCES: {
     { id: SRC_ZEN_ROTTERDAM, type: "website", title: "Zen Centrum Rotterdam — contact and current program", author: "Zen Centrum Rotterdam", url: "https://www.zenrotterdam.nl/contact", publicationDate: "2026", reliability: "primary" },
     { id: SRC_MAHA_KARUNA_CHAN, type: "website", title: "Maha Karuna Ch’an — local Zen group directory", author: "Maha Karuna Ch’an", url: "https://mahakarunachan.nl/mediteren/lokale-zengroepen/", publicationDate: "2026", reliability: "authoritative" },
     { id: SRC_ZEN_HEILBRONN, type: "website", title: "Zen-Meditationszentrum Heilbronn — current official site", author: "Zen-Meditationszentrum Heilbronn", url: "https://zen-heilbronn.app/", publicationDate: "2026", reliability: "primary" },
+    { id: SRC_LOTUS_ZEN_CENTRA, type: "website", title: "Lotus Zen Centra Nederland — Zen meditation centres and groups", author: "Lotus Zen Centra Nederland", url: "https://www.lotuszencentra.nl/", publicationDate: "2026", reliability: "authoritative" },
+    { id: SRC_ZEN_CENTER_ATHENS, type: "website", title: "Zen Center Athens — current zazen programme and Saikenji practice venue", author: "Zen Center Athens", url: "https://www.zencenterathens.com/en/zen/zazen-practice-programme/", publicationDate: "2026", reliability: "primary" },
     {
       id: SRC_WESTERN_CHAN_FELLOWSHIP,
       type: "website",
@@ -1079,6 +1101,12 @@ export const TEMPLE_SOURCES: {
       publicationDate: "2026",
       reliability: "authoritative",
     },
+    { id: SRC_VIETNAMTOURISM, type: "website", title: "Vietnam National Authority of Tourism — official temple listings", author: "Vietnam National Authority of Tourism", url: "https://vietnamtourism.vn/", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_VISITHUE_TUDAM, type: "website", title: "Visit Huế — Từ Đàm Pagoda heritage and visitor profile", author: "Huế Tourism Authority", url: "https://visithue.vn/chua-tu-dam-co-kinh-giua-long-co-do/?pid=MjI5ODF8Y3NkbGRs0", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_BRC_IXOPO, type: "website", title: "Buddhist Retreat Centre, Ixopo — retreat calendar", author: "Buddhist Retreat Centre, Ixopo", url: "https://www.brcixopo.co.za/summary-list-of-retreats.html", publicationDate: "2026", reliability: "primary" },
+    { id: SRC_NANHUA_SOUTH_AFRICA, type: "website", title: "Fo Guang Shan Nan Hua Temple — visitor information and institutional profile", author: "Fo Guang Shan Nan Hua Temple", url: "https://www.nanhuatemple.org/", publicationDate: "2026", reliability: "primary" },
+    { id: SRC_WHITEPLUM_MEMBERS, type: "website", title: "White Plum Asanga — current public membership roster", author: "White Plum Asanga", url: "https://whiteplum.org/membership-list-public/", publicationDate: "2026", reliability: "authoritative" },
+    { id: SRC_ZEN_PEACEMAKERS_AFFILIATES, type: "website", title: "Zen Peacemakers — current affiliate network roster", author: "Zen Peacemakers International", url: "https://zenpeacemakers.org/membership/affiliate-network/", publicationDate: "2026", reliability: "authoritative" },
     {
       id: SRC_IRIZ_HANAZONO,
       type: "website",
@@ -2633,6 +2661,19 @@ export const TEMPLE_SOURCES: {
     { id: "src_zendo_wuppertal", type: "website", title: "Zendo Wuppertal e.V. — official dojo site", author: "Zendo Wuppertal e.V.", url: "https://www.zendo-wuppertal.de/", publicationDate: "", reliability: "authoritative" },
     { id: "src_zenkreis_kassel", type: "website", title: "Zen-Kreis-Kassel e.V. — official group site", author: "Zen-Kreis-Kassel e.V.", url: "https://www.zen-kreis-kassel.de/", publicationDate: "", reliability: "authoritative" },
 
+    { id: SRC_CH_ZEN_GENEVE, type: "website", title: "Zen Genève — Prieuré Sōtō Zen du Sermon sur la Montagne", author: "Zen Genève", url: "https://www.zen-geneve.ch/", publicationDate: "", reliability: "primary" },
+    { id: SRC_CH_SOTOZEN_DIRECTORY, type: "website", title: "Temple bouddhiste de la tradition zen Sōtō — Swiss temples and groups", author: "Association Zen Sōtō de Suisse", url: "https://zen-soto.ch/", publicationDate: "", reliability: "primary" },
+    { id: SRC_CH_ZENDO_AM_FLUSS, type: "website", title: "Zendo am Fluss — practice information", author: "Zendo am Fluss", url: "https://www.zendoamfluss.ch/", publicationDate: "", reliability: "primary" },
+    { id: SRC_CH_KWAN_UM_EUROPE, type: "website", title: "Kwan Um Zen — European centers directory", author: "Kwan Um School of Zen Europe", url: "https://www.kwanumeurope.org/centers-groups/", publicationDate: "", reliability: "primary" },
+    { id: SRC_PL_KANNON, type: "website", title: "Buddyjska Wspólnota Zen Kannon — local practice centers", author: "Buddyjska Wspólnota Zen Kannon", url: "https://www.kannon.pl/", publicationDate: "", reliability: "primary" },
+    { id: SRC_SE_ZENGARDEN, type: "website", title: "Zengården — Zen practice center", author: "Zengården", url: "https://zentraining.org/", publicationDate: "", reliability: "primary" },
+    { id: SRC_SE_STOCKHOLM_ZEN, type: "website", title: "Stockholm Zen Center — practice information", author: "Stockholm Zen Center", url: "https://stockholmzencenter.se/", publicationDate: "", reliability: "primary" },
+    { id: SRC_SE_GOTEBORG_ZEN, type: "website", title: "Göteborg Zen Center — practice information", author: "Göteborg Zen Center", url: "https://www.goteborgzencenter.se/", publicationDate: "", reliability: "primary" },
+    { id: SRC_SE_LUND_ZEN, type: "website", title: "Lund Zen Center — practice information", author: "Lund Zen Center", url: "https://www.lundzencenter.se/", publicationDate: "", reliability: "primary" },
+    { id: SRC_SE_UMEA_ZENGRUPP, type: "website", title: "Umeå Zengrupp — practice information", author: "Umeå Zengrupp", url: "https://www.zengu.se/", publicationDate: "", reliability: "primary" },
+    { id: SRC_SE_ZENBUDDHISTISKA, type: "website", title: "Zenbuddhistiska Samfundet — centers and practice", author: "Zenbuddhistiska Samfundet", url: "https://www.zazen.se/aboutus_en.php", publicationDate: "", reliability: "primary" },
+    { id: SRC_NO_HAUGESUND_ZEN, type: "website", title: "Haugesund Zen-senter — practice information", author: "Stille Sinn Sangha", url: "https://www.haugesundzensenter.com/", publicationDate: "", reliability: "primary" },
+
 ];
 
 export const SEED_TEMPLES: TempleSeed[] = [
@@ -3003,10 +3044,10 @@ export const SEED_TEMPLES: TempleSeed[] = [
     foundedPrecision: "exact",
     schoolSlug: "lam-te",
     status: "active",
-    sourceId: SRC_WIKIPEDIA,
+    sourceId: SRC_PLUMVILLAGE_MONASTIC,
     sourceExcerpt:
-      "Từ Hiếu (Chùa Từ Hiếu) in Huế, founded 1843; the root temple of Thích Nhất Hạnh, where he was ordained and where he returned in 2018.",
-    url: "https://plumvillage.org/about/thich-nhat-hanh/thich-nhat-hanhs-health/thich-nhat-hanh-returns-to-vietnam",
+      "Plum Village’s official Từ Hiếu page identifies the temple as its Vietnamese root temple. This supports institutional identity and heritage context; no recurring public practice timetable was confirmed (checked 2026-10-08).",
+    url: "https://langmai.org/cong-tam-quan/cac-tu-vien/to-dinh-tu-hieu/",
   },
   {
     slug: "tu-dam-pagoda",
@@ -3022,10 +3063,10 @@ export const SEED_TEMPLES: TempleSeed[] = [
     foundedPrecision: "circa",
     schoolSlug: "lam-te",
     status: "active",
-    sourceId: SRC_WIKIPEDIA,
+    sourceId: SRC_VISITHUE_TUDAM,
     sourceExcerpt:
-      "Từ Đàm (Chùa Từ Đàm) in Huế, a central temple of Vietnamese Lâm Tế; founded in the late 17th century.",
-    url: "https://en.wikipedia.org/wiki/T%E1%BB%AB_%C4%90%C3%A0m_Pagoda",
+      "Huế tourism authority identifies Từ Đàm as a historic Buddhist center and visitor destination; this is heritage/visitor evidence, not a published recurring practice schedule (checked 2026-10-08).",
+    url: "https://visithue.vn/chua-tu-dam-co-kinh-giua-long-co-do/?pid=MjI5ODF8Y3NkbGRs0",
   },
   {
     slug: "truc-lam-dalat",
@@ -3041,10 +3082,10 @@ export const SEED_TEMPLES: TempleSeed[] = [
     foundedPrecision: "exact",
     schoolSlug: "truc-lam",
     status: "active",
-    sourceId: SRC_WIKIPEDIA,
+    sourceId: "src_lamdong_truc_lam",
     sourceExcerpt:
-      "Thiền viện Trúc Lâm Đà Lạt, founded 1994 by Thích Thanh Từ as a modern revival of the indigenous Trúc Lâm Thiền school.",
-    url: "https://en.wikipedia.org/wiki/Tr%C3%BAc_L%C3%A2m_Monastery_of_Da_Lat",
+      "Lâm Đồng provincial tourism authority identifies the monastery, resident monastics, and daily monastic training, and describes it as a visitor destination. No lay public timetable is published (checked 2026-10-08).",
+    url: "https://lamdong.gov.vn/sites/dulich/danh-lam-thang-canh/SitePages/Thien-Vien-Truc-Lam.aspx",
   },
   {
     slug: "vinh-nghiem-pagoda",
@@ -3060,10 +3101,10 @@ export const SEED_TEMPLES: TempleSeed[] = [
     foundedPrecision: "exact",
     schoolSlug: "lam-te",
     status: "active",
-    sourceId: SRC_WIKIPEDIA,
+    sourceId: SRC_VIETNAMTOURISM,
     sourceExcerpt:
-      "Chùa Vĩnh Nghiêm in Ho Chi Minh City, inaugurated 1971; a major northern-style Vietnamese Buddhist temple.",
-    url: "https://en.wikipedia.org/wiki/V%C4%A9nh_Nghi%C3%AAm_Pagoda,_Ho_Chi_Minh_City",
+      "Vietnam National Authority of Tourism identifies the Ho Chi Minh City temple at 339 Nam Kỳ Khởi Nghĩa and describes its Buddhist institutional history and architecture. This is institutional/heritage and visitor evidence, not a recurring public schedule (checked 2026-10-08).",
+    url: "https://vietnamtourism.vn/en/index.php/tourism/items/261",
   },
 
   // ─── Korean Seon ─────────────────────────────────────────────────────
@@ -5825,10 +5866,10 @@ export const SEED_TEMPLES: TempleSeed[] = [
     foundedPrecision: "exact",
     schoolSlug: "chan",
     status: "active",
-    sourceId: SRC_WIKIPEDIA,
+    sourceId: SRC_NANHUA_SOUTH_AFRICA,
     sourceExcerpt:
-      "Nan Hua Temple — Fo Guang Shan's African headquarters and seminary in Bronkhorstspruit; land donated March 1992, construction began October 1992. Largest Buddhist temple and seminary in Africa.",
-    url: "https://www.nanhua.co.za/",
+      "Fo Guang Shan Nan Hua Temple’s official site identifies it as the order’s African administrative and religious center, lists public visiting hours and Sunday tours, and describes retreats and Buddhist functions. Visitor and institutional evidence; the pages reviewed do not establish a recurring public Zen schedule (checked 2026-10-08).",
+    url: "https://www.nanhuatemple.org/",
   },
   {
     slug: "nan-tien-temple",

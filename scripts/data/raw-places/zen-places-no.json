@@ -11,7 +11,8 @@
       "Plum Village Norway: only Sangha of Floating Clouds (Drivende Skyer) Oslo confirmed; no national umbrella site located",
       "Kwan Um School: no Norwegian center listed in Kwan Um Europe directory",
       "Norsk Zen Forbund referenced in prompt - not located as a separate organization; may refer to Sotozenordenen"
-    ]
+    ],
+    "batch28Decision": "Sandnes/Stavanger Zen-senter removed from the current-practice map on 2026-10-08 because the official national Sōtō network explicitly says it is currently paused. This is a status decision, not evidence of closure or misconduct."
   },
   "places": [
     {
@@ -32,7 +33,7 @@
       "address": "Håsteins gate 3, 5160 Laksevåg",
       "url": "https://bergenzensenter.no/",
       "source_url": "https://bergenzensenter.no/",
-      "notes": "U ryu så - Regndråpe Sangha, Sotozen fellowship in Bergen; weekly Thursday zazen 19:30-21:00; affiliated with Sotozenordenen"
+      "notes": "U ryu så - Regndråpe Sangha, Sotozen fellowship in Bergen; weekly Thursday zazen 19:30-21:00; affiliated with Sotozenordenen Direct-source review 2026-10-08: linked organization domain could not be retrieved for content review; current activity not independently established."
     },
     {
       "name": "Haugesund Zen-senter (Stille Sinn Sangha)",
@@ -41,18 +42,8 @@
       "lineage": "Soto Zen",
       "address": null,
       "url": "http://www.haugesundzensenter.com/",
-      "source_url": "https://www.sotozen.no/sotozen-i-norge",
-      "notes": "Affiliated with Den norske Sotozen Buddhistorden; led by Lars-Eivind Haukaas"
-    },
-    {
-      "name": "Sandnes/Stavanger Zen-senter",
-      "city": "Sandnes",
-      "region": "Rogaland",
-      "lineage": "Soto Zen",
-      "address": null,
-      "url": "https://www.sotozen.no/sotozen-i-norge",
-      "source_url": "https://www.sotozen.no/sotozen-i-norge",
-      "notes": "Affiliated with Den norske Sotozen Buddhistorden; led by Chirin (Bente Grønn); currently on pause per sotozen.no"
+      "source_url": "http://www.haugesundzensenter.com/",
+      "notes": "Affiliated with Den norske Sotozen Buddhistorden; led by Lars-Eivind Haukaas Direct-source review 2026-10-08: current organization or network page supports the listed Zen group and its locality; retained only details stated on that page."
     },
     {
       "name": "Tønsberg Zen-gruppe",

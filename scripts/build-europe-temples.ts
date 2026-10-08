@@ -116,6 +116,10 @@ const DUP_PATTERNS: { pattern: RegExp; existingSlug: string }[] = [
     pattern: /thien\s*vien\s*truc\s*lam\s*da\s*lat/i,
     existingSlug: "truc-lam-dalat",
   },
+  {
+    pattern: /thien\s*vien\s*truc\s*lam\s*phung\s*hoang/i,
+    existingSlug: "truc-lam-dalat",
+  },
   // Curated row tu-dam-pagoda already covers this Huế temple under both
   // "Từ Đàm Pagoda" (en) and "Chùa Từ Đàm" (vi).
   {
@@ -538,6 +542,20 @@ function lineageToSchoolSlug(lineage: string): string {
 function pickSourceId(sourceUrl: string, lineage: string): string {
   const u = sourceUrl.toLowerCase();
 
+  // Batch 28: direct Swiss, Polish, Swedish, and Norwegian organization sources.
+  if (u.includes("zen-geneve.ch")) return "src_ch_zen_geneve";
+  if (u.includes("zen-soto.ch")) return "src_ch_sotozen_directory";
+  if (u.includes("zendoamfluss.ch")) return "src_ch_zendo_am_fluss";
+  if (u.includes("kwanumeurope.org")) return "src_ch_kwan_um_europe";
+  if (u.includes("kannon.pl")) return "src_pl_kannon";
+  if (u.includes("zentraining.org")) return "src_se_zengarden";
+  if (u.includes("stockholmzencenter.se")) return "src_se_stockholm_zen";
+  if (u.includes("goteborgzencenter.se")) return "src_se_goteborg_zen";
+  if (u.includes("lundzencenter.se")) return "src_se_lund_zen";
+  if (u.includes("zengu.se")) return "src_se_umea_zengrupp";
+  if (u.includes("zazen.se")) return "src_se_zenbuddhistiska";
+  if (u.includes("haugesundzensenter.com")) return "src_no_haugesund_zen";
+
   // Batch 27: direct Italian and Spanish organization sources.
   if (u.includes("monasterozen.it/centri/")) return "src_italy_monasterozen_direct";
   if (u.includes("praticazen.org/it")) return "src_italy_praticazen";
@@ -556,6 +574,8 @@ function pickSourceId(sourceUrl: string, lineage: string): string {
   if (u.includes("londonfgs.org.uk")) return "src_london_fgs";
 
   // Direct Europe and East Asia sources from the 2026 source refresh.
+  if (u.includes("lotuszencentra.nl")) return "src_lotus_zen_centra_nederland";
+  if (u.includes("zencenterathens.com")) return "src_zen_center_athens";
   if (u.includes("eisenbuch.de")) return "src_eisenbuch_fumonji";
   if (u.includes("zen-vereinigung-berlin.de")) return "src_zenvereinigung_berlin";
   if (u.includes("genjoan.net")) return "src_genjoan_hamburg";
@@ -1090,6 +1110,12 @@ function pickSourceId(sourceUrl: string, lineage: string): string {
   if (u.includes("zen.rinnou.net")) return "src_rinnou";
   if (u.includes("buddhanet.info")) return "src_buddhanet";
   if (u.includes("giacngo.vn")) return "src_giacngo_vn";
+  if (u.includes("vietnamtourism.vn")) return "src_vietnam_national_tourism";
+  if (u.includes("visithue.vn")) return "src_visithue_tu_dam";
+  if (u.includes("nanhuatemple.org")) return "src_nanhua_south_africa_official";
+  if (u.includes("zenpeacemakers.org/membership/affiliate-network")) return "src_zen_peacemakers_affiliates";
+  if (u.includes("whiteplum.org/membership-list-public")) return "src_whiteplum_membership";
+  if (u.includes("brcixopo.co.za")) return "src_brc_ixopo_official";
   if (u.includes("phatgiao.org.vn")) return "src_phatgiao_vn";
   if (u.includes("iriz.hanazono.ac.jp")) return "src_iriz_hanazono";
   if (u.includes("zen-kaisen.ru")) return "src_sando_kaisen";
@@ -1410,7 +1436,6 @@ const MANUAL_COORDS: Record<string, ManualCoord> = {
   // Each of these names a hall on its own site or its network's contact
   // page, while the pin sat on a city centroid — in Sandnes's case 40km
   // inland from the town it is named after.
-  "Sandnes/Stavanger Zen-senter": [58.86627, 5.73077], // Varatun Gård, Varatunhagen 51, 4317 Sandnes
   "Centre Zen Maha Muni Paris": [48.85048, 2.40191], // 31 rue de Buzenval, 75020 — moved from rue de Seine, 6e
   "Zen Gruppe Salzburg": [47.92893, 13.12241], // Yoga Vidya-Zentrum, Zaisberg 7, 5201 Seekirchen am Wallersee
   "Dōjō Zen Mon Kō — Zen México": [19.38189, -99.18912], // Ingres 127, Col. Nonoalco, Benito Juárez, CDMX

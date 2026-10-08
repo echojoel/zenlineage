@@ -30,7 +30,7 @@
       "address": "Balfour 8, Jerusalem, Israel",
       "url": "https://jerusalemzencenter.org/",
       "source_url": "https://jerusalemzencenter.org/",
-      "notes": "Founded 2003; co-founder and teacher Daniel Stambler trained in both Soto and Rinzai traditions in Asia and the West. Lay-led; weekly Sunday evening zazen."
+      "notes": "Official site did not yield accessible current content during review. Name and locality remain in the raw research record, but current institutional identity, venue, and public schedule remain unconfirmed. Checked 2026-10-08."
     },
     {
       "name": "Sanbo-Zen Israel",
@@ -50,7 +50,7 @@
       "address": null,
       "url": "http://www.zenki.com/",
       "source_url": "http://www.zenki.com/index.php?lang=en&page=aboutDanny",
-      "notes": "Layman Soto-Zen teacher Danny Waxman, indoor disciple of Prof. Masunaga Reiho; trained in Japan 1958-1971. Zazen meetings and Zen-Judo/martial-arts sessions in Ramat-Hen, Ramat Gan."
+      "notes": "The linked organization site returned an access error during review; older biographical material does not establish current institutional activity or a public schedule. Checked 2026-10-08."
     },
     {
       "name": "Community of Mindfulness in Israel (Plum Village)",
@@ -67,10 +67,10 @@
       "city": "Hod HaSharon",
       "region": "Central District",
       "lineage": "Kwan Um School of Zen (Korean Seon)",
-      "address": null,
-      "url": "https://www.kwanumeurope.org/centers-groups/",
-      "source_url": "https://en.wikipedia.org/wiki/Kwan_Um_School_of_Zen",
-      "notes": "One of the four Kwan Um groups in Israel listed in the Kwan Um School of Zen Wikipedia article and Kwan Um Europe directory. Standalone website not currently resolving; activity coordinated through the Kwan Um Israel network."
+      "address": "47 Yeshurun, Hod HaSharon, Israel",
+      "url": "https://www.kwanumeurope.org/locations/hasharon-zen-center/",
+      "source_url": "https://www.kwanumeurope.org/locations/hasharon-zen-center/",
+      "notes": "Kwan Um Europe’s Israel directory identifies this current affiliated Zen center and gives 47 Yeshurun, Hod HaSharon. Institutional affiliation and location are established; no current public sitting schedule was confirmed. Checked 2026-10-08."
     },
     {
       "name": "Pardes Hanna Zen Centre (Kwan Um)",
@@ -78,9 +78,9 @@
       "region": "Haifa District",
       "lineage": "Kwan Um School of Zen (Korean Seon)",
       "address": null,
-      "url": "https://www.kwanumeurope.org/centers-groups/",
-      "source_url": "https://en.wikipedia.org/wiki/Kwan_Um_School_of_Zen",
-      "notes": "One of four Israeli Kwan Um groups identified in the Kwan Um School of Zen Wikipedia entry; organisationally part of the Kwan Um Europe & Israel region."
+      "url": "https://www.kwanumeurope.org/locations/pardes-hanna-zen-group/",
+      "source_url": "https://www.kwanumeurope.org/locations/pardes-hanna-zen-group/",
+      "notes": "Kwan Um Europe maintains a dedicated Israel location page for this affiliated Zen group. This establishes institutional affiliation; no current public venue or schedule was confirmed. Checked 2026-10-08."
     },
     {
       "name": "Ramat Gan Zen Group (Kwan Um)",
@@ -90,7 +90,7 @@
       "address": null,
       "url": "https://www.kwanumeurope.org/centers-groups/",
       "source_url": "https://en.wikipedia.org/wiki/Kwan_Um_School_of_Zen",
-      "notes": "Smallest of the Israeli Kwan Um groups per Wikipedia; satellite sitting group in the Tel Aviv metro area associated with the Tel Aviv Zen Center."
+      "notes": "Current Kwan Um Europe Israel directory does not list this group; an older 2010 network report is historical evidence only. Current affiliation, public venue, and schedule remain unresolved. Checked 2026-10-08."
     }
   ]
 }
