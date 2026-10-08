@@ -60,9 +60,9 @@
       "region": "Jeolla-namdo",
       "lineage": "Korean Seon (Jogye Order — Chongnim, 18th district head temple)",
       "address": "1239 Baekyang-ro, Bukha-myeon, Jangseong-gun, Jeollanam-do",
-      "url": "http://www.baekyangsa.com/",
-      "source_url": "https://en.wikipedia.org/wiki/Baegyangsa",
-      "notes": "Native: 白羊寺 / 백양사. 'Goburi Chongnim' (also rendered Baegyang Chongnim). Founded 632. UNESCO Sansa."
+      "url": "https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=104966",
+      "source_url": "https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=104966",
+      "notes": "Native: 白羊寺 / 백양사. Temple and templestay destination; no recurring public Seon practice schedule is established by this visitor listing."
     },
     {
       "name": "Donghwa-sa",
@@ -90,9 +90,9 @@
       "region": "Busan Metropolitan City",
       "lineage": "Korean Seon (Jogye Order — Chongnim, 14th district head temple)",
       "address": "250 Beomeosa-ro, Cheongnyong-dong, Geumjeong-gu, Busan",
-      "url": "http://www.beomeosa.co.kr/",
-      "source_url": "https://en.wikipedia.org/wiki/Beomeosa",
-      "notes": "Native: 梵魚寺 / 범어사. 'Geumjeong Chongnim'. Founded 678 by Uisang. Mt. Geumjeongsan."
+      "url": "https://www.beomeo.kr/about/sub9.php",
+      "source_url": "https://www.beomeo.kr/about/sub5_1.php",
+      "notes": "Native: 梵魚寺 / 범어사. Temple on Mt. Geumjeongsan with Seon culture education; no recurring public practice schedule is listed."
     },
     {
       "name": "Jogye-sa",
@@ -140,9 +140,9 @@
       "region": "Chungcheong-bukdo",
       "lineage": "Korean Seon (Jogye Order — 5th district head temple)",
       "address": "405 Beopjusa-ro, Songnisan-myeon, Boeun-gun, Chungcheongbuk-do",
-      "url": "http://www.beopjusa.org/",
-      "source_url": "https://en.wikipedia.org/wiki/Beopjusa",
-      "notes": "Native: 法住寺 / 법주사. Founded 553. Mt. Songnisan. UNESCO Sansa."
+      "url": "https://beopjusa.org/",
+      "source_url": "https://www.buddhism.or.kr/jongdan/sub1/sub1-9-2-5.php",
+      "notes": "Native: 法住寺 / 법주사. Jogye Order temple on Mt. Songnisan and templestay destination; no recurring public zazen schedule is listed."
     },
     {
       "name": "Magok-sa",
@@ -375,16 +375,6 @@
       "notes": "Native: 東鶴寺 / 동학사. Mt. Gyeryongsan. Notable nuns' monastic college."
     },
     {
-      "name": "Beomeo-sa Geumjeong Seonwon",
-      "city": "Busan",
-      "region": "Busan Metropolitan City",
-      "lineage": "Korean Seon (Jogye Order — Seon meditation hall of Beomeosa)",
-      "address": "250 Beomeosa-ro, Cheongnyong-dong, Geumjeong-gu, Busan",
-      "url": "http://www.beomeosa.co.kr/",
-      "source_url": "https://en.wikipedia.org/wiki/Beomeosa",
-      "notes": "Native: 금정총림 선원 / 金井叢林 禪院. The Seon hall component of Geumjeong Chongnim — central kyolche venue in southeastern Korea."
-    },
-    {
       "name": "Mihwang-sa",
       "city": "Haenam County",
       "region": "Jeolla-namdo",
@@ -411,8 +401,8 @@
       "lineage": "Korean Seon (Jogye Order — historic Seon-Pure Land society site)",
       "address": "145 Baengnyeonsa-gil, Doam-myeon, Gangjin-gun, Jeollanam-do",
       "url": "http://www.baekryunsa.net/",
-      "source_url": "https://en.wikipedia.org/wiki/Baengnyeonsa",
-      "notes": "Native: 白蓮寺 / 백련사. Site of Yose's 13th-c. White Lotus Society; later seat of Cho-ui's Seon-tea revival together with Daeheungsa."
+      "source_url": "http://www.baekryunsa.net/",
+      "notes": "Native: 白蓮寺 / 백련사. The temple's first-party site is available; venue, lineage, and current public practice schedule remain unverified."
     },
     {
       "name": "Hae-un-jeongsa (Tongyeong)",
@@ -423,16 +413,6 @@
       "url": "https://www.templestay.com/",
       "source_url": "https://en.wikipedia.org/wiki/Seongcheol",
       "notes": "Native: 해운정사 / 海雲精舍. Linked to the lineage of Seongcheol; smaller meditation site within Yeongchuk Chongnim sphere."
-    },
-    {
-      "name": "Anguk-sa",
-      "city": "Danyang County",
-      "region": "Chungcheong-bukdo",
-      "lineage": "Cheontae Order — major branch temple",
-      "address": "Sobaeksan, Yeongchun-myeon, Danyang-gun, Chungcheongbuk-do",
-      "url": "http://www.cheontae.org/",
-      "source_url": "https://en.wikipedia.org/wiki/Cheontae",
-      "notes": "Native: 安國寺 / 안국사. Cheontae Order training affiliate near Guinsa."
     },
     {
       "name": "Gwanchok-sa",
@@ -503,16 +483,6 @@
       "url": "http://www.maisantapsa.com/",
       "source_url": "https://en.wikipedia.org/wiki/Tapsa",
       "notes": "Native: 塔寺 / 탑사. Mt. Maisan; small but active practice temple known for stone pagoda complex."
-    },
-    {
-      "name": "Bohyeon-sa",
-      "city": "Yeongcheon",
-      "region": "Gyeongsang-bukdo",
-      "lineage": "Korean Seon (Jogye Order — branch of Eunhaesa)",
-      "address": "Mt. Bohyeonsan, Yeongcheon-si, Gyeongsangbuk-do",
-      "url": "https://www.templestay.com/",
-      "source_url": "https://en.wikipedia.org/wiki/Eunhaesa",
-      "notes": "Native: 普賢寺 / 보현사. Affiliate Seon site under Eunhaesa parish (Mt. Bohyeonsan; not to be confused with North Korea's Bohyeonsa)."
     },
     {
       "name": "Heungguk-sa",

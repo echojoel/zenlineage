@@ -9,21 +9,21 @@ establish a group's current activity, lineage, or safeguarding.
 
 | Check | Result |
 |---|---:|
-| Place records | 1,628 |
-| Distinct preferred URLs checked | 1,341 |
-| URLs returning 2xx/3xx | 1,152 (used by 1,428 records) |
+| Place records | 1,624 |
+| Distinct preferred URLs checked | 1,338 |
+| URLs returning 2xx/3xx | 1,149 (used by 1,425 records) |
 | URLs returning 404/410 | 2 (used by 2 records) |
-| URLs blocked or rate limited | 20 (used by 22 records) |
-| URLs with inconclusive network/server results | 167 (used by 176 records) |
+| URLs blocked or rate limited | 22 (used by 23 records) |
+| URLs with inconclusive network/server results | 165 (used by 174 records) |
 | Records with no preferred URL | 0 |
-| Records with only a `popular`-class citation | 313 |
+| Records with only a `popular`-class citation | 278 |
 | Records needing an item-level check because their sole citation is broad | 45 |
-| Records queued to check first (overlapping signals combined) | 360 |
-| City-level, approximate map pins | 826 |
+| Records queued to check first (overlapping signals combined) | 325 |
+| City-level, approximate map pins | 827 |
 
 Every remaining place has exactly one citation, currently attached to `coordinates`.
 That citation alone cannot establish affiliation, an active schedule, or a
-safeguarding process. The seed labels all 1,628 places `active`, but it has no
+safeguarding process. The seed labels all 1,624 places `active`, but it has no
 per-place last-checked date. The public map and exported JSON no longer expose
 that seed status as a verified claim.
 
@@ -264,9 +264,11 @@ Batch 18 reviewed European groups, an Americas cohort, and 15 Japanese temples. 
 
 Batch 19 reviewed current evidence for practice places in France, the United States, and Asia. Eleven French listings, Vihara Mahavira in Jakarta, and the unsupported Chung Tai Singapore listing were removed after current direct evidence did not substantiate the mapped practice place or Zen affiliation. Current organization pages corrected the La Ciotat, Pine Mountain, Redding, Mt Adams, Wallowa, Plum Blossom, Annapolis, Indonesian, Malaysian, Philippine, and Singapore records. Providence Zen Center and Falaise Verte now use their own current schedules, while Sanzu, Tsz Shan, and Fo Guang Shan New Zealand have narrower descriptions that separate visitor programmes or broad Buddhist identity from a verified recurring Zen schedule. Unconfirmed venues and affiliations remain explicit uncertainties. The priority queue fell from 395 to 360 records and broad citations from 47 to 45.
 
+Batch 20 reviewed German, Japanese, and South Korean records, plus the final three priority records in the Americas. Current direct sources supplied venues, schedules, or narrower visitor-only descriptions for German practice groups, major Japanese temples, and Korean Jogye institutions. The unsupported Furnace Mountain Tübingen record, the Cheontae Anguk-sa listing, an ambiguous Bohyeon-sa record, and a duplicate Beomeo-sa Seonwon pin were removed from the Zen practice map. Daishin Stuttgart was corrected to its current Waiblingen identity. Neumühle is now described as a retreat venue that hosts periodic Zen events rather than as a lineage organization. Sōfuku-ji and Shōfuku-ji in Nagasaki were checked as distinct temples so the city source remains attached to the correct place. The three remaining Americas records retain explicit current-activity and private-venue caveats because no 2026 direct schedule was found. The priority queue fell from 360 to 325 records.
+
 ## Next review work
 
-Start with the 2 records whose preferred URL returned 404/410. Then review the 313 `popular`-only citations and 45
+Start with the 2 records whose preferred URL returned 404/410. Then review the 278 `popular`-only citations and 45
 broad-page citations against direct group or institutional pages. For each correction, update
 the canonical seed or raw place data, cite the direct source, and rerun the
 seed and audit. Do not infer misconduct from missing websites or policies.

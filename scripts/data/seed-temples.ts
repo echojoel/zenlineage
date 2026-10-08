@@ -237,6 +237,29 @@ export const SRC_ZEN_STUDIES_SOCIETY = "src_zen_studies_society";
  * Tenshin (chozen-ji.org), plus Daiyuzenji affiliate (Chicago). */
 export const SRC_CHOZEN_JI = "src_chozen_ji";
 
+// Direct Europe and East Asia sources added for the 2026 temple refresh.
+export const SRC_ZEN_KLOSTER = "src_zen_kloster";
+export const SRC_DAISHIN_ZEN = "src_daishin_zen";
+export const SRC_DAISHIN_ZEN_ULM = "src_daishin_zen_ulm";
+export const SRC_ZENDO_SAAR = "src_zendo_saar";
+export const SRC_ZEN_GEMEINSCHAFT_BERLIN = "src_zen_gemeinschaft_berlin";
+export const SRC_NEUMUEHLE_SAAR = "src_neumuehle_saar";
+export const SRC_ZENDOJO_FREIBURG = "src_zendojo_freiburg";
+export const SRC_HANNYA_KAI = "src_hannya_kai";
+export const SRC_ZEN_DOJO_OFFENBURG = "src_zen_dojo_offenburg";
+export const SRC_SOJIJI_SITE = "src_sojiji_site";
+export const SRC_SHOKOKUJI_SITE = "src_shokokuji_site";
+export const SRC_TENRYUJI_SITE = "src_tenryuji_site";
+export const SRC_TOFUKUJI_SITE = "src_tofukuji_site";
+export const SRC_TOKEIJI_SITE = "src_tokeiji_site";
+export const SRC_ZUIGANJI_SITE = "src_zuiganji_site";
+export const SRC_BAEKDAMSA_TEMPLESTAY = "src_baekdamsa_templestay";
+export const SRC_BAEKYANGSA_VISITKOREA = "src_baekyangsa_visitkorea";
+export const SRC_BEOMEOSA_SITE = "src_beomeosa_site";
+export const SRC_BEOPJUSA_JOGYE = "src_beopjusa_jogye";
+export const SRC_JOGYE_ORDER = "src_jogye_order";
+export const SRC_NAGASAKI_CITY_ZEN = "src_nagasaki_city_zen";
+
 // ─── Catch-all for the long tail of small directory citations ──────────
 /** EU Zen places research bundle — generic citation source for entries
  * surfaced by directories not individually registered above. The
@@ -1879,6 +1902,27 @@ export const TEMPLE_SOURCES: {
     { id: SRC_ERINJI_SITE, type: "website", title: "Erin-ji — zazen and visitor information", author: "Erin-ji", url: "https://erinji.jp/zazen", publicationDate: "", reliability: "authoritative" },
     { id: SRC_FUKUSAI_NAGASAKI, type: "website", title: "Nagasaki official tourism — Fukusai-ji", author: "Nagasaki City", url: "https://www.at-nagasaki.jp/spot/120", publicationDate: "", reliability: "authoritative" },
     { id: SRC_GINKAKUJI_SITE, type: "website", title: "Shōkoku-ji — Ginkaku-ji official site", author: "Shōkoku-ji", url: "https://www.shokoku-ji.jp/en/ginkakuji/", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_ZEN_KLOSTER, type: "website", title: "Zen-Kloster — official site", author: "Zen-Kloster", url: "https://zen-kloster.de/", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_DAISHIN_ZEN, type: "website", title: "Daishin Zen — Zen Orte", author: "Daishin Zen", url: "https://daishinzen.de/zen-orte", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_DAISHIN_ZEN_ULM, type: "website", title: "Daishin Zen Ulm — official site", author: "Daishin Zen Ulm", url: "https://daishin-zen-ulm.de/", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_ZENDO_SAAR, type: "website", title: "Zendo Saar — official site", author: "Zendo Saar", url: "https://zendo-saar.de/", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_ZEN_GEMEINSCHAFT_BERLIN, type: "website", title: "Zen-Gemeinschaft Berlin — official site", author: "Zen-Gemeinschaft Berlin", url: "https://zen-gemeinschaft-berlin.de/", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_NEUMUEHLE_SAAR, type: "website", title: "Neumühle Saar — official site", author: "Neumühle Saar", url: "https://neumuehle-saar.de/", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_ZENDOJO_FREIBURG, type: "website", title: "Zendojo Freiburg — official site", author: "Zendojo Freiburg", url: "https://meditation-zen.org/de/zendojofreiburg", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_HANNYA_KAI, type: "website", title: "Hannya Kai — official site", author: "Hannya Kai", url: "https://hannya-kai.de/", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_ZEN_DOJO_OFFENBURG, type: "website", title: "Zen-Dojo Offenburg — official site", author: "Zen-Dojo Offenburg", url: "https://zen-dojo-offenburg.de/", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_SOJIJI_SITE, type: "website", title: "Sōji-ji — official zazen information", author: "Sōji-ji", url: "https://www.sojiji.jp/en/zazen/", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_SHOKOKUJI_SITE, type: "website", title: "Shōkoku-ji — official history", author: "Shōkoku-ji", url: "https://www.shokoku-ji.jp/en/about/", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_TENRYUJI_SITE, type: "website", title: "Tenryū-ji — official English site", author: "Tenryū-ji", url: "https://www.tenryuji.com/en/index.html", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_TOFUKUJI_SITE, type: "website", title: "Tōfuku-ji — official English visitor guide", author: "Tōfuku-ji", url: "https://tofukuji.jp/guide/tour/en/", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_TOKEIJI_SITE, type: "website", title: "Tōkei-ji — official English site", author: "Tōkei-ji", url: "https://tokeiji.com/en", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_ZUIGANJI_SITE, type: "website", title: "Zuigan-ji — official English site", author: "Zuigan-ji", url: "https://www.zuiganji.or.jp/english/", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_BAEKDAMSA_TEMPLESTAY, type: "website", title: "Korea Templestay — Baekdamsa", author: "Korea Templestay", url: "https://baekdamsa.templestay.com/", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_BAEKYANGSA_VISITKOREA, type: "website", title: "VisitKorea — Baekyangsa", author: "Korea Tourism Organization", url: "https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=104966", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_BEOMEOSA_SITE, type: "website", title: "Beomeosa — official temple guide", author: "Beomeosa", url: "https://www.beomeo.kr/about/sub9.php", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_BEOPJUSA_JOGYE, type: "website", title: "Beopjusa — official site", author: "Beopjusa", url: "https://beopjusa.org/", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_JOGYE_ORDER, type: "website", title: "Jogye Order — Beopjusa directory", author: "Jogye Order of Korean Buddhism", url: "https://www.buddhism.or.kr/jongdan/sub1/sub1-9-2-5.php", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_NAGASAKI_CITY_ZEN, type: "website", title: "Nagasaki City — official temple information", author: "Nagasaki City", url: "https://en.at-nagasaki.jp/spot/96", publicationDate: "", reliability: "authoritative" },
     { id: SRC_JOCHIJI_SITE, type: "website", title: "Jōchi-ji — official visitor information", author: "Jōchi-ji", url: "https://jochiji.com/en/en", publicationDate: "", reliability: "authoritative" },
     { id: SRC_KENNINJI_SITE, type: "website", title: "Kennin-ji — zazen experience", author: "Kennin-ji", url: "https://www.kenninji.jp/experience/", publicationDate: "", reliability: "authoritative" },
     { id: SRC_HOFUKUJI_OKAYAMA, type: "website", title: "Okayama official tourism — Hōfuku-ji", author: "Okayama Prefecture Tourism Federation", url: "https://www.okayama-japan.jp/en/spot/10606", publicationDate: "", reliability: "authoritative" },
@@ -2193,10 +2237,10 @@ export const SEED_TEMPLES: TempleSeed[] = [
     schoolSlug: "soto",
     founderSlug: "keizan-jokin",
     status: "active",
-    sourceId: SRC_WIKIPEDIA,
+    sourceId: SRC_SOJIJI_SITE,
     sourceExcerpt:
-      "Sōji-ji (總持寺) is one of two main Sōtō Zen temples, together with Eihei-ji. Founded 1321 by Keizan Jōkin; moved to Tsurumi, Yokohama in 1911 after fire.",
-    url: "https://www.sojiji.jp/",
+      "Sōji-ji is a Sōtō head temple in Tsurumi, Yokohama. Its official site lists monthly Saturday zazen for visitors (9:00–12:00; ¥200).",
+    url: "https://www.sojiji.jp/en/zazen/",
   },
 
   // ─── Japanese Rinzai — the main Kyoto head-temples ────────────────────
@@ -2252,10 +2296,10 @@ export const SEED_TEMPLES: TempleSeed[] = [
     foundedPrecision: "exact",
     schoolSlug: "rinzai",
     status: "active",
-    sourceId: SRC_WIKIPEDIA,
+    sourceId: SRC_TOFUKUJI_SITE,
     sourceExcerpt:
-      "Tōfuku-ji (東福寺) is head temple of the Tōfuku-ji branch of Rinzai Zen, founded 1236 by Enni Ben'en.",
-    url: "https://tofukuji.jp/",
+      "Tōfuku-ji is a Rinzai Zen temple in Kyoto. Official information covers visitor access and events; no recurring public zazen schedule is listed.",
+    url: "https://tofukuji.jp/guide/tour/en/",
   },
   {
     slug: "nanzen-ji",
@@ -2309,10 +2353,10 @@ export const SEED_TEMPLES: TempleSeed[] = [
     foundedPrecision: "exact",
     schoolSlug: "rinzai",
     status: "active",
-    sourceId: SRC_WIKIPEDIA,
+    sourceId: SRC_TENRYUJI_SITE,
     sourceExcerpt:
-      "Tenryū-ji (天龍寺) is the head temple of the Tenryū-ji branch of Rinzai Zen, founded 1339 by Ashikaga Takauji; first of the Kyoto Gozan.",
-    url: "https://www.tenryuji.com/",
+      "Tenryū-ji is a Rinzai Zen temple in Kyoto. The official site provides visitor information; it does not list a public sitting schedule.",
+    url: "https://www.tenryuji.com/en/index.html",
   },
   {
     slug: "shokoku-ji",
@@ -2328,10 +2372,10 @@ export const SEED_TEMPLES: TempleSeed[] = [
     foundedPrecision: "exact",
     schoolSlug: "rinzai",
     status: "active",
-    sourceId: SRC_WIKIPEDIA,
+    sourceId: SRC_SHOKOKUJI_SITE,
     sourceExcerpt:
-      "Shōkoku-ji (相国寺) is head temple of the Shōkoku-ji branch of Rinzai Zen, founded 1382 by Ashikaga Yoshimitsu with Musō Soseki.",
-    url: "https://www.shokoku-ji.jp/",
+      "Shōkoku-ji is the head temple of its Rinzai branch in Kyoto. Official information describes access for special exhibitions; no recurring public zazen schedule is listed.",
+    url: "https://www.shokoku-ji.jp/en/about/",
   },
   {
     slug: "daishu-in",
@@ -2687,10 +2731,10 @@ export const SEED_TEMPLES: TempleSeed[] = [
     foundedPrecision: "exact",
     schoolSlug: "jogye",
     status: "active",
-    sourceId: SRC_WIKIPEDIA,
+    sourceId: SRC_BEOMEOSA_SITE,
     sourceExcerpt:
-      "Beomeo-sa (범어사) on Mount Geumjeong in Busan, founded 678 by Uisang; one of Korea's most important Seon training centers.",
-    url: "https://www.beomeo.kr/",
+      "Beomeo-sa (범어사) is a Jogye temple on Mt. Geumjeongsan in Busan. Its official site describes Seon culture education and heritage; no recurring public practice schedule is listed.",
+    url: "https://www.beomeo.kr/about/sub9.php",
   },
   {
     slug: "jogye-sa-seoul",
@@ -3205,10 +3249,10 @@ export const SEED_TEMPLES: TempleSeed[] = [
     foundedPrecision: "exact",
     schoolSlug: "obaku",
     status: "active",
-    sourceId: SRC_WIKIPEDIA,
+    sourceId: SRC_NAGASAKI_CITY_ZEN,
     sourceExcerpt:
-      "Sōfuku-ji (崇福寺), Nagasaki — an Ōbaku Zen temple built in 1629 by the Chinese monk Chaoran as the family temple of the Fuzhou community in Nagasaki. Its Daiippōmon and Daiyūhōden are National Treasures.",
-    url: "https://en.wikipedia.org/wiki/Sofuku-ji_(Nagasaki)",
+      "Nagasaki City's tourism authority identifies Sōfuku-ji (崇福寺) as the Chinese temple founded in 1629 by the monk Chaoran and publishes its current address, visitor hours, and admission. No recurring public Zen practice schedule is listed.",
+    url: "https://en.at-nagasaki.jp/spot/96",
     geoPrecision: "exact",
   },
   {
@@ -3291,10 +3335,10 @@ export const SEED_TEMPLES: TempleSeed[] = [
     foundedPrecision: "exact",
     schoolSlug: "rinzai",
     status: "active",
-    sourceId: SRC_WIKIPEDIA,
+    sourceId: SRC_TOKEIJI_SITE,
     sourceExcerpt:
-      "Matsugaoka Tōkei-ji (松岡山東慶寺), Kita-Kamakura — a Rinzai temple of the Engaku-ji branch, founded 1285 as a convent. Known as the kakekomi-dera, the refuge where a woman could obtain a divorce by taking ordination.",
-    url: "https://en.wikipedia.org/wiki/T%C5%8Dkei-ji",
+      "Tōkei-ji is a Rinzai Engaku-ji branch temple in Kamakura. Its official site provides visitor and worship information; no public zazen schedule is listed.",
+    url: "https://tokeiji.com/en",
     geoPrecision: "exact",
   },
   {
@@ -3351,10 +3395,10 @@ export const SEED_TEMPLES: TempleSeed[] = [
     foundedPrecision: "circa",
     schoolSlug: "rinzai",
     status: "active",
-    sourceId: SRC_WIKIPEDIA,
+    sourceId: SRC_ZUIGANJI_SITE,
     sourceExcerpt:
-      "Zuigan-ji (瑞巌寺), Matsushima, Miyagi — a Rinzai temple of the Myōshin-ji branch, rebuilt by Date Masamune in 1609. Its Main Hall and kuri are National Treasures.",
-    url: "https://en.wikipedia.org/wiki/Zuigan-ji",
+      "Zuigan-ji is a Rinzai Myōshin-ji branch temple in Matsushima. Its official English site lists visitor hours and admission; no public zazen schedule is listed.",
+    url: "https://www.zuiganji.or.jp/english/",
     geoPrecision: "exact",
   },
   {
@@ -3573,10 +3617,10 @@ export const SEED_TEMPLES: TempleSeed[] = [
     foundedPrecision: "circa",
     schoolSlug: "jogye",
     status: "active",
-    sourceId: SRC_WIKIPEDIA,
+    sourceId: SRC_BAEKDAMSA_TEMPLESTAY,
     sourceExcerpt:
-      "Baekdamsa (백담사), Inje County, Gangwon — a Seoraksan temple of the Jogye Order, where the monk-poet and independence leader Han Yong-un (Manhae) wrote and practised.",
-    url: "https://en.wikipedia.org/wiki/Baekdamsa",
+      "Baekdamsa is a Jogye Seon training temple and templestay destination in Inje County. The current templestay page lists programs; no weekly public practice schedule is listed.",
+    url: "https://baekdamsa.templestay.com/",
     geoPrecision: "exact",
   },
   {

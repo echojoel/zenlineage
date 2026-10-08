@@ -529,6 +529,35 @@ function lineageToSchoolSlug(lineage: string): string {
 function pickSourceId(sourceUrl: string, lineage: string): string {
   const u = sourceUrl.toLowerCase();
 
+  // Direct Europe and East Asia sources from the 2026 source refresh.
+  if (u.includes("zen-kloster.de")) return "src_zen_kloster";
+  if (u.includes("daishinzen.de")) return "src_daishin_zen";
+  if (u.includes("zendo-saar.de")) return "src_zendo_saar";
+  if (u.includes("daishin-zen-ulm.de")) return "src_daishin_zen_ulm";
+  if (u.includes("zen-gemeinschaft-berlin.de")) return "src_zen_gemeinschaft_berlin";
+  if (u.includes("neumuehle-saar.de")) return "src_neumuehle_saar";
+  if (u.includes("meditation-zen.org/de/zendojofreiburg")) return "src_zendojo_freiburg";
+  if (u.includes("hannya-kai.de")) return "src_hannya_kai";
+  if (u.includes("zen-dojo-offenburg.de")) return "src_zen_dojo_offenburg";
+  if (u.includes("onedropzen.org/community/hokuozan")) return "src_onedropzen";
+  if (u.includes("sojiji.jp")) return "src_sojiji_site";
+  if (u.includes("en.at-nagasaki.jp/spot/96")) return "src_nagasaki_city_zen";
+  if (u.includes("at-nagasaki.jp")) return "src_fukusai_nagasaki_tourism";
+  if (u.includes("sojiji.jp/en/zazen")) return "src_sojiji_site";
+  if (u.includes("shokoku-ji.jp/en/ginkakuji")) return "src_ginkakuji_site";
+  if (u.includes("shokoku-ji.jp/en/about")) return "src_shokokuji_site";
+  if (u.includes("shokoku-ji.jp")) return "src_shokokuji_site";
+  if (u.includes("tenryuji.com")) return "src_tenryuji_site";
+  if (u.includes("tofukuji.jp")) return "src_tofukuji_site";
+  if (u.includes("tokeiji.com")) return "src_tokeiji_site";
+  if (u.includes("zuiganji.or.jp")) return "src_zuiganji_site";
+  if (u.includes("baekdamsa.templestay.com")) return "src_baekdamsa_templestay";
+  if (u.includes("visitkorea.or.kr") && (u.includes("vcontsid=104966") || u.includes("baekyangsa"))) return "src_baekyangsa_visitkorea";
+  if (u.includes("beomeo.kr/about/sub9.php")) return "src_beomeosa_site";
+  if (u.includes("beopjusa.org") || (u.includes("jogye") && u.includes("beopjusa"))) return "src_beopjusa_jogye";
+  if (u.includes("buddhism.or.kr/jongdan/sub1/sub1-9-2-5.php")) return "src_jogye_order";
+  if (u.includes("buddhismus-deutschland.de") && u.includes("hi-gi")) return "src_dbu";
+
   if (u.includes("dojozenlaciotatceyreste.blogspot.com/p/dojo-zen-de-ceyreste-et-la-ciotat.html"))
     return "src_dojo_zen_laciotat_blog";
   if (u.includes("pinemtnbuddhisttemple.org"))

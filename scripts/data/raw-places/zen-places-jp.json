@@ -57,9 +57,9 @@
       "region": "Kyoto Prefecture",
       "lineage": "Rinzai-shū Tōfuku-ji-ha",
       "address": "15-778 Honmachi, Higashiyama-ku, Kyoto-shi, Kyoto 605-0981, Japan",
-      "url": "https://tofukuji.jp/",
-      "source_url": "https://zen.rinnou.net/head_temples/04tofuku.html",
-      "notes": "Headquarters of the Tōfuku-ji branch of Rinzai Zen in southeastern Kyoto, renowned for its large monastic compound and autumn maple valley used for zazen retreats."
+      "url": "https://tofukuji.jp/guide/tour/en/",
+      "source_url": "https://tofukuji.jp/guide/tour/en/",
+      "notes": "Rinzai Zen temple in Kyoto with visitor information; no recurring public zazen schedule was found."
     },
     {
       "name": "Tenryū-ji",
@@ -67,9 +67,9 @@
       "region": "Kyoto Prefecture",
       "lineage": "Rinzai-shū Tenryū-ji-ha",
       "address": "68 Saga Tenryuji Susukinobabacho, Ukyo-ku, Kyoto-shi, Kyoto 616-8385, Japan",
-      "url": "http://www.tenryuji.com/en/",
-      "source_url": "https://zen.rinnou.net/head_temples/03tenryu.html",
-      "notes": "Head temple of the Tenryū-ji branch, founded in 1339 by Ashikaga Takauji and Musō Soseki; UNESCO World Heritage site with regular Zen meditation programs."
+      "url": "https://www.tenryuji.com/en/index.html",
+      "source_url": "https://www.tenryuji.com/en/index.html",
+      "notes": "Rinzai Zen temple in Kyoto and UNESCO World Heritage site; current official information covers visits, with no public sitting schedule listed."
     },
     {
       "name": "Shōkoku-ji",
@@ -77,9 +77,9 @@
       "region": "Kyoto Prefecture",
       "lineage": "Rinzai-shū Shōkoku-ji-ha",
       "address": "Imadegawa-dori, Karasuma Higashi-iru, Kamigyo-ku, Kyoto 602-0898, Japan",
-      "url": "https://www.shokoku-ji.jp/en/",
-      "source_url": "https://zen.rinnou.net/head_temples/04shokoku.html",
-      "notes": "Third of the Kyoto Five Mountain temples and head of the Shōkoku-ji branch, established in 1382 by Ashikaga Yoshimitsu; maintains zazen and monastic training halls."
+      "url": "https://www.shokoku-ji.jp/en/about/",
+      "source_url": "https://www.shokoku-ji.jp/en/about/",
+      "notes": "Head temple of the Rinzai Shōkoku-ji branch in Kyoto. Official information describes access for special exhibitions; no recurring public zazen schedule was found."
     },
     {
       "name": "Eigen-ji",

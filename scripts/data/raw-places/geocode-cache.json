@@ -5721,5 +5721,13 @@
   "sg:1 Punggol Place, Singapore 828844, Singapore": [
     1.4067429,
     103.9055171
+  ],
+  "de:Waiblingen, Baden-Württemberg, Germany": [
+    48.8325659,
+    9.3163822
+  ],
+  "de:Kiel, Schleswig-Holstein, Germany": [
+    54.3227085,
+    10.135555
   ]
 }
