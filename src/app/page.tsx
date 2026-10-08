@@ -6,22 +6,22 @@ import fs from "fs";
 import path from "path";
 
 export const metadata: Metadata = {
-  title: "Zen Lineage",
+  title: { absolute: "Zen Buddhist Lineage & Masters | Zen Lineage" },
   description:
-    "An interactive encyclopedia of Zen Buddhism — lineage explorer, masters, schools, and teachings across 2,500 years of Chan and Zen history.",
+    "Explore Zen Buddhist masters, teacher–student lineages, schools, koans, and sūtras across the histories of Chan, Sŏn, Thiền, and Zen.",
   alternates: { canonical: "https://zenlineage.org" },
   openGraph: {
-    title: "Zen Lineage",
+    title: "Zen Buddhist Lineage & Masters | Zen Lineage",
     description:
-      "An interactive encyclopedia of Zen Buddhism — lineage explorer, masters, schools, and teachings across 2,500 years of Chan and Zen history.",
+      "Explore Zen Buddhist masters, teacher–student lineages, schools, koans, and sūtras across the histories of Chan, Sŏn, Thiền, and Zen.",
     url: "https://zenlineage.org",
     type: "website",
   },
   twitter: {
     card: "summary",
-    title: "Zen Lineage",
+    title: "Zen Buddhist Lineage & Masters | Zen Lineage",
     description:
-      "An interactive encyclopedia of Zen Buddhism across 2,500 years of Chan and Zen history.",
+      "Explore Zen Buddhist masters, lineages, schools, koans, and sūtras.",
   },
 };
 import { sql, eq, and, inArray } from "drizzle-orm";
@@ -225,6 +225,19 @@ export default async function Home() {
       >
         ZEN LINEAGE
       </h1>
+
+      <p
+        style={{
+          maxWidth: "35rem",
+          marginBottom: "1.75rem",
+          fontFamily: "var(--font-cormorant), Georgia, serif",
+          fontSize: "1.2rem",
+          lineHeight: 1.4,
+          color: "var(--ink-light)",
+        }}
+      >
+        Explore Zen Buddhist masters, schools, teachings, and the lineages that connect them.
+      </p>
 
       {/* Divider */}
       <div

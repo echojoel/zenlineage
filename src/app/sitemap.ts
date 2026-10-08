@@ -11,18 +11,13 @@ import {
 } from "@/db/schema";
 import { SCHOOL_PRACTICE_TEACHINGS } from "@/lib/practice-instructions";
 import { countryToSlug } from "@/lib/seo/country-slug";
+import { getSutraRegistry } from "@/lib/sutra-registry";
 
 export const dynamic = "force-static";
 
 const BASE_URL = "https://zenlineage.org";
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  // Single timestamp for the whole sitemap — the seed-data-is-truth
-  // pipeline rebuilds the DB on every deploy, so per-row mtimes don't
-  // correspond to real content edits. Build time is the most honest
-  // signal we can give crawlers.
-  const lastModified = new Date();
-
   const [allMasters, allSchools, allTeachings] = await Promise.all([
     db.select({ slug: masters.slug }).from(masters).where(eq(masters.published, true)),
     db.select({ id: schools.id, slug: schools.slug }).from(schools),
@@ -50,29 +45,34 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       : new Set<string>();
 
   const staticPages: MetadataRoute.Sitemap = [
-    { url: BASE_URL, lastModified, changeFrequency: "weekly", priority: 1.0 },
-    { url: `${BASE_URL}/masters`, lastModified, changeFrequency: "weekly", priority: 0.9 },
-    { url: `${BASE_URL}/schools`, lastModified, changeFrequency: "weekly", priority: 0.9 },
-    { url: `${BASE_URL}/lineage`, lastModified, changeFrequency: "weekly", priority: 0.9 },
-    { url: `${BASE_URL}/proverbs`, lastModified, changeFrequency: "weekly", priority: 0.8 },
-    { url: `${BASE_URL}/practice`, lastModified, changeFrequency: "weekly", priority: 0.8 },
-    { url: `${BASE_URL}/glossary`, lastModified, changeFrequency: "weekly", priority: 0.8 },
-    { url: `${BASE_URL}/timeline`, lastModified, changeFrequency: "monthly", priority: 0.8 },
-    { url: `${BASE_URL}/about`, lastModified, changeFrequency: "monthly", priority: 0.7 },
-  ];
+    "",
+    "/masters",
+    "/schools",
+    "/lineage",
+    "/lineage/provenance",
+    "/proverbs",
+    "/practice",
+    "/glossary",
+    "/timeline",
+    "/about",
+    "/chan",
+    "/seon",
+    "/thien",
+    "/zen",
+    "/sutras",
+    "/sutras/how-to-chant",
+  ].map((path) => ({ url: `${BASE_URL}${path}` }));
+
+  const sutraPages: MetadataRoute.Sitemap = getSutraRegistry().map((sutra) => ({
+    url: `${BASE_URL}/sutras/${sutra.slug}`,
+  }));
 
   const masterPages: MetadataRoute.Sitemap = allMasters.map((m) => ({
     url: `${BASE_URL}/masters/${m.slug}`,
-    lastModified,
-    changeFrequency: "monthly",
-    priority: 0.6,
   }));
 
   const schoolPages: MetadataRoute.Sitemap = allSchools.map((s: { id: string; slug: string }) => ({
     url: `${BASE_URL}/schools/${s.slug}`,
-    lastModified,
-    changeFrequency: "monthly",
-    priority: 0.7,
   }));
 
   // Per-school practice pages exist only when a school has either at
@@ -96,26 +96,17 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     )
     .map((s) => ({
       url: `${BASE_URL}/practice/${s.slug}`,
-      lastModified,
-      changeFrequency: "monthly",
-      priority: 0.7,
     }));
 
   const teachingPages: MetadataRoute.Sitemap = allTeachings
     .filter((t) => citedTeachingIds.has(t.id))
     .map((t) => ({
       url: `${BASE_URL}/teachings/${t.slug}`,
-      lastModified,
-      changeFrequency: "monthly",
-      priority: 0.6,
     }));
 
   // Per-master lineage SSR landings (/lineage/[slug]). One per master.
   const lineagePages: MetadataRoute.Sitemap = allMasters.map((m) => ({
     url: `${BASE_URL}/lineage/${m.slug}`,
-    lastModified,
-    changeFrequency: "monthly",
-    priority: 0.55,
   }));
 
   // Per-country temple landings.
@@ -128,9 +119,6 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     .filter((c): c is string => Boolean(c) && (c as string).trim().length > 0)
     .map((c) => ({
       url: `${BASE_URL}/practice/by-country/${countryToSlug(c)}`,
-      lastModified,
-      changeFrequency: "monthly",
-      priority: 0.65,
     }));
 
   // Per-theme proverb landings.
@@ -139,13 +127,11 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     .from(themes);
   const themePages: MetadataRoute.Sitemap = allThemes.map((t) => ({
     url: `${BASE_URL}/proverbs/themes/${t.slug}`,
-    lastModified,
-    changeFrequency: "monthly",
-    priority: 0.6,
   }));
 
   return [
     ...staticPages,
+    ...sutraPages,
     ...masterPages,
     ...schoolPages,
     ...practiceSchoolPages,

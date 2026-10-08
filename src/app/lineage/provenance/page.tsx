@@ -4,9 +4,17 @@ import path from "path";
 import Link from "@/components/Link";
 
 export const metadata: Metadata = {
-  title: "Provenance — Zen Lineage",
+  title: "Lineage source evidence",
   description:
-    "Every transmission on this site grouped by source quality.",
+    "Explore the sources behind Zen Lineage's teacher–student connections, grouped by the strength of the recorded evidence.",
+  alternates: { canonical: "https://zenlineage.org/lineage/provenance" },
+  openGraph: {
+    title: "Lineage source evidence — Zen Lineage",
+    description:
+      "Explore the sources behind Zen Lineage's teacher–student connections, grouped by the strength of the recorded evidence.",
+    url: "https://zenlineage.org/lineage/provenance",
+    type: "website",
+  },
 };
 
 // ---------------------------------------------------------------------------
