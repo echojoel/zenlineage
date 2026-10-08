@@ -598,6 +598,18 @@ function pickSourceId(sourceUrl: string, lineage: string): string {
   if (u.includes("bonzazen.wordpress.com")) return "src_bonzazen_site";
   if (u.includes("liste_sangha_franco-08-06-2025.pdf"))
     return "src_french_pv_sanghas_2025";
+  if (u.includes("zensangha.be")) return "src_zen_sangha_belgium";
+  if (u.includes("meetup.com/zazen-copenhagen")) return "src_big_heart_copenhagen";
+  if (u.includes("zenireland.com")) return "src_earth_sky_zen";
+  if (u.includes("buddhism.be/nl/centresflandres-fr/zen-dojo-turnhout"))
+    return "src_turnhout_bbu";
+  if (u.includes("zen-deshimaru.com.ar/dojo-zen-de-montevideo"))
+    return "src_montevideo_kosen";
+  if (u.includes("wkup.org/meetings/")) return "src_wake_up_directory";
+  if (u.includes("intersein.de/gemeinschaften")) return "src_intersein_germany";
+  if (u.includes("riviereducoeur.webnode.fr")) return "src_riviere_coeur";
+  if (u.includes("contact79094.wixsite.com/sanghadelille"))
+    return "src_hauts_france_pv";
 
   // ── North-American sect umbrellas ───────────────────────────────────
   if (u.includes("szba.org")) return "src_szba";
@@ -730,6 +742,15 @@ const MANUAL_COORDS: Record<string, ManualCoord> = {
   "Empty Hand Zen Center": [40.9105253, -73.7820689], // 45 Lawton Street, New Rochelle
   "Pamsula Zen Center": [41.6666007, -91.5204745], // Iowa City Zen Center, 1025 Fairchild Street
   "Fleurs d’ajoncs (formerly Sangha 53, Mayenne)": [48.1507819, -0.6491274, "city"], // Mayenne; 2025 directory gives department, no venue
+  "Zen Sangha — local group Antwerpen": [51.2217328, 4.4153261],
+  "Zen Sangha — local group Brussel/Bruxelles": [50.8267573, 4.3535380],
+  "Zen Sangha — local group Brugge": [51.2139090, 3.2432101],
+  "Zen Sangha — local group Mol": [51.1855336, 5.1123716],
+  "Zen Sangha — local group Jodoigne": [50.7017700, 4.8239556],
+  "Wake Up Wien": [48.2092536, 16.3811241, "city"], // OSM resolves Biberstraße, not the unit doorway
+  "Big Heart Zen Copenhagen": [55.6469240, 12.5553160],
+  "Earth+Sky Zen — Dublin Dojo": [53.3590102, -6.2619679, "city"], // OSM resolves Gardiner Street, not number 1
+  "Sangha Cercle des Montagnes (Crolles)": [45.2840499, 5.8825027], // MJC de Crolles
   // These sources identify the current city or street, but OSM does not
   // resolve a specific entrance for the published place.
   "Green River Zen Center": [42.472974, -72.5832895, "city"],

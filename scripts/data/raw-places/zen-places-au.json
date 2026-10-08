@@ -347,10 +347,10 @@
       "city": "Melbourne",
       "region": "VIC",
       "lineage": "Plum Village (Thich Nhat Hanh)",
-      "address": null,
-      "url": "https://wkup.org/",
-      "source_url": "https://en.nhapluu.org/",
-      "notes": "Plum Village Wake Up sangha; meets online Thursdays 7-8:15pm with occasional in-person events. Lay sangha under Nhap Luu monastic guidance."
+      "address": "Collins Street, West Melbourne VIC 3003, Australia",
+      "url": "https://wkup.org/meetings/wake-up-melbourne/",
+      "source_url": "https://wkup.org/meetings/wake-up-melbourne/",
+      "notes": "The official Wake Up listing, updated May 2025, lists Wednesday 18:00–19:30 in-person practice and asks visitors to contact the group for the exact street address."
     },
     {
       "name": "Wake Up Sydney",
@@ -359,8 +359,8 @@
       "lineage": "Plum Village (Thich Nhat Hanh)",
       "address": "90 Church St, Camperdown NSW 2050, Australia",
       "url": "https://wkup.org/meetings/wake-up-sydney/",
-      "source_url": "https://wkup.org/sangha-of-the-month/wake-up-sydney/",
-      "notes": "Wake Up sangha for young adults in Sydney practicing mindfulness in the Plum Village tradition; meets in person on the 1st and 3rd Sunday from 5:00–7:00 p.m. at the Buddhist Library, 90 Church Street, Camperdown, sharing space with all-ages sister sangha Lotus Buds. Group began after Plum Village monastics encouraged local practitioners on retreat to form an Australian Wake Up community."
+      "source_url": "https://wkup.org/meetings/wake-up-sydney/",
+      "notes": "The official Wake Up listing, updated May 2025, lists first- and third-Sunday in-person practice from 17:00–19:00 at this address."
     }
   ]
 }

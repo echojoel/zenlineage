@@ -311,6 +311,17 @@ export const SRC_PLUMLINE = "src_plumline_directory";
 export const SRC_INTERBEING_DENMARK = "src_interbeing_denmark";
 export const SRC_BONZAZEN_SITE = "src_bonzazen_site";
 export const SRC_FRENCH_PV_SANGHAS_2025 = "src_french_pv_sanghas_2025";
+export const SRC_ZEN_SANGHA_BELGIUM = "src_zen_sangha_belgium";
+export const SRC_BIG_HEART_COPENHAGEN = "src_big_heart_copenhagen";
+export const SRC_DBU_BUDDHAWEG = "src_dbu_buddhaweg_solingen";
+export const SRC_OFFENER_KREIS_FREIBURG = "src_offener_kreis_freiburg";
+export const SRC_EARTH_SKY_ZEN = "src_earth_sky_zen";
+export const SRC_TURNHOUT_BBU = "src_turnhout_bbu";
+export const SRC_MONTEVIDEO_KOSEN = "src_montevideo_kosen";
+export const SRC_WAKE_UP_DIRECTORY = "src_wake_up_directory";
+export const SRC_INTERSEIN_GERMANY = "src_intersein_germany";
+export const SRC_RIVIERE_COEUR = "src_riviere_coeur";
+export const SRC_HAUTS_FRANCE_PV = "src_hauts_france_pv";
 
 /** Global Zen practice-centre research bundle — fallback citation for the
  * Gemini Deep Research 2026-05 ingest where the row's primary directory
@@ -1352,6 +1363,39 @@ export const TEMPLE_SOURCES: {
     },
     {
       id: SRC_FRENCH_PV_SANGHAS_2025, type: "document", title: "French-speaking Plum Village sanghas — directory, 8 June 2025", author: "Réseau des Sanghas Francophones du Village des Pruniers", url: "https://sanghasfrancophonespruniers.wordpress.com/wp-content/uploads/2025/06/liste_sangha_franco-08-06-2025.pdf", publicationDate: "2025-06-08", reliability: "authoritative",
+    },
+    {
+      id: SRC_ZEN_SANGHA_BELGIUM, type: "website", title: "Zen Sangha Belgium — local groups and lineage", author: "Zen Sangha Belgium", url: "https://www.zensangha.be/", publicationDate: "", reliability: "authoritative",
+    },
+    {
+      id: SRC_BIG_HEART_COPENHAGEN, type: "website", title: "Big Heart Zen Copenhagen — practice group", author: "Big Heart Zen Copenhagen", url: "https://www.meetup.com/zazen-copenhagen/", publicationDate: "", reliability: "primary",
+    },
+    {
+      id: SRC_DBU_BUDDHAWEG, type: "website", title: "German Buddhist Union — BuddhaWeg-Sangha Zen-Zentrum Solingen", author: "Deutsche Buddhistische Union", url: "https://buddhismus-deutschland.de/?zentren=buddhaweg-sangha-zen-zentrum-solingen-e-v", publicationDate: "", reliability: "authoritative",
+    },
+    {
+      id: SRC_OFFENER_KREIS_FREIBURG, type: "website", title: "Zendo Offener Kreis Freiburg — evening meditation", author: "Via Integralis Freiburg", url: "https://www.viaintegralis-freiburg.de/zugaenge/abend-meditation/", publicationDate: "", reliability: "authoritative",
+    },
+    {
+      id: SRC_EARTH_SKY_ZEN, type: "website", title: "Earth+Sky Zen — practice, history and lineage", author: "Earth+Sky Zen", url: "https://zenireland.com/", publicationDate: "", reliability: "authoritative",
+    },
+    {
+      id: SRC_TURNHOUT_BBU, type: "website", title: "Belgian Buddhist Union — Zen Dojo Turnhout", author: "Belgian Buddhist Union", url: "https://www.buddhism.be/nl/centresflandres-fr/zen-dojo-turnhout", publicationDate: "", reliability: "authoritative",
+    },
+    {
+      id: SRC_MONTEVIDEO_KOSEN, type: "website", title: "Kōsen Sangha — Dōjō Zen de Montevideo", author: "Kōsen Sangha", url: "https://zen-deshimaru.com.ar/dojo-zen-de-montevideo/", publicationDate: "", reliability: "authoritative",
+    },
+    {
+      id: SRC_WAKE_UP_DIRECTORY, type: "website", title: "Wake Up — local sangha directory", author: "Wake Up International", url: "https://wkup.org/sanghas/", publicationDate: "", reliability: "authoritative",
+    },
+    {
+      id: SRC_INTERSEIN_GERMANY, type: "website", title: "Intersein — communities in the tradition of Thich Nhat Hanh", author: "Intersein – Netzwerk für ein achtsames Leben", url: "https://intersein.de/gemeinschaften.html", publicationDate: "", reliability: "authoritative",
+    },
+    {
+      id: SRC_RIVIERE_COEUR, type: "website", title: "Rivière du Cœur — local Plum Village sanghas", author: "Sangha Rivière du Cœur", url: "https://riviereducoeur.webnode.fr/notre-sangha/", publicationDate: "", reliability: "authoritative",
+    },
+    {
+      id: SRC_HAUTS_FRANCE_PV, type: "website", title: "Hauts-de-France sanghas in the Plum Village tradition", author: "Sangha de Lille", url: "https://contact79094.wixsite.com/sanghadelille/sanghas-hauts-de-france", publicationDate: "", reliability: "authoritative",
     },
     {
       id: SRC_FOGUANG,
@@ -3707,22 +3751,6 @@ export const SEED_TEMPLES: TempleSeed[] = [
     url: "https://stillmindzendo.org/",
   },
   {
-    slug: "zen-sangha-belgium",
-    names: [{ locale: "en", value: "Zen Sangha" }],
-    lat: 50.8503,
-    lng: 4.3517,
-    region: "Brussels region",
-    country: "Belgium",
-    foundedYear: null,
-    foundedPrecision: null,
-    schoolSlug: "white-plum-asanga",
-    status: "active",
-    sourceId: SRC_WHITEPLUM,
-    sourceExcerpt:
-      "Zen Sangha — a Belgian White Plum Asanga affiliated sangha.",
-    url: "https://zensangha.be/",
-  },
-  {
     slug: "ny-zen-center-contemplative-care",
     names: [{ locale: "en", value: "New York Zen Center for Contemplative Care" }],
     lat: 40.7549,
@@ -4402,10 +4430,10 @@ export const SEED_TEMPLES: TempleSeed[] = [
     foundedPrecision: "circa",
     schoolSlug: "white-plum-asanga",
     status: "active",
-    sourceId: SRC_WHITEPLUM,
+    sourceId: SRC_OFFENER_KREIS_FREIBURG,
     sourceExcerpt:
-      "Zendo Offener Kreis Freiburg — White Plum Asanga zendō at Schlippehof 8, 79110 Freiburg im Breisgau, led by Dr. Gabriele Geiger-Stappel (White Plum) and Bernhard Stappel; affiliated with Zen Zentrum Offener Kreis Luzern (Anna Gamma Roshi) within the Two Wings / Via Integralis project (Zen and Christian mysticism).",
-    url: "https://www.viaintegralis-freiburg.de/",
+      "Zendo Offener Kreis Freiburg lists regular Tuesday and Thursday evening practice at Schlippehof 8; White Plum's current member list names its teacher Gabriele Shinmyo Geiger-Stappel.",
+    url: "https://www.viaintegralis-freiburg.de/zugaenge/abend-meditation/",
   },
   {
     slug: "buddhaweg-sangha-solingen",
@@ -4418,12 +4446,12 @@ export const SEED_TEMPLES: TempleSeed[] = [
     country: "Germany",
     foundedYear: null,
     foundedPrecision: null,
-    schoolSlug: "white-plum-asanga",
+    schoolSlug: "soto",
     status: "active",
-    sourceId: SRC_WHITEPLUM,
+    sourceId: SRC_DBU_BUDDHAWEG,
     sourceExcerpt:
-      "BuddhaWeg-Sangha Zen-Zentrum Solingen e.V. at Grünewalder Str. 68, 42657 Solingen — White Plum Asanga sangha led by Zen-Meister Heinz-Jürgen Metzger. (Distinct from the AZI/Deshimaru-line Zen-Zentrum Solingen at zen-solingen.de.)",
-    url: "https://www.buddhaweg.de/",
+      "The German Buddhist Union lists BuddhaWeg-Sangha as a Sōtō group in the Taisen Deshimaru line, led by Heinz-Jürgen Metzger, with regular practice in Solingen and Cologne and affiliation to ABZEn.",
+    url: "https://buddhismus-deutschland.de/?zentren=buddhaweg-sangha-zen-zentrum-solingen-e-v",
   },
   {
     slug: "zen-zentrum-offener-kreis-luzern",
