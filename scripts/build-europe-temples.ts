@@ -635,6 +635,32 @@ function pickSourceId(sourceUrl: string, lineage: string): string {
   if (u.includes("fleursdevacuite.org")) return "src_fleurs_vacuite";
   if (u.includes("coeur-des-sanghas-alsace/les-sanghas/fleurs-de-zen"))
     return "src_fleurs_zen";
+  if (u.includes("zengruppe-linz.at")) return "src_zen_gruppe_linz";
+  if (u.includes("zendowien.org")) return "src_zendo_wien_site";
+  if (u.includes("zengruppe-wien.at")) return "src_zengruppe_wien";
+  if (u.includes("centre-bouddhiste-zen-des-pagodes.be")) return "src_pagodes_zen";
+  if (u.includes("shikantaza.be")) return "src_shikantaza_mons";
+  if (u.includes("daisen.eu")) return "src_daisen";
+  if (u.includes("zendogensangha.be")) return "src_zen_dogen_belgium";
+  if (u.includes("zenmeditatiehasselt.be")) return "src_gyoji";
+  if (u.includes("mosteiroeishoji.org")) return "src_eishoji";
+  if (u.includes("viazen.org.br")) return "src_via_zen_br";
+  if (u.includes("zendocuritiba.com.br")) return "src_zendo_curitiba";
+  if (u.includes("storder.org/centers")) return "src_atlantic_soto";
+  if (u.includes("sanghadescistes.blogspot.com")) return "src_cistes_sangha";
+  if (u.includes("lejardindelinstant.alwaysdata.net")) return "src_jardin_instant";
+  if (u.includes("sangha-thich-nhat-hanh-de-lardeche.jimdosite.com"))
+    return "src_joie_conscience";
+  if (u.includes("eonzen.org")) return "src_eon_zen";
+  if (u.includes("flowingriversangha.com")) return "src_flowing_river";
+  if (u.includes("gmzc.org")) return "src_great_mountain";
+  if (u.includes("greatplainszen.org")) return "src_great_plains";
+  if (u.includes("morganbayzendo.org")) return "src_morgan_bay";
+  if (u.includes("lostcoinzen.com")) return "src_lost_coin";
+  if (u.includes("newriverzen.org")) return "src_new_river";
+  if (u.includes("bouddhisme-thich-nhat-hanh-angers.blogspot.com"))
+    return "src_angers_sangha";
+  if (u.includes("chemindeveil.over-blog.com")) return "src_chemin_eveil";
 
   // ── North-American sect umbrellas ───────────────────────────────────
   if (u.includes("szba.org")) return "src_szba";

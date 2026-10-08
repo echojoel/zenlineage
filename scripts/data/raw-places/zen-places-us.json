@@ -498,14 +498,14 @@
       "notes": "White Plum Asanga member."
     },
     {
-      "name": "Citrus Zen / Yokoji Long Beach Group",
+      "name": "Citrus Zen",
       "city": "Redlands",
       "region": "California",
-      "lineage": "White Plum (Yokoji / Tenshin Tanouye lineage)",
+      "lineage": "Yokoji Zen Mountain Center affiliate (Maezumi lineage)",
       "address": "Redlands, CA",
       "url": "https://citruszen.com/",
-      "source_url": "https://whiteplum.org/membership-map/",
-      "notes": "Yokoji affiliate sangha in Inland Empire."
+      "source_url": "https://citruszen.com/",
+      "notes": "Yokoji affiliate sangha in Redlands, with Wednesday evening practice; consult the group for the current venue."
     },
     {
       "name": "Wild River Zen Circle",
@@ -529,13 +529,13 @@
     },
     {
       "name": "Lost Coin Zen",
-      "city": "Los Angeles",
-      "region": "California",
+      "city": "Salt Lake City",
+      "region": "Utah",
       "lineage": "White Plum (Maezumi lineage)",
-      "address": null,
-      "url": "https://lostcoinzen.com/",
-      "source_url": "https://whiteplum.org/membership-list-public/",
-      "notes": "White Plum Asanga; teacher Daniel Doen Silberberg."
+      "address": "5645 S Waterbury Way D100, Salt Lake City, UT",
+      "url": "https://www.lostcoinzen.com/",
+      "source_url": "https://www.lostcoinzen.com/recent-and-future-event/",
+      "notes": "Active White Plum community with a monthly public Sunday sit and online practice; consult the current calendar."
     },
     {
       "name": "Freeway Zen",
@@ -724,8 +724,8 @@
       "lineage": "White Plum (Maezumi lineage)",
       "address": "Boulder, CO",
       "url": "https://eonzen.org/",
-      "source_url": "https://whiteplum.org/membership-map/",
-      "notes": "White Plum Asanga member."
+      "source_url": "https://eonzen.org/",
+      "notes": "Active White Plum practice community with Monday evening in-person and online practice; consult the current program for the venue."
     },
     {
       "name": "Zen Center of Denver",
@@ -739,13 +739,13 @@
     },
     {
       "name": "Great Mountain Zen Center",
-      "city": "Lafayette",
+      "city": "Berthoud",
       "region": "Colorado",
       "lineage": "Sōtō (Katagiri / White Plum lineage)",
-      "address": "Lafayette, CO",
-      "url": "https://greatmountainzen.org/",
-      "source_url": "https://zenpeacemakers.org/membership/affiliate-network/",
-      "notes": "Zen Peacemakers affiliate."
+      "address": "2532 S County Road 15, Berthoud, CO 80513",
+      "url": "https://gmzc.org/",
+      "source_url": "https://gmzc.org/contact/contact-us/",
+      "notes": "Active White Plum practice and retreat center at Maitreya Abbey, led by Gerry Shishin Wick and Jennifer Koren Grahn."
     },
     {
       "name": "Hogaku-ji (Dharma Mountain Zen Center)",
@@ -1309,10 +1309,10 @@
       "city": "Surry",
       "region": "Maine",
       "lineage": "White Plum (Maezumi lineage)",
-      "address": "Surry, ME",
-      "url": "https://howlingdragon.org/",
-      "source_url": "https://whiteplum.org/membership-list-public/",
-      "notes": "White Plum Asanga; teacher Jim Daikan Bastien."
+      "address": "532 Morgan Bay Road, Surry, ME 04684",
+      "url": "https://www.morganbayzendo.org/",
+      "source_url": "https://www.morganbayzendo.org/schedule/retreats-workshops",
+      "notes": "Active practice at Morgan Bay Zendo with current one-day retreats led by Jim Daikan Bastien; check the calendar."
     },
     {
       "name": "Mindfulness Practice Group of Annapolis",
@@ -1398,11 +1398,11 @@
       "name": "Boundless Way Zen Temple / Mugendo-ji",
       "city": "Worcester",
       "region": "Massachusetts",
-      "lineage": "Sōtō / Diamond Sangha (combined)",
+      "lineage": "Sōtō / Korean Linji (Boundless Way Zen)",
       "address": "Worcester, MA 01602",
       "url": "https://boundlesswayzen.org/",
-      "source_url": "https://www.szba.org/zen-centers-by-state",
-      "notes": "SZBA member; James Ishmael Ford lineage."
+      "source_url": "https://boundlesswayzen.org/",
+      "notes": "Boundless Way Zen temple with Japanese Sōtō and Korean Linji roots; consult the current schedule before visiting."
     },
     {
       "name": "Valley Zendo",
@@ -1498,7 +1498,7 @@
       "lineage": "White Plum (Maezumi lineage)",
       "address": null,
       "url": "https://awakeningdharma.org/",
-      "source_url": "https://whiteplum.org/membership-list-public/",
+      "source_url": "https://awakeningdharma.org/",
       "notes": "White Plum Asanga; teacher Stephen Mugen Snyder."
     },
     {
@@ -1767,16 +1767,6 @@
       "url": "https://www.mountaincloud.org/",
       "source_url": "https://www.mountaincloud.org/about/sanbo-zen-lineage/",
       "notes": "Henry Shukman Roshi; Sanbo Zen North America hub."
-    },
-    {
-      "name": "Eighthwave",
-      "city": "Albuquerque",
-      "region": "New Mexico",
-      "lineage": "Zen Peacemakers",
-      "address": "Albuquerque, NM",
-      "url": "https://eighthwave.org/",
-      "source_url": "https://zenpeacemakers.org/membership/affiliate-network/",
-      "notes": "Zen Peacemakers affiliate."
     },
     {
       "name": "Order of Clear Mind Zen",
@@ -2240,13 +2230,13 @@
     },
     {
       "name": "Flowing River Sangha",
-      "city": "Doylestown",
+      "city": "Wyoming / Wilkes-Barre",
       "region": "Pennsylvania",
       "lineage": "White Plum (Maezumi lineage)",
-      "address": "Doylestown, PA",
-      "url": "https://flowingriversangha.com/",
-      "source_url": "https://whiteplum.org/membership-list-public/",
-      "notes": "White Plum Asanga; teacher Courtney Gessho Burgess-Michak."
+      "address": "20 Church Road, Wyoming, PA",
+      "url": "https://flowingriversangha.com/join-us/",
+      "source_url": "https://flowingriversangha.com/join-us/",
+      "notes": "Current Tuesday practice in Wyoming and Thursday practice at 97 S Franklin Street, Wilkes-Barre, with hybrid options; consult the current schedule."
     },
     {
       "name": "Zen Group of Reading",
@@ -2265,7 +2255,7 @@
       "lineage": "Zen Peacemakers",
       "address": "Harrisburg, PA",
       "url": "https://dragonflysangha.org/",
-      "source_url": "https://zenpeacemakers.org/membership/affiliate-network/",
+      "source_url": "https://dragonflysangha.org/",
       "notes": "Zen Peacemakers affiliate."
     },
     {
@@ -2340,13 +2330,13 @@
     },
     {
       "name": "Living Water Zen Community",
-      "city": "Austin",
+      "city": "San Antonio",
       "region": "Texas",
       "lineage": "White Plum (Maezumi lineage)",
-      "address": "Austin, TX",
+      "address": "San Antonio, TX",
       "url": "https://livingwaterzen.com/",
-      "source_url": "https://whiteplum.org/membership-list-public/",
-      "notes": "White Plum Asanga; teacher Cuca Kosen Montecel."
+      "source_url": "https://whiteplum.org/membership-list-mobile/user/319/",
+      "notes": "White Plum community founded by Cuca Kosen Montecel in the Robert Jinsen Kennedy lineage. Current local venue and independent schedule remain unverified."
     },
     {
       "name": "Chùa Linh-Sơn Austin",
@@ -2383,9 +2373,9 @@
       "city": "Cornwall",
       "region": "Vermont",
       "lineage": "White Plum (Maezumi lineage)",
-      "address": "Cornwall, VT 05753",
+      "address": "76 Court Street, Middlebury, VT 05753",
       "url": "https://breadloafmountainzen.org/",
-      "source_url": "https://whiteplum.org/membership-map/",
+      "source_url": "https://breadloafmountainzen.org/",
       "notes": "White Plum Asanga; teachers Brian Joshin Byrnes, Peggy Genshin Kendo Murray, Eishō Sinclair."
     },
     {
@@ -2407,16 +2397,6 @@
       "url": "https://uvzc.org/",
       "source_url": "https://www.rinzaiji.org/affiliated-centers/",
       "notes": "Rinzai-ji affiliate."
-    },
-    {
-      "name": "New England Council Collective",
-      "city": "Putney",
-      "region": "Vermont",
-      "lineage": "Zen Peacemakers",
-      "address": "Putney, VT",
-      "url": "https://newenglandcouncilcollective.org/",
-      "source_url": "https://zenpeacemakers.org/membership/affiliate-network/",
-      "notes": "Zen Peacemakers affiliate."
     },
     {
       "name": "Dassanāya Buddhist Community",
@@ -2443,10 +2423,10 @@
       "city": "Blacksburg",
       "region": "Virginia",
       "lineage": "White Plum (Maezumi lineage)",
-      "address": "Blacksburg, VA",
+      "address": "706 Harding Avenue, Blacksburg, VA",
       "url": "https://newriverzen.org/",
-      "source_url": "https://whiteplum.org/membership-map/",
-      "notes": "White Plum Asanga; teachers Charles Shinkai Birx and Ellen Jikai Birx."
+      "source_url": "https://newriverzen.org/schedule/",
+      "notes": "White Plum community with Wednesday evening practice; founded by Charles and Ellen Birx in the Robert Jinsen Kennedy lineage."
     },
     {
       "name": "Clear Springs Sangha",
@@ -2683,10 +2663,10 @@
       "city": "Monroe",
       "region": "Wisconsin",
       "lineage": "White Plum (Maezumi lineage)",
-      "address": "Monroe, WI",
+      "address": "W7762 Falk Road, Monroe, WI",
       "url": "https://greatplainszen.org/",
-      "source_url": "https://whiteplum.org/membership-map/",
-      "notes": "White Plum Asanga; teacher Susan Myoyu Andersen."
+      "source_url": "https://greatplainszen.org/half-day-sittings/",
+      "notes": "Active White Plum center led by Susan Myoyu Andersen, with monthly half-day sittings and retreats; check the current calendar."
     },
     {
       "name": "Korinji Monastery",

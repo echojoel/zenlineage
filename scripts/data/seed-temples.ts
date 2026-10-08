@@ -347,6 +347,30 @@ export const SRC_FLEUR_INSTANT = "src_fleur_instant";
 export const SRC_FLEURS_PRUNIER = "src_fleurs_prunier";
 export const SRC_FLEURS_VACUITE = "src_fleurs_vacuite";
 export const SRC_FLEURS_ZEN = "src_fleurs_zen";
+export const SRC_ZEN_GRUPPE_LINZ = "src_zen_gruppe_linz";
+export const SRC_ZENDO_WIEN_SITE = "src_zendo_wien_site";
+export const SRC_ZENGRUPPE_WIEN = "src_zengruppe_wien";
+export const SRC_PAGODES_ZEN = "src_pagodes_zen";
+export const SRC_SHIKANTAZA_MONS = "src_shikantaza_mons";
+export const SRC_DAISEN = "src_daisen";
+export const SRC_ZEN_DOGEN_BELGIUM = "src_zen_dogen_belgium";
+export const SRC_GYOJI = "src_gyoji";
+export const SRC_EISHOJI = "src_eishoji";
+export const SRC_VIA_ZEN_BR = "src_via_zen_br";
+export const SRC_ZENDO_CURITIBA = "src_zendo_curitiba";
+export const SRC_ATLANTIC_SOTO = "src_atlantic_soto";
+export const SRC_CISTES_SANGHA = "src_cistes_sangha";
+export const SRC_JARDIN_INSTANT = "src_jardin_instant";
+export const SRC_JOIE_CONSCIENCE = "src_joie_conscience";
+export const SRC_EON_ZEN = "src_eon_zen";
+export const SRC_FLOWING_RIVER = "src_flowing_river";
+export const SRC_GREAT_MOUNTAIN = "src_great_mountain";
+export const SRC_GREAT_PLAINS = "src_great_plains";
+export const SRC_MORGAN_BAY = "src_morgan_bay";
+export const SRC_LOST_COIN = "src_lost_coin";
+export const SRC_NEW_RIVER = "src_new_river";
+export const SRC_ANGERS_SANGHA = "src_angers_sangha";
+export const SRC_CHEMIN_EVEIL = "src_chemin_eveil";
 
 /** Global Zen practice-centre research bundle — fallback citation for the
  * Gemini Deep Research 2026-05 ingest where the row's primary directory
@@ -1447,6 +1471,30 @@ export const TEMPLE_SOURCES: {
     { id: SRC_FLEURS_PRUNIER, type: "website", title: "Fleurs de Prunier Rennes — current practice", author: "Sangha Fleurs de Prunier", url: "https://fleursdeprunier-rennes.blogspot.com/", publicationDate: "", reliability: "authoritative" },
     { id: SRC_FLEURS_VACUITE, type: "website", title: "Fleurs de Vacuité — current practice", author: "Sangha Fleurs de Vacuité", url: "https://www.fleursdevacuite.org/", publicationDate: "", reliability: "authoritative" },
     { id: SRC_FLEURS_ZEN, type: "website", title: "Fleurs de Zen Mulhouse — current practice", author: "Cœur des Sanghas Alsace", url: "https://sites.google.com/view/coeur-des-sanghas-alsace/les-sanghas/fleurs-de-zen", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_ZEN_GRUPPE_LINZ, type: "website", title: "Zen Gruppe Linz — practice and lineage", author: "Zen Gruppe Linz", url: "https://zengruppe-linz.at/", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_ZENDO_WIEN_SITE, type: "website", title: "Zendo Wien — practice and teachers", author: "Zendo Wien", url: "https://zendowien.org/", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_ZENGRUPPE_WIEN, type: "website", title: "Zengruppe Wien — practice times", author: "Zengruppe Wien", url: "https://www.zengruppe-wien.at/zen-meditation-yoga", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_PAGODES_ZEN, type: "website", title: "Centre Bouddhiste Zen des Pagodes — practice", author: "Centre Bouddhiste Zen des Pagodes", url: "https://www.centre-bouddhiste-zen-des-pagodes.be/", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_SHIKANTAZA_MONS, type: "website", title: "Centre Shikantaza Mons — practice and lineage", author: "Centre Shikantaza", url: "https://www.shikantaza.be/centre", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_DAISEN, type: "website", title: "Daisen Centre Zen — Belgian practice groups", author: "Daisen Centre Zen", url: "https://www.daisen.eu/", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_ZEN_DOGEN_BELGIUM, type: "website", title: "Zen Dogen Sangha Belgium — practice locations", author: "Zen Dogen Sangha Belgium", url: "https://www.zendogensangha.be/", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_GYOJI, type: "website", title: "Zendo Gyoji — practice and teachers", author: "Zendo Gyoji", url: "https://zenmeditatiehasselt.be/", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_EISHOJI, type: "website", title: "Eishoji Monastery — practice and access", author: "Mosteiro Zen Budista Eishoji", url: "https://www.mosteiroeishoji.org/mosteiro", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_VIA_ZEN_BR, type: "website", title: "Via Zen Porto Alegre — practice and lineage", author: "Via Zen", url: "https://www.viazen.org.br/centro-de-pratica-porto-alegre", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_ZENDO_CURITIBA, type: "website", title: "Zendo Curitiba — practice and lineage", author: "Zendo Curitiba", url: "https://zendocuritiba.com.br/", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_ATLANTIC_SOTO, type: "website", title: "Silent Thunder Order — Atlantic Soto Zen", author: "Silent Thunder Order", url: "https://storder.org/centers/", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_CISTES_SANGHA, type: "website", title: "Inter-Sangha des Cistes — current practice", author: "Inter-Sangha des Cistes", url: "https://sanghadescistes.blogspot.com/", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_JARDIN_INSTANT, type: "website", title: "Jardin de l’Instant — current Paris practice", author: "Jardin de l’Instant", url: "https://lejardindelinstant.alwaysdata.net/", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_JOIE_CONSCIENCE, type: "website", title: "Sangha de Lablachère — current practice", author: "Sangha de Lablachère", url: "https://sangha-thich-nhat-hanh-de-lardeche.jimdosite.com/", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_EON_ZEN, type: "website", title: "Eon Zen — current practice and teachers", author: "Eon Zen", url: "https://eonzen.org/", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_FLOWING_RIVER, type: "website", title: "Flowing River Sangha — current practice", author: "Flowing River Sangha", url: "https://flowingriversangha.com/join-us/", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_GREAT_MOUNTAIN, type: "website", title: "Great Mountain Zen Center — contact and practice", author: "Great Mountain Zen Center", url: "https://gmzc.org/contact/contact-us/", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_GREAT_PLAINS, type: "website", title: "Great Plains Zen Center — current practice", author: "Great Plains Zen Center", url: "https://greatplainszen.org/half-day-sittings/", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_MORGAN_BAY, type: "website", title: "Morgan Bay Zendo — retreats and workshops", author: "Morgan Bay Zendo", url: "https://www.morganbayzendo.org/schedule/retreats-workshops", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_LOST_COIN, type: "website", title: "Lost Coin Zen — current practice", author: "Lost Coin Zen", url: "https://www.lostcoinzen.com/recent-and-future-event/", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_NEW_RIVER, type: "website", title: "New River Zen Community — current schedule", author: "New River Zen Community", url: "https://newriverzen.org/schedule/", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_ANGERS_SANGHA, type: "website", title: "Les Trois Rivières — group updates", author: "Sangha Les Trois Rivières", url: "https://bouddhisme-thich-nhat-hanh-angers.blogspot.com/", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_CHEMIN_EVEIL, type: "website", title: "Chemin d’Éveil — Amplepuis practice", author: "Chemin d’Éveil", url: "https://chemindeveil.over-blog.com/page/8", publicationDate: "2025-08", reliability: "authoritative" },
     {
       id: SRC_FOGUANG,
       type: "website",
