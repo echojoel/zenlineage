@@ -36,9 +36,9 @@
       "city": "Hong Kong",
       "region": "Hong Kong SAR",
       "lineage": "Kwan Um (Korean Seon, Jogye)",
-      "address": "5/F, Starlight House, 32 Leighton Road, Causeway Bay, Hong Kong",
+      "address": null,
       "url": "https://www.subong.org.hk/en/content/introduction",
-      "source_url": "https://www.buddhanet.info/wbd/country.php?country_id=41",
+      "source_url": "https://www.subong.org.hk/en/content/introduction",
       "notes": "Urban Zen center founded in 1992 and named after Zen Master Su Bong, serving as the main Kwan Um School of Zen monastery in Hong Kong. Offers zazen, kong-an (koan) interviews, retreats, and regular group practice under teachers authorized in the Kwan Um School lineage of Seung Sahn. Listed in the BuddhaNet World Buddhist Directory as a Mahayana center in the Kwan Um School of Zen, with Zen Master Dae Kwan as resident teacher. Native: 秀峰禪院 (Xiùfēng Chán Yuàn)."
     },
     {
@@ -46,9 +46,9 @@
       "city": "Hong Kong",
       "region": "Hong Kong SAR",
       "lineage": "Kwan Um (Korean Seon, Jogye)",
-      "address": "17A Luk Wu, Lantau Island, Hong Kong",
+      "address": null,
       "url": "https://www.subong.org.hk/en/content/gak-su-temple",
-      "source_url": "https://www.buddhanet.info/wbd/country.php?country_id=41",
+      "source_url": "https://www.subong.org.hk/en/content/gak-su-temple",
       "notes": "Mountain Zen temple and retreat center of Su Bong Zen Monastery, located in Luk Wu on Lantau Island, an area with a 130-year history of Buddhist hermitages. Identified by BuddhaNet as 'Gak Su Mountain Temple', a Mahayana center in the Kwan Um School of Zen founded by Zen Master Seung Sahn with Zen Master Dae Kwan as teacher. Hosts intensive Kyol Che retreats and residential practice periods for monks, nuns, and lay practitioners following Kwan Um School forms. Native: 覺修禪寺 (Juéxiū Chán Sì)."
     },
     {
@@ -57,8 +57,8 @@
       "region": "Hong Kong SAR",
       "lineage": "Chan / Linji (Chung Tai Chan Monastery)",
       "address": "G/F, Kingstown Mansion, 319-323 Jaffe Road, Wan Chai, Hong Kong",
-      "url": "http://www.ctworld.org/108/puguang3/index.htm",
-      "source_url": "https://www.buddhanet.info/wbd/country.php?country_id=41",
+      "url": "https://www.ctworld.org/108/puguang3/index.htm",
+      "source_url": "https://www.ctworld.org/108/puguang3/index.htm",
       "notes": "Urban Chan meditation center functioning as the Hong Kong branch of Chung Tai Chan Monastery, a major contemporary Chan organization. BuddhaNet lists Puguang Meditation Center as a Mahayana Linji Chan center affiliated with Chung Tai Chan Monastery, providing contact details and location in Hong Kong. Chung Tai's global directory notes Hong Kong among its overseas branches, with Puguang as its local meditation center serving city practitioners. Native: 普光精舍 (Pǔguāng Jīngshè)."
     },
     {
@@ -66,9 +66,9 @@
       "city": "Hong Kong",
       "region": "Hong Kong SAR",
       "lineage": "Chan / Sheng-yen (Dharma Drum Mountain)",
-      "address": "Room 205, 2/F, Block B, Alexandra Industrial Building, 23-27 Wing Hong Street, Lai Chi Kok, Kowloon, Hong Kong",
-      "url": "https://www.ddmhk.org.hk",
-      "source_url": "https://www.buddhanet.info/wbd/country.php?country_id=41",
+      "address": "2/F, Block B, Alexandra Industrial Building, 23-27 Wing Hong Street, Lai Chi Kok, Hong Kong",
+      "url": "https://www.ddmhk.org.hk/landing/support",
+      "source_url": "https://www.ddmhk.org.hk/landing/support",
       "notes": "City practice center of Dharma Drum Mountain founded by Chan Master Sheng Yen, listed by BuddhaNet as a Mahayana Chinese Chan (Zen) organization in Lai Chi Kok, Kowloon. DDM's global affiliates and related listings confirm DDM Hong Kong as an official branch offering Chan meditation, Dharma classes, and community programs in the Dharma Drum lineage. Registered locally as Dharma Drum Mountain Foundation (Hong Kong Branch) with the same Wing Hong Street address and website. Native: 法鼓山香港道場 (Fǎgǔshān Xiānggǎng Dàochǎng)."
     },
     {

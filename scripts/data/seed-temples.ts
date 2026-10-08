@@ -262,6 +262,33 @@ export const SRC_HEART_CIRCLE_ZEN_SITE = "src_heart_circle_zen_site";
 export const SRC_HOKORI_ZEN_SITE = "src_hokori_zen_site";
 export const SRC_JOYFUL_MIND_ZENDO_SITE = "src_joyful_mind_zendo_site";
 export const SRC_AZI_CHARLEROI = "src_azi_charleroi";
+export const SRC_ADELAIDE_ZEN_SITE = "src_adelaide_zen_site";
+export const SRC_BLACK_MOUNTAIN_ZEN_SITE = "src_black_mountain_zen_site";
+export const SRC_SYDNEY_ZEN_GROUPS = "src_sydney_zen_groups";
+export const SRC_CASTLEMAINE_ZEN_SITE = "src_castlemaine_zen_site";
+export const SRC_MELBOURNE_ZEN_SITE = "src_melbourne_zen_site";
+export const SRC_NAN_TIEN_SITE = "src_nan_tien_site";
+export const SRC_CHUNG_TIAN_SITE = "src_chung_tian_site";
+export const SRC_STREAM_ENTERING_PV = "src_stream_entering_plum_village";
+export const SRC_WAKEUP_SAO_PAULO = "src_wakeup_sao_paulo";
+export const SRC_WAVES_AND_WATER = "src_waves_and_water";
+export const SRC_MINDFULNESS_VANCOUVER = "src_mindfulness_vancouver";
+export const SRC_TRUCLAM_CANADA = "src_truclam_canada";
+export const SRC_MINDFULNESS_TORONTO = "src_mindfulness_toronto";
+export const SRC_WAKEUP_TORONTO = "src_wakeup_toronto";
+export const SRC_WAKEUP_MONTREAL = "src_wakeup_montreal";
+export const SRC_MAPLE_VILLAGE = "src_maple_village";
+export const SRC_OBC_EDMONTON = "src_obc_edmonton";
+export const SRC_KWANUM_GERMANY_GROUPS = "src_kwanum_germany_groups";
+export const SRC_SU_BONG_SITE = "src_su_bong_site";
+export const SRC_GAK_SU_SITE = "src_gak_su_site";
+export const SRC_PUGUANG_CHUNG_TAI = "src_puguang_chung_tai";
+export const SRC_DDM_HONG_KONG = "src_ddm_hong_kong";
+export const SRC_PALMETTO_ZENDO = "src_palmetto_zendo";
+export const SRC_ONE_RIVER_ZEN = "src_one_river_zen";
+export const SRC_ONE_HEART_SANGHA = "src_one_heart_sangha";
+export const SRC_DAY_STAR_ZENDO = "src_day_star_zendo";
+export const SRC_FULL_MOON_ZEN = "src_full_moon_zen";
 
 /** Global Zen practice-centre research bundle — fallback citation for the
  * Gemini Deep Research 2026-05 ingest where the row's primary directory
@@ -962,6 +989,249 @@ export const TEMPLE_SOURCES: {
       title: "Association Zen Internationale — Dojo de Charleroi",
       author: "Association Zen Internationale",
       url: "https://www.zen-azi.org/index.php/fr/node/3053",
+      publicationDate: "",
+      reliability: "authoritative",
+    },
+    {
+      id: SRC_ADELAIDE_ZEN_SITE,
+      type: "website",
+      title: "Adelaide Zen Group — practice, lineage and venues",
+      author: "Adelaide Zen Group",
+      url: "https://www.azg.org.au/",
+      publicationDate: "",
+      reliability: "authoritative",
+    },
+    {
+      id: SRC_BLACK_MOUNTAIN_ZEN_SITE,
+      type: "website",
+      title: "Black Mountain Zen — practice and lineage",
+      author: "Black Mountain Zen Group",
+      url: "https://blackmountainzen.com/",
+      publicationDate: "",
+      reliability: "authoritative",
+    },
+    {
+      id: SRC_SYDNEY_ZEN_GROUPS,
+      type: "website",
+      title: "Sydney Zen Centre — Australian Diamond Sangha groups",
+      author: "Sydney Zen Centre",
+      url: "https://szc.org.au/other-groups/",
+      publicationDate: "",
+      reliability: "authoritative",
+    },
+    {
+      id: SRC_CASTLEMAINE_ZEN_SITE,
+      type: "website",
+      title: "Castlemaine Zen — current practice and events",
+      author: "Castlemaine Zen",
+      url: "https://castlemainezen.com.au/",
+      publicationDate: "",
+      reliability: "authoritative",
+    },
+    {
+      id: SRC_MELBOURNE_ZEN_SITE,
+      type: "website",
+      title: "Melbourne Zen Group — current practice",
+      author: "Melbourne Zen Group",
+      url: "https://mzg.org.au/",
+      publicationDate: "",
+      reliability: "authoritative",
+    },
+    {
+      id: SRC_NAN_TIEN_SITE,
+      type: "website",
+      title: "Nan Tien Temple — visitor information",
+      author: "Nan Tien Temple",
+      url: "https://www.nantien.org.au/en/",
+      publicationDate: "",
+      reliability: "authoritative",
+    },
+    {
+      id: SRC_CHUNG_TIAN_SITE,
+      type: "website",
+      title: "Fo Guang Shan Chung Tian Temple — current temple information",
+      author: "Fo Guang Shan Chung Tian Temple",
+      url: "https://www.fgschungtian.org.au/",
+      publicationDate: "",
+      reliability: "authoritative",
+    },
+    {
+      id: SRC_STREAM_ENTERING_PV,
+      type: "website",
+      title: "Plum Village — Stream Entering Monastery",
+      author: "Plum Village Community of Engaged Buddhism",
+      url: "https://plumvillage.org/practice-centre/stream-entering-monastery",
+      publicationDate: "",
+      reliability: "authoritative",
+    },
+    {
+      id: SRC_WAKEUP_SAO_PAULO,
+      type: "website",
+      title: "Wake Up São Paulo — group information",
+      author: "Wake Up São Paulo",
+      url: "https://wakeupsaopaulo.webnode.page/",
+      publicationDate: "",
+      reliability: "authoritative",
+    },
+    {
+      id: SRC_WAVES_AND_WATER,
+      type: "website",
+      title: "Waves and Water Sangha — practice calendar",
+      author: "Waves and Water Sangha",
+      url: "https://wavesandwater.org/site/",
+      publicationDate: "",
+      reliability: "authoritative",
+    },
+    {
+      id: SRC_MINDFULNESS_VANCOUVER,
+      type: "website",
+      title: "Mindfulness Practice Community of Vancouver — practice information",
+      author: "Mindfulness Practice Community of Vancouver",
+      url: "https://mindfulnessvancouver.org/",
+      publicationDate: "",
+      reliability: "authoritative",
+    },
+    {
+      id: SRC_TRUCLAM_CANADA,
+      type: "website",
+      title: "Trúc Lâm Monastery — Edmonton and Tây Thiên centres",
+      author: "Trúc Lâm Monastery",
+      url: "https://www.truclam.ca/",
+      publicationDate: "",
+      reliability: "authoritative",
+    },
+    {
+      id: SRC_MINDFULNESS_TORONTO,
+      type: "website",
+      title: "Mindfulness Practice Community of Toronto — current schedule",
+      author: "Mindfulness Practice Community of Toronto",
+      url: "https://mindfulnesspracticecommunity.org/",
+      publicationDate: "",
+      reliability: "authoritative",
+    },
+    {
+      id: SRC_WAKEUP_TORONTO,
+      type: "website",
+      title: "Wake Up Toronto — current practice information",
+      author: "Wake Up Toronto",
+      url: "https://www.wakeuptoronto.ca/",
+      publicationDate: "",
+      reliability: "authoritative",
+    },
+    {
+      id: SRC_WAKEUP_MONTREAL,
+      type: "website",
+      title: "Wake Up International — Montréal group",
+      author: "Wake Up International",
+      url: "https://wkup.org/locations/montreal/",
+      publicationDate: "2025",
+      reliability: "authoritative",
+    },
+    {
+      id: SRC_MAPLE_VILLAGE,
+      type: "website",
+      title: "Maple Village Meditation Center — practice and location",
+      author: "Maple Village Meditation Center",
+      url: "https://maplevillagesangha.org/",
+      publicationDate: "",
+      reliability: "authoritative",
+    },
+    {
+      id: SRC_OBC_EDMONTON,
+      type: "website",
+      title: "Order of Buddhist Contemplatives — Edmonton Meditation Group",
+      author: "Order of Buddhist Contemplatives",
+      url: "https://obcon.org/edmonton-meditation-group/",
+      publicationDate: "",
+      reliability: "authoritative",
+    },
+    {
+      id: SRC_KWANUM_GERMANY_GROUPS,
+      type: "website",
+      title: "Kwan Um Zen Deutschland — centres and groups",
+      author: "Kwan Um Zen Deutschland",
+      url: "https://kwanumzen.de/zentren-gruppen/kontakt-zu-den-gruppen-und-zentren/",
+      publicationDate: "",
+      reliability: "authoritative",
+    },
+    {
+      id: SRC_SU_BONG_SITE,
+      type: "website",
+      title: "Su Bong Zen Monastery — introduction",
+      author: "Su Bong Zen Monastery",
+      url: "https://www.subong.org.hk/en/content/introduction",
+      publicationDate: "",
+      reliability: "authoritative",
+    },
+    {
+      id: SRC_GAK_SU_SITE,
+      type: "website",
+      title: "Su Bong Zen Monastery — Gak Su Temple",
+      author: "Su Bong Zen Monastery",
+      url: "https://www.subong.org.hk/en/content/gak-su-temple",
+      publicationDate: "",
+      reliability: "authoritative",
+    },
+    {
+      id: SRC_PUGUANG_CHUNG_TAI,
+      type: "website",
+      title: "Chung Tai — Puguang Meditation Center",
+      author: "Chung Tai Chan Monastery",
+      url: "https://www.ctworld.org/108/puguang3/index.htm",
+      publicationDate: "",
+      reliability: "authoritative",
+    },
+    {
+      id: SRC_DDM_HONG_KONG,
+      type: "website",
+      title: "Dharma Drum Mountain Hong Kong — locations and hours",
+      author: "Dharma Drum Mountain Hong Kong",
+      url: "https://www.ddmhk.org.hk/landing/support",
+      publicationDate: "",
+      reliability: "authoritative",
+    },
+    {
+      id: SRC_PALMETTO_ZENDO,
+      type: "website",
+      title: "Palmetto Zendo — current practice",
+      author: "Palmetto Zendo",
+      url: "https://palmettozendo.org/",
+      publicationDate: "",
+      reliability: "authoritative",
+    },
+    {
+      id: SRC_ONE_RIVER_ZEN,
+      type: "website",
+      title: "One River Zen — practice, location and lineage",
+      author: "One River Zen",
+      url: "https://oneriverzen.org/home",
+      publicationDate: "",
+      reliability: "authoritative",
+    },
+    {
+      id: SRC_ONE_HEART_SANGHA,
+      type: "website",
+      title: "One Heart Sangha — location and practice schedule",
+      author: "One Heart Sangha",
+      url: "https://oneheartsangha.org/",
+      publicationDate: "",
+      reliability: "authoritative",
+    },
+    {
+      id: SRC_DAY_STAR_ZENDO,
+      type: "website",
+      title: "Day Star Zendo — current practice and teachers",
+      author: "Day Star Zendo",
+      url: "https://www.daystarzendo.org/about-us",
+      publicationDate: "",
+      reliability: "authoritative",
+    },
+    {
+      id: SRC_FULL_MOON_ZEN,
+      type: "website",
+      title: "Full Moon Zen — current practice and venue",
+      author: "Full Moon Zen",
+      url: "https://www.fullmoonzen.org/",
       publicationDate: "",
       reliability: "authoritative",
     },
@@ -2912,8 +3182,8 @@ export const SEED_TEMPLES: TempleSeed[] = [
   {
     slug: "stream-entering-monastery",
     names: [{ locale: "en", value: "Stream Entering Monastery" }],
-    lat: -37.3667,
-    lng: 143.4500,
+    lat: -37.2917996,
+    lng: 144.1951074,
     region: "Victoria",
     country: "Australia",
     foundedYear: 2010,
@@ -2921,10 +3191,11 @@ export const SEED_TEMPLES: TempleSeed[] = [
     schoolSlug: "plum-village",
     founderSlug: "thich-nhat-hanh",
     status: "active",
-    sourceId: SRC_PLUMVILLAGE_MONASTIC,
+    sourceId: SRC_STREAM_ENTERING_PV,
     sourceExcerpt:
-      "Stream Entering Monastery — a Plum Village nunnery founded 2010 at Porcupine Ridge, Victoria, Australia.",
+      "Plum Village identifies Stream Entering Monastery as a nunnery founded in 2010, relocated in June 2021 to 530 Porcupine Ridge Road, and hosting Days of Mindfulness every Sunday.",
     url: "https://plumvillage.org/practice-centre/stream-entering-monastery",
+    geoPrecision: "exact",
   },
   {
     slug: "mountain-spring-monastery",
@@ -4307,9 +4578,9 @@ export const SEED_TEMPLES: TempleSeed[] = [
     foundedPrecision: "exact",
     schoolSlug: "chan",
     status: "active",
-    sourceId: SRC_WIKIPEDIA,
+    sourceId: SRC_NAN_TIEN_SITE,
     sourceExcerpt:
-      "Nan Tien Temple — Fo Guang Shan's Southern Hemisphere flagship in Berkeley, NSW (~90 km south of Sydney); ground broken 1992 and completed 1995. Name means 'Southern Heaven Temple'.",
+      "Nan Tien Temple's current visitor page gives its address as 180 Berkeley Road, Berkeley NSW 2506 and publishes opening hours and contact details.",
     url: "https://www.nantien.org.au/en/",
   },
   {
@@ -4326,10 +4597,10 @@ export const SEED_TEMPLES: TempleSeed[] = [
     foundedPrecision: "exact",
     schoolSlug: "chan",
     status: "active",
-    sourceId: SRC_WIKIPEDIA,
+    sourceId: SRC_CHUNG_TIAN_SITE,
     sourceExcerpt:
-      "Chung Tian Temple — Fo Guang Shan branch at 1034 Underwood Road, Priestdale (Brisbane), Queensland; construction began January 1991 and the temple opened June 1993.",
-    url: "http://www.chungtian.org.au/",
+      "Fo Guang Shan Chung Tian Temple's current site identifies the Priestdale temple, publishes opening hours, weekly Dharma services, meditation classes and visitor information.",
+    url: "https://www.fgschungtian.org.au/",
   },
   {
     slug: "he-hua-temple",

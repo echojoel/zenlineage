@@ -552,6 +552,33 @@ function pickSourceId(sourceUrl: string, lineage: string): string {
   if (u.includes("heartcirclezen.org")) return "src_heart_circle_zen_site";
   if (u.includes("hokorizencenter.org")) return "src_hokori_zen_site";
   if (u.includes("joyfulmindzendo.org")) return "src_joyful_mind_zendo_site";
+  if (u.includes("sites.google.com/view/adelaide-zen-group"))
+    return "src_adelaide_zen_site";
+  if (u.includes("blackmountainzen.com")) return "src_black_mountain_zen_site";
+  if (u.includes("szc.org.au/our-teachers/jane-andino"))
+    return "src_sydney_zen_groups";
+  if (u.includes("castlemainezen.com.au")) return "src_castlemaine_zen_site";
+  if (u.includes("mzg.org.au/about/who-are-we")) return "src_melbourne_zen_site";
+  if (u.includes("wakeupsaopaulo.webnode.page")) return "src_wakeup_sao_paulo";
+  if (u.includes("wavesandwater.org")) return "src_waves_and_water";
+  if (u.includes("mindfulnessvancouver.org")) return "src_mindfulness_vancouver";
+  if (u.includes("truclam.ca")) return "src_truclam_canada";
+  if (u.includes("mindfulnesspracticecommunity.org"))
+    return "src_mindfulness_toronto";
+  if (u.includes("wakeuptoronto.ca")) return "src_wakeup_toronto";
+  if (u.includes("wkup.org/locations/montreal")) return "src_wakeup_montreal";
+  if (u.includes("maplevillagesangha.org")) return "src_maple_village";
+  if (u.includes("obcon.org/edmonton-meditation-group")) return "src_obc_edmonton";
+  if (u.includes("kwanumzen.de/zentren-gruppen")) return "src_kwanum_germany_groups";
+  if (u.includes("subong.org.hk/en/content/gak-su-temple")) return "src_gak_su_site";
+  if (u.includes("subong.org.hk/en/content/introduction")) return "src_su_bong_site";
+  if (u.includes("ctworld.org/108/puguang3")) return "src_puguang_chung_tai";
+  if (u.includes("ddmhk.org.hk/landing/support")) return "src_ddm_hong_kong";
+  if (u.includes("palmettozendo.org")) return "src_palmetto_zendo";
+  if (u.includes("oneriverzen.org")) return "src_one_river_zen";
+  if (u.includes("oneheartsangha.org")) return "src_one_heart_sangha";
+  if (u.includes("daystarzendo.org")) return "src_day_star_zendo";
+  if (u.includes("fullmoonzen.org")) return "src_full_moon_zen";
 
   // ── North-American sect umbrellas ───────────────────────────────────
   if (u.includes("szba.org")) return "src_szba";
@@ -673,6 +700,11 @@ const MANUAL_COORDS: Record<string, ManualCoord> = {
   "Great Wave Zen Sangha": [43.9580256, -86.4493713],
   "Empty Bowl Zendo": [40.7956144, -74.4794622],
   "Heart Circle Sangha": [40.8981078, -74.0409353],
+  "Palmetto Zendo": [26.640628, -81.8723084, "city"], // Fort Myers; current venue is 13411 Shire Lane
+  "One River Zen": [41.3399559, -88.8395557], // 121 E Prospect Ave, Ottawa IL
+  "Silver Spring Zendo / One Heart Sangha": [38.9852993, -77.0366559], // Washington Ethical Society, DC
+  "Day Star Sangha": [42.0667652, -71.3281114, "city"], // Wrentham; exact retreat-house address is not public
+  "Full Moon Zen": [42.3762832, -71.1267099], // Friends Meeting at Cambridge, 5 Longfellow Park
   // These sources identify the current city or street, but OSM does not
   // resolve a specific entrance for the published place.
   "Green River Zen Center": [42.472974, -72.5832895, "city"],
@@ -706,7 +738,7 @@ const MANUAL_COORDS: Record<string, ManualCoord> = {
   "Shawbottom Farm Retreat": [52.45, -2.75, "city"], // Shropshire approx (WCF retreat venue)
   "Po Lin Monastery (Po Lin Chansi)": [22.2548, 113.9051], // Ngong Ping plateau, Lantau
   "Lotus Pond Temple (Plum Village Hong Kong, Asian Institute of Applied Buddhism)": [22.2553, 113.905], // Ngong Ping, Lantau
-  "Su Bong Zen Monastery": [22.2780, 114.1841], // Causeway Bay, Leighton Rd
+  "Su Bong Zen Monastery": [22.2780, 114.1841, "city"], // current site confirms a Hong Kong city centre but publishes no address
   "Gak Su Temple International Zen Center": [22.2611, 113.9089], // Luk Wu, Lantau
   "Puguang Meditation Center (Chung Tai Chan Monastery Hong Kong Branch)": [22.278, 114.1747], // Wanchai
   "Dharma Drum Mountain Hong Kong Center (DDM Hong Kong)": [22.3373, 114.1467], // Lai Chi Kok, Kowloon

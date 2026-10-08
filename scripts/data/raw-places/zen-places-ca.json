@@ -61,7 +61,7 @@
       "lineage": "Plum Village (Thich Nhat Hanh)",
       "address": null,
       "url": "https://wavesandwater.org/site/",
-      "source_url": "https://wavesandwater.org/site/save-the-dates-fall-2024-plum-village-monastic-tour-to-western-canada/",
+      "source_url": "https://wavesandwater.org/site/",
       "notes": "Weekly Sunday Zoom plus hybrid in-person on last Sunday of month at Mountain Rain Zen."
     },
     {
@@ -70,8 +70,8 @@
       "region": "British Columbia",
       "lineage": "Plum Village (Thich Nhat Hanh)",
       "address": "REACH Community Health Centre, East Vancouver",
-      "url": "http://mindfulnessvancouver.org/",
-      "source_url": "http://mindfulnessvancouver.org/",
+      "url": "https://mindfulnessvancouver.org/",
+      "source_url": "https://mindfulnessvancouver.org/",
       "notes": "Second Sunday of each month, 6:30-8:30pm."
     },
     {
@@ -119,9 +119,9 @@
       "city": "Edmonton",
       "region": "Alberta",
       "lineage": "Sōtō / Serene Reflection Meditation (OBC, Shasta Abbey lineage)",
-      "address": "10734 - 70th Avenue, Edmonton, AB",
-      "url": "https://obcon.org/",
-      "source_url": "https://www.buddhanet.info/wbd/province.php?province_id=9",
+      "address": null,
+      "url": "https://obcon.org/edmonton-meditation-group/",
+      "source_url": "https://obcon.org/edmonton-meditation-group/",
       "notes": "Lay group affiliated with the Order of Buddhist Contemplatives."
     },
     {
@@ -131,7 +131,7 @@
       "lineage": "Vietnamese Thiền (Trúc Lâm; close ties to Plum Village tradition)",
       "address": "11328 - 97 St, Edmonton, AB T5G 1X4",
       "url": "https://www.truclam.ca/truclam",
-      "source_url": "https://www.truclam.ca/",
+      "source_url": "https://www.truclam.ca/truclam",
       "notes": "Home of Edmonton Buddhist Research Institute; Most Ven. Thích Thiện Tâm and Ven. Abbot Thích Pháp Hòa. Vietnamese Thien with Pure Land elements."
     },
     {
@@ -141,7 +141,7 @@
       "lineage": "Vietnamese Thiền (Trúc Lâm)",
       "address": null,
       "url": "https://www.truclam.ca/taythien",
-      "source_url": "https://www.truclam.ca/",
+      "source_url": "https://www.truclam.ca/taythien",
       "notes": "Retreat center ~50km northwest of Edmonton, sister site to Trúc Lâm Monastery."
     },
     {
@@ -211,7 +211,7 @@
       "lineage": "Plum Village (Thich Nhat Hanh)",
       "address": "Roncesvalles United Church, 214 Wright Avenue, Toronto, ON M6R 1L3",
       "url": "https://mindfulnesspracticecommunity.org/",
-      "source_url": "https://mindfulnesspracticecommunity.org/our-teacher/",
+      "source_url": "https://mindfulnesspracticecommunity.org/",
       "notes": "Weekly sittings, in-person Saturdays."
     },
     {
@@ -221,7 +221,7 @@
       "lineage": "Plum Village (Thich Nhat Hanh)",
       "address": null,
       "url": "https://www.wakeuptoronto.ca/",
-      "source_url": "https://wkup.org/sangha-of-the-month/wake-up-toronto/",
+      "source_url": "https://www.wakeuptoronto.ca/",
       "notes": "Plum Village young-adult sangha, founded 2012."
     },
     {
@@ -339,8 +339,8 @@
       "region": "Quebec",
       "lineage": "Plum Village (Thich Nhat Hanh)",
       "address": null,
-      "url": "https://wkup.org/sangha-of-the-month/wake-up-montreal/",
-      "source_url": "https://wkup.org/sangha-of-the-month/wake-up-montreal/",
+      "url": "https://wkup.org/locations/montreal/",
+      "source_url": "https://wkup.org/locations/montreal/",
       "notes": "Young-adult Plum Village sangha; revived after hiatus."
     },
     {
@@ -349,8 +349,8 @@
       "region": "Quebec",
       "lineage": "Plum Village (Thich Nhat Hanh)",
       "address": null,
-      "url": "https://www.facebook.com/maplevillagesangha/",
-      "source_url": "https://wkup.org/sangha-of-the-month/wake-up-montreal/",
+      "url": "https://maplevillagesangha.org/",
+      "source_url": "https://maplevillagesangha.org/",
       "notes": "Zen meditation retreat center in tradition of Thich Nhat Hanh, Eastern Townships, QC."
     },
     {

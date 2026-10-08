@@ -886,7 +886,13 @@
       "url": "https://www.hokorizencenter.org/schedule",
       "source_url": "https://www.hokorizencenter.org/schedule",
       "notes": "The center's own pages identify its Lakeland community and current Saturday practice (checked 2026-10-08).",
-      "practiceDetails": { "schedule": { "value": "Saturday at 09:00; beginner instruction by appointment. Confirm before visiting.", "sourceUrl": "https://www.hokorizencenter.org/schedule", "checkedOn": "2026-10-08" } }
+      "practiceDetails": {
+        "schedule": {
+          "value": "Saturday at 09:00; beginner instruction by appointment. Confirm before visiting.",
+          "sourceUrl": "https://www.hokorizencenter.org/schedule",
+          "checkedOn": "2026-10-08"
+        }
+      }
     },
     {
       "name": "Open Mind Zen",
@@ -900,12 +906,12 @@
     },
     {
       "name": "Palmetto Zendo",
-      "city": "Tampa",
+      "city": "Fort Myers",
       "region": "Florida",
       "lineage": "White Plum (Maezumi lineage)",
-      "address": null,
+      "address": "13411 Shire Lane, Fort Myers, FL",
       "url": "https://palmettozendo.org/",
-      "source_url": "https://whiteplum.org/membership-list-public/",
+      "source_url": "https://palmettozendo.org/",
       "notes": "White Plum Asanga; teacher Andy Hoseki Solis."
     },
     {
@@ -1142,11 +1148,11 @@
       "name": "One River Zen",
       "city": "Ottawa",
       "region": "Illinois",
-      "lineage": "Zen Peacemakers",
-      "address": "Ottawa, IL",
-      "url": "https://onerivercenter.org/",
-      "source_url": "https://zenpeacemakers.org/membership/affiliate-network/",
-      "notes": "Zen Peacemakers affiliate."
+      "lineage": "Soto Zen (Katagiri / Diane Martin)",
+      "address": "121 E. Prospect Ave., Ottawa, IL",
+      "url": "https://oneriverzen.org/home",
+      "source_url": "https://oneriverzen.org/home",
+      "notes": "Current Ottawa practice group; its site describes a Soto lineage through Dainin Katagiri and Diane Martin, and Zen Peacemakers lists it as an affiliate."
     },
     {
       "name": "Empty Circle - NW Indiana Zen Group",
@@ -1320,13 +1326,13 @@
     },
     {
       "name": "Silver Spring Zendo / One Heart Sangha",
-      "city": "Silver Spring",
+      "city": "Washington",
       "region": "Maryland",
-      "lineage": "Zen Peacemakers / White Plum",
-      "address": "Silver Spring, MD",
-      "url": "https://silverspringzendo.org/",
-      "source_url": "https://zenpeacemakers.org/membership/affiliate-network/",
-      "notes": "Zen Peacemakers affiliate."
+      "lineage": "White Plum Asanga (Maezumi lineage) + Zen Peacemakers",
+      "address": "7750 16th St. NW, Washington, DC",
+      "url": "https://oneheartsangha.org/",
+      "source_url": "https://oneheartsangha.org/about/location/",
+      "notes": "One Heart Sangha meets in Washington, DC; its teachers page describes White Plum lineage and Zen Peacemakers lists it as an affiliate."
     },
     {
       "name": "Cambridge Zen Center",
@@ -1437,26 +1443,32 @@
       "url": "https://www.greenriverzen.org/",
       "source_url": "https://www.greenriverzen.org/",
       "notes": "The center's own page identifies its White Plum lineage and current South Deerfield meeting place (checked 2026-10-08).",
-      "practiceDetails": { "schedule": { "value": "Weekday mornings 06:00–07:00 online; Tuesday 18:00–19:30 online; Saturday 08:30–10:00 in person and online. Confirm before visiting.", "sourceUrl": "https://www.greenriverzen.org/", "checkedOn": "2026-10-08" } }
+      "practiceDetails": {
+        "schedule": {
+          "value": "Weekday mornings 06:00–07:00 online; Tuesday 18:00–19:30 online; Saturday 08:30–10:00 in person and online. Confirm before visiting.",
+          "sourceUrl": "https://www.greenriverzen.org/",
+          "checkedOn": "2026-10-08"
+        }
+      }
     },
     {
       "name": "Day Star Sangha",
-      "city": "Worcester",
+      "city": "Wrentham",
       "region": "Massachusetts",
       "lineage": "White Plum (Maezumi lineage)",
-      "address": "Worcester, MA",
-      "url": "https://kevinhuntsensei.org/",
-      "source_url": "https://whiteplum.org/membership-list-public/",
-      "notes": "White Plum Asanga; teacher Kevin Jiun Hunt."
+      "address": "Wrentham, MA",
+      "url": "https://www.daystarzendo.org/",
+      "source_url": "https://www.daystarzendo.org/about-us",
+      "notes": "Current teachers lead online and monthly hybrid practice in Wrentham; founding teacher Kevin Jiun Hunt is retired."
     },
     {
       "name": "Full Moon Zen",
-      "city": "Brookline",
+      "city": "Cambridge",
       "region": "Massachusetts",
       "lineage": "White Plum (Maezumi lineage)",
-      "address": "Brookline, MA",
-      "url": "https://fullmoonzen.org/",
-      "source_url": "https://whiteplum.org/membership-list-public/",
+      "address": "5 Longfellow Park, Cambridge, MA",
+      "url": "https://www.fullmoonzen.org/",
+      "source_url": "https://www.fullmoonzen.org/directions",
       "notes": "White Plum Asanga; teacher Jeff Kogen Seul."
     },
     {
@@ -1668,7 +1680,13 @@
       "url": "https://heartcirclezen.org/events-2",
       "source_url": "https://heartcirclezen.org/events-2",
       "notes": "The current Heart Circle Zen site gives the Hackensack address and weekly practice; White Plum's member profile still lists an older Ridgewood address (checked 2026-10-08).",
-      "practiceDetails": { "schedule": { "value": "Sunday 09:30–12:30 in person and online. Confirm before visiting.", "sourceUrl": "https://heartcirclezen.org/events-2", "checkedOn": "2026-10-08" } }
+      "practiceDetails": {
+        "schedule": {
+          "value": "Sunday 09:30–12:30 in person and online. Confirm before visiting.",
+          "sourceUrl": "https://heartcirclezen.org/events-2",
+          "checkedOn": "2026-10-08"
+        }
+      }
     },
     {
       "name": "Morning Star Zendo",

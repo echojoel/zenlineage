@@ -10,27 +10,27 @@ establish a group's current activity, lineage, or safeguarding.
 
 | Check | Result |
 |---|---:|
-| Place records | 1,696 |
-| Distinct preferred URLs checked | 1,348 |
-| URLs returning 2xx/3xx | 1,107 |
+| Place records | 1,694 |
+| Distinct preferred URLs checked | 1,347 |
+| URLs returning 2xx/3xx | 1,112 |
 | URLs returning 404/410 | 13 (used by 15 records) |
 | URLs blocked or rate limited | 20 (used by 22 records) |
-| URLs with inconclusive network/server results | 208 (used by 216 records) |
+| URLs with inconclusive network/server results | 202 (used by 218 records) |
 | Records with no preferred URL | 9 |
-| Records with only a `popular`-class citation | 525 |
-| Records needing an item-level check because their sole citation is broad | 351 |
-| Records queued to check first (overlapping signals combined) | 888 |
-| City-level, approximate map pins | 872 |
+| Records with only a `popular`-class citation | 510 |
+| Records needing an item-level check because their sole citation is broad | 335 |
+| Records queued to check first (overlapping signals combined) | 857 |
+| City-level, approximate map pins | 874 |
 
 Every remaining place has exactly one citation, currently attached to `coordinates`.
 That citation alone cannot establish affiliation, an active schedule, or a
-safeguarding process. The seed labels all 1,696 places `active`, but it has no
+safeguarding process. The seed labels all 1,694 places `active`, but it has no
 per-place last-checked date. The public map and exported JSON no longer expose
 that seed status as a verified claim.
 
-The 351 broad-page citations comprise 259 rows citing Plum Village's
+The 335 broad-page citations comprise 248 rows citing Plum Village's
 [monastic centres page](https://plumvillage.org/community/monastic-practice-centres)
-and 92 citing the [White Plum founder page](https://whiteplum.org/founder/).
+and 87 citing the [White Plum founder page](https://whiteplum.org/founder/).
 Those pages do not individually support all the lay groups assigned to them.
 The review queue now flags each for a direct group or institutional listing.
 This is a limitation of our citations, not a claim that any group has doubtful
@@ -166,6 +166,23 @@ Hackensack, Hokori from Boca Raton to Lakeland, Green River from Greenfield to
 South Deerfield, and Joyful Mind from Delaware to Rockville, Maryland. The
 remaining six records lacked enough current, item-level evidence and remain
 queued without an adverse finding.
+
+A fourth batch consolidated the duplicate “Plum Village Australia” record
+into [Stream Entering Monastery](https://plumvillage.org/practice-centre/stream-entering-monastery),
+using Plum Village's current Porcupine Ridge address. It also replaced broad
+citations for eight Plum Village tradition groups in Brazil and Canada with
+their own or their network's item-level pages. Current group sites corrected
+Maple Village's preferred link and the Montréal and Vancouver links.
+
+Direct group and network pages replaced generic citations for five Australian
+Zen groups, Nan Tien and Chung Tian temples, six Hong Kong and German groups,
+and five United States sanghas. Current venues moved Palmetto Zendo from Tampa
+to Fort Myers, One Heart Sangha from Silver Spring to Washington, Day Star
+from Worcester to Wrentham, and Full Moon Zen from Boston to Cambridge. One
+River Zen's own site also supplied its Ottawa venue and Sōtō lineage. The
+Aarhus Zendo active listing was removed because Øsal Ling's current site says
+that Sōtō Zen Aarhus has closed. None of these listing changes is a conduct
+finding.
 
 The source seed is now deterministic: maintained practice-directory metadata
 overrides generic historical stubs. Before this fix, running the teaching seed
