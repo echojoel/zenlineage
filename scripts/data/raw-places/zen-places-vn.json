@@ -18,8 +18,8 @@
       "lineage": "Trúc Lâm Yên Tử",
       "address": "Thôn Nam Mẫu, xã Thượng Yên Công, thành phố Uông Bí, tỉnh Quảng Ninh, Việt Nam",
       "url": "http://www.truclamyentu.com.vn",
-      "source_url": "https://ngaoduthegioi.com.vn/19-thien-vien-truc-lam-phan-1",
-      "notes": "Modern center of the Trúc Lâm Yên Tử Zen school, rebuilt on the historic chùa Lân / Long Động Tự where King Trần Nhân Tông taught in the 13th century."
+      "source_url": "https://truclamyentu.com.vn/linh-thieng-thien-vien-truc-lam-yen-tu-16623.aspx",
+      "notes": "Official provincial Buddhist Sangha information identifies the monastery as a place for meditation instruction for monastics, Buddhists, and other interested people, alongside tourism and pilgrimage functions; recurring public session details were not established."
     },
     {
       "name": "Thiền viện Trúc Lâm Đà Lạt",
@@ -27,9 +27,9 @@
       "region": "Lâm Đồng Province",
       "lineage": "Trúc Lâm Yên Tử",
       "address": "Đường Trúc Lâm Yên Tử, phường 3, thành phố Đà Lạt, tỉnh Lâm Đồng, Việt Nam",
-      "url": "https://vi.wikipedia.org/wiki/Thi%E1%BB%81n_vi%E1%BB%87n_Tr%C3%BAc_L%C3%A2m_%C4%90%C3%A0_L%E1%BA%A1t",
-      "source_url": "https://dalattrongtoi.com/tin-tuc/thien-vien-truc-lam-da-lat-2.html",
-      "notes": "Large Trúc Lâm Zen monastery on Phụng Hoàng mountain above Tuyền Lâm Lake, founded in the 1990s as one of three major Trúc Lâm centers in Việt Nam."
+      "url": "https://lamdong.gov.vn/sites/dulich/danh-lam-thang-canh/SitePages/Thien-Vien-Truc-Lam.aspx",
+      "source_url": "https://lamdong.gov.vn/sites/dulich/danh-lam-thang-canh/SitePages/Thien-Vien-Truc-Lam.aspx",
+      "notes": "Lâm Đồng provincial government describes location, resident monastics, and daily monastic training. This indicates institutional practice, not a lay public timetable; the site also serves visitors."
     },
     {
       "name": "Thiền viện Trúc Lâm Tây Thiên",
@@ -38,8 +38,8 @@
       "lineage": "Trúc Lâm Yên Tử",
       "address": "Xã Đại Đình, huyện Tam Đảo, tỉnh Vĩnh Phúc, Việt Nam",
       "url": "https://vi.wikipedia.org/wiki/Thi%E1%BB%81n_vi%E1%BB%87n_Tr%C3%BAc_L%C3%A2m_T%C3%A2y_Thi%C3%AAn",
-      "source_url": "https://www.ivivu.com/blog/2022/12/thien-vien-truc-lam-tay-thien-thang-canh-phat-phap-o-tam-dao/",
-      "notes": "One of the three largest Trúc Lâm Zen monasteries, built 2004–2005 near the ancient Tây Thiên sacred site; functions as a training center for Trúc Lâm monks and lay practitioners."
+      "source_url": "https://dulichphutho.gov.vn/diemden/thien-vien-truc-lam-tay-thien",
+      "notes": "Official Phú Thọ tourism portal identifies the Trúc Lâm monastery in the Tây Thiên scenic complex and its pilgrimage/visitor role; no recurring public Zen timetable was found."
     },
     {
       "name": "Thiền viện Trúc Lâm Bạch Mã",
@@ -139,7 +139,7 @@
       "address": "Phường Gia Lộc, thị xã Trảng Bàng, tỉnh Tây Ninh, Việt Nam",
       "url": "https://baomoi.com/le-cau-nguyen-khoi-cong-xay-dung-ngoi-chanh-dien-thien-vien-truc-lam-tay-ninh-c54191077.epi",
       "source_url": "https://baomoi.com/thien-vien-truc-lam-tay-ninh-to-chuc-le-cau-nguyen-kien-tao-ngoi-dai-hung-bao-dien-va-to-duong-c55004177.epi",
-      "notes": "New Trúc Lâm monastery in Tây Ninh; ground-breaking for the main hall and tổ đường was held in 2026 with the Thiền phái Trúc Lâm Việt Nam board presiding."
+      "notes": "Available report concerns a prayer and construction ceremony; it is event evidence, not evidence of recurring public practice. Current regular schedule remains unverified."
     },
     {
       "name": "Tổ đình Từ Hiếu",
@@ -218,8 +218,8 @@
       "lineage": "Vietnamese Thiền (Trúc Lâm)",
       "address": "Tân Phước District, Tiền Giang",
       "url": "https://thienvientruclamchanhgiac.com/",
-      "source_url": "https://en.wikipedia.org/wiki/Tr%C3%BAc_L%C3%A2m",
-      "notes": "Large Trúc Lâm monastery in the Mekong Delta region of southern Vietnam."
+      "source_url": "https://dulich.dongthap.gov.vn/vi/thienvientruclam",
+      "notes": "Official Đồng Tháp tourism portal identifies site and location as a visitor destination; it does not establish a recurring public practice schedule."
     },
     {
       "name": "Trúc Lâm Sùng Phúc Zen Monastery",
@@ -228,8 +228,8 @@
       "lineage": "Vietnamese Thiền (Trúc Lâm)",
       "address": "Cự Khối, Long Biên, Hanoi",
       "url": "https://thienviensungphuc.net/",
-      "source_url": "https://en.wikipedia.org/wiki/Tr%C3%BAc_L%C3%A2m",
-      "notes": "Trúc Lâm monastery in the Long Biên district of Hanoi."
+      "source_url": "https://thienviensungphuc.net/",
+      "notes": "Monastery website is the institutional source for its identity and announcements. General institutional or retreat activity does not establish recurring open public practice without an explicit schedule."
     },
     {
       "name": "Trúc Lâm Hàm Rồng Zen Monastery",
@@ -238,8 +238,8 @@
       "lineage": "Vietnamese Thiền (Trúc Lâm)",
       "address": "Hàm Rồng Mountain, Thanh Hóa",
       "url": "https://truclamhamrong.com/",
-      "source_url": "https://en.wikipedia.org/wiki/Tr%C3%BAc_L%C3%A2m",
-      "notes": "Trúc Lâm monastery on Hàm Rồng (Dragon's Jaw) mountain in north-central Vietnam."
+      "source_url": "https://truclamhamrong.com/",
+      "notes": "Monastery website is the institutional source for its identity and announcements; reviewed evidence did not establish a recurring public Zen schedule."
     },
     {
       "name": "Trúc Lâm Tuệ Đức Zen Monastery",
@@ -248,8 +248,8 @@
       "lineage": "Vietnamese Thiền (Trúc Lâm)",
       "address": "Sông Lô, Vĩnh Phúc",
       "url": "https://truclamtueduc.com/",
-      "source_url": "https://en.wikipedia.org/wiki/Tr%C3%BAc_L%C3%A2m",
-      "notes": "Trúc Lâm monastery in Vĩnh Phúc province, northern Vietnam."
+      "source_url": "https://thienvientueduc.org/",
+      "notes": "Monastery website identifies itself as the official site and posts teachings; this supports institutional identity, not by itself recurring open public practice."
     },
     {
       "name": "Diệu Trạm Monastery",

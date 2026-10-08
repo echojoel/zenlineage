@@ -18,8 +18,8 @@
       "lineage": "Rinzai-shū Myōshin-ji-ha",
       "address": "64 Hanazono Myoshinji-cho, Ukyo-ku, Kyoto-shi, Kyoto 616-8035, Japan",
       "url": "https://www.myoshinji.or.jp/english/",
-      "source_url": "https://zen.rinnou.net/head_temples/01myoshin.html",
-      "notes": "Head temple of the Myōshin-ji branch of the Rinzai school, established in 1337 by Emperor Hanazono with Kanzan Egen as founding abbot."
+      "source_url": "https://www.myoshinji.or.jp/english/zen/info.html",
+      "notes": "Official Myōshin-ji information documents monthly public Zendō-kai on the 7th and 8th (zazen and teishō) and selected Saturday zazenkai; reservation, capacity, language, and schedule limits apply."
     },
     {
       "name": "Nanzen-ji",
@@ -28,8 +28,8 @@
       "lineage": "Rinzai-shū Nanzen-ji-ha",
       "address": "Nanzenji Fukuchicho, Sakyo-ku, Kyoto-shi, Kyoto 606-8435, Japan",
       "url": "https://kyoto.travel/en/destinations/nanzenji-temple/",
-      "source_url": "https://en.wikipedia.org/wiki/Nanzen-ji",
-      "notes": "Historic head temple of the Nanzen-ji branch of the Rinzai sect, founded in 1291 at the base of Kyoto's Higashiyama hills."
+      "source_url": "http://www.nanzen.net/english/",
+      "notes": "Official temple site supports institutional and visitor identity; a recurring public zazen timetable was not established from reviewed official evidence."
     },
     {
       "name": "Kenchō-ji",
@@ -148,8 +148,8 @@
       "lineage": "Ōbaku-shū (Manpuku-ji)",
       "address": "34 Gokasho Sanbanwari, Uji-shi, Kyoto 611-0011, Japan",
       "url": "https://www.obakusan.or.jp/",
-      "source_url": "https://zen.rinnou.net/head_temples/15manpuku.html",
-      "notes": "Head temple of the Ōbaku school of Zen, founded in 1661 by Chinese master Ingen; its Chinese-style monastic compound in Uji remains an active zazen training site."
+      "source_url": "https://www.obakusan.or.jp/en/",
+      "notes": "Official temple site identifies the Ōbaku head temple and visitor-facing information; no recurring public zazen schedule was established."
     },
     {
       "name": "Ryūtaku-ji",
@@ -168,8 +168,8 @@
       "lineage": "Rinzai-shū (Kokeizan Eiho-ji)",
       "address": "1-40 Kokeizan-cho, Tajimi-shi, Gifu 507-0014, Japan",
       "url": "https://kokeizan.or.jp/en/pages/4/",
-      "source_url": "https://visitgifu.com/see-do/eiho-ji-temple/",
-      "notes": "Historic Rinzai temple in Tajimi known for early-morning zazen and sutra-copying; cited as a major training monastery in the contemporary Rinzai network."
+      "source_url": "https://kokeizan.or.jp/en/pages/4/",
+      "notes": "Official temple site supports temple identity and visitor information. Heritage and visitor access do not by themselves establish a recurring public Zen practice schedule."
     },
     {
       "name": "Daihonzan Eihei-ji Betsuin Chōkoku-ji (Hase-dera)",
@@ -226,10 +226,10 @@
       "city": "Nagoya",
       "region": "Aichi Prefecture",
       "lineage": "Sōtō (Aichi Senmon Nisōdō, nuns' training sōdō)",
-      "address": "1-80 Shiroyama-cho, Chikusa-ku, Nagoya-shi, Aichi 464-0045, Japan",
-      "url": "https://www.sotozen.com/ita/temples/jp/shoboji.html",
-      "source_url": "https://www.sotozen.com/ita/temples/jp/shoboji.html",
-      "notes": "Sōtō Zen's official temple directory identifies Shōbō-ji in Nagoya as the Aichi specialist training monastery for nuns (checked 2026-10-08)."
+      "address": "80-1 Shiroyama-cho, Chikusa-ku, Nagoya, Aichi 464-0045, Japan",
+      "url": "https://www.sotozen-net.or.jp/organization/sodo-list",
+      "source_url": "https://www.sotozen-net.or.jp/organization/sodo-list",
+      "notes": "The Sōtō school’s current official training-monastery list identifies Aichi Senmon Nisōdō inside Shōbō-ji and gives the Nagoya address and telephone number. It is a specialist monastic training institution; this does not establish public drop-in practice. Checked 2026-10-08."
     },
     {
       "name": "Tōshō-ji (Dōmatsu-ji senmon sōdō)",

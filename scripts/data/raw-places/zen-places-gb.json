@@ -805,16 +805,6 @@
       "notes": "Plum Village UK group."
     },
     {
-      "name": "Two Rivers Sangha",
-      "city": "Reading",
-      "region": "England",
-      "lineage": "Plum Village",
-      "address": "Pilates of Berkshire, 101 London Street, Reading RG1 4QA",
-      "url": "https://plumvillage.uk/group/two-rivers-sangha/",
-      "source_url": "https://plumvillage.uk/group/two-rivers-sangha/",
-      "notes": "Official profile confirms the Reading group and venue, but its frequency fields conflict; confirm the next meeting before visiting (checked 2026-10-08)."
-    },
-    {
       "name": "Heart of the Forest Sangha",
       "city": "Forest Row",
       "region": "England",
@@ -944,5 +934,8 @@
       "source_url": "https://www.londonfgs.org.uk/where-to-find-us",
       "notes": "The temple’s current visitor page gives its address and opening hours and describes it as part of Fo Guang Shan, dedicated to Humanistic Buddhism. No founding year or recurring Chan practice schedule is asserted. OpenStreetMap address match: 51.5170869, -0.1381865. Checked 2026-10-08."
     }
-  ]
+  ],
+  "audit": {
+    "batch26_note": "Two Rivers Sangha was removed from the current-practice map on 2026-10-08 because it is absent from the current Plum Village UK group directory and its former item page returns 404. This is a directory-status decision, not evidence of dissolution or misconduct."
+  }
 }

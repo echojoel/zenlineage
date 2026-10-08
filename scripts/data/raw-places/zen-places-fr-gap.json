@@ -556,21 +556,21 @@
       "name": "Sé-un Zendo (Cambous)",
       "city": "Saint-André-de-Sangonis",
       "region": "Occitanie",
-      "lineage": "Sōtō zen (independent)",
-      "address": "Cambous, 34725 Saint-André-de-Sangonis",
+      "lineage": "Zen (specific lineage unverified)",
+      "address": null,
       "url": "https://bouddha.ch/adresses_france.htm",
       "source_url": "https://bouddha.ch/adresses_france.htm",
-      "notes": "Hérault rural zendo."
+      "notes": "The cited third-party directory is the only source located in this review. Current activity, exact venue, and lineage remain unverified."
     },
     {
       "name": "Méditations Zen Sōtō Marseille (Uchiyama)",
       "city": "Marseille",
       "region": "PACA",
-      "lineage": "Sōtō (Uchiyama Kōshō line)",
-      "address": "10 traverse de la Gaye, 13009 Marseille",
+      "lineage": "Zen (specific lineage unverified)",
+      "address": null,
       "url": "https://bouddha.ch/adresses_france.htm",
       "source_url": "https://bouddha.ch/adresses_france.htm",
-      "notes": "A stale directory lists Monday 18:15–20:00 practice at Château Sec/La Passerelle, 10 traverse de la Gaye, 13009 Marseille; a secondary Buddhist directory repeats the venue and Uchiyama Sōtō lineage. No current first-party schedule or venue confirmation was found. Retained with schedule, venue, and lineage details explicitly unverified."
+      "notes": "The cited address is a third-party directory entry. This review found no first-party page confirming the group, venue, schedule, or Uchiyama lineage; those details remain unverified."
     },
     {
       "name": "Dojo Zen Ceyreste–La Ciotat",
@@ -636,11 +636,11 @@
       "name": "Groupe Zen de Guadeloupe (Le Gosier)",
       "city": "Le Gosier",
       "region": "Guadeloupe (FR DROM)",
-      "lineage": "Sōtō zen",
-      "address": "Maison des Jeunes et de la Culture du Gosier, Le Gosier",
+      "lineage": "Zen (specific lineage unverified)",
+      "address": null,
       "url": "https://bouddha.ch/adresses_france.htm",
       "source_url": "https://bouddha.ch/adresses_france.htm",
-      "notes": "French overseas zen group."
+      "notes": "The cited address is a third-party directory entry. This review found no first-party source confirming current activity, the venue, or the Sōtō label; those details remain unverified."
     },
     {
       "name": "Sangha Fleurs de Vacuité",
@@ -900,7 +900,7 @@
       "address": null,
       "url": "https://sites.google.com/site/sanghalileinterieure",
       "source_url": "https://plumvillage.org/wp-content/uploads/2024/05/Liste_sangha_franco-15-04-2024.pdf",
-      "notes": "Haute-Garonne."
+      "notes": "Plum Village’s official francophone sangha directory (15 Apr 2024) lists L’Île Intérieure in Toulouse. This supports the group identity and city; no current schedule is inferred."
     },
     {
       "name": "Sangha Montbrun-Bocage",
@@ -970,7 +970,7 @@
       "address": null,
       "url": "https://plumvillage.org/community/international-sangha-directory",
       "source_url": "https://plumvillage.org/wp-content/uploads/2024/05/Liste_sangha_franco-15-04-2024.pdf",
-      "notes": "Indre-et-Loire."
+      "notes": "Plum Village’s official francophone sangha directory (15 Apr 2024) lists the Hirondelles sangha in Tours. This supports the group identity and city; no current schedule is inferred."
     },
     {
       "name": "Sangha Cercle des Montagnes (Crolles)",
@@ -1130,7 +1130,7 @@
       "address": null,
       "url": "https://contact79094.wixsite.com/sanghadelille",
       "source_url": "https://plumvillage.org/wp-content/uploads/2024/05/Liste_sangha_franco-15-04-2024.pdf",
-      "notes": "Nord; umbrella for Hauts-de-France."
+      "notes": "Plum Village’s official francophone sangha directory (15 Apr 2024) lists the Lille sangha under its name. This supports the group identity and city; no current schedule is inferred."
     },
     {
       "name": "Sangha Chocolat (Fournes-en-Weppes)",
@@ -1300,7 +1300,7 @@
       "address": null,
       "url": "http://chemindeveil.overblog.com",
       "source_url": "https://plumvillage.org/wp-content/uploads/2024/05/Liste_sangha_franco-15-04-2024.pdf",
-      "notes": "Rhône."
+      "notes": "Plum Village’s official francophone sangha directory (15 Apr 2024) lists the Marronniers sangha in Lyon. This supports the group identity and city; no current schedule is inferred."
     },
     {
       "name": "Sangha Lotus des Montagnes (Chambéry)",
@@ -1360,7 +1360,7 @@
       "address": null,
       "url": "https://plumvillage.org/community/international-sangha-directory",
       "source_url": "https://plumvillage.org/wp-content/uploads/2024/05/Liste_sangha_franco-15-04-2024.pdf",
-      "notes": "Yvelines."
+      "notes": "Plum Village’s official francophone sangha directory (15 Apr 2024) lists La Sangha de L’Ouest in La Celle-Saint-Cloud. This supports the group identity and city; no current schedule is inferred."
     },
     {
       "name": "Sangha du Souffle (Niort)",
@@ -1370,7 +1370,7 @@
       "address": null,
       "url": "https://plumvillage.org/community/international-sangha-directory",
       "source_url": "https://plumvillage.org/wp-content/uploads/2024/05/Liste_sangha_franco-15-04-2024.pdf",
-      "notes": "Deux-Sèvres."
+      "notes": "Plum Village’s official francophone sangha directory (15 Apr 2024) lists Sangha du Souffle in Niort. This supports the group identity and city; no current schedule is inferred."
     },
     {
       "name": "Sangha Île Intérieure (Albi–Gaillac–Graulhet)",
@@ -1430,7 +1430,7 @@
       "address": null,
       "url": "https://plumvillage.org/community/international-sangha-directory",
       "source_url": "https://plumvillage.org/wp-content/uploads/2024/05/Liste_sangha_franco-15-04-2024.pdf",
-      "notes": "Vaucluse."
+      "notes": "Plum Village’s official francophone sangha directory (15 Apr 2024) lists Sangha des Aubépines in Avignon. This supports the group identity and city; no current schedule is inferred."
     },
     {
       "name": "Sangha Jardin d'Éveil du Pays d'Aigues",
@@ -1479,28 +1479,28 @@
       "lineage": "Plum Village",
       "address": null,
       "url": "https://plumvillage.org/community/international-sangha-directory",
-      "source_url": "https://bouddha.ch/adresses_france.htm",
-      "notes": "Hauts-de-Seine Thich Nhat Hanh group."
+      "source_url": "https://plumvillage.org/wp-content/uploads/2024/05/Liste_sangha_franco-15-04-2024.pdf",
+      "notes": "Plum Village’s official francophone sangha directory (15 Apr 2024) lists a Châtenay-Malabry sangha. This supports the group identity and city; it does not establish a current meeting schedule or venue."
     },
     {
       "name": "Sangha de Toulouse (Plum Village - 6 avril 1944)",
       "city": "Toulouse",
       "region": "Occitanie",
       "lineage": "Plum Village",
-      "address": "48 bis cité du 6 avril 1944, 31400 Toulouse",
+      "address": null,
       "url": "https://plumvillage.org/community/international-sangha-directory",
-      "source_url": "https://bouddha.ch/adresses_france.htm",
-      "notes": "Distinct from Île Intérieure Toulouse."
+      "source_url": "https://plumvillage.org/wp-content/uploads/2024/05/Liste_sangha_franco-15-04-2024.pdf",
+      "notes": "Plum Village’s official francophone sangha directory (15 Apr 2024) lists a Toulouse sangha. This supports the group identity and city; it does not establish a current meeting schedule or venue."
     },
     {
       "name": "Sangha de Beuzec Cap Sizun",
       "city": "Beuzec-Cap-Sizun",
       "region": "Bretagne",
       "lineage": "Plum Village",
-      "address": "3 route du Millier, 29790 Beuzec-Cap-Sizun",
+      "address": null,
       "url": "https://plumvillage.org/community/international-sangha-directory",
-      "source_url": "https://bouddha.ch/adresses_france.htm",
-      "notes": "Finistère ouest."
+      "source_url": "https://plumvillage.org/wp-content/uploads/2024/05/Liste_sangha_franco-15-04-2024.pdf",
+      "notes": "Plum Village’s official francophone sangha directory (15 Apr 2024) lists this sangha in Finistère. It supports the sangha identity and regional location; the listed address has no separately confirmed first-party source here. Current meeting status and schedule are not established by that directory."
     },
     {
       "name": "Sangha de Lablachère",
