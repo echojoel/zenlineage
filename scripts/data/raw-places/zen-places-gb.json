@@ -620,9 +620,9 @@
       "region": "Scotland",
       "lineage": "Plum Village (Thich Nhat Hanh / Thiền)",
       "address": null,
-      "url": "https://plumvillage.uk/practice-groups/find-a-group/",
-      "source_url": "https://plumvillage.uk/practice-groups/find-a-group/",
-      "notes": "Plum Village UK in-person sangha."
+      "url": "https://plumvillage.uk/group/touching-the-earth-sangha/",
+      "source_url": "https://plumvillage.uk/group/touching-the-earth-sangha/",
+      "notes": "Official Plum Village UK profile lists monthly Sunday and weekly Wednesday practice near Aberdeen; request the exact venue before visiting (checked 2026-10-08)."
     },
     {
       "name": "Still Waters Sangha",
@@ -669,10 +669,10 @@
       "city": "Bristol",
       "region": "England",
       "lineage": "Plum Village",
-      "address": null,
-      "url": "https://plumvillage.uk/practice-groups/find-a-group/",
-      "source_url": "https://plumvillage.uk/practice-groups/find-a-group/",
-      "notes": "Plum Village UK group."
+      "address": "Redland Quaker Meeting House, 126 Hampton Road, Bristol BS6 6JE",
+      "url": "https://plumvillage.uk/group/white-clouds-sangha-3/",
+      "source_url": "https://plumvillage.uk/group/white-clouds-sangha-3/",
+      "notes": "Official profile lists in-person practice on first, third, and fifth Wednesdays and online meetings on other Wednesdays; confirm before visiting (checked 2026-10-08)."
     },
     {
       "name": "Cambridge Interbeing Sangha",
@@ -739,10 +739,10 @@
       "city": "Edinburgh",
       "region": "Scotland",
       "lineage": "Plum Village",
-      "address": null,
-      "url": "https://plumvillage.uk/practice-groups/find-a-group/",
-      "source_url": "https://plumvillage.uk/practice-groups/find-a-group/",
-      "notes": "Plum Village UK group."
+      "address": "St Mark's Unitarian Church, 7 Castle Terrace, Edinburgh EH1 2DP",
+      "url": "https://wildgeesezen.org/regular-meetings/",
+      "source_url": "https://plumvillage.uk/group/wild-geese-sangha/",
+      "notes": "Plum Village UK confirms the Edinburgh group; its own site lists Thursday evening and Friday morning meetings, but confirm the current schedule before visiting (checked 2026-10-08)."
     },
     {
       "name": "Dear Green Sangha",
@@ -809,10 +809,10 @@
       "city": "Reading",
       "region": "England",
       "lineage": "Plum Village",
-      "address": null,
-      "url": "https://plumvillage.uk/practice-groups/find-a-group/",
-      "source_url": "https://plumvillage.uk/practice-groups/find-a-group/",
-      "notes": "Plum Village UK group."
+      "address": "Pilates of Berkshire, 101 London Street, Reading RG1 4QA",
+      "url": "https://plumvillage.uk/group/two-rivers-sangha/",
+      "source_url": "https://plumvillage.uk/group/two-rivers-sangha/",
+      "notes": "Official profile confirms the Reading group and venue, but its frequency fields conflict; confirm the next meeting before visiting (checked 2026-10-08)."
     },
     {
       "name": "Heart of the Forest Sangha",
@@ -929,10 +929,10 @@
       "city": "London",
       "region": "Greater London",
       "lineage": "Plum Village (Thich Nhat Hanh)",
-      "address": "Friends Meeting House, 8 Hop Gardens, London WC2N 4EH, United Kingdom",
-      "url": "https://plumvillage.uk/practice-groups/find-a-group/wake-up-uk/",
-      "source_url": "https://plumvillage.uk/practice-groups/find-a-group/wake-up-uk/",
-      "notes": "Wake Up sangha for under-35s in London practicing mindfulness in the Plum Village tradition; meets in person weekly near Leicester Square, including a joint Wednesday evening session at 8 Hop Gardens with Heart of London Sangha and a Saturday Afternoon of Mindfulness for young adults. Activities follow Thich Nhat Hanh teachings and the Five Mindfulness Trainings with guided meditation, walking, relaxation, and Dharma sharing."
+      "address": "8 Hop Gardens, London WC2N 4EH",
+      "url": "https://wakeuplondon.org/",
+      "source_url": "https://plumvillage.uk/group/wake-up-london/",
+      "notes": "The group site and Plum Village UK profile confirm a young-adult Plum Village community and Saturday afternoon practice; check for current dates (checked 2026-10-08)."
     }
   ]
 }

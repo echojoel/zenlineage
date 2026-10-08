@@ -482,10 +482,10 @@
       "city": "Oakland",
       "region": "California",
       "lineage": "White Plum (Diane Rizzetto lineage)",
-      "address": "Oakland, CA",
+      "address": "Oakland, CA (consult current site for the meeting address)",
       "url": "https://bayzen.org/",
-      "source_url": "https://whiteplum.org/membership-map/",
-      "notes": "White Plum Asanga member."
+      "source_url": "https://www.bayzen.org/",
+      "notes": "The center lists current Wednesday evening and Saturday morning in-person and online practice; its teacher describes a White Plum connection (checked 2026-10-08)."
     },
     {
       "name": "San Luis Obispo Zen Circle",
@@ -536,16 +536,6 @@
       "url": "https://www.lostcoinzen.com/",
       "source_url": "https://www.lostcoinzen.com/recent-and-future-event/",
       "notes": "Active White Plum community with a monthly public Sunday sit and online practice; consult the current calendar."
-    },
-    {
-      "name": "Freeway Zen",
-      "city": "San Diego",
-      "region": "California",
-      "lineage": "White Plum (Maezumi lineage)",
-      "address": null,
-      "url": "https://freewayzen.org/",
-      "source_url": "https://whiteplum.org/membership-list-public/",
-      "notes": "White Plum Asanga member."
     },
     {
       "name": "Dharma Zen Center",
@@ -1389,10 +1379,10 @@
       "city": "Worcester",
       "region": "Massachusetts",
       "lineage": "Sōtō / Korean Linji (Boundless Way Zen)",
-      "address": "Worcester, MA 01602",
-      "url": "https://boundlesswayzen.org/",
-      "source_url": "https://boundlesswayzen.org/",
-      "notes": "Boundless Way Zen temple with Japanese Sōtō and Korean Linji roots; consult the current schedule before visiting."
+      "address": "1030 Pleasant Street, Worcester, MA",
+      "url": "https://boundlessway.org/weekly-practice/",
+      "source_url": "https://boundlessway.org/weekly-practice/",
+      "notes": "Current organization pages list daily meditation, local practice groups, and a 2026–27 retreat calendar at the Worcester temple (checked 2026-10-08)."
     },
     {
       "name": "Valley Zendo",
@@ -1480,16 +1470,6 @@
       "url": "https://eastrocksangha.org/",
       "source_url": "https://diamondsangha.org/resources-2/links/",
       "notes": "Diamond Sangha affiliate spanning MA/CT."
-    },
-    {
-      "name": "Awakening Dharma",
-      "city": "Ann Arbor",
-      "region": "Michigan",
-      "lineage": "White Plum (Maezumi lineage)",
-      "address": null,
-      "url": "https://awakeningdharma.org/",
-      "source_url": "https://awakeningdharma.org/",
-      "notes": "White Plum Asanga; teacher Stephen Mugen Snyder."
     },
     {
       "name": "Great Wave Zen Sangha",
@@ -1959,26 +1939,6 @@
       "notes": "Mountains and Rivers Order formal affiliate."
     },
     {
-      "name": "Hudson River Peacemaker Center",
-      "city": "Yonkers",
-      "region": "New York",
-      "lineage": "Zen Peacemakers",
-      "address": "Yonkers, NY",
-      "url": "https://hudsonriverpeacemakercenter.org/",
-      "source_url": "https://zenpeacemakers.org/membership/affiliate-network/",
-      "notes": "Zen Peacemakers affiliate; Bernie Glassman lineage."
-    },
-    {
-      "name": "Hudson River Zen Center",
-      "city": "Bronx",
-      "region": "New York",
-      "lineage": "Zen Peacemakers / White Plum",
-      "address": "Bronx, NY",
-      "url": "https://hudsonriverzencenter.org/",
-      "source_url": "https://zenpeacemakers.org/membership/affiliate-network/",
-      "notes": "Zen Peacemakers affiliate."
-    },
-    {
       "name": "Chapel Hill Zen Center",
       "city": "Chapel Hill",
       "region": "North Carolina",
@@ -2229,16 +2189,6 @@
       "notes": "Diamond Sangha affiliate."
     },
     {
-      "name": "Dragonfly Sangha",
-      "city": "Harrisburg",
-      "region": "Pennsylvania",
-      "lineage": "Zen Peacemakers",
-      "address": "Harrisburg, PA",
-      "url": "https://dragonflysangha.org/",
-      "source_url": "https://dragonflysangha.org/",
-      "notes": "Zen Peacemakers affiliate."
-    },
-    {
       "name": "Columbia Zen Buddhist Priory",
       "city": "Columbia",
       "region": "South Carolina",
@@ -2299,16 +2249,6 @@
       "notes": "SZBA member."
     },
     {
-      "name": "Hidden Mountain Zendo",
-      "city": "Houston",
-      "region": "Texas",
-      "lineage": "White Plum (Maezumi lineage)",
-      "address": "Houston, TX",
-      "url": "https://hiddenmountainzendo.org/",
-      "source_url": "https://whiteplum.org/membership-map/",
-      "notes": "White Plum Asanga; teacher Eric Kishin Arbiter."
-    },
-    {
       "name": "Living Water Zen Community",
       "city": "San Antonio",
       "region": "Texas",
@@ -2350,13 +2290,13 @@
     },
     {
       "name": "Bread Loaf Mountain Zen Community",
-      "city": "Cornwall",
+      "city": "Middlebury",
       "region": "Vermont",
       "lineage": "White Plum (Maezumi lineage)",
       "address": "76 Court Street, Middlebury, VT 05753",
       "url": "https://breadloafmountainzen.org/",
-      "source_url": "https://breadloafmountainzen.org/",
-      "notes": "White Plum Asanga; teachers Brian Joshin Byrnes, Peggy Genshin Kendo Murray, Eishō Sinclair."
+      "source_url": "https://breadloafmountainzen.org/about-blmzc/",
+      "notes": "Current center pages list daily meditation and Wednesday talks at No Barriers Temple, plus 2026 events; its guiding teacher identifies a White Plum lineage (checked 2026-10-08)."
     },
     {
       "name": "Shao Shan Temple",
@@ -2529,16 +2469,6 @@
       "notes": "Current center site identifies a Soto Zen community in the Maezumi–White Plum lineage; its schedule text conflicts on Saturday versus Sunday, so confirm before visiting (checked 2026-10-08)."
     },
     {
-      "name": "Banyan Dharma House",
-      "city": "Bellingham",
-      "region": "Washington",
-      "lineage": "White Plum (Maezumi lineage)",
-      "address": "Bellingham, WA",
-      "url": "https://whiteplum.org/membership-list-public/user/443",
-      "source_url": "https://whiteplum.org/membership-list-public/",
-      "notes": "White Plum Asanga; teacher Jeana Teiju Moore."
-    },
-    {
       "name": "Tahoma One Drop Zen Monastery",
       "city": "Freeland",
       "region": "Washington",
@@ -2646,7 +2576,7 @@
       "address": "W7762 Falk Road, Monroe, WI",
       "url": "https://greatplainszen.org/",
       "source_url": "https://greatplainszen.org/half-day-sittings/",
-      "notes": "Active White Plum center led by Susan Myoyu Andersen, with monthly half-day sittings and retreats; check the current calendar."
+      "notes": "Current pages list monthly sittings in Monroe, Sunday practice in Palatine, and 2026 retreats; its own lineage pages identify the Maezumi–White Plum connection (checked 2026-10-08)."
     },
     {
       "name": "Korinji Monastery",

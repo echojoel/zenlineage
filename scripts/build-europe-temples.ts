@@ -546,6 +546,51 @@ function pickSourceId(sourceUrl: string, lineage: string): string {
     return "src_kwanum_hungary_community";
   if (u.includes("sotozen.com/ita/temples/jp/shoboji"))
     return "src_aichi_nisodo_soto";
+  if (u.includes("plumvillage.uk/group/") || u.includes("plumvillage.uk/practice-groups/find-a-group"))
+    return "src_plum_village_uk_groups";
+  if (u.includes("stillwaterspvsangha.co.uk"))
+    return "src_still_waters_plum_village";
+  if (u.includes("mindfulnessireland.ie/sanghas-local-sanghas-across-ireland"))
+    return "src_mindfulness_ireland_sanghas";
+  if (u.includes("plumvillage-traditionen.se/sollandet"))
+    return "src_sollandet_sangha";
+  if (u.includes("trikayazencenter.org")) return "src_trikaya_zen";
+  if (u.includes("twostreamszen.org")) return "src_two_streams_zen";
+  if (u.includes("upaya.org/about/affiliates")) return "src_upaya_affiliates";
+  if (u.includes("zcla.org/about/affiliated-zen-groups"))
+    return "src_zcla_affiliates";
+  if (u.includes("zlmc.org/sunday-morning-zen"))
+    return "src_zen_life_meditation_chicago";
+  if (u.includes("bailinsi.net")) return "src_bailin_temple";
+  if (u.includes("damingsi.com")) return "src_daming_temple";
+  if (u.includes("jsfj.net/syzs_szhss")) return "src_hanshan_jiangsu_buddhist";
+  if (u.includes("lingyinsi.org")) return "src_lingyin_temple";
+  if (u.includes("zd.gov.cn/columns/761f6ac4"))
+    return "src_linji_zhengding_government";
+  if (u.includes("longthanh.dongnai.gov.vn") && u.includes("bieu2030_longthanh"))
+    return "src_longthanh_religious_sites";
+  if (u.includes("plumvillage-traditionen.se/groups"))
+    return "src_swedish_plum_village_groups";
+  if (u.includes("wakeuplondon.org")) return "src_wake_up_london";
+  if (u.includes("wakeup-lund.se")) return "src_wake_up_lund";
+  if (u.includes("wakeupnewyork.org")) return "src_wake_up_new_york";
+  if (u.includes("wkup.org/locations/")) return "src_wake_up_directory";
+  if (u.includes("oscailt.com/mindfulness-and-self-compassion/wake-up-dublin"))
+    return "src_oscailt_wake_up_dublin";
+  if (u.includes("wildgeesezen.org")) return "src_wild_geese_sangha";
+  if (u.includes("tulliogiraldi.it")) return "src_tullio_giraldi_chudo";
+  if (u.includes("buddhistdoor.net/directorio-de-comunidades-budistas-en-venezuela"))
+    return "src_buddhistdoor_venezuela";
+  if (u.includes("sotozencolombia.org/sangha-dokan-venezuela"))
+    return "src_sotozen_colombia_dokan";
+  if (u.includes("redestudiobudismo.com/directorio"))
+    return "src_rieb_venezuela_directory";
+  if (u.includes("bayzen.org")) return "src_bay_zen_center";
+  if (u.includes("breadloafmountainzen.org")) return "src_bread_loaf_zen";
+  if (u.includes("greatplainszen.org")) return "src_great_plains_zen";
+  if (u.includes("zen-imgruenenring.ch")) return "src_green_ring_zen";
+  if (u.includes("boundlessway.org/weekly-practice")) return "src_boundless_way";
+  if (u.includes("bupponansen.org")) return "src_buppo_valencia";
   if (u.includes("greenmountainzen.org.nz")) return "src_green_mountain_zen_site";
   if (u.includes("greenriverzen.org")) return "src_green_river_zen_site";
   if (u.includes("greyheronzen.ie")) return "src_grey_heron_zen_site";
@@ -959,7 +1004,6 @@ const MANUAL_COORDS: Record<string, ManualCoord> = {
   // Dunajska cesta 102 resolves to the SGGOŠ school building — which is
   // exactly where the sangha says it sits, in the school's dance hall.
   "One Drop Zendo Slovenija": [46.07314, 14.51343], // SGGOŠ, Dunajska cesta 102, Bežigrad
-  "Comunidad Zen de los Andes": [4.704874, -74.126102], // Carrera 107C at ~#142, Engativá, Bogotá
   // Ama Samy's newer foundation shares the hill village of Perumalmalai
   // with Bodhi Zendo; the village, not the building, is what is knowable
   // from published sources, so this pin says so.
@@ -1005,7 +1049,8 @@ const MANUAL_COORDS: Record<string, ManualCoord> = {
   "Birmingham Chan Group": [52.46953, -1.91592], // Friends Meeting House, St James Rd, Edgbaston B15 1JP
   "Birmingham Sangha": [52.42964, -1.89932], // Kings Heath Meeting House, 17 Colmore Rd, B14 7PE
   "Santa Rosa Zen Group": [38.41041, -122.55013], // The Kenwood Depot, 314 Warm Springs Rd, Kenwood CA 95452
-  "Hudson River Peacemaker Center": [40.93121, -73.89875, "city"], // Yonkers; no venue published separately from Greyston
+  "Sangha Dōkan Venezuela": [10.5031893, -66.9156026], // Esquina de Pajaritos, Avenida Oeste 6, Caracas
+  "Centro Zen Buppo Valencia": [10.22954, -67.99826], // Aries 90-40, Trigal Norte, Valencia
   "The Gateless Gate Zen Center": [29.65197, -82.32498, "city"], // Gainesville FL; Kwan Um group, no published venue
   // The only address anyone publishes for Joshu Zen Temple is its founder's
   // house — the address Indiana denied a religious exemption to in 2015 —

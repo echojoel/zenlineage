@@ -9,27 +9,27 @@ establish a group's current activity, lineage, or safeguarding.
 
 | Check | Result |
 |---|---:|
-| Place records | 1,676 |
-| Distinct preferred URLs checked | 1,352 |
-| URLs returning 2xx/3xx | 1,141 |
+| Place records | 1,663 |
+| Distinct preferred URLs checked | 1,353 |
+| URLs returning 2xx/3xx | 1,144 |
 | URLs returning 404/410 | 2 (used by 2 records) |
-| URLs blocked or rate limited | 20 (used by 22 records) |
-| URLs with inconclusive network/server results | 189 (used by 201 records) |
-| Records with no preferred URL | 9 |
-| Records with only a `popular`-class citation | 460 |
-| Records needing an item-level check because their sole citation is broad | 197 |
-| Records queued to check first (overlapping signals combined) | 659 |
-| City-level, approximate map pins | 847 |
+| URLs blocked or rate limited | 21 (used by 23 records) |
+| URLs with inconclusive network/server results | 186 (used by 209 records) |
+| Records with no preferred URL | 0 |
+| Records with only a `popular`-class citation | 446 |
+| Records needing an item-level check because their sole citation is broad | 124 |
+| Records queued to check first (overlapping signals combined) | 572 |
+| City-level, approximate map pins | 835 |
 
 Every remaining place has exactly one citation, currently attached to `coordinates`.
 That citation alone cannot establish affiliation, an active schedule, or a
-safeguarding process. The seed labels all 1,676 places `active`, but it has no
+safeguarding process. The seed labels all 1,663 places `active`, but it has no
 per-place last-checked date. The public map and exported JSON no longer expose
 that seed status as a verified claim.
 
-The 197 broad-page citations comprise 162 rows citing Plum Village's
+The 124 broad-page citations comprise 109 rows citing Plum Village's
 [monastic centres page](https://plumvillage.org/community/monastic-practice-centres)
-and 35 citing the [White Plum founder page](https://whiteplum.org/founder/).
+and 15 citing the [White Plum founder page](https://whiteplum.org/founder/).
 Those pages do not individually support all the lay groups assigned to them.
 The review queue now flags each for a direct group or institutional listing.
 This is a limitation of our citations, not a claim that any group has doubtful
@@ -252,10 +252,11 @@ found. Missing evidence remains an uncertainty, not a conduct finding.
 
 Batch 13 checked current item-level evidence for 15 Plum Village groups, 15 White Plum-derived rows, and 15 widely known Chinese temples. Direct group pages now support the Eindhoven, Wageningen, Westfriesland, Hulsberg, Seven Sisters, Still Waters, Sollandet, Tacoma, Westhampton, Tucson, Nevada City, and Oak Park records. Two entries were removed because their own current descriptions did not support the mapped Zen-center identity or geography. Three obsolete Belgian listings and the unsupported Angoulême group were removed after they disappeared from the relevant current official directories. Donglin and Guoqing were removed as Pure Land and Tiantai institutions outside this directory’s Zen scope. The Chinese temple descriptions now distinguish active temples and historical Chan affiliation from an unverified public meditation schedule.
 
+Batch 14 replaced generic network citations with current local evidence for practice groups in the United Kingdom, Ireland, Sweden, the Netherlands, Brazil, Switzerland, the United States, Venezuela, and Vietnam. The review removed fifteen mapped records whose old organization name, geography, or current operation could not be substantiated, while adding the currently documented Sangha Dōkan and Centro Zen Buppo communities in Venezuela. No record now lacks a preferred URL. The citation audit also stopped treating a teacher’s White Plum membership as proof that the teacher’s organization is institutionally affiliated. Current direct sources reduced the broad-source queue from 197 to 124 records.
+
 ## Next review work
 
-Start with the 2 records whose preferred URL returned 404/410 and the 9
-without a preferred URL. Then review the 460 `popular`-only citations and 197
+Start with the 2 records whose preferred URL returned 404/410. Then review the 446 `popular`-only citations and 124
 broad-page citations against direct group or institutional pages. For each correction, update
 the canonical seed or raw place data, cite the direct source, and rerun the
 seed and audit. Do not infer misconduct from missing websites or policies.

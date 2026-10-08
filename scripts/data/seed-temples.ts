@@ -254,6 +254,39 @@ export const SRC_GREAT_WAVE_SITE = "src_great_wave_site";
 export const SRC_EMPTY_BOWL_WHITEPLUM = "src_empty_bowl_whiteplum";
 export const SRC_KWANUM_HUNGARY_COMMUNITY = "src_kwanum_hungary_community";
 export const SRC_AICHI_NISODO_SOTO = "src_aichi_nisodo_soto";
+export const SRC_PV_UK_GROUPS = "src_plum_village_uk_groups";
+export const SRC_STILL_WATERS_PV = "src_still_waters_plum_village";
+export const SRC_MINDFULNESS_IRELAND = "src_mindfulness_ireland_sanghas";
+export const SRC_SOLLAND_ET = "src_sollandet_sangha";
+export const SRC_TRIKAYA_ZEN = "src_trikaya_zen";
+export const SRC_TWO_STREAMS_ZEN = "src_two_streams_zen";
+export const SRC_UPAYA_AFFILIATES = "src_upaya_affiliates";
+export const SRC_ZCLA_AFFILIATES = "src_zcla_affiliates";
+export const SRC_ZLMC = "src_zen_life_meditation_chicago";
+export const SRC_BAILIN_TEMPLE = "src_bailin_temple";
+export const SRC_DAMING_TEMPLE = "src_daming_temple";
+export const SRC_HANSHAN_JSBA = "src_hanshan_jiangsu_buddhist";
+export const SRC_LINGYIN_TEMPLE = "src_lingyin_temple";
+export const SRC_LINJI_ZHENGDING = "src_linji_zhengding_government";
+export const SRC_LONGTHANH_RELIGIOUS = "src_longthanh_religious_sites";
+export const SRC_SWEDISH_PV_GROUPS = "src_swedish_plum_village_groups";
+export const SRC_WAKE_UP_LONDON = "src_wake_up_london";
+export const SRC_WAKE_UP_LUND = "src_wake_up_lund";
+export const SRC_WAKE_UP_NEW_YORK = "src_wake_up_new_york";
+export const SRC_OSCAILT_WAKE_UP = "src_oscailt_wake_up_dublin";
+export const SRC_WILD_GEESE = "src_wild_geese_sangha";
+export const SRC_TULLIO_GIRALDI_CHUDO = "src_tullio_giraldi_chudo";
+export const SRC_BUDDHISTDOOR_VENEZUELA = "src_buddhistdoor_venezuela";
+export const SRC_SOTOZEN_COLOMBIA_DOKAN = "src_sotozen_colombia_dokan";
+export const SRC_RIEB_VENEZUELA = "src_rieb_venezuela_directory";
+export const SRC_DE_BERKELEY = "src_de_berkeley_zen";
+export const SRC_VIA_ZEN_COMMUNITIES = "src_via_zen_communities";
+export const SRC_ZCLA_CENTER = "src_zcla_center";
+export const SRC_BAY_ZEN = "src_bay_zen_center";
+export const SRC_BREAD_LOAF_ZEN = "src_bread_loaf_zen";
+export const SRC_GREAT_PLAINS_ZEN = "src_great_plains_zen";
+export const SRC_GREEN_RING_ZEN = "src_green_ring_zen";
+export const SRC_BUPPO_VALENCIA = "src_buppo_valencia";
 export const SRC_DONGSHAN_JIANGXI_BUDDHIST = "src_dongshan_jiangxi_buddhist";
 export const SRC_GREEN_MOUNTAIN_ZEN_SITE = "src_green_mountain_zen_site";
 export const SRC_GREEN_RIVER_ZEN_SITE = "src_green_river_zen_site";
@@ -1027,6 +1060,105 @@ export const TEMPLE_SOURCES: {
       url: "https://www.sotozen.com/ita/temples/jp/shoboji.html",
       publicationDate: "",
       reliability: "authoritative",
+    },
+    {
+      id: SRC_PV_UK_GROUPS, type: "website", title: "Plum Village UK — local practice groups", author: "Community of Interbeing UK", url: "https://plumvillage.uk/practice-groups/find-a-group/", publicationDate: "", reliability: "authoritative",
+    },
+    {
+      id: SRC_STILL_WATERS_PV, type: "website", title: "Still Waters Sangha — Ambleside practice", author: "Still Waters Sangha", url: "https://www.stillwaterspvsangha.co.uk/home", publicationDate: "", reliability: "primary",
+    },
+    {
+      id: SRC_MINDFULNESS_IRELAND, type: "website", title: "Mindfulness Ireland — local sanghas", author: "Mindfulness Ireland", url: "https://www.mindfulnessireland.ie/sanghas-local-sanghas-across-ireland/", publicationDate: "", reliability: "authoritative",
+    },
+    {
+      id: SRC_SOLLAND_ET, type: "website", title: "Sollandet Sangha — practice group", author: "Sollandet Sangha", url: "https://plumvillage-traditionen.se/sollandet/", publicationDate: "", reliability: "primary",
+    },
+    {
+      id: SRC_TRIKAYA_ZEN, type: "website", title: "Trikaya Zen Center — practice and lineage", author: "Trikaya Zen Center", url: "https://trikayazencenter.org/", publicationDate: "", reliability: "primary",
+    },
+    {
+      id: SRC_TWO_STREAMS_ZEN, type: "website", title: "Two Streams Zen — Body-Mind Temple", author: "Two Streams Zen", url: "https://twostreamszen.org/body-mind-temple/", publicationDate: "", reliability: "primary",
+    },
+    {
+      id: SRC_UPAYA_AFFILIATES, type: "website", title: "Upaya Zen Center — affiliates", author: "Upaya Zen Center", url: "https://www.upaya.org/about/affiliates/", publicationDate: "", reliability: "authoritative",
+    },
+    {
+      id: SRC_ZCLA_AFFILIATES, type: "website", title: "Zen Center of Los Angeles — affiliated Zen groups", author: "Zen Center of Los Angeles", url: "https://zcla.org/about/affiliated-zen-groups/", publicationDate: "", reliability: "authoritative",
+    },
+    {
+      id: SRC_ZLMC, type: "website", title: "Zen Life & Meditation Center — Sunday practice", author: "Zen Life & Meditation Center", url: "https://www.zlmc.org/sunday-morning-zen-1", publicationDate: "", reliability: "primary",
+    },
+    {
+      id: SRC_BAILIN_TEMPLE, type: "website", title: "Bailin Chan Temple — monastery and Life Chan program", author: "Bailin Chan Temple", url: "https://www.bailinsi.net/index.php/home/lxwm/aboutus.html", publicationDate: "", reliability: "authoritative",
+    },
+    {
+      id: SRC_DAMING_TEMPLE, type: "website", title: "Daming Temple — temple history", author: "Daming Temple", url: "https://www.damingsi.com/about.asp?lbid=54", publicationDate: "", reliability: "authoritative",
+    },
+    {
+      id: SRC_HANSHAN_JSBA, type: "website", title: "Jiangsu Buddhist Association — Hanshan Temple", author: "Jiangsu Buddhist Association", url: "https://jsfj.net/syzs_szhss", publicationDate: "", reliability: "authoritative",
+    },
+    {
+      id: SRC_LINGYIN_TEMPLE, type: "website", title: "Lingyin Temple — history and current activity", author: "Lingyin Temple", url: "https://lingyinsi.org/detail_1073_19641.html", publicationDate: "", reliability: "authoritative",
+    },
+    {
+      id: SRC_LINJI_ZHENGDING, type: "website", title: "Zhengding County — Linji Temple", author: "Zhengding County Government", url: "https://www.zd.gov.cn/columns/761f6ac4-e450-48fb-a470-10c5ea7c2b3d/202005/07/37b86be9-6734-4bb0-b458-880b3e2289e5.html", publicationDate: "2020", reliability: "authoritative",
+    },
+    {
+      id: SRC_LONGTHANH_RELIGIOUS, type: "document", title: "Long Thành District — religious land and institutions", author: "Long Thành District Government", url: "https://longthanh.dongnai.gov.vn/SiteAssets/Lists/CacTrangGioiThieu/EditForm/Bieu2030_LongThanh.pdf", publicationDate: "2020", reliability: "authoritative",
+    },
+    {
+      id: SRC_SWEDISH_PV_GROUPS, type: "website", title: "Plum Village tradition in Sweden — practice groups", author: "Plum Village Tradition Sweden", url: "https://plumvillage-traditionen.se/groups/", publicationDate: "", reliability: "authoritative",
+    },
+    {
+      id: SRC_WAKE_UP_LONDON, type: "website", title: "Wake Up London — young adult mindfulness community", author: "Wake Up London", url: "https://wakeuplondon.org/", publicationDate: "", reliability: "primary",
+    },
+    {
+      id: SRC_WAKE_UP_LUND, type: "website", title: "Wake Up Lund — events", author: "Wake Up Lund", url: "https://www.wakeup-lund.se/events/sv/", publicationDate: "", reliability: "primary",
+    },
+    {
+      id: SRC_WAKE_UP_NEW_YORK, type: "website", title: "Wake Up New York — Friday gathering", author: "Wake Up New York", url: "https://wakeupnewyork.org/friday-night-gathering/", publicationDate: "", reliability: "primary",
+    },
+    {
+      id: SRC_OSCAILT_WAKE_UP, type: "website", title: "Oscailt — Wake Up Dublin", author: "Oscailt Integrative Health Centre", url: "https://oscailt.com/mindfulness-and-self-compassion/wake-up-dublin/", publicationDate: "", reliability: "primary",
+    },
+    {
+      id: SRC_WILD_GEESE, type: "website", title: "Wild Geese Sangha — regular meetings", author: "Wild Geese Sangha", url: "https://wildgeesezen.org/regular-meetings/", publicationDate: "", reliability: "primary",
+    },
+    {
+      id: SRC_TULLIO_GIRALDI_CHUDO, type: "website", title: "Tullio Giraldi — Chudo Zen practice in Trieste", author: "Tullio Giraldi", url: "https://www.tulliogiraldi.it/corso-di-mindfulness-basato-sugli-antichi-testi-buddhisti-preparatorio-per-lo-zen/", publicationDate: "2020", reliability: "primary",
+    },
+    {
+      id: SRC_BUDDHISTDOOR_VENEZUELA, type: "website", title: "Buddhistdoor en Español — Buddhist communities in Venezuela", author: "Buddhistdoor Global", url: "https://espanol.buddhistdoor.net/directorio-de-comunidades-budistas-en-venezuela/", publicationDate: "", reliability: "authoritative",
+    },
+    {
+      id: SRC_SOTOZEN_COLOMBIA_DOKAN, type: "website", title: "Soto Zen Colombia — Sangha Dōkan Venezuela", author: "Soto Zen Colombia", url: "https://sotozencolombia.org/sangha-dokan-venezuela/", publicationDate: "", reliability: "authoritative",
+    },
+    {
+      id: SRC_RIEB_VENEZUELA, type: "website", title: "Red Iberoamericana de Estudio del Budismo — directory", author: "Red Iberoamericana de Estudio del Budismo", url: "https://redestudiobudismo.com/directorio/", publicationDate: "2025", reliability: "authoritative",
+    },
+    {
+      id: SRC_DE_BERKELEY, type: "website", title: "De Berkeley — Zen in Bergen schedule and location", author: "De Berkeley", url: "https://deberkeley.nl/", publicationDate: "", reliability: "primary",
+    },
+    {
+      id: SRC_VIA_ZEN_COMMUNITIES, type: "website", title: "Via Zen — other Zen Buddhist communities", author: "Via Zen", url: "https://www.viazen.org.br/outras-comunidades-zen-budistas", publicationDate: "", reliability: "authoritative",
+    },
+    {
+      id: SRC_ZCLA_CENTER, type: "website", title: "Zen Center of Los Angeles — mission and temple", author: "Zen Center of Los Angeles", url: "https://zcla.org/about/", publicationDate: "", reliability: "authoritative",
+    },
+    {
+      id: SRC_BAY_ZEN, type: "website", title: "Bay Zen Center — current practice", author: "Bay Zen Center", url: "https://www.bayzen.org/", publicationDate: "", reliability: "primary",
+    },
+    {
+      id: SRC_BREAD_LOAF_ZEN, type: "website", title: "Bread Loaf Mountain Zen Community — community and teacher", author: "Bread Loaf Mountain Zen Community", url: "https://breadloafmountainzen.org/about-blmzc/", publicationDate: "", reliability: "primary",
+    },
+    {
+      id: SRC_GREAT_PLAINS_ZEN, type: "website", title: "Great Plains Zen Center — sittings and retreats", author: "Great Plains Zen Center", url: "https://greatplainszen.org/half-day-sittings/", publicationDate: "", reliability: "primary",
+    },
+    {
+      id: SRC_GREEN_RING_ZEN, type: "website", title: "Zen-Zentrum im Grünen Ring — teacher and lineage", author: "Zen-Zentrum im Grünen Ring", url: "https://zen-imgruenenring.ch/ueber-uns", publicationDate: "", reliability: "primary",
+    },
+    {
+      id: SRC_BUPPO_VALENCIA, type: "website", title: "Centro Zen Buppo Valencia — practice and lineage", author: "Centro Zen Buppo Valencia", url: "https://www.bupponansen.org/", publicationDate: "", reliability: "primary",
     },
     {
       id: SRC_DONGSHAN_JIANGXI_BUDDHIST,
@@ -4099,9 +4231,9 @@ export const SEED_TEMPLES: TempleSeed[] = [
     schoolSlug: "white-plum-asanga",
     founderSlug: "taizan-maezumi",
     status: "active",
-    sourceId: SRC_WHITEPLUM,
+    sourceId: SRC_ZCLA_CENTER,
     sourceExcerpt:
-      "Zen Center of Los Angeles (Buddha Essence Temple) at 923 S Normandie Ave — founded 1967 by Taizan Maezumi Roshi; Wendy Egyoku Nakao Roshi currently serves as abbot.",
+      "Zen Center of Los Angeles identifies Buddha Essence Temple at 923 S Normandie Ave and documents its Maezumi–Glassman lineage and current practice schedule (checked 2026-10-08).",
     url: "https://zcla.org/",
   },
   {
@@ -4564,10 +4696,10 @@ export const SEED_TEMPLES: TempleSeed[] = [
     foundedPrecision: null,
     schoolSlug: "white-plum-asanga",
     status: "active",
-    sourceId: SRC_WHITEPLUM,
+    sourceId: SRC_DE_BERKELEY,
     sourceExcerpt:
-      "Zen in Bergen NH — White Plum Asanga sangha 'Myoshin Zen' meeting at Nesdijk 20H, Bergen NH, led by Gretha Jikai Myoshin Aerts Roshi. Listed on whiteplum.org/membership.",
-    url: "https://www.myoshin-zen.nl/zen/bergen/",
+      "De Berkeley lists Zen in Bergen with Gretha Jikai Myoshin Aerts at Nesdijk 20H, Bergen NH, including a current Thursday practice window (checked 2026-10-08).",
+    url: "https://deberkeley.nl/",
   },
   {
     slug: "zendo-offener-kreis-freiburg",
@@ -4649,9 +4781,9 @@ export const SEED_TEMPLES: TempleSeed[] = [
     foundedPrecision: "exact",
     schoolSlug: "white-plum-asanga",
     status: "active",
-    sourceId: SRC_WHITEPLUM,
+    sourceId: SRC_VIA_ZEN_COMMUNITIES,
     sourceExcerpt:
-      "Zendo Mãos Vazias — Sōtō Zen sangha in Barão Geraldo, Campinas (São Paulo state), Brazil, organized 2016 under Monja Tchoren (ordained at Zen Center of Los Angeles, Maezumi lineage). One of two Brazilian White Plum members on whiteplum.org/membership.",
+      "Via Zen identifies Zendo Mãos Vazias as a Sōtō Zen practice community in Campinas. A September 2026 event also names the zendo as organizer; its older blog schedule should be reconfirmed.",
     url: "https://zenbudismocampinas.wordpress.com/",
   },
 

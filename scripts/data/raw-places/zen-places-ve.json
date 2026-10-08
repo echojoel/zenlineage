@@ -11,39 +11,11 @@
       "region": "Distrito Capital",
       "lineage": "Sōtō",
       "address": "4ta Avenida entre 8va y 9na transversal de Los Palos Grandes, Caracas 1060, Venezuela",
-      "url": null,
-      "source_url": "https://www.budismo.com/directorios/venezuela.php",
-      "notes": "Sōtō Zen centre in the Los Palos Grandes district of Caracas."
+      "url": "https://espanol.buddhistdoor.net/directorio-de-comunidades-budistas-en-venezuela/",
+      "source_url": "https://espanol.buddhistdoor.net/directorio-de-comunidades-budistas-en-venezuela/",
+      "notes": "The current Venezuelan Buddhist community directory lists this Caracas Soto Zen group, its teacher, Kanshoji connection, and introductory practice activities (checked 2026-10-08)."
     },
-    {
-      "name": "Caracas Sōtō Zen",
-      "city": "Caracas",
-      "region": "Distrito Capital",
-      "lineage": "Sōtō",
-      "address": "Avenida Cumanagoto, Quinta Mary Jane, Urbanización Macaracuay, Zona J, Caracas, Venezuela",
-      "url": null,
-      "source_url": "https://www.budismo.com/directorios/venezuela.php",
-      "notes": "Sōtō Zen practice group in the Macaracuay district of Caracas."
-    },
-    {
-      "name": "Grupo Zen AZI Maracaibo",
-      "city": "Maracaibo",
-      "region": "Zulia",
-      "lineage": "Sōtō / Deshimaru (AZI)",
-      "address": "Calle 64 entre Avenida 4 (Bella Vista) y Santa Rita, Edificio Luis Parejo, Apartamento A9, Planta Baja, Maracaibo, Venezuela",
-      "url": null,
-      "source_url": "https://www.budismo.com/directorios/venezuela.php",
-      "notes": "Association Zen Internationale group in Maracaibo."
-    },
-    {
-      "name": "Grupo Zen AZI Valencia",
-      "city": "Valencia",
-      "region": "Carabobo",
-      "lineage": "Sōtō / Deshimaru (AZI)",
-      "address": "Urbanización Loma del Este 112-126, Quinta Ruth, Calle Los Geranios, Valencia, Carabobo, Venezuela",
-      "url": null,
-      "source_url": "https://www.budismo.com/directorios/venezuela.php",
-      "notes": "Association Zen Internationale group in Valencia, Carabobo state."
-    }
+    {"name": "Sangha Dōkan Venezuela", "city": "Caracas", "region": "Distrito Capital", "lineage": "Sōtō (Densho Quintero / Sanshin-ji lineage)", "address": "Casa Parroquial de la Iglesia San Francisco, Avenida Oeste 6, esquina de Pajaritos, piso 4, Parroquia Altagracia, Caracas 1010, Venezuela", "url": "https://sites.google.com/view/zensotodokan", "source_url": "https://espanol.buddhistdoor.net/directorio-de-comunidades-budistas-en-venezuela/", "notes": "The March 2026 Venezuelan Buddhist directory lists weekly in-person zazen, daily online zazen, introductory workshops and retreats under Densho Quintero (checked 2026-10-08)."},
+    {"name": "Centro Zen Buppo Valencia", "city": "Valencia", "region": "Carabobo", "lineage": "Sōtō / Deshimaru (Nansen Carouget)", "address": "Aries 90-40, Valencia, Carabobo, Venezuela", "url": "https://www.bupponansen.org/", "source_url": "https://www.bupponansen.org/", "notes": "The center’s current site lists regular Tuesday, Wednesday, Thursday, and Saturday zazen, workshops, a 2026 retreat, its Deshimaru lineage, and this address (checked 2026-10-08)."}
   ]
 }
