@@ -742,6 +742,15 @@ const SOURCES = [
     reliability: "authoritative",
   },
   {
+    id: "src_seikyuji_dojos",
+    type: "website",
+    title: "Seikyuji — Dojos and Zen groups linked to the temple",
+    author: "Templo Zen Seikyuji",
+    url: "https://www.seikyuji.org/donde-practicar/",
+    publicationDate: null,
+    reliability: "authoritative",
+  },
+  {
     id: "src_zen_mataro",
     type: "website",
     title: "Zen Mataró — Raphaël Doko Triet (biographical page)",

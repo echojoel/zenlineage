@@ -239,10 +239,16 @@ export const SRC_CHOZEN_JI = "src_chozen_ji";
 
 // Direct Europe and East Asia sources added for the 2026 temple refresh.
 export const SRC_ZEN_KLOSTER = "src_zen_kloster";
+export const SRC_EISENBUCH_FUMONJI = "src_eisenbuch_fumonji";
 export const SRC_DAISHIN_ZEN = "src_daishin_zen";
 export const SRC_DAISHIN_ZEN_ULM = "src_daishin_zen_ulm";
 export const SRC_ZENDO_SAAR = "src_zendo_saar";
 export const SRC_ZEN_GEMEINSCHAFT_BERLIN = "src_zen_gemeinschaft_berlin";
+export const SRC_ZENVEREINIGUNG_BERLIN = "src_zenvereinigung_berlin";
+export const SRC_GENJOAN_HAMBURG = "src_genjoan_hamburg";
+export const SRC_ZENDO_KOELN = "src_zendo_koeln";
+export const SRC_ZENDO_WUPPERTAL = "src_zendo_wuppertal";
+export const SRC_ZENKREIS_KASSEL = "src_zenkreis_kassel";
 export const SRC_NEUMUEHLE_SAAR = "src_neumuehle_saar";
 export const SRC_ZENDOJO_FREIBURG = "src_zendojo_freiburg";
 export const SRC_HANNYA_KAI = "src_hannya_kai";
@@ -259,6 +265,22 @@ export const SRC_BEOMEOSA_SITE = "src_beomeosa_site";
 export const SRC_BEOPJUSA_JOGYE = "src_beopjusa_jogye";
 export const SRC_JOGYE_ORDER = "src_jogye_order";
 export const SRC_NAGASAKI_CITY_ZEN = "src_nagasaki_city_zen";
+// Korea Tourism Organization destination records used in South Korea batch 23.
+export const SRC_KTO_SONGGWANGSA = "src_kto_songgwangsa";
+export const SRC_KTO_HAEINSA = "src_kto_haeinsa";
+export const SRC_KTO_TONGDOSA = "src_kto_tongdosa";
+export const SRC_KTO_WOLJEONGSA = "src_kto_woljeongsa";
+export const SRC_KTO_MAGOKSA = "src_kto_magoksa";
+export const SRC_KTO_BUSEOKSA = "src_kto_buseoksa";
+export const SRC_KTO_DAEHEUNGSA = "src_kto_daeheungsa";
+export const SRC_KTO_GOLGULSA = "src_kto_golgulsa";
+export const SRC_KTO_BULGUKSA = "src_kto_bulguksa";
+export const SRC_KTO_SEONUNSA = "src_kto_seonunsa";
+export const SRC_KTO_BONGEUNSA = "src_kto_bongeunsa";
+export const SRC_KTO_SILSANGSA = "src_kto_silsangsa";
+export const SRC_KTO_SANGWONSA = "src_kto_sangwonsa";
+export const SRC_KTO_SEONAMSA = "src_kto_seonamsa";
+export const SRC_KTO_JOGYESA = "src_kto_jogyesa";
 
 // ─── Catch-all for the long tail of small directory citations ──────────
 /** EU Zen places research bundle — generic citation source for entries
@@ -1996,6 +2018,22 @@ export const TEMPLE_SOURCES: {
     { id: SRC_BEOPJUSA_JOGYE, type: "website", title: "Beopjusa — official site", author: "Beopjusa", url: "https://beopjusa.org/", publicationDate: "", reliability: "authoritative" },
     { id: SRC_JOGYE_ORDER, type: "website", title: "Jogye Order — Beopjusa directory", author: "Jogye Order of Korean Buddhism", url: "https://www.buddhism.or.kr/jongdan/sub1/sub1-9-2-5.php", publicationDate: "", reliability: "authoritative" },
     { id: SRC_NAGASAKI_CITY_ZEN, type: "website", title: "Nagasaki City — official temple information", author: "Nagasaki City", url: "https://en.at-nagasaki.jp/spot/96", publicationDate: "", reliability: "authoritative" },
+    { id: "src_seikyuji_dojos", type: "website", title: "Seikyuji — dojos and Zen groups linked to the temple", author: "Templo Zen Seikyuji", url: "https://www.seikyuji.org/donde-practicar/", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_KTO_SONGGWANGSA, type: "website", title: "VisitKorea — Songgwangsa Temple", author: "Korea Tourism Organization", url: "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=110711", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_KTO_HAEINSA, type: "website", title: "VisitKorea — Haeinsa Temple", author: "Korea Tourism Organization", url: "https://english.visitkorea.or.kr/svc/contents/contentsView.do?menuSn=351&vcontsId=111156", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_KTO_TONGDOSA, type: "website", title: "VisitKorea — Tongdosa Temple", author: "Korea Tourism Organization", url: "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=110668", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_KTO_WOLJEONGSA, type: "website", title: "VisitKorea — Woljeongsa Temple", author: "Korea Tourism Organization", url: "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=110826", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_KTO_MAGOKSA, type: "website", title: "VisitKorea — Magoksa Temple", author: "Korea Tourism Organization", url: "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=110940", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_KTO_BUSEOKSA, type: "website", title: "VisitKorea — Buseoksa Temple, Yeongju", author: "Korea Tourism Organization", url: "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=111132", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_KTO_DAEHEUNGSA, type: "website", title: "VisitKorea — Daeheungsa Temple", author: "Korea Tourism Organization", url: "https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?menuSn=351&vcontsId=104832", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_KTO_GOLGULSA, type: "website", title: "VisitKorea — Golgulsa Temple", author: "Korea Tourism Organization", url: "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=104360", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_KTO_BULGUKSA, type: "website", title: "VisitKorea — Templestay temple directory", author: "Korea Tourism Organization", url: "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=139770", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_KTO_SEONUNSA, type: "website", title: "VisitKorea — Templestay temple directory", author: "Korea Tourism Organization", url: "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=139770", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_KTO_BONGEUNSA, type: "website", title: "VisitKorea — Bongeunsa Temple", author: "Korea Tourism Organization", url: "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=104722", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_KTO_SILSANGSA, type: "website", title: "VisitKorea — Silsangsa Temple", author: "Korea Tourism Organization", url: "https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=104736", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_KTO_SANGWONSA, type: "website", title: "VisitKorea — Sangwonsa Temple", author: "Korea Tourism Organization", url: "https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=111277", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_KTO_SEONAMSA, type: "website", title: "VisitKorea — Seonamsa Temple", author: "Korea Tourism Organization", url: "https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?menuSn=351&vcontsId=110583", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_KTO_JOGYESA, type: "website", title: "VisitKorea — Jogyesa Temple", author: "Korea Tourism Organization", url: "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=111552", publicationDate: "", reliability: "authoritative" },
     { id: SRC_JOCHIJI_SITE, type: "website", title: "Jōchi-ji — official visitor information", author: "Jōchi-ji", url: "https://jochiji.com/en/en", publicationDate: "", reliability: "authoritative" },
     { id: SRC_KENNINJI_SITE, type: "website", title: "Kennin-ji — zazen experience", author: "Kennin-ji", url: "https://www.kenninji.jp/experience/", publicationDate: "", reliability: "authoritative" },
     { id: SRC_HOFUKUJI_OKAYAMA, type: "website", title: "Okayama official tourism — Hōfuku-ji", author: "Okayama Prefecture Tourism Federation", url: "https://www.okayama-japan.jp/en/spot/10606", publicationDate: "", reliability: "authoritative" },
@@ -2352,6 +2390,13 @@ export const TEMPLE_SOURCES: {
       publicationDate: "2026",
       reliability: "authoritative",
     },
+    { id: "src_eisenbuch_fumonji", type: "website", title: "Zen-Zentrum Eisenbuch & Zen-Kloster Daihizan Fumonji — official site", author: "Zen-Zentrum Eisenbuch", url: "https://www.eisenbuch.de/jahresprogramm/", publicationDate: "2026", reliability: "authoritative" },
+    { id: "src_zenvereinigung_berlin", type: "website", title: "Zen-Vereinigung Berlin — official dojo site", author: "Zen-Vereinigung Berlin", url: "https://www.zen-vereinigung-berlin.de/", publicationDate: "", reliability: "authoritative" },
+    { id: "src_genjoan_hamburg", type: "website", title: "Zen Sangha GenjoAn — official community site", author: "Zen Sangha GenjoAn", url: "https://genjoan.net/", publicationDate: "", reliability: "authoritative" },
+    { id: "src_zendo_koeln", type: "website", title: "Zendo Köln e.V. — official dojo site", author: "Zendo Köln e.V.", url: "https://www.zendo-koeln.de/", publicationDate: "", reliability: "authoritative" },
+    { id: "src_zendo_wuppertal", type: "website", title: "Zendo Wuppertal e.V. — official dojo site", author: "Zendo Wuppertal e.V.", url: "https://www.zendo-wuppertal.de/", publicationDate: "", reliability: "authoritative" },
+    { id: "src_zenkreis_kassel", type: "website", title: "Zen-Kreis-Kassel e.V. — official group site", author: "Zen-Kreis-Kassel e.V.", url: "https://www.zen-kreis-kassel.de/", publicationDate: "", reliability: "authoritative" },
+
 ];
 
 export const SEED_TEMPLES: TempleSeed[] = [
@@ -2806,9 +2851,8 @@ export const SEED_TEMPLES: TempleSeed[] = [
     schoolSlug: "jogye",
     founderSlug: "jinul",
     status: "active",
-    sourceId: SRC_WIKIPEDIA,
-    sourceExcerpt:
-      "Songgwang-sa (송광사) on Mount Jogye in Jeollanam-do; the seat of Bojo Jinul's Samādhi-Prajñā Society (1200) and the Sangha Jewel temple of Korean Buddhism.",
+    sourceId: SRC_KTO_SONGGWANGSA,
+    sourceExcerpt: "VisitKorea identifies Songgwangsa as one of Korea’s Three Jewel Temples, gives visitor information, and notes its templestay program. This supports the temple’s historic Buddhist identity and visitor access; the page does not establish a recurring public Seon schedule.",
     url: "https://www.songgwangsa.org/",
   },
   {
@@ -2826,9 +2870,8 @@ export const SEED_TEMPLES: TempleSeed[] = [
     foundedPrecision: "exact",
     schoolSlug: "jogye",
     status: "active",
-    sourceId: SRC_WIKIPEDIA,
-    sourceExcerpt:
-      "Haein-sa (해인사), founded 802; the Dharma Jewel temple of Korean Buddhism and home to the Tripiṭaka Koreana woodblocks; the seat of Seongcheol's Haein-sa sermons.",
+    sourceId: SRC_KTO_HAEINSA,
+    sourceExcerpt: "VisitKorea describes Haeinsa’s 802 foundation, heritage collections, address, and visitor hours. Its templestay link supports a visitor program; no recurring public Seon schedule is established here.",
     url: "https://www.haeinsa.or.kr/",
   },
   {
@@ -2846,9 +2889,8 @@ export const SEED_TEMPLES: TempleSeed[] = [
     foundedPrecision: "exact",
     schoolSlug: "jogye",
     status: "active",
-    sourceId: SRC_WIKIPEDIA,
-    sourceExcerpt:
-      "Tongdo-sa (통도사), founded 646 by Jajang; the Buddha Jewel temple of Korean Buddhism, completing the Three Jewel Temples with Haein-sa and Songgwang-sa.",
+    sourceId: SRC_KTO_TONGDOSA,
+    sourceExcerpt: "VisitKorea describes Tongdosa as a historic temple and UNESCO site, gives visitor information, and confirms a templestay program. This does not establish a recurring public Seon schedule.",
     url: "https://www.tongdosa.or.kr/",
   },
   {
@@ -2866,9 +2908,8 @@ export const SEED_TEMPLES: TempleSeed[] = [
     foundedPrecision: "circa",
     schoolSlug: "jogye",
     status: "active",
-    sourceId: SRC_WIKIPEDIA,
-    sourceExcerpt:
-      "Bulguk-sa (불국사) in Gyeongju, rebuilt to its present scale in 751; a UNESCO World Heritage Site and one of Korea's most important Buddhist monuments.",
+    sourceId: SRC_KTO_BULGUKSA,
+    sourceExcerpt: "VisitKorea’s current templestay directory lists Bulguksa with its address and temple website. This verifies a visitor program listing, not recurring public Seon practice.",
     url: "https://www.bulguksa.or.kr/",
   },
   {
@@ -2904,9 +2945,8 @@ export const SEED_TEMPLES: TempleSeed[] = [
     foundedPrecision: "exact",
     schoolSlug: "jogye",
     status: "active",
-    sourceId: SRC_WIKIPEDIA,
-    sourceExcerpt:
-      "Jogye-sa (조계사) in central Seoul — headquarters of the Jogye Order of Korean Buddhism since the 20th-century reorganization.",
+    sourceId: SRC_KTO_JOGYESA,
+    sourceExcerpt: "VisitKorea identifies Jogyesa as the Jogye Order’s main temple, gives its address and year-round access. This confirms institutional identity and visitor access, not a recurring public Seon schedule.",
     url: "https://www.jogyesa.kr/",
   },
   {
@@ -2942,9 +2982,8 @@ export const SEED_TEMPLES: TempleSeed[] = [
     foundedPrecision: "circa",
     schoolSlug: "taego-order",
     status: "active",
-    sourceId: SRC_WIKIPEDIA,
-    sourceExcerpt:
-      "Seonam-sa (선암사) on Mount Jogye, founded 875; head temple of the Taego Order of Korean Buddhism.",
+    sourceId: SRC_KTO_SEONAMSA,
+    sourceExcerpt: "VisitKorea documents Seonamsa’s heritage, location, and visitor access. Its UNESCO mountain-monastery recognition is historical/institutional context, not evidence of a recurring public Seon schedule.",
     url: "https://en.wikipedia.org/wiki/Seonamsa",
   },
 
@@ -3711,9 +3750,8 @@ export const SEED_TEMPLES: TempleSeed[] = [
     foundedPrecision: "exact",
     schoolSlug: "jogye",
     status: "active",
-    sourceId: SRC_WIKIPEDIA,
-    sourceExcerpt:
-      "Silsangsa (실상사), Namwon, North Jeolla — founded 828 at the foot of Jirisan and the first of the Gusan Seonmun, the Nine Mountain Schools through which Seon entered Korea. A Jogye Order temple.",
+    sourceId: SRC_KTO_SILSANGSA,
+    sourceExcerpt: "VisitKorea describes Silsangsa as a historic temple associated with the Nine Mountain Seon temples, gives visitor access details and address. This historical connection does not establish recurring public Seon practice.",
     url: "https://en.wikipedia.org/wiki/Silsangsa",
     geoPrecision: "exact",
   },
@@ -3731,9 +3769,8 @@ export const SEED_TEMPLES: TempleSeed[] = [
     foundedPrecision: "circa",
     schoolSlug: "jogye",
     status: "active",
-    sourceId: SRC_WIKIPEDIA,
-    sourceExcerpt:
-      "Sangwonsa (상원사) on Odaesan, Pyeongchang County, Gangwon — a meditation temple of the Woljeongsa parish, holding the oldest dated bronze bell in Korea (725).",
+    sourceId: SRC_KTO_SANGWONSA,
+    sourceExcerpt: "VisitKorea gives Sangwonsa’s historical background, address, and visitor hours. Its heritage and location do not establish a recurring public Seon schedule.",
     url: "https://en.wikipedia.org/wiki/Sangwonsa",
     geoPrecision: "exact",
   },
@@ -3751,9 +3788,8 @@ export const SEED_TEMPLES: TempleSeed[] = [
     foundedPrecision: "exact",
     schoolSlug: "jogye",
     status: "active",
-    sourceId: SRC_WIKIPEDIA,
-    sourceExcerpt:
-      "Bongeunsa (봉은사), Samseong-dong, Gangnam, Seoul — founded 794. Under Queen Munjeong it became the head temple of Korean Seon, and it remains one of Seoul's principal Jogye Order temples.",
+    sourceId: SRC_KTO_BONGEUNSA,
+    sourceExcerpt: "VisitKorea gives Bongeunsa’s location, visitor hours, and temple information. It is a visitor-access source and does not establish a recurring public Seon schedule.",
     url: "https://en.wikipedia.org/wiki/Bongeunsa",
     geoPrecision: "exact",
   },
@@ -3811,9 +3847,8 @@ export const SEED_TEMPLES: TempleSeed[] = [
     foundedPrecision: "circa",
     schoolSlug: "jogye",
     status: "active",
-    sourceId: SRC_WIKIPEDIA,
-    sourceExcerpt:
-      "Golgulsa (골굴사), Gyeongju — a Silla-period cave temple carved into rock, and the temple where the Sunmudo tradition of Korean Buddhist martial practice is taught.",
+    sourceId: SRC_KTO_GOLGULSA,
+    sourceExcerpt: "VisitKorea identifies Golgulsa as a center of the Korean Seonmudo tradition, confirms templestay programs, and gives visitor information. This supports Seonmudo and program access, not a recurring public Seon sitting schedule.",
     url: "https://en.wikipedia.org/wiki/Golgulsa",
     geoPrecision: "exact",
   },

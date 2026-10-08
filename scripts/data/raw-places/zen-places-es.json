@@ -1,8 +1,8 @@
 {
   "_meta": {
     "country": "Spain",
-    "collectedAt": "2026-05-05",
-    "method": "Web research across the official directories of Comunidad Buddhista Soto Zen (sotozen.es), Sotoshu Europe (sotozen.com), Asociación Zen Internacional / Kosen Sangha (zen-deshimaru.com, zenkan.com), Templo Seikyuji affiliates, Camino Medio (caminomedio.org), Instituto Internacional Zen de España (Lam Te / Rinzai), Kwan Um Europe (kwanumeurope.org, boricentro.kwanumzen.es), Comunidad Budista del Interser (tnhspain.com), Buddhistdoor en Español Catalonia/Balearic directory, and the IRIZ Hanazono University zen centers list. Each entry was cross-verified against at least one institutional/network directory.",
+    "collectedAt": "2026-10-08",
+    "method": "Web research across the official directories of Comunidad Buddhista Soto Zen (sotozen.es), Sotoshu Europe (sotozen.com), Asociación Zen Internacional / Kosen Sangha (zen-deshimaru.com, zenkan.com), Templo Seikyuji affiliates, Camino Medio (caminomedio.org), Instituto Internacional Zen de España (Lam Te / Rinzai), Kwan Um Europe (kwanumeurope.org, boricentro.kwanumzen.es), Comunidad Budista del Interser (tnhspain.com), Buddhistdoor en Español Catalonia/Balearic directory, and the IRIZ Hanazono University zen centers list. Each entry was cross-verified against at least one institutional/network directory. Batch23: checked Seikyuji-affiliated local dojos against the current Seikyuji dojos directory on 2026-10-08; the directory is the item-level source for affiliation and addresses.",
     "coverageEstimate": "Strong coverage of the four main networks (Sōtō CBSZ, AZI/Kosen-Deshimaru, Seikyuji/Camino Medio, Kwan Um) and the Plum Village lay sangha network. Sanbō Zen presence in Spain is a single hub (Zendo Betania + offshoots). Rinzai presence is limited (Vietnamese Lam Te lineage via IIZE). No active Ōbaku presence located. Plum Village lay sanghas are listed selectively (representative subset of ~50 groups; many are home-based without a fixed dojo).",
     "knownGaps": [
       "Some Plum Village 'sanghas' meet in private homes without a fixed practice place — not all are listed",
@@ -198,151 +198,158 @@
       "name": "Dojo Zen Sevilla Kaiko",
       "city": "Sevilla",
       "region": "Andalucía",
-      "lineage": "Sōtō / AZI - Seikyuji",
-      "address": "Ronda de Capuchinos 2, Bloque 7, 41003 Sevilla",
+      "lineage": "Sōtō / Seikyuji sangha (AZI; Raphaël Doko Triet lineage)",
+      "address": "Ronda de Capuchinos 2, Bloque 7 (Conjunto Residencial Iniesta, entrada por C/ María Dolores), 41002 Sevilla",
       "url": "https://www.dojozensevillakaiko.es/",
       "source_url": "https://www.seikyuji.org/donde-practicar/",
-      "notes": "Affiliated with Templo Seikyuji."
+      "notes": "Current address and affiliation are listed on Seikyuji’s dojos page (checked 2026-10-08)."
     },
     {
       "name": "Granada Zen",
       "city": "Granada",
       "region": "Andalucía",
-      "lineage": "Sōtō / AZI - Seikyuji",
+      "lineage": "Sōtō / Seikyuji sangha (AZI; Raphaël Doko Triet lineage)",
       "address": "Calle Pescadería 1, 4°D, Granada",
       "url": "https://www.granadazen.com/",
       "source_url": "https://www.seikyuji.org/donde-practicar/",
-      "notes": null
+      "notes": "Listed by Seikyuji; its current directory does not publish a recurring schedule (checked 2026-10-08)."
     },
     {
       "name": "Dojo Zen de Algeciras",
       "city": "Algeciras",
       "region": "Andalucía",
-      "lineage": "Sōtō / AZI - Seikyuji",
+      "lineage": "Sōtō / Seikyuji sangha (AZI; Raphaël Doko Triet lineage)",
       "address": "C/ Rinconcillo Portal Sur 1, Puerta 6, Algeciras, Cádiz",
       "url": "https://www.dojozendealgeciras.com/",
       "source_url": "https://www.seikyuji.org/donde-practicar/",
-      "notes": null
+      "notes": "Current address and contact are listed on Seikyuji’s dojos page (checked 2026-10-08)."
     },
     {
       "name": "Dojo Zen de Málaga",
       "city": "Málaga",
       "region": "Andalucía",
-      "lineage": "Sōtō / AZI - Seikyuji",
+      "lineage": "Sōtō / Seikyuji sangha (AZI; Raphaël Doko Triet lineage)",
       "address": "Calle Cuarteles 26, Bajo, 29002 Málaga",
       "url": "https://dojozendemalaga.com/",
       "source_url": "https://www.seikyuji.org/donde-practicar/",
-      "notes": null
+      "notes": "Current address and contact are listed on Seikyuji’s dojos page (checked 2026-10-08)."
     },
     {
       "name": "Zen Jaén",
       "city": "Jaén",
       "region": "Andalucía",
-      "lineage": "Sōtō / AZI - Seikyuji",
+      "lineage": "Sōtō / Seikyuji sangha (AZI; Raphaël Doko Triet lineage)",
       "address": "Centro Nahual de Jaén, Calle Mesa 6, Jaén",
       "url": "https://www.seikyuji.org/donde-practicar/",
       "source_url": "https://www.seikyuji.org/donde-practicar/",
-      "notes": "Email-only contact via Seikyuji directory."
+      "notes": "Listed by Seikyuji; contact is through the Seikyuji directory (checked 2026-10-08)."
     },
     {
       "name": "Zendo Utrera",
       "city": "Utrera",
       "region": "Andalucía",
-      "lineage": "Sōtō / AZI - Seikyuji",
+      "lineage": "Sōtō / Seikyuji sangha (AZI; Raphaël Doko Triet lineage)",
       "address": "C/ Ruiseñor 1, Utrera, Sevilla",
       "url": "https://www.zendoutrera.com/",
       "source_url": "https://www.seikyuji.org/donde-practicar/",
-      "notes": null
+      "notes": "Current address and contact are listed on Seikyuji’s dojos page (checked 2026-10-08)."
     },
     {
       "name": "Dojo Zen Madrid (Soto Hidalgo)",
       "city": "Madrid",
       "region": "Comunidad de Madrid",
-      "lineage": "Sōtō / AZI - Seikyuji",
-      "address": "Calle Soto Hidalgo 22, L-30, Madrid",
+      "lineage": "Sōtō / Seikyuji sangha (AZI; Raphaël Doko Triet lineage)",
+      "address": "Calle Soto Hidalgo 22, L-30, 28042 Madrid",
       "url": "https://www.seikyuji.org/donde-practicar/",
       "source_url": "https://www.seikyuji.org/donde-practicar/",
-      "notes": "Listed via Seikyuji affiliate directory."
+      "notes": "Current address and contact are listed on Seikyuji’s dojos page (checked 2026-10-08)."
     },
     {
       "name": "Zen Sierra de Madrid (Bai San)",
       "city": "Collado Villalba",
       "region": "Comunidad de Madrid",
-      "lineage": "Sōtō / AZI - Seikyuji",
+      "lineage": "Sōtō / Seikyuji sangha (AZI; Raphaël Doko Triet lineage)",
       "address": "Camino del Berrocal 4, Collado Villalba",
       "url": "https://www.zensierra.com/",
       "source_url": "https://www.seikyuji.org/donde-practicar/",
-      "notes": null
+      "notes": "Current address and contact are listed on Seikyuji’s dojos page (checked 2026-10-08)."
     },
     {
       "name": "Dojo Zen de Vitoria-Gasteiz",
       "city": "Vitoria-Gasteiz",
       "region": "País Vasco",
-      "lineage": "Sōtō / AZI - Seikyuji",
+      "lineage": "Sōtō / Seikyuji sangha (AZI; Raphaël Doko Triet lineage)",
       "address": "C/ Cuadrilla de Mendoza 4 bajo, 01013 Vitoria-Gasteiz",
-      "url": "https://zenvitoriagasteiz.com/",
+      "url": "https://zenvitoria-gasteiz.org/",
       "source_url": "https://www.seikyuji.org/donde-practicar/",
-      "notes": null
+      "notes": "Current address and contact are listed on Seikyuji’s dojos page (checked 2026-10-08)."
     },
     {
       "name": "Dojo Zen de Bilbao",
       "city": "Bilbao",
       "region": "País Vasco",
-      "lineage": "Sōtō / AZI - Seikyuji",
+      "lineage": "Sōtō / Seikyuji sangha (AZI; Raphaël Doko Triet lineage)",
       "address": "Plaza Moraza 3A, Lonja 3 Izquierda, 48007 Bilbao",
-      "url": "http://dojozendebilbao.blogspot.com/",
+      "url": "https://www.zenbilbao.com/",
       "source_url": "https://www.seikyuji.org/donde-practicar/",
-      "notes": null
+      "notes": "Current address and affiliation are listed on Seikyuji’s dojos page (checked 2026-10-08)."
     },
     {
       "name": "Dojo Zen de Donostia",
       "city": "San Sebastián",
       "region": "País Vasco",
-      "lineage": "Sōtō / AZI - Seikyuji",
+      "lineage": "Sōtō / Seikyuji sangha (AZI; Raphaël Doko Triet lineage)",
       "address": "Ramón María Lily 9, entresuelo, 20002 San Sebastián",
       "url": "https://www.zendonostia.com/",
       "source_url": "https://www.seikyuji.org/donde-practicar/",
-      "notes": null
+      "notes": "Current address and contact are listed on Seikyuji’s dojos page (checked 2026-10-08)."
     },
     {
       "name": "Zen Pamplona",
       "city": "Pamplona",
       "region": "Navarra",
-      "lineage": "Sōtō / AZI - Seikyuji",
-      "address": "Ronda Barbazana Trasera 6, Pamplona",
+      "lineage": "Sōtō / Seikyuji sangha (AZI; Raphaël Doko Triet lineage)",
+      "address": "Ronda Barbazana Trasera 6, 31001 Pamplona",
       "url": "https://www.seikyuji.org/donde-practicar/",
       "source_url": "https://www.seikyuji.org/donde-practicar/",
-      "notes": "Email-only contact."
+      "notes": "Address is listed by Seikyuji; contact is through the Seikyuji directory (checked 2026-10-08)."
     },
     {
       "name": "Zen Valladolid",
       "city": "Valladolid",
       "region": "Castilla y León",
-      "lineage": "Sōtō / AZI - Seikyuji",
-      "address": "Centro Ondinas, C/ Miguel Íscar 16, Valladolid",
+      "lineage": "Sōtō / Seikyuji sangha (AZI; Raphaël Doko Triet lineage)",
+      "address": "Centro Ondinas, C/ Miguel Íscar 16, Portal 1, 1º D, 47001 Valladolid",
       "url": "https://www.seikyuji.org/donde-practicar/",
       "source_url": "https://www.seikyuji.org/donde-practicar/",
-      "notes": null
+      "notes": "Seikyuji lists zazen on Monday, Tuesday, and Wednesday at 20:00 (checked 2026-10-08).",
+      "practiceDetails": {
+        "schedule": {
+          "value": "Zazen Monday, Tuesday, and Wednesday at 20:00; confirm with the listed contact before visiting.",
+          "sourceUrl": "https://www.seikyuji.org/donde-practicar/",
+          "checkedOn": "2026-10-08"
+        }
+      }
     },
     {
       "name": "Dojo Zen Mataró",
       "city": "Mataró",
       "region": "Cataluña",
-      "lineage": "Sōtō / AZI - Seikyuji",
+      "lineage": "Sōtō / Seikyuji sangha (AZI; Raphaël Doko Triet lineage)",
       "address": "Avda. Maresme 301, 08302 Mataró",
       "url": "https://www.zenmataro.com/",
-      "source_url": "https://espanol.buddhistdoor.net/directorio-de-entidades-budistas-en-cataluna-e-islas-baleares-espana/",
-      "notes": "Also listed in BuddhistDoor Catalonia directory."
+      "source_url": "https://www.seikyuji.org/donde-practicar/",
+      "notes": "Current address and contact are listed on Seikyuji’s dojos page (checked 2026-10-08)."
     },
     {
       "name": "Zen Cuenca",
       "city": "Cuenca",
       "region": "Castilla-La Mancha",
-      "lineage": "Sōtō / AZI - Seikyuji",
-      "address": "Alameda del Júcar 13, Local, 16003 Cuenca",
+      "lineage": "Sōtō / Seikyuji sangha (AZI; Raphaël Doko Triet lineage)",
+      "address": "Alameda del Júcar 13, Local (Barrio de Fuente del Oro), 16003 Cuenca",
       "url": "https://www.seikyuji.org/donde-practicar/",
       "source_url": "https://www.seikyuji.org/donde-practicar/",
-      "notes": null
+      "notes": "Current address and contact are listed on Seikyuji’s dojos page (checked 2026-10-08)."
     },
     {
       "name": "Zendo Betania (Barcelona)",

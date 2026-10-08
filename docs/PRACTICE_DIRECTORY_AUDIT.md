@@ -10,16 +10,16 @@ establish a group's current activity, lineage, or safeguarding.
 | Check | Result |
 |---|---:|
 | Place records | 1,619 |
-| Distinct preferred URLs checked | 1,343 |
-| URLs returning 2xx/3xx | 1,156 (used by 1,421 records) |
+| Distinct preferred URLs checked | 1,345 |
+| URLs returning 2xx/3xx | 1,160 (used by 1,423 records) |
 | URLs returning 404/410 | 2 (used by 2 records) |
 | URLs blocked or rate limited | 20 (used by 21 records) |
-| URLs with inconclusive network/server results | 165 (used by 175 records) |
+| URLs with inconclusive network/server results | 163 (used by 173 records) |
 | Records with no preferred URL | 0 |
-| Records with only a `popular`-class citation | 240 |
+| Records with only a `popular`-class citation | 198 |
 | Records needing an item-level check because their sole citation is broad | 34 |
-| Records queued to check first (overlapping signals combined) | 276 |
-| City-level, approximate map pins | 823 |
+| Records queued to check first (overlapping signals combined) | 234 |
+| City-level, approximate map pins | 821 |
 
 Every remaining place has exactly one citation, currently attached to `coordinates`.
 That citation alone cannot establish affiliation, an active schedule, or a
@@ -270,9 +270,11 @@ Batch 21 reviewed French and German practice groups and selected records in Taiw
 
 Batch 22 reviewed current evidence for practice places in the Americas, Europe, the Philippines, and Singapore. Direct group and institutional pages corrected the lineage classification of Stockholms Zengrupp, current identities for the Kannon Jasień/Żary and Wrocław Drugi Brzeg groups, and published venues in Stockholm, Reykjavík, Middlesbrough, Warsaw, Marikina, Baguio, and Singapore. Mountain Moon Sangha Toronto was removed from the recurring-practice map after a related community’s teacher page said it no longer holds regular meetings; this does not establish dissolution. Busshinji remains listed as an operating temple without implying a current sesshin or public zazen schedule. Manila, Iloilo, Davao, Rosario, Mexico City, Rocky Mountain Zen, and other records retain explicit schedule or venue uncertainty where their available pages are old, shared, or incomplete. Kwan Yin Chan Lin’s previously asserted Kwan Um affiliation was removed because its current page did not establish that relationship. These are identity, scope, and evidence corrections rather than conduct findings. The priority queue fell from 285 to 276 records.
 
+Batch 23 replaced popular-only citations for 42 records in South Korea, Germany, and Spain. Fifteen Korean temples now use item-level Korea Tourism Organization pages or its current Templestay directory; their descriptions distinguish historical Seon association, institutional identity, visitor access, and templestay programming from recurring public Seon practice. Twelve German groups now use current group, network, or German Buddhist Union pages, with corrected identities and venues including Großensee, Solingen, Leipzig, and Kassel. Fifteen Spanish groups now cite Seikyuji’s current official dojo directory, with updated addresses and cautious schedule wording. Exact map pins were added only where a published venue could be resolved; other pins remain approximate. No records were removed. The priority queue fell from 276 to 234 records.
+
 ## Next review work
 
-Start with the 2 records whose preferred URL returned 404/410. Then review the 240 `popular`-only citations and 34
+Start with the 2 records whose preferred URL returned 404/410. Then review the 198 `popular`-only citations and 34
 broad-page citations against direct group or institutional pages. For each correction, update
 the canonical seed or raw place data, cite the direct source, and rerun the
 seed and audit. Do not infer misconduct from missing websites or policies.

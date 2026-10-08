@@ -530,6 +530,14 @@ function pickSourceId(sourceUrl: string, lineage: string): string {
   const u = sourceUrl.toLowerCase();
 
   // Direct Europe and East Asia sources from the 2026 source refresh.
+  if (u.includes("eisenbuch.de")) return "src_eisenbuch_fumonji";
+  if (u.includes("zen-vereinigung-berlin.de")) return "src_zenvereinigung_berlin";
+  if (u.includes("genjoan.net")) return "src_genjoan_hamburg";
+  if (u.includes("zendo-koeln.de")) return "src_zendo_koeln";
+  if (u.includes("zendo-wuppertal.de")) return "src_zendo_wuppertal";
+  if (u.includes("zen-kreis-kassel.de")) return "src_zenkreis_kassel";
+  if (u.includes("kwanumzen.de/zentren-gruppen")) return "src_kwanum_germany_groups";
+  if (u.includes("buddhismus-deutschland.de")) return "src_dbu";
   if (u.includes("zen-kloster.de")) return "src_zen_kloster";
   if (u.includes("daishinzen.de")) return "src_daishin_zen";
   if (u.includes("zendo-saar.de")) return "src_zendo_saar";
@@ -956,6 +964,7 @@ function pickSourceId(sourceUrl: string, lineage: string): string {
   // ── Pan-European / sect networks ────────────────────────────────────
   if (u.includes("zen-deshimaru.com.ar/eventos/lista")) return "src_kosen_sangha_events_2026";
   if (u.includes("zen-deshimaru.com")) return "src_kosen_sangha";
+  if (u.includes("seikyuji.org/donde-practicar")) return "src_seikyuji_dojos";
   if (u.includes("kanshoji.org")) return "src_kanshoji";
   if (u.includes("zen-road.org")) return "src_zen_road";
   if (u.includes("abzen.eu")) return "src_abze";
@@ -1075,6 +1084,8 @@ const MANUAL_COORDS: Record<string, ManualCoord> = {
   "Zen Philippines (Zen Center of Oriental Spirituality)": [14.6298341, 121.0881418, "city"], // St. Claire Street, Provident Villages, Marikina
   "Dharma Drum Mountain Singapore": [1.3278742, 103.8907961, "city"], // 146B Paya Lebar Road, Ace Building
   "Kwan Yin Chan Lin Zen Meditation Centre": [1.3142791, 103.8825277, "city"], // Lorong 25 Geylang, approximate venue pin
+  "Zen-Kreis-Kassel e.V. (Toku Ko Kai)": [51.3204995, 9.4952746], // Fabrik Chassalla, Sickingenstraße 10
+  "Zen-Dojo Kyōdaizan Leipzig": [51.3178903, 12.3260135], // Alte Handelsschule, Gießerstraße 75
   // Current meeting addresses resolved in OpenStreetMap on 2026-10-08.
   "Great Wave Zen Sangha": [43.9580256, -86.4493713],
   "Empty Bowl Zendo": [40.7956144, -74.4794622],
