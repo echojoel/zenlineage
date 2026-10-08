@@ -315,6 +315,19 @@ export const SRC_DUNEDIN_ZEN = "src_dunedin_zen";
 export const SRC_BODHIMOUNT_TEACHER = "src_bodhimount_teacher";
 export const SRC_MELBOURNE_ZEN_GROUPS = "src_melbourne_zen_groups";
 export const SRC_MILDURA_ZEN = "src_mildura_zen";
+export const SRC_ASOKA_ZHEJIANG = "src_asoka_zhejiang_social_sciences";
+export const SRC_GAOMIN_JSBA = "src_gaomin_jiangsu_buddhist";
+export const SRC_JINGCI_HZBA = "src_jingci_hangzhou_buddhist";
+export const SRC_JINSHAN_JSBA = "src_jinshan_jiangsu_buddhist";
+export const SRC_PO_LIN_MONASTERY = "src_po_lin_monastery";
+export const SRC_PO_LAM_HK_PLANNING = "src_po_lam_hk_planning";
+export const SRC_GUANGXIAO_GUANGZHOU = "src_guangxiao_guangzhou_government";
+export const SRC_GUOEN_XINXING = "src_guoen_xinxing_government";
+export const SRC_JINGJU_JIANGXI = "src_jingju_jiangxi_buddhist";
+export const SRC_PUTONG_RUC = "src_putong_ruc_buddhist_studies";
+export const SRC_FGS_VANCOUVER = "src_fgs_vancouver";
+export const SRC_IBPS_MONTREAL = "src_ibps_montreal";
+export const SRC_DDM_ONTARIO = "src_ddm_ontario";
 export const SRC_RIEB_VENEZUELA = "src_rieb_venezuela_directory";
 export const SRC_DE_BERKELEY = "src_de_berkeley_zen";
 export const SRC_VIA_ZEN_COMMUNITIES = "src_via_zen_communities";
@@ -1794,6 +1807,19 @@ export const TEMPLE_SOURCES: {
     { id: SRC_BODHIMOUNT_TEACHER, type: "website", title: "Bodhi Zendo — Carl Hooper profile", author: "Bodhi Zendo", url: "https://www.bodhizendo.org/index.php/en/zen-teachers/carl-hooper-engl", publicationDate: "", reliability: "authoritative" },
     { id: SRC_MELBOURNE_ZEN_GROUPS, type: "website", title: "Melbourne Zen Group — other Victorian groups", author: "Melbourne Zen Group", url: "https://mzg.org.au/links/other-zen-groups/", publicationDate: "", reliability: "authoritative" },
     { id: SRC_MILDURA_ZEN, type: "website", title: "Mildura Zen Group — community and lineage", author: "Mildura Zen Group", url: "https://mildurazengroup.org/about-us/", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_ASOKA_ZHEJIANG, type: "website", title: "Zhejiang social-sciences profile — Ayuwang Temple", author: "Zhejiang Provincial Federation of Social Sciences", url: "https://www.zjskw.gov.cn/art/2021/9/14/art_1229556995_40807.html", publicationDate: "2021", reliability: "authoritative" },
+    { id: SRC_GAOMIN_JSBA, type: "website", title: "Jiangsu Buddhist Association — Gaomin Temple", author: "Jiangsu Buddhist Association", url: "https://www.jsfj.net/syzs_yzhjqg%E6%97%BBs", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_JINGCI_HZBA, type: "website", title: "Hangzhou Buddhist Association — Jingci Temple activity", author: "Hangzhou Buddhist Association", url: "https://www.hzfjxh.com/art/241228/25691662", publicationDate: "2024", reliability: "authoritative" },
+    { id: SRC_JINSHAN_JSBA, type: "website", title: "Jiangsu Buddhist Association — Jiangtian Chan Temple", author: "Jiangsu Buddhist Association", url: "https://www.jsfj.net/syzs_zjjsjtcs", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_PO_LIN_MONASTERY, type: "website", title: "Po Lin Monastery — official site", author: "Po Lin Monastery", url: "https://plm.org.hk/", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_PO_LAM_HK_PLANNING, type: "website", title: "Hong Kong Town Planning Board — Po Lam Zen Monastery", author: "Hong Kong Town Planning Board", url: "https://www.tpb.gov.hk/en/meetings/TPB/Minutes/m1145tpb_e.pdf", publicationDate: "2026", reliability: "authoritative" },
+    { id: SRC_GUANGXIAO_GUANGZHOU, type: "website", title: "Guangzhou government — Guangxiao Temple", author: "Guangzhou Municipal Government", url: "https://www.gz.gov.cn/zlgz/gzly/wzgz/zjcs/fj/content/post_7760653.html", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_GUOEN_XINXING, type: "website", title: "Xinxing County archive — Guoen Temple", author: "Xinxing County Government", url: "https://oa.xinxing.gov.cn/info/19564", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_JINGJU_JIANGXI, type: "website", title: "Jiangxi Buddhist Association — Jingju Temple", author: "Jiangxi Buddhist Association", url: "https://www.jxsfjxh.cn/c/1580404867831939074?pageNum=4&pageSize=9", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_PUTONG_RUC, type: "website", title: "Renmin University Buddhist Studies — Yangqi Putong Temple", author: "Renmin University Buddhist Studies Institute", url: "https://isbrt.ruc.edu.cn/dtxx/rucfojiaoallcmsNews2569.htm", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_FGS_VANCOUVER, type: "website", title: "Vancouver Fo Guang Shan — official site", author: "Vancouver Fo Guang Shan", url: "https://sites.google.com/view/vancouver-fo-guang-shan/home", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_IBPS_MONTREAL, type: "website", title: "IBPS Montreal — contact and visitor information", author: "IBPS Montreal", url: "https://ibpsmtl.org/contact-en/", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_DDM_ONTARIO, type: "website", title: "Dharma Drum Mountain Ontario — official center", author: "Dharma Drum Mountain Ontario", url: "https://www.ddmbaontario.org/", publicationDate: "", reliability: "authoritative" },
     { id: SRC_PRAIRIE_ZEN, type: "website", title: "Prairie Zen Center — current schedule", author: "Prairie Zen Center", url: "https://prairiezen.org/Schedules.html", publicationDate: "", reliability: "authoritative" },
     { id: SRC_RMERC, type: "website", title: "Rocky Mountain Ecodharma Retreat Center — calendar", author: "Rocky Mountain Ecodharma Retreat Center", url: "https://rmerc.org/calendar/", publicationDate: "", reliability: "authoritative" },
     { id: SRC_SAGE_TAOS, type: "website", title: "Sage Institute — mission and programs", author: "Sage Institute", url: "https://www.sagetaos.com/about", publicationDate: "", reliability: "authoritative" },
@@ -2534,10 +2560,10 @@ export const SEED_TEMPLES: TempleSeed[] = [
     schoolSlug: "early-chan",
     founderSlug: "dajian-huineng",
     status: "active",
-    sourceId: SRC_WIKIPEDIA,
+    sourceId: SRC_NANHUA_SHAOGUAN,
     sourceExcerpt:
-      "Nanhua Temple (南華寺) on Mount Caoxi, Guangdong — the base of the Sixth Patriarch Dajian Huineng; his mummified remains are preserved there.",
-    url: "https://en.wikipedia.org/wiki/Nanhua_Temple",
+      "Shaoguan government identifies Nanhua as the Chan ancestral temple where Huineng taught; government reports document current 2025–2026 temple events, but no weekly public meditation schedule.",
+    url: "https://www.sg.gov.cn/sgly/yzsg/msgj/content/post_1960276.html",
   },
 
   // ─── Ancestral seats of the Chan houses ──────────────────────────────
@@ -2627,10 +2653,10 @@ export const SEED_TEMPLES: TempleSeed[] = [
     schoolSlug: "early-chan",
     founderSlug: "dajian-huineng",
     status: "active",
-    sourceId: SRC_WIKIPEDIA,
+    sourceId: SRC_GUOEN_XINXING,
     sourceExcerpt:
-      "Guoen Temple (國恩寺) at Longshan, Xinxing County, Guangdong — built on the Sixth Patriarch Huineng's family home, and the place of his death in 713. The surrounding township is named Liuzu ('Sixth Patriarch') after him.",
-    url: "https://zh.wikipedia.org/wiki/%E5%9B%BD%E6%81%A9%E5%AF%BA",
+      "Xinxing County’s archive identifies Guoen Temple at Longshan with Sixth Patriarch Huineng and as one of the principal Chan ancestral temples. No current public meditation timetable was found.",
+    url: "https://oa.xinxing.gov.cn/info/19564",
     geoPrecision: "exact",
   },
   {
@@ -2647,10 +2673,10 @@ export const SEED_TEMPLES: TempleSeed[] = [
     foundedPrecision: "circa",
     schoolSlug: "early-chan",
     status: "active",
-    sourceId: SRC_WIKIPEDIA,
+    sourceId: SRC_GUANGXIAO_GUANGZHOU,
     sourceExcerpt:
-      "Guangxiao Temple (光孝寺), Guangzhou — one of the oldest temples in the city and where Huineng was ordained in 676, the setting of the 'not the wind, not the flag, but your mind that moves' exchange recorded in the Platform Sutra.",
-    url: "https://en.wikipedia.org/wiki/Guangxiao_Temple_(Guangzhou)",
+      "Guangzhou government identifies Guangxiao as an active religious site and Chan ancestral temple where Huineng was ordained, at 109 Guangxiao Road. Visitor hours are not a meditation schedule.",
+    url: "https://www.gz.gov.cn/zlgz/gzly/wzgz/zjcs/fj/content/post_7760653.html",
     geoPrecision: "exact",
   },
   {
@@ -2668,10 +2694,10 @@ export const SEED_TEMPLES: TempleSeed[] = [
     schoolSlug: "qingyuan-line",
     founderSlug: "qingyuan-xingsi",
     status: "active",
-    sourceId: SRC_WIKIPEDIA,
+    sourceId: SRC_JINGJU_JIANGXI,
     sourceExcerpt:
-      "Jingju Temple (淨居寺) on Mount Qingyuan, Ji'an, Jiangxi — the seat of Qingyuan Xingsi, Huineng's heir. The Caodong, Yunmen and Fayan houses all descend through his line.",
-    url: "https://en.wikipedia.org/wiki/Jingju_Temple_(Ji%27an)",
+      "The Jiangxi Buddhist Association lists Qingyuan Mountain Jingju Temple, the historic seat associated with Qingyuan Xingsi. One dated 2025 retreat was found; a recurring current schedule remains unverified.",
+    url: "https://www.jxsfjxh.cn/c/1580404867831939074?pageNum=4&pageSize=9",
     geoPrecision: "exact",
   },
   {
@@ -2796,10 +2822,10 @@ export const SEED_TEMPLES: TempleSeed[] = [
     schoolSlug: "yangqi-line",
     founderSlug: "yangqi-fanghui",
     status: "active",
-    sourceId: SRC_PUTONG_FODIZI,
+    sourceId: SRC_PUTONG_RUC,
     sourceExcerpt:
-      "Buddhist reference material identifies Putong Temple on Mount Yangqi as the ancestral temple of the Linji Yangqi branch. Current public access and practice schedules remain unverified (checked 2026-10-08).",
-    url: "https://m.fodizi.tw/f05/77644.html",
+      "Renmin University’s Buddhist Studies Institute identifies Putong Temple on Mount Yangqi as the originating temple of the Linji Yangqi branch. Current public access and practice schedules remain unverified.",
+    url: "https://isbrt.ruc.edu.cn/dtxx/rucfojiaoallcmsNews2569.htm",
     geoPrecision: "exact",
   },
   {
@@ -5316,10 +5342,10 @@ export const SEED_TEMPLES: TempleSeed[] = [
     foundedPrecision: null,
     schoolSlug: "chan",
     status: "active",
-    sourceId: SRC_FOGUANG,
+    sourceId: SRC_FGS_VANCOUVER,
     sourceExcerpt:
-      "Vancouver Foguangshan (溫哥華佛光山) at #6680 - 8181 Cambie Road, Richmond, BC V6X 3X9; the Fo Guang Shan branch temple serving the Vancouver area.",
-    url: "https://www.vanibps.org/",
+      "Vancouver Fo Guang Shan’s current site identifies the Richmond temple, its Humanistic Buddhist practice, public hours, and address at 8181 Cambie Road. Chan is one part of its broader tradition.",
+    url: "https://sites.google.com/view/vancouver-fo-guang-shan/home",
   },
   {
     slug: "fgs-toronto",
@@ -5354,10 +5380,10 @@ export const SEED_TEMPLES: TempleSeed[] = [
     foundedPrecision: "exact",
     schoolSlug: "chan",
     status: "active",
-    sourceId: SRC_FOGUANG,
+    sourceId: SRC_IBPS_MONTREAL,
     sourceExcerpt:
-      "International Buddhist Progress Society of Montreal (滿地可華嚴寺) at 3831 Rue Jean-Talon E., Montreal, QC; founded 1997, relocated 2002.",
-    url: "https://www.ibpsmtl.org/",
+      "IBPS Montreal’s current contact page confirms Hua Yan Temple at 3831 Rue Jean-Talon E. and public hours. The Fo Guang Shan temple represents broader Humanistic Buddhism with Chan elements.",
+    url: "https://ibpsmtl.org/contact-en/",
   },
   {
     slug: "ibps-london",
@@ -5649,10 +5675,10 @@ export const SEED_TEMPLES: TempleSeed[] = [
     foundedPrecision: null,
     schoolSlug: "chan",
     status: "active",
-    sourceId: SRC_DHARMADRUM,
+    sourceId: SRC_DDM_ONTARIO,
     sourceExcerpt:
-      "Dharma Drum Mountain Buddhist Association Ontario — Toronto-area DDM chapter (Sheng-yen Chan lineage).",
-    url: "https://ddmbaontario.org/",
+      "The official Dharma Drum Mountain Ontario site identifies a Sheng Yen Chan community with regular meditation, chanting, study, and teachings at 1025 McNicoll Avenue, Scarborough.",
+    url: "https://www.ddmbaontario.org/",
   },
   {
     slug: "dharma-loka-zagreb",

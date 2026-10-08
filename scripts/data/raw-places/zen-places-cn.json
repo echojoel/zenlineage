@@ -56,10 +56,10 @@
       "city": "Ningbo",
       "region": "Zhejiang",
       "lineage": "Chinese Chan (Linji — historic — where Eisai studied)",
-      "address": "Ayuwang Lu, Beilun District, Ningbo, Zhejiang",
+      "address": "1999 Wuxiang East Road, Yinzhou District, Ningbo, Zhejiang",
       "url": "https://www.ayw.com.cn/",
-      "source_url": "https://en.wikipedia.org/wiki/Ashoka_Temple_(Ningbo)",
-      "notes": "Founded 282 CE; one of the Five Mountain Chan temples of southern Song China. Where Myōan Eisai studied Linji Chan before establishing Rinzai in Japan."
+      "source_url": "https://www.zjskw.gov.cn/art/2021/9/14/art_1229556995_40807.html",
+      "notes": "A Zhejiang provincial source identifies Ayuwang as a historic Chan Five Mountains temple. Current visitor information supports the Ningbo address, but no public meditation schedule was found."
     },
     {
       "name": "Lingyin Temple",
@@ -76,30 +76,30 @@
       "city": "Hangzhou",
       "region": "Zhejiang",
       "lineage": "Chinese Chan (Linji — Five Mountains historic temple)",
-      "address": "South of West Lake, Xihu District, Hangzhou",
+      "address": "56 Nanshan Road, Xihu District, Hangzhou, Zhejiang",
       "url": "https://www.jingcisi.cn/",
-      "source_url": "https://en.wikipedia.org/wiki/Jingci_Temple",
-      "notes": "Founded 954 CE; one of the original Five Mountains of Linji Chan in Southern Song China."
+      "source_url": "https://www.hzfjxh.com/art/241228/25691662",
+      "notes": "Hangzhou Buddhist Association documented a current 2025 temple event, supporting institutional activity at this historic Chan temple. No regular public meditation schedule was found."
     },
     {
       "name": "Jinshan Temple",
       "city": "Zhenjiang",
       "region": "Jiangsu",
       "lineage": "Chinese Chan (Linji — historic training monastery)",
-      "address": "Jinshan Park, Runzhou District, Zhenjiang, Jiangsu",
+      "address": "62 Jinshan Road, Runzhou District, Zhenjiang, Jiangsu",
       "url": "https://www.jinshansi.com/",
-      "source_url": "https://en.wikipedia.org/wiki/Jinshan_Temple_(Jiangsu)",
-      "notes": "Founded 4th century; major Linji training monastery of late imperial China. Source of one of two main Chan training rule traditions ('Jinshan style')."
+      "source_url": "https://www.jsfj.net/syzs_zjjsjtcs",
+      "notes": "The Jiangsu Buddhist Association identifies Jiangtian Chan Temple at 62 Jinshan Road. No current public practice schedule was found."
     },
     {
       "name": "Gaomin Temple",
       "city": "Yangzhou",
       "region": "Jiangsu",
       "lineage": "Chinese Chan (Linji — modern training monastery)",
-      "address": "Gaomin Si, Hanjiang District, Yangzhou, Jiangsu",
+      "address": "5 Yangzi Jiangnan Road, Hanjiang District, Yangzhou, Jiangsu",
       "url": "http://www.china-gaominsi.com/",
-      "source_url": "https://en.wikipedia.org/wiki/Gaomin_Temple",
-      "notes": "Founded Sui dynasty; revived by Master Laiguo in the 20th century. One of the most rigorous active Chan training monasteries in China; Sheng Yen trained here."
+      "source_url": "https://www.jsfj.net/syzs_yzhjqg%E6%97%BBs",
+      "notes": "The Jiangsu Buddhist Association identifies Gaomin as a major Chan monastery, and a 2025 association report confirms current institutional activity. No regular public sitting schedule was found."
     },
     {
       "name": "Xuedou Temple",
@@ -130,16 +130,6 @@
       "url": "https://www.hanshansi.org/",
       "source_url": "https://jsfj.net/syzs_szhss",
       "notes": "The Jiangsu Buddhist Association identifies this active Suzhou temple with the Linji Chan tradition; no current public sitting schedule was confirmed (checked 2026-10-08)."
-    },
-    {
-      "name": "Caotang Temple",
-      "city": "Huxian",
-      "region": "Shaanxi",
-      "lineage": "Chinese Chan (historic — Kumarajiva)",
-      "address": "Hu County (Huxian), Xi'an, Shaanxi",
-      "url": "https://www.caotangsi.org.cn/",
-      "source_url": "https://en.wikipedia.org/wiki/Caotang_Temple",
-      "notes": "Founded 401 CE; where Kumarajiva translated the Lotus Sutra. Active Buddhist monastery; key proto-Chan textual heritage site."
     },
     {
       "name": "Nanhua Chan Temple (Nanhua Si)",

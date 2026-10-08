@@ -29,10 +29,10 @@
       "city": "Lytton",
       "region": "British Columbia",
       "lineage": "Sōtō / Serene Reflection Meditation (Order of Buddhist Contemplatives, Jiyu-Kennett lineage)",
-      "address": "PO Box 701, Lytton, BC V0K 1Z0",
+      "address": null,
       "url": "https://www.lionsgatebuddhistpriory.ca/",
       "source_url": "https://obcon.org/lions-gate-buddhist-priory/",
-      "notes": "Founded 1985 in Vancouver; relocated to Botanie Mountain near Lytton in 2007. Prior Rev. Master Koten Benson, elected Head of OBC in 2025."
+      "notes": "The Order of Buddhist Contemplatives profile and recent Priory materials support current retreats and online Dharma meetings. The published Lytton PO box is a mailing address, not a street venue; arrange visits directly."
     },
     {
       "name": "Zenwest Buddhist Society",
@@ -82,7 +82,7 @@
       "address": "D256, 3510 44 Avenue SW, Calgary, AB",
       "url": "https://calgarysotozen.org/",
       "source_url": "https://calgarysotozen.org/schedule",
-      "notes": "Everyday Zen Foundation sangha led by Baizan Tim Sampson, with weekday, Wednesday and Sunday practice. The schedule page gives the current in-person venue; confirm before visiting."
+      "notes": "The current schedule lists hybrid weekday morning practice, Wednesday evening zazen, Sunday study, and a monthly Saturday sitting at D256, 3510 44 Ave SW. The group identifies as an Everyday Zen Foundation sangha."
     },
     {
       "name": "Avatamsaka Monastery",
@@ -92,7 +92,7 @@
       "address": "1009 4 Avenue SW, Calgary, AB",
       "url": "https://www.avatamsaka.ca/",
       "source_url": "https://www.avatamsaka.ca/daily-schedule.html",
-      "notes": "DRBA Mahayana monastery founded by Master Hsuan Hua, with Chan among several practice traditions. The official site publishes daily services and meditation offerings."
+      "notes": "The official monastery site lists daily services and regular evening and Sunday programs. It is a Dharma Realm Buddhist Association Mahayana monastery with Chan among several practices, rather than an exclusively Zen center."
     },
     {
       "name": "Rocky Mountain Zen — Edmonton",
@@ -151,8 +151,8 @@
       "lineage": "Vietnamese Rinzai / Lâm Tế (Nguyên Thiều lineage)",
       "address": "Knox-Metropolitan United Church, Regina, SK",
       "url": "https://www.clearwayzen.ca/",
-      "source_url": "https://www.clearwayzen.ca/our-history/",
-      "notes": "Active hybrid Saturday practice at Knox-Metropolitan United Church, guided by Lotus Vu in the Vietnamese Thiền Lâm Tế lineage; consult the current schedule."
+      "source_url": "https://www.clearwayzen.ca/",
+      "notes": "The current site describes a Rinzai Zen sangha with hybrid Saturday 10:30 practice at Knox-Metropolitan United Church and documents 2026 activity."
     },
     {
       "name": "Toronto Zen Centre",
@@ -252,7 +252,7 @@
       "address": "534 Queens Avenue, London, ON",
       "url": "https://londonzencentre.org/",
       "source_url": "https://londonzencentre.org/events",
-      "notes": "Active Sanbō/Pacific Zen lineage organization led by Guy Gaudry, with current retreats and workshops. The published weekly London sitting evidence is dated, so confirm before visiting."
+      "notes": "The official site documents its Sanbō/Aitken–Tarrant lineage and current 2026 retreats. Its Sunday sitting at 534 Queens Avenue is published for the fall 2025 season, so confirm whether that weekly schedule continues."
     },
     {
       "name": "White Wind Zen Community / Zen Centre of Ottawa (Honzan Dainen-ji)",
@@ -290,9 +290,9 @@
       "region": "Ontario",
       "lineage": "Sōtō / Anzan Hoshin (White Wind Zen Community)",
       "address": "Apartment 102, 351 Eramosa Road, Guelph, ON N1E 2N1",
-      "url": "https://wwzc.org/centres/",
-      "source_url": "https://wwzc.org/centres/",
-      "notes": "White Wind branch practice hall. Prospective visitors should arrange a meeting in advance; no public recurring local schedule is currently published."
+      "url": "https://wwzcbeta.org/centres/",
+      "source_url": "https://wwzcbeta.org/centres/",
+      "notes": "White Wind’s current centers page identifies this branch at Apartment 102, 351 Eramosa Road. Visitors must arrange a meeting by email; it does not publish a standing drop-in schedule."
     },
     {
       "name": "Montreal Zen Center / Centre Zen de Montréal",
@@ -311,8 +311,8 @@
       "lineage": "Sōtō (Taisen Deshimaru / AZI lineage)",
       "address": null,
       "url": "https://www.zenmontreal.org/",
-      "source_url": "https://www.zenmontreal.org/welcome.html",
-      "notes": "Affiliated with Soto School / Association Zen Internationale."
+      "source_url": "https://www.zen-azi.org/en/recherche-lieux-meditation",
+      "notes": "The current AZI directory supports this Montréal group’s identity in the Deshimaru/Sōtō network. A current item-level schedule and meeting address were not confirmed."
     },
     {
       "name": "Enpuku-ji Zen Centre",
@@ -321,8 +321,8 @@
       "lineage": "Rinzai (Joshu Sasaki Roshi / Rinzai-ji)",
       "address": "4620 Saint-Dominique Street, Montreal, QC",
       "url": "https://enpuku-ji.org/",
-      "source_url": "https://www.rinzaiji.org/affiliated-centers/",
-      "notes": "Affiliate of Rinzai-ji Los Angeles. Resident abbot Zengetsu Myōkyō."
+      "source_url": "https://www.enpuku-ji.org/",
+      "notes": "The official center site documents Rinzai-ji affiliation and current in-person sittings throughout the week at 4620 Saint-Dominique Street."
     },
     {
       "name": "Wake Up Montréal",
@@ -345,16 +345,6 @@
       "notes": "Zen meditation retreat center in tradition of Thich Nhat Hanh, Eastern Townships, QC."
     },
     {
-      "name": "Kingston Zen Group (affiliated with Montreal Zen Center)",
-      "city": "Kingston",
-      "region": "Ontario",
-      "lineage": "Sōtō–Rinzai hybrid (Kapleau / Albert Low)",
-      "address": null,
-      "url": "https://www.zenmontreal.ca/",
-      "source_url": "http://iriz.hanazono.ac.jp/zen_centers/centers_data/canada.htm",
-      "notes": "Satellite sitting group of Montreal Zen Center."
-    },
-    {
       "name": "Thousand Harbours Zen (Sensōji)",
       "city": "Halifax",
       "region": "Nova Scotia",
@@ -372,7 +362,7 @@
       "address": "University of King's College, Halifax, NS",
       "url": "https://storder.org/centers/",
       "source_url": "https://storder.org/centers/",
-      "notes": "Silent Thunder Order group; meets Sunday mornings at the University of King's College. Confirm the room before visiting."
+      "notes": "Silent Thunder Order identifies this Halifax affiliate and practice at the University of King’s College. It does not publish a current schedule or exact room; contact the group before attending."
     },
     {
       "name": "Wolfville Zazenkai (White Wind)",
@@ -400,9 +390,9 @@
       "region": "British Columbia",
       "lineage": "Chan (Dharma Drum / Sheng Yen)",
       "address": "8240 No. 5 Road, Richmond, BC V6Y 2V4",
-      "url": "https://www.ddmba.ca/",
-      "source_url": "http://www.chancenter.org/chanctr/alinks.html",
-      "notes": "Dharma Drum branch in Greater Vancouver."
+      "url": "https://www.ddmba.ca/ddmba/index.php?lang=en",
+      "source_url": "https://www.ddmba.ca/ddmba/index.php?lang=en",
+      "notes": "The official center site identifies Dharma Drum Chan practice at 8240 No. 5 Road and publishes current 2026 meditation and retreat events."
     }
   ]
 }

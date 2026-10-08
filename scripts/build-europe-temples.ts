@@ -649,6 +649,19 @@ function pickSourceId(sourceUrl: string, lineage: string): string {
   if (u.includes("mzg.org.au/links/other-zen-groups"))
     return "src_melbourne_zen_groups";
   if (u.includes("mildurazengroup.org")) return "src_mildura_zen";
+  if (u.includes("ddmba.ca")) return "src_dharmadrum";
+  if (u.includes("enpuku-ji.org")) return "src_rinzaiji";
+  if (u.includes("wwzcbeta.org")) return "src_white_wind";
+  if (u.includes("zjskw.gov.cn") && u.includes("40807"))
+    return "src_asoka_zhejiang_social_sciences";
+  if (u.includes("jsfj.net/syzs_yzh")) return "src_gaomin_jiangsu_buddhist";
+  if (u.includes("hzfjxh.com") && u.includes("25691662"))
+    return "src_jingci_hangzhou_buddhist";
+  if (u.includes("jsfj.net/syzs_zjjsjtcs"))
+    return "src_jinshan_jiangsu_buddhist";
+  if (u.includes("plm.org.hk")) return "src_po_lin_monastery";
+  if (u.includes("tpb.gov.hk") && u.includes("m1145tpb"))
+    return "src_po_lam_hk_planning";
   if (u.includes("greenmountainzen.org.nz")) return "src_green_mountain_zen_site";
   if (u.includes("greenriverzen.org")) return "src_green_river_zen_site";
   if (u.includes("greyheronzen.ie")) return "src_grey_heron_zen_site";
@@ -992,8 +1005,6 @@ const MANUAL_COORDS: Record<string, ManualCoord> = {
   "Grupa Zen Kwan Um Płock": [52.5468, 19.7064], // Płock
   "Almond Blossom Sangha (Sangha Flor de Amêndoeira)": [37.0194, -7.9304], // Faro, Algarve
   Zengården: [59.45, 15.65], // Finnåker near Arboga
-  "Pu Men Temple Hong Kong (Foguangshan)": [22.2757, 114.173], // Wan Chai
-  "Chi Lin Nunnery": [22.3408, 114.2025], // Diamond Hill, Kowloon
   "Plum Village Swiss Inter-Sangha": [46.948, 7.4474, "city"], // Swiss centroid (Bern); national network
   "Community of Mindfulness in Israel (Plum Village)": [32.0853, 34.7818, "city"], // Tel Aviv (national network)
   "Sangha Amsterdam Oost - Diemen (Plum Village)": [52.3439, 4.9619], // Amsterdam-Oost / Diemen

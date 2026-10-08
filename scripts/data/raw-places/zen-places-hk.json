@@ -17,9 +17,9 @@
       "region": "Hong Kong SAR",
       "lineage": "Chan (Chinese Zen, Po Lin Monastery)",
       "address": "Ngong Ping Plateau, Lantau Island, Hong Kong",
-      "url": "https://plm.org.hk",
-      "source_url": "https://intotravelchina.com/attractions/hongkong_attraction/po-lin-monastery.html",
-      "notes": "Major Chan Buddhist monastery on Ngong Ping Plateau, often described as one of Hong Kong's foremost Zen monasteries and part of the 'Southern Buddhist Realm'. Founded in 1906 by three monks from Jiangsu; it grew from a remote hermitage ('Big Hut') into one of Hong Kong's largest Buddhist complexes and a key center of Chan practice. Adjacent to the Tian Tan (Big) Buddha and offering daily services, vegetarian meals, and pilgrimage facilities for practitioners and visitors. Native: 寶蓮禪寺 (Bǎolián Chán Sì)."
+      "url": "https://plm.org.hk/",
+      "source_url": "https://plm.org.hk/",
+      "notes": "The monastery’s official site identifies Po Lin Chan Monastery at Ngong Ping and publishes current visitor hours and activities. A current recurring public meditation schedule was not found. Native: 寶蓮禪寺."
     },
     {
       "name": "Lotus Pond Temple (Plum Village Hong Kong, Asian Institute of Applied Buddhism)",
@@ -78,28 +78,8 @@
       "lineage": "Chan (Chinese Mahayana, Xuyun lineage)",
       "address": "Tei Tong Tsai, Lantau Island, Hong Kong",
       "url": "https://westernchanfellowship.org/dharma/library/article/life-at-po-lam-chan-monastery-hong-kong/",
-      "source_url": "https://www.buddhanet.info/wbd/country.php?country_id=41",
-      "notes": "Forest-style Chan monastery at Tei Tong Tsai on Lantau Island, described in BuddhaNet as Po Lam Forest Monastery providing regular zazen, with facilities for monastics and lay meditators who follow the temple routine. Western Chan Fellowship accounts depict Po Lam Chan Monastery as a traditional Chinese Chan monastery with strict retreat forms, connected through its abbots to the Xuyun lineage and neighboring Nanhua-related teachers. The surrounding Tei Tong Tsai area is recognized in local heritage and hiking guides as a historic Buddhist village with Po Lam Monastery as one of the key surviving hermitages. Native: 寶林寺 (Bǎolín Sì)."
-    },
-    {
-      "name": "Pu Men Temple Hong Kong (Foguangshan)",
-      "city": "Wan Chai",
-      "region": "Hong Kong Island",
-      "lineage": "Chan / Linji (Foguangshan)",
-      "address": "23 Sik On Street, Wan Chai, Hong Kong",
-      "url": "https://www.fgs.org.hk/",
-      "source_url": "https://www.fgs.org.tw/",
-      "notes": "Foguangshan's main branch in Hong Kong; offers public Chan practice and Sunday classes."
-    },
-    {
-      "name": "Chi Lin Nunnery",
-      "city": "Diamond Hill",
-      "region": "Kowloon",
-      "lineage": "Chinese Chan (Chinese Buddhist nunnery)",
-      "address": "5 Chi Lin Drive, Diamond Hill, Kowloon, Hong Kong",
-      "url": "http://www.chilin.org/",
-      "source_url": "https://en.wikipedia.org/wiki/Chi_Lin_Nunnery",
-      "notes": "Founded 1934, rebuilt 1990s in Tang-dynasty wooden architecture. Active Chan-affiliated nunnery in central Kowloon."
+      "source_url": "https://www.tpb.gov.hk/en/meetings/TPB/Minutes/m1145tpb_e.pdf",
+      "notes": "A 2026 Hong Kong Town Planning Board document describes Po Lam Zen Monastery as operating at Tei Tong Tsai and promoting meditation. Detailed daily-training descriptions are historical, so no current public sitting schedule is asserted. Native: 寶林寺."
     }
   ]
 }

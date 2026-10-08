@@ -9,21 +9,21 @@ establish a group's current activity, lineage, or safeguarding.
 
 | Check | Result |
 |---|---:|
-| Place records | 1,652 |
-| Distinct preferred URLs checked | 1,348 |
-| URLs returning 2xx/3xx | 1,146 (used by 1,437 records) |
+| Place records | 1,648 |
+| Distinct preferred URLs checked | 1,346 |
+| URLs returning 2xx/3xx | 1,146 (used by 1,435 records) |
 | URLs returning 404/410 | 2 (used by 2 records) |
 | URLs blocked or rate limited | 20 (used by 22 records) |
-| URLs with inconclusive network/server results | 180 (used by 191 records) |
+| URLs with inconclusive network/server results | 178 (used by 189 records) |
 | Records with no preferred URL | 0 |
-| Records with only a `popular`-class citation | 401 |
+| Records with only a `popular`-class citation | 385 |
 | Records needing an item-level check because their sole citation is broad | 50 |
-| Records queued to check first (overlapping signals combined) | 453 |
-| City-level, approximate map pins | 830 |
+| Records queued to check first (overlapping signals combined) | 437 |
+| City-level, approximate map pins | 828 |
 
 Every remaining place has exactly one citation, currently attached to `coordinates`.
 That citation alone cannot establish affiliation, an active schedule, or a
-safeguarding process. The seed labels all 1,652 places `active`, but it has no
+safeguarding process. The seed labels all 1,648 places `active`, but it has no
 per-place last-checked date. The public map and exported JSON no longer expose
 that seed status as a verified claim.
 
@@ -255,11 +255,13 @@ Batch 14 replaced generic network citations with current local evidence for prac
 
 Batch 15 reviewed the remaining broad-citation cohorts alongside historic Chan temples in China and two Colombian records. Direct group, monastery, government, and Buddhist-association sources replaced generic citations for Plum Village and White Plum related communities and for Nanhua, Tiantong, Xuedou, Zhenru, Daishinji, and other Chinese heritage temples. Generic Vietnamese Thiền records are no longer classified as Plum Village unless their evidence names that tradition. Putuoshan Puji was removed as a Guanyin pilgrimage temple outside the directory's Zen scope; the former Fundación Zen “Templo Gen To” venue was removed because the organization says activity there ended in 2018. Six additional groups were removed where their own current description documented closure or where current evidence did not support presenting an active public practice place. Two Italian national networks were also removed because city pins would misrepresent them as local venues; the Israeli umbrella record is explicitly described as a national network. The broad-source queue fell from 124 to 50, and every removal remains a scope or current-evidence decision rather than a conduct finding.
 
-Batch 16 checked 44 records in the Americas, Europe, Australia, and New Zealand. Current direct pages supplied corrected venues or schedules for Buenos Aires, Medellín, Mexico City, Peruvian Sōtō temples, Vienna, Linz, Berlin, the Croatian Dharmaloka center, Nordic and Hungarian groups, and New Zealand practice communities. The duplicate Budapest Zen Dojo/Taisenji records were consolidated, and the Mokusho network pin now identifies its specific Taisenji temple, and national or multi-site descriptions no longer imply unsupported local schedules. Several small groups remain listed with explicit stale-schedule or unverified-venue caveats because older lineage evidence alone cannot establish current public meetings. Mar de Jade is now described as a retreat host rather than as a local lineage organization. These source upgrades reduced the priority queue from 491 to 453 records without treating missing evidence as a conduct finding.
+Batch 16 checked 44 records in the Americas, Europe, Australia, and New Zealand. Current direct pages supplied corrected venues or schedules for Buenos Aires, Medellín, Mexico City, Peruvian Sōtō temples, Vienna, Linz, Berlin, the Croatian Dharmaloka center, Nordic and Hungarian groups, and New Zealand practice communities. The duplicate Budapest Zen Dojo/Taisenji records were consolidated, the Mokusho network pin now identifies its specific Taisenji temple, and national or multi-site descriptions no longer imply unsupported local schedules. Several small groups remain listed with explicit stale-schedule or unverified-venue caveats because older lineage evidence alone cannot establish current public meetings. Mar de Jade is now described as a retreat host rather than as a local lineage organization. These source upgrades reduced the priority queue from 491 to 453 records without treating missing evidence as a conduct finding.
+
+Batch 17 reviewed Canadian centers, historic Chinese and Hong Kong temples, and two French AZI listings. Current institutional pages corrected Canadian schedules and affiliation wording, replaced several Wikipedia or generic directory citations for Chan heritage temples, and distinguished broader Humanistic Buddhist centers from exclusively Zen organizations. Kingston’s historical satellite was removed because no current item-level evidence was found. Caotang was removed as a Sanlun and translation-history institution outside the Chan directory; Chi Lin was removed after its own history identified Pure Land origins and practice; and the Hong Kong Pu Men record was removed because it conflated a local general Buddhist temple with Fo Guang Shan. The Issy and Bergerac records now use their current AZI identities and addresses. These are scope and current-evidence corrections, not conduct findings, and they reduced the priority queue from 453 to 437.
 
 ## Next review work
 
-Start with the 2 records whose preferred URL returned 404/410. Then review the 401 `popular`-only citations and 50
+Start with the 2 records whose preferred URL returned 404/410. Then review the 385 `popular`-only citations and 50
 broad-page citations against direct group or institutional pages. For each correction, update
 the canonical seed or raw place data, cite the direct source, and rerun the
 seed and audit. Do not infer misconduct from missing websites or policies.
