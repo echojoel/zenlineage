@@ -9,25 +9,25 @@ establish a group's current activity, lineage, or safeguarding.
 
 | Check | Result |
 |---|---:|
-| Place records | 1,641 |
+| Place records | 1,628 |
 | Distinct preferred URLs checked | 1,341 |
-| URLs returning 2xx/3xx | 1,148 (used by 1,435 records) |
+| URLs returning 2xx/3xx | 1,152 (used by 1,428 records) |
 | URLs returning 404/410 | 2 (used by 2 records) |
 | URLs blocked or rate limited | 20 (used by 22 records) |
-| URLs with inconclusive network/server results | 171 (used by 182 records) |
+| URLs with inconclusive network/server results | 167 (used by 176 records) |
 | Records with no preferred URL | 0 |
-| Records with only a `popular`-class citation | 346 |
-| Records needing an item-level check because their sole citation is broad | 47 |
-| Records queued to check first (overlapping signals combined) | 395 |
-| City-level, approximate map pins | 827 |
+| Records with only a `popular`-class citation | 313 |
+| Records needing an item-level check because their sole citation is broad | 45 |
+| Records queued to check first (overlapping signals combined) | 360 |
+| City-level, approximate map pins | 826 |
 
 Every remaining place has exactly one citation, currently attached to `coordinates`.
 That citation alone cannot establish affiliation, an active schedule, or a
-safeguarding process. The seed labels all 1,641 places `active`, but it has no
+safeguarding process. The seed labels all 1,628 places `active`, but it has no
 per-place last-checked date. The public map and exported JSON no longer expose
 that seed status as a verified claim.
 
-The 47 broad-page citations comprise 44 rows citing Plum Village's
+The 45 broad-page citations comprise 42 rows citing Plum Village's
 [monastic centres page](https://plumvillage.org/community/monastic-practice-centres)
 and 3 citing the [White Plum founder page](https://whiteplum.org/founder/).
 Those pages do not individually support all the lay groups assigned to them.
@@ -261,9 +261,12 @@ Batch 17 reviewed Canadian centers, historic Chinese and Hong Kong temples, and 
 
 Batch 18 reviewed European groups, an Americas cohort, and 15 Japanese temples. Current first-party pages supplied schedules, corrected venues, and narrower lineage wording for Czech, Danish, German, United States, and Japanese records. Pasárgada, Dharma Sangha México, and Bodhidharma Zen-Gemeinschaft were removed from the current-practice map because only historical or directory evidence could be found; this does not establish closure. The Annapolis group remains queued with its current activity and affiliations explicitly unverified. Sōtō Zen Aarhus and Daishin Zen Berlin were removed after current organizational pages documented closure or only a future relaunch. Linh Sơn A Di Đà Viện was removed from the Zen-specific map after its official site documented a Texas Pure Land practice center rather than the mapped Ohio Zen venue. Jufuku-ji was removed from the public-practice map because current visitor information limits access and no public practice program was found. Heilbronn was renamed to its current organization identity without treating the rename as a closure. The priority queue fell from 437 to 395 and broad citations from 50 to 47.
 
+
+Batch 19 reviewed current evidence for practice places in France, the United States, and Asia. Eleven French listings, Vihara Mahavira in Jakarta, and the unsupported Chung Tai Singapore listing were removed after current direct evidence did not substantiate the mapped practice place or Zen affiliation. Current organization pages corrected the La Ciotat, Pine Mountain, Redding, Mt Adams, Wallowa, Plum Blossom, Annapolis, Indonesian, Malaysian, Philippine, and Singapore records. Providence Zen Center and Falaise Verte now use their own current schedules, while Sanzu, Tsz Shan, and Fo Guang Shan New Zealand have narrower descriptions that separate visitor programmes or broad Buddhist identity from a verified recurring Zen schedule. Unconfirmed venues and affiliations remain explicit uncertainties. The priority queue fell from 395 to 360 records and broad citations from 47 to 45.
+
 ## Next review work
 
-Start with the 2 records whose preferred URL returned 404/410. Then review the 346 `popular`-only citations and 47
+Start with the 2 records whose preferred URL returned 404/410. Then review the 313 `popular`-only citations and 45
 broad-page citations against direct group or institutional pages. For each correction, update
 the canonical seed or raw place data, cite the direct source, and rerun the
 seed and audit. Do not infer misconduct from missing websites or policies.

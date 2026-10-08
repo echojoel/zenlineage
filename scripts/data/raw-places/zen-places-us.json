@@ -612,20 +612,20 @@
       "city": "Maricopa",
       "region": "California",
       "lineage": "Sōtō (OBC, Serene Reflection / Jiyu-Kennett)",
-      "address": "Pine Mountain, CA",
-      "url": "http://www.pinemtnbuddhisttemple.org/",
-      "source_url": "https://berkeleybuddhistpriory.org/obc-links/",
-      "notes": "OBC retreat temple in central coast mountains."
+      "address": "812 Loma Vista Place, Santa Paula, CA 93060",
+      "url": "https://pinemtnbuddhisttemple.org/",
+      "source_url": "https://pinemtnbuddhisttemple.org/",
+      "notes": "The official temple site publishes Sunday, weekday morning, and first/third Thursday practice and identifies Serene Reflection Meditation/Sōtō Zen in the Order of Buddhist Contemplatives."
     },
     {
       "name": "Redding Zen Buddhist Priory",
       "city": "Redding",
       "region": "California",
       "lineage": "Sōtō (OBC, Serene Reflection / Jiyu-Kennett)",
-      "address": "Redding, CA",
+      "address": "1190 South Street, Redding, CA",
       "url": "https://reddingzen.org/",
-      "source_url": "https://berkeleybuddhistpriory.org/obc-links/",
-      "notes": "OBC priory in Northern California."
+      "source_url": "https://reddingzen.org/",
+      "notes": "The official site publishes a current 2026 in-person and online schedule and identifies Sōtō-derived Serene Reflection Meditation and OBC affiliation."
     },
     {
       "name": "Mt Baldy Zen Center",
@@ -795,7 +795,7 @@
       "address": "Washington, DC",
       "url": "https://www.skyabovezen.org/",
       "source_url": "https://whiteplum.org/membership-list-public/",
-      "notes": "White Plum’s member directory associates teacher Susan KoDo Efird with this Washington, DC group. The group domain resolves, but a current public venue and schedule remain unconfirmed."
+      "notes": "White Plum’s current member roster associates Susan KoDo Efird with Sky Above Great Wind in Washington, DC. The group site is inaccessible and no public venue or schedule was found, so the pin remains approximate."
     },
     {
       "name": "All Beings Zen Sangha",
@@ -1299,10 +1299,10 @@
       "city": "Annapolis",
       "region": "Maryland",
       "lineage": "Plum Village (Thich Nhat Hanh)",
-      "address": "Annapolis, MD",
+      "address": "UU Church of Annapolis, 333 Dubois Road, Annapolis, MD",
       "url": "https://annapolismindfulness.org/",
-      "source_url": "https://zenpeacemakers.org/membership/affiliate-network/",
-      "notes": "The group’s preferred site could not be verified in this review, and no current public venue, schedule, or organizational affiliation was corroborated. Retained for follow-up without asserting current activity or lineage."
+      "source_url": "https://uubf.org/wp/uubf-practice-groups/",
+      "notes": "The UU Buddhist Fellowship lists this lay-led Annapolis group at 333 Dubois Road. Its Meetup describes practice inspired by Thich Nhat Hanh and recurring meetings, but current in-person cadence and formal Plum Village affiliation should be confirmed."
     },
     {
       "name": "Silver Spring Zendo / One Heart Sangha",
@@ -1826,7 +1826,7 @@
       "address": null,
       "url": "https://notraceszendo.com/",
       "source_url": "https://whiteplum.org/membership-list-public/",
-      "notes": "Small household and online sitting group associated with White Plum teacher Nancy Mujo Baker. A 2022 profile described weekly household practice; the former group website no longer resolves, so current public access and cadence remain unconfirmed."
+      "notes": "White Plum’s current roster associates Nancy Mujo Baker with No Traces Zendo. A 2022 profile described a small household practice, but no current public schedule or venue was corroborated."
     },
     {
       "name": "Zen Community of Staten Island",
@@ -1843,10 +1843,10 @@
       "city": "Bridgehampton",
       "region": "New York",
       "lineage": "White Plum (Maezumi lineage)",
-      "address": null,
+      "address": "977 Bridgehampton Turnpike, Bridgehampton, NY",
       "url": "https://oceanzendo.org/",
       "source_url": "https://zenpeacemakers.org/membership/affiliate-network/",
-      "notes": "Zen Peacemakers currently lists Ocean Zendo in Bridgehampton. The former group website no longer resolves, so a current public schedule and exact venue remain unconfirmed."
+      "notes": "Zen Peacemakers currently lists Ocean Zendo at 977 Bridgehampton Turnpike, and White Plum lists teacher Michel Engu Dobbs. The former group site is inaccessible and no current public schedule was found."
     },
     {
       "name": "Empty Hand Zen Center",
@@ -2083,10 +2083,10 @@
       "city": "Joseph",
       "region": "Oregon",
       "lineage": "Sōtō (OBC, Serene Reflection / Jiyu-Kennett)",
-      "address": "Joseph, OR",
-      "url": "http://www.wallowabuddhisttemple.org/",
-      "source_url": "https://berkeleybuddhistpriory.org/obc-links/",
-      "notes": "OBC temple in eastern Oregon; Reverend Master Meido Tuttle."
+      "address": "62916 Hurricane Creek Road, Joseph, OR 97846",
+      "url": "https://wallowabuddhisttemple.org/",
+      "source_url": "https://wallowabuddhisttemple.org/",
+      "notes": "The official site publishes Sunday and first-Saturday retreats, identifies Serene Reflection Meditation/Sōtō Zen and OBC affiliation, and asks first-time visitors to arrange instruction in advance."
     },
     {
       "name": "Ring of Moss Zendo",
@@ -2473,10 +2473,10 @@
       "city": "Trout Lake",
       "region": "Washington",
       "lineage": "Vietnamese Thiền + Northern Chan",
-      "address": "Trout Lake, WA",
+      "address": "46 Stoller Road, Trout Lake, WA",
       "url": "https://mtadamsbuddhisttemple.org/",
-      "source_url": "https://mtadamsbuddhisttemple.org/",
-      "notes": "Country temple offering Vietnamese Thien and Chinese Chan."
+      "source_url": "https://mtadamsbuddhisttemple.org/schedule/",
+      "notes": "The official site publishes daily and weekly practice and says the temple is temporarily closed through 7 November 2026 during pilgrimage, with services online meanwhile. Its own material describes Vietnamese Thiền with Lâm Tế roots without establishing formal Plum Village membership."
     },
     {
       "name": "Southern West Virginia Zen Group",

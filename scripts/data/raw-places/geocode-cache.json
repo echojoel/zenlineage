@@ -5709,5 +5709,17 @@
   "fr-gap:5 rue Prosper Faugère, 24100 Bergerac, France, France": [
     44.8506478,
     0.4880207
+  ],
+  "fr-gap:La Ciotat, France": [
+    43.1758591,
+    5.6062495
+  ],
+  "my:Jenjarom, Selangor, Malaysia": [
+    2.8766037,
+    101.4988405
+  ],
+  "sg:1 Punggol Place, Singapore 828844, Singapore": [
+    1.4067429,
+    103.9055171
   ]
 }

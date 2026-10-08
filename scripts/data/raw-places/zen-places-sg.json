@@ -35,30 +35,20 @@
       "city": "Singapore",
       "region": "Singapore",
       "lineage": "Chan / Sheng-yen (Dharma Drum Mountain)",
-      "address": null,
-      "url": "https://ddsingapore.org/en",
-      "source_url": "https://ddsingapore.org/en",
-      "notes": "Singapore branch of Dharma Drum Mountain Buddhist Association; offers Chan meditation classes and Sheng-yen lineage teachings."
+      "address": "146B Paya Lebar Road, #06-01 Ace Building, Singapore 409017",
+      "url": "https://ddsingapore.org/contact-us",
+      "source_url": "https://ddsingapore.org/contact-us",
+      "notes": "Dharma Drum Mountain Singapore centre; organization details: https://ddsingapore.org/en/content/dharma-drum-singapore . Current Chan meditation programs are listed at https://ddsingapore.org/en/event-type/%E7%A6%85%E4%BF%AE ; check the event page for dates, with no fixed cadence asserted."
     },
     {
-      "name": "Foguang Shan Singapore",
+      "name": "Fo Guang Shan Singapore",
       "city": "Singapore",
       "region": "Singapore",
-      "lineage": "Chan / Linji (Foguangshan)",
-      "address": "Singapore",
-      "url": "https://www.fgs.sg/",
-      "source_url": "https://www.fgs.org.tw/",
-      "notes": "Foguangshan branch in Singapore. Coordinates approximate Singapore centre."
-    },
-    {
-      "name": "Chung Tai Chan Monastery Singapore",
-      "city": "Singapore",
-      "region": "Singapore",
-      "lineage": "Chan / Linji (Chung Tai Shan)",
-      "address": "Singapore",
-      "url": "https://www.chungtai.org.sg/",
-      "source_url": "https://www.ctworld.org.tw/english-96/html/03_Centers.html",
-      "notes": "Chung Tai branch in Singapore. Coordinates approximate Singapore centre."
+      "lineage": "Fo Guang Shan (Humanistic Buddhism)",
+      "address": "1 Punggol Place, Singapore 828844",
+      "url": "https://www.fgs.sg/contact-1",
+      "source_url": "https://www.fgs.sg/contact-1",
+      "notes": "Fo Guang Shan Singapore at 1 Punggol Place. Its contact page lists visiting information. Broad Humanistic Buddhist institution offering meditation; no recurring meditation schedule is asserted."
     },
     {
       "name": "Kwan Yin Chan Lin Zen Meditation Centre",

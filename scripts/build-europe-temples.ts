@@ -529,6 +529,33 @@ function lineageToSchoolSlug(lineage: string): string {
 function pickSourceId(sourceUrl: string, lineage: string): string {
   const u = sourceUrl.toLowerCase();
 
+  if (u.includes("dojozenlaciotatceyreste.blogspot.com/p/dojo-zen-de-ceyreste-et-la-ciotat.html"))
+    return "src_dojo_zen_laciotat_blog";
+  if (u.includes("pinemtnbuddhisttemple.org"))
+    return "src_pine_mountain_buddhist_temple";
+  if (u.includes("reddingzen.org"))
+    return "src_redding_zen_buddhist_priory";
+  if (u.includes("mtadamsbuddhisttemple.org/schedule"))
+    return "src_mt_adams_buddhist_temple";
+  if (u.includes("wallowabuddhisttemple.org"))
+    return "src_wallowa_buddhist_temple";
+  if (u.includes("plumblossomsangha.org/visit-us"))
+    return "src_plum_blossom_sangha";
+  if (u.includes("uubf.org/wp/uubf-practice-groups"))
+    return "src_uubf_practice_groups";
+  if (u.includes("cms.ordinterbeing.id/jadwal"))
+    return "src_order_interbeing_indonesia";
+  if (u.includes("bodhizendo.org/index.php/en")) return "src_bodhi_zendo";
+  if (u.includes("ddmmy.org/contact-us")) return "src_ddm_malaysia";
+  if (u.includes("pjfgs.org/online-donation/fgs-directory"))
+    return "src_fgs_malaysia_directory";
+  if (u.includes("kyclzen.sg/malaysia")) return "src_kycl_malaysia";
+  if (u.includes("oceanskyzen.org/wp/?page_id=99"))
+    return "src_ocean_sky_chan";
+  if (u.includes("fgs-ph.com")) return "src_fgs_philippines";
+  if (u.includes("ddsingapore.org/contact-us")) return "src_ddm_singapore";
+  if (u.includes("fgs.sg/contact-1")) return "src_fgs_singapore";
+
   if (u.includes("zenlleida.org/dojo")) return "src_dojo_zen_lleida";
   if (u.includes("zen-azi.org/index.php/fr/node/3053")) return "src_azi_charleroi";
   if (u.includes("zen-azi.org/fr/node/456")) return "src_azi_caen";

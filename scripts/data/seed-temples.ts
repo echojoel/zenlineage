@@ -159,6 +159,14 @@ export const SRC_STONEWATER_ZEN = "src_stonewater_zen";
 export const SRC_IZAUK = "src_izauk";
 /** The Buddhist Society — Hampstead, oldest UK Buddhist body. */
 export const SRC_BUDDHIST_SOCIETY_UK = "src_buddhist_society_uk";
+/** Providence Zen Center's current practice schedule and contact details. */
+export const SRC_PROVIDENCE_ZEN_CENTER = "src_providence_zen_center";
+/** Centre Zen de la Falaise Verte's current Rinzai practice and lineage. */
+export const SRC_FALAISE_VERTE = "src_falaise_verte";
+/** Current visitor and programme pages for three curated Asian institutions. */
+export const SRC_SANZU_TIANZHU = "src_sanzu_tianzhu";
+export const SRC_TSZ_SHAN = "src_tsz_shan";
+export const SRC_FGS_NEW_ZEALAND = "src_fgs_new_zealand";
 
 // ─── Country-specific monastery / network sites ─────────────────────────
 /** Felsentor / Houshinji — CH Sōtō monastery on Mount Rigi. */
@@ -1957,6 +1965,195 @@ export const TEMPLE_SOURCES: {
       publicationDate: "2026",
       reliability: "popular",
     },
+    {
+      id: "src_dojo_zen_laciotat_blog",
+      type: "website",
+      title: "Dojo Zen de Ceyreste et La Ciotat — local practice information",
+      author: "Dojo Zen de Ceyreste et La Ciotat",
+      url: "https://dojozenlaciotatceyreste.blogspot.com/p/dojo-zen-de-ceyreste-et-la-ciotat.html",
+      publicationDate: "",
+      reliability: "primary",
+    },
+    {
+      id: "src_pine_mountain_buddhist_temple",
+      type: "website",
+      title: "Pine Mountain Buddhist Temple — practice and visitor information",
+      author: "Pine Mountain Buddhist Temple",
+      url: "https://pinemtnbuddhisttemple.org/",
+      publicationDate: "2026",
+      reliability: "authoritative",
+    },
+    {
+      id: "src_redding_zen_buddhist_priory",
+      type: "website",
+      title: "Redding Zen Buddhist Priory — practice schedule and affiliation",
+      author: "Redding Zen Buddhist Priory",
+      url: "https://reddingzen.org/",
+      publicationDate: "2026",
+      reliability: "authoritative",
+    },
+    {
+      id: "src_mt_adams_buddhist_temple",
+      type: "website",
+      title: "Mt. Adams Zen Buddhist Temple — schedule",
+      author: "Mt. Adams Zen Buddhist Temple",
+      url: "https://mtadamsbuddhisttemple.org/schedule/",
+      publicationDate: "2026",
+      reliability: "authoritative",
+    },
+    {
+      id: "src_wallowa_buddhist_temple",
+      type: "website",
+      title: "Wallowa Buddhist Temple — practice and visitor information",
+      author: "Wallowa Buddhist Temple",
+      url: "https://wallowabuddhisttemple.org/",
+      publicationDate: "2026",
+      reliability: "authoritative",
+    },
+    {
+      id: "src_plum_blossom_sangha",
+      type: "website",
+      title: "Plum Blossom Sangha — visit and practice information",
+      author: "Plum Blossom Sangha",
+      url: "https://plumblossomsangha.org/visit-us/",
+      publicationDate: "2026",
+      reliability: "authoritative",
+    },
+    {
+      id: "src_uubf_practice_groups",
+      type: "website",
+      title: "Unitarian Universalist Buddhist Fellowship — practice groups",
+      author: "Unitarian Universalist Buddhist Fellowship",
+      url: "https://uubf.org/wp/uubf-practice-groups/",
+      publicationDate: "",
+      reliability: "authoritative",
+    },
+    {
+      id: SRC_PROVIDENCE_ZEN_CENTER,
+      type: "website",
+      title: "Providence Zen Center — meditation schedule and contact details",
+      author: "Providence Zen Center",
+      url: "https://providencezen.org/schedule",
+      publicationDate: "2026",
+      reliability: "authoritative",
+    },
+    {
+      id: SRC_FALAISE_VERTE,
+      type: "website",
+      title: "Centre Zen de la Falaise Verte — Rinzai practice, sesshin and zazenkai",
+      author: "Centre Zen de la Falaise Verte",
+      url: "https://www.falaiseverte.org/zen/",
+      publicationDate: "2026",
+      reliability: "authoritative",
+    },
+    {
+      id: SRC_SANZU_TIANZHU,
+      type: "website",
+      title: "Tianzhu Mountain scenic area — Sanzu Temple",
+      author: "Tianzhu Mountain Scenic Area",
+      url: "https://www.tzs.com.cn/site-ah-tzs/node/306_77",
+      publicationDate: "",
+      reliability: "authoritative",
+    },
+    {
+      id: SRC_TSZ_SHAN,
+      type: "website",
+      title: "Tsz Shan Monastery — programmes and visitor registration",
+      author: "Tsz Shan Monastery",
+      url: "https://www.tszshan.org/home/new/en/event.php?cat=cat6",
+      publicationDate: "2026",
+      reliability: "authoritative",
+    },
+    {
+      id: SRC_FGS_NEW_ZEALAND,
+      type: "website",
+      title: "Fo Guang Shan New Zealand — locations and current events",
+      author: "Fo Guang Shan New Zealand",
+      url: "https://fgs.org.nz/english/contact-us/",
+      publicationDate: "2026",
+      reliability: "authoritative",
+    },
+    {
+      id: "src_order_interbeing_indonesia",
+      type: "website",
+      title: "Order of Interbeing Indonesia — practice schedule",
+      author: "Order of Interbeing Indonesia",
+      url: "https://cms.ordinterbeing.id/jadwal/",
+      publicationDate: "2026",
+      reliability: "authoritative",
+    },
+    {
+      id: "src_bodhi_zendo",
+      type: "website",
+      title: "Bodhi Zendo — training and retreat information",
+      author: "Bodhi Zendo",
+      url: "https://www.bodhizendo.org/index.php/en/",
+      publicationDate: "",
+      reliability: "authoritative",
+    },
+    {
+      id: "src_ddm_malaysia",
+      type: "website",
+      title: "Dharma Drum Mountain Malaysia — contact and activities",
+      author: "Dharma Drum Mountain Malaysia",
+      url: "https://ddmmy.org/contact-us/",
+      publicationDate: "2026",
+      reliability: "authoritative",
+    },
+    {
+      id: "src_fgs_malaysia_directory",
+      type: "website",
+      title: "Fo Guang Shan Malaysia — temple directory",
+      author: "Fo Guang Shan Malaysia",
+      url: "https://pjfgs.org/online-donation/fgs-directory/",
+      publicationDate: "",
+      reliability: "authoritative",
+    },
+    {
+      id: "src_kycl_malaysia",
+      type: "website",
+      title: "Kwan Yin Chan Lin — Malaysia centres",
+      author: "Kwan Yin Chan Lin",
+      url: "https://www.kyclzen.sg/malaysia",
+      publicationDate: "2026",
+      reliability: "authoritative",
+    },
+    {
+      id: "src_ocean_sky_chan",
+      type: "website",
+      title: "Ocean Sky Chan Monastery — contact and programmes",
+      author: "Ocean Sky Chan Monastery",
+      url: "https://oceanskyzen.org/wp/?page_id=99",
+      publicationDate: "2026",
+      reliability: "authoritative",
+    },
+    {
+      id: "src_fgs_philippines",
+      type: "website",
+      title: "Fo Guang Shan Philippines — Mabuhay Temple",
+      author: "Fo Guang Shan Philippines",
+      url: "https://fgs-ph.com/",
+      publicationDate: "2026",
+      reliability: "authoritative",
+    },
+    {
+      id: "src_ddm_singapore",
+      type: "website",
+      title: "Dharma Drum Singapore — contact and programmes",
+      author: "Dharma Drum Singapore",
+      url: "https://ddsingapore.org/contact-us",
+      publicationDate: "2026",
+      reliability: "authoritative",
+    },
+    {
+      id: "src_fgs_singapore",
+      type: "website",
+      title: "Fo Guang Shan Singapore — contact and visitor information",
+      author: "Fo Guang Shan Singapore",
+      url: "https://www.fgs.sg/contact-1",
+      publicationDate: "2026",
+      reliability: "authoritative",
+    },
 ];
 
 export const SEED_TEMPLES: TempleSeed[] = [
@@ -2566,10 +2763,10 @@ export const SEED_TEMPLES: TempleSeed[] = [
     schoolSlug: "kwan-um",
     founderSlug: "seung-sahn",
     status: "active",
-    sourceId: SRC_WIKIPEDIA,
+    sourceId: SRC_PROVIDENCE_ZEN_CENTER,
     sourceExcerpt:
-      "Providence Zen Center, founded 1972 by Seung Sahn; head temple of the Kwan Um School of Zen.",
-    url: "https://providencezen.org/",
+      "Providence Zen Center publishes weekly in-person meditation, chanting, and sitting schedules and gives its address as 99 Pound Rd, Cumberland, Rhode Island.",
+    url: "https://providencezen.org/schedule",
   },
 
   // ─── Chinese Chan (historical roots) ─────────────────────────────────
@@ -2681,15 +2878,15 @@ export const SEED_TEMPLES: TempleSeed[] = [
     lng: 116.502287,
     region: "Anhui",
     country: "China",
-    foundedYear: 505,
-    foundedPrecision: "exact",
+    foundedYear: null,
+    foundedPrecision: null,
     schoolSlug: "early-chan",
     founderSlug: "jianzhi-sengcan",
     status: "active",
-    sourceId: SRC_SANZU_FOJIAOWANG,
+    sourceId: SRC_SANZU_TIANZHU,
     sourceExcerpt:
-      "Buddhist historical material identifies Sanzu Temple on Mount Tianzhu with Third Patriarch Sengcan. Reports of lectures and Chan retreats are old, so current public practice remains unverified (checked 2026-10-08).",
-    url: "https://fojiaowang.com.cn/plus/view.php?aid=4127",
+      "The Tianzhu Mountain scenic-area authority identifies Sanzu Temple as a Chan ancestral site associated with Third Patriarch Sengcan. It gives visitor information for the area, but no current public meditation schedule was verified (checked 2026-10-08).",
+    url: "https://www.tzs.com.cn/site-ah-tzs/node/306_77",
     geoPrecision: "exact",
   },
   {
@@ -2894,7 +3091,7 @@ export const SEED_TEMPLES: TempleSeed[] = [
     country: "China",
     foundedYear: 783,
     foundedPrecision: "exact",
-    schoolSlug: "chan",
+    schoolSlug: "other",
     status: "active",
     sourceId: SRC_YONGQUAN_FUZHOU,
     sourceExcerpt:
@@ -3294,10 +3491,10 @@ export const SEED_TEMPLES: TempleSeed[] = [
     foundedPrecision: "exact",
     schoolSlug: "chan",
     status: "active",
-    sourceId: SRC_WIKIPEDIA,
+    sourceId: SRC_TSZ_SHAN,
     sourceExcerpt:
-      "Tsz Shan Monastery (慈山寺), Tung Tsz, Tai Po, Hong Kong — a Chinese Buddhist monastery opened in 2015, offering public meditation and chanting programmes.",
-    url: "https://www.tszshan.org/",
+      "Tsz Shan Monastery describes itself as a Chinese Buddhist monastery and publishes meditation-related visitor programmes that require registration. Its site does not establish a formal Chan affiliation or recurring public zazen schedule.",
+    url: "https://www.tszshan.org/home/new/en/event.php?cat=cat6",
     geoPrecision: "exact",
   },
 
@@ -3518,10 +3715,10 @@ export const SEED_TEMPLES: TempleSeed[] = [
     foundedPrecision: "exact",
     schoolSlug: "rinzai",
     status: "active",
-    sourceId: SRC_WIKIPEDIA,
+    sourceId: SRC_FALAISE_VERTE,
     sourceExcerpt:
-      "Centre Zen de la Falaise Verte (Ardèche), founded 1974 by Taikan Jyoji — described by its own history as the first Rinzai Zen temple in Europe.",
-    url: "https://www.falaiseverte.org/",
+      "The centre describes its practice as Japanese Rinzai Zen; its lineage page links Taikan Jyoji to Myōshin-ji Rinzai authorities. Current 2026 notices refer to Tuesday 06:30 streaming and sesshin; regular zazenkai are held at the centre and in several cities.",
+    url: "https://www.falaiseverte.org/zen/",
   },
 
   // ─── European Sōtō Zen — Portugal ────────────────────────────────────
@@ -4688,7 +4885,7 @@ export const SEED_TEMPLES: TempleSeed[] = [
     country: "United Kingdom",
     foundedYear: 1997,
     foundedPrecision: "exact",
-    schoolSlug: "chan",
+    schoolSlug: "other",
     status: "active",
     sourceId: SRC_WIKIPEDIA,
     sourceExcerpt:
@@ -5506,10 +5703,10 @@ export const SEED_TEMPLES: TempleSeed[] = [
     foundedPrecision: "exact",
     schoolSlug: "chan",
     status: "active",
-    sourceId: SRC_WIKIPEDIA,
+    sourceId: SRC_FGS_NEW_ZEALAND,
     sourceExcerpt:
-      "Fo Guang Shan Buddhist Temple, Auckland at 16 Stancombe Road, Flat Bush, Manukau 2016; opened late 2007 after seven years of construction at NZ$20 million. Largest Buddhist temple in New Zealand.",
-    url: "https://fgs.org.nz/",
+      "Fo Guang Shan New Zealand lists separate Auckland and Christchurch temples. This pin represents the Auckland temple at 16 Stancombe Road; the organization describes Humanistic Buddhist services and publishes current events without establishing an exclusively Chan programme.",
+    url: "https://fgs.org.nz/english/contact-us/",
   },
 
   // ─── Boundless Way Zen — additional affiliates (2026-05 ingest) ──────

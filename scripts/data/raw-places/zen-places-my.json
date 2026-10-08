@@ -13,43 +13,43 @@
   "places": [
     {
       "name": "Dharma Drum Mountain Malaysia Centre",
-      "city": "Petaling Jaya / Kwasa Damansara",
+      "city": "Petaling Jaya",
       "region": "Selangor",
       "lineage": "Chan / Sheng-yen (Dharma Drum Mountain)",
-      "address": "Near Kwasa Damansara MRT Station, Selangor, Malaysia",
-      "url": "https://ddmmy.org/",
-      "source_url": "https://ddmmy.org/new-dharma-drum-mountain-malaysia-centre/",
-      "notes": "Malaysian branch of Dharma Drum Mountain; new five-story centre with meditation hall and rooftop walking-meditation space, 30 minutes from KL."
+      "address": "No. 9, Jalan 51A/225A, Petaling Jaya, Selangor, Malaysia",
+      "url": "https://ddmmy.org/contact-us/",
+      "source_url": "https://ddmmy.org/contact-us/",
+      "notes": "Dharma Drum Mountain Malaysia centre. Its activities page lists Friday meditation from 20:30 to 22:00; see https://ddmmy.org/our-activities/ . Lineage and organization details: https://ddmmy.org/about-ddm-malaysia/ ."
     },
     {
-      "name": "Foguangshan Bandar Saujana Putra",
-      "city": "Banting",
+      "name": "Fo Guang Shan Dong Zen Temple",
+      "city": "Jenjarom",
       "region": "Selangor",
-      "lineage": "Chan / Linji (Foguangshan)",
-      "address": "Bandar Saujana Putra, Banting, Selangor",
-      "url": "https://www.fgsmalaysia.org/",
-      "source_url": "https://www.fgs.org.tw/",
-      "notes": "Foguangshan branch monastery in Malaysia."
+      "lineage": "Fo Guang Shan (Humanistic Buddhism)",
+      "address": "PT 2297, Jalan Sg. Buaya, Jenjarom, Selangor, Malaysia",
+      "url": "https://pjfgs.org/online-donation/fgs-directory/",
+      "source_url": "https://pjfgs.org/online-donation/fgs-directory/",
+      "notes": "Fo Guang Shan Dong Zen Temple in Jenjarom. Visitor information: https://www.mpkl.gov.my/pelawat/tarikan-pelancong/fo-guan-shan-don-zen-temple . Broad Humanistic Buddhist institution; no Chan practice schedule is asserted."
     },
     {
       "name": "KYCL International Zen Centre",
       "city": "Pengerang",
       "region": "Johor",
       "lineage": "Kwan Um School of Zen (Korean Seon kong-an practice)",
-      "address": null,
-      "url": "https://www.kyclzen.org/",
-      "source_url": "https://en.wikipedia.org/wiki/Kwan_Yin_Chan_Lin",
-      "notes": "Retreat centre at Pengerang, Desaru, Johor — the Malaysian international centre of Kwan Yin Chan Lin, whose main house is in Singapore. No street address published."
+      "address": "Lot 109, Telok Ramunia, 81620 Pengerang, Johor, Malaysia",
+      "url": "https://www.kyclzen.sg/",
+      "source_url": "https://www.kyclzen.sg/malaysia",
+      "notes": "Kwan Yin Chan Lin international retreat centre in Pengerang. The organization lists a 2026 retreat on its homepage; its teachers page documents the Seung Sahn / Jogye lineage: https://www.kyclzen.sg/our-teachers . Confirm retreat arrangements before visiting."
     },
     {
-      "name": "Fu Hui Yuan",
+      "name": "KYCL Muar Meditation Centre",
       "city": "Muar",
       "region": "Johor",
       "lineage": "Kwan Um School of Zen (Korean Seon kong-an practice)",
       "address": null,
-      "url": "https://www.kyclzen.org/",
-      "source_url": "https://en.wikipedia.org/wiki/Kwan_Yin_Chan_Lin",
-      "notes": "Kwan Yin Chan Lin centre in Muar, Johor, inaugurated 2018. No street address published."
+      "url": "https://www.kyclzen.sg/",
+      "source_url": "https://www.kyclzen.sg/malaysia",
+      "notes": "Kwan Yin Chan Lin Muar group. The Malaysia page gives a temporary centre at Persatuan Chiang Chuan, 33 Jalan Ali; a retreat page gives a different Parit Jawa venue (PTD 5343, Jalan Melur, Taman Seroja). Kept at approximate Muar location with no street address because the regular venue is uncertain. Current activities: https://www.kyclzen.sg/2026-calendar ."
     }
   ]
 }
