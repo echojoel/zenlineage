@@ -328,6 +328,33 @@ export const SRC_PUTONG_RUC = "src_putong_ruc_buddhist_studies";
 export const SRC_FGS_VANCOUVER = "src_fgs_vancouver";
 export const SRC_IBPS_MONTREAL = "src_ibps_montreal";
 export const SRC_DDM_ONTARIO = "src_ddm_ontario";
+export const SRC_HSI_LAI = "src_hsi_lai_temple";
+export const SRC_DOJO_V_PROUDU = "src_dojo_v_proudu";
+export const SRC_BOUNDLESS_COPENHAGEN = "src_boundless_way_copenhagen";
+export const SRC_ZEN_BUDDHISTISK = "src_zen_buddhistisk_forening";
+export const SRC_AKAZIENZENDO = "src_akazienzendo";
+export const SRC_BODHIDHARMA_MUNICH = "src_bodhidharma_munich";
+export const SRC_BODHIDHARMA_NUREMBERG = "src_bodhidharma_nuremberg";
+export const SRC_DHARMA_SANGHA_SCHWARZWALD = "src_dharma_sangha_schwarzwald";
+export const SRC_CHOKA_SANGHA = "src_choka_sangha";
+export const SRC_ZEN_DUSSELDORF = "src_zen_duesseldorf";
+export const SRC_CITRUS_ZEN = "src_citrus_zen";
+export const SRC_COLUMBIA_PRIORY = "src_columbia_priory";
+export const SRC_LINH_SON_AUSTIN = "src_linh_son_austin";
+export const SRC_CHOBOJI = "src_choboji";
+export const SRC_HOLLOW_BONES = "src_hollow_bones";
+export const SRC_KORINJI = "src_korinji";
+export const SRC_LINH_SON_DETROIT = "src_linh_son_detroit";
+export const SRC_LINH_SON_DICKINSON = "src_linh_son_dickinson";
+export const SRC_ANTAIJI_SITE = "src_antaiji_site";
+export const SRC_DAISEN_IN_SITE = "src_daisen_in_site";
+export const SRC_EIHEIJI_SITE = "src_eiheiji_site";
+export const SRC_ERINJI_SITE = "src_erinji_site";
+export const SRC_FUKUSAI_NAGASAKI = "src_fukusai_nagasaki_tourism";
+export const SRC_GINKAKUJI_SITE = "src_ginkakuji_site";
+export const SRC_JOCHIJI_SITE = "src_jochiji_site";
+export const SRC_KENNINJI_SITE = "src_kenninji_site";
+export const SRC_HOFUKUJI_OKAYAMA = "src_hofukuji_okayama";
 export const SRC_RIEB_VENEZUELA = "src_rieb_venezuela_directory";
 export const SRC_DE_BERKELEY = "src_de_berkeley_zen";
 export const SRC_VIA_ZEN_COMMUNITIES = "src_via_zen_communities";
@@ -1820,6 +1847,33 @@ export const TEMPLE_SOURCES: {
     { id: SRC_FGS_VANCOUVER, type: "website", title: "Vancouver Fo Guang Shan — official site", author: "Vancouver Fo Guang Shan", url: "https://sites.google.com/view/vancouver-fo-guang-shan/home", publicationDate: "", reliability: "authoritative" },
     { id: SRC_IBPS_MONTREAL, type: "website", title: "IBPS Montreal — contact and visitor information", author: "IBPS Montreal", url: "https://ibpsmtl.org/contact-en/", publicationDate: "", reliability: "authoritative" },
     { id: SRC_DDM_ONTARIO, type: "website", title: "Dharma Drum Mountain Ontario — official center", author: "Dharma Drum Mountain Ontario", url: "https://www.ddmbaontario.org/", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_HSI_LAI, type: "website", title: "Hsi Lai Temple — official site", author: "Fo Guang Shan Hsi Lai Temple", url: "https://www.hsilai.us/", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_DOJO_V_PROUDU, type: "website", title: "Dojo V Proudu — practice and teachers", author: "Dojo V Proudu", url: "https://www.zazen.cz/en.html", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_BOUNDLESS_COPENHAGEN, type: "website", title: "Boundless Way Zen Copenhagen — calendar", author: "Boundless Way Zen Copenhagen", url: "https://copenhagenzen.com/kalender", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_ZEN_BUDDHISTISK, type: "website", title: "Zen-Buddhistisk Forening — official site", author: "Zen-Buddhistisk Forening", url: "https://www.zenbuddhistiskforening.dk/", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_AKAZIENZENDO, type: "website", title: "Akazienzendo — current practice", author: "Akazienzendo", url: "https://www.akazienzendo.de/", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_BODHIDHARMA_MUNICH, type: "website", title: "Bodhidharma Temple Munich — contact", author: "Bodhidharma Temple Munich", url: "https://www.buddhismusmuenchen.de/kontakt", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_BODHIDHARMA_NUREMBERG, type: "website", title: "Bodhidharma Temple Nuremberg — contact", author: "Bodhidharma Temple Nuremberg", url: "https://www.buddhismusnuernberg.de/kontakt", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_DHARMA_SANGHA_SCHWARZWALD, type: "website", title: "Dharma Sangha — current sesshin", author: "Dharma Sangha", url: "https://kurse.dharmaacademy.com/sesshin", publicationDate: "2026", reliability: "authoritative" },
+    { id: SRC_CHOKA_SANGHA, type: "website", title: "Choka Sangha — current events", author: "Choka Sangha", url: "https://choka-sangha.de/veranstaltungen/", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_ZEN_DUSSELDORF, type: "website", title: "Zendo Düsseldorf — current practice", author: "Zendo Düsseldorf", url: "https://zen-duesseldorf.de/event/meditationsabend-36/", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_CITRUS_ZEN, type: "website", title: "Citrus Zen — practice and teacher", author: "Citrus Zen", url: "https://www.citruszen.com/", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_COLUMBIA_PRIORY, type: "website", title: "Columbia Zen Buddhist Priory — schedule", author: "Columbia Zen Buddhist Priory", url: "https://columbiazen.org/coming-to-the-priory/schedule/", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_LINH_SON_AUSTIN, type: "website", title: "Linh-Sơn Austin — official temple", author: "Chùa Linh-Sơn Austin", url: "https://www.linhsonaustin.org/", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_CHOBOJI, type: "website", title: "Dai Bai Zan Cho Bo Zen Ji — schedule", author: "Cho Bo Zen Ji", url: "https://choboji.org/schedule/", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_HOLLOW_BONES, type: "website", title: "Hollow Bones — local sanghas", author: "Hollow Bones Zen", url: "https://hollowboneszen.org/local-sanghas/", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_KORINJI, type: "website", title: "Korinji — monastery and visits", author: "Korinji", url: "https://www.korinji.org/contact", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_LINH_SON_DETROIT, type: "website", title: "Linh Son Detroit — official temple", author: "Linh Son Detroit", url: "https://linhsondetroit.net/", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_LINH_SON_DICKINSON, type: "website", title: "Linh Son Dickinson — prayer times", author: "Linh Son Dickinson", url: "https://www.linhsondickinson.org/prayer-timing", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_ANTAIJI_SITE, type: "website", title: "Antaiji — schedule and history", author: "Antaiji", url: "https://www.antaiji.org/en/schedule/", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_DAISEN_IN_SITE, type: "website", title: "Daisen-in — official visitor information", author: "Daisen-in", url: "https://daisen-in.net/", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_EIHEIJI_SITE, type: "website", title: "Daihonzan Eiheiji — official site", author: "Daihonzan Eiheiji", url: "https://daihonzan-eiheiji.com/", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_ERINJI_SITE, type: "website", title: "Erin-ji — zazen and visitor information", author: "Erin-ji", url: "https://erinji.jp/zazen", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_FUKUSAI_NAGASAKI, type: "website", title: "Nagasaki official tourism — Fukusai-ji", author: "Nagasaki City", url: "https://www.at-nagasaki.jp/spot/120", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_GINKAKUJI_SITE, type: "website", title: "Shōkoku-ji — Ginkaku-ji official site", author: "Shōkoku-ji", url: "https://www.shokoku-ji.jp/en/ginkakuji/", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_JOCHIJI_SITE, type: "website", title: "Jōchi-ji — official visitor information", author: "Jōchi-ji", url: "https://jochiji.com/en/en", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_KENNINJI_SITE, type: "website", title: "Kennin-ji — zazen experience", author: "Kennin-ji", url: "https://www.kenninji.jp/experience/", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_HOFUKUJI_OKAYAMA, type: "website", title: "Okayama official tourism — Hōfuku-ji", author: "Okayama Prefecture Tourism Federation", url: "https://www.okayama-japan.jp/en/spot/10606", publicationDate: "", reliability: "authoritative" },
     { id: SRC_PRAIRIE_ZEN, type: "website", title: "Prairie Zen Center — current schedule", author: "Prairie Zen Center", url: "https://prairiezen.org/Schedules.html", publicationDate: "", reliability: "authoritative" },
     { id: SRC_RMERC, type: "website", title: "Rocky Mountain Ecodharma Retreat Center — calendar", author: "Rocky Mountain Ecodharma Retreat Center", url: "https://rmerc.org/calendar/", publicationDate: "", reliability: "authoritative" },
     { id: SRC_SAGE_TAOS, type: "website", title: "Sage Institute — mission and programs", author: "Sage Institute", url: "https://www.sagetaos.com/about", publicationDate: "", reliability: "authoritative" },
@@ -1922,9 +1976,9 @@ export const SEED_TEMPLES: TempleSeed[] = [
     schoolSlug: "soto",
     founderSlug: "dogen",
     status: "active",
-    sourceId: SRC_WIKIPEDIA,
+    sourceId: SRC_EIHEIJI_SITE,
     sourceExcerpt:
-      "Eihei-ji (永平寺) is one of two main temples of the Sōtō school of Zen Buddhism. Its founder was Eihei Dōgen, who established it in 1244.",
+      "Eihei-ji’s official site provides current temple and practice-stay information. Visitor hours are not presented as a meditation schedule.",
     url: "https://daihonzan-eiheiji.com/",
   },
   {
@@ -1963,9 +2017,9 @@ export const SEED_TEMPLES: TempleSeed[] = [
     foundedPrecision: "exact",
     schoolSlug: "rinzai",
     status: "active",
-    sourceId: SRC_WIKIPEDIA,
+    sourceId: SRC_RINNOU,
     sourceExcerpt:
-      "Daitoku-ji (大徳寺) is a head temple of the Daitoku-ji branch of the Rinzai school, founded in 1315 by Shūhō Myōchō (Daitō Kokushi).",
+      "The Rinzai-Ōbaku federation identifies Daitoku-ji as the head temple of its Rinzai school. The complex and its subtemples have separate access arrangements; no single public zazen schedule is asserted.",
     url: "https://zen.rinnou.net/head_temples/07daitoku.html",
   },
   {
@@ -2039,10 +2093,10 @@ export const SEED_TEMPLES: TempleSeed[] = [
     foundedPrecision: "exact",
     schoolSlug: "rinzai",
     status: "active",
-    sourceId: SRC_WIKIPEDIA,
+    sourceId: SRC_KENNINJI_SITE,
     sourceExcerpt:
-      "Kennin-ji (建仁寺) is the oldest Zen temple in Kyoto, founded 1202 by Eisai — the monk who brought Rinzai Zen from Song China.",
-    url: "https://www.kenninji.jp/",
+      "Kennin-ji’s official experience page publishes a free second-Sunday zazen program, with seasonal exceptions, and the Rinzai federation confirms its head-temple status.",
+    url: "https://www.kenninji.jp/experience/",
   },
   {
     slug: "tenryu-ji",
@@ -2921,26 +2975,6 @@ export const SEED_TEMPLES: TempleSeed[] = [
     geoPrecision: "exact",
   },
   {
-    slug: "jufuku-ji",
-    names: [
-      { locale: "en", value: "Jufuku-ji" },
-      { locale: "ja", value: "壽福寺" },
-    ],
-    lat: 35.32417,
-    lng: 139.54903,
-    region: "Kanagawa Prefecture",
-    country: "Japan",
-    foundedYear: 1200,
-    foundedPrecision: "exact",
-    schoolSlug: "rinzai",
-    status: "active",
-    sourceId: SRC_WIKIPEDIA,
-    sourceExcerpt:
-      "Kikokuzan Kongō Jufuku Zenji (亀谷山金剛寿福禅寺), Kamakura — the oldest Zen temple in Kamakura, founded 1200 with Eisai as its first abbot, and ranked third among the Kamakura Gozan.",
-    url: "https://en.wikipedia.org/wiki/Jufuku-ji",
-    geoPrecision: "exact",
-  },
-  {
     slug: "zuisho-ji-tokyo",
     names: [
       { locale: "en", value: "Zuishō-ji" },
@@ -3038,10 +3072,10 @@ export const SEED_TEMPLES: TempleSeed[] = [
     foundedPrecision: "exact",
     schoolSlug: "obaku",
     status: "active",
-    sourceId: SRC_WIKIPEDIA,
+    sourceId: SRC_FUKUSAI_NAGASAKI,
     sourceExcerpt:
-      "Fukusai-ji (福済寺), Nagasaki — an Ōbaku Zen temple founded in 1628 by the Chinese community of Zhangzhou and Quanzhou. The original halls were destroyed in the 1945 atomic bombing and the temple was rebuilt.",
-    url: "https://en.wikipedia.org/wiki/Fukusai-ji",
+      "Nagasaki’s official tourism page confirms Fukusai-ji as an Ōbaku temple and gives current visitor hours. It does not establish a public meditation schedule.",
+    url: "https://www.at-nagasaki.jp/spot/120",
     geoPrecision: "exact",
   },
 
@@ -3080,10 +3114,10 @@ export const SEED_TEMPLES: TempleSeed[] = [
     foundedPrecision: "circa",
     schoolSlug: "rinzai",
     status: "active",
-    sourceId: SRC_WIKIPEDIA,
+    sourceId: SRC_JOCHIJI_SITE,
     sourceExcerpt:
-      "Kinpōzan Jōchi-ji (金宝山浄智寺), Kita-Kamakura — a Rinzai Zen temple ranked fourth among the Kamakura Gozan.",
-    url: "https://en.wikipedia.org/wiki/J%C5%8Dchi-ji",
+      "Jōchi-ji’s official site identifies the Rinzai Engaku-ji temple, its Kamakura address, and daily visiting hours. No current public zazen schedule was found.",
+    url: "https://jochiji.com/en/en",
     geoPrecision: "exact",
   },
   {
@@ -3140,10 +3174,10 @@ export const SEED_TEMPLES: TempleSeed[] = [
     foundedPrecision: "exact",
     schoolSlug: "rinzai",
     status: "active",
-    sourceId: SRC_WIKIPEDIA,
+    sourceId: SRC_ERINJI_SITE,
     sourceExcerpt:
-      "Erin-ji (恵林寺), Kōshū, Yamanashi — a Rinzai temple of the Myōshin-ji branch founded by Musō Soseki, later the family temple of Takeda Shingen.",
-    url: "https://en.wikipedia.org/wiki/Erin-ji",
+      "Erin-ji’s official site identifies the Rinzai Myōshin-ji temple, gives its Kōshū address, and publishes Saturday and second-Sunday public zazen with current dates.",
+    url: "https://erinji.jp/zazen",
     geoPrecision: "exact",
   },
   {
@@ -3200,10 +3234,10 @@ export const SEED_TEMPLES: TempleSeed[] = [
     foundedPrecision: "exact",
     schoolSlug: "rinzai",
     status: "active",
-    sourceId: SRC_WIKIPEDIA,
+    sourceId: SRC_GINKAKUJI_SITE,
     sourceExcerpt:
-      "Jishō-ji (慈照寺), known as Ginkaku-ji, Kyoto — a Rinzai Zen temple of the Shōkoku-ji branch, founded 1490 from Ashikaga Yoshimasa's retirement villa. A UNESCO World Heritage Site.",
-    url: "https://en.wikipedia.org/wiki/Ginkaku-ji",
+      "Shōkoku-ji’s official Ginkaku-ji site identifies its Rinzai affiliation and current seasonal visitor hours. It does not publish a regular public zazen schedule.",
+    url: "https://www.shokoku-ji.jp/en/ginkakuji/",
     geoPrecision: "exact",
   },
   {
@@ -3240,10 +3274,10 @@ export const SEED_TEMPLES: TempleSeed[] = [
     foundedPrecision: "exact",
     schoolSlug: "rinzai",
     status: "active",
-    sourceId: SRC_WIKIPEDIA,
+    sourceId: SRC_DAISEN_IN_SITE,
     sourceExcerpt:
-      "Daisen-in (大仙院), Kyoto — a sub-temple of Daitoku-ji of the Rinzai school, founded 1509 and holding one of the most celebrated karesansui gardens in Japan.",
-    url: "https://en.wikipedia.org/wiki/Daisen-in",
+      "Daisen-in’s official site gives current Kyoto visitor information and reservation-based zazen experiences. Visiting access is distinct from a fixed public practice schedule.",
+    url: "https://daisen-in.net/",
     geoPrecision: "exact",
   },
   {
@@ -4159,9 +4193,9 @@ export const SEED_TEMPLES: TempleSeed[] = [
     foundedPrecision: null,
     schoolSlug: "white-plum-asanga",
     status: "active",
-    sourceId: SRC_WHITEPLUM,
+    sourceId: SRC_GREAT_PLAINS,
     sourceExcerpt:
-      "Great Plains Zen Center — a White Plum Asanga affiliated practice centre in the Maezumi lineage.",
+      "Great Plains Zen Center’s current pages document Monroe sittings, 2026 retreats, and its Maezumi-line practice history. Confirm individual event dates before visiting.",
     url: "https://greatplainszen.org/",
   },
   {
@@ -4605,10 +4639,10 @@ export const SEED_TEMPLES: TempleSeed[] = [
     foundedPrecision: "exact",
     schoolSlug: "white-plum-asanga",
     status: "active",
-    sourceId: SRC_WHITEPLUM,
+    sourceId: SRC_BOUNDLESS_WAY,
     sourceExcerpt:
-      "Boundless Way Zen Temple in Worcester, Massachusetts — co-founded by James Ishmael Ford and David Rynick Roshi; a Western Zen sangha with roots in Sōtō and Korean Linji.",
-    url: "https://boundlesswayzen.org/",
+      "Boundless Way Zen Temple’s official site publishes its 2026–2027 Worcester schedule and describes its combined Japanese Sōtō and Korean Linji roots.",
+    url: "https://boundlessway.org/",
   },
   {
     slug: "springwater-center",
@@ -4778,10 +4812,10 @@ export const SEED_TEMPLES: TempleSeed[] = [
     schoolSlug: "soto",
     founderSlug: "sawaki-kodo",
     status: "active",
-    sourceId: SRC_WIKIPEDIA,
+    sourceId: SRC_ANTAIJI_SITE,
     sourceExcerpt:
-      "Antaiji (安泰寺) in Shin'onsen, northern Hyōgo Prefecture — a Sōtō Zen training monastery founded 1921 (re-located 1976), the practice home of Kōdō Sawaki Roshi and Kōshō Uchiyama Roshi.",
-    url: "https://antaiji.org/",
+      "Antaiji’s official site publishes its residential daily zazen and sesshin routine and Sōtō history. Visits require coordination with the monastery.",
+    url: "https://www.antaiji.org/en/schedule/",
   },
 
   // ─── White Plum Asanga — additional sanghas (2026-05 ingest) ─────────
@@ -5116,10 +5150,10 @@ export const SEED_TEMPLES: TempleSeed[] = [
     foundedPrecision: "exact",
     schoolSlug: "chan",
     status: "active",
-    sourceId: SRC_WIKIPEDIA,
+    sourceId: SRC_HSI_LAI,
     sourceExcerpt:
-      "Hsi Lai Temple — Fo Guang Shan's North American headquarters at 3456 South Glenmark Drive, Hacienda Heights; construction completed 1988. One of the largest Buddhist temples in the Western Hemisphere.",
-    url: "https://www.hsilai.org/",
+      "Hsi Lai Temple’s official site identifies its Fo Guang Shan Chinese Mahayana and Linji Chan affiliation, Hacienda Heights address, public visiting information, and current services. It is a broad Buddhist temple rather than an exclusively Zen center.",
+    url: "https://www.hsilai.us/",
   },
   {
     slug: "nan-hua-temple",

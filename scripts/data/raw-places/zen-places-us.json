@@ -502,10 +502,10 @@
       "city": "Redlands",
       "region": "California",
       "lineage": "Yokoji Zen Mountain Center affiliate (Maezumi lineage)",
-      "address": "Redlands, CA",
+      "address": "Tu Vien Quan Am Temple, 12670 18th Street, Redlands, CA 92373",
       "url": "https://citruszen.com/",
-      "source_url": "https://citruszen.com/",
-      "notes": "Yokoji affiliate sangha in Redlands, with Wednesday evening practice; consult the group for the current venue."
+      "source_url": "https://www.citruszen.com/",
+      "notes": "The official site lists Wednesday 18:30–20:30 practice and instruction at 18:00. Teacher Tom Chigen Bartholomew describes transmission from Tenshin Fletcher and White Plum membership."
     },
     {
       "name": "Wild River Zen Circle",
@@ -1302,7 +1302,7 @@
       "address": "Annapolis, MD",
       "url": "https://annapolismindfulness.org/",
       "source_url": "https://zenpeacemakers.org/membership/affiliate-network/",
-      "notes": "Plum Village-style sangha; also Zen Peacemakers affiliate."
+      "notes": "The group’s preferred site could not be verified in this review, and no current public venue, schedule, or organizational affiliation was corroborated. Retained for follow-up without asserting current activity or lineage."
     },
     {
       "name": "Silver Spring Zendo / One Heart Sangha",
@@ -1489,7 +1489,7 @@
       "address": "4820 East 9 Mile Road, Warren, MI 48091",
       "url": "https://linhsondetroit.net/",
       "source_url": "https://linhsondetroit.net/",
-      "notes": "Vietnamese Thiền temple; 43rd-generation Lâm Tế."
+      "notes": "The official temple site confirms the Warren address, Sunday services, and current 2026 activity. A precise Lâm Tế generation claim was not confirmed and is omitted."
     },
     {
       "name": "Clouds in Water Zen Center",
@@ -1989,16 +1989,6 @@
       "notes": "Diamond Sangha affiliate; shares Yellow Springs Dharma Center."
     },
     {
-      "name": "Linh Sơn A Di Đà Viện",
-      "city": "Cleveland",
-      "region": "Ohio",
-      "lineage": "Vietnamese Thiền (Linh Son network)",
-      "address": "Cleveland, OH",
-      "url": "https://linhsonamida.org/",
-      "source_url": "https://linhsonamida.org/",
-      "notes": "Vietnamese Thiền temple; Linh Son lineage."
-    },
-    {
       "name": "Ashland Zen Center / Siskiyou Sansui Do",
       "city": "Ashland",
       "region": "Oregon",
@@ -2183,10 +2173,10 @@
       "city": "Columbia",
       "region": "South Carolina",
       "lineage": "Sōtō (OBC, Serene Reflection / Jiyu-Kennett)",
-      "address": "Columbia, SC",
-      "url": "http://columbiazen.org/",
-      "source_url": "https://berkeleybuddhistpriory.org/obc-links/",
-      "notes": "OBC priory; Reverend Master Rokuzan Kroenke."
+      "address": "426 Arrowwood Road, Columbia, SC 29210",
+      "url": "https://columbiazen.org/",
+      "source_url": "https://columbiazen.org/coming-to-the-priory/schedule/",
+      "notes": "The official priory site lists Sunday and Wednesday practice and reserved Friday orientation at 426 Arrowwood Road. It identifies the OBC Serene Reflection tradition and Rev. Rokuzan Kroenke as a Dharma heir of Jiyu-Kennett."
     },
     {
       "name": "Genkai-ji Zen Center",
@@ -2242,21 +2232,21 @@
       "name": "Chùa Linh-Sơn Austin",
       "city": "Austin",
       "region": "Texas",
-      "lineage": "Vietnamese Thiền (Linh Son network)",
-      "address": "4604 Duval Rd, Austin, TX",
-      "url": "http://www.linhsonaustin.org/",
-      "source_url": "https://en.wikipedia.org/wiki/Chua_Linh-Son_Buddhist_Temple",
-      "notes": "Vietnamese Thiền temple."
+      "lineage": "Vietnamese Buddhist temple (school not verified)",
+      "address": "4604 Duval Road, Austin, TX 78727",
+      "url": "https://www.linhsonaustin.org/",
+      "source_url": "https://www.linhsonaustin.org/",
+      "notes": "The temple’s current site confirms its Austin address and 2026 services and festivals. It does not establish a specific Zen lineage or regular weekly meditation schedule."
     },
     {
       "name": "Linh Son Temple Dickinson",
       "city": "Dickinson",
       "region": "Texas",
       "lineage": "Vietnamese Thiền (Linh Son network)",
-      "address": "1334 FM 646 Rd, Dickinson, TX 77539",
+      "address": null,
       "url": "https://www.linhsondickinson.org/",
-      "source_url": "https://www.linhsondickinson.org/",
-      "notes": "Vietnamese Thiền temple in Galveston County."
+      "source_url": "https://www.linhsondickinson.org/prayer-timing",
+      "notes": "The official site publishes current daily and weekend prayer times but conflicts between 1334 and 1402 FM 646 North Road. The marker remains city-level; confirm the address before visiting. A specific Zen lineage was not verified."
     },
     {
       "name": "Two Arrows Zen",
@@ -2475,8 +2465,8 @@
       "lineage": "Rinzai (Genjo Marinello / Choboji)",
       "address": "Seattle, WA",
       "url": "https://choboji.org/",
-      "source_url": "https://zenpeacemakers.org/membership/affiliate-network/",
-      "notes": "Rinzai temple; Zen Peacemakers affiliate."
+      "source_url": "https://choboji.org/schedule/",
+      "notes": "The official temple site identifies a Seattle Rinzai temple and publishes a current practice schedule. Confirm the precise venue through the current contact page before visiting."
     },
     {
       "name": "Mt. Adams Zen Buddhist Temple",
@@ -2550,13 +2540,13 @@
     },
     {
       "name": "Korinji Monastery",
-      "city": "Madison",
+      "city": "Reedsburg",
       "region": "Wisconsin",
       "lineage": "Rinzai (Daiyuzenji lineage)",
-      "address": "near Madison, WI",
+      "address": "S470 Hirst Road, Reedsburg, WI 53959",
       "url": "https://www.korinji.org/",
-      "source_url": "https://en.wikipedia.org/wiki/Zen_in_the_United_States",
-      "notes": "Rinzai monastery in southwestern Wisconsin."
+      "source_url": "https://www.korinji.org/contact",
+      "notes": "The official site identifies Korinji as a Rinzai training monastery and Rinzai Zen International headquarters. Visits and retreats are by arrangement; it is not a weekly drop-in center."
     },
     {
       "name": "Twining Vines Zen (Baraboo)",
@@ -2573,10 +2563,10 @@
       "city": "Green Bay",
       "region": "Wisconsin",
       "lineage": "Hollow Bones / Rinzai (Junpo Roshi lineage)",
-      "address": "Green Bay, WI",
-      "url": "https://greenbayzencenter.org/",
-      "source_url": "https://greenbayzencenter.org/hollow-bones-order/",
-      "notes": "Hollow Bones Zen Order affiliate."
+      "address": "123 North Oakland Avenue, Green Bay, WI",
+      "url": "https://hollowboneszen.org/local-sanghas/",
+      "source_url": "https://hollowboneszen.org/local-sanghas/",
+      "notes": "Hollow Bones’ official listing supports the Green Bay venue and Sunday and Thursday practice, but its current pages differ on weekly versus alternating cadence. Confirm dates with the group; no narrower school label is asserted."
     }
   ]
 }

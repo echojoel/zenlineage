@@ -662,6 +662,25 @@ function pickSourceId(sourceUrl: string, lineage: string): string {
   if (u.includes("plm.org.hk")) return "src_po_lin_monastery";
   if (u.includes("tpb.gov.hk") && u.includes("m1145tpb"))
     return "src_po_lam_hk_planning";
+  if (u.includes("zazen.cz")) return "src_dojo_v_proudu";
+  if (u.includes("copenhagenzen.com")) return "src_boundless_way_copenhagen";
+  if (u.includes("zenbuddhistiskforening.dk")) return "src_zen_buddhistisk_forening";
+  if (u.includes("akazienzendo.de")) return "src_akazienzendo";
+  if (u.includes("buddhismusmuenchen.de")) return "src_bodhidharma_munich";
+  if (u.includes("buddhismusnuernberg.de")) return "src_bodhidharma_nuremberg";
+  if (u.includes("kurse.dharmaacademy.com")) return "src_dharma_sangha_schwarzwald";
+  if (u.includes("choka-sangha.de")) return "src_choka_sangha";
+  if (u.includes("zen-duesseldorf.de")) return "src_zen_duesseldorf";
+  if (u.includes("citruszen.com")) return "src_citrus_zen";
+  if (u.includes("columbiazen.org")) return "src_columbia_priory";
+  if (u.includes("linhsonaustin.org")) return "src_linh_son_austin";
+  if (u.includes("choboji.org")) return "src_choboji";
+  if (u.includes("hollowboneszen.org")) return "src_hollow_bones";
+  if (u.includes("korinji.org")) return "src_korinji";
+  if (u.includes("linhsondetroit.net")) return "src_linh_son_detroit";
+  if (u.includes("linhsondickinson.org")) return "src_linh_son_dickinson";
+  if (u.includes("sotozen-navi.com")) return "src_sotozen_navi";
+  if (u.includes("okayama-japan.jp/en/spot/10606")) return "src_hofukuji_okayama";
   if (u.includes("greenmountainzen.org.nz")) return "src_green_mountain_zen_site";
   if (u.includes("greenriverzen.org")) return "src_green_river_zen_site";
   if (u.includes("greyheronzen.ie")) return "src_grey_heron_zen_site";
