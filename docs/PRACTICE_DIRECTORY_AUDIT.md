@@ -9,25 +9,25 @@ establish a group's current activity, lineage, or safeguarding.
 
 | Check | Result |
 |---|---:|
-| Place records | 1,624 |
-| Distinct preferred URLs checked | 1,338 |
-| URLs returning 2xx/3xx | 1,149 (used by 1,425 records) |
+| Place records | 1,620 |
+| Distinct preferred URLs checked | 1,343 |
+| URLs returning 2xx/3xx | 1,156 (used by 1,423 records) |
 | URLs returning 404/410 | 2 (used by 2 records) |
-| URLs blocked or rate limited | 22 (used by 23 records) |
+| URLs blocked or rate limited | 20 (used by 21 records) |
 | URLs with inconclusive network/server results | 165 (used by 174 records) |
 | Records with no preferred URL | 0 |
-| Records with only a `popular`-class citation | 278 |
-| Records needing an item-level check because their sole citation is broad | 45 |
-| Records queued to check first (overlapping signals combined) | 325 |
-| City-level, approximate map pins | 827 |
+| Records with only a `popular`-class citation | 247 |
+| Records needing an item-level check because their sole citation is broad | 36 |
+| Records queued to check first (overlapping signals combined) | 285 |
+| City-level, approximate map pins | 826 |
 
 Every remaining place has exactly one citation, currently attached to `coordinates`.
 That citation alone cannot establish affiliation, an active schedule, or a
-safeguarding process. The seed labels all 1,624 places `active`, but it has no
+safeguarding process. The seed labels all 1,620 places `active`, but it has no
 per-place last-checked date. The public map and exported JSON no longer expose
 that seed status as a verified claim.
 
-The 45 broad-page citations comprise 42 rows citing Plum Village's
+The 36 broad-page citations comprise 33 rows citing Plum Village's
 [monastic centres page](https://plumvillage.org/community/monastic-practice-centres)
 and 3 citing the [White Plum founder page](https://whiteplum.org/founder/).
 Those pages do not individually support all the lay groups assigned to them.
@@ -266,9 +266,11 @@ Batch 19 reviewed current evidence for practice places in France, the United Sta
 
 Batch 20 reviewed German, Japanese, and South Korean records, plus the final three priority records in the Americas. Current direct sources supplied venues, schedules, or narrower visitor-only descriptions for German practice groups, major Japanese temples, and Korean Jogye institutions. The unsupported Furnace Mountain Tübingen record, the Cheontae Anguk-sa listing, an ambiguous Bohyeon-sa record, and a duplicate Beomeo-sa Seonwon pin were removed from the Zen practice map. Daishin Stuttgart was corrected to its current Waiblingen identity. Neumühle is now described as a retreat venue that hosts periodic Zen events rather than as a lineage organization. Sōfuku-ji and Shōfuku-ji in Nagasaki were checked as distinct temples so the city source remains attached to the correct place. The three remaining Americas records retain explicit current-activity and private-venue caveats because no 2026 direct schedule was found. The priority queue fell from 360 to 325 records.
 
+Batch 21 reviewed French and German practice groups and selected records in Taiwan, Thailand, and Vietnam. Current group, network, temple, and government pages replaced generic sources and supplied cautious schedule, venue, and lineage wording. Keizankai Düsseldorf was removed because its current site presents an iaido school rather than a Zen practice group. Monastère Zen du Sermon de la Rivière was removed when current evidence did not substantiate the mapped practice place. Chùa Thiên Mụ and Quán Sứ Pagoda were removed from the Zen-specific map because current evidence supported their broader Buddhist or visitor significance without an item-level Zen practice program. Tours now uses the current SONARA identity. Vietnamese heritage records distinguish historical Thiền connections from verified recurring public practice, and uncertain current addresses use approximate pins. These are scope and evidence corrections, not conduct findings. The priority queue fell from 325 to 285 records.
+
 ## Next review work
 
-Start with the 2 records whose preferred URL returned 404/410. Then review the 278 `popular`-only citations and 45
+Start with the 2 records whose preferred URL returned 404/410. Then review the 247 `popular`-only citations and 36
 broad-page citations against direct group or institutional pages. For each correction, update
 the canonical seed or raw place data, cite the direct source, and rerun the
 seed and audit. Do not infer misconduct from missing websites or policies.

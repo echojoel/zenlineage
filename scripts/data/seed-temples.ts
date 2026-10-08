@@ -464,6 +464,24 @@ export const SRC_PLUMLINE = "src_plumline_directory";
 export const SRC_INTERBEING_DENMARK = "src_interbeing_denmark";
 export const SRC_BONZAZEN_SITE = "src_bonzazen_site";
 export const SRC_FRENCH_PV_SANGHAS_2025 = "src_french_pv_sanghas_2025";
+/** February 2025 French-speaking Plum Village sangha directory. */
+export const SRC_FRENCH_PV_SANGHAS_FEB_2025 = "src_french_pv_sanghas_feb_2025";
+/** Direct local practice pages for edited France and Germany listings. */
+export const SRC_SONARA_TOURS = "src_sonara_tours";
+export const SRC_ZEN_SETE = "src_zen_sete";
+export const SRC_ZEN_BERNAY = "src_zen_bernay";
+export const SRC_KAKUNENJI = "src_kakunenji";
+export const SRC_IZID = "src_izid";
+export const SRC_ZENDO_AACHEN = "src_zendo_aachen";
+export const SRC_ZALTHO = "src_zaltho";
+export const SRC_PHAT_HUE = "src_phat_hue";
+export const SRC_RYU_UN_ZENDO = "src_ryu_un_zendo";
+export const SRC_SONNENHOF = "src_sonnenhof";
+export const SRC_DHARMA_SANGHA_GOTTINGEN = "src_dharma_sangha_gottingen";
+export const SRC_ZENKREIS_BREMEN = "src_zenkreis_bremen";
+export const SRC_WOLKENTOR = "src_wolkentor";
+export const SRC_COEUR_SANGHAS_MILLE_PETALES = "src_coeur_sanghas_mille_petales";
+export const SRC_MOMENT_PRESENT_ROANNE = "src_moment_present_roanne";
 export const SRC_ZEN_SANGHA_BELGIUM = "src_zen_sangha_belgium";
 export const SRC_BIG_HEART_COPENHAGEN = "src_big_heart_copenhagen";
 export const SRC_DBU_BUDDHAWEG = "src_dbu_buddhaweg_solingen";
@@ -1577,6 +1595,29 @@ export const TEMPLE_SOURCES: {
       publicationDate: "",
       reliability: "authoritative",
     },
+    // Batch 21 Asia sources: keep branch and pilgrimage evidence separate so
+    // generated records cite the page that actually supports each claim.
+    { id: "src_chung_tai_puli", type: "website", title: "Chung Tai Chan Monastery — official site", author: "Chung Tai Chan Monastery", url: "https://ctworld.org/english-96/html/", publicationDate: "", reliability: "authoritative" },
+    { id: "src_chung_tai_puli_schedule", type: "website", title: "Chung Tai Chan Monastery — schedule", author: "Chung Tai Chan Monastery", url: "https://ctworld.org/english-96/html/07_Schedule.html", publicationDate: "", reliability: "authoritative" },
+    { id: "src_ddm_jinshan", type: "website", title: "Dharma Drum Mountain World Center — official site", author: "Dharma Drum Mountain", url: "https://fagushan.ddm.org.tw/", publicationDate: "", reliability: "authoritative" },
+    { id: "src_ddm_jinshan_event_2026", type: "website", title: "Dharma Drum Mountain — 2026 retreat event", author: "Dharma Drum Mountain", url: "https://www.ddm.org.tw/xcevent/cont?en=A202600855&xsmsid=0K293423255300198901", publicationDate: "2026", reliability: "authoritative" },
+    { id: "src_nung_chan", type: "website", title: "Nung Chan Monastery — official site", author: "Dharma Drum Mountain", url: "https://ncm.ddm.org.tw/default-ncm/", publicationDate: "", reliability: "authoritative" },
+    { id: "src_nung_chan_listing", type: "website", title: "Dharma Drum Mountain — Nung Chan listing", author: "Dharma Drum Mountain", url: "https://icd.ddm.org.tw/page01_02.htm", publicationDate: "", reliability: "authoritative" },
+    { id: "src_fgs_monastery_tour", type: "website", title: "Fo Guang Shan Monastery — temple tour", author: "Fo Guang Shan Monastery", url: "https://www.fgs.org.tw/en/templetour/Index/8", publicationDate: "", reliability: "authoritative" },
+    { id: "src_fgs_transport", type: "website", title: "Fo Guang Shan Monastery — transportation", author: "Fo Guang Shan Monastery", url: "https://www.fgs.org.tw/en/Organizations/Transportation/", publicationDate: "", reliability: "authoritative" },
+    { id: "src_taipei_linji_huguo", type: "website", title: "Taipei Travel — Linji Huguo Chan Temple", author: "Taipei City Government", url: "https://travel.taipei/en/attraction/details/2354", publicationDate: "", reliability: "authoritative" },
+    { id: "src_taipei_linji_huguo_record", type: "website", title: "Taipei City — Linji Huguo heritage record", author: "Taipei City Government", url: "https://www.travel.taipei/file/2791/", publicationDate: "", reliability: "authoritative" },
+    { id: "src_ctc_bangkok", type: "website", title: "Great Buddha Monastery — official site", author: "Chung Tai Chan Monastery Thailand", url: "https://www.ctcmbkk.org/en", publicationDate: "", reliability: "authoritative" },
+    { id: "src_ctc_bangkok_classes", type: "website", title: "Great Buddha Monastery — classes", author: "Chung Tai Chan Monastery Thailand", url: "https://www.ctcmbkk.org/en/classes", publicationDate: "", reliability: "authoritative" },
+    { id: "src_bao_quoc_hue", type: "website", title: "Huế Buddhist Temple Heritage — Bảo Quốc", author: "Huế Buddhist Temple Heritage", url: "https://huepagoda.com/vi/chua/bao-quoc", publicationDate: "2026", reliability: "secondary" },
+    { id: "src_quoc_an_hue", type: "website", title: "Phú Lộc District — Quốc Ân Temple", author: "Phú Lộc District Government", url: "https://phuloc.hue.gov.vn/Du-khach/Thong-tin-du-khach/Thong-tin-can-biet/tb/Chua-Quoc-An-296620", publicationDate: "2025", reliability: "authoritative" },
+    { id: "src_giac_lam_hcmc_city", type: "website", title: "Ho Chi Minh City — Giác Lâm heritage listing", author: "Ho Chi Minh City Department of Culture and Sports", url: "https://svhtt.hochiminhcity.gov.vn/tin-chi-tiet/-/chi-tiet/danh-sach-cac-cong-trinh-%C4%91ia-%C4%91iem-%C4%91a-%C4%91uoc-quyet-%C4%91inh-xep-hang-di-tich-tren-%C4%91ia-ban-thanh-pho-ho-chi-minh-%C4%91en-ngay-20-4-2016--20935-1.html", publicationDate: "2016", reliability: "authoritative" },
+    { id: "src_giac_lam_hcmc_update", type: "website", title: "Ho Chi Minh City — Giác Lâm cultural report", author: "Ho Chi Minh City Vietnam Fatherland Front Committee", url: "https://ubmttq.hochiminhcity.gov.vn/tin-tuc/chitiet/7349/quan-tan-binh-to-chuc-hanh-trinh-van-hoa-lan-toa-gia-tri-truyen-thong-va-tinh-than-dai-doan-ket", publicationDate: "", reliability: "authoritative" },
+    { id: "src_giac_lam_vietnam_tourism", type: "website", title: "Vietnam National Tourism Administration — Giác Lâm Pagoda", author: "Vietnam National Authority of Tourism", url: "https://csdl.vietnamtourism.gov.vn/dest/?item=25", publicationDate: "", reliability: "authoritative" },
+    { id: "src_linh_chieu_vbs", type: "website", title: "Vietnam Buddhist Sangha — visit to Linh Chiếu", author: "Vietnam Buddhist Sangha", url: "https://chutichghpgvn.vn/truong-lao-hoa-thuong-chu-tich-vieng-tang-ni-truong-thich-nu-nhu-tinh-tai-thien-vien-linh-chieu/", publicationDate: "2026", reliability: "authoritative" },
+    { id: "src_bach_ma_visithue", type: "website", title: "Visit Huế — Trúc Lâm Bạch Mã", author: "Huế Tourism Department", url: "https://visithue.vn/Thien-vien-Truc-Lam-Bach-Ma.html/?pid=MjAzODF8Y3NkbGRs0", publicationDate: "", reliability: "authoritative" },
+    { id: "src_truc_lam_hau_giang_tourism", type: "website", title: "Hậu Giang Tourism — Trúc Lâm Monastery", author: "Hậu Giang Tourism Department", url: "https://dulich.haugiang.gov.vn/vi/tvtl", publicationDate: "", reliability: "authoritative" },
+    { id: "src_phuong_nam_cantho_city", type: "website", title: "Cần Thơ Tourism — Trúc Lâm Phương Nam", author: "Cần Thơ City Government", url: "https://old.cantho.gov.vn/wps/portal/home/du-khach/chi-tiet/diem-tham-quan/di-tich/thien%2Bvien%2Btruc%2Blam%2Bphuong%2Bnam?WCM_Page.Menu_TinTucKhac=5", publicationDate: "", reliability: "authoritative" },
     {
       id: SRC_DDM_HONG_KONG,
       type: "website",
@@ -1727,6 +1768,22 @@ export const TEMPLE_SOURCES: {
     {
       id: SRC_FRENCH_PV_SANGHAS_2025, type: "document", title: "French-speaking Plum Village sanghas — directory, 8 June 2025", author: "Réseau des Sanghas Francophones du Village des Pruniers", url: "https://sanghasfrancophonespruniers.wordpress.com/wp-content/uploads/2025/06/liste_sangha_franco-08-06-2025.pdf", publicationDate: "2025-06-08", reliability: "authoritative",
     },
+    { id: SRC_FRENCH_PV_SANGHAS_FEB_2025, type: "document", title: "French-speaking Plum Village sanghas — directory, 9 February 2025", author: "Réseau des Sanghas Francophones du Village des Pruniers", url: "https://sanghasfrancophonespruniers.wordpress.com/wp-content/uploads/2025/02/liste_sangha_franco-09-02-2025.pdf", publicationDate: "2025-02-09", reliability: "authoritative" },
+    { id: SRC_SONARA_TOURS, type: "website", title: "SONARA Tours — events and practice", author: "SONARA", url: "https://www.sonara.fr/evenements/", publicationDate: "", reliability: "primary" },
+    { id: SRC_ZEN_SETE, type: "website", title: "Méditation Zen Sète — contact", author: "Méditation Zen Sète", url: "http://zensete.free.fr/contact.html", publicationDate: "", reliability: "primary" },
+    { id: SRC_ZEN_BERNAY, type: "website", title: "Dojo Zen de Bernay — official site", author: "Dojo Zen de Bernay", url: "https://www.zenbernay.org/", publicationDate: "", reliability: "primary" },
+    { id: SRC_KAKUNENJI, type: "website", title: "Kakunen-ji — public practice", author: "Kakunen-ji", url: "https://www.kakunen-zen.de/newsite/?page_id=331", publicationDate: "", reliability: "primary" },
+    { id: SRC_IZID, type: "document", title: "Internationales Zen-Institut Deutschland — regional groups", author: "Internationales Zen-Institut Deutschland", url: "https://zen-institut.de/wp-content/uploads/2022/12/IZID-28112022-6stg.pdf", publicationDate: "2022-11-28", reliability: "primary" },
+    { id: SRC_ZENDO_AACHEN, type: "website", title: "Zendo Aachen — dojo practice", author: "Kanjizai-Dojo / Zendo Aachen", url: "https://www.zendoaachen.de/dojo.htm", publicationDate: "", reliability: "primary" },
+    { id: SRC_ZALTHO, type: "website", title: "Zaltho Sangha — calendar", author: "Zaltho Sangha", url: "https://zaltho.de/", publicationDate: "", reliability: "primary" },
+    { id: SRC_PHAT_HUE, type: "website", title: "Pagode Phat Hue — weekly program", author: "Pagode Phat Hue", url: "https://www.phathue.de/veranstaltungen/woechentliches-programm/", publicationDate: "", reliability: "primary" },
+    { id: SRC_RYU_UN_ZENDO, type: "website", title: "Ryû-Un-Zendô — practice dates", author: "Ryû-Un-Zendô", url: "https://ryu-un-zendo.org/termine/", publicationDate: "", reliability: "primary" },
+    { id: SRC_SONNENHOF, type: "website", title: "Sonnenhof — Zen and contemplation", author: "Sonnenhof", url: "https://www.sonnenhof-holzinshaus.de/", publicationDate: "", reliability: "primary" },
+    { id: SRC_DHARMA_SANGHA_GOTTINGEN, type: "website", title: "Dharma-Sangha — community and lineage", author: "Dharma-Sangha", url: "https://www.dharma-sangha.de/uber-uns/dharma-sangha", publicationDate: "", reliability: "primary" },
+    { id: SRC_ZENKREIS_BREMEN, type: "website", title: "Zen-Kreis Bremen — practice times", author: "Zen-Kreis Bremen", url: "https://zenkreis-bremen.de/angebot/ubungszeiten/", publicationDate: "", reliability: "primary" },
+    { id: SRC_WOLKENTOR, type: "website", title: "Wolkentor Zen-Tempel — calendar", author: "Wolkentor Zen-Tempel", url: "https://wolkentor-tempel.de/kalender-3/", publicationDate: "", reliability: "primary" },
+    { id: SRC_COEUR_SANGHAS_MILLE_PETALES, type: "website", title: "Cœur des Sanghas Alsace — Jardin aux Mille Pétales", author: "Cœur des Sanghas Alsace", url: "https://sites.google.com/view/coeur-des-sanghas-alsace/les-sanghas/jardin-aux-mille-petales", publicationDate: "", reliability: "primary" },
+    { id: SRC_MOMENT_PRESENT_ROANNE, type: "document", title: "Roanne-area cultural events leaflet — Moment Présent sangha", author: "Roanne event organizers", url: "https://cms-assets.webediamovies.pro/production/1446/4e28367058f2fa16e6f18d406ee113fd.pdf", publicationDate: "2025", reliability: "secondary" },
     {
       id: SRC_ZEN_SANGHA_BELGIUM, type: "website", title: "Zen Sangha Belgium — local groups and lineage", author: "Zen Sangha Belgium", url: "https://www.zensangha.be/", publicationDate: "", reliability: "authoritative",
     },

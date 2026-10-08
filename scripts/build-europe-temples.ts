@@ -576,6 +576,27 @@ function pickSourceId(sourceUrl: string, lineage: string): string {
     return "src_order_interbeing_indonesia";
   if (u.includes("bodhizendo.org/index.php/en")) return "src_bodhi_zendo";
   if (u.includes("ddmmy.org/contact-us")) return "src_ddm_malaysia";
+  if (u.includes("ctworld.org/english-96/html/07_schedule.html")) return "src_chung_tai_puli_schedule";
+  if (u.includes("ctworld.org/english-96/html/")) return "src_chung_tai_puli";
+  if (u.includes("fagushan.ddm.org.tw")) return "src_ddm_jinshan";
+  if (u.includes("ddm.org.tw/xcevent/cont?en=a202600855")) return "src_ddm_jinshan_event_2026";
+  if (u.includes("ncm.ddm.org.tw")) return "src_nung_chan";
+  if (u.includes("icd.ddm.org.tw/page01_02.htm")) return "src_nung_chan_listing";
+  if (u.includes("fgs.org.tw/en/templetour/index/8")) return "src_fgs_monastery_tour";
+  if (u.includes("fgs.org.tw/en/organizations/transportation")) return "src_fgs_transport";
+  if (u.includes("travel.taipei/file/2791")) return "src_taipei_linji_huguo_record";
+  if (u.includes("travel.taipei/en/attraction/details/2354")) return "src_taipei_linji_huguo";
+  if (u.includes("ctcmbkk.org/en/classes")) return "src_ctc_bangkok_classes";
+  if (u.includes("ctcmbkk.org/en")) return "src_ctc_bangkok";
+  if (u.includes("huepagoda.com/vi/chua/bao-quoc")) return "src_bao_quoc_hue";
+  if (u.includes("phuloc.hue.gov.vn") && u.includes("chua-quoc-an")) return "src_quoc_an_hue";
+  if (u.includes("svhtt.hochiminhcity.gov.vn") && u.includes("danh-sach-cac-cong-trinh")) return "src_giac_lam_hcmc_city";
+  if (u.includes("ubmttq.hochiminhcity.gov.vn") && u.includes("7349")) return "src_giac_lam_hcmc_update";
+  if (u.includes("csdl.vietnamtourism.gov.vn/dest/?item=25")) return "src_giac_lam_vietnam_tourism";
+  if (u.includes("chutichghpgvn.vn") && u.includes("linh-chieu")) return "src_linh_chieu_vbs";
+  if (u.includes("visithue.vn/thien-vien-truc-lam-bach-ma")) return "src_bach_ma_visithue";
+  if (u.includes("dulich.haugiang.gov.vn/vi/tvtl")) return "src_truc_lam_hau_giang_tourism";
+  if (u.includes("old.cantho.gov.vn") && u.includes("thien%2bvien%2btruc%2blam%2bphuong%2bnam")) return "src_phuong_nam_cantho_city";
   if (u.includes("pjfgs.org/online-donation/fgs-directory"))
     return "src_fgs_malaysia_directory";
   if (u.includes("kyclzen.sg/malaysia")) return "src_kycl_malaysia";
@@ -789,6 +810,24 @@ function pickSourceId(sourceUrl: string, lineage: string): string {
   if (u.includes("bonzazen.wordpress.com")) return "src_bonzazen_site";
   if (u.includes("liste_sangha_franco-08-06-2025.pdf"))
     return "src_french_pv_sanghas_2025";
+  if (u.includes("liste_sangha_franco-09-02-2025.pdf"))
+    return "src_french_pv_sanghas_feb_2025";
+  if (u.includes("sonara.fr/evenements")) return "src_sonara_tours";
+  if (u.includes("zensete.free.fr/contact")) return "src_zen_sete";
+  if (u.includes("zenbernay.org")) return "src_zen_bernay";
+  if (u.includes("kakunen-zen.de")) return "src_kakunenji";
+  if (u.includes("zen-institut.de/wp-content/uploads/2022/12/izid")) return "src_izid";
+  if (u.includes("zendoaachen.de/dojo")) return "src_zendo_aachen";
+  if (u.includes("zaltho.de")) return "src_zaltho";
+  if (u.includes("phathue.de/veranstaltungen/woechentliches-programm")) return "src_phat_hue";
+  if (u.includes("onedropzen.net")) return "src_onedropzen";
+  if (u.includes("ryu-un-zendo.org/termine")) return "src_ryu_un_zendo";
+  if (u.includes("sonnenhof-holzinshaus.de")) return "src_sonnenhof";
+  if (u.includes("dharma-sangha.de/uber-uns/dharma-sangha")) return "src_dharma_sangha_gottingen";
+  if (u.includes("zenkreis-bremen.de/angebot/ubungszeiten")) return "src_zenkreis_bremen";
+  if (u.includes("wolkentor-tempel.de/kalender-3")) return "src_wolkentor";
+  if (u.includes("coeur-des-sanghas-alsace/les-sanghas/jardin-aux-mille-petales")) return "src_coeur_sanghas_mille_petales";
+  if (u.includes("cms-assets.webediamovies.pro/production/1446/4e28367058f2fa16e6f18d406ee113fd.pdf")) return "src_moment_present_roanne";
   if (u.includes("zensangha.be")) return "src_zen_sangha_belgium";
   if (u.includes("meetup.com/zazen-copenhagen")) return "src_big_heart_copenhagen";
   if (u.includes("zenireland.com")) return "src_earth_sky_zen";
@@ -1139,7 +1178,6 @@ const MANUAL_COORDS: Record<string, ManualCoord> = {
   "Bongam-sa": [36.699813, 128.008054], // 봉암사, Huiyangsan — seat of the 1947 Seon reform
   "Daeseung-sa": [36.749427, 128.272005], // 대승사, Sabulsan — ~24km NE of Bongam-sa
   // Huế centroid (16.4639321, 107.5863388) held four separate temples:
-  "Chùa Thiên Mụ (Linh Mụ)": [16.453599, 107.544812], // Đồi Hà Khê, Hương Long
   "Chùa Quốc Ân": [16.442934, 107.587712], // Đặng Huy Trứ, Thuận Hóa
   "Chùa Báo Quốc": [16.454268, 107.579662], // Bảo Quốc, Thuận Hóa
 
