@@ -239,6 +239,12 @@ export const SRC_DOJO_ZEN_LLEIDA = "src_dojo_zen_lleida";
 export const SRC_AZI_CAEN = "src_azi_caen";
 export const SRC_KWANUM_TORUN = "src_kwanum_torun";
 export const SRC_KWANUM_GLOGOW = "src_kwanum_glogow";
+export const SRC_LEVEN_IN_AANDACHT_SANGHAS = "src_leven_in_aandacht_sanghas";
+export const SRC_KOSHOJI_UJI_SITE = "src_koshoji_uji_site";
+export const SRC_YOKOJI_SOTO_OFFICE = "src_yokoji_soto_office";
+export const SRC_HOKYOJI_ONO_CITY = "src_hokyoji_ono_city";
+export const SRC_ZUISHOJI_CULTURAL_AGENCY = "src_zuishoji_cultural_agency";
+export const SRC_CHILBULSA_SITE = "src_chilbulsa_site";
 
 /** Global Zen practice-centre research bundle — fallback citation for the
  * Gemini Deep Research 2026-05 ingest where the row's primary directory
@@ -313,8 +319,8 @@ export const TEMPLE_SOURCES: {
       type: "website",
       title: "Association Zen Internationale — Find your practice location",
       author: "Association Zen Internationale",
-      url: "https://www.zen-azi.org/en/dojos",
-      publicationDate: "2025",
+      url: "https://www.zen-azi.org/en/recherche-lieux-meditation",
+      publicationDate: "",
       reliability: "authoritative",
     },
     {
@@ -732,6 +738,60 @@ export const TEMPLE_SOURCES: {
       title: "Kwan Um School of Zen Europe — Głogów Zen Group",
       author: "Kwan Um School of Zen Europe",
       url: "https://www.kwanumeurope.org/locations/glogow-zen-group/",
+      publicationDate: "",
+      reliability: "authoritative",
+    },
+    {
+      id: SRC_LEVEN_IN_AANDACHT_SANGHAS,
+      type: "website",
+      title: "Leven in Aandacht — Sangha directory",
+      author: "Stichting Leven in Aandacht",
+      url: "https://aandacht.net/meditatiegroepen/sangha-vinden2",
+      publicationDate: "",
+      reliability: "authoritative",
+    },
+    {
+      id: SRC_KOSHOJI_UJI_SITE,
+      type: "website",
+      title: "Kōshō-ji, Uji — temple site",
+      author: "Kōshō-ji",
+      url: "https://www.uji-koushouji.jp/",
+      publicationDate: "",
+      reliability: "authoritative",
+    },
+    {
+      id: SRC_YOKOJI_SOTO_OFFICE,
+      type: "website",
+      title: "Sōtō Zen Ishikawa Office — Yōkō-ji",
+      author: "Sōtō Zen Ishikawa Office",
+      url: "https://www.sotozen-net.jp/temple/68",
+      publicationDate: "",
+      reliability: "authoritative",
+    },
+    {
+      id: SRC_HOKYOJI_ONO_CITY,
+      type: "website",
+      title: "Ōno City — Hōkyō-ji",
+      author: "Ōno City",
+      url: "https://www.city.ono.fukui.jp/kanko/kanko-joho/guide/houkyoji.html",
+      publicationDate: "",
+      reliability: "authoritative",
+    },
+    {
+      id: SRC_ZUISHOJI_CULTURAL_AGENCY,
+      type: "website",
+      title: "Agency for Cultural Affairs — Zuishō-ji",
+      author: "Agency for Cultural Affairs (Japan)",
+      url: "https://kunishitei.bunka.go.jp/heritage/detail/102/512",
+      publicationDate: "",
+      reliability: "authoritative",
+    },
+    {
+      id: SRC_CHILBULSA_SITE,
+      type: "website",
+      title: "Chilbulsa — temple introduction",
+      author: "Chilbulsa",
+      url: "https://chilbul.or.kr/doc/0102.php",
       publicationDate: "",
       reliability: "authoritative",
     },
@@ -1769,9 +1829,10 @@ export const SEED_TEMPLES: TempleSeed[] = [
     schoolSlug: "soto",
     founderSlug: "dogen",
     status: "active",
-    sourceId: SRC_WIKIPEDIA,
+    sourceId: SRC_KOSHOJI_UJI_SITE,
     sourceExcerpt:
-      "Kōshō-ji (興聖寺), Uji, Kyoto — bearing the name of Kōshōhōrin-ji, the first independent Zen temple in Japan, which Dōgen founded at Fukakusa in 1233 and where he wrote much of the Shōbōgenzō. The Fukakusa temple was destroyed; this Sōtō temple carries its name and lineage.",
+      "Kōshō-ji's own site says Dōgen founded its predecessor at Fukakusa in 1233 and that the temple was re-established at Uji in 1648; it publishes current zazen events and access details (checked 2026-10-08).",
+    url: "https://www.uji-koushouji.jp/",
     geoPrecision: "exact",
   },
   {
@@ -1785,13 +1846,21 @@ export const SEED_TEMPLES: TempleSeed[] = [
     region: "Ishikawa Prefecture",
     country: "Japan",
     foundedYear: 1312,
-    foundedPrecision: "circa",
+    foundedPrecision: "exact",
     schoolSlug: "soto",
     founderSlug: "keizan-jokin",
     status: "active",
-    sourceId: SRC_WIKIPEDIA,
+    sourceId: SRC_YOKOJI_SOTO_OFFICE,
     sourceExcerpt:
-      "Yōkō-ji (永光寺) at Sakai-machi, Hakui, Ishikawa — the Sōtō temple Keizan Jōkin founded and regarded as his own base, where he is buried. Keizan is honoured with Dōgen as one of the two founders of Japanese Sōtō.",
+      "The Sōtō Zen Ishikawa Office lists Yōkō-ji in Hakui, founded in 1312 by Keizan, with a zazen gathering on the second Sunday each month (checked 2026-10-08).",
+    url: "https://www.sotozen-net.jp/temple/68",
+    practiceDetails: {
+      schedule: {
+        value: "Zazen gathering on the second Sunday of each month; confirm details before visiting.",
+        sourceUrl: "https://www.sotozen-net.jp/temple/68",
+        checkedOn: "2026-10-08",
+      },
+    },
     geoPrecision: "exact",
   },
   {
@@ -1804,14 +1873,15 @@ export const SEED_TEMPLES: TempleSeed[] = [
     lng: 136.46452778,
     region: "Fukui Prefecture",
     country: "Japan",
-    foundedYear: 1278,
-    foundedPrecision: "circa",
+    foundedYear: null,
+    foundedPrecision: null,
     schoolSlug: "soto",
     founderSlug: "jakuen",
     status: "active",
-    sourceId: SRC_WIKIPEDIA,
+    sourceId: SRC_HOKYOJI_ONO_CITY,
     sourceExcerpt:
-      "Hōkyō-ji (寶慶寺), Ōno, Fukui — founded by Jakuen, the Chinese monk who followed Dōgen from Tiantong and stayed on after his death. Known as the second training ground of Sōtō and 'the inner sanctuary of Eihei-ji'.",
+      "Ōno City's temple page identifies Hōkyō-ji as a Sōtō monastery founded by Jakuen and says visitors can experience zazen (checked 2026-10-08).",
+    url: "https://www.city.ono.fukui.jp/kanko/kanko-joho/guide/houkyoji.html",
     geoPrecision: "exact",
   },
   {
@@ -1848,9 +1918,10 @@ export const SEED_TEMPLES: TempleSeed[] = [
     foundedPrecision: "exact",
     schoolSlug: "obaku",
     status: "active",
-    sourceId: SRC_WIKIPEDIA,
+    sourceId: SRC_ZUISHOJI_CULTURAL_AGENCY,
     sourceExcerpt:
-      "Zuishō-ji (瑞聖寺), Shirokanedai, Minato, Tokyo — the first Ōbaku temple established in Edo, opened by Mokuan Shōtō, Ingen's heir. Its Daiyū-den is an Important Cultural Property.",
+      "Japan's Agency for Cultural Affairs identifies Zuishō-ji as an Ōbaku temple founded in 1670 and documents its historic hall. Tokyo's official travel guide gives its current Shirokanedai address (checked 2026-10-08).",
+    url: "https://www.gotokyo.org/en/spot/1090/index.html",
     geoPrecision: "exact",
   },
   {
@@ -2251,13 +2322,14 @@ export const SEED_TEMPLES: TempleSeed[] = [
     lng: 127.609272,
     region: "Gyeongsang-namdo",
     country: "South Korea",
-    foundedYear: 103,
-    foundedPrecision: "circa",
+    foundedYear: null,
+    foundedPrecision: null,
     schoolSlug: "jogye",
     status: "active",
-    sourceId: SRC_WIKIPEDIA,
+    sourceId: SRC_CHILBULSA_SITE,
     sourceExcerpt:
-      "Chilbulsa (칠불사), Hwagye-myeon, Hadong County, on Jirisan — known for its Asian-style heated meditation hall, the Unsangwon, and long associated with intensive Seon retreat.",
+      "Chilbulsa's own introduction describes its Jirisan temple and Seon training hall. Its first-century origin is presented as a traditional account, so no precise founding year is given here (checked 2026-10-08).",
+    url: "https://chilbul.or.kr/doc/0102.php",
     geoPrecision: "exact",
   },
   {

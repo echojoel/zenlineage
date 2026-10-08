@@ -2,8 +2,8 @@
 
 This is a **triage pass**, not a claim that every place has been personally
 verified. It combines a fresh seed of the canonical place records with a
-read-only HTTP check of every distinct preferred URL on 7 October, plus a check
-of four new preferred URLs on 8 October. HTTP results do not
+read-only HTTP check of the preferred URLs on 7 October, plus checks of new
+preferred URLs on 8 October. HTTP results do not
 establish a group's current activity, lineage, or safeguarding.
 
 ## Coverage
@@ -11,16 +11,16 @@ establish a group's current activity, lineage, or safeguarding.
 | Check | Result |
 |---|---:|
 | Place records | 1,696 |
-| Distinct preferred URLs checked | 1,331 |
-| URLs returning 2xx/3xx | 1,086 |
-| URLs returning 404/410 | 19 (used by 23 records) |
-| URLs blocked or rate limited | 19 (used by 21 records) |
+| Distinct preferred URLs checked | 1,343 |
+| URLs returning 2xx/3xx | 1,099 |
+| URLs returning 404/410 | 17 (used by 20 records) |
+| URLs blocked or rate limited | 20 (used by 22 records) |
 | URLs with inconclusive network/server results | 207 (used by 215 records) |
-| Records with no preferred URL | 18 |
-| Records with only a `popular`-class citation | 535 |
-| Records needing an item-level check because their sole citation is broad | 371 |
-| Records queued to check first (overlapping signals combined) | 924 |
-| City-level, approximate map pins | 873 |
+| Records with no preferred URL | 13 |
+| Records with only a `popular`-class citation | 530 |
+| Records needing an item-level check because their sole citation is broad | 359 |
+| Records queued to check first (overlapping signals combined) | 904 |
+| City-level, approximate map pins | 871 |
 
 Every remaining place has exactly one citation, currently attached to `coordinates`.
 That citation alone cannot establish affiliation, an active schedule, or a
@@ -28,7 +28,7 @@ safeguarding process. The seed labels all 1,696 places `active`, but it has no
 per-place last-checked date. The public map and exported JSON no longer expose
 that seed status as a verified claim.
 
-The 371 broad-page citations comprise 271 rows citing Plum Village's
+The 359 broad-page citations comprise 259 rows citing Plum Village's
 [monastic centres page](https://plumvillage.org/community/monastic-practice-centres)
 and 100 citing the [White Plum founder page](https://whiteplum.org/founder/).
 Those pages do not individually support all the lay groups assigned to them.
@@ -41,6 +41,10 @@ For example, the automated client received a 404 from the
 [Sōtōshū Shōbōji page](https://www.sotozen.com/eng/temples/jp/shoboji.html),
 which remains accessible in a browser and in search. Some other sites may behave
 similarly. A failed URL is evidence about this check, not about the group.
+The automated client also received a 404 from AZI's
+[Mulhouse group page](https://www.zen-azi.org/fr/node/436), which opened in
+a browser. The separate domain linked from that AZI page currently presents
+unrelated wellness articles; the directory therefore uses the AZI listing.
 
 ## Corrections made during this pass
 
@@ -80,6 +84,24 @@ similarly. A failed URL is evidence about this check, not about the group.
   its preferred domain now presents a counselling service, while the broad
   Plum Village page cited in the seed does not identify that specific sangha.
   This is a listing-evidence decision, not a conduct finding.
+- Twelve Belgian lay sanghas now link to their individual pages in
+  [Leven in Aandacht's sangha directory](https://aandacht.net/meditatiegroepen/sangha-vinden2).
+  The Antwerp Lotusknop page supplied a different meeting address, so its
+  old exact pin was corrected. The Gent and Baardegem meeting locations were
+  updated from their group pages. These listings support practice in the
+  Thich Nhat Hanh tradition, without proving formal Plum Village membership.
+- The [AZI Kortrijk](https://www.zen-azi.org/en/node/676) and
+  [Garches](https://www.zen-azi.org/en/node/466) listings supplied updated
+  addresses, and the [Coutras dojo](https://dojo-zen-coutras.fr/) is linked
+  from [Kanshoji's practice directory](https://www.kanshoji.org/lieux-de-pratique/).
+- Five historic temples with no preferred link now have direct temple or
+  institutional sources: [Kōshō-ji](https://www.uji-koushouji.jp/),
+  [Yōkō-ji](https://www.sotozen-net.jp/temple/68),
+  [Hōkyō-ji](https://www.city.ono.fukui.jp/kanko/kanko-joho/guide/houkyoji.html),
+  [Zuishō-ji](https://www.gotokyo.org/en/spot/1090/index.html), and
+  [Chilbulsa](https://chilbul.or.kr/doc/0102.php). Chilbulsa's precise
+  first-century founding date was removed because its temple page presents
+  the origin as a traditional account.
 
 Bounded research batches examined 40 alphabetical Plum Village lay-group
 candidates and 24 apparently missing preferred links. Individual names on
@@ -87,10 +109,19 @@ institutional lists or working group sites were useful evidence of identity;
 they did not establish current meetings or safeguarding for all 64 records.
 Automated link failures were not treated as proof that a group closed.
 
+The newer [Leven in Aandacht page for Wake Up Leuven](https://aandacht.net/meditatiegroepen/sangha-vinden2/item/wake-up-leuven-2)
+describes a group, while an older [Wake Up International profile](https://wkup.org/sangha-of-the-month/wake-up-leuven/)
+labels its earlier sangha inactive. The listing points to the newer page, but
+continuity and current meeting details remain unconfirmed. A separate
+12-record White Plum sample found [Zen Sangha](https://whiteplum.org/membership-list-public/)
+and [Zendo Mãos Vazias](https://whiteplum.org/membership-map/) on White Plum's
+member pages; those pages do not verify the Belgian local subgroups or their
+meeting addresses. Their review flags remain in place.
+
 ## Next review work
 
-Start with the 23 records whose preferred URL returned 404/410 and the 18
-without a preferred URL. Then review the 535 `popular`-only citations and 371
+Start with the 20 records whose preferred URL returned 404/410 and the 13
+without a preferred URL. Then review the 530 `popular`-only citations and 359
 broad-page citations against direct group or institutional pages. For each correction, update
 the canonical seed or raw place data, cite the direct source, and rerun the
 seed and audit. Do not infer misconduct from missing websites or policies.

@@ -533,6 +533,8 @@ function pickSourceId(sourceUrl: string, lineage: string): string {
   if (u.includes("zen-azi.org/fr/node/456")) return "src_azi_caen";
   if (u.includes("kwanumeurope.org/locations/torun-zen-group")) return "src_kwanum_torun";
   if (u.includes("kwanumeurope.org/locations/glogow-zen-group")) return "src_kwanum_glogow";
+  if (u.includes("aandacht.net/meditatiegroepen/sangha-vinden2/item/"))
+    return "src_leven_in_aandacht_sanghas";
 
   // ── North-American sect umbrellas ───────────────────────────────────
   if (u.includes("szba.org")) return "src_szba";
@@ -650,6 +652,18 @@ function pickSourceId(sourceUrl: string, lineage: string): string {
 // community does not publish). Omitting the third element means "exact":
 // this pin is the place itself, verified against a named source.
 const MANUAL_COORDS: Record<string, ManualCoord> = {
+  // These current venue addresses are published by Leven in Aandacht and
+  // resolved to the named house or venue in OpenStreetMap on 2026-10-08.
+  "Sangha De Lotusknop Antwerpen": [51.2086559, 4.4805551],
+  "Sangha Baardegem (Aalst)": [50.9635114, 4.1381842],
+  "Sangha Gent (Plum Village)": [51.054021, 3.7494727],
+  "Sangha Pepingen": [50.7487159, 4.1852683],
+  "Sangha Landen (Neerwinden)": [50.7657665, 5.0445273],
+  // OSM resolves Meuletiende but not number 10; leave the Turnhout pin
+  // approximate rather than putting an exact marker at the old town point.
+  "Interzijn in Aandacht Turnhout": [51.3300729, 4.9574337, "city"],
+  // AZI lists the current Garches address; OSM resolves the house number.
+  "Dojo Zen de Garches": [48.846621, 2.188431],
   // The dojo's old Anselm Clavé pin is obsolete. Its current site gives
   // Torres de Sanui 5; OSM resolves the street but not that doorway, so
   // keep the marker approximate until the entrance is independently mapped.

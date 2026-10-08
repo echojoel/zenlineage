@@ -575,8 +575,8 @@ const SOURCES = [
     type: "website",
     title: "Association Zen Internationale — Find your practice location",
     author: "Association Zen Internationale",
-    url: "https://www.zen-azi.org/en/dojos",
-    publicationDate: "2025",
+    url: "https://www.zen-azi.org/en/recherche-lieux-meditation",
+    publicationDate: "",
     reliability: "authoritative",
   },
   {
