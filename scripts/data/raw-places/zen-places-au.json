@@ -79,7 +79,7 @@
       "lineage": "Soto Zen (lineage of Daido Hogen Yamahata)",
       "address": "Salmon Building Chapel, Mater Hospital, South Brisbane QLD",
       "url": "https://www.openway.org.au/",
-      "source_url": "https://www.openway.org.au/",
+      "source_url": "https://www.openway.org.au/practice.html",
       "notes": "Supports the Australian teachings of the late Zen Master Daido Hogen Yamahata (d. 2024); regular Wednesday evening sittings."
     },
     {
@@ -89,7 +89,7 @@
       "lineage": "Soto Zen (Daido Hogen Yamahata lineage)",
       "address": null,
       "url": "https://www.openway.org.au/",
-      "source_url": "https://www.openway.org.au/",
+      "source_url": "https://www.openway.org.au/practice.html",
       "notes": "Sitting group affiliated with Open Way Zen network; longstanding Hogen-san practice centre region."
     },
     {
@@ -99,7 +99,7 @@
       "lineage": "Soto Zen (Daido Hogen Yamahata lineage)",
       "address": null,
       "url": "https://www.openway.org.au/",
-      "source_url": "https://www.openway.org.au/",
+      "source_url": "https://www.openway.org.au/practice.html",
       "notes": "Open Way Zen sitting group in northern NSW Tweed Valley."
     },
     {
@@ -129,7 +129,7 @@
       "lineage": "Diamond Sangha (Murphy / Sutherland / Fisher)",
       "address": "2nd Floor, 71-73 Liverpool Street, Hobart TAS 7000",
       "url": "https://zenhobart.com/",
-      "source_url": "https://zenhobart.com/about",
+      "source_url": "https://zenhobart.com/schedule",
       "notes": "Diamond Sangha lineage; teachers Susan Murphy Roshi, Kirk Fisher Sensei, Kynan Sutherland Sensei. Sangha 30+ years old."
     },
     {
@@ -169,7 +169,7 @@
       "lineage": "Diamond Sangha",
       "address": "Way of the Forest Hermitage, Doonan QLD",
       "url": "https://forestwayzen.com.au/",
-      "source_url": "https://forestwayzen.com.au/home/",
+      "source_url": "https://forestwayzen.com.au/classes-retreats-and-events/",
       "notes": "Founded 1989 by Barry Farrin Roshi (Sensei 2004, Roshi 2015 in Diamond Sangha). Weekly sittings, regular Zazenkai and 5-day Sesshin."
     },
     {
@@ -204,13 +204,13 @@
     },
     {
       "name": "Canberra Soto Zen Group",
-      "city": "Canberra (Cook)",
+      "city": "Canberra (Lyneham)",
       "region": "ACT",
       "lineage": "Soto Zen (Jikishoan / Korematsu lineage)",
-      "address": "1 Tilden Place, Cook ACT 2614",
-      "url": "https://www.canberrasotozen.com/",
-      "source_url": "https://canberrasotozengroup.wixsite.com/canberrasotozengroup/about_us",
-      "notes": "Weekly Zazenkai under guidance of Ekai Korematsu Osho (Jikishoan). Sundays 7:30-9:30am, Thursdays 6-8pm."
+      "address": "Sakyamuni Buddhist Centre / Van Hanh Monastery, 32 Archibald Street, Lyneham ACT 2602",
+      "url": "https://canberrasotozengroup.wixsite.com/canberrasotozengroup",
+      "source_url": "https://canberrasotozengroup.wixsite.com/canberrasotozengroup",
+      "notes": "Soto practice linked to Ekai Korematsu and Jikishoan; Sunday 2–4pm with Zoom participation."
     },
     {
       "name": "Bodhimount Zendo",

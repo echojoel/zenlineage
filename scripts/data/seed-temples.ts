@@ -289,6 +289,28 @@ export const SRC_ONE_RIVER_ZEN = "src_one_river_zen";
 export const SRC_ONE_HEART_SANGHA = "src_one_heart_sangha";
 export const SRC_DAY_STAR_ZENDO = "src_day_star_zendo";
 export const SRC_FULL_MOON_ZEN = "src_full_moon_zen";
+export const SRC_MOUNTAIN_SPRING_PV = "src_mountain_spring_plum_village";
+export const SRC_HEALING_SPRING_PV = "src_healing_spring_plum_village";
+export const SRC_MAISON_INSPIR_PV = "src_maison_inspir_plum_village";
+export const SRC_AIAB_PV = "src_aiab_plum_village";
+export const SRC_THAI_PLUM_VILLAGE = "src_thai_plum_village";
+export const SRC_CANBERRA_SOTO_SITE = "src_canberra_soto_site";
+export const SRC_DARWIN_ZEN_SITE = "src_darwin_zen_site";
+export const SRC_FOREST_WAY_ZEN_SITE = "src_forest_way_zen_site";
+export const SRC_KUAN_YIN_AU_SITE = "src_kuan_yin_au_site";
+export const SRC_MOUNTAINS_RIVERS_HOBART = "src_mountains_rivers_hobart";
+export const SRC_OPEN_WAY_AU = "src_open_way_au";
+export const SRC_MORNING_STAR_ZEN = "src_morning_star_zen";
+export const SRC_NO_GATE_ZEN = "src_no_gate_zen";
+export const SRC_ORDER_CLEAR_MIND = "src_order_clear_mind";
+export const SRC_STATEN_ISLAND_ZEN = "src_staten_island_zen";
+export const SRC_EMPTY_HAND_ZEN = "src_empty_hand_zen";
+export const SRC_PAMSULA_WHITEPLUM = "src_pamsula_whiteplum";
+export const SRC_DRAGONS_EYE_ZEN = "src_dragons_eye_zen";
+export const SRC_PLUMLINE = "src_plumline_directory";
+export const SRC_INTERBEING_DENMARK = "src_interbeing_denmark";
+export const SRC_BONZAZEN_SITE = "src_bonzazen_site";
+export const SRC_FRENCH_PV_SANGHAS_2025 = "src_french_pv_sanghas_2025";
 
 /** Global Zen practice-centre research bundle — fallback citation for the
  * Gemini Deep Research 2026-05 ingest where the row's primary directory
@@ -1234,6 +1256,102 @@ export const TEMPLE_SOURCES: {
       url: "https://www.fullmoonzen.org/",
       publicationDate: "",
       reliability: "authoritative",
+    },
+    {
+      id: SRC_MOUNTAIN_SPRING_PV,
+      type: "website",
+      title: "Plum Village — Mountain Spring Monastery",
+      author: "Plum Village Community of Engaged Buddhism",
+      url: "https://plumvillage.org/practice-centre/mountain-spring-monastery",
+      publicationDate: "",
+      reliability: "authoritative",
+    },
+    {
+      id: SRC_HEALING_SPRING_PV,
+      type: "website",
+      title: "Plum Village — Healing Spring Monastery",
+      author: "Plum Village Community of Engaged Buddhism",
+      url: "https://plumvillage.org/practice-centre/healing-spring-monastery",
+      publicationDate: "",
+      reliability: "authoritative",
+    },
+    {
+      id: SRC_MAISON_INSPIR_PV,
+      type: "website",
+      title: "Plum Village — Maison de l’Inspir",
+      author: "Plum Village Community of Engaged Buddhism",
+      url: "https://plumvillage.org/practice-centre/maison-de-linspir",
+      publicationDate: "",
+      reliability: "authoritative",
+    },
+    {
+      id: SRC_AIAB_PV,
+      type: "website",
+      title: "Plum Village — Asian Institute of Applied Buddhism",
+      author: "Plum Village Community of Engaged Buddhism",
+      url: "https://plumvillage.org/practice-centre/aiab-3",
+      publicationDate: "",
+      reliability: "authoritative",
+    },
+    {
+      id: SRC_THAI_PLUM_VILLAGE,
+      type: "website",
+      title: "Plum Village — Thai Plum Village",
+      author: "Plum Village Community of Engaged Buddhism",
+      url: "https://plumvillage.org/practice-centre/plum-village-thailand",
+      publicationDate: "",
+      reliability: "authoritative",
+    },
+    {
+      id: SRC_CANBERRA_SOTO_SITE, type: "website", title: "Canberra Soto Zen Group — practice and lineage", author: "Canberra Soto Zen Group", url: "https://canberrasotozengroup.wixsite.com/canberrasotozengroup", publicationDate: "", reliability: "authoritative",
+    },
+    {
+      id: SRC_DARWIN_ZEN_SITE, type: "website", title: "Darwin Zen Group — practice and lineage", author: "Darwin Zen Group", url: "https://dzg.org.au/", publicationDate: "", reliability: "authoritative",
+    },
+    {
+      id: SRC_FOREST_WAY_ZEN_SITE, type: "website", title: "Way of the Forest — practice and lineage", author: "Way of the Forest", url: "https://forestwayzen.com.au/", publicationDate: "", reliability: "authoritative",
+    },
+    {
+      id: SRC_KUAN_YIN_AU_SITE, type: "website", title: "Kuan Yin Meditation Centre — Zen practice", author: "Kuan Yin Meditation Centre", url: "https://www.kuanyinmeditationcentre.org/zen-events/", publicationDate: "", reliability: "authoritative",
+    },
+    {
+      id: SRC_MOUNTAINS_RIVERS_HOBART, type: "website", title: "Mountains & Rivers Zen — schedule and lineage", author: "Mountains & Rivers Zen", url: "https://zenhobart.com/schedule", publicationDate: "", reliability: "authoritative",
+    },
+    {
+      id: SRC_OPEN_WAY_AU, type: "website", title: "Open Way Zen — Australian practice groups", author: "Open Way Zen", url: "https://www.openway.org.au/practice.html", publicationDate: "", reliability: "authoritative",
+    },
+    {
+      id: SRC_MORNING_STAR_ZEN, type: "website", title: "Morning Star Zendo — practice, teachers and location", author: "Morning Star Zendo", url: "https://sites.google.com/view/morningstarzen/home", publicationDate: "", reliability: "authoritative",
+    },
+    {
+      id: SRC_NO_GATE_ZEN, type: "website", title: "No Gate Zen Center — practice, lineage and location", author: "No Gate Zen Center", url: "https://nogatezencenter.org/", publicationDate: "", reliability: "authoritative",
+    },
+    {
+      id: SRC_ORDER_CLEAR_MIND, type: "website", title: "Order of Clear Mind Zen — centers and teachers", author: "Order of Clear Mind Zen", url: "https://www.ocmz.org/", publicationDate: "", reliability: "authoritative",
+    },
+    {
+      id: SRC_STATEN_ISLAND_ZEN, type: "website", title: "Zen Community of Staten Island — practice and lineage", author: "Zen Community of Staten Island", url: "https://zencommunitysi.org/", publicationDate: "", reliability: "authoritative",
+    },
+    {
+      id: SRC_EMPTY_HAND_ZEN, type: "website", title: "Empty Hand Zen Center — current practice", author: "Empty Hand Zen Center", url: "https://emptyhandzen.org/", publicationDate: "", reliability: "authoritative",
+    },
+    {
+      id: SRC_PAMSULA_WHITEPLUM, type: "website", title: "White Plum Asanga — Pamsula Zen Center", author: "White Plum Asanga", url: "https://whiteplum.org/membership-list-mobile/user/190/", publicationDate: "", reliability: "authoritative",
+    },
+    {
+      id: SRC_DRAGONS_EYE_ZEN, type: "website", title: "Dragon’s Eye Zendo — current online practice and lineage", author: "Michael Koryu Holleran", url: "https://michaelkholleran.org/", publicationDate: "", reliability: "authoritative",
+    },
+    {
+      id: SRC_PLUMLINE, type: "website", title: "Plumline — Plum Village lay sangha directory", author: "Plum Village lay community", url: "https://www.plumline.org/home", publicationDate: "", reliability: "authoritative",
+    },
+    {
+      id: SRC_INTERBEING_DENMARK, type: "website", title: "Interbeing Denmark — communities and calendar", author: "Interbeing Denmark", url: "https://interbeing.dk/", publicationDate: "", reliability: "authoritative",
+    },
+    {
+      id: SRC_BONZAZEN_SITE, type: "website", title: "Bonzazen — Association Zen du Boulay practice groups", author: "Association Zen du Boulay", url: "https://bonzazen.wordpress.com/", publicationDate: "", reliability: "authoritative",
+    },
+    {
+      id: SRC_FRENCH_PV_SANGHAS_2025, type: "document", title: "French-speaking Plum Village sanghas — directory, 8 June 2025", author: "Réseau des Sanghas Francophones du Village des Pruniers", url: "https://sanghasfrancophonespruniers.wordpress.com/wp-content/uploads/2025/06/liste_sangha_franco-08-06-2025.pdf", publicationDate: "2025-06-08", reliability: "authoritative",
     },
     {
       id: SRC_FOGUANG,
@@ -3112,7 +3230,7 @@ export const SEED_TEMPLES: TempleSeed[] = [
     schoolSlug: "plum-village",
     founderSlug: "thich-nhat-hanh",
     status: "active",
-    sourceId: SRC_PLUMVILLAGE_MONASTIC,
+    sourceId: SRC_HEALING_SPRING_PV,
     sourceExcerpt:
       "Healing Spring Monastery — a Plum Village monastic practice centre in Verdelot, France, serving the greater Paris region.",
     url: "https://plumvillage.org/practice-centre/healing-spring-monastery",
@@ -3132,7 +3250,7 @@ export const SEED_TEMPLES: TempleSeed[] = [
     schoolSlug: "plum-village",
     founderSlug: "thich-nhat-hanh",
     status: "active",
-    sourceId: SRC_PLUMVILLAGE_MONASTIC,
+    sourceId: SRC_MAISON_INSPIR_PV,
     sourceExcerpt:
       "Maison de l'Inspir — a Plum Village practice residence in Villeneuve-sur-Bellot, France.",
     url: "https://plumvillage.org/practice-centre/maison-de-linspir",
@@ -3153,7 +3271,7 @@ export const SEED_TEMPLES: TempleSeed[] = [
     schoolSlug: "plum-village",
     founderSlug: "thich-nhat-hanh",
     status: "active",
-    sourceId: SRC_PLUMVILLAGE_MONASTIC,
+    sourceId: SRC_AIAB_PV,
     sourceExcerpt:
       "AIAB / Lotus Pond Temple on Lantau Island, Hong Kong — the Plum Village community's Asian institute, home to over a dozen monastics ordained in the Plum Village tradition.",
     url: "https://plumvillage.org/practice-centre/aiab-3",
@@ -3174,7 +3292,7 @@ export const SEED_TEMPLES: TempleSeed[] = [
     schoolSlug: "plum-village",
     founderSlug: "thich-nhat-hanh",
     status: "active",
-    sourceId: SRC_PLUMVILLAGE_MONASTIC,
+    sourceId: SRC_THAI_PLUM_VILLAGE,
     sourceExcerpt:
       "Thai Plum Village, founded 2008 near Khao Yai National Park — the Plum Village community's largest hub in Asia, leading retreats throughout Southeast Asia.",
     url: "https://plumvillage.org/practice-centre/plum-village-thailand",
@@ -3209,7 +3327,7 @@ export const SEED_TEMPLES: TempleSeed[] = [
     schoolSlug: "plum-village",
     founderSlug: "thich-nhat-hanh",
     status: "active",
-    sourceId: SRC_PLUMVILLAGE_MONASTIC,
+    sourceId: SRC_MOUNTAIN_SPRING_PV,
     sourceExcerpt:
       "Mountain Spring Monastery — the newest Plum Village monastic practice centre, founded March 2020 in the Blue Mountains outside Sydney, Australia.",
     url: "https://plumvillage.org/practice-centre/mountain-spring-monastery",

@@ -579,6 +579,25 @@ function pickSourceId(sourceUrl: string, lineage: string): string {
   if (u.includes("oneheartsangha.org")) return "src_one_heart_sangha";
   if (u.includes("daystarzendo.org")) return "src_day_star_zendo";
   if (u.includes("fullmoonzen.org")) return "src_full_moon_zen";
+  if (u.includes("canberrasotozengroup.wixsite.com")) return "src_canberra_soto_site";
+  if (u.includes("dzg.org.au")) return "src_darwin_zen_site";
+  if (u.includes("forestwayzen.com.au")) return "src_forest_way_zen_site";
+  if (u.includes("kuanyinmeditationcentre.org")) return "src_kuan_yin_au_site";
+  if (u.includes("zenhobart.com")) return "src_mountains_rivers_hobart";
+  if (u.includes("openway.org.au")) return "src_open_way_au";
+  if (u.includes("sites.google.com/view/morningstarzen")) return "src_morning_star_zen";
+  if (u.includes("nogatezencenter.org")) return "src_no_gate_zen";
+  if (u.includes("ocmz.org")) return "src_order_clear_mind";
+  if (u.includes("zencommunitysi.org")) return "src_staten_island_zen";
+  if (u.includes("emptyhandzen.org")) return "src_empty_hand_zen";
+  if (u.includes("whiteplum.org/membership-list-mobile/user/190"))
+    return "src_pamsula_whiteplum";
+  if (u.includes("michaelkholleran.org")) return "src_dragons_eye_zen";
+  if (u.includes("plumline.org")) return "src_plumline_directory";
+  if (u.includes("interbeing.dk")) return "src_interbeing_denmark";
+  if (u.includes("bonzazen.wordpress.com")) return "src_bonzazen_site";
+  if (u.includes("liste_sangha_franco-08-06-2025.pdf"))
+    return "src_french_pv_sanghas_2025";
 
   // ── North-American sect umbrellas ───────────────────────────────────
   if (u.includes("szba.org")) return "src_szba";
@@ -705,6 +724,12 @@ const MANUAL_COORDS: Record<string, ManualCoord> = {
   "Silver Spring Zendo / One Heart Sangha": [38.9852993, -77.0366559], // Washington Ethical Society, DC
   "Day Star Sangha": [42.0667652, -71.3281114, "city"], // Wrentham; exact retreat-house address is not public
   "Full Moon Zen": [42.3762832, -71.1267099], // Friends Meeting at Cambridge, 5 Longfellow Park
+  "Canberra Soto Zen Group": [-35.2451460, 149.1250813, "city"], // 32 Archibald St; OSM resolves the street, not doorway
+  "No Gate Zen Center": [35.0789884, -106.6092587], // Tea House Zendo, 3210 Silver Ave SE
+  "Zen Community of Staten Island": [40.6418756, -74.1019417], // Emma's Place, Snug Harbor, 1000 Richmond Terrace
+  "Empty Hand Zen Center": [40.9105253, -73.7820689], // 45 Lawton Street, New Rochelle
+  "Pamsula Zen Center": [41.6666007, -91.5204745], // Iowa City Zen Center, 1025 Fairchild Street
+  "Fleurs d’ajoncs (formerly Sangha 53, Mayenne)": [48.1507819, -0.6491274, "city"], // Mayenne; 2025 directory gives department, no venue
   // These sources identify the current city or street, but OSM does not
   // resolve a specific entrance for the published place.
   "Green River Zen Center": [42.472974, -72.5832895, "city"],
@@ -734,7 +759,7 @@ const MANUAL_COORDS: Record<string, ManualCoord> = {
   "Melbourne Zen Group": [-37.7589, 144.9876], // CERES Environment Park, Brunswick East
   "Centrum Oko Lesa (Sandō Kaisen — retreat)": [49.8175, 15.473, "city"], // Czech centroid (rural retreat, exact loc not public)
   "Europäisches Zentrum für Meditation und Begegnung Neumühle": [49.4756, 6.5697], // Mettlach-Tünsdorf 66693
-  "Sangha Aman à Breman (Plougiel)": [48.7833, -3.2667], // Plougiel, Côtes-d'Armor
+  "Sangha Aman à Breman (Plouguiel)": [48.7833, -3.2667], // Plouguiel, Côtes-d'Armor
   "Shawbottom Farm Retreat": [52.45, -2.75, "city"], // Shropshire approx (WCF retreat venue)
   "Po Lin Monastery (Po Lin Chansi)": [22.2548, 113.9051], // Ngong Ping plateau, Lantau
   "Lotus Pond Temple (Plum Village Hong Kong, Asian Institute of Applied Buddhism)": [22.2553, 113.905], // Ngong Ping, Lantau
@@ -1227,7 +1252,7 @@ async function main(): Promise<void> {
           // town or region name, so the pin is a centroid rather than the
           // address. Record that as `geoPrecision: "city"` so the map can
           // say so instead of presenting a guess as the temple's location.
-          if (i > 0) {
+          if (i > 0 || !hasStreetAddress(p)) {
             geoPrecision = "city";
             // Publishing a street address that still resolved only at town
             // level is the dangerous case — it lands in the wrong town when
