@@ -285,8 +285,7 @@ export default async function AboutPage() {
               <Link className="detail-inline-link" href="/schools/soto">
                 Sōtō
               </Link>
-              , and is the form that travelled to the West first. Treating any one of these as
-              the &ldquo;real&rdquo; Zen and the others as variants is a category error.
+              , and is the form that travelled to the West first.
             </p>
             <figure className="about-figure">
               <Image
