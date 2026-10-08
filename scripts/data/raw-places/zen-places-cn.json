@@ -18,8 +18,8 @@
       "lineage": "Chinese Chan (Linji — ancestral seat of the Linji house)",
       "address": "Linji Lu, Zhengding County, Shijiazhuang, Hebei",
       "url": "http://www.linjisi.com/",
-      "source_url": "https://en.wikipedia.org/wiki/Linji_Temple",
-      "notes": "Founding monastery of the Linji school of Chan, where Linji Yixuan taught in the 9th century. Restored in the 1980s and again under Master Jing Hui; the Chenglin Pagoda dates to the 9th century."
+      "source_url": "https://www.zd.gov.cn/columns/761f6ac4-e450-48fb-a470-10c5ea7c2b3d/202005/07/37b86be9-6734-4bb0-b458-880b3e2289e5.html",
+      "notes": "Zhengding County documents the temple as the ancestral temple of the Linji school; published visitor hours are not a meditation schedule (checked 2026-10-08)."
     },
     {
       "name": "Bailin Chan Temple",
@@ -28,8 +28,8 @@
       "lineage": "Chinese Chan (Linji — modern revival)",
       "address": "Bailin Si, Zhao County, Shijiazhuang, Hebei 051530",
       "url": "https://www.bailinsi.net/",
-      "source_url": "https://en.wikipedia.org/wiki/Bailin_Temple",
-      "notes": "Where Zhaozhou Congshen taught for 40 years in the 9th century. Major modern Chan-revival training monastery rebuilt under Master Jing Hui (Jinghui) from 1988; flagship of the 'Living Chan' movement."
+      "source_url": "https://www.bailinsi.net/index.php/home/lxwm/aboutus.html",
+      "notes": "The monastery’s official site identifies its Linji transmission and continuing Life Chan education and retreat program; consult the current calendar for dates (checked 2026-10-08)."
     },
     {
       "name": "Zhenru Chan Temple (Yunju Shan)",
@@ -67,9 +67,9 @@
       "region": "Zhejiang",
       "lineage": "Chinese Chan (Linji — major historic Chan temple)",
       "address": "1 Fayun Lane, Xihu District, Hangzhou 310013",
-      "url": "https://www.lingyinsi.com/",
-      "source_url": "https://en.wikipedia.org/wiki/Lingyin_Temple",
-      "notes": "Founded 328 CE; one of the wealthiest and largest Chan temples in China. Listed among the Five Mountains of southern Song Chan."
+      "url": "https://lingyinsi.org/",
+      "source_url": "https://lingyinsi.org/detail_1073_19641.html",
+      "notes": "The temple’s official site documents its Chan identity, Hangzhou location, and current activities; no regular public zazen timetable was confirmed (checked 2026-10-08)."
     },
     {
       "name": "Jingci Temple",
@@ -128,28 +128,8 @@
       "lineage": "Chinese Chan (historic — Jianzhen / Ganjin)",
       "address": "Pingshan Tang, Yangzhou, Jiangsu",
       "url": "https://www.damingsi.com/",
-      "source_url": "https://en.wikipedia.org/wiki/Daming_Temple",
-      "notes": "Founded 5th century; where Jianzhen (Ganjin) lived before founding Tōshōdai-ji in Japan. Active monastery."
-    },
-    {
-      "name": "Donglin Temple",
-      "city": "Jiujiang",
-      "region": "Jiangxi",
-      "lineage": "Chinese Chan (historic Mount Lu)",
-      "address": "Mount Lu, Lushan, Jiujiang, Jiangxi",
-      "url": "https://www.donglin.org/",
-      "source_url": "https://en.wikipedia.org/wiki/Donglin_Temple_(Jiangxi)",
-      "notes": "Founded 386 CE on Mount Lu; one of the most historically significant Chan-Pure Land temples in China."
-    },
-    {
-      "name": "Guoqing Temple",
-      "city": "Tiantai County",
-      "region": "Zhejiang",
-      "lineage": "Chinese Chan (Tiantai school home temple — historic)",
-      "address": "Tiantai Mountain, Tiantai County, Taizhou, Zhejiang",
-      "url": "https://www.guoqingsi.com/",
-      "source_url": "https://en.wikipedia.org/wiki/Guoqing_Temple",
-      "notes": "Founded 598 CE; founding seat of the Tiantai school. Active monastery; Saichō transmitted Tiantai (Tendai) to Japan from here."
+      "source_url": "https://www.damingsi.com/about.asp?lbid=54",
+      "notes": "The temple’s own history documents its Chan transmission. An older page lists weekly meditation, but no current public timetable was confirmed (checked 2026-10-08)."
     },
     {
       "name": "Hanshan Temple",
@@ -158,8 +138,8 @@
       "lineage": "Chinese Chan (Linji — historic literary association)",
       "address": "Hanshansi Lu, Gusu District, Suzhou, Jiangsu",
       "url": "https://www.hanshansi.org/",
-      "source_url": "https://en.wikipedia.org/wiki/Hanshan_Temple",
-      "notes": "Founded 6th century; named for Tang-era Chan poet Hanshan. Active Linji-affiliated monastery in Suzhou's old city."
+      "source_url": "https://jsfj.net/syzs_szhss",
+      "notes": "The Jiangsu Buddhist Association identifies this active Suzhou temple with the Linji Chan tradition; no current public sitting schedule was confirmed (checked 2026-10-08)."
     },
     {
       "name": "Caotang Temple",

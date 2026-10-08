@@ -929,7 +929,6 @@ const MANUAL_COORDS: Record<string, ManualCoord> = {
   // Yangzhou centroid (32.3968554, 119.4077658) held both of these:
   "Daming Temple": [32.42166667, 119.40833333], // 大明寺, middle peak of Shugang Hill
   "Gaomin Temple": [32.32666667, 119.41277778], // 高旻寺, Hanjiang District — ~10km S of Daming
-  "Guoqing Temple": [29.173141, 121.042594], // 国清寺, Mount Tiantai
   "Zhenru Chan Temple (Yunju Shan)": [29.097687, 115.591501], // 真如禅寺, Mount Yunju — was ~10km E
   // Kamakura centroid (35.3192808, 139.5469627) held both of these. They
   // are the first- and second-ranked temples of the Kamakura Gozan and sit

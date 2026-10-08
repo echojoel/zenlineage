@@ -222,13 +222,6 @@ const TARGETS: Record<string, TempleImage> = {
       "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/%E5%87%80%E6%85%88%E5%AF%BA.jpg/960px-%E5%87%80%E6%85%88%E5%AF%BA.jpg",
     alt: "Jingci-si at West Lake, Hangzhou — Song-period seat of Yongming Yanshou and the Pure-Land / Chan synthesis.",
   },
-  "guoqing-temple": {
-    title: "Guoqing Temple",
-    article: "https://en.wikipedia.org/wiki/Guoqing_Temple",
-    imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Guoqing_Temple%2C_2014-12-27_23.JPG/960px-Guoqing_Temple%2C_2014-12-27_23.JPG",
-    alt: "Guoqing-si on Mt. Tiantai — birthplace of the Tiantai school and an early site of Korean / Japanese pilgrimage.",
-  },
   "nanhua-temple": {
     title: "Nanhua Temple",
     article: "https://en.wikipedia.org/wiki/Nanhua_Temple",

@@ -629,10 +629,10 @@
       "city": "Ambleside",
       "region": "England",
       "lineage": "Plum Village",
-      "address": null,
-      "url": "https://plumvillage.uk/practice-groups/find-a-group/",
-      "source_url": "https://plumvillage.uk/practice-groups/find-a-group/",
-      "notes": "Lake District sangha."
+      "address": "Kelsick Centre, Ambleside",
+      "url": "https://www.stillwaterspvsangha.co.uk/home",
+      "source_url": "https://www.stillwaterspvsangha.co.uk/home",
+      "notes": "The group site lists Friday evening practice in Ambleside, with calendar exceptions; confirm before visiting (checked 2026-10-08)."
     },
     {
       "name": "Birmingham Sangha",
@@ -719,10 +719,10 @@
       "city": "London",
       "region": "England",
       "lineage": "Plum Village",
-      "address": "Tottenham Hale, London",
-      "url": "https://plumvillage.uk/practice-groups/find-a-group/",
-      "source_url": "https://plumvillage.uk/practice-groups/find-a-group/",
-      "notes": "Plum Village UK group."
+      "address": "The Engine Room, Lebus Street, London N17 9FU",
+      "url": "https://plumvillage.uk/group/seven-sisters-sangha/",
+      "source_url": "https://plumvillage.uk/group/seven-sisters-sangha/",
+      "notes": "Official group profile lists alternate Tuesday evening meetings in Tottenham Hale (checked 2026-10-08)."
     },
     {
       "name": "Mai Blossom UK (Vietnamese-language sangha)",
@@ -832,7 +832,7 @@
       "address": null,
       "url": "https://plumvillage.uk/practice-groups/find-a-group/",
       "source_url": "https://plumvillage.uk/practice-groups/find-a-group/",
-      "notes": "Plum Village UK group."
+      "notes": "Current Plum Village UK directory lists this Norwich practice group (checked 2026-10-08)."
     },
     {
       "name": "Deep Roots Sangha",
@@ -909,10 +909,10 @@
       "city": "Newtownabbey",
       "region": "Northern Ireland",
       "lineage": "Plum Village",
-      "address": null,
+      "address": "Whiteabbey Village, Newtownabbey",
       "url": "https://plumvillage.uk/practice-groups/find-a-group/",
-      "source_url": "https://plumvillage.uk/practice-groups/find-a-group/",
-      "notes": "Plum Village UK group, NI."
+      "source_url": "https://www.mindfulnessireland.ie/sanghas-local-sanghas-across-ireland/",
+      "notes": "Current Ireland directory lists evening practice in Whiteabbey Village; contact the group for the current weekday (checked 2026-10-08)."
     },
     {
       "name": "Gaiatree Family Sangha",

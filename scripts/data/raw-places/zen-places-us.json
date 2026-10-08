@@ -84,8 +84,8 @@
       "lineage": "White Plum / Upaya (Joan Halifax)",
       "address": null,
       "url": "https://upayatucson.org/",
-      "source_url": "https://whiteplum.org/membership-list-public/",
-      "notes": "White Plum Asanga affiliate; teacher Alfred Genkai Kaszniak."
+      "source_url": "https://www.upaya.org/about/affiliates/",
+      "notes": "Upaya Zen Center currently lists this Tucson sangha as an affiliate led by Alfred Genkai Kaszniak; confirm its local calendar before visiting (checked 2026-10-08)."
     },
     {
       "name": "Zen Desert Sangha",
@@ -514,8 +514,8 @@
       "lineage": "White Plum (Maezumi lineage)",
       "address": "Nevada City, CA",
       "url": "https://wildriverzen.org/",
-      "source_url": "https://whiteplum.org/membership-map/",
-      "notes": "White Plum Asanga member."
+      "source_url": "https://zcla.org/about/affiliated-zen-groups/",
+      "notes": "Zen Center of Los Angeles lists this Nevada City affiliate and its Wednesday evening practice (checked 2026-10-08)."
     },
     {
       "name": "Santa Rosa Zen Group",
@@ -756,16 +756,6 @@
       "url": "https://dharmamountain.org/",
       "source_url": "https://www.rinzaiji.org/affiliated-centers/",
       "notes": "Rinzai-ji affiliate in Grand Valley."
-    },
-    {
-      "name": "Willow Farm Contemplative Center",
-      "city": "Boulder",
-      "region": "Colorado",
-      "lineage": "Zen Peacemakers",
-      "address": null,
-      "url": "https://willowfarmretreat.org/",
-      "source_url": "https://zenpeacemakers.org/membership/affiliate-network/",
-      "notes": "Zen Peacemakers affiliate."
     },
     {
       "name": "Rocky Mountain Ecodharma Retreat Center",
@@ -1129,10 +1119,10 @@
       "city": "Oak Park",
       "region": "Illinois",
       "lineage": "White Plum (Maezumi lineage)",
-      "address": null,
+      "address": "46 Lake St, Oak Park, IL",
       "url": "https://zlmc.org/",
-      "source_url": "https://whiteplum.org/membership-list-public/",
-      "notes": "White Plum Asanga; teacher Robert Joshin Althouse."
+      "source_url": "https://www.zlmc.org/sunday-morning-zen-1",
+      "notes": "Current center page lists Sunday morning service, meditation, teaching, and community time in Oak Park (checked 2026-10-08)."
     },
     {
       "name": "Prairie Zen Center",
@@ -1429,10 +1419,10 @@
       "city": "Westhampton",
       "region": "Massachusetts",
       "lineage": "White Plum (Maezumi lineage)",
-      "address": "Westhampton, MA",
+      "address": "263 Main Rd, Westhampton, MA",
       "url": "https://twostreamszen.org/",
-      "source_url": "https://whiteplum.org/membership-list-public/",
-      "notes": "White Plum Asanga; teacher Catherine Anraku Hondorp."
+      "source_url": "https://twostreamszen.org/body-mind-temple/",
+      "notes": "Current center pages describe Zen training, community practice, instruction, and retreats led by Catherine Anraku Hondorp (checked 2026-10-08)."
     },
     {
       "name": "Green River Zen Center",
@@ -2039,16 +2029,6 @@
       "notes": "Diamond Sangha affiliate; shares Yellow Springs Dharma Center."
     },
     {
-      "name": "The Lotus Institute",
-      "city": "Cleveland",
-      "region": "Ohio",
-      "lineage": "Zen Peacemakers",
-      "address": null,
-      "url": "https://thelotusinstitute.org/",
-      "source_url": "https://zenpeacemakers.org/membership/affiliate-network/",
-      "notes": "Zen Peacemakers affiliate."
-    },
-    {
       "name": "Interiority Wellness Sangha",
       "city": "West Chester",
       "region": "Ohio",
@@ -2540,13 +2520,13 @@
     },
     {
       "name": "Trikaya Zen Center",
-      "city": "Seattle",
+      "city": "Tacoma",
       "region": "Washington",
       "lineage": "White Plum (Maezumi lineage)",
-      "address": "Seattle, WA",
+      "address": "2710 N Madison St, Tacoma, WA",
       "url": "https://trikayazencenter.org/",
-      "source_url": "https://whiteplum.org/membership-list-public/",
-      "notes": "White Plum Asanga; teacher Rich Taido Christofferson."
+      "source_url": "https://trikayazencenter.org/",
+      "notes": "Current center site identifies a Soto Zen community in the Maezumi–White Plum lineage; its schedule text conflicts on Saturday versus Sunday, so confirm before visiting (checked 2026-10-08)."
     },
     {
       "name": "Banyan Dharma House",

@@ -9,25 +9,25 @@ establish a group's current activity, lineage, or safeguarding.
 
 | Check | Result |
 |---|---:|
-| Place records | 1,684 |
-| Distinct preferred URLs checked | 1,358 |
-| URLs returning 2xx/3xx | 1,140 |
-| URLs returning 404/410 | 5 (used by 6 records) |
+| Place records | 1,676 |
+| Distinct preferred URLs checked | 1,352 |
+| URLs returning 2xx/3xx | 1,141 |
+| URLs returning 404/410 | 2 (used by 2 records) |
 | URLs blocked or rate limited | 20 (used by 22 records) |
-| URLs with inconclusive network/server results | 193 (used by 206 records) |
+| URLs with inconclusive network/server results | 189 (used by 201 records) |
 | Records with no preferred URL | 9 |
-| Records with only a `popular`-class citation | 462 |
-| Records needing an item-level check because their sole citation is broad | 203 |
-| Records queued to check first (overlapping signals combined) | 671 |
-| City-level, approximate map pins | 852 |
+| Records with only a `popular`-class citation | 460 |
+| Records needing an item-level check because their sole citation is broad | 197 |
+| Records queued to check first (overlapping signals combined) | 659 |
+| City-level, approximate map pins | 847 |
 
 Every remaining place has exactly one citation, currently attached to `coordinates`.
 That citation alone cannot establish affiliation, an active schedule, or a
-safeguarding process. The seed labels all 1,684 places `active`, but it has no
+safeguarding process. The seed labels all 1,676 places `active`, but it has no
 per-place last-checked date. The public map and exported JSON no longer expose
 that seed status as a verified claim.
 
-The 203 broad-page citations comprise 168 rows citing Plum Village's
+The 197 broad-page citations comprise 162 rows citing Plum Village's
 [monastic centres page](https://plumvillage.org/community/monastic-practice-centres)
 and 35 citing the [White Plum founder page](https://whiteplum.org/founder/).
 Those pages do not individually support all the lay groups assigned to them.
@@ -250,10 +250,12 @@ organizations. Centre Tchenrezik and the obsolete Sittard listing were removed
 after their old links disappeared and no current practice-place evidence was
 found. Missing evidence remains an uncertainty, not a conduct finding.
 
+Batch 13 checked current item-level evidence for 15 Plum Village groups, 15 White Plum-derived rows, and 15 widely known Chinese temples. Direct group pages now support the Eindhoven, Wageningen, Westfriesland, Hulsberg, Seven Sisters, Still Waters, Sollandet, Tacoma, Westhampton, Tucson, Nevada City, and Oak Park records. Two entries were removed because their own current descriptions did not support the mapped Zen-center identity or geography. Three obsolete Belgian listings and the unsupported Angoulême group were removed after they disappeared from the relevant current official directories. Donglin and Guoqing were removed as Pure Land and Tiantai institutions outside this directory’s Zen scope. The Chinese temple descriptions now distinguish active temples and historical Chan affiliation from an unverified public meditation schedule.
+
 ## Next review work
 
-Start with the 6 records whose preferred URL returned 404/410 and the 9
-without a preferred URL. Then review the 462 `popular`-only citations and 203
+Start with the 2 records whose preferred URL returned 404/410 and the 9
+without a preferred URL. Then review the 460 `popular`-only citations and 197
 broad-page citations against direct group or institutional pages. For each correction, update
 the canonical seed or raw place data, cite the direct source, and rerun the
 seed and audit. Do not infer misconduct from missing websites or policies.
