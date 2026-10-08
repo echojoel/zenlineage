@@ -1,8 +1,8 @@
 {
   "_meta": {
     "country": "Singapore",
-    "collectedAt": "2026-05-05",
-    "method": "Web research of Plum Village Joyful Garden Sangha, Soto Zen Singapore (Sotoshu directory), Dharma Drum Singapore.",
+    "collectedAt": "2026-10-08",
+    "method": "First-party check of Singapore practice, events, and contact pages on 2026-10-08.",
     "coverageEstimate": "Medium-high for institutional Zen presence. Singapore's Zen scene is small relative to its Mahayana / Theravada Buddhist communities.",
     "knownGaps": [
       "Sanbo Zen Singapore (small) not separately verified with sourceable URL.",
@@ -18,7 +18,7 @@
       "address": null,
       "url": "https://www.joyfulgarden.sg/",
       "source_url": "https://www.joyfulgarden.sg/",
-      "notes": "Active Singapore lay sangha in the Plum Village tradition. Its own site publishes current 2026 practice activities; consult it for the next gathering."
+      "notes": "A Singapore lay community following Thích Nhất Hạnh and Plum Village. The group describes monthly Days of Mindfulness but asks visitors to check the site for exact dates; no standing venue is asserted."
     },
     {
       "name": "Nihonji Soto Zen Temple",
@@ -36,9 +36,9 @@
       "region": "Singapore",
       "lineage": "Chan / Sheng-yen (Dharma Drum Mountain)",
       "address": "146B Paya Lebar Road, #06-01 Ace Building, Singapore 409017",
-      "url": "https://ddsingapore.org/contact-us",
-      "source_url": "https://ddsingapore.org/contact-us",
-      "notes": "Dharma Drum Mountain Singapore centre; organization details: https://ddsingapore.org/en/content/dharma-drum-singapore . Current Chan meditation programs are listed at https://ddsingapore.org/en/event-type/%E7%A6%85%E4%BF%AE ; check the event page for dates, with no fixed cadence asserted."
+      "url": "https://ddsingapore.org/en/event-type/%E7%A6%85%E4%BF%AE",
+      "source_url": "https://ddsingapore.org/en/event-type/%E7%A6%85%E4%BF%AE",
+      "notes": "The center publishes 2026 onsite Chan meditation classes and retreats at #06-01 Ace Building. Use its current events page for registration and dates; no fixed cadence is asserted."
     },
     {
       "name": "Fo Guang Shan Singapore",
@@ -48,17 +48,17 @@
       "address": "1 Punggol Place, Singapore 828844",
       "url": "https://www.fgs.sg/contact-1",
       "source_url": "https://www.fgs.sg/contact-1",
-      "notes": "Fo Guang Shan Singapore at 1 Punggol Place. Its contact page lists visiting information. Broad Humanistic Buddhist institution offering meditation; no recurring meditation schedule is asserted."
+      "notes": "Fo Guang Shan Singapore lists its address at 1 Punggol Place and current visitor information. This is a broad Humanistic Buddhist institution; no recurring Chan meditation schedule is asserted."
     },
     {
       "name": "Kwan Yin Chan Lin Zen Meditation Centre",
       "city": "Singapore",
       "region": "Singapore",
-      "lineage": "Kwan Um School of Zen (Korean Seon kong-an practice)",
-      "address": "21 Lorong 25 Geylang, Singapore",
-      "url": "https://www.kyclzen.org/",
-      "source_url": "https://en.wikipedia.org/wiki/Kwan_Yin_Chan_Lin",
-      "notes": "Founded 1991 by Venerable Chi Boon. Described by Wikipedia as the only Korean kong-an Zen practice centre in Singapore."
+      "lineage": "Zen meditation (current organizational lineage affiliation unconfirmed)",
+      "address": "21 Lorong 25 Geylang, Singapore 388299",
+      "url": "https://www.kyclzen.sg/singapore",
+      "source_url": "https://www.kyclzen.sg/singapore",
+      "notes": "The center’s own Singapore page lists its Geylang location at 21 Lorong 25 Geylang. Its current practice calendar was not verified in this pass; check with the center before attending."
     }
   ]
 }

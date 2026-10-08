@@ -1,8 +1,8 @@
 {
   "_meta": {
     "country": "Philippines",
-    "collectedAt": "2026-05-05",
-    "method": "Web research on Sanbo Zen lineage in the Philippines (Zen Center Manila and affiliates) and Chung Tai Philippines branch.",
+    "collectedAt": "2026-10-08",
+    "method": "First-party check of Philippine Zen group pages and current temple event/contact pages on 2026-10-08.",
     "coverageEstimate": "Medium-high for the Sanbo Zen lineage centers (Manila, Baguio, Iloilo, Cotabato, Davao). Adequate coverage of the Chung Tai institutional branch.",
     "knownGaps": [
       "Holy Mountain Zen Center referenced in brief not verified to a current independent URL; the Mountain Sangha / Baguio Zen Center may be its successor.",
@@ -18,8 +18,8 @@
       "lineage": "Sanbo Zen (Sanbo Kyodan)",
       "address": "Heroes Hill, Quezon City, Metro Manila, Philippines",
       "url": "https://zencentermanila.wordpress.com/",
-      "source_url": "https://zencentermanila.wordpress.com/a-brief-zen-history/",
-      "notes": "Sanbo Zen lineage center founded by Sr. Elaine MacInnes OLM with Yamada Koun Roshi (1976); regular Zazenkai at Heroes Hill Zendo."
+      "source_url": "https://zencentermanila.wordpress.com/",
+      "notes": "The centre identifies its Sanbō Zen International practice. Its visible site text describes weekly online practice and a suspension of in-person retreats and visitor facilities, but linked schedule material dates to 2020–21. Current online and in-person activity, venue access, and schedule remain unconfirmed."
     },
     {
       "name": "Baguio Zen Center (Mountain Sangha)",
@@ -28,8 +28,8 @@
       "lineage": "Sanbo Zen (Sanbo Kyodan)",
       "address": null,
       "url": "https://baguiozencenter.wordpress.com/",
-      "source_url": "https://baguiozencenter.wordpress.com/zen-in-the-philippines/",
-      "notes": "Mountain Sangha affiliate of the Zen Center Philippines / Sanbo Zen lineage in Baguio."
+      "source_url": "https://baguiozencenter.wordpress.com/schedule/",
+      "notes": "The center identifies the Baguio Mountain Sangha and posts a Saturday sitting schedule at St. Scholastica’s Convent, 108 Wagner Road. The schedule page has no recent date; confirm the next sitting and venue before attending."
     },
     {
       "name": "Zen Philippines (Zen Center of Oriental Spirituality)",
@@ -39,7 +39,7 @@
       "address": null,
       "url": "https://www.zenphilippines.org.ph/",
       "source_url": "https://www.zenphilippines.org.ph/about-us",
-      "notes": "Founding Sanbo Zen sangha in the Philippines (1976) under Sr. Elaine MacInnes / Yamada Koun Roshi lineage; community of zen practitioners."
+      "notes": "The center identifies its Sanbo Zen lineage and a Marikina zendo at 34 St. Claire Street, Provident Village. Its page contains conflicting Sunday cadence descriptions; check the current event or orientation page for the next in-person session."
     },
     {
       "name": "Iloilo Zen Center",
@@ -47,9 +47,9 @@
       "region": "Western Visayas",
       "lineage": "Sanbo Zen (Sanbo Kyodan)",
       "address": null,
-      "url": "https://zencentermanila.wordpress.com/",
-      "source_url": "https://zencentermanila.wordpress.com/a-brief-zen-history/",
-      "notes": "Sanbo Zen affiliate consolidated under Zen Center Manila by Elda Paz Perez, 2014."
+      "url": "https://zencentermanila.wordpress.com/zen-centers/",
+      "source_url": "https://zencentermanila.wordpress.com/zen-centers/",
+      "notes": "Zen Center Manila’s affiliate page lists an Iloilo group, but the listing supplies no dated current schedule or venue confirmation. Current local practice is unverified; the city pin is approximate."
     },
     {
       "name": "Davao Zen Center",
@@ -57,9 +57,9 @@
       "region": "Davao Region",
       "lineage": "Sanbo Zen (Sanbo Kyodan)",
       "address": null,
-      "url": "https://zencentermanila.wordpress.com/",
-      "source_url": "https://zencentermanila.wordpress.com/a-brief-zen-history/",
-      "notes": "Sanbo Zen affiliate consolidated under Zen Center Manila by Elda Paz Perez, 2014."
+      "url": "https://zencentermanila.wordpress.com/zen-centers/",
+      "source_url": "https://zencentermanila.wordpress.com/zen-centers/",
+      "notes": "Zen Center Manila’s affiliate page lists a Davao group, but the listing supplies no dated current schedule or venue confirmation. Current local practice is unverified; the city pin is approximate."
     },
     {
       "name": "Ocean Sky Chan Monastery (Chung Tai Philippines)",
@@ -67,9 +67,9 @@
       "region": "Metro Manila",
       "lineage": "Chan / Linji (Chung Tai Shan)",
       "address": "716 Jose Abad Santos St., Little Baguio, San Juan, Metro Manila, Philippines",
-      "url": "https://oceanskyzen.org/wp/?page_id=99",
-      "source_url": "https://oceanskyzen.org/wp/?page_id=99",
-      "notes": "Chung Tai affiliated Chan monastery. Its events page lists 2026 Chan retreats: https://oceanskyzen.org/wp/?page_id=149 . The Chung Tai international directory also lists the Philippines centre: https://www.ctworld.org/english-96/html/03_Centers.html ."
+      "url": "https://oceanskyzen.org/wp/?page_id=149",
+      "source_url": "https://oceanskyzen.org/wp/?page_id=149",
+      "notes": "The monastery’s own site identifies its Chung Tai Chan affiliation and publishes 2026 retreat notices. Its site lists 716 Jose Abad Santos Street, Little Baguio, San Juan; confirm event dates with the monastery."
     },
     {
       "name": "Foguangshan IBPS Manila (Mabuhay Temple)",
@@ -79,7 +79,7 @@
       "address": "656 Pablo Ocampo Sr. Avenue, Malate, Manila",
       "url": "https://fgs-ph.com/",
       "source_url": "https://fgs-ph.com/",
-      "notes": "Fo Guang Shan Mabuhay Temple, a Humanistic Buddhist institution in Manila. Its site lists visiting hours Tuesday to Sunday, 09:00–17:00. Published address references conflict between 656 and 640 Pablo Ocampo Sr. Avenue; retained the existing address. No current meditation schedule was verified."
+      "notes": "Fo Guang Shan’s Manila temple publishes visiting information and address details. It is a broad Humanistic Buddhist institution; no recurring Zen or Chan meditation schedule is asserted."
     }
   ]
 }

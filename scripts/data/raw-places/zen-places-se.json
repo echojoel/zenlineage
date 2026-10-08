@@ -213,14 +213,14 @@
       "notes": "Plum Village tradition sangha (online + Stockholm)"
     },
     {
-      "name": "Stockholms Zengrupp (Ordinary Mind Zen)",
+      "name": "Stockholms Zengrupp",
       "city": "Stockholm",
       "region": "Stockholms län",
-      "lineage": "Ordinary Mind Zen (Joko Beck lineage)",
-      "address": null,
-      "url": "https://zenstockholm.nu/",
-      "source_url": "https://ordinarymind.se/lokalgrupper/ordinary-mind-stockholm",
-      "notes": "Ordinary Mind Zen Stockholm group"
+      "lineage": "Sōtō / Deshimaru (Swedish Soto-Zen Association / AZI; connected with Kanshoji)",
+      "address": "Erstagatan 28, Stockholm",
+      "url": "https://zenstockholm.nu/verksamhet-i-stockholm/",
+      "source_url": "https://zenstockholm.nu/",
+      "notes": "The group's own site identifies it as part of the Swedish Soto-Zen Association, an AZI branch, and says it is connected with Kanshoji. Its Stockholm page publishes the address and practice times; no separate schedule check is encoded as a verified 2026 timetable."
     }
   ]
 }

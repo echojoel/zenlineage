@@ -549,6 +549,10 @@ export const SRC_FGS_TORONTO = "src_fgs_toronto";
 export const SRC_LONDON_ZEN_CA = "src_london_zen_ca";
 export const SRC_MONTREAL_ZEN = "src_montreal_zen";
 export const SRC_ROCKY_MOUNTAIN_CA = "src_rocky_mountain_ca";
+export const SRC_BUSSHINJI_BRAZIL = "src_busshinji_brazil";
+export const SRC_CENTRO_ZEN_MEXICO_SZBA = "src_centro_zen_mexico_szba";
+export const SRC_ZEN_MONTANAS_Y_MAR = "src_zen_montanas_y_mar";
+export const SRC_ZEN_VIENTO_DEL_SUR = "src_zen_viento_del_sur";
 export const SRC_TORONTO_ZEN = "src_toronto_zen";
 export const SRC_WHITE_WIND = "src_white_wind";
 export const SRC_ZEN_BUDDHIST_TORONTO = "src_zen_buddhist_toronto";
@@ -1782,7 +1786,15 @@ export const TEMPLE_SOURCES: {
     { id: SRC_DHARMA_SANGHA_GOTTINGEN, type: "website", title: "Dharma-Sangha — community and lineage", author: "Dharma-Sangha", url: "https://www.dharma-sangha.de/uber-uns/dharma-sangha", publicationDate: "", reliability: "primary" },
     { id: SRC_ZENKREIS_BREMEN, type: "website", title: "Zen-Kreis Bremen — practice times", author: "Zen-Kreis Bremen", url: "https://zenkreis-bremen.de/angebot/ubungszeiten/", publicationDate: "", reliability: "primary" },
     { id: SRC_WOLKENTOR, type: "website", title: "Wolkentor Zen-Tempel — calendar", author: "Wolkentor Zen-Tempel", url: "https://wolkentor-tempel.de/kalender-3/", publicationDate: "", reliability: "primary" },
-    { id: SRC_COEUR_SANGHAS_MILLE_PETALES, type: "website", title: "Cœur des Sanghas Alsace — Jardin aux Mille Pétales", author: "Cœur des Sanghas Alsace", url: "https://sites.google.com/view/coeur-des-sanghas-alsace/les-sanghas/jardin-aux-mille-petales", publicationDate: "", reliability: "primary" },
+    { id: SRC_COEUR_SANGHAS_MILLE_PETALES, type: "website", title: "Cœur des Sanghas Alsace — Jardin aux Mille Pétales", author: "Cœur des Sanghas Alsace", url: "https://sites.google.com/view/coeur-des-sanghas-alsace/les-sanghas/mille-p%C3%A9tales", publicationDate: "", reliability: "primary" },
+    { id: "src_stockholms_zengrupp", type: "website", title: "Stockholms Zengrupp — affiliation, location and practice", author: "Stockholms Zengrupp", url: "https://zenstockholm.nu/", publicationDate: "", reliability: "primary" },
+    { id: "src_nathagi_zen", type: "website", title: "Zen á Íslandi — Nátthagi practice and current notices", author: "Zen á Íslandi — Nátthagi", url: "https://www.zen.is/", publicationDate: "2026", reliability: "primary" },
+    { id: "src_teesside_group", type: "website", title: "Teesside Serene Reflection Meditation Group — venue and practice", author: "Teesside Serene Reflection Meditation Group", url: "https://www.northeastserenereflection.org.uk/teesside", publicationDate: "", reliability: "primary" },
+    { id: "src_sangha_valence", type: "website", title: "Sangha de Valence — group activity and practice", author: "Sangha de Valence", url: "https://sanghadevalence.jimdofree.com/activit%C3%A9s/vie-de-la-sangha/", publicationDate: "2026", reliability: "primary" },
+    { id: "src_kannon_warsaw", type: "website", title: "Kannon Poland — Warsaw practice location", author: "Buddyjska Wspólnota Zen Kannon", url: "https://www.kannon.pl/warszawa/", publicationDate: "2025-09-08", reliability: "primary" },
+    { id: "src_dublin_zen_centre", type: "website", title: "Dublin Zen Centre — location and schedule", author: "Zen Buddhism Ireland", url: "https://www.zenbuddhism.ie/dublin-zen-centre/", publicationDate: "", reliability: "primary" },
+    { id: "src_kannon_zielona_gora", type: "website", title: "Kannon Poland — Jasień/Żary group near Zielona Góra", author: "Buddyjska Wspólnota Zen Kannon", url: "https://www.kannon.pl/zielona-gora/", publicationDate: "2025-08-30", reliability: "primary" },
+    { id: "src_drugi_brzeg_wroclaw", type: "website", title: "Sangha Drugi Brzeg — practice in Wrocław", author: "Sangha Drugi Brzeg", url: "https://sangha.wroclaw.pl/", publicationDate: "", reliability: "primary" },
     { id: SRC_MOMENT_PRESENT_ROANNE, type: "document", title: "Roanne-area cultural events leaflet — Moment Présent sangha", author: "Roanne event organizers", url: "https://cms-assets.webediamovies.pro/production/1446/4e28367058f2fa16e6f18d406ee113fd.pdf", publicationDate: "2025", reliability: "secondary" },
     {
       id: SRC_ZEN_SANGHA_BELGIUM, type: "website", title: "Zen Sangha Belgium — local groups and lineage", author: "Zen Sangha Belgium", url: "https://www.zensangha.be/", publicationDate: "", reliability: "authoritative",
@@ -1873,6 +1885,10 @@ export const TEMPLE_SOURCES: {
     { id: SRC_LONDON_ZEN_CA, type: "website", title: "London Zen Centre — current events", author: "London Zen Centre", url: "https://londonzencentre.org/events", publicationDate: "", reliability: "authoritative" },
     { id: SRC_MONTREAL_ZEN, type: "website", title: "Montreal Zen Center — current calendar", author: "Montreal Zen Center", url: "https://zenmontreal.org/calendar.html", publicationDate: "", reliability: "authoritative" },
     { id: SRC_ROCKY_MOUNTAIN_CA, type: "website", title: "Rocky Mountain Zen — current practice", author: "Rocky Mountain Zen", url: "https://rockymountainzen.weebly.com/", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_BUSSHINJI_BRAZIL, type: "website", title: "Templo Busshinji — ceremonies and sesshin information", author: "Templo Busshinji", url: "https://sotozen.org.br/cerimonias-do-templo-busshinji/", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_CENTRO_ZEN_MEXICO_SZBA, type: "website", title: "Soto Zen Buddhist Association — El Centro Zen de México profile", author: "Soto Zen Buddhist Association", url: "https://www.szba.org/el-centro-zen-de-mexico-ar", publicationDate: "", reliability: "authoritative" },
+    { id: SRC_ZEN_MONTANAS_Y_MAR, type: "website", title: "Zen Montañas y Mar — retreats and activities", author: "Zen Montañas y Mar", url: "https://www.zenmontanasymar.org/retiros-y-actividades/", publicationDate: "2026", reliability: "authoritative" },
+    { id: SRC_ZEN_VIENTO_DEL_SUR, type: "website", title: "Zen Viento del Sur — about the sangha", author: "Zen Viento del Sur", url: "https://zen-vientodelsur.com.ar/?page_id=8", publicationDate: "", reliability: "authoritative" },
     { id: SRC_TORONTO_ZEN, type: "website", title: "Toronto Zen Centre — current schedule", author: "Toronto Zen Centre", url: "https://torontozen.org/schedule.html", publicationDate: "", reliability: "authoritative" },
     { id: SRC_WHITE_WIND, type: "website", title: "White Wind Zen Community — centres and schedules", author: "White Wind Zen Community", url: "https://wwzc.org/daily-schedules/", publicationDate: "", reliability: "authoritative" },
     { id: SRC_ZEN_BUDDHIST_TORONTO, type: "website", title: "Zen Buddhist Temple Toronto — practice", author: "Zen Buddhist Temple", url: "https://www.zenbuddhisttemple.org/toronto", publicationDate: "", reliability: "authoritative" },
@@ -2181,6 +2197,87 @@ export const TEMPLE_SOURCES: {
       author: "Order of Interbeing Indonesia",
       url: "https://cms.ordinterbeing.id/jadwal/",
       publicationDate: "2026",
+      reliability: "authoritative",
+    },
+    {
+      id: "src_zen_center_manila",
+      type: "website",
+      title: "Zen Center Manila — current practice and affiliate information",
+      author: "Zen Center Manila",
+      url: "https://zencentermanila.wordpress.com/",
+      publicationDate: "",
+      reliability: "authoritative",
+    },
+    {
+      id: "src_zen_manila_affiliates",
+      type: "website",
+      title: "Zen Center Manila — affiliate groups",
+      author: "Zen Center Manila",
+      url: "https://zencentermanila.wordpress.com/zen-centers/",
+      publicationDate: "",
+      reliability: "authoritative",
+    },
+    {
+      id: "src_baguio_zen_center",
+      type: "website",
+      title: "Baguio Zen Center — lineage history and affiliated sangha",
+      author: "Baguio Zen Center",
+      url: "https://baguiozencenter.wordpress.com/zen-in-the-philippines/",
+      publicationDate: "",
+      reliability: "authoritative",
+    },
+    {
+      id: "src_baguio_zen_schedule",
+      type: "website",
+      title: "Baguio Zen Center — sitting schedule and venue",
+      author: "Baguio Zen Center",
+      url: "https://baguiozencenter.wordpress.com/schedule/",
+      publicationDate: "",
+      reliability: "authoritative",
+    },
+    {
+      id: "src_ocean_sky_chan_events",
+      type: "website",
+      title: "Ocean Sky Chan Monastery — events and retreats",
+      author: "Ocean Sky Chan Monastery",
+      url: "https://oceanskyzen.org/wp/?page_id=149",
+      publicationDate: "2026",
+      reliability: "authoritative",
+    },
+    {
+      id: "src_ddm_singapore_events",
+      type: "website",
+      title: "Dharma Drum Singapore — Chan practice events",
+      author: "Dharma Drum Singapore",
+      url: "https://ddsingapore.org/en/event-type/%E7%A6%85%E4%BF%AE",
+      publicationDate: "2026",
+      reliability: "authoritative",
+    },
+    {
+      id: "src_kosen_sangha_events_2026",
+      type: "website",
+      title: "Kōsen Sangha Argentina — 2026 events calendar",
+      author: "Kōsen Sangha Argentina",
+      url: "https://zen-deshimaru.com.ar/eventos/lista/?tribe-bar-date=2026-03-01",
+      publicationDate: "2026",
+      reliability: "authoritative",
+    },
+    {
+      id: "src_zen_philippines",
+      type: "website",
+      title: "Zen Philippines — About and practice information",
+      author: "Zen Philippines",
+      url: "https://www.zenphilippines.org.ph/about-us",
+      publicationDate: "",
+      reliability: "authoritative",
+    },
+    {
+      id: "src_kycl_singapore",
+      type: "website",
+      title: "Kwan Yin Chan Lin — Singapore contact details",
+      author: "Kwan Yin Chan Lin Zen Meditation Centre",
+      url: "https://www.kyclzen.sg/singapore",
+      publicationDate: "",
       reliability: "authoritative",
     },
     {
@@ -5045,9 +5142,9 @@ export const SEED_TEMPLES: TempleSeed[] = [
     foundedPrecision: "circa",
     schoolSlug: "soto",
     status: "active",
-    sourceId: SRC_SOTOZEN_EUROPE,
+    sourceId: SRC_BUSSHINJI_BRAZIL,
     sourceExcerpt:
-      "Templo Busshinji (佛心寺) in the Liberdade neighbourhood of São Paulo — the central Sōtō Zen temple for South America, listed by Sōtōshū as the regional administrative seat.",
+      "Templo Busshinji (佛心寺) in Liberdade, São Paulo, is the Sōtōshū South America regional headquarters. The temple's current ceremonies page lists temple ceremonies and visitor hours. Its sesshin page says sesshin has not been offered in recent years and may return in future; a current recurring public zazen schedule is not established by these pages. Treat this as a temple listing, not a verified public sitting schedule. Sources: https://sotozen.org.br/cerimonias-do-templo-busshinji/ and https://sotozen.org.br/seshin/.",
     url: "https://sotozen.org.br/",
   },
   {
@@ -5327,10 +5424,10 @@ export const SEED_TEMPLES: TempleSeed[] = [
     foundedPrecision: null,
     schoolSlug: "sanbo-zen",
     status: "active",
-    sourceId: SRC_DIAMOND_SANGHA,
+    sourceId: SRC_ZEN_VIENTO_DEL_SUR,
     sourceExcerpt:
-      "Zen Viento del Sur in Villa Urquiza, Buenos Aires — Diamond Sangha (Sangha Diamante) community led with Roshi Daniel Terragno; daily Zoom zazen, weekly Sunday in-person sittings, and Spanish translations of Aitken Roshi's writings.",
-    url: "http://www.zen-vientodelsur.com.ar/",
+      "Zen Viento del Sur in Buenos Aires — its first-party page identifies it as a Sangha Diamante community, describes weekly zazen and monthly zazenkai, and says it meets weekly online with its teacher. The page gives no public meeting times or venue; current public in-person access and the city pin’s venue meaning remain unverified. https://zen-vientodelsur.com.ar/?page_id=8",
+    url: "https://zen-vientodelsur.com.ar/?page_id=8",
   },
   {
     slug: "zen-montanas-y-mar",
@@ -5343,10 +5440,10 @@ export const SEED_TEMPLES: TempleSeed[] = [
     foundedPrecision: null,
     schoolSlug: "sanbo-zen",
     status: "active",
-    sourceId: SRC_DIAMOND_SANGHA,
+    sourceId: SRC_ZEN_MONTANAS_Y_MAR,
     sourceExcerpt:
-      "Zen Montañas y Mar in Santiago, Chile — Diamond Sangha lineage sangha guided by Roshi Daniel Terragno; offers regular zazen and seasonal sesshins.",
-    url: "http://www.zenmontanasymar.org/",
+      "Zen Montañas y Mar in Chile — its current activities page advertises an August 2026 sesshin at Casa Guangualí. An older site archive says the community's Circulos weekly sittings were suspended until further notice. The checked pages do not establish a recurring public Santiago venue; the Santiago city pin is approximate and does not identify the retreat site. Its Daniel Terragno profile describes his Diamond Sangha connection and ongoing relationship with the group. Sources: https://www.zenmontanasymar.org/retiros-y-actividades/, https://www.zenmontanasymar.org/category/uncategorized/, https://www.zenmontanasymar.org/daniel-terragno-roshi/.",
+    url: "https://www.zenmontanasymar.org/",
   },
 
   // ─── Chozen-ji (Omori Sogen Rinzai) ──────────────────────────────────

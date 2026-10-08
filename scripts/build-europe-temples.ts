@@ -574,6 +574,17 @@ function pickSourceId(sourceUrl: string, lineage: string): string {
     return "src_uubf_practice_groups";
   if (u.includes("cms.ordinterbeing.id/jadwal"))
     return "src_order_interbeing_indonesia";
+  if (u.includes("zencentermanila.wordpress.com/zen-centers"))
+    return "src_zen_manila_affiliates";
+  if (u.includes("zencentermanila.wordpress.com"))
+    return "src_zen_center_manila";
+  if (u.includes("baguiozencenter.wordpress.com/schedule"))
+    return "src_baguio_zen_schedule";
+  if (u.includes("baguiozencenter.wordpress.com"))
+    return "src_baguio_zen_center";
+  if (u.includes("zenphilippines.org.ph/about-us"))
+    return "src_zen_philippines";
+  if (u.includes("kyclzen.sg/singapore")) return "src_kycl_singapore";
   if (u.includes("bodhizendo.org/index.php/en")) return "src_bodhi_zendo";
   if (u.includes("ddmmy.org/contact-us")) return "src_ddm_malaysia";
   if (u.includes("ctworld.org/english-96/html/07_schedule.html")) return "src_chung_tai_puli_schedule";
@@ -600,9 +611,12 @@ function pickSourceId(sourceUrl: string, lineage: string): string {
   if (u.includes("pjfgs.org/online-donation/fgs-directory"))
     return "src_fgs_malaysia_directory";
   if (u.includes("kyclzen.sg/malaysia")) return "src_kycl_malaysia";
+  if (u.includes("oceanskyzen.org/wp/?page_id=149"))
+    return "src_ocean_sky_chan_events";
   if (u.includes("oceanskyzen.org/wp/?page_id=99"))
     return "src_ocean_sky_chan";
   if (u.includes("fgs-ph.com")) return "src_fgs_philippines";
+  if (u.includes("ddsingapore.org/en/event-type")) return "src_ddm_singapore_events";
   if (u.includes("ddsingapore.org/contact-us")) return "src_ddm_singapore";
   if (u.includes("fgs.sg/contact-1")) return "src_fgs_singapore";
 
@@ -618,6 +632,14 @@ function pickSourceId(sourceUrl: string, lineage: string): string {
   if (u.includes("zenchile.cl/projects-6")) return "src_shoden_chile_site";
   if (u.includes("kannon.pl/centrum-zen-kaciki"))
     return "src_kannon_kaciki_site";
+  if (u.includes("zenstockholm.nu")) return "src_stockholms_zengrupp";
+  if (u.includes("zen.is/")) return "src_nathagi_zen";
+  if (u.includes("northeastserenereflection.org.uk/teesside")) return "src_teesside_group";
+  if (u.includes("sanghadevalence.jimdofree.com")) return "src_sangha_valence";
+  if (u.includes("kannon.pl/warszawa")) return "src_kannon_warsaw";
+  if (u.includes("zenbuddhism.ie/dublin-zen-centre")) return "src_dublin_zen_centre";
+  if (u.includes("kannon.pl/zielona-gora")) return "src_kannon_zielona_gora";
+  if (u.includes("sangha.wroclaw.pl")) return "src_drugi_brzeg_wroclaw";
   if (u.includes("greatwave.org/locations")) return "src_great_wave_site";
   if (u.includes("whiteplum.org/membership-list-mobile/user/460"))
     return "src_empty_bowl_whiteplum";
@@ -826,7 +848,7 @@ function pickSourceId(sourceUrl: string, lineage: string): string {
   if (u.includes("dharma-sangha.de/uber-uns/dharma-sangha")) return "src_dharma_sangha_gottingen";
   if (u.includes("zenkreis-bremen.de/angebot/ubungszeiten")) return "src_zenkreis_bremen";
   if (u.includes("wolkentor-tempel.de/kalender-3")) return "src_wolkentor";
-  if (u.includes("coeur-des-sanghas-alsace/les-sanghas/jardin-aux-mille-petales")) return "src_coeur_sanghas_mille_petales";
+  if (u.includes("coeur-des-sanghas-alsace/les-sanghas/mille-p")) return "src_coeur_sanghas_mille_petales";
   if (u.includes("cms-assets.webediamovies.pro/production/1446/4e28367058f2fa16e6f18d406ee113fd.pdf")) return "src_moment_present_roanne";
   if (u.includes("zensangha.be")) return "src_zen_sangha_belgium";
   if (u.includes("meetup.com/zazen-copenhagen")) return "src_big_heart_copenhagen";
@@ -873,6 +895,10 @@ function pickSourceId(sourceUrl: string, lineage: string): string {
   if (u.includes("daisen.eu")) return "src_daisen";
   if (u.includes("zendogensangha.be")) return "src_zen_dogen_belgium";
   if (u.includes("zenmeditatiehasselt.be")) return "src_gyoji";
+  if (u.includes("zenmontanasymar.org")) return "src_zen_montanas_y_mar";
+  if (u.includes("zen-vientodelsur.com.ar")) return "src_zen_viento_del_sur";
+  if (u.includes("/el-centro-zen-de-mexico-ar")) return "src_centro_zen_mexico_szba";
+  if (u.includes("sotozen.org.br")) return "src_busshinji_brazil";
   if (u.includes("mosteiroeishoji.org")) return "src_eishoji";
   if (u.includes("viazen.org.br")) return "src_via_zen_br";
   if (u.includes("zendocuritiba.com.br")) return "src_zendo_curitiba";
@@ -928,6 +954,7 @@ function pickSourceId(sourceUrl: string, lineage: string): string {
   if (u.includes("rinzaiji.org")) return "src_rinzaiji";
 
   // ── Pan-European / sect networks ────────────────────────────────────
+  if (u.includes("zen-deshimaru.com.ar/eventos/lista")) return "src_kosen_sangha_events_2026";
   if (u.includes("zen-deshimaru.com")) return "src_kosen_sangha";
   if (u.includes("kanshoji.org")) return "src_kanshoji";
   if (u.includes("zen-road.org")) return "src_zen_road";
@@ -1040,6 +1067,14 @@ function pickSourceId(sourceUrl: string, lineage: string): string {
 // this pin is the place itself, verified against a named source.
 const MANUAL_COORDS: Record<string, ManualCoord> = {
   "Taisenji — Mokusho Zen House": [47.5186097, 19.1621857], // OSM place of worship, Rákosi út 77
+  "Stockholms Zengrupp": [59.3135399, 18.0901083], // Erstagatan 28, published group venue
+  "Zen á Íslandi – Nátthagi (Night Pasture)": [64.1168872, -21.7854704], // Klettháls 1, published group venue
+  "Teesside Serene Reflection Meditation Group": [54.5543566, -1.2587529], // Middlesbrough Quaker Meeting House, 131 Cambridge Road
+  "Buddyjska Wspólnota Zen Kannon — Warszawa": [52.2246106, 21.0166778], // Wilcza 27B, published group venue
+  "Baguio Zen Center (Mountain Sangha)": [16.4022859, 120.6037359, "city"], // Wagner Road, approximate meeting-area pin
+  "Zen Philippines (Zen Center of Oriental Spirituality)": [14.6298341, 121.0881418, "city"], // St. Claire Street, Provident Villages, Marikina
+  "Dharma Drum Mountain Singapore": [1.3278742, 103.8907961, "city"], // 146B Paya Lebar Road, Ace Building
+  "Kwan Yin Chan Lin Zen Meditation Centre": [1.3142791, 103.8825277, "city"], // Lorong 25 Geylang, approximate venue pin
   // Current meeting addresses resolved in OpenStreetMap on 2026-10-08.
   "Great Wave Zen Sangha": [43.9580256, -86.4493713],
   "Empty Bowl Zendo": [40.7956144, -74.4794622],
