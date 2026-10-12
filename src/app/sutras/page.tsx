@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "@/components/Link";
-import { eq, sql } from "drizzle-orm";
+import { and, eq, sql } from "drizzle-orm";
 import { db } from "@/db";
 import { teachingContent, teachings } from "@/db/schema";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
@@ -34,7 +34,7 @@ export default async function SutrasIndexPage() {
       teachingContent,
       eq(teachingContent.teachingId, teachings.id)
     )
-    .where(eq(teachings.type, "sutra"))
+    .where(and(eq(teachings.type, "sutra"), eq(teachings.published, true)))
     .groupBy(teachings.collection);
 
   const countByCollection = new Map<string, number>();

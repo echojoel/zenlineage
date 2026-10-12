@@ -1,6 +1,6 @@
-import { inArray } from "drizzle-orm";
+import { eq, inArray } from "drizzle-orm";
 import { db } from "@/db";
-import { masters, masterTransmissions } from "@/db/schema";
+import { masters, masterTransmissions, teachings } from "@/db/schema";
 import { computeLineageBoundary, LIVING_SLUGS, ROOT_SLUG } from "@/lib/lineage-boundary";
 import { ensureMasterSchema } from "./ensure-master-schema";
 
@@ -41,8 +41,22 @@ async function main() {
     await db.update(masters).set({ published: true }).where(inArray(masters.id, chunk));
   }
 
+  // A teaching follows its author across the boundary: archived with them,
+  // never deleted, and back as soon as the author is published again.
+  // Teachings with no named author (sutras, anonymous cases) stay published.
+  await db.update(teachings).set({ published: true });
+  const archivedIds = [...result.archivedIds];
+  for (let i = 0; i < archivedIds.length; i += 500) {
+    const chunk = archivedIds.slice(i, i + 500);
+    await db.update(teachings).set({ published: false }).where(inArray(teachings.authorId, chunk));
+  }
+  const archivedTeachings = await db
+    .select({ id: teachings.id })
+    .from(teachings)
+    .where(eq(teachings.published, false));
+
   console.log(
-    `[lineage-boundary] published=${result.publishedIds.size} archived=${result.archivedIds.size} living=${result.livingIds.size}`,
+    `[lineage-boundary] published=${result.publishedIds.size} archived=${result.archivedIds.size} living=${result.livingIds.size} archivedTeachings=${archivedTeachings.length}`,
   );
 }
 

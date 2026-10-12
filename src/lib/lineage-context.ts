@@ -168,7 +168,8 @@ async function loadTeachingsByAuthor(): Promise<Map<string, LineageTeaching[]>> 
       type: teachings.type,
       authorId: teachings.authorId,
     })
-    .from(teachings);
+    .from(teachings)
+    .where(eq(teachings.published, true));
 
   const withAuthor = rows.filter((r) => r.authorId);
   if (withAuthor.length === 0) return new Map();

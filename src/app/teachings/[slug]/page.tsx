@@ -33,7 +33,8 @@ import { publishedMasterPortraits } from "@/lib/published-master-portraits";
 import { featuredEncounterOrder } from "@/lib/featured-encounters";
 
 export async function generateStaticParams() {
-  const allTeachings = await db.select({ slug: teachings.slug }).from(teachings);
+  // Archived teachings (by masters beyond the lineage boundary) get no page.
+  const allTeachings = await db.select({ slug: teachings.slug }).from(teachings).where(eq(teachings.published, true));
   return allTeachings.map((t) => ({ slug: t.slug }));
 }
 
@@ -150,7 +151,7 @@ export default async function TeachingDetailPage({
       attributionStatus: teachings.attributionStatus,
     })
     .from(teachings)
-    .where(eq(teachings.slug, slug))
+    .where(and(eq(teachings.slug, slug), eq(teachings.published, true)))
     .limit(1);
 
   const teaching = teachingRows[0];
@@ -312,7 +313,7 @@ export default async function TeachingDetailPage({
               eq(teachingContent.locale, "en")
             )
           )
-          .where(inArray(teachings.id, relatedIds))
+          .where(and(inArray(teachings.id, relatedIds), eq(teachings.published, true)))
       : [];
   const relatedById = new Map(relatedRows.map((r) => [r.id, r]));
 
@@ -357,7 +358,7 @@ export default async function TeachingDetailPage({
             teachingContent,
             and(eq(teachingContent.teachingId, teachings.id), eq(teachingContent.locale, "en"))
           )
-          .where(eq(teachings.authorId, teaching.authorId))
+          .where(and(eq(teachings.authorId, teaching.authorId), eq(teachings.published, true)))
       : [];
   const sameCollectionTeachings = teaching.collection
     ? await db
@@ -373,7 +374,7 @@ export default async function TeachingDetailPage({
           teachingContent,
           and(eq(teachingContent.teachingId, teachings.id), eq(teachingContent.locale, "en"))
         )
-        .where(eq(teachings.collection, teaching.collection))
+        .where(and(eq(teachings.collection, teaching.collection), eq(teachings.published, true)))
     : [];
 
   const relatedCandidateIds = Array.from(

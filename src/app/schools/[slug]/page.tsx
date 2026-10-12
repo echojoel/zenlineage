@@ -292,7 +292,7 @@ export default async function SchoolDetailPage({ params }: { params: Promise<{ s
             teachingContent,
             and(eq(teachingContent.teachingId, teachings.id), eq(teachingContent.locale, "en"))
           )
-          .where(eq(teachings.type, "proverb"))
+          .where(and(eq(teachings.type, "proverb"), eq(teachings.published, true)))
       : [];
 
   const proverbTeachingIds = proverbRows.map((r) => r.teachingId);
@@ -439,7 +439,7 @@ export default async function SchoolDetailPage({ params }: { params: Promise<{ s
             teachingContent,
             and(eq(teachingContent.teachingId, teachings.id), eq(teachingContent.locale, "en"))
           )
-          .where(and(inArray(teachings.authorId, masterIds), eq(teachings.type, "work")))
+          .where(and(inArray(teachings.authorId, masterIds), eq(teachings.type, "work"), eq(teachings.published, true)))
       : [];
   const citedMajorTeachingIds =
     majorTeachings.length > 0

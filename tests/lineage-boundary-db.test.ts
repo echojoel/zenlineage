@@ -1,7 +1,7 @@
 import { describe, expect, it } from "vitest";
-import { eq } from "drizzle-orm";
+import { eq, isNull } from "drizzle-orm";
 import { db } from "@/db";
-import { masters } from "@/db/schema";
+import { masters, teachings } from "@/db/schema";
 import fs from "node:fs";
 import path from "node:path";
 
@@ -46,6 +46,27 @@ describe("lineage boundary (seeded DB)", () => {
     expect(pub.length).toBeLessThan(510);
     expect(archived.length).toBeGreaterThan(60);
     expect(archived.length).toBeLessThan(130);
+  });
+});
+
+describe("teachings follow their author across the boundary", () => {
+  it("archives every teaching by an archived master, and only those", async () => {
+    const rows = await db
+      .select({ published: teachings.published, authorPublished: masters.published })
+      .from(teachings)
+      .innerJoin(masters, eq(masters.id, teachings.authorId));
+    const archivedAuthor = rows.filter((r) => r.authorPublished === false);
+    expect(archivedAuthor.length).toBeGreaterThan(0);
+    expect(archivedAuthor.every((r) => r.published === false)).toBe(true);
+    expect(rows.filter((r) => r.authorPublished).every((r) => r.published === true)).toBe(true);
+  });
+
+  it("keeps teachings with no named author published", async () => {
+    const anonymous = await db
+      .select({ published: teachings.published })
+      .from(teachings)
+      .where(isNull(teachings.authorId));
+    expect(anonymous.every((r) => r.published === true)).toBe(true);
   });
 });
 

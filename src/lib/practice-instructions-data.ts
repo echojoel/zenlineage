@@ -61,7 +61,7 @@ export async function loadPracticeInstructions(
       teachingContent,
       and(eq(teachingContent.teachingId, teachings.id), eq(teachingContent.locale, "en"))
     )
-    .where(inArray(teachings.slug, slugs));
+    .where(and(inArray(teachings.slug, slugs), eq(teachings.published, true)));
 
   const teachingIds = rows.map((r) => r.teachingId);
 

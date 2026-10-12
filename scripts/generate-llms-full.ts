@@ -99,7 +99,8 @@ async function main() {
       .where(eq(masterBiographies.locale, "en")),
     db
       .select({ id: teachings.id, slug: teachings.slug, type: teachings.type, authorId: teachings.authorId })
-      .from(teachings),
+      .from(teachings)
+      .where(eq(teachings.published, true)),
     db
       .select({ teachingId: teachingContent.teachingId, title: teachingContent.title, content: teachingContent.content })
       .from(teachingContent)

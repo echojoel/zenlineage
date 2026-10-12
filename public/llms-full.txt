@@ -1,14 +1,14 @@
 # Zen Lineage — Complete Reference
 
 > An open-source interactive encyclopedia of Zen Buddhism covering 465 published master profiles,
-> 25 schools, 358 teacher–student links in the published graph, and 1021 cited teachings
+> 25 schools, 358 teacher–student links in the published graph, and 944 cited teachings
 > across 2,500 years of Chán, Zen, Sŏn, and Thiền Buddhist history.
 
 Zen Lineage maps teacher–student relationships connecting Buddhist masters
 from Shakyamuni Buddha through Bodhidharma to modern teachers. The site
 records citations and marks uncertain lineage links for further review.
 
-Generated: 2026-10-08
+Generated: 2026-10-12
 
 ---
 
@@ -6444,12 +6444,6 @@ Keizan's Zazen Yōjinki ('Points to Watch in Zazen') gives the Sōtō practition
 
 'Do not think of the koans. Do not turn the mind toward enlightenment. Do not turn it away.
 
-### An Old Mirror
-
-- **Type:** proverb
-
-Study the lives of the patriarchs, as if peering into an old mirror.
-
 ### No Gaining Idea
 
 - **Attribution:** Shunryu Suzuki
@@ -6527,18 +6521,6 @@ When you sit in zazen, you are the whole cosmos sitting. There is nothing outsid
 
 During zazen, thoughts come automatically. Let them come, let them go. Do not run after them. Do not run away from them. This is the secret.
 
-### Letting Go Is Not Giving Up
-
-- **Type:** proverb
-
-Letting go is not giving up. It is opening your hands and letting life be what it is.
-
-### Zazen Is a Mirror
-
-- **Type:** proverb
-
-Zazen is like a mirror that reflects everything without judgment. In this mirror, you can see yourself as you truly are.
-
 ### Before and After Zen
 
 - **Attribution:** D.T. Suzuki
@@ -6587,18 +6569,6 @@ There are no shortcuts in Zen. If you want to walk, you must take every step you
 - **Type:** proverb
 
 You must throw yourself into practice with your whole body and mind. Half-hearted practice produces half-hearted results.
-
-### The Precepts Are Alive
-
-- **Type:** proverb
-
-The precepts are not a set of rules imposed from outside. They are descriptions of how a person of true nature naturally behaves.
-
-### Intimate with All Things
-
-- **Type:** proverb
-
-Realization is not something you acquire. It is the intimate awareness that you were never separate from all things to begin with.
 
 ### No Temple Needed
 
@@ -7788,18 +7758,6 @@ The samurai who hesitates is already dead. The swordsman who calculates—"if I 
 
 Zen is not complicated. Eat when you are hungry. Sleep when you are tired. Sit zazen when it is time to sit. The whole difficulty is that we do not do these simple things—we eat without tasting, sleep without resting, sit without sitting. To return to the simplest action, completely, is the entire teaching. The most ordinary life, lived attentively, is already the life of a Buddha.
 
-### Body and Mind Are One in Zazen
-
-- **Type:** sermon
-
-In zazen, body and mind are not separate. When you straighten the spine, you straighten the mind. When you let the breath settle naturally, the thoughts settle naturally. This is why Dogen placed such emphasis on the posture—not as a physical exercise, but as the concrete expression of awakening. The body sitting in zazen is not the container of the mind; it is the mind itself, made visible. To sit with the correct posture, in complete presence, is to realize the unity of body and mind that we call Buddha.
-
-### Always Returning to the Present Moment
-
-- **Type:** saying
-
-The practice of zazen is very simple: always returning to the present moment. When you notice that you have been carried away by your thoughts, you come back to the posture, the breathing, the present reality. This return is not a failure—it is the practice itself. Each time you return, you are practicing the fundamental gesture of awakening: letting go of illusion and coming back to what is real.
-
 ### You Can't Trade a Fart
 
 - **Attribution:** Kodo Sawaki
@@ -7918,18 +7876,6 @@ In the Soto school they say 'just sitting,' and in the Rinzai school they use ko
 - **Type:** saying
 
 During sesshin you must throw yourself entirely into practice. Forget about the outside world. Forget about your daily concerns. Each period of zazen is a matter of life and death. When you sit, sit as though your life depends on it—because it does. When you walk in kinhin, walk with the same intensity. Eat, sleep, and breathe with this one purpose: to break through the barrier of the self. If you practice sesshin in this way, even for seven days, transformation is inevitable.
-
-### On Engaged Buddhism and the Bodhisattva Path
-
-- **Type:** saying
-
-The bodhisattva does not practice in order to escape the world but in order to serve it. Zazen is not a retreat from suffering—it is the ground from which compassionate action arises. When you truly realize that self and other are not two, then the suffering of the world becomes your own suffering, and you cannot help but respond. This is the bodhisattva path: wisdom and compassion together, not one without the other. A Zen that ignores social justice is only half alive.
-
-### On the Practice of Precepts as Koans
-
-- **Type:** saying
-
-Each precept is a koan, a challenge to our understanding. 'Do not kill'—what does this really mean? It does not simply mean refraining from taking life. It means cherishing all life, nurturing all life, being life itself. When you take up a precept as a koan, you find that it opens endlessly, layer after layer. The precepts are not rules imposed from outside; they are the natural expression of an awakened life. To practice them deeply is to practice Zen itself.
 
 ### The Transmission to Mahakashyapa
 
@@ -11888,72 +11834,6 @@ Be yourself, completely yourself. The Buddha had no other plan for you. The tryi
 
 I am an imperfect teacher; I have stumbled in plain sight. Do not study my stumble — study the way I rose. The dharma is in the rising, even when the stumble was clearly mine.
 
-### The Eight Gates
-
-- **Type:** proverb
-
-Zazen, study, liturgy, art practice, body practice, work practice, the precepts, and right action — eight gates leading to one yard. Walk through each at your own pace.
-
-### Mountain and Monastery
-
-- **Type:** proverb
-
-The mountain has been at this practice longer than any teacher in the building. When the bell rings, listen for the way the mountain sits beneath it.
-
-### Camera as Cushion
-
-- **Type:** proverb
-
-Photographing the river, I sat with the river for hours. The shutter clicked once. The picture was good; the morning was the practice.
-
-### Koan and Creativity
-
-- **Type:** proverb
-
-Painting, calligraphy, theater — each can be a koan if you let the work cut you. The cut is not destruction; it is the doorway through which you stop being separate from the work.
-
-### Everyday Zen
-
-- **Type:** proverb
-
-There is no special place for practice. The kitchen, the office, the traffic jam — these are the meditation hall. The cushion is only for rehearsal.
-
-### Stop Fixing Yourself
-
-- **Type:** proverb
-
-Practice is not the work of fixing yourself. It is the work of seeing what is, including the wish to fix. Once the wish is seen clearly, the fixing-energy returns to the body as ordinary attention.
-
-### No Magic
-
-- **Type:** proverb
-
-There is no magic in this practice. There is only the willingness to feel what you are already feeling, and not run. After many years, the not-running becomes ordinary.
-
-### Relationships as Practice
-
-- **Type:** proverb
-
-Your most difficult relationship is your most reliable teacher. The cushion has been preparing you for it; the temple has only been a rehearsal.
-
-### Bearing Witness
-
-- **Type:** proverb
-
-First, do not know. Second, bear witness. Third, take action. The order is not optional; if action comes first, you become only another opinion in the world.
-
-### Street Retreat
-
-- **Type:** proverb
-
-We sat on the streets of the city without money, without robes. People passed us; nobody bowed. The dharma was on the sidewalk all the same.
-
-### Not-Knowing as a Vow
-
-- **Type:** proverb
-
-Not-knowing is not ignorance. It is a vow not to fix the situation in advance with the answers you brought from yesterday.
-
 ### Returning to Silence
 
 - **Attribution:** Dainin Katagiri
@@ -11981,24 +11861,6 @@ Sooner or later, you have to say something. Silence is the start of practice; sp
 - **Type:** proverb
 
 Practice with the spirit of an apprentice and the patience of a craftsman. The apprentice can ask any question; the craftsman keeps working through the unanswered ones.
-
-### Mind of Clover
-
-- **Type:** proverb
-
-The bodhisattva's mind is the mind of clover — small leaves, intricate, modest, useful, growing in places no one chose. Be useful in the unchosen places.
-
-### Precepts as Practice
-
-- **Type:** proverb
-
-The precepts are not laws to obey but practices to undertake. Each one is a koan in the body — solved by the way you live, not by the way you think about it.
-
-### Engaged Citizen
-
-- **Type:** proverb
-
-A Zen student is also a citizen. Sit in the morning; vote in the afternoon; protest in the evening if needed. The cushion does not absolve us from the polis.
 
 ### Zen Is Eternal Life
 
@@ -12041,42 +11903,6 @@ Zazen is the body's poetry. It is written without ink, read without eyes, and ye
 - **Type:** proverb
 
 Do not imitate your teacher's posture, voice, or favorite cup. Imitate his willingness to sit. The rest will fit your body in its own way.
-
-### Zen Without Country
-
-- **Type:** proverb
-
-Zen has no country. It puts on the language of the people in front of it. We sit in French, in Italian, in Polish — and the dharma sits in all of them, and asks for none.
-
-### Living the Questions
-
-- **Type:** proverb
-
-Live the questions for which there is no answer. The right answer would only end the question; living it brings the question itself into the breath.
-
-### Sitting in Strasbourg
-
-- **Type:** proverb
-
-On winter mornings the dojo in Strasbourg is colder than the streets. We sit in coats; we sit anyway. The cold is part of the morning; the morning is part of the practice.
-
-### Care and Precepts
-
-- **Type:** proverb
-
-The precepts are not a set of laws but a practice of care. To take a precept is to take responsibility for a kind of attention; to break a precept is to take responsibility for the breaking.
-
-### Mindful Eating
-
-- **Type:** proverb
-
-Sit with one raisin. Look at it; smell it; chew it slowly. After one raisin, the rest of the meal becomes a teacher. After many meals, the day becomes the cushion.
-
-### Pediatrician's Practice
-
-- **Type:** proverb
-
-I have practiced as a pediatrician and as a Zen teacher. The two practices wash the hands of the same person; the children have not noticed any difference.
 
 ### Painted Rice Cake
 
@@ -12414,252 +12240,6 @@ A posthumous collection of one hundred and twenty classical Zen tales as told an
 
 Thích Nhất Hạnh's 1973 introduction to Vietnamese Thiền, originally published in French as Clés pour le Zen. Distinct from his later mindfulness writings, it situates his teaching in the lineage of Linji and the Trúc Lâm tradition, and remains his clearest book-length account of kōan practice as a Mahāyāna inheritance.
 
-### Hardcore Zen: Punk Rock, Monster Movies & the Truth About Reality
-
-- **Type:** work
-
-Warner's 2003 debut: a memoir-cum-primer that runs from his Akron hardcore-punk youth and his Tokyo years at Tsuburaya Productions (Ultraman) to his ordination as a Sōtō priest under Gudō Wafu Nishijima. It introduced a generation of English-speaking readers to Nishijima's plain-spoken Dōgen and remains the standard entry point to Warner's work.
-
-### Sit Down and Shut Up: Punk Rock Commentaries on Buddha, God, Truth, Sex, Death, and Dōgen's Treasury of the Right Dharma Eye
-
-- **Type:** work
-
-Warner's 2007 follow-up to Hardcore Zen and his first sustained engagement with Dōgen's Shōbōgenzō, read fascicle by fascicle through a punk-rock lens. The book inaugurates the line of Dōgen-paraphrase writing that culminates in the Don't Be a Jerk / It Came from Beyond Zen / Other Side of Nothing trilogy.
-
-### Zen Wrapped in Karma Dipped in Chocolate: A Trip Through Death, Sex, Divorce, and Spiritual Celebrity in Search of the True Dharma
-
-- **Type:** work
-
-A memoir of the year Warner's marriage ended, his mother died, and his Tsuburaya Productions job collapsed — and what those losses revealed about the difference between Zen practice and Zen as performance. One of the few Western Zen books built around personal catastrophe rather than instruction.
-
-### Sex, Sin, and Zen: A Buddhist Exploration of Sex from Celibacy to Polyamory and Everything in Between
-
-- **Type:** work
-
-An extended treatment of the Buddhist precepts on sexual conduct from a contemporary Sōtō perspective, drawing on Dōgen, Warner's own teaching practice, and his correspondence with practitioners across orientations and arrangements. Written in the same plain-spoken register as the rest of the Hardcore Zen series.
-
-### Fundamental Wisdom of the Middle Way: Nāgārjuna's Mūlamadhyamakakārikā
-
-- **Type:** work
-
-A translation of and commentary on Nāgārjuna's foundational Madhyamaka verses, co-authored with Warner's teacher Gudō Wafu Nishijima. The volume is the principal English-language record of Nishijima's reading of Nāgārjuna alongside Dōgen, and the only Warner book co-authored with his teacher.
-
-### There Is No God and He Is Always With You: A Search for God in Odd Places
-
-- **Type:** work
-
-Warner's longest-running argument with theism and atheism alike: a sustained attempt to articulate a Zen non-theism that is also not a flat materialism. The book occasioned the Pirooz Kalayeh documentary Brad Warner's Hardcore Zen (2013).
-
-### Don't Be a Jerk: And Other Practical Advice from Dōgen, Japan's Greatest Zen Master
-
-- **Type:** work
-
-Volume one of Warner's plain-English paraphrase of Dōgen's Shōbōgenzō, working through selected fascicles with a running commentary. The book is the most accessible English-language entry into Shōbōgenzō currently in print and was followed by It Came from Beyond Zen! (2017) and The Other Side of Nothing (2022).
-
-### It Came from Beyond Zen! More Practical Advice from Dōgen, Japan's Greatest Zen Master
-
-- **Type:** work
-
-Volume two of the Shōbōgenzō paraphrase trilogy, continuing Warner's fascicle-by-fascicle reading of Dōgen. The book extends the Don't Be a Jerk format to a further set of Shōbōgenzō chapters, including the more philosophically demanding ones on time, being, and Buddha-nature.
-
-### Letters to a Dead Friend About Zen
-
-- **Type:** work
-
-An epistolary introduction to Zen practice and doctrine written as letters to Warner's recently deceased childhood friend Marky. The form lets Warner cover the foundations — sitting, the precepts, karma, the dharma of friendship — in a tone closer to private correspondence than to his earlier polemics.
-
-### The Other Side of Nothing: The Zen Ethics of Time, Space, and Being
-
-- **Type:** work
-
-Volume three of the Shōbōgenzō paraphrase trilogy, focused on the ethical implications of Dōgen's non-dual reading of time and being. Warner uses Uji, Genjōkōan, and related fascicles to develop a contemporary account of how non-duality grounds — rather than dissolves — ordinary moral life.
-
-### One Blade of Grass: Finding the Old Road of the Heart, A Zen Memoir
-
-- **Type:** work
-
-Shukman's spiritual memoir recounting his early awakening at nineteen, decades of severe eczema and depression, and the long path through Sanbō Zen training that became formal study under Joan Rieck, Rubén Habito, and Yamada Ryōun. Named a Times Literary Supplement Book of the Year on UK publication.
-
-### Original Love: The Four Inns on the Path of Awakening
-
-- **Type:** work
-
-Shukman's structured introduction to the Sanbō Zen path organised around four progressive stages — Mindfulness, Support, Absorption, and Awakening. Develops the curriculum behind the Original Love meditation programme he began articulating in 2021.
-
-### The Way — meditation app
-
-- **Type:** work
-
-A subscription meditation app co-founded and led by Shukman, released in February 2024 on iOS and Android. Structured around a single curriculum that takes practitioners from breath counting through kōan introspection in the Sanbō Zen style, with a free introductory course of twelve sessions.
-
-### In Dr No's Garden
-
-- **Type:** work
-
-Shukman's first poetry collection. Won the Jerwood Aldeburgh First Collection Prize; shortlisted for the Forward First Collection Prize; The Times and Guardian Book of the Year.
-
-### Archangel
-
-- **Type:** work
-
-A poetry collection centred on a long sequence about Anglo-Jewish men sent from Britain back to Russia in 1917 to fight in the First World War — based on research by his father, the historian Harold Shukman.
-
-### Sandstorm
-
-- **Type:** work
-
-Shukman's first novel; won the UK Authors' Club Best First Novel Award.
-
-### The Lost City
-
-- **Type:** work
-
-Shukman's second novel; a Guardian and Times Book of the Year, and a National Geographic Book of the Month in the US.
-
-### henryshukman.com — official site
-
-- **Type:** work
-
-Shukman's personal website carrying his book list, retreat schedule, the Notes from Henry newsletter, and a media archive of podcast interviews and press features.
-
-### Living Zen, Loving God
-
-- **Type:** work
-
-Habito's first major statement of the Christian-Zen path as a single integrated practice rather than two parallel disciplines. Draws on his completed Sanbō Zen kōan training under Yamada Kōun and his Jesuit theological formation.
-
-### Healing Breath: Zen for Christians and Buddhists in a Wounded World
-
-- **Type:** work
-
-A practice handbook for breath-based meditation framed through both Sanbō Zen kōan introspection and Christian contemplative theology; addresses social and ecological dimensions of practice.
-
-### Experiencing Buddhism: Ways of Wisdom and Compassion
-
-- **Type:** work
-
-An introductory survey of Buddhist traditions written for graduate religious-studies audiences; reflects Habito's joint career as Perkins School of Theology faculty and Sanbō Zen junshike.
-
-### Zen and the Spiritual Exercises: Paths of Awakening and Transformation
-
-- **Type:** work
-
-Habito's most sustained dialogue between Sanbō Zen kōan introspection and the Ignatian Spiritual Exercises — the Jesuit retreat curriculum he himself completed before leaving the Society of Jesus in 1989.
-
-### Be Still and Know: Zen and the Bible
-
-- **Type:** work
-
-A reading of selected Biblical passages through Sanbō Zen contemplative method; aimed at Christian practitioners encountering Zen practice for the first time.
-
-### Total Liberation: Zen Spirituality and the Social Dimension
-
-- **Type:** work
-
-Habito's earliest book-length treatment of the social-ethical dimension of Sanbō Zen — bodhisattva compassion as economic, ecological, and political solidarity.
-
-### Maria Kannon Zen Center — YouTube channel
-
-- **Type:** work
-
-The Maria Kannon Zen Center YouTube channel (@ZenNDCity) publishes Habito's dharma talks, chanting recordings, and orientation sessions for the Dallas sangha.
-
-### Zen: The Authentic Gate (Yamada Kōun) — co-translation
-
-- **Type:** work
-
-Rieck's co-translation, with Henry Shukman, Paul Shepherd, and Migaku Sato, of Yamada Kōun's posthumously compiled introductory dharma talks — the closest thing to an authorised English-language statement of the Sanbō Zen curriculum.
-
-### Mountain Cloud Zen Center — YouTube channel
-
-- **Type:** work
-
-The Mountain Cloud Zen Center YouTube channel publishes weekly Thursday-evening dharma talks led by Forstman as Guiding Teacher, plus occasional sesshin teisho and orientation sessions.
-
-### In the Cloud — Mountain Cloud Zen Center podcast
-
-- **Type:** work
-
-Weekly teisho podcast from Mountain Cloud Zen Center, hosted by Forstman with periodic Path(less) guest-conversation episodes. Distributes the centre's dharma talks beyond the Santa Fe sangha.
-
-### ZAZEN: Eine Einführung in Zen / An Introduction to Zen
-
-- **Type:** work
-
-A bilingual German–English introduction to zazen practice in the Sanbō Zen lineage, drawn from Sato's teisho at the Sanbō Zendō Weyarn (Domicilium) retreat centre in Bavaria.
-
-### Q und Prophetie: Studien zur Gattungs- und Traditionsgeschichte der Quelle Q
-
-- **Type:** work
-
-Sato's University of Bern doctoral monograph on the synoptic sayings-source (Q) — a standard reference in German New Testament scholarship that pre-dates his Sanbō Zen teaching career.
-
-### Zen — Way to Enlightenment
-
-- **Type:** work
-
-The book that introduced a generation of European Catholics to Zen practice as a discipline compatible with Christian contemplation. Reflects Lassalle's training under Harada, Yasutani, and Yamada Kōun.
-
-### Zen Meditation for Christians
-
-- **Type:** work
-
-The most widely-translated of Lassalle's Christian-Zen handbooks; gave practical sitting instruction within a Catholic frame at a moment when no other Western Catholic priest had completed full Sanbō Zen training.
-
-### Living in the New Consciousness
-
-- **Type:** work
-
-A late-career synthesis weaving Zen non-duality with Jean Gebser's structures-of-consciousness framework — the most philosophically expansive of Lassalle's English-language books.
-
-### Zen und christliche Mystik
-
-- **Type:** work
-
-Lassalle's sustained German-language essay on the structural parallels between Zen kenshō and the apophatic strand of Catholic mystical theology (Meister Eckhart, John of the Cross).
-
-### The Way to Contemplation: Encountering God Today
-
-- **Type:** work
-
-Jäger's first English-language book; introduces silent contemplation as practiced at Münsterschwarzach Abbey to a Catholic readership, drawing on his Sanbō Zen training under Yamada Kōun.
-
-### Contemplation: A Christian Path
-
-- **Type:** work
-
-Shorter practice handbook on silent prayer and zazen as complementary disciplines; remains widely used in German-speaking Catholic retreat programmes.
-
-### Search for the Meaning of Life: Essays and Reflections on the Mystical Experience
-
-- **Type:** work
-
-Essay collection mapping the contemplative life across Christian and Zen registers; the English translation of his German *Suche nach dem Sinn des Lebens*.
-
-### Mysticism for Modern Times: Conversations with Willigis Jäger
-
-- **Type:** work
-
-Long-form interview series with Christoph Quarch covering Jäger's break with institutional Catholic teaching authority (2002) and the founding of the Benediktushof.
-
-### Westöstliche Weisheit: Visionen einer integralen Spiritualität
-
-- **Type:** work
-
-Jäger's manifesto for an integral contemplative spirituality drawing on both Christian mysticism and Zen; gave the name to the West-Östliche Weisheit foundation he established in 2007.
-
-### Benediktushof — Centre for Meditation and Mindfulness
-
-- **Type:** work
-
-The Holzkirchen retreat centre Jäger founded in 2003 after leaving Münsterschwarzach Abbey; the largest German-language interfaith contemplation centre. Operated as a Sanbō Zen-affiliated facility until 2009, then independently.
-
-### West-Östliche Weisheit Willigis Jäger Stiftung — foundation & archive
-
-- **Type:** work
-
-The foundation Jäger established in 2007 to carry forward his teaching beyond his 2020 death; maintains the canonical archive of his written and recorded teisho and curates the Benediktushof's training programme.
-
 ### Zen Mind, Beginner's Mind
 
 - **Attribution:** Shunryu Suzuki
@@ -12702,24 +12282,6 @@ Posthumous collection edited by Steve Hagen of Katagiri's teisho on the necessit
 
 Posthumous collection edited by Andrea Martin focused on Katagiri's reading of Dōgen's Uji (Being-Time) and the practice of being-in-time.
 
-### Being Upright: Zen Meditation and the Bodhisattva Precepts
-
-- **Type:** work
-
-Anderson's most widely-used book; teaches zazen and the sixteen bodhisattva precepts as a single integrated practice — the framework of jukai ceremonies at San Francisco Zen Center.
-
-### Warm Smiles from Cold Mountains: Dharma Talks on Zen Meditation
-
-- **Type:** work
-
-A collection of Anderson's teisho on zazen at SFZC and the Green Gulch Farm Zen Center, edited by Susan Moon.
-
-### The Third Turning of the Wheel: Wisdom of the Samdhinirmocana Sutra
-
-- **Type:** work
-
-A teisho-based commentary on the Samdhinirmocana Sutra, the foundational Yogācāra scripture of Mahāyāna Buddhism; Anderson's most scholarly book.
-
 ### The Zen Way to the Martial Arts
 
 - **Attribution:** Taisen Deshimaru
@@ -12748,36 +12310,12 @@ Posthumous English-language collection of Deshimaru's teisho on the Hokyo Zanmai
 
 Question-and-answer format collection drawn from Deshimaru's Paris dōjō sessions; the format that most preserves his characteristic spoken voice in English translation.
 
-### Sit: Zen Teachings of Master Taisen Deshimaru
-
-- **Type:** work
-
-Coupey's compiled and edited edition of Deshimaru's English-language dharma talks — the most-used reference for the Deshimaru lineage's English-language students.
-
 ### Association Zen Internationale — zen-azi.org
 
 - **Attribution:** Taisen Deshimaru
 - **Type:** work
 
 The official site of the Association Zen Internationale, the federation Deshimaru founded in Paris in 1970; carries the dōjō directory, teaching schedule, and a substantial archive of Deshimaru's teisho transcripts.
-
-### Association Bouddhiste Zen d'Europe (ABZE) — abzen.eu
-
-- **Type:** work
-
-The European Buddhist Zen Association founded by Roland Yuno Rech as the umbrella organisation for the dōjōs in his branch of the AZI federation; carries his teisho archive and the network's calendar.
-
-### Kanshōji Zen Buddhist Monastery — kanshoji.org
-
-- **Type:** work
-
-Kanshōji, founded by Stéphane Kōsen Thibaut in 2002 in the Dordogne, the principal residential training centre of the Kōsen Sangha branch of AZI. Site carries the daily ango schedule and Kōsen-line teisho archive.
-
-### Dōjō Zen de Paris — dojozen.fr
-
-- **Type:** work
-
-The Paris dōjō founded by Deshimaru in 1972 at 175 rue de Tolbiac, which Coupey led from the late 1990s until his 2024 death; the historical seat of the AZI's English-language sangha.
 
 ### Selling Water by the River: A Manual of Zen Training
 

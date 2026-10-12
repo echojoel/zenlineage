@@ -62,7 +62,7 @@ export default async function Home() {
       teachingContent,
       and(eq(teachingContent.teachingId, teachings.id), eq(teachingContent.locale, "en"))
     )
-    .where(eq(teachings.type, "proverb"));
+    .where(and(eq(teachings.type, "proverb"), eq(teachings.published, true)));
 
   const citationRows = await db
     .select({
@@ -86,7 +86,8 @@ export default async function Home() {
     .where(
       and(
         inArray(teachings.collection, KOAN_COLLECTIONS),
-        inArray(teachings.type, ["koan", "dialogue"])
+        inArray(teachings.type, ["koan", "dialogue"]),
+        eq(teachings.published, true)
       )
     );
   const koanCount = koanCountRows.filter((k) => isPublishedTeaching({ id: k.id }, citationKeys)).length;

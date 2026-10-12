@@ -929,7 +929,8 @@ async function generateSearchIndexJson(
         eq(teachingContent.teachingId, teachings.id),
         eq(teachingContent.locale, "en")
       )
-    );
+    )
+    .where(eq(teachings.published, true));
 
   // Published master id set for the author-segment gate below.
   const publishedMasterIds = new Set(masterRows.map((m) => m.id));

@@ -57,6 +57,13 @@
       "when": 1786656973007,
       "tag": "0007_bitter_zodiak",
       "breakpoints": true
+    },
+    {
+      "idx": 8,
+      "version": "6",
+      "when": 1791815059657,
+      "tag": "0008_teaching_publication",
+      "breakpoints": true
     }
   ]
 }

@@ -88,7 +88,8 @@ export default async function SutraDetailPage({
     .where(
       and(
         eq(teachings.type, "sutra"),
-        eq(teachings.collection, entry.collection)
+        eq(teachings.collection, entry.collection),
+        eq(teachings.published, true)
       )
     );
 

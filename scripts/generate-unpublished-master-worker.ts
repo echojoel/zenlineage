@@ -2,7 +2,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { eq } from "drizzle-orm";
 import { db } from "@/db";
-import { masters } from "@/db/schema";
+import { masters, teachings } from "@/db/schema";
 
 function jsString(value: unknown): string {
   return JSON.stringify(value, null, 2);
@@ -18,7 +18,17 @@ async function main() {
     .where(eq(masters.published, false))
     .orderBy(masters.slug);
 
-  const paths = unpublished.map((m) => `/masters/${m.slug}`);
+  // Teachings are archived with their author (see compute-lineage-boundary.ts).
+  const unpublishedTeachings = await db
+    .select({ slug: teachings.slug })
+    .from(teachings)
+    .where(eq(teachings.published, false))
+    .orderBy(teachings.slug);
+
+  const paths = [
+    ...unpublished.map((m) => `/masters/${m.slug}`),
+    ...unpublishedTeachings.map((t) => `/teachings/${t.slug}`),
+  ];
 
   const worker = `const UNPUBLISHED_MASTER_PATHS = new Set(${jsString(paths)});
 
@@ -61,7 +71,7 @@ export default {
 
   const routes = {
     version: 1,
-    include: ["/masters/*"],
+    include: ["/masters/*", "/teachings/*"],
     exclude: ["/masters/*.webp", "/masters/*.svg", "/masters/thumb/*"],
   };
 
@@ -69,7 +79,7 @@ export default {
   fs.writeFileSync(path.join(targetDir, "_routes.json"), `${JSON.stringify(routes, null, 2)}\n`, "utf8");
 
   console.log(
-    `[generate-unpublished-master-worker] ${paths.length} unpublished master path(s) guarded in ${targetDir}`,
+    `[generate-unpublished-master-worker] ${unpublished.length} master and ${unpublishedTeachings.length} teaching path(s) guarded in ${targetDir}`,
   );
 }
 

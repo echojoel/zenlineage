@@ -518,7 +518,7 @@ export default async function MasterDetailPage({ params }: { params: Promise<{ s
       teachingContent,
       and(eq(teachingContent.teachingId, teachings.id), eq(teachingContent.locale, "en"))
     )
-    .where(eq(teachings.authorId, master.id));
+    .where(and(eq(teachings.authorId, master.id), eq(teachings.published, true)));
 
   const teachingIds = teachingRows.map((t) => t.id);
   const masterRoleRows =
@@ -683,7 +683,7 @@ export default async function MasterDetailPage({ params }: { params: Promise<{ s
       role: teachingMasterRoles.role,
     })
     .from(teachingMasterRoles)
-    .innerJoin(teachings, and(eq(teachings.id, teachingMasterRoles.teachingId), inArray(teachings.type, ["koan", "dialogue"])))
+    .innerJoin(teachings, and(eq(teachings.id, teachingMasterRoles.teachingId), inArray(teachings.type, ["koan", "dialogue"]), eq(teachings.published, true)))
     .leftJoin(
       teachingContent,
       and(eq(teachingContent.teachingId, teachings.id), eq(teachingContent.locale, "en"))

@@ -6,12 +6,14 @@ import { db } from "@/db";
  * existing zen.db does not need a separate `drizzle-kit migrate` step. SQLite
  * has no `ADD COLUMN IF NOT EXISTS`, so we attempt each ALTER and swallow the
  * "duplicate column" error — mirrors scripts/seed-temples.ts#ensureTempleSchema.
- * Canonical migration: drizzle/0006_lineage_boundary.sql.
+ * Canonical migrations: drizzle/0006_lineage_boundary.sql and
+ * drizzle/0008_teaching_publication.sql (the archived-teaching flag).
  */
 export async function ensureMasterSchema(): Promise<void> {
   const statements = [
     sql`ALTER TABLE masters ADD COLUMN living integer DEFAULT false NOT NULL`,
     sql`ALTER TABLE masters ADD COLUMN published integer DEFAULT true NOT NULL`,
+    sql`ALTER TABLE teachings ADD COLUMN published integer DEFAULT true NOT NULL`,
   ];
   for (const statement of statements) {
     try {

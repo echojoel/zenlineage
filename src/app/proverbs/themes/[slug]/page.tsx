@@ -64,7 +64,8 @@ async function loadTheme(slug: string) {
     .innerJoin(
       teachingContent,
       and(eq(teachingContent.teachingId, teachings.id), eq(teachingContent.locale, "en"))
-    );
+    )
+    .where(eq(teachings.published, true));
 
   // Citation gate — same publish rule used elsewhere.
   const teachingIds = proverbRows.map((p) => p.id);

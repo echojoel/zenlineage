@@ -192,6 +192,9 @@ export const teachings = sqliteTable("teachings", {
   caseNumber: text("case_number"),
   compiler: text("compiler"),
   attributionStatus: text("attribution_status"), // "verified" | "traditional" | "unresolved"
+  // Follows the author across the lineage boundary: a teaching by an archived
+  // master is archived with them. Set by scripts/compute-lineage-boundary.ts.
+  published: integer("published", { mode: "boolean" }).notNull().default(true),
 });
 
 export const teachingContent = sqliteTable("teaching_content", {

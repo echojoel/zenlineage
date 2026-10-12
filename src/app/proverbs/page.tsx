@@ -102,7 +102,7 @@ export default async function ProverbsPage() {
       teachingContent,
       and(eq(teachingContent.teachingId, teachings.id), eq(teachingContent.locale, "en"))
     )
-    .where(eq(teachings.type, "proverb"));
+    .where(and(eq(teachings.type, "proverb"), eq(teachings.published, true)));
 
   // 2. Check citation-based publishability
   const citationRows = await db
@@ -322,7 +322,8 @@ export default async function ProverbsPage() {
     .where(
       and(
         inArray(teachings.collection, KOAN_COLLECTIONS),
-        inArray(teachings.type, ["koan", "dialogue"])
+        inArray(teachings.type, ["koan", "dialogue"]),
+        eq(teachings.published, true)
       )
     );
 
@@ -383,7 +384,7 @@ export default async function ProverbsPage() {
       teachingContent,
       and(eq(teachingContent.teachingId, teachings.id), eq(teachingContent.locale, "en"))
     )
-    .where(and(eq(teachings.type, "dialogue"), inArray(teachings.slug, [...FEATURED_ENCOUNTER_SLUGS])));
+    .where(and(eq(teachings.type, "dialogue"), inArray(teachings.slug, [...FEATURED_ENCOUNTER_SLUGS]), eq(teachings.published, true)));
 
   const publishedEncounters = encounterRows.filter((item) => isPublishedTeaching({ id: item.id }, citationKeys));
   const encounterMasterIds = new Map(publishedEncounters.map((item) => {
