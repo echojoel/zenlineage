@@ -139,25 +139,38 @@ body {
 }
 .rotator-arrow:hover { opacity: 0.7; }
 
-/* Homepage footer — stats line reads as a true bottom-of-page footer
- * on every viewport. Pinned flush to the bottom edge with internal
- * padding so spacing is consistent rather than a floating row hovering
- * mid-air above the bottom edge. The centered column above keeps clear
- * via `main`'s vertical padding. */
-.home-stats {
+/* Homepage footer — stats line with the theme toggle beneath it, read
+ * as a true bottom-of-page footer on every viewport. The pair is pinned
+ * as one block so the toggle can never land on top of the stats links.
+ * The centered column above keeps clear via `main`'s bottom padding. */
+.home-main {
+  padding-bottom: 6rem;
+}
+
+.home-footer {
   position: absolute;
   bottom: 0;
   left: 0;
   right: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.75rem 1rem 0.9rem;
+}
+
+.home-stats {
   margin: 0;
-  padding: 0.75rem 1rem;
   text-align: center;
+}
+
+.home-footer .theme-toggle {
+  margin-top: 0.6rem;
 }
 
 @media (max-width: 640px) {
   .home-main {
     padding-top: 3rem;
-    padding-bottom: 4rem;
+    padding-bottom: 6rem;
   }
 
   /* On mobile the nine nav links lay out as a 3×3 grid: each cell
@@ -178,8 +191,8 @@ body {
     line-height: 1.2;
   }
 
-  .home-stats {
-    padding: 0.65rem 1rem;
+  .home-footer {
+    padding: 0.65rem 1rem 0.8rem;
   }
 }
 

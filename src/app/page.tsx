@@ -20,8 +20,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary",
     title: "Zen Buddhist Lineage & Masters | Zen Lineage",
-    description:
-      "Explore Zen Buddhist masters, lineages, schools, koans, and sūtras.",
+    description: "Explore Zen Buddhist masters, lineages, schools, koans, and sūtras.",
   },
 };
 import { sql, eq, and, inArray } from "drizzle-orm";
@@ -41,7 +40,10 @@ import { buildCitationKeySet, isPublishedTeaching } from "@/lib/publishable-cont
 export default async function Home() {
   // Counts
   const [masterRow, schoolRow, templeRow] = await Promise.all([
-    db.select({ count: sql<number>`count(*)` }).from(masters).where(eq(masters.published, true)),
+    db
+      .select({ count: sql<number>`count(*)` })
+      .from(masters)
+      .where(eq(masters.published, true)),
     db.select({ count: sql<number>`count(*)` }).from(schools),
     db.select({ count: sql<number>`count(*)` }).from(temples),
   ]);
@@ -90,12 +92,12 @@ export default async function Home() {
         eq(teachings.published, true)
       )
     );
-  const koanCount = koanCountRows.filter((k) => isPublishedTeaching({ id: k.id }, citationKeys)).length;
+  const koanCount = koanCountRows.filter((k) =>
+    isPublishedTeaching({ id: k.id }, citationKeys)
+  ).length;
 
   // Distinct countries that have at least one place of practice.
-  const countryRows = await db
-    .selectDistinct({ country: temples.country })
-    .from(temples);
+  const countryRows = await db.selectDistinct({ country: temples.country }).from(temples);
   const countryCount = countryRows.filter((r) => r.country).length;
 
   const randomPick =
@@ -295,36 +297,38 @@ export default async function Home() {
         }}
       />
 
-      {/* Stats — each metric links to its index page */}
-      <p
-        className="home-stats"
-        style={{
-          fontFamily: "var(--font-inter), sans-serif",
-          fontSize: "0.6rem",
-          letterSpacing: "0.12em",
-          textTransform: "uppercase",
-          color: "var(--ink-light)",
-          opacity: 0.7,
-        }}
-      >
-        <Link href="/masters" className="home-stats-link">
-          {counts.masters} masters
-        </Link>
-        {" · "}
-        <Link href="/schools" className="home-stats-link">
-          {counts.schools} schools
-        </Link>
-        {" · "}
-        <Link href="/lineage" className="home-stats-link">
-          {counts.transmissions} lineage links
-        </Link>
-        {" · "}
-        <Link href="/practice" className="home-stats-link">
-          {counts.temples} places of practice
-        </Link>
-      </p>
+      <footer className="home-footer">
+        {/* Stats — each metric links to its index page */}
+        <p
+          className="home-stats"
+          style={{
+            fontFamily: "var(--font-inter), sans-serif",
+            fontSize: "0.6rem",
+            letterSpacing: "0.12em",
+            textTransform: "uppercase",
+            color: "var(--ink-light)",
+            opacity: 0.7,
+          }}
+        >
+          <Link href="/masters" className="home-stats-link">
+            {counts.masters} masters
+          </Link>
+          {" · "}
+          <Link href="/schools" className="home-stats-link">
+            {counts.schools} schools
+          </Link>
+          {" · "}
+          <Link href="/lineage" className="home-stats-link">
+            {counts.transmissions} lineage links
+          </Link>
+          {" · "}
+          <Link href="/practice" className="home-stats-link">
+            {counts.temples} places of practice
+          </Link>
+        </p>
 
-      <ThemeToggle />
+        <ThemeToggle />
+      </footer>
     </main>
   );
 }

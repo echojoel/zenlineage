@@ -84,7 +84,11 @@ const articleJsonLd = {
     "A precise introduction to the history, practice, and philosophy of Chan/Zen Buddhism, with scholarly citations.",
   url: "https://zenlineage.org/about",
   image: "https://zenlineage.org/about-enso.webp",
-  author: { "@type": "Person", name: "Joel Pestana" },
+  author: {
+    "@type": "Organization",
+    name: "Zen Lineage",
+    url: "https://zenlineage.org",
+  },
   publisher: {
     "@type": "Organization",
     name: "Zen Lineage",
@@ -1087,24 +1091,6 @@ export default async function AboutPage() {
               rel="noopener noreferrer"
             >
               GitHub issues
-            </a>
-            . Compiled by{" "}
-            <a
-              href="https://github.com/echojoel"
-              className="detail-inline-link"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Joel Pestana
-            </a>
-            , student of{" "}
-            <a
-              href="https://dojozenlisboa.com/"
-              className="detail-inline-link"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Yves Shoshin Crettaz
             </a>
             .
           </p>
