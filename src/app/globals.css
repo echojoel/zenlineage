@@ -144,6 +144,7 @@ body {
  * as one block so the toggle can never land on top of the stats links.
  * The centered column above keeps clear via `main`'s bottom padding. */
 .home-main {
+  position: relative;
   padding-bottom: 6rem;
 }
 
@@ -193,6 +194,12 @@ body {
 
   .home-footer {
     padding: 0.65rem 1rem 0.8rem;
+  }
+
+  /* Keep the stats line clear of the fixed search button that floats
+   * over the bottom-right corner once the page is scrolled to the end. */
+  .home-stats {
+    padding: 0 2.75rem;
   }
 }
 
